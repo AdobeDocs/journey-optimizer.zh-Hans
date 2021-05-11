@@ -2,7 +2,7 @@
 title: 个性化语法
 description: 了解如何使用个性化语法
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 3%
@@ -111,9 +111,9 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 3 -活动ID
 4 -优惠特定属性。 可以使用取决于优惠类型支持的属性。 例如，图像`deliveryUrl`。
 
-有关Decisions API的详细信息，请参阅此[页](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+有关Decisions API的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
 
-有关“优惠表示法”的详细信息，请参阅此[页](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)。
+有关“优惠表示法”的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)。
 
 所有引用都针对优惠模式进行验证，验证机制在[此处](personalization-validation.md)中有说明。
 
