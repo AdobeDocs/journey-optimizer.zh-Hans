@@ -1,0 +1,84 @@
+---
+title: 等待活动
+description: 了解等待活动
+translation-type: tm+mt
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 4%
+
+---
+
+# 等待活动{#section_rlm_nft_dgb}
+
+![](../assets/do-not-localize/badge.png)
+
+如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时间。 有四个选项可用：
+
+* [持续时间](#duration)
+* [固定日期](#fixed_date)
+* [自定义](#custom)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
+
+## 关于等待活动{#about_wait}
+
+以下是在您同时使用多个等待时如何排定优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则上述位置的等待将是优先顺序。 例如，第一次等待的条件是“作为女人”，而第二次等待的条件是“作为VIP”。 将优先处理第一个等待活动
+
+另请注意，如果两个不同的等待是并行的，则无论其垂直位置如何，都将优先处理最先发生的等待。 例如，如果上方等待1小时，下方等待30分钟，则30分钟后，将处理30分钟的等待。
+
+如果要将等待限制到特定人群，可以定义一个条件。
+
+>[!NOTE]
+>
+>最长等待时间为30天。
+>
+>在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动将持续的时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)
+
+## 等待时间{#duration}
+
+选择在执行下一个活动之前等待的持续时间。
+
+![](../assets/journey55.png)
+
+## 固定日期等待{#fixed_date}
+
+选择下一个活动的执行日期。
+
+![](../assets/journey56.png)
+
+## 自定义等待{#custom}
+
+此选项允许您根据来自事件或数据源的字段使用高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。有关dateTimeOnly格式的详细信息，请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)。
+
+>[!NOTE]
+>
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段形式为2016-08-12T09:46:06Z。
+>
+>旅程的属性中需要&#x200B;**时区**。 因此，今天不可能从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+
+![](../assets/journey57.png)
+
+<!--## Email send time optimization{#email_send_time_optimization}
+
+>[!CAUTION]
+>
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+
+This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+
+>[!NOTE]
+>
+>The first event of your journey must have a namespace.
+>
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
+
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
+
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
+
+![](../assets/journey57bis.png)-->
