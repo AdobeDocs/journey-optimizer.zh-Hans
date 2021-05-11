@@ -1,0 +1,76 @@
+---
+title: 用户界面
+description: 进一步了解优惠库用户界面。
+translation-type: tm+mt
+source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 0%
+
+---
+
+# 用户界面 {#user-interface}
+
+优惠库允许您在一个位置创建和管理版面和优惠，并访问所有创建的决策(以前称为优惠活动)。
+
+使用&#x200B;**[!UICONTROL Offers]**&#x200B;菜单管理个性化和回退优惠，将其组织到集合中，并通过创建决策来提供这些应用程序：
+
+* **[!UICONTROL Offers]**:访问您的个性化和备用优惠或创建新应用程序。请参阅[创建优惠](../offer-library/creating-personalized-offers.md)和[创建回退优惠](../offer-library/creating-fallback-offers.md)。
+
+* **[!UICONTROL Collections]**:创建和管理静态和动态优惠集合。请参阅[关于优惠集合](../offer-library/creating-collections.md)。
+
+* **[!UICONTROL Decisions]**:创建和管理决策以提供优惠。请参阅[创建决策](../offer-activities/create-offer-activities.md)。
+
+![](../assets/offers_menu.png)
+
+使用&#x200B;**[!UICONTROL Components]**&#x200B;菜单管理创建优惠所需的组件：
+
+* **[!UICONTROL Placements]**:创建和管理优惠将显示的位置。请参阅[创建版面](../offer-library/creating-placements.md)。
+
+* **[!UICONTROL Tags]**:创建和管理标记以组织和筛选优惠。请参阅[创建标记](../offer-library/creating-tags.md)。
+
+* **[!UICONTROL Rules]**:管理您的优惠的展示条件。请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
+
+* **[!UICONTROL Rankings]**:创建和管理排名公式，以确定在给定位置应首先显示哪些优惠。请参阅[创建排名公式](../offer-library/create-ranking-formulas.md)。
+
+![](../assets/offer_activities.png)
+
+## 搜索和筛选信息
+
+使用&#x200B;**搜索栏**&#x200B;查找特定项目。
+
+**也** 可以通过单击列表左上角的过滤器图标访问过滤器扫描。它们允许您根据不同的条件筛选显示的元素。 例如，您可以过滤为电子邮件通信渠道和图像类型内容创建的位置。
+
+![](../assets/filters.png)
+
+## 自定义显示的信息
+
+使用“决策管理”菜单右上角的“配置”按钮，可以对列表进行个性化。
+
+这允许您根据需要选择要显示的信息。
+
+请注意，将为每个用户保存列自定义。
+
+![](../assets/columns.png)
+
+## 信息窗格
+
+在不同的列表中，选择一个元素以显示一个信息窗格，该窗格允许您检索信息并对元素执行基本操作。
+
+![](../assets/information-pane.png)
+
+优惠和决策列表还允许您对多个元素执行批量操作。 为此，请选择所需的优惠或决策，然后从信息窗格中选择要执行的操作。
+
+![](../assets/bulk-actions.png)
+
+请注意，您还可以重复现有优惠或决策，以便创建具有&#x200B;**[!UICONTROL Draft]**&#x200B;状态的副本。 可以从信息窗格或优惠或决策的详细视图执行此操作。
+
+![](../assets/duplicate-offer.png)
+
+## 优惠和决策更改日志{#changes-logs}
+
+优惠库允许您查看对优惠或决策所做的所有更改。 为此，请在优惠中单击其名称以打开列表或决策，然后选择&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡。
+
+此屏幕中显示所有已进行的更改，以及执行更改的用户的姓名。
+
+![](../assets/change-logs.png)
