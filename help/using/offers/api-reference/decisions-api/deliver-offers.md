@@ -2,7 +2,7 @@
 title: 提供优惠
 description: 决策管理是服务和UI项目的集合，使营销人员能够使用业务逻辑和决策规则跨渠道和应用程序创建和提供最终用户个性化的优惠体验。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 本教程要求对API（尤其是与决策管理相关的API）有有效的了解。 有关详细信息，请参阅[Decision Management API开发人员指南](../getting-started.md)。 本教程还要求您有唯一的位置ID和决策ID值可用。 如果尚未获取这些值，请参阅有关[创建位置](../offers-api/placements/create.md)和[创建决策](../activities-api/activities/create.md)的教程。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 ## 接受和内容类型标题
 
