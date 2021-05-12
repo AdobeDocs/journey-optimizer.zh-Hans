@@ -2,7 +2,7 @@
 title: 决策管理入门
 description: 开始使用决策管理。 进一步了解其架构、优惠和决策，以及允许您执行的常见使用案例。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 38%
@@ -19,7 +19,7 @@ ht-degree: 38%
 * **集中式优惠库**&#x200B;是创建和管理组成优惠的不同元素并定义其规则和约束的接口。
 * **优惠决策引擎**&#x200B;利用Adobe Experience Platform数据和实时客户用户档案，以及优惠库，以选择向其提供优惠的适当时间、客户和渠道。
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 其优势包括：
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-![](../assets/do-not-localize/how-to-video.png) [观看这些教程视](#tutorial-videos) 频，了解有关决策管理的更多信息。
+![](../../assets/do-not-localize/how-to-video.png) [观看这些教程视](#tutorial-videos) 频，了解有关决策管理的更多信息。
 
 ## 关于优惠和决定{#offers-offer-activities}
 
@@ -35,7 +35,7 @@ ht-degree: 38%
 
 它是使用&#x200B;**优惠库**&#x200B;创建的，这个库提供了一个集中式优惠目录，您可以将合格规则和限制条件与多个内容关联，以创建和发布优惠（请参阅[优惠库用户界面](../get-started/user-interface.md)）。
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 在优惠库中添加了优惠后，您可以将优惠集成到&#x200B;**决策**(以前称为“优惠活动”)中。
 
@@ -47,15 +47,15 @@ ht-degree: 38%
 
 * 根据来自 Adobe Experience Platform 的数据，在您的网站主页上显示与来访客户的兴趣点相匹配的优惠。
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * 如果客户走到您的商店附近，根据他们的属性（忠诚度、性别、以前的购买记录等）向他们发送推送通知，提醒他们有可用的优惠。
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * 在联系您的支持团队时，决策管理还可帮助您增强客户的体验。 决策管理API允许您在呼叫中心代理的门户中显示有关客户赎回和次佳优惠的信息。
 
-   ![](../assets/call-center.png)
+   ![](../../assets/call-center.png)
 
 ## 教程视频 {#tutorial-videos}
 
