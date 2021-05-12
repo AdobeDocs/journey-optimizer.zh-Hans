@@ -2,7 +2,7 @@
 title: 用户界面
 description: 进一步了解优惠库用户界面。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Decisions]**:创建和管理决策以提供优惠。请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 使用&#x200B;**[!UICONTROL Components]**&#x200B;菜单管理创建优惠所需的组件：
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Rankings]**:创建和管理排名公式，以确定在给定位置应首先显示哪些优惠。请参阅[创建排名公式](../offer-library/create-ranking-formulas.md)。
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## 搜索和筛选信息
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 **也** 可以通过单击列表左上角的过滤器图标访问过滤器扫描。它们允许您根据不同的条件筛选显示的元素。 例如，您可以过滤为电子邮件通信渠道和图像类型内容创建的位置。
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## 自定义显示的信息
 
@@ -51,21 +51,21 @@ ht-degree: 0%
 
 请注意，将为每个用户保存列自定义。
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## 信息窗格
 
 在不同的列表中，选择一个元素以显示一个信息窗格，该窗格允许您检索信息并对元素执行基本操作。
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 优惠和决策列表还允许您对多个元素执行批量操作。 为此，请选择所需的优惠或决策，然后从信息窗格中选择要执行的操作。
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 请注意，您还可以重复现有优惠或决策，以便创建具有&#x200B;**[!UICONTROL Draft]**&#x200B;状态的副本。 可以从信息窗格或优惠或决策的详细视图执行此操作。
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## 优惠和决策更改日志{#changes-logs}
 
@@ -73,4 +73,4 @@ ht-degree: 0%
 
 此屏幕中显示所有已进行的更改，以及执行更改的用户的姓名。
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
