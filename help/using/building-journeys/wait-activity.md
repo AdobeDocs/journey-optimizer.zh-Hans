@@ -2,10 +2,10 @@
 title: 等待活动
 description: 了解等待活动
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '401'
+ht-degree: 3%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ![](../assets/do-not-localize/badge.png)
 
-如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时间。 有四个选项可用：
+如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时间。 有三个选项可用：
 
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段形式为2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{事件.offerOpened.活动.endTime}),事件中的字段形式为2016-08-12T09:46:06Z。
 >
 >旅程的属性中需要&#x200B;**时区**。 因此，今天不可能从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
