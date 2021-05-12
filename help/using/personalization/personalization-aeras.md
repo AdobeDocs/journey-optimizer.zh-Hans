@@ -2,9 +2,9 @@
 title: Journey Optimizer中的个性化上下文
 description: 了解在哪些上下文中可以添加个性化
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,8 @@ Journey Optimizer传递的内容和消息显示可以通过多种不同的方式
 屏幕的左侧部分显示一个域选择器，通过它可以选择个性化的源。
 
 * **用户档案** :列表与用户档案模式(XDM)文档中描述 [的Adobe Experience Platform相关的所有引用](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
-* **细分会员资格** :列表在Adobe Experience Platform分段服务中创建的所有区段。有关可用分段的详细信息[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **优惠** :列表与特定位置关联的所有优惠。选择位置，然后在内容中插入优惠。 有关如何管理优惠的完整文档，请参阅[本节](https://experienceleague.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
+* **细分会员资格** :列表在Adobe Experience Platform分段服务中创建的所有区段。有关分段的详细信息[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)。
+* **优惠** :列表与特定位置关联的所有优惠。选择位置，然后在内容中插入优惠。 有关如何管理优惠的完整文档，请参阅[本节](../../using/offers/get-started/starting-offer-decisioning.md)。
 
 选择后，该引用将添加到编辑器中。
 
