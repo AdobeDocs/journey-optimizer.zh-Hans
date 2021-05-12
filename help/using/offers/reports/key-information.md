@@ -2,7 +2,7 @@
 title: 决策管理事件关键信息
 description: 了解与每个决策管理事件一起发送的关键信息。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 75%
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 做出决策时发送的每个事件都包含四项关键数据点，您可以利用这些数据点进行分析和报告。
 
-![](../assets/events-dataset-preview.png)
+![](../../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**：后备优惠的名称和 ID（如果未选择个性化优惠），
 * **[!UICONTROL Placement]**：用于投放优惠的投放位置的名称、ID 和渠道，
