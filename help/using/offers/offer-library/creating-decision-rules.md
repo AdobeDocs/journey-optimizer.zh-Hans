@@ -2,7 +2,7 @@
 title: 创建决策规则
 description: 了解如何在Adobe Experience Platform中创建决策规则。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 12%
@@ -15,17 +15,17 @@ ht-degree: 12%
 
 例如，您可以指定当（性别=“女性”）和（地区=“东北”）时仅显示“女士冬装选件”。
 
-![](../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 可在&#x200B;**[!UICONTROL Components]**&#x200B;菜单中访问创建的决策规则的列表。
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 要创建决策规则，请执行以下步骤：
 
 1. 转到&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Create rule]**。
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. 命名规则并提供说明，然后根据需要配置规则。
 
@@ -33,7 +33,7 @@ ht-degree: 12%
 
    在此示例中，该规则将目标具有“黄金”忠诚度级别的客户。
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ ht-degree: 12%
 
 1. 创建规则后，该规则将显示在规则列表中。 您可以选择它以显示其属性，并编辑或删除它。
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 ## 教程视频{#video}
 
