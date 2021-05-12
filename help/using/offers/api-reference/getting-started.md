@@ -2,7 +2,7 @@
 title: 入门指南
 description: 了解如何使用优惠库API开始，以使用决策管理引擎执行关键操作。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 此开发人员指南提供了帮助您使用[!DNL Offer Library] API进行开始的步骤。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
 
-![](../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 ## 先决条件
 
