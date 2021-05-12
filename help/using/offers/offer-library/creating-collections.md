@@ -2,7 +2,7 @@
 title: 创建收藏集
 description: 了解如何使用集合组织优惠。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 集合允许您通过将优惠重新分组到所选类别来组织这些。 例如，您可以创建仅包含与体育相关的优惠的“sport”集合。
 
-![](../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 可在&#x200B;**[!UICONTROL Offers]**&#x200B;菜单中访问优惠集的列表。
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 您可以创建两种类型的收藏集：
 
@@ -31,17 +31,17 @@ ht-degree: 3%
 
 1. 指定要创建的集合的名称和类型。
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
 1. 要创建动态收藏集，请使用左窗格选择要添加到收藏集的优惠的标记，然后单击&#x200B;**[!UICONTROL Save]**。 包含选定标记的所有优惠将保存在集合中。
 
    有关创建标记的详细信息，请参阅[创建标记](../offer-library/creating-tags.md)。
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
 1. 要创建静态集合，请使用左窗格筛选优惠列表(状态、标签、日期、渠道、内容类型)，然后选择要添加到集合的优惠。
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 1. 创建集合后，该集合会显示在列表中。 您可以选择它来编辑或删除它。
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
 ## 教程视频{#video}
 
