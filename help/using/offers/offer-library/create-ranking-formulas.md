@@ -2,7 +2,7 @@
 title: 创建排名公式
 description: 了解如何在Adobe Experience Platform中创建排名公式。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -27,16 +27,16 @@ ht-degree: 3%
 
 * 单击&#x200B;**[!UICONTROL Create formula]**&#x200B;可创建新的排名公式。
 
-   ![](../assets/ranking-create-formula.png)
+   ![](../../assets/ranking-create-formula.png)
 
 * 指定排名公式名称、说明和公式。
 
    在此示例中，我们希望在实际天气炎热时使用“hot”属性提升所有优惠的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。
 
-   ![](../assets/ranking-syntax.png)
+   ![](../../assets/ranking-syntax.png)
 
 * 单击 **[!UICONTROL Save]**。您的排名公式已创建，您可以从列表中选择它以获取详细信息并编辑或删除它。
 
    现在，它已准备好用于对符合条件的优惠进行排名以进行放置的决定(请参阅[在决定](../offer-activities/configure-offer-selection.md)中配置优惠选择)。
 
-   ![](../assets/ranking-formula-created.png)
+   ![](../../assets/ranking-formula-created.png)
