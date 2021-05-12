@@ -2,7 +2,7 @@
 title: 决策管理事件
 description: 了解如何在Adobe Experience Platform中创建决策管理报告。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 47%
@@ -17,7 +17,7 @@ ht-degree: 47%
 
 可以从Adobe Experience Platform **[!UICONTROL Datasets]**&#x200B;菜单访问包含决策管理事件的数据集。 在为每个实例进行预配时会自动创建一个数据集。
 
-![](../assets/events-datasets-list.png)
+![](../../assets/events-datasets-list.png)
 
 这些数据集基于&#x200B;**[!UICONTROL ODE DecisionEvents]**&#x200B;模式，该包含将信息从决策管理发送到Adobe Experience Platform所需的所有XDM字段。
 
