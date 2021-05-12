@@ -2,7 +2,7 @@
 title: 创建版面
 description: 了解如何在Adobe Experience Platform中创建版面。
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 14%
@@ -13,21 +13,21 @@ ht-degree: 14%
 
 版面有助于确保在您的消息中正确的位置显示正确的优惠内容。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
-![](../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 在以下示例中，有三个位置，对应于不同类型的内容（图像、文本、HTML）。
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
 位置列表可在&#x200B;**[!UICONTROL Components]**&#x200B;菜单中访问。 过滤器可帮助您根据特定渠道或内容检索版面。
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 要创建版面，请执行以下步骤：
 
 1. 单击 **[!UICONTROL Create placement]**。
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. 定义放置的属性：
 
@@ -36,13 +36,13 @@ ht-degree: 14%
    * **[!UICONTROL Content type]**:将允许版面显示的内容类型：文本、HTML或图像链接。
    * **[!UICONTROL Description]**:位置的描述（可选）。
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;进行确认。
 
 1. 创建版面后，该版面会显示在版面列表中。 您可以选择它以显示其属性并对其进行编辑。
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
 ## 教程视频{#video}
 
