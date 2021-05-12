@@ -2,7 +2,7 @@
 title: 个性化语法
 description: 了解如何使用个性化语法
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 3%
@@ -111,7 +111,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 3 -活动ID
 4 -优惠特定属性。 可以使用取决于优惠类型支持的属性。 例如，图像`deliveryUrl`。
 
-有关Decisions API的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+有关Decisions API的详细信息，请参阅此[页面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)。
 
 有关“优惠表示法”的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)。
 
