@@ -1,25 +1,24 @@
 ---
 title: 版面数据集
-description: 此部分列表了导出数据集中用于版面的所有字段。
-translation-type: tm+mt
-source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
+description: 此部分列出了在导出的数据集中用于版面的所有字段。
+source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
 
 # 版面数据集{#placements-dataset}
 
-每次修改优惠时，都会更新版面的自动生成数据集。
+每次修改选件时，都会更新自动生成的版面数据集。
 
 ![](../../assets/dataset-placements.png)
 
-数据集中最近成功的批处理显示在右侧。 数据集模式的层次视图显示在左窗格中。
+数据集中最近一次成功的批处理将显示在右侧。 数据集架构的分层视图将显示在左窗格中。
 
 >[!NOTE]
 >
->了解如何访问[本节](../export-catalog/access-dataset.md)中优惠库每个对象的导出数据集。
+>了解如何在[此部分](../export-catalog/access-dataset.md)中访问选件库每个对象的导出数据集。
 
 以下是可在&#x200B;**[!UICONTROL Decision Object Repository - Placements]**&#x200B;数据集中使用的所有字段的列表。
 
@@ -27,65 +26,65 @@ ht-degree: 4%
 
 ## 标识符
 
-**Field:_id** Title:Identifier 
-**Description:** 记录
-**** 的唯一标识符。**类型：**&#x200B;字符串
+**字段：** _id标
+**题：** 标识
+**符描述：** 记录的唯一标识符。**类型：**&#x200B;字符串
 
 ## _experience（体验）
 
-**Field:** _experience 
-**Type:** object
+**字段：** _experience类
+**型：** 对象
 
-### 决策
+### _experience > decisioning
 
 **字段：** 决策
-**类型：对** 象
+**类型：** 对象
 
-#### 版面的渠道标识符
+#### _experience > decisioning >版面的渠道标识符
 
-**字段：** channelID
-**标题：** 放置的渠道标
-**识符** 描述：提出建议的渠道。该值是有效的渠道URI。 请参阅https://ns.adobe.com/xdm/channels/channel。
+**字段：** channelID 
+**标题：** 版面的渠道标
+**识符描述：** 提出建议的渠道。值是有效的渠道URI。 请参阅https://ns.adobe.com/xdm/channels/channel。
 **类型：**&#x200B;字符串
 
-#### 内容组件类型
+#### _experience > decisioning >内容组件类型
 
-**Field:component** Type 
-**Title:Content Component Type** Description:
-**** 每个值映射到给定给内容组件的类型的枚举的URI集。内容表示的某些用户希望@type值是对描述内容组件其他属性的模式的引用。
+**字段：** componentType 
+**Title:** 内容组件类型
+**描述：** 一个枚举的URI集，其中每个值映射到给定给内容组件的类型。内容表示的某些用户希望@type值作为对描述内容组件其他属性的架构的引用。
 **类型：**&#x200B;字符串
 
-#### contentTypes
+#### _experience > decisioning > contentTypes
 
-**字段：** contentTypes 
-**Type:** array
+**字段：** contentTypes
+**类型：** 数组
 
 * **MIME媒体类型**
 
    **标题：** MIME媒体类型
-   **描述：** 在该位置中预期的组件的媒体类型的约束。一个组件可能有多个媒体类型，如不同的图像格式。
+   **描述：** 对该版面中预期的组件的媒体类型的约束。一个组件可能有多个媒体类型，如不同的图像格式。
    **类型：**&#x200B;字符串
 
-#### 位置说明
+#### _experience > decisioning >版面描述
 
-**字段：** 说明
-**标题：** 放置描述
-**描述说明：** 它用于传达关于动态内容在整体消息投放中如何使用的可读意图。网页中的特定空间是\&quot;横幅\&quot;通常通过描述而不是通过正式方法来传达。
+**字段：** 描述
+**标题：** 版面描述
+**描述：** 用于传达人类可读的意图，了解动态内容如何用于整体消息投放。网页中的某个空间是\&quot;横幅\&quot;通常通过描述而不是正式方法来传达。
 **类型：**&#x200B;字符串
 
-#### 版面名称
+#### _experience > decisioning >版面名称
 
 **字段：** 名称
-**标题：** 版面名
-**称说明：** 在人机交互中引用该版面的指定名称。**类型：**&#x200B;字符串
+**标题：** 版面名称
+**描述：** 在人类交互中引用版面的分配名称。**类型：**&#x200B;字符串
 
 ## _repo
 
-**Field:** _repo 
-**Type:** object
+**字段：** _repo
+**类型：** 对象
 
-### 放置ETag
+### _repo >放置集
 
-**字段：** etag标
+**字段：** 标
 **题：** 放置ETag
 **描述：** 拍摄快照时决策选项对象所在的修订版本。**类型：**&#x200B;字符串
