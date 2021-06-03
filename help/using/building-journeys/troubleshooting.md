@@ -1,10 +1,9 @@
 ---
 title: 历程疑难解答
-description: 了解如何解决旅程中的错误
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: 了解如何对历程中的错误进行故障诊断
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1037'
 ht-degree: 87%
 
 ---
@@ -45,11 +44,11 @@ ht-degree: 87%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到旅程。 事实上，旅程依赖于Adobe Experience Platform的流式摄取API。 因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
+事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
 
 ## 检查人员是否进入历程{#section_x4v_zzs_dgb}
 
-历程报告实时测量旅程中人们的入口。
+历程报告实时衡量人员进入历程。
 
 如果您成功发送事件，但未看到有人进入历程，则意味着在事件发送和事件接收之间出现问题。
 
@@ -69,7 +68,7 @@ ht-degree: 87%
 
 ## 检查人员在历程中的导航方式{#section_l5y_yzs_dgb}
 
-历程报告衡量个人在旅程中的进度。 很容易识别人员在何处被拦住以及为什么被拦住。
+历程报告衡量历程中个人的进度。 很容易识别人员在何处被拦住以及为什么被拦住。
 
 以下是一些要检查的内容：
 
@@ -80,7 +79,7 @@ ht-degree: 87%
 
 如果人员在历程中以正确的方式流动，但没有收到他们应该收到的消息，您可以检查：
 
-* Journey Optimizer已正确考虑发送消息的请求。 企业用户可以访问要发送的消息，并检查最新执行的时间是否与旅程的执行时间相对应。 他还可以检查收到的最新API调用/事件。
-* Journey Optimizer已成功发送消息。 在消息的发送日志中，您可以看到每个执行的状态。 您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
+* [!DNL Journey Optimizer] 正确考虑了发送消息的请求。企业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间相对应。 他还可以检查收到的最新API调用/事件。
+* [!DNL Journey Optimizer] 已成功发送消息。在消息的发送日志中，您可以查看每次执行的状态。 您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。
