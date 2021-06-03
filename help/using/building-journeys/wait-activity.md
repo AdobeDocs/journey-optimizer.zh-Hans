@@ -1,8 +1,7 @@
 ---
 title: 等待活动
 description: 了解等待活动
-translation-type: tm+mt
-source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 3%
@@ -13,7 +12,7 @@ ht-degree: 3%
 
 ![](../assets/do-not-localize/badge.png)
 
-如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时间。 有三个选项可用：
+如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
 
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
@@ -23,47 +22,43 @@ ht-degree: 3%
 
 ## 关于等待活动{#about_wait}
 
-以下是在您同时使用多个等待时如何排定优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则上述位置的等待将是优先顺序。 例如，第一次等待的条件是“作为女人”，而第二次等待的条件是“作为VIP”。 将优先处理第一个等待活动
+下面是当您同时使用多个等待时，如何排定等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则位于上方的等待将是优先级。 例如，第一次等待的条件是“为女人”，而第二次并行等待的条件是“为VIP”。 第一个等待活动将按优先顺序排列
 
-另请注意，如果两个不同的等待是并行的，则无论其垂直位置如何，都将优先处理最先发生的等待。 例如，如果上方等待1小时，下方等待30分钟，则30分钟后，将处理30分钟的等待。
+另请注意，如果两个不同的等待同时进行，则无论其垂直位置如何，发生在第一个等待的等待都将按优先级排列。 例如，如果高于1小时等待，低于30分钟等待，则30分钟后将处理30分钟等待。
 
-如果要将等待限制到特定人群，可以定义一个条件。
+如果要限制对特定群体的等待，可以定义条件。
 
 >[!NOTE]
 >
->最长等待时间为30天。
+>最长等待时长为30天。
 >
->在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动将持续的时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)
+>在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)
 
-## 等待时间{#duration}
+## 持续等待{#duration}
 
 选择在执行下一个活动之前等待的持续时间。
 
 ![](../assets/journey55.png)
 
-## 固定日期等待{#fixed_date}
+## 修复了日期等待{#fixed_date}
 
-选择下一个活动的执行日期。
+选择执行下一个活动的日期。
 
 ![](../assets/journey56.png)
 
 ## 自定义等待{#custom}
 
-此选项允许您根据来自事件或数据源的字段使用高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。有关dateTimeOnly格式的详细信息，请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)。
+利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。有关dateTimeOnly格式的更多信息，请参阅[此页面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)。
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{事件.offerOpened.活动.endTime}),事件中的字段形式为2016-08-12T09:46:06Z。
+>您可以使用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->旅程的属性中需要&#x200B;**时区**。 因此，今天不可能从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>历程的属性中需要&#x200B;**时区**。 因此，今天无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
-
->[!CAUTION]
->
->The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
