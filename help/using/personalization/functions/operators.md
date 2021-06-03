@@ -1,11 +1,10 @@
 ---
 title: 函数库
 description: 函数库
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ca739254e8b113d6f511573c0aa427427b263b3b
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 9%
+source-wordcount: '300'
+ht-degree: 11%
 
 ---
 
@@ -13,279 +12,182 @@ ht-degree: 9%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## 和
+## 布尔函数
+
+布尔函数用于对不同元素执行布尔逻辑。
+
+### 和{#and}
 
 `and`函数用于创建逻辑连接。
 
 **格式**
 
 ```sql
-{QUERY} and {QUERY}
+{%= query1 and query2 %}
 ```
 
 **示例**
 
-以下PQL查询将返回所有以加拿大为母国的人和1985年出生年。
+以下行动将返回所有以法国为祖国的人，并将于1985年出生。
 
 ```sql
-homeAddress.countryISO = "CA" and person.birthYear = 1985
+{%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
 ```
 
-## 或
+### 或{#or}
 
 `or`函数用于创建逻辑分离。
 
 **格式**
 
 ```sql
-{QUERY} or {QUERY}
+{%= query1 or query2 %}
 ```
 
 **示例**
 
-以下PQL查询将返回所有以加拿大或1985年出生年为母国的人。
+以下行动将返回所有以法国为母国或出生年的人。
 
 ```sql
-homeAddress.countryISO = "CA" or person.birthYear = 1985
+{%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
 ```
 
-## 非
+<!--
+## Not{#not}
 
-`not`（或`!`）函数用于创建逻辑取反。
+The `not` (or `!`) function is used to create a logical negation.
 
-**格式**
+**Format**
 
 ```sql
 not ({QUERY})
 !({QUERY})
 ```
 
-**示例**
+**Example**
 
-以下PQL查询将返回所有没有加拿大作为母国的人员。
+The following operation will return all people who do not have their home country as Canada.
 
 ```sql
 not (homeAddress.countryISO = "CA")
 ```
+-->
 
-## 如果
 
-`if`函数用于根据指定的条件是否为true来解析表达式。
 
-**格式**
 
-```sql
-if ({TEST_EXPRESSION}, {TRUE_EXPRESSION}, {FALSE_EXPRESSION})
-```
 
-| 参数 | 描述 |
-| --------- | ----------- |
-| `{TEST_EXPRESSION}` | 正在测试的布尔表达式。 |
-| `{TRUE_EXPRESSION}` | 如果`{TEST_EXPRESSION}`为true，将使用其值的表达式。 |
-| `{FALSE_EXPRESSION}` | `{TEST_EXPRESSION}`为false时将使用其值的表达式。 |
+## 比较函数
 
-**示例**
+比较函数用于比较不同表达式和值，并相应地返回true或false。
 
-如果母国为加拿大，则以下PQL查询将该值设置为`1`；如果母国不是加拿大，则设置为`2`。
+### 等于{#equals}
 
-```sql
-if (homeAddress.countryISO = "CA", 1, 2)
-```
-
-## 等于
-
-`=`(equals)函数检查一个值或表达式是否等于另一个值或表达式。
+`=`（等于）函数检查一个值或表达式是否等于另一个值或表达式。
 
 **格式**
 
 ```sql
-{EXPRESSION} = {VALUE}
+{%= expression = value %}
 ```
 
 **示例**
 
-以下PQL查询检查主地址国家/地区是否位于加拿大。
+以下操作会检查母地国是否为法国。
 
 ```sql
-homeAddress.countryISO = "CA"
+{%= profile.homeAddress.country = "France" %}
 ```
 
-## 不等于
+### 不等于{#notequal}
 
-`!=`（不相等）函数检查一个值或表达式是否&#x200B;**不**&#x200B;等于另一个值或表达式。
+`!=`（不等于）函数检查一个值或表达式是否等于&#x200B;**不**&#x200B;其他值或表达式。
 
 **格式**
 
 ```sql
-{EXPRESSION} != {VALUE}
+{%= expression != value %}
 ```
 
 **示例**
 
-以下PQL查询检查主地址国家/地区是否不在加拿大。
+以下操作会检查母地国是否不是法国。
 
 ```sql
-homeAddress.countryISO != "CA"
+{%= profile.homeAddress.country != "France" %}
 ```
 
-## 大于
+### 大于{#greaterthan}
 
-`>`（大于）函数用于检查第一值是否大于第二值。
+`>`（大于）函数用于检查第一个值是否大于第二个值。
 
 **格式**
 
 ```sql
-{EXPRESSION} > {EXPRESSION} 
+{%= expression1 > expression2 %}
 ```
 
 **示例**
 
-以下PQL查询定义生日不在1月或2月的人。
+以下操作严格界定了1970年以后出生的人。
 
 ```sql
-person.birthMonth > 2
+{%= profile.person.birthYear > 1970 %}
 ```
 
-## 大于或等于
+### 大于或等于{#greaterthanorequal}
 
-`>=`（大于或等于）函数用于检查第一值是否大于或等于第二值。
+`>=`（大于或等于）函数用于检查第一个值是否大于或等于第二个值。
 
 **格式**
 
 ```sql
-{EXPRESSION} >= {EXPRESSION} 
+{%= expression1 >= expression2 %}
 ```
 
 **示例**
 
-以下PQL查询定义生日不在1月或2月的人。
+以下操作定义了1970年或之后出生的人。
 
 ```sql
-person.birthMonth >= 3
+{%= profile.person.birthYear >= 1970 %}
 ```
 
-## 小于
+### 小于{#lessthan}
 
-使用`<`（小于）比较函数检查第一值是否小于第二值。
+`<`（小于）比较函数用于检查第一个值是否小于第二个值。
 
 **格式**
 
 ```sql
-{EXPRESSION} < {EXPRESSION} 
+{%= expression1 < expression2 %}
 ```
 
 **示例**
 
-以下PQL查询定义生日在1月的人。
+以下操作定义了2000年之前出生的人。
 
 ```sql
-person.birthMonth < 2
+{%= profile.person.birthYear < 2000 %}
 ```
 
-## 小于或等于
+### 小于或等于{#lessthanorequal}
 
-使用`<=`（小于或等于）比较函数检查第一值是否小于或等于第二值。
+`<=`（小于或等于）比较函数用于检查第一值是否小于或等于第二值。
 
 **格式**
 
 ```sql
-{EXPRESSION} <= {EXPRESSION} 
+{%= expression1 <= expression2 %}
 ```
 
 **示例**
 
-以下PQL查询定义生日在1月或2月的人。
+以下操作定义2000年或之前出生的人。
 
 ```sql
-person.birthMonth <= 2
+{%= profile.person.birthYear <= 2000 %}
 ```
 
-## Add
+**带数字的运算**
 
-`+`(addition)函数用于查找两个参数表达式的和。
-
-**格式**
-
-```sql
-{NUMBER} + {NUMBER}
-```
-
-**示例**
-
-以下PQL查询概括了两种不同产品的价格。
-
-```sql
-product1.price + product2.price
-```
-
-## 乘
-
-`*`（乘法）函数用于查找两个参数表达式的乘积。
-
-**格式**
-
-```sql
-{NUMBER} * {NUMBER}
-```
-
-**示例**
-
-以下PQL查询查找库存产品和产品价格以查找产品的总价值。
-
-```sql
-product.inventory * product.price
-```
-
-## 减
-
-`-`（减法）函数用于查找两个参数表达式的差值。
-
-**格式**
-
-```sql
-{NUMBER} - {NUMBER}
-```
-
-**示例**
-
-以下PQL查询会查找两种不同产品之间的价格差异。
-
-```sql
-product1.price - product2.price
-```
-
-## 除法
-
-`/`(division)函数用于查找两个参数表达式的商。
-
-**格式**
-
-```sql
-{NUMBER} / {NUMBER}
-```
-
-**示例**
-
-以下PQL查询将查找销售产品总数与查看每个项目的平均成本所赚总金额之间的商。
-
-```sql
-totalProduct.price / totalProduct.sold
-```
-
-## 剩余
-
-`%`(modulo/remainer)函数用于在将两个参数表达式除以后查找余数。
-
-**格式**
-
-```sql
-{NUMBER} % {NUMBER}
-```
-
-**示例**
-
-以下PQL查询检查人员的年龄是否可被五个人整除。
-
-```sql
-person.age % 5 = 0
-```
