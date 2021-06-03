@@ -1,0 +1,55 @@
+---
+title: Journey Optimizer设置和配置准则
+description: 了解消息和历程配置准则
+audience: administrators
+content-type: reference
+role: Administrator
+level: Intermediate
+product: Adobe Journey Optimizer
+solution: Journey Optimizer
+exl-id: 0964a484-f957-4aae-a571-61b2a1615026
+source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 9%
+
+---
+
+
+# [!DNL Journey Optimizer]配置入门
+
+首次访问[!DNL Journey Optimizer]时，您会配置一个生产沙盒，并根据您的合同分配特定数量的IP。
+
+要创建历程和发送消息，您需要完成以下配置步骤：
+
+1. **配置消息和渠道**:定义预设、调整和自定义电子邮件和推送消息
+
+   * 在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中定义推送通知设置。 [了解详情](../push-configuration.md)
+
+   * 创建消息预设，以配置电子邮件和推送通知消息所需的所有技术参数。 [了解详情](message-presets.md)
+
+   * 当Adobe Experience Platform中有多个地址可用时，确定要优先为收件人使用的电子邮件地址。 [了解详情](primary-email-addresses.md)
+
+   * 管理在向抑制列表发送电子邮件地址之前执行重试的天数。 [了解详情](manage-suppression-list.md)
+
+   <!--
+    * Understand push notification flow. [Learn more](../push-gs.md)
+    -->
+
+1. **委派子域**:对于要在Journey Optimizer中使用的任何新子域，第一步是将其委派。[了解详情](about-subdomain-delegation.md)
+
+   ![](../assets/subdomain.png)
+
+1. **创建IP池**:通过将与您的实例配置的IP地址分组到一起，可提高电子邮件的投放能力和声誉。[了解详情](ip-pools.md)
+
+   ![](../assets/ip-pool.png)
+
+1. **配置历程**:要构建历程，您需要配置 **[!UICONTROL Data Sources]**&#x200B;和 **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**。[了解详情](about-data-sources-events-actions.md)
+
+   ![](../assets/admin-menu.png)
+
+   * **数据源**&#x200B;配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。 在此[部分](../datasource/about-data-sources.md)中了解有关数据源的更多信息
+
+   * **** 事件可让您触发旅程，以便实时地向流入旅程的个人发送消息。在事件配置中，您可以配置历程中预期的事件。 传入事件的数据按照Adobe体验数据模型(XDM)进行标准化。 事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。在此[部分](../event/about-events.md)中了解有关事件的更多信息
+
+   * [!DNL Journey Optimizer] 附带内置消息功能：您可以设计内容并发布消息。如果您使用第三方系统发送消息，请创建&#x200B;**自定义操作**。 了解有关此[部分](../action/action.md)中操作的更多信息
