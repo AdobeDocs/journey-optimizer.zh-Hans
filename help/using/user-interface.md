@@ -1,11 +1,10 @@
 ---
 title: 用户界面
 description: Journey Optimizer用户界面
-translation-type: tm+mt
-source-git-commit: fb1170c5e16c54ff93411d93020336f8de334ae1
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 40%
+source-wordcount: '1446'
+ht-degree: 41%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 40%
 
 ![](assets/do-not-localize/badge.png)
 
-此文档经常更新以反映产品中的最新更改。但是，某些屏幕快照可能与您的用户界面略有不同。
+此文档经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与您的用户界面略有不同。
 
 ## 工作区{#cjm-workspace}
 
@@ -21,9 +20,9 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->浏览用户界面时的主要概念在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide)中有详细介绍。
+>有关浏览用户界面时的主要概念，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide)。
 
-使用左侧的链接浏览功能。
+使用左侧的链接可浏览功能。
 
 ![](assets/ajo-home.png)
 
@@ -31,59 +30,59 @@ ht-degree: 40%
 >
 >可用功能可能因您的权限和许可协议而异。
 
-您可以在左边栏中条目的完整列表下找到相关文档的链接。
+您可以在下面找到左侧导航中可用的服务和功能的完整列表，以及相关文档的链接。
 
 **主页**
 
-[!DNL Journey Optimizer] 主页包含指向开始的关键链接和资源。**[!UICONTROL Recents]**&#x200B;列表为最近创建或更新的消息、事件和旅程提供了快捷方式。 此列表显示其创建和修改日期及状态。
+[!DNL Journey Optimizer] 主页包含要开始的关键链接和资源。**[!UICONTROL Recents]**&#x200B;列表提供了最近创建或更新的消息、事件和历程的快捷方式。 此列表显示了其创建和修改日期及状态。
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
-* **[!UICONTROL Journeys]**  — 创建、配置和编排客户旅程。了解本节](building-journeys/journey-gs.md#jo-build)中的更多信息[
+* **[!UICONTROL Journeys]**  — 创建、配置和编排客户旅程。在此部分](building-journeys/journey-gs.md#jo-build)中了解更多[信息
 
-* **[!UICONTROL Messages]**  — 创建、设计、测试和发布电子邮件和推送消息。了解本节](create-message.md)中的更多信息[
+* **[!UICONTROL Messages]**  — 创建、设计、测试和发布电子邮件和推送消息。在此部分](create-message.md)中了解更多[信息
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
-* **[!UICONTROL Offers]**  — 通过此菜单访问您最近的源和数据集。使用此部分可创建新优惠。 [了解详情](offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offers]**  — 通过此菜单访问您最近的源和数据集。使用此部分可创建新选件。 [了解详情](offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]**  — 创建版面、规则和标记。了解有关[本节](offers/offer-library/key-steps.md)的详细信息
+* **[!UICONTROL Components]**  — 创建版面、规则和标记。在[此部分](offers/offer-library/key-steps.md)中了解详情
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 是一个资产的集中存储库，您可以使用它填充您的消息。了解有关[本节](assets-essentials.md)的详细信息
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 资产的中央存储库，可用于填充消息。在[此部分](assets-essentials.md)中了解详情
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]**  — 使用Adobe Experience Platform在称为“模式编辑器”的交互式可视画布中创建和管理体验数据模型(XDM)模式。[在本文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)
+* **[!UICONTROL Schemas]**  — 使用Adobe Experience Platform在称为架构编辑器的交互式可视化画布中创建和管理Experience Data Model(XDM)架构。[在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)
 
-* **[!UICONTROL Datasets]**  — 摄取到Adobe Experience Platform中的所有数据都将作为数据集保留在数据湖中。数据集是存储和管理构建，用于模式集合，通常是表格，其中包含（列）和字段（行）。 [了解如何在本文档中预览和创建数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
+* **[!UICONTROL Datasets]**  — 摄取到Adobe Experience Platform的所有数据都将作为数据集保留在数据湖中。数据集是用于数据集合（通常是表）的存储和管理结构，其中包含架构（列）和字段（行）。 [在本文档中了解如何预览和创建数据集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
 
-* **[!UICONTROL Queries]**  — 使用Adobe Experience Platform 查询服务编写和执行查询,视图先前执行的查询，以及访问由您组织内的用户保存的查询。[在本文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html)
+* **[!UICONTROL Queries]**  — 使用Adobe Experience Platform查询服务来编写和执行查询、查看以前执行的查询，以及访问组织内用户保存的查询。[在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html)
 
-* **[!UICONTROL Monitoring]**  — 使用此菜单可监视Adobe Experience Platform用户界面中的数据摄取。[在本文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)
+* **[!UICONTROL Monitoring]**  — 使用此菜单可在Adobe Experience Platform用户界面中监控数据摄取。[在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]**  — 使用此菜单从各种来源(如Adobe应用程序、基于云的存储、数据库等)中摄取数据，并构建、标记和增强传入数据。[在本文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* **[!UICONTROL Sources]**  — 使用此菜单从各种源(如Adobe应用程序、基于云的存储、数据库等)中摄取数据，并构建、标记和增强传入数据。[在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]**  — 创建和管理Experience Platform细分定义，并将其用于您的旅程。了解有关[此页面](segment/about-segments.md)的详细信息
+* **[!UICONTROL Segments]**  — 创建和管理Experience Platform区段定义，并将其用于您的历程。请参阅[此页面](segment/about-segments.md)以了解详情
 
-* **[!UICONTROL Profiles]**  — 实时客户用户档案可以为每位客户创建整体视图，将来自多个渠道（包括在线、离线、CRM和第三方数据）的数据组合在一起。[在本文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html)
+* **[!UICONTROL Profiles]**  — 实时客户资料可整合来自多个渠道的数据（包括在线、离线、CRM和第三方数据），从而创建每个客户的整体视图。[在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service通过Adobe Experience Platform中称为身份图的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解如何在本文档中创建身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service可在Adobe Experience Platform内称为身份图的中管理客户的跨设备、跨渠道和近乎实时的标识。[在本文档中了解如何创建身份命名空间](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]**  — 使用此菜单配置 [事件](event/about-events.md)、 [数](datasource/about-data-sources.md) 据 [](action/action.md) 源和要在旅程中使用的操作。
+* **[!UICONTROL Journey Administration]**  — 使用此菜单配置 [事件](event/about-events.md)、 [数据](datasource/about-data-sources.md) 源和 [](action/action.md) 操作以在您的历程中使用。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform提供沙箱，可将单个实例分为单独的虚拟环境，以帮助开发和发展数字体验应用程序。[了解有关此文档中沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform提供将单个实例分区为单独虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。[在本文档中了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
 
 ## 浏览器和语言支持
 
-Adobe [!DNL Journey Optimizer]接口设计为在最新版Google Chrome中发挥最佳作用。 在旧版本或其他浏览器上使用某些功能时可能遇到问题。
+Adobe[!DNL Journey Optimizer]界面可在最新版本的Google Chrome中发挥最佳工作效果。 在较旧版本或其他浏览器上使用某些功能时，您可能会遇到问题。
 
 用户界面目前提供以下语言版本：
 
@@ -91,36 +90,36 @@ Adobe [!DNL Journey Optimizer]接口设计为在最新版Google Chrome中发挥�
 * 法语
 * 德语
 
-您的默认界面语言由用户用户档案中指定的首选语言决定。
+您的默认界面语言由用户配置文件中指定的首选语言决定。
 
-要更改您的语言：
+要更改语言，请执行以下操作：
 
-* 单击右上角的&#x200B;**编辑头像中的首选项**。
-* 然后，单击&#x200B;**访问Adobe帐户**&#x200B;以访问Adobe用户档案。
-* 选择顶部的&#x200B;**通知**&#x200B;选项卡，然后单击&#x200B;**首选项**。
-* 选择首选语言，然后单击&#x200B;**保存**。
+* 单击右上方的头像中的&#x200B;**编辑首选项** 。
+* 然后，单击&#x200B;**访问Adobe帐户**&#x200B;以访问Adobe配置文件。
+* 选择顶部的&#x200B;**Notifications**&#x200B;选项卡，然后单击&#x200B;**Preferences**。
+* 选择首选语言，然后单击&#x200B;**Save**。
 
 >[!NOTE]
 >
->您需要注销并重新登录到[!DNL Journey Optimizer]以应用更改。
+>您需要注销，然后再次登录到[!DNL Journey Optimizer]才能应用更改。
 
 ## 搜索和过滤{#section_lgm_hpz_pgb}
 
 在大多数列表中，搜索栏允许您搜索项目。
 
-单击列表左上角的过滤器图标即可访问&#x200B;**[!UICONTROL Filters]**。过滤器菜单允许您根据不同的条件过滤显示的元素。 您可以选择仅显示特定类型或状态的元素、您创建的元素或最近30天内修改的元素。
+单击列表左上角的过滤器图标即可访问&#x200B;**[!UICONTROL Filters]**。利用过滤器菜单，可根据不同的条件筛选显示的元素。 您可以选择仅显示特定类型或状态的元素、您创建的元素或最近30天内修改的元素。
 
-在旅程列表中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据显示的旅程的状态和版本(**[!UICONTROL Status and version filters]**)筛选显示的旅程。 您可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和&#x200B;**[!UICONTROL Data filters]**）的旅程。 **[!UICONTROL Publication filters]**&#x200B;允许您选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时旅程。 [了解详情](building-journeys/using-the-journey-designer.md)。
+在历程列表中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据显示的历程状态和版本(**[!UICONTROL Status and version filters]**)筛选。 您可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和&#x200B;**[!UICONTROL Data filters]**）的历程。 **[!UICONTROL Publication filters]**&#x200B;允许您选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时历程。 [了解详情](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
 >请注意，显示的列可以使用列表右上角的配置按钮进行个性化设置。为每个用户保存个性化设置。
 
-使用&#x200B;**[!UICONTROL Last update]**&#x200B;和&#x200B;**[!UICONTROL Last update by]**&#x200B;列检查旅程的上次更新发生的时间以及保存该更新的人员。
+使用&#x200B;**[!UICONTROL Last update]**&#x200B;和&#x200B;**[!UICONTROL Last update by]**&#x200B;列可检查历程的上次更新发生的时间以及保存者。
 
 ![](assets/journey74.png)
 
-在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL Used in]**&#x200B;字段显示使用该特定事件、字段组或操作的旅程数。 您可以单击 **[!UICONTROL View journeys]**&#x200B;按钮以显示相应历程的列表。
+在“事件”、“数据源”和“操作”配置窗格中， **[!UICONTROL Used in]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。 您可以单击 **[!UICONTROL View journeys]**&#x200B;按钮以显示相应历程的列表。
 
 ![](assets/journey3bis.png)
 
@@ -132,7 +131,7 @@ Adobe [!DNL Journey Optimizer]接口设计为在最新版Google Chrome中发挥�
 
 在定义[事件有效负载](event/about-creating.md#define-the-payload-fields)、[字段组有效负载](datasource/configure-data-sources.md#define-field-groups)以及在[表达式编辑器](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。当使用“eVar”和通用字段时，它特别有用。 您可以通过API调用配置易记名称描述符。 有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在使用“eVar”和通用字段时，此插件特别有用。 您可以通过API调用配置友好名称描述符。 有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 ![](assets/xdm-from-descriptors.png)
 
