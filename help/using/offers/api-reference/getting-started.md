@@ -1,54 +1,53 @@
 ---
 title: 入门指南
-description: 了解如何使用优惠库API开始，以使用决策管理引擎执行关键操作。
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+description: 了解如何开始使用选件库API来使用决策管理引擎执行关键操作。
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 7%
+source-wordcount: '599'
+ht-degree: 4%
 
 ---
 
 # 决策管理API开发人员指南
 
-此开发人员指南提供了帮助您使用[!DNL Offer Library] API进行开始的步骤。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
+本开发人员指南提供了帮助您开始使用[!DNL Offer Library] API的步骤。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
 
 ![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
 
 ## 先决条件
 
-本指南要求对Adobe Experience Platform的以下组件有充分的了解：
+本指南要求您对Adobe Experience Platform的以下组件有一定的了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html):组织客户体验数 [!DNL Experience Platform] 据的标准化框架。
-   * [模式合成的基础](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/schema/composition.html):了解XDM模式的基本构建块。
-* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):概括介绍用于体验决策的概念和组件，特别是Offer decisioning。说明了在客户体验期间选择最佳展示选项时使用的策略。
-* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/en/experience-platform/segmentation/pql/overview.html):PQL是一种功能强大的语言，用于编写XDM实例的表达式。PQL用于定义决策规则。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans):用于组织客户体验数 [!DNL Experience Platform] 据的标准化框架。
+   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html):了解XDM模式的基本构建块。
+* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):通常说明用于Experience Decisioning的概念和组件，特别是Offer decisioning。说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html):PQL是一种用于通过XDM实例编写表达式的强大语言。PQL用于定义决策规则。
 
 ## 读取示例API调用
 
-本指南提供示例API调用，以演示如何设置请求的格式。 这包括路径、必需的标头和格式正确的请求负载。 还提供API响应中返回的示例JSON。 有关示例API调用文档中使用的约定的信息，请参阅[!DNL Experience Platform]疑难解答指南中关于如何读取示例API调用](https://docs.adobe.com/content/help/en/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)的部分。[
+本指南提供了示例API调用，以演示如何设置请求的格式。 这包括路径、所需标头以及格式正确的请求负载。 还提供了API响应中返回的示例JSON。 有关示例API调用文档中使用的惯例的信息，请参阅[!DNL Experience Platform]疑难解答指南中[如何阅读示例API调用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request)一节。
 
 ## 收集所需标题的值
 
-要调用[!DNL Platform] API，您必须首先完成[身份验证教程](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)。 完成身份验证教程后，将为所有[!DNL Experience Platform] API调用中每个所需标头提供值，如下所示：
+要调用[!DNL Platform] API，您必须先完成[身份验证教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)。 完成身份验证教程可为所有[!DNL Experience Platform] API调用中每个所需标头的值，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
 
-所有包含有效负荷(POST、PUT、PATCH)的请求都需要额外的标头：
+所有包含有效负载(POST、PUT、PATCH)的请求都需要额外的标头：
 
 * `Content-Type: application/json`
 
 ## 管理对容器的访问
 
-容器是一种隔离机制，可以将不同的问题分开。 容器ID是所有存储库API的第一个路径元素。 所有决策对象都驻留在容器中。
+容器是一种隔离机制，可以分开不同的关注。 容器ID是所有存储库API的第一个路径元素。 所有决策对象都驻留在容器中。
 
-管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受[Adobe Admin Console](https://adminconsole.adobe.com/)支持。 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需一次性创建与某些权限匹配的产品用户档案，然后只需将用户添加到这些用户档案即可。 用户档案充当被授予权限的组，该组中的每个实际用户或技术用户都继承了这些权限。
+管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受[Adobe Admin Console](https://adminconsole.adobe.com/)的支持。 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已获得权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
 
-授予管理员权限后，您可以通过[Adobe Admin Console](https://adminconsole.adobe.com/)向用户授予或撤销权限。 有关详细信息，请参阅[访问控制概述](https://docs.adobe.com/content/help/zh-Hans/experience-platform/access-control/home.html)。
+您可以通过[Adobe Admin Console](https://adminconsole.adobe.com/)向用户授予或撤消权限。 有关更多信息，请参阅[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
 
-### 列表容器可供用户访问和集成
+### 列出用户和集成可访问的容器
 
 **API格式**
 
@@ -58,9 +57,9 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | 过滤器容器与产品上下文的关联。 | `acp` |
-| `{PROPERTY}` | 过滤器返回的容器类型。 | `_instance.containerType==decisioning` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | 按容器与产品上下文的关联过滤容器列表。 | `acp` |
+| `{PROPERTY}` | 过滤返回的容器类型。 | `_instance.containerType==decisioning` |
 
 **请求**
 
@@ -122,14 +121,14 @@ curl -X GET \
 
 ## 后续步骤
 
-此文档涵盖了对[!DNL Offer Library] API进行调用所需的必备知识，包括获取您的容器ID。 您现在可以继续查看本开发人员指南中提供的示例调用，并按照其说明进行操作。
+本文档介绍了对[!DNL Offer Library] API进行调用（包括获取容器ID）所需的先决知识。 您现在可以继续阅读本开发人员指南中提供的示例调用并按照其说明进行操作。
 
-## 教程视频{#video}
+## 教程视频 {#video}
 
-以下视频旨在帮助您了解决策管理的各个组件。
+以下视频旨在支持您对决策管理组件的了解。
 
 >[!NOTE]
 >
->此视频适用于在Adobe Experience Platform上构建的Offer Decisioning应用程序服务。 但是，它提供了在Journey Optimizer环境中使用优惠的通用指导。
+>此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指导。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
