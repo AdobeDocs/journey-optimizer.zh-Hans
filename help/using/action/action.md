@@ -2,11 +2,10 @@
 solution: Journey Orchestration
 title: 关于操作
 description: 了解如何配置操作
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 83%
+source-wordcount: '240'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 83%
 
 行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
 
-[!DNL Journey Optimizer] 内置消息功能。请参阅[此小节](../get-started-content.md)。
+[!DNL Journey Optimizer] 附带内置消息功能。请参阅[此小节](../get-started-content.md)。
 
 如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参见[此页面](../action/about-custom-action-configuration.md)。
 
@@ -33,8 +32,8 @@ ht-degree: 83%
 
 此类操作在历程的左侧面板的 **[!UICONTROL Action]** 类别中可用。请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
 
-在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新历程、操作、数据源或事件。有关快捷键的详细信息，请参阅[此部分](../user-interface.md#cjm-accessibility)。
+在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新历程、操作、数据源或事件。有关快捷键的更多信息，请参阅[此部分](../user-interface.md#cjm-accessibility)。
 
-要视图操作列表或配置新操作，请单击左侧菜单中的&#x200B;**[!UICONTROL Admin]** / **[!UICONTROL Actions]**。 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
+要查看操作列表或配置新操作，请浏览左侧导航中的&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Configuration]**。 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
 
 ![](../assets/custom1.png)
