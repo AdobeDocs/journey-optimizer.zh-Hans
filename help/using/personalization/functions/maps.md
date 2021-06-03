@@ -1,11 +1,10 @@
 ---
 title: 函数库
 description: 函数库
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 5%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
@@ -13,58 +12,58 @@ ht-degree: 5%
 
 ![](../../assets/do-not-localize/badge.png)
 
-[!DNL Profile Query Language] (PQL)优惠函数，使与地图的交互更简单。
+[!DNL Profile Query Language] (PQL)提供了一些函数，可简化与映射的交互。
 
-## 获取
+## 获取{#get}
 
 `get`函数用于检索给定键的映射值。
 
 **格式**
 
 ```sql
-get({MAP},{STRING})
+{%= get(map, string) %}
 ```
 
 **示例**
 
-以下PQL查询获取键`example@example.com`的标识映射值。
+以下操作将获取键`example@example.com`的标识映射值。
 
 ```sql
-get(identityMap,"example@example.com")
+{%= get(identityMap,"example@example.com") %}
 ```
 
-## 按键
+## 键{#keys}
 
 `keys`函数用于检索给定映射的所有键。
 
 **格式**
 
 ```sql
-keys({MAP})
+{%= keys(map) %}
 ```
 
 **示例**
 
-以下PQL查询将获取映射`identityMap`的所有键。
+以下操作将获取映射`identityMap`的所有键值。
 
 ```sql
-keys(identityMap)
+{%= keys(identityMap) %}
 ```
 
-## 值
+## 值{#values}
 
 `values`函数用于检索给定映射的所有值。
 
 **格式**
 
 ```sql
-values({MAP})
+{%= values(map) %}
 ```
 
 **示例**
 
-以下PQL查询将获取映射`identityMap`的所有值。
+以下操作将获取映射`identityMap`的所有值。
 
 ```sql
-values(identityMap)
+{%= values(identityMap) %}
 ```
