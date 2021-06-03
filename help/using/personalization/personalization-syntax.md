@@ -1,26 +1,24 @@
 ---
 title: 个性化语法
 description: 了解如何使用个性化语法
-translation-type: tm+mt
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 3%
+source-wordcount: '559'
+ht-degree: 4%
 
 ---
+
 
 # 个性化语法{#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
 
-## 简介
+[!DNL Journey Optimizer]中的个性化基于名为Handlebars的模板语法。
+有关Handlebars语法的完整说明，请参阅[HandlebarsJS文档](https://handlebarsjs.com/)。
 
-Journey Optimizer中的个性化基于名为Handlebars的模板语法。
-有关Handlebars语法的完整说明，请参阅[HandlebarsJS](https://handlebarsjs.com/)。
+它使用模板和输入对象来生成HTML或其他文本格式。 Handlebars模板看起来像带有嵌入Handlebars表达式的正则文本。
 
-它使用模板和输入对象生成HTML或其他文本格式。 Handlebars模板与带有嵌入Handlebars表达式的常规文本类似。
-
-简单表达式范例：
+简单表达式示例：
 
 ```
 {{profile.person.name}}
@@ -28,12 +26,12 @@ Journey Optimizer中的个性化基于名为Handlebars的模板语法。
 
 其中：
 
-* **概** 述是命名空间。
-* **person.** name是由属性组成的标记。属性结构在Adobe Experience Platform XDM模式中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+* **** 配置文件是命名空间。
+* **person.** name是由属性组成的令牌。属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
-## 语法一般规则
+## 语法常规规则
 
-标识符可以是除以下字符之外的任何Unicode字符：
+标识符可以是任何Unicode字符，但以下字符除外：
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -41,200 +39,106 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 语法区分大小写。
 
-仅在路径表达式的第一部分中才允许使用字词&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**undefined**。
+仅在路径表达式的第一部分中允许使用单词&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**undefined**。
 
-在Handlebars中，{{表达式}}返回的值为&#x200B;**HTML-escaped**。 如果表达式包含&amp;，则返回的HTML转义输出将生成为&amp;。 如果你不想让Handlebars逃离某个值，就使用“三重藏”。
+在Handlebars中，{{expression}}返回的值为&#x200B;**HTML-scaped**。 如果表达式包含`&`，则返回的HTML转义输出将生成为`&amp;`。 如果你不希望Handlebars转义某个值，那就使用“三重藏货”。
 
 ## 配置文件
 
-此命名空间允许您引用在[Adobe Experience Platform用户档案模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)中描述的模式中定义的所有属性。
+利用此命名空间，可引用在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)中描述的配置文件架构中定义的所有属性。
 
-在Journey Optimizer个性化块中引用属性之前，需要在模式中定义这些属性。
+在[!DNL Journey Optimizer]个性化块中引用属性之前，需要在架构中定义属性。
 
-所有引用都针对用户档案模式进行验证，验证机制在[此处](personalization-validation.md)中有说明。
+>[!NOTE]
+>
+>了解如何在[此部分](functions/helpers.md#if-function)的条件中利用配置文件属性。
 
 **示例引用：**
 
-* ```{{profile.person.name.fullName}}```
-* ```{{profile.person.name.firstName}}```
-* ```{{profile.person.gender}}```
-* ```{{profile.personalEmail.address}}```
-* ```{{profile.mobilePhone.number}}```
-* ```{{profile.homeAddress.city}}```
-* ```{{profile.faxPhone.number}}```
-
-**确定电子邮件地址扩展**:
-
 ```
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
-{%else if contains(profile.personalEmail.address, ".org")%}
-<a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
-{%else%}
-<a href="https://www.adobe.com/users">Checkout our page</a>
-{%/if%}
+{{profile.person.name.fullName}}
+{{profile.person.name.firstName}}
+{{profile.person.gender}}
+{{profile.personalEmail.address}}
+{{profile.mobilePhone.number}}
+{{profile.homeAddress.city}}
+{{profile.faxPhone.number}}
 ```
 
-## 区段
+## 区段{#perso-segments}
 
-要了解有关分段和分段服务的更多信息，请参阅此[部分](../segment/about-segments.md)。
+了解如何在[此部分](functions/helpers.md#if-function)的条件中利用配置文件属性。
 
-**根据区段成员关系呈现不同的内容**:
+>[!NOTE]
+>要了解有关分段和分段服务的更多信息，请参阅[此部分](../segment/about-segments.md)。
 
-```
-{%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
-  Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-{%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
-  Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
-{%/if%}
-```
-
-**确定用户档案是否已是成员**:
-
-```
-{%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-    You're a member!
-{%else%}
-    You should be a member! Sign up now!
-{%/if%}
-```
 
 ## 选件
 
-此命名空间允许您引用现有优惠决策。
-要引用优惠，您需要使用定义优惠的不同信息声明路径。
+此命名空间允许您引用现有选件决策。
+要引用选件，您需要声明一个路径，其中包含定义选件的不同信息。
 
 此路径具有以下结构：
-0 - &#39;优惠:标识属于优惠表达式的路径命名空间
-1 — 类型：确定优惠呈现类型。 有效值为“image”、“html”和“text”
-2 — 版面ID
-3 -活动ID
-4 -优惠特定属性。 可以使用取决于优惠类型支持的属性。 例如，图像`deliveryUrl`。
 
-有关Decisions API的详细信息，请参阅此[页面](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)。
+```
+offers.Type.[Placement Id].[Activity Id].Attribute
+```
 
-有关“优惠表示法”的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers)。
+其中：
 
-所有引用都针对优惠模式进行验证，验证机制在[此处](personalization-validation.md)中有说明。
+* `offers` 标识属于选件命名空间的路径表达式
+* `Type`  确定选件表示的类型。可能的值包括：`image`、`html`和`text`
+* `Placement Id` 和是 `Activity Id` 放置和活动标识符
+* `Attributes` 是选件特定的属性，取决于选件类型。示例：`deliveryUrl`。
+
+有关决策API和选件表示法的详细信息，请参阅[此页面](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+
+所有引用都将通过[此页面](personalization-validation.md)中描述的验证机制，针对选件架构进行验证。
 
 **示例引用：**
 
-* 图像的托管位置：
+* 托管图像的位置：
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* 目标URL:
+* 单击图像时的Target URL:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * 来自决策引擎的优惠的文本内容：
 
-```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 来自决策引擎的优惠的HTML内容：
+* 来自决策引擎的选件的HTML内容：
 
-```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
-
-
-## Helpers
-
-Handlebars帮助程序是一个简单的标识符，后面可能有参数。
-每个参数都是Handlebars表达式。 这些帮助者可以从模板中的任何上下文访问。
-
-这些块帮助程序由位于帮助程序名称前面的#标识，并需要同名的匹配结束/。
-块是具有块打开({{# }})和关闭({{/})的表达式。
-
-### 如果
-
-使用&#x200B;**if**帮助程序定义条件块。
-如果表达式评估返回true，则块将呈现，否则将跳过块。
-
-```
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Check out this link</a>
-```
-
-在&#x200B;**if**&#x200B;帮助程序之后，如果相同的条件为false，则可以输入&#x200B;**else**语句以指定要执行的代码块。
-**else if**&#x200B;语句将指定新条件以测试第一个语句是否返回false。
-
-**根据条件表达式渲染不同的存储链接**:
-
-```
-{%#if profile.homeAddress.countryCode = "FR"%}
-  <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
-{%else%}
-  <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
-{%/if%}
-```
-
-### 除非
-
-**#** unlesshelper用于定义条件块。对于&#x200B;**#if**&#x200B;帮助程序，如果表达式评估返回false，则呈现块。
-
-**根据电子邮件地址扩展渲染某些内容**:
-
-```
-{%#unless endsWith(profile.personalEmail.address, ".edu")%}
-Some Normal Content
-{%else%}
-Some edu specific content Content
-{%/unless%}
-```
-
-### 每个
-
-**每个**帮助器用于在数组上迭代。
-帮助程序的语法为```{{#each ArrayName}}``` YourContent {{/each}}
-通过使用块内的关键字**this**，我们可以引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
-
-示例：
-
-```
-{{#each profile.productsInCart}}
-    <li>{{this.name}}</li>
-    </br>
-{{/each}}
-```
-
-```
-{{#each profile.homeAddress.city}}
-  {{@index}} : {{this}}<br>
-{{/each}}
-```
-
-**呈现此用户在购物车中拥有的产品列表**:
-
-```
-{{#each profile.products as |product|}}
-    <li>{{product.productName}} {{product.productRating}}</li>
-   </br>
-{{/each}}
-```
-
-### 使用
-
-**#with**&#x200B;帮助程序用于更改template-part的评估令牌。
-
-示例：
-
-```
-{{#with profile.person.name}}
-{{this.firstName}} {{this.lastName}}
-{{/with}}
-```
-
-**#with**&#x200B;帮助程序对于定义快捷键变量也很有用。
-
-**用于将长变量名称与短变量名称进行混淆**:
-
-```
-{{#with profile.person.name as |name|}}
- Hi {{name.firstName}} {{name.lastName}}!
- Checkout our trending products for today!
-{{/with}}
-```
+   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## 限制
+## Helpers{#helpers-all}
 
-* 在个性化表达式中，不能使用&#x200B;**xEvent**&#x200B;变量。 对xEvent的任何引用都将导致验证失败。
+Handlebars助手是一个简单的标识符，其后可能跟有参数。
+每个参数都是Handlebars表达式。 这些帮助程序可以从模板中的任何上下文访问。
+
+这些块帮助程序由帮助程序名称前面的#标识，并且需要具有相同名称的匹配闭合/。
+块是具有块开启({{# }})和关闭({{/}})的表达式。
+
+
+>[!NOTE]
+>
+>[此部分](functions/helpers.md)中详细介绍了帮助程序函数。
+
+
+## 文字类型
+
+[!DNL Adobe Journey Optimizer] 支持以下文字类型：
+
+| 文字 | 定义 |
+| ------- | ---------- |
+| 字符串 | 数据类型，由被双引号括住的字符组成。 <br>示例: `"prospect"`, `"jobs"`, `"articles"` |
+| 布尔值 | 数据类型为true或false。 |
+| 整数 | 表示整数的数据类型。 可以是正数、负数或零。 <br>示例: `-201`, `0`, `412` |
+| 数组 | 作为一组其他文字值组成的数据类型。 它使用方括号对不同值进行分组和逗号分隔。<br> **注意：** 您无法直接访问数组中项目的属性。<br> 示例: `[1, 4, 7]`, `["US", "FR"]` |
+
+>[!CAUTION]
+>
+>在个性化表达式中无法使用&#x200B;**xEvent**&#x200B;变量。 对xEvent的任何引用都将导致验证失败。
