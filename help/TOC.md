@@ -6,7 +6,7 @@ user-guide-description: 使用Journey Optimizer为客户提供连接、情境式
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 43%
@@ -193,7 +193,7 @@ ht-degree: 43%
       + [技术设置](using/administration/administration.md)
       + [创建消息预设](using/configuration/message-presets.md)
       + 推送通知配置{#push-config}
-         + [推送通知入门](using/push-gs.md)
+         + [推送配置入门](using/push-gs.md)
          + [配置推送渠道](using/push-configuration.md)
       + 电子邮件配置{#email-config}
          + 委派子域{#delegate-subdomains}
