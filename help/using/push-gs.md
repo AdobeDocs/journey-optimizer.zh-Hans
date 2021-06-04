@@ -1,9 +1,9 @@
 ---
 title: 推送配置入门
 description: 了解推送通知数据流和组件
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,7 @@ ht-degree: 0%
    * 创建客户端移动资产并添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
    * 注册移动设备应用程序包标识符和应用程序凭据
 
-* **Adobe Experience Platform Real-time Customer Profile通过**
-合并来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* **Adobe Experience Platform Real-time Customer Profile通过**  合并来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [进一步了解Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 * **[!DNL Adobe Journey Optimizer]** :在Adobe Experience Platform中实施与上述组件的移动设备应用程序集成以及客户配置文件后，您便可以在Adobe Journey Optimizer中创作和编排推送通知，以与用户互动。
 
