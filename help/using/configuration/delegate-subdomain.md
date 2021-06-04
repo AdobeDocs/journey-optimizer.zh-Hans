@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 8%
 
 域名委派是允许域名所有者的方法(技术上为：DNS区域)，以委派其分区(技术上：其下的DNS区域（可称为子区域）到其他实体。 基本上，如果客户正在处理区域“example.com”，他可以将子区域“marketing.example.com”委派给Adobe。
 
-通过委派子域以与Adobe Optimizer一起使用，客户可以依赖Adobe来维护满足其电子邮件营销发送域行业标准可交付性要求所需的DNS基础结构，同时继续维护和控制其的DNS
-内部电子邮件域。
+通过委派子域以与[!DNL Journey Optimizer]一起使用，客户可以依赖Adobe来维护满足其电子邮件营销发送域行业标准可交付性要求所需的DNS基础结构，同时继续维护和控制其内部电子邮件域的DNS。
 
-Journey Optimizer允许您将子域完全委派给Adobe。 这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
+[!DNL Journey Optimizer] 允许您完全委派子域，以便直接从产品界面Adobe。这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
 
 >[!NOTE]
 >
