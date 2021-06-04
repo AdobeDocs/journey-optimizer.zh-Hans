@@ -1,9 +1,9 @@
 ---
 title: 版面数据集
 description: 此部分列出了在导出的数据集中用于版面的所有字段。
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 4%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 4%
 **字段：** contentTypes
 **类型：** 数组
 
-* **MIME媒体类型**
+**_experience > decisioning > contentTypes > MIME媒体类型**
 
-   **标题：** MIME媒体类型
-   **描述：** 对该版面中预期的组件的媒体类型的约束。一个组件可能有多个媒体类型，如不同的图像格式。
-   **类型：**&#x200B;字符串
+**标题：** MIME媒体类
+**型描述：** 在该位置中预期的组件的媒体类型的约束。一个组件可能有多个媒体类型，如不同的图像格式。
+**类型：**&#x200B;字符串
 
 #### _experience > decisioning >版面描述
 
