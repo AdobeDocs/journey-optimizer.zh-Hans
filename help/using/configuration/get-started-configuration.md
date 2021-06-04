@@ -8,7 +8,7 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 1. **配置消息和渠道**:定义预设、调整和自定义电子邮件和推送消息
 
-   * 在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中定义推送通知设置。 [了解详情](../push-configuration.md)
+   * 在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中定义推送通知设置。 [了解详情](../push-gs.md)
 
    * 创建消息预设，以配置电子邮件和推送通知消息所需的所有技术参数。 [了解详情](message-presets.md)
 
