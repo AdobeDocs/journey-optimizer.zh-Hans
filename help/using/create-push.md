@@ -1,7 +1,7 @@
 ---
 title: 配置推送通知
 description: 了解如何在Journey Optimizer中创建推送通知
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 10%
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 自定义数据
 
-在&#x200B;**[!UICONTROL Custom data]**&#x200B;部分中，您可以根据移动应用程序配置将自定义变量添加到有效负载中。 有关如何在Adobe Experience Platform中设置推送通知和AdobeLaunch的更多信息，请参阅[此部分](push-configuration.md)
+在&#x200B;**[!UICONTROL Custom data]**&#x200B;部分中，您可以根据移动应用程序配置将自定义变量添加到有效负载中。 有关如何在Adobe Experience Platform中设置推送通知和AdobeLaunch的更多信息，请参阅[此部分](push-gs.md)
 
 ## 高级选项
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [配置推送渠道](push-configuration.md)
+* [配置推送渠道](push-gs.md)
 * [创建新消息](create-message.md)
 * [在历程中添加消息](building-journeys/journeys-message.md)
 
