@@ -1,7 +1,7 @@
 ---
 title: 创建消息预设
 description: 了解如何配置和监视消息预设
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ ht-degree: 0%
 > 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 配置消息预设后，在从&#x200B;**[!UICONTROL Presets]**&#x200B;列表创建消息时，可以选择这些预设。
 
 ## 创建消息预设{#create-message-preset}
@@ -27,6 +28,7 @@ ht-degree: 0%
 1. 访问&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Message presets]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL Create Message preset]**。
 
    ![](../assets/preset-create.png)
+
 
 1. 为预设输入名称和描述（可选），然后选择要配置的渠道。
 
@@ -80,6 +82,7 @@ ht-degree: 0%
 
    这些检查包括由Adobe投放能力团队执行的投放能力测试：
 
+
    * SPF验证
    * DKIM验证
    * MX记录验证
@@ -87,6 +90,7 @@ ht-degree: 0%
    * 主机检查
    * IP池验证
    * A/PTR记录， t/m/res子域验证
+
 
 1. 检查成功后，消息预设将获得&#x200B;**[!UICONTROL Active]**&#x200B;状态。 它已准备好用于投放消息。
 
