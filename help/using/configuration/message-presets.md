@@ -1,7 +1,7 @@
 ---
 title: 创建消息预设
 description: 了解如何配置和监视消息预设
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    * 选择要用于每个平台的移动设备应用程序。
 
-      有关如何配置环境以发送推送通知的更多信息，请参阅[此部分](../push-configuration.md)。
+      有关如何配置环境以发送推送通知的更多信息，请参阅[此部分](../push-gs.md)。
 
 1. 配置完所有参数后，单击&#x200B;**[!UICONTROL Submit]**&#x200B;进行确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 
