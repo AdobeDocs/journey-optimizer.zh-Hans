@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 27%
@@ -46,13 +46,21 @@ ht-degree: 27%
 
 1. 选择 **[!UICONTROL Product profile]**。
 
+   ![](../assets/sandbox_1.png)
+
 1. 选择 **[!UICONTROL Permissions]** 选项卡。
 
-1. 选择&#x200B;**[!UICONTROL Sandbox access]**&#x200B;功能。
+1. 选择&#x200B;**[!UICONTROL Sandboxes]**&#x200B;功能。
+
+   ![](../assets/sandbox_2.png)
 
 1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。
 
+   ![](../assets/sandbox_3.png)
+
 1. 如果需要，在&#x200B;**[!UICONTROL Included Permission Items]**&#x200B;下，单击删除沙箱对&#x200B;**[!UICONTROL Product profile]**&#x200B;的访问权限旁边的X图标。
+
+   ![](../assets/sandbox_4.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
