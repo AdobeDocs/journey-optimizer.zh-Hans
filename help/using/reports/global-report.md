@@ -1,10 +1,9 @@
 ---
 title: 全局报告
-description: 了解如何使用全局报告中的数据
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: 了解如何使用全局报表中的数据
+source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -13,19 +12,23 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-**[!UICONTROL Global report]**&#x200B;允许您测量在选定时间段内的旅程和投放的有效性。
+>[!NOTE]
+>
+> 如果在使用查询服务时通过API进行自定义查询，则报表可能会出现延迟。
 
-* 如果要目标旅程中的旅程或投放，请从&#x200B;**[!UICONTROL Journeys]**&#x200B;菜单访问您的旅程，然后单击&#x200B;**[!UICONTROL Global report]**&#x200B;图标。 然后，您可以找到历程、电子邮件和推送&#x200B;**[!UICONTROL Global report]**。
+**[!UICONTROL Global report]**&#x200B;允许您测量选定时间段内历程和投放的有效性。
 
-* 如果要目标特定投放，请从消息&#x200B;**[!UICONTROL Executions]**&#x200B;选项卡的&#x200B;**[!UICONTROL Global view]**&#x200B;中，从所选投放的高级菜单中选择&#x200B;**[!UICONTROL Global Report]**。
+* 如果要定位历程中的历程或投放，请从&#x200B;**[!UICONTROL Journeys]**&#x200B;菜单访问历程，然后单击&#x200B;**[!UICONTROL Global report]**&#x200B;图标。 然后，您可以找到历程、电子邮件和推送&#x200B;**[!UICONTROL Global report]**。
 
-## 修改仪表板{#modify-dashboard}
+* 如果要定位特定投放，请从消息&#x200B;**[!UICONTROL Executions]**&#x200B;选项卡的&#x200B;**[!UICONTROL Global view]**&#x200B;中，从选定投放的高级菜单中选择&#x200B;**[!UICONTROL Global Report]**。
 
-可以通过调整小部件大小或删除小部件或更改目标时间范围来修改每个报告仪表板。 更改构件只会影响当前用户的仪表板。 其他用户将看到自己的仪表板或默认设置的用户。
+## 修改功能板{#modify-dashboard}
 
-1. 在&#x200B;**[!UICONTROL Global report]**&#x200B;仪表板中，单击“调度程序”按钮。
+可通过调整大小或删除小组件或更改目标时间范围来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
-1. 选择开始和结束日期。 您可以通过选择&#x200B;**[!UICONTROL Start time]**&#x200B;和&#x200B;**[!UICONTROL End time]**&#x200B;来进一步调整您的报表。
+1. 在&#x200B;**[!UICONTROL Global report]**&#x200B;功能板中，单击调度程序按钮。
+
+1. 选择开始日期和结束日期。 您可以通过选择&#x200B;**[!UICONTROL Start time]**&#x200B;和&#x200B;**[!UICONTROL End time]**&#x200B;来进一步优化报表。
 
    ![](../assets/global_report_6.png)
 
@@ -33,14 +36,14 @@ ht-degree: 0%
 
    ![](../assets/global_report_8.png)
 
-1. 通过拖动构件的右下角来调整构件大小。
+1. 通过拖动小组件的右下角来调整其大小。
 
    ![](../assets/global_report_9.png)
 
-1. 单击&#x200B;**[!UICONTROL Remove]**&#x200B;可删除您无需跟踪弹回的其他构件。
+1. 单击&#x200B;**[!UICONTROL Remove]**&#x200B;可删除您不需要跟踪退回的其他小组件。
 
    ![](../assets/global_report_10.png)
 
-1. 对显示顺序和构件的大小感到满意后，单击&#x200B;**[!UICONTROL Save]**。
+1. 当您对小组件的显示顺序和大小感到满意后，单击&#x200B;**[!UICONTROL Save]**。
 
-您的仪表板现已保存。 您的不同更改将重新应用，以便将来使用您的全局报表。 如果需要，请使用&#x200B;**[!UICONTROL Reset]**&#x200B;选项恢复默认构件和构件的顺序。
+功能板现已保存。 您的不同更改将重新应用，以供日后使用全局报表。 如果需要，请使用&#x200B;**[!UICONTROL Reset]**&#x200B;选项恢复默认小组件和小组件的顺序。
