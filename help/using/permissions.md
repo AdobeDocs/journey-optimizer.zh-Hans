@@ -1,11 +1,10 @@
 ---
 title: 管理权限
 description: 了解如何管理权限
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -13,17 +12,17 @@ ht-degree: 66%
 
 ![](assets/do-not-localize/badge.png)
 
-## 访问Journey Optimizer {#access-CJM}
+## 访问 Journey Optimizer {#access-CJM}
 
 [!DNL Journey Optimizer] 允许您为用户分配一组权限，以定义他们可以访问的界面部分。
 
-他们可由有权访问 Admin Console 的管理员管理。[进一步了解Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
+他们可由有权访问 Admin Console 的管理员管理。[进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
 
 要能够访问 [!DNL Journey Optimizer]，用户必须是：
 
 * 与权限 [!DNL Journey Optimizer]关联&#x200B;**[!UICONTROL product profile]**&#x200B;的一 [!DNL Journey Optimizer]部分。
 
-* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。无需强制许可。用户应具有从 [!DNL Journey Optimizer] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。[进一步了解访问控制](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#adobe-admin-console)。
+* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。无需强制许可。用户应具有从 [!DNL Journey Optimizer] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。[进一步了解访问控制](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans#adobe-admin-console)。
 
 在 Admin Console 中，您可以向用户分配以下现成的产品用户档案之一：
 
@@ -62,7 +61,7 @@ ht-degree: 66%
 
 [!DNL Journey Optimizer] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙箱。通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
 要创建产品用户档案并分配一组权限和沙箱，请执行以下操作：
 
@@ -86,7 +85,7 @@ ht-degree: 66%
 
    ![](assets/do-not-localize/user_management_7.png)
 
-1. 在 **[!UICONTROL Sandboxes]** 权限类别中，选择要分配给产品用户档案的沙箱。在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。
+1. 在 **[!UICONTROL Sandboxes]** 权限类别中，选择要分配给产品用户档案的沙箱。在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[进一步了解沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
    ![](assets/do-not-localize/user_management_8.png)
 
@@ -106,7 +105,7 @@ ht-degree: 66%
 
 产品用户档案会分配给您组织内共享相同权限的一组用户。本部分提供每个现成产品用户档案及已分配权限的列表。
 
-要为用户分配产品用户档案以访问旅程，请执行以下操作：
+要为用户分配产品用户档案以访问历程，请执行以下操作：
 
 1. 在 Admin Console 中，选择 **[!UICONTROL Journey Orchestration]**。
 
@@ -118,7 +117,7 @@ ht-degree: 66%
 
 1. 单击 **[!UICONTROL Add user]**。
 
-   您还可以将新用户添加到用户组以微调共享的权限集。[了解有关用户组的更多信息](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
+   您还可以将新用户添加到用户组以微调共享的权限集。[进一步了解用户组](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
 
    ![](assets/do-not-localize/user_management_3.png)
 
@@ -126,39 +125,40 @@ ht-degree: 66%
 
    ![](assets/do-not-localize/user_management_4.png)
 
-随后，您的用户将收到一封重定向到您的  实例的电子邮件。
+随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
 ## 使用沙箱 {#sandboxes}
 
 [!DNL Journey Optimizer] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙箱](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer] 反映为给定组织创建的Adobe Experience Platform沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙箱用户指南中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙箱。
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙箱用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
 
 ## 访问内容{#content-access}
 
-要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。 您可以在[!DNL Admin Console]中显示的&#x200B;**[!UICONTROL Storage]**&#x200B;选项卡中为管理员创建和配置共享文件夹。 如果您以系统管理员身份对[!DNL Admin Console]具有访问权限，则可以创建共享文件夹并向共享文件夹添加具有不同访问级别的委派。
+要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。您可以在 [!DNL Admin Console] 中显示的 **[!UICONTROL Storage]** 选项卡中为管理员创建和配置共享文件夹。如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
 
 ![](assets/do-not-localize/content_access.png)
 
-请注意，要使内容与正确的沙箱同步，您必须遵循与沙箱相同的语法，例如，如果将沙箱称为开发，则共享文件夹应具有相同的名称。
+请注意，要使内容与正确的沙箱同步，您必须遵循与沙箱相同的语法，例如，如果沙箱命名为“development”，则共享文件夹应具有相同的名称。
 
-[了解如何管理共享文件夹](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html)。
+[了解如何管理共享文件夹](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html)。
 
-## Assets Essentials权限{#assets-permissions}
+## Assets Essentials 权限{#assets-permissions}
 
-Adobe Experience Manager Assets Essentials提供了单个集中的资产存储库，您可以使用它填充您的消息。
-每个资产都保存在文件夹或子文件夹中。 您可以选择共享文件夹以及要分配的访问级别。
+Adobe Experience Manager Assets Essentials 提供了单一集中式资源存储库，您可以使用它来填充消息。
+每个资源都保存在文件夹或子文件夹中。您可以选择共享文件夹以及要分配的访问权限级别。
 
-1. 在&#x200B;**[!UICONTROL Assets]**&#x200B;选项卡中，浏览您的文件夹以找到您需要共享的文件夹。
+1. 在 **[!UICONTROL Assets]** 选项卡中，浏览您的文件夹以找到您需要共享的文件夹。
 
-1. 选择您的文件夹或资产，然后单击&#x200B;**[!UICONTROL Share]**。
+1. 选择您的文件夹或资源，然后单击 **[!UICONTROL Share]**。
 
    ![](assets/share_media_1.png)
 
-1. 输入要与您共享对文件夹访问权限的其他人的电子邮件地址。
+1. 输入要与您共享文件夹访问权限的其他人的电子邮件地址。
 
 1. 在不同的访问级别之间进行选择：
 
@@ -168,7 +168,7 @@ Adobe Experience Manager Assets Essentials提供了单个集中的资产存储�
 
    ![](assets/share_media_2.png)
 
-1. 如果需要，可向邀请中添加消息。
+1. 如果需要，可向邀请添加消息。
 
 1. 单击 **[!UICONTROL Invite]**。
 
