@@ -1,23 +1,22 @@
 ---
 title: 决策管理入门
-description: 开始使用决策管理。 进一步了解其架构、优惠和决策，以及允许您执行的常见使用案例。
-translation-type: tm+mt
+description: 决策管理入门。 了解关于其架构、优惠和决策，及其允许您执行的常见使用案例的更多信息。
 source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 
-# 关于决策管理{#about-offer-decision}
+# 关于决策管理 {#about-offer-decision}
 
-使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给您在所有接触点上的客户。设计完成后，用个性化的优惠目标受众。
+使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。
 
 “决策管理”功能由两个主要组件组成：
 
-* **集中式优惠库**&#x200B;是创建和管理组成优惠的不同元素并定义其规则和约束的接口。
-* **优惠决策引擎**&#x200B;利用Adobe Experience Platform数据和实时客户用户档案，以及优惠库，以选择向其提供优惠的适当时间、客户和渠道。
+* **集中式优惠库**&#x200B;是创建和管理组成优惠的不同元素并定义其规则和限制条件的界面。
+* **优惠决策引擎**&#x200B;利用 Adobe Experience Platform 数据、实时客户档案和优惠库选择合适的时间、客户和渠道，以便向其提供优惠。
 
 ![](../../assets/architecture.png)
 
@@ -27,9 +26,9 @@ ht-degree: 38%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-![](../../assets/do-not-localize/how-to-video.png) [观看这些教程视](#tutorial-videos) 频，了解有关决策管理的更多信息。
+![](../../assets/do-not-localize/how-to-video.png) [观看这些视频教程](#tutorial-videos)，以了解有关决策管理的更多信息。
 
-## 关于优惠和决定{#offers-offer-activities}
+## 关于优惠和选择 {#offers-offer-activities}
 
 **优惠**&#x200B;由内容、合格规则和限制条件（确定向客户呈现该优惠的条件）组成。
 
@@ -37,13 +36,13 @@ ht-degree: 38%
 
 ![](../../assets/offer_structure.png)
 
-在优惠库中添加了优惠后，您可以将优惠集成到&#x200B;**决策**(以前称为“优惠活动”)中。
+在优惠库中添加优惠后，您可以将优惠整合到&#x200B;**决策**（之前称为“优惠活动”）中。
 
-决策是针对您的优惠的容器，这些优惠将利用优惠决策引擎，以便根据投放的目标选择最佳的交付。
+决策是优惠的容器，它们将利用优惠决策引擎，以便根据投放目标来选择应投放的最合适的优惠。
 
-## 常见用例
+## 常见使用案例
 
-决策管理功能以及与Adobe Experience Platform的集成使您能够涵盖多个使用案例，从而帮助您提高客户的参与度和转化率。
+决策管理功能以及与 Adobe Experience Platform 的集成使您能够覆盖诸多使用案例，从而帮助您提高客户的参与度和转化率。
 
 * 根据来自 Adobe Experience Platform 的数据，在您的网站主页上显示与来访客户的兴趣点相匹配的优惠。
 
@@ -53,7 +52,7 @@ ht-degree: 38%
 
    ![](../../assets/push_sample.png)
 
-* 在联系您的支持团队时，决策管理还可帮助您增强客户的体验。 决策管理API允许您在呼叫中心代理的门户中显示有关客户赎回和次佳优惠的信息。
+* 决策管理还可帮助您提升客户在联系支持团队时的体验。决策管理 API 允许您在呼叫中心服务人员的门户中显示有关客户已兑现的优惠和下个最合适优惠的信息。
 
    ![](../../assets/call-center.png)
 
@@ -61,16 +60,16 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->这些视频适用于在Adobe Experience Platform上构建的Offer Decisioning应用程序服务，并非特定于[!DNL Adobe Journey Optimizer]。 但是，它为在[!DNL Journey Optimizer]上下文中使用决策管理提供了通用指导。
+>这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它为在 [!DNL Journey Optimizer] 上下文中使用决策管理提供了通用指导。
 
 ### 什么是决策管理？{#what-is-offer-decisioning}
 
-以下视频介绍了决策管理的主要功能、体系结构和使用案例：
+以下视频介绍了决策管理的关键功能、架构和使用案例：
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
-### 定义和管理优惠{#use-offer-decisioning}
+### 定义和管理优惠 {#use-offer-decisioning}
 
-以下视频介绍如何使用决策管理定义和管理优惠并利用实时客户数据。
+以下视频介绍了如何使用决策管理来定义和管理优惠，以及如何利用实时客户数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
