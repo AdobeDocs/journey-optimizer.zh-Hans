@@ -2,10 +2,10 @@
 solution: Journey Orchestration
 title: 关于操作
 description: 了解如何配置操作
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 82%
+source-wordcount: '213'
+ht-degree: 84%
 
 ---
 
@@ -31,8 +31,6 @@ ht-degree: 82%
 >自定义操作的配置必须由&#x200B;**技术用户**&#x200B;执行。
 
 此类操作在历程的左侧面板的 **[!UICONTROL Action]** 类别中可用。请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
-
-在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新历程、操作、数据源或事件。有关快捷键的更多信息，请参阅[此部分](../user-interface.md#cjm-accessibility)。
 
 要查看操作列表或配置新操作，请浏览左侧导航中的&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Configuration]**。 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
 
