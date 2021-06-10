@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情�
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
+source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 79%
    + [什么是 Journey Optimizer](using/get-started.md)
    + [快速入门](using/quick-start.md)
    + [用户界面](using/user-interface.md)
-   + [管理权限](using/permissions.md)
    + [已知问题](using/known-issues.md)
 + 消息 {#create-messages}
    + [消息入门](using/get-started-content.md)
