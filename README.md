@@ -1,18 +1,24 @@
 ---
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '17'
-ht-degree: 100%
+source-git-commit: 9e97178e45f36745ec6155e163918c1265600890
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 26%
 
 ---
-# customer-journey-management.en
+# journey-optimizer.en
 
 Journey Optimizer 产品文档
 
-Journey Optimizer 文档，包含对以下功能的说明：
+AdobeJourney Optimizer是一个灵活且可扩展的应用程序，用于创建和及时提供个性化、连接且可靠的
+客户体验。
 
+主题：
+
+* 入门
+* 消息
+* 区段
 * 历程
-* 消息、内容
-* 优惠
-* 管理员
-
+* 报表
+* offer decisioning/决策管理
+* 配置准则
+* 访问控制
