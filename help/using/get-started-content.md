@@ -1,11 +1,10 @@
 ---
 title: 消息入门
-description: 了解如何在Journey Optimizer中创建消息
-translation-type: tm+mt
+description: 了解如何在 Journey Optimizer 中创建消息
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -13,15 +12,15 @@ ht-degree: 10%
 
 ![](assets/do-not-localize/badge.png)
 
-使用[!DNL Journey Optimizer]在一个位置利用资源和内容等多个资源，并创建和发布个性化的推送通知和电子邮件消息。
+使用 [!DNL Journey Optimizer]，在一个单一位置利用资产和内容等多类资源，并创建和发布个性化的推送通知和电子邮件消息。
 
-* 利用[!DNL Journey Optimizer] **电子邮件设计功能**&#x200B;创建或导入响应式电子邮件。
+* 利用[!DNL Journey Optimizer] **电子邮件设计功能**&#x200B;来创建或导入响应式电子邮件。
 
-* 利用&#x200B;**Adobe Experience Manager Assets Essentials**&#x200B;构建您自己的资产数据库，并丰富您的电子邮件。
+* 利用 **Adobe Experience Manager Assets Essentials** 构建您自己的资产数据库，并丰富您的电子邮件。
 
 * 根据客户的用户档案属性创建&#x200B;**个性化的推送和电子邮件消息**&#x200B;以增强客户体验。
 
-* **根据这些内容创** 建推送和电子邮件消息，然后发布。
+* 根据这些内容&#x200B;**创建推送和电子邮件消息**，然后发布。
 
 <table>
 <tr>
