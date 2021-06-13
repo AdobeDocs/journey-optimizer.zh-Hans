@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 79%
@@ -125,7 +125,7 @@ ht-degree: 79%
       + [创建后备优惠](using/offers/offer-library/creating-fallback-offers.md)
       + [创建收藏集](using/offers/offer-library/creating-collections.md)
       + [创建排名公式](using/offers/offer-library/create-ranking-formulas.md)
-   + 创建和管理决策{#create-manage-activities}
+   + 创建和管理决策 {#create-manage-activities}
       + [创建决策](using/offers/offer-activities/create-offer-activities.md)
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
    + 创建决策管理报表 {create-reports}
@@ -133,13 +133,13 @@ ht-degree: 79%
       + [决策管理事件关键信息](using/offers/reports/key-information.md)
       + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)
    + 导出优惠目录{#export-catalog}
-      + [优惠目录导出入门 ](using/offers/export-catalog/get-started-export.md)
+      + [导出优惠目录入门 ](using/offers/export-catalog/get-started-export.md)
       + [访问导出的优惠目录](using/offers/export-catalog/access-dataset.md)
       + [个性化优惠数据集](using/offers/export-catalog/export-offers.md)
       + [决策数据集](using/offers/export-catalog/export-decisions.md)
       + [投放位置数据集](using/offers/export-catalog/export-placements.md)
-      + [后备数据集](using/offers/export-catalog/export-fallback.md)
-   + API 参考{#api-reference}
+      + [备用数据集](using/offers/export-catalog/export-fallback.md)
+   + API 参考 {#api-reference}
       + [快速入门](using/offers/api-reference/getting-started.md)
       + 使用 API 创建和管理优惠 {#offers-api}
          + 投放位置{#placements}
@@ -148,37 +148,37 @@ ht-degree: 79%
             + [创建投放位置](using/offers/api-reference/offers-api/placements/create.md)
             + [更新投放位置](using/offers/api-reference/offers-api/placements/update.md)
             + [删除投放位置](using/offers/api-reference/offers-api/placements/delete.md)
-         + 决策规则{#decision-rules}
+         + 决策规则 {#decision-rules}
             + [列出决策规则](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [查找决策规则](using/offers/api-reference/offers-api/decision-rules/lookup.md)
             + [创建决策规则](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [更新决策规则](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [删除决策规则](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 标记{#tags}
+         + 标记 {#tags}
             + [列出标记](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [查找标记](using/offers/api-reference/offers-api/tags/lookup.md)
             + [创建标记](using/offers/api-reference/offers-api/tags/create.md)
             + [更新标记](using/offers/api-reference/offers-api/tags/update.md)
             + [删除标记](using/offers/api-reference/offers-api/tags/delete.md)
-         + 个性化优惠{#personalized-offers}
+         + 个性化优惠 {#personalized-offers}
             + [列出个性化优惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [查找个性化优惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
             + [创建个性化优惠](using/offers/api-reference/offers-api/personalized-offers/create.md)
             + [更新个性化优惠](using/offers/api-reference/offers-api/personalized-offers/update.md)
             + [删除个性化优惠](using/offers/api-reference/offers-api/personalized-offers/delete.md)
-         + 收藏集{#collections}
+         + 收藏集 {#collections}
             + [列出收藏集](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [查找收藏集](using/offers/api-reference/offers-api/collections/lookup.md)
             + [创建收藏集](using/offers/api-reference/offers-api/collections/create.md)
             + [更新收藏集](using/offers/api-reference/offers-api/collections/update.md)
             + [删除收藏集](using/offers/api-reference/offers-api/collections/delete.md)
-         + 后备优惠{#fallback-offers}
+         + 后备优惠 {#fallback-offers}
             + [列出后备优惠](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [查找后备优惠](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
             + [创建后备优惠](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [更新后备优惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [删除后备优惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + 创建和管理使用了 API 的决策{#activities-api}
+      + 使用 API 创建和管理决策 {#activities-api}
          + [列出决策](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [查找决策](using/offers/api-reference/activities-api/activities/lookup.md)
          + [创建决策](using/offers/api-reference/activities-api/activities/create.md)
