@@ -1,14 +1,18 @@
 ---
 title: 创建消息
 description: 了解如何创建消息
-source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
+feature: 概述
+topic: 内容管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 4%
 
 ---
 
-# 创建消息{#create-message}
+# 创建消息 {#create-message}
 
 ![](assets/do-not-localize/badge.png)
 
