@@ -1,10 +1,14 @@
 ---
 title: 时区管理
 description: 了解时区管理
-source-git-commit: bcc9f5c7bdb660462ca412ed2528dab16d610418
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 2%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
