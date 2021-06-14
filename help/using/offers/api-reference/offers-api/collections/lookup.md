@@ -1,19 +1,22 @@
 ---
-title: 查找集合
-description: 集合是基于营销人员定义的预定义条件的优惠子集，如优惠的类别。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 查找收藏集
+description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '178'
+ht-degree: 3%
 
 ---
 
-# 查找集合
+# 查找收藏集
 
-集合是基于营销人员定义的预定义条件的优惠子集，如优惠的类别。
+收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定集合，该API包括集合`@id`或请求路径中集合的名称。
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定的收藏集，该API包含收藏集`@id`或请求路径中收藏集的名称。
 
 **API格式**
 
@@ -23,11 +26,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定义与集合关联的模式。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Mobile demo` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Mobile demo` |
 
 **请求**
 
@@ -43,7 +46,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回位置的详细信息，包括有关容器ID、实例ID和唯一集合`@id`的信息。
+成功响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一集合`@id`的信息。
 
 ```json
 {
