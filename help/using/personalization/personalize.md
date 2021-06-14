@@ -1,10 +1,14 @@
 ---
 title: 在 Journey Optimizer 中个性化内容
 description: 个性化入门
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 49%
+source-wordcount: '179'
+ht-degree: 50%
 
 ---
 
