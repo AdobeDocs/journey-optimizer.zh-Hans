@@ -1,10 +1,14 @@
 ---
 title: 创建消息预设
 description: 了解如何配置和监视消息预设
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: 应用程序设置
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 0%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
