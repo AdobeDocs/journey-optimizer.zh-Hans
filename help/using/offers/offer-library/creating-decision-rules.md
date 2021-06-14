@@ -1,10 +1,14 @@
 ---
 title: 创建决策规则
 description: 了解如何在Adobe Experience Platform中创建决策规则。
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 13%
 
 ---
 
