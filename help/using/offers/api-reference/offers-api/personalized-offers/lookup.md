@@ -1,19 +1,22 @@
 ---
 title: 列出个性化优惠
-description: 个性化优惠是基于合格规则和限制的可自定义营销信息。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 个性化优惠是基于资格规则和限制的可自定义营销消息。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '176'
+ht-degree: 5%
 
 ---
 
 # 查找个性化优惠
 
-个性化优惠是基于合格规则和限制的可自定义营销信息。
+个性化优惠是基于资格规则和限制的可自定义营销消息。
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定的个性化优惠，该API包含个性化优惠`@id`或请求路径中的个性化优惠的名称。
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定的个性化选件，该API包含个性化选件`@id`或请求路径中的个性化选件名称。
 
 **API格式**
 
@@ -23,11 +26,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 个性化优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | 定义与个性化模式关联的优惠。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数“id”和“name”不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Discount offer` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 个性化选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | 定义与个性化选件关联的架构。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数“id”和“name”不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Discount offer` |
 
 **请求**
 
@@ -43,7 +46,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回位置的详细信息，包括有关您的容器ID、实例ID和唯一个性化优惠`@id`的信息。
+成功的响应会返回版面的详细信息，包括有关容器ID、实例ID和独特个性化选件`@id`的信息。
 
 ```json
 {
