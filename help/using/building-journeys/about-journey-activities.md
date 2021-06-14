@@ -1,15 +1,18 @@
 ---
-title: 关于旅程活动
-description: 了解旅程活动
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: 关于历程活动
+description: 了解历程活动
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 31%
 
 ---
 
-# 关于旅程活动{#about-journey-activities}
+# 关于历程活动 {#about-journey-activities}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -17,24 +20,24 @@ ht-degree: 25%
 
 ## 事件活动 {#event-activities}
 
-由技术用户配置的事件（请参阅[此页](../event/about-events.md)）均显示在屏幕左侧的调色板的第一类别中。 提供以下事件活动:
+技术用户配置的事件（请参阅[此页面](../event/about-events.md)）全部显示在屏幕左侧面板的第一个类别中。 可以使用以下事件活动：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
-* [细分资格](../building-journeys/segment-qualification-events.md)
+* [区段限定条件](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
-通过拖放事件活动开始您的旅程。 您也可以多次单击它。
+通过拖放事件活动以开始您的历程。 您还可以双击该页面。
 
 ![](../assets/journey44.png)
 
 ## 编排活动 {#orchestration-activities}
 
-从屏幕左侧的调色板中，可使用以下业务流程活动:
+从屏幕左侧的面板中，可以使用以下编排活动：
 
 * [条件](../building-journeys/condition-activity.md)
-* [结束](../building-journeys/end-activity.md)
+* [终止 ](../building-journeys/end-activity.md)
 * [等待](../building-journeys/wait-activity.md)
 * [阅读区段](../building-journeys/read-segment.md)
 
@@ -42,7 +45,7 @@ ht-degree: 25%
 
 ## 操作活动 {#action-activities}
 
-从面板的左侧，在屏幕的&#x200B;**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Orchestration]**&#x200B;下方，您将找到&#x200B;**[!UICONTROL Actions]**&#x200B;类别。 可使用以下操作活动:
+从屏幕左侧的面板中，在&#x200B;**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Orchestration]**&#x200B;下方，您将找到&#x200B;**[!UICONTROL Actions]**&#x200B;类别。 可使用以下操作活动：
 
 * [消息](../building-journeys/journeys-message.md)
 * [自定义操作](../building-journeys/using-custom-actions.md)
@@ -52,11 +55,11 @@ ht-degree: 25%
 
 这些活动代表各种的可用通信渠道。您可以将它们组合在一起，以创建跨渠道方案。
 
-如果您已配置自定义操作，则这些操作将显示在此处（请参阅[此页](../building-journeys/using-custom-actions.md)）。
+如果已配置自定义操作，则它们将显示在此处（请参阅[此页面](../building-journeys/using-custom-actions.md)）。
 
 ## 最佳实践 {#best-practices}
 
-大多数活动允许您定义&#x200B;**[!UICONTROL Label]**。 这会为将在画布中的活动下显示的名称添加后缀。 如果您在旅程中多次使用相同的活动，并希望更轻松地识别它们，则此功能非常有用。 它还使得在出现错误时调试更简单，并使报告更易于阅读。 您还可以添加可选的&#x200B;**[!UICONTROL Description]**。
+大多数活动都允许您定义&#x200B;**[!UICONTROL Label]**。 这会为将在画布中活动下方显示的名称添加后缀。 如果您在历程中多次使用同一活动并希望更轻松地识别它们，则此功能非常有用。 它还可以在出错时更轻松地进行调试，并且还可以更轻松地阅读报表。 您还可以添加一个可选的&#x200B;**[!UICONTROL Description]**。
 
 ![](../assets/journey59bis.png)
 
