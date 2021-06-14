@@ -1,14 +1,18 @@
 ---
 title: 个性化优惠数据集
 description: 此部分列出了选件导出数据集中使用的所有字段。
-source-git-commit: 57b6ffa4136eda80c41344db15d363d3107d4e32
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '2005'
-ht-degree: 2%
+source-wordcount: '2007'
+ht-degree: 3%
 
 ---
 
-# 个性化选件数据集{#offers-dataset}
+# 个性化优惠数据集 {#offers-dataset}
 
 每次修改选件时，都会更新为个性化内容选件自动生成的数据集。
 
