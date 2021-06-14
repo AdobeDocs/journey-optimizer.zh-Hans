@@ -1,9 +1,13 @@
 ---
 title: 帮助程序函数库
 description: Journey Optimizer助手函数库
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
@@ -170,7 +174,7 @@ ht-degree: 2%
         <td><a href="string.md#rightTrim">右修剪</a></td><td>此函数从字符串的末尾删除空格 </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Split</a></td><td>此函数用于按给定字符拆分字符串</td>
+        <td><a href="string.md#split">拆分</a></td><td>此函数用于按给定字符拆分字符串</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">开始于</a></td><td>此函数用于确定字符串是否以指定的子字符串开头</td>
@@ -210,7 +214,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-## 运算符{#operators-helper}
+## 操作员{#operators-helper}
 
 ### 算术函数{#arithmetic-helper}
 
