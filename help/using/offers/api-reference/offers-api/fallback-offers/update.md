@@ -1,21 +1,24 @@
 ---
 title: 更新后备优惠
-description: 如果客户不符合其他优惠的资格，则会向客户发送回退优惠
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 如果客户不符合其他选件的资格，则会向客户发送备用选件
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 10%
+source-wordcount: '171'
+ht-degree: 11%
 
 ---
 
 # 更新后备优惠
 
-您可以通过向[!DNL Offer Library] API发出PATCH请求，在容器中修改或更新回退优惠。
+您可以通过向[!DNL Offer Library] API发出PATCH请求，来修改或更新容器中的备用选件。
 
-有关JSON修补程序（包括可用操作）的详细信息，请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
+有关JSON修补程序（包括可用操作）的更多信息，请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
 
-## 接受和内容类型标题
+## 接受和内容类型标头
 
 下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
@@ -32,9 +35,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 回退优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 回退优惠的实例ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 备用选件的实例ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **请求**
 
@@ -58,13 +61,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括：`add`、`replace`和`remove`。 |
+| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括：`add`、`replace`和`remove`。 |
 | `path` | 要更新的参数的路径。 |
-| `value` | 要更新参数的新值。 |
+| `value` | 要使用更新参数的新值。 |
 
 **响应**
 
-成功的响应会返回回退优惠的更新详细信息，包括其唯一实例ID和回退优惠`@id`。
+成功响应会返回备用选件的更新详细信息，包括其唯一实例ID和备用选件`@id`。
 
 ```json
 {
