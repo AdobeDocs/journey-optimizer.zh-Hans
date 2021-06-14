@@ -1,10 +1,14 @@
 ---
 title: 在历程中添加消息
 description: 在历程中添加消息
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 2%
+source-wordcount: '263'
+ht-degree: 3%
 
 ---
 
