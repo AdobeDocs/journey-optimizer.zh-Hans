@@ -1,9 +1,13 @@
 ---
 title: Journey Optimizer中的个性化上下文
 description: 了解在哪些上下文中可以添加个性化
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 2%
 
 ---
