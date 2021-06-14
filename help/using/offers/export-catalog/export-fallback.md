@@ -1,9 +1,13 @@
 ---
 title: 后备优惠数据集
 description: 此部分列出了导出数据集中用于备用选件的所有字段。
-source-git-commit: b6364879b2a64ba17f52020f7d27d02459a022b0
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 3%
 
 ---
