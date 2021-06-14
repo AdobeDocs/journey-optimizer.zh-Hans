@@ -1,19 +1,22 @@
 ---
 title: 创建标记
-description: 标记允许您更好地组织和排序优惠。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 利用标记，可更好地组织和排序选件。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 11%
 
 ---
 
 # 创建标记
 
-您可以通过向[!DNL Offer Library] API发出POST请求来创建标记，同时提供您的容器ID。
+在提供容器ID的同时，您可以通过向[!DNL Offer Library] API发出POST请求来创建标记。
 
-## 接受和内容类型标题
+## 接受和内容类型标头
 
 下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
@@ -30,8 +33,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 标签所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -51,7 +54,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应返回有关新创建标记的信息，包括其唯一实例ID和位置`@id`。 您可以在后续步骤中使用实例ID来更新或删除标记。 您可以在稍后的教程中使用自己的唯一标签`@id`创建集合和个性化优惠。
+成功的响应会返回有关新创建标记的信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除标记。 您可以在以后的教程中使用您唯一的标记`@id`来创建收藏集和个性化选件。
 
 ```json
 {
