@@ -1,14 +1,18 @@
 ---
 title: 配置业务事件
 description: 了解如何创建业务事件
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 事件
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 14%
+source-wordcount: '819'
+ht-degree: 15%
 
 ---
 
-# 配置业务事件{#configure-a-business-event}
+# 配置业务事件 {#configure-a-business-event}
 
 ![](../assets/do-not-localize/badge.png)
 
