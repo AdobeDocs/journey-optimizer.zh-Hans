@@ -1,9 +1,13 @@
 ---
 title: 监视消息执行
 description: 了解监控和投放能力指南
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: 可投放性
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
