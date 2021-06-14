@@ -1,17 +1,20 @@
 ---
 title: 查找决策规则
-description: 决策规则是添加到个性化优惠的约束，并应用于用户档案以确定资格。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
 # 查找决策规则
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定的决策规则，该API包括决策规则`@id`或请求路径中的决策规则的名称。
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定的决策规则，该API包含决策规则`@id`或请求路径中决策规则的名称。
 
 **API格式**
 
@@ -21,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 决策规则所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | 定义与决策规则关联的模式。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数s `id`和`name`不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales rule` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | 定义与决策规则关联的架构。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数s `id`和`name`不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales rule` |
 
 **请求**
 
@@ -41,7 +44,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回您查找的特定决策规则的详细信息，包括有关其容器ID、实例ID和唯一决策规则`@id`的信息。
+成功响应会返回您查找的特定决策规则的详细信息，包括有关其容器ID、实例ID和唯一决策规则`@id`的信息。
 
 ```json
 {
