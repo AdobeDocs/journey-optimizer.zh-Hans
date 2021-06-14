@@ -1,10 +1,14 @@
 ---
-title: 术语表
+title: 选件术语表
 description: 优惠词汇表
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 99%
 
 ---
 
