@@ -1,19 +1,22 @@
 ---
 title: 列出个性化优惠
-description: 个性化优惠是基于合格规则和限制的可自定义营销信息。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 个性化优惠是基于资格规则和限制的可自定义营销消息。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 6%
 
 ---
 
 # 列出个性化优惠
 
-个性化优惠是基于合格规则和限制的可自定义营销信息。
+个性化优惠是基于资格规则和限制的可自定义营销消息。
 
-您可以通过对[!DNL Offer Library] API执行单个GET请求，视图容器中所有个性化优惠的列表。
+通过对[!DNL Offer Library] API执行单个GET请求，可以查看容器中所有个性化选件的列表。
 
 **API格式**
 
@@ -23,10 +26,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 个性化优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | 定义与个性化模式关联的优惠。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `{QUERY_PARAMS}` | 可选查询参数，用于筛选结果。 | `limit=1` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 个性化选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | 定义与个性化选件关联的架构。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `{QUERY_PARAMS}` | 用于按筛选结果的可选查询参数。 | `limit=1` |
 
 **请求**
 
@@ -42,7 +45,7 @@ curl -X GET \
 
 ## 使用查询参数
 
-在列出资源时，您可以使用查询参数来页面和筛选结果。
+列出资源时，您可以使用查询参数来页面和筛选结果。
 
 ### 分页
 
@@ -50,15 +53,15 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所选字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用多次引号括起来，以防止其被标记和转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在出现在查询字符串中时应使用反斜杠进行转义。 | `discounted offers` |
+| `q` | 要在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用双引号括起来，以防止其被标记化并转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中显示时应使用反斜杠进行转义。 | `discounted offers` |
 | `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
-| `field` | 可选列表字段以将搜索限制为。 可以重复此参数，如下所示：field=field1[,field=field2,...]和(路径表达式采用点分隔路径的形式，如_instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按降序(Z-A)按标题对项目排序。 | `-repo:createdDate` |
-| `limit` | 限制返回的个性化优惠数。 | `limit=5` |
+| `field` | 可将搜索限制为的字段列表（可选）。 此参数可以重复，如下所示：field=field1[,field=field2,...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按标题以降序(Z-A)对项目进行排序。 | `-repo:createdDate` |
+| `limit` | 限制返回的个性化选件数量。 | `limit=5` |
 
 **响应**
 
-成功的响应会返回一列表个性化优惠，这些客户在您有权访问的容器中。
+成功的响应会返回您有权访问的容器中存在的个性化选件列表。
 
 ```json
 {
