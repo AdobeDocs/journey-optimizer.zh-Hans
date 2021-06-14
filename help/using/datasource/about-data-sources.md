@@ -1,10 +1,13 @@
 ---
 title: 关于数据源
 description: 了解如何配置数据源
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: 数据源
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 86%
 
 ---
@@ -25,7 +28,7 @@ ht-degree: 86%
 * [自定义等待定义](../building-journeys/wait-activity.md#custom)
 * [时区定义](../building-journeys/timezone-management.md)
 
-如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的旅程由事件组成，后跟仅使用事件数据的消息活动，则无需配置数据源。
+如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的历程由事件组成，后跟一个仅使用事件数据的消息活动，则无需配置数据源。
 
 数据源有两种类型：
 
