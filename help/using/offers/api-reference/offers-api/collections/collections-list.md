@@ -1,19 +1,22 @@
 ---
-title: 列出集合
-description: 集合是基于营销人员定义的预定义条件的优惠子集，如优惠的类别。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 列出收藏集
+description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 4%
+source-wordcount: '267'
+ht-degree: 5%
 
 ---
 
-# 列出集合
+# 列出收藏集
 
-集合是基于营销人员定义的预定义条件的优惠子集，如优惠的类别。
+收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 
-您可以通过对[!DNL Offer Library] API执行单个GET请求，视图容器中所有集合的列表。
+通过对[!DNL Offer Library] API执行单个GET请求，可以查看容器内所有收藏集的列表。
 
 **API格式**
 
@@ -23,10 +26,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定义与集合关联的模式。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `{QUERY_PARAMS}` | 可选查询参数，用于筛选结果。 | `limit=1` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `{QUERY_PARAMS}` | 用于按筛选结果的可选查询参数。 | `limit=1` |
 
 **请求**
 
@@ -42,7 +45,7 @@ curl -X GET \
 
 ## 使用查询参数
 
-在列出资源时，您可以使用查询参数来页面和筛选结果。
+列出资源时，您可以使用查询参数来页面和筛选结果。
 
 ### 分页
 
@@ -50,15 +53,15 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所选字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用多次引号括起来，以防止其被标记和转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在出现在查询字符串中时应使用反斜杠进行转义。 | `demo collection` |
+| `q` | 要在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用双引号括起来，以防止其被标记化并转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中显示时应使用反斜杠进行转义。 | `demo collection` |
 | `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
-| `field` | 可选列表字段以将搜索限制为。 可以重复此参数，如下所示：field=field1[,field=field2,...]和(路径表达式采用点分隔路径的形式，如_instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按降序(Z-A)按标题对项目排序。 | `-repo:createdDate` |
-| `limit` | 限制返回的集合数。 | `limit=5` |
+| `field` | 可将搜索限制为的字段列表（可选）。 此参数可以重复，如下所示：field=field1[,field=field2,...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按标题以降序(Z-A)对项目进行排序。 | `-repo:createdDate` |
+| `limit` | 限制返回的集合数量。 | `limit=5` |
 
 **响应**
 
-成功的响应会返回您有权访问的容器中存在的集合列表。
+成功响应会返回您有权访问的容器中存在的集合列表。
 
 ```json
 {
