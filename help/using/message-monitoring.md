@@ -1,14 +1,18 @@
 ---
 title: 监视消息执行
 description: 了解监控准则
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: 监控
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
-# 消息监控{#monitor-message-execution}
+# 消息监测 {#monitor-message-execution}
 
 ![](assets/do-not-localize/badge.png)
 
