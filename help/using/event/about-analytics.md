@@ -1,11 +1,14 @@
 ---
 title: 关于Adobe Analytics数据
 description: 了解如何利用Adobe Analytics数据
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 事件
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -15,20 +18,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本条仅适用于需要使用Adobe Analytics数据的基于规则的事件和客户。
+>本节仅适用于基于规则的事件和需要使用Adobe Analytics数据的客户。
 
-您可以利用您已捕获的所有Adobe Analytics行为事件数据并将其流化到平台中，以触发旅程并为客户自动化体验。
+您可以利用已在捕获并流入到平台中的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
 
-为了使此工作正常，您需要在Adobe Experience Platform中激活您要利用的报表包：
+要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
-1. 在Adobe Experience Platform中，选择&#x200B;**[!UICONTROL Sources]**，然后在Adobe Analytics部分中选择&#x200B;**[!UICONTROL Add data]**。 将显示可用Adobe Analytics报表包的列表。
+1. 在Adobe Experience Platform中，选择&#x200B;**[!UICONTROL Sources]**，然后在Adobe Analytics部分中选择&#x200B;**[!UICONTROL Add data]**。 此时会显示可用的Adobe Analytics报表包列表。
 
-1. 选择要启用的报表包，单击&#x200B;**[!UICONTROL Next]**&#x200B;并单击&#x200B;**[!UICONTROL Finish]**。
+1. 选择要启用的报表包，单击&#x200B;**[!UICONTROL Next]**，然后单击&#x200B;**[!UICONTROL Finish]**。
 
-1. 与您的测试项目联系人共享源数据ID。
+1. 与您的测试版计划联系人共享源数据ID。
 
-这将启用该报表包的Analytics源连接器。 每当数据传入时，它都会转换为体验事件并发送到Adobe Experience Platform。
+这会为该报表包启用Analytics源连接器。 每当数据传入时，它都会转换为体验事件并发送到Adobe Experience Platform。
 
 ![](../assets/jo-event9.png)
 
-有关Adobe Analytics源连接器的详细信息，请参阅[documentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+有关Adobe Analytics源连接器的更多信息，请参阅[文档]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
