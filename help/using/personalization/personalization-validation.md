@@ -1,15 +1,19 @@
 ---
 title: 个性化验证
 description: 了解有关个性化验证以及如何进行故障诊断的更多信息
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '323'
+ht-degree: 2%
 
 ---
 
 
-# 个性化验证{#personalization-validation}
+# 个性化验证 {#personalization-validation}
 
 ![](../assets/do-not-localize/badge.png)
 
