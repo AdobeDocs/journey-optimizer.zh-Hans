@@ -1,30 +1,33 @@
 ---
 title: 设计电子邮件
 description: 了解如何设计电子邮件
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 概述
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
-# 电子邮件设计{#get-started-content-design}入门
+# 电子邮件设计入门 {#get-started-content-design}
 
 ![](assets/do-not-localize/badge.png)
 
 使用[!DNL Journey Optimizer]创建电子邮件内容时，您可以：
 
-* **通过电子邮件设** 计人员的界面设计您的电子邮件并利用来自Adobe Experience Manager Assets Essentials的 [图像](assets-essentials.md)。了解如何设计电子邮件内容或使用本部分](create-email-content.md)中的内置模板[。
+* **通过电子邮件设计** 器的界面设计电子邮件，并利用Adobe Experience Manager Assets Essentials中的 [图像](assets-essentials.md)。在此部分](create-email-content.md)中了解如何设计电子邮件内容或使用内置模板[。
 
-* **在电子邮件设计** 器中直接编码或粘贴原始HTML。了解如何在本节](existing-content.md#import-raw-html-code)中编写您自己的内容[。
+* **直接在电子邮件设计** 器中编码或粘贴原始HTML。在此部分](existing-content.md#import-raw-html-code)中了解如何编码您自己的内容[。
 
-* **从文件或** .zip文件夹导入现有HTML内容。了解如何在本节](existing-content.md#import-html-content-from-file)中导入电子邮件内容[。
+* **从文件或** .zip文件夹导入现有HTML内容。了解如何在此部分](existing-content.md#import-html-content-from-file)中导入电子邮件内容[。
 
-当从邮件创建屏幕访问电子邮件设计器时，这些功能都可用。 [了解有关消息创建的更多信息](create-message.md)。
+从消息创建屏幕访问Email Designer时，所有这些功能均可用。 [了解有关消息创建的更多信息](create-message.md)。
 
 ![](assets/content-editors.png)
 
 >[!NOTE]
 >
->请注意，下方区域中的模板是静态的，无法编辑。 这些仅用于说明目的。
+>请注意，下方区域中的模板是静态的，无法编辑。 这些仅供说明之用。
