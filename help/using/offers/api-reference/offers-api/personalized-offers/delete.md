@@ -1,17 +1,20 @@
 ---
 title: 删除个性化优惠
-description: 个性化优惠是基于合格规则和限制的可自定义营销信息。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 个性化优惠是基于资格规则和限制的可自定义营销消息。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
 # 删除个性化优惠
 
-有时可能需要删除(DELETE)个性化优惠。 只能删除您在租户容器中创建的个性化优惠。 这是通过使用您要删除的个性化优惠的$id对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)个性化选件。 只能删除您在租户容器中创建的个性化选件。 这是通过使用您要删除的个性化选件的$id对[!DNL Offer Library] API执行DELETE请求来完成的。
 
 **API格式**
 
@@ -21,8 +24,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 个性化优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 个性化选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -38,6 +41,6 @@ curl -X DELETE \
 
 **响应**
 
-成功的响应返回HTTP状态202（无内容）和空白正文。
+成功的响应会返回HTTP状态202（无内容）和空白正文。
 
-您可以通过尝试对个性化优惠进行查找(GET)请求来确认删除。 您需要在请求中包含一个“接受”标头，但应收到HTTP状态404（“未找到”），因为个性化优惠已从容器中删除。
+您可以通过尝试对个性化选件进行查询(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为已从容器中删除了个性化选件。
