@@ -1,15 +1,19 @@
 ---
-title: 个性化用例
-description: 个性化用例
-source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
+title: 个性化使用案例
+description: 个性化使用案例
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 0%
+source-wordcount: '606'
+ht-degree: 2%
 
 ---
 
 
-# 个性化用例{#personalization-use-case}
+# 个性化使用案例 {#personalization-use-case}
 
 ![](../assets/do-not-localize/badge.png)
 
