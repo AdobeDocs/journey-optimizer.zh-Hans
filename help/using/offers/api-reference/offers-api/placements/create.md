@@ -1,19 +1,22 @@
 ---
 title: 创建投放位置
-description: 版面是用于展示您的容器的优惠。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 版面是用于显示选件的容器。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
 # 创建投放位置
 
-您可以通过向[!DNL Offer Library] API发出POST请求来创建版面，同时提供您的容器ID。
+在提供容器ID的同时，您可以通过向[!DNL Offer Library] API发出POST请求来创建版面。
 
-## 接受和内容类型标题
+## 接受和内容类型标头
 
 下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
@@ -30,8 +33,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 放置位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -54,7 +57,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应返回新创建的放置的详细信息，包括其唯一实例ID和放置`@id`。 您可以在后续步骤中使用实例ID来更新或删除您的版面。 您可以在以后的教程中使用您唯一的位置`@id`来创建决策、决策规则和回退优惠。
+成功的响应会返回新创建版面的详细信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除版面。 您可以在稍后的教程中使用您的唯一位置`@id`来创建决策、决策规则和备用选件。
 
 ```json
 {
