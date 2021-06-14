@@ -1,9 +1,13 @@
 ---
 title: 禁止列表
 description: 了解抑制列表的内容、用途和包含的内容。
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: 可投放性
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
