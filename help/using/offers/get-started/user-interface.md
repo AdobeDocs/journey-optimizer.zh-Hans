@@ -1,9 +1,13 @@
 ---
 title: 用户界面
 description: 了解有关优惠库用户界面的更多信息。
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '449'
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
