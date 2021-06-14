@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
+feature: 对照组
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 27%
+source-wordcount: '327'
+ht-degree: 75%
 
 ---
 
@@ -28,7 +32,8 @@ ht-degree: 27%
 [!DNL Journey Optimizer] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙箱](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer] 反映为给定组织创建的Adobe Experience Platform沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[请参阅沙盒用户指南以了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙箱。
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙箱用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
 
@@ -54,7 +59,7 @@ ht-degree: 27%
 
    ![](../assets/sandbox_2.png)
 
-1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html)。
+1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[进一步了解沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
    ![](../assets/sandbox_3.png)
 
@@ -66,10 +71,10 @@ ht-degree: 27%
 
 ## 访问内容{#content-access}
 
-要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。 您可以在[!DNL Admin Console]中显示的&#x200B;**[!UICONTROL Storage]**&#x200B;选项卡中为管理员创建和配置共享文件夹。 如果您以系统管理员的身份拥有[!DNL Admin Console]的访问权限，则可以创建共享文件夹，并将具有不同访问级别的代理添加到您的共享文件夹。
+要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。您可以在 [!DNL Admin Console] 中显示的 **[!UICONTROL Storage]** 选项卡中为管理员创建和配置共享文件夹。如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
 
 ![](../assets/do-not-localize/content_access.png)
 
-请注意，要使内容与正确的沙盒同步，您必须遵循与沙盒相同的语法，例如，如果将沙盒命名为开发，则共享文件夹应具有相同的名称。
+请注意，要使内容与正确的沙箱同步，您必须遵循与沙箱相同的语法，例如，如果沙箱命名为“development”，则共享文件夹应具有相同的名称。
 
 [了解如何管理共享文件夹](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html)。
