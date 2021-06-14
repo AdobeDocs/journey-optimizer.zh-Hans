@@ -1,21 +1,24 @@
 ---
 title: 列出标记
-description: 标记允许您更好地组织和排序优惠。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 利用标记，可更好地组织和排序选件。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 4%
 
 ---
 
 # 列出标记
 
-标记允许您更好地组织和排序优惠。 例如，您可以用“黑色星期五”标签来标记黑色星期五优惠。 然后，您可以使用优惠库中的搜索功能轻松找到带有该标签的所有优惠。
+利用标记，可更好地组织和排序选件。 例如，您可以使用“黑色星期五”标记来标记黑色星期五选件。 然后，您可以使用选件库中的搜索功能轻松找到具有该标记的所有选件。
 
-标记还可用于将优惠组合到集合中。 有关详细信息，请参阅教程中的[创建集合](../../../offer-library/creating-collections.md)。
+标记还可用于将选件组合到收藏集中。 有关更多信息，请参阅关于[创建集合](../../../offer-library/creating-collections.md)的教程。
 
-通过对[!DNL Offer Library] API执行单个GET请求，可以视图容器中所有标记的列表。
+通过对[!DNL Offer Library] API执行单个GET请求，可以查看容器中所有标记的列表。
 
 **API格式**
 
@@ -25,10 +28,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 标签所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定义与标签关联的模式。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `{QUERY_PARAMS}` | 可选查询参数，用于筛选结果。 | `limit=2` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | 定义与标记关联的架构。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{QUERY_PARAMS}` | 用于按筛选结果的可选查询参数。 | `limit=2` |
 
 **请求**
 
@@ -44,7 +47,7 @@ curl -X GET \
 
 ## 使用查询参数
 
-在列出资源时，您可以使用查询参数来页面和筛选结果。
+列出资源时，您可以使用查询参数来页面和筛选结果。
 
 ### 分页
 
@@ -52,15 +55,15 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 要在所选字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用多次引号括起来，以防止其被标记和转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在出现在查询字符串中时应使用反斜杠进行转义。 | 网站JSON |
+| `q` | 要在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用双引号括起来，以防止其被标记化并转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中显示时应使用反斜杠进行转义。 | 网站JSON |
 | `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
-| `field` | 可选列表字段以将搜索限制为。 可以重复此参数，如下所示：field=field1[,field=field2,...]和(路径表达式采用点分隔路径的形式，如_instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按降序(Z-A)按标题对项目排序。 | `-repo:createdDate` |
+| `field` | 可将搜索限制为的字段列表（可选）。 此参数可以重复，如下所示：field=field1[,field=field2,...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按标题以降序(Z-A)对项目进行排序。 | `-repo:createdDate` |
 | `limit` | 限制返回的标记数。 | `limit=5` |
 
 **响应**
 
-成功的响应会返回一列表标记，这些标记在您有权访问的容器中存在。
+成功响应会返回您有权访问的容器中存在的标记列表。
 
 ```json
 {
