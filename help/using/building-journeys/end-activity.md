@@ -1,11 +1,14 @@
 ---
 title: 结束活动
-description: 了解如何使用最终活动
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: 了解如何使用结束活动
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
@@ -13,6 +16,6 @@ ht-degree: 11%
 
 ![](../assets/do-not-localize/badge.png)
 
-**[!UICONTROL End]**&#x200B;活动允许您标记旅程中每条路径的结束。 它不是强制性的，但建议使用它以实现视觉清晰度。 事实上，如果旅程有几个最终活动，我们建议您在每个结尾处添加一个标签，以便更轻松地阅读报告。 请参阅[此页](../reports/live-report.md)。
+利用&#x200B;**[!UICONTROL End]**&#x200B;活动，可标记历程每个路径的结尾。 它不是强制性的，但建议使用它以清晰直观地显示。 事实上，如果历程包含多个结束活动，我们建议您在每个结束活动中添加一个标签，以便更便于阅读报表。 请参阅[此页](../reports/live-report.md)。
 
 ![](../assets/journey54.png)
