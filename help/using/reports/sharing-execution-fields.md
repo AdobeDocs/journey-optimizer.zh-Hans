@@ -1,11 +1,14 @@
 ---
 title: journeyStep 事件操作执行字段
 description: journeyStep 事件操作执行字段
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 报表
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 12%
+source-wordcount: '323'
+ht-degree: 13%
 
 ---
 
@@ -13,9 +16,9 @@ ht-degree: 12%
 
 ![](../assets/do-not-localize/badge.png)
 
-此混音将由journeyStepEvent和journeyStepProfileEvent共享。
+此混合将由journeyStepEvent和journeyStepProfileEvent共享。
 
-如果步骤包含要处理的操作，则这些字段将添加到事件有效负荷。
+如果步骤包含要处理的操作，则这些字段将添加到事件有效负载中。
 
 ## actionID
 
@@ -25,7 +28,7 @@ ht-degree: 12%
 
 ## actionName
 
-操作的名称。 如果未设置任何名称，则将采用stepName。
+操作的名称。 如果未设置名称，则将执行stepName。
 
 类型：字符串
 
@@ -35,9 +38,9 @@ ht-degree: 12%
 
 类型：字符串
 
-## actionApartemed
+## actionParameted
 
-指示操作是否为参数化。
+指示操作是否已参数化。
 
 类型：布尔值
 
@@ -45,7 +48,7 @@ ht-degree: 12%
 
 执行当前操作所花费的时间（以毫秒为单位）。
 
-类型：长
+类型：long
 
 ## actionExecutionError
 
@@ -61,18 +64,18 @@ ht-degree: 12%
 
 ## actionExecutionErrorCode
 
-操作执行错误的代码。 如果错误包含代码（如HTTP代码），则显示。
+操作执行错误的代码。 如果错误包含代码（如HTTP代码），则存在。
 
 类型：字符串
 
 ## actionExecutionOriginError
 
-在以下两种情况下，可能会出现超时：
+超时可能出现以下两种情况：
 
-* 第一次尝试时，将执行一个操作。 在这种情况下，执行未完成，因此不存在基本错误
-* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前尝试时遇到的错误。
+* 首次尝试时，将执行操作。 在这种情况下，执行未完成，因此不存在基本错误
+* 重试时：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前尝试时遇到的错误。
 
-例如，正在发送电子邮件，并在第一次尝试时返回HTTP 500错误。 将重试提取，但2次尝试的持续时间超过超时。 然后，将动作执行标记为超时。 操作部分将如下：
+例如，正在发送电子邮件，并在首次尝试时返回HTTP 500错误。 重试获取，但2次尝试的持续时间超过超时。 然后，操作执行被标记为超时。 操作部分将如下所示：
 
 ```
     ...
@@ -99,7 +102,7 @@ actionExecOrigError的错误代码。
 
 值：
 
-* 建筑
+* 建筑物
 * ACS电子邮件
 * ACS SMS
 * ACS推送
@@ -111,24 +114,24 @@ actionExecOrigError的错误代码。
 
 ## deliveryJobID
 
-这描述了批处理投放的历程作业ID。
+这描述了批处理历程的提交作业ID。
 
 类型：字符串
 
 ## batchDeliveryID
 
-这描述了批处理投放的历程ID。
+此变量描述批处理历程的提交ID。
 
 类型：字符串
 
 ## fromSegmentTrigger
 
-此说明是否从受众区段触发批历程。
+此描述是否从受众区段触发批量历程。
 
 类型：布尔值
 
 ## actionSchedulerCount
 
-在步骤处理期间发送给调度程序服务的调度程序通知请求计数。
+在步骤处理期间发送到调度程序服务的调度程序通知请求计数。
 
-类型：长
+类型：long
