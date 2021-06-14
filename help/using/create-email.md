@@ -1,10 +1,14 @@
 ---
 title: 创建电子邮件
 description: 了解如何在Journey Optimizer中创建电子邮件
-source-git-commit: 9daf9c5798e20ab3ba6a1d9a2ecc604d4a960756
+feature: 概述
+topic: 内容管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 5%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
