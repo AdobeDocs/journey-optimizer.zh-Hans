@@ -1,21 +1,24 @@
 ---
 title: 访问事件 XDM 字段
 description: 进一步了解 DecisioningEvents XDM 架构。
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 67%
+source-wordcount: '108'
+ht-degree: 68%
 
 ---
 
 # 访问事件 XDM 字段{#decisioningevents-xdm-schema}
 
-您可以直接从包含决策管理模式的数据集中访问DecisioningEvents XDM事件。
+您可以直接从包含决策管理事件的数据集中访问DecisioningEvents XDM架构。
 
 ![](../../assets/access-schema.png)
 
-该模式包含从Decision Management向Adobe Experience Platform发送信息所需的所有字段。
+架构包含从决策管理向Adobe Experience Platform发送信息所需的所有字段。
 
 要获取有关特定字段的更多信息，请选择该字段以显示包含该字段属性的信息窗格。
 
