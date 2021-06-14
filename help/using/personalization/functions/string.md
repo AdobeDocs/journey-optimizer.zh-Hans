@@ -1,9 +1,13 @@
 ---
-title: 函数库
-description: 函数库
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: 字符串函数库
+description: 字符串函数库
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1201'
 ht-degree: 7%
 
 ---
@@ -445,7 +449,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## 拆分 {#split}
 
 `split`函数用于按给定字符拆分字符串。
 
