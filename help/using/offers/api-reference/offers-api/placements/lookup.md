@@ -1,17 +1,20 @@
 ---
-title: 查找位置
-description: 版面是用于展示您的容器的优惠。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+title: 查找版面
+description: 版面是用于显示选件的容器。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '149'
+ht-degree: 4%
 
 ---
 
-# 查找位置
+# 查找版面
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定版面，该API包括版面`@id`或在请求路径中的版面名称。
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定版面，该API包含版面`@id`或请求路径中版面的名称。
 
 **API格式**
 
@@ -21,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | 定义与版面关联的模式。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 放置位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | 定义与版面关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -39,7 +42,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回位置的详细信息，包括有关容器ID、实例ID和唯一位置`@id`的信息。
+成功响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一版面`@id`的信息。
 
 ```json
 {
