@@ -1,10 +1,14 @@
 ---
-title: 入门指南
+title: 快速入门
 description: 了解如何开始使用选件库API来使用决策管理引擎执行关键操作。
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +49,7 @@ ht-degree: 4%
 
 管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受[Adobe Admin Console](https://adminconsole.adobe.com/)的支持。 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已获得权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
 
-您可以通过[Adobe Admin Console](https://adminconsole.adobe.com/)向用户授予或撤消权限。 有关更多信息，请参阅[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)。
+您可以通过[Adobe Admin Console](https://adminconsole.adobe.com/)向用户授予或撤消权限。 有关更多信息，请参阅[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans)。
 
 ### 列出用户和集成可访问的容器
 
