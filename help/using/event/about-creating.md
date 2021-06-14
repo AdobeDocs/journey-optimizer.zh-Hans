@@ -1,14 +1,18 @@
 ---
 title: 配置统一事件
 description: 了解如何配置单一事件
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: 事件
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 14%
+source-wordcount: '1638'
+ht-degree: 15%
 
 ---
 
-# 配置单一事件{#configure-an-event}
+# 配置统一事件{#configure-an-event}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -142,7 +146,7 @@ ht-degree: 14%
 
 收到事件后，键值将允许系统识别与事件关联的人员。 与命名空间关联（请参阅[此部分](../event/about-creating.md#select-the-namespace)），可使用键对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。键还用于检查人员是否处于历程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许同一密钥（例如CRMID=3224）位于同一历程中的不同位置。
 
-如果要执行其他操作，则还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)。
+如果要执行其他操作，则还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)。
 
 ## 添加条件{#add-a-condition}
 
