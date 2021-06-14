@@ -1,10 +1,14 @@
 ---
 title: 消息中的警报
 description: 了解如何检查消息内容验证和疑难解答
-source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
