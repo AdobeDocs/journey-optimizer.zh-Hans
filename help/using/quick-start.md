@@ -1,9 +1,13 @@
 ---
 title: 入门
 description: Journey Optimizer 快速入门
-source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
+feature: 概述
+topic: 内容管理
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '255'
 ht-degree: 92%
 
 ---
