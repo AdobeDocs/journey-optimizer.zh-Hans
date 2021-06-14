@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e954db290e69ce64a3900e4c52764858214ca439
+feature: 对照组
+topic: 管理
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 15%
+source-wordcount: '150'
+ht-degree: 21%
 
 ---
 
@@ -33,6 +37,6 @@ ht-degree: 15%
 
 * **[!UICONTROL Sandbox]**:将实例分区为单独的孤立虚拟环境的虚拟沙箱。请参阅[使用沙箱](sandboxes.md)
 
-每个概念都可由&#x200B;**[!UICONTROL Product administrators]**&#x200B;管理，它们有权访问管理控制台。 [进一步了解Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
+每个概念都可由&#x200B;**[!UICONTROL Product administrators]**&#x200B;管理，它们有权访问管理控制台。 [进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
 
 ![](../assets/do-not-localize/permissions_2.png)
