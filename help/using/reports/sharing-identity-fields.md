@@ -1,11 +1,14 @@
 ---
 title: journeyStep 事件身份字段
 description: journeyStep 事件身份字段
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 报表
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 27%
+source-wordcount: '62'
+ht-degree: 30%
 
 ---
 
@@ -13,7 +16,7 @@ ht-degree: 27%
 
 ![](../assets/do-not-localize/badge.png)
 
-此混音特定于journeyStepEvent:此事件与旅程相关，没有identityMap，用于描述用户档案身份（如果有）。
+此混合内容专用于journeyStepEvent:此事件与历程相关，并且没有identityMap，用于描述用户档案身份（如果有）。
 
 对于journeyStepEvent，我们还需要添加与标识相关的字段：
 
@@ -25,6 +28,6 @@ ht-degree: 27%
 
 ## profileNamespace
 
-用户档案标识符命名空间
+配置文件标识符命名空间
 
 类型：字符串
