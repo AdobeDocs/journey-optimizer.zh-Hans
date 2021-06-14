@@ -1,14 +1,18 @@
 ---
 title: 历程全局报告
 description: 了解如何使用历程全局报告中的数据
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: 报表
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 0%
+source-wordcount: '936'
+ht-degree: 1%
 
 ---
 
-# 历程全局报告{#journey-global-report}
+# 历程全局报告 {#journey-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
