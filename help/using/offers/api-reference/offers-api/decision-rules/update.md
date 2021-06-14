@@ -1,11 +1,14 @@
 ---
 title: 更新决策规则
-description: 决策规则是添加到个性化优惠的约束，并应用于用户档案以确定资格。
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: 决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。
+feature: 优惠
+topic: 集成
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '176'
+ht-degree: 9%
 
 ---
 
@@ -13,9 +16,9 @@ ht-degree: 8%
 
 您可以通过向[!DNL Offer Library] API发出PATCH请求，在容器中修改或更新决策规则。
 
-有关JSON修补程序（包括可用操作）的详细信息，请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
+有关JSON修补程序（包括可用操作）的更多信息，请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
 
-## 接受和内容类型标题
+## 接受和内容类型标头
 
 下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
@@ -32,9 +35,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的终结点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 决策规则所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 您要更新的决策规则的实例ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{INSTANCE_ID}` | 要更新的决策规则的实例ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **请求**
 
@@ -58,13 +61,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括：`add`、`replace`和`remove`。 |
+| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括：`add`、`replace`和`remove`。 |
 | `path` | 要更新的参数的路径。 |
-| `value` | 要更新参数的新值。 |
+| `value` | 要使用更新参数的新值。 |
 
 **响应**
 
-成功的响应返回决策规则的更新详细信息，包括其唯一实例ID和决策规则`@id`。
+成功响应会返回决策规则的更新详细信息，包括其唯一实例ID和决策规则`@id`。
 
 ```json
 {
