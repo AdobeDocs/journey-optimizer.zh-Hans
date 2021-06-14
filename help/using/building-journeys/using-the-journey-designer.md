@@ -1,9 +1,13 @@
 ---
 title: 设计您的历程
 description: 了解如何设计历程
-source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
