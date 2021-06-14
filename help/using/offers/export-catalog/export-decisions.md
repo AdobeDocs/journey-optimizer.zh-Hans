@@ -1,14 +1,18 @@
 ---
 title: 导出优惠目录入门
 description: 此部分列出了导出数据集中用于决策的所有字段。
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
 
-# 决策数据集{#decisions-dataset}
+# 决策数据集 {#decisions-dataset}
 
 每次修改选件时，都会更新自动生成的决策数据集（以前称为活动）。
 
