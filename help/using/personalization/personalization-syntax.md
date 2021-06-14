@@ -1,15 +1,19 @@
 ---
 title: 个性化语法
 description: 了解如何使用个性化语法
-source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
+feature: 个性化
+topic: 个性化
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '561'
+ht-degree: 5%
 
 ---
 
 
-# 个性化语法{#personalization-syntax}
+# 个性化语法 {#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -73,7 +77,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >要了解有关分段和分段服务的更多信息，请参阅[此部分](../segment/about-segments.md)。
 
 
-## 选件
+## 优惠
 
 此命名空间允许您引用现有选件决策。
 要引用选件，您需要声明一个路径，其中包含定义选件的不同信息。
