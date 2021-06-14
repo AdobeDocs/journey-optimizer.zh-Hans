@@ -1,9 +1,13 @@
 ---
 title: 管理选择退出机制
 description: 了解如何管理选择退出机制和隐私
-source-git-commit: 738d72e8f3ba204219086f19252220ff833369cb
+feature: 历程
+topic: 内容管理
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
