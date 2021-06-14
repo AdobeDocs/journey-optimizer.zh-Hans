@@ -1,14 +1,18 @@
 ---
-title: 版面数据集
+title: 投放位置数据集
 description: 此部分列出了在导出的数据集中用于版面的所有字段。
-source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
+feature: 优惠
+topic: 集成
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 4%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
-# 版面数据集{#placements-dataset}
+# 投放位置数据集 {#placements-dataset}
 
 每次修改选件时，都会更新自动生成的版面数据集。
 
