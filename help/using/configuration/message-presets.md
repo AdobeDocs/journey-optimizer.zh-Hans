@@ -5,9 +5,9 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* 在创建消息预设之前，必须执行电子邮件和推送配置步骤。
 
 
 配置消息预设后，在从&#x200B;**[!UICONTROL Presets]**&#x200B;列表创建消息时，可以选择这些预设。
@@ -33,11 +35,9 @@ ht-degree: 1%
 
    ![](../assets/preset-create.png)
 
-
 1. 为预设输入名称和描述（可选），然后选择要配置的渠道。
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ ht-degree: 1%
    * 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
    * 输入使用预设发送的电子邮件的标题参数。
 
+      >[!CAUTION]
+      >
+      >除&#x200B;**回复（转发电子邮件）**&#x200B;字段外，电子邮件地址域必须使用当前选定的[委派的子域](about-subdomain-delegation.md)。
+
+      * **[!UICONTROL Sender name]**:发件人的名称，如您的品牌名称。
+
+      * **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。例如，如果委派的子域是&#x200B;*marketing.luma.com*，则可以使用&#x200B;*contact@marketing.luma.com*。
+
+      * **[!UICONTROL Reply to (name)]**:收件人在其电子邮件客户端软件中单击“重 **** 复按钮”时将使用的名称。
+
+      * **[!UICONTROL Reply to (email)]**:收件人在其电子邮件客户端软件中单击“重 **** 复”按钮时将使用的电子邮件地址。发送到此地址的电子邮件将转发到下面提供的&#x200B;**[!UICONTROL Reply to (forward email)]**&#x200B;地址。 您必须使用在委派的子域(例如&#x200B;*reply@marketing.luma.com*)上定义的地址，否则将删除电子邮件。
+
+      * **[!UICONTROL Reply to (forward email)]**:接收的有关委派 [!DNL Journey Optimizer] 子域的所有电子邮件都将转发到此电子邮件地址。除了在委派的子域上定义的电子邮件地址之外，您可以指定任何地址。 例如，如果委派的子域为&#x200B;*marketing.luma.com*，则禁止使用任何地址，如&#x200B;*abc@marketing.luma.com*。
+
+      * **[!UICONTROL Error email]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`。
-         > 
-         > 
-      * 除&#x200B;**回复（转发电子邮件）**&#x200B;之外，电子邮件地址域必须使用当前选定的子域。
-
+      >名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`。
 
 
 1. 配置&#x200B;**推送通知**&#x200B;设置。
@@ -86,7 +100,6 @@ ht-degree: 1%
 
    这些检查包括由Adobe投放能力团队执行的投放能力测试：
 
-
    * SPF验证
    * DKIM验证
    * MX记录验证
@@ -94,7 +107,6 @@ ht-degree: 1%
    * 主机检查
    * IP池验证
    * A/PTR记录， t/m/res子域验证
-
 
 1. 检查成功后，消息预设将获得&#x200B;**[!UICONTROL Active]**&#x200B;状态。 它已准备好用于投放消息。
 
