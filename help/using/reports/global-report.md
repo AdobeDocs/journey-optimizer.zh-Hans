@@ -5,28 +5,26 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 2%
 
 ---
 
 # 全局报告{#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > 如果在使用查询服务时通过API进行自定义查询，则报表可能会出现延迟。
 
-**[!UICONTROL Global report]**&#x200B;允许您测量选定时间段内历程和投放的有效性。
+使用&#x200B;**[!UICONTROL Global report]**&#x200B;衡量选定时间段内历程和投放的影响。
 
-* 如果要定位历程中的历程或投放，请从&#x200B;**[!UICONTROL Journeys]**&#x200B;菜单访问历程，然后单击&#x200B;**[!UICONTROL Global report]**&#x200B;图标。 然后，您可以找到历程、电子邮件和推送&#x200B;**[!UICONTROL Global report]**。
+* 如果要在历程上下文中定位历程或投放，请从&#x200B;**[!UICONTROL Journeys]**&#x200B;菜单访问历程，然后单击&#x200B;**[!UICONTROL Global report]**&#x200B;图标。 然后，您可以找到历程、电子邮件和推送&#x200B;**[!UICONTROL Global report]**。
 
 * 如果要定位特定投放，请从消息&#x200B;**[!UICONTROL Executions]**&#x200B;选项卡的&#x200B;**[!UICONTROL Global view]**&#x200B;中，从选定投放的高级菜单中选择&#x200B;**[!UICONTROL Global Report]**。
 
-## 修改功能板{#modify-dashboard}
+## 自定义功能板{#modify-dashboard}
 
 可通过调整大小或删除小组件或更改目标时间范围来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
@@ -36,7 +34,7 @@ ht-degree: 2%
 
    ![](../assets/global_report_6.png)
 
-1. click **[!UICONTROL Modify dashboard]**.
+1. click **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
