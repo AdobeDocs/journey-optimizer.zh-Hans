@@ -16,7 +16,7 @@ feature: 对照组
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 16%
@@ -24,8 +24,6 @@ ht-degree: 16%
 ---
 
 # 管理用户和产品配置文件{#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!IMPORTANT]
 >
@@ -87,7 +85,7 @@ ht-degree: 16%
 
 1. 选择 **[!UICONTROL Permissions]** 选项卡。
 
-   **[!UICONTROL Permissions]**&#x200B;选项卡显示适用于***[!UICONTROL Experience Cloud - Platform powered applications]**&#x200B;产品的功能列表。
+   **[!UICONTROL Permissions]**&#x200B;选项卡显示适用于&#x200B;**[!UICONTROL Experience Cloud - Platform powered applications]**&#x200B;产品的功能列表。
 
    ![](../assets/access_control_5.png)
 
