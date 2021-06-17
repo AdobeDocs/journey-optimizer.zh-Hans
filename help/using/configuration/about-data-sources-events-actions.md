@@ -16,10 +16,10 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 19%
+source-wordcount: '318'
+ht-degree: 60%
 
 ---
 
@@ -42,3 +42,17 @@ ht-degree: 19%
 ## 操作
 
 Journey Optimizer消息功能是内置的：您只需设计内容并发布消息即可。 如果您使用第三方系统发送消息，则可以创建自定义操作。 [了解详情](../../using/action/action.md)
+
+## 浏览 Adobe Experience Platform 字段 {#friendly-names-display}
+
+在定义[事件有效负载](../event/about-creating.md#define-the-payload-fields)、[字段组有效负载](../datasource/configure-data-sources.md#define-field-groups)以及在[表达式编辑器](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
+
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在处理“eVars”和通用字段时，这个描述符特别有用。您可以通过 API 调用配置友好型名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
+
+![](../assets/xdm-from-descriptors.png)
+
+如果友好名称可用，则字段将显示为`<friendly-name>(<name>)`。如果没有可用的友好名称，将显示其显示名称，如`<display-name>(<name>)`。如果这两种名称均未定义，则仅显示字段的技术名称 `<name>`。
+
+>[!NOTE]
+>
+>从架构组合中选择字段时，不会检索友好名称。
