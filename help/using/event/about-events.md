@@ -5,16 +5,14 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 53%
+source-wordcount: '775'
+ht-degree: 49%
 
 ---
 
 # 关于事件{#concept_gfj_fqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -51,6 +49,8 @@ ht-degree: 53%
    >为基于规则的事件定义上限规则。它将历程可为给定组织 (ORG) 处理的合格事件数限制为每秒 5000 个。它对应于Journey Optimizer SLA。 请参阅此[页面](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
+
+Journey Optimizer要求将事件流式传输或批量传输到Adobe Experience Platform。 此数据不一定需要转至实时用户档案。 如果要在单独的历程中使用事件进行分段或查找，我们建议您为用户档案启用数据集。
 
 ## 数据周期 {#section_r1f_xqt_pgb}
 
