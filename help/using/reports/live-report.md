@@ -5,21 +5,19 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
 
-# 实时报表{#live-report}
+# 实时报表{#live-report}快速入门
 
-![](../assets/do-not-localize/badge.png)
+使用&#x200B;**[!UICONTROL Live report]**在内置仪表板中实时测量和显示历程和消息的影响和性能。
+发送投放或执行历程后，即可在**[!UICONTROL Live report]**&#x200B;中使用数据。
 
-**[!UICONTROL Live report]**允许您使用内置仪表板实时测量和显示历程的有效性和消息性能。
-一旦执行投放或历程，您的投放数据将立即在**[!UICONTROL Live report]**&#x200B;中可用。
-
-* 如果要定位历程中的历程或投放，请从&#x200B;**[!UICONTROL Journeys]**&#x200B;菜单访问历程，然后单击&#x200B;**[!UICONTROL Live report]**&#x200B;图标。 然后，您可以找到历程、电子邮件和推送实时报表。
+* 如果要在历程上下文中定位历程或投放，请从&#x200B;**[!UICONTROL Journeys]**&#x200B;菜单访问历程，然后单击&#x200B;**[!UICONTROL Live report]**&#x200B;图标。 然后，您可以找到历程、电子邮件和推送实时报表。
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ ht-degree: 2%
 
    ![](../assets/report_2.png)
 
-## 修改功能板{#modify-dashboard}
+## 自定义功能板{#modify-dashboard}
 
 可通过调整大小或删除小组件来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
-1. 在实时报表中，单击&#x200B;**[!UICONTROL Modify dashboard]**。
+1. 在实时报表中，单击&#x200B;**[!UICONTROL Modify]**。
 
    ![](../assets/report_modify_1.png)
 
