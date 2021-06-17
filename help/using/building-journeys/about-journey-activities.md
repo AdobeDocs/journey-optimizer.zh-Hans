@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # 关于历程活动 {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
@@ -24,7 +22,7 @@ ht-degree: 31%
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
-* [区段限定条件](../building-journeys/segment-qualification-events.md)
+* [区段鉴别](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
@@ -39,7 +37,7 @@ ht-degree: 31%
 * [条件](../building-journeys/condition-activity.md)
 * [终止 ](../building-journeys/end-activity.md)
 * [等待](../building-journeys/wait-activity.md)
-* [阅读区段](../building-journeys/read-segment.md)
+* [读取区段](../building-journeys/read-segment.md)
 
 ![](../assets/journey49.png)
 
