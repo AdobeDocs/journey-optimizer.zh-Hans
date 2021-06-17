@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# 历程用例
-
-![](../assets/do-not-localize/badge.png)
+# 发送多渠道消息
 
 此部分介绍一个结合了读取区段、事件、反应事件和电子邮件/推送消息的用例。
 
@@ -44,7 +42,9 @@ ht-degree: 2%
 
 有关区段的更多信息，请参阅此[页面](../segment/about-segments.md)。
 
-1. 在&#x200B;**[!UICONTROL Segments]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL Create segment]**。
+1. 从“客户”菜单部分，选择&#x200B;**[!UICONTROL Segments]**。
+
+1. 单击位于区段列表右上角的&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮。
 
 1. 在&#x200B;**[!UICONTROL Segment properties]**&#x200B;窗格中，输入区段的名称。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 为此，我们使用基于规则的事件。 有关事件的更多信息，请参阅此[页面](../event/about-events.md)。
 
-1. 在“管理”部分，浏览至&#x200B;**[!UICONTROL Configurations]**，然后单击&#x200B;**[!UICONTROL Events]**。 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新事件。
+1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**，然后单击&#x200B;**[!UICONTROL Events]**。 单击&#x200B;**[!UICONTROL Create event]**&#x200B;以创建新事件。
 
 1. 输入事件的名称。
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;字段中，定义系统用于识别触发历程的事件的条件。 例如，您可以添加`purchaseMessage`字段并定义以下规则：`purchaseMessage="thank you"`
 
-1. 定义&#x200B;**[!UICONTROL Namespace]**&#x200B;和&#x200B;**[!UICONTROL Key]**。
+1. 定义&#x200B;**[!UICONTROL Namespace]**&#x200B;和&#x200B;**[!UICONTROL Profile Identifier]**。
 
 1. 单击 **[!UICONTROL Save]**。
 
