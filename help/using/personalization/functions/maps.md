@@ -5,18 +5,16 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '104'
 ht-degree: 7%
 
 ---
 
 # 映射函数{#maps}
 
-![](../../assets/do-not-localize/badge.png)
-
-[!DNL Profile Query Language] (PQL)提供了一些函数，可简化与映射的交互。
+在个性化中使用映射函数，以便更轻松地与映射交互。
 
 ## 获取{#get}
 
