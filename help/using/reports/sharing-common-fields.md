@@ -5,18 +5,16 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
 
 # journeysteps事件常用字段{#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合将由journeyStepEvent和journeyStepProfileEvent共享。
+此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
 
 这些是[!DNL Journey Optimizer]发送到Adobe Experience Platform的常用XDM字段。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
 
