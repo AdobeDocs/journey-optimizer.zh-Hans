@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
 
 # 时区管理 {#timezone_management}
-
-![](../assets/do-not-localize/badge.png)
 
 您可以在历程的[属性](../building-journeys/journey-gs.md#change-properties)中定义时区。
 
@@ -29,11 +27,15 @@ ht-degree: 3%
 
 您可以选择时区，也可以选择使用用户配置文件中定义的时区。
 
+>[!NOTE]
+>
+>配置文件时区与&#x200B;**首选项详细信息**&#x200B;字段组中存在的&#x200B;**timeZone**&#x200B;字段配合使用。
+
 ## 定义固定时区{#fixed-timezone}
 
 时区也可以固定。 清除预定义的时区，然后从下拉列表中选择一个时区。 如果您使用固定时区，则进入历程的所有个人都将使用相同的时区。
 
-为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中选择一个时区。
+为此，请在&#x200B;**[!UICONTROL Journey Properties]**&#x200B;窗格中选择时区。
 
 ![](../assets/journey72.png)
 
@@ -45,7 +47,7 @@ ht-degree: 3%
 
 如果个人的用户档案不包含时区，则检索到的时区将是时区字段中定义的时区。
 
-为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中，选中&#x200B;**[!UICONTROL Use Profile timezone in timers and conditions]**。
+为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中，选中&#x200B;**[!UICONTROL Use Profile timezone in waits and conditions]**。
 
 ![](../assets/journey73.png)
 
