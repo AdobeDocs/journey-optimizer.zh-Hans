@@ -6,7 +6,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 ---
 
 # 一般事件 {#section_ofg_jss_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
 
@@ -31,11 +29,11 @@ ht-degree: 2%
 
 要为事件配置超时，请执行以下步骤：
 
-1. 从事件属性中激活&#x200B;**[!UICONTROL Enable the event timeout]**&#x200B;选项。
+1. 从事件属性中激活&#x200B;**[!UICONTROL Define the event timeout]**&#x200B;选项。
 
 1. 指定历程将等待事件的时长。
 
-1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用&#x200B;**[!UICONTROL Set the timeout path]**&#x200B;选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
+1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用&#x200B;**[!UICONTROL Set a timeout path]**&#x200B;选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
 
    ![](../assets/event-timeout.png)
 
