@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # 创建消息 {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 可通过左侧导航的&#x200B;**[!UICONTROL Messages]**&#x200B;快捷键访问消息。 所有消息均按发布日期（对于已发布的消息）或创建日期（对于草稿消息）排序。
 
