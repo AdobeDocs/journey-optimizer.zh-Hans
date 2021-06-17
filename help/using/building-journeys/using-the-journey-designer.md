@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1414'
 ht-degree: 1%
 
 ---
 
 # 设计您的历程
-
-![](../assets/do-not-localize/badge.png)
 
 历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。 每个活动都具有特定的角色和在流程中的位置。 活动已排序。 活动完成后，该流程将继续并处理下一个活动，等等。
 
@@ -40,7 +38,7 @@ ht-degree: 1%
 
 单击面板中的活动时，会显示&#x200B;**活动配置窗格**。 填写必填字段。 单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标以删除活动。 单击&#x200B;**[!UICONTROL Cancel]**&#x200B;取消修改，或单击&#x200B;**[!UICONTROL Ok]**&#x200B;确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
 
-默认情况下，只读字段处于隐藏状态。 要显示它们，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。
+默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 此设置适用于所有历程中的所有活动。
 
 ![](../assets/journey59bis.png)
 
@@ -58,7 +56,7 @@ ht-degree: 1%
 
 ## 定义后续步骤
 
-在第一个事件或读取区段之后，您可以组合不同的活动以构建多步跨渠道方案。 从面板中选择所需的步骤。
+在第一个事件或读取区段后，您可以组合不同的活动以构建多步跨渠道方案。 从面板中选择所需的步骤。
 
 **事件**
 
@@ -92,7 +90,7 @@ ht-degree: 1%
 
 在监听事件时，我们建议您不要无限期地等待该事件。 它不是强制性的，只是一种最佳做法。 如果只想在特定时间内侦听一个或多个事件，则将并行放置一个或多个事件和等待活动。 请参阅[此小节](../building-journeys/general-events.md#events-specific-time)。
 
-要删除路径，请将光标放在该路径上，然后单击&#x200B;**[!UICONTROL Delete arrow]**&#x200B;图标。
+要删除路径，请将光标放在该路径上，然后单击&#x200B;**[!UICONTROL Delete path]**&#x200B;图标。
 
 ![](../assets/journey42ter.png)
 
