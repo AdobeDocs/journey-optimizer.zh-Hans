@@ -5,26 +5,24 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: '1456'
+ht-degree: 1%
 
 ---
 
 # 在用户界面{#create-email-content}中设计电子邮件内容
 
-![](assets/do-not-localize/badge.png)
-
 创建[消息](create-message.md)后，即可开始创建电子邮件内容。
 
-1. 在新创建的消息中，选择&#x200B;**[!UICONTROL Edit content]**&#x200B;部分中的&#x200B;**[!UICONTROL Email designer]**。
+1. 在新创建的消息中，选择&#x200B;**[!UICONTROL Body]**&#x200B;部分中的&#x200B;**[!UICONTROL Email designer]**。
 
    ![](assets/import-html_1.png)
 
 1. 在Email Designer主页中，从以下选项中选择设计电子邮件的方式：
 
-   * 选择&#x200B;**[!UICONTROL Design from scratch]**&#x200B;以使用电子邮件设计器功能创建电子邮件内容。
+   * 选择&#x200B;**[!UICONTROL Design from scratch]**&#x200B;以使用电子邮件设计器功能创建电子邮件内容。 [了解详情](#design-scratch)
 
    * 选择&#x200B;**[!UICONTROL Start from template]**&#x200B;以从内置的模板列表创建电子邮件。 请注意，您无法创建其他模板。
 
@@ -34,13 +32,39 @@ ht-degree: 0%
 
    ![](assets/email_designer_25.png)
 
-## 从头开始设计
+## 从头开始设计{#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="关于结构组件"
+>abstract="结构组件可定义电子邮件的布局。"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="定义电子邮件列"
+>abstract="Email Designer允许您通过定义列结构轻松定义电子邮件的布局。"
+
+通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计电子邮件的形状。
 
 要开始使用电子邮件设计器构建电子邮件内容，请执行以下步骤：
 
 1. 选择&#x200B;**[!UICONTROL Design from scratch]**&#x200B;选项后，通过拖放&#x200B;**[!UICONTROL Structure components]**&#x200B;以定义电子邮件的布局，开始设计电子邮件内容。
 
+   >[!NOTE]
+   >
+   >请注意，列堆叠与所有电子邮件程序不兼容。 不支持时，不会堆叠列。
+   >
+   >将组件放入电子邮件中后，除非内部已放置内容组件或片段，否则将无法移动或删除组件。
+
    ![](assets/email_designer_2.png)
+
+1. 根据需要添加任意数量的&#x200B;**[!UICONTROL Structure components]**。
+
+   选择&#x200B;**[!UICONTROL n:n column]**&#x200B;组件以定义所选列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
+
+   >[!NOTE]
+   >
+   >每个列大小不能低于结构组件总宽度的10%。 无法删除不为空的列。
 
 1. 从&#x200B;**[!UICONTROL Content components]**&#x200B;下拉列表中，您可以根据需要在结构组件中添加任意数量的&#x200B;**[!UICONTROL Content components]**。 [了解有关内容组件的更多信息](content-components.md)。
 
@@ -64,6 +88,10 @@ ht-degree: 0%
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >在[此页面](message-tracking.md)中了解有关链接和消息跟踪的更多信息。
+
 1. 如果需要，您可以切换到代码编辑器，通过单击高级菜单中的&#x200B;**[!UICONTROL Switch to code editor]**&#x200B;进一步个性化电子邮件。 有关代码编辑器的详细信息，请参阅此[page](existing-content.md#import-raw-html-code)。
 
    >[!NOTE]
@@ -72,7 +100,9 @@ ht-degree: 0%
 
    ![](assets/email_designer_26.png)
 
-1. 单击&#x200B;**[!UICONTROL Preview]**&#x200B;以检查电子邮件的呈现。 您可以选择桌面视图或移动设备视图。
+1. 单击&#x200B;**[!UICONTROL Show preview]**&#x200B;以检查电子邮件的呈现。 您可以选择桌面视图或移动设备视图。
+
+   有关如何预览电子邮件的更多信息，请参阅[预览和测试消息](preview.md)。
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ ht-degree: 0%
 
 您的电子邮件内容现在可用于消息。 [了解如何发送消息](publish-manage-message.md)。
 
-## 定义电子邮件结构{#defining-the-email-structure}
+## 创建电子邮件的文本版本{#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="关于结构组件"
->abstract="结构组件可定义电子邮件的布局。"
+建议创建电子邮件正文的文本版本，当HTML内容无法显示时，会使用该文本版本。
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="定义电子邮件列"
->abstract="Email Designer允许您通过定义列结构轻松定义电子邮件的布局。"
+默认情况下，Email Designer会创建电子邮件的&#x200B;**[!UICONTROL Plain text]**&#x200B;版本，包括个性化字段。 此版本将自动生成并与内容的HTML版本同步。
 
-通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计电子邮件的形状。
+如果您希望对纯文本版本使用其他内容，请执行以下步骤：
 
-要编辑电子邮件的结构，请执行以下操作：
+1. 在您的电子邮件中，选择&#x200B;**[!UICONTROL Plain text]**&#x200B;选项卡。
 
-1. 打开现有内容或创建新的电子邮件内容。
-1. 通过选择左侧的&#x200B;**+**&#x200B;图标访问&#x200B;**[!UICONTROL Structure components]**。
-1. 拖放形成电子邮件形状所需的结构组件。
-在放置结构组件之前，使用蓝线可实现其确切位置。 您可以将其放置在任何其他组件的上方、中间或下方，但不能放在内部。
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. 使用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;切换开关禁用同步。
+
+   ![](assets/text_version_1.png)
+
+1. 单击复选标记以确认您的选择。
+
+   ![](assets/text_version_2.png)
+
+1. 然后，您可以根据需要编辑纯文本版本。
+
+>[!CAUTION]
+>
+>* 在&#x200B;**[!UICONTROL Plain text]**&#x200B;视图中所做的更改不会反映在HTML视图中。
    >
-   >请注意，列堆叠与所有电子邮件程序不兼容。 不支持时，不会堆叠列。
    >
-   >将组件放入电子邮件中后，除非内部已放置内容组件或片段，否则将无法移动或删除组件。
+* 如果在更新纯文本内容后重新启用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;选项，则更改将丢失，并替换为从HTML版本生成的文本内容。
 
-1. 可使用由一个或多个列组成的多个结构组件。
-
-   选择&#x200B;**[!UICONTROL n:n column]**&#x200B;组件以定义所选列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
-
-   >[!NOTE]
-   >
-   >每个列大小不能低于结构组件总宽度的10%。 无法删除不为空的列。
-
-定义结构后，您便可以向电子邮件中添加内容片段和组件。
 
 ## 使用预标头 {#preheader}
 
@@ -124,15 +147,33 @@ ht-degree: 0%
 >title="使用预标头"
 >abstract="利用预标题，可配置简短的摘要文本，以帮助您更好地跟踪和自定义电子邮件。"
 
-前标是简短的摘要文本，在从电子邮件客户端查看电子邮件时，该文本将遵循主题行。 预标题可帮助您更好地跟踪和自定义电子邮件。
-
-选择&#x200B;**[!UICONTROL Preheader]**&#x200B;编辑框并添加内容。
-
-您可以在前标内容中添加&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
-
 >[!NOTE]
 >
 >请注意，preheader并非与所有电子邮件客户端都兼容。 不受支持时，不显示预标头。
+
+前标是简短的摘要文本，在从电子邮件客户端查看电子邮件时，该文本将遵循主题行。 预标题可帮助您更好地跟踪和自定义电子邮件。
+
+1. 在Email designer中，添加&#x200B;**[!UICONTROL Structure components]**&#x200B;以开始设计电子邮件。
+
+   ![](assets/preheader_1.png)
+
+1. 在&#x200B;**[!UICONTROL Body settings]**&#x200B;右窗格中，单击&#x200B;**[!UICONTROL Preheader]**&#x200B;字段旁边的&#x200B;**编辑**&#x200B;以添加内容。
+
+   ![](assets/preheader_2.png)
+
+1. 添加您的预标头。 您可以单击&#x200B;**[!UICONTROL Add personalization]**&#x200B;图标，以进一步对其进行个性化。
+
+   ![](assets/preheader_3.png)
+
+1. 从&#x200B;**[!UICONTROL Edit Personalization]**&#x200B;窗口中，可添加&#x200B;**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**&#x200B;或&#x200B;**[!UICONTROL Personalization fields]**。
+
+1. 单击&#x200B;**[!UICONTROL Validate]**&#x200B;以检查个性化语法。
+
+   ![](assets/preheader_4.png)
+
+1. 单击 **[!UICONTROL Save]**。
+
+现在，您为电子邮件配置了前标。
 
 ## 背景设置{#about-backgrounds}
 
@@ -168,11 +209,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更灵活了。
+   >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更加灵活。
 
    您也可以在列级别设置背景图像，但很少使用此方法。
 
-### 示例：调整垂直对齐和内边距{#example--adjusting-vertical-alignment-and-padding}
+## 调整垂直对齐和内边距{#adjusting-vertical-alignment-and-padding}
 
 要在由三列组成的结构组件中调整内边距和垂直对齐方式。 为此，请执行以下步骤：
 
@@ -220,34 +261,5 @@ ht-degree: 0%
 
 样式随后将应用于所选元素。 如果子元素未定义特定的样式属性，则会继承父元素的样式。
 
-
-## 创建电子邮件的文本版本{#generate-text-version}
-
-建议创建电子邮件正文的文本版本，当HTML内容无法显示时，会使用该文本版本。
-
-默认情况下，Email Designer会创建电子邮件的&#x200B;**[!UICONTROL Plain text]**&#x200B;版本，包括个性化字段。 此版本将自动生成并与内容的HTML版本同步。
-
-如果您希望对纯文本版本使用其他内容，请执行以下步骤：
-
-1. 在您的电子邮件中，选择&#x200B;**[!UICONTROL Plain text]**&#x200B;选项卡。
-
-1. 使用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;切换开关禁用同步。
-
-   ![](assets/text_version_1.png)
-
-1. 单击复选标记以确认您的选择。
-
-   ![](assets/text_version_2.png)
-
-1. 然后，您可以根据需要编辑纯文本版本。
-
->[!CAUTION]
->
->* 在&#x200B;**[!UICONTROL Plain text]**&#x200B;视图中所做的更改不会反映在HTML视图中。
-   >
-   >
-* 如果在更新纯文本内容后重新启用&#x200B;**[!UICONTROL Sync with HTML]**&#x200B;选项，则更改将丢失，并替换为从HTML版本生成的文本内容。
-
->
 
 
