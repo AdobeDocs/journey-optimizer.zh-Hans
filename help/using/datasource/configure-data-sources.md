@@ -5,16 +5,14 @@ feature: 数据源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 14%
 
 ---
 
 # 配置数据源 {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 以下是主要的数据源配置步骤：
 
@@ -22,9 +20,7 @@ ht-degree: 14%
 >
 >数据源配置操作必须始终由&#x200B;**技术用户**&#x200B;执行。
 
-1. 选择&#x200B;**[!UICONTROL Admin]** / **[!UICONTROL Data Sources]**&#x200B;菜单。
-
-   将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
+1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Data Sources]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。 将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
 
    ![](../assets/journey18.png)
 
