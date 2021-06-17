@@ -5,7 +5,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 87%
@@ -13,8 +13,6 @@ ht-degree: 87%
 ---
 
 # 疑难解答{#concept_nlv_bcv_2fb}
-
-![](../assets/do-not-localize/badge.png)
 
 在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。请参阅[此页](../building-journeys/testing-the-journey.md)。
 
