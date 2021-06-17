@@ -5,16 +5,14 @@ feature: 架构
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
 
 # 关于[!DNL Journey Optimizer]事件的ExperienceEvent架构
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 事件是通过流摄取发送到Adobe Experience Platform的XDM体验事件。
 
@@ -32,7 +30,7 @@ ht-degree: 1%
 
    ![](../assets/schema2.png)
 
-* 对于系统生成的事件，架构必须包含Orchestration eventID mixin。 [!DNL Journey Optimizer] 使用此字段标识历程中使用的事件。
+* 对于系统生成的事件，架构必须包含Orchestration eventID字段组。 [!DNL Journey Optimizer] 使用此字段标识历程中使用的事件。
 
    ![](../assets/schema3.png)
 
