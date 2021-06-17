@@ -5,22 +5,20 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 8%
+source-wordcount: '447'
+ht-degree: 7%
 
 ---
 
 # 创建历程报告{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 除了[实时报表](live-report.md)和内置的[全局报告功能](global-report.md)之外，[!DNL Journey Optimizer]还可以自动将旅程性能数据发送到Adobe Experience Platform，以便将其与其他数据结合进行分析。
 
 >[!NOTE]
 >
->默认情况下，所有新部署的实例上均不会激活此功能。 激活应请求进行。
+>默认情况下，在历程步骤事件的所有实例上都会激活此功能。 对于历程配置文件步骤事件，应请求激活。 不得更改在配置此功能期间创建的架构和数据集。
 
 例如，您已设置发送多个电子邮件的历程。 此功能允许您将[!DNL Journey Optimizer]数据与下游事件数据合并，例如发生转化次数、网站上发生的参与次数或存储中发生的交易次数。 历程信息可以与Adobe Experience Platform上的数据结合使用（来自其他数字属性或来自离线属性），以更全面地查看性能。
 
