@@ -5,16 +5,14 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 15%
 
 ---
 
 # 配置业务事件 {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 与单一事件不同，业务事件与特定用户档案不相关。 事件ID类型始终基于规则。 请阅读[此部分](../event/about-events.md)中有关业务事件的更多信息。
 
@@ -37,11 +35,11 @@ ht-degree: 15%
 
 以下是配置业务事件的首要步骤：
 
-1. 在“管理”部分，浏览至&#x200B;**[!UICONTROL Configurations]**，然后单击&#x200B;**[!UICONTROL Events]**。 将显示事件列表。
+1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Events]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。 将显示事件列表。
 
    ![](../assets/jo-event1.png)
 
-1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新事件。事件配置窗格将在屏幕右侧打开。
+1. 单击&#x200B;**[!UICONTROL Create Event]**&#x200B;以创建新事件。事件配置窗格将在屏幕右侧打开。
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ ht-degree: 15%
 
 有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
-1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL Payload]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
+1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL Fields]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ ht-degree: 15%
 
 1. 选择要从事件接收的字段。 业务用户将在历程中利用这些字段。
 
-   ![](../assets/journey10-business.png)
-
 1. 选择完所需字段后，单击&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
-   选定字段的数量显示在&#x200B;**[!UICONTROL Payload]**&#x200B;字段中。
+   选定字段的数量显示在&#x200B;**[!UICONTROL Fields]**&#x200B;字段中。
 
    ![](../assets/journey12-business.png)
 
