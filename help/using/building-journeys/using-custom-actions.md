@@ -5,7 +5,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 使用自定义操作 {#section_f2c_hbg_nhb}
-
-![](../assets/do-not-localize/badge.png)
 
 如果您使用的是自定义操作，您将在只读模式下看到在操作配置屏幕中定义的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;和&#x200B;**[!UICONTROL Authentication]**&#x200B;参数（请参阅[此页面](../action/about-custom-action-configuration.md)）。
 
