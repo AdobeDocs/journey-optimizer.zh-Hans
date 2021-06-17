@@ -5,9 +5,9 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 2%
 >title="关于内容组件"
 >abstract="内容组件是空内容占位符，您可以使用这些占位符创建电子邮件的布局。"
 
-![](assets/do-not-localize/badge.png)
 
 从头开始创建电子邮件内容时，**[!UICONTROL Content components]**允许您使用在电子邮件中放置后即可使用的原始空组件进一步个性化电子邮件。
 您可以在定义电子邮件布局的**[!UICONTROL Structure component]**&#x200B;中添加所需数量的&#x200B;**[!UICONTROL Content components]**。
@@ -104,8 +103,6 @@ ht-degree: 2%
 
 1. 复制并粘贴要添加到电子邮件中的HTML代码，然后单击&#x200B;**[!UICONTROL Save]**。
 
-   ![](assets/email_designer_24.png)
-
 1. 现在，您可以通过更改&#x200B;**[!UICONTROL Style]**、**[!UICONTROL Margin]**&#x200B;和&#x200B;**[!UICONTROL Border]**&#x200B;等，或添加链接以将受众重定向到其他内容，从而进一步个性化您的HTML。
 
 ## 图像 {#image}
@@ -116,9 +113,9 @@ ht-degree: 2%
 
    ![](assets/email_designer_9.png)
 
-1. 单击&#x200B;**[!UICONTROL Browse]**&#x200B;从计算机中选择图像文件。
+1. 单击&#x200B;**[!UICONTROL Browse]**&#x200B;以从资产中选择图像文件。
 
-   您还可以单击&#x200B;**[!UICONTROL Asset Picker]**&#x200B;将资产添加到电子邮件中。 有关资产的更多信息，请参阅此[部分](assets-essentials.md)。
+   要了解有关[!DNL Assets Essentials]的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)。
 
 1. 单击新添加的组件以开始配置&#x200B;**[!UICONTROL Content Components]**，并有权访问电子邮件设计器右窗格中的&#x200B;**[!UICONTROL Components Settings]**。
 
