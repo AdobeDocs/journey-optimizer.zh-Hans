@@ -5,16 +5,14 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 4%
+source-wordcount: '324'
+ht-degree: 2%
 
 ---
 
 # 使用 [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
-
-![](assets/do-not-localize/badge.png)
 
 ## 开始使用 [!DNL Assets Essentials]{#get-started-assets-essentials}
 
@@ -22,13 +20,13 @@ ht-degree: 4%
 
 有关[!DNL Assets Essentials]的更多详细过程，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)。
 
-## 上传资产{#add-asset}
+## 上传和插入资产{#add-asset}
 
-要上传[!DNL Assets Essentials]中的文件，您首先需要浏览或创建将存储到其中的文件夹。
+要上传[!DNL Assets Essentials]中的文件，您首先需要浏览或创建将存储到其中的文件夹。 然后，您便能够将它们插入到电子邮件内容中。
 
 有关如何上传资产的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html)。
 
-1. 从[!DNL Adobe Journey Optimizer]主页中，选择&#x200B;**[!UICONTROL Assets]**&#x200B;选项卡以访问[!DNL Assets Essentials]。
+1. 从[!DNL Adobe Journey Optimizer]主页中，选择&#x200B;**[!UICONTROL Content management]**&#x200B;菜单下的&#x200B;**[!UICONTROL Assets]**&#x200B;选项卡以访问[!DNL Assets Essentials]。
 
    ![](assets/media_library_1.png)
 
@@ -48,69 +46,24 @@ ht-degree: 4%
 
 1. 选择要上传的文件。 完成后，单击&#x200B;**[!UICONTROL Upload]**。
 
-1. 上传资产后，您可以通过[部分](#manage-asset)中详细描述的不同选项对其进行管理。 您还可以使用&#x200B;**编辑**&#x200B;模式([!DNL Assets Essentials])对资产进行进一步编辑。 有关详细信息，请参见此 [ 页面](#edit-assets)。
+   要了解有关如何管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)。
+
+1. 上传资产后，您现在可以通过Email designer将资产插入其中一条消息。
+
+   您还可以使用&#x200B;**编辑**&#x200B;模式([!DNL Assets Essentials])对资产进行进一步编辑。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html)。
 
    ![](assets/media_library_12.png)
 
-## 管理资产{#manage-asset}
-
-您可以管理[!DNL Adobe Experience Manager Assets Essentials]中的可用资产。 单击您的资产可访问更多选项。
-
-![](assets/media_library_12.png)
-
-工具栏中提供了以下操作：
-
-![](assets/media_library_4.png)
-
-* **[!UICONTROL Details]** 以访问有关您资产的更多详细信息。
-* **[!UICONTROL Download]** 开始直接本地下载。
-* **[!UICONTROL Delete]** ，以将资产从中删除 [!DNL Assets Essentials]。
-* **[!UICONTROL Copy]** 将资产复制/粘贴到其他文件夹中。
-* **[!UICONTROL Move]** 将资产移动到其他文件夹。
-
-有关如何管理资产的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html)。
-
-## 在消息{#use-assets}中插入资产
-
-您可以通过电子邮件设计工具将资产插入您的一条消息中。 [进一步了解电子邮件设计](design-emails.md)。
-
-要从[!DNL Adobe Experience Manager Assets Essentials]插入资产，请执行以下操作：
-
-1. 在Email designer中，从左窗格中选择&#x200B;**[!UICONTROL Asset picker]**。
+1. 从[!DNL Adobe Journey Optimizer]中，从电子邮件设计器的左窗格中选择&#x200B;**[!UICONTROL Asset picker]**。
 
    ![](assets/media_library_5.png)
 
-1. 选择资产文件夹。 您还可以在搜索栏中搜索资产或文件夹。
+1. 选择您的Assets文件夹。 您还可以在搜索栏中搜索资产或文件夹。
 
-1. 将资产拖放到&#x200B;**[!UICONTROL Structure component]**&#x200B;中。
+1. 将资产拖放到电子邮件内容中。
 
    ![](assets/media_library_6.png)
 
-您可以进一步自定义资产，例如添加外部链接或使用&#x200B;**[!UICONTROL Components settings]**&#x200B;的文本。 [了解有关组件设置的更多信息](content-components.md)
+1. 您可以进一步自定义资产，例如添加外部链接或使用&#x200B;**[!UICONTROL Components settings]**&#x200B;的文本。 [了解有关组件设置的更多信息](content-components.md)
 
-<!--
-
-## Edit and modify assets {#edit-assets}
-
-Your assets can be edited through the **[!UICONTROL Edit mode]** in [!DNL Assets Essentials]. Through this mode, you can crop, resize and rotate your asset. Click the **[!UICONTROL Edit]** button to access the editing mode of your asset.
-
-![](assets/media_library_10.png)
-
-Following actions are available in the toolbar:
-
-![](assets/media_library_11.png)
-
-* **[!UICONTROL Start crop]** to focus on only the content you want in your asset.
-* **[!UICONTROL Rotate left]** to rotate your asset counter-clockwise by 90 degrees.
-* **[!UICONTROL Rotate right]** to rotate your asset clockwise by 90 degrees.
-* **[!UICONTROL Flip vertically]** to vertically mirror your asset.
-* **[!UICONTROL Flip horizontally]** to horizontally mirror your asset.
-* **[!UICONTROL Launch map]** to insert an image map. For more on this, refer to the [Add image maps](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/image-maps.html?lang=en#using) documentation.
-
-## Share assets {#share-assets}
-
-When using the Media library, each asset is saved in folders or sub-folders. You can choose to share your folders and which level of access to assign.
-
-For more information on how to share access to your folders, refer to this page.
-
--->
+   ![](assets/media_library_13.png)
