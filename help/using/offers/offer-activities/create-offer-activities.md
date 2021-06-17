@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 在创建决策之前，请确保已在选件库中创建以下组件：
 
-* [版面](../offer-library/creating-placements.md),
-* [收藏集](../offer-library/creating-collections.md),
-* [个性化优惠](../offer-library/creating-personalized-offers.md),
-* [后备优惠](../offer-library/creating-fallback-offers.md).
+* [版面](../offer-library/creating-placements.md)
+* [收藏集](../offer-library/creating-collections.md)
+* [个性化优惠](../offer-library/creating-personalized-offers.md)
+* [后备优惠](../offer-library/creating-fallback-offers.md)
 
 ## 创建决策{#create-activity}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 添加决策{#add-decisions}
+## 添加优惠 {#add-offers}
 
 1. 从列表中拖放版面以将其添加到决策中，然后单击&#x200B;**[!UICONTROL Add collection]**。
 
