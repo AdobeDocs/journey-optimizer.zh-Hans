@@ -5,22 +5,20 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
 # 利用Adobe Analytics数据{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+您可以利用已在捕获并流入到平台中的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
 
 >[!NOTE]
 >
 >本节仅适用于基于规则的事件和需要使用Adobe Analytics数据的客户。
-
-您可以利用已在捕获并流入到平台中的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
 
 要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
@@ -34,4 +32,4 @@ ht-degree: 1%
 
 ![](../assets/jo-event9.png)
 
-有关Adobe Analytics源连接器的更多信息，请参阅[文档]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)中了解有关Adobe Analytics源连接器的更多信息。
