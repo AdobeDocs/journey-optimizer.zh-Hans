@@ -5,7 +5,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 6%
@@ -13,8 +13,6 @@ ht-degree: 6%
 ---
 
 # 等待活动{#section_rlm_nft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
 
