@@ -5,7 +5,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 从一个历程到另一个历程 {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 **[!UICONTROL Jump]**&#x200B;操作活动允许您将个人从一个历程推送到另一个历程。 此功能允许您：
 
