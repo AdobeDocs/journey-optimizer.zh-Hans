@@ -5,7 +5,7 @@ feature: 数据源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 10%
@@ -13,8 +13,6 @@ ht-degree: 10%
 ---
 
 # Adobe Experience Platform 数据源 {#concept_zrb_nqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户资料服务的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
