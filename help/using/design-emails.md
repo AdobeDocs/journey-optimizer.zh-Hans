@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 电子邮件设计入门 {#get-started-content-design}
-
-![](assets/do-not-localize/badge.png)
 
 使用[!DNL Journey Optimizer]创建电子邮件内容时，您可以：
 
