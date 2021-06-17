@@ -6,16 +6,14 @@ feature: 操作
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 84%
+source-wordcount: '237'
+ht-degree: 78%
 
 ---
 
 # 关于操作 {#about_actions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_actions"
@@ -25,6 +23,8 @@ ht-degree: 84%
 行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
 
 [!DNL Journey Optimizer] 附带内置消息功能。请参阅[此小节](../get-started-content.md)。
+
+如果您拥有Adobe Campaign v7或v8，则集成可应请求提供。 请参见[此页面](../action/acc-action.md)。
 
 如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参见[此页面](../action/about-custom-action-configuration.md)。
 
@@ -36,6 +36,6 @@ ht-degree: 84%
 
 此类操作在历程的左侧面板的 **[!UICONTROL Action]** 类别中可用。请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
 
-要查看操作列表或配置新操作，请浏览左侧导航中的&#x200B;**[!UICONTROL Administration]** / **[!UICONTROL Configuration]**。 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
+要查看操作列表或配置新操作，请在“管理”菜单部分选择&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
 
 ![](../assets/custom1.png)
