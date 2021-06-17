@@ -5,18 +5,16 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 13%
 
 ---
 
 # journeyStep 事件操作执行字段 {#sharing-execution-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合将由journeyStepEvent和journeyStepProfileEvent共享。
+此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
 
 如果步骤包含要处理的操作，则这些字段将添加到事件有效负载中。
 
