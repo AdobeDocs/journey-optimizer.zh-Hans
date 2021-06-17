@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 4%
 
 ![](../../assets/offer-priority.png)
 
-此外，Journey Optimizer还允许您创建&#x200B;**排名公式**。 这些公式可确定在给定版面中应首先显示哪个选件，而不是考虑选件的优先级得分。 例如，您可以提升结束日期现在后不到24小时的所有选件的优先级，或者如果用户档案的目标点为“正在运行”，则提升“正在运行”类别中的选件。
+此外，Journey Optimizer还允许您创建&#x200B;**排名公式**。 这些公式可确定在给定版面中应首先显示哪个选件，而不是考虑选件的优先级得分。
+
+例如，您可以提升结束日期现在后不到24小时的所有选件的优先级，或者如果用户档案的目标点为“正在运行”，则提升“正在运行”类别中的选件。
 
 有关如何创建排名公式的更多信息，请参阅[此部分](../offer-library/create-ranking-formulas.md)。
 
@@ -28,14 +30,18 @@ ht-degree: 4%
 
 创建排名公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
-* 创建决策或编辑现有决策，然后创建包含您的选件的版面（请参阅[创建决策](../offer-activities/create-offer-activities.md)）。
+1. 创建决策或编辑现有决策，然后创建包含您的选件的版面（请参阅[创建决策](../offer-activities/create-offer-activities.md)）。
 
-* 对于每个版面，从下拉列表中选择&#x200B;**[!UICONTROL Ranking]**，然后单击&#x200B;**[!UICONTROL Add ranking]**。
+1. 对于每个版面，从下拉列表中选择&#x200B;**[!UICONTROL Ranking]**。
+
+1. 单击 **[!UICONTROL Add ranking]**。
 
    ![](../../assets/offer-activity-ranking.png)
 
-* 选择所需的排名公式，然后单击&#x200B;**[!UICONTROL Select]**。
+1. 选择所需的排名公式，然后单击&#x200B;**[!UICONTROL Select]**。
 
    ![](../../assets/ranking-selection.png)
 
-排名公式现在与版面相关联。 如果多个选件符合在此版面中显示的条件，则决策将使用排名公式的公式来计算要先交付的选件。
+排名公式现在与版面相关联。
+
+如果多个选件符合在此版面中显示的条件，则决策将使用排名公式的公式来计算要先交付的选件。
