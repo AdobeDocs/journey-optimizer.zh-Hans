@@ -5,16 +5,14 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '489'
+ht-degree: 1%
 
 ---
 
-# 通过电邮发送全局报告 {#email-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# 电子邮件全局报告{#email-global-report}
 
 电子邮件&#x200B;**[!UICONTROL Global report]**&#x200B;仅定向特定的电子邮件投放。
 
@@ -42,7 +40,21 @@ ht-degree: 2%
 
 * **[!UICONTROL Spam Complaint Rate]**:收件人标记为垃圾邮件的电子邮件与已发送邮件的百分比。有关投诉的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)。
 
-* **[!UICONTROL Unsubscribe Rate]**:与已投放消息相比，独特退订的次数。
+* **[!UICONTROL Unsubscribe Rate]**:独特退订与已投放消息数量的百分比。此指示器不依赖于退订链接的点击次数，而是基于收件人启动的退订次数。 在此[page](../consent.md)中了解有关取消订阅的更多信息。
+
+**[!UICONTROL Email - Tracking statistics]**&#x200B;包含用于投放的收件人活动的可用数据：
+
+* **[!UICONTROL Opens]**:投放中打开投放的次数。
+
+* **[!UICONTROL Unique Opens]**:已打开投放的百分比。
+
+* **[!UICONTROL Open Rate]**:已打开的电子邮件总数与已投放电子邮件的数量相比较。
+
+* **[!UICONTROL Clicks]**:电子邮件中内容的点击次数。
+
+* **[!UICONTROL Unique Clicks]**：点击了电子邮件中内容的收件人数。
+
+* **[!UICONTROL Click through rate]**:与历程进行交互的用户百分比。
 
 **[!UICONTROL Sending Statistics]**&#x200B;图表详细列出了交付的成功情况：
 
@@ -51,6 +63,8 @@ ht-degree: 2%
 * **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+![](../assets/global_report_5.png)
 
 **[!UICONTROL Bounce Reasons]**&#x200B;和&#x200B;**[!UICONTROL Bounce categories]**&#x200B;小组件包含与弹回消息相关的可用数据，例如：
 
@@ -62,27 +76,13 @@ ht-degree: 2%
 
 有关退回的更多信息，请参阅[禁止列表](../suppression-list.md)页面。
 
-![](../assets/global_report_5.png)
-
 **[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
-
-**[!UICONTROL Email - Best recipient domain]**&#x200B;图表和表格详细列出了收件人最常用于打开电子邮件的域。
 
 ![](../assets/global_report_6.png)
 
-**[!UICONTROL Email - Tracking statistics]**&#x200B;表包含用于投放的收件人活动的可用数据：
+**[!UICONTROL Email - Top recipient domain]**&#x200B;图表和表格详细列出了收件人最常用于打开电子邮件的域。
 
-* **[!UICONTROL Opens]**:投放中打开投放的次数。
-
-* **[!UICONTROL Unique Opens]**:打开投放的收件人数。
-
-* **[!UICONTROL Open Rate]**:已打开消息的百分比。
-
-* **[!UICONTROL Clicks]**:电子邮件中内容的点击次数。
-
-* **[!UICONTROL Unique Clicks]**：点击了电子邮件中内容的收件人数。
-
-* **[!UICONTROL Click through rate]**:投放中的点击次数百分比。
+**[!UICONTROL Email - Top Url]**&#x200B;图表和表格详细列出了投放中哪些URL的访问次数最多。
 
 **[!UICONTROL Open vs Click]**&#x200B;标识收件人与投放的交互：
 
@@ -90,4 +90,4 @@ ht-degree: 2%
 
 * **[!UICONTROL Unique Opens]**:打开投放的收件人数。
 
-**[!UICONTROL Email - Top Url]**&#x200B;图表和表格详细列出了投放中哪些URL的访问次数最多。
+
