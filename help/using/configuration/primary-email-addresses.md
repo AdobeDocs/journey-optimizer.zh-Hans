@@ -15,21 +15,21 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 7%
 
 ---
 
 
-# 确定用户档案的主地址
+# 更改主电子邮件地址
 
 定位用户档案时，数据库中可能有多个电子邮件地址（个人、专业电子邮件地址等）。
 
 通过Journey Optimizer，您可以确定要从用户档案服务中使用的电子邮件地址，并在多个地址可用时排定优先级。 为此，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL General]**&#x200B;菜单。
+1. 访问&#x200B;**[!UICONTROL Channels]** `>` **[!UICONTROL General]**&#x200B;菜单。
 1. 默认情况下，此屏幕中会显示当前用于确定用户档案电子邮件地址的字段。 单击&#x200B;**[!UICONTROL Edit]**&#x200B;以更改。
 
    ![](../assets/primary-address.png)
