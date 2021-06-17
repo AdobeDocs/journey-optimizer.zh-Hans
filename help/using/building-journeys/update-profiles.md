@@ -5,18 +5,16 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
-# 更新用户档案 {#update-profile}
+# 更新配置文件{#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
-**[!UICONTROL Update profile]**&#x200B;操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。
+**[!UICONTROL Update Profile]**&#x200B;操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。
 
 ## 重要说明
 
@@ -31,7 +29,7 @@ ht-degree: 1%
 
 在测试模式下，将不模拟用户档案更新。 将对测试用户档案执行更新。
 
-只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用&#x200B;**更新用户档案**&#x200B;操作活动，并将测试用户档案布尔字段从false更改为true。
+只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用&#x200B;**更新配置文件**&#x200B;操作活动，并将测试配置文件布尔字段从false更改为true。
 
 有关如何将现有用户档案转换为测试用户档案的更多信息，请参阅此[部分](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)。
 
@@ -39,7 +37,7 @@ ht-degree: 1%
 
 1. 通过以事件开始来设计您的历程。 请参阅此[部分](../building-journeys/journey.md)。
 
-1. 在面板的&#x200B;**Action**&#x200B;部分中，将&#x200B;**Update profile**&#x200B;活动放入画布中。
+1. 在面板的&#x200B;**Action**&#x200B;部分中，将&#x200B;**更新配置文件**&#x200B;活动拖放到画布中。
 
    ![](../assets/profileupdate0.png)
 
@@ -53,7 +51,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >**Update profile**&#x200B;操作可实时更新配置文件数据，但不会更新数据集。 由于配置文件是与数据集相关的记录，因此需要选择数据集。
+   >**Update Profile**&#x200B;操作可实时更新配置文件数据，但不会更新数据集。 由于配置文件是与数据集相关的记录，因此需要选择数据集。
 
 1. 单击&#x200B;**Value**&#x200B;字段以定义要使用的值：
 
