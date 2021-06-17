@@ -1,9 +1,9 @@
 ---
 title: 隐私
 description: 了解如何管理隐私
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 100%
 
 ---
@@ -11,9 +11,7 @@ ht-degree: 100%
 
 # 隐私 {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer 是一款用于处理大量数据（包括个人信息和敏感数据）的强大工具。
+[!DNL Journey Optimizer] 是一款用于处理大量数据（包括个人信息和敏感数据）的强大工具。
 
 * **个人数据**&#x200B;是指可以直接或间接识别生命个体的信息。
 * **敏感个人数据**&#x200B;是与个人的种族、政治观点、宗教信仰、犯罪背景、遗传信息、健康数据、性取向、生物识别信息以及贸易同盟会员资格相关的信息。
