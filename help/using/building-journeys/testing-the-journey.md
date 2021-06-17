@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1620'
 ht-degree: 2%
 
 ---
 
 # 测试历程{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 在能够测试历程之前，必须解决所有错误（如果有）。 请参阅[此小节](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)。
 
@@ -61,6 +59,7 @@ ht-degree: 2%
 * 当您禁用测试模式时，它将从过去或当前使用该模式的所有人员处删除历程。 它还会清除报表。
 * 您可以根据需要多次启用/禁用测试模式。
 * 激活测试模式后，您无法修改历程。 在测试模式下，您可以直接发布历程，无需先停用测试模式。
+* 达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，则可以重新组织拆分分支的位置。
 
 ## 触发事件 {#firing_events}
 
