@@ -1,20 +1,18 @@
 ---
-title: 历程实时报表
+title: 历程实时报告
 description: 了解如何使用历程实时报告中的数据
 feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
 
 # 历程实时报告 {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 历程实时报告可使用&#x200B;**[!UICONTROL Live report]**&#x200B;按钮直接从历程访问。
 
@@ -64,7 +62,7 @@ ht-degree: 1%
 
 ![](../assets/report_email_1.png)
 
-**[!UICONTROL Sending Statistics]**&#x200B;和&#x200B;**[!UICONTROL Sending metrics by Email]**&#x200B;小组件会详细描述您的交付是否成功：
+**[!UICONTROL Email Sending Statistics]**&#x200B;小组件详细列出了与您的消息相关的主要信息：
 
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 
@@ -72,9 +70,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
-<!--Hard and bounce - by Email-->
-
-**[!UICONTROL Email summary]**&#x200B;图表详细列出了与您的消息相关的主要信息：
+**[!UICONTROL Sending metrics by Email]**&#x200B;表和&#x200B;**[!UICONTROL Email Summary]**&#x200B;图详细说明了交付的成功：
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
@@ -88,9 +84,13 @@ ht-degree: 1%
 
 * **[!UICONTROL Clicks]**:在投放中点击内容的次数。
 
+* **[!UICONTROL Unsubscribe]**:退订链接的点击次数。
+
+* **[!UICONTROL Spam complaints]**:将消息声明为垃圾邮件或垃圾邮件的次数。
+
 ![](../assets/report_email_2.png)
 
-**[!UICONTROL Bounce Reasons]**&#x200B;和&#x200B;**[!UICONTROL Bounce categories]**&#x200B;小组件包含与弹回消息相关的可用数据，例如：
+**[!UICONTROL Bounce Reasons]**、**[!UICONTROL Bounce categories]**&#x200B;和&#x200B;**[!UICONTROL Hard and bounce - by Email]**&#x200B;小组件包含与弹回消息相关的可用数据，例如：
 
 * **[!UICONTROL Hard bounce]**:永久错误的总数，如错误的电子邮件地址。这涉及显式声明地址无效的错误消息，如未知用户。
 
