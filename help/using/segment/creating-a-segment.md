@@ -5,7 +5,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -13,8 +13,6 @@ ht-degree: 6%
 ---
 
 # 生成区段 {#build-segments}
-
-![](../assets/do-not-localize/badge.png)
 
 在此示例中，我们将构建一个区段，以定位居住在亚特兰大、旧金山或西雅图的1980年以后出生的所有客户。 所有这些客户都应该在过去7天内打开Luma应用程序，然后在打开该应用程序后的2小时内完成购买。
 
@@ -40,10 +38,11 @@ ht-degree: 6%
 
    在此示例中，我们需要依赖&#x200B;**Attributes**&#x200B;和&#x200B;**Events**&#x200B;字段来构建区段：
 
-   * **属性**:住在亚特兰大、旧金山或西雅图的档案，1980年后出生，
-   * **事件**:在过去7天内打开了Luma应用程序，然后在打开该应用程序后的2小时内购买了产品的用户档案。
+   * **属性**:住在亚特兰大、旧金山或西雅图的档案1980年后出生
 
       ![](../assets/add-attributes.png)
+
+   * **事件**:在过去7天内打开了Luma应用程序，然后在打开该应用程序后的2小时内购买了产品的用户档案。
 
       ![](../assets/add-events.png)
 
