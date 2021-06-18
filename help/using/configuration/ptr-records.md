@@ -15,7 +15,7 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 访问子域的PTR记录
 
-在Customer Journey Management中委派子域后，将自动创建PTR记录并与此子域关联。 您可以从&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL PTR records]**&#x200B;菜单访问它。
+在Customer Journey Management中委派子域后，将自动创建PTR记录并与此子域关联。 您可以从&#x200B;**[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]**&#x200B;菜单访问该菜单。
 
 ![](../assets/ptr-records.png)
 
