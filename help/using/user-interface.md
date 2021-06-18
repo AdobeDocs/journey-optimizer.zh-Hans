@@ -5,26 +5,29 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 84%
+source-wordcount: '1187'
+ht-degree: 64%
 
 ---
 
 # 用户界面 {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-此文档会经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
-
-## 工作区{#cjm-workspace}
-
 连接到 [Adobe Experience Cloud](http://experience.adobe.com) 后，浏览找到 [!DNL Journey Optimizer]。
 
 >[!NOTE]
 >
->浏览用户界面时的主要概念在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide)中有详细介绍。
+>* 浏览用户界面时的主要概念与Adobe Experience Platform相同。 有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide)。
+   >
+   >
+* 此文档经常更新以反映产品用户界面中的最新更改。 但是，某些屏幕截图可能与用户界面略有不同。
+   >
+   > 
+* UI中可用的组件和功能取决于您的权限和许可包。 如有任何问题，请联系您的Adobe客户成功经理。
+
+
+## 左侧导航
 
 使用左侧的链接浏览功能。
 
@@ -84,9 +87,39 @@ ht-degree: 84%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform 提供了可将单个 实例划分为多个单独的虚拟环境的沙箱，以帮助开发和改进数字体验应用程序。[在本文档中进一步了解沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)
 
-## 浏览器和语言支持
+
+## 产品内用例
+
+从主页中利用[!DNL Adobe Journey Optimizer]用例，并提供一些快速输入以创建客户历程。
+
+![](assets/use-cases-home.png)
+
+可用用例包括：
+
+* **创建测试用户档案**，以使用我们的CSV模板创建测试用户档案，以测试个性化消息和历程。在本页](building-journeys/creating-test-profiles.md#use-case-1)中了解如何实施此用例[。
+* **向客户发送生日消息**，以自动发送电子邮件，希望客户在生日前后看到该消息。（即将推出）
+* **向新客户发送电子邮件**，以便最多轻松发送两封电子邮件以欢迎新注册的客户。（即将推出）
+* **将推送消息发送到导入的客户列表**，以便快速向从CSV文件导入的客户列表发送推送通知。（即将推出）
+
+单击&#x200B;**[!UICONTROL View details]**&#x200B;以了解有关每个用例的更多信息。
+
+单击&#x200B;**[!UICONTROL Begin]**&#x200B;按钮以开始使用案例。
+
+您可以通过&#x200B;**[!UICONTROL View use case library]**&#x200B;按钮访问已执行的用例。
+
+## 查找帮助和支持
+
+从主页的下半部分访问Adobe Journey Optimizer关键帮助页面。
+
+使用&#x200B;**帮助**&#x200B;图标访问帮助页面、联系支持人员并分享反馈。 您可以从搜索字段搜索帮助文章和视频。
+
+![](assets/ajo-help.png)
+
+## 支持的浏览器
 
 Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中发挥最佳表现。在旧版本或其他浏览器上使用某些功能时可能会遇到问题。
+
+## 语言首选项
 
 用户界面目前提供以下语言版本：
 
@@ -106,7 +139,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 搜索
 
-使用顶部栏中心的Adobe Experience Cloud搜索功能，在沙箱中查找资产、历程或消息。 开始输入内容以显示排名最前的结果。
+在Adobe Journey Optimizer界面的任意位置，都可以使用顶部栏中心的Adobe Experience Cloud搜索功能，在沙箱中查找资产、历程或消息。 开始输入内容以显示排名最前的结果。
 
 ![](assets/unified-search.png)
 
@@ -138,17 +171,3 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 在不同的列表中，您可以对每个元素执行基本操作。例如，您可以重复或删除项目。
 
 ![](assets/journey4.png)
-
-## 浏览 Adobe Experience Platform 字段 {#friendly-names-display}
-
-在定义[事件有效负载](event/about-creating.md#define-the-payload-fields)、[字段组有效负载](datasource/configure-data-sources.md#define-field-groups)以及在[表达式编辑器](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
-
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在处理“eVars”和通用字段时，这个描述符特别有用。您可以通过 API 调用配置友好型名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
-
-![](assets/xdm-from-descriptors.png)
-
-如果友好名称可用，则字段将显示为`<friendly-name>(<name>)`。如果没有可用的友好名称，将显示其显示名称，如`<display-name>(<name>)`。如果这两种名称均未定义，则仅显示字段的技术名称 `<name>`。
-
->[!NOTE]
->
->从架构组合中选择字段时，不会检索友好名称。
