@@ -5,26 +5,24 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 15%
+source-wordcount: '1656'
+ht-degree: 14%
 
 ---
 
 # 配置统一事件{#configure-an-event}
 
-![](../assets/do-not-localize/badge.png)
-
 单一事件与特定用户档案相关联。 它们可以是基于规则的，也可以是系统生成的。  有关单一事件[此部分](../event/about-events.md)的更多信息。
 
 以下是配置新事件的首要步骤：
 
-1. 在“管理”部分，浏览至&#x200B;**[!UICONTROL Configurations]**，然后单击&#x200B;**[!UICONTROL Events]**。 将显示事件列表。
+1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Events]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。 将显示事件列表。
 
    ![](../assets/jo-event1.png)
 
-1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新事件。事件配置窗格将在屏幕右侧打开。
+1. 单击&#x200B;**[!UICONTROL Create Event]**&#x200B;以创建新事件。事件配置窗格将在屏幕右侧打开。
 
    ![](../assets/jo-event2.png)
 
@@ -36,7 +34,7 @@ ht-degree: 15%
    >
    >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
 
-1. 在&#x200B;**[!UICONTROL Type]**&#x200B;字段中，选择&#x200B;**Unemination events**。
+1. 在&#x200B;**[!UICONTROL Type]**&#x200B;字段中，选择&#x200B;**Uneminary**。
 
    ![](../assets/jo-event3bis.png)
 
@@ -52,22 +50,24 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >选择&#x200B;**[!UICONTROL System Generated]**&#x200B;类型时，只有具有eventID类型mixin的架构才可用。 选择&#x200B;**[!UICONTROL Rule Based]**&#x200B;类型时，所有体验事件架构均可用。
+   >选择&#x200B;**[!UICONTROL System Generated]**&#x200B;类型时，只有具有eventID类型字段的架构才可用。 选择&#x200B;**[!UICONTROL Rule Based]**&#x200B;类型时，所有体验事件架构均可用。
 
 1. 对于基于规则的事件，在&#x200B;**[!UICONTROL Event ID condition]**字段内单击。 使用简单表达式编辑器，定义系统将使用的条件以识别将触发历程的事件。
    ![](../assets/jo-event6.png)
 
    在我们的示例中，我们根据用户档案所在的城市写了一个条件。 这意味着，每当系统收到与此条件（**[!UICONTROL City]**&#x200B;字段和&#x200B;**[!UICONTROL Paris]**&#x200B;值）匹配的事件时，它都会将其传递到历程。
 
+   >[!NOTE]
+   >
+   >定义&#x200B;**[!UICONTROL Event ID condition]**&#x200B;时，高级表达式编辑器不可用。
+
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
-1. 定义键：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的个人。如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
+1. 定义用户档案标识符：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的人员。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
 
    ![](../assets/jo-event7.png)
 
 1. 对于系统生成的事件，您可以添加条件。 此步骤是可选的。这允许系统仅处理符合条件的事件。此条件只能基于事件中包含的信息。请参阅[此小节](../event/about-creating.md#add-a-condition)。
 1. 单击 **[!UICONTROL Save]**。
-
-   ![](../assets/journey7.png)
 
    事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
 
@@ -75,7 +75,7 @@ ht-degree: 15%
 
 有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
-1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL Payload]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
+1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL Fields]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
 
    ![](../assets/journey8.png)
 
@@ -83,23 +83,19 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >确保已将“编排”混合添加到XDM架构。 这将确保您的架构包含使用[!DNL Journey Optimizer]所需的所有信息。
+   >对于系统生成的事件，请确保已将“编排”字段组添加到XDM架构。 这将确保您的架构包含使用[!DNL Journey Optimizer]所需的所有信息。
 
    ![](../assets/journey9.png)
 
 1. 选择要从事件接收的字段。 业务用户将在历程中利用这些字段。 这些参数还必须包含用于标识与事件关联的人员的键（请参阅[此部分](../event/about-creating.md#define-the-event-key)）。
 
-   ![](../assets/journey10.png)
-
    >[!NOTE]
    >
    >对于系统生成的事件，将在所选字段列表中自动添加&#x200B;**[!UICONTROL eventID]**&#x200B;字段，以便[!DNL Journey Optimizer]能够识别事件。 推送事件的系统不应生成ID，它应使用有效负荷预览中提供的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
 
-1. 选择完所需字段后，单击&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
+1. 选择完所需字段后，单击&#x200B;**[!UICONTROL Ok]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
-   ![](../assets/journey11.png)
-
-   选定字段的数量显示在&#x200B;**[!UICONTROL Payload]**&#x200B;字段中。
+   选定字段的数量显示在&#x200B;**[!UICONTROL Fields]**&#x200B;字段中。
 
    ![](../assets/journey12.png)
 
@@ -109,7 +105,7 @@ ht-degree: 15%
 
 您可以使用其中一个预定义命名空间，或使用身份命名空间服务创建新的一个预定义命名空间。 请参见此[页面](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)。
 
-如果选择具有主标识的架构，则会预填充&#x200B;**[!UICONTROL Key]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;字段。 如果未定义标识，我们将选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段下）。
+如果选择具有主标识的架构，则会预填充&#x200B;**[!UICONTROL Profiler identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;字段。 如果未定义标识，我们将选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段下）。
 
 选择字段时，主标识字段会进行标记。
 
@@ -122,13 +118,13 @@ ht-degree: 15%
 
 每个历程只允许一个命名空间。 如果您在同一历程中使用多个事件，则它们需要使用相同的命名空间。 请参阅[此页](../building-journeys/journey.md)。
 
-## 定义事件键{#define-the-event-key}
+## 定义配置文件标识符{#define-the-event-key}
 
 键值是字段或字段组合是事件有效负载数据的一部分，它将允许系统识别与事件关联的人员。 键可以是Experience CloudID、CRM ID或电子邮件地址。
 
 如果您计划利用存储在实时客户资料数据库中的数据，则必须选择在[实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)中定义为资料身份的信息作为事件键。
 
-它将允许系统执行事件与个人用户档案之间的协调。 如果选择具有主标识的架构，则会预填充&#x200B;**[!UICONTROL Key]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;字段。 如果未定义标识，我们将选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段下）。
+它将允许系统执行事件与个人用户档案之间的协调。 如果选择具有主标识的架构，则会预填充&#x200B;**[!UICONTROL Profile identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;字段。 如果未定义标识，我们将选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段下）。
 
 选择字段时，主标识字段会进行标记。
 
@@ -136,7 +132,7 @@ ht-degree: 15%
 
 如果您需要使用其他键（如CRM ID或电子邮件地址），则需要手动添加它：
 
-1. 单击&#x200B;**[!UICONTROL Key]**&#x200B;字段内或铅笔图标上的。
+1. 单击&#x200B;**[!UICONTROL Profile identifier]**&#x200B;字段内或铅笔图标上的。
 
    ![](../assets/journey16.png)
 
