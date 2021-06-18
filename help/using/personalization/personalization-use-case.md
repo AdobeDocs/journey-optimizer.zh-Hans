@@ -5,9 +5,9 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '604'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 2%
 
 # 个性化使用案例 {#personalization-use-case}
 
-![](../assets/do-not-localize/badge.png)
-
 在此用例中，您将看到如何在单个推送通知消息中使用多种类型的个性化。 将使用三种类型的个性化：
 
 * **用户档案**:基于用户档案字段的消息个性化
 * **选件决策**:基于选件决策变量进行个性化
 * **上下文**:基于历程中的情境数据进行个性化
 
-此示例的目标是在每次更新客户订单时都向Journey Optimizer推送事件。 随后，系统会向客户发送推送通知，其中包含有关订单的信息和个性化优惠。
+此示例的目标是在每次更新客户订单时向[!DNL Journey Optimizer]推送事件。 随后，系统会向客户发送推送通知，其中包含有关订单的信息和个性化优惠。
 
 对于此用例，需要满足以下先决条件：
 
