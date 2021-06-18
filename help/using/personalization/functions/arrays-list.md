@@ -5,7 +5,7 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -13,8 +13,6 @@ ht-degree: 5%
 ---
 
 # 数组和列表函数 {#arrays}
-
-![](../../assets/do-not-localize/badge.png)
 
 使用这些函数可更轻松地与数组、列表和字符串进行交互。
 
@@ -54,7 +52,7 @@ ht-degree: 5%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 阵列{#first-n}中的第一个`n`
+## 数组{#first-n}中的第一个`n`
 
 `topN`函数用于返回数组中的前`N`项，当这些项基于给定的数值表达式以升序排序时。
 
