@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 6%
 
 ---
 
 # 在历程{#segment-trigger-activity}中使用区段
-
-![](../assets/do-not-localize/badge.png)
 
 ## 关于读取区段活动{#about-segment-trigger-actvitiy}
 
@@ -25,6 +23,8 @@ ht-degree: 6%
 >[!NOTE]
 >
 >无法在1小时以内的较短时间内触发基于区段的历程。
+>
+>Burst付费附加组件允许以大量量发送非常快速的推送消息，用于包括读取区段和简单推送消息的简单历程。 有关更多信息，请参见[此部分](../building-journeys/journey-gs.md#burst)
 
 ### 配置活动{#configuring-segment-trigger-activity}
 
