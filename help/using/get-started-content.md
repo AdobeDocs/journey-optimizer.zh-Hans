@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 消息入门 {#get-sarted-contents-messages}
-
-![](assets/do-not-localize/badge.png)
 
 使用 [!DNL Journey Optimizer]，在一个单一位置利用资产和内容等多类资源，并创建和发布个性化的推送通知和电子邮件消息。
 
