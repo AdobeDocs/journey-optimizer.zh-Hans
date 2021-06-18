@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # 预览并测试消息{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入[个性化内容](personalization/personalize.md)，则将能够利用测试用户档案数据检查此内容在消息中的显示方式。
 
@@ -22,7 +20,10 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->您需要提供测试用户档案才能预览消息和发送校样。 了解如何在[此页面](building-journeys/creating-test-profiles.md)中创建测试用户档案。
+>您需要提供测试用户档案才能预览消息和发送校样。
+>
+>了解如何在[此页面](building-journeys/creating-test-profiles.md)中创建测试用户档案。
+
 
 要测试消息内容，您需要：
 
@@ -33,13 +34,18 @@ ht-degree: 0%
 
 此外，利用&#x200B;**Litmus**&#x200B;帐户中的[!DNL Journey Optimizer]，即时预览常用电子邮件客户端中的&#x200B;**电子邮件渲染**。 然后，您可以确保电子邮件内容在每个收件箱中都显示正常且工作正常。 了解如何在[此部分](#email-rendering)中解锁Litmus电子邮件预览
 
+>[!CAUTION]
+>
+>预览消息或发送校样时，只显示用户档案个性化数据。 基于上下文数据（如事件信息）的个性化只能在历程的上下文中进行测试。 了解如何在[此用例](personalization/personalization-use-case.md)中测试个性化。
+
+
 ## 选择测试用户档案{#select-test-profiles}
 
 使用[测试用户档案](building-journeys/creating-test-profiles.md)定位不符合所定义定位标准的其他收件人。
 
 要选择测试用户档案，请执行以下步骤：
 
-1. 在消息界面或电子邮件设计器中，单击&#x200B;**[!UICONTROL Preview]**&#x200B;按钮以访问测试用户档案选择。
+1. 在消息界面或电子邮件设计器中，单击&#x200B;**[!UICONTROL Show preview]**&#x200B;按钮以访问测试用户档案选择。
 
    ![](assets/email-preview-button.png)
 
@@ -105,7 +111,7 @@ ht-degree: 0%
 
    ![](assets/preview-android.png)
 
-## 发送校样{#send-proofs}
+##   发送验证{#send-proofs}
 
 校样是一种特定的消息，允许您在将消息发送到主受众之前对消息进行测试。 校样收件人负责批准邮件：呈现、内容、个性化设置、配置。
 
@@ -124,6 +130,10 @@ ht-degree: 0%
    ![](assets/send-proof-view.png)
 
 您需要在对消息内容进行任何修改后发送校样。
+
+>[!NOTE]
+>
+> 在发送到测试用户档案的校样中，指向镜像页面的链接不处于活动状态。 它仅在最终消息中激活。
 
 ## 电子邮件渲染{#email-rendering}
 
