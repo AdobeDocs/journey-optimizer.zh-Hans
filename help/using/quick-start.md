@@ -5,32 +5,40 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 52%
 
 ---
 
 # 快速入门 {#cjm-quick-start}
 
-![](assets/do-not-localize/badge.png)
-
 ## 开始的关键步骤 {#cjm-key-steps}
 
-借助 Journey Optimizer，您可以导入现有内容和设计新内容，使用客户档案数据个性化消息，创建事件以触发消息，定义区段和优化受众，发送多渠道消息以及获取一整套报告和监测工具以衡量消息和历程的影响。
+借助[!DNL Adobe Journey Optimizer]，您可以导入现有消息内容或设计新内容、使用客户用户档案数据个性化消息、创建事件以触发消息、定义区段和优化受众、发送多渠道消息、创建和添加选件，以及访问整套报告和监控工具以衡量消息和客户历程的影响。
 
 根据您所在的组织，您可以定义几种类型的用户，并根据用户的权限授予他们对某些功能的访问权限。
 
 ### 先决条件 {#cjm-prerequisites}
 
-在开始使用 Adobe Journey Optimizer 之前，您需要：
+在开始使用[!DNL Adobe Journey Optimizer]之前，您需要：
 
-* **定义用户权限**：登录 Journey Optimizer 并授予团队成员访问权限。[了解更多信息](../using/administration/permissions.md)
+* **设置用户权限**:登录并 [!DNL Adobe Journey Optimizer] 授予您的团队成员访问权限。[了解更多信息](../using/administration/permissions.md)
 
-* **配置渠道和预设**:使用Adobe定义电子邮件和推送通知设置并创建预设。[了解更多信息](../using/configuration/message-presets.md)
+* **配置渠道**:定义电子邮件和推送通知设置。[了解更多信息](../using/configuration/get-started-configuration.md)
 
-* **识别数据并创建架构与数据集**：将您的数据导入 Adobe Experience Platform，创建身份命名空间和为用户档案启用的数据集，创建区段并测试用户档案。[了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans)
+* **定义预设**:创建预设并配置品牌策略参数。[了解更多信息](../using/configuration/message-presets.md)
+
+* **识别数据并创建架构与数据集**：将您的数据导入 Adobe Experience Platform，创建身份命名空间和为用户档案启用的数据集，创建区段并测试用户档案。
+
+   * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans)中预览和创建数据集
+
+   * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans#manage-namespaces)中创建身份命名空间
+
+   * 了解如何在[此页面](../using/building-journeys/creating-test-profiles.md)中创建测试用户档案
+
+   * 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans)中了解有关数据摄取的更多信息
 
 
 ### 使用流程
@@ -41,7 +49,9 @@ ht-degree: 92%
 
 * **上传资源**：使用 Adobe Experience Manager Assets Essentials 管理资源和图像。[了解更多信息](assets-essentials.md)
 
-<!--* **Define audience**: create segments, create events, manage consent and privacy. [Read more](audiences.md)-->
+* **添加选件**:使用Journey Optimizer决策管理在您的消息中添加个性化优惠。[了解更多信息](../using/offers/get-started/starting-offer-decisioning.md)
+
+* **定义受众**:创建区段、创建事件、管理同意和隐私。[了解更多信息](../using/segment/about-segments.md)
 
 * **创建历程**：发送消息，利用背景数据，优化受众，设计和执行多步骤用例。[了解更多信息](building-journeys/journey.md)
 
