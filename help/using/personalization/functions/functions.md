@@ -5,7 +5,7 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 
 
 # 模板语言和帮助程序函数 {#functionsL}
-
-![](../../assets/do-not-localize/badge.png)
 
 使用[!DNL Journey Optimizer]模板语言对数据执行操作，如计算、数据格式或转化、条件等，并在个性化上下文中处理它们。 了解[本页](../personalization-syntax.md)中的个性化语法准则。
 
