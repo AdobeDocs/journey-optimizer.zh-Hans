@@ -5,18 +5,16 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 7%
 
 ---
 
 # journeyStep 事件数据提取字段 {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合将由journeyStepEvent和journeyStepProfileEvent共享。
+此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
 
 在步骤处理期间，我们可以在字段组上获取N个数据。
 
