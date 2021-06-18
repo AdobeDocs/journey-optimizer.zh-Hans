@@ -6,23 +6,21 @@ feature: 操作
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '588'
 ht-degree: 9%
 
 ---
 
 # 配置操作 {#configure-an-action}
 
-![](../assets/do-not-localize/badge.png)
-
 如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程左侧面板的&#x200B;**[!UICONTROL Action]**&#x200B;类别中可用（请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)）。 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
 [此页面](../building-journeys/limitations.md)中列出了限制。
 
 以下是配置自定义操作所需的主要步骤：
 
-1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;列表中，单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新操作。 操作配置窗格将在屏幕右侧打开。
+1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。 单击&#x200B;**[!UICONTROL Create Action]**&#x200B;以创建新操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](../assets/custom2.png)
 
@@ -36,7 +34,7 @@ ht-degree: 9%
 1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。 您可以单击&#x200B;**[!UICONTROL View journeys]**&#x200B;按钮以显示使用此操作的历程列表。
 1. 定义不同的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
 1. 配置&#x200B;**[!UICONTROL Authentication]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定义&#x200B;**[!UICONTROL Message parameters]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 定义&#x200B;**[!UICONTROL Action parameters]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击 **[!UICONTROL Save]**。
 
    自定义操作现已配置完成，可随时用于您的历程。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
@@ -58,7 +56,7 @@ ht-degree: 9%
    >出于安全原因，我们强烈建议使用 HTTPS。我们不允许使用非公共的Adobe地址和IP地址。
 
 1. 选择&#x200B;**[!UICONTROL Method]**&#x200B;调用：它可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
-1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add a header field]**&#x200B;以定义新的键/值对。 它们与向外部服务发出的请求的HTTP标头相对应。 要删除键/值对，请将光标放在&#x200B;**[!UICONTROL Headers]**&#x200B;字段上，然后单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标。
+1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add a header field]**&#x200B;以定义新的键/值对。 它们与向外部服务发出的请求的HTTP标头相对应。 要删除键/值对，请将光标放在标题字段上，然后单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标。
 
    **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 默认设置，无法删除或覆盖。
 
@@ -66,11 +64,11 @@ ht-degree: 9%
    >
    >将根据以下[解析规则](https://tools.ietf.org/html/rfc7230#section-3.2.4)验证标头。
 
-## 定义消息参数{#define-the-message-parameters}
+## 定义操作参数{#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
-在&#x200B;**[!UICONTROL Message parameters]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。
+在&#x200B;**[!UICONTROL Action parameters]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。
 
 ![](../assets/customactionpayloadmessage.png)
 
