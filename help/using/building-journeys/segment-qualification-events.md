@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 85%
+source-wordcount: '791'
+ht-degree: 80%
 
 ---
 
-# 区段鉴别事件 {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
+# 区段鉴别事件{#segment-qualification}
 
 ## 关于客户细分资格事件{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ ht-degree: 85%
 >如果对所选客户细分进行流式处理，则属于此客户细分的个人可能会实时进入该历程。如果区段是批处理，则新近符合此区段资格的人员可能将在Adobe Experience Platform上执行区段计算时进入历程。
 
 
-1. 展开&#x200B;**[!UICONTROL Events]**&#x200B;类别并将&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活动放入画布中。
+1. 展开&#x200B;**[!UICONTROL Events]**&#x200B;类别并将&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动放入画布中。
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ ht-degree: 85%
 * 资格时间戳
 * 客户细分 ID
 
-在&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活动后的条件或操作中使用表达式编辑器时，您有权访问&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;节点。您可以选择&#x200B;**[!UICONTROL Last qualification time]**&#x200B;或&#x200B;**[!UICONTROL status]**（进入或退出）。
+在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动后的条件或操作中使用表达式编辑器时，您有权访问&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;节点。您可以选择&#x200B;**[!UICONTROL Last qualification time]**&#x200B;或&#x200B;**[!UICONTROL status]**（进入或退出）。
 
 请参阅[条件活动](../building-journeys/condition-activity.md#about_condition)。
 
 ![](../assets/segment8.png)
+
+包含区段鉴别事件的新历程在您发布后10分钟内可运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待十分钟，才能使用此历程。
 
 ## 最佳实践 {#best-practices-segments}
 
