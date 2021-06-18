@@ -5,17 +5,15 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
 
 
 # 个性化语法 {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]中的个性化基于名为Handlebars的模板语法。
 有关Handlebars语法的完整说明，请参阅[HandlebarsJS文档](https://handlebarsjs.com/)。
@@ -24,14 +22,12 @@ ht-degree: 5%
 
 简单表达式示例：
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 其中：
 
-* **** 配置文件是命名空间。
-* **person.** name是由属性组成的令牌。属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+* `profile` 是命名空间。
+* `person.name` 是由属性组成的令牌。属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
 ## 语法常规规则
 
@@ -59,15 +55,19 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 **示例引用：**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## 区段{#perso-segments}
 
@@ -84,20 +84,18 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 此路径具有以下结构：
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 其中：
 
 * `offers` 标识属于选件命名空间的路径表达式
 * `Type`  确定选件表示的类型。可能的值包括：`image`、`html`和`text`
 * `Placement Id` 和是 `Activity Id` 放置和活动标识符
-* `Attributes` 是选件特定的属性，取决于选件类型。示例：`deliveryUrl`。
+* `Attributes` 是选件特定的属性，取决于选件类型。示例：`deliveryUrl`
 
 有关决策API和选件表示法的详细信息，请参阅[此页面](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-所有引用都将通过[此页面](personalization-validation.md)中描述的验证机制，针对选件架构进行验证。
+所有引用都将通过[此页面](personalization-validation.md)中描述的验证机制，针对选件架构进行验证
 
 **示例引用：**
 
