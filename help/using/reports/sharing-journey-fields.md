@@ -5,18 +5,16 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '71'
 ht-degree: 28%
 
 ---
 
 # 历程字段 {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-此混合用于历程架构（与journeyStepEvent相关）。 它包含以下字段：
+此字段组用在历程架构中（与journeyStepEvent相关）。 它包含以下字段：
 
 ## journeyID
 
