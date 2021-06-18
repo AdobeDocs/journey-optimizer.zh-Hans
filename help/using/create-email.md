@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # 创建电子邮件 {#configure-email}
-
-![](assets/do-not-localize/badge.png)
 
 创建消息[后，使用&#x200B;**[!UICONTROL Email]**&#x200B;选项卡定义电子邮件渠道的设置和内容。](create-message.md)
 
@@ -26,7 +24,7 @@ ht-degree: 7%
 
 配置电子邮件的步骤如下所示：
 
-1. 为活动指定 **[!UICONTROL Email subject]**。为此，请单击右侧的按钮以打开表达式编辑器并撰写电子邮件主题。 了解如何在[此部分](personalization/personalization-aeras.md)中添加个性化
+1. 为活动指定 **[!UICONTROL Email subject]**。为此，请单击右侧的按钮以打开表达式编辑器并撰写电子邮件主题。 了解如何在[此部分](personalization/personalize.md)中添加个性化
 
 1. 单击&#x200B;**[!UICONTROL Email Designer]**&#x200B;按钮以设计电子邮件。 了解如何在[此部分](design-emails.md)中设计电子邮件。
 
