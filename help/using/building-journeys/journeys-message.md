@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
 
 # 在历程中添加消息
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] 消息功能是内置的，您只需设计内容并发布消息即可。请参阅[此小节](../get-started-content.md)。然后，您只需在历程中添加使用Journey Optimizer设计的推送或电子邮件消息即可。
 
@@ -38,7 +36,7 @@ ht-degree: 3%
 
    ![](../assets/jo-message3.png)
 
-1. 选择消息并单击&#x200B;**选择**。 您也可以通过单击&#x200B;**新建**，直接从此屏幕创建新消息。
+1. 选择消息并单击&#x200B;**选择**。 您还可以通过单击&#x200B;**创建消息**，直接从此屏幕创建新消息。
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ ht-degree: 3%
 
 1. 向历程中添加后续步骤。
 
-## 渠道参数
+## 电子邮件参数和推送参数
 
-将显示&#x200B;**Channel**&#x200B;参数。 这些字段为只读字段。 此配置在创建消息时执行。 请参阅[此小节](../get-started-content.md)。
+**[!UICONTROL Email parameters]**&#x200B;和&#x200B;**[!UICONTROL Push parameters]**&#x200B;部分显示只读字段。 通常在创建消息时执行此配置。 请参阅[此小节](../get-started-content.md)。
 
 ![](../assets/jo-message4.png)
 
-您可以使用字段右侧的&#x200B;**启用编辑字段**&#x200B;图标强制使用特定值。 这可用于测试目的。 例如，对于电子邮件，您可以添加电子邮件地址。 发布历程时，将向您发送电子邮件。
+要强制使用特定值，可以使用字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标。 此选项可用于测试目的。 例如，对于电子邮件，您可以添加电子邮件地址。 发布历程后，将向您发送电子邮件。
