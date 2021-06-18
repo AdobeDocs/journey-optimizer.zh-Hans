@@ -5,7 +5,7 @@ feature: 数据源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 外部数据源 {#concept_t2s_kqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
@@ -31,7 +29,7 @@ ht-degree: 100%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击 **[!UICONTROL Add]**&#x200B;以创建新的外部数据源。
+1. 在数据源列表中，单击 **[!UICONTROL Create Data Source]**&#x200B;以创建新的外部数据源。
 
    ![](../assets/journey25.png)
 
@@ -58,8 +56,8 @@ ht-degree: 100%
 
 
    * **[!UICONTROL Type]**：“API 密钥”
-   * **[!UICONTROL Value]**：“1234”（这是 API 密钥值）
    * **[!UICONTROL Name]**：“appid”（这是 API 密钥参数名称）
+   * **[!UICONTROL Value]**：“1234”（这是 API 密钥值）
    * **[!UICONTROL Location]**：“查询参数”（API 密钥位于 URL 中）
 
    ![](../assets/journey28.png)
@@ -71,8 +69,8 @@ ht-degree: 100%
 * **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
 * **[!UICONTROL Cache duration]**：在我们的示例中，我们希望天气能缓存 10 分钟。
-* **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)。
+* **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
 如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。如果是 POST 调用，您需要：
