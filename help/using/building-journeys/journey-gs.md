@@ -5,16 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 8%
+source-wordcount: '1703'
+ht-degree: 7%
 
 ---
 
 # 历程入门{#jo-quick-start}
-
-![](../assets/do-not-localize/badge.png)
 
 ## 先决条件
 
@@ -22,7 +20,7 @@ ht-degree: 8%
 
 1. **配置事件**:如果要在收到事件后一直触发历程，则需要配置事件。您可以定义预期信息以及处理方式。 此步骤由&#x200B;**技术用户**&#x200B;执行。[了解更多信息](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **创建区段**:您的历程还可以监听Adobe Experience Platform区段，以便将消息批量发送到一组指定的用户档案。为此，您需要创建区段。 [了解更多信息](../segment/about-segments.md).
 
@@ -42,11 +40,11 @@ ht-degree: 8%
 
 以下是通过历程发送消息的主要步骤：
 
-1. 在历程管理部分，单击&#x200B;**[!UICONTROL Journeys]**。 将显示历程列表。
+1. 在“历程管理”菜单部分，单击&#x200B;**[!UICONTROL Journeys]**。 将显示历程列表。
 
    ![](../assets/interface-journeys.png)
 
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建新历程。
+1. 单击&#x200B;**[!UICONTROL Create Journey]**&#x200B;以创建新历程。
 
 1. 编辑右侧显示的配置窗格中的历程属性。在此[部分](journey-gs.md#change-properties)中了解详情。
 
@@ -82,7 +80,7 @@ ht-degree: 8%
 
 默认情况下，新历程允许重新进入。 您可以取消选中“一次性”历程的选项，例如，如果您希望在某人进入商店时提供一次性礼品。 在这种情况下，您不希望客户能够重新进入历程并再次接收选件。
 
-当历程“结束”时，其状态为&#x200B;**[!UICONTROL Closed (no entrance)]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。
+当历程“结束”时，其状态为&#x200B;**[!UICONTROL Closed]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。
 
 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 
@@ -114,6 +112,32 @@ ht-degree: 8%
 
 有关时区管理的更多信息，请参阅[此页面](../building-journeys/timezone-management.md)。
 
+### 突发模式 {#burst}
+
+拆分模式是一个付费的附加组件，它允许以非常快的速度发送大量推送消息。 它用于包括读取区段和简单推送消息的简单历程。 当消息投放的延迟对业务至关重要时，如果您想在手机上发送紧急推送警报（例如，向已安装您的新闻渠道应用程序的用户发送突发新闻），则会使用Burst。
+
+限制:
+
+* 历程必须以读取区段开头。 不允许发生事件。
+* 下一步必须是推送消息。 不允许执行其他活动或步骤（可选的结束活动除外）：
+   * 仅推送渠道
+   * 消息中不允许进行个性化
+   * 消息必须小(&lt;2KB)
+
+重要说明：
+
+如果任何要求未满足，则历程中将不提供拆分模式。
+
+要激活突发模式，请打开您的历程并单击右上方的铅笔图标以访问历程的属性。 然后，激活&#x200B;**启用突发模式**&#x200B;切换开关。
+
+![](../assets/burst.png)
+
+如果您修改拆分历程并添加与拆分不兼容的活动（消息、任何其他操作、事件等），则将停用拆分模式。 将显示一条消息。
+
+![](../assets/burst2.png)
+
+然后，正常测试和发布您的历程。 测试模式消息不会通过拆分模式发送。
+
 ## 结束旅程
 
 历程可能会因为以下两个原因而终止：
@@ -129,7 +153,7 @@ ht-degree: 8%
 * 基于一次性区段的历程，已完成执行。
 * 在上次发生基于定期区段的历程之后。
 
-当历程关闭（出于上述任何原因）时，其状态将为&#x200B;**[!UICONTROL Closed (no entrance)]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
+当历程关闭（出于上述任何原因）时，其状态将为&#x200B;**[!UICONTROL Closed]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 
 如果您需要阻止历程中所有个人的进度，则可以阻止该进度。 停止历程将超时历程中的所有个人。
 
@@ -145,13 +169,13 @@ ht-degree: 8%
 
 您可以手动关闭历程，以确保已进入历程的客户能够完成其路径，但新用户无法进入历程。
 
-关闭后，历程的状态将为&#x200B;**[!UICONTROL Closed (no entrance)]**。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
+关闭后，历程的状态将为&#x200B;**[!UICONTROL Closed]**。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 
 无法重新启动或删除已关闭的历程版本。 您可以创建新版本或复制该版本。 只能删除已完成的历程。
 
-您可以在将鼠标悬停在历程列表中的历程上时单击&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;来关闭历程。
+要从历程列表关闭历程，请单击位于历程名称右侧的&#x200B;**[!UICONTROL Ellipsis]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL Close to new entrances]**。
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 您还可以：
 
@@ -171,9 +195,9 @@ ht-degree: 8%
 
 停止后，历程的状态将为&#x200B;**[!UICONTROL Stopped]**。
 
-在将鼠标悬停在历程列表中的历程上时，单击&#x200B;**[!UICONTROL Stop]**，可以停止历程（例如，如果营销人员意识到历程定向了错误的受众或理应交付消息的自定义操作无法正常工作……）。
+例如，如果营销人员意识到历程定向了错误的受众，或者用于传递消息的自定义操作无法正常工作，则可以停止历程。 要从历程列表中停止历程，请单击历程名称右侧的&#x200B;**[!UICONTROL Ellipsis]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL Stop]**。
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 您还可以：
 
