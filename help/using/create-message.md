@@ -5,9 +5,9 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->每个用户都可以访问、创建、编辑和发布消息。 在此部分](../using/administration/permissions.md)中了解有关用户权限[的更多信息。
+>用户可以访问、创建、编辑和/或发布消息，具体取决于其产品配置文件。 在此部分](../using/administration/permissions.md)中了解有关用户权限[的更多信息。
 
 ![](assets/messages-list.png)
 
