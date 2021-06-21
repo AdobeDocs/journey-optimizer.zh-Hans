@@ -6,13 +6,13 @@ topic: 内容管理
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Adobe Journey Optimizer文档{#cjm-documentation}
+# Adobe Journey Optimizer 文档 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -27,11 +27,11 @@ ht-degree: 81%
 
 * [创建您的第一个历程](using/building-journeys/journeys-uc.md) </br>了解如何构建和执行历程
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>配置了解配置Journey Optimizer的关键步骤
+* [配置  [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>了解配置 Journey Optimizer 的关键步骤
 
-* [授予访 [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> 问权限了解如何定义和管理分配给用户的 [!DNL Journey Optimizer] 权限
+* [授予  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) 访问权限</br>了解如何定义和管理分配给 [!DNL Journey Optimizer] 用户的权限
 
-* [决策管理](using/offers/get-started/starting-offer-decisioning.md) </br>创建优惠，为客户提供最佳优惠和体验
+* [决策管理](using/offers/get-started/starting-offer-decisioning.md) </br>创建优惠并为客户提供最佳优惠和体验
 
 ## 其他资源
 
