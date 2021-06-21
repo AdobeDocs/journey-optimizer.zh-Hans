@@ -2,17 +2,17 @@
 title: 推送通知配置
 description: 了解如何配置环境以通过Journey Optimizer发送推送通知
 feature: 应用程序设置
-topic: 管理
+topic: 推送
 role: Administrator
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '1435'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 配置推送通知渠道{#push-notification-configuration}
+# 配置推送通知渠道 {#push-notification-configuration}
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。在开始使用[!DNL Journey Optimizer]发送推送通知之前，您需要确保在移动设备应用程序上以及在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中配置和集成就位。 要了解Adobe历程优化程序中的推送通知数据流，请参阅[此页面](push-gs.md)。
 
