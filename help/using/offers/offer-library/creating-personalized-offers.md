@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ![](../../assets/offers_list.png)
 
-## 创建选件{#create-offer}
+## 创建选件 {#create-offer}
 
 要创建&#x200B;**选件**，请执行以下步骤：
 
@@ -98,7 +98,7 @@ ht-degree: 4%
 
    ![](../../assets/offer_rule.png)
 
-1. 如果用户符合多个选件的条件，则定义选件的&#x200B;**[!UICONTROL Priority]**&#x200B;与其他选件相比。 选件的优先级最高，与其他选件相比，其优先级最高。
+1. 如果用户符合多个选件的条件，则定义选件的&#x200B;**[!UICONTROL Priority]**&#x200B;与其他选件相比。 优惠的优先级越高，与其他选件相比，优先级越高。
 
 1. 指定选件的&#x200B;**[!UICONTROL Capping]**，这表示该选件在所有用户中的显示总次数。 如果已在所有用户中按您在此字段中指定的次数交付选件，则其交付将停止。
 
