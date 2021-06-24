@@ -12,9 +12,9 @@ ht-degree: 52%
 
 ---
 
-# 快速入门 {#cjm-quick-start}
+# 入门 {#cjm-quick-start}
 
-## 开始的关键步骤 {#cjm-key-steps}
+## 开始使用的关键步骤 {#cjm-key-steps}
 
 借助[!DNL Adobe Journey Optimizer]，您可以导入现有消息内容或设计新内容、使用客户用户档案数据个性化消息、创建事件以触发消息、定义区段和优化受众、发送多渠道消息、创建和添加选件，以及访问整套报告和监控工具以衡量消息和客户历程的影响。
 
