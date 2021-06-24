@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
 * [个性化优惠](../offer-library/creating-personalized-offers.md)
 * [后备优惠](../offer-library/creating-fallback-offers.md)
 
-## 创建决策{#create-activity}
+## 创建决策 {#create-activity}
 
 1. 访问决策列表，然后单击&#x200B;**[!UICONTROL Create activity]**。
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 添加优惠 {#add-offers}
+## 添加优惠  {#add-offers}
 
 1. 从列表中拖放版面以将其添加到决策中，然后单击&#x200B;**[!UICONTROL Add collection]**。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
    ![](../../assets/activity_constraint_rule.png)
 
-## 添加后备优惠{#add-fallback}
+## 添加后备优惠 {#add-fallback}
 
 选择将作为最后手段向不符合选件资格规则和限制的客户显示的备用选件，然后单击&#x200B;**[!UICONTROL Next]**。
 
