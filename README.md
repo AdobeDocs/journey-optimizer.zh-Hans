@@ -1,16 +1,16 @@
 ---
 source-git-commit: 9e97178e45f36745ec6155e163918c1265600890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '45'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 # journey-optimizer.en
 
 Journey Optimizer 产品文档
 
-AdobeJourney Optimizer是一个灵活且可扩展的应用程序，用于创建和及时提供个性化、连接且可靠的
-客户体验。
+Adobe Journey Optimizer 是一款灵活的、可扩展的应用程序，能够创建并提供
+贴心且及时的个性化客户体验，可用于任意应用程序、设备或渠道中。
 
 主题：
 
@@ -18,7 +18,7 @@ AdobeJourney Optimizer是一个灵活且可扩展的应用程序，用于创建�
 * 消息
 * 区段
 * 历程
-* 报表
-* offer decisioning/决策管理
+* 报告
+* Offer Decisioning / 决策管理
 * 配置准则
 * 访问控制
