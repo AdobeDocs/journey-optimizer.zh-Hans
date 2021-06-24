@@ -5,7 +5,7 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 1%
@@ -26,15 +26,15 @@ ht-degree: 1%
 
 历程&#x200B;**[!UICONTROL Live report]**&#x200B;分为不同的小组件，用于详细描述历程的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](live-report.md#modify-dashboard)。
 
-## 历程选项卡{#journey-live}
+## 历程选项卡 {#journey-live}
 
 在历程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Journey]**&#x200B;选项卡可以清晰地显示有关历程最重要的跟踪数据。
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Journey`s performance]** 允许您分步查看目标用户档案在历程中的路径。
+**[!UICONTROL Journey Performance]** 允许您分步查看目标用户档案在历程中的路径。
 
-**[!UICONTROL Journey`s statistics]**&#x200B;小组件显示以下KPI:
+**[!UICONTROL Journey Statistics]**&#x200B;小组件显示以下KPI:
 
 * **[!UICONTROL Entered profiles]**:到达历程的登入事件的个人总数。
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Error in action]**:操作发生的错误总数。
 
-## 电子邮件选项卡{#email-live}
+## “电子邮件”选项卡 {#email-live}
 
 在您的历程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Email]**&#x200B;选项卡详细介绍了与在历程中发送的电子邮件投放相关的主要信息。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 **[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
 
-## 推送选项卡{#push-live}
+## “推送”选项卡 {#push-live}
 
 在您的历程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Push]**&#x200B;选项卡详细介绍了与在历程中发送的推送投放相关的主要信息。
 
