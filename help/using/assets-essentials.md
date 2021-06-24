@@ -5,16 +5,16 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
 
 ---
 
-# 使用 [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# 使用 [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
-## 开始使用 [!DNL Assets Essentials]{#get-started-assets-essentials}
+## 开始使用 [!DNL Assets Essentials] {#get-started-assets-essentials}
 
 [!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。它可以直接从[!DNL Adobe Journey Optimizer]访问到&#x200B;**[!UICONTROL Assets]**&#x200B;部分。 在设计电子邮件内容时，您还可以访问资产和文件夹。 [进一步了解电子邮件设计](design-emails.md)。
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 要上传[!DNL Assets Essentials]中的文件，您首先需要浏览或创建将存储到其中的文件夹。 然后，您便能够将它们插入到电子邮件内容中。
 
-有关如何上传资产的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html)。
+有关如何上传资产的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html)。
 
 1. 从[!DNL Adobe Journey Optimizer]主页中，选择&#x200B;**[!UICONTROL Content management]**&#x200B;菜单下的&#x200B;**[!UICONTROL Assets]**&#x200B;选项卡以访问[!DNL Assets Essentials]。
 
