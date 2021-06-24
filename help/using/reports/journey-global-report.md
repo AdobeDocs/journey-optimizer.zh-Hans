@@ -5,14 +5,14 @@ feature: 报表
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 历程全局报告{#journey-global-report}
+# 历程全局报告 {#journey-global-report}
 
 历程全局报告可通过&#x200B;**[!UICONTROL Global report]**&#x200B;按钮直接从历程访问。
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 历程&#x200B;**[!UICONTROL Global report]**&#x200B;分为不同的小组件，用于详细描述历程的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](global-report.md#modify-dashboard)。
 
-## 历程选项卡{#journey-global}
+## 历程选项卡 {#journey-global}
 
 在历程&#x200B;**[!UICONTROL Global report]**&#x200B;中， **[!UICONTROL Journey]**&#x200B;选项卡可以清晰地显示有关历程最重要的跟踪数据。
 
 ![](../assets/global_report_2.png)
 
-**[!UICONTROL Journey`s performance]**&#x200B;小组件允许您逐步查看目标用户档案在历程中的路径。
+**[!UICONTROL Journey Performance]**&#x200B;小组件允许您逐步查看目标用户档案在历程中的路径。
 
-**[!UICONTROL Journey`s statistics]**&#x200B;小组件显示以下KPI:
+**[!UICONTROL Journey Statistics]**&#x200B;小组件显示以下KPI:
 
 * **[!UICONTROL Entered profiles]**:到达历程的登入事件的个人总数。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Error in action]**:发生的错误总数。  **[!UICONTROL Actions]**
 
-## 电子邮件选项卡{#email-global}
+## “电子邮件”选项卡 {#email-global}
 
 在您的历程&#x200B;**[!UICONTROL Global report]**&#x200B;中， **[!UICONTROL Email]**&#x200B;选项卡详细介绍了与在历程中发送的电子邮件投放相关的主要信息。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email - Top recipient domain]**&#x200B;图表和表格详细列出了收件人最常用于打开电子邮件的域。
 
-## 推送选项卡{#push-global}
+## “推送”选项卡 {#push-global}
 
 在您的历程&#x200B;**[!UICONTROL Global report]**&#x200B;中， **[!UICONTROL Push]**&#x200B;选项卡详细介绍了与在历程中发送的推送投放相关的主要信息。
 
