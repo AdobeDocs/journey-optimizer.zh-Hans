@@ -29,7 +29,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
 * The third category is the capability to offer subscription to recipients (newsletter, etc)-->
 
-## 选择退出管理{#opt-out-management}
+## 选择退出管理 {#opt-out-management}
 
 向收件人提供取消从品牌接收通信的功能是一项法律要求。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations)中进一步了解适用的法规。
 
@@ -87,7 +87,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## 选择退出时的 API 调用{#opt-out-api}
+## 选择退出时的 API 调用 {#opt-out-api}
 
 收件人通过单击取消订阅链接选择退出后，将调用 Adobe I/O API <!--Consent service API to capture the encrypted data and-->以更新相应用户档案的偏好设置。
 
@@ -129,7 +129,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## 标题{#unsubscribe-email}中的取消订阅链接
+## 标题中的取消订阅链接 {#unsubscribe-email}
 
 如果收件人的电子邮件客户端支持在电子邮件标题中显示取消订阅链接，则随[!DNL Journey Optimizer]一起发送的电子邮件会自动包含此链接。
 
@@ -143,7 +143,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 * 它与单击电子邮件内容的取消订阅链接具有相同的效果：收件人将被重定向到包含确认选择退出的按钮的登陆页面。 在[此部分](#opt-out-management)中了解有关选择退出管理的更多信息。
 
-## 推送退出管理{#push-opt-out-management}
+## 推送退出管理 {#push-opt-out-management}
 
 推送收件人可以通过其设备取消订阅。
 
