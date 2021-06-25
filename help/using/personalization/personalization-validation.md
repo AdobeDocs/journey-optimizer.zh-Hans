@@ -5,9 +5,9 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 2%
 
 ## 验证机制
 
-在表达式编辑器屏幕中， **Validate**&#x200B;按钮允许您验证个性化语法。
+在&#x200B;**表达式编辑器**&#x200B;屏幕中，使用&#x200B;**验证**&#x200B;按钮检查您的个性化语法。
 
 >[!NOTE]
-> 单击&#x200B;**Add**&#x200B;以关闭编辑器窗口时，将自动执行验证。
+> 单击&#x200B;**Add**&#x200B;按钮以关闭编辑器窗口时，将自动执行验证。
 
 
 ![](assets/perso_validation1.png)
@@ -69,7 +69,7 @@ Handlebars表达式被&#x200B;**{{expression}}**&#x200B;包围
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### 与选件相关的特定错误
+## 与选件相关的特定错误
 
 与电子邮件或推送消息中的选件集成相关的错误具有以下模式：
 
