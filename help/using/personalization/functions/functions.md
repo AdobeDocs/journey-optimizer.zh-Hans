@@ -5,21 +5,25 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
 
 
-# 模板语言和帮助程序函数 {#functionsL}
+# 帮助程序函数库{#functionsL}
 
 使用[!DNL Journey Optimizer]模板语言对数据执行操作，如计算、数据格式或转化、条件等，并在个性化上下文中处理它们。 了解[本页](../personalization-syntax.md)中的个性化语法准则。
+
+[!DNL :arrow_forward:] [了解如何在视频中使用帮助程序函数](#video)
 
 模板语言在表达式编辑器的个性化下拉列表中提供的帮助程序函数中使用，如下所示：
 
 ![](../assets/access-helper-functions.png)
+
+
 
 在[!DNL Journey Optimizer]表达式编辑器中，帮助程序函数分为三类：[函数](#functions-helper)、[Helpers](#helper-helper)和[运算符](#operators-helper)。
 
@@ -189,7 +193,7 @@ ht-degree: 2%
 </table>
 
 
-## Helpers{#helper-helper}
+## 辅助程序{#helper-helper}
 
 [本页](helpers.md)中详细介绍了帮助程序。
 
@@ -214,7 +218,7 @@ ht-degree: 2%
 
 ## 操作员{#operators-helper}
 
-### 算术函数{#arithmetic-helper}
+### 算术函数 {#arithmetic-helper}
 
 算术函数用于对值执行基本计算。
 
@@ -279,3 +283,8 @@ ht-degree: 2%
     </tr>
 </table>
 
+## 操作方法视频{#video}
+
+了解如何使用个性化帮助程序函数转换个性化值，并了解帮助程序函数的不同用例。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
