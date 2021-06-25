@@ -5,18 +5,16 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
 
 # 添加个性化优惠 {#deliver-personalized-offers}
 
-## 关于决策管理 {#about-offer-decisioning}
-
-借助[!DNL Journey Optimizer]，您可以在电子邮件中插入决策（以前称为选件活动），以便利用选件决策引擎来选择要交付给客户的最佳选件。
+在[!DNL Journey Optimizer]电子邮件中，您可以插入决策（以前称为“选件活动”），以便利用选件决策引擎来选择要交付给客户的最佳选件。
 
 例如，您可以添加一个决策，该决策会在电子邮件中显示一个特殊折扣选件，该选件将因收件人的忠诚度级别而异。
 
@@ -25,11 +23,11 @@ ht-degree: 2%
 有关&#x200B;**完整的端到端示例**，其中显示了如何配置选件，在决策中使用这些选件并在电子邮件中利用此决策，请参阅[此部分](offers/offers-e2e.md#insert-decision-in-email)。
 
 
-## 在电子邮件{#insert-offers}中插入决策
+## 在电子邮件中插入决策 {#insert-offers}
 
 >[!CAUTION]
 >
->您需要先定义选件决策。 了解如何在[此部分](offers/offer-activities/create-offer-activities.md)中创建决策。
+>在开始之前，您必须[定义选件决策](offers/offer-activities/create-offer-activities.md)。
 
 要在电子邮件中插入决策，请执行以下步骤：
 
@@ -60,7 +58,7 @@ ht-degree: 2%
 选件活动现已添加到组件中。
 
 
-## 预览电子邮件{#preview-offers-in-email}中的选件
+## 在电子邮件中预览选件 {#preview-offers-in-email}
 
 您可以使用&#x200B;**[!UICONTROL Offers]**&#x200B;部分或内容组件箭头预览添加到电子邮件中的决策所包含的不同选件。
 
