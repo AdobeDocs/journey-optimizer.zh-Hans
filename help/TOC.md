@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,32 @@ ht-degree: 100%
       + [创建电子邮件](using/create-email.md)
       + [创建推送通知](using/create-push.md)
    + [添加和管理资产](using/assets-essentials.md)
-   + 电子邮件设计器 {#email-designer}
+   + 设计电子邮件 {#email-designer}
       + [电子邮件设计入门](using/design-emails.md)
       + [在 UI 中设计电子邮件内容](using/create-email-content.md)
       + [导入或编码电子邮件内容](using/existing-content.md)
       + [使用电子邮件设计器内容组件](using/content-components.md)
-   + 个性化{#personalization}
-      + [入门个性化](using/personalization/personalize.md)
-      + [个性化语法](using/personalization/personalization-syntax.md)
-      + [个性化验证](using/personalization/personalization-validation.md)
-      + [个性化使用案例](using/personalization/personalization-use-case.md)
-      + 辅助函数{#functions}
-         + [辅助函数列表](using/personalization/functions/functions.md)
-         + [聚合函数](using/personalization/functions/aggregation.md)
-         + [算术函数](using/personalization/functions/arithmetic-functions.md)
-         + [数组和列表函数](using/personalization/functions/arrays-list.md)
-         + [布尔和比较函数](using/personalization/functions/operators.md)
-         + [辅助程序](using/personalization/functions/helpers.md)
-         + [映射函数](using/personalization/functions/maps.md)
-         + [目标函数](using/personalization/functions/objects.md)
-         + [字符串函数](using/personalization/functions/string.md)
-   + [添加个性化优惠](using/deliver-personalized-offers.md)
    + 验证并发布 {#create-message}
       + [预览和证明](using/preview.md)
       + [检查警报](using/alerts.md)
       + [发布消息](using/publish-manage-message.md)
    + [管理选择退出机制](using/consent.md)
++ 个性化{#personalization}
+   + [入门个性化](using/personalization/personalize.md)
+   + [个性化语法](using/personalization/personalization-syntax.md)
+   + [个性化验证](using/personalization/personalization-validation.md)
+   + [用例：在推送通知中添加个性化](using/personalization/personalization-use-case.md)
+   + 辅助函数{#functions}
+      + [辅助函数列表](using/personalization/functions/functions.md)
+      + [聚合函数](using/personalization/functions/aggregation.md)
+      + [算术函数](using/personalization/functions/arithmetic-functions.md)
+      + [数组和列表函数](using/personalization/functions/arrays-list.md)
+      + [布尔和比较函数](using/personalization/functions/operators.md)
+      + [辅助程序](using/personalization/functions/helpers.md)
+      + [映射函数](using/personalization/functions/maps.md)
+      + [目标函数](using/personalization/functions/objects.md)
+      + [字符串函数](using/personalization/functions/string.md)
+   + [添加个性化优惠](using/deliver-personalized-offers.md)
 + 区段{#segment}
    + [关于区段](using/segment/about-segments.md)
    + [生成区段](using/segment/creating-a-segment.md)
