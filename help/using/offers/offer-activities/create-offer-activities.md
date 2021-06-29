@@ -5,9 +5,9 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,15 @@ ht-degree: 4%
 
    ![](../../assets/activities-name.png)
 
-## 添加优惠  {#add-offers}
+## 添加决策作用域 {#add-decision-scopes}
 
 1. 从列表中拖放版面以将其添加到决策中，然后单击&#x200B;**[!UICONTROL Add collection]**。
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >在决策中可多次选择同一版面。
 
 1. 选择包含要考虑的选件的集合，然后单击&#x200B;**[!UICONTROL Add]**。
 
