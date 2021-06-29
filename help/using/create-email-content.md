@@ -5,14 +5,14 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
-# 在用户界面{#create-email-content}中设计电子邮件内容
+# 在用户界面中设计电子邮件内容 {#create-email-content}
 
 创建[消息](create-message.md)后，即可开始创建电子邮件内容。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_25.png)
 
-## 从头开始设计{#design-scratch}
+## 从头开始设计 {#design-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 您的电子邮件内容现在可用于消息。 [了解如何发送消息](publish-manage-message.md)。
 
-## 创建电子邮件的文本版本{#generate-text-version}
+## 创建电子邮件的文本版本 {#generate-text-version}
 
 建议创建电子邮件正文的文本版本，当HTML内容无法显示时，会使用该文本版本。
 
@@ -175,7 +175,7 @@ ht-degree: 1%
 
 现在，您为电子邮件配置了前标。
 
-## 背景设置{#about-backgrounds}
+## 背景设置 {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
@@ -213,44 +213,65 @@ ht-degree: 1%
 
    您也可以在列级别设置背景图像，但很少使用此方法。
 
-## 调整垂直对齐和内边距{#adjusting-vertical-alignment-and-padding}
+## 调整垂直对齐和内边距 {#adjusting-vertical-alignment-and-padding}
 
-要在由三列组成的结构组件中调整内边距和垂直对齐方式。 为此，请执行以下步骤：
+在此示例中，我们将调整由三列组成的结构组件内的填充和垂直对齐方式。
 
-1. 直接在电子邮件中或使用左侧&#x200B;**Palette**&#x200B;中提供的结构树选择结构组件。
-1. 在&#x200B;**上下文工具栏**&#x200B;中，单击&#x200B;**[!UICONTROL Select a column]**&#x200B;并选择要编辑的工具栏。 也可以从结构树中选择它。
+1. 直接在电子邮件中或使用左侧菜单中的&#x200B;**[!UICONTROL Navigation tree]**&#x200B;选择结构组件。
 
-   该列的可编辑参数显示在右侧的&#x200B;**[!UICONTROL Settings]**&#x200B;窗格中。
+   ![](assets/alignment_1.png)
 
-1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，选择&#x200B;**[!UICONTROL Up]**。
+1. 在工具栏中，单击&#x200B;**[!UICONTROL Select a column]**，然后选择要编辑的。 也可以从结构树中选择它。
 
-   内容组件显示在列顶部。
+   该列的可编辑参数显示在&#x200B;**[!UICONTROL Column settings]**&#x200B;菜单中。
+
+   ![](assets/alignment_2.png)
+
+1. 在&#x200B;**[!UICONTROL Vertical alignment]**&#x200B;下，选择&#x200B;**[!UICONTROL Bottom]**。
+
+   内容组件移至列底部。
+
+   ![](assets/alignment_3.png)
 
 1. 在&#x200B;**[!UICONTROL Padding]**&#x200B;下，定义列内的顶部内边距。 单击锁图标以中断与底部内边距的同步。
 
    定义该列的左边距和右边距。
 
+   ![](assets/alignment_4.png)
+
 1. 以类似方式继续调整其他列的对齐方式和内边距。
 
 1. 保存更改。
 
-## 为链接定义样式{#about-styling-links}
+## 为链接定义样式 {#about-styling-links}
 
 您可以在Email Designer中为链接加下划线并选择其颜色和目标。
 
-1. 在插入链接的组件中，选择链接的标签文本。
+1. 在插入链接的文本&#x200B;**[!UICONTROL Content component]**&#x200B;中，选择您的链接。
 
-1. 在组件设置中，选中&#x200B;**[!UICONTROL Underline link]**&#x200B;可为链接的标签文本添加下划线。
+1. 在&#x200B;**[!UICONTROL Component settings]**&#x200B;菜单中，选中&#x200B;**[!UICONTROL Underline link]**&#x200B;以为链接的标签文本加下划线。
 
-1. 要选择将打开您的链接的浏览上下文，请选择&#x200B;**[!UICONTROL Target]**。
+   ![](assets/link_1.png)
+
+1. 从&#x200B;**[!UICONTROL Target]**&#x200B;下拉列表中选择受众的重定向方式：
+
+   * **[!UICONTROL None]**:在点击链接的同一帧中打开该链接（默认）。
+   * **[!UICONTROL Blank]**:在新窗口或选项卡中打开链接。
+   * **[!UICONTROL Self]**:在点击链接的同一帧中打开该链接。
+   * **[!UICONTROL Parent]**:在父框架中打开链接。
+   * **[!UICONTROL Top]**:在窗口的完整正文中打开链接。
+
+   ![](assets/link_2.png)
 
 1. 要更改链接的颜色，请单击&#x200B;**[!UICONTROL Link color]**。
+
+   ![](assets/link_3.png)
 
 1. 选你需要的颜色。
 
 1. 保存更改。
 
-## 添加内联样式属性{#adding-inline-styling-attributes}
+## 添加内联样式属性 {#adding-inline-styling-attributes}
 
 在Email Designer界面中，当您选择某个元素并在侧面板上显示其设置时，可以自定义该特定元素的内联属性及其值。
 
