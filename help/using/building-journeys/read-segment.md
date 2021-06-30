@@ -5,16 +5,16 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 6%
 
 ---
 
-# 在历程{#segment-trigger-activity}中使用区段
+# 在历程中使用区段 {#segment-trigger-activity}
 
-## 关于读取区段活动{#about-segment-trigger-actvitiy}
+## 关于读取区段活动 {#about-segment-trigger-actvitiy}
 
 利用读取区段活动，可让属于Adobe Experience Platform区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
@@ -22,11 +22,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->无法在1小时以内的较短时间内触发基于区段的历程。
->
 >Burst付费附加组件允许以大量量发送非常快速的推送消息，用于包括读取区段和简单推送消息的简单历程。 有关更多信息，请参见[此部分](../building-journeys/journey-gs.md#burst)
 
-### 配置活动{#configuring-segment-trigger-activity}
+### 配置活动 {#configuring-segment-trigger-activity}
 
 配置读取区段活动的步骤如下所示：
 
@@ -62,7 +60,7 @@ ht-degree: 6%
 
    ![](../assets/read-segment-schedule.png)
 
-   默认情况下，区段进入历程&#x200B;**[!UICONTROL As soon as possible]**，即历程发布后1小时。 如果要使区段在特定日期/时间或定期进入历程，请从列表中选择所需的值。
+   默认情况下，区段会进入历程&#x200B;**[!UICONTROL As soon as possible]**。 如果要使区段在特定日期/时间或定期进入历程，请从列表中选择所需的值。
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ ht-degree: 6%
 测试成功后，您可以发布历程（请参阅[发布历程](publishing-the-journey.md)）。 属于该区段的个人将在历程的属性&#x200B;**[!UICONTROL Scheduler]**&#x200B;部分中指定的日期/时间进入历程。
 
 >[!NOTE]
->
->当执行不重复（“尽快启动”或“一次”）的基于区段的历程时，其状态会自动更改为“已关闭”。
 >
 >对于基于区段的定期历程，一旦执行最后一次事件，历程将自动关闭。 如果未指定结束日期/时间，则必须手动关闭通往新入口的历程才能结束。
 
