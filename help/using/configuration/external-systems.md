@@ -7,14 +7,14 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
+source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
 
-# 与外部系统集成{#external-systems}
+# 与外部系统集成 {#external-systems}
 
 本页介绍Journey Optimizer在集成外部系统时提供的不同防护以及最佳实践：如何使用上限API优化对外部系统的保护，如何配置历程超时以及重试的工作方式。
 
@@ -32,7 +32,11 @@ Journey Optimizer允许您通过自定义数据源和自定义操作配置与外
 
 ## 上限{#capping}
 
-内置上限API提供了上游技术护栏，可帮助保护外部系统。 您需要预先评估外部API的容量。 例如，如果Journey Optimizer每秒发送1000个调用，而您的系统每秒只能支持100个调用，则您需要定义上限规则，以便您的系统不会饱和。
+内置上限API提供了上游技术护栏，可帮助保护外部系统。
+
+对于外部数据源，每秒的最大调用数设置为15。 如果呼叫数超过每秒15次，则会丢弃剩余的呼叫。 您可以提高专用外部数据源的此限制。 联系Adobe以将端点列入白名单。 对于公共外部数据源，这是不可能的。
+
+对于自定义操作，您需要评估外部API的容量。 例如，如果Journey Optimizer每秒发送1000个调用，而您的系统每秒只能支持100个调用，则您需要定义上限规则，以便您的系统不会饱和。
 
 在沙盒级别为特定端点（称为的URL）定义上限规则。 在运行时，Journey Optimizer会验证是否定义了上限规则，并在调用该端点期间应用定义的速率。 如果调用数超过定义的速率，则剩余的调用将被丢弃，并在报告中计为错误。
 
