@@ -5,10 +5,10 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 76%
+source-wordcount: '1193'
+ht-degree: 74%
 
 ---
 
@@ -154,7 +154,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 单击列表左上角的过滤器图标即可访问过滤器。通过使用过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改过的元素。选项因上下文不同而异。
 
-在历程列表中，您可以根据历程的状态和版本从 **[!UICONTROL Status and version filters]** 筛选历程。您可以从 **[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]** 选择仅显示使用特定事件、字段组或操作的历程。**[!UICONTROL Publication filters]** 允许您选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](building-journeys/using-the-journey-designer.md)。
+在历程列表中，您可以根据历程的状态、类型和&#x200B;**[!UICONTROL Status and version filters]**&#x200B;中的版本对历程进行筛选。 类型可以是：**[!UICONTROL Unitary event]**、**[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]**&#x200B;或&#x200B;**[!UICONTROL Burst]**。 您可以从 **[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]** 选择仅显示使用特定事件、字段组或操作的历程。**[!UICONTROL Publication filters]** 允许您选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
