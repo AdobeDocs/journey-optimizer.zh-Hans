@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1724'
 ht-degree: 7%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 7%
 
    ![](../assets/create-content-push.png)
 
-## 构建历程{#jo-build}
+## 构建您的历程{#jo-build}
 
 此步骤由&#x200B;**业务用户**&#x200B;执行。 您可以在此处创建历程。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
@@ -72,7 +72,9 @@ ht-degree: 7%
 
 您可以更改历程名称、添加描述、允许重新进入、选择开始和结束日期，并定义&#x200B;**[!UICONTROL Timeout and error]**&#x200B;持续时间（如果您是管理员）。
 
-**复制技术详细信息**&#x200B;允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息：JourneyVersion UID、OrgID、orgName、sandboxName。
+对于实时历程，此屏幕显示发布日期和发布历程的用户名称。
+
+**复制技术详细信息**&#x200B;允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息：JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt。
 
 ![](../assets/journey32.png)
 
