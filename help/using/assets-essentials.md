@@ -5,16 +5,20 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 2%
+source-wordcount: '371'
+ht-degree: 3%
 
 ---
 
 # 使用 [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## 开始使用 [!DNL Assets Essentials] {#get-started-assets-essentials}
+
+>[!NOTE]
+>
+> 要使用[!DNL Adobe Experience Manager Assets Essentials]，您需要为贵组织部署[!DNL Assets Essentials]，并确保您是&#x200B;**Assets Essentials客户用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 <br> 有关此内容的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)。
 
 [!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。它可以直接从[!DNL Adobe Journey Optimizer]访问到&#x200B;**[!UICONTROL Assets]**&#x200B;部分。 在设计电子邮件内容时，您还可以访问资产和文件夹。 [进一步了解电子邮件设计](design-emails.md)。
 
@@ -44,7 +48,7 @@ ht-degree: 2%
 
    ![](assets/media_library_3.png)
 
-1. 选择要上传的文件。 完成后，单击&#x200B;**[!UICONTROL Upload]**。
+1. 选择要上传的文件。 完成后，单击 **[!UICONTROL Upload]**。
 
    要了解有关如何管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en)。
 
