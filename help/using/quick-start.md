@@ -5,10 +5,10 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 47%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 52%
 在开始使用[!DNL Adobe Journey Optimizer]之前，您需要：
 
 * **设置用户权限**:登录并 [!DNL Adobe Journey Optimizer] 授予您的团队成员访问权限。[了解更多信息](../using/administration/permissions.md)
+
+* **部署[!DNL Adobe Experience Manager Assets Essentials]**:要管理消息中的资产和图像，您需要为贵组 [!DNL Assets Essentials] 织部署，并确保您是Assets Essentials消费者用户 **和** Assets Essentials用户产 **品配置** 文件的一部分。[了解更多信息](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **配置渠道**:定义电子邮件和推送通知设置。[了解更多信息](../using/configuration/get-started-configuration.md)
 
