@@ -5,10 +5,10 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 51%
 
 ---
 
@@ -17,24 +17,132 @@ ht-degree: 100%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 
-## 入门
-
-* [什么是 Journey Optimizer？](using/get-started.md) </br> 了解主要功能以及如何入门
-
-* [设计电子邮件内容](using/design-emails.md) </br>设计新电子邮件或导入现有 HTML 内容
-
-* [发送消息](using/building-journeys/journeys-message.md) </br>了解如何在客户历程中添加推送和电子邮件
-
-* [创建您的第一个历程](using/building-journeys/journeys-uc.md) </br>了解如何构建和执行历程
-
-* [配置  [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>了解配置 Journey Optimizer 的关键步骤
-
-* [授予  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) 访问权限</br>了解如何定义和管理分配给 [!DNL Journey Optimizer] 用户的权限
-
-* [决策管理](using/offers/get-started/starting-offer-decisioning.md) </br>创建优惠并为客户提供最佳优惠和体验
-
-## 其他资源
-
-* [Adobe Experience Platform 指南](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans)
-* [Adobe Experience Platform 访问概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans)
-* [Adobe Experience Platform 开发人员资源](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <div><strong>入门指南</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <div>
+      <a href="using/get-started.md">什么是 Journey Optimizer？</a>
+    </div>
+    <p>了解主要功能以及如何入门
+    <p>
+    <div>
+      <a href="using/design-emails.md">设计电子邮件内容</a>
+    </div>
+    <p>
+    设计新电子邮件或导入现有HTML内容
+    <p>
+    <div>
+      <a href="using/building-journeys/journeys-message.md">发送邮件</a>
+    </div>
+    <p>了解如何在客户历程中添加推送消息和电子邮件消息
+    <p>
+    <div>
+    <a href="using/building-journeys/journeys-uc.md">创建您的第一个历程</a>
+    </div>
+    <p>了解如何构建和执行旅程
+    <p>
+    <div>
+    <a href="using/configuration/get-started-configuration.md">配置[!DNL Journey Optimizer]</a>
+    </div>
+    <p>了解配置[!DNL Journey Optimizer]的关键步骤
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">授予对[!DNL Journey Optimizer]的访问权限</a>
+    </div>
+    <p>了解如何定义和管理分配给[!DNL Journey Optimizer]用户的权限
+    <p>
+    <div>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">决策管理</a>
+    </div>
+    <p>创建选件并为客户提供最佳选件和体验
+    <p>
+    <p>
+    <div><strong>其他资源</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans">Adobe Experience Platform文档</a>
+    </div>
+      <div>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans">Adobe Experience Platform 访问概述</a>
+    </div>
+      <div>
+      <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform 开发人员资源</a>
+    </div>
+  </td>
+   <td>
+   <div><strong>关键资源的直接链接</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <p>历程管理</p>
+    <li>
+      <a href="using/building-journeys/journey-gs.md">历程</a>
+    </li>
+    <li>
+      <a href="using/create-message.md">消息</a>
+    </li>
+    <p>
+    <p>决策管理</p>
+    <li>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">选件</a>
+    </li>
+     <li>
+      <a href="using/offers/offer-library/key-steps.md">组件</a>
+    </li>
+    <p>
+    <p>内容管理</p>
+    <li>
+      <a href="using/assets-essentials.md">资产</a>
+    </li>
+    <p>
+    <p>数据管理</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans">模式 (Schema)</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans">数据集</a>
+    </li>
+        <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=zh-Hans">查询</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans">监控</a>
+    </li>
+    <p>
+    <p>连接</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans">源</a>
+    </li>
+    <p>
+    <p>客户</p>
+    <li>
+      <a href="using/segment/about-segments.md">区段</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans">配置文件</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">身份</a>
+    </li>
+    <p>
+    <p>管理</p>
+    <li>
+      <a href="using/configuration/about-data-sources-events-actions.md">配置</a>
+    </li>
+    <li>
+      <a href="using/configuration/get-started-configuration.md">渠道</a>
+    </li>
+     <li>
+      <a href="using/administration/sandboxes.md">沙盒</a>
+    </li>
+  </td>
+</tr>
+</table>
