@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/previewselect-namespace.png)
 
-   在此部分](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started)中了解有关Adobe Experience Platform身份命名空间[的更多信息。
+   在此部分](get-started-identity.md){target=&quot;_blank&quot;}中了解有关Adobe Experience Platform身份命名空间[的更多信息。
 
    在以下示例中，我们将使用&#x200B;**Email**&#x200B;命名空间。
 
