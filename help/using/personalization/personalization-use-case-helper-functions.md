@@ -5,9 +5,9 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      了解有关[人员名称数据类型](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html)的更多信息。
+      在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}中了解有关人员名称数据类型的更多信息。
 
 6. 单击 **[!UICONTROL Validate]**，然后单击 **[!UICONTROL Save]**。
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 1. 创建其架构包含`productListItems`数组的事件。
 2. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   了解有关[产品列表项数据类型](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html)的更多信息。
+   了解有关[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}中产品列表项数据类型的更多信息。
 
 3. 创建以此事件开始的历程。
 4. 将消息添加到历程。
@@ -328,15 +328,15 @@ ht-degree: 3%
 
 ### Handlebars函数
 
-[辅助程序](functions/helpers.md)
+* [辅助程序](functions/helpers.md)
 
-[字符串函数](functions/string.md)
+* [字符串函数](functions/string.md)
 
 ### 用例
 
-[使用用户档案信息、上下文和选件进行个性化](personalization-use-case.md)
+* [使用用户档案信息、上下文和选件进行个性化](personalization-use-case.md)
 
-[使用基于决策的选件进行个性化](../offers/offers-e2e.md)
+* [使用基于决策的选件进行个性化](../offers/offers-e2e.md)
 
 ## 教程视频{#helper-functions-video}
 
