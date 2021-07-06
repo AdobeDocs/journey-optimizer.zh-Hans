@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 38%
@@ -67,16 +67,24 @@ ht-degree: 38%
     <p>
     <p>
     <div>
+    <li>
       <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer产品说明</a>
+    </li>
     </div>
     <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans">Adobe Experience Platform文档</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans">Adobe Experience Platform 访问概述</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html">Adobe Experience Platform 开发人员资源</a>
+    </li>
     </div>
   </td>
    <td>
