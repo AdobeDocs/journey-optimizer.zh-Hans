@@ -5,9 +5,9 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '825'
 ht-degree: 15%
 
 ---
@@ -76,9 +76,9 @@ ht-degree: 15%
 
    事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
 
-## 定义有效负载字段{#define-the-payload-fields}
+## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL Fields]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
 
@@ -96,7 +96,7 @@ ht-degree: 15%
 
    ![](../assets/journey12-business.png)
 
-## 预览有效负载{#preview-the-payload}
+## 预览有效负载 {#preview-the-payload}
 
 有效负载预览允许您验证有效负载定义。
 
