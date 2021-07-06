@@ -5,14 +5,14 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
 
-# 使用Email Designer内容组件{#content-components}
+# 使用Email Designer内容组件 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 1. 单击&#x200B;**[!UICONTROL Browse]**&#x200B;以从资产中选择图像文件。
 
-   要了解有关[!DNL Assets Essentials]的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html)。
+   要了解有关[!DNL Assets Essentials]的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
 
 1. 单击新添加的组件以开始配置&#x200B;**[!UICONTROL Content Components]**，并有权访问电子邮件设计器右窗格中的&#x200B;**[!UICONTROL Components Settings]**。
 
@@ -176,7 +176,7 @@ ht-degree: 2%
 
 1. 现在，您可以通过更改&#x200B;**[!UICONTROL Style]**、**[!UICONTROL Margin]**&#x200B;和&#x200B;**[!UICONTROL Border]**&#x200B;来进一步个性化社交媒体图标。
 
-## 选件决策{#offer-decision}
+## 选件决策 {#offer-decision}
 
 使用&#x200B;**[!UICONTROL Offer decision]**&#x200B;组件将决策（以前称为选件活动）插入消息中。 决策将利用决策管理来选择最佳选件，以提供给您的客户。
 
