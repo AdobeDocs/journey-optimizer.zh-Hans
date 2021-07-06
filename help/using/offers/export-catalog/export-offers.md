@@ -5,9 +5,9 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2005'
 ht-degree: 3%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 3%
       **字段：** id
       **描述：** 用于引用内容存储库中资产的可选唯一标识符。当使用Platform API检索表示形式时，客户端可能需要额外的属性\&quot;repo:resolveUrl\&quot;来检索资产。
       **类型：**字符串
-      **示例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **示例：** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
@@ -142,7 +142,7 @@ ht-degree: 3%
    * **resolveURL**
 
       **字段：** resolveURL
-      **描述：** 用于在内容存储库中读取资产的可选唯一资源定位器。这样，客户就可以更轻松地获取资产，同时也可以了解资产的管理位置和要调用的API。 这类似于HAL链接，但语义更简单、目的更明确。
+      **描述：** 用于在内容存储库中读取资产的可选唯一资源定位器。这样，客户就无需了解资产的管理位置以及要调用的API，即可更轻松地获取资产。 这类似于HAL链接，但语义更简单、目的更明确。
       **类型：**字符串
       **示例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
@@ -297,7 +297,7 @@ ht-degree: 3%
 
 **字段：** 优先级
 **标题：** 优先级
-**描述：** 单个决策选项相对于所有其他选项的优先级。使用此属性将按优先顺序排列未提供订单函数的选项。 优先级值较高的选项会在优先级较低的选项之前选择。 如果两个或多个合格期权具有最高优先级值，则一个期权以统一随机方式选择并用于决策建议。
+**描述：** 单个决策选项相对于所有其他选项的优先级。使用此属性时，将按优先顺序排列未提供订单函数的选项。 优先级值较高的选项会在优先级较低的选项之前选择。 如果两个或多个合格期权具有最高优先级值，则一个期权以统一随机方式选择并用于决策建议。
 **类型：** 整
 **数最小值：** 0
 **默认值：** 0
