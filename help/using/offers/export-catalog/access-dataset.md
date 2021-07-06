@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 10%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 10%
 
 ![](../../assets/dataset-preview.png)
 
-有关如何浏览和使用数据集的更多信息，请参阅[Adobe Experience Platform数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started)。
+有关如何浏览和使用数据集的更多信息，请参阅[此页面](../../get-started-datasets.md)。
