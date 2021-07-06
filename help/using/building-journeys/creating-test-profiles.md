@@ -5,14 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
 
-# 创建测试用户档案{#create-test-profiles}
+# 创建测试用户档案 {#create-test-profiles}
 
 使用测试模式时需要测试用户档案了解如何在历程中使用[测试模式](../building-journeys/testing-the-journey.md)，以及[预览和测试消息](../preview.md)。
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 * 您可以通过上传[csv文件](#create-test-profiles-csv)或使用[API调用](#create-test-profiles-api)来创建测试用户档案。 除了这两种方法之外，Adobe Journey Optimizer还附带一个特定的[产品内用例](#use-case-1)，以便于创建测试用户档案。
 
-* 您还可以在数据集中上传json文件。 有关更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+* 您还可以在数据集中上传json文件。 有关更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}。
 
-请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
 ## 先决条件 {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->有关模式创建的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
+>有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}。
 
 然后，您需要&#x200B;**创建要导入用户档案的数据集**。 请执行以下步骤：
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 有关数据集创建的更多信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
+> 有关创建数据集的更多信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}。
 
 ## 产品内用例{#use-case-1}
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 需要提供以下信息：
 
-1. **身份命名空间**:用于 [唯](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) 一标识测试用户档案的标识名称。例如，如果使用电子邮件来标识测试用户档案，则应选择身份命名空间&#x200B;**Email**。 如果唯一标识符是电话号码，则应选择身份命名空间&#x200B;**Phone**。
+1. **身份命名空间**:用于 [唯](../get-started-identity.md) 一标识测试用户档案的标识名称。例如，如果使用电子邮件来标识测试用户档案，则应选择身份命名空间&#x200B;**Email**。 如果唯一标识符是电话号码，则应选择身份命名空间&#x200B;**Phone**。
 
 2. **CSV文件**:包含要创建的测试用户档案列表的逗号分隔文件。用例要求CSV文件具有预定义的格式，其中包含要创建的测试用户档案列表。 文件中的每一行应按正确顺序包含以下字段：
 
@@ -143,7 +143,7 @@ ht-degree: 1%
    >
    > 有关&#x200B;**[!UICONTROL Update Profile]**&#x200B;活动的更多信息，请参阅[此部分](../building-journeys/update-profiles.md)。
 
-## 使用csv文件{#create-test-profiles-csv}创建测试用户档案
+## 使用csv文件创建测试用户档案{#create-test-profiles-csv}
 
 在Adobe Experience Platform中，您可以通过将包含不同配置文件字段的csv文件上传到数据集中来创建用户档案。 这是最简单的方法。
 
@@ -171,11 +171,11 @@ ht-degree: 1%
 您的测试用户档案已添加，现在可在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 有关csv导入的更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)。
+> 有关csv导入的更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}。
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
-您还可以通过API调用创建测试用户档案。 在此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)中了解详情。
+您还可以通过API调用创建测试用户档案。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}中了解更多信息。
 
 您必须使用包含“用户档案测试详细信息”字段组的用户档案架构。 testProfile标记是此字段组的一部分。
 创建用户档案时，请确保传递值：testProfile = true。
