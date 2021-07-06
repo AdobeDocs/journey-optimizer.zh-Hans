@@ -5,10 +5,10 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 23%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 21%
 
 [!DNL Adobe Journey Optimizer] 本地构建于之上，并 [!DNL Adobe Experience Platform] 将统一的实时客户资料、API优先的开放框架、集中式offer decisioning、人工智能(AI)和机器学习(ML)整合在一起，以便进行个性化和优化。Journey Optimizer允许品牌在整个客户历程中以规模、速度和灵活性智能地确定下一次最佳互动。 借助[!DNL Adobe Journey Optimizer]，公司可以在同一应用程序中创建并交付计划的营销活动（如零售商店的每周促销活动）和量身定制的个人通信（如忠诚度应用程序客户可能已查看过之前无现货的项目的推送通知）。
 
+➡️ [发现Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;}（视频）
+
+
 ## 用例
 
 * 营销人员可以使用[!DNL Adobe Journey Optimizer]发送个性化通信和基于受众的批量通信。 例如，服装店通常会向上周购买过产品的所有客户发送购买后调查。 由于天气恶劣，少数货物出现延误。 服装店看到哪些客户尚未收到他们的发货，可以将他们排除在计划的客户满意度之外，而是发送一封个性化电子邮件，为延迟道歉，并根据客户过去的购买情况提供折扣代码和产品推荐。
@@ -35,7 +38,8 @@ ht-degree: 21%
 
 ## 重要功能
 
-[!DNL Adobe Journey Optimizer] 是一个灵活且可扩展的应用程序，用于跨任何应用程序、设备或渠道创建和提供个性化、连接且及时的客户体验。
+[!DNL Adobe Journey Optimizer] 是一款灵活的、可扩展的应用程序，能够创建并提供
+贴心且及时的个性化客户体验，可用于任意应用程序、设备或渠道中。
 
 ![](assets/ajo-capabilities.png)
 
@@ -46,6 +50,13 @@ ht-degree: 21%
 * **现代全渠道编排和执行**  — 在单个画布上协调和优化客户旅程以实现1:1客户参与和营销推广 — 帮助品牌在整个客户生命周期中提供更多价值。在[!DNL Adobe Journey Optimizer]中设计的客户历程可以是动态的，并且基于事件，以帮助品牌对实时信号做出反应，并将这些交互与计划的促销活动连接起来，从而就要向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。
 
 * **智能决策与个性化**  — 品牌可以应用集中决策，并整合人工智能和机器学习来在整个客户体验中显示预测分析，从而更轻松地自动化决策和大规模优化体验。offer decisioning通过[!DNL Adobe Journey Optimizer]大规模支持跨渠道的集中化选件。
+
+## 架构
+
+了解[!DNL Adobe Journey Optimizer]的基本架构、集成点以及[!DNL Journey Optimizer]与其他Adobe应用程序的关系。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+
 
 >[!NOTE]
 >
