@@ -5,16 +5,16 @@ feature: 应用程序设置
 topic: 推送
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 4%
 
 ---
 
 # 配置推送通知渠道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。在开始使用[!DNL Journey Optimizer]发送推送通知之前，您需要确保在移动设备应用程序上以及在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中配置和集成就位。 要了解Adobe历程优化程序中的推送通知数据流，请参阅[此页面](push-gs.md)。
+[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。在开始使用[!DNL Journey Optimizer]发送推送通知之前，您需要确保在移动设备应用程序上以及在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中配置和集成就位。 要了解[!DNL Adobe Journey Optimizer]中的推送通知数据流，请参阅[此页面](push-gs.md)。
 
 ## 开始前
 
@@ -54,7 +54,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 选择现有的&#x200B;**[!UICONTROL Product Profile]**，或使用&#x200B;**[!UICONTROL New profile]**&#x200B;按钮创建新的。 了解如何在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui)中创建新的&#x200B;**[!UICONTROL New profile]**。
 
-1. 从&#x200B;**[!UICONTROL Permissions]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Property rights]**。
+1. 在 **[!UICONTROL Permissions]** 选项卡中，选择 **[!UICONTROL Property rights]**。
 
    ![](assets/push_product_2.png)
 
@@ -88,7 +88,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 从&#x200B;**[!UICONTROL Products]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Adobe Experience Platform Launch]**&#x200B;卡。
 
-1. 选择您之前配置的&#x200B;**[!UICONTROL Product profile]**。
+1. 选择您之前配置的 **[!UICONTROL Product profile]**。
 
 1. 在选项卡 **[!UICONTROL Users]** 中，单击 **[!UICONTROL Add user]**。
 
@@ -118,7 +118,7 @@ Adobe Experience Platform Mobile SDK通过Android和iOS兼容SDK为您的手机�
 在此步骤结束时，您还应该在Adobe Experience Platform Launch中创建并配置移动资产。 通常，您会为要管理的每个移动应用程序创建一个移动资产。 了解如何在[Adobe Experience Platform Launch文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)中创建和配置移动资产。
 
 
-## 步骤1:在Adobe Experience Platform Launch {#push-credentials-launch}中添加应用程序推送凭据
+## 步骤1:在Adobe Experience Platform Launch中添加您的应用程序推送凭据 {#push-credentials-launch}
 
 授予正确的用户权限后，您现在需要在[!DNL Adobe Experience Platform Launch]中添加移动应用程序推送凭据。
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## 步骤3:使用事件{#mobile-app-test}测试移动设备应用程序
+## 步骤3:使用事件测试您的移动设备应用程序 {#mobile-app-test}
 
 现在，在Adobe Experience Platform和Launch中配置移动设备应用程序后，您可以在向用户档案发送推送通知之前对其进行测试。 在此用例中，我们将创建一个旅程以定位我们的移动设备应用程序，并设置一个触发推送通知的事件。
 
@@ -263,7 +263,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 选择 **[!UICONTROL Create a new field group]**。
 
-1. 输入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成后，单击&#x200B;**[!UICONTROL Add field groups]**。 有关如何创建字段组的更多信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans)。
+1. 输入&#x200B;**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 完成后单击 **[!UICONTROL Add field groups]**。有关如何创建字段组的更多信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans)。
 
 
    ![](assets/test_push_4.png)
