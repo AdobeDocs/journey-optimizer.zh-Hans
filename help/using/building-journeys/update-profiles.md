@@ -5,14 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
-# 更新配置文件{#update-profile}
+# 更新用户档案 {#update-profile}
 
 **[!UICONTROL Update Profile]**&#x200B;操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * 发送到Platform的更新请求将会很快，但不会立即/在一秒内发送。 通常需要几秒钟，但有时候需要更多时间，而且无法保证。 因此，例如，如果某个操作使用的是“字段1”，该字段1由位于前面的“更新用户档案”操作更新，则您不应期望该操作中会更新“字段1”。
 * 数据源在字段组级别具有缓存持续时间的概念。 如果您希望在历程中利用最近更新的用户档案字段，请务必定义非常短的缓存时长。
 
-## 使用测试模式{#using-the-test-mode}
+## 使用测试模式 {#using-the-test-mode}
 
 在测试模式下，将不模拟用户档案更新。 将对测试用户档案执行更新。
 
