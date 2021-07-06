@@ -5,10 +5,10 @@ feature: 监控
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
@@ -87,6 +87,6 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:因技术故障无法发送的消息数。
 
-* **[!UICONTROL Spam complaints]**:收件人标记为垃圾邮件的邮件数。[了解有关投诉的更多信息](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)。
+* **[!UICONTROL Spam complaints]**:收件人标记为垃圾邮件的邮件数。请在[投放能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}中了解有关投诉的更多信息。
 
 单击每个超链接将打开相应的消息摘要视图。 [了解有关消息的更多信息](create-message.md)。
