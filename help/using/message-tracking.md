@@ -1,22 +1,22 @@
 ---
 title: 跟踪邮件
-description: 了解如何跟踪已发送的消息
+description: 了解如何添加链接和跟踪已发送的消息
 feature: 监控
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 2%
+source-wordcount: '536'
+ht-degree: 1%
 
 ---
 
-# 消息跟踪 {#tracking}
+# 添加链接和跟踪消息 {#tracking}
 
-使用[!DNL Journey Optimizer]跟踪已发送的消息以及收件人的行为。
+使用[!DNL Journey Optimizer]添加指向内容的链接并跟踪发送的消息，以监控收件人的行为。
 
-## 启用跟踪{#enable-tracking}
+## 启用跟踪 {#enable-tracking}
 
 在[创建消息](create-message.md)时，可以通过检查&#x200B;**[!UICONTROL Open Tracking for email]**&#x200B;和/或&#x200B;**[!UICONTROL Click Tracking for email]**&#x200B;选项来启用消息级别的跟踪。
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 * **[!UICONTROL Open Tracking for email]**:已打开的消息。
 * **[!UICONTROL Click Tracking for email]**:单击电子邮件中的链接。
 
-## 插入链接{#insert-links}
+## 插入链接 {#insert-links}
 
 在设计消息时，您可以添加指向内容的链接。
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Unsubscription link]**:插入链接以取消订阅从您的品牌接收通信。在[此部分](consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
-   * **[!UICONTROL Mirror page]**:插入链接以在Web浏览器中显示电子邮件内容。
+   * **[!UICONTROL Mirror page]**:插入链接以在Web浏览器中显示电子邮件内容。在[此部分](#mirror-page)中了解详情。
 
    ![](assets/message-tracking-links.png)
 
@@ -65,7 +65,29 @@ ht-degree: 2%
 
    ![](assets/message-tracking-link-settings.png)
 
-## 管理跟踪{#manage-tracking}
+## 链接到镜像页面 {#mirror-page}
+
+镜像页面是可通过Web浏览器在线访问的HTML页面。 其内容与电子邮件的内容相同。
+
+要在电子邮件中添加指向镜像页面的链接，请[插入链接](#insert-links)并选择&#x200B;**[!UICONTROL Mirror page]**&#x200B;作为链接类型。
+
+![](assets/message-tracking-mirror-page.png)
+
+将自动创建镜像页面。
+
+>[!NOTE]
+>
+>您无法编辑自动生成的链接。
+
+发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容会显示在其默认的Web浏览器中。
+
+>[!NOTE]
+>
+>在发送到测试用户档案的[proof](preview.md#send-proofs)中，指向镜像页面的链接不活动。 它仅在最终消息中激活。
+
+镜像页面的保留期为60天。 延迟后，镜像页面将不再可用。
+
+## 管理跟踪 {#manage-tracking}
 
 [Email Designer](create-email-content.md)允许您管理跟踪的URL，如编辑每个链接的跟踪类型。
 
