@@ -4,7 +4,7 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 feature: 数据集
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 12%
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 摄取到Adobe Experience Platform的所有数据都将作为数据集保留在数据湖中。 数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。
 
-了解如何在[本文档](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}中创建数据集。
+了解如何在[本文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}中创建数据集。
 
 将数据添加到Adobe Experience Platform是构建用户档案的基础。 然后，您将能够利用[!DNL Adobe Journey Optimizer]中的用户档案。 首先定义架构，使用ETL工具准备和标准化您的数据，然后根据您的架构创建数据集。
 
