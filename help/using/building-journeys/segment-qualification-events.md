@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 76%
+source-wordcount: '799'
+ht-degree: 71%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 76%
 
    >[!NOTE]
    >
-   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
 
@@ -89,7 +89,7 @@ ht-degree: 76%
 
 在对流式处理客户细分使用客户细分资格时，由于持续评估客户细分，因此入口/出口出现大量峰值的风险较小。如果客户细分定义导致大量客户同时获得资格，则仍然可能出现峰值。
 
-有关流式客户细分的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)。
+有关流式分段的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ ht-degree: 76%
 
 ![](../assets/segment-error.png)
 
-为历程中使用的数据源和操作设置上限规则，以避免其过载（请参阅此[部分](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)）。请注意，上限规则不带重试。如果需要重试，则必须通过选中条件或操作中的&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**&#x200B;框在历程中使用替代路径。
+为历程中使用的数据源和操作设置上限规则，以避免其过载。 在[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}中了解更多信息。 请注意，上限规则不带重试。如果需要重试，则必须通过选中条件或操作中的&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**&#x200B;框在历程中使用替代路径。
 
 在生产历程中使用客户细分之前，请始终首先评估每天符合此客户细分条件的个人数量。要执行此操作，您可以检查&#x200B;**[!UICONTROL Segments]**&#x200B;菜单，打开区段，然后查看&#x200B;**[!UICONTROL Profiles over time]**&#x200B;图。
 
