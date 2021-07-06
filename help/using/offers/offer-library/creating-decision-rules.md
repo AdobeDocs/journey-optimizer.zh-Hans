@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 
 1. 命名规则并提供描述，然后根据需要配置规则。
 
-   为此，可使用Adobe Experience Platform中的&#x200B;**区段生成器**&#x200B;来帮助您构建规则的条件。 有关如何使用该域的更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)。
+   要实现此目的，可使用&#x200B;**区段生成器**&#x200B;来帮助您构建规则的条件。 [了解详情](../../segment/about-segments.md)
 
    在此示例中，规则将定位忠诚度级别为“Gold”的客户。
 
