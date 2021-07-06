@@ -5,7 +5,7 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
         <td><a href="aggregation.md#max">最大值</a></td><td>此函数返回数组中所有选定值的最大值</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">超集</a></td><td>此函数终止特定数组（数组A）是否是另一数组（数组B）的超集，即该数组A是否包含数组B中的所有元素</td>
+    <td><a href="arrays-list.md#superset">超集</a></td><td>此函数确定特定数组（数组A）是否是另一数组（数组B）的超集，即该数组A是否包含数组B中的所有元素</td>
     </tr>
 </table>
 
