@@ -15,10 +15,10 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 9%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 9%
 1. 指定要委派的子域的名称。
 
    ![](../assets/subdomain-name.png)
+
+   >[!CAUTION]
+   >
+   >确保输入了有效的子域，如marketing.company.com。 不允许将无效的子域委派到Adobe。
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
