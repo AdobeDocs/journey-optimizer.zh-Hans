@@ -5,9 +5,9 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 1. 选择&#x200B;**Context**&#x200B;类别。 仅当历程将上下文数据传递到消息时，此项目才可用。 单击&#x200B;**Journey Orchestration**。 将显示以下上下文信息：
 
    * **事件**:此类别会重组置于历程中消息活动之前的事 **** 件中的所有字段。
-   * **历程属性**:与给定用户档案的历程相关的技术字段，例如历程ID或遇到的特定错误。请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys)。
+   * **历程属性**:与给定用户档案的历程相关的技术字段，例如历程ID或遇到的特定错误。在[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}中了解更多信息。
 
    ![](assets/perso-uc10.png)
 
