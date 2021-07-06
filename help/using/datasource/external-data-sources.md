@@ -5,10 +5,10 @@ feature: 数据源
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 100%
+source-wordcount: '1288'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 * **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
 * **[!UICONTROL Cache duration]**：在我们的示例中，我们希望天气能缓存 10 分钟。
-* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)。
+* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
