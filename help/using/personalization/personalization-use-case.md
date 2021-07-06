@@ -1,24 +1,24 @@
 ---
-title: 个性化使用案例
-description: 个性化使用案例
+title: 个性化用例&amp；冒号；订单状态通知
+description: 了解如何使用用户档案、选件决策和上下文信息对消息进行个性化
 feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 2%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 
 
-# 个性化使用案例 {#personalization-use-case}
+# 个性化用例：订单状态通知 {#personalization-use-case}
 
 在此用例中，您将看到如何在单个推送通知消息中使用多种类型的个性化。 将使用三种类型的个性化：
 
 * **用户档案**:基于用户档案字段的消息个性化
-* **选件决策**:基于选件决策变量进行个性化
+* **选件决策**:基于offer decisioning变量进行个性化
 * **上下文**:基于历程中的情境数据进行个性化
 
 此示例的目标是在每次更新客户订单时向[!DNL Journey Optimizer]推送事件。 随后，系统会向客户发送推送通知，其中包含有关订单的信息和个性化优惠。
@@ -116,7 +116,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc17.png)
 
-1. 输入测试中要传递的不同值。 测试模式仅适用于测试用户档案。 用户档案标识符需要与测试用户档案相对应。 单击&#x200B;**发送**。
+1. 输入测试中要传递的不同值。 测试模式仅适用于测试用户档案。 用户档案标识符需要与测试用户档案对应。 单击&#x200B;**发送**。
 
    ![](assets/perso-uc18.png)
 
