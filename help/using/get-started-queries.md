@@ -4,10 +4,10 @@ description: 了解如何在Adobe Journey Optimizer中创建查询
 feature: 架构
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 2%
 
 **另请参阅**
 
-* [查询服务文档](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [查询服务概述视频](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
