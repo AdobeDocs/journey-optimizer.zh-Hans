@@ -1,31 +1,20 @@
 ---
-title: 沙箱管理
+title: 沙盒管理
 description: 了解如何管理沙箱
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
 feature: 对照组
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
-# 沙箱管理 {#sandboxes}
+# 沙盒管理 {#sandboxes}
 
-## 使用沙箱{#using-sandbox}
+## 使用沙箱 {#using-sandbox}
 
 [!DNL Journey Optimizer] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙箱](permissions.md#create-product-profile)。
@@ -35,7 +24,7 @@ ht-degree: 75%
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
 
-## 分配沙箱{#assign-sandboxes}
+## 分配沙箱 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
@@ -67,7 +56,7 @@ ht-degree: 75%
 
 1. 单击 **[!UICONTROL Save]**。
 
-## 访问内容{#content-access}
+## 访问内容 {#content-access}
 
 要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。您可以在 [!DNL Admin Console] 中显示的 **[!UICONTROL Storage]** 选项卡中为管理员创建和配置共享文件夹。如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
 
