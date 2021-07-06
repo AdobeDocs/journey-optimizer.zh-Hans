@@ -5,9 +5,9 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1180'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 使用[!DNL Journey Optimizer]模板语言对数据执行操作，如计算、数据格式或转化、条件等，并在个性化上下文中处理它们。 了解[本页](../personalization-syntax.md)中的个性化语法准则。
 
-[!DNL :arrow_forward:] [了解如何在视频中使用帮助程序函数](#video)
+➡️ [了解如何使用帮助程序函数](#video)（视频）
 
 模板语言在表达式编辑器的个性化下拉列表中提供的帮助程序函数中使用，如下所示：
 
