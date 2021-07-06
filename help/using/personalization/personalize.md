@@ -5,10 +5,10 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Beginner
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 11%
+source-wordcount: '666'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] 使用基 **** 于Handlebars的inlinesimple个性化语法，该语法允许您创建内容由双大括号包&#x200B;**围的表达式{{}}**。您可以在同一内容或字段中添加多个表达式，而不受限制。请参阅[个性化语法](personalization-syntax.md)，以了解更多信息。
 
-个性化基于 Adobe Experience Platform 中定义的 **XDM Individual Profile** 架构管理的用户档案数据。有关详细信息，请参阅 [Adobe Experience Platform Data Model (XDM) 文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
+个性化基于 Adobe Experience Platform 中定义的 **XDM Individual Profile** 架构管理的用户档案数据。在[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}中了解更多信息。
 
 >[!CAUTION]
 >**XDM个人配置文件**&#x200B;架构是您唯一可用于在[!DNL Journey Optimizer]中个性化内容的架构。
@@ -89,8 +89,8 @@ ht-degree: 11%
 
 屏幕的左侧部分显示一个域选择器，用于选择个性化的源。 可用源包括：
 
-* **用户档案** :列出与Adobe Experience Platform数据模型(XDM)文档中所述的配 [置文件架构关联的所有引用](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
-* **区段成员资格** :列出在Adobe Experience Platform分段服务中创建的所有区段。有关可用分段的更多信息，请参见[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)。
+* **用户档案** :列出与 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}中所述的配置文件架构关联的所有引用。
+* **区段成员资格** :列出在Adobe Experience Platform分段服务中创建的所有区段。有关可用分段的更多信息，请参见[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}。
 * **选件** :列出与特定版面关联的所有选件。选择版面，然后在内容中插入选件。 有关如何管理选件的完整文档，请参阅[此部分](../deliver-personalized-offers.md)。
 * **上下文** :在历程 **** 中使用消息活动时，此菜单中提供了上下文历程字段。在[此部分](personalization-use-case.md)中了解详情。
 * **帮助程序函数** :列出可用于对数据执行操作的所有帮助程序函数，例如计算、数据格式或转化、条件，并在个性化环境中处理这些函数。在[此部分](functions/functions.md)中了解详情。
