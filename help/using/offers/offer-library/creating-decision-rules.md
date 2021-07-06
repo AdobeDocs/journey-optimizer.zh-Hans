@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 13%
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 例如，您可以指定当（性别=“女性”）和（地区=“东北”）时仅显示“女士冬装选件”。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 可在&#x200B;**[!UICONTROL Components]**&#x200B;菜单中访问已创建决策规则的列表。
 
