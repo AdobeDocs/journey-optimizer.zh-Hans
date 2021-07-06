@@ -5,9 +5,9 @@ feature: 应用程序设置
 topic: 推送
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -49,13 +49,13 @@ ht-degree: 2%
 
 * **Adobe Experience Platform Mobile** SDK，它通过Android和iOS兼容SDK为您的手机提供客户端集成API。SDK提供了[!DNL Adobe Journey Optimizer]扩展，该扩展公开了各种特定于推送消息的API，并启用数据流，例如注册推送令牌或将推送跟踪事件或任何其他自定义体验事件发送到Adobe Experience Platform。 该SDK还提供了各种其他扩展，这些扩展可启用其他Adobe Experience Cloud以及第三方合作伙伴功能。
 
-   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans)服务，例如：
+   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans){target=&quot;_blank&quot;}服务，例如：
 
    * 创建数据流以配置数据流入Adobe Experience Platform的用户档案和体验事件数据集
    * 创建客户端移动资产并添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
    * 注册移动设备应用程序包标识符和应用程序凭据
 
-* **Adobe Experience Platform Real-time Customer Profile通过**  合并来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [进一步了解Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* **Adobe Experience Platform Real-time Customer Profile通过**  合并来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [了解有关Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}的更多信息。
 
 * **[!DNL Adobe Journey Optimizer]** :在Adobe Experience Platform中实施与上述组件的移动设备应用程序集成以及客户配置文件后，您便可以在中创作和编排推送通知，以 [!DNL Adobe Journey Optimizer] 便与用户互动。
 
