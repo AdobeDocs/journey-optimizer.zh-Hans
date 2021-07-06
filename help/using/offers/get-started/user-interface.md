@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -70,9 +70,9 @@ ht-degree: 100%
 
 ![](../../assets/duplicate-offer.png)
 
-## 优惠和决策更改日志{#changes-logs}
+## 优惠和决策更改日志 {#changes-logs}
 
-优惠库允许您查看对优惠或决策所做的所有更改。为此，请在列表中单击优惠名称或决策名称来打开优惠或决策，然后选择 **[!UICONTROL Change log]** 选项卡。
+选件库允许您可视化对选件或决策所做的所有更改。 为此，请在列表中单击优惠名称或决策名称来打开优惠或决策，然后选择 **[!UICONTROL Change log]** 选项卡。
 
 此屏幕中显示所有已完成的更改，还显示执行更改的用户姓名。
 
