@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 查找决策
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定决策（以前称为选件活动），该API包含决策`@id`或请求路径中决策的名称。
+您可以通过向[!DNL Offer Library] API发出GET请求（包括决策`@id`或请求路径中决策的名称）来查找特定决策（以前称为选件活动）。
 
 **API格式**
 
