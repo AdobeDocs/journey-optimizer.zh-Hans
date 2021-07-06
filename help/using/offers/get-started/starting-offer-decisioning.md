@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 97%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-![](../../assets/do-not-localize/how-to-video.png) [观看这些视频教程](#tutorial-videos)，以了解有关决策管理的更多信息。
+➡️ [请观看这些教程视频](#tutorial-videos)，以了解有关决策管理的更多信息。
 
-## 关于优惠和选择 {#offers-offer-activities}
+## 关于优惠和决策 {#offers-offer-activities}
 
 **优惠**&#x200B;由内容、合格规则和限制条件（确定向客户呈现该优惠的条件）组成。
 
@@ -98,7 +98,7 @@ ht-degree: 97%
 >
 >这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它为在 [!DNL Journey Optimizer] 上下文中使用决策管理提供了通用指导。
 
-### 什么是决策管理？{#what-is-offer-decisioning}
+### 什么是决策管理？ {#what-is-offer-decisioning}
 
 以下视频介绍了决策管理的关键功能、架构和使用案例：
 
