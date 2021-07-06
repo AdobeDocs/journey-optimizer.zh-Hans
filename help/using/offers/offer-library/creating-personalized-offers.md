@@ -5,9 +5,9 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 4%
 
    您可以将选件的显示方式限制为一个或多个Adobe Experience Platform区段的成员。 为此，请激活&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;选项，然后从左窗格添加一个或多个区段，并使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合它们。
 
-   有关如何使用区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
+   有关如何使用区段的更多信息，请参阅[此页面](../../segment/about-segments.md)。
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ ht-degree: 4%
 
 ![](../../assets/offer_created.png)
 
-创建选件后，您可以单击列表中的选件名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡监控对该选件所做的所有更改（请参阅[监控选件和决策的更改](../get-started/user-interface.md#monitoring-changes)）。
+创建选件后，您可以单击列表中的选件名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡监控对该选件所做的所有更改。 [了解详情](../get-started/user-interface.md#monitoring-changes)。
 
 ## 教程视频 {#video}
 
