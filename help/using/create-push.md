@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 10%
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 使用设备预览部分可视化推送通知在iOS和Android设备上的显示方式。
 
-## 单击行为{#on-click-behavior}
+## 点击行为 {#on-click-behavior}
 
 选择收件人单击推送通知正文时的行为。
 
@@ -78,7 +78,7 @@ ht-degree: 10%
 
 ## 发送无提示通知
 
-无提示推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，用于通知应用程序新内容的可用性或在后台启动下载。
+无提示推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，它用于通知您的应用程序新内容的可用性或在后台启动下载。
 
 选择&#x200B;**[!UICONTROL Silent Notification]**&#x200B;选项以静默通知应用程序：在这种情况下，通知会直接转给应用程序。 设备屏幕上未显示任何警报。
 
