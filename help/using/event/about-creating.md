@@ -5,14 +5,14 @@ feature: 事件
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 14%
 
 ---
 
-# 配置统一事件{#configure-an-event}
+# 配置统一事件 {#configure-an-event}
 
 单一事件与特定用户档案相关联。 它们可以是基于规则的，也可以是系统生成的。  有关单一事件[此部分](../event/about-events.md)的更多信息。
 
@@ -71,7 +71,7 @@ ht-degree: 14%
 
    事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
 
-## 定义有效负载字段{#define-the-payload-fields}
+## 定义有效负载字段 {#define-the-payload-fields}
 
 有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)。
 
@@ -99,7 +99,7 @@ ht-degree: 14%
 
    ![](../assets/journey12.png)
 
-## 选择命名空间{#select-the-namespace}
+## 选择命名空间 {#select-the-namespace}
 
 命名空间允许您定义用于标识与事件关联的人员的键类型。 其配置是可选的。 如果要在您的历程中检索来自[实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)的其他信息，则需要此信息。 如果您仅使用来自第三方系统的数据通过自定义数据源，则不需要命名空间定义。
 
@@ -118,7 +118,7 @@ ht-degree: 14%
 
 每个历程只允许一个命名空间。 如果您在同一历程中使用多个事件，则它们需要使用相同的命名空间。 请参阅[此页](../building-journeys/journey.md)。
 
-## 定义配置文件标识符{#define-the-event-key}
+## 定义用户档案标识符 {#define-the-event-key}
 
 键值是字段或字段组合是事件有效负载数据的一部分，它将允许系统识别与事件关联的人员。 键可以是Experience CloudID、CRM ID或电子邮件地址。
 
@@ -144,7 +144,7 @@ ht-degree: 14%
 
 如果要执行其他操作，则还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)。
 
-## 添加条件{#add-a-condition}
+## 添加条件 {#add-a-condition}
 
 条件仅适用于系统生成的事件。 您可以定义一个事件条件，以便系统过滤事件的处理。 如果条件为true，则会处理该事件。 如果条件不为true，则忽略该事件。
 
@@ -156,7 +156,7 @@ ht-degree: 14%
 
 ![](../assets/journey78.png)
 
-## 预览有效负载{#preview-the-payload}
+## 预览有效负载 {#preview-the-payload}
 
 有效负载预览允许您验证有效负载定义。
 
