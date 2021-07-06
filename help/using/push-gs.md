@@ -5,9 +5,9 @@ feature: 应用程序设置
 topic: 推送
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -20,16 +20,16 @@ ht-degree: 2%
 
 有关在[!DNL Adobe Journey Optimizer]中配置推送渠道的详细步骤，请参见[本页](push-configuration.md)。
 
-## 推送通知和Adobe Journey Optimizer
+## 推送通知和[!DNL Adobe Journey Optimizer]
 
 下图显示了与关联数据流相关的系统和服务，重点说明了如何从端到端服务角度交付推送通知。
 
 ![](assets/push-flow.png)
 
 1. 在Apple的APNs和Google FCM推送消息服务中注册您的品牌移动应用程序（Android或iOS）
-1. 消息传送服务会生成推送令牌，该令牌是Adobe Journey Optimizer将用于通过推送通知定向特定设备的标识符。
+1. 消息传送服务会生成一个推送令牌，该令牌是[!DNL Adobe Journey Optimizer]将用于通过推送通知来定位特定设备的标识符。
 1. 之前生成的推送令牌将传递到Adobe Experience Platform并与实时客户资料同步；这是通过OOTB与易于集成的客户端SDK来完成的
-1. 在Adobe Journey Optimizer中创作推送消息，根据消息预设创建推送消息
+1. 在[!DNL Adobe Journey Optimizer]中创作推送消息，根据消息预设创建推送消息
 1. 推送消息可能包含在编排画布上的历程
 1. 在历程发布后，基于历程条件的客户用户档案将被鉴定为接收推送通知，在此步骤中将个性化推送消息负载
 1. 个性化推送负载被转发到内部推送消息传递服务
@@ -47,9 +47,9 @@ ht-degree: 2%
    * [Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging)  — 将通知发送到Android移动设备应用程序
    * [Apple推送通知服务(APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  — 向iOS移动设备应用程序发送通知
 
-* **Adobe Experience Platform Mobile** SDK，它通过Android和iOS兼容SDK为您的手机提供客户端集成API。SDK提供了Adobe Journey Optimizer扩展，该扩展公开了多种特定于推送消息的API，并启用数据流，例如注册推送令牌或将推送跟踪事件或任何其他自定义体验事件发送到Adobe Experience Platform。 该SDK还提供了各种其他扩展，这些扩展可启用其他Adobe Experience Cloud以及第三方合作伙伴功能。
+* **Adobe Experience Platform Mobile** SDK，它通过Android和iOS兼容SDK为您的手机提供客户端集成API。SDK提供了[!DNL Adobe Journey Optimizer]扩展，该扩展公开了各种特定于推送消息的API，并启用数据流，例如注册推送令牌或将推送跟踪事件或任何其他自定义体验事件发送到Adobe Experience Platform。 该SDK还提供了各种其他扩展，这些扩展可启用其他Adobe Experience Cloud以及第三方合作伙伴功能。
 
-   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/launch/using/home.html)服务，例如：
+   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans)服务，例如：
 
    * 创建数据流以配置数据流入Adobe Experience Platform的用户档案和体验事件数据集
    * 创建客户端移动资产并添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 * **Adobe Experience Platform Real-time Customer Profile通过**  合并来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [进一步了解Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
-* **[!DNL Adobe Journey Optimizer]** :在Adobe Experience Platform中实施与上述组件的移动设备应用程序集成以及客户配置文件后，您可以在Adobe Journey Optimizer中创作和编排推送通知，以与用户互动。
+* **[!DNL Adobe Journey Optimizer]** :在Adobe Experience Platform中实施与上述组件的移动设备应用程序集成以及客户配置文件后，您便可以在中创作和编排推送通知，以 [!DNL Adobe Journey Optimizer] 便与用户互动。
 
 ## 推送技术设置和从业人员工作流
 
