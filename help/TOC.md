@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3f0fe5079b32103aec6160f22900c14db7b0d304
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 97%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
    + [添加个性化优惠](using/deliver-personalized-offers.md)
 + 区段、配置文件和标识{#segment}
    + 区段 {#segments}
-      + [关于区段](using/segment/about-segments.md)
+      + [区段快速入门](using/segment/about-segments.md)
       + [生成区段](using/segment/creating-a-segment.md)
    + [配置文件](using/get-started-profiles.md)
    + [身份](using/get-started-identity.md)
