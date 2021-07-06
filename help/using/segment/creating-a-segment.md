@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 6%
 
 ---
@@ -53,3 +53,7 @@ ht-degree: 6%
 1. 区段准备就绪后，单击&#x200B;**[!UICONTROL Save]**。 它会显示在Adobe Experience Platform区段列表中。 请注意，搜索栏可帮助您在列表中搜索特定区段。
 
 现在，该区段可用于您的历程。 如需详细信息，请参阅[此部分](../segment/about-segments.md)。
+
+## 教程视频{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
