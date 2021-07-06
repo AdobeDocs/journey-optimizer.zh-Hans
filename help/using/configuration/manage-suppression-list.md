@@ -15,7 +15,7 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 ---
 
 
-# 管理禁止列表{#manage-suppression-list}
+# 管理抑制列表 {#manage-suppression-list}
 
 通过[!DNL Journey Optimizer]，您可以监控历程中自动排除的所有电子邮件地址，例如：
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 此类电子邮件地址会自动收集到Journey Optimizer **抑制列表**&#x200B;中。 在[此部分](../suppression-list.md)中了解详情。
 
-## 访问抑制列表{#access-suppression-list}
+## 访问禁止列表 {#access-suppression-list}
 
 要访问排除的电子邮件地址的详细列表，请打开&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL View suppression lists]**&#x200B;链接。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 <!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
-## 抑制类别和原因{#suppression-categories-and-reasons}
+## 抑制类别和原因 {#suppression-categories-and-reasons}
 
 当消息未能发送到电子邮件地址时，Journey Optimizer会确定投放失败的原因，并将其与抑制类别关联。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 | 原因 | 描述 | 抑制类别 |
 ---------|----------|--------- |
-| **[!UICONTROL Undetermined]** | 无法识别从收件人域消息传输代理(MTA)收到的退件原因。 | 已忽略 |
+| **[!UICONTROL Undetermined]** | 无法识别从收件人域消息传输代理(MTA)收到的退回原因。 | 已忽略 |
 | **[!UICONTROL Invalid Recipient]** | 收件人无效或不存在。 | 硬 |
 | **[!UICONTROL Soft Bounce]** | 消息软退件的原因不是此表中列出的软错误，例如，在通过ISP建议的允许速率发送时。 | 柔和 |
 | **[!UICONTROL DNS Failure]** | 由于DNS失败而退回消息。 | 柔和 |
