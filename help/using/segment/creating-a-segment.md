@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
    ![](../assets/create-segment.png)
 
-   区段定义屏幕允许您配置所有必填字段以定义区段。 了解如何在[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)中配置区段。
+   区段定义屏幕允许您配置所有必填字段以定义区段。 了解如何在[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}中配置区段。
 
    ![](../assets/segment-builder.png)
 
@@ -32,7 +32,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >请注意，左窗格中可用的字段因&#x200B;**XDM个人配置文件**&#x200B;和&#x200B;**XDM ExperienceEvent**&#x200B;架构为贵组织配置的方式而异。  请参阅[体验数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)，以了解更多信息。
+   >请注意，左窗格中可用的字段因&#x200B;**XDM个人配置文件**&#x200B;和&#x200B;**XDM ExperienceEvent**&#x200B;架构为贵组织配置的方式而异。  请参阅[体验数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}，以了解更多信息。
 
    ![](../assets/drag-fields.png)
 
