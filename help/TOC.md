@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 97%
 
 ---
@@ -56,9 +56,12 @@ ht-degree: 97%
       + [目标函数](using/personalization/functions/objects.md)
       + [字符串函数](using/personalization/functions/string.md)
    + [添加个性化优惠](using/deliver-personalized-offers.md)
-+ 区段{#segment}
-   + [关于区段](using/segment/about-segments.md)
-   + [生成区段](using/segment/creating-a-segment.md)
++ 区段、配置文件和标识{#segment}
+   + 区段 {#segments}
+      + [关于区段](using/segment/about-segments.md)
+      + [生成区段](using/segment/creating-a-segment.md)
+   + [配置文件](using/get-started-profiles.md)
+   + [身份](using/get-started-identity.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
@@ -189,6 +192,10 @@ ht-degree: 97%
       + 使用 API 的优惠投放{#offer-delivery}
          + [决策 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
++ 数据管理 {#data-management}
+   + [架构](using/get-started-schemas.md)
+   + [数据集](using/get-started-datasets.md)
+   + [查询](using/get-started-queries.md)
 + 配置{#get-started}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration}
@@ -228,6 +235,7 @@ ht-degree: 97%
          + [关于操作](using/action/action.md)
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
+      + [源](using/get-started-sources.md)
 + 访问控制 {#administration}
    + [访问控制概述](using/administration/permissions-overview.md)
    + [内置产品配置文件](using/administration/ootb-product-profiles.md)
