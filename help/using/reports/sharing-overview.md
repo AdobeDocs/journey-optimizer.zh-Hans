@@ -5,9 +5,9 @@ feature: 报告
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 7%
 
 ---
@@ -58,4 +58,4 @@ ht-degree: 7%
 * [journeyStep 事件身份字段](../reports/sharing-identity-fields.md)
 * [历程字段](../reports/sharing-journey-fields.md)
 
-有关向Adobe Experience Platform报告步骤事件的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
+有关向Adobe Experience Platform报告步骤事件的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}。
