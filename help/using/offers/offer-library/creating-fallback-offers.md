@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 如果客户不符合其他选件的资格，则会向客户发送备用选件。 创建备用选件的步骤包括创建一个或多个表示形式，例如创建选件时。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 可在&#x200B;**[!UICONTROL Offers]**&#x200B;菜单中访问备用选件列表。
 
