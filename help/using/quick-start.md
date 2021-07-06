@@ -5,10 +5,10 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 42%
+source-wordcount: '403'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 42%
 
 * **设置用户权限**:登录并 [!DNL Adobe Journey Optimizer] 授予您的团队成员访问权限。[了解更多信息](../using/administration/permissions.md)
 
-* **部署[!DNL Adobe Experience Manager Assets Essentials]**:要管理消息中的资产和图像，您需要为您的 [!DNL Assets Essentials] 组织部署，并确保需要访问的用户是 [!DNL Assets Essentials]Assets Essentials消费者用户 **或/和Assets Essentials用户产** 品配置文件 **的一** 部分。[了解更多信息](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **部署[!DNL Adobe Experience Manager Assets Essentials]**:要管理消息中的资产和图像，您需要为您的 [!DNL Assets Essentials] 组织部署，并确保需要访问的用户是 [!DNL Assets Essentials]Assets Essentials消费者用户 **或/和Assets Essentials用户产** 品配置文件 **的一** 部分。[阅读更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **配置渠道**:定义电子邮件和推送通知设置。[了解更多信息](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ ht-degree: 42%
 
 * **识别数据并创建架构与数据集**：将您的数据导入 Adobe Experience Platform，创建身份命名空间和为用户档案启用的数据集，创建区段并测试用户档案。
 
-   * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans)中预览和创建数据集
+   * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}中预览和创建数据集
 
-   * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans#manage-namespaces)中创建身份命名空间
+   * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans#manage-namespaces){target=&quot;_blank&quot;}中创建身份命名空间
 
    * 了解如何在[此页面](../using/building-journeys/creating-test-profiles.md)中创建测试用户档案
 
-   * 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans)中了解有关数据摄取的更多信息
+   * 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target=&quot;_blank&quot;}中了解有关数据摄取的更多信息
 
 
 ### 使用流程
