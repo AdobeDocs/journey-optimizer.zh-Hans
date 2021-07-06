@@ -5,7 +5,7 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 74%
@@ -98,7 +98,7 @@ ht-degree: 74%
 
 * **创建测试用户档案**，以使用我们的CSV模板创建测试用户档案，以测试个性化消息和历程。在本页](building-journeys/creating-test-profiles.md#use-case-1)中了解如何实施此用例[。
 * **向客户发送生日消息**，以自动发送电子邮件，希望客户在生日前后看到该消息。（即将推出）
-* **向新客户发送电子邮件**，以便最多轻松发送两封电子邮件以欢迎新注册的客户。（即将推出）
+* **向载入新客户发送电子邮件**，以便轻松发送最多两封电子邮件以欢迎您的新注册客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，以便快速向从CSV文件导入的客户列表发送推送通知。（即将推出）
 
 单击&#x200B;**[!UICONTROL View details]**&#x200B;以了解有关每个用例的更多信息。
