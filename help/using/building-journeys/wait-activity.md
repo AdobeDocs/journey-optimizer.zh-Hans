@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 6%
+source-wordcount: '410'
+ht-degree: 5%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 6%
 
 ## 自定义等待{#custom}
 
-利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans)。有关dateTimeOnly格式的更多信息，请参阅[此页面](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html)。
+利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。 有关dateTimeOnly格式的更多信息，请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
 >您可以使用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->历程的属性中需要&#x200B;**时区**。 因此，今天无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>历程的属性中需要&#x200B;**时区**。 因此，今天无法从接口直接指向完整的ISO-8601时间戳，该时间戳将时间和时区偏移混合在一起，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
