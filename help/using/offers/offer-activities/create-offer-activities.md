@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 决策（以前称为选件活动）是选件的容器，将利用选件决策引擎来根据投放的目标选择要交付的最佳选件。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 可在&#x200B;**[!UICONTROL Offers]**&#x200B;菜单/ **[!UICONTROL Decisions]**&#x200B;选项卡中访问决策列表。 过滤器可帮助您根据其状态或开始和结束日期来检索决策。
 
