@@ -4,7 +4,7 @@ description: 了解如何管理隐私
 topic: 隐私
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 92%
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 * 避免发送未经请求的邮件（“垃圾邮件”）。为了实现客户存留期值并提高客户忠诚度，Adobe 坚信许可营销原则，因此我们严格禁止使用 Journey Optimizer 发送未经请求的消息。
 
-Journey Optimizer 允许您通过不同的预建或自定义产品用户档案来管理分配给您的用户的权限。这允许您对公司内部可以访问、修改或导出不同类型数据的人员进行管理。阅读[管理权限](../administration/permissions.md)，了解关于管理用户访问权限的更多信息。
+Journey Optimizer 允许您通过不同的预建或自定义产品用户档案来管理分配给您的用户的权限。这允许您对公司内部可以访问、修改或导出不同类型数据的人员进行管理。阅读[管理权限](administration/permissions.md)，了解关于管理用户访问权限的更多信息。
 
 Journey Optimizer 还允许您通过打开和单击链接来跟踪发送的消息以及收件人的行为。[了解关于跟踪管理的更多信息](message-tracking.md)。
 
