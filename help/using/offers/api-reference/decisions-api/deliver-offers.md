@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 本教程需要对API（特别是与决策管理有关的API）有一定的了解。 有关更多信息，请参阅[决策管理API开发人员指南](../getting-started.md)。 此外，本教程还要求您具有唯一的版面ID和决策ID值。 如果您尚未获取这些值，请参阅[创建版面](../offers-api/placements/create.md)和[创建决策](../activities-api/activities/create.md)的教程。
 
-![](../../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️  [在视频中发现此功能](#video)
 
 ## 接受和内容类型标头
 
