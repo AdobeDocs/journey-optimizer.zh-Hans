@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 在决策中配置优惠选择 {#offers-selection-in-activities}
 
-## 关于选件优先级{#about-offers-priority}
+## 关于选件优先级 {#about-offers-priority}
 
 默认情况下，当多个选件符合在决策中放置给定版面的条件（以前称为选件活动）时，将首先向客户交付具有最高&#x200B;**优先级**&#x200B;的选件。 创建选件时会分配选件的优先级分数（请参阅[创建个性化选件](../offer-library/creating-personalized-offers.md)）。
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 有关如何创建排名公式的更多信息，请参阅[此部分](../offer-library/create-ranking-formulas.md)。
 
-## 为版面{#assign-ranking-formula}分配排名公式
+## 为版面分配排名公式 {#assign-ranking-formula}
 
 创建排名公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
