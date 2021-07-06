@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 98%
       + [在 UI 中设计电子邮件内容](using/create-email-content.md)
       + [导入或编码电子邮件内容](using/existing-content.md)
       + [使用电子邮件设计器内容组件](using/content-components.md)
+   + [添加链接和跟踪消息](using/message-tracking.md)
    + 验证并发布 {#create-message}
       + [预览和证明](using/preview.md)
       + [检查警报](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 98%
    + [入门个性化](using/personalization/personalize.md)
    + [个性化语法](using/personalization/personalization-syntax.md)
    + [个性化验证](using/personalization/personalization-validation.md)
-   + [用例：在推送通知中添加个性化](using/personalization/personalization-use-case.md)
+   + 使用案例{#personalization-use-cases}
+      + [订单状态通知](using/personalization/personalization-use-case.md)
+      + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
    + 辅助函数{#functions}
       + [辅助函数列表](using/personalization/functions/functions.md)
       + [聚合函数](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 98%
       + [发送多渠道消息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
 + 跟踪和监视{#reporting}
-   + [消息跟踪](using/message-tracking.md)
    + [消息监测](using/message-monitoring.md)
    + 实时报告{#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
