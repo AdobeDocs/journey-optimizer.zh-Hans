@@ -5,9 +5,9 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '576'
 ht-degree: 4%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 4%
 
    从左窗格中添加一个或多个区段，使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合它们，然后单击&#x200B;**[!UICONTROL Select]**&#x200B;进行确认。
 
-   有关如何使用区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
+   有关如何使用区段的更多信息，请参阅[此页面](../../segment/about-segments.md)。
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->创建决策后，您可以单击列表中的其名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡显示对其所做的所有更改（请参阅[选件和决策更改日志](../get-started/user-interface.md#changes-log)）。
+>创建决策后，您可以在列表中单击其名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡显示对其所做的所有更改。 [了解详情](../get-started/user-interface.md#changes-log)。
 
 ## 教程视频 {#video}
 
