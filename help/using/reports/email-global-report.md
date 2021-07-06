@@ -1,18 +1,18 @@
 ---
 title: 通过电邮发送全局报告
 description: 了解如何使用电子邮件全局报告中的数据
-feature: 报表
+feature: 报告
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
-# 电子邮件全局报告{#email-global-report}
+# 通过电邮发送全局报告 {#email-global-report}
 
 电子邮件&#x200B;**[!UICONTROL Global report]**&#x200B;仅定向特定的电子邮件投放。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Click Rate]**:投放中的点击次数百分比。
 
-* **[!UICONTROL Spam Complaint Rate]**:收件人标记为垃圾邮件的电子邮件与已发送邮件的百分比。有关投诉的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)。
+* **[!UICONTROL Spam Complaint Rate]**:收件人标记为垃圾邮件的电子邮件与已发送邮件的百分比。有关投诉的更多信息，请参阅[投放能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}。
 
 * **[!UICONTROL Unsubscribe Rate]**:独特退订与已投放消息数量的百分比。此指示器不依赖于退订链接的点击次数，而是基于收件人启动的退订次数。 在此[page](../consent.md)中了解有关取消订阅的更多信息。
 
