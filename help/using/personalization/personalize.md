@@ -5,7 +5,7 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Beginner
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 探索[!DNL Adobe Journey Optimizer]个性化功能，通过利用您拥有的关于他/她的数据和信息，使您的消息适应每个特定收件人。 这可以是他的名字、兴趣、居住地、购买的东西等。
 
-[!DNL :arrow_forward:] [了解如何在这些视频中个性化消息](#video-perso)
+➡️ [了解如何对这些视频中的消息进行个性化](#video-perso)
 
 [!DNL Journey Optimizer] 使用基 **** 于Handlebars的inlinesimple个性化语法，该语法允许您创建内容由双大括号包&#x200B;**围的表达式{{}}**。您可以在同一内容或字段中添加多个表达式，而不受限制。请参阅[个性化语法](personalization-syntax.md)，以了解更多信息。
 
