@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 5%
 
 本开发人员指南提供了帮助您开始使用[!DNL Offer Library] API的步骤。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 ## 先决条件
 
 本指南要求您对Adobe Experience Platform的以下组件有一定的了解：
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans):用于组织客户体验数 [!DNL Experience Platform] 据的标准化框架。
-   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html):了解XDM模式的基本构建块。
+   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans):了解XDM模式的基本构建块。
 * [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):通常说明用于Experience Decisioning的概念和组件，特别是Offer decisioning。说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html):PQL是一种用于通过XDM实例编写表达式的强大语言。PQL用于定义决策规则。
 
