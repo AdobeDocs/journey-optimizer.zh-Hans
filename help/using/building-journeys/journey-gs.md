@@ -5,7 +5,7 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 7%
@@ -153,7 +153,7 @@ ht-degree: 7%
 
 * 通过&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;按钮手动关闭历程。
 * 基于一次性区段的历程，已完成执行。
-* 在上次发生基于定期区段的历程之后。
+* 在基于定期客户细分的历程的最后一次发生之后。
 
 当历程关闭（出于上述任何原因）时，其状态将为&#x200B;**[!UICONTROL Closed]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 
