@@ -5,9 +5,9 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_3.png)
 
-1. 可以使用&#x200B;**[!UICONTROL Component settings]**&#x200B;部分进一步自定义每个组件。 例如，您可以更改组件的文本样式、内边距或边距。 [进一步了解电子邮件编辑器中的样式](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html)。
+1. 可以使用&#x200B;**[!UICONTROL Component settings]**&#x200B;部分进一步自定义每个组件。 例如，您可以更改组件的文本样式、内边距或边距。 在[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}的电子邮件编辑器中了解有关样式的更多信息。
 
    ![](assets/email_designer_4.png)
 
