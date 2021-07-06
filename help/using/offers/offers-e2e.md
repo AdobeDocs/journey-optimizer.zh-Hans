@@ -5,14 +5,14 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 3%
 
 ---
 
-# 用例：配置个性化选件以在电子邮件{#configure-add-personalized-offers-email}中使用它们
+# 用例：配置个性化选件以在电子邮件中使用它们 {#configure-add-personalized-offers-email}
 
 此部分提供一个端到端示例，以展示如何根据您之前创建的决策，在电子邮件中配置和使用选件。
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 ![](../assets/offers-e2e-process.png)
 
-## 定义组件{#define-components}
+## 定义组件 {#define-components}
 
 在开始创建选件之前，您必须定义要在选件中使用的多个组件。
 
@@ -109,7 +109,7 @@ ht-degree: 3%
    >
    >在本例中，我们将仅使用优先级得分。 了解有关[资格规则和约束的更多信息](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
 
-## 配置选件{#configure-offers}
+## 配置选件 {#configure-offers}
 
 您现在可以创建和配置选件。 在此示例中，您将创建四个选件，以根据每个特定的配置文件显示这些选件。
 
@@ -131,7 +131,7 @@ ht-degree: 3%
 
    ![](../assets/offers-e2e-representations.png)
 
-1. 在&#x200B;**[!UICONTROL Offer eligiblity]**&#x200B;部分中，选择&#x200B;**[!UICONTROL By defined decision rule]**&#x200B;并拖放您选择的规则。
+1. 在&#x200B;**[!UICONTROL Offer eligibility]**&#x200B;部分中，选择&#x200B;**[!UICONTROL By defined decision rule]**&#x200B;并拖放您选择的规则。
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -186,7 +186,7 @@ ht-degree: 3%
 
 有关创建集合的详细步骤，请参见[此部分](../../using/offers/offer-library/creating-collections.md)。
 
-## 配置决策{#configure-decision}
+## 配置决策 {#configure-decision}
 
 现在，您必须创建一个决策，以将版面与您刚刚创建的个性化选件和备用选件结合使用。
 
@@ -220,7 +220,7 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 有关创建和配置决策的详细步骤，请参见[此部分](../../using/offers/offer-activities/create-offer-activities.md)。
 
-## 在电子邮件{#insert-decision-in-email}中插入决策
+## 在电子邮件中插入决策 {#insert-decision-in-email}
 
 现在，您的决策已开始实时，您可以将其插入电子邮件。 要实现此目的，请执行以下步骤：
 
