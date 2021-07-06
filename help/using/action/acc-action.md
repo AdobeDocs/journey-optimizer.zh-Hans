@@ -1,18 +1,18 @@
 ---
-title: 与Adobe Campaign v7/v8集成
+title: 与 Adobe Campaign v7/v8 集成
 description: 了解如何与Adobe Campaign v7/v8集成
 feature: 操作
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
-# 与Adobe Campaign v7/v8集成{#integrating-with-adobe-campaign-classic}
+# 与 Adobe Campaign v7/v8 集成 {#integrating-with-adobe-campaign-classic}
 
 此集成适用于从21.1版本开始的Adobe Campaign Classic v7和Adobe Campaign v8。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
 
@@ -36,7 +36,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 ## 先决条件
 
-在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
+在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
 
 您可以按照以下模式构建与每个消息对应的JSON有效负载。 然后，在Journey Orchestration中配置操作时，您将粘贴此有效负载（请参阅下文）
 
