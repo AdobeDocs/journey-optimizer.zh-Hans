@@ -5,9 +5,9 @@ feature: 应用程序设置
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 1%
 
 配置消息预设后，在从&#x200B;**[!UICONTROL Presets]**&#x200B;列表创建消息时，可以选择这些预设。
 
-## 创建消息预设{#create-message-preset}
+![](../assets/do-not-localize/how-to-video.png) [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
+
+## 创建消息预设 {#create-message-preset}
 
 要创建消息预设，请执行以下步骤：
 
@@ -148,3 +150,8 @@ ht-degree: 1%
    >
    >无法删除已停用的消息预设，以避免在使用这些预设发送消息的历程中出现任何问题。
 
+## 操作方法视频{#video-presets}
+
+了解如何创建消息预设、如何使用这些预设以及如何委派子域和创建IP池。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
