@@ -6,22 +6,22 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
 
 ---
 
-# 发布消息{#publish-manage-messages}
+# 发布消息 {#publish-manage-messages}
 
-## 发布消息{#publish-message}
+## 发布消息 {#publish-message}
 
 创建消息后，可以将其发布以供执行。
 
 >[!CAUTION]
 >
->在发布之前，请检查并解析警报。 [了解详情](alerts.md)。
+>在发布之前，请检查并解析警报。 [了解详情](alerts.md)
 
 ![](assets/publish-message.png)
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 现在，它已准备好由一个或多个[journeys](building-journeys/journey.md)触发。
 
-## 更新只读消息{#modify-message}
+## 更新只读消息 {#modify-message}
 
 发布后，消息将处于只读模式。 您仍可以通过创建该消息的新草稿来更新它。
 
