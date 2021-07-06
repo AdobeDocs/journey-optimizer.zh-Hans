@@ -6,10 +6,10 @@ feature: 对照组
 topic: 管理
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 18%
+source-wordcount: '726'
+ht-degree: 15%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 18%
 
 ![](../assets/access_control_1.png)
 
-## 编辑现有产品配置文件{#edit-product-profile}
+## 编辑现有产品配置文件 {#edit-product-profile}
 
 对于现成或自定义的&#x200B;**[!UICONTROL Product profiles]**，您可以随时决定添加或删除权限。
 
@@ -101,7 +101,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] 允许您创建自己的 **[!UICONTROL Product profiles]** 权限，并为用户分配一组权限和沙箱。通过&#x200B;**[!UICONTROL Product profiles]**，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
+有关如何创建和管理沙箱的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 在此示例中，我们将创建名为&#x200B;**历程只读**&#x200B;的产品配置文件，在该配置文件中，我们将授予历程功能的只读权限。 用户将只能访问和查看历程，而无法访问其他功能，如[!DNL Journey Optimizer]中的&#x200B;**[!UICONTROL Decision management]**&#x200B;或&#x200B;**[!UICONTROL Messages]**。
 
@@ -141,7 +141,7 @@ ht-degree: 18%
 
    ![](../assets/access_control_13.png)
 
-1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[进一步了解沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
+1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[进一步了解沙箱](sandboxes.md)。
 
 1. 完成后，单击 **[!UICONTROL Save]**。
 
