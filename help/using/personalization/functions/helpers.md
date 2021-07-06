@@ -1,19 +1,19 @@
 ---
-title: 帮助者
-description: 帮助者
+title: 辅助程序
+description: 辅助程序
 feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# 帮助程序{#gs-helpers}
+# 辅助程序 {#gs-helpers}
 
 ## 条件{#if-function}
 
