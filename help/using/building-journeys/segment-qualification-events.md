@@ -5,14 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 80%
+ht-degree: 76%
 
 ---
 
-# 区段鉴别事件{#segment-qualification}
+# 区段鉴别事件 {#segment-qualification}
 
 ## 关于客户细分资格事件{#about-segment-qualification}
 
@@ -49,13 +49,13 @@ ht-degree: 80%
 
    ![](../assets/segment-copy.png)
 
-1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;字段中，选择要侦听客户细分入口和/或出口。
+1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;字段中，选择是侦听客户细分入口和/或出口。
 
    >[!NOTE]
    >
    >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
-1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。
+1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
 
    ![](../assets/segment7.png)
 
