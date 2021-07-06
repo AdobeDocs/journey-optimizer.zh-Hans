@@ -5,14 +5,14 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
 
-# 预览并测试消息{#preview-and-proof}
+# 预览和测试消息{#preview-and-proof}
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入[个性化内容](personalization/personalize.md)，则将能够利用测试用户档案数据检查此内容在消息中的显示方式。
 
@@ -23,7 +23,6 @@ ht-degree: 0%
 >您需要提供测试用户档案才能预览消息和发送校样。
 >
 >了解如何在[此页面](building-journeys/creating-test-profiles.md)中创建测试用户档案。
-
 
 要测试消息内容，您需要：
 
@@ -38,6 +37,7 @@ ht-degree: 0%
 >
 >预览消息或发送校样时，只显示用户档案个性化数据。 基于上下文数据（如事件信息）的个性化只能在历程的上下文中进行测试。 了解如何在[此用例](personalization/personalization-use-case.md)中测试个性化。
 
+![](assets/do-not-localize/how-to-video.png) [在此视频中了解如何预览、校样和发布电子邮件](#video-preview)
 
 ## 选择测试用户档案{#select-test-profiles}
 
@@ -166,3 +166,8 @@ ht-degree: 0%
 >
 >将&#x200B;**Litmus**&#x200B;帐户与[!DNL Journey Optimizer]连接时，您同意将测试消息发送到Litmus:发送后，这些电子邮件将不再由Adobe管理。 因此，Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。
 
+## 操作方法视频{#video-preview}
+
+了解如何测试收件箱中的电子邮件呈现，如何根据测试用户档案预览个性化电子邮件、发送校样和发布电子邮件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
