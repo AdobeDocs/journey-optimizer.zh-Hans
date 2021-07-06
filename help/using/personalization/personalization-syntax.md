@@ -5,7 +5,7 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 5%
@@ -111,17 +111,17 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 来自决策引擎的选件的HTML内容：
+* 来自决策引擎的优惠的HTML内容：
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helpers{#helpers-all}
+## 辅助程序{#helpers-all}
 
 Handlebars助手是一个简单的标识符，其后可能跟有参数。
 每个参数都是Handlebars表达式。 这些帮助程序可以从模板中的任何上下文访问。
 
-这些块帮助程序由帮助程序名称前面的#标识，并且需要具有相同名称的匹配闭合/。
+这些块帮助程序由帮助程序名称前的#标识，并且需要同名的匹配闭合/。
 块是具有块开启({{# }})和关闭({{/}})的表达式。
 
 
