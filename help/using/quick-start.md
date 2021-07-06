@@ -5,10 +5,10 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 46%
+ht-degree: 42%
 
 ---
 
@@ -57,4 +57,4 @@ ht-degree: 46%
 
 * **创建历程**：发送消息，利用背景数据，优化受众，设计和执行多步骤用例。[了解更多信息](building-journeys/journey.md)
 
-* **监测消息和历程**：控制消息执行，检查消息和历程报告，跟进可投放性指标。[了解更多信息](message-monitoring.md)
+* **监控消息和历程**:控制消息执行、检查消息和历程报告、跟踪投放能力量度。[了解更多信息](message-monitoring.md)
