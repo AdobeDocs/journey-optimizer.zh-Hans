@@ -5,14 +5,14 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Beginner
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 51%
+source-wordcount: '196'
+ht-degree: 38%
 
 ---
 
-# Adobe Journey Optimizer 文档 {#cjm-documentation}
+# Adobe[!DNL Journey Optimizer]文档 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -26,7 +26,7 @@ ht-degree: 51%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">什么是 Journey Optimizer？</a>
+      <a href="using/get-started.md">什么是[!DNL Journey Optimizer]?</a>
     </div>
     <p>了解主要功能以及如何入门
     <p>
@@ -67,6 +67,9 @@ ht-degree: 51%
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer产品说明</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans">Adobe Experience Platform文档</a>
     </div>
       <div>
@@ -100,18 +103,18 @@ ht-degree: 51%
     <p>
     <p>内容管理</p>
     <li>
-      <a href="using/assets-essentials.md">资产</a>
+      <a href="using/assets-essentials.md">资源</a>
     </li>
     <p>
     <p>数据管理</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans">模式 (Schema)</a>
+      <a href="using/get-started-schemas.md">模式 (Schema)</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans">数据集</a>
+      <a href="using/get-started-datasets.md">数据集</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=zh-Hans">查询</a>
+      <a href="using/get-started-queries.md">查询</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans">监控</a>
@@ -119,7 +122,7 @@ ht-degree: 51%
     <p>
     <p>连接</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans">源</a>
+      <a href="using/get-started-sources.md">源</a>
     </li>
     <p>
     <p>客户</p>
@@ -127,10 +130,10 @@ ht-degree: 51%
       <a href="using/segment/about-segments.md">区段</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans">配置文件</a>
+      <a href="using/get-started-profiles.md">配置文件</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">身份</a>
+      <a href="using/get-started-identity.md">身份</a>
     </li>
     <p>
     <p>管理</p>
