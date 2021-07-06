@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->创建决策后，您可以单击列表中的其名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡查看对其所做的所有更改（请参阅[选件和决策更改日志](../get-started/user-interface.md#changes-log)）。
+>创建决策后，您可以单击列表中的其名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡显示对其所做的所有更改（请参阅[选件和决策更改日志](../get-started/user-interface.md#changes-log)）。
 
 ## 教程视频 {#video}
 
