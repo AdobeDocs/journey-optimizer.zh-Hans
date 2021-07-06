@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 标记还可用于将选件组合到选件收藏集中。 请参阅[创建集合](../offer-library/creating-collections.md)。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 可在&#x200B;**[!UICONTROL Components]**&#x200B;菜单中访问已创建标记的列表。
 
