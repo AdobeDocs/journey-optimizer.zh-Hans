@@ -5,10 +5,10 @@ feature: 个性化
 topic: 个性化
 role: Data Engineer
 level: Beginner
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -90,10 +90,10 @@ ht-degree: 13%
 屏幕的左侧部分显示一个域选择器，用于选择个性化的源。 可用源包括：
 
 * **用户档案** :列出与Adobe Experience Platform数据模型(XDM)文档中所述的配 [置文件架构关联的所有引用](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
-* **区段成员资格** :列出在Adobe Experience Platform分段服务中创建的所有区段。有关可用分段的更多信息（[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)）
-* **选件** :列出与特定版面关联的所有选件。选择版面，然后在内容中插入选件。 有关如何管理选件的完整文档，请参阅[此部分](../deliver-personalized-offers.md)
-* **上下文** :在历程 **** 中使用消息活动时，此菜单中提供了上下文历程字段。[在本节](personalization-use-case.md)中了解详情
-* **帮助程序函数** :列出可用于对数据执行操作的所有帮助程序函数，例如计算、数据格式或转化、条件，并在个性化环境中处理这些函数。[在本节](functions/functions.md)中了解详情
+* **区段成员资格** :列出在Adobe Experience Platform分段服务中创建的所有区段。有关可用分段的更多信息，请参见[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)。
+* **选件** :列出与特定版面关联的所有选件。选择版面，然后在内容中插入选件。 有关如何管理选件的完整文档，请参阅[此部分](../deliver-personalized-offers.md)。
+* **上下文** :在历程 **** 中使用消息活动时，此菜单中提供了上下文历程字段。在[此部分](personalization-use-case.md)中了解详情。
+* **帮助程序函数** :列出可用于对数据执行操作的所有帮助程序函数，例如计算、数据格式或转化、条件，并在个性化环境中处理这些函数。在[此部分](functions/functions.md)中了解详情。
 
 选择后，将在编辑器中添加引用。
 
