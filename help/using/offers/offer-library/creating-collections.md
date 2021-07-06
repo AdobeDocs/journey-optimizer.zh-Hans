@@ -5,7 +5,7 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 收藏集允许您通过将选件重组为所选的类别来组织选件。 例如，您可以创建一个“体育”收藏集，该收藏集将仅包含与体育相关的选件。
 
-![](../../assets/do-not-localize/how-to-video.png) [在视频中发现此功能](#video)
+➡️ [在视频中发现此功能](#video)
 
 可通过&#x200B;**[!UICONTROL Offers]**&#x200B;菜单访问选件集合列表。
 
