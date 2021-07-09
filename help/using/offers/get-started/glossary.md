@@ -1,14 +1,14 @@
 ---
-title: 选件术语表
-description: 优惠词汇表
+title: 优惠术语表
+description: 优惠术语表
 feature: 优惠
-topic: 集成
+topic: 积分法
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
