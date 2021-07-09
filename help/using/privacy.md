@@ -1,5 +1,5 @@
 ---
-title: '隐私 in [!DNL Journey Optimizer] '
+title: '隐私在  [!DNL Journey Optimizer] '
 description: 了解如何管理隐私
 topic: 隐私
 role: User
@@ -7,14 +7,14 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
 
-# 使用[!DNL Journey Optimizer]进行隐私管理{#privacy}
+# 使用 [!DNL Journey Optimizer] 进行隐私管理{#privacy}
 
-[!DNL Journey Optimizer] 是一款用于处理大量数据（包括个人信息和敏感数据）的强大工具。为了提供更好的客户体验，您需要收集和存储客户的个人数据。 使用此数据时，了解并尊重客户的隐私至关重要。 新的法律和组织法规正在为用户提供权利，根据请求，有权从您的数据存储中访问或删除其个人数据。
+[!DNL Journey Optimizer] 是一款用于处理大量数据（包括个人信息和敏感数据）的强大工具。为了提供更好的客户体验，您需要收集和存储客户的个人数据。使用此类数据时，理解并尊重客户的隐私至关重要。新的法律和组织规定正在用户提供相应的权利，允许他们请求访问或删除您的数据存储中的用户个人数据。
 
 * **个人数据**&#x200B;是指可以直接或间接识别生命个体的信息。
 * **敏感个人数据**&#x200B;是与个人的种族、政治观点、宗教信仰、犯罪背景、遗传信息、健康数据、性取向、生物识别信息以及贸易同盟会员资格相关的信息。
