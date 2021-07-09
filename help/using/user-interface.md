@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 74%
+ht-degree: 93%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->* 浏览用户界面时的主要概念与Adobe Experience Platform相同。 有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+>* 浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
    >
    >
-* 此文档经常更新以反映产品用户界面中的最新更改。 但是，某些屏幕截图可能与用户界面略有不同。
+* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
    >
    > 
-* UI中可用的组件和功能取决于您的权限和许可包。 如有任何问题，请联系您的Adobe客户成功经理。
+* UI 中可用的组件和功能取决于您的权限和许可方案。如有任何问题，请联系 Adobe 客户成功经理。
 
 
 ## 左侧导航
@@ -90,28 +90,28 @@ ht-degree: 74%
 
 ## 产品内用例
 
-从主页中利用[!DNL Adobe Journey Optimizer]用例，并提供一些快速输入以创建客户历程。
+在主页中利用 [!DNL Adobe Journey Optimizer]用例，快速输入一些信息以创建客户历程。
 
 ![](assets/use-cases-home.png)
 
 可用用例包括：
 
-* **创建测试用户档案**，以使用我们的CSV模板创建测试用户档案，以测试个性化消息和历程。在本页](building-journeys/creating-test-profiles.md#use-case-1)中了解如何实施此用例[。
-* **向客户发送生日消息**，以自动发送电子邮件，希望客户在生日前后看到该消息。（即将推出）
+* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。](building-journeys/creating-test-profiles.md#use-case-1)在本页中[了解如何实施此用例。
+* **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
 * **向载入新客户发送电子邮件**，以便轻松发送最多两封电子邮件以欢迎您的新注册客户。（即将推出）
-* **将推送消息发送到导入的客户列表**，以便快速向从CSV文件导入的客户列表发送推送通知。（即将推出）
+* **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
 
-单击&#x200B;**[!UICONTROL View details]**&#x200B;以了解有关每个用例的更多信息。
+单击 **[!UICONTROL View details]** 以了解关于每个用例的更多信息。
 
-单击&#x200B;**[!UICONTROL Begin]**&#x200B;按钮以开始使用案例。
+单击 **[!UICONTROL Begin]** 按钮开始实施用例。
 
-您可以通过&#x200B;**[!UICONTROL View use case library]**&#x200B;按钮访问已执行的用例。
+您可以通过 **[!UICONTROL View use case library]** 按钮访问已执行的用例。
 
 ## 查找帮助和支持
 
-从主页的下半部分访问Adobe Journey Optimizer关键帮助页面。
+从主页的下半部分访问 Adobe Journey Optimizer 关键帮助页面。
 
-使用&#x200B;**帮助**&#x200B;图标访问帮助页面、联系支持人员并分享反馈。 您可以从搜索字段搜索帮助文章和视频。
+使用&#x200B;**帮助**&#x200B;图标来访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
 
 ![](assets/ajo-help.png)
 
@@ -119,7 +119,7 @@ ht-degree: 74%
 
 Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中发挥最佳表现。在旧版本或其他浏览器上使用某些功能时可能会遇到问题。
 
-## 语言首选项
+## 语言偏好设置
 
 用户界面目前提供以下语言版本：
 
