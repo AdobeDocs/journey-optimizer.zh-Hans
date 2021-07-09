@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -87,7 +87,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## 选择退出时的 API 调用 {#opt-out-api}
+## 选择退出功能的 API 调用 {#opt-out-api}
 
 收件人通过单击取消订阅链接选择退出后，将调用 Adobe I/O API <!--Consent service API to capture the encrypted data and-->以更新相应用户档案的偏好设置。
 
@@ -129,19 +129,19 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## 标题中的取消订阅链接 {#unsubscribe-email}
+## 标头中的取消订阅链接 {#unsubscribe-email}
 
-如果收件人的电子邮件客户端支持在电子邮件标题中显示取消订阅链接，则随[!DNL Journey Optimizer]一起发送的电子邮件会自动包含此链接。
+如果收件人的电子邮件客户端支持在电子邮件标头中显示取消订阅链接，则使用 [!DNL Journey Optimizer] 发送的电子邮件会自动包含此链接。
 
-例如，取消订阅链接在Gmail中将如下所示：
+例如，取消订阅链接在 Gmail 中将会如下图这样显示：
 
 ![](assets/unsubscribe-email.png)
 
-根据电子邮件客户端的不同，单击标题中的取消订阅链接将产生以下影响之一：
+根据电子邮件客户端的不同，单击标头中的取消订阅链接将产生以下影响之一：
 
-* 相应的用户档案会立即退出，并且此选择将以Experience Platform更新。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}，以了解更多信息。
+* 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}，以了解更多信息。
 
-* 它与单击电子邮件内容的取消订阅链接具有相同的效果：收件人将被重定向到包含确认选择退出的按钮的登陆页面。 在[此部分](#opt-out-management)中了解有关选择退出管理的更多信息。
+* 它与单击电子邮件内容中的取消订阅链接具有相同的效果：收件人将被重定向至一个包含确认退订按钮的登陆页面。在[此部分中](#opt-out-management)中了解有关选择退出管理的更多信息。
 
 ## 推送退出管理 {#push-opt-out-management}
 
