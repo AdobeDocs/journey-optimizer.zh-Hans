@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 
 ## 术语表 {#glossary}
 
-您可以在下面找到使用决策管理时要使用的主要概念的列表。
+您可以在下方找到使用决策管理时会用到的主要概念的列表。
 
 * **上限**&#x200B;或&#x200B;**频率上限**：上限用作约束，以定义提供优惠的次数。有两种类型的上限：在合并的优惠受众中可以提议的优惠次数，也称为“总上限”；以及向同一最终用户提议优惠的次数，也称为“用户档案上限”。
 
