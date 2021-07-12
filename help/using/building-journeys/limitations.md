@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 添加多渠道消息时，将发送两条消息。
 
-## 历程版本限制{#journey-versions-limitations}
+## 历程版本限制 {#journey-versions-limitations}
 
 * 从v1中的事件活动开始的历程不能以其他版本中的事件以外的内容开头。 您无法以&#x200B;**区段鉴别**&#x200B;事件开始历程。
 * 从v1中的&#x200B;**区段鉴别**&#x200B;活动开始的历程必须始终以其他版本中的&#x200B;**区段鉴别**&#x200B;开始。
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 可以在客户历程中利用外部数据源来实时查找外部数据。 这些源必须通过REST API可用，支持JSON并能够处理请求量。
 
-## 历程在创建用户档案的同时开始{#journeys-limitation-profile-creation}
+## 历程从创建用户档案的同时开始 {#journeys-limitation-profile-creation}
 
 在Adobe Experience Platform中，创建/更新基于API的配置文件会存在延迟。 延迟方面的服务级别目标(SLT)从摄取到统一配置文件（针对第95个百分位数的请求）在每秒20K请求(RPS)的量下小于1分钟。
 
@@ -68,5 +68,4 @@ ht-degree: 0%
 
 ## 读取区段限制
 
-* 无法在1小时以内的较短时间内触发基于区段的历程。
 * 流式处理区段始终是最新的，但在检索时不会计算批处理区段。 它们仅在每日批量评估时间每天进行评估。
