@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 6%
+source-wordcount: '952'
+ht-degree: 7%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**Remailed**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会进入历程。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}。
+   >只有具有&#x200B;**Remiled**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会进入历程。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}。
 
    ![](../assets/read-segment-selection.png)
 
@@ -55,6 +55,8 @@ ht-degree: 6%
    >[!NOTE]
    >
    >属于某个区段、且其不同身份之间没有选定身份（命名空间）的个人无法进入历程。
+
+1. 在&#x200B;**[!UICONTROL Throttling rate]**&#x200B;字段中，定义读取区段活动的吞吐量。 此值存储在历程版本有效负载中。 默认值为17.000，且必须介于500到17000之间。
 
 1. 利用&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动，可指定区段进入历程的时间。 为此，请单击&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;链接以访问历程的属性，然后配置&#x200B;**[!UICONTROL Scheduler type]**&#x200B;字段。
 
