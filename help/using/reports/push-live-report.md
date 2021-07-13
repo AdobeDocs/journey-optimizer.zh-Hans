@@ -1,11 +1,11 @@
 ---
 title: 推送通知实时报告
 description: 了解如何使用推送通知实时报告中的数据
-feature: 报表
+feature: 报告
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -22,6 +22,8 @@ ht-degree: 2%
 
 推送&#x200B;**[!UICONTROL Live report]**&#x200B;分为不同的小组件，用于详细描述投放成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](live-report.md#modify-dashboard)。
 
+![](../assets/live_report_3.png)
+
 **[!UICONTROL Push notification performance]** 和小 **[!UICONTROL Push notification summary]** 组件使用图形和KPI详细描述与消息相关的主要信息：
 
 * **[!UICONTROL Sent]**:投放的发送总数。
@@ -37,6 +39,8 @@ ht-degree: 2%
 * **[!UICONTROL Actions]**:已送达推送通知的操作总数，例如按钮单击或解除。
 
 * **[!UICONTROL Engagements]**:此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。
+
+![](../assets/live_report_4.png)
 
 **[!UICONTROL Tracking by platform]**、**[!UICONTROL Sending by platform]**&#x200B;和&#x200B;**[!UICONTROL Breakdown by platform]**&#x200B;图表和表格根据操作系统详细列出了推送通知的成功情况。
 
