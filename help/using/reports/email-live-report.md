@@ -1,11 +1,11 @@
 ---
 title: 通过电邮发送实时报告
 description: 了解如何使用电子邮件实时报告中的数据
-feature: 报表
+feature: 报告
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -21,6 +21,8 @@ ht-degree: 2%
 ![](../assets/live_report.png)
 
 电子邮件&#x200B;**[!UICONTROL Live report]**&#x200B;分为不同的小组件，用于详细描述投放成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](live-report.md#modify-dashboard)。
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** 和小 **[!UICONTROL Email summary]** 组件使用图表和KPI详细描述与消息相关的主要信息：
 
@@ -43,6 +45,8 @@ ht-degree: 2%
 * **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+![](../assets/live_report_6.png)
 
 **[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
 
