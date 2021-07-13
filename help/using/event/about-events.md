@@ -3,9 +3,9 @@ title: 关于事件
 description: 了解事件
 feature: 事件
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 49%
