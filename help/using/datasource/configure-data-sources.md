@@ -3,9 +3,9 @@ title: 配置数据源
 description: 了解如何配置数据源
 feature: 数据源
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 14%
@@ -32,7 +32,7 @@ ht-degree: 14%
 
    数据源现已配置完毕，可随时用于您的历程。
 
-## 定义字段组{#define-field-groups}
+## 定义字段组 {#define-field-groups}
 
 字段组是可从数据源检索并在历程中使用的字段集。
 
@@ -54,7 +54,7 @@ ht-degree: 14%
 
 ![](../assets/journey3bis.png)
 
-## 字段组生命周期{#field-group-lifecycle}
+## 字段组生命周期 {#field-group-lifecycle}
 
 您可以从未在任何草稿或实时历程中使用的字段组添加或删除字段。
 
