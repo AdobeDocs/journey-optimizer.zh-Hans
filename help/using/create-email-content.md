@@ -5,9 +5,9 @@ feature: 概述
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1478'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](assets/email_designer_3.png)
 
-1. 可以使用&#x200B;**[!UICONTROL Component settings]**&#x200B;部分进一步自定义每个组件。 例如，您可以更改组件的文本样式、内边距或边距。 在[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}的电子邮件编辑器中了解有关样式的更多信息。
+1. 可以使用&#x200B;**[!UICONTROL Component settings]**&#x200B;部分进一步自定义每个组件。 例如，您可以更改组件的文本样式、内边距或边距。 [了解有关对齐和内边距的更多信息](#adjusting-vertical-alignment-and-padding)。
 
    ![](assets/email_designer_4.png)
 
@@ -209,7 +209,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更加灵活。
+   >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更灵活了。
 
    您也可以在列级别设置背景图像，但很少使用此方法。
 
