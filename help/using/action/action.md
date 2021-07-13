@@ -4,9 +4,9 @@ title: 关于操作
 description: 了解如何配置操作
 feature: 操作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 78%
