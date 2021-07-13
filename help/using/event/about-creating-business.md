@@ -3,9 +3,9 @@ title: 配置业务事件
 description: 了解如何创建业务事件
 feature: 事件
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 15%
@@ -27,7 +27,7 @@ ht-degree: 15%
 * 将业务事件作为历程的第一步删除时，历程的计划程序类型将为“业务事件”。
 * 在业务事件后，只能删除读取区段活动。 它将自动添加为下一步。
 * 业务事件的触发频率不能超过一小时。
-* 触发业务事件后，将区段从15分钟导出到最多1小时，这将会出现延迟。
+* 触发业务事件后，将区段从15分钟导出到最多1小时会出现延迟。
 * 测试业务事件时，必须传递事件参数以及将进入测试旅程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有可用的“代码视图”模式。
 * 如果新的业务事件到来，当前处于历程中的个人会发生什么情况？ 其行为与当新的重复发生时个人仍处于循环历程中的情况相同。 他们的路结束了。 因此，如果营销人员预计会发生频繁的业务事件，则必须注意避免构建过长的历程。
 
