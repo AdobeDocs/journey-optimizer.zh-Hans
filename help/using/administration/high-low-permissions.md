@@ -14,16 +14,16 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: 对照组
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
 
 ---
 
-# 权限级别{#high-low-permissions}
+# 权限级别 {#high-low-permissions}
 
 ![](../assets/do-not-localize/permissions.png)
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 例如，为&#x200B;**[!UICONTROL Journey administrator]**&#x200B;产品配置文件分配了&#x200B;**[!UICONTROL Manage journeys]**&#x200B;权限。 从此权限中，将产生低级权限，该权限将允许历程管理员写入、读取和删除历程。
 
-## 历程功能{#journey-capability}
+## 历程功能 {#journey-capability}
 
-### 管理历程权限{#manage-journeys}
+### 管理历程权限 {#manage-journeys}
 
 **[!UICONTROL Manage journeys]**&#x200B;高级权限允许用户创建新历程和编辑/删除现有访客，以及访问历程画布中用于构建历程流的对象。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    * datasets.read
    * schemas.read
 
-### 发布历程权限{#publish-journeys}
+### 发布历程权限 {#publish-journeys}
 
 **[!UICONTROL Publish journeys]**&#x200B;高级权限允许用户发布历程。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    * journeys.publish
    * journeys.read
 
-### 查看历程权限{#view-journeys}
+### 查看历程权限 {#view-journeys}
 
 **[!UICONTROL View journeys]**&#x200B;高级权限允许用户浏览和查看历程。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    * segments.read
    * profiles.read
 
-### 管理历程事件、数据源和操作权限{#manage-journeys-events}
+### 管理历程事件、数据源和操作权限 {#manage-journeys-events}
 
 **[!UICONTROL Manage journeys events, data sources and actions]**&#x200B;高级权限允许用户配置事件和数据配置。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### 查看历程事件、数据源和操作权限{#view-journeys-event}
+### 查看历程事件、数据源和操作权限 {#view-journeys-event}
 
 **[!UICONTROL View journeys events, data sources and actions]**&#x200B;高级权限允许用户在历程流中使用事件和数据。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### 查看历程报表权限{#view-journeys-report}
+### 查看历程报表权限 {#view-journeys-report}
 
 **[!UICONTROL View journeys report]**&#x200B;高级权限允许用户进行只读历程报告。
 
@@ -134,9 +134,9 @@ ht-degree: 0%
    * queries.write
    * queries.delete
 
-## 消息功能{#message-capability}
+## 消息功能 {#message-capability}
 
-### 管理消息权限{#manage-messages}
+### 管理消息权限 {#manage-messages}
 
 **[!UICONTROL Manage messages]**&#x200B;高级权限允许用户创建和编辑/删除消息。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
    * segments.read
    * schemas.read
 
-### 管理消息预览和测试权限{#mange-messages-preview}
+### 管理消息预览和测试权限 {#mange-messages-preview}
 
 **[!UICONTROL Manage messages preview and test]**&#x200B;高级权限允许用户预览个性化消息。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
    * queries.write
    * merge_policies.read
 
-### 发布消息权限{#publish-messages}
+### 发布消息权限 {#publish-messages}
 
 **[!UICONTROL Publish messages]**&#x200B;高级权限允许用户发布消息。
 
@@ -188,7 +188,7 @@ ht-degree: 0%
    * schemas.read
    * datasets.read
 
-### 查看消息权限{#view-messages}
+### 查看消息权限 {#view-messages}
 
 **[!UICONTROL View messages]**&#x200B;高级权限允许用户只读消息。
 
@@ -202,7 +202,7 @@ ht-degree: 0%
    * schemas.read
    * segments.read
 
-### 查看消息报告权限{#view-message-reports}
+### 查看消息报表权限 {#view-message-reports}
 
 **[!UICONTROL View messages report]**&#x200B;高级权限允许用户使用只读电子邮件和推送报表。
 
@@ -216,9 +216,9 @@ ht-degree: 0%
    * queries.delete
    * journey.read
 
-## 决策管理能力{#decisions-permissions}
+## 决策管理能力 {#decisions-permissions}
 
-### 管理决策权限{#manage-decisioning}
+### 管理决策权限 {#manage-decisioning}
 
 **[!UICONTROL Manage decisions]**&#x200B;高级权限允许用户创建新的&#x200B;**[!UICONTROL Activity entities]**&#x200B;并编辑/删除现有，以及管理这些活动中用于做出决策的对象。
 
@@ -244,7 +244,7 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### 查看决策权限{#view-decisions}
+### 查看决策权限 {#view-decisions}
 
 **[!UICONTROL View decisions]**&#x200B;高级权限允许用户使用现有活动和相关业务对象做出决策。
 
@@ -263,7 +263,7 @@ ht-degree: 0%
    * datasets.write
    * datasets.delete
 
-### 发布选件决策权限{#publish-decisions}
+### 发布选件决策权限 {#publish-decisions}
 
 **[!UICONTROL Publish offers decisioning]**&#x200B;高级权限允许用户访问批准/取消批准选件活动。
 
@@ -285,7 +285,7 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### 管理排名策略权限{#manage-decisions}
+### 管理排名策略权限 {#manage-decisions}
 
 **[!UICONTROL Manage ranking strategies]**&#x200B;高级权限允许用户读取、创建、编辑和删除自定义消息报告和使用操作功能。
 
@@ -299,9 +299,9 @@ ht-degree: 0%
    * offers.read
    * placements.read
 
-## 管理功能{#administration-permissions}
+## 管理能力 {#administration-permissions}
 
-### 管理子域委派权限{#manage-subdomain}
+### 管理子域委派权限 {#manage-subdomain}
 
 **[!UICONTROL Manage subdomains delegation]**&#x200B;高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
@@ -311,14 +311,14 @@ ht-degree: 0%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### 查看PTR记录权限{#view-ptr}
+### 查看PTR记录权限 {#view-ptr}
 
 **[!UICONTROL View PTR records]**&#x200B;高级权限允许用户查看已基于子域配置的PTR记录，并且包含以下低级权限：
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### 管理IP池权限{#manage-ip-pools}
+### 管理IP池权限 {#manage-ip-pools}
 
 **[!UICONTROL Manage IP pools]**&#x200B;高级权限允许用户创建、编辑和删除亲和度定义。
 
@@ -328,7 +328,7 @@ ht-degree: 0%
 * IP_pools.write
 * IP_pools.delete
 
-### 管理消息常规设置权限{#manage-message-settings}
+### 管理消息常规设置权限 {#manage-message-settings}
 
 **[!UICONTROL Manage messages general settings]**&#x200B;高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
 
@@ -342,7 +342,7 @@ ht-degree: 0%
 * Adobe Experience Platform特定：
    * schemas.read
 
-### 查看消息常规设置权限{#view-message-settings}
+### 查看消息常规设置权限 {#view-message-settings}
 
 **[!UICONTROL View messages general settings]**&#x200B;高级权限允许用户查看消息常规设置，如禁止规则或执行地址。
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 * Adobe Experience Platform特定：
    * schemas.read
 
-### 管理消息预设权限{#manage-message-presets}
+### 管理消息预设权限 {#manage-message-presets}
 
 **[!UICONTROL Manage messages presets]**&#x200B;高级权限允许用户在沙盒级别跨渠道创建、编辑和删除消息预设。
 
@@ -367,7 +367,7 @@ ht-degree: 0%
    * IP_pools.read
    * mobile_setting.read(从Adobe Experience Platform Launch)
 
-### 查看消息预设权限{#view-message-presets}
+### 查看消息预设权限 {#view-message-presets}
 
 **[!UICONTROL View messages presets]**&#x200B;高级权限允许用户查看消息预设，以便了解在创建消息时要使用的消息预设。
 
@@ -378,7 +378,7 @@ ht-degree: 0%
 * IP_pools.read
 * mobile_setting.read(从Adobe Experience Platform Launch)
 
-### 管理禁止规则权限{#manage-suppression-rules}
+### 管理禁止规则权限 {#manage-suppression-rules}
 
 **[!UICONTROL Manage suppression rules]**&#x200B;高级权限允许用户在将用户电子邮件地址添加到禁止列表之前定义退回次数。
 
@@ -388,7 +388,7 @@ ht-degree: 0%
 * suppression_rules.write
 * suppression_rules.delete
 
-### 查看禁止列表权限{#view-suppresion-list}
+### 查看禁止列表权限 {#view-suppresion-list}
 
 **[!UICONTROL View suppression list]**&#x200B;高级权限允许用户查看消息配置，包括消息预设和常规消息设置。
 
@@ -400,7 +400,7 @@ ht-degree: 0%
    * profiles.read
    * datasets.read
 
-### 导出禁止列表权限{#export-suppression-list}
+### 导出抑制列表权限 {#export-suppression-list}
 
 **[!UICONTROL Export suppression list]**&#x200B;高级权限允许用户配置消息配置，包括消息预设和常规消息设置。
 
