@@ -6,7 +6,7 @@ feature: 对照组
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 15%
@@ -39,17 +39,17 @@ ht-degree: 15%
 
 1. 选择 **[!UICONTROL Product profile]**。
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. 在选项卡 **[!UICONTROL Users]** 中，单击 **[!UICONTROL Add user]**。
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. 键入您的用户名或电子邮件地址，然后选择用户。
 
    如果用户之前未在[!DNL Admin Console]中创建，请参阅[添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. 执行与上述步骤相同的步骤，将其他用户添加到您的&#x200B;**[!UICONTROL Product profile]**&#x200B;中。 然后，单击&#x200B;**[!UICONTROL Save]**。
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
 访问实例时，您的用户将看到一个特定视图，具体视图取决于&#x200B;**[!UICONTROL Product profile]**&#x200B;中分配的权限。 如果用户无权访问某项功能，则将显示以下屏幕。
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## 编辑现有产品配置文件 {#edit-product-profile}
 
@@ -77,23 +77,23 @@ ht-degree: 15%
 
    **[!UICONTROL Permissions]**&#x200B;选项卡显示适用于&#x200B;**[!UICONTROL Experience Cloud - Platform powered applications]**&#x200B;产品的功能列表。
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. 选择&#x200B;**[!UICONTROL Messages]**&#x200B;功能。
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. 从&#x200B;**[!UICONTROL Available Permission Items]**&#x200B;列表中，单击加号(+)图标，选择要分配给&#x200B;**[!UICONTROL Product profile]**&#x200B;的权限。
 
    在此，我们添加&#x200B;**[!UICONTROL Publish messages]**&#x200B;权限。
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. 如果需要，请在 **[!UICONTROL Included Permission Items]** 下，单击删除您的产品用户档案权限旁边的 X 图标。
 
 1. 完成后，单击 **[!UICONTROL Save]**。
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 如果需要，您还可以创建具有特定权限的新产品用户档案。 有关更多信息，请参阅[创建产品配置文件](#create-product-profile)。
 
@@ -113,11 +113,11 @@ ht-degree: 15%
 
 1. 单击 **[!UICONTROL New Profile]**。
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. 为新的&#x200B;**[!UICONTROL product profiles]**&#x200B;添加&#x200B;**[!UICONTROL Product Profile Name]**、**[!UICONTROL Display Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. 在类别 **[!UICONTROL Notifications]** 中，选择在添加用户或从此产品用户档案中删除用户时，是否会通过电子邮件通知用户。
 
@@ -129,17 +129,17 @@ ht-degree: 15%
 
    在此，我们选择&#x200B;**[!UICONTROL Journeys]**&#x200B;功能。
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. 从&#x200B;**[!UICONTROL Available Permission Items]**&#x200B;列表中，单击加号(+)图标，选择要分配给&#x200B;**[!UICONTROL Product profile]**&#x200B;的权限。
 
    在此，我们选择&#x200B;**[!UICONTROL View journeys]**&#x200B;和&#x200B;**[!UICONTROL View journeys event, data sources, actions]**。
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. 选择&#x200B;**[!UICONTROL Sandbox access]**&#x200B;功能，以选择要分配给&#x200B;**[!UICONTROL Product profile]**&#x200B;的沙盒。
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[进一步了解沙箱](sandboxes.md)。
 
