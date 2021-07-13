@@ -1,10 +1,10 @@
 ---
 title: 文档更新
 description: 了解最新的文档更新
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 18%
+source-wordcount: '207'
+ht-degree: 17%
 
 ---
 
@@ -16,9 +16,10 @@ ht-degree: 18%
 
 ## 2021 年 7 月
 
-* 在[!DNL Journey Optimizer]主页和内容表中添加了指向Experience Platform服务文档的直接链接
+* 添加了指向[!DNL Journey Optimizer]主页和目录中Experience Platform服务文档的直接链接
+* [!DNL Journey Optimizer]中提供了Experience Platform服务的新登陆页面
 * 添加了指向主页中[!DNL Journey Optimizer]产品说明的链接
-* 在文档页面中添加了教程视频
+* 在多个页面中添加了教程视频
 * 优化了主页图像
 * 将“消息跟踪”部分移动、改进并重命名为“添加链接和跟踪消息”。 [了解更多信息](message-tracking.md)
 * 在镜像页面上添加了子部分。 [了解更多信息](message-tracking.md#mirror-page)
