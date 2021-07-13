@@ -4,9 +4,9 @@ title: 关于自定义操作配置
 description: 了解如何配置自定义操作
 feature: 操作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -64,7 +64,7 @@ ht-degree: 9%
    >
    >将根据以下[解析规则](https://tools.ietf.org/html/rfc7230#section-3.2.4)验证标头。
 
-## 定义操作参数{#define-the-message-parameters}
+## 定义操作参数 {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
