@@ -5,7 +5,7 @@ feature: 应用程序设置
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 配置消息预设后，在从&#x200B;**[!UICONTROL Presets]**&#x200B;列表创建消息时，可以选择这些预设。
 
-![](../assets/do-not-localize/how-to-video.png) [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
+➡️ [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
 
 ## 创建消息预设 {#create-message-preset}
 
