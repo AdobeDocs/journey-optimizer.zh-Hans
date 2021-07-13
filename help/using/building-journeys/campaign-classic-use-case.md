@@ -1,19 +1,19 @@
 ---
-title: 使用Campaign v7/v8发送消息
+title: 使用 Campaign v7/v8 发送消息
 description: 了解如何使用Campaign v7/v8发送消息
 feature: 操作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# 使用Campaign v7/v8 {#campaign-classic-use-case}发送消息
+# 使用 Campaign v7/v8 发送消息 {#campaign-classic-use-case}
 
 此用例介绍使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 
