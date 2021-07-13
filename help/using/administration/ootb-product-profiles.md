@@ -14,18 +14,18 @@ snippet: y
 exl-id: null
 feature: 对照组
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 内置产品配置文件{#ootb-product-profiles}
+# 内置产品配置文件 {#ootb-product-profiles}
 
-## 历程管理员{#journey-administrator}
+## 历程管理员 {#journey-administrator}
 
 **[!UICONTROL Journey Administrator]**&#x200B;产品配置文件允许管理菜单管理和发布历程、消息和决策管理。
 
@@ -39,7 +39,7 @@ ht-degree: 6%
 |决策管理|<ul><li>**管理决策**:读取、创建、编辑和删除决策。</li><li>**管理排名策略**:读取、创建、编辑和删除自定义消息报表以及使用操作功能。</li></ul>|
 |Adobe Experience Platform|<ul><li>**沙盒**:授予对沙箱的访问权限。</li><li>**管理区段**:读取、创建、编辑和删除区段。</li><li>**管理用户档案**:读取、创建、编辑和删除用户档案。</li><li>**读取数据集**:对数据集的只读访问权限。</li><li>**读取模式**:对架构的只读访问。</li><li>**读取身份命名空间**:对身份命名空间的只读访问权限。</li><li>**管理合并策略**:读取、创建、编辑和删除合并策略。</li></ul>|
 
-## 历程审批者{#journey-approver}
+## 历程审批者 {#journey-approver}
 
 **[!UICONTROL Journey Approver]**&#x200B;产品配置文件允许用户批准投放并发布它们。 他们稍后可以使用&#x200B;**[!UICONTROL Message]**&#x200B;和&#x200B;**[!UICONTROL Journey]**&#x200B;报表检查投放成功与否。
 
@@ -53,7 +53,7 @@ ht-degree: 6%
 |Adobe Experience Platform| <ul><li>**管理区段**:读取、创建、编辑和删除区段。</li><li>**管理用户档案**:读取、创建、编辑和删除用户档案。</li><li>**读取数据集**:对数据集的只读访问权限。</li><li>**读取模式**:对架构的只读访问。</li><li>**管理合并策略**:读取、创建、编辑和删除合并策略。</li></ul>|
 |管理| <ul><li>**查看消息预设**:对消息预设的只读访问权限。</li></ul>|
 
-## 历程管理器{#journey-manager}
+## 历程管理器 {#journey-manager}
 
 **[!UICONTROL Journey Manager]**&#x200B;产品配置文件允许用户创建和编辑&#x200B;**[!UICONTROL Journeys]**&#x200B;以及链接到&#x200B;**[!UICONTROL Journeys]**&#x200B;的所有功能，但将无法发布这些功能。
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 |Adobe Experience Platform| <ul><li> **管理区段**:读取、创建、编辑和删除区段。</li><li>**管理用户档案**:读取、创建、编辑和删除用户档案。</li><li>**读取数据集**:对数据集的只读访问权限。</li><li>**读取模式**:对架构的只读访问。</li><li>**管理合并策略**:读取、创建、编辑和删除合并策略。</li></ul>|
 |管理| <ul><li>**查看消息预设**:对消息预设的只读访问权限。</li></ul>|
 
-## 历程查看器{#journey-viewer}
+## 历程查看器 {#journey-viewer}
 
 **[!UICONTROL Journey viewer]**&#x200B;产品配置文件允许对&#x200B;**[!UICONTROL Journeys]**、**[!UICONTROL Goals]**、**[!UICONTROL Messages]**&#x200B;和&#x200B;**[!UICONTROL Decision management]**&#x200B;功能进行只读访问。
 
@@ -81,7 +81,7 @@ ht-degree: 6%
 |消息| <ul><li>**查看消息**:对消息的只读访问权限。</li><li>**查看消息报表**:对消息报表的只读访问权限。</li></ul>|
 |决策管理| <ul><li>**查看决策**:对决策实体的只读访问权限。</li></ul>|
 
-## 消息管理器{#message-manager}
+## 消息管理器 {#message-manager}
 
 **[!UICONTROL Message Manager]**&#x200B;产品配置文件允许用户创建和编辑&#x200B;**[!UICONTROL Messages]**&#x200B;和&#x200B;**[!UICONTROL Decision management]**，但将无法发布它们。
 
@@ -95,7 +95,7 @@ ht-degree: 6%
 |Adobe Experience Platform| <ul><li>**读取用户档案**:对用于预览和测试的配置文件的只读访问权限。</li><li>**读取数据集**:对数据集的只读访问权限。</li><li>**读取模式**:对架构的只读访问。</li><li>**管理合并策略**:读取、创建、编辑和删除合并策略。</li></ul>|
 |管理| <ul><li>**查看消息预设**:对消息预设的只读访问权限。</li></ul>|
 
-## 决策管理器{#decisioning-manager}
+## 决策管理器 {#decisioning-manager}
 
 **[!UICONTROL Decisioning manager]**&#x200B;产品配置文件仅允许使用&#x200B;**[!UICONTROL Decision management]**&#x200B;菜单。 分配给此产品配置文件的用户将只能管理、查看和发布决策。
 
