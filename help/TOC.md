@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 96%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 96%
 # [!DNL Journey Optimizer]帮助 {#using}
 
 + [Journey Optimizer文档](ajo-home.md)
++ [最近更新](using/documentation-updates.md)
 + 入门{#get-started}
    + [什么是 Journey Optimizer](using/get-started.md)
    + [快速入门](using/quick-start.md)
