@@ -1,18 +1,18 @@
 ---
-title: Adobe Campaign v7/v8操作
+title: Adobe Campaign v7/v8 操作
 description: 了解Adobe Campaign v7/v8操作
 feature: 操作
 topic: 管理
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 9ca747c4f46fd7eb24dbbf12350d7bbe409b1617
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Adobe Campaign v7/v8操作 {#using_campaign_classic}
+# Adobe Campaign v7/v8 操作 {#using_campaign_classic}
 
 如果您具有Adobe Campaign v7或v8，则集成可用。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
 
