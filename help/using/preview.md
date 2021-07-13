@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >预览消息或发送校样时，只显示用户档案个性化数据。 基于上下文数据（如事件信息）的个性化只能在历程的上下文中进行测试。 了解如何在[此用例](personalization/personalization-use-case.md)中测试个性化。
 
-![](assets/do-not-localize/how-to-video.png) [在此视频中了解如何预览、校样和发布电子邮件](#video-preview)
+➡️ [在此视频中了解如何预览、校样和发布电子邮件](#video-preview)
 
 ## 选择测试用户档案{#select-test-profiles}
 
@@ -168,6 +168,6 @@ ht-degree: 0%
 
 ## 操作方法视频{#video-preview}
 
-了解如何测试收件箱中的电子邮件呈现，如何根据测试用户档案预览个性化电子邮件、发送校样和发布电子邮件。
+了解如何跨收件箱测试电子邮件呈现，如何根据测试资料预览个性化电子邮件、发送验证和发布电子邮件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
