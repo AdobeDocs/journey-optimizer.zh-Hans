@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 93%
+source-wordcount: '729'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 ## 选择退出管理 {#opt-out-management}
 
-向收件人提供取消从品牌接收通信的功能是一项法律要求。详细了解[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target=&quot;_blank&quot;}中的适用法规。
+向收件人提供取消从品牌接收通信的功能是一项法律要求。详细了解[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}中的适用法规。
 
 因此，您必须在发送给收件人的每封电子邮件中都加入&#x200B;**取消订阅链接**：
 * 单击此链接后，收件人将被定向到一个包含确认取消订阅按钮的登陆页面。
@@ -79,7 +79,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
-要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}，以了解更多信息。
+要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}，以了解更多信息。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -127,7 +127,8 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 }
 ```
 
-<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+<!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
+<!--and provide an answer back to the landing page.-->
 
 ## 标头中的取消订阅链接 {#unsubscribe-email}
 
@@ -139,7 +140,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 根据电子邮件客户端的不同，单击标头中的取消订阅链接将产生以下影响之一：
 
-* 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}，以了解更多信息。
+* 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}，以了解更多信息。
 
 * 它与单击电子邮件内容中的取消订阅链接具有相同的效果：收件人将被重定向至一个包含确认退订按钮的登陆页面。在[此部分中](#opt-out-management)中了解有关选择退出管理的更多信息。
 
