@@ -4,10 +4,10 @@ description: 了解如何管理隐私
 topic: 隐私
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 86%
+source-wordcount: '773'
+ht-degree: 84%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 86%
 
 [!DNL Journey Optimizer] 继承了 Adobe Experience Platform 中所做的大多数数据集更改。
 
-因此，隐私请求（访问权和被遗忘权）是通过 Experience Platform 进行管理的。 您需要使用[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target=&quot;_blank&quot;}发送请求，并在[创建隐私请求](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans#request-builder){target=&quot;_blank&quot;}时，从产品列表中选择&#x200B;**配置文件**&#x200B;和&#x200B;**AEP数据湖**。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+因此，隐私请求（访问权和被遗忘权）是通过 Experience Platform 进行管理的。 您需要使用[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target=&quot;_blank&quot;}发送请求，并在[创建隐私请求](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}时，从产品列表中选择&#x200B;**配置文件**&#x200B;和&#x200B;**AEP数据湖**。 <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
