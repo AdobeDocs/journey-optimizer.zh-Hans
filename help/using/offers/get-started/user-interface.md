@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 95%
+source-wordcount: '604'
+ht-degree: 71%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 95%
 优惠库允许您在一个单一的位置创建和管理投放位置和优惠，并允许您访问所有创建的决策（以前称为“优惠活动”）。
 
 使用 **[!UICONTROL Offers]** 菜单管理个性化的后备优惠，将它们组织到收藏集中，然后通过创建决策来发送这些后备优惠：
+
+* **[!UICONTROL Overview]**:新 [!DNL Offer Decisioning]的？按照屏幕上的步骤，开始设置版面、选件和收藏集。 如果已经熟悉[!DNL Offer Decisioning]，请获取有关最新选件、收藏集和决策的概述。 请参阅[概述](#overview)。
 
 * **[!UICONTROL Offers]**：访问您的个性化的后备优惠或创建新后备优惠。请参阅[创建优惠](../offer-library/creating-personalized-offers.md)和[创建后备优惠](../offer-library/creating-fallback-offers.md)。
 
@@ -37,6 +39,30 @@ ht-degree: 95%
 * **[!UICONTROL Rankings]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪些优惠。请参阅[创建排名公式](../offer-library/create-ranking-formulas.md)。
 
 ![](../../assets/offer_activities.png)
+
+## 概述 {#overview}
+
+当您是[!DNL Offer Decisioning]的新用户时， **[!UICONTROL Overview]**&#x200B;选项卡会引导您完成开始构建第一个选件决策所需的主要步骤。
+
+![](../../assets/overview_onboarding.png)
+
+按照屏幕上的步骤开始创建版面、选件和收藏集。
+
+完成这些首要步骤后，系统会提示您创建选件决策（以前称为选件活动）。
+
+![](../../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>创建选件并在决策中使用这些选件的主要步骤，请参见[此部分](../offer-library/key-steps.md)。
+
+如果您更熟悉[!DNL Offer Decisioning]并且已经创建了至少一个选件决策，则&#x200B;**[!UICONTROL Overview]**&#x200B;选项卡会显示您最近的选件、收藏集和决策。
+
+单击选件或决定直接访问选定项目的详细信息。
+
+单击&#x200B;**[!UICONTROL View all]**&#x200B;按钮以访问选件、收藏集或决策列表。
+
+![](../../assets/overview_view-all.png)
 
 ## 搜索和筛选信息
 
