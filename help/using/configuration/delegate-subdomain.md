@@ -15,10 +15,10 @@ feature: 应用程序设置
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,9 @@ ht-degree: 10%
 
    >[!CAUTION]
    >
-   >确保输入了有效的子域，如marketing.company.com。 不允许将无效的子域委派到Adobe。
+   >不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
+   >
+   >请注意，当前不支持多级子域，如email.marketing.yourcompany.com。
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
