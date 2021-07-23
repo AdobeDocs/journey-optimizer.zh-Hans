@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
+source-git-commit: 35536a6661983bc4b94336a0ffa088de3f4ca919
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 96%
+source-wordcount: '692'
+ht-degree: 95%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 96%
    + 创建和管理决策 {#create-manage-activities}
       + [创建决策](using/offers/offer-activities/create-offer-activities.md)
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
-   + 创建决策管理报表 {create-reports}
+   + 创建决策管理报告{#create-reports}
       + [决策管理事件入门](using/offers/reports/get-started-events.md)
       + [决策管理事件关键信息](using/offers/reports/key-information.md)
       + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)
