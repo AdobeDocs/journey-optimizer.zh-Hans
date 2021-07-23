@@ -4,9 +4,9 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 feature: 架构
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 ![](assets/schemas-home.png)
 
-了解如何在[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}中使用架构用户界面
+了解如何在[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}中使用架构用户界面
 
 [此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target=&quot;_blank&quot;}中提供了使用架构编辑器创建架构的分步文档
 
