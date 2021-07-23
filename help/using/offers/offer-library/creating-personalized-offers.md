@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 4%
+source-wordcount: '1161'
+ht-degree: 3%
 
 ---
 
@@ -98,6 +98,10 @@ ht-degree: 4%
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >[!DNL Journey Optimizer]当前不支持基于事件的选件。 如果您基于[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}创建决策规则，则无法在选件中利用该规则。
+
 1. 如果用户符合多个选件的条件，则定义选件的&#x200B;**[!UICONTROL Priority]**&#x200B;与其他选件相比。 优惠的优先级越高，与其他选件相比，优先级越高。
 
 1. 指定选件的&#x200B;**[!UICONTROL Capping]**，这表示该选件在所有用户中的显示总次数。 如果已在所有用户中按您在此字段中指定的次数交付选件，则其交付将停止。
@@ -118,19 +122,68 @@ ht-degree: 4%
 
 ## 查看选件 {#review}
 
-定义资格规则和约束后，将显示选件属性的摘要。 如果所有内容配置正确，并且您的选件已准备好向用户显示，请单击&#x200B;**[!UICONTROL Finish]**，然后选择&#x200B;**[!UICONTROL Save and approve]**。
+定义资格规则和约束后，将显示选件属性的摘要。
 
-您还可以将选件另存为草稿，以便稍后进行编辑和批准。
+1. 确保已正确配置所有内容。
 
-![](../../assets/offer_review.png)
+1. 当您的选件已准备好向用户显示时，单击&#x200B;**[!UICONTROL Finish]**。
 
-选件会以&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Draft]**&#x200B;状态显示在列表中，具体取决于您在上一步中是否批准了该选件。
+1. 选择 **[!UICONTROL Save and approve]**。
 
-现在，它已准备好交付给用户。 您可以选择它以显示其属性，并编辑或隐藏该属性。
+   ![](../../assets/offer_review.png)
+
+   您还可以将选件另存为草稿，以便稍后进行编辑和批准。
+
+选件会以&#x200B;**[!UICONTROL Approved]**&#x200B;或&#x200B;**[!UICONTROL Draft]**&#x200B;状态显示在列表中，具体取决于您在上一步中是否批准了该选件。
+
+现在，它已准备好交付给用户。
 
 ![](../../assets/offer_created.png)
 
-创建选件后，您可以单击列表中的选件名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡监控对该选件所做的所有更改。 [了解详情](../get-started/user-interface.md#monitoring-changes)。
+## 选件列表 {#offer-list}
+
+从选件列表中，您可以选择选件以显示其属性。 您还可以编辑选件、更改其状态（**草稿**、**已批准**、**已存档**）、复制选件或将其删除。
+
+![](../../assets/offer_created.png)
+
+选择&#x200B;**[!UICONTROL Edit]**&#x200B;按钮以返回到选件编辑模式，在该模式下，您可以修改选件的[details](#create-offer)、[表示](#representations)，以及编辑[资格规则和约束](#eligibility)。
+
+选择已批准的选件，然后单击&#x200B;**[!UICONTROL Undo approve]**&#x200B;将选件状态重新设置为&#x200B;**[!UICONTROL Draft]**。
+
+要再次将状态设置为&#x200B;**[!UICONTROL Approved]**，请选择现在显示的相应按钮。
+
+![](../../assets/offer_approve.png)
+
+**[!UICONTROL More actions]**&#x200B;按钮可启用下述操作。
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**:创建具有相同属性、表示、资格规则和约束的选件。默认情况下，新选件的状态为&#x200B;**[!UICONTROL Draft]**。
+* **[!UICONTROL Delete]**:从列表中删除选件。
+
+   >[!CAUTION]
+   >
+   >该选件及其内容将无法再访问。 此操作无法撤消。
+   >
+   >如果选件在收藏集或决策中使用，则无法删除它。 必须先从任何对象中删除选件。
+
+* **[!UICONTROL Archive]**:将选件状态设置为 **[!UICONTROL Archived]**。该选件仍可从列表中获取，但您无法将其状态重新设置为&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能复制或删除它。
+
+您还可以通过选中相应的复选框来同时删除或更改多个选件的状态。
+
+![](../../assets/offer_multiple-selection.png)
+
+如果要更改多个状态不同的选件的状态，则只会更改相关状态。
+
+![](../../assets/offer_change-status.png)
+
+创建选件后，您可以从列表中单击其名称。
+
+![](../../assets/offer_click-name.png)
+
+这样，您就可以访问该选件的详细信息。 选择&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡以[监视对选件所做的所有更改](../get-started/user-interface.md#monitoring-changes)。
+
+![](../../assets/offer_information.png)
 
 ## 教程视频 {#video}
 
