@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 4%
+source-wordcount: '814'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ## 创建决策 {#create-activity}
 
-1. 访问决策列表，然后单击&#x200B;**[!UICONTROL Create activity]**。
+1. 访问决策列表，然后单击&#x200B;**[!UICONTROL Create decision]**。
 
 1. 指定决策的名称及其开始和结束日期和时间，然后单击&#x200B;**[!UICONTROL Next]**。
 
@@ -83,26 +83,67 @@ ht-degree: 4%
 
 ## 查看并保存决策 {#review}
 
-如果所有内容配置正确，并且您的决策已准备好用于向客户展示选件，请单击&#x200B;**[!UICONTROL Finish]**，然后选择&#x200B;**[!UICONTROL Save and activate]**。
+如果一切配置正确，则会显示决策属性的摘要。
 
-您还可以将决定另存为草稿，以便在以后编辑和激活它。
+1. 确保已做好准备，可用于向客户展示选件。
+1. 单击 **[!UICONTROL Finish]**。
+1. 然后选择&#x200B;**[!UICONTROL Save and activate]**。
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   您还可以将决定另存为草稿，以便在以后编辑和激活它。
 
 此决策将以&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Draft]**&#x200B;状态显示在列表中，具体取决于您是否在上一步中激活了该决策。
 
-现在，它已准备好用于向客户交付选件。 您可以选择它以显示其属性，并编辑或隐藏该属性。
+现在，它已准备好用于向客户交付选件。
 
-有关交付选件的更多信息，请参阅以下章节：
+## 决策列表 {#decision-list}
 
-* [在消息中添加个性化优惠](../../deliver-personalized-offers.md)
-* [使用API提供优惠](../api-reference/decisions-api/deliver-offers.md)
+从决策列表中，您可以选择显示其属性的决策。 在此处，您还可以编辑它、更改其状态（**草稿**、**实时**、**完成**、**已存档**）、复制决定或删除它。
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->创建决策后，您可以在列表中单击其名称以访问详细信息，并使用&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡显示对其所做的所有更改。 [了解详情](../get-started/user-interface.md#changes-log)。
+选择&#x200B;**[!UICONTROL Edit]**&#x200B;按钮以返回到决策版模式，在该模式中，您可以修改决策的[details](#create-activity)、[决策范围](#add-decision-scopes)和[后备选件](#add-fallback)。
+
+选择实时决策，然后单击&#x200B;**[!UICONTROL Deactivate]**&#x200B;将决策状态重新设置为&#x200B;**[!UICONTROL Draft]**。
+
+要再次将状态设置为&#x200B;**[!UICONTROL Live]**，请选择现在显示的&#x200B;**[!UICONTROL Activate]**&#x200B;按钮。
+
+![](../../assets/decision_activate.png)
+
+**[!UICONTROL More actions]**&#x200B;按钮可启用下述操作。
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**:将决策的状态设置 **[!UICONTROL Complete]**&#x200B;为，这意味着不能再调用决策。此操作仅适用于已激活的决策。 该决策仍可从列表中获取，但您无法将其状态重新设置为&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能复制、删除或存档它。
+
+* **[!UICONTROL Duplicate]**:创建具有相同属性、决策范围和备用选件的决策。默认情况下，新决策的状态为&#x200B;**[!UICONTROL Draft]**。
+
+* **[!UICONTROL Delete]**:从列表中删除决策。
+
+   >[!CAUTION]
+   >
+   >该决策及其内容将无法再访问。 此操作无法撤消。
+   >
+   >如果决策在其他对象中使用，则无法删除该决策。
+
+* **[!UICONTROL Archive]**:将决策状态设置为 **[!UICONTROL Archived]**。该决策仍可从列表中获取，但您无法将其状态重新设置为&#x200B;**[!UICONTROL Draft]**&#x200B;或&#x200B;**[!UICONTROL Approved]**。 您只能复制或删除它。
+
+您还可以通过选中相应的复选框，同时删除或更改多个决策的状态。
+
+![](../../assets/decision_multiple-selection.png)
+
+如果要更改具有不同状态的多个决策的状态，则只会更改相关状态。
+
+![](../../assets/decision_change-status.png)
+
+创建决策后，您可以在列表中单击其名称。
+
+![](../../assets/decision_click-name.png)
+
+这样，您就可以访问该决策的详细信息。 选择&#x200B;**[!UICONTROL Change log]**&#x200B;选项卡以[监视对决策所做的所有更改](../get-started/user-interface.md#changes-log)。
+
+![](../../assets/decision_information.png)
 
 ## 教程视频 {#video}
 
