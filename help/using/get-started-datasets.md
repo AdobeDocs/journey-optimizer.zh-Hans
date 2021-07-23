@@ -4,10 +4,10 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 feature: 数据集
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 12%
+source-wordcount: '259'
+ht-degree: 24%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 12%
 
 ## 操作方法视频{#video-dataset}
 
-了解如何创建数据集、将其映射到架构、向其添加数据，以及确认已摄取数据。
+了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **另请参阅**
 
 * [在Journey Optimizer中创建架构、数据集和摄取数据以添加测试用户档案](building-journeys/creating-test-profiles.md)
-* [流摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
-* [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}
+* [流摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
 
