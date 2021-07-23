@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 7%
+source-wordcount: '950'
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**Remiled**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会进入历程。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}。
+   >只有具有&#x200B;**Remiled**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会进入历程。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
    ![](../assets/read-segment-selection.png)
 
