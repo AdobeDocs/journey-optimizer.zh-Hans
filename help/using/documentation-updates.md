@@ -1,10 +1,10 @@
 ---
 title: 文档更新
 description: 了解最新的文档更新
-source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
+source-git-commit: 3d0404651ebd39b29cf3fc64152359e1b5b479f5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 17%
+source-wordcount: '253'
+ht-degree: 15%
 
 ---
 
@@ -30,6 +30,9 @@ ht-degree: 17%
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 [了解更多信息](building-journeys/journey-gs.md#change-properties)
 * 在历程列表屏幕中，添加了历程类型过滤器。 [了解更多信息](user-interface.md#section_lgm_hpz_pgb)
 * 更新了历程限制。 [了解更多信息](building-journeys/limitations.md)
-* [!UICONTROL Throttling rate]参数一直位于读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* [!UICONTROL Throttling rate]参数已添加到读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * 更新了“在决策中配置选件”章节。 [了解更多信息](offers/offer-activities/configure-offer-selection.md)
+* 添加了警告，以说明当前不支持基于事件的选件。 [了解更多信息](offers/offer-library/creating-personalized-offers.md#eligibility)
+* 记录了新的[!UICONTROL Overview]决策管理选项卡。 [了解更多信息](offers/get-started/user-interface.md#overview)
+* 添加了新章节，以描述选件和决策列表中可用的操作：[选件列表](offers/offer-library/creating-personalized-offers.md#offer-list)和[决策列表](offers/offer-activities/create-offer-activities.md#decision-list)。
  
