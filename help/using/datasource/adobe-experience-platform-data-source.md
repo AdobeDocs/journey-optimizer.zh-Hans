@@ -5,16 +5,16 @@ feature: 数据源
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform 数据源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户资料服务的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户资料服务的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
@@ -38,7 +38,6 @@ Adobe Experience Platform数据源定义与实时客户资料服务的连接。 
 
 1. 从&#x200B;**[!UICONTROL Schema]**&#x200B;下拉列表中选择一个架构。 此字段列出了Adobe Experience Platform中提供的配置文件和体验事件架构。 未在[!DNL Journey Optimizer]中执行架构创建。 在Adobe Experience Platform演。
 1. 选择要使用的字段。
-1. 定义缓存持续时间。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
 将光标放在字段组的名称上时，您将在右侧看到两个图标。 利用字段组，可删除和复制字段组。 请注意，仅当字段组未用在任何实时或草稿历程中时，**[!UICONTROL Delete]**&#x200B;图标才可用（信息显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中）。
