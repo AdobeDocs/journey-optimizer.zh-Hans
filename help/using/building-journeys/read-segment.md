@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 8%
+source-wordcount: '1000'
+ht-degree: 7%
 
 ---
 
@@ -56,7 +56,13 @@ ht-degree: 8%
    >
    >属于某个区段、且其不同身份之间没有选定身份（命名空间）的个人无法进入历程。
 
-1. 在&#x200B;**[!UICONTROL Throttling rate]**&#x200B;字段中，定义读取区段活动的吞吐量。 此值存储在历程版本有效负载中。 默认值为17.000，且必须介于500到17000之间。
+1. 将&#x200B;**[!UICONTROL Throttling rate]**&#x200B;字段设置为读取区段活动的吞吐量限制。
+
+   此值存储在历程版本有效负载中。 默认值为每秒17,000条消息。 您可以将此值从每秒500条修改为17,000条消息。
+
+   >[!NOTE]
+   >
+   >每个沙盒的总限制率设置为每秒17,000条消息。 因此，在同一沙盒中同时运行的所有读取区段的限制速率每秒最多可达17,000条消息。 您无法修改此上限。
 
 1. 利用&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动，可指定区段进入历程的时间。 为此，请单击&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;链接以访问历程的属性，然后配置&#x200B;**[!UICONTROL Scheduler type]**&#x200B;字段。
 
