@@ -5,9 +5,9 @@ feature: 数据源
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1276'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,6 @@ ht-degree: 99%
 
 1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。在我们的示例中，我们选择：
 
-
    * **[!UICONTROL Type]**：“API 密钥”
    * **[!UICONTROL Name]**：“appid”（这是 API 密钥参数名称）
    * **[!UICONTROL Value]**：“1234”（这是 API 密钥值）
@@ -68,7 +67,6 @@ ht-degree: 99%
 
 * **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL Cache duration]**：在我们的示例中，我们希望天气能缓存 10 分钟。
 * **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
