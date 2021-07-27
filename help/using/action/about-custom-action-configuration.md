@@ -6,9 +6,9 @@ feature: 操作
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 9%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->有效负载中的字段名称不能包含“。” 字符.
+>有效负载中的字段名称不能包含“。” 字符. 不能以“$”字符开头。
 
 您将能够定义参数类型(例如：字符串、整数等)。
 
