@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 1%
 * 您不能使用&#x200B;**更新配置文件**&#x200B;操作来生成体验事件，例如购买事件。
 * 与任何其他操作一样，在出现错误或超时时，您可以定义替代路径，并且不能同时放置两个操作。
 * 发送到Platform的更新请求将会很快，但不会立即/在一秒内发送。 通常需要几秒钟，但有时候需要更多时间，而且无法保证。 因此，例如，如果某个操作使用的是“字段1”，该字段1由位于前面的“更新用户档案”操作更新，则您不应期望该操作中会更新“字段1”。
-* 数据源在字段组级别具有缓存持续时间的概念。 如果您希望在历程中利用最近更新的用户档案字段，请务必定义非常短的缓存时长。
 
 ## 使用测试模式 {#using-the-test-mode}
 
