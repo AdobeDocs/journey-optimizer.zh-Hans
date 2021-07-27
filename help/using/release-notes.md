@@ -1,9 +1,9 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '233'
 ht-degree: 24%
 
 ---
@@ -26,8 +26,25 @@ ht-degree: 24%
 <tr>
 <td>
 <p>Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 Journey Optimizer现在可以利用来自链接架构的数据。</p>
-<p>这些字段在统一的事件配置、历程条件、消息个性化和自定义操作个性化中可用。
+<p>这些字段在统一的事件配置、历程条件、消息个性化和自定义操作个性化中可用。</p>
 <p>有关更多信息，请参阅<a href="event/experience-event-schema.md#leverage_schema_relationships">有详细说明的文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>允许列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在沙盒级别定义特定的发送安全列表，以避免例如在测试环境中向收件人发送不需要的电子邮件。
+</p>
+<p>有关更多信息，请参阅<a href="allow-list.md">有详细说明的文档</a>。</p>
 </td>
 </tr>
 </tbody>
