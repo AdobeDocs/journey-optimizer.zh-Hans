@@ -5,9 +5,9 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,13 @@ ht-degree: 3%
 
    ![](assets/send-proof-button.png)
 
-1. 选择要接收校样的测试用户档案，然后单击&#x200B;**[!UICONTROL Send proof]**。 如果需要，您可以向校样的主题行添加前缀。
+1. 在&#x200B;**[!UICONTROL Send proof]**&#x200B;窗口中，除测试用户档案外，键入收件人的电子邮件，然后单击&#x200B;**[!UICONTROL Add]**&#x200B;将校样发送给您自己或组织成员。
+
+   请注意，校样投放最多可添加10个收件人。
+
+   ![](assets/send-proof-button_2.png)
+
+1. 然后，选择将接收校样的测试用户档案，并单击&#x200B;**[!UICONTROL Send proof]**。 如果需要，您可以向校样的主题行添加前缀。 仅字母数字字符和特殊字符，例如。 - _()[ ]，作为主题行的前缀。
 
    ![](assets/send-proof-select.png)
 
