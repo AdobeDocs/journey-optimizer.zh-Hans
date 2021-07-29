@@ -1,9 +1,9 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 16%
 
 ---
@@ -50,21 +50,22 @@ ht-degree: 16%
 
 ### 改进
 
-* **历程**
-   * 在同一沙盒中同时运行的所有读取区段的总限制速率限制为每秒17,000条消息。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * **缓存持续时间**&#x200B;字段已从数据源配置窗格中删除。 [了解更多信息](datasource/about-data-sources.md)
-   * 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [了解更多信息](configuration/external-systems.md#capping)
-   * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 [了解更多信息](building-journeys/journey-gs.md#change-properties)
-   * 在历程列表屏幕中，添加了历程类型过滤器。 [了解更多信息](user-interface.md#section_lgm_hpz_pgb)
-   * **[!UICONTROL Throttling rate]**&#x200B;参数已添加到读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**历程**
 
-* **预览和测试**
-   * 标识和命名空间现在在&#x200B;**[!UICONTROL Preview]**&#x200B;屏幕中可见。 [了解更多信息](preview.md#preview-your-messages)
-   * 校样的测试电子邮件数量现在限制为10个。
-   * 校样中&#x200B;**主题行前缀**&#x200B;允许使用的字符现在受到限制。 [了解更多信息](preview.md#send-proofs)
+* 在同一沙盒中同时运行的所有读取区段的总限制速率限制为每秒17,000条消息。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **缓存持续时间**&#x200B;字段已从数据源配置窗格中删除。 [了解更多信息](datasource/about-data-sources.md)
+* 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [了解更多信息](configuration/external-systems.md#capping)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 [了解更多信息](building-journeys/journey-gs.md#change-properties)
+* 在历程列表屏幕中，添加了历程类型过滤器。 [了解更多信息](user-interface.md#section_lgm_hpz_pgb)
+* **[!UICONTROL Throttling rate]**&#x200B;参数已添加到读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **个性化表达式编辑器**
-   * 帮助程序下拉列表已重命名并重新排序。
+**预览和测试消息**
+* 标识和命名空间现在在&#x200B;**[!UICONTROL Preview]**&#x200B;屏幕中可见。 [了解更多信息](preview.md#preview-your-messages)
+* 校样的测试电子邮件数量现在限制为10个。
+* 校样中&#x200B;**主题行前缀**&#x200B;允许使用的字符现在受到限制。 [了解更多信息](preview.md#send-proofs)
+
+**个性化表达式编辑器**
+* 帮助程序下拉列表已重命名并重新排序。
 
 ### 修复
 
