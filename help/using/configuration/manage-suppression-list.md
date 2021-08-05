@@ -15,10 +15,10 @@ feature: 应用程序设置
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 投放失败可能的原因有：
 
 | 原因 | 描述 | 抑制类别 |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | 无法识别从收件人域消息传输代理(MTA)收到的退回原因。 | 已忽略 |
 | **[!UICONTROL Invalid Recipient]** | 收件人无效或不存在。 | 硬 |
 | **[!UICONTROL Soft Bounce]** | 消息软退件的原因不是此表中列出的软错误，例如，在通过ISP建议的允许速率发送时。 | 柔和 |
