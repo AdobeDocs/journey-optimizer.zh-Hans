@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 2d882b8d10cc642b04705dd924fd2b129f4f78ac
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,18 +27,3 @@ ht-degree: 2%
 * 使用&#x200B;**区段鉴别**&#x200B;事件活动，让个人根据Adobe Experience Platform区段入口和出口进入旅程或在旅程中前进。 例如，您可以让所有新的白银客户进入历程并发送消息。 有关如何使用此活动的更多信息，请参阅[此部分](../building-journeys/segment-qualification-events.md)。
 
 * 使用简单或高级表达式编辑器在历程中生成&#x200B;**复杂条件**。 在[此部分](../building-journeys/condition-activity.md#using-a-segment)中了解详情。
-
-## Adobe Journey Optimizer评价方法 {#evaluation-method-in-journey-optimizer}
-
-在Adobe Journey Optimizer中，受众是使用以下评估方法之一从区段定义生成的：
-
-* 流式分段 — 当新数据流入系统时，区段的受众列表会实时保持为最新。
-* 批量分段 — 区段的受众列表会根据过去一小时内到达的数据，每小时更新一次。
-
-系统根据评估区段规则的复杂性和成本来确定每个区段定义的批处理分段和流式分段之间的确定。
-
-您可以在区段列表的&#x200B;**[!UICONTROL Evaluation method]**&#x200B;列中查看每个区段的评估方法。
-
-首次定义区段后，用户档案会在符合条件时添加到受众。
-
-从以前的数据回填受众最长可能需要24小时。 回填受众后，该受众会持续保持为最新状态，并始终准备进行定位。
