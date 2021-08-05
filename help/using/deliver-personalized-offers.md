@@ -5,10 +5,10 @@ feature: 历程
 topic: 内容管理
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 有关&#x200B;**完整的端到端示例**，其中显示了如何配置选件，在决策中使用这些选件并在电子邮件中利用此决策，请参阅[此部分](offers/offers-e2e.md#insert-decision-in-email)。
 
-➡️ [了解如何将选件添加为个性化](#video-offers)（视频）
+➡️ [了解如何在此视频中将选件添加为个性化](#video-offers)
 
 ## 在电子邮件中插入决策 {#insert-offers}
 
