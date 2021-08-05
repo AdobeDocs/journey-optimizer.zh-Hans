@@ -5,10 +5,10 @@ feature: 优惠
 topic: 集成
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
 
 * 决策管理还可帮助您提升客户在联系支持团队时的体验。决策管理 API 允许您在呼叫中心服务人员的门户中显示有关客户已兑现的优惠和下个最合适优惠的信息。
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## 术语表 {#glossary}
