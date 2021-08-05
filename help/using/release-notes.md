@@ -1,10 +1,10 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
+source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 16%
 <td>
 <p>Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 [!DNL Journey Optimizer]现在可以利用来自链接架构的数据。</p>
 <p>这些字段在统一的事件配置、历程条件、消息个性化和自定义操作个性化中可用。</p>
-<p>有关更多信息，请参阅<a href="event/experience-event-schema.md#leverage_schema_relationships">有详细说明的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="event/experience-event-schema.md#leverage_schema_relationships">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -42,7 +42,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>您现在可以在沙盒级别定义特定的发送安全列表，以便具有用于测试的安全环境。 在可能出现错误的非生产实例上，允许列表可确保您没有向客户发送不需要的消息的风险。 此功能通过利用抑制API来启用。</p>
-<p>有关更多信息，请参阅<a href="allow-list.md">有详细说明的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="allow-list.md">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -60,11 +60,13 @@ ht-degree: 16%
 * **[!UICONTROL Throttling rate]**&#x200B;参数已添加到读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **预览和测试消息**
+
 * 标识和命名空间现在在&#x200B;**[!UICONTROL Preview]**&#x200B;屏幕中可见。 [了解更多信息](preview.md#preview-your-messages)
 * 校样的测试电子邮件数量现在限制为10个。
 * 校样中&#x200B;**主题行前缀**&#x200B;允许使用的字符现在受到限制。 [了解更多信息](preview.md#send-proofs)
 
 **个性化表达式编辑器**
+
 * 帮助程序下拉列表已重命名并重新排序。
 
 ### 修复
@@ -74,3 +76,5 @@ ht-degree: 16%
 * 修复了PTR记录屏幕中缺少IP信息的问题。
 * 现在，在表达式编辑器中实现了选件边栏的本地化。
 * 修复了信息弹出窗口中的间距不正确的问题。
+* 修复了上传HTML文件时Email designer中不支持具有`background-image`属性的内部样式表的问题。
+
