@@ -16,7 +16,7 @@ feature: 对照组
 topic: 管理
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 7%
@@ -103,4 +103,4 @@ ht-degree: 7%
 
 |功能 |权限|
 |-|-|
-|决策管理| <ul><li>**管理决策**:读取、创建、编辑和删除决策实体。</li><li>**查看决策**:对决策实体的只读访问权限。</li><li>**管理排名策略**:读取、创建、编辑和删除自定义消息报表以及使用操作功能。</li><li>**发布决策**:批准或取消批准决策活动。</li></ul>|
+|决策管理| <ul><li>**管理决策**:读取、创建、编辑和删除决策实体。</li><li>**查看决策**:对决策实体的只读访问权限。</li><li>**管理排名策略**:读取、创建、编辑和删除自定义消息报表以及使用操作功能。</li><li>**发布决策**:激活或停用决策活动。</li></ul>|
