@@ -1,11 +1,10 @@
 ---
 title: 推送通知配置
 description: 了解如何配置环境以通过Journey Optimizer发送推送通知
-feature: 应用程序设置
-topic: 推送
+feature: 应用程序设置，推送
 role: Admin
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 4%
