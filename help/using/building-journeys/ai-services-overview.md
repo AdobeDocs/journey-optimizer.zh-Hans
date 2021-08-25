@@ -2,15 +2,13 @@
 product: Journey Optimizer
 title: AI服务概述
 description: AI服务概述
-feature: 概述
-topic: 集成
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 2%
+source-wordcount: '202'
+ht-degree: 1%
 
 ---
 
