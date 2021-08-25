@@ -1,13 +1,13 @@
 ---
 title: 在历程中使用区段
 description: 了解如何在历程中使用区段
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >每个沙盒的总限制率设置为每秒17,000条消息。 因此，在同一沙盒中同时运行的所有读取区段的限制速率每秒最多可达17,000条消息。 您无法修改此上限。
+   >每个沙盒的总限制率设置为每秒20,000条消息。 因此，在同一沙盒中同时运行的所有读取区段的限制速率每秒最多可达20,000条消息。 您无法修改此上限。
 
 1. 利用&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动，可指定区段进入历程的时间。 为此，请单击&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;链接以访问历程的属性，然后配置&#x200B;**[!UICONTROL Scheduler type]**&#x200B;字段。
 
