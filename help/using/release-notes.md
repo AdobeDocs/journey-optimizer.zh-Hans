@@ -1,9 +1,9 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 11%
 <tr>
 <td>
 <p>现在，您可以基于每个预设定义重试时间段，以确保不再需要时再次尝试。 例如，对于包含仅有效一天的链接的密码重置事务型消息，您可以将重试期限设置为24小时。 请注意，重试设置仅适用于电子邮件渠道。</p>
-<p>有关更多信息，请参阅<a href="configuration/retries.md">详细的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="configuration/retries.md#retry-duration">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ ht-degree: 11%
 
 * **动态标头**  — 您现在可以在HTTP标头参数中传递动态数据。这些参数可由接收历程操作HTTP调用（例如，时间戳或跟踪ID）的集成系统使用。 [了解详情](action/about-custom-action-configuration.md#url-configuration)
 * **动态URL路径**  — 您现在可以为自定义操作设置动态URL路径。[了解详情](action/about-custom-action-configuration.md#url-configuration)
-* 读取段的总限制速率已从每秒17,000条消息更改为每秒20,000条消息。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 读取段的总限制速率已从每秒17,000条消息更改为每秒20,000条消息。 [了解详情](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **用户界面**
 
@@ -122,9 +122,9 @@ ht-degree: 11%
 * **背景**  — 现在，实时预览支持背景图像。[了解详情](preview.md)
 * **一键单击选择退出链接**  — 您可以在电子邮件内容中插入新类型的链接：通过 **选择退** 出链接，用户只需一次单击即可取消订阅接收您的通信，而无需重定向到登陆页面以确认选择退出。[了解详情](message-tracking.md#one-click-opt-out-link)
 
-**个性化**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **电子邮件配置**
 
