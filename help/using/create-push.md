@@ -1,14 +1,14 @@
 ---
 title: 配置推送通知
 description: 了解如何在Journey Optimizer中创建推送通知
-feature: 概述
-topic: 内容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 10%
+source-wordcount: '1192'
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
 选择&#x200B;**[!UICONTROL Silent Notification]**&#x200B;选项以静默通知应用程序：在这种情况下，通知会直接转给应用程序。 设备屏幕上未显示任何警报。
 
-使用&#x200B;**[!UICONTROL Custom data]**&#x200B;部分添加键/值对。
+使用&#x200B;**[!UICONTROL Custom data]**&#x200B;部分添加键值对。
 
 ## 自定义数据
 
