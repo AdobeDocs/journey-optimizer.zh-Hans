@@ -1,13 +1,13 @@
 ---
 title: 关于历程事件的ExperienceEvent架构
 description: 了解旅程事件的ExperienceEvent模式
-feature: 架构
-topic: 管理
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 在Journey Optimizer中，您随后可以利用链接表中的所有字段：
 
-* 配置单一事件时，[阅读更多](../event/experience-event-schema.md#unitary_event_configuration)
+* 在配置业务或统一事件时，[阅读更多](../event/experience-event-schema.md#unitary_event_configuration)
 * 在历程中使用条件时，[阅读更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 在消息个性化中，[阅读更多](../event/experience-event-schema.md#message_personalization)
 * 在自定义操作个性化中，[阅读更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### 单一事件配置{#unitary_event_configuration}
+### 事件配置{#unitary_event_configuration}
 
-链接的架构字段在统一事件配置中可用：
+关联的架构字段在统一和业务事件配置中可用：
 
 * 浏览事件配置屏幕中的事件架构字段时。
 * 定义系统生成事件的条件时。
@@ -90,7 +90,6 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 * 在事件键公式中
 * 事件id条件（基于规则的事件）中
-* （稍后）
 
 要了解如何配置单一事件，请参阅此[页面](../event/about-creating.md)。
 
