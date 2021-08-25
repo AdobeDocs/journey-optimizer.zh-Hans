@@ -2,14 +2,14 @@
 keywords: Journey Optimizer；主页；热门主题
 title: Journey Optimizer 产品文档
 description: Adobe Journey Optimizer产品帮助中心
-feature: 概述
-topic: 内容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 39%
+source-wordcount: '208'
+ht-degree: 37%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 39%
       <a href="using/get-started.md">什么是[!DNL Journey Optimizer]?</a>
     </div>
     <p>了解主要功能以及如何入门
+    <p>
+    <div>
+      <a href="using/release-notes.md">发行说明</a>
+    </div>
+    <p>了解新功能、最新改进和修复
     <p>
     <div>
       <a href="using/design-emails.md">设计电子邮件内容</a>
