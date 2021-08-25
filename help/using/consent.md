@@ -1,14 +1,14 @@
 ---
 title: 管理选择退出机制
 description: 了解如何管理选择退出机制和隐私
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,8 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 因此，您必须在发送给收件人的每封电子邮件中都加入&#x200B;**取消订阅链接**：
 * 单击此链接后，收件人将被定向到一个包含确认取消订阅按钮的登陆页面。
 * 点击选择退出按钮后，将进行 Adobe I/O 调用以使用此信息更新用户档案数据。[了解有关此内容的更多信息](#consent-service-api)。
+
+### 添加退订链接 {#add-unsubscribe-link}
 
 要添加取消订阅链接，请执行以下步骤：
 
@@ -87,7 +89,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## 选择退出功能的 API 调用 {#opt-out-api}
+### 选择退出功能的 API 调用 {#opt-out-api}
 
 收件人通过单击取消订阅链接选择退出后，将调用 Adobe I/O API <!--Consent service API to capture the encrypted data and-->以更新相应用户档案的偏好设置。
 
@@ -129,6 +131,14 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## 一键单击选择退出 {#one-click-opt-out}
+
+由于许多客户希望获得更轻松的取消订阅流程，因此您还可以在电子邮件内容中添加一键单击选择退出链接。 此链接可让您的收件人快速退订您的通信，而无需重定向到需要确认退出的登陆页面。
+
+了解如何在[此部分](message-tracking.md#one-click-opt-out-link)中添加指向消息内容的选择退出链接。
+
+通过[journey](building-journeys/journey.md)发送消息后，如果收件人单击选择退出链接，则他会立即被选择退出。
 
 ## 标头中的取消订阅链接 {#unsubscribe-email}
 
