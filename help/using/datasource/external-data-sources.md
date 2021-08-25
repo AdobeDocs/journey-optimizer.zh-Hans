@@ -1,14 +1,14 @@
 ---
 title: '外部数据源 '
 description: 了解如何配置外部数据源
-feature: 数据源
-topic: 管理
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1269'
+ht-degree: 93%
 
 ---
 
@@ -114,10 +114,10 @@ ht-degree: 99%
 
 * 端点：用于生成端点的 URL
 * 端点上 HTTP 请求的方法（GET 或 POST）
-* 标头：键/值对将作为标头插入此调用（如果需要）
-* 主体：描述在方法为 POST 时调用的主体。我们支持一个有限的主体结构，在 bodyParams（键/值对）中定义。bodyType 描述调用中主体的格式和编码：
-   * “form”：表示内容类型将为 application/x-www-form-urlencoded (charset UTF-8)，键/值对将按如下方式序列化：key1=value1&amp;key2=value2&amp;...
-   * “json”：表示内容类型将为 application/json (charset UTF-8)，并且键值对将序列化为 json 对象，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* 标题：键值对将作为标头插入此调用（如果需要）
+* 主体：描述在方法为 POST 时调用的主体。我们支持在bodyParams（键值对）中定义的有限主体结构。 bodyType 描述调用中主体的格式和编码：
+   * “form”：这意味着内容类型将为application/x-www-form-urlencoded(charset UTF-8)，键值对将按原样序列化：key1=value1&amp;key2=value2&amp;...
+   * “json”：这表示内容类型将为application/json(charset UTF-8)，键值对将序列化为json对象，如下所示：_{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;,...}_
 
 在操作的 HTTP 请求中必须插入访问令牌方式的定义：
 
