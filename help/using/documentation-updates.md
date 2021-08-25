@@ -1,7 +1,7 @@
 ---
 title: 文档更新
 description: 了解最新的文档更新
-source-git-commit: 932a95691e80267a581072b3fa0b81ad108117a3
+source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 14%
@@ -26,7 +26,7 @@ ht-degree: 14%
 * 添加了新章节，介绍如何检索因未在允许列表中而从发送中排除的电子邮件地址或域。 [了解更多信息](allow-list.md#reporting)
 * 更新了启用允许列表章节。 [了解详情](allow-list.md#enable-allow-list)
 * 更新了“监视器”消息预设部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。 [了解更多信息](configuration/message-presets.md#monitor-message-presets)
-* 更新并重命名了“重试”时间段部分，以反映您现在可以调整消息预设中的电子邮件重试设置这一事实。 [了解更多信息](configuration/retries.md)
+* 更新并重命名了“重试”时间段部分，以反映您现在可以调整消息预设中的电子邮件重试设置这一事实。 [了解更多信息](configuration/retries.md#retry-duration)
 * 添加了新章节，介绍如何在电子邮件内容中插入一键单击选择退出链接。 [了解更多信息](message-tracking.md#one-click-opt-out-link)
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
