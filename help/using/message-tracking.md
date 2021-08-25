@@ -1,13 +1,13 @@
 ---
 title: 跟踪邮件
 description: 了解如何添加链接和跟踪已发送的消息
-feature: 监控
-topic: 内容管理
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## 启用跟踪 {#enable-tracking}
 
-在[创建消息](create-message.md)时，可以通过检查&#x200B;**[!UICONTROL Open Tracking for email]**&#x200B;和/或&#x200B;**[!UICONTROL Click Tracking for email]**&#x200B;选项来启用消息级别的跟踪。
+在[创建消息](create-message.md)时，可以通过选中&#x200B;**[!UICONTROL Open Tracking for email]**&#x200B;和/或&#x200B;**[!UICONTROL Click Tracking for email]**&#x200B;选项，在电子邮件级别启用跟踪。
 
 ![](assets/message-tracking.png)
 
@@ -48,13 +48,15 @@ ht-degree: 1%
 
    * **[!UICONTROL External link]**:插入指向外部URL的链接。
 
-   * **[!UICONTROL Unsubscription link]**:插入链接以取消订阅从您的品牌接收通信。在[此部分](consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * **[!UICONTROL Unsubscription link]**:插入链接以取消订阅从您的品牌接收通信。在[此部分中](consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
    * **[!UICONTROL Mirror page]**:插入链接以在Web浏览器中显示电子邮件内容。在[此部分](#mirror-page)中了解详情。
 
+   * **[!UICONTROL Opt-out]**:插入链接，使用户能够快速退订您的通信，而无需确认选择退订。在[此部分](#one-click-opt-out-link)中了解详情。
+
    ![](assets/message-tracking-links.png)
 
-1. 您只能使用简单的表达式对链接进行个性化。 在[此部分](personalization/personalization-syntax.md)中了解有关个性化的更多信息。
+1. 您可以个性化您的链接。 在[此部分](personalization/personalization-syntax.md)中了解有关个性化URL的更多信息。
 
 1. 保存更改。
 
@@ -86,6 +88,32 @@ ht-degree: 1%
 >在发送到测试用户档案的[proof](preview.md#send-proofs)中，指向镜像页面的链接不活动。 它仅在最终消息中激活。
 
 镜像页面的保留期为60天。 延迟后，镜像页面将不再可用。
+
+## 一键单击选择退出链接 {#one-click-opt-out-link}
+
+要使收件人快速取消订阅从您的品牌接收通信，您可以在电子邮件内容中插入一键单击的选择退出链接。 此容量可防止用户被重定向到需要确认其选择的登陆页面，从而加快取消订阅过程。
+
+要在电子邮件中添加选择退出链接，请执行以下步骤。
+
+1. [插入链](#insert-links) 接并选择 **[!UICONTROL Opt-out]** 作为链接类型。
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. 选择您希望如何应用选择退出：在渠道、身份或订阅级别。
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Channel]**:选择退出适用于将来发送到当前渠道用户档案目标（即电子邮件地址）的消息。如果多个目标与某个用户档案关联，则选择退出将应用于该渠道配置文件中的所有目标（即电子邮件地址）。
+   * **[!UICONTROL Identity]**:选择退出适用于发送给当前消息所使用的特定目标（即电子邮件地址）的将来消息。
+   * **[!UICONTROL Subscription]**:选择退出适用于与特定订阅列表关联的未来消息。仅当当前消息与订阅列表关联时，才能选择此选项。
+
+1. 输入退订后用户将被重定向的登陆页面的URL。 此页面仅用于确认选择退出是否成功。
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+1. 单击 **[!UICONTROL Save]**。
+
+发送您的消息后，如果收件人单击选择退出链接，则他会立即被选择退出。
 
 ## 管理跟踪 {#manage-tracking}
 
