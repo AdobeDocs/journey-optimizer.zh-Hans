@@ -1,12 +1,13 @@
 ---
 title: 推送配置入门
 description: 了解推送通知数据流和组件
-feature: 应用程序设置，推送
+topic: Mobile
+feature: Push
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 2%
 
 * **Adobe Experience Platform Mobile** SDK，它通过Android和iOS兼容SDK为您的手机提供客户端集成API。SDK提供了[!DNL Adobe Journey Optimizer]扩展，该扩展公开了各种特定于推送消息的API，并启用数据流，例如注册推送令牌或将推送跟踪事件或任何其他自定义体验事件发送到Adobe Experience Platform。 该SDK还提供了各种其他扩展，这些扩展可启用其他Adobe Experience Cloud以及第三方合作伙伴功能。
 
-   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hans){target=&quot;_blank&quot;}服务，例如：
+   SDK集成还需要设置Adobe Experience Platform [数据收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans){target=&quot;_blank&quot;}服务，例如：
 
    * 创建数据流以配置数据流入Adobe Experience Platform的用户档案和体验事件数据集
    * 创建客户端移动资产并添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
