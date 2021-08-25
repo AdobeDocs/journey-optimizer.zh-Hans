@@ -1,12 +1,11 @@
 ---
 title: 推送通知配置
 description: 了解如何配置环境以通过Journey Optimizer发送推送通知
-feature: 应用程序设置，推送
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1447'
 ht-degree: 4%
 
 ---
@@ -30,11 +29,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 设置权限
 
-在创建移动应用程序之前，您首先需要确保在&#x200B;**Adobe Experience Platform Launch**&#x200B;中拥有或分配正确的用户权限。 在[Adobe Experience Platform Launch文档](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}中了解更多信息。
+在创建移动应用程序之前，您首先需要确保在&#x200B;**Adobe Experience Platform Launch**&#x200B;中拥有或分配正确的用户权限。 在[Adobe Experience Platform Launch文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}中了解更多信息。
 
 >[!CAUTION]
 >
->推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件或在应用程序开发人员与&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 了解有关&#x200B;**Adobe Experience Platform Launch**&#x200B;权限在[本文档](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}中的更多信息。
+>推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件或在应用程序开发人员与&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 了解有关&#x200B;**Adobe Experience Platform Launch**&#x200B;权限在[本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}中的更多信息。
 
 <!--ou need to your have access to perform following roles :
 
