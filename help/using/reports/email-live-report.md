@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -62,4 +62,4 @@ ht-degree: 1%
 >
 >在消息发送过程中，将排除状态为&#x200B;**[!UICONTROL Suppressed]**&#x200B;或&#x200B;**[!UICONTROL Not allowed]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报表**&#x200B;会将这些用户档案显示为已在历程（[读取区段](../building-journeys/read-segment.md)和[消息](../building-journeys/journeys-message.md)活动）中移动，但&#x200B;**电子邮件报表**&#x200B;不会在&#x200B;**[!UICONTROL Sent]**&#x200B;量度中包含这些用户档案，因为在发送电子邮件之前已将它们过滤掉。
 >
->了解有关[抑制列表](../suppression-list.md)和[允许列表](../allow-list.md)的更多信息。 要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)。
+>了解有关[抑制列表](../suppression-list.md)和[允许列表](../allow-list.md)的更多信息。 要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
