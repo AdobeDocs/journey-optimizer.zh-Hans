@@ -1,14 +1,14 @@
 ---
 title: 历程疑难解答
 description: 了解如何对历程中的错误进行故障诊断
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 * 您的事件有效负载是否包含事件 ID？
 * 您是否点击了正确的 URL？
 * 您是否使用“事件配置”窗格中的有效负载结构预览遵循了流摄取 API 的有效负载结构？请参阅[此页](../event/about-creating.md#preview-the-payload)。
-* 您是否在事件标题中使用了正确的键/值对？
+* 您是否在事件标题中使用了正确的键值对？
 
    ```
    X-gw-ims-org-id - your ORGID
