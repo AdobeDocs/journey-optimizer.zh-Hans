@@ -1,13 +1,13 @@
 ---
 title: 创建个性化优惠
 description: 了解如何在Adobe Experience Platform中创建个性化优惠。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1158'
 ht-degree: 3%
 
 ---
