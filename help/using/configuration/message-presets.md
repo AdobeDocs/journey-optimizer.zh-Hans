@@ -1,13 +1,13 @@
 ---
 title: 创建消息预设
 description: 了解如何配置和监视消息预设
-feature: 应用程序设置
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,8 @@ ht-degree: 1%
 >[!CAUTION]
 >
 > * 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* 在创建消息预设之前，必须执行电子邮件和推送配置步骤。
+>
+> * 在创建消息预设之前，必须执行电子邮件和推送配置步骤。
 
 
 配置消息预设后，在从&#x200B;**[!UICONTROL Presets]**&#x200B;列表创建消息时，可以选择这些预设。
@@ -57,7 +56,7 @@ ht-degree: 1%
 
    * 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
    * 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
-   * 输入使用预设发送的电子邮件的标题参数。
+   * 输入使用该预设发送的电子邮件的标题参数。
 
       >[!CAUTION]
       >
@@ -80,6 +79,15 @@ ht-degree: 1%
       >[!NOTE]
       >
       >名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`。
+
+   * 配置&#x200B;**电子邮件重试参数**。 默认情况下，[重试时间段](retries.md#retry-duration)设置为84小时，但您可以调整此设置以更好地满足您的需求。
+
+      ![](../assets/preset-retry-paramaters.png)
+
+      您必须在以下范围内输入整数值（以小时或分钟为单位）：
+      * 对于营销电子邮件类型，最短重试时间为6小时。
+      * 对于事务型电子邮件类型，最小重试周期为10分钟。
+      * 对于这两种电子邮件类型，最大重试时间段为84小时（或5040分钟）。
 
 
 1. 配置&#x200B;**推送通知**&#x200B;设置。
@@ -110,13 +118,17 @@ ht-degree: 1%
    * IP池验证
    * A/PTR记录， t/m/res子域验证
 
+   >[!NOTE]
+   >
+   >如果检查失败，请在[此部分](#monitor-message-presets)中了解有关可能失败原因的更多信息。
+
 1. 检查成功后，消息预设将获得&#x200B;**[!UICONTROL Active]**&#x200B;状态。 它已准备好用于投放消息。
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## 监视消息预设
+## 监视消息预设 {#monitor-message-presets}
 
 所有消息预设都显示在&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Message presets]**&#x200B;菜单中。 过滤器可帮助您浏览列表（渠道类型、用户、状态）。
 
@@ -130,11 +142,27 @@ ht-degree: 1%
 * **[!UICONTROL Failed]**:在消息预设验证期间，一个或多个检查失败。
 * **[!UICONTROL De-activated]**:消息预设已取消激活。它不能用于创建新消息。
 
+如果消息预设创建失败，则下面将介绍每种可能失败原因的详细信息。
+
+如果出现其中一个错误，请联系[Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以获取帮助。
+
+* **SPF验证失败**:SPF（发件人策略框架）是一种电子邮件身份验证协议，它允许指定能够从给定子域发送电子邮件的授权IP。SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供程序发送电子邮件的IP地址不匹配。
+
+* **DKIM验证失败**:DKIM允许收件人服务器验证所收到的消息是否由关联域的正版发送者发送，以及原始消息的内容是否未在发送过程中发生更改。DKIM验证失败意味着接收邮件服务器无法验证邮件内容的真实性及其与发送域的关联。
+
+* **MX记录验证失败**:MX记录验证失败意味着负责代表给定子域接受入站电子邮件的邮件服务器配置不正确。
+
+* **投放能力配置失败**:可投放性配置失败，原因如下：
+   * 列入阻止列表已分配IP的管理
+   * `helo`名称无效
+   * 从IP（而非相应预设的IP池中指定的IP）发送的电子邮件
+   * 无法向Gmail和Yahoo等主要ISP的收件箱发送电子邮件
+
 ## 编辑消息预设
 
 要编辑消息预设，您首先需要取消激活该预设，以使其无法创建新消息（使用此预设发布的消息将不受影响并将继续工作）。 然后，您需要复制消息预设，以创建将用于创建新消息的新版本：
 
-1. 访问消息预设列表，然后停用要编辑的消息预设。
+1. 访问消息预设列表，然后取消激活要编辑的消息预设。
 
    ![](../assets/preset-deactivate.png)
 
@@ -148,7 +176,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >无法删除已停用的消息预设，以避免在使用这些预设发送消息的历程中出现任何问题。
+   >无法删除已取消激活的消息预设，以避免在使用这些预设发送消息的历程中出现任何问题。
 
 ## 操作方法视频{#video-presets}
 
