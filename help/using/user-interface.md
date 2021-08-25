@@ -1,14 +1,14 @@
 ---
 title: 用户界面
 description: Journey Optimizer 用户界面
-feature: 概述
-topic: 内容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 91%
+source-wordcount: '1457'
+ht-degree: 68%
 
 ---
 
@@ -19,12 +19,10 @@ ht-degree: 91%
 >[!NOTE]
 >
 >* 浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
-   >
-   >
-* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
-   >
-   > 
-* UI 中可用的组件和功能取决于您的权限和许可方案。如有任何问题，请联系 Adobe 客户成功经理。
+>
+>* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
+>
+> * UI 中可用的组件和功能取决于您的权限和许可方案。如有任何问题，请联系 Adobe 客户成功经理。
 
 
 ## 左侧导航
@@ -87,6 +85,9 @@ ht-degree: 91%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform 提供了可将单个 实例划分为多个单独的虚拟环境的沙箱，以帮助开发和改进数字体验应用程序。[了解详情](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## 产品内用例
 
@@ -96,7 +97,7 @@ ht-degree: 91%
 
 可用用例包括：
 
-* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。](building-journeys/creating-test-profiles.md#use-case-1)在本页中[了解如何实施此用例。
+* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。了解如何在此页面](building-journeys/creating-test-profiles.md#use-case-1)上实施此用例[。
 * **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
 * **向载入新客户发送电子邮件**，以便轻松发送最多两封电子邮件以欢迎您的新注册客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
@@ -106,6 +107,139 @@ ht-degree: 91%
 单击 **[!UICONTROL Begin]** 按钮开始实施用例。
 
 您可以通过 **[!UICONTROL View use case library]** 按钮访问已执行的用例。
+
+## 辅助功能{#accessibility}
+
+Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
+
+* 键盘辅助功能
+* 颜色对比度
+* 验证必填字段
+
+[在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)中了解更多{target=&quot;_blank&quot;}。
+
+您可以在Adobe Journey Optimizer中使用以下常用键盘快捷键：
+
+| 操作 | 快捷键 |
+| --- | --- |
+| 在用户界面元素、节和菜单组之间移动 | 选项卡 |
+| 在用户界面元素、节和菜单组之间向后移动 | Shift +选项卡 |
+| 在部分内移动以将焦点设置到单个元素 | 箭头 |
+| 选择或清除焦点元素 | 输入或空格键 |
+| 取消选择、折叠面板或关闭对话框 | Esc |
+
+[在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)中了解更多{target=&quot;_blank&quot;}。
+
+您可以在Journey Optimizer的特定部分中使用以下快捷键：
+
+<table>
+  <thead>
+    <tr>
+      <th>界面元素</th>
+      <th>操作</th>
+      <th>快捷键</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>历程、操作、数据源或事件列表</td>
+    <td>创建旅程、操作、数据源或事件</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">历程画布处于草稿状态</td>
+    <td>从左侧面板的第一个可用位置从上到下添加活动</td>
+    <td>双击活动</td>
+  </tr>
+  <tr>
+    <td>选择所有活动</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>删除选定的活动</td>
+    <td>删除或Backspace，然后按Enter以确认删除</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+以下元素的配置窗格：
+
+<ul>
+  <li>历程中的活动</li>
+  <li>活动</li>
+  <li>数据源</li>
+  <li>操作</li>
+</ul>
+
+</td>
+    <td>移到要配置的下一个字段</td>
+    <td>选项卡</td>
+  </tr>
+  <tr>
+    <td>保存更改并关闭配置窗格</td>
+    <td>输入</td>
+  </tr>
+  <tr>
+    <td>放弃更改并关闭配置窗格</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">历程模式</td>
+    <td>启用或禁用测试模式</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>在基于事件的历程中触发事件</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+在基于区段的历程中触发一个事件，该事件的&#x200B;**[!UICONTROL Single profile at a time]**&#x200B;选项处于开启状态
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>显示测试日志</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>文本字段</td>
+    <td>选择所选字段中的所有文本</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">弹出窗口</td>
+    <td>保存更改或确认操作</td>
+    <td>输入</td>
+  </tr>
+  <tr>
+    <td>关闭窗口</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>简单表达式编辑器</td>
+    <td>选择并添加字段</td>
+    <td>双击字段</td>
+  </tr>
+  <tr>
+    <td>浏览XDM字段</td>
+    <td>选择节点的所有字段</td>
+    <td>选择父节点</td>
+  </tr>
+  <tr>
+    <td>负载预览</td>
+    <td>选择有效负载</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
 
 ## 查找帮助和支持
 
@@ -137,16 +271,17 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二种语言。
    ![](assets/select-language.png)
 
-## 搜索
+## 搜索{#unified-search}
 
-在Adobe Journey Optimizer界面的任意位置，都可以使用顶部栏中心的Adobe Experience Cloud搜索功能，在沙箱中查找资产、历程或消息。 开始输入内容以显示排名最前的结果。
+无论从Adobe Journey Optimizer界面的哪个位置，都可以使用顶部栏中心的统一Adobe Experience Cloud搜索功能，在沙箱中查找资产、历程、数据集、消息等。
+
+开始输入内容以显示排名最前的结果。有关输入关键词的帮助文章也会显示在结果中。
 
 ![](assets/unified-search.png)
 
-按 **Enter** 键以访问所有结果和过滤器。
+按&#x200B;**Enter**&#x200B;以访问所有结果并按业务对象进行筛选。
 
 ![](assets/search-and-filter.png)
-
 
 ## 过滤器列表{#section_lgm_hpz_pgb}
 
