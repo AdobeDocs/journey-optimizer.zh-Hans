@@ -1,9 +1,9 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: ff48c78cfa5c48f32073e9df1f126504e291ab5a
+source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '964'
 ht-degree: 11%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 11%
 
 **个性化**
 
-* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](documentation-updates.md)
+<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **电子邮件配置**
 
