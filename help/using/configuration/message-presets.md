@@ -5,9 +5,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -148,9 +148,9 @@ ht-degree: 1%
 
 * **SPF验证失败**:SPF（发件人策略框架）是一种电子邮件身份验证协议，它允许指定能够从给定子域发送电子邮件的授权IP。SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供程序发送电子邮件的IP地址不匹配。
 
-* **DKIM验证失败**:DKIM允许收件人服务器验证所收到的消息是否由关联域的正版发送者发送，以及原始消息的内容是否未在发送过程中发生更改。DKIM验证失败意味着接收邮件服务器无法验证邮件内容的真实性及其与发送域的关联。
+* **DKIM验证失败**:DKIM（域名识别邮件）允许收件人服务器验证收到的消息是否由相关域的正版发件人发送，且原始消息的内容在发送过程中没有发生更改。DKIM验证失败意味着接收邮件服务器无法验证邮件内容的真实性及其与发送域的关联：
 
-* **MX记录验证失败**:MX记录验证失败意味着负责代表给定子域接受入站电子邮件的邮件服务器配置不正确。
+* **MX记录验证失败**:MX（邮件交换）记录验证失败意味着负责代表给定子域接受入站电子邮件的邮件服务器未正确配置。
 
 * **投放能力配置失败**:可投放性配置失败，原因如下：
    * 列入阻止列表已分配IP的管理

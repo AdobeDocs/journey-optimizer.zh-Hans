@@ -11,14 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: 应用程序设置
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
+source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 9%
+source-wordcount: '758'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
-   确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击&#x200B;**[!UICONTROL Submit]**。
+1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击&#x200B;**[!UICONTROL Submit]**。
 
    ![](../assets/subdomain-submit.png)
 
@@ -65,19 +65,9 @@ ht-degree: 9%
 
 1. 提交子域委派后，该子域将显示在列表中，并且状态为&#x200B;**[!UICONTROL Processing]**。 有关子域状态的更多信息，请参阅[此部分](access-subdomains.md)。
 
-   在验证子域之前，将执行以下检查和操作，并可用于发送消息。
-
-   此步骤由Adobe执行，最长可能需要3小时。
-
-   1. 检查子域是否已委派给AdobeDNS（NS记录、SOA记录、区域设置、所有权记录），
-   1. 为域配置DNS，
-   1. 创建跟踪和镜像URL，
-   1. 配置CDN云前端、
-   1. 创建、验证和附加CDN SSL证书，
-   1. 创建转发DNS，
-   1. 创建PTR记录。
-
    ![](../assets/subdomain-processing.png)
+
+   在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为3小时。 在[此部分](#subdomain-validation)中了解详情。
 
 1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它已准备好用于投放消息。
 
@@ -85,4 +75,31 @@ ht-degree: 9%
 
    ![](../assets/subdomain-notification.png)
 
+## 子域验证 {#subdomain-validation}
 
+在验证子域之前，将执行以下检查和操作，并可用于发送消息。
+
+>[!NOTE]
+>
+>这些步骤由Adobe执行，最长可能需要3小时。
+
+1. **预验证**:Adobe检查子域是否已委派给AdobeDNS（NS记录、SOA记录、区域设置、所有权记录）。如果预验证步骤失败，则返回错误以及相应的原因，否则Adobe将继续执行下一步。
+
+1. **为域配置DNS**:
+
+   * **MX记录**:Mail eXchange记录 — 用于处理发送到子域的入站电子邮件的邮件服务器记录。
+   * **SPF记录**:发件人策略框架记录 — 列出可从子域发送电子邮件的邮件服务器的IP。
+   * **DKIM记录**:DomainKeys Identified Mail标准记录 — 使用公钥 — 私钥加密来验证消息以避免欺骗。
+   * **答**:默认IP映射。
+
+1. **创建跟踪和镜像URL**:如果域是email.example.com，则tracking/mirror域将为data.email.example.com。它通过安装SSL证书来保护。
+
+1. **配置CDN CloudFront**:如果CDN尚未设置，则Adobe会为导入配置CDN。
+
+1. **创建CDN域**:如果域是email.example.com，则CDN域将为cdn.email.example.com。
+
+1. **创建并附加CDN SSL证书**:Adobe为CDN域创建CDN证书，并将证书附加到CDN域。
+
+1. **创建转发DNS**:如果这是您委派的第一个子域，则Adobe将创建转发DNS，创建PTR记录所需的DNS — 每个IP一个。
+
+1. **创建PTR记录**:ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。Gmail还建议为每个IP设置PTR记录。 Adobe仅在您委派第一个子域（每个IP各一个）时创建PTR记录，所有IP都指向第一个子域。 例如，如果IP为&#x200B;*192.1.2.1*，而子域为&#x200B;*email.example.com*，则PTR记录将为：*192.1.2.1 PTR r1.email.example.com*。 之后，您可以更新PTR记录以指向新的委派域。
