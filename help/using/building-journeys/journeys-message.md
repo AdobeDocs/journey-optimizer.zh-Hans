@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 3%
 
 ---
 
@@ -105,5 +105,4 @@ Adobe Journey Optimizer的“发送时间优化”功能由Adobe的AI服务提�
 
 对于电子邮件消息，选择是优化电子邮件打开次数，还是通过选择相应的单选按钮来优化电子邮件点进次数。 推送消息默认为打开选项，因为点击不适用于推送消息。
 
-您还可以通过输入&#x200B;**在下一个**&#x200B;选项中发送的值，将系统使用的发送时间括起来。 如果选择“6小时”作为值，[!DNL Journey Optimizer]将检查每个用户配置文件，以查看最佳发送时间是否在距离历程执行时间的6小时内发生，并选择由发送时间优化确定的时间。 如果该时间不在接下来的六小时内，则[!DNL Journey Optimizer]将默认在历程执行时发送消息。
-
+您还可以通过输入&#x200B;**在下一个**&#x200B;选项中发送的值，将系统使用的发送时间括起来。 如果选择“6小时”作为值，[!DNL Journey Optimizer]将检查每个用户配置文件，并在历程执行时间后的6小时内选取最佳发送时间。
