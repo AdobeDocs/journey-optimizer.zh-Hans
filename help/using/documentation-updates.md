@@ -1,10 +1,10 @@
 ---
 title: 文档更新
 description: 了解最新的文档更新
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 14%
+source-wordcount: '425'
+ht-degree: 13%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 14%
 * 更新了“监视器”消息预设部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。 [了解更多信息](configuration/message-presets.md#monitor-message-presets)
 * 更新并重命名了“重试”时间段部分，以反映您现在可以调整消息预设中的电子邮件重试设置这一事实。 [了解更多信息](configuration/retries.md#retry-duration)
 * 添加了新章节，介绍如何在电子邮件内容中插入一键单击选择退出链接。 [了解更多信息](message-tracking.md#one-click-opt-out-link)
+* 更新了委派子域部分，其中包含有关Adobe执行的验证过程的更多详细信息。 [了解更多信息](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
