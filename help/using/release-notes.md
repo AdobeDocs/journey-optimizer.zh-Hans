@@ -1,9 +1,9 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
+source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1042'
 ht-degree: 11%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 11%
 </tr>
 </tbody>
 </table>
+
 <!--
 <table>
 <thead>
@@ -84,6 +85,23 @@ ht-degree: 11%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>定义要从发送中排除的地址 — 隐藏列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，可以通过用户界面逐个地通过CSV文件上传批量模式，将电子邮件地址和域添加到禁止列表中。</p>
+<p>有关更多信息，请参阅<a href="configuration/manage-suppression-list.md#add-addresses-and-domains">详细的文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -129,10 +147,8 @@ ht-degree: 11%
 **电子邮件配置**
 
 * **允许列表**  — 现在，可以通过API调用在非生产沙盒上启用和禁用允许列表。[了解详情](allow-list.md#enable-allow-list)
-
+* **导航**  — 隐藏列表(可在“管理”>“渠道”>“电子邮件配置”>“常规”菜单 **下访问)已移至新的“隐藏列表”子菜单，该子菜单** 可 **** 收集所有相关功能以便于访问。[了解详情](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
-<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
-
 
 ### 修复
 

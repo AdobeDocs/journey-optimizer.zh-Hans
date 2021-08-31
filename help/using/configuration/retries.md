@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
 
 # 重试 {#retries}
 
-当电子邮件由于临时&#x200B;**软退件**&#x200B;或&#x200B;**Ignored**&#x200B;错误而失败时，将执行多次重试。 每个错误都会增加一个错误计数。 当此计数器达到限制阈值时，地址将添加到禁止列表。
+当电子邮件由于临时&#x200B;**Soft bounce**&#x200B;错误而失败时，将执行多次重试。 每个错误都会增加一个错误计数。 当此计数器达到限制阈值时，地址将添加到禁止列表。
 
 >[!NOTE]
 >
 >在[投放失败类型](../suppression-list.md#delivery-failures)部分中了解有关错误类型的更多信息。
 
-在默认配置中，阈值设置为以下三个错误：
+在默认配置中，阈值设置为5个错误。
 
-* 对于同一投放，在第三次遇到错误时，地址被禁止。
+* 对于同一投放，在第五次遇到[重试时间段](#retry-duration)内的错误时，地址会被禁止。
 
-* 如果存在不同的投放并且两个错误在至少24小时之间发生，则在每次错误时错误计数递增，并且在第三次尝试时地址也被抑制。
+* 如果存在不同的投放且至少24小时间隔地发生两个错误，则每次错误时错误计数都递增，并且在第五次尝试时地址也被抑制。
 
 如果重试投放成功，则地址的错误计数会重新初始化。
 
-您可以使用&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**&#x200B;菜单中的&#x200B;**[!UICONTROL Edit]**&#x200B;按钮修改限制阈值。
+如果默认值5不适合您的需求，您可以按照以下步骤修改错误阈值。
 
-![](../assets/retries-edition.png)
+1. 转到 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**。
+
+1. 选择 **[!UICONTROL Edit suppression rules]** 按钮。
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. 根据需要编辑允许的连续软退回数。
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   您必须输入一个介于1和20之间的整数值，这表示重试的最小次数为1，最大数量为20。
+
+   >[!CAUTION]
+   >
+   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ ht-degree: 0%
 了解在[此部分](message-presets.md#create-message-preset)中创建消息预设时如何调整电子邮件重试参数。
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

@@ -1,9 +1,9 @@
 ---
 title: 文档更新
 description: 了解最新的文档更新
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '455'
 ht-degree: 13%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 13%
 * 更新并重命名了“重试”时间段部分，以反映您现在可以调整消息预设中的电子邮件重试设置这一事实。 [了解更多信息](configuration/retries.md#retry-duration)
 * 添加了新章节，介绍如何在电子邮件内容中插入一键单击选择退出链接。 [了解更多信息](message-tracking.md#one-click-opt-out-link)
 * 更新了委派子域部分，其中包含有关Adobe执行的验证过程的更多详细信息。 [了解更多信息](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* 添加了描述如何手动将电子邮件地址和域添加到禁止列表的部分。 [了解更多信息](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* 更新了[访问抑制列表](configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](configuration/retries.md)部分以反映新的用户界面。
 
 
 ## 2021 年 7 月
@@ -45,9 +45,9 @@ ht-degree: 13%
 * 在镜像页面上添加了子部分。 [了解更多信息](message-tracking.md#mirror-page)
 * 在文档和屏幕中，将“选件活动”重命名为“决策”，将“决策”重命名为“决策范围”。 [了解更多信息](offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用帮助程序函数对消息进行个性化设置](personalization/personalization-use-case-helper-functions.md)
-* 读取区段文档已更新，以反映实体化区段的影响。 [了解更多信息](building-journeys/read-segment.md)
+* 更新了读取区段文档，以反映实体化区段的影响。 [了解更多信息](building-journeys/read-segment.md)
 * 更新了历程限制。 [了解更多信息](building-journeys/limitations.md)
-* 更新了“在决策中配置选件”章节。 [了解更多信息](offers/offer-activities/configure-offer-selection.md)
+* 更新了决策中的配置选件选择部分。 [了解更多信息](offers/offer-activities/configure-offer-selection.md)
 * 添加了警告，以说明当前不支持基于事件的选件。 [了解更多信息](offers/offer-library/creating-personalized-offers.md#eligibility)
-* 记录了新的[!UICONTROL Overview]决策管理选项卡。 [了解更多信息](offers/get-started/user-interface.md#overview)
+* 记录了新的&#x200B;**[!UICONTROL Overview]**&#x200B;决策管理选项卡。 [了解更多信息](offers/get-started/user-interface.md#overview)
 * 添加了新章节，以描述选件和决策列表中可用的操作：[选件列表](offers/offer-library/creating-personalized-offers.md#offer-list)和[决策列表](offers/offer-activities/create-offer-activities.md#decision-list)。

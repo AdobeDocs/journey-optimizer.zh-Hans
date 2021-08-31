@@ -15,9 +15,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
+source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '911'
 ht-degree: 2%
 
 ---
@@ -31,30 +31,51 @@ ht-degree: 2%
 * 始终软退回的地址，如果您继续将这些地址包含在投放中，则这些地址可能会对您的电子邮件声誉造成不利影响。
 * 针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。
 
-此类电子邮件地址会自动收集到Journey Optimizer **抑制列表**&#x200B;中。 在[此部分](../suppression-list.md)中了解详情。
+此类电子邮件地址会自动收集到Journey Optimizer **抑制列表**&#x200B;中。 详细了解[此部分](../suppression-list.md)中的抑制列表概念和用法。
 
 ## 访问禁止列表 {#access-suppression-list}
 
-要访问排除的电子邮件地址的详细列表，请打开&#x200B;**[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL View suppression lists]**&#x200B;链接。
+要访问排除的电子邮件地址的详细列表，请转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择&#x200B;**[!UICONTROL Suppression list]**。
 
-![](../assets/suppression-list-link.png)
+>[!CAUTION]
+>
+>查看、导出和管理隐藏列表的权限限制为[历程管理员](../administration/ootb-product-profiles.md#journey-administrator)。 了解有关在[此部分](../administration/permissions-overview.md)中管理[!DNL Journey Optimizer]用户的访问权限的更多信息。
 
-<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+<!--![](../assets/suppression-list-link.png)
 
-![](../assets/suppression-list-access-temp.png)-->
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+
+![](../assets/suppression-list-access.png)
 
 过滤器可帮助您浏览列表。
 
-![](../assets/suppression-list-filters-temp.png)
+<!--![](../assets/suppression-list-filters-temp.png)-->
 
-<!--![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
+您可以对&#x200B;**[!UICONTROL Suppression category]**、**[!UICONTROL Address type]**&#x200B;或&#x200B;**[!UICONTROL Reason]**&#x200B;进行筛选。 为每个标准选择您选择的选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.-->
+如果您手动添加电子邮件地址或域名时出错，**[!UICONTROL Delete]**&#x200B;按钮将允许您删除该条目。
+
+>[!CAUTION]
+>
+>切勿使用&#x200B;**[!UICONTROL Delete]**&#x200B;按钮删除禁止显示的电子邮件地址或域。
+
+![](../assets/suppression-list-delete.png)
+
+从禁止列表中删除某个电子邮件地址或域意味着您将再次开始向该地址或域发送邮件。 因此，这可能会对您的投放能力和IP信誉造成严重影响，最终可能会导致您的IP地址或发送域被阻止。 进一步了解在[此部分](../suppression-list.md)中维护抑制列表的重要性。
+
+>[!NOTE]
+>
+>考虑删除任何电子邮件地址或域名时，请格外小心。 如有疑问，请联系可投放性专家。
+
+从&#x200B;**[!UICONTROL Suppression list]**&#x200B;视图中，您还可以编辑禁止规则。 [了解详情](retries.md)
+
+要将隐藏列表导出为CSV文件，请选择&#x200B;**[!UICONTROL Download CSV]**&#x200B;按钮。
+
+![](../assets/suppression-list-download-csv.png)
 
 ## 抑制类别和原因 {#suppression-categories-and-reasons}
 
@@ -84,7 +105,7 @@ Once selected, you can clear each filter or all filters displayed on top of the 
 
 对于列出的每个电子邮件地址，您还可以检查&#x200B;**[!UICONTROL Type]**（电子邮件或域名）、**[!UICONTROL Reason]**&#x200B;以排除它、添加者以及添加到禁止列表的日期/时间。
 
-<!--![](../assets/suppression-list.png)-->
+![](../assets/suppression-list.png)
 
 投放失败可能的原因有：
 
@@ -96,10 +117,11 @@ Once selected, you can clear each filter or all filters displayed on top of the 
 | **[!UICONTROL Mailbox Full]** | 由于收件人的邮箱已满，无法接受更多邮件，邮件已退回。 | 柔和 |
 | **[!UICONTROL Relaying Denied]** | 由于不允许中继，因此接收器阻止了该消息。 | 柔和 |
 | **[!UICONTROL Challenge-Response]** | 这是一个挑战 — 响应调查。 | 柔和 |
+| **[!UICONTROL Spam Complaint]** | 由于收件人标记为垃圾邮件，因此阻止了消息。 | 硬 |
 
 >[!NOTE]
 >
->未订阅用户未收到来自[!DNL Journey Optimizer]的电子邮件，因此其电子邮件地址无法发送到抑制列表。 他们的选择在Experience Platform级别处理。 了解有关[opting-out](../consent.md)的更多信息。
+>未订阅用户未收到来自[!DNL Journey Optimizer]的电子邮件，因此其电子邮件地址无法发送到抑制列表。 他们的选择在Experience Platform级别处理。 [了解有关选择退出的更多信息](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -119,82 +141,82 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
 
-<!--## Manually add addresses and domains {#add-addresses-and-domains}
+## 手动添加地址和域 {#add-addresses-and-domains}
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
+当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
 
-However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+但是，您也可以手动填充[!DNL Journey Optimizer]抑制列表，以从发送中排除特定的电子邮件地址和/或域。
 
-You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
+您可以通过CSV文件上传，在批量模式下逐个添加电子邮件地址或域[，或者添加[。](#add-one-address-or-domain)](#upload-csv-file)
 
-To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
+要执行此操作，请选择&#x200B;**[!UICONTROL Add email or domain]**&#x200B;按钮，然后按照以下方法之一操作。
 
 ![](../assets/suppression-list-add-email.png)
 
-### Add one address or domain {#add-one-address-or-domain}
+### 添加一个地址或域 {#add-one-address-or-domain}
 
-1. Select the **[!UICONTROL One by one]** option.
+1. 选择 **[!UICONTROL One by one]** 选项。
 
-    ![](../assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. 选择地址类型：**[!UICONTROL Email address]**&#x200B;或&#x200B;**[!UICONTROL Domain address]**。
 
-1. Enter the email address or domain you want to exclude from your sending.
+1. 输入要从发送中排除的电子邮件地址或域。
 
-    >[!NOTE]
-    >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+   >[!NOTE]
+   >
+   >请确保输入有效的电子邮件地址(如abc@company)或域名（如abc.company.com）。
 
-1. Specify a reason if needed.
+1. 根据需要指定原因。
 
-1. Click **[!UICONTROL Submit]**.
+1. 单击 **[!UICONTROL Submit]**。
 
-### Upload a CSV file {#upload-csv-file}
+### 上传CSV文件 {#upload-csv-file}
 
-1. Select the **[!UICONTROL Upload CSV]** option.
+1. 选择 **[!UICONTROL Upload CSV]** 选项。
 
-    ![](../assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
-1. Download the CSV template to use, which includes the columns and format below:
+1. 下载要使用的CSV模板，该模板包括以下列和格式：
 
-    ```
-    TYPE,VALUE,COMMENT
-    EMAIL,abc@somedomain.com,Comment
-    DOMAIN,somedomain.com,Comment
-    ```
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
+   ```
+   TYPE,VALUE,COMMENT
+   EMAIL,abc@somedomain.com,Comment
+   DOMAIN,somedomain.com,Comment
+   ```
+   您也可以从&#x200B;**[!UICONTROL Suppression list]**&#x200B;主视图下载此模板。
 
-    >[!CAUTION]
-    >
-    >Do not change the names of the columns in the CSV template.
-    >
-    >The file size should not exceed 50 MB.
+   >[!CAUTION]
+   >
+   >请勿更改CSV模板中列的名称。
+   >
+   >文件大小不应超过1 MB。
 
-1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+1. 在CSV模板中填写要添加到禁止列表的电子邮件地址和/或域。
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+1. 完成后，拖放CSV文件，然后单击&#x200B;**[!UICONTROL Upload file]**。
 
-    ![](../assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
-1. Click **[!UICONTROL Submit]**.
+1. 单击 **[!UICONTROL Submit]**。
 
-### Check recent uploads status {#recent-uploads}
+### 检查最近上载状态 {#recent-uploads}
 
-You can check the list of the latest CSV files you uploaded.
+您可以检查上传的最新CSV文件的列表。
 
-To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+为此，请在&#x200B;**[!UICONTROL Suppression list]**&#x200B;视图中单击&#x200B;**[!UICONTROL Recent uploads]**&#x200B;按钮。
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed.
+将显示您提交的最新上传及其相应状态。
 
-If an error report is associated with a file, you can download it to check the errors encountered.
+如果错误报告与文件关联，您可以下载它以检查遇到的错误。
 
 ![](../assets/suppression-list-recent-uploads-error.png)
 
-Below is an example of the type of entries you can find in the error report:
+下面是可在错误报表中找到的条目类型示例：
 
 ```
 type,value,comments,failureReason
@@ -206,6 +228,5 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
--->
 
 
