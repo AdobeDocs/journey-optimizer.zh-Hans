@@ -1,13 +1,13 @@
 ---
 title: 发行说明
 description: Journey Optimizer 发行说明
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 11%
 
 ---
-
 
 # 发行说明 {#release-notes}
 
@@ -140,9 +140,9 @@ ht-degree: 11%
 * **背景**  — 现在，实时预览支持背景图像。[了解详情](preview.md)
 * **一键单击选择退出链接**  — 您可以在电子邮件内容中插入新类型的链接：通过 **选择退** 出链接，用户只需一次单击即可取消订阅接收您的通信，而无需重定向到登陆页面以确认选择退出。[了解详情](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**个性化**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](personalization/functions/helper.md)
 
 **电子邮件配置**
 
@@ -225,4 +225,3 @@ ht-degree: 11%
 * 现在，在表达式编辑器中实现了选件边栏的本地化。
 * 修复了信息弹出窗口中的间距不正确的问题。
 * 修复了上传HTML文件时Email designer中不支持具有`background-image`属性的内部样式表的问题。
-
