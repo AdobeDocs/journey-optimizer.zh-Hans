@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
+source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 11%
@@ -142,7 +142,7 @@ ht-degree: 11%
 
 **个性化**
 
-* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](personalization/functions/helper.md)
+* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](personalization/functions/helpers.md)
 
 **电子邮件配置**
 
