@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1278'
 ht-degree: 3%
 
 ---
@@ -44,43 +45,67 @@ ht-degree: 3%
 
 ## 配置选件的表示形式 {#representations}
 
-1. 使用&#x200B;**[!UICONTROL Add representation]**&#x200B;按钮为选件添加一个或多个表示形式。
+选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、HTML块等。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。
 
-   >[!NOTE]
-   >
-   >选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、html块等。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。
+要向选件添加一个或多个表示形式并配置它们，请执行以下步骤。
 
-1. 对于每个表示法，指定将显示选件的&#x200B;**[!UICONTROL Channel]**&#x200B;和&#x200B;**[!UICONTROL Placement]**。
+1. 对于第一种表示法，首先选择将使用的&#x200B;**[!UICONTROL Channel]**。
 
    ![](../../assets/channel-placement.png)
 
-   通过&#x200B;**[!UICONTROL Browse]**&#x200B;按钮，可筛选可用版面并根据其渠道和/或内容类型进行筛选。
+   **[!UICONTROL Placement]**&#x200B;下拉列表中仅显示所选渠道的可用位置。
+
+1. 从列表中选择版面，或使用&#x200B;**[!UICONTROL Placement]**&#x200B;下拉列表旁边的按钮浏览所有版面。
+
+   ![](../../assets/browse-button-placements.png)
+
+   您仍然可以根据其渠道和/或内容类型筛选版面。 选择版面并单击&#x200B;**[!UICONTROL Select]**。
 
    ![](../../assets/browse-placements.png)
 
-1. 向来自Adobe Experience Cloud Assets库或外部公共位置的每个演示添加内容。
+1. 向您的演示文稿中添加内容。
 
-   * 要从Adobe Experience Cloud Assets库添加内容，请将左侧窗格中的内容拖放到表示区域，然后在&#x200B;**[!UICONTROL Destination link]**&#x200B;字段中指定要与内容关联的URL。
+   >[!NOTE]
+   >
+   >只有与版面内容类型对应的内容才可供使用。
+
+   * 如果所选版面是图像类型，则可以添加来自Adobe Experience Cloud资产库（[!DNL Adobe Experience Manager Assets Essentials]提供的资产集中存储库）的内容。
 
       >[!NOTE]
       >
-      >只能从左侧面板的资产选取器中拖放内容。 只有与版面内容类型对应的内容才可供使用。
+      > 要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要为贵组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}的详细信息。
 
-      ![](../../assets/offer_drag_content.png)
+      选择&#x200B;**[!UICONTROL Asset library]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL Browse]**。
 
-   * 要从外部公共位置添加内容，请单击&#x200B;**[!UICONTROL Add content]**&#x200B;按钮，然后指定要添加内容的名称、URL和目标链接。
+      ![](../../assets/offer-browse-asset-library.png)
 
-      确保要添加的内容与所选版面的内容类型相对应。
+      浏览资产以选择您选择的图像，然后单击&#x200B;**[!UICONTROL Select]**。
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * 您还可以插入文本类型内容。 为此，请单击&#x200B;**[!UICONTROL Add content]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL Custom text]**&#x200B;选项。 在&#x200B;**[!UICONTROL Text]**&#x200B;字段中，键入要在选件中显示的文本。
+   * 要从外部公共位置添加内容，请选择&#x200B;**[!UICONTROL URL]**，然后输入要添加内容的URL地址。
+
+      ![](../../assets/offer-content-url.png)
+
+   * 您还可以在选择兼容的版面时插入文本类型内容。 选择&#x200B;**[!UICONTROL Custom]**&#x200B;选项，然后键入要在选件中显示的文本。
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >此选项不适用于图像类型放置。
 
-      ![](../../assets/offer_text_content.png)
+1. 添加图像或URL等内容时，可以指定&#x200B;**[!UICONTROL Destination link]**:单击选件的用户将被定向到相应的页面。
+
+   ![](../../assets/offer-destination-link.png)
+
+1. 最后，选择您选择的语言，以帮助识别和管理要向用户显示的内容。
+
+1. 要添加其他表示法，请使用&#x200B;**[!UICONTROL Add representation]**&#x200B;按钮并根据需要添加任意数量的表示法。
+
+   ![](../../assets/offer-add-representation.png)
+
+1. 添加所有表示形式后，选择&#x200B;**[!UICONTROL Next]**。
 
 ## 添加资格规则和约束 {#eligibility}
 

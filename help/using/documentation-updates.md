@@ -1,13 +1,13 @@
 ---
 title: 文档更新
 description: 了解最新的文档更新
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 17%
 
 ---
-
 
 # 此文档中的最新更新
 
@@ -19,9 +19,9 @@ ht-degree: 13%
 * [!DNL Journey Optimizer] 2021年8月版随附的所有新增功能和改进功能已在文档中详细介绍。 [了解更多信息](release-notes.md)
 * 更新了决策管理权限。 [了解更多信息](administration/ootb-product-profiles.md)
 * 使用最新UI更新了Email designer屏幕截图。
-* 更新了使用动态URL路径和动态标头进行自定义操作的配置过程。 [了解更多信息](action/about-custom-action-configuration.md#url-configuration)
+* 更新了使用动态 URL 路径和动态标头进行自定义操作的配置过程。[了解更多信息](action/about-custom-action-configuration.md#url-configuration)
 * 添加了有关辅助功能和快捷键的章节。 [了解更多信息](user-interface.md#accessibility)
-* 添加了有关区段评估方法的章节。 [了解更多信息](segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* 添加了有关区段评估方法的章节。[了解更多信息](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以指定“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。 [了解更多信息](reports/email-global-report.md)
 * 添加了新章节，介绍如何检索因未在允许列表中而从发送中排除的电子邮件地址或域。 [了解更多信息](allow-list.md#reporting)
 * 更新了启用允许列表章节。 [了解详情](allow-list.md#enable-allow-list)
@@ -31,6 +31,7 @@ ht-degree: 13%
 * 更新了委派子域部分，其中包含有关Adobe执行的验证过程的更多详细信息。 [了解更多信息](configuration/delegate-subdomain.md#subdomain-validation)
 * 添加了描述如何手动将电子邮件地址和域添加到禁止列表的部分。 [了解更多信息](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问抑制列表](configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](configuration/retries.md)部分以反映新的用户界面。
+* 记录了在创建选件时用于添加和配置表示法的新流程。 [了解更多信息](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## 2021 年 7 月
