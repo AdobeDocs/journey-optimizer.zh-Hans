@@ -6,7 +6,8 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: c62048e0fb7e5de2e7cdf8bc6ae17d62ef04d35c
+exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 6%
@@ -16,7 +17,7 @@ ht-degree: 6%
 # 配置操作 {#configure-an-action}
 
 如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程左侧面板的&#x200B;**[!UICONTROL Action]**&#x200B;类别中可用（请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)）。 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
-[此页面](../building-journeys/limitations.md)中列出了限制。
+[此页面](../limitations.md)中列出了限制。
 
 以下是配置自定义操作所需的主要步骤：
 
@@ -55,7 +56,7 @@ ht-degree: 6%
 
    * 如果URL包含动态路径，则只输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-      示例：`https://xxx.yyy.com:8080/somethingstatic/`
+      示例: `https://xxx.yyy.com:8080/somethingstatic/`
 
       在将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
    >[!NOTE]

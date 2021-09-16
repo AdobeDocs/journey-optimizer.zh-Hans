@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 95%
@@ -23,6 +23,7 @@ ht-degree: 95%
    + [什么是 Journey Optimizer](using/get-started.md)
    + [快速入门](using/quick-start.md)
    + [用户界面](using/user-interface.md)
+   + [限制](using/limitations.md)
 + 消息 {#create-messages}
    + [消息入门](using/get-started-content.md)
    + 创建消息 {#create-message}
@@ -45,7 +46,7 @@ ht-degree: 95%
    + [入门个性化](using/personalization/personalize.md)
    + [个性化语法](using/personalization/personalization-syntax.md)
    + [个性化验证](using/personalization/personalization-validation.md)
-   + 使用案例{#personalization-use-cases}
+   + 用例{#personalization-use-cases}
       + [订单状态通知](using/personalization/personalization-use-case.md)
       + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
    + 辅助函数{#functions}
@@ -68,7 +69,6 @@ ht-degree: 95%
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
-      + [限制](using/building-journeys/limitations.md)
       + [历程版本](using/building-journeys/journey-versions.md)
       + [测试用户档案](using/building-journeys/creating-test-profiles.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)

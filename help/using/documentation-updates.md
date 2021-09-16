@@ -2,7 +2,7 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 17%
@@ -47,7 +47,7 @@ ht-degree: 17%
 * 在文档和屏幕中，将“选件活动”重命名为“决策”，将“决策”重命名为“决策范围”。 [了解更多信息](offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用帮助程序函数对消息进行个性化设置](personalization/personalization-use-case-helper-functions.md)
 * 更新了读取区段文档，以反映实体化区段的影响。 [了解更多信息](building-journeys/read-segment.md)
-* 更新了历程限制。 [了解更多信息](building-journeys/limitations.md)
+* 更新了历程限制。 [了解更多信息](limitations.md)
 * 更新了决策中的配置选件选择部分。 [了解更多信息](offers/offer-activities/configure-offer-selection.md)
 * 添加了警告，以说明当前不支持基于事件的选件。 [了解更多信息](offers/offer-library/creating-personalized-offers.md#eligibility)
 * 记录了新的&#x200B;**[!UICONTROL Overview]**&#x200B;决策管理选项卡。 [了解更多信息](offers/get-started/user-interface.md#overview)

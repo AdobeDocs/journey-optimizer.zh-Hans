@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 68%
+source-wordcount: '1459'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 68%
 >
 >* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
 >
-> * UI 中可用的组件和功能取决于您的权限和许可方案。如有任何问题，请联系 Adobe 客户成功经理。
+>* 用户界面中可用的组件和功能取决于您的[权限](administration/permissions.md)和您的[授权包](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何问题，请联系 Adobe 客户成功经理。
 
 
 ## 左侧导航
@@ -110,7 +111,7 @@ ht-degree: 68%
 
 ## 辅助功能{#accessibility}
 
-Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
+[!DNL Adobe Journey Optimizer]中的辅助功能继承自Adobe Experience Platform:
 
 * 键盘辅助功能
 * 颜色对比度
@@ -118,7 +119,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 
 [在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)中了解更多{target=&quot;_blank&quot;}。
 
-您可以在Adobe Journey Optimizer中使用以下常用键盘快捷键：
+您可以在[!DNL Journey Optimizer]中使用以下常用键盘快捷键：
 
 | 操作 | 快捷键 |
 | --- | --- |
