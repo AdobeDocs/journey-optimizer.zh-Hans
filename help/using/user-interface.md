@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -17,13 +17,13 @@ ht-degree: 66%
 
 连接到 [Adobe Experience Cloud](http://experience.adobe.com) 后，浏览找到 [!DNL Journey Optimizer]。
 
+浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+
+用户界面中可用的组件和功能取决于您的[权限](administration/permissions.md)和您的[授权包](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何问题，请联系 Adobe 客户成功经理。
+
 >[!NOTE]
 >
->* 浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
->
->* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
->
->* 用户界面中可用的组件和功能取决于您的[权限](administration/permissions.md)和您的[授权包](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何问题，请联系 Adobe 客户成功经理。
+>本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
 
 
 ## 左侧导航
