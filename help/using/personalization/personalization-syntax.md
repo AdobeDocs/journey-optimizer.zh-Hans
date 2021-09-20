@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -153,7 +153,7 @@ Journey Orchestration允许您通过向消息中的一个或多个URL添加个�
 ![](assets/perso-url.png)
 
 >[!NOTE]
->`
+>
 >在表达式编辑器中，当您编辑个性化的URL时，出于安全原因，帮助程序函数和区段成员资格会被禁用。
 
 **个性化URL示例**
