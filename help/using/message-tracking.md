@@ -5,7 +5,8 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -56,7 +57,7 @@ ht-degree: 1%
 
    ![](assets/message-tracking-links.png)
 
-1. 您可以个性化您的链接。 在[此部分](personalization/personalization-syntax.md)中了解有关个性化URL的更多信息。
+1. 您可以个性化您的链接。 在[此部分](personalization/personalization-syntax.md#perso-urls)中了解有关个性化URL的更多信息。
 
 1. 保存更改。
 
@@ -142,5 +143,3 @@ ht-degree: 1%
 [执行选项卡](message-monitoring.md)中列出了已打开的消息数和已单击的链接数。
 
 [电子邮件实时报表](reports/email-live-report.md)和[电子邮件全局报表](reports/email-global-report.md)中提供了有关开场次和点击次数的报告。
-
-

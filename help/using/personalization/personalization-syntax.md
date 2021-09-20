@@ -1,17 +1,17 @@
 ---
 title: 个性化语法
 description: 了解如何使用个性化语法
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
-
 
 # 个性化语法 {#personalization-syntax}
 
@@ -76,7 +76,6 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >[!NOTE]
 >要了解有关分段和分段服务的更多信息，请参阅[此部分](../segment/about-segments.md)。
 
-
 ## 优惠
 
 此命名空间允许您引用现有选件决策。
@@ -129,7 +128,6 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 >
 >[此部分](functions/helpers.md)中详细介绍了帮助程序函数。
 
-
 ## 文字类型
 
 [!DNL Adobe Journey Optimizer] 支持以下文字类型：
@@ -137,10 +135,31 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 | 文字 | 定义 |
 | ------- | ---------- |
 | 字符串 | 数据类型，由被双引号括住的字符组成。 <br>示例: `"prospect"`, `"jobs"`, `"articles"` |
-| 布尔值 | 数据类型为true或false。 |
+| 布尔型 | 数据类型为true或false。 |
 | 整数 | 表示整数的数据类型。 可以是正数、负数或零。 <br>示例: `-201`, `0`, `412` |
 | 数组 | 作为一组其他文字值组成的数据类型。 它使用方括号对不同值进行分组和逗号分隔。<br> **注意：** 您无法直接访问数组中项目的属性。<br> 示例: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
 >在个性化表达式中无法使用&#x200B;**xEvent**&#x200B;变量。 对xEvent的任何引用都将导致验证失败。
+
+## URL个性化{#perso-urls}
+
+Journey Orchestration允许您通过向消息中的一个或多个URL添加个性化字段来对其进行个性化。 请按以下步骤执行此操作：
+
+* 在电子邮件或推送内容中创建链接。 要了解有关链接创建的更多信息，请参阅[此页面](../message-tracking#insert-links))。
+* 单击个性化图标。 此图标可用于以下特定类型的链接：**外部链接**、**退订链接**&#x200B;和&#x200B;**选择退订**。
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>`
+>在表达式编辑器中，当您编辑个性化的URL时，出于安全原因，帮助程序函数和区段成员资格会被禁用。
+
+**个性化URL示例**
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+
