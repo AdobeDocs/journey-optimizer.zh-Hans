@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
+source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -147,7 +147,7 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 
 Journey Orchestration允许您通过向消息中的一个或多个URL添加个性化字段来对其进行个性化。 请按以下步骤执行此操作：
 
-* 在电子邮件或推送内容中创建链接。 要了解有关链接创建的更多信息，请参阅[此页面](../message-tracking#insert-links))。
+* 在电子邮件或推送内容中创建链接。 要了解有关链接创建的更多信息，请参阅[此页面](../message-tracking.md#insert-links))。
 * 单击个性化图标。 此图标可用于以下特定类型的链接：**外部链接**、**退订链接**&#x200B;和&#x200B;**选择退订**。
 
 ![](assets/perso-url.png)
