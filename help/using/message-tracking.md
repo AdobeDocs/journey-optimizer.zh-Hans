@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,9 @@ ht-degree: 1%
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. 单击 **[!UICONTROL Save]**。
+   您可以个性化您的链接。 在[此部分](personalization/personalization-syntax.md)中了解有关个性化URL的更多信息。
+
+1. 保存更改。
 
 发送您的消息后，如果收件人单击选择退出链接，则他会立即被选择退出。
 

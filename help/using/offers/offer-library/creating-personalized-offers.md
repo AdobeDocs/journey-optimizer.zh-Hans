@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
+source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
@@ -53,9 +53,14 @@ ht-degree: 3%
 
    ![](../../assets/channel-placement.png)
 
-   **[!UICONTROL Placement]**&#x200B;下拉列表中仅显示所选渠道的可用位置。
+   >[!NOTE]
+   >
+   >**[!UICONTROL Placement]**&#x200B;下拉列表中仅显示所选渠道的可用位置。
 
-1. 从列表中选择版面，或使用&#x200B;**[!UICONTROL Placement]**&#x200B;下拉列表旁边的按钮浏览所有版面。
+
+1. 从列表中选择版面。
+
+   您还可以使用&#x200B;**[!UICONTROL Placement]**&#x200B;下拉列表旁边的按钮浏览所有版面。
 
    ![](../../assets/browse-button-placements.png)
 
@@ -63,37 +68,7 @@ ht-degree: 3%
 
    ![](../../assets/browse-placements.png)
 
-1. 向您的演示文稿中添加内容。
-
-   >[!NOTE]
-   >
-   >只有与版面内容类型对应的内容才可供使用。
-
-   * 如果所选版面是图像类型，则可以添加来自Adobe Experience Cloud资产库（[!DNL Adobe Experience Manager Assets Essentials]提供的资产集中存储库）的内容。
-
-      >[!NOTE]
-      >
-      > 要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要为贵组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}的详细信息。
-
-      选择&#x200B;**[!UICONTROL Asset library]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL Browse]**。
-
-      ![](../../assets/offer-browse-asset-library.png)
-
-      浏览资产以选择您选择的图像，然后单击&#x200B;**[!UICONTROL Select]**。
-
-      ![](../../assets/offer-select-asset.png)
-
-   * 要从外部公共位置添加内容，请选择&#x200B;**[!UICONTROL URL]**，然后输入要添加内容的URL地址。
-
-      ![](../../assets/offer-content-url.png)
-
-   * 您还可以在选择兼容的版面时插入文本类型内容。 选择&#x200B;**[!UICONTROL Custom]**&#x200B;选项，然后键入要在选件中显示的文本。
-
-      ![](../../assets/offer-text-content.png)
-
-      >[!NOTE]
-      >
-      >此选项不适用于图像类型放置。
+1. 向您的演示文稿中添加内容。 在[此部分](#content)中了解如何操作。
 
 1. 添加图像或URL等内容时，可以指定&#x200B;**[!UICONTROL Destination link]**:单击选件的用户将被定向到相应的页面。
 
@@ -107,25 +82,76 @@ ht-degree: 3%
 
 1. 添加所有表示形式后，选择&#x200B;**[!UICONTROL Next]**。
 
+## 定义表示的内容 {#content}
+
+您可以向表示中添加不同类型的内容。
+
+>[!NOTE]
+>
+>只有与版面内容类型对应的内容才可供使用。
+
+### 添加图像
+
+如果所选版面是图像类型，则可以添加来自&#x200B;**Adobe Experience Cloud Asset**&#x200B;库的内容，该库是[!DNL Adobe Experience Manager Assets Essentials]提供的集中资产存储库。
+
+>[!NOTE]
+>
+> 要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要为贵组织部署[!DNL Assets Essentials]，并确保用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 有关[此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}的详细信息。
+
+1. 选择 **[!UICONTROL Asset library]** 选项。
+
+1. 选择 **[!UICONTROL Browse]**。
+
+   ![](../../assets/offer-browse-asset-library.png)
+
+1. 浏览资产以选择您选择的图像
+
+1. 单击 **[!UICONTROL Select]**。
+
+   ![](../../assets/offer-select-asset.png)
+
+### 添加URL
+
+要从外部公共位置添加内容，请选择&#x200B;**[!UICONTROL URL]**，然后输入要添加内容的URL地址。
+
+![](../../assets/offer-content-url.png)
+
+### 添加自定义文本 {#custom-text}
+
+您还可以在选择兼容的版面时插入文本类型内容。
+
+1. 选择 **[!UICONTROL Custom]** 选项。
+
+   >[!NOTE]
+   >
+   >此选项不适用于图像类型放置。
+
+1. 在专用区域键入将在选件中显示的文本。
+
+   ![](../../assets/offer-text-content2.png)
+
 ## 添加资格规则和约束 {#eligibility}
 
-资格规则和限制允许您定义显示选件的条件。
+资格规则和约束允许您定义显示选件的条件。
 
-1. 配置&#x200B;**[!UICONTROL Offer eligibility]**。 默认情况下，会选择&#x200B;**[!UICONTROL All visitors]**&#x200B;决策规则选项，这意味着任何用户档案都有资格向用户展示选件。
+1. 配置&#x200B;**[!UICONTROL Offer eligibility]**。
 
-   您可以将选件的显示方式限制为一个或多个Adobe Experience Platform区段的成员。 为此，请激活&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;选项，然后从左窗格添加一个或多个区段，并使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合它们。
+   * 默认情况下，会选择&#x200B;**[!UICONTROL All visitors]**&#x200B;决策规则选项，这意味着任何用户档案都有资格向用户展示选件。
 
-   有关如何使用区段的更多信息，请参阅[此页面](../../segment/about-segments.md)。
+   * 您可以将选件的显示方式限制为一个或多个Adobe Experience Platform区段的成员。 为此，请激活&#x200B;**[!UICONTROL Visitors who fall into one or multiple segments]**&#x200B;选项，然后从左窗格添加一个或多个区段，并使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合它们。
 
-   ![](../../assets/offer-eligibility-segment.png)
+      有关如何使用区段的更多信息，请参阅[此页面](../../segment/about-segments.md)。
 
-   如果要将特定决策规则与选件关联，请选择&#x200B;**[!UICONTROL By defined decision rule]**，然后将所需规则从左侧窗格拖至&#x200B;**[!UICONTROL Decision rule]**&#x200B;区域。 有关如何创建决策规则的更多信息，请参阅[此部分](../offer-library/creating-decision-rules.md)。
+      ![](../../assets/offer-eligibility-segment.png)
 
-   ![](../../assets/offer_rule.png)
+   * 如果要将特定决策规则与选件关联，请选择&#x200B;**[!UICONTROL By defined decision rule]**，然后将所需规则从左侧窗格拖至&#x200B;**[!UICONTROL Decision rule]**&#x200B;区域。 有关如何创建决策规则的更多信息，请参阅[此部分](../offer-library/creating-decision-rules.md)。
 
-   >[!CAUTION]
-   >
-   >[!DNL Journey Optimizer]当前不支持基于事件的选件。 如果您基于[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}创建决策规则，则无法在选件中利用该规则。
+      ![](../../assets/offer_rule.png)
+
+      >[!CAUTION]
+      >
+      >[!DNL Journey Optimizer]当前不支持基于事件的选件。 如果您基于[event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}创建决策规则，则无法在选件中利用该规则。
+   在[此部分](../offer-activities/create-offer-activities.md#segments-vs-decision-rules)中了解有关使用区段与决策规则的更多信息。
 
 1. 如果用户符合多个选件的条件，则定义选件的&#x200B;**[!UICONTROL Priority]**&#x200B;与其他选件相比。 优惠的优先级越高，与其他选件相比，优先级越高。
 
@@ -165,7 +191,7 @@ ht-degree: 3%
 
 ![](../../assets/offer_created.png)
 
-## 选件列表 {#offer-list}
+## 优惠列表 {#offer-list}
 
 从选件列表中，您可以选择选件以显示其属性。 您还可以编辑选件、更改其状态（**草稿**、**已批准**、**已存档**）、复制选件或将其删除。
 

@@ -1,13 +1,14 @@
 ---
 title: 在 Journey Optimizer 中个性化内容
 description: 个性化入门
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '691'
 ht-degree: 13%
 
 ---
@@ -62,7 +63,6 @@ ht-degree: 13%
 
 ![](assets/perso_ee.png)
 
-
 ### 个性化推送通知
 
 您还可以在以下字段中个性化您的&#x200B;**推送通知**:
@@ -77,7 +77,13 @@ ht-degree: 13%
 
 详细了解[此部分](../push-gs.md)中的推送通知配置。
 
-## 使用表达式编辑器
+### 个性化您的选件 {#personalize-offers}
+
+在将文本类型内容添加到选件的表示时，您还可以访问个性化编辑器。
+
+在[此部分](../offers/offer-library/creating-personalized-offers.md#custom-text)中了解有关使用决策管理管理内容的更多信息。
+
+## 使用表达式编辑器 {#use-expression-editor}
 
 表达式编辑器是[!DNL Journey Optimizer]中个性化的核心。
 

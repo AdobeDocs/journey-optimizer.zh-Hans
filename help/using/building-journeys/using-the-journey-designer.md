@@ -1,13 +1,14 @@
 ---
 title: 设计您的历程
 description: 了解如何设计历程
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 * **仅显示最近的项目**:此过滤器除了现成事件和操作之外，还允许您仅显示最近使用的五个事件和操作。这特定于每个用户。 默认情况下，将显示所有项目。
 
-您还可以使用&#x200B;**[!UICONTROL Search]**&#x200B;字段。
+您还可以使用&#x200B;**[!UICONTROL Search]**&#x200B;字段。 仅过滤事件和操作。
 
 **画布**&#x200B;是历程设计器中的中心区域。 您可以在此区域中拖放并配置活动。 单击画布中的活动以对其进行配置。 此操作将打开右侧的活动配置窗格。
 
@@ -98,7 +99,7 @@ ht-degree: 1%
 
 ![](../assets/canvas-disconnected.png)
 
-## 复制和粘贴活动{#copy-paste}
+## 复制和粘贴活动 {#copy-paste}
 
 您可以复制一个历程的一个或多个活动，并将它们粘贴到同一历程中或其他历程中。 如果要重复使用在上一个历程中已配置的大量活动，这样可节省时间。
 

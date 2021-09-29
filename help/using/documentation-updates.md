@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '711'
+ht-degree: 17%
 
 ---
 
@@ -16,8 +16,33 @@ ht-degree: 18%
 
 ## 2021 年 9 月
 
+* 以下函数页面已更新：[sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* 添加了以下函数：[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* 在表达式编辑器文档中添加了dateOnly日期类型。 [了解更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* 添加了有关自定义操作缓存持续时间的详细信息。 [了解更多信息](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* 添加了有关自定义操作默认端口的信息。 [了解更多信息](action/about-custom-action-configuration.md#url-configuration)
+
+* 添加了有关多个业务事件用例的信息。 [了解更多信息](event/about-creating-business.md#multiple-business-events)
+
+* 添加了在数据湖中查询历程步骤事件的常用示例。 [了解更多信息](reports/query-examples.md)
+
 * 添加了新的&#x200B;**限制**&#x200B;页面。 [了解更多信息](limitations.md)
+
 * 改进了&#x200B;**快速入门**&#x200B;页面，其中包含不同角色的步骤。 [了解更多信息](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* 现在，专用部分中描述的所有决策管理功能也适用于利用Offer decisioning应用程序服务的Adobe Experience Platform用户。 [了解更多信息](offers/get-started/starting-offer-decisioning.md)
+
+* 添加了子部分，以阐明在应用约束限制为给定版面选择选件时，使用区段与使用决策规则之间的差异。 [了解更多信息](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* 添加了特定的排名公式示例，以说明一些实际用例。 [了解更多信息](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* 添加了关于如何编辑IP池的子部分。 [了解更多信息](configuration/ip-pools.md#edit-ip-pool)
 
 ## 2021 年 8 月
 
@@ -36,7 +61,7 @@ ht-degree: 18%
 * 更新了委派子域部分，其中包含有关Adobe执行的验证过程的更多详细信息。 [了解更多信息](configuration/delegate-subdomain.md#subdomain-validation)
 * 添加了描述如何手动将电子邮件地址和域添加到禁止列表的部分。 [了解更多信息](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问抑制列表](configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](configuration/retries.md)部分以反映新的用户界面。
-* 记录了在创建选件时用于添加和配置表示法的新流程。 [了解更多信息](offers/offer-library/creating-personalized-offers.md#representations)
+* 已记录在创建优惠时添加和配置呈现的新流程。[了解更多信息](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## 2021 年 7 月

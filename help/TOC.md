@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 95%
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -96,6 +96,7 @@ ht-degree: 95%
    + 使用案例{#journey-use-cases}
       + [发送多渠道消息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
+      + [使用自定义操作动态传递收藏集](using/building-journeys/collections.md)
 + 跟踪和监视{#reporting}
    + [消息监测](using/message-monitoring.md)
    + 实时报告{#live-report}
@@ -115,6 +116,7 @@ ht-degree: 95%
       + [操作执行字段](using/reports/sharing-execution-fields.md)
       + [数据提取字段](using/reports/sharing-fetch-fields.md)
       + [标识字段](using/reports/sharing-identity-fields.md)
+      + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/deliverability.md)
       + [禁止列表](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 95%
       + [创建决策规则](using/offers/offer-library/creating-decision-rules.md)
       + [创建标记](using/offers/offer-library/creating-tags.md)
       + [创建排名公式](using/offers/offer-library/create-ranking-formulas.md)
+      + [创建排名策略](using/offers/offer-library/create-ranking-strategies.md)
    + 创建和管理优惠 {#managing-offers-in-the-offer-library}
       + [创建个性化优惠](using/offers/offer-library/creating-personalized-offers.md)
       + [创建后备优惠](using/offers/offer-library/creating-fallback-offers.md)

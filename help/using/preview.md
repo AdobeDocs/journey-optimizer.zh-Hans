@@ -1,14 +1,15 @@
 ---
 title: 预览消息和发送校样
 description: 了解如何预览和测试消息
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
+exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 3%
+source-wordcount: '932'
+ht-degree: 2%
 
 ---
 
@@ -97,7 +98,7 @@ ht-degree: 3%
 
 对于推送通知预览：
 
-1. 从&#x200B;**[!UICONTROL Preview]**&#x200B;屏幕左上角的&#x200B;**[!UICONTROL Channels]**&#x200B;下拉列表切换到&#x200B;**[!UICONTROL Push]**&#x200B;通道。
+1. 从&#x200B;**[!UICONTROL Preview]**&#x200B;屏幕右上方的&#x200B;**[!UICONTROL Channels]**&#x200B;下拉列表切换到&#x200B;**[!UICONTROL Push]**&#x200B;通道。
 
    ![](assets/preview-select-channel.png)
 

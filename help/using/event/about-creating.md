@@ -1,14 +1,15 @@
 ---
 title: 配置统一事件
 description: 了解如何配置单一事件
-feature: 事件
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 13%
+source-wordcount: '1703'
+ht-degree: 14%
 
 ---
 
@@ -59,7 +60,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >定义&#x200B;**[!UICONTROL Event ID condition]**&#x200B;时，高级表达式编辑器不可用。
+   >定义&#x200B;**[!UICONTROL Event ID condition]**&#x200B;时，高级表达式编辑器不可用。 在简单的表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字段的字符串类型，可以使用“包含”或“等于”。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
 1. 定义用户档案标识符：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的人员。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
@@ -101,9 +102,9 @@ ht-degree: 13%
 
 ## 选择命名空间 {#select-the-namespace}
 
-命名空间允许您定义用于标识与事件关联的人员的键类型。 其配置是可选的。 如果要在您的历程中检索来自[实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}的其他信息，则需要此信息。 如果您仅使用来自第三方系统的数据通过自定义数据源，则不需要命名空间定义。
+命名空间允许您定义用于标识与事件关联的人员的键类型。 其配置是可选的。 如果要在您的历程中检索来自[实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}的其他信息，则需要此信息。 如果您仅使用来自第三方系统的数据通过自定义数据源，则不需要命名空间定义。
 
-您可以使用其中一个预定义命名空间，或使用身份命名空间服务创建新的一个预定义命名空间。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}。
+您可以使用其中一个预定义命名空间，或使用身份命名空间服务创建新的一个预定义命名空间。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 如果选择具有主标识的架构，则会预填充&#x200B;**[!UICONTROL Profiler identifier]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;字段。 如果未定义标识，我们将选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段下）。
 

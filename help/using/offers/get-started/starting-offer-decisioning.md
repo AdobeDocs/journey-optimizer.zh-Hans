@@ -1,21 +1,25 @@
 ---
 title: 决策管理入门
 description: 决策管理入门。 了解关于其架构、优惠和决策，及其允许您执行的常见使用案例的更多信息。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
-source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
+exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 87%
 
 ---
-
 
 # 关于决策管理 {#about-offer-decision}
 
 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。
+
+>[!NOTE]
+>
+>如果您是利用&#x200B;**Offer decisioning**&#x200B;应用程序服务的[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;}用户，则本节中描述的所有决策管理功能也适用于您。
 
 “决策管理”功能由两个主要组件组成：
 
@@ -60,6 +64,13 @@ ht-degree: 0%
 
    ![](../../assets/do-not-localize/call-center.png)
 
+## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
+
+使用[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}管理访问和使用offer decisioning功能的权限。
+
+要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL Product profile]**&#x200B;并将相应的权限分配给用户。 了解有关在[此部分](../../administration/permissions.md)中管理[!DNL Journey Optimizer]用户和权限的更多信息。
+
+[此部分](../../administration/high-low-permissions.md#decisions-permissions)中列出了特定于决策管理的权限。
 
 ## 术语表 {#glossary}
 
@@ -96,7 +107,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它为在 [!DNL Journey Optimizer] 上下文中使用决策管理提供了通用指导。
+>这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它们为在[!DNL Journey Optimizer]的上下文中使用决策管理提供了通用指导。
 
 ### 什么是决策管理？ {#what-is-offer-decisioning}
 

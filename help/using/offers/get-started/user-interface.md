@@ -1,20 +1,25 @@
 ---
 title: 用户界面
 description: 了解有关优惠库用户界面的更多信息。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 71%
+source-wordcount: '635'
+ht-degree: 68%
 
 ---
 
 # 用户界面 {#user-interface}
 
 优惠库允许您在一个单一的位置创建和管理投放位置和优惠，并允许您访问所有创建的决策（以前称为“优惠活动”）。
+
+>[!NOTE]
+>
+>如果您在访问选件库或其某些功能时遇到问题，请咨询已向您授予所需权限的管理员用户。 请参阅[授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management)。
 
 使用 **[!UICONTROL Offers]** 菜单管理个性化的后备优惠，将它们组织到收藏集中，然后通过创建决策来发送这些后备优惠：
 

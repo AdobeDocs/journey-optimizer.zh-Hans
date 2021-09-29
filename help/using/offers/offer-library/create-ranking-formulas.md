@@ -1,20 +1,21 @@
 ---
 title: 创建排名公式
 description: 了解如何在Adobe Experience Platform中创建排名公式。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
+source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 1%
 
 ---
 
 # 创建排名公式 {#create-ranking-formulas}
 
-## 关于公式{#about-ranking-formulas}的排名
+## 关于排名公式 {#about-ranking-formulas}
 
 **排** 名公式允许您定义规则，以确定应首先为给定版面显示哪个选件，而不考虑选件的优先级得分。
 
@@ -22,7 +23,7 @@ ht-degree: 3%
 
 创建排名公式后，您可以将其分配给决策中的版面（以前称为选件活动）。 有关更多信息，请参阅[在决策](../offer-activities/configure-offer-selection.md)中配置选件选择。
 
-## 创建排名公式{#create-ranking-formula}
+## 创建排名公式 {#create-ranking-formula}
 
 要创建排名公式，请执行以下步骤：
 
@@ -45,3 +46,145 @@ ht-degree: 3%
    现在，它已准备好用于对符合条件的选件进行版面排名的决策（请参阅[在决策](../offer-activities/configure-offer-selection.md)中配置选件选择）。
 
    ![](../../assets/ranking-formula-created.png)
+
+## 公式排名示例 {#ranking-formula-examples}
+
+您可以根据需要创建多个不同的排名公式。 以下是一些示例。
+
+<!--
+Boost by offer ID
+
+Boost the priority of an offer with the offer ID *xcore:personalized-offer:13d213cd4cb328ec* by 5.
+
+**Ranking formula:**
+
+```
+if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec", offer.rank.priority + 5, offer.rank.priority)
+```
+
+Change the offer priority based on a certain profile attribute
+
+Set the offer priority to 30 for offer *xcore:personalized-offer:13d213cd4cb328ec* if the user lives in the city of Bondi.
+
+**Ranking formula:**
+
+```
+if( offer._id = "xcore:personalized-offer:13d213cd4cb328ec" and homeAddress.city.equals("Bondi", false), 30, offer.rank.priority)
+```
+
+Boost multiple offers by offer ID based on the presence of a profile's segment membership
+
+Boost the priority of offers based on whether the user is a member of a priority segment, which is configured as an attribute in the offer.
+
+**Ranking formula:**
+
+```
+if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
+```
+-->
+
+### 基于配置文件属性提升具有特定选件属性的选件
+
+如果用户档案位于与选件对应的城市，则该城市中所有选件的优先级应提高一倍。
+
+**排名公式：**
+
+```
+if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+```
+
+### 结束日期在现在后24小时内的提升选件
+
+**排名公式：**
+
+```
+if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
+```
+
+### 基于上下文数据提升具有特定选件属性的选件
+
+根据决策调用中传递的上下文数据提升特定选件。 例如，如果在决策调用中传递了`contextData.weather=hot`，则必须提高具有`attribute=hot`的所有选件的优先级。
+
+**排名公式：**
+
+```
+if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
+and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+```
+
+请注意，使用决策API时，上下文数据会添加到请求正文中的用户档案元素，例如以下示例中的。
+
+**请求正文中的代码片段：**
+
+```
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+ }],
+```
+
+### 根据客户购买所提供产品的倾向来提升优惠
+
+如果我们有2个实例，其中&#x200B;*CustomerAI*&#x200B;计算购买航空公司&#x200B;*travelInsurance*&#x200B;和&#x200B;*extraBargage*&#x200B;的倾向，那么如果客户购买该产品的倾向得分高于90，则以下排名公式将提高保险或行李特有选件的优先级（增加50分）。
+
+但是，由于每个&#x200B;*CustomerAI*&#x200B;实例在统一配置文件架构内创建其自身的对象，因此无法根据选件倾向类型动态选择分数。 因此，您必须对`if`语句进行链接，以首先检查选件倾向类型，然后从相应的用户档案字段中提取分数。
+
+**排名公式：**
+
+```
+if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
+    (
+        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
+    )
+)
+```
+
+一个更好的解决方案是将分数存储在配置文件的数组中。 以下示例将仅使用简单的排名公式，跨各种不同的倾向得分工作。 您的期望是您有一个包含分数数组的用户档案架构。 在本例中，实例租户为&#x200B;*_salesvelocity*，并且配置文件架构包含以下内容：
+
+![](../../assets/ranking-example-schema.png)
+
+鉴于此，对于如下用户档案：
+
+```
+{"_salesvelocity": {"individualScoring": [
+                    {"core": {
+                            "category":"insurance",
+                            "propensityScore": 96.9
+                        }},
+                    {"core": {
+                            "category":"personalLoan",
+                            "propensityScore": 45.3
+                        }},
+                    {"core": {
+                            "category":"creditCard",
+                            "propensityScore": 78.1
+                        }}
+                    ]}
+}
+```
+
+选件将包含与得分中的类别匹配的&#x200B;*deptiveType*&#x200B;属性：
+
+![](../../assets/ranking-example-propensityType.png)
+
+然后，您的排名公式可以将每个选件的优先级设置为等于该&#x200B;*prediveType*&#x200B;的客户&#x200B;*prediveScore*。 如果未找到分数，请使用选件上设置的静态优先级：
+
+```
+let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
+             where _Individual_Scoring1.core.category.equals(offer.characteristics.propensityType, false)).head().core.propensityScore
+in if(score.isNotNull(), score, offer.rank.priority)
+```

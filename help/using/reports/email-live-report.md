@@ -5,9 +5,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -26,19 +27,27 @@ ht-degree: 1%
 
 **[!UICONTROL Email performance]** 和小 **[!UICONTROL Email summary]** 组件使用图表和KPI详细描述与消息相关的主要信息：
 
+* **[!UICONTROL Targeted]**:符合此投放目标用户档案的用户配置文件数。
+
 * **[!UICONTROL Sent]**:投放的发送总数。
 
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
-
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
-
-* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
 * **[!UICONTROL Opens]**:投放中消息打开的次数。
 
 * **[!UICONTROL Clicks]**:在投放中点击内容的次数。
 
-**[!UICONTROL Sending Statistics]**&#x200B;图表详细列出了交付的成功情况：
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+
+* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+* **[!UICONTROL Spam complaints]**:分类为垃圾邮件的邮件数。
+
+* **[!UICONTROL Unsubscriptions]**:退订链接的点击次数。
+
+* **[!UICONTROL Excluded]**:未收到消息的从定向用户档案中排除的用户用户档案数。
+
+**[!UICONTROL Sending Statistics]**&#x200B;小组件详细介绍了您交付的成功：
 
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 

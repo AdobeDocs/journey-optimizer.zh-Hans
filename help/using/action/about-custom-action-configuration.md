@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 # 配置操作 {#configure-an-action}
 
 如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程左侧面板的&#x200B;**[!UICONTROL Action]**&#x200B;类别中可用（请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)）。 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
+
 [此页面](../limitations.md)中列出了限制。
+
+您可以使用自定义操作动态传递收藏集。 请参见此[用例](../limitations.md)。
 
 以下是配置自定义操作所需的主要步骤：
 
@@ -56,12 +59,14 @@ ht-degree: 6%
 
    * 如果URL包含动态路径，则只输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-      示例: `https://xxx.yyy.com:8080/somethingstatic/`
+      示例: `https://xxx.yyy.com/somethingstatic/`
 
       在将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
    >
    >出于安全原因，我们强烈建议您对URL使用HTTPS方案。 我们不允许使用非公共的Adobe地址和IP地址。
+   >
+   >定义自定义操作时仅允许使用默认端口：80表示http，443表示https。
 
 1. 选择&#x200B;**[!UICONTROL Method]**&#x200B;调用：它可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
 1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;部分中，定义要发送到外部服务的请求消息的HTTP标头：
@@ -106,3 +111,4 @@ ht-degree: 6%
 * 变量表示参数的值会有所不同。 在历程中使用此自定义操作的营销人员可以自由地传递所需的值，或指定在何处检索此参数的值(例如，从事件、从Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在命名此参数的历程中将看到的标签。
 
 ![](../assets/customactionpayloadmessage2.png)
+

@@ -1,14 +1,15 @@
 ---
 title: 推送通知实时报告
 description: 了解如何使用推送通知实时报告中的数据
-feature: 报告
-topic: 内容管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 2%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,22 @@ ht-degree: 2%
 * **[!UICONTROL Actions]**:已送达推送通知的操作总数，例如按钮单击或解除。
 
 * **[!UICONTROL Engagements]**:此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。
+
+**[!UICONTROL Sending metrics - by push]**&#x200B;表详细列出了交付成功的情况：
+
+* **[!UICONTROL Targeted]**:符合此投放目标用户档案的用户配置文件数。
+
+* **[!UICONTROL Excluded]**:未收到消息的从定向用户档案中排除的用户用户档案数。
+
+* **[!UICONTROL Sent]**:投放的发送总数。
+
+* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+
+* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+* **[!UICONTROL Opens]**:投放中消息打开的次数。
 
 ![](../assets/live_report_4.png)
 
