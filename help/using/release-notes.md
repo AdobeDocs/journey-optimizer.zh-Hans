@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1526'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 19%
 <tbody>
 <tr>
 <td>
-<p>报表中提供了一个新量度：电子邮件和推送消息的目标受众在实时报表和全局报表中均可见。</p>
+<p>报表中提供了新量度：电子邮件和推送消息的“目标”和“排除”在实时报表和全局报表中均可见。 </br> 要访问最新量度，请注意，您必须为每个渠道和报表类型重置不同的报表功能板。有关功能板自定义的详细信息，请参阅<a href="reports/live-report.md">详细文档。</a></p>
 <p>消息执行列表中的新列显示每个消息执行的目标用户档案数。 </p>
 <p>有关更多信息，请参阅<a href="message-monitoring.md">详细文档</a>。</p>
 </td>
