@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 35%
 
 ---
@@ -30,11 +30,9 @@ ht-degree: 35%
 
 请在以下页面中了解详情：
 
-* **产品配置文件和权限快速入门**
-
 * **设置用** 户权限并授予团队成员的访问权限。[了解更多信息](../using/administration/permissions.md)
 
-* **部署[!DNL Adobe Experience Manager Assets Essentials]** 以管理消息中的资产和图像：需要访问的用户必 [!DNL Assets Essentials] 须属于Assets Essentials消费者用 **户** 和Assets Essentials用户产 **品配** 置文件。[阅读更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
+* **部署[!DNL Adobe Experience Manager Assets Essentials]** 以管理消息中的资产和图像：需要访问的用户必 [!DNL Assets Essentials] 须属于Assets Essentials消费者用 **户** 和Assets Essentials用户产 **品配** 置文件。[有关更多信息，请参阅Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)文档{target=&quot;_blank&quot;}
 
 * **配置渠道** 并定义电子邮件和推送通知设置。[了解更多信息](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ ht-degree: 35%
 
 作为数据管理员，您需要&#x200B;**识别数据并创建架构和数据集**&#x200B;以将数据导入Adobe Experience Platform。
 
-以下各节详细介绍了为用户档案创建身份命名空间和启用数据集以及创建区段和测试用户档案的步骤：
+以下各节详细介绍了为用户档案创建身份命名空间和启用数据集、创建区段和测试用户档案的步骤：
 
 * 了解如何在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}中预览和创建&#x200B;**数据集**
 
@@ -63,7 +61,7 @@ ht-degree: 35%
 
 ## 创建消息、优惠和历程
 
-作为历程实践者，请参阅以下部分，以设置您的第一个历程、添加选件、资产和发送消息：
+作为历程实践者，请参阅以下部分，以设置您的第一个历程、添加选件和资产以及发送消息：
 
 * **创建消息**：访问消息，设计或加载电子邮件和推送内容，添加个性化和预览消息。[了解更多信息](create-message.md)
 
