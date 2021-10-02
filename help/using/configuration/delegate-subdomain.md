@@ -15,17 +15,17 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
+exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '760'
 ht-degree: 5%
 
 ---
 
-
 # 委派子域
 
-域名委派是允许域名所有者的方法(技术上为：DNS区域)，以委派其分区(技术上：其下的DNS区域（可称为子区域）到其他实体。 基本上，如果客户正在处理区域“example.com”，他可以将子区域“marketing.example.com”委派给Adobe。
+域名委派是允许域名所有者的方法(技术上为：DNS区域)，以委派其分区(技术上：其下的DNS区域（可称为子区域）到其他实体。 基本上，作为客户，如果您正在处理“example.com”区域，则可以将子区域“marketing.example.com”委派给Adobe。
 
 通过委派子域以与[!DNL Journey Optimizer]一起使用，客户可以依赖Adobe来维护满足其电子邮件营销发送域行业标准可交付性要求所需的DNS基础结构，同时继续维护和控制其内部电子邮件域的DNS。
 

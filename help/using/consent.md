@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 80%
 
 ---
@@ -138,7 +139,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 了解如何在[此部分](message-tracking.md#one-click-opt-out-link)中添加指向消息内容的选择退出链接。
 
-通过[journey](building-journeys/journey.md)发送消息后，如果收件人单击选择退出链接，则他会立即被选择退出。
+通过[journey](building-journeys/journey.md)发送消息后，如果收件人单击选择退出链接，则其用户档案会立即选择退出。
 
 ## 标头中的取消订阅链接 {#unsubscribe-email}
 

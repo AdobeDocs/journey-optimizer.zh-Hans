@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '689'
 ht-degree: 13%
 
 ---
 
 # 个性化入门{#add-personalization}
 
-探索[!DNL Adobe Journey Optimizer]个性化功能，通过利用您拥有的关于他/她的数据和信息，使您的消息适应每个特定收件人。 这可以是他的名字、兴趣、居住地、购买的东西等。
+探索[!DNL Adobe Journey Optimizer]个性化功能，通过利用您拥有的与邮件相关的数据和信息，使邮件适应每个特定收件人。 这可以是他们的名字、兴趣、住处、购买的东西等。
 
 ➡️ [了解如何对这些视频中的消息进行个性化](#video-perso)
 

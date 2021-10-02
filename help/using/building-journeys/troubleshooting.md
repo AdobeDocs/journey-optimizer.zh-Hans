@@ -5,14 +5,15 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1039'
 ht-degree: 84%
 
 ---
 
-# 疑难解答{#concept_nlv_bcv_2fb}
+# 故障排除{#concept_nlv_bcv_2fb}
 
 在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。请参阅[此页](../building-journeys/testing-the-journey.md)。
 
@@ -81,7 +82,7 @@ ht-degree: 84%
 
 如果人员在历程中以正确的方式流动，但没有收到他们应该收到的消息，您可以检查：
 
-* [!DNL Journey Optimizer] 正确考虑了发送消息的请求。企业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间相对应。 他还可以检查收到的最新API调用/事件。
+* [!DNL Journey Optimizer] 正确考虑了发送消息的请求。企业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间相对应。 他们还可以检查收到的最新API调用/事件。
 * [!DNL Journey Optimizer] 已成功发送消息。在消息的发送日志中，您可以查看每次执行的状态。 您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。

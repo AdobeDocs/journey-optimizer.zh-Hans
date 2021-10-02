@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 1. 保存更改。
 
-发送您的消息后，如果收件人单击选择退出链接，则他会立即被选择退出。
+发送消息后，如果收件人单击选择退出链接，则他们会立即选择退出。
 
 ## 管理跟踪 {#manage-tracking}
 
