@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 7%
 
 ---
@@ -118,7 +119,7 @@ ht-degree: 7%
 分段可以基于：
 
 * 数据源数据
-* 历程数据中事件部分的上下文，例如：有人点击了她一小时前收到的消息吗？
+* 历程数据中事件部分的上下文，例如：某人点击了一小时前收到的消息吗？
 * 例如，日期：我们是在六月，当一个人走过旅程？
 * 例如，某个时间：是在人的时区吗？
 * 根据百分比拆分历程中流动的受众的算法，例如：90% - 10% — 排除控制组
