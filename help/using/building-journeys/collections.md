@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用自定义操作动态传递收藏集
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 76b260de3f27d09d6676b18ca262b74be3d32d2c
+source-git-commit: 61ec1d33ab500837bc0a58961f1abf5fc436e487
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 4%
@@ -148,7 +148,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-对于数组字段，您还可以使用高级表达式编辑器执行数据处理。 在以下示例中，我们使用[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html)和[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html)函数：
+对于数组字段，您还可以使用高级表达式编辑器执行数据处理。 在以下示例中，我们使用[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html)和[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html)函数：
 
 ![](../assets/uc-collection-5.png)
 
