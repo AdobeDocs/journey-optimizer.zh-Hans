@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 3%
 在创建选件之前，请确保已创建：
 
 * 将显示选件的&#x200B;**版面**。 请参阅[创建版面](../offer-library/creating-placements.md)
-* 一个&#x200B;**决策规则**，该规则将定义将显示选件的条件。 请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
-* 要与选件关联的一个或多个&#x200B;**标记**。 请参阅[创建标记](../offer-library/creating-tags.md)。
+* 如果要添加资格条件：**决策规则**，该规则将定义显示选件的条件。 请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
+* 一个或多个要与选件关联的&#x200B;**标记**。 请参阅[创建标记](../offer-library/creating-tags.md)。
 
 ➡️ [在视频中发现此功能](#video)
 
