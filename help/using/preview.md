@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -122,13 +122,19 @@ ht-degree: 2%
 
    ![](assets/send-proof-button.png)
 
-1. 在&#x200B;**[!UICONTROL Send proof]**&#x200B;窗口中，除测试用户档案外，键入收件人的电子邮件，然后单击&#x200B;**[!UICONTROL Add]**&#x200B;将校样发送给您自己或组织成员。
+1. 在&#x200B;**[!UICONTROL Send proof]**&#x200B;窗口中，键入收件人的电子邮件，然后单击&#x200B;**[!UICONTROL Add]**&#x200B;以将校样发送给您自己或组织成员。
 
-   请注意，校样投放最多可添加10个收件人。
+   请注意，您最多可以为校样投放添加10个收件人。
 
    ![](assets/send-proof-button_2.png)
 
-1. 然后，选择将接收校样的测试用户档案，并单击&#x200B;**[!UICONTROL Send proof]**。 如果需要，您可以向校样的主题行添加前缀。 仅字母数字字符和特殊字符，例如。 - _()[ ]，作为主题行的前缀。
+1. 然后，选择&#x200B;**测试用户档案**，该用户档案将用于个性化消息内容。
+
+   校样的每个收件人将收到与选定测试用户档案数相同数量的消息。 例如，如果您添加了五封收件人电子邮件并选择了十个测试用户档案，则您将发送五十条校样消息，每个收件人将收到其中十条消息。
+
+1. 如果需要，您可以向校样的主题行添加前缀。 仅字母数字字符和特殊字符，例如。 - _()[ ]，作为主题行的前缀。
+
+1. 单击 **[!UICONTROL Send proof]**。
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ ht-degree: 2%
 
    ![](assets/send-proof-view.png)
 
-您需要在对消息内容进行任何修改后发送校样。
+建议在对消息内容进行每次修改后发送校样。
 
 >[!NOTE]
 >
-> 在发送到测试用户档案的校样中，指向镜像页面的链接不处于活动状态。 它仅在最终消息中激活。
+>在发送到测试用户档案的校样中，指向镜像页面的链接不处于活动状态。 它仅在最终消息中激活。
 
 ## 电子邮件渲染{#email-rendering}
 
