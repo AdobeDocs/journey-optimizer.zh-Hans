@@ -6,26 +6,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
 
 # 通过电邮发送实时报告 {#email-live-report}
 
-电子邮件&#x200B;**[!UICONTROL Live report]**&#x200B;仅定向特定的电子邮件投放。
+电子邮件 **[!UICONTROL Live report]** 仅定向特定电子邮件投放。
 
-从&#x200B;**[!UICONTROL Messages]**&#x200B;菜单的&#x200B;**[!UICONTROL Executions]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Live view]** ，然后从选定投放的高级菜单中选择&#x200B;**[!UICONTROL Live report]**。
+从 **[!UICONTROL Executions]** 选项卡 **[!UICONTROL Messages]** 菜单，选择 **[!UICONTROL Live view]** 然后，从选定投放的高级菜单中选择 **[!UICONTROL Live report]**.
 
 ![](../assets/live_report.png)
 
-电子邮件&#x200B;**[!UICONTROL Live report]**&#x200B;分为不同的小组件，用于详细描述投放成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](live-report.md#modify-dashboard)。
+电子邮件 **[!UICONTROL Live report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](live-report.md#modify-dashboard).
 
 ![](../assets/live_report_5.png)
 
-**[!UICONTROL Email performance]** 和小 **[!UICONTROL Email summary]** 组件使用图表和KPI详细描述与消息相关的主要信息：
+**[!UICONTROL Email performance]** 和 **[!UICONTROL Email summary]** 小组件使用图表和KPI详细描述与消息相关的主要信息：
 
 * **[!UICONTROL Targeted]**:符合此投放目标用户档案的用户配置文件数。
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Excluded]**:未收到消息的从定向用户档案中排除的用户用户档案数。
 
-**[!UICONTROL Sending Statistics]**&#x200B;小组件详细介绍了您交付的成功：
+的 **[!UICONTROL Sending Statistics]** 小组件详细介绍您交付的成功：
 
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 
@@ -57,18 +57,32 @@ ht-degree: 1%
 
 ![](../assets/live_report_6.png)
 
-**[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
+的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
-**[!UICONTROL Bounce Reasons]**&#x200B;和&#x200B;**[!UICONTROL Bounce categories]**&#x200B;小组件包含与弹回消息相关的可用数据，例如：
+的 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小组件包含与弹回的消息相关的可用数据，例如：
 
-* **[!UICONTROL Hard bounce]**:永久错误的总数，如错误的电子邮件地址。这涉及显式声明地址无效的错误消息，如未知用户。
+* **[!UICONTROL Hard bounce]**:永久错误的总数，如错误的电子邮件地址。 这涉及显式声明地址无效的错误消息，如未知用户。
 
 * **[!UICONTROL Soft bounce]**:临时错误（如完整收件箱）的总数。
 
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
+![](../assets/live_report_8.png)
+
 >[!NOTE]
 >
->在消息发送过程中，将排除状态为&#x200B;**[!UICONTROL Suppressed]**&#x200B;或&#x200B;**[!UICONTROL Not allowed]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报表**&#x200B;会将这些用户档案显示为已在历程（[读取区段](../building-journeys/read-segment.md)和[消息](../building-journeys/journeys-message.md)活动）中移动，但&#x200B;**电子邮件报表**&#x200B;不会在&#x200B;**[!UICONTROL Sent]**&#x200B;量度中包含这些用户档案，因为在发送电子邮件之前已将它们过滤掉。
+>仅当在电子邮件中插入决策时，选件小组件和量度才可用。 有关决策管理的详细信息，请参阅此 [页面](../offers/get-started/starting-offer-decisioning.md).
+
+的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 随着时间的推移，小组件可衡量选件的成功以及对目标受众的影响。 它使用KPI详细描述与消息相关的主要信息：
+
+* **[!UICONTROL Offer sent]**:选件的发送总数。
+
+* **[!UICONTROL Offer impression]**:在投放中打开选件的次数。
+
+* **[!UICONTROL Offer clicks]**:在投放中点击选件的次数。
+
+>[!NOTE]
 >
->了解有关[抑制列表](../suppression-list.md)和[允许列表](../allow-list.md)的更多信息。 要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
+>具有 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息](../building-journeys/journeys-message.md) ) **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
+>
+>了解 [禁止列表](../suppression-list.md) 和 [允许列表](../allow-list.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。

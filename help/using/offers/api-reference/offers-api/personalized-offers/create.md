@@ -1,14 +1,15 @@
 ---
 title: 创建个性化优惠
 description: 个性化优惠是基于资格规则和限制的可自定义营销消息。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
+source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 12%
 
 个性化优惠是基于资格规则和限制的可自定义营销消息。
 
-在提供容器ID的同时，您可以通过向[!DNL Offer Library] API发出POST请求来创建个性化选件。
+您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
 ## 接受和内容类型标头
 
-下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
+下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -85,7 +86,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的个性化选件的信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除您的个性化选件。
+成功的响应会返回有关新创建的个性化选件的信息，包括其唯一实例ID和版面 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的个性化选件。
 
 ```json
 {
@@ -100,3 +101,7 @@ curl -X POST \
     "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
+## 限制 {#limitations}
+
+移动设备当前不支持某些选件限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 的 `Capping` 字段值指定选件在所有用户中可显示的次数。 有关更多详细信息，请参阅 [选件资格规则和限制文档](../../../offer-library/creating-personalized-offers.md).

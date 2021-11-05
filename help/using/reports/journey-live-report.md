@@ -1,68 +1,85 @@
 ---
 title: 历程实时报告
 description: 了解如何使用历程实时报告中的数据
-feature: 报表
-topic: 内容管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
+exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
 
 # 历程实时报告 {#journey-live-report}
 
-历程实时报告可使用&#x200B;**[!UICONTROL Live report]**&#x200B;按钮直接从历程访问。
+历程实时报表可直接从您的历程中通过 **[!UICONTROL Live report]** 按钮。
 
 ![](../assets/report_1.png)
 
-将显示历程&#x200B;**[!UICONTROL Live report]**&#x200B;页面，其中包含以下选项卡：
+历程 **[!UICONTROL Live report]** 页面中将显示以下选项卡：
 
 * [历程](#journey-live)
 * [电子邮件](#email-live)
 * [推送](#push-live)
 
-历程&#x200B;**[!UICONTROL Live report]**&#x200B;分为不同的小组件，用于详细描述历程的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](live-report.md#modify-dashboard)。
+历程 **[!UICONTROL Live report]** 会分为不同的小组件，用于详细描述历程的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](live-report.md#modify-dashboard).
 
 ## 历程选项卡 {#journey-live}
 
-在历程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Journey]**&#x200B;选项卡可以清晰地显示有关历程最重要的跟踪数据。
+从您的历程 **[!UICONTROL Live report]**, **[!UICONTROL Journey]** 选项卡可让您清楚地查看有关历程的最重要跟踪数据。
 
 ![](../assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** 允许您分步查看目标用户档案在历程中的路径。
 
-**[!UICONTROL Journey Statistics]**&#x200B;小组件显示以下KPI:
+的 **[!UICONTROL Journey Statistics]** 小组件显示以下KPI:
 
 * **[!UICONTROL Entered profiles]**:到达历程的登入事件的个人总数。
 
 * **[!UICONTROL Exited profiles]**:退出历程的个人总数。
 
-* **[!UICONTROL Failed individual journey]**:未成功执行的各个历程的总数。
+* **[!UICONTROL Failed individual journeys]**:未成功执行的各个历程的总数。
 
 ![](../assets/report_journey_3.png)
 
-通过&#x200B;**[!UICONTROL Event executed over the last 24 hours]**、**[!UICONTROL Events executed]**&#x200B;和&#x200B;**[!UICONTROL Events]**&#x200B;小组件，您可以通过概要数字、图表和表格查看成功执行了其中某个事件。
+的 **[!UICONTROL Event executed over the last 24 hours]** 和 **[!UICONTROL Events]** 小组件允许您通过概要数字、图表和表格查看哪些事件成功执行。
 
 ![](../assets/report_journey_4.png)
 
-**[!UICONTROL Action executed over the last 24 hours]** 和小 **[!UICONTROL Actions executed and errors]** 组件表示在触发操作时发生的最成功的操作和错误。操作图、表和概要数字包含可用于操作的数据，例如：
+的 **[!UICONTROL Action executed over the last 24 hours]** 和 **[!UICONTROL Actions executed and errors]** 小组件表示在触发操作时发生的最成功操作和错误。 操作图、表和概要数字包含可用于操作的数据，例如：
 
-* **[!UICONTROL Actions successfully executed]**:为历程成功执行的操作总数。
+* **[!UICONTROL Actions executed]**:为历程成功执行的操作总数。
 
-* **[!UICONTROL Error in action]**:操作发生的错误总数。
+* **[!UICONTROL Error in actions]**:操作发生的错误总数。
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## “电子邮件”选项卡 {#email-live}
 
-在您的历程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Email]**&#x200B;选项卡详细介绍了与在历程中发送的电子邮件投放相关的主要信息。
+从您的历程 **[!UICONTROL Live report]**, **[!UICONTROL Email]** 选项卡详细列出了与历程中发送的电子邮件投放相关的主要信息。
 
-有关特定电子邮件投放的详细报告，请参阅[电子邮件实时报告](email-live-report.md)一节。
+有关特定电子邮件投放的详细报告，请参阅 [电子邮件实时报表](email-live-report.md) 中。
 
 ![](../assets/report_email_1.png)
 
-**[!UICONTROL Email Sending Statistics]**&#x200B;小组件详细列出了与您的消息相关的主要信息：
+的 **[!UICONTROL Email Sending Statistics]** 小组件详细介绍与您的消息相关的主要信息：
 
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 
@@ -70,7 +87,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
-**[!UICONTROL Sending metrics by Email]**&#x200B;表和&#x200B;**[!UICONTROL Email Summary]**&#x200B;图详细说明了交付的成功：
+的 **[!UICONTROL Sending metrics by Email]** 表格和 **[!UICONTROL Email Summary]** 图形详细说明了交付的成功：
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
@@ -90,25 +107,25 @@ ht-degree: 1%
 
 ![](../assets/report_email_2.png)
 
-**[!UICONTROL Bounce Reasons]**、**[!UICONTROL Bounce categories]**&#x200B;和&#x200B;**[!UICONTROL Hard and bounce - by Email]**&#x200B;小组件包含与弹回消息相关的可用数据，例如：
+的 **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** 和 **[!UICONTROL Hard and bounce - by Email]** 小组件包含与弹回的消息相关的可用数据，例如：
 
-* **[!UICONTROL Hard bounce]**:永久错误的总数，如错误的电子邮件地址。这涉及显式声明地址无效的错误消息，如未知用户。
+* **[!UICONTROL Hard bounce]**:永久错误的总数，如错误的电子邮件地址。 这涉及显式声明地址无效的错误消息，如未知用户。
 
 * **[!UICONTROL Soft bounce]**:临时错误（如完整收件箱）的总数。
 
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
-**[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
+的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
 ## “推送”选项卡 {#push-live}
 
-在您的历程&#x200B;**[!UICONTROL Live report]**&#x200B;中， **[!UICONTROL Push]**&#x200B;选项卡详细介绍了与在历程中发送的推送投放相关的主要信息。
+从您的历程 **[!UICONTROL Live report]**, **[!UICONTROL Push]** 选项卡详细列出了与历程中发送的推送投放相关的主要信息。
 
-有关特定推送投放的详细报告，请参阅[推送实时报告](push-live-report.md)一节。
+有关特定推送投放的详细报告，请参阅 [推送实时报表](push-live-report.md) 中。
 
 ![](../assets/report_push_1.png)
 
-**[!UICONTROL Push notification sending performance]**、和小 **[!UICONTROL Push notification summary]** 组 **[!UICONTROL Sending metrics - by Push]** 件会详细介绍与您的消息相关的主要信息：
+**[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** 和 **[!UICONTROL Sending metrics - by Push]** 小组件详细介绍与您的消息相关的主要信息：
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
@@ -124,10 +141,10 @@ ht-degree: 1%
 
 * **[!UICONTROL Engagements]**:此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。
 
-**[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
+的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
 ![](../assets/report_push_2.png)
 
-**[!UICONTROL Tracking by platform]**、**[!UICONTROL Sending by platform]**&#x200B;和&#x200B;**[!UICONTROL Breakdown by platform]**&#x200B;图表和表格根据操作系统详细列出了推送通知的成功情况。
+的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
 
-**[!UICONTROL Sending statistics - Failed]**&#x200B;小组件允许您查看发生了多少错误和跳出。
+的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。

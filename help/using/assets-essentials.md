@@ -1,14 +1,15 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: 开始使用Assets Essentials
-feature: 概述
-topic: 内容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
@@ -16,49 +17,50 @@ ht-degree: 2%
 
 ## 开始使用 [!DNL Assets Essentials] {#get-started-assets-essentials}
 
+
+[!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。 它可以直接从 [!DNL Adobe Journey Optimizer] 到 **[!UICONTROL Assets]** 中。 在设计电子邮件内容时，您还可以访问资产和文件夹。 [了解有关电子邮件设计的更多信息](design-emails.md).
+
 >[!NOTE]
 >
-> 要与[!DNL Adobe Experience Manager Assets Essentials]一起使用，您需要为贵组织部署[!DNL Assets Essentials]，并确保需要访问[!DNL Assets Essentials]的用户是&#x200B;**Assets Essentials消费者用户**&#x200B;或/和&#x200B;**Assets Essentials用户**&#x200B;产品配置文件的一部分。 <br> 有关此内容的更多信息，请 [参阅此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+> 使用 [!DNL Adobe Experience Manager Assets Essentials]，则需要部署 [!DNL Assets Essentials] ，并确保需要访问 [!DNL Assets Essentials]，是 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 <br> 有关此内容的更多信息，请参阅此内容 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
-[!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。它可以直接从[!DNL Adobe Journey Optimizer]访问到&#x200B;**[!UICONTROL Assets]**&#x200B;部分。 在设计电子邮件内容时，您还可以访问资产和文件夹。 [进一步了解电子邮件设计](design-emails.md)。
-
-有关[!DNL Assets Essentials]的更多详细过程，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
+有关 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
 
 ## 上传和插入资产{#add-asset}
 
-要上传[!DNL Assets Essentials]中的文件，您首先需要浏览或创建将存储到其中的文件夹。 然后，您便能够将它们插入到电子邮件内容中。
+要在 [!DNL Assets Essentials]，则首先需要浏览或创建要存储到其中的文件夹。 然后，您便能够将它们插入到电子邮件内容中。
 
-有关如何上传资产的更多信息，请参阅[Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}。
+有关如何上传资产的更多信息，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}。
 
-1. 从[!DNL Adobe Journey Optimizer]主页中，选择&#x200B;**[!UICONTROL Content management]**&#x200B;菜单下的&#x200B;**[!UICONTROL Assets]**&#x200B;选项卡以访问[!DNL Assets Essentials]。
+1. 从 [!DNL Adobe Journey Optimizer] 主页，选择 **[!UICONTROL Assets]** 选项卡 **[!UICONTROL Content management]** 访问菜单 [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. 从中央部分或树视图中双击文件夹以将其打开。
 
-   您还可以单击&#x200B;**[!UICONTROL Create folder]**&#x200B;创建新文件夹。
+   您还可以单击 **[!UICONTROL Create folder]** 创建新文件夹。
 
    ![](assets/media_library_8.png)
 
-1. 进入选定或创建的文件夹后，单击&#x200B;**[!UICONTROL Add Assets]** ，将新资产上传到您的文件夹。
+1. 进入选定或创建的文件夹后，单击 **[!UICONTROL Add Assets]** 将新资产上传到您的文件夹。
 
    ![](assets/media_library_2.png)
 
-1. 在&#x200B;**[!UICONTROL Upload files]**&#x200B;中，单击&#x200B;**[!UICONTROL Browse]**&#x200B;并选择想要&#x200B;**[!UICONTROL Browse files]**&#x200B;还是&#x200B;**[!UICONTROL Browse folders]**。
+1. 从 **[!UICONTROL Upload files]**，单击 **[!UICONTROL Browse]** 然后选择 **[!UICONTROL Browse files]** 或 **[!UICONTROL Browse folders]**.
 
    ![](assets/media_library_3.png)
 
 1. 选择要上传的文件。 完成后，单击 **[!UICONTROL Upload]**。
 
-   要了解有关如何管理资产的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)。
+   要了解有关如何管理资产的更多信息，请参阅 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. 上传资产后，您现在可以通过Email designer将资产插入其中一条消息。
 
-   您还可以使用&#x200B;**编辑**&#x200B;模式([!DNL Assets Essentials])对资产进行进一步编辑。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}。
+   您的资产还可以使用 **编辑** 模式 [!DNL Assets Essentials]. [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}。
 
    ![](assets/media_library_12.png)
 
-1. 从[!DNL Adobe Journey Optimizer]中，从电子邮件设计器的左窗格中选择&#x200B;**[!UICONTROL Asset picker]**。
+1. 从 [!DNL Adobe Journey Optimizer]，选择 **[!UICONTROL Asset picker]** 电子邮件设计工具的左窗格。
 
    ![](assets/media_library_5.png)
 
@@ -68,6 +70,6 @@ ht-degree: 2%
 
    ![](assets/media_library_6.png)
 
-1. 您可以进一步自定义资产，例如添加外部链接或使用&#x200B;**[!UICONTROL Components settings]**&#x200B;的文本。 [了解有关组件设置的更多信息](content-components.md)
+1. 您可以进一步自定义您的资产，例如，使用 **[!UICONTROL Components settings]**. [了解有关组件设置的更多信息](content-components.md)
 
    ![](assets/media_library_13.png)

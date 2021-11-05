@@ -2,18 +2,123 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
+source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 19%
+source-wordcount: '2019'
+ht-degree: 16%
 
 ---
 
 # 发行说明 {#release-notes}
 
-此页面列出 [!DNL Journey Optimizer] 的所有新增功能和改进。您还可以查阅最新的[文档更新](documentation-updates.md)。
+此页面列出 [!DNL Journey Optimizer] 的所有新增功能和改进。您还可以查阅 [最新文档更新](documentation-updates.md).
+
+## 2021 年 10 月版 {#oct-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table-->
 
 
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>决策管理 — 优惠模拟</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在Journey Optimizer UI中模拟将哪些选件交付到给定版面的测试用户档案。 这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。 此功能允许非技术和技术用户快速测试offer decisioning并排除潜在问题。</p>
+<p>有关更多信息，请参阅<a href="offers/offer-activities/simulation.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>决策管理 — 个性化您的选件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以使用Adobe Experience Platform配置文件属性和区段将选件的内容个性化，该组件与Journey Optimizer UI中的表达式编辑器组件相同。 </p>
+<p>有关更多信息，请参阅<a href="offers/offer-library/creating-personalized-offers.md#content">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+另请参阅 [Adobe Experience Platform 10月发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target=&quot;_blank&quot;}以了解更多更改。
+
+### 改进
+
+**历程**
+
+* **表达式编辑器**  — 作为高级用户，您现在可以使用函数处理映射。 此功能可与订阅列表一起使用。 例如，从区段，您现在可以从订阅列表中获取电子邮件地址。 [在此示例中了解更多信息](building-journeys/message-to-subscribers-uc.md)
+
+   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+* **监控**  — 实时历程和测试模式的步骤事件已得到增强。 [新字段](reports/sharing-field-list.md#serviceevents) 已添加与配置文件导出作业相关的内容。 为了获得更好的用户体验，步骤事件字段现在按不同的类别进行组织。 上一步的所有事件字段仍可在 [stepEvents](reports/sharing-legacy-fields.md) 类别。
+* **辅助功能**  — 在历程中实施了辅助功能增强。
+* **收藏集**  — 现在支持包含子对象的对象数组。 [了解更多信息](building-journeys/collections.md)
+* **列表**  — 历程、事件、操作、数据源的列表屏幕已得到改进。
+
+**报告**
+
+* **全局视图中的数据格式**  — 您现在可以在 **全局视图** 的 **执行** 选项卡。 [了解详情](message-monitoring.md)
+* **新量度**  — 新量度和小组件现在在 **实时** 和 **全球** 报告来测量选件对收件人的影响。 [了解详情](reports/journey-global-report.md)
+
+**管理**
+
+* **编辑消息预设**  — 您现在可以编辑消息预设并监视其更新状态。 [了解详情](configuration/message-presets.md#edit-message-preset)
+* **编辑PTR记录**  — 您现在可以编辑PTR记录并监视其更新状态。 [了解详情](configuration/ptr-records.md#edit-ptr-record)
+
+**个性化**
+
+* **用于日期格式的新帮助程序函数**  — 您现在可以指定日期字符串的显示方式。 [了解详情](personalization/functions/dates.md#format-date)
+
+**决策管理**
+
+* **评估排序**  — 通过新的和改进的决策创建流程，您不仅可以更顺畅地在决策对象之间导航，而且还可以完全控制决策引擎如何评估选件集。 这包括将哪些收藏集一起与单独评估，以及应按什么顺序评估收藏集。 [了解详情](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+
+### 修复
+
+* 修复了浏览器语言不是英语时无法显示历程列表、消息列表和电子邮件设计器的问题。
+* 修复了使用Email designer中的表达式添加个性化时发生的语法错误：字符被错误转义。
+* 修复了在 **管理** 菜单。
+* 修复了在使用业务事件测试历程时触发其他实时历程的问题。
 
 ## 2021 年 9 月版 {#september-2021-release}
 
@@ -28,7 +133,7 @@ ht-degree: 19%
 <tbody>
 <tr>
 <td>
-<p>报表中提供了新量度：电子邮件和推送消息的“目标”和“排除”在实时报表和全局报表中均可见。 </br> 要访问最新量度，请注意，您必须为每个渠道和报表类型重置不同的报表功能板。有关功能板自定义的详细信息，请参阅<a href="reports/live-report.md">详细文档。</a></p>
+<p>报表中提供了新量度：电子邮件和推送消息的“目标”和“排除”在实时报表和全局报表中均可见。 </br> 要访问最新量度，请注意，您必须为每个渠道和报表类型重置不同的报表功能板。 有关功能板自定义的更多信息，请参阅 <a href="reports/live-report.md">详细文档。</a></p>
 <p>消息执行列表中的新列显示每个消息执行的目标用户档案数。 </p>
 <p>有关更多信息，请参阅<a href="message-monitoring.md">详细文档</a>。</p>
 </td>
@@ -47,39 +152,23 @@ ht-degree: 19%
 <tr>
 <td>
 <p>您现在可以在自定义操作参数中传递将在运行时动态填充的集合或数据列表。 支持两种收藏集：简单集合和对象集合。 之前创建的自定义操作将继续工作。 </p>
-<p>有关收藏集的更多信息，请参阅<a href="building-journeys/collections.md">详细文档</a>。 </p>
+<p>有关收藏集的更多信息，请参阅 <a href="building-journeys/collections.md">详细文档</a>. </p>
 <p>过滤器和交集函数已添加到高级表达式编辑器中可用函数的列表。 这为收藏集筛选和比较提供了更多可能性。</p>
-<p>请参阅<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a>和<a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a>函数的文档。</p>
+<p>请查阅有关 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">过滤器</a> 和 <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">相交</a> 函数。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### 改进
 
 **历程**
 
 * 系统生成的架构和在为步骤事件配置期间创建的数据集现在处于只读模式，可防止对关键架构进行任何意外修改。 [了解详情](reports/sharing-overview.md)
-* 为&#x200B;**Wait**&#x200B;活动使用将在画布中显示的标签进行干净的标记。 在报告和测试模式日志中也会使用标签，以明确标识您正在执行的操作。 [了解详情](building-journeys/about-journey-activities.md#best-practices)
-* 通过使用搜索过滤&#x200B;**Events**&#x200B;和&#x200B;**Action**&#x200B;类别中的元素，可以更快地查找事件和操作。 编排活动不再过滤。 [了解详情](building-journeys/using-the-journey-designer.md)
+* 将 **等待** 活动，该活动的标签将显示在画布中。 在报告和测试模式日志中也会使用标签，以明确标识您正在执行的操作。 [了解详情](building-journeys/about-journey-activities.md#best-practices)
+* 通过过滤 **事件** 和 **操作** 类别。 编排活动不再过滤。 [了解详情](building-journeys/using-the-journey-designer.md)
 * 现在，在基于规则的事件或业务事件中定义事件ID条件时，“包含”运算符可用于字符串类型的字段。 [了解详情](event/about-creating.md)
 
 **电子邮件配置**
@@ -198,28 +287,28 @@ ht-degree: 19%
 
 **历程**
 
-* **动态标头**  — 您现在可以在HTTP标头参数中传递动态数据。集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解详情](action/about-custom-action-configuration.md#url-configuration)
-* **动态URL路径**  — 您现在可以为自定义操作设置动态URL路径。[了解详情](action/about-custom-action-configuration.md#url-configuration)
+* **动态标题**  — 您现在可以在HTTP标头参数中传递动态数据。 集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解详情](action/about-custom-action-configuration.md#url-configuration)
+* **动态URL路径**  — 您现在可以为自定义操作设置动态URL路径。 [了解详情](action/about-custom-action-configuration.md#url-configuration)
 * 读取段的总限制速率已从每秒17,000条消息更改为每秒20,000条消息。 [了解详情](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **用户界面**
 
-* **搜索**  — 现在，您在每个页面上都可以直接从统一Experience Cloud搜索字段搜索业务对象和帮助文章。[了解详情](user-interface.md#unified-search)
-* **Recents**  — 现在，Adobe Journey Optimizer主页中的Recents元素显示已扩展为其他业务对象。通过此更新，您最近访问的快捷方式包括消息、历程、区段、架构、数据集、数据源、事件、操作、源和目标。 [了解详情](action/about-custom-action-configuration.md#passing-collection)
+* **搜索**  — 现在，您可以在每个页面上直接从统一Experience Cloud搜索字段搜索业务对象和帮助文章。 [了解详情](user-interface.md#unified-search)
+* **收件人**  — 显示Adobe Journey Optimizer主页中的收件人元素现已扩展到其他业务对象。 通过此更新，您最近访问的快捷方式包括消息、历程、区段、架构、数据集、数据源、事件、操作、源和目标。 [了解详情](action/about-custom-action-configuration.md#passing-collection)
 
 **内容设计**
 
-* **背景**  — 现在，实时预览支持背景图像。[了解详情](preview.md)
-* **一键单击选择退出链接**  — 您可以在电子邮件内容中插入新类型的链接：通过 **选择退** 出链接，用户只需一次单击即可取消订阅接收您的通信，而无需重定向到登陆页面以确认选择退出。[了解详情](message-tracking.md#one-click-opt-out-link)
+* **背景**  — 现在，实时预览支持背景图像。 [了解详情](preview.md)
+* **一键单击选择退出链接**  — 您可以在电子邮件内容中插入新类型的链接：the **选择退出** 链接允许用户一键单击即可取消订阅接收您的通信，而不会被重定向到登陆页面以确认选择退出。 [了解详情](message-tracking.md#one-click-opt-out-link)
 
 **个性化**
 
-* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](personalization/functions/helpers.md)
+* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。 [了解详情](personalization/functions/helpers.md)
 
 **电子邮件配置**
 
-* **允许列表**  — 现在，可以通过API调用在非生产沙盒上启用和禁用允许列表。[了解详情](allow-list.md#enable-allow-list)
-* **导航**  — 隐藏列表(可在“管理”>“渠道”>“电子邮件配置”>“常规”菜单 **下访问)已移至新的“隐藏列表”子菜单，该子菜单** 可 **** 收集所有相关功能以便于访问。[了解详情](configuration/manage-suppression-list.md#access-suppression-list)
+* **允许列表**  — 现在，可以通过API调用在非生产沙盒上启用和禁用允许列表。 [了解详情](allow-list.md#enable-allow-list)
+* **导航**  — 禁止列表，可在 **管理>渠道>电子邮件配置>常规** ，已移至新 **禁止列表** 子菜单，可收集所有相关功能以便更轻松地访问。 [了解详情](configuration/manage-suppression-list.md#access-suppression-list)
 
 **决策管理**
 
@@ -276,17 +365,17 @@ ht-degree: 19%
 **历程**
 
 * 在同一沙盒中同时运行的所有读取区段的总限制速率限制为每秒17,000条消息。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* **缓存持续时间**&#x200B;字段已从数据源配置窗格中删除。 [了解更多信息](datasource/about-data-sources.md)
+* 的 **缓存时长** 字段，已从数据源配置窗格中删除。 [了解更多信息](datasource/about-data-sources.md)
 * 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [了解更多信息](configuration/external-systems.md#capping)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 [了解更多信息](building-journeys/journey-gs.md#change-properties)
 * 在历程列表屏幕中，添加了历程类型过滤器。 [了解更多信息](user-interface.md#section_lgm_hpz_pgb)
-* **[!UICONTROL Throttling rate]**&#x200B;参数已添加到读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 的 **[!UICONTROL Throttling rate]** 参数已添加到读取区段活动中。 [了解更多信息](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **预览和测试消息**
 
-* 标识和命名空间现在在&#x200B;**[!UICONTROL Preview]**&#x200B;屏幕中可见。 [了解更多信息](preview.md#preview-your-messages)
+* 标识和命名空间现在在 **[!UICONTROL Preview]** 屏幕。 [了解更多信息](preview.md#preview-your-messages)
 * 校样的测试电子邮件数量现在限制为10个。
-* 校样中&#x200B;**主题行前缀**&#x200B;允许使用的字符现在受到限制。 [了解更多信息](preview.md#send-proofs)
+* 允许使用的字符 **主题行前缀** 校样现在有限。 [了解更多信息](preview.md#send-proofs)
 
 **个性化表达式编辑器**
 
@@ -299,4 +388,4 @@ ht-degree: 19%
 * 修复了PTR记录屏幕中缺少IP信息的问题。
 * 现在，在表达式编辑器中实现了选件边栏的本地化。
 * 修复了信息弹出窗口中的间距不正确的问题。
-* 修复了上传HTML文件时Email designer中不支持具有`background-image`属性的内部样式表的问题。
+* 修复了在上传HTML文件时，在Email Designer中内部样式表包含 `background-image` 不支持属性。

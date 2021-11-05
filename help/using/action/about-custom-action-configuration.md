@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -16,15 +16,15 @@ ht-degree: 6%
 
 # 配置操作 {#configure-an-action}
 
-如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程左侧面板的&#x200B;**[!UICONTROL Action]**&#x200B;类别中可用（请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)）。 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
+如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-journey-activities.md#action-activities). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
 
-[此页面](../limitations.md)中列出了限制。
+限制列在 [本页](../limitations.md).
 
-您可以使用自定义操作动态传递收藏集。 请参见此[用例](../limitations.md)。
+您可以使用自定义操作动态传递收藏集。 请参阅 [用例](../building-journeys/collections.md).
 
 以下是配置自定义操作所需的主要步骤：
 
-1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**。 在&#x200B;**[!UICONTROL Actions]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。 单击&#x200B;**[!UICONTROL Create Action]**&#x200B;以创建新操作。 操作配置窗格将在屏幕右侧打开。
+1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Actions]** ，单击 **[!UICONTROL Manage]**. 单击 **[!UICONTROL Create Action]** 创建新操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](../assets/custom2.png)
 
@@ -35,25 +35,25 @@ ht-degree: 6%
    >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
 
 1. 向操作添加描述。 此步骤是可选的。
-1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。 您可以单击&#x200B;**[!UICONTROL View journeys]**&#x200B;按钮以显示使用此操作的历程列表。
-1. 定义不同的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
-1. 配置&#x200B;**[!UICONTROL Authentication]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定义&#x200B;**[!UICONTROL Action parameters]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 使用此操作的历程数显示在 **[!UICONTROL Used in]** 字段。 您可以单击 **[!UICONTROL View journeys]** 按钮以显示使用此操作的历程列表。
+1. 定义不同的 **[!UICONTROL URL Configuration]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
+1. 配置 **[!UICONTROL Authentication]** 中。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+1. 定义 **[!UICONTROL Action parameters]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击 **[!UICONTROL Save]**。
 
    自定义操作现已配置完成，可随时用于您的历程。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
 
    >[!NOTE]
    >
-   >在历程中使用自定义操作时，大多数参数都是只读的。 您只能修改&#x200B;**[!UICONTROL Name]**、**[!UICONTROL Description]**、**[!UICONTROL URL]**&#x200B;字段和&#x200B;**[!UICONTROL Authentication]**&#x200B;部分。
+   >在历程中使用自定义操作时，大多数参数都是只读的。 您只能修改 **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** 字段和 **[!UICONTROL Authentication]** 中。
 
 ## URL 配置 {#url-configuration}
 
-配置自定义操作时，您需要定义以下&#x200B;**[!UICONTROL URL Configuration]**&#x200B;参数：
+配置自定义操作时，您需要定义以下内容 **[!UICONTROL URL Configuration]** 参数：
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. 在&#x200B;**[!UICONTROL URL]**&#x200B;字段中，指定外部服务的URL:
+1. 在 **[!UICONTROL URL]** 字段中，指定外部服务的URL:
 
    * 如果URL是静态的，请在此字段中输入URL。
 
@@ -68,22 +68,22 @@ ht-degree: 6%
    >
    >定义自定义操作时仅允许使用默认端口：80表示http，443表示https。
 
-1. 选择&#x200B;**[!UICONTROL Method]**&#x200B;调用：它可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
-1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;部分中，定义要发送到外部服务的请求消息的HTTP标头：
-   1. 要添加标题字段，请单击&#x200B;**[!UICONTROL Add a header field]**。
+1. 选择调用 **[!UICONTROL Method]**:它可以 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**.
+1. 在 **[!UICONTROL Headers]** 部分，定义要发送到外部服务的请求消息的HTTP标头：
+   1. 要添加标题字段，请单击 **[!UICONTROL Add a header field]**.
    1. 输入标题字段的键。
-   1. 要为键值对设置动态值，请选择&#x200B;**[!UICONTROL Variable]**。 否则，请选择&#x200B;**[!UICONTROL Constant]**。
+   1. 要为键值对设置动态值，请选择 **[!UICONTROL Variable]**. 否则，请选择 **[!UICONTROL Constant]**.
 
       例如，对于时间戳，您可以设置动态值。
 
-   1. 如果已选择&#x200B;**[!UICONTROL Constant]**，则输入常数值。
+   1. 如果已选择 **[!UICONTROL Constant]**，然后输入常数值。
 
-      如果已选择&#x200B;**[!UICONTROL Variable]**，则在将自定义操作添加到历程时将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+      如果已选择 **[!UICONTROL Variable]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. 要删除标题字段，请指向标题字段，然后单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标。
-   默认情况下，将设置&#x200B;**[!UICONTROL Content-Type]**&#x200B;和&#x200B;**[!UICONTROL Charset]**&#x200B;标头字段。 您无法修改或删除这些字段。
+   1. 要删除标题字段，请指向标题字段，然后单击 **[!UICONTROL Delete]** 图标。
+   的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 标题字段默认设置。 您无法修改或删除这些字段。
 
    在将自定义操作添加到历程后，如果历程处于草稿状态，您仍可以向该历程添加标题字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将标题字段添加到新的自定义操作。
 
@@ -95,7 +95,7 @@ ht-degree: 6%
 
 ![](../assets/messageparameterssection.png)
 
-在&#x200B;**[!UICONTROL Action parameters]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。
+在 **[!UICONTROL Action parameters]** 部分，粘贴要发送到外部服务的JSON有效负载示例。
 
 ![](../assets/customactionpayloadmessage.png)
 

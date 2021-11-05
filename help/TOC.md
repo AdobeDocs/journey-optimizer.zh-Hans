@@ -5,15 +5,14 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '756'
+ht-degree: 89%
 
 ---
 
-
-# [!DNL Journey Optimizer]帮助 {#using}
+# Adobe Journey Optimizer帮助 {#using}
 
 + [Journey Optimizer文档](ajo-home.md)
 + 新增功能{#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 94%
    + [最近更新](using/documentation-updates.md)
 + 入门{#get-started}
    + [什么是 Journey Optimizer](using/get-started.md)
-   + [快速入门](using/quick-start.md)
+   + 快速入门{#quick-start}
+      + [概述](using/quick-start.md)
+      + [营销人员入门](using/path/marketer.md)
+      + [数据工程师入门](using/path/data-engineer.md)
+      + [管理员入门](using/path/administrator.md)
+      + [开发人员入门](using/path/developer.md)
    + [用户界面](using/user-interface.md)
    + [限制](using/limitations.md)
 + 消息 {#create-messages}
@@ -50,17 +54,18 @@ ht-degree: 94%
       + [订单状态通知](using/personalization/personalization-use-case.md)
       + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
    + 辅助函数{#functions}
-      + [辅助函数列表](using/personalization/functions/functions.md)
+      + [帮助程序函数快速入门](using/personalization/functions/functions.md)
       + [聚合函数](using/personalization/functions/aggregation.md)
       + [算术函数](using/personalization/functions/arithmetic-functions.md)
       + [数组和列表函数](using/personalization/functions/arrays-list.md)
+      + [日期函数](using/personalization/functions/dates.md)
       + [布尔和比较函数](using/personalization/functions/operators.md)
       + [辅助程序](using/personalization/functions/helpers.md)
       + [映射函数](using/personalization/functions/maps.md)
       + [目标函数](using/personalization/functions/objects.md)
       + [字符串函数](using/personalization/functions/string.md)
    + [添加个性化优惠](using/deliver-personalized-offers.md)
-+ 区段、配置文件和标识{#segment}
++ 区段、用户档案和身份{#segment}
    + 区段 {#segments}
       + [区段快速入门](using/segment/about-segments.md)
       + [生成区段](using/segment/creating-a-segment.md)
@@ -97,6 +102,7 @@ ht-degree: 94%
       + [发送多渠道消息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自定义操作动态传递收藏集](using/building-journeys/collections.md)
+      + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
 + 跟踪和监视{#reporting}
    + [消息监测](using/message-monitoring.md)
    + 实时报告{#live-report}
@@ -111,11 +117,14 @@ ht-degree: 94%
       + [推送全局报告](using/reports/push-global-report.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
-      + [历程字段](using/reports/sharing-journey-fields.md)
-      + [常用字段](using/reports/sharing-common-fields.md)
-      + [操作执行字段](using/reports/sharing-execution-fields.md)
-      + [数据提取字段](using/reports/sharing-fetch-fields.md)
-      + [标识字段](using/reports/sharing-identity-fields.md)
+      + [步骤事件字段列表](using/reports/sharing-field-list.md)
+      + 旧版步骤事件字段 {#legacy-step-event-fields}
+         + [关于旧版字段](using/reports/sharing-legacy-fields.md)
+         + [历程字段](using/reports/sharing-journey-fields.md)
+         + [常用字段](using/reports/sharing-common-fields.md)
+         + [操作执行字段](using/reports/sharing-execution-fields.md)
+         + [数据提取字段](using/reports/sharing-fetch-fields.md)
+         + [标识字段](using/reports/sharing-identity-fields.md)
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/deliverability.md)
@@ -140,7 +149,8 @@ ht-degree: 94%
    + 创建和管理决策 {#create-manage-activities}
       + [创建决策](using/offers/offer-activities/create-offer-activities.md)
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
-   + 创建决策管理报告{#create-reports}
+      + [创建模拟](using/offers/offer-activities/simulation.md)
+   + 创建决策管理报告 {#create-reports}
       + [决策管理事件入门](using/offers/reports/get-started-events.md)
       + [决策管理事件关键信息](using/offers/reports/key-information.md)
       + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)

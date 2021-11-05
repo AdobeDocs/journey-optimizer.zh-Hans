@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 10%
+source-wordcount: '1010'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 在历程中使用多个条件时，您可以为其中每个条件定义标签，以便更轻松地识别它们。
 
-如果要定义多个条件，请单击&#x200B;**[!UICONTROL Add a path]**。 对于每个条件，都会在活动后的画布中添加新路径。
+单击 **[!UICONTROL Add a path]** 要定义多个条件时，请执行以下操作： 对于每个条件，都会在活动后的画布中添加新路径。
 
 ![](../assets/journey47.png)
 
@@ -38,7 +38,7 @@ ht-degree: 10%
 
 ![](../assets/journey48.png)
 
-您可以通过选中&#x200B;**[!UICONTROL Show path for other cases than the one(s) above]**&#x200B;为不符合所定义条件的受众创建另一个路径。 请注意，此选项在拆分条件中不可用。 请参阅[百分比拆分](#percentage_split)。
+您可以通过选中 **[!UICONTROL Show path for other cases than the one(s) above]**. 请注意，此选项在拆分条件中不可用。 请参阅 [百分比拆分](#percentage_split).
 
 利用简单模式，可根据字段组合执行简单查询。 所有可用字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同的元素，请将它们互相联锁，以创建不同的组和/或组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
@@ -47,18 +47,20 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}创建区段，则可以在历程条件中利用这些区段。 请参阅[在条件中使用区段](../building-journeys/condition-activity.md#using-a-segment)。
+如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}要创建区段，您可以在历程条件中利用这些区段。 请参阅 [在条件中使用区段](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
->无法使用简单的编辑器对时间序列（例如购买列表、消息的过去点击）执行查询。 为此，您将需要使用高级编辑器。 请参阅[AdobeJourney Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+>无法使用简单的编辑器对时间序列（例如购买列表、消息的过去点击）执行查询。 为此，您将需要使用高级编辑器。 请参阅 [AdobeJourney Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
 
+在简单编辑器中，您还可以在事件和数据源类别下方找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。有关更多信息，请参阅 [AdobeJourney Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html){target=&quot;_blank&quot;}
+
 ## 数据源条件 {#data_source_condition}
 
-这允许您根据数据源中的字段或先前位于历程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅[AdobeJourney Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。 使用高级表达式编辑器，您可以设置更高级的条件来处理集合或使用需要传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
+这允许您根据数据源中的字段或先前位于历程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅 [AdobeJourney Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。 使用高级表达式编辑器，您可以设置更高级的条件来处理集合或使用需要传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -74,19 +76,19 @@ ht-degree: 10%
 
 ## 百分比拆分 {#percentage_split}
 
-利用此选项，可随机拆分受众以为每个群组定义不同的操作。 为每个路径定义拆分数和重新分区。 拆分计算是统计的，因为系统无法预测此历程活动中将会有多少人流。 因此，分割具有非常低的误差范围。 此函数基于Java随机机制（请参阅此[page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
+利用此选项，可随机拆分受众以为每个群组定义不同的操作。 为每个路径定义拆分数和重新分区。 拆分计算是统计的，因为系统无法预测此历程活动中将会有多少人流。 因此，分割具有非常低的误差范围。 此函数基于Java随机机制(请参阅 [页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
 
 在测试模式下，达到拆分时，将始终选择顶部分支。 如果希望测试选择其他路径，则可以重新组织拆分分支的位置。 请参见[此页面](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >
->请注意，没有按钮可在百分比拆分条件中添加路径。 路径的数量将取决于拆分的数量。 在拆分条件中，您无法为其他情况添加路径，因为该路径不可能发生。 人们将始终进入一条分割的路径。
+>请注意，没有按钮可在百分比拆分条件中添加路径。 路径数取决于拆分数。 在拆分条件中，您无法为其他情况添加路径，因为该路径不可能发生。 人们将始终进入一条分割的路径。
 
 ![](../assets/journey52.png)
 
 ## 日期条件 {#date_condition}
 
-这允许您根据日期定义不同的流量。 例如，如果人员在“销售”期间进入该步骤，您将向他发送一条特定消息。 你今年剩下的时间，你会再发一条信息。
+这允许您根据日期定义不同的流量。 例如，如果人员在“销售”期间进入该步骤，您将向他们发送特定消息。 你今年剩下的时间，你会再发一条信息。
 
 >[!NOTE]
 >
@@ -94,23 +96,39 @@ ht-degree: 10%
 
 ![](../assets/journey53.png)
 
+<!--
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn more with this [use case](ramp-up-deliveries-uc.md).
+
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+-->
+
 ## 在条件中使用区段 {#using-a-segment}
 
-本节介绍如何在历程条件中使用区段。 有关区段以及如何构建区段的更多信息，请参阅[此部分](../segment/about-segments.md)。
+本节介绍如何在历程条件中使用区段。 有关区段以及如何构建区段的更多信息，请参阅 [此部分](../segment/about-segments.md).
 
 要在历程条件中使用区段，请执行以下步骤：
 
-1. 打开旅程，拖放&#x200B;**[!UICONTROL Condition]**&#x200B;活动并选择&#x200B;**数据源条件**。
+1. 打开旅程，删除 **[!UICONTROL Condition]** 活动，然后选择 **数据源条件**.
    ![](../assets/journey47.png)
 
-1. 对于每个需要的额外路径，单击&#x200B;**[!UICONTROL Add a path]**。 对于每个路径，单击&#x200B;**[!UICONTROL Expression]**&#x200B;字段。
+1. 单击 **[!UICONTROL Add a path]** 每个需要的额外路径。 对于每个路径，单击 **[!UICONTROL Expression]** 字段。
 
    ![](../assets/segment3.png)
 
-1. 在左侧，展开&#x200B;**[!UICONTROL Segments]**&#x200B;节点。 拖放要用于条件的区段。 默认情况下，区段上的条件为true。
+1. 在左侧，展开 **[!UICONTROL Segments]** 节点。 拖放要用于条件的区段。 默认情况下，区段上的条件为true。
 
    ![](../assets/segment4.png)
 
    >[!NOTE]
    >
-   >请注意，只有具有&#x200B;**Remiled**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会被视为区段的成员。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >请注意，只有 **已实现** 和 **现有** 区段参与状态将被视为区段的成员。 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。

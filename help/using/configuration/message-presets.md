@@ -5,26 +5,26 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
+exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
+source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
 
-
 # 创建消息预设
 
-借助[!DNL Journey Optimizer]，您可以设置消息预设，以定义电子邮件和推送通知消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
+使用 [!DNL Journey Optimizer]，您可以设置消息预设，以定义电子邮件和推送通知消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
 
 >[!CAUTION]
 >
 > * 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 在创建消息预设之前，必须执行电子邮件和推送配置步骤。
+> * 您必须执行电子邮件配置和 [推送配置](../push-configuration.md) 创建消息预设之前的步骤。
 
 
-配置消息预设后，在从&#x200B;**[!UICONTROL Presets]**&#x200B;列表创建消息时，可以选择这些预设。
+配置消息预设后，您便能够在从 **[!UICONTROL Presets]** 列表。
 
 ➡️ [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 要创建消息预设，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Message presets]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL Create Message preset]**。
+1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 菜单，然后单击 **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
 
@@ -42,17 +42,17 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
 
-1. 配置&#x200B;**email**&#x200B;设置。
+1. 配置 **电子邮件** 设置。
 
    ![](../assets/preset-email.png)
 
-   * 选择将随预设一起发送的消息类型：**Transactional**&#x200B;或&#x200B;**Marketing**
+   * 选择将随预设一起发送的消息类型： **事务型** 或 **营销**
 
       >[!CAUTION]
       >
-      > **** 可向从营销通信中取消订阅的用户档案发送交易消息。这些消息只能在特定环境中发送，例如密码重置、顺序状态、投放通知。
+      > **事务型** 消息可发送给从营销通信中取消订阅的用户档案。 这些消息只能在特定环境中发送，例如密码重置、顺序状态、投放通知。
 
    * 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
    * 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
@@ -60,27 +60,33 @@ ht-degree: 1%
 
       >[!CAUTION]
       >
-      >除&#x200B;**回复（转发电子邮件）**&#x200B;字段外，电子邮件地址域必须使用当前选定的[委派的子域](about-subdomain-delegation.md)。
+      >电子邮件地址必须使用当前选定的 [委派子域](about-subdomain-delegation.md).
+
+      <!--CAUTION: Except for the **Reply to (forward email)** field-->
 
       * **[!UICONTROL Sender name]**:发件人的名称，如您的品牌名称。
 
-      * **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。例如，如果委派的子域是&#x200B;*marketing.luma.com*，则可以使用&#x200B;*contact@marketing.luma.com*。
+      * **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
 
-      * **[!UICONTROL Reply to (name)]**:收件人在其电子邮件客户端软件中单击“重 **** 复按钮”时将使用的名称。
+      * **[!UICONTROL Reply to (name)]**:收件人单击 **回复** 按钮。
 
-      * **[!UICONTROL Reply to (email)]**:收件人在其电子邮件客户端软件中单击“重 **** 复”按钮时将使用的电子邮件地址。发送到此地址的电子邮件将转发到下面提供的&#x200B;**[!UICONTROL Reply to (forward email)]**&#x200B;地址。 您必须使用在委派的子域(例如&#x200B;*reply@marketing.luma.com*)上定义的地址，否则将删除电子邮件。
-
-      * **[!UICONTROL Reply to (forward email)]**:接收的有关委派 [!DNL Journey Optimizer] 子域的所有电子邮件都将转发到此电子邮件地址。除了在委派的子域上定义的电子邮件地址之外，您可以指定任何地址。 例如，如果委派的子域为&#x200B;*marketing.luma.com*，则禁止使用任何地址，如&#x200B;*abc@marketing.luma.com*。
+      * **[!UICONTROL Reply to (email)]**:收件人单击 **回复** 按钮。 <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->您必须使用在委派子域上定义的地址(例如， *reply@marketing.luma.com*)，否则将删除电子邮件。
 
       * **[!UICONTROL Error email]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
+
+      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
+
+      >[!NOTE]
+      >
+      >从2021年10月版开始，无法再从 [!DNL Journey Optimizer] 用户界面。 如果您希望收到 [!DNL Journey Optimizer] 要将委派的子域转发到特定的电子邮件地址，请联系 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。 <!--move to Deprecated features section when created?-->
 
       ![](../assets/preset-header.png)
 
       >[!NOTE]
       >
-      >名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`。
+      >名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
 
-   * 配置&#x200B;**电子邮件重试参数**。 默认情况下，[重试时间段](retries.md#retry-duration)设置为84小时，但您可以调整此设置以更好地满足您的需求。
+   * 配置 **电子邮件重试参数**. 默认情况下， [重试时段](retries.md#retry-duration) 设置为84小时，但您可以根据自己的需求调整此设置。
 
       ![](../assets/preset-retry-paramaters.png)
 
@@ -90,23 +96,23 @@ ht-degree: 1%
       * 对于这两种电子邮件类型，最大重试时间段为84小时（或5040分钟）。
 
 
-1. 配置&#x200B;**推送通知**&#x200B;设置。
+1. 配置 **推送通知** 设置。
 
    ![](../assets/preset-push.png)
 
-   * 至少选择一个平台：**iOS**&#x200B;和/或&#x200B;**Android**
+   * 至少选择一个平台： **iOS** 和/或 **Android**
 
    * 选择要用于每个平台的移动设备应用程序。
 
-      有关如何配置环境以发送推送通知的更多信息，请参阅[此部分](../push-gs.md)。
+      有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../push-gs.md).
 
-1. 配置完所有参数后，单击&#x200B;**[!UICONTROL Submit]**&#x200B;进行确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
+1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 
    ![](../assets/preset-submit.png)
 
-1. 创建消息预设后，该消息预设将显示在列表中，并且状态为&#x200B;**[!UICONTROL Processing]**。
+1. 创建消息预设后，该消息预设会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
 
-   在此步骤中，将执行多项检查，以验证是否已正确配置。 处理时间在&#x200B;**48h-72h**&#x200B;左右，最长可达&#x200B;**7-10天**。
+   在此步骤中，将执行多项检查，以验证是否已正确配置。 处理时间在附近 **48h-72h**，并且 **7-10个工作日**.
 
    这些检查包括由Adobe投放能力团队执行的投放能力测试：
 
@@ -120,9 +126,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果检查失败，请在[此部分](#monitor-message-presets)中了解有关可能失败原因的更多信息。
+   >如果检查失败，请在 [此部分](#monitor-message-presets).
 
-1. 检查成功后，消息预设将获得&#x200B;**[!UICONTROL Active]**&#x200B;状态。 它已准备好用于投放消息。
+1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -130,53 +136,156 @@ ht-degree: 1%
 
 ## 监视消息预设 {#monitor-message-presets}
 
-所有消息预设都显示在&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Message presets]**&#x200B;菜单中。 过滤器可帮助您浏览列表（渠道类型、用户、状态）。
+所有消息预设都显示在 **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** 菜单。 过滤器可帮助您浏览列表（渠道类型、用户、状态）。
 
 ![](../assets/preset-filters.png)
 
 消息预设可以具有以下状态：
 
-* **[!UICONTROL Draft]**:消息预设已另存为草稿，但尚未提交。打开它以恢复配置。
+* **[!UICONTROL Draft]**:消息预设已另存为草稿，但尚未提交。 打开它以恢复配置。
 * **[!UICONTROL Processing]**:消息预设已提交，正在执行多个验证步骤。
 * **[!UICONTROL Active]**:消息预设已验证，可选择该预设以创建消息。
 * **[!UICONTROL Failed]**:在消息预设验证期间，一个或多个检查失败。
-* **[!UICONTROL De-activated]**:消息预设已取消激活。它不能用于创建新消息。
+* **[!UICONTROL Deactivated]**:消息预设已停用。 它不能用于创建新消息。
 
 如果消息预设创建失败，则下面将介绍每种可能失败原因的详细信息。
 
-如果出现其中一个错误，请联系[Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以获取帮助。
+如果出现其中一个错误，请与 [Adobe客户关怀支持团队](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以获取帮助。
 
-* **SPF验证失败**:SPF（发件人策略框架）是一种电子邮件身份验证协议，它允许指定能够从给定子域发送电子邮件的授权IP。SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供程序发送电子邮件的IP地址不匹配。
+* **SPF验证失败**:SPF（发件人策略框架）是一种电子邮件身份验证协议，它允许指定能够从给定子域发送电子邮件的授权IP。 SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供程序发送电子邮件的IP地址不匹配。
 
-* **DKIM验证失败**:DKIM（域名识别邮件）允许收件人服务器验证收到的消息是否由相关域的正版发件人发送，且原始消息的内容在发送过程中没有发生更改。DKIM验证失败意味着接收邮件服务器无法验证邮件内容的真实性及其与发送域的关联：
+* **DKIM验证失败**:DKIM（域名识别邮件）允许收件人服务器验证收到的消息是否由相关域的正版发件人发送，且原始消息的内容在发送过程中没有发生更改。 DKIM验证失败意味着接收邮件服务器无法验证邮件内容的真实性及其与发送域的关联。
 
 * **MX记录验证失败**:MX（邮件交换）记录验证失败意味着负责代表给定子域接受入站电子邮件的邮件服务器未正确配置。
 
 * **投放能力配置失败**:可投放性配置失败，原因如下：
    * 列入阻止列表已分配IP的管理
-   * `helo`名称无效
+   * 无效 `helo` name
    * 从IP（而非相应预设的IP池中指定的IP）发送的电子邮件
    * 无法向Gmail和Yahoo等主要ISP的收件箱发送电子邮件
 
-## 编辑消息预设
+## 编辑消息预设 {#edit-message-preset}
 
-要编辑消息预设，您首先需要取消激活该预设，以使其无法创建新消息（使用此预设发布的消息将不受影响并将继续工作）。 然后，您需要复制消息预设，以创建将用于创建新消息的新版本：
+要编辑消息预设，请执行以下步骤。
 
-1. 访问消息预设列表，然后取消激活要编辑的消息预设。
+>[!NOTE]
+>
+>您无法编辑 **[!UICONTROL Push notification settings]**. 如果消息预设仅为推送通知渠道配置，则它不可编辑。
 
-   ![](../assets/preset-deactivate.png)
+1. 在列表中，单击消息预设名称以将其打开。
 
-1. 复制已取消激活的消息预设。 状态为&#x200B;**[!UICONTROL Draft]**&#x200B;的副本会自动添加到列表中。
+   ![](../assets/preset-name.png)
 
-   ![](../assets/preset-duplicated.png)
-
-1. 打开复制的消息预设，根据需要对其进行修改，然后提交更改。 消息预设将完成与创建步骤[](#create-message-preset)期间相同的验证周期。
-
-1. 验证后，系统会获得&#x200B;**[!UICONTROL Active]**&#x200B;状态，并准备好用于创建新消息。
+1. 根据需要编辑其属性。
 
    >[!NOTE]
    >
-   >无法删除已取消激活的消息预设，以避免在使用这些预设发送消息的历程中出现任何问题。
+   >如果消息预设具有 **[!UICONTROL Active]** 状态， **[!UICONTROL Name]**, **[!UICONTROL Select channel]** 和 **[!UICONTROL Subdomain]** 字段灰显，无法编辑。
+
+1. 单击 **[!UICONTROL Submit]** 确认更改。
+
+   ![](../assets/preset-confirm-update.png)
+
+   >[!NOTE]
+   >
+   >您还可以将消息预设另存为草稿，稍后继续更新。
+
+提交更改后，消息预设将经过与原位置类似的验证周期(在 [创建预设](#create-message-preset).
+
+对于具有 **[!UICONTROL Active]** 状态，则可以检查更新的详细信息。 为实现此操作，请执行以下步骤：
+
+* 单击 **[!UICONTROL Recent update]** 图标。
+
+   ![](../assets/preset-recent-update-icon.png)
+
+* 您还可以在更新进行时从活动消息预设访问更新详细信息。
+
+   ![](../assets/preset-view-update-details.png)
+
+在 **[!UICONTROL Recent update]** 屏幕上，您可以看到更新状态、<!--the approximate remaining time before completion (if validation is in progress)--> 和请求更改的列表。
+
+![](../assets/preset-recent-update-screen.png)
+
+### 更新状态 {#update-statuses}
+
+消息预设更新可以具有以下状态：
+
+* **[!UICONTROL Processing]**:消息预设更新已提交，正在执行多个验证步骤。
+* **[!UICONTROL Success]**:已验证更新的消息预设，并可以选择该预设以创建消息。
+* **[!UICONTROL Failed]**:在消息预设更新验证期间，一个或多个检查失败。
+
+**处理时间**
+
+将执行多项投放能力检查，以验证预设是否已正确更新。 处理时间在附近 **48h-72h**，并且 **7-10个工作日**. 了解有关在 [此部分](#create-message-preset).
+
+>[!NOTE]
+>
+>在更新过程中，您无法修改消息预设。 您仍可以单击其名称，但所有字段都呈灰显状态。 更新成功后，才会反映更改。
+
+如果您编辑的预设已处于活动状态，请执行以下操作：
+
+* 其地位仍然 **[!UICONTROL Active]** 验证过程进行中。
+
+* 的 **[!UICONTROL Recent update]** 图标。
+
+* 在验证过程中，使用此预设配置的消息仍使用旧版本的预设。
+
+**成功**
+
+验证过程成功后，使用此预设的所有消息中都会自动使用新版本的预设。 但是，您可能必须等待：
+* 在被单一报文使用前几分钟，
+* 直到预设的下一批次在批处理消息中生效。
+
+<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
+
+**失败**
+
+如果验证过程失败，则仍会使用旧版本的预设。
+
+可能的更新错误类型如下：
+* **授权错误**:载体令牌无效或未授权。
+* **非法修改**:对一个或多个不允许的字段执行了编辑。
+* **前提条件失败**:某些字段只能具有特定值，因此未接受此值。
+
+<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+
+更新失败后，预设将再次变为可编辑状态。 您可以单击其名称并更新需要修复的设置。
+
+## 停用消息预设 {#deactivate-preset}
+
+要 **[!UICONTROL Active]** 消息预设无法创建新消息，您可以将其停用。 但是，使用此预设发布的消息将不会受到影响，并将继续工作。
+
+>[!NOTE]
+>
+>无法在处理更新时停用消息预设。 您必须等到更新成功或失败。 了解详情 [编辑消息预设](#edit-message-preset) 和 [更新状态](#update-statuses).
+
+1. 访问消息预设列表。
+
+1. 对于所选的活动预设，单击 **[!UICONTROL More actions]** 按钮。
+
+1. 选择 **[!UICONTROL Deactivate]**。
+
+   ![](../assets/preset-deactivate.png)
+
+>[!NOTE]
+>
+>无法删除已停用的消息预设，以避免在使用这些预设发送消息的历程中出现任何问题。
+
+您无法直接编辑已停用的消息预设。 但是，您可以复制并编辑副本以创建新版本，以用于创建新消息。 您还可以再次激活它，然后等到更新成功后才对其进行编辑。
+
+![](../assets/preset-activate.png)
+
+<!--1. Access the message presets list.
+
+1. Deactivate the message preset that you want to edit.
+
+1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
+
+    ![](../assets/preset-duplicated.png)
+
+1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
+
+1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## 操作方法视频{#video-presets}
 

@@ -1,35 +1,39 @@
 ---
-title: 帮助程序函数库
+title: 帮助程序函数入门
 description: Journey Optimizer助手函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 2%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
+# 帮助程序函数入门{#functionsL}
 
-# 帮助程序函数库{#functionsL}
+使用 [!DNL Journey Optimizer] 模板语言，用于对数据执行操作，如计算、数据格式或转化、条件等，并在个性化环境中处理它们。 了解中的个性化语法准则 [本页](../personalization-syntax.md).
 
-使用[!DNL Journey Optimizer]模板语言对数据执行操作，如计算、数据格式或转化、条件等，并在个性化上下文中处理它们。 了解[本页](../personalization-syntax.md)中的个性化语法准则。
-
-➡️ [了解如何使用帮助程序函数](#video)（视频）
+➡️ [了解如何使用帮助程序函数](#video) （视频）
 
 模板语言在表达式编辑器的个性化下拉列表中提供的帮助程序函数中使用，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
+在 [!DNL Journey Optimizer] 表达式编辑器中，帮助程序函数分为三类： [函数](#functions-helper), [帮助者](#helper-helper) 和 [运算符](#operators-helper).
 
+选择类别以访问子类别和函数。
 
-在[!DNL Journey Optimizer]表达式编辑器中，帮助程序函数分为三类：[函数](#functions-helper)、[Helpers](#helper-helper)和[运算符](#operators-helper)。
+通过单击 `>` 图标。 通过单击 `+` 图标：函数会自动添加到个性化屏幕中。
+
+单击 `...` 图标，以查看函数的描述并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
 
 ## 函数{#functions-helper}
 
-**数组函数**
+### 数组函数
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ ht-degree: 2%
     </tr>
 </table>
 
+### 日期时间函数{#date-functions}
 
-**映射函数**
+<table>
+    <tr>
+        <td><a href="dates.md#age">年龄</a></td><td>此函数从给定日期检索年龄</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">当前时间（以毫秒为单位）</a></td><td>此函数以新纪元毫秒为单位检索当前时间</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">日期差异</a></td><td>此函数以天为单位检索两个日期之间的差异</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">每周的某一日</a></td><td>此函数检索每周时间</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">每年的某一日</a></td><td>此函数检索每年的某天</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">格式日期</a></td><td>此函数可设置日期时间值的格式</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">设置天数</a></td><td>此函数设置给定日期时间在月中的某天</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">设置天数</a></td><td>此函数设置日期时间的小时数</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">到UTC</a></td><td>此函数将日期时间转换为UTC</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">每年的某一周</a></td><td>此函数返回一年中的某周</td>
+    </tr>
+</table>
+</table>
+
+### 映射函数
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ ht-degree: 2%
     </tr>
 </table>
 
-**字符串函数**
+### 字符串函数
 
 <table>
     <tr>
@@ -167,7 +206,7 @@ ht-degree: 2%
         <td><a href="string.md#regexGroup">正则表达式组</a></td><td>此函数用于根据提供的正则表达式提取特定信息</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>此函数将字符串中的给定子字符串替换为另一个子字符串</td>
+        <td><a href="string.md#replace">替换</a></td><td>此函数将字符串中的给定子字符串替换为另一个子字符串</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">全部替换</a></td><td>此函数将与“target”匹配的文本的所有子字符串替换为指定的文字“replacement”字符串</td>
@@ -195,7 +234,7 @@ ht-degree: 2%
 
 ## 辅助程序{#helper-helper}
 
-[本页](helpers.md)中详细介绍了帮助程序。
+帮助者详见 [本页](helpers.md).
 
 
 <table>
@@ -285,6 +324,6 @@ ht-degree: 2%
 
 ## 操作方法视频{#video}
 
-了解如何使用个性化帮助程序函数转换个性化值，并了解帮助程序函数的不同用例。
+了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

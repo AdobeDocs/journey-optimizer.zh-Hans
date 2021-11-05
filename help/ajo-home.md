@@ -6,14 +6,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 37%
+source-wordcount: '202'
+ht-degree: 40%
 
 ---
 
-# Adobe[!DNL Journey Optimizer]文档 {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] 文档 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -27,14 +28,21 @@ ht-degree: 37%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">什么是[!DNL Journey Optimizer]?</a>
+      <a href="using/get-started.md">什么是[!DNL Journey Optimizer]？</a>
     </div>
-    <p>了解主要功能以及如何入门
+    <p>了解主要功能和用例
     <p>
     <div>
       <a href="using/release-notes.md">发行说明</a>
     </div>
-    <p>了解新功能、最新改进和修复
+    <p>新增功能、最新改进和修复
+   <p>
+    <div>
+      <a href="using/quick-start.md">快速入门指南</a>
+    </div>
+    <p>
+    了解如何以管理员、数据工程师或历程从业者的身份开始
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">设计电子邮件内容</a>
@@ -53,14 +61,14 @@ ht-degree: 37%
     <p>了解如何构建和执行旅程
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">配置[!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">配置 [!DNL Journey Optimizer]</a>
     </div>
-    <p>了解配置[!DNL Journey Optimizer]的关键步骤
+    <p>了解配置的关键步骤 [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">授予对[!DNL Journey Optimizer]的访问权限</a>
+    <a href="using/administration/permissions-overview.md">授予 [!DNL Journey Optimizer]</a> 访问权限 
     </div>
-    <p>了解如何定义和管理分配给[!DNL Journey Optimizer]用户的权限
+    <p>定义和管理分配给的权限 [!DNL Journey Optimizer] 用户
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">决策管理</a>
@@ -79,7 +87,7 @@ ht-degree: 37%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">Adobe Experience Platform文档</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>
     </li>
     </div>
       <div>
