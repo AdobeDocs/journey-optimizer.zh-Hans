@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 16%
@@ -74,7 +74,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>现在，您可以使用Adobe Experience Platform配置文件属性和区段将选件的内容个性化，该组件与Journey Optimizer UI中的表达式编辑器组件相同。 </p>
-<p>有关更多信息，请参阅<a href="offers/offer-library/creating-personalized-offers.md#content">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="offers/offer-library/creating-personalized-offers.md#custom-text">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
 
 # 创建消息预设
 
-使用 [!DNL Journey Optimizer]，您可以设置消息预设，以定义电子邮件和推送通知消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
+使用 [!DNL Journey Optimizer]，则可以设置消息预设，以定义电子邮件和推送通知消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
 
 >[!CAUTION]
 >
@@ -192,6 +192,10 @@ ht-degree: 1%
 
 提交更改后，消息预设将经过与原位置类似的验证周期(在 [创建预设](#create-message-preset).
 
+>[!NOTE]
+>
+>如果您仅编辑 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 字段中，更新是即时的。
+
 对于具有 **[!UICONTROL Active]** 状态，则可以检查更新的详细信息。 为实现此操作，请执行以下步骤：
 
 * 单击 **[!UICONTROL Recent update]** 图标。
@@ -214,13 +218,17 @@ ht-degree: 1%
 * **[!UICONTROL Success]**:已验证更新的消息预设，并可以选择该预设以创建消息。
 * **[!UICONTROL Failed]**:在消息预设更新验证期间，一个或多个检查失败。
 
-**处理时间**
+下面详细介绍了每种状态。
 
-将执行多项投放能力检查，以验证预设是否已正确更新。 处理时间在附近 **48h-72h**，并且 **7-10个工作日**. 了解有关在 [此部分](#create-message-preset).
+### 处理时间
+
+将执行多项投放能力检查，以验证预设是否已正确更新。
 
 >[!NOTE]
 >
->在更新过程中，您无法修改消息预设。 您仍可以单击其名称，但所有字段都呈灰显状态。 更新成功后，才会反映更改。
+>如果您仅编辑 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 字段中，更新是即时的。
+
+处理时间在附近 **48h-72h**，并且 **7-10个工作日**. 了解有关在 [此部分](#create-message-preset).
 
 如果您编辑的预设已处于活动状态，请执行以下操作：
 
@@ -230,7 +238,11 @@ ht-degree: 1%
 
 * 在验证过程中，使用此预设配置的消息仍使用旧版本的预设。
 
-**成功**
+>[!NOTE]
+>
+>在更新过程中，您无法修改消息预设。 您仍可以单击其名称，但所有字段都呈灰显状态。 更新成功后，才会反映更改。
+
+### 成功
 
 验证过程成功后，使用此预设的所有消息中都会自动使用新版本的预设。 但是，您可能必须等待：
 * 在被单一报文使用前几分钟，
@@ -238,16 +250,16 @@ ht-degree: 1%
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**失败**
+### 失败
 
 如果验证过程失败，则仍会使用旧版本的预设。
 
-可能的更新错误类型如下：
-* **授权错误**:载体令牌无效或未授权。
-* **非法修改**:对一个或多个不允许的字段执行了编辑。
-* **前提条件失败**:某些字段只能具有特定值，因此未接受此值。
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+详细了解 [此部分](#monitor-message-presets).
 
 更新失败后，预设将再次变为可编辑状态。 您可以单击其名称并更新需要修复的设置。
 
