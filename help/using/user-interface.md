@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -15,11 +15,11 @@ ht-degree: 66%
 
 # 用户界面 {#cjm-user-interface}
 
-连接到 [Adobe Experience Cloud](http://experience.adobe.com) 后，浏览找到 [!DNL Journey Optimizer]。
+连接到 [Adobe Experience Cloud](http://experience.adobe.com) 浏览 [!DNL Journey Optimizer].
 
-浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。有关更多详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}以了解更多详细信息。
 
-用户界面中可用的组件和功能取决于您的[权限](administration/permissions.md)和您的[授权包](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何问题，请联系 Adobe 客户成功经理。
+用户界面中可用的组件和功能取决于您的 [权限](administration/permissions.md) 在 [许可包](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。 如有任何问题，请联系 Adobe 客户成功经理。
 
 >[!NOTE]
 >
@@ -98,9 +98,9 @@ ht-degree: 66%
 
 可用用例包括：
 
-* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。了解如何在此页面](building-journeys/creating-test-profiles.md#use-case-1)上实施此用例[。
+* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。了解如何实施此用例 [本页](building-journeys/creating-test-profiles.md#use-case-1).
 * **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
-* **向载入新客户发送电子邮件**，以便轻松发送最多两封电子邮件以欢迎您的新注册客户。（即将推出）
+* **向载入新客户发送电子邮件**，以轻松发送最多两封电子邮件来欢迎新注册的客户。 （即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
 
 单击 **[!UICONTROL View details]** 以了解关于每个用例的更多信息。
@@ -111,25 +111,25 @@ ht-degree: 66%
 
 ## 辅助功能{#accessibility}
 
-[!DNL Adobe Journey Optimizer]中的辅助功能继承自Adobe Experience Platform:
+中的辅助功能 [!DNL Adobe Journey Optimizer] 继承自Adobe Experience Platform:
 
 * 键盘辅助功能
 * 颜色对比度
 * 验证必填字段
 
-[在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)中了解更多{target=&quot;_blank&quot;}。
+[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform文档中的{target=&quot;_blank&quot;}。
 
-您可以在[!DNL Journey Optimizer]中使用以下常用键盘快捷键：
+您可以在 [!DNL Journey Optimizer]:
 
 | 操作 | 快捷键 |
 | --- | --- |
 | 在用户界面元素、节和菜单组之间移动 | 选项卡 |
 | 在用户界面元素、节和菜单组之间向后移动 | Shift +选项卡 |
 | 在部分内移动以将焦点设置到单个元素 | 箭头 |
-| 选择或清除焦点元素 | 输入或空格键 |
+| 选择或清除焦点元素 | Enter 或空格键 |
 | 取消选择、折叠面板或关闭对话框 | Esc |
 
-[在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)中了解更多{target=&quot;_blank&quot;}。
+[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform文档中的{target=&quot;_blank&quot;}。
 
 您可以在Journey Optimizer的特定部分中使用以下快捷键：
 
@@ -195,7 +195,7 @@ ht-degree: 66%
   <tr>
     <td>
 
-在基于区段的历程中触发一个事件，该事件的&#x200B;**[!UICONTROL Single profile at a time]**&#x200B;选项处于开启状态
+在基于区段的历程中触发事件，其中 **[!UICONTROL Single profile at a time]** 选项处于打开状态
 
 </td>
     <td>P</td>
@@ -280,7 +280,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ![](assets/unified-search.png)
 
-按&#x200B;**Enter**&#x200B;以访问所有结果并按业务对象进行筛选。
+按 **输入** 访问所有结果并按业务对象进行过滤。
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 单击列表左上角的过滤器图标即可访问过滤器。通过使用过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改过的元素。选项因上下文不同而异。
 
-在历程列表中，您可以根据历程的状态、类型和&#x200B;**[!UICONTROL Status and version filters]**&#x200B;中的版本对历程进行筛选。 类型可以是：**[!UICONTROL Unitary event]**、**[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]**&#x200B;或&#x200B;**[!UICONTROL Burst]**。 您可以从 **[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]** 选择仅显示使用特定事件、字段组或操作的历程。**[!UICONTROL Publication filters]** 允许您选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](building-journeys/using-the-journey-designer.md)。
+在历程列表中，您可以根据历程的状态、类型和 **[!UICONTROL Status and version filters]**. 类型可以是： **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** 或 **[!UICONTROL Burst]**. 您可以从 **[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]** 选择仅显示使用特定事件、字段组或操作的历程。**[!UICONTROL Publication filters]** 允许您选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
