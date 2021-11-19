@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1315'
 ht-degree: 89%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 89%
 
 * **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅 [Journey Orchestration文档](../building-journeys/expression/expressionadvanced.md).
 * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
@@ -118,7 +118,7 @@ ht-degree: 89%
 * 标题：键值对将作为标头插入此调用（如果需要）
 * 主体：描述在方法为 POST 时调用的主体。我们支持在bodyParams（键值对）中定义的有限主体结构。 bodyType 描述调用中主体的格式和编码：
    * “form”：这意味着内容类型将为application/x-www-form-urlencoded(charset UTF-8)，键值对将按原样序列化：key1=value1&amp;key2=value2&amp;...
-   * “json”：这表示内容类型将为application/json(charset UTF-8)，键值对将序列化为json对象，如下所示：_{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;,...}_
+   * “json”：这表示内容类型将为application/json(charset UTF-8)，键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;,...}_
 
 在操作的 HTTP 请求中必须插入访问令牌方式的定义：
 

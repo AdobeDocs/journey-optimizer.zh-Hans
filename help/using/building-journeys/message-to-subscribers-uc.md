@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 4%
 
       要修改电子邮件地址，您必须先已发布了该消息。
 
-   1. 在表达式编辑器中，输入用于检索订阅者电子邮件地址的表达式。 [了解更多](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+   1. 在表达式编辑器中，输入用于检索订阅者电子邮件地址的表达式。 [了解更多信息](expression/expressionadvanced.md)。
 
       此示例显示的表达式包含对映射字段的引用：
 
@@ -49,7 +50,7 @@ ht-degree: 4%
 
       在本例中，订阅列表名为 `daily-email`. 电子邮件地址在 `subscribers` 映射，链接到订阅列表映射。
 
-      有关更多信息 [对字段的引用](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) 中。
+      有关更多信息 [对字段的引用](expression/field-references.md) 中。
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ ht-degree: 4%
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. 通过 **[!UICONTROL End]** 活动。
-
-
-
-

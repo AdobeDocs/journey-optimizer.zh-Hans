@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
+source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 23%
+source-wordcount: '770'
+ht-degree: 25%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 23%
 
 ## 2021 年 9 月
 
-* 以下函数页面已更新：[sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html)、[getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html)、[inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* 以下函数页面已更新：[sethours](building-journeys/functions/functionsethours.md)、[getListItem](building-journeys/functions/functiongetlistitem.md)、[inSegment](building-journeys/functions/functioninsegment.md)
 
-* 添加了以下函数：[filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html)、[intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html)、[toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* 添加了以下函数：[filter](building-journeys/functions/functionfilter.md)、[intersect](building-journeys/functions/functionintersect.md)、[toDateOnly](building-journeys/functions/functiontodateonly.md)
 
-* 在表达式编辑器文档中添加了 dateOnly 日期类型。[了解更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* 在表达式编辑器文档中添加了 dateOnly 日期类型。[了解更多信息](building-journeys/expression/data-types.md)
 
 * 添加了有关自定义操作缓存持续时间的详细信息。[了解更多信息](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 

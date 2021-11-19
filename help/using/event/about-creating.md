@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 14%
+source-wordcount: '1685'
+ht-degree: 13%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 14%
 
 收到事件后，键值将允许系统识别与事件关联的人员。 与命名空间关联(请参阅 [此部分](../event/about-creating.md#select-the-namespace))，则可以使用键对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。键还用于检查人员是否处于历程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许同一密钥（例如CRMID=3224）位于同一历程中的不同位置。
 
-您还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+您还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅 [Journey Orchestration文档](../building-journeys/expression/expressionadvanced.md).
 
 ## 添加条件 {#add-a-condition}
 
@@ -151,7 +151,7 @@ ht-degree: 14%
 
 事件条件只能基于事件有效负载中传递的数据。 营销人员不能在画布中更改在事件级别定义的条件。 其目的是在使用此事件时强化此条件。 例如，如果您从不希望营销人员在购物车值太小时使用购物车放弃事件，则可以在“购物车值”事件字段中创建条件，并强加值超过100美元。
 
-您可以使用简单表达式编辑器或高级表达式编辑器来设置事件条件。 请参阅 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。
+您可以使用简单表达式编辑器或高级表达式编辑器来设置事件条件。 请参阅 [Journey Orchestration文档](../building-journeys/expression/expressionadvanced.md).
 
 例如，您可以定义一个条件，以便仅处理特定事件类型的事件并忽略其他类型。 或者，如果您的事件是购物车放弃，并且有效负荷包含购物车值字段，则您可以定义一个事件条件以仅在购物车值大于100美元时处理事件。
 

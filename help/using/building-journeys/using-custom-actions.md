@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b18f009a3c907649fd1e0261ffc7cfcc5acaef4
+exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 10%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +25,13 @@ ht-degree: 10%
 
 ### 动态路径
 
-如果URL包含动态路径，请在&#x200B;**[!UICONTROL Path]**&#x200B;字段中指定路径。
+如果URL包含动态路径，请在 **[!UICONTROL Path]** 字段。
 
 >[!NOTE]
 >
 >您不能在历程中设置URL的静态部分，但是在自定义操作的全局配置中。 [了解详情](../action/about-custom-action-configuration.md)。
 
-要连接字段和纯文本字符串，请在高级表达式编辑器中使用字符串函数或加号(+)。 用单引号(&#39;)或双引号(&quot;)引住纯文本字符串。 [了解更多](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+要连接字段和纯文本字符串，请在高级表达式编辑器中使用字符串函数或加号(+)。 用单引号(&#39;)或双引号(&quot;)引住纯文本字符串。 [了解详情](expression/expressionadvanced.md)。
 
 下表显示了配置示例：
 
@@ -41,26 +42,26 @@ ht-degree: 10%
 
 拼接URL具有以下形式：
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### 标头
 
-**[!UICONTROL URL Configuration]**&#x200B;部分显示动态标头字段，但不显示常量标头字段。 动态标头字段是HTTP标头字段，其值配置为变量。 [了解详情](../action/about-custom-action-configuration.md)。
+的 **[!UICONTROL URL Configuration]** 部分显示动态标题字段，但不显示常量标题字段。 动态标头字段是HTTP标头字段，其值配置为变量。 [了解详情](../action/about-custom-action-configuration.md)。
 
 如果需要，请指定动态标题字段的值：
 
 1. 在历程中选择自定义操作。
-1. 在配置窗格中，单击&#x200B;**[!UICONTROL URL Configuration]**&#x200B;部分标题字段旁边的铅笔图标。
+1. 在配置窗格中，单击 **[!UICONTROL URL Configuration]** 中。
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. 选择一个字段，然后单击&#x200B;**[!UICONTROL OK]**。
+1. 选择字段并单击 **[!UICONTROL OK]**.
 
 ## 操作参数
 
-在&#x200B;**[!UICONTROL Action parameters]**&#x200B;部分中，您将看到定义为&#x200B;_&quot;Variable&quot;_&#x200B;的消息参数。 对于这些参数，您可以定义获取此信息的位置(例如：事件、数据源)、手动传递值或使用高级表达式编辑器进行高级用例。 高级用例可以是数据处理和其他函数用法。 请参阅[AdobeJourney Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}。
+在 **[!UICONTROL Action parameters]** 部分，您将看到消息参数定义为 _&quot;变量&quot;_. 对于这些参数，您可以定义获取此信息的位置(例如：事件、数据源)、手动传递值或使用高级表达式编辑器进行高级用例。 高级用例可以是数据处理和其他函数用法。 请参阅 [AdobeJourney Orchestration文档](expression/expressionadvanced.md).
 
 **相关主题**
 
