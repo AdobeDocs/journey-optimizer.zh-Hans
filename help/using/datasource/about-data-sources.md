@@ -1,13 +1,14 @@
 ---
 title: 关于数据源
 description: 了解如何配置数据源
-feature: 数据源
-topic: 管理
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
+exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 72%
 
 ---
@@ -39,4 +40,4 @@ ht-degree: 72%
 >
 >数据源现在支持架构关系。
 
-有关如何配置Adobe Experience Platform数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。
+有关如何配置Adobe Experience Platform数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此视频 [教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 默认回退值{#default-value}
 
-如果属性为空或null，则`Default Fallback Value`帮助程序用于返回默认的回退值。 此机制适用于用户档案属性和历程事件。
+的 `Default Fallback Value` 如果属性为空或null，则使用帮助程序返回默认回退值。 此机制适用于用户档案属性和历程事件。
 
 **语法**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-在此示例中，如果此配置文件的`firstName`属性为空或null，则显示值`there`。
+在本例中，值 `there` 如果 `firstName` 此配置文件的属性为空或null。
 
 ## 条件{#if-function}
 
-`if`帮助程序用于定义条件块。
+的 `if` 帮助程序用于定义条件块。
 如果表达式计算返回true，则会呈现块，否则会跳过该块。
 
 **语法**
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-在`if`帮助程序之后，如果相同的条件为false，则可以输入`else`语句以指定要执行的代码块。
-`elseif`语句将指定一个新条件来测试第一个语句是否返回false。
+关注 `if` 帮手，你可以输入 `else` 语句指定要执行的代码块（如果相同条件为false）。
+的 `elseif` 语句将指定一个新条件来测试第一个语句是否返回false。
 
 
 **格式**
@@ -116,12 +116,12 @@ Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 
 >[!NOTE]
 >
->要了解有关分段和分段服务的更多信息，请参阅此[部分](../../segment/about-segments.md)。
+>要了解有关分段和分段服务的更多信息，请参阅 [部分](../../segment/about-segments.md).
 
 
 ## 除非{#unless}
 
-`unless`帮助程序用于定义条件块。 与`if`帮助程序相反，如果表达式求值返回false，则会呈现块。
+的 `unless` 帮助程序用于定义条件块。 反对党 `if`  帮助程序，如果表达式求值返回false，则会呈现块。
 
 **语法**
 
@@ -143,9 +143,8 @@ Some edu specific content Content
 
 ## 每个{#each}
 
-`each`帮助程序用于在数组上迭代。
-帮助程序的语法为```{{#each ArrayName}}``` YourContent {{/each}}
-我们可以在块内使用关键字**this**&#x200B;来引用各个数组项目。 可使用{{@index}}呈现数组元素的索引。
+的 `each` 帮助程序用于在数组上迭代。
+帮助程序的语法为 ```{{#each ArrayName}}``` YourContent {{/each}}我们可以使用关键字引用各个数组项目 **此** 在街区内。 可使用{{@index}}呈现数组元素的索引。
 
 **语法**
 
@@ -177,7 +176,7 @@ Some edu specific content Content
 
 ## 使用{#with}
 
-`with`帮助程序用于更改模板部分的评估令牌。
+的 `with` 帮助程序用于更改模板部分的评估令牌。
 
 **语法**
 
@@ -187,7 +186,7 @@ Some edu specific content Content
 {{/with}}
 ```
 
-`with`帮助程序在定义快捷方式变量时也很有用。
+的 `with` 帮助程序对于定义快捷方式变量也很有用。
 
 **示例**
 
@@ -202,7 +201,7 @@ Some edu specific content Content
 
 ## 让{#let}
 
-`let`函数允许将表达式存储为变量，以便稍后在查询中使用。
+的 `let` 函数允许将表达式存储为变量，以便稍后在查询中使用。
 
 **语法**
 

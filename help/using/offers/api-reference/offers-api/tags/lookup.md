@@ -1,20 +1,21 @@
 ---
 title: 查找标记
 description: 利用标记，可更好地组织和排序选件。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 4%
+source-wordcount: '149'
+ht-degree: 3%
 
 ---
 
 # 查找标记
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定标记，该API包含标记`@id`或请求路径中标记的名称。
+您可以通过向 [!DNL Offer Library] 包含任一标记的API `@id` 或请求路径中标记的名称。
 
 **API格式**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | 定义与标记关联的架构。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:tag:124e147572cd7866` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Holiday sales and promotions` |
+| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:tag:124e147572cd7866` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
 
 **请求**
 
@@ -44,7 +45,7 @@ curl -X GET \
 
 **响应**
 
-成功响应会返回标记的详细信息，包括有关容器ID、实例ID和唯一标记`@id`的信息。
+成功响应会返回标记的详细信息，包括有关容器ID、实例ID和唯一标记的信息 `@id`.
 
 ```json
 {

@@ -1,14 +1,15 @@
 ---
 title: 创建标记
 description: 了解如何在Adobe Experience Platform中创建优惠。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 6%
+source-wordcount: '162'
+ht-degree: 5%
 
 ---
 
@@ -16,19 +17,19 @@ ht-degree: 6%
 
 将标记与选件关联可以更轻松地保持标记有条不紊。 例如，您可以使用“黑色星期五”标记来标记黑色星期五选件。 然后，您可以使用选件库中的搜索功能轻松找到具有该标记的所有选件。
 
-标记还可用于将选件组合到选件收藏集中。 请参阅[创建集合](../offer-library/creating-collections.md)。
+标记还可用于将选件组合到选件收藏集中。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
 ➡️ [在视频中发现此功能](#video)
 
-可在&#x200B;**[!UICONTROL Components]**&#x200B;菜单中访问已创建标记的列表。
+可在 **[!UICONTROL Components]** 菜单。
 
 ![](../../assets/tags_list.png)
 
 要创建标记，请执行以下步骤：
 
-1. 转到&#x200B;**[!UICONTROL Tags]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Create tag]**。
+1. 转到 **[!UICONTROL Tags]** ，然后单击 **[!UICONTROL Create tag]**.
 
-1. 指定标记的名称，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 指定标记的名称，然后单击 **[!UICONTROL Save]**.
 
    ![](../../assets/tags_create.png)
 
@@ -40,6 +41,6 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指导。
+>此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

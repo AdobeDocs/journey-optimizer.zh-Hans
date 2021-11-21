@@ -19,31 +19,31 @@ ht-degree: 1%
 
 ## 历程设计入门
 
-**面板**&#x200B;位于屏幕的左侧。 所有可用活动都按以下几类进行分类：**[!UICONTROL Events]**、**[!UICONTROL Orchestration]**&#x200B;和&#x200B;**[!UICONTROL Actions]**。 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
+的 **调色板** 位于屏幕的左侧。 所有可用活动都按以下几类进行分类： **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**. 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
 
 启动新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
 ![](../assets/journey38.png)
 
-使用左上角的&#x200B;**[!UICONTROL Filter items]**&#x200B;图标可显示以下过滤器：
+的 **[!UICONTROL Filter items]** 图标，可显示以下过滤器：
 
-* **仅显示可用项目**:隐藏或显示面板中不可用的元素，例如使用不同于历程中使用的命名空间的事件。默认情况下，不可用项目处于隐藏状态。如果选择显示它们，它们将显示为灰显。
+* **仅显示可用项目**:隐藏或显示面板中不可用的元素，例如使用不同于历程中使用的命名空间的事件。 默认情况下，不可用项目处于隐藏状态。如果选择显示它们，它们将显示为灰显。
 
-* **仅显示最近的项目**:此过滤器除了现成事件和操作之外，还允许您仅显示最近使用的五个事件和操作。这特定于每个用户。 默认情况下，将显示所有项目。
+* **仅显示最近的项目**:此过滤器除了现成事件和操作之外，还允许您仅显示最近使用的五个事件和操作。 这特定于每个用户。 默认情况下，将显示所有项目。
 
-您还可以使用&#x200B;**[!UICONTROL Search]**&#x200B;字段。 仅过滤事件和操作。
+您还可以使用 **[!UICONTROL Search]** 字段。 仅过滤事件和操作。
 
-**画布**&#x200B;是历程设计器中的中心区域。 您可以在此区域中拖放并配置活动。 单击画布中的活动以对其进行配置。 此操作将打开右侧的活动配置窗格。
+的 **画布** 是历程设计器中的中心区域。 您可以在此区域中拖放并配置活动。 单击画布中的活动以对其进行配置。 此操作将打开右侧的活动配置窗格。
 
 ![](../assets/journey39.png)
 
-单击面板中的活动时，会显示&#x200B;**活动配置窗格**。 填写必填字段。 单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标以删除活动。 单击&#x200B;**[!UICONTROL Cancel]**&#x200B;取消修改，或单击&#x200B;**[!UICONTROL Ok]**&#x200B;确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
+的 **活动配置窗格** 单击面板中的活动时显示。 填写必填字段。 单击 **[!UICONTROL Delete]** 图标以删除活动。 单击 **[!UICONTROL Cancel]** 取消修改或 **[!UICONTROL Ok]** 确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
 
-默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 此设置适用于所有历程中的所有活动。
+默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击 **显示只读字段** 图标。 此设置适用于所有历程中的所有活动。
 
 ![](../assets/journey59bis.png)
 
-根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作：**[!UICONTROL Publish]**、**[!UICONTROL Duplicate]**、**[!UICONTROL Delete]**、**[!UICONTROL Journey properties]**、**[!UICONTROL Test]**。 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 测试模式激活后，将显示测试模式日志按钮。
+根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 测试模式激活后，将显示测试模式日志按钮。
 
 ![](../assets/journey41.png)
 
@@ -51,9 +51,9 @@ ht-degree: 1%
 
 在设计历程时，您想要问的第一个问题是用户档案如何进入历程。 有两种可能：
 
-**以事件开始**:当历程设置为侦听事件时，个人会实时 **** 进入历程单元。历程中包含的消息会发送到当前流入历程的人员。 [进一步了解事件](../event/about-events.md)
+**从事件开始**:当历程设置为侦听事件时，个人会进入历程 **统一** 实时。 历程中包含的消息会发送到当前流入历程的人员。 [进一步了解事件](../event/about-events.md)
 
-**从读取区段开始**:您可以设置历程来监听Adobe Experience Platform区段。在这种情况下，属于指定区段的所有个人都将进入历程。 历程中包含的消息会发送给属于该区段的个人。 [了解有关读取区段的更多信息](read-segment.md)。
+**从读取区段开始**:您可以设置历程来监听Adobe Experience Platform区段。 在这种情况下，属于指定区段的所有个人都将进入历程。 历程中包含的消息会发送给属于该区段的个人。 [了解有关读取区段的更多信息](read-segment.md).
 
 ## 定义后续步骤
 
@@ -63,27 +63,27 @@ ht-degree: 1%
 
 当您通过事件开始历程时，将在收到事件时触发历程。 然后，人员将逐个遵循历程中定义的后续步骤。
 
-您可以在历程中添加&#x200B;**多个事件**，前提是它们使用相同的命名空间。 事件是预先配置的。 [进一步了解事件](about-journey-activities.md#event-activities)
+您可以添加 **多个事件** 在历程中，只要它们使用相同的命名空间。 事件是预先配置的。 [进一步了解事件](about-journey-activities.md#event-activities)
 
-您还可以在消息之后添加&#x200B;**Reaction**&#x200B;事件，以对与消息相关的跟踪数据做出响应。 例如，如果用户打开前一条消息或在其中单击该消息，则允许您发送另一条消息。 在此[部分](reaction-events.md)中了解详情。
+您还可以添加 **反应** 事件，以对与消息相关的跟踪数据做出响应。 例如，如果用户打开前一条消息或在其中单击该消息，则允许您发送另一条消息。 在中了解详情 [部分](reaction-events.md).
 
-通过&#x200B;**区段鉴别**&#x200B;事件活动，您可以让个人根据Adobe Experience Platform区段入口和出口进入旅程或在旅程中前进。 您可以让所有新的银牌客户进入历程并发送个性化消息。 在此[部分](segment-qualification-events.md)中了解详情。
+的 **区段鉴别** 事件活动允许您让个人根据Adobe Experience Platform区段入口和出口进入旅程或在旅程中前进。 您可以让所有新的银牌客户进入历程并发送个性化消息。 在中了解详情 [部分](segment-qualification-events.md).
 
 **编排**
 
-在编排活动中，您将找到&#x200B;**读取区段**&#x200B;活动，该活动允许您设置旅程以监听Adobe Experience Platform区段。 [了解有关读取区段活动的更多信息](read-segment.md)。
+在编排活动中，您将找到 **读取区段** 活动，用于设置历程以监听Adobe Experience Platform区段。 [了解有关读取区段活动的更多信息](read-segment.md).
 
-其他活动允许您向历程添加条件以定义多个路径、设置在执行下一活动之前的等待时间，或结束历程。 在此[部分](about-journey-activities.md#orchestration-activities)中了解详情。
+其他活动允许您向历程添加条件以定义多个路径、设置在执行下一活动之前的等待时间，或结束历程。 在中了解详情 [部分](about-journey-activities.md#orchestration-activities).
 
 **操作**
 
-您将在此处找到&#x200B;**Message**&#x200B;活动，该活动允许您包含在[!DNL Journey Optimizer]中设计的消息。 [进一步了解消息活动](journeys-message.md)
+您将在此处找到 **消息** 活动，用于包含 [!DNL Journey Optimizer]. [进一步了解消息活动](journeys-message.md)
 
-您还将找到已配置为通过第三方系统发送消息的自定义操作。 在此[部分](about-journey-activities.md#action-activities)中了解详情。
+您还将找到已配置为通过第三方系统发送消息的自定义操作。 在中了解详情 [部分](about-journey-activities.md#action-activities).
 
 ## 在画布中使用路径 {#paths}
 
-利用多个活动（**[!UICONTROL Condition]**、**[!UICONTROL Action]**&#x200B;活动），可定义发生错误或超时时的回退操作。 在活动配置窗格中，选中框：**[!UICONTROL Add an alternative path in case of a timeout or an error]**。 活动后会添加另一个路径。 超时持续时间由管理员用户在历程的属性中定义（请参阅[此页面](../building-journeys/journey-gs.md#change-properties)）。 例如，如果电子邮件发送时间过长或出错，您可以决定发送短信。
+多个活动(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 活动)，以便您在发生错误或超时时定义回退操作。 在活动配置窗格中，选中框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 活动后会添加另一个路径。 超时持续时间在历程的属性中定义(请参阅 [本页](../building-journeys/journey-gs.md#change-properties) 管理员用户的。 例如，如果电子邮件发送时间过长或出错，您可以决定发送短信。
 
 ![](../assets/journey42.png)
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 在监听事件时，我们建议您不要无限期地等待该事件。 它不是强制性的，只是一种最佳做法。 如果只想在特定时间内侦听一个或多个事件，则将并行放置一个或多个事件和等待活动。 请参阅[此小节](../building-journeys/general-events.md#events-specific-time)。
 
-要删除路径，请将光标放在该路径上，然后单击&#x200B;**[!UICONTROL Delete path]**&#x200B;图标。
+要删除路径，请将光标放在该路径上，然后单击 **[!UICONTROL Delete path]** 图标。
 
 ![](../assets/journey42ter.png)
 
@@ -115,10 +115,10 @@ ht-degree: 1%
 以下是复制/粘贴活动的步骤：
 
 1. 打开旅程。
-1. 单击时移动鼠标以选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，也可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
+1. 单击时移动鼠标以选择要复制的活动。 在按 **Ctrl/Command** 键。 使用 **Ctrl/Command + A** 选择所有活动。
    ![](../assets/copy-paste1.png)
-1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动，然后使用活动配置窗格左上角的**复制**图标。
+1. 按 **Ctrl/Command + C**.
+如果您只想复制一个活动，则可以单击该活动并使用 **复制** 图标。
    ![](../assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动，而不将活动链接到现有节点。 粘贴的活动会按相同的顺序放置。 粘贴活动后，将保持选中状态，以便轻松移动活动。 也可以将光标放在空的位置保持器上，然后按&#x200B;**Ctrl/Command + V**。 粘贴的活动将链接到节点。
+1. 在任何历程中，按 **Ctrl/Command + V** 粘贴活动，而不将其链接到现有节点。 粘贴的活动会按相同的顺序放置。 粘贴活动后，将保持选中状态，以便轻松移动活动。 您还可以将光标放在空的占位符上并点击 **Ctrl/Command + V**. 粘贴的活动将链接到节点。
    ![](../assets/copy-paste3.png)

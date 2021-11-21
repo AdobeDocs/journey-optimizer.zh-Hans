@@ -1,14 +1,15 @@
 ---
 title: 发布历程
 description: 了解如何发布旅程
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 8%
+source-wordcount: '176'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
 如果您停止旅程，它将被永久停止。 旅程中流动的所有人员将永久停止，并且旅程将停止允许新入口。 如果您需要再次使用历程，则需要复制并发布该历程。
 
 1. 在发布历程之前，请确认该历程有效且没有错误。 您将无法发布包含错误的历程。 请参阅[此小节](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)。还建议在发布之前测试您的历程。 请参阅[此页](../building-journeys/testing-the-journey.md)。
-1. 要发布历程，请单击右上方下拉菜单中的&#x200B;**[!UICONTROL Publish]**&#x200B;选项。
+1. 要发布历程，请单击 **[!UICONTROL Publish]** 选项。
 
    ![](../assets/journeyuc1_18.png)
 

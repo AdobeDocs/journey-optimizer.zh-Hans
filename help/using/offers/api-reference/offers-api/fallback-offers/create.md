@@ -1,24 +1,25 @@
 ---
 title: 创建后备优惠
 description: 如果客户不符合其他选件的资格，则会向客户发送备用选件
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 12%
+source-wordcount: '139'
+ht-degree: 11%
 
 ---
 
 # 创建后备优惠
 
-在提供容器ID的同时，您可以通过向[!DNL Offer Library] API发出POST请求来创建备用选件。
+您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
 ## 接受和内容类型标头
 
-下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
+下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -70,7 +71,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的备用选件的信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除您的备用选件。 您可以在稍后的教程中使用您的唯一备用选件`@id`来创建决策。
+成功的响应会返回有关新创建的备用选件的信息，包括其唯一实例ID和版面 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的备用选件。 您可以使用您独特的后备优惠 `@id` 在稍后的教程中创建决策。
 
 
 ```json

@@ -2,14 +2,15 @@
 title: 发布和修改消息
 description: 了解如何发布和更新消息
 snippet: y
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -25,9 +26,9 @@ ht-degree: 4%
 
 ![](assets/publish-message.png)
 
-发布消息后，该消息将添加到消息列表，并显示&#x200B;**[!UICONTROL Published]**&#x200B;状态。
+发布消息后，该消息将添加到消息列表，其中包含 **[!UICONTROL Published]** 状态。
 
-现在，它已准备好由一个或多个[journeys](building-journeys/journey.md)触发。
+现在，它已准备好由一个或多个 [历程](building-journeys/journey.md).
 
 ## 更新只读消息 {#modify-message}
 

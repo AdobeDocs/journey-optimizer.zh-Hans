@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: 应用程序设置
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
-
 
 # 更改主电子邮件地址
 
@@ -29,8 +29,8 @@ ht-degree: 7%
 
 通过Journey Optimizer，您可以确定要从用户档案服务中使用的电子邮件地址，并在多个地址可用时排定优先级。 为此，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL Channels]** `>` **[!UICONTROL General]**&#x200B;菜单。
-1. 默认情况下，此屏幕中会显示当前用于确定用户档案电子邮件地址的字段。 单击&#x200B;**[!UICONTROL Edit]**&#x200B;以更改。
+1. 访问  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 菜单。
+1. 默认情况下，此屏幕中会显示当前用于确定用户档案电子邮件地址的字段。 单击 **[!UICONTROL Edit]** 来改变它。
 
    ![](../assets/primary-address.png)
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
    ![](../assets/primary-address-edit.png)
 
-1. 此时会显示可用电子邮件类型XDM字段的列表。 选择要使用的字段，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 此时会显示可用电子邮件类型XDM字段的列表。 选择要使用的字段，然后单击 **[!UICONTROL Save]**.
 
    ![](../assets/primary-address-field.png)
 

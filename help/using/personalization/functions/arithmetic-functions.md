@@ -1,13 +1,14 @@
 ---
 title: 算术函数库
 description: 算术函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 7%
 
 ## Add{#add}
 
-`+`（加法）函数用于查找两个参数表达式的和。
+的 `+` (addition)函数用于查找两个参数表达式的和。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 
 ## 乘{#multiply}
 
-`*`（乘法）函数用于查找两个参数表达式的乘积。
+的 `*` （乘法）函数用于查找两个参数表达式的乘积。
 
 **格式**
 
@@ -54,7 +55,7 @@ ht-degree: 7%
 
 ## 减{#substract}
 
-`-`（减法）函数用于查找两个参数表达式的差。
+的 `-` （减法）函数用于查找两个参数表达式的差。
 
 **格式**
 
@@ -72,7 +73,7 @@ ht-degree: 7%
 
 ## 除数{#divide}
 
-`/`（除）函数用于查找两个参数表达式的商。
+的 `/` （除法）函数用于查找两个参数表达式的商。
 
 **格式**
 
@@ -90,7 +91,7 @@ ht-degree: 7%
 
 ## 余数{#remainder}
 
-`%`（模/余数）函数用于在将两个参数表达式除以后找到余数。
+的 `%` （模/余数）函数用于在将两个参数表达式除以后查找余数。
 
 **格式**
 

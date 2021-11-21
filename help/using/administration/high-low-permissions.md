@@ -15,7 +15,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
+source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -29,17 +30,17 @@ ht-degree: 0%
 每个产品配置文件都包含允许用户访问不同功能的权限。
 分为两种类型：
 
-* **高级权限**:表示可在中分配给的 **[!UICONTROL Product profile]** 不同 [!DNL Admin console]权限， **[!UICONTROL Publish journeys]** 如和 **[!UICONTROL Manage subdomains delegation]**。高级权限包含低级权限。
+* **高级权限**:表示可分配给的不同权限 **[!UICONTROL Product profile]** 在 [!DNL Admin console]，例如 **[!UICONTROL Publish journeys]** 和 **[!UICONTROL Manage subdomains delegation]**. 高级权限包含低级权限。
 
-* **低级权限**:表示来自高级权限的不同权限。
+* **低级别权限**:表示来自高级权限的不同权限。
 
-例如，为&#x200B;**[!UICONTROL Journey administrator]**&#x200B;产品配置文件分配了&#x200B;**[!UICONTROL Manage journeys]**&#x200B;权限。 从此权限中，将产生低级权限，该权限将允许历程管理员写入、读取和删除历程。
+例如， **[!UICONTROL Journey administrator]** 已分配产品配置文件 **[!UICONTROL Manage journeys]** 权限。 从此权限中，将产生低级权限，该权限将允许历程管理员写入、读取和删除历程。
 
 ## 历程功能 {#journey-capability}
 
 ### 管理历程权限 {#manage-journeys}
 
-**[!UICONTROL Manage journeys]**&#x200B;高级权限允许用户创建新历程和编辑/删除现有访客，以及访问历程画布中用于构建历程流的对象。
+的 **[!UICONTROL Manage journeys]** 高级权限允许用户创建新历程和编辑/删除现有访客，以及访问历程画布中用于构建历程流的对象。
 
 它包括以下低级权限：
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 ### 发布历程权限 {#publish-journeys}
 
-**[!UICONTROL Publish journeys]**&#x200B;高级权限允许用户发布历程。
+的 **[!UICONTROL Publish journeys]** 用户通过高级权限发布历程。
 
 它包括以下低级权限：
 
@@ -69,7 +70,7 @@ ht-degree: 0%
 
 ### 查看历程权限 {#view-journeys}
 
-**[!UICONTROL View journeys]**&#x200B;高级权限允许用户浏览和查看历程。
+的 **[!UICONTROL View journeys]** 高级权限允许用户浏览和查看历程。
 
 它包括以下低级权限：
 
@@ -82,7 +83,7 @@ ht-degree: 0%
 
 ### 管理历程事件、数据源和操作权限 {#manage-journeys-events}
 
-**[!UICONTROL Manage journeys events, data sources and actions]**&#x200B;高级权限允许用户配置事件和数据配置。
+的 **[!UICONTROL Manage journeys events, data sources and actions]** 高级权限允许用户配置事件和数据配置。
 
 它包括以下低级权限：
 
@@ -103,7 +104,7 @@ ht-degree: 0%
 
 ### 查看历程事件、数据源和操作权限 {#view-journeys-event}
 
-**[!UICONTROL View journeys events, data sources and actions]**&#x200B;高级权限允许用户在历程流中使用事件和数据。
+的 **[!UICONTROL View journeys events, data sources and actions]** 高级权限允许用户在历程流中使用事件和数据。
 
 它包括以下低级权限：
 
@@ -119,7 +120,7 @@ ht-degree: 0%
 
 ### 查看历程报表权限 {#view-journeys-report}
 
-**[!UICONTROL View journeys report]**&#x200B;高级权限允许用户进行只读历程报告。
+的 **[!UICONTROL View journeys report]** 高级权限允许用户报告只读历程。
 
 它包括以下低级权限：
 
@@ -137,7 +138,7 @@ ht-degree: 0%
 
 ### 管理消息权限 {#manage-messages}
 
-**[!UICONTROL Manage messages]**&#x200B;高级权限允许用户创建和编辑/删除消息。
+的 **[!UICONTROL Manage messages]** 高级权限允许用户创建和编辑/删除消息。
 
 它包括以下低级权限：
 
@@ -153,7 +154,7 @@ ht-degree: 0%
 
 ### 管理消息预览和测试权限 {#mange-messages-preview}
 
-**[!UICONTROL Manage messages preview and test]**&#x200B;高级权限允许用户预览个性化消息。
+的 **[!UICONTROL Manage messages preview and test]** 高级权限允许用户预览个性化消息。
 
 它包括以下低级权限：
 
@@ -175,7 +176,7 @@ ht-degree: 0%
 
 ### 发布消息权限 {#publish-messages}
 
-**[!UICONTROL Publish messages]**&#x200B;高级权限允许用户发布消息。
+的 **[!UICONTROL Publish messages]** 高级权限允许用户发布消息。
 
 它包括以下低级权限：
 
@@ -189,7 +190,7 @@ ht-degree: 0%
 
 ### 查看消息权限 {#view-messages}
 
-**[!UICONTROL View messages]**&#x200B;高级权限允许用户只读消息。
+的 **[!UICONTROL View messages]** 高级权限允许用户只读消息。
 
 它包括以下低级权限：
 
@@ -203,7 +204,7 @@ ht-degree: 0%
 
 ### 查看消息报表权限 {#view-message-reports}
 
-**[!UICONTROL View messages report]**&#x200B;高级权限允许用户使用只读电子邮件和推送报表。
+的 **[!UICONTROL View messages report]** 高级权限允许用户使用只读电子邮件和推送报表。
 
 它包括以下低级权限：
 
@@ -219,7 +220,7 @@ ht-degree: 0%
 
 ### 管理决策权限 {#manage-decisioning}
 
-**[!UICONTROL Manage decisions]**&#x200B;高级权限允许用户创建新的&#x200B;**[!UICONTROL Activity entities]**&#x200B;并编辑/删除现有，以及管理这些活动中用于做出决策的对象。
+的 **[!UICONTROL Manage decisions]** 高级权限允许用户创建新页面，以及编辑/删除现有页面 **[!UICONTROL Activity entities]**，以及管理这些活动中用于做出决策的对象。
 
 它包括以下低级权限：
 
@@ -245,7 +246,7 @@ ht-degree: 0%
 
 ### 查看决策权限 {#view-decisions}
 
-**[!UICONTROL View decisions]**&#x200B;高级权限允许用户使用现有活动和相关业务对象做出决策。
+的 **[!UICONTROL View decisions]** 高级权限允许用户使用现有活动和相关业务对象做出决策。
 
 它包括以下低级权限：
 
@@ -264,7 +265,7 @@ ht-degree: 0%
 
 ### 发布选件决策权限 {#publish-decisions}
 
-**[!UICONTROL Publish offers decisioning]**&#x200B;高级权限允许用户访问批准/取消批准选件活动。
+的 **[!UICONTROL Publish offers decisioning]** 高级权限允许用户访问批准/取消批准选件活动。
 
 它包括以下低级权限：
 
@@ -286,7 +287,7 @@ ht-degree: 0%
 
 ### 管理排名策略权限 {#manage-decisions}
 
-**[!UICONTROL Manage ranking strategies]**&#x200B;高级权限允许用户读取、创建、编辑和删除自定义消息报告和使用操作功能。
+的 **[!UICONTROL Manage ranking strategies]** 高级权限允许用户读取、创建、编辑和删除自定义消息报表以及使用操作功能。
 
 它包括以下低级权限：
 
@@ -302,7 +303,7 @@ ht-degree: 0%
 
 ### 管理子域委派权限 {#manage-subdomain}
 
-**[!UICONTROL Manage subdomains delegation]**&#x200B;高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
+的 **[!UICONTROL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
 它包括以下低级权限：
 
@@ -312,7 +313,7 @@ ht-degree: 0%
 
 ### 查看PTR记录权限 {#view-ptr}
 
-**[!UICONTROL View PTR records]**&#x200B;高级权限允许用户查看基于子域配置的PTR记录。
+的 **[!UICONTROL View PTR records]** 高级权限允许用户查看基于子域配置的PTR记录。
 
 它包括以下低级权限：
 
@@ -321,7 +322,7 @@ ht-degree: 0%
 
 ### 管理IP池权限 {#manage-ip-pools}
 
-**[!UICONTROL Manage IP pools]**&#x200B;高级权限允许用户创建、编辑和删除亲和度定义。
+的 **[!UICONTROL Manage IP pools]** 高级权限允许用户创建、编辑和删除亲和度定义。
 
 它包括以下低级权限：
 
@@ -331,7 +332,7 @@ ht-degree: 0%
 
 ### 管理消息常规设置权限 {#manage-message-settings}
 
-**[!UICONTROL Manage messages general settings]**&#x200B;高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
+的 **[!UICONTROL Manage messages general settings]** 高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
 
 它包括以下低级权限：
 
@@ -344,7 +345,7 @@ ht-degree: 0%
 
 ### 查看消息常规设置权限 {#view-message-settings}
 
-**[!UICONTROL View messages general settings]**&#x200B;高级权限允许用户查看消息的常规设置，如执行地址。
+的 **[!UICONTROL View messages general settings]** 高级权限允许用户查看消息的常规设置，如执行地址。
 
 它包括以下低级权限：
 
@@ -355,7 +356,7 @@ ht-degree: 0%
 
 ### 管理消息预设权限 {#manage-message-presets}
 
-**[!UICONTROL Manage messages presets]**&#x200B;高级权限允许用户在沙盒级别跨渠道创建、编辑和删除消息预设。
+的 **[!UICONTROL Manage messages presets]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除消息预设。
 
 它包括以下低级权限：
 
@@ -369,7 +370,7 @@ ht-degree: 0%
 
 ### 查看消息预设权限 {#view-message-presets}
 
-**[!UICONTROL View messages presets]**&#x200B;高级权限允许用户查看消息预设，以便了解在创建消息时要使用的消息预设。
+的 **[!UICONTROL View messages presets]** 高级权限允许用户查看消息预设，以便了解在创建消息时要使用的消息预设。
 
 它包括以下低级权限：
 
@@ -380,7 +381,7 @@ ht-degree: 0%
 
 ### 管理抑制权限 {#manage-suppression}
 
-**[!UICONTROL Manage suppression]**&#x200B;高级权限允许用户在将电子邮件地址添加到禁止列表之前定义退回次数，以及在禁止列表中添加和删除条目。
+的 **[!UICONTROL Manage suppression]** 高级权限允许用户在将电子邮件地址添加到禁止列表之前定义退回次数，以及向禁止列表添加和删除条目。
 
 它包括以下低级权限：
 
@@ -392,7 +393,7 @@ ht-degree: 0%
 
 ### 查看禁止列表权限 {#view-suppresion-list}
 
-**[!UICONTROL View suppression list]**&#x200B;高级权限允许用户查看禁止列表内容和设置。
+的 **[!UICONTROL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
 
 它包括以下低级权限：
 
@@ -404,7 +405,7 @@ ht-degree: 0%
 
 ### 导出抑制列表权限 {#export-suppression-list}
 
-**[!UICONTROL Export suppression list]**&#x200B;高级权限允许用户将禁止列表下载为CSV文件。
+的 **[!UICONTROL Export suppression list]** 高级权限允许用户将禁止列表下载为CSV文件。
 
 它包括以下低级权限：
 

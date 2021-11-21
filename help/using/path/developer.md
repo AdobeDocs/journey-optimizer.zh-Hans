@@ -4,7 +4,8 @@ description: 作为开发人员，了解有关如何与Journey Optimizer合作�
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

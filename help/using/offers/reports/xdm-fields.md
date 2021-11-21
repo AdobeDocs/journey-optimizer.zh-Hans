@@ -1,18 +1,19 @@
 ---
 title: 访问事件 XDM 字段
 description: 进一步了解 DecisioningEvents XDM 架构。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 68%
+source-wordcount: '106'
+ht-degree: 67%
 
 ---
 
-# 访问事件 XDM 字段{#decisioningevents-xdm-schema}
+# 访问事件 XDM 字段 {#decisioningevents-xdm-schema}
 
 您可以直接从包含决策管理事件的数据集中访问DecisioningEvents XDM架构。
 

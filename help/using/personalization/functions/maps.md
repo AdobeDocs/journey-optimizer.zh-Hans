@@ -1,14 +1,15 @@
 ---
 title: 映射函数库
 description: 映射函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
+exl-id: de6a8da2-55cf-4105-ba93-40c556732626
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 7%
 
 ## 获取{#get}
 
-`get`函数用于检索给定键的映射值。
+的 `get` 函数用于检索给定键值的映射值。
 
 **格式**
 
@@ -28,7 +29,7 @@ ht-degree: 7%
 
 **示例**
 
-以下操作将获取键`example@example.com`的标识映射值。
+以下操作将获取键的标识映射值 `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -36,7 +37,7 @@ ht-degree: 7%
 
 ## 键{#keys}
 
-`keys`函数用于检索给定映射的所有键。
+的 `keys` 函数用于检索给定映射的所有键。
 
 **格式**
 
@@ -46,7 +47,7 @@ ht-degree: 7%
 
 **示例**
 
-以下操作将获取映射`identityMap`的所有键值。
+以下操作将获取映射的所有键值 `identityMap`.
 
 ```sql
 {%= keys(identityMap) %}
@@ -54,7 +55,7 @@ ht-degree: 7%
 
 ## 值{#values}
 
-`values`函数用于检索给定映射的所有值。
+的 `values` 函数检索给定映射的所有值。
 
 **格式**
 
@@ -64,7 +65,7 @@ ht-degree: 7%
 
 **示例**
 
-以下操作将获取映射`identityMap`的所有值。
+以下操作将获取映射的所有值 `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

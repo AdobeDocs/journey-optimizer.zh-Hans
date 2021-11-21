@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # 推送实时报告 {#push-live-report}
 
-推送&#x200B;**[!UICONTROL Live report]**&#x200B;仅定向一个特定的推送投放。
+推送 **[!UICONTROL Live report]** 仅定向一个特定的推送投放。
 
-从&#x200B;**[!UICONTROL Messages]**&#x200B;菜单的&#x200B;**[!UICONTROL Executions]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Live view]** ，然后从选定投放的高级菜单中选择&#x200B;**[!UICONTROL Live report]**。
+从 **[!UICONTROL Executions]** 选项卡 **[!UICONTROL Messages]** 菜单，选择 **[!UICONTROL Live view]** 然后，从选定投放的高级菜单中选择 **[!UICONTROL Live report]**.
 
 ![](../assets/live_report_2.png)
 
-推送&#x200B;**[!UICONTROL Live report]**&#x200B;分为不同的小组件，用于详细描述投放成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅此[部分](live-report.md#modify-dashboard)。
+推送 **[!UICONTROL Live report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](live-report.md#modify-dashboard).
 
 ![](../assets/live_report_3.png)
 
-**[!UICONTROL Push notification performance]** 和小 **[!UICONTROL Push notification summary]** 组件使用图形和KPI详细描述与消息相关的主要信息：
+**[!UICONTROL Push notification performance]** 和 **[!UICONTROL Push notification summary]** 小组件使用图形和KPI详细描述与消息相关的主要信息：
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Engagements]**:此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。
 
-**[!UICONTROL Sending metrics - by push]**&#x200B;表详细列出了交付成功的情况：
+的 **[!UICONTROL Sending metrics - by push]** 表格详细说明了交付的成功：
 
 * **[!UICONTROL Targeted]**:符合此投放目标用户档案的用户配置文件数。
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 
 ![](../assets/live_report_4.png)
 
-**[!UICONTROL Tracking by platform]**、**[!UICONTROL Sending by platform]**&#x200B;和&#x200B;**[!UICONTROL Breakdown by platform]**&#x200B;图表和表格根据操作系统详细列出了推送通知的成功情况。
+的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
 
-**[!UICONTROL Sending statistics - Failed]**&#x200B;小组件允许您查看发生了多少错误和跳出。
+的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。
 
-**[!UICONTROL Error Reasons]**&#x200B;图表和表允许您查看在投放期间发生的错误。
+的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。

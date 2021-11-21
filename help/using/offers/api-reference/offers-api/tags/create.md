@@ -1,24 +1,25 @@
 ---
 title: 创建标记
 description: 利用标记，可更好地组织和排序选件。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 11%
+source-wordcount: '128'
+ht-degree: 10%
 
 ---
 
 # 创建标记
 
-在提供容器ID的同时，您可以通过向[!DNL Offer Library] API发出POST请求来创建标记。
+您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
 ## 接受和内容类型标头
 
-下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
+下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -54,7 +55,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建标记的信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除标记。 您可以在以后的教程中使用您唯一的标记`@id`来创建收藏集和个性化选件。
+成功的响应会返回有关新创建标记的信息，包括其唯一实例ID和版面 `@id`. 您可以在后续步骤中使用实例ID来更新或删除标记。 您可以使用您的唯一标记 `@id` 在后面的教程中，创建收藏集和个性化优惠。
 
 ```json
 {

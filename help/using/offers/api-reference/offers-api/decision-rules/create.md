@@ -1,14 +1,15 @@
 ---
 title: 创建决策规则
 description: 决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 12%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 12%
 
 ## 接受和内容类型标头
 
-下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
+下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -71,7 +72,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的决策规则的信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除您的决策规则。 您可以在稍后的教程中使用您的唯一决策规则`@id`来创建个性化选件。
+成功的响应会返回有关新创建决策规则的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的决策规则。 您可以使用您的唯一决策规则 `@id` 在稍后的教程中创建个性化优惠。
 
 ```json
 {

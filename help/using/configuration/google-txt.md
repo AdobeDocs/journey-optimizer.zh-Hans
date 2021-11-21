@@ -11,17 +11,17 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: 应用程序设置
-topic: 管理
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 27%
+source-wordcount: '165'
+ht-degree: 26%
 
 ---
-
 
 # 将Google TXT记录添加到子域
 
@@ -31,13 +31,13 @@ TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，�
 
 >[!NOTE]
 >
-> 只有在子域具有&#x200B;**[!UICONTROL Success]**&#x200B;状态时，才能执行此操作。 有关子域状态的更多信息，请参阅[此部分](access-subdomains.md)。
+> 仅当子域具有 **[!UICONTROL Success]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).
 
 要将Google TXT记录添加到子域，请执行以下步骤：
 
-1. 从&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Subdomains]**&#x200B;菜单中打开子域。
+1. 从 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 菜单。
 
-1. 在Google txt记录部分中，输入在[G Suite管理工具](https://support.google.com/a/answer/183895)中生成的验证代码，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 在Google txt记录部分中，输入在 [G Suite管理工具](https://support.google.com/a/answer/183895)，然后单击 **[!UICONTROL Save]**.
 
    ![](../assets/subdomain-google-txt.png)
 

@@ -1,20 +1,21 @@
 ---
 title: 删除标记
 description: 利用标记，可更好地组织和排序选件。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 删除标记
 
-有时可能需要删除(DELETE)标记。 只能删除您在租户容器中创建的标记。 这是通过使用您要删除的标记的$id对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)标记。 只能删除您在租户容器中创建的标记。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的标记的$id的API。
 
 **API格式**
 

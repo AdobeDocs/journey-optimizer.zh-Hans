@@ -1,20 +1,21 @@
 ---
 title: 列出决策
 description: 决策包含通知选件选择的逻辑。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 5%
+source-wordcount: '155'
+ht-degree: 4%
 
 ---
 
 # 查找决策
 
-您可以通过向[!DNL Offer Library] API发出GET请求（包括决策`@id`或请求路径中决策的名称）来查找特定决策（以前称为选件活动）。
+您可以通过向 [!DNL Offer Library] 包含任一决策的API `@id` 或请求路径中决策的名称。
 
 **API格式**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 决策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 定义与决策关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数“id”和“name”不能一起使用 | `LBAR` |
 
 **请求**
@@ -44,7 +45,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一决策`@id`的信息。
+成功响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一决策的信息 `@id`.
 
 ```json
 {

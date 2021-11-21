@@ -27,19 +27,19 @@ ht-degree: 5%
 
 域名委派是允许域名所有者的方法(技术上为：DNS区域)，以委派其分区(技术上：其下的DNS区域（可称为子区域）到其他实体。 基本上，作为客户，如果您正在处理“example.com”区域，则可以将子区域“marketing.example.com”委派给Adobe。
 
-通过委派子域以与[!DNL Journey Optimizer]一起使用，客户可以依赖Adobe来维护满足其电子邮件营销发送域行业标准可交付性要求所需的DNS基础结构，同时继续维护和控制其内部电子邮件域的DNS。
+通过委派子域以与一起使用 [!DNL Journey Optimizer]，客户可以依赖Adobe来维护满足其电子邮件营销发送域行业标准可交付性要求所需的DNS基础架构，同时继续维护和控制其内部电子邮件域的DNS。
 
-[!DNL Journey Optimizer] 允许您完全委派子域，以便直接从产品界面Adobe。这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
+[!DNL Journey Optimizer] 允许您完全委派子域，以便直接从产品界面Adobe。 这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
 
 >[!NOTE]
 >
->默认情况下，[!DNL Journey Optimizer]许可合同允许您最多委派10个子域。 如果要提高此限制，请联系您的Adobe联系人。
+>默认情况下， [!DNL Journey Optimizer] 许可合同允许您最多委派10个子域。 如果要提高此限制，请联系您的Adobe联系人。
 >
 >Journey Optimizer当前不支持使用CNAME进行子域委派。
 
 要委派新子域，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL Subdomains]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL Delegate subdomain]**。
+1. 访问 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 菜单，然后单击 **[!UICONTROL Delegate subdomain]**.
 
    ![](../assets/subdomain-delegate.png)
 
@@ -55,21 +55,21 @@ ht-degree: 5%
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
-1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击&#x200B;**[!UICONTROL Submit]**。
+1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL Submit]**.
 
    ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
-   >您稍后可以使用&#x200B;**[!UICONTROL Save as draft]**&#x200B;按钮创建记录并提交子域配置。 然后，您将能够从子域列表中打开子域委派，以恢复子域委派。
+   >您稍后可以使用 **[!UICONTROL Save as draft]** 按钮。 然后，您将能够从子域列表中打开子域委派，以恢复子域委派。
 
-1. 提交子域委派后，该子域将显示在列表中，并且状态为&#x200B;**[!UICONTROL Processing]**。 有关子域状态的更多信息，请参阅[此部分](access-subdomains.md)。
+1. 提交子域委派后，子域将显示在列表中，其中 **[!UICONTROL Processing]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).
 
    ![](../assets/subdomain-processing.png)
 
-   在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为3小时。 在[此部分](#subdomain-validation)中了解详情。
+   在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为3小时。 在 [此部分](#subdomain-validation).
 
-1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它已准备好用于投放消息。
+1. 检查成功后，子域将获取 **[!UICONTROL Success]** 状态。 它已准备好用于投放消息。
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -83,16 +83,16 @@ ht-degree: 5%
 >
 >这些步骤由Adobe执行，最长可能需要3小时。
 
-1. **预验证**:Adobe检查子域是否已委派给AdobeDNS（NS记录、SOA记录、区域设置、所有权记录）。如果预验证步骤失败，则返回错误以及相应的原因，否则Adobe将继续执行下一步。
+1. **预验证**:Adobe检查子域是否已委派给AdobeDNS（NS记录、SOA记录、区域设置、所有权记录）。 如果预验证步骤失败，则返回错误以及相应的原因，否则Adobe将继续执行下一步。
 
 1. **为域配置DNS**:
 
    * **MX记录**:Mail eXchange记录 — 用于处理发送到子域的入站电子邮件的邮件服务器记录。
    * **SPF记录**:发件人策略框架记录 — 列出可从子域发送电子邮件的邮件服务器的IP。
    * **DKIM记录**:DomainKeys Identified Mail标准记录 — 使用公钥 — 私钥加密来验证消息以避免欺骗。
-   * **答**:默认IP映射。
+   * **A**:默认IP映射。
 
-1. **创建跟踪和镜像URL**:如果域是email.example.com，则tracking/mirror域将为data.email.example.com。它通过安装SSL证书来保护。
+1. **创建跟踪和镜像URL**:如果域是email.example.com，则tracking/mirror域将为data.email.example.com。 它通过安装SSL证书来保护。
 
 1. **配置CDN CloudFront**:如果CDN尚未设置，则Adobe会为导入配置CDN。
 
@@ -102,4 +102,4 @@ ht-degree: 5%
 
 1. **创建转发DNS**:如果这是您委派的第一个子域，则Adobe将创建转发DNS，创建PTR记录所需的DNS — 每个IP一个。
 
-1. **创建PTR记录**:ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。Gmail还建议为每个IP设置PTR记录。 Adobe仅在您委派第一个子域（每个IP各一个）时创建PTR记录，所有IP都指向第一个子域。 例如，如果IP为&#x200B;*192.1.2.1*，而子域为&#x200B;*email.example.com*，则PTR记录将为：*192.1.2.1 PTR r1.email.example.com*。 之后，您可以更新PTR记录以指向新的委派域。
+1. **创建PTR记录**:ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。 Gmail还建议为每个IP设置PTR记录。 Adobe仅在您委派第一个子域（每个IP各一个）时创建PTR记录，所有IP都指向第一个子域。 例如，如果IP为 *192.1.2.1* 而子域为 *email.example.com*，则PTR记录将为： *192.1.2.1 PTR r1.email.example.com*. 之后，您可以更新PTR记录以指向新的委派域。

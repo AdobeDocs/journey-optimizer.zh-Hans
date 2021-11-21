@@ -1,13 +1,14 @@
 ---
 title: 历程用例
 description: 历程用例
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
+exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '835'
 ht-degree: 2%
 
 ---
@@ -40,39 +41,39 @@ ht-degree: 2%
 
 在我们的历程中，我们希望利用特定的客户群。 属于该区段的所有个人都将进入历程并执行不同的步骤。 在我们的示例中，我们需要一个客户群，以1980年以后出生的所有居住在亚特兰大、旧金山或西雅图的客户为目标。
 
-有关区段的更多信息，请参阅此[页面](../segment/about-segments.md)。
+有关区段的更多信息，请参阅此 [页面](../segment/about-segments.md).
 
-1. 从“客户”菜单部分，选择&#x200B;**[!UICONTROL Segments]**。
+1. 从“客户”菜单部分中，选择 **[!UICONTROL Segments]**.
 
-1. 单击位于区段列表右上角的&#x200B;**[!UICONTROL Create segment]**&#x200B;按钮。
+1. 单击 **[!UICONTROL Create segment]** 按钮。
 
-1. 在&#x200B;**[!UICONTROL Segment properties]**&#x200B;窗格中，输入区段的名称。
+1. 在 **[!UICONTROL Segment properties]** 窗格，输入区段的名称。
 
-1. 将所需字段从左侧窗格拖放到中心工作区中，然后根据需要对其进行配置。 在此示例中，我们使用&#x200B;**City**&#x200B;和&#x200B;**Birth year**&#x200B;属性字段。
+1. 将所需字段从左侧窗格拖放到中心工作区中，然后根据需要对其进行配置。 在本例中，我们使用 **城市** 和 **出生年份** 属性字段。
 
 1. 单击 **[!UICONTROL Save]**。
 
    ![](../assets/add-attributes.png)
 
-该区段现已创建完成，可随时用于您的历程。 使用&#x200B;**读取区段**&#x200B;活动，您可以让属于该区段的所有个人进入历程。
+该区段现已创建完成，可随时用于您的历程。 使用 **读取区段** 活动时，您可以让属于该区段的所有个人进入历程。
 
 ### 配置事件
 
 您需要配置客户购买产品时发送到历程的事件。 当历程收到事件时，将触发“谢谢”消息。
 
-为此，我们使用基于规则的事件。 有关事件的更多信息，请参阅此[页面](../event/about-events.md)。
+为此，我们使用基于规则的事件。 有关事件的更多信息，请参阅此 [页面](../event/about-events.md).
 
-1. 在“管理”菜单部分，选择&#x200B;**[!UICONTROL Configurations]**，然后单击&#x200B;**[!UICONTROL Events]**。 单击&#x200B;**[!UICONTROL Create event]**&#x200B;以创建新事件。
+1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**，然后单击 **[!UICONTROL Events]**. 单击&#x200B;**[!UICONTROL Create event]**&#x200B;以创建新事件。
 
 1. 输入事件的名称。
 
 1. 在 **[!UICONTROL Event ID type]** 字段中，选择 **[!UICONTROL Rule Based]**。
 
-1. 定义&#x200B;**[!UICONTROL Schema]**&#x200B;和有效负载&#x200B;**[!UICONTROL Fields]**。 您可以使用多个字段，例如已购买的产品、购买日期和购买ID。
+1. 定义 **[!UICONTROL Schema]** 和负载 **[!UICONTROL Fields]**. 您可以使用多个字段，例如已购买的产品、购买日期和购买ID。
 
-1. 在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;字段中，定义系统用于识别触发历程的事件的条件。 例如，您可以添加`purchaseMessage`字段并定义以下规则：`purchaseMessage="thank you"`
+1. 在 **[!UICONTROL Event ID condition]** 字段中，定义系统用于识别触发历程的事件的条件。 例如，您可以添加 `purchaseMessage` 字段并定义以下规则： `purchaseMessage="thank you"`
 
-1. 定义&#x200B;**[!UICONTROL Namespace]**&#x200B;和&#x200B;**[!UICONTROL Profile Identifier]**。
+1. 定义 **[!UICONTROL Namespace]** 和 **[!UICONTROL Profile Identifier]**.
 
 1. 单击 **[!UICONTROL Save]**。
 
@@ -90,42 +91,42 @@ ht-degree: 2%
 
 ![](../assets/jo-uc3.png)
 
-请参阅此[部分](../segment/about-segments.md) ，了解如何设计和发布这些消息。
+请参阅 [部分](../segment/about-segments.md) 了解如何设计和发布这些消息。
 
 ## 设计历程
 
-1. 通过&#x200B;**读取区段**&#x200B;活动开始历程。 选择之前创建的区段。 属于该区段的所有个人都将进入历程。
+1. 使用 **读取区段** 活动。 选择之前创建的区段。 属于该区段的所有个人都将进入历程。
 
    ![](../assets/jo-uc4.png)
 
-1. 删除&#x200B;**消息**&#x200B;活动，然后选择推送和电子邮件的首条消息。 此消息将发送给历程中的所有个人。
+1. 删除 **消息** 活动，然后选择推送和电子邮件第一条消息。 此消息将发送给历程中的所有个人。
 
    ![](../assets/jo-uc5.png)
 
 1. 将光标放在消息活动上并单击“+”符号以创建新路径。
 
-1. 在第一个路径中，添加&#x200B;**Reaction**&#x200B;事件，然后选择&#x200B;**Push opened**。 当属于该区段的个人打开第一条消息的推送版本时，将触发该事件。
+1. 在第一个路径中，添加 **反应** 事件和选择 **已打开推送**. 当属于该区段的个人打开第一条消息的推送版本时，将触发该事件。
 
-1. 在第二个路径中，添加&#x200B;**Reaction**&#x200B;事件，然后选择&#x200B;**Email opened**。 当个人打开电子邮件时，将触发该事件。
+1. 在第二个路径中，添加 **反应** 事件和选择 **已打开电子邮件**. 当个人打开电子邮件时，将触发该事件。
 
-1. 在其中一个反应活动中，选中&#x200B;**定义事件超时**&#x200B;框，定义持续时间（在我们的示例中为1天）并选中&#x200B;**设置超时路径**。 这会为未打开推送或电子邮件第一封邮件的用户创建另一个路径。
+1. 在其中一个反应活动中，检查 **定义事件超时** 框中，定义持续时间（在我们的示例中为1天）并选中 **设置超时路径**. 这会为未打开推送或电子邮件第一封邮件的用户创建另一个路径。
 
    >[!NOTE]
    >
    >在为多个事件配置超时（本例中是两个反应）时，您只需为其中一个事件配置超时。
 
-1. 在超时路径中，删除&#x200B;**Message**&#x200B;活动，然后选择电子邮件跟进消息。 此消息将发送给未在第二天打开电子邮件或推送第一封邮件的用户。
+1. 在超时路径中，将 **消息** 活动，然后选择电子邮件跟进消息。 此消息将发送给未在第二天打开电子邮件或推送第一封邮件的用户。
 
 1. 将三个路径连接到之前创建的购买事件。 当个人购买商品时，将触发该事件。
 
-1. 事件后，删除&#x200B;**Message**&#x200B;活动，然后选择电子邮件“谢谢”。
+1. 事件后，删除 **消息** 活动，然后选择电子邮件“谢谢”消息。
 
-1. 添加&#x200B;**End**&#x200B;活动。
+1. 添加 **结束** 活动。
 
 ## 测试并发布历程
 
 1. 在测试历程之前，请验证历程是否有效且没有错误。
 
-1. 单击位于右上角的&#x200B;**测试**&#x200B;切换开关以激活测试模式。 定义测试用户档案如何输入测试：单个用户档案，或一次最多100个。 请参阅此[部分](testing-the-journey.md)以了解如何使用测试模式。
+1. 单击 **测试** 切换（位于右上角）以激活测试模式。 定义测试用户档案如何输入测试：单个用户档案，或一次最多100个。 请参阅 [部分](testing-the-journey.md) 以了解如何使用测试模式。
 
-1. 历程准备就绪后，使用位于右上角的&#x200B;**Publish**&#x200B;按钮发布该历程。
+1. 历程准备就绪后，使用 **发布** 按钮，位于右上角。

@@ -47,7 +47,7 @@ ht-degree: 84%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}，以了解流摄取API疑难解答。
+事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参考 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} ，用于流摄取API疑难解答。
 
 ## 检查人员是否进入历程{#section_x4v_zzs_dgb}
 
@@ -82,7 +82,7 @@ ht-degree: 84%
 
 如果人员在历程中以正确的方式流动，但没有收到他们应该收到的消息，您可以检查：
 
-* [!DNL Journey Optimizer] 正确考虑了发送消息的请求。企业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间相对应。 他们还可以检查收到的最新API调用/事件。
-* [!DNL Journey Optimizer] 已成功发送消息。在消息的发送日志中，您可以查看每次执行的状态。 您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
+* [!DNL Journey Optimizer] 正确考虑了发送消息的请求。 企业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间相对应。 他们还可以检查收到的最新API调用/事件。
+* [!DNL Journey Optimizer] 已成功发送消息。 在消息的发送日志中，您可以查看每次执行的状态。 您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。

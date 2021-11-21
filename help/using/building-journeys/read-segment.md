@@ -19,11 +19,11 @@ ht-degree: 7%
 
 利用读取区段活动，可让属于Adobe Experience Platform区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
-让我们以[生成区段](../segment/about-segments.md)用例中创建的“Luma应用程序打开和结帐”区段为例。 通过读取区段活动，您可以让属于此区段的所有个人进入历程，并让他们进入将利用所有历程功能的个性化历程：条件、计时器、事件、操作。
+以在 [生成区段](../segment/about-segments.md) 用例。 通过读取区段活动，您可以让属于此区段的所有个人进入历程，并让他们进入将利用所有历程功能的个性化历程：条件、计时器、事件、操作。
 
 >[!NOTE]
 >
->Burst付费附加组件允许以大量量发送非常快速的推送消息，用于包括读取区段和简单推送消息的简单历程。 有关更多信息，请参见[此部分](../building-journeys/journey-gs.md#burst)
+>Burst付费附加组件允许以大量量发送非常快速的推送消息，用于包括读取区段和简单推送消息的简单历程。 有关更多信息，请参阅 [此部分](../building-journeys/journey-gs.md#burst)
 
 ### 配置活动 {#configuring-segment-trigger-activity}
 
@@ -33,15 +33,15 @@ ht-degree: 7%
 
    活动必须定位为历程的第一步。
 
-1. 向活动添加&#x200B;**[!UICONTROL Label]**（可选）。
+1. 添加 **[!UICONTROL Label]** （可选）。
 
-1. 在&#x200B;**[!UICONTROL Segment]**&#x200B;字段中，选择将进入历程的Adobe Experience Platform区段，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 在 **[!UICONTROL Segment]** 字段中，选择将进入历程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**.
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**Remiled**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会进入历程。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >只有 **已实现** 和 **现有** 区段参与状态将进入历程。 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
    ![](../assets/read-segment-selection.png)
 
@@ -51,13 +51,13 @@ ht-degree: 7%
 
    ![](../assets/read-segment-copy.png)
 
-1. 在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段中，选择要用于标识个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL Namespace]** 字段中，选择要用于标识个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >属于某个区段、且其不同身份之间没有选定身份（命名空间）的个人无法进入历程。
 
-1. 将&#x200B;**[!UICONTROL Throttling rate]**&#x200B;字段设置为读取区段活动的吞吐量限制。
+1. 设置 **[!UICONTROL Throttling rate]** 字段，以限制读取区段活动的吞吐量。
 
    此值存储在历程版本有效负载中。 默认值为每秒17,000条消息。 您可以将此值从每秒500条修改为17,000条消息。
 
@@ -65,31 +65,31 @@ ht-degree: 7%
    >
    >每个沙盒的总限制率设置为每秒20,000条消息。 因此，在同一沙盒中同时运行的所有读取区段的限制速率每秒最多可达20,000条消息。 您无法修改此上限。
 
-1. 利用&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动，可指定区段进入历程的时间。 为此，请单击&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;链接以访问历程的属性，然后配置&#x200B;**[!UICONTROL Scheduler type]**&#x200B;字段。
+1. 的 **[!UICONTROL Read Segment]** 活动允许您指定区段进入历程的时间。 为此，请单击 **[!UICONTROL Edit journey schedule]** 链接以访问历程的属性，然后配置 **[!UICONTROL Scheduler type]** 字段。
 
    ![](../assets/read-segment-schedule.png)
 
-   默认情况下，区段会进入历程&#x200B;**[!UICONTROL As soon as possible]**。 如果要使区段在特定日期/时间或定期进入历程，请从列表中选择所需的值。
+   默认情况下，区段会进入历程 **[!UICONTROL As soon as possible]**. 如果要使区段在特定日期/时间或定期进入历程，请从列表中选择所需的值。
 
    >[!NOTE]
    >
-   >请注意，**[!UICONTROL Schedule]**&#x200B;部分仅在&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动被放入画布中时才可用。
+   >请注意， **[!UICONTROL Schedule]** 部分仅在 **[!UICONTROL Read Segment]** 活动已在画布中删除。
 
    ![](../assets/read-segment-schedule-list.png)
 
 ### 测试并发布历程 {#testing-publishing}
 
-利用&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动，可在单一用户档案上或在100个随机测试用户档案（从符合区段资格条件的用户档案中选择）上测试历程。
+的 **[!UICONTROL Read Segment]** 活动允许您在单一用户档案上或在100个随机测试从符合区段资格的用户档案中选择的用户档案上测试历程。
 
 为此，请激活测试模式，然后从左窗格中选择所需的选项。
 
 ![](../assets/read-segment-test-mode.png)
 
-然后，您可以照常配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md)。
+然后，您可以照常配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md).
 
-运行测试后，**[!UICONTROL Show logs]**&#x200B;按钮允许您根据选定的测试选项查看测试结果：
+测试运行后， **[!UICONTROL Show logs]** 按钮可根据选定的测试选项查看测试结果：
 
-* **[!UICONTROL Single profile at a time]**:测试日志显示与使用统一测试模式时相同的信息。有关更多信息，请参见[此部分](testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Single profile at a time]**:测试日志显示与使用统一测试模式时相同的信息。 有关更多信息，请参阅 [此部分](testing-the-journey.md#viewing_logs)
 
 * **[!UICONTROL Up to 100 profiles at once]**:利用测试日志，可跟踪从Adobe Experience Platform导出区段的进度，以及所有进入历程的人员的个人进度。
 
@@ -97,7 +97,7 @@ ht-degree: 7%
 
    ![](../assets/read-segment-log.png)
 
-测试成功后，您可以发布历程（请参阅[发布历程](publishing-the-journey.md)）。 属于该区段的个人将在历程的属性&#x200B;**[!UICONTROL Scheduler]**&#x200B;部分中指定的日期/时间进入历程。
+测试成功后，您可以发布历程(请参阅 [发布历程](publishing-the-journey.md))。 属于该区段的个人将在历程属性中指定的日期/时间进入历程 **[!UICONTROL Scheduler]** 中。
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ ht-degree: 7%
 
 ## 基于客户细分的历程中的受众定位
 
-基于区段的历程始终以&#x200B;**读取区段**&#x200B;活动开始，以检索属于Adobe Experience Platform区段的个人。
+基于区段的历程始终以 **读取区段** 活动来检索属于Adobe Experience Platform区段的个人。
 
 属于该区段的受众将定期检索一次。
 
@@ -114,7 +114,7 @@ ht-degree: 7%
 
 **区段**
 
-您可以使用条件来使用&#x200B;**Condition**&#x200B;活动执行分段。 例如，您可以使VIP人员采用特定路径，而非VIP流量进入其他路径。
+您可以使用条件通过 **条件** 活动。 例如，您可以使VIP人员采用特定路径，而非VIP流量进入其他路径。
 
 分段可以基于：
 
@@ -128,7 +128,7 @@ ht-degree: 7%
 
 **排除**
 
-使用相同的&#x200B;**Condition**&#x200B;活动进行分段（请参阅上文），也可以排除部分群体。 例如，您可以排除VIP人员，方法是：使其流入紧接其后有结束步骤的分支。
+相同 **条件** 用于分段的活动（请参阅上文）还允许您排除部分群体。 例如，您可以排除VIP人员，方法是：使其流入紧接其后有结束步骤的分支。
 
 出于群体计数目的或多步历程，可能会在检索区段后立即发生此排除。
 

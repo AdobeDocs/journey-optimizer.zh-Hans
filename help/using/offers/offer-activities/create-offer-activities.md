@@ -225,6 +225,6 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指导。
+>此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

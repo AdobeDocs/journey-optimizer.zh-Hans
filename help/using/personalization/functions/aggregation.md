@@ -1,14 +1,15 @@
 ---
 title: 聚合函数库
 description: 聚合函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 8%
+source-wordcount: '157'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 8%
 
 ## 计数{#count}
 
-`count`函数返回给定数组中的元素数。
+的 `count` 函数返回给定数组中的元素数。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 8%
 
 ## 总和{#sum}
 
-`sum`函数返回数组中所有选定值的总和。
+的 `sum` 函数会返回数组中所有选定值的总和。
 
 **格式**
 
@@ -54,7 +55,7 @@ ht-degree: 8%
 
 ## 平均{#average}
 
-`average`函数返回数组中所有选定值的算术平均值。
+的 `average` 函数返回数组中所有选定值的算术平均值。
 
 **格式**
 
@@ -72,7 +73,7 @@ ht-degree: 8%
 
 ## 最小{#min}
 
-`min`函数返回数组中所有选定值的最小值。
+的 `min` 函数返回数组中所有选定值的最小值。
 
 **格式**
 
@@ -90,7 +91,7 @@ ht-degree: 8%
 
 ## 最大值{#max}
 
-`max`函数返回数组中所有选定值的最大值。
+的 `max` 函数返回数组中所有选定值的最大值。
 
 **格式**
 

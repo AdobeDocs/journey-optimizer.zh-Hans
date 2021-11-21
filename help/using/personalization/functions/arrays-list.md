@@ -1,13 +1,14 @@
 ---
 title: 数组函数库
 description: 数组函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 5%
 
 ## 非重复{#distinct}
 
-`distinct`函数用于从删除了重复值的数组或列表中获取值。
+的 `distinct` 函数，用于从删除了重复值的数组或列表中获取值。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 5%
 
 ## 第一项{#head}
 
-`head`函数用于返回数组或列表中的第一个项目。
+的 `head` 函数返回数组或列表中的第一个项目。
 
 **格式**
 
@@ -46,15 +47,15 @@ ht-degree: 5%
 
 **示例**
 
-以下操作将返回价格最高的前五个订单中的第一个订单。 有关`topN`函数的更多信息，请参阅数组](#first-n)部分的[第一个`n`。
+以下操作将返回价格最高的前五个订单中的第一个订单。 有关 `topN` 函数 [第 `n` 在阵列中](#first-n) 中。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 数组{#first-n}中的第一个`n`
+## 第一个 `n` 在阵列中 {#first-n}
 
-`topN`函数用于返回数组中的前`N`项，当这些项基于给定的数值表达式以升序排序时。
+的 `topN` 函数返回 `N` 数组中的项目，当根据给定的数值表达式以升序排序时。
 
 **格式**
 
@@ -78,7 +79,7 @@ ht-degree: 5%
 
 ## 在{#in}
 
-`in`函数用于确定项目是否是数组或列表的成员。
+的 `in` 函数来确定项目是否是数组或列表的成员。
 
 **格式**
 
@@ -96,7 +97,7 @@ ht-degree: 5%
 
 ## 包括{#includes}
 
-`includes`函数用于确定数组或列表是否包含给定项。
+的 `includes` 函数来确定数组或列表是否包含给定项。
 
 **格式**
 
@@ -114,7 +115,7 @@ ht-degree: 5%
 
 ## Intersects{#intersects}
 
-`intersects`函数用于确定两个阵列或列表是否至少具有一个公共成员。
+的 `intersects` 函数用于确定两个阵列或列表是否具有至少一个公共成员。
 
 **格式**
 
@@ -150,9 +151,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 数组{#last-n}中的最后一个`n`
+## 最后 `n` 在阵列中{#last-n}
 
-`bottomN`函数用于返回数组中最后的`N`项目（当根据给定的数值表达式以升序排序时）。
+的 `bottomN` 函数返回 `N` 数组中的项目，当根据给定的数值表达式以升序排序时。
 
 **格式**
 
@@ -177,11 +178,11 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 不在{#notin}
 
-`notIn`函数用于确定某个项目是否不是数组或列表的成员。
+的 `notIn` 函数来确定项目是否不是数组或列表的成员。
 
 >[!NOTE]
 >
->`notIn`函数&#x200B;*还*&#x200B;可确保这两个值均不等于null。 因此，结果不是`in`函数的精确求反。
+>的 `notIn` 函数 *也* 确保两个值均不等于null。 因此，结果不是 `in` 函数。
 
 **格式**
 
@@ -200,7 +201,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 子集{#subset}
 
-`subsetOf`函数用于确定特定阵列（阵列A）是否是另一阵列（阵列B）的子集。 换句话说，数组A中的所有元素都是数组B的元素。
+的 `subsetOf` 函数用于确定特定阵列（阵列A）是否是另一阵列（阵列B）的子集。 换句话说，数组A中的所有元素都是数组B的元素。
 
 **格式**
 
@@ -218,7 +219,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 超集{#superset}
 
-`supersetOf`函数用于确定特定阵列（阵列A）是否是另一阵列（阵列B）的超集。 换言之，数组A包含数组B中的所有元素。
+的 `supersetOf` 函数用于确定特定阵列（阵列A）是否是另一阵列（阵列B）的超集。 换言之，数组A包含数组B中的所有元素。
 
 **格式**
 
@@ -233,10 +234,3 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

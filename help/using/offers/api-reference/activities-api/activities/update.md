@@ -1,26 +1,27 @@
 ---
 title: 更新决策
 description: 决策包含通知选件选择的逻辑。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 9%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
 # 更新决策
 
-您可以通过向[!DNL Offer Library] API发出PATCH请求，来修改或更新容器中的决策。
+您可以通过向 [!DNL Offer Library] API。
 
-有关JSON修补程序（包括可用操作）的更多信息，请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
+有关JSON修补程序（包括可用操作）的更多信息，请参阅 [JSON修补程序文档](http://jsonpatch.com/).
 
 ## 接受和内容类型标头
 
-下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
+下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括：`add`、`replace`和`remove`。 |
+| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括： `add`, `replace`和 `remove`. |
 | `path` | 要更新的参数的路径。 |
 | `value` | 要使用更新参数的新值。 |
 
 **响应**
 
-成功响应会返回决策的更新详细信息，包括其唯一实例ID和决策`@id`。
+成功的响应会返回决策的更新详细信息，包括其唯一实例ID和决策 `@id`.
 
 ```json
 {

@@ -1,20 +1,21 @@
 ---
 title: 删除决策
 description: 决策包含通知选件选择的逻辑。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 5%
 
 ---
 
 # 删除决策
 
-有时可能需要删除(DELETE)决策（以前称为选件活动）。 只能删除您在租户容器中创建的决策。 这是通过使用您要删除的备用选件的$id对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)决策（以前称为选件活动）。 只能删除您在租户容器中创建的决策。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
 
 **API格式**
 

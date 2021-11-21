@@ -1,14 +1,15 @@
 ---
 title: 运算符函数库
 description: 运算符函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 12%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 12%
 
 ### 和{#and}
 
-`and`函数用于创建逻辑连接。
+的 `and` 函数创建逻辑连接。
 
 **格式**
 
@@ -38,7 +39,7 @@ ht-degree: 12%
 
 ### 或{#or}
 
-`or`函数用于创建逻辑分离。
+的 `or` 函数创建逻辑分离。
 
 **格式**
 
@@ -85,7 +86,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 等于{#equals}
 
-`=`（等于）函数检查一个值或表达式是否等于另一个值或表达式。
+的 `=` （等于）函数检查一个值或表达式是否等于另一个值或表达式。
 
 **格式**
 
@@ -103,7 +104,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 不等于{#notequal}
 
-`!=`（不等于）函数检查一个值或表达式是否等于&#x200B;**不**&#x200B;其他值或表达式。
+的 `!=` （不等于）函数检查一个值或表达式是否为 **not** 等于其他值或表达式。
 
 **格式**
 
@@ -121,7 +122,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 大于{#greaterthan}
 
-`>`（大于）函数用于检查第一个值是否大于第二个值。
+的 `>` （大于）函数用于检查第一个值是否大于第二个值。
 
 **格式**
 
@@ -139,7 +140,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 大于或等于{#greaterthanorequal}
 
-`>=`（大于或等于）函数用于检查第一个值是否大于或等于第二个值。
+的 `>=` （大于或等于）函数用于检查第一个值是否大于或等于第二个值。
 
 **格式**
 
@@ -157,7 +158,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 小于{#lessthan}
 
-`<`（小于）比较函数用于检查第一个值是否小于第二个值。
+的 `<` （小于）比较函数用于检查第一值是否小于第二值。
 
 **格式**
 
@@ -175,7 +176,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 小于或等于{#lessthanorequal}
 
-`<=`（小于或等于）比较函数用于检查第一值是否小于或等于第二值。
+的 `<=` （小于或等于）比较函数用于检查第一值是否小于或等于第二值。
 
 **格式**
 
@@ -192,4 +193,3 @@ not (homeAddress.countryISO = "CA")
 ```
 
 **带数字的运算**
-

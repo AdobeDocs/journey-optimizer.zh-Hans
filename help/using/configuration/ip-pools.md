@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 关于IP池 {#about-ip-pools}
 
-使用Journey Optimizer，您可以创建IP池以将子域的IP地址分组到一起。
+使用Journey Optimizer，您可以创建IP池以将子域的IP地址分组在一起。
 
 强烈建议创建IP池，以便电子邮件可投放。 这样，您就可以防止子域的声誉影响您的其他子域。
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 要创建IP池，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL Channels]** / **[!UICONTROL IP pools]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL Create IP Pool]**。
+1. 访问 **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** 菜单，然后单击 **[!UICONTROL Create IP Pool]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -47,7 +47,7 @@ ht-degree: 1%
    >
    >子域的名称必须以字母(A-Z)开头，并且只包含字母数字字符或特殊字符(_、 ., -)。
 
-1. 从下拉列表中选择要包含在池中的IP地址，然后单击&#x200B;**[!UICONTROL Submit]**。
+1. 从下拉列表中选择要包含在池中的IP地址，然后单击 **[!UICONTROL Submit]**.
 
    ![](../assets/ip-pool-config.png)
 
@@ -55,7 +55,7 @@ ht-degree: 1%
    >
    >随您的实例配置的所有IP地址都可在列表中找到。
 
-IP池现已创建并显示在列表中。 您可以选择它以访问其属性并显示关联的消息预设。 有关如何将消息预设与IP池关联的更多信息，请参阅[此部分](message-presets.md))。
+IP池现已创建并显示在列表中。 您可以选择它以访问其属性并显示关联的消息预设。 有关如何将消息预设与IP池关联的详细信息，请参阅 [此部分](message-presets.md))。
 
 ![](../assets/ip-pool-created.png)
 
@@ -81,14 +81,14 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 >
 >IP池名称不可编辑。 如果要修改IP池，您需要删除该IP池，然后使用您选择的名称创建另一个IP池。
 
-根据与[消息预设](message-presets.md)关联的IP池是否关联，更新会立即或异步生效：
+根据与关联的IP池，更新可立即或异步生效 [消息预设](message-presets.md) 或否：
 
-* 如果在消息预设中选择的IP池为&#x200B;**未**，则更新为即时（**[!UICONTROL Success]**&#x200B;状态）。
-* 如果在消息预设中选择了IP池&#x200B;****，则更新最长可能需要7-10个工作日（**[!UICONTROL Processing]**&#x200B;状态）。
+* 如果IP池为 **not** 在消息预设中选择，则更新为即时(**[!UICONTROL Success]** 状态)。
+* 如果IP池 **is** 在消息预设中选择，则更新最长可能需要7-10个工作日(**[!UICONTROL Processing]** 状态)。
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
-要检查IP池更新状态，请单击&#x200B;**[!UICONTROL More actions]**&#x200B;按钮并选择&#x200B;**[!UICONTROL Recent updates]**。
+要检查IP池更新状态，请单击 **[!UICONTROL More actions]** 按钮，选择 **[!UICONTROL Recent updates]**.
 
 ![](../assets/ip-pool-recent-update.png)
 
@@ -99,5 +99,5 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 >* 直到IP池的下一个批处理消息生效。
 
 
-您还可以使用&#x200B;**[!UICONTROL Delete]**&#x200B;按钮删除IP池。 请注意，您无法删除已与消息预设关联的IP池。
+您还可以使用 **[!UICONTROL Delete]** 按钮以删除IP池。 请注意，您无法删除已与消息预设关联的IP池。
 

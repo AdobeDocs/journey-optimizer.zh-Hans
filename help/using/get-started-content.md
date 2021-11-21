@@ -1,13 +1,14 @@
 ---
 title: 消息入门
 description: 了解如何在 Journey Optimizer 中创建消息
-feature: 概述
-topic: 内容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: ht
-source-wordcount: '103'
+exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+workflow-type: tm+mt
+source-wordcount: '100'
 ht-degree: 100%
 
 ---

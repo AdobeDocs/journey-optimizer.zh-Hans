@@ -27,6 +27,6 @@ ht-degree: 4%
 
 1. 在 **[!UICONTROL Subject line]** 字段。 为此，请单击右侧的按钮以打开表达式编辑器并撰写电子邮件主题。 了解如何在 [此部分](personalization/personalize.md)
 
-1. 单击 **[!UICONTROL Email Designer]** 按钮来设计电子邮件。 了解如何在 [此部分](design-emails.md).
+1. 单击 **[!UICONTROL Email Designer]** 按钮以设计电子邮件。 了解如何在 [此部分](design-emails.md).
 
 1. 如果要通过打开和/或单击链接来跟踪收件人的行为，请确保 **[!UICONTROL Open Tracking for email]** 和 **[!UICONTROL Click Tracking for email]** 选项。 了解有关跟踪的更多信息(位于 [此部分](message-tracking.md).

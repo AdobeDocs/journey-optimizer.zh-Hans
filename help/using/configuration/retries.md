@@ -15,25 +15,25 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-
 # 重试 {#retries}
 
-当电子邮件由于临时&#x200B;**Soft bounce**&#x200B;错误而失败时，将执行多次重试。 每个错误都会增加一个错误计数。 当此计数器达到限制阈值时，地址将添加到禁止列表。
+当由于临时 **软退回** 错误，会执行多次重试。 每个错误都会增加一个错误计数。 当此计数器达到限制阈值时，地址将添加到禁止列表。
 
 >[!NOTE]
 >
->在[投放失败类型](../suppression-list.md#delivery-failures)部分中了解有关错误类型的更多信息。
+>了解有关 [投放失败类型](../suppression-list.md#delivery-failures) 中。
 
 在默认配置中，阈值设置为5个错误。
 
-* 对于同一投放，在第五次遇到[重试时间段](#retry-duration)内的错误时，地址会被禁止。
+* 对于同一投放，在第5次遇到 [重试时段](#retry-duration)，则禁止显示地址。
 
 * 如果存在不同的投放且至少24小时间隔地发生两个错误，则每次错误时错误计数都递增，并且在第五次尝试时地址也被抑制。
 
@@ -61,13 +61,13 @@ ht-degree: 1%
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-## 重试时间段 {#retry-duration}
+## 重试时段 {#retry-duration}
 
-**重试时间段**&#x200B;是重试投放遇到临时错误或软退件的任何电子邮件的时间段。
+的 **重试时段** 是重试投放遇到临时错误或软退件的任何电子邮件的时间范围。
 
-默认情况下，自将消息添加到电子邮件队列之后，将对&#x200B;**3.5天**（或&#x200B;**84小时**）执行重试。
+默认情况下，将对 **3.5天** (或 **84小时**)。
 
-但是，为确保不再需要重试尝试，您可以在创建或编辑应用于电子邮件渠道的[消息预设](message-presets.md)时根据需要更改此设置。
+但是，为确保不再需要重试尝试，您可以在创建或编辑 [消息预设](message-presets.md) 应用到电子邮件渠道。
 
 例如，对于与密码重置相关并包含仅有效一天的链接的事务型电子邮件，您可以将重试期限设置为24小时。 同样，对于午夜销售，您可能需要定义6小时的重试期限。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 >
 >重试周期不能超过84小时。 营销电子邮件的最短重试期限为6小时，事务电子邮件的最短重试期限为10分钟。
 
-了解在[此部分](message-presets.md#create-message-preset)中创建消息预设时如何调整电子邮件重试参数。
+了解如何在中创建消息预设时调整电子邮件重试参数 [此部分](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
 

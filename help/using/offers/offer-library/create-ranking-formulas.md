@@ -17,33 +17,33 @@ ht-degree: 1%
 
 ## 关于排名公式 {#about-ranking-formulas}
 
-**排** 名公式允许您定义规则，以确定应首先为给定版面显示哪个选件，而不考虑选件的优先级得分。
+**排名公式** 允许您定义规则，以确定应首先为给定版面显示哪个选件，而不是考虑选件的优先级得分。
 
-排名公式以&#x200B;**PQL语法**&#x200B;表示，并且可以利用配置文件属性、上下文数据和选件属性。 有关如何使用PQL语法的更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html)。
+排名公式以表示 **PQL语法** 和可以利用配置文件属性、上下文数据和选件属性。 有关如何使用PQL语法的更多信息，请参阅 [专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-创建排名公式后，您可以将其分配给决策中的版面（以前称为选件活动）。 有关更多信息，请参阅[在决策](../offer-activities/configure-offer-selection.md)中配置选件选择。
+创建排名公式后，您可以将其分配给决策中的版面（以前称为选件活动）。 有关此内容的更多信息，请参阅 [在决策中配置选件选择](../offer-activities/configure-offer-selection.md).
 
 ## 创建排名公式 {#create-ranking-formula}
 
 要创建排名公式，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL Components]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Rankings]**&#x200B;选项卡。 将显示先前创建的排名列表。
+1. 访问 **[!UICONTROL Components]** 菜单，然后选择 **[!UICONTROL Rankings]** 选项卡。 将显示先前创建的排名列表。
 
    ![](../../assets/rankings-list.png)
 
-1. 单击&#x200B;**[!UICONTROL Create ranking]**&#x200B;以创建新的排名公式。
+1. 单击 **[!UICONTROL Create ranking]** 创建新排名公式。
 
    ![](../../assets/ranking-create-formula.png)
 
 1. 指定排名公式名称、说明和公式。
 
-   在本例中，如果实际天气炎热，我们希望使用“hot”属性提高所有选件的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。
+   在本例中，如果实际天气炎热，我们希望使用“hot”属性提高所有选件的优先级。 为此， **contextData.weather=hot** 在决策呼叫中被传递。
 
    ![](../../assets/ranking-syntax.png)
 
 1. 单击 **[!UICONTROL Save]**。您的排名公式即已创建，您可以从列表中选择它以获取详细信息，并对其进行编辑或删除。
 
-   现在，它已准备好用于对符合条件的选件进行版面排名的决策（请参阅[在决策](../offer-activities/configure-offer-selection.md)中配置选件选择）。
+   现在，它可用于对符合条件的选件进行版面排名的决策(请参阅 [在决策中配置选件选择](../offer-activities/configure-offer-selection.md))。
 
    ![](../../assets/ranking-formula-created.png)
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### 基于上下文数据提升具有特定选件属性的选件
 
-根据决策调用中传递的上下文数据提升特定选件。 例如，如果在决策调用中传递了`contextData.weather=hot`，则必须提高具有`attribute=hot`的所有选件的优先级。
+根据决策调用中传递的上下文数据提升特定选件。 例如，如果 `contextData.weather=hot` 在决策调用中传递，这是所有选件的优先级 `attribute=hot` 必须增援。
 
 **排名公式：**
 
@@ -139,9 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### 根据客户购买所提供产品的倾向来提升优惠
 
-如果我们有2个实例，其中&#x200B;*CustomerAI*&#x200B;计算购买航空公司&#x200B;*travelInsurance*&#x200B;和&#x200B;*extraBargage*&#x200B;的倾向，那么如果客户购买该产品的倾向得分高于90，则以下排名公式将提高保险或行李特有选件的优先级（增加50分）。
+如果我们有2个实例 *CustomerAI* 计算购买倾向 *travelInsurance* 和 *extraBarge* 对于航空公司，如果客户购买该产品的倾向得分高于90分，则以下排名公式将提高特定于保险或行李的优惠优先级（增加50分）。
 
-但是，由于每个&#x200B;*CustomerAI*&#x200B;实例在统一配置文件架构内创建其自身的对象，因此无法根据选件倾向类型动态选择分数。 因此，您必须对`if`语句进行链接，以首先检查选件倾向类型，然后从相应的用户档案字段中提取分数。
+但是，由于 *CustomerAI* 实例在统一的用户档案架构中创建其自身的对象，因此无法根据选件倾向类型动态选择分数。 所以你得把 `if` 语句，以首先检查选件倾向类型，然后从相应的用户档案字段中提取分数。
 
 **排名公式：**
 
@@ -153,7 +153,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-一个更好的解决方案是将分数存储在配置文件的数组中。 以下示例将仅使用简单的排名公式，跨各种不同的倾向得分工作。 您的期望是您有一个包含分数数组的用户档案架构。 在本例中，实例租户为&#x200B;*_salesvelocity*，并且配置文件架构包含以下内容：
+一个更好的解决方案是将分数存储在配置文件的数组中。 以下示例将仅使用简单的排名公式，跨各种不同的倾向得分工作。 您的期望是您有一个包含分数数组的用户档案架构。 在本例中，实例租户为 *_salesvelocity* 并且用户档案架构包含以下内容：
 
 ![](../../assets/ranking-example-schema.png)
 
@@ -177,11 +177,11 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 }
 ```
 
-选件将包含与得分中的类别匹配的&#x200B;*deptiveType*&#x200B;属性：
+选件将包含 *prodeativeType* 与得分中的类别匹配：
 
 ![](../../assets/ranking-example-propensityType.png)
 
-然后，您的排名公式可以将每个选件的优先级设置为等于该&#x200B;*prediveType*&#x200B;的客户&#x200B;*prediveScore*。 如果未找到分数，请使用选件上设置的静态优先级：
+然后，您的排名公式可以将每个选件的优先级设置为等于客户 *prodiveScore* 为 *prodeativeType*. 如果未找到分数，请使用选件上设置的静态优先级：
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

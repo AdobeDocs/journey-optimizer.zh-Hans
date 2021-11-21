@@ -1,14 +1,15 @@
 ---
 title: Adobe Campaign v7/v8 操作
 description: 了解Adobe Campaign v7/v8操作
-feature: 操作
-topic: 管理
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 7%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
@@ -18,12 +19,12 @@ ht-degree: 7%
 
 Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设置的。 联系Adobe。
 
-要使此功能正常工作，您需要配置专用操作。 请参阅此[部分](../action/acc-action.md)。
+要使此功能正常工作，您需要配置专用操作。 请参阅 [部分](../action/acc-action.md).
 
-此[部分](../building-journeys/campaign-classic-use-case.md)中提供了端到端用例。
+本节介绍了端到端用例 [部分](../building-journeys/campaign-classic-use-case.md).
 
-1. 从事件开始设计您的历程。 请参阅此[部分](../building-journeys/journey.md)。
-1. 在面板的&#x200B;**Action**&#x200B;部分中，选择Campaign操作并将其添加到历程中。
-1. 在&#x200B;**操作参数**&#x200B;中，将显示消息有效负荷中预期的所有字段。 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 这类似于自定义操作。 请参阅此[部分](../building-journeys/using-custom-actions.md)。
+1. 从事件开始设计您的历程。 请参阅 [部分](../building-journeys/journey.md).
+1. 在 **操作** 选择Campaign操作并将其添加到历程中。
+1. 在 **操作参数**，则会显示消息有效负载中预期的所有字段。 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 这类似于自定义操作。 请参阅 [部分](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

@@ -1,17 +1,17 @@
 ---
 title: 使用 Campaign v7/v8 发送消息
 description: 了解如何使用Campaign v7/v8发送消息
-feature: 操作
-topic: 管理
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 5%
+source-wordcount: '397'
+ht-degree: 4%
 
 ---
-
 
 # 使用 Campaign v7/v8 发送消息 {#campaign-classic-use-case}
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 要了解有关Campaign集成的更多信息，请参阅以下页面：
 
 * [创建Campaign操作](../action/acc-action.md)
-* [在历程中使用操作](../building-journeys/using-adobe-campaign-classic.md)。
+* [在历程中使用操作](../building-journeys/using-adobe-campaign-classic.md).
 
 **Adobe Campaign**
 
@@ -30,13 +30,13 @@ ht-degree: 5%
 
 1. 登录到Campaign控制实例。
 
-1. 在&#x200B;**Administration** > **Platform** > **Enumerations**&#x200B;下，选择&#x200B;**Event type**(eventType)枚举。 创建新事件类型（在我们的示例中为“journey-event”）。 以后编写JSON文件时，必须使用事件类型的内部名称。
+1. 在 **管理** > **平台** > **枚举**，选择 **事件类型** (eventType)枚举。 创建新事件类型（在我们的示例中为“journey-event”）。 以后编写JSON文件时，必须使用事件类型的内部名称。
 
    ![](../assets/accintegration-uc-1.png)
 
 1. 断开连接并重新连接到实例，以便创建生效。
 
-1. 在&#x200B;**消息中心** > **事务型消息模板**&#x200B;下，根据之前创建的事件类型创建新的电子邮件模板。
+1. 在 **消息中心** > **事务型消息模板**，则根据之前创建的事件类型创建新电子邮件模板。
 
    ![](../assets/accintegration-uc-2.png)
 
@@ -72,15 +72,15 @@ ht-degree: 5%
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 然后，您需要在Journey Optimizer中创建与营销活动模板对应的操作。 在&#x200B;**操作类型**&#x200B;下拉列表中，选择&#x200B;**Adobe Campaign Classic**。
+1. 然后，您需要在Journey Optimizer中创建与营销活动模板对应的操作。 在 **操作类型** 下拉列表，选择 **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
-1. 单击&#x200B;**有效负载字段**&#x200B;并粘贴之前创建的JSON。
+1. 单击 **有效负荷字段** 并粘贴之前创建的JSON。
 
    ![](../assets/accintegration-uc-7.png)
 
-1. 对于电子邮件地址和两个个性化字段，将&#x200B;**Constant**&#x200B;更改为&#x200B;**Variable**。
+1. 对于电子邮件地址和两个个性化字段，请更改 **常量** to **变量**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 
    ![](../assets/accintegration-uc-10.png)
 
-1. 添加&#x200B;**结束**&#x200B;活动并测试您的历程。
+1. 添加 **结束** 活动并测试您的历程。
 
    ![](../assets/accintegration-uc-11.png)
 

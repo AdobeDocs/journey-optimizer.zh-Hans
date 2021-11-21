@@ -1,20 +1,21 @@
 ---
 title: 快速入门
 description: 了解如何开始使用选件库API来使用决策管理引擎执行关键操作。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 773bee50-849f-4b07-9423-67de5279ad28
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '611'
 ht-degree: 6%
 
 ---
 
 # 决策管理API开发人员指南
 
-本开发人员指南提供了帮助您开始使用[!DNL Offer Library] API的步骤。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
+本开发人员指南提供了帮助您开始使用 [!DNL Offer Library] API。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
 
 ➡️ [在视频中发现此功能](#video)
 
@@ -22,18 +23,18 @@ ht-degree: 6%
 
 本指南要求您对Adobe Experience Platform的以下组件有一定的了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}:用于组织客户体验数 [!DNL Experience Platform] 据的标准化框架。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}:标准化框架， [!DNL Experience Platform] 组织客户体验数据。
    * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target=&quot;_blank&quot;}:了解XDM模式的基本构建块。
-* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):通常说明用于Experience Decisioning的概念和组件，特别是Offer decisioning。说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}:PQL是一种用于通过XDM实例编写表达式的强大语言。PQL用于定义决策规则。
+* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):通常说明用于Experience Decisioning的概念和组件，特别是Offer decisioning。 说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}:PQL是一种用于通过XDM实例编写表达式的强大语言。 PQL用于定义决策规则。
 
 ## 读取示例API调用
 
-本指南提供了示例API调用，以演示如何设置请求的格式。 这包括路径、所需标头以及格式正确的请求负载。 还提供了API响应中返回的示例JSON。 有关示例API调用文档中使用的惯例的信息，请参阅[!DNL Experience Platform]疑难解答指南中的[如何读取示例API调用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;}部分。
+本指南提供了示例API调用，以演示如何设置请求的格式。 这包括路径、所需标头以及格式正确的请求负载。 还提供了API响应中返回的示例JSON。 有关示例API调用文档中使用的约定的信息，请参阅 [如何阅读示例API调用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;}(位于 [!DNL Experience Platform] 疑难解答指南。
 
 ## 收集所需标题的值
 
-要调用[!DNL Platform] API，必须先完成[身份验证教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}。 完成身份验证教程可为所有[!DNL Experience Platform] API调用中每个所需标头的值，如下所示：
+为了调用 [!DNL Platform] API，您必须先完成 [身份验证教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}。 完成身份验证教程将为所有中每个所需标头提供值 [!DNL Experience Platform] API调用，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -47,9 +48,9 @@ ht-degree: 6%
 
 容器是一种隔离机制，可以分开不同的关注。 容器ID是所有存储库API的第一个路径元素。 所有决策对象都驻留在容器中。
 
-管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受[Adobe Admin Console](https://adminconsole.adobe.com/)的支持。 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已获得权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
+管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已获得权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
 
-给定管理员权限，您可以通过[Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}向用户授予或撤消权限。 有关更多信息，请参阅[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+您可以通过 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 有关更多信息，请参阅 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 ### 列出用户和集成可访问的容器
 
@@ -78,7 +79,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回有关决策管理容器的信息。 这包括`instanceId`属性，其值是您的容器ID。
+成功的响应会返回有关决策管理容器的信息。 这包括 `instanceId` 属性，其值是容器ID。
 
 ```json
 {
@@ -125,7 +126,7 @@ curl -X GET \
 
 ## 后续步骤
 
-本文档介绍了对[!DNL Offer Library] API进行调用（包括获取容器ID）所需的先决知识。 您现在可以继续阅读本开发人员指南中提供的示例调用并按照其说明进行操作。
+本文档介绍了调用 [!DNL Offer Library] API，包括获取容器ID。 您现在可以继续阅读本开发人员指南中提供的示例调用并按照其说明进行操作。
 
 ## 教程视频 {#video}
 
@@ -133,6 +134,6 @@ curl -X GET \
 
 >[!NOTE]
 >
->此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指导。
+>此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)

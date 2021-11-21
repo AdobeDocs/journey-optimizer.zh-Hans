@@ -1,20 +1,21 @@
 ---
 title: 删除后备优惠
 description: 如果客户不符合其他选件的资格，则会向客户发送备用选件
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
 # 删除后备优惠
 
-有时可能需要删除(DELETE)备用选件。 只能删除您在租户容器中创建的备用选件。 这是通过使用您要删除的备用选件的$id对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)备用选件。 只能删除您在租户容器中创建的备用选件。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
 
 **API格式**
 

@@ -1,13 +1,14 @@
 ---
 title: 区段鉴别事件
 description: 了解客户细分资格事件
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 71%
 
 ---
@@ -49,11 +50,11 @@ ht-degree: 71%
 
    ![](../assets/segment-copy.png)
 
-1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;字段中，选择是侦听客户细分入口和/或出口。
+1. 在 **[!UICONTROL Behaviour]** 字段中，选择要侦听客户细分入口和/或出口。
 
    >[!NOTE]
    >
-   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 与 **已实现** 和 **已退出** 区段参与状态。Adobe Experience Platform 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
 
@@ -89,18 +90,18 @@ ht-degree: 71%
 
 在对流式处理客户细分使用客户细分资格时，由于持续评估客户细分，因此入口/出口出现大量峰值的风险较小。如果客户细分定义导致大量客户同时获得资格，则仍然可能出现峰值。
 
-有关流式分段的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+有关流式分段的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
-以下是有助于避免使历程中利用的系统（数据源、自定义操作、**消息**&#x200B;活动）过载的一些最佳实践。
+以下是有助于避免使历程中利用的系统(数据源、自定义操作、 **消息** 活动)。
 
 在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动中，请勿在创建批处理客户细分后立即对其进行使用。它将避免第一个计算峰值。请注意，如果您要使用从未计算的客户细分，则历程画布中将显示黄色警告。
 
 ![](../assets/segment-error.png)
 
-为历程中使用的数据源和操作设置上限规则，以避免其过载。 在[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}中了解更多信息。 请注意，上限规则不带重试。如果需要重试，则必须通过选中条件或操作中的&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**&#x200B;框在历程中使用替代路径。
+为历程中使用的数据源和操作设置上限规则，以避免其过载。 在 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 请注意，上限规则不带重试。如果需要重试，则必须通过选中条件或操作中的&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**&#x200B;框在历程中使用替代路径。
 
-在生产历程中使用客户细分之前，请始终首先评估每天符合此客户细分条件的个人数量。要执行此操作，您可以检查&#x200B;**[!UICONTROL Segments]**&#x200B;菜单，打开区段，然后查看&#x200B;**[!UICONTROL Profiles over time]**&#x200B;图。
+在生产历程中使用客户细分之前，请始终首先评估每天符合此客户细分条件的个人数量。为此，您可以检查 **[!UICONTROL Segments]** 菜单，打开区段，然后查看 **[!UICONTROL Profiles over time]** 图表。
 
 ![](../assets/segment-overload.png)

@@ -1,14 +1,15 @@
 ---
 title: 关于Adobe Analytics数据
 description: 了解如何利用Adobe Analytics数据
-feature: 事件
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 1%
 
 要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
-1. 在Adobe Experience Platform中，选择&#x200B;**[!UICONTROL Sources]**，然后在Adobe Analytics部分中选择&#x200B;**[!UICONTROL Add data]**。 此时会显示可用的Adobe Analytics报表包列表。
+1. 在Adobe Experience Platform中，选择 **[!UICONTROL Sources]** then **[!UICONTROL Add data]** 在Adobe Analytics部分。 此时会显示可用的Adobe Analytics报表包列表。
 
-1. 选择要启用的报表包，单击&#x200B;**[!UICONTROL Next]**，然后单击&#x200B;**[!UICONTROL Finish]**。
+1. 选择要启用的报表包，单击 **[!UICONTROL Next]** 单击 **[!UICONTROL Finish]**.
 
 1. 与您的测试版计划联系人共享源数据ID。
 
@@ -32,4 +33,4 @@ ht-degree: 1%
 
 ![](../assets/jo-event9.png)
 
-在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;}和[tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}中了解有关Adobe Analytics源连接器的更多信息。
+了解有关Adobe Analytics源连接器的更多信息，请参阅  [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}。

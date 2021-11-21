@@ -19,11 +19,11 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->如果您在访问选件库或其某些功能时遇到问题，请咨询已向您授予所需权限的管理员用户。 请参阅[授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management)。
+>如果您在访问选件库或其某些功能时遇到问题，请咨询已向您授予所需权限的管理员用户。 请参阅 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 使用 **[!UICONTROL Offers]** 菜单管理个性化的后备优惠，将它们组织到收藏集中，然后通过创建决策来发送这些后备优惠：
 
-* **[!UICONTROL Overview]**:新 [!DNL Offer Decisioning]的？按照屏幕上的步骤，开始设置版面、选件和收藏集。 如果已经熟悉[!DNL Offer Decisioning]，请获取有关最新选件、收藏集和决策的概述。 请参阅[概述](#overview)。
+* **[!UICONTROL Overview]**:新 [!DNL Offer Decisioning]? 按照屏幕上的步骤，开始设置版面、选件和收藏集。 当已经熟悉 [!DNL Offer Decisioning]，获取有关最新选件、收藏集和决策的概述。 请参阅[概述](#overview)。
 
 * **[!UICONTROL Offers]**：访问您的个性化的后备优惠或创建新后备优惠。请参阅[创建优惠](../offer-library/creating-personalized-offers.md)和[创建后备优惠](../offer-library/creating-fallback-offers.md)。
 
@@ -47,7 +47,7 @@ ht-degree: 68%
 
 ## 概述 {#overview}
 
-当您是[!DNL Offer Decisioning]的新用户时， **[!UICONTROL Overview]**&#x200B;选项卡会引导您完成开始构建第一个选件决策所需的主要步骤。
+当您是 [!DNL Offer Decisioning], **[!UICONTROL Overview]** 选项卡可引导您完成开始构建首个选件决策所需的主要步骤。
 
 ![](../../assets/overview_onboarding.png)
 
@@ -59,13 +59,13 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->创建选件并在决策中使用这些选件的主要步骤，请参见[此部分](../offer-library/key-steps.md)。
+>创建选件并在决策中使用这些选件的主要步骤，请参见 [此部分](../offer-library/key-steps.md).
 
-如果您更熟悉[!DNL Offer Decisioning]并且已经创建了至少一个选件决策，则&#x200B;**[!UICONTROL Overview]**&#x200B;选项卡会显示您最近的选件、收藏集和决策。
+当您更熟悉 [!DNL Offer Decisioning] 并且您已经创建了至少一个选件决策， **[!UICONTROL Overview]** 选项卡会显示您最近的选件、收藏集和决策。
 
 单击选件或决定直接访问选定项目的详细信息。
 
-单击&#x200B;**[!UICONTROL View all]**&#x200B;按钮以访问选件、收藏集或决策列表。
+单击 **[!UICONTROL View all]** 按钮以访问选件、收藏集或决策列表。
 
 ![](../../assets/overview_view-all.png)
 

@@ -147,4 +147,4 @@ ht-degree: 2%
 
 如果体验事件中未包含目标数据集，则会自动创建和命名这些数据集。 因此，我们今天会看到“Automatically created for voyager”（为旅行者自动创建的数据集）。
 
-源的命名驱动着自动创建。 如果我们有多个事件，则应将其连接并设置为“Journey Orchestration测试事件 — 架构名称”。 这将自动转为“自动为Journey Orchestration测试事件生成的数据集 — 架构名称”。
+源的命名驱动着自动创建。 如果我们有多个事件，我们应该将其连接，并将其设置为“Journey Orchestration测试事件 — 架构名称”。 这将自动转为“自动为Journey Orchestration测试事件生成的数据集 — 架构名称”。

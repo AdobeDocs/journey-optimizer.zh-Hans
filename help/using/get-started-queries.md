@@ -1,28 +1,29 @@
 ---
 title: 查询入门Journey Optimizer
 description: 了解如何在Adobe Journey Optimizer中创建查询
-feature: 架构
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+exl-id: 6f32f068-429a-4039-bb76-d190069e7402
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 7%
+source-wordcount: '122'
+ht-degree: 12%
 
 ---
 
 # 查询入门 {#queries-gs}
 
-查询编辑器是Adobe Experience Platform查询服务提供的一款交互式工具，它允许您在[!DNL Adobe Journey Optimizer]用户界面内编写、验证和运行客户体验数据查询。
+查询编辑器是Adobe Experience Platform查询服务提供的一款交互式工具，它允许您在中编写、验证和运行客户体验数据查询 [!DNL Adobe Journey Optimizer] 用户界面。
 
-查询编辑器支持开发用于分析和数据探索的查询，并且允许您为开发目的运行交互式查询以及用于填充[数据集](get-started-datasets.md)的非交互式查询。
+查询编辑器支持开发用于分析和数据分析的查询，并且允许您运行交互式查询以用于开发目的，以及用于填充的非交互式查询 [数据集](get-started-datasets.md).
 
 
 ![](assets/queries-home.png)
 
-了解如何在[本文档](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}中使用查询编辑器。
+了解如何在中使用查询编辑器 [本文档](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}。
 
 **另请参阅**
 
 * [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target=&quot;_blank&quot;}
-* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-CN){target=&quot;_blank&quot;}

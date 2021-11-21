@@ -58,7 +58,7 @@ ht-degree: 2%
 
 * **Adobe Experience Platform实时客户资料**  通过整合来自多个渠道（包括web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。 利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [进一步了解Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-* **[!DNL Adobe Journey Optimizer]** :当您的移动设备应用程序与上述组件的集成到位且客户配置文件位于Adobe Experience Platform中后，您便可以在中创作和编排推送通知 [!DNL Adobe Journey Optimizer] 以与用户互动。
+* **[!DNL Adobe Journey Optimizer]** :当您的移动设备应用程序与上述组件的集成到位且客户配置文件位于Adobe Experience Platform中后，您便可以在 [!DNL Adobe Journey Optimizer] 以与用户互动。
 
 ## 推送技术设置和从业人员工作流
 

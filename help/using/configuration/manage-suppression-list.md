@@ -1,6 +1,6 @@
 ---
 title: 管理抑制列表
-description: '了解如何访问和管理Journey Optimizer抑制列表 '
+description: 了解如何访问和管理Journey Optimizer抑制列表
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -15,31 +15,31 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
 
 ---
 
-
 # 管理抑制列表 {#manage-suppression-list}
 
-通过[!DNL Journey Optimizer]，您可以监控历程中自动排除的所有电子邮件地址，例如：
+使用 [!DNL Journey Optimizer]，则您可以监控在历程中自动排除的所有电子邮件地址，例如：
 
 * 无效的地址（硬退回）。
 * 始终软退回的地址，如果您继续将这些地址包含在投放中，则这些地址可能会对您的电子邮件声誉造成不利影响。
 * 针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。
 
-此类电子邮件地址会自动收集到Journey Optimizer **抑制列表**&#x200B;中。 详细了解[此部分](../suppression-list.md)中的抑制列表概念和用法。
+此类电子邮件地址会自动收集到Journey Optimizer中 **抑制列表**. 了解有关抑制列表概念和在 [此部分](../suppression-list.md).
 
 ## 访问禁止列表 {#access-suppression-list}
 
-要访问排除的电子邮件地址的详细列表，请转到&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择&#x200B;**[!UICONTROL Suppression list]**。
+要访问排除的电子邮件地址的详细列表，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择 **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
 >
->查看、导出和管理隐藏列表的权限限制为[历程管理员](../administration/ootb-product-profiles.md#journey-administrator)。 了解有关在[此部分](../administration/permissions-overview.md)中管理[!DNL Journey Optimizer]用户的访问权限的更多信息。
+>查看、导出和管理抑制列表的权限限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在 [此部分](../administration/permissions-overview.md).
 
 <!--![](../assets/suppression-list-link.png)
 
@@ -53,33 +53,33 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
 ![](../assets/suppression-list-filters.png)
 
-您可以对&#x200B;**[!UICONTROL Suppression category]**、**[!UICONTROL Address type]**&#x200B;或&#x200B;**[!UICONTROL Reason]**&#x200B;进行筛选。 为每个标准选择您选择的选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
+您可以在 **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**&#x200B;或 **[!UICONTROL Reason]**. 为每个标准选择您选择的选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
 
 ![](../assets/suppression-list-filtering-example.png)
 
-如果您手动添加电子邮件地址或域名时出错，**[!UICONTROL Delete]**&#x200B;按钮将允许您删除该条目。
+如果您手动添加电子邮件地址或域名时出错，则 **[!UICONTROL Delete]** 按钮来删除该条目。
 
 >[!CAUTION]
 >
->切勿使用&#x200B;**[!UICONTROL Delete]**&#x200B;按钮删除禁止显示的电子邮件地址或域。
+>请勿使用 **[!UICONTROL Delete]** 按钮以删除禁止的电子邮件地址或域。
 
 ![](../assets/suppression-list-delete.png)
 
-从禁止列表中删除某个电子邮件地址或域意味着您将再次开始向该地址或域发送邮件。 因此，这可能会对您的投放能力和IP信誉造成严重影响，最终可能会导致您的IP地址或发送域被阻止。 进一步了解在[此部分](../suppression-list.md)中维护抑制列表的重要性。
+从禁止列表中删除某个电子邮件地址或域意味着您将再次开始向该地址或域发送邮件。 因此，这可能会对您的投放能力和IP信誉造成严重影响，最终可能会导致您的IP地址或发送域被阻止。 进一步了解在 [此部分](../suppression-list.md).
 
 >[!NOTE]
 >
 >考虑删除任何电子邮件地址或域名时，请格外小心。 如有疑问，请联系可投放性专家。
 
-从&#x200B;**[!UICONTROL Suppression list]**&#x200B;视图中，您还可以编辑禁止规则。 [了解详情](retries.md)
+从 **[!UICONTROL Suppression list]** 视图，您还可以编辑隐藏规则。 [了解详情](retries.md)
 
-要将隐藏列表导出为CSV文件，请选择&#x200B;**[!UICONTROL Download CSV]**&#x200B;按钮。
+要将隐藏列表导出为CSV文件，请选择 **[!UICONTROL Download CSV]** 按钮。
 
 ![](../assets/suppression-list-download-csv.png)
 
 ## 抑制类别和原因 {#suppression-categories-and-reasons}
 
-当邮件无法发送到某个电子邮件地址时， [!DNL Journey Optimizer]会确定投放失败的原因，并将其与&#x200B;**[!UICONTROL Suppression category]**&#x200B;相关联。
+当邮件无法发送到电子邮件地址时， [!DNL Journey Optimizer] 确定投放失败的原因，并将其与 **[!UICONTROL Suppression category]**.
 
 抑制类别如下：
 
@@ -87,9 +87,9 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
    >[!NOTE]
    >
-   >如果错误是垃圾邮件投诉的结果，它也属于&#x200B;**Hard**&#x200B;类别。 发出投诉的收件人的电子邮件地址会立即发送到制止名单。
+   >当错误是垃圾邮件投诉的结果时，也会出现 **硬** 类别。 发出投诉的收件人的电子邮件地址会立即发送到制止名单。
 
-* **软**:当错误计数达到限制阈值时，软错误会向抑制列表发送地址。[了解有关重试的更多信息](retries.md)
+* **柔和**:当错误计数达到限制阈值时，软错误会向抑制列表发送地址。 [了解有关重试的更多信息](retries.md)
 
    <!--
     **Ignored**:
@@ -97,13 +97,13 @@ You can also display the suppression list content using the **[!UICONTROL View s
     * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
     -->
 
-* **手动**:您还可以手动将电子邮件地址或域添加到禁止列表。[了解详情](#add-addresses-and-domains)
+* **手动**:您还可以手动将电子邮件地址或域添加到禁止列表。 [了解详情](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->在[投放失败类型](../suppression-list.md#delivery-failures)部分中了解有关软退回和硬退回的更多信息。
+>了解有关 [投放失败类型](../suppression-list.md#delivery-failures) 中。
 
-对于列出的每个电子邮件地址，您还可以检查&#x200B;**[!UICONTROL Type]**（电子邮件或域名）、**[!UICONTROL Reason]**&#x200B;以排除它、添加者以及添加到禁止列表的日期/时间。
+对于列出的每个电子邮件地址，您还可以检查 **[!UICONTROL Type]** （电子邮件或域）、 **[!UICONTROL Reason]** ，以及将其添加到禁止列表的日期/时间。
 
 ![](../assets/suppression-list.png)
 
@@ -121,7 +121,7 @@ You can also display the suppression list content using the **[!UICONTROL View s
 
 >[!NOTE]
 >
->未订阅用户未收到来自[!DNL Journey Optimizer]的电子邮件，因此其电子邮件地址无法发送到抑制列表。 他们的选择在Experience Platform级别处理。 [了解有关选择退出的更多信息](../consent.md)
+>未订阅用户不会接收来自 [!DNL Journey Optimizer]，因此其电子邮件地址无法发送到抑制列表。 他们的选择在Experience Platform级别处理。 [了解有关选择退出的更多信息](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -147,11 +147,11 @@ Removed from the table provided by SparkPost/Momentum:
 
 当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
 
-但是，您也可以手动填充[!DNL Journey Optimizer]抑制列表，以从发送中排除特定的电子邮件地址和/或域。
+但是，您也可以手动填充 [!DNL Journey Optimizer] 用于从发送中排除特定电子邮件地址和/或域的禁止列表。
 
-您可以通过CSV文件上传，在批量模式下逐个添加电子邮件地址或域[，或者添加[。](#add-one-address-or-domain)](#upload-csv-file)
+您可以添加电子邮件地址或域 [一次一个](#add-one-address-or-domain)或 [在批量模式下](#upload-csv-file) 通过CSV文件上传。
 
-要执行此操作，请选择&#x200B;**[!UICONTROL Add email or domain]**&#x200B;按钮，然后按照以下方法之一操作。
+为此，请选择 **[!UICONTROL Add email or domain]** 按钮，然后按照以下方法之一操作。
 
 ![](../assets/suppression-list-add-email.png)
 
@@ -161,7 +161,7 @@ Removed from the table provided by SparkPost/Momentum:
 
    ![](../assets/suppression-list-add-email-address.png)
 
-1. 选择地址类型：**[!UICONTROL Email address]**&#x200B;或&#x200B;**[!UICONTROL Domain address]**。
+1. 选择地址类型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**.
 
 1. 输入要从发送中排除的电子邮件地址或域。
 
@@ -186,7 +186,7 @@ Removed from the table provided by SparkPost/Momentum:
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   您也可以从&#x200B;**[!UICONTROL Suppression list]**&#x200B;主视图下载此模板。
+   您也可以从 **[!UICONTROL Suppression list]** 主视图。
 
    >[!CAUTION]
    >
@@ -196,7 +196,7 @@ Removed from the table provided by SparkPost/Momentum:
 
 1. 在CSV模板中填写要添加到禁止列表的电子邮件地址和/或域。
 
-1. 完成后，拖放CSV文件，然后单击&#x200B;**[!UICONTROL Upload file]**。
+1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL Upload file]**.
 
    ![](../assets/suppression-list-upload-file-button.png)
 
@@ -206,7 +206,7 @@ Removed from the table provided by SparkPost/Momentum:
 
 您可以检查上传的最新CSV文件的列表。
 
-为此，请在&#x200B;**[!UICONTROL Suppression list]**&#x200B;视图中单击&#x200B;**[!UICONTROL Recent uploads]**&#x200B;按钮。
+为此，请从 **[!UICONTROL Suppression list]** 视图，单击 **[!UICONTROL Recent uploads]** 按钮。
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
@@ -227,6 +227,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

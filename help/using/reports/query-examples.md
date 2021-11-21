@@ -67,7 +67,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-结果应大于0。 此查询返回用户档案进入历程的确切次数。
+结果应大于0。 此查询会返回用户档案进入历程的确切次数。
 
 ### 查找用户档案是否发送了特定消息
 

@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ![](assets/message-execution-tab-filters.png)
 
-的 <!--**[!UICONTROL Quick action]**-->第二列可打开相应的 [消息](create-message.md) 和 [实时报表](reports/live-report.md) 如果您在 **[!UICONTROL Live view]**，或 [全局报告](reports/global-report.md) 如果您在 **[!UICONTROL Global view]**.
+的 <!--**[!UICONTROL Quick action]**-->第二列可以打开相应的 [消息](create-message.md) 和 [实时报表](reports/live-report.md) 如果您在 **[!UICONTROL Live view]**，或 [全局报告](reports/global-report.md) 如果您在 **[!UICONTROL Global view]**.
 
 ![](assets/message-execution-open-live-report.png)
 

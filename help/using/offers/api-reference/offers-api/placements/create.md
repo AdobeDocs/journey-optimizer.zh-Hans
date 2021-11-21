@@ -1,24 +1,25 @@
 ---
 title: 创建投放位置
 description: 版面是用于显示选件的容器。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 12%
+source-wordcount: '131'
+ht-degree: 10%
 
 ---
 
 # 创建投放位置
 
-在提供容器ID的同时，您可以通过向[!DNL Offer Library] API发出POST请求来创建版面。
+您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
 ## 接受和内容类型标头
 
-下表显示了在请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
+下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -57,7 +58,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回新创建版面的详细信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除版面。 您可以在稍后的教程中使用您的唯一位置`@id`来创建决策、决策规则和备用选件。
+成功的响应会返回新创建版面的详细信息，包括其唯一实例ID和版面 `@id`. 您可以在后续步骤中使用实例ID来更新或删除版面。 您可以使用独特版面 `@id` 在后面的教程中，创建决策、决策规则和备用选件。
 
 ```json
 {

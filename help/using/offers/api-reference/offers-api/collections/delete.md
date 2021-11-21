@@ -1,20 +1,21 @@
 ---
 title: 删除收藏集
 description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 8%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
 # 删除收藏集
 
-有时可能需要删除(DELETE)集合。 只能删除您在租户容器中创建的集合。 这是通过使用您要删除的集合的$id对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)集合。 只能删除您在租户容器中创建的集合。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的集合的$id的API。
 
 **API格式**
 

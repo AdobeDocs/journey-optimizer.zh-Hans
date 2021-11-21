@@ -1,29 +1,30 @@
 ---
 title: 将事件发送到历程的其他步骤
 description: 了解将事件发送到历程的其他步骤
-feature: 事件
-topic: 管理
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '294'
+ht-degree: 5%
 
 ---
 
 # 用于发送事件的其他步骤 {#concept_xrz_n1q_y2b}
 
-要配置要发送到&#x200B;**[!UICONTROL Streaming Ingestion APIs]**&#x200B;并在[!DNL Journey Optimizer]中使用的事件，您需要执行以下步骤：
+配置要发送到的事件 **[!UICONTROL Streaming Ingestion APIs]** 和 [!DNL Journey Optimizer]，则需要执行以下步骤：
 
-1. 从Adobe Experience Platform API获取入口URL。 在[流摄取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}中了解更多信息。
-1. 从&#x200B;**[!UICONTROL Event]**&#x200B;菜单的有效负荷预览复制有效负荷。 请参阅[此页面](../event/about-creating.md#define-the-payload-fields)以了解详情。
+1. 从Adobe Experience Platform API获取入口URL。 在 [流摄取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+1. 从 **[!UICONTROL Event]** 菜单。 请参阅[此页面](../event/about-creating.md#define-the-payload-fields)以了解详情。
 
 然后，您需要配置数据系统，以使用您复制的有效负载将事件推送到流摄取API:
 
 1. 设置对流摄取API URL的POSTAPI调用（称为入口）。
-1. 使用API调用主体（“数据部分”）中从[!DNL Journey Optimizer]复制的有效负载来访问流摄取API。 请参阅下面的示例
-1. 确定在何处获取有效负载中存在的所有变量。 示例：如果事件应传达地址，则粘贴的有效负载将显示“地址”：&quot;string&quot;。 “string”应被自动填充正确值（要向其发送消息的人员的电子邮件）的变量替换。 请注意，在有效负载预览的&#x200B;**[!UICONTROL Header]**&#x200B;部分，我们会自动填充许多值，这些值将有助于您的工作。
+1. 使用您复制的有效负荷 [!DNL Journey Optimizer] 在对流摄取API的API调用的正文（“数据部分”）中。 请参阅下面的示例
+1. 确定在何处获取有效负载中存在的所有变量。 示例：如果事件应传达地址，则粘贴的有效负载将显示“地址”：&quot;string&quot;。 “string”应被自动填充正确值（要向其发送消息的人员的电子邮件）的变量替换。 请注意，在有效负荷预览中， **[!UICONTROL Header]** 部分，我们会自动填充许多值，以便您的工作。
 1. 选择“application/json”作为正文类型。
 1. 在标题中使用键“x-gw-ims-org-id”传递您的IMS组织ID。 对于值，请使用您的IMS组织ID(&quot;XXX@AdobeOrg&quot;)。
 
@@ -84,6 +85,6 @@ ht-degree: 4%
 }
 ```
 
-为了便于确定粘贴“data”部分的位置，您可以使用JSON可视化工具，如[JSON格式化程序](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}。
+为便于确定粘贴“数据”部件的位置，您可以使用JSON可视化工具，例如 [JSON格式化程序](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}。
 
-要对流摄取API进行故障诊断，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}。
+要对流摄取API进行故障诊断，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}。

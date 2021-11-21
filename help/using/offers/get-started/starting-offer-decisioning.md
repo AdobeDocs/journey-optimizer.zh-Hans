@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->如果您是利用&#x200B;**Offer decisioning**&#x200B;应用程序服务的[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;}用户，则本节中描述的所有决策管理功能也适用于您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;}用户正在利用 **offer decisioning** 应用程序服务中，本节中介绍的所有决策管理功能也适用于您。
 
 “决策管理”功能由两个主要组件组成：
 
@@ -34,7 +34,7 @@ ht-degree: 87%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-➡️ [请观看这些教程视频](#tutorial-videos)，以了解有关决策管理的更多信息。
+➡️ [观看这些教程视频](#tutorial-videos) ，以了解有关决策管理的更多信息。
 
 ## 关于优惠和决策 {#offers-offer-activities}
 
@@ -66,11 +66,11 @@ ht-degree: 87%
 
 ## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
 
-使用[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}管理访问和使用offer decisioning功能的权限。
+访问和使用offer decisioning功能的权限可通过 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
 
-要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL Product profile]**&#x200B;并将相应的权限分配给用户。 了解有关在[此部分](../../administration/permissions.md)中管理[!DNL Journey Optimizer]用户和权限的更多信息。
+要授予对决策管理功能的访问权限，您需要创建 **[!UICONTROL Product profile]** 并为用户分配相应的权限。 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户和权限 [此部分](../../administration/permissions.md).
 
-[此部分](../../administration/high-low-permissions.md#decisions-permissions)中列出了特定于决策管理的权限。
+特定于决策管理的权限列在 [此部分](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## 术语表 {#glossary}
 
@@ -107,7 +107,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它们为在[!DNL Journey Optimizer]的上下文中使用决策管理提供了通用指导。
+>这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它们为在 [!DNL Journey Optimizer].
 
 ### 什么是决策管理？ {#what-is-offer-decisioning}
 

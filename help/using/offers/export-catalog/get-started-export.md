@@ -1,14 +1,15 @@
 ---
 title: 导出优惠目录入门
 description: 了解如何将优惠目录导出为数据集。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f30abea1-b204-4470-9836-75fae916bbb1
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 15%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 15%
 
 Journey Optimizer允许您自动将优惠目录导出到Adobe Experience Platform。
 
-导出会为选件库的每个对象创建一个数据集（请参阅[访问导出的数据集](../export-catalog/access-dataset.md)）。 该服务包括：
+导出会为选件库的每个对象创建一个数据集(请参阅 [访问导出的数据集](../export-catalog/access-dataset.md))。 该服务包括：
 
 * 个性化优惠
 * 后备优惠

@@ -15,14 +15,14 @@ ht-degree: 2%
 
 # 限制 {#limitations}
 
-授权、产品限制和性能限制列在[ Adobe Journey Optimizer产品说明页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}中。
+授权、产品限制和性能护栏列在[ Adobe Journey Optimizer产品描述页面](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。
 
-使用[!DNL Adobe Journey Optimizer]时，您会发现以下其他限制。
+使用 [!DNL Adobe Journey Optimizer].
 
 ## 消息限制
 
-* 您无法向具有[!DNL Journey Optimizer]的电子邮件中添加附件。
-* [!DNL Journey Optimizer]不支持电子邮件密送。
+* 您无法向使用 [!DNL Journey Optimizer].
+* 不支持电子邮件密送 [!DNL Journey Optimizer].
 
 ## 历程的限制
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 * 没有发送限制。 
 * 系统会在发生错误时执行三次重试。 您无法根据收到的错误消息调整重试次数。 
-* 内置的&#x200B;**Reaction**&#x200B;事件允许您对现成的操作做出响应。 请参阅[此页面](building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
+* 内置 **反应** 事件允许您对即装即用的操作做出响应。 请参阅[此页面](building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
 * 不能并行放置两个操作，必须先添加一个，然后再添加另一个操作。
 
 ### 消息操作
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 ### 历程版本 {#journey-versions-limitations}
 
-* 从v1中的事件活动开始的历程不能以其他版本中的事件以外的内容开头。 您无法以&#x200B;**区段鉴别**&#x200B;事件开始历程。
-* 从v1中的&#x200B;**区段鉴别**&#x200B;活动开始的历程必须始终以其他版本中的&#x200B;**区段鉴别**&#x200B;开始。
-* 在新版本中，无法更改在&#x200B;**区段鉴别**（第一个节点）中选择的区段和命名空间。
+* 从v1中的事件活动开始的历程不能以其他版本中的事件以外的内容开头。 您不能使用 **区段鉴别** 事件。
+* 历程从 **区段鉴别** v1中的活动必须始终以 **区段鉴别** 中。
+* 中选择的区段和命名空间 **区段鉴别** （第一个节点）在新版本中无法更改。
 * 在所有历程版本中，重新进入规则必须相同。
-* 以&#x200B;**读取区段**开始的历程不能以下一个版本中的其他事件开头。
+* 历程从 **读取区段** 在后续版本中，无法以其他事件开头。
  
 
 ### 自定义操作

@@ -1,28 +1,29 @@
 ---
 title: 创建消息
 description: 了解如何创建消息
-feature: 概述
-topic: 内容管理
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 3%
 
 ---
 
 # 创建消息 {#create-message}
 
-可通过左侧导航的&#x200B;**[!UICONTROL Messages]**&#x200B;快捷键访问消息。 所有消息均按发布日期（对于已发布的消息）或创建日期（对于草稿消息）排序。
+可从 **[!UICONTROL Messages]** 快捷键。 所有消息均按发布日期（对于已发布的消息）或创建日期（对于草稿消息）排序。
 
 >[!NOTE]
 >
->用户可以访问、创建、编辑和/或发布消息，具体取决于其产品配置文件。 在此部分](../using/administration/permissions.md)中了解有关用户权限[的更多信息。
+>用户可以访问、创建、编辑和/或发布消息，具体取决于其产品配置文件。 了解有关用户权限的更多信息 [在此部分中](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
-使用&#x200B;**[!UICONTROL Show recents]**&#x200B;切换开关，向过去5天内访问的消息添加直接链接。
+使用 **[!UICONTROL Show recents]** 切换以向您在过去5天内访问的消息添加直接链接。
 
 ![](assets/show-recent-messages.png)
 
@@ -34,27 +35,27 @@ ht-degree: 4%
 
 要创建新消息，请执行以下步骤：
 
-1. 访问消息列表，然后单击&#x200B;**[!UICONTROL Create Message]**。
+1. 访问消息列表，然后单击 **[!UICONTROL Create Message]**.
 
 1. 定义消息属性。
 
    ![](assets/create-message-properties.png)
 
-   * 输入&#x200B;**[!UICONTROL Title]**（必填）和&#x200B;**[!UICONTROL Description]**。
+   * 输入 **[!UICONTROL Title]** （必需）和 **[!UICONTROL Description]**.
 
-   * 选择要用于消息的&#x200B;**[!UICONTROL Preset]**。
+   * 选择 **[!UICONTROL Preset]** 用于消息。
 
-      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。 [了解有关预设的更多信息](../using/configuration/message-presets.md)。
+      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。 [了解有关预设的更多信息](../using/configuration/message-presets.md).
 
    * 选择要用于该消息的渠道：电子邮件和/或推送通知。 您必须至少选择一个渠道才能创建消息。
-   请注意，您可以随时使用消息界面中的&#x200B;**[!UICONTROL Properties]**&#x200B;按钮访问和修改消息的标题、描述和预设。
+   请注意，您可以随时使用 **[!UICONTROL Properties]** 按钮。
 
    ![](assets/message-properties.png)
 
 
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;以确认消息创建。 您的消息将以&#x200B;**[!UICONTROL Draft]**&#x200B;状态添加到消息列表中。
+1. 单击 **[!UICONTROL Create]** 确认消息创建。 您的消息会添加在消息列表中，即 **[!UICONTROL Draft]** 状态。
 
-   每个选定的渠道都有一个选项卡。 使用这些选项卡为每个渠道配置内容。 您可以通过选择某个选项卡并单击右侧的&#x200B;**[!UICONTROL Delete channel]**&#x200B;按钮来删除该选项卡。
+   每个选定的渠道都有一个选项卡。 使用这些选项卡为每个渠道配置内容。 您可以通过选择某个选项卡并单击 **[!UICONTROL Delete channel]** 按钮。
 
    ![](assets/create-messages-content.png)
 
@@ -65,20 +66,20 @@ ht-degree: 4%
 
    >[!NOTE]
    >   
-   >您可以使用表达式编辑器使用用户档案数据个性化您的消息。 有关个性化的更多信息，请参阅[此部分](personalization/personalize.md)。
+   >您可以使用表达式编辑器使用用户档案数据个性化您的消息。 有关个性化的更多信息，请参阅 [此部分](personalization/personalize.md).
 
 
 1. 使用左侧的预览部分控制消息的呈现，并使用测试用户档案检查个性化设置。 如需详细信息，请参阅[此部分](preview.md)。
 
    ![](assets/messages-simple-preview.png)
 
-1. 在编辑器的上部检查警报。  其中一些是简单的警告，但其他警告可能会阻止您发布消息。 在[此部分](alerts.md)中了解详情。
+1. 在编辑器的上部检查警报。  其中一些是简单的警告，但其他警告可能会阻止您发布消息。 在 [此部分](alerts.md).
 
-1. 现在，您可以通过单击&#x200B;**[!UICONTROL Publish]**&#x200B;按钮发布消息，或将消息保留为草稿，稍后发布。 有关如何发布消息的更多信息，请参阅[此部分](publish-manage-message.md)。
+1. 您现在可以通过单击 **[!UICONTROL Publish]** 按钮，或将其保留为草稿并稍后发布。 有关如何发布消息的更多信息，请参阅 [此部分](publish-manage-message.md).
 
 ## 复制消息
 
-要从现有消息创建消息，请使用消息界面中的&#x200B;**[!UICONTROL Duplicate]**&#x200B;按钮。 所有设置和配置都将复制到新消息中
+要从现有消息创建消息，请使用 **[!UICONTROL Duplicate]** 按钮。 所有设置和配置都将复制到新消息中
 
 ![](assets/message-duplicate.png)
 

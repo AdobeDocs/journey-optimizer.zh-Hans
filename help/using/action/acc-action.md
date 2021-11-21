@@ -1,14 +1,15 @@
 ---
 title: 与 Adobe Campaign v7/v8 集成
 description: 了解如何与Adobe Campaign v7/v8集成
-feature: 操作
-topic: 管理
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 5%
+source-wordcount: '448'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +19,9 @@ ht-degree: 5%
 
 Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设置的。
 
-此[部分](../building-journeys/campaign-classic-use-case.md)中提供了端到端用例。
+本节介绍了端到端用例 [部分](../building-journeys/campaign-classic-use-case.md).
 
-对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅此[部分](../building-journeys/using-adobe-campaign-classic.md)。
+对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅 [部分](../building-journeys/using-adobe-campaign-classic.md).
 
 ## 重要说明
 
@@ -36,7 +37,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 ## 先决条件
 
-在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
+在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅 [Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
 
 您可以按照以下模式构建与每个消息对应的JSON有效负载。 然后，在Journey Orchestration中配置操作时，您将粘贴此有效负载（请参阅下文）
 
@@ -53,7 +54,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 }
 ```
 
-* **渠道**:为营销活动事务型模板定义的渠道
+* **频道**:为营销活动事务型模板定义的渠道
 * **eventType**:营销活动事件的内部名称
 * **ctx**:变量。
 
@@ -61,13 +62,11 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 在Journey Optimizer中，您需要为每个事务型消息配置一个操作。 请执行以下步骤：
 
-1. 创建新操作。 请参阅此[部分](../action/action.md)。
+1. 创建新操作。 请参阅 [部分](../action/action.md).
 1. 输入名称和描述。
-1. 在&#x200B;**Action type**&#x200B;字段中，选择&#x200B;**Adobe Campaign Classic**。
-1. 单击&#x200B;**有效负荷**&#x200B;字段，并粘贴与Campaign消息对应的JSON有效负荷示例。 联系Adobe以获取此有效负载。
+1. 在 **操作类型** 字段，选择 **Adobe Campaign Classic**.
+1. 单击 **负载** 字段中，并粘贴与Campaign消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
 1. 根据要在历程画布上映射不同字段，将其调整为静态字段或变量字段。 某些字段(例如电子邮件地址和个性化字段(ctx)的渠道参数)，您可能希望定义为用于在历程上下文中映射的变量。
 1. 单击&#x200B;**保存**。
 
 ![](../assets/accintegration1.png)
-
-

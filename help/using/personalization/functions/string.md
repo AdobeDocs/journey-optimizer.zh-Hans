@@ -1,13 +1,14 @@
 ---
 title: 字符串函数库
 description: 字符串函数库
-feature: 个性化
-topic: 个性化
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 7%
 
 ## 驼峰 {#camelCase}
 
-`camelCase`函数大写字符串每个单词的第一个字母。
+的 `camelCase` 函数会大写字符串每个单词的第一个字母。
 
 **格式**
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 
 ## Concat {#concate}
 
-`concat`函数将两个字符串合并为一个。
+的 `concat` 函数将两个字符串组合为一个。
 
 **格式**
 
@@ -54,7 +55,7 @@ ht-degree: 7%
 
 ## Contains {#contains}
 
-`contains`函数用于确定字符串是否包含指定的子字符串。
+的 `contains` 函数来确定字符串是否包含指定的子字符串。
 
 **格式**
 
@@ -84,7 +85,7 @@ ht-degree: 7%
 
 ## 不包含{#doesNotContain}
 
-`doesNotContain`函数用于确定字符串是否不包含指定的子字符串。
+的 `doesNotContain` 函数来确定字符串是否不包含指定的子字符串。
 
 **格式**
 
@@ -109,7 +110,7 @@ ht-degree: 7%
 
 ## 不以结尾{#doesNotEndWith}
 
-`doesNotEndWith`函数用于确定字符串是否以指定的子字符串结尾。
+的 `doesNotEndWith` 函数来确定字符串是否不以指定的子字符串结尾。
 
 **格式**
 
@@ -133,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 开头不为{#doesNotStartWith}
 
-`doesNotStartWith`函数用于确定字符串是否不以指定的子字符串开头。
+的 `doesNotStartWith` 函数来确定字符串是否不以指定的子字符串开头。
 
 **格式**
 
@@ -157,7 +158,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 编码64{#encode64}
 
-例如，如果要包含在URL中，则`encode64`函数用于对字符串进行编码以保留个人信息(PI)。
+的 `encode64` 函数用于对字符串进行编码，以保留个人信息(PI)（如果要包含在URL中）。
 
 **格式**
 
@@ -167,7 +168,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 结束于{#endsWith}
 
-`endsWith`函数用于确定字符串是否以指定的子字符串结尾。
+的 `endsWith` 函数来确定字符串是否以指定的子字符串结尾。
 
 **格式**
 
@@ -192,7 +193,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等于{#equals}
 
-`equals`函数用于确定字符串是否等于指定的字符串（区分大小写）。
+的 `equals` 函数来确定字符串是否等于指定的字符串（区分大小写）。
 
 **格式**
 
@@ -215,7 +216,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等于忽略大小写{#equalsIgnoreCase}
 
-`equalsIgnoreCase`函数用于确定字符串是否等于指定的字符串，而不区分大小写。
+的 `equalsIgnoreCase` 函数确定字符串是否等于指定的字符串，而不区分大小写。
 
 **格式**
 
@@ -238,7 +239,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 提取电子邮件域 {#extractEmailDomain}
 
-`extractEmailDomain`函数用于提取电子邮件地址的域。
+的 `extractEmailDomain` 函数来提取电子邮件地址的域。
 
 **格式**
 
@@ -256,7 +257,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 为空 {#isEmpty}
 
-`isEmpty`函数用于确定字符串为空。
+的 `isEmpty` 函数来确定字符串是否为空。
 
 **格式**
 
@@ -274,7 +275,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 左裁切 {#leftTrim}
 
-`leftTrim`函数用于从字符串的开头删除空格。
+的 `leftTrim` 函数从字符串的开头删除空格。
 
 **格式**
 
@@ -284,7 +285,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Length {#length}
 
-`length`函数用于获取字符串或表达式中的字符数。
+的 `length` 函数，用于获取字符串或表达式中的字符数。
 
 **格式**
 
@@ -302,7 +303,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 赞{#like}
 
-`like`函数用于确定字符串是否与指定模式匹配。
+的 `like` 函数来确定字符串是否与指定的模式匹配。
 
 **格式**
 
@@ -313,7 +314,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 参数 | 描述 |
 | --------- | ----------- |
 | `{STRING_1}` | 要执行检查的字符串。 |
-| `{STRING_2}` | 要与第一个字符串匹配的表达式。 创建表达式时，有两个受支持的特殊字符：`%`和`_`。 <ul><li>`%` 用于表示零个或多个字符。</li><li>`_` 仅用于表示一个字符。</li></ul> |
+| `{STRING_2}` | 要与第一个字符串匹配的表达式。 创建表达式时，有两个受支持的特殊字符： `%` 和 `_`. <ul><li>`%` 用于表示零个或多个字符。</li><li>`_` 仅用于表示一个字符。</li></ul> |
 
 **示例**
 
@@ -325,7 +326,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 小写{#lower}
 
-`lowerCase`函数将字符串转换为小写字母。
+的 `lowerCase` 函数将字符串转换为小写字母。
 
 **语法**
 
@@ -343,7 +344,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 匹配{#matches}
 
-`matches`函数用于确定字符串是否与特定正则表达式匹配。 有关正则表达式中匹配模式的详细信息，请参阅[本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)。
+的 `matches` 函数来确定字符串是否与特定正则表达式匹配。 请参阅 [本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 有关正则表达式中匹配模式的更多信息。
 
 **格式**
 
@@ -361,7 +362,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 不等于{#notEqualTo}
 
-`notEqualTo`函数用于确定字符串是否不等于指定的字符串。
+的 `notEqualTo` 函数来确定字符串是否不等于指定的字符串。
 
 **格式**
 
@@ -384,7 +385,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 正则表达式组{#regexGroup}
 
-`Group`函数用于根据提供的正则表达式提取特定信息。
+的 `Group` 函数用于根据提供的正则表达式提取特定信息。
 
 **格式**
 
@@ -406,9 +407,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## 替换 {#replace}
 
-`replace`函数用于将字符串中的给定子字符串替换为另一个子字符串。
+的 `replace` 函数将字符串中的给定子字符串替换为其他子字符串。
 
 **格式**
 
@@ -427,7 +428,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 全部替换{#replaceAll}
 
-`replaceAll`函数用于将与“target”匹配的文本的所有子字符串替换为指定的文字“replacement”字符串。 替换从字符串的开头到结尾，例如，将字符串“aaa”中的“aa”替换为“b”将生成“ba”而不是“ab”。
+的 `replaceAll` 函数将匹配“target”的文本的所有子字符串替换为指定的文字“replacement”字符串。 替换从字符串的开头到结尾，例如，将字符串“aaa”中的“aa”替换为“b”将生成“ba”而不是“ab”。
 
 **格式**
 
@@ -438,7 +439,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 右修剪 {#rightTrim}
 
-使用`rightTrim`函数时，会从字符串的末尾删除空格。
+的 `rightTrim` 函数会从字符串的末尾删除空格。
 
 
 **格式**
@@ -449,7 +450,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 拆分 {#split}
 
-`split`函数用于按给定字符拆分字符串。
+的 `split` 函数将字符串按给定字符拆分。
 
 **格式**
 
@@ -470,7 +471,7 @@ The following function .
 
 ## 开始于{#startsWith}
 
-`startsWith`函数用于确定字符串是否以指定的子字符串开头。
+的 `startsWith` 函数来确定字符串是否以指定的子字符串开头。
 
 **格式**
 
@@ -494,7 +495,7 @@ The following function .
 
 ## 标题大小写{#titleCase}
 
-**titleCase**&#x200B;函数用于大写字符串中每个单词的前几个字母。
+的 **titleCase** 函数用于大写字符串中每个单词的首字母。
 
 **语法**
 
@@ -512,7 +513,7 @@ The following function .
 
 ## 裁切{#trim}
 
-**trim**&#x200B;函数删除字符串开头和结尾的所有空格。
+的 **trim** 函数会删除字符串开头和结尾的所有空格。
 
 **语法**
 
@@ -522,7 +523,7 @@ The following function .
 
 ## 大写{#upper}
 
-**upperCase**&#x200B;函数将字符串转换为大写字母。
+的 **upperCase** 函数将字符串转换为大写字母。
 
 **语法**
 

@@ -47,7 +47,7 @@ ht-degree: 3%
 
 选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、HTML块等。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。
 
-要向选件添加一个或多个表示形式并配置它们，请执行以下步骤。
+要向选件添加一个或多个表示形式并对其进行配置，请执行以下步骤。
 
 1. 对于第一个表示，首先选择 **[!UICONTROL Channel]** 将使用的URL。
 
@@ -250,6 +250,6 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指导。
+>此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

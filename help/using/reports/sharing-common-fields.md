@@ -1,22 +1,23 @@
 ---
 title: journeysteps事件常用字段
 description: journeysteps事件常用字段
-feature: 报表
-topic: 内容管理
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 9%
 
 ---
 
-# journeysteps事件常用字段{#sharing-common-fields}
+# journeysteps事件常用字段 {#sharing-common-fields}
 
 此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
 
-这些是[!DNL Journey Optimizer]发送到Adobe Experience Platform的常用XDM字段。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
+这些是常见的XDM字段， [!DNL Journey Optimizer] 发送到Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
 
 其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件的大小。
 

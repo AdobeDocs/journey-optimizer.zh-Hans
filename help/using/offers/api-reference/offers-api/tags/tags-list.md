@@ -1,14 +1,15 @@
 ---
 title: 列出标记
 description: 利用标记，可更好地组织和排序选件。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 4%
 
 利用标记，可更好地组织和排序选件。 例如，您可以使用“黑色星期五”标记来标记黑色星期五选件。 然后，您可以使用选件库中的搜索功能轻松找到具有该标记的所有选件。
 
-标记还可用于将选件组合到收藏集中。 有关更多信息，请参阅关于[创建集合](../../../offer-library/creating-collections.md)的教程。
+标记还可用于将选件组合到收藏集中。 有关更多信息，请参阅 [创建收藏集](../../../offer-library/creating-collections.md).
 
-通过对[!DNL Offer Library] API执行单个GET请求，可以查看容器中所有标记的列表。
+您可以通过对 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -55,10 +56,10 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 要在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用双引号括起来，以防止其被标记化并转义特殊字符。 字符`+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中显示时应使用反斜杠进行转义。 | 网站JSON |
+| `q` | 要在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并可以用双引号括起来，以防止其被标记化并转义特殊字符。 字符 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中显示时，应使用反斜杠进行转义。 | 网站JSON |
 | `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
-| `field` | 可将搜索限制为的字段列表（可选）。 此参数可以重复，如下所示：field=field1[,field=field2,...]和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果排序。 在标题(`orderby=-title`)之前添加`-`将按标题以降序(Z-A)对项目进行排序。 | `-repo:createdDate` |
+| `field` | 可将搜索限制为的字段列表（可选）。 此参数可以重复，如下所示：field=field1[,field=field2,...] 和（路径表达式采用点分隔路径的形式，如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果排序。 添加 `-` 前标题(`orderby=-title`)将按标题以降序(Z-A)对项目进行排序。 | `-repo:createdDate` |
 | `limit` | 限制返回的标记数。 | `limit=5` |
 
 **响应**

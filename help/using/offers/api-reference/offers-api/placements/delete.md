@@ -1,20 +1,21 @@
 ---
 title: 删除版面
 description: 版面是用于显示选件的容器。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 删除投放位置
 
-有时可能需要删除(DELETE)版面。 只能删除您在租户容器中创建的版面。 这是通过使用您要删除的版面的实例ID对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)版面。 只能删除您在租户容器中创建的版面。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的版面的实例ID的API。
 
 **API格式**
 

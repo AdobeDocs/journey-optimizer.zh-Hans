@@ -1,20 +1,21 @@
 ---
 title: 查找后备优惠
 description: 如果客户不符合其他选件的资格，则会向客户发送备用选件
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '158'
+ht-degree: 3%
 
 ---
 
 # 查找后备优惠
 
-您可以通过向[!DNL Offer Library] API发出GET请求来查找特定的备用选件，该API包含备用选件`@id`或请求路径中备用选件的名称。
+您可以通过向 [!DNL Offer Library] 包含后备优惠的API `@id` 或请求路径中备用选件的名称。
 
 **API格式**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 定义与后备优惠关联的架构。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | 用于匹配实体`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `F1: Web fallback` |
+| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `F1: Web fallback` |
 
 **请求**
 
@@ -44,7 +45,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一回退选件`@id`的信息。
+成功响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一回退选件的信息 `@id`.
 
 ```json
 {

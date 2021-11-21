@@ -1,20 +1,21 @@
 ---
 title: 删除决策规则
 description: 决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。
-feature: 优惠
-topic: 集成
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 6%
+source-wordcount: '159'
+ht-degree: 5%
 
 ---
 
 # 删除决策规则
 
-有时可能需要删除(DELETE)决策规则。 只能删除您在租户容器中创建的决策规则。 这是通过使用您要删除的决策规则的实例ID对[!DNL Offer Library] API执行DELETE请求来完成的。
+有时可能需要删除(DELETE)决策规则。 只能删除您在租户容器中创建的决策规则。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的决策规则的实例ID的API。
 
 **API格式**
 

@@ -1,14 +1,15 @@
 ---
 title: 一般原则
 description: 一般原则
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 7%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 7%
 
 设计由以下功能提供支持的多步高级方案：
 
-* 发送在收到事件时触发的实时&#x200B;**单一消息**，或使用Adobe Experience Platform区段在批量&#x200B;**中发送**。
+* 实时发送 **单一报文** 在收到事件时触发，或 **批量** 使用Adobe Experience Platform区段。
 
-* 利用事件、Adobe Experience Platform信息或第三方API服务数据中的&#x200B;**上下文数据**。
+* 利用 **上下文数据** 来自事件、来自Adobe Experience Platform的信息或来自第三方API服务的数据。
 
-* 使用&#x200B;**内置操作**&#x200B;发送在[!DNL Journey Optimizer]中设计的消息，或者使用第三方系统发送消息时创建&#x200B;**自定义操作**。
+* 使用 **内置操作** 发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
 
-* 使用&#x200B;**journey designer**&#x200B;构建多步用例：轻松拖放登入事件或读取区段活动、添加条件和发送个性化消息。
+* 使用 **历程设计器**，构建多步用例：轻松拖放登入事件或读取区段活动、添加条件和发送个性化消息。

@@ -1,20 +1,21 @@
 ---
 title: 时区管理
 description: 了解时区管理
-feature: 历程
-topic: 内容管理
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 # 时区管理 {#timezone_management}
 
-您可以在历程的[属性](../building-journeys/journey-gs.md#change-properties)中定义时区。
+您可以在 [属性](../building-journeys/journey-gs.md#change-properties) 你的旅程。
 
 要访问“属性”，请单击屏幕右上方的铅笔图标。
 
@@ -29,17 +30,17 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->配置文件时区与&#x200B;**首选项详细信息**&#x200B;字段组中存在的&#x200B;**timeZone**&#x200B;字段配合使用。
+>配置文件时区适用于 **timeZone** 字段 **首选项详细信息** 字段组。
 
-## 定义固定时区{#fixed-timezone}
+## 定义固定时区 {#fixed-timezone}
 
 时区也可以固定。 清除预定义的时区，然后从下拉列表中选择一个时区。 如果您使用固定时区，则进入历程的所有个人都将使用相同的时区。
 
-为此，请在&#x200B;**[!UICONTROL Journey Properties]**&#x200B;窗格中选择时区。
+为此，请在 **[!UICONTROL Journey Properties]** 窗格，选择时区。
 
 ![](../assets/journey72.png)
 
-## 使用用户档案定义旅程时区{#timezone-from-profiles}
+## 使用用户档案定义旅程时区 {#timezone-from-profiles}
 
 如果历程的登入事件具有命名空间，即历程可以访问Adobe Experience Platform的实时客户资料服务，则会使用在历程中流动的个人资料中指定的时区预定义时区。
 
@@ -47,10 +48,10 @@ ht-degree: 3%
 
 如果个人的用户档案不包含时区，则检索到的时区将是时区字段中定义的时区。
 
-为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中，选中&#x200B;**[!UICONTROL Use Profile timezone in waits and conditions]**。
+为此，请在 **[!UICONTROL Properties]**，勾选 **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
 ![](../assets/journey73.png)
 
-## 在表达式{#timezone-in-expressions}中使用时区
+## 在表达式中使用时区 {#timezone-in-expressions}
 
 历程的开始日期和结束日期不能链接到特定时区。 它们会自动关联到实例的时区。

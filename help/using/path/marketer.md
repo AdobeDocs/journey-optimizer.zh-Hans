@@ -2,13 +2,13 @@
 title: Journey Optimizer营销人员入门
 description: 作为历程实践者，了解如何与Journey Optimizer合作的更多信息
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 7%
 
 ---
-
 
 # 营销人员入门
 
@@ -51,4 +51,3 @@ As a **营销人员** 或 **历程实践者**，则您负责创建消息、选�
    了解如何设计和执行历程 [在此部分中](../building-journeys/journey-gs.md)
 
 1. **监控消息和历程**. 为确保消息的执行、发送和发送成功， [!DNL Journey Optimizer] 提供了用于监视当前已发布和触发的消息的功能。 了解如何监控性能 [在此部分中](../message-monitoring.md).
-
