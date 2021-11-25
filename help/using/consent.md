@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
+source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 79%
+source-wordcount: '816'
+ht-degree: 78%
 
 ---
 
@@ -97,7 +97,8 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 这个 Adobe I/O POST 调用如下：
 
-端点：cjm.adobe.io/imp/consent/preferences
+端点：platform.adobe.io/journey/imp/consent/preferences
+<!--This is the new AEP specific AEP for consent instead of the AJO consent API that was previously used: cjm.adobe.io/imp/consent/preferences-->
 
 查询参数：
 
