@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -67,20 +67,21 @@ ht-degree: 1%
 
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
+<!--
 ![](../assets/live_report_8.png)
 
 >[!NOTE]
 >
->仅当在电子邮件中插入决策时，选件小组件和量度才可用。 有关决策管理的详细信息，请参阅此 [页面](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 随着时间的推移，小组件可衡量选件的成功以及对目标受众的影响。 它使用KPI详细描述与消息相关的主要信息：
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL Offer sent]**:选件的发送总数。
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression]**:在投放中打开选件的次数。
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL Offer clicks]**:在投放中点击选件的次数。
-
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 >[!NOTE]
 >
 >具有 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息](../building-journeys/journeys-message.md) ) **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
