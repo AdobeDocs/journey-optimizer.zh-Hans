@@ -1,19 +1,19 @@
 ---
-product: adobe campaign
-title: 概述
-description: 了解高级表达式的概括性
+product: Journey Optimizer
+title: 语法
+description: 了解高级表达式编辑器
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '218'
 ht-degree: 5%
 
 ---
 
-# 概述 {#concept_rcy_qj5_dgb}
+# 高级表达式编辑器语法 {#syntax}
 
 ## 括号和表达式优先级{#section_edf_fks_bgb}
 

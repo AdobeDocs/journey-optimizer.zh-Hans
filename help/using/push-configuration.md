@@ -4,16 +4,16 @@ description: 了解如何配置环境以通过Journey Optimizer发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 8384afaa0f989337b8b075006a3082cf3e7860c4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1437'
 ht-degree: 4%
 
 ---
 
 # 配置推送通知渠道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始使用 [!DNL Journey Optimizer]，您需要确保在移动应用程序上部署配置和集成，以及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. 要了解 [!DNL Adobe Journey Optimizer] 请参阅 [本页](push-gs.md).
+[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始使用 [!DNL Journey Optimizer]，您需要确保移动设备应用程序上以及Adobe Experience Platform中标记上的配置和集成已就位。 要了解 [!DNL Adobe Journey Optimizer] 请参阅 [本页](push-gs.md).
 
 ## 开始前
 
@@ -30,11 +30,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 设置权限
 
-在创建移动应用程序之前，您首先需要确保在 **Adobe Experience Platform Launch**. 在 [Adobe Experience Platform Launch文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}。
+在创建移动应用程序之前，您首先需要确保在Adobe Experience Platform中拥有或分配正确的标记用户权限。 在 [标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 >
->推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件或在应用程序开发人员与 **Adobe Journey Optimizer** 管理员。 详细了解 **Adobe Experience Platform Launch** 权限 [本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}。
+>推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件或在应用程序开发人员与 **Adobe Journey Optimizer** 管理员。 详细了解 **标记** 权限 [本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}。
 
 <!--ou need to your have access to perform following roles :
 
@@ -103,7 +103,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 配置您的应用程序
 
-技术设置涉及应用程序开发人员与业务管理员之间的密切协作。 开始发送推送通知之前 [!DNL Journey Optimizer]，您需要在Adobe Experience Platform Launch中定义设置，并将移动应用程序与Adobe Experience Platform Mobile SDK集成。
+技术设置涉及应用程序开发人员与业务管理员之间的密切协作。 开始发送推送通知之前 [!DNL Journey Optimizer]，您需要在 [!DNL Adobe Experience Platform Data Collection] 并将您的移动设备应用程序与Adobe Experience Platform Mobile SDK集成。
 
 按照以下链接中详细描述的实施步骤操作：
 
@@ -114,41 +114,48 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK为您的手机提供客户端集成API。 关注 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;}，以在您的应用程序中使用Adobe Experience Platform Mobile SDK进行设置。
 
-在此步骤结束时，您还应该在Adobe Experience Platform Launch中创建并配置移动资产。 通常，您会为要管理的每个移动应用程序创建一个移动资产。 了解如何在 [Adobe Experience Platform Launch文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}。
+在此步骤结束时，您还应该在 [!DNL Adobe Experience Platform Data Collection]. 通常，您会为要管理的每个移动应用程序创建一个移动资产。 了解如何在 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}。
 
 
-## 步骤1:在Adobe Experience Platform Launch中添加您的应用程序推送凭据 {#push-credentials-launch}
+## 步骤1:在Adobe Experience Platform数据收集中添加您的应用程序推送凭据 {#push-credentials-launch}
 
-授予正确的用户权限后，您现在需要在 [!DNL Adobe Experience Platform Launch].
+授予正确的用户权限后，您现在需要在 [!DNL Adobe Experience Platform Data Collection].
 
 要授权Adobe代表您发送推送通知，需要注册移动设备应用程序推送凭据。 请参阅下面详述的步骤：
 
-1. 从 [!DNL Adobe Experience Platform Launch]，确保 **[!UICONTROL Client Side]** 的下拉菜单中。
+1. 从 [!DNL Adobe Experience Platform Data Collection]，选择 **[!UICONTROL App Surfaces]** 选项卡。
 
-1. 选择 **[!UICONTROL App Configurations]** 选项卡，然后单击 **[!UICONTROL App Configuration]** 创建新配置。
+1. 单击 **[!UICONTROL Create App Surfaces]** 创建新配置。
+
+   ![](assets/add-app-config.png)
 
 1. 输入 **[!UICONTROL Name]** ，以用于配置。
 
-1. 从 **[!UICONTROL Messaging Service Type]** 下拉菜单中，选择 **[!UICONTROL Messaging service type]** 用于这些凭据。
+1. 从 **[!UICONTROL Mobile Application Configuration]**，选择操作系统：
 
-   * **对于Android**
-
-      ![](assets/add-app-config-android.png)
-
-      1. 提供 **[!UICONTROL App ID (Android package name)]**:通常包名称是 `build.gradle` 文件。
-
-      1. 拖放FCM推送凭据。 有关如何获取推送凭据的更多详细信息，请参阅 [Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}。
    * **对于iOS**
 
       ![](assets/add-app-config-ios.png)
 
       1. 输入移动设备应用程序 **包Id** 在 **[!UICONTROL App ID (iOS Bundle ID)]** 字段。 可以在 **常规** 选项卡 **XCode**.
 
-      1. 拖放 **Apple推送通知身份验证密钥** 的Apple开发人员帐户。 此密钥可从 **证书**, **标识符** 和 **用户档案** 页面。
+      1. 已打开 **[!UICONTROL Push Credentials]** 按钮以添加您的凭据。
+
+      1. 拖放.p8 Apple推送通知身份验证密钥文件。 此密钥可从 **证书**, **标识符** 和 **用户档案** 页面。
 
       1. 提供 **密钥ID**. 这是在创建p8身份验证密钥期间分配的10个字符串。 可在 **键** 选项卡 **证书**, **标识符** 和 **用户档案** 页面。
 
       1. 提供 **团队ID**. 这是一个字符串值，可在成员资格选项卡下找到。
+   * **对于Android**
+
+      ![](assets/add-app-config-android.png)
+
+      1. 提供 **[!UICONTROL App ID (Android package name)]**:通常包名称是 `build.gradle` 文件。
+
+      1. 已打开 **[!UICONTROL Push Credentials]** 按钮以添加您的凭据。
+
+      1. 拖放FCM推送凭据。 有关如何获取推送凭据的更多详细信息，请参阅 [Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}。
+
 
 
 1. 单击 **[!UICONTROL Save]** 创建应用程序配置。
@@ -173,7 +180,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## 步骤2:在移动资产中配置Adobe Journey Optimizer扩展
 
-的 **Adobe Journey Optimizer扩展**  for Adobe Experience Platform Mobile SDK可为移动设备应用程序的推送通知提供支持，并帮助您收集用户推送令牌并管理与Adobe Experience Platform服务的交互测量。
+的 **Adobe Journey Optimizer扩展** for Adobe Experience Platform Mobile SDK可为移动设备应用程序的推送通知提供支持，并帮助您收集用户推送令牌并管理与Adobe Experience Platform服务的交互测量。
 
 了解如何在中设置Journey Optimizer扩展 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}。
 
@@ -246,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 步骤3:使用事件测试您的移动设备应用程序 {#mobile-app-test}
 
-现在，在Adobe Experience Platform和Launch中配置移动设备应用程序后，您可以在向用户档案发送推送通知之前对其进行测试。 在此用例中，我们将创建一个旅程以定位我们的移动设备应用程序，并设置一个触发推送通知的事件。
+在Adobe Experience Platform和 [!DNL Adobe Experience Platform Data Collection]，您现在可以在向用户档案发送推送通知之前对其进行测试。 在此用例中，我们将创建一个旅程以定位我们的移动设备应用程序，并设置一个触发推送通知的事件。
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -344,7 +351,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 ## 步骤4:为推送创建消息预设{#message-preset}
 
-在 [!DNL Adobe Experience Platform Launch]，您需要创建消息预设，以便能够从发送推送通知 **[!DNL Journey Optimizer]**.
+在 [!DNL Adobe Experience Platform Data Collection]，您需要创建消息预设，以便能够从发送推送通知 **[!DNL Journey Optimizer]**.
 
 了解如何在 [此部分](configuration/message-presets.md).
 

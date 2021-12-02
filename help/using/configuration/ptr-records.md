@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
+source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 访问子域的PTR记录
 
-在Adobe Journey Optimizer中委派子域后，将自动创建PTR记录并与此子域关联。 您可以从 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 菜单。
+一次 [委派子域](delegate-subdomain.md) 在Adobe Journey Optimizer中，将自动创建PTR记录并与此子域关联。 您可以从 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 菜单。
 
 ![](../assets/ptr-records.png)
 
@@ -39,6 +39,10 @@ ht-degree: 0%
 ## 编辑PTR记录 {#edit-ptr-record}
 
 您可以修改PTR记录以编辑与IP地址关联的子域。
+
+>[!CAUTION]
+>
+>您无法使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation).
 
 1. 在列表中，单击PTR记录名称以将其打开。
 
