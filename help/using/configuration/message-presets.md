@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
+source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -105,6 +105,20 @@ ht-degree: 1%
    * 选择要用于每个平台的移动设备应用程序。
 
       有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../push-gs.md).
+
+<!--
+1. Configure the **SMS** settings.
+
+     ![](../assets/preset-sms.png)
+
+    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
+    
+    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 89%
+source-wordcount: '883'
+ht-degree: 87%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 89%
       + [创建消息](using/create-message.md)
       + [创建电子邮件](using/create-email.md)
       + [创建推送通知](using/create-push.md)
+      + [创建短信消息](using/create-sms.md)
    + [添加和管理资产](using/assets-essentials.md)
    + 设计电子邮件 {#email-designer}
       + [电子邮件设计入门](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 89%
       + [可投放性入门](using/deliverability.md)
       + [禁止列表](using/suppression-list.md)
       + [允许列表](using/allow-list.md)
++ 登陆页面 {#landing-pages}
+   + [登陆页面入门](using/landing-pages/get-started-lp.md)
+   + [创建登陆页面](using/landing-pages/create-lp.md)
+   + [设计登陆页面](using/landing-pages/design-lp.md)
+   + [创建订阅列表](using/landing-pages/subscription-list.md)
+   + [用例](using/landing-pages/lp-use-cases.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 89%
             + [管理禁止列表](using/configuration/manage-suppression-list.md)
             + [重试](using/configuration/retries.md)
          + [更改电子邮件主地址](using/configuration/primary-email-addresses.md)
+      + [配置短信渠道](using/configuration/sms-configuration.md)
       + [创建消息预设](using/configuration/message-presets.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)

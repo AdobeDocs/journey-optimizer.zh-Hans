@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 2%
 1. 选择要创建的链接类型：
 
    * **[!UICONTROL External link]**:插入指向外部URL的链接。
+
+   * **[!UICONTROL Landing page]**:插入指向登陆页面的链接。 [在本节](landing-pages/get-started-lp.md)中了解详情
 
    * **[!UICONTROL Unsubscription link]**:插入链接以取消订阅从您的品牌接收通信。 在[此部分中](consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
 

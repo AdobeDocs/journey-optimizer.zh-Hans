@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->用户可以访问、创建、编辑和/或发布消息，具体取决于其产品配置文件。 了解有关用户权限的更多信息 [在此部分中](../using/administration/permissions.md).
+>用户可以访问、创建、编辑和/或发布消息，具体取决于其产品配置文件。 了解有关用户权限的更多信息 [在此部分中](administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,15 +43,14 @@ ht-degree: 3%
 
    * 输入 **[!UICONTROL Title]** （必需）和 **[!UICONTROL Description]**.
 
+   * 选择 **[!UICONTROL Message category]**:营销或交易。
+
    * 选择 **[!UICONTROL Preset]** 用于消息。
 
-      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。 [了解有关预设的更多信息](../using/configuration/message-presets.md).
+      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。 [了解有关预设的更多信息](configuration/message-presets.md).
 
    * 选择要用于该消息的渠道：电子邮件和/或推送通知。 您必须至少选择一个渠道才能创建消息。
    请注意，您可以随时使用 **[!UICONTROL Properties]** 按钮。
-
-   ![](assets/message-properties.png)
-
 
 1. 单击 **[!UICONTROL Create]** 确认消息创建。 您的消息会添加在消息列表中，即 **[!UICONTROL Draft]** 状态。
 
