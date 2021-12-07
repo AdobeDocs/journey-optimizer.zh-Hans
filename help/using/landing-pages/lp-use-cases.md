@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 21%
+source-wordcount: '772'
+ht-degree: 19%
 
 ---
 
 # 登陆页面用例
 
-以下是如何使用的示例 [!DNL Journey Optimizer] 登陆页面，让您的客户选择启用/禁用接收部分或全部通信。
+以下是一些说明如何使用的示例 [!DNL Journey Optimizer] 登陆页面，让您的客户选择启用/禁用接收部分或全部通信。
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ ht-degree: 21%
 
 ## 订购服务 {#subscription-to-a-service}
 
-下面介绍了让收件人订阅服务的主要步骤。
+最常见的用例之一是邀请客户 [订购服务](subscription-list.md) （例如新闻稿或事件）。 下图介绍了主要步骤：
 
 ![](../assets/lp_subscription-uc.png)
 
-例如，假设您下月组织了一个事件，并且希望启动一个事件注册营销活动，以便有兴趣的客户随时更新该事件。
+例如，假设您下月组织了一个事件，并且想要启动一个事件注册营销活动<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含指向登陆页面的链接，以便您的收件人注册参加此活动。 注册的用户将添加到您为此创建的订阅列表中。
 
-1. 创建事件注册的订阅列表。 了解详情 [订阅列表](subscription-list.md)
+### 设置登陆页面
 
-1. [创建登陆页面](create-lp.md)，以便收件人注册参加您的活动。
+1. 创建事件注册的订阅列表，该列表将存储注册的用户。 了解如何创建订阅列表 [此处](subscription-list.md#define-subscription-list).
 
-1. 配置和设计注册登陆页面，包括指向订阅列表的链接。 了解有关构建 [主登陆页面](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. 创建感谢页面，在收件人提交注册表单后，该页面将显示给收件人。 了解详情 [登陆子页面](create-lp.md#configure-subpages)
+1. [创建登陆页面](create-lp.md) ，以便收件人注册您的活动。
 
-1. 创建电子邮件。 了解详情 [创建消息](../create-message.md)
+1. 配置注册 [主登陆页面](create-lp.md#configure-primary-page).
 
-1. [插入链接](../message-tracking.md#insert-links) 中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
+1. 设计 [登陆页面内容](design-lp.md)，选择您创建的订阅列表，以使用选中注册复选框的用户档案对其进行更新。
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. 创建“感谢”页面，在收件人提交注册表单后，该页面将显示给收件人。 了解如何配置登陆子页面 [此处](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [发布](create-lp.md#publish) 登陆页面。
+
+1. [创建电子邮件](../create-message.md) 以宣布注册现已对您的活动开放。
+
+1. [插入链接](../message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. 保存您的内容并[发布您的消息](../publish-manage-message.md)。
 
-1. 通过 [历程](../building-journeys/journey.md) 要宣布注册，现在将为您的活动打开并引导流量进入注册登陆页面。
+1. 通过 [历程](../building-journeys/journey.md) 将流量引导至注册登陆页面。
 
-   收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到感谢页面，并被添加到订阅列表。
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. 您可以向为您的活动注册的收件人发送确认电子邮件。 为此，请使用 **[!UICONTROL Segment qualification]** 事件，然后选择您创建为区段的订阅列表。
+   收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“谢谢”页面，并被添加到订阅列表。
+
+### 发送确认电子邮件 {#send-confirmation-email}
+
+此外，您还可以向为您的活动注册的收件人发送电子邮件确认。 为此，请执行以下步骤。
+
+1. 创建其他 [历程](../building-journeys/journey.md). 您可以通过单击 **[!UICONTROL Create journey]** 按钮。 了解更多 [此处](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. 展开&#x200B;**[!UICONTROL Events]**&#x200B;类别并将&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动放入画布中。了解更多 [此处](../building-journeys/segment-qualification-events.md)
+
+1. 单击 **[!UICONTROL Segment]** 字段，然后选择您创建的订阅列表。
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. 选择您选择的确认电子邮件，并通过历程发送该电子邮件。
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+为您的活动注册的所有用户都将收到确认电子邮件。
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 

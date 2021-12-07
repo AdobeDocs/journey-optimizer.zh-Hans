@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
+source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 87%
 
 ---
@@ -227,6 +227,9 @@ ht-degree: 87%
    + [设计登陆页面](using/landing-pages/design-lp.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
    + [用例](using/landing-pages/lp-use-cases.md)
+   + 报表 {#lp-reporting}
+      + [登陆页面报告](using/landing-pages/lp-report.md)
+      + [订阅列表报告](using/landing-pages/subscription-report.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
