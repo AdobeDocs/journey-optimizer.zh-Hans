@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # 登陆页面报表 {#lp-report}
 
-订阅报表显示有关登陆页面影响的详细信息。 有两种报表类型可用：
+登陆页面报表显示有关登陆页面影响的详细信息。 有两种报表类型可用：
 
 * 的 **[!UICONTROL Live report]** ，以仅测量和可视化登陆页面在过去24小时内的成功情况。
 
