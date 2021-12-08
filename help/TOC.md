@@ -190,10 +190,9 @@ ht-degree: 87%
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自定义操作动态传递收藏集](using/building-journeys/collections.md)
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + 跟踪和监视{#reporting}
    + [消息监测](using/message-monitoring.md)
    + 实时报告{#live-report}
