@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 14%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >确保在 **[!UICONTROL Form]** 组件 **[!UICONTROL Call to action]** 部分。 [了解详情](design-lp.md)
+   >确保在主页面的 **[!UICONTROL Call to action]** 部分 **[!UICONTROL Form]** 组件。 [了解详情](design-lp.md)
 
 1. 配置并定义页面内容后， [发布](create-lp.md#publish) 登陆页面。
 
@@ -147,7 +147,7 @@ ht-degree: 14%
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. 在登陆页面上，如果收件人选中框并提交表单：
+   如果收件人选中框并提交表单：
 
    * 已选择退出的收件人将被重定向到确认消息屏幕。
 
