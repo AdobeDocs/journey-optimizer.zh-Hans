@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 19%
+source-wordcount: '847'
+ht-degree: 14%
 
 ---
 
@@ -105,39 +105,53 @@ ht-degree: 19%
 
 ### 配置选择退出 {#configure-opt-out}
 
-要让消息的收件人通过登陆页面取消订阅您的通信，请执行以下步骤。
+要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤。
 
-1. 构建 [登陆页面](create-lp.md). 使用特定于登陆页面的 **[!UICONTROL Form]** 组件，定义 **[!UICONTROL Opt-out]** 复选框并选择更新 **[!UICONTROL Channel (email)]**:所有通信中将禁用您登陆页面上选择退出框的用户档案。 [了解详情](design-lp.md)
+1. 创建登陆页面。 [了解详情](create-lp.md)
+
+1. 定义主页面。 [了解详情](create-lp.md#configure-primary-page)
+
+1. [设计](design-lp.md) 主页面内容：使用特定于登陆页面的 **[!UICONTROL Form]** 组件，定义 **[!UICONTROL Opt-out]** 复选框并选择更新 **[!UICONTROL Channel (email)]**:所有通信中将禁用您登陆页面上选择退出框的用户档案。
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. 在 [!DNL Journey Optimizer] 上[创建消息](../create-message.md)。
+1. 添加确认 [子页面](create-lp.md#configure-subpages) 将向提交表单的用户显示。
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >确保在 **[!UICONTROL Form]** 组件 **[!UICONTROL Call to action]** 部分。 [了解详情](design-lp.md)
+
+1. 配置并定义页面内容后， [发布](create-lp.md#publish) 登陆页面。
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [创建电子邮件](../create-message.md) in [!DNL Journey Optimizer].
 
 1. 选择内容中的文本，并 [插入链接](../message-tracking.md#insert-links) 使用上下文工具栏。 您还可以在按钮上使用链接。
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. 从 **[!UICONTROL Link type]** 下拉列表中选择 **[!UICONTROL Landing page]**。
-
-1. 选择 [登陆页面](create-lp.md#configure-primary-page) 您为选择退出而创建的。
+1. 选择 **[!UICONTROL Landing page]** 从 **[!UICONTROL Link type]** 下拉列表中，然后选择 [登陆页面](create-lp.md#configure-primary-page) 您为选择退出而创建的。
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. 单击 **[!UICONTROL Save]**。
-
 1. 保存您的内容并[发布您的消息](../publish-manage-message.md)。
 
-1. 通过 [历程](../building-journeys/journey.md).
+1. 通过历程发送您的消息。 [了解详情](../building-journeys/journey.md)。
 
-1. 收到消息后，如果收件人单击取消订阅链接，将显示您的登陆页面。
+1. 收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. 如果收件人单击登陆页面中的选择退出链接，则用户档案数据会更新，除非再次订阅，否则将不会从您的品牌接收通信。
+1. 在登陆页面上，如果收件人选中框并提交表单：
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * 已选择退出的收件人将被重定向到确认消息屏幕。
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * 用户档案数据已更新，除非再次订阅，否则将不会从您的品牌接收通信。
 
 要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
 
