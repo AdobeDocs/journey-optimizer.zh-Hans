@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 * 未能遵守这些法规会为您的品牌带来法律监管风险。
 * 它有助于避免向收件人发送未经请求的通信，这种通信可能会使他们将您的消息标记为垃圾邮件并损害您的声誉。
 
-了解有关管理隐私和 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)中进一步了解管理隐私和适用的法规。
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -32,20 +32,20 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 ## 选择退出管理 {#opt-out-management}
 
-向收件人提供取消从品牌接收通信的功能是一项法律要求。详细了解 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}。
+向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target=&quot;_blank&quot;}中进一步了解适用的法规。
 
 因此，您必须在发送给收件人的每封电子邮件中都加入&#x200B;**取消订阅链接**：
 
 * 单击此链接后，收件人将被定向到一个包含确认取消订阅按钮的登陆页面。
 * 点击选择退出按钮后，将进行 Adobe I/O 调用以使用此信息更新用户档案数据。[了解有关此内容的更多信息](#consent-service-api)。
 
-### 添加退订链接 {#add-unsubscribe-link}
+### 添加取消订阅链接 {#add-unsubscribe-link}
 
 要添加取消订阅链接，请执行以下步骤：
 
 1. 构建退订登陆页面。
 
-1. 将其托管在您选择的第三方系统上。
+1. 在您选择的第三方系统上托管它。
 
 1. 在 [!DNL Journey Optimizer] 上[创建消息](../../help/using/create-message.md)。
 
@@ -59,7 +59,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    ![](assets/opt-out-link-type.png)
 
-1. 在 **[!UICONTROL Link]** 字段中，将链接粘贴到登陆页面。
+1. 在 **[!UICONTROL Link]** 字段中，将链接粘贴到您的登陆页面。
 
    ![](assets/opt-out-link-url.png)
 
@@ -85,7 +85,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
-要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -139,13 +139,13 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
 
-## 一键单击选择退出 {#one-click-opt-out}
+## 一键式选择退出 {#one-click-opt-out}
 
-由于许多客户希望获得更轻松的取消订阅流程，因此您还可以在电子邮件内容中添加一键单击选择退出链接。 此链接可让您的收件人快速退订您的通信，而无需重定向到需要确认退出的登陆页面。
+鉴于许多客户希望取消订阅流程更加简单，您还可以在电子邮件内容中添加一键式选择退出链接。这个链接可让您的收件人快速取消订阅您的通信，而无需重定向到需要确认退出的登陆页面。
 
-了解如何在 [此部分](message-tracking.md#one-click-opt-out-link).
+在[本节](message-tracking.md#one-click-opt-out-link)中了解如何在您的消息内容中添加选择退出链接。
 
-通过 [历程](building-journeys/journey.md)，则当收件人单击选择退出链接时，其用户档案会立即被选择退出。
+通过[历程](building-journeys/journey.md)发送消息后，如果收件人点击了选择退出链接，会立即选择退出他们的用户档案。
 
 ## 标头中的取消订阅链接 {#unsubscribe-email}
 
@@ -157,7 +157,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 根据电子邮件客户端的不同，单击标头中的取消订阅链接将产生以下影响之一：
 
-* 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。在 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+* 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
 
 * 它与单击电子邮件内容中的取消订阅链接具有相同的效果：收件人将被重定向至一个包含确认退订按钮的登陆页面。在[此部分中](#opt-out-management)中了解有关选择退出管理的更多信息。
 
