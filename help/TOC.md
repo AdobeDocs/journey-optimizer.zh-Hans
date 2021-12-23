@@ -6,15 +6,15 @@ user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Adobe Journey Optimizer帮助 {#using}
+# Adobe Journey Optimizer 帮助 {#using}
 
-+ [Journey Optimizer文档](ajo-home.md)
++ [Journey Optimizer 文档](ajo-home.md)
 + 新增功能{#whats-new}
    + [发行说明](using/release-notes.md)
    + [最近更新](using/documentation-updates.md)
@@ -35,8 +35,8 @@ ht-degree: 87%
       + [创建电子邮件](using/create-email.md)
       + [创建推送通知](using/create-push.md)
       + [创建短信消息](using/create-sms.md)
-   + [添加和管理资产](using/assets-essentials.md)
-   + 设计电子邮件 {#email-designer}
+   + [添加和管理资源](using/assets-essentials.md)
+   + 设计电子邮件{#email-designer}
       + [电子邮件设计入门](using/design-emails.md)
       + [在 UI 中设计电子邮件内容](using/create-email-content.md)
       + [导入或编码电子邮件内容](using/existing-content.md)
@@ -55,7 +55,7 @@ ht-degree: 87%
       + [订单状态通知](using/personalization/personalization-use-case.md)
       + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
    + 辅助函数{#functions}
-      + [帮助程序函数快速入门](using/personalization/functions/functions.md)
+      + [辅助函数入门](using/personalization/functions/functions.md)
       + [聚合函数](using/personalization/functions/aggregation.md)
       + [算术函数](using/personalization/functions/arithmetic-functions.md)
       + [数组和列表函数](using/personalization/functions/arrays-list.md)
@@ -66,12 +66,12 @@ ht-degree: 87%
       + [目标函数](using/personalization/functions/objects.md)
       + [字符串函数](using/personalization/functions/string.md)
    + [添加个性化优惠](using/deliver-personalized-offers.md)
-+ 区段、用户档案和身份{#segment}
-   + 区段 {#segments}
-      + [区段快速入门](using/segment/about-segments.md)
-      + [生成区段](using/segment/creating-a-segment.md)
-   + [配置文件](using/get-started-profiles.md)
-   + [身份](using/get-started-identity.md)
++ 区段、用户档案和标识{#segment}
+   + 区段{#segments}
+      + [区段入门](using/segment/about-segments.md)
+      + [构建区段](using/segment/creating-a-segment.md)
+   + [用户档案](using/get-started-profiles.md)
+   + [标识](using/get-started-identity.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
@@ -99,7 +99,7 @@ ht-degree: 87%
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-classic.md)
       + [跳转](using/building-journeys/jump.md)
       + [更新用户档案](using/building-journeys/update-profiles.md)
-   + 生成表达式 {#building-advanced-conditions-journeys}
+   + 构建表达式 {#building-advanced-conditions-journeys}
       + [概述](using/building-journeys/expression/expressionadvanced.md)
       + 语法 {#syntax}
          + [概述](using/building-journeys/expression/generalities.md)
@@ -188,12 +188,13 @@ ht-degree: 87%
    + 使用案例{#journey-use-cases}
       + [发送多渠道消息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
-      + [使用自定义操作动态传递收藏集](using/building-journeys/collections.md)
+      + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
-+ 跟踪和监视{#reporting}
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
++ 跟踪和监控 {#reporting}
    + [消息监测](using/message-monitoring.md)
    + 实时报告{#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
@@ -208,7 +209,7 @@ ht-degree: 87%
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
-      + 旧版步骤事件字段 {#legacy-step-event-fields}
+      + 旧版步骤事件字段{#legacy-step-event-fields}
          + [关于旧版字段](using/reports/sharing-legacy-fields.md)
          + [历程字段](using/reports/sharing-journey-fields.md)
          + [常用字段](using/reports/sharing-common-fields.md)
@@ -220,14 +221,14 @@ ht-degree: 87%
       + [可投放性入门](using/deliverability.md)
       + [禁止列表](using/suppression-list.md)
       + [允许列表](using/allow-list.md)
-+ 登陆页面 {#landing-pages}
++ 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
    + [设计登陆页面](using/landing-pages/design-lp.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
    + [用例](using/landing-pages/lp-use-cases.md)
-   + 报表 {#lp-reporting}
-      + [登陆页面报告](using/landing-pages/lp-report.md)
+   + 报告 {#lp-reporting}
+      + [登陆页面报表](using/landing-pages/lp-report.md)
       + [订阅列表报告](using/landing-pages/subscription-report.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started}
@@ -249,7 +250,7 @@ ht-degree: 87%
       + [创建决策](using/offers/offer-activities/create-offer-activities.md)
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
       + [创建模拟](using/offers/offer-activities/simulation.md)
-   + 创建决策管理报告 {#create-reports}
+   + 创建决策管理报表 {#create-reports}
       + [决策管理事件入门](using/offers/reports/get-started-events.md)
       + [决策管理事件关键信息](using/offers/reports/key-information.md)
       + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)
@@ -324,7 +325,7 @@ ht-degree: 87%
             + [委派子域](using/configuration/delegate-subdomain.md)
             + [访问委派的子域](using/configuration/access-subdomains.md)
             + [添加 Google TXT 记录](using/configuration/google-txt.md)
-            + [访问和编辑PTR记录](using/configuration/ptr-records.md)
+            + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
          + [创建 IP 池](using/configuration/ip-pools.md)
          + 监测电子邮件地址{#monitor-reputation}
             + [管理禁止列表](using/configuration/manage-suppression-list.md)
