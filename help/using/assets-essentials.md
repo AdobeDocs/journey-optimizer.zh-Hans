@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。 它可以直接从 [!DNL Adobe Journey Optimizer] 到 **[!UICONTROL Assets]** 中。 在设计电子邮件内容时，您还可以访问资产和文件夹。 [了解有关电子邮件设计的更多信息](design-emails.md).
 
->[!NOTE]
->
-> 使用 [!DNL Adobe Experience Manager Assets Essentials]，则需要部署 [!DNL Assets Essentials] ，并确保需要访问 [!DNL Assets Essentials]，是 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 <br> 有关此内容的更多信息，请参阅此内容 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+使用之前 [!DNL Adobe Experience Manager Assets Essentials]，则必须将用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 [有关更多信息，请参阅Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
-有关 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
+>[!NOTE]
+>对于在2022年1月6日之前获取的Journey Optimizer产品，您必须部署 [!DNL Adobe Experience Manager Assets Essentials] 为贵组织。 在 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}部分。
 
 ## 上传和插入资产{#add-asset}
 
@@ -55,7 +54,7 @@ ht-degree: 1%
 
 1. 上传资产后，您现在可以通过Email designer将资产插入其中一条消息。
 
-   您的资产还可以使用 **编辑** 模式 [!DNL Assets Essentials]. [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}。
+   您的资产还可以使用 **编辑** 模式 [!DNL Assets Essentials]. [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
