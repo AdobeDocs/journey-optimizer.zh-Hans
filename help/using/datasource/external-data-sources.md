@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 89%
@@ -185,4 +185,4 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留已缓存在服务中，不存在持久性。 如果服务重新启动，则会以干净的缓存启动。 默认情况下，缓存持续时间为1小时。 在自定义操作有效负载中，可以通过指定另一个保留持续时间来调整它。
+>缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留已缓存在服务中，不存在持久性。 如果服务重新启动，则会以干净的缓存启动。 默认情况下，缓存持续时间为1小时。 在自定义身份验证有效负载中，可以通过指定另一个保留持续时间来调整该有效负载。
