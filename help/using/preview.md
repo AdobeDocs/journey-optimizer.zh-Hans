@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
+source-git-commit: ac60e5a3bdf2369d7a5c83dbf9dcdb97580af9f4
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 3%
@@ -48,8 +48,6 @@ ht-degree: 3%
 >abstract="定义消息内容后，即可使用测试用户档案进行预览和测试。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="电子邮件渲染"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="预览"
-
-
 
 使用 [测试用户档案](building-journeys/creating-test-profiles.md) 以定位不符合所定义定位标准的其他收件人。
 

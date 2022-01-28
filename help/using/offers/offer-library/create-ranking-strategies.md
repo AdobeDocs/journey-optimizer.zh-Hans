@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 4%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -31,6 +31,22 @@ ht-degree: 4%
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
 创建排名策略后，将其分配给决策中的版面。 在 [在决策中配置选件选择](../offer-activities/configure-offer-selection.md).
+
+### 自动优化模型 {#auto-optimization}
+
+当前位于 [!DNL Journey Optimizer] AI排名唯一支持的模型类型是 **自动优化**.
+
+自动优化模型旨在根据您设置的关键绩效指标(KPI)，提供可最大化回报的选件。 <!--These KPIs could be in the form of conversion rates, revenue, etc.-->此时，自动优化将重点放在以选件转化为目标来优化选件点击量。
+
+>[!NOTE]
+>
+>自动优化模型不使用任何上下文或用户配置文件数据。 它会根据选件的全局性能来优化结果。
+
+通过自动优化，挑战在于在探索性学习与对该学习的利用之间取得平衡。 这个原则称为 **&quot;多臂老虎机&quot;方法**.
+
+为了应对此挑战，自动优化模型使用 **汤普森采样** 方法，其允许确定追求哪种选择以最大化预期回报。 换句话说，汤普森采样是一种用于解决多臂老虎机问题中探索开发难题的强化学习技术。
+
+汤普森采样方法还能够处理诸如“冷启动”问题等挑战，即当营销活动中引入新选件时，它没有任何可从中进行培训的历史记录。
 
 ## 创建排名策略 {#create-ranking-strategy}
 
@@ -139,9 +155,80 @@ ht-degree: 4%
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-当 [创建排名策略](#create-ranking-strategy).
+现在，可以选择数据集以在 [创建排名策略](#create-ranking-strategy).
 
-<!--## Using a ranking strategy {#using-ranking}
+## 提供架构要求 {#schema-requirements}
+
+此时，您必须具有：
+
+* 制定了排名策略，
+* 定义要捕获的事件类型 — 显示的选件（展示次数）和/或点击的选件（转化），
+* 以及要在哪个数据集中收集事件数据。
+
+现在，每次显示和/或单击选件时，您都希望 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或Mobile SDK。
+
+要发送事件类型（显示的选件或点击的选件），您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 以下是在JavaScript代码中实施所需的架构要求：
+
+**方案：** 显示的选件
+**事件类型：** `decisioning.propositionDisplay`
+**来源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量摄取
+**有效负载示例：**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionDisplay",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4",
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5",
+                }
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+        }
+    ]
+}
+```
+
+**方案：** 已单击选件
+**事件类型：** `decisioning.propositionInteract`
+**来源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量摄取
+**有效负载示例：**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionInteract",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4"
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5"
+                },
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id
+        }
+    ]
+}
+```
+
+<!--
+## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
@@ -156,5 +243,6 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
+-->
 

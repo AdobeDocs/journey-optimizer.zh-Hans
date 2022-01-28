@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 3%
@@ -66,7 +66,6 @@ ht-degree: 3%
    >[!NOTE]
    >   
    >您可以使用表达式编辑器使用用户档案数据个性化您的消息。 有关个性化的更多信息，请参阅 [此部分](personalization/personalize.md).
-
 
 1. 使用左侧的预览部分控制消息的呈现，并使用测试用户档案检查个性化设置。 如需详细信息，请参阅[此部分](preview.md)。
 

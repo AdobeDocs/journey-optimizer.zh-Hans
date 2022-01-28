@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 2%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -87,8 +88,6 @@ ht-degree: 2%
 1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 
    ![](../assets/preset-active.png)
-
-要了解如何为推送通知和电子邮件配置消息预设，请参阅 [此部分](message-presets.md).
 
 现在，您可以使用Journey Optimizer发送短信消息。
 

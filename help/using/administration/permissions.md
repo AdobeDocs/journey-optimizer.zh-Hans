@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 14%
@@ -103,7 +103,7 @@ ht-degree: 14%
 
 有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-在本例中，我们将创建一个名为 **历程只读** 我们将为历程功能授予只读权限。 用户将只能访问和查看历程，并且将无法访问其他功能，例如 **[!UICONTROL Decision management]** 或 **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+在本例中，我们将创建一个名为 **历程只读** 我们将为历程功能授予只读权限。 用户将只能访问和查看历程，并且将无法访问其他功能，例如 **[!DNL  Decision management]** 或 **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 创建 **历程只读** **[!UICONTROL product profiles]**:
 
@@ -125,7 +125,7 @@ ht-degree: 14%
 
 1. 要为用户添加访问不同功能的权限，请选择 **[!UICONTROL Permissions]** 选项卡。
 
-1. 在不同的功能(例如 **[!UICONTROL Messages]**, **[!UICONTROL Segments]** 或 **[!UICONTROL Decision management]** 可用 [!DNL Journey Optimizer] 在左侧菜单中列出。
+1. 在不同的功能(例如 **[!DNL Messages]**, **[!DNL Segments]** 或 **[!DNL Decision management]** 可用 [!DNL Journey Optimizer] 在左侧菜单中列出。
 
    在此，我们选择 **[!UICONTROL Journeys]** 功能。
 
@@ -133,7 +133,7 @@ ht-degree: 14%
 
 1. 从 **[!UICONTROL Available Permission Items]** 列表中，选择要分配给 **[!UICONTROL Product profile]** 单击加号(+)图标。
 
-   在此，我们选择 **[!UICONTROL View journeys]** 和 **[!UICONTROL View journeys event, data sources, actions]**.
+   在此，我们选择 **[!DNL View journeys]** 和 **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1ba8d8cd6b95d7a0dfa50096f1a1f64909fe8d17
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,6 @@ ht-degree: 0%
 >id="ac_edition_backgroundimage"
 >title="背景设置"
 >abstract="电子邮件设计工具允许您个性化内容的背景颜色或背景图像。请注意，并非所有电子邮件客户都支持背景图像。"
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="其他信息"
 
 在使用Email Designer设置背景时，Adobe建议执行以下操作：
 

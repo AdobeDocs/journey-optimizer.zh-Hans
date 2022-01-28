@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 3%
 发布消息后，该消息将添加到消息列表，其中包含 **[!UICONTROL Published]** 状态。
 
 现在，它已准备好由一个或多个 [历程](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>现在，当您更新发布的消息中直接或间接引用的选件、备用选件、选件收藏集或选件决策时，更新会自动反映在相应的消息中，而无需重新发布。 [了解有关优惠的更多信息](offers/get-started/starting-offer-decisioning.md)
 
 ## 更新只读消息 {#modify-message}
 

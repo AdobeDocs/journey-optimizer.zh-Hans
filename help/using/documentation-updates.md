@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,18 @@ ht-degree: 100%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
 
+## 2022 年 1 月
+
+* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’22年1月版进行了详细介绍。 [了解更多信息](release-notes.md)
+
+* offer decisioningAI排名部分已更新，更详细地描述了自动优化模型。 [了解更多信息](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* 添加了关于在使用排名策略时需要能够发送事件类型的架构要求的新部分。 [了解更多信息](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## 2021 年 11 月
 
 * 现在提供了历程中使用的高级表达式编辑器的完整说明。[了解更多信息](building-journeys/expression/expressionadvanced.md)
-* 新的 CNAME 子域委派方法。[了解更多信息](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* 添加了关于CNAME子域委派方法的新章节。 [了解更多信息](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## 2021 年 10 月
 

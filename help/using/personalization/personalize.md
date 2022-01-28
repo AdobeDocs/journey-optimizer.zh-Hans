@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 13%
+source-wordcount: '757'
+ht-degree: 11%
 
 ---
 
@@ -114,6 +114,24 @@ Discover [!DNL Adobe Journey Optimizer] 个性化功能，通过利用您拥有�
 在以下示例中，表达式编辑器允许您选择今天生日的用户档案，然后通过插入与当天对应的特定选件来完成自定义。
 
 ![](assets/perso_ee2.png)
+
+### 添加到收藏夹{#fav}
+
+通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。 要向收藏夹添加属性，请单击椭圆菜单，然后选择 **[!UICONTROL Add to favorites]**.
+
+![](assets/favorite-option.png)
+
+要访问您收藏的项目，请使用 **[!UICONTROL Favorites]** 菜单选项。
+
+![](assets/favorite-menu.png)
+
+从此列表中，您可以快速将个性化对象添加到当前表达式。
+
+![](assets/favorite-list.png)
+
+如果您不希望在收藏夹列表中再看到项目，则可以从收藏夹中删除。
+
+![](assets/favorite-remove.png)
 
 ## 操作方法视频{#video-perso}
 

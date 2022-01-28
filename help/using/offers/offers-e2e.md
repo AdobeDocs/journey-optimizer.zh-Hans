@@ -1,15 +1,15 @@
 ---
 title: 在电子邮件中使用个性化优惠
-description: 了解一个端到端示例，其中显示了配置选件并在电子邮件中使用它们所需的所有步骤。
+description: 探索一个端到端示例，其中显示配置选件和在电子邮件中使用它们所需的所有步骤。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 4%
+source-wordcount: '1343'
+ht-degree: 5%
 
 ---
 
@@ -258,6 +258,10 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 在 [此部分](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 保存更改后并发布消息后，在历程中发送消息时，您的选件即可显示到相关用户档案。
+
+>[!NOTE]
+>
+>当您更新选件、备用选件、选件集合或选件决策时，该选件会直接或间接地在 [发布](../../using/publish-manage-message.md) 消息，则更新现在会自动反映在相应的消息中，而无需重新发布。
 
 **相关主题：**
 

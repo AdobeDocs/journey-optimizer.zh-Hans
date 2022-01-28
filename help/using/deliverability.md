@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 4d5e4f4295997083eb257290043b014acdcd971a
+source-git-commit: 99bbe96fb4e6e001c4eaba38ff445afb847670eb
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 1%
+source-wordcount: '654'
+ht-degree: 0%
 
 ---
 
@@ -78,10 +78,8 @@ Spammers are also known to replace text with images to stop offending text from 
 
 [了解有关设计电子邮件内容的更多信息](design-emails.md).
 
-<!--
-## Establish your reputation as a sender
+## 建立发件人的声誉
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+如果您最近转移到其他电子邮件服务提供商、IP地址、电子邮件域或子域，则需要确立您作为发件人的声誉。 否则，您的投放可能会被阻止或移动到收件人邮箱的垃圾邮件文件夹中。
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
--->
+要预热IP，您可以逐步增加投放数量。 请参阅 [用例](building-journeys/ramp-up-deliveries-uc.md).

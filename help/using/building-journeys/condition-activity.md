@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 10%
+source-wordcount: '1167'
+ht-degree: 8%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 10%
 * [时间条件](#time_condition)
 * [百分比拆分](#percentage_split)
 * [日期条件](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [配置文件上限](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ ht-degree: 10%
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## 配置文件上限 {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+使用此条件类型为历程路径设置最大用户档案数。 达到此限制后，输入的用户档案会采用替代路径。 这可确保您的历程永远不会超出定义的限制。
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+您可以使用此条件类型来增加投放的数量。 请参阅 [用例](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+默认上限为1000。
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+计数器仅适用于选定的历程版本。 计数器在一个月后重置为零。 重置后，进入的用户档案将再次采用标称路径，直到达到计数器限制。
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+即使您将替代路径移动到历程画布上的标称路径上方，标称路径始终比替代路径具有优先级。
+
+对于实时历程，请考虑以下阈值以确保达到限制：
+
+* 对于大于10000的帽，要插入的不同轮廓的数量必须至少是帽的1.3倍。
+* 对于低于10000的上限，要插入的不同配置文件的数量必须加上上限。
+
+在测试模式下，未考虑配置文件上限。
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## 在条件中使用区段 {#using-a-segment}
 
