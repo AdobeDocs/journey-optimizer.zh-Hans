@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01573675c28972f863e3516577d8a06b403de312
+source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 97%
@@ -51,12 +51,12 @@ ht-degree: 97%
 + 个性化{#personalization}
    + [入门个性化](using/personalization/personalize.md)
    + [个性化上下文](using/personalization/personalization-contexts.md)
-   + 使用表达式编辑器 {#expression-editor}
-      + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
-      + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
-      + [个性化验证](using/personalization/personalization-validation.md)
    + 构建表达式 {#build-expressions}
       + [个性化语法](using/personalization/personalization-syntax.md)
+      + 使用表达式编辑器 {#expression-editor}
+         + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
+         + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
+         + [个性化验证](using/personalization/personalization-validation.md)
       + 辅助函数{#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
