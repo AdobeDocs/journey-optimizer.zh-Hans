@@ -16,7 +16,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
+source-git-commit: 6e5bdf6a23621b7f645283dc6486d485bd8ee8cf
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 10%
@@ -29,7 +29,6 @@ ht-degree: 10%
 >id="ajo_admin_subdomainname"
 >title="关于子域委派"
 >abstract="Journey Optimizer允许您将子域完全委派给Adobe。 Adobe将能够通过控制和维护DNS的所有方面，以托管服务的形式来传递消息。"
-
 
 域名委派是允许域名所有者的方法(技术上为：DNS区域)，以委派其分区(技术上：其下的DNS区域（可称为子区域）到其他实体。 基本上，作为客户，如果您正在处理“example.com”区域，则可以将子区域“marketing.example.com”委派给Adobe。
 
