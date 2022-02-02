@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 * offer decisioningAI排名部分已更新，更详细地描述了自动优化模型。 [了解更多信息](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
 * 添加了关于在使用排名策略时需要能够发送事件类型的架构要求的新部分。 [了解更多信息](offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* 与 [!DNL Journey Optimizer] 个性化功能已重新组织，以便更好地阅读。 [了解更多信息](personalization/personalize.md)
 
 ## 2021 年 11 月
 
