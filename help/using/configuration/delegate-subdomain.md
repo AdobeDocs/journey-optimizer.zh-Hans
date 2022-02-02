@@ -16,14 +16,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
+source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 6%
+source-wordcount: '1429'
+ht-degree: 10%
 
 ---
 
 # 委派子域
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="关于子域委派"
+>abstract="Journey Optimizer允许您将子域完全委派给Adobe。 Adobe将能够通过控制和维护DNS的所有方面，以托管服务的形式来传递消息。"
+
 
 域名委派是允许域名所有者的方法(技术上为：DNS区域)，以委派其分区(技术上：其下的DNS区域（可称为子区域）到其他实体。 基本上，作为客户，如果您正在处理“example.com”区域，则可以将子区域“marketing.example.com”委派给Adobe。
 
@@ -91,15 +97,15 @@ ht-degree: 6%
 >
 >中当前不支持并行执行子域 [!DNL Journey Optimizer]. 如果您尝试在另一个域具有 **[!UICONTROL Processing]** 状态时，您将收到一条错误消息。
 
-## CNAME子域委派 {#cname-subdomain-delegation}
+## CNAME 子域委派 {#cname-subdomain-delegation}
 
 如果您具有特定于域的限制策略，并且您希望Adobe仅对DNS进行部分控制，则可以选择在您的一方执行所有与DNS相关的活动。
 
-CNAME子域委派允许您创建子域，并使用CNAME指向特定于Adobe的记录。 使用此配置，您和Adobe共同负责维护DNS，以设置用于发送、渲染和跟踪电子邮件的环境。
+CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 的记录。使用此配置，您和 Adobe 共同负责维护 DNS，以设置用于发送、渲染和跟踪电子邮件的环境。
 
 >[!CAUTION]
 >
->如果贵组织的策略限制了完整的子域委派方法，则建议使用此方法。 这种方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+>如果您所在组织的策略对完全子域委派方法有限制，则建议使用此方法。这种方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
 
 要使用CNAME委派子域，请执行以下步骤：
 
