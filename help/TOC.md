@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 97%
@@ -28,7 +28,7 @@ ht-degree: 97%
       + [开发人员入门](using/path/developer.md)
    + [用户界面](using/user-interface.md)
    + [限制](using/limitations.md)
-+ 消息 {#create-messages}
++ 消息 {#messages}
    + [消息入门](using/get-started-content.md)
    + 创建消息 {#create-message}
       + [创建消息](using/create-message.md)
@@ -43,7 +43,7 @@ ht-degree: 97%
       + [导入或编码电子邮件内容](using/existing-content.md)
       + [使用电子邮件设计器内容组件](using/content-components.md)
    + [添加链接和跟踪消息](using/message-tracking.md)
-   + 验证并发布 {#create-message}
+   + 验证并发布 {#validate}
       + [预览和证明](using/preview.md)
       + [检查警报](using/alerts.md)
       + [发布消息](using/publish-manage-message.md)
@@ -233,7 +233,7 @@ ht-degree: 97%
       + [登陆页面报表](using/landing-pages/lp-report.md)
       + [订阅列表报告](using/landing-pages/subscription-report.md)
 + 决策管理{#offer-decisioniong}
-   + 决策管理入门 {#get-started}
+   + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
       + [用户界面](using/offers/get-started/user-interface.md)
       + [创建和管理优惠的关键步骤](using/offers/offer-library/key-steps.md)
@@ -315,13 +315,13 @@ ht-degree: 97%
    + [架构](using/get-started-schemas.md)
    + [数据集](using/get-started-datasets.md)
    + [查询](using/get-started-queries.md)
-+ 配置{#get-started}
++ 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
-   + 配置消息{#configuration}
+   + 配置消息{#configuration-message}
       + 推送通知配置{#push-config}
          + [推送配置入门](using/push-gs.md)
          + [配置推送通知渠道](using/push-configuration.md)
-      + 电子邮件配置{#email-config}
+      + 电子邮件配置{#email-configuration}
          + 委派子域{#delegate-subdomains}
             + [子域委派入门](using/configuration/about-subdomain-delegation.md)
             + [委派子域](using/configuration/delegate-subdomain.md)
@@ -356,7 +356,7 @@ ht-degree: 97%
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
    + [源](using/get-started-sources.md)
-+ 访问控制 {#administration}
++ 访问控制 {#access-control}
    + [访问控制概述](using/administration/permissions-overview.md)
    + [内置产品配置文件](using/administration/ootb-product-profiles.md)
    + [管理用户和产品配置文件](using/administration/permissions.md)

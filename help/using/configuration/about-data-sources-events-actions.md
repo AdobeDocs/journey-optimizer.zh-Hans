@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 56%
 
 ---
 
-# 配置历程
+# 配置历程 {#configure-journeys}
 
 要随历程发送消息，您需要配置 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**.
 
@@ -23,7 +23,7 @@ ht-degree: 56%
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。 [了解详情](../../using/datasource/about-data-sources.md)
 
-## 事件
+## 活动
 
 事件允许您触发旅程，以便实时向流入旅程的个人发送消息。
 
