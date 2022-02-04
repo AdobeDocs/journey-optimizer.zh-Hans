@@ -1,12 +1,12 @@
 ---
 title: 个性化用例&冒号；订单状态通知
-description: 了解如何使用用户档案、选件决策和上下文信息对消息进行个性化
+description: 了解如何使用用户档案、选件决策和上下文信息对消息进行个性化。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 对于此用例，需要满足以下先决条件：
 
-* 创建和设计推送通知消息，而不发布。 请参阅 [部分](../create-message.md).
+* 创建和设计推送通知消息，而不发布。 请参阅 [部分](../messages/create-message.md).
 * 配置订单事件，包括订单编号、状态和物料名称。 请参阅 [部分](../event/about-events.md).
 * 创建决策（以前称为“选件活动”），请参阅 [部分](../offers/offer-activities/create-offer-activities.md).
 
-## 第1步 — 在用户档案中添加个性化
+## 第1步 — 在用户档案中添加个性化 {#add-perso}
 
 1. 单击 **[!UICONTROL Message]** ，然后选择您的消息。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
    >
    >留言稿。 尚未发布。
 
-## 第2步 — 创建历程
+## 第2步 — 创建历程 {#create-journey}
 
 1. 单击 **[!UICONTROL Journeys]** 菜单，并创建新历程。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
    >
    >此时将显示一条警告图标的消息。 这是因为消息尚未发布。
 
-## 步骤3 — 基于上下文数据添加个性化
+## 步骤3 — 基于上下文数据添加个性化 {#add-perso-contextual-data}
 
 1. 从 **消息** 活动，单击 **打开消息** 图标。 此时将在新选项卡中打开消息。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc16.png)
 
-## 第4步 — 测试和发布历程
+## 第4步 — 测试和发布历程 {#test-publish}
 
 1. 再次打开历程。 如果历程已打开，请确保刷新页面。 现在，消息已发布，您可以看到历程中没有错误。 单击 **测试** 按钮，然后单击 **触发事件**.
 

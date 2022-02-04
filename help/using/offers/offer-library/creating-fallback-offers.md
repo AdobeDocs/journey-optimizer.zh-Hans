@@ -1,19 +1,18 @@
 ---
 title: 创建后备优惠
-description: 了解如何在Adobe Experience Platform中创建优惠。
-feature: Offers
+description: 了解如何创建后备优惠以向不符合任何优惠条件的客户显示
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
 
-# 创建后备优惠 {#creating-fallback-offers}
+# 创建后备优惠 {#create-fallback-offers}
 
 如果客户不符合其他选件的资格，则会向客户发送备用选件。 创建备用选件的步骤包括创建一个或多个表示形式，例如创建选件时。
 

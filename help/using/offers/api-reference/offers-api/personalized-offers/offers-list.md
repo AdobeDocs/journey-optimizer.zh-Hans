@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 5%
 
 ---
 
-# 列出个性化优惠
+# 列出个性化优惠 {#list-personalized-offers}
 
 个性化优惠是基于资格规则和限制的可自定义营销消息。
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查询参数
+## 使用查询参数 {#using-query-parameters}
 
 列出资源时，您可以使用查询参数来页面和筛选结果。
 
-### 分页
+### 分页 {#paging}
 
 用于分页的最常见查询参数包括：
 

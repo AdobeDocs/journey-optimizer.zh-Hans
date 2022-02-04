@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9e6e4f30e2f0301157901ea211f984ebcfb99bc4
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-journey-activities.md#action-activities). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Slack、Adobe.io、Firebase等
 
-限制列在 [本页](../limitations.md).
+限制列在 [本页](../start/limitations.md).
 
 您可以使用自定义操作动态传递收藏集。 请参阅 [用例](../building-journeys/collections.md).
 
@@ -37,7 +37,7 @@ ht-degree: 6%
 1. 向操作添加描述。 此步骤是可选的。
 1. 使用此操作的历程数显示在 **[!UICONTROL Used in]** 字段。 您可以单击 **[!UICONTROL View journeys]** 按钮以显示使用此操作的历程列表。
 1. 定义不同的 **[!UICONTROL URL Configuration]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
-1. 配置 **[!UICONTROL Authentication]** 中。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+1. 配置 **[!UICONTROL Authentication]** 中。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
 1. 定义 **[!UICONTROL Action parameters]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击 **[!UICONTROL Save]**。
 

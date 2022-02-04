@@ -1,12 +1,12 @@
 ---
 title: 后备优惠数据集
-description: 此部分列出了导出数据集中用于备用选件的所有字段。
+description: 此部分列出了导出数据集中用于备用选件的所有字段
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 3%
@@ -27,14 +27,14 @@ ht-degree: 3%
 
 以下是可在 **[!UICONTROL Decision Object Repository - Fallback Offers]** 数据集。
 
-## 标识符
+## 标识符 {#identifier}
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
-## _experience（体验）
+## _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -179,7 +179,7 @@ ht-degree: 3%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **字段：** _repo
 **类型：** 对象

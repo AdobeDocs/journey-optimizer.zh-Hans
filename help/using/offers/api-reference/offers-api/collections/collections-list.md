@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 4%
 
 ---
 
-# 列出收藏集
+# 列出收藏集 {#list-collections}
 
 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查询参数
+## 使用查询参数 {#using-query-parameters}
 
 列出资源时，您可以使用查询参数来页面和筛选结果。
 
-### 分页
+### 分页 {#paging}
 
 用于分页的最常见查询参数包括：
 

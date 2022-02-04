@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 3%
 
 ---
 
-# 字段引用 {#concept_fkj_ll5_dgb}
+# 字段引用 {#field-references}
 
 字段引用可以附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
 

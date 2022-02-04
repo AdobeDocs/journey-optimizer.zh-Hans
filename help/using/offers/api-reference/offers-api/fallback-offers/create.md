@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 11%
 
 ---
 
-# 创建后备优惠
+# 创建后备优惠 {#create-fallback-offer}
 
 您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
-## 接受和内容类型标头
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
 下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 

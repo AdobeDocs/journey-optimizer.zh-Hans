@@ -1,19 +1,19 @@
 ---
 title: 创建优惠的关键步骤
-description: 探索创建选件所需的关键步骤。
+description: 了解创建优惠所需的关键步骤
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
-# 创建和管理优惠的关键步骤 {#key-steps}
+# 创建和管理优惠的关键步骤 {#key-steps-to-manage-offers}
 
 创建、配置和管理选件以及在决策中使用这些选件的主要步骤如下所示。
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 有关完整的端到端示例，请参阅如何配置选件、在决策中使用这些选件以及在电子邮件中利用此决策，以了解 [本页](../offers-e2e.md).
 
-## 创建组件
+## 创建组件 {#create-components}
 
 在开始创建选件之前，您必须定义要在选件中使用的多个组件。
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">创建排名公式</a></p></td>
 </table>
 
-## 创建和管理优惠
+## 创建和管理优惠 {#create-and-manage-offers}
 
 1. **创建选件**，并配置其内容和属性。
 
@@ -56,7 +56,7 @@ ht-degree: 13%
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">创建收藏集</a></p></td></tr>
 </table>
 
-## 创建和配置决策
+## 创建和配置决策 {#create-and-configure-decisions}
 
 1. **创建决策** 将版面与个性化选件和备用选件结合使用。 offer decisioning引擎将使用此组合来查找特定用户档案的最佳选件。
 

@@ -1,12 +1,12 @@
 ---
 title: 个性化优惠数据集
-description: 此部分列出了选件导出数据集中使用的所有字段。
+description: 此部分列出了选件导出数据集中使用的所有字段
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -29,14 +29,14 @@ ht-degree: 3%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 标识符
+## 标识符 {#identifier}
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
-## _experience（体验）
+## _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -314,7 +314,7 @@ ht-degree: 3%
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **字段：** _repo
 **类型：** 对象

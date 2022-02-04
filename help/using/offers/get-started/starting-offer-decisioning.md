@@ -1,19 +1,19 @@
 ---
 title: 决策管理入门
-description: 决策管理入门。 了解关于其架构、优惠和决策，及其允许您执行的常见使用案例的更多信息。
+description: 决策管理入门。 进一步了解其架构、优惠和决策，以及它允许您执行的常见用例
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
-# 关于决策管理 {#about-offer-decision}
+# 关于决策管理 {#about-decision-management}
 
 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 
 ➡️ [观看这些教程视频](#tutorial-videos) ，以了解有关决策管理的更多信息。
 
-## 关于优惠和决策 {#offers-offer-activities}
+## 关于优惠和决策 {#about-offers-and-decisions}
 
 **优惠**&#x200B;由内容、合格规则和限制条件（确定向客户呈现该优惠的条件）组成。
 
@@ -48,7 +48,7 @@ ht-degree: 87%
 
 决策是优惠的容器，它们将利用优惠决策引擎，以便根据投放目标来选择应投放的最合适的优惠。
 
-## 常见使用案例
+## 常见使用案例 {#common-use-cases}
 
 决策管理功能以及与 Adobe Experience Platform 的集成使您能够覆盖诸多使用案例，从而帮助您提高客户的参与度和转化率。
 

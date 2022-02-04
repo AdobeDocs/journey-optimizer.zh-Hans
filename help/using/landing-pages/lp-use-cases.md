@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 19%
@@ -32,7 +32,7 @@ ht-degree: 19%
 
 例如，假设您下月组织了一个事件，并且想要启动一个事件注册营销活动<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含指向登陆页面的链接，以便您的收件人注册参加此活动。 注册的用户将添加到您为此创建的订阅列表中。
 
-### 设置登陆页面
+### 设置登陆页面 {#set-up-lp}
 
 1. 创建事件注册的订阅列表，该列表将存储注册的用户。 了解如何创建订阅列表 [此处](subscription-list.md#define-subscription-list).
 
@@ -52,13 +52,13 @@ ht-degree: 19%
 
 1. [发布](create-lp.md#publish) 登陆页面。
 
-1. [创建电子邮件](../create-message.md) 以宣布注册现已对您的活动开放。
+1. [创建电子邮件](../messages/create-message.md) 以宣布注册现已对您的活动开放。
 
-1. [插入链接](../message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
+1. [插入链接](../messages/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. 保存您的内容并[发布您的消息](../publish-manage-message.md)。
+1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
 
 1. 通过 [历程](../building-journeys/journey.md) 将流量引导至注册登陆页面。
 
@@ -92,7 +92,7 @@ ht-degree: 19%
 
 要使收件人取消订阅您的通信，您可以在电子邮件中包含一个指向选择退出登陆页面的链接。
 
-进一步了解管理收件人的同意，以及为什么在 [此部分](../consent.md).
+进一步了解管理收件人的同意，以及为什么在 [此部分](../messages/consent.md).
 
 ### 选择退出管理 {#opt-out-management}
 
@@ -129,9 +129,9 @@ ht-degree: 19%
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [创建电子邮件](../create-message.md) in [!DNL Journey Optimizer].
+1. [创建电子邮件](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. 选择内容中的文本，并 [插入链接](../message-tracking.md#insert-links) 使用上下文工具栏。 您还可以在按钮上使用链接。
+1. 选择内容中的文本，并 [插入链接](../messages/message-tracking.md#insert-links) 使用上下文工具栏。 您还可以在按钮上使用链接。
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ ht-degree: 19%
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. 保存您的内容并[发布您的消息](../publish-manage-message.md)。
+1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
 
 1. 通过历程发送您的消息。 [了解详情](../building-journeys/journey.md)。
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

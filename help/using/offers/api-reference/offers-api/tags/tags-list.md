@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 3%
 
 ---
 
-# 列出标记
+# 列出标记 {#list-tags}
 
 利用标记，可更好地组织和排序选件。 例如，您可以使用“黑色星期五”标记来标记黑色星期五选件。 然后，您可以使用选件库中的搜索功能轻松找到具有该标记的所有选件。
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## 使用查询参数
+## 使用查询参数 {#using-query-parameters}
 
 列出资源时，您可以使用查询参数来页面和筛选结果。
 
-### 分页
+### 分页 {#paging}
 
 用于分页的最常见查询参数包括：
 

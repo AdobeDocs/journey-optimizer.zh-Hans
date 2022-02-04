@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 7%
@@ -19,13 +19,13 @@ ht-degree: 7%
 
 在步骤处理期间，我们可以在字段组上获取N个数据。
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 在步骤处理期间，在以毫秒为单位获取数据所花费的总时间。
 
 类型：long
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 定义获取错误是在Adobe Experience Platform上还是在自定义数据源上。
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 * aep
 * 自定义
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 处理数据获取时发生的错误类型。
 
@@ -47,13 +47,13 @@ ht-degree: 7%
 * timedout
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 获取错误的代码。 如果错误包含代码（如HTTP代码），则存在。 例如，如果actionExecError为http，则代码404表示HTTP 404错误。
 
 类型：字符串
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 超时可能出现以下两种情况：
 
@@ -73,37 +73,37 @@ ht-degree: 7%
 
 类型：字符串
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 系统提供的错误代码 [!DNL Journey Orchestration] 正在查询。 例如，它可以是404、500等。
 
 类型：字符串
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 获取数据的次数，与源类型无关。
 
 类型：long
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 从Adobe Experience Platform（以米为单位）获取数据所花费的总时间。 备注：从引擎向扩充服务发送扩充事件并接收响应的时间开始计算此时间量。
 
 类型：long
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 从Adobe Experience Platform获取数据的次数。
 
 类型：long
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 以millis为单位获取自定义数据的时长。 备注：从引擎向扩充服务发送扩充事件并接收响应的时间开始计算此时间量
 
 类型：long
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 从外部系统获取自定义数据的次数。
 

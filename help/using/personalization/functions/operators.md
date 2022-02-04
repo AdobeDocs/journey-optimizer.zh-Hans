@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # 操作员 {#operators}
 
-## 布尔函数
+## 布尔函数 {#boolean-functions}
 
 布尔函数用于对不同元素执行布尔逻辑。
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## 比较函数
+## 比较函数 {#comparison-functions}
 
 比较函数用于比较不同表达式和值，并相应地返回true或false。
 

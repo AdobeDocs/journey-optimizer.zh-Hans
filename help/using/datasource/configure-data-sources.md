@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 17%
@@ -21,7 +21,7 @@ ht-degree: 17%
 >
 >数据源配置操作必须始终由&#x200B;**技术用户**&#x200B;执行。
 
-1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Data Sources]** ，单击 **[!UICONTROL Manage]**. 将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../user-interface.md)。
+1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Data Sources]** ，单击 **[!UICONTROL Manage]**. 将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../start/user-interface.md)。
 
    ![](../assets/journey18.png)
 

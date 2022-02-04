@@ -6,20 +6,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
 
 ---
 
-# 关于ExperienceEvent架构(适用于 [!DNL Journey Optimizer] 事件
+# 关于ExperienceEvent架构(适用于 [!DNL Journey Optimizer] 事件 {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer] 事件是通过流摄取发送到Adobe Experience Platform的XDM体验事件。
 
 因此，为设置事件的重要先决条件 [!DNL Journey Optimizer] 您应该熟悉Adobe Experience Platform的体验数据模型（或XDM）、如何构建XDM体验事件架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
 
-## 架构要求 [!DNL Journey Optimizer] 事件
+## 架构要求 [!DNL Journey Optimizer] 事件  {#schema-requirements}
 
 设置事件的第一步 [!DNL Journey Optimizer] 是为了确保您定义了用于表示事件的XDM架构，并创建了一个数据集，用于记录Adobe Experience Platform上该事件的实例。 并非完全需要为事件创建一个数据集，但将事件发送到特定数据集将允许您维护用户的事件历史记录以供将来参考和分析，因此始终都是一个好主意。 如果您还没有适用于事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
 

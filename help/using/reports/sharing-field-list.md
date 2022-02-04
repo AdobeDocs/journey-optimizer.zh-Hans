@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 12%
 * 用户档案字段
 * 服务事件字段
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
 | requestId | 字符串 | Journey Orchestration用于跟踪请求流的请求ID。 |
 
-## 历程
+## 历程 {#journey-field}
 
 此字段组用在历程架构中（与journeyStepEvent相关）。 它包含以下字段：
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 | 描述 | 字符串 | 历程描述 |
 | 版本 | 字符串 | 版本，表示为 `major`.`minor` |
 
-## 个人资料
+## 个人资料 {#profile-field}
 
 此字段组特定于journeyStepEvent:此事件与历程相关，并且没有identityMap，用于描述用户档案身份（如果有）。
 
@@ -51,7 +51,7 @@ ht-degree: 12%
 | ID | 字符串 | 用户档案标识符用于标识在历程中发送/使用的用户档案。 例如：foo@adobe.com。 |
 | namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 此混合包含与用户档案导出作业对应的所有字段。
 
@@ -66,6 +66,6 @@ ht-degree: 12%
 | eventType | 字符串 | 事件类型，用于指示它是否为信息事件的错误事件：信息，错误 |
 | eventCode | 字符串 | 指示相应eventType原因的错误代码 |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 此类别包含原始步骤事件字段。 请参阅 [部分](../reports/sharing-legacy-fields.md).

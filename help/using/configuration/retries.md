@@ -1,22 +1,12 @@
 ---
 title: 重试
 description: 了解在向抑制列表发送地址之前如何执行重试
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -29,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->了解有关 [投放失败类型](../suppression-list.md#delivery-failures) 中。
+>了解有关 [投放失败类型](../messages/suppression-list.md#delivery-failures) 中。
 
 在默认配置中，阈值设置为5个错误。
 
@@ -55,11 +45,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../messages/deliverability.md)
 
 ## 重试时段 {#retry-duration}
 
@@ -77,6 +63,3 @@ ht-degree: 2%
 
 了解如何在中创建消息预设时调整电子邮件重试参数 [此部分](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

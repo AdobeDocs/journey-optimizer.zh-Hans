@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 5%
 
 ---
 
-# 数据类型 {#concept_gp3_rj5_dgb}
+# 数据类型 {#data-types}
 
 从技术上讲，常量始终包含数据类型。 在文本表达式中，我们仅指定值。 数据类型可从值（例如，字符串、整数、小数等）推断。 对于日期时间等特定情况，我们使用专用函数来表示。
 

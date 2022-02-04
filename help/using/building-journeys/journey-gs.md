@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 7%
@@ -31,7 +31,7 @@ ht-degree: 7%
 
    ![](../assets/jo-datasource.png)
 
-1. **配置操作**:Journey Optimizer消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../get-started-content.md)。如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。
+1. **配置操作**:Journey Optimizer消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../messages/get-started-content.md)。如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。
 
    ![](../assets/create-content-push.png)
 

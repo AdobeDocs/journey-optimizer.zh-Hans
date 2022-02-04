@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 4%
@@ -119,7 +119,7 @@ ht-degree: 4%
 </table>
 </table>
 
-### 映射函数
+### 映射函数 {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ ht-degree: 4%
     </tr>
 </table>
 
-### 字符串函数
+### 字符串函数 {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ ht-degree: 4%
 </table>
 
 
-### 布尔函数
+### 布尔函数 {#boolean-functions}
 
 布尔函数用于对不同元素执行布尔逻辑。
 
@@ -300,7 +300,7 @@ ht-degree: 4%
 </table>
 
 
-### 比较函数
+### 比较函数 {#comparison-functions}
 
 比较函数用于比较不同表达式和值，并相应地返回true或false。
 

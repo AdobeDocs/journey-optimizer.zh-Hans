@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 8%
 
 ---
 
-# 删除后备优惠
+# 删除后备优惠 {#delete-fallback-offer}
 
 有时可能需要删除(DELETE)备用选件。 只能删除您在租户容器中创建的备用选件。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
 

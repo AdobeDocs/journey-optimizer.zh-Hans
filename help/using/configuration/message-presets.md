@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 > * 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * 您必须执行电子邮件配置和 [推送配置](../push-configuration.md) 创建消息预设之前的步骤。
+> * 您必须执行电子邮件配置和 [推送配置](../messages/push-configuration.md) 创建消息预设之前的步骤。
 
 
 配置消息预设后，您便能够在从 **[!UICONTROL Presets]** 列表。
@@ -62,23 +62,18 @@ ht-degree: 1%
       >
       >电子邮件地址必须使用当前选定的 [委派子域](about-subdomain-delegation.md).
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL Sender name]**:发件人的名称，如您的品牌名称。
 
       * **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
 
       * **[!UICONTROL Reply to (name)]**:收件人单击 **回复** 按钮。
 
-      * **[!UICONTROL Reply to (email)]**:收件人单击 **回复** 按钮。 <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->您必须使用在委派子域上定义的地址(例如， *reply@marketing.luma.com*)，否则将删除电子邮件。
+      * **[!UICONTROL Reply to (email)]**:收件人单击 **回复** 按钮。 您必须使用在委派子域上定义的地址(例如， *reply@marketing.luma.com*)，否则将删除电子邮件。
 
       * **[!UICONTROL Error email]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >从2021年10月版开始，无法再从 [!DNL Journey Optimizer] 用户界面。 如果您希望收到 [!DNL Journey Optimizer] 要将委派的子域转发到特定的电子邮件地址，请联系 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。 <!--move to Deprecated features section when created?-->
+      >从2021年10月版开始，无法再从 [!DNL Journey Optimizer] 用户界面。 如果您希望收到 [!DNL Journey Optimizer] 要将委派的子域转发到特定的电子邮件地址，请联系 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ ht-degree: 1%
 
    * 选择要用于每个平台的移动设备应用程序。
 
-      有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../push-gs.md).
+      有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ ht-degree: 1%
    >如果检查失败，请在 [此部分](#monitor-message-presets).
 
 1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ ht-degree: 1%
 
    ![](../assets/preset-view-update-details.png)
 
-在 **[!UICONTROL Recent update]** 屏幕上，您可以看到更新状态、<!--the approximate remaining time before completion (if validation is in progress)--> 和请求更改的列表。
+在 **[!UICONTROL Recent update]** 屏幕中，您可以查看更新状态和请求更改的列表等信息。
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ ht-degree: 1%
 >
 >在更新过程中，您无法修改消息预设。 您仍可以单击其名称，但所有字段都呈灰显状态。 更新成功后，才会反映更改。
 
-### 成功
+### 成功 {#success}
 
 验证过程成功后，使用此预设的所有消息中都会自动使用新版本的预设。 但是，您可能必须等待：
 * 在被单一报文使用前几分钟，
 * 直到预设的下一批次在批处理消息中生效。
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### 失败
+### 失败 {#failed}
 
 如果验证过程失败，则仍会使用旧版本的预设。
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 详细了解 [此部分](#monitor-message-presets).
 
@@ -300,18 +286,6 @@ ht-degree: 1%
 您无法直接编辑已停用的消息预设。 但是，您可以复制并编辑副本以创建新版本，以用于创建新消息。 您还可以再次激活它，然后等到更新成功后才对其进行编辑。
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## 操作方法视频{#video-presets}
 

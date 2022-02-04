@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 2%
 
 ---
 
-# 测试历程{#testing_the_journey}
+# 测试您的历程{#testing_the_journey}
 
-在能够测试历程之前，必须解决所有错误（如果有）。 请参阅[此小节](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)。
+在能够测试历程之前，必须解决所有错误（如果有）。 请参阅[此小节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
 
 您可以使用测试用户档案在历程发布之前对其进行测试。 这允许您分析个人在历程中的流动方式，并在发布之前进行故障诊断。
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 要使用测试模式，请执行以下步骤：
 
-1. 在测试历程之前，请验证历程是否有效且没有错误。 您将无法启动包含错误的历程测试。 请参阅[此小节](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb)。出现错误时，将显示警告符号。
+1. 在测试历程之前，请验证历程是否有效且没有错误。 您将无法启动包含错误的历程测试。 请参阅[此小节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。出现错误时，将显示警告符号。
 
 1. 要激活测试模式，请单击 **[!UICONTROL Test]** 切换，位于右上角。
 

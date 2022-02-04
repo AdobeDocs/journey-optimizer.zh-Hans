@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 2%
 
 ---
 
-# 使用 Campaign v7/v8 发送消息 {#campaign-classic-use-case}
+# 用例：使用Campaign v7/v8发送消息 {#campaign-classic-use-case}
 
 此用例介绍使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 

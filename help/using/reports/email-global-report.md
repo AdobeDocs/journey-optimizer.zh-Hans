@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Spam Complaint Rate]**:收件人标记为垃圾邮件的电子邮件与已发送邮件的百分比。 有关投诉的更多信息，请参阅 [投放能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}。
 
-* **[!UICONTROL Unsubscribe Rate]**:独特退订与已投放消息数量的百分比。 此指示器不依赖于退订链接的点击次数，而是基于收件人启动的退订次数。 在此处了解有关取消订阅的更多信息 [页面](../consent.md).
+* **[!UICONTROL Unsubscribe Rate]**:独特退订与已投放消息数量的百分比。 此指示器不依赖于退订链接的点击次数，而是基于收件人启动的退订次数。 在此处了解有关取消订阅的更多信息 [页面](../messages/consent.md).
 
 的 **[!UICONTROL Email - Tracking statistics]** 包含用于投放的收件人活动的可用数据：
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Ignored]**:临时（如外出）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
-有关退回的更多信息，请参阅 [禁止列表](../suppression-list.md) 页面。
+有关退回的更多信息，请参阅 [禁止列表](../messages/suppression-list.md) 页面。
 
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >具有 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息](../building-journeys/journeys-message.md) ) **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
 >
->了解 [禁止列表](../suppression-list.md) 和 [允许列表](../allow-list.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
+>了解 [禁止列表](../messages/suppression-list.md) 和 [允许列表](../messages/allow-list.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。

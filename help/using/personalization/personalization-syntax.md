@@ -1,11 +1,12 @@
 ---
 title: 个性化语法
-description: 了解如何使用个性化语法
+description: 了解如何使用个性化语法。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 5%
@@ -28,7 +29,7 @@ ht-degree: 5%
 * `profile` 是命名空间。
 * `person.name` 是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}.
 
-## 语法常规规则
+## 语法常规规则 {#general-rules}
 
 标识符可以是任何Unicode字符，但以下字符除外：
 
@@ -75,7 +76,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 >[!NOTE]
 >要了解有关分段和分段服务的更多信息，请参阅 [此部分](../segment/about-segments.md).
 
-## 选件
+## 选件 {#offers-syntax}
 
 此命名空间允许您引用现有选件决策。
 要引用选件，您需要声明一个路径，其中包含定义选件的不同信息。
@@ -127,7 +128,7 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 >
 >有关帮助程序函数的详细信息，请参阅 [此部分](functions/helpers.md).
 
-## 文字类型
+## 文字类型 {#literal-types}
 
 [!DNL Adobe Journey Optimizer] 支持以下文字类型：
 
@@ -146,7 +147,7 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 
 Journey Optimizer允许您通过向消息中的一个或多个个性化字段，来对其进行个性化。 请按以下步骤执行此操作：
 
-* 在电子邮件或推送内容中创建链接。 要了解有关链接创建的更多信息，请参阅 [本页](../message-tracking.md#insert-links).
+* 在电子邮件或推送内容中创建链接。 要了解有关链接创建的更多信息，请参阅 [本页](../messages/message-tracking.md#insert-links).
 * 单击个性化图标。 此图标可用于以下特定类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
 
 ![](assets/perso-url.png)

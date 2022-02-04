@@ -1,12 +1,12 @@
 ---
 title: 导出优惠目录入门
-description: 此部分列出了导出数据集中用于决策的所有字段。
+description: 此部分列出了导出数据集中用于决策的所有字段
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 3%
@@ -29,14 +29,14 @@ ht-degree: 3%
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## 标识符
+## 标识符 {#identifier}
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
-## _experience（体验）
+## _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -254,7 +254,7 @@ ht-degree: 3%
 **描述：** 决策（以前称为活动）开始日期和结束时间。 该属性在http://schema.org/Action上定义了schema.org的“startTime”属性的语义。
 **类型：**&#x200B;字符串
 
-## _repo
+## _repo {#repo}
 
 **字段：** _repo
 **类型：** 对象

@@ -1,14 +1,14 @@
 ---
-title: 管理和设置
-description: 了解管理和设置准则
+title: 配置历程
+description: 了解如何配置数据源、事件和操作。
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 56%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 56%
 
 ![](../assets/admin-menu.png)
 
-## 数据源
+## 数据源 {#data-sources}
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。 [了解详情](../../using/datasource/about-data-sources.md)
 
-## 活动
+## 活动 {#events}
 
 事件允许您触发旅程，以便实时向流入旅程的个人发送消息。
 
 在事件配置中，您可以配置历程中预期的事件。 传入事件的数据按照Adobe体验数据模型(XDM)进行标准化。 事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。[了解详情](../../using/event/about-events.md)
 
-## 操作
+## 操作 {#actions}
 
 Journey Optimizer消息功能是内置的：您只需设计内容并发布消息即可。 如果您使用第三方系统发送消息，则可以创建自定义操作。 [了解详情](../../using/action/action.md)
 

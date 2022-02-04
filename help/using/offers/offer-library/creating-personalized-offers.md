@@ -1,19 +1,19 @@
 ---
 title: 创建个性化优惠
-description: 了解如何在Adobe Experience Platform中创建个性化优惠。
+description: 了解如何创建、配置和管理优惠
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
 
-# 创建个性化优惠 {#creating-personalized-offers}
+# 创建个性化优惠 {#create-personalized-offers}
 
 在创建选件之前，请确保已创建：
 
@@ -90,7 +90,7 @@ ht-degree: 3%
 >
 >只有与版面内容类型对应的内容才可供使用。
 
-### 添加图像
+### 添加图像 {#images}
 
 如果所选版面是图像类型，则可以添加来自 **Adobe Experience Cloud Asset** 库，由提供的集中资产存储库 [!DNL Adobe Experience Manager Assets Essentials].
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 
    ![](../../assets/offer-select-asset.png)
 
-### 添加URL
+### 添加URL {#urls}
 
 要从外部公共位置添加内容，请选择 **[!UICONTROL URL]**，然后输入要添加内容的URL地址。
 

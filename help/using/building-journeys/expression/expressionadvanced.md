@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 88%
 
 ---
 
-# 关于高级表达式编辑器 {#concept_uyj_trt_52b}
+# 关于高级表达式编辑器 {#about-the-advanced-expression-editor}
 
 使用高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程以及定义数据源条件时构建表达式。
 它还可在您每次需要定义需要特定数据操作的操作参数时使用。您可以利用来自事件的数据或从数据源检索的其他信息。在历程中，显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。
@@ -38,7 +38,7 @@ _高级表达式编辑器界面_
 >
 >操作参数可以通过选择字段或通过高级表达式编辑器来定义。他们根据表达式返回特定数据类型。
 
-## 访问高级表达式编辑器 {#section_fdz_4nj_cjb}
+## 访问高级表达式编辑器 {#accessing-the-advanced-expression-editor}
 
 您可以通过不同方式访问高级表达式编辑器：
 
@@ -49,7 +49,7 @@ _高级表达式编辑器界面_
 * 创建自定义计时器时，系统将直接显示高级编辑器。
 * 映射操作参数时，单击 **[!UICONTROL Advanced mode]**。
 
-## 了解界面{#section_otq_tnj_cjb}
+## 了解界面{#discovering-the-interface}
 
 此屏幕允许您手动编写表达式。
 

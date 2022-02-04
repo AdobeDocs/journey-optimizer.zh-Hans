@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '837'
 ht-degree: 2%
 
 ---
 
-# 发送多渠道消息
+# 用例：发送多渠道消息{#send-multi-channel-messages}
 
 此部分介绍一个结合了读取区段、事件、反应事件和电子邮件/推送消息的用例。
 

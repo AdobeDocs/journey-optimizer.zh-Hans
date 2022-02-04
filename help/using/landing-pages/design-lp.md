@@ -8,10 +8,10 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 从此处，您可以：
 
-* **从头开始设计登陆页面** 通过内容设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../assets-essentials.md). 了解如何设计内容或使用内置模板 [在此部分中](../create-email-content.md).
+* **从头开始设计登陆页面** 通过内容设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). 了解如何设计内容或使用内置模板 [在此部分中](../messages/create-email-content.md).
 
-* **代码或粘贴原始HTML** 直接导入内容设计器。 了解如何编码您自己的内容 [在此部分中](../existing-content.md#import-raw-html-code).
+* **代码或粘贴原始HTML** 直接导入内容设计器。 了解如何编码您自己的内容 [在此部分中](../messages/existing-content.md#import-raw-html-code).
 
-* **导入现有HTML内容** 文件或.zip文件夹中。 了解如何导入内容 [在此部分中](../existing-content.md#import-html-content-from-file).
+* **导入现有HTML内容** 文件或.zip文件夹中。 了解如何导入内容 [在此部分中](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->登陆页面内容设计器与电子邮件设计器大体相似。 了解详情 [设计内容 [!DNL Journey Optimizer]](../design-emails.md).
+>登陆页面内容设计器与电子邮件设计器大体相似。 了解详情 [设计内容 [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## 定义登陆页面特定的内容 {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   您可以使用 **[!UICONTROL Preview]** 按钮。 了解有关测试登陆页面的更多信息 [此处](create-lp.md#test).
+   您可以使用 **[!UICONTROL Preview]** 按钮。 了解有关测试登陆页面的更多信息 [此处](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

@@ -1,19 +1,19 @@
 ---
 title: 创建投放位置
-description: 了解如何在Adobe Experience Platform中创建版面。
+description: 了解如何为选件创建版面
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 14%
 
 ---
 
-# 创建投放位置 {#creating-placements}
+# 创建投放位置 {#create-placements}
 
 版面有助于确保正确的选件内容显示在消息中的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 

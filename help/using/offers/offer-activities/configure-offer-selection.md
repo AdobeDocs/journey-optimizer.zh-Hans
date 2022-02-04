@@ -1,19 +1,19 @@
 ---
 title: 在决策中配置优惠选择
-description: 了解如何在决策中管理选件选择。
+description: 了解如何在决策中管理选件选择
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 4%
 
 ---
 
-# 在决策中配置优惠选择 {#offers-selection-in-activities}
+# 在决策中配置优惠选择 {#offers-selection-in-decisions}
 
 如果多个选件符合给定版面的条件，您可以在配置决策（以前称为选件活动）时，选择为每个用户档案选择最佳选件的方法。 您可以按以下方式对选件进行排名：
 * 选件优先级
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/offer-rank-by.png)
 
-## 选件优先级 {#about-offers-priority}
+## 选件优先级 {#offer-priority}
 
 默认情况下，当多个选件符合在决策中的给定版面（以前称为选件活动）的条件时，选件数量将最高 **优先级** 会先送给客户。
 
@@ -86,6 +86,3 @@ ht-degree: 4%
 
 如果多个选件符合条件，则经过培训的模型系统将确定应首先为给定版面显示哪个选件。
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

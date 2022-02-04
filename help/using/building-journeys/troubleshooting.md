@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 84%
+source-wordcount: '1041'
+ht-degree: 81%
 
 ---
 
-# 故障排除{#concept_nlv_bcv_2fb}
+# 解决您的历程{#troubleshooting}
 
 在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。请参阅[此页](../building-journeys/testing-the-journey.md)。
 
-## 测试前检查错误{#section_h3q_kqk_fhb}
+## 测试前检查错误{#checking-for-errors-before-testing}
 
 测试和发布历程之前，请验证所有活动均已正确配置。如果系统仍检测到错误，则无法执行测试或发布。
 
@@ -41,7 +41,7 @@ ht-degree: 84%
 
 当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
 
-## 检查事件是否正确发送{#section_rqz_11t_dgb}
+## 检查事件是否正确发送{#checking-that-events-are-properly-sent}
 
 历程的起点永远是事件。您可以使用 Postman 等工具执行测试。
 
@@ -49,7 +49,7 @@ ht-degree: 84%
 
 事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参考 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} ，用于流摄取API疑难解答。
 
-## 检查人员是否进入历程{#section_x4v_zzs_dgb}
+## 检查人员是否进入历程{#checking-if-people-enter-the-journey}
 
 历程报告实时衡量人员进入历程。
 
@@ -69,7 +69,7 @@ ht-degree: 84%
    Content-type - application/json
    ```
 
-## 检查人员在历程中的导航方式{#section_l5y_yzs_dgb}
+## 检查人员在历程中的导航方式{#checking-how-people-navigate-through-the-journey}
 
 历程报告衡量历程中个人的进度。 很容易识别人员在何处被拦住以及为什么被拦住。
 
@@ -78,7 +78,7 @@ ht-degree: 84%
 * 是因为除人员外的情况吗？例如，条件为“性别=男性”，而该人员为女性。如果条件不太复杂，此检查可由商业用户执行。
 * 是由于调用数据源时没有响应吗？当历程正在测试时，此信息可在测试模式日志中查看。当历程处于实时状态时，管理员可以测试对数据源的直接调用并检查收到的答案。管理员还可以重复历程并进行测试。
 
-## 检查消息是否发送成功{#section_qb1_yzs_dgb}
+## 检查消息是否发送成功{#checking-that-messages-are-sent-successfully}
 
 如果人员在历程中以正确的方式流动，但没有收到他们应该收到的消息，您可以检查：
 

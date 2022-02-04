@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 5%
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 高级表达式编辑器语法 {#syntax}
 
-## 括号和表达式优先级{#section_edf_fks_bgb}
+## 括号和表达式优先级{#parentheses-and-expression-priority}
 
 括号可用于使复杂表达式更易读。 _(&lt;expression>)_ 等于 _&lt;expression>_. 括号还可用于定义评估顺序和关联性。
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 | `4 + 2 * 10` | <ul><li>“*”优先于“+”：2 * 10评估→ 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括号会更改优先级：(4 + 2)评估→ 6</li><li> 6 * 10 → 60</li></ul> |
 
-## 区分大小写{#section_lrb_xh5_dgb}
+## 区分大小写{#case-sensitivity}
 
 以下是不同的区分大小写规则：
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 * 所有函数名称都区分大小写。 例如， _inSegment()_ 有效，而函数 _INSEGMENT()_ 不是。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作的。
 
-## 返回的表达式类型{#section_gyc_435_53b}
+## 返回的表达式类型{#returned-expression-type}
 
 根据使用的上下文，表达式编辑器可以返回不同的值。
 

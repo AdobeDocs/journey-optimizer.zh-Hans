@@ -7,14 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
-# 一般事件 {#section_ofg_jss_dgb}
+# 一般事件 {#general-events}
 
 对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
 

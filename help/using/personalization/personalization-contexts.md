@@ -1,15 +1,15 @@
 ---
-title: 个性化语法
+title: 个性化上下文
 description: '进一步了解个性化内容和显示消息的方式。 '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ![](assets/perso_icon.png)
 
-## 个性化电子邮件
+## 个性化电子邮件 {#personalize-emails}
 
 创建电子邮件时，您可以在 **[!UICONTROL Subject line]** 字段。
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 在电子邮件设计器中，您可以个性化内容：
 
-* 在 **消息**:在文本块内单击，然后单击 **个性化** 图标，然后选择 **插入个性化** 字段。 有关Email Designer界面的更多信息，请参阅此 [部分](../design-emails.md).
+* 在 **消息**:在文本块内单击，然后单击 **个性化** 图标，然后选择 **插入个性化** 字段。 有关Email Designer界面的更多信息，请参阅此 [部分](../messages/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ![](assets/perso_ee.png)
 
-## 个性化推送通知
+## 个性化推送通知 {#personalize-push}
 
 您还可以将 **推送通知** 在以下字段中：
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ![](assets/perso_push.png)
 
-了解有关 [此部分](../push-gs.md).
+了解有关 [此部分](../messages/push-gs.md).
 
 ## 个性化您的选件 {#personalize-offers}
 

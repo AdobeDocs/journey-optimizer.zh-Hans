@@ -1,15 +1,15 @@
 ---
 title: 用户界面
-description: 了解有关优惠库用户界面的更多信息。
+description: 进一步了解优惠库用户界面
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 68%
 
 ![](../../assets/overview_view-all.png)
 
-## 搜索和筛选信息
+## 搜索和筛选信息 {#search-and-filter-information}
 
 使用&#x200B;**搜索栏**&#x200B;查找特定项目。
 
@@ -77,7 +77,7 @@ ht-degree: 68%
 
 ![](../../assets/filters.png)
 
-## 自定义显示的信息
+## 自定义显示的信息 {#customize-displayed-information}
 
 针对决策管理菜单的列表，可以通过列表右上角的配置按钮对其进行个性化设置。
 
@@ -87,7 +87,7 @@ ht-degree: 68%
 
 ![](../../assets/columns.png)
 
-## 信息窗格
+## 信息窗格 {#information-pane}
 
 在不同的列表中，选择一个元素以显示一个信息窗格，该窗格允许您检索信息并对元素执行基本操作。
 

@@ -1,14 +1,14 @@
 ---
 title: 个性化用例&冒号；购物车放弃电子邮件
-description: 了解如何使用帮助程序函数个性化消息。
+description: 了解如何通过用例将电子邮件正文个性化。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 3%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 3%
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 在开始之前，请确保您知道如何配置这些元素：
-* 电子邮件。 [了解详情](../create-message.md)
-* 电子邮件的正文。 [了解详情](../create-email-content.md)。
+* 电子邮件。 [了解详情](../messages/create-message.md)
+* 电子邮件的正文。 [了解详情](../messages/create-email-content.md)。
 * 单一事件。 [了解详情](../event/about-events.md)。
 * 以事件开头的历程。 [了解详情](../building-journeys/using-the-journey-designer.md)。
 
@@ -324,15 +324,15 @@ ht-degree: 3%
 1. 确认没有错误，然后发布历程。
 
 
-## 相关主题
+## 相关主题 {#related-topics}
 
-### Handlebars函数
+### Handlebars函数 {#handlebars}
 
 * [辅助程序](functions/helpers.md)
 
 * [字符串函数](functions/string.md)
 
-### 用例
+### 用例 {#use-case}
 
 * [使用用户档案信息、上下文和选件进行个性化](personalization-use-case.md)
 

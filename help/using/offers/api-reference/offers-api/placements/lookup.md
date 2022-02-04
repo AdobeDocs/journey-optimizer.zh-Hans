@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
 
 ---
 
-# 查找版面
+# 查找版面 {#look-up-placement}
 
 您可以通过向 [!DNL Offer Library] 包含投放的API `@id` 或请求路径中版面的名称。
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 5%
 
 ---
 
-# 删除投放位置
+# 删除投放位置 {#delete-placement}
 
 有时可能需要删除(DELETE)版面。 只能删除您在租户容器中创建的版面。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的版面的实例ID的API。
 

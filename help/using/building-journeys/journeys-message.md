@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 在历程中添加消息
+# 在历程中添加消息{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../get-started-content.md)。然后，您只需在历程中添加使用Journey Optimizer设计的推送或电子邮件消息即可。
+[!DNL Journey Optimizer] 消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../messages/get-started-content.md)。然后，您只需在历程中添加使用Journey Optimizer设计的推送或电子邮件消息即可。
 
 如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md).
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 ## 电子邮件参数和推送参数
 
-的 **[!UICONTROL Email parameters]** 和 **[!UICONTROL Push parameters]** 部分显示只读字段。 通常在创建消息时执行此配置。 请参阅[此小节](../get-started-content.md)。
+的 **[!UICONTROL Email parameters]** 和 **[!UICONTROL Push parameters]** 部分显示只读字段。 通常在创建消息时执行此配置。 请参阅[此小节](../messages/get-started-content.md)。
 
 ![](../assets/jo-message4.png)
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer的“发送时间优化”功能由Adobe的AI服务提�
 
 >[!NOTE]
 >
->此功能目前为测试版，仅供测试版客户使用。 要加入测试版计划，请联系Adobe客户关怀团队。
+>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 发送时间优化模型可摄取您的Adobe Journey Optimizer数据，并查看用户级别的打开（用于电子邮件和推送）和点击（用于电子邮件）率，以确定客户何时最可能参与您的消息传送。 发送时间优化需要至少一个月的消息跟踪数据才能做出明智的建议。 对于每个用户，系统将使用以下分数自动选择最佳时间：
 

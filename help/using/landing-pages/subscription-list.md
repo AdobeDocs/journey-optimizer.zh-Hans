@@ -8,16 +8,16 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 订阅列表 {#create-subscription-list}
 
-## 什么是订阅列表？
+## 什么是订阅列表？ {#subscription-list-definition}
 
 订购服务是指向选择接收特定主题/事件/兴趣等通信的客户提供的营销产品和服务。 不断进行。 在 [!DNL Journey Optimizer]，则这些选择加入的客户将被收集到订阅列表中。
 

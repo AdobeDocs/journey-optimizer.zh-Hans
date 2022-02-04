@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 创建测试用户档案 {#create-test-profiles}
 
-使用测试模式时需要测试用户档案要了解如何使用 [测试模式](../building-journeys/testing-the-journey.md) 在旅程中，和 [预览和测试消息](../preview.md).
+使用测试模式时需要测试用户档案要了解如何使用 [测试模式](../building-journeys/testing-the-journey.md) 在旅程中，和 [预览和测试消息](../messages/preview.md).
 
 创建测试用户档案的可用方法详述如下：
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 需要提供以下信息：
 
-1. **身份命名空间**:的 [标识命名空间](../get-started-identity.md) 用于唯一标识测试用户档案。 例如，如果使用电子邮件来标识测试用户档案，则表示身份命名空间 **电子邮件** 中。 如果唯一标识符是电话号码，则标识命名空间为 **电话** 中。
+1. **身份命名空间**:的 [标识命名空间](../start/get-started-identity.md) 用于唯一标识测试用户档案。 例如，如果使用电子邮件来标识测试用户档案，则表示身份命名空间 **电子邮件** 中。 如果唯一标识符是电话号码，则标识命名空间为 **电话** 中。
 
 2. **CSV文件**:包含要创建的测试用户档案列表的逗号分隔文件。 用例要求CSV文件具有预定义的格式，其中包含要创建的测试用户档案列表。 文件中的每一行应按正确顺序包含以下字段：
 

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 89%
 
 ---
 
-# 外部数据源 {#concept_t2s_kqt_52b}
+# 外部数据源 {#external-data-sources}
 
 外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
@@ -53,7 +53,7 @@ ht-degree: 89%
 
    ![](../assets/journey27.png)
 
-1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。在我们的示例中，我们选择：
+1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
 
    * **[!UICONTROL Type]**：“API 密钥”
    * **[!UICONTROL Name]**：“appid”（这是 API 密钥参数名称）
@@ -87,7 +87,7 @@ ht-degree: 89%
 
 数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
 
-## 自定义身份验证模式{#section_wjp_nl5_nhb}
+## 自定义身份验证模式{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"

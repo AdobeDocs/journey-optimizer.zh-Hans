@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 此部分提供一个端到端示例，以展示如何根据您之前创建的决策，在电子邮件中配置和使用选件。
 
-## 主要步骤
+## 主要步骤 {#main-steps}
 
 下面列出了配置选件、将其包含在决策中以及在电子邮件中利用此决策的关键步骤：
 
@@ -225,11 +225,11 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 现在，您的决策已开始实时，您可以将其插入电子邮件。 要实现此目的，请执行以下步骤：
 
-1. 创建电子邮件，然后打开 [Email Designer](../../using/design-emails.md) 以配置其内容。
+1. 创建电子邮件，然后打开 [Email Designer](../../using/messages/design-emails.md) 以配置其内容。
 
 1. 从左侧面板添加结构组件。
 
-1. 添加 **[!UICONTROL Offer decision]** 内容组件。 了解如何在 [此部分](../../using/content-components.md).
+1. 添加 **[!UICONTROL Offer decision]** 内容组件。 了解如何在 [此部分](../../using/messages/content-components.md).
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -255,19 +255,19 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 在 [此部分](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 在 [此部分](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 保存更改后并发布消息后，在历程中发送消息时，您的选件即可显示到相关用户档案。
 
 >[!NOTE]
 >
->当您更新选件、备用选件、选件集合或选件决策时，该选件会直接或间接地在 [发布](../../using/publish-manage-message.md) 消息，则更新现在会自动反映在相应的消息中，而无需重新发布。
+>当您更新选件、备用选件、选件集合或选件决策时，该选件会直接或间接地在 [发布](../../using/messages/publish-manage-message.md) 消息，则更新现在会自动反映在相应的消息中，而无需重新发布。
 
 **相关主题：**
 
-* 了解如何在中查看消息预览 [此部分](../../using/preview.md#preview-your-messages).
+* 了解如何在中查看消息预览 [此部分](../../using/messages/preview.md#preview-your-messages).
 
-* 了解如何在 [此部分](../../using/publish-manage-message.md).
+* 了解如何在 [此部分](../../using/messages/publish-manage-message.md).
 
 * 了解中一个或多个历程如何触发消息 [此部分](../building-journeys/journey.md).
 

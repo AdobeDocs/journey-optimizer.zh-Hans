@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 10%
 
 ---
 
-# 创建决策规则
+# 创建决策规则 {#create-decision-rule}
 
 决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。
 
-## 接受和内容类型标头
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
 下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 

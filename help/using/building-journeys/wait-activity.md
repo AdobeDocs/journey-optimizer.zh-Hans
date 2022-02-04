@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
 
 ---
 
-# 等待活动{#section_rlm_nft_dgb}
+# 等待活动{#wait-activity}
 
 如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL Wait]** 活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
 

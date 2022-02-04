@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
 
 ---
 
-# 高级表达式示例
+# 高级表达式示例{#advanced-expression-examples}
 
 高级表达式编辑器可用于创建条件，以便在历程中筛选用户。 这些条件允许您根据时间、日期、位置、持续时间或操作（如购买或放弃购物）来定位用户，以便在历程中重新定位用户。
 

@@ -1,12 +1,12 @@
 ---
 title: 个性化验证
-description: 了解有关个性化验证以及如何进行故障诊断的更多信息
+description: 了解有关个性化验证以及如何进行故障诊断的更多信息。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 个性化验证 {#personalization-validation}
 
-## 验证机制
+## 验证机制 {#validation-mechanisms}
 
 在 **表达式编辑器** 屏幕，使用 **验证** 按钮以检查个性化语法。
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 > 如果个性化语法无效，则无法关闭表达式编辑器窗口。
 
-## 常见错误
+## 常见错误 {#common-errors}
 
 * **找不到路径“XYZ”**
 
@@ -67,7 +67,7 @@ Handlebars表达式周围包含 **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## 与选件相关的特定错误
+## 与选件相关的特定错误 {#specific-errors}
 
 与电子邮件或推送消息中的选件集成相关的错误具有以下模式：
 

@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 52%
 
 ---
 
-# 关于事件{#concept_gfj_fqt_52b}
+# 关于事件{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -57,7 +57,7 @@ ht-degree: 52%
 
 Journey Optimizer要求将事件流式传输或批量传输到Adobe Experience Platform。 此数据不一定需要转至实时用户档案。如果要在单独的历程中使用事件进行分段或查找，我们建议您为用户档案启用数据集。
 
-## 数据周期 {#section_r1f_xqt_pgb}
+## 数据周期 {#data-cycle}
 
 事件是 POST API 调用。事件通过流摄取API发送到Adobe Experience Platform。 通过事务性消息传送 API 发送的事件的 URL 目标称为“入口”。事件的有效负载遵循 XDM 格式。
 

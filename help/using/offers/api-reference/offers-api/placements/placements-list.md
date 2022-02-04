@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 11%
 
 ---
 
-# 列出投放位置
+# 列出投放位置 {#list-placements}
 
 版面是用于显示选件的容器。 版面有助于确保正确的选件内容显示在消息中的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | 定义与版面关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | 用于按筛选结果的可选查询参数。 | `limit=2` |
 
-## 使用查询参数
+## 使用查询参数 {#using-query-parameters}
 
 列出资源时，您可以使用查询参数来页面和筛选结果。
 
-### 分页
+### 分页 {#paging}
 
 用于分页的最常见查询参数包括：
 

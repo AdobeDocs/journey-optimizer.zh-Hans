@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 8%
 
 ---
 
-# 条件活动{#section_e2n_pft_dgb}
+# 条件活动{#condition-activity}
 
 可以使用以下类型的条件：
 

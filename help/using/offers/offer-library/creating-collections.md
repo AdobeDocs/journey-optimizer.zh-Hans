@@ -1,19 +1,19 @@
 ---
 title: 创建收藏集
-description: 了解如何使用收藏集组织优惠。
+description: 了解如何使用收藏集组织优惠
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
 
 ---
 
-# 创建收藏集 {#creating-collections}
+# 创建收藏集 {#create-collections}
 
 收藏集允许您通过将选件重组为所选的类别来组织选件。 例如，您可以创建一个“体育”收藏集，该收藏集仅包含与体育相关的选件。
 

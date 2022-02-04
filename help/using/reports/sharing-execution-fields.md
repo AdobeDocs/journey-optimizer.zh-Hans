@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 12%
@@ -19,37 +19,37 @@ ht-degree: 12%
 
 如果步骤包含要处理的操作，则这些字段将添加到事件有效负载中。
 
-## actionID
+## actionID {#actionid-field}
 
 正在执行的操作的ID。
 
 类型：字符串
 
-## actionName
+## actionName {#actionname-field}
 
 操作的名称。 如果未设置名称，则将执行stepName。
 
 类型：字符串
 
-## actionType
+## actionType {#actionType-field}
 
 操作的类型。
 
 类型：字符串
 
-## actionParameted
+## actionParameted {#actionparameterized-field}
 
 指示操作是否已参数化。
 
 类型：布尔值
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 执行当前操作所花费的时间（以毫秒为单位）。
 
 类型：long
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 调用操作时发生的错误类型。
 
@@ -61,13 +61,13 @@ ht-degree: 12%
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 操作执行错误的代码。 如果错误包含代码（如HTTP代码），则存在。
 
 类型：字符串
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 超时可能出现以下两种情况：
 
@@ -89,13 +89,13 @@ ht-degree: 12%
 
 类型：字符串
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 actionExecOrigError的错误代码。
 
 类型：字符串
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 指示操作类型。
 
@@ -111,25 +111,25 @@ actionExecOrigError的错误代码。
 
 类型：字符串
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 这描述了批处理历程的提交作业ID。
 
 类型：字符串
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 此变量描述批处理历程的提交ID。
 
 类型：字符串
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 此描述是否从受众区段触发批量历程。
 
 类型：布尔值
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 在步骤处理期间发送到调度程序服务的调度程序通知请求计数。
 

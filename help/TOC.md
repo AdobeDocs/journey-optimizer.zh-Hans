@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 97%
 
 ---
@@ -16,38 +16,38 @@ ht-degree: 97%
 
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能{#whats-new}
-   + [发行说明](using/release-notes.md)
-   + [最近更新](using/documentation-updates.md)
+   + [发行说明](using/rn/release-notes.md)
+   + [最近更新](using/rn/documentation-updates.md)
 + 入门{#get-started}
-   + [什么是 Journey Optimizer](using/get-started.md)
+   + [什么是 Journey Optimizer](using/start/get-started.md)
    + 快速入门{#quick-start}
-      + [概述](using/quick-start.md)
-      + [营销人员入门](using/path/marketer.md)
-      + [数据工程师入门](using/path/data-engineer.md)
-      + [管理员入门](using/path/administrator.md)
-      + [开发人员入门](using/path/developer.md)
-   + [用户界面](using/user-interface.md)
-   + [限制](using/limitations.md)
+      + [概述](using/start/quick-start.md)
+      + [营销人员入门](using/start/path/marketer.md)
+      + [数据工程师入门](using/start/path/data-engineer.md)
+      + [管理员入门](using/start/path/administrator.md)
+      + [开发人员入门](using/start/path/developer.md)
+   + [用户界面](using/start/user-interface.md)
+   + [限制](using/start/limitations.md)
 + 消息 {#messages}
-   + [消息入门](using/get-started-content.md)
+   + [消息入门](using/messages/get-started-content.md)
    + 创建消息 {#create-message}
-      + [创建消息](using/create-message.md)
-      + [创建电子邮件](using/create-email.md)
-      + [创建推送通知](using/create-push.md)
-      + [创建短信消息](using/create-sms.md)
-   + [添加和管理资源](using/assets-essentials.md)
-   + [添加个性化优惠](using/deliver-personalized-offers.md)
+      + [创建消息](using/messages/create-message.md)
+      + [创建电子邮件](using/messages/create-email.md)
+      + [创建推送通知](using/messages/create-push.md)
+      + [创建短信消息](using/messages/create-sms.md)
+   + [添加和管理资源](using/messages/assets-essentials.md)
+   + [添加个性化优惠](using/messages/deliver-personalized-offers.md)
    + 设计电子邮件{#email-designer}
-      + [电子邮件设计入门](using/design-emails.md)
-      + [在 UI 中设计电子邮件内容](using/create-email-content.md)
-      + [导入或编码电子邮件内容](using/existing-content.md)
-      + [使用电子邮件设计器内容组件](using/content-components.md)
-   + [添加链接和跟踪消息](using/message-tracking.md)
+      + [电子邮件设计入门](using/messages/design-emails.md)
+      + [在 UI 中设计电子邮件内容](using/messages/create-email-content.md)
+      + [导入或编码电子邮件内容](using/messages/existing-content.md)
+      + [使用电子邮件设计器内容组件](using/messages/content-components.md)
+   + [添加链接和跟踪消息](using/messages/message-tracking.md)
    + 验证并发布 {#validate}
-      + [预览和证明](using/preview.md)
-      + [检查警报](using/alerts.md)
-      + [发布消息](using/publish-manage-message.md)
-   + [管理选择退出机制](using/consent.md)
+      + [预览和证明](using/messages/preview.md)
+      + [检查警报](using/messages/alerts.md)
+      + [发布消息](using/messages/publish-manage-message.md)
+   + [管理选择退出机制](using/messages/consent.md)
 + 个性化{#personalization}
    + [入门个性化](using/personalization/personalize.md)
    + [个性化上下文](using/personalization/personalization-contexts.md)
@@ -75,13 +75,13 @@ ht-degree: 97%
    + 区段{#segments}
       + [区段入门](using/segment/about-segments.md)
       + [构建区段](using/segment/creating-a-segment.md)
-   + [用户档案](using/get-started-profiles.md)
-   + [标识](using/get-started-identity.md)
+   + [用户档案](using/start/get-started-profiles.md)
+   + [标识](using/start/get-started-identity.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
       + [历程版本](using/building-journeys/journey-versions.md)
-      + [测试用户档案](using/building-journeys/creating-test-profiles.md)
+      + [创建测试用户档案](using/building-journeys/creating-test-profiles.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 创建历程{#create-journey}
       + [历程入门](using/building-journeys/journey-gs.md)
@@ -195,9 +195,9 @@ ht-degree: 97%
       + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
       + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
-      + [加快投放速度](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
 + 跟踪和监控 {#reporting}
-   + [消息监测](using/message-monitoring.md)
+   + [消息监测](using/messages/message-monitoring.md)
    + 实时报告{#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
@@ -220,9 +220,9 @@ ht-degree: 97%
          + [标识字段](using/reports/sharing-identity-fields.md)
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
-      + [可投放性入门](using/deliverability.md)
-      + [禁止列表](using/suppression-list.md)
-      + [允许列表](using/allow-list.md)
+      + [可投放性入门](using/messages/deliverability.md)
+      + [禁止列表](using/messages/suppression-list.md)
+      + [允许列表](using/messages/allow-list.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -312,15 +312,15 @@ ht-degree: 97%
          + [决策 API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 数据管理 {#data-management}
-   + [架构](using/get-started-schemas.md)
-   + [数据集](using/get-started-datasets.md)
-   + [查询](using/get-started-queries.md)
+   + [架构](using/start/get-started-schemas.md)
+   + [数据集](using/start/get-started-datasets.md)
+   + [查询](using/start/get-started-queries.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration-message}
       + 推送通知配置{#push-config}
-         + [推送配置入门](using/push-gs.md)
-         + [配置推送通知渠道](using/push-configuration.md)
+         + [推送配置入门](using/messages/push-gs.md)
+         + [配置推送通知渠道](using/messages/push-configuration.md)
       + 电子邮件配置{#email-configuration}
          + 委派子域{#delegate-subdomains}
             + [子域委派入门](using/configuration/about-subdomain-delegation.md)
@@ -355,7 +355,7 @@ ht-degree: 97%
          + [关于操作](using/action/action.md)
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
-   + [源](using/get-started-sources.md)
+   + [源](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
    + [访问控制概述](using/administration/permissions-overview.md)
    + [内置产品配置文件](using/administration/ootb-product-profiles.md)

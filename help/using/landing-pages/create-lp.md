@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >登陆页面目前仅供选定用户抢先使用。 如果要利用此功能，请联系您的Adobe客户经理。
 
-## 访问登陆页面
+## 访问登陆页面 {#access-landing-pages}
 
 要访问登陆页面列表，请选择 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 菜单中。
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ![](../assets/lp_access-list-filter.png)
 
-## 创建登陆页面
+## 创建登陆页面 {#create-landing-page}
 
 创建登陆页面的步骤如下所示。
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
    ![](../assets/lp_add-subpage.png)
 
-配置和设计 [主页](#configure-primary-page)和 [子页面](#configure-subpages) 如果有，您可以 [测试](#test) 和 [发布](#publish) 登陆页面。
+配置和设计 [主页](#configure-primary-page)和 [子页面](#configure-subpages) 如果有，您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 登陆页面。
 
 ## 配置主页面 {#configure-primary-page}
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 
 ![](../assets/lp_subpage-settings.png)
 
-## 测试登陆页面 {#test}
+## 测试登陆页面 {#test-landing-page}
 
 定义登陆页面设置和内容后，即可使用测试用户档案进行预览。 如果插入 [个性化内容](../personalization/personalize.md)，您将能够利用测试用户档案数据检查此内容在登陆页面中的显示方式。
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 
    ![](../assets/lp_test-profiles.png)
 
-   选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../preview.md#select-test-profiles).
+   选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../messages/preview.md#select-test-profiles).
 
 1. 选择 **[!UICONTROL Preview]** 选项卡，单击 **[!UICONTROL Open preview]** 来测试登陆页面。
 
@@ -153,7 +153,7 @@ ht-degree: 3%
 
 1. 选择其他测试用户档案以预览登陆页面每个变体的呈现。
 
-## 检查警报 {#alerts}
+## 检查警报 {#check-alerts}
 
 创建登陆页面时，当您需要在发布之前执行重要操作时，会发出警告。
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## 发布登陆页面 {#publish}
+## 发布登陆页面 {#publish-landing-page}
 
 登陆页面准备就绪后，您可以发布该页面以将其用于消息。
 
@@ -200,11 +200,11 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->在发布之前，请检查并解析警报。 [了解详情](#alerts)
+>在发布之前，请检查并解析警报。 [了解详情](#check-alerts)
 
 发布登陆页面后，该页面会添加到登陆页面列表，其中包含 **[!UICONTROL Published]** 状态。
 
-它现已上线，可在 [!DNL Journey Optimizer] [消息](../create-message.md) 将通过 [历程](../building-journeys/journey.md).
+它现已上线，可在 [!DNL Journey Optimizer] [消息](../messages/create-message.md) 将通过 [历程](../building-journeys/journey.md).
 
 >[!NOTE]
 >

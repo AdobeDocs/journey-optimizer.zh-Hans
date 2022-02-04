@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 5%
 
 ---
 
-# 列出决策规则
+# 列出决策规则 {#list-decision-rules}
 
 决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。 您可以通过对 [!DNL Offer Library] API。
 
@@ -30,11 +30,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | 定义与决策规则关联的架构。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | 用于按筛选结果的可选查询参数。 | `limit=1` |
 
-## 使用查询参数
+## 使用查询参数 {#using-query-parameters}
 
 列出资源时，您可以使用查询参数来页面和筛选结果。
 
-### 分页
+### 分页 {#paging}
 
 用于分页的最常见查询参数包括：
 

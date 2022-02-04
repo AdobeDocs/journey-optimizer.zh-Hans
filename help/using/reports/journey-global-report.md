@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aef6ac3f153e5d42f9557afef1e9f1b310d3fa12
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
-有关退回的更多信息，请参阅 [禁止列表](../suppression-list.md) 页面。
+有关退回的更多信息，请参阅 [禁止列表](../messages/suppression-list.md) 页面。
 
 ![](../assets/global_report_16.png)
 

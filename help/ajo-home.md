@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e36b81fd3cdfa0cc6efe1a85316fcb4f5a9c9764
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
@@ -27,24 +27,24 @@ ht-degree: 100%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">是什么 [!DNL Journey Optimizer]？</a>
+      <a href="using/start/get-started.md">是什么 [!DNL Journey Optimizer]？</a>
     </div>
     <p>了解主要功能和用例
     <p>
     <div>
-      <a href="using/release-notes.md">发行说明</a>
+      <a href="using/rn/release-notes.md">发行说明</a>
     </div>
     <p>新增功能、最新改进和修复
    <p>
     <div>
-      <a href="using/quick-start.md">快速入门指南</a>
+      <a href="using/start/quick-start.md">快速入门指南</a>
     </div>
     <p>
     了解如何以管理员、数据工程师或历程实践者的身份开始使用
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">设计电子邮件内容</a>
+      <a href="using/messages/design-emails.md">设计电子邮件内容</a>
     </div>
     <p>
     设计新电子邮件或导入现有 HTML 内容
@@ -111,7 +111,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">历程</a>
     </li>
     <li>
-      <a href="using/create-message.md">消息</a>
+      <a href="using/messages/create-message.md">消息</a>
     </li>
     <p>
     <p>决策管理</p>
@@ -124,18 +124,18 @@ ht-degree: 100%
     <p>
     <p>内容管理</p>
     <li>
-      <a href="using/assets-essentials.md">资源</a>
+      <a href="using/messages/assets-essentials.md">资源</a>
     </li>
     <p>
     <p>数据管理</p>
     <li>
-      <a href="using/get-started-schemas.md">架构</a>
+      <a href="using/start/get-started-schemas.md">架构</a>
     </li>
      <li>
-      <a href="using/get-started-datasets.md">数据集</a>
+      <a href="using/start/get-started-datasets.md">数据集</a>
     </li>
         <li>
-      <a href="using/get-started-queries.md">查询</a>
+      <a href="using/start/get-started-queries.md">查询</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans" target="_blank">监控</a>
@@ -143,7 +143,7 @@ ht-degree: 100%
     <p>
     <p>连接</p>
     <li>
-      <a href="using/get-started-sources.md">源</a>
+      <a href="using/start/get-started-sources.md">源</a>
     </li>
     <p>
     <p>客户</p>
@@ -151,10 +151,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">区段</a>
     </li>
      <li>
-      <a href="using/get-started-profiles.md">用户档案</a>
+      <a href="using/start/get-started-profiles.md">用户档案</a>
     </li>
     <li>
-      <a href="using/get-started-identity.md">标识</a>
+      <a href="using/start/get-started-identity.md">标识</a>
     </li>
     <p>
     <p>管理</p>

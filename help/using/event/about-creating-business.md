@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -25,7 +25,7 @@ ht-degree: 12%
 >
 >您还可以观看业务事件用例 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
-## 重要说明
+## 重要说明 {#important-notes}
 
 * 只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含主标识。 以下字段必须设置为必填字段： `_id` 和 `timestamp`
 * 只能将业务事件作为历程的第一步进行删除。
@@ -36,7 +36,7 @@ ht-degree: 12%
 * 测试业务事件时，必须传递事件参数以及将进入测试旅程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有可用的“代码视图”模式。
 * 如果新的业务事件到来，当前处于历程中的个人会发生什么情况？ 其行为与当新的重复发生时个人仍处于循环历程中的情况相同。 他们的路结束了。 因此，如果营销人员预计会发生频繁的业务事件，则必须注意避免构建过长的历程。
 
-## 多个业务事件
+## 多个业务事件 {#multiple-business-events}
 
 以下是在连续收到多个业务事件时应用的一些重要说明。
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 
 对于即时业务事件，对于给定历程，由第一个事件作业推送的数据将在1小时的时间范围内重复使用。 对于计划历程，没有护栏。 了解有关 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## 业务事件入门
+## 业务事件入门 {#gs-business-events}
 
 以下是配置业务事件的首要步骤：
 

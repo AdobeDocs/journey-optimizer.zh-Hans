@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 9%
 
 ---
 
-# 创建个性化优惠
+# 创建个性化优惠 {#create-personalized-offer}
 
 个性化优惠是基于资格规则和限制的可自定义营销消息。
 
 您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
-## 接受和内容类型标头
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
 下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 

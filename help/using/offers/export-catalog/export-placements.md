@@ -1,12 +1,12 @@
 ---
 title: 投放位置数据集
-description: 此部分列出了在导出的数据集中用于版面的所有字段。
+description: 此部分列出了在导出的数据集中用于版面的所有字段
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 5%
@@ -29,14 +29,14 @@ ht-degree: 5%
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## 标识符
+## 标识符 {#identifier}
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
-## _experience（体验）
+## _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -85,7 +85,7 @@ ht-degree: 5%
 **描述：** 在人类交互中引用版面的指定名称。
 **类型：**&#x200B;字符串
 
-## _repo
+## _repo {#repo}
 
 **字段：** _repo
 **类型：** 对象

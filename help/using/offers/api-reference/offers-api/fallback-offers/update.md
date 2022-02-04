@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 10%
 
 ---
 
-# 更新后备优惠
+# 更新后备优惠 {#update-fallback-offer}
 
 您可以通过向 [!DNL Offer Library] API。
 
 有关JSON修补程序（包括可用操作）的更多信息，请参阅 [JSON修补程序文档](http://jsonpatch.com/).
 
-## 接受和内容类型标头
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
 下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 

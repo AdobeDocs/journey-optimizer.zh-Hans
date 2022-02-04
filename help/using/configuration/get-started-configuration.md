@@ -1,17 +1,14 @@
 ---
-title: Journey Optimizer设置和配置准则
-description: 了解消息和历程配置准则
-audience: administrators
-content-type: reference
+title: 开始使用 [!DNL Journey Optimizer] 配置
+description: 详细了解 [!DNL Journey Optimizer] 配置
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '328'
 ht-degree: 9%
 
 ---
@@ -25,7 +22,7 @@ ht-degree: 9%
 
 1. **配置消息和渠道**:定义预设、调整和自定义电子邮件和推送消息
 
-   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../push-gs.md)
+   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../messages/push-gs.md)
 
    * 创建消息预设，以配置电子邮件和推送通知消息所需的所有技术参数。 [了解详情](message-presets.md)
 
@@ -34,7 +31,7 @@ ht-degree: 9%
    * 管理在向抑制列表发送电子邮件地址之前执行重试的天数。 [了解详情](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
 1. **委派子域**:对于要在Journey Optimizer中使用的任何新子域，第一步是将其委派。 [了解详情](about-subdomain-delegation.md)

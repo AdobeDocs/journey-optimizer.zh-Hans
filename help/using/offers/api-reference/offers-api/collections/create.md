@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
 
 ---
 
-# 创建收藏集
+# 创建收藏集 {#create-collection}
 
 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 
 您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
-## 接受和内容类型标头
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
 下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
 

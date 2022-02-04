@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
-# 创建模拟
+# 创建模拟 {#create-simulations}
 
 ## 关于模拟
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >标识命名空间定义标识符的上下文，如电子邮件地址或CRM ID。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../../get-started-identity.md){target=&quot;_blank&quot;}。
+   >标识命名空间定义标识符的上下文，如电子邮件地址或CRM ID。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../../start/get-started-identity.md){target=&quot;_blank&quot;}。
 
 1. 输入标识值并单击 **[!UICONTROL View]** 列出可用的用户档案。
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 1. 您可以单击 **[!UICONTROL Profile details]** 链接以显示所选的用户档案数据。
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## 添加决策作用域
 

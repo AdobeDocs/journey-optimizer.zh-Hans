@@ -1,19 +1,19 @@
 ---
 title: 创建决策规则
-description: 了解如何在Adobe Experience Platform中创建决策规则。
+description: 了解如何创建决策规则以定义可向谁显示选件
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '286'
 ht-degree: 12%
 
 ---
 
-# 创建决策规则 {#creating-decision-rules}
+# 创建决策规则 {#create-decision-rules}
 
 您可以根据Adobe Experience Platform中提供的数据创建选件决策规则。 决策规则确定可向谁显示选件。
 

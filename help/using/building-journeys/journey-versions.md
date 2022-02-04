@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
 
 ---
 
-# 历程版本{#concept_ldc_k55_zgb}
+# 历程版本{#journey-versions}
 
 在历程列表中，所有历程版本均显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要了解有关历程版本限制的更多信息，请参阅 [本页](../limitations.md#journey-versions-limitations)
+>要了解有关历程版本限制的更多信息，请参阅 [本页](../start/limitations.md#journey-versions-limitations)
 
 1. 打开实时历程的最新版本，单击 **[!UICONTROL Create a new version]** 确认。
 

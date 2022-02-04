@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅 [部分](../building-journeys/using-adobe-campaign-classic.md).
 
-## 重要说明
+## 重要说明 {#important-notes}
 
 * 没有消息限制。 根据我们当前的促销活动SLA，我们将可发送的消息数量限制为50,000/小时。 因此，Journey Optimizer只应用于单一用例（单个事件，而不是区段）。
 
@@ -35,7 +35,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 * 您不能将促销活动操作与区段鉴别事件结合使用。
 
-## 先决条件
+## 先决条件 {#prerequisites}
 
 在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅 [Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
 
@@ -58,7 +58,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 * **eventType**:营销活动事件的内部名称
 * **ctx**:变量。
 
-## 配置操作
+## 配置操作 {#configure-action}
 
 在Journey Optimizer中，您需要为每个事务型消息配置一个操作。 请执行以下步骤：
 

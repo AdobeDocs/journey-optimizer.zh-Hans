@@ -1,19 +1,19 @@
 ---
 title: 创建标记
-description: 了解如何在Adobe Experience Platform中创建优惠。
+description: 了解如何为选件创建标记
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# 创建标记 {#creating-tags}
+# 创建标记 {#create-tags}
 
 将标记与选件关联可以更轻松地保持标记有条不紊。 例如，您可以使用“黑色星期五”标记来标记黑色星期五选件。 然后，您可以使用选件库中的搜索功能轻松找到具有该标记的所有选件。
 

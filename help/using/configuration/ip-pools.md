@@ -1,29 +1,19 @@
 ---
 title: 创建 IP 池
 description: '"了解如何管理ip池"'
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
 
 ---
 
-# 创建 IP 池
+# 创建 IP 池 {#create-ip-pools}
 
 ## 关于IP池 {#about-ip-pools}
 
@@ -85,8 +75,6 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 
 * 如果IP池为 **not** 在消息预设中选择，则更新为即时(**[!UICONTROL Success]** 状态)。
 * 如果IP池 **is** 在消息预设中选择，则更新最长可能需要7-10个工作日(**[!UICONTROL Processing]** 状态)。
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
 要检查IP池更新状态，请单击 **[!UICONTROL More actions]** 按钮，选择 **[!UICONTROL Recent updates]**.
 
