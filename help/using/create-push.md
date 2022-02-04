@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: dc1dd69040086bd0fad332feb12cc817fec41544
+source-git-commit: 6bb0248c8bd3c15ff28e841b06a413dca83b354f
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 10%
+source-wordcount: '1192'
+ht-degree: 11%
 
 ---
 
@@ -32,11 +32,6 @@ ht-degree: 10%
 使用设备预览部分可视化推送通知在iOS和Android设备上的显示方式。
 
 ## 点击行为 {#on-click-behavior}
-
->[!CONTEXTUALHELP]
->id="ajo-message-push-onclick"
->title="关于点击行为"
->abstract="选择收件人单击推送通知正文时的行为。"
 
 选择收件人单击推送通知正文时的行为。
 
