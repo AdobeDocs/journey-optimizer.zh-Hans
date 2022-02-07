@@ -5,16 +5,17 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: d188bb6b-2924-4818-b007-be660cce249c
+source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
 # 将属性添加到收藏夹 {#fav}
 
-通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。 要向收藏夹添加属性，请单击椭圆菜单，然后选择 **[!UICONTROL Add to favorites]**.
+通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。要向收藏夹添加属性，请单击椭圆菜单，然后选择 **[!UICONTROL Add to favorites]**.
 
 ![](assets/favorite-option.png)
 

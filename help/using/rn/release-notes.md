@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '2379'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 88%
 * Journey Optimizer 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../reports/sharing-overview.md#integration-cja)
 
 
-**Offer Decisioning**
+**优惠决策**
 
 * 现在，当您更新已发布的消息中直接或间接引用的优惠、后备优惠、优惠收藏集或优惠决策时，更新会自动反映在相应的消息中，而无需重新发布。[了解详情](../offers/offers-e2e.md#insert-decision-in-email)
 
