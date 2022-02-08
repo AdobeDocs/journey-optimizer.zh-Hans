@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 100%
+source-wordcount: '2416'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ ht-degree: 100%
 
 * Journey Optimizer 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../reports/sharing-overview.md#integration-cja)
 
-
 **优惠决策**
 
 * 现在，当您更新已发布的消息中直接或间接引用的优惠、后备优惠、优惠收藏集或优惠决策时，更新会自动反映在相应的消息中，而无需重新发布。[了解详情](../offers/offers-e2e.md#insert-decision-in-email)
+
+* 在模拟将针对给定测试用户档案提供哪些选件时，您现在可以修改默认的模拟设置，并查看与模拟对应的代码，这些代码可用于进行故障诊断。 [了解详情](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 

@@ -1,21 +1,21 @@
 ---
 title: 创建模拟
-description: 了解如何创建模拟
+description: 了解如何模拟将为给定版面提供哪些选件，以验证决策逻辑
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
 
 # 创建模拟 {#create-simulations}
 
-## 关于模拟
+## 关于模拟 {#about-simulation}
 
 要验证决策逻辑，您可以模拟哪些选件将交付到给定版面的测试用户档案。
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 选择测试用户档案
+## 选择测试用户档案 {#select-test-profiles}
 
 首先，您需要选择要用于模拟的测试用户档案。
 
@@ -61,11 +61,15 @@ ht-degree: 1%
 
    ![](../../assets/offers_simulation-saved-profiles.png)
 
+   >[!NOTE]
+   >
+   >所选用户档案将在 **[!UICONTROL Simulation]** 选项卡，直到使用 **[!UICONTROL Manage profile]**.
+
 1. 您可以单击 **[!UICONTROL Profile details]** 链接以显示所选的用户档案数据。
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
-## 添加决策作用域
+## 添加决策作用域 {#add-decision-scopes}
 
 现在，选择要在测试用户档案上模拟的选件决策。
 
@@ -103,39 +107,38 @@ ht-degree: 1%
    >[!NOTE]
    >
    >即使您定义多个决策范围，也只会模拟一个API请求。
+
+## 定义模拟设置 {#define-simulation-settings}
+
+要编辑模拟的默认设置，请执行以下步骤。
+
+1. 单击 **[!UICONTROL Settings]**。
+
+   ![](../../assets/offers_simulation-settings.png)
+
+1. 在 **[!UICONTROL Deduplication]** 部分，您可以选择在决策和/或版面中允许重复的选件。 这意味着可能会为多个决策/版面分配相同的选件。
+
+   ![](../../assets/offers_simulation-settings-deduplication.png)
+
+   >[!NOTE]
    >
-   >默认情况下，会启用所有重复数据删除标记以进行模拟，这意味着决策引擎允许重复项，因此可以在多个决策/投放中提出相同的建议。 了解 [!DNL Decisions] 中的API请求属性 [此部分](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+   >默认情况下，会启用所有重复数据删除标记以进行模拟，这意味着决策引擎允许重复项，因此可以在多个决策/投放中提出相同的建议。 了解 [!DNL Decisions] 中的API请求属性 [此部分](../api-reference/decisions-api/deliver-offers.md).
 
-<!--SIMULATIONS V2
+1. 在 **[!UICONTROL Response format]** 部分，则可以选择在代码视图中包含元数据。 选中相应的选项，然后选择所选的元数据。 选择 **[!UICONTROL View code]**. 在 [查看模拟结果](#simulation-results) 中。
 
-## Define simulation settings {#define-simulation-settings}
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
-To edit the default settings for your simulations, follow the steps below.
+   >[!NOTE]
+   >
+   >在打开选项时，默认情况下会选择所有项目。
 
-1. Click **[!UICONTROL Settings]**.
+1. 单击 **[!UICONTROL Save]**。
 
-    ![](../../assets/offers_simulation-settings.png)
+>[!NOTE]
+>
+>目前，对于模拟数据，您只能使用 **[!UICONTROL Hub]** API。
 
-1. In the **[!UICONTROL Deduplication]** section, you can choose to allow duplicate offers accross decisions and/or placements. It means that multiple decisions/placements may get assigned the same offer.
-
-    ![](../../assets/offers_simulation-settings-deduplication.png)
-
-    >[!NOTE]
-    >
-    >By default, all Deduplication flags are enabled for simulation, which means that the decision engine allows duplicates and thus can make the same proposition accross multiple decisions/placements. Learn more on the [!DNL Decisions] API request properties in [this section](../api-reference/decisions-api/deliver-offers.md).
-
-1. In the **[!UICONTROL Response format]** section, you can choose to include metadata in the code view. Check the corresponding option, and select the metadata of your choice. They will be displayed in the request and response payloads when selecting **[!UICONTROL View code]**. Learn more in the [View simulation results](#simulation-results) section.
-
-    ![](../../assets/offers_simulation-settings-response-format.png)
-
-    >[!NOTE]
-    >
-    >When turning on the option, all items are selected by default.
-
-1. Click **[!UICONTROL Save]**.-->
-
-<!--NOT FOR SIMULATIONS V2
-
+<!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
 Hub and Edge are two different end points for simulation data.
 
@@ -143,7 +146,7 @@ In the **[!UICONTROL Context data]** section, you can add as many elements as ne
 
     >[!NOTE]
     >
-    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context Data, Edge does not.
+    >This section is hidden if you select Edge API in the section above. Hub allows the use of Context data, Edge does not.
 
 Context data allows the user to add contextual data that could affect the simulation score.
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
@@ -163,9 +166,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-   <!--
-    SIMULATIONS V2
-    1. Click **[!UICONTROL View code]** to display the request and response payloads. [Learn more](#view-code)-->
+1. 单击 **[!UICONTROL View code]** 以显示请求和响应负载。 [了解详情](#view-code)
 
 1. 从列表中选择其他用户档案以显示其他测试用户档案的选件决策结果。
 
@@ -175,62 +176,27 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 >
 >每次更改用户档案或更新决策范围时，您都需要使用 **[!UICONTROL View results]** 按钮。
 
-<!--
-SIMULATIONS V2
+## 查看代码 {#view-code}
 
-## View code {#view-code}
+1. 使用 **[!UICONTROL View code]** 按钮来显示请求和响应负载。
 
-To use the request payload outside of [!DNL Journey Optimizer] - for troubleshooting purpose for example, you can copy it by clicking the corresponding button on top of the code view.
-    
->[!NOTE]
->
->You cannot copy the response payload.
+   ![](../../assets/offers_simulation-view-code.png)
 
-Below is an example of code view:
+   代码视图显示当前用户的开发人员信息。 默认情况下， **[!UICONTROL Response payload]** 中。
 
-    ```
-    curl -X POST \
-    'https://platform.adobe.io/data/core/ode/{CONTAINER_ID}/decisions' \
-    -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
-    -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"' \
-    -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsIng1dSI6Imltc19uYTEtc3RnMS1rZXktMS5jZXIifQ.eyJpZCI6IjE2NDMxMzg3NDMxODlfOTIzY2ZjZjgtOWVkYy00MjE1LWJjODgtYmEyYTY2ZGIyYmMyX3VlMSIsInR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJjbGllbnRfaWQiOiJhY3BfdWlfcGxhdGZvcm0iLCJ1c2VyX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJzdGF0ZSI6IntcInNlc3Npb25cIjpcImh0dHBzOi8vaW1zLW5hMS1zdGcxLmFkb2JlbG9naW4uY29tL2ltcy9zZXNzaW9uL3YxL1l6azNNakE0TXpNdFpXVTVaUzAwTVdOaExUZ3pNamd0TmpFM1pqZ3lOak5qTmpSakxTMDBPRVExTnpRM1FUWXdOemMyUkVSRk1FRTBPVFF3TVVSQVFXUnZZbVZKUkFcIn0iLCJhcyI6Imltcy1uYTEtc3RnMSIsImFhX2lkIjoiNDhENTc0N0E2MDc3NkRERTBBNDk0MDFEQEFkb2JlSUQiLCJjdHAiOjAsImZnIjoiV0VQQTNUSUY0UjRaQTZEWlBDUk1BMklBQ1U9PT09PT0iLCJzaWQiOiIxNjQzMDYwMDg0NzI2XzYzNGJkNDEzLWMwYTktNDA0NS1iNTM3LWRmMzgzYzU5ZGIxY191ZTEiLCJydGlkIjoiMTY0MzEzODc0MzE4OV9lYWMxOWY5Yi00ZjhhLTQ1NWMtOWVmMi1mNjYwNmQ0ODY4N2ZfdWUxIiwibW9pIjoiYmVjOTQzYzIiLCJwYmEiOiIiLCJvYyI6InJlbmdhKm5hMXItc3RnMSoxN2U5MmIzNzYzNCo2MEJEVjBGUlhOMFlRMkdHSkRON0E5Tk1HOCIsInJ0ZWEiOiIxNjQ0MzQ4MzQzMTg5IiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwic2NvcGUiOiJvcGVuaWQsc2Vzc2lvbixyZWFkX29yZ2FuaXphdGlvbnMsYWRkaXRpb25hbF9pbmZvLnByb2plY3RlZFByb2R1Y3RDb250ZXh0LGFkZGl0aW9uYWxfaW5mby5yb2xlcyxhdWRpZW5jZW1hbmFnZXJfYXBpLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTY0MzEzODc0MzE4OSJ9.TgZ998KHA4Zeoyq7b_NbPv8aPHb2cs9GgP3uJKrTbzosylKKRYqLpj_8HkloI-bFVQFCBCOWbCwtJtkcRIvFlQFruTr5bpMatPV8izEUVutO6smkYBFoGFYyEGuN5Xe97uOJZEHzFSWguGZtgttSrNhXr-j0hFloofjXDJXPB_911dzXALp5s15sd3HLH9XWTwwlqF_a5SMNDXaSj1800RxsB9bJ8_YL0x4pqQwjYJxRGMhiy7Y9IOpwogSBEiqCQitlKYgaO7yaJzFwhfyisnqM7_MWX2ETn-kGFEOoBHxXDTx9P2OPojzb8ChWQgmGf7Expyvtc1ke3nJkppzrxg' \
-    -H 'x-api-key: {API_KEY}' \
-    -H 'x-gw-ims-org-id: 5D1328435BF324E90A49402A@AdobeOrg' \
-    -H 'x-sandbox-name: prod' \
-    -D '{
-      "xdm:propositionRequests": [
-            {
-                  "xdm:placementId": "xcore:offer-placement:1416f4109d9d292c",
-                  "xdm:activityId": "xcore:offer-activity:1416f4aad9fd99d7",
-                  "xdm:itemCount": 2
-            }
-      ],
-      "xdm:profiles": [
-            {
-                  "xdm:identityMap": {
-                        "email": [
-                              {
-                                    "xdm:id": "poyfair@adobe.com"
-                              }
-                        ]
-                  }
-            }
-      ],
-      "xdm:allowDuplicatePropositions": {
-            "xdm:acrossActivities": true,
-            "xdm:acrossPlacements": true
-      },
-      "xdm:responseFormat": {
-            "xdm:includeMetadata": {
-                  "xdm:activity": [],
-                  "xdm:option": [],
-                  "xdm:placement": []
-            }
-      }
-    }'
-    ```
+   ![](../../assets/offers_simulation-request-payload.png)
 
->[!NOTE]
->
->When copying the request payload into your own code, make sure you replace CONTAINER_ID and API_KEY with your own values.-->
+1. 单击 **[!UICONTROL Response payload]** 或 **[!UICONTROL Request payload]** 来导航。
+
+   ![](../../assets/offers_simulation-response-payload.png)
+
+1. 在之外使用请求有效负载 [!DNL Journey Optimizer]  — 例如，为进行故障诊断，请使用 **[!UICONTROL Copy to clipboard]** 按钮。
+
+   ![](../../assets/offers_simulation-copy-payload.png)
+
+   <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
+
+   >[!NOTE]
+   >
+   >在将请求或响应负载复制到您自己的代码中时，请确保将{USER_TOKEN}和{API_KEY}替换为有效值。 了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}文档。
 

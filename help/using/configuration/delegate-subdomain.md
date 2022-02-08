@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1433'
 ht-degree: 10%
 
 ---
@@ -24,15 +24,15 @@ ht-degree: 10%
 
 通过委派子域以与一起使用 [!DNL Journey Optimizer]，客户可以依赖Adobe来维护满足其电子邮件营销发送域行业标准可交付性要求所需的DNS基础架构，同时继续维护和控制其内部电子邮件域的DNS。
 
-## 完全子域委派 {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] 允许您完全委派子域，以便直接从产品界面Adobe。 这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
-
 >[!NOTE]
 >
 >默认情况下， [!DNL Journey Optimizer] 许可合同允许您最多委派10个子域。 如果要提高此限制，请联系您的Adobe联系人。
 
-要委派新子域，请执行以下步骤：
+## 完全子域委派 {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] 允许您完全委派子域，以便直接从产品界面Adobe。 这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
+
+要将新子域完全委派到Adobe，请执行以下步骤：
 
 1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 菜单，然后单击 **[!UICONTROL Set up subdomain]**.
 

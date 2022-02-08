@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 35%
@@ -48,7 +48,7 @@ ht-degree: 35%
 
 * **将子域完全委派给 Adobe**（推荐）：将子域完全委派给 Adobe。Adobe能够控制和维护发送、渲染和跟踪消息所需的DNS的所有方面。 [了解有关完全子域委派的更多信息](delegate-subdomain.md#full-subdomain-delegation)
 
-* **使用CNAME**:创建子域，并使用CNAME指向特定于Adobe的记录。 使用此设置，您和Adobe都有责任维护DNS。 [了解有关CNAME子域委派的更多信息](delegate-subdomain.md#cname-subdomain-delegation)
+* **使用CNAME**:创建子域，并使用CNAME指向特定于Adobe的记录。 使用此设置，您和Adobe共同负责维护DNS。 [了解有关CNAME子域委派的更多信息](delegate-subdomain.md#cname-subdomain-delegation)
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
