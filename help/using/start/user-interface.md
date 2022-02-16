@@ -1,15 +1,15 @@
 ---
 title: 用户界面
-description: 进一步了解Journey Optimizer用户界面
+description: 进一步了解 Journey Optimizer 用户界面
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 98%
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]**  — 使用此菜单配置 [事件]../event/about-events.md), [数据源](../datasource/about-data-sources.md) 和 [操作](../action/action.md) 以在您的历程中使用。
+* **[!UICONTROL Journey Administration]** - 使用此菜单来配置要在历程中使用的[事件]../event/about-events.md)、[数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform 提供了可将单个 实例划分为多个单独的虚拟环境的沙箱，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙箱，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
 
 <!--
 * **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
@@ -173,7 +173,7 @@ ht-degree: 98%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>选项卡</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -214,7 +214,7 @@ ht-degree: 98%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -238,7 +238,7 @@ ht-degree: 98%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>
 
