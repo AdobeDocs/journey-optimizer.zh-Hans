@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 92443ac4bf1fadbbba5a910219e86ca8a5d16161
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,4 +71,4 @@ ht-degree: 97%
 * [设计历程并发送消息](../building-journeys/journey-gs.md)
 * [实时报告](../reports/live-report.md)
 * [Journey Optimizer 常见问题解答](../assets/do-not-localize/AJO-FAQ.pdf) (PDF)
-* [Journey Optimizer安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+* [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
