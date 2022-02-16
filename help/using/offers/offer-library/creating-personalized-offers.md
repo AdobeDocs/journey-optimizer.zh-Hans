@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 3%
+source-wordcount: '1491'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,12 @@ ht-degree: 3%
 ![](../../assets/offers_list.png)
 
 ## 创建选件 {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="关于选件属性"
+>abstract="使用选件属性，您可以将键值对与选件关联，以便进行报告和分析。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="观看演示视频"
 
 创建 **选件**，请执行以下步骤：
 
@@ -141,6 +147,30 @@ ht-degree: 3%
    >仅 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 源可用于决策管理。
 
 ## 添加资格规则和约束 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="关于选件约束"
+>abstract="通过限制，您可以指定与其他选件相比，选件的优先级和呈现给用户的方式。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="观看演示视频"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="关于优惠资格"
+>abstract="在此部分中，您可以使用决策规则确定哪些用户有资格使用选件。"
+>additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="关于选件优先级"
+>abstract="在此字段中，您可以指定选件的优先级设置。 优先级是用于对满足所有限制（如资格、日期和上限）的选件进行排名的数字。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="观看演示视频"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="关于优惠上限"
+>abstract="在此字段中，您可以指定在所有用户中显示选件的次数。"
+>additional-url="https://video.tv.adobe.com/v/329375" text="观看演示视频"
 
 资格规则和约束允许您定义显示选件的条件。
 
