@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '463'
 ht-degree: 4%
 
 ---
 
 # 在决策中配置优惠选择 {#offers-selection-in-decisions}
 
-如果多个选件符合给定版面的条件，您可以在配置决策（以前称为选件活动）时，选择为每个用户档案选择最佳选件的方法。 您可以按以下方式对选件进行排名：
+如果多个选件符合给定版面的条件，您可以在配置决策时选择为每个用户档案选择最佳选件的方法。 您可以按以下方式对选件进行排名：
 * 选件优先级
 * 排名公式
 * [人工智能排名](#use-ranking-strategy) （仅供选定用户抢先访问）
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 ## 选件优先级 {#offer-priority}
 
-默认情况下，当多个选件符合在决策中的给定版面（以前称为选件活动）的条件时，选件数量将最高 **优先级** 会先送给客户。
+默认情况下，当多个选件符合在决策中放置给定版面的条件时，具有最高级别的选件 **优先级** 会先送给客户。
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 了解如何在中创建排名公式 [此部分](../offer-library/create-ranking-formulas.md).
 
-创建排名公式后，您可以将其分配给决策中的版面（以前称为选件活动）。 为此，请执行以下步骤：
+创建排名公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
 1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
@@ -60,13 +60,15 @@ ht-degree: 4%
 
 ## 人工智能排名 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+您还可以使用经过培训的模型系统，通过选择排名策略自动对选件进行排名以显示给定用户档案。 了解如何在 [此部分](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >目前，只能对选定用户提前访问AI排名。
 
-创建排名策略后，您可以将其分配给决策中的版面（以前称为选件活动）。 为此，请执行以下步骤：
+创建排名策略后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
 1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 

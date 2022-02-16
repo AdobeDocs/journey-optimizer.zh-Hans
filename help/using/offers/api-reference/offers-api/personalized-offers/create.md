@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '179'
+ht-degree: 8%
 
 ---
 
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 限制 {#limitations}
 
-移动设备当前不支持某些选件限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 的 `Capping` 字段值指定选件在所有用户中可显示的次数。 有关更多详细信息，请参阅 [选件资格规则和限制文档](../../../offer-library/creating-personalized-offers.md).
+移动设备当前不支持选件表示和某些选件限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 的 `Capping` 字段值指定选件在所有用户中可显示的次数。 有关更多详细信息，请参阅 [选件资格规则和限制文档](../../../offer-library/creating-personalized-offers.md).

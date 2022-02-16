@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 1%
+source-wordcount: '1694'
+ht-degree: 2%
 
 ---
 
@@ -44,76 +44,11 @@ ht-degree: 1%
    >
    > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
 
-1. 配置 **电子邮件** 设置。
+1. 配置 **电子邮件** 设置。 [了解详情](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. 配置 **推送通知** 设置。 [了解详情](#configure-push-settings)
 
-   * 选择将随预设一起发送的消息类型： **事务型** 或 **营销**
-
-      >[!CAUTION]
-      >
-      > **事务型** 消息可发送给从营销通信中取消订阅的用户档案。 这些消息只能在特定环境中发送，例如密码重置、顺序状态、投放通知。
-
-   * 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
-   * 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
-   * 输入使用该预设发送的电子邮件的标题参数。
-
-      >[!CAUTION]
-      >
-      >电子邮件地址必须使用当前选定的 [委派子域](about-subdomain-delegation.md).
-
-      * **[!UICONTROL Sender name]**:发件人的名称，如您的品牌名称。
-
-      * **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
-
-      * **[!UICONTROL Reply to (name)]**:收件人单击 **回复** 按钮。
-
-      * **[!UICONTROL Reply to (email)]**:收件人单击 **回复** 按钮。 您必须使用在委派子域上定义的地址(例如， *reply@marketing.luma.com*)，否则将删除电子邮件。
-
-      * **[!UICONTROL Error email]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
-      >[!NOTE]
-      >
-      >从2021年10月版开始，无法再从 [!DNL Journey Optimizer] 用户界面。 如果您希望收到 [!DNL Journey Optimizer] 要将委派的子域转发到特定的电子邮件地址，请联系 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
-
-   * 配置 **电子邮件重试参数**. 默认情况下， [重试时段](retries.md#retry-duration) 设置为84小时，但您可以根据自己的需求调整此设置。
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      您必须在以下范围内输入整数值（以小时或分钟为单位）：
-      * 对于营销电子邮件类型，最短重试时间为6小时。
-      * 对于事务型电子邮件类型，最小重试周期为10分钟。
-      * 对于这两种电子邮件类型，最大重试时间段为84小时（或5040分钟）。
-
-
-1. 配置 **推送通知** 设置。
-
-   ![](../assets/preset-push.png)
-
-   * 至少选择一个平台： **iOS** 和/或 **Android**
-
-   * 选择要用于每个平台的移动设备应用程序。
-
-      有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../messages/push-gs.md).
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 
@@ -140,6 +75,78 @@ ht-degree: 1%
 1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 
    ![](../assets/preset-active.png)
+
+## 配置电子邮件设置 {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. 选择将随预设一起发送的消息类型： **事务型** 或 **营销**.
+
+   >[!CAUTION]
+   >
+   > **事务型** 消息可发送给从营销通信中取消订阅的用户档案。 这些消息只能在特定环境中发送，例如密码重置、顺序状态、投放通知。
+
+1. 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
+
+1. 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
+
+1. 输入使用该预设发送的电子邮件的标题参数。
+
+   >[!CAUTION]
+   >
+   >电子邮件地址必须使用当前选定的 [委派子域](about-subdomain-delegation.md).
+
+   * **[!UICONTROL Sender name]**:发件人的名称，如您的品牌名称。
+
+   * **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
+
+   * **[!UICONTROL Reply to (name)]**:收件人单击 **回复** 按钮。
+
+   * **[!UICONTROL Reply to (email)]**:收件人单击 **回复** 按钮。 您必须使用在委派子域上定义的地址(例如， *reply@marketing.luma.com*)，否则将删除电子邮件。
+
+   * **[!UICONTROL Error email]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
+   >[!NOTE]
+   >
+   >从2021年10月版开始，无法再从 [!DNL Journey Optimizer] 用户界面。 如果您希望收到 [!DNL Journey Optimizer] 要将委派的子域转发到特定的电子邮件地址，请联系 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
+
+1. 配置 **电子邮件重试参数**. 默认情况下， [重试时段](retries.md#retry-duration) 设置为84小时，但您可以根据自己的需求调整此设置。
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   您必须在以下范围内输入整数值（以小时或分钟为单位）：
+   * 对于营销电子邮件类型，最短重试时间为6小时。
+   * 对于事务型电子邮件类型，最小重试周期为10分钟。
+   * 对于这两种电子邮件类型，最大重试时间段为84小时（或5040分钟）。
+
+## 配置推送设置 {#configure-push-settings}
+
+1. 至少选择一个平台： **iOS** 和/或 **Android**.
+
+1. 选择要用于每个平台的移动设备应用程序。
+
+![](../assets/preset-push.png)
+
+有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../messages/push-gs.md).
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## 监视消息预设 {#monitor-message-presets}
 

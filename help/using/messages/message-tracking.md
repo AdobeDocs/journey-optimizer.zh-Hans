@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '577'
+ht-degree: 3%
 
 ---
 
@@ -52,11 +52,13 @@ ht-degree: 2%
 
    * **[!UICONTROL Landing page]**:插入指向登陆页面的链接。 [在本节](../landing-pages/get-started-lp.md)中了解详情
 
-   * **[!UICONTROL Unsubscription link]**:插入链接以取消订阅从您的品牌接收通信。 在[此部分中](consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * **[!UICONTROL One click Opt-out]**:插入链接，使用户能够快速退订您的通信，而无需确认选择退订。 在 [此部分](consent.md#one-click-opt-out).
+
+   * **[!UICONTROL External Opt-in/Subscription]**:插入一个链接以接受从您的品牌接收通信。
+
+   * **[!UICONTROL External Opt-out/Unsubscription]**:插入链接以取消订阅从您的品牌接收通信。 在[此部分中](consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
    * **[!UICONTROL Mirror page]**:插入链接以在Web浏览器中显示电子邮件内容。 在 [此部分](#mirror-page).
-
-   * **[!UICONTROL Opt-out]**:插入链接，使用户能够快速退订您的通信，而无需确认选择退订。 在 [此部分](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +68,7 @@ ht-degree: 2%
 
 1. 创建链接后，您仍可以从 **[!UICONTROL Component settings]** 窗格。
 
-   * 单击铅笔图标以编辑链接。
+   * 您可以编辑链接并更改其类型。
    * 您可以通过选中相应的选项来选择是否为链接添加下划线。
 
    ![](assets/message-tracking-link-settings.png)
@@ -93,34 +95,6 @@ ht-degree: 2%
 
 镜像页面的保留期为60天。 延迟后，镜像页面将不再可用。
 
-## 一键单击选择退出链接 {#one-click-opt-out-link}
-
-要使收件人快速取消订阅从您的品牌接收通信，您可以在电子邮件内容中插入一键单击的选择退出链接。 此容量可防止用户被重定向到需要确认其选择的登陆页面，从而加快取消订阅过程。
-
-要在电子邮件中添加选择退出链接，请执行以下步骤。
-
-1. [插入链接](#insert-links) 选择 **[!UICONTROL Opt-out]** 作为链接类型。
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. 选择您希望如何应用选择退出：在渠道、身份或订阅级别。
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**:选择退出适用于将来发送到当前渠道用户档案目标（即电子邮件地址）的消息。 如果多个目标与某个用户档案关联，则选择退出将应用于该渠道配置文件中的所有目标（即电子邮件地址）。
-   * **[!UICONTROL Identity]**:选择退出适用于发送给当前消息所使用的特定目标（即电子邮件地址）的将来消息。
-   * **[!UICONTROL Subscription]**:选择退出适用于与特定订阅列表关联的未来消息。 仅当当前消息与订阅列表关联时，才能选择此选项。
-
-1. 输入退订后用户将被重定向的登陆页面的URL。 此页面仅用于确认选择退出是否成功。
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   您可以个性化您的链接。 在中了解有关个性化URL的更多信息 [此部分](../personalization/personalization-syntax.md).
-
-1. 保存更改。
-
-发送消息后，如果收件人单击选择退出链接，则他们会立即选择退出。
-
 ## 管理跟踪 {#manage-tracking}
 
 的 [Email Designer](create-email-content.md) 用于管理跟踪的URL，例如编辑每个链接的跟踪类型。
@@ -134,7 +108,6 @@ ht-degree: 2%
    ![](assets/message-tracking-edit-links.png)
 
 1. 您可以修改 **[!UICONTROL Tracking Type]** （如果需要）：
-
 
    ![](assets/message-tracking-edit-a-link.png)
 

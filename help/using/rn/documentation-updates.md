@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 97%
+source-wordcount: '919'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 97%
 
 * 与 [!DNL Journey Optimizer] 个性化功能已重新组织，以便更好地阅读。 [了解更多信息](../personalization/personalize.md)
 
+* 为提高清晰度，“创建消息预设”部分已分为几个部分。 [了解更多信息](../configuration/message-presets.md#create-message-preset)
+
+* 对“选择退出管理”章节进行了澄清和轻微重组。 [了解更多信息](../messages/consent.md#opt-out-management)
+
+* “插入链接”部分已更新，以反映最近的用户界面更改。 [了解更多信息](../messages/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -87,7 +92,7 @@ ht-degree: 97%
 * 更新了“启用允许列表”部分。[了解详情](../messages/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/message-presets.md#monitor-message-presets)
 * 更新并重命名了“重试时段”部分，以反映出您现在可以调整消息预设中的电子邮件重试设置。[了解更多信息](../configuration/retries.md#retry-duration)
-* 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../messages/message-tracking.md#one-click-opt-out-link)
+* 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../messages/consent.md#one-click-opt-out-link)
 * 更新了“委派子域”部分，其中包含有关 Adobe 执行的验证过程的更多详细信息。[了解更多信息](../configuration/delegate-subdomain.md#subdomain-validation)
 * 添加了介绍如何手动将电子邮件地址和域添加到禁止列表的部分。[了解更多信息](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问禁止列表](../configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](../configuration/retries.md)部分，以反映新的用户界面。

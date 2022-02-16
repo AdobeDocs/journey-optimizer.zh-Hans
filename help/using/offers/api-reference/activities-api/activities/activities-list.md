@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '251'
 ht-degree: 4%
 
 ---
 
 # 列出决策 {#list-decisions}
 
-决策（以前称为选件活动）包含用于通知选件选择的逻辑。
+决策包含通知选件选择的逻辑。
 
 您可以通过对执行单个GET请求，查看容器中所有决策的列表 [!DNL Offer Library] API。
 

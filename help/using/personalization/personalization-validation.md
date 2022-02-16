@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
    <td>图像选件（与决策和放置对关联的所有个性化和回退）应填充公共URL（deliveryURL不应为空）。</td> 
   </tr> 
   <tr> 
-   <td>决策（以前称为选件活动）包含非用户档案属性。</td> 
+   <td>决策包含非用户档案属性。</td> 
    <td>选件模型的使用应仅包含配置文件属性。</td> 
   </tr> 
   <tr> 

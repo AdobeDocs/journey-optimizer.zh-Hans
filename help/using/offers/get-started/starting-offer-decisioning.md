@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 85%
+source-wordcount: '908'
+ht-degree: 83%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 85%
 
 * **集合**：集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-* **决策**（之前称为优惠活动）：决策包含通知选择优惠的逻辑。
+* **决策**:决策包含通知选件选择的逻辑。
 
 * **决策规则**：决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。
 

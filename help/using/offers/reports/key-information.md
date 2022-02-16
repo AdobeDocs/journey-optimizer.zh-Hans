@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 90%
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 * **[!UICONTROL Fallback]**：后备优惠的名称和 ID（如果未选择个性化优惠），
 * **[!UICONTROL Placement]**：用于投放优惠的投放位置的名称、ID 和渠道，
 * **[!UICONTROL Selections]**：为用户档案选择的优惠的名称和 ID，
-* **[!UICONTROL Activity]**：决策（以前称为优惠活动）的名称和 ID。
+* **[!UICONTROL Activity]**:决策的名称和ID。
 
 此外，您还可以利用 **[!UICONTROL identityMap]** 和 **[!UICONTROL Timestamp]** 字段检索有关用户档案的信息和投放优惠的时间。
 
