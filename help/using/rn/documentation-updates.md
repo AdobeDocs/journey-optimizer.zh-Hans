@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 * 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* 与 [!DNL Journey Optimizer] 个性化功能已重新组织，以便更好地阅读。 [了解更多信息](../personalization/personalize.md)
+* 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 
 * 为提高清晰度，“创建消息预设”部分已分为几个部分。 [了解更多信息](../configuration/message-presets.md#create-message-preset)
 
@@ -109,7 +109,7 @@ ht-degree: 93%
 * 优化了主页图像
 * 对“消息跟踪”部分进行了移动和改进，并将其重命名为“添加链接和跟踪消息”。[了解更多信息](../messages/message-tracking.md)
 * 在镜像页面上添加了子部分。[了解更多信息](../messages/message-tracking.md#mirror-page)
-* 在文档和屏幕中，将“选件活动”重命名为“决策”，将“决策”重命名为“决策范围”。 [了解更多信息](../offers/get-started/starting-offer-decisioning.md)
+* 在文档和屏幕中，将“优惠活动”重命名为“决策”，将“决策”重命名为“决策范围”。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用辅助函数个性化消息](../personalization/personalization-use-case-helper-functions.md)
 * 更新了读取区段文档，以反映实体化区段的影响。[了解更多信息](../building-journeys/read-segment.md)
 * 更新了历程限制。[了解更多信息](../start/limitations.md)

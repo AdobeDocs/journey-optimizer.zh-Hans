@@ -73,7 +73,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 要在收件人从登陆页面提交其选择时选择退出，您必须实施 **订阅API调用** 通过Adobe I/O更新相应用户档案的首选项。
 
-这个 Adobe I/O POST 调用如下：
+该 Adobe I/O POST 调用如下：
 
 端点：platform.adobe.io/journey/imp/consent/preferences
 

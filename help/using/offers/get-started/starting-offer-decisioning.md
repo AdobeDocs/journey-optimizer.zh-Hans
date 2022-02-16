@@ -1,6 +1,6 @@
 ---
 title: 决策管理入门
-description: 决策管理入门。 进一步了解其架构、优惠和决策，以及它允许您执行的常见用例
+description: 决策管理入门。 了解关于其架构、优惠和决策，及其允许您执行的常见使用案例的更多信息。
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;}用户正在利用 **offer decisioning** 应用程序服务中，本节中介绍的所有决策管理功能也适用于您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;} 用户并使用 **Offer Decisioning** 应用程序服务，则本节中介绍的所有决策管理功能也适用于您。
 
 “决策管理”功能由两个主要组件组成：
 
@@ -34,7 +34,7 @@ ht-degree: 83%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-➡️ [观看这些教程视频](#tutorial-videos) ，以了解有关决策管理的更多信息。
+➡️ [观看这些视频教程](#tutorial-videos)，以了解有关决策管理的更多信息。
 
 ## 关于优惠和决策 {#about-offers-and-decisions}
 
@@ -66,11 +66,11 @@ ht-degree: 83%
 
 ## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
 
-访问和使用offer decisioning功能的权限可通过 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
+使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} 管理访问和使用优惠决策功能的权限。
 
-要授予对决策管理功能的访问权限，您需要创建 **[!UICONTROL Product profile]** 并为用户分配相应的权限。 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户和权限 [此部分](../../administration/permissions.md).
+要授予对决策管理功能的访问权限，您需要创建 **[!UICONTROL Product profile]** 并为用户分配相应的权限。在[本节](../../administration/permissions.md)中了解更多关于管理 [!DNL Journey Optimizer] 用户和权限的信息。
 
-特定于决策管理的权限列在 [此部分](../../administration/high-low-permissions.md#decisions-permissions).
+[本节](../../administration/high-low-permissions.md#decisions-permissions)中列出了特定于决策管理的权限。
 
 ## 术语表 {#glossary}
 
@@ -107,7 +107,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。 但是，它们为在 [!DNL Journey Optimizer].
+>这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。但是，它们提供了在 [!DNL Journey Optimizer] 环境中使用决策管理的通用指南。
 
 ### 什么是决策管理？ {#what-is-offer-decisioning}
 
