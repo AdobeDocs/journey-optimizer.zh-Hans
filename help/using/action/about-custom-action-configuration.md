@@ -1,26 +1,35 @@
 ---
 solution: Journey Orchestration
-title: 关于自定义操作配置
+title: 配置自定义操作
 description: 了解如何配置自定义操作
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '863'
 ht-degree: 6%
 
 ---
 
-# 配置操作 {#configure-an-action}
+# 配置自定义操作 {#configure-an-action}
 
-如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-journey-activities.md#action-activities). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Slack、Adobe.io、Firebase等
+如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、Adobe.io、Firebase等
 
-限制列在 [本页](../start/limitations.md).
+自定义操作是技术用户定义并可供营销人员使用的其他操作。 配置完毕后，这些组件会显示在历程的左侧面板(位于 **[!UICONTROL Action]** 类别。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
 
-您可以使用自定义操作动态传递收藏集。 请参阅 [用例](../building-journeys/collections.md).
+## 限制{#custom-actions-limitations}
+
+自定义操作在 [本页](../start/limitations.md).
+
+在自定义操作参数中，您可以传递简单的集合以及对象集合。 进一步了解 [本页](../building-journeys/collections.md#limitations).
+
+另请注意，自定义操作参数具有预期的格式(例如：字符串、小数等)。 您必须谨慎遵循这些预期格式。 在中了解详情 [用例](../building-journeys/collections.md).
+
+
+## 配置步骤 {#configuration-steps}
 
 以下是配置自定义操作所需的主要步骤：
 

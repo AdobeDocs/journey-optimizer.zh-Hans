@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -119,11 +119,34 @@ ht-degree: 0%
 
 有关退回的更多信息，请参阅 [禁止列表](../messages/suppression-list.md) 页面。
 
+![](../assets/global_report_22.png)
+
+的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
+
+的 **[!UICONTROL Excluded reasons]** 图形和表格显示阻止从定向用户档案中排除的用户配置文件接收消息的不同原因。
+
 ![](../assets/global_report_16.png)
 
 的 **[!UICONTROL Email - Top Url]** 图表和表格详细列出了投放中哪些URL的访问次数最多。
 
 的 **[!UICONTROL Email - Top recipient domain]** 图表和表格详细列出了收件人最常使用哪些域来打开电子邮件。
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅此 [页面](../building-journeys/journeys-message.md#send-time-optimization).
+
+的 **[!UICONTROL Optimized vs non optimized]** 图表详细列出了与消息相关的主要信息（无论消息是否已优化）：
+
+* **[!UICONTROL Sent]**:投放的发送总数。
+* **[!UICONTROL Opens]**:投放中打开投放的次数。
+* **[!UICONTROL Clicks]**:电子邮件中内容的点击次数。
+
+的 **[!UICONTROL Send time optimization]** 根据发送方法详细描述投放成功与否：已优化或正常。
+
+* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
 <!--
 ![](../assets/global_report_21.png)
@@ -200,6 +223,21 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+>[!NOTE]
+>
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅此 [页面](../building-journeys/journeys-message.md#send-time-optimization).
+
+的 **[!UICONTROL Optimized vs non optimized]** 图表详细列出了与消息相关的主要信息（无论消息是否已优化）：
+
+* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Opens]**:投放中打开投放的次数。
+* **[!UICONTROL Actions]**:已送达推送通知的操作总数，例如按钮单击或解除。
+
+的 **[!UICONTROL Send time optimization]** 根据发送方法详细描述投放成功与否：已优化或正常。
+
+* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
 ![](../assets/global_report_18.png)
 

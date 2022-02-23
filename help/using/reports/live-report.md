@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,21 @@ ht-degree: 0%
 
 可通过调整大小或删除小组件来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
-1. 在您的实时报表中，单击 **[!UICONTROL Modify]**.
+1. 选择是否要使用切换栏从报表中排除测试事件。 有关测试事件的更多信息，请参阅 [本页](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_1.png)
+   ![](../assets/report_modify_6.png)
+
+1. 要调整小组件大小或删除小组件，请单击 **[!UICONTROL Modify]**.
+
+   ![](../assets/report_modify_7.png)
 
 1. 通过拖动小组件的右下角来调整其大小。
 
-   ![](../assets/report_modify_2.png)
+   ![](../assets/report_modify_8.png)
 
-1. 单击 **[!UICONTROL Remove]** 删除您不需要跟踪退回的其他小组件。
+1. 单击 **[!UICONTROL Remove]** 删除您不需要的任何小组件。
 
-   ![](../assets/report_modify_3.png)
+   ![](../assets/report_modify_9.png)
 
 1. 当您对小组件的显示顺序和大小感到满意后，单击 **[!UICONTROL Save]**.
 

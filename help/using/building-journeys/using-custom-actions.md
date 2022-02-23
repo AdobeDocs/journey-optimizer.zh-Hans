@@ -1,35 +1,29 @@
 ---
 title: 使用自定义操作
 description: 了解如何使用自定义操作
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 6%
+ht-degree: 19%
 
 ---
 
 # 使用自定义操作 {#use-custom-actions}
 
-活动配置窗格显示为自定义操作配置的URL配置参数和身份验证参数。 [了解详情](../action/about-custom-action-configuration.md)。
-
->[!NOTE]
->
->无法在自定义操作参数中传递简单集合。 不支持更复杂的集合字段（对象数组）。  另请注意，这些参数具有预期的格式(例如：字符串、小数等)。 您必须谨慎遵循这些预期格式。
+通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 
 ## URL 配置
+
+的配置窗格 **自定义操作** 活动显示为自定义操作配置的URL配置参数和身份验证参数。 您不能在历程中设置URL的静态部分，但是在自定义操作的全局配置中。 [了解详情](../action/about-custom-action-configuration.md)。
 
 ### 动态路径
 
 如果URL包含动态路径，请在 **[!UICONTROL Path]** 字段。
-
->[!NOTE]
->
->您不能在历程中设置URL的静态部分，但是在自定义操作的全局配置中。 [了解详情](../action/about-custom-action-configuration.md)。
 
 要连接字段和纯文本字符串，请在高级表达式编辑器中使用字符串函数或加号(+)。 用单引号(&#39;)或双引号(&quot;)引住纯文本字符串。 [了解详情](expression/expressionadvanced.md)。
 
