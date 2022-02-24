@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -60,3 +60,10 @@ ht-degree: 1%
 在将文本类型内容添加到选件的表示时，您还可以访问个性化编辑器。
 
 了解有关使用 [此部分](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## 个性化 URL{#personalize-urls}
+
+在消息内容中，您可以创建个性化链接。 例如，为新客户添加指向网站特定页面的链接。
+
+了解如何使用个性化功能在 [此部分](personalization-syntax.md#perso-urls).
+
