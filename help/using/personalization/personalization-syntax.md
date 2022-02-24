@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '707'
+ht-degree: 10%
 
 ---
 
@@ -145,10 +145,12 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 
 ## URL个性化{#perso-urls}
 
-Journey Optimizer允许您通过向消息中的一个或多个个性化字段，来对其进行个性化。 请按以下步骤执行此操作：
+个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于用户档案属性。在Adobe Journey Optimizer中，您可以向消息内容中的URL添加个性化。 URL 个性化可应用于文本和图像，并使用用户档案数据或上下文数据。
 
-* 在消息内容中创建链接。 要了解有关链接创建的更多信息，请参阅 [本页](../messages/message-tracking.md#insert-links).
-* 选择个性化图标。 此图标可用于以下特定类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
+Journey Optimizer允许您通过向消息中的一个或多个个性化字段，来对其进行个性化。 要个性化URL，请执行以下步骤：
+
+1. 在消息内容中创建链接。 [了解详情](../messages/message-tracking.md#insert-links)
+1. 从个性化图标中，选择属性。 个性化图标仅适用于以下类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
 
 ![](assets/perso-url.png)
 

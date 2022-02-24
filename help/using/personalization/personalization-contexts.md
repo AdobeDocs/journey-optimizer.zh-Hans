@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 3%
+source-wordcount: '280'
+ht-degree: 16%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 
 ## 个性化 URL{#personalize-urls}
 
-在消息内容中，您可以创建个性化链接。 例如，为新客户添加指向网站特定页面的链接。
+个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于用户档案属性。在Adobe Journey Optimizer中，您可以向消息内容中的URL添加个性化。 URL 个性化可应用于文本和图像，并使用用户档案数据或上下文数据。
 
-了解如何使用个性化功能在 [此部分](personalization-syntax.md#perso-urls).
+了解如何在 [此部分](personalization-syntax.md#perso-urls).
 
