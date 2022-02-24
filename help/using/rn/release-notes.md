@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
+source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 92%
@@ -81,7 +81,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>在Journey Optimizer消息内容中，您现在可以将UTM参数添加到链接：他们可以提供有关该链接的其他数据，并帮助您确定用户点击您链接的位置和原因。</p>
-<p>有关更多信息，请参阅<a href="../configuration/message-presets.md">详细文档</a>。</p-->
+<p>有关更多信息，请参阅<a href="../configuration/message-presets.md#configure-email-settings">详细文档</a>。</p-->
 </td>
 </tr>
 </tbody>
