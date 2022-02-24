@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
+source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2643'
 ht-degree: 92%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>表达式个性化库</strong><br/></th>
+<th><strong>新的个性化表达式库</strong><br/></th>
 </tr>
 </thead>
 <tbody>
