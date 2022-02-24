@@ -1,12 +1,12 @@
 ---
 title: 沙盒管理
 description: 了解如何管理沙箱
-feature: Control Groups
+feature: Sandboxes
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 7d466d87c337053b32489df6dedbfd4c350230bb
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 66%
@@ -21,7 +21,7 @@ ht-degree: 66%
 沙箱通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙箱](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙箱。
-可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}。
 
 您可以在屏幕右上方找到您的组织名称旁边的沙盒切换器控件。 要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
 

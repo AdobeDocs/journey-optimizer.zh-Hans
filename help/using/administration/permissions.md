@@ -2,11 +2,11 @@
 title: 管理用户和产品配置文件
 description: 了解如何管理权限
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: Control Groups
+feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 14%
@@ -101,7 +101,7 @@ ht-degree: 14%
 
 [!DNL Journey Optimizer] 允许您创建自己的 **[!UICONTROL Product profiles]** 并为用户分配一组权限和沙箱。 使用 **[!UICONTROL Product profiles]**，则可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}。
 
 在本例中，我们将创建一个名为 **历程只读** 我们将为历程功能授予只读权限。 用户将只能访问和查看历程，并且将无法访问其他功能，例如 **[!DNL  Decision management]** 或 **[!DNL Messages]** in [!DNL Journey Optimizer].
 
