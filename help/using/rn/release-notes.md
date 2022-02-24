@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4b79ad4291d6206fbbbe831ea10b76b431389f
+source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
 workflow-type: tm+mt
-source-wordcount: '2611'
-ht-degree: 93%
+source-wordcount: '2642'
+ht-degree: 92%
 
 ---
 
@@ -35,21 +35,21 @@ ht-degree: 93%
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Expression Personalization Library</strong><br/></th>
+<th><strong>表达式个性化库</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
+<p>Journey Optimizer现在提供了一个库，您可以在其中访问预定义的个性化表达式。 这些表达式由管理员用户配置。</p>
+<p>有关更多信息，请参阅<a href="../personalization/personalization-library.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>

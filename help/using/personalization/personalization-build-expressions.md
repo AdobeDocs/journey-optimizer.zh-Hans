@@ -6,14 +6,19 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 5%
 
 ---
 
 # 关于表达式编辑器 {#build-personalization-expressions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor"
+>title="关于表达式编辑器"
+>abstract="表达式编辑器允许您选择、排列、自定义和验证所有数据，以便为您的内容创建自定义个性化。"
 
 表达式编辑器是 [!DNL Journey Optimizer]. 它在您需要定义个性化（如电子邮件、推送和选件）的每个上下文中均可用。
 
@@ -33,13 +38,13 @@ ht-degree: 1%
 * **[!UICONTROL Contextual attributes]** :当 **消息** 在历程中使用，通过此菜单可使用上下文历程字段。 在 [此部分](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** :列出可用于对数据执行操作的所有帮助程序函数，例如计算、数据格式或转化、条件，并在个性化环境中处理这些函数。 在 [此部分](functions/functions.md).
 
-选择后，将在编辑器中添加引用。
+单击+按钮以向编辑器中添加属性。
 
 >[!NOTE]
 >
->“+”图标旁边的信息图标将打开工具提示，其中提供了每个变量的更多详细信息。
->
->您可以将最常用的属性添加到收藏夹。 在 [此部分](personalization-favorites.md).
+>通过“+”图标旁边的椭圆菜单，您可以获取每个变量的更多详细信息，并将最常用的属性添加到 [收藏夹](personalization-favorites.md).
+
+![](assets/attribute-details.png)
 
 在以下示例中，表达式编辑器允许您选择今天生日的用户档案，然后通过插入与当天对应的特定选件来完成自定义。
 

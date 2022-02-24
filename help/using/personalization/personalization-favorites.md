@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 17%
+source-wordcount: '89'
+ht-degree: 26%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 17%
 
 ![](assets/favorite-option.png)
 
-要访问您收藏的项目，请使用 **[!UICONTROL Favorites]** 菜单选项。
-
-![](assets/favorite-menu.png)
+要访问您收藏的项目，请使用 **[!UICONTROL Favorites]** 菜单。
 
 从此列表中，您可以快速将个性化对象添加到当前表达式。
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `upperCase` 字符串函数：
-   1. 在列表中，选择 **[!UICONTROL Helper functions]**.
+   1. 在左侧菜单中，选择 **[!UICONTROL Helper functions]**.
    1. 使用搜索字段查找“大写”。
    1. 在搜索结果中，添加 `upperCase` 函数。 要执行此操作，请单击旁边的加号(+) `{%= upperCase(string) %}: string`.
 
@@ -72,8 +72,8 @@ ht-degree: 3%
 
 1. 从表达式中删除“字符串”占位符。
 1. 添加名字令牌：
-   1. 在列表中，选择 **[!UICONTROL Profile]**.
-   1. 选择 **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. 在左侧菜单中，选择 **[!UICONTROL Profile attributes]**.
+   1. 选择 **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. 添加 **[!UICONTROL First name]** 表达式的令牌。
 
       表达式编辑器显示此表达式：
@@ -84,7 +84,7 @@ ht-degree: 3%
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      了解有关人员姓名数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
+      在中了解有关人员姓名数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
 
 1. 单击 **[!UICONTROL Validate]**，然后单击 **[!UICONTROL Save]**。
 
@@ -126,7 +126,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `each` 助手：
-   1. 在列表中，选择 **[!UICONTROL Helper functions]**.
+   1. 在左侧菜单中，选择 **[!UICONTROL Helper functions]**.
    1. 使用搜索字段查找“每个”。
    1. 在搜索结果中，添加 `each` 帮手。
 
@@ -141,9 +141,9 @@ ht-degree: 3%
 1. 添加 `productListItems` 数组到表达式：
 
    1. 从表达式中删除“someArray”占位符。
-   1. 在列表中，选择 **[!UICONTROL Context]**.
+   1. 在左侧菜单中，选择 **[!UICONTROL Contextual attributes]**.
 
-      的 **[!UICONTROL Context]** 选项仅在历程上下文传递到消息后才可用。
+      **[!UICONTROL Contextual attributes]** 仅在历程上下文传递到消息后才可用。
 
    1. 选择 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开 **[!UICONTROL productListItems]** 节点。
 
@@ -218,7 +218,7 @@ ht-degree: 3%
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `if` 助手：
-   1. 在列表中，选择 **[!UICONTROL Helper functions]**.
+   1. 在左侧菜单中，选择 **[!UICONTROL Helper functions]**.
    1. 使用搜索字段查找“if”。
    1. 在搜索结果中，添加 `if` 帮手。
 
@@ -248,7 +248,7 @@ ht-degree: 3%
 
 1. 将产品名称令牌添加到条件中：
    1. 从表达式中删除“condition1”占位符。
-   1. 在列表中，选择 **[!UICONTROL Context]**.
+   1. 在左侧菜单中，选择 **[!UICONTROL Contextual attributes]**.
    1. 选择 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开 **[!UICONTROL productListItems]** 节点。
 
       在本例中， *event_name* 表示事件的名称。

@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 每个产品配置文件都包含允许用户访问不同功能的权限。
 分为两种类型：
 
-* **高级权限**:表示可分配给的不同权限 **[!UICONTROL Product profile]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高级权限包含低级权限。
+* **High-level permission**: represents the different permissions that can be assigned to **[!UICONTROL Product profile]** in the [!DNL Admin console], such as **[!DNL Publish journeys]** and **[!DNL Manage subdomains delegation]**. 高级权限包含低级权限。
 
-* **低级别权限**:表示来自高级权限的不同权限。
+* **Low-level permission**: represents the different permissions that come from the high level permission.
 
 例如， **[!DNL Journey administrator]** 已分配产品配置文件 **[!DNL Manage journeys]** 权限。 从此权限中，将产生低级权限，该权限将允许历程管理员写入、读取和删除历程。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ### [!DNL Publish journeys] 许可 {#publish-journeys}
 
-的 **[!DNL Publish journeys]** 用户通过高级权限发布历程。
+The **[!DNL Publish journeys]** high-level permission allows users to publish journeys.
 
 它包括以下低级权限：
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 * Journey Optimizer特定：
    * journeys.read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform specific:
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] 许可 {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] permission {#manage-journeys-events}
 
 的 **[!DNL Manage journeys events, data sources and actions]** 高级权限允许用户配置事件和数据配置。
 
@@ -112,9 +112,9 @@ ht-degree: 0%
 
 的 **[!DNL View journeys report]** 高级权限允许用户报告只读历程。
 
-它包括以下低级权限：
+It includes the following low-level permissions:
 
-* Journey Optimizer特定：
+* Journey Optimizer specific:
    * journeys_report.read
    * messages_report.read
 
@@ -144,9 +144,9 @@ ht-degree: 0%
 
 ### [!DNL Manage messages preview and test] 许可 {#mange-messages-preview}
 
-的 **[!DNL Manage messages preview and test]** 高级权限允许用户预览个性化消息。
+The **[!DNL Manage messages preview and test]** high-level permission allows users to preview personalized message.
 
-它包括以下低级权限：
+It includes the following low-level permissions:
 
 * Journey Optimizer特定：
    * messages.publish
@@ -226,7 +226,7 @@ ht-degree: 0%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform特定：
+* Adobe Experience Platform specific:
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -277,7 +277,7 @@ ht-degree: 0%
 
 ### [!DNL Manage ranking strategies] 许可 {#manage-decisions}
 
-的 **[!DNL Manage ranking strategies]** 高级权限允许用户读取、创建、编辑和删除自定义消息报表以及使用操作功能。
+The **[!DNL Manage ranking strategies]** high-level permission allows users to read, create, edit, and delete custom messages report and use action features.
 
 它包括以下低级权限：
 
@@ -379,11 +379,11 @@ ht-degree: 0%
 * IP_pools.read
 * mobile_setting.read(从Adobe Experience Platform数据收集)
 
-### [!DNL Manage suppression] 许可 {#manage-suppression}
+### [!DNL Manage suppression] permission {#manage-suppression}
 
 的 **[!DNL Manage suppression]** 高级权限允许用户在将电子邮件地址添加到禁止列表之前定义退回次数，以及向禁止列表添加和删除条目。
 
-它包括以下低级权限：
+It includes the following low-level permissions:
 
 * suppression_rules.read
 * suppression_rules.write
@@ -416,3 +416,14 @@ ht-degree: 0%
 * Adobe Experience Platform特定：
    * profiles.read
    * datasets.read
+
+## Journey Optimizer库功能{library-permissions}
+
+### 管理库项目 {#library-items}
+
+的 **[!DNL Manage Library Items]** 高级权限允许用户在 [!DNL Journey Optimizer] 库。
+
+它包括以下低级权限：
+
+* library_item.create
+* ibrary_item.delete
