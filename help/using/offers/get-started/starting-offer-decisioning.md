@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 
 * **集合**：集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-* **决策**:决策包含通知选件选择的逻辑。
+* **决策**：决策包含通知优惠选择的逻辑。
 
 * **决策规则**：决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。
 
