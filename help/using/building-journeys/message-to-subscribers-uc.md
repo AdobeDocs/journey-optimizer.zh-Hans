@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 在本例中， **[!UICONTROL Consent and Preference Details]** 字段组自 [!DNL Adobe Experience Platform] 中，将使用。 要查找此字段组，请从 **[!UICONTROL Data Management]** 菜单，选择 **[!UICONTROL Schemas]**. 在 **[!UICONTROL Field groups]** 选项卡，在搜索字段中输入字段组的名称。
 
-![此字段组包含订阅元素](../assets/consent-and-preference-details-field-group.png)
+![此字段组包含订阅元素](assets/consent-and-preference-details-field-group.png)
 
 要配置此历程，请执行以下步骤：
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
    1. 单击 **[!UICONTROL Enable parameter override]** 图标 **[!UICONTROL Address]** 字段，然后单击 **[!UICONTROL Edit]** 图标。
 
-      ![](../assets/message-to-subscribers-uc-1.png)
+      ![](assets/message-to-subscribers-uc-1.png)
 
       要修改电子邮件地址，您必须先已发布了该消息。
 
@@ -52,10 +52,10 @@ ht-degree: 5%
 
       有关更多信息 [对字段的引用](expression/field-references.md) 中。
 
-      ![](../assets/message-to-subscribers-uc-2.png)
+      ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL Add an expression]** 对话框，单击 **[!UICONTROL Ok]**.
 
-   ![](../assets/message-to-subscribers-uc-3.png)
+   ![](assets/message-to-subscribers-uc-3.png)
 
 1. 通过 **[!UICONTROL End]** 活动。

@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 访问 **[!UICONTROL Components]** 菜单，然后选择 **[!UICONTROL AI rankings]** 选项卡。
 
-   ![](../../assets/ai-ranking-list.png)
+   ![](../assets/ai-ranking-list.png)
 
    列出了迄今为止创建的所有排名策略。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 1. 填写以下字段：
 
-   ![](../../assets/ai-ranking-fields.png)
+   ![](../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Name]**:必须提供的唯一名称。
 
@@ -80,11 +80,11 @@ ht-degree: 2%
       * **[!UICONTROL Impression]**:当前展示事件与显示的所有选件相对应。
       * **[!UICONTROL Conversion]**:转化事件与通过电子邮件或Web进行点击的所有选件相对应。
 
-      所有选定的展示事件和/或转化事件都将使用已提供的Web SDK或Mobile SDK自动捕获。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans).
+      所有选定的展示事件和/或转化事件都将使用已提供的Web SDK或Mobile SDK自动捕获。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
    * **[!UICONTROL Dataset ID]**:对于转化，您需要提供一个数据集，通过从下拉列表中选择该数据集来收集事件。 了解如何在 [此部分](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../../assets/ai-ranking-dataset-id.png)
+   ![](../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 1. 保存并激活排名策略。
 
-   ![](../../assets/ai-ranking-save-activate.png)
+   ![](../assets/ai-ranking-save-activate.png)
 
 现在，它可用于对符合条件的选件进行版面排名的决策。 在 [此部分](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
@@ -102,11 +102,11 @@ ht-degree: 2%
 
 1. 从 **[!UICONTROL Data Management]** 菜单，选择 **[!UICONTROL Schema]**，转到 **[!UICONTROL Browse]** 选项卡，单击 **[!UICONTROL Create schema]**.
 
-   ![](../../assets/ai-ranking-create-schema.png)
+   ![](../assets/ai-ranking-create-schema.png)
 
 1. 选择 **[!UICONTROL XDM ExperienceEvent]**.
 
-   ![](../../assets/ai-ranking-xdm-event.png)
+   ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -115,7 +115,7 @@ ht-degree: 2%
 
 1. 在 **[!UICONTROL Search]** 字段中，键入“建议交互”并选择 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组。
 
-   ![](../../assets/ai-ranking-proposition-interactions.png)
+   ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ ht-degree: 2%
 
 1. 单击 **[!UICONTROL Add field groups]**。
 
-   ![](../../assets/ai-ranking-add-field-group.png)
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >字段组以前称为mixin。
@@ -138,21 +138,21 @@ ht-degree: 2%
 
 1. 从 **[!UICONTROL Data Management]** 菜单，选择 **[!UICONTROL Datasets]**，转到 **[!UICONTROL Browse]** 选项卡，单击 **[!UICONTROL Create dataset]**.
 
-   ![](../../assets/ai-ranking-create-dataset.png)
+   ![](../assets/ai-ranking-create-dataset.png)
 
 1. 选择 **[!UICONTROL Create dataset from schema]**。
 
-   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. 从列表中选择之前创建的架构。
 
-   ![](../../assets/ai-ranking-dataset-select-schema.png)
+   ![](../assets/ai-ranking-dataset-select-schema.png)
 
 1. 单击 **[!UICONTROL Next]**。
 
 1. 为 **[!UICONTROL Name]** 字段，单击 **[!UICONTROL Finish]**.
 
-   ![](../../assets/ai-ranking-dataset-name.png)
+   ![](../assets/ai-ranking-dataset-name.png)
 
 现在，可以选择数据集以在 [创建排名策略](#create-ranking-strategy).
 

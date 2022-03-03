@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 10%
@@ -17,14 +17,14 @@ ht-degree: 10%
 
 可在Adobe Experience Platform中访问导出的选件目录 **[!UICONTROL Datasets]** 菜单。 系统会为选件库的每个对象创建一个数据集。
 
-![](../../assets/datasets-list.png)
+![](../assets/datasets-list.png)
 
 单击某个数据集以访问其详细信息。
 
-![](../../assets/dataset-activity.png)
+![](../assets/dataset-activity.png)
 
 的 **[!UICONTROL Preview dataset]** 按钮，可显示数据集中最新成功的批次。 左窗格提供有关已导出的数据类型的信息。
 
-![](../../assets/dataset-preview.png)
+![](../assets/dataset-preview.png)
 
 有关如何浏览和使用数据集的更多信息，请参阅 [本页](../../start/get-started-datasets.md).

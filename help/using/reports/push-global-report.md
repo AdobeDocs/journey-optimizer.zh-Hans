@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 从 **[!UICONTROL Executions]** 选项卡 **[!UICONTROL Messages]** 菜单，选择 **[!UICONTROL Global view]** 然后，从选定投放的高级菜单中选择 **[!UICONTROL Global report]**.
 
-![](../assets/global_report_11.png)
+![](assets/global_report_11.png)
 
 推送 **[!UICONTROL Global report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](global-report.md#modify-dashboard).
 
-![](../assets/push_global_report.png)
+![](assets/push_global_report.png)
 
 的 **[!UICONTROL Push notification performance]** 小组件通过KPI详细介绍与推送通知相关的主要信息：
 
@@ -51,6 +51,6 @@ ht-degree: 1%
 
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
-![](../assets/push_global_report_2.png)
+![](assets/push_global_report_2.png)
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据收件人的操作系统详细列出了推送通知的成功情况。

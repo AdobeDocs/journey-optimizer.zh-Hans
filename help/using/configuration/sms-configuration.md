@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** 菜单，然后单击 **[!UICONTROL Create API credential]**.
 
-   ![](../assets/sms_4.png)
+   ![](assets/sms_4.png)
 
 1. 选择Sinch作为 **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ ht-degree: 4%
    >
    > Sinch需要特殊的API凭据。 查找 **[!UICONTROL Service ID]** 和 **[!UICONTROL API Token]**，从您的Sinch帐户访问短信> API菜单，
 
-   ![](../assets/sms_5.png)
+   ![](assets/sms_5.png)
 
 1. 单击 **[!UICONTROL Submit]** 完成API凭据的配置时，覆盖分类。
 

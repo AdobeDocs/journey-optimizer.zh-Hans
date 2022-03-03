@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 1. 访问 **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** 菜单，然后单击 **[!UICONTROL Create IP Pool]**.
 
-   ![](../assets/ip-pool-create.png)
+   ![](assets/ip-pool-create.png)
 
 1. 为IP池提供名称和描述（可选）。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 1. 从下拉列表中选择要包含在池中的IP地址，然后单击 **[!UICONTROL Submit]**.
 
-   ![](../assets/ip-pool-config.png)
+   ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 IP池现已创建并显示在列表中。 您可以选择它以访问其属性并显示关联的消息预设。 有关如何将消息预设与IP池关联的详细信息，请参阅 [此部分](message-presets.md))。
 
-![](../assets/ip-pool-created.png)
+![](assets/ip-pool-created.png)
 
 ## 编辑IP池 {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 
 1. 在列表中，单击IP池名称以将其打开。
 
-   ![](../assets/ip-pool-list.png)
+   ![](assets/ip-pool-list.png)
 
 1. 根据需要编辑其属性。 您可以修改描述，并添加或删除IP地址。
 
-   ![](../assets/ip-pool-edit.png)
+   ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 
 要检查IP池更新状态，请单击 **[!UICONTROL More actions]** 按钮，选择 **[!UICONTROL Recent updates]**.
 
-![](../assets/ip-pool-recent-update.png)
+![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

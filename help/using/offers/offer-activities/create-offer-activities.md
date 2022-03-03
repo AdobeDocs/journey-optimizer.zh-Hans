@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 7f8871fdaf5bb543ce8dc894f3a7dc7304eccf36
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 可在 **[!UICONTROL Offers]** 菜单> **[!UICONTROL Decisions]** 选项卡。 过滤器可帮助您根据其状态或开始和结束日期来检索决策。
 
-![](../../assets/activities-list.png)
+![](../assets/activities-list.png)
 
 在创建决策之前，请确保已在选件库中创建以下组件：
 
@@ -38,17 +38,17 @@ ht-degree: 1%
 
 1. 根据需要定义开始和结束日期和时间，然后单击 **[!UICONTROL Next]**.
 
-   ![](../../assets/activities-name.png)
+   ![](../assets/activities-name.png)
 
 ## 定义决策范围 {#add-decision-scopes}
 
 1. 从下拉列表中选择版面。 它将添加到您决策的第一个决策范围中。
 
-   ![](../../assets/activities-placement.png)
+   ![](../assets/activities-placement.png)
 
 1. 单击 **[!UICONTROL Add]** ，以选择此版面的评估标准。
 
-   ![](../../assets/activities-evaluation-criteria.png)
+   ![](../assets/activities-evaluation-criteria.png)
 
    每个标准都包含一个与资格约束相关联的选件集合和一个用于确定要在版面中显示的选件的排名方法。
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 1. 选择包含要考虑的选件的选件集，然后单击 **[!UICONTROL Add]**.
 
-   ![](../../assets/activities-collection.png)
+   ![](../assets/activities-collection.png)
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    选定的收藏集将会添加到标准中。
 
-   ![](../../assets/activities-collection-added.png)
+   ![](../assets/activities-collection-added.png)
 
 1. 使用 **[!UICONTROL Eligibility]** 字段来限制选择此版面的选件。
 
@@ -74,23 +74,23 @@ ht-degree: 1%
 
    * 要将选件的选择限制为Experience Platform区段的成员，请选择 **[!UICONTROL Segments]**，然后单击 **[!UICONTROL Add segments]**.
 
-      ![](../../assets/activity_constraint_segment.png)
+      ![](../assets/activity_constraint_segment.png)
 
       从左窗格添加一个或多个区段，然后使用 **[!UICONTROL And]** / **[!UICONTROL Or]** 逻辑运算符。
 
-      ![](../../assets/activity_constraint_segment2.png)
+      ![](../assets/activity_constraint_segment2.png)
 
       了解如何在 [此部分](../../segment/about-segments.md).
 
    * 如果要添加包含决策规则的选择约束，请使用 **[!UICONTROL Decision rule]** 选项，然后选择您选择的规则。
 
-      ![](../../assets/activity_constraint_rule.png)
+      ![](../assets/activity_constraint_rule.png)
 
       了解如何在 [此部分](../offer-library/creating-decision-rules.md).
 
 1. 定义要用于为每个用户档案选择最佳选件的排名方法。
 
-   ![](../../assets/activity_ranking-method.png)
+   ![](../assets/activity_ranking-method.png)
 
    * 默认情况下，如果多个选件符合此版面的条件，则具有最高优先级分数的选件将会交付给客户。
 
@@ -98,25 +98,25 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Add]** 为同一版面定义更多标准。
 
-   ![](../../assets/activity_add-collection.png)
+   ![](../assets/activity_add-collection.png)
 
 1. 添加多个标准时，将按特定顺序对其进行评估。 添加到序列的第一个集合将首先进行评估，依此类推。
 
    要更改默认序列，您可以拖放收藏集以根据需要对它们重新排序。
 
-   ![](../../assets/activity_reorder-collections.png)
+   ![](../assets/activity_reorder-collections.png)
 
 1. 您还可以同时评估多个标准。 要执行此操作，请将收藏集拖放到另一个收藏集上。
 
-   ![](../../assets/activity_move-collection.png)
+   ![](../assets/activity_move-collection.png)
 
    现在，它们具有相同的排名，因此将同时进行评估。
 
-   ![](../../assets/activity_same-rank-collections.png)
+   ![](../assets/activity_same-rank-collections.png)
 
 1. 要在此决策中为选件添加其他版面，请使用 **[!UICONTROL New scope]** 按钮。 对每个决策范围重复上述步骤。
 
-   ![](../../assets/activity_new-scope.png)
+   ![](../assets/activity_new-scope.png)
 
 ### 使用区段和决策规则 {#segments-vs-decision-rules}
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 为此，请从决策中定义的版面的可用备用选件列表中选择它，然后单击 **[!UICONTROL Next]**.
 
-![](../../assets/add-fallback-offer.png)
+![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
@@ -156,16 +156,16 @@ ht-degree: 1%
 
 1. 确保做好准备，以便用于向客户展示选件。 将显示所有决策范围及其包含的备用选件。
 
-   ![](../../assets/review-decision.png)
+   ![](../assets/review-decision.png)
 
    您可以展开或折叠每个版面。 您还可以预览每个版面的可用选件、资格和排名详细信息。
 
-   ![](../../assets/review-decision-details.png)
+   ![](../assets/review-decision-details.png)
 
 1. 单击 **[!UICONTROL Finish]**。
 1. 选择 **[!UICONTROL Save and activate]**。
 
-   ![](../../assets/save-activities.png)
+   ![](../assets/save-activities.png)
 
    您还可以将决定另存为草稿，以便在以后编辑和激活它。
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 
 从决策列表中，您可以选择显示其属性的决策。 从此处，您还可以编辑它，更改其状态(**草稿**, **实时**, **完成**, **已存档**)、复制决策或删除决策。
 
-![](../../assets/decision_created.png)
+![](../assets/decision_created.png)
 
 选择 **[!UICONTROL Edit]** 按钮返回到决策版模式，在该模式中，您可以修改决策 [详细信息](#create-activity), [决策范围](#add-decision-scopes) 和 [后备优惠](#add-fallback).
 
@@ -185,11 +185,11 @@ ht-degree: 1%
 
 再次将状态设置为 **[!UICONTROL Live]**，选择 **[!UICONTROL Activate]** 按钮。
 
-![](../../assets/decision_activate.png)
+![](../assets/decision_activate.png)
 
 的 **[!UICONTROL More actions]** 按钮可启用下面描述的操作。
 
-![](../../assets/decision_more-actions.png)
+![](../assets/decision_more-actions.png)
 
 * **[!UICONTROL Complete]**:将决策的状态设置为 **[!UICONTROL Complete]**，这意味着无法再调用决策。 此操作仅适用于已激活的决策。 该决策仍可从列表中获取，但您无法将其状态重新设置为 **[!UICONTROL Draft]** 或 **[!UICONTROL Approved]**. 您只能复制、删除或存档它。
 
@@ -207,19 +207,19 @@ ht-degree: 1%
 
 您还可以通过选中相应的复选框，同时删除或更改多个决策的状态。
 
-![](../../assets/decision_multiple-selection.png)
+![](../assets/decision_multiple-selection.png)
 
 如果要更改具有不同状态的多个决策的状态，则只会更改相关状态。
 
-![](../../assets/decision_change-status.png)
+![](../assets/decision_change-status.png)
 
 创建决策后，您可以在列表中单击其名称。
 
-![](../../assets/decision_click-name.png)
+![](../assets/decision_click-name.png)
 
 这样，您就可以访问该决策的详细信息。 选择 **[!UICONTROL Change log]** 选项卡 [监控所有更改](../get-started/user-interface.md#changes-log) 已经做出决定。
 
-![](../../assets/decision_information.png)
+![](../assets/decision_information.png)
 
 ## 教程视频 {#video}
 

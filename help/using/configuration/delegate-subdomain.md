@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 10%
@@ -36,15 +36,15 @@ ht-degree: 10%
 
 1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 菜单，然后单击 **[!UICONTROL Set up subdomain]**.
 
-   ![](../assets/subdomain-delegate.png)
+   ![](assets/subdomain-delegate.png)
 
 1. 选择 **[!UICONTROL Fully delegated]** 从 **[!UICONTROL Set up method]** 中。
 
-   ![](../assets/subdomain-method-full.png)
+   ![](assets/subdomain-method-full.png)
 
 1. 指定要委派的子域的名称。
 
-   ![](../assets/subdomain-name.png)
+   ![](assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ ht-degree: 10%
 
 1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL Submit]**.
 
-   ![](../assets/subdomain-submit.png)
+   ![](assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 10%
 
 1. 提交完整子域委派后，该子域将显示在列表中，其中 **[!UICONTROL Processing]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).
 
-   ![](../assets/subdomain-processing.png)
+   ![](assets/subdomain-processing.png)
 
    在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为3小时。 在 [此部分](#subdomain-validation).
 
@@ -102,7 +102,7 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
 
 1. 选择 **[!UICONTROL CNAME set up]** 方法。
 
-   ![](../assets/subdomain-method-cname.png)
+   ![](assets/subdomain-method-cname.png)
 
 1. 指定要委派的子域的名称。
 
@@ -116,7 +116,7 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
 
 1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”复选框。
 
-   ![](../assets/subdomain-create-dns-confirm.png)
+   ![](assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
 
 1. Adobe生成SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您在托管解决方案上正确创建了此记录，请选中“I confirm...”框，然后单击 **[!UICONTROL Submit]**.
 
-   ![](../assets/subdomain-cdn-url-validation.png)
+   ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >

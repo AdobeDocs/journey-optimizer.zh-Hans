@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 每次修改选件时，都会更新备用选件自动生成的数据集。
 
-![](../../assets/dataset-fallback.png)
+![](../assets/dataset-fallback.png)
 
 数据集中最近一次成功的批处理将显示在右侧。 数据集架构的分层视图将显示在左窗格中。
 

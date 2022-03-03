@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 4%
 * 排名公式
 * [人工智能排名](#use-ranking-strategy) （仅供选定用户抢先访问）
 
-![](../../assets/offer-rank-by.png)
+![](../assets/offer-rank-by.png)
 
 ## 选件优先级 {#offer-priority}
 
 默认情况下，当多个选件符合在决策中放置给定版面的条件时，具有最高级别的选件 **优先级** 会先送给客户。
 
-![](../../assets/offer-priority.png)
+![](../assets/offer-priority.png)
 
 创建选件时会分配选件的优先级分数。 了解如何在 [此部分](../offer-library/creating-personalized-offers.md).
 
@@ -48,11 +48,11 @@ ht-degree: 4%
 
 1. 选择 **[!UICONTROL Ranking formula]** 作为排名方法，然后单击 **[!UICONTROL Add ranking]**.
 
-   ![](../../assets/offer-activity-ranking.png)
+   ![](../assets/offer-activity-ranking.png)
 
 1. 选择所需的排名公式，然后单击 **[!UICONTROL Select]**.
 
-   ![](../../assets/ranking-selection.png)
+   ![](../assets/ranking-selection.png)
 
 排名公式现在与版面相关联。
 
@@ -78,11 +78,11 @@ ht-degree: 4%
 
 1. 选择对选件进行排名 **[!UICONTROL AI ranking]** 从下拉列表中，单击 **[!UICONTROL Add ranking]**.
 
-   ![](../../assets/ranking-selection-ai-ranking.png)
+   ![](../assets/ranking-selection-ai-ranking.png)
 
 1. 选择您创建的排名策略。 将显示排名策略的所有详细信息。
 
-   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../assets/ranking-selection-ai-ranking-selected.png)
 
 1. 单击 **[!UICONTROL Select]**。排名策略现在与版面相关联。
 

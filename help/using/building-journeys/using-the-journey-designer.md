@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 启动新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
-![](../assets/journey38.png)
+![](assets/journey38.png)
 
 的 **[!UICONTROL Filter items]** 图标，可显示以下过滤器：
 
@@ -35,17 +35,17 @@ ht-degree: 1%
 
 的 **画布** 是历程设计器中的中心区域。 您可以在此区域中拖放并配置活动。 单击画布中的活动以对其进行配置。 此操作将打开右侧的活动配置窗格。
 
-![](../assets/journey39.png)
+![](assets/journey39.png)
 
 的 **活动配置窗格** 单击面板中的活动时显示。 填写必填字段。 单击 **[!UICONTROL Delete]** 图标以删除活动。 单击 **[!UICONTROL Cancel]** 取消修改或 **[!UICONTROL Ok]** 确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
 
 默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击 **显示只读字段** 图标。 此设置适用于所有历程中的所有活动。
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 测试模式激活后，将显示测试模式日志按钮。
 
-![](../assets/journey41.png)
+![](assets/journey41.png)
 
 ## 开始您的历程
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 多个活动(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 活动)，以便您在发生错误或超时时定义回退操作。 在活动配置窗格中，选中框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 活动后会添加另一个路径。 超时持续时间在历程的属性中定义(请参阅 [本页](../building-journeys/journey-gs.md#change-properties) 管理员用户的。 例如，如果电子邮件发送时间过长或出错，您可以决定发送短信。
 
-![](../assets/journey42.png)
+![](assets/journey42.png)
 
 各种活动（事件、操作、等待）允许您在其后添加多个路径。 要实现此目的，请将光标放在活动上并单击“+”符号。 只能并行设置事件和等待活动。 如果同时设置多个事件，则所选路径将是第一个发生事件的路径之一。
 
@@ -93,11 +93,11 @@ ht-degree: 1%
 
 要删除路径，请将光标放在该路径上，然后单击 **[!UICONTROL Delete path]** 图标。
 
-![](../assets/journey42ter.png)
+![](assets/journey42ter.png)
 
 在画布中，当两个活动断开连接时，会显示一条警告消息。 将光标放在警告图标上以显示错误消息。 要修复此问题，只需移动已断开连接的活动并将其连接到上一个活动即可。
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 ## 复制和粘贴活动 {#copy-paste}
 
@@ -116,9 +116,9 @@ ht-degree: 1%
 
 1. 打开旅程。
 1. 单击时移动鼠标以选择要复制的活动。 在按 **Ctrl/Command** 键。 使用 **Ctrl/Command + A** 选择所有活动。
-   ![](../assets/copy-paste1.png)
+   ![](assets/copy-paste1.png)
 1. 按 **Ctrl/Command + C**.
 如果您只想复制一个活动，则可以单击该活动并使用 **复制** 图标。
-   ![](../assets/copy-paste2.png)
+   ![](assets/copy-paste2.png)
 1. 在任何历程中，按 **Ctrl/Command + V** 粘贴活动，而不将其链接到现有节点。 粘贴的活动会按相同的顺序放置。 粘贴活动后，将保持选中状态，以便轻松移动活动。 您还可以将光标放在空的占位符上并点击 **Ctrl/Command + V**. 粘贴的活动将链接到节点。
-   ![](../assets/copy-paste3.png)
+   ![](assets/copy-paste3.png)

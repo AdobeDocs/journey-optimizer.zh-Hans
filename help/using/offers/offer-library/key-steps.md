@@ -1,15 +1,15 @@
 ---
 title: 创建优惠的关键步骤
-description: 了解创建优惠所需的关键步骤
+description: 探索创建选件所需的关键步骤
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 创建、配置和管理选件以及在决策中使用这些选件的主要步骤如下所示。
 
-![](../../assets/offer-create-manage-process.png)
+![](../assets/offer-create-manage-process.png)
 
 有关完整的端到端示例，请参阅如何配置选件、在决策中使用这些选件以及在电子邮件中利用此决策，以了解 [本页](../offers-e2e.md).
 

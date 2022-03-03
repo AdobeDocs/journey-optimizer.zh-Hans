@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 71%
@@ -32,7 +32,7 @@ ht-degree: 71%
 
 1. 展开&#x200B;**[!UICONTROL Events]**&#x200B;类别并将&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动放入画布中。
 
-   ![](../assets/segment5.png)
+   ![](assets/segment5.png)
 
 1. 向该活动中添加&#x200B;**[!UICONTROL Label]**。此步骤是可选的。
 
@@ -42,13 +42,13 @@ ht-degree: 71%
    >
    >请注意，您可以自定义列表中显示的列，并对其进行排序。
 
-   ![](../assets/segment6.png)
+   ![](assets/segment6.png)
 
    添加客户细分后，即可通过&#x200B;**[!UICONTROL Copy]**&#x200B;按钮复制其名称和 ID：
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/segment-copy.png)
+   ![](assets/segment-copy.png)
 
 1. 在 **[!UICONTROL Behaviour]** 字段中，选择要侦听客户细分入口和/或出口。
 
@@ -58,7 +58,7 @@ ht-degree: 71%
 
 1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
 
-   ![](../assets/segment7.png)
+   ![](assets/segment7.png)
 
 有效负荷包含以下可以在条件和操作中使用的上下文信息：
 
@@ -70,7 +70,7 @@ ht-degree: 71%
 
 请参阅[条件活动](../building-journeys/condition-activity.md#about_condition)。
 
-![](../assets/segment8.png)
+![](assets/segment8.png)
 
 包含区段鉴别事件的新历程在您发布后10分钟内可运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待十分钟，才能使用此历程。
 
@@ -98,10 +98,10 @@ ht-degree: 71%
 
 在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动中，请勿在创建批处理客户细分后立即对其进行使用。它将避免第一个计算峰值。请注意，如果您要使用从未计算的客户细分，则历程画布中将显示黄色警告。
 
-![](../assets/segment-error.png)
+![](assets/segment-error.png)
 
 为历程中使用的数据源和操作设置上限规则，以避免其过载。 在 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 请注意，上限规则不带重试。如果需要重试，则必须通过选中条件或操作中的&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**&#x200B;框在历程中使用替代路径。
 
 在生产历程中使用客户细分之前，请始终首先评估每天符合此客户细分条件的个人数量。为此，您可以检查 **[!UICONTROL Segments]** 菜单，打开区段，然后查看 **[!UICONTROL Profiles over time]** 图表。
 
-![](../assets/segment-overload.png)
+![](assets/segment-overload.png)

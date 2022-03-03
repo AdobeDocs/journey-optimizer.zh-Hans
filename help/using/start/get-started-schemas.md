@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 
 的 **模式** 工作区 [!DNL Adobe Journey Optimizer] 用户界面允许您管理Experience Data Model(XDM)资源，包括架构、类、架构字段组和数据类型。 您可以查看和探索由Adobe提供的核心资源，并为贵组织创建自定义资源和模式。
 
-![](../assets/schemas-home.png)
+![](assets/schemas-home.png)
 
 了解如何在中使用模式用户界面 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 

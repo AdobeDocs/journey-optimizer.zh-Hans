@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 89%
@@ -32,11 +32,11 @@ ht-degree: 89%
 
 1. 在数据源列表中，单击 **[!UICONTROL Create Data Source]**&#x200B;以创建新的外部数据源。
 
-   ![](../assets/journey25.png)
+   ![](assets/journey25.png)
 
    这将打开屏幕右侧的数据源配置窗格。
 
-   ![](../assets/journey26.png)
+   ![](assets/journey26.png)
 
 1. 输入数据源的名称。
 
@@ -51,7 +51,7 @@ ht-degree: 89%
    >
    >出于安全原因，我们强烈建议使用 HTTPS。另请注意，我们不允许使用非公开的 Adobe 地址和 IP 地址。
 
-   ![](../assets/journey27.png)
+   ![](assets/journey27.png)
 
 1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
 
@@ -60,7 +60,7 @@ ht-degree: 89%
    * **[!UICONTROL Value]**：“1234”（这是 API 密钥值）
    * **[!UICONTROL Location]**：“查询参数”（API 密钥位于 URL 中）
 
-   ![](../assets/journey28.png)
+   ![](assets/journey28.png)
 
 1. 通过单击&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;为每个 API 参数集添加新字段组。请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
@@ -81,7 +81,7 @@ ht-degree: 89%
    {"id":{"param":"identifier"}}
    ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 单击 **[!UICONTROL Save]**。
 
@@ -98,11 +98,11 @@ ht-degree: 89%
 
 配置自定义身份验证时，可以单击以下按钮检查自定义身份验证有效负载是否正确配置。
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 如果测试成功，按钮将变为绿色。
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 通过此身份验证，操作执行分为两步：
 

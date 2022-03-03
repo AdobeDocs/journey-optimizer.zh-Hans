@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 14%
@@ -21,15 +21,15 @@ ht-degree: 14%
 
 1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Events]** ，单击 **[!UICONTROL Manage]**. 将显示事件列表。
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. 单击&#x200B;**[!UICONTROL Create Event]**&#x200B;以创建新事件。事件配置窗格将在屏幕右侧打开。
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. 输入事件的名称。 您还可以添加描述。
 
-   ![](../assets/jo-event3.png)
+   ![](assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -37,24 +37,24 @@ ht-degree: 14%
 
 1. 在 **[!UICONTROL Type]** 字段，选择 **单一**.
 
-   ![](../assets/jo-event3bis.png)
+   ![](assets/jo-event3bis.png)
 
 1. 在 **[!UICONTROL Event ID type]** 字段中，选择要使用的事件ID类型： **基于规则** 或 **系统生成**. 有关事件ID类型的更多信息，请参阅 [此部分](../event/about-events.md#event-id-type).
 
-   ![](../assets/jo-event4.png)
+   ![](assets/jo-event4.png)
 
 1. 使用此事件的旅程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标，以显示使用此事件的旅程列表。
 
 1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（通常称为有效负载）。 然后，您便能够在旅程中使用这些信息。请参阅[此小节](../event/about-creating.md#define-the-payload-fields)。
 
-   ![](../assets/jo-event5.png)
+   ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
    >当您选择 **[!UICONTROL System Generated]** 类型，只有具有eventID类型字段的架构才可用。 当您选择 **[!UICONTROL Rule Based]** 类型时，所有体验事件架构都可用。
 
 1. 对于基于规则的事件，请在 **[!UICONTROL Event ID condition]** 字段。 使用简单表达式编辑器，定义系统将使用的条件以识别将触发历程的事件。
-   ![](../assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
    在我们的示例中，我们根据用户档案所在的城市写了一个条件。 这意味着每当系统收到与此条件匹配的事件时(**[!UICONTROL City]** 字段和 **[!UICONTROL Paris]** 值)，它会将其传递到历程。
 
@@ -65,7 +65,7 @@ ht-degree: 14%
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
 1. 定义用户档案标识符：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的人员。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
 
-   ![](../assets/jo-event7.png)
+   ![](assets/jo-event7.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 1. 从列表中选择XDM架构，然后单击 **[!UICONTROL Fields]** 字段或 **[!UICONTROL Edit]** 图标。
 
-   ![](../assets/journey8.png)
+   ![](assets/journey8.png)
 
    将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段，或仅显示选定的字段。 根据架构定义，某些字段可能是必填的，并且是预选的。 您无法取消选择它们。 默认情况下，将选择所有对于历程要正确接收事件而言必须填写的字段。
 
@@ -85,7 +85,7 @@ ht-degree: 14%
    >
    >对于系统生成的事件，请确保已将“编排”字段组添加到XDM架构。 这将确保您的架构包含所有使用所需的信息 [!DNL Journey Optimizer].
 
-   ![](../assets/journey9.png)
+   ![](assets/journey9.png)
 
 1. 选择要从事件接收的字段。 业务用户将在历程中利用这些字段。 它们还必须包含用于标识与事件关联的人员的键(请参阅 [此部分](../event/about-creating.md#define-the-event-key))。
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
    选定字段的数量显示在 **[!UICONTROL Fields]** 字段。
 
-   ![](../assets/journey12.png)
+   ![](assets/journey12.png)
 
 ## 选择命名空间 {#select-the-namespace}
 
@@ -109,12 +109,12 @@ ht-degree: 14%
 
 选择字段时，主标识字段会进行标记。
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 
 从下拉列表中选择一个命名空间。
 
-![](../assets/journey17.png)
+![](assets/journey17.png)
 
 每个历程只允许一个命名空间。 如果您在同一历程中使用多个事件，则它们需要使用相同的命名空间。 请参阅[此页](../building-journeys/journey.md)。
 
@@ -128,17 +128,17 @@ ht-degree: 14%
 
 选择字段时，主标识字段会进行标记。
 
-![](../assets/primary-identity.png)
+![](assets/primary-identity.png)
 
 如果您需要使用其他键（如CRM ID或电子邮件地址），则需要手动添加它：
 
 1. 在 **[!UICONTROL Profile identifier]** 字段或铅笔图标上的。
 
-   ![](../assets/journey16.png)
+   ![](assets/journey16.png)
 
 1. 在有效负载字段列表中选择作为键的字段。 您还可以切换到高级表达式编辑器以创建更复杂的键（例如，事件的两个字段的串联）。 请参阅下面的此部分。
 
-   ![](../assets/journey20.png)
+   ![](assets/journey20.png)
 
 收到事件后，键值将允许系统识别与事件关联的人员。 与命名空间关联(请参阅 [此部分](../event/about-creating.md#select-the-namespace))，则可以使用键对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。键还用于检查人员是否处于历程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许同一密钥（例如CRMID=3224）位于同一历程中的不同位置。
 
@@ -154,11 +154,11 @@ ht-degree: 14%
 
 1. 单击 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负荷。
 
-   ![](../assets/journey13.png)
+   ![](assets/journey13.png)
 
    您可以注意到已显示选定的字段。
 
-   ![](../assets/journey14.png)
+   ![](assets/journey14.png)
 
 1. 检查预览以验证有效负载定义。
 

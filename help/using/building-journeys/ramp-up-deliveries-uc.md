@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -31,13 +31,13 @@ ht-degree: 3%
 
    1. 设置 **[!UICONTROL Limit]** 字段，以限制此投放的收件人最大数量。
 
-   ![](../assets/profile-cap-condition.png)
+   ![](assets/profile-cap-condition.png)
 
    您可以逐步将此限制增加到订阅者总数。
 
 1. 添加 **[!UICONTROL Message]** 活动到 **[!UICONTROL Condition]** 活动。
 
-   ![](../assets/ramp-up-deliveries-message.png)
+   ![](assets/ramp-up-deliveries-message.png)
 
    当历程运行时，将向输入的用户档案发送消息，最大数量为您指定的用户档案。 达到此限制后，进入的用户档案将采用替代路径。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -29,23 +29,23 @@ ht-degree: 1%
 
 1. 访问 **[!UICONTROL Components]** 菜单，然后选择 **[!UICONTROL Rankings]** 选项卡。 将显示先前创建的排名列表。
 
-   ![](../../assets/rankings-list.png)
+   ![](../assets/rankings-list.png)
 
 1. 单击 **[!UICONTROL Create ranking]** 创建新排名公式。
 
-   ![](../../assets/ranking-create-formula.png)
+   ![](../assets/ranking-create-formula.png)
 
 1. 指定排名公式名称、说明和公式。
 
    在本例中，如果实际天气炎热，我们希望使用“hot”属性提高所有选件的优先级。 为此， **contextData.weather=hot** 在决策呼叫中被传递。
 
-   ![](../../assets/ranking-syntax.png)
+   ![](../assets/ranking-syntax.png)
 
 1. 单击 **[!UICONTROL Save]**。您的排名公式即已创建，您可以从列表中选择它以获取详细信息，并对其进行编辑或删除。
 
    现在，它可用于对符合条件的选件进行版面排名的决策(请参阅 [在决策中配置选件选择](../offer-activities/configure-offer-selection.md))。
 
-   ![](../../assets/ranking-formula-created.png)
+   ![](../assets/ranking-formula-created.png)
 
 ## 公式排名示例 {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 一个更好的解决方案是将分数存储在配置文件的数组中。 以下示例将仅使用简单的排名公式，跨各种不同的倾向得分工作。 您的期望是您有一个包含分数数组的用户档案架构。 在本例中，实例租户为 *_salesvelocity* 并且用户档案架构包含以下内容：
 
-![](../../assets/ranking-example-schema.png)
+![](../assets/ranking-example-schema.png)
 
 鉴于此，对于如下用户档案：
 
@@ -179,7 +179,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 选件将包含 *prodeativeType* 与得分中的类别匹配：
 
-![](../../assets/ranking-example-propensityType.png)
+![](../assets/ranking-example-propensityType.png)
 
 然后，您的排名公式可以将每个选件的优先级设置为等于客户 *prodiveScore* 为 *prodeativeType*. 如果未找到分数，请使用选件上设置的静态优先级：
 

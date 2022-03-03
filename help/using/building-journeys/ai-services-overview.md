@@ -5,7 +5,7 @@ description: AI服务概述
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
@@ -26,5 +26,5 @@ Customer AI允许品牌创建基于流失率或转化机器学习的得分，这
 
 因此，它们可用作Journey Optimizer条件（做出最佳决策）、操作或区段构建中的任何其他配置文件属性。
 
-![](../assets/customer-ai.png)
+![](assets/customer-ai.png)
 

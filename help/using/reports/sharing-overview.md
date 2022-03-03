@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
@@ -39,9 +39,9 @@ ht-degree: 4%
 * 历程步骤事件架构 [!DNL Journey Orchestration]  — 与历程元数据关联的历程步骤事件。
 * 历程历程字段的架构 [!DNL Journey Orchestration]  — 用于描述历程的历程元数据。
 
-![](../assets/sharing1.png)
+![](assets/sharing1.png)
 
-![](../assets/sharing2.png)
+![](assets/sharing2.png)
 
 传递了以下数据集：
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 * 历程步骤事件
 * 历程
 
-![](../assets/sharing3.png)
+![](assets/sharing3.png)
 
 下面详细介绍了传递到Adobe Experience Platform的XDM字段列表：
 

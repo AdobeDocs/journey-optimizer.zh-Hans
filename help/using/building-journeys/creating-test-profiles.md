@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1325'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 2%
 首先，你需要 **创建模式**. 请执行以下步骤：
 
 1. 在“数据管理”菜单部分中，单击 **[!UICONTROL Schemas]**.
-   ![](../assets/test-profiles-0.png)
+   ![](assets/test-profiles-0.png)
 1. 单击 **[!UICONTROL Create schema]**，然后选择模式类型，例如 **XDM个人配置文件**.
-   ![](../assets/test-profiles-1.png)
+   ![](assets/test-profiles-1.png)
 1. 选择相应的字段组。 确保将 **用户档案测试详细信息** 字段组。
-   ![](../assets/test-profiles-1-ter.png)
+   ![](assets/test-profiles-1-ter.png)
 完成后，单击 **[!UICONTROL Add field groups]**:字段组列表显示在架构概述屏幕上。
-   ![](../assets/test-profiles-2.png)
+   ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ ht-degree: 2%
 
 
 1. 在字段列表中，单击要定义为主标识的字段。
-   ![](../assets/test-profiles-3.png)
+   ![](assets/test-profiles-3.png)
 1. 在 **[!UICONTROL Field properties]** 右窗格，检查 **[!UICONTROL Identity]** 和 **[!UICONTROL Primary Identity]** 选项，然后选择命名空间。 如果希望主标识是电子邮件地址，请选择 **[!UICONTROL Email]** 命名空间。 单击 **[!UICONTROL Apply]**。
-   ![](../assets/test-profiles-4bis.png)
+   ![](assets/test-profiles-4bis.png)
 1. 选择架构并启用 **[!UICONTROL Profile]** 选项 **[!UICONTROL Schema properties]** 中。
-   ![](../assets/test-profiles-5.png)
+   ![](assets/test-profiles-5.png)
 1. 单击&#x200B;**保存**。
 
 >[!NOTE]
@@ -64,15 +64,15 @@ ht-degree: 2%
 那你需要 **创建数据集** 导入用户档案的位置。 请执行以下步骤：
 
 1. 浏览到 **[!UICONTROL Datasets]**，然后单击 **[!UICONTROL Create dataset]**.
-   ![](../assets/test-profiles-6.png)
+   ![](assets/test-profiles-6.png)
 1. 选择 **[!UICONTROL Create dataset from schema]**.
-   ![](../assets/test-profiles-7.png)
+   ![](assets/test-profiles-7.png)
 1. 选择之前创建的架构，然后单击 **[!UICONTROL Next]**.
-   ![](../assets/test-profiles-8.png)
+   ![](assets/test-profiles-8.png)
 1. 选择一个名称，然后单击 **[!UICONTROL Finish]**.
-   ![](../assets/test-profiles-9.png)
+   ![](assets/test-profiles-9.png)
 1. 启用 **[!UICONTROL Profile]** 选项。
-   ![](../assets/test-profiles-10.png)
+   ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 从Adobe Journey Optimizer主页中，您可以利用产品中的测试用户档案用例。 此用例有助于在发布之前创建用于测试历程的测试用户档案。
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 单击 **[!UICONTROL Begin]** 按钮开始实施用例。
 
@@ -119,11 +119,11 @@ ht-degree: 2%
 > 由于您要更新 **testProfile** 字段中，选定的用户档案必须包含此字段。 相关架构必须具有 **用户档案测试详细信息** 字段组。 请参阅[此小节](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)。
 
 1. 浏览到 **区段**，则 **创建区段**，位于右上方。
-   ![](../assets/test-profiles-22.png)
+   ![](assets/test-profiles-22.png)
 1. 为区段定义名称并构建区段：选择字段和值以定向所需的用户档案。
-   ![](../assets/test-profiles-23.png)
+   ![](assets/test-profiles-23.png)
 1. 单击 **保存** 并检查区段是否正确定位了用户档案。
-   ![](../assets/test-profiles-24.png)
+   ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ ht-degree: 2%
 
 1. 现在，创建新历程并开始 **[!UICONTROL Read Segment]** 编排活动。
 1. 选择之前创建的区段以及用户档案使用的命名空间。
-   ![](../assets/test-profiles-25.png)
+   ![](assets/test-profiles-25.png)
 1. 添加 **[!UICONTROL Update Profile]** 操作活动。
 1. 选择架构， **testProfiles** 字段，并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL VALUE]** 字段，单击 **笔** 图标，选择 **[!UICONTROL Advanced mode]** 输入 **true**.
-   ![](../assets/test-profiles-26.png)
+   ![](assets/test-profiles-26.png)
 1. 添加 **结束** 活动，单击 **[!UICONTROL Publish]**.
 1. 在 **[!UICONTROL Segments]** 部分，检查用户档案是否已正确更新。
-   ![](../assets/test-profiles-28.png)
+   ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ ht-degree: 2%
 
 1. 使用电子表格软件创建一个简单的csv文件。
 1. 为每个所需字段添加一列。 确保添加主标识字段（上面示例中为“personID”）和“testProfile”字段设置为“true”。
-   ![](../assets/test-profiles-11.png)
+   ![](assets/test-profiles-11.png)
 1. 为每个用户档案添加一行，并填写每个字段的值。
-   ![](../assets/test-profiles-12.png)
+   ![](assets/test-profiles-12.png)
 1. 将电子表格另存为CSV文件。 确保使用逗号作为分隔符。
 1. 浏览到Adobe Experience Platform **工作流**.
-   ![](../assets/test-profiles-14.png)
+   ![](assets/test-profiles-14.png)
 1. 选择 **将CSV映射到XDM架构**，然后单击 **Launch**.
-   ![](../assets/test-profiles-16.png)
+   ![](assets/test-profiles-16.png)
 1. 选择要将用户档案导入的数据集。 单击&#x200B;**下一步**。
-   ![](../assets/test-profiles-17.png)
+   ![](assets/test-profiles-17.png)
 1. 单击 **选择文件** ，然后选择csv文件。 上传文件后，单击 **下一个**.
-   ![](../assets/test-profiles-18.png)
+   ![](assets/test-profiles-18.png)
 1. 将源csv字段映射到架构字段，然后单击 **完成**.
-   ![](../assets/test-profiles-19.png)
+   ![](assets/test-profiles-19.png)
 1. 数据导入开始。 状态将从 **处理** to **成功**. 单击 **预览数据集**，位于右上方。
-   ![](../assets/test-profiles-20.png)
+   ![](assets/test-profiles-20.png)
 1. 检查测试用户档案是否已正确添加。
-   ![](../assets/test-profiles-21.png)
+   ![](assets/test-profiles-21.png)
 
 您的测试用户档案已添加，现在可在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]

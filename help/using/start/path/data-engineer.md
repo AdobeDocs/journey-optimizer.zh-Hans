@@ -3,7 +3,7 @@ title: Journey Optimizer数据工程师入门
 description: 作为数据工程师，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 8%
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 此外，要在历程中发送消息，您必须配置 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**. 了解更多 [在此部分中](../../configuration/about-data-sources-events-actions.md).
 
-![](../../assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 * 的 **数据源** 配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。 了解有关数据源的更多信息 [在此部分中](../../datasource/about-data-sources.md).
 

@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 要访问您的报表，请选择 **实时** 或 **[!UICONTROL Global report]** ，从选定登陆页面的高级菜单访问。
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## 登陆页面实时报表 {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 的 **[!UICONTROL Landing page performance]** 小组件通过KPI详细介绍了过去24小时内与您的消息相关的主要信息：
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 的 **[!UICONTROL Other sources]** 小组件表示从外部源而不是历程访问登陆页面的次数。
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 的 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 图形表示过去24小时内与您的登陆页面成功交互的访问和人员总数，具体取决于已发送的消息。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 登陆页面全局报表 {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 的 **[!UICONTROL Number of visits]** 和 **[!UICONTROL Number of visits over time]** 利用小组件，可通过具有以下量度的图形和KPI，查看选定时间段内登陆页面的影响：
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Bounce rate]**:与访问总数相比，未与登陆页面进行交互且未完成订阅操作的人员数。
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 的 **[!UICONTROL Visit sources]** 小组件表示访客如何访问您的登陆页面：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 的 **[!UICONTROL Other sources]** 小组件表示从外部源而不是历程访问登陆页面的次数。
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 的 **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** 图形表示在相关时段内成功与您的登陆页面交互的访问和人员总数，具体取决于已发送的消息。
 

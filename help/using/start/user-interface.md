@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: ht
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 使用左侧的链接浏览功能。
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 在主页中利用 [!DNL Adobe Journey Optimizer]用例，快速输入一些信息以创建客户历程。
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 可用用例包括：
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -214,7 +214,7 @@ ht-degree: 100%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -238,7 +238,7 @@ ht-degree: 100%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
 </table>
 
@@ -248,7 +248,7 @@ ht-degree: 100%
 
 使用&#x200B;**帮助**&#x200B;图标来访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## 支持的浏览器 {#browsers}
 
@@ -267,10 +267,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 如要更改您的语言：
 
 * 单击右上角头像中的 **Preferences**。
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * 然后，单击电子邮件地址下显示的语言
 * 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二种语言。
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## 搜索{#unified-search}
 
@@ -278,11 +278,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 开始输入内容以显示排名靠前的结果。与输入的关键词有关的帮助文章也会显示在结果中。
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 按 **Enter** 键访问所有结果并按业务对象进行筛选。
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## 过滤器列表{#filter-lists}
 
@@ -298,12 +298,12 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 使用 **[!UICONTROL Last update]** 和 **[!UICONTROL Last update by]** 列检查历程的上次更新时间以及保存该更新的人员。
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL Used in]** 字段显示使用该特定事件、字段组或操作的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;按钮以显示相应历程的列表。
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 在不同的列表中，您可以对每个元素执行基本操作。例如，您可以重复或删除项目。
 
-![](../assets/journey4.png)
+![](assets/journey4.png)

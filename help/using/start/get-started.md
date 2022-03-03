@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 92443ac4bf1fadbbba5a910219e86ca8a5d16161
-workflow-type: ht
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 是一款灵活的、可扩展的应用程序，能够创建并提供贴心且及时的个性化客户体验，可用于任意应用程序、设备或渠道中。
 
-![](../assets/ajo-capabilities.png)
+![](assets/ajo-capabilities.png)
 
 主要功能包括：
 
@@ -70,5 +70,5 @@ ht-degree: 100%
 * [创建您的第一条消息](../messages/get-started-content.md)
 * [设计历程并发送消息](../building-journeys/journey-gs.md)
 * [实时报告](../reports/live-report.md)
-* [Journey Optimizer 常见问题解答](../assets/do-not-localize/AJO-FAQ.pdf) (PDF)
+* [Journey Optimizer 常见问题解答](assets/do-not-localize/AJO-FAQ.pdf) (PDF)
 * [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

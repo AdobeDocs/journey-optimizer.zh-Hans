@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -32,21 +32,21 @@ ht-degree: 2%
 
 1. 在 **管理** > **平台** > **枚举**，选择 **事件类型** (eventType)枚举。 创建新事件类型（在我们的示例中为“journey-event”）。 以后编写JSON文件时，必须使用事件类型的内部名称。
 
-   ![](../assets/accintegration-uc-1.png)
+   ![](assets/accintegration-uc-1.png)
 
 1. 断开连接并重新连接到实例，以便创建生效。
 
 1. 在 **消息中心** > **事务型消息模板**，则根据之前创建的事件类型创建新电子邮件模板。
 
-   ![](../assets/accintegration-uc-2.png)
+   ![](assets/accintegration-uc-2.png)
 
 1. 设计模板。 在此示例中，我们对用户档案的名字和订单号进行个性化设置。 名字在Adobe Experience Platform数据源中，订单号是我们的Journey Optimizer事件中的一个字段。 确保在Campaign中使用正确的字段名称。
 
-   ![](../assets/accintegration-uc-3.png)
+   ![](assets/accintegration-uc-3.png)
 
 1. 发布事务型模板。
 
-   ![](../assets/accintegration-uc-4.png)
+   ![](assets/accintegration-uc-4.png)
 
 1. 现在，您需要编写与模板对应的JSON有效负载。
 
@@ -70,30 +70,30 @@ ht-degree: 2%
 
 1. 首先，您需要创建事件。 确保包含“purchaseOrderNumber”字段。
 
-   ![](../assets/accintegration-uc-5.png)
+   ![](assets/accintegration-uc-5.png)
 
 1. 然后，您需要在Journey Optimizer中创建与营销活动模板对应的操作。 在 **操作类型** 下拉列表，选择 **Adobe Campaign Classic**.
 
-   ![](../assets/accintegration-uc-6.png)
+   ![](assets/accintegration-uc-6.png)
 
 1. 单击 **有效负荷字段** 并粘贴之前创建的JSON。
 
-   ![](../assets/accintegration-uc-7.png)
+   ![](assets/accintegration-uc-7.png)
 
 1. 对于电子邮件地址和两个个性化字段，请更改 **常量** to **变量**.
 
-   ![](../assets/accintegration-uc-8.png)
+   ![](assets/accintegration-uc-8.png)
 
 1. 现在，创建新历程并从之前创建的事件开始。
 
-   ![](../assets/accintegration-uc-9.png)
+   ![](assets/accintegration-uc-9.png)
 
 1. 添加操作，并将每个字段映射到Journey Optimizer中的正确字段。
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](assets/accintegration-uc-10.png)
 
 1. 添加 **结束** 活动并测试您的历程。
 
-   ![](../assets/accintegration-uc-11.png)
+   ![](assets/accintegration-uc-11.png)
 
 1. 您现在可以发布历程。

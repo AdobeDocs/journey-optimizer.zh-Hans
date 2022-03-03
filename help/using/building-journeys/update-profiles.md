@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. 在 **操作** ，请将 **更新用户档案** 活动。
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. 从列表中选择架构。
 
 1. 单击 **字段** ，以选择要更新的字段。 只能选择一个字段。
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. 从列表中选择数据集。
 
@@ -58,12 +58,12 @@ ht-degree: 0%
 
    * 使用简单表达式编辑器，您可以从数据源或传入事件中选择字段。
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * 如果要定义特定值或利用高级函数，请单击 **高级模式**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 的 **更新用户档案** 现已配置。
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

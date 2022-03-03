@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: c2052a2c4468239d22d8a8d57b4ceac0329773d1
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizer允许从外部源摄取数据，同时让您能够使用Platform服务来构建、标记和增强传入数据。 您可以从各种源摄取数据，如Adobe应用程序、基于云的存储、数据库和许多其他源。
 
-![](../assets/sources-home.png)
+![](assets/sources-home.png)
 
 在此视频中了解源连接器以及如何在Journey Optimizer中配置它们：
 

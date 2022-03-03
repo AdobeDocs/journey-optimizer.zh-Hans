@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 6%
@@ -23,27 +23,27 @@ ht-degree: 6%
 
 1. 一如既往，以事件或 **读取区段** 活动。
 
-   ![](../assets/jo-message0.png)
+   ![](assets/jo-message0.png)
 
 1. 从 **操作** 拖放 **消息** 活动。
 
-   ![](../assets/jo-message1.png)
+   ![](assets/jo-message1.png)
 
 1. 添加标签和描述。
 
-   ![](../assets/jo-message2.png)
+   ![](assets/jo-message2.png)
 
 1. 在 **消息** 字段。 将显示在Journey Optimizer中设计的可用消息列表。 您可以按状态过滤列表。
 
-   ![](../assets/jo-message3.png)
+   ![](assets/jo-message3.png)
 
 1. 选择消息并单击 **选择**. 您还可以通过单击 **创建消息**.
 
-   ![](../assets/jo-message4-ter.png)
+   ![](assets/jo-message4-ter.png)
 
    如果要检查消息，可以单击 **打开消息** 图标 **消息** 字段。 该消息将在新选项卡中打开。
 
-   ![](../assets/jo-message4-bis.png)
+   ![](assets/jo-message4-bis.png)
 
 1. 向历程中添加后续步骤。
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 的 **[!UICONTROL Email parameters]** 和 **[!UICONTROL Push parameters]** 部分显示只读字段。 通常在创建消息时执行此配置。 请参阅[此小节](../messages/get-started-content.md)。
 
-![](../assets/jo-message4.png)
+![](assets/jo-message4.png)
 
 要强制使用特定值，您可以使用 **启用参数覆盖** 图标。 此选项可用于各种目的：
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer的“发送时间优化”功能由Adobe的AI服务提�
 
 通过选择 **发送时间优化** 从消息活动参数中切换。
 
-![](../assets/jo-message5.png)
+![](assets/jo-message5.png)
 
 对于电子邮件消息，选择是优化电子邮件打开次数，还是通过选择相应的单选按钮来优化电子邮件点进次数。 推送消息默认为打开选项，因为点击不适用于推送消息。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 5%
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 可在 **[!UICONTROL Offers]** 菜单。
 
-![](../../assets/offers_list.png)
+![](../assets/offers_list.png)
 
 ## 创建选件 {#create-offer}
 
@@ -39,11 +39,11 @@ ht-degree: 5%
 
 1. 单击 **[!UICONTROL Create offer]**，然后选择 **[!UICONTROL Personalized offer]**.
 
-   ![](../../assets/create_offer.png)
+   ![](../assets/create_offer.png)
 
 1. 指定选件的名称以及其开始和结束日期和时间。 您还可以将一个或多个现有标记与选件关联，从而更轻松地搜索和组织选件库。
 
-   ![](../../assets/offer_details.png)
+   ![](../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 1. 对于第一个表示，首先选择 **[!UICONTROL Channel]** 将使用的URL。
 
-   ![](../../assets/channel-placement.png)
+   ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ ht-degree: 5%
 
    您还可以使用 **[!UICONTROL Placement]** 下拉列表以浏览所有版面。
 
-   ![](../../assets/browse-button-placements.png)
+   ![](../assets/browse-button-placements.png)
 
    您仍然可以根据其渠道和/或内容类型筛选版面。 选择版面并单击 **[!UICONTROL Select]**.
 
-   ![](../../assets/browse-placements.png)
+   ![](../assets/browse-placements.png)
 
 1. 向您的演示文稿中添加内容。 了解 [此部分](#content).
 
 1. 添加图像或URL等内容时，您可以指定 **[!UICONTROL Destination link]**:单击选件的用户将被定向到相应的页面。
 
-   ![](../../assets/offer-destination-link.png)
+   ![](../assets/offer-destination-link.png)
 
 1. 最后，选择您选择的语言，以帮助识别和管理要向用户显示的内容。
 
 1. 要添加其他表示形式，请使用 **[!UICONTROL Add representation]** 按钮，并根据需要添加任意数量的表示形式。
 
-   ![](../../assets/offer-add-representation.png)
+   ![](../assets/offer-add-representation.png)
 
 1. 添加所有表示形式后，选择 **[!UICONTROL Next]**.
 
@@ -108,19 +108,19 @@ ht-degree: 5%
 
 1. 选择 **[!UICONTROL Browse]**。
 
-   ![](../../assets/offer-browse-asset-library.png)
+   ![](../assets/offer-browse-asset-library.png)
 
 1. 浏览资产以选择您选择的图像
 
 1. 单击 **[!UICONTROL Select]**。
 
-   ![](../../assets/offer-select-asset.png)
+   ![](../assets/offer-select-asset.png)
 
 ### 添加URL {#urls}
 
 要从外部公共位置添加内容，请选择 **[!UICONTROL URL]**，然后输入要添加内容的URL地址。
 
-![](../../assets/offer-content-url.png)
+![](../assets/offer-content-url.png)
 
 ### 添加自定义文本 {#custom-text}
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 
 1. 选择 **[!UICONTROL Custom]** 选项并单击 **[!UICONTROL Add content]**.
 
-   ![](../../assets/offer-add-content.png)
+   ![](../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ ht-degree: 5%
 
 1. 键入将在选件中显示的文本。
 
-   ![](../../assets/offer-text-content.png)
+   ![](../assets/offer-text-content.png)
 
    您可以使用表达式编辑器将内容个性化。 了解详情 [个性化](../../personalization/personalize.md#use-expression-editor).
 
-   ![](../../assets/offer-personalization.png)
+   ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ ht-degree: 5%
 
       有关如何使用区段的更多信息，请参阅 [本页](../../segment/about-segments.md).
 
-      ![](../../assets/offer-eligibility-segment.png)
+      ![](../assets/offer-eligibility-segment.png)
 
    * 如果要将特定决策规则与选件关联，请选择 **[!UICONTROL By defined decision rule]**，然后将所需的规则从左侧窗格拖入 **[!UICONTROL Decision rule]** 的上界。 有关如何创建决策规则的更多信息，请参阅 [此部分](../offer-library/creating-decision-rules.md).
 
-      ![](../../assets/offer_rule.png)
+      ![](../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ ht-degree: 5%
    >
    >如果删除了电子邮件投放，或者在发送之前再次进行准备，则选件的上限值会自动更新。
 
-   ![](../../assets/offer_capping.png)
+   ![](../assets/offer_capping.png)
 
    在以上示例中：
 
@@ -221,7 +221,7 @@ ht-degree: 5%
 
 1. 选择 **[!UICONTROL Save and approve]**。
 
-   ![](../../assets/offer_review.png)
+   ![](../assets/offer_review.png)
 
    您还可以将选件另存为草稿，以便稍后进行编辑和批准。
 
@@ -229,13 +229,13 @@ ht-degree: 5%
 
 现在，它已准备好交付给用户。
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 ## 优惠列表 {#offer-list}
 
 从选件列表中，您可以选择选件以显示其属性。 您还可以编辑、更改其状态(**草稿**, **已批准**, **已存档**)、复制选件或将其删除。
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 选择 **[!UICONTROL Edit]** 按钮返回到选件编辑模式，在该模式中，您可以修改选件的 [详细信息](#create-offer), [表示](#representations)，以及编辑 [资格规则和限制](#eligibility).
 
@@ -243,11 +243,11 @@ ht-degree: 5%
 
 再次将状态设置为 **[!UICONTROL Approved]**，则选择当前显示的相应按钮。
 
-![](../../assets/offer_approve.png)
+![](../assets/offer_approve.png)
 
 的 **[!UICONTROL More actions]** 按钮可启用下面描述的操作。
 
-![](../../assets/offer_more-actions.png)
+![](../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplicate]**:创建具有相同属性、表示、资格规则和约束的选件。 默认情况下，新选件具有 **[!UICONTROL Draft]** 状态。
 * **[!UICONTROL Delete]**:从列表中删除选件。
@@ -262,19 +262,19 @@ ht-degree: 5%
 
 您还可以通过选中相应的复选框来同时删除或更改多个选件的状态。
 
-![](../../assets/offer_multiple-selection.png)
+![](../assets/offer_multiple-selection.png)
 
 如果要更改多个状态不同的选件的状态，则只会更改相关状态。
 
-![](../../assets/offer_change-status.png)
+![](../assets/offer_change-status.png)
 
 创建选件后，您可以从列表中单击其名称。
 
-![](../../assets/offer_click-name.png)
+![](../assets/offer_click-name.png)
 
 这样，您就可以访问该选件的详细信息。 选择 **[!UICONTROL Change log]** 选项卡 [监控所有更改](../get-started/user-interface.md#monitoring-changes) 已经提出了。
 
-![](../../assets/offer_information.png)
+![](../assets/offer_information.png)
 
 ## 教程视频 {#video}
 

@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -19,45 +19,45 @@ ht-degree: 3%
 
 ## 什么是订阅列表？ {#subscription-list-definition}
 
-订购服务是指向选择接收特定主题/事件/兴趣等通信的客户提供的营销产品和服务。 不断进行。 在 [!DNL Journey Optimizer]，则这些选择加入的客户将被收集到订阅列表中。
+A subscription service refers to marketing goods and services provided to customers who have opted in to receive communications on a specific subject/event/interest/etc. 不断进行。 In [!DNL Journey Optimizer], these opted-in customers are gathered into a subscription list.
 
 订阅服务可以是：
 
-* 例如，新闻稿：&quot;运行系列&quot;
+* a newsletter, for example: &quot;Running series&quot;
 * 例如：《2021年峰会》
 * 网络研讨会，例如：“了解有关加密的更多信息”
-* 对特定产品/体育/服务/等的兴趣，例如：“有兴趣在未来12个月内买房”
-* 例如，关于如何通知的首选项：“通过电子邮件接收新歌曲通知”
+* an interest on a particular product/sport/service/etc., for example: &quot;Interested to buy a house in the next 12 months&quot;
+* a preference on how to be notified, for example: &quot;Receive new song notifications on email&quot;
 
-用户档案可以通过 [登陆页面](create-lp.md). 示例请参见 [此部分](lp-use-cases.md#subscription-to-a-service).
+The profiles can be added to a subscription list through a [landing page](create-lp.md). 示例请参见 [此部分](lp-use-cases.md#subscription-to-a-service).
 
-## 定义订阅列表 {#define-subscription-list}
+## Define a subscription list {#define-subscription-list}
 
 要创建订阅列表，请执行以下步骤。
 
-1. 要访问订阅列表，请选择 **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+1. To access the subscription lists, select **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-   ![](../assets/lp_subscription-lists.png)
+   ![](assets/lp_subscription-lists.png)
 
 1. 选择 **[!UICONTROL Create subscription list]** 按钮。
 
-   ![](../assets/lp_create-subscription-list.png)
+   ![](assets/lp_create-subscription-list.png)
 
 1. 添加名称和描述。 这些字段是必填字段。
 
 1. 您可以定义开始日期和结束日期。
 
-   ![](../assets/lp_subscription-list-dates.png)
+   ![](assets/lp_subscription-list-dates.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-该列表显示创建的所有订阅列表。 您可以根据创建日期或修改日期及其状态进行筛选。
+该列表显示创建的所有订阅列表。 You can filter them based on the creation date or modification date, and their status.
 
-![](../assets/lp_subscription-filters.png)
+![](assets/lp_subscription-filters.png)
 
-可能的状态如下：
+The possible statuses are as follows:
 
-* **[!UICONTROL Not started]**:您定义的开始日期晚于当天。 被订阅用户档案将不会接收与此订阅列表相关的通信。
+* **[!UICONTROL Not started]**: You defined a start date that is later than the current day. 被订阅用户档案将不会接收与此订阅列表相关的通信。
 * **[!UICONTROL Live]**:当天由订阅列表开始日期和结束日期之间组成，或者您未定义结束/开始日期，这意味着订阅列表始终处于活动状态。
 * **[!UICONTROL Expired]**:结束日期已过，因此订阅列表不再有效。 任何订阅的用户档案将不会再收到与此订阅列表相关的任何通信。
 

@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
 
-![](../assets/general-events.png)
+![](assets/general-events.png)
 
 当您删除业务事件时，它会自动添加 **读取区段** 活动。 有关业务事件的更多信息，请参阅 [此部分](../event/about-events.md)
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用 **[!UICONTROL Set a timeout path]** 选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
 
-   ![](../assets/event-timeout.png)
+   ![](assets/event-timeout.png)
 
 在此示例中，历程向客户发送第一个欢迎推送。 然后，仅当客户在次日进入餐厅时，才会发送餐饮折扣推送。 因此，我们为餐厅事件配置了1天的超时：
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 
 超时将应用于位于 **[!UICONTROL Wait]** 活动。 如果在指定的超时前未收到任何事件，则这些个人将流入一个超时路径，或结束其历程。
 
-![](../assets/event-timeout-group.png)
+![](assets/event-timeout-group.png)

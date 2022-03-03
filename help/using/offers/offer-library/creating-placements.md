@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 14%
@@ -21,17 +21,17 @@ ht-degree: 14%
 
 在以下示例中，有三个版面，对应于不同类型的内容(图像、文本、HTML)。
 
-![](../../assets/offers_placement_schema.png)
+![](../assets/offers_placement_schema.png)
 
 可在 **[!UICONTROL Components]** 菜单。 过滤器可帮助您根据特定渠道或内容检索版面。
 
-![](../../assets/placements_filter.png)
+![](../assets/placements_filter.png)
 
 要创建版面，请执行以下步骤：
 
 1. 单击 **[!UICONTROL Create placement]**。
 
-   ![](../../assets/offers_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. 定义版面的属性：
 
@@ -40,13 +40,13 @@ ht-degree: 14%
    * **[!UICONTROL Content type]**:允许版面显示的内容类型：文本、HTML或图像链接。
    * **[!UICONTROL Description]**:版面的描述（可选）。
 
-   ![](../../assets/offers_placement_creation_properties.png)
+   ![](../assets/offers_placement_creation_properties.png)
 
 1. 单击 **[!UICONTROL Save]** 确认。
 
 1. 创建版面后，该版面会显示在版面列表中。 您可以选择它以显示其属性并进行编辑。
 
-   ![](../../assets/placement_created.png)
+   ![](../assets/placement_created.png)
 
 ## 教程视频 {#video}
 

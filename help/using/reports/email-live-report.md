@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 从 **[!UICONTROL Executions]** 选项卡 **[!UICONTROL Messages]** 菜单，选择 **[!UICONTROL Live view]** 然后，从选定投放的高级菜单中选择 **[!UICONTROL Live report]**.
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
 电子邮件 **[!UICONTROL Live report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](live-report.md#modify-dashboard).
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** 和 **[!UICONTROL Email summary]** 小组件使用图表和KPI详细描述与消息相关的主要信息：
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >

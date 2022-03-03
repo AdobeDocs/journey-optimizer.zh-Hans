@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版本界面的顶部画布上方。
 
-![](../assets/journeyversions1.png)
+![](assets/journeyversions1.png)
 
 如果您需要修改到实时历程，则需要创建历程的新版本。
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 打开实时历程的最新版本，单击 **[!UICONTROL Create a new version]** 确认。
 
-   ![](../assets/journeyversions2.png)
+   ![](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 1. 进行修改，单击 **[!UICONTROL Publish]** 确认。
 
-   ![](../assets/journeyversions3.png)
+   ![](assets/journeyversions3.png)
 
 从历程发布之日起，个人将开始流入历程的最新版本。 已输入以前版本的用户将一直保留在该版本中，直到他们完成历程。 如果他们稍后重新进入同一历程，则将进入最新版本。
 
