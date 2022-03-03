@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -74,13 +74,13 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <table>
 <thead>
 <tr>
-<th><strong>传递信息以使用UTM跟踪参数跟踪消息</strong><br/></th>
+<th><strong>使用 UTM 跟踪参数传递信息以跟踪您的消息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在Journey Optimizer消息内容中，您现在可以将UTM参数添加到链接：他们可以提供有关该链接的其他数据，并帮助您确定用户点击您链接的位置和原因。</p>
+<p>在 Journey Optimizer 消息内容中，您现在可以将 UTM 参数添加到链接：这些参数可以提供有关该链接的其他数据，并帮助您确定用户点击您链接的位置和原因。</p>
 <p>有关更多信息，请参阅<a href="../configuration/message-presets.md#configure-email-settings">详细文档</a>。</p-->
 </td>
 </tr>
@@ -91,22 +91,22 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **历程**
 
-* 为了优化性能，所有处于测试模式且一周内未触发的历程现在都将切换回草稿状态。 [了解更多信息](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer与Adobe Campaign Classic之间的集成已进行优化以提高性能。 上限默认配置已更改为4000次调用/ 5分钟。	[了解更多信息](../action/acc-action.md#important-notes)
+* 为优化性能，现在，所有处于测试模式且一周内未触发的历程都将切换回草稿状态。[了解更多信息](../building-journeys/testing-the-journey.md#important_notes)
+* Journey Optimizer 和 Adobe Campaign Classic 之间的集成已经过优化以提高性能。默认配置上限已更改为 4000 次调用/5 分钟。[了解更多信息](../action/acc-action.md#important-notes)
 
 **报告**
 
 * 现在，可以根据投放的状态对其进行筛选：
-   * 现在，从消息执行列表中，可以从投放列表中排除校样。
-   * 从实时/全局报表中，您可以选择排除测试事件。
+   * 在消息执行列表中，您现在可以从投放列表中排除验证。
+   * 在实时/全局报告中，您可以选择排除测试事件。
 
-* 您现在可以访问有关发送时间优化数据的报表：立即发送消息的人数，以及通过1小时优化、2小时优化等方式发送消息的人数。
+* 您现在可以访问有关发送时间优化数据的报告：立即向其发送消息的人数，以及通过 1 小时优化、2 小时优化向其发送消息的人数，等等。
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **决策管理**
 
-* 排名和人工智能排名现在分为一个选项卡。
+* 排名和 AI 排名现在位于同一选项卡中。
 
 ## 2022 年 1 月版 {#january-2022-release}
 
