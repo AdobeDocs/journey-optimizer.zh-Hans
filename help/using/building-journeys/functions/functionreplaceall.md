@@ -1,0 +1,50 @@
+---
+product: adobe campaign
+title: replaceAll
+description: 了解函数replaceAll
+feature: Journeys
+role: Data Engineer
+level: Experienced
+exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 10%
+
+---
+
+# replaceAll {#replaceAll}
+
+将与目标字符串匹配的所有发生次数替换为基本字符串中的替换字符串。
+
+替换从字符串的开头到结尾，例如，将字符串“aaa”中的“aa”替换为“b”将生成“ba”而不是“ab”。
+
+## 类别
+
+字符串
+
+## 函数语法
+
+`replaceAll(<parameters>)`
+
+## 参数
+
+| 参数 | 类型 |
+|-----------|--------------|
+| 基础 | 字符串 |
+| Target | 字符串（正则表达式） |
+| 替换 | 字符串 |
+
+## 签名和返回的类型
+
+`replaceAll(<baseString>,<sourceString>,<replacementString>)`
+
+返回字符串。
+
+## 示例{#example}
+
+`replaceAll("Hello World", "l", "x")`
+
+返回“Hexxo Worxd”。
+
+由于target参数是正则表达式，因此根据要替换的字符串，您可能需要对某些字符进行转义。 请参阅 [本页](../functions/functionreplace.md#example_2).
