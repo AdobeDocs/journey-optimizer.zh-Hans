@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 一次 [委派子域](delegate-subdomain.md) 在Adobe Journey Optimizer中，将自动创建PTR记录并与此子域关联。 您可以从 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 菜单。
 
-![](assets/ptr-records.png)
+![](../assets/ptr-records.png)
 
 该列表使用以下语法显示为每个委派的子域生成的PTR记录：
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 1. 在列表中，单击PTR记录名称以将其打开。
 
-   ![](assets/ptr-record-select.png)
+   ![](../assets/ptr-record-select.png)
 
 1. 选择子域 [充分授权](delegate-subdomain.md#full-subdomain-delegation) Adobe。
 
-   ![](assets/ptr-record-subdomain.png)
+   ![](../assets/ptr-record-subdomain.png)
 
 1. 单击 **[!UICONTROL Save]** 确认更改。
 
@@ -63,15 +63,15 @@ ht-degree: 0%
 
 1. 在列表中，单击PTR记录名称以将其打开。
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](../assets/ptr-record-select-cname.png)
 
 1. 使用选择委派给Adobe的子域 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation) 列表。
 
-   ![](assets/ptr-record-subdomain-cname.png)
+   ![](../assets/ptr-record-subdomain-cname.png)
 
 1. 您需要在托管平台上创建新的转发DNS记录。 为此，请复制由Adobe生成的记录。 完成后，选中“I confirm...”框。
 
-   ![](assets/ptr-record-subdomain-confirm.png)
+   ![](../assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ ht-degree: 0%
 
 A **[!UICONTROL Processing]** 图标会显示在列表中PTR记录名称的旁边。
 
-![](assets/ptr-record-updating.png)
+![](../assets/ptr-record-updating.png)
 
 要检查PTR记录更新详细信息，请单击 **[!UICONTROL Updating]** 或 **[!UICONTROL Recent updates]** 图标。
 
-![](assets/ptr-record-recent-update.png)
+![](../assets/ptr-record-recent-update.png)
 
 您可以看到更新状态和请求的更改等信息。
 
-![](assets/ptr-record-updates.png)
+![](../assets/ptr-record-updates.png)
 
 ## PTR记录更新状态 {#ptr-record-update-statuses}
 
 PTR记录更新可以具有以下状态：
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**:PTR记录更新已提交，正在进行验证过程。
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**:已验证更新的PTR记录，并且新子域现在与IP地址关联。
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**:在PTR记录更新验证期间，一个或多个检查失败。
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**:PTR记录更新已提交，正在进行验证过程。
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**:已验证更新的PTR记录，并且新子域现在与IP地址关联。
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**:在PTR记录更新验证期间，一个或多个检查失败。
 
 ### 处理时间 {#processing}
 

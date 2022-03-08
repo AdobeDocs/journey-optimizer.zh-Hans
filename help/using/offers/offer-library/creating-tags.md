@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 可在 **[!UICONTROL Components]** 菜单。
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 要创建标记，请执行以下步骤：
 
@@ -31,11 +31,11 @@ ht-degree: 5%
 
 1. 指定标记的名称，然后单击 **[!UICONTROL Save]**.
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. 创建标记后，该标记会显示在列表中。 您可以选择它以显示其属性，并编辑或隐藏该属性。
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## 教程视频 {#video}
 

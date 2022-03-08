@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 9%
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 在 [!DNL Adobe Journey Optimizer], **标识** 链接跨设备和渠道的用户，结果是 [身份图](#id-graph). 链接的身份图用于根据您所有业务接触点之间的交互对体验进行个性化。
 
-![](assets/identities-home.png)
+![](../assets/identities-home.png)
 
 详细了解 **Identity Service** in [本文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 

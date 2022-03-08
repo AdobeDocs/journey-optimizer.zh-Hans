@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 从 **[!UICONTROL Executions]** 选项卡 **[!UICONTROL Messages]** 菜单，选择 **[!UICONTROL Global view]** 然后，从选定投放的高级菜单中选择 **[!UICONTROL Global report]**.
 
-![](assets/global_report_3.png)
+![](../assets/global_report_3.png)
 
 电子邮件 **[!UICONTROL Global report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](global-report.md#modify-dashboard).
 
-![](assets/global_report_4.png)
+![](../assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** 使用KPI详细描述与消息相关的主要信息：
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
-![](assets/global_report_5.png)
+![](../assets/global_report_5.png)
 
 的 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小组件包含与弹回的消息相关的可用数据，例如：
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
-![](assets/global_report_6.png)
+![](../assets/global_report_6.png)
 
 的 **[!UICONTROL Email - Top recipient domain]** 图表和表格详细列出了收件人最常使用哪些域来打开电子邮件。
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 * **[!UICONTROL Unique Opens]**:打开投放的收件人数。
 
 <!--
-![](assets/global_report_20.png)
+![](../assets/global_report_20.png)
 
 >[!NOTE]
 >

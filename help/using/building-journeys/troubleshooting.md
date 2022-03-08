@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 81%
@@ -23,11 +23,11 @@ ht-degree: 81%
 
 出现错误时，画布上的活动本身会显示警告符号。将光标放在感叹号上以显示错误消息。如果单击活动，您将看到带警告的错误行。例如，如果必填字段为空，则会显示错误。
 
-![](assets/journey63.png)
+![](../assets/journey63.png)
 
 例如，在画布中，当两个活动断开连接时，系统将显示一条警告消息。
 
-![](assets/canvas-disconnected.png)
+![](../assets/canvas-disconnected.png)
 
 在 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，可以复制详细信息并发送给管理员或支持团队。请注意，阻止测试的错误和阻止发布的错误是相似的。
 
@@ -35,7 +35,7 @@ ht-degree: 81%
 
 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]** 按钮旁边的符号上可以显示两种不同的颜色。出现错误时，该符号以红色显示。出现警告时，以橙色显示。
 
-![](assets/journey75.png)
+![](../assets/journey75.png)
 
 历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。**[!UICONTROL Copy details]** 按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
 

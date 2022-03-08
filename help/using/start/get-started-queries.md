@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 12%
@@ -19,7 +19,7 @@ ht-degree: 12%
 查询编辑器支持开发用于分析和数据分析的查询，并且允许您运行交互式查询以用于开发目的，以及用于填充的非交互式查询 [数据集](get-started-datasets.md).
 
 
-![](assets/queries-home.png)
+![](../assets/queries-home.png)
 
 了解如何在中使用查询编辑器 [本文档](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}。
 

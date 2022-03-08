@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 此部分介绍一个结合了读取区段、事件、反应事件和电子邮件/推送消息的用例。
 
-![](assets/jo-uc1.png)
+![](../assets/jo-uc1.png)
 
 ## 用例描述
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 1. 单击 **[!UICONTROL Save]**。
 
-   ![](assets/add-attributes.png)
+   ![](../assets/add-attributes.png)
 
 该区段现已创建完成，可随时用于您的历程。 使用 **读取区段** 活动时，您可以让属于该区段的所有个人进入历程。
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 1. 单击 **[!UICONTROL Save]**。
 
-   ![](assets/jo-uc2.png)
+   ![](../assets/jo-uc2.png)
 
 事件现已配置完毕，可随时用于您的历程。 使用相应的事件活动，您可以在客户每次购买时触发操作。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 * 推送“谢谢”消息
 * 电子邮件跟进消息
 
-![](assets/jo-uc3.png)
+![](../assets/jo-uc3.png)
 
 请参阅 [部分](../segment/about-segments.md) 了解如何设计和发布这些消息。
 
@@ -97,11 +97,11 @@ ht-degree: 2%
 
 1. 使用 **读取区段** 活动。 选择之前创建的区段。 属于该区段的所有个人都将进入历程。
 
-   ![](assets/jo-uc4.png)
+   ![](../assets/jo-uc4.png)
 
 1. 删除 **消息** 活动，然后选择推送和电子邮件第一条消息。 此消息将发送给历程中的所有个人。
 
-   ![](assets/jo-uc5.png)
+   ![](../assets/jo-uc5.png)
 
 1. 将光标放在消息活动上并单击“+”符号以创建新路径。
 

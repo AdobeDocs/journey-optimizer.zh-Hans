@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -27,4 +27,4 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 1. 在 **操作** 选择Campaign操作并将其添加到历程中。
 1. 在 **操作参数**，则会显示消息有效负载中预期的所有字段。 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 这类似于自定义操作。 请参阅 [部分](../building-journeys/using-custom-actions.md).
 
-![](assets/accintegration2.png)
+![](../assets/accintegration2.png)

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 要访问此功能，请选择 **[!UICONTROL Simulation]** 选项卡 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 菜单。
 
-![](../assets/offers_simulation-tab.png)
+![](../../assets/offers_simulation-tab.png)
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Manage profile]**。
 
-   ![](../assets/offers_simulation-manage-profile.png)
+   ![](../../assets/offers_simulation-manage-profile.png)
 
 1. 选择要用于标识测试用户档案的身份命名空间。 在本例中，我们将使用 **电子邮件** 命名空间。
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 1. 输入标识值并单击 **[!UICONTROL View]** 列出可用的用户档案。
 
-   ![](../assets/offers_simulation-add-profile.png)
+   ![](../../assets/offers_simulation-add-profile.png)
 
 1. 如果要测试不同的用户档案数据，请添加其他用户档案，并保存您的选择。
 
-   ![](../assets/offers_simulation-save-profiles.png)
+   ![](../../assets/offers_simulation-save-profiles.png)
 
 1. 添加后，所有用户档案都会列在 **[!UICONTROL Test profile]**. 您可以在保存的测试用户档案之间切换，以显示每个选定用户档案的结果。
 
-   ![](../assets/offers_simulation-saved-profiles.png)
+   ![](../../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ ht-degree: 1%
 
 1. 选择 **[!UICONTROL Add decision scope]**。
 
-   ![](../assets/offers_simulation-add-decision.png)
+   ![](../../assets/offers_simulation-add-decision.png)
 
 1. 从列表中选择版面。
 
-   ![](../assets/offers_simulation-add-decision-scope.png)
+   ![](../../assets/offers_simulation-add-decision-scope.png)
 
 1. 将显示可用的决策。
 
@@ -88,13 +88,13 @@ ht-degree: 1%
 
    选择您选择的决策并单击 **[!UICONTROL Add]**.
 
-   ![](../assets/offers_simulation-add-decision-scope-add.png)
+   ![](../../assets/offers_simulation-add-decision-scope-add.png)
 
 1. 您刚刚定义的决策范围将显示在主工作区中。
 
    您可以调整要请求的选件数量。 例如，如果您选择2，则此决策范围将显示2个最佳选件。
 
-   ![](../assets/offers_simulation-request-offer.png)
+   ![](../../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 1. 重复上述步骤，以根据需要添加任意数量的决策。
 
-   ![](../assets/offers_simulation-add-more-decisions.png)
+   ![](../../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
@@ -114,11 +114,11 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Settings]**。
 
-   ![](../assets/offers_simulation-settings.png)
+   ![](../../assets/offers_simulation-settings.png)
 
 1. 在 **[!UICONTROL Deduplication]** 部分，您可以选择在决策和/或版面中允许重复的选件。 这意味着可能会为多个决策/版面分配相同的选件。
 
-   ![](../assets/offers_simulation-settings-deduplication.png)
+   ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 1. 在 **[!UICONTROL Response format]** 部分，则可以选择在代码视图中包含元数据。 选中相应的选项，然后选择所选的元数据。 选择 **[!UICONTROL View code]**. 在 [查看模拟结果](#simulation-results) 中。
 
-   ![](../assets/offers_simulation-settings-response-format.png)
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
@@ -158,13 +158,13 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 单击 **[!UICONTROL View results]**。
 
-   ![](../assets/offers_simulation-view-results.png)
+   ![](../../assets/offers_simulation-view-results.png)
 
 1. 将根据为每个决策选择的用户档案显示最佳的可用选件。
 
    选择选件以显示其详细信息。
 
-   ![](../assets/offers_simulation-offer-details.png)
+   ![](../../assets/offers_simulation-offer-details.png)
 
 1. 单击 **[!UICONTROL View code]** 以显示请求和响应负载。 [了解详情](#view-code)
 
@@ -180,19 +180,19 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 1. 使用 **[!UICONTROL View code]** 按钮来显示请求和响应负载。
 
-   ![](../assets/offers_simulation-view-code.png)
+   ![](../../assets/offers_simulation-view-code.png)
 
    代码视图显示当前用户的开发人员信息。 默认情况下， **[!UICONTROL Response payload]** 中。
 
-   ![](../assets/offers_simulation-request-payload.png)
+   ![](../../assets/offers_simulation-request-payload.png)
 
 1. 单击 **[!UICONTROL Response payload]** 或 **[!UICONTROL Request payload]** 来导航。
 
-   ![](../assets/offers_simulation-response-payload.png)
+   ![](../../assets/offers_simulation-response-payload.png)
 
 1. 在之外使用请求有效负载 [!DNL Journey Optimizer]  — 例如，为进行故障诊断，请使用 **[!UICONTROL Copy to clipboard]** 按钮。
 
-   ![](../assets/offers_simulation-copy-payload.png)
+   ![](../../assets/offers_simulation-copy-payload.png)
 
    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 

@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 5%
@@ -103,7 +103,7 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL Action parameters]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
 
-   ![](assets/uc-collection-1.png)
+   ![](../assets/uc-collection-1.png)
 
 1. 如果需要，请调整字段类型。 集合支持以下字段类型：listString， listInteger， listDecimal， listBoolean， listDateTime， listDateTimeOnly， listDateOnly， listObject
 
@@ -119,27 +119,27 @@ ht-degree: 5%
 
 1. 对于每个字段，定义将在历程画布中显示的标签。
 
-   ![](assets/uc-collection-2.png)
+   ![](../assets/uc-collection-2.png)
 
 1. 创建历程并添加您创建的自定义操作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
 
 1. 在 **[!UICONTROL Action parameters]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
 
-   ![](assets/uc-collection-3.png)
+   ![](../assets/uc-collection-3.png)
 
 1. 对于以下每个对象字段，从源XDM架构中键入相应的字段名称。 如果名称相同，则不需要。 在本例中，我们只需定义“产品ID”和“颜色”即可。
 
-   ![](assets/uc-collection-4.png)
+   ![](../assets/uc-collection-4.png)
 
 对于数组字段，您还可以使用高级表达式编辑器执行数据处理。 在以下示例中，我们使用 [过滤器](functions/functionfilter.md) 和 [相交](functions/functionintersect.md) 函数：
 
-![](assets/uc-collection-5.png)
+![](../assets/uc-collection-5.png)
 
 ## 特定案例{#examples}
 
 对于阵列的异构类型和阵列，使用listAny类型定义阵列。 您只能映射单个项目，但无法将数组更改为变量。
 
-![](assets/uc-collection-heterogeneous.png)
+![](../assets/uc-collection-heterogeneous.png)
 
 异源类型示例：
 

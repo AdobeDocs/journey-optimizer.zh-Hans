@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 可在 **[!UICONTROL Offers]** 菜单。
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 您可以创建两种类型的收藏集：
 
@@ -35,17 +35,17 @@ ht-degree: 3%
 
 1. 指定要创建的集合的名称和类型。
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
 1. 要创建动态收藏集，请使用左窗格选择要添加到收藏集的选件的标记，然后单击 **[!UICONTROL Save]**. 所有具有选定标记的选件都将保存在收藏集中。
 
    有关标记创建的更多信息，请参阅 [创建标记](../offer-library/creating-tags.md).
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
 1. 要创建静态收藏集，请使用左窗格筛选选件列表（状态、标记、日期、渠道、内容类型），然后选择要添加到收藏集的选件。
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 1. 创建集合后，该集合会显示在列表中。 您可以选择它以编辑或删除它。
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
 ## 教程视频 {#video}
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f2267f82453cc00be86f1a279496aaf4e9218c5f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '921'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [检查警报](using/messages/alerts.md)
       + [发布消息](using/messages/publish-manage-message.md)
    + [管理同意](using/messages/consent.md)
++ 登陆页面{#landing-pages}
+   + [登陆页面入门](using/landing-pages/get-started-lp.md)
+   + [创建登陆页面](using/landing-pages/create-lp.md)
+   + [设计登陆页面](using/landing-pages/design-lp.md)
+   + [创建订阅列表](using/landing-pages/subscription-list.md)
+   + [用例](using/landing-pages/lp-use-cases.md)
+   + 报告 {#lp-reporting}
+      + [登陆页面报表](using/landing-pages/lp-report.md)
+      + [订阅列表报告](using/landing-pages/subscription-report.md)
 + 个性化{#personalization}
    + [入门个性化](using/personalization/personalize.md)
    + [个性化上下文](using/personalization/personalization-contexts.md)
@@ -56,7 +65,6 @@ ht-degree: 98%
       + 使用表达式编辑器 {#expression-editor}
          + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
          + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
-         + [使用保存的表达式](using/personalization/personalization-library.md)
          + [个性化验证](using/personalization/personalization-validation.md)
       + 辅助函数{#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
@@ -224,15 +232,6 @@ ht-degree: 98%
       + [可投放性入门](using/messages/deliverability.md)
       + [禁止列表](using/messages/suppression-list.md)
       + [允许列表](using/messages/allow-list.md)
-+ 登陆页面{#landing-pages}
-   + [登陆页面入门](using/landing-pages/get-started-lp.md)
-   + [创建登陆页面](using/landing-pages/create-lp.md)
-   + [设计登陆页面](using/landing-pages/design-lp.md)
-   + [创建订阅列表](using/landing-pages/subscription-list.md)
-   + [用例](using/landing-pages/lp-use-cases.md)
-   + 报告 {#lp-reporting}
-      + [登陆页面报表](using/landing-pages/lp-report.md)
-      + [订阅列表报告](using/landing-pages/subscription-report.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +337,7 @@ ht-degree: 98%
          + [更改电子邮件主地址](using/configuration/primary-email-addresses.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
       + [创建消息预设](using/configuration/message-presets.md)
+   + [配置登陆页面](using/configuration/lp-configuration.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + [与外部系统集成](using/configuration/external-systems.md)

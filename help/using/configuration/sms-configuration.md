@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** 菜单，然后单击 **[!UICONTROL Create API credential]**.
 
-   ![](assets/sms_4.png)
+   ![](../assets/sms_4.png)
 
 1. 选择Sinch作为 **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ ht-degree: 4%
    >
    > Sinch需要特殊的API凭据。 查找 **[!UICONTROL Service ID]** 和 **[!UICONTROL API Token]**，从您的Sinch帐户访问短信> API菜单，
 
-   ![](assets/sms_5.png)
+   ![](../assets/sms_5.png)
 
 1. 单击 **[!UICONTROL Submit]** 完成API凭据的配置时，覆盖分类。
 
@@ -53,11 +53,11 @@ ht-degree: 4%
 
 1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 菜单，然后单击 **[!UICONTROL Create Message preset]**.
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. 为预设输入名称和描述（可选），然后选择短信渠道。
 
-   ![](assets/sms_preset.png)
+   ![](../assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 4%
 
 1. 配置 **短信** 设置。
 
-   ![](assets/preset-sms.png)
+   ![](../assets/preset-sms.png)
 
    * 选择 **[!UICONTROL SMS Type]** 将随预设一起发送： **[!UICONTROL Transactional]** 或 **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ ht-degree: 4%
 
 1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 
-   ![](assets/sms_preset_2.png)
+   ![](../assets/sms_preset_2.png)
 
 1. 创建消息预设后，该消息预设会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
 
@@ -87,7 +87,7 @@ ht-degree: 4%
 
 1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 现在，您可以使用Journey Optimizer发送短信消息。
 

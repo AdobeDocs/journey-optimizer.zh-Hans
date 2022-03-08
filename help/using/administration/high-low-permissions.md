@@ -5,16 +5,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
 # 权限级别 {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
+![](../assets/do-not-localize/permissions.png)
 
 每个产品配置文件都包含允许用户访问不同功能的权限。
 分为两种类型：
@@ -417,13 +417,16 @@ ht-degree: 0%
    * profiles.read
    * datasets.read
 
-## Journey Optimizer库功能{library-permissions}
+### [!DNL Manage landing page settings] 许可 {#manage-landing-page-settings}
 
-### 管理库项目 {#library-items}
-
-的 **[!DNL Manage Library Items]** 高级权限允许用户在 [!DNL Journey Optimizer] 库。
+的 **[!DNL Manage landing page settings]** 高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
 它包括以下低级权限：
 
-* library_item.create
-* ibrary_item.delete
+* Journey Optimizer特定：
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

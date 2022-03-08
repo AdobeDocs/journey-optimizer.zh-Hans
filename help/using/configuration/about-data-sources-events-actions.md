@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 56%
@@ -17,7 +17,7 @@ ht-degree: 56%
 
 要随历程发送消息，您需要配置 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**.
 
-![](assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 ## 数据源 {#data-sources}
 
@@ -39,7 +39,7 @@ Journey Optimizer消息功能是内置的：您只需设计内容并发布消息
 
 如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在处理“eVars”和通用字段时，这个描述符特别有用。您可以通过 API 调用配置友好型名称描述符。有关更多信息，请参阅 [架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-![](assets/xdm-from-descriptors.png)
+![](../assets/xdm-from-descriptors.png)
 
 如果友好名称可用，则字段将显示为`<friendly-name>(<name>)`。如果没有可用的友好名称，将显示其显示名称，如`<display-name>(<name>)`。如果这两种名称均未定义，则仅显示字段的技术名称 `<name>`。
 

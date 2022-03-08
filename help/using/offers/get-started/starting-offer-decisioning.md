@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 * **集中式优惠库**&#x200B;是创建和管理组成优惠的不同元素并定义其规则和限制条件的界面。
 * **优惠决策引擎**&#x200B;利用 Adobe Experience Platform 数据、实时客户档案和优惠库选择合适的时间、客户和渠道，以便向其提供优惠。
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 其优势包括：
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 它是使用&#x200B;**优惠库**&#x200B;创建的，这个库提供了一个集中式优惠目录，您可以将合格规则和限制条件与多个内容关联，以创建和发布优惠（请参阅[优惠库用户界面](../get-started/user-interface.md)）。
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 在优惠库中添加优惠后，您可以将优惠整合到&#x200B;**决策**（之前称为“优惠活动”）中。
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 * 根据来自 Adobe Experience Platform 的数据，在您的网站主页上显示与来访客户的兴趣点相匹配的优惠。
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * 如果客户走到您的商店附近，根据他们的属性（忠诚度、性别、以前的购买记录等）向他们发送推送通知，提醒他们有可用的优惠。
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * 决策管理还可帮助您提升客户在联系支持团队时的体验。决策管理 API 允许您在呼叫中心服务人员的门户中显示有关客户已兑现的优惠和下个最合适优惠的信息。
 

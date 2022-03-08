@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 6%
@@ -70,16 +70,16 @@ ht-degree: 6%
 
 1. 设计 **原始历程**.
 
-   ![](assets/jump1.png)
+   ![](../assets/jump1.png)
 
 1. 在历程的任何步骤中，添加 **[!UICONTROL Jump]** 活动，从 **[!UICONTROL ACTIONS]** 类别。 添加标签和描述。
 
-   ![](assets/jump2.png)
+   ![](../assets/jump2.png)
 
 1. 在 **Target历程** 字段。
 该列表显示草稿、实时或处于测试模式的所有历程版本。 历程使用其他命名空间或以 **区段鉴别** 事件不可用。 还会过滤掉将创建循环模式的Target历程。
 
-   ![](assets/jump3.png)
+   ![](../assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ ht-degree: 6%
 1. 选择您要跳转到的目标历程。
 的 **第一个事件** 字段中预填充了target历程第一个事件的名称。 如果您的目标历程包含多个事件，则 **[!UICONTROL Jump]** 仅允许在第一个事件上使用。
 
-   ![](assets/jump4.png)
+   ![](../assets/jump4.png)
 
 1. 的 **操作参数** 部分显示目标事件的所有字段。 与其他操作类型相同，应使用源事件或数据源中的字段映射每个字段。 此信息将在运行时传递到目标历程。
 1. 添加下一个活动以完成原始历程。
 
-   ![](assets/jump5.png)
+   ![](../assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 当 **[!UICONTROL Jump]** 在历程中配置活动， **[!UICONTROL Jump]** 登入图标会自动添加到target历程的开头。 这有助于您识别可以从外部触发历程，也可以从 **[!UICONTROL Jump]** 活动。
 
-![](assets/jump7.png)
+![](../assets/jump7.png)
 
 ## 故障排除
 
@@ -113,4 +113,4 @@ ht-degree: 6%
 * 目标历程为草稿、关闭或停止
 * 如果目标历程的第一个事件发生更改，且映射被中断
 
-![](assets/jump6.png)
+![](../assets/jump6.png)

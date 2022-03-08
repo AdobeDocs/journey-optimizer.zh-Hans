@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '388'
 ht-degree: 3%
 
 ---
@@ -25,9 +25,11 @@ ht-degree: 3%
 
 ## 关于等待活动{#about_wait}
 
-下面是当您同时使用多个等待时，如何排定等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则位于上方的等待将是优先级。 例如，第一次等待的条件是“为女人”，而第二次并行等待的条件是“为VIP”。 第一个等待活动将按优先顺序排列。
+下面是当您同时使用多个等待时，如何排定等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则位于上方的等待将是优先级。 例如，第一次等待的条件是“为女人”，而第二次并行等待的条件是“为VIP”。 第一个等待活动将按优先顺序排列
 
 另请注意，如果两个不同的等待同时进行，则无论其垂直位置如何，发生在第一个等待的等待都将按优先级排列。 例如，如果高于1小时等待，低于30分钟等待，则30分钟后将处理30分钟等待。
+
+如果要限制对特定群体的等待，可以定义条件。
 
 >[!NOTE]
 >
@@ -39,13 +41,13 @@ ht-degree: 3%
 
 选择在执行下一个活动之前等待的持续时间。
 
-![](assets/journey55.png)
+![](../assets/journey55.png)
 
 ## 修复了日期等待{#fixed_date}
 
 选择执行下一个活动的日期。
 
-![](assets/journey56.png)
+![](../assets/journey56.png)
 
 ## 自定义等待{#custom}
 
@@ -57,7 +59,7 @@ ht-degree: 3%
 >
 >的 **时区** 在历程的属性中是预期的。 因此，今天从界面无法直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
-![](assets/journey57.png)
+![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +79,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](assets/journey57bis.png)-->
+![](../assets/journey57bis.png)-->

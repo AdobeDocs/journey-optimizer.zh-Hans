@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 7%
@@ -21,19 +21,19 @@ ht-degree: 7%
 
 1. **配置事件**:如果要在收到事件后一直触发历程，则需要配置事件。 您可以定义预期信息以及处理方式。 此步骤由&#x200B;**技术用户**&#x200B;执行。[了解更多信息](../event/about-events.md)。
 
-   ![](assets/jo-event7bis.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **创建区段**:您的历程还可以监听Adobe Experience Platform区段，以便将消息批量发送到一组指定的用户档案。 为此，您需要创建区段。 [了解更多信息](../segment/about-segments.md)。
 
-   ![](assets/segment2.png)
+   ![](../assets/segment2.png)
 
 1. **配置数据源**:您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。[了解更多信息](../datasource/about-data-sources.md)
 
-   ![](assets/jo-datasource.png)
+   ![](../assets/jo-datasource.png)
 
 1. **配置操作**:Journey Optimizer消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../messages/get-started-content.md)。如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。
 
-   ![](assets/create-content-push.png)
+   ![](../assets/create-content-push.png)
 
 ## 构建您的历程{#jo-build}
 
@@ -43,17 +43,17 @@ ht-degree: 7%
 
 1. 在“历程管理”菜单部分，单击 **[!UICONTROL Journeys]**. 将显示历程列表。
 
-   ![](assets/interface-journeys.png)
+   ![](../assets/interface-journeys.png)
 
 1. 单击 **[!UICONTROL Create Journey]** 以创建新历程。
 
 1. 编辑右侧显示的配置窗格中的历程属性。在中了解详情 [部分](journey-gs.md#change-properties).
 
-   ![](assets/jo-properties.png)
+   ![](../assets/jo-properties.png)
 
 1. 首先，拖放事件或 **读取区段** 活动。 要了解有关历程设计的更多信息，请参阅 [此部分](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![](../assets/read-segment.png)
 
 1. 拖放个人将遵循的后续步骤。 例如，您可以添加一个条件，后跟一条消息。 要进一步了解活动，请参阅 [此部分](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ ht-degree: 7%
 
 1. 发布历程以激活它。 在中了解详情 [部分](publishing-the-journey.md).
 
-   ![](assets/jo-journeyuc2_32bis.png)
+   ![](../assets/jo-journeyuc2_32bis.png)
 
 1. 使用专用的报告工具监控您的历程以衡量历程的有效性。 在中了解详情 [部分](../reports/live-report.md).
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+   ![](../assets/jo-dynamic_report_journey_12.png)
 
 ## 更改属性 {#change-properties}
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
 的 **复制技术详细信息** 允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息：JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt。
 
-![](assets/journey32.png)
+![](../assets/journey32.png)
 
 ### 入口{#entrance}
 
@@ -133,11 +133,11 @@ ht-degree: 7%
 
 要激活突发模式，请打开您的历程并单击右上方的铅笔图标以访问历程的属性。 然后，激活 **启用拆分模式** 切换。
 
-![](assets/burst.png)
+![](../assets/burst.png)
 
 如果您修改拆分历程并添加与拆分不兼容的活动（消息、任何其他操作、事件等），则将停用拆分模式。 将显示一条消息。
 
-![](assets/burst2.png)
+![](../assets/burst2.png)
 
 然后，正常测试和发布您的历程。 测试模式消息不会通过拆分模式发送。
 
@@ -178,14 +178,14 @@ ht-degree: 7%
 
 要从历程列表关闭历程，请单击 **[!UICONTROL Ellipsis]** 位于历程名称右侧并选择 **[!UICONTROL Close to new entrances]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 您还可以：
 
 1. 在 **[!UICONTROL Journeys]** 列表，单击要关闭的历程。
 1. 单击右上角的向下箭头。
 
-   ![](assets/finish_drop_down_list.png)
+   ![](../assets/finish_drop_down_list.png)
 
 1. 单击 **[!UICONTROL Close to new entrances]**。将显示一个对话框。
 1. 单击 **[!UICONTROL Close to new entrances]** 确认。
@@ -200,14 +200,14 @@ ht-degree: 7%
 
 例如，如果营销人员意识到历程定向了错误的受众，或者用于传递消息的自定义操作无法正常工作，则可以停止历程。 要从历程列表中停止历程，请单击 **[!UICONTROL Ellipsis]** 位于历程名称右侧并选择 **[!UICONTROL Stop]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 您还可以：
 
 1. 在 **[!UICONTROL Journeys]** 列表，单击要停止的历程。
 1. 单击右上角的向下箭头。
 
-![](assets/finish_drop_down_list.png)
+![](../assets/finish_drop_down_list.png)
 
 1. 单击 **[!UICONTROL Stop]**。将显示一个对话框。
 1. 单击 **[!UICONTROL Stop]** 确认。

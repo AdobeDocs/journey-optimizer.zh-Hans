@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >如果消息已在多个历程中使用，则每次执行时每个历程会显示一行。
 
-默认情况下，会从最近的执行日期开始显示消息。 单击 **[!UICONTROL Filters]** 图标，以根据渠道、开始日期和/或结束日期搜索消息。 您还可以选择从 **执行列表**.
+默认情况下，会从最近的执行日期开始显示消息。 单击 **[!UICONTROL Filters]** 图标，以根据渠道、开始日期和/或结束日期搜索消息。
 
 ![](assets/message-execution-tab-filters.png)
 

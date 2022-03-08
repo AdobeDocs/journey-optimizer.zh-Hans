@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -31,6 +31,6 @@ ht-degree: 8%
 
 这会为该报表包启用Analytics源连接器。 每当数据传入时，它都会转换为体验事件并发送到Adobe Experience Platform。
 
-![](assets/jo-event9.png)
+![](../assets/jo-event9.png)
 
 了解有关Adobe Analytics源连接器的更多信息，请参阅  [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}。

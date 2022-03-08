@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 4%
@@ -22,14 +22,14 @@ ht-degree: 4%
 1. 访问  **[!UICONTROL Channels]** `>` **[!UICONTROL General]** 菜单。
 1. 默认情况下，此屏幕中会显示当前用于确定用户档案电子邮件地址的字段。 单击 **[!UICONTROL Edit]** 来改变它。
 
-   ![](assets/primary-address.png)
+   ![](../assets/primary-address.png)
 
 1. 单击修改按钮以选择要用作主电子邮件地址的新字段。
 
-   ![](assets/primary-address-edit.png)
+   ![](../assets/primary-address-edit.png)
 
 1. 此时会显示可用电子邮件类型XDM字段的列表。 选择要使用的字段，然后单击 **[!UICONTROL Save]**.
 
-   ![](assets/primary-address-field.png)
+   ![](../assets/primary-address-field.png)
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. >> will be done later on-->

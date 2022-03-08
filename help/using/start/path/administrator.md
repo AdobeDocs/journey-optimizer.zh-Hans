@@ -3,7 +3,7 @@ title: Journey Optimizer系统管理员入门
 description: 作为系统管理员，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -56,16 +56,16 @@ As a **系统管理员**，您需要 **了解产品配置文件和分配权限**
 
 1. **委派子域**:对于要在Journey Optimizer中使用的任何新子域，第一步是将其委派。 [了解详情](../../configuration/about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](../../assets/subdomain.png)
 
 1. **创建IP池**:通过将与您的实例配置的IP地址分组到一起，可提高电子邮件的投放能力和声誉。 [了解详情](../../configuration/ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](../../assets/ip-pool.png)
 
 1. **管理抑制和允许列表**:通过抑制和允许列表提高投放能力
 
    * A [抑制列表](../../messages/suppression-list.md) 包含要从投放中排除的电子邮件地址，因为发送给这些联系人可能会损害您的发送信誉和投放率。 您可以监控在历程中自动被排除在发送之外的所有电子邮件地址，例如无效地址、始终软退回的地址，并可能对您的电子邮件信誉造成不利影响的地址，以及针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。 了解如何管理 [抑制列表](../../configuration/manage-suppression-list.md) 和 [重试](../../configuration/retries.md).
-   ![](../assets/suppression-list-filtering-example.png)
+   ![](../../assets/suppression-list-filtering-example.png)
 
    * 的 [允许列表](../../messages/allow-list.md) 允许您指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。 这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。 了解如何 [启用允许列表](../../messages/allow-list.md).
    详细了解 [!DNL Adobe Journey Optimizer] [本页](../../messages/deliverability.md).

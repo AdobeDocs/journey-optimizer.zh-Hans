@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,27 @@ ht-degree: 0%
 
 * 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL Journeys]** 菜单，访问您的历程并单击 **[!UICONTROL Live report]** 图标。 然后，您可以找到历程、电子邮件和推送实时报表。
 
-   ![](assets/report_journey.png)
+   ![](../assets/report_journey.png)
 
 * 如果要定位特定投放，请从 **[!UICONTROL Live view]** 的 **[!UICONTROL Executions]** ，选择 **[!UICONTROL Live Report]** ，您可以从选定投放的高级菜单访问该页面。
 
-   ![](assets/report_2.png)
+   ![](../assets/report_2.png)
 
 ## 自定义功能板 {#modify-dashboard}
 
 可通过调整大小或删除小组件来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
-1. 选择是否要使用切换栏从报表中排除测试事件。 有关测试事件的更多信息，请参阅 [本页](../building-journeys/testing-the-journey.md).
+1. 在您的实时报表中，单击 **[!UICONTROL Modify]**.
 
-   ![](assets/report_modify_6.png)
-
-1. 要调整小组件大小或删除小组件，请单击 **[!UICONTROL Modify]**.
-
-   ![](assets/report_modify_7.png)
+   ![](../assets/report_modify_1.png)
 
 1. 通过拖动小组件的右下角来调整其大小。
 
-   ![](assets/report_modify_8.png)
+   ![](../assets/report_modify_2.png)
 
-1. 单击 **[!UICONTROL Remove]** 删除您不需要的任何小组件。
+1. 单击 **[!UICONTROL Remove]** 删除您不需要跟踪退回的其他小组件。
 
-   ![](assets/report_modify_9.png)
+   ![](../assets/report_modify_3.png)
 
 1. 当您对小组件的显示顺序和大小感到满意后，单击 **[!UICONTROL Save]**.
 

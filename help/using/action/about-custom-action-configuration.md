@@ -1,41 +1,32 @@
 ---
 solution: Journey Orchestration
-title: 配置自定义操作
+title: 关于自定义操作配置
 description: 了解如何配置自定义操作
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '804'
 ht-degree: 6%
 
 ---
 
-# 配置自定义操作 {#configure-an-action}
+# 配置操作 {#configure-an-action}
 
-如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、Adobe.io、Firebase等
+如果您使用第三方系统来发送消息，或者如果您希望历程将API调用发送到第三方系统，则可以在此处配置其与历程的连接。 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-journey-activities.md#action-activities). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Slack、Adobe.io、Firebase等
 
-自定义操作是技术用户定义并可供营销人员使用的其他操作。 配置完毕后，这些组件会显示在历程的左侧面板(位于 **[!UICONTROL Action]** 类别。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
+限制列在 [本页](../start/limitations.md).
 
-## 限制{#custom-actions-limitations}
-
-自定义操作在 [本页](../start/limitations.md).
-
-在自定义操作参数中，您可以传递简单的集合以及对象集合。 进一步了解 [本页](../building-journeys/collections.md#limitations).
-
-另请注意，自定义操作参数具有预期的格式(例如：字符串、小数等)。 您必须谨慎遵循这些预期格式。 在中了解详情 [用例](../building-journeys/collections.md).
-
-
-## 配置步骤 {#configuration-steps}
+您可以使用自定义操作动态传递收藏集。 请参阅 [用例](../building-journeys/collections.md).
 
 以下是配置自定义操作所需的主要步骤：
 
 1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Actions]** ，单击 **[!UICONTROL Manage]**. 单击 **[!UICONTROL Create Action]** 创建新操作。 操作配置窗格将在屏幕右侧打开。
 
-   ![](assets/custom2.png)
+   ![](../assets/custom2.png)
 
 1. 输入操作的名称。
 
@@ -60,7 +51,7 @@ ht-degree: 6%
 
 配置自定义操作时，您需要定义以下内容 **[!UICONTROL URL Configuration]** 参数：
 
-![](assets/journeyurlconfiguration.png)
+![](../assets/journeyurlconfiguration.png)
 
 1. 在 **[!UICONTROL URL]** 字段中，指定外部服务的URL:
 
@@ -89,7 +80,7 @@ ht-degree: 6%
 
       如果已选择 **[!UICONTROL Variable]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
-      ![](assets/journeyurlconfiguration2.png)
+      ![](../assets/journeyurlconfiguration2.png)
 
    1. 要删除标题字段，请指向标题字段，然后单击 **[!UICONTROL Delete]** 图标。
    的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 标题字段默认设置。 您无法修改或删除这些字段。
@@ -102,11 +93,11 @@ ht-degree: 6%
 
 ## 定义操作参数 {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
+![](../assets/messageparameterssection.png)
 
 在 **[!UICONTROL Action parameters]** 部分，粘贴要发送到外部服务的JSON有效负载示例。
 
-![](assets/customactionpayloadmessage.png)
+![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +110,5 @@ ht-degree: 6%
 * 常量表示参数的值由技术人员在操作配置窗格中定义。 跨历程的值将始终相同。 在历程中使用自定义操作时，它不会有所不同，营销人员也不会看到它。 例如，它可能是第三方系统所需的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
 * 变量表示参数的值会有所不同。 在历程中使用此自定义操作的营销人员可以自由地传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、从Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在命名此参数的历程中看到的标签。
 
-![](assets/customactionpayloadmessage2.png)
+![](../assets/customactionpayloadmessage2.png)
 

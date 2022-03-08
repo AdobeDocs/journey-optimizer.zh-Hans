@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 所有委派的子域都显示在 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 菜单。 过滤器可帮助您优化列表（委派日期、用户或状态）。
 
-![](assets/subdomain-list.png)
+![](../assets/subdomain-list.png)
 
 的 **[!UICONTROL Status]** 列提供有关子域委派过程的信息：
 
@@ -32,4 +32,4 @@ ht-degree: 4%
 
 * 将Google站点验证TXT记录添加到子域，以确保对其进行验证(请参阅 [将Google TXT记录添加到子域](google-txt.md))。
 
-![](assets/subdomain-delegated.png)
+![](../assets/subdomain-delegated.png)

@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >历程属性属性也在简单表达式编辑器中可用。 请参阅 [部分](../condition-activity.md#about_condition)
 
-![](../assets/journey-properties.png)
+![](../../assets/journey-properties.png)
 
 您将找到以下信息：
 

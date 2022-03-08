@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 9%
@@ -23,7 +23,7 @@ ht-degree: 9%
 * [日期条件](#date_condition)
 * [配置文件上限](#profile_cap)
 
-![](assets/journey49.png)
+![](../assets/journey49.png)
 
 ## 关于条件活动 {#about_condition}
 
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 单击 **[!UICONTROL Add a path]** 要定义多个条件时，请执行以下操作： 对于每个条件，都会在活动后的画布中添加新路径。
 
-![](assets/journey47.png)
+![](../assets/journey47.png)
 
 请注意，历程的设计会对功能产生影响。 在条件后定义多个路径时，将只执行第一个符合条件的路径。 这意味着您可以通过将路径置于彼此之上或之下来改变路径的优先级。
 
 例如，让我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果符合这两个条件的人员(男性，VIP)通过此步骤，则将选择第一个路径，即使此人也有资格使用第二个路径，因为第一个路径“高于”。 要更改此优先级，请按其他垂直顺序移动活动。
 
-![](assets/journey48.png)
+![](../assets/journey48.png)
 
 您可以通过选中 **[!UICONTROL Show path for other cases than the one(s) above]**. 请注意，此选项在拆分条件中不可用。 请参阅 [百分比拆分](#percentage_split).
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 * 和：两个条件的交集。 只考虑与所有条件匹配的元素。
 * 或：两个标准的并集。 考虑至少符合一个条件的元素。
 
-![](assets/journey64.png)
+![](../assets/journey64.png)
 
 如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}要创建区段，您可以在历程条件中利用这些区段。 请参阅 [在条件中使用区段](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ ht-degree: 9%
 
 这允许您根据数据源中的字段或先前位于历程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅 [AdobeJourney Orchestration文档](expression/expressionadvanced.md). 使用高级表达式编辑器，您可以设置更高级的条件来处理集合或使用需要传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
 
-![](assets/journey50.png)
+![](../assets/journey50.png)
 
 ## 时间条件{#time_condition}
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 >
 >时区不再特定于条件，现在在历程属性的历程级别定义。 请参见[此页面](../building-journeys/timezone-management.md)。
 
-![](assets/journey51.png)
+![](../assets/journey51.png)
 
 ## 百分比拆分 {#percentage_split}
 
@@ -85,7 +85,7 @@ ht-degree: 9%
 >
 >请注意，没有按钮可在百分比拆分条件中添加路径。 路径的数量将取决于拆分的数量。 在拆分条件中，您无法为其他情况添加路径，因为该路径不可能发生。 人们将始终进入一条分割的路径。
 
-![](assets/journey52.png)
+![](../assets/journey52.png)
 
 ## 日期条件 {#date_condition}
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 >
 >时区不再特定于条件，现在在历程属性的历程级别定义。 请参阅[此页](../building-journeys/timezone-management.md)。
 
-![](assets/journey53.png)
+![](../assets/journey53.png)
 
 ## 配置文件上限 {#profile_cap}
 
@@ -116,7 +116,7 @@ ht-degree: 9%
 
 在测试模式下，未考虑配置文件上限。
 
-![](assets/profile-cap-condition.png)
+![](../assets/profile-cap-condition.png)
 
 ## 在条件中使用区段 {#using-a-segment}
 
@@ -125,15 +125,15 @@ ht-degree: 9%
 要在历程条件中使用区段，请执行以下步骤：
 
 1. 打开旅程，删除 **[!UICONTROL Condition]** 活动，然后选择 **数据源条件**.
-   ![](assets/journey47.png)
+   ![](../assets/journey47.png)
 
 1. 单击 **[!UICONTROL Add a path]** 每个需要的额外路径。 对于每个路径，单击 **[!UICONTROL Expression]** 字段。
 
-   ![](assets/segment3.png)
+   ![](../assets/segment3.png)
 
 1. 在左侧，展开 **[!UICONTROL Segments]** 节点。 拖放要用于条件的区段。 默认情况下，区段上的条件为true。
 
-   ![](assets/segment4.png)
+   ![](../assets/segment4.png)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -35,11 +35,11 @@ ht-degree: 2%
 
 1. 选择 **[!UICONTROL Edit suppression rules]** 按钮。
 
-   ![](assets/suppression-list-edit-retries.png)
+   ![](../assets/suppression-list-edit-retries.png)
 
 1. 根据需要编辑允许的连续软退回数。
 
-   ![](assets/suppression-list-edit-soft-bounces.png)
+   ![](../assets/suppression-list-edit-soft-bounces.png)
 
    您必须输入一个介于1和20之间的整数值，这表示重试的最小次数为1，最大数量为20。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 创建、配置和管理选件以及在决策中使用这些选件的主要步骤如下所示。
 
-![](../assets/offer-create-manage-process.png)
+![](../../assets/offer-create-manage-process.png)
 
 有关完整的端到端示例，请参阅如何配置选件、在决策中使用这些选件以及在电子邮件中利用此决策，以了解 [本页](../offers-e2e.md).
 

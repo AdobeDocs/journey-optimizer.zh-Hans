@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 历程实时报表可直接从您的历程中通过 **[!UICONTROL Live report]** 按钮。
 
-![](assets/report_1.png)
+![](../assets/report_1.png)
 
 历程 **[!UICONTROL Live report]** 页面中将显示以下选项卡：
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 从您的历程 **[!UICONTROL Live report]**, **[!UICONTROL Journey]** 选项卡可让您清楚地查看有关历程的最重要跟踪数据。
 
-![](assets/report_journey_2.png)
+![](../assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** 允许您分步查看目标用户档案在历程中的路径。
 
@@ -43,11 +43,11 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journeys]**:未成功执行的各个历程的总数。
 
-![](assets/report_journey_3.png)
+![](../assets/report_journey_3.png)
 
 的 **[!UICONTROL Event executed over the last 24 hours]** 和 **[!UICONTROL Events]** 小组件允许您通过概要数字、图表和表格查看哪些事件成功执行。
 
-![](assets/report_journey_4.png)
+![](../assets/report_journey_4.png)
 
 的 **[!UICONTROL Action executed over the last 24 hours]** 和 **[!UICONTROL Actions executed and errors]** 小组件表示在触发操作时发生的最成功操作和错误。 操作图、表和概要数字包含可用于操作的数据，例如：
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 * **[!UICONTROL Error in actions]**:操作发生的错误总数。
 
 <!--
-![](assets/live_report_7.png)
+![](../assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 有关特定电子邮件投放的详细报告，请参阅 [电子邮件实时报表](email-live-report.md) 中。
 
-![](assets/report_email_1.png)
+![](../assets/report_email_1.png)
 
 的 **[!UICONTROL Email Sending Statistics]** 小组件详细介绍与您的消息相关的主要信息：
 
@@ -105,7 +105,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Spam complaints]**:将消息声明为垃圾邮件或垃圾邮件的次数。
 
-![](assets/report_email_2.png)
+![](../assets/report_email_2.png)
 
 的 **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** 和 **[!UICONTROL Hard and bounce - by Email]** 小组件包含与弹回的消息相关的可用数据，例如：
 
@@ -123,7 +123,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 有关特定推送投放的详细报告，请参阅 [推送实时报表](push-live-report.md) 中。
 
-![](assets/report_push_1.png)
+![](../assets/report_push_1.png)
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** 和 **[!UICONTROL Sending metrics - by Push]** 小组件详细介绍与您的消息相关的主要信息：
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
-![](assets/report_push_2.png)
+![](../assets/report_push_2.png)
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
 

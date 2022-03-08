@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 每次修改选件时，都会更新为个性化内容选件自动生成的数据集。
 
-![](../assets/dataset-offers.png)
+![](../../assets/dataset-offers.png)
 
 数据集中最近一次成功的批处理将显示在右侧。 数据集架构的分层视图将显示在左窗格中。
 

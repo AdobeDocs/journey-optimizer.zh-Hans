@@ -2,9 +2,9 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
-workflow-type: ht
-source-wordcount: '965'
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
+workflow-type: tm+mt
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
@@ -14,26 +14,26 @@ ht-degree: 100%
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
 
 
-## 2022 年 2 月 {#feb-2022}
-
-* 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 2 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
-* 更新了 [replace](../building-journeys/functions/functionreplace.md#example_2) 和 [replaceAll](../building-journeys/functions/functionreplaceall.md#example) 函数文档页面，添加了有关目标参数的其他信息和示例。
-* [运算符](../building-journeys/expression/operators.md#important-notes)页面中添加了最佳实践。
-
 ## 2022 年 1 月 {#january-2022}
 
 * 文档中详细介绍了[!DNL Journey Optimizer] 2022 年 1 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
-* 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解更多信息](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* Offer Decisioning AI 排名部分已更新，更详细地说明了自动优化模型。[了解更多信息](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
 * 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
-* 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/message-presets.md#create-message-preset)
-* 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../messages/consent.md#opt-out-management)
-* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../messages/message-tracking.md#insert-links)
+
+* 为了使内容更清晰易懂，将创建消息预设章节分为了多个部分。[了解更多信息](../configuration/message-presets.md#create-message-preset)
+
+* 对选择退出管理章节进行了修订和简单重组。[了解更多信息](../messages/consent.md#opt-out-management)
+
+* 已更新插入链接章节，以反映最近对用户界面所做的更改。[了解更多信息](../messages/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
-* 现在提供了历程中使用的&#x200B;**高级表达式编辑器**&#x200B;的完整说明。[了解更多信息](../building-journeys/expression/expressionadvanced.md)
-* 添加了关于 **CNAME 子域委派方法**&#x200B;的新章节。[了解更多信息](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* 现在提供了历程中使用的高级表达式编辑器的完整说明。[了解更多信息](../building-journeys/expression/expressionadvanced.md)
+* 添加了关于 CNAME 子域委派方法的新章节。[了解更多信息](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## 2021 年 10 月 {#october-2021}

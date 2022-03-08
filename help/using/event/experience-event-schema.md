@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -23,33 +23,33 @@ ht-degree: 1%
 
 设置事件的第一步 [!DNL Journey Optimizer] 是为了确保您定义了用于表示事件的XDM架构，并创建了一个数据集，用于记录Adobe Experience Platform上该事件的实例。 并非完全需要为事件创建一个数据集，但将事件发送到特定数据集将允许您维护用户的事件历史记录以供将来参考和分析，因此始终都是一个好主意。 如果您还没有适用于事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
 
-![](assets/schema1.png)
+![](../assets/schema1.png)
 
 将用于 [!DNL Journey Optimizer] 事件应满足以下要求：
 
 * 架构必须是XDM ExperienceEvent类的。
 
-   ![](assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * 对于系统生成的事件，架构必须包含Orchestration eventID字段组。 [!DNL Journey Optimizer] 使用此字段标识历程中使用的事件。
 
-   ![](assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * 声明用于标识事件主题的标识字段。 如果未指定身份，则可以使用身份映射。 不建议采取此做法。
 
-   ![](assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * 如果希望此数据稍后在历程中可供查找，请标记配置文件的架构和数据集。
 
-   ![](assets/schema5.png)
+   ![](../assets/schema5.png)
 
-   ![](assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * 您可以随时包含数据字段，以捕获要随事件一起包含的任何其他上下文数据，例如有关用户、从中生成事件的设备的信息、位置，或与事件相关的任何其他有意义的环境。
 
-   ![](assets/schema7.png)
+   ![](../assets/schema7.png)
 
-   ![](assets/schema8.png)
+   ![](../assets/schema8.png)
 
 ## 利用架构关系{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 以下是为将产品ID定义为主标识的用户档案启用的产品目录架构。
 
-![](assets/schema9.png)
+![](../assets/schema9.png)
 
 以下是产品ID字段中定义的关系的购买架构。
 
-![](assets/schema10.png)
+![](../assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 * 浏览事件配置屏幕中的事件架构字段时。
 * 定义系统生成事件的条件时。
 
-![](assets/schema11.png)
+![](../assets/schema11.png)
 
 链接的字段不可用：
 
@@ -100,7 +100,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 在历程中添加条件，编辑表达式并在表达式编辑器中展开事件节点。
 
-![](assets/schema12.png)
+![](../assets/schema12.png)
 
 要了解如何定义旅程条件，请参阅 [页面](../building-journeys/condition-activity.md).
 
@@ -108,7 +108,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 个性化消息时，可使用链接的字段。 相关字段显示在从历程传递到消息的上下文中。
 
-![](assets/schema14.png)
+![](../assets/schema14.png)
 
 要了解如何使用上下文历程信息个性化消息，请参阅此 [页面](../personalization/personalization-use-case.md).
 
@@ -116,6 +116,6 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 配置历程自定义操作活动的操作参数时，可以使用链接的字段。
 
-![](assets/schema13.png)
+![](../assets/schema13.png)
 
 要了解如何使用自定义操作，请参阅 [页面](../building-journeys/using-custom-actions.md).

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 ## 重要说明 {#important-notes}
 
-* 没有消息限制。 系统根据当前的促销活动SLA，将可发送的消息数量限制为每5分钟4000条。 因此，Journey Optimizer只应用于单一用例（单个事件，而不是区段）。
+* 没有消息限制。 根据我们当前的促销活动SLA，我们将可发送的消息数量限制为50,000/小时。 因此，Journey Optimizer只应用于单一用例（单个事件，而不是区段）。
 
 * 您需要在每个要使用的模板的画布上配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
 
@@ -69,4 +69,4 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 1. 根据要在历程画布上映射不同字段，将其调整为静态字段或变量字段。 某些字段(例如电子邮件地址和个性化字段(ctx)的渠道参数)，您可能希望定义为用于在历程上下文中映射的变量。
 1. 单击&#x200B;**保存**。
 
-![](assets/accintegration1.png)
+![](../assets/accintegration1.png)

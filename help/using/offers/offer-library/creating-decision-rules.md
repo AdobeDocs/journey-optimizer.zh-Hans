@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 12%
@@ -23,13 +23,13 @@ ht-degree: 12%
 
 创建的决策规则列表可在 **[!UICONTROL Components]** 菜单。
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 要创建决策规则，请执行以下步骤：
 
 1. 转到 **[!UICONTROL Rules]** ，然后单击 **[!UICONTROL Create rule]**.
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. 命名规则并提供描述，然后根据需要配置规则。
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
    在此示例中，规则将定位忠诚度级别为“Gold”的客户。
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ ht-degree: 12%
 
 1. 创建规则后，该规则会显示在规则列表中。 您可以选择它以显示其属性，并编辑或删除它。
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
 >[!CAUTION]
 >

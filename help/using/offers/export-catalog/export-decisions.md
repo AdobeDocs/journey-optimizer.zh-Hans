@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 每次修改选件时，都会更新自动生成的决策数据集（以前称为活动）。
 
-![](../assets/dataset-activities.png)
+![](../../assets/dataset-activities.png)
 
 数据集中最近一次成功的批处理将显示在右侧。 数据集架构的分层视图将显示在左窗格中。
 

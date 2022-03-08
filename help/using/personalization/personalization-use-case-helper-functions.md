@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1019'
 ht-degree: 3%
 
 ---
@@ -42,23 +42,23 @@ ht-degree: 3%
 ## 步骤1:创建电子邮件{#configure-email}
 
 1. 创建或修改电子邮件，然后单击 **[!UICONTROL Email Designer]**.
-   ![](assets/personalization-uc-helpers-1.png)
+   ![](../assets/personalization-uc-helpers-1.png)
 
 1. 从Email Designer主页的左侧面板，将三个结构组件拖放到消息正文中。
 
 1. 将HTML内容组件拖放到每个新结构组件上。
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![](../assets/personalization-uc-helpers-2.png)
 
 ## 步骤2:在大写字母中插入客户的名字 {#uppercase-function}
 
 1. 在Email Designer主页上，单击要在其中添加HTML名字的客户组件。
 1. 在上下文工具栏上，单击 **[!UICONTROL Show the source code]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `upperCase` 字符串函数：
-   1. 在左侧菜单中，选择 **[!UICONTROL Helper functions]**.
+   1. 在列表中，选择 **[!UICONTROL Helper functions]**.
    1. 使用搜索字段查找“大写”。
    1. 在搜索结果中，添加 `upperCase` 函数。 要执行此操作，请单击旁边的加号(+) `{%= upperCase(string) %}: string`.
 
@@ -68,12 +68,12 @@ ht-degree: 3%
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      ![](../assets/personalization-uc-helpers-4.png)
 
 1. 从表达式中删除“字符串”占位符。
 1. 添加名字令牌：
-   1. 在左侧菜单中，选择 **[!UICONTROL Profile attributes]**.
-   1. 选择 **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. 在列表中，选择 **[!UICONTROL Profile]**.
+   1. 选择 **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. 添加 **[!UICONTROL First name]** 表达式的令牌。
 
       表达式编辑器显示此表达式：
@@ -82,13 +82,13 @@ ht-degree: 3%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![](../assets/personalization-uc-helpers-5.png)
 
-      在中了解有关人员姓名数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
+      了解有关人员姓名数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}。
 
 1. 单击 **[!UICONTROL Validate]**，然后单击 **[!UICONTROL Save]**。
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![](../assets/personalization-uc-helpers-6.png)
 1. 保存消息。
 
 ## 步骤3:创建初始事件和相关历程 {#create-context}
@@ -106,27 +106,27 @@ ht-degree: 3%
 
    由于您尚未发布消息，因此既不能测试也不能发布历程。
 
-   ![](assets/personalization-uc-helpers-7.png)
+   ![](../assets/personalization-uc-helpers-7.png)
 
 1. 单击 **[!UICONTROL OK]**。
 
    消息会通知您历程上下文已传递到消息。
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![](../assets/personalization-uc-helpers-8.png)
 
 ## 步骤4:插入购物车中的项目列表 {#each-helper}
 
 1. 重新打开消息。
 
-   ![](assets/personalization-uc-helpers-18.png)
+   ![](../assets/personalization-uc-helpers-18.png)
 
 1. 在Email Designer主页上，单击要在其中列出购物车内容的HTML组件。
 1. 在上下文工具栏上，单击 **[!UICONTROL Show the source code]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `each` 助手：
-   1. 在左侧菜单中，选择 **[!UICONTROL Helper functions]**.
+   1. 在列表中，选择 **[!UICONTROL Helper functions]**.
    1. 使用搜索字段查找“每个”。
    1. 在搜索结果中，添加 `each` 帮手。
 
@@ -136,14 +136,14 @@ ht-degree: 3%
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      ![](../assets/personalization-uc-helpers-9.png)
 
 1. 添加 `productListItems` 数组到表达式：
 
    1. 从表达式中删除“someArray”占位符。
-   1. 在左侧菜单中，选择 **[!UICONTROL Contextual attributes]**.
+   1. 在列表中，选择 **[!UICONTROL Context]**.
 
-      **[!UICONTROL Contextual attributes]** 仅在历程上下文传递到消息后才可用。
+      的 **[!UICONTROL Context]** 选项仅在历程上下文传递到消息后才可用。
 
    1. 选择 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开 **[!UICONTROL productListItems]** 节点。
 
@@ -158,7 +158,7 @@ ht-degree: 3%
       ```
       在本例中， *event_ID* 表示事件的ID。
 
-      ![](assets/personalization-uc-helpers-10.png)
+      ![](../assets/personalization-uc-helpers-10.png)
 
    1. 修改表达式：
       1. 删除“.product”字符串。
@@ -208,17 +208,17 @@ ht-degree: 3%
    {{/each}}
    ```
 1. 单击 **[!UICONTROL Validate]**，然后单击 **[!UICONTROL Save]**。
-   ![](assets/personalization-uc-helpers-11.png)
+   ![](../assets/personalization-uc-helpers-11.png)
 
 ## 步骤5:插入产品特定的注释 {#if-helper}
 
 1. 在Email Designer主页上，单击要在其中插入注释的HTML组件。
 1. 在上下文工具栏上，单击 **[!UICONTROL Show the source code]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![](../assets/personalization-uc-helpers-3.png)
 
 1. 在 **[!UICONTROL Edit HTML]** 窗口，添加 `if` 助手：
-   1. 在左侧菜单中，选择 **[!UICONTROL Helper functions]**.
+   1. 在列表中，选择 **[!UICONTROL Helper functions]**.
    1. 使用搜索字段查找“if”。
    1. 在搜索结果中，添加 `if` 帮手。
 
@@ -230,7 +230,7 @@ ht-degree: 3%
          {%else%} default_render
       {%/if%}
       ```
-      ![](assets/personalization-uc-helpers-12.png)
+      ![](../assets/personalization-uc-helpers-12.png)
 
 1. 从表达式中删除此条件：
 
@@ -248,7 +248,7 @@ ht-degree: 3%
 
 1. 将产品名称令牌添加到条件中：
    1. 从表达式中删除“condition1”占位符。
-   1. 在左侧菜单中，选择 **[!UICONTROL Contextual attributes]**.
+   1. 在列表中，选择 **[!UICONTROL Context]**.
    1. 选择 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开 **[!UICONTROL productListItems]** 节点。
 
       在本例中， *event_name* 表示事件的名称。
@@ -263,7 +263,7 @@ ht-degree: 3%
          {%else%} default_render
       {%/if%}
       ```
-      ![](assets/personalization-uc-helpers-13.png)
+      ![](../assets/personalization-uc-helpers-13.png)
 
 1. 修改表达式：
    1. 在表达式编辑器中，在 `name` 令牌。
@@ -296,7 +296,7 @@ ht-degree: 3%
    1. 从表达式中删除“default_render”占位符。
 1. 单击 **[!UICONTROL Validate]**，然后单击 **[!UICONTROL Save]**。
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![](../assets/personalization-uc-helpers-14.png)
 
 1. 保存并发布消息。
 
@@ -307,19 +307,19 @@ ht-degree: 3%
 
    只有在发布消息后，才能打开测试模式。
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![](../assets/personalization-uc-helpers-15.png)
 
 1. 在 **[!UICONTROL Event configuration]** 窗口，输入输入值，然后单击 **[!UICONTROL Send]**.
 
    测试模式仅适用于测试用户档案。
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![](../assets/personalization-uc-helpers-16.png)
 
    电子邮件会发送到测试用户档案的地址。
 
    在此示例中，电子邮件包含有关Juno Jacket的注释，因为此产品在购物车中：
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![](../assets/personalization-uc-helpers-17.png)
 
 1. 确认没有错误，然后发布历程。
 

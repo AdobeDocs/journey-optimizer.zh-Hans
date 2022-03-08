@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 5ae67db97ef7a2562e5c9179658400a4dceff72d
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 8%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 8%
 | dateTime | 以UTC日期格式转换日期 |
 | dateTimeOnly | 以UTC日期格式转换日期 |
 | 持续时间 | 转换为字符串形式的相应毫秒数 |
+| 时区 | 转换为时区id字符串表示(JODA id) |
 | 整数 | 转换为值的字符串表示形式（1变为“1”） |
 | 小数 | 转换为值的字符串表示形式（1.5变为“1.5”） |
 | 布尔 | 如果为true，则将布尔值转换为“true”；如果为false，则将布尔值转换为“false” |
@@ -43,6 +44,8 @@ ht-degree: 8%
 `toString(<dateTime>)`
 
 `toString(<duration>)`
+
+`toString(<timeZone>)`
 
 `toString(<boolean>)`
 

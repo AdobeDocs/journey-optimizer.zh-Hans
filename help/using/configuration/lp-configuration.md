@@ -1,0 +1,181 @@
+---
+title: 登陆页面配置
+description: 了解如何配置环境以通过Journey Optimizer创建和使用登陆页面
+role: Admin
+level: Intermediate
+source-git-commit: 5f12e39ce182ce9d8a3338bcb53001668c7d6d03
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 2%
+
+---
+
+# 配置登陆页面 {#lp-configuration}
+
+## 配置登陆页面子域 {#lp-subdomains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_configure_subdomain"
+>title="设置登陆页面子域"
+>abstract="要选择子域，请确保您之前至少配置了一个登陆页面子域。"
+
+能够 [创建登陆页面预设](#lp-create-preset)，则需要设置要用于登陆页面的子域。
+
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到的更多信息，请Adobe [此部分](delegate-subdomain.md).
+
+### 使用现有子域 {#lp-use-existing-subdomain}
+
+要使用已委派给Adobe的子域，请执行以下步骤。
+
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单，然后选择 **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+
+   ![](assets/lp_access-subdomains.png)
+
+1. 单击 **[!UICONTROL Set up subdomain]**。
+
+   ![](assets/lp_set-up-subdomain.png)
+
+1. 选择 **[!UICONTROL Use delegated domain]** 从 **[!UICONTROL Configuration type]** 中。
+
+   ![](assets/lp_use-delegated-subdomain.png)
+
+1. 输入将在登陆页面URL中显示的前缀。
+
+   >[!NOTE]
+   >
+   >只允许使用字母数字字符和连字符。
+
+1. 从列表中选择委派的子域。
+
+   >[!NOTE]
+   >
+   >您无法选择已用作登陆页面子域的子域。
+
+   ![](assets/lp_prefix-and-subdomain.png)
+
+   >[!CAUTION]
+   >
+   >如果您选择的域是使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，则必须在托管平台上创建DNS记录。 要生成DNS记录，该过程与配置新登陆页面子域时的过程相同。 了解 [此部分](#lp-configure-new-subdomain).
+
+1. 单击 **[!UICONTROL Submit]**。
+
+1. 提交后，子域将显示在列表中，其中 **[!UICONTROL Processing]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).<!--Same statuses?-->
+
+   ![](assets/lp_subdomain-processing.png)
+
+   >[!NOTE]
+   >
+   >在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为4小时。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+
+1. 检查成功后，子域将获取 **[!UICONTROL Success]** 状态。 它已准备好用于创建登陆页面预设。
+
+### 配置新子域 {#lp-configure-new-subdomain}
+
+要配置新子域，请执行以下步骤。
+
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单，然后选择 **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+
+1. 单击 **[!UICONTROL Set up subdomain]**。
+
+1. 选择 **[!UICONTROL Add your own domain]** 从 **[!UICONTROL Configuration type]** 中。
+
+   ![](assets/lp_add-your-own-subdomain.png)
+
+1. 指定要委派的子域。
+
+   >[!CAUTION]
+   >
+   >您无法使用现有登陆页面子域。
+
+   不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
+
+   当前不支持多级子域，如“email.marketing.yourcompany.com”。
+
+1. 将显示要置入DNS服务器的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
+
+1. 确保已在您的域托管解决方案中生成DNS记录。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL Submit]**.
+
+   ![](assets/lp_add-your-own-subdomain-confirm.png)
+
+   >[!NOTE]
+   >
+   >当您配置新的登陆页面子域时，它将始终指向CNAME记录。
+
+1. 提交子域委派后，子域将显示在列表中，其中 **[!UICONTROL Processing]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).<!--Same statuses?-->
+
+   >[!NOTE]
+   >
+   >在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为4小时。<!--Learn more in [this section](#subdomain-validation).-->
+
+1. 检查成功后，子域将获取 **[!UICONTROL Success]** 状态。 它已准备好用于创建登陆页面预设。
+
+   请注意，子域将标记为 **[!UICONTROL Failed]** 如果您未能在托管解决方案上创建验证记录。
+
+## 定义登陆页面预设 {#lp-define-preset}
+
+When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，您需要选择登陆页面预设，以便能够构建登陆页面并通过该页面来利用 **[!DNL Journey Optimizer]**.
+
+### 访问登陆页面预设 {#lp-presets}
+
+要访问登陆页面预设，请执行以下步骤。
+
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单。
+
+1. 选择 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+
+   ![](assets/lp_presets-access.png)
+
+1. 单击任意预设标签以访问登陆页面预设详细信息。
+
+   ![](assets/lp_preset-details.png)
+
+### 创建登陆页面预设 {#lp-create-preset}
+
+要创建登陆页面预设，请执行以下步骤。
+
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单，然后选择 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+
+1. 选择 **[!UICONTROL Create landing page preset]**。
+
+   ![](assets/lp_create-preset-temp.png)
+
+1. 输入预设的名称和描述。
+
+   >[!NOTE]
+   >
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
+
+1. 从下拉列表中选择登陆页面子域。
+
+   ![](assets/lp_preset-subdomain.png)
+
+   >[!NOTE]
+   >
+   >要选择子域，请确保您之前至少配置了一个登陆页面子域。 [了解如何](#lp-subdomains)
+
+   将显示与所选子域对应的设置。
+
+1. 如果要选择登陆页面子域作为跟踪URL，请检查 **[!UICONTROL Same as landing page subdomain]** 选项。 [了解有关跟踪的更多信息](../messages/message-tracking.md)
+
+   ![](assets/lp_preset-subdomain-settings-same.png)
+
+   例如，如果登陆页面URL为“pages.mail.luma.com”，而跟踪URL为“data.mail.luma.com”，则可以选择“pages.mail.luma.com”作为跟踪子域。
+
+1. 单击 **[!UICONTROL Submit]** 以确认创建登陆页面预设。 您还可以将预设另存为草稿，稍后恢复其配置。
+
+   ![](assets/lp_preset-subdomain-settings-submit.png)
+
+1. 创建登陆页面预设后，该预设会显示在列表中，并且 **[!UICONTROL Active]** 状态。 它已准备好用于您的登陆页面。
+
+   ![](assets/lp-preset-active-temp.png)
+
+您现在已准备好 [创建登陆页面](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>了解如何在 [此部分](message-presets.md).
+
+**相关主题**：
+
+* [登陆页面入门](../landing-pages/get-started-lp.md)
+* [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)

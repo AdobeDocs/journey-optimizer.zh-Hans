@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 17%
@@ -23,11 +23,11 @@ ht-degree: 17%
 
 1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Data Sources]** ，单击 **[!UICONTROL Manage]**. 将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../start/user-interface.md)。
 
-   ![](assets/journey18.png)
+   ![](../assets/journey18.png)
 
 1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅](../datasource/configure-data-sources.md#define-field-groups)此页面[）。
 
-   ![](assets/journey23.png)
+   ![](../assets/journey23.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 >
 >请注意，如果字段组没有字段，则不会在表达式编辑器中显示该字段。
 
-![](assets/journey3bis.png)
+![](../assets/journey3bis.png)
 
 ## 字段组生命周期 {#field-group-lifecycle}
 

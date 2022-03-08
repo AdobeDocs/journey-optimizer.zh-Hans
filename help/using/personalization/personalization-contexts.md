@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1993dc5648bcd294ec2f8dfbbb783b81addf873f
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 15%
+source-wordcount: '218'
+ht-degree: 3%
 
 ---
 
@@ -60,10 +60,3 @@ ht-degree: 15%
 在将文本类型内容添加到选件的表示时，您还可以访问个性化编辑器。
 
 了解有关使用 [此部分](../offers/offer-library/creating-personalized-offers.md#custom-text).
-
-## 创建个性化URL{#personalize-urls}
-
-个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于用户档案属性。在Adobe Journey Optimizer中，您可以向消息内容中的URL添加个性化。 URL 个性化可应用于文本和图像，并使用用户档案数据或上下文数据。
-
-了解如何在 [此部分](personalization-syntax.md#perso-urls).
-

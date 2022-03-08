@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
@@ -31,11 +31,11 @@ Adobe Experience Platform数据源定义与实时客户资料服务的连接。 
 
    这将打开屏幕右侧的数据源配置窗格。
 
-   ![](assets/journey23.png)
+   ![](../assets/journey23.png)
 
 1. 单击 **[!UICONTROL Add a New Field Group]** 定义要检索的一系列新字段。 请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
 
-   ![](assets/journey24.png)
+   ![](../assets/journey24.png)
 
 1. 从 **[!UICONTROL Schema]** 下拉菜单。 此字段列出了Adobe Experience Platform中提供的配置文件和体验事件架构。 未在中执行架构创建 [!DNL Journey Optimizer]. 在Adobe Experience Platform演。
 1. 选择要使用的字段。

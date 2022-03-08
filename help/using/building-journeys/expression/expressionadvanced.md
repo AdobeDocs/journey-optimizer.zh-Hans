@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 88%
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 高级表达式编辑器提供一组内置函数和运算符，让您处理值并定义一个专门满足您需求的表达式。高级表达式编辑器还允许您定义外部数据源参数的值、处理映射字段和集合，如体验事件。
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 _高级表达式编辑器界面_
 
@@ -44,7 +44,7 @@ _高级表达式编辑器界面_
 
 * 在创建数据源条件时，可以通过单击 **[!UICONTROL Advanced mode]** 访问高级编辑器 。
 
-   ![](../assets/journeyuc2_33.png)
+   ![](../../assets/journeyuc2_33.png)
 
 * 创建自定义计时器时，系统将直接显示高级编辑器。
 * 映射操作参数时，单击 **[!UICONTROL Advanced mode]**。
@@ -53,7 +53,7 @@ _高级表达式编辑器界面_
 
 此屏幕允许您手动编写表达式。
 
-![](../assets/journey70.png)
+![](../../assets/journey70.png)
 
 屏幕左侧显示了可用字段和函数：
 
@@ -63,20 +63,20 @@ _高级表达式编辑器界面_
 * **[!UICONTROL Journey properties]**:本节重组与给定用户档案的历程相关的技术字段。 [了解更多信息](journey-properties.md)
 * **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。[了解更多信息](functions.md)
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 自动完成机制会显示上下文建议。
 
-![](../assets/journey68.png)
+![](../../assets/journey68.png)
 
 语法验证机制检查代码的完整性。错误显示在编辑器顶部。
 
-![](../assets/journey69.png)
+![](../../assets/journey69.png)
 
 **使用高级表达式编辑器构建条件时需要参数**
 
 如果您从外部数据源选择字段，则需要调用参数（请参阅[此页面](../../datasource/external-data-sources.md)）。例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
 
-![](../assets/journeyuc2_19.png)
+![](../../assets/journeyuc2_19.png)
 
 对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用“params”关键字定义其值。请参阅[此页](../expression/field-references.md)。

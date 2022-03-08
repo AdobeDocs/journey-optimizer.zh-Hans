@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 85%
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 做出决策时发送的每个事件都包含四项关键数据点，您可以利用这些数据点进行分析和报告。
 
-![](../assets/events-dataset-preview.png)
+![](../../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**：后备优惠的名称和 ID（如果未选择个性化优惠），
 * **[!UICONTROL Placement]**：用于投放优惠的投放位置的名称、ID 和渠道，

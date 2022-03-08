@@ -5,10 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -25,11 +23,11 @@ ht-degree: 0%
 
 要访问您的报表，请选择 **实时** 或 **[!UICONTROL Global report]** 的下一页。
 
-![](assets/subscription_report_6.png)
+![](../assets/subscription_report_6.png)
 
 ## 订阅实时报告 {#subscription-live}
 
-![](assets/subscription_report_3.png)
+![](../assets/subscription_report_3.png)
 
 的 **[!UICONTROL Subscription performance]** KPI和 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格详细介绍了与访客对您登陆页面的参与度相关的主要信息。 表和KPI包含与登陆页面相关的可用数据，例如：
 
@@ -39,13 +37,13 @@ ht-degree: 0%
 
 的 **[!UICONTROL Subscription performance]** 图表显示了过去24小时内订阅的演变。
 
-![](assets/subscription_report_4.png)
+![](../assets/subscription_report_4.png)
 
 的 **订阅 — 划分** 和 **取消订阅 — 划分** 图表表示过去24小时内订阅或取消订阅的总人数，具体取决于消息、登陆页面和渠道。
 
 ## 订阅全局报告 {#subscription-global}
 
-![](assets/subscription_report_1.png)
+![](../assets/subscription_report_1.png)
 
 的 **[!UICONTROL Subscription performance]** KPI和 **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** 表格详细列出了与访客对登陆页面的参与度相关的主要信息。 表和KPI包含与登陆页面相关的可用数据，例如：
 
@@ -55,6 +53,6 @@ ht-degree: 0%
 
 的 **[!UICONTROL Subscription performance]** 图表显示了相关期间订阅的演变。
 
-![](assets/subscription_report_2.png)
+![](../assets/subscription_report_2.png)
 
 的 **订阅 — 划分** 和 **取消订阅 — 划分** 根据消息、登陆页面和渠道，表示在选定时间段内订阅或取消订阅的总人数。
