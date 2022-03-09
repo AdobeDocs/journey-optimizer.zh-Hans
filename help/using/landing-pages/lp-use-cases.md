@@ -5,13 +5,11 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 20%
+source-wordcount: '900'
+ht-degree: 19%
 
 ---
 
@@ -19,18 +17,13 @@ ht-degree: 20%
 
 以下是一些说明如何使用的示例 [!DNL Journey Optimizer] 登陆页面，让您的客户选择启用/禁用接收部分或全部通信。
 
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
-
 ## 订购服务 {#subscription-to-a-service}
 
-One of the most common use cases consists in inviting your customers to [subscribe to a service](subscription-list.md) (such as a newsletter or an event) through a landing page. The main steps are presented on the graph below:
+最常见的用例之一是邀请客户 [订购服务](subscription-list.md) （例如新闻稿或事件）。 下图介绍了主要步骤：
 
 ![](assets/lp_subscription-uc.png)
 
-For example, let&#39;s say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含指向登陆页面的链接，以便您的收件人注册参加此活动。 The users who register will be added to the subscription list that you created for this purpose.
+例如，假设您下月组织了一个事件，并且想要启动一个事件注册营销活动<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含指向登陆页面的链接，以便您的收件人注册参加此活动。 注册的用户将添加到您为此创建的订阅列表中。
 
 ### 设置登陆页面 {#set-up-lp}
 
@@ -39,6 +32,8 @@ For example, let&#39;s say you organize an event next month and you want to laun
    ![](assets/lp_subscription-uc-list.png)
 
 1. [创建登陆页面](create-lp.md) ，以便收件人注册您的活动。
+
+   ![](assets/lp_create-lp-details.png)
 
 1. 配置注册 [主登陆页面](create-lp.md#configure-primary-page).
 
@@ -54,9 +49,13 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
 1. [创建电子邮件](../messages/create-message.md) 以宣布注册现已对您的活动开放。
 
-1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
+1. [插入链接](../messages/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >要发布消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
 
 1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
 
@@ -64,9 +63,9 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
    ![](assets/lp_subscription-uc-journey.png)
 
-   Once they receive the email, if your recipients click the link to the landing page, they will be directed to the &#39;thank you&#39; page and they will be added to the subscription list.
+   收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“谢谢”页面，并被添加到订阅列表。
 
-### Send a confirmation email {#send-confirmation-email}
+### 发送确认电子邮件 {#send-confirmation-email}
 
 此外，您还可以向为您的活动注册的收件人发送电子邮件确认。 为此，请执行以下步骤。
 
@@ -107,15 +106,15 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
 要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤。
 
-1. Create your landing page. [了解详情](create-lp.md)
+1. 创建登陆页面。 [了解详情](create-lp.md)
 
-1. Define the primary page. [了解详情](create-lp.md#configure-primary-page)
+1. 定义主页面。 [了解详情](create-lp.md#configure-primary-page)
 
 1. [设计](design-lp.md) 主页面内容：使用特定于登陆页面的 **[!UICONTROL Form]** 组件，定义 **[!UICONTROL Opt-out]** 复选框并选择更新 **[!UICONTROL Channel (email)]**:所有通信中将禁用您登陆页面上选择退出框的用户档案。
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. 添加确认 [子页面](create-lp.md#configure-subpages) 将向提交表单的用户显示。
 
@@ -123,7 +122,7 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
    >[!NOTE]
    >
-   >Make sure you reference the subpage in the primary page&#39;s **[!UICONTROL Call to action]** section of the **[!UICONTROL Form]** component. [了解详情](design-lp.md)
+   >确保在主页面的 **[!UICONTROL Call to action]** 部分 **[!UICONTROL Form]** 组件。 [了解详情](design-lp.md)
 
 1. 配置并定义页面内容后， [发布](create-lp.md#publish) 登陆页面。
 
@@ -139,9 +138,13 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
    ![](assets/lp_opt-out-landing-page.png)
 
+   >[!NOTE]
+   >
+   >要发布消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
+
 1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
 
-1. Send your message through a journey. [了解详情](../building-journeys/journey.md)。
+1. 通过历程发送您的消息。 [了解详情](../building-journeys/journey.md)。
 
 1. 收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
 

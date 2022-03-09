@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
 # 创建和发布登陆页面 {#create-lp}
-
->[!CAUTION]
->
->登陆页面目前仅供选定用户抢先使用。 如果要利用此功能，请联系您的Adobe客户经理。
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -30,6 +24,22 @@ ht-degree: 3%
 的 **[!UICONTROL Landing Pages]** 列表会显示所有已创建的项目。 您可以根据用户的状态或修改日期进行筛选。
 
 ![](assets/lp_access-list-filter.png)
+
+在此列表中，您可以访问 [登陆页面报告](lp-report.md) ，以查看已发布的项目。
+
+您还可以删除、复制和取消发布登陆页面。
+
+>[!CAUTION]
+>
+>如果取消发布在未发布消息中引用的登陆页面，则在再次发布登陆页面之前，无法发布该消息。 如果消息已发布，则指向登陆页面的链接将被损坏，并显示错误页面。
+
+单击登陆页面旁边的三个圆点，以选择所需的操作。
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>您无法删除已发布的登陆页面。 要删除它，必须先取消发布它。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -43,13 +53,9 @@ ht-degree: 3%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 选择预设。
+1. 选择预设。 了解如何在 [此部分](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >要定义登陆页面预设，请联系您的Adobe客户代表或 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
 1. 单击 **[!UICONTROL Create]**。
 
@@ -75,7 +81,7 @@ ht-degree: 3%
 
    ![](assets/lp_open-designer.png)
 
-1. 定义登陆页面URL。 URL的第一部分要求执行域委派。 已预填充，无法通过用户界面进行编辑。 要进行设置，请联系您的Adobe客户代表或 [Adobe客户关怀支持团队](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ ht-degree: 3%
 
 1. 使用内容设计器编辑页面内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
-1. 定义登陆页面URL。 URL的第一部分要求执行域委派。 已预填充，无法通过用户界面进行编辑。 要进行设置，请联系您的Adobe客户代表或 [Adobe客户关怀支持团队](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定义登陆页面URL。 URL的第一部分要求执行域委派。 已预填充，无法通过用户界面进行编辑。 要进行设置，请联系您的Adobe客户代表或 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
 
    >[!CAUTION]
    >

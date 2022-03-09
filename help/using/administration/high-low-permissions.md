@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -417,13 +417,16 @@ ht-degree: 0%
    * profiles.read
    * datasets.read
 
-## Journey Optimizer库功能{library-permissions}
+### [!DNL Manage landing page settings] 许可 {#manage-landing-page-settings}
 
-### 管理库项目 {#library-items}
-
-的 **[!DNL Manage Library Items]** 高级权限允许用户在 [!DNL Journey Optimizer] 库。
+的 **[!DNL Manage landing page settings]** 高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
 它包括以下低级权限：
 
-* library_item.create
-* ibrary_item.delete
+* Journey Optimizer特定：
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete
