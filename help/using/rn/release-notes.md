@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
 workflow-type: tm+mt
-source-wordcount: '2643'
-ht-degree: 99%
+source-wordcount: '2697'
+ht-degree: 97%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 99%
 
 ### 新功能
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
+<th><strong>订阅登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+<p>您现在可以在Journey Optimizer中创建和设计登陆页面，并将用户定向到在线表单，在该表单中，用户可以选择加入或选择退出接收您的通信，或订阅特定服务（如新闻稿）。</p>
+<p>有关更多信息，请参阅<a href="../landing-pages/create-lp.md">详细文档</a>和相关的<a href="../landing-pages/lp-use-cases.md">示例用例</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
