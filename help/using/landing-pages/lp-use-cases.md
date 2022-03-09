@@ -26,11 +26,11 @@ ht-degree: 20%
 
 ## 订购服务 {#subscription-to-a-service}
 
-最常见的用例之一是邀请客户 [订购服务](subscription-list.md) （例如新闻稿或事件）。 下图介绍了主要步骤：
+One of the most common use cases consists in inviting your customers to [subscribe to a service](subscription-list.md) (such as a newsletter or an event) through a landing page. The main steps are presented on the graph below:
 
 ![](assets/lp_subscription-uc.png)
 
-例如，假设您下月组织了一个事件，并且想要启动一个事件注册营销活动<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含指向登陆页面的链接，以便您的收件人注册参加此活动。 注册的用户将添加到您为此创建的订阅列表中。
+For example, let&#39;s say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. 为此，您将发送一封电子邮件，其中包含指向登陆页面的链接，以便您的收件人注册参加此活动。 The users who register will be added to the subscription list that you created for this purpose.
 
 ### 设置登陆页面 {#set-up-lp}
 
@@ -54,7 +54,7 @@ ht-degree: 20%
 
 1. [创建电子邮件](../messages/create-message.md) 以宣布注册现已对您的活动开放。
 
-1. [插入链接](../messages/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
+1. [Insert a link](../messages/message-tracking.md#insert-links) into your message content. 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -64,9 +64,9 @@ ht-degree: 20%
 
    ![](assets/lp_subscription-uc-journey.png)
 
-   收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“谢谢”页面，并被添加到订阅列表。
+   Once they receive the email, if your recipients click the link to the landing page, they will be directed to the &#39;thank you&#39; page and they will be added to the subscription list.
 
-### 发送确认电子邮件 {#send-confirmation-email}
+### Send a confirmation email {#send-confirmation-email}
 
 此外，您还可以向为您的活动注册的收件人发送电子邮件确认。 为此，请执行以下步骤。
 
@@ -107,9 +107,9 @@ ht-degree: 20%
 
 要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤。
 
-1. 创建登陆页面。 [了解详情](create-lp.md)
+1. Create your landing page. [了解详情](create-lp.md)
 
-1. 定义主页面。 [了解详情](create-lp.md#configure-primary-page)
+1. Define the primary page. [了解详情](create-lp.md#configure-primary-page)
 
 1. [设计](design-lp.md) 主页面内容：使用特定于登陆页面的 **[!UICONTROL Form]** 组件，定义 **[!UICONTROL Opt-out]** 复选框并选择更新 **[!UICONTROL Channel (email)]**:所有通信中将禁用您登陆页面上选择退出框的用户档案。
 
@@ -123,7 +123,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >确保在主页面的 **[!UICONTROL Call to action]** 部分 **[!UICONTROL Form]** 组件。 [了解详情](design-lp.md)
+   >Make sure you reference the subpage in the primary page&#39;s **[!UICONTROL Call to action]** section of the **[!UICONTROL Form]** component. [了解详情](design-lp.md)
 
 1. 配置并定义页面内容后， [发布](create-lp.md#publish) 登陆页面。
 
@@ -141,7 +141,7 @@ ht-degree: 20%
 
 1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
 
-1. 通过历程发送您的消息。 [了解详情](../building-journeys/journey.md)。
+1. Send your message through a journey. [了解详情](../building-journeys/journey.md)。
 
 1. 收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
 

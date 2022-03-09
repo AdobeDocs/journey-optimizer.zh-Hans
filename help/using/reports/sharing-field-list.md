@@ -15,41 +15,41 @@ ht-degree: 16%
 
 # 步骤事件字段列表 {#sharing-field-list}
 
-Step event fields are organized by category.
+步骤事件字段按类别进行组织。
 
-* Debug information fields
+* 调试信息字段
 * 历程字段
 * 用户档案字段
-* Service event fields
+* 服务事件字段
 
 ## debugInfo {#debuginfo-field}
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
-| requestId | 字符串 | The request Id used by Journey Orchestration to track the flow of a request. |
+| requestId | 字符串 | Journey Orchestration用于跟踪请求流的请求ID。 |
 
-## journey {#journey-field}
+## 历程 {#journey-field}
 
-This field group is used in the journey schema (in relation with journeyStepEvent). It contains the following fields:
+此字段组用在历程架构中（与journeyStepEvent相关）。 它包含以下字段：
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
-| ID | 字符串 | Identifier for the given Journey |
-| 版本ID | 字符串 | 历程版本的ID。 This id represents the identity of a journey |
+| ID | 字符串 | 给定历程的标识符 |
+| 版本ID | 字符串 | 历程版本的ID。 此id表示历程的标识 |
 | name | 字符串 | 历程的名称 |
-| description | 字符串 | Description of the journey |
-| 版本 | 字符串 | version, represented as `major`.`minor` |
+| 描述 | 字符串 | 历程描述 |
+| 版本 | 字符串 | 版本，表示为 `major`.`minor` |
 
-## profile {#profile-field}
+## 个人资料 {#profile-field}
 
-This field group is specific to journeyStepEvent: this event is in relation with journey, and doesn’t have the identityMap, describing the profile identity, if any.
+此字段组特定于journeyStepEvent:此事件与历程相关，并且没有identityMap，用于描述用户档案身份（如果有）。
 
-For journeyStepEvent, we need also to add fields related to the identity:
+对于journeyStepEvent，我们还需要添加与标识相关的字段：
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
-| ID | 字符串 | Profile identifier identifies the profile sent/used in a journey. 例如：foo@adobe.com。 |
-| namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 E.g: Email, ECID |
+| ID | 字符串 | 用户档案标识符用于标识在历程中发送/使用的用户档案。 例如：foo@adobe.com。 |
+| namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
 
 ## serviceEvents {#servicevents-field}
 
@@ -57,10 +57,10 @@ For journeyStepEvent, we need also to add fields related to the identity:
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
-| ID | 字符串 | The identifier of the segment export job triggered |
+| ID | 字符串 | 触发的区段导出作业的标识符 |
 | 状态 | 字符串 | 区段导出作业的状态：已排队，已启动，已完成 |
 | exportCountTotal | 整数 | 区段导出作业的最大可能值 |
-| exportCountReatived | 整数 | The actual number of segments exported through the job |
+| exportCountReatived | 整数 | 通过作业导出的区段的实际数量 |
 | exportCountFailed | 整数 | 通过作业导出时，区段数失败 |
 | exportSegmentID | 字符串 | 要导出的区段的标识符 |
 | eventType | 字符串 | 事件类型，用于指示它是否为信息事件的错误事件：信息，错误 |
@@ -68,4 +68,4 @@ For journeyStepEvent, we need also to add fields related to the identity:
 
 ## stepEvents {#stepevents-field}
 
-This category contains the original step event fields. 请参阅 [部分](../reports/sharing-legacy-fields.md).
+此类别包含原始步骤事件字段。 请参阅 [部分](../reports/sharing-legacy-fields.md).

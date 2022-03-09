@@ -27,18 +27,18 @@ ht-degree: 12%
 
 ## 重要说明 {#important-notes}
 
-* Only time series schemas are available. 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含主标识。 The following fields must be set as required: `_id` and `timestamp`
+* 只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含主标识。 以下字段必须设置为必填字段： `_id` 和 `timestamp`
 * 只能将业务事件作为历程的第一步进行删除。
-* When dropping a business event as the first step of a journey, the scheduler type of the journey will be &quot;business event&quot;.
+* 将业务事件作为历程的第一步删除时，历程的计划程序类型将为“业务事件”。
 * 在业务事件后，只能删除读取区段活动。 它将自动添加为下一步。
 * 要允许执行多个业务事件，请在 **[!UICONTROL Execution]** 历程属性的部分。
 * 触发业务事件后，将区段从15分钟导出到最多1小时会出现延迟。
-* 测试业务事件时，必须传递事件参数以及将进入测试旅程的测试用户档案的标识符。 Also, when testing a business event based journey, you can only trigger single profile entrance. 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有可用的“代码视图”模式。
-* 如果新的业务事件到来，当前处于历程中的个人会发生什么情况？ It behaves the same way as when individuals are still in a recurring journey when a new recurrence happens. 他们的路结束了。 因此，如果营销人员预计会发生频繁的业务事件，则必须注意避免构建过长的历程。
+* 测试业务事件时，必须传递事件参数以及将进入测试旅程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有可用的“代码视图”模式。
+* 如果新的业务事件到来，当前处于历程中的个人会发生什么情况？ 其行为与当新的重复发生时个人仍处于循环历程中的情况相同。 他们的路结束了。 因此，如果营销人员预计会发生频繁的业务事件，则必须注意避免构建过长的历程。
 
 ## 多个业务事件 {#multiple-business-events}
 
-Here are a few important notes that apply when multiple business events are received in a row.
+以下是在连续收到多个业务事件时应用的一些重要说明。
 
 **在历程处理期间接收业务事件时的行为是什么？**
 
@@ -48,11 +48,11 @@ Here are a few important notes that apply when multiple business events are rece
 
 对于即时业务事件，对于给定历程，由第一个事件作业推送的数据将在1小时的时间范围内重复使用。 对于计划历程，没有护栏。 了解有关 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Get started with business events {#gs-business-events}
+## 业务事件入门 {#gs-business-events}
 
-Here are the first steps to configure a business event:
+以下是配置业务事件的首要步骤：
 
-1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. In the  **[!UICONTROL Events]** section, click **[!UICONTROL Manage]**. 将显示事件列表。
+1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Events]** ，单击 **[!UICONTROL Manage]**. 将显示事件列表。
 
    ![](assets/jo-event1.png)
 
@@ -60,7 +60,7 @@ Here are the first steps to configure a business event:
 
    ![](assets/jo-event2.png)
 
-1. Enter the name of your event. You can also add a description.
+1. 输入事件的名称。 您还可以添加描述。
 
    ![](assets/jo-event3-business.png)
 
@@ -78,14 +78,14 @@ Here are the first steps to configure a business event:
 
    ![](assets/jo-event5-business.png)
 
-   只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 The event schema must contain a primary identity. 以下字段必须设置为必填字段： `_id` 和 `timestamp`
+   只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含主标识。 以下字段必须设置为必填字段： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
 1. 在 **[!UICONTROL Event ID condition]** 字段。 使用简单表达式编辑器，定义系统将使用的条件以识别将触发历程的事件。
    ![](assets/jo-event6-business.png)
 
-   In our example, we wrote a condition based on the product&#39;s id. 这意味着，每当系统收到与此条件匹配的事件时，都会将其传递到历程。
+   在本例中，我们根据产品的ID编写了一个条件。 这意味着，每当系统收到与此条件匹配的事件时，都会将其传递到历程。
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ Here are the first steps to configure a business event:
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 For more information on XDM, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+有效负载定义允许您选择系统希望从历程中的事件接收的信息，以及用于标识与事件关联的人员的键。 负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
 
 1. 从列表中选择XDM架构，然后单击 **[!UICONTROL Fields]** 字段或 **[!UICONTROL Edit]** 图标。
 
@@ -113,7 +113,7 @@ Here are the first steps to configure a business event:
    >
    > 确保选择以下字段： `_id` 和 `timestamp`
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey.
+1. 选择要从事件接收的字段。 业务用户将在历程中利用这些字段。
 
 1. 选择完所需字段后，单击 **[!UICONTROL Save]** 或按 **[!UICONTROL Enter]**.
 
@@ -129,10 +129,10 @@ Here are the first steps to configure a business event:
 
    ![](assets/journey13-business.png)
 
-   You can notice that the fields selected are displayed.
+   您可以注意到已显示选定的字段。
 
    ![](assets/journey14-business.png)
 
-1. Check the preview to validate the payload definition.
+1. 检查预览以验证有效负载定义。
 
 1. 然后，您可以将有效负载预览共享给负责事件发送的人员。 此有效负载可帮助他们设计推送到的事件的设置 [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。

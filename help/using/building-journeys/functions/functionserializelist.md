@@ -41,7 +41,7 @@ ht-degree: 22%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## Signature and returned type
+## 签名和返回的类型
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 

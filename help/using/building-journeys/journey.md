@@ -17,7 +17,7 @@ ht-degree: 5%
 
 [!DNL Journey Optimizer] 允许您利用存储在事件或数据源中的情境数据构建实时编排用例。
 
-设计由以下功能提供支持的多步高级方案：
+Design multistep advanced scenarios powered by following capabilities:
 
 * 实时发送 **单一报文** 在收到事件时触发，或 **批量** 使用Adobe Experience Platform区段。
 
@@ -25,4 +25,4 @@ ht-degree: 5%
 
 * 使用 **内置操作** 发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
 
-* 使用 **历程设计器**，构建多步用例：轻松拖放登入事件或读取区段活动、添加条件和发送个性化消息。
+* With the **journey designer**, build your multistep use cases: easily drag and drop an entry event or a read segment activity, add conditions and send personalized messages.

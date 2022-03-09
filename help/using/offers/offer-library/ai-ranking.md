@@ -6,7 +6,8 @@ description: 了解允许对优惠进行排名的AI模型
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -116,4 +117,3 @@ ht-degree: 0%
 例如，如果我们有兴趣测量在排名服务中使用的汤普森采样(TS)策略的性能，并且KPI是转化率(CVR)，则TS策略与基线策略的“提升度”定义为：
 
 ![](../assets/ai-ranking-lift.png)
-

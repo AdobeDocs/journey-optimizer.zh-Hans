@@ -19,7 +19,7 @@ ht-degree: 10%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
+The following table shows the valid values which comprise the *Content-Type* and *Accept* fields in the request header:
 
 | 标题名称 | 值 |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | The endpoint path for repository APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 决策规则所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
@@ -72,7 +72,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建决策规则的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的决策规则。 您可以使用您的唯一决策规则 `@id` 在稍后的教程中创建个性化优惠。
+成功的响应会返回有关新创建决策规则的信息，包括其唯一实例ID和位置 `@id`. You can use the instance ID in later steps to update or delete your decision rule. 您可以使用您的唯一决策规则 `@id` 在稍后的教程中创建个性化优惠。
 
 ```json
 {
