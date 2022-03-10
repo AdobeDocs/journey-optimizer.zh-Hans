@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 可能的状态如下：
 
-* **[!UICONTROL Not started]**:您定义的开始日期晚于当天。 被订阅用户档案将不会接收与此订阅列表相关的通信。
+* **[!UICONTROL Not started]**:您定义的开始日期晚于当天。 订阅的用户档案将不会接收与此订阅列表相关的通信。
 * **[!UICONTROL Live]**:当天由订阅列表开始日期和结束日期之间组成，或者您未定义结束/开始日期，这意味着订阅列表始终处于活动状态。
 * **[!UICONTROL Expired]**:结束日期已过，因此订阅列表不再有效。 任何订阅的用户档案将不会再收到与此订阅列表相关的任何通信。
 

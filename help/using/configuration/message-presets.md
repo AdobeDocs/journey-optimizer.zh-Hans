@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 1%
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 要确定用户点击您链接的位置和原因，您可以在  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 中。
 
-根据您定义的参数，UTM代码将应用于消息内容中包含的URL的末尾。 然后，您便能够在Web分析工具(如Adobe Analytics)中比较结果。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+根据您定义的参数，UTM代码将应用于消息内容中包含的URL的末尾。 然后，您便能够在Web分析工具中比较结果，如Google Analytics。 <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
 ![](assets/preset-url-tracking.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
    >
    >的 **[!UICONTROL Form]** 组件在同一页面上只能使用一次。
 
-1. 选择模式。的 **[!UICONTROL Form content]** 选项卡，用于编辑表单的不同字段。
+1. 选择模式。的 **[!UICONTROL Form content]** 选项卡，以编辑表单的不同字段。
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 展开 **[!UICONTROL Buttons]** 部分修改组件表单中按钮的外观。 例如，您可以添加边框、在悬停时编辑标签颜色或调整按钮的对齐方式。
+1. 展开 **[!UICONTROL Buttons]** 部分修改组件表单中按钮的外观。 例如，您可以添加边框、在悬停鼠标时编辑标签颜色或调整按钮的对齐方式。
 
    ![](assets/lp_designer-form-style-buttons.png)
 

@@ -3,9 +3,10 @@ title: 登陆页面配置
 description: 了解如何配置环境以通过Journey Optimizer创建和使用登陆页面
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 >title="设置登陆页面子域"
 >abstract="要选择子域，请确保您之前至少配置了一个登陆页面子域。"
 
-能够 [创建登陆页面预设](#lp-create-preset)，则需要设置要用于登陆页面的子域。
+能够 [创建登陆页面预设](#lp-create-preset)，则必须设置要用于登陆页面的子域。
 
 您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到的更多信息，请Adobe [此部分](delegate-subdomain.md).
 
@@ -65,7 +66,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为4小时。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查，该检查最长可能需要4小时。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. 检查成功后，子域将获取 **[!UICONTROL Success]** 状态。 它已准备好用于创建登陆页面预设。
 
@@ -105,7 +106,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在能够使用该子域发送消息之前，您需要等待Adobe执行所需的检查，该时间最长为4小时。<!--Learn more in [this section](#subdomain-validation).-->
+   >在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查，该检查最长可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 检查成功后，子域将获取 **[!UICONTROL Success]** 状态。 它已准备好用于创建登陆页面预设。
 
@@ -113,7 +114,7 @@ ht-degree: 2%
 
 ## 定义登陆页面预设 {#lp-define-preset}
 
-When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，您需要选择登陆页面预设，以便能够构建登陆页面并通过该页面来利用 **[!DNL Journey Optimizer]**.
+When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须选择登陆页面预设才能构建登陆页面并通过该页面进行利用 **[!DNL Journey Optimizer]**.
 
 ### 访问登陆页面预设 {#lp-presets}
 

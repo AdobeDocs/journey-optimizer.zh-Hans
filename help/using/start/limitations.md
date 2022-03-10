@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 3%
 * 只有一个 **表单** 组件可在单个主页面中使用。
 * 的 **表单** 组件不能在子页面中使用。
 * 您无法向登陆页面添加预标头。
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* 您无法选择 **编码您自己的** 选项。
 
 ## 历程的限制 {#limitations-journeys}
 
@@ -68,7 +67,7 @@ ht-degree: 3%
 
 ### 数据源 {#data-sources}
 
-* 可以在客户历程中利用外部数据源来实时查找外部数据。 这些源必须通过REST API可用，支持JSON并能够处理请求量。
+* 可以在客户历程中利用外部数据源，以实时查找外部数据。 这些源必须通过REST API可用，支持JSON并能够处理请求量。
 
 ### 历程从创建用户档案的同时开始 {#journeys-limitation-profile-creation}
 

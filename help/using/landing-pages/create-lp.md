@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '920'
 ht-degree: 2%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 2%
 
 1. 使用内容设计器编辑页面内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
-1. 定义登陆页面URL。 URL的第一部分要求执行域委派。 已预填充，无法通过用户界面进行编辑。 要进行设置，请联系您的Adobe客户代表或 [Adobe客户关怀支持团队](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}。
+1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->您需要提供测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../building-journeys/creating-test-profiles.md).
+>您必须具有测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../building-journeys/creating-test-profiles.md).
 
 1. 在登陆页面界面中，单击 **[!UICONTROL Preview & test]** 按钮以访问测试用户档案选择。
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 
 ## 检查警报 {#check-alerts}
 
-创建登陆页面时，当您需要在发布之前执行重要操作时，会发出警告。
+创建登陆页面时，当您在发布之前必须执行重要操作时，会发出警告。
 
 警报显示在屏幕的右上方，如下所示：
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
-> 您需要解决所有 **错误** 发布前警报。
+> 您必须解决所有 **错误** 发布前警报。
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## 发布登陆页面 {#publish-landing-page}
