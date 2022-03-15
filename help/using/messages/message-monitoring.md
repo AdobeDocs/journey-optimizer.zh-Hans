@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
 # 消息监测 {#monitor-message-execution}
 
 为确保消息的执行、发送和发送成功， [!DNL Journey Optimizer] 提供了用于监视当前已发布和触发的消息的功能。 您可以查看消息在历程中的执行情况 <!--and APIs--> 实时从 **[!UICONTROL Executions]** 列表。
+
+➡️ [在视频中发现此功能](#video)
 
 要访问此列表，请从 **[!DNL Journey Optimizer]** 主页，选择 **[!UICONTROL Messages]**，然后单击 **[!UICONTROL Executions]** 选项卡。
 
@@ -93,3 +95,9 @@ ht-degree: 0%
 ![](assets/message-execution-data-format.png)
 
 单击每个超链接将打开相应的消息摘要视图。 [了解有关消息的更多信息](create-message.md).
+
+## 操作方法视频 {#video}
+
+了解有关实时报表和全局报表的更多信息，如何访问和分析历程和特定于消息的报表，以及如何修改报表功能板。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

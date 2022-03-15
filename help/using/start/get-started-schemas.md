@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 架构是描述Experience Platform中数据的标准方式，它允许符合架构的所有数据在组织中重复使用，而不会发生冲突，甚至在多个组织之间共享。
 
-➡️ [了解如何创建和配置模式](#video-schema) （视频）
+➡️ [在此视频中了解如何创建和配置模式](#video-schema) （视频）
 
 架构是一组规则，用于表示和验证数据的结构和格式。 在高级别上，架构提供了真实世界对象（如人）的抽象定义，并概述了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。
 

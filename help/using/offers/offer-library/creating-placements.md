@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 版面有助于确保正确的选件内容显示在消息中的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在此视频中了解如何创建版面](#video)
 
 在以下示例中，有三个版面，对应于不同类型的内容(图像、文本、HTML)。
 
@@ -48,10 +48,12 @@ ht-degree: 14%
 
    ![](../assets/placement_created.png)
 
-## 教程视频 {#video}
+## 操作方法视频{#video}
+
+了解如何在 Offer Decisioning 中创建投放位置。
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
 >[!NOTE]
 >
 >此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
-
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 3%
+source-wordcount: '1334'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 3%
 您还可以在现有数据集中上传json文件。 有关更多信息，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}。
 
 请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅 [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+
+➡️ [在此视频中了解如何创建测试用户档案](#video)
 
 ## 先决条件 {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## 操作方法视频 {#video}
+
+了解如何创建测试用户档案。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

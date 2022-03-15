@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 决策（以前称为选件活动）是选件的容器，将利用选件决策引擎来根据投放的目标选择要交付的最佳选件。
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在此视频中了解如何创建优惠活动](#video)
 
 可在 **[!UICONTROL Offers]** 菜单> **[!UICONTROL Decisions]** 选项卡。 过滤器可帮助您根据其状态或开始和结束日期来检索决策。
 
@@ -221,10 +221,12 @@ ht-degree: 1%
 
 ![](../assets/decision_information.png)
 
-## 教程视频 {#video}
+## 操作方法视频{#video}
+
+了解如何在 Offer Decisioning 中创建优惠活动。
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

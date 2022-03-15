@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 52%
+source-wordcount: '820'
+ht-degree: 56%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 52%
 >abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 [!DNL Journey Optimizer] 在历程中将侦听的内容，以编排最佳的后续行动。"
 
 事件配置允许您定义 [!DNL Journey Optimizer] 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。
-
->[!NOTE]
->
->有关如何配置事件的更多信息，请观看 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >
@@ -40,6 +36,8 @@ ht-degree: 52%
 >[!NOTE]
 >
 >如果您编辑在草稿或实时历程中使用的事件，则只能更改名称、描述或添加有效负载字段。我们严格限制草稿或实时历程的版本，以避免中断历程。
+
+➡️ [在视频中发现此功能](#video)
 
 ## 事件ID类型{#event-id-type}
 
@@ -66,3 +64,13 @@ Journey Optimizer要求将事件流式传输或批量传输到Adobe Experience P
 事件通过流式引入API到达后，将流入名为Pipeline的内部服务，然后流入Adobe Experience Platform。 如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
 
 对于系统生成的事件，Pipeline过滤器事件的有效负载包含 [!DNL Journey Optimizer] eventID（请参阅下面的事件创建过程），由 [!DNL Journey Optimizer] 和包含在事件有效负载中。 对于基于规则的事件，系统会使用eventID条件来标识该事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
+
+## 操作方法视频 {#video}
+
+了解如何配置事件、指定流媒体端点和事件的有效负载。
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

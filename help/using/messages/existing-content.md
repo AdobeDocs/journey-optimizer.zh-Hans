@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 9%
+source-wordcount: '366'
+ht-degree: 16%
 
 ---
 
 # 导入或编码电子邮件内容 {#existing-content}
 
 Journey Optimizer允许您导入现有HTML内容以设计电子邮件。 此内容可以是原始HTML代码，也可以是现有HTML文件或zip文件夹中的内容。
+
+➡️ [在视频中发现此功能](#video)
 
 要对HTML内容进行编码或导入现有内容，请执行以下步骤：
 
@@ -79,3 +81,9 @@ Journey Optimizer允许您导入现有HTML内容以设计电子邮件。 此内�
 1. 上传HTML内容后，您可以利用Email Designer功能编辑和预览电子邮件。 [在本节中了解详情](create-email-content.md)。
 
    ![](assets/html-imported.png)
+
+## 操作方法视频 {#video}
+
+了解如何导入现有 HTML 内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行编码。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

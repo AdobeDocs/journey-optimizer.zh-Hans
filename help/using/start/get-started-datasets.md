@@ -4,9 +4,9 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 将数据添加到Adobe Experience Platform是构建用户档案的基础。 然后，您便能够在 [!DNL Adobe Journey Optimizer]. 首先定义架构，使用ETL工具准备和标准化您的数据，然后根据您的架构创建数据集。
 
-➡️ [了解如何创建和配置数据集](#video-dataset) （视频）
+➡️ [在此视频中了解如何创建和配置数据集](#video-dataset)
 
 的 **数据集** 工作区 [!DNL Adobe Journey Optimizer] 用户界面允许您浏览数据并创建数据集。
 

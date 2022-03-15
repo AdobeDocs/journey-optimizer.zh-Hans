@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 6%
@@ -120,4 +120,3 @@ ht-degree: 6%
 * 变量表示参数的值会有所不同。 在历程中使用此自定义操作的营销人员可以自由地传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、从Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在命名此参数的历程中看到的标签。
 
 ![](assets/customactionpayloadmessage2.png)
-

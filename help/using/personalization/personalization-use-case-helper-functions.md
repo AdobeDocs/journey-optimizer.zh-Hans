@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1040'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 * 的 `if` 帮助程序，在相关产品位于购物车中时插入产品特定的注释。 [了解详情](functions/helpers.md#if-function)。
 
 <!-- **Context**: personalization based on contextual data from the journey -->
+
+➡️ [在此视频中了解如何使用帮助程序函数](#video)
 
 在开始之前，请确保您知道如何配置这些元素：
 * 电子邮件。 [了解详情](../messages/create-message.md)
@@ -338,6 +340,8 @@ ht-degree: 3%
 
 * [使用基于决策的选件进行个性化](../offers/offers-e2e.md)
 
-## 教程视频{#helper-functions-video}
+## 操作方法视频{#video}
+
+了解如何使用帮助程序函数。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

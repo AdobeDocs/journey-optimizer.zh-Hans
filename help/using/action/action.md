@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 78%
+source-wordcount: '248'
+ht-degree: 76%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 78%
 >abstract="您可以在此处定义与将发送消息的系统的连接。此处定义的操作随后将显示在历程左侧面板的“操作”类别中。 "
 
 行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
+
+➡️ [在视频中发现此功能](#video)
 
 [!DNL Journey Optimizer] 附带内置消息功能。 请参阅[此小节](../messages/get-started-content.md)。
 
@@ -40,3 +42,9 @@ ht-degree: 78%
 要查看操作列表或配置新操作，请选择 **[!UICONTROL Configurations]** 在“管理”菜单部分。 在  **[!UICONTROL Actions]** ，单击 **[!UICONTROL Manage]**. 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../start/user-interface.md)。
 
 ![](assets/custom1.png)
+
+## 操作方法视频 {#video}
+
+了解如何配置自定义操作。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)

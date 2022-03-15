@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 72%
+source-wordcount: '312'
+ht-degree: 74%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 72%
 * [自定义等待定义](../building-journeys/wait-activity.md#custom)
 * [时区定义](../building-journeys/timezone-management.md)
 
+➡️ [在视频中发现此功能](#video)
+
 如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的历程由事件组成，后跟一个仅使用事件数据的消息活动，则无需配置数据源。
 
 数据源有两种类型：
@@ -41,3 +43,10 @@ ht-degree: 72%
 >数据源现在支持架构关系。
 
 有关如何配置Adobe Experience Platform数据源和外部数据源以及如何在历程中查找和使用数据的更多信息，请观看此视频 [教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}。
+
+## 操作方法视频 {#video}
+
+了解什么是数据源以及如何配置 Experience Platform 和外部数据源。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+

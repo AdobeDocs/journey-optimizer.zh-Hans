@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1462'
 ht-degree: 10%
 
 ---
@@ -96,6 +96,8 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
 >
 >如果您所在组织的策略对完全子域委派方法有限制，则建议使用此方法。这种方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
 
+➡️ [了解如何使用CNAME创建子域以指向此视频中特定于Adobe的记录](#video)
+
 要使用CNAME委派子域，请执行以下步骤：
 
 1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 菜单，然后单击 **[!UICONTROL Set up subdomain]**.
@@ -181,3 +183,9 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
 1. **创建转发DNS**:如果这是您委派的第一个子域，则Adobe将创建转发DNS，创建PTR记录所需的DNS — 每个IP一个。
 
 1. **创建PTR记录**:ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。 Gmail还建议为每个IP设置PTR记录。 Adobe仅在您首次委派子域时创建PTR记录，每个IP一个，所有指向该子域的IP。 例如，如果IP为 *192.1.2.1* 而子域为 *email.example.com*，则PTR记录将为： *192.1.2.1 PTR r1.email.example.com*. 之后，您可以更新PTR记录以指向新的委派域。 [了解有关PTR记录的更多信息](ptr-records.md)
+
+## 操作方法视频{#video}
+
+了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
+
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

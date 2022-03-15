@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 # 构建区段 {#build-segments}
 
 在此示例中，我们将构建一个区段，以定位居住在亚特兰大、旧金山或西雅图的1980年以后出生的所有客户。 所有这些客户都应该在过去7天内打开Luma应用程序，然后在打开该应用程序后的2小时内完成购买。
+
+➡️ [在此视频中了解如何创建区段](#video-segment)
 
 1. 访问 **[!UICONTROL Segments]** 菜单，然后单击 **[!UICONTROL Create segment]** 按钮。
 
@@ -55,6 +57,8 @@ ht-degree: 5%
 
 现在，该区段可用于您的历程。 如需详细信息，请参阅[此部分](../segment/about-segments.md)。
 
-## 教程视频{#create-segment-video}
+## 操作方法视频{#video-segment}
+
+了解如何创建区段。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 66%
+source-wordcount: '367'
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 66%
 
 ![](assets/sandbox_5.png)
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在此视频中了解有关沙箱的更多信息](#video)
 
 ## 分配沙箱 {#assign-sandboxes}
 

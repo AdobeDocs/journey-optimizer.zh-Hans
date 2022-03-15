@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 6%
+source-wordcount: '189'
+ht-degree: 8%
 
 ---
 
 # 发布您的历程{#publishing-the-journey}
 
 您可以在测试历程的有效性后发布历程。
+
+➡️ [在视频中发现此功能](#video)
 
 如果您需要对已发布的历程进行修改，则需要创建历程的新版本。 请参阅[此页](../building-journeys/journey-versions.md)。当历程为只读时，您只能修改活动标签和描述、历程名称和历程描述。
 
@@ -27,3 +29,9 @@ ht-degree: 6%
    ![](assets/journeyuc1_18.png)
 
 历程发布后，处于只读模式。
+
+## 操作方法视频 {#video}
+
+了解如何发布历程。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334238?quality=12)

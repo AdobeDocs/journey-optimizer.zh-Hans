@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-➡️ [观看这些视频教程](#tutorial-videos)，以了解有关决策管理的更多信息。
+➡️ [在这些视频中了解有关决策管理的更多信息](#video)
 
 ## 关于优惠和决策 {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ ht-degree: 100%
 
 * **演示文稿**：演示文稿是渠道所使用的信息，如用于显示优惠的位置或语言。
 
-
-## 教程视频 {#tutorial-videos}
+## 操作方法视频{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ ht-degree: 100%
 以下视频介绍了如何使用决策管理来定义和管理优惠，以及如何利用实时客户数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

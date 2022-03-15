@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] 提供了一个库，您可以在其中访问之前保存的由管理员用户添加的个性化表达式。
 
-1. 要访问保存的表达式，请单击 **[!UICONTROL Library]** 按钮。 该列表显示管理员用户保存的所有表达式(请参阅 [将表达式保存到库](#save-expressions))。
+➡️ [了解如何在此视频中使用保存的表达式](#video-preview)
 
-   >[!NOTE]
-   >
-   >您可以使用“信息”按钮获取有关已保存表达式内容的更多信息。 如果您具有管理库项目的适当权限，则“信息”按钮将显示在椭圆菜单中。
+要访问保存的表达式，请单击 **[!UICONTROL Library]** 按钮。 该列表显示管理员用户保存的所有表达式(请参阅 [将表达式保存到库](#save-expressions))。
 
-   ![](assets/library-list.png)
+    >[!NOTE]
+    >
+    >您可以使用“信息”按钮获取有关已保存表达式内容的更多信息。 如果您具有管理库项目的适当权限，则“信息”按钮将显示在椭圆菜单中。
+    
+    ![](assets/library-list.png)
 
-1. 单击+以将表达式插入编辑器。 然后，您可以像往常一样自定义和验证个性化内容。 [了解详情](../personalization/personalization-build-expressions.md)
+单击+以将表达式插入编辑器。 然后，您可以像往常一样自定义和验证个性化内容。 [了解详情](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## 将表达式保存到库 {#save-expressions}
 
@@ -68,3 +70,10 @@ ht-degree: 0%
 要编辑现有表达式，请将其添加到编辑器中，然后根据需要对其进行修改。 单击 **[!UICONTROL Add to library]** 验证语法并保存表达式。
 
 要删除表达式，请单击椭圆按钮，然后单击 **[!UICONTROL Delete]**.
+
+## 操作方法视频{#video}
+
+了解如何在消息中使用保存的个性化库项目，以及如何创建和管理个性化库项目。
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+

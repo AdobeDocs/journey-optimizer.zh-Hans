@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 选择测试用户档案 {#select-test-profiles}
 
-首先，您需要选择要用于模拟的测试用户档案。
+首先，您需要选择要用于模拟的测试用户档案。 在 [本页](../../building-journeys/creating-test-profiles.md).
 
 1. 单击 **[!UICONTROL Manage profile]**。
 

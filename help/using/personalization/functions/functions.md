@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1346'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 使用 [!DNL Journey Optimizer] 模板语言，用于对数据执行操作，如计算、数据格式或转化、条件等，并在个性化环境中处理它们。 了解中的个性化语法准则 [本页](../personalization-syntax.md).
 
-➡️ [了解如何使用帮助程序函数](#video) （视频）
+➡️ [在此视频中了解如何使用帮助程序函数](#video)
 
 模板语言在表达式编辑器的个性化下拉列表中提供的帮助程序函数中使用，如下所示：
 
@@ -99,7 +99,7 @@ ht-degree: 4%
         <td><a href="dates.md#day-week">每周的某一日</a></td><td>此函数检索每周时间</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">每年的某一日</a></td><td>此函数检索每年的某天</td>
+        <td><a href="dates.md#day-year">年中哪天</a></td><td>此函数检索每年的某天</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">格式日期</a></td><td>此函数可设置日期时间值的格式</td>
