@@ -4,7 +4,7 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
+source-git-commit: e9878246c2af5c7ee0f961aaaad64e186431d96e
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
->abstract="要创建登陆页面预设，请确保您之前至少配置了一个要从 **子域名** 列表。"
+>abstract="要创建登陆页面预设，请确保您之前至少配置了一个要从子域名列表中选取的登陆页面子域。"
 
 能够 [创建登陆页面预设](#lp-create-preset)，则必须设置要用于登陆页面的子域。
 
