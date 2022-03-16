@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 95c6b69aa881a691b96a073dd89bb448c9a25283
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
 # 创建收藏集 {#create-collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_collection"
+>title="关于选件收藏集"
+>abstract="使用选件集，您可以通过将选件重组到所选的类别来组织选件。
 
 收藏集允许您通过将选件重组为所选的类别来组织选件。 例如，您可以创建一个“体育”收藏集，该收藏集仅包含与体育相关的选件。
 
