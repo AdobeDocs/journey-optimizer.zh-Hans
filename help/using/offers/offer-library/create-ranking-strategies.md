@@ -7,18 +7,28 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '693'
 ht-degree: 5%
 
 ---
 
 # 创建AI模型 {#ai-rankings}
 
+[!DNL Journey Optimizer] 允许您创建 **AI模型** 根据您的业务目标对选件进行排名。
+
+>[!CAUTION]
+>
+>要创建、编辑或删除AI模型，您必须具有 **管理排名策略** 权限。 [了解详情](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>
+>目前，只能对选定用户提前访问AI模型。
+
+创建AI模型后，将其分配给决策中的版面。 在 [在决策中配置选件选择](../offer-activities/configure-offer-selection.md).
+
 ## 创建排名策略 {#create-ranking-strategy}
 
-要创建排名策略，请执行以下步骤：
+要创建AI模型作为排名策略，请执行以下步骤：
 
 1. 访问 **[!UICONTROL Components]** 菜单，然后选择 **[!UICONTROL AI rankings]** 选项卡。
 
@@ -48,7 +58,7 @@ ht-degree: 5%
       * **[!UICONTROL Impression]**:当前展示事件与显示的所有选件相对应。
       * **[!UICONTROL Conversion]**:转化事件与通过电子邮件或Web进行点击的所有选件相对应。
 
-      所有选定的展示事件和/或转化事件都将使用已提供的Web SDK或Mobile SDK自动捕获。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+      所有选定的展示事件和/或转化事件都将使用提供的Web SDK或Mobile SDK自动捕获。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
    * **[!UICONTROL Dataset ID]**:对于转化，您需要提供一个数据集，通过从下拉列表中选择该数据集来收集事件。 了解如何在 [此部分](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
