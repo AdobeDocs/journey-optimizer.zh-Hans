@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 4%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
 # 创建电子邮件 {#configure-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_email"
+>title="电子邮件创建"
+>abstract="只需三个简单步骤即可定义电子邮件参数。"
 
 一旦 [已创建消息](create-message.md)，则使用 **[!UICONTROL Email]** 选项卡，以定义电子邮件渠道的设置和内容。
 
