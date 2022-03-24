@@ -3,9 +3,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2697'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在Journey Optimizer中创建和设计登陆页面，并将用户定向到在线表单，在该表单中，用户可以选择加入或选择退出接收您的通信，或订阅特定服务（如新闻稿）。</p>
+<p>您现在可以在 Journey Optimizer 中创建和设计登陆页面，并将用户定向到在线表单，在表单中，用户可以选择加入或选择退出接收您的通信，或订阅特定服务（如新闻稿）。</p>
 <p>有关更多信息，请参阅<a href="../landing-pages/create-lp.md">详细文档</a>和相关的<a href="../landing-pages/lp-use-cases.md">示例用例</a>。</p>
 </td>
 </tr>
@@ -44,7 +44,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在提供了一个库，您可以在其中访问预定义的个性化表达式。 这些表达式由管理员用户配置。</p>
+<p>Journey Optimizer 现提供一个可供您访问预定义的个性化表达式的库。这些表达式由管理员用户配置。</p>
 <p>有关更多信息，请参阅<a href="../personalization/personalization-library.md">详细文档</a>。</p>
 </td>
 </tr>
