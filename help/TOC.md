@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 98%
       + 使用表达式编辑器 {#expression-editor}
          + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
          + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
-         + [使用保存的表达式](using/personalization/personalization-library.md)
+         + [使用已保存的表达式](using/personalization/personalization-library.md)
          + [个性化验证](using/personalization/personalization-validation.md)
       + 辅助函数{#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
@@ -244,9 +244,9 @@ ht-degree: 98%
       + [创建决策规则](using/offers/offer-library/creating-decision-rules.md)
       + [创建标记](using/offers/offer-library/creating-tags.md)
       + [创建排名公式](using/offers/offer-library/create-ranking-formulas.md)
-      + 创建AI排名模型 {#create-ai-ranking-models}
-         + [关于AI模型](using/offers/offer-library/ai-ranking.md)
-         + [创建AI模型](using/offers/offer-library/create-ranking-strategies.md)
+      + 创建 AI 排名模型{#create-ai-ranking-models}
+         + [关于 AI 模型](using/offers/offer-library/ai-ranking.md)
+         + [创建 AI 模型](using/offers/offer-library/create-ranking-strategies.md)
    + 创建和管理优惠 {#managing-offers-in-the-offer-library}
       + [创建个性化优惠](using/offers/offer-library/creating-personalized-offers.md)
       + [创建后备优惠](using/offers/offer-library/creating-fallback-offers.md)
