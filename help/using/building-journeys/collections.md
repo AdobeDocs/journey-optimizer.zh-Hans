@@ -1,10 +1,9 @@
 ---
-product: adobe campaign
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 5%

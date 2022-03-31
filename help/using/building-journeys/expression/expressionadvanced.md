@@ -1,19 +1,24 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
 title: 关于高级表达式编辑器
 description: 了解如何构建高级表达式
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 88%
+source-wordcount: '588'
+ht-degree: 83%
 
 ---
 
 # 关于高级表达式编辑器 {#about-the-advanced-expression-editor}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_advanced"
+>title="关于高级表达式编辑器"
+>abstract="使用高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程以及定义数据源条件时构建表达式。"
 
 使用高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程以及定义数据源条件时构建表达式。
 它还可在您每次需要定义需要特定数据操作的操作参数时使用。您可以利用来自事件的数据或从数据源检索的其他信息。在历程中，显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。

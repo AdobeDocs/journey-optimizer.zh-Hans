@@ -1,19 +1,19 @@
 ---
-title: 使用保存的表达式
+title: 使用已保存的表达式
 description: 了解如何使用 [!DNL Journey Optimizer] 库。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
-# 使用保存的表达式 {#expression-library}
+# 使用已保存的表达式 {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -59,8 +59,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 您在库中最多保存40个表达式。
->
 >* 表达式不能超过200KB。
 >
 >* 保存的表达式按创建日期排序：最近添加的表达式将首先显示在列表中。
@@ -73,7 +71,7 @@ ht-degree: 0%
 
 ## 操作方法视频{#video}
 
-了解如何在消息中使用保存的个性化库项目，以及如何创建和管理个性化库项目。
+了解如何在消息中使用已保存的个性化库项目，以及如何创建和管理个性化库项目。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

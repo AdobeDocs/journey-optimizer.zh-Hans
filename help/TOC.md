@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 93%
 
 ---
 
@@ -30,33 +30,38 @@ ht-degree: 100%
    + [限制](using/start/limitations.md)
 + 消息 {#messages}
    + [消息入门](using/messages/get-started-content.md)
-   + 创建消息 {#create-message}
-      + [创建消息](using/messages/create-message.md)
-      + [创建电子邮件](using/messages/create-email.md)
-      + [创建推送通知](using/messages/create-push.md)
-      + [创建短信消息](using/messages/create-sms.md)
-   + [添加和管理资源](using/messages/assets-essentials.md)
-   + [添加个性化优惠](using/messages/deliver-personalized-offers.md)
-   + 设计电子邮件{#email-designer}
-      + [电子邮件设计入门](using/messages/design-emails.md)
-      + [在 UI 中设计电子邮件内容](using/messages/create-email-content.md)
-      + [导入或编码电子邮件内容](using/messages/existing-content.md)
-      + [使用电子邮件设计器内容组件](using/messages/content-components.md)
-   + [添加链接和跟踪消息](using/messages/message-tracking.md)
+   + [创建电子邮件](using/messages/create-email.md)
+   + [创建推送通知](using/messages/create-push.md)
+   + [创建短信消息](using/messages/create-sms.md)
    + 验证并发布 {#validate}
-      + [预览和证明](using/messages/preview.md)
       + [检查警报](using/messages/alerts.md)
       + [发布消息](using/messages/publish-manage-message.md)
    + [管理同意](using/messages/consent.md)
++ 设计内容 {#design}
+   + [电子邮件设计入门](using/design/design-emails.md)
+   + [从头开始 ](using/design/create-email-content.md)
+   + [导入电子邮件内容](using/design/existing-content.md)
+   + [对您自己的内容进行编码](using/design/code-content.md)
+   + 内容设计 {#design-content}
+      + [使用内容组件](using/design/content-components.md)
+      + [背景设置](using/design/backgrounds.md)
+      + [调整垂直对齐和内边距](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [为链接定义样式](using/design/styling-links.md)
+      + [添加内联样式属性](using/design/adding-inline-styling-attributes.md)
+   + 电子邮件设置 {#design-email}
+      + [生成文本版本](using/design/text-version-email.md)
+      + [添加前标](using/design/preheader.md)
+   + 添加和管理资源 {#manage-asset}
+      + [使用Assets Essentials](using/design/assets-essentials.md)
+   + [添加个性化优惠](using/design/deliver-personalized-offers.md)
+   + [添加链接和跟踪消息](using/design/message-tracking.md)
+   + [预览和证明](using/design/preview.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
    + [设计登陆页面](using/landing-pages/design-lp.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
    + [用例](using/landing-pages/lp-use-cases.md)
-   + 报告 {#lp-reporting}
-      + [登陆页面报表](using/landing-pages/lp-report.md)
-      + [订阅列表报告](using/landing-pages/subscription-report.md)
 + 个性化{#personalization}
    + [入门个性化](using/personalization/personalize.md)
    + [个性化上下文](using/personalization/personalization-contexts.md)
@@ -85,13 +90,14 @@ ht-degree: 100%
    + 区段{#segments}
       + [区段入门](using/segment/about-segments.md)
       + [构建区段](using/segment/creating-a-segment.md)
-   + [用户档案](using/start/get-started-profiles.md)
-   + [标识](using/start/get-started-identity.md)
+   + [用户档案] {#profiles}
+      + [开始使用用户档案](using/segment/get-started-profiles.md)
+      + [创建测试用户档案](using/segment/creating-test-profiles.md)
+   + [标识](using/segment/get-started-identity.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
       + [历程版本](using/building-journeys/journey-versions.md)
-      + [创建测试用户档案](using/building-journeys/creating-test-profiles.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 创建历程{#create-journey}
       + [历程入门](using/building-journeys/journey-gs.md)
@@ -207,17 +213,21 @@ ht-degree: 100%
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
 + 跟踪和监控 {#reporting}
-   + [消息监测](using/messages/message-monitoring.md)
+   + [消息监测](using/reports/message-monitoring.md)
    + 实时报告{#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
       + [通过电邮发送实时报告](using/reports/email-live-report.md)
       + [推送实时报告](using/reports/push-live-report.md)
+      + [登陆页面实时报表](using/reports/lp-report-live.md)
+      + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
       + [访问全局报告仪表板](using/reports/global-report.md)
       + [历程全局报告](using/reports/journey-global-report.md)
       + [通过电邮发送全局报告](using/reports/email-global-report.md)
       + [推送全局报告](using/reports/push-global-report.md)
+      + [登陆页面全局报表](using/reports/lp-report-global.md)
+      + [订阅列表全局报告](using/reports/subscription-report-global.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
@@ -230,9 +240,9 @@ ht-degree: 100%
          + [标识字段](using/reports/sharing-identity-fields.md)
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
-      + [可投放性入门](using/messages/deliverability.md)
-      + [禁止列表](using/messages/suppression-list.md)
-      + [允许列表](using/messages/allow-list.md)
+      + [可投放性入门](using/reports/deliverability.md)
+      + [禁止列表](using/reports/suppression-list.md)
+      + [允许列表](using/reports/allow-list.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -313,6 +323,7 @@ ht-degree: 100%
          + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
       + 使用 API 的优惠投放{#offer-delivery}
          + [决策 API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [批量决策API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 数据管理 {#data-management}
    + [架构](using/start/get-started-schemas.md)
@@ -322,8 +333,8 @@ ht-degree: 100%
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration-message}
       + 推送通知配置{#push-config}
-         + [推送配置入门](using/messages/push-gs.md)
-         + [配置推送通知渠道](using/messages/push-configuration.md)
+         + [推送配置入门](using/configuration/push-gs.md)
+         + [配置推送通知渠道](using/configuration/push-configuration.md)
       + 电子邮件配置{#email-configuration}
          + 委派子域{#delegate-subdomains}
             + [子域委派入门](using/configuration/about-subdomain-delegation.md)
@@ -338,6 +349,7 @@ ht-degree: 100%
          + [更改电子邮件主地址](using/configuration/primary-email-addresses.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
       + [创建消息预设](using/configuration/message-presets.md)
+      + [配置频度规则](using/configuration/frequency-rules.md)
    + [配置登陆页面](using/configuration/lp-configuration.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)

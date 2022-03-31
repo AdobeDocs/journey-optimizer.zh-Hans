@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '926'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/lp_access-list-filter.png)
 
-在此列表中，您可以访问 [登陆页面报告](lp-report.md) ，以查看已发布的项目。
+在此列表中，您可以访问 [登陆页面实时报表](../reports/lp-report-live.md) 或 [登陆页面全局报表](../reports/lp-report-global.md) ，以查看已发布的项目。
 
 您还可以删除、复制和取消发布登陆页面。
 
@@ -133,7 +133,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->您必须具有测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../building-journeys/creating-test-profiles.md).
+>您必须具有测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
 1. 在登陆页面界面中，单击 **[!UICONTROL Preview & test]** 按钮以访问测试用户档案选择。
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
    ![](assets/lp_test-profiles.png)
 
-   选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../messages/preview.md#select-test-profiles).
+   选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../design/preview.md#select-test-profiles).
 
 1. 选择 **[!UICONTROL Preview]** 选项卡，单击 **[!UICONTROL Open preview]** 来测试登陆页面。
 
@@ -210,9 +210,9 @@ ht-degree: 2%
 
 发布登陆页面后，该页面会添加到登陆页面列表，其中包含 **[!UICONTROL Published]** 状态。
 
-它现已上线，可在 [!DNL Journey Optimizer] [消息](../messages/create-message.md) 将通过 [历程](../building-journeys/journey.md).
+它现已上线，可在 [!DNL Journey Optimizer] [消息](../messages/get-started-content.md) 将通过 [历程](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->您可以通过特定报表监控登陆页面的影响。 [了解详情](lp-report.md)
+>您可以通过特定报表监控登陆页面的影响。 [了解详情](../reports/lp-report-live.md)
 

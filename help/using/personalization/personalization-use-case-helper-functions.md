@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 3%
@@ -28,8 +28,8 @@ ht-degree: 3%
 ➡️ [在此视频中了解如何使用帮助程序函数](#video)
 
 在开始之前，请确保您知道如何配置这些元素：
-* 电子邮件。 [了解详情](../messages/create-message.md)
-* 电子邮件的正文。 [了解详情](../messages/create-email-content.md)。
+* 电子邮件。 [了解详情](../messages/get-started-content.md)
+* 电子邮件的正文。 [了解详情](../design/create-email-content.md)。
 * 单一事件。 [了解详情](../event/about-events.md)。
 * 以事件开头的历程。 [了解详情](../building-journeys/using-the-journey-designer.md)。
 
@@ -147,7 +147,7 @@ ht-degree: 3%
 
       **[!UICONTROL Contextual attributes]** 仅在历程上下文传递到消息后才可用。
 
-   1. 选择 **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开 **[!UICONTROL productListItems]** 节点。
+   1. 选择 **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***，然后展开 **[!UICONTROL productListItems]** 节点。
 
       在本例中， *event_name* 表示事件的名称。
 

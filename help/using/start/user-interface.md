@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 * **[!UICONTROL Journeys]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 创建、设计、测试和发布电子邮件和推送消息。[了解详情](../messages/create-message.md)
+* **[!UICONTROL Messages]** - 创建、设计、测试和发布电子邮件和推送消息。[了解详情](../messages/get-started-content.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -76,9 +76,9 @@ ht-degree: 100%
 
 * **[!UICONTROL Segments]** - 创建和管理 Experience Platform 区段定义，并将其用于您的历程。[了解详情](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - Real-time Customer Profile 可以为每位客户创建全面视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - Real-time Customer Profile 可以为每位客户创建全面视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform 标识服务通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform 标识服务通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 可用用例包括：
 
-* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。[在此页面中](../building-journeys/creating-test-profiles.md#use-case-1)了解如何实施此用例。
+* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。[在此页面中](../segment/creating-test-profiles.md#use-case-1)了解如何实施此用例。
 * **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
 * **向新客户发送电子邮件**，可以轻松发送最多两封电子邮件来欢迎新注册的客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -214,7 +214,7 @@ ht-degree: 100%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -238,7 +238,7 @@ ht-degree: 100%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
 </table>
 

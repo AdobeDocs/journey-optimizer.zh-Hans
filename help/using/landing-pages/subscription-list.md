@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
@@ -65,4 +65,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以通过特定报告监控订阅列表的影响。 [了解详情](subscription-report.md)
+>您可以通过特定报告监控订阅列表的影响。 [了解详情](../reports/subscription-report-live.md)

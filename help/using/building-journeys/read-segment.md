@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 7%
+source-wordcount: '1073'
+ht-degree: 9%
 
 ---
 
 # 在历程中使用区段 {#segment-trigger-activity}
 
 ## 关于读取区段活动 {#about-segment-trigger-actvitiy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment"
+>title="“读取区段”活动"
+>abstract="利用读取区段活动，可让属于Adobe Experience Platform区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。"
 
 利用读取区段活动，可让属于Adobe Experience Platform区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 

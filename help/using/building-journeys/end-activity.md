@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '111'
+ht-degree: 8%
 
 ---
 
 # 结束活动{#end-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_end"
+>title="结束活动"
+>abstract="利用结束活动，可标记历程每个路径的结尾。 它不是强制性的，但建议使用它以清晰直观地显示。 事实上，如果历程包含多个结束活动，我们建议您在每个结束活动中添加一个标签，以便更便于阅读报表。"
 
 的 **[!UICONTROL End]** 活动用于标记历程每个路径的结尾。 它不是强制性的，但建议使用它以清晰直观地显示。 事实上，如果历程包含多个结束活动，我们建议您在每个结束活动中添加一个标签，以便更便于阅读报表。 请参阅[此页](../reports/live-report.md)。
 

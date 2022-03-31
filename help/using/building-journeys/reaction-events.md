@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
 
 # 反应事件 {#reaction-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_reaction"
+>title="反应事件"
+>abstract="此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出响应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出响应。"
 
 在面板中可用的不同事件活动中，您会找到 **[!UICONTROL Reactions]** 事件。 此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出响应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出响应。
 

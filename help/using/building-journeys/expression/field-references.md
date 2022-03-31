@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '553'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 语法颜色用于直观地区分事件字段（绿色）和字段组（蓝色）。
 
-## 字段引用的默认值
+## 字段引用的默认值 {#default-value}
 
 默认值可与字段名称关联。 语法如下所示：
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+您可以添加任何类型的表达式作为默认值。 唯一的约束是表达式必须返回预期的数据类型。 使用函数时，需要使用()封装函数。
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## 对集合中字段的引用

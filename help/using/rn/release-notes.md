@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: ht
-source-wordcount: '2697'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '2821'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +13,28 @@ ht-degree: 100%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有新增功能和改进。您还可以查阅[最新文档更新](documentation-updates.md)页面以了解更多更改。
 
+## 2022 年 3 月版 {#march-2022-release}
 
+### 改进
+
+**历程**
+
+* 为避免统一用户档案架构中存在不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。 如果需要，您可以激活它。 [了解详情](../reports/sharing-overview.md)
+* 与导出作业相关的新步骤事件现在由Journey Optimizer发送到Adobe Experience Platform。 向文档中添加了查询示例。 [了解详情](../reports/query-examples.md)
+
+**决策管理**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* 批量决策API允许组织在一次调用中对给定区段中的所有用户档案使用offer decisioning功能。 区段中每个配置文件的选件内容会放置在AEP数据集中，该数据集可用于自定义批量工作流。 [了解详情](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**个性化**
+
+* 现在，您可以在库中保存40多个个性化表达式。 [了解详情](../personalization/personalization-library.md)
 
 ## 2022 年 2 月版 {#feb-2022-release}
 
@@ -236,7 +257,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **报告**
 
-* **全局视图中的数据格式** - 您现在可以在 **Execution** 选项卡的 **Global view** 中在数字和百分比之间切换。[了解详情](../messages/message-monitoring.md)
+* **全局视图中的数据格式** - 您现在可以在 **Execution** 选项卡的 **Global view** 中在数字和百分比之间切换。[了解详情](../reports/message-monitoring.md)
 
 
 **管理**
@@ -276,7 +297,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <td>
 <p>报告中提供了新量度：电子邮件和推送消息的“目标受众”和“排除受众”在实时报告和全局报告中均可见。</br> 如需访问最新量度，请注意，您必须为每个渠道和报告类型重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅<a href="../reports/live-report.md">详细文档。</a></p>
 <p>消息执行列表中的新列会显示每个消息执行的目标用户档案数。 </p>
-<p>有关更多信息，请参阅<a href="../messages/message-monitoring.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../reports/message-monitoring.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +440,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **内容设计**
 
-* **背景** - 现在，实时预览支持背景图像。[了解详情](../messages/preview.md)
+* **背景** - 现在，实时预览支持背景图像。[了解详情](../design/preview.md)
 * **一键式选择退出链接** - 您可以在电子邮件内容中插入新类型的链接：**选择退出**&#x200B;链接让用户只需单击一下即可取消订阅以停止接收您的通信，而不会被重定向到登陆页面以确认选择退出。[了解详情](../messages/consent.md#one-click-opt-out-link)
 
 **个性化**
@@ -428,7 +449,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **电子邮件配置**
 
-* **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。[了解详情](../messages/allow-list.md#enable-allow-list)
+* **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。[了解详情](../reports/allow-list.md#enable-allow-list)
 * **导航** - 禁止列表，之前可在&#x200B;**管理 > 渠道 > 电子邮件配置 > 常规**&#x200B;菜单下访问，已移至新的&#x200B;**禁止列表**&#x200B;子菜单，该菜单集合了所有相关功能，访问起来更加轻松。[了解详情](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **决策管理**
@@ -475,7 +496,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>您现在可以在沙盒级别定义特定的安全发送列表，以便具有用于测试的安全环境。在可能出现错误的非生产实例上，允许列表可确保不会出现向客户发送不必要消息的风险。此功能通过利用禁止 API 来启用。</p>
-<p>有关更多信息，请参阅<a href="../messages/allow-list.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../reports/allow-list.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -494,9 +515,9 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **预览和测试消息**
 
-* 标识和命名空间现在显示于 **[!UICONTROL Preview]** 屏幕中。[了解更多信息](../messages/preview.md#preview-your-messages)
+* 标识和命名空间现在显示于 **[!UICONTROL Preview]** 屏幕中。[了解更多信息](../design/preview.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
-* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../messages/preview.md#send-proofs)
+* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../design/preview.md#send-proofs)
 
 **个性化表达式编辑器**
 

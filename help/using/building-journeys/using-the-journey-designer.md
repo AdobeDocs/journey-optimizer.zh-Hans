@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1455'
 ht-degree: 1%
 
 ---
 
 # 设计您的历程 {#design-your-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_canvas"
+>title="设计您的历程"
+>abstract="历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。"
 
 历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。 每个活动都具有特定的角色和在流程中的位置。 活动已排序。 活动完成后，该流程将继续并处理下一个活动，等等。
 

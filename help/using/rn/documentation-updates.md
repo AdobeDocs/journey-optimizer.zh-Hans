@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
 
-
 ## 2022 年 3 月 {#march-2022}
 
+* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’22年3月版进行了详细介绍。 [了解更多信息](release-notes.md)
 * 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/offer-library/ai-ranking.md)
+* 测试用户档案创建页面已移至  **区段、用户档案和身份** 中。 [了解更多信息](../segment/creating-test-profiles.md)
+* 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解更多信息](../building-journeys/expression/field-references.md#default-value)
+* 的 **更改主电子邮件地址** 更新了部分以反映用户界面的更改。 [了解更多信息](../configuration/primary-email-addresses.md)
 
 ## 2022 年 2 月 {#feb-2022}
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/message-presets.md#create-message-preset)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../messages/consent.md#opt-out-management)
-* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../messages/message-tracking.md#insert-links)
+* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../design/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -92,8 +95,8 @@ ht-degree: 100%
 * 添加了关于辅助功能和快捷键的部分。[了解更多信息](../start/user-interface.md#accessibility)
 * 添加了有关区段评估方法的章节。[了解更多信息](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/email-global-report.md)
-* 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../messages/allow-list.md#reporting)
-* 更新了“启用允许列表”部分。[了解详情](../messages/allow-list.md#enable-allow-list)
+* 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../reports/allow-list.md#reporting)
+* 更新了“启用允许列表”部分。[了解详情](../reports/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/message-presets.md#monitor-message-presets)
 * 更新并重命名了“重试时段”部分，以反映出您现在可以调整消息预设中的电子邮件重试设置。[了解更多信息](../configuration/retries.md#retry-duration)
 * 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ ht-degree: 100%
 * 在主页中添加了到 [!DNL Journey Optimizer] 产品说明的链接
 * 在多个页面中添加了教程视频
 * 优化了主页图像
-* 对“消息跟踪”部分进行了移动和改进，并将其重命名为“添加链接和跟踪消息”。[了解更多信息](../messages/message-tracking.md)
-* 在镜像页面上添加了子部分。[了解更多信息](../messages/message-tracking.md#mirror-page)
+* 对“消息跟踪”部分进行了移动和改进，并将其重命名为“添加链接和跟踪消息”。[了解更多信息](../design/message-tracking.md)
+* 在镜像页面上添加了子部分。[了解更多信息](../design/message-tracking.md#mirror-page)
 * 在文档和屏幕中，将“优惠活动”重命名为“决策”，将“决策”重命名为“决策范围”。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用辅助函数个性化消息](../personalization/personalization-use-case-helper-functions.md)
 * 更新了读取区段文档，以反映实体化区段的影响。[了解更多信息](../building-journeys/read-segment.md)

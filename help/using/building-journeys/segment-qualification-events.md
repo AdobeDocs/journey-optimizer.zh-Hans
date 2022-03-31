@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 71%
+source-wordcount: '828'
+ht-degree: 72%
 
 ---
 
 # 区段鉴别事件 {#segment-qualification}
 
 ## 关于客户细分资格事件{#about-segment-qualification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification"
+>title="区段鉴别事件"
+>abstract="此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。"
 
 此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
 

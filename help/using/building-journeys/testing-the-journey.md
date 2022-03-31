@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1727'
 ht-degree: 2%
 
 ---
 
 # 测试您的历程{#testing_the_journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="测试您的历程"
+>abstract="您可以使用测试用户档案在历程发布之前对其进行测试。 这允许您分析个人在历程中的流动方式，并在发布之前进行故障诊断。"
+
 在能够测试历程之前，必须解决所有错误（如果有）。 请参阅[此小节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
 
 您可以使用测试用户档案在历程发布之前对其进行测试。 这允许您分析个人在历程中的流动方式，并在发布之前进行故障诊断。
 
-只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 请参阅 [部分](../building-journeys/creating-test-profiles.md).
+只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 请参阅 [部分](../segment/creating-test-profiles.md).
 
 要使用测试模式，请执行以下步骤：
 
@@ -54,7 +59,7 @@ ht-degree: 2%
 ## 重要说明 {#important_notes}
 
 * 提供了一个界面来触发事件到测试历程，但事件也可以由第三方系统（如Postman）发送。
-* 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试历程。 请参阅 [部分](../building-journeys/creating-test-profiles.md).
+* 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试历程。 请参阅 [部分](../segment/creating-test-profiles.md).
 * 测试模式仅在使用命名空间的草稿历程中可用。 测试模式需要检查进入历程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间，可以进入历程的测试用户档案最大数为100。
 * 当您禁用测试模式时，它将从过去或当前使用该模式的所有人员处删除历程。 它还会清除报表。
@@ -64,6 +69,11 @@ ht-degree: 2%
 * 为优化性能并防止过时的资源使用，所有处于测试模式且一周内未触发的历程都将切换回草稿状态。
 
 ## 触发事件 {#firing_events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="配置测试模式"
+>abstract="如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和执行事件发送。"
 
 的 **[!UICONTROL Trigger an event]** 按钮用于配置将使人员进入历程的事件。
 
@@ -110,6 +120,11 @@ ht-degree: 2%
 请注意，首次触发业务事件时，您不能在同一测试会话中更改业务事件定义。 您只能使同一个人或不同个人进入传递相同或其他标识符的历程。 如果要更改业务事件参数，必须停止并重新启动测试模式。
 
 ## 查看日志 {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="测试模式日志"
+>abstract="您可以查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。"
 
 的 **[!UICONTROL Show log]** 按钮查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 

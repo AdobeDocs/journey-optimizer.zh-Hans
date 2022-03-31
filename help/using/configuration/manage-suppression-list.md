@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 始终软退回的地址，如果您继续将这些地址包含在投放中，则这些地址可能会对您的电子邮件声誉造成不利影响。
 * 针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。
 
-此类电子邮件地址会自动收集到Journey Optimizer中 **抑制列表**. 了解有关抑制列表概念和在 [此部分](../messages/suppression-list.md).
+此类电子邮件地址会自动收集到Journey Optimizer中 **抑制列表**. 了解有关抑制列表概念和在 [此部分](../reports/suppression-list.md).
 
 ## 访问禁止列表 {#access-suppression-list}
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 ![](assets/suppression-list-delete.png)
 
-从禁止列表中删除某个电子邮件地址或域意味着您将再次开始向该地址或域发送邮件。 因此，这可能会对您的投放能力和IP信誉造成严重影响，最终可能会导致您的IP地址或发送域被阻止。 进一步了解在 [此部分](../messages/suppression-list.md).
+从禁止列表中删除某个电子邮件地址或域意味着您将再次开始向该地址或域发送邮件。 因此，这可能会对您的投放能力和IP信誉造成严重影响，最终可能会导致您的IP地址或发送域被阻止。 进一步了解在 [此部分](../reports/suppression-list.md).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->了解有关 [投放失败类型](../messages/suppression-list.md#delivery-failures) 中。
+>了解有关 [投放失败类型](../reports/suppression-list.md#delivery-failures) 中。
 
 对于列出的每个电子邮件地址，您还可以检查 **[!UICONTROL Type]** （电子邮件或域）、 **[!UICONTROL Reason]** ，以及将其添加到禁止列表的日期/时间。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: f5b629d5e413a3ffc037af959c5e16b9a47e8a0e
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 * **[!UICONTROL The opt-out link is not present in the email body.]**:最佳做法是向电子邮件正文中添加退订链接。 了解如何在 [此部分](consent.md).
 
-* **[!UICONTROL Text version of HTML is empty.]**:请不要忘记定义电子邮件正文的文本版本，因为当HTML内容无法显示时，会使用该文本版本。 了解如何在中创建文本版本 [此部分](create-email-content.md#generate-text-version).
+* **[!UICONTROL Text version of HTML is empty.]**:请不要忘记定义电子邮件正文的文本版本，因为当HTML内容无法显示时，会使用该文本版本。 了解如何在中创建文本版本 [此部分](../design/text-version-email.md).
 
-* **[!UICONTROL Empty link is present in email body.]**:检查电子邮件中的所有链接是否正确。 了解如何在 [此部分](create-email-content.md).
+* **[!UICONTROL Empty link is present in email body.]**:检查电子邮件中的所有链接是否正确。 了解如何在 [此部分](../design/create-email-content.md).
 
-* **[!UICONTROL Email size has exceeded the limit of 100KB.]**:为获得最佳投放，请确保电子邮件的大小不超过100KB。 了解如何在 [此部分](create-email-content.md).
+* **[!UICONTROL Email size has exceeded the limit of 100KB.]**:为获得最佳投放，请确保电子邮件的大小不超过100KB。 了解如何在 [此部分](../design/create-email-content.md).
 
 **错误**:
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * **[!UICONTROL The push version of the message is empty.]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
 
-* **[!UICONTROL The email version of the message is empty.]**:未配置电子邮件内容时，会显示此错误。 了解如何在 [此部分](design-emails.md).
+* **[!UICONTROL The email version of the message is empty.]**:未配置电子邮件内容时，会显示此错误。 了解如何在 [此部分](../design/design-emails.md).
 
 * **[!UICONTROL Preset doesn’t exist.]**:如果在消息创建后删除了所选的预设，则无法发布消息。 如果发生此错误，请在消息中选择其他预设 **[!UICONTROL Properties]**. 在中了解有关品牌策略的更多信息 [此部分](../configuration/about-subdomain-delegation.md).
 

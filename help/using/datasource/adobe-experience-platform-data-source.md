@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 11%
+source-wordcount: '420'
+ht-degree: 10%
 
 ---
 
 # Adobe Experience Platform 数据源 {#adobe-experience-platform-data-source}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_built_in"
+>title="Adobe Experience Platform 数据源"
+>abstract="Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。"
 
 Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户资料服务的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 

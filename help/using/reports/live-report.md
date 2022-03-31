@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ ht-degree: 0%
 
    ![](assets/report_2.png)
 
+* 如果要从 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 对于投放，单击 **[!UICONTROL Global view]** 切换器。
+
+   ![](assets/report_3.png)
+
 ## 自定义功能板 {#modify-dashboard}
 
 可通过调整大小或删除小组件来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
 1. 选择是否要使用切换栏从报表中排除测试事件。 有关测试事件的更多信息，请参阅 [本页](../building-journeys/testing-the-journey.md).
+
+   请注意， **[!UICONTROL Exclude test events]** 选项仅可用于历程报表。
 
    ![](assets/report_modify_6.png)
 

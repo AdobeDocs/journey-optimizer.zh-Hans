@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 18%
@@ -47,9 +47,9 @@ ht-degree: 18%
 
 1. [发布](create-lp.md#publish) 登陆页面。
 
-1. [创建电子邮件](../messages/create-message.md) 以宣布注册现已对您的活动开放。
+1. [创建电子邮件](../messages/get-started-content.md) 以宣布注册现已对您的活动开放。
 
-1. [插入链接](../messages/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
+1. [插入链接](../design/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ ht-degree: 18%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [创建电子邮件](../messages/create-message.md) in [!DNL Journey Optimizer].
+1. [创建电子邮件](../messages/get-started-content.md) in [!DNL Journey Optimizer].
 
-1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../messages/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
+1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../design/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -174,5 +174,5 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
 -->

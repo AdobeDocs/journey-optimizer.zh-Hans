@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
-有关退回的更多信息，请参阅 [禁止列表](../messages/suppression-list.md) 页面。
+有关退回的更多信息，请参阅 [禁止列表](../reports/suppression-list.md) 页面。
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 
 * **[!UICONTROL Engagement Rate]**:此推送通知的打开次数和操作的百分比，例如用户档案打开了推送或单击了按钮。
 
+![](assets/global_report_24.png)
+
 的 **[!UICONTROL Push notification summary]** 图表包含可用于已发送推送通知的数据，例如：
 
 * **[!UICONTROL Opens]**:投放中消息打开的次数。
@@ -242,6 +244,8 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 ![](assets/global_report_18.png)
 
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
+
+的 **[!UICONTROL Excluded reasons]** 图形和表格显示阻止从定向用户档案中排除的用户配置文件接收消息的不同原因。
 
 ![](assets/global_report_19.png)
 

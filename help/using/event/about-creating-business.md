@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 12%
+source-wordcount: '1116'
+ht-degree: 11%
 
 ---
 
 # 配置业务事件 {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="业务事件"
+>abstract="事件配置允许您定义Journey Optimizer将作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。 与单一事件不同，业务事件与特定用户档案不相关。 事件ID类型始终基于规则。"
 
 与单一事件不同，业务事件与特定用户档案不相关。 事件ID类型始终基于规则。 请阅读 [此部分](../event/about-events.md).
 
@@ -23,11 +28,12 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您还可以观看业务事件用例 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>您还可以观看业务事件用例 [教程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). 请注意，无需为用户档案启用架构。
 
 ## 重要说明 {#important-notes}
 
-* 只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含主标识。 以下字段必须设置为必填字段： `_id` 和 `timestamp`
+* 只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。
+* 事件架构必须包含基于人员的主标识。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
 * 只能将业务事件作为历程的第一步进行删除。
 * 将业务事件作为历程的第一步删除时，历程的计划程序类型将为“业务事件”。
 * 在业务事件后，只能删除读取区段活动。 它将自动添加为下一步。
@@ -78,7 +84,7 @@ ht-degree: 12%
 
    ![](assets/jo-event5-business.png)
 
-   只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含主标识。 以下字段必须设置为必填字段： `_id` 和 `timestamp`
+   只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含基于人员的主标识。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 

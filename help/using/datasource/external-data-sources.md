@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 89%
+source-wordcount: '1367'
+ht-degree: 90%
 
 ---
 
 # 外部数据源 {#external-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_data_source_custom"
+>title="外部数据源"
+>abstract="外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。"
 
 外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
@@ -68,7 +73,7 @@ ht-degree: 89%
 
 * **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅 [Journey Orchestration文档](../building-journeys/expression/expressionadvanced.md).
+* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 

@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # 更新用户档案 {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="更新用户档案活动"
+>abstract="利用更新配置文件操作活动，可使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。"
 
 的 **[!UICONTROL Update Profile]** 操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有的Adobe Experience Platform配置文件。
 
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用 **更新用户档案** 操作活动，并将测试用户档案布尔字段从false更改为true。
 
-有关如何将现有用户档案转换为测试用户档案的更多信息，请参阅此 [部分](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+有关如何将现有用户档案转换为测试用户档案的更多信息，请参阅此 [部分](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## 使用用户档案更新
 

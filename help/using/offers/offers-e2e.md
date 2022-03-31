@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 5%
@@ -225,11 +225,11 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 现在，您的决策已开始实时，您可以将其插入电子邮件。 要实现此目的，请执行以下步骤：
 
-1. 创建电子邮件，然后打开 [Email Designer](../../using/messages/design-emails.md) 以配置其内容。
+1. 创建电子邮件，然后打开 [Email Designer](../../using/design/design-emails.md) 以配置其内容。
 
 1. 从左侧面板添加结构组件。
 
-1. 添加 **[!UICONTROL Offer decision]** 内容组件。 了解如何在 [此部分](../../using/messages/content-components.md).
+1. 添加 **[!UICONTROL Offer decision]** 内容组件。 了解如何在 [此部分](../../using/design/content-components.md).
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -255,7 +255,7 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 在 [此部分](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
+使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 在 [此部分](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 保存更改后并发布消息后，在历程中发送消息时，您的选件即可显示到相关用户档案。
 
@@ -265,7 +265,7 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 **相关主题：**
 
-* 了解如何在中查看消息预览 [此部分](../../using/messages/preview.md#preview-your-messages).
+* 了解如何在中查看消息预览 [此部分](../../using/design/preview.md#preview-your-messages).
 
 * 了解如何在 [此部分](../../using/messages/publish-manage-message.md).
 

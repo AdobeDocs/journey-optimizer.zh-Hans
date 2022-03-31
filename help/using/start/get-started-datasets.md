@@ -4,7 +4,7 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -38,6 +38,6 @@ ht-degree: 26%
 
 **另请参阅**
 
-* [在Journey Optimizer中创建架构、数据集和摄取数据以添加测试用户档案](../building-journeys/creating-test-profiles.md)
+* [在Journey Optimizer中创建架构、数据集和摄取数据以添加测试用户档案](../segment/creating-test-profiles.md)
 * [流摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}
 * [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}

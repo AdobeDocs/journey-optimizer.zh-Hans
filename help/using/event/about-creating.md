@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 14%
+source-wordcount: '1493'
+ht-degree: 13%
 
 ---
 
 # 配置统一事件 {#configure-an-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="单一事件"
+>abstract="事件配置允许您定义Journey Optimizer将作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。 单一事件与特定用户档案相关联。 它们可以是基于规则的，也可以是系统生成的。"
 
 单一事件与特定用户档案相关联。 它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件的更多信息 [此部分](../event/about-events.md).
 

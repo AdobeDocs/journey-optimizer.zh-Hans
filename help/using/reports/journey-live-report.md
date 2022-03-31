@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,11 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Ignored]**:临时（如“不在办公室”）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
-的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
+![](assets/report_email_3.png)
+
+的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
+
+的 **[!UICONTROL Email - Top recipient domain]** 图表和表格详细列出了收件人最常使用哪些域来打开电子邮件。
 
 ## “推送”选项卡 {#push-live}
 
@@ -141,10 +145,12 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 
 * **[!UICONTROL Engagements]**:此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。
 
-的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
+![](assets/report_push_3.png)
+
+的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
+
+的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。
 
 ![](assets/report_push_2.png)
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
-
-的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。

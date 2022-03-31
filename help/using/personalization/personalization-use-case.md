@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 对于此用例，需要满足以下先决条件：
 
-* 创建和设计推送通知消息，而不发布。 请参阅 [部分](../messages/create-message.md).
+* 创建和设计推送通知消息，而不发布。 请参阅 [部分](../messages/get-started-content.md).
 * 配置订单事件，包括订单编号、状态和物料名称。 请参阅 [部分](../event/about-events.md).
 * 创建决策（以前称为“选件活动”），请参阅 [部分](../offers/offer-activities/create-offer-activities.md).
 

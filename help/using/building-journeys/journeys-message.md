@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 6%
+source-wordcount: '826'
+ht-degree: 5%
 
 ---
 
 # 在历程中添加消息{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="消息活动"
+>abstract="利用消息活动，可发送推送或电子邮件消息。 Journey Optimizer消息功能是内置的。 该消息在Journey Optimizer的“消息”菜单中设计并发布。"
 
 [!DNL Journey Optimizer] 消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../messages/get-started-content.md)。然后，您只需在历程中添加使用Journey Optimizer设计的推送或电子邮件消息即可。
 

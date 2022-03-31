@@ -5,7 +5,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 作为开发人员，您需要 **配置移动设备应用程序** 能够通过 [!DNL Adobe Journey Optimizer].
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始使用 [!DNL Journey Optimizer]，您需要确保在移动应用程序上部署配置和集成，以及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. 要了解 [!DNL Adobe Journey Optimizer] 请参阅 [本页](../../messages/push-gs.md).
+[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始使用 [!DNL Journey Optimizer]，您需要确保在移动应用程序上部署配置和集成，以及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. 要了解 [!DNL Adobe Journey Optimizer] 请参阅 [本页](../../configuration/push-gs.md).
 
-有关配置推送通知渠道和测试移动设备应用程序集成的详细步骤，请参阅 [本页](../../messages/push-configuration.md).
+有关配置推送通知渠道和测试移动设备应用程序集成的详细步骤，请参阅 [本页](../../configuration/push-configuration.md).
 
 ## 使用API {#work-apis}
 

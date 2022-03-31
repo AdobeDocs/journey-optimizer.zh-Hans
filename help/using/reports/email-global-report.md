@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -75,9 +75,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Ignored]**:临时（如外出）或技术错误（例如，如果发件人类型为邮递员）的总数。
 
-有关退回的更多信息，请参阅 [禁止列表](../messages/suppression-list.md) 页面。
+有关退回的更多信息，请参阅 [禁止列表](../reports/suppression-list.md) 页面。
 
-的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
+的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
 
 ![](assets/global_report_6.png)
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >具有 **[!UICONTROL Suppressed]** 或 **[!UICONTROL Not allowed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息](../building-journeys/journeys-message.md) ) **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
 >
->了解 [禁止列表](../messages/suppression-list.md) 和 [允许列表](../messages/allow-list.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
+>了解 [禁止列表](../reports/suppression-list.md) 和 [允许列表](allow-list.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。

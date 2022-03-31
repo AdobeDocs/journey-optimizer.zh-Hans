@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Opens]**:投放中消息打开的次数。
 
+![](assets/live_report_9.png)
+
+的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
+
+的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。
+
 ![](assets/live_report_4.png)
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
 
-的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。
-
-的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。

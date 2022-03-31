@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/messages/design-emails.md">设计电子邮件内容</a>
+      <a href="using/design/design-emails.md">设计电子邮件内容</a>
     </div>
     <p>
     设计新电子邮件或导入现有 HTML 内容
@@ -116,7 +116,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">历程</a>
     </li>
     <li>
-      <a href="using/messages/create-message.md">消息</a>
+      <a href="using/messages/get-started-content.md">消息</a>
     </li>
     <p>
     <p>决策管理</p>
@@ -129,7 +129,7 @@ ht-degree: 100%
     <p>
     <p>内容管理</p>
     <li>
-      <a href="using/messages/assets-essentials.md">资源</a>
+      <a href="using/design/assets-essentials.md">资源</a>
     </li>
     <p>
     <p>数据管理</p>
@@ -156,10 +156,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">区段</a>
     </li>
      <li>
-      <a href="using/start/get-started-profiles.md">用户档案</a>
+      <a href="using/segment/get-started-profiles.md">用户档案</a>
     </li>
     <li>
-      <a href="using/start/get-started-identity.md">标识</a>
+      <a href="using/segment/get-started-identity.md">标识</a>
     </li>
     <p>
     <p>管理</p>

@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1271'
 ht-degree: 9%
 
 ---
 
 # 条件活动{#condition-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="条件活动"
+>abstract="此活动允许您定义个人在历程中的流量方式。 将根据各种标准创建多个路径。 您还可以在超时或出错的情况下创建替代路径。"
 
 可以使用以下类型的条件：
 
@@ -26,6 +31,11 @@ ht-degree: 9%
 ![](assets/journey49.png)
 
 ## 关于条件活动 {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="关于简单表达式编辑器"
+>abstract="利用简单表达式编辑器模式，可基于字段组合执行简单查询。 所有可用字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同的元素，请将它们互相联锁，以创建不同的组和/或组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素。"
 
 在历程中使用多个条件时，您可以为其中每个条件定义标签，以便更轻松地识别它们。
 
@@ -53,15 +63,17 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->无法使用简单的编辑器对时间序列（例如购买列表、消息的过去点击）执行查询。 为此，您将需要使用高级编辑器。 请参阅 [AdobeJourney Orchestration文档](expression/expressionadvanced.md).
+>无法使用简单的编辑器对时间序列（例如购买列表、消息的过去点击）执行查询。 为此，您将需要使用高级编辑器。 请参阅[此页](expression/expressionadvanced.md)。
 
 当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
 
-在简单编辑器中，您还可以在事件和数据源类别下方找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。有关更多信息，请参阅 [AdobeJourney Orchestration文档](expression/journey-properties.md)
+在简单编辑器中，您还可以在事件和数据源类别下方找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。[了解详情](expression/journey-properties.md)
 
 ## 数据源条件 {#data_source_condition}
 
-这允许您根据数据源中的字段或先前位于历程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅 [AdobeJourney Orchestration文档](expression/expressionadvanced.md). 使用高级表达式编辑器，您可以设置更高级的条件来处理集合或使用需要传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
+这允许您根据数据源中的字段或先前位于历程中的事件定义条件。 了解如何在中使用表达式编辑器 [此部分](expression/expressionadvanced.md).
+
+使用高级表达式编辑器，您可以设置更高级的条件来处理集合或使用需要传递参数的数据源。 [了解详情](../datasource/external-data-sources.md)。
 
 ![](assets/journey50.png)
 
@@ -112,7 +124,7 @@ ht-degree: 9%
 对于实时历程，请考虑以下阈值以确保达到限制：
 
 * 对于大于10000的帽，要插入的不同轮廓的数量必须至少是帽的1.3倍。
-* 对于低于10000的上限，要插入的不同配置文件的数量必须加上上限。
+* 对于低于10000的上限，要插入的不同配置文件数必须为1000加上上上限。
 
 在测试模式下，未考虑配置文件上限。
 

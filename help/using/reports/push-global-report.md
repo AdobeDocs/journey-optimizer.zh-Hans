@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
-的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
+![](assets/push_global_report_3.png)
+
+的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
 
 ![](assets/push_global_report_2.png)
 

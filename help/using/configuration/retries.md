@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->了解有关 [投放失败类型](../messages/suppression-list.md#delivery-failures) 中。
+>了解有关 [投放失败类型](../reports/suppression-list.md#delivery-failures) 中。
 
 在默认配置中，阈值设置为5个错误。
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../messages/deliverability.md)
+   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../reports/deliverability.md)
 
 ## 重试时段 {#retry-duration}
 

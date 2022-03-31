@@ -3,7 +3,7 @@ title: Journey Optimizer系统管理员入门
 description: 作为系统管理员，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -48,7 +48,7 @@ As a **系统管理员**，您需要 **了解产品配置文件和分配权限**
 
 1. **配置消息和渠道**:定义预设、调整和自定义电子邮件和推送消息设置
 
-   * 定义 **推送通知设置** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../../messages/push-gs.md)
+   * 定义 **推送通知设置** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../../configuration/push-gs.md)
 
    * 创建 **消息预设** 配置电子邮件和推送通知消息所需的所有技术参数。 [了解详情](../../configuration/message-presets.md)
 
@@ -64,8 +64,8 @@ As a **系统管理员**，您需要 **了解产品配置文件和分配权限**
 
 1. **管理抑制和允许列表**:通过抑制和允许列表提高投放能力
 
-   * A [抑制列表](../../messages/suppression-list.md) 包含要从投放中排除的电子邮件地址，因为发送给这些联系人可能会损害您的发送信誉和投放率。 您可以监控在历程中自动被排除在发送之外的所有电子邮件地址，例如无效地址、始终软退回的地址，并可能对您的电子邮件信誉造成不利影响的地址，以及针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。 了解如何管理 [抑制列表](../../configuration/manage-suppression-list.md) 和 [重试](../../configuration/retries.md).
+   * A [抑制列表](../../reports/suppression-list.md) 包含要从投放中排除的电子邮件地址，因为发送给这些联系人可能会损害您的发送信誉和投放率。 您可以监控在历程中自动被排除在发送之外的所有电子邮件地址，例如无效地址、始终软退回的地址，并可能对您的电子邮件信誉造成不利影响的地址，以及针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。 了解如何管理 [抑制列表](../../configuration/manage-suppression-list.md) 和 [重试](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * 的 [允许列表](../../messages/allow-list.md) 允许您指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。 这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。 了解如何 [启用允许列表](../../messages/allow-list.md).
-   详细了解 [!DNL Adobe Journey Optimizer] [本页](../../messages/deliverability.md).
+   * 的 [允许列表](../../reports/allow-list.md) 允许您指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。 这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。 了解如何 [启用允许列表](../../reports/allow-list.md).
+   详细了解 [!DNL Adobe Journey Optimizer] [本页](../../reports/deliverability.md).
