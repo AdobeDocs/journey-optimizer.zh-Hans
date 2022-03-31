@@ -98,7 +98,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 每年的某一日{#day-year}
+## 年中哪天{#day-year}
 
 的 `dayOfYear` 函数用于检索每年的某一天。
 

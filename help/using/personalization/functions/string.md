@@ -1,5 +1,5 @@
 ---
-title: String functions library
+title: 字符串函数库
 description: 字符串函数库
 feature: Personalization
 topic: Personalization
@@ -13,11 +13,11 @@ ht-degree: 7%
 
 ---
 
-# String Functions {#string}
+# 字符串函数 {#string}
 
 了解如何在表达式编辑器中使用字符串函数。
 
-## Camel Case {#camelCase}
+## 驼峰 {#camelCase}
 
 的 `camelCase` 函数会大写字符串每个单词的第一个字母。
 
@@ -101,14 +101,14 @@ ht-degree: 7%
 
 **示例**
 
-The following query determines, with case sensitivity, if the person&#39;s email address does not contain the string &quot;2010@gm&quot;.
+以下查询区分大小写地确定人员的电子邮件地址是否不包含字符串“2010@gm”。
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
 ```
 
 
-## Does not end with{#doesNotEndWith}
+## 不以结尾{#doesNotEndWith}
 
 的 `doesNotEndWith` 函数来确定字符串是否不以指定的子字符串结尾。
 
@@ -132,7 +132,7 @@ The following query determines, with case sensitivity, if the person&#39;s email
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Does not start with{#doesNotStartWith}
+## 开头不为{#doesNotStartWith}
 
 的 `doesNotStartWith` 函数来确定字符串是否不以指定的子字符串开头。
 
@@ -145,8 +145,8 @@ doesNotEndWith(person.emailAddress,".com")
 | 参数 | 描述 |
 | --------- | ----------- |
 | `{STRING_1}` | 要执行检查的字符串。 |
-| `{STRING_2}` | The string to search for within the first string. |
-| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写的可选参数。 Possible values: true (default) / false. |
+| `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写的可选参数。 可能值：true（默认）/ false。 |
 
 **示例**
 
@@ -249,7 +249,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-The following query extracts the email domain of the personal email address.
+以下查询会提取个人电子邮件地址的电子邮件域。
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
@@ -257,7 +257,7 @@ The following query extracts the email domain of the personal email address.
 
 ## 为空 {#isEmpty}
 
-The `isEmpty` function is used to determine of a string is empty.
+的 `isEmpty` 函数来确定字符串是否为空。
 
 **格式**
 
@@ -314,11 +314,11 @@ The `isEmpty` function is used to determine of a string is empty.
 | 参数 | 描述 |
 | --------- | ----------- |
 | `{STRING_1}` | 要执行检查的字符串。 |
-| `{STRING_2}` | 要与第一个字符串匹配的表达式。 There are two supported special characters for creating an expression: `%` and `_`. <ul><li>`%` 用于表示零个或多个字符。</li><li>`_` is used to represent exactly one character.</li></ul> |
+| `{STRING_2}` | 要与第一个字符串匹配的表达式。 创建表达式时，有两个受支持的特殊字符： `%` 和 `_`. <ul><li>`%` 用于表示零个或多个字符。</li><li>`_` 仅用于表示一个字符。</li></ul> |
 
 **示例**
 
-The following query retrieves all the cities where profiles live containing the pattern &quot;es&quot;.
+以下查询可检索用户档案所在的所有城市，其中包含模式“es”。
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
@@ -326,7 +326,7 @@ The following query retrieves all the cities where profiles live containing the 
 
 ## 小写{#lower}
 
-The `lowerCase` function converts a string to lower case letters.
+的 `lowerCase` 函数将字符串转换为小写字母。
 
 **语法**
 
@@ -344,7 +344,7 @@ The `lowerCase` function converts a string to lower case letters.
 
 ## 匹配{#matches}
 
-The `matches` function is used to determine if a string matches a specific regular expression. 请参阅 [本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 有关正则表达式中匹配模式的更多信息。
+的 `matches` 函数来确定字符串是否与特定正则表达式匹配。 请参阅 [本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 有关正则表达式中匹配模式的更多信息。
 
 **格式**
 
@@ -383,7 +383,7 @@ The `matches` function is used to determine if a string matches a specific regul
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Regular expression group{#regexGroup}
+## 正则表达式组{#regexGroup}
 
 的 `Group` 函数用于根据提供的正则表达式提取特定信息。
 
@@ -397,7 +397,7 @@ The `matches` function is used to determine if a string matches a specific regul
 | --------- | ----------- |
 | `{STRING}` | 要执行检查的字符串。 |
 | `{EXPRESSION}` | 要与第一个字符串匹配的正则表达式。 |
-| `{GROUP}` | Expression group to match against. |
+| `{GROUP}` | 要匹配的表达式组。 |
 
 **示例**
 
@@ -426,9 +426,9 @@ The `matches` function is used to determine if a string matches a specific regul
 ```
 
 
-## Replace All{#replaceAll}
+## 全部替换{#replaceAll}
 
-The `replaceAll` function is used to replace all substrings of a text that matches the &quot;target&quot; with the specified literal &quot;replacement&quot; string. The replacement proceeds from the beginning of the string to the end, for example, replacing &quot;aa&quot; with &quot;b&quot; in the string &quot;aaa&quot; will result in &quot;ba&quot; rather than &quot;ab&quot;.
+的 `replaceAll` 函数将匹配“target”的文本的所有子字符串替换为指定的文字“replacement”字符串。 替换从字符串的开头到结尾，例如，将字符串“aaa”中的“aa”替换为“b”将生成“ba”而不是“ab”。
 
 **格式**
 
@@ -487,7 +487,7 @@ The following function .
 
 **示例**
 
-The following query determines, with case sensitivity, if the person&#39;s name starts with &quot;Joe&quot;.
+以下查询区分大小写地确定人员姓名是否以“Joe”开头。
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
@@ -511,9 +511,9 @@ The following query determines, with case sensitivity, if the person&#39;s name 
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## Trim{#trim}
+## 裁切{#trim}
 
-The **trim** function removes all white spaces from the beginning and at the end of a string.
+的 **trim** 函数会删除字符串开头和结尾的所有空格。
 
 **语法**
 
@@ -521,7 +521,7 @@ The **trim** function removes all white spaces from the beginning and at the end
 {%= trim(string) %}
 ```
 
-## Upper Case{#upper}
+## 大写{#upper}
 
 的 **upperCase** 函数将字符串转换为大写字母。
 

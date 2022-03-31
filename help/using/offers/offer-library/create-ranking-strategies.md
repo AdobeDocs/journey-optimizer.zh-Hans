@@ -14,7 +14,7 @@ ht-degree: 5%
 
 ---
 
-# 创建AI模型 {#ai-rankings}
+# 创建 AI 模型 {#ai-rankings}
 
 [!DNL Journey Optimizer] 允许您创建 **AI模型** 根据您的业务目标对选件进行排名。
 
@@ -58,7 +58,7 @@ ht-degree: 5%
       * **[!UICONTROL Impression]**:当前展示事件与显示的所有选件相对应。
       * **[!UICONTROL Conversion]**:转化事件与通过电子邮件或Web进行点击的所有选件相对应。
 
-      所有选定的展示事件和/或转化事件都将使用提供的Web SDK或Mobile SDK自动捕获。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+      所有选定的展示事件和/或转化事件都将使用已提供的Web SDK或Mobile SDK自动捕获。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
    * **[!UICONTROL Dataset ID]**:对于转化，您需要提供一个数据集，通过从下拉列表中选择该数据集来收集事件。 了解如何在 [此部分](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

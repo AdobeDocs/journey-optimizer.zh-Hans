@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: 关于AI模型
+title: 关于 AI 模型
 description: 了解允许对优惠进行排名的AI模型
 feature: Ranking Formulas
 role: User

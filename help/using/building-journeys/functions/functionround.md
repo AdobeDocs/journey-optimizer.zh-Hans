@@ -15,7 +15,7 @@ ht-degree: 15%
 
 # round {#round}
 
-Returns the closest integer value to the argument with ties rounding to positive infinity.
+将最接近的整数值返回到参数，并将舍入到正无穷大。
 
 ## 类别
 

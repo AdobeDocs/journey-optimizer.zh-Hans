@@ -15,13 +15,13 @@ ht-degree: 20%
 
 # 长度 {#length}
 
-Returns the number of characters of the string expression in the parameter.
+返回参数中字符串表达式的字符数。
 
 ## 类别
 
 字符串
 
-## Function syntax
+## 函数语法
 
 `length(<parameters>)`
 
@@ -39,4 +39,4 @@ Returns the number of characters of the string expression in the parameter.
 
 `length("Hello World")`
 
-Returns 11.
+返回11。
