@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 2%
@@ -144,6 +144,7 @@ ht-degree: 2%
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+
    您也可以从 **[!UICONTROL Suppression list]** 主视图。
 
    >[!CAUTION]
