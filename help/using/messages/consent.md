@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 82%
+source-wordcount: '1220'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 #### 为选择退出实施 API 调用 {#opt-out-api}
 
-要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过 Adobe I/O 实施&#x200B;**订阅 API 调用**&#x200B;以更新相应用户档案的偏好设置。
+要在收件人从登陆页面提交其选择时选择退出，您必须实施 **订阅API调用** 至 [Adobe开发人员](developer.adobe.com) 更新相应用户档案的首选项。
 
-该 Adobe I/O POST 调用如下：
+此POST调用如下所示：
 
 端点：platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 }
 ```
 
-[!DNL Journey Optimizer] 将使用这些参数通过 Adobe I/O 调用更新相应用户档案的选择。
+[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe开发人员](developer.adobe.com) API调用。
 
 #### 使用取消订阅链接发送消息 {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    ![](assets/opt-out-lp-example.png)
 
-1. 如果收件人提交了表单（在此处，通过点击登陆页面中的 **Unsubscribe** 按钮），将通过 [Adobe I/O 调用](#opt-out-api)更新用户档案数据。
+1. 如果收件人提交表单(此处为通过点击 **取消订阅** 按钮)，则用户档案数据将通过 [API调用](#opt-out-api).
 
 1. 然后，选择退出的收件人将被重定向至确认消息屏幕，提示收件人选择退出已成功完成。
 

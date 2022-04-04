@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 76%
+source-wordcount: '249'
+ht-degree: 65%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 76%
 
 如果您拥有Adobe Campaign v7或v8，则集成可应请求提供。 请参见[此页面](../action/acc-action.md)。
 
-如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参见[此页面](../action/about-custom-action-configuration.md)。
+如果您使用第三方系统来发送消息，例如Epsilon、Facebook、 [Adobe开发人员](developer.adobe.com)、 Firebase等，则需要添加和配置自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
 通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 
