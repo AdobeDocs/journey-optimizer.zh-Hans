@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 76%
+source-wordcount: '1228'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 #### 为选择退出实施 API 调用 {#opt-out-api}
 
-要在收件人从登陆页面提交其选择时选择退出，您必须实施 **订阅API调用** 至 [Adobe开发人员](developer.adobe.com) 更新相应用户档案的首选项。
+要在收件人从登陆页面提交其选择时选择退出，您必须实施 **订阅API调用** 至 [Adobe开发人员](https://developer.adobe.com){target=&quot;_blank&quot;}以更新相应配置文件的首选项。
 
 此POST调用如下所示：
 
@@ -109,7 +109,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 }
 ```
 
-[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe开发人员](developer.adobe.com) API调用。
+[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe开发人员](https://developer.adobe.com){target=&quot;_blank&quot;} API调用。
 
 #### 使用取消订阅链接发送消息 {#send-message-unsubscribe-link}
 
