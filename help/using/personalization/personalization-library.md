@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 8%
 
 要访问保存的表达式，请单击 **[!UICONTROL Library]** 按钮。 该列表显示管理员用户保存的所有表达式(请参阅 [将表达式保存到库](#save-expressions))。
 
-    >[!NOTE]
-    >
-    >您可以使用“信息”按钮获取有关已保存表达式内容的更多信息。 如果您具有管理库项目的适当权限，则“信息”按钮将显示在椭圆菜单中。
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>您可以使用“信息”按钮获取有关已保存表达式内容的更多信息。 如果您具有管理库项目的适当权限，则“信息”按钮将显示在椭圆菜单中。
+
+![](assets/library-list.png)
 
 单击+以将表达式插入编辑器。 然后，您可以像往常一样自定义和验证个性化内容。 [了解详情](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## 将表达式保存到库 {#save-expressions}
 
