@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,17 @@ ht-degree: 1%
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>由于模拟不生成任何决策事件，因此 [上限](../offer-library/creating-personalized-offers.md#capping) 计数不受影响。
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## 选择测试用户档案 {#select-test-profiles}
 
-首先，您需要选择要用于模拟的测试用户档案。 在 [本页](../../segment/creating-test-profiles.md).
+首先，您需要选择要用于模拟的测试用户档案。 在 [此部分](../../segment/creating-test-profiles.md).
 
 1. 单击 **[!UICONTROL Manage profile]**。
 
