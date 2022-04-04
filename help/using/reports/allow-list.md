@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 6%
+source-wordcount: '556'
+ht-degree: 1%
 
 ---
 
 # 允许列表 {#allow-list}
 
-可以在 [沙盒](../administration/sandboxes.md) 级别，以便拥有安全的环境进行测试。 在可能出现错误的非生产实例上，允许列表可确保不会出现向客户发送不必要消息的风险。
+可以在 [沙盒](../administration/sandboxes.md) 级别，以便拥有安全的环境进行测试。
+
+例如，在可能发生错误的非生产实例上，允许列表可确保您没有向客户发送不需要的消息的风险。
+
+>[!NOTE]
+>
+>此功能现在可用于生产沙箱和非生产沙箱。
 
 利用允许列表，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。 这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。
 
 >[!CAUTION]
 >
->此功能为 **not** 可在生产沙箱中使用。 它仅适用于电子邮件渠道。
+>此功能仅适用于电子邮件渠道。
 
 ## 启用允许列表 {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-要在非生产沙盒上启用允许列表，请执行以下步骤。
+要启用允许列表，请执行以下步骤。
 
 1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 菜单。
 

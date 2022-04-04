@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 94%
+source-wordcount: '1054'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 * 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/offer-library/ai-ranking.md)
 * 测试用户档案创建页面已移至  **区段、用户档案和身份** 中。 [了解更多信息](../segment/creating-test-profiles.md)
 * 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解更多信息](../building-journeys/expression/field-references.md#default-value)
-* 的 **更改主电子邮件地址** 更新了部分以反映用户界面的更改。 [了解更多信息](../configuration/primary-email-addresses.md)
+<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## 2022 年 2 月 {#feb-2022}
 

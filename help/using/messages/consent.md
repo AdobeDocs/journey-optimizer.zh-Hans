@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 根据电子邮件客户端的不同，单击标题中的取消订阅链接可能会产生以下影响：
 
-* 取消订阅请求将发送到取消订阅地址。
+* 取消订阅请求将发送到默认的取消订阅地址。
 
 * 收件人会被定向到您在向消息添加选择退出链接时指定的登陆页面URL。
 
@@ -200,8 +200,6 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
    >如果您没有在消息内容中添加一键单击选择退出链接，则不会显示登陆页面。
 
 * 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中了解更多信息。
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## 推送退出管理 {#push-opt-out-management}
 

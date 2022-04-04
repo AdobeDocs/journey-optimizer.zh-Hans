@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 68%
 
 ---
 
@@ -175,3 +175,16 @@ ht-degree: 100%
   </td>
 </tr>
 </table>
+
+
+
+![新闻稿](using/assets/do-not-localize/nl-icon.png) 注册 [Adobe Journey Optimizer季刊](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html)今天的{target=&quot;_blank&quot;}!
+
+每季度接收直接发送至您的收件箱的最新产品更新、精彩故事、用例、提示等。
+
+在每个新闻稿中，您将找到：
+* 产品新闻和更新（包括最近发布的功能）
+* 最近网络研讨会的活动邀请、网络研讨会和录像
+* Adobe Journey OptimizerExperience League社区中的主要讨论
+* 其他Adobe Journey Optimizer客户的案例研究和用例
+* 可帮助提供卓越客户体验以推动业务成功的提示和技巧
