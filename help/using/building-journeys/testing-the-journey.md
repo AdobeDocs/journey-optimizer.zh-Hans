@@ -1,14 +1,14 @@
 ---
-title: 测试历程
-description: 了解历程测试
+title: 测试您的历程
+description: 了解如何测试您的历程
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1600'
 ht-degree: 2%
 
 ---
@@ -18,23 +18,24 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="测试您的历程"
->abstract="您可以使用测试用户档案在历程发布之前对其进行测试。 这允许您分析个人在历程中的流动方式，并在发布之前进行故障诊断。"
+>abstract="在发布历程之前，使用测试用户档案对历程进行测试。 这允许您分析个人在历程中的流动方式，并在发布之前进行故障诊断。"
 
-在能够测试历程之前，必须解决所有错误（如果有）。 请参阅[此小节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。
+在发布历程之前，使用测试用户档案对历程进行测试。 利用此模式，可运行历程测试并使用测试用户档案识别问题。
 
-您可以使用测试用户档案在历程发布之前对其进行测试。 这允许您分析个人在历程中的流动方式，并在发布之前进行故障诊断。
+只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在 [此部分](../segment/creating-test-profiles.md).
 
-只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 请参阅 [部分](../segment/creating-test-profiles.md).
+>[!NOTE]
+>
+>在测试历程之前，必须解决所有错误（如果有）。 了解如何在测试之前检查错误 [此部分](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+
 
 要使用测试模式，请执行以下步骤：
 
-1. 在测试历程之前，请验证历程是否有效且没有错误。 您将无法启动包含错误的历程测试。 请参阅[此小节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。出现错误时，将显示警告符号。
-
-1. 要激活测试模式，请单击 **[!UICONTROL Test]** 切换，位于右上角。
+1. 要激活测试模式，请激活 **[!UICONTROL Test]** 切换，位于右上角。
 
    ![](assets/journeytest1.png)
 
-1. 使用 **[!UICONTROL Wait time]** 参数，用于定义在测试模式下每个等待活动和事件超时的持续时间。 默认时间为10秒，用于等待和事件超时。 这样可以确保快速获得测试结果。 仅当您在历程中放置了一个或多个等待活动时，才会显示此参数。
+1. 如果历程至少具有 **等待** 活动时，设置 **[!UICONTROL Wait time]** 参数来定义每次等待活动和事件超时在测试模式下的最后持续时间。 默认时间为10秒，用于等待和事件超时。 这样可以确保快速获得测试结果。
 
    ![](assets/journeytest_wait.png)
 
@@ -42,19 +43,19 @@ ht-degree: 2%
    >
    >在历程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
 
-1. 单击 **[!UICONTROL Trigger an event]** 配置事件并将事件发送到历程。
+1. 使用 **[!UICONTROL Trigger an event]** 按钮以配置事件并将事件发送到历程。
 
    ![](assets/journeyuctest1.png)
 
-1. 配置所需的不同字段。 在 **配置文件标识符** 字段，输入用于标识测试用户档案的字段值。 例如，它可以是电子邮件地址。 确保发送与测试用户档案相关的事件。 请参阅 [触发事件](#firing_events).
+1. 配置所需的不同字段。 在 **配置文件标识符** 字段，输入用于标识测试用户档案的字段值。 例如，它可以是电子邮件地址。 确保发送与测试用户档案相关的事件。 请参阅[此小节](#firing_events)。
 
    ![](assets/journeyuctest1-bis.png)
 
-1. 收到事件后，单击 **[!UICONTROL Show log]** 按钮查看测试结果并进行验证。 请参阅 [查看日志](#viewing_logs).
+1. 收到事件后，单击 **[!UICONTROL Show log]** 按钮查看测试结果并进行验证。 请参阅[此小节](#viewing_logs)。
 
    ![](assets/journeyuctest2.png)
 
-1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。当测试结果确定时，您可以发布历程。 请参阅[此页](../building-journeys/publishing-the-journey.md)。
+1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。测试完成后，您可以发布历程。 请参阅[此页](../building-journeys/publishing-the-journey.md)。
 
 ## 重要说明 {#important_notes}
 
@@ -66,7 +67,7 @@ ht-degree: 2%
 * 您可以根据需要多次启用/禁用测试模式。
 * 激活测试模式后，您无法修改历程。 在测试模式下，您可以直接发布历程，无需先停用测试模式。
 * 达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，则可以重新组织拆分分支的位置。
-* 为优化性能并防止过时的资源使用，所有处于测试模式且一周内未触发的历程都将切换回草稿状态。
+* 为了优化性能并防止过时的资源使用情况，所有处于测试模式且一周内未触发的历程都将切换回 **草稿** 状态。
 
 ## 触发事件 {#firing_events}
 
@@ -75,7 +76,7 @@ ht-degree: 2%
 >title="配置测试模式"
 >abstract="如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和执行事件发送。"
 
-的 **[!UICONTROL Trigger an event]** 按钮用于配置将使人员进入历程的事件。
+使用 **[!UICONTROL Trigger an event]** 按钮以配置将使人员进入历程的事件。
 
 >[!NOTE]
 >
@@ -111,11 +112,9 @@ ht-degree: 2%
 
 ![](assets/jo-event8.png)
 
-有关如何使用测试模式的详细信息，请参阅 [本页](../building-journeys/testing-the-journey.md).
-
 ## 业务事件的测试模式 {#test-business}
 
-使用业务事件时(请参阅 [此部分](../event/about-events.md))，则测试模式允许您在历程中触发单个测试用户档案入口，模拟事件并传递正确的用户档案ID。 您必须传递将在测试中进入旅程的测试用户档案的事件参数和标识符。 您不能使用 **[!UICONTROL Up to 100 profiles at once]** 选项。 在测试模式下，没有“代码视图”模式可用于基于业务事件的历程。
+使用 [业务事件](../event/about-events.md)，使用测试模式触发历程中的单个测试用户档案进入，模拟事件并传递正确的用户档案ID。 您必须传递将在测试中进入旅程的测试用户档案的事件参数和标识符。 您不能使用 **[!UICONTROL Up to 100 profiles at once]** 选项。 在测试模式下，没有“代码视图”模式可用于基于业务事件的历程。
 
 请注意，首次触发业务事件时，您不能在同一测试会话中更改业务事件定义。 您只能使同一个人或不同个人进入传递相同或其他标识符的历程。 如果要更改业务事件参数，必须停止并重新启动测试模式。
 
@@ -124,7 +123,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="测试模式日志"
->abstract="您可以查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。"
+>abstract="“显示日志”按钮以JSON格式显示测试结果。 这些结果显示历程中的个人数量及其状态。"
 
 的 **[!UICONTROL Show log]** 按钮查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 
@@ -157,9 +156,11 @@ ht-degree: 2%
 
 测试模式会自动创建一个体验事件，并将其发送到Adobe Experience Platform。 此体验事件的源名称为“Journey Orchestration测试事件”。
 
-如果是从多个历程触发的多个事件，
+<!--
+In the case of multiple events triggered from multiple journeys
 
-有一种情况是，从多个历程发送的多个事件将具有不同的架构。 是否可以将架构映射到1个数据集？ 如果没有，则需要多个数据集。
+There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
+-->
 
 如果体验事件中未包含目标数据集，则会自动创建和命名这些数据集。 因此，我们今天会看到“Automatically created for voyager”（为旅行者自动创建的数据集）。
 
