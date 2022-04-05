@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -45,27 +45,31 @@ ht-degree: 0%
 
 **警告**:
 
-* **[!UICONTROL The opt-out link is not present in the email body.]**:最佳做法是向电子邮件正文中添加退订链接。 了解如何在 [此部分](consent.md).
+* **[!UICONTROL The opt-out link is not present in the email body]**:最佳做法是向电子邮件正文中添加退订链接。 了解如何在 [此部分](consent.md#opt-out-management).
 
-* **[!UICONTROL Text version of HTML is empty.]**:请不要忘记定义电子邮件正文的文本版本，因为当HTML内容无法显示时，会使用该文本版本。 了解如何在中创建文本版本 [此部分](../design/text-version-email.md).
+   >[!NOTE]
+   >
+   >营销类型电子邮件必须包含选择退出链接，这对于事务型消息不是必需的。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息预设级别](../configuration/message-presets.md#email-type) 和时间 [创建消息](get-started-content.md#create-new-message).
 
-* **[!UICONTROL Empty link is present in email body.]**:检查电子邮件中的所有链接是否正确。 了解如何在 [此部分](../design/create-email-content.md).
+* **[!UICONTROL Text version of HTML is empty]**:请不要忘记定义电子邮件正文的文本版本，因为当HTML内容无法显示时，会使用该文本版本。 了解如何在中创建文本版本 [此部分](../design/text-version-email.md).
 
-* **[!UICONTROL Email size has exceeded the limit of 100KB.]**:为获得最佳投放，请确保电子邮件的大小不超过100KB。 了解如何在 [此部分](../design/create-email-content.md).
+* **[!UICONTROL Empty link is present in email body]**:检查电子邮件中的所有链接是否正确。 了解如何在 [此部分](../design/create-email-content.md).
+
+* **[!UICONTROL Email size has exceeded the limit of 100KB]**:为获得最佳投放，请确保电子邮件的大小不超过100KB。 了解如何在 [此部分](../design/create-email-content.md).
 
 **错误**:
 
-* **[!UICONTROL The subject line is missing.]**:电子邮件主题行是必填项。 了解如何在中定义和个性化 [此部分](create-email.md).
+* **[!UICONTROL The subject line is missing]**:电子邮件主题行是必填项。 了解如何在中定义和个性化 [此部分](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL The push version of the message is empty.]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
+* **[!UICONTROL The push version of the message is empty]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
 
-* **[!UICONTROL The email version of the message is empty.]**:未配置电子邮件内容时，会显示此错误。 了解如何在 [此部分](../design/design-emails.md).
+* **[!UICONTROL The email version of the message is empty]**:未配置电子邮件内容时，会显示此错误。 了解如何在 [此部分](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist.]**:如果在消息创建后删除了所选的预设，则无法发布消息。 如果发生此错误，请在消息中选择其他预设 **[!UICONTROL Properties]**. 在中了解有关品牌策略的更多信息 [此部分](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Preset doesn’t exist]**:如果在消息创建后删除了所选的预设，则无法发布消息。 如果发生此错误，请在消息中选择其他预设 **[!UICONTROL Properties]**. 在中了解有关品牌策略的更多信息 [此部分](../configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB.]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](create-push.md).
+* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](create-push.md).
 
 >[!CAUTION]
 >

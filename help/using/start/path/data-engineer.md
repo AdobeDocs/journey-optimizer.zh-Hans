@@ -3,16 +3,14 @@ title: Journey Optimizer数据工程师入门
 description: 作为数据工程师，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 8%
 
 ---
 
 # 数据工程师入门 {#data-engineer}
-
-![数据工程师](assets/do-not-localize/user-1.png)
 
 作为 **Adobe Journey Optimizer数据工程师**、准备和维护客户用户档案数据，以支持由 [!DNL Journey Optimizer]，在架构中为客户和业务数据建模，并配置源连接器以摄取数据。 您可以开始使用 [!DNL Adobe Journey Optimizer] 一次 [系统管理员](administrator.md) 授予您访问权限并准备环境。
 

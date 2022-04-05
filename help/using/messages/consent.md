@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 * 单击此链接后，收件人将被定向到一个确认选择退出的登陆页面。
 * 确认选择后，用户档案的数据将包含此更新信息。
+
+>[!NOTE]
+>
+>营销类型电子邮件必须包含选择退出链接，这对于事务型消息不是必需的。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息预设级别](../configuration/message-presets.md#email-type) 和时间 [创建消息](get-started-content.md#create-new-message).
 
 ### 外部选择退出 {#opt-out-external-lp}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 16%
+source-wordcount: '647'
+ht-degree: 15%
 
 ---
 
@@ -67,11 +67,15 @@ ht-degree: 16%
 
    * 选择 **[!UICONTROL Message category]**:营销或交易。
 
+   * 选择要用于该消息的渠道：电子邮件和/或推送通知。 您必须至少选择一个渠道才能创建消息。
+
    * 选择 **[!UICONTROL Preset]** 用于消息。
 
       预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。 [了解有关预设的更多信息](../configuration/message-presets.md).
+   >[!CAUTION]
+   >
+   >您必须为选定的类别和渠道选择有效的消息预设。
 
-   * 选择要用于该消息的渠道：电子邮件和/或推送通知。 您必须至少选择一个渠道才能创建消息。
    请注意，您可以随时使用 **[!UICONTROL Properties]** 按钮。
 
 1. 单击 **[!UICONTROL Create]** 确认消息创建。 您的消息会添加在消息列表中，即 **[!UICONTROL Draft]** 状态。

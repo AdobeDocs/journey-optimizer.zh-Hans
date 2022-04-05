@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,10 @@ ht-degree: 2%
    >登陆页面URL必须是唯一的。
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >即使发布了URL，您也无法通过将此URL复制粘贴到Web浏览器来访问登陆页面。 您而是可以使用预览函数(如 [此部分](#test-landing-page).
 
 1. 您可以为页面定义到期日期。 在这种情况下，您必须在页面到期时选择一项操作：
 
@@ -175,7 +179,7 @@ ht-degree: 2%
 
 * **警告** 请参阅建议和最佳实践。 <!--For example, a message will display if -->
 
-* **错误** 阻止您发布消息，但前提是这些消息未得到解析。 例如，如果主页面URL缺失，您将收到一则警告。
+* **错误** 阻止您发布登陆页面，但前提是这些页面未得到解决。 例如，如果主页面URL缺失，您将收到一则警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

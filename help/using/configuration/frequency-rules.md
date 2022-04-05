@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: '721'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 激活规则 {#activate-rule}
 
-要激活消息频度规则，请单击规则旁边的省略号，然后选择 **[!UICONTROL Activate]**.
+创建消息频度规则后，该规则的 **[!UICONTROL Draft]** 状态和尚未影响任何消息。 要启用它，请单击规则旁边的省略号，然后选择 **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -105,28 +105,70 @@ ht-degree: 0%
 
 ## 将频度规则应用于消息 {#apply-frequency-rule}
 
-要将频度规则应用于消息，您只需在 [创建消息](../messages/get-started-content.md#create-new-message).
+要将频度规则应用于消息，请执行以下步骤。
 
-![](assets/message-rules-properties.png)
+1. 创建消息. [了解详情](../messages/get-started-content.md#create-new-message)
 
-通过选择 **[!UICONTROL Marketing]** 类别中，所有匹配的消息频率规则都将自动应用于此消息。
+1. 选择为 [创建的规则](#create-new-rule).
+
+   ![](assets/message-rules-msg-properties.png)
+
+   >[!NOTE]
+   >
+   >当前仅 **[!UICONTROL Marketing]** 类别可用于消息频度规则。
+
+1. 选择您为消息选择的渠道。
+
+   ![](assets/message-rules-msg-channels.png)
+
+1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。
+
+   ![](assets/message-rules-msg-link.png)
+
+   将打开一个新选项卡，以显示匹配的消息频度规则。
+
+1. [设计](../design/design-emails.md) 和 [发布](../messages/publish-manage-message.md) 你的留言。
+
+与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 您可以在 [实时视图和全局视图](../reports/message-monitoring.md)和 [电子邮件实时报表](../reports/email-live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
 
-## 示例
+## 示例：合并多个规则 {#frequency-rule-example}
 
 您可以组合多个消息频率规则，如以下示例中所述。
 
-1. 创建一个名为 *整体营销上限*:
+1. [创建规则](#create-new-rule) 调用 *整体营销上限*:
 
    * 选择所有渠道（电子邮件、推送）。
    * 将上限设置为12。
 
-1. 要进一步限制用户发送的基于营销的推送通知数量，请再创建一个名为 *限制营销推送*:
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. 要进一步限制用户发送的基于营销的推送通知数量，请再创建一个名为 *推送营销上限*:
 
    * 选择推送渠道。
    * 将上限设置为4。
 
-在此方案中，单个用户档案每月最多可接收12条营销消息，但在收到4条推送通知后，将从营销推送通知中排除。
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. 保存并 [激活](#activate-rule) 规则。
+
+1. 创建消息. [了解详情](../messages/get-started-content.md#create-new-message)
+
+1. 选择 **[!UICONTROL Marketing]** 类别。
+
+   ![](assets/message-rules-ex-category-maktg.png)
+
+1. 选择 **[!UICONTROL Email]** 和 **[!UICONTROL Push Notification]** 渠道。
+
+   ![](assets/message-rules-ex-channels.png)
+
+1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。
+
+1. [设计](../design/design-emails.md) 和 [发布](../messages/publish-manage-message.md) 你的留言。
+
+在此方案中，单个用户档案：
+* 每月最多可接收12条营销消息；
+* 但在收到4个推送通知后，将从营销推送通知中排除。

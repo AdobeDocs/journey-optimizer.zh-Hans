@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -36,4 +36,11 @@ ht-degree: 6%
 >[!NOTE]
 >
 >请注意，下方区域中的模板是静态的，无法编辑。 这些仅供说明之用。
-一旦 [已创建消息](../messages/get-started-content.md)，则可以开始创建电子邮件内容。
+>
+>一旦 [已创建消息](../messages/get-started-content.md)，则可以开始创建电子邮件内容。
+
+## 操作方法视频 {#video}
+
+了解如何使用消息编辑器创建电子邮件内容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 消息预设配置仅限历程管理员。 [了解详情](../administration/ootb-product-profiles.md#journey-administrator)
+> * 消息预设配置限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 要创建、编辑和删除消息预设，您必须具有 [管理消息预设](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * 您必须执行电子邮件配置和 [推送配置](../configuration/push-configuration.md) 创建消息预设之前的步骤。
+> * 您必须执行 [电子邮件配置](#configure-email-settings) 和 [推送配置](../configuration/push-configuration.md) 创建消息预设之前的步骤。
 
 
-配置消息预设后，您便能够在从 **[!UICONTROL Presets]** 列表。
+配置消息预设后，您将能够在从 **[!UICONTROL Presets]** 列表。
 
 ➡️ [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
 
@@ -84,14 +84,15 @@ ht-degree: 1%
 
 按如下所述配置设置。
 
-
 ### 电子邮件类型{#email-type}
 
 在 **电子邮件类型** ，选择要随预设一起发送的消息类型： **营销** 或 **事务型**.
 
-选择 **营销** 对于促销消息：这些消息需要用户同意。
+* 选择 **营销** 对于促销消息：这些消息需要用户同意。
 
-选择 **事务型** 例如，对于订单确认、密码重置通知或投放信息等非商业性消息。
+* 选择 **事务型** 例如，对于订单确认、密码重置通知或投放信息等非商业性消息。
+
+When [创建消息](../messages/get-started-content.md#create-new-message)，则必须为所选类别和渠道选择有效的消息预设。
 
 >[!CAUTION]
 >

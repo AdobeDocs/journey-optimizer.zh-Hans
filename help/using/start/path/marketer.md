@@ -3,16 +3,14 @@ title: Journey Optimizer营销人员入门
 description: 作为历程实践者，了解如何与Journey Optimizer合作的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 7%
 
 ---
 
 # 营销人员入门 {#get-started-marketers}
-
-![营销人员](assets/do-not-localize/user-3.png)
 
 As a **营销人员** 或 **历程实践者**，则您负责创建消息、选件和历程。 您可以开始使用 [!DNL Adobe Journey Optimizer] 一次 [系统管理员](administrator.md) 和 [数据工程师](data-engineer.md) 授予您访问权限并准备环境。
 

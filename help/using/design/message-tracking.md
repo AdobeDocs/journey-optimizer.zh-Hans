@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 5%
 
 ---
@@ -72,6 +72,10 @@ ht-degree: 5%
    * 您可以通过选中相应的选项来选择是否为链接添加下划线。
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>营销类型的电子邮件必须包含 [选择退出链接](../messages/consent.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息预设级别](../configuration/message-presets.md#email-type) 和时间 [创建消息](../messages/get-started-content.md#create-new-message).
 
 ## 链接到镜像页面 {#mirror-page}
 

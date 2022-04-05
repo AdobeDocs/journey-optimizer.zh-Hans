@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 1%
 
 ## 选择测试用户档案 {#select-test-profiles}
 
-首先，您需要选择要用于模拟的测试用户档案。 在 [此部分](../../segment/creating-test-profiles.md).
+首先，您需要选择要用于模拟的测试用户档案。
+
+>[!CAUTION]
+>
+>您必须具有测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../../segment/creating-test-profiles.md).
 
 1. 单击 **[!UICONTROL Manage profile]**。
 

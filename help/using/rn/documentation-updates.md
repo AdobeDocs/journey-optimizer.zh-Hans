@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1113'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 * 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解更多信息](../building-journeys/expression/field-references.md#default-value)
 * 的 **创建个性化优惠** 已重组章节，以提高可读性。 [了解更多信息](../offers/offer-library/creating-personalized-offers.md)
 * 添加了新部分，以描述更改选件的开始和/或结束日期可能对此选件频率上限产生的影响。 [了解更多信息](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* 的 **更改主电子邮件地址** 更新了部分以反映用户界面的更改。 [了解更多信息](../configuration/primary-email-addresses.md)
 
 ## 2022 年 2 月 {#feb-2022}
 
