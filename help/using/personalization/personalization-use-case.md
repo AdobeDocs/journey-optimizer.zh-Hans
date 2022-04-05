@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc12.png)
 
-1. 键入消息并插入(从****[!UICONTROL Contextual attributes]** 菜单、订单项目名称和订单进度。
+1. 键入消息并插入，从 **[!UICONTROL Contextual attributes]** 菜单、订单项目名称和订单进度。
 
    ![](assets/perso-uc13.png)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 7%
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-系统提供的错误代码 [!DNL Journey Orchestration] 正在查询。 例如，它可以是404、500等。
+系统提供的错误代码 [!DNL Journey Optimizer] 正在查询。 例如，它可以是404、500等。
 
 类型：字符串
 

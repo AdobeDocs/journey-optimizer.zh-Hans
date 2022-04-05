@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 13%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 13%
 
 收到事件后，键值将允许系统识别与事件关联的人员。 与命名空间关联(请参阅 [此部分](../event/about-creating.md#select-the-namespace))，则可以使用键对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。键还用于检查人员是否处于历程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许同一密钥（例如CRMID=3224）位于同一历程中的不同位置。
 
-您还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅 [Journey Orchestration文档](../building-journeys/expression/expressionadvanced.md).
+您还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅此[页面](../building-journeys/expression/expressionadvanced.md)。
 
 ## 预览有效负载 {#preview-the-payload}
 

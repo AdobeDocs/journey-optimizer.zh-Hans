@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1524'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 在测试中打开历程时，显示的路径对应于上次执行的测试。
 
-无论事件是通过界面触发还是通过外部触发（例如使用Postman），可视化流程都可正常工作。
+无论事件是通过界面触发还是通过外部触发(例如使用Postman)，可视化流程都可正常工作。
 
 ## 基于规则的历程的测试模式 {#test-rule-based}
 
@@ -156,12 +156,3 @@ ht-degree: 2%
 
 测试模式会自动创建一个体验事件，并将其发送到Adobe Experience Platform。 此体验事件的源名称为“Journey Orchestration测试事件”。
 
-<!--
-In the case of multiple events triggered from multiple journeys
-
-There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
--->
-
-如果体验事件中未包含目标数据集，则会自动创建和命名这些数据集。 因此，我们今天会看到“Automatically created for voyager”（为旅行者自动创建的数据集）。
-
-源的命名驱动着自动创建。 如果我们有多个事件，我们应该将其连接，并将其设置为“Journey Orchestration测试事件 — 架构名称”。 这将自动转为“自动为Journey Orchestration测试事件生成的数据集 — 架构名称”。

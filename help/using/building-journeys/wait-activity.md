@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 ## 自定义等待{#custom}
 
-利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅 [Journey Orchestration文档](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅 [Journey Orchestration文档](expression/data-types.md).
+利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
 
 >[!NOTE]
 >
