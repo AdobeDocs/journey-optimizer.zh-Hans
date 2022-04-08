@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2110'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,11 @@ ht-degree: 1%
 按如下所述配置设置。
 
 ### 电子邮件类型{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="电子邮件类型"
+>abstract="待完成"
 
 在 **电子邮件类型** ，选择要随预设一起发送的消息类型： **营销** 或 **事务型**.
 
@@ -189,6 +194,11 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >地址必须以字母(A-Z)开头，且只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
 
 ### 电子邮件重试参数{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="电子邮件重试时间段"
+>abstract="待完成"
 
 您可以配置 **电子邮件重试参数**.
 
