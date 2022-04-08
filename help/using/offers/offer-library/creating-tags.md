@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '188'
 ht-degree: 5%
 
 ---
 
 # 创建标记 {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="标记"
+>abstract="将一个或多个标记与选件关联，以便保持选件库的有序性，并更轻松地找到选件。 标记是从“组件”菜单创建的。"
 
 将标记与选件关联可以更轻松地保持标记有条不紊。 例如，您可以使用“黑色星期五”标记来标记黑色星期五选件。 然后，您可以使用选件库中的搜索功能轻松找到具有该标记的所有选件。
 

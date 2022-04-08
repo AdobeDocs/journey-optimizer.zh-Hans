@@ -5,14 +5,20 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
 
 # 向选件添加表示法 {#add-representations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_representation"
+>title="表示"
+>abstract="添加表示法以定义选件在消息中的显示位置。 选件表示的越多，在不同版面环境中使用该选件的机会就越多”。
 
 选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、HTML块等。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。
 

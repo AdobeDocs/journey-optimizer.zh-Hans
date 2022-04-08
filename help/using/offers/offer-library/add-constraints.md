@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -23,6 +24,11 @@ ht-degree: 3%
 >id="od_offer_priority"
 >title="关于选件优先级"
 >abstract="在此字段中，您可以指定选件的优先级设置。 优先级是用于对满足所有限制（如资格、日期和上限）的选件进行排名的数字。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="优先级"
+>abstract="如果用户符合多个选件的条件，则优先级有助于定义选件与其他选件相比的优先级。 优惠的优先级越高，与其他选件相比，优先级越高。"
 
 利用约束，可定义显示选件的条件。
 
@@ -49,6 +55,11 @@ ht-degree: 3%
 * 每个用户在所有版面中仅会向该选件显示一次。
 
 ## 资格 {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="资格"
+>abstract="选件资格允许您将选件限制为使用区段或决策规则定义的特定用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="关于优惠上限"
->abstract="在此字段中，您可以指定选件的显示次数。"
+>title="上限"
+>abstract="上限用作约束，以定义选件可显示的最大次数。"
 
 上限用作约束，以定义选件可显示的最大次数。
 

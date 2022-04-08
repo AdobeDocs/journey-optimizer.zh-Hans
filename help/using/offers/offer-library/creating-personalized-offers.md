@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 4%
+source-wordcount: '643'
+ht-degree: 3%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="关于选件属性"
+>abstract="使用选件属性，您可以将键值对与选件关联，以便进行报告和分析。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_attributes"
+>title="选件属性"
 >abstract="使用选件属性，您可以将键值对与选件关联，以便进行报告和分析。"
 
 创建 **选件**，请执行以下步骤：

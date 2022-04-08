@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 15%
+source-wordcount: '261'
+ht-degree: 13%
 
 ---
 
 # 创建投放位置 {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="版面"
+>abstract="版面是一个用于展示选件的容器。 这有助于确保在消息中的正确位置显示正确的选件内容。 通过“组件”菜单创建版面。"
 
 版面有助于确保正确的选件内容显示在消息中的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
