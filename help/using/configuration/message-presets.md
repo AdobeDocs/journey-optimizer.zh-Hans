@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
+source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2187'
 ht-degree: 1%
 
 ---
@@ -84,12 +84,12 @@ ht-degree: 1%
 
 按如下所述配置设置。
 
-### 电子邮件类型{#email-type}
+### 电子邮件类型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="电子邮件类型"
->abstract="待完成"
+>title="定义电子邮件类别"
+>abstract="选择使用此预设时将发送的消息类型：促销消息的营销（需要用户同意）或非商业消息的事务型消息，也可以在特定环境中发送给未订阅的用户档案。"
 
 在 **电子邮件类型** ，选择要随预设一起发送的消息类型： **营销** 或 **事务型**.
 
@@ -193,12 +193,13 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >
 >地址必须以字母(A-Z)开头，且只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
 
-### 电子邮件重试参数{#email-retry}
+### 电子邮件重试参数 {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="电子邮件重试时间段"
->abstract="待完成"
+>title="调整重试时间段"
+>abstract="当电子邮件由于临时软退件错误而失败时，将执行3.5天（84小时）的重试。 您可以调整此默认的重试时间段，以更好地满足您的需求。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置 **电子邮件重试参数**.
 
