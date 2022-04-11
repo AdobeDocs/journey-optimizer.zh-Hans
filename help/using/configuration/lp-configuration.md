@@ -4,9 +4,9 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 2%
 >id="ajo_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
 >abstract="要创建登陆页面预设，请确保您之前至少配置了一个要从子域名列表中选取的登陆页面子域。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="创建登陆页面预设"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="委派登陆页面子域"
+>abstract="您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来Adobe或配置新的子域。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="创建登陆页面预设"
 
 能够 [创建登陆页面预设](#lp-create-preset)，则必须设置要用于登陆页面的子域。
 
