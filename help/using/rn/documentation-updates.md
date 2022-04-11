@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 91%
 
 ## 2022 年 3 月 {#march-2022}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’22年3月版进行了详细介绍。 [了解更多信息](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 3 月版的所有新增功能和改进。[了解更多信息](release-notes.md)
 * 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/offer-library/ai-ranking.md)
-* 测试用户档案创建页面已移至  **区段、用户档案和身份** 中。 [了解更多信息](../segment/creating-test-profiles.md)
-* 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解更多信息](../building-journeys/expression/field-references.md#default-value)
+* 测试用户档案创建页面已移至&#x200B;**区段、用户档案和身份**&#x200B;部分。[了解更多信息](../segment/creating-test-profiles.md)
+* 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。[了解更多信息](../building-journeys/expression/field-references.md#default-value)
 * 的 **创建个性化优惠** 已重组章节，以提高可读性。 [了解更多信息](../offers/offer-library/creating-personalized-offers.md)
 * 添加了新部分，以描述更改选件的开始和/或结束日期可能对此选件频率上限产生的影响。 [了解更多信息](../offers/offer-library/add-constraints.md#capping-change-date)
 * 的 **更改主电子邮件地址** 更新了部分以反映用户界面的更改。 [了解更多信息](../configuration/primary-email-addresses.md)

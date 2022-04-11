@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -161,7 +161,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    >[!NOTE]
    >
-   >如果您启用了 **列表取消订阅** 选项，当用户单击电子邮件标题中的取消订阅链接时，也会使用此URL。 [了解详情](#unsubscribe-header)
+   >如果在邮件预设级别启用了 **List-Unsubscribe** 选项，则当用户单击电子邮件标头中的取消订阅链接时，也会使用此 URL。[了解详情](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,11 +175,11 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="向电子邮件标题添加取消订阅链接"
->abstract="启用List-Unsubscribe以添加指向电子邮件标题的取消订阅链接。 要设置取消订阅URL，请在电子邮件内容中插入一个单击选择退出链接。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="一键式选择退出"
+>title="向电子邮件标头添加取消订阅链接"
+>abstract="启用“List-Unsubscribe”以向电子邮件标头添加取消订阅链接。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
-如果 [“列表取消订阅”选项](../configuration/message-presets.md#list-unsubscribe) 在消息预设级别启用， [!DNL Journey Optimizer] 将在电子邮件标题中包含取消订阅链接。
+如果在消息预设级别启用 [List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) 选项，使用 [!DNL Journey Optimizer] 发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。
 
 例如，取消订阅链接在 Gmail 中将会如下图这样显示：
 
@@ -187,23 +187,23 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 >[!NOTE]
 >
->要在电子邮件标题中显示取消订阅链接，收件人的电子邮件客户端必须支持此功能。
+>要在电子邮件标头中显示取消订阅链接，收件人的电子邮件客户端必须支持此功能。
 
-取消订阅地址是默认地址 **[!UICONTROL Mailto (unsubscribe)]** 地址。 [了解详情](../configuration/message-presets.md#list-unsubscribe)。
+取消订阅地址是相应消息预设中显示的默认 **[!UICONTROL Mailto (unsubscribe)]** 地址。[了解详情](../configuration/message-presets.md#list-unsubscribe)。
 
-要设置个性化的取消订阅URL，请在电子邮件内容中插入一键单击的选择退出链接，然后输入您选择的URL。 [了解详情](#one-click-opt-out)
+要设置个性化的取消订阅 URL，请在电子邮件内容中插入一键式选择退出链接，然后输入您选择的 URL。[了解详情](#one-click-opt-out)
 
-根据电子邮件客户端的不同，单击标题中的取消订阅链接可能会产生以下影响：
+根据电子邮件客户端的不同，单击标头中的取消订阅链接可能会产生以下影响：
 
-* 取消订阅请求将发送到默认的取消订阅地址。
+* 取消订阅请求被发送到默认的取消订阅地址。
 
-* 收件人会被定向到您在向消息添加选择退出链接时指定的登陆页面URL。
+* 收件人被定向到您在向消息添加选择退出链接时指定的登陆页面 URL。
 
    >[!NOTE]
    >
-   >如果您没有在消息内容中添加一键单击选择退出链接，则不会显示登陆页面。
+   >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
 
-* 会立即退出相应的用户档案，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中了解更多信息。
 
 ## 推送退出管理 {#push-opt-out-management}
 

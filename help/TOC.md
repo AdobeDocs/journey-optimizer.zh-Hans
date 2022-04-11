@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -39,20 +39,20 @@ ht-degree: 92%
    + [管理同意](using/messages/consent.md)
 + 设计内容 {#design}
    + [电子邮件设计入门](using/design/design-emails.md)
-   + [从头开始 ](using/design/create-email-content.md)
+   + [从零开始 ](using/design/create-email-content.md)
    + [导入电子邮件内容](using/design/existing-content.md)
    + [对您自己的内容进行编码](using/design/code-content.md)
    + 内容设计 {#design-content}
       + [使用内容组件](using/design/content-components.md)
       + [背景设置](using/design/backgrounds.md)
-      + [调整垂直对齐和内边距](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [调整垂直对齐和填充](using/design/adjusting-vertical-alignment-and-padding.md)
       + [为链接定义样式](using/design/styling-links.md)
       + [添加内联样式属性](using/design/adding-inline-styling-attributes.md)
    + 电子邮件设置 {#design-email}
       + [生成文本版本](using/design/text-version-email.md)
-      + [添加前标](using/design/preheader.md)
+      + [添加预编译标头](using/design/preheader.md)
    + 添加和管理资源 {#manage-asset}
-      + [使用Assets Essentials](using/design/assets-essentials.md)
+      + [使用 Assets Essentials](using/design/assets-essentials.md)
    + [添加个性化优惠](using/design/deliver-personalized-offers.md)
    + [添加链接和跟踪消息](using/design/message-tracking.md)
    + [预览和证明](using/design/preview.md)
@@ -219,14 +219,14 @@ ht-degree: 92%
       + [历程实时报告](using/reports/journey-live-report.md)
       + [通过电邮发送实时报告](using/reports/email-live-report.md)
       + [推送实时报告](using/reports/push-live-report.md)
-      + [登陆页面实时报表](using/reports/lp-report-live.md)
+      + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
       + [访问全局报告仪表板](using/reports/global-report.md)
       + [历程全局报告](using/reports/journey-global-report.md)
       + [通过电邮发送全局报告](using/reports/email-global-report.md)
       + [推送全局报告](using/reports/push-global-report.md)
-      + [登陆页面全局报表](using/reports/lp-report-global.md)
+      + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
@@ -325,8 +325,8 @@ ht-degree: 92%
          + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
          + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
       + 使用 API 的优惠投放{#offer-delivery}
-         + [决策 API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [批量决策API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
+         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + 数据管理 {#data-management}
    + [架构](using/start/get-started-schemas.md)

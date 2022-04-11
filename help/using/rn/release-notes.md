@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2938'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有新增功能和改进。您还可以查阅[最新文档更新](documentation-updates.md)页面以了解更多更改。
 
-![新闻稿](../assets/do-not-localize/nl-icon.png) 注册 [Adobe Journey Optimizer季刊](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}，并每季度接收最新产品更新、令人兴奋的故事、用例、提示等，并直接发送至您的收件箱。
+![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件，每个季度就能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
 ## 2022 年 3 月版 {#march-2022-release}
@@ -22,22 +22,22 @@ ht-degree: 92%
 
 **历程**
 
-* 为避免统一用户档案架构中存在不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。 如果需要，您可以激活它。 [了解详情](../reports/sharing-overview.md)
-* 与导出作业相关的新步骤事件现在由Journey Optimizer发送到Adobe Experience Platform。 向文档中添加了查询示例。 [了解详情](../reports/query-examples.md)
+* 为了避免统一用户档案架构中出现不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。如有需要，您可以启用它。[了解详情](../reports/sharing-overview.md)
+* 与导出作业相关的新步骤事件现在由 Journey Optimizer 发送至 Adobe Experience Platform。文档中添加了查询示例。[了解详情](../reports/query-examples.md)
 
 **决策管理**
 
 * 现在，您可以指定是否对所有用户或某个特定用户档案以及所有版面或每个版面应用选件上限。 [了解详情](../offers/offer-library/add-constraints.md#capping)
-* 批量决策API允许组织在一次调用中对给定区段中的所有用户档案使用offer decisioning功能。 区段中每个配置文件的选件内容会放置在AEP数据集中，该数据集可用于自定义批量工作流。 [了解详情](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* 通过 Batch Decisioning API，组织可以在一次调用中对特定区段中的所有用户档案运用 Offer Decisioning 功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **管理**
 
-* 现在，您可以在消息预设级别启用/禁用电子邮件标题中的取消订阅链接，并在消息级别设置自定义取消订阅URL。 [了解详情](../configuration/message-presets.md#list-unsubscribe)
-* 允许列表现在可以通过 [!DNL Journey Optimizer] 生产沙箱和非生产沙箱的界面。 [了解详情](../reports/allow-list.md#enable-allow-list)
+* 现在，您可以在邮件预设级别启用/禁用电子邮件标头中的取消订阅链接，并在邮件级别设置自定义取消订阅 URL。[了解详情](../configuration/message-presets.md#list-unsubscribe)
+* 现在可以通过 [!DNL Journey Optimizer] 界面在生产沙盒和非生产沙盒上启用和禁用允许列表。[了解详情](../reports/allow-list.md#enable-allow-list)
 
 **个性化**
 
-* 现在，您可以在库中保存40多个个性化表达式。 [了解详情](../personalization/personalization-library.md)
+* 现在可以在库中保存 40 多个个性化表达式。[了解详情](../personalization/personalization-library.md)
 
 ## 2022 年 2 月版 {#feb-2022-release}
 

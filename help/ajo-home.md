@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -178,13 +178,13 @@ ht-degree: 68%
 
 
 
-![新闻稿](using/assets/do-not-localize/nl-icon.png) 注册 [Adobe Journey Optimizer季刊](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html)今天的{target=&quot;_blank&quot;}!
+![新闻稿](using/assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件！
 
-每季度接收直接发送至您的收件箱的最新产品更新、精彩故事、用例、提示等。
+每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-在每个新闻稿中，您将找到：
-* 产品新闻和更新（包括最近发布的功能）
-* 最近网络研讨会的活动邀请、网络研讨会和录像
-* Adobe Journey OptimizerExperience League社区中的主要讨论
-* 其他Adobe Journey Optimizer客户的案例研究和用例
-* 可帮助提供卓越客户体验以推动业务成功的提示和技巧
+每份新闻稿都包含以下内容：
+* 产品新闻与更新（包括最近发布的功能）
+* 活动和网络研讨会的邀请，以及近期网络研讨会的录像
+* Adobe Journey Optimizer Experience League 社区中的热门讨论
+* 其他 Adobe Journey Optimizer 客户的案例研究和用例
+* 有助于提供卓越客户体验并推动业务成功的提示和技巧

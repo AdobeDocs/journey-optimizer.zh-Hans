@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 15%
+ht-degree: 97%
 
 ---
 
@@ -27,87 +27,87 @@ ht-degree: 15%
 
 ## 访问消息 {#access-messages}
 
-可从 **[!UICONTROL Messages]** 快捷键。 所有消息均按发布日期（对于已发布的消息）或创建日期（对于草稿消息）排序。
+可通过左侧导航栏的 **[!UICONTROL Messages]** 快捷方式访问消息。将列出所有消息，并按发布日期（适用于已发布的消息）或创建日期（适用于草稿消息）排序。
 
 >[!NOTE]
 >
->用户可以访问、创建、编辑和/或发布消息，具体取决于其产品配置文件。 了解有关用户权限的更多信息 [在此部分中](../administration/permissions.md).
+>用户可以访问、创建、编辑和/或发布消息，具体取决于其产品用户档案。[在此部分中](../administration/permissions.md)了解有关用户权限的更多信息。
 
 ![](assets/messages-list.png)
 
-* 使用 **[!UICONTROL Show recents]** 切换以向您在过去5天内访问的消息添加直接链接。
+* 使用 **[!UICONTROL Show recents]** 切换开关可以添加您最近 5 天访问的消息的直达链接。
 
    ![](assets/show-recent-messages.png)
 
-* 使用过滤器图标可仅显示草拟、已发布或正在发布的消息。 您还可以在消息标签上搜索，如下所示：
+* 使用过滤器图标可仅显示草稿、已发布或正在发布的消息。您还可以按消息标签进行搜索，如下所示：
 
    ![](assets/filter-messages.png)
 
-* 您可以存档未使用的消息，以使用快速操作菜单中的专用图标清除消息列表。
+* 您可以使用快速操作菜单中的专用图标存档未使用的消息以清除消息列表。
 
    ![](assets/archive-message.png)
 
-   使用过滤器图标显示所有存档的消息，然后单击 **[!UICONTROL Unarchive]** 图标，从存档消息列表中删除项目。
+   使用过滤器图标显示所有已存档的消息，然后单击 **[!UICONTROL Unarchive]** 图标，从已存档消息列表中删除项目。
 
    >[!NOTE]
    >
-   >无法打开已存档的消息。 必须先取消存档。
+   >无法打开已存档的消息。必须先取消存档。
 
 ## 创建新消息 {#create-new-message}
 
 要创建新消息，请执行以下步骤：
 
-1. 访问消息列表，然后单击 **[!UICONTROL Create Message]**.
+1. 访问消息列表，然后单击 **[!UICONTROL Create Message]**。
 
-1. 定义消息属性。
+1. 定义消息的属性。
 
    ![](assets/create-message-properties.png)
 
-   * 输入 **[!UICONTROL Title]** （必需）和 **[!UICONTROL Description]**.
+   * 输入 **[!UICONTROL Title]**（必填项）和 **[!UICONTROL Description]**。
 
-   * 选择 **[!UICONTROL Message category]**:营销或交易。
+   * 选择 **[!UICONTROL Message category]**：营销或事务性。
 
-   * 选择要用于该消息的渠道：电子邮件和/或推送通知。 您必须至少选择一个渠道才能创建消息。
+   * 选择要用于该消息的渠道：电子邮件和/或推送通知。您必须至少选择一个渠道才能创建消息。
 
-   * 选择 **[!UICONTROL Preset]** 用于消息。
+   * 选择用于消息的 **[!UICONTROL Preset]**。
 
-      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。 [了解有关预设的更多信息](../configuration/message-presets.md).
+      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。[进一步了解预设](../configuration/message-presets.md)。
    >[!CAUTION]
    >
    >您必须为选定的类别和渠道选择有效的消息预设。
 
-   请注意，您可以随时使用 **[!UICONTROL Properties]** 按钮。
+   请注意，您可以使用消息界面中的 **[!UICONTROL Properties]** 按钮随时访问和修改消息的标题、描述和预设。
 
-1. 单击 **[!UICONTROL Create]** 确认消息创建。 您的消息会添加在消息列表中，即 **[!UICONTROL Draft]** 状态。
+1. 单击 **[!UICONTROL Create]** 确认消息创建。您的消息会以 **[!UICONTROL Draft]** 状态添加至消息列表中。
 
-   每个选定的渠道都有一个选项卡。 使用这些选项卡为每个渠道配置内容。 您可以通过选择某个选项卡并单击 **[!UICONTROL Delete channel]** 按钮。
+   每个所选渠道都对应一个选项卡。使用这些选项卡为每个渠道配置内容。可以通过选择某个选项卡并单击右侧的 **[!UICONTROL Delete channel]** 按钮来删除该选项卡。
 
    ![](assets/create-messages-content.png)
 
-   您现在可以创建消息的内容并调整设置。 以下部分提供了有关电子邮件和推送通知配置的详细信息：
+   您现在可以创建消息的内容并调整设置。以下部分提供了有关电子邮件和推送通知配置的详细信息：
 
    * [创建电子邮件](create-email.md)
    * [创建推送通知](create-push.md)
 
    >[!NOTE]
    >   
-   >您可以使用表达式编辑器使用用户档案数据个性化您的消息。 有关个性化的更多信息，请参阅 [此部分](../personalization/personalize.md).
+   >您可以使用表达式编辑器，使用用户档案数据对消息进行个性化设置。有关个性化的更多信息，请参考[此部分](../personalization/personalize.md)。
 
-1. 使用左侧的预览部分控制消息的呈现，并使用测试用户档案检查个性化设置。 如需详细信息，请参阅[此部分](../design/preview.md)。
+1. 使用左侧的预览部分控制消息的呈现，并使用测试用户档案检查个性化设置。有关详细信息，请参阅[此部分](../design/preview.md)。
 
    ![](assets/messages-simple-preview.png)
 
-1. 在编辑器的上部检查警报。  其中一些是简单的警告，但其他警告可能会阻止您发布消息。 在 [此部分](alerts.md).
+1. 检查编辑器上部的警报。其中一些是简单的警告，但其他警报可能会阻止您发布消息。有关详细信息，请参阅[此部分](alerts.md)。
 
-1. 您现在可以通过单击 **[!UICONTROL Publish]** 按钮，或将其保留为草稿并稍后发布。 有关如何发布消息的更多信息，请参阅 [此部分](publish-manage-message.md).
+1. 您现在可以通过单击 **[!UICONTROL Publish]** 按钮发布消息，或将其保存为草稿并稍后发布。有关如何发布消息的更多信息，请参阅[此部分](publish-manage-message.md)。
 
 ## 复制消息 {#duplicate-message}
 
-要从现有消息创建消息，请执行以下步骤。
+要通过现有消息创建消息，请执行以下步骤。
 
 1. 打开要复制的消息。
 
-1. 使用 **[!UICONTROL Duplicate]** 按钮。
+1. 使用消息界面的 **[!UICONTROL Duplicate]** 按钮。
 
    ![](assets/message-duplicate.png)
 
@@ -119,9 +119,9 @@ ht-degree: 15%
 
 1. 创建新消息后，窗口底部会显示确认消息。
 
-您还可以使用快速操作菜单中的专用图标，从消息列表中复制消息。
+您还可以使用快捷操作菜单中的专用图标，从消息列表中复制消息。
 
 ![](assets/message-duplicate-from-list.png)
 
-同一确认过程适用。
+适用同样的确认过程。
 
