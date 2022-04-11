@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
 ht-degree: 100%
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>选项卡</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -214,7 +214,7 @@ ht-degree: 100%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -238,7 +238,7 @@ ht-degree: 100%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>
 
