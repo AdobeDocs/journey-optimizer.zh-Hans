@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
 * 控制优惠在营销活动和客户中显示的次数。
 
-➡️ [在这些视频中了解有关决策管理的更多信息](#video)
+➡️ [通过这些视频了解有关决策管理的更多信息](#video)
 
 ## 关于优惠和决策 {#about-offers-and-decisions}
 
@@ -102,7 +102,7 @@ ht-degree: 99%
 
 * **演示文稿**：演示文稿是渠道所使用的信息，如用于显示优惠的位置或语言。
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 >[!NOTE]
 >
