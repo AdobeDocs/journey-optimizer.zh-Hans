@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '992'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,11 @@ ht-degree: 2%
 
 ## 手动添加地址和域 {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="将电子邮件/域添加到抑制列表"
+>abstract="您可以手动填充Journey Optimizer抑制列表，以从发送中排除特定的电子邮件地址和/或域。"
+
 当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
 
 但是，您也可以手动填充 [!DNL Journey Optimizer] 用于从发送中排除特定电子邮件地址和/或域的禁止列表。
@@ -114,6 +119,11 @@ ht-degree: 2%
 ![](assets/suppression-list-add-email.png)
 
 ### 添加一个地址或域 {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="向禁止列表添加一项"
+>abstract="您可以通过逐个添加电子邮件地址和/或域来填充抑制列表。"
 
 1. 选择 **[!UICONTROL One by one]** 选项。
 
@@ -132,6 +142,11 @@ ht-degree: 2%
 1. 单击 **[!UICONTROL Submit]**。
 
 ### 上传CSV文件 {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="上传CSV以向隐藏列表添加项目"
+>abstract="您可以通过上传以您要排除的电子邮件地址/域填充的CSV文件来填充抑制列表。"
 
 1. 选择 **[!UICONTROL Upload CSV]** 选项。
 

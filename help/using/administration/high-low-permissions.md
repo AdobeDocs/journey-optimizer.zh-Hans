@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -430,3 +430,23 @@ ht-degree: 0%
    * landing_page_preset.read
    * landing_page_preset.write
    * landing_page_preset.delete
+
+### [!DNL Manage frequency rules] 许可 {#manage-frequency-rules}
+
+的 **[!DNL Manage frequency rules]** 高级权限允许用户读取、创建、编辑、删除和激活/停用频度规则。
+
+它包括以下低级权限：
+
+* Journey Optimizer特定：
+   * frequency_rules.read
+   * frequency_rules.write
+   * frequency_rules.delete
+
+### [!DNL View frequency rules] 许可 {#view-frequency-rules}
+
+的 **[!DNL View frequency rules]** 高级权限允许用户查看频度规则。
+
+它包括以下低级权限：
+
+* Journey Optimizer特定：
+   * frequency_rules.read

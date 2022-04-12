@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
-> * 消息预设配置限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 要创建、编辑和删除消息预设，您必须具有 [管理消息预设](../administration/high-low-permissions.md#manage-message-presets).
+> * 要创建、编辑和删除消息预设，您必须具有 [管理消息预设](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * 您必须执行 [电子邮件配置](#configure-email-settings) 和 [推送配置](../configuration/push-configuration.md) 创建消息预设之前的步骤。
 
@@ -29,6 +29,11 @@ ht-degree: 1%
 ➡️ [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
 
 ## 创建消息预设 {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="消息预设详细信息和设置"
+>abstract="通过设置消息预设，您可以选择该消息适用的渠道，并定义消息所需的所有技术参数，例如电子邮件类型、要使用的子域、发件人名称、移动应用程序等。"
 
 要创建消息预设，请执行以下步骤：
 
@@ -97,11 +102,11 @@ ht-degree: 1%
 
 * 选择 **事务型** 例如，对于订单确认、密码重置通知或投放信息等非商业性消息。
 
-When [创建消息](../messages/get-started-content.md#create-new-message)，则必须为所选类别和渠道选择有效的消息预设。
-
 >[!CAUTION]
 >
 >**事务型** 消息可发送给从营销通信中取消订阅的用户档案。 这些消息只能在特定上下文中发送。
+
+When [创建消息](../messages/get-started-content.md#create-new-message)，则必须选择与您为消息选择的类别匹配的有效消息预设。
 
 ### 子域和IP池 {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ When [创建消息](../messages/get-started-content.md#create-new-message)，则
 1. 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
 
 1. 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
+
+>[!NOTE]
+>
+>对于非生产环境，Adobe不会创建现成的测试子域，也不会授予对共享发送IP池的访问权限。 您需要 [委派您自己的子域](delegate-subdomain.md) 并使用分配给贵组织的池中的IP。
 
 ### 列表取消订阅 {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 * 对于营销电子邮件，最短重试期限为6小时。
 * 对于事务型电子邮件，最短重试期限为10分钟。
 * 对于这两种电子邮件类型，最大重试时间段为84小时（或5040分钟）。
+
+了解有关重试的更多信息(位于 [此部分](retries.md).
 
 ## 配置推送设置 {#configure-push-settings}
 

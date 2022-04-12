@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5071de634c9dbb13908d3190fe1157831c372c7d
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 7%
+source-wordcount: '166'
+ht-degree: 6%
 
 ---
 
 # 更改主电子邮件地址 {#change-primary-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address"
+>title="定义要使用的地址"
+>abstract="当数据库中有多个地址（个人、专业等）可用时，您可以选择要优先发送的电子邮件地址。"
 
 定位用户档案时，数据库中可能有多个电子邮件地址（个人、专业电子邮件地址等）。
 

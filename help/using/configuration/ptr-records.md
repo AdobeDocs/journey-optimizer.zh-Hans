@@ -6,20 +6,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # PTR记录 {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="子域的PTR记录"
+>abstract="指针记录(PTR)是一种DNS记录类型，它提供链接到IP地址的域名，这有助于接收邮件服务器验证发件人的IP地址。"
+
 ## 关于PTR记录 {#about-ptr-records}
 
 指针记录(PTR)是一种域名系统(DNS)记录类型，它提供链接到IP地址的域名。
 
-使用PTR记录，接收邮件服务器可以通过确定其IP地址是否与服务器所连接的名称对应来检查邮件服务器发送的真实性。
+使用PTR记录，接收邮件服务器可以通过确定其IP地址是否与服务器所连接的名称相对应来检查邮件服务器发送的真实性。
 
 ## 访问子域的PTR记录 {#access-ptr-records}
 
@@ -38,6 +43,10 @@ ht-degree: 0%
 ## 编辑PTR记录 {#edit-ptr-record}
 
 您可以修改PTR记录以编辑与IP地址关联的子域。
+
+>[!CAUTION]
+>
+>编辑PTR记录时请格外小心。 如有疑问，请联系可投放性专家。<!--why?-->
 
 >[!NOTE]
 >

@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 2%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 2%
 
 规则可从 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 菜单。 将列出所有规则，并按修改日期排序。
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>要访问、创建、编辑或删除消息频度规则，您必须具有 [管理频度规则](../administration/high-low-permissions.md#manage-frequency-rules) 权限。
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 使用过滤器图标可对类别、状态和/或渠道进行过滤。 您还可以在消息标签上搜索。
 
@@ -134,6 +136,10 @@ ht-degree: 2%
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 您可以在 [实时视图和全局视图](../reports/message-monitoring.md)和 [电子邮件实时报表](../reports/email-live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
+
+>[!NOTE]
+>
+>多个规则可以应用于同一渠道，但达到下限后，下次投放中将排除用户档案。
 
 ## 示例：合并多个规则 {#frequency-rule-example}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 帮助企业为其客户提供互联、情境式和个性化的体验。客户历程是客户与品牌互动的整个过程，从接触的第一刻起直到客户离开。这个过程从认知阶段开始，在这个阶段，客户了解到品牌并开始接触品牌。然后，客户将进一步与品牌互动，访问在线和实体商店，并进行购买、发送消息或发布评论。
 
-[!DNL Adobe Journey Optimizer] 本地构建于之上 [!DNL Adobe Experience Platform] 并将统一的实时客户档案、API 优先的开放框架、集中式 Offer Decisioning、人工智能 (AI) 和机器学习 (ML) 整合在一起，以便进行个性化和优化。Journey Optimizer 使品牌厂商能够在整个客户历程中以智能化的方式决定下一项最合适的互动，而且可以在规模化程度上快速灵活地完成这一工作。借助 [!DNL Adobe Journey Optimizer]，公司可以在同一应用程序中创建并投放计划的营销活动（如零售商店的每周促销活动）和量身定制的个人通信（如忠诚度应用程序向客户推送其可能查看过的、之前无现货的商品）。
+[!DNL Adobe Journey Optimizer] 本地构建 [!DNL Adobe Experience Platform] 并将统一的实时客户资料、API优先的开放框架、集中式offer decisioning、人工智能(AI)和机器学习(ML)相结合，以实现个性化和优化。 Journey Optimizer 使品牌厂商能够在整个客户历程中以智能化的方式决定下一项最合适的互动，而且可以在规模化程度上快速灵活地完成这一工作。借助 [!DNL Adobe Journey Optimizer]，公司可以在同一应用程序中创建并投放计划的营销活动（如零售商店的每周促销活动）和量身定制的个人通信（如忠诚度应用程序向客户推送其可能查看过的、之前无现货的商品）。
 
 ➡️ [探索 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hans){target=&quot;_blank&quot;}（视频）
 

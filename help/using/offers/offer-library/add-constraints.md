@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1553'
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >数字必须大于0。
+   >数字必须是大于0的整数。
 
 1. 指定您希望对所有用户还是一个特定配置文件应用上限：
 
@@ -147,15 +147,15 @@ ht-degree: 3%
 
       例如，如果您是拥有“白金信用卡”选件的银行，则您不希望此选件在每个用户档案中显示超过5次。 事实上，您认为如果用户查看了选件5次而未对其执行操作，则他们更有机会对下一个最佳选件执行操作。
 
-1. 如果您定义了 [表示](#representations) 对于选件，指定是否要将上限应用到 **[!UICONTROL All placements]** 或 **[!UICONTROL Per placement]**.
+1. 如果您定义了 [表示](#representations) 为选件指定是否要应用上限 **[!UICONTROL Across all placements]** 或 **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL All placements]**:上限计数将总计与选件关联的版面中的所有决策。
+   * **[!UICONTROL Across all placements]**:上限计数将总计与选件关联的版面中的所有决策。
 
       例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **所有版面中的每个用户档案2个**，则无论使用何种版面组合，每个用户档案总共可收到选件2次。
 
-   * **[!UICONTROL Per placement]**:上限计数将单独对每个版面应用决策计数。
+   * **[!UICONTROL For each placement]**:上限计数将单独对每个版面应用决策计数。
 
       例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **每次投放的每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），另外2次（用于Web投放）。
 

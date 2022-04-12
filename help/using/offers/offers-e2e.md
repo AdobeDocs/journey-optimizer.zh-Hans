@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 5%
+source-wordcount: '1342'
+ht-degree: 6%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 5%
 
 您现在可以创建和配置选件。 在此示例中，您将创建四个选件，以根据每个特定的配置文件显示这些选件。
 
-1. 创建选件. 在 [此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. 创建选件. 有关详细信息，请参阅[此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)。
 
 1. 在此选件中，创建三个表示法。 每个表示形式必须是您之前创建的版面和资产的组合：
 
@@ -195,7 +195,7 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 要创建和配置选件决策，请执行以下步骤：
 
-1. 创建决策. 在 [此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. 创建决策. 有关详细信息，请参阅[此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity)。
 
 1. 选择 *Web — 图像*, *电子邮件 — 图像* 和 *非数字 — 文本* 版面。
 
@@ -255,7 +255,7 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 在 [此部分](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
+使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 有关详细信息，请参阅[此部分](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)。
 
 保存更改后并发布消息后，在历程中发送消息时，您的选件即可显示到相关用户档案。
 

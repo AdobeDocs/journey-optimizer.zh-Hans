@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -202,7 +202,7 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->体验事件是作为收藏集从Adobe Experience Platform中以时间顺序进行检索，因此：
+>体验事件是作为收藏集从Adobe Experience Platform中按照时间顺序进行检索，因此：
 >
 >* **[!UICONTROL first]** 函数将返回最近的事件
 >* **[!UICONTROL last]** 函数将返回最早的函数。

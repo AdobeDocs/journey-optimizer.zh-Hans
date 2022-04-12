@@ -4,9 +4,9 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -78,6 +78,11 @@ ht-degree: 2%
 1. 检查成功后，子域将获取 **[!UICONTROL Success]** 状态。 它已准备好用于创建登陆页面预设。
 
 ### 配置新子域 {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="生成匹配的DNS记录"
+>abstract="要配置新的登陆页面子域，您需要复制Journey Optimizer界面中显示的Adobe名称服务器信息，并将其粘贴到您的域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域即可用于创建登陆页面预设。"
 
 要配置新子域，请执行以下步骤。
 
