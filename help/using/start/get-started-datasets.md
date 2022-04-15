@@ -4,10 +4,10 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 9ebcfd6c41c17fe3be0423822209443fc55244a7
+source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 11%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 ![](assets/datasets-home.png)
 
-将数据添加到Adobe Experience Platform是构建用户档案的基础。 然后，您便能够在 [!DNL Adobe Journey Optimizer]. 首先定义架构，使用ETL工具准备和标准化您的数据，然后根据您的架构创建数据集。
+将数据添加到 [!DNL Adobe Experience Platform] 是构建用户档案的基础。 然后，您便能够在 [!DNL Adobe Journey Optimizer]. 首先定义架构，使用ETL工具准备和标准化您的数据，然后根据您的架构创建数据集。
 
 选择 **浏览** 选项卡，以显示贵组织所有可用数据集的列表。 系统会为每个列出的数据集显示详细信息，包括其名称、数据集所遵循的架构以及最近摄取运行的状态。
 
@@ -32,6 +32,13 @@ ht-degree: 11%
 ![](assets/ajo-system-datasets.png)
 
 选择数据集的名称以访问其“数据集”活动屏幕，并查看您选择的数据集的详细信息。 活动选项卡包含一个图表，其中可视化了消息使用率，以及成功批次和失败批次的列表。
+
+## 预览数据集{#preview-datasets}
+
+从数据集活动屏幕中，选择 **预览数据集** 在屏幕的右上角附近，预览此数据集中最新成功的批处理。 当数据集为空时，将停用预览链接。
+
+![](assets/dataset-preview.png)
+
 
 ## 创建数据集{#create-datasets}
 
@@ -42,11 +49,21 @@ ht-degree: 11%
 * 从架构创建数据集。 [在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
 * 从CSV文件创建数据集。 [在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans){target=&quot;_blank&quot;}
 
-
 请观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据，以及确认已摄取数据。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
+## 数据管理
+
+在数据集中，浏览 **数据管理** 选项卡来检查数据集和字段级别的标签。 “数据管理”根据适用的策略类型对数据进行分类。
+
+的核心功能之一 [!DNL Adobe Experience Platform] 是将多个企业系统中的数据整合在一起，以便营销人员能够更好地识别、了解和吸引客户。 此数据可能受贵组织或法律法规定义的使用限制的约束。 因此，务必确保您的数据操作符合数据使用策略。
+
+[!DNL Adobe Experience Platform Data Governance] 允许您管理客户数据，并确保符合适用于数据使用的法规、限制和策略。 它在Experience Platform的各个级别中发挥着关键作用，包括编目、数据谱系、数据使用标签、数据使用策略以及控制营销操作数据的使用。
+
+在 [数据管理文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
+
+## 示例和用例{#uc-datasets}
 
 了解如何在Adobe Journey Optimizer中创建架构、数据集和摄取数据，以在 [此端到端示例](../segment/creating-test-profiles.md)
 
@@ -54,9 +71,7 @@ ht-degree: 11%
 
 了解如何在 [数据摄取概述文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-
 **另请参阅**
 
-* [在Journey Optimizer中创建架构、数据集和摄取数据以添加测试用户档案](../segment/creating-test-profiles.md)
 * [流摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}
 * [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
