@@ -1,15 +1,15 @@
 ---
 title: 决策管理入门
-description: 决策管理入门。 了解关于其架构、优惠和决策，及其允许您执行的常见使用案例的更多信息。
+description: 了解Adobe Journey Optimizer如何帮助您在适当的时间向客户发送适当的优惠
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: ht
-source-wordcount: '907'
-ht-degree: 100%
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 
 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。
 
->[!NOTE]
->
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;} 用户并使用 **Offer Decisioning** 应用程序服务，则本节中介绍的所有决策管理功能也适用于您。
+offer decisioning通过集中的营销选件库和决策引擎(该引擎可将规则和约束应用于Adobe Experience Platform创建的丰富实时用户档案，以帮助您在适当的时间向客户发送正确的选件)，从而轻松实现个性化。
 
 “决策管理”功能由两个主要组件组成：
 
@@ -35,6 +33,11 @@ ht-degree: 100%
 * 控制优惠在营销活动和客户中显示的次数。
 
 ➡️ [通过这些视频了解有关决策管理的更多信息](#video)
+
+
+>[!NOTE]
+>
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;} 用户并使用 **Offer Decisioning** 应用程序服务，则本节中介绍的所有决策管理功能也适用于您。
 
 ## 关于优惠和决策 {#about-offers-and-decisions}
 

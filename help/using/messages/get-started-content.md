@@ -1,15 +1,15 @@
 ---
 title: 消息入门
-description: 了解如何在 Journey Optimizer 中创建消息
+description: 了解如何在Journey Optimizer中创建、测试和发布个性化消息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 97%
+source-wordcount: '651'
+ht-degree: 96%
 
 ---
 

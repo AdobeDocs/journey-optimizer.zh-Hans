@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 指南
-user-guide-description: 使用 Journey Optimizer 为客户提供互联式、情境式和个性化的体验
+user-guide-description: 使用Journey Optimizer为您的客户构建并提供连接、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b5d9c0b261f14eda271c08fe0afc5028fff5ab2f
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
