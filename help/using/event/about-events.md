@@ -6,19 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 56%
+source-wordcount: '822'
+ht-degree: 54%
 
 ---
 
 # 关于事件{#about-events}
 
 >[!CONTEXTUALHELP]
->id="jo_events"
+>id="ajo_journey_event_list"
 >title="关于事件"
->abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 [!DNL Journey Optimizer] 在历程中将侦听的内容，以编排最佳的后续行动。"
+>abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是Journey Optimizer在历程中将侦听的内容，以编排最佳的后续行动。"
 
 事件配置允许您定义 [!DNL Journey Optimizer] 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。
 
@@ -65,7 +65,7 @@ Journey Optimizer要求将事件流式传输或批量传输到Adobe Experience P
 
 对于系统生成的事件，Pipeline过滤器事件的有效负载包含 [!DNL Journey Optimizer] eventID（请参阅下面的事件创建过程），由 [!DNL Journey Optimizer] 和包含在事件有效负载中。 对于基于规则的事件，系统会使用eventID条件来标识该事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
