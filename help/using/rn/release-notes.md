@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0e4572c855d8842215d2f9d42e47aac53b82d1
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2969'
 ht-degree: 98%
@@ -30,7 +30,7 @@ ht-degree: 98%
 **决策管理**
 
 * 现在，您可以指定是否对所有用户或某个特定用户档案以及所有版面或每个版面应用选件上限。 [了解详情](../offers/offer-library/add-constraints.md#capping)
-* 通过 Batch Decisioning API，组织可以在一次调用中对特定区段中的所有用户档案运用 Offer Decisioning 功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* 通过 Batch Decisioning API，组织可以在一次调用中对特定区段中的所有用户档案运用 Offer Decisioning 功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 

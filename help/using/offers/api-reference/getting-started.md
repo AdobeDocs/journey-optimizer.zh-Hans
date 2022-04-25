@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 4%
 
 ---
 
@@ -127,6 +127,10 @@ curl -X GET \
 ## 后续步骤 {#next-steps}
 
 本文档介绍了调用 [!DNL Offer Library] API，包括获取容器ID。 您现在可以继续阅读本开发人员指南中提供的示例调用并按照其说明进行操作。
+
+>[!NOTE]
+>
+> Adobe Journey Optimizer中的应用程序内消息传送渠道使用offer decisioning对象。 如果您的组织使用应用程序内消息传送渠道，则对象的API列表请求将包含由应用程序内消息传送服务创建的对象，在offer decisioning用例中，这些对象可以忽略。 为应用程序内消息创建的对象将具有 `createdBy = “Mobile_Sheliak”`.
 
 ## 操作方法视频 {#video}
 

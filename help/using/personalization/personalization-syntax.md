@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 10%
 
 ---
@@ -41,7 +41,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 词 **true**, **false**, **null** 和 **未定义** 仅在路径表达式的第一部分中允许。
 
-在Handlebars中，由{{expression}}返回的值为 **HTML转义**. 如果表达式包含 `&`，则返回的HTML转义输出将生成为 `&amp;`. 如果你不希望Handlebars转义某个值，那就使用“三重藏货”。
+在Handlebars中， {{expression}} are **HTML转义**. 如果表达式包含 `&`，则返回的HTML转义输出将生成为 `&amp;`. 如果你不希望Handlebars转义某个值，那就使用“三重藏货”。
 
 ## 配置文件
 
@@ -92,7 +92,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 * `Placement Id` 和 `Activity Id` 是放置和活动标识符
 * `Attributes` 是选件特定的属性，取决于选件类型。 示例： `deliveryUrl` 对于图像
 
-有关决策API和选件表示的更多信息，请参阅 [本页](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+有关决策API和选件表示的更多信息，请参阅 [本页](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 所有引用都将通过选件架构通过 [本页](personalization-validation.md)
 

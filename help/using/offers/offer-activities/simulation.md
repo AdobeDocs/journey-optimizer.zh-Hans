@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->此功能模拟对 [!DNL Decisions] API。 了解详情 [使用决策API提供优惠](../api-reference/decisions-api/deliver-offers.md).
+>此功能模拟对 [!DNL Decisioning] API。 了解详情 [使用决策API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md).
 
 要访问此功能，请选择 **[!UICONTROL Simulation]** 选项卡 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 菜单。
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >默认情况下，会启用所有重复数据删除标记以进行模拟，这意味着决策引擎允许重复项，因此可以在多个决策/投放中提出相同的建议。 了解 [!DNL Decisions] 中的API请求属性 [此部分](../api-reference/decisions-api/deliver-offers.md).
+   >默认情况下，会启用所有重复数据删除标记以进行模拟，这意味着决策引擎允许重复项，因此可以在多个决策/投放中提出相同的建议。 了解 [!DNL Decisioning] 中的API请求属性 [此部分](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. 在 **[!UICONTROL Response format]** 部分，则可以选择在代码视图中包含元数据。 选中相应的选项，然后选择所选的元数据。 选择 **[!UICONTROL View code]**. 在 [查看模拟结果](#simulation-results) 中。
 

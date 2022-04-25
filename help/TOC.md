@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer 指南
-user-guide-description: 使用Journey Optimizer为您的客户构建并提供连接、情境式和个性化的体验
+user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 97%
+source-wordcount: '980'
+ht-degree: 98%
 
 ---
 
@@ -325,9 +325,10 @@ ht-degree: 97%
          + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
          + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
       + 使用 API 的优惠投放{#offer-delivery}
-         + [Decisions API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [Batch Decisioning API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
-         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
+         + [关于Decisioning和Edge Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [决策API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 数据管理 {#data-management}
    + [架构](using/start/get-started-schemas.md)
    + [数据集](using/start/get-started-datasets.md)
