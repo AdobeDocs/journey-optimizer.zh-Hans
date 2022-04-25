@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 2%
@@ -94,14 +94,15 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 在选项2中包含以下JavaScript代码片段：上预建的独立版本 [本页](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML页面的部分。
 
-```javascript
+```
+javascript
     <script>
         !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
         []).push(o),n[o]=function(){var u=arguments;return new Promise(
         function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
         (window,["alloy"]);
     </script>
-    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script> 
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
 您需要Adobe帐户中的两个ID来设置SDK配置 — 您的edgeConfigId和您的orgId。 edgeConfigId与您的数据流ID相同，您应该在先决条件中配置该ID。
@@ -110,7 +111,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 按照本页中的说明在JavaScript中配置SDK。 您将始终在配置函数中使用您的edgeConfigId和orgId。 本文档还介绍了配置中存在的可选参数。 您的最终配置可能会如下所示：
 
-```javascript
+```
+javascript
     alloy("configure", {
         "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
         "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
@@ -131,7 +133,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 **示例**:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": 
         [
@@ -142,7 +145,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 有关如何处理响应的示例，请参阅以下内容：
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
@@ -164,7 +168,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 在此示例中，要返回的JSON是：
 
-```json
+```
+json
 {
    "name":"ABC Test",
    "description":"This is a test offer", 
@@ -175,7 +180,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 处理响应对象并解析所需的数据。 因为您可以在一个中发送多个决策范围 `sendEvent` 呼叫，您的响应可能看起来会略有不同。
 
-```json
+```
+json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
@@ -199,7 +205,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 }
 ```
 
-```json
+```
+json
 {
     "propositions": [
     {
@@ -230,7 +237,8 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 要设置JS变量，请执行以下操作：
 
-```javascript
+```
+javascript
 const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
 
 let offerURL = offer['link'];
