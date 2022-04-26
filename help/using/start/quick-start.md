@@ -1,15 +1,15 @@
 ---
 title: 快速入门
-description: 作为营销人员、管理员或数据工程师，通过分步指导了解和发现Adobe Journey Optimizer的强大功能
+description: 作为营销人员、管理员或数据工程师，利用分步指南学习并探索 Adobe Journey Optimizer 的强大功能
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 82%
 
 要通过分步指南了解和发现 Adobe Journey Optimizer 的强大功能，请选择您的用户档案。
 
-* 我是 **管理员**
+* 我是&#x200B;**管理员**
 
-   准备环境、授予访问权限、配置设置. [了解详情](path/administrator.md)
+   准备环境、授予访问权限、配置设置。[了解详情](path/administrator.md)
 
-* 我是 **数据工程师**
+* 我是&#x200B;**数据工程师**
 
-   导入用户档案、构建受众、创建架构和数据集. [了解详情](path/data-engineer.md)
+   导入用户档案、构建受众、创建架构和数据集。[了解详情](path/data-engineer.md)
 
-* 我是 **营销人员**
+* 我是&#x200B;**营销人员**
 
-   设计消息、添加优惠、资源和构建客户历程. [了解详情](path/marketer.md)
+   设计消息、添加优惠、资源和构建客户历程。[了解详情](path/marketer.md)
