@@ -258,9 +258,9 @@ ht-degree: 98%
          + [关于 AI 模型](using/offers/offer-library/ai-ranking.md)
          + [创建 AI 模型](using/offers/offer-library/create-ranking-strategies.md)
    + 创建和管理优惠 {#managing-offers-in-the-offer-library}
-      + 配置选件 {#configure-offers}
+      + 配置优惠 {#configure-offers}
          + [创建个性化优惠](using/offers/offer-library/creating-personalized-offers.md)
-         + [添加表示法](using/offers/offer-library/add-representations.md)
+         + [添加呈现](using/offers/offer-library/add-representations.md)
          + [添加约束](using/offers/offer-library/add-constraints.md)
       + [创建后备优惠](using/offers/offer-library/creating-fallback-offers.md)
       + [创建收藏集](using/offers/offer-library/creating-collections.md)

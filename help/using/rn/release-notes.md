@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有新增功能和改进。您还可以查阅[最新文档更新](documentation-updates.md)页面以了解更多更改。
 
-[!DNL Adobe Journey Optimizer] 本地构建 [!DNL Adobe Experience Platform] 并从其最新创新和改进中继承。 在 [Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target=&quot;_blank&quot;} 中，进一步了解这些变更。
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件，每个季度就能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 **决策管理**
 
-* 现在，您可以指定是否对所有用户或某个特定用户档案以及所有版面或每个版面应用选件上限。 [了解详情](../offers/offer-library/add-constraints.md#capping)
+* 现在，您可以指定是将优惠上限应用到所有用户还是某个特定用户档案，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
 * 通过 Batch Decisioning API，组织可以在一次调用中对特定区段中的所有用户档案运用 Offer Decisioning 功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
