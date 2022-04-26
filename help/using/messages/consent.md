@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含选择退出链接，这对于事务型消息不是必需的。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息预设级别](../configuration/message-presets.md#email-type) 和时间 [创建消息](get-started-content.md#create-new-message).
+>营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别（**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**）在[消息预设级别](../configuration/message-presets.md#email-type)和[创建消息](get-started-content.md#create-new-message)时定义。
 
 ### 外部选择退出 {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 #### 为选择退出实施 API 调用 {#opt-out-api}
 
-要在收件人从登陆页面提交其选择时选择退出，您必须实施 **订阅API调用** 至 [Adobe开发人员](https://developer.adobe.com){target=&quot;_blank&quot;}以更新相应配置文件的首选项。
+要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} 实施&#x200B;**订阅 API 调用**&#x200B;以更新相应用户档案的偏好设置。
 
-此POST调用如下所示：
+此 POST 调用如下：
 
 端点：platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 }
 ```
 
-[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe开发人员](https://developer.adobe.com){target=&quot;_blank&quot;} API调用。
+[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 调用更新相应用户档案的选择。
 
 #### 使用取消订阅链接发送消息 {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    ![](assets/opt-out-lp-example.png)
 
-1. 如果收件人提交表单(此处为通过点击 **取消订阅** 按钮)，则用户档案数据将通过 [API调用](#opt-out-api).
+1. 如果收件人提交了表单（在此处，通过点击登陆页面中的 **Unsubscribe** 按钮），将通过 [API 调用](#opt-out-api)更新用户档案数据。
 
 1. 然后，选择退出的收件人将被重定向至确认消息屏幕，提示收件人选择退出已成功完成。
 
@@ -203,7 +203,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
    >
    >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
 
-* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
 
 ## 推送退出管理 {#push-opt-out-management}
 
