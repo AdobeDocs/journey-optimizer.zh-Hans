@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '404'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 3%
 # 管理 [!DNL Adobe Stock] 图像 {#stock}
 
 ## 开始使用 [!DNL Adobe Stock] {#get-started-stock}
+
+>[!IMPORTANT]
+>
+> 使用 [!DNL Adobe Stock] 集成当前仅供选定用户抢先访问。 如果要利用此功能，请联系您的Adobe客户经理。
 
 [!DNL Adobe Stock] 提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以授权资产，或仅为所需资产购买一个Standard或Extended许可证。 Adobe Stock还提供免费的资产集合。
 
