@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
+source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 93%
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 **电子邮件设计**
 
-* **新电子邮件模板** 现在可用于在Journey Optimizer中设计电子邮件内容。
+* **20个新电子邮件模板** 现在可用于在Journey Optimizer中设计电子邮件内容。
 
 **用户界面**
 
