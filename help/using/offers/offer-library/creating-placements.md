@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 13%
+source-wordcount: '233'
+ht-degree: 15%
 
 ---
 
@@ -59,6 +59,3 @@ ht-degree: 13%
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
->[!NOTE]
->
->此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 65%
+source-wordcount: '252'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 65%
 >title="关于操作"
 >abstract="您可以在此处定义与将发送消息的系统的连接。此处定义的操作随后将显示在历程左侧面板的“操作”类别中。"
 
-行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
+操作是指您通过这些连接为客户提供个性化的实时体验，例如推送通知、电子邮件，或您在业务中使用的任何其他数字参与方式。
 
 ➡️ [在视频中发现此功能](#video)
 

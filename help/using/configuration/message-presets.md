@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,12 @@ ht-degree: 1%
 1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >当选定的IP池位于下时，无法继续创建预设 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 [了解详情](#subdomains-and-ip-pools)
+   >
+   >将预设另存为草稿，然后等待IP池具有 **[!UICONTROL Success]** 状态以继续创建预设。
 
 1. 创建消息预设后，该消息预设会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
 
@@ -116,6 +122,10 @@ When [创建消息](../messages/get-started-content.md#create-new-message)，则
 
 1. 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+当选定的IP池位于下时，无法继续创建预设 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果出现这种情况，请将预设另存为草稿，然后在IP池具有 **[!UICONTROL Success]** 状态。
+
 >[!NOTE]
 >
 >对于非生产环境，Adobe不会创建现成的测试子域，也不会授予对共享发送IP池的访问权限。 您需要 [委派您自己的子域](delegate-subdomain.md) 并使用分配给贵组织的池中的IP。
@@ -155,28 +165,6 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 在 [此部分](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### URL跟踪{#url-tracking}
-
-要确定用户点击您链接的位置和原因，您可以在  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** 中。
-
-根据您定义的参数，UTM代码将应用于消息内容中包含的URL的末尾。 然后，您便能够在Web分析工具中比较结果，如Google Analytics。
-
-![](assets/preset-url-tracking.png)
-
-默认情况下，有三个UTM参数可用。 您最多可以添加10个跟踪参数。 要添加UTM参数，请选择 **[!UICONTROL Add new UTM param]** 按钮。
-
-要配置UTM参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段，或通过导航到以下对象从预定义值列表中进行选择：
-
-* 历程属性：源ID、源名称、源版本ID
-* 消息属性：操作ID、操作名称
-* Offer decisioning属性：选件ID、选件名称
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->请勿选择文件夹：确保浏览到必要的文件夹并选择要用作UTM值的配置文件属性。
 
 ### 标头参数{#email-header}
 
@@ -223,6 +211,35 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 * 对于这两种电子邮件类型，最大重试时间段为84小时（或5040分钟）。
 
 了解有关重试的更多信息(位于 [此部分](retries.md).
+
+### URL跟踪{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM参数"
+>abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的促销活动URL。"
+
+要确定用户点击您链接的位置和原因，您可以选择在  **[!UICONTROL URL Tracking Parameters]** 中。
+
+根据您定义的参数，UTM代码将应用于消息内容中包含的URL的末尾。 然后，您便能够在Web分析工具中比较结果，如Google Analytics。
+
+![](assets/preset-url-tracking.png)
+
+默认情况下，有三个UTM参数可用。 您最多可以添加10个跟踪参数。 要添加UTM参数，请选择 **[!UICONTROL Add new parameter]** 按钮。
+
+要配置UTM参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段，或通过导航到以下对象从预定义值列表中进行选择：
+
+* 历程属性： **源ID**, **源名称**, **源版本ID**
+* 消息属性： **操作ID**, **操作名称**
+* Offer decisioning属性： **选件ID**, **选件名称**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>请勿选择文件夹：确保浏览到必要的文件夹并选择要用作UTM值的配置文件属性。
+
+您可以组合键入文本值和选择预定义值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
 
 ## 配置推送设置 {#configure-push-settings}
 

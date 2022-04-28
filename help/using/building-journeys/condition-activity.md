@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 9%
@@ -79,7 +79,7 @@ ht-degree: 9%
 
 ## 时间条件{#time_condition}
 
-这样，您就可以根据一天中的某个小时和/或一周中的某天执行不同的操作。 例如，您可以决定在白天发送短信消息，在工作日发送夜间电子邮件。
+这样，您就可以根据一天中的某个小时和/或一周中的某天执行不同的操作。 例如，您可以决定在白天发送推送通知，在工作日发送夜间电子邮件。
 
 >[!NOTE]
 >

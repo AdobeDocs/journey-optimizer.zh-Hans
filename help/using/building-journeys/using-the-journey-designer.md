@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 1%
+source-wordcount: '1456'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 * **仅显示可用项目**:隐藏或显示面板中不可用的元素，例如使用不同于历程中使用的命名空间的事件。 默认情况下，不可用项目处于隐藏状态。如果选择显示它们，它们将显示为灰显。
 
-* **仅显示最近的项目**:此过滤器除了现成事件和操作之外，还允许您仅显示最近使用的五个事件和操作。 这特定于每个用户。 默认情况下，将显示所有项目。
+* **仅显示最近的项目**:此过滤器除了现成事件和操作之外，还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。默认情况下，将显示所有项目。
 
 您还可以使用 **[!UICONTROL Search]** 字段。 仅过滤事件和操作。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 ## 在画布中使用路径 {#paths}
 
-多个活动(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 活动)，以便您在发生错误或超时时定义回退操作。 在活动配置窗格中，选中框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 活动后会添加另一个路径。 超时持续时间在历程的属性中定义(请参阅 [本页](../building-journeys/journey-gs.md#change-properties) 管理员用户的。 例如，如果电子邮件发送时间过长或出错，您可以决定发送短信。
+多个活动(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 活动)，以便您在发生错误或超时时定义回退操作。 在活动配置窗格中，选中框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 活动后会添加另一个路径。 超时持续时间在历程的属性中定义(请参阅 [本页](../building-journeys/journey-gs.md#change-properties) 管理员用户的。 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
 
 ![](assets/journey42.png)
 

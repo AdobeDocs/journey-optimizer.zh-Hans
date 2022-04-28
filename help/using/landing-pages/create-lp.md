@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
    ![](assets/lp_open-designer.png)
 
-1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../configuration/lp-configuration.md#lp-subdomains)
+1. 定义登陆页面URL。 URL的第一部分要求您之前在 [预设](../configuration/lp-configuration.md#lp-create-preset) 已选择。 [了解详情](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ ht-degree: 1%
    >[!NOTE]
    >
    >即使发布了URL，您也无法通过将此URL复制粘贴到Web浏览器来访问登陆页面。 您而是可以使用预览函数(如 [此部分](#test-landing-page).
+
+1. 如果希望登陆页面预载已可用的表单数据，请选择 **[!UICONTROL Pre-fill form fields with profile information]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   启用此选项后，如果用户档案已选择启用/禁用或已添加到订阅列表，则在显示登陆页面时，将反映其选择。
+
+   例如，如果某个用户档案选择接收有关未来事件的通信，则在下次向该用户档案显示登陆页面时，将已选中相应的复选框。
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. 您可以为页面定义到期日期。 在这种情况下，您必须在页面到期时选择一项操作：
 

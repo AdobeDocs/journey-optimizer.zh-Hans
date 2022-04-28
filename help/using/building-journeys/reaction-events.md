@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反应事件"
->abstract="此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出响应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出响应。"
+>abstract="此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。"
 
-在面板中可用的不同事件活动中，您会找到 **[!UICONTROL Reactions]** 事件。 此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出响应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出响应。
+在面板中可用的不同事件活动中，您会找到 **[!UICONTROL Reactions]** 事件。 此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。
+
+您可以对点击或打开的消息做出响应。
 
 您还可以使用此机制在消息未受到任何反应时执行操作。 为此，请创建与反应活动平行的第二个路径，并添加等待活动。 如果在等待活动中定义的时间段内没有反应，则将选择第二个路径。 例如，您可以选择发送跟进消息。
 

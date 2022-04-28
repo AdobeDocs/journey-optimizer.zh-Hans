@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '553'
 ht-degree: 17%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 17%
 
 对于每个数据源，您可以定义多个字段组。
 
-例如，您可以创建一个字段组，其中包含电话号码、电子邮件、用户档案的名字和地址。 然后，您便能够在历程中使用此数据来创建条件。 例如，您可以决定仅在用户档案的电话号码不为空时发送短信。 如果为空，则可以发送电子邮件。
+例如，您可以创建一个字段组，其中包含电话号码、电子邮件、用户档案的名字和地址。 然后，您便能够在历程中使用此数据来创建条件。 例如，您可以决定仅当客户安装了移动设备应用程序时才发送推送通知。 如果为空，则可以发送电子邮件。
 
 即使自动添加默认名称，我们仍建议您为字段组指定名称。 事实上， [!DNL Journey Optimizer]. 最好为字段组命名相关名称。
 

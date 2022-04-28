@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81718cdba5c8537179d37e82c3d6ed897ebbd7ff
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 # 查询示例{#query-examples}
 
 本节列出了在数据湖中查询历程步骤事件的几个常用示例。
+
+确保查询中使用的字段在相应架构中具有关联的值。
 
 ## 消息/操作错误 {#message-action-errors}
 

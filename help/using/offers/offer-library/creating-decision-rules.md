@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 12%
+source-wordcount: '258'
+ht-degree: 13%
 
 ---
 
@@ -54,9 +54,5 @@ ht-degree: 12%
 >中当前不支持基于事件的选件 [!DNL Journey Optimizer]. 如果您根据 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您将无法在选件中利用它。
 
 ## 教程视频 {#video}
-
->[!NOTE]
->
->此视频适用于基于Adobe Experience Platform构建的Offer decisioning应用程序服务。 但是，它为在Journey Optimizer上下文中使用选件提供了通用指南。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

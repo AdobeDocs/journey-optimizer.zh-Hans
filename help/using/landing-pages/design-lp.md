@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,12 @@ ht-degree: 1%
 1. 定义此复选框是否用于选择用户启用或禁用：他们是否同意接收通信或要求不再联系？
 
    ![](assets/lp_designer-form-update.png)
+
+   从以下三个选项中进行选择：
+
+   * **[!UICONTROL Opt in if checked]**:用户需要选中要同意（选择加入）的框。
+   * **[!UICONTROL Opt out if checked]**:用户需要选中相应复选框以删除其同意（选择退出）。
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**:此选项允许您为选择启用/选择禁用插入一个复选框。 用户需要选中要同意的复选框（选择加入），然后取消选中该复选框以删除其同意（选择退出）。
 
 1. 选择要在以下三个选项之间更新的内容：
 

@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2969'
-ht-degree: 100%
+source-wordcount: '3200'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,59 @@ ht-degree: 100%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件，每个季度就能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
+
+## 2022 年 4 月版 {#april-2022-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>与Adobe Campaign Standard集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>作为Adobe Campaign Standard客户，您现在可以使用Journey Optimizer发送电子邮件、推送通知和短信。 使用新的内置操作将Campaign Standard事务型消息传递功能利用到Journey Optimizer中。</p>
+<p>有关更多信息，请参阅<a href="../action/acs-action.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改进
+
+**登陆页面**
+
+* **选择启用/选择禁用复选框的新选项**  — 您现在可以在订阅登陆页面中为选择启用/选择禁用插入一个复选框。 用户需要选中要同意的复选框（选择加入），然后取消选中该复选框以删除其同意（选择退出）。 [了解详情](../landing-pages/design-lp.md#define-lp-specific-content)
+
+* **预填充登陆页面字段**  — 现在，允许用户使用用户档案信息预填登陆页面字段。 [了解详情](../landing-pages/create-lp.md#configure-primary-page)
+
+**决策管理**
+
+* **Edge上的决策API** - Edge Decisioning API可以交付和渲染在Offer decisioning中管理的个性化选件。 您可以使用Offer decisioning用户界面(UI)或API创建选件和其他相关对象。 [了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+
+**管理**
+
+* **PTR提交持续时间**  — 现在，PTR编辑生效的持续时间为数小时。 [了解详情](../configuration/ptr-records.md#processing)
+
+**电子邮件设计**
+
+* **新电子邮件模板** 现在可用于在Journey Optimizer中设计电子邮件内容。
+
+**用户界面**
+
+* **Journey Optimizer UI中的上下文帮助**  — 上下文帮助链接已添加到Journey Optimizer中的多个页面。 如果可用，请单击“i”图标以查看当前功能的快速说明并访问相关文章。
+
+<!--
+### Fixes
+
+* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
+* Fixed an error on business events which could block the journey publication. CJM-25931
+* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+-->
 
 ## 2022 年 3 月版 {#march-2022-release}
 
