@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 32%
@@ -52,9 +52,10 @@ ht-degree: 32%
 
 >[!CAUTION]
 >
->首选方法是完全子域委派。
+>* 首选方法是完全子域委派。
 >
->如果贵组织的策略限制了完整的子域委派方法，则建议使用CNAME方法。 这种方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+>* 如果贵组织的策略限制了完整的子域委派方法，则建议使用CNAME方法。 这种方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+
 
 下表概述了这些方法的工作原理以及隐含的工作量：
 
