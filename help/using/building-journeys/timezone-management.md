@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 您可以在 [属性](../building-journeys/journey-gs.md#change-properties) 你的旅程。
 
-要访问“属性”，请单击屏幕右上方的铅笔图标。
+要访问历程属性，请单击屏幕右上方的铅笔图标。
 
 此时区将用于历程中包含时间元素的每个活动，例如：
 
