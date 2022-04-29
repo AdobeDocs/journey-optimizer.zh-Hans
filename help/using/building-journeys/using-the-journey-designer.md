@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。 每个活动都具有特定的角色和在流程中的位置。 活动已排序。 活动完成后，该流程将继续并处理下一个活动，等等。
 
-## 历程设计入门
+## 历程设计入门 {#gs-journey-design}
 
 的 **调色板** 位于屏幕的左侧。 所有可用活动都按以下几类进行分类： **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**. 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ![](assets/journey41.png)
 
-## 开始您的历程
+## 开始您的历程 {#start-your-journey}
 
 在设计历程时，您想要问的第一个问题是用户档案如何进入历程。 有两种可能：
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 **从读取区段开始**:您可以设置历程来监听Adobe Experience Platform区段。 在这种情况下，属于指定区段的所有个人都将进入历程。 历程中包含的消息会发送给属于该区段的个人。 [了解有关读取区段的更多信息](read-segment.md).
 
-## 定义后续步骤
+## 定义后续步骤{#define-next-steps}
 
 在第一个事件或读取区段后，您可以组合不同的活动以构建多步跨渠道方案。 从面板中选择所需的步骤。
 
@@ -86,9 +86,11 @@ ht-degree: 3%
 
 您还将找到已配置为通过第三方系统发送消息的自定义操作。 在中了解详情 [部分](about-journey-activities.md#action-activities).
 
-## 在画布中使用路径 {#paths}
+## 添加替代路径{#paths}
 
-多个活动(**[!UICONTROL Condition]**, **[!UICONTROL Action]** 活动)，以便您在发生错误或超时时定义回退操作。 在活动配置窗格中，选中框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 活动后会添加另一个路径。 超时持续时间在历程的属性中定义(请参阅 [本页](../building-journeys/journey-gs.md#change-properties) 管理员用户的。 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
+您可以为以下历程活动定义回退操作，以防出现错误或超时： **[!UICONTROL Condition]** 和 **[!UICONTROL Action]**.
+
+要为活动添加回退操作，请选择 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框中，选择“活动属性”：活动后会添加另一个路径。 超时持续时间由管理员用户在 [历程属性](../building-journeys/journey-gs.md#change-properties). 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
 
 ![](assets/journey42.png)
 
@@ -104,7 +106,7 @@ ht-degree: 3%
 
 ![](assets/canvas-disconnected.png)
 
-## 复制和粘贴活动 {#copy-paste}
+## 复制并粘贴活动 {#copy-paste}
 
 您可以复制一个历程的一个或多个活动，并将它们粘贴到同一历程中或其他历程中。 如果要重复使用在上一个历程中已配置的大量活动，这样可节省时间。
 
