@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -29,17 +30,25 @@ ht-degree: 0%
 
 * 设置 **[!UICONTROL Background color]** 整封邮件。 确保在可从左侧面板访问的导航树中选择主体设置。
 
+   ![](assets/background_1.png)
+
 * 通过选择 **[!UICONTROL Viewport background color]**. 此选项允许您从背景颜色中选择其他设置。
+
+   ![](assets/background_2.png)
 
 * 为每个结构组件设置不同的背景颜色。 在导航树中选择从左侧调色板可访问的结构，以仅将特定背景颜色应用于该结构。
 
    确保未设置视区背景颜色，因为它可能隐藏结构背景颜色。
+
+   ![](assets/background_3.png)
 
 * 设置 **[!UICONTROL Background image]** ，以查看结构组件的内容。
 
    >[!NOTE]
    >
    >某些电子邮件程序不支持背景图像。 不支持时，将改用行背景颜色。 确保在图像无法显示的情况下选择适当的回退背景颜色。
+
+   ![](assets/background_4.png)
 
 * 在列级别设置背景颜色。
 
@@ -48,3 +57,5 @@ ht-degree: 0%
    >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更灵活了。
 
    您也可以在列级别设置背景图像，但很少使用此方法。
+
+   ![](assets/background_5.png)
