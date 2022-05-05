@@ -3,9 +3,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,29 +24,29 @@ ht-degree: 93%
 
 **登陆页面**
 
-* **选择启用/选择禁用复选框的新选项**  — 您现在可以在订阅登陆页面中为选择启用/选择禁用插入一个复选框。 用户需要选中要同意的复选框（选择加入），然后取消选中该复选框以删除其同意（选择退出）。 [了解详情](../landing-pages/design-lp.md#define-lp-specific-content)
+* **选择启用/选择禁用复选框的新选项** - 您现在可以在订阅登陆页面中为选择启用/选择禁用插入一个复选框。用户需要选中复选框来表示同意（选择启用），取消选中该复选框以取消同意（选择禁用）。[了解详情](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **预填充登陆页面字段**  — 现在，允许用户使用用户档案信息预填登陆页面字段。 [了解详情](../landing-pages/create-lp.md#configure-primary-page)
+* **预填登陆页面字段** - 现在，允许用户使用用户档案信息预填登陆页面字段。[了解详情](../landing-pages/create-lp.md#configure-primary-page)
 
 **决策管理**
 
-* **Edge上的决策API** - Edge Decisioning API可以交付和渲染在Offer decisioning中管理的个性化选件。 您可以使用Offer decisioning用户界面(UI)或API创建选件和其他相关对象。 [了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge 上的 Decisioning API** - Edge Decisioning API 可以投放和渲染在 Offer Decisioning 中管理的个性化优惠。您可以使用 Offer Decisioning 用户界面 (UI) 或 API 创建优惠和其他相关对象。[了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
-* **PTR提交持续时间**  — 现在，PTR编辑生效的持续时间为数小时。 [了解详情](../configuration/ptr-records.md#processing)
+* **PTR 提交持续时间** - 现在，PTR 编辑生效的持续时间为数小时。[了解详情](../configuration/ptr-records.md#processing)
 
 **电子邮件设计**
 
-* **20个新电子邮件模板** 现在可用于在Journey Optimizer中设计电子邮件内容。
+* **20 个新电子邮件模板**&#x200B;现在可用于在 Journey Optimizer 中设计电子邮件内容。
 
 **用户界面**
 
-* **Journey Optimizer UI中的上下文帮助**  — 上下文帮助链接已添加到Journey Optimizer中的多个页面。 如果可用，请单击“i”图标以查看当前功能的快速说明并访问相关文章。
+* **Journey Optimizer UI 中的上下文帮助** - 为 Journey Optimizer 中的多个页面添加了上下文帮助链接。如果可用，请单击“i”图标以查看当前功能的快速说明并访问相关文章。
 
-**与Adobe Campaign Standard集成**
+**与 Adobe Campaign Standard 的集成**
 
-作为Adobe Campaign Standard客户，您现在可以使用Journey Optimizer发送电子邮件、推送通知和短信。 使用新的内置操作将Campaign Standard事务型消息传递功能利用到Journey Optimizer中。  [了解详情](../action/acs-action.md)
+作为 Adobe Campaign Standard 客户，您现在可以使用 Journey Optimizer 发送电子邮件、推送通知和短信。借助新的内置操作在 Journey Optimizer 中利用 Campaign Standard 事务型消息传递功能。[了解详情](../action/acs-action.md)
 
 <!--
 ### Fixes
