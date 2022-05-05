@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 97%
       + [添加预编译标头](using/design/preheader.md)
    + 添加和管理资源 {#manage-asset}
       + [使用 Assets Essentials](using/design/assets-essentials.md)
-      + [使用Adobe Stock](using/design/stock.md)
+      + [使用 Adobe Stock](using/design/stock.md)
    + [添加个性化优惠](using/design/deliver-personalized-offers.md)
    + [添加链接和跟踪消息](using/design/message-tracking.md)
    + [预览和证明](using/design/preview.md)
@@ -118,7 +118,7 @@ ht-degree: 97%
       + [阅读区段](using/building-journeys/read-segment.md)
       + [消息](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
-      + [Adobe Campaign Standard操作](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-classic.md)
       + [跳转](using/building-journeys/jump.md)
       + [更新用户档案](using/building-journeys/update-profiles.md)
@@ -327,8 +327,8 @@ ht-degree: 97%
          + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
          + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
       + 使用 API 的优惠投放{#offer-delivery-api}
-         + [关于Decisioning和Edge Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [决策API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [关于 Decisioning 和 Edge Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 数据管理 {#data-management}
@@ -376,7 +376,7 @@ ht-degree: 97%
       + 操作配置{#action-journeys}
          + [关于操作](using/action/action.md)
          + [配置操作](using/action/about-custom-action-configuration.md)
-         + [与Adobe Campaign Standard集成](using/action/acs-action.md)
+         + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
          + [同意](using/action/consent.md)
    + [源](using/start/get-started-sources.md)
