@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Manager Assets Essentials
+title: 在 Journey Optimizer 中使用 Assets Essentials
 description: 开始使用Assets Essentials
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 3%
+source-wordcount: '474'
+ht-degree: 4%
 
 ---
 
@@ -17,9 +17,17 @@ ht-degree: 3%
 
 ## 开始使用 [!DNL Assets Essentials] {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。 它可以直接从 [!DNL Adobe Journey Optimizer] 到 **[!UICONTROL Assets]** 中。 在设计电子邮件内容时，您还可以访问资产和文件夹。 [了解有关电子邮件设计的更多信息](design-emails.md).
+使用将营销和创意工作流整合在一起 [!DNL Adobe Experience Manager Assets Essentials]. 与本地集成 [!DNL Adobe Journey Optimizer]，访问 [!DNL Assets Essentials] 存储、管理、发现和分发数字资产。 它提供了可用于填充消息的资产集中存储库。
 
-使用之前 [!DNL Adobe Experience Manager Assets Essentials]，则必须将用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 [有关更多信息，请参阅Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+[!DNL Adobe Experience Manager Assets Essentials] 是一个协作式和集中化的资产工作区，可扩展您的创意系统和社区数字资产，以提供体验。 您可以轻松组织、标记和查找已批准的生产资产，以确保各个团队的品牌一致性。 凭借其直观的用户体验，可在您的Adobe创意和Experience Cloud应用程序内即时访问共享资产。
+
+在 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
+
+[!DNL Adobe Experience Manager Assets Essentials] 可以直接从访问 [!DNL Adobe Journey Optimizer] 到 **[!UICONTROL Assets]** 中。 您还可以在 [设计电子邮件内容](design-emails.md).
+
+## 先决条件{#assets-prerequisites}
+
+使用之前 [!DNL Adobe Experience Manager Assets Essentials]，则必须将用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 有关更多信息，请参阅 [Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >对于在2022年1月6日之前获取的Journey Optimizer产品，您必须部署 [!DNL Adobe Experience Manager Assets Essentials] 为贵组织。 在 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}部分。
