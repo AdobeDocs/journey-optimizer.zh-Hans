@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 1. 使用您复制的有效负荷 [!DNL Journey Optimizer] 在对流摄取API的API调用的正文（“数据部分”）中。 请参阅下面的示例
 1. 确定在何处获取有效负载中存在的所有变量。 示例：如果事件应传达地址，则粘贴的有效负载将显示“地址”：&quot;string&quot;。 “string”应被自动填充正确值（要向其发送消息的人员的电子邮件）的变量替换。 请注意，在有效负荷预览中， **[!UICONTROL Header]** 部分，我们会自动填充许多值，以便您的工作。
 1. 选择“application/json”作为正文类型。
-1. 在标题中使用键“x-gw-ims-org-id”传递您的IMS组织ID。 对于值，请使用您的IMS组织ID(&quot;XXX@AdobeOrg&quot;)。
+1. 在标题中使用键“x-gw-ims-org-id”传递您的组织ID。 对于值，请使用您的组织ID(&quot;XXX@AdobeOrg&quot;)。
 
 以下是流摄取API事件的示例：
 
