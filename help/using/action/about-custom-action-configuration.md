@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -83,6 +83,11 @@ ht-degree: 6%
    >定义自定义操作时仅允许使用默认端口：80表示http，443表示https。
 
 1. 选择调用 **[!UICONTROL Method]**:它可以 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > 的 **DELETE** 方法不受支持。 如果需要更新现有资源，请选择 **PUT** 方法。
+
 1. 在 **[!UICONTROL Headers]** 部分，定义要发送到外部服务的请求消息的HTTP标头：
    1. 要添加标题字段，请单击 **[!UICONTROL Add a header field]**.
    1. 输入标题字段的键。
@@ -103,7 +108,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >将根据字段解析规则验证标头。 [了解详情](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
+   >将根据字段解析规则验证标头。 在 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
 
 ## 定义操作参数 {#define-the-message-parameters}
 

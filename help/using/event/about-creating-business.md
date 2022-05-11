@@ -1,15 +1,15 @@
 ---
 title: 配置业务事件
-description: Learn how to create a business event
+description: 了解如何创建业务事件
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 11%
+source-wordcount: '1103'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 11%
 
 基于读取区段的历程可以由调度程序在事件发生时通过一次性、定期或由业务事件触发。
 
-Business events can be &quot;a product is back in stock&quot;, &quot;the stock price of a company reaches a certain value”, etc.
+业务事件可以是“产品重新存货”、“公司股价达到一定价值”等。
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ Business events can be &quot;a product is back in stock&quot;, &quot;the stock p
 
 **在历程处理期间接收业务事件时的行为是什么？**
 
-Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+商务活动遵循与单一活动相同的重新进入规则。 如果历程允许重新进入，则将处理下一个业务事件。
 
-**What are the guardrails to avoid over-loading materialized segments?**
+**要避免过载实体化视图区段，有哪些防护？**
 
-In the case of on-shot business events, for a given journey, data pushed by the first event job is reused during a 1-hour time window. 对于计划历程，没有护栏。 了解有关 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+对于即时业务事件，对于给定历程，由第一个事件作业推送的数据将在1小时的时间范围内重复使用。 对于计划历程，没有护栏。 了解有关 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## 业务事件入门 {#gs-business-events}
 
 以下是配置业务事件的首要步骤：
 
-1. In the ADMINISTRATION menu section, select **[!UICONTROL Configurations]**. 在  **[!UICONTROL Events]** ，单击 **[!UICONTROL Manage]**. 将显示事件列表。
+1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**. 在  **[!UICONTROL Events]** ，单击 **[!UICONTROL Manage]**. 将显示事件列表。
 
    ![](assets/jo-event1.png)
 
@@ -80,28 +80,29 @@ In the case of on-shot business events, for a given journey, data pushed by the 
 
 1. 使用此事件的旅程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标，以显示使用此事件的旅程列表。
 
-1. Define the schema and payload fields: this is where you select the event information (usually called a payload) journeys expects to receive. 然后，您便能够在旅程中使用这些信息。请参阅[此小节](../event/about-creating-business.md#define-the-payload-fields)。
+1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（或有效负载）。 您稍后将在历程中使用此信息。 请参阅[此小节](../event/about-creating-business.md#define-the-payload-fields)。
 
    ![](assets/jo-event5-business.png)
 
-   只有时间系列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。 事件架构必须包含基于人员的主标识。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
+   只有时间系列架构可用。 `Experience Events`, `Decision Events` 和 `Journey Step Events` 架构不可用。 事件架构必须包含基于人员的主标识。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Click inside the **[!UICONTROL Event ID condition]** field. 使用简单表达式编辑器，定义系统将使用的条件以识别将触发历程的事件。
+1. 在 **[!UICONTROL Event ID condition]** 字段。 使用简单表达式编辑器定义条件，系统使用该条件来识别触发历程的事件。
+
    ![](assets/jo-event6-business.png)
 
-   In our example, we wrote a condition based on the product&#39;s id. 这意味着，每当系统收到与此条件匹配的事件时，都会将其传递到历程。
+   在本例中，我们根据产品的ID编写了一个条件。 这意味着，每当系统收到与此条件匹配的事件时，都会将其传递到历程。
 
    >[!NOTE]
    >
-   >In the simple expression editor, not all operators are available, they depend on the data type. 例如，对于字段的字符串类型，可以使用“包含”或“等于”。
+   >在简单的表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字段的字符串类型，可以使用“包含”或“等于”。
 
 1. 单击 **[!UICONTROL Save]**。
 
    ![](assets/journey7-business.png)
 
-   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页面](../event/additional-steps-to-send-events-to-journey.md)以了解详情。
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
@@ -111,7 +112,7 @@ In the case of on-shot business events, for a given journey, data pushed by the 
 
    ![](assets/journey8-business.png)
 
-   All the fields defined in the schema are displayed. 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段，或仅显示选定的字段。 根据架构定义，某些字段可能是必填的，并且是预选的。 您无法取消选择它们。 默认情况下，将选择所有对于历程要正确接收事件而言必须填写的字段。
+   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段，或仅显示选定的字段。 根据架构定义，某些字段可能是必填的，并且是预选的。 您无法取消选择它们。 默认情况下，将选择所有对于历程要正确接收事件而言必须填写的字段。
 
    ![](assets/journey9-business.png)
 
@@ -123,13 +124,13 @@ In the case of on-shot business events, for a given journey, data pushed by the 
 
 1. 选择完所需字段后，单击 **[!UICONTROL Save]** 或按 **[!UICONTROL Enter]**.
 
-   选定字段的数量显示在 **[!UICONTROL Fields]** 字段。
+   所选字段的数量显示在 **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
 ## 预览有效负载 {#preview-the-payload}
 
-有效负载预览允许您验证有效负载定义。
+使用有效负载预览验证有效负载定义。
 
 1. 单击 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负荷。
 
@@ -141,4 +142,4 @@ In the case of on-shot business events, for a given journey, data pushed by the 
 
 1. 检查预览以验证有效负载定义。
 
-1. 然后，您可以将有效负载预览共享给负责事件发送的人员。 This payload can help them design the setup of an event pushing to [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然后，您可以将有效负载预览共享给负责事件发送的人员。 此有效负载可帮助他们设计推送到的事件的设置 [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。

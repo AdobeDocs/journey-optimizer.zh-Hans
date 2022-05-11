@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 98%
 
 ---
 
@@ -118,6 +118,9 @@ ht-degree: 100%
     <li>
       <a href="using/messages/get-started-content.md">消息</a>
     </li>
+    <li>
+      <a href="using/landing-pages/get-started-lp.md">登陆页面</a>
+    </li>
     <p>
     <p>决策管理</p>
     <li>
@@ -155,12 +158,24 @@ ht-degree: 100%
     <li>
       <a href="using/segment/about-segments.md">区段</a>
     </li>
-     <li>
+    </li>
+    <li>
+      <a href="using/landing-pages/subscription-list.md">订阅列表</a>
+    </li>     
+    <li>
       <a href="using/segment/get-started-profiles.md">用户档案</a>
     </li>
     <li>
       <a href="using/segment/get-started-identity.md">标识</a>
     </li>
+    <p>隐私</p>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans" target="_blank">支持</a>
+    </li>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans"target="_blank">请求</a>
+    </li>
+    <p>
     <p>
     <p>管理</p>
     <li>
@@ -175,7 +190,6 @@ ht-degree: 100%
   </td>
 </tr>
 </table>
-
 
 
 ![新闻稿](using/assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件！

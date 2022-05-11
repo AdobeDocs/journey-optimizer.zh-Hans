@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '821'
 ht-degree: 5%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 5%
 在原始历程中，只需添加 **[!UICONTROL Jump]** 活动，然后选择target历程。 当个人输入 **[!UICONTROL Jump]** 步骤中，将内部事件发送到target历程的第一个事件。 如果 **[!UICONTROL Jump]** 操作成功后，个人将继续在历程中进行。 行为与其他操作类似。
 
 在目标历程中，由 **[!UICONTROL Jump]** 活动将使历程中的各个流量。
-
->[!NOTE]
->
->另请参阅教程视频 [此处](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hans){target=&quot;_blank&quot;}
 
 ## 生命周期
 

@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -145,4 +145,4 @@ substr(
 
 解释：此示例使用 `substr` 和 `lastIndexOf` 用于删除与移动设备应用程序启动事件一起传递的CRM ID周围大括号的函数。
 
-有关如何使用高级表达式编辑器的更多信息，请观看 [此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+有关如何使用高级表达式编辑器的更多信息，请观看 [此视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hans).

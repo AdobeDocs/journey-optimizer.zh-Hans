@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 54%
+source-wordcount: '829'
+ht-degree: 51%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 54%
 
    >[!CAUTION]
    >
-   >为基于规则的事件定义上限规则。它将历程可为给定组织 (ORG) 处理的合格事件数限制为每秒 5000 个。它对应于Journey Optimizer SLA。 请参阅此[页面](https://helpx.adobe.com/cn/legal/product-descriptions/journey-orchestration.html)。
+   >为基于规则的事件定义上限规则。它将历程可为给定组织处理的符合条件的事件数限制为每秒5000个。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 

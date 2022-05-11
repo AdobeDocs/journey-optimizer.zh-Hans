@@ -4,9 +4,9 @@ description: 了解如何配置环境以通过Journey Optimizer发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 步骤3:使用事件测试您的移动设备应用程序 {#mobile-app-test}
 
-在Adobe Experience Platform和 [!DNL Adobe Experience Platform Data Collection]，您现在可以在向用户档案发送推送通知之前对其进行测试。 在此用例中，我们将创建一个旅程以定位我们的移动设备应用程序，并设置一个触发推送通知的事件。
+在Adobe Experience Platform和 [!DNL Adobe Experience Platform Data Collection]，您现在可以在向用户档案发送推送通知之前对其进行测试。 在此用例中，我们将创建一个历程来定位我们的移动设备应用程序，并设置一个触发推送通知的事件。
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 单击 **[!UICONTROL Edit]** 在 **[!UICONTROL Event ID condition]** 字段。 拖放您之前添加的字段以定义系统将用于识别将触发历程的事件的条件。
+1. 单击 **[!UICONTROL Edit]** 在 **[!UICONTROL Event ID condition]** 字段。 拖放您之前添加的字段以定义系统用于识别触发历程的事件的条件。
 
    ![](assets/test_push_8.png)
 

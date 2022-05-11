@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1482'
 ht-degree: 13%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 13%
 
 1. 单击 **[!UICONTROL Save]**。
 
-   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
@@ -125,27 +125,27 @@ ht-degree: 13%
 
 ## 定义用户档案标识符 {#define-the-event-key}
 
-键值是字段或字段组合是事件有效负载数据的一部分，它将允许系统识别与事件关联的人员。 键可以是Experience CloudID、CRM ID或电子邮件地址。
+键值是字段或字段组合，字段是事件有效负载数据的一部分，并允许系统标识与事件关联的人员。 键可以是Experience CloudID、CRM ID或电子邮件地址。
 
-如果您计划利用存储在实时客户资料数据库中的数据，则必须选择在 [实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+要使用存储在Adobe实时客户资料数据库中的数据，事件键必须是您在 [实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
 
-它将允许系统执行事件与个人用户档案之间的协调。 如果您选择的架构具有主标识，则 **[!UICONTROL Profile identifier]** 和 **[!UICONTROL Namespace]** 字段已预填充。 如果未定义身份，我们将选择 _identityMap > id_ 作为主键。 然后，您必须选择命名空间，并且该键值将被预填充(位于 **[!UICONTROL Namespace]** 字段)使用 _identityMap > id_.
+用户档案标识符允许系统执行事件与个人用户档案之间的协调。 如果您选择的架构具有主标识，则 **[!UICONTROL Profile identifier]** 和 **[!UICONTROL Namespace]** 字段已预填充。 如果未定义身份，则 _identityMap > id_ 是主键。 然后，您必须选择命名空间，并且该键值会使用 _identityMap > id_.
 
 选择字段时，主标识字段会进行标记。
 
 ![](assets/primary-identity.png)
 
-如果您需要使用其他键（如CRM ID或电子邮件地址），则需要手动添加它：
+如果您需要使用其他密钥（如CRM ID或电子邮件地址），则需要手动添加该密钥，如下所述：
 
-1. 在 **[!UICONTROL Profile identifier]** 字段或铅笔图标上的。
+1. 在 **[!UICONTROL Profile identifier]** 字段，或在铅笔图标上。
 
    ![](assets/journey16.png)
 
-1. 在有效负载字段列表中选择作为键的字段。 您还可以切换到高级表达式编辑器以创建更复杂的键（例如，事件的两个字段的串联）。 请参阅下面的此部分。
+1. 在有效负载字段列表中选择作为键的字段。 您还可以切换到高级表达式编辑器以创建更复杂的键（例如，事件的两个字段的级联）。
 
    ![](assets/journey20.png)
 
-收到事件后，键值将允许系统识别与事件关联的人员。 与命名空间关联(请参阅 [此部分](../event/about-creating.md#select-the-namespace))，则可以使用键对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。键还用于检查人员是否处于历程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许同一密钥（例如CRMID=3224）位于同一历程中的不同位置。
+当收到事件时，键值允许系统识别与该事件关联的人员。 与命名空间关联(请参阅 [此部分](../event/about-creating.md#select-the-namespace))，则可以使用键对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。键还用于检查人员是否处于历程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许同一密钥（例如CRMID=3224）位于同一历程中的不同位置。
 
 您还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询（如更改格式、执行字段连接）的值，只考虑字段的一部分（例如10个前字符）。 请参阅此[页面](../building-journeys/expression/expressionadvanced.md)。
 
@@ -167,4 +167,4 @@ ht-degree: 13%
 
 1. 检查预览以验证有效负载定义。
 
-1. 然后，您可以将有效负载预览共享给负责事件发送的人员。 此有效负载可帮助他们设计推送到的事件的设置 [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然后，您可以将有效负载预览共享给负责事件发送的人员。 此有效负载可帮助他们设计推送到的事件的设置 [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。

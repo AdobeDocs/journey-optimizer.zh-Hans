@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,16 @@ ht-degree: 0%
 >title="更新用户档案活动"
 >abstract="利用更新配置文件操作活动，可使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。"
 
-的 **[!UICONTROL Update Profile]** 操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有的Adobe Experience Platform配置文件。
+使用 **[!UICONTROL Update Profile]** 操作活动，使用来自事件、数据源或具有特定值的信息更新现有Adobe Experience Platform配置文件。
 
-## 重要说明
+## 推荐
 
 * 的 **更新用户档案** 操作只能在以具有命名空间的事件开始的历程中使用。
 * 该操作仅更新现有字段，而不会创建新的用户档案字段。
 * 您不能使用 **更新用户档案** 操作以生成体验事件，例如购买。
-* 与任何其他操作一样，在出现错误或超时时，您可以定义替代路径，并且不能同时放置两个操作。
-* 发送到Platform的更新请求将会很快，但不会立即/在一秒内发送。 通常需要几秒钟，但有时候需要更多时间，而且无法保证。 因此，例如，如果某个操作使用的是“字段1”，该字段1由位于前面的“更新用户档案”操作更新，则您不应期望该操作中会更新“字段1”。
+* 与任何其他操作一样，在出现错误或超时时，您可以定义替代路径，并且不能并行放置两个操作。
+* 发送到Adobe Experience Platform的更新请求会立即/在一秒内发送。 通常需要几秒钟，但有时候需要更多时间，而且无法保证。 因此，例如，如果某个操作使用的“字段1”是由 **更新用户档案** 操作位于之前，您不应期望在操作中更新“字段1”。
 * 的 **更新用户档案** 活动不支持定义为枚举的XDM字段。
-
-## 使用测试模式 {#using-the-test-mode}
-
-在测试模式下，将不模拟用户档案更新。 将对测试用户档案执行更新。
-
-只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用 **更新用户档案** 操作活动，并将测试用户档案布尔字段从false更改为true。
-
-有关如何将现有用户档案转换为测试用户档案的更多信息，请参阅此 [部分](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## 使用用户档案更新
 
@@ -72,3 +64,12 @@ ht-degree: 0%
 的 **更新用户档案** 现已配置。
 
 ![](assets/profileupdate1.png)
+
+
+## 使用测试模式 {#using-the-test-mode}
+
+在测试模式下，将不模拟用户档案更新。 将对测试用户档案执行更新。
+
+只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用 **更新用户档案** 操作活动，并将测试用户档案布尔字段从false更改为true。
+
+有关如何将现有用户档案转换为测试用户档案的更多信息，请参阅此 [部分](../segment/creating-test-profiles.md#create-test-profiles-csv).
