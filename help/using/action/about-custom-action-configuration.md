@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
+source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1496'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 6%
 
 另请注意，自定义操作参数具有预期的格式(例如：字符串、小数等)。 您必须谨慎遵循这些预期格式。 在中了解详情 [用例](../building-journeys/collections.md).
 
-
 ## 配置步骤 {#configuration-steps}
 
 以下是配置自定义操作所需的主要步骤：
@@ -50,9 +49,12 @@ ht-degree: 6%
 
 1. 向操作添加描述。 此步骤是可选的。
 1. 使用此操作的历程数显示在 **[!UICONTROL Used in]** 字段。 您可以单击 **[!UICONTROL View journeys]** 按钮以显示使用此操作的历程列表。
-1. 定义不同的 **[!UICONTROL URL Configuration]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
+1. 选择与此自定义操作相关的渠道： **电子邮件**, **短信**&#x200B;或 **推送通知**. 它将为所需的营销操作字段预填选定渠道的默认营销操作。 如果您选择 **其他**，则不会定义营销操作。
+1. 如果要将同意规则应用于此自定义操作，请选择相应的 **必需的营销操作**. 请参阅[此小节](../action/about-custom-action-configuration.md#consent-management)。
+1. 定义不同的 **[!UICONTROL URL Configuration]** 参数。 请参阅[此小节](../action/about-custom-action-configuration.md#url-configuration)。
 1. 配置 **[!UICONTROL Authentication]** 中。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
-1. 定义 **[!UICONTROL Action parameters]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 定义 **[!UICONTROL Action parameters]**. 请参阅[此小节](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 
 1. 单击 **[!UICONTROL Save]**。
 
    自定义操作现已配置完成，可随时用于您的历程。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
@@ -130,3 +132,37 @@ ht-degree: 6%
 * 变量表示参数的值会有所不同。 在历程中使用此自定义操作的营销人员可以自由地传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、从Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在命名此参数的历程中看到的标签。
 
 ![](assets/customactionpayloadmessage2.png)
+
+## 同意管理 {#consent-management}
+
+客户现在可以定义与隐私相关的同意策略，以在操作执行期间控制传出数据。 同意策略可用作配置文件属性的表达式，用于设置规则以定义是否可以为给定配置文件执行操作。
+
+Consent sur custom action， pas message encore Conxent a tel type de communication uplication de tel type de donnée champs dans profile vont ticles ce consent conté AEP nuvelles regles de type policies auj gouvernance policies. 对Restric电子邮件进行定位。 关联标签(C4/C5)，用于进行营销操作。 定义目标，键入去营销操作。 Ex SFTP crée dest qui va exporter des donées ce sftp， tu flague ce sftp ave une marketing action. 在自定义操作、电子邮件/短信/推送营销操作中，促销行动的概念被删除。 你自定。
+
+标签：quand tu def data set(où stocker tes données)、onglet data gouvernance、pr chaque attribut tu peux definir type de label associa te attribut。 国家代码标签C3/C4。 标签、peux en def d&#39;autres en fontion besoin。
+
+
+
+ — 吉拉评论 — 
+
+描述“其他营销操作”，以便从业人员解释自定义操作的“意图”，例如：我的定制活动是关于锻炼通讯、时事通讯、健身通讯等。
+
+描述第一个版本的同意范围：
+
+- 自定义操作中个性化中使用的营销操作和属性会被考虑在内
+- 对于区段触发的历程（从读取区段开始），将考虑用作该区段中标准的属性
+- 历程中使用的所有活动（读取区段或自定义操作除外）均未被考虑在内
+- 即使使用区段来开始旅程，也不会考虑区段鉴别
+
+描述在自定义操作中被同意策略排除的用户档案仍将继续完成历程（包含消息和抑制列表的iso）
+
+描述预期滞后的提醒：https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
++ 更正AJO延迟（从1小时到6小时）
+
+我们应记录两种类型的滞后：
+
+- 用户延迟，在Carolina Infante上，我不确定我们能说什么，看这个：
+
+我们是否可以确认是否需要“UPS投影/导出”，以在用户档案级别更新“contentTo”字段（知道我们在运行时使用的内容）？ 因为如果是这种情况，我想我们应该说这将需要48小时，但如果不是，我们只是在说“摄取延迟+收集延迟”（因此在最坏的情况下，如果摄取出现激增或中断，以及/或客户从用户那里收集更新需要较长时间，则需要几秒钟到几小时）。
+
+- 同意策略滞后，我会说“最长6小时”，因为实时历程将每6小时提取一次同意策略。 Carolina Infante ，您知道我们是否受到过滤器滞后的影响？
