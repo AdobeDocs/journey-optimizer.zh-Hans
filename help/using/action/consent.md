@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: 6958b03907bdc2e57e336efe27d7528cc60f86f2
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="定义必需的营销操作"
->abstract="“必需的营销操作”允许您定义与自定义操作相关的营销操作。 例如，如果您使用该自定义操作发送电子邮件，则可以选择“电子邮件定位”。 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 无法在画布上修改此设置。"
+>abstract="“必需”营销操作允许您定义与自定义操作相关的营销操作。 例如，如果您使用该自定义操作发送电子邮件，则可以选择“电子邮件定位”。 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 无法在画布上修改此设置。"
 
 配置自定义操作时，可使用两个字段进行同意管理。
 
