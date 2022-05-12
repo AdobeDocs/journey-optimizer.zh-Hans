@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 28%
+source-wordcount: '341'
+ht-degree: 29%
 
 ---
 
@@ -61,3 +61,7 @@ ht-degree: 28%
 ## 操作参数
 
 在 **[!UICONTROL Action parameters]** 部分，您将看到消息参数定义为 _&quot;变量&quot;_. 对于这些参数，您可以定义获取此信息的位置(例如：事件、数据源)、手动传递值或使用高级表达式编辑器进行高级用例。 高级用例可以是数据处理和其他函数用法。 请参阅 [页面](expression/expressionadvanced.md).
+
+**相关主题**
+
+[配置操作](../action/about-custom-action-configuration.md)
