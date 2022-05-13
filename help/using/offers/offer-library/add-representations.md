@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示"
->abstract="添加表示法以定义选件在消息中的显示位置。 选件表示的越多，在不同版面环境中使用该选件的机会就越多”。
+>abstract="添加表示法以定义选件在消息中的显示位置。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。"
 
 选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、HTML块等。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。
 
