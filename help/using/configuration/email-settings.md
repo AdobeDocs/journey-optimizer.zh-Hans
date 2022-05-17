@@ -5,9 +5,9 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -164,9 +164,9 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 以下是与Adobe Analytics和Google Analytics兼容的URL的示例。
 
-* Adobe Analytics兼容URL:www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_图像_{{context.system.source.name}}
+* Adobe Analytics兼容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics兼容URL:www.YourLandingURL.com?utm_medium=email&amp;utm_source=AJO&amp;utm_campaign={{context.system.source.id}}&amp;utm_content=image
+* Google Analytics兼容URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >
