@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 95%
+source-wordcount: '1355'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 95%
 * 登陆页面和订阅报告的屏幕截图已更新。 [了解更多信息](../reports/live-report.md)
 * 添加了注释，说明自定义操作不支持Delete方法。 [了解更多信息](../action/about-custom-action-configuration.md)
 * 操作方法视频的链接已更新。
-
+* 的 [电子邮件配置](../configuration/about-subdomain-delegation.md), [消息预设](../configuration/message-presets.md) 和 [配置登陆页面](../configuration/lp-subdomains.md) 已重组各部分，以提高可读性。
+* 的 **URL跟踪** 更新和改进了章节。 [了解更多信息](../configuration/email-settings.md#url-tracking)
 
 ## 2022 年 4 月 {#april-2022}
 

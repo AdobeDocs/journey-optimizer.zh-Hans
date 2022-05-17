@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 97%
 
 ---
 
@@ -338,25 +338,30 @@ ht-degree: 100%
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration-message}
-      + 推送通知配置{#push-config}
+      + 配置推送通知{#push-config}
          + [推送配置入门](using/configuration/push-gs.md)
          + [配置推送通知渠道](using/configuration/push-configuration.md)
-      + 电子邮件配置{#email-configuration}
+      + 配置电子邮件 {#email-configuration}
          + 委派子域{#delegate-subdomains}
             + [子域委派入门](using/configuration/about-subdomain-delegation.md)
             + [委派子域](using/configuration/delegate-subdomain.md)
             + [访问委派的子域](using/configuration/access-subdomains.md)
+         + 管理与子域相关的操作 {#subdomain-related-actions}
             + [添加 Google TXT 记录](using/configuration/google-txt.md)
             + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
-         + [创建 IP 池](using/configuration/ip-pools.md)
+            + [创建 IP 池](using/configuration/ip-pools.md)
          + 监测电子邮件地址{#monitor-reputation}
             + [管理禁止列表](using/configuration/manage-suppression-list.md)
             + [重试](using/configuration/retries.md)
-         + [更改电子邮件主地址](using/configuration/primary-email-addresses.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
-      + [创建消息预设](using/configuration/message-presets.md)
+      + 设置消息预设 {#set-up-message-presets}
+         + [创建消息预设](using/configuration/message-presets.md)
+         + [配置电子邮件设置](using/configuration/email-settings.md)
+      + [管理执行地址](using/configuration/primary-email-addresses.md)
       + [配置频度规则](using/configuration/frequency-rules.md)
-   + [配置登陆页面](using/configuration/lp-configuration.md)
+   + 配置登陆页面 {#lp-configuration}
+      + [配置登陆页面子域](using/configuration/lp-subdomains.md)
+      + [定义登陆页面预设](using/configuration/lp-presets.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + [与外部系统集成](using/configuration/external-systems.md)
