@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1237'
 ht-degree: 7%
 
 ---
@@ -360,6 +360,26 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
+## 蒙版(#mask)
+
+的 `Mask` 函数将字符串的一部分替换为“X”字符。
+
+**格式**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**示例**
+
+以下查询会将“123456789”字符串替换为“X”字符，但前两个和后两个字符除外。
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+查询会返回 `1XXXXXX89`.
+
 ## 不等于{#notEqualTo}
 
 的 `notEqualTo` 函数来确定字符串是否不等于指定的字符串。
@@ -511,7 +531,7 @@ The following function .
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## 裁切{#trim}
+## 修剪{#trim}
 
 的 **trim** 函数会删除字符串开头和结尾的所有空格。
 

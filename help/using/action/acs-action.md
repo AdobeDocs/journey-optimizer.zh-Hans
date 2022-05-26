@@ -1,18 +1,19 @@
 ---
-title: 与Adobe Campaign Standard集成
+title: 与 Adobe Campaign Standard 集成
 description: 了解如何与Adobe Campaign Standard集成
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
+source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 与Adobe Campaign Standard集成 {#using_adobe_campaign_standard}
+# 与 Adobe Campaign Standard 集成 {#using_adobe_campaign_standard}
 
 您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 

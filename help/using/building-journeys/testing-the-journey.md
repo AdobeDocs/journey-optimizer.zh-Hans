@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1527'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 2%
 >
 >在测试历程之前，必须解决所有错误（如果有）。 了解如何在测试之前检查错误 [此部分](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 要使用测试模式，请执行以下步骤：
 
 1. 要激活测试模式，请激活 **[!UICONTROL Test]** 切换，位于右上角。
@@ -41,7 +40,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在历程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
+   >在历程中使用超时的反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
 
 1. 使用 **[!UICONTROL Trigger an event]** 按钮以配置事件并将事件发送到历程。
 
@@ -59,7 +58,7 @@ ht-degree: 2%
 
 ## 重要说明 {#important_notes}
 
-* 提供了一个界面来触发事件到测试历程，但事件也可以由第三方系统（如Postman）发送。
+* 提供了一个界面来触发事件到测试历程，但事件也可由第三方系统(如Postman)发送。
 * 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试历程。 请参阅 [部分](../segment/creating-test-profiles.md).
 * 测试模式仅在使用命名空间的草稿历程中可用。 测试模式需要检查进入历程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间，可以进入历程的测试用户档案最大数为100。

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -16,8 +16,11 @@ ht-degree: 97%
 
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能{#whats-new}
-   + [发行说明](using/rn/release-notes.md)
-   + [最近更新](using/rn/documentation-updates.md)
+   + [最新发行说明](using/rn/release-notes.md)
+   + 以前的发行说明 {#previous-rn-new}
+      + [2022版发行说明](using/rn/release-notes-2022.md)
+      + [2021版发行说明](using/rn/release-notes-2021.md)
+   + [文档更新](using/rn/documentation-updates.md)
 + 入门{#get-started}
    + [什么是 Journey Optimizer](using/start/get-started.md)
    + 快速入门{#quick-start}
@@ -60,7 +63,11 @@ ht-degree: 97%
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
-   + [设计登陆页面](using/landing-pages/design-lp.md)
+   + 设计内容 {#landing-pages-design}
+      + [关于登陆页面设计](using/landing-pages/design-lp.md)
+      + [创建登陆页面内容](using/landing-pages/lp-content.md)
+      + [创建模板](using/landing-pages/lp-templates.md)
+      + [添加自定义JavaScript](using/landing-pages/lp-custom-js.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
    + [用例](using/landing-pages/lp-use-cases.md)
 + 个性化{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 97%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [限制](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + 数学 {#math}
@@ -245,6 +253,7 @@ ht-degree: 97%
       + [可投放性入门](using/reports/deliverability.md)
       + [禁止列表](using/reports/suppression-list.md)
       + [允许列表](using/reports/allow-list.md)
+   + [对Journey Optimizer资源的审计行动](using/reports/audit-logs.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 97%
    + [管理用户和产品配置文件](using/administration/permissions.md)
    + [权限级别](using/administration/high-low-permissions.md)
    + [沙盒管理](using/administration/sandboxes.md)
+   + [基于属性的访问控制](using/administration/attribute-based-access.md)
+

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1100'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,10 @@ ht-degree: 1%
 1. 您可以更改页面名称，即 **[!UICONTROL Subpage 1]** 默认情况下。
 
 1. 使用内容设计器编辑页面内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
+
+   >[!NOTE]
+   >
+   >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错并希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在 [此部分](../design/message-tracking.md#insert-links).
 
 1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../configuration/lp-subdomains.md)
 

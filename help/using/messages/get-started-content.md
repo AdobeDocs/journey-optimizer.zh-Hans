@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ ht-degree: 100%
 
    * 选择要用于该消息的渠道：电子邮件和/或推送通知。您必须至少选择一个渠道才能创建消息。
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * 选择用于消息的 **[!UICONTROL Preset]**。
 
-      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。[进一步了解预设](../configuration/message-presets.md)。
+      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。了解详情 [预设](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >您必须为选定的类别和渠道选择有效的消息预设。
@@ -83,6 +89,10 @@ ht-degree: 100%
    每个所选渠道都对应一个选项卡。使用这些选项卡为每个渠道配置内容。可以通过选择某个选项卡并单击右侧的 **[!UICONTROL Delete channel]** 按钮来删除该选项卡。
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >如果您启用了 **[!UICONTROL BCC email]** 选项，“密件抄送”电子邮件地址将显示在发件人电子邮件下方。 [了解详情](../configuration/email-settings.md#bcc-email)
 
    您现在可以创建消息的内容并调整设置。以下部分提供了有关电子邮件和推送通知配置的详细信息：
 

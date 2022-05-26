@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 消息/操作错误 {#message-action-errors}
 
-### 历程中遇到的每个错误的列表 {#error-list-journey}
+**历程中遇到的每个错误的列表**
 
 利用此查询，可列出执行消息/操作时在历程中遇到的每个错误。
 
@@ -49,7 +49,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 ## 基于用户档案的查询 {#profile-based-queries}
 
-### 查找用户档案是否输入了特定历程 {#profile-entered-journey}
+**查找用户档案是否输入了特定历程**
 
 _数据湖查询_
 
@@ -71,9 +71,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 结果应大于0。 此查询会返回用户档案进入历程的确切次数。
 
-### 查找用户档案是否发送了特定消息 {#profile-specific-message}
+**查找用户档案是否发送了特定消息**
 
-**方法1:** 如果消息的名称在历程中并非唯一（在多个位置使用）。
+方法1:如果消息的名称在历程中并非唯一（在多个位置使用）。
 
 _数据湖查询_
 
@@ -97,7 +97,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 结果应大于0。 此查询仅告知我们消息操作是否在历程端成功执行。
 
-**方法2:** 如果消息的名称在历程中是唯一的。
+方法2:如果消息的名称在历程中是唯一的。
 
 _数据湖查询_
 
@@ -121,7 +121,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 查询会返回所有消息的列表以及为所选用户档案调用的消息计数。
 
-## 查找用户档案在过去30天内收到的所有消息 {#message-received-30-days}
+**查找用户档案在过去30天内收到的所有消息**
 
 _数据湖查询_
 
@@ -147,7 +147,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 查询会返回所有消息的列表以及为所选用户档案调用的消息计数。
 
-### 查找用户档案在过去30天内输入的所有历程 {#profile-entered-30-days}
+**查找用户档案在过去30天内输入的所有历程**
 
 _数据湖查询_
 
@@ -171,7 +171,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 查询会返回所有历程名称的列表以及查询的用户档案进入历程的次数。
 
-### 符合每日历程条件的用户档案数 {#profile-qualified}
+**符合每日历程条件的用户档案数**
 
 _数据湖查询_
 
@@ -197,7 +197,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 与读取区段相关的查询 {#read-segment-queries}
 
-### 完成区段导出作业所花费的时间
+**完成区段导出作业所花费的时间**
 
 _数据湖查询_
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 查询会返回区段导出作业排队和最终结束之间的时间差（以分钟为单位）。
 
-### 由于是重复项而被历程丢弃的用户档案数
+**由于是重复项而被历程丢弃的用户档案数**
 
 _数据湖查询_
 
@@ -251,7 +251,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 该查询会返回历程丢弃的所有配置文件Id，因为它们是重复项。
 
-### 由于命名空间无效而被历程丢弃的用户档案数
+**由于命名空间无效而被历程丢弃的用户档案数**
 
 _数据湖查询_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查询会返回历程丢弃的所有配置文件Id，因为它们具有无效的命名空间或没有该命名空间的标识。
 
-### 由于没有身份映射而被历程丢弃的用户档案数
+**由于没有身份映射而被历程丢弃的用户档案数**
 
 _数据湖查询_
 
@@ -295,7 +295,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 该查询会返回由于缺少身份映射，导致历程丢弃的所有配置文件Id。
 
-### 由于历程位于测试节点中且该用户档案不是测试用户档案而被历程丢弃的用户档案数
+**由于历程位于测试节点中且该用户档案不是测试用户档案而被历程丢弃的用户档案数**
 
 _数据湖查询_
 
@@ -317,7 +317,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查询会返回历程丢弃的所有配置文件Id，因为导出作业在测试模式下运行，但配置文件未将testProfile属性设置为true。
 
-### 由于内部错误而被历程丢弃的用户档案数
+**由于内部错误而被历程丢弃的用户档案数**
 
 _数据湖查询_
 
@@ -339,7 +339,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查询会返回由于某些内部错误而被历程丢弃的所有配置文件Id。
 
-### 给定历程版本的读取区段概述
+**给定历程版本的读取区段概述**
 
 _数据湖查询_
 
@@ -377,7 +377,7 @@ WHERE
 * 历程版本未达到计划
 * 如果历程版本应通过调用orchestrator来触发导出作业，则上传流程出现问题：历程部署、业务事件或调度程序问题。
 
-### 获取给定历程版本的读取区段错误
+**获取给定历程版本的读取区段错误**
 
 _数据湖查询_
 
@@ -403,7 +403,7 @@ WHERE
     )
 ```
 
-### 获取导出作业处理状态
+**获取导出作业处理状态**
 
 _数据湖查询_
 
@@ -432,7 +432,7 @@ WHERE
 * 创建主题或导出作业时出错
 * 导出作业仍在运行
 
-### 获取导出配置文件的量度，包括每个导出作业的放弃和导出作业量度
+**获取导出配置文件的量度，包括每个导出作业的放弃和导出作业量度**
 
 _数据湖查询_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### 获取所有导出作业的聚合量度（区段导出作业和丢弃）
+**获取所有导出作业的聚合量度（区段导出作业和丢弃）**
 
 _数据湖查询_
 
@@ -557,31 +557,59 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 与区段鉴别相关的查询 {#segment-qualification-queries}
 
-### 由于区段实现与配置的区段实现不同，配置文件被丢弃
+**由于区段实现与配置的区段实现不同，配置文件被丢弃**
 
 _数据湖查询_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _示例_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 此查询会返回由于区段实现错误而被历程版本丢弃的所有配置文件Id。
 
+**由于特定配置文件的任何其他原因而丢弃的区段鉴别事件**
+
+_数据湖查询_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_示例_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+此查询会返回由于用户档案的任何其他原因而被丢弃的所有事件（外部事件/区段鉴别事件）。
+
 ## 基于事件的查询 {#event-based-queries}
 
-### 检查是否收到历程的业务事件
+**检查是否收到历程的业务事件**
 
 _数据湖查询_
 
@@ -607,9 +635,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**检查配置文件的外部事件是否因未找到相关历程而被丢弃**
+
+_数据湖查询_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_示例_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**检查用户档案的外部事件是否因任何其他原因而被丢弃**
+
+_数据湖查询_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_示例_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**检查stateMachine by errorCode丢弃的所有事件计数**
+
+_数据湖查询_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_示例_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**检查所有丢弃的事件，因为不允许重新进入**
+
+_数据湖查询_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_示例_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## 基于历程的常见查询 {#journey-based-queries}
 
-### 每日活动历程数 {#daily-active-journeys}
+**每日活动历程数**
 
 _数据湖查询_
 
@@ -633,7 +753,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 历程实例查询 {#journey-instances-queries}
 
-### 特定时间处于特定状态的用户档案数
+**特定时间处于特定状态的用户档案数**
 
 _数据湖查询_
 
@@ -781,7 +901,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 在特定时间段内退出历程的用户档案数
+**在特定时间段内退出历程的用户档案数**
 
 _数据湖查询_
 
@@ -819,7 +939,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### 在具有节点/状态的特定时间段内，有多少用户档案退出了历程
+**在具有节点/状态的特定时间段内，有多少用户档案退出了历程**
 
 _数据湖查询_
 

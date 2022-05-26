@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -31,15 +31,19 @@ ht-degree: 1%
 
 规则可从 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 菜单。 将列出所有规则，并按修改日期排序。
 
->[!NOTE]
->
->要访问、创建、编辑或删除消息频度规则，您必须具有 [管理频度规则](../administration/high-low-permissions.md#manage-frequency-rules) 权限。
-
-![](assets/message-rules-access.png)
-
 使用过滤器图标可对类别、状态和/或渠道进行过滤。 您还可以在消息标签上搜索。
 
 ![](assets/message-rules-filter.png)
+
+### 权限{#permissions-frequency-rules}
+
+要访问、创建、编辑或删除消息频度规则，您必须具有 **[!UICONTROL Manage frequency rules]** 权限。
+
+具有 **[!UICONTROL View frequency rules]** 权限可以查看规则，但不能修改或删除规则。
+
+![](assets/message-rules-access.png)
+
+了解有关 [此部分](../administration/high-low-permissions.md).
 
 ## 创建规则 {#create-new-rule}
 
@@ -79,7 +83,7 @@ ht-degree: 1%
 
    例如，将上限设置为15，然后选择电子邮件和推送渠道。 如果用户档案已收到10封营销电子邮件和5条营销推送通知，则此用户档案将从任何营销电子邮件或推送通知的下一次投放中排除。
 
-1. 单击 **[!UICONTROL Save as draft]** 以确认创建规则。 您的消息将添加到规则列表中，其中 **[!UICONTROL Draft]** 状态。
+1. 单击 **[!UICONTROL Save as draft]** 以确认创建规则。 您的消息将添加到规则列表，并且 **[!UICONTROL Draft]** 状态。
 
    ![](assets/message-rules-created.png)
 
@@ -93,7 +97,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您无需修改或重新发布消息或历程，规则即可生效。
+>规则最多可能需要10分钟才能完全激活。 您无需修改或重新发布消息或历程，规则即可生效。
 
 要停用消息频度规则，请单击规则旁边的省略号，然后选择 **[!UICONTROL Deactivate]**.
 
@@ -132,6 +136,10 @@ ht-degree: 1%
 1. [设计](../design/design-emails.md) 和 [发布](../messages/publish-manage-message.md) 你的留言。
 
 与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
+
+>[!NOTE]
+>
+>消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL Transactional]** 将不会根据频度规则进行评估。
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ ht-degree: 1%
 在此方案中，单个用户档案：
 * 每月最多可接收12条营销消息；
 * 但在收到4个推送通知后，将从营销推送通知中排除。
+
+>[!NOTE]
+>
+>在测试频度规则时，从新创建的开始可能会有所帮助 [测试用户档案](../segment/creating-test-profiles.md)，因为达到用户档案的频度上限后，在下个月之前将无法重置计数器。 取消激活规则将允许有上限的用户档案接收消息，但不会删除或删除任何计数器增量。

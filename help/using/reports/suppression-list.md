@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '769'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 3%
 的 [!DNL Journey Optimizer] 禁止列表由您自己的环境级别管理。
 
 它会收集在单个客户端环境中禁止所有邮件的电子邮件地址和域，即特定于与沙盒ID关联的组织ID。
+
+>[!NOTE]
+>
+>Adobe会保留已知错误电子邮件地址的更新列表，这些地址已证实对参与度和邮件声誉有害，并确保不会向他们发送电子邮件。 此列表在全局抑制列表中进行管理，该列表在所有Adobe客户中都是通用的。 全局禁止列表中包含的地址和域名将被隐藏。 投放报表中仅显示被排除的收件人数。
 
 ## 为什么要列禁名单？ {#why-suppression-list}
 

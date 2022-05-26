@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '151'
+ht-degree: 7%
 
 ---
 
 # distinct {#distinct}
 
-返回列表的非重复值，但不包含空值。
+返回给定列表的不同值或对象。 将忽略空条目。
 
 ## 类别
 
@@ -23,20 +23,14 @@ ht-degree: 18%
 
 ## 函数语法
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## 参数
 
-| 参数 | 类型 |
-|-----------|------------------|
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要处理的列表。 对于listObject，它必须是字段引用。 |
+| keyAttributeName | 字符串 | 此参数是可选的，并且仅适用于listObject。 如果未提供参数，则如果所有属性具有相同的值，则会将对象视为重复对象。 否则，如果给定属性具有相同的值，则会将对象视为重复对象。 |
 
 ## 签名和返回的类型
 
@@ -71,6 +65,13 @@ ht-degree: 18%
 `distinct(<listDuration>)`
 
 返回持续时间列表。
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+返回对象列表。
+
 
 ## 示例
 

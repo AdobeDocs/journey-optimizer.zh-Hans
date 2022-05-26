@@ -110,7 +110,7 @@ ht-degree: 6%
    >
    >在本例中，我们将仅使用优先级得分。 了解详情 [资格规则和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-## 配置选件 {#configure-offers}
+## 配置优惠 {#configure-offers}
 
 您现在可以创建和配置选件。 在此示例中，您将创建四个选件，以根据每个特定的配置文件显示这些选件。
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 15%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 15%
 
    * **[!UICONTROL Name]**:版面的名称。 确保定义一个有意义的名称，以便更轻松地检索该名称。
    * **[!UICONTROL Channel type]**:将用于放置的渠道。
-   * **[!UICONTROL Content type]**:允许版面显示的内容类型：文本、HTML或图像链接。
+   * **[!UICONTROL Content type]**:允许版面显示的内容类型：文本、HTML、图像链接或JSON。
    * **[!UICONTROL Description]**:版面的描述（可选）。
 
    ![](../assets/offers_placement_creation_properties.png)

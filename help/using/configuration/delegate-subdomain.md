@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1667'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="生成匹配的DNS记录"
->abstract="要将新子域完全委派给Adobe，您需要复制Journey Optimizer界面中显示的Adobe名称服务器信息，并将其粘贴到您的域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域即可用于投放消息。"
+>abstract="要将新子域完全委派给Adobe，您需要将Journey Optimizer界面中显示的Adobe名称服务器信息复制并粘贴到您的域托管解决方案中，以生成匹配的DNS记录。 要使用CNAME委派子域，您还需要复制并粘贴SSL CDN URL验证记录。 检查成功后，子域即可用于投放消息。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME 子域委派"
 
 [!DNL Journey Optimizer] 允许您完全委派子域，以便直接从产品界面Adobe。 这样，Adobe就能够通过控制和维护发送、渲染和跟踪电子邮件促销活动所需的DNS的所有方面，将消息作为托管服务进行传送。
 

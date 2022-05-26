@@ -29,7 +29,7 @@ ht-degree: 53%
 
 如果您拥有Adobe Campaign v7或v8，则集成可应请求提供。 请参见[此页面](../action/acc-action.md)。
 
-如果您使用第三方系统来发送消息，例如Epsilon、Facebook、 [Adobe开发人员](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等，您需要添加和配置自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
+如果您使用第三方系统来发送消息，例如Epsilon、Facebook、 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等，您需要添加和配置自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
 通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 

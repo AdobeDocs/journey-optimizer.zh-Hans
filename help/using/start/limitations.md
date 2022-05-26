@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
+source-git-commit: 4510b3f5992abc17bead7db240279f33efb3febb
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '623'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 3%
 ## 消息限制 {#limitations-messages}
 
 * 您无法向使用 [!DNL Journey Optimizer].
-* 不支持电子邮件密送 [!DNL Journey Optimizer].
 * 您不能使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和来自其他产品，例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage] 例如。
 
 ## 登陆页面的限制 {#limitations-lp}
