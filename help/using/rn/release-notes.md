@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 34%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 34%
 <tbody>
 <tr>
 <td>
+<p>发布日期： <strong>5月31日</strong></p>
 <p>您现在可以使用电子邮件密送（盲碳拷贝）功能存储由Adobe Journey Optimizer发送的电子邮件。 在电子邮件预设中启用此选项，以便发送的每封电子邮件都会被盲目复制到密件抄送地址。</p>
 <img src="assets/bcc-rn.gif"/>
 <p>有关更多信息，请参阅<a href="../configuration/email-settings.md#bcc-email">详细文档</a>。</p>

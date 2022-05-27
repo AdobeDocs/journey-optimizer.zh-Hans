@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,10 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 您可以发送由 [!DNL Journey Optimizer] 发送到密件抄送收件箱。 此可选功能允许您保留您发送给用户的电子邮件通信副本，以便符合规范和/或进行存档。 投放收件人将看不到该内容。
 
+>[!CAUTION]
+>
+>此功能将从 **5月31日**.
+
 ### 启用密送电子邮件 {#enable-bcc}
 
 启用 **[!UICONTROL BCC email]** 选项，在专用字段中输入您选择的电子邮件地址。 除了在委派的子域上定义的电子邮件地址之外，您可以以正确的格式指定任何外部地址。 例如，如果委派的子域为 *marketing.luma.com*，任何地址，如 *abc@marketing.luma.com* 禁止。
@@ -145,6 +149,8 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >[!NOTE]
 >
 >您只能定义一个密件抄送电子邮件地址。 确保密件抄送地址具有足够的接收容量，以存储使用当前预设发送的所有电子邮件。
+>
+>中列出了更多推荐 [此部分](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >
 >您无需重新发布消息或旅程，即可接收密送设置。
 
-### Recommendations和限制 {#recommendations-limitations}
+### Recommendations和限制 {#bcc-recommendations-limitations}
 
-* 确保正确设置密件抄送电子邮件地址。 如果不是，则客户的个人身份信息(PII)可能会被发送到不需要的地址。
+* 为确保您的隐私合规性，密件抄送电子邮件必须由能够安全存储个人身份信息(PII)的归档系统进行处理。
 
-* 出于隐私原因，密件抄送电子邮件必须由能够存储安全的个人身份信息(PII)的存档系统处理。
-
-* 此功能在发送给收件人之前可能会先将邮件发送至密件抄送电子邮件地址，这可能会导致发送密件抄送消息，即使原始投放可能已 [已退回](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* 如果打开并点进发送至密件抄送地址的电子邮件，则在发送分析的总打开数和单击次数中会考虑此问题，这可能会导致 [报告](../reports/message-monitoring.md). 同样，将密件抄送电子邮件标记为垃圾邮件会登陆收件箱的垃圾邮件文件夹。
+* 由于消息可以包含敏感或私有数据，如个人身份信息(PII)，因此请确保密件抄送地址正确，并确保消息的访问安全。
 
 * 对于空间和投放，应正确管理用于密件抄送的收件箱。 如果收件箱返回退回，则可能未收到某些电子邮件，因此将无法存档。
 
+* 在目标收件人之前，可以将邮件发送到密送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* 请勿打开或点进发送到密件抄送地址的电子邮件，因为在总打开数和发送分析的点击量中，会考虑这些事件，这可能会导致 [报告](../reports/message-monitoring.md).
+
+* 请勿在密件抄送收件箱中将邮件标记为垃圾邮件，因为这会影响发送到此地址的所有其他电子邮件。
+
+
 >[!CAUTION]
 >
->避免在发送给密件抄送地址的电子邮件中单击取消订阅链接，因为您将立即取消订阅相应的收件人。
+>请勿在发送给密件抄送地址的电子邮件中单击取消订阅链接，因为您将立即取消订阅相应的收件人。
 
 ### GDPR合规 {#gdpr-compliance}
 
