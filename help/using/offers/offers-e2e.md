@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 6%
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 1. 如果您想要定义规则以确定应首先为给定版面显示哪个选件（而不是考虑选件的优先级得分），则可以创建 **排名公式**.
 
-   有关创建排名公式的详细步骤，请参见 [此部分](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
+   有关创建排名公式的详细步骤，请参见 [此部分](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >

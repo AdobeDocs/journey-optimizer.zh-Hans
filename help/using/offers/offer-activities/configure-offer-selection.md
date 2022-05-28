@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 如果多个选件符合给定版面的条件，您可以在配置决策时选择为每个用户档案选择最佳选件的方法。 您可以按以下方式对选件进行排名：
 * 选件优先级
 * 排名公式
-* [人工智能排名](#use-ranking-strategy) （仅供选定用户抢先访问）
+* [人工智能排名](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 例如，您可以提升结束日期现在后不到24小时的所有选件的优先级，或者如果用户档案的目标点为“正在运行”，则提升“正在运行”类别中的选件。
 
-了解如何在中创建排名公式 [此部分](../offer-library/create-ranking-formulas.md).
+了解如何在中创建排名公式 [此部分](../ranking/create-ranking-formulas.md).
 
 创建排名公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
@@ -62,11 +62,7 @@ ht-degree: 5%
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-您还可以使用经过培训的模型系统，通过选择排名策略自动对选件进行排名以显示给定用户档案。 了解如何在 [此部分](../offer-library/create-ranking-strategies.md).
-
->[!CAUTION]
->
->目前，只能对选定用户提前访问AI排名。
+您还可以使用经过培训的模型系统，通过选择排名策略自动对选件进行排名以显示给定用户档案。 了解如何在 [此部分](../ranking/create-ranking-strategies.md).
 
 创建排名策略后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 

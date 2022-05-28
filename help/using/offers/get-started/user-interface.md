@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 66%
@@ -41,7 +41,7 @@ ht-degree: 66%
 
 * **[!UICONTROL Rules]**：管理您的优惠的展示条件。请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
 
-* **[!UICONTROL Rankings]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪些优惠。请参阅[创建排名公式](../offer-library/create-ranking-formulas.md)。
+* **[!UICONTROL Rankings]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪些优惠。请参阅[创建排名公式](../ranking/create-ranking-formulas.md)。
 
 ![](../assets/offer_activities.png)
 

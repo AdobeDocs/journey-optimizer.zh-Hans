@@ -2,7 +2,7 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -39,7 +39,7 @@ ht-degree: 94%
 ## 2022 年 3 月 {#march-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 3 月版的所有新增功能和改进。[了解更多信息](release-notes.md)
-* 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/offer-library/ai-ranking.md#auto-optimization)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/offer-library/ai-ranking.md)
+* 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/ranking/auto-optimization-model.md)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/ranking/ai-models.md)
 * 测试用户档案创建页面已移至&#x200B;**区段、用户档案和身份**&#x200B;部分。[了解更多信息](../segment/creating-test-profiles.md)
 * 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。[了解更多信息](../building-journeys/expression/field-references.md#default-value)
 * **创建个性化优惠**&#x200B;章节已重新组织，提高了可读性。[了解更多信息](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ ht-degree: 94%
 ## 2022 年 1 月 {#january-2022}
 
 * 文档中详细介绍了[!DNL Journey Optimizer] 2022 年 1 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
-* 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解更多信息](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解更多信息](../offers/ranking/auto-optimization-model.md)
+* 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/ranking/schema-requirement.md)
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/message-presets.md#create-message-preset)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ ht-degree: 94%
 
 * 添加了子部分，阐明在应用约束以限制给定投放位置的优惠选择时，使用区段与决策规则之间的差异。[了解更多信息](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* 添加了具体的排名公式示例，以便说明一些实际用例。[了解更多信息](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* 添加了具体的排名公式示例，以便说明一些实际用例。[了解更多信息](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * 添加了关于如何编辑 IP 池的子部分。[了解更多信息](../configuration/ip-pools.md#edit-ip-pool)
 
