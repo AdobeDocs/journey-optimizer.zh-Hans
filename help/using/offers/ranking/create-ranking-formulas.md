@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -139,21 +139,9 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 
 ### 根据客户购买所提供产品的倾向来提升优惠
 
-如果我们有2个实例 *CustomerAI* 计算购买倾向 *travelInsurance* 和 *extraBarge* 对于航空公司，如果客户购买该产品的倾向得分高于90分，则以下排名公式将提高特定于保险或行李的优惠优先级（增加50分）。
+您可以根据客户倾向得分提升选件的得分。
 
-但是，由于 *CustomerAI* 实例在统一的用户档案架构中创建其自身的对象，因此无法根据选件倾向类型动态选择分数。 所以你得把 `if` 语句，以首先检查选件倾向类型，然后从相应的用户档案字段中提取分数。
-
-**排名公式：**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-一个更好的解决方案是将分数存储在配置文件的数组中。 以下示例将仅使用简单的排名公式，跨各种不同的倾向得分工作。 您的期望是您有一个包含分数数组的用户档案架构。 在本例中，实例租户为 *_salesvelocity* 并且用户档案架构包含以下内容：
+在本例中，实例租户为 *_salesvelocity* 并且配置文件架构包含存储在数组中的一系列得分：
 
 ![](../assets/ranking-example-schema.png)
 
