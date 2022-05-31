@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 96%
+source-wordcount: '651'
+ht-degree: 99%
 
 ---
 
@@ -90,9 +90,11 @@ ht-degree: 96%
 
    ![](assets/create-messages-content.png)
 
+   <!--
    >[!NOTE]
    >
-   >如果您启用了 **[!UICONTROL BCC email]** 选项，“密件抄送”电子邮件地址将显示在发件人电子邮件下方。 [了解详情](../configuration/email-settings.md#bcc-email)
+   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
+   -->
 
    您现在可以创建消息的内容并调整设置。以下部分提供了有关电子邮件和推送通知配置的详细信息：
 
