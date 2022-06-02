@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1575'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
+>title="关于选件约束"
+>abstract="通过限制，您可以指定与其他选件相比，选件的优先级和呈现给用户的方式。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_constraints"
 >title="关于选件约束"
 >abstract="通过限制，您可以指定与其他选件相比，选件的优先级和呈现给用户的方式。"
 

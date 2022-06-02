@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 3%
+source-wordcount: '1040'
+ht-degree: 2%
 
 ---
 
 # 预览和测试消息{#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="添加测试用户档案"
+>abstract="您可以通过选择标识命名空间和相应的标识值来添加测试用户档案。"
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，您将能够利用测试用户档案数据检查此内容在消息中的显示方式。
 
