@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: '465'
+ht-degree: 31%
 
 ---
 
@@ -122,11 +122,11 @@ ht-degree: 35%
 * **返回主页面**  — 您现在可以从同一登陆页面中的任何子页面添加指向主页面的链接。
 * **自定义JavaScript支持**  — 您现在可以向登陆页面内容添加自定义JavaScript以执行高级样式或向登陆页面添加自定义行为。	[了解详情](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **历程**
 
 * **读取区段**  — 一次性读取区段历程现在在历程执行30天后变为“已完成”状态。 对于计划读取区段，则为上次执行该事件后的30天。 [了解更多信息](../building-journeys/read-segment.md)
 * **表达式编辑器** - [限制](../building-journeys/functions/functionlimit.md) 函数，以限制列表的项目数。 的 [排序](../building-journeys/functions/functionsort.md) 函数现在允许您对列表对象进行排序。 还向 [disct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 函数。
+
+**管理**
+
+**许可证使用功能板更新**  — 现在，Adobe Experience Platform UI中提供的“许可证使用情况”功能板可准确反映 **许可** 平均用户档案丰富度。 作为Journey Optimizer客户，您将在此量度表示形式中看到一个下拉信息，这意味着您获得许可的使用情况现在可以正确报告。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}

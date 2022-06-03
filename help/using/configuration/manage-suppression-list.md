@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 2%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 2%
 * 针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。
 
 此类电子邮件地址会自动收集到Journey Optimizer中 **抑制列表**. 了解有关抑制列表概念和在 [此部分](../reports/suppression-list.md).
+
+您还可以 [**手动** 添加地址或域](#add-addresses-and-domains) 到禁止列表。
+
+>[!NOTE]
+>
+>要花0到60分钟 [!DNL Journey Optimizer] 考虑外发电子邮件中禁止使用的地址。
 
 ## 访问禁止列表 {#access-suppression-list}
 
@@ -105,7 +111,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="将电子邮件/域添加到抑制列表"
+>title="向抑制列表添加电子邮件或域"
 >abstract="您可以手动填充Journey Optimizer抑制列表，以从发送中排除特定的电子邮件地址和/或域。"
 
 当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
@@ -139,6 +145,10 @@ ht-degree: 2%
 
 1. 根据需要指定原因。
 
+   >[!NOTE]
+   >
+   >只允许包含32到126之间的ASCII字符。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+
 1. 单击 **[!UICONTROL Submit]**。
 
 ### 上传CSV文件 {#upload-csv-file}
@@ -159,6 +169,9 @@ ht-degree: 2%
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >对于“注释”列，仅允许包含32到126之间的ASCII字符。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
    您也可以从 **[!UICONTROL Suppression list]** 主视图。
 
@@ -175,6 +188,10 @@ ht-degree: 2%
    ![](assets/suppression-list-upload-file-button.png)
 
 1. 单击 **[!UICONTROL Submit]**。
+
+>[!NOTE]
+>
+>上传完成后，请通过界面检查其状态，确保上传成功。 [了解如何](#recent-uploads)
 
 ### 检查最近上载状态 {#recent-uploads}
 

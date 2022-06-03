@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 4%
 
 ---
@@ -200,6 +200,9 @@ ht-degree: 4%
         <td><a href="string.md#matches">匹配</a></td><td>此函数用于确定字符串是否与特定正则表达式匹配</td>
     </tr>
     <tr>
+        <td><a href="string.md#mask">蒙版</a></td><td>此函数用于将字符串的一部分替换为“X”字符。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#notEqualTo">不等于</a></td><td>此函数用于确定字符串是否不等于指定的字符串</td>
     </tr>
     <tr>
@@ -224,7 +227,7 @@ ht-degree: 4%
         <td><a href="string.md#titleCase">标题大小写</a></td><td>此函数用于大写字符串中每个单词的前几个字母</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">裁切</a></td><td>此函数从字符串的开头和结尾删除空格</td>
+        <td><a href="string.md#trim">修剪</a></td><td>此函数从字符串的开头和结尾删除空格</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">大写</a></td><td>此函数将字符串转换为大写字母</td>

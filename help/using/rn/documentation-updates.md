@@ -2,7 +2,7 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -98,7 +98,7 @@ ht-degree: 94%
 
 * 添加了在数据湖中查询历程步骤事件的常用示例。[了解更多信息](../reports/query-examples.md)
 
-* 添加了新的&#x200B;**限制**&#x200B;页面。[了解更多信息](../start/limitations.md)
+* 添加了新的&#x200B;**限制**&#x200B;页面。[了解更多信息](../start/guardrails.md)
 
 * 改进了&#x200B;**快速入门**&#x200B;页面，其中包含不同角色的步骤。[了解更多信息](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ ht-degree: 94%
 * 在文档和屏幕中，将“优惠活动”重命名为“决策”，将“决策”重命名为“决策范围”。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用辅助函数个性化消息](../personalization/personalization-use-case-helper-functions.md)
 * 更新了读取区段文档，以反映实体化区段的影响。[了解更多信息](../building-journeys/read-segment.md)
-* 更新了历程限制。[了解更多信息](../start/limitations.md)
+* 更新了历程限制。[了解更多信息](../start/guardrails.md)
 * 更新了决策中的配置优惠选择部分。[了解更多信息](../offers/offer-activities/configure-offer-selection.md)
 * 添加了警告，指出目前不支持基于事件的优惠。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 记录了“决策管理”功能中新增的 **[!UICONTROL Overview]** 选项卡。[了解更多信息](../offers/get-started/user-interface.md#overview)
