@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -148,33 +148,32 @@ ht-degree: 0%
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 * **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
-<!--
 ![](assets/global_report_21.png)
 
 >[!NOTE]
 >
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+>仅当在电子邮件中插入决策时，选件小组件和量度才可用。 有关决策管理的详细信息，请参阅此 [页面](../offers/get-started/starting-offer-decisioning.md).
 
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 随着时间的推移，小组件可衡量选件的成功以及对目标受众的影响。 它使用KPI详细描述与消息相关的主要信息：
 
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+* **[!UICONTROL Offer sent]**:选件的发送总数。
 
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+* **[!UICONTROL Offer impression]**:在投放中打开选件的次数。
 
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+* **[!UICONTROL Offer clicks]**:在投放中点击选件的次数。
 
-The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
+的 **[!UICONTROL Offers detailed statistic]** 表包含与选件一起用于收件人活动的可用数据：
 
-* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Placement name]**:用于显示选件的版面名称。 有关版面的更多信息，请参阅 [页面](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offer name]**:在投放中添加的选件的名称。 有关版面的更多信息，请参阅 [页面](../offers/offer-library/creating-personalized-offers.md).
 
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+* **[!UICONTROL Offer sent]**:选件的发送总数。
 
-* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
+* **[!UICONTROL Offer impression rate]**:已打开选件与已发送选件数的百分比。
 
-* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
--->
+* **[!UICONTROL Offer click rate]**:与选件进行交互的用户百分比。
+
 
 ## “推送”选项卡 {#push-global}
 

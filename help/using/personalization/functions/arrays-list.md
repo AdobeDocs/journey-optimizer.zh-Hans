@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '561'
+ht-degree: 6%
 
 ---
 
 # 数组和列表函数 {#arrays}
 
 使用这些函数可更轻松地与数组、列表和字符串进行交互。
+
+## 仅计数null {#count-only-null}
+
+的 `countOnlyNull` 函数用于计算列表中null值的数量。
+
+**格式**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**示例**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+返回3。
+
+## Null计数 {#count-with-null}
+
+的 `countWithNull` 函数用于计算列表中包含null值的所有元素。
+
+**格式**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**示例**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+返回6。
 
 ## 非重复{#distinct}
 
@@ -34,6 +69,23 @@ ht-degree: 5%
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Null的非重复计数 {#distinct-count-with-null}
+
+的 `distinctCountWithNull` 函数用于计算列表中不同值的数量，包括null值。
+
+**格式**
+
+```sql
+{%= distinctCountWithNull(array) %}
+```
+
+**示例**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+返回3。
 
 ## 第一项{#head}
 
@@ -42,7 +94,7 @@ ht-degree: 5%
 **格式**
 
 ```sql
-{%= head({array}) %}
+{%= head(array) %}
 ```
 
 **示例**
@@ -174,7 +226,6 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## 不在{#notin}
 

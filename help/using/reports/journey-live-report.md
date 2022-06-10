@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -54,22 +54,6 @@ ht-degree: 1%
 * **[!UICONTROL Actions executed]**:为历程成功执行的操作总数。
 
 * **[!UICONTROL Error in actions]**:操作发生的错误总数。
-
-<!--
-![](assets/live_report_7.png)
-
->[!NOTE]
->
->The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
-
-The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
-
-* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
-
-* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
-
-* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
--->
 
 ## “电子邮件”选项卡 {#email-live}
 
@@ -120,6 +104,20 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 的 **[!UICONTROL Error Reasons]** 和 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
 
 的 **[!UICONTROL Email - Top recipient domain]** 图表和表格详细列出了收件人最常使用哪些域来打开电子邮件。
+
+![](assets/live_report_7.png)
+
+>[!NOTE]
+>
+>仅当在电子邮件中插入决策时，选件小组件和量度才可用。 有关决策管理的详细信息，请参阅此 [页面](../offers/get-started/starting-offer-decisioning.md).
+
+的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 随着时间的推移，小组件可衡量选件的成功以及对目标受众的影响。 它使用KPI详细描述与消息相关的主要信息：
+
+* **[!UICONTROL Offer sent]**:选件的发送总数。
+
+* **[!UICONTROL Offer impression]**:在投放中打开选件的次数。
+
+* **[!UICONTROL Offer clicks]**:在投放中点击选件的次数。
 
 ## “推送”选项卡 {#push-live}
 

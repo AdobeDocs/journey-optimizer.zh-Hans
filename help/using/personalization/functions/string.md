@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1686'
 ht-degree: 7%
 
 ---
@@ -255,6 +255,83 @@ doesNotEndWith(person.emailAddress,".com")
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## 获取URL主机 {#get-url-host}
+
+的 `getUrlHost` 函数用于检索URL的主机名。
+
+**格式**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**示例**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+返回&quot;www.myurl.com&quot;
+
+## 获取URL路径 {#get-url-path}
+
+的 `getUrlPath` 函数用于检索URL域名后的路径。
+
+**格式**
+
+```sql
+{%= getUrlPath(string) %}: string
+```
+
+**示例**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+返回&quot;/contact.html&quot;
+
+## 获取URL协议 {#get-url-protocol}
+
+的 `getUrlProtocol` 函数来检索URL的协议。
+
+**格式**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**示例**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+返回“http”
+
+## 索引 {#index-of}
+
+的 `indexOf` 函数用于返回（在第一参数中）第二参数第一次出现的位置。 如果没有匹配项，则返回–1。
+
+**格式**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `{STRING_1}` | 要执行检查的字符串。 |
+| `{STRING_2}` | 要在第一个参数中搜索的字符串 |
+
+**示例**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+返回6。
+
 ## 为空 {#isEmpty}
 
 的 `isEmpty` 函数来确定字符串是否为空。
@@ -272,6 +349,47 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## 不为空 {#is-not-empty}
+
+的 `isNotEmpty` 函数来确定字符串是否不为空。
+
+**格式**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**示例**
+
+如果用户档案的手机号码不为空，则以下函数会返回“true”。 否则，将返回“false”。
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## 最后一个索引 {#last-index-of}
+
+的 `lastIndexOf` 函数用于返回（在第一个参数中）第二个参数最后一个实例的位置。 如果没有匹配项，则返回–1。
+
+**格式**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `{STRING_1}` | 要执行检查的字符串。 |
+| `{STRING_2}` | 要在第一个参数中搜索的字符串 |
+
+**示例**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+返回7。
 
 ## 左裁切 {#leftTrim}
 
@@ -380,6 +498,24 @@ doesNotEndWith(person.emailAddress,".com")
 
 查询会返回 `1XXXXXX89`.
 
+## MD5 {#md5}
+
+的 `md5` 函数计算并返回字符串的md5哈希。
+
+**格式**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**示例**
+
+```sql
+{%= md5("hello world") %}
+```
+
+返回“5eb63bbe01eeed093cb22bb8f5acdc3”
+
 ## 不等于{#notEqualTo}
 
 的 `notEqualTo` 函数来确定字符串是否不等于指定的字符串。
@@ -401,6 +537,29 @@ doesNotEndWith(person.emailAddress,".com")
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## 不等于忽略大小写 {#not-equal-with-ignore-case}
+
+的 `notEqualWithIgnoreCase` 函数来比较两个忽略大小写的字符串。
+
+**格式**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `{STRING_1}` | 要执行检查的字符串。 |
+| `{STRING_2}` | 要与第一个字符串比较的字符串。 |
+
+**示例**
+
+以下查询可确定人员姓名是否不是“john”（不区分大小写）。
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## 正则表达式组{#regexGroup}
@@ -434,17 +593,22 @@ doesNotEndWith(person.emailAddress,".com")
 **格式**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| 参数 | 描述 |
+| --------- | ----------- |
+| `{STRING_1}` | 必须替换子字符串的字符串。 |
+| `{STRING_2}` | 要替换的子字符串。 |
+| `{STRING_3}` | 替换子字符串。 |
 
 **示例**
 
-以下函数。
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+返回“Hello Mark，这是您的月度快讯！”
 
 ## 全部替换{#replaceAll}
 
@@ -456,11 +620,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## 右修剪 {#rightTrim}
 
 的 `rightTrim` 函数会从字符串的末尾删除空格。
-
 
 **格式**
 
@@ -477,17 +639,6 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## 开始于{#startsWith}
 
@@ -513,6 +664,35 @@ The following function .
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## 字符串到整数 {#string-to-integer}
+
+的 `string_to_integer` 函数将字符串值转换为整数值。
+
+**格式**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## 字符串到数字 {#string-to-number}
+
+的 `stringToNumber` 函数将字符串转换为数字。 它会返回与无效输入输出相同的字符串。
+
+**格式**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## 子字符串 {#sub-string}
+
+的 `Count string` 函数用于返回介于开始索引和结束索引之间的字符串表达式的子字符串。
+**格式**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## 标题大小写{#titleCase}
 
 的 **titleCase** 函数用于大写字符串中每个单词的首字母。
@@ -529,6 +709,36 @@ The following function .
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## 至布尔 {#to-bool}
+
+的 `toBool` 函数将参数值转换为布尔值，具体取决于其类型。
+
+**格式**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## 截止时间 {#to-date-time}
+
+的 `toDateTime` 函数将字符串转换为日期。 它返回纪元日期作为无效输入的输出。
+
+**格式**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## 仅截止日期时间 {#to-date-time-only}
+
+的 `toDateTimeOnly` 函数将参数值转换为仅限日期时间的值。 它返回纪元日期作为无效输入的输出。
+
+**格式**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## 修剪{#trim}
@@ -557,4 +767,24 @@ The following function .
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## url解码 {#url-decode}
+
+的 `urlDecode` 函数对url编码的字符串进行解码。
+
+**格式**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## Url编码 {#url-encode}
+
+的 `Count only null` 函数用于对字符串进行url编码。
+
+**格式**
+
+```sql
+{%= urlEncode(string) %}: string
 ```

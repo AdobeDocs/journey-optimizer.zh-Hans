@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 7%
@@ -16,42 +16,6 @@ ht-degree: 7%
 # 聚合函数 {#aggregation}
 
 聚合函数用于将多个值组合在一起，以形成单个摘要值。
-
-## 计数{#count}
-
-的 `count` 函数返回给定数组中的元素数。
-
-**格式**
-
-```sql
-{%= count(array) %}
-```
-
-**示例**
-
-以下操作返回数组中的订单数。
-
-```sql
-{%= count(orders) %}
-```
-
-## 总和{#sum}
-
-的 `sum` 函数会返回数组中所有选定值的总和。
-
-**格式**
-
-```sql
-{%= sum(array) %}
-```
-
-**示例**
-
-以下操作将返回所有订单价格的总和。
-
-```sql
-{%=sum(orders.order.price)%}
-```
 
 ## 平均{#average}
 
@@ -71,22 +35,22 @@ ht-degree: 7%
 {%=average(orders.order.price)%}
 ```
 
-## 最小{#min}
+## 计数{#count}
 
-的 `min` 函数返回数组中所有选定值的最小值。
+的 `count` 函数返回给定数组中的元素数。
 
 **格式**
 
 ```sql
-{%= min(array) %}
+{%= count(array) %}
 ```
 
 **示例**
 
-以下操作会返回所有订单的最低价格。
+以下操作返回数组中的订单数。
 
 ```sql
-{%=min(orders.order.price)%}
+{%= count(orders) %}
 ```
 
 ## 最大值{#max}
@@ -105,4 +69,40 @@ ht-degree: 7%
 
 ```sql
 {%=max(orders.order.price)%}
+```
+
+## 最小{#min}
+
+的 `min` 函数返回数组中所有选定值的最小值。
+
+**格式**
+
+```sql
+{%= min(array) %}
+```
+
+**示例**
+
+以下操作会返回所有订单的最低价格。
+
+```sql
+{%=min(orders.order.price) %}
+```
+
+## 总和{#sum}
+
+的 `sum` 函数会返回数组中所有选定值的总和。
+
+**格式**
+
+```sql
+{%= sum(array) %}
+```
+
+**示例**
+
+以下操作将返回所有订单价格的总和。
+
+```sql
+{%=sum(orders.order.price)%}
 ```
