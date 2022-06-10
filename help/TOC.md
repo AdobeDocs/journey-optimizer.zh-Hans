@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 89%
 + [Journey Optimizer 文档](ajo-home.md)
 + 新增功能{#whats-new}
    + [最新发行说明](using/rn/release-notes.md)
-   + 以前的发行说明 {#previous-rn-new}
-      + [2022版发行说明](using/rn/release-notes-2022.md)
-      + [2021版发行说明](using/rn/release-notes-2021.md)
+   + 过往发行说明 {#previous-rn-new}
+      + [2022 年发行说明](using/rn/release-notes-2022.md)
+      + [2021 年发行说明](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
    + [消息迁移](using/rn/inline-messages.md)
 + 入门{#get-started}
@@ -68,7 +68,7 @@ ht-degree: 89%
       + [关于登陆页面设计](using/landing-pages/design-lp.md)
       + [创建登陆页面内容](using/landing-pages/lp-content.md)
       + [创建模板](using/landing-pages/lp-templates.md)
-      + [添加自定义JavaScript](using/landing-pages/lp-custom-js.md)
+      + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
    + [用例](using/landing-pages/lp-use-cases.md)
 + 个性化{#personalization}
@@ -187,7 +187,7 @@ ht-degree: 89%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [限制](using/building-journeys/functions/functionlimit.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -255,7 +255,7 @@ ht-degree: 89%
       + [可投放性入门](using/reports/deliverability.md)
       + [禁止列表](using/reports/suppression-list.md)
       + [允许列表](using/reports/allow-list.md)
-   + [对Journey Optimizer资源的审计行动](using/reports/audit-logs.md)
+   + [对 Journey Optimizer 资源的审核操作](using/reports/audit-logs.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -269,12 +269,12 @@ ht-degree: 89%
    + 创建排名 {#rankings}
       + [排名入门](using/offers/ranking/get-started-rankings.md)
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
-      + AI模型 {#ai-models}
+      + AI 模型 {#ai-models}
          + [关于 AI 模型](using/offers/ranking/ai-models.md)
          + [自动优化模型](using/offers/ranking/auto-optimization-model.md)
          + 创建 AI 模型 {#configure-ai-model}
             + [创建数据集以收集事件](using/offers/ranking/create-dataset.md)
-            + [创建AI模型](using/offers/ranking/create-ranking-strategies.md)
+            + [创建 AI 模型](using/offers/ranking/create-ranking-strategies.md)
             + [配置事件捕获](using/offers/ranking/schema-requirement.md)
    + 创建和管理优惠 {#managing-offers-in-the-offer-library}
       + 配置优惠 {#configure-offers}
