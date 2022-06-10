@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 许可证使用功能板 {#licence-usage}
 
-的 [!DNL Adobe Journey Optimizer] [用户界面](user-interface.md) 提供一个功能板，其中显示有关贵组织许可证使用情况的重要信息（在每日快照中捕获）。
+的 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md) 提供一个功能板，其中显示有关贵组织许可证使用情况的重要信息（在每日快照中捕获）。
 
 要访问此功能板，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Licence Usage]**. 这将打开 **[!UICONTROL Overview]** 选项卡。
 
