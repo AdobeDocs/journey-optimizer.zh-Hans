@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ ht-degree: 95%
    * 选择要用于该消息的渠道：电子邮件和/或推送通知。您必须至少选择一个渠道才能创建消息。
    >[!NOTE]
    >
-   >您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 了解详情 [频率规则](../configuration/frequency-rules.md).
+   >您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 深入了解[频率规则](../configuration/frequency-rules.md)。
 
    * 选择用于消息的 **[!UICONTROL Preset]**。
 
-      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。了解详情 [预设](../configuration/message-presets.md).
+      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。深入了解[预设](../configuration/message-presets.md)。
    >[!CAUTION]
    >
    >您必须为选定的类别和渠道选择有效的消息预设。
