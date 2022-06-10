@@ -3,9 +3,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1409'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 94%
 
 ## 2022 年 5 月 {#may-2022}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’22年5月版进行了详细介绍。 [了解更多信息](release-notes.md)
-* 与 [区段鉴别](../reports/query-examples.md#segment-qualification-queries) 和 [事件](../reports/query-examples.md#event-based-queries) 已添加。
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 添加了与[区段鉴别](../reports/query-examples.md#segment-qualification-queries)和[事件](../reports/query-examples.md#event-based-queries)相关的新查询示例。
 * 电子邮件设计部分现对新的内置模板进行了介绍，在开始制作内容时可以利用这些模板。更新了相关屏幕截图。[了解更多信息](../design/design-emails.md)
 * 在 Journey Optimizer 文档主页中更新了关键资源的链接。
 * 更新了登陆页面和订阅报告的屏幕截图。[了解更多信息](../reports/live-report.md)
 * 添加了注释，说明自定义操作不支持 Delete 方法。[了解更多信息](../action/about-custom-action-configuration.md)
 * 更新了操作方法视频的链接。
-* 的 [电子邮件配置](../configuration/about-subdomain-delegation.md), [消息预设](../configuration/message-presets.md) 和 [配置登陆页面](../configuration/lp-subdomains.md) 已重组各部分，以提高可读性。
-* 的 **URL跟踪** 更新和改进了章节。 [了解更多信息](../configuration/email-settings.md#url-tracking)
-* 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解更多信息](../configuration/email-settings.md#forward-email)
+* 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/message-presets.md)和[配置登陆页面](../configuration/lp-subdomains.md)部分，以提高可读性。
+* 通过示例更新并改进了 **URL 跟踪**&#x200B;部分。[了解详情](../configuration/email-settings.md#url-tracking)
+* 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解详情](../configuration/email-settings.md#forward-email)
 
 ## 2022 年 4 月 {#april-2022}
 
