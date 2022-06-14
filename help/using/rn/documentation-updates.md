@@ -2,9 +2,9 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1409'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -120,8 +120,8 @@ ht-degree: 100%
 * 添加了关于辅助功能和快捷键的部分。[了解更多信息](../start/user-interface.md#accessibility)
 * 添加了有关区段评估方法的章节。[了解更多信息](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/email-global-report.md)
-* 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../reports/allow-list.md#reporting)
-* 更新了“启用允许列表”部分。[了解详情](../reports/allow-list.md#enable-allow-list)
+* 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../configuration/allow-list.md#reporting)
+* 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/message-presets.md#monitor-message-presets)
 * 更新并重命名了“重试时段”部分，以反映出您现在可以调整消息预设中的电子邮件重试设置。[了解更多信息](../configuration/retries.md#retry-duration)
 * 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../messages/consent.md#one-click-opt-out-link)
