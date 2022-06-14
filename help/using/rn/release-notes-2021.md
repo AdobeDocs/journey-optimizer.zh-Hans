@@ -2,7 +2,7 @@
 title: 过往发行说明（2021 年）
 description: Journey Optimizer 2021 年发行说明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
 source-wordcount: '2070'
 ht-degree: 100%
@@ -278,7 +278,7 @@ ht-degree: 100%
 
 **电子邮件配置**
 
-* **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。[了解详情](../reports/allow-list.md#enable-allow-list)
+* **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * **导航** - 禁止列表，之前可在&#x200B;**管理 > 渠道 > 电子邮件配置 > 常规**&#x200B;菜单下访问，已移至新的&#x200B;**禁止列表**&#x200B;子菜单，该菜单集合了所有相关功能，访问起来更加轻松。[了解详情](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **决策管理**
@@ -325,7 +325,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您现在可以在沙盒级别定义特定的安全发送列表，以便具有用于测试的安全环境。在可能出现错误的非生产实例上，允许列表可确保不会出现向客户发送不必要消息的风险。此功能通过利用禁止 API 来启用。</p>
-<p>有关更多信息，请参阅<a href="../reports/allow-list.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../configuration/allow-list.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
