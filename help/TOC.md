@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 99%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [开始使用用户档案](using/segment/get-started-profiles.md)
       + [创建测试用户档案](using/segment/creating-test-profiles.md)
    + [标识](using/segment/get-started-identity.md)
-   + [许可证使用情况](using/segment/licence-usage.md)
+   + [许可证使用情况](using/segment/license-usage.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
-      + [禁止列表](using/reports/suppression-list.md)
-      + [允许列表](using/reports/allow-list.md)
+      + [关于抑制列表](using/reports/suppression-list.md)
    + [对 Journey Optimizer 资源的审核操作](using/reports/audit-logs.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
@@ -368,8 +367,9 @@ ht-degree: 99%
             + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
             + [创建 IP 池](using/configuration/ip-pools.md)
          + 监测电子邮件地址{#monitor-reputation}
-            + [管理禁止列表](using/configuration/manage-suppression-list.md)
+            + [禁止列表](using/configuration/manage-suppression-list.md)
             + [重试](using/configuration/retries.md)
+            + [允许列表](using/configuration/allow-list.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
       + 设置消息预设 {#set-up-message-presets}
          + [创建消息预设](using/configuration/message-presets.md)

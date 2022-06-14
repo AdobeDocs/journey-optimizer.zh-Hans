@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >只允许包含32到126之间的ASCII字符。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL Reason]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
 1. 单击 **[!UICONTROL Submit]**。
 
@@ -171,7 +171,7 @@ ht-degree: 1%
    ```
    >[!NOTE]
    >
-   >对于“注释”列，仅允许包含32到126之间的ASCII字符。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **注释** 列。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
    您也可以从 **[!UICONTROL Suppression list]** 主视图。
 

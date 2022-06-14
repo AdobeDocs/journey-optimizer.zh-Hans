@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1214'
 ht-degree: 2%
 
 ---
 
 # 创建决策 {#create-offer-activities}
 
-决策（以前称为选件活动）是选件的容器，将利用选件决策引擎来根据投放的目标选择要交付的最佳选件。
+决策是选件的容器，将利用选件决策引擎来根据投放的目标选择要交付的最佳选件。
 
 ➡️ [在此视频中了解如何创建优惠活动](#video)
 

@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 90%
@@ -129,4 +129,4 @@ ht-degree: 90%
 
 **管理**
 
-* **许可证使用功能板更新**  — 许可证使用情况功能板(位于 [!DNL Adobe Journey Optimizer] 用户界面现在可以准确地反映 **许可** 平均用户档案丰富度。 此量度表示形式中将显示一个删除，这意味着许可证限制现在可以正确报告。 [了解详情](../segment/licence-usage.md)
+* **许可证使用功能板更新**  — 许可证使用情况功能板(位于 [!DNL Adobe Journey Optimizer] 用户界面现在可以准确地反映 **许可** 平均用户档案丰富度。 此量度表示形式中将显示一个删除，这意味着许可证限制现在可以正确报告。 [了解详情](../segment/license-usage.md)

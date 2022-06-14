@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1061'
 ht-degree: 6%
 
 ---
@@ -223,56 +223,6 @@ offer decisioning引擎将使用此组合来查找特定用户档案的最佳选
 
 ## 在电子邮件中插入决策 {#insert-decision-in-email}
 
-现在，您的决策已开始实时，您可以将其插入电子邮件。 要实现此目的，请执行以下步骤：
-
-1. 创建电子邮件，然后打开 [Email Designer](../../using/design/design-emails.md) 以配置其内容。
-
-1. 从左侧面板添加结构组件。
-
-1. 添加 **[!UICONTROL Offer decision]** 内容组件。 了解如何在 [此部分](../../using/design/content-components.md).
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. 选择模式。在右侧面板中，单击 **[!UICONTROL Select offer decision]** 添加决策。
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. 从 **[!UICONTROL Placements]** 下拉列表。
-
-   在本例中，您之前在本示例中创建的版面中，仅 **电子邮件 — 图像** 版面可供您在电子邮件中使用决策时使用。 了解详情 [创建版面](../../using/offers/offer-library/creating-placements.md).
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. 与 **电子邮件 — 图像** 位置。 选择要在内容组件中使用的决策，然后单击 **[!UICONTROL Add]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >列表中仅显示与所选版面兼容的决策。
-
-现在，您可以看到所有个性化选件和备用选件都在Email Designer中可视化。
+现在，您的决策已开始实时，您可以将其插入电子邮件。 为此，请按照 [本页](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-使用 **[!UICONTROL Offers]** 或内容组件箭头（左右箭头）浏览数据。 您还可以通过客户用户档案显示决策中所包含的不同选件。 有关详细信息，请参阅[此部分](../../using/design/deliver-personalized-offers.md#preview-offers-in-email)。
-
-保存更改后并发布消息后，在历程中发送消息时，您的选件即可显示到相关用户档案。
-
->[!NOTE]
->
->当您更新选件、备用选件、选件集合或选件决策时，该选件会直接或间接地在 [发布](../../using/messages/publish-manage-message.md) 消息，则更新现在会自动反映在相应的消息中，而无需重新发布。
-
-**相关主题：**
-
-* 了解如何在中查看消息预览 [此部分](../../using/design/preview.md#preview-your-messages).
-
-* 了解如何在 [此部分](../../using/messages/publish-manage-message.md).
-
-* 了解中一个或多个历程如何触发消息 [此部分](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

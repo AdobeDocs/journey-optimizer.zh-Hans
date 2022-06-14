@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 14%
+source-wordcount: '126'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Journey Optimizer允许您自动将优惠目录导出到Adobe Experience Platfor
 * 个性化优惠
 * 后备优惠
 * 版面
-* 决策（以前称为选件活动）
+* 决策
 
 每次在选件库中修改其中一个对象时，都会自动执行新的导出作业来更新数据集。
 

@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 66%
+source-wordcount: '625'
+ht-degree: 63%
 
 ---
 
 # 用户界面 {#user-interface}
 
-优惠库允许您在一个单一的位置创建和管理投放位置和优惠，并允许您访问所有创建的决策（以前称为“优惠活动”）。
+选件库允许您在一个位置创建和管理版面和选件，以及访问所有创建的决策。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 66%
 
 按照屏幕上的步骤开始创建版面、选件和收藏集。
 
-完成这些首要步骤后，系统会提示您创建选件决策（以前称为选件活动）。
+完成这些首要步骤后，系统会提示您创建选件决策。
 
 ![](../assets/overview_collection-created.png)
 

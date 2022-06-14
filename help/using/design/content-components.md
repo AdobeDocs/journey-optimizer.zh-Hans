@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '972'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 2%
 
 ## 选件决策 {#offer-decision}
 
-使用 **[!UICONTROL Offer decision]** 组件，将决策（以前称为选件活动）插入消息。 决策将利用决策管理来选择最佳选件，以提供给您的客户。
+使用 **[!UICONTROL Offer decision]** 组件将决策插入消息。 决策将利用决策管理来选择最佳选件，以提供给您的客户。
 
 相关主题：
 

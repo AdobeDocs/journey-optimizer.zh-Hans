@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 创建和设计推送通知消息，而不发布。 请参阅 [部分](../messages/get-started-content.md).
 * 配置订单事件，包括订单编号、状态和物料名称。 请参阅 [部分](../event/about-events.md).
-* 创建决策（以前称为“选件活动”），请参阅 [部分](../offers/offer-activities/create-offer-activities.md).
+* 创建决策，请参阅 [部分](../offers/offer-activities/create-offer-activities.md).
 
 ## 第1步 — 在用户档案中添加个性化 {#add-perso}
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc13.png)
 
-1. 从左侧菜单中，选择 **优惠决策** 插入offer decisioning变量。 选择版面并单击 **+** 图标（以前称为“选件活动”），将其添加到主体中。
+1. 从左侧菜单中，选择 **优惠决策** 插入offer decisioning变量。 选择版面并单击 **+** 图标。
 
    ![](assets/perso-uc14.png)
 
