@@ -1,18 +1,18 @@
 ---
 title: 使用密送电子邮件
-description: 了解如何在消息预设级别配置电子邮件设置
+description: 了解如何在消息预设级别配置密送电子邮件
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1068'
 ht-degree: 3%
 
 ---
 
-# 使用密送电子邮件 {#bcc-email}
+# 密送电子邮件 {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
