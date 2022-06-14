@@ -2,9 +2,9 @@
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1069'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
 **管理**
 
 * 现在，您可以在邮件预设级别启用/禁用电子邮件标头中的取消订阅链接，并在邮件级别设置自定义取消订阅 URL。[了解详情](../configuration/message-presets.md#list-unsubscribe)
-* 现在可以通过 [!DNL Journey Optimizer] 界面在生产沙盒和非生产沙盒上启用和禁用允许列表。[了解详情](../reports/allow-list.md#enable-allow-list)
+* 现在可以通过 [!DNL Journey Optimizer] 界面在生产沙盒和非生产沙盒上启用和禁用允许列表。[了解详情](../configuration/allow-list.md#enable-allow-list)
 
 **个性化**
 
