@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -120,8 +120,6 @@ ht-degree: 2%
 1. 将三个路径连接到之前创建的购买事件。 当个人购买商品时，将触发该事件。
 
 1. 事件后，删除 **消息** 活动，然后选择电子邮件“谢谢”消息。
-
-1. 添加 **结束** 活动。
 
 ## 测试并发布历程
 

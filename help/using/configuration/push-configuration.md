@@ -4,9 +4,9 @@ description: 了解如何配置环境以通过Journey Optimizer发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 4%
 
 ---
@@ -334,8 +334,6 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 从 **[!UICONTROL Actions]** 下拉、拖放 **[!UICONTROL Message]** 活动。
 
 1. 选择之前创建的消息。 有关如何创建推送通知的更多信息，请参阅此 [页面](../messages/get-started-content.md).
-
-1. 拖放 **[!UICONTROL End]** 活动。
 
 1. 单击 **[!UICONTROL Test]** 切换开始测试推送通知，然后单击 **[!UICONTROL Trigger an event]**.
 

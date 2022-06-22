@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,6 @@ ht-degree: 3%
 
 1. 创建以此事件开始的历程。
 1. 将消息添加到历程。
-1. 通过结束活动结束历程。
 
    由于您尚未发布消息，因此既不能测试也不能发布历程。
 

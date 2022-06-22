@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 3%
+source-wordcount: '339'
+ht-degree: 4%
 
 ---
 
@@ -30,15 +30,9 @@ ht-degree: 3%
 
 ## 关于等待活动{#about_wait}
 
-下面是当您同时使用多个等待时，如何排定等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则位于上方的等待将是优先级。 例如，第一次等待的条件是“为女人”，而第二次并行等待的条件是“为VIP”。 第一个等待活动将按优先顺序排列。
+最长等待时长为30天。 在测试模式下， **[!UICONTROL Wait time in test]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅 [本页](../building-journeys/testing-the-journey.md)
 
-另请注意，如果两个不同的等待同时进行，则无论其垂直位置如何，发生在第一个等待的等待都将按优先级排列。 例如，如果高于1小时等待，低于30分钟等待，则30分钟后将处理30分钟等待。
-
->[!NOTE]
->
->最长等待时长为30天。
->
->在测试模式下， **[!UICONTROL Wait time in test]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅 [本页](../building-journeys/testing-the-journey.md)
+在历程中使用多个等待活动时要谨慎，因为全局历程超时为30天，这意味着用户档案将始终在其进入历程后30天内从历程中删除。
 
 ## 持续等待{#duration}
 

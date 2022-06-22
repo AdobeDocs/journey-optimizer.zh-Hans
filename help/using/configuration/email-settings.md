@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 1%
+source-wordcount: '1192'
+ht-degree: 2%
 
 ---
 
@@ -163,10 +163,15 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的促销活动URL。"
+>title="定义URL跟踪参数"
+>abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的URL。 此功能属于可选功能。"
 
-您可以使用 **[!UICONTROL URL Tracking Parameters]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="预览URL跟踪参数"
+>abstract="查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
+
+您可以使用 **[!UICONTROL URL tracking parameters]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
 
 此部分中定义的参数将附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕获这些参数，并创建各种性能报表。
 
@@ -174,8 +179,9 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 例如，在创建消息预设时，会自动填充三个URL跟踪参数。 您可以编辑这些参数，并使用 **[!UICONTROL Add new parameter]** 按钮。
 
-要配置URL跟踪参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段，或通过导航到以下对象从预定义值列表中进行选择：
+要配置URL跟踪参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段。
 
+您还可以通过导航到以下对象从预定义值列表中进行选择：
 * 历程属性： **源ID**, **源名称**, **源版本ID**
 * 操作属性： **操作ID**, **操作名称**
 * Offer decisioning属性： **选件ID**, **选件名称**
@@ -186,6 +192,10 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >
 >请勿选择文件夹：确保浏览到必要的文件夹并选择要用作跟踪参数值的配置文件属性。
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 以下是与Adobe Analytics和Google Analytics兼容的URL的示例。
 
 * Adobe Analytics兼容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >[!NOTE]
 >
 >您可以组合键入文本值和选择预定义值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
+
+您可以动态预览生成的跟踪URL。 每次添加、编辑或删除参数时，预览都会自动更新。
+
+![](assets/preset-url-tracking-preview.png)

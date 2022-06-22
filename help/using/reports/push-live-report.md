@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 

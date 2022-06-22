@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 6%
+source-wordcount: '1277'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
    ![](assets/segment2.png)
 
-1. **配置数据源**:您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。[了解更多信息](../datasource/about-data-sources.md)
+1. **配置数据源**:您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。[了解详情](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
@@ -134,7 +134,7 @@ ht-degree: 6%
 突发消息传送具有以下要求：
 
 * 历程必须以 **读取区段** 活动。 不允许发生事件。
-* 下一步必须是推送消息。 不允许使用其他渠道、活动或步骤(可选 **结束** 活动)。
+* 下一步必须是推送消息。 不允许使用其他渠道、活动或步骤。
 * 推送消息中不允许进行个性化。
 * 消息必须小(&lt;2KB)。
 
@@ -155,73 +155,3 @@ ht-degree: 6%
 在此视频中，了解突发消息的适用用例，以及如何配置突发消息的历程：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## 结束、停止或关闭旅程{#end-journey}
-
-历程可以在两个特定环境中结束：
-
-* 人到达了路的最后一个活动。 最后一个活动可以是 **结束** 活动或其他活动。 使用 **结束** 活动不是强制性的。 请参阅[此页](../building-journeys/end-activity.md)。
-* 人到达 **条件** 活动(或 **等待** 活动（包含条件），且与任何条件都不匹配。
-
-如果允许重新进入，则人员可以重新进入历程。 请参阅 [本页](../building-journeys/journey-gs.md#change-properties)
-
-由于以下原因，历程可能会关闭：
-
-* 历程通过 **[!UICONTROL Close to new entrances]** 按钮。
-* 基于一次性区段的历程，已完成执行。
-* 在基于定期客户细分的历程的最后一次发生之后。
-
-当历程关闭（出于上述任何原因）时，将具有状态 **[!UICONTROL Closed]**. 历程不再允许新人进入历程。 已在历程中的人员可以正常完成历程。 在默认的全局超时为30天后，历程将切换到 **已完成** 状态。 请参阅 [部分](../building-journeys/journey-gs.md#global_timeout).
-
-如果您需要阻止历程中所有个人的进度，则可以阻止该进度。 停止历程将超时历程中的所有个人。
-
-以下是手动关闭或停止历程的方式：
-
-的 **[!UICONTROL Stop]** 和 **[!UICONTROL Close to new entrances]** 选项允许您终止 **live** 历程。 结束旅程涉及 **阻止新客户进入历程** 并且已进入历程的客户能够体验到该历程的结束。 这是结束旅程的最推荐方法，因为它为客户提供了最佳体验。 停止历程涉及已进入历程的人员都会在其进程中被停止。 旅程基本关闭。
-
->[!NOTE]
->
->请注意，您无法恢复已关闭或已停止的历程。
-
-### 结束历程
-
-您可以手动关闭历程，以确保已进入历程的客户能够完成其路径，但新用户无法进入历程。
-
-关闭后，历程将具有状态 **[!UICONTROL Closed]**. 在默认的全局超时为30天后，历程将切换到 **已完成** 状态。 请参阅 [部分](../building-journeys/journey-gs.md#global_timeout).
-
-无法重新启动或删除已关闭的历程版本。 您可以创建新版本或复制该版本。 只能删除已完成的历程。
-
-要从历程列表关闭历程，请单击 **[!UICONTROL Ellipsis]** 位于历程名称右侧并选择 **[!UICONTROL Close to new entrances]**.
-
-![](assets/journey-finish-quick-action.png)
-
-您还可以：
-
-1. 在 **[!UICONTROL Journeys]** 列表，单击要关闭的历程。
-1. 单击右上角的向下箭头。
-
-   ![](assets/finish_drop_down_list.png)
-
-1. 单击 **[!UICONTROL Close to new entrances]**，并在对话框中确认。
-
-### 停止旅程
-
-当出现紧急情况且需要在旅程中立即结束所有处理时，您可以停止旅程。
-
-无法重新启动已停止的历程版本。
-
-停止时，历程状态将设置为 **[!UICONTROL Stopped]**.
-
-例如，如果营销人员意识到历程定向了错误的受众，或者用于传递消息的自定义操作无法正常工作，则可以停止历程。 要从历程列表中停止历程，请单击 **[!UICONTROL Ellipsis]** 位于历程名称右侧并选择 **[!UICONTROL Stop]**.
-
-![](assets/journey-finish-quick-action.png)
-
-您还可以：
-
-1. 在 **[!UICONTROL Journeys]** 列表，单击要停止的历程。
-1. 单击右上角的向下箭头。
-
-![](assets/finish_drop_down_list.png)
-
-1. 单击 **[!UICONTROL Stop]**，并在对话框中确认。

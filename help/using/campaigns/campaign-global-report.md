@@ -1,71 +1,60 @@
 ---
-title: 历程全局报告
-description: 了解如何使用历程全局报告中的数据
+title: Campaign全局报告
+description: 了解如何使用营销活动全局报告中的数据
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+hide: true
+hidefromtoc: true
+source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
 
-# 历程全局报告 {#journey-global-report}
+# Campaign全局报告 {#campaign-global-report}
 
-历程全局报告可直接从您的历程(使用 **[!UICONTROL Global report]** 按钮。
+可通过 **[!UICONTROL Global view]** 按钮。
 
-![](assets/global_report_1.png)
+营销活动 **[!UICONTROL Global report]** 页面中将显示以下选项卡：
 
-历程 **[!UICONTROL Global report]** 页面中将显示以下选项卡：
-
-* [历程](#journey-global)
+* [Campaign](#campaign-global)
 * [电子邮件](#email-global)
 * [推送](#push-global)
 
-历程 **[!UICONTROL Global report]** 会分为不同的小组件，用于详细描述历程的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](global-report.md#modify-dashboard).
+营销活动 **[!UICONTROL Global report]** 会被分为不同的小组件，用于详细说明营销活动的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
 
-## 历程选项卡 {#journey-global}
+## “营销活动”选项卡 {#campaign-global}
 
-从您的历程 **[!UICONTROL Global report]**, **[!UICONTROL Journey]** 选项卡可让您清楚地查看有关历程的最重要跟踪数据。
+### 交付 {#delivery-global}
 
-![](assets/global_report_2.png)
+![](assets/campaign_report_global_1.png)
 
-的 **[!UICONTROL Journey Performance]** 小组件允许您逐步查看目标用户档案在历程中的路径。
+的 **[!UICONTROL Campaign's Statistics]** 小组件详细介绍与您的营销活动相关的主要信息：
 
-的 **[!UICONTROL Journey Statistics]** 小组件显示以下KPI:
+* **[!UICONTROL Entered profiles]**:开始历程的用户档案数。
 
-* **[!UICONTROL Entered profiles]**:到达历程的登入事件的个人总数。
+* **[!UICONTROL Actions delivered]**:历程中某个操作被交付的唯一次数总数。
 
-* **[!UICONTROL Exited profiles]**:退出历程的个人总数。
+* **[!UICONTROL Actions failed in %]**:与提交操作的独特总次数相比，历程中操作失败的独特总次数。
 
-* **[!UICONTROL Failed individual journey]**:未成功执行的各个历程的总数。
+<!--
+### Experimentation tab (#experimentation-global)
 
-![](assets/global_report_12.png)
-
-的 **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** 和 **[!UICONTROL Top events]** 小组件允许您查看 **[!UICONTROL Events]** 已成功通过图形和表执行。
-
-![](assets/global_report_13.png)
-
-**[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** 和 **[!UICONTROL Top Actions]** 小组件代表在 **[!UICONTROL Actions]** 触发。
-
-的 **[!UICONTROL Top Actions]** 表包含可用于 **[!UICONTROL Actions]**，例如：
-
-* **[!UICONTROL Actions successfully executed]**:总数 **[!UICONTROL Actions]** 成功执行历程。
-
-* **[!UICONTROL Error in action]**:发生的错误总数 **[!UICONTROL Actions]**.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+-->
 
 ## “电子邮件”选项卡 {#email-global}
 
-从您的历程 **[!UICONTROL Global report]**, **[!UICONTROL Email]** 选项卡详细列出了与历程中发送的电子邮件投放相关的主要信息。
+从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Email]** 选项卡详细列出了与营销活动中发送的电子邮件投放相关的主要信息。
 
-有关特定电子邮件投放的详细报告，请参阅 [电子邮件全局报告](#email-global-report) 中。
-
-![](assets/global_report_14.png)
+有关特定电子邮件投放的详细报告，请参阅 [电子邮件全局报告](../reports/email-global-report.md) 中。
 
 的 **[!UICONTROL Email Sending Statistics]** 图形详细说明了交付的成功：
+
+* **[!UICONTROL Targeted]**:在投放分析期间处理的消息总数。
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
@@ -81,6 +70,10 @@ ht-degree: 0%
 
 * **[!UICONTROL Error Rate]**:与发送的电子邮件相比，在阻止发送投放的投放期间发生的错误百分比。
 
+* **[!UICONTROL Retries]**:队列中要重试的电子邮件数量。
+
+* **[!UICONTROL Excluded]**:已被Adobe Journey Optimizer排除的用户档案数。
+
 的 **[!UICONTROL Email - Tracking statistics]** 包含用于投放的收件人活动的可用数据：
 
 * **[!UICONTROL Opens]**:投放中打开投放的次数。
@@ -93,9 +86,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Unique Clicks]**：点击了电子邮件中内容的收件人数。
 
-* **[!UICONTROL Click through rate]**:与历程进行交互的用户百分比。
+* **[!UICONTROL Unique Click Rate]**:与投放进行交互的用户百分比。
 
-* **[!UICONTROL Unsubscribe]**:退订链接的点击次数。
+* **[!UICONTROL Unsubscriptions]**:退订链接的点击次数。
 
 * **[!UICONTROL Spam complaints]**:将消息声明为垃圾邮件或垃圾邮件的次数。
 
@@ -105,9 +98,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
-* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL Retries]**:队列中要重试的电子邮件数量。
 
-![](assets/global_report_15.png)
+* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
 的 **[!UICONTROL Bounce Reasons]** 和 **[!UICONTROL Bounce categories]** 小组件包含与弹回的消息相关的可用数据，例如：
 
@@ -119,19 +112,13 @@ ht-degree: 0%
 
 有关退回的更多信息，请参阅 [禁止列表](../reports/suppression-list.md) 页面。
 
-![](assets/global_report_22.png)
-
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
 的 **[!UICONTROL Excluded reasons]** 图形和表格显示阻止从定向用户档案中排除的用户配置文件接收消息的不同原因。
 
-![](assets/global_report_16.png)
-
 的 **[!UICONTROL Email - Top Url]** 图表和表格详细列出了投放中哪些URL的访问次数最多。
 
 的 **[!UICONTROL Email - Top recipient domain]** 图表和表格详细列出了收件人最常使用哪些域来打开电子邮件。
-
-![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -148,41 +135,15 @@ ht-degree: 0%
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 * **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
-![](assets/global_report_21.png)
-
->[!NOTE]
->
->仅当在电子邮件中插入决策时，选件小组件和量度才可用。 有关决策管理的详细信息，请参阅此 [页面](../offers/get-started/starting-offer-decisioning.md).
-
-的 **[!UICONTROL Offers statistic]** 和 **[!UICONTROL Offers statistics]** 随着时间的推移，小组件可衡量选件的成功以及对目标受众的影响。 它使用KPI详细描述与消息相关的主要信息：
-
-* **[!UICONTROL Offer sent]**:选件的发送总数。
-
-* **[!UICONTROL Offer impression]**:在投放中打开选件的次数。
-
-* **[!UICONTROL Offer clicks]**:在投放中点击选件的次数。
-
-的 **[!UICONTROL Offers detailed statistic]** 表包含与选件一起用于收件人活动的可用数据：
-
-* **[!UICONTROL Placement name]**:用于显示选件的版面名称。 有关版面的更多信息，请参阅 [页面](../offers/offer-library/creating-placements.md).
-
-* **[!UICONTROL Offer name]**:在投放中添加的选件的名称。 有关版面的更多信息，请参阅 [页面](../offers/offer-library/creating-personalized-offers.md).
-
-* **[!UICONTROL Offer sent]**:选件的发送总数。
-
-* **[!UICONTROL Offer impression rate]**:已打开选件与已发送选件数的百分比。
-
-* **[!UICONTROL Offer click rate]**:与选件进行交互的用户百分比。
-
 ## “推送”选项卡 {#push-global}
 
-从您的历程 **[!UICONTROL Global report]**, **[!UICONTROL Push]** 选项卡详细列出了与历程中发送的推送投放相关的主要信息。
+从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Push]** 选项卡详细列出了与营销活动中发送的推送投放相关的主要信息。
 
-有关特定推送投放的详细报告，请参阅 [推送全局报表](#push-global-report).
-
-![](assets/global_report_17.png)
+有关特定推送投放的详细报告，请参阅 [推送全局报表](../reports/push-global-report.md).
 
 的 **[!UICONTROL Push notification - Sending statistics]** 表格使用图形和KPI详细列出了与推送通知相关的主要信息：
+
+* **[!UICONTROL Targeted]**:在投放分析期间处理的消息总数。
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
@@ -198,6 +159,8 @@ ht-degree: 0%
 
 * **[!UICONTROL Error Rate]**:与发送的推送通知相比，在阻止发送投放的投放期间发生的错误百分比。
 
+* **[!UICONTROL Excluded]**:已被Adobe Journey Optimizer排除的用户档案数。
+
 的 **[!UICONTROL Push - Tracking statistics]** 包含用于投放的收件人活动的可用数据：
 
 * **[!UICONTROL Opens]**:投放中消息打开的次数。
@@ -209,8 +172,6 @@ ht-degree: 0%
 * **[!UICONTROL Engagements]**:此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。
 
 * **[!UICONTROL Engagement Rate]**:此推送通知的打开次数和操作的百分比，例如用户档案打开了推送或单击了按钮。
-
-![](assets/global_report_24.png)
 
 的 **[!UICONTROL Push notification summary]** 图表包含可用于已发送推送通知的数据，例如：
 
@@ -239,42 +200,8 @@ ht-degree: 0%
 * **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
 * **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
-![](assets/global_report_18.png)
-
 的 **[!UICONTROL Error Reasons]** 通过图表和表格，可查看在投放期间发生的错误。
 
 的 **[!UICONTROL Excluded reasons]** 图形和表格显示阻止从定向用户档案中排除的用户配置文件接收消息的不同原因。
 
-![](assets/global_report_19.png)
-
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据收件人的操作系统详细列出了推送通知的成功情况。
-
-短信 **[!UICONTROL Global report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](global-report.md#modify-dashboard).
-
-## “短信”选项卡 {#sms-global}
-
-的 **[!UICONTROL SMS - Sending statistics]** 表格详细说明了交付的成功：
-
-* **[!UICONTROL Targeted]**:符合此投放目标用户档案的用户配置文件数。
-
-* **[!UICONTROL Excluded]**:未收到消息的从定向用户档案中排除的用户用户档案数。
-
-* **[!UICONTROL Sent]**:投放的发送总数。
-
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
-
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
-
-* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
-
-的 **[!UICONTROL SMS summary]** 小组件通过图形详细描述与您的消息相关的主要信息：
-
-* **[!UICONTROL Sent]**:投放的发送总数。
-
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
-
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
-
-* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
-
-的 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。

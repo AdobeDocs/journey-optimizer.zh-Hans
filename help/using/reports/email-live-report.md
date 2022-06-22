@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
 * **[!UICONTROL Opens]**:投放中消息打开的次数。
 
 * **[!UICONTROL Clicks]**:在投放中点击内容的次数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 的 **[!UICONTROL Sending Statistics]** 小组件详细介绍您交付的成功：
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
    * 选择 **[!UICONTROL Message category]**：营销或事务性。
 
-   * 选择要用于该消息的渠道：电子邮件和/或推送通知。您必须至少选择一个渠道才能创建消息。
+   * 选择要用于该消息的渠道：电子邮件、推送通知和/或短信 您必须至少选择一个渠道才能创建消息。
    >[!NOTE]
    >
    >您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 深入了解[频率规则](../configuration/frequency-rules.md)。
@@ -97,6 +97,7 @@ ht-degree: 100%
 
    * [创建电子邮件](create-email.md)
    * [创建推送通知](create-push.md)
+   * [创建短信消息](create-sms.md)
 
    >[!NOTE]
    >   

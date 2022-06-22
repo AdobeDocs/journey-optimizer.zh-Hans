@@ -2,16 +2,30 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1553'
+ht-degree: 92%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+
+## 2022 年 6 月 {#june-2022}
+
+* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年6月的发行情况。 [了解详情](release-notes.md)
+* 文档中新增了有关数据使用策略的章节。 [了解详情](../privacy/policies.md)
+* 文档中新增了有关隐私请求的章节。 [了解详情](../privacy/requests.md)
+* 文档中新增了有关资源审核日志的章节。 [了解详情](../privacy/audit-logs.md)
+* 文档中新增了有关如何将来自Adobe Experience Cloud资产库的HTML或JSON内容添加到选件表示的章节。 [了解详情](../offers/offer-library/add-representations.md#html-json)
+* 在历程生命周期中添加了新页面。 [了解详情](../building-journeys/journey-end.md)
+* 更新了等待活动页面。 [了解详情](../building-journeys/wait-activity.md)
+* 添加了包含查询示例的Adobe Journey Optimizer数据集列表。 [了解详情](../start/datasets-query-examples.md)
+* 允许列表页面已移至配置部分。 [了解详情](../configuration/allow-list.md)
+* “抑制”列表页面已更新。 [了解详情](../configuration/manage-suppression-list.md)
 
 ## 2022 年 5 月 {#may-2022}
 

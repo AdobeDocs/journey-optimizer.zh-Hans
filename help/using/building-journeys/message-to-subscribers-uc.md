@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '273'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,4 @@ ht-degree: 5%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL Add an expression]** 对话框，单击 **[!UICONTROL Ok]**.
-
    ![](assets/message-to-subscribers-uc-3.png)
-
-1. 通过 **[!UICONTROL End]** 活动。

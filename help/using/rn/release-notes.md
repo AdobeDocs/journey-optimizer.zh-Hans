@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 90%
+source-wordcount: '325'
+ht-degree: 42%
 
 ---
 
@@ -17,116 +17,145 @@ ht-degree: 90%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件，每个季度就能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2022 年 5 月版 {#may-2022-release}
+## 2022 年 6 月版 {#june-2022-release}
 
 ### 新功能
 
 <table>
 <thead>
 <tr>
-<th><strong>消息频度规则</strong><br/></th>
+<th><strong>向用户发送短信</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的用户档案。</p>
-<img src="assets/frequency-rn.gif"/>
-<p>有关更多信息，请参阅<a href="../configuration/frequency-rules.md">详细文档</a>。</p>
+<p>发布日期： <b>6月27日</b></p>
+<p></p>
+<p>您现在可以在Journey Optimizer中通过与 <b>辛奇</b> 或 <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>有关更多信息，请参阅<a href="../messages/create-sms.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email BCC</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Availability date: <strong>May, 31</strong></p>
-<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
-<img src="assets/bcc-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 
 <table>
 <thead>
 <tr>
-<th><strong>决策管理 - 人工智能排名自动优化模型</strong><br/></th>
+<th><strong>利用Adobe Stock集成，更快地查找更具影响力的图像</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定用户档案显示优惠排名。</p>
-<img src="assets/optimization.gif"/>
-<p>有关更多信息，请参阅<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">详细文档</a>。</p>
+<p>发布日期： <b>6月23日</b></p>
+<p></p>
+<p>Adobe Stock和Adobe Journey Optimizer Email Designer集成插件为客户提供了一种轻松的方式来导航、许可和保存图像，以用于消息创作。 </br> 新 <b>查找类似的Stock照片</b> 选项还允许您查找与图像的内容、颜色和构成匹配的照片库。 </p>
+<img src="assets/do-not-localize/stock-rn.gif"/>
+<p>有关更多信息，请参阅<a href="../design/stock.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+<th><strong>对所有电子邮件使用电子邮件密送</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
-<p>This capability is available for a limited set of customers.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+<p>您现在可以使用电子邮件密送（盲碳拷贝）功能存储由Adobe Journey Optimizer发送的电子邮件。 在电子邮件预设中启用此选项，以便发送的每封电子邮件都会被盲目复制到密件抄送地址。</p>
+<img src="assets/do-not-localize/bcc-rn.gif"/>
+<p>有关更多信息，请参阅<a href="../configuration/bcc-email.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Copy objects between sandboxes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now re-create the experiences from a Journey Optimizer sandbox to another, for example from a non-production sandbox to a production sandbox. This new capability copies an entire Journey, including any objects the Journey depends on to run correctly, from one environment to another. In addition to Journeys, you can also copy other components, such as Offers, Messages, Schemas, Datasets, Data Sources, Events, and Actions.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer 审核日志</strong><br/></th>
+<th><strong>Dynamic Expression Builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以监测用户对 Adobe Journey Optimizer 资源执行的操作。</p>
-<img src="assets/audit-rn.gif"/>
-<p>有关更多信息，请参阅<a href="../reports/audit-logs.md">详细文档</a>。</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
+
 
 ### 改进
 
-**个性化**
+**决策管理**
 
-* **用于字符隐藏的新辅助函数** - 使用 `mask` 辅助函数，可将字符串的一部分替换为“X”字符。 [了解详情](../personalization/functions/string.md#mask)
+* **HTML和JSON文件支持**  — 您现在可以将外部HTML和JSON文件从Adobe Experience Cloud资产库拖放到选件表示内容中。 [了解详情](../offers/offer-library/add-representations.md#html-json)
 
-**登陆页面**
+<!--
+**Email**
 
-* **不包含表单的登陆页面** - 您现在可以创建并发布不包含表单且无需访客执行任何操作的登陆页面。
-* **登陆页面模板** - 现在，您可以将登陆页面另存为模板，并在创建其他登陆页面时重复使用。 [了解详情](../landing-pages/lp-templates.md)
-* **返回主页面** - 您现在可以从同一登陆页面中的任何子页面添加指向主页面的链接。
-* **自定义 JavaScript 支持** - 您现在可以向登陆页面内容添加自定义 JavaScript 以执行高级样式或向登陆页面添加自定义行为。	[了解详情](../landing-pages/lp-custom-js.md)
+* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
 
-**历程**
+**Journeys**
 
-* **读取区段** - 现在，一次性读取区段历程在历程执行 30 天后会变为“已完成”状态。 对于计划的读取区段，此期限为上次执行后的 30 天。 [了解详情](../building-journeys/read-segment.md)
-* **表达式编辑器** - 添加了 [limit](../building-journeys/functions/functionlimit.md) 函数，以限制列表的项目数。 现在，使用 [sort](../building-journeys/functions/functionsort.md) 函数可对列表对象进行排序。 此外，还向 [disctinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 函数添加了 listObject 支持。
+* **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
+
+-->
 
 **管理**
 
-* **许可证使用功能板更新**  — 许可证使用情况功能板(位于 [!DNL Adobe Journey Optimizer] 用户界面现在可以准确地反映 **许可** 平均用户档案丰富度。 此量度表示形式中将显示一个删除，这意味着许可证限制现在可以正确报告。 [了解详情](../segment/license-usage.md)
+<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+
+* **预览跟踪URL参数**  — 在配置消息预设时，如果您定义URL跟踪参数，则现在会显示结果跟踪URL的动态预览。 [了解详情](../configuration/email-settings.md#url-tracking)
+
+<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+
+<!--
+**Reporting**
+
+* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
+-->

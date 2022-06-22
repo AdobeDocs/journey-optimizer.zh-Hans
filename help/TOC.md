@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [开发人员入门](using/start/path/developer.md)
    + [用户界面](using/start/user-interface.md)
    + [护栏](using/start/guardrails.md)
++ 营销活动 {#campaigns}
+   + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
+   + [创建营销策划](using/campaigns/create-campaign.md)
+   + [修改或停止营销活动](using/campaigns/modify-stop-campaign.md)
+   + 报表 {#reports}
+      + [Campaign实时报告](using/campaigns/campaign-live-report.md)
+      + [Campaign全局报告](using/campaigns/campaign-global-report.md)
 + 消息 {#messages}
    + [消息入门](using/messages/get-started-content.md)
    + [创建电子邮件](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
+      + [历程生命周期](using/building-journeys/journey-end.md)
       + [历程版本](using/building-journeys/journey-versions.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 创建历程{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [时区管理](using/building-journeys/timezone-management.md)
+      + [复制历程](using/building-journeys/copy-to-sandbox.md)
       + [解决您的历程](using/building-journeys/troubleshooting.md)
    + 活动 {#about-journey-building}
       + [关于历程活动](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
       + [关于抑制列表](using/reports/suppression-list.md)
-   + [对 Journey Optimizer 资源的审核操作](using/reports/audit-logs.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 数据管理 {#data-management}
    + [架构](using/start/get-started-schemas.md)
-   + [数据集](using/start/get-started-datasets.md)
+   + 数据集 {#datasets}
+      + [数据集入门](using/start/get-started-datasets.md)
+      + [查询示例](using/start/datasets-query-examples.md)
    + [查询](using/start/get-started-queries.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [权限级别](using/administration/high-low-permissions.md)
    + [沙盒管理](using/administration/sandboxes.md)
    + [基于属性的访问控制](using/administration/attribute-based-access.md)
-
++ 隐私权 {#privacy}
+   + [数据使用策略](using/privacy/policies.md)
+   + [隐私请求](using/privacy/requests.md)
+   + [对 Journey Optimizer 资源的审核操作](using/privacy/audit-logs.md)

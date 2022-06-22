@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
    ![](assets/accintegration-uc-10.png)
 
-1. 添加 **结束** 活动并测试您的历程。
+1. 测试您的历程.
 
    ![](assets/accintegration-uc-11.png)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 2%
+source-wordcount: '1329'
+ht-degree: 3%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 2%
 1. 添加 **[!UICONTROL Update Profile]** 操作活动。
 1. 选择架构， **testProfiles** 字段，并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL VALUE]** 字段，单击 **笔** 图标，选择 **[!UICONTROL Advanced mode]** 输入 **true**.
    ![](assets/test-profiles-26.png)
-1. 添加 **结束** 活动，单击 **[!UICONTROL Publish]**.
+1. 单击 **[!UICONTROL Publish]**。
 1. 在 **[!UICONTROL Segments]** 部分，检查用户档案是否已正确更新。
    ![](assets/test-profiles-28.png)
 

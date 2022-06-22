@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}，您需要部署 [!DNL Assets Essentials] ，并确保用户是 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 了解详情 [本页](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
+> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}，您需要部署 [!DNL Assets Essentials] ，并确保用户是 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 了解详情 [本页](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}。
 
 1. 选择 **[!UICONTROL Asset library]** 选项。
 
@@ -85,6 +85,16 @@ ht-degree: 1%
 1. 单击 **[!UICONTROL Select]**。
 
    ![](../assets/offer-select-asset.png)
+
+### 添加HTML或JSON文件 {#html-json}
+
+如果所选版面是HTML类型，则还可以添加来自的HTML或JSON内容 [Adobe Experience Cloud资产库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;})。
+
+例如，您在 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;}，并且您希望将该文件用于选件内容。 您只需将模板上传到 **资产库** 以便能够在选件的表示法中重复使用。
+
+要在演示文稿中重复使用您的内容，请浏览 **资产库** 如 [此部分](#images) 并选择您选择的HTML或JSON文件。
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### 添加URL {#urls}
 
@@ -115,3 +125,4 @@ ht-degree: 1%
    >[!NOTE]
    >
    >仅 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 源可用于决策管理。
+

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 1%
 
 的 **[!UICONTROL Email Sending Statistics]** 小组件详细介绍与您的消息相关的主要信息：
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
@@ -75,9 +75,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
@@ -131,9 +131,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Sent]**:投放的发送总数。
 
-* **[!UICONTROL Delivered]**:已成功发送的消息数，与已发送消息的总数有关。
+* **[!UICONTROL Delivered]**:成功发送的消息数。
 
-* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
@@ -152,3 +152,33 @@ ht-degree: 1%
 ![](assets/report_push_2.png)
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
+
+## “短信”选项卡 {#sms-live}
+
+的 **[!UICONTROL SMS - Sending statistics]** 表格详细说明了交付的成功：
+
+* **[!UICONTROL Targeted]**:符合此投放目标用户档案的用户配置文件数。
+
+* **[!UICONTROL Excluded]**:未收到消息的从定向用户档案中排除的用户用户档案数。
+
+* **[!UICONTROL Sent]**:投放的发送总数。
+
+* **[!UICONTROL Delivered]**:成功发送的消息数。
+
+* **[!UICONTROL Opens]**:投放中消息打开的次数。
+
+* **[!UICONTROL Clicks]**:在投放中点击内容的次数。
+
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
+
+* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+的 **[!UICONTROL SMS Summary]** 图形详细说明了交付的成功：
+
+* **[!UICONTROL Delivered]**:成功发送的消息数。
+
+* **[!UICONTROL Bounces]**:在投放和自动回访处理过程中累积的错误总数。
+
+* **[!UICONTROL Errors]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+的 **[!UICONTROL Exclude Reasons]** 图形和表格允许您查看在投放期间发生的错误和排除项。
