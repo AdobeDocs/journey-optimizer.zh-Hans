@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 9%
@@ -57,7 +57,6 @@ ht-degree: 9%
 
 有关详细信息，请参阅[此部分](../design/preview.md)。
 
-
 ## 发布短信 {#sms-publish}
 
 消息准备就绪后，您可以将其发布，以供使用 **[!UICONTROL Publish]** 按钮。 此操作会发布新版本的消息，该消息将用于您的历程中的下一次执行。
@@ -69,7 +68,6 @@ ht-degree: 9%
 对于所有营销消息，短信必须包含一种让收件人轻松退订的方法。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。 对于事务型消息，不必添加退订链接。
 
 短信收件人可以使用选择启用和选择禁用关键词进行回复。 根据行业标准和法规，Adobe Journey Optimizer会自动处理传入消息中的以下关键词：开始、停止和停止。 这些关键词会触发来自短信提供商的自动标准回复。
-
 
 **相关主题**
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 95%
 
 ---
 
@@ -203,10 +203,17 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
    >
    >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
 
-* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中了解更多信息。
 
 ## 推送退出管理 {#push-opt-out-management}
 
 推送收件人可以通过其设备取消订阅。
 
 例如，在下载或使用应用程序时，用户可以选择停止发送通知。同样，他们可以通过移动操作系统更改通知设置。
+
+## 短信选择退出管理 {#sms-opt-out-management}
+
+根据行业标准和法规，短信收件人可以使用选择加入和选择退出关键词进行回复。
+Adobe Journey Optimizer会自动处理传入消息中的以下关键词：开始、停止和停止。 这些关键词会触发来自短信提供商的自动标准回复。
+
+有关短信选择退出的更多信息，请参阅此 [页面](../messages/create-sms.md#opt-in-and-opt-out).

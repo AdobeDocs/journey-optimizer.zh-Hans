@@ -4,7 +4,7 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -70,7 +70,7 @@ ht-degree: 3%
 
    * 选择 **[!UICONTROL SMS configuration]** 与预设关联。
 
-      有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](sms-configuration.md).
+      有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](#create-api).
 
    * 输入 **[!UICONTROL Sender number]** 你&#x200B;想用于你的通讯。
 
