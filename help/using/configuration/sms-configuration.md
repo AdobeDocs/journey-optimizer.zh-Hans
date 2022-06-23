@@ -4,7 +4,7 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >短信渠道当前仅适用于一组组织（有限可用性）。 有关更多信息，请联系您的Adobe代表。
 
