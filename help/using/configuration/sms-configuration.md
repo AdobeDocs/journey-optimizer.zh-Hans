@@ -4,16 +4,18 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 3%
 
 ---
 
 # 配置短信渠道 {#sms-configuration}
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。
+
+发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer [创建短信预设](#message-preset-sms). 这些步骤必须由 [Adobe Journey Optimizer系统管理员](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >

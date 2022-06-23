@@ -3,10 +3,10 @@ title: Journey Optimizer系统管理员入门
 description: 作为系统管理员，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 2%
+source-wordcount: '719'
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,8 @@ As a **系统管理员**，您需要 **了解产品配置文件和分配权限**
    * 定义 **推送通知设置** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../../configuration/push-gs.md)
 
    * 创建 **消息预设** 配置电子邮件和推送通知消息所需的所有技术参数。 [了解详情](../../configuration/message-presets.md)
+
+   * 配置 **短信渠道** 配置短信所需的所有技术参数 [了解详情](../../configuration/sms-configuration.md)
 
    * 管理 **重试** 会在向抑制列表发送电子邮件地址之前执行。 [了解详情](../../configuration/manage-suppression-list.md)
 

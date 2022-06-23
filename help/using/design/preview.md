@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
 
 # 预览和测试消息{#preview-and-proof}
 
-定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，您将能够利用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
 要检测电子邮件内容或个性化设置中可能出现的错误，请向测试用户档案发送校样。 每次进行更改时都应发送验证，以验证最新内容。
 

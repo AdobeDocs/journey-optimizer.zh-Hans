@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 1%
+source-wordcount: '1495'
+ht-degree: 2%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 1. 配置 **推送通知** 设置。 [了解详情](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. 配置 **短信** 设置。 [了解详情](sms-configuration.md)
 
 1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
 
