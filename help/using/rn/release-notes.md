@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 42%
+source-wordcount: '352'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 <table>
 <thead>
 <tr>
-<th><strong>向用户发送短信</strong><br/></th>
+<th><strong>向用户发送短信（可用性有限）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -34,7 +34,8 @@ ht-degree: 42%
 <p></p>
 <p>您现在可以在Journey Optimizer中通过与 <b>辛奇</b> 或 <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>有关更多信息，请参阅<a href="../messages/create-sms.md">详细文档</a>。</p>
+<p>短信渠道当前仅适用于一组组织（有限可用性）。 有关更多信息，请联系您的Adobe代表。</p>
+<p>在此中了解如何创建和发送短信 <a href="../messages/create-sms.md">详细文档</a>.</p>
 </td>
 </tr>
 </tbody>

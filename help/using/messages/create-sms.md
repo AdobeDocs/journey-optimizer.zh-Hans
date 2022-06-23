@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 15%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->法规要求短信收件人可以使用选择加入和选择退出关键词进行回复。 Adobe Journey Optimizer会自动处理以下关键词：开始、停止和停止。
+>短信渠道当前仅适用于一组组织（有限可用性）。 有关更多信息，请联系您的Adobe代表。
 
 一旦 [已创建消息](get-started-content.md)，则使用 **[!UICONTROL SMS]** 选项卡，以定义短信渠道的设置和内容。
 
@@ -49,6 +49,10 @@ ht-degree: 15%
 1. 消息准备就绪后，您可以将其发布，以供使用 **[!UICONTROL Publish]** 按钮。 此操作将发布消息的新版本，该版本将用于您的历程中的下一次执行。
 
 您的短信消息现在可用于历程。 [了解如何创建历程](../building-journeys/journey-gs.md).
+
+## 选择启用和选择禁用{#sms-opt-in-out}
+
+短信收件人可以使用选择启用和选择禁用关键词进行回复。 根据行业标准和法规，Adobe Journey Optimizer会自动处理传入消息中的以下关键词：开始、停止和停止。 这些关键词会触发来自短信提供商的自动标准回复。
 
 **相关主题**
 
