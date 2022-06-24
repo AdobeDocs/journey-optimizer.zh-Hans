@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -48,6 +48,28 @@ ht-degree: 1%
    如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
 
 
+## 查找类似照片 {#similar-stock-image}
+
+您可以通过 [!DNL Adobe Stock]. 请注意，此选项适用于所有图像：Assets文件夹中的Stock图像和图像获得许可/未获得许可。
+
+要浏览类似照片，请执行以下步骤：
+
+1. 选择要替换的图像。
+1. 单击 **[!UICONTROL Find similar Stock photos]** 按钮在中显示资产 [!DNL Adobe Stock] 与图像的内容、颜色和构成匹配。
+
+   ![](assets/stock-similar.png)
+
+1. 选择所选图像并单击 **[!UICONTROL Save]**.
+
+   ![](assets/stock-similar-results.png)
+
+   如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
+
+1. 根据需要，使用 **[!UICONTROL Components settings]** 菜单。 [了解有关组件设置的更多信息](content-components.md)
+
+创建并个性化消息后，您可以将其发布以供执行。 [了解详情](../messages/publish-manage-message.md)
+
+
 ## 从获取许可证 [!DNL Adobe Stock] {#license-stock-image}
 
 如果您的图像已获得许可，则会由 ![](assets/stock_10.png) 图标。 如果没有，您必须获得许可。
@@ -77,29 +99,7 @@ ht-degree: 1%
 
 1. 选择存储资产的文件夹。 有关 [!DNL Assets Essentials]，请参见 [页面](assets-essentials.md#get-started-assets-essentials).
 
-## 查找类似照片 {#similar-stock-image}
-
-您可以通过 [!DNL Adobe Stock]. 请注意，此选项适用于所有图像：Assets文件夹中的Stock图像和图像获得许可/未获得许可。
-
-要浏览类似照片，请执行以下步骤：
-
-1. 选择要替换的图像。
-1. 单击 **[!UICONTROL Find similar Stock photos]** 按钮在中显示资产 [!DNL Adobe Stock] 与图像的内容、颜色和构成匹配。
-
-   ![](assets/stock-similar.png)
-
-1. 选择所选图像并单击 **[!UICONTROL Save]**.
-
-   ![](assets/stock-similar-results.png)
-
-   如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
-
-1. 根据需要，使用 **[!UICONTROL Components settings]** 菜单。 [了解有关组件设置的更多信息](content-components.md)
-
-创建并个性化消息后，您可以将其发布以供执行。 [了解详情](../messages/publish-manage-message.md)
-
-
-### 相关主题{#stock-related-topics}
+## 相关主题{#stock-related-topics}
 
 * [Journey Optimizer中的电子邮件设计](design-emails.md)
 * [电子邮件设计的组件设置](content-components.md)
