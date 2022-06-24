@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
+source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 92%
+source-wordcount: '1568'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 * 添加了包含查询示例的Adobe Journey Optimizer数据集列表。 [了解详情](../start/datasets-query-examples.md)
 * 允许列表页面已移至配置部分。 [了解详情](../configuration/allow-list.md)
 * “抑制”列表页面已更新。 [了解详情](../configuration/manage-suppression-list.md)
+* 添加了用于决策管理的护栏和静态限制的链接。 [了解详情](../start/guardrails.md)
+
 
 ## 2022 年 5 月 {#may-2022}
 
