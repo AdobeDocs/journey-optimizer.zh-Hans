@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [聚合函数](using/personalization/functions/aggregation.md)
          + [算术函数](using/personalization/functions/arithmetic-functions.md)
          + [数组和列表函数](using/personalization/functions/arrays-list.md)
-         + [日期时间函数](using/personalization/functions/dates.md)
+         + [“日期时间”函数](using/personalization/functions/dates.md)
          + [布尔和比较函数](using/personalization/functions/operators.md)
          + [辅助程序](using/personalization/functions/helpers.md)
          + [映射函数](using/personalization/functions/maps.md)
@@ -110,7 +110,7 @@ ht-degree: 96%
       + [开始使用用户档案](using/segment/get-started-profiles.md)
       + [创建测试用户档案](using/segment/creating-test-profiles.md)
    + [标识](using/segment/get-started-identity.md)
-   + [许可证使用情况](using/segment/license-usage.md)
+   + [许可证使用](using/segment/license-usage.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
@@ -262,7 +262,7 @@ ht-degree: 96%
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
-      + [关于抑制列表](using/reports/suppression-list.md)
+      + [关于禁止列表](using/reports/suppression-list.md)
 + 决策管理{#offer-decisioniong}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
