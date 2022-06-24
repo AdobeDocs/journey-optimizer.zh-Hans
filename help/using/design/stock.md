@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
+source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以授权资产，或仅为所需资产购买一个Standard或Extended许可证。 Adobe Stock还提供免费的资产集合。
 
-使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] ，然后将其添加到您的Assets文件夹中。 的 **[!UICONTROL Find Similar Image]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
+使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] ，然后使用 **[!UICONTROL Find Adobe Stock photos]** 选项。 此外， **[!UICONTROL Find Similar Image]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
 
 ## 权限{#stock-permissions}
 
-的 **[!UICONTROL Find Adobe Stock photos]** 具有AEM Assets Essentials产品配置文件访问权限的用户可以使用选项。
+的 **[!UICONTROL Find Adobe Stock photos]** 和 **[!UICONTROL Find Similar Image]** 用户有权访问AEM Assets Essentials产品配置文件。
 
 有关更多信息，请参阅 [资产基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}。
 
