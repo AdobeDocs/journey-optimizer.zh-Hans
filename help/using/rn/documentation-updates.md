@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 91%
+source-wordcount: '1590'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 * 更新了等待活动页面。 [了解详情](../building-journeys/wait-activity.md)
 * 添加了包含查询示例的Adobe Journey Optimizer数据集列表。 [了解详情](../start/datasets-query-examples.md)
 * 允许列表页面已移至配置部分。 [了解详情](../configuration/allow-list.md)
-* “抑制”列表页面已更新。 [了解详情](../configuration/manage-suppression-list.md)
+* 更新了“抑制”列表页面以阐明某些信息，包括在抑制字段中允许包含32到126之间的所有ASCII字符。 [了解详情](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。 [了解详情](../start/guardrails.md)
 
 

@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 13%
+source-wordcount: '158'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +29,7 @@ ht-degree: 13%
 
 1. 输入或粘贴原始HTML代码。
 
-1. 使用左窗格可利用 [!DNL Journey Optimizer] 个性化功能。 如需详细信息，请参阅[此部分](../personalization/personalize.md)。
+1. 使用左窗格可利用 [!DNL Journey Optimizer] 个性化功能。 有关详细信息，请参阅[此部分](../personalization/personalize.md)。
 
    ![](assets/code-editor.png)
 
@@ -36,7 +37,7 @@ ht-degree: 13%
 
    ![](assets/code-editor-change-design.png)
 
-1. 单击 **[!UICONTROL Preview]** 按钮以使用测试用户档案检查消息设计和个性化。 如需详细信息，请参阅[此部分](preview.md)。
+1. 单击 **[!UICONTROL Preview]** 按钮以使用测试用户档案检查消息设计和个性化。 有关详细信息，请参阅[此部分](preview.md)。
 
    ![](assets/code-editor-preview.png)
 

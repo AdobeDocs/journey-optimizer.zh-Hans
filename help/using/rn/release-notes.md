@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 36%
+source-wordcount: '375'
+ht-degree: 35%
 
 ---
 
@@ -136,11 +136,12 @@ ht-degree: 36%
 
 * **HTML和JSON文件支持**  — 您现在可以将外部HTML和JSON文件从Adobe Experience Cloud资产库拖放到选件表示内容中。 [了解详情](../offers/offer-library/add-representations.md#html-json)
 
+
+**电子邮件**
+
+* **另存为模板**  — 现在，您可以将电子邮件内容另存为模板，并在创建其他消息时重复使用。 [了解详情](../design/email-templates.md)
+
 <!--
-**Email**
-
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
-
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
