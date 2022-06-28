@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 0%
@@ -253,6 +253,8 @@ ht-degree: 0%
 短信 **[!UICONTROL Global report]** 会分为不同的小组件，用于详细描述投放的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](global-report.md#modify-dashboard).
 
 ## “短信”选项卡 {#sms-global}
+
+![](assets/report_sms_global.png)
 
 的 **[!UICONTROL SMS - Sending statistics]** 表格详细说明了交付的成功：
 

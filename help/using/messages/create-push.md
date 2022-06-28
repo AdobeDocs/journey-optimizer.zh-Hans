@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1423'
 ht-degree: 9%
 
 ---
@@ -93,6 +93,11 @@ ht-degree: 9%
 ![](assets/push_buttons.png)
 
 ## 发送无提示通知 {#silent-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="关于无提示通知"
+>abstract="在不干扰用户的情况下发送通知，通知不会显示在通知中心或通知栏中。"
 
 无提示推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，它用于通知您的应用程序新内容的可用性或在后台启动下载。
 

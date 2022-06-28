@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -155,6 +155,8 @@ ht-degree: 1%
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
 
 ## “短信”选项卡 {#sms-live}
+
+![](assets/report_sms_live.png)
 
 的 **[!UICONTROL SMS - Sending statistics]** 表格详细说明了交付的成功：
 
