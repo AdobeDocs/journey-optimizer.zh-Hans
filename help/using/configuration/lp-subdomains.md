@@ -3,10 +3,11 @@ title: 配置登陆页面子域
 description: 了解如何使用Journey Optimizer配置登陆页面子域
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
@@ -58,6 +59,10 @@ ht-degree: 0%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   请注意，不能使用同一父域的多个委派子域。 例如，如果marketing1.yourcompany.com已被委派给登陆页面的Adobe，您将无法使用marketing2.yourcompany.com。 但是，登陆页面支持多级子域，因此您可以使用“email.marketing1.yourcompany.com”。
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >如果您选择的域是使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，则必须在托管平台上创建DNS记录。 要生成DNS记录，该过程与配置新登陆页面子域时的过程相同。 了解 [此部分](#lp-configure-new-subdomain).
@@ -99,7 +104,11 @@ ht-degree: 0%
 
    不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
 
-   当前不支持多级子域，如“email.marketing.yourcompany.com”。
+   >[!NOTE]
+   >
+   >对于登陆页面，支持多级子域。 例如，您可以使用“email.marketing.yourcompany.com”。
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. 将显示要置入DNS服务器的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
 

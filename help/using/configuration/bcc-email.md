@@ -5,9 +5,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1088'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定义密送电子邮件地址"
->abstract="您可以通过将已发送的电子邮件发送到密件抄送收件箱来保留其副本。 输入您选择的电子邮件地址，以便发送的每封电子邮件都会被盲目复制到此密件抄送地址。 此功能属于可选功能。"
+>abstract="您可以通过将已发送的电子邮件发送到密件抄送收件箱来保留其副本。 输入您选择的电子邮件地址，以便发送的每封电子邮件都会被盲目复制到此密件抄送地址。 请注意，密送地址域不应与委派给Adobe的任何子域相同。 此功能属于可选功能。"
 
 您可以发送由 [!DNL Journey Optimizer] 发送到密件抄送收件箱。 此可选功能允许您保留您发送给用户的电子邮件通信副本，以便符合规范和/或进行存档。 投放收件人将看不到该内容。
 
 ## 启用密送电子邮件 {#enable-bcc}
 
-启用 **[!UICONTROL BCC email]** 选项，在专用字段中输入您选择的电子邮件地址。 除了在委派的子域上定义的电子邮件地址之外，您可以以正确的格式指定任何外部地址。 例如，如果委派的子域为 *marketing.luma.com*，任何地址，如 *abc@marketing.luma.com* 禁止。
+启用 **[!UICONTROL BCC email]** 选项，在专用字段中输入您选择的电子邮件地址。 您可以以正确的格式指定任何外部地址，但在委派给Adobe的子域上定义的电子邮件地址除外。 例如，如果您将 *marketing.luma.com* 子域到Adobe，任何地址，如 *abc@marketing.luma.com* 禁止。
 
 >[!NOTE]
 >
@@ -61,7 +62,7 @@ ht-degree: 3%
 
 * 对于空间和投放，应正确管理用于密件抄送的收件箱。 如果收件箱返回退回，则可能未收到某些电子邮件，因此将无法存档。
 
-* 在目标收件人之前，可将邮件发送至密件抄送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
+* 在目标收件人之前，可以将邮件发送到密送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
