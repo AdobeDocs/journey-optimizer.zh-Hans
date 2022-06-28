@@ -4,7 +4,7 @@ description: 了解如何使用Journey Optimizer配置登陆页面子域
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   请注意，不能使用同一父域的多个委派子域。 例如，如果marketing1.yourcompany.com已被委派给登陆页面的Adobe，您将无法使用marketing2.yourcompany.com。 但是，登陆页面支持多级子域，因此您可以使用“email.marketing1.yourcompany.com”。
+   请注意，不能使用同一父域的多个委派子域。 例如，如果已将“marketing1.yourcompany.com”委派给登陆页面的Adobe，您将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多级子域，因此您可以使用“email.marketing1.yourcompany.com”。
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
