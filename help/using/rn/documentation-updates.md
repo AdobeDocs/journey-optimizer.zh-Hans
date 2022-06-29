@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 90%
+source-wordcount: '1606'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 90%
 * 允许列表页面已移至配置部分。 [了解详情](../configuration/allow-list.md)
 * 更新了“抑制”列表页面以阐明某些信息，包括在抑制字段中允许包含32到126之间的所有ASCII字符。 [了解详情](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。 [了解详情](../start/guardrails.md)
+* 发送时间优化功能现已适用于所有客户。 测试版提及已删除。 [了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## 2022 年 5 月 {#may-2022}
