@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
 * 区段
 
-   一个区段只能从一个沙盒复制到另一个沙盒。 后续复制区段的请求将失败。 复制区段后，该区段将无法在目标沙箱中编辑。
+   一个区段只能从一个沙盒复制到另一个沙盒。 复制区段后，该区段将无法在目标沙箱中编辑。
 
 * 架构
 
@@ -103,4 +101,8 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
    将复制历程中使用的操作和操作详细信息。
 
 不会复制预设。 系统会根据消息类型和预设名称，自动选择目标沙箱上可能最接近的匹配项。 如果在目标沙盒上未找到预设，则预设复制将失败。 这将意味着消息副本也将失败，因为消息需要预设才能进行设置。 在这种情况下，需要为消息的正确渠道至少创建一个预设，才能使副本正常工作。
+
+对于方案、合并策略和区段，当第二次尝试复制这些对象时，将只引用它们。 它们将被视为已存在的对象，并将再次复制。 这意味着这些对象只能复制一次。
+
+在Adobe Journey Optimizer引用架构、合并策略和区段之前，需要经过五分钟的延迟，才能在画布中看到错误。 等待五分钟，这些参考资料将可用。
 
