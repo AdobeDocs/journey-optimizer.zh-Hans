@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ ht-degree: 2%
 
 与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。 例如，您可以使用它们来提供促销优惠、参与促销活动、公告、法律声明或策略更新。
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-了解如何管理营销活动 &lt;!> — 和内容实验&lt;>:
+了解如何使用营销活动：
 * [创建营销策划](create-campaign.md)
 * [修改或停止营销活动](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Campaign实时报告](campaign-live-report.md)
+* [Campaign全局报告](campaign-global-report.md)
 
 ## 访问活动 {#access}
 
