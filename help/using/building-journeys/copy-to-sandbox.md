@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
+source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 >title="从属对象"
 >abstract="这是历程中使用的关联对象列表。 此列表显示名称、对象类型以及内部Journey Optimizer ID。"
 
-Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：消息、区段、预设、架构、事件和操作。 请参阅 [限制](../event/about-events.md)
+Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：消息、区段、预设、架构、事件和操作。 请参阅 [限制](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
