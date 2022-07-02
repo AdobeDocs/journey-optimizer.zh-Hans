@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 1. 创建消息预设后，该消息预设会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
 
-   在此步骤中，将执行多项检查，以验证是否已正确配置。 处理时间在附近 **48h-72h**，并且 **7-10个工作日**.
+   在此步骤中，将执行多项检查，以验证是否已正确配置。 处理时间可能需要 **3小时**.
 
    这些检查包括由Adobe团队执行的配置和技术测试：
 
@@ -217,7 +217,7 @@ ht-degree: 2%
 >
 >如果您仅编辑 **[!UICONTROL Description]**, **[!UICONTROL Email type]** 和/或 **[!UICONTROL Email retry parameters]** 字段中，更新是即时的。
 
-处理时间在附近 **48h-72h**，并且 **7-10个工作日**. 了解有关在 [此部分](#create-message-preset).
+处理时间可能需要 **3小时**. 了解有关在 [此部分](#create-message-preset).
 
 如果您编辑的预设已处于活动状态，请执行以下操作：
 

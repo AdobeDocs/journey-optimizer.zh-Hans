@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: b29ab43f56b64d5bf972a45036c639454b650099
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 根据与关联的IP池，更新可立即或异步生效 [消息预设](message-presets.md) 或否：
 
 * 如果IP池为 **not** 在消息预设中选择，则更新为即时(**[!UICONTROL Success]** 状态)。
-* 如果IP池 **is** 在消息预设中选择，则更新最长可能需要7-10个工作日(**[!UICONTROL Processing]** 状态)。
+* 如果IP池 **is** 在消息预设中选择，则更新可能最长需要3小时(**[!UICONTROL Processing]** 状态)。
 
 >[!NOTE]
 >
