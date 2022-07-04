@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
 source-wordcount: '1606'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 89%
 
 ## 2022 年 6 月 {#june-2022}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年6月的发行情况。 [了解详情](release-notes.md)
-* 文档中新增了有关数据使用策略的章节。 [了解详情](../privacy/policies.md)
-* 文档中新增了有关隐私请求的章节。 [了解详情](../privacy/requests.md)
-* 文档中新增了有关资源审核日志的章节。 [了解详情](../privacy/audit-logs.md)
-* 文档中新增了有关如何将来自Adobe Experience Cloud资产库的HTML或JSON内容添加到选件表示的章节。 [了解详情](../offers/offer-library/add-representations.md#html-json)
-* 在历程生命周期中添加了新页面。 [了解详情](../building-journeys/journey-end.md)
-* 更新了等待活动页面。 [了解详情](../building-journeys/wait-activity.md)
-* 添加了包含查询示例的Adobe Journey Optimizer数据集列表。 [了解详情](../start/datasets-query-examples.md)
-* 允许列表页面已移至配置部分。 [了解详情](../configuration/allow-list.md)
-* 更新了“抑制”列表页面以阐明某些信息，包括在抑制字段中允许包含32到126之间的所有ASCII字符。 [了解详情](../configuration/manage-suppression-list.md)
-* 添加了用于决策管理的护栏和静态限制的链接。 [了解详情](../start/guardrails.md)
-* 发送时间优化功能现已适用于所有客户。 测试版提及已删除。 [了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 6 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 文档中新增了有关数据使用策略的章节。[了解详情](../privacy/policies.md)
+* 文档中新增了有关隐私请求的章节。[了解详情](../privacy/requests.md)
+* 文档中新增了有关资源审核日志的章节。[了解详情](../privacy/audit-logs.md)
+* 文档中新增了有关如何将来自 Adobe Experience Cloud 资产库的 HTML 或 JSON 内容添加到优惠呈现的章节。[了解详情](../offers/offer-library/add-representations.md#html-json)
+* 在历程生命周期中添加了新页面。[了解更多信息](../building-journeys/journey-end.md)
+* 更新了等待活动页面。[了解更多信息](../building-journeys/wait-activity.md)
+* 添加了包含查询示例的 Adobe Journey Optimizer 数据集列表。[了解更多信息](../start/datasets-query-examples.md)
+* 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)
+* 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
+* 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
+* 发送时间优化功能现已适用于所有客户。 测试版提及已删除。 [了解更多信息](../building-journeys/journeys-message.md#send-time-optimization)
 
 
 

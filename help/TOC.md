@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 96%
    + [护栏](using/start/guardrails.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
-   + [创建营销策划](using/campaigns/create-campaign.md)
+   + [创建营销活动](using/campaigns/create-campaign.md)
    + [修改或停止营销活动](using/campaigns/modify-stop-campaign.md)
    + 报表 {#reports}
-      + [Campaign实时报告](using/campaigns/campaign-live-report.md)
-      + [Campaign全局报告](using/campaigns/campaign-global-report.md)
+      + [营销活动实时报告](using/campaigns/campaign-live-report.md)
+      + [营销活动全局报告](using/campaigns/campaign-global-report.md)
 + 消息 {#messages}
    + [消息入门](using/messages/get-started-content.md)
    + [创建电子邮件](using/messages/create-email.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [时区管理](using/building-journeys/timezone-management.md)
-      + [将历程复制到其他沙盒](using/building-journeys/copy-to-sandbox.md)
+      + [复制历程 到另一个沙箱](using/building-journeys/copy-to-sandbox.md)
       + [解决您的历程](using/building-journeys/troubleshooting.md)
    + 活动 {#about-journey-building}
       + [关于历程活动](using/building-journeys/about-journey-activities.md)
@@ -424,4 +424,4 @@ ht-degree: 96%
 + 隐私权 {#privacy}
    + [数据使用策略](using/privacy/policies.md)
    + [隐私请求](using/privacy/requests.md)
-   + [对 Journey Optimizer 资源的审核操作](using/privacy/audit-logs.md)
+   + [审核对 Journey Optimizer 资源的操作](using/privacy/audit-logs.md)
