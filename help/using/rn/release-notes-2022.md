@@ -3,9 +3,9 @@ title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 96%
 
 **管理**
 
-* **许可证使用功能板更新**  — 许可证使用情况功能板(位于 [!DNL Adobe Journey Optimizer] 用户界面现在可以准确地反映 **许可** 平均用户档案丰富度。 此量度表示形式中将显示一个删除，这意味着许可证限制现在可以正确报告。 [了解详情](../segment/license-usage.md)
+* **许可证使用情况仪表板更新** – 现在，[!DNL Adobe Journey Optimizer] 用户界面中提供的“许可证使用情况”仪表板可反映&#x200B;**已授予许可**&#x200B;平均用户档案丰富度的准确值。您可在此量度呈现中看到一个下拉信息，这意味着现在可以正确报告许可证限制。[了解详情](../segment/license-usage.md)
 
 
 ## 2022 年 4 月版 {#april-2022-release}
