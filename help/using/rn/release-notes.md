@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 78%
 
 ---
@@ -149,9 +149,9 @@ ht-degree: 78%
 
 * **预览跟踪 URL 参数** – 现在，配置消息预设时，如果定义了 URL 跟踪参数，则会显示所产生的跟踪 URL 的动态预览。[了解详情](../configuration/email-settings.md#url-tracking)
 
-* **消息预设创建**  — 现在，创建消息预设时的处理时间最长可能只需3小时。 [了解详情](../configuration/message-presets.md#create-message-preset)
+* **消息预设版**  — 现在，更新消息预设时，处理时间最长可能只需3小时。 [了解详情](../configuration/message-presets.md#edit-message-preset)
 
-* **IP池版本**  — 现在，IP池更新的处理时间最长可能只需要3小时。 [了解详情](../configuration/ip-pools.md#edit-ip-pool)
+* **IP池版本**  — 现在，更新IP池时，处理时间最长可能只需3小时。 [了解详情](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
