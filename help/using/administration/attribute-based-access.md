@@ -7,10 +7,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->基于属性的访问控制目前仅在对选定用户的早期访问中可用。 如果要利用此功能，请联系您的Adobe客户经理。
+>基于属性的访问控制目前仅适用于一组组织（有限可用性）。 如果要利用此功能，请联系您的Adobe客户经理。
 
 基于属性的访问控制(ABAC)允许您定义权限，以管理特定团队或用户组的数据访问。 其目的是保护敏感数字资产免受未经授权用户的侵害，从而进一步保护个人数据。
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 请注意，您还可以  **[!UICONTROL Label]** to  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** 和  **[!UICONTROL Segments]**.
 
-1. 创建 **[!UICONTROL Schema]**. 有关更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. 创建 **[!UICONTROL Schema]**. 有关更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans).
 
    ![](assets/label_1.png)
 
@@ -105,7 +106,7 @@ ht-degree: 0%
 
    ![](assets/role_9.png)
 
-1. 选择 **[!UICONTROL Labels]** 要添加到您的角色并单击 **[!UICONTROL Save]**. 在本例中，我们为用户授予标签C2，以便有权访问以前受限架构的字段。
+1. 选择 **[!UICONTROL Labels]** 要添加到您的角色并单击 **[!UICONTROL Save]**. 在本例中，我们将为用户授予标签C2，以便其有权访问以前受限架构的字段。
 
    ![](assets/role_4.png)
 
@@ -159,4 +160,3 @@ ht-degree: 0%
 * 用户Y将无法测试历程或消息。
 
 * 用户Y将无法发布历程或消息。
-

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->短信渠道当前仅适用于一组组织（有限可用性）。 有关更多信息，请联系您的Adobe代表。
+>目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
 ![](assets/sms_1.png)
 
@@ -67,7 +67,17 @@ ht-degree: 9%
 
 对于所有营销消息，短信必须包含一种让收件人轻松退订的方法。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。 对于事务型消息，不必添加退订链接。
 
-短信收件人可以使用选择启用和选择禁用关键词进行回复。 根据行业标准和法规，Adobe Journey Optimizer会自动处理传入消息中的以下关键词：开始、停止和停止。 这些关键词会触发来自短信提供商的自动标准回复。
+短信收件人可以使用选择启用和选择禁用关键词进行回复。 根据行业标准和法规，Adobe Journey Optimizer会自动处理传入消息中的以下关键词：开始、停止和停止。 这些关键词会触发短信提供商的标准自动回复。
+
+要详细了解本机入站关键词支持（开始、停止和停止）如何用于短信，请参阅以下视频。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## 操作方法视频
+
+了解如何配置、创作短信消息，并将其包含在客户历程中。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **相关主题**
 

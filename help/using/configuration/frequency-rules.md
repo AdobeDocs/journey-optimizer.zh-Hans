@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >消息频度规则与选择退出管理不同，选择退出管理允许用户取消订阅以接收来自品牌的通信。 [了解详情](../messages/consent.md#opt-out-management)
+
+➡️ [在视频中发现此功能](#video)
 
 ## 访问规则 {#access-rules}
 
@@ -125,7 +127,7 @@ ht-degree: 1%
 
    ![](assets/message-rules-msg-channels.png)
 
-1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。
+1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 
 
    ![](assets/message-rules-msg-link.png)
 
@@ -177,7 +179,7 @@ ht-degree: 1%
 
    ![](assets/message-rules-ex-channels.png)
 
-1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。
+1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 
 
 1. [设计](../design/design-emails.md) 和 [发布](../messages/publish-manage-message.md) 你的留言。
 
@@ -188,3 +190,9 @@ ht-degree: 1%
 >[!NOTE]
 >
 >在测试频度规则时，从新创建的开始可能会有所帮助 [测试用户档案](../segment/creating-test-profiles.md)，因为达到用户档案的频度上限后，在下个月之前将无法重置计数器。 取消激活规则将允许有上限的用户档案接收消息，但不会删除或删除任何计数器增量。
+
+## 操作方法视频 {#video}
+
+了解如何创建、激活、测试和报告频度规则。
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 99%
+source-wordcount: '1632'
+ht-degree: 97%
 
 ---
 
@@ -13,6 +13,9 @@ ht-degree: 99%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
 
+## 2022 年 7 月 {#july-2022}
+
+* 的 **创建消息预设** 阐明并更新了章节，其中包含描述如何配置短信渠道的页面链接。 [了解详情](../configuration/message-presets.md#create-message-preset)
 
 ## 2022 年 6 月 {#june-2022}
 
@@ -30,7 +33,6 @@ ht-degree: 99%
 * 发送时间优化功能现已适用于所有客户。 测试版提及已删除。 [了解更多信息](../building-journeys/journeys-message.md#send-time-optimization)
 
 
-
 ## 2022 年 5 月 {#may-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
@@ -41,7 +43,7 @@ ht-degree: 99%
 * 添加了注释，说明自定义操作不支持 Delete 方法。[了解更多信息](../action/about-custom-action-configuration.md)
 * 更新了操作方法视频的链接。
 * 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/message-presets.md)和[配置登陆页面](../configuration/lp-subdomains.md)部分，以提高可读性。
-* 通过示例更新并改进了 **URL 跟踪**&#x200B;部分。[了解详情](../configuration/email-settings.md#url-tracking)
+* 通过示例更新并改进了 URL 跟踪部分。[了解详情](../configuration/email-settings.md#url-tracking)
 * 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解详情](../configuration/email-settings.md#forward-email)
 
 ## 2022 年 4 月 {#april-2022}
