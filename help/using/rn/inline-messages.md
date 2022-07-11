@@ -3,13 +3,13 @@ title: 迁移到历程内联创作
 description: 了解如何迁移消息
 hide: true
 hidefromtoc: true
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
+source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # 迁移到历程内联创作{#inline-authoring}
 
@@ -30,6 +30,10 @@ ht-degree: 0%
 >title="了解如何迁移消息"
 >abstract="从Journey Optimizer的’22年7月版开始，直接从历程创作消息。 现在，现有消息已迁移到新模型。 作为历程从业者，现在需要其他操作。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="了解如何迁移消息"
+>abstract="从2022年7月25日开始，消息菜单会消失，并且将直接从历程创作消息。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
 
 Adobe Journey Optimizer将发布一项新功能，以改进从业人员为Journey Optimizer投放渠道（如电子邮件、推送、短信）创作体验的方式。 此功能需要迁移使用消息的现有历程。
 
