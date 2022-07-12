@@ -2,7 +2,7 @@
 title: 迁移到历程内联创作
 description: 了解如何迁移消息
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ Adobe的愿景是不断简化产品，以提供高效和优化的用户流。 �
 
 每个区域在夜间通过多次迭代进行迁移。 以下是迁移时间表：
 
-* 2002年7月25日：GA — 第1次迭代
-* 2002年8月1日：第2次迭代
+* 2022年7月25日：GA — 第1次迭代
+* 2022年8月1日：第2次迭代
 * 2022年9月5日：3次迭代
 * 2022年9月6日：弃用
 
