@@ -4,39 +4,36 @@ description: 了解如何迁移消息
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
+source-git-commit: d30795051ed71e568d6529f8fb97b9f0688878b0
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
+# 迁移到历程内联创作{#inline-authoring}
 
-# 内联创作迁移概述{#inline-authoring}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
 >title="了解有关新的内联创作消息的更多信息"
->abstract="从2022年7月25日开始，直接从历程创作消息。 现有消息会自动迁移到新模型。 迁移后需要执行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="迁移步骤"
+>abstract="从Journey Optimizer的’22年7月版开始，直接从历程创作消息。 现有消息会自动迁移到新模型。 迁移后需要执行其他操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="了解正在发生的事情"
->abstract="从2022年7月25日开始，直接从历程创作消息。 正在迁移您的环境。 迁移后需要执行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="迁移步骤"
+>abstract="从Journey Optimizer的’22年7月版开始，直接从历程创作消息。 正在迁移您的环境。 迁移后需要执行其他操作。"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="了解如何迁移消息"
->abstract="从2022年7月25日开始，直接从历程创作消息。 现在，现有消息已迁移到新模型。 作为历程从业者，现在需要其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="迁移步骤"
+>abstract="从Journey Optimizer的’22年7月版开始，直接从历程创作消息。 现在，现有消息已迁移到新模型。 作为历程从业者，现在需要其他操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="了解如何迁移消息"
->abstract="从2022年7月25日开始，消息菜单会消失，并且会直接从历程创作消息。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="将消息另存为模板"
+>abstract="从2022年7月25日开始，消息菜单会消失，并且将直接从历程创作消息。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
 
 Adobe Journey Optimizer将发布一项新功能，以改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为Journey Optimizer从业人员，您现在将直接从历程创建和创作消息。
 
