@@ -4,9 +4,9 @@ description: 了解如何迁移消息
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
+source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 0%
 >abstract="从2022年7月25日开始，消息菜单会消失，并且会直接从历程创作消息。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="将消息另存为模板"
 
-Adobe Journey Optimizer将发布一项新功能，以改进从业人员为Journey Optimizer投放渠道（如电子邮件、推送、短信）创作体验的方式。 此功能需要迁移使用消息的现有历程。
+Adobe Journey Optimizer将发布一项新功能，以改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为Journey Optimizer从业人员，您现在将直接从历程创建和创作消息。
 
-作为历程从业者，您现在可以直接从历程创建和创作消息。
+此功能需要迁移使用消息的现有历程。
 
 ![](assets/inline-message.png)
 
