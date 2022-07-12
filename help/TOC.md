@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e254e75844e667a0ff8b466aa60961ec1b65064e
+source-git-commit: ebc96f7dfd3f3e4b49e0379904dd2244dda04bc3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1110'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
       + [2022 年发行说明](using/rn/release-notes-2022.md)
       + [2021 年发行说明](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
+   + [消息迁移](using/rn/inline-messages.md)
 + 入门{#get-started}
    + [什么是 Journey Optimizer](using/start/get-started.md)
    + 快速入门{#quick-start}
