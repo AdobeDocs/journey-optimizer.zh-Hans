@@ -1,5 +1,5 @@
 ---
-title: Campaign全局报告
+title: 营销活动全局报告
 description: 了解如何使用营销活动全局报告中的数据
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 2%
 
 ---
 
-# Campaign全局报告 {#campaign-global-report}
+# 营销活动全局报告 {#campaign-global-report}
 
 可通过 **[!UICONTROL Global view]** 按钮。
 
@@ -205,3 +205,11 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 的 **[!UICONTROL Excluded reasons]** 图形和表格显示阻止从定向用户档案中排除的用户配置文件接收消息的不同原因。
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据收件人的操作系统详细列出了推送通知的成功情况。
+
+## 其他资源
+
+* [营销活动入门](get-started-with-campaigns.md)
+* [创建营销活动](create-campaign.md)
+* [创建API触发的营销活动](api-triggered-campaigns.md)
+* [修改或停止营销活动](modify-stop-campaign.md)
+* [营销活动实时报告](campaign-live-report.md)

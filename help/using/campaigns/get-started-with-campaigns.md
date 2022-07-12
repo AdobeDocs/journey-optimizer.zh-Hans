@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 2%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
@@ -24,15 +24,19 @@ ht-degree: 2%
 
 ## 关于营销活动 {#about}
 
-营销活动允许您使用多个渠道向特定区段交付一次性内容。
+营销活动允许您使用多个渠道向特定区段交付一次性内容。 与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。
 
-与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。 例如，您可以使用它们来提供促销优惠、参与促销活动、公告、法律声明或策略更新。
+您可以创建两种类型的营销活动：
+
+* **计划促销活动** 允许针对促销用例（如促销优惠、参与促销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
+* **API触发的营销活动** 允许使用REST API（密码重置、卡放弃等）的简单事务/操作消息，其中需要使用用户档案属性和有效负载的上下文数据进行个性化。
 
 了解如何使用营销活动：
-* [创建营销策划](create-campaign.md)
+* [创建营销活动](create-campaign.md)
+* [创建API触发的营销活动](api-triggered-campaigns.md)
 * [修改或停止营销活动](modify-stop-campaign.md)
-* [Campaign实时报告](campaign-live-report.md)
-* [Campaign全局报告](campaign-global-report.md)
+* [营销活动实时报告](campaign-live-report.md)
+* [营销活动全局报告](campaign-global-report.md)
 
 ## 访问活动 {#access}
 

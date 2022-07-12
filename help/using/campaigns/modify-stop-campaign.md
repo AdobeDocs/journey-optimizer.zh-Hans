@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b1210a562f809d368e251a6652aed9a920436804
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 15%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 3%
 要修改和创建营销活动的新版本，请执行以下步骤：
 
 1. 打开营销活动，然后单击 **[!UICONTROL Modify campaign]** 按钮。
-
-   ![](assets/create-campaign-edit.png)
 
 1. 将创建营销活动的新版本。 您可以通过单击 **[!UICONTROL Open live version]**.
 
@@ -41,8 +39,6 @@ ht-degree: 3%
    >
    >激活草稿将替换营销活动的实时版本。
 
-   ![](assets/create-campaign-activate-draft.png)
-
 ## 停止营销活动 {#stop}
 
 要停止营销活动，请将其打开，然后单击 **[!UICONTROL Stop campaign]** 按钮。
@@ -52,3 +48,11 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >停止营销活动后，该活动将仅在只读模式下可用。 您将无法再次激活它，也无法使用它创建新营销活动。
+
+## 其他资源
+
+* [营销活动入门](get-started-with-campaigns.md)
+* [创建营销活动](create-campaign.md)
+* [创建API触发的营销活动](api-triggered-campaigns.md)
+* [营销活动实时报告](campaign-live-report.md)
+* [营销活动全局报告](campaign-global-report.md)

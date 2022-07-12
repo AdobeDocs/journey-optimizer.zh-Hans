@@ -1,5 +1,5 @@
 ---
-title: Campaign实时报告
+title: 营销活动实时报告
 description: 了解如何使用Campaign实时报告中的数据
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 4%
 
 ---
 
-# Campaign实时报告 {#campaign-live-report}
+# 营销活动实时报告 {#campaign-live-report}
 
 营销活动实时报告可通过 **[!UICONTROL Live view]** 按钮。
 
@@ -110,3 +110,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 的 **[!UICONTROL Sending statistics - Failed]** 小组件允许您查看发生了多少错误和跳出。
 
 的 **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** 和 **[!UICONTROL Breakdown by platform]** 图形和表格根据操作系统详细列出了推送通知的成功情况。
+
+## 其他资源
+
+* [营销活动入门](get-started-with-campaigns.md)
+* [创建营销活动](create-campaign.md)
+* [创建API触发的营销活动](api-triggered-campaigns.md)
+* [修改或停止营销活动](modify-stop-campaign.md)
+* [营销活动全局报告](campaign-global-report.md)
