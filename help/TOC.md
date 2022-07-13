@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -354,8 +354,8 @@ ht-degree: 98%
          + [创建决策](using/offers/api-reference/activities-api/activities/create.md)
          + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
          + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
-      + 使用 API 的优惠投放{#offer-delivery-api}
-         + [关于 Decisioning 和 Edge Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+      + 使用API提供优惠 {#offer-delivery-api}
+         + [开始使用选件交付API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)

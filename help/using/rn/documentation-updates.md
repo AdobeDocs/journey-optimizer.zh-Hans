@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 97%
+source-wordcount: '1651'
+ht-degree: 96%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 97%
 * 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
-* 发送时间优化功能现已适用于所有客户。 测试版提及已删除。 [了解更多信息](../building-journeys/journeys-message.md#send-time-optimization)
-
+* 发送时间优化功能现已适用于所有客户。 测试版提及已删除。 [了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* Batch Decisioning API已添加到可用API列表中，以交付个性化优惠。 [了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
 
@@ -169,3 +169,4 @@ ht-degree: 97%
 * 添加了警告，指出目前不支持基于事件的优惠。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 记录了“决策管理”功能中新增的 **[!UICONTROL Overview]** 选项卡。[了解更多信息](../offers/get-started/user-interface.md#overview)
 * 添加了新章节，以说明优惠和决策列表中可用的操作：[优惠列表](../offers/offer-library/creating-personalized-offers.md#offer-list) 和 [决策列表](../offers/offer-activities/create-offer-activities.md#decision-list)。
+
