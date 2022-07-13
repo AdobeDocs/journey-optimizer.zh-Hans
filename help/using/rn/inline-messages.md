@@ -2,9 +2,9 @@
 title: 迁移到历程内联创作
 description: 了解如何迁移消息
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
+source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 >id="ajo_messages_migration_before"
 >title="进一步了解新的内联创作功能"
 >abstract="从2022年7月25日开始，直接从历程创作消息。 现有消息会自动迁移到新模型。 如果您当前在历程中使用消息，则在迁移后需要执行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="迁移步骤"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="迁移步骤"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="了解正在发生的事情"
 >abstract="从2022年7月25日开始，直接从历程创作消息。 正在迁移您的环境。 迁移后需要执行其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="迁移步骤"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="迁移步骤"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="了解如何迁移消息"
 >abstract="从2022年7月25日开始，直接从历程创作消息。 现在，现有消息已迁移到新模型。 作为历程从业者，现在需要其他操作。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="迁移步骤"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="迁移步骤"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="了解如何迁移消息"
 >abstract="从2022年7月25日开始，消息菜单会消失，并且会直接从历程创作消息。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template?lang=en" text="将消息另存为模板"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="将消息另存为模板"
 
 Adobe Journey Optimizer将发布一项新功能，以改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为Journey Optimizer从业人员，您现在可以直接从历程创建和创作消息。
 
