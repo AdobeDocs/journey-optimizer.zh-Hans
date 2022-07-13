@@ -2,9 +2,9 @@
 title: 迁移到历程内联创作
 description: 了解如何迁移消息
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
+source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="了解正在发生的事情"
->abstract="从2022年7月25日开始，直接从历程创作消息。 正在迁移您的环境。 迁移后需要执行其他操作。"
+>abstract="从2022年7月25日开始，直接从历程创作消息。 正在迁移您的环境。 如果您当前在历程中使用消息，则在迁移后需要执行其他操作。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="迁移步骤"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="了解如何迁移消息"
->abstract="从2022年7月25日开始，直接从历程创作消息。 现在，现有消息已迁移到新模型。 作为历程从业者，现在需要其他操作。"
+>abstract="从2022年7月25日开始，直接从历程创作消息。 现在，现有消息已迁移到新模型。 作为历程从业者，现在在使用消息的历程中需要其他操作。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="迁移步骤"
 
 >[!CONTEXTUALHELP]
