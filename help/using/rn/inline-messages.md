@@ -2,9 +2,9 @@
 title: 迁移到历程内联创作
 description: 了解如何迁移消息
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="了解有关新的内联创作消息的更多信息"
->abstract="从2022年7月25日开始，直接从历程创作消息。 现有消息会自动迁移到新模型。 迁移后需要执行其他操作。"
+>title="进一步了解新的内联创作功能"
+>abstract="从2022年7月25日开始，直接从历程创作消息。 现有消息会自动迁移到新模型。 如果您当前在历程中使用消息，则在迁移后需要执行其他操作。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="迁移步骤"
 
 >[!CONTEXTUALHELP]
