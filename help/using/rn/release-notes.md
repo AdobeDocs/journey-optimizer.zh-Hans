@@ -3,9 +3,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以将体验从Journey Optimizer沙盒重新创建到另一个沙盒，例如从非生产沙盒再创建到生产沙盒。 此新功能可将整个历程(包括历程依赖以正常运行的任何对象)从一个环境复制到另一个环境。 除了历程之外，您还可以复制其他组件，如选件、消息、架构、数据集、数据源、事件和操作。</p>
+<p>现在，您可以重新创建从 Journey Optimizer 沙箱到另一个沙箱的体验，例如从非生产沙箱到生产沙箱。此新功能可将整个历程（包括历程赖以正常运行的任何对象）从一个环境复制到另一个环境。除了历程之外，您还可以复制其他组件，如优惠、消息、模式、数据集、数据源、事件和操作。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。
 </td>
 </tr>
@@ -149,9 +149,9 @@ ht-degree: 78%
 
 * **预览跟踪 URL 参数** – 现在，配置消息预设时，如果定义了 URL 跟踪参数，则会显示所产生的跟踪 URL 的动态预览。[了解详情](../configuration/email-settings.md#url-tracking)
 
-* **消息预设版**  — 现在，更新消息预设时，处理时间最长可能只需3小时。 [了解详情](../configuration/message-presets.md#edit-message-preset)
+* **消息预设版本** - 现在，更新消息预设时，处理时间最长可能只需 3 小时。[了解详情](../configuration/message-presets.md#edit-message-preset)
 
-* **IP池版本**  — 现在，更新IP池时，处理时间最长可能只需3小时。 [了解详情](../configuration/ip-pools.md#edit-ip-pool)
+* **IP 池版本** - 现在，更新 IP 池时，处理时间最长可能只需 3 小时。[了解详情](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
