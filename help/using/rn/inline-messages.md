@@ -2,9 +2,9 @@
 title: 迁移到历程内联创作
 description: 了解如何迁移消息
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -287,7 +287,10 @@ The **details** section gives, for each of the above indicators, the list of rel
 
 ### 功能会丢失吗？{#functionality}
 
-您创作消息的方式将会发生更改。 功能不会丢失。
+您创作消息的方式将会发生更改。 功能不会丢失。 请注意，在7月25日（内联创作功能发布）之后，限制将适用于可使用在历程中执行的操作 **消息** 活动：
+
+* 您将无法复制/粘贴任何 **消息** 活动。 但是，您将能够复制/粘贴新的渠道操作活动。
+* 对于这些历程，您将无法执行以下操作：测试、发布、复制、创建新版本、关闭或复制到其他沙盒。 这些限制只要适用， **消息** 这些历程中存在活动。 您可以等待迁移过程运行和更新 **消息** 活动以渠道操作活动，或者您可以删除这些活动 **消息** 手动。
 
 ### 迁移过程中是否有环境访问权限？
 
