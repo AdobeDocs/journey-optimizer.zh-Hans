@@ -3,9 +3,9 @@ title: Journey Optimizer系统管理员入门
 description: 作为系统管理员，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -37,18 +37,18 @@ As a **系统管理员**，您需要 **了解产品配置文件和分配权限**
 
 访问 [!DNL Journey Optimizer] 首次配置了生产沙盒，并根据您的合同分配了特定数量的IP。
 
-要创建您的历程并发送消息，请访问 **管理** 菜单。 浏览 **[!UICONTROL Channels]** 菜单来配置消息和曲面（即预设）。
+要创建您的历程并发送消息，请访问 **管理** 菜单。 浏览 **[!UICONTROL Channels]** 菜单来配置消息和渠道表面（即消息预设）。
 
 >[!NOTE]
 >As a **系统管理员**，如果您看不到 **[!UICONTROL Channels]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本页](../../administration/permissions.md#edit-product-profile).
 
 按照下面列出的步骤操作：
 
-1. **配置消息和渠道**:定义界面、调整和自定义电子邮件和推送消息设置
+1. **配置消息和渠道**:定义界面、调整和自定义电子邮件、短信和推送消息设置
 
    * 定义 **推送通知设置** 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../../configuration/push-gs.md)
 
-   * 创建 **通道曲面** （即消息预设），以配置电子邮件和推送通知消息所需的所有技术参数。 [了解详情](../../configuration/message-presets.md)
+   * 创建 **通道曲面** （即消息预设），配置电子邮件、短信和推送通知所需的所有技术参数。 [了解详情](../../configuration/message-presets.md)
 
    * 配置 **短信渠道** 配置短信所需的所有技术参数 [了解详情](../../configuration/sms-configuration.md)
 

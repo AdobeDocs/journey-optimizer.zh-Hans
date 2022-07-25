@@ -3,9 +3,9 @@ title: Journey Optimizer营销人员入门
 description: 作为历程实践者，了解如何与Journey Optimizer合作的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ As a **营销人员** 或 **历程实践者**，则您负责创建优惠和历�
 
    * 利用 **上下文数据** 来自事件、来自Adobe Experience Platform的信息或来自第三方API服务的数据。
 
-   * 使用 **内置渠道操作** 发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
+   * 使用 **内置渠道操作** （电子邮件、短信、推送），用于发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
 
    * 使用 **历程设计器**，构建多步用例：轻松拖放登入事件或读取区段活动、添加条件和发送个性化消息。
 
