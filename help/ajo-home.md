@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 83%
+source-wordcount: '401'
+ht-degree: 80%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 83%
     <div>
       <a href="using/messages/get-started-content.md">发送消息</a>
     </div>
-    <p>了解如何在客户历程中添加推送和电子邮件消息
+    <p>了解如何在客户历程中添加推送、短信和电子邮件消息
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">创建您的第一个历程</a>
