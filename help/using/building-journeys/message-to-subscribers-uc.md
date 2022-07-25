@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
@@ -24,14 +24,12 @@ ht-degree: 5%
 要配置此历程，请执行以下步骤：
 
 1. 创建以 **[!UICONTROL Read]** 活动。 [了解更多信息](journey-gs.md)。
-1. 添加 **[!UICONTROL Message]** 活动，通过电子邮件发送到历程。 [了解更多信息](journeys-message.md)。
-1. 在 **[!UICONTROL Email parameters]** 部分 **[!UICONTROL Message]** 活动设置，替换默认的电子邮件地址(`PersonalEmail.adress`)，其电子邮件地址为列表订阅者：
+1. 添加 **[!UICONTROL Email]** 操作活动。 [了解更多信息](journeys-message.md)。
+1. 在 **[!UICONTROL Email parameters]** 部分 **[!UICONTROL Email]** 活动设置，替换默认的电子邮件地址(`PersonalEmail.adress`)，其电子邮件地址为列表订阅者：
 
    1. 单击 **[!UICONTROL Enable parameter override]** 图标 **[!UICONTROL Address]** 字段，然后单击 **[!UICONTROL Edit]** 图标。
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      要修改电子邮件地址，您必须先已发布了该消息。
 
    1. 在表达式编辑器中，输入用于检索订阅者电子邮件地址的表达式。 [了解更多信息](expression/expressionadvanced.md)。
 
@@ -55,4 +53,3 @@ ht-degree: 5%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL Add an expression]** 对话框，单击 **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

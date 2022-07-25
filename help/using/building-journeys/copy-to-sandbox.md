@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 >title="从属对象"
 >abstract="这是历程中使用的关联对象列表。 此列表显示名称、对象类型以及内部Journey Optimizer ID。"
 
-Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：消息、区段、预设、架构、事件和操作。 请参阅 [限制](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 请参阅 [限制](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
 * 消息
 
-   历程中使用的物理消息（电子邮件或推送消息）。 不会检查消息中用于个性化的字段是否完整。 不会复制内容块。
+   历程中使用的渠道操作活动。 不会检查消息中用于个性化的字段是否完整。 不会复制内容块。
 
 * 历程 — 画布详细信息
 
@@ -100,9 +101,8 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
    将复制历程中使用的操作和操作详细信息。
 
-不会复制预设。 系统会根据消息类型和预设名称，自动选择目标沙箱上可能最接近的匹配项。 如果在目标沙盒上未找到预设，则预设复制将失败。 这将意味着消息副本也将失败，因为消息需要预设才能进行设置。 在这种情况下，需要为消息的正确渠道至少创建一个预设，才能使副本正常工作。
+不会复制曲面（即预设）。 系统会根据消息类型和表面名称，自动选择目标沙盒上可能最接近的匹配项。 如果在目标沙盒上找不到曲面，则曲面复制将失败。 这将意味着消息副本也将失败，因为消息要求有一个可用于设置的表面。 在这种情况下，至少需要为消息的正确渠道创建一个表面，以便副本正常工作。
 
 对于方案、合并策略和区段，当第二次尝试复制这些对象时，将只引用它们。 它们将被视为已存在的对象，并将再次复制。 这意味着这些对象只能复制一次。
 
 在Adobe Journey Optimizer引用架构、合并策略和区段之前，需要经过五分钟的延迟，才能在画布中看到错误。 等待五分钟，这些参考资料将可用。
-

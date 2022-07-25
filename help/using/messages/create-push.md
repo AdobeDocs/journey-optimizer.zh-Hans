@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1543'
 ht-degree: 9%
 
 ---
@@ -25,11 +25,16 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包含个性化和基于历程的上下文，以便利用您的品牌对Adobe Experience Cloud的数据分析。
 
-一旦 [已创建消息](get-started-content.md)，请单击 **[!UICONTROL Push Notification]** 选项卡，以定义推送通知的设置和内容。
+一旦 [添加了推送](get-started-content.md) 活动，并定义基本设置，使用 **[!UICONTROL Actions: Push]** 右窗格创建推送通知的内容。
+
+![](assets/add-a-push.png)
+
+
+使用专用选项卡定义的推送通知设置 **iOS** 和 **Android** 操作系统。
 
 ![](assets/create-content-push.png)
 
-使用专用选项卡定义的推送通知设置 **iOS** 和 **Android** 操作系统。
+如果您是首次创建推送通知，请确保配置了推送渠道。 [了解详情](../configuration/push-gs.md)。
 
 >[!NOTE]
 >
@@ -52,7 +57,7 @@ ht-degree: 9%
 
 ![](assets/title-body-push.png)
 
-* 要打开应用程序，请选择 **[!UICONTROL Open app]** 选项。 在消息中定义与通知关联的应用程序 **[!UICONTROL Preset]**. [了解更多](../configuration/message-presets.md) 关于消息预设。
+* 要打开应用程序，请选择 **[!UICONTROL Open app]** 选项。 在 [通道表面](../configuration/message-presets.md) （即消息预设）。
 * 要将用户重定向到应用程序中的特定内容段，请选择 **[!UICONTROL Deeplink]** 选项。  特定内容可以是特定视图、页面的特定部分或特定选项卡。 选择选项后，在关联的字段中输入深层链接。
 * 要将用户重定向到外部URL，请使用 **[!UICONTROL Web URL]** 选项。 选择选项后，在关联的字段中输入URL。
 
@@ -125,6 +130,17 @@ ht-degree: 9%
 | **[!UICONTROL Notification visibility]** （仅限Android） | 定义推送通知的可见性。 <br/><b>私有</b> 将在所有锁屏上显示通知，但在安全的锁屏上隐藏敏感或隐私信息。 <br/><b>公共</b> 将在所有锁屏上全部显示通知。 <br/><b>密码</b> 不会在安全的锁屏上显示通知的任何部分。 <br/>有关更多信息，请参阅 [Android开发人员文档](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** （仅限Android） | 将推送通知的重要性从“低”定义为“最大”。 这可确定发送推送通知时“侵入”的程度。 有关更多信息，请参阅 [Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** （仅限Android） | 为推送通知设置高优先级或普通优先级。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
+
+
+## 验证推送通知{#push-preview}
+
+定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+
+要显示推送通知在移动设备上的显示方式，请单击 **[!UICONTROL Simulate content]** 选项卡。 进一步了解 [此部分](../design/preview.md).
+
+您还必须检查编辑器上部的警报。  其中一些是简单的警告，但其他警告可能会阻止您使用消息。 有关详细信息，请参阅[此部分](alerts.md)。
+
+![](assets/push-alert-button.png)
 
 **相关主题**
 

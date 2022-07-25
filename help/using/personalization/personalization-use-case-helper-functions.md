@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '977'
 ht-degree: 3%
 
 ---
@@ -28,22 +28,38 @@ ht-degree: 3%
 ➡️ [在此视频中了解如何使用帮助程序函数](#video)
 
 在开始之前，请确保您知道如何配置这些元素：
-* 电子邮件。 [了解详情](../messages/get-started-content.md)
-* 电子邮件的正文。 [了解详情](../design/create-email-content.md)。
+
 * 单一事件。 [了解详情](../event/about-events.md)。
 * 以事件开头的历程。 [了解详情](../building-journeys/using-the-journey-designer.md)。
+* 您的历程中的电子邮件。 [了解详情](../messages/get-started-content.md)
+* 电子邮件的正文。 [了解详情](../design/create-email-content.md)。
 
 请执行以下步骤：
+
+1. [创建初始事件和历程](#create-context).
 1. [创建电子邮件](#configure-email).
 1. [在大写字母中插入客户的名字](#uppercase-function).
-1. [创建初始事件和历程](#create-context).
 1. [将购物车内容添加到电子邮件](#each-helper).
 1. [插入产品特定的注释](#if-helper).
 1. [测试并发布历程](#test-and-publish).
 
-## 步骤1:创建电子邮件{#configure-email}
+## 步骤1:创建初始事件和相关历程 {#create-context}
 
-1. 创建或修改电子邮件，然后单击 **[!UICONTROL Email Designer]**.
+购物车内容是历程中的上下文信息。 因此，您必须先将初始事件和电子邮件添加到历程，然后才能将特定于购物车的信息添加到电子邮件。
+
+1. 创建一个事件，其架构包含 `productListItems` 数组。
+1. 将此数组中的所有字段定义为此事件的有效负荷字段。
+
+   了解有关产品列表项数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}。
+
+1. 创建以此事件开始的历程。
+1. 添加 **电子邮件** 活动到历程。
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## 步骤2:创建电子邮件{#configure-email}
+
+1. 在 **电子邮件** 活动，单击 **[!UICONTROL Edit content]**，然后单击 **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. 从Email Designer主页的左侧面板，将三个结构组件拖放到消息正文中。
@@ -52,7 +68,7 @@ ht-degree: 3%
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## 步骤2:在大写字母中插入客户的名字 {#uppercase-function}
+## 步骤3:在大写字母中插入客户的名字 {#uppercase-function}
 
 1. 在Email Designer主页上，单击要在其中添加HTML名字的客户组件。
 1. 在上下文工具栏上，单击 **[!UICONTROL Show the source code]**.
@@ -93,33 +109,9 @@ ht-degree: 3%
    ![](assets/personalization-uc-helpers-6.png)
 1. 保存消息。
 
-## 步骤3:创建初始事件和相关历程 {#create-context}
-
-购物车内容是历程中的上下文信息。 因此，您必须先将初始事件和电子邮件添加到历程，然后才能将特定于购物车的信息添加到电子邮件。
-
-1. 创建一个事件，其架构包含 `productListItems` 数组。
-1. 将此数组中的所有字段定义为此事件的有效负荷字段。
-
-   了解有关产品列表项数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}。
-
-1. 创建以此事件开始的历程。
-1. 将消息添加到历程。
-
-   由于您尚未发布消息，因此既不能测试也不能发布历程。
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. 单击 **[!UICONTROL OK]**。
-
-   消息会通知您历程上下文已传递到消息。
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## 步骤4:插入购物车中的项目列表 {#each-helper}
 
-1. 重新打开消息。
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. 重新打开消息内容。
 
 1. 在Email Designer主页上，单击要在其中列出购物车内容的HTML组件。
 1. 在上下文工具栏上，单击 **[!UICONTROL Show the source code]**.
@@ -299,14 +291,11 @@ ht-degree: 3%
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. 保存并发布消息。
+1. 保存消息。
 
 ## 步骤6:测试和发布历程 {#test-and-publish}
 
-1. 打开旅程。 如果历程已打开，则刷新页面。
 1. 打开 **[!UICONTROL Test]** 切换，然后单击 **[!UICONTROL Trigger an event]**.
-
-   只有在发布消息后，才能打开测试模式。
 
    ![](assets/personalization-uc-helpers-15.png)
 

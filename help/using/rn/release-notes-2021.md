@@ -2,10 +2,10 @@
 title: 过往发行说明（2021 年）
 description: Journey Optimizer 2021 年发行说明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2067'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 **报告**
 
-* **全局视图中的数据格式** - 您现在可以在 **Execution** 选项卡的 **Global view** 中在数字和百分比之间切换。[了解详情](../reports/message-monitoring.md)
+* **全局视图中的数据格式** - 您现在可以在 **Execution** 选项卡的 **Global view** 中在数字和百分比之间切换。
 
 
 **管理**
@@ -126,7 +126,7 @@ ht-degree: 0%
 <td>
 <p>报告中提供了新量度：电子邮件和推送消息的“目标受众”和“排除受众”在实时报告和全局报告中均可见。</br> 如需访问最新量度，请注意，您必须为每个渠道和报告类型重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅<a href="../reports/live-report.md">详细文档。</a></p>
 <p>消息执行列表中的新列会显示每个消息执行的目标用户档案数。 </p>
-<p>有关更多信息，请参阅<a href="../reports/message-monitoring.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../reports/global-report.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ ht-degree: 0%
 <td>
 <p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。由 Adobe 的 AI 服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，以最大化参与度。</p>
 <p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/journeys-message.md#send-time-optimization">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../messages/send-time-optimization.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 **个性化**
 
-* **表达式编辑器** - 现在，您可以在定义个性化设置时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](../personalization/functions/helpers.md)
+* **表达式编辑器**  — 现在，您可以在定义个性化时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。 [了解详情](../personalization/functions/helpers.md)
 
 **电子邮件配置**
 
@@ -289,7 +289,7 @@ ht-degree: 0%
 
 * 修复了消息选项卡导航中的辅助功能问题。
 * 修复了电子邮件设计器标签中的本地化问题。
-* 修复了选择历程中的多个节点并单击属性面板上的“Delete”时存在的问题。
+* 修复了在历程中选择多个节点并单击属性窗格上的“删除”时的问题。
 * 修复了无法向历程中使用的操作添加新标头的问题。
 * 现在，您可以通过用户界面中的内容更明确的警告，了解消息预设创建失败的原因。
 
@@ -342,7 +342,7 @@ ht-degree: 0%
 * 在历程列表屏幕中，添加了历程类型筛选器。[了解更多信息](../start/user-interface.md#filter-lists)
 * **[!UICONTROL Throttling rate]** 参数已添加到读取区段活动中。[了解更多信息](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**预览和测试消息**
+**预览和测试**
 
 * 标识和命名空间现在显示于 **[!UICONTROL Preview]** 屏幕中。[了解更多信息](../design/preview.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
@@ -357,6 +357,6 @@ ht-degree: 0%
 * 修复了导致批量电子邮件投放出现重复消息投放的问题。
 * 现在，当重试期限结束后未执行电子邮件发送时，将相应地生成事件。
 * 修复了 PTR 记录屏幕中缺少 IP 信息的问题。
-* 现在，在表达式编辑器中实现了选件边栏的本地化。
+* 表达式编辑器中的选件边栏现已实施本地化。
 * 修复了信息弹出窗口中间距不正确的问题。
 * 修复了在上传包含不支持的 `background-image` 属性的 HTML 文件时，电子邮件设计器内部样式表中出现的问题。

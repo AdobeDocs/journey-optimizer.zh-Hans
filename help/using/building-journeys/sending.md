@@ -1,10 +1,10 @@
 ---
 title: 开始历程执行
 description: 了解如何开始您的历程并发送消息
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 3%
 
 ## 发送邮件 {#send-messages}
 
-在消息定义了内容并发布后，即可通过 [历程](journey.md).
+当消息定义了内容时，即可通过 [历程](journey.md).
 
->[!NOTE]
->
->您可以向历程添加仍处于草稿模式的消息，但请确保在发布历程之前发布了该消息。
-
-发送消息后，您可以通过多个指示器监控其执行情况。 [了解有关监视消息执行的更多信息](../message-monitoring.md).
+发送消息后，您可以通过多个指示器监控其执行情况。 [了解有关报表的更多信息](../global-report.md).
 
 ## 计划消息发送 {#schedule-messages}
 

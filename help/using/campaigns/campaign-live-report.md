@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '586'
 ht-degree: 4%
 
 ---
@@ -42,8 +43,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## “电子邮件”选项卡 {#email-live}
 
 从营销策划 **[!UICONTROL Live report]**, **[!UICONTROL Email]** 选项卡详细列出了与营销活动中发送的电子邮件投放相关的主要信息。
-
-有关特定电子邮件投放的详细报告，请参阅 [电子邮件实时报表](../reports/email-live-report.md) 中。
 
 的 **[!UICONTROL Email Sending Statistics]** 小组件详细介绍与您的消息相关的主要信息：
 
@@ -86,8 +85,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## “推送”选项卡 {#push-live}
 
 从营销策划 **[!UICONTROL Live report]**, **[!UICONTROL Push]** 选项卡详细列出了与营销活动中发送的推送投放相关的主要信息。
-
-有关特定推送投放的详细报告，请参阅 [推送实时报表](../reports/push-live-report.md) 中。
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** 和 **[!UICONTROL Sending metrics - by Push]** 小组件详细介绍与您的消息相关的主要信息：
 

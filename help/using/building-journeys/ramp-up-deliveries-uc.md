@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    您可以逐步将此限制增加到订阅者总数。
 
-1. 添加 **[!UICONTROL Message]** 活动到 **[!UICONTROL Condition]** 活动。
+1. 添加 **[!UICONTROL Email]** 活动到标称路径 **[!UICONTROL Condition]** 活动。
 
    ![](assets/ramp-up-deliveries-message.png)
 

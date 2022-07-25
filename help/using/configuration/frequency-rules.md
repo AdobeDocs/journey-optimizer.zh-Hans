@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 6%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->规则最多可能需要10分钟才能完全激活。 您无需修改或重新发布消息或历程，规则即可生效。
+>规则最多可能需要10分钟才能完全激活。 您无需修改消息或重新发布历程，规则即可生效。
 
 要停用消息频度规则，请单击规则旁边的省略号，然后选择 **[!UICONTROL Deactivate]**.
 
@@ -113,37 +113,26 @@ ht-degree: 6%
 
 要将频度规则应用于消息，请执行以下步骤。
 
-1. 创建消息. [了解详情](../messages/get-started-content.md#create-new-message)
+1. [创建消息](../messages/get-started-content.md#create-new-message) ，方法是选择您为规则定义的渠道之一。
 
 1. 选择为 [创建的规则](#create-new-rule).
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >当前仅 **[!UICONTROL Marketing]** 类别可用于消息频度规则。
 
-1. 选择您为消息选择的渠道。
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. 与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
 
-1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 
+   >[!NOTE]
+   >
+   >选择类别的消息 **[!UICONTROL Transactional]** 将不会根据频度规则进行评估。
 
-   ![](assets/message-rules-msg-link.png)
-
-   将打开一个新选项卡，以显示匹配的消息频度规则。
-
-1. [设计](../design/design-emails.md) 和 [发布](../messages/publish-manage-message.md) 你的留言。
-
-与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
-
->[!NOTE]
->
->消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL Transactional]** 将不会根据频度规则进行评估。
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-您可以在 [实时视图和全局视图](../reports/message-monitoring.md)和 [电子邮件实时报表](../reports/email-live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
+1. 您可以在 [全局报告](../reports/global-report.md)和 [实时报表](../reports/live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ ht-degree: 6%
 
 1. [创建规则](#create-new-rule) 调用 *整体营销上限*:
 
-   * 选择所有渠道（电子邮件、推送）。
+   * 选择电子邮件和推送渠道。
    * 将上限设置为12。
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ ht-degree: 6%
 
 1. 保存并 [激活](#activate-rule) 规则。
 
-1. 创建消息. [了解详情](../messages/get-started-content.md#create-new-message)
+1. 创建电子邮件并选择 **[!UICONTROL Marketing]** 类别。 [了解详情](../messages/get-started-content.md#create-new-message)
 
-1. 选择 **[!UICONTROL Marketing]** 类别。
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. 选择 **[!UICONTROL Email]** 和 **[!UICONTROL Push Notification]** 渠道。
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 
-
-1. [设计](../design/design-emails.md) 和 [发布](../messages/publish-manage-message.md) 你的留言。
+1. 创建推送通知并选择 **[!UICONTROL Marketing]** 类别。 [了解详情](../messages/get-started-content.md#create-new-message)
 
 在此方案中，单个用户档案：
 * 每月最多可接收12条营销消息；
@@ -189,10 +168,10 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->在测试频度规则时，从新创建的开始可能会有所帮助 [测试用户档案](../segment/creating-test-profiles.md)，因为达到用户档案的频度上限后，在下个月之前将无法重置计数器。 取消激活规则将允许有上限的用户档案接收消息，但不会删除或删除任何计数器增量。
+>测试频度规则时，建议使用新创建的 [测试用户档案](../segment/creating-test-profiles.md)，因为达到用户档案的频度上限后，在下个月之前将无法重置计数器。 取消激活规则将允许有上限的用户档案接收消息，但不会删除或删除任何计数器增量。
 
 ## 操作方法视频 {#video}
 
-了解如何创建、激活、测试和报告频度规则。
+了解如何创建、激活、测试和报告频率规则。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

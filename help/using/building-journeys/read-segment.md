@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 8%
+source-wordcount: '1096'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 >title="“读取区段”活动"
 >abstract="利用读取区段活动，可让属于Adobe Experience Platform区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。"
 
-利用读取区段活动，可让属于Adobe Experience Platform区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
+使用 **读取区段** 活动，使区段的所有个人都进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
 以在 [生成区段](../segment/about-segments.md) 用例。 通过读取区段活动，您可以让属于此区段的所有个人进入历程，并让他们进入将利用所有历程功能的个性化历程：条件、计时器、事件、操作。
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性读取区段历程在历程执行30天后变为“已完成”状态。 对于计划读取区段，则为上次执行该事件后的30天。
+>一次性读取区段历程在历程执行30天后变为“已完成”状态。 对于计划的读取区段，此期限为上次执行后的 30 天。 
 
 ### 测试并发布历程 {#testing-publishing}
 

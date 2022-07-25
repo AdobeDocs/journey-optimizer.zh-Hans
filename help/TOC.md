@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [创建电子邮件](using/messages/create-email.md)
    + [创建推送通知](using/messages/create-push.md)
    + [创建短信消息](using/messages/create-sms.md)
-   + 验证并发布 {#validate}
-      + [检查警报](using/messages/alerts.md)
-      + [发布消息](using/messages/publish-manage-message.md)
+   + [检查警报](using/messages/alerts.md)
    + [管理同意](using/messages/consent.md)
+   + [发送时间优化](using/messages/send-time-optimization.md)
 + 设计内容 {#design}
    + [电子邮件设计入门](using/design/design-emails.md)
    + [从零开始 ](using/design/create-email-content.md)
@@ -138,7 +137,7 @@ ht-degree: 98%
       + [终止 ](using/building-journeys/end-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [阅读区段](using/building-journeys/read-segment.md)
-      + [消息](using/building-journeys/journeys-message.md)
+      + [电子邮件、短信、推送](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
 + 跟踪和监控 {#reporting}
-   + [消息监测](using/reports/message-monitoring.md)
    + 实时报告{#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
-      + [通过电邮发送实时报告](using/reports/email-live-report.md)
-      + [推送实时报告](using/reports/push-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
       + [访问全局报告仪表板](using/reports/global-report.md)
       + [历程全局报告](using/reports/journey-global-report.md)
-      + [通过电邮发送全局报告](using/reports/email-global-report.md)
-      + [推送全局报告](using/reports/push-global-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
    + 历程报告 {#reports}
@@ -385,8 +379,8 @@ ht-degree: 98%
             + [重试](using/configuration/retries.md)
             + [允许列表](using/configuration/allow-list.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
-      + 设置消息预设 {#set-up-message-presets}
-         + [创建消息预设](using/configuration/message-presets.md)
+      + 设置通道曲面 {#set-up-message-presets}
+         + [创建通道曲面](using/configuration/message-presets.md)
          + [配置电子邮件设置](using/configuration/email-settings.md)
          + [使用密送电子邮件](using/configuration/bcc-email.md)
       + [管理执行地址](using/configuration/primary-email-addresses.md)

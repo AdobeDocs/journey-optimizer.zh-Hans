@@ -1,47 +1,47 @@
 ---
-title: 设置消息预设
-description: 了解如何配置和监视消息预设
+title: 设置通道曲面
+description: 了解如何配置和监视通道表面
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1462'
 ht-degree: 1%
 
 ---
 
-# 设置消息预设 {#message-presets-creation}
+# 设置通道曲面 {#message-presets-creation}
 
-使用 [!DNL Journey Optimizer]，则可以设置消息预设，以定义电子邮件和推送通知消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
+使用 [!DNL Journey Optimizer]，您可以设置渠道曲面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
 
 >[!CAUTION]
 >
-> * 要创建、编辑和删除消息预设，您必须具有 [管理消息预设](../administration/high-low-permissions.md#manage-message-presets).
+> * 要创建、编辑和删除通道曲面，您必须具有 [管理渠道表面](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * 您必须执行 [电子邮件配置](#configure-email-settings) 和 [推送配置](../configuration/push-configuration.md) 创建消息预设之前的步骤。
+> * 您必须执行 [电子邮件配置](#configure-email-settings), [推送配置](../configuration/push-configuration.md) 和 [短信配置](../configuration/sms-configuration.md) 创建通道曲面之前的步骤。
 
 
-配置消息预设后，您将能够在从 **[!UICONTROL Presets]** 列表。
+配置渠道表面后，您将能够在从历程创建消息时选择渠道表面。
 
-➡️ [在此视频中了解如何创建和使用电子邮件预设](#video-presets)
+➡️ [在此视频中了解如何创建和使用电子邮件界面](#video-presets)
 
-## 创建消息预设 {#create-message-preset}
+## 创建通道曲面 {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="消息预设详细信息和设置"
->abstract="通过设置消息预设，您可以选择该消息适用的渠道，并定义消息所需的所有技术参数，例如电子邮件类型、要使用的子域、发件人名称、移动应用程序等。"
+>title="渠道表面详细信息和设置"
+>abstract="通过设置渠道表面，您可以选择渠道并定义投放所需的所有技术参数，例如电子邮件类型、要使用的子域、发件人名称、移动应用程序等。"
 
-要创建消息预设，请执行以下步骤：
+要创建通道曲面，请执行以下步骤：
 
-1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 菜单，然后单击 **[!UICONTROL Create Message preset]**.
+1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** 菜单，然后单击 **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. 为预设输入名称和描述（可选），然后选择要配置的渠道。
+1. 输入曲面的名称和描述（可选），然后选择要配置的渠道。
 
    ![](assets/preset-general.png)
 
@@ -69,17 +69,17 @@ ht-degree: 1%
    >
    >有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](sms-configuration.md).
 
-1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
+1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将通道曲面另存为草稿，并稍后恢复其配置。
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >当选定的IP池位于下时，无法继续创建预设 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 [了解详情](#subdomains-and-ip-pools)
+   >当选定的IP池位于 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 [了解详情](#subdomains-and-ip-pools)
    >
-   >将预设另存为草稿，然后等待IP池具有 **[!UICONTROL Success]** 状态以继续创建预设。
+   >将曲面另存为草稿，然后等待IP池具有 **[!UICONTROL Success]** 恢复曲面创建的状态。
 
-1. 创建消息预设后，该消息预设会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
+1. 创建通道曲面后，该曲面会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
 
    在此步骤中，将执行多项检查，以验证是否已正确配置。 处理时间在附近 **48h-72h**，并且 **7-10个工作日**.
 
@@ -97,25 +97,25 @@ ht-degree: 1%
    >
    >如果检查失败，请在 [此部分](#monitor-message-presets).
 
-1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
+1. 检查成功后，通道曲面将 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 
    ![](assets/preset-active.png)
 
-## 监视消息预设 {#monitor-message-presets}
+## 监视通道表面 {#monitor-message-presets}
 
-所有消息预设都显示在 **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** 菜单。 过滤器可帮助您浏览列表（渠道类型、用户、状态）。
+所有通道曲面都显示在 **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** 菜单。 过滤器可帮助您浏览列表（渠道、用户、状态）。
 
 ![](assets/preset-filters.png)
 
-创建消息预设后，可以具有以下状态：
+创建后，通道曲面可以具有以下状态：
 
-* **[!UICONTROL Draft]**:消息预设已另存为草稿，但尚未提交。 打开它以恢复配置。
-* **[!UICONTROL Processing]**:消息预设已提交，正在执行多个验证步骤。
-* **[!UICONTROL Active]**:消息预设已验证，可选择该预设以创建消息。
-* **[!UICONTROL Failed]**:在消息预设验证期间，一个或多个检查失败。
-* **[!UICONTROL Deactivated]**:消息预设已停用。 它不能用于创建新消息。
+* **[!UICONTROL Draft]**:通道曲面已另存为草稿，但尚未提交。 打开它以恢复配置。
+* **[!UICONTROL Processing]**:已提交通道表面，并正在执行多个验证步骤。
+* **[!UICONTROL Active]**:通道表面已验证，可选择它来创建消息。
+* **[!UICONTROL Failed]**:在通道表面验证期间，一个或多个检查失败。
+* **[!UICONTROL Deactivated]**:通道表面被停用。 它不能用于创建新消息。
 
-如果消息预设创建失败，则下面将介绍每种可能失败原因的详细信息。
+在通道曲面创建失败时，每种可能失败原因的详细信息如下所述。
 
 如果出现其中一个错误，请联系 [Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}以获取帮助。
 
@@ -128,18 +128,18 @@ ht-degree: 1%
 * **投放能力配置失败**:可投放性配置失败，原因如下：
    * 列入阻止列表已分配IP的管理
    * 无效 `helo` name
-   * 从IP（而非相应预设的IP池中指定的IP）发送的电子邮件
+   * 从IP发送的电子邮件，而不是在相应表面的IP池中指定的IP
    * 无法向Gmail和Yahoo等主要ISP的收件箱发送电子邮件
 
-## 编辑消息预设 {#edit-message-preset}
+## 编辑通道曲面 {#edit-message-preset}
 
-要编辑消息预设，请执行以下步骤。
+要编辑通道曲面，请执行以下步骤。
 
 >[!NOTE]
 >
->您无法编辑 **[!UICONTROL Push notification settings]**. 如果消息预设仅为推送通知渠道配置，则它不可编辑。
+>您无法编辑 **[!UICONTROL Push notification settings]**. 如果仅为推送通知渠道配置了渠道表面，则无法编辑。
 
-1. 在列表中，单击消息预设名称以将其打开。
+1. 在列表中，单击通道曲面名称以将其打开。
 
    ![](assets/preset-name.png)
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果消息预设具有 **[!UICONTROL Active]** 状态， **[!UICONTROL Name]**, **[!UICONTROL Select channel]** 和 **[!UICONTROL Subdomain]** 字段灰显，无法编辑。
+   >如果通道曲面具有 **[!UICONTROL Active]** 状态， **[!UICONTROL Name]**, **[!UICONTROL Select channel]** 和 **[!UICONTROL Subdomain]** 字段灰显，无法编辑。
 
 1. 单击 **[!UICONTROL Submit]** 确认更改。
 
@@ -155,9 +155,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >您还可以将消息预设另存为草稿，稍后继续更新。
+   >您还可以将通道曲面另存为草稿，稍后继续更新。
 
-提交更改后，消息预设将经过与原位置类似的验证周期(在 [创建预设](#create-message-preset). 版本处理时间可能长达 **3小时**.
+提交更改后，通道曲面将经过与原位置类似的验证周期，当 [创建通道曲面](#create-message-preset). 版本处理时间可能长达 **3小时**.
 
 >[!NOTE]
 >
@@ -167,13 +167,11 @@ ht-degree: 1%
 
 对于具有 **[!UICONTROL Active]** 状态，则可以检查更新的详细信息。 为实现此操作，请执行以下步骤：
 
-* 单击 **[!UICONTROL Recent update]** 图标。
+单击 **[!UICONTROL Recent update]** 图标。
 
-   ![](assets/preset-recent-update-icon.png)
+![](assets/preset-recent-update-icon.png)
 
-* 您还可以在更新进行时从活动消息预设访问更新详细信息。
-
-   ![](assets/preset-view-update-details.png)
+<!--You can also access the update details from an active channel surface while update is in progress.-->
 
 在 **[!UICONTROL Recent update]** 屏幕中，您可以查看更新状态和请求更改的列表等信息。
 
@@ -181,17 +179,17 @@ ht-degree: 1%
 
 ### 更新状态 {#update-statuses}
 
-消息预设更新可以具有以下状态：
+渠道曲面更新可以具有以下状态：
 
-* **[!UICONTROL Processing]**:消息预设更新已提交，正在执行多个验证步骤。
-* **[!UICONTROL Success]**:已验证更新的消息预设，并可以选择该预设以创建消息。
-* **[!UICONTROL Failed]**:在消息预设更新验证期间，一个或多个检查失败。
+* **[!UICONTROL Processing]**:已提交通道表面更新，并正在执行多个验证步骤。
+* **[!UICONTROL Success]**:已验证更新的通道表面，并可选择该表面以创建消息。
+* **[!UICONTROL Failed]**:在通道表面更新验证期间，一个或多个检查失败。
 
 下面详细介绍了每种状态。
 
 #### 处理时间
 
-将执行多项投放能力检查，以验证预设是否已正确更新。
+将执行多项投放能力检查，以验证表面是否已正确更新。
 
 >[!NOTE]
 >
@@ -199,43 +197,43 @@ ht-degree: 1%
 
 处理时间可能需要 **3小时**. 了解有关在 [此部分](#create-message-preset).
 
-如果您编辑的预设已处于活动状态，请执行以下操作：
+如果编辑已处于活动状态的曲面：
 
 * 其地位仍然 **[!UICONTROL Active]** 验证过程进行中。
 
-* 的 **[!UICONTROL Recent update]** 图标。
+* 的 **[!UICONTROL Recent update]** 图标在“通道曲面”(channel surfaces)列表中曲面的名称旁边显示。
 
-* 在验证过程中，使用此预设配置的消息仍使用旧版本的预设。
+* 在验证过程中，使用此曲面配置的消息仍使用该曲面的旧版本。
 
 >[!NOTE]
 >
->在更新过程中，您无法修改消息预设。 您仍可以单击其名称，但所有字段都呈灰显状态。 更新成功后，才会反映更改。
+>在进行更新时，无法修改通道曲面。 您仍可以单击其名称，但所有字段都呈灰显状态。 更新成功后，才会反映更改。
 
 #### 成功 {#success}
 
-验证过程成功后，使用此预设的所有消息中都会自动使用新版本的预设。 但是，您可能必须等待：
+验证过程成功后，新版曲面将自动用于使用该曲面的所有消息。 但是，您可能必须等待：
 * 在被单一报文使用前几分钟，
-* 直到预设的下一批次在批处理消息中生效。
+* 直到下一批表面在批处理消息中生效。
 
 #### 失败 {#failed}
 
-如果验证过程失败，则仍会使用旧版本的预设。
+如果验证过程失败，仍将使用较旧版本的曲面。
 
 详细了解 [此部分](#monitor-message-presets).
 
-更新失败后，预设将再次变为可编辑状态。 您可以单击其名称并更新需要修复的设置。
+更新失败后，曲面将再次变得可编辑。 您可以单击其名称并更新需要修复的设置。
 
-## 停用消息预设 {#deactivate-preset}
+## 停用通道曲面 {#deactivate-preset}
 
-要 **[!UICONTROL Active]** 消息预设无法创建新消息，您可以将其停用。 但是，使用此预设发布的消息将不会受到影响，并将继续工作。
+要 **[!UICONTROL Active]** 渠道表面无法创建新消息，您可以将其停用。 但是，当前使用此表面的历程消息将不会受到影响，并将继续工作。
 
 >[!NOTE]
 >
->无法在处理更新时停用消息预设。 您必须等到更新成功或失败。 了解详情 [编辑消息预设](#edit-message-preset) 和 [更新状态](#update-statuses).
+>在处理更新时，不能停用通道曲面。 您必须等到更新成功或失败。 了解详情 [编辑通道曲面](#edit-message-preset) 和 [更新状态](#update-statuses).
 
-1. 访问消息预设列表。
+1. 访问通道曲面列表。
 
-1. 对于所选的活动预设，单击 **[!UICONTROL More actions]** 按钮。
+1. 对于所选的活动曲面，单击 **[!UICONTROL More actions]** 按钮。
 
 1. 选择 **[!UICONTROL Deactivate]**。
 
@@ -243,14 +241,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->无法删除已停用的消息预设，以避免在使用这些预设发送消息的历程中出现任何问题。
+>无法删除已停用的渠道表面，以避免在使用这些表面发送消息的历程中出现任何问题。
 
-您无法直接编辑已停用的消息预设。 但是，您可以复制并编辑副本以创建新版本，以用于创建新消息。 您还可以再次激活它，然后等到更新成功后才对其进行编辑。
+不能直接编辑已停用的通道曲面。 但是，您可以复制并编辑副本以创建新版本，以用于创建新消息。 您还可以再次激活它，然后等到更新成功后才对其进行编辑。
 
 ![](assets/preset-activate.png)
 
 ## 操作方法视频{#video-presets}
 
-了解如何创建消息预设、如何使用这些预设以及如何委派子域和创建IP池。
+了解如何创建渠道曲面、如何使用这些曲面以及如何委派子域和创建IP池。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

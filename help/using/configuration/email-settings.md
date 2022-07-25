@@ -1,21 +1,21 @@
 ---
 title: 配置电子邮件设置
-description: 了解如何在消息预设级别配置电子邮件设置
+description: 了解如何在渠道表面级别配置电子邮件设置
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # 配置电子邮件设置 {#email-settings}
 
-在消息预设配置的专用部分中定义电子邮件设置。 了解如何在 [此部分](message-presets.md).
+在渠道表面（即消息预设）配置的专用部分中定义电子邮件设置。 了解如何在 [此部分](message-presets.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类别"
->abstract="选择使用此预设时将发送的消息类型：促销消息的营销（需要用户同意）或非商业消息的事务型消息，也可以在特定环境中发送给未订阅的用户档案。"
+>abstract="选择使用此渠道表面时要发送的电子邮件类型：营销促销电子邮件（需要用户同意）或非商业电子邮件（也可在特定环境中发送给未订阅用户档案）。"
 
-在 **电子邮件类型** ，选择要随预设一起发送的消息类型： **营销** 或 **事务型**.
+在 **电子邮件类型** 部分，选择将随渠道曲面一起发送的消息类型： **营销** 或 **事务型**.
 
-* 选择 **营销** 对于促销消息：这些消息需要用户同意。
+* 选择 **营销** 对于促销电子邮件：这些消息需要用户同意。
 
-* 选择 **事务型** 例如，对于订单确认、密码重置通知或投放信息等非商业性消息。
+* 选择 **事务型** 例如，用于订单确认、密码重置通知或投放信息等非商业电子邮件。
 
 >[!CAUTION]
 >
->**事务型** 消息可发送给从营销通信中取消订阅的用户档案。 这些消息只能在特定上下文中发送。
+>**事务型** 可向取消订阅营销通信的用户档案发送电子邮件。 这些消息只能在特定上下文中发送。
 
-When [创建消息](../messages/get-started-content.md#create-new-message)，则必须选择与您为消息选择的类别匹配的有效消息预设。
+When [创建消息](../messages/get-started-content.md#create-new-message)，则必须选择与您为电子邮件选择的类别匹配的有效渠道表面。
 
 ## 子域和IP池 {#subdomains-and-ip-pools}
 
@@ -44,11 +44,11 @@ When [创建消息](../messages/get-started-content.md#create-new-message)，则
 
 1. 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
 
-1. 选择要与预设关联的IP池。 [了解详情](ip-pools.md)
+1. 选择要与曲面关联的IP池。 [了解详情](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-当选定的IP池位于下时，无法继续创建预设 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果出现这种情况，请将预设另存为草稿，然后在IP池具有 **[!UICONTROL Success]** 状态。
+当选定的IP池位于 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果出现这种情况，请将曲面另存为草稿，并在IP池具有 **[!UICONTROL Success]** 状态。
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 * 安 **取消订阅电子邮件地址**，所有取消订阅请求都将发送到该服务器。
 
-   在 [!DNL Journey Optimizer]，则取消订阅电子邮件地址为默认地址 **[!UICONTROL Mailto (unsubscribe)]** 消息预设中显示的地址(基于 [选定子域](#subdomains-and-ip-pools).
+   在 [!DNL Journey Optimizer]，则取消订阅电子邮件地址为默认地址 **[!UICONTROL Mailto (unsubscribe)]** 通道表面中显示的地址，基于 [选定子域](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
 * 的 **取消订阅URL**，取消订阅后，用户将被重定向到的登陆页面的URL。
 
-   如果您添加 [一键式选择退出链接](../messages/consent.md#one-click-opt-out) 对于使用此预设创建的消息，取消订阅URL将是为一键单击选择退出链接定义的URL。
+   如果您添加 [一键式选择退出链接](../messages/consent.md#one-click-opt-out) 对于使用此表面创建的消息，取消订阅URL将是为一键单击选择退出链接定义的URL。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -92,7 +92,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 ## 标头参数{#email-header}
 
-在 **[!UICONTROL HEADER PARAMETERS]** 部分，输入与使用该预设发送的消息类型关联的发件人名称和电子邮件地址。
+在 **[!UICONTROL HEADER PARAMETERS]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
 
 >[!CAUTION]
 >
@@ -120,12 +120,12 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 * 您选择的转发电子邮件地址。 请注意，转发电子邮件地址域与委派给Adobe的任何子域都不匹配。
 * 您的沙盒名称。
-* 将使用转发电子邮件地址的预设名称。
-* 当前 **[!UICONTROL Reply to (email)]** 在预设级别设置的地址。
+* 将使用转发电子邮件地址的表面名称。
+* 当前 **[!UICONTROL Reply to (email)]** 在通道表面级别设置的地址。
 
 >[!NOTE]
 >
->每个子域只能有一个转发电子邮件地址。 因此，如果多个预设使用相同的子域，则所有预设都必须使用相同的转发电子邮件地址。
+>每个子域只能有一个转发电子邮件地址。 因此，如果多个曲面使用相同的子域，则所有这些子域都必须使用相同的转发电子邮件地址。
 
 转发电子邮件地址将由Adobe设置。 这可能需要3到4天。
 
@@ -133,7 +133,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 您可以发送由发送的电子邮件的相同副本（或盲文副本） [!DNL Journey Optimizer] 发送到密件抄送收件箱，以供符合要求或进行存档。
 
-为此，请启用 **[!UICONTROL BCC email]** 预设级别的可选功能。 [了解详情](bcc-email.md)
+为此，请启用 **[!UICONTROL BCC EMAIL]** 通道曲面级别的可选功能。 [了解详情](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,7 +142,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时间段"
->abstract="当电子邮件由于临时软退件错误而失败时，将执行3.5天（84小时）的重试。 您可以调整此默认的重试时间段，以更好地满足您的需求。"
+>abstract="当电子邮件投放由于临时软退件错误而失败，则会执行3.5天（84小时）的重试。 您可以调整此默认的重试时间段，以更好地满足您的需求。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置 **电子邮件重试参数**.
@@ -171,13 +171,13 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >title="预览URL跟踪参数"
 >abstract="查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
 
-您可以使用 **[!UICONTROL URL tracking parameters]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
+您可以使用 **[!UICONTROL URL TRACKING PARAMETERS]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
 
 此部分中定义的参数将附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕获这些参数，并创建各种性能报表。
 
 ![](assets/preset-url-tracking.png)
 
-例如，在创建消息预设时，会自动填充三个URL跟踪参数。 您可以编辑这些参数，并使用 **[!UICONTROL Add new parameter]** 按钮。
+作为创建渠道曲面时的示例，会自动填充三个URL跟踪参数。 您可以编辑这些参数，并使用 **[!UICONTROL Add new parameter]** 按钮。
 
 要配置URL跟踪参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段。
 
@@ -192,7 +192,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >
 >请勿选择文件夹：确保浏览到必要的文件夹并选择要用作跟踪参数值的配置文件属性。
 
-<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
 
 You can drag and drop the parameters to reorder them.-->
 

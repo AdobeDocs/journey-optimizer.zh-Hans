@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 99%
+source-wordcount: '1456'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 ## 左侧导航 {#left-nav}
 
-使用左侧的链接浏览功能。
+浏览左侧的链接以访问 [!DNL Journey Optimizer] 功能。
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ ht-degree: 99%
 >
 >可用功能可能因您的权限和许可协议而异。
 
-您可以在左侧导航栏中找到以下完整的服务和功能列表以及相关文档的链接。
+您可以在下面找到左侧导航中可用的服务和功能的完整列表，以及指向关联帮助页面的链接。
 
 **主页**
 
-[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。**[!UICONTROL Recents]** 列表提供指向最近创建或更新的消息、事件和历程的快捷方式。此列表显示创建和修改它们的日期及状态。
+[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。的 **[!UICONTROL Recents]** 列表提供了最近创建的事件和历程的快捷方式。 此列表显示创建和修改它们的日期及状态。
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - 创建、设计、测试和发布电子邮件和推送消息。[了解详情](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]**  — 创建、设计、测试和发布登陆页面。 [了解详情](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -127,7 +127,7 @@ ht-degree: 99%
 | 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
 | 在部分内移动，将焦点设置到单个元素 | 箭头 |
 | 选择或清除焦点元素 | 回车键或空格键 |
-| 取消选择、折叠面板或关闭对话框 | Esc |
+| 取消选择、折叠窗格或关闭对话框 | Esc |
 
 在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
@@ -274,7 +274,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 搜索{#unified-search}
 
-在 Adobe Journey Optimizer 界面的任何地方，使用顶部中央位置的 Adobe Experience Cloud 统一搜索功能在沙箱中查找资源、历程、数据集或消息等等。
+无论从Adobe Journey Optimizer界面的哪个位置，都可以使用顶部栏中心的统一Adobe Experience Cloud搜索功能，在沙箱中查找资产、历程、数据集等。
 
 开始输入内容以显示排名靠前的结果。与输入的关键词有关的帮助文章也会显示在结果中。
 
@@ -304,6 +304,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ![](assets/journey3bis.png)
 
-在不同的列表中，您可以对每个元素执行基本操作。例如，您可以重复或删除项目。
+在列表中，您可以对每个元素执行基本操作。 例如，您可以重复或删除项目。
 
 ![](assets/journey4.png)

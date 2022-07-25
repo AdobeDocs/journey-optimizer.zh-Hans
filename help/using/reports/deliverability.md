@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ ISP通常以一种突出的方式将收到的消息报告为垃圾邮件。 这�
 的 **[!UICONTROL Executions]** 利用消息列表的选项卡，可通过一组实时指示器检查投放的执行情况。 此选项卡还显示：
 * 成功执行、发送和发送的消息数。
 * 已打开的消息数量和已点击的消息/链接数量。
-
-[了解有关监视消息执行的更多信息](message-monitoring.md).
 
 ## 调整消息内容 {#adapt-message-content}
 

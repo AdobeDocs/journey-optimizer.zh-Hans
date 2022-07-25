@@ -2,7 +2,7 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 98%
@@ -30,7 +30,7 @@ ht-degree: 98%
 * 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
-* “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../messages/send-time-optimization.md)
 * Batch Decisioning API已添加到可用API列表中，以交付个性化优惠。 [了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
@@ -139,7 +139,7 @@ ht-degree: 98%
 * 更新了使用动态 URL 路径和动态标头进行自定义操作的配置过程。[了解更多信息](../action/about-custom-action-configuration.md#url-configuration)
 * 添加了关于辅助功能和快捷键的部分。[了解更多信息](../start/user-interface.md#accessibility)
 * 添加了有关区段评估方法的章节。[了解更多信息](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/email-global-report.md)
+* 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/global-report.md)
 * 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../configuration/allow-list.md#reporting)
 * 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/message-presets.md#monitor-message-presets)

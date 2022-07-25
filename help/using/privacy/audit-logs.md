@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 | AJO 登陆页面预设 | 创建/删除/更新 |
 | AJO 登陆页面子域 | 创建/删除/更新 |
 | AJO 消息 | 创建/删除/更新/发布 |
-| AJO 消息预设 | 创建/删除/更新 |
+| AJO通道表面 | 创建/删除/更新 |
 | AJO PTR 记录 | 创建/删除/更新 |
 | AJO 保存的表达式模板 | 创建/删除/更新 |
 | AJO SMS API 凭据 | 创建/删除/更新 |

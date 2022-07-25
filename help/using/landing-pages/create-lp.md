@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->如果取消发布在未发布消息中引用的登陆页面，则在再次发布登陆页面之前，无法发布该消息。 如果消息已发布，则指向登陆页面的链接将被损坏，并显示错误页面。
+>如果取消发布在未发布消息中引用的登陆页面，则指向登陆页面的链接将断开，并显示错误页面。
 
 单击登陆页面旁边的三个圆点，以选择所需的操作。
 

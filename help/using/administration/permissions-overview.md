@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 23%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 23%
 
 * **[!UICONTROL Product profile]**:一组统一的权限，允许用户访问界面中的特定功能或对象。 请参阅 [开箱即用的产品配置文件](ootb-product-profiles.md) 部分
 
-* **[!UICONTROL Permissions]**:统一的权限，用于定义分配给的授权 **[!UICONTROL Product profile]**. 每个权限都通过历程、消息或选件等功能收集，这些功能表示 [!DNL Journey Optimizer]. 请参阅 [权限级别](high-low-permissions.md) 中。
+* **[!UICONTROL Permissions]**:统一的权限，用于定义分配给的授权 **[!UICONTROL Product profile]**. 每个权限都通过功能(例如历程或选件)收集，这些功能或选件表示 [!DNL Journey Optimizer]. 请参阅 [权限级别](high-low-permissions.md) 中。
 
 * **[!UICONTROL Sandbox]**:将实例分区为单独的孤立虚拟环境的虚拟沙箱。 请参阅 [使用沙箱](sandboxes.md)
 

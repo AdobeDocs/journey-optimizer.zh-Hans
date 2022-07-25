@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 >
 >预览消息或发送校样时，只显示用户档案个性化数据。 基于上下文数据（如事件信息）的个性化只能在历程的上下文中进行测试。 了解如何在 [此用例](../personalization/personalization-use-case.md).
 
-➡️ [在此视频中了解如何预览、校样和发布电子邮件](#video-preview)
+➡️ [在此视频中了解如何预览和校样电子邮件](#video-preview)
 
 ## 选择测试用户档案{#select-test-profiles}
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 要选择测试用户档案，请执行以下步骤：
 
-1. 在消息界面或电子邮件设计器中，单击 **[!UICONTROL Show preview]** 按钮以访问测试用户档案选择。
+1. 在消息界面或电子邮件设计器中，单击 **[!UICONTROL Simulate Content]** 按钮以访问测试用户档案选择。
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
    ![](assets/preview-email-namespace.png)
 
-1. 输入值以标识测试用户档案，然后单击 **[!UICONTROL Find test profile]**.
+1. 输入值以标识测试用户档案，然后单击 **[!UICONTROL Add profile]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ ht-degree: 3%
 
 一次 [测试用户档案](#select-test-profiles) ，则可以预览消息并检查内容。
 
-1. 单击 **[!UICONTROL Preview]** 选项卡来测试消息。
+### 电子邮件预览{#preview-email}
+
+要预览电子邮件内容，请执行以下步骤：
+
+1. 单击 **[!UICONTROL Simulate content]** 按钮。
 
 1. 选择测试用户档案。 您可以检查列中可用的值。 使用右/左箭头浏览数据。
 
@@ -103,11 +107,15 @@ ht-degree: 3%
 
 1. 选择其他测试用户档案，以预览消息每个变体的电子邮件呈现。
 
-对于推送通知预览：
+### 推送预览{#preview-push}
 
-1. 切换到 **[!UICONTROL Push]** 渠道 **[!UICONTROL Channels]** 下拉列表 **[!UICONTROL Preview]** 屏幕。
+要预览推送通知内容，请执行以下步骤：
 
-   ![](assets/preview-select-channel.png)
+1. 单击 **[!UICONTROL Simulate content]** 按钮。
+
+1. 选择测试用户档案。 您可以检查列中可用的值。 使用右/左箭头浏览数据。
+
+1. 切换到 **[!UICONTROL Push]** 消息。
 
 1. 应用与上述步骤相同的步骤来选择测试用户档案，然后选择要预览内容的设备类型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
@@ -188,6 +196,6 @@ ht-degree: 3%
 
 ## 操作方法视频{#video-preview}
 
-了解如何跨收件箱测试电子邮件呈现，如何根据测试资料预览个性化电子邮件、发送验证和发布电子邮件。
+了解如何在收件箱中测试电子邮件渲染，如何根据测试用户档案预览个性化电子邮件并发送校样。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

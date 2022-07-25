@@ -6,9 +6,9 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '722'
 ht-degree: 14%
 
 ---
@@ -57,15 +57,15 @@ ht-degree: 14%
 
 有关用户管理的更多信息，请参阅 [Admin Console文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-访问实例时，您的用户将看到一个特定视图，具体取决于 **[!UICONTROL Product profile]**. 如果用户无权访问某项功能，则将显示以下屏幕。
+访问实例时，您的用户将看到一个特定视图，具体取决于 **[!UICONTROL Product profile]**. 如果用户无权访问某项功能，将显示以下消息：
 
-![](assets/do-not-localize/access_control_1.png)
+`You don't have permission to access this feature. Permission needed: XX.`
 
 ## 编辑现有产品配置文件 {#edit-product-profile}
 
 用于现成或自定义 **[!UICONTROL Product profiles]**，您可以随时决定添加或删除权限。
 
-在本例中，我们要添加 **[!UICONTROL Permissions]** 与 **[!UICONTROL Message]** 为分配给历程查看器的用户提供的功能 **[!UICONTROL Product profile]**. 随后，用户将能够发布消息。
+在本例中，我们要添加 **[!UICONTROL Permissions]** 与 **[!UICONTROL Journeys]** 为分配给历程查看器的用户提供的功能 **[!UICONTROL Product profile]**. 随后，用户将能够发布历程。
 
 请注意，如果您修改了现成的或自定义 **[!UICONTROL Product profile]**，它会影响分配给此的每个用户 **[!UICONTROL Product profile]**.
 
@@ -79,21 +79,17 @@ ht-degree: 14%
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. 选择 **[!UICONTROL Messages]** 功能。
+1. 选择 **[!UICONTROL Journeys]** 功能。
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. 从 **[!UICONTROL Available Permission Items]** 列表中，选择要分配给 **[!UICONTROL Product profile]** 单击加号(+)图标。
 
-   在此，我们将 **[!UICONTROL Publish messages]** 权限。
-
-   ![](assets/do-not-localize/access_control_7.png)
+   在此，我们将 **[!UICONTROL Publish Journeys]** 权限。
 
 1. 如果需要，请在 **[!UICONTROL Included Permission Items]** 下，单击删除您的产品用户档案权限旁边的 X 图标。
 
 1. 完成后，单击 **[!UICONTROL Save]**。
-
-   ![](assets/do-not-localize/access_control_8.png)
 
 如果需要，您还可以创建具有特定权限的新产品用户档案。 有关更多信息，请参阅 [创建产品用户档案](#create-product-profile).
 
@@ -103,7 +99,7 @@ ht-degree: 14%
 
 有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-在本例中，我们将创建一个名为 **历程只读** 我们将为历程功能授予只读权限。 用户将只能访问和查看历程，并且将无法访问其他功能，例如 **[!DNL  Decision management]** 或 **[!DNL Messages]** in [!DNL Journey Optimizer].
+在本例中，我们将创建一个名为 **历程只读** 我们将为历程功能授予只读权限。 用户将只能访问和查看历程，并且将无法访问其他功能，例如 **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
 创建 **历程只读** **[!UICONTROL product profiles]**:
 
@@ -125,7 +121,7 @@ ht-degree: 14%
 
 1. 要为用户添加访问不同功能的权限，请选择 **[!UICONTROL Permissions]** 选项卡。
 
-1. 在不同的功能(例如 **[!DNL Messages]**, **[!DNL Segments]** 或 **[!DNL Decision management]** 可用 [!DNL Journey Optimizer] 在左侧菜单中列出。
+1. 在不同的功能(例如 **[!DNL Journeys]**, **[!DNL Segments]** 或 **[!DNL Decision management]** 可用 [!DNL Journey Optimizer] 在左侧菜单中列出。
 
    在此，我们选择 **[!UICONTROL Journeys]** 功能。
 

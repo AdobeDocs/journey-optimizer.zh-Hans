@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -65,10 +65,7 @@ ht-degree: 1%
 
    如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
 
-1. 根据需要，使用 **[!UICONTROL Components settings]** 菜单。 [了解有关组件设置的更多信息](content-components.md)
-
-创建并个性化消息后，您可以将其发布以供执行。 [了解详情](../messages/publish-manage-message.md)
-
+1. 根据需要，使用 **[!UICONTROL Components settings]** 菜单。 [了解有关组件设置的更多信息](content-components.md).
 
 ## 从获取许可证 [!DNL Adobe Stock] {#license-stock-image}
 

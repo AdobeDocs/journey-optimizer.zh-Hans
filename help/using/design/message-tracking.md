@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 启用跟踪 {#enable-tracking}
 
-您可以通过检查 **[!UICONTROL Open Tracking for email]** 和/或 **[!UICONTROL Click Tracking for email]** 选项时间 [创建消息](../messages/get-started-content.md).
+您可以通过检查 **[!UICONTROL Email opens]** 和/或 **[!UICONTROL Click on email]** 选项时间 [创建消息](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ ht-degree: 5%
 
 这样，您就可以通过以下方式跟踪收件人的行为：
 
-* **[!UICONTROL Open Tracking for email]**:已打开的消息。
-* **[!UICONTROL Click Tracking for email]**:单击电子邮件中的链接。
+* **[!UICONTROL Email opens]**:已打开的消息。
+* **[!UICONTROL Click on email]**:单击电子邮件中的链接。
 
 ## 插入链接 {#insert-links}
 
@@ -52,13 +52,13 @@ ht-degree: 5%
 
    * **[!UICONTROL Landing page]**:插入指向登陆页面的链接。 [在本节](../landing-pages/get-started-lp.md)中了解详情
 
-   * **[!UICONTROL One click Opt-out]**:插入链接，使用户能够快速退订您的通信，而无需确认选择退订。 在 [此部分](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL One click Opt-out]**:插入链接，使用户能够快速退订您的通信，而无需确认选择退订。 有关详细信息，请参阅[此部分](../messages/consent.md#one-click-opt-out)。
 
    * **[!UICONTROL External Opt-in/Subscription]**:插入一个链接以接受从您的品牌接收通信。
 
    * **[!UICONTROL External Opt-out/Unsubscription]**:插入链接以取消订阅从您的品牌接收通信。 在[此部分中](../messages/consent.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
-   * **[!UICONTROL Mirror page]**:插入链接以在Web浏览器中显示电子邮件内容。 在 [此部分](#mirror-page).
+   * **[!UICONTROL Mirror page]**:插入链接以在Web浏览器中显示电子邮件内容。 有关详细信息，请参阅[此部分](#mirror-page)。
 
    ![](assets/message-tracking-links.png)
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含 [选择退出链接](../messages/consent.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [消息预设级别](../configuration/message-presets.md#email-type) 和时间 [创建消息](../messages/get-started-content.md#create-new-message).
+>营销类型的电子邮件必须包含 [选择退出链接](../messages/consent.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息预设）级别和时间 [创建消息](../messages/get-started-content.md#create-new-message).
 
 ## 链接到镜像页面 {#mirror-page}
 
@@ -122,6 +122,4 @@ ht-degree: 5%
    * **[!UICONTROL Mirror page]**:将此URL视为镜像页面URL。
    * **[!UICONTROL Never]**:从不激活此URL的跟踪。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-已打开的消息数和已单击的链接数将列在 [“执行”选项卡](../reports/message-monitoring.md).
-
-在 [电子邮件实时报表](../reports/email-live-report.md) 和 [电子邮件全局报告](../reports/email-global-report.md).
+在 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).

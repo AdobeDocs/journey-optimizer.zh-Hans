@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 2%
+source-wordcount: '730'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 授权、产品限制和性能护栏列在 [Adobe Journey Optimizer产品描述页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。
 
-在下面，您将看到使用 [!DNL Adobe Journey Optimizer].
+下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
 
 ## 消息护栏 {#message-guardrails}
 
@@ -47,10 +47,6 @@ ht-degree: 2%
 * 不能并行放置两个操作，必须先添加一个，然后再添加另一个操作。
 * 今天的历程存在技术限制，致使用户档案无法在同一历程中同时出现多次。 用户档案仍可以重新进入旅程（基于设置），但只有在完全退出该历程的上一个实例后才能重新进入该历程。
 * 在大多数情况下，同一历程中不能同时存在多个用户档案。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解详情](../building-journeys/journey-end.md)
-
-### 消息操作 {#message-action-g}
-
-* 添加多渠道消息时，将发送两条消息。
 
 ### 历程版本 {#journey-versions-g}
 

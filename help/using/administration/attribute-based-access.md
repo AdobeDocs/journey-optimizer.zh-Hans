@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 2%
 **[!UICONTROL Roles]** 是您组织内共享相同权限、标签和沙箱的一组用户。 每个用户属于 **[!UICONTROL Role]** 有权使用产品中包含的Adobe应用程序和服务。
 您还可以创建自己的 **[!UICONTROL Roles]** 如果您想要优化用户对界面中特定功能或对象的访问权限。
 
-我们现在要向选定用户授予 **国籍** 字段，标记为C2。 为此，我们需要创建一个 **[!UICONTROL Role]** 并为他们授予标签C2，以便他们使用 **国籍** 详细信息 **[!UICONTROL Message]** 或 **[!UICONTROL Journey]**.
+我们现在要向选定用户授予 **国籍** 字段，标记为C2。 为此，我们需要创建一个 **[!UICONTROL Role]** 并为他们授予标签C2，以便他们使用 **国籍** 详细信息 **[!UICONTROL Journey]**.
 
 1. 从 [!DNL Permissions] 产品，选择 **[!UICONTROL Role]** 从左窗格菜单中，单击 **[!UICONTROL Create role]**. 请注意，您还可以 **[!UICONTROL Label]** 内置角色。
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 
    ![](assets/role_9.png)
 
-1. 选择 **[!UICONTROL Labels]** 要添加到您的角色并单击 **[!UICONTROL Save]**. 在本例中，我们将为用户授予标签C2，以便其有权访问以前受限架构的字段。
+1. 选择 **[!UICONTROL Labels]** 要添加到您的角色并单击 **[!UICONTROL Save]**. 在本例中，我们为用户授予标签C2，以便有权访问以前受限架构的字段。
 
    ![](assets/role_4.png)
 

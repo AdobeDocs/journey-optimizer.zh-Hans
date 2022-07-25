@@ -3,13 +3,13 @@ title: 使用API触发营销活动
 description: 了解如何使用 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 3%
 
 ---
-
 
 # 使用API触发营销活动 {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
 1. 使用 **[!UICONTROL API-triggered]** 类型。
 
-1. 选择要用于发送消息的渠道和消息界面，然后单击 **[!UICONTROL Create]**.
+1. 选择要用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
 

@@ -4,10 +4,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 8%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。
 
-发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer [创建短信预设](#message-preset-sms). 这些步骤必须由 [Adobe Journey Optimizer系统管理员](../start/path/administrator.md).
+发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer [创建短信界面](#message-preset-sms) （即短信预设）。 这些步骤必须由 [Adobe Journey Optimizer系统管理员](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >
->短信渠道当前仅适用于一组组织（有限可用性）。 有关更多信息，请联系您的Adobe代表。
+>目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
 ## 创建新API凭据 {#create-api}
 
@@ -42,19 +42,19 @@ ht-degree: 3%
 
 1. 单击 **[!UICONTROL Submit]** 完成API凭据的配置时，覆盖分类。
 
-现在，创建和配置API凭据后，您需要为短信消息创建消息预设。
+现在，创建和配置API凭据后，您需要为短信消息创建渠道表面（即消息预设）。
 
-## 为短信消息创建消息预设 {#message-preset-sms}
+## 为短信消息创建渠道表面 {#message-preset-sms}
 
-配置短信渠道后，您需要创建消息预设，以便能够从 **[!DNL Journey Optimizer]**.
+配置短信渠道后，您需要创建渠道表面，以便能够从 **[!DNL Journey Optimizer]**.
 
-要创建消息预设，请执行以下步骤：
+要创建通道曲面，请执行以下步骤：
 
-1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** 菜单，然后单击 **[!UICONTROL Create Message preset]**.
+1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** 菜单，然后单击 **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. 为预设输入名称和描述（可选），然后选择短信渠道。
+1. 为界面输入名称和描述（可选），然后选择短信渠道。
 
    ![](assets/sms_preset.png)
 
@@ -66,9 +66,9 @@ ht-degree: 3%
 
    ![](assets/preset-sms.png)
 
-   * 选择 **[!UICONTROL SMS Type]** 将随预设一起发送： **[!UICONTROL Transactional]** 或 **[!UICONTROL Marketing]**.
+   * 选择 **[!UICONTROL SMS Type]** 将随表面一起发送： **[!UICONTROL Transactional]** 或 **[!UICONTROL Marketing]**.
 
-   * 选择 **[!UICONTROL SMS configuration]** 与预设关联。
+   * 选择 **[!UICONTROL SMS configuration]** 与表面相关。
 
       有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](#create-api).
 
@@ -76,17 +76,17 @@ ht-degree: 3%
 
    * 选择 **[!UICONTROL SMS Execution Field]** 选择 **[!UICONTROL Profile attribute]** 与用户档案的电话号码关联。
 
-1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将消息预设另存为草稿，稍后恢复其配置。
+1. 配置所有参数后，单击 **[!UICONTROL Submit]** 确认。 您还可以将通道曲面另存为草稿，并稍后恢复其配置。
 
    ![](assets/sms_preset_2.png)
 
-1. 创建消息预设后，该消息预设会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
+1. 创建通道曲面后，该曲面会显示在列表中，其中 **[!UICONTROL Processing]** 状态。
 
    >[!NOTE]
    >
    >如果检查失败，请在 [此部分](#monitor-message-presets).
 
-1. 检查成功后，消息预设将获取 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
+1. 检查成功后，通道曲面将 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 
    ![](assets/preset-active.png)
 

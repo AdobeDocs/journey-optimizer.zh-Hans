@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '402'
 ht-degree: 15%
 
 ---
@@ -20,14 +20,15 @@ ht-degree: 15%
 >title="创建短信"
 >abstract="添加文本消息，然后使用表达式编辑器对其进行个性化设置。"
 
-一旦 [已创建消息](get-started-content.md)，则使用 **[!UICONTROL SMS]** 选项卡，以定义短信消息的设置和内容。
+使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
 
+一旦 [添加了短信](get-started-content.md) 活动，并定义基本设置，请使用 **[!UICONTROL Actions: SMS]** 用于创建短信消息内容的右窗格。
 
 >[!AVAILABILITY]
 >
 >目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
-![](assets/sms_1.png)
+![](assets/sms-edit-content.png)
 
 如果您是首次创建短信消息，请确保已配置短信渠道。 [了解详情](../configuration/sms-configuration.md)。
 
@@ -35,33 +36,27 @@ ht-degree: 15%
 
 要开始个性化短信消息，请执行以下步骤：
 
-1. 单击 **[!UICONTROL Add text message]** 字段来打开表达式编辑器。
+1. 单击 **[!UICONTROL Message]** 字段来打开表达式编辑器。
 
-   ![](assets/sms_3.png)
+   ![](assets/sms-content.png)
 
-1. 使用表达式编辑器定义内容。 您可以使用任何属性来个性化内容，例如配置文件名称或城市。 在的表达式编辑器中了解有关个性化的更多信息 [此部分](../personalization/personalize.md)
+1. 使用表达式编辑器定义内容。 您可以使用任何属性来个性化内容，例如配置文件名称或城市。 在的表达式编辑器中了解有关个性化的更多信息 [此部分](../personalization/personalize.md).
 
-   >[!NOTE]
-   >
-   > 短信消息最多可包含160个字符，包括空格和换行符。
+1. 单击 **[!UICONTROL Save]** 并在预览中查看您的消息。
 
-   ![](assets/sms_2.png)
+   ![](assets/sms-content-preview.png)
 
-1. 单击 **[!UICONTROL Save]** 消息准备就绪时。
 
 ## 验证短信{#sms-preview}
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-要显示您的短信消息在移动设备上的显示方式，请浏览至 **[!UICONTROL Preview]** 选项卡。
+要可视化显示您的短信消息在移动设备上的显示方式，请单击 **[!UICONTROL Simulate content]** 选项卡。 进一步了解 [此部分](../design/preview.md).
 
-有关详细信息，请参阅[此部分](../design/preview.md)。
+您还必须检查编辑器上部的警报。  其中一些是简单的警告，但其他警告可能会阻止您使用消息。 有关详细信息，请参阅[此部分](alerts.md)。
 
-## 发布短信 {#sms-publish}
+![](assets/sms-alert-button.png)
 
-消息准备就绪后，您可以将其发布，以供使用 **[!UICONTROL Publish]** 按钮。 此操作会发布新版本的消息，该消息将用于您的历程中的下一次执行。
-
-您的短信消息现在可用于历程。 [了解如何创建历程](../building-journeys/journey-gs.md).
 
 ## 选择启用和选择禁用{#sms-opt-in-out}
 
@@ -73,12 +68,13 @@ ht-degree: 15%
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
-## 操作方法视频
+<!--
+## How-to video
 
-了解如何配置、创作短信消息，并将其包含在客户历程中。
+Learn how to configure, author, and include SMS messaging into your customer journeys.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
-
+-->
 **相关主题**
 
 * [配置短信渠道](../configuration/sms-configuration.md)

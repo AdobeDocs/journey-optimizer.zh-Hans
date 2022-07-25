@@ -3,9 +3,9 @@ title: Journey Optimizer数据工程师入门
 description: 作为数据工程师，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 8%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 8%
 
 * **事件** 允许您一直触发旅程，以实时向流入旅程的个人发送消息。 在事件配置中，您可以配置历程中预期的事件。 传入事件的数据按照Adobe体验数据模型(XDM)进行标准化。 事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。进一步了解事件 [在此部分中](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] 附带内置消息功能：您可以设计内容并发布消息。 如果您使用第三方系统来发送消息，例如Adobe Campaign，请创建 **自定义操作**. 了解有关此中操作的更多信息 [在此部分中](../../action/action.md).
+* [!DNL Journey Optimizer] 附带内置消息功能：您可以在历程中创建消息并设计内容。 如果您使用第三方系统来发送消息，例如Adobe Campaign，请创建 **自定义操作**. 了解有关此中操作的更多信息 [在此部分中](../../action/action.md).

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 8%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 8%
 
    ![](assets/jo-datasource.png)
 
-1. **配置操作**:Journey Optimizer消息功能是内置的，您只需设计内容并发布消息即可。 请参阅[此小节](../messages/get-started-content.md)。如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。
+1. **配置操作**:如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。如果您使用的是Journey Optimizer内置的消息功能，则只需在历程中添加渠道操作并设计内容即可。 请参阅[此小节](../messages/get-started-content.md)。
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## 构建历程{#jo-build}
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
    ![](assets/read-segment.png)
 
-1. 拖放个人将遵循的后续步骤。 例如，您可以添加一个条件，后跟一条消息。 要进一步了解活动，请参阅 [此部分](using-the-journey-designer.md).
+1. 拖放个人将遵循的后续步骤。 例如，您可以添加一个条件，后跟一个渠道操作。 要进一步了解活动，请参阅 [此部分](using-the-journey-designer.md).
 
 1. 使用测试用户档案测试您的历程。 在中了解详情 [部分](testing-the-journey.md)
 

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,24 @@ ht-degree: 0%
 
 对于此用例，需要满足以下先决条件：
 
-* 创建和设计推送通知消息，而不发布。 请参阅 [部分](../messages/get-started-content.md).
 * 配置订单事件，包括订单编号、状态和物料名称。 请参阅 [部分](../event/about-events.md).
 * 创建决策，请参阅 [部分](../offers/offer-activities/create-offer-activities.md).
 
-## 第1步 — 在用户档案中添加个性化 {#add-perso}
+## 步骤1 — 创建历程 {#create-journey}
 
-1. 单击 **[!UICONTROL Message]** ，然后选择您的消息。
+1. 单击 **[!UICONTROL Journeys]** 菜单，并创建新历程。
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. 添加您的登入事件和 **推送** 操作活动。
+
+   ![](assets/perso-uc5.png)
+
+1. 配置和设计推送通知消息。 请参阅 [部分](../messages/get-started-content.md).
+
+## 第2步 — 在用户档案中添加个性化 {#add-perso}
+
+1. 在 **推送** 活动，单击 **编辑内容**.
 
 1. 单击 **标题** 字段。
 
@@ -43,45 +52,15 @@ ht-degree: 0%
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >留言稿。 尚未发布。
-
-## 第2步 — 创建历程 {#create-journey}
-
-1. 单击 **[!UICONTROL Journeys]** 菜单，并创建新历程。
-
-   ![](assets/perso-uc4.png)
-
-1. 添加您的登入事件和 **消息** 活动。
-
-   ![](assets/perso-uc5.png)
-
-1. 在 **消息** 活动，选择之前创建的消息。 单击 **确定**.
-
-   ![](assets/perso-uc6.png)
-
-   将显示一条消息，通知您条目事件数据和历程属性已传递到消息。
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >此时将显示一条警告图标的消息。 这是因为消息尚未发布。
-
 ## 步骤3 — 基于上下文数据添加个性化 {#add-perso-contextual-data}
 
-1. 从 **消息** 活动，单击 **打开消息** 图标。 此时将在新选项卡中打开消息。
-
-   ![](assets/perso-uc8.png)
-
-1. 单击 **标题** 字段。
+1. 在 **推送** 活动，单击 **编辑内容** ，然后单击 **标题** 字段。
 
    ![](assets/perso-uc9.png)
 
 1. 选择 **上下文属性** 菜单。 仅当历程将上下文数据传递到消息时，上下文属性才可用。 单击 **Journey Orchestration**. 将显示以下上下文信息：
 
-   * **事件**:此类别会重组置于之前事件的所有字段 **消息** 活动。
+   * **事件**:此类别会重组历程中渠道操作活动之前放置的事件中的所有字段。
    * **历程属性**:与给定用户档案的历程相关的技术字段，例如历程ID或遇到的特定错误。 在 [Journey Orchestration文档](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ ht-degree: 0%
 
    ![](assets/perso-uc15.png)
 
-1. 现在，发布消息。
-
-   ![](assets/perso-uc16.png)
-
 ## 第4步 — 测试和发布历程 {#test-publish}
 
-1. 再次打开历程。 如果历程已打开，请确保刷新页面。 现在，消息已发布，您可以看到历程中没有错误。 单击 **测试** 按钮，然后单击 **触发事件**.
+1. 单击 **测试** 按钮，然后单击 **触发事件**.
 
    ![](assets/perso-uc17.png)
 

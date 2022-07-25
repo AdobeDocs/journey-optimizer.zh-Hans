@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,11 @@ ht-degree: 0%
 使用 **[!UICONTROL Live report]** 可在内置仪表板中实时测量和显示历程和消息的影响和性能。
 数据在 **[!UICONTROL Live report]** 发送投放或执行历程后。
 
-* 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL Journeys]** 菜单，访问您的历程并单击 **[!UICONTROL Live report]** 图标。 然后，您可以找到历程、电子邮件和推送实时报表。
+* 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL Journeys]** 菜单，访问您的历程并单击 **[!UICONTROL View report]** 按钮。 然后，您可以找到历程、电子邮件、短信和推送实时报表。
 
    ![](assets/report_journey.png)
 
-* 如果要定位特定投放，请从 **[!UICONTROL Live view]** 的 **[!UICONTROL Executions]** ，选择 **[!UICONTROL Live Report]** ，您可以从选定投放的高级菜单访问该页面。
-
-   ![](assets/report_2.png)
-
-* 如果要从 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 对于投放，单击 **[!UICONTROL Global view]** 切换器。
+* 如果要从 **[!UICONTROL Live report]** 到 **[!UICONTROL Live report]** 对于投放，单击 **[!UICONTROL Live view]** 切换器。
 
    ![](assets/report_3.png)
 

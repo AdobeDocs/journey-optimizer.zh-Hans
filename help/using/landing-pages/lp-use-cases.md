@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 18%
+source-wordcount: '888'
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,11 @@ ht-degree: 18%
 
 1. [发布](create-lp.md#publish) 登陆页面。
 
-1. [创建电子邮件](../messages/get-started-content.md) 以宣布注册现已对您的活动开放。
+1. 在 [历程](../building-journeys/journey.md)，添加 **电子邮件** 活动，以引导流量进入注册登陆页面。
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [设计电子邮件](../messages/get-started-content.md) 以宣布注册现已对您的活动开放。
 
 1. [插入链接](../design/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL Landing page]** 作为 **[!UICONTROL Link type]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
@@ -55,13 +59,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >要发布消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
-
-1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
-
-1. 通过 [历程](../building-journeys/journey.md) 将流量引导至注册登陆页面。
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >要发送消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
 
    收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“谢谢”页面，并被添加到订阅列表。
 
@@ -79,7 +77,7 @@ ht-degree: 18%
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. 选择您选择的确认电子邮件，并通过历程发送该电子邮件。
+1. 添加您选择的确认电子邮件，并在历程中发送该电子邮件。
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ ht-degree: 18%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [创建电子邮件](../messages/get-started-content.md) in [!DNL Journey Optimizer].
+1. [创建电子邮件](../messages/get-started-content.md) 在旅程中。
 
 1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../design/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
 
@@ -140,11 +138,9 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >要发布消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
+   >要发送消息，请确保您选择的登陆页面尚未过期。 了解如何更新到期日期 [在此部分中](create-lp.md#configure-primary-page).
 
-1. 保存您的内容并[发布您的消息](../messages/publish-manage-message.md)。
-
-1. 通过历程发送您的消息。 [了解详情](../building-journeys/journey.md)。
+1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
 
 1. 收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
 

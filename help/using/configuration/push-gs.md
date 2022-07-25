@@ -6,10 +6,10 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 3%
+source-wordcount: '680'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 1. 在Apple的APNs和Google FCM推送消息服务中注册您的品牌移动应用程序(Android或iOS)
 1. 消息传送服务会生成推送令牌，该令牌是 [!DNL Adobe Journey Optimizer] 将用于通过推送通知来定位特定设备。
 1. 之前生成的推送令牌将传递到Adobe Experience Platform并与实时客户资料同步；这是通过OOTB与易于集成的客户端SDK来完成的
-1. 在中创作推送消息 [!DNL Adobe Journey Optimizer]，则会根据消息预设创建推送消息
+1. 在中创作推送消息 [!DNL Adobe Journey Optimizer]，则会根据渠道表面（即，消息预设）创建推送消息
 1. 推送消息可能包含在编排画布上的历程
 1. 在历程发布后，基于历程条件的客户用户档案将被鉴定为接收推送通知，在此步骤中将个性化推送消息负载
 1. 个性化推送负载被转发到内部推送消息传递服务
@@ -54,7 +54,7 @@ ht-degree: 3%
    * 创建客户端移动资产并添加扩展。 SDK与这些扩展紧密集成，以提供无缝的数据收集体验。
    * 注册移动设备应用程序包标识符和应用程序凭据
 
-* **Adobe Experience Platform实时客户资料**  通过整合来自多个渠道（包括web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。 利用用户档案，可将客户数据整合到统一视图中，为每次客户互动提供一个加盖时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [进一步了解Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+* **Adobe Experience Platform实时客户资料**  通过整合来自多个渠道（包括web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。 档案允许您将您的客户数据整合到一个统一视图中，并提供每个客户交互的带时间戳的可操作帐户。给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知进行的交互将作为时间序列事件数据进行跟踪。 [进一步了解Adobe Experience Platform实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 * **[!DNL Adobe Journey Optimizer]** :当您的移动设备应用程序与上述组件的集成到位且客户配置文件位于Adobe Experience Platform中后，您便可以在 [!DNL Adobe Journey Optimizer] 以与用户互动。
 

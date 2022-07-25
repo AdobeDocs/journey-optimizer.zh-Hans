@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
@@ -49,8 +50,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## “电子邮件”选项卡 {#email-global}
 
 从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Email]** 选项卡详细列出了与营销活动中发送的电子邮件投放相关的主要信息。
-
-有关特定电子邮件投放的详细报告，请参阅 [电子邮件全局报告](../reports/email-global-report.md) 中。
 
 的 **[!UICONTROL Email Sending Statistics]** 图形详细说明了交付的成功：
 
@@ -122,7 +121,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅此 [页面](../building-journeys/journeys-message.md#send-time-optimization).
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [本页](../messages/send-time-optimization.md).
 
 的 **[!UICONTROL Optimized vs non optimized]** 图表详细列出了与消息相关的主要信息（无论消息是否已优化）：
 
@@ -138,8 +137,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## “推送”选项卡 {#push-global}
 
 从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Push]** 选项卡详细列出了与营销活动中发送的推送投放相关的主要信息。
-
-有关特定推送投放的详细报告，请参阅 [推送全局报表](../reports/push-global-report.md).
 
 的 **[!UICONTROL Push notification - Sending statistics]** 表格使用图形和KPI详细列出了与推送通知相关的主要信息：
 
@@ -187,7 +184,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 >[!NOTE]
 >
->的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅此 [页面](../building-journeys/journeys-message.md#send-time-optimization).
+>的 **[!UICONTROL Optimized vs non optimized]** 和 **[!UICONTROL Send time optimization]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [本页](../messages/send-time-optimization.md).
 
 的 **[!UICONTROL Optimized vs non optimized]** 图表详细列出了与消息相关的主要信息（无论消息是否已优化）：
 

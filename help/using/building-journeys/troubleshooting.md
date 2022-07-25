@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1009'
 ht-degree: 81%
 
 ---
@@ -83,6 +83,6 @@ ht-degree: 81%
 如果人员在历程中以正确的方式流动，但没有收到他们应该收到的消息，您可以检查：
 
 * [!DNL Journey Optimizer] 正确考虑了发送消息的请求。 企业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间相对应。 他们还可以检查收到的最新API调用/事件。
-* [!DNL Journey Optimizer] 已成功发送消息。 在消息的发送日志中，您可以查看每次执行的状态。 您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
+* [!DNL Journey Optimizer] 已成功发送消息。 检查历程报告以确保没有错误。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。

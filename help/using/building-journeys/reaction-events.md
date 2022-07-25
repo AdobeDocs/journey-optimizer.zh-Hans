@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '366'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 您还可以使用此机制在消息未受到任何反应时执行操作。 为此，请创建与反应活动平行的第二个路径，并添加等待活动。 如果在等待活动中定义的时间段内没有反应，则将选择第二个路径。 例如，您可以选择发送跟进消息。
 
-请注意，仅当画布中存在 **消息** 活动之前。
+请注意，仅当之前存在渠道操作活动（电子邮件、推送、短信）时，才能在画布中使用反应活动。
 
 请参阅 [关于操作活动](../building-journeys/about-journey-activities.md#action-activities).
 

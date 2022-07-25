@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
-# 从头开始 {#create-email-content}
+# 从零开始 {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -93,4 +93,3 @@ ht-degree: 0%
 
 1. 准备好电子邮件后，单击 **[!UICONTROL Save & Close]**.
 
-您的电子邮件内容现在可用于消息。 [了解如何发送消息](../messages/publish-manage-message.md).

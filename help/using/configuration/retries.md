@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 默认情况下，将对 **3.5天** (或 **84小时**)。
 
-但是，为确保不再需要重试尝试，您可以在创建或编辑 [消息预设](message-presets.md) 应用到电子邮件渠道。
+但是，为确保不再需要重试尝试，您可以在创建或编辑 [通道表面](message-presets.md) （即消息预设）。
 
 例如，对于与密码重置相关并包含仅有效一天的链接的事务型电子邮件，您可以将重试期限设置为24小时。 同样，对于午夜销售，您可能需要定义6小时的重试期限。
 
@@ -61,5 +61,5 @@ ht-degree: 2%
 >
 >重试周期不能超过84小时。 营销电子邮件的最短重试期限为6小时，事务电子邮件的最短重试期限为10分钟。
 
-了解如何在中创建消息预设时调整电子邮件重试参数 [此部分](message-presets.md#create-message-preset).
+了解在中创建渠道表面时如何调整电子邮件重试参数 [此部分](message-presets.md#create-message-preset).
 

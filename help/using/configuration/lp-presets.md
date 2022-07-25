@@ -4,10 +4,10 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
@@ -74,10 +74,10 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
    ![](assets/lp-preset-active-temp.png)
 
 您现在已准备好 [创建登陆页面](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->了解如何在 [此部分](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **相关主题**：
 

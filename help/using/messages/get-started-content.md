@@ -1,137 +1,164 @@
 ---
 title: 消息入门
-description: 了解如何在 Journey Optimizer 中创建、测试和发布个性化的消息
+description: 了解如何在Journey Optimizer中创建和传递个性化消息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 5%
 
 ---
 
-# 消息入门 {#get-started-contents-messages}
+# 渠道操作入门 {#get-started-messages}
 
-使用 [!DNL Journey Optimizer]，在一个单一位置利用资产和内容等多类资源，并创建和发布个性化的推送通知和电子邮件消息。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="渠道操作"
+>abstract="使用渠道操作发送推送、短信或电子邮件消息。"
 
-* 利用[!DNL Journey Optimizer] **电子邮件设计功能**&#x200B;来创建或导入响应式电子邮件。
+使用 [!DNL Journey Optimizer] 创建和投放个性化的推送通知、短信和电子邮件消息。 在历程画布上的操作中，所有消息均可以内嵌编辑。  使用另存为模板功能可轻松重复使用您的内容。 您可以：
 
-* 利用 **Adobe Experience Manager Assets Essentials** 构建您自己的资产数据库，并丰富您的电子邮件。
+* 使用 [!DNL Journey Optimizer] **电子邮件设计功能** 创建或导入响应式电子邮件。
 
-* 根据客户的用户档案属性创建&#x200B;**个性化的推送和电子邮件消息**&#x200B;以增强客户体验。
+* 利用 **Adobe Experience Manager Assets Essentials** 要扩充您的电子邮件，请构建和管理您自己的资产数据库。
 
-* 根据这些内容&#x200B;**创建推送和电子邮件消息**，然后发布。
+* 查找 **Adobe Stock照片** 以构建内容并改进电子邮件设计。
 
-## 访问消息 {#access-messages}
+* 通过创建个性化的 **推送通知、短信和电子邮件** 基于其用户档案属性。
 
-可通过左侧导航栏的 **[!UICONTROL Messages]** 快捷方式访问消息。将列出所有消息，并按发布日期（适用于已发布的消息）或创建日期（适用于草稿消息）排序。
+* **发送投放** 并跟踪客户行为。
 
 >[!NOTE]
 >
->用户可以访问、创建、编辑和/或发布消息，具体取决于其产品用户档案。[在此部分中](../administration/permissions.md)了解有关用户权限的更多信息。
+>用户可以访问、创建、编辑和/或发布历程，具体取决于其产品配置文件。 [在此部分中](../administration/permissions.md)了解有关用户权限的更多信息。
 
-![](assets/messages-list.png)
 
-* 使用 **[!UICONTROL Show recents]** 切换开关可以添加您最近 5 天访问的消息的直达链接。
+## 在您的历程中添加消息{#messages-in-journeys}
 
-   ![](assets/show-recent-messages.png)
+>[!CONTEXTUALHELP]
+>id="ajo_message_category"
+>title="消息类别"
+>abstract="为商业消息选择营销，或为非商业消息选择事务型，如订单确认、密码重置通知或投放信息"
 
-* 使用过滤器图标可仅显示草稿、已发布或正在发布的消息。您还可以按消息标签进行搜索，如下所示：
+>[!CONTEXTUALHELP]
+>id="ajo_message_surface"
+>title="通道表面"
+>abstract="渠道表面是该渠道的一个实例，具有通过营销活动或历程成功交付操作的所有设置。 它由系统管理员定义。"
 
-   ![](assets/filter-messages.png)
+要在您的历程中添加消息，只需在历程渠道中添加推送、短信或电子邮件活动。
 
-* 您可以使用快速操作菜单中的专用图标存档未使用的消息以清除消息列表。
+1. 通过 [事件](../building-journeys/general-events.md) 或 [读取区段](../building-journeys/read-segment.md) 活动。
 
-   ![](assets/archive-message.png)
+1. 从 **操作** ，拖放 **电子邮件**, **短信** 或 **推送** 活动。
 
-   使用过滤器图标显示所有已存档的消息，然后单击 **[!UICONTROL Unarchive]** 图标，从已存档消息列表中删除项目。
+   ![](assets/add-a-message.png)
+
+1. 输入标签和描述。
+
+1. 选择消息 **[!UICONTROL Category]**:选择 **营销** 用于商业报文，或 **事务型** 非商业消息（如订单确认、密码重置通知或投放信息）。
 
    >[!NOTE]
    >
-   >无法打开已存档的消息。必须先取消存档。
+   >如果您定义 [频率规则](../configuration/frequency-rules.md) 对于特定渠道和类别，在选择该渠道和类别时，它们会自动应用于消息。 当前仅 **[!UICONTROL Marketing]** 类别可用于频率规则。
 
-## 创建新消息 {#create-new-message}
+   ![](assets/inline-message-category.png)
 
-要创建新消息，请执行以下步骤：
-
-1. 访问消息列表，然后单击 **[!UICONTROL Create Message]**。
-
-1. 定义消息的属性。
-
-   ![](assets/create-message-properties.png)
-
-   * 输入 **[!UICONTROL Title]**（必填项）和 **[!UICONTROL Description]**。
-
-   * 选择 **[!UICONTROL Message category]**：营销或事务性。
-
-   * 选择要用于该消息的渠道：电子邮件、推送通知和/或短信。您必须至少选择一个渠道才能创建消息。
-   >[!NOTE]
-   >
-   >您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 深入了解[频率规则](../configuration/frequency-rules.md)。
-
-   * 选择用于消息的 **[!UICONTROL Preset]**。
-
-      预设包含根据您的品牌发送电子邮件和/或推送通知所需的所有参数。深入了解[预设](../configuration/message-presets.md)。
    >[!CAUTION]
    >
-   >您必须为选定的类别和渠道选择有效的消息预设。
+   >营销类型的消息必须包含 [选择退出链接](../messages/consent.md#opt-out-management). 事务型消息并非必需的，因为可以将这些消息发送给从营销通信中取消订阅的用户档案。
 
-   请注意，您可以使用消息界面中的 **[!UICONTROL Properties]** 按钮随时访问和修改消息的标题、描述和预设。
+1. 选择渠道 **[!UICONTROL Surface]** （即消息预设）来发送消息。
 
-1. 单击 **[!UICONTROL Create]** 确认消息创建。您的消息会以 **[!UICONTROL Draft]** 状态添加至消息列表中。
+   曲面是由 [系统管理员](../start/path/administrator.md). 它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。 [了解详情](../configuration/message-presets.md)。
 
-   每个所选渠道都对应一个选项卡。使用这些选项卡为每个渠道配置内容。可以通过选择某个选项卡并单击右侧的 **[!UICONTROL Delete channel]** 按钮来删除该选项卡。
-
-   ![](assets/create-messages-content.png)
-
-   <!--
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
-   -->
+   >必须为所选消息类别和渠道选择有效的渠道表面。
 
-   您现在可以创建消息的内容并调整设置。以下部分提供了有关电子邮件和推送通知配置的详细信息：
+   您可以随时使用 **[!UICONTROL Properties]** 按钮。
+
+1. 创建消息内容。
+
+   在以下页面中了解创建消息内容的详细步骤：
 
    * [创建电子邮件](create-email.md)
    * [创建推送通知](create-push.md)
    * [创建短信消息](create-sms.md)
 
-   >[!NOTE]
-   >   
-   >您可以使用表达式编辑器，使用用户档案数据对消息进行个性化设置。有关个性化的更多信息，请参考[此部分](../personalization/personalize.md)。
+## 启用发送时间优化{#sto-in-journeys}
 
-1. 使用左侧的预览部分控制消息的呈现，并使用测试用户档案检查个性化设置。有关详细信息，请参阅[此部分](../design/preview.md)。
+对于电子邮件和推送通知，您可以启用 **[!UICONTROL Send-time optimization]**.
 
-   ![](assets/messages-simple-preview.png)
+使用 **[!UICONTROL Send-time optimization]** 计划每个用户的个性化发送时间，以增加消息的打开率和点击率。 [了解详情](../messages/send-time-optimization.md)。
 
-1. 检查编辑器上部的警报。其中一些是简单的警告，但其他警报可能会阻止您发布消息。有关详细信息，请参阅[此部分](alerts.md)。
 
-1. 您现在可以通过单击 **[!UICONTROL Publish]** 按钮发布消息，或将其保存为草稿并稍后发布。有关如何发布消息的更多信息，请参阅[此部分](publish-manage-message.md)。
+## 高级参数{#adv-settings}
+
+默认情况下，高级参数为只读和隐藏参数。
+
+要访问高级参数，请单击 **[!UICONTROL Show read-only fields]** 图标。
+
+![](assets/show-read-only.png)
+
+高级参数显示在消息窗格的底部。 这些参数由 [系统管理员](../start/path/administrator.md) 在 [通道表面](../configuration/message-presets.md) （即消息预设）。
+
+对于推送通知，您可以显示以下参数：令牌、应用程序ID、应用程序平台。
+
+![](assets/push-adv-parameters.png)
+
+对于电子邮件，您可以显示主电子邮件地址。
+
+为了具体使用，您可以在特定上下文中覆盖这些值。 要强制使用某个值，请单击 **启用参数覆盖** 图标。 此选项可能对以下用户非常有用：
+
+* 测试电子邮件，可添加您的电子邮件地址。 发布历程后，将向您发送电子邮件。
+* 请参阅列表订阅者的电子邮件地址。 在 [此用例](../building-journeys/message-to-subscribers-uc.md).
+
+单击同一图标可重置为默认参数。
+
+
+## 浏览消息{#browse-message}
+
+当历程中使用多条消息时，您可以从 **编辑内容** 屏幕。
+
+![](assets/inline-messages-multi-content.png)
+
+然后，您可以 [检查警报](alerts.md) 和 [模拟](../design/preview.md) 每个内容。
 
 ## 复制消息 {#duplicate-message}
 
-要通过现有消息创建消息，请执行以下步骤。
+您可以从历程画布复制现有消息。
 
-1. 打开要复制的消息。
+要执行此操作，请执行以下步骤：
 
-1. 使用消息界面的 **[!UICONTROL Duplicate]** 按钮。
+1. 选择要复制的消息。
+
+1. 使用 **[!UICONTROL Copy]** 按钮 **[!UICONTROL Action]** 中。
 
    ![](assets/message-duplicate.png)
 
-   所有设置和配置都将复制到新消息中。
+1. 输入 **crtl+V** 来粘贴消息。
 
-1. 您可以在确认复制之前重命名消息。
+   消息将添加到历程卡纳。 所有设置和配置都将复制到新消息中。
 
-   ![](assets/message-duplicate-confirm.png)
+   ![](assets/message-duplicated.png)
 
-1. 创建新消息后，窗口底部会显示确认消息。
+1. 重命名消息以便能够将初始消息与副本区分开，例如在编辑消息时，如下所示：
 
-您还可以使用快捷操作菜单中的专用图标，从消息列表中复制消息。
+   ![](assets/multi-message.png)
 
-![](assets/message-duplicate-from-list.png)
 
-适用同样的确认过程。
+>[!NOTE]
+>
+>对于电子邮件，您还可以将现有消息转换为模板。 [了解详情](../design/email-templates.md)。
 
+## 删除消息
+
+要删除消息，请使用渠道操作活动窗格顶部的垃圾桶图标。
+
+![](assets/delete-message.png)
+
+使用 **[!UICONTROL Confirm]** 按钮进行验证。

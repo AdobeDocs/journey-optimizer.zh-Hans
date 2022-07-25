@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
-workflow-type: ht
-source-wordcount: '1314'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1311'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别（**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**）在[消息预设级别](../configuration/message-presets.md#email-type)和[创建消息](get-started-content.md#create-new-message)时定义。
+>营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息预设）级别和时间 [创建消息](get-started-content.md#create-new-message).
 
 ### 外部选择退出 {#opt-out-external-lp}
 
@@ -55,7 +55,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 1. 在您选择的第三方系统上托管它。
 
-1. 在 [!DNL Journey Optimizer] 上[创建消息](get-started-content.md)。
+1. [创建消息](get-started-content.md) 在旅程中。
 
 1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../design/message-tracking.md#insert-links)。
 
@@ -70,8 +70,6 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
    ![](assets/opt-out-link-url.png)
 
 1. 单击 **[!UICONTROL Save]**。
-
-1. 保存您的内容并[发布您的消息](publish-manage-message.md)。
 
 #### 为选择退出实施 API 调用 {#opt-out-api}
 
@@ -161,7 +159,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
    >[!NOTE]
    >
-   >如果在邮件预设级别启用了 **List-Unsubscribe** 选项，则当用户单击电子邮件标头中的取消订阅链接时，也会使用此 URL。[了解详情](#unsubscribe-header)
+   >如果您启用了 **列表取消订阅** 选项，当用户单击电子邮件标题中的取消订阅链接时，也会使用此URL。 [了解详情](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -171,15 +169,15 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 通过[历程](../building-journeys/journey.md)发送消息后，如果收件人点击了选择退出链接，会立即选择退出他们的用户档案。
 
-### 消息标头中的取消订阅链接 {#unsubscribe-header}
+### 电子邮件标题中的取消订阅链接 {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="向电子邮件标头添加取消订阅链接"
->abstract="启用“List-Unsubscribe”以向电子邮件标头添加取消订阅链接。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
+>abstract="启用“List-Unsubscribe”以向电子邮件标头添加取消订阅链接。要设置取消订阅URL，请在电子邮件内容中插入一个单击选择退出链接。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
-如果在消息预设级别启用 [List-Unsubscribe](../configuration/message-presets.md#list-unsubscribe) 选项，使用 [!DNL Journey Optimizer] 发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。
+如果 [“列表取消订阅”选项](../configuration/message-presets.md#list-unsubscribe) 在渠道表面级别启用， [!DNL Journey Optimizer] 将在电子邮件标题中包含取消订阅链接。
 
 例如，取消订阅链接在 Gmail 中将会如下图这样显示：
 
@@ -189,7 +187,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 >
 >要在电子邮件标头中显示取消订阅链接，收件人的电子邮件客户端必须支持此功能。
 
-取消订阅地址是相应消息预设中显示的默认 **[!UICONTROL Mailto (unsubscribe)]** 地址。[了解详情](../configuration/message-presets.md#list-unsubscribe)。
+取消订阅地址是默认地址 **[!UICONTROL Mailto (unsubscribe)]** 地址显示在相应的通道表面中。 [了解详情](../configuration/message-presets.md#list-unsubscribe)。
 
 要设置个性化的取消订阅 URL，请在电子邮件内容中插入一键式选择退出链接，然后输入您选择的 URL。[了解详情](#one-click-opt-out)
 
@@ -203,7 +201,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
    >
    >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
 
-* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}中了解更多信息。
 
 ## 推送退出管理 {#push-opt-out-management}
 

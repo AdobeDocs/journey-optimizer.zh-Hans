@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 0%
 * 系统会在发生错误时执行三次重试。 您无法根据收到的错误消息调整重试次数。 
 * 内置 **反应** 事件允许您对即装即用的操作做出反应(请参阅 [页面](../building-journeys/reaction-events.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
 * 不能并行放置两个操作，必须先添加一个，然后再添加另一个操作。
-
-## 消息操作限制
-
-* 添加多渠道消息时，将发送两条消息。
 
 ## 历程版本限制 {#journey-versions-limitations}
 

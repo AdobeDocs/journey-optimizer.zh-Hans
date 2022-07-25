@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 72%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 72%
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
-以下是有助于避免使历程中利用的系统(数据源、自定义操作、 **消息** 活动)。
+以下是有助于避免使历程中利用的系统（数据源、自定义操作、渠道操作活动）过载的一些最佳实践。
 
 在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动中，请勿在创建批处理客户细分后立即对其进行使用。它将避免第一个计算峰值。请注意，如果您要使用从未计算的客户细分，则历程画布中将显示黄色警告。
 

@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
 # 历程实时报告 {#journey-live-report}
 
-历程实时报表可直接从您的历程中通过 **[!UICONTROL Live report]** 按钮。
+历程实时报表可直接从您的历程中通过 **[!UICONTROL View report]** 按钮。
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 历程 **[!UICONTROL Live report]** 页面中将显示以下选项卡：
 
@@ -44,8 +44,6 @@ ht-degree: 1%
 
 * **[!UICONTROL Failed individual journeys]**:未成功执行的各个历程的总数。
 
-![](assets/report_journey_3.png)
-
 的 **[!UICONTROL Event executed over the last 24 hours]** 和 **[!UICONTROL Events]** 小组件允许您通过概要数字、图表和表格查看哪些事件成功执行。
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ ht-degree: 1%
 ## “电子邮件”选项卡 {#email-live}
 
 从您的历程 **[!UICONTROL Live report]**, **[!UICONTROL Email]** 选项卡详细列出了与历程中发送的电子邮件投放相关的主要信息。
-
-有关特定电子邮件投放的详细报告，请参阅 [电子邮件实时报表](email-live-report.md) 中。
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ ht-degree: 1%
 ## “推送”选项卡 {#push-live}
 
 从您的历程 **[!UICONTROL Live report]**, **[!UICONTROL Push]** 选项卡详细列出了与历程中发送的推送投放相关的主要信息。
-
-有关特定推送投放的详细报告，请参阅 [推送实时报表](push-live-report.md) 中。
 
 ![](assets/report_push_1.png)
 

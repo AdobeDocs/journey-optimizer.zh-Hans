@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-验证在消息发布期间或在表达式编辑器中的个性化内容验证期间执行。
+验证在表达式编辑器中的个性化内容验证期间执行。
 
 <table> 
  <thead> 

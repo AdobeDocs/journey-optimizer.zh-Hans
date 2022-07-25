@@ -1,14 +1,14 @@
 ---
 title: 使用密送电子邮件
-description: 了解如何在消息预设级别配置密送电子邮件
+description: 了解如何在渠道表面级别配置密送电子邮件
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -24,23 +24,23 @@ ht-degree: 3%
 
 ## 启用密送电子邮件 {#enable-bcc}
 
-启用 **[!UICONTROL BCC email]** 选项，在专用字段中输入您选择的电子邮件地址。 您可以以正确的格式指定任何外部地址，但在委派给Adobe的子域上定义的电子邮件地址除外。 例如，如果您将 *marketing.luma.com* 子域到Adobe，任何地址，如 *abc@marketing.luma.com* 禁止。
+启用 **[!UICONTROL BCC email]** 选项，请在 [通道表面](message-presets.md) （即消息预设）。 您可以以正确的格式指定任何外部地址，但在委派给Adobe的子域上定义的电子邮件地址除外。 例如，如果您将 *marketing.luma.com* 子域到Adobe，任何地址，如 *abc@marketing.luma.com* 禁止。
 
 >[!NOTE]
 >
->您只能定义一个密件抄送电子邮件地址。 确保密件抄送地址具有足够的接收容量，以存储使用当前预设发送的所有电子邮件。
+>您只能定义一个密件抄送电子邮件地址。 确保密件抄送地址具有足够的接收容量，以存储使用当前渠道表面发送的所有电子邮件。
 >
 >中列出了更多推荐 [此部分](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-使用此预设的所有电子邮件都将被盲目复制到您输入的密件抄送电子邮件地址。 在此处，可以使用外部系统处理和存档它们。
+使用此表面的所有电子邮件都将被盲目复制到您输入的密件抄送电子邮件地址。 在此处，可以使用外部系统处理和存档它们。
 
 >[!CAUTION]
 >
->您的密件抄送功能使用情况将根据您获得许可的消息数量进行计数。 因此，请仅在要存档的关键通信所使用的预设中启用它。 检查您的合同中是否有许可的卷。
+>您的密件抄送功能使用情况将根据您获得许可的消息数量进行计数。 因此，只能在您希望存档的关键通信所使用的表面上启用它。 检查您的合同中是否有许可的卷。
 
-“密件抄送”电子邮件地址设置会立即在预设级别保存和处理。 当您 [创建新消息](../messages/get-started-content.md#create-new-message) 使用此预设时，会自动显示密送电子邮件地址。
+“密件抄送”电子邮件地址设置将立即保存并处理在表面级别。 当您 [创建新消息](../messages/get-started-content.md#create-new-message) 使用此表面，会自动显示密送电子邮件地址。
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您无需重新发布消息或旅程，即可接收密送设置。
+>您无需重新发布历程，即可选取密件抄送设置。
 
 ## Recommendations和限制 {#bcc-recommendations-limitations}
 
@@ -62,11 +62,11 @@ ht-degree: 3%
 
 * 对于空间和投放，应正确管理用于密件抄送的收件箱。 如果收件箱返回退回，则可能未收到某些电子邮件，因此将无法存档。
 
-* 在目标收件人之前，可以将邮件发送到密送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
+* 在目标收件人之前，可将邮件发送至密件抄送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* 请勿打开或点进发送到密件抄送地址的电子邮件，因为在总打开数和发送分析的点击量中，会考虑这些事件，这可能会导致 [报告](../reports/message-monitoring.md).
+* 请勿打开或点进发送到密件抄送地址的电子邮件，因为在总打开数和发送分析的点击量中，会考虑这些事件，这可能会导致 [报告](../reports/global-report.md).
 
 * 请勿在密件抄送收件箱中将邮件标记为垃圾邮件，因为这会影响发送到此地址的所有其他电子邮件。
 

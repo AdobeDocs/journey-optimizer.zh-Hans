@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
 
 # 添加个性化优惠 {#deliver-personalized-offers}
 
-在 [!DNL Journey Optimizer] 电子邮件消息中，您可以插入将利用选件决策引擎的决策，以便选择要交付给客户的最佳选件。
+在 [!DNL Journey Optimizer] 电子邮件中，您可以插入将利用选件决策引擎的决策，以便选择要交付给客户的最佳选件。
 
 例如，您可以添加一个决策，该决策会在电子邮件中显示一个特殊折扣选件，该选件会因收件人的忠诚度级别而异。
 
@@ -59,11 +59,11 @@ ht-degree: 1%
 
 选件活动现已添加到组件中。
 
-保存更改后并发布消息后，在历程中发送消息时，您的选件即可显示到相关用户档案。
+保存更改后，在历程中发送消息时，您的选件即可显示给相关用户档案。
 
 >[!NOTE]
 >
->当您更新已发布消息中直接或间接引用的选件、备用选件、选件收藏集或选件决策时，更新会自动反映在相应的消息中，而无需重新发布。
+>当您更新消息中直接或间接引用的选件、备用选件、选件收集或选件决策时，更新会自动反映在相应的消息中。
 
 ## 在电子邮件中预览选件 {#preview-offers-in-email}
 

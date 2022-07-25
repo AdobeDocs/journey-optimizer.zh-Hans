@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 访问委派的子域 {#access-delegated-subdomains}
 
-所有委派的子域都显示在 **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** 菜单。 过滤器可帮助您优化列表（委派日期、用户或状态）。
+所有委派的子域都显示在 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** 菜单。 过滤器可帮助您优化列表（委派日期、用户或状态）。
 
 ![](assets/subdomain-list.png)
 

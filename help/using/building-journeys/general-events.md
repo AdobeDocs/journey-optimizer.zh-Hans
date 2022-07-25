@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般事件"
->abstract="对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。"
+>abstract="事件允许您触发旅程，以便实时向流入旅程的个人发送消息。 对于此类型的事件，您只能添加标签和描述。 事件配置由数据工程师执行，无法编辑。"
+
+事件允许您触发旅程，以便实时向流入旅程的个人发送消息。
 
 对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
 

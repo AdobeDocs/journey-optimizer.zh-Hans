@@ -4,9 +4,9 @@ description: 了解如何配置环境以通过Journey Optimizer发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 4%
 
 ---
@@ -75,7 +75,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
-   移动设备应用程序开发人员需要这些权限才能在中设置推送凭据 **Adobe Experience Launch** 和在中定义推送通知预设 **Adobe Journey Optimizer**.
+   移动设备应用程序开发人员需要这些权限才能在中设置推送凭据 **Adobe Experience Launch** 和在 **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK为您的�
 
 1. 从 [!DNL Adobe Experience Platform Data Collection]，选择 **[!UICONTROL App Surfaces]** 选项卡。
 
-1. 单击 **[!UICONTROL Create App Surfaces]** 创建新配置。
+1. 单击 **[!UICONTROL Create App Surface]** 创建新配置。
 
    ![](assets/add-app-config.png)
 
@@ -331,9 +331,9 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_11.png)
 
-1. 从 **[!UICONTROL Actions]** 下拉、拖放 **[!UICONTROL Message]** 活动。
+1. 从 **[!UICONTROL Actions]** 下拉、拖放 **[!UICONTROL Push]** 活动。
 
-1. 选择之前创建的消息。 有关如何创建推送通知的更多信息，请参阅此 [页面](../messages/get-started-content.md).
+1. 配置推送通知。 有关如何创建推送通知的更多信息，请参阅此 [页面](../messages/get-started-content.md).
 
 1. 单击 **[!UICONTROL Test]** 切换开始测试推送通知，然后单击 **[!UICONTROL Trigger an event]**.
 
@@ -347,13 +347,13 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 您的事件将被触发，并且您将收到到移动设备应用程序的推送通知。
 
-## 步骤4:为推送创建消息预设{#message-preset}
+## 步骤4:创建用于推送的通道曲面{#message-preset}
 
-在 [!DNL Adobe Experience Platform Data Collection]，您需要创建消息预设，以便能够从发送推送通知 **[!DNL Journey Optimizer]**.
+在 [!DNL Adobe Experience Platform Data Collection]，则需要创建一个表面，以便能够从 **[!DNL Journey Optimizer]**.
 
 了解如何在 [此部分](../configuration/message-presets.md).
 
 现在，您可以随时随地使用Journey Optimizer发送推送通知。
 
 * 了解如何在 [本页](../messages/create-push.md).
-* 了解如何在 [此部分](../building-journeys/journeys-message.md).
+* 了解如何向 [此部分](../building-journeys/journeys-message.md).

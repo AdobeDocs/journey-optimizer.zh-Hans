@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文档 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>7月25日，Adobe Journey Optimizer将发布 [新功能](using/rn/inline-messages.md) 这可改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为Journey Optimizer的从业者，你现在 [创建和创作](using/messages/get-started-content.md) 您的邮件直接从历程发送。 将为您执行历程的自动转换。 话虽如此，我们需要你的帮助。 了解 [必需步骤](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +54,7 @@ ht-degree: 100%
     设计新电子邮件或导入现有 HTML 内容
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">发送消息</a>
+      <a href="using/messages/get-started-content.md">发送消息</a>
     </div>
     <p>了解如何在客户历程中添加推送和电子邮件消息
     <p>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>历程管理</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">历程</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">消息</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">登陆页面</a>

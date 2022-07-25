@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
-
 
 # 创建营销活动 {#create-campaign}
 
 >[!NOTE]
 >
->在创建新营销活动之前，请确保您有消息预设和Adobe Experience Platform区段可供使用。 请通过以下章节了解更多信息：
+>在创建新营销活动之前，请确保您有表面渠道（即消息预设）和Adobe Experience Platform区段可供使用。 请通过以下章节了解更多信息：
 >
->* [创建消息预设](../configuration/message-presets.md)
+>* [创建通道曲面](../configuration/message-presets.md)
 >* [区段入门](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ ht-degree: 5%
    * **[!UICONTROL Scheduled]**:立即执行营销活动或在指定日期执行营销活动。 计划的营销活动旨在发送 **营销** 键入消息。
    * **[!UICONTROL API-triggered]**:使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作后发出的消息：密码重置、卡放弃等。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
 
-1. 在 **[!UICONTROL Actions]** ，选择用于发送消息的渠道和消息表面（即消息预设），然后单击 **[!UICONTROL Create]**.
+1. 在 **[!UICONTROL Actions]** 部分，选择用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >下拉列表中只列出与促销活动类型（营销或事务型）兼容的消息表面。
+   >下拉列表中只列出与促销活动类型（营销或事务型）兼容的渠道表面。
 
 1. 指定营销活动的标题和描述。
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL Actions]** 部分，配置要与营销活动一起发送的消息：
 
-   1. 单击 **[!UICONTROL Edit content]** 按钮，然后配置和设计消息。 [了解如何配置消息](../messages/get-started-content.md).
+   1. 单击 **[!UICONTROL Edit content]** 按钮，然后配置和设计消息内容。 [了解有关消息的更多信息](../messages/get-started-content.md).
 
       内容准备就绪后，单击箭头以返回营销活动创建屏幕。
 
@@ -121,10 +121,6 @@ ht-degree: 5%
    您还可以通过单击 **[!UICONTROL Reports]** 按钮。 [了解详情](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >在营销活动中创建的消息专用于 [!DNL Journey Optimizer] 活动功能。 创建后，它们将只能从营销策划访问，且不会显示在 **[!UICONTROL Messages]** 菜单。
 
 ## 其他资源
 

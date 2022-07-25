@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,11 @@ ht-degree: 0%
 
 使用 **[!UICONTROL Global report]** 以测量选定时间段内历程和投放的影响。
 
-* 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL Journeys]** 菜单，访问您的历程并单击 **[!UICONTROL Global report]** 图标。 然后，您可以找到历程、电子邮件和推送 **[!UICONTROL Global report]**.
+* 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL Journeys]** 菜单，访问您的历程并单击 **[!UICONTROL View report]** 按钮。 然后，您可以找到历程、电子邮件、短信和推送全局报表。
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* 如果要定位特定投放，请从 **[!UICONTROL Global view]** 的 **[!UICONTROL Executions]** ，选择 **[!UICONTROL Global Report]** ，您可以从选定投放的高级菜单访问该页面。
-
-   ![](assets/report_4.png)
-
-* 如果要从 **[!UICONTROL Global report]** 到 **[!UICONTROL Live report]** 对于投放，单击 **[!UICONTROL Live view]** 切换器。
+* 如果要从 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 对于投放，单击 **[!UICONTROL Global view]** 切换器。
 
    ![](assets/report_5.png)
 
