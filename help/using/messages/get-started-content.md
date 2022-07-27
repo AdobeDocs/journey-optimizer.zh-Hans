@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 1. 选择消息 **[!UICONTROL Category]**:选择 **营销** 用于商业报文，或 **事务型** 非商业消息（如订单确认、密码重置通知或投放信息）。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >如果您定义 [频率规则](../configuration/frequency-rules.md) 对于特定渠道和类别，在选择该渠道和类别时，它们会自动应用于消息。 当前仅 **[!UICONTROL Marketing]** 类别可用于频率规则。
 
@@ -73,7 +73,7 @@ ht-degree: 6%
 
 1. 选择渠道 **[!UICONTROL Surface]** （即消息预设）来发送消息。
 
-   曲面是由 [系统管理员](../start/path/administrator.md). 它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。 [了解详情](../configuration/message-presets.md)。
+   曲面是由 [系统管理员](../start/path/administrator.md). 它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。 [了解详情](../configuration/channel-surfaces.md)。
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 ![](assets/show-read-only.png)
 
-高级参数显示在消息窗格的底部。 这些参数由 [系统管理员](../start/path/administrator.md) 在 [通道表面](../configuration/message-presets.md) （即消息预设）。
+高级参数显示在消息窗格的底部。 这些参数由 [系统管理员](../start/path/administrator.md) 在 [通道表面](../configuration/channel-surfaces.md) （即消息预设）。
 
 对于推送通知，您可以显示以下参数：令牌、应用程序ID、应用程序平台。
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 >
 >对于电子邮件，您还可以将现有消息转换为模板。 [了解详情](../design/email-templates.md)。
 
-## 删除消息
+## 删除消息{#delete-message}
 
 要删除消息，请使用渠道操作活动窗格顶部的垃圾桶图标。
 

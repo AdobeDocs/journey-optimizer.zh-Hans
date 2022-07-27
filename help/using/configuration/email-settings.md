@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
 
 # 配置电子邮件设置 {#email-settings}
 
-在渠道表面（即消息预设）配置的专用部分中定义电子邮件设置。 了解如何在 [此部分](message-presets.md).
+在渠道表面（即消息预设）配置的专用部分中定义电子邮件设置。 了解如何在 [此部分](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类别"
->abstract="选择使用此渠道表面时要发送的电子邮件类型：营销促销电子邮件（需要用户同意）或非商业电子邮件（也可在特定环境中发送给未订阅用户档案）。"
+>abstract="选择使用此表面时要发送的消息类型：促销消息的营销（需要用户同意）或非商业消息的事务型消息，也可以在特定环境中发送给未订阅的用户档案。"
 
-在 **电子邮件类型** 部分，选择将随渠道曲面一起发送的消息类型： **营销** 或 **事务型**.
+在 **电子邮件类型** 部分，选择将随曲面一起发送的消息类型： **营销** 或 **事务型**.
 
 * 选择 **营销** 对于促销电子邮件：这些消息需要用户同意。
 
@@ -181,20 +181,22 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 要配置URL跟踪参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段。
 
-您还可以通过导航到以下对象从预定义值列表中进行选择：
-* 历程属性： **源ID**, **源名称**, **源版本ID**
-* 操作属性： **操作ID**, **操作名称**
-* Offer decisioning属性： **选件ID**, **选件名称**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->请勿选择文件夹：确保浏览到必要的文件夹并选择要用作跟踪参数值的配置文件属性。
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+您还可以编辑每个 **[!UICONTROL Value]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开表达式编辑器。 从此处，您可以选择所选的上下文属性和/或直接编辑文本。
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 以下是与Adobe Analytics和Google Analytics兼容的URL的示例。
 
@@ -204,7 +206,7 @@ You can drag and drop the parameters to reorder them.-->
 
 >[!NOTE]
 >
->您可以组合键入文本值和选择预定义值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
+>您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
 
 您可以动态预览生成的跟踪URL。 每次添加、编辑或删除参数时，预览都会自动更新。
 

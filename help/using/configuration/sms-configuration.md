@@ -4,7 +4,7 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 8%
@@ -84,7 +84,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >如果检查失败，请在 [此部分](#monitor-message-presets).
+   >如果检查失败，请在 [此部分](#monitor-channel-surfaces).
 
 1. 检查成功后，通道曲面将 **[!UICONTROL Active]** 状态。 它已准备好用于投放消息。
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '288'
 ht-degree: 13%
 
 ---
@@ -35,13 +35,17 @@ ht-degree: 13%
 
    为此， **区段生成器** 可帮助您构建规则的条件。 [了解详情](../../segment/about-segments.md)
 
-   在此示例中，规则将定位忠诚度级别为“Gold”的客户。
+   <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
    ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
-   >与与 **[!UICONTROL Audience Destinations]** 服务。 例如， **[!UICONTROL Segments]** 选项卡。 但是，区段生成器文档中描述的全局流程对于构建选件决策规则仍然有效。
+   >与与 **[!UICONTROL Audience Destinations]** 服务。 例如， **[!UICONTROL Segments]** 选项卡。 但是， [区段生成器](../../segment/about-segments.md) 文档仍对构建选件决策规则有效。 在 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+
+1. 在工作区中添加和配置新字段时， **[!UICONTROL Segment properties]** 窗格显示属于该区段的估计用户档案的信息。 单击 **[!UICONTROL Refresh estimate]** 更新数据。
+
+   ![](../assets/offers_decision_rule_creation_estimate.png)
 
 1. 单击 **[!UICONTROL Save]** 确认。
 

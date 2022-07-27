@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >请确保输入有效的电子邮件地址(如abc@company)或域名（如abc.company.com）。
+   >请确保输入有效的电子邮件地址(如abc@company.com)或域名（如abc.company.com）。
 
 1. 根据需要指定原因。
 

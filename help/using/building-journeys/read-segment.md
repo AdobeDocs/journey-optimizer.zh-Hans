@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 10%
+source-wordcount: '1140'
+ht-degree: 9%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
    ![](assets/read-segment-schedule-list.png)
 
-   的 **增量读取** 选项允许您仅定位自上次执行历程后进入区段的个人。 第一次执行始终以所有区段成员为目标。此选项仅可重复使用 **读取区段** 活动。
+   **增量读取** 选项：当具有循环的历程 **读取区段** 首次执行时，区段中的所有用户档案都会进入历程。 在下次发生时，所有用户档案都会再次进入历程，即使它们已在内部。 历程中用户档案的旧实例将停止，并创建一个新实例。 的 **增量读取** 选项允许您在首次发生后定位自上次执行历程后进入区段的个人。
 
 <!--
 

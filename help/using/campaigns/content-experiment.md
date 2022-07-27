@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
    ![](assets/content_experiment_1.png)
 
-1. 选择 **[!UICONTROL Email]** 然后 **[!UICONTROL Surface]** 要用于此投放。 有关更多信息，请参阅 [通道曲面](../configuration/message-presets.md) 页面。
+1. 选择 **[!UICONTROL Email]** 然后 **[!UICONTROL Surface]** 要用于此投放。 有关更多信息，请参阅 [通道曲面](../configuration/channel-surfaces.md) 页面。
 
    ![](assets/content_experiment_2.png)
 

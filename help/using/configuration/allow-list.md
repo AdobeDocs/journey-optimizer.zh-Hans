@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 2%
+source-wordcount: '785'
+ht-degree: 3%
 
 ---
 
 # 允许列表 {#allow-list}
 
-可以在 [沙盒](../administration/sandboxes.md) 级别，以便拥有安全的环境进行测试。
+可以在 [沙盒](../administration/sandboxes.md) 级别，以便具有安全的环境以用于测试。
 
 例如，在可能发生错误的非生产实例上，允许列表可确保您没有向客户发送不需要的消息的风险。
 
 >[!NOTE]
 >
->此功能现在可用于生产沙箱和非生产沙箱。
+>此功能适用于生产沙箱和非生产沙箱。
 
 利用允许列表，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。 这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。
 
@@ -29,19 +29,31 @@ ht-degree: 2%
 >
 >此功能仅适用于电子邮件渠道。
 
+## 访问允许列表 {#access-allowed-list}
+
+要访问允许的电子邮件地址和域的详细列表，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择 **[!UICONTROL Allowed list]**.
+
+![](assets/allow-list-access.png)
+
+>[!CAUTION]
+>
+>查看、导出和管理允许列表的权限限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在 [此部分](../administration/permissions-overview.md).
+
+要将允许列表导出为CSV文件，请选择 **[!UICONTROL Download CSV]** 按钮。
+
+使用 **[!UICONTROL Delete]** 按钮以永久删除条目。
+
+您可以搜索电子邮件地址或域，并在 **[!UICONTROL Address type]**. 选择后，您可以清除列表顶部显示的过滤器。
+
+![](assets/allowed-list-filtering-example.png)
+
 ## 启用允许列表 {#enable-allow-list}
-
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
-
-You can update the allowed list before or after enabling the feature.-->
 
 要启用允许列表，请执行以下步骤。
 
 1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 菜单。
 
-   ![](assets/allow-list-access.png)
-
-1. 单击 **[!UICONTROL Edit]**。
+1. 单击 **[!UICONTROL Enable/Disable allowed list]**。
 
    ![](assets/allow-list-edit.png)
 
@@ -51,9 +63,7 @@ You can update the allowed list before or after enabling the feature.-->
 
 1. 单击 **[!UICONTROL Save]**。允许列表已启用。
 
-   ![](assets/allow-list-enabled.png)
-
-允许列表逻辑在启用该功能时应用 **和** 如果允许列表为 **not** 空。 有关详细信息，请参阅[此部分](#logic)。
+允许列表逻辑在启用该功能时应用。 有关详细信息，请参阅[此部分](#logic)。
 
 >[!NOTE]
 >
@@ -61,27 +71,68 @@ You can update the allowed list before or after enabling the feature.-->
 
 ## 将实体添加到允许列表 {#add-entities}
 
-要向特定沙盒的允许列表添加新的电子邮件地址或域，必须使用 `ALLOWED` 值 `listType` 属性。 例如：
-
-![](assets/allow-list-api.png)
-
-您可以执行 **添加**, **删除** 和 **获取** 操作。
+要向特定沙盒的允许列表添加新的电子邮件地址或域，您可以 [手动填充列表](#manually-populate-list)，或使用 [API调用](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >允许列表最多可包含1,000个条目。
 
+### 手动填充允许列表 {#manually-populate-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add"
+>title="向允许列表添加地址或域"
+>abstract="您可以通过逐一选择新电子邮件地址或域名，手动将其添加到允许列表。"
+
+您可以手动填充 [!DNL Journey Optimizer] 允许列表。
+
+>[!NOTE]
+>
+>一次只能添加一个电子邮件地址或域。
+
+为此，请执行以下步骤：
+
+1. 选择 **[!UICONTROL Add email or domain]** 按钮。
+
+   ![](assets/allowed-list-add-email.png)
+
+1. 选择地址类型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**.
+
+1. 输入要向其发送电子邮件的电子邮件地址或域。
+
+   >[!NOTE]
+   >
+   >请确保输入有效的电子邮件地址(如abc@company.com)或域名（如abc.company.com）。
+
+1. 根据需要指定原因。
+
+   ![](assets/allowed-list-add-email-address.png)
+
+   >[!NOTE]
+   >
+   >在 **[!UICONTROL Reason]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+
+1. 单击 **[!UICONTROL Submit]**。
+
+### 使用API调用添加实体 {#api-call-allowed-list}
+
+要填充允许列表，您还可以使用 `ALLOWED` 值 `listType` 属性。 例如：
+
+![](assets/allow-list-api.png)
+
+您可以执行 **添加**, **删除** 和 **获取** 操作。
+
 进一步了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;}引用文档。
 
 ## 允许列表逻辑 {#logic}
 
-允许列表为 **空**，则不会应用允许列表逻辑。 这意味着，您可以向任何用户档案发送电子邮件，前提是这些用户档案不在 [抑制列表](../reports/suppression-list.md).
+允许列表为 [已启用](#enable-allow-list)，则以下逻辑适用：
 
-允许列表为 **不为空**，则会应用允许列表逻辑：
-
-* 如果实体为 **不在允许列表上**，且不在抑制列表中，相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL Not allowed]**.
+* 如果允许列表为 **空**，则不会发送任何电子邮件。
 
 * 如果实体为 **允许列表**，而不是在抑制列表中，则可以将电子邮件发送给相应的收件人。 但是，如果实体 [抑制列表](../reports/suppression-list.md)，相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL Suppressed]**.
+
+* 如果实体为 **不在允许列表上** （且不在禁止列表中），相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL Not allowed]**.
 
 >[!NOTE]
 >

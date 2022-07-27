@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 7%
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含 [选择退出链接](../messages/consent.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息预设）级别和时间 [创建消息](../messages/get-started-content.md#create-new-message).
+>营销类型的电子邮件必须包含 [选择退出链接](../messages/consent.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息预设）级别和时间 [创建消息](../messages/get-started-content.md#create-new-message).
 
 ## 链接到镜像页面 {#mirror-page}
 

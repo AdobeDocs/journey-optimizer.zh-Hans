@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 1. 使用 **[!UICONTROL Eligibility]** 字段来限制选择此版面的选件。
 
-   此约束可通过使用 **决策规则**&#x200B;或一个或多个 **Adobe Experience Platform区段**. 这两项内容详见 [此部分](#segments-vs-decision-rules).
+   此约束可通过使用 **决策规则**&#x200B;或一个或多个 **Adobe Experience Platform区段**. 这两项内容详见 [此部分](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * 要将选件的选择限制为Experience Platform区段的成员，请选择 **[!UICONTROL Segments]**，然后单击 **[!UICONTROL Add segments]**.
 
@@ -87,6 +87,10 @@ ht-degree: 2%
       ![](../assets/activity_constraint_rule.png)
 
       了解如何在 [此部分](../offer-library/creating-decision-rules.md).
+
+      >[!NOTE]
+      >
+      >选择区段或决策规则时，将显示有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
 
 1. 定义要用于为每个用户档案选择最佳选件的排名方法。
 
@@ -117,26 +121,6 @@ ht-degree: 2%
 1. 要在此决策中为选件添加其他版面，请使用 **[!UICONTROL New scope]** 按钮。 对每个决策范围重复上述步骤。
 
    ![](../assets/activity_new-scope.png)
-
-### 使用区段和决策规则 {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-要应用约束，您可以将选件的选择限制为一个或多个选件的成员 **Adobe Experience Platform区段**，或者您可以使用 **决策规则**，两个解决方案对应于不同的使用情况。
-
-基本上，区段的输出是用户档案列表，而决策规则是在决策过程中针对单个用户档案按需执行的函数。 下面详述了这两种用法之间的差异。
-
-* **区段**
-
-   一方面，区段是一组Adobe Experience Platform用户档案，这些用户档案根据用户档案属性和体验事件与特定逻辑进行匹配。 但是，选件管理不会重新计算区段，在显示选件时，该区段可能不是最新的。
-
-   了解有关 [此部分](../../segment/about-segments.md).
-
-* **决策规则**
-
-   另一方面，决策规则基于Adobe Experience Platform中可用的数据，并确定可向谁显示选件。 在选件中选择或为给定版面做出决策后，每次做出决策时都会执行规则，以确保每个用户档案都获得最新和最佳选件。
-
-   了解有关 [此部分](../offer-library/creating-decision-rules.md).
 
 ## 添加后备优惠 {#add-fallback}
 

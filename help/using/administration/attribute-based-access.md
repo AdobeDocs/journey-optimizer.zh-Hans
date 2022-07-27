@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '991'
 ht-degree: 2%
 
 ---
@@ -25,15 +23,64 @@ ht-degree: 2%
 
 在Adobe Journey Optimizer中，ABAC允许您保护数据并授予对特定字段元素的特定访问权限，这些元素包括体验数据模型(XDM)架构、用户档案属性和区段。
 
-<!--For a more detailed list of the terminology used with ABAC, refer to Adobe Experience Platform documentation.-->
+有关ABAC使用的术语的更详细列表，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
 在本例中，我们要向 **国籍** 架构字段，以限制未授权用户使用该架构。 要使此功能正常工作，您需要执行以下步骤：
 
+1. 新建  **[!UICONTROL Role]** 并为其分配相应的  **[!UICONTROL Label]** 使用户能够访问和使用架构字段。
+
 1. 分配  **[!UICONTROL Label]** 到 **国籍** 架构字段。Adobe Experience Platform
 
-2. 新建  **[!UICONTROL Role]** 并为其分配相应的  **[!UICONTROL Label]** 使用户能够访问和使用架构字段。
+1. 使用  **[!UICONTROL Schema field]** 在Adobe Journey Optimizer。
 
-3. 使用  **[!UICONTROL Schema field]** 在Adobe Journey Optimizer。
+请注意 **[!UICONTROL Roles]**, **[!UICONTROL Policies]** 和 **[!UICONTROL Products]** 也可以使用基于属性的访问控制API进行访问。 有关更多信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+
+## 创建角色并分配标签 {#assign-role}
+
+>[!IMPORTANT]
+>
+>在管理角色的权限之前，您首先需要创建策略。 有关更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+
+**[!UICONTROL Roles]** 是您组织内共享相同权限、标签和沙箱的一组用户。 每个用户属于 **[!UICONTROL Role]** 有权使用产品中包含的Adobe应用程序和服务。
+您还可以创建自己的 **[!UICONTROL Roles]** 如果您想要优化用户对界面中特定功能或对象的访问权限。
+
+我们现在要向选定用户授予 **国籍** 字段，标记为C2。 为此，我们需要创建一个 **[!UICONTROL Role]** 并为他们授予标签C2，以便他们使用 **国籍** 详细信息 **[!UICONTROL Journey]**.
+
+1. 从 [!DNL Permissions] 产品，选择 **[!UICONTROL Role]** 从左窗格菜单中，单击 **[!UICONTROL Create role]**. 请注意，您还可以 **[!UICONTROL Label]** 内置角色。
+
+   ![](assets/role_1.png)
+
+1. 添加 **[!UICONTROL Name]** 和 **[!UICONTROL Description]** 新 **[!UICONTROL Role]**，此处：角色人口限制。
+
+1. 从下拉菜单中，选择 **[!UICONTROL Sandbox]**.
+
+   ![](assets/role_2.png)
+
+1. 从 **[!UICONTROL Resources]** 菜单，单击 **[!UICONTROL Adobe Experience Platform]** 以打开不同的功能。 在此，我们选择 **[!UICONTROL Journeys]**.
+
+   ![](assets/role_3.png)
+
+1. 从下拉菜单中，选择 **[!UICONTROL Permissions]** 链接到所选功能，例如 **[!UICONTROL View journeys]** 或 **[!UICONTROL Publish journeys]**.
+
+   ![](assets/role_6.png)
+
+1. 保存新创建的 **[!UICONTROL Role]**，单击 **[!UICONTROL Properties]** 以进一步配置对您角色的访问权限。
+
+   ![](assets/role_7.png)
+
+1. 在选项卡 **[!UICONTROL Users]** 中，单击 **[!UICONTROL Add users]**。
+
+   ![](assets/role_8.png)
+
+1. 在 **[!UICONTROL Labels]** 选项卡中，选择 **[!UICONTROL Add label]**。
+
+   ![](assets/role_9.png)
+
+1. 选择 **[!UICONTROL Labels]** 要添加到您的角色并单击 **[!UICONTROL Save]**. 在本例中，我们为用户授予标签C2，以便有权访问以前受限架构的字段。
+
+   ![](assets/role_4.png)
+
+中的用户 **受限角色人口统计** 角色现在可以访问C2标记的对象。
 
 ## 为Adobe Experience Platform中的对象分配标签 {#assign-label}
 
@@ -69,49 +116,6 @@ ht-degree: 2%
 
 ![](assets/label_5.png)
 
-## 创建角色并分配标签 {#assign-role}
-
-**[!UICONTROL Roles]** 是您组织内共享相同权限、标签和沙箱的一组用户。 每个用户属于 **[!UICONTROL Role]** 有权使用产品中包含的Adobe应用程序和服务。
-您还可以创建自己的 **[!UICONTROL Roles]** 如果您想要优化用户对界面中特定功能或对象的访问权限。
-
-我们现在要向选定用户授予 **国籍** 字段，标记为C2。 为此，我们需要创建一个 **[!UICONTROL Role]** 并为他们授予标签C2，以便他们使用 **国籍** 详细信息 **[!UICONTROL Journey]**.
-
-1. 从 [!DNL Permissions] 产品，选择 **[!UICONTROL Role]** 从左窗格菜单中，单击 **[!UICONTROL Create role]**. 请注意，您还可以 **[!UICONTROL Label]** 内置角色。
-
-   ![](assets/role_1.png)
-
-1. 添加 **[!UICONTROL Name]** 和 **[!UICONTROL Description]** 新 **[!UICONTROL Role]**，此处：角色人口限制。
-
-1. 从下拉菜单中，选择 **[!UICONTROL Sandbox]**.
-
-   ![](assets/role_2.png)
-
-1. 从 **[!UICONTROL Resources]** 菜单，单击 **[!UICONTROL Adobe Experience Platform]** 以打开不同的功能。 在此，我们选择 **[!UICONTROL Messages]**.
-
-   ![](assets/role_3.png)
-
-1. 从下拉菜单中，选择 **[!UICONTROL Permissions]** 链接到所选功能，例如 **[!UICONTROL View messages]** 或 **[!UICONTROL Publish journeys]**.
-
-   ![](assets/role_6.png)
-
-1. 保存新创建的 **[!UICONTROL Role]**，单击 **[!UICONTROL Properties]** 以进一步配置对您角色的访问权限。
-
-   ![](assets/role_7.png)
-
-1. 在选项卡 **[!UICONTROL Users]** 中，单击 **[!UICONTROL Add users]**。
-
-   ![](assets/role_8.png)
-
-1. 在 **[!UICONTROL Labels]** 选项卡中，选择 **[!UICONTROL Add label]**。
-
-   ![](assets/role_9.png)
-
-1. 选择 **[!UICONTROL Labels]** 要添加到您的角色并单击 **[!UICONTROL Save]**. 在本例中，我们为用户授予标签C2，以便有权访问以前受限架构的字段。
-
-   ![](assets/role_4.png)
-
-中的用户 **受限角色人口统计** 角色现在可以访问C2标记的对象。
-
 ## 访问Adobe Journey Optimizer中的标记对象 {#attribute-access-ajo}
 
 在标记 **国籍** 字段名称（在新架构和新角色中），我们现在可以在Adobe Journey Optimizer中查看此限制的影响。
@@ -133,7 +137,7 @@ ht-degree: 2%
 
    ![](assets/journey_4.png)
 
-1. 然后，创建历程，以向具有特定国籍的用户发送消息。 添加 **[!UICONTROL Event]** 那么 **[!UICONTROL Condition]**.
+1. 然后，创建历程，以向具有特定国籍的用户发送电子邮件。 添加 **[!UICONTROL Event]** 那么 **[!UICONTROL Condition]**.
 
    ![](assets/journey_5.png)
 
@@ -145,11 +149,11 @@ ht-degree: 2%
 
    ![](assets/journey_7.png)
 
-1. 根据需要将您的历程个性化，在此我们添加 **[!UICONTROL Message]** 操作。
+1. 根据需要将您的历程个性化，在此我们添加 **[!UICONTROL Email]** 操作。
 
    ![](assets/journey_8.png)
 
-如果无权访问标签C2对象的用户Y需要访问此历程或具有此限制字段的任何消息：
+如果无权访问标签C2对象的用户Y需要使用此受限字段访问此历程：
 
 * 用户Y将无法使用受限的字段名称，因为它不可见。
 
@@ -157,6 +161,6 @@ ht-degree: 2%
 
 * 用户Y可以删除表达式。
 
-* 用户Y将无法测试历程或消息。
+* 用户Y将无法测试历程。
 
-* 用户Y将无法发布历程或消息。
+* 用户Y将无法发布历程。

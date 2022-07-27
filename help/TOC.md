@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
       + [关于禁止列表](using/reports/suppression-list.md)
-+ 决策管理{#offer-decisioniong}
++ 决策管理{#offer-decisioning}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
       + [用户界面](using/offers/get-started/user-interface.md)
@@ -292,6 +292,7 @@ ht-degree: 96%
       + [创建决策](using/offers/offer-activities/create-offer-activities.md)
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
       + [创建模拟](using/offers/offer-activities/simulation.md)
+   + [批量决策](using/offers/batch-delivery.md)
    + 创建决策管理报表 {#create-reports}
       + [决策管理事件入门](using/offers/reports/get-started-events.md)
       + [决策管理事件关键信息](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 96%
             + [重试](using/configuration/retries.md)
             + [允许列表](using/configuration/allow-list.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
-      + 设置通道曲面 {#set-up-message-presets}
-         + [创建通道曲面](using/configuration/message-presets.md)
+      + 设置通道曲面 {#set-up-channels}
+         + [创建通道曲面](using/configuration/channel-surfaces.md)
          + [配置电子邮件设置](using/configuration/email-settings.md)
          + [使用密送电子邮件](using/configuration/bcc-email.md)
       + [管理执行地址](using/configuration/primary-email-addresses.md)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '744'
 ht-degree: 4%
 
 ---
@@ -67,6 +67,7 @@ ht-degree: 4%
 ### 活动 {#events-g}
 
 * 对于系统生成的事件，必须先在Journey Optimizer中配置用于启动客户旅程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
+* 业务事件不能与单一事件或区段鉴别活动结合使用。
 
 ### 数据源 {#data-sources-g}
 

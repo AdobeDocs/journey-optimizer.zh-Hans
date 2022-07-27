@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,10 @@ ht-degree: 2%
 * [时间条件](../building-journeys/condition-activity.md#time_condition)
 * [日期条件](../building-journeys/condition-activity.md#date_condition)
 * [自定义等待](../building-journeys/wait-activity.md#custom)
-* [修复了日期等待](../building-journeys/wait-activity.md#fixed_date)
+
+<!--
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
+-->
 
 您可以选择时区，也可以选择使用用户配置文件中定义的时区。
 
@@ -42,13 +45,9 @@ ht-degree: 2%
 
 ## 使用用户档案定义旅程时区 {#timezone-from-profiles}
 
-如果历程的登入事件具有命名空间，即历程可以访问Adobe Experience Platform的实时客户资料服务，则会使用在历程中流动的个人资料中指定的时区预定义时区。
+如果历程的登入事件具有命名空间，即历程可以访问Adobe Experience Platform的实时客户资料服务，则您可能需要使用在资料级别定义的时区。 为此，请在 **属性**，勾选 **在等待和条件中使用配置文件时区**. 默认情况下，不会选中此选项。
 
-如果在Adobe Experience Platform配置文件中定义了时区，则可以在历程中进行检索。
-
-如果个人的用户档案不包含时区，则检索到的时区将是时区字段中定义的时区。
-
-为此，请在 **[!UICONTROL Properties]**，勾选 **[!UICONTROL Use Profile timezone in waits and conditions]**.
+如果为用户档案定义了时区，则历程将检索并使用该时区。 如果没有，则使用的时区将是时区字段中定义的时区。
 
 ![](assets/journey73.png)
 

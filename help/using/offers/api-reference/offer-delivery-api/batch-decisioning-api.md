@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '751'
 ht-degree: 3%
 
 ---
@@ -32,19 +32,20 @@ ht-degree: 3%
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>批量决策也可以使用Journey Optimizer界面执行。 有关更多信息，请参阅 [此部分](../../batch-delivery.md)，其中提供了有关使用批量决策时需要考虑的全局先决条件和限制的信息。
+
+* **每个数据集正在运行的批处理作业数**:每个数据集一次最多可以运行5个批处理作业。 具有相同输出数据集的任何其他批处理请求都会添加到队列中。 在上一个作业完成运行后，将选取已排队的作业进行处理。
+* **频率封顶**:每天发生一次的配置文件快照的批处理运行。 的 [!DNL Batch Decisioning] API会限制频率，并始终从最新快照加载用户档案。
+
 ## 快速入门 {#getting-started}
 
 使用此API之前，请确保完成以下先决条件步骤。
 
 ### 准备决策 {#prepare-decision}
 
-请按照以下步骤准备一个或多个决策：
-
-* 要导出决策结果，请使用“ODE DecisionEvents”架构创建数据集。
-
-* 创建一个应进行评估并更新的平台区段。 请参阅 [分段文档](http://www.adobe.com/go/segmentation-overview-en) 以了解有关如何更新区段成员资格评估的更多信息。
-
-* 在Adobe Journey Optimizer中创建决策（其决策范围包含决策ID和版面ID）。 请参阅 [定义决策范围一节](../../offer-activities/create-offer-activities.md) 指南的“创建决策”以了解更多信息。
+要准备一个或多个决策，请确保已创建数据集、区段和决策。 有关这些先决条件的详细信息，请参阅 [此部分](../../batch-delivery.md).
 
 ### API要求 {#api-requirements}
 
@@ -58,6 +59,10 @@ ht-degree: 3%
 ## 启动批处理 {#start-a-batch-process}
 
 要启动工作负载以批量处理决策，请向 `/workloads/decisions` 端点。
+
+>[!NOTE]
+>
+>有关批处理作业处理时间的详细信息，请参阅 [此部分](../../batch-delivery.md).
 
 **API格式**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | 创建决策工作量请求的时间。 | `1648076994405` |
 | `ode:status` | 工作负载的状态以“QUEUED”开头，并更改为“PROCESSING”、“INGESTING”、“COMPLETED”或“ERROR”。 | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | 如果状态为“正在处理”或“正在摄取”，则会显示更多详细信息，如sparkJobId和batchID。 如果状态为“ERROR”，则会显示错误详细信息。 |  |
-
-## 服务级别 {#service-levels}
-
-每个批量决策的端到端时间是指从创建工作量到输出数据集中提供决策结果的持续时间。 POST请求有效负载中的区段大小是影响端到端批量决策时间的主要因素。 如果符合条件的选件启用了全局频率上限，则完成批量决策需要额外的时间。 以下是其各自区段大小的端对端处理时间的一些近似值，包括符合条件选件的频度上限和不频率上限：
-
-为符合条件的选件启用频率上限：
-
-| 区段大小 | 端到端处理时间 |
-|--------------|----------------------------|
-| 一万个用户档案或更少 | 7 分钟 |
-| 100万个用户档案或以下 | 30 分钟 |
-| 1 500万个用户档案或更少 | 50 分钟 |
-
-未对符合条件的选件设置频率上限：
-
-| 区段大小 | 端到端处理时间 |
-|--------------|----------------------------|
-| 一万个用户档案或更少 | 6 分钟 |
-| 100万个用户档案或以下 | 8 分钟 |
-| 1 500万个用户档案或更少 | 16 分钟 |
-
-## 限制 {#limitations}
-
-使用 [!DNL Batch Decisioning] API，请牢记以下限制：
-
-* **每个数据集正在运行的批处理作业数**:每个数据集一次最多可以运行5个批处理作业。 具有相同输出数据集的任何其他批处理请求都会添加到队列中。 在上一个作业完成运行后，将选取已排队的作业进行处理。
-* **频率封顶**:每天发生一次的配置文件快照的批处理运行。 的 [!DNL Batch Decisioning] API会限制频率，并始终从最新快照加载用户档案。
 
 ## 后续步骤 {#next-steps}
 

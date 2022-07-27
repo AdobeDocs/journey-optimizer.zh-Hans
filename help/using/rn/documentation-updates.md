@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 98%
+source-wordcount: '1731'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 98%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 对&#x200B;**创建消息预设**&#x200B;部分进行了修正和更新，添加了描述如何配置短信渠道的页面的链接。[了解详情](../configuration/message-presets.md#create-message-preset)
+* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年7月的发行版本。 [了解详情](release-notes.md)
+* 的 **设置通道曲面** 阐明并更新了章节，其中包含描述如何配置短信渠道的页面链接。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+* 在历程属性中， **配置文件时区** 选项现在默认处于禁用状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 在 **等待** 活动， **固定日期** 选项不再可用。 [了解详情](../building-journeys/wait-activity.md)
+* 添加了有关 **增量读取** 选项 **读取区段** 活动。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 在 **配置文件上限** 条件类型。 [了解详情](../building-journeys/condition-activity.md#profile_cap)
+* 添加了对业务事件的限制。 [了解详情](../start/guardrails.md#events-g)
 
 ## 2022 年 6 月 {#june-2022}
 
@@ -42,7 +48,7 @@ ht-degree: 98%
 * 更新了登陆页面和订阅报告的屏幕截图。[了解更多信息](../reports/live-report.md)
 * 添加了注释，说明自定义操作不支持 Delete 方法。[了解更多信息](../action/about-custom-action-configuration.md)
 * 更新了操作方法视频的链接。
-* 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/message-presets.md)和[配置登陆页面](../configuration/lp-subdomains.md)部分，以提高可读性。
+* 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/channel-surfaces.md)和[配置登陆页面](../configuration/lp-subdomains.md)部分，以提高可读性。
 * 通过示例更新并改进了 URL 跟踪部分。[了解详情](../configuration/email-settings.md#url-tracking)
 * 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解详情](../configuration/email-settings.md#forward-email)
 
@@ -53,8 +59,8 @@ ht-degree: 98%
 * 更新了有关决策管理功能的视频，以反映 Journey Optimizer 用户界面。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 对&#x200B;**数据集入门**&#x200B;部分进行了改进，以详细说明如何访问和创建数据集。[了解更多信息](../start/get-started-datasets.md)
 * 在 **Adobe Journey Optimizer 文档**&#x200B;主页上添加了帮助指南和产品发行说明的链接。[了解更多信息](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
-* **创建消息预设**&#x200B;部分现在说明了当选定的 IP 池在编辑中（处于 **[!UICONTROL Processing]** 状态）且从未与选定的子域关联时，无法继续创建预设。[了解更多信息](../configuration/message-presets.md#subdomains-and-ip-pools)
-* 更新了消息预设 **URL 跟踪**&#x200B;部分，以反映用户界面中的细微更改。[了解更多信息](../configuration/message-presets.md#url-tracking)
+* **创建消息预设**&#x200B;部分现在说明了当选定的 IP 池在编辑中（处于 **[!UICONTROL Processing]** 状态）且从未与选定的子域关联时，无法继续创建预设。[了解更多信息](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* 更新了消息预设 **URL 跟踪**&#x200B;部分，以反映用户界面中的细微更改。[了解更多信息](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022 年 3 月 {#march-2022}
 
@@ -78,7 +84,7 @@ ht-degree: 98%
 * 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解更多信息](../offers/ranking/auto-optimization-model.md)
 * 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/ranking/schema-requirement.md)
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
-* 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/message-presets.md#create-message-preset)
+* 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/channel-surfaces.md#create-channel-surface)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../messages/consent.md#opt-out-management)
 * 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../design/message-tracking.md#insert-links)
 
@@ -93,14 +99,13 @@ ht-degree: 98%
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2021 年 10 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
 * 添加了&#x200B;**日期时间函数**&#x200B;列表。 [了解更多信息](../personalization/functions/dates.md)
 * 新增&#x200B;**每个用户角色的入门部分**。找到适合自己的方法，更快地实现目标！[了解更多信息](../start/quick-start.md)
-* 新增&#x200B;**编辑消息预设**&#x200B;部分。 [了解更多信息](../configuration/message-presets.md#edit-message-preset)
+* 新增&#x200B;**编辑消息预设**&#x200B;部分。 [了解更多信息](../configuration/channel-surfaces.md#edit-channel-surface)
 * 新增&#x200B;**编辑 PTR 记录**&#x200B;部分。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-record)
-* 新增&#x200B;**停用消息预设**&#x200B;部分。 [了解更多信息](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* 新增&#x200B;**停用消息预设**&#x200B;部分。 [了解更多信息](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * **决策管理 API 开发人员指南**&#x200B;添加了有关移动 [!DNL Experience Edge] 工作流不支持的优惠约束条件的新限制。[了解更多信息](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 新增&#x200B;**创建模拟**&#x200B;部分。 [了解更多信息](../offers/offer-activities/simulation.md)
 * 更新了&#x200B;**添加决策范围**&#x200B;部分。 [了解更多信息](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * 更新了&#x200B;**定义呈现的内容**&#x200B;部分，包括新增的有关如何定义和个性化自定义文本的[子部分](../offers/offer-library/creating-personalized-offers.md#custom-text)。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## 2021 年 9 月 {#september-2021}
 
@@ -142,7 +147,7 @@ ht-degree: 98%
 * 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/global-report.md)
 * 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../configuration/allow-list.md#reporting)
 * 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
-* 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/message-presets.md#monitor-message-presets)
+* 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 更新并重命名了“重试时段”部分，以反映出您现在可以调整消息预设中的电子邮件重试设置。[了解更多信息](../configuration/retries.md#retry-duration)
 * 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../messages/consent.md#one-click-opt-out-link)
 * 更新了“委派子域”部分，其中包含有关 Adobe 执行的验证过程的更多详细信息。[了解更多信息](../configuration/delegate-subdomain.md#subdomain-validation)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 9%
+source-wordcount: '1329'
+ht-degree: 8%
 
 ---
 
@@ -112,6 +112,10 @@ ht-degree: 9%
 ## 配置文件上限 {#profile_cap}
 
 使用此条件类型为历程路径设置最大用户档案数。 达到此限制后，输入的用户档案会采用替代路径。 这可确保您的历程永远不会超出定义的限制。
+
+    >[!NOTE]
+    >
+    >我们建议您定义一个高值配置文件上限。 群体达到确切上限数字的精度和可能性，只会随着上限的增加而增加。 对于小数字（例如，上限为50），数字并不总是匹配，因为在用户档案使用替代路径之前，可能未达到限制。
 
 您可以使用此条件类型来增加投放的数量。 请参阅 [用例](ramp-up-deliveries-uc.md).
 

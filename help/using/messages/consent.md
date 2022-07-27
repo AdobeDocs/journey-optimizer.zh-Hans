@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 91%
@@ -41,7 +41,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息预设）级别和时间 [创建消息](get-started-content.md#create-new-message).
+>营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息预设）级别和时间 [创建消息](get-started-content.md#create-new-message).
 
 ### 外部选择退出 {#opt-out-external-lp}
 
@@ -177,7 +177,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 >abstract="启用“List-Unsubscribe”以向电子邮件标头添加取消订阅链接。要设置取消订阅URL，请在电子邮件内容中插入一个单击选择退出链接。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
-如果 [“列表取消订阅”选项](../configuration/message-presets.md#list-unsubscribe) 在渠道表面级别启用， [!DNL Journey Optimizer] 将在电子邮件标题中包含取消订阅链接。
+如果 [“列表取消订阅”选项](../configuration/channel-surfaces.md#list-unsubscribe) 在渠道表面级别启用， [!DNL Journey Optimizer] 将在电子邮件标题中包含取消订阅链接。
 
 例如，取消订阅链接在 Gmail 中将会如下图这样显示：
 
@@ -187,7 +187,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 >
 >要在电子邮件标头中显示取消订阅链接，收件人的电子邮件客户端必须支持此功能。
 
-取消订阅地址是默认地址 **[!UICONTROL Mailto (unsubscribe)]** 地址显示在相应的通道表面中。 [了解详情](../configuration/message-presets.md#list-unsubscribe)。
+取消订阅地址是默认地址 **[!UICONTROL Mailto (unsubscribe)]** 地址显示在相应的通道表面中。 [了解详情](../configuration/channel-surfaces.md#list-unsubscribe)。
 
 要设置个性化的取消订阅 URL，请在电子邮件内容中插入一键式选择退出链接，然后输入您选择的 URL。[了解详情](#one-click-opt-out)
 

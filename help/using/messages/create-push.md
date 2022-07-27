@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 9%
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 ![](assets/title-body-push.png)
 
-* 要打开应用程序，请选择 **[!UICONTROL Open app]** 选项。 在 [通道表面](../configuration/message-presets.md) （即消息预设）。
+* 要打开应用程序，请选择 **[!UICONTROL Open app]** 选项。 在 [通道表面](../configuration/channel-surfaces.md) （即消息预设）。
 * 要将用户重定向到应用程序中的特定内容段，请选择 **[!UICONTROL Deeplink]** 选项。  特定内容可以是特定视图、页面的特定部分或特定选项卡。 选择选项后，在关联的字段中输入深层链接。
 * 要将用户重定向到外部URL，请使用 **[!UICONTROL Web URL]** 选项。 选择选项后，在关联的字段中输入URL。
 

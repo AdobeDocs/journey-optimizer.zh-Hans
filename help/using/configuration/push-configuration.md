@@ -4,7 +4,7 @@ description: 了解如何配置环境以通过Journey Optimizer发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 4%
@@ -351,7 +351,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 在 [!DNL Adobe Experience Platform Data Collection]，则需要创建一个表面，以便能够从 **[!DNL Journey Optimizer]**.
 
-了解如何在 [此部分](../configuration/message-presets.md).
+了解如何在 [此部分](../configuration/channel-surfaces.md).
 
 现在，您可以随时随地使用Journey Optimizer发送推送通知。
 

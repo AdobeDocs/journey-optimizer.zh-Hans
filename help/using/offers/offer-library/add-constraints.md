@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="优先级"
+>title="设置优先级"
 >abstract="如果用户符合多个选件的条件，则优先级有助于定义选件与其他选件相比的优先级。 优惠的优先级越高，与其他选件相比，优先级越高。"
 
 利用约束，可定义显示选件的条件。
@@ -40,6 +40,10 @@ ht-degree: 3%
 1. 配置 **[!UICONTROL Offer eligibility]**. [了解详情](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >选择区段或决策规则时，将显示有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
 
 1. 定义 **[!UICONTROL Priority]** 选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他选件相比，优先级越高。
 
@@ -63,8 +67,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="资格"
->abstract="选件资格允许您将选件限制为使用区段或决策规则定义的特定用户档案。"
+>title="定义资格"
+>abstract="默认情况下，任何用户档案都有资格向您显示选件，但您可以使用区段或决策规则将选件限制为特定用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ ht-degree: 3%
 
    了解有关 [此部分](creating-decision-rules.md).
 
-## 频率封顶 {#capping}
+## 上限 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="上限"
->abstract="上限用作约束，以定义选件可显示的最大次数。"
+>title="使用上限"
+>abstract="为避免过度取悦客户，请使用上限来定义选件可以显示的最大次数。"
 
 上限用作约束，以定义选件可显示的最大次数。
 
@@ -178,8 +182,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="更改日期可能会对上限产生影响"
->abstract="如果对此选件应用了上限，则在您更改开始或结束日期时，上限可能会受到影响。"
+>title="更改日期可能会影响上限"
+>abstract="如果对此选件应用了上限，则当您更改开始或结束日期时，上限可能会受到影响。"
 
 更改选件日期时，您必须继续小心，因为如果满足以下条件，这可能会对上限产生影响：
 
@@ -191,7 +195,7 @@ ht-degree: 3%
 >
 >了解如何在 [此部分](creating-personalized-offers.md#create-offer).
 
-每个用户档案的频度上限存储每个用户档案的上限计数。 当您更改已批准选件的开始和结束日期时，某些配置文件的上限计数可能会根据下面描述的不同方案而受到影响。
+每个配置文件的上限存储每个配置文件的上限计数。 当您更改已批准选件的开始和结束日期时，某些配置文件的上限计数可能会根据下面描述的不同方案而受到影响。
 
 ![](../assets/offer-capping-change-date.png)
 

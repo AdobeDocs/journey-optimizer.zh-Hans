@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -49,7 +49,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/message-presets.md#email-type) （即消息预设）级别和时间 [创建消息](get-started-content.md#create-new-message).
+   >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL Marketing]** 或 **[!UICONTROL Transactional]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息预设）级别和时间 [创建消息](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Text version of HTML is empty]**:请不要忘记定义电子邮件正文的文本版本，因为当HTML内容无法显示时，会使用该文本版本。 了解如何在中创建文本版本 [此部分](../design/text-version-email.md).
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 * **[!UICONTROL The email version of the message is empty]**:未配置电子邮件内容时，会显示此错误。 了解如何在 [此部分](../design/design-emails.md).
 
-* **[!UICONTROL Surface doesn’t exist]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL Properties]**. 了解有关 [此部分](../configuration/message-presets.md).
+* **[!UICONTROL Surface doesn’t exist]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL Properties]**. 了解有关 [此部分](../configuration/channel-surfaces.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](create-push.md).
 

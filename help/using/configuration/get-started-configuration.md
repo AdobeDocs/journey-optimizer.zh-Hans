@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 1. **配置消息和渠道**:定义渠道表面，调整和自定义消息。
 
-   * 创建渠道界面以配置传送消息所需的所有技术参数。 [了解详情](message-presets.md)
+   * 创建渠道界面以配置传送消息所需的所有技术参数。 [了解详情](channel-surfaces.md)
 
    * 当Adobe Experience Platform中有多个地址可用时，确定要优先为收件人使用的电子邮件地址。 [了解详情](primary-email-addresses.md)
 

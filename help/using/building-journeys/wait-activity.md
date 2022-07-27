@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '322'
 ht-degree: 4%
 
 ---
@@ -18,15 +18,17 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活动"
->abstract="如果要在执行路径中的下一个活动之前等待，可以使用等待活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：持续时间、固定日期和自定义。"
+>abstract="如果要在执行路径中的下一个活动之前等待，可以使用等待活动。 利用该活动，可定义执行下一个活动的时间。 有两个选项可用：持续时间和自定义。"
 
 如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL Wait]** 活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
 
 * [持续时间](#duration)
-* [固定日期](#fixed_date)
 * [自定义](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## 关于等待活动{#about_wait}
 
@@ -40,11 +42,14 @@ ht-degree: 4%
 
 ![](assets/journey55.png)
 
-## 修复了日期等待{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-选择执行下一个活动的日期。
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## 自定义等待{#custom}
 
