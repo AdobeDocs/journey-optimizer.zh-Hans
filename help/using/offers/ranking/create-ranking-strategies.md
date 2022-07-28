@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '293'
 ht-degree: 9%
 
 ---
@@ -34,10 +34,10 @@ ht-degree: 9%
 
 1. 单击 **[!UICONTROL Create AI model]** 按钮。
 
-1. 为AI模型指定唯一名称和描述。
+1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
 
-   <!--* **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)-->
+   * **[!UICONTROL Auto-optimization]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
+   * **[!UICONTROL Personalized]** 根据区段和选件性能优化和个性化选件。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -60,13 +60,13 @@ ht-degree: 9%
    >
    >仅从与 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组（以前称为mixin）会显示在下拉列表中。
 
-<!--1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. 如果您要创建 **[!UICONTROL Personalization]** AI模型中，选择用于训练AI模型的区段。
 
-    ![](../assets/ai-ranking-segments.png)
+   ![](../assets/ai-ranking-segments.png)
 
-    >[!NOTE]
-    >
-    >You can select up to 5 segments.-->
+   >[!NOTE]
+   >
+   >您最多可以选择5个区段。
 
 1. 保存并激活AI模型。
 

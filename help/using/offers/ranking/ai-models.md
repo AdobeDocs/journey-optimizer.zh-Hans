@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '310'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,15 @@ ht-degree: 3%
 
 ## AI模型类型 {#ai-model-types}
 
-目前， [!DNL Journey Optimizer]**提供了一个AI模型， **自动优化**，可根据过去的选件性能优化选件。 此类AI模型的详细信息可在 [此部分](auto-optimization-model.md).
+在 [!DNL Journey Optimizer]:
+
+* **自动优化模型** 旨在提供由业务客户设定的可最大化回报(KPI)的选件。 这些关键绩效指标可以是转化率、收入等形式。 此时，自动优化将重点放在通过选件转化作为我们的目标来优化选件点击量。 自动优化是非个性化的，并会根据选件的“全局”性能进行优化。 [了解详情](auto-optimization-model.md)
+
+* **个性化模型** 允许您定义业务目标并利用客户数据来培训面向业务的模型，以提供个性化优惠并最大化KPI。 [了解详情](personalized-optimization-model.md)
+
+>[!CAUTION]
+>
+>目前，只有选定用户才能提前使用个性化优化模型。
 
 ## 创建AI模型 {#create-ai-model}
 
