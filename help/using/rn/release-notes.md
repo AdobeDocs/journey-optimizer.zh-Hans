@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 24%
 
 **历程**
 
-* **结束旅程**  — 在历程画布中， **结束** 活动已从面板中删除。 现在，结束标记默认会添加到每个路径的末尾，且无法删除。 这项改进可更好地报告客户从历程中的退出位置，而无需用户采取任何操作。 [了解详情](../building-journeys/journey-end.md)
+* **结束旅程**  — 在历程画布中， **结束** 活动已从面板中删除。 现在，结束标记默认会添加到每个路径的末尾，且无法删除。 这项改进可更好地报告客户从历程中退出的位置，而无需历程从业者执行任何操作。 请参阅 [文档](../building-journeys/journey-end.md) 和 [功能视频](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 **消息**
 
