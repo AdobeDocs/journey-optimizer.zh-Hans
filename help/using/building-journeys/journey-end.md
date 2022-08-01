@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 ### 历程结束标记{#end-tag}
 
-在创作历程时，“结束节点”显示在每个路径的末尾。 用户无法添加此节点，无法删除此节点，只能更改其标签。 它标记历程每个路径的结尾。 如果历程包含多个路径，我们建议您向每个端点添加标签，以便更便于阅读报表。 请参阅[此页](../reports/live-report.md)。
+创作历程时，每个路径的末尾会显示“结束taf”。 用户无法添加此节点，无法删除此节点，只能更改其标签。 它标记历程每个路径的结尾。 如果历程包含多个路径，我们建议您向每个端点添加标签，以便更便于阅读报表。 请参阅[此页](../reports/live-report.md)。
 
 ![](assets/journey-end.png)
 
