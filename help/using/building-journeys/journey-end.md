@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -51,21 +51,21 @@ ht-degree: 1%
 >
 >请注意，您无法恢复已关闭或已停止的历程。
 
-<!--
+### 历程结束标记{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+在创作历程时，“结束节点”显示在每个路径的末尾。 用户无法添加此节点，无法删除此节点，只能更改其标签。 它标记历程每个路径的结尾。 如果历程包含多个路径，我们建议您向每个端点添加标签，以便更便于阅读报表。 请参阅[此页](../reports/live-report.md)。
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### 结束活动{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-的 **[!UICONTROL End]** 活动用于标记历程每个路径的结尾。 它不是强制性的，但建议使用它以清晰直观地显示。 请参阅 [本页](../building-journeys/end-activity.md)
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### 结束历程{#close-journey}
 
