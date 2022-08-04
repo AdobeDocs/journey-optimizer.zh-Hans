@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 * **[!UICONTROL Actions failed in %]**:与提交操作的独特总次数相比，历程中操作失败的独特总次数。
 
-### 目标(#objectives-global)
+### 目标 {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 请注意，如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
 
-### 实验(#experimentation-global)
+### 实验 {#experimentation-global}
 
 >[!AVAILABILITY]
 >
