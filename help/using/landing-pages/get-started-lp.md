@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 11%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] 允许您创建和设计登陆页面，以将用户定向到在线表单，在该表单中，用户可以选择启用或选择禁用接收通信，或订阅特定服务（如新闻稿）。
 
+➡️ [在此视频中了解有关配置订阅和创建登陆页面的更多信息](#video)
+
 * 利用 [!DNL Journey Optimizer] 内容设计功能可轻松构建 **响应式登陆页面**.
 * 设置 **选择加入和选择退出流程** 快速、无缝地。
-* 创建订阅列表，使用户能够 **订购服务**. [了解更多信息](lp-use-cases.md#subscription-to-a-service)
-* 向收件人提供 **取消订阅功能** 接收你的通信。 [了解更多信息](lp-use-cases.md#opt-out)
-* 发送 **确认电子邮件** 选择启用或选择禁用时。 [了解更多信息](lp-use-cases.md#send-confirmation-email)
+* 创建订阅列表，使用户能够 **订购服务**. [了解详情](lp-use-cases.md#subscription-to-a-service)
+* 向收件人提供 **取消订阅功能** 接收你的通信。 [了解详情](lp-use-cases.md#opt-out)
+* 发送 **确认电子邮件** 选择启用或选择禁用时。 [了解详情](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
@@ -34,8 +36,8 @@ ht-degree: 11%
 </tr>
 </table>
 
-<!--
+## 操作方法视频{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+以下视频演示如何创建订阅列表、设置登陆页面以提供服务订阅或退订、将（取消）订阅选项集成到消息并配置相关历程。
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

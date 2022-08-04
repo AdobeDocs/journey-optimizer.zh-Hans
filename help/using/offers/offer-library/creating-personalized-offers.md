@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '648'
+ht-degree: 3%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 4%
 
 1. 添加约束以设置要显示的选件的条件。 [了解详情](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+
    ![](../assets/offer-constraints-example.png)
 
 1. 查看并保存选件。 [了解详情](#review)
@@ -72,6 +76,10 @@ ht-degree: 4%
 定义资格规则和约束后，将显示选件属性的摘要。
 
 1. 确保已正确配置所有内容。
+
+1. 您可以显示有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. 当您的选件已准备好呈现给用户时，单击 **[!UICONTROL Finish]**.
 

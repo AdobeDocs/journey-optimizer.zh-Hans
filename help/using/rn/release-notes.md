@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 24%
 
 * **允许列表逻辑更新**  — 现在，一旦启用了该功能，即使列表为空，允许列表逻辑也会应用。 [了解详情](../configuration/allow-list.md#logic)
 
-* **URL跟踪参数**  — 您现在可以使用表达式编辑器在电子邮件界面中配置URL跟踪参数（即消息预设）。 [了解详情](../configuration/email-settings.md#url-tracking)
+* **URL跟踪参数**  — 您现在可以使用表达式编辑器在电子邮件界面中配置URL跟踪参数（即预设）。 [了解详情](../configuration/email-settings.md#url-tracking)
 
 **优惠决策**
 

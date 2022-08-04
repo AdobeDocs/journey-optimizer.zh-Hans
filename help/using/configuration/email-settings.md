@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -192,9 +192,13 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-您还可以编辑每个 **[!UICONTROL Value]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开表达式编辑器。 从此处，您可以选择所选的上下文属性和/或直接编辑文本。
+您还可以编辑每个 **[!UICONTROL Value]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开编辑器。 从此处，您可以选择所选的上下文属性和/或直接编辑文本。
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 * Adobe Analytics兼容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics兼容URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
 
 您可以动态预览生成的跟踪URL。 每次添加、编辑或删除参数时，预览都会自动更新。
 

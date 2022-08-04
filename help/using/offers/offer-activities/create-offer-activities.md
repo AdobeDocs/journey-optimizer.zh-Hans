@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 2%
 
       了解如何在 [此部分](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >选择区段或决策规则时，将显示有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+1. 选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. 定义要用于为每个用户档案选择最佳选件的排名方法。
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    ![](../assets/review-decision.png)
 
-   您可以展开或折叠每个版面。 您还可以预览每个版面的可用选件、资格和排名详细信息。
+1. 您可以展开或折叠每个版面。 您可以预览每个版面的可用选件、资格和排名详细信息。 您还可以显示有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
 
    ![](../assets/review-decision-details.png)
 

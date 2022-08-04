@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -128,19 +128,11 @@ ht-degree: 5%
 
 1. 与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
 
-1. 您可以单击 **[!UICONTROL Frequency rule]** 链接以查看将应用于所选类别和渠道的频率规则。 
+   >[!NOTE]
+   >
+   >消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL Transactional]** 将不会根据频度规则进行评估。
 
-   ![](assets/message-rules-msg-link.png)
-
-   将打开一个新选项卡，以显示匹配的消息频度规则。
-
-与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
-
->[!NOTE]
->
->消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL Transactional]** 将不会根据频度规则进行评估。
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. 您可以在 [全局报告](../reports/global-report.md)和 [实时报表](../reports/live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
 

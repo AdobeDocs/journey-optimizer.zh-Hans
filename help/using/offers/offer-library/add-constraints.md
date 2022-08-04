@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1601'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 2%
 1. 配置 **[!UICONTROL Offer eligibility]**. [了解详情](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >选择区段或决策规则时，将显示有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
 
 1. 定义 **[!UICONTROL Priority]** 选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他选件相比，优先级越高。
 
@@ -99,6 +95,10 @@ ht-degree: 2%
    >[!CAUTION]
    >
    >中当前不支持基于事件的选件 [!DNL Journey Optimizer]. 如果您根据 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您将无法在选件中利用它。
+
+选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### 使用区段和决策规则 {#segments-vs-decision-rules}
 
