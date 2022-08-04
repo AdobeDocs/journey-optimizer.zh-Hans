@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 95%
+source-wordcount: '1127'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 95%
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
    + [修改或停止营销活动](using/campaigns/modify-stop-campaign.md)
+   + 内容实验 {#content-experiment}
+      + [内容实验入门](using/campaigns/get-started-experiment.md)
+      + [创建内容实验](using/campaigns/content-experiment.md)
+      + [了解统计计算](using/campaigns/experiment-calculations.md)
    + [使用API触发营销活动](using/campaigns/api-triggered-campaigns.md)
    + 报表 {#reports}
       + [营销活动实时报告](using/campaigns/campaign-live-report.md)

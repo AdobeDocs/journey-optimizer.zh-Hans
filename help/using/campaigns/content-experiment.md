@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # 创建内容实验 {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
 
 内容实验功能允许您定义多个投放处理。 兴趣的受众被随机分配给每个治疗，以便确定哪个治疗在兴趣量度方面表现最佳。 您可以选择更改电子邮件的内容、主题或发件人。
 
@@ -121,4 +127,12 @@ ht-degree: 0%
 1. 检查营销活动配置是否正确，然后单击 **[!UICONTROL Activate]** 启动它。
 
    ![](assets/content_experiment_14.png)
+
+## 实验报表 {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 选项卡详细列出了与每个变体的执行方式以及测试期间是否存在最佳执行者相关的主要信息。
+
+有关此报告的更多详细信息，请参阅 [促销活动全局报告](../campaigns/content-experiment.md#experimentation-report) 页面。
 

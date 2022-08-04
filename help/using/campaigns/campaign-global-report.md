@@ -1,6 +1,6 @@
 ---
-title: 营销活动全局报告
-description: 了解如何使用营销活动全局报告中的数据
+title: 促销活动全局报告
+description: 了解如何使用Campaign全局报告中的数据
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1542'
 ht-degree: 2%
 
 ---
 
-# 营销活动全局报告 {#campaign-global-report}
+# 促销活动全局报告 {#campaign-global-report}
 
-可通过 **[!UICONTROL Global view]** 按钮。
+营销活动全局报告可直接通过 **[!UICONTROL Global view]** 按钮。
 
 营销活动 **[!UICONTROL Global report]** 页面中将显示以下选项卡：
 
@@ -41,11 +41,53 @@ ht-degree: 2%
 
 * **[!UICONTROL Actions failed in %]**:与提交操作的独特总次数相比，历程中操作失败的独特总次数。
 
-<!--
-### Experimentation tab (#experimentation-global)
+### 目标(#objectives-global)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+
+![](assets/performance_report.gif)
+
+的 **[!UICONTROL Objectives]** 选项卡，通过定位一个特定量度来优化投放报表。
+
+的 **[!UICONTROL Objectives]** 已列出，链接到 **[!UICONTROL Datasets]** 定义与系统的连接以检索其他信息。 内置列表 **[!UICONTROL Objectives]** 可用，但您可以通过添加新来添加自己的 **[!UICONTROL Dataset]**. 有关详细过程，请参阅此文档。
+
+选择要定位的目标后，这两个 **[!UICONTROL Performance overview]** 和 **[!UICONTROL Campaign objective]** 小组件将提供您交付性能的详细摘要。
+
+使用 **[!UICONTROL Campaign objective]** 小组件中，您还可以选择将主要目标与其他量度进行比较。
+
+请注意，如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
+
+### 实验(#experimentation-global)
+
+>[!AVAILABILITY]
+>
+>内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+
+![](assets/experimentation_report_3.png)
+
+从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 选项卡详细列出了与每个变体的执行方式以及是否存在最佳执行者相关的主要信息。
+
+请注意，定义最佳表演可能需要一些时间，它将由此图标表示 ![](assets/experimentation_report_1.png).
+
+的 **[!UICONTROL Experiment result]** 小组件详细介绍每个变体的性能。 您可以通过从 **[!UICONTROL Baseline]** 下拉菜单。 最佳待遇将用星形图标表示。
+
+下表显示了以下量度：
+
+* **[!UICONTROL Profiles]**:针对此治疗的用户档案数。
+
+* **[!UICONTROL Unique outbound clicks]**:出站渠道的总点击次数。
+
+* **[!UICONTROL Count per profile]**:实验目标量度的总值除以用户档案数。
+
+* **[!UICONTROL Confidence interval]**:基线与最佳处理之间性能差异的百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
+
+* **[!UICONTROL Average lift]**:给定治疗相对于基准线的转化率提高的百分比。 [了解详情](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**:有证据表明，给定治疗与基准治疗相同。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+
+要深入了解这些结果以及如何解释它们，请参阅 [本页](../campaigns/get-started-experiment.md#interpret-results).
 
 ## “电子邮件”选项卡 {#email-global}
 
@@ -73,7 +115,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 
 * **[!UICONTROL Excluded]**:已被Adobe Journey Optimizer排除的用户档案数。
 
-的 **[!UICONTROL Email - Tracking statistics]** 包含用于投放的收件人活动的可用数据：
+的 **[!UICONTROL Email - Tracking statistics]** 小组件包含用于投放的收件人活动的可用数据：
 
 * **[!UICONTROL Opens]**:投放中打开投放的次数。
 
