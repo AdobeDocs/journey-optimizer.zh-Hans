@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 94%
       + [内容实验入门](using/campaigns/get-started-experiment.md)
       + [创建内容实验](using/campaigns/content-experiment.md)
       + [了解统计计算](using/campaigns/experiment-calculations.md)
-   + [使用API触发营销活动](using/campaigns/api-triggered-campaigns.md)
+   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
    + 报表 {#reports}
       + [营销活动实时报告](using/campaigns/campaign-live-report.md)
       + [营销活动全局报告](using/campaigns/campaign-global-report.md)
@@ -239,8 +239,8 @@ ht-degree: 94%
       + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
       + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
-+ 跟踪和监控 {#reporting}
-   + 实时报告{#live-report}
++ 跟踪和监测 {#reporting}
+   + 实时报告 {#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
@@ -279,7 +279,7 @@ ht-degree: 94%
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
       + AI 模型 {#ai-models}
          + [关于 AI 模型](using/offers/ranking/ai-models.md)
-         + AI模型类型 {#ai-model-types}
+         + AI 模型类型 {#ai-model-types}
             + [自动优化模型](using/offers/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/offers/ranking/personalized-optimization-model.md)
          + 创建 AI 模型 {#configure-ai-model}
@@ -354,8 +354,8 @@ ht-degree: 94%
          + [创建决策](using/offers/api-reference/activities-api/activities/create.md)
          + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
          + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
-      + 使用API提供优惠 {#offer-delivery-api}
-         + [开始使用选件交付API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+      + 使用 API 投放优惠 {#offer-delivery-api}
+         + [优惠投放 API 入门](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -385,8 +385,8 @@ ht-degree: 94%
             + [重试](using/configuration/retries.md)
             + [允许列表](using/configuration/allow-list.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
-      + 设置通道曲面 {#set-up-channels}
-         + [创建通道曲面](using/configuration/channel-surfaces.md)
+      + 设置渠道平面 {#set-up-channels}
+         + [创建渠道平面](using/configuration/channel-surfaces.md)
          + [配置电子邮件设置](using/configuration/email-settings.md)
          + [使用密送电子邮件](using/configuration/bcc-email.md)
       + [管理执行地址](using/configuration/primary-email-addresses.md)

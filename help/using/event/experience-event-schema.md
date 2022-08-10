@@ -9,7 +9,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 ## 利用架构关系{#leverage_schema_relationships}
 
-Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
 
 假设您的品牌数据模型有一个用于捕获购买的架构。 您还具有产品目录的架构。 您可以在购买架构中捕获产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您便可以为购买笔记本电脑的所有客户创建一个区段，而无需明确列出所有笔记本电脑ID或捕获事务系统中的每个产品详细信息。
 

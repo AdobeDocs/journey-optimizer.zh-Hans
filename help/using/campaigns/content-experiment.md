@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -135,4 +136,3 @@ ht-degree: 1%
 从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 选项卡详细列出了与每个变体的执行方式以及测试期间是否存在最佳执行者相关的主要信息。
 
 有关此报告的更多详细信息，请参阅 [促销活动全局报告](../campaigns/content-experiment.md#experimentation-report) 页面。
-

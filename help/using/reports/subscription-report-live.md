@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -35,4 +36,3 @@ ht-degree: 0%
 ![](assets/subscription_report_4.png)
 
 的 **订阅 — 划分** 和 **取消订阅 — 划分** 图表表示过去24小时内订阅或取消订阅的总人数，具体取决于消息、登陆页面和渠道。
-

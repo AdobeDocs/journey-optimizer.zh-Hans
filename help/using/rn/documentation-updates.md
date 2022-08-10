@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1772'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 91%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年7月的发行版本。 [了解详情](release-notes.md)
-* 的 **设置通道曲面** 阐明并更新了章节，其中包含描述如何配置短信渠道的页面链接。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
-* 在历程属性中， **配置文件时区** 选项现在默认处于禁用状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 对&#x200B;**设置渠道平面**&#x200B;部分进行了修正和更新，添加了描述如何配置短信渠道的页面的链接。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+* 在历程属性中，**配置文件时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* 在 **等待** 活动， **固定日期** 选项不再可用。 [了解详情](../building-journeys/wait-activity.md)
-* 添加了有关 **增量读取** 选项 **读取区段** 活动。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 在 **配置文件上限** 条件类型。 [了解详情](../building-journeys/condition-activity.md#profile_cap)
-* 添加了对业务事件的限制。 [了解详情](../start/guardrails.md#events-g)
+* 在&#x200B;**等待**&#x200B;活动中，**固定日期**&#x200B;选项不再可用。[了解详情](../building-journeys/wait-activity.md)
+* 在&#x200B;**读取区段**&#x200B;活动中添加了有关&#x200B;**增量读取**&#x200B;选项的更多信息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 添加了关于&#x200B;**用户档案上限**&#x200B;条件类型的建议。[了解详情](../building-journeys/condition-activity.md#profile_cap)
+* 添加了对业务事件的限制。[了解详情](../start/guardrails.md#events-g)
 
 ## 2022 年 6 月 {#june-2022}
 
@@ -43,7 +43,7 @@ ht-degree: 91%
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
 * “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../messages/send-time-optimization.md)
-* Batch Decisioning API已添加到可用API列表中，以交付个性化优惠。 [了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* Batch Decisioning API 已添加到可用 API 列表中，以提供个性化优惠。[了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
 

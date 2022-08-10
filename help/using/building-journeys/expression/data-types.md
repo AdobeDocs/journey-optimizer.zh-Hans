@@ -157,7 +157,7 @@ JSON格式：字符串。
 
 它不存储或表示时区。 相反，它是日期的描述，用于生日，并与在墙上钟上看到的当地时间相结合。
 
-如果没有其他信息（如偏移或时区），它不能在时间线上表示即时。
+如果没有其他信息（如偏移或时区），它无法在时间线上表示即时。
 
 它可以封装在toDateTimeOnly函数中。
 
@@ -194,7 +194,7 @@ JSON格式：字符串。
 
 它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您还可以传递传递传递新纪元值的整数。 [了解更多信息](https://www.epochconverter.com)
+您还可以传递传递传递新纪元值的整数。 [了解详情](https://www.epochconverter.com)
 
 时区可以由偏移或时区代码指定(例如：欧洲/巴黎，Z — 表示UTC)。
 

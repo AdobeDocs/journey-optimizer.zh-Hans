@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >abstract="从2022年7月25日开始，消息菜单会消失，并且会直接从历程创作消息。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="将消息另存为模板"
 
-Adobe Journey Optimizer将发布一项新功能，以改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为Journey Optimizer从业人员，您现在可以直接从历程创建和创作消息。
+Adobe Journey Optimizer将发布一项新功能，以改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为使用 Journey Optimizer 的从业者，您现在可以在历程中直接创建和创作消息。
 
 此功能需要迁移使用消息的现有历程。 在此页面中，您将找到有关此更改以及所需步骤的必要信息。
 
@@ -65,7 +65,7 @@ Here are the main changes in the interface:
 
    ![](assets/inline-migration-timeline.png)
 
-* **必需操作**:将为您执行历程的自动转换。 话虽如此，我们需要你的帮助。 详细了解此 [页面](../rn/inline-messages-steps.md).
+* **必需操作**:将为您执行历程的自动转换。 也就是说，需要您帮我们完成几个步骤。详细了解此 [页面](../rn/inline-messages-steps.md).
 
 * **弃用**:9月6日之后，所有仍在使用旧版消息的历程都将停止，并将在稍后删除。
 
@@ -108,7 +108,7 @@ Adobe的愿景是不断简化产品，以提供高效、优化的用户流。 �
 
 ## 迁移时间表{#iterations}
 
-需要进行迁移，才能使用 **消息** 包含内联创作操作的历程。 将为您执行历程的自动转换。 话虽如此，我们需要你的帮助。
+需要进行迁移，才能使用 **消息** 包含内联创作操作的历程。 您需要操作历程的自动转换。也就是说，需要您帮我们完成几个步骤。
 
 每个区域在夜间通过多次迭代进行迁移。 以下是迁移时间表：
 

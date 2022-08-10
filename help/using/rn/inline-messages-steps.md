@@ -1,17 +1,17 @@
 ---
 title: 迁移到历程内联创作的步骤
 description: 迁移到历程内联创作的步骤
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-
 # 内联创作迁移步骤{#migration-steps}
 
-有关在Adobe Journey Optimizer中创作内容的新过程，请参阅 [页面](../rn/inline-messages.md). 将为您执行历程的自动转换。 话虽如此，我们需要你的帮助。
+有关在Adobe Journey Optimizer中创作内容的新过程，请参阅 [页面](../rn/inline-messages.md). 您需要操作历程的自动转换。也就是说，需要您帮我们完成几个步骤。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -190,4 +190,3 @@ Click the **Check status** button in the top banner and check that all journeys 
 ## 第三次和上次迭代之前（9月5日）{#migration-step-4}
 
 8月1日至9月5日，您将需要验证是否已迁移所有内容，并且没有剩余的旅程仍在使用消息，否则，将在9月5日弃用它们。
-

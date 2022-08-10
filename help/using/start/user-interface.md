@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 >本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
 
 
-## 左侧导航 {#left-nav}
+## 左侧导航栏 {#left-nav}
 
-浏览左侧的链接以访问 [!DNL Journey Optimizer] 功能。
+使用左侧的链接访问 [!DNL Journey Optimizer] 功能。
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ ht-degree: 92%
 >
 >可用功能可能因您的权限和许可协议而异。
 
-您可以在下面找到左侧导航中可用的服务和功能的完整列表，以及指向关联帮助页面的链接。
+您可以在左侧导航栏中找到以下完整的服务和功能列表以及相关帮助页面的链接。
 
 **主页**
 
-[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。的 **[!UICONTROL Recents]** 列表提供了最近创建的事件和历程的快捷方式。 此列表显示创建和修改它们的日期及状态。
+[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。**[!UICONTROL Recents]**&#x200B;列表提供指向最近创建的事件和历程的快捷方式。此列表显示创建和修改它们的日期及状态。
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]**  — 创建、设计、测试和发布登陆页面。 [了解详情](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - 创建、设计、测试和发布登陆页面。[了解详情](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -127,7 +127,7 @@ ht-degree: 92%
 | 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
 | 在部分内移动，将焦点设置到单个元素 | 箭头 |
 | 选择或清除焦点元素 | 回车键或空格键 |
-| 取消选择、折叠窗格或关闭对话框 | Esc |
+| 取消选择、折叠面板、或关闭对话框 | Esc |
 
 在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
@@ -274,7 +274,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 搜索{#unified-search}
 
-无论从Adobe Journey Optimizer界面的哪个位置，都可以使用顶部栏中心的统一Adobe Experience Cloud搜索功能，在沙箱中查找资产、历程、数据集等。
+在 Adobe Journey Optimizer 界面的任何地方，使用顶部中央位置的 Adobe Experience Cloud 统一搜索功能在沙箱中查找资产、历程和数据集等等。
 
 开始输入内容以显示排名靠前的结果。与输入的关键词有关的帮助文章也会显示在结果中。
 
@@ -300,10 +300,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ![](assets/filter-journeys.png)
 
-在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL Used in]** 字段显示使用该特定事件、字段组或操作的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;按钮以显示相应历程的列表。
+在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL Used in]** 字段显示使用该特定事件、字段组或操作的历程数。您可以单击“**[!UICONTROL View journeys]**”按钮以显示相应历程的列表。
 
 ![](assets/journey3bis.png)
 
-在列表中，您可以对每个元素执行基本操作。 例如，您可以重复或删除项目。
+在列表中，您可以对每个元素执行基本操作。例如，您可以删除项目或制作项目副本。
 
 ![](assets/journey4.png)

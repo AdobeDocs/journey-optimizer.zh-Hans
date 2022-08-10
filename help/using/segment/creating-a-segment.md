@@ -55,7 +55,7 @@ ht-degree: 5%
 
 1. 区段准备就绪后，单击 **[!UICONTROL Save]**. 它会显示在Adobe Experience Platform区段列表中。 请注意，搜索栏可帮助您在列表中搜索特定区段。
 
-现在，该区段可用于您的历程。 如需详细信息，请参阅[此部分](../segment/about-segments.md)。
+现在，该区段可用于您的历程。 有关详细信息，请参阅[此部分](../segment/about-segments.md)。
 
 ## 操作方法视频{#video-segment}
 

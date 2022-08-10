@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 10%
 
 ---
@@ -121,7 +121,7 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 每个参数都是Handlebars表达式。 这些帮助程序可以从模板中的任何上下文访问。
 
 这些块帮助程序由帮助程序名称前的#标识，并且需要同名的匹配闭合/。
-块是具有块开口({{# }})和关闭({{/}})。
+块是具有块开头的表达式({{# }}) and closing ({{/}})。
 
 
 >[!NOTE]

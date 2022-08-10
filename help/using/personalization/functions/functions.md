@@ -238,7 +238,7 @@ ht-degree: 3%
         <td><a href="string.md#leftTrim">左裁切</a></td><td>此函数从字符串的开头删除空格</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a></td><td>此函数用于获取字符串或表达式中的字符数</td>
+        <td><a href="string.md#length">长度</a></td><td>此函数用于获取字符串或表达式中的字符数</td>
     </tr>
     <tr>
         <td><a href="string.md#like">赞</a></td><td>此函数用于确定字符串是否与指定模式匹配</td>

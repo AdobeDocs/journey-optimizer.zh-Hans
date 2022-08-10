@@ -401,7 +401,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## 长度 {#length}
 
 的 `length` 函数，用于获取字符串或表达式中的字符数。
 

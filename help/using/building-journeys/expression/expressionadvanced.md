@@ -62,11 +62,11 @@ _高级表达式编辑器界面_
 
 屏幕左侧显示了可用字段和函数：
 
-* **[!UICONTROL Events]**：选择从入站事件接收的字段之一。显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解更多信息](../../event/about-events.md)
-* **[!UICONTROL Segments]**:如果您 **[!UICONTROL Segment qualification]** 事件，选择要在表达式中使用的区段。 [了解更多信息](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Data Sources]**：从数据源的字段组提供的字段列表中进行选择。[了解更多信息](../../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**:本节重组与给定用户档案的历程相关的技术字段。 [了解更多信息](journey-properties.md)
-* **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。[了解更多信息](functions.md)
+* **[!UICONTROL Events]**：选择从入站事件接收的字段之一。显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../../event/about-events.md)
+* **[!UICONTROL Segments]**:如果您 **[!UICONTROL Segment qualification]** 事件，选择要在表达式中使用的区段。 [了解详情](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Data Sources]**：从数据源的字段组提供的字段列表中进行选择。[了解详情](../../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**:本节重组与给定用户档案的历程相关的技术字段。 [了解详情](journey-properties.md)
+* **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。[了解详情](functions.md)
 
 ![](../assets/journey65.png)
 

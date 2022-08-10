@@ -1,5 +1,5 @@
 ---
-title: 设置通道曲面
+title: 设置渠道平面
 description: 了解如何配置和监视通道表面
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# 设置通道曲面 {#set-up-channel-surfaces}
+# 设置渠道平面 {#set-up-channel-surfaces}
 
 使用 [!DNL Journey Optimizer]，您可以设置渠道曲面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动设备应用程序等。
 

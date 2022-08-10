@@ -1,5 +1,5 @@
 ---
-title: 开始使用选件交付API
+title: 优惠投放 API 入门
 description: 进一步了解可用于提供个性化优惠的API。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 开始使用选件交付API {#about-decisioning-apis}
+# 优惠投放 API 入门 {#about-decisioning-apis}
 
 您可以使用 **决策** 或 **Edge Decisioning** API。 此外， **Batch Decisioning** API允许您在一次调用中向给定区段中的所有用户档案交付选件。 区段中每个用户档案的选件内容都放置在Adobe Experience Platform数据集中，该数据集可用于自定义批量工作流。
 

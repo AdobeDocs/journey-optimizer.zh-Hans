@@ -50,7 +50,7 @@ Discover [!DNL Adobe Journey Optimizer] 个性化功能，通过利用您拥有�
 
 详细了解 [!DNL Journey Optimizer] 表达式编辑器 [此部分](personalization-build-expressions.md)
 
-## 操作方法视频{#video-perso}
+## 操作说明视频{#video-perso}
 
 了解如何使用历程中的情境式事件信息来对消息进行个性化。
 

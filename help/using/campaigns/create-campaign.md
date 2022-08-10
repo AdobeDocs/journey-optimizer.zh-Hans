@@ -11,7 +11,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >在创建新营销活动之前，请确保您有表面渠道（即消息预设）和Adobe Experience Platform区段可供使用。 请通过以下章节了解更多信息：
 >
->* [创建通道曲面](../configuration/channel-surfaces.md)
+>* [创建渠道平面](../configuration/channel-surfaces.md)
 >* [区段入门](../segment/about-segments.md)
 
 

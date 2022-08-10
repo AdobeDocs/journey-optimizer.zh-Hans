@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -144,5 +145,3 @@ Adobe使用与上述置信序列一致的“任意时间有效”置信度和“
    >[!CAUTION]
    >
    >更多分析意味着，检测虚假效果或误报的可能性更高。
-
-

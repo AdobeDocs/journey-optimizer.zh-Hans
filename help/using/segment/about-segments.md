@@ -9,7 +9,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 * 使用 **区段鉴别** 事件活动，根据Adobe Experience Platform区段入口和出口，让个人进入历程或在历程中前进。 例如，您可以让所有新的白银客户进入历程并发送消息。 有关如何使用此活动的更多信息，请参阅 [此部分](../building-journeys/segment-qualification-events.md).
 
-* 生成 **复杂条件** 使用简单或高级表达式编辑器在历程中访问。 在 [此部分](../building-journeys/condition-activity.md#using-a-segment).
+* 生成 **复杂条件** 使用简单或高级表达式编辑器在历程中访问。 有关详细信息，请参阅[此部分](../building-journeys/condition-activity.md#using-a-segment)。
 
 ## Adobe Journey Optimizer评价方法 {#evaluation-method-in-journey-optimizer}
 

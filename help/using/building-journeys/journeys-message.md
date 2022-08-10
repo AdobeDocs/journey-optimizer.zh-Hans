@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 3%
 
 要在历程中添加消息，请执行以下步骤：
 
-1. 通过 [事件](general-events.md) 或 [读取区段](read-segment.md) 活动。
+1. 通过[事件](general-events.md)或[读取区段](read-segment.md)活动开始您的历程。
 
-1. 从 **操作** ，拖放 **电子邮件**, **短信** 或 **推送** 活动。
+1. 从调板的&#x200B;**操作**&#x200B;部分，拖放&#x200B;**电子邮件**、**短信**&#x200B;或&#x200B;**推送**&#x200B;活动到画布中。
 
    ![](../messages/assets/add-a-message.png)
 
