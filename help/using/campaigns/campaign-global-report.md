@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
+source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 的 **[!UICONTROL Objectives]** 选项卡，通过定位一个特定量度来优化投放报表。
 
-的 **[!UICONTROL Objectives]** 已列出，链接到 **[!UICONTROL Datasets]** 定义与系统的连接以检索其他信息。 内置列表 **[!UICONTROL Objectives]** 可用，但您可以通过添加新来添加自己的 **[!UICONTROL Dataset]**. 有关详细过程，请参阅此文档。
+的 **[!UICONTROL Objectives]** 已列出，链接到 **[!UICONTROL Datasets]** 定义与系统的连接以检索其他信息。 内置列表 **[!UICONTROL Objectives]** 可用，但您可以通过添加新来添加自己的 **[!UICONTROL Dataset]**. 有关详细过程，请参阅此 [部分](reporting-configuration.md).
 
 选择要定位的目标后，这两个 **[!UICONTROL Performance overview]** 和 **[!UICONTROL Campaign objective]** 小组件将提供您交付性能的详细摘要。
 
