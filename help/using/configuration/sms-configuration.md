@@ -4,10 +4,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 8%
+source-wordcount: '481'
+ht-degree: 7%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 8%
 >目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
 ## 创建新API凭据 {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="配置短信供应商"
+>abstract="选择您的供应商并填写您的短信API凭据。"
 
 要使用Journey Optimizer配置短信供应商，请执行以下步骤：
 
@@ -45,6 +50,12 @@ ht-degree: 8%
 现在，创建和配置API凭据后，您需要为短信消息创建渠道表面（即消息预设）。
 
 ## 为短信消息创建渠道表面 {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="定义短信类别"
+>abstract="选择使用此表面时将发送的短信消息类型：需要用户同意的促销短信消息，或非商业短信消息的交易型营销，也可以在特定环境中发送给未订阅的用户档案。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="选择退出营销短信消息"
 
 配置短信渠道后，您需要创建渠道表面，以便能够从 **[!DNL Journey Optimizer]**.
 
