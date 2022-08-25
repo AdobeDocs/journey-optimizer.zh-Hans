@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 13%
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 13%
 1. 在工作区中添加和配置新字段时， **[!UICONTROL Segment properties]** 窗格显示属于该区段的估计用户档案的信息。 单击 **[!UICONTROL Refresh estimate]** 更新数据。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >如果规则参数包含不在配置文件中的数据（如上下文数据），则配置文件估计不可用。 例如，要求当前天气为≥80度的资格规则。
 
 1. 单击 **[!UICONTROL Save]** 确认。
 

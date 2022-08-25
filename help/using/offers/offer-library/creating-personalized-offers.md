@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '680'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,8 @@ ht-degree: 3%
    >[!NOTE]
    >
    >选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+   >
+   >请注意，如果规则参数包含的数据不在配置文件中，例如上下文数据，则配置文件估计将不可用。 例如，要求当前天气为≥80度的资格规则。
 
    ![](../assets/offer-constraints-example.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,13 @@ ht-degree: 0%
 * **[!UICONTROL Actions successfully executed]**:总数 **[!UICONTROL Actions]** 成功执行历程。
 
 * **[!UICONTROL Error in action]**:发生的错误总数 **[!UICONTROL Actions]**.
+
+![](assets/global_report_25.png)
+
+的 **[!UICONTROL Consent policies]** 表格和图形显示自定义操作中从每个策略中排除的用户档案数。
+有关自定义操作的更多信息，请参阅 [详细文档](../action/about-custom-action-configuration.md).
+
+请注意，要使这些小组件显示在您的历程报表中，您需要重置功能板。 为此，请单击 **[!UICONTROL Modify]** then **[!UICONTROL Reset]** 中。
 
 ## “电子邮件”选项卡 {#email-global}
 

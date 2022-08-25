@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,3 +88,4 @@ ht-degree: 4%
 ### 阅读区段 {#read-segment-g}
 
 * 流式处理区段始终是最新的，但在检索时不会计算批处理区段。 它们仅在每日批量评估时间每天进行评估。
+* 对于使用读取区段活动的历程，可以同时启动的历程数上限。 重试将由系统执行，但请通过将重试分隔5到10分钟，避免从同一时间开始的历程（具有读取区段、计划或“尽快”启动）。

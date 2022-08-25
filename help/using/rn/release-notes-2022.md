@@ -2,16 +2,119 @@
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
 workflow-type: tm+mt
-source-wordcount: '1790'
-ht-degree: 100%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
 # 2022 年发行说明 {#release-notes-2022}
 
 本页列出了 [!DNL Journey Optimizer] 于 2022 年发布的功能和改进。
+
+
+## 2022 年 7 月版 {#july-2022-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>新增内联消息传送流程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 为历程中的消息创作提供了一个新流程。在 Journey Optimizer 中，内联消息传送可简化创建和发送电子邮件、推送通知或短信的工作流程，为用户节省大量时间。通过将消息作为单独的步骤删除，而改为在历程画布上的操作中使其可内联编辑，用户只需单击较少的按钮并导航较少的屏幕即可设计和编辑内容。</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>有关更多信息，请参阅<a href="../messages/get-started-content.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>基于属性的访问控制（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现可使用标签来识别架构字段，这些标签可定义组织或数据使用范围。管理员可使用权限界面定义涵盖 XDM 架构字段的访问策略，更好地管理授予用户或用户组（内部、外部或第三方用户）的访问权限，以及管理特定类型数据（即敏感个人数据/SPD）的访问权限。</p>
+<p>目前，基于属性的访问控制的使用仅限于选定的用户，但将在未来版本中部署到所有环境。</p>
+<p>有关更多信息，请参阅<a href="../administration/attribute-based-access.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>批量决策作业</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现可从用户界面运行批量决策作业，这样就不需要开发人员来运行批处理 API 作业，还可以缩短营销所需的时间。使用新界面可创建作业并管理当前/过去的作业。</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>有关更多信息，请参阅<a href="../offers/batch-delivery.md">详细文档。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在决策中自动使用表现最好的优惠（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现可在决策管理中使用个性化优化模型系统。利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>目前，个性化优化 AI 模型的使用仅限于选定的用户，但将在未来的版本中部署到所有环境。</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进
+
+**历程**
+
+* **结束旅程**  — 在历程画布中， **结束** 活动已从面板中删除。 现在，结束标记默认会添加到每个路径的末尾，且无法删除。 这项改进可更好地报告客户从历程中退出的位置，而无需历程从业者执行任何操作。 请参阅 [文档](../building-journeys/journey-end.md) 和 [功能视频](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+
+
+* 的 **配置文件时区** 默认情况下，历程属性中的选项处于未选中状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+
+**消息**
+
+* 消息预设现已改为&#x200B;**渠道平面**。[了解详情](../configuration/channel-surfaces.md)
+
+**管理**
+
+* **PTR 记录版本** - 现在，更新 PTR 记录时，处理时间最多只需 3 小时。[了解详情](../configuration/ptr-records.md#processing)
+
+* **允许列表 UI** - 现可使用 Journey Optimizer 用户界面向允许列表添加新的电子邮件地址或域。[了解详情](../configuration/allow-list.md)
+
+* **允许列表逻辑更新** - 现在，允许列表这一功能会在启用后立即应用允许列表逻辑，即使该列表为空也是如此。[了解详情](../configuration/allow-list.md#logic)
+
+* **URL跟踪参数**  — 您现在可以使用表达式编辑器在电子邮件界面中配置URL跟踪参数（即预设）。 [了解详情](../configuration/email-settings.md#url-tracking)
+
+**优惠决策**
+
+* **受众规模** - 现在，在创建决策规则、选择区段或规则以设置优惠资格，或将区段或规则添加到决策范围时，用户界面中会显示新的受众规模估算组件。
+
 
 ## 2022 年 6 月版 {#june-2022-release}
 
@@ -27,7 +130,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>现在，通过与 <b>Sinch</b> 或 <b>Twilio</b> 集成，您可以在 Journey Optimizer 中创建、个性化和发送短信。</p>
-<img src="assets/do-not-localize/SMS.gif"/>
+<!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。</p>
 <p>在此<a href="../messages/create-sms.md">详细文档</a>中了解如何创建和发送短信。</p>
 </td>
@@ -46,7 +149,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 电子邮件设计器集成插件为客户提供一种简单的方式来导航、许可和保存图像，用于消息创作。使用</br>全新的<b>查找类似 Stock 照片</b>选项，您可查找与图像的内容、颜色以及合成匹配的照片库。 </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
+<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../design/stock.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -63,7 +166,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>现在，您可以使用电子邮件密送功能存储由 Adobe Journey Optimizer 发送的电子邮件。在电子邮件预设中启用此选项，以便发送的每封电子邮件都会密送至您的密送电子邮件地址。</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
+<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../configuration/bcc-email.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -104,21 +207,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 ### 改进
@@ -158,7 +247,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的用户档案。</p>
-<img src="assets/do-not-localize/frequency-rn.gif"/>
+<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../configuration/frequency-rules.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -175,7 +264,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定用户档案显示优惠排名。</p>
-<img src="assets/do-not-localize/optimization.gif"/>
+<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">详细文档</a>。</p>
 </td>
 </tr>
@@ -209,7 +298,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您现在可以监测用户对 Adobe Journey Optimizer 资源执行的操作。</p>
-<img src="assets/do-not-localize/audit-rn.gif"/>
+<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../privacy/audit-logs.md">详细文档</a>。</p>
 </td>
 </tr>

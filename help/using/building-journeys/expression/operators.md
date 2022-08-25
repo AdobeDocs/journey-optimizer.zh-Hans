@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -121,7 +121,7 @@ not 3.15 < 1
 示例：
 
 ```json
-@ is not null
+@{BarBeacon.location} is not null
 ```
 
 ### 具有null
@@ -154,7 +154,9 @@ not 3.15 < 1
 <expression1> == <expression2>
 ```
 
-两者兼有 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果为布尔值。
+>[!NOTE]
+>
+>对于 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
 
 示例：
 
@@ -174,7 +176,10 @@ not 3.15 < 1
 <expression1> != <expression2>
 ```
 
-两者兼有 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果为布尔值。
+>[!NOTE]
+对于 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
+
+结果为布尔值。
 
 示例：
 

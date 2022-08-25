@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 3%
@@ -313,7 +313,7 @@ ht-degree: 3%
         <td><a href="string.md#url-decode">Url解码</a></td><td>此函数用于对URL编码的字符串进行解码。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Url encore</a></td><td>此函数用于对字符串进行URL编码。</td>
+        <td><a href="string.md#url-encode">Url编码</a></td><td>此函数用于对字符串进行URL编码。</td>
     </tr>
 </table>
 

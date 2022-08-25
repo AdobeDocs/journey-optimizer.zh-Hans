@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 15%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 15%
 使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
 
 一旦 [添加了短信](get-started-content.md) 活动，并定义基本设置，请使用 **[!UICONTROL Actions: SMS]** 用于创建短信消息内容的右窗格。
-
->[!AVAILABILITY]
->
->目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
 ![](assets/sms-edit-content.png)
 
@@ -46,8 +42,11 @@ ht-degree: 15%
 
    ![](assets/sms-content-preview.png)
 
-
 ## 验证短信{#sms-preview}
+
+>[!NOTE]
+>
+> 为了更好地交付，您应始终使用提供商支持的格式的电话号码。 例如， Twilio和Sinch仅支持E.164格式的电话号码。
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 

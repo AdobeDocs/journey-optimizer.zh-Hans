@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,15 +15,17 @@ ht-degree: 97%
 
 ## 2022 年 8 月 {#august-2022}
 
+* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年8月的发行情况。 [了解详情](release-notes.md)
 * “频度规则”部分已更新，以反映新的在线消息传递流程。 [了解详情](../configuration/frequency-rules.md#apply-frequency-rule)
 * 现在，有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面快速入门一节。 [了解详情](../landing-pages/get-started-lp.md#video)
+* 添加了对使用读取区段活动的历程的限制。 [了解详情](../building-journeys/read-segment.md)
+* 表达式编辑器运算符页面已得到改进。 [了解详情](../building-journeys/expression/operators.md)
 
 ## 2022 年 7 月 {#july-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 对&#x200B;**设置渠道平面**&#x200B;部分进行了修正和更新，添加了描述如何配置短信渠道的页面的链接。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
 * 在历程属性中，**配置文件时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * 在&#x200B;**等待**&#x200B;活动中，**固定日期**&#x200B;选项不再可用。[了解详情](../building-journeys/wait-activity.md)
 * 在&#x200B;**读取区段**&#x200B;活动中添加了有关&#x200B;**增量读取**&#x200B;选项的更多信息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * 添加了关于&#x200B;**用户档案上限**&#x200B;条件类型的建议。[了解详情](../building-journeys/condition-activity.md#profile_cap)

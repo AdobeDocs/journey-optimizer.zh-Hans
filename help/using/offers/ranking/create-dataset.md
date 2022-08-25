@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 13%
+source-wordcount: '237'
+ht-degree: 12%
 
 ---
 
@@ -28,8 +28,11 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >    在 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans).
+   >在 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
+1. 从 **[!UICONTROL Field groups]** 部分，选择 **[!UICONTROL Add]**.
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. 在 **[!UICONTROL Search]** 字段中，键入“建议交互”并选择 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组。
 
@@ -37,7 +40,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >    将在数据集中使用的架构必须具有 **[!UICONTROL Experience Event - Proposition Interactions]** 与其关联的字段组。 否则，您将无法在排名策略中使用它。
+   >将在数据集中使用的架构必须具有 **[!UICONTROL Experience Event - Proposition Interactions]** 与其关联的字段组。 否则，您将无法在排名策略中使用它。
 
 1. 单击 **[!UICONTROL Add field groups]**。
 
@@ -46,11 +49,11 @@ ht-degree: 13%
    >[!NOTE]
    >字段组以前称为mixin。
 
-1. 键入名称并保存架构。<!--How do you edit the fields in this new schema? Examples?-->
+1. 键入名称并保存架构。
 
 >[!NOTE]
 >
->    了解有关在 [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>了解有关在 [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}。
 
 现在，您可以使用此架构创建数据集。 为此，请执行以下步骤：
 

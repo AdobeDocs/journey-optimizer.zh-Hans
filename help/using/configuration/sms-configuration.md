@@ -4,10 +4,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 7%
+source-wordcount: '606'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer [创建短信界面](#message-preset-sms) （即短信预设）。 这些步骤必须由 [Adobe Journey Optimizer系统管理员](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
+>Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后者提供独立于Adobe Journey Optimizer的短信服务。  在短信配置之前，您必须与这些短信提供商之一创建一个帐户，以接收API令牌和服务ID，以便您能够在Adobe Journey Optimizer与适用的短信提供商之间建立连接。 您使用短信服务将受适用短信提供商的其他条款和条件的约束。 鉴于Sinch和Twilio是通过集成提供给Adobe Journey Optimizer用户的第三方产品，因此对于与短信服务相关的任何问题或查询，Sinch或Twilio的用户将需要联系适用的短信提供商以获取帮助。 Adobe不控制第三方产品，也不负责第三方产品。
 
 ## 创建新API凭据 {#create-api}
 
@@ -27,6 +27,11 @@ ht-degree: 7%
 >id="ajo_admin_sms_api"
 >title="配置短信供应商"
 >abstract="选择您的供应商并填写您的短信API凭据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="配置短信供应商"
+>abstract="选择为短信供应商配置的API凭据。"
 
 要使用Journey Optimizer配置短信供应商，请执行以下步骤：
 

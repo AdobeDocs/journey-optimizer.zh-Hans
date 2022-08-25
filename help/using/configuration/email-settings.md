@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类别"
->abstract="选择使用此表面时要发送的消息类型：促销消息的营销（需要用户同意）或非商业消息的事务型消息，也可以在特定环境中发送给未订阅的用户档案。"
+>abstract="选择使用此表面时将发送的电子邮件类型：营销促销电子邮件（需要用户同意）或非商业电子邮件（也可在特定环境中发送给未订阅用户档案）。"
 
 在 **电子邮件类型** 部分，选择将随曲面一起发送的消息类型： **营销** 或 **事务型**.
 
