@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1595'
 ht-degree: 9%
 
 ---
@@ -25,10 +25,15 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包含个性化和基于历程的上下文，以便利用您的品牌对Adobe Experience Cloud的数据分析。
 
-一旦 [添加了推送](get-started-content.md) 活动，并定义基本设置，使用 **[!UICONTROL Actions: Push]** 右窗格创建推送通知的内容。
+可以创建推送通知：
 
-![](assets/add-a-push.png)
+* 在 **历程**:在历程中添加推送活动并定义基本设置后，请使用 **[!UICONTROL Actions: Push]** 用于创建推送通知内容的右窗格。
 
+   有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
+
+* 在 **Campaign**:创建营销活动后，选择推送通知作为您的操作并定义基本设置。
+
+   有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
 
 使用专用选项卡定义的推送通知设置 **iOS** 和 **Android** 操作系统。
 

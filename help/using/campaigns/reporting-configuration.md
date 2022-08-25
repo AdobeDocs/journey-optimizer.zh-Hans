@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 4%
@@ -94,7 +95,7 @@ ht-degree: 4%
    >
    >如果您选择了非事件类型的数据集，则将无法继续。
 
-现在，在构建投放的报表时，您可以使用此数据集中的数据来检索其他自定义信息，并更好地优化报表。 [了解详情](campaign-global-report.md#objectives-global)
+现在，在构建投放的报表时，您可以使用此数据集中的数据来检索其他自定义信息，并更好地优化报表。 [了解详情](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

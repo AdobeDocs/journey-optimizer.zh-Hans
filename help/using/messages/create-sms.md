@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 10%
+source-wordcount: '461'
+ht-degree: 9%
 
 ---
 
@@ -22,9 +22,15 @@ ht-degree: 10%
 
 使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
 
-一旦 [添加了短信](get-started-content.md) 活动，并定义基本设置，请使用 **[!UICONTROL Actions: SMS]** 用于创建短信消息内容的右窗格。
+可以创建短信投放：
 
-![](assets/sms-edit-content.png)
+* 在 **历程**:在历程中添加短信活动并定义基本设置后，请使用 **[!UICONTROL Actions: SMS]** 用于创建短信消息内容的右窗格。
+
+   有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
+
+* 在 **Campaign**:创建营销活动后，选择短信作为您的操作并定义基本设置。
+
+   有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
 
 如果您是首次创建短信消息，请确保已配置短信渠道。 [了解详情](../configuration/sms-configuration.md)。
 

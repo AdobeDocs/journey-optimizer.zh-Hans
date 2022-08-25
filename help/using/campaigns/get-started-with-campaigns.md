@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 8%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +22,18 @@ ht-degree: 8%
 
 ## 关于营销活动 {#about}
 
+>[!IMPORTANT]
+>
+>此功能仅适用于具有促销活动相关产品用户档案（如促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看者）访问权限的用户。 有关如何分配产品配置文件的更多信息，请参阅 [本页](../administration/permissions.md).
+
 营销活动允许您使用多个渠道向特定区段交付一次性内容。 与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。
 
-您可以创建两种类型的营销活动：
+这样，您就可以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与活动、公告、法律声明或策略更新。
 
-* **计划促销活动** 允许针对促销用例（如促销优惠、参与促销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
-* **API触发的营销活动** 允许使用REST API（密码重置、卡放弃等）的简单事务/操作消息，其中需要使用用户档案属性和有效负载的上下文数据进行个性化。
+<!--You can create two types of campaigns:
 
-了解如何使用营销活动：
-* [创建营销活动](create-campaign.md)
-* [创建API触发的营销活动](api-triggered-campaigns.md)
-* [修改或停止营销活动](modify-stop-campaign.md)
-* [营销活动实时报告](campaign-live-report.md)
-* [营销活动全局报告](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## 访问活动 {#access}
 
@@ -55,7 +52,7 @@ ht-degree: 8%
 * **[!UICONTROL Live]**:营销活动已激活。
 * **[!UICONTROL Scheduled]**:营销活动已配置为在特定开始日期激活。
 * **[!UICONTROL Stopped]**:营销活动已手动停止。 您无法再激活或重复使用它(请参阅 [停止营销活动](modify-stop-campaign.md#stop))
-* **[!UICONTROL Completed]**:营销活动已完成。
+* **[!UICONTROL Completed]**:营销活动已完成。 此状态在营销活动激活3天后自动分配，如果营销活动定期执行，则在营销活动结束日期自动分配。
 * **[!UICONTROL Archived]**:营销活动已存档。
 
 >[!NOTE]

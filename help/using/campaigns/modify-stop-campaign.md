@@ -1,27 +1,27 @@
 ---
 title: 修改或停止营销活动
-description: 了解如何在中创建或停止激活的营销活动 [!DNL Journey Optimizer]
+description: 了解如何在中修改、停止或复制实时营销活动 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 15%
+source-wordcount: '227'
+ht-degree: 2%
 
 ---
 
-# 修改或停止营销活动 {#modify-stop-campaign}
+# 管理实时营销活动 {#modify-stop-campaign}
 
-激活营销活动后，您可以随时编辑或停止该营销活动。 为此，请执行以下步骤：
+激活营销活动后，您可以随时修改或停止该营销活动。 这些操作仅适用于定期执行的营销活动。
 
-## 修改激活的营销活动 {#modify}
+此外，您还可以复制实时营销活动（执行一次或定期执行）以创建新营销活动。
 
-要修改和创建营销活动的新版本，请执行以下步骤：
+## 修改定期营销活动 {#modify}
+
+要修改和创建定期营销活动的新版本，请执行以下步骤：
 
 1. 打开营销活动，然后单击 **[!UICONTROL Modify campaign]** 按钮。
 
@@ -39,20 +39,20 @@ ht-degree: 15%
    >
    >激活草稿将替换营销活动的实时版本。
 
-## 停止营销活动 {#stop}
+## 停止定期促销活动 {#stop}
 
-要停止营销活动，请将其打开，然后单击 **[!UICONTROL Stop campaign]** 按钮。
+要停止定期促销活动，请将其打开，然后单击 **[!UICONTROL Stop campaign]** 按钮。
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->停止营销活动后，该活动将仅在只读模式下可用。 您将无法再次激活它，也无法使用它创建新营销活动。
+>停止营销活动不会停止正在进行的发送，但会在发送已在进行时停止计划的发送或下一次发送。
 
-## 其他资源
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [营销活动入门](get-started-with-campaigns.md)
-* [创建营销活动](create-campaign.md)
-* [创建API触发的营销活动](api-triggered-campaigns.md)
-* [营销活动实时报告](campaign-live-report.md)
-* [营销活动全局报告](campaign-global-report.md)
+## 复制营销活动 {#duplicate}
+
+您可以复制实时营销活动以创建新营销活动。 要执行此操作，请打开营销活动，然后单击 **[!UICONTROL Duplicate]**.
+
+![](assets/create-campaign-duplicate.png)

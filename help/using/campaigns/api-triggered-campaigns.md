@@ -4,10 +4,10 @@ description: 了解如何使用 [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 4%
 >
 >交互式消息执行API目前处于测试阶段，可能会频繁更新，恕不另行通知。
 
-
 使用 [!DNL Journey Optimizer]，您可以创建营销活动，然后使用根据用户触发器从外部系统调用它们 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种操作和事务性消息传递需求，如密码重置、OTP令牌等。
 
 为此，您首先需要在Journey Optimizer中创建由API触发的营销活动，然后通过API调用启动其执行。
@@ -28,7 +27,7 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
 ## 创建API触发的营销活动 {#create}
 
-创建API触发的营销活动的过程与计划的营销活动相同，但受众选择除外，受众选择在API有效负载中执行。 有关如何创建营销活动的详细信息，请参阅 [此部分](create-campaign.md).
+创建API触发的营销活动的过程与计划的营销活动相同，但受众选择在API有效负载中执行的情况除外。 有关如何创建营销活动的详细信息，请参阅 [此部分](create-campaign.md).
 
 要创建API触发的营销活动，请执行以下步骤：
 
@@ -92,11 +91,3 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 >[!NOTE]
 >
 >在某些情况下，您可能需要向系统中不存在的用户档案发送事务型消息。 例如，未知用户尝试登录您的网站。 在这种情况下，相应的用户档案会自动创建到Adobe Experience Platform的 **AJO交互式消息传递配置文件数据集** 数据集。
-
-## 其他资源
-
-* [营销活动入门](get-started-with-campaigns.md)
-* [创建营销活动](create-campaign.md)
-* [修改或停止营销活动](modify-stop-campaign.md)
-* [营销活动实时报告](campaign-live-report.md)
-* [营销活动全局报告](campaign-global-report.md)

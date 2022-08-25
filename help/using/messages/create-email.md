@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 11%
+source-wordcount: '282'
+ht-degree: 9%
 
 ---
 
@@ -20,27 +20,33 @@ ht-degree: 11%
 >title="电子邮件创建"
 >abstract="只需三个简单步骤即可定义电子邮件参数。"
 
+可以创建电子邮件：
 
-一旦 [添加了电子邮件](get-started-content.md) 在您的历程中 <!--or a campaign--> 并定义基本设置后，您可以配置电子邮件并定义其内容。
+* 在 **历程**:在历程中添加电子邮件活动并定义基本设置后，请使用 **[!UICONTROL Actions: Email]** 用于创建推送通知内容的右窗格。
+
+   有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
+
+   ![](assets/email-edit-content.png)
+
+* 在 **Campaign**:创建营销活动后，选择电子邮件作为您的操作并定义基本设置。
+
+   有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
+
+   ![](assets/email_campaign.png)
 
 ## 定义电子邮件内容{#email-content}
 
-单击 **[!UICONTROL Edit content]** 按钮以设计电子邮件。
-
-![](assets/email-edit-content.png)
-
 使用 [!DNL Journey Optimizer] 将Designer发送到 [从头开始设计电子邮件](../design/create-email-content.md). 如果您已有内容，则可以 [在Email Designer中导入它](../design/existing-content.md)或 [代码您自己的内容](../design/code-content.md) in [!DNL Journey Optimizer].
 
-[!DNL Journey Optimizer] 附带一组 [内置模板](../design/email-templates.md) 来阻止你开始。 任何电子邮件也可另存为模板。
-
-进一步了解 [此部分](../design/design-emails.md).
+[!DNL Journey Optimizer] 附带一组 [内置模板](../design/email-templates.md) 来帮助你开始。 任何电子邮件也可另存为模板。
 
 使用 [!DNL Journey Optimizer] 表达式编辑器来使用用户档案数据个性化您的消息。 有关个性化的更多信息，请参考[此部分](../personalization/personalize.md)。
 
 ## 电子邮件跟踪{#email-tracking}
 
-如果要通过打开和/或单击链接来跟踪收件人的行为，请启用以下选项： **[!UICONTROL Email opens]** 和 **[!UICONTROL Click on email]**. 了解有关跟踪的更多信息(位于 [此部分](../design/message-tracking.md).
+如果要通过打开和/或单击链接来跟踪收件人的行为，请启用以下选项： **[!UICONTROL Email opens]** 和 **[!UICONTROL Click on email]**.
 
+了解有关跟踪的更多信息(位于 [此部分](../design/message-tracking.md).
 
 ## 验证电子邮件内容{#email-content-validate}
 

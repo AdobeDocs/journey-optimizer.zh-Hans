@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
@@ -129,10 +129,52 @@ ht-degree: 1%
 
    ![](assets/content_experiment_14.png)
 
-## 实验报表 {#experimentation-report}
+在配置实验和营销活动后，您可以使用营销活动报表跟踪投放成功与否。
+
+## 目标报告 {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+
+![](assets/performance_report.gif)
+
+的 **[!UICONTROL Objectives]** 选项卡，通过定位一个特定量度来优化投放报表。
+
+的 **[!UICONTROL Objectives]** 已列出，链接到 **[!UICONTROL Datasets]** 定义与系统的连接以检索其他信息。 内置列表 **[!UICONTROL Objectives]** 可用，但您可以通过添加新来添加自己的 **[!UICONTROL Dataset]**. 有关详细过程，请参阅此 [部分](reporting-configuration.md).
+
+选择要定位的目标后，这两个 **[!UICONTROL Performance overview]** 和 **[!UICONTROL Campaign objective]** 小组件将提供您交付性能的详细摘要。
+
+使用 **[!UICONTROL Campaign objective]** 小组件中，您还可以选择将主要目标与其他量度进行比较。
+
+请注意，如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
+
+## 实验报表 {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
 
 ![](assets/experimentation_report_3.png)
 
-从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 选项卡详细列出了与每个变体的执行方式以及测试期间是否存在最佳执行者相关的主要信息。
+从营销策划 **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** 选项卡详细列出了与每个变体的执行方式以及是否存在最佳执行者相关的主要信息。
 
-有关此报告的更多详细信息，请参阅 [促销活动全局报告](../campaigns/content-experiment.md#experimentation-report) 页面。
+请注意，定义最佳表演可能需要一些时间，它将由此图标表示 ![](assets/experimentation_report_1.png).
+
+的 **[!UICONTROL Experiment result]** 小组件详细介绍每个变体的性能。 您可以通过从 **[!UICONTROL Baseline]** 下拉菜单。 最佳待遇将用星形图标表示。
+
+下表显示了以下量度：
+
+* **[!UICONTROL Profiles]**:针对此治疗的用户档案数。
+
+* **[!UICONTROL Unique outbound clicks]**:出站渠道的总点击次数。
+
+* **[!UICONTROL Count per profile]**:实验目标量度的总值除以用户档案数。
+
+* **[!UICONTROL Confidence interval]**:基线与最佳处理之间性能差异的百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
+
+* **[!UICONTROL Average lift]**:给定治疗相对于基准线的转化率提高的百分比。 [了解详情](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**:有证据表明，给定治疗与基准治疗相同。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+
+要深入了解这些结果以及如何解释它们，请参阅 [本页](../campaigns/get-started-experiment.md#interpret-results).

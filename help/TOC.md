@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1124'
+ht-degree: 97%
 
 ---
 
@@ -37,16 +37,13 @@ ht-degree: 0%
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
-   + [修改或停止营销活动](using/campaigns/modify-stop-campaign.md)
+   + [管理实时营销活动](using/campaigns/modify-stop-campaign.md)
    + 内容实验 {#content-experiment}
       + [内容实验入门](using/campaigns/get-started-experiment.md)
       + [创建内容实验](using/campaigns/content-experiment.md)
       + [了解统计计算](using/campaigns/experiment-calculations.md)
-   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-   + 报表 {#reports}
-      + [营销活动实时报告](using/campaigns/campaign-live-report.md)
-      + [营销活动全局报告](using/campaigns/campaign-global-report.md)
       + [报表配置](using/campaigns/reporting-configuration.md)
+   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
 + 消息 {#messages}
    + [消息入门](using/messages/get-started-content.md)
    + [创建电子邮件](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 0%
    + 实时报告 {#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
+      + [Campaign实时报表](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
       + [访问全局报告仪表板](using/reports/global-report.md)
       + [历程全局报告](using/reports/journey-global-report.md)
+      + [促销活动全局报告](using/reports/campaign-global-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
    + 历程报告 {#reports}
