@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 3%
+source-wordcount: '321'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 3%
 营销活动允许您使用多个渠道向特定区段交付一次性内容。 与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。
 
 这样，您就可以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与活动、公告、法律声明或策略更新。
+
+➡️ [在视频中发现此功能](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ ht-degree: 3%
 >[!NOTE]
 >
 >位于 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 状态表示营销活动的新版本已创建且尚未激活(请参阅 [修改营销活动](modify-stop-campaign.md#modify))。
+
+## 操作方法视频 {#video}
+
+了解如何创建您的第一个营销活动。
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

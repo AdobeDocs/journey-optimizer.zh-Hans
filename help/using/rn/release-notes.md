@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '283'
 ht-degree: 50%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 50%
 <td>
 <p>使用Journey Optimizer促销活动通过各种渠道向特定区段交付一次性内容。 使用历程时，设计会按顺序执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在此处了解如何创建营销活动 <a href="../campaigns/get-started-with-campaigns.md">详细文档</a>.
+<p>了解如何在 <a href="../campaigns/get-started-with-campaigns.md">详细文档</a> 和 <a href="https://video.tv.adobe.com/v/345376">功能视频</a>.
 </td>
 </tr>
 </tbody>
