@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '373'
 ht-degree: 4%
 
 ---
@@ -22,10 +22,6 @@ ht-degree: 4%
 
 ## 关于营销活动 {#about}
 
->[!IMPORTANT]
->
->此功能仅适用于具有促销活动相关产品用户档案（如促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看者）访问权限的用户。 有关如何分配产品配置文件的更多信息，请参阅 [本页](../administration/permissions.md).
-
 营销活动允许您使用多个渠道向特定区段交付一次性内容。 与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。
 
 这样，您就可以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与活动、公告、法律声明或策略更新。
@@ -36,6 +32,28 @@ ht-degree: 4%
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
+
+## 先决条件 {#campaign-prerequisites}
+
+Campaign仅对有权访问与Campaign相关的用户可用 **[!UICONTROL Product profile]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。
+
+要分配对应的 **[!UICONTROL Product profile]** 对您的用户：
+
+1. 从 [!DNL Admin console]，选择 [!DNL Adobe Experience Platform] 产品。
+
+1. 从 **[!UICONTROL Product profile]** 选项卡，选择与内置营销活动相关的 **[!UICONTROL Product profile]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
+
+   有关Campaign的更多信息 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**，请参见 [页面](../administration/ootb-product-profiles.md).
+
+   ![](assets/do-not-localize/admin_1.png)
+
+1. 单击 **[!UICONTROL Add user]** 要将选定的 **[!UICONTROL Product profile]**.
+
+   ![](assets/do-not-localize/admin_2.png)
+
+1. 键入您的用户名、组或电子邮件地址，然后单击 **[!UICONTROL Save]**.
+
+您的用户现在将能够访问 **[!UICONTROL Campaigns]**.
 
 ## 访问活动 {#access}
 
