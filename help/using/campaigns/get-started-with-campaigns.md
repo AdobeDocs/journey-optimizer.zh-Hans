@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >title="营销活动"
 >abstract="创建营销活动，以便跨各种渠道将一次性内容交付到特定区段。 在创建营销活动之前，请确保已准备好渠道界面（即消息预设）和Adobe Experience Platform区段以供使用。"
 
-使用Journey Optimizer促销活动通过各种渠道向特定区段交付一次性内容。 使用历程时，设计会按顺序执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。
+使用Journey Optimizer促销活动通过各种渠道向特定区段交付一次性内容。 使用历程时，将依次执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。
 
 创建促销活动以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与促销活动、公告、法律声明或策略更新。
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
    要分配对应的 **[!UICONTROL Product profile]** 对您的用户：
 
-   1. 从 [!DNL Admin console]，选择 [!DNL Adobe Experience Platform] 产品。
+   1. 从 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，选择 [!DNL Adobe Experience Platform] 产品。
 
-   1. 从 **[!UICONTROL Product profile]** 选项卡，选择与内置营销活动相关的 **[!UICONTROL Product profile]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
+   1. 浏览到 **[!UICONTROL Product profile]** 选项卡，选择与内置营销活动相关的其中一个 **[!UICONTROL Product profile]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
 
       有关Journey Optimizer促销活动的更多信息 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**, [请参阅此页面](../administration/ootb-product-profiles.md).
 
@@ -56,12 +56,12 @@ ht-degree: 0%
       ![](assets/do-not-localize/admin_2.png)
 
    1. 键入您的用户名、组或电子邮件地址，然后单击 **[!UICONTROL Save]**.
-   您的用户现在将能够访问 **[!UICONTROL Campaigns]**.
+   您的用户现在可以访问 **[!UICONTROL Campaigns]**.
 
 +++
 
 1. **您需要受众**. 在创建营销活动之前，需要提供受众区段。 了解有关受众创建的更多信息 [本页](../segment/about-segments.md).
-1. **你需要一个通道表面**. 要选择渠道，必须创建并提供相应的渠道表面（即预设）。 进一步了解渠道曲面 [本页](../configuration/channel-surfaces.md)
+1. **你需要一个通道表面**. 要选择渠道，必须创建并提供相应的渠道表面（即预设）。 进一步了解渠道曲面 [本页](../configuration/channel-surfaces.md).
 
 ## 访问活动 {#access}
 
@@ -78,14 +78,14 @@ ht-degree: 0%
 * **[!UICONTROL Draft]**:营销活动正在编辑，尚未激活。
 * **[!UICONTROL Activating]**:营销活动正在激活。
 * **[!UICONTROL Live]**:营销活动已激活。
-* **[!UICONTROL Scheduled]**:营销活动已配置为在特定开始日期激活。
-* **[!UICONTROL Stopped]**:营销活动已手动停止。 您无法再激活或重复使用它(请参阅 [停止营销活动](modify-stop-campaign.md#stop))
+* **[!UICONTROL Scheduled]**:营销活动配置为在特定开始日期激活。
+* **[!UICONTROL Stopped]**:营销活动已手动停止。 您无法再激活或重复使用它。 [了解详情](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**:营销活动已完成。 此状态在营销活动激活3天后自动分配，如果营销活动定期执行，则在营销活动结束日期自动分配。
 * **[!UICONTROL Archived]**:营销活动已存档。
 
 >[!NOTE]
 >
->位于 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 状态表示营销活动的新版本已创建且尚未激活(请参阅 [修改营销活动](modify-stop-campaign.md#modify))。
+>位于 **[!UICONTROL Live]** 或 **[!UICONTROL Scheduled]** 状态表示营销活动的新版本已创建且尚未激活。 [了解详情](modify-stop-campaign.md#modify)。
 
 ## 操作方法视频 {#video}
 
