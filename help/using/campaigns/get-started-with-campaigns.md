@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
+source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '488'
 ht-degree: 4%
 
 ---
@@ -18,13 +18,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="营销活动"
->abstract="通过促销活动，您可以跨多个渠道向特定区段交付一次性内容。 在创建新营销活动之前，请确保已准备好渠道界面（即消息预设）和Adobe Experience Platform区段以供使用。"
+>abstract="创建营销活动，以便跨各种渠道将一次性内容交付到特定区段。 在创建营销活动之前，请确保已准备好渠道界面（即消息预设）和Adobe Experience Platform区段以供使用。"
 
-## 关于营销活动 {#about}
+使用Journey Optimizer促销活动通过各种渠道向特定区段交付一次性内容。 使用历程时，设计会按顺序执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。
 
-营销活动允许您使用多个渠道向特定区段交付一次性内容。 与设计按顺序执行操作的历程不同，营销活动可以同时执行操作（立即执行，也可以按指定的计划执行）。
-
-这样，您就可以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与活动、公告、法律声明或策略更新。
+创建促销活动以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与促销活动、公告、法律声明或策略更新。
 
 ➡️ [在视频中发现此功能](#video)
 
@@ -33,9 +31,13 @@ ht-degree: 4%
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## 先决条件 {#campaign-prerequisites}
+## 开始前 {#campaign-prerequisites}
 
-Campaign仅对有权访问与Campaign相关的用户可用 **[!UICONTROL Product profile]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。
+在Journey Optimizer中开始创建您的第一个营销活动之前，请查看以下先决条件：
+
+1. **您需要适当的权限**. 营销活动仅供有权访问与营销活动相关的营销活动的用户使用 **[!UICONTROL Product profile]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。 如果您无法访问营销活动，则必须扩展您的权限。 如果您有权访问 [Adobe Admin Console](https://adminconsole.adobe.com/)为您的组织{target=&quot;_blank&quot;}，请按照以下步骤操作。 如果没有，请联系您的Journey Optimizer管理员。
+
++++了解如何分配营销活动权限
 
 要分配对应的 **[!UICONTROL Product profile]** 对您的用户：
 
@@ -43,7 +45,7 @@ Campaign仅对有权访问与Campaign相关的用户可用 **[!UICONTROL Product
 
 1. 从 **[!UICONTROL Product profile]** 选项卡，选择与内置营销活动相关的 **[!UICONTROL Product profile]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
 
-   有关Campaign的更多信息 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**，请参见 [页面](../administration/ootb-product-profiles.md).
+   有关Journey Optimizer促销活动的更多信息 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**, [请参阅此页面](../administration/ootb-product-profiles.md).
 
    ![](assets/do-not-localize/admin_1.png)
 
@@ -54,6 +56,11 @@ Campaign仅对有权访问与Campaign相关的用户可用 **[!UICONTROL Product
 1. 键入您的用户名、组或电子邮件地址，然后单击 **[!UICONTROL Save]**.
 
 您的用户现在将能够访问 **[!UICONTROL Campaigns]**.
+
++++
+
+1. **您需要受众**. 在创建营销活动之前，需要提供受众区段。 了解有关受众创建的更多信息 [本页](../segment/about-segments.md).
+1. **你需要一个通道表面**. 要选择通道，必须创建并提供相应的通道曲面。 了解有关渠道曲面（即预设）的更多信息 [本页](../configuration/channel-surfaces.md)
 
 ## 访问活动 {#access}
 
