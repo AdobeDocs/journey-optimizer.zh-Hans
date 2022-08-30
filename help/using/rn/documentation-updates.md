@@ -16,8 +16,8 @@ ht-degree: 0%
 ## 2022 年 8 月 {#august-2022}
 
 * 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年8月的发行情况。 [了解详情](release-notes.md)
-* “频度规则”部分已更新，以反映新的在线消息传递流程。 [了解详情](../configuration/frequency-rules.md#apply-frequency-rule)
-* 现在，有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面快速入门一节。 [了解详情](../landing-pages/get-started-lp.md#video)
+* “频度规则”部分已更新，以反映新的内联消息传递流程。[了解详情](../configuration/frequency-rules.md#apply-frequency-rule)
+* 现在，要获取有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面部分的快速入门。 [了解详情](../landing-pages/get-started-lp.md#video)
 * 添加了对使用读取区段活动的历程的限制。 [了解详情](../building-journeys/read-segment.md)
 * 表达式编辑器运算符页面已得到改进。 [了解详情](../building-journeys/expression/operators.md)
 

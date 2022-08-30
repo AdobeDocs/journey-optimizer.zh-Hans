@@ -9,8 +9,8 @@ hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target=&quot;_blank&quot;}：**experienceevent-web**、**experienceevent-application**、**experienceevent-commerce**。如果选择的数据集与这些条件不匹配，您将无法保存所做的更改。
+   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}：**experienceevent-web**、**experienceevent-application**、**experienceevent-commerce**。如果选择的数据集与这些条件不匹配，您将无法保存所做的更改。
 
    ![](assets/reporting-config-datasets.png)
 
