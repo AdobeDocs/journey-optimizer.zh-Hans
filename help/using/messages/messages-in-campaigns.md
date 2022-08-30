@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 21%
@@ -20,7 +20,7 @@ ht-degree: 21%
 >[!NOTE]
 >您还可以创建历程以发送触发的消息。 了解更多 [在此部分中](messages-in-journeys.md).
 
-了解如何在营销活动中添加和配置消息 [在此部分中](../campaigns/create-campaign.md)
+了解如何在营销活动中添加和配置消息 [在此部分中](../campaigns/create-campaign.md).
 
 在以下页面中了解创建消息内容的详细步骤：
 
