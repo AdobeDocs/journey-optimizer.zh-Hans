@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 53%
@@ -25,7 +25,7 @@ ht-degree: 53%
 
 ➡️ [在视频中发现此功能](#video)
 
-[!DNL Journey Optimizer] 附带内置消息功能。 请参阅[此小节](../messages/get-started-content.md)。
+[!DNL Journey Optimizer] 附带内置消息功能。 请参阅[此小节](../messages/messages-in-journeys.md)。
 
 如果您拥有Adobe Campaign v7或v8，则集成可应请求提供。 请参见[此页面](../action/acc-action.md)。
 

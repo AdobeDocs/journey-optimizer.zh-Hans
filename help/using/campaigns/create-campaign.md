@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 4%
 >* [区段入门](../segment/about-segments.md)
 
 
-## 配置营销活动 {#configure}
-
 创建营销活动的步骤如下：
 
 1. 访问 **[!UICONTROL Campaigns]** 菜单，然后单击 **[!UICONTROL Create campaign]**.
@@ -33,7 +31,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >您还可以复制现有的实时营销活动以创建新营销活动。[了解详情](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -43,6 +41,8 @@ ht-degree: 4%
 1. 在 **[!UICONTROL Actions]** 部分，选择用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
+
+   平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
    >[!NOTE]
    >
@@ -54,19 +54,22 @@ ht-degree: 4%
 
 1. 在 **[!UICONTROL Actions]** 部分，配置要与营销活动一起发送的消息：
 
-   1. 单击 **[!UICONTROL Edit content]** 按钮，然后配置和设计消息内容。 [了解有关消息的更多信息](../messages/get-started-content.md)
+   1. 单击 **[!UICONTROL Edit content]** 按钮，然后配置和设计消息内容。 [了解有关消息的更多信息](../messages/get-started-content.md).
 
-      >[!NOTE]
-      >
-      >的 **[!UICONTROL Simulate content]** 按钮，可使用测试用户档案预览和测试内容。 [了解详情](../design/preview.md)
+      在以下页面中了解创建消息内容的详细步骤：
 
-   1. 内容准备就绪后，单击箭头以返回营销活动创建屏幕。
+      * [创建电子邮件](../messages/create-email.md)
+      * [创建推送通知](../messages/create-push.md)
+      * [创建短信消息](../messages/create-sms.md)
+   1. 定义内容后，使用 **[!UICONTROL Simulate content]** 按钮来预览和测试使用测试用户档案的内容。 [了解详情](../design/preview.md)。
+   1. 单击箭头可返回至营销活动创建屏幕。
 
       ![](assets/create-campaign-design.png)
 
-   1. 在 **[!UICONTROL Actions tracking]** 部分，指定是否要跟踪收件人对投放的反应。
+   1. 在 **[!UICONTROL Actions tracking]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开次数。
 
       一旦执行了营销活动，即可从营销活动报表访问跟踪结果。 [进一步了解营销活动报告](../reports/campaign-global-report.md)
+
 
 1. 定义要定位的受众。 为此，请单击 **[!UICONTROL Select audience]** 按钮以显示可用的Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
 
@@ -80,7 +83,7 @@ ht-degree: 4%
    >
    >属于某个客户群的不同身份中没有选定身份（命名空间）的个人将不会被营销活动定位。
 
-1. 配置营销活动的开始和结束日期。 默认情况下，营销活动配置为在手动激活后启动，并在消息发送一次后以soons结束。
+1. 在开始和结束日期字段中配置营销活动的计划。 默认情况下，营销活动在手动激活后即开始，并在消息发送一次后立即结束。
 
 1. 此外，您还可以指定执行营销活动中配置的操作的频率。
 
@@ -90,7 +93,7 @@ ht-degree: 4%
 
 <!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-营销活动准备就绪后，您可以查看并发布它(请参阅 [查看和激活营销活动](#review-activate))。
+营销活动准备就绪后，您可以查看并发布它。 [了解详情](#review-activate);
 
 ## 查看和激活营销活动 {#review-activate}
 
@@ -110,13 +113,15 @@ ht-degree: 4%
 
    ![](assets/create-campaign-review.png)
 
-1. 营销活动现已激活，并且 **[!UICONTROL Live]** 状态(或 **[!UICONTROL Scheduled]**  如果您指定了开始日期)。 [进一步了解营销活动状态](get-started-with-campaigns.md#statuses). 营销活动中配置的消息将立即执行或在指定的日期执行。
+1. 营销活动现已激活。 其状态为 **[!UICONTROL Live]**&#x200B;或 **[!UICONTROL Scheduled]** 输入开始日期。 [进一步了解营销活动状态](get-started-with-campaigns.md#statuses).
+
+   营销活动中配置的消息将立即或在指定的日期发送。
 
    >[!NOTE]
    >
    >的 **[!UICONTROL Completed]** 状态会在营销活动激活后3天自动分配给该营销活动，或者如果营销活动已定期执行，则会在营销活动结束日期自动分配给该营销活动。
    >
-   >如果未指定结束日期，营销活动将保持“正常”状态。 要更改营销活动，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
+   >如果未指定结束日期，营销活动将保留 **[!UICONTROL Live]** 状态。 要更改营销活动，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
 
 1. 激活营销活动后，您可以随时打开营销活动信息以检查其信息。 利用摘要，可获取有关定向用户档案数量以及已提交和已失败操作的统计信息。
 

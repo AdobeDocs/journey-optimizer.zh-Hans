@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b9de36d951308425e54924908b7b80b83c94e51
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->’22年7月，Adobe Journey Optimizer发布了 [新功能](using/rn/inline-messages.md) 这可改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为使用 Journey Optimizer 的从业者，您现在可以在历程中直接[创建和创作](using/messages/get-started-content.md)消息。您需要操作历程的自动转换。也就是说，需要您帮我们完成几个步骤。了解[需要执行的步骤](using/rn/inline-messages-steps.md)。
+>’22年7月，Adobe Journey Optimizer发布了 [新功能](using/rn/inline-messages.md) 这可改进您为Journey Optimizer渠道（电子邮件、推送、短信）创作内容的方式。 作为使用 Journey Optimizer 的从业者，您现在可以在历程中直接[创建和创作](using/messages/messages-in-journeys.md)消息。您需要操作历程的自动转换。也就是说，需要您帮我们完成几个步骤。了解[需要执行的步骤](using/rn/inline-messages-steps.md)。
 
 <table style="table-layout:fixed">
 <tr>

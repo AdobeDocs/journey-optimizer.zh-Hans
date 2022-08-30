@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 20%
 
 ---
 
 # 电子邮件设计入门 {#get-started-content-design}
 
+您可以在 [!DNL Journey Optimizer] 或利用内容设计功能：
+
+* 使用 [!DNL Journey Optimizer] **电子邮件设计功能** 设计或导入响应式电子邮件。 [了解详情](../design/create-email-content.md)
+
+* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资产数据库。[了解详情](../design/assets-essentials.md)
+
+* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../design/stock.md)
+
+* 通过根据客户的用户档案属性创建个性化消息来增强客户体验。 [了解详情](../personalization/personalize.md)
+
 ➡️ [在视频中发现此功能](#video)
+
+一旦 [已创建消息](../messages/get-started-content.md)，则可以开始创建电子邮件内容。
 
 1. 从新创建的消息中，选择 **[!UICONTROL Email designer]** 在 **[!UICONTROL Body]** 中。
 
@@ -35,11 +47,6 @@ ht-degree: 6%
 
 从消息创建屏幕访问Email Designer时，所有这些功能均可用。 [了解有关消息创建的更多信息](../messages/get-started-content.md).
 
->[!NOTE]
->
->请注意，下方区域中的模板是静态的，无法编辑。 这些仅供说明之用。
->
->一旦 [已创建消息](../messages/get-started-content.md)，则可以开始创建电子邮件内容。
 
 ## 操作方法视频 {#video}
 

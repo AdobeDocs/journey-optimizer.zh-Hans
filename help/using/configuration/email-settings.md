@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 2%
@@ -36,7 +36,7 @@ ht-degree: 2%
 >
 >**事务型** 可向取消订阅营销通信的用户档案发送电子邮件。 这些消息只能在特定上下文中发送。
 
-When [创建消息](../messages/get-started-content.md#create-new-message)，则必须选择与您为电子邮件选择的类别匹配的有效渠道表面。
+When [创建消息](../messages/get-started-content.md)，则必须选择与您为电子邮件选择的类别匹配的有效渠道表面。
 
 ## 子域和IP池 {#subdomains-and-ip-pools}
 

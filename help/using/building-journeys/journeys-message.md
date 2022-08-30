@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 24%
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 # 电子邮件、短信、推送{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信或电子邮件活动，以及 [定义设置和内容](../messages/get-started-content.md). 然后，在历程的上下文中执行并发送该事件
+[!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信或电子邮件活动，以及 [定义设置和内容](../messages/messages-in-journeys.md). 然后，在历程的上下文中执行并发送该事件。
 
 您还可以设置特定操作以发送消息：
 

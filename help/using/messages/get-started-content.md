@@ -1,15 +1,15 @@
 ---
 title: 消息入门
-description: 了解如何在 Journey Optimizer 中创建和投放个性化的消息
+description: 了解如何在 Journey Optimizer 中创建消息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,145 +20,18 @@ ht-degree: 100%
 >title="渠道操作"
 >abstract="使用渠道操作发送推送、短信或电子邮件消息。"
 
-使用 [!DNL Journey Optimizer] 创建和投放个性化的推送通知、短信和电子邮件消息。在历程画布上的操作中，所有消息均可以内联编辑。借助“另存为模板”功能轻松重复使用您的内容。您可以：
+使用 [!DNL Journey Optimizer] 创建和投放个性化的推送通知、短信和电子邮件消息。
 
-* 使用 [!DNL Journey Optimizer] **电子邮件设计功能**&#x200B;来创建或导入响应式电子邮件。
+所有消息都可作为 [历程画布上的操作](messages-in-journeys.md)或 [在营销活动的上下文中](messages-in-campaigns.md).
 
-* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资产数据库。
+将消息添加到历程或营销活动后，请通过以下部分了解如何设计和配置消息：
 
-* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。
+* **创建电子邮件**  — 了解如何创建电子邮件内容并验证消息 [本页](create-email.md).
 
-* 基于其用户档案属性创建个性化的&#x200B;**推送通知、短信和电子邮件**，从而增强客户体验。
+* **创建推送通知**  — 了解如何为iOS和Android设备创建推送通知 [本页](create-push.md).
 
-* 基于这些内容&#x200B;**发送投放**&#x200B;并跟踪客户行为。
-
->[!NOTE]
->
->用户可以访问、创建、编辑和/或发布历程，具体取决于其产品用户档案。[在此部分中](../administration/permissions.md)了解有关用户权限的更多信息。
-
-
-## 在您的历程中添加消息{#messages-in-journeys}
-
->[!CONTEXTUALHELP]
->id="ajo_message_category"
->title="消息类别"
->abstract="为商业消息选择营销型，或为非商业消息选择事务型（如订单确认、密码重置通知或投放信息）"
-
->[!CONTEXTUALHELP]
->id="ajo_message_surface"
->title="渠道平面"
->abstract="渠道平面是该渠道的一个实例，具有用于通过营销活动或历程成功投放操作的所有设置。它由系统管理员定义。"
-
-要在您的历程中添加消息，只需在历程画布中添加推送、短信或电子邮件活动。
-
-1. 通过[事件](../building-journeys/general-events.md)或[读取区段](../building-journeys/read-segment.md)活动开始您的历程。
-
-1. 从调板的&#x200B;**操作**&#x200B;部分，拖放&#x200B;**电子邮件**、**短信**&#x200B;或&#x200B;**推送**&#x200B;活动到画布中。
-
-   ![](assets/add-a-message.png)
-
-1. 输入标签和描述。
-
-1. 选择消息&#x200B;**[!UICONTROL Category]**：为商业消息选择&#x200B;**营销型**，或为非商业消息选择&#x200B;**事务型**（如订单确认、密码重置通知或投放信息）。
-
-   >[!CAUTION]
-   >
-   >如果您为特定渠道和类别定义[频率规则](../configuration/frequency-rules.md)，在选择该渠道和类别时，会自动将它们应用于消息。当前频率规则仅可用于 **[!UICONTROL Marketing]** 类别。
-
-   ![](assets/inline-message-category.png)
-
-   >[!CAUTION]
-   >
-   >营销类型的消息必须包含[选择退出链接](../messages/consent.md#opt-out-management)。这对事务型消息并不是必需的，因为可以将这些消息发送到从营销通信内容中取消订阅的用户档案。
-
-1. 选择渠道&#x200B;**[!UICONTROL Surface]**（即消息预设）来发送消息。
-
-   平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
-
-   >[!CAUTION]
-   >
-   >必须为所选消息类别和渠道选择有效的渠道平面。
-
-   您可以使用消息界面中的 **[!UICONTROL Properties]** 按钮随时访问和修改消息的标签、描述和平面。
-
-1. 创建消息内容。
-
-   在以下页面中了解创建消息内容的详细步骤：
-
-   * [创建电子邮件](create-email.md)
-   * [创建推送通知](create-push.md)
-   * [创建短信消息](create-sms.md)
-
-## 启用发送时间优化{#sto-in-journeys}
-
-对于电子邮件和推送通知，您可以启用 **[!UICONTROL Send-time optimization]**。
-
-使用 **[!UICONTROL Send-time optimization]** 安排每个用户的个性化发送时间，以增加消息的打开率和点击率。[了解详情](../messages/send-time-optimization.md)。
-
-
-## 高级参数{#adv-settings}
-
-默认情况下，高级参数处于只读和隐藏状态。
-
-要访问高级参数，请单击消息窗格顶部的 **[!UICONTROL Show read-only fields]** 图标。
-
-![](assets/show-read-only.png)
-
-高级参数将显示在消息窗格的底部。这些参数由[系统管理员](../start/path/administrator.md)在与消息相关的[渠道平面](../configuration/channel-surfaces.md)（即消息预设）中定义。
-
-对于推送通知，您可以显示以下参数：令牌、应用程序 ID、应用程序平台。
-
-![](assets/push-adv-parameters.png)
-
-对于电子邮件，您可以显示主电子邮件地址。
-
-对于特定用途，您可以在特定上下文中覆盖这些值。要强制使用某个值，请单击字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标。此选项可能非常有用，例如在下列操作中：
-
-* 测试电子邮件，可添加您的电子邮件地址。发布历程后，将向您发送电子邮件。
-* 请参阅列表中订阅者的电子邮件地址。在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
-
-单击同一图标以重置为默认参数。
-
-
-## 浏览消息{#browse-message}
-
-在历程中使用多条消息时，您可以在 **Edit Content** 屏幕中进行切换。
-
-![](assets/inline-messages-multi-content.png)
-
-然后，您可以[检查警报](alerts.md)并从单个视图中[模拟](../design/preview.md)每个内容。
-
-## 复制消息 {#duplicate-message}
-
-您可以从历程画布复制现有消息。
-
-为此，请执行以下步骤：
-
-1. 选择要复制的消息。
-
-1. 使用 **[!UICONTROL Action]** 窗格中的 **[!UICONTROL Copy]** 按钮。
-
-   ![](assets/message-duplicate.png)
-
-1. 按 **crtl+V** 来粘贴消息。
-
-   消息将会被添加到历程画布。所有设置和配置都将被复制到新消息中。
-
-   ![](assets/message-duplicated.png)
-
-1. 重命名消息以便能够将初始消息与副本区分开（例如在编辑消息时），如下所示：
-
-   ![](assets/multi-message.png)
-
+* **创建短信**  — 了解如何创建短信内容并验证消息 [本页](create-sms.md).
 
 >[!NOTE]
 >
->对于电子邮件，您还可以将现有消息转换为模板。[了解详情](../design/email-templates.md)。
-
-## 删除消息{#delete-message}
-
-要删除消息，请使用渠道操作活动窗格顶部的垃圾桶图标。
-
-![](assets/delete-message.png)
-
-使用 **[!UICONTROL Confirm]** 按钮进行验证。
+>用户可以访问、创建、编辑和/或发布历程和营销活动，具体取决于其产品配置文件。 [在此部分中](../administration/permissions.md)了解有关用户权限的更多信息。
