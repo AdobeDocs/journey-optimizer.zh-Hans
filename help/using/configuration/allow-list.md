@@ -5,13 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 3%
+source-wordcount: '589'
+ht-degree: 2%
 
 ---
 
@@ -35,19 +32,9 @@ ht-degree: 3%
 
 要访问允许的电子邮件地址和域的详细列表，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择 **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >查看、导出和管理允许列表的权限限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在 [此部分](../administration/permissions-overview.md).
-
-要将允许列表导出为CSV文件，请选择 **[!UICONTROL Download CSV]** 按钮。
-
-使用 **[!UICONTROL Delete]** 按钮以永久删除条目。
-
-您可以搜索电子邮件地址或域，并在 **[!UICONTROL Address type]**. 选择后，您可以清除列表顶部显示的过滤器。
-
-![](assets/allowed-list-filtering-example.png)
 
 ## 启用允许列表 {#enable-allow-list}
 
@@ -55,13 +42,9 @@ ht-degree: 3%
 
 1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 菜单。
 
-1. 单击 **[!UICONTROL Enable/Disable allowed list]**。
-
-   ![](assets/allow-list-edit.png)
+1. 单击 **[!UICONTROL Edit]**。
 
 1. 选择 **[!UICONTROL Enable allowed list]**。
-
-   ![](assets/allow-list-enable.png)
 
 1. 单击 **[!UICONTROL Save]**。允许列表已启用。
 
@@ -73,48 +56,11 @@ ht-degree: 3%
 
 ## 将实体添加到允许列表 {#add-entities}
 
-要向特定沙盒的允许列表添加新的电子邮件地址或域，您可以 [手动填充列表](#manually-populate-list)，或使用 [API调用](#api-call-allowed-list).
+要向特定沙盒的允许列表添加新的电子邮件地址或域，您可以使用 [API调用](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >允许列表最多可包含1,000个条目。
-
-### 手动填充允许列表 {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="向允许列表添加地址或域"
->abstract="您可以通过逐一选择新电子邮件地址或域名，手动将其添加到允许列表。"
-
-您可以手动填充 [!DNL Journey Optimizer] 允许列表。
-
->[!NOTE]
->
->一次只能添加一个电子邮件地址或域。
-
-为此，请执行以下步骤。
-
-1. 选择 **[!UICONTROL Add email or domain]** 按钮。
-
-   ![](assets/allowed-list-add-email.png)
-
-1. 选择地址类型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**.
-
-1. 输入要向其发送电子邮件的电子邮件地址或域。
-
-   >[!NOTE]
-   >
-   >请确保输入有效的电子邮件地址(如abc@company.com)或域名（如abc.company.com）。
-
-1. 根据需要指定原因。
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >在 **[!UICONTROL Reason]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
-
-1. 单击 **[!UICONTROL Submit]**。
 
 ### 使用API调用添加实体 {#api-call-allowed-list}
 

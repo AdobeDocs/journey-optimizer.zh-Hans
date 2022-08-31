@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 5%
 使用Journey Optimizer促销活动通过各种渠道向特定区段交付一次性内容。 使用历程时，将依次执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。
 
 创建促销活动以发送简单的临时批量通信，以用于营销用例，如促销优惠、参与促销活动、公告、法律声明或策略更新。
+
+创建营销活动的主要步骤如下：
+
+![](assets/create-campaign-process.png)
 
 ➡️ [在视频中发现此功能](#video)
 

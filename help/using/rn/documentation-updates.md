@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1825'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 0%
 * 现在，要获取有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面部分的快速入门。 [了解详情](../landing-pages/get-started-lp.md#video)
 * 添加了对使用读取区段活动的历程的限制。 [了解详情](../building-journeys/read-segment.md)
 * 表达式编辑器运算符页面已得到改进。 [了解详情](../building-journeys/expression/operators.md)
+* 添加了有关如何计划营销活动的章节。 [了解详情](../campaigns/create-campaign.md)
 
 ## 2022 年 7 月 {#july-2022}
 

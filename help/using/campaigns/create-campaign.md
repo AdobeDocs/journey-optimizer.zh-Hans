@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '700'
+ht-degree: 11%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 0%
 >* [区段入门](../segment/about-segments.md)
 
 
-创建营销活动的步骤如下：
+## 创建您的第1个营销活动 {#create}
 
 1. 访问 **[!UICONTROL Campaigns]** 菜单，然后单击 **[!UICONTROL Create campaign]**.
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Actions]** 部分，选择用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL Create]**.
 
-   ![](assets/create-campaign-action.png)
-
    平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >下拉列表中只列出与促销活动类型（营销或事务型）兼容的渠道表面。
+   >下拉列表中只列出与营销活动类型兼容的渠道表面。
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. 指定营销活动的标题和描述。
 
@@ -62,6 +64,7 @@ ht-degree: 0%
       * [创建推送通知](../messages/create-push.md)
       * [创建短信消息](../messages/create-sms.md)
    1. 定义内容后，使用 **[!UICONTROL Simulate content]** 按钮来预览和测试使用测试用户档案的内容。 [了解详情](../design/preview.md)。
+
    1. 单击箭头可返回至营销活动创建屏幕。
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ ht-degree: 0%
    >
    >属于某个客户群的不同身份中没有选定身份（命名空间）的个人将不会被营销活动定位。
 
-1. 在开始和结束日期字段中配置营销活动的计划。 默认情况下，营销活动在手动激活后即开始，并在消息发送一次后立即结束。
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. 此外，您还可以指定执行营销活动中配置的操作的频率。
+1. 要在特定日期或定期频率执行营销活动，请配置 **[!UICONTROL Schedule]** 中。 [了解如何计划营销活动](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-营销活动准备就绪后，您可以查看并发布它。 [了解详情](#review-activate);
+营销活动准备就绪后，您可以查看并发布它。 [了解详情](#review-activate)
 
 ## 查看和激活营销活动 {#review-activate}
 
@@ -128,3 +125,13 @@ ht-degree: 0%
    您还可以通过单击 **[!UICONTROL Reports]** 按钮。 [了解详情](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## 计划营销活动 {#schedule}
+
+默认情况下，营销活动在手动激活后即开始，并在消息发送一次后结束。
+
+您可以定义营销活动消息的发送频率。 为此，请使用 **[!UICONTROL Action triggers]** 营销活动创建屏幕中的选项，以指定应每日、每周还是每月执行营销活动。
+
+如果您不想在营销活动激活后立即执行营销活动，则可以使用指定发送消息的日期和时间 **[!UICONTROL Campaign start]** 选项。 的  **[!UICONTROL Campaign end]** 选项，可指定应何时停止执行定期营销活动。
+
+![](assets/create-campaign-schedule.png)

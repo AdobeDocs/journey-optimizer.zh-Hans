@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 98%
@@ -265,7 +265,7 @@ ht-degree: 98%
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
-      + [禁止列表](using/reports/suppression-list.md)
+      + [了解抑制列表](using/reports/suppression-list.md)
 + 决策管理{#offer-decisioning}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -385,7 +385,6 @@ ht-degree: 98%
          + 监测电子邮件地址{#monitor-reputation}
             + [禁止列表](using/configuration/manage-suppression-list.md)
             + [重试](using/configuration/retries.md)
-            + [允许列表](using/configuration/allow-list-temp.md)
             + [允许列表](using/configuration/allow-list.md)
       + [配置短信渠道](using/configuration/sms-configuration.md)
       + 设置渠道平面 {#set-up-channels}

@@ -1,5 +1,5 @@
 ---
-title: 创建内容实验
+title: 创建内容体验
 description: 了解如何在营销活动中创建内容实验
 feature: Overview
 topic: Content Management
@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+
+>[!NOTE]
+>
+>在使用内容实验之前，请确保为自定义数据集设置了报表配置。 有关详细信息，请参阅[此部分](reporting-configuration.md)。
 
 内容实验功能允许您定义多个投放处理。 兴趣的受众被随机分配给每个治疗，以便确定哪个治疗在兴趣量度方面表现最佳。 您可以选择更改电子邮件的内容、主题或发件人。
 

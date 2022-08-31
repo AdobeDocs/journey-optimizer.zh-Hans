@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -66,7 +66,7 @@ function init(lpRuntime){
 | 名称 | 描述 |
 |--- |--- |
 | addBeforeSubmitHook | 在提交表单之前调用的自定义挂接。 返回true以继续提交，否则返回false以阻止提交。 |
-| addBeforeSubmitHook | 在表单提交失败时调用的自定义挂接。 |
+| addOnFailureHook | 在表单提交失败时调用的自定义挂接。 |
 | addOnSuccessHook | 在成功提交表单时调用的自定义挂接。 |
 
 **示例：**

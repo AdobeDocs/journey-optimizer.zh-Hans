@@ -4,9 +4,9 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信消�
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
@@ -25,12 +25,12 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="配置短信供应商"
+>title="选择短信供应商配置"
 >abstract="选择您的供应商并填写您的短信API凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="配置短信供应商"
+>title="选择短信供应商配置"
 >abstract="选择为短信供应商配置的API凭据。"
 
 要使用Journey Optimizer配置短信供应商，请执行以下步骤：
