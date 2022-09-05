@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 在Handlebars中， {{expression}} are **HTML转义**. 如果表达式包含 `&`，则返回的HTML转义输出将生成为 `&amp;`. 如果你不希望Handlebars转义某个值，那就使用“三重藏货”。
 
-关于文本函数参数，模板语言解析器不支持单个非转义反斜线(“\”)符号。 此字符必须使用附加的反斜线(“\”)符号进行转义。 示例 :
+关于文本函数参数，模板语言解析器不支持单个非转义反斜线(`\`)符号。 此字符必须使用额外的反斜线(`\`)符号。 示例 :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
