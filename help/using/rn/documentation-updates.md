@@ -2,10 +2,10 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 97%
+source-wordcount: '1871'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 97%
 * 添加了对使用读取区段活动的历程的限制。 [了解详情](../building-journeys/read-segment.md)
 * 表达式编辑器运算符页面已得到改进。 [了解详情](../building-journeys/expression/operators.md)
 * 添加了有关如何计划营销活动的章节。 [了解详情](../campaigns/create-campaign.md)
+* 表达式编辑器的“常规语法规则”部分已更新，以考虑有关文本函数中反斜杠符号转义的新规则。 此更改不会影响现有已发布的消息。 只能更新新消息或草稿消息。 [了解详情](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022 年 7 月 {#july-2022}
 

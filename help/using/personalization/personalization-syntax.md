@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,10 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 词 **true**, **false**, **null** 和 **未定义** 仅在路径表达式的第一部分中允许。
 
 在Handlebars中， {{expression}} are **HTML转义**. 如果表达式包含 `&`，则返回的HTML转义输出将生成为 `&amp;`. 如果你不希望Handlebars转义某个值，那就使用“三重藏货”。
+
+关于文本函数参数，模板语言解析器不支持单个非转义反斜线(“\”)符号。 此字符必须使用附加的反斜线(“\”)符号进行转义。 示例 :
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## 配置文件
 
