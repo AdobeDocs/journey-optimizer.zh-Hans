@@ -1,17 +1,17 @@
 ---
 title: 内容体验入门
 description: 进一步了解 [!DNL Journey Optimizer]
-feature: Overview
-topic: Content Management, A/B Testing
+feature: Content Management, A/B Testing
+topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
