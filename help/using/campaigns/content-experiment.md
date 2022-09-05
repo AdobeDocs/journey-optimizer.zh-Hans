@@ -1,5 +1,5 @@
 ---
-title: 创建内容体验
+title: 创建内容实验
 description: 了解如何在营销活动中创建内容实验
 feature: Overview
 topic: Content Management
@@ -8,24 +8,24 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 4%
 
 ---
 
-# 创建内容实验 {#content-experiment}
+# 创建内容体验 {#content-experiment}
 
 >[!AVAILABILITY]
 >
->内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+>的 **内容实验** 功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+
+使用Journey Optimizer内容实验定义多种投放处理方式。 兴趣的受众被随机分配给每个治疗，以便确定哪个治疗在兴趣量度方面表现最佳。 您可以选择更改电子邮件的内容、主题或发件人。
 
 >[!NOTE]
 >
->在使用内容实验之前，请确保为自定义数据集设置了报表配置。 有关详细信息，请参阅[此部分](reporting-configuration.md)。
-
-内容实验功能允许您定义多个投放处理。 兴趣的受众被随机分配给每个治疗，以便确定哪个治疗在兴趣量度方面表现最佳。 您可以选择更改电子邮件的内容、主题或发件人。
+>在开始内容实验之前，请确保为自定义数据集设置了报表配置。 有关详细信息，请参阅[此部分](reporting-configuration.md)。
 
 在以下示例中，投放目标已被拆分为两个组，每个组分别占目标群体的45%，而拒绝组为10%，他们将不会收到投放。
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 ## 创建营销活动 {#campaign-experiment}
 
-1. 从 **[!UICONTROL Campaigns]** 页面，单击 **[!UICONTROL Create Campaign]**.
+1. 从 **[!UICONTROL Campaigns]** 页面，单击 **[!UICONTROL Create campaign]**.
 
    ![](assets/content_experiment_1.png)
 

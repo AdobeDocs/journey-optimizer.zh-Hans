@@ -1,17 +1,17 @@
 ---
-title: 实验使用的统计计算
+title: Adobe Journey Optimizer实验使用的统计计算
 description: 进一步了解运行实验时使用的统计计算
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+>的 **内容实验** 功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
 
-本文介绍了在Adobe Journey Optimizer中运行实验时使用的统计计算。 实验使用高级统计方法来计算 **置信序列** 和 **置信度**，以便您可以根据需要长时间运行实验，并持续监控结果。
+本文介绍了在Adobe Journey Optimizer中运行实验时使用的统计计算。
+
+实验使用高级统计方法来计算 **置信序列** 和 **置信度**，以便您可以根据需要长时间运行实验，并持续监控结果。
 
 本文介绍了实验的工作原理，并直观地介绍了Adobe的 **任何时间有效置信序列**.
 
@@ -68,4 +70,4 @@ A **置信度序列** 是 **置信区间**&#x200B;例如，如果您重复实验
 
 此时，表现最佳的处理（基于转化率或用户档案标准化量度值）将在报表屏幕顶部突出显示，并在表格报表中以星形表示。 在此确定中，只考虑置信度大于95%的治疗和基线。
 
-当有两种以上治疗时，使用Bonferroni校正链接对多个比较问题进行校正，并控制家庭误差率。 在此情景中，还可能存在多种置信度大于95%且置信区间重叠的处理方法。 在这种情况下，Adobe将声明具有最高转化率（或配置文件标准化量度值）的转化率为最佳执行者。
+当有两种以上治疗时，使用Bonferroni校正链接对多个比较问题进行校正，并控制家庭误差率。 在此情景中，还可能存在多种置信度大于95%且置信区间重叠的处理方法。 在这种情况下，Adobe Journey Optimizer将声明转化率最高（或配置文件标准化量度值）的量度值为最佳执行者。

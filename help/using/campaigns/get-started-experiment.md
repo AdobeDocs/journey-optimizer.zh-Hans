@@ -1,17 +1,17 @@
 ---
-title: 内容实验入门
+title: 内容体验入门
 description: 进一步了解 [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 0%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 这使您能够在优化业务目标时做出数据驱动的决策。
 
-要在Adobe Journey Optimizer中进行内容实验，您可以测试以下创意：
+对于Adobe Journey Optimizer中的内容实验，您可以测试以下创意：
 
 * **主题行**:主题行的语调或个性化程度的变化会产生什么影响？
 * **消息内容**:更改电子邮件的可视布局会导致对电子邮件的更多点击吗？
@@ -61,7 +61,7 @@ ht-degree: 0%
 +++按照正确的受众规模或足够长的时间运行测试
 
 如果运行测试的时间较长，则能够检测到不同治疗方式之间目标量度差异较小。 但是，如果目标量度的基线值较小，则需要较大的样本量。
-实验中必须包含的用户数取决于您希望检测的效果大小、目标量度的方差或分布，以及您对误报和误报的容忍度。 在经典实验中，您可以使用 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 以确定必须运行测试的时长。
+实验中必须包含的用户数取决于您希望检测的效果大小、目标量度的方差或分布，以及您对误报和误报的容忍度。 在经典实验中，您可以使用 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank}来确定必须运行测试的时长。
 +++
 
 +++了解统计不确定性
