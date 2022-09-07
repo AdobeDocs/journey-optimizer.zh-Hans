@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 2%
@@ -21,9 +21,9 @@ ht-degree: 2%
 
 Experience PlatformWeb SDK支持在Adobe中查询个性化解决方案（包括决策管理），从而允许您检索和渲染使用API或选件库创建的个性化选件。 有关更多详细说明，请参阅 [创建优惠](../../get-started/starting-offer-decisioning.md).
 
-可使用以下两种方法来实施Offer decisioning: [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员，需要了解网站和编程知识。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需在HTML页面的标题中引用一个小脚本即可。
+可使用以下两种方式实施决策管理： [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员，需要了解网站和编程知识。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需在HTML页面的标题中引用一个小脚本即可。
 
-请参阅 [offer decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Platform Web SDK提供个性化优惠的更多信息。
+请参阅 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Platform Web SDK提供个性化优惠的更多信息。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-要配置SDK以进行Offer decisioning，请执行以下两个步骤之一：
+要配置SDK以进行决策管理，请执行以下两个步骤之一：
 
 ## 选项1 — 使用Launch安装标记扩展和实施
 
@@ -90,7 +90,7 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 ## 选项2 — 使用预建的独立版本手动实施
 
-以下是使用Web SDK预建的独立安装使用Offer decisioning所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定具有一些开发经验。
+以下是使用预建的独立安装Web SDK来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定具有一些开发经验。
 
 在选项2中包含以下JavaScript代码片段：上预建的独立版本 [本页](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML页面的部分。
 

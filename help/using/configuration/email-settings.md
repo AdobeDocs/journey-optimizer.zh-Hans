@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ When [创建消息](../messages/get-started-content.md)，则必须选择与您�
 
 ## 子域和IP池 {#subdomains-and-ip-pools}
 
-在 **子域和IP池详细信息** 部分，您必须：
+在 **子域和IP池** 部分，您必须：
 
 1. 选择要用于发送电子邮件的子域。 [了解详情](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 ## 标头参数{#email-header}
 
-在 **[!UICONTROL HEADER PARAMETERS]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
+在 **[!UICONTROL Header parameters]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 
 您可以发送由发送的电子邮件的相同副本（或盲文副本） [!DNL Journey Optimizer] 发送到密件抄送收件箱，以供符合要求或进行存档。
 
-为此，请启用 **[!UICONTROL BCC EMAIL]** 通道曲面级别的可选功能。 [了解详情](bcc-email.md)
+为此，请启用 **[!UICONTROL BCC email]** 通道曲面级别的可选功能。 [了解详情](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -171,13 +171,15 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable
 >title="预览URL跟踪参数"
 >abstract="查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
 
-您可以使用 **[!UICONTROL URL TRACKING PARAMETERS]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
+您可以使用 **[!UICONTROL URL tracking parameters]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
 
 此部分中定义的参数将附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕获这些参数，并创建各种性能报表。
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-作为创建渠道曲面时的示例，会自动填充三个URL跟踪参数。 您可以编辑这些参数，并使用 **[!UICONTROL Add new parameter]** 按钮。
+您最多可以使用 **[!UICONTROL Add new parameter]** 按钮。
+
+![](assets/preset-url-tracking.png)
 
 要配置URL跟踪参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段。
 

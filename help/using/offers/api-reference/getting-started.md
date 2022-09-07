@@ -1,21 +1,21 @@
 ---
 title: 快速入门
-description: 了解如何开始使用选件库API来使用决策管理引擎执行关键操作。
+description: 了解如何开始使用优惠库API来使用决策引擎执行关键操作。
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 5%
 
 ---
 
 # 决策管理API开发人员指南 {#decision-management-api-developer-guide}
 
-本开发人员指南提供了帮助您开始使用 [!DNL Offer Library] API。 然后，该指南提供了使用决策管理引擎执行关键操作的示例API调用。
+本开发人员指南提供了帮助您开始使用 [!DNL Offer Library] API。 然后，该指南提供了用于使用决策引擎执行关键操作的示例API调用。
 
 ➡️ [在此视频中了解有关决策管理组件的更多信息](#video)
 
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}:标准化框架， [!DNL Experience Platform] 组织客户体验数据。
    * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target=&quot;_blank&quot;}:了解XDM模式的基本构建块。
-* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):通常说明用于Experience Decisioning的概念和组件，特别是Offer decisioning。 说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
+* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):解释Experience Decisioning的一般概念和组件，特别是决策管理。 说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}:PQL是一种用于通过XDM实例编写表达式的强大语言。 PQL用于定义决策规则。
 
 ## 读取示例API调用 {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ curl -X GET \
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer中的应用程序内消息传送渠道使用offer decisioning对象。 如果您的组织使用应用程序内消息传送渠道，则对象的API列表请求将包含由应用程序内消息传送服务创建的对象，在offer decisioning用例中，这些对象可以忽略。 为应用程序内消息创建的对象将具有 `createdBy = “Mobile_Sheliak”`.
+> Adobe Journey Optimizer中的应用程序内消息传送渠道使用决策管理对象。 如果贵组织使用应用程序内消息传送渠道，则对象的API列表请求将包含由应用程序内消息传送服务创建的对象，在决策管理用例中可以忽略这些对象。 为应用程序内消息创建的对象将具有 `createdBy = “Mobile_Sheliak”`.
 
 ## 操作方法视频 {#video}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '806'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 决策管理护栏 {#offer-guardrails}
 
-决策管理的性能防护和静态限制列在 [AdobeOffer decisioning应用程序服务产品说明页面](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}。
+决策的性能护栏和静态限制列在 [AdobeOffer decisioning应用程序服务产品说明页面](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}。
 
 
 ## 登陆页面护栏 {#lp-guardrails}

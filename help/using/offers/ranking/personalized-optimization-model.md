@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 | 功能类型 | 如何向模型添加功能 |
 |--------------|----------------------------|
-| offer decisioning对象(placementID、activityID、decisionScopeID) | 发送到AEP的Offer decisioning反馈体验事件的一部分 |
+| 决策对象(placementID、activityID、decisionScopeID) | 发送到AEP的决策管理反馈体验事件的一部分 |
 | 区段 | 在创建Ranking AI模型时，可以添加0-50个区段作为功能 |
-| 上下文数据 | 发送到AEP的Offer decisioning反馈体验事件的一部分。 要添加到架构的可用上下文数据：商务详细信息、渠道详细信息、应用程序详细信息、 Web详细信息、环境详细信息、设备详细信息、 placeContext |
+| 上下文数据 | 发送到AEP的决策反馈体验事件的一部分。 要添加到架构的可用上下文数据：商务详细信息、渠道详细信息、应用程序详细信息、 Web详细信息、环境详细信息、设备详细信息、 placeContext |
 
 该模型分为两个阶段：
 

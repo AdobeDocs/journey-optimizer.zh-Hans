@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 2%
 
 如果重试投放成功，则地址的错误计数会重新初始化。
 
-## 编辑重试阈值 {#edit-retry-threshold}
+## 重试阈值版本 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="更新错误数阈值"
+>title="更新重试阈值"
 >abstract="如果默认值不适合您的需求，您可以修改允许的连续软退回数。 当重试计数器达到特定电子邮件地址的错误阈值时，此地址会添加到禁止列表。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解支持列表"
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 1%
@@ -153,8 +153,6 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Submit]** 确认更改。
 
-   ![](assets/preset-confirm-update.png)
-
    >[!NOTE]
    >
    >您还可以将通道曲面另存为草稿，稍后继续更新。
@@ -177,7 +175,7 @@ ht-degree: 1%
 
 在 **[!UICONTROL Recent update]** 屏幕中，您可以查看更新状态和请求更改的列表等信息。
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### 更新状态 {#update-statuses}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1060'
 ht-degree: 6%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 6%
 
 现在，您必须创建一个决策，以将版面与您刚刚创建的个性化选件和备用选件结合使用。
 
-offer decisioning引擎将使用此组合来查找特定用户档案的最佳选件：在本例中，它将基于您分配给每个选件的优先级和决策规则。
+决策引擎将使用此组合来查找特定用户档案的最佳选件：在本例中，它将基于您分配给每个选件的优先级和决策规则。
 
 要创建和配置选件决策，请执行以下步骤：
 

@@ -2,10 +2,10 @@
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 95%
 
 **历程**
 
-* **结束旅程**  — 在历程画布中， **结束** 活动已从面板中删除。 现在，结束标记默认会添加到每个路径的末尾，且无法删除。 这项改进可更好地报告客户从历程中退出的位置，而无需历程从业者执行任何操作。 请参阅 [文档](../building-journeys/journey-end.md) 和 [功能视频](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅[文档](../building-journeys/journey-end.md)和[功能视频](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 
 * 的 **配置文件时区** 默认情况下，历程属性中的选项处于未选中状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -109,9 +109,9 @@ ht-degree: 95%
 
 * **允许列表逻辑更新** - 现在，允许列表这一功能会在启用后立即应用允许列表逻辑，即使该列表为空也是如此。[了解详情](../configuration/allow-list.md#logic)
 
-* **URL跟踪参数**  — 您现在可以使用表达式编辑器在电子邮件界面中配置URL跟踪参数（即预设）。 [了解详情](../configuration/email-settings.md#url-tracking)
+* **URL 跟踪参数** - 现可使用表达式编辑器在电子邮件界面中配置 URL 跟踪参数（即消息预设）。[了解详情](../configuration/email-settings.md#url-tracking)
 
-**优惠决策**
+**决策管理**
 
 * **受众规模** - 现在，在创建决策规则、选择区段或规则以设置优惠资格，或将区段或规则添加到决策范围时，用户界面中会显示新的受众规模估算组件。
 
@@ -340,7 +340,7 @@ ht-degree: 95%
 
 **决策管理**
 
-* **Edge 上的 Decisioning API** - Edge Decisioning API 可以投放和渲染在 Offer Decisioning 中管理的个性化优惠。您可以使用 Offer Decisioning 用户界面 (UI) 或 API 创建优惠和其他相关对象。[了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge上的决策API** - Edge Decisioning API可以交付和渲染在决策管理中管理的个性化选件。 您可以使用决策管理用户界面(UI)或API创建选件和其他相关对象。 [了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -378,7 +378,7 @@ ht-degree: 95%
 **决策管理**
 
 * 现在，您可以指定是将优惠上限应用到所有用户还是某个特定用户档案，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
-* 通过 Batch Decisioning API，组织可以在一次调用中对特定区段中的所有用户档案运用 Offer Decisioning 功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 批量决策API允许组织在一次调用中对给定区段中的所有用户档案都使用决策管理功能。 区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -476,7 +476,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * 您现在可以访问有关发送时间优化数据的报告：立即向其发送消息的人数，以及通过 1 小时优化、2 小时优化向其发送消息的人数，等等。
 
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+<!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **决策管理**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../reports/sharing-overview.md#integration-cja)
 
-**优惠决策**
+**决策管理**
 
 * 现在，当您更新已发布的消息中直接或间接引用的优惠、后备优惠、优惠收藏集或优惠决策时，更新会自动反映在相应的消息中，而无需重新发布。[了解详情](../offers/offers-e2e.md#insert-decision-in-email)
 

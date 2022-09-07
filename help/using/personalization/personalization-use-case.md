@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 在此用例中，您将看到如何在单个推送通知消息中使用多种类型的个性化。 将使用三种类型的个性化：
 
 * **用户档案**:基于用户档案字段的消息个性化
-* **优惠决策**:基于offer decisioning变量进行个性化
+* **优惠决策**:基于决策管理变量的个性化
 * **上下文**:基于历程中的情境数据进行个性化
 
 此示例的目标是将事件推送到 [!DNL Journey Optimizer] 每次更新客户订单时。 随后，系统会向客户发送推送通知，其中包含有关订单的信息和个性化优惠。
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc13.png)
 
-1. 从左侧菜单中，选择 **优惠决策** 插入offer decisioning变量。 选择版面并单击 **+** 图标。
+1. 从左侧菜单中，选择 **优惠决策** 插入决策变量。 选择版面并单击 **+** 图标。
 
    ![](assets/perso-uc14.png)
 

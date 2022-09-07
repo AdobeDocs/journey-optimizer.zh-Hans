@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。
 
-Offer Decisioning 通过集中的营销优惠库和决策引擎（该引擎可将规则和约束应用于 Adobe Experience Platform 创建的丰富实时用户档案）帮助您在适当的时间向客户发送合适的优惠，从而轻松实现个性化。
+决策管理通过集中的营销选件库和决策引擎(该引擎将规则和约束应用于Adobe Experience Platform创建的丰富实时用户档案，以帮助您在适当的时间向客户发送正确的选件)，从而轻松实现个性化。
 
 “决策管理”功能由两个主要组件组成：
 
@@ -69,7 +69,7 @@ Offer Decisioning 通过集中的营销优惠库和决策引擎（该引擎可�
 
 ## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
 
-使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} 管理访问和使用优惠决策功能的权限。
+访问和使用决策功能的权限可使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}。
 
 要授予对决策管理功能的访问权限，您需要创建 **[!UICONTROL Product profile]** 并为用户分配相应的权限。在[本节](../../administration/permissions.md)中了解更多关于管理 [!DNL Journey Optimizer] 用户和权限的信息。
 

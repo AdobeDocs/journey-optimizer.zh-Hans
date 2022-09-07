@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 [消息反馈事件数据集](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [推送跟踪体验事件数据集](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [历程步骤事件](../start/datasets-query-examples.md#journey-step-event)
-[offer decisioning事件数据集](../start/datasets-query-examples.md#ode-decisionevents)
+[决策事件数据集](../start/datasets-query-examples.md#ode-decisionevents)
 [同意服务数据集](../start/datasets-query-examples.md#consent-service-dataset)
 [密送反馈事件数据集](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## offer decisioning事件数据集{#ode-decisionevents}
+## 决策事件数据集{#ode-decisionevents}
 
 _界面中的名称：ODE DecisionEvents（系统数据集）_
 

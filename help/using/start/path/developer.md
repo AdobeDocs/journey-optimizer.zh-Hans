@@ -5,9 +5,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 您还可以通过 **[!DNL Adobe Journey Optimizer]API**.
 
-帮助您开始使用的步骤 [!DNL Offer Library] 详细介绍了API [在此部分中](../../offers/api-reference/getting-started.md). 本指南提供了使用决策管理引擎执行关键操作的示例API调用。
+帮助您开始使用的步骤 [!DNL Offer Library] 详细介绍了API [在此部分中](../../offers/api-reference/getting-started.md). 本指南提供了使用决策引擎执行关键操作的示例API调用。

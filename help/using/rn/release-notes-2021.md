@@ -2,10 +2,10 @@
 title: 过往发行说明（2021 年）
 description: Journey Optimizer 2021 年发行说明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2067'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试优惠决策并排除潜在问题。</p>
+<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理并排除潜在问题。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/simulation.md">详细文档</a>。</p>
 </td>
 </tr>

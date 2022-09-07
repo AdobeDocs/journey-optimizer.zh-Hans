@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 限制 {#limitations}
 
-在Offer decisioning中使用自动优化模型时受以下限制限制：
+在决策管理中使用自动优化模型时受以下限制限制：
 
 * 自动优化模型不适用于Batch Decisioning API。
 * 构建模型所需的反馈必须作为体验事件发送。 它不应在中自动发送 [!DNL Journey Optimizer] 渠道。

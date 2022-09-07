@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ## 操作方法视频{#video-offers}
 
-了解如何将offer decisioning组件添加到 [!DNL Journey Optimizer].
+了解如何向 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
 

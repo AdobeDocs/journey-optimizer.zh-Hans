@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -183,11 +183,9 @@ ht-degree: 1%
 
 1. 在CSV模板中填写要添加到禁止列表的电子邮件地址和/或域。
 
-1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL Upload file]**.
+1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL Submit]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
-
-1. 单击 **[!UICONTROL Submit]**。
+   ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >
