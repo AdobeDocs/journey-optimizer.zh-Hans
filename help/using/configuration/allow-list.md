@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '952'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,11 @@ ht-degree: 3%
 进一步了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;}引用文档。
 
 ## 允许列表逻辑 {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="管理允许列表"
+>abstract="激活允许列表后，只有允许列表中包含的收件人才会收到来自此沙盒的电子邮件。"
 
 允许列表为 [活动](#enable-allow-list)，则以下逻辑适用：
 
