@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1772'
+ht-degree: 2%
 
 ---
 
@@ -71,6 +71,11 @@ ht-degree: 0%
 >title="关于优惠资格"
 >abstract="在此部分中，您可以使用决策规则确定哪些用户有资格使用选件。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="用户档案估计总数"
+>abstract="选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。"
 
 的 **[!UICONTROL Offer eligibility]** 部分允许您将选件限制为使用区段或决策规则定义的特定用户档案。
 
@@ -134,6 +139,11 @@ ht-degree: 0%
 >title="使用上限"
 >abstract="为避免过度取悦客户，请使用上限来定义选件可以显示的最大次数。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="设置上限频率"
+>abstract="您可以选择每日、每周或每月重置选件上限计数器。"
+
 上限用作约束，以定义选件可显示的最大次数。
 
 通过限制用户获得特定选件的次数，您可以避免过度取悦客户，从而使用最佳选件优化每个接触点。
@@ -160,6 +170,16 @@ ht-degree: 0%
 
       例如，如果您是拥有“白金信用卡”选件的银行，则您不希望此选件在每个用户档案中显示超过5次。 事实上，您认为如果用户查看了选件5次而未对其执行操作，则他们更有机会对下一个最佳选件执行操作。
 
+1. 设置 **[!UICONTROL Frequency]** 定义重置上限计数的频率。 为此，请定义计数的时间段（每日、每周或每月），并输入您选择的天/周/月数。
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >重置在您定义的日期(UTC)早上12点进行，或在一周/月的第一天（如果适用）进行。 周的开始日是星期日。
+
+   例如，如果希望每两周重置一次上限计数，请选择 **[!UICONTROL Weekly]** 从 **[!UICONTROL Repeat]** 下拉列表和类型 **2** 中。 重置将每隔一个星期日（世界协调时）中午12点进行。
+
 1. 如果您定义了 [表示](#representations) 为选件指定是否要应用上限 **[!UICONTROL Across all placements]** 或 **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ ht-degree: 0%
 
       例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **每次投放的每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），另外2次（用于Web投放）。
 
-1. 保存并批准后，如果向选件显示您根据定义的条件在此字段中指定的次数，则其投放将停止。
+1. 保存并批准后，如果向选件显示您根据标准和您定义的时间范围在此字段中指定的次数，则其交付将停止。
 
 在准备电子邮件时计算建议使用选件的次数。 例如，如果您准备发送一封包含大量选件的电子邮件，则无论是否发送了这封电子邮件，这些数量都将计入您的最大上限。
 
