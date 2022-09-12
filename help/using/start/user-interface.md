@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 100%
+source-wordcount: '1502'
+ht-degree: 97%
 
 ---
 
@@ -86,9 +86,8 @@ ht-degree: 100%
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙箱，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
 
-<!--
-* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
--->
+* **[!UICONTROL Alerts]**  — 利用用户界面，可根据Adobe Experience Platform可观察性分析显示的量度，查看接收警报的历史记录。 UI还允许您查看、启用和禁用可用的警报规则。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+
 
 ## 产品内用例 {#in-product-uc}
 
