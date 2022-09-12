@@ -3,9 +3,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>在Journey Optimizer中创建和管理营销活动</strong><br/></th>
+<th><strong>在 Journey Optimizer 中创建和管理营销活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用Journey Optimizer促销活动通过各种渠道向特定区段交付一次性内容。 使用历程时，设计会按顺序执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。 </p>
+<p>使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>了解如何在 <a href="../campaigns/get-started-with-campaigns.md">详细文档</a> 和 <a href="https://video.tv.adobe.com/v/346680">功能视频</a>.
+<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ ht-degree: 50%
 <table>
 <thead>
 <tr>
-<th><strong>向用户发送短信（正式发布）</strong><br/></th>
+<th><strong>向用户发送短信（一般情况可用）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,10 +78,10 @@ ht-degree: 50%
 
 **报告**
 
-* 同意策略表和图表现在可在历程全局报表中使用。 利用这些小组件，可在自定义操作中跟踪来自策略中排除的用户档案。 [了解详情](../reports/journey-global-report.md#journey-global)
+* 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的用户档案。[了解详情](../reports/journey-global-report.md#journey-global)
 
-   要访问最新的小组件，请注意，您必须重置不同的报表功能板。 有关功能板自定义的更多信息，请参阅 [详细文档](../reports/global-report.md).
+   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md)。
 
 **管理**
 
-* 现在，可以更新用于短信渠道的主电话号码。 [了解详情](../configuration/primary-email-addresses.md)
+* 现在，可以更新用于短信渠道的主电话号码。[了解详情](../configuration/primary-email-addresses.md)
