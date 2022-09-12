@@ -6,21 +6,21 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 
 # 在营销活动中添加消息{#messages-in- campaigns}
 
-在营销活动中，选择渠道以设计要发送给受众的消息并对其进行个性化设置。 在向营销活动添加电子邮件、短信或推送时，您可以立即发送或计划发送消息。
+在您的营销活动中，选择渠道以设计要发送给受众的消息并对消息进行个性化设置。在向营销活动添加电子邮件、短信或推送内容时，您可以立即发送或设置消息发送计划。
 
 >[!NOTE]
->您还可以创建历程以发送触发的消息。 了解更多 [在此部分中](messages-in-journeys.md).
+>您还可以创建历程以发送触发的消息。[在本节中](messages-in-journeys.md)了解详情。
 
-了解如何在营销活动中添加和配置消息 [在此部分中](../campaigns/create-campaign.md).
+[在此部分中](../campaigns/create-campaign.md)了解如何在营销活动中添加和配置消息。
 
 在以下页面中了解创建消息内容的详细步骤：
 
