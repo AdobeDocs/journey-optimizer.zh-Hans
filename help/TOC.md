@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 + 消息 {#messages}
    + [消息入门](using/messages/get-started-content.md)
    + [添加消息历程](using/messages/messages-in-journeys.md)
-   + [添加消息促销活动](using/messages/messages-in-campaigns.md)
+   + [添加消息营销活动](using/messages/messages-in-campaigns.md)
    + [创建电子邮件](using/messages/create-email.md)
    + [创建推送通知](using/messages/create-push.md)
    + [创建短信消息](using/messages/create-sms.md)
@@ -244,13 +244,13 @@ ht-degree: 97%
    + 实时报告 {#live-report}
       + [访问实时报告仪表板](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
-      + [Campaign实时报表](using/reports/campaign-live-report.md)
+      + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
       + [访问全局报告仪表板](using/reports/global-report.md)
       + [历程全局报告](using/reports/journey-global-report.md)
-      + [促销活动全局报告](using/reports/campaign-global-report.md)
+      + [营销活动全局报告](using/reports/campaign-global-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
    + 历程报告 {#reports}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
-      + [了解抑制列表](using/reports/suppression-list.md)
+      + [了解禁止列表](using/reports/suppression-list.md)
 + 决策管理{#offer-decisioning}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)

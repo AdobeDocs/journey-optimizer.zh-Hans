@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 96%
 * **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅[文档](../building-journeys/journey-end.md)和[功能视频](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
 
 
-* 的 **配置文件时区** 默认情况下，历程属性中的选项处于未选中状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+*  默认情况下，历程属性中的&#x200B;**配置文件时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **消息**
 

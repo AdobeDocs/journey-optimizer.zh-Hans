@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1871'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 95%
 
 ## 2022 年 8 月 {#august-2022}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’22年8月的发行情况。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 8 月版本的所有新增功能和改进。[了解详情](release-notes.md)
 * “频度规则”部分已更新，以反映新的内联消息传递流程。[了解详情](../configuration/frequency-rules.md#apply-frequency-rule)
 * 现在，要获取有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面部分的快速入门。 [了解详情](../landing-pages/get-started-lp.md#video)
-* 添加了对使用读取区段活动的历程的限制。 [了解详情](../building-journeys/read-segment.md)
+* 添加了对使用“读取区段”活动的历程的限制。[了解详情](../building-journeys/read-segment.md)
 * 表达式编辑器运算符页面已得到改进。 [了解详情](../building-journeys/expression/operators.md)
-* 添加了有关如何计划营销活动的章节。 [了解详情](../campaigns/create-campaign.md)
+* 添加了有关如何设置营销活动计划的部分。[了解详情](../campaigns/create-campaign.md)
 * 表达式编辑器的“常规语法规则”部分已更新，以考虑有关文本函数中反斜杠符号转义的新规则。 此更改不会影响现有已发布的消息。 只能更新新消息或草稿消息。 [了解详情](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022 年 7 月 {#july-2022}
