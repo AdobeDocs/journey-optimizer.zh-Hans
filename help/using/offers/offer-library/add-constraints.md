@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,19 +37,19 @@ ht-degree: 2%
 
 利用约束，可定义显示选件的条件。
 
-1. 配置 **[!UICONTROL Offer eligibility]**. [了解详情](#eligibility)
+1. 配置 **[!UICONTROL 选件资格]**. [了解详情](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. 定义 **[!UICONTROL Priority]** 选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他选件相比，优先级越高。
+1. 定义 **[!UICONTROL 优先级]** 选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他选件相比，优先级越高。
 
    ![](../assets/offer-priority.png)
 
-1. 指定选件的 **[!UICONTROL Capping]**，即显示选件的次数。 [了解详情](#capping)
+1. 指定选件的 **[!UICONTROL 上限]**，即显示选件的次数。 [了解详情](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. 单击 **[!UICONTROL Next]** 以确认您定义的所有约束。
+1. 单击 **[!UICONTROL 下一个]** 以确认您定义的所有约束。
 
 例如，如果设置以下约束：
 
@@ -77,23 +77,23 @@ ht-degree: 2%
 >title="用户档案估计总数"
 >abstract="选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。"
 
-的 **[!UICONTROL Offer eligibility]** 部分允许您将选件限制为使用区段或决策规则定义的特定用户档案。
+的 **[!UICONTROL 选件资格]** 部分允许您将选件限制为使用区段或决策规则定义的特定用户档案。
 
 >[!NOTE]
 >
 >了解有关使用的更多信息 **区段** 与 **决策规则** in [此部分](#segments-vs-decision-rules).
 
-* 默认情况下， **[!UICONTROL All visitors]** 选项，这意味着任何用户档案都有资格获得该选件。
+* 默认情况下， **[!UICONTROL 所有访客]** 选项，这意味着任何用户档案都有资格获得该选件。
 
    ![](../assets/offer-eligibility-default.png)
 
 * 您还可以将选件的呈现方式限制为一个或多个选件的成员 [Adobe Experience Platform区段](../../segment/about-segments.md).
 
-   为此，请激活 **[!UICONTROL Visitors who fall into one or multiple segments]** 选项，然后从左侧窗格添加一个或多个区段，并使用 **[!UICONTROL And]** / **[!UICONTROL Or]** 逻辑运算符。
+   为此，请激活 **[!UICONTROL 属于一个或多个区段的访客]** 选项，然后从左侧窗格添加一个或多个区段，并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
 
    ![](../assets/offer-eligibility-segment.png)
 
-* 如果要关联特定 [决策规则](../offer-library/creating-decision-rules.md) 在选件中，选择 **[!UICONTROL By defined decision rule]**，然后将所需的规则从左侧窗格拖入 **[!UICONTROL Decision rule]** 的上界。
+* 如果要关联特定 [决策规则](../offer-library/creating-decision-rules.md) 在选件中，选择 **[!UICONTROL 按定义的决策规则]**，然后将所需的规则从左侧窗格拖入 **[!UICONTROL 决策规则]** 的上界。
 
    ![](../assets/offer_rule.png)
 
@@ -101,7 +101,7 @@ ht-degree: 2%
    >
    >中当前不支持基于事件的选件 [!DNL Journey Optimizer]. 如果您根据 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您将无法在选件中利用它。
 
-选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL Refresh]** 更新数据。
+选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 更新数据。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -162,33 +162,32 @@ ht-degree: 2%
 
    ![](../assets/offer-capping-total.png)
 
-   * 选择 **[!UICONTROL In total]** 定义在组合目标受众中可建议选件多少次，即在所有用户中。
+   * 选择 **[!UICONTROL 合计]** 定义在组合目标受众中可建议选件多少次，即在所有用户中。
 
       例如，如果您是一家电子产品零售商，并且有一项“电视门卫交易”，则您希望在所有用户档案中仅返回选件200次。
 
-   * 选择 **[!UICONTROL Per profile]** 定义向同一用户建议选件的次数。
+   * 选择 **[!UICONTROL 每个用户档案]** 定义向同一用户建议选件的次数。
 
       例如，如果您是拥有“白金信用卡”选件的银行，则您不希望此选件在每个用户档案中显示超过5次。 事实上，您认为如果用户查看了选件5次而未对其执行操作，则他们更有机会对下一个最佳选件执行操作。
+   <!--
+    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
+    ![](../assets/offer-capping-frequency.png)
+    >[!NOTE]
+    >
+    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
+    
+    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
+    -->
 
-1. 设置 **[!UICONTROL Frequency]** 定义重置上限计数的频率。 为此，请定义计数的时间段（每日、每周或每月），并输入您选择的天/周/月数。
-
-   ![](../assets/offer-capping-frequency.png)
-
-   >[!NOTE]
-   >
-   >重置在您定义的日期(UTC)早上12点进行，或在一周/月的第一天（如果适用）进行。 周的开始日是星期日。
-
-   例如，如果希望每两周重置一次上限计数，请选择 **[!UICONTROL Weekly]** 从 **[!UICONTROL Repeat]** 下拉列表和类型 **2** 中。 重置将每隔一个星期日（世界协调时）中午12点进行。
-
-1. 如果您定义了 [表示](#representations) 为选件指定是否要应用上限 **[!UICONTROL Across all placements]** 或 **[!UICONTROL For each placement]**.
+1. 如果您定义了 [表示](add-representations.md) 为选件指定是否要应用上限 **[!UICONTROL 跨所有版面]** 或 **[!UICONTROL 对于每个版面]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL Across all placements]**:上限计数将总计与选件关联的版面中的所有决策。
+   * **[!UICONTROL 跨所有版面]**:上限计数将总计与选件关联的版面中的所有决策。
 
       例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **所有版面中的每个用户档案2个**，则无论使用何种版面组合，每个用户档案总共可收到选件2次。
 
-   * **[!UICONTROL For each placement]**:上限计数将单独对每个版面应用决策计数。
+   * **[!UICONTROL 对于每个版面]**:上限计数将单独对每个版面应用决策计数。
 
       例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **每次投放的每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），另外2次（用于Web投放）。
 

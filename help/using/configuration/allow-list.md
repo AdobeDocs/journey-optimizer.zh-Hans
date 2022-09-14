@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 访问允许列表 {#access-allowed-list}
 
-要访问允许的电子邮件地址和域的详细列表，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择 **[!UICONTROL Allowed list]**.
+要访问允许的电子邮件地址和域的详细列表，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择 **[!UICONTROL 允许列表]**.
 
 ![](assets/allow-list-access.png)
 
@@ -41,11 +41,11 @@ ht-degree: 3%
 >
 >查看、导出和管理允许列表的权限限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在 [此部分](../administration/permissions-overview.md).
 
-要将允许列表导出为CSV文件，请选择 **[!UICONTROL Download CSV]** 按钮。
+要将允许列表导出为CSV文件，请选择 **[!UICONTROL 下载CSV]** 按钮。
 
-使用 **[!UICONTROL Delete]** 按钮以永久删除条目。
+使用 **[!UICONTROL 删除]** 按钮以永久删除条目。
 
-您可以搜索电子邮件地址或域，并在 **[!UICONTROL Address type]**. 选择后，您可以清除列表顶部显示的过滤器。
+您可以搜索电子邮件地址或域，并在 **[!UICONTROL 地址类型]**. 选择后，您可以清除列表顶部显示的过滤器。
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -53,13 +53,13 @@ ht-degree: 3%
 
 要激活允许列表，请执行以下步骤。
 
-1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 菜单。
+1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 允许列表]** 菜单。
 
-1. 单击 **[!UICONTROL Deactivated]**。
+1. 单击 **[!UICONTROL 已停用]**.
 
    ![](assets/allow-list-edit.png)
 
-1. 选择 **[!UICONTROL Activate allowed list]**。允许列表现在处于活动状态。
+1. 选择 **[!UICONTROL 激活允许列表]**. 允许列表现在处于活动状态。
 
    ![](assets/allow-list-enable.png)
 
@@ -77,13 +77,13 @@ ht-degree: 3%
 
 要停用允许列表，请执行以下步骤。
 
-1. 访问 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** 菜单。
+1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 允许列表]** 菜单。
 
-1. 单击 **[!UICONTROL Active]**。
+1. 单击 **[!UICONTROL 活动]**.
 
    ![](assets/allow-list-edit-active.png)
 
-1. 选择 **[!UICONTROL Deactivate allowed list]**。允许列表不再处于活动状态。
+1. 选择 **[!UICONTROL 停用允许列表]**. 允许列表不再处于活动状态。
 
    ![](assets/allow-list-deactivate.png)
 
@@ -104,6 +104,11 @@ ht-degree: 3%
 ### 手动填充允许列表 {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="向允许列表添加地址或域"
+>abstract="您可以通过逐一选择新电子邮件地址或域名，手动将其添加到允许列表。"
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="向允许列表添加地址或域"
 >abstract="您可以通过逐一选择新电子邮件地址或域名，手动将其添加到允许列表。"
@@ -116,11 +121,11 @@ ht-degree: 3%
 
 为此，请执行以下步骤。
 
-1. 选择 **[!UICONTROL Add email or domain]** 按钮。
+1. 选择 **[!UICONTROL 添加电子邮件或域]** 按钮。
 
    ![](assets/allowed-list-add-email.png)
 
-1. 选择地址类型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**.
+1. 选择地址类型： **[!UICONTROL 电子邮件地址]** 或 **[!UICONTROL 域地址]**.
 
 1. 输入要向其发送电子邮件的电子邮件地址或域。
 
@@ -134,9 +139,9 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL Reason]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
-1. 单击 **[!UICONTROL Submit]**。
+1. 单击&#x200B;**[!UICONTROL 提交]**。
 
 ### 使用API调用添加实体 {#api-call-allowed-list}
 
@@ -159,13 +164,13 @@ ht-degree: 3%
 
 * 如果允许列表为 **空**，则不会发送任何电子邮件。
 
-* 如果实体为 **允许列表**，而不是在抑制列表中，则会将电子邮件发送给相应的收件人。 但是，如果实体 [抑制列表](../reports/suppression-list.md)，相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL Suppressed]**.
+* 如果实体为 **允许列表**，而不是在抑制列表中，则会将电子邮件发送给相应的收件人。 但是，如果实体 [抑制列表](../reports/suppression-list.md)，相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 隐藏]**.
 
-* 如果实体为 **不在允许列表上** （且不在禁止列表中），相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL Not allowed]**.
+* 如果实体为 **不在允许列表上** （且不在禁止列表中），相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 不允许]**.
 
 >[!NOTE]
 >
->具有 **[!UICONTROL Not allowed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
+>具有 **[!UICONTROL 不允许]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
 >
 >了解 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 访问禁止列表 {#access-suppression-list}
 
-要访问排除的电子邮件地址的详细列表，请转到 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**，然后选择 **[!UICONTROL Suppression list]**.
+要访问排除的电子邮件地址的详细列表，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择 **[!UICONTROL 禁止列表]**.
 
 >[!CAUTION]
 >
@@ -43,15 +43,15 @@ ht-degree: 1%
 
 ![](assets/suppression-list-filters.png)
 
-您可以在 **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**&#x200B;或 **[!UICONTROL Reason]**. 为每个标准选择您选择的选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
+您可以在 **[!UICONTROL 抑制类别]**, **[!UICONTROL 地址类型]**&#x200B;或 **[!UICONTROL 原因]**. 为每个标准选择您选择的选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
 
 ![](assets/suppression-list-filtering-example.png)
 
-如果您手动添加电子邮件地址或域名时出错，则 **[!UICONTROL Delete]** 按钮来删除该条目。
+如果您手动添加电子邮件地址或域名时出错，则 **[!UICONTROL 删除]** 按钮来删除该条目。
 
 >[!CAUTION]
 >
->请勿使用 **[!UICONTROL Delete]** 按钮以删除禁止的电子邮件地址或域。
+>请勿使用 **[!UICONTROL 删除]** 按钮以删除禁止的电子邮件地址或域。
 
 ![](assets/suppression-list-delete.png)
 
@@ -61,15 +61,15 @@ ht-degree: 1%
 >
 >考虑删除任何电子邮件地址或域名时，请格外小心。 如有疑问，请联系可投放性专家。
 
-从 **[!UICONTROL Suppression list]** 视图，您还可以编辑隐藏规则。 [了解详情](retries.md)
+从 **[!UICONTROL 禁止列表]** 视图，您还可以编辑隐藏规则。 [了解详情](retries.md)
 
-要将隐藏列表导出为CSV文件，请选择 **[!UICONTROL Download CSV]** 按钮。
+要将隐藏列表导出为CSV文件，请选择 **[!UICONTROL 下载CSV]** 按钮。
 
 ![](assets/suppression-list-download-csv.png)
 
 ## 抑制类别和原因 {#suppression-categories-and-reasons}
 
-当邮件无法发送到电子邮件地址时， [!DNL Journey Optimizer] 确定投放失败的原因，并将其与 **[!UICONTROL Suppression category]**.
+当邮件无法发送到电子邮件地址时， [!DNL Journey Optimizer] 确定投放失败的原因，并将其与 **[!UICONTROL 抑制类别]**.
 
 抑制类别如下：
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 >
 >了解有关 [投放失败类型](../reports/suppression-list.md#delivery-failures) 中。
 
-对于列出的每个电子邮件地址，您还可以检查 **[!UICONTROL Type]** （电子邮件或域）、 **[!UICONTROL Reason]** ，以及将其添加到禁止列表的日期/时间。
+对于列出的每个电子邮件地址，您还可以检查 **[!UICONTROL 类型]** （电子邮件或域）、 **[!UICONTROL 原因]** ，以及将其添加到禁止列表的日期/时间。
 
 ![](assets/suppression-list.png)
 
@@ -95,13 +95,13 @@ ht-degree: 1%
 
 | 原因 | 描述 | 抑制类别 |
 | --- | --- | --- |
-| **[!UICONTROL Invalid Recipient]** | 收件人无效或不存在。 | 硬 |
-| **[!UICONTROL Soft Bounce]** | 消息软退件的原因不是此表中列出的软错误，例如，在通过ISP建议的允许速率发送时。 | 柔和 |
-| **[!UICONTROL DNS Failure]** | 由于DNS失败而退回消息。 | 柔和 |
-| **[!UICONTROL Mailbox Full]** | 由于收件人的邮箱已满，无法接受更多邮件，邮件已退回。 | 柔和 |
-| **[!UICONTROL Relaying Denied]** | 由于不允许中继，因此接收器阻止了该消息。 | 柔和 |
-| **[!UICONTROL Challenge-Response]** | 这是一个挑战 — 响应调查。 | 柔和 |
-| **[!UICONTROL Spam Complaint]** | 由于收件人标记为垃圾邮件，因此阻止了消息。 | 硬 |
+| **[!UICONTROL 收件人无效]** | 收件人无效或不存在。 | 硬 |
+| **[!UICONTROL 软退回]** | 消息软退件的原因不是此表中列出的软错误，例如，在通过ISP建议的允许速率发送时。 | 柔和 |
+| **[!UICONTROL DNS失败]** | 由于DNS失败而退回消息。 | 柔和 |
+| **[!UICONTROL 邮箱已满]** | 由于收件人的邮箱已满，无法接受更多邮件，邮件已退回。 | 柔和 |
+| **[!UICONTROL 拒绝中继]** | 由于不允许中继，因此接收器阻止了该消息。 | 柔和 |
+| **[!UICONTROL 挑战 — 响应]** | 这是一个挑战 — 响应调查。 | 柔和 |
+| **[!UICONTROL 垃圾邮件投诉]** | 由于收件人标记为垃圾邮件，因此阻止了消息。 | 硬 |
 
 >[!NOTE]
 >
@@ -110,9 +110,14 @@ ht-degree: 1%
 ## 手动添加地址和域 {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="向抑制列表添加电子邮件或域"
 >abstract="您可以手动填充Journey Optimizer抑制列表，以从发送中排除特定的电子邮件地址和/或域。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="向抑制列表添加电子邮件或域"
+>abstract="要填充Journey Optimizer抑制列表，您可以手动添加电子邮件地址或域 — 一次添加一个，或通过CSV文件上传以批量模式添加。 这些特定的电子邮件地址和/或域将被排除在发送之外。"
 
 当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
 
@@ -120,7 +125,7 @@ ht-degree: 1%
 
 您可以添加电子邮件地址或域 [一次一个](#add-one-address-or-domain)或 [在批量模式下](#upload-csv-file) 通过CSV文件上传。
 
-为此，请选择 **[!UICONTROL Add email or domain]** 按钮，然后按照以下方法之一操作。
+为此，请选择 **[!UICONTROL 添加电子邮件或域]** 按钮，然后按照以下方法之一操作。
 
 ![](assets/suppression-list-add-email.png)
 
@@ -131,11 +136,11 @@ ht-degree: 1%
 >title="向禁止列表添加一项"
 >abstract="您可以通过逐个添加电子邮件地址和/或域来填充抑制列表。"
 
-1. 选择 **[!UICONTROL One by one]** 选项。
+1. 选择 **[!UICONTROL 一个一个]** 选项。
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 选择地址类型： **[!UICONTROL Email address]** 或 **[!UICONTROL Domain address]**.
+1. 选择地址类型： **[!UICONTROL 电子邮件地址]** 或 **[!UICONTROL 域地址]**.
 
 1. 输入要从发送中排除的电子邮件地址或域。
 
@@ -147,9 +152,9 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL Reason]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
-1. 单击 **[!UICONTROL Submit]**。
+1. 单击&#x200B;**[!UICONTROL 提交]**。
 
 ### 上传CSV文件 {#upload-csv-file}
 
@@ -158,7 +163,7 @@ ht-degree: 1%
 >title="上传CSV以向隐藏列表添加项目"
 >abstract="您可以通过上传以您要排除的电子邮件地址/域填充的CSV文件来填充抑制列表。"
 
-1. 选择 **[!UICONTROL Upload CSV]** 选项。
+1. 选择 **[!UICONTROL 上传CSV]** 选项。
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -173,7 +178,7 @@ ht-degree: 1%
    >
    >在 **注释** 列。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
-   您也可以从 **[!UICONTROL Suppression list]** 主视图。
+   您也可以从 **[!UICONTROL 禁止列表]** 主视图。
 
    >[!CAUTION]
    >
@@ -183,7 +188,7 @@ ht-degree: 1%
 
 1. 在CSV模板中填写要添加到禁止列表的电子邮件地址和/或域。
 
-1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL Submit]**.
+1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL 提交]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
@@ -195,7 +200,7 @@ ht-degree: 1%
 
 您可以检查上传的最新CSV文件的列表。
 
-为此，请从 **[!UICONTROL Suppression list]** 视图，单击 **[!UICONTROL Recent uploads]** 按钮。
+为此，请从 **[!UICONTROL 禁止列表]** 视图，单击 **[!UICONTROL 最近上传]** 按钮。
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
