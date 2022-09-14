@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -112,12 +112,15 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="向抑制列表添加电子邮件或域"
->abstract="您可以手动填充Journey Optimizer抑制列表，以从发送中排除特定的电子邮件地址和/或域。"
+>abstract="您可以手动填充Journey Optimizer抑制列表，以便从发送中排除特定的电子邮件地址和/或域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="向抑制列表添加电子邮件或域"
->abstract="要填充Journey Optimizer抑制列表，您可以手动添加电子邮件地址或域 — 一次添加一个，或通过CSV文件上传以批量模式添加。 这些特定的电子邮件地址和/或域将被排除在发送之外。"
+>abstract="您可以手动填充Journey Optimizer抑制列表，以从发送中排除特定的电子邮件地址和/或域。"
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
 

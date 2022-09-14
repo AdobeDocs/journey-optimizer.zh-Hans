@@ -4,14 +4,19 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 7%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
 # 定义登陆页面预设 {#lp-presets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain_header"
+>title="创建登陆页面预设"
+>abstract="要构建登陆页面并通过Journey Optimizer利用该页面，您必须创建包含要使用的子域的登陆页面预设。"
 
 When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须选择登陆页面预设才能构建登陆页面并通过该页面进行利用 **[!DNL Journey Optimizer]**.
 
@@ -19,9 +24,9 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
 要访问登陆页面预设，请执行以下步骤。
 
-1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单。
+1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单。
 
-1. 选择 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+1. 选择 **[!UICONTROL 品牌策略]** > **[!UICONTROL 登陆页面预设]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -37,9 +42,9 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 >
 >要创建预设，请确保您之前至少配置了一个登陆页面子域。 [了解如何](lp-subdomains.md)
 
-1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单，然后选择 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 品牌策略]** > **[!UICONTROL 登陆页面预设]**.
 
-1. 选择 **[!UICONTROL Create landing page preset]**。
+1. 选择 **[!UICONTROL 创建登陆页面预设]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -59,17 +64,17 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
    将显示与所选子域对应的设置。
 
-1. 如果要选择登陆页面子域作为跟踪URL，请检查 **[!UICONTROL Same as landing page subdomain]** 选项。 [了解有关跟踪的更多信息](../design/message-tracking.md)
+1. 如果要选择登陆页面子域作为跟踪URL，请检查 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登陆页面URL为“pages.mail.luma.com”，而跟踪URL为“data.mail.luma.com”，则可以选择“pages.mail.luma.com”作为跟踪子域。
 
-1. 单击 **[!UICONTROL Submit]** 以确认创建登陆页面预设。 您还可以将预设另存为草稿，稍后恢复其配置。
+1. 单击 **[!UICONTROL 提交]** 以确认创建登陆页面预设。 您还可以将预设另存为草稿，稍后恢复其配置。
 
    ![](assets/lp_preset-subdomain-settings-submit.png)
 
-1. 创建登陆页面预设后，该预设会显示在列表中，并且 **[!UICONTROL Active]** 状态。 它已准备好用于您的登陆页面。
+1. 创建登陆页面预设后，该预设会显示在列表中，并且 **[!UICONTROL 活动]** 状态。 它已准备好用于您的登陆页面。
 
    ![](assets/lp-preset-active-temp.png)
 
