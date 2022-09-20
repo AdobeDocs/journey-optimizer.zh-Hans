@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
@@ -177,11 +177,6 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   >[!NOTE]
-   >
-   >在 **注释** 列。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
-
-   您也可以从 **[!UICONTROL 禁止列表]** 主视图。
 
    >[!CAUTION]
    >
@@ -190,6 +185,10 @@ To populate the Journey Optimizer suppression list, you can manually add email a
    >文件大小不应超过1 MB。
 
 1. 在CSV模板中填写要添加到禁止列表的电子邮件地址和/或域。
+
+   >[!NOTE]
+   >
+   >在 **注释** 列。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
 
 1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL 提交]**.
 

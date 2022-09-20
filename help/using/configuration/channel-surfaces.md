@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 1%
    * 列入阻止列表已分配IP的管理
    * 无效 `helo` name
    * 从IP发送的电子邮件，而不是在相应表面的IP池中指定的IP
-   * 无法向Gmail和Yahoo等主要ISP的收件箱发送电子邮件
+   * 无法向主要ISP的收件箱发送电子邮件
 
 ## 编辑通道曲面 {#edit-channel-surface}
 
