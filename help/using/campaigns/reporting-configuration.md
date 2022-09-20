@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 42%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="选择数据集"
->abstract="您只能选择一个事件类型数据集，该数据集必须至少包含一个受支持的字段组：应用程序详细信息、商务详细信息、Web详细信息。"
+>abstract="您只能选择事件类型数据集，该数据集必须至少包含一个受支持的字段组：应用程序详细信息、商务详细信息、Web详细信息。"
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-报表数据源配置允许您检索将在 **[!UICONTROL Objectives]** 选项卡。 [了解详情](content-experiment.md#objectives-global)
+报表数据源配置允许您检索将在 **[!UICONTROL 目标]** 选项卡。 [了解详情](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 42%
 
 ## 对应于每个字段组的目标 {#objective-list}
 
-下表显示了要添加到 **[!UICONTROL Objectives]** 选项卡。
+下表显示了要添加到 **[!UICONTROL 目标]** 选项卡。
 
 | 字段组 | 目标 |
 |--- |--- |
@@ -78,21 +78,21 @@ ht-degree: 42%
 
 ## 添加数据集 {#add-datasets}
 
-1. 从 **[!UICONTROL ADMINISTRATION]** 菜单中，选择 **[!UICONTROL Configurations]**。在 **[!UICONTROL Reporting]** 部分中，单击 **[!UICONTROL Manage]**。
+1. 从 **[!UICONTROL 管理]** 菜单，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 报表]** ，单击 **[!UICONTROL 管理]**.
 
    ![](assets/reporting-config-menu.png)
 
    此时会显示已添加的数据集列表。
 
-1. 在 **[!UICONTROL Dataset]** 选项卡中，单击 **[!UICONTROL Add dataset]**。
+1. 从 **[!UICONTROL 数据集]** ，单击 **[!UICONTROL 添加数据集]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >如果选择 **[!UICONTROL System dataset]** 选项卡，将仅显示由系统创建的数据集。您将无法添加其他数据集。
+   >如果您选择 **[!UICONTROL 系统数据集]** 选项卡中，将仅显示由系统创建的数据集。 您将无法添加其他数据集。
 
-1. 从 **[!UICONTROL Dataset]** 下拉列表中，选择要用于报表的数据集。
+1. 从 **[!UICONTROL 数据集]** 下拉列表中，选择要用于报表的数据集。
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ ht-degree: 42%
 
    在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target=&quot;_blank&quot;}中了解关于数据集的更多信息。
 
-1. 从 **[!UICONTROL Profile ID]** 下拉列表中，选择用于标识报表中每个配置文件的数据集字段属性。
+1. 从 **[!UICONTROL 配置文件ID]** 下拉列表中，选择用于标识报表中每个配置文件的数据集字段属性。
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -110,7 +110,7 @@ ht-degree: 42%
    >
    >只显示可用于报表的 ID。
 
-1. 默认启用 **[!UICONTROL Use Primary ID namespace]** 选项。如果选择的 **[!UICONTROL Profile ID]** 是 **[!UICONTROL Identity Map]**，则可以禁用此选项，然后从显示的下拉列表中选择其他命名空间。
+1. 的 **[!UICONTROL 使用主ID命名空间]** 选项。 如果选定 **[!UICONTROL 配置文件ID]** is **[!UICONTROL 身份映射]**，则可以禁用此选项，然后从显示的下拉列表中选择其他命名空间。
 
    ![](assets/reporting-config-namespace.png)
 
@@ -122,7 +122,7 @@ ht-degree: 42%
    >
    >如果您选择了非事件类型的数据集，则将无法继续。
 
-现在，在生成营销活动报表时，您可以看到与您添加的数据集中使用的字段组对应的量度。 转到 **[!UICONTROL Objectives]** 选项卡，然后选择所选的量度以优化报表。 [了解详情](content-experiment.md#objectives-global)
+现在，在生成营销活动报表时，您可以看到与您添加的数据集中使用的字段组对应的量度。 转到 **[!UICONTROL 目标]** 选项卡，然后选择所选的量度以优化报表。 [了解详情](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
