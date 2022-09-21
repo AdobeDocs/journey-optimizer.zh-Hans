@@ -5,20 +5,26 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 92%
 
 ---
 
 # 数据使用策略 {#Policies}
 
+>[!CONTEXTUALHELP]
+>id="ajo_olac_manage_access"
+>title="Olac管理访问"
+>abstract="热障涂层"
+
+
 使用 Adobe Experience Platform **数据管理服务**，可通过使用标签、营销操作和策略来实施数据使用限制。
 
 为此，可使用数据管理服务将数据使用情况标签应用于数据集和字段，并根据相关的数据使用策略对每个数据集和字段进行分类。
 
-数据使用策略是描述您可以或限制在 Experience Platform 内对数据执行的营销操作类型的规则。可从 **[!UICONTROL Policies]** 菜单访问。
+数据使用策略是描述您可以或限制在 Experience Platform 内对数据执行的营销操作类型的规则。可从访问 **[!UICONTROL 策略]** 菜单。
 
 ![](assets/policies.png)
 
