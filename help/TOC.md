@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
-      + [访问实时报告仪表板](using/reports/live-report.md)
+      + [实时报表入门](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
-      + [访问全局报告仪表板](using/reports/global-report.md)
+      + [全局报告入门](using/reports/global-report.md)
       + [历程全局报告](using/reports/journey-global-report.md)
       + [营销活动全局报告](using/reports/campaign-global-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
