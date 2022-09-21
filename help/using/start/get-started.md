@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 * **现代化的全渠道编排和执行** - 在单个画布上协调和优化客户历程以实现一对一客户参与和营销推广，帮助品牌厂商在整个客户生命周期中提供更多价值。&amp; 在 [!DNL Adobe Journey Optimizer] 中设计的客户历程可以是动态的、基于事件的，以帮助品牌厂商对实时信号做出反应，并将这些交互与计划的活动联系起来，从而就向客户发送的通信内容、发送时间以及发送渠道做出正确的决策。
 
-* **智能化决策和个性化** - 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来对客户体验的整个过程进行预测性分析，从而更轻松地实现决策的自动化和大规模的体验优化。 Decisioning 支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的优惠进行规模化的集中管理。
+* **智能化决策和个性化** - 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来对客户体验的整个过程进行预测性分析，从而更轻松地实现决策的自动化和大规模的体验优化。决策功能支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的优惠进行规模化的集中管理。
 
 ## 架构 {#architecture}
 
