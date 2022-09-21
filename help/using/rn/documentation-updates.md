@@ -3,9 +3,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1873'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 97%
 * “频度规则”部分已更新，以反映新的内联消息传递流程。[了解详情](../configuration/frequency-rules.md#apply-frequency-rule)
 * 现在，要获取有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面部分的快速入门。 [了解详情](../landing-pages/get-started-lp.md#video)
 * 添加了对使用“读取区段”活动的历程的限制。[了解详情](../building-journeys/read-segment.md)
-* 表达式编辑器运算符页面已得到改进。 [了解详情](../building-journeys/expression/operators.md)
+* 表达式编辑器运算符页面已得到改进。[了解详情](../building-journeys/expression/operators.md)
 * 添加了有关如何设置营销活动计划的部分。[了解详情](../campaigns/create-campaign.md)
-* 表达式编辑器的“常规语法规则”部分已更新，以考虑有关文本函数中反斜杠符号转义的新规则。 此更改不会影响现有已发布的消息。 只能更新新消息或草稿消息。 [了解详情](../personalization/personalization-syntax.md#general-rules)
+* 表达式编辑器的“常规语法规则”部分已更新，以纳入有关文本函数中反斜杠符号转义的新规则。此更改不会影响现有已发布的消息。仅须更新新消息或草稿消息。 [了解详情](../personalization/personalization-syntax.md#general-rules)
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 * 更新了有关决策管理功能的视频，以反映 Journey Optimizer 用户界面。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 对&#x200B;**数据集入门**&#x200B;部分进行了改进，以详细说明如何访问和创建数据集。[了解更多信息](../start/get-started-datasets.md)
 * 在 **Adobe Journey Optimizer 文档**&#x200B;主页上添加了帮助指南和产品发行说明的链接。[了解更多信息](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
-* **创建消息预设**&#x200B;部分现在说明了当选定的 IP 池在编辑中（处于 **[!UICONTROL Processing]** 状态）且从未与选定的子域关联时，无法继续创建预设。[了解更多信息](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* **创建消息预设**&#x200B;部分现在说明了当选定的 IP 池在编辑中（处于&#x200B;**[!UICONTROL 处理]**&#x200B;状态）且从未与选定的子域关联时，无法继续创建预设。[了解更多信息](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 更新了消息预设 **URL 跟踪**&#x200B;部分，以反映用户界面中的细微更改。[了解更多信息](../configuration/channel-surfaces.md#url-tracking)
 
 ## 2022 年 3 月 {#march-2022}
@@ -182,6 +182,6 @@ ht-degree: 97%
 * 更新了历程限制。[了解更多信息](../start/guardrails.md)
 * 更新了决策中的配置优惠选择部分。[了解更多信息](../offers/offer-activities/configure-offer-selection.md)
 * 添加了警告，指出目前不支持基于事件的优惠。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* 记录了“决策管理”功能中新增的 **[!UICONTROL Overview]** 选项卡。[了解更多信息](../offers/get-started/user-interface.md#overview)
+* 加入了有关“决策管理”功能中新增的&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡的说明内容。[了解更多信息](../offers/get-started/user-interface.md#overview)
 * 添加了新章节，以说明优惠和决策列表中可用的操作：[优惠列表](../offers/offer-library/creating-personalized-offers.md#offer-list) 和 [决策列表](../offers/offer-activities/create-offer-activities.md#decision-list)。
 
