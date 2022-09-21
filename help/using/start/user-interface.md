@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
-workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1572'
+ht-degree: 100%
 
 ---
 
@@ -40,53 +40,53 @@ ht-degree: 97%
 
 **主页**
 
-[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。**[!UICONTROL Recents]**&#x200B;列表提供指向最近创建的事件和历程的快捷方式。此列表显示创建和修改它们的日期及状态。
+[!DNL Journey Optimizer] 主页包含可供开始使用的关键链接和资源。**[!UICONTROL 最近]**&#x200B;列表提供指向最近创建的事件和历程的快捷方式。此列表显示创建和修改它们的日期及状态。
 
-**[!UICONTROL JOURNEY MANAGEMENT]**
+**[!UICONTROL 历程管理]**
 
-* **[!UICONTROL Journeys]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL 历程]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - 创建、设计、测试和发布登陆页面。[了解详情](../landing-pages/get-started-lp.md)
+* **[!UICONTROL 登陆页面]** - 创建、设计、测试和发布登陆页面。[了解详情](../landing-pages/get-started-lp.md)
 
-**[!UICONTROL DECISION MANAGEMENT]**
+**[!UICONTROL 决策管理]**
 
-* **[!UICONTROL Offers]** - 通过此菜单访问近期的源和数据集。使用此部分可创建新优惠。[了解详情](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL 优惠]** - 通过此菜单访问近期的源和数据集。使用此部分可创建新优惠。[了解详情](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]** - 创建投放位置、规则和标记。[了解详情](../offers/offer-library/key-steps.md)
+* **[!UICONTROL 组件]** - 创建投放位置、规则和标记。[了解详情](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL CONTENT MANAGEMENT]**
+**[!UICONTROL 内容管理]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../design/assets-essentials.md)
+* **[!UICONTROL 资源]** - [!DNL Adobe Experience Manager Assets Essentials] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../design/assets-essentials.md)
 
-**[!UICONTROL DATA MANAGEMENT]**
+**[!UICONTROL 数据管理]**
 
-* **[!UICONTROL Schemas]** - 使用 Adobe Experience Platform 在称为“架构编辑器”的交互式可视画布中创建和管理 Experience Data Model (XDM) 架构。[了解详情](get-started-schemas.md)
+* **[!UICONTROL 架构]** - 使用 Adobe Experience Platform 在称为“架构编辑器”的交互式可视画布中创建和管理 Experience Data Model (XDM) 架构。[了解详情](get-started-schemas.md)
 
-* **[!UICONTROL Datasets]** - 摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。[了解详情](get-started-datasets.md)
+* **[!UICONTROL 数据集]** - 摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。[了解详情](get-started-datasets.md)
 
-* **[!UICONTROL Queries]** - 使用 Adobe Experience Platform 查询服务编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](get-started-queries.md)
+* **[!UICONTROL 查询]** - 使用 Adobe Experience Platform Query Service 编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - 使用此菜单可监控 Adobe Experience Platform 用户界面中的数据摄取。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target=&quot;_blank&quot;}
 
-**[!UICONTROL CONNECTIONS]**
+**[!UICONTROL 连接]**
 
-* **[!UICONTROL Sources]** - 使用此菜单从各种源（如 Adobe 应用程序、基于云的存储、数据库等）中摄取数据，并构建、标记和增强传入数据。[了解详情](get-started-sources.md)
+* **[!UICONTROL 源]** - 使用此菜单从各种来源（如 Adobe 应用程序、基于云的存储、数据库等）中摄取数据，并构建、标记和增强传入数据。[了解详情](get-started-sources.md)
 
-**[!UICONTROL CUSTOMER]**
+**[!UICONTROL 客户]**
 
-* **[!UICONTROL Segments]** - 创建和管理 Experience Platform 区段定义，并将其用于您的历程。[了解详情](../segment/about-segments.md)
+* **[!UICONTROL 区段]** - 创建和管理 Experience Platform 区段定义，并将其用于您的历程。[了解详情](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - Real-time Customer Profile 可以为每位客户创建全面视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](../segment/get-started-profiles.md)
+* **[!UICONTROL 用户档案]** - Real-time Customer Profile 可以为每位客户创建整体视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform 标识服务通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](../segment/get-started-identity.md)
+* **[!UICONTROL 身份]** - Adobe Experience Platform Identity Service 通过 Adobe Experience Platform 中称为“身份图”的方式管理客户的跨设备、跨渠道和近乎实时的身份识别。[了解详情](../segment/get-started-identity.md)
 
-**[!UICONTROL ADMINISTRATION]**
+**[!UICONTROL 管理]**
 
-* **[!UICONTROL Journey Administration]** - 使用此菜单来配置要在历程中使用的[事件](../event/about-events.md)、[数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)。
+* **[!UICONTROL 历程管理]** - 使用此菜单来配置要在历程中使用的[事件](../event/about-events.md)、[数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)。
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙箱，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
+* **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
 
-* **[!UICONTROL Alerts]**  — 利用用户界面，可根据Adobe Experience Platform可观察性分析显示的量度，查看接收警报的历史记录。 UI还允许您查看、启用和禁用可用的警报规则。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+* **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}
 
 
 ## 产品内用例 {#in-product-uc}
@@ -102,11 +102,11 @@ ht-degree: 97%
 * **向新客户发送电子邮件**，可以轻松发送最多两封电子邮件来欢迎新注册的客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
 
-单击 **[!UICONTROL View details]** 以了解关于每个用例的更多信息。
+单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;了解关于每个用例的更多信息。
 
-单击 **[!UICONTROL Begin]** 按钮开始实施用例。
+单击&#x200B;**[!UICONTROL 开始]**&#x200B;按钮开始实施用例。
 
-您可以通过 **[!UICONTROL View use case library]** 按钮访问已执行的用例。
+您可以从&#x200B;**[!UICONTROL 查看用例库]**&#x200B;按钮访问执行的用例。
 
 ## 辅助功能{#accessibility}
 
@@ -172,7 +172,7 @@ ht-degree: 97%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>选项卡</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -194,7 +194,7 @@ ht-degree: 97%
   <tr>
     <td>
 
-在基于区段的历程中触发事件，其中 **[!UICONTROL Single profile at a time]** 选项处于打开状态
+在基于区段的历程中触发事件，其中&#x200B;**[!UICONTROL 一次单个配置文件]**&#x200B;选项处于打开状态
 
 </td>
     <td>P</td>
@@ -213,7 +213,7 @@ ht-degree: 97%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -237,7 +237,7 @@ ht-degree: 97%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>
 
@@ -289,17 +289,17 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 单击列表左上角的过滤器图标即可访问过滤器。通过使用过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改过的元素。选项因上下文不同而异。
 
-在历程列表中，您可以根据历程的状态、类型和版本从 **[!UICONTROL Status and version filters]** 筛选历程。类型可以是：**[!UICONTROL Unitary event]**、**[!UICONTROL Segment qualification]**、**[!UICONTROL Read segment]**、**[!UICONTROL Business event]** 或 **[!UICONTROL Burst]**。您可以从 **[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]** 选择仅显示使用特定事件、字段组或操作的历程。**[!UICONTROL Publication filters]** 允许您选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
+在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;中筛选历程。类型可以是：**[!UICONTROL 单一事件]**、**[!UICONTROL 区段鉴别]**、**[!UICONTROL 读取区段]**、**[!UICONTROL 业务事件]**&#x200B;或&#x200B;**[!UICONTROL 突发]**。您可以从&#x200B;**[!UICONTROL 活动过滤器]**&#x200B;和&#x200B;**[!UICONTROL 数据过滤器]**&#x200B;中选择仅显示使用特定事件、字段组或操作的历程。通过&#x200B;**[!UICONTROL 发布过滤器]**，您可以选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
 >请注意，显示的列可以使用列表右上角的配置按钮进行个性化设置。为每个用户保存个性化设置。
 
-使用 **[!UICONTROL Last update]** 和 **[!UICONTROL Last update by]** 列检查历程的上次更新时间以及保存该更新的人员。
+使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;和&#x200B;**[!UICONTROL 上次更新者]**&#x200B;列检查历程的上次更新时间以及保存该更新的人员。
 
 ![](assets/filter-journeys.png)
 
-在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL Used in]** 字段显示使用该特定事件、字段组或操作的历程数。您可以单击“**[!UICONTROL View journeys]**”按钮以显示相应历程的列表。
+在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL 使用位置]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
 
 ![](assets/journey3bis.png)
 
