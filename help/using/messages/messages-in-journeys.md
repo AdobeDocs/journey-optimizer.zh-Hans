@@ -7,7 +7,7 @@ role: User
 level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: ht
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,11 @@ ht-degree: 100%
 
 1. 输入标签和描述。
 
-1. 选择消息&#x200B;**[!UICONTROL Category]**：为商业消息选择&#x200B;**营销型**，或为非商业消息选择&#x200B;**事务型**（如订单确认、密码重置通知或投放信息）。
+1. 选择消息&#x200B;**[!UICONTROL 类别]**：为商业消息选择&#x200B;**营销型**，或为非商业消息选择&#x200B;**事务型**（如订单确认、密码重置通知或投放信息）。
 
    >[!CAUTION]
    >
-   >如果您为特定渠道和类别定义[频率规则](../configuration/frequency-rules.md)，在选择该渠道和类别时，会自动将它们应用于消息。当前频率规则仅可用于 **[!UICONTROL Marketing]** 类别。
+   >如果您为特定渠道和类别定义[频率规则](../configuration/frequency-rules.md)，在选择该渠道和类别时，会自动将它们应用于消息。当前频率规则仅可用于&#x200B;**[!UICONTROL 营销型]**&#x200B;类别。
 
    ![](assets/inline-message-category.png)
 
@@ -54,7 +54,7 @@ ht-degree: 100%
    >
    >营销类型的消息必须包含[选择退出链接](../messages/consent.md#opt-out-management)。这对事务型消息并不是必需的，因为可以将这些消息发送到从营销通信内容中取消订阅的用户档案。
 
-1. 选择渠道&#x200B;**[!UICONTROL Surface]**（即消息预设）来发送消息。
+1. 选择渠道&#x200B;**[!UICONTROL 界面]**（即消息预设）来发送消息。
 
    平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
@@ -62,7 +62,7 @@ ht-degree: 100%
    >
    >必须为所选消息类别和渠道选择有效的渠道平面。
 
-   您可以使用消息界面中的 **[!UICONTROL Properties]** 按钮随时访问和修改消息的标签、描述和平面。
+   您可以使用消息界面中的&#x200B;**[!UICONTROL 属性]**&#x200B;按钮随时访问和修改消息的标签、描述和界面。
 
 1. 创建消息内容。
 
@@ -74,15 +74,15 @@ ht-degree: 100%
 
 ## 启用发送时间优化{#sto-in-journeys}
 
-对于电子邮件和推送通知，您可以启用 **[!UICONTROL Send-time optimization]**。
+对于电子邮件和推送通知，您可以启用&#x200B;**[!UICONTROL 发送时间优化]**。
 
-使用 **[!UICONTROL Send-time optimization]** 安排每个用户的个性化发送时间，以增加消息的打开率和点击率。[了解详情](../messages/send-time-optimization.md)。
+使用&#x200B;**[!UICONTROL 发送时间优化]**&#x200B;安排每个用户的个性化发送时间，以增加消息的打开率和点击率。[了解详情](../messages/send-time-optimization.md)。
 
 ## 高级参数{#adv-settings}
 
 默认情况下，高级参数处于只读和隐藏状态。
 
-要访问高级参数，请单击消息窗格顶部的 **[!UICONTROL Show read-only fields]** 图标。
+要访问高级参数，请单击消息窗格顶部的&#x200B;**[!UICONTROL 显示只读字段]**&#x200B;图标。
 
 ![](assets/show-read-only.png)
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 1. 选择要复制的消息。
 
-1. 使用 **[!UICONTROL Action]** 窗格中的 **[!UICONTROL Copy]** 按钮。
+1. 使用&#x200B;**[!UICONTROL 操作]**&#x200B;窗格中的&#x200B;**[!UICONTROL 复制]**&#x200B;按钮。
 
    ![](assets/message-duplicate.png)
 
@@ -142,4 +142,4 @@ ht-degree: 100%
 
 ![](assets/delete-message.png)
 
-使用 **[!UICONTROL Confirm]** 按钮进行验证。
+使用&#x200B;**[!UICONTROL 确认]**&#x200B;按钮进行验证。
