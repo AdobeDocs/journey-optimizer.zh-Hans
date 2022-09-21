@@ -3,9 +3,9 @@ title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -340,7 +340,7 @@ ht-degree: 97%
 
 **决策管理**
 
-* **Edge上的决策API** - Edge Decisioning API可以交付和渲染在决策管理中管理的个性化选件。 您可以使用决策管理用户界面(UI)或API创建选件和其他相关对象。 [了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge 上的 Decisioning API** - Edge Decisioning API 可以投放和呈现在决策管理中管理的个性化优惠。您可以使用决策管理用户界面 (UI) 或 API 创建优惠和其他相关对象。[了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -378,7 +378,7 @@ ht-degree: 97%
 **决策管理**
 
 * 现在，您可以指定是将优惠上限应用到所有用户还是某个特定用户档案，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
-* 批量决策API允许组织在一次调用中对给定区段中的所有用户档案都使用决策管理功能。 区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 通过“批量决策 API”，各类组织可以在一次调用中对特定区段中的所有用户档案使用决策管理功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
