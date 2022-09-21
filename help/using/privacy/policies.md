@@ -8,7 +8,7 @@ exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 为此，可使用数据管理服务将数据使用情况标签应用于数据集和字段，并根据相关的数据使用策略对每个数据集和字段进行分类。
 
-数据使用策略是描述您可以或限制在 Experience Platform 内对数据执行的营销操作类型的规则。可从访问 **[!UICONTROL 策略]** 菜单。
+数据使用策略是描述您可以或限制在 Experience Platform 内对数据执行的营销操作类型的规则。可从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单访问它们。
 
 ![](assets/policies.png)
 
