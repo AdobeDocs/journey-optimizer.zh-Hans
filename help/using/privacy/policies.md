@@ -5,20 +5,14 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 97%
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
 # 数据使用策略 {#Policies}
-
->[!CONTEXTUALHELP]
->id="ajo_olac_manage_access"
->title="Olac管理访问"
->abstract="热障涂层"
-
 
 使用 Adobe Experience Platform **数据管理服务**，可通过使用标签、营销操作和策略来实施数据使用限制。
 
