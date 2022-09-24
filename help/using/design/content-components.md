@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -150,25 +150,21 @@ ht-degree: 1%
 >id="ac_edition_video_email"
 >title="视频设置"
 >abstract="使用此组件可在电子邮件中插入视频。 请注意，视频并非适用于所有电子邮件客户端。 我们建议设置备用图像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="视频设置"
 >abstract="使用此组件可在登陆页面中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="视频设置"
 >abstract="使用此组件在片段中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="视频设置"
 >abstract="使用此组件可在模板中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="其他信息"
 
 使用 **[!UICONTROL 视频]** 组件通过URL链接在电子邮件中插入视频。
 
