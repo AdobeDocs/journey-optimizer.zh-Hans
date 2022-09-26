@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,11 @@ ht-degree: 1%
 >要花0到60分钟 [!DNL Journey Optimizer] 考虑外发电子邮件中禁止使用的地址。
 
 ## 访问禁止列表 {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="将列表导出为CSV文件"
+>abstract="要下载抑制列表，您可以通过生成新文件导出当前列表，或下载之前生成的文件。"
 
 要访问排除的电子邮件地址的详细列表，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择 **[!UICONTROL 禁止列表]**.
 

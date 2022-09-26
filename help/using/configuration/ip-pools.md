@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="设置IP池"
->abstract="您可以创建IP池以将子域的IP地址分组在一起，以改进电子邮件投放能力。"
+>abstract="使用Journey Optimizer，您可以创建IP池以将子域的IP地址分组在一起。 这可能会显着提高您的电子邮件投放能力，因为这样做可以防止子域的声誉影响您的其他子域。"
 
 ## 关于IP池 {#about-ip-pools}
 
