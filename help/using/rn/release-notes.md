@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 19%
@@ -198,7 +198,7 @@ ht-degree: 19%
 
 ### 其他更改{#sept-2022-other}
 
-* 历程突发模式已被Campaign快速投放模式所取代。 了解更多
+* 历程突发模式已被Campaign快速投放模式所取代。 [了解详情](../campaigns/create-campaign.md#rapid-delivery})
 * 为了提高性能，从读取区段、区段鉴别或业务事件活动开始的历程中，无法再使用体验事件字段组。 此更改仅适用于新历程。 现有行为将保留当前行为。 [了解详情](../start/guardrails.md#expression-editor)
 * 已删除计划读取区段历程的1小时限制。 这些历程现在可以立即执行。
 
