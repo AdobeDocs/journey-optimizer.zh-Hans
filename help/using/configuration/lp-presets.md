@@ -4,10 +4,10 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '342'
+ht-degree: 5%
 
 ---
 
@@ -70,9 +70,9 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
    例如，如果登陆页面URL为“pages.mail.luma.com”，而跟踪URL为“data.mail.luma.com”，则可以选择“pages.mail.luma.com”作为跟踪子域。
 
-1. 单击 **[!UICONTROL 提交]** 以确认创建登陆页面预设。 您还可以将预设另存为草稿，稍后恢复其配置。
+1. 单击 **[!UICONTROL 提交]** 以确认创建登陆页面预设。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. 创建登陆页面预设后，该预设会显示在列表中，并且 **[!UICONTROL 活动]** 状态。 它已准备好用于您的登陆页面。
 

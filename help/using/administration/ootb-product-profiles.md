@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1115'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## 关于与消息相关的权限{#message-permissions}
 
-Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历程或营销策划创建和创作消息。 有关此新功能的更多信息， [请参阅此页面](../rn/inline-messages.md).
+Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历程或营销策划创建和创作消息。
 
 此功能将影响以下权限：
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-的 **[!DNL Campaign Manager]** 产品配置文件允许用户创建和编辑 **[!UICONTROL Campaigns]** 和链接到 **[!UICONTROL Campaigns]** 但无法发布它们。
+的 **[!DNL Campaign Manager]** 产品配置文件允许用户创建和编辑 **[!UICONTROL 促销活动]** 和链接到 **[!UICONTROL 促销活动]** 但无法发布它们。
 
 此产品用户档案包括以下权限：
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
-的 **[!DNL Campaign Viewer]** 产品配置文件允许对 **[!UICONTROL Campaigns]** 和 **[!UICONTROL Decision management]** 功能。
+的 **[!DNL Campaign Viewer]** 产品配置文件允许对 **[!UICONTROL 促销活动]** 和 **[!UICONTROL 决策管理]** 功能。
 
 分配给此产品配置文件的用户将无法编辑或发布。
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-的 **[!DNL Journey Manager]** 产品配置文件允许用户创建和编辑 **[!UICONTROL Journeys]** 和链接到 **[!UICONTROL Journeys]** 但无法发布它们。
+的 **[!DNL Journey Manager]** 产品配置文件允许用户创建和编辑 **[!UICONTROL 历程]** 和链接到 **[!UICONTROL 历程]** 但无法发布它们。
 
 此产品用户档案包括以下权限：
 
@@ -111,7 +111,7 @@ Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
-的 **[!DNL Journey viewer]** 产品配置文件允许对 **[!UICONTROL Journeys]** 和 **[!UICONTROL Decision management]** 功能。
+的 **[!DNL Journey viewer]** 产品配置文件允许对 **[!UICONTROL 历程]** 和 **[!UICONTROL 决策管理]** 功能。
 
 分配给此产品配置文件的用户将无法编辑或发布。
 
@@ -122,7 +122,7 @@ Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-的 **[!DNL Decisioning manager]** 产品配置文件仅允许 **[!UICONTROL Decision management]** 菜单。 分配给此产品配置文件的用户将只能管理、查看和发布决策。
+的 **[!DNL Decisioning manager]** 产品配置文件仅允许 **[!UICONTROL 决策管理]** 菜单。 分配给此产品配置文件的用户将只能管理、查看和发布决策。
 
 此产品用户档案包括以下权限：
 

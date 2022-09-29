@@ -4,10 +4,10 @@ description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Pla
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 8%
+source-wordcount: '820'
+ht-degree: 7%
 
 ---
 
@@ -33,12 +33,30 @@ ht-degree: 8%
 
 选择数据集的名称以访问其“数据集”活动屏幕，并查看您选择的数据集的详细信息。 活动选项卡包含一个图表，其中可视化了消息使用率，以及成功批次和失败批次的列表。
 
+以下是可用的不同数据集：
+
+**报告**
+
+* _报表 — 消息反馈事件数据集_:消息投放日志。 有关从Journey Optimizer投放所有消息以用于报告和创建区段的信息。 此数据集中还记录了来自电子邮件ISP关于退回的反馈。
+* _报表 — 电子邮件跟踪体验事件数据集_:电子邮件渠道的交互日志，用于报告和创建区段。 存储的信息会告知最终用户在电子邮件中执行的操作（打开数、点击数等）。
+* _报表 — 推送跟踪体验事件数据集_:推送渠道的交互日志，用于报告和创建区段。 存储的信息会通知最终用户在推送通知上执行的操作。
+* _报表 — 历程步骤事件_:捕获从Journey Optimizer生成的所有历程步骤体验事件，以供报表等服务使用。 对于在Customer Journey Analytics中生成报表以便进行YoY分析，这一点也至关重要。 绑定到历程元数据。
+* _报表 — 历程_:包含历程中每个步骤信息的元数据数据集。
+* _报表 — 密送_:用于存储密送电子邮件投放日志的反馈事件数据集。 用于报告。
+
+**同意**
+
+* _同意服务数据集_:存储用户档案的同意信息。
+
+**Intelligent Services**
+
+* _发送时间优化得分/参与度得分_:历程AI的输出分数。
+
 ## 预览数据集{#preview-datasets}
 
 从数据集活动屏幕中，选择 **预览数据集** 在屏幕的右上角附近，预览此数据集中最新成功的批处理。 当数据集为空时，将停用预览链接。
 
 ![](assets/dataset-preview.png)
-
 
 ## 创建数据集{#create-datasets}
 
@@ -67,7 +85,7 @@ ht-degree: 8%
 
 了解如何在Adobe Journey Optimizer中创建架构、数据集和摄取数据，以在 [此端到端示例](../segment/creating-test-profiles.md)
 
-了解有关在中创建数据集的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}。
+了解有关在中创建数据集的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target=&quot;_blank&quot;}。
 
 了解如何在 [数据摄取概述文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 

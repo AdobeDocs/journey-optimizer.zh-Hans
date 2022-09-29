@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
+source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 2%
 本节列出了在数据湖中查询历程步骤事件的几个常用示例。
 
 确保查询中使用的字段在相应架构中具有关联的值。
+
+**id、instanceid和profileid之间有何区别**
+
+* id:对于所有步骤事件条目，其值都是唯一的。 两个不同的步骤事件不能具有相同的ID。
+* instanceId:对于与历程执行中的用户档案关联的所有步骤事件，实例ID都是相同的。 如果用户档案重新进入历程，则将使用其他instanceId。 对于重新输入实例的所有步骤事件（从开始到结束），此新实例ID将是相同的。
+* profileID:与历程命名空间对应的用户档案的标识。
+
+## 基本用例/常见查询 {#common-queries}
+
+**在特定时间范围内，有多少用户档案进入历程**
+
+此查询提供在给定时间范围内进入给定历程的不同用户档案数。
+
+_数据湖查询_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**特定历程的每个节点在特定时间段内发生了多少错误**
+
+_数据湖查询_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**在特定时间范围内在特定历程中丢弃了多少个事件**
+
+_数据湖查询_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**特定历程中特定用户档案在特定时间范围内会发生什么情况**
+
+_数据湖查询_
+
+此查询按时间顺序返回给定用户档案和历程在指定时间内的所有步骤事件和服务事件。
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## 消息/操作错误 {#message-action-errors}
 

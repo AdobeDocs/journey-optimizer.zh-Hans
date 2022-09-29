@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1571'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 > * 您必须执行 [电子邮件配置](#configure-email-settings), [推送配置](../configuration/push-configuration.md) 和 [短信配置](../configuration/sms-configuration.md) 创建通道曲面之前的步骤。
 
 
-配置渠道表面后，您将能够在从历程创建消息时选择渠道表面。
+配置渠道表面后，您将能够在从历程或营销策划创建消息时选择渠道表面。
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="通道表面设置"
->abstract="在设置渠道表面时，选择渠道并定义其应用到的渠道，以及定义消息所需的所有技术参数，例如电子邮件类型、子域、发件人名称、移动应用程序、短信配置等。"
+>abstract="设置渠道表面时，选择渠道并定义其适用的渠道，以及定义发送所需的所有技术参数，例如电子邮件类型、发件人名称、移动应用程序、短信配置等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="通道表面设置"
->abstract="在设置渠道表面时，选择渠道并定义消息所需的所有技术参数，例如电子邮件类型、发件人名称、移动应用程序、短信配置等。"
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="要能够创建诸如历程或营销策划中的电子邮件之类的操作，您必须首先创建一个渠道界面，该界面定义消息所需的所有技术设置。 必须具有“管理”(Manage)通道曲面权限才能创建、编辑和删除通道曲面。"
 
 要创建通道曲面，请执行以下步骤：
 
@@ -90,7 +88,10 @@ ht-degree: 1%
 
 1. 创建通道曲面后，该曲面会显示在列表中，其中 **[!UICONTROL 处理]** 状态。
 
-   在此步骤中，将执行多项检查，以验证是否已正确配置。 处理时间在附近 **48h-72h**，并且 **7-10个工作日**.
+   在此步骤中，将执行多项检查，以验证是否已正确配置。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >在为给定子域创建第一个通道曲面时，可能需要处理时间 **10分钟到10天**. 如果所选子域已在另一个曲面中使用，则最多只需3小时。
 
    这些检查包括由Adobe团队执行的配置和技术测试：
 
@@ -101,6 +102,7 @@ ht-degree: 1%
    * 主机检查
    * IP池验证
    * A/PTR记录， t/m/res子域验证
+   * FBL注册（此检查仅在首次为给定子域创建电子邮件表面时执行）
 
    >[!NOTE]
    >

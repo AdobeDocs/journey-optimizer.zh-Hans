@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ➡️ [在视频中发现此功能](#video)
 
-可在 **[!UICONTROL Offers]** 菜单。
+可在 **[!UICONTROL 选件]** 菜单。
 
 ![](../assets/collections_list.png)
 
@@ -36,13 +36,13 @@ ht-degree: 3%
 
 要创建收藏集，请执行以下步骤：
 
-1. 转到 **[!UICONTROL Collections]** ，然后单击 **[!UICONTROL Create collection]**.
+1. 转到 **[!UICONTROL 收藏集]** ，然后单击 **[!UICONTROL 创建收藏集]**.
 
 1. 指定要创建的集合的名称和类型。
 
    ![](../assets/collection_create.png)
 
-1. 要创建动态收藏集，请使用左窗格选择要添加到收藏集的选件的标记，然后单击 **[!UICONTROL Save]**. 所有具有选定标记的选件都将保存在收藏集中。
+1. 要创建动态收藏集，请使用左窗格选择要添加到收藏集的选件的标记，然后单击 **[!UICONTROL 保存]**. 所有具有选定标记的选件都将保存在收藏集中。
 
    有关标记创建的更多信息，请参阅 [创建标记](../offer-library/creating-tags.md).
 
@@ -55,6 +55,8 @@ ht-degree: 3%
    >[!NOTE]
    >
    >静态收藏集不会自动更新。 要向静态收藏集添加选件，您需要编辑选件并手动添加它们。
+
+1. 要将自定义或核心数据使用标签分配给静态集合，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级别访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
 
 1. 创建集合后，该集合会显示在列表中。 您可以选择它以编辑或删除它。
 

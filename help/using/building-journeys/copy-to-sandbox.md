@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >title="从属对象"
 >abstract="这是历程中使用的关联对象列表。 此列表显示名称、对象类型以及内部Journey Optimizer ID。"
 
-Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 请参阅 [限制](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 有关已复制对象的详细信息，请参阅 [部分](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
 要将历程复制到其他沙盒，请执行以下步骤：
 
-1. 在“历程管理”菜单部分，单击 **[!UICONTROL Journeys]**. 将显示历程列表。
+1. 在“历程管理”菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
 
 2. 搜索要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个圆点），然后单击 **复制到沙盒**.
 

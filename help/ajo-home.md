@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
-workflow-type: ht
-source-wordcount: '400'
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
+workflow-type: tm+mt
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 100%
 # Adobe [!DNL Journey Optimizer] 文档 {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
-
->[!CAUTION]
->
->7 月 22 日，在 Adobe Journey Optimizer 中推出了一项[新功能](using/rn/inline-messages.md)，可改进您为 Journey Optimizer 渠道（电子邮件、推送、短信）创作内容的方式。作为使用 Journey Optimizer 的从业者，您现在可以在历程中直接[创建和创作](using/messages/messages-in-journeys.md)消息。您需要操作历程的自动转换。也就是说，需要您帮我们完成几个步骤。了解[需要执行的步骤](using/rn/inline-messages-steps.md)。
 
 <table style="table-layout:fixed">
 <tr>

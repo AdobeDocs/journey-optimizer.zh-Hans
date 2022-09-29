@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 72%
+source-wordcount: '888'
+ht-degree: 53%
 
 ---
 
@@ -33,15 +33,17 @@ ht-degree: 72%
 >请记住，Adobe Experience Platform 客户细分每天计算一次（**批处理**&#x200B;客户细分）或实时计算（**流式处理**&#x200B;客户细分，使用 Adobe Experience Platform 的“高频受众”选项）。
 >
 >如果对所选客户细分进行流式处理，则属于此客户细分的个人可能会实时进入该历程。如果区段是批处理，则新近符合此区段资格的人员可能将在Adobe Experience Platform上执行区段计算时进入历程。
+>
+>从读取区段、区段鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
 
 
-1. 展开&#x200B;**[!UICONTROL Events]**&#x200B;类别并将&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动放入画布中。
+1. 展开 **[!UICONTROL 事件]** 类别和拖放 **[!UICONTROL 区段鉴别]** 活动。
 
    ![](assets/segment5.png)
 
-1. 向该活动中添加&#x200B;**[!UICONTROL Label]**。此步骤是可选的。
+1. 添加 **[!UICONTROL 标签]** 到活动。 此步骤是可选的。
 
-1. 单击&#x200B;**[!UICONTROL Segment]**&#x200B;字段，然后选择要利用的客户细分。
+1. 单击 **[!UICONTROL 区段]** 字段，然后选择要利用的区段。
 
    >[!NOTE]
    >
@@ -49,17 +51,17 @@ ht-degree: 72%
 
    ![](assets/segment6.png)
 
-   添加客户细分后，即可通过&#x200B;**[!UICONTROL Copy]**&#x200B;按钮复制其名称和 ID：
+   添加区段后， **[!UICONTROL 复制]** 按钮可复制其名称和ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
-1. 在 **[!UICONTROL Behaviour]** 字段中，选择要侦听客户细分入口和/或出口。
+1. 在 **[!UICONTROL 行为]** 字段中，选择要侦听客户细分入口和/或出口。
 
    >[!NOTE]
    >
-   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 与 **已实现** 和 **已退出** 区段参与状态。Adobe Experience Platform 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
+   >请注意 **[!UICONTROL 输入]** 和 **[!UICONTROL 退出]** 与 **已实现** 和 **已退出** 区段参与状态。Adobe Experience Platform 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
 
@@ -71,7 +73,7 @@ ht-degree: 72%
 * 资格时间戳
 * 客户细分 ID
 
-在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动后的条件或操作中使用表达式编辑器时，您有权访问&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;节点。您可以选择&#x200B;**[!UICONTROL Last qualification time]**&#x200B;或&#x200B;**[!UICONTROL status]**（进入或退出）。
+在后面的条件或操作中使用表达式编辑器时 **[!UICONTROL 区段鉴别]** 活动，则您有权访问 **[!UICONTROL 区段鉴别]** 节点。 您可以在 **[!UICONTROL 上次资格鉴定时间]** 和 **[!UICONTROL 状态]** （进入或退出）。
 
 请参阅[条件活动](../building-journeys/condition-activity.md#about_condition)。
 
@@ -81,7 +83,7 @@ ht-degree: 72%
 
 ## 最佳实践 {#best-practices-segments}
 
-**[!UICONTROL Segment Qualification]**&#x200B;活动允许在 Adobe Experience Platform 客户细分中获得资格或被取消资格的个人在历程中立即进入。
+的 **[!UICONTROL 区段鉴别]** 活动允许在Adobe Experience Platform客户细分中获得资格或被取消资格的个人在历程中立即进入。
 
 该信息的接收速度很快。所做的测量显示速度为每秒接收 10,000 个事件。因此，您应该确保了解入口峰值可能如何出现、如何避开，以及如何使历程针对此类情况做好准备。
 
@@ -101,12 +103,12 @@ ht-degree: 72%
 
 以下是有助于避免使历程中利用的系统（数据源、自定义操作、渠道操作活动）过载的一些最佳实践。
 
-在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活动中，请勿在创建批处理客户细分后立即对其进行使用。它将避免第一个计算峰值。请注意，如果您要使用从未计算的客户细分，则历程画布中将显示黄色警告。
+请勿在 **[!UICONTROL 区段鉴别]** 活动，即在创建批处理客户细分后立即创建该细分。 它将避免第一个计算峰值。请注意，如果您要使用从未计算的客户细分，则历程画布中将显示黄色警告。
 
 ![](assets/segment-error.png)
 
-为历程中使用的数据源和操作设置上限规则，以避免其过载。 在 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 请注意，上限规则不带重试。如果需要重试，则必须通过选中条件或操作中的&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**&#x200B;框在历程中使用替代路径。
+为历程中使用的数据源和操作设置上限规则，以避免其过载。 在 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}。 请注意，上限规则不带重试。如果需要重试，则必须通过选中方框在历程中使用替代路径 **[!UICONTROL 在出现超时或错误时添加替代路径]** 中。
 
-在生产历程中使用客户细分之前，请始终首先评估每天符合此客户细分条件的个人数量。为此，您可以检查 **[!UICONTROL Segments]** 菜单，打开区段，然后查看 **[!UICONTROL Profiles over time]** 图表。
+在生产历程中使用客户细分之前，请始终首先评估每天符合此客户细分条件的个人数量。为此，您可以检查 **[!UICONTROL 区段]** 菜单，打开区段，然后查看 **[!UICONTROL 一段时间的用户档案]** 图表。
 
 ![](assets/segment-overload.png)

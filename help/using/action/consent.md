@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 1%
 
 ---
 
-# 同意管理（测试版） {#consent-management}
+# 同意管理 {#consent-management}
 
 Adobe Experience Platform允许您轻松地采用和实施营销策略，以尊重客户的同意偏好。 同意策略在Adobe Experience Platform中定义。 请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -24,7 +22,7 @@ Adobe Experience Platform允许您轻松地采用和实施营销策略，以尊�
 
 >[!NOTE]
 >
->此功能已作为私人测试版发布。 它并非对所有Journey Optimizer客户都可用。
+>同意策略当前仅适用于已购买Healthcare Shield附加产品的组织。
 
 在Journey Optimizer中，同意在以下几个级别定义：
 
@@ -39,8 +37,8 @@ Adobe Experience Platform允许您轻松地采用和实施营销策略，以尊�
 
 * 读取区段：检索到的区段会被考虑在内。
 * 自定义操作：同意管理考虑了所使用的属性([操作参数](../action/about-custom-action-configuration.md#define-the-message-parameters))以及定义的营销操作（必需的营销操作和其他营销操作）。
-
-仅当在自定义操作级别设置营销操作（必需或其他操作）时，才应使用同意。
+* 不支持使用现成并集架构的字段组所包含的属性。 这些属性将在界面中隐藏。 您需要使用其他架构创建另一个字段组。
+* 仅当在自定义操作级别设置营销操作（必需或其他操作）时，才应用同意策略。
 
 历程中使用的所有其他活动均不予考虑。 如果您以区段鉴别开始历程，则不会考虑该区段。
 

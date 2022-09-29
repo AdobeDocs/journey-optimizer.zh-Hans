@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 51%
+source-wordcount: '905'
+ht-degree: 47%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 51%
 >[!NOTE]
 >
 >如果您编辑在草稿或实时历程中使用的事件，则只能更改名称、描述或添加有效负载字段。我们严格限制草稿或实时历程的版本，以避免中断历程。
+
+单一历程（从事件或区段鉴别开始）包括护栏，可防止同一事件多次错误触发历程。 默认情况下，用户档案重新进入会暂时阻止5分钟。 例如，如果某个事件在12:01触发某个特定用户档案的历程，而另一个事件在12:03到达（无论是同一事件还是其他事件触发同一历程），则该历程将不会为此用户档案再次开始。
 
 ➡️ [在视频中发现此功能](#video)
 

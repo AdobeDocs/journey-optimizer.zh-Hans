@@ -2,16 +2,84 @@
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '2337'
-ht-degree: 100%
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+workflow-type: tm+mt
+source-wordcount: '2519'
+ht-degree: 98%
 
 ---
 
 # 2022 年发行说明 {#release-notes-2022}
 
 本页列出了 [!DNL Journey Optimizer] 于 2022 年发布的功能和改进。
+
+## 2022 年 8 月版 {#aug-2022-release}
+
+### 新功能
+
+<table>
+<thead>
+<tr>
+<th><strong>在 Journey Optimizer 中创建和管理营销活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>向用户发送短信（一般情况可用）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，通过与 <b>Sinch</b> 或 <b>Twilio</b> 集成，您可以在 Journey Optimizer 中创建、个性化和发送短信。</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>在此<a href="../messages/create-sms.md">详细文档</a>中了解如何创建和发送短信。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### 改进
+
+**报告**
+
+* 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的用户档案。[了解详情](../reports/journey-global-report.md#journey-global)
+
+   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md)。
+
+**管理**
+
+* 现在，可以更新用于短信渠道的主电话号码。[了解详情](../configuration/primary-email-addresses.md)
 
 
 ## 2022 年 7 月版 {#july-2022-release}
@@ -79,7 +147,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现可在决策管理中使用个性化优化模型系统。利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>现在，您可以在决策管理中使用个性化的优化模型系统。 利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
 <p>目前，个性化优化 AI 模型的使用仅限于选定的用户，但将在未来的版本中部署到所有环境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
@@ -167,7 +235,7 @@ ht-degree: 100%
 <td>
 <p>现在，您可以使用电子邮件密送功能存储由 Adobe Journey Optimizer 发送的电子邮件。在电子邮件预设中启用此选项，以便发送的每封电子邮件都会密送至您的密送电子邮件地址。</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>有关更多信息，请参阅<a href="../configuration/bcc-email.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../configuration/archiving-support.md#bcc-email">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -438,7 +506,7 @@ ht-degree: 100%
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -536,4 +604,4 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **个性化**
 
-* **添加到收藏夹** - 为帮助在进行个性化设置时提高效率，我们引入了“保存收藏内容”的概念。通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。[了解详情](../personalization/personalize.md#fav)
+* **添加到收藏夹**  — 为帮助在使用个性化时提高效率，我们引入了“保存收藏”的概念。 通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。[了解详情](../personalization/personalize.md#fav)

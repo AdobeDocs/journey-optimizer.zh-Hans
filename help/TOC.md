@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 97%
+source-wordcount: '1153'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,6 @@ ht-degree: 97%
       + [2022 年发行说明](using/rn/release-notes-2022.md)
       + [2021 年发行说明](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
-   + 新的内联创作功能 {#inline-authoring}
-      + [迁移概述](using/rn/inline-messages.md)
-      + [迁移步骤](using/rn/inline-messages-steps.md)
 + 入门{#get-started}
    + [什么是 Journey Optimizer](using/start/get-started.md)
    + 快速入门{#quick-start}
@@ -37,6 +34,7 @@ ht-degree: 97%
 + 营销活动{#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
+   + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理实时营销活动](using/campaigns/modify-stop-campaign.md)
    + 内容体验{#content-experiment}
       + [内容体验入门](using/campaigns/get-started-experiment.md)
@@ -271,6 +269,7 @@ ht-degree: 97%
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
+   + [警报](using/reports/alerts.md)
 + 决策管理{#offer-decisioning}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -395,7 +394,7 @@ ht-degree: 97%
       + 设置渠道平面 {#set-up-channels}
          + [创建渠道平面](using/configuration/channel-surfaces.md)
          + [配置电子邮件设置](using/configuration/email-settings.md)
-         + [使用密送电子邮件](using/configuration/bcc-email.md)
+      + [对归档的支持](using/configuration/archiving-support.md)
       + [管理执行地址](using/configuration/primary-email-addresses.md)
       + [配置频度规则](using/configuration/frequency-rules.md)
    + 配置登陆页面 {#lp-configuration}
@@ -422,7 +421,6 @@ ht-degree: 97%
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
-         + [同意](using/action/consent.md)
    + [源](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
    + [访问控制概述](using/administration/permissions-overview.md)
@@ -435,4 +433,6 @@ ht-degree: 97%
 + 隐私权 {#privacy}
    + [数据使用策略](using/privacy/policies.md)
    + [隐私请求](using/privacy/requests.md)
-   + [审核对 Journey Optimizer 资源的操作](using/privacy/audit-logs.md)
+   + [对资源的审计行动](using/privacy/audit-logs.md)
+   + [同意](using/action/consent.md)
+   + [数据管理](using/action/action-privacy.md)

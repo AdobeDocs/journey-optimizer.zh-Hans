@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 8%
+source-wordcount: '1323'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +30,19 @@ ht-degree: 8%
 >
 >对于使用读取区段活动的历程，可以同时启动的历程数上限。 重试将由系统执行，但请通过将重试分隔5到10分钟，避免从同一时间开始的历程（具有读取区段、计划或“尽快”启动）。
 >
->Burst付费附加组件允许以大量量发送非常快速的推送消息，用于包括读取区段和简单推送消息的简单历程。 有关更多信息，请参阅 [此部分](../building-journeys/journey-gs.md#burst)
+>从读取区段、区段鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
 
 ### 配置活动 {#configuring-segment-trigger-activity}
 
 配置读取区段活动的步骤如下所示：
 
-1. 展开&#x200B;**[!UICONTROL Orchestration]**&#x200B;类别并将&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动放入画布中。
+1. 展开 **[!UICONTROL 编排]** 类别和拖放 **[!UICONTROL 读取区段]** 活动。
 
    活动必须定位为历程的第一步。
 
-1. 添加 **[!UICONTROL Label]** （可选）。
+1. 添加 **[!UICONTROL 标签]** （可选）。
 
-1. 在 **[!UICONTROL Segment]** 字段中，选择将进入历程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**.
+1. 在 **[!UICONTROL 区段]** 字段中，选择将进入历程的Adobe Experience Platform区段，然后单击 **[!UICONTROL 保存]**.
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -52,19 +52,19 @@ ht-degree: 8%
 
    ![](assets/read-segment-selection.png)
 
-   添加客户细分后，即可通过&#x200B;**[!UICONTROL Copy]**&#x200B;按钮复制其名称和 ID：
+   添加区段后， **[!UICONTROL 复制]** 按钮可复制其名称和ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
-1. 在 **[!UICONTROL Namespace]** 字段中，选择要用于标识个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
+1. 在 **[!UICONTROL 命名空间]** 字段中，选择要用于标识个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >属于某个区段、且其不同身份之间没有选定身份（命名空间）的个人无法进入历程。
 
-1. 设置 **[!UICONTROL Throttling rate]** 字段，以限制读取区段活动的吞吐量。
+1. 设置 **[!UICONTROL 节流速率]** 字段，以限制读取区段活动的吞吐量。
 
    此值存储在历程版本有效负载中。 默认值为每秒20,000条消息。 您可以将此值从每秒500条修改为20,000条消息。
 
@@ -72,15 +72,15 @@ ht-degree: 8%
    >
    >每个沙盒的总限制率设置为每秒20,000条消息。 因此，在同一沙盒中同时运行的所有读取区段的限制速率每秒最多可达20,000条消息。 您无法修改此上限。
 
-1. 的 **[!UICONTROL Read Segment]** 活动允许您指定区段进入历程的时间。 为此，请单击 **[!UICONTROL Edit journey schedule]** 链接以访问历程的属性，然后配置 **[!UICONTROL Scheduler type]** 字段。
+1. 的 **[!UICONTROL 读取区段]** 活动允许您指定区段进入历程的时间。 为此，请单击 **[!UICONTROL 编辑历程计划]** 链接以访问历程的属性，然后配置 **[!UICONTROL 调度程序类型]** 字段。
 
    ![](assets/read-segment-schedule.png)
 
-   默认情况下，区段会进入历程 **[!UICONTROL As soon as possible]**. 如果要使区段在特定日期/时间或定期进入历程，请从列表中选择所需的值。
+   默认情况下，区段会进入历程 **[!UICONTROL 尽快]**. 如果要使区段在特定日期/时间或定期进入历程，请从列表中选择所需的值。
 
    >[!NOTE]
    >
-   >请注意， **[!UICONTROL Schedule]** 部分仅在 **[!UICONTROL Read Segment]** 活动已在画布中删除。
+   >请注意， **[!UICONTROL 计划]** 部分仅在 **[!UICONTROL 读取区段]** 活动已在画布中删除。
 
    ![](assets/read-segment-schedule-list.png)
 
@@ -108,10 +108,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >一次性读取区段历程在历程执行30天后变为“已完成”状态。 对于计划的读取区段，此期限为上次执行后的 30 天。 
+>
+>在定期读取区段历程中使用等待活动时，您需要谨慎，因为此类历程的生命周期将一直持续到下一次执行。 这意味着如果历程每天运行，则今天开始的历程实例将持续到明天的执行。 例如，如果您在该历程中添加了等待2天的内容，则无论用户档案是否在下次运行的受众中，用户档案都将始终在下次历程执行（因此在次日）时被移动。 用户档案将无法在该历程中停留2天。
 
 ### 测试并发布历程 {#testing-publishing}
 
-的 **[!UICONTROL Read Segment]** 活动允许您在单一用户档案上或在100个随机测试从符合区段资格的用户档案中选择的用户档案上测试历程。
+的 **[!UICONTROL 读取区段]** 活动允许您在单一用户档案上或在100个随机测试从符合区段资格的用户档案中选择的用户档案上测试历程。
 
 为此，请激活测试模式，然后从左窗格中选择所需的选项。
 
@@ -119,17 +121,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 然后，您可以照常配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md).
 
-测试运行后， **[!UICONTROL Show logs]** 按钮可根据选定的测试选项查看测试结果：
+测试运行后， **[!UICONTROL 显示日志]** 按钮可根据选定的测试选项查看测试结果：
 
-* **[!UICONTROL Single profile at a time]**:测试日志显示与使用统一测试模式时相同的信息。 有关更多信息，请参阅 [此部分](testing-the-journey.md#viewing_logs)
+* **[!UICONTROL 一次只显示一个用户档案]**:测试日志显示与使用统一测试模式时相同的信息。 有关更多信息，请参阅 [此部分](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Up to 100 profiles at once]**:利用测试日志，可跟踪从Adobe Experience Platform导出区段的进度，以及所有进入历程的人员的个人进度。
+* **[!UICONTROL 一次最多可包含100个用户档案]**:利用测试日志，可跟踪从Adobe Experience Platform导出区段的进度，以及所有进入历程的人员的个人进度。
 
    请注意，一次使用最多100个用户档案测试历程不允许使用可视化流程跟踪历程中个人的进度。
 
    ![](assets/read-segment-log.png)
 
-测试成功后，您可以发布历程(请参阅 [发布历程](publishing-the-journey.md))。 属于该区段的个人将在历程属性中指定的日期/时间进入历程 **[!UICONTROL Scheduler]** 中。
+测试成功后，您可以发布历程(请参阅 [发布历程](publishing-the-journey.md))。 属于该区段的个人将在历程属性中指定的日期/时间进入历程 **[!UICONTROL 调度程序]** 中。
 
 >[!NOTE]
 >

@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '438'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 4%
 >id="ajo_olac_manage_access"
 >title="对象级访问控制"
 >abstract="如果您应用了您无权访问的任何标签，则您对此对象的访问权限将被撤消。"
+
+>[!IMPORTANT]
+>
+>对象级别访问控制的使用当前仅限于选定的客户，并且将在未来版本中部署到所有环境。
 
 对象级别访问控制(OLAC)允许您定义用于管理对所选对象的数据访问权限的授权：
 
@@ -86,6 +88,7 @@ ht-degree: 4%
 1. 单击 **[!UICONTROL 保存]** 以应用此标签限制。
 
 要访问此对象，用户需要具有 **[!UICONTROL 标签]** 包含在 **[!UICONTROL 角色]**.
+例如，具有C1标签的用户将只能访问C1标记或未标记的对象。
 
 有关如何分配的详细信息 **[!UICONTROL 标签]** 至 **[!UICONTROL 角色]**，请参阅 [本页](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

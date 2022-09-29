@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1031'
+ht-degree: 2%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="管理允许列表"
->abstract="激活允许列表后，只有允许列表中包含的收件人才会收到来自此沙盒的电子邮件。"
+>abstract="激活允许列表后，只有允许列表中包含的收件人才会收到来自此沙盒的电子邮件。 停用后，所有收件人都将收到电子邮件。"
 
 允许列表为 [活动](#enable-allow-list)，则以下逻辑适用：
 
