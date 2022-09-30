@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -114,7 +114,7 @@ ht-degree: 9%
 
 当消息投放的延迟对业务至关重要时，如果您想在手机上发送紧急推送警报（例如，向已安装您的新闻渠道应用程序的用户发送突发新闻），可使用快速投放。
 
-有关使用快速投放模式时性能的更多信息，请参阅 [AdobeJourney Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
+有关使用快速投放模式时性能的更多信息，请参阅 [Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
 
 
 ### 先决条件 {#prerequisites}
