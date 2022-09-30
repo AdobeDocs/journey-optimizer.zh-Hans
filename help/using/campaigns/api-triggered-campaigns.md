@@ -2,9 +2,9 @@
 title: 使用 API 触发营销活动
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -88,11 +88,15 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
 ## 在营销活动执行时创建用户档案 {#profile-creation}
 
-在某些情况下，您可能需要向系统中不存在的用户档案发送事务型消息。 例如，未知用户尝试登录您的网站。
+在某些情况下，您可能需要向系统中不存在的用户档案发送事务型消息。 例如，未知用户尝试重置您网站上的密码。
 
 当数据库中不存在用户档案时，利用Journey Optimizer，可在执行营销活动时自动创建该用户档案，以向此用户档案发送消息。
 
-为此，请切换 **[!UCONTROL 创建新用户档案]** 的 **[!UICONTROL 受众]** 中。
+>[!IMPORTANT]
+>
+>此功能针对 **创建少量用户档案** 在大量事务性发送用例中，平台中已存在大量用户档案。
+
+要在营销活动执行时激活用户档案创建，请将 **[!UCONTROL 创建新用户档案]** 的 **[!UICONTROL 受众]** 中。
 
 ![](assets/api-triggered-create-profile.png)
 

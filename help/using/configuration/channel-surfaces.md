@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 1%
    在此步骤中，将执行多项检查，以验证是否已正确配置。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >在为给定子域创建第一个通道曲面时，可能需要处理时间 **10分钟到10天**. 如果所选子域已在另一个曲面中使用，则最多只需3小时。
+   >为给定子域创建第一个电子邮件表面时，可能需要处理时间 **10分钟到10天**. 如果选定的子域已在其他电子邮件界面中使用，则最多只需3小时。
 
    这些检查包括由Adobe团队执行的配置和技术测试：
 

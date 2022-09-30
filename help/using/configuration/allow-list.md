@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 允许列表]** 菜单。
 
-1. 单击 **[!UICONTROL 已停用]**.
+1. 选择切换按钮。
 
    ![](assets/allow-list-edit.png)
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 允许列表]** 菜单。
 
-1. 单击 **[!UICONTROL 活动]**.
+1. 选择切换按钮。
 
    ![](assets/allow-list-edit-active.png)
 

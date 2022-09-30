@@ -2,7 +2,7 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 18%
@@ -174,7 +174,7 @@ ht-degree: 18%
 
 **管理**
 
-* 现在，在启用或禁用允许列表时，会显示一个新警告，以详细描述每个操作的影响。 [了解详情](../configuration/allow-list.md#enable-allow-list)
+* 现在，在激活或停用允许列表时，会显示一个新警告，以详细描述每个操作的影响。 [了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了用于创建渠道表面、创建IP池、管理禁止列表和允许列表以及配置短信渠道的用户界面。
 * 现在，在为给定子域创建第一个通道曲面时，处理时间将需要10分钟到10天，而使用该子域的后续曲面的处理时间最多只需3小时。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
 
