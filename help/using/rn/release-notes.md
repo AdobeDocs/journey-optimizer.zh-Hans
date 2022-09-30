@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 19%
+source-wordcount: '986'
+ht-degree: 18%
 
 ---
 
@@ -176,9 +176,10 @@ ht-degree: 19%
 
 * 现在，在启用或禁用允许列表时，会显示一个新警告，以详细描述每个操作的影响。 [了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了用于创建渠道表面、创建IP池、管理禁止列表和允许列表以及配置短信渠道的用户界面。
-<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
+* 现在，在为给定子域创建第一个通道曲面时，处理时间将需要10分钟到10天，而使用该子域的后续曲面的处理时间最多只需3小时。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+
+<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
+* 更新了用于创建登陆页面预设和登陆页面子域的用户界面。 [了解详情](../configuration/lp-subdomains.md)
 
 **审核控制**
 
@@ -192,7 +193,7 @@ ht-degree: 19%
 
 * 您现在可以使用来自同一登陆页面内其他页面的上下文数据。 例如，如果将复选框链接到主登录页上的订阅列表，则可以在“谢谢”子页面上使用该订阅列表。 [了解详情](../landing-pages/lp-content.md#use-primary-page-context)
 
-* 现在，在配置主页面时，您可以创建其他数据，以便在提交登陆页面时能够存储信息。 [了解详情](../landing-pages/lp-content.md#use-additional-data)
+<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
