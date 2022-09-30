@@ -2,9 +2,9 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1043'
 ht-degree: 18%
 
 ---
@@ -21,26 +21,23 @@ ht-degree: 18%
 
 ### 新功能{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>动态内容和新的条件规则生成器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>您现在可以创建动态内容，以根据条件规则调整消息的内容。</p> 
+<p>条件规则是使用表达式编辑器中的可视化规则生成器创建的，您可以在其中存储这些规则以供在历程和营销活动中进一步重复使用。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>有关更多信息，请参阅<a href="../personalization/get-started-dynamic-content.md">详细文档</a>。
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

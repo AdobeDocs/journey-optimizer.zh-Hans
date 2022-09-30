@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 
 ---
 
@@ -89,8 +89,7 @@ ht-degree: 2%
    * **[!UICONTROL 复制]**:添加文本组件的副本。
    * **[!UICONTROL 删除]**:从电子邮件中删除选定的文本组件。
    * **[!UICONTROL 添加个性化]**:添加个性化字段以自定义用户档案数据的内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md).
-
-1. 为了获得更好的用户体验，您可以添加个性化字段以定位受众。 有关更多信息，请参阅此](../personalization/personalize.md)章节[。
+   * **[!UICONTROL 启用条件内容]**:添加条件内容，以将组件内容调整为目标用户档案。 [进一步了解动态内容](../personalization/get-started-dynamic-content.md).
 
 1. 调整 **[!UICONTROL 文本颜色]**, **[!UICONTROL 字体系列]** 和 **[!UICONTROL 大小]** 在 **[!UICONTROL 组件设置]**.
 
@@ -208,7 +207,7 @@ ht-degree: 2%
 
 ## 选件决策 {#offer-decision}
 
-使用 **[!UICONTROL 优惠决策]** 组件将决策插入消息。 决策将利用决策管理来选择最佳选件，以提供给您的客户。
+使用 **[!UICONTROL 优惠决策]** 组件，将决策（以前称为选件活动）插入消息。 决策将利用决策管理来选择最佳选件，以提供给您的客户。
 
 相关主题：
 

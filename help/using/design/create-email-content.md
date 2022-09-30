@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ ht-degree: 0%
 1. 添加个性化字段以自定义用户档案数据的内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. 添加动态内容以根据条件规则将内容调整为目标用户档案。 [动态内容入门](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. 在 **[!UICONTROL 链接]** 选项卡，检查要跟踪的内容的所有URL列表。 您可以修改 **[!UICONTROL 跟踪类型]**, **[!UICONTROL 标签]** 和 **[!UICONTROL 标记]** （如果需要）。
 

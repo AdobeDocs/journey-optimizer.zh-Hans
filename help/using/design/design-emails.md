@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 20%
+source-wordcount: '256'
+ht-degree: 18%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 20%
 
 * 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../design/stock.md)
 
-* 通过根据客户的用户档案属性创建个性化消息来增强客户体验。 [了解详情](../personalization/personalize.md)
+* 通过根据客户的用户档案属性创建个性化的动态消息来增强客户体验。 详细了解 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md).
 
 ➡️ [在视频中发现此功能](#video)
 
 一旦 [已创建消息](../messages/get-started-content.md)，则可以开始创建电子邮件内容。
 
-1. 从新创建的消息中，选择 **[!UICONTROL Email designer]** 在 **[!UICONTROL Body]** 中。
+1. 从新创建的消息中，选择 **[!UICONTROL 电子邮件设计工具]** 在 **[!UICONTROL 正文]** 中。
 
    ![](assets/import-html_1.png)
 

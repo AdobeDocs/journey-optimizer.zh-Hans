@@ -3,10 +3,10 @@ title: Journey Optimizer营销人员入门
 description: 作为历程实践者，了解如何与Journey Optimizer合作的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -18,11 +18,11 @@ As a **营销人员** 或 **历程实践者**，则您负责创建优惠和历�
 
 1. **创建区段**. Journey Optimizer允许您直接从 **区段** ，并将它们用于您的历程。  进一步了解区段 [本页](../../segment/about-segments.md). 了解如何构建区段 [在此示例中](../../segment/creating-a-segment.md).
 
-1. **添加个性化**. 利用Journey Optimizer个性化功能，根据受众调整消息。 了解有关个性化的更多信息 [在此部分中](../../personalization/personalize.md).
+1. **添加个性化和动态内容**. 利用Journey Optimizer个性化和动态内容功能，根据受众调整消息。 详细了解 [个性化](../../personalization/personalize.md) 和 [动态内容](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
-1. **创建和管理资产**. [!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。 了解更多 [在此部分中](../../design/assets-essentials.md).
+1. **创建和管理资产**. [!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。 [在此部分中](../../design/assets-essentials.md)了解详情。
 
 1. **添加选件**. 使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。进一步了解Decisioning管理 [在此部分中](../../offers/get-started/starting-offer-decisioning.md).
 
