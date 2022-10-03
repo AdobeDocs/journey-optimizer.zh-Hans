@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 >title="条件"
 >abstract="条件规则允许您根据用户档案属性、上下文事件或受众区段在消息中显示多个内容变体。"
 
-动态内容允许您根据条件规则调整消息的内容，条件规则可由用户档案属性、上下文事件或受众区段组成。
+动态内容允许您根据 **条件规则** 可由用户档案属性、上下文事件或受众区段组成。 条件规则是使用表达式编辑器中的可视化规则生成器创建的，您可以在其中存储这些规则以供在历程和营销活动中进一步重复使用。
 
-条件规则是使用表达式编辑器中的可视化规则生成器创建的，您可以在其中存储这些规则以供在历程和营销活动中进一步重复使用。
+在Email Designer和表达式编辑器中，可以利用条件规则 **创建动态内容** 将适应消息中定向的用户档案。
 
 ![](assets/conditions-overview.png)
 
