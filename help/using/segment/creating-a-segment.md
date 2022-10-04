@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '344'
 ht-degree: 5%
 
 ---
 
 # 构建区段 {#build-segments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="创建规则"
+>abstract="构建规则创建方法允许您使用Adobe Experience Platform Segmentation Service创建新的区段定义。"
+
 在此示例中，我们将构建一个区段，以定位居住在亚特兰大、旧金山或西雅图的1980年以后出生的所有客户。 所有这些客户都应该在过去7天内打开Luma应用程序，然后在打开该应用程序后的2小时内完成购买。
 
 ➡️ [在此视频中了解如何创建区段](#video-segment)
 
-1. 访问 **[!UICONTROL Segments]** 菜单，然后单击 **[!UICONTROL Create segment]** 按钮。
+1. 访问 **[!UICONTROL 区段]** 菜单，然后单击 **[!UICONTROL 创建区段]** 按钮。
 
    ![](assets/create-segment.png)
 
@@ -27,7 +32,7 @@ ht-degree: 5%
 
    ![](assets/segment-builder.png)
 
-1. 在 **[!UICONTROL Segment properties]** ，请为区段提供名称和描述（可选）。
+1. 在 **[!UICONTROL 区段属性]** ，请为区段提供名称和描述（可选）。
 
    ![](assets/segment-properties.png)
 
@@ -49,11 +54,11 @@ ht-degree: 5%
 
       ![](assets/add-events.png)
 
-1. 在工作区中添加和配置新字段时， **[!UICONTROL Segment Properties]** 窗格会自动更新有关属于该区段的预计用户档案的信息。
+1. 在工作区中添加和配置新字段时， **[!UICONTROL 区段属性]** 窗格会自动更新有关属于该区段的预计用户档案的信息。
 
    ![](assets/segment-estimate.png)
 
-1. 区段准备就绪后，单击 **[!UICONTROL Save]**. 它会显示在Adobe Experience Platform区段列表中。 请注意，搜索栏可帮助您在列表中搜索特定区段。
+1. 区段准备就绪后，单击 **[!UICONTROL 保存]**. 它会显示在Adobe Experience Platform区段列表中。 请注意，搜索栏可帮助您在列表中搜索特定区段。
 
 现在，该区段可用于您的历程。 有关详细信息，请参阅[此部分](../segment/about-segments.md)。
 
