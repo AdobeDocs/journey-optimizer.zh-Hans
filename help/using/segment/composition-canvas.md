@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ ht-degree: 0%
 >title="排名活动"
 >abstract="利用排名活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，包括会员积分数量最大的50个用户档案。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="添加配置文件限制"
+>abstract="打开此选项可指定要包含在组合中的最大用户档案数。
+
 的 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，您可以包含50个用户档案，其中会员积分数量最多。
 
 1. 选择要查找的属性并指定排名顺序（升序或降序）。
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="控制组Be"
+>title="控制组"
 >abstract="使用控制组隔离部分配置文件。 这允许您衡量营销活动的影响，并与其他群体的行为进行比较。"
 
 >[!CONTEXTUALHELP]
@@ -138,6 +143,11 @@ ht-degree: 0%
 >id="ajo_ao_split_type"
 >title="拆分类型"
 >abstract="使用百分比拆分类型将用户档案随机拆分为多个路径。 利用属性拆分类型，可根据特定属性拆分用户档案。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="其他用户档案"
+>abstract="打开此选项可创建一个附加路径，其余配置文件与其他路径中指定的任何条件都不匹配。"
 
 的 **[!UICONTROL 拆分]** 活动，可将构图划分为多个路径。
 
