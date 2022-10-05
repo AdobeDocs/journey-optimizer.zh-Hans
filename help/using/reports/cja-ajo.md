@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # 使用 [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] 集成 [!DNL Customer Journey Analytics] 通过自动报表分发和自定义的数据可视化，提供所有历程的整体视图。
 
 在中创建您的历程后 [!DNL Journey Optimizer]，您可以将客户数据导入 [!DNL Customer Journey Analytics] 以开始报告并了解客户与您的历程进行的每次交互的影响。
 
@@ -23,6 +24,11 @@ ht-degree: 9%
 使用之前 [!DNL Customer Journey Analytics] 对于您的历程，必须首先配置此集成：
 
 1. [创建连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 数据集]** 您希望发送到平台。
+
+   以下 [!DNL Journey Optimizer] 可以配置：
+   * [历程步骤事件](../start/datasets-query-examples.md#journey-step-event):允许您查看进入您的历程的人员及其到达的距离。
+   * [消息反馈/跟踪数据集](../start/datasets-query-examples.md#message-feedback-event-dataset):允许您查看通过 [!DNL Journey Optimizer].
+   * [实体和历程数据集](../start/datasets-query-examples.md#entity-dataset):允许您搜索友好名称，并在报表中使用它们。
 
 1. [创建数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 配置要用于报表的维度和量度。
 
