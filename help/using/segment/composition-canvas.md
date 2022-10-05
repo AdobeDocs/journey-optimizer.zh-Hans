@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="添加配置文件限制"
->abstract="打开此选项可指定要包含在组合中的最大用户档案数。
+>abstract="打开此选项可指定要包含在组合中的最大用户档案数。"
 
 的 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，您可以包含50个用户档案，其中会员积分数量最多。
 
