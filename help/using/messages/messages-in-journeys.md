@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: ht
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >title="渠道平面"
 >abstract="渠道平面是该渠道的一个实例，具有用于通过营销活动或历程成功投放操作的所有设置。它由系统管理员定义。"
 
-在您的历程中，使用渠道操作来设计要发送给受众的消息并对消息进行个性化设置。向历程画布添加电子邮件、短信或推送操作时，您将创建一个触发式发送操作。 当联系人触发该渠道操作时，Adobe Journey Optimizer 会自动发送消息。
+在您的历程中，使用渠道操作来设计要发送给受众的消息并对消息进行个性化设置。在历程画布中添加电子邮件、短信或推送操作时，您将创建触发发送。 当联系人触发该渠道操作时，Adobe Journey Optimizer 会自动发送消息。
 
 
 >[!NOTE]
 >您还可以创建营销活动以发送设置了计划的消息。 [在此部分中](../campaigns/get-started-with-campaigns.md)了解详情。
 
 
-要在历程中添加消息，只需在历程画布中添加推送内容、短信或电子邮件活动。
+要在历程中添加消息，请在历程画布中添加推送、短信或电子邮件活动。
 
 1. 通过[事件](../building-journeys/general-events.md)或[读取区段](../building-journeys/read-segment.md)活动开始您的历程。
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 1. 按 **crtl+V** 来粘贴消息。
 
-   消息将会被添加到历程画布。所有设置和配置都将被复制到新消息中。
+   消息将添加到历程画布。 所有设置和配置都将被复制到新消息中。
 
    ![](assets/message-duplicated.png)
 
