@@ -2,7 +2,7 @@
 title: 使用 API 触发营销活动
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
@@ -96,7 +96,7 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 >
 >此功能针对 **创建少量用户档案** 在大量事务性发送用例中，平台中已存在大量用户档案。
 
-要在营销活动执行时激活用户档案创建，请将 **[!UCONTROL 创建新用户档案]** 的 **[!UICONTROL 受众]** 中。
+要在营销活动执行时激活用户档案创建，请将 **[!UICONTROL 创建新用户档案]** 的 **[!UICONTROL 受众]** 中。
 
 ![](assets/api-triggered-create-profile.png)
 
