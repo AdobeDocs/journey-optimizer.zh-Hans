@@ -3,9 +3,9 @@ title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在决策管理中使用个性化的优化模型系统。 利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>现可在决策管理中使用个性化优化模型系统。利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
 <p>目前，个性化优化 AI 模型的使用仅限于选定的用户，但将在未来的版本中部署到所有环境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
@@ -384,7 +384,7 @@ ht-degree: 98%
 * **不包含表单的登陆页面** - 您现在可以创建并发布不包含表单且无需访客执行任何操作的登陆页面。
 * **登陆页面模板** - 现在，您可以将登陆页面另存为模板，并在创建其他登陆页面时重复使用。 [了解详情](../landing-pages/lp-templates.md)
 * **返回主页面** - 您现在可以从同一登陆页面中的任何子页面添加指向主页面的链接。
-* **自定义 JavaScript 支持** - 您现在可以向登陆页面内容添加自定义 JavaScript 以执行高级样式或向登陆页面添加自定义行为。	[了解详情](../landing-pages/lp-custom-js.md)
+* **自定义 JavaScript 支持** - 您现在可以向登陆页面内容添加自定义 JavaScript 以执行高级样式调整或向登陆页面添加自定义行为。[了解详情](../landing-pages/lp-custom-js.md)
 
 **历程**
 
@@ -604,4 +604,4 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **个性化**
 
-* **添加到收藏夹**  — 为帮助在使用个性化时提高效率，我们引入了“保存收藏”的概念。 通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。[了解详情](../personalization/personalize.md#fav)
+* **添加到收藏夹** - 为帮助在进行个性化设置时提高效率，我们引入了“保存收藏内容”的概念。通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。[了解详情](../personalization/personalize.md#fav)
