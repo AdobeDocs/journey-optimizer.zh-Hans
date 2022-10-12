@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1183'
 ht-degree: 97%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 97%
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
 + 消息 {#messages}
    + 消息入门{#get-started-msg}
-      + [创建消息](using/messages/get-started-content.md)
+      + [概述](using/messages/get-started-content.md)
       + [在历程中添加消息](using/messages/messages-in-journeys.md)
       + [在营销活动中添加消息](using/messages/messages-in-campaigns.md)
    + [创建电子邮件](using/messages/create-email.md)
