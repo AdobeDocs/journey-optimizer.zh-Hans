@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: 22672ba22713bcc354d5cc4acdba68995d47a685
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 100%
 
 ## 架构 {#architecture}
 
-了解 [!DNL Adobe Journey Optimizer] 的基本架构、集成点以及 [!DNL Journey Optimizer] 与其他 Adobe 应用程序的关系。
+了解的基本架构 [!DNL Adobe Journey Optimizer]、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform]，位于下图中。
 
->[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
