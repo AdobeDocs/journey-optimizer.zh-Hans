@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 94%
+source-wordcount: '1184'
+ht-degree: 97%
 
 ---
 
@@ -43,9 +43,10 @@ ht-degree: 94%
       + [配置实验报表](using/campaigns/reporting-configuration.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
 + 消息 {#messages}
-   + [消息入门](using/messages/get-started-content.md)
-   + [添加消息历程](using/messages/messages-in-journeys.md)
-   + [添加消息营销活动](using/messages/messages-in-campaigns.md)
+   + 消息入门{#get-started-msg}
+      + [创建消息](using/messages/get-started-content.md)
+      + [在历程中添加消息](using/messages/messages-in-journeys.md)
+      + [在营销活动中添加消息](using/messages/messages-in-campaigns.md)
    + [创建电子邮件](using/messages/create-email.md)
    + [创建推送通知](using/messages/create-push.md)
    + [创建短信消息](using/messages/create-sms.md)
@@ -250,7 +251,7 @@ ht-degree: 94%
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
-      + [实时报表入门](using/reports/live-report.md)
+      + [实时报告入门](using/reports/live-report.md)
       + [历程实时报告](using/reports/journey-live-report.md)
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
@@ -276,7 +277,7 @@ ht-degree: 94%
       + [可投放性入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
    + [警报](using/reports/alerts.md)
-   + [使用Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
 + 决策管理{#offer-decisioning}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
@@ -401,9 +402,9 @@ ht-degree: 94%
       + 设置渠道平面 {#set-up-channels}
          + [创建渠道平面](using/configuration/channel-surfaces.md)
          + [配置电子邮件设置](using/configuration/email-settings.md)
-      + [对归档的支持](using/configuration/archiving-support.md)
+      + [存档支持](using/configuration/archiving-support.md)
       + [管理执行地址](using/configuration/primary-email-addresses.md)
-      + [配置频度规则](using/configuration/frequency-rules.md)
+      + [配置频率规则](using/configuration/frequency-rules.md)
    + 配置登陆页面 {#lp-configuration}
       + [配置登陆页面子域](using/configuration/lp-subdomains.md)
       + [定义登陆页面预设](using/configuration/lp-presets.md)
@@ -440,6 +441,6 @@ ht-degree: 94%
 + 隐私权 {#privacy}
    + [数据使用策略](using/privacy/policies.md)
    + [隐私请求](using/privacy/requests.md)
-   + [对资源的审计行动](using/privacy/audit-logs.md)
+   + [对资源的审核操作](using/privacy/audit-logs.md)
    + [同意](using/action/consent.md)
    + [数据管理](using/action/action-privacy.md)

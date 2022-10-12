@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -44,15 +44,14 @@ ht-degree: 93%
 
 1. 选择消息&#x200B;**[!UICONTROL 类别]**：为商业消息选择&#x200B;**营销型**，或为非商业消息选择&#x200B;**事务型**（如订单确认、密码重置通知或投放信息）。
 
-   >[!CAUTION]
-   >
-   >如果您为特定渠道和类别定义[频率规则](../configuration/frequency-rules.md)，在选择该渠道和类别时，会自动将它们应用于消息。当前频率规则仅可用于&#x200B;**[!UICONTROL 营销型]**&#x200B;类别。
-
    ![](assets/inline-message-category.png)
 
    >[!CAUTION]
    >
-   >营销类型的消息必须包含[选择退出链接](../messages/consent.md#opt-out-management)。这对事务型消息并不是必需的，因为可以将这些消息发送到从营销通信内容中取消订阅的用户档案。
+   >* 如果您为特定渠道和类别定义[频率规则](../configuration/frequency-rules.md)，在选择该渠道和类别时，会自动将它们应用于消息。当前频率规则仅可用于&#x200B;**[!UICONTROL 营销型]**&#x200B;类别。
+   >
+   >* 营销消息必须包括 [选择退出链接](../messages/consent.md#opt-out-management). 这对事务型消息并不是必需的，因为可以将这些消息发送到从营销通信内容中取消订阅的用户档案。
+
 
 1. 选择渠道&#x200B;**[!UICONTROL 界面]**（即消息预设）来发送消息。
 
