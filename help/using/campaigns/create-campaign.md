@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 9%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="快速投放模式"
->abstract="“快速交付”模式是Journey Optimizer的一个加载项，可让您向3000万个用户档案以下的受众快速支付非个性化消息。"
+>abstract="快速投放模式允许您在推送渠道上执行向受众大小在30M以下的高速消息发送。"
 
 快速交付模式（以前称为历程中的突发模式）是 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以大量量发送非常快速的推送消息。
 
