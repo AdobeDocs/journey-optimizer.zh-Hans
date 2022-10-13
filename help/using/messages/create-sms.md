@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 8%
 >abstract="添加文本消息，然后使用表达式编辑器对其进行个性化设置。"
 
 使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
+
+>[!NOTE]
+>
+>根据行业标准和法规，所有短信营销消息都必须包含一种方式，以便收件人轻松取消订阅。 为此，短信收件人可以使用选择加入和选择退出关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 可以创建短信投放：
 
@@ -61,17 +65,6 @@ ht-degree: 8%
 您还必须检查编辑器上部的警报。  其中一些是简单的警告，但其他警告可能会阻止您使用消息。 有关详细信息，请参阅[此部分](alerts.md)。
 
 ![](assets/sms-alert-button.png)
-
-
-## 选择启用和选择禁用{#sms-opt-in-out}
-
-对于所有营销消息，短信必须包含一种让收件人轻松退订的方法。 取消订阅后，用户档案将自动从未来营销消息的受众中删除。 对于事务型消息，不必添加退订链接。
-
-短信收件人可以使用选择启用和选择禁用关键词进行回复。 根据行业标准和法规，Adobe Journey Optimizer会自动处理传入消息中的以下关键词：开始、停止和停止。 这些关键词会触发短信提供商的标准自动回复。
-
-要详细了解本机入站关键词支持（开始、停止和停止）如何用于短信，请参阅以下视频。
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

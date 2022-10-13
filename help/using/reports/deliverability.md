@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 降低投诉率 {#reduce-complaint-rate}
 
-ISP通常以一种突出的方式将收到的消息报告为垃圾邮件。 这样就可以识别不可靠的来源。 通过快速响应选择退出请求并因此显示您是可靠的发件人，可以降低投诉率。 [了解有关选择退出管理的更多信息](../messages/consent.md#opt-out-management).
+ISP通常以一种突出的方式将收到的消息报告为垃圾邮件。 这样就可以识别不可靠的来源。 通过快速响应选择退出请求并因此显示您是可靠的发件人，可以降低投诉率。 [了解有关选择退出管理的更多信息](../privacy/opt-out.md#opt-out-management).
 
 通常，请不要尝试通过要求收件人填写诸如其电子邮件地址或姓名之类的字段来阻止希望选择退出的收件人。 退订登陆页面应仅具有一个验证按钮。
 
@@ -51,7 +51,7 @@ ISP通常以一种突出的方式将收到的消息报告为垃圾邮件。 这�
 
 使用 [!DNL Journey Optimizer] 监控投放能力。
 
-的 **[!UICONTROL Executions]** 利用消息列表的选项卡，可通过一组实时指示器检查投放的执行情况。 此选项卡还显示：
+的 **[!UICONTROL 执行]** 利用消息列表的选项卡，可通过一组实时指示器检查投放的执行情况。 此选项卡还显示：
 * 成功执行、发送和发送的消息数。
 * 已打开的消息数量和已点击的消息/链接数量。
 

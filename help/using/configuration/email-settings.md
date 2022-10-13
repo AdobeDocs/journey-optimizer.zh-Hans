@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 2%
@@ -78,7 +78,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 * 的 **取消订阅URL**，取消订阅后，用户将被重定向到的登陆页面的URL。
 
-   如果您添加 [一键式选择退出链接](../messages/consent.md#one-click-opt-out) 对于使用此表面创建的消息，取消订阅URL将是为一键单击选择退出链接定义的URL。
+   如果您添加 [一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out) 对于使用此表面创建的消息，取消订阅URL将是为一键单击选择退出链接定义的URL。
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -86,7 +86,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
    >
    >如果您没有在消息内容中添加一键单击选择退出链接，则不会向用户显示登陆页面。
 
-在 [此部分](../messages/consent.md#unsubscribe-header).
+在 [此部分](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

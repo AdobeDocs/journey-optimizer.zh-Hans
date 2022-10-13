@@ -2,10 +2,10 @@
 title: 过往发行说明（2021 年）
 description: Journey Optimizer 2021 年发行说明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 96%
+source-wordcount: '2070'
+ht-degree: 95%
 
 ---
 
@@ -270,7 +270,7 @@ ht-degree: 96%
 **内容设计**
 
 * **背景** - 现在，实时预览支持背景图像。[了解详情](../design/preview.md)
-* **一键式选择退出链接** - 您可以在电子邮件内容中插入新类型的链接：**选择退出**&#x200B;链接让用户只需单击一下即可取消订阅以停止接收您的通信，而不会被重定向到登陆页面以确认选择退出。[了解详情](../messages/consent.md#one-click-opt-out-link)
+* **一键式选择退出链接** - 您可以在电子邮件内容中插入新类型的链接：**选择退出**&#x200B;链接让用户只需单击一下即可取消订阅以停止接收您的通信，而不会被重定向到登陆页面以确认选择退出。[了解详情](../privacy/opt-out.md#one-click-opt-out-link)
 
 **个性化**
 
@@ -340,11 +340,11 @@ ht-degree: 96%
 * 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../configuration/external-systems.md#capping)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解更多信息](../building-journeys/journey-gs.md#change-properties)
 * 在历程列表屏幕中，添加了历程类型筛选器。[了解更多信息](../start/user-interface.md#filter-lists)
-* **[!UICONTROL Throttling rate]** 参数已添加到读取区段活动中。[了解更多信息](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 的 **[!UICONTROL 节流速率]** 参数已添加到读取区段活动中。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **预览和测试**
 
-* 标识和命名空间现在显示于 **[!UICONTROL Preview]** 屏幕中。[了解更多信息](../design/preview.md#preview-your-messages)
+* 标识和命名空间现在在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../design/preview.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
 * 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../design/preview.md#send-proofs)
 

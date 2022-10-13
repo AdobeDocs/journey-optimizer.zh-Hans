@@ -2,16 +2,20 @@
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: ht
-source-wordcount: '2002'
-ht-degree: 100%
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2022 年 10 月 {#october-2022}
+
+* 与选择退出管理和同意策略相关的信息已重新组织为新部分。 [了解详情](../privacy/opt-out.md)
 
 ## 2022 年 9 月 {#september-2022}
 
@@ -108,7 +112,7 @@ ht-degree: 100%
 * 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/ranking/schema-requirement.md)
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/channel-surfaces.md#create-channel-surface)
-* 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../messages/consent.md#opt-out-management)
+* 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../privacy/opt-out.md#opt-out-management)
 * 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../design/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
@@ -172,7 +176,7 @@ ht-degree: 100%
 * 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 更新并重命名了“重试时段”部分，以反映出您现在可以调整消息预设中的电子邮件重试设置。[了解更多信息](../configuration/retries.md#retry-duration)
-* 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../messages/consent.md#one-click-opt-out-link)
+* 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../privacy/opt-out.md#one-click-opt-out-link)
 * 更新了“委派子域”部分，其中包含有关 Adobe 执行的验证过程的更多详细信息。[了解更多信息](../configuration/delegate-subdomain.md#subdomain-validation)
 * 添加了介绍如何手动将电子邮件地址和域添加到禁止列表的部分。[了解更多信息](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问禁止列表](../configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](../configuration/retries.md)部分，以反映新的用户界面。

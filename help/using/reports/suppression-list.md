@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 2%
+source-wordcount: '771'
+ht-degree: 3%
 
 ---
 
@@ -47,13 +47,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->未订阅用户的地址无法发送到抑制列表，因为他们未收到来自的电子邮件 [!DNL Journey Optimizer]. 他们的选择在Experience Platform级别处理。 了解详情 [选择退出](../messages/consent.md).
+>未订阅用户的地址无法发送到抑制列表，因为他们未收到来自的电子邮件 [!DNL Journey Optimizer]. 他们的选择在Experience Platform级别处理。 了解详情 [选择退出](../privacy/opt-out.md).
 
 对于每个地址，被抑制的基本原因和抑制类别（软、硬等） 显示在抑制列表中。 了解有关访问和管理抑制列表的更多信息，请参阅 [此部分](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
->具有 **[!UICONTROL Suppressed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
+>具有 **[!UICONTROL 隐藏]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
 >
 >了解 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
 
@@ -70,7 +70,7 @@ A **软退回** <!--or an **ignored** error--> 多次重试后，也会向抑制
 
 如果您继续向这些地址发送邮件，可能会影响您的投放率，因为它告知ISP您可能没有遵循电子邮件地址列表维护最佳实践，因此可能不是值得信赖的发件人。
 
-### 垃圾邮件投诉 {#spam-complaints}
+### 垃圾邮件投诉次数 {#spam-complaints}
 
 抑制列表会收集将您的消息标记为垃圾邮件的电子邮件地址。 例如，如果某人写信给客户服务部门，请求不再从您那里接收邮件，则该人的电子邮件地址将在您的实例中被禁止，您将无法再将邮件发送到该地址。
 
