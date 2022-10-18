@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 配置历程
 description: 了解如何配置数据源、事件和操作。
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 44%
+source-wordcount: '406'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 44%
 >title="关于历程配置"
 >abstract="要随历程发送消息，您需要配置数据源、事件和操作。 数据源允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 事件允许您在收到事件时触发历程。 自定义操作允许您连接到第三方系统以发送消息。 如果您使用的是Journey Optimizer内置消息功能，则无需配置操作。"
 
-要随历程发送消息，您需要配置 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**.
+要随历程发送消息，您需要配置 **[!UICONTROL 数据源]**, **[!UICONTROL 事件]** 和 **[!UICONTROL 操作]**.
 
 ![](assets/admin-menu.png)
 
