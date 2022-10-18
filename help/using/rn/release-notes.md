@@ -2,10 +2,10 @@
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1101'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 0%
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target=&quot;_blank&quot;} 中，进一步了解这些变更。
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}邮件，每个季度就能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
+
+
+## 2022 年 10 月 {#oct-2022-release}
+
+### 改进{#oct-2022-improvements}
+
+**历程**
+
+* 的 **重复时强制重入** 选项已添加到定期读取区段计划参数中。 利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。 停用选项后，用户档案必须先完成历程，然后才能再次进入另一个实例。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 ## 2022 年 9 月版{#sept-2022-release}
 

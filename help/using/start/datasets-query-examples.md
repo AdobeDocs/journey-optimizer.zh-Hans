@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,17 @@ _界面中的名称：ajo_entity_dataset（系统数据集）_
 
 相关架构是AJO实体架构。
 
-此数据集允许您使用关键营销人员友好元数据扩充各种数据集。 messageID属性可帮助拼合各种数据集（如消息反馈数据集和体验事件跟踪数据集），以在用户档案级别获取有关从发送到跟踪的消息投放的详细信息。
+利用此数据集，可访问营销人员定义的元数据，当导出Journey Optimizer数据集以用于外部工具中的报表可视化时，利用这些元数据可更好地分析报表。 可使用messageID属性实现此目的，该属性有助于拼合各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获取从在用户档案级别发送到跟踪的消息投放的详细信息。
+
+**重要说明**
+
+* 消息的条目仅在历程或营销活动发布后创建。
+
+* 营销活动/历程发布30分钟后，您可能会看到该条目。
+
+>[!NOTE]
+>
+>出于将来的兼容性原因，目前实体数据集中每个消息发布有两个条目。 这不会影响您根据需要在数据集中使用连接查询来获取所需信息的能力。
 
 以下查询可帮助您获取给定营销活动的关联消息模板：
 

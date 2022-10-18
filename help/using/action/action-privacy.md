@@ -6,10 +6,10 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: '922'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->数据使用标签和执行(DULE)的使用当前仅限于选定的客户，并且将在将来的版本中部署到所有环境。
+>数据使用标签和执行 (DULE) 的使用当前仅限于选定客户，并且将在未来版本中部署到所有环境。
 
-凭借其数据使用标签和执行(DULE)管理框架，Journey Optimizer现在可以利用Adobe Experience Platform管理策略来防止敏感字段通过自定义操作导出到第三方系统。 如果系统在自定义操作参数中标识受限字段，则会显示一个错误，阻止您发布历程。
+凭借其数据使用标签和执行 (DULE) 管理框架，Journey Optimizer 现在可以利用 Adobe Experience Platform 管理策略来防止通过自定义操作将敏感字段导出到第三方系统。如果系统在自定义操作参数中识别出受限字段，则会显示一条错误消息，阻止您发布历程。
 
 Adobe Experience Platform允许您为字段添加标签并为每个渠道创建营销操作。 然后，您可以定义链接到标签和营销操作的管理策略。
 
 在Journey Optimizer中，您可以将这些策略应用于自定义操作，以阻止将特定字段导出到第三方系统。
+
+有关数据管理框架以及如何使用标签和策略的更多信息，请参阅 Adobe Experience Platform 文档：
+
+* [数据管理服务概述](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hans)
+* [数据使用标签概述](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans)
+* [数据使用策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans)
 
 ## 重要说明 {#important-notes}
 
@@ -67,7 +73,7 @@ Adobe Experience Platform允许您为字段添加标签并为每个渠道创建�
 
 * 的 **渠道** 字段允许您选择与此自定义操作相关的渠道： **电子邮件**, **短信**&#x200B;或 **推送通知**. 它将预填充 **必需的营销操作** 字段，其中包含所选渠道的默认营销操作。 如果您选择 **其他**，则默认情况下不会定义营销操作。 在本例中，我们选择渠道 **其他**.
 
-* 的 **必需的营销操作** 允许您定义与自定义操作相关的营销操作。 例如，如果您使用该自定义操作通过第三方发送电子邮件，则可以选择 **电子邮件定位**. 在本例中，我们选择 _Slack营销操作_. 将检索并利用与该营销操作关联的管理策略。
+* 的 **必需的营销操作** 允许您定义与自定义操作相关的营销操作。 例如，如果您使用该自定义操作使用第三方发送电子邮件，则可以选择 **电子邮件定位**. 在本例中，我们选择 _Slack营销操作_. 将检索并利用与该营销操作关联的管理策略。
 
 有关配置自定义操作的其他步骤，请参见 [此部分](../action/about-custom-action-configuration.md#consent-management).
 
