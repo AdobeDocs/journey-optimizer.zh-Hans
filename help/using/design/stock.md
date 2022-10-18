@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 使用Adobe Stock图像
 description: 开始使用Adobe Stock
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -21,11 +23,11 @@ ht-degree: 1%
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以授权资产，或仅为所需资产购买一个Standard或Extended许可证。 Adobe Stock还提供免费的资产集合。
 
-使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] ，然后使用 **[!UICONTROL Find Adobe Stock photos]** 选项。 此外， **[!UICONTROL Find Similar Stock photos]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
+使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] ，然后使用 **[!UICONTROL 查找Adobe Stock照片]** 选项。 此外， **[!UICONTROL 查找类似的库存照片]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
 
 ## 权限{#stock-permissions}
 
-的 **[!UICONTROL Find Adobe Stock photos]** 和 **[!UICONTROL Find Similar Image]** 用户有权访问AEM Assets Essentials产品配置文件。
+的 **[!UICONTROL 查找Adobe Stock照片]** 和 **[!UICONTROL 查找相似图像]** 用户有权访问AEM Assets Essentials产品配置文件。
 
 有关更多信息，请参阅 [资产基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}。
 
@@ -33,9 +35,9 @@ ht-degree: 1%
 
 从添加图像 [!DNL Adobe Stock] 对于您的内容，请执行以下步骤：
 
-1. 从 **[!UICONTROL Content components]** ，拖放 **图像**.
+1. 从 **[!UICONTROL 内容组件]** ，拖放 **图像**.
 
-1. 单击 **[!UICONTROL Find Adobe Stock photos]** 按钮。
+1. 单击 **[!UICONTROL 查找Adobe Stock照片]** 按钮。
 
    ![](assets/stock-find-photos.png)
 
@@ -43,7 +45,7 @@ ht-degree: 1%
 
    ![](assets/stock-select-from-lib.png)
 
-1. 选择所选图像并单击 **[!UICONTROL Save]**.
+1. 选择所选图像并单击 **[!UICONTROL 保存]**.
 
    如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
 
@@ -55,17 +57,17 @@ ht-degree: 1%
 要浏览类似照片，请执行以下步骤：
 
 1. 选择要替换的图像。
-1. 单击 **[!UICONTROL Find similar Stock photos]** 按钮在中显示资产 [!DNL Adobe Stock] 与图像的内容、颜色和构成匹配。
+1. 单击 **[!UICONTROL 查找类似的Stock照片]** 按钮在中显示资产 [!DNL Adobe Stock] 与图像的内容、颜色和构成匹配。
 
    ![](assets/stock-similar.png)
 
-1. 选择所选图像并单击 **[!UICONTROL Save]**.
+1. 选择所选图像并单击 **[!UICONTROL 保存]**.
 
    ![](assets/stock-similar-results.png)
 
    如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
 
-1. 根据需要，使用 **[!UICONTROL Components settings]** 菜单。 [了解有关组件设置的更多信息](content-components.md).
+1. 根据需要，使用 **[!UICONTROL 组件设置]** 菜单。 [了解有关组件设置的更多信息](content-components.md).
 
 ## 从获取许可证 [!DNL Adobe Stock] {#license-stock-image}
 
@@ -73,7 +75,7 @@ ht-degree: 1%
 
 要授权并下载您的图像，请执行以下步骤：
 
-1. 选择它并单击 **[!UICONTROL License Adobe Stock image]** 图标。
+1. 选择它并单击 **[!UICONTROL 许可Adobe Stock图像]** 图标。
 
    ![](assets/stock-license-icon.png)
 
@@ -90,7 +92,7 @@ ht-degree: 1%
    >[!WARNING]
    > 如果发送了包含未授权图像的电子邮件，则图像会保留其未授权的表单，并带有水印。
 
-1. 完成购买后，您现在可以返回至 [!DNL Adobe Journey Optimizer] 选择 **[!UICONTROL Import stock image]** 将授权图像导入资产。
+1. 完成购买后，您现在可以返回至 [!DNL Adobe Journey Optimizer] 选择 **[!UICONTROL 导入库存图像]** 将授权图像导入资产。
 
    ![](assets/stock_6.png)
 

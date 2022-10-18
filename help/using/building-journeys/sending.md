@@ -1,9 +1,11 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 开始历程执行
 description: 了解如何开始您的历程并发送消息
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '292'
 ht-degree: 4%
 
 ---
@@ -40,25 +42,25 @@ ht-degree: 4%
 
 ## 计划消息发送 {#schedule-messages}
 
-可以通过 **[!UICONTROL Read Segment]** 活动 [历程](journey.md). 您可以指定区段将何时进入历程。 [了解有关读取区段活动的更多信息](read-segment.md).
+可以通过 **[!UICONTROL 读取区段]** 活动 [历程](journey.md). 您可以指定区段将何时进入历程。 [了解有关读取区段活动的更多信息](read-segment.md).
 
 为此，请执行以下步骤：
 
-1. 编辑历程，拖放 **[!UICONTROL Read Segment]** 活动并开始配置。 [了解有关配置读取区段活动的更多信息](read-segment.md#configuring-segment-trigger-activity).
+1. 编辑历程，拖放 **[!UICONTROL 读取区段]** 活动并开始配置。 [了解有关配置读取区段活动的更多信息](read-segment.md#configuring-segment-trigger-activity).
 
-1. 单击 **[!UICONTROL Edit journey schedule]** 用于访问历程属性的链接。
+1. 单击 **[!UICONTROL 编辑历程计划]** 用于访问历程属性的链接。
 
    ![](assets/message-read-segment-schedule.png)
 
-1. 配置 **[!UICONTROL Scheduler type]** 字段：从列表中选择所需的值，以使区段在特定日期/时间或定期进入历程。
+1. 配置 **[!UICONTROL 调度程序类型]** 字段：从列表中选择所需的值，以使区段在特定日期/时间或定期进入历程。
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Schedule]** 部分仅在 **[!UICONTROL Read Segment]** 活动已放入画布中。
+   >的 **[!UICONTROL 计划]** 部分仅在 **[!UICONTROL 读取区段]** 活动已放入画布中。
 
    ![](assets/message-read-segment-scheduler.png)
 
-1. 如果您选择 **[!UICONTROL Once]**，定义区段进入历程的特定日期和时间。
+1. 如果您选择 **[!UICONTROL 一次]**，定义区段进入历程的特定日期和时间。
 
    ![](assets/message-read-segment-scheduler-once.png)
 
@@ -68,8 +70,8 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >默认情况下，区段会进入历程 **[!UICONTROL As soon as possible]**，表示历程发布1小时后。
+   >默认情况下，区段会进入历程 **[!UICONTROL 尽快]**，表示历程发布1小时后。
 
-1. 单击 **[!UICONTROL OK]** 以保存更改。
+1. 单击 **[!UICONTROL 确定]** 以保存更改。
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

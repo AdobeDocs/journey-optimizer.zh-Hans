@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 历程步骤共享概述
 description: 历程步骤共享概述
 feature: Reporting
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->无法为实时配置文件服务打开数据集。 请确保 **[!UICONTROL Profile]** 关闭。
+>无法为实时配置文件服务打开数据集。 请确保 **[!UICONTROL 用户档案]** 关闭。
 
 [!DNL Journey Optimizer] 在发生数据时以流方式发送数据。 您可以使用查询服务查询此数据。 您可以连接到Customer Journey Analytics或其他BI工具以查看与这些步骤相关的数据。
 

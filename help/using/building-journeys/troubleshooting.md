@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 历程疑难解答
 description: 了解如何对历程中的错误进行故障诊断
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1027'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +31,17 @@ ht-degree: 81%
 
 ![](assets/canvas-disconnected.png)
 
-在 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，可以复制详细信息并发送给管理员或支持团队。请注意，阻止测试的错误和阻止发布的错误是相似的。
+在 **[!UICONTROL 测试]** 切换和 **[!UICONTROL 发布]** 按钮，则会显示警告标记。 此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，可以复制详细信息并发送给管理员或支持团队。请注意，阻止测试的错误和阻止发布的错误是相似的。
 
 系统检测到两种问题：错误和警告。错误阻止发布和测试激活。警告指示未阻止测试激活或发布的潜在问题。您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。这将帮助技术支持人员确定问题。
 
-**[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]** 按钮旁边的符号上可以显示两种不同的颜色。出现错误时，该符号以红色显示。出现警告时，以橙色显示。
+在 **[!UICONTROL 测试]** 切换和 **[!UICONTROL 发布]** 按钮。 出现错误时，该符号以红色显示。出现警告时，以橙色显示。
 
 ![](assets/journey75.png)
 
-历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。**[!UICONTROL Copy details]** 按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
+历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。的 **[!UICONTROL 复制详细信息]** 按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中方框 **[!UICONTROL 在出现超时或错误时添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 检查事件是否正确发送{#checking-that-events-are-properly-sent}
 

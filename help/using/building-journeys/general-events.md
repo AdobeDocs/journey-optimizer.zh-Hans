@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 一般事件
 description: 了解如何使用常规事件
 feature: Journeys
@@ -7,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -37,11 +38,11 @@ ht-degree: 2%
 
 要为事件配置超时，请执行以下步骤：
 
-1. 激活 **[!UICONTROL Define the event timeout]** 选项。
+1. 激活 **[!UICONTROL 定义事件超时]** 选项。
 
 1. 指定历程将等待事件的时长。
 
-1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用 **[!UICONTROL Set a timeout path]** 选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
+1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用 **[!UICONTROL 设置超时路径]** 选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
 
    ![](assets/event-timeout.png)
 
@@ -50,8 +51,8 @@ ht-degree: 2%
 * 如果在欢迎推送后不到1天收到餐馆事件，则会发送餐饮折扣推送活动。
 * 如果第二天未收到餐馆事件，则人员将通过超时路径流动。
 
-请注意，如果要对位于 **[!UICONTROL Wait]** 活动中，您只需要为其中一个事件配置超时。
+请注意，如果要对位于 **[!UICONTROL 等待]** 活动中，您只需要为其中一个事件配置超时。
 
-超时将应用于位于 **[!UICONTROL Wait]** 活动。 如果在指定的超时前未收到任何事件，则这些个人将流入一个超时路径，或结束其历程。
+超时将应用于位于 **[!UICONTROL 等待]** 活动。 如果在指定的超时前未收到任何事件，则这些个人将流入一个超时路径，或结束其历程。
 
 ![](assets/event-timeout-group.png)

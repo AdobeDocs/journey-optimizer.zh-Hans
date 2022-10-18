@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 外部数据源
 description: 了解如何配置外部数据源
 feature: Data Sources
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 90%
+source-wordcount: '1406'
+ht-degree: 74%
 
 ---
 
@@ -35,7 +37,7 @@ ht-degree: 90%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击 **[!UICONTROL Create Data Source]**&#x200B;以创建新的外部数据源。
+1. 在数据源列表中，单击 **[!UICONTROL 创建数据源]** 创建新的外部数据源。
 
    ![](assets/journey25.png)
 
@@ -58,28 +60,28 @@ ht-degree: 90%
 
    ![](assets/journey27.png)
 
-1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
+1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**, **[!UICONTROL 基本]**, **[!UICONTROL 自定义]** 或 **[!UICONTROL API密钥]**. 有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
 
-   * **[!UICONTROL Type]**：“API 密钥”
-   * **[!UICONTROL Name]**：“appid”（这是 API 密钥参数名称）
-   * **[!UICONTROL Value]**：“1234”（这是 API 密钥值）
-   * **[!UICONTROL Location]**：“查询参数”（API 密钥位于 URL 中）
+   * **[!UICONTROL 类型]**:&quot;API密钥&quot;
+   * **[!UICONTROL 名称]**:&quot;appid&quot;（这是API密钥参数名称）
+   * **[!UICONTROL 值]**:“1234”（这是API密钥的值）
+   * **[!UICONTROL 位置]**:“查询参数”（API密钥位于URL中）
 
    ![](assets/journey28.png)
 
-1. 通过单击&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;为每个 API 参数集添加新字段组。请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
+1. 通过单击 **[!UICONTROL 添加新字段组]**. 请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
 对于“long/lat”参数集，我们创建一个包含以下信息的字段组：
 
-* **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
-* **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
-* **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
+* **[!UICONTROL 在]**:显示使用字段组的历程数。 您可以单击 **[!UICONTROL 查看历程]** 图标以显示使用此字段组的历程列表。
+* **[!UICONTROL 方法]**:选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
+* **[!UICONTROL 动态值]**:在我们的示例中，输入以逗号分隔的不同参数“long，lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 响应有效负载]**:在 **[!UICONTROL 负载]** 字段并粘贴由调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，您可以单击 **[!UICONTROL 粘贴新有效负载]** 如果要更改当前传递的有效负载。
+* **[!UICONTROL 发送的负载]**:在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
-如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。如果是 POST 调用，您需要：
+如果GET调用需要参数，请在 **[!UICONTROL 动态值]** 字段中，且这些字段会在调用结束时自动添加。 如果是 POST 调用，您需要：
 
-* 在 **[!UICONTROL Dynamic Values]**&#x200B;字段中列出调用时要传递的参数（在下面的示例中为“identifier”）。
+* 列出在 **[!UICONTROL 动态值]** 字段(在以下示例中为：&quot;identifier&quot;)。
 * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。请遵循以下语法：
 
    ```
@@ -88,7 +90,7 @@ ht-degree: 90%
 
 ![](assets/journey29.png)
 
-单击 **[!UICONTROL Save]**。
+单击&#x200B;**[!UICONTROL 保存]**。
 
 数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
 

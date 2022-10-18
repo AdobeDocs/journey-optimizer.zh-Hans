@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 发布历程
 description: 了解如何发布旅程
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 如果您停止旅程，它将被永久停止。 旅程中流动的所有人员将永久停止，并且旅程将停止允许新入口。 如果您需要再次使用历程，则需要复制并发布该历程。
 
 1. 在发布历程之前，请确认该历程有效且没有错误。 您将无法发布包含错误的历程。 请参阅[此小节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。还建议在发布之前测试您的历程。 请参阅[此页](../building-journeys/testing-the-journey.md)。
-1. 要发布历程，请单击 **[!UICONTROL Publish]** 选项。
+1. 要发布历程，请单击 **[!UICONTROL 发布]** 选项。
 
    ![](assets/journeyuc1_18.png)
 

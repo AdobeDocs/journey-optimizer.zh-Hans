@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 许可证使用功能板
 description: 了解Journey Optimizer许可证使用功能板
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 6%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 6%
 
 的 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md) 提供一个功能板，其中显示有关贵组织许可证使用情况的重要信息（在每日快照中捕获）。
 
-要访问此功能板，请转到 **[!UICONTROL Administration]** > **[!UICONTROL License Usage]**. 这将打开 **[!UICONTROL Overview]** 选项卡。
+要访问此功能板，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**. 这将打开 **[!UICONTROL 概述]** 选项卡。
 
 ![](assets/license-usage-dashboard.png)
 

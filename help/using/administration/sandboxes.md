@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 沙盒管理
 description: 了解如何管理沙箱
 feature: Sandboxes
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 64%
+source-wordcount: '390'
+ht-degree: 53%
 
 ---
 
@@ -33,37 +35,37 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能通过 **[!UICONTROL Product]** 或 **[!UICONTROL System]** 管理员。 有关此内容的更多信息，请参阅 [管理控制台文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}。
+> 沙箱管理只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关此内容的更多信息，请参阅 [管理控制台文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}。
 
-您可以选择为现成或自定义沙箱分配不同的沙箱 **[!UICONTROL Product profiles]**.
+您可以选择为现成或自定义沙箱分配不同的沙箱 **[!UICONTROL 产品配置文件]**.
 
 要分配沙箱，请执行以下操作：
 
-1. 在 [!DNL Admin Console]，从 **[!UICONTROL Products]** 选项卡，选择 **[!UICONTROL Adobe Experience Platform Apps]** 产品。
+1. 在 [!DNL Admin Console]，从 **[!UICONTROL 产品]** 选项卡，选择 **[!UICONTROL Adobe Experience Platform应用程序]** 产品。
 
-1. 选择 **[!UICONTROL Product profile]**。
+1. 选择 **[!UICONTROL 产品配置文件]**.
 
    ![](assets/sandbox_1.png)
 
-1. 选择 **[!UICONTROL Permissions]** 选项卡。
+1. 选择 **[!UICONTROL 权限]** 选项卡。
 
-1. 选择 **[!UICONTROL Sandboxes]** 功能。
+1. 选择 **[!UICONTROL 沙箱]** 功能。
 
    ![](assets/sandbox_2.png)
 
-1. 在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。[了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+1. 在 **[!UICONTROL 可用权限项]**，单击加号(+)图标，将沙箱分配给用户档案。 [了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
    ![](assets/sandbox_3.png)
 
-1. 如果需要，在下 **[!UICONTROL Included Permission Items]**，请单击删除沙箱访问您的 **[!UICONTROL Product profile]**.
+1. 如果需要，在下 **[!UICONTROL 包含的权限项]**，请单击删除沙箱访问您的 **[!UICONTROL 产品配置文件]**.
 
    ![](assets/sandbox_4.png)
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 ## 访问内容 {#content-access}
 
-要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。您可以在 [!DNL Admin Console] 中显示的 **[!UICONTROL Storage]** 选项卡中为管理员创建和配置共享文件夹。如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
+要配置内容辅助功能，您需要为每个沙箱分配一个内容共享文件夹。您可以在 **[!UICONTROL 存储]** 选项卡 [!DNL Admin Console] 的URL。 如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
 
 ![](assets/do-not-localize/content_access.png)
 

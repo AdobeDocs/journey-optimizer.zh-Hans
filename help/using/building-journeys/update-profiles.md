@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 更新用户档案
 description: 了解如何在历程中使用更新用户档案活动
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -20,9 +22,9 @@ ht-degree: 0%
 >title="更新用户档案活动"
 >abstract="利用更新配置文件操作活动，可使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。"
 
-使用 **[!UICONTROL Update Profile]** 操作活动，使用来自事件、数据源或具有特定值的信息更新现有Adobe Experience Platform配置文件。
+使用 **[!UICONTROL 更新用户档案]** 操作活动，使用来自事件、数据源或具有特定值的信息更新现有Adobe Experience Platform配置文件。
 
-## 推荐
+## Recommendations
 
 * 的 **更新用户档案** 操作只能在以具有命名空间的事件开始的历程中使用。
 * 该操作仅更新现有字段，而不会创建新的用户档案字段。

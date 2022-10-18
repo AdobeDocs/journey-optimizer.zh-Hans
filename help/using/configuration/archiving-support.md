@@ -1,19 +1,21 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer中的存档支持
-description: 了解如何在渠道表面级别配置密送电子邮件
+description: 了解如何存档消息
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1305'
 ht-degree: 3%
 
 ---
 
-# 对归档的支持 {#archiving-support}
+# 存档支持 {#archiving-support}
 
 ## 如何存档消息 {#about-archiving}
 

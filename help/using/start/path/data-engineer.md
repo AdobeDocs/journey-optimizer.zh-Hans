@@ -1,12 +1,14 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer数据工程师入门
 description: 作为数据工程师，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 8%
+source-wordcount: '580'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +36,7 @@ ht-degree: 8%
 1. **创建测试用户档案**. 使用 [测试模式](../../building-journeys/testing-the-journey.md) 在旅程中，和 [预览和测试消息](../../design/preview.md) 发送之前。 详细说明了创建测试用户档案的步骤 [本页](../../segment/creating-test-profiles.md).
 
 
-此外，要在历程中发送消息，您必须配置 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**. 了解更多 [在此部分中](../../configuration/about-data-sources-events-actions.md).
+此外，要在历程中发送消息，您必须配置 **[!UICONTROL 数据源]**, **[!UICONTROL 事件]** 和 **[!UICONTROL 操作]**. [在此部分中](../../configuration/about-data-sources-events-actions.md)了解详情。
 
 ![](../assets/admin-menu.png)
 

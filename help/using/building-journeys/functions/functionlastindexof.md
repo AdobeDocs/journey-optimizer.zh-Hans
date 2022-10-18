@@ -1,15 +1,15 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: lastIndexOf
 description: 了解函数lastIndexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 18%
 
 返回3。
 
-解释：
+解释:
 
 在“Hello”中，最后一个出现的“l”位于位置3。

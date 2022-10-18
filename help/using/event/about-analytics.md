@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 关于Adobe Analytics数据
 description: 了解如何利用Adobe Analytics数据
 feature: Events
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 8%
 
 ---
@@ -23,9 +25,9 @@ ht-degree: 8%
 
 要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
-1. 在Adobe Experience Platform中，选择 **[!UICONTROL Sources]** then **[!UICONTROL Add data]** 在Adobe Analytics部分。 此时会显示可用的Adobe Analytics报表包列表。
+1. 在Adobe Experience Platform中，选择 **[!UICONTROL 源]** then **[!UICONTROL 添加数据]** 在Adobe Analytics部分。 此时会显示可用的Adobe Analytics报表包列表。
 
-1. 选择要启用的报表包，单击 **[!UICONTROL Next]** 单击 **[!UICONTROL Finish]**.
+1. 选择要启用的报表包，单击 **[!UICONTROL 下一个]** 单击 **[!UICONTROL 完成]**.
 
 1. 与您的测试版计划联系人共享源数据ID。
 

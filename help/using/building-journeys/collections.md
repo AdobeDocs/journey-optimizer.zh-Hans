@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '430'
 ht-degree: 5%
 
 ---
@@ -100,7 +101,7 @@ ht-degree: 5%
 
 1. 创建自定义操作。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
+1. 在 **[!UICONTROL 操作参数]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
 
    ![](assets/uc-collection-1.png)
 
@@ -122,7 +123,7 @@ ht-degree: 5%
 
 1. 创建历程并添加您创建的自定义操作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
+1. 在 **[!UICONTROL 操作参数]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
 
    ![](assets/uc-collection-3.png)
 

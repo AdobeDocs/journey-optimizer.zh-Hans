@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 将历程复制到另一个非道克
 description: 了解如何将历程复制到其他非正统
 feature: Journeys
@@ -6,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 将历程复制到其他沙盒 {#copy-to-sandbox}
+# 将历程复制到另一个沙盒 {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="将历程复制到其他沙盒"
+>title="将历程复制到另一个沙盒"
 >abstract="Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还会复制历程所依赖的大多数对象。"
 
 >[!CONTEXTUALHELP]

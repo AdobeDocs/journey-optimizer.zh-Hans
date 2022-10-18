@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 基于属性的访问控制
 description: 了解基于属性的访问控制
 feature: Access Management
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->基于属性的访问控制目前仅限于选定的客户，将在未来版本中部署到所有环境。
+>目前，基于属性的访问控制的使用仅限于选定用户，但将在未来版本中部署到所有环境。
 
 基于属性的访问控制(ABAC)允许您定义权限，以管理特定团队或用户组的数据访问。 其目的是保护敏感数字资产免受未经授权用户的侵害，从而进一步保护个人数据。
 

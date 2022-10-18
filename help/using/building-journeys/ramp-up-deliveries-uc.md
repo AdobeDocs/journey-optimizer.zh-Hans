@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 加快投放速度
 description: 了解如何加快投放速度
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 3%
 
 ---
@@ -23,19 +25,19 @@ ht-degree: 3%
 
 1. 创建历程. [了解更多信息](journey-gs.md)。
 
-1. 添加 **[!UICONTROL Condition]** 活动到历程。 [了解更多信息](condition-activity.md)。
+1. 添加 **[!UICONTROL 条件]** 活动到历程。 [了解更多信息](condition-activity.md)。
 
-1. 在 **[!UICONTROL Condition]** 活动设置中，设置投放的最大收件人数：
+1. 在 **[!UICONTROL 条件]** 活动设置中，设置投放的最大收件人数：
 
-   1. 在 **[!UICONTROL Condition]** 活动设置，请设置 **[!UICONTROL Type]** 字段 **[!UICONTROL Profile cap]**. [了解更多信息](condition-activity.md#profile_cap)。
+   1. 在 **[!UICONTROL 条件]** 活动设置，请设置 **[!UICONTROL 类型]** 字段 **[!UICONTROL 配置文件上限]**. [了解更多信息](condition-activity.md#profile_cap)。
 
-   1. 设置 **[!UICONTROL Limit]** 字段，以限制此投放的收件人最大数量。
+   1. 设置 **[!UICONTROL 限制]** 字段，以限制此投放的收件人最大数量。
 
    ![](assets/profile-cap-condition.png)
 
    您可以逐步将此限制增加到订阅者总数。
 
-1. 添加 **[!UICONTROL Email]** 活动到标称路径 **[!UICONTROL Condition]** 活动。
+1. 添加 **[!UICONTROL 电子邮件]** 活动到标称路径 **[!UICONTROL 条件]** 活动。
 
    ![](assets/ramp-up-deliveries-message.png)
 

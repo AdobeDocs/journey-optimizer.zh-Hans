@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 历程版本
 description: 了解历程版本
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -31,7 +33,7 @@ ht-degree: 3%
 >
 >要了解有关历程版本护栏和限制的更多信息，请参阅 [本页](../start/guardrails.md#journey-versions-limitations)
 
-1. 打开实时历程的最新版本，单击 **[!UICONTROL Create a new version]** 确认。
+1. 打开实时历程的最新版本，单击 **[!UICONTROL 创建新版本]** 确认。
 
    ![](assets/journeyversions2.png)
 
@@ -39,7 +41,7 @@ ht-degree: 3%
    >
    >您只能从历程的最新版本创建新版本。
 
-1. 进行修改，单击 **[!UICONTROL Publish]** 确认。
+1. 进行修改，单击 **[!UICONTROL 发布]** 确认。
 
    ![](assets/journeyversions3.png)
 

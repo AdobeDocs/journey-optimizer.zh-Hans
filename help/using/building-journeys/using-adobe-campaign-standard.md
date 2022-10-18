@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Campaign Standard 操作
 description: 了解Adobe Campaign Standard操作
 feature: Actions
@@ -6,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '920'
 ht-degree: 4%
 
 ---
 
 # Adobe Campaign Standard 操作 {#using_campaign_action}
 
-如果您拥有Adobe Campaign Standard，则可以使用以下内置操作活动： **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**.
+如果您拥有Adobe Campaign Standard，则可以使用以下内置操作活动： **[!UICONTROL 电子邮件]**, **[!UICONTROL 推送]** 和 **[!UICONTROL 短信]**.
 
 >[!NOTE]
 >
@@ -35,35 +37,35 @@ ht-degree: 4%
 >
 >当我们发送实时事务型消息(rtEvent)，或通过自定义操作与第三方系统路由消息时，需要设置特定设置才能进行疲劳、阻止列表或退订管理。 例如，如果“取消订阅”属性存储在Adobe Experience Platform或第三方系统中，则必须在发送消息之前添加条件才能检查此条件。
 
-选择模板时，消息有效负荷中预期的所有字段都会显示在活动配置窗格中的活动下方 **[!UICONTROL Address]** 和 **[!UICONTROL Personalization Data]**. 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据操作（例如，将字符串转换为大写），或使用诸如“if， then， else”之类的函数。 请参阅[此页](expression/expressionadvanced.md)。
+选择模板时，消息有效负荷中预期的所有字段都会显示在活动配置窗格中的活动下方 **[!UICONTROL 地址]** 和 **[!UICONTROL 个性化数据]**. 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据操作（例如，将字符串转换为大写），或使用诸如“if， then， else”之类的函数。 请参阅[此页](expression/expressionadvanced.md)。
 
 ![](assets/journey60.png)
 
 ## 电子邮件和短信 {#section_asc_51g_nhb}
 
-对于 **[!UICONTROL Email]** 和 **[!UICONTROL SMS]**，则参数相同。
+对于 **[!UICONTROL 电子邮件]** 和 **[!UICONTROL 短信]**，则参数相同。
 
 >[!NOTE]
 >
->对于电子邮件，如果您使用用户档案事务型模板，则退订机制由Campaign Standard内置处理。 只需添加 **[!UICONTROL Unsubscription link]** 模板中的内容块([了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html))。 如果您使用基于事件的模板(rtEvent)，则需要在消息中添加一个链接，以在URL参数中传递人员电子邮件并指向退订登陆页面。 您需要创建此登陆页面，并确保将人员取消订阅的决定传输到Adobe。
+>对于电子邮件，如果您使用用户档案事务型模板，则退订机制由Campaign Standard内置处理。 只需添加 **[!UICONTROL 退订链接]** 模板中的内容块([了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html))。 如果您使用基于事件的模板(rtEvent)，则需要在消息中添加一个链接，以在URL参数中传递人员电子邮件并指向退订登陆页面。 您需要创建此登陆页面，并确保将人员取消订阅的决定传输到Adobe。
 
 首先，您需要选择事务型消息传递模板。
 
-提供了两个类别： **[!UICONTROL Address]** 和 **[!UICONTROL Personalization Data]**.
+提供了两个类别： **[!UICONTROL 地址]** 和 **[!UICONTROL 个性化数据]**.
 
-您可以轻松定义检索位置 **[!UICONTROL Address]** 或 **[!UICONTROL Personalization Data]** 使用界面。 您可以浏览事件和可用数据源的字段。 您还可以使用高级表达式编辑器来处理更高级的用例，例如使用需要传递参数或执行操作的数据源。 请参阅[此页](expression/expressionadvanced.md)。
+您可以轻松定义检索位置 **[!UICONTROL 地址]** 或 **[!UICONTROL 个性化数据]** 使用界面。 您可以浏览事件和可用数据源的字段。 您还可以使用高级表达式编辑器来处理更高级的用例，例如使用需要传递参数或执行操作的数据源。 请参阅[此页](expression/expressionadvanced.md)。
 
-**[!UICONTROL Address]**
+**[!UICONTROL 地址]**
 
 >[!NOTE]
 >
->仅当您选择“事件”事务型消息时，才会显示此类别。 对于“用户档案”消息， **[!UICONTROL Address]** 字段会由系统自动从Adobe Campaign Standard中检索。
+>仅当您选择“事件”事务型消息时，才会显示此类别。 对于“用户档案”消息， **[!UICONTROL 地址]** 字段会由系统自动从Adobe Campaign Standard中检索。
 
 这些是系统需要知道消息发送位置的字段。 对于电子邮件模板，它是电子邮件地址。 对于短信，是手机号码。
 
 ![](assets/journey61.png)
 
-**[!UICONTROL Personalization Data]**
+**[!UICONTROL 个性化数据]**
 
 >[!NOTE]
 >
@@ -81,7 +83,7 @@ ht-degree: 4%
 
 ![](assets/journey62bis.png)
 
-提供了两个类别： **[!UICONTROL Target]** 和 **[!UICONTROL Personalization Data]**.
+提供了两个类别： **[!UICONTROL Target]** 和 **[!UICONTROL 个性化数据]**.
 
 **[!UICONTROL Target]**
 
@@ -89,15 +91,15 @@ ht-degree: 4%
 >
 >仅当您选择事件消息时，才会显示此类别。 对于用户档案消息， **[!UICONTROL Target]** 字段由系统使用Adobe Campaign Standard执行的协调自动检索。
 
-在此部分中，您需要定义 **[!UICONTROL Push platform]**. 下拉列表允许您选择 **[!UICONTROL Apple Push Notification Server]** (iOS)或 **[!UICONTROL Firebase Cloud Messaging]** (Android)。 您也可以从事件或数据源中选择特定字段，或定义高级表达式。
+在此部分中，您需要定义 **[!UICONTROL 推送平台]**. 下拉列表允许您选择 **[!UICONTROL Apple推送通知服务器]** (iOS)或 **[!UICONTROL Firebase Cloud消息传送]** (Android)。 您也可以从事件或数据源中选择特定字段，或定义高级表达式。
 
-您还需要定义 **[!UICONTROL Registration Token]**. 表达式取决于令牌在事件有效负载中或在其他 [!DNL Journey Optimizer] 信息。 它可以是一个简单的字段或更复杂的表达式，以防令牌在例如的集合中定义：
+您还需要定义 **[!UICONTROL 注册令牌]**. 表达式取决于令牌在事件有效负载中或在其他 [!DNL Journey Optimizer] 信息。 它可以是一个简单的字段或更复杂的表达式，以防令牌在例如的集合中定义：
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
-**[!UICONTROL Personalization Data]**
+**[!UICONTROL 个性化数据]**
 
 >[!NOTE]
 >

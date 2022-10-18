@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 创建测试用户档案
 description: 了解如何创建测试用户档案
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1375'
 ht-degree: 3%
 
 ---
@@ -37,27 +39,27 @@ ht-degree: 3%
 
 至 **创建模式**，请执行以下步骤：
 
-1. 在“数据管理”菜单部分中，单击 **[!UICONTROL Schemas]**.
+1. 在“数据管理”菜单部分中，单击 **[!UICONTROL 模式]**.
    ![](assets/test-profiles-0.png)
-1. 单击 **[!UICONTROL Create schema]**，然后选择模式类型，例如 **XDM个人配置文件**.
+1. 单击 **[!UICONTROL 创建架构]**，然后选择模式类型，例如 **XDM个人配置文件**.
    ![](assets/test-profiles-1.png)
 1. 选择相应的字段组。 确保将 **用户档案测试详细信息** 字段组。
    ![](assets/test-profiles-1-ter.png)
-完成后，单击 **[!UICONTROL Add field groups]**:字段组列表显示在架构概述屏幕上。
+完成后，单击 **[!UICONTROL 添加字段组]**:字段组列表显示在架构概述屏幕上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
    >* 单击架构的名称以更改它并更新其属性。
    >
-   >* 单击 **[!UICONTROL Add]** 字段组部分中的按钮以选择要添加到架构中的其他字段组
+   >* 单击 **[!UICONTROL 添加]** 字段组部分中的按钮以选择要添加到架构中的其他字段组
 
 
 1. 在字段列表中，单击要定义为主标识的字段。
    ![](assets/test-profiles-3.png)
-1. 在 **[!UICONTROL Field properties]** 右窗格，检查 **[!UICONTROL Identity]** 和 **[!UICONTROL Primary Identity]** 选项，然后选择命名空间。 如果希望主标识是电子邮件地址，请选择 **[!UICONTROL Email]** 命名空间。 单击 **[!UICONTROL Apply]**。
+1. 在 **[!UICONTROL 字段属性]** 右窗格，检查 **[!UICONTROL 身份]** 和 **[!UICONTROL 主标识]** 选项，然后选择命名空间。 如果希望主标识是电子邮件地址，请选择 **[!UICONTROL 电子邮件]** 命名空间。 单击&#x200B;**[!UICONTROL 应用]**。
    ![](assets/test-profiles-4bis.png)
-1. 选择架构并启用 **[!UICONTROL Profile]** 选项 **[!UICONTROL Schema properties]** 中。
+1. 选择架构并启用 **[!UICONTROL 用户档案]** 选项 **[!UICONTROL 架构属性]** 中。
    ![](assets/test-profiles-5.png)
 1. 单击&#x200B;**保存**。
 
@@ -67,15 +69,15 @@ ht-degree: 3%
 
 那你需要 **创建数据集** 导入用户档案的位置。 请执行以下步骤：
 
-1. 浏览到 **[!UICONTROL Datasets]**，然后单击 **[!UICONTROL Create dataset]**.
+1. 浏览到 **[!UICONTROL 数据集]**，然后单击 **[!UICONTROL 创建数据集]**.
    ![](assets/test-profiles-6.png)
-1. 选择 **[!UICONTROL Create dataset from schema]**.
+1. 选择 **[!UICONTROL 从架构创建数据集]**.
    ![](assets/test-profiles-7.png)
-1. 选择之前创建的架构，然后单击 **[!UICONTROL Next]**.
+1. 选择之前创建的架构，然后单击 **[!UICONTROL 下一个]**.
    ![](assets/test-profiles-8.png)
-1. 选择一个名称，然后单击 **[!UICONTROL Finish]**.
+1. 选择一个名称，然后单击 **[!UICONTROL 完成]**.
    ![](assets/test-profiles-9.png)
-1. 启用 **[!UICONTROL Profile]** 选项。
+1. 启用 **[!UICONTROL 用户档案]** 选项。
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -88,7 +90,7 @@ ht-degree: 3%
 
 ![](assets/use-cases-home.png)
 
-单击 **[!UICONTROL Begin]** 按钮开始实施用例。
+单击&#x200B;**[!UICONTROL 开始]**&#x200B;按钮开始实施用例。
 
 需要提供以下信息：
 
@@ -104,7 +106,7 @@ ht-degree: 3%
    1. **国家/地区**:测试居住地概况
    1. **性别**:测试用户档案性别。 可用值包括 **男**, **女性** 和 **未指定**
 
-选择身份命名空间并根据上述格式提供CSV文件后，单击 **[!UICONTROL Run]** 按钮。 用例可能需要几分钟才能完成。 用例完成处理和创建测试用户档案后，将发送通知以通知用户。
+选择身份命名空间并根据上述格式提供CSV文件后，单击 **[!UICONTROL 运行]** 按钮。 用例可能需要几分钟才能完成。 用例完成处理和创建测试用户档案后，将发送通知以通知用户。
 
 >[!NOTE]
 >
@@ -114,9 +116,9 @@ ht-degree: 3%
 
 您可以将现有用户档案转换为测试用户档案：您可以采用与创建用户档案相同的方式更新用户档案属性。
 
-实现此目的的简单方法是使用 **[!UICONTROL Update Profile]** 历程中的操作活动，并更改 **testProfile** 布尔字段，从false到true。
+实现此目的的简单方法是使用 **[!UICONTROL 更新用户档案]** 历程中的操作活动，并更改 **testProfile** 布尔字段，从false到true。
 
-您的历程将由 **[!UICONTROL Read Segment]** 和 **[!UICONTROL Update Profile]** 活动。 您首先需要创建一个区段，以定向要转换为测试用户档案的用户档案。
+您的历程将由 **[!UICONTROL 读取区段]** 和 **[!UICONTROL 更新用户档案]** 活动。 您首先需要创建一个区段，以定向要转换为测试用户档案的用户档案。
 
 >[!NOTE]
 >
@@ -133,19 +135,19 @@ ht-degree: 3%
    >
    > 区段计算可能需要一些时间。 了解有关 [此部分](../segment/about-segments.md).
 
-1. 现在，创建新历程并开始 **[!UICONTROL Read Segment]** 编排活动。
+1. 现在，创建新历程并开始 **[!UICONTROL 读取区段]** 编排活动。
 1. 选择之前创建的区段以及用户档案使用的命名空间。
    ![](assets/test-profiles-25.png)
-1. 添加 **[!UICONTROL Update Profile]** 操作活动。
-1. 选择架构， **testProfiles** 字段，并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL VALUE]** 字段，单击 **笔** 图标，选择 **[!UICONTROL Advanced mode]** 输入 **true**.
+1. 添加 **[!UICONTROL 更新用户档案]** 操作活动。
+1. 选择架构， **testProfiles** 字段，并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL 值]** 字段，单击 **笔** 图标，选择 **[!UICONTROL 高级模式]** 输入 **true**.
    ![](assets/test-profiles-26.png)
-1. 单击 **[!UICONTROL Publish]**。
-1. 在 **[!UICONTROL Segments]** 部分，检查用户档案是否已正确更新。
+1. 单击 **[!UICONTROL 发布]**.
+1. 在 **[!UICONTROL 区段]** 部分，检查用户档案是否已正确更新。
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > 有关 **[!UICONTROL Update Profile]** 活动，请参阅 [此部分](../building-journeys/update-profiles.md).
+   > 有关 **[!UICONTROL 更新用户档案]** 活动，请参阅 [此部分](../building-journeys/update-profiles.md).
 
 ## 使用csv文件创建测试用户档案{#create-test-profiles-csv}
 

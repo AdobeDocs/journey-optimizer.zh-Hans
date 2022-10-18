@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 个性化您的电子邮件背景
 description: 了解如何个性化电子邮件背景
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,11 +30,11 @@ ht-degree: 0%
 
 以下是您可以使用的可用背景设置。
 
-* 设置 **[!UICONTROL Background color]** 整封邮件。 确保在可从左侧面板访问的导航树中选择主体设置。
+* 设置 **[!UICONTROL 背景颜色]** 整封邮件。 确保在可从左侧面板访问的导航树中选择主体设置。
 
    ![](assets/background_1.png)
 
-* 通过选择 **[!UICONTROL Viewport background color]**. 此选项允许您从背景颜色中选择其他设置。
+* 通过选择 **[!UICONTROL 视区背景颜色]**. 此选项允许您从背景颜色中选择其他设置。
 
    ![](assets/background_2.png)
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
    ![](assets/background_3.png)
 
-* 设置 **[!UICONTROL Background image]** ，以查看结构组件的内容。
+* 设置 **[!UICONTROL 背景图像]** ，以查看结构组件的内容。
 
    >[!NOTE]
    >

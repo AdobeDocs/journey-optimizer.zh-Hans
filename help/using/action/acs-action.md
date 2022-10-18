@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 与 Adobe Campaign Standard 集成
 description: 了解如何与Adobe Campaign Standard集成
 feature: Actions
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '426'
 ht-degree: 5%
 
 ---
@@ -35,7 +37,7 @@ ht-degree: 5%
 
 以下是配置该插件的步骤：
 
-1. 选择 **[!UICONTROL Configurations]** 在“管理”菜单部分。 在  **[!UICONTROL Actions]** ，单击 **[!UICONTROL Manage]**. 将显示操作列表。
+1. 选择 **[!UICONTROL 配置]** 在“管理”菜单部分。 在  **[!UICONTROL 操作]** ，单击 **[!UICONTROL 管理]**. 将显示操作列表。
 
 1. 选择内置 **[!UICONTROL AdobeCampaignStandard]** 操作。 操作配置窗格将在屏幕右侧打开。
 
@@ -43,7 +45,7 @@ ht-degree: 5%
 
 1. 复制Adobe Campaign Standard实例URL并将其粘贴到 **[!UICONTROL URL]** 字段。
 
-1. 单击 **[!UICONTROL Test the instance URL]** 来测试实例的有效性。
+1. 单击 **[!UICONTROL 测试实例URL]** 来测试实例的有效性。
 
    >[!NOTE]
    >
@@ -55,7 +57,7 @@ ht-degree: 5%
    >
    >与此Adobe Campaign Standard实例关联的组织与Journey Optimizer的组织相同。
 
-设计历程时，可在 **[!UICONTROL Action]** 类别： **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-standard.md))。
+设计历程时，可在 **[!UICONTROL 操作]** 类别： **[!UICONTROL 电子邮件]**, **[!UICONTROL 推送]**, **[!UICONTROL 短信]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-standard.md))。
 
 ![](assets/journey58.png)
 

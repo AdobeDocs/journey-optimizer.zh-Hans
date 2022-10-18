@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 查看和激活营销活动
 description: 了解如何在 [!DNL Journey Optimizer]
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 5a7932cf0cb013e627e79aadde526e8f976effaf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 全局报告
 description: 了解如何使用全局报表中的数据
 feature: Reporting
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -169,7 +171,7 @@ ht-degree: 3%
    <td>选件的发送总数。<br/> </td> 
 </tr> 
   <tr>
-   <td>打开<br/> </td> 
+   <td>打开次数<br/> </td> 
    <td> 消息的打开次数。<br/> </td> 
 </tr> 
   <tr> 
@@ -193,7 +195,7 @@ ht-degree: 3%
    <td> 临时错误（如完整收件箱）的总数。<br/> </td> 
 </tr>
   <tr> 
-   <td> 垃圾邮件投诉<br/> </td> 
+   <td> 垃圾邮件投诉次数<br/> </td> 
    <td> 将消息声明为垃圾邮件或垃圾邮件的次数。<br/> </td> 
 </tr>
   <tr> 
@@ -355,7 +357,7 @@ ht-degree: 3%
    <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
 </tr>
   <tr> 
-   <td> 打开<br/> </td> 
+   <td> 打开次数<br/> </td> 
    <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br/> </td> 
 </tr> 
   <tr> 

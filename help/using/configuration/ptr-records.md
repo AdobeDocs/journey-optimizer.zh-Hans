@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: PTR记录
 description: 了解如何管理PTR记录
 feature: Application Settings
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,7 @@ ht-degree: 0%
 
 ## 访问子域的PTR记录 {#access-ptr-records}
 
-一次 [委派子域](delegate-subdomain.md) 在Adobe Journey Optimizer中，将自动创建PTR记录并与此子域关联。 您可以从 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** 菜单。
+一次 [委派子域](delegate-subdomain.md) 在Adobe Journey Optimizer中，将自动创建PTR记录并与此子域关联。 您可以从 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR记录]** 菜单。
 
 ![](assets/ptr-records.png)
 
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您无法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR record]** 字段。
+>您无法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR记录]** 字段。
 
 ### 完全委派的子域 {#fully-delegated-subdomains}
 
@@ -64,7 +66,7 @@ ht-degree: 0%
 
    ![](assets/ptr-record-subdomain.png)
 
-1. 单击 **[!UICONTROL Save]** 确认更改。
+1. 单击 **[!UICONTROL 保存]** 确认更改。
 
 ### 使用CNAME方法委派的子域 {#edit-ptr-subdomains-cname}
 
@@ -89,11 +91,11 @@ ht-degree: 0%
    >   * 跨DNS的记录可能无法立即同步。 请等待几分钟，然后重试。
 
 
-1. 单击 **[!UICONTROL Save]** 确认更改。
+1. 单击 **[!UICONTROL 保存]** 确认更改。
 
 ## 检查PTR记录更新详细信息 {#check-ptr-record-update}
 
-确认PTR记录编辑后， **[!UICONTROL Processing]** 图标会显示在列表中PTR记录名称的旁边。
+确认PTR记录编辑后， **[!UICONTROL 处理]** 图标会显示在列表中PTR记录名称的旁边。
 
 ![](assets/ptr-record-updating.png)
 
@@ -113,9 +115,9 @@ ht-degree: 0%
 
 PTR记录更新可以具有以下状态：
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**:PTR记录更新已提交，正在进行验证过程。
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**:已验证更新的PTR记录，并且新子域现在与IP地址关联。
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**:在PTR记录更新验证期间，一个或多个检查失败。
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 处理]**:PTR记录更新已提交，正在进行验证过程。
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL 成功]**:已验证更新的PTR记录，并且新子域现在与IP地址关联。
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL 失败]**:在PTR记录更新验证期间，一个或多个检查失败。
 
 ### 处理时间 {#processing}
 
@@ -123,7 +125,7 @@ PTR记录更新可以具有以下状态：
 
 >[!NOTE]
 >
->在更新过程中，无法修改PTR记录。 您仍可以单击其名称，但 **[!UICONTROL Subdomain]** 字段灰显。 更新成功后，才会反映更改。
+>在更新过程中，无法修改PTR记录。 您仍可以单击其名称，但 **[!UICONTROL 子域]** 字段灰显。 更新成功后，才会反映更改。
 
 在验证过程中，旧子域仍与IP地址关联。
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 测试您的历程
 description: 了解如何测试您的历程
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -30,11 +32,11 @@ ht-degree: 2%
 
 要使用测试模式，请执行以下步骤：
 
-1. 要激活测试模式，请激活 **[!UICONTROL Test]** 切换，位于右上角。
+1. 要激活测试模式，请激活 **[!UICONTROL 测试]** 切换，位于右上角。
 
    ![](assets/journeytest1.png)
 
-1. 如果历程至少具有 **等待** 活动时，设置 **[!UICONTROL Wait time]** 参数来定义每次等待活动和事件超时在测试模式下的最后持续时间。 默认时间为10秒，用于等待和事件超时。 这样可以确保快速获得测试结果。
+1. 如果历程至少具有 **等待** 活动时，设置 **[!UICONTROL 等待时间]** 参数来定义每次等待活动和事件超时在测试模式下的最后持续时间。 默认时间为10秒，用于等待和事件超时。 这样可以确保快速获得测试结果。
 
    ![](assets/journeytest_wait.png)
 
@@ -42,7 +44,7 @@ ht-degree: 2%
    >
    >在历程中使用超时的反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
 
-1. 使用 **[!UICONTROL Trigger an event]** 按钮以配置事件并将事件发送到历程。
+1. 使用 **[!UICONTROL 触发事件]** 按钮以配置事件并将事件发送到历程。
 
    ![](assets/journeyuctest1.png)
 
@@ -50,7 +52,7 @@ ht-degree: 2%
 
    ![](assets/journeyuctest1-bis.png)
 
-1. 收到事件后，单击 **[!UICONTROL Show log]** 按钮查看测试结果并进行验证。 请参阅[此小节](#viewing_logs)。
+1. 收到事件后，单击 **[!UICONTROL 显示日志]** 按钮查看测试结果并进行验证。 请参阅[此小节](#viewing_logs)。
 
    ![](assets/journeyuctest2.png)
 
@@ -75,7 +77,7 @@ ht-degree: 2%
 >title="配置测试模式"
 >abstract="如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和执行事件发送。"
 
-使用 **[!UICONTROL Trigger an event]** 按钮以配置将使人员进入历程的事件。
+使用 **[!UICONTROL 触发事件]** 按钮以配置将使人员进入历程的事件。
 
 >[!NOTE]
 >
@@ -87,13 +89,13 @@ ht-degree: 2%
 
 ![](assets/journeytest4.png)
 
-界面允许您传递简单的事件参数。 如果要在事件中传递收藏集或其他高级对象，可以单击 **[!UICONTROL Code View]** 以查看有效负载的整个代码并对其进行修改。 例如，您可以复制并粘贴由技术用户准备的事件信息。
+界面允许您传递简单的事件参数。 如果要在事件中传递收藏集或其他高级对象，可以单击 **[!UICONTROL 代码视图]** 以查看有效负载的整个代码并对其进行修改。 例如，您可以复制并粘贴由技术用户准备的事件信息。
 
 ![](assets/journeytest5.png)
 
 技术用户还可以使用此界面来撰写事件负载和触发事件，而无需使用第三方工具。
 
-单击 **[!UICONTROL Send]** 按钮，测试开始。 历程中个人的进度由可视流表示。 当个人在历程中移动时，路径会逐渐变为绿色。 如果发生错误，则在相应步骤中显示警告符号。 您可以将光标放在上面以显示有关错误的详细信息并访问完整的详细信息（如果可用）。
+单击 **[!UICONTROL 发送]** 按钮，测试开始。 历程中个人的进度由可视流表示。 当个人在历程中移动时，路径会逐渐变为绿色。 如果发生错误，则在相应步骤中显示警告符号。 您可以将光标放在上面以显示有关错误的详细信息并访问完整的详细信息（如果可用）。
 
 ![](assets/journeytest6.png)
 
@@ -113,7 +115,7 @@ ht-degree: 2%
 
 ## 业务事件的测试模式 {#test-business}
 
-使用 [业务事件](../event/about-events.md)，使用测试模式触发历程中的单个测试用户档案进入，模拟事件并传递正确的用户档案ID。 您必须传递将在测试中进入旅程的测试用户档案的事件参数和标识符。 您不能使用 **[!UICONTROL Up to 100 profiles at once]** 选项。 在测试模式下，没有“代码视图”模式可用于基于业务事件的历程。
+使用 [业务事件](../event/about-events.md)，使用测试模式触发历程中的单个测试用户档案进入，模拟事件并传递正确的用户档案ID。 您必须传递将在测试中进入旅程的测试用户档案的事件参数和标识符。 您不能使用 **[!UICONTROL 一次最多可包含100个用户档案]** 选项。 在测试模式下，没有“代码视图”模式可用于基于业务事件的历程。
 
 请注意，首次触发业务事件时，您不能在同一测试会话中更改业务事件定义。 您只能使同一个人或不同个人进入传递相同或其他标识符的历程。 如果要更改业务事件参数，必须停止并重新启动测试模式。
 
@@ -124,7 +126,7 @@ ht-degree: 2%
 >title="测试模式日志"
 >abstract="“显示日志”按钮以JSON格式显示测试结果。 这些结果显示历程中的个人数量及其状态。"
 
-的 **[!UICONTROL Show log]** 按钮查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
+的 **[!UICONTROL 显示日志]** 按钮查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 
 ![](assets/journeytest3.png)
 

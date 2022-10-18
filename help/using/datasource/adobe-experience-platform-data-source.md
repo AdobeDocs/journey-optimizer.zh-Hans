@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Adobe Experience Platform 数据源
 description: 了解如何配置Adobe Experience Platform数据源
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 10%
 
 ---
@@ -38,12 +40,12 @@ Adobe Experience Platform数据源定义与实时客户资料服务的连接。 
 
    ![](assets/journey23.png)
 
-1. 单击 **[!UICONTROL Add a New Field Group]** 定义要检索的一系列新字段。 请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
+1. 单击 **[!UICONTROL 添加新字段组]** 定义要检索的一系列新字段。 请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
 
    ![](assets/journey24.png)
 
-1. 从 **[!UICONTROL Schema]** 下拉菜单。 此字段列出了Adobe Experience Platform中提供的配置文件和体验事件架构。 未在中执行架构创建 [!DNL Journey Optimizer]. 在Adobe Experience Platform演。
+1. 从 **[!UICONTROL 架构]** 下拉菜单。 此字段列出了Adobe Experience Platform中提供的配置文件和体验事件架构。 未在中执行架构创建 [!DNL Journey Optimizer]. 在Adobe Experience Platform演。
 1. 选择要使用的字段。
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL 保存]**.
 
-将光标放在字段组的名称上时，您将在右侧看到两个图标。 利用字段组，可删除和复制字段组。 请注意， **[!UICONTROL Delete]** 图标仅在字段组未用于任何实时或草稿历程时可用(信息显示在 **[!UICONTROL Used in]** 字段。
+将光标放在字段组的名称上时，您将在右侧看到两个图标。 利用字段组，可删除和复制字段组。 请注意， **[!UICONTROL 删除]** 图标仅在字段组未用于任何实时或草稿历程时可用(信息显示在 **[!UICONTROL 在]** 字段。

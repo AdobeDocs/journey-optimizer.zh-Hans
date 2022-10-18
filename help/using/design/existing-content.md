@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 导入电子邮件内容
 description: 了解如何导入电子邮件内容
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
@@ -26,7 +28,7 @@ Journey Optimizer允许您导入现有HTML内容以设计电子邮件。 其内�
 
 要导入包含HTML内容的文件，请执行以下步骤：
 
-1. 在Email Designer主页中，选择 **[!UICONTROL Import HTML]**.
+1. 在Email Designer主页中，选择 **[!UICONTROL 导入HTML]**.
 
    ![](assets/import-html_2.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 在 Journey Optimizer 中使用 Assets Essentials
 description: 开始使用Assets Essentials
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +25,7 @@ ht-degree: 3%
 
 在 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}。
 
-[!DNL Adobe Experience Manager Assets Essentials] 可以直接从访问 [!DNL Adobe Journey Optimizer] 从左侧菜单 **[!UICONTROL Assets]** 中。 您还可以在 [设计电子邮件内容](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] 可以直接从访问 [!DNL Adobe Journey Optimizer] 从左侧菜单 **[!UICONTROL 资产]** 中。 您还可以在 [设计电子邮件内容](design-emails.md).
 
 ## 先决条件{#assets-prerequisites}
 
@@ -38,25 +40,25 @@ ht-degree: 3%
 
 有关如何上传资产的更多信息，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}。
 
-1. 从 [!DNL Adobe Journey Optimizer] 主页，选择 **[!UICONTROL Assets]** 选项卡 **[!UICONTROL Content management]** 访问菜单 [!DNL Assets Essentials].
+1. 从 [!DNL Adobe Journey Optimizer] 主页，选择 **[!UICONTROL 资产]** 选项卡 **[!UICONTROL 内容管理]** 访问菜单 [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. 从中央部分或树视图中双击文件夹以将其打开。
 
-   您还可以单击 **[!UICONTROL Create folder]** 创建新文件夹。
+   您还可以单击 **[!UICONTROL 创建文件夹]** 创建新文件夹。
 
    ![](assets/media_library_8.png)
 
-1. 进入选定或创建的文件夹后，单击 **[!UICONTROL Add Assets]** 将新资产上传到您的文件夹。
+1. 进入选定或创建的文件夹后，单击 **[!UICONTROL 添加资产]** 将新资产上传到您的文件夹。
 
    ![](assets/media_library_2.png)
 
-1. 从 **[!UICONTROL Upload files]**，单击 **[!UICONTROL Browse]** 然后选择 **[!UICONTROL Browse files]** 或 **[!UICONTROL Browse folders]**.
+1. 从 **[!UICONTROL 上传文件]**，单击 **[!UICONTROL 浏览]** 然后选择 **[!UICONTROL 浏览文件]** 或 **[!UICONTROL 浏览文件夹]**.
 
    ![](assets/media_library_3.png)
 
-1. 选择要上传的文件。 完成后，单击 **[!UICONTROL Upload]**。
+1. 选择要上传的文件。 完成后，单击 **[!UICONTROL 上传]**.
 
    要了解有关如何管理资产的更多信息，请参阅 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
@@ -66,7 +68,7 @@ ht-degree: 3%
 
    ![](assets/media_library_12.png)
 
-1. 从 [!DNL Adobe Journey Optimizer]，选择 **[!UICONTROL Asset picker]** 电子邮件设计工具的左窗格。
+1. 从 [!DNL Adobe Journey Optimizer]，选择 **[!UICONTROL 资产选取器]** 电子邮件设计工具的左窗格。
 
    ![](assets/media_library_5.png)
 
@@ -83,7 +85,7 @@ ht-degree: 3%
     ![](assets/media_library_14.png)
 -->
 
-1. 您可以进一步自定义您的资产，例如，使用 **[!UICONTROL Components settings]**. [了解有关组件设置的更多信息](content-components.md)
+1. 您可以进一步自定义您的资产，例如，使用 **[!UICONTROL 组件设置]**. [了解有关组件设置的更多信息](content-components.md)
 
    ![](assets/media_library_13.png)
 

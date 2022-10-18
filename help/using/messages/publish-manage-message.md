@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 发布和修改消息
 description: 了解如何发布和更新消息
 feature: Journeys
@@ -8,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 17%
+source-wordcount: '261'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +29,7 @@ ht-degree: 17%
 
 ![](assets/publish-message.png)
 
-发布消息后，该消息将添加到消息列表，其中包含 **[!UICONTROL Published]** 状态。
+发布消息后，该消息将添加到消息列表，其中包含 **[!UICONTROL 已发布]** 状态。
 
 现在，它已准备好由一个或多个 [历程](../building-journeys/journey.md).
 
@@ -49,7 +51,7 @@ ht-degree: 17%
 
 1. 从消息列表中，选择您的消息以将其打开。
 
-1. 单击 **[!UICONTROL Modify]**。
+1. 单击 **[!UICONTROL 修改]**.
 
    ![](assets/message-modify.png)
 
@@ -58,7 +60,7 @@ ht-degree: 17%
    ![](assets/message-modify-v2.png)
 
 1. 编辑内容或根据需要更改设置。
-1. 单击 **[!UICONTROL Publish]**。此操作将发布将用于下次执行的消息的新版本。
+1. 单击 **[!UICONTROL 发布]**. 此操作将发布将用于下次执行的消息的新版本。
 
 新版本一经发布，下次调用API时，将生成新消息执行。 下一个传入用户档案将接收新版本。
 

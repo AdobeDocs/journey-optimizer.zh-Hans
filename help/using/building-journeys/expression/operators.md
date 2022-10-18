@@ -1,12 +1,13 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: 操作员
 description: 了解高级表达式中的运算符
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 7%
@@ -34,7 +35,7 @@ ht-degree: 7%
 
 ## 重要说明{#important-notes}
 
-* 使用乘数(`*`)，则两个运算字段必须具有相同的类型（整数或小数）。 示例 :
+* 使用乘数(`*`)，则两个运算字段必须具有相同的类型（整数或小数）。 示例：
    * 以下示例正确： `3.0 * 4.0`
    * `3 * 4.0` 会导致错误
 

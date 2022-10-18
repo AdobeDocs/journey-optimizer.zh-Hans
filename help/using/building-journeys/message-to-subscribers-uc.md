@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 向订阅者发送消息
 description: 了解如何构建旅程以向列表的订阅者发送消息
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '279'
 ht-degree: 5%
 
 ---
@@ -17,17 +19,17 @@ ht-degree: 5%
 
 此用例的用途是创建旅程，以向列表的订阅者发送消息。
 
-在本例中， **[!UICONTROL Consent and Preference Details]** 字段组自 [!DNL Adobe Experience Platform] 中，将使用。 要查找此字段组，请从 **[!UICONTROL Data Management]** 菜单，选择 **[!UICONTROL Schemas]**. 在 **[!UICONTROL Field groups]** 选项卡，在搜索字段中输入字段组的名称。
+在本例中， **[!UICONTROL 同意和首选项详细信息]** 字段组自 [!DNL Adobe Experience Platform] 中，将使用。 要查找此字段组，请从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 模式]**. 在 **[!UICONTROL 字段组]** 选项卡，在搜索字段中输入字段组的名称。
 
 ![此字段组包含订阅元素](assets/consent-and-preference-details-field-group.png)
 
 要配置此历程，请执行以下步骤：
 
-1. 创建以 **[!UICONTROL Read]** 活动。 [了解更多信息](journey-gs.md)。
-1. 添加 **[!UICONTROL Email]** 操作活动。 [了解更多信息](journeys-message.md)。
-1. 在 **[!UICONTROL Email parameters]** 部分 **[!UICONTROL Email]** 活动设置，替换默认的电子邮件地址(`PersonalEmail.adress`)，其电子邮件地址为列表订阅者：
+1. 创建以 **[!UICONTROL 读取]** 活动。 [了解更多信息](journey-gs.md)。
+1. 添加 **[!UICONTROL 电子邮件]** 操作活动。 [了解更多信息](journeys-message.md)。
+1. 在 **[!UICONTROL 电子邮件参数]** 部分 **[!UICONTROL 电子邮件]** 活动设置，替换默认的电子邮件地址(`PersonalEmail.adress`)，其电子邮件地址为列表订阅者：
 
-   1. 单击 **[!UICONTROL Enable parameter override]** 图标 **[!UICONTROL Address]** 字段，然后单击 **[!UICONTROL Edit]** 图标。
+   1. 单击 **[!UICONTROL 启用参数覆盖]** 图标 **[!UICONTROL 地址]** 字段，然后单击 **[!UICONTROL 编辑]** 图标。
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -52,4 +54,4 @@ ht-degree: 5%
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. 在 **[!UICONTROL Add an expression]** 对话框，单击 **[!UICONTROL Ok]**.
+   1. 在 **[!UICONTROL 添加表达式]** 对话框，单击 **[!UICONTROL 确定]**.

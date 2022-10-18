@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 重试
 description: 了解在向抑制列表发送地址之前如何执行重试
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +41,9 @@ ht-degree: 2%
 
 如果默认值5不适合您的需求，您可以按照以下步骤修改错误阈值。
 
-1. 转到 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**。
+1. 转到 **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 禁止列表]**.
 
-1. 选择 **[!UICONTROL Edit suppression rules]** 按钮。
+1. 选择 **[!UICONTROL 编辑隐藏规则]** 按钮。
 
    ![](assets/suppression-list-edit-retries.png)
 

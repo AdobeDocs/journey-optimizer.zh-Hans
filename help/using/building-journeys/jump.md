@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 从一个历程转到另一个历程
 description: 从一个历程转到另一个历程
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 5%
+source-wordcount: '846'
+ht-degree: 4%
 
 ---
 
@@ -20,27 +22,27 @@ ht-degree: 5%
 >title="跳转活动"
 >abstract="跳转操作活动允许您将个人从一个历程推送到另一个历程。 此功能允许您简化非常复杂的历程的设计，并基于通用且可重用的历程模式构建历程。"
 
-的 **[!UICONTROL Jump]** 操作活动允许您将个人从一个历程推送到另一个历程。 此功能允许您：
+的 **[!UICONTROL 跳转]** 操作活动允许您将个人从一个历程推送到另一个历程。 此功能允许您：
 
 * 通过将非常复杂的历程分成若干个历程来简化其设计
 * 基于通用且可重用的历程模式构建历程
 
-在原始历程中，只需添加 **[!UICONTROL Jump]** 活动，然后选择target历程。 当个人输入 **[!UICONTROL Jump]** 步骤中，将内部事件发送到target历程的第一个事件。 如果 **[!UICONTROL Jump]** 操作成功后，个人将继续在历程中进行。 行为与其他操作类似。
+在原始历程中，只需添加 **[!UICONTROL 跳转]** 活动，然后选择target历程。 当个人输入 **[!UICONTROL 跳转]** 步骤中，将内部事件发送到target历程的第一个事件。 如果 **[!UICONTROL 跳转]** 操作成功后，个人将继续在历程中进行。 行为与其他操作类似。
 
-在目标历程中，由 **[!UICONTROL Jump]** 活动将使历程中的各个流量。
+在目标历程中，由 **[!UICONTROL 跳转]** 活动将使历程中的各个流量。
 
 ## 生命周期
 
-假设您已添加 **[!UICONTROL Jump]** 旅程A中的活动。历程A是 **原始历程** 旅程B， **目标历程**.
+假设您已添加 **[!UICONTROL 跳转]** 旅程A中的活动。历程A是 **原始历程** 旅程B， **目标历程**.
 以下是执行过程的不同步骤：
 
 **历程A** 从外部事件触发：
 
 1. 历程A接收与个人相关的外部事件。
-1. 个人到达 **[!UICONTROL Jump]** 中。
-1. 该个人将被推送到历程B，并在历程A的 **[!UICONTROL Jump]** 中。
+1. 个人到达 **[!UICONTROL 跳转]** 中。
+1. 该个人将被推送到历程B，并在历程A的 **[!UICONTROL 跳转]** 中。
 
-在历程B中，第一个事件通过 **[!UICONTROL Jump]** 历程A中的活动：
+在历程B中，第一个事件通过 **[!UICONTROL 跳转]** 历程A中的活动：
 
 1. 历程B从历程A收到内部事件。
 1. 个人开始在历程B中流动。
@@ -53,19 +55,19 @@ ht-degree: 5%
 
 ### 创作
 
-* 的 **[!UICONTROL Jump]** 活动仅在使用命名空间的历程中可用。
+* 的 **[!UICONTROL 跳转]** 活动仅在使用命名空间的历程中可用。
 * 您只能跳转到使用与原始历程相同命名空间的历程。
 * 您无法跳转到以 **区段鉴别** 事件或 **读取区段**.
-* 您不能具有 **[!UICONTROL Jump]** 活动和 **区段鉴别** 事件或 **读取区段** 在同一历程中。
-* 您可以包含任意数量的 **[!UICONTROL Jump]** 活动。 在 **[!UICONTROL Jump]**，则可以添加所需的任何活动。
+* 您不能具有 **[!UICONTROL 跳转]** 活动和 **区段鉴别** 事件或 **读取区段** 在同一历程中。
+* 您可以包含任意数量的 **[!UICONTROL 跳转]** 活动。 在 **[!UICONTROL 跳转]**，则可以添加所需的任何活动。
 * 您可以拥有所需数量的跳转级别。 例如，历程A跳转到历程B，跳转到历程C，等等。
-* 目标历程还可以包含任意数量的 **[!UICONTROL Jump]** 活动。
-* 不支持循环模式。 无法将两个或更多历程链接在一起，从而创建无限循环。 的 **[!UICONTROL Jump]** 活动配置屏幕可阻止您执行此操作。
+* 目标历程还可以包含任意数量的 **[!UICONTROL 跳转]** 活动。
+* 不支持循环模式。 无法将两个或更多历程链接在一起，从而创建无限循环。 的 **[!UICONTROL 跳转]** 活动配置屏幕可阻止您执行此操作。
 
 ### 执行
 
-* 当 **[!UICONTROL Jump]** 活动时，会触发最新版本的target历程。
-* 与往常一样，独特个人只能在同一历程中存在一次。 因此，如果从原始历程推送的个人已经进入目标历程，则该个人将不会进入目标历程。 不会在 **[!UICONTROL Jump]** 活动，因为这是正常行为。
+* 当 **[!UICONTROL 跳转]** 活动时，会触发最新版本的target历程。
+* 与往常一样，独特个人只能在同一历程中存在一次。 因此，如果从原始历程推送的个人已经进入目标历程，则该个人将不会进入目标历程。 不会在 **[!UICONTROL 跳转]** 活动，因为这是正常行为。
 
 ## 配置跳转活动
 
@@ -73,7 +75,7 @@ ht-degree: 5%
 
    ![](assets/jump1.png)
 
-1. 在历程的任何步骤中，添加 **[!UICONTROL Jump]** 活动，从 **[!UICONTROL ACTIONS]** 类别。 添加标签和描述。
+1. 在历程的任何步骤中，添加 **[!UICONTROL 跳转]** 活动，从 **[!UICONTROL 操作]** 类别。 添加标签和描述。
 
    ![](assets/jump2.png)
 
@@ -87,7 +89,7 @@ ht-degree: 5%
    >您可以单击 **Open Target历程** 图标，以在新选项卡中打开target历程。
 
 1. 选择您要跳转到的目标历程。
-的 **第一个事件** 字段中预填充了target历程第一个事件的名称。 如果您的目标历程包含多个事件，则 **[!UICONTROL Jump]** 仅允许在第一个事件上使用。
+的 **第一个事件** 字段中预填充了target历程第一个事件的名称。 如果您的目标历程包含多个事件，则 **[!UICONTROL 跳转]** 仅允许在第一个事件上使用。
 
    ![](assets/jump4.png)
 
@@ -101,9 +103,9 @@ ht-degree: 5%
    >
    >个人的身份会自动映射。 此信息在界面中不可见。
 
-您的 **[!UICONTROL Jump]** 活动配置完成。 当您的历程处于实时模式或测试模式时，即会有人访问 **[!UICONTROL Jump]** 步骤将从推送到target历程。
+您的 **[!UICONTROL 跳转]** 活动配置完成。 当您的历程处于实时模式或测试模式时，即会有人访问 **[!UICONTROL 跳转]** 步骤将从推送到target历程。
 
-当 **[!UICONTROL Jump]** 在历程中配置活动， **[!UICONTROL Jump]** 登入图标会自动添加到target历程的开头。 这有助于您识别可以从外部触发历程，也可以从 **[!UICONTROL Jump]** 活动。
+当 **[!UICONTROL 跳转]** 在历程中配置活动， **[!UICONTROL 跳转]** 登入图标会自动添加到target历程的开头。 这有助于您识别可以从外部触发历程，也可以从 **[!UICONTROL 跳转]** 活动。
 
 ![](assets/jump7.png)
 

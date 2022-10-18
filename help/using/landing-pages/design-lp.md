@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 设计登陆页面
 description: 了解如何在Journey Optimizer中设计登陆页面的内容
 feature: Landing Pages
@@ -6,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 61fcf519ca2ce241e292a86707e5ce987835a07c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 3%
 
 ---
 
 # 设计登陆页面内容 {#design-lp}
 
-开始为登陆创建内容 [主页](create-lp.md#configure-primary-page) 或 [子页面](create-lp.md#configure-subpages)，将鼠标悬停在页面内容上并单击 **[!UICONTROL Open Designer]**. 您还可以单击右侧面板中的相应按钮。
+开始为登陆创建内容 [主页](create-lp.md#configure-primary-page) 或 [子页面](create-lp.md#configure-subpages)，将鼠标悬停在页面内容上并单击 **[!UICONTROL 打开设计工具]**. 您还可以单击右侧面板中的相应按钮。
 
 ![](assets/lp_open-designer.png)
 

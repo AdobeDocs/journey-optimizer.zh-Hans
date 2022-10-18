@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 快速入门
 description: 作为营销人员、管理员或数据工程师，利用分步指南学习并探索 Adobe Journey Optimizer 的强大功能
 feature: Overview
@@ -6,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
-workflow-type: ht
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 

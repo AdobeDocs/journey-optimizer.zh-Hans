@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 预览消息和发送校样
 description: 了解如何预览和测试消息
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -53,11 +55,11 @@ ht-degree: 0%
 
 要选择测试用户档案，请执行以下步骤：
 
-1. 在消息界面或电子邮件设计器中，单击 **[!UICONTROL Simulate Content]** 按钮以访问测试用户档案选择。
+1. 在消息界面或电子邮件设计器中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
 
    ![](assets/email-preview-button.png)
 
-1. 通过单击 **[!UICONTROL Identity namespace]** 选择图标。
+1. 通过单击 **[!UICONTROL 身份命名空间]** 选择图标。
 
    ![](assets/previewselect-namespace.png)
 
@@ -65,11 +67,11 @@ ht-degree: 0%
 
    在以下示例中，我们将使用 **电子邮件** 命名空间。
 
-1. 使用搜索字段查找命名空间，选择该命名空间并单击 **[!UICONTROL Select]**
+1. 使用搜索字段查找命名空间，选择该命名空间并单击 **[!UICONTROL 选择]**
 
    ![](assets/preview-email-namespace.png)
 
-1. 输入值以标识测试用户档案，然后单击 **[!UICONTROL Add profile]**.
+1. 输入值以标识测试用户档案，然后单击 **[!UICONTROL 添加用户档案]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -87,13 +89,13 @@ ht-degree: 0%
 
 要预览电子邮件内容，请执行以下步骤：
 
-1. 单击 **[!UICONTROL Simulate content]** 按钮。
+1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 
 1. 选择测试用户档案。 您可以检查列中可用的值。 使用右/左箭头浏览数据。
 
    ![](assets/preview-tab-select-profile.png)
 
-1. 单击 **[!UICONTROL Select data]** 图标以添加或删除列。
+1. 单击 **[!UICONTROL 选择数据]** 图标以添加或删除列。
 
    ![](assets/preview-select-data.png)
 
@@ -111,11 +113,11 @@ ht-degree: 0%
 
 要预览推送通知内容，请执行以下步骤：
 
-1. 单击 **[!UICONTROL Simulate content]** 按钮。
+1. 单击 **[!UICONTROL 模拟内容]** 按钮。
 
 1. 选择测试用户档案。 您可以检查列中可用的值。 使用右/左箭头浏览数据。
 
-1. 切换到 **[!UICONTROL Push]** 消息。
+1. 切换到 **[!UICONTROL 推送]** 消息。
 
 1. 应用与上述步骤相同的步骤来选择测试用户档案，然后选择要预览内容的设备类型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
@@ -133,11 +135,11 @@ ht-degree: 0%
 
 一次 [测试用户档案](#select-test-profiles) ，则可以发送校样。
 
-1. 在 **[!UICONTROL Preview]** 屏幕，单击 **[!UICONTROL Send proof]** 按钮。
+1. 在 **[!UICONTROL 预览]** 屏幕，单击 **[!UICONTROL 发送校样]** 按钮。
 
    ![](assets/send-proof-button.png)
 
-1. 从 **[!UICONTROL Send proof]** 窗口中，键入收件人的电子邮件并单击 **[!UICONTROL Add]** 将校样发送给您自己或您组织的成员。
+1. 从 **[!UICONTROL 发送校样]** 窗口中，键入收件人的电子邮件并单击 **[!UICONTROL 添加]** 将校样发送给您自己或您组织的成员。
 
    请注意，您最多可以为校样投放添加10个收件人。
 
@@ -149,11 +151,11 @@ ht-degree: 0%
 
 1. 如果需要，您可以向校样的主题行添加前缀。 仅字母数字字符和特殊字符，例如。 - _() [ ]，作为主题行的前缀。
 
-1. 单击 **[!UICONTROL Send proof]**。
+1. 单击 **[!UICONTROL 发送校样]**.
 
    ![](assets/send-proof-select.png)
 
-1. 返回  **[!UICONTROL Preview]** 屏幕，单击  **[!UICONTROL View proofs]** 按钮来检查状态。
+1. 返回  **[!UICONTROL 预览]** 屏幕，单击  **[!UICONTROL 查看校样]** 按钮来检查状态。
 
    ![](assets/send-proof-view.png)
 
@@ -174,7 +176,7 @@ ht-degree: 0%
 
 然后，执行以下步骤：
 
-1. 在Email Designer中，单击 **[!UICONTROL Preview]** 按钮并选择 **[!UICONTROL Email rendering]** 选项卡。
+1. 在Email Designer中，单击 **[!UICONTROL 预览]** 按钮并选择 **[!UICONTROL 电子邮件渲染]** 选项卡。
 
 1. 单击 **连接您的Litmus帐户** 中。
 

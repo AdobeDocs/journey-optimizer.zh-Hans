@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 个性化用例&冒号；订单状态通知
 description: 了解如何使用用户档案、选件决策和上下文信息对消息进行个性化。
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 步骤1 — 创建历程 {#create-journey}
 
-1. 单击 **[!UICONTROL Journeys]** 菜单，并创建新历程。
+1. 单击 **[!UICONTROL 历程]** 菜单，并创建新历程。
 
    ![](assets/perso-uc4.png)
 
@@ -73,7 +75,7 @@ ht-degree: 0%
 
    ![](assets/perso-uc12.png)
 
-1. 键入消息并插入，从 **[!UICONTROL Contextual attributes]** 菜单、订单项目名称和订单进度。
+1. 键入消息并插入，从 **[!UICONTROL 上下文属性]** 菜单、订单项目名称和订单进度。
 
    ![](assets/perso-uc13.png)
 

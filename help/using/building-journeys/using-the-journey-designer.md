@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 设计您的历程
 description: 了解如何设计历程
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 3%
 
 ---
@@ -24,31 +26,31 @@ ht-degree: 3%
 
 ## 历程设计入门 {#gs-journey-design}
 
-的 **调色板** 位于屏幕的左侧。 所有可用活动都按以下几类进行分类： **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**. 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
+的 **调色板** 位于屏幕的左侧。 所有可用活动都按以下几类进行分类： **[!UICONTROL 事件]**, **[!UICONTROL 编排]** 和 **[!UICONTROL 操作]**. 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
 
 启动新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
 ![](assets/journey38.png)
 
-的 **[!UICONTROL Filter items]** 图标，可显示以下过滤器：
+的 **[!UICONTROL 筛选项目]** 图标，可显示以下过滤器：
 
 * **仅显示可用项目**:隐藏或显示面板中不可用的元素，例如使用不同于历程中使用的命名空间的事件。 默认情况下，不可用项目处于隐藏状态。如果选择显示它们，它们将显示为灰显。
 
 * **仅显示最近的项目**:此过滤器除了现成事件和操作之外，还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。默认情况下，将显示所有项目。
 
-您还可以使用 **[!UICONTROL Search]** 字段。 仅过滤事件和操作。
+您还可以使用 **[!UICONTROL 搜索]** 字段。 仅过滤事件和操作。
 
 的 **画布** 是历程设计器中的中心区域。 您可以在此区域中拖放并配置活动。 单击画布中的活动以对其进行配置。 此操作将打开右侧的活动配置窗格。
 
 ![](assets/journey39.png)
 
-的 **活动配置窗格** 单击面板中的活动时显示。 填写必填字段。 单击 **[!UICONTROL Delete]** 图标以删除活动。 单击 **[!UICONTROL Cancel]** 取消修改或 **[!UICONTROL Ok]** 确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
+的 **活动配置窗格** 单击面板中的活动时显示。 填写必填字段。 单击 **[!UICONTROL 删除]** 图标以删除活动。 单击 **[!UICONTROL 取消]** 取消修改或 **[!UICONTROL 确定]** 确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
 
 默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击 **显示只读字段** 图标。 此设置适用于所有历程中的所有活动。
 
 ![](assets/journey59bis.png)
 
-根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 测试模式激活后，将显示测试模式日志按钮。
+根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL 发布]**, **[!UICONTROL 复制]**, **[!UICONTROL 删除]**, **[!UICONTROL 历程属性]**, **[!UICONTROL 测试]**. 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 测试模式激活后，将显示测试模式日志按钮。
 
 ![](assets/journey41.png)
 
@@ -88,9 +90,9 @@ ht-degree: 3%
 
 ## 添加替代路径{#paths}
 
-您可以为以下历程活动定义回退操作，以防出现错误或超时： **[!UICONTROL Condition]** 和 **[!UICONTROL Action]**.
+您可以为以下历程活动定义回退操作，以防出现错误或超时： **[!UICONTROL 条件]** 和 **[!UICONTROL 操作]**.
 
-要为活动添加回退操作，请选择 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框中，选择“活动属性”：活动后会添加另一个路径。 超时持续时间由管理员用户在 [历程属性](../building-journeys/journey-gs.md#change-properties). 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
+要为活动添加回退操作，请选择 **[!UICONTROL 在出现超时或错误时添加替代路径]** 框中，选择“活动属性”：活动后会添加另一个路径。 超时持续时间由管理员用户在 [历程属性](../building-journeys/journey-gs.md#change-properties). 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
 
 ![](assets/journey42.png)
 
@@ -98,7 +100,7 @@ ht-degree: 3%
 
 在监听事件时，我们建议您不要无限期地等待该事件。 它不是强制性的，只是一种最佳做法。 如果只想在特定时间内侦听一个或多个事件，则将并行放置一个或多个事件和等待活动。 请参阅[此小节](../building-journeys/general-events.md#events-specific-time)。
 
-要删除路径，请将光标放在该路径上，然后单击 **[!UICONTROL Delete path]** 图标。
+要删除路径，请将光标放在该路径上，然后单击 **[!UICONTROL 删除路径]** 图标。
 
 ![](assets/journey42ter.png)
 

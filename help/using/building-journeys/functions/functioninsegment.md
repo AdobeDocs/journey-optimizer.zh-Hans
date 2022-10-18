@@ -1,14 +1,14 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: inSegment
 description: 了解inSegment的函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 6%
 
 ---
@@ -61,6 +61,6 @@ Adobe Experience Platform
 
 `inSegment("men over 50")`
 
-解释：
+解释:
 
 函数将返回 **[!UICONTROL true]** 如果历程实例中的个人是名为“50岁以上的男士”的Adobe Experience Platform区段的一部分， **[!UICONTROL false]** 否则。

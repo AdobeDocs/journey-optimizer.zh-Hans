@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Journey Optimizer系统管理员入门
 description: 作为系统管理员，了解如何使用Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '732'
 ht-degree: 3%
 
 ---
@@ -17,18 +19,18 @@ ht-degree: 3%
 
 As a **系统管理员**，您需要 **了解产品配置文件和分配权限** 用于沙盒管理和渠道配置。 您还需要设置沙盒，并为可用的产品配置文件管理这些沙盒。 然后，您便能够将团队成员分配给产品配置文件。
 
-这些功能可由 **[!UICONTROL Product administrators]** 具有Admin Console访问权限的访客。 [进一步了解Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
+这些功能可由 **[!UICONTROL 产品管理员]** 具有Admin Console访问权限的访客。 [进一步了解Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
 
 在以下页面中了解访问管理：
 
 1. **创建沙箱** 将实例分区为单独的独立虚拟环境。 **沙箱** 创建于 [!DNL Journey Optimizer]. 在 [沙箱](../../administration/sandboxes.md) 中。
 
    >[!NOTE]
-   >As a **系统管理员**，如果您看不到 **[!UICONTROL Sandboxes]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本页](../../administration/permissions.md#edit-product-profile).
+   >As a **系统管理员**，如果您看不到 **[!UICONTROL 沙箱]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本页](../../administration/permissions.md#edit-product-profile).
 
 1. **了解产品配置文件**. 产品配置文件是一组统一的权限，允许用户访问界面中的特定功能或对象。 在 [开箱即用的产品配置文件](../../administration/ootb-product-profiles.md) 中。
 
-1. **设置权限** 对于产品配置文件，包括 **沙箱**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。 此步骤在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 权限是唯一的权限，用于定义分配给的授权 **[!UICONTROL Product profile]**. 每个权限都通过功能(例如历程或选件)收集，这些功能或选件表示 [!DNL Journey Optimizer]. 在 [权限级别](../../administration/high-low-permissions.md) 中。
+1. **设置权限** 对于产品配置文件，包括 **沙箱**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。 此步骤在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 权限是唯一的权限，用于定义分配给的授权 **[!UICONTROL 产品配置文件]**. 每个权限都通过功能(例如历程或选件)收集，这些功能或选件表示 [!DNL Journey Optimizer]. 在 [权限级别](../../administration/high-low-permissions.md) 中。
 
 此外，您还必须将需要访问Assets Essentials的用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 [有关更多信息，请参阅Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}。
 
@@ -37,10 +39,10 @@ As a **系统管理员**，您需要 **了解产品配置文件和分配权限**
 
 访问 [!DNL Journey Optimizer] 首次配置了生产沙盒，并根据您的合同分配了特定数量的IP。
 
-要创建您的历程并发送消息，请访问 **管理** 菜单。 浏览 **[!UICONTROL Channels]** 菜单来配置消息和渠道表面（即消息预设）。
+要创建您的历程并发送消息，请访问 **管理** 菜单。 浏览 **[!UICONTROL 渠道]** 菜单来配置消息和渠道表面（即消息预设）。
 
 >[!NOTE]
->As a **系统管理员**，如果您看不到 **[!UICONTROL Channels]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本页](../../administration/permissions.md#edit-product-profile).
+>As a **系统管理员**，如果您看不到 **[!UICONTROL 渠道]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){_blank}。 了解如何在 [本页](../../administration/permissions.md#edit-product-profile).
 
 按照下面列出的步骤操作：
 

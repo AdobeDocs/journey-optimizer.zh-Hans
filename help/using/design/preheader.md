@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 在Journey Optimizer中添加预标头
 description: 了解如何设计电子邮件内容
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -28,24 +30,24 @@ ht-degree: 2%
 
 要定义电子邮件预标题，请执行以下步骤：
 
-1. 在Email designer中，添加 **[!UICONTROL Structure components]** 以开始设计电子邮件。
+1. 在Email designer中，添加 **[!UICONTROL 结构部件]** 以开始设计电子邮件。
 
    ![](assets/preheader_1.png)
 
-1. 从 **[!UICONTROL Body settings]** 右窗格，单击 **编辑** 旁边 **[!UICONTROL Preheader]** 字段添加内容。
+1. 从 **[!UICONTROL 正文设置]** 右窗格，单击 **编辑** 旁边 **[!UICONTROL Preheader]** 字段添加内容。
 
    ![](assets/preheader_2.png)
 
-1. 添加您的预标头。 您可以通过单击 **[!UICONTROL Add personalization]** 图标。
+1. 添加您的预标头。 您可以通过单击 **[!UICONTROL 添加个性化]** 图标。
 
    ![](assets/preheader_3.png)
 
-1. 从 **[!UICONTROL Edit Personalization]** 窗口，您可以添加 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 或 **[!UICONTROL Personalization fields]**.
+1. 从 **[!UICONTROL 编辑个性化]** 窗口，您可以添加 **[!UICONTROL 内容块]**, **[!UICONTROL 动态内容]** 或 **[!UICONTROL 个性化字段]**.
 
-1. 单击 **[!UICONTROL Validate]** 来检查个性化语法。
+1. 单击 **[!UICONTROL 验证]** 来检查个性化语法。
 
    ![](assets/preheader_4.png)
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 现在，您为电子邮件配置了前标。

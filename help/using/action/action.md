@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: 关于操作
 description: 了解如何配置操作
 feature: Actions
@@ -7,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 53%
+source-wordcount: '256'
+ht-degree: 47%
 
 ---
 
@@ -37,9 +38,9 @@ ht-degree: 53%
 >
 >自定义操作的配置必须由 **技术用户**.
 
-此类操作在历程的左侧面板的 **[!UICONTROL Action]** 类别中可用。请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
+这些操作在历程的左侧面板(位于 **[!UICONTROL 操作]** 类别。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
 
-要查看操作列表或配置新操作，请选择 **[!UICONTROL Configurations]** 在“管理”菜单部分。 在  **[!UICONTROL Actions]** ，单击 **[!UICONTROL Manage]**. 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../start/user-interface.md)。
+要查看操作列表或配置新操作，请选择 **[!UICONTROL 配置]** 在“管理”菜单部分。 在  **[!UICONTROL 操作]** ，单击 **[!UICONTROL 管理]**. 将显示操作列表。有关该界面的更多信息，请参阅[此页面](../start/user-interface.md)。
 
 ![](assets/custom1.png)
 

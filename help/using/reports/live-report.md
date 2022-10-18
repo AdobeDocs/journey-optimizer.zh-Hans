@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 实时报告
 description: 了解如何使用实时报表中的数据
 feature: Reporting
@@ -6,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 4%
 
 ---
 
-# 实时报表入门 {#live-report}
+# 实时报告入门 {#live-report}
 
 使用 **[!UICONTROL 实时报表]** 可在内置仪表板中实时测量和显示历程和消息的影响和性能。
 数据在 **[!UICONTROL 实时报表]** 发送投放或从执行旅程后 **[!UICONTROL 最近24小时]** 选项卡。
@@ -162,7 +164,7 @@ ht-degree: 4%
    <td>选件的发送总数。<br/> </td> 
 </tr> 
   <tr>
-   <td>打开<br/> </td> 
+   <td>打开次数<br/> </td> 
    <td> 消息的打开次数。<br/> </td> 
 </tr> 
   <tr> 
@@ -186,7 +188,7 @@ ht-degree: 4%
    <td> 临时错误（如完整收件箱）的总数。<br/> </td> 
 </tr>
   <tr> 
-   <td> 垃圾邮件投诉<br/> </td> 
+   <td> 垃圾邮件投诉次数<br/> </td> 
    <td> 将消息声明为垃圾邮件或垃圾邮件的次数。<br/> </td> 
 </tr>
   <tr> 

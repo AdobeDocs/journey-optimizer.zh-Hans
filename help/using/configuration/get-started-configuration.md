@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 开始使用 [!DNL Journey Optimizer] 配置
 description: 详细了解 [!DNL Journey Optimizer] 配置
 role: Admin
@@ -6,9 +8,9 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '330'
 ht-degree: 11%
 
 ---
@@ -43,7 +45,7 @@ ht-degree: 11%
 
    ![](assets/ip-pool.png)
 
-1. **配置历程**:要构建历程，您需要配置 **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 和 **[!UICONTROL Actions]**. [了解详情](about-data-sources-events-actions.md)
+1. **配置历程**:要构建历程，您需要配置 **[!UICONTROL 数据源]**, **[!UICONTROL 事件]** 和 **[!UICONTROL 操作]**. [了解详情](about-data-sources-events-actions.md)
 
    ![](assets/admin-menu.png)
 
