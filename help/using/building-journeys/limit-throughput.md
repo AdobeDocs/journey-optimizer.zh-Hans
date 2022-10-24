@@ -4,7 +4,7 @@ title: 使用外部数据源和自定义操作限制吞吐量
 description: 使用外部数据源和自定义操作限制吞吐量
 source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
