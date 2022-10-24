@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 使用案例{#journey-use-cases}
-      + [发送多渠道消息](using/building-journeys/journeys-uc.md)
-      + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
-      + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
-      + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
-      + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
+      + 业务用例 {#business-use-cases}
+         + [发送多渠道消息](using/building-journeys/journeys-uc.md)
+         + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
+         + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
+      + 技术用例 {#technical-use-cases}
+         + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
+         + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
