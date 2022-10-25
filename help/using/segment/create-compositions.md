@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建合成工作流
+title: 创建组合工作流
 description: 了解如何创建合成工作流以合并和排列现有受众。
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 创建合成工作流 {#create-compositions}
+# 创建组合工作流 {#create-compositions}
 
 利用合成工作流，可合并和排列现有受众以创建新受众。
 
@@ -80,6 +80,6 @@ ht-degree: 0%
 
 了解更多:
 
-* [受众构成入门](get-started-audience-orchestration.md)
-* [使用合成画布](composition-canvas.md)
+* [受众组合入门](get-started-audience-orchestration.md)
+* [使用组合画布](composition-canvas.md)
 * [访问和管理受众](access-audiences.md)

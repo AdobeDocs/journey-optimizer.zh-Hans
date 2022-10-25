@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="渠道平面"
 >abstract="渠道平面是该渠道的一个实例，具有用于通过营销活动或历程成功投放操作的所有设置。它由系统管理员定义。"
 
-在您的历程中，使用渠道操作来设计要发送给受众的消息并对消息进行个性化设置。在历程画布中添加电子邮件、短信或推送操作时，您将创建触发发送。 当联系人触发该渠道操作时，Adobe Journey Optimizer 会自动发送消息。
+在您的历程中，使用渠道操作来设计要发送给受众的消息并对消息进行个性化设置。向历程画布添加电子邮件、短信或推送操作时，您将创建一个触发式发送操作。当联系人触发该渠道操作时，Adobe Journey Optimizer 会自动发送消息。
 
 
 >[!NOTE]
 >您还可以创建营销活动以发送设置了计划的消息。 [在此部分中](../campaigns/get-started-with-campaigns.md)了解详情。
 
 
-要在历程中添加消息，请在历程画布中添加推送、短信或电子邮件活动。
+要在历程中添加消息，只需在历程画布中添加推送、短信或电子邮件活动。
 
 1. 通过[事件](../building-journeys/general-events.md)或[读取区段](../building-journeys/read-segment.md)活动开始您的历程。
 
@@ -52,7 +52,7 @@ ht-degree: 92%
    >
    >* 如果您为特定渠道和类别定义[频率规则](../configuration/frequency-rules.md)，在选择该渠道和类别时，会自动将它们应用于消息。当前频率规则仅可用于&#x200B;**[!UICONTROL 营销型]**&#x200B;类别。
    >
-   >* 营销消息必须包括 [选择退出链接](../privacy/opt-out.md#opt-out-management). 这对事务型消息并不是必需的，因为可以将这些消息发送到从营销通信内容中取消订阅的用户档案。
+   >* 营销消息必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)。这对事务型消息并不是必需的，因为可以将这些消息发送到从营销通信内容中取消订阅的用户档案。
 
 
 1. 选择渠道&#x200B;**[!UICONTROL 界面]**（即消息预设）来发送消息。
@@ -124,7 +124,7 @@ ht-degree: 92%
 
 1. 按 **crtl+V** 来粘贴消息。
 
-   消息将添加到历程画布。 所有设置和配置都将被复制到新消息中。
+   消息将会被添加到历程画布。所有设置和配置都将被复制到新消息中。
 
    ![](assets/message-duplicated.png)
 

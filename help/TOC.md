@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 94%
       + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
    + [用例](using/landing-pages/lp-use-cases.md)
-+ 个性化和动态内容 {#personalized-dynamic-content}
++ 个性化和动态内容{#personalized-dynamic-content}
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
       + [个性化上下文](using/personalization/personalization-contexts.md)
@@ -127,10 +127,10 @@ ht-degree: 94%
       + [开始使用用户档案](using/segment/get-started-profiles.md)
       + [创建测试用户档案](using/segment/creating-test-profiles.md)
    + [标识](using/segment/get-started-identity.md)
-   + 撰写受众 {#audience-orchestration}
-      + [受众构成入门](using/segment/get-started-audience-orchestration.md)
-      + [创建合成工作流](using/segment/create-compositions.md)
-      + [使用合成画布](using/segment/composition-canvas.md)
+   + 组合受众{#audience-orchestration}
+      + [受众组合入门](using/segment/get-started-audience-orchestration.md)
+      + [创建组合工作流](using/segment/create-compositions.md)
+      + [使用组合画布](using/segment/composition-canvas.md)
       + [访问和管理受众](using/segment/access-audiences.md)
    + [许可证使用](using/segment/license-usage.md)
 + 历程 {#orchestrate-journeys}

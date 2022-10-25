@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 1%
 
 了解更多:
 
-* [受众构成入门](get-started-audience-orchestration.md)
-* [创建合成工作流](create-compositions.md)
-* [使用合成画布](composition-canvas.md)
+* [受众组合入门](get-started-audience-orchestration.md)
+* [创建组合工作流](create-compositions.md)
+* [使用组合画布](composition-canvas.md)

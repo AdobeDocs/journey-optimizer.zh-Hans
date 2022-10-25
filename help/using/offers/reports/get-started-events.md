@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 57%
+source-wordcount: '175'
+ht-degree: 56%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 57%
 
 因此您可以导出这些数据，然后将其导入您自己的报告系统中进行分析。您还可以将 Adobe Experience Platform [查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)与其他工具结合使用，以增强分析和报告。
 
-包含决策管理事件的数据集可从Adobe Experience Platform访问 **[!UICONTROL Datasets]** 菜单。 在为每个实例进行预配时会自动创建一个数据集。
+包含决策管理事件的数据集可从Adobe Experience Platform访问 **[!UICONTROL 数据集]** 菜单。 在为每个实例进行预配时会自动创建一个数据集。
 
 ![](../assets/events-datasets-list.png)
 
-这些数据集基于 **[!UICONTROL ODE DecisionEvents]** 架构，其中包含从决策管理向Adobe Experience Platform发送信息所需的所有XDM字段。
+这些数据集基于 **[!UICONTROL 代码决策事件]** 架构，其中包含从决策管理向Adobe Experience Platform发送信息所需的所有XDM字段。
 
 >[!NOTE]
 >

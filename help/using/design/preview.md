@@ -11,7 +11,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 然后，您将能够 [发送校样](#send-proofs) 到测试用户档案。
 
-此外，您还可以 **利特穆斯** 帐户 [!DNL Journey Optimizer] 立即预览 **电子邮件渲染** 在流行的电子邮件客户中。 然后，您可以确保电子邮件内容在每个收件箱中都显示正常且工作正常。 了解如何解锁Litmus电子邮件预览 [此部分](#email-rendering)
+此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。了解如何解锁Litmus电子邮件预览 [此部分](#email-rendering)
 
 >[!CAUTION]
 >

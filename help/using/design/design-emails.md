@@ -11,7 +11,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 * 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../design/stock.md)
 
-* 通过根据客户的用户档案属性创建个性化的动态消息来增强客户体验。 详细了解 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md).
+* 通过根据客户的用户档案属性创建个性化的动态消息来增强客户体验。 详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在视频中发现此功能](#video)
 

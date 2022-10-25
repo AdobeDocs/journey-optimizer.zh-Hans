@@ -20,7 +20,7 @@ ht-degree: 97%
 * 添加了有关如何使用外部数据源和自定义操作限制吞吐量的历程用例。 [了解详情](../building-journeys/limit-throughput.md)
 * 历程用例部分已重组为两个类别： [业务用例](../building-journeys/journeys-uc.md) 和 [技术用例](../building-journeys/collections.md).
 * 的 **实体数据集** 章节已更新，其中包含更多详细信息。 [了解详情](../start/datasets-query-examples.md#entity-dataset)
-* 与选择退出管理和同意策略相关的信息已重新组织为新部分。 [了解详情](../privacy/opt-out.md)
+* 与选择禁用管理和同意策略相关的信息已重新编入新章节。[了解详情](../privacy/opt-out.md)
 
 ## 2022 年 9 月 {#september-2022}
 

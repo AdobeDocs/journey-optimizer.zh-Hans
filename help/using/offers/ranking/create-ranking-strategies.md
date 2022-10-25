@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 9%
+source-wordcount: '309'
+ht-degree: 7%
 
 ---
 
@@ -26,24 +26,24 @@ ht-degree: 9%
 
 要创建AI模型，请执行以下步骤：
 
-1. 在 **[!UICONTROL Components]** 菜单，访问 **[!UICONTROL Ranking]** 选项卡，然后选择 **[!UICONTROL AI models]**.
+1. 在 **[!UICONTROL 组件]** 菜单，访问 **[!UICONTROL 排名]** 选项卡，然后选择 **[!UICONTROL AI模型]**.
 
    ![](../assets/ai-ranking-list.png)
 
    迄今创建的所有AI模型都列出。
 
-1. 单击 **[!UICONTROL Create AI model]** 按钮。
+1. 单击 **[!UICONTROL 创建AI模型]** 按钮。
 
 1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
 
-   * **[!UICONTROL Auto-optimization]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
-   * **[!UICONTROL Personalized]** 根据区段和选件性能优化和个性化选件。 [了解详情](personalized-optimization-model.md)
+   * **[!UICONTROL 自动优化]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
+   * **[!UICONTROL 个性化]** 根据区段和选件性能优化和个性化选件。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Optimization metric]** 部分提供有关AI模型用于计算选件排名的转化事件的信息。
+   >的 **[!UICONTROL 优化量度]** 部分提供有关AI模型用于计算选件排名的转化事件的信息。
    >
    >[!DNL Journey Optimizer] 根据 **转化率** （转化率=转化事件总数/展示事件总数）。 转化率使用两种类型的量度计算：
    >* **展示事件** （显示的选件）
@@ -58,9 +58,9 @@ ht-degree: 9%
 
    >[!CAUTION]
    >
-   >仅从与 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组（以前称为mixin）会显示在下拉列表中。
+   >仅从与 **[!UICONTROL 体验事件 — 建议交互]** 字段组（以前称为mixin）会显示在下拉列表中。
 
-1. 如果您要创建 **[!UICONTROL Personalization]** AI模型中，选择用于训练AI模型的区段。
+1. 如果您要创建 **[!UICONTROL 个性化]** AI模型中，选择用于训练AI模型的区段。
 
    ![](../assets/ai-ranking-segments.png)
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 63%
+source-wordcount: '642'
+ht-degree: 39%
 
 ---
 
@@ -21,33 +21,33 @@ ht-degree: 63%
 >
 >如果您在访问选件库或其某些功能时遇到问题，请咨询已向您授予所需权限的管理员用户。 请参阅 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-使用 **[!UICONTROL Offers]** 菜单管理个性化的后备优惠，将它们组织到收藏集中，然后通过创建决策来发送这些后备优惠：
+使用  **[!UICONTROL 选件]** 菜单，用于管理个性化和备用选件，将其组织到集合中，并通过创建决策来提供它们：
 
-* **[!UICONTROL Overview]**:新 [!DNL decision management]? 按照屏幕上的步骤，开始设置版面、选件和收藏集。 当已经熟悉 [!DNL decision management]，获取有关最新选件、收藏集和决策的概述。 请参阅[概述](#overview)。
+* **[!UICONTROL 概述]**:新 [!DNL decision management]? 按照屏幕上的步骤，开始设置版面、选件和收藏集。 当已经熟悉 [!DNL decision management]，获取有关最新选件、收藏集和决策的概述。 请参阅[概述](#overview)。
 
-* **[!UICONTROL Offers]**：访问您的个性化的后备优惠或创建新后备优惠。请参阅[创建优惠](../offer-library/creating-personalized-offers.md)和[创建后备优惠](../offer-library/creating-fallback-offers.md)。
+* **[!UICONTROL 选件]**:访问您的个性化和后备优惠或创建新优惠。 请参阅[创建优惠](../offer-library/creating-personalized-offers.md)和[创建后备优惠](../offer-library/creating-fallback-offers.md)。
 
-* **[!UICONTROL Collections]**：创建和管理静态和动态优惠收藏集。请参阅[关于优惠收藏集](../offer-library/creating-collections.md)。
+* **[!UICONTROL 收藏集]**:创建和管理静态和动态选件集合。 请参阅[关于优惠收藏集](../offer-library/creating-collections.md)。
 
-* **[!UICONTROL Decisions]**：创建和管理决策以发送优惠。请参阅[创建决策](../offer-activities/create-offer-activities.md)。
+* **[!UICONTROL 决策]**:创建和管理决策以提供选件。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
 ![](../assets/offers_menu.png)
 
-使用 **[!UICONTROL Components]** 菜单管理创建优惠所需的组件：
+使用  **[!UICONTROL 组件]** 用于管理创建选件所需组件的菜单：
 
-* **[!UICONTROL Placements]**：创建和管理优惠将显示的投放位置。请参阅[创建投放位置](../offer-library/creating-placements.md)。
+* **[!UICONTROL 版面]**:创建和管理将显示选件的版面。 请参阅[创建投放位置](../offer-library/creating-placements.md)。
 
-* **[!UICONTROL Tags]**：创建和管理标记以组织和筛选优惠。请参阅[创建标记](../offer-library/creating-tags.md)。
+* **[!UICONTROL 标记]**:创建和管理标记以组织和筛选选件。 请参阅[创建标记](../offer-library/creating-tags.md)。
 
-* **[!UICONTROL Rules]**：管理您的优惠的展示条件。请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
+* **[!UICONTROL 规则]**:管理提供选件的条件。 请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
 
-* **[!UICONTROL Rankings]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪些优惠。请参阅[创建排名公式](../ranking/create-ranking-formulas.md)。
+* **[!UICONTROL 排名]**:创建并管理排名公式，以确定应首先为给定版面显示哪个选件。 请参阅[创建排名公式](../ranking/create-ranking-formulas.md)。
 
 ![](../assets/offer_activities.png)
 
 ## 概述 {#overview}
 
-当您是 [!DNL decision management], **[!UICONTROL Overview]** 选项卡可引导您完成开始构建首个选件决策所需的主要步骤。
+当您是 [!DNL decision management], **[!UICONTROL 概述]** 选项卡可引导您完成开始构建首个选件决策所需的主要步骤。
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,11 +61,11 @@ ht-degree: 63%
 >
 >创建选件并在决策中使用这些选件的主要步骤，请参见 [此部分](../offer-library/key-steps.md).
 
-当您更熟悉 [!DNL decision management] 并且您已经创建了至少一个选件决策， **[!UICONTROL Overview]** 选项卡会显示您最近的选件、收藏集和决策。
+当您更熟悉 [!DNL decision management] 并且您已经创建了至少一个选件决策， **[!UICONTROL 概述]** 选项卡会显示您最近的选件、收藏集和决策。
 
 单击选件或决定直接访问选定项目的详细信息。
 
-单击 **[!UICONTROL View all]** 按钮以访问选件、收藏集或决策列表。
+单击 **[!UICONTROL 查看全部]** 按钮以访问选件、收藏集或决策列表。
 
 ![](../assets/overview_view-all.png)
 
@@ -97,13 +97,13 @@ ht-degree: 63%
 
 ![](../assets/bulk-actions.png)
 
-请注意，您还可以重复现有优惠或决策，以便创建具有 **[!UICONTROL Draft]** 状态的副本。 可以在信息窗格或在优惠或决策的详细视图中执行此操作。
+请注意，您还可以复制现有选件或决策，以便使用 **[!UICONTROL 草稿]** 状态。 可以在信息窗格或在优惠或决策的详细视图中执行此操作。
 
 ![](../assets/duplicate-offer.png)
 
 ## 优惠和决策更改日志 {#changes-logs}
 
-选件库允许您可视化对选件或决策所做的所有更改。 为此，请在列表中单击优惠名称或决策名称来打开优惠或决策，然后选择 **[!UICONTROL Change log]** 选项卡。
+选件库允许您可视化对选件或决策所做的所有更改。 为此，请在列表中单击选件或决策的名称，然后选择 **[!UICONTROL 更改日志]** 选项卡。
 
 此屏幕中显示所有已完成的更改，还显示执行更改的用户姓名。
 

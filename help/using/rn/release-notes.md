@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建动态内容，以根据条件规则调整消息的内容。</p> 
-<p>条件规则是使用表达式编辑器中的可视化规则生成器创建的，您可以在其中存储这些规则以供在历程和营销活动中进一步重复使用。</p>
+<p>你现在可以创建动态内容，以根据条件规则调整消息的内容。</p> 
+<p>条件规则是使用表达式编辑器中的可视化规则生成器创建的，你可以在其中存储这些规则以供在历程和营销活动中进一步重复使用。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>有关更多信息，请参阅<a href="../personalization/get-started-dynamic-content.md">详细文档</a>。
 </td>

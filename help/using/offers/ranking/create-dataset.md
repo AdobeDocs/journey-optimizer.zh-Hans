@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 12%
+source-wordcount: '273'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 在创建AI模型之前，您需要创建一个数据集，以收集转化事件。 首先，创建将在数据集中使用的架构：
 
-1. 从 **[!UICONTROL Data Management]** 菜单，选择 **[!UICONTROL Schema]**，转到 **[!UICONTROL Browse]** 选项卡，单击 **[!UICONTROL Create schema]**.
+1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]**，转到 **[!UICONTROL 浏览]** 选项卡，单击 **[!UICONTROL 创建架构]**.
 
    ![](../assets/ai-ranking-create-schema.png)
 
@@ -28,21 +28,21 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >在 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+   >在 [XDM 系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh_Hans){target=&quot;_blank&quot;}中了解关于 XDM 架构和字段组的更多信息。
 
-1. 从 **[!UICONTROL Field groups]** 部分，选择 **[!UICONTROL Add]**.
+1. 从 **[!UICONTROL 字段组]** 部分，选择 **[!UICONTROL 添加]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 在 **[!UICONTROL Search]** 字段中，键入“建议交互”并选择 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组。
+1. 在 **[!UICONTROL 搜索]** 字段中，键入“建议交互”并选择 **[!UICONTROL 体验事件 — 建议交互]** 字段组。
 
    ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >将在数据集中使用的架构必须具有 **[!UICONTROL Experience Event - Proposition Interactions]** 与其关联的字段组。 否则，您将无法在排名策略中使用它。
+   >将在数据集中使用的架构必须具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 否则，您将无法在排名策略中使用它。
 
-1. 单击 **[!UICONTROL Add field groups]**。
+1. 单击 **[!UICONTROL 添加字段组]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -57,11 +57,11 @@ ht-degree: 12%
 
 现在，您可以使用此架构创建数据集。 为此，请执行以下步骤：
 
-1. 从 **[!UICONTROL Data Management]** 菜单，选择 **[!UICONTROL Datasets]**，转到 **[!UICONTROL Browse]** 选项卡，单击 **[!UICONTROL Create dataset]**.
+1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 数据集]**，转到 **[!UICONTROL 浏览]** 选项卡，单击 **[!UICONTROL 创建数据集]**.
 
    ![](../assets/ai-ranking-create-dataset.png)
 
-1. 选择 **[!UICONTROL Create dataset from schema]**。
+1. 选择 **[!UICONTROL 从架构创建数据集]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
@@ -69,9 +69,9 @@ ht-degree: 12%
 
    ![](../assets/ai-ranking-dataset-select-schema.png)
 
-1. 单击 **[!UICONTROL Next]**。
+1. 单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 为 **[!UICONTROL Name]** 字段，单击 **[!UICONTROL Finish]**.
+1. 为 **[!UICONTROL 名称]** 字段，单击 **[!UICONTROL 完成]**.
 
    ![](../assets/ai-ranking-dataset-name.png)
 

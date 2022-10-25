@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -26,37 +26,37 @@ ht-degree: 1%
 
 要向选件添加一个或多个表示形式并对其进行配置，请执行以下步骤。
 
-1. 对于第一个表示，首先选择 **[!UICONTROL Channel]** 将使用的URL。
+1. 对于第一个表示，首先选择 **[!UICONTROL 渠道]** 将使用的URL。
 
    ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >只有所选渠道的可用版面会显示在 **[!UICONTROL Placement]** 下拉列表。
+   >只有所选渠道的可用版面会显示在 **[!UICONTROL 版面]** 下拉列表。
 
 1. 从列表中选择版面。
 
-   您还可以使用 **[!UICONTROL Placement]** 下拉列表以浏览所有版面。
+   您还可以使用 **[!UICONTROL 版面]** 下拉列表以浏览所有版面。
 
    ![](../assets/browse-button-placements.png)
 
-   您仍然可以根据其渠道和/或内容类型筛选版面。 选择版面并单击 **[!UICONTROL Select]**.
+   您仍然可以根据其渠道和/或内容类型筛选版面。 选择版面并单击 **[!UICONTROL 选择]**.
 
    ![](../assets/browse-placements.png)
 
 1. 向您的演示文稿中添加内容。 了解 [此部分](#content).
 
-1. 添加图像或URL等内容时，您可以指定 **[!UICONTROL Destination link]**:单击选件的用户将被定向到相应的页面。
+1. 添加图像或URL等内容时，您可以指定 **[!UICONTROL 目标链接]**:单击选件的用户将被定向到相应的页面。
 
    ![](../assets/offer-destination-link.png)
 
 1. 最后，选择您选择的语言，以帮助识别和管理要向用户显示的内容。
 
-1. 要添加其他表示形式，请使用 **[!UICONTROL Add representation]** 按钮，并根据需要添加任意数量的表示形式。
+1. 要添加其他表示形式，请使用 **[!UICONTROL 添加表示法]** 按钮，并根据需要添加任意数量的表示形式。
 
    ![](../assets/offer-add-representation.png)
 
-1. 添加所有表示形式后，选择 **[!UICONTROL Next]**.
+1. 添加所有表示形式后，选择 **[!UICONTROL 下一个]**.
 
 ## 定义表示的内容 {#content}
 
@@ -74,15 +74,15 @@ ht-degree: 1%
 >
 > 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}，您需要部署 [!DNL Assets Essentials] ，并确保用户是 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 了解详情 [本页](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}。
 
-1. 选择 **[!UICONTROL Asset library]** 选项。
+1. 选择 **[!UICONTROL 资产库]** 选项。
 
-1. 选择 **[!UICONTROL Browse]**。
+1. 选择 **[!UICONTROL 浏览]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
 1. 浏览资产以选择您选择的图像
 
-1. 单击 **[!UICONTROL Select]**。
+1. 单击&#x200B;**[!UICONTROL 选择]**。
 
    ![](../assets/offer-select-asset.png)
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 您还可以在选择兼容的版面时插入文本类型内容。
 
-1. 选择 **[!UICONTROL Custom]** 选项并单击 **[!UICONTROL Add content]**.
+1. 选择 **[!UICONTROL 自定义]** 选项并单击 **[!UICONTROL 添加内容]**.
 
    ![](../assets/offer-add-content.png)
 
@@ -124,5 +124,5 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >仅 **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** 和 **[!UICONTROL Helper functions]** 源可用于决策管理。
+   >仅 **[!UICONTROL 配置文件属性]**, **[!UICONTROL 区段成员资格]** 和 **[!UICONTROL 帮助程序函数]** 源可用于决策管理。
 

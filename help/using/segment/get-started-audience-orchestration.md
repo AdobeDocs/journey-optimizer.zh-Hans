@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 受众构成入门
+title: 受众组合入门
 description: 进一步了解受众构成
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# 受众构成入门 {#get-start-audience-composition}
+# 受众组合入门 {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 了解更多:
 
-* [创建合成工作流](create-compositions.md)
-* [使用合成画布](composition-canvas.md)
+* [创建组合工作流](create-compositions.md)
+* [使用组合画布](composition-canvas.md)
 * [访问和管理受众](access-audiences.md)

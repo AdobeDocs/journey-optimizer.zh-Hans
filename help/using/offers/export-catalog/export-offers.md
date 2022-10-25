@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2008'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >了解如何在 [此部分](../export-catalog/access-dataset.md).
 
-以下是可在 **[!UICONTROL Decision Object Repository - Personalized Offers]** 数据集。
+以下是可在 **[!UICONTROL 决策对象存储库 — 个性化选件]** 数据集。
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 

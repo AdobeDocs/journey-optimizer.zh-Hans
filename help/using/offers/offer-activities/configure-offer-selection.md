@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '451'
 ht-degree: 6%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 6%
 
 1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
-1. 选择 **[!UICONTROL Ranking formula]** 作为排名方法，然后单击 **[!UICONTROL Add ranking]**.
+1. 选择 **[!UICONTROL 排名公式]** 作为排名方法，然后单击 **[!UICONTROL 添加排名]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 选择所需的排名公式，然后单击 **[!UICONTROL Select]**.
+1. 选择所需的排名公式，然后单击 **[!UICONTROL 选择]**.
 
    ![](../assets/ranking-selection.png)
 
@@ -72,7 +72,7 @@ ht-degree: 6%
 
 1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
-1. 选择对选件进行排名 **[!UICONTROL AI ranking]** 从下拉列表中，单击 **[!UICONTROL Add ranking]**.
+1. 选择对选件进行排名 **[!UICONTROL 人工智能排名]** 从下拉列表中，单击 **[!UICONTROL 添加排名]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ ht-degree: 6%
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 单击 **[!UICONTROL Select]**。排名策略现在与版面相关联。
+1. 单击&#x200B;**[!UICONTROL 选择]**。排名策略现在与版面相关联。
 
 如果多个选件符合条件，则经过培训的模型系统将确定应首先为给定版面显示哪个选件。
 

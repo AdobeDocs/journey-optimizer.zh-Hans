@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->根据行业标准和法规，所有短信营销消息都必须包含一种方式，以便收件人轻松取消订阅。 为此，短信收件人可以使用选择加入和选择退出关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。为此，短信收件人可以使用选择加入和选择退出关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 可以创建短信投放：
 

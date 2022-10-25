@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1085'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 在开始创建选件之前，您必须定义要在选件中使用的多个组件。
 
-你会在 **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+你会在 **[!UICONTROL 决策管理]** > **[!UICONTROL “组件”菜单]**.
 
 1. 首先创建 **投放** 的URL。
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    决策规则将为Adobe Experience Platform中的用户档案提供最佳选件。
 
-   使用 **[!UICONTROL XDM Individual Profile > Person > Gender]** 属性：
+   使用 **[!UICONTROL XDM个人资料>人员>性别]** 属性：
 
    * *女性客户*
    * *男性客户*
@@ -132,13 +132,13 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL Offer eligibility]** 选择 **[!UICONTROL By defined decision rule]** 并拖放您选择的规则。
+1. 在 **[!UICONTROL 选件资格]** 选择 **[!UICONTROL 按定义的决策规则]** 并拖放您选择的规则。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填写 **[!UICONTROL Priority]**. 在本例中，添加 *25*.
+1. 填写 **[!UICONTROL 优先级]**. 在本例中，添加 *25*.
 
-1. 查看选件，然后单击 **[!UICONTROL Save and approve]**.
+1. 查看选件，然后单击 **[!UICONTROL 保存和批准]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -167,7 +167,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 查看备用选件，然后单击 **[!UICONTROL Save and approve]**.
+1. 查看备用选件，然后单击 **[!UICONTROL 保存和批准]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 查看您的决策，然后单击 **[!UICONTROL Save and approve]**.
+1. 查看您的决策，然后单击 **[!UICONTROL 保存和批准]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

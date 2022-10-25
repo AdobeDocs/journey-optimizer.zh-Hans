@@ -11,7 +11,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 
 ## 架构 {#architecture}
 
-了解的基本架构 [!DNL Adobe Journey Optimizer]、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform]，位于下图中。
+在下图中，了解 [!DNL Adobe Journey Optimizer] 的基本架构、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之间的关系。
 
 ![](assets/ajo-architecture.png)
 
