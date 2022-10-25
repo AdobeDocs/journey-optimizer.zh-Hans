@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 95%
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -53,6 +53,12 @@ ht-degree: 95%
    + [创建直邮](using/messages/create-direct-mail.md)
    + [检查警报](using/messages/alerts.md)
    + [发送时间优化](using/messages/send-time-optimization.md)
++ Web渠道{#web}
+   + [Web渠道快速入门](using/web/get-started-web.md)
+   + [创建Web体验](using/web/create-web.md)
+   + [创作网页](using/web/author-web.md)
+   + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
+   + [Web报告](using/web/web-report.md)
 + 设计内容 {#design}
    + [电子邮件设计入门](using/design/design-emails.md)
    + [从零开始 ](using/design/create-email-content.md)
