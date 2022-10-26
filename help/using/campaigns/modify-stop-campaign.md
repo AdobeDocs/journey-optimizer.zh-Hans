@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
-# 管理实时营销活动 {#modify-stop-campaign}
+# 管理活动 {#modify-stop-campaign}
 
 激活营销活动后，您可以随时修改或停止该营销活动。 这些操作仅适用于定期执行的营销活动。
 
-此外，您还可以复制实时营销活动（执行一次或定期执行）以创建新营销活动。
+此外，您还可以复制实时营销活动（执行一次或定期执行）以创建新营销活动，并存档已完成或已停止的营销活动。
 
 ## 修改定期营销活动 {#modify}
 
@@ -58,3 +58,13 @@ ht-degree: 3%
 您可以复制实时营销活动以创建新营销活动。 要执行此操作，请打开营销活动，然后单击 **[!UICONTROL 复制]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## 存档营销活动 {#archive}
+
+随着时间的推移，营销活动列表会不断增长，最终会使浏览已完成和已停止的营销活动变得更加困难。
+
+为防止出现这种情况，您可以存档不再需要的已完成和已停止的营销活动。 要执行此操作，请单击椭圆按钮，然后选择 **[!UICONTROL 存档]**.
+
+![](assets/create-campaign-archive.png)
+
+然后，可以使用列表中的专用过滤器来检索已存档的营销活动。 [了解如何访问营销活动](get-started-with-campaigns.md#access)

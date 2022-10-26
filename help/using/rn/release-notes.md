@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 95%
 **历程**
 
 * 的 **重复时强制重入** 选项已添加到定期读取区段计划参数中。 利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。 停用选项后，用户档案必须先完成历程，然后才能再次进入另一个实例。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**营销活动**
+
+* 您现在可以存档已完成和已停止的营销活动。 [了解详情](../campaigns/modify-stop-campaign.md#archive)
 
 ## 2022 年 9 月版{#sept-2022-release}
 

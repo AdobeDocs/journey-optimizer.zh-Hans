@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置的设置"
->abstract="您需要定义将导出和上传文件的位置，以供直邮提供商使用。"
+>abstract="创建直邮时，将生成包含所有必需用户档案信息的文件。 需要将此文件导出并上传到服务器，以便您的直邮提供商可以访问并使用该文件传送直邮。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="定义文件路由配置的设置"
->abstract="创建直邮时，将生成包含所有必需用户档案信息的文件。 需要将此文件导出并上传到服务器，以便您的直邮提供商可以访问并使用该文件传送直邮。"
+>abstract="您需要定义将导出和上传文件的位置，以供直邮提供商使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="为文件路由选择服务器类型"
->abstract="选择要用于上传和存储直邮文件的服务器。"
+>abstract="选择要用于上传和存储直邮文件的服务器。 目前仅支持Amazon S3和SFTP。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="选择AWS地区"
->abstract="选择要用于上传和存储直邮文件的服务器。 目前仅支持Amazon S3和SFTP。"
+>abstract="选择要导出和上传直邮文件的地理区域。 为了获得最佳使用效果，建议选择最接近托管云基础架构的区域。"
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 1. 设置配置的名称。
 
-1. 选择配置 **[!UICONTROL 类型]**，即要用于上传和存储直邮文件的服务器。<!--why is it Type and not Server or Server type? asked to PM-->
+1. 选择配置 **[!UICONTROL 服务器类型]**，即要用于上传和存储直邮文件的服务器。
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ ht-degree: 3%
 
    创建直邮时，将生成包含所有必需用户档案信息的文件。 需要将此文件导出并上传到服务器，以便您的直邮提供商可以访问并使用该文件传送直邮。
 
-1. 填写特定于所选配置类型的详细信息和凭据，如服务器地址、访问密钥等。 <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. 填写特定于所选配置类型的详细信息和凭据，如服务器地址、访问密钥等。
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
->abstract="直邮界面包含与包含直邮用户档案数据的文件格式相关的设置。 您可以（定义排序配置）、删除重复行、将记录拆分为多个文件并选择文件路由配置。"
+>abstract="直邮界面包含与包含直邮用户档案数据的文件格式相关的设置。 您还必须通过选择文件路由配置来定义将导出文件的位置。"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="定义排序顺序"
->abstract="如果选择此选项，则按配置文件ID（升序或降序）进行排序。 如果取消选择该消息，则在历程或营销策划中创建直邮时定义的排序配置。"
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ ht-degree: 3%
    >
    >您可以设置介于1到200,000条记录之间的任意数字，这意味着每个文件必须至少包含1行且不超过200,000行。
 
-1. 最后，选择 [文件路由配置](#file-routing-configuration) 在您创建的其中。 这可定义导出和上传文件的位置，以供直邮提供商使用。
+1. 最后，选择 **[!UICONTROL 文件路由配置]** 在您创建的其中。 这可定义导出和上传文件的位置，以供直邮提供商使用。
 
    >[!CAUTION]
    >
