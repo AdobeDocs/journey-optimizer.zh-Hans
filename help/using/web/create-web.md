@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,9 @@ ht-degree: 6%
 
 要正确交付Web体验，必须定义以下设置：
 
-* 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}，请确保在 **[!UICONTROL Adobe Experience Platform]** 你们都有 **[!UICONTROL 边缘分割]** 和 **[!UICONTROL Adobe Journey Optimizer]** 选项。 这可确保Journey Optimizer集客事件由Adobe Experience Platform Edge正确处理。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}，请确保在 **[!UICONTROL Adobe Experience Platform]** 你们都有 **[!UICONTROL 边缘分割]** 和 **[!UICONTROL Adobe Journey Optimizer]** 选项。
+
+   这可确保Journey Optimizer集客事件由Adobe Experience Platform Edge正确处理。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -50,13 +52,15 @@ ht-degree: 6%
 
 * 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}，请确保您有一个与 **[!UICONTROL 边缘活动合并策略]** 选项。 为此，请在 **[!UICONTROL 客户]** > **[!UICONTROL 用户档案]** > **[!UICONTROL 合并策略]** Experience Platform菜单。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
 
+   此合并策略由 [!DNL Journey Optimizer] 入站渠道，以在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
+
    ![](assets/web-aep-merge-policy.png)
 
 ## 创建Web营销活动 {#create-web-campaign}
 
 要开始通过营销活动构建Web体验，请执行以下步骤。
 
-1. 创建营销活动. [了解详情](../campaigns/create-campaign.md)
+1. 创建活动. [了解详情](../campaigns/create-campaign.md)
 
 1. 选择 **[!UICONTROL Web]** 操作。
 
