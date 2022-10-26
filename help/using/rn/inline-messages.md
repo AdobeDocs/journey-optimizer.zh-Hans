@@ -2,7 +2,7 @@
 title: 迁移到历程内联创作
 description: 了解如何迁移消息
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 3%

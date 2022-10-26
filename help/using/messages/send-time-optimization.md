@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
 
 ---
 
-## 发送时间优化{#send-time-optimization}
+# 发送时间优化{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
@@ -41,7 +41,7 @@ Adobe Journey Optimizer的“发送时间优化”功能由Adobe的AI服务提�
 >
 >此功能与拆分模式不兼容。
 
-### 激活发送时间优化{#activate-send-time-optimization}
+## 激活发送时间优化{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

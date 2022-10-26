@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 8%
@@ -30,6 +30,7 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >在发送直邮之前，请确保已配置：
+>
 >* A [文件路由配置](../configuration/direct-mail-configuration.md#file-routing-configuration) 指定应将提取文件上传和存储到的服务器，
 >* A [直邮报文表](../configuration/direct-mail-configuration.md#direct-mail-surface) 将引用文件路由配置。
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: 使用 API 触发营销活动
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%
@@ -76,6 +76,7 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 >[!IMPORTANT]
 >
 >的 `context.system` 语法仅限于Adobe内部用法，不应用于传递上下文属性。
+
 请注意，目前没有上下文属性可用于左边栏菜单。 必须在个性化表达式中直接键入属性，且不会执行任何检查 [!DNL Journey Optimizer].
 
 ## 执行营销活动 {#execute}

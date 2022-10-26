@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 3%
@@ -78,7 +78,7 @@ ht-degree: 3%
 
    ![](assets/role_9.png)
 
-1. 选择 **[!UICONTROL 标签]** 要添加到您的角色并单击 **[!UICONTROL 保存]**. 在本例中，我们将为用户授予标签C2，以便其有权访问以前受限架构的字段。
+1. 选择 **[!UICONTROL 标签]** 要添加到您的角色并单击 **[!UICONTROL 保存]**. 在本例中，我们为用户授予标签C2，以便有权访问以前受限架构的字段。
 
    ![](assets/role_4.png)
 
@@ -127,7 +127,7 @@ ht-degree: 3%
 
    ![](assets/journey_1.png)
 
-1. 添加新 **[!UICONTROL 字段组]** 新建 **[!UICONTROL 架构]** 内置 **[!UICONTROL 数据源]**. 您还可以创建新的外部 **[!UICONTROLD数据源]** 关联 **[!UICONTROL 字段组]**.
+1. 添加新 **[!UICONTROL 字段组]** 新建 **[!UICONTROL 架构]** 内置 **[!UICONTROL 数据源]**. 您还可以创建新的外部 **[!UICONTROL 数据源]** 关联 **[!UICONTROL 字段组]**.
 
    ![](assets/journey_2.png)
 

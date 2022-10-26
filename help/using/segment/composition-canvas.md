@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 2%
 
 1. 选择要查找的属性并指定排名顺序（升序或降序）。
 
-   >[注意]
+   >[!NOTE]
    >
    >您可以选择具有以下数据类型的属性：整数，数字，短 <!--(other?)-->
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -32,6 +32,7 @@ ht-degree: 6%
 ```sql
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
+
 返回3。
 
 ## Null计数 {#count-with-null}
@@ -69,6 +70,7 @@ ht-degree: 6%
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+
 ## Null的非重复计数 {#distinct-count-with-null}
 
 的 `distinctCountWithNull` 函数用于计算列表中不同值的数量，包括null值。

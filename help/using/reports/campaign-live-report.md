@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 3%
@@ -44,6 +44,7 @@ ht-degree: 3%
 
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
+
 ## “电子邮件”选项卡 {#email-live}
 
 从营销策划 **[!UICONTROL 实时报表]**, **[!UICONTROL 电子邮件]** 选项卡详细列出了与营销活动中发送的电子邮件投放相关的主要信息。

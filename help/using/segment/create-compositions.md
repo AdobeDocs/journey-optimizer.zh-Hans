@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 6%
 
    ![](assets/audiences-publish.png)
 
-1. 准备好构图后，单击 [**!UICONTROL发布]**按钮以发布合成并将生成的受众保存到Adobe Experience Platform。
+1. 准备好构图后，单击 **[!UICONTROL 发布]** 按钮以发布合成并将生成的受众保存到Adobe Experience Platform。
 
    如果在发布过程中发生任何错误，则会显示警报，其中包含有关如何解决此问题的信息。
 
