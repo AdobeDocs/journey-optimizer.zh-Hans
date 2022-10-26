@@ -7,9 +7,9 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通�
 
 ![](assets/alerts1.png)
 
-如果发生此类意外行为，则会通过界面右上角的电子邮件和应用程序内通知向警报的订阅者发送警报通知。
+如果发生此类意外行为，则会通过界面右上角的电子邮件向警报的订阅者发送警报通知。
 
 ![](assets/alerts2.png)
 

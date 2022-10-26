@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1441'
 ht-degree: 4%
 
 ---
@@ -433,3 +433,105 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+### 推送通知量度 {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 量度<br/> </th> 
+   <th> 定义<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>操作<br/> </td> 
+   <td> 已送达推送通知的操作总数，例如按钮单击或解除。<br/> </td> 
+</tr>
+  <tr> 
+   <td>退信数<br/> </td> 
+   <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 跳出率<br/> </td> 
+   <td> 与发送的推送通知相比，已退回的推送通知的百分比。<br/> </td>
+</tr>
+  <tr> 
+   <td> 已送达<br/> </td> 
+   <td> 已成功发送的消息数，与已发送消息的总数有关。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 投放率<br/> </td> 
+   <td> 成功发送推送通知的百分比。<br/> </td> 
+</tr>
+  <tr> 
+   <td>参与<br/> </td> 
+   <td> 此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 参与率<br/> </td> 
+   <td> 此推送通知的打开次数和操作的百分比，例如用户档案打开了推送或单击了按钮。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 错误<br/> </td> 
+   <td> 投放期间发生的阻止将其发送到用户档案的错误总数。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 错误率<br/> </td> 
+   <td> 与发送的推送通知相比，在阻止发送投放的投放期间发生的错误百分比。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 排除<br/> </td> 
+   <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 打开次数<br/> </td> 
+   <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 打开率<br/> </td> 
+   <td> 打开的推送通知的百分比。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 已发送<br/> </td> 
+   <td> 投放的发送总数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 目标<br/> </td> 
+   <td> 在投放分析期间处理的推送消息总数。<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

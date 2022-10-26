@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -228,25 +228,13 @@ ht-degree: 4%
   <td>退信数<br/> </td> 
    <td>未与登陆页面进行交互且未完成订阅操作的人员数。<br/> </td> 
 </tr>
- <tr> 
-   <td>跳出率<br/> </td> 
-   <td>未与登陆页面进行交互且未完成订阅操作的人员数。<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>单击次数<br/> </td> 
    <td>内容在登陆页面中的点击次数。<br/> </td> 
 </tr>
- <tr> 
-   <td>点击率<br/> </td> 
-   <td>登陆页面中的点击次数百分比。<br/> </td>
-</tr>
 <tr>
 <td>转化<br/> </td> 
-   <td>与登陆页面进行交互（例如订阅了表单）的人数。<br/> </td> 
-</tr>
-<tr>
-   <td>转化率<br/> </td> 
    <td>与登陆页面进行交互（例如订阅了表单）的人数。<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+### 推送通知量度 {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 量度<br/> </th> 
+   <th> 定义<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>操作<br/> </td> 
+   <td> 已送达推送通知的操作总数，例如按钮单击或解除。<br/> </td> 
+</tr>
+  <tr> 
+   <td>退信数<br/> </td> 
+   <td> 在投放和自动回访处理过程中累积的错误总数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 已送达<br/> </td> 
+   <td> 成功发送的消息数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td>参与<br/> </td> 
+   <td> 此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 错误<br/> </td> 
+   <td> 投放期间发生的阻止将其发送到用户档案的错误总数。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 排除<br/> </td> 
+   <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
+</tr>
+  <tr> 
+   <td> 打开次数<br/> </td> 
+   <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 已发送<br/> </td> 
+   <td> 投放的发送总数。<br/> </td> 
+</tr> 
+  <tr> 
+   <td> 目标<br/> </td> 
+   <td> 在投放分析期间处理的推送消息总数。<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
