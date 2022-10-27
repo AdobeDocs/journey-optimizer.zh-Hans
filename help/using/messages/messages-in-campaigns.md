@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 在营销活动中添加消息{#messages-in-campaigns}
+# 在营销活动中添加消息
 
 在您的营销活动中，选择渠道以设计要发送给受众的消息并对消息进行个性化设置。在向营销活动添加电子邮件、短信或推送内容时，您可以立即发送或设置消息发送计划。
 
