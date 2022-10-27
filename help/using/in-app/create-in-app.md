@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 3%
    1. 从左下拉菜单中，选择触发消息所需的事件。
    1. 从右下拉菜单中，选择选定事件所需的验证。
    1. 单击 **[!UICONTROL 添加]** 按钮。 然后，重复上述步骤。
-   1. 选择事件的链接方式，例如 **[!UICONTROL 和]** 如果您愿意 **both** 将触发为true，以便显示消息并 **[!UICONTROL 或]** 如果您希望在 **e** 触发器是真的。
+   1. 选择事件的链接方式，例如选择 **[!UICONTROL 和]** 如果您愿意 **both** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望在 **e** 触发器是真的。
 
    ![](assets/in_app_create_3.png)
 
