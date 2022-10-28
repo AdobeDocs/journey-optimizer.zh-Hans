@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 3%
+source-wordcount: '946'
+ht-degree: 0%
 
 ---
 
@@ -18,36 +18,51 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] 允许您个性化并生成直邮提供商向客户发送邮件所需的文件。
 
-准备直邮投放时， [!DNL Journey Optimizer] 会生成一个文件，其中包含所有定向的用户档案和所选的联系信息（例如邮政地址）。 然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。
+When [创建直邮](../messages/create-direct-mail.md)，则可定义目标受众数据，包括所选的联系信息（例如邮政地址）。 然后，将自动生成包含此数据的文件并将其导出到服务器，您的直邮提供商将能够在其中检索该文件并处理实际发送。
 
-要发送直邮，您需要创建文件并将其上传到服务器。 要执行此操作，您需要先创建 [文件路由配置](#file-routing-configuration) 和 [直邮表面](#direct-mail-surface) 将引用文件路由配置。
+在能够生成此文件之前，您需要创建：
+
+1. A [文件路由配置](#file-routing-configuration) 指定将导出文件的服务器。
+
+1. A [直邮表面](#direct-mail-surface) 将引用文件路由配置。
+
+>[!CAUTION]
+>
+>如果未配置任何文件路由选项，则将无法创建直邮界面。
 
 ## 配置文件路由 {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="定义文件路由配置的设置"
->abstract="创建直邮时，将生成包含所有必需用户档案信息的文件。 需要将此文件导出并上传到服务器，以便您的直邮提供商可以访问并使用该文件传送直邮。"
+>title="定义文件路由配置"
+>abstract="创建直邮后，将生成包含目标受众数据的文件并将其导出到服务器。 您需要指定服务器详细信息，以便您的直邮提供商可以访问并使用该文件来传送直邮。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-direct-mail.html" text="创建直邮"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="定义文件路由配置的设置"
->abstract="您需要定义将导出和上传文件的位置，以供直邮提供商使用。"
+>title="定义文件路由配置"
+>abstract="您需要定义将文件导出到何处，以供直邮提供商使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="文件路由配置"
->abstract="选择选择的文件路由配置，该配置定义将导出和上传文件的位置，以供直邮提供商使用。"
+>abstract="选择选择的文件路由配置，该配置定义将导出文件以供直邮提供商使用的位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
->title="为文件路由选择服务器类型"
->abstract="选择要用于上传和存储直邮文件的服务器。 目前仅支持Amazon S3和SFTP。"
+>title="为文件选择服务器类型"
+>abstract="选择要用于导出直邮文件的服务器类型。 目前，Journey Optimizer仅支持Amazon S3和SFTP。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="选择AWS地区"
->abstract="选择要导出和上传直邮文件的地理区域。 为了获得最佳使用效果，建议选择最接近托管云基础架构的区域。"
+>abstract="选择要导出直邮文件的AWS服务器的地理区域。 通常情况下，最好选择与直邮提供商所在位置最接近的区域。"
+
+要发送直邮， [!DNL Journey Optimizer] 生成包含目标受众数据的文件并将其导出到服务器。
+
+您需要指定服务器详细信息，以便您的直邮提供商可以访问并使用该文件来传送邮件。
+
+要配置文件路由，请执行以下步骤。
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
 
@@ -55,29 +70,27 @@ ht-degree: 3%
 
 1. 设置配置的名称。
 
-1. 选择配置 **[!UICONTROL 服务器类型]**，即要用于上传和存储直邮文件的服务器。
+1. 选择 **[!UICONTROL 服务器类型]** 用于导出直邮文件的URL。
 
    ![](assets/file-routing-config-type.png)
 
    >[!NOTE]
    >
-   >目前，只有Amazon S3和SFTP可用。
+   >目前，仅Amazon S3和SFTP在 [!DNL Journey Optimizer].
 
-   创建直邮时，将生成包含所有必需用户档案信息的文件。 需要将此文件导出并上传到服务器，以便您的直邮提供商可以访问并使用该文件传送直邮。
-
-1. 填写特定于所选配置类型的详细信息和凭据，如服务器地址、访问密钥等。
+1. 填写服务器的详细信息和凭据，如服务器地址、访问密钥等。
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 如果已选择 **[!UICONTROL Amazon S3]**，选择要导出和上传直邮文件的AWS区域。
+1. 如果已选择 **[!UICONTROL Amazon S3]**，选择 **[!UICONTROL AWS地区]** 服务器基础架构的位置。
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >AWS地区是分布在世界各地的不同地理区域，AWS用这些区域来存放其基础设施。 为了获得最佳使用效果，建议选择最接近托管云基础架构的区域。
+   >AWS地区是AWS用来托管其云基础架构的地理区域。 通常情况下，最好选择与直邮提供商位置最接近的区域。
 
-1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 现在，它可以用在直邮界面中，以便从 [!DNL Journey Optimizer].
+1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 现在，它已准备好用于 [直邮表面](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -88,7 +101,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
->abstract="直邮界面包含与包含直邮用户档案数据的文件格式相关的设置。 您还必须通过选择文件路由配置来定义将导出文件的位置。"
+>abstract="直邮界面包含文件格式设置，其中包含目标受众数据，将由邮件提供商使用。 您还必须通过选择文件路由配置来定义将导出文件的位置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -99,9 +113,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="定义文件拆分阈值"
->abstract="必须为包含用户档案数据的每个文件设置最大记录数。 达到指定的阈值后，将为其余记录创建另一个文件。"
+>abstract="您必须为包含受众数据的每个文件设置最大记录数。 您可以选择介于1到200,000条记录之间的任意数字。 达到指定的阈值后，将为其余记录创建另一个文件。"
 
-配置文件路由后，您需要创建一个渠道表面，以便能够从 [!DNL Journey Optimizer]. 在每个曲面中，需要选择文件路由配置。
+能够通过 [!DNL Journey Optimizer]，则需要创建渠道表面以定义将由邮件提供商使用的文件格式的设置。
+
+直邮界面还必须包括文件路由配置，该配置定义了将导出直邮文件的服务器。
 
 1. 创建通道曲面。 [了解详情](channel-surfaces.md)
 
@@ -127,10 +143,14 @@ ht-degree: 3%
    >
    >您可以设置介于1到200,000条记录之间的任意数字，这意味着每个文件必须至少包含1行且不超过200,000行。
 
-1. 最后，选择 **[!UICONTROL 文件路由配置]** 在您创建的其中。 这可定义导出和上传文件的位置，以供直邮提供商使用。
+1. 最后，选择 **[!UICONTROL 文件路由配置]** 在您创建的其中。 这定义了将文件导出到何处以供直邮提供商使用。
 
    >[!CAUTION]
    >
    >如果未配置任何文件路由选项，则将无法创建直邮界面。 [了解详情](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
+
+1. 提交直邮表面。
+
+您现在可以 [创建直邮](../messages/create-direct-mail.md) 在营销策划中。 营销活动启动后，包含目标受众数据的文件将自动导出到您定义的服务器。 然后，直邮提供商将能够检索该文件并继续直邮投放。

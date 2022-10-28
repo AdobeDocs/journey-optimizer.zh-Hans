@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 直邮是一种离线渠道，允许您个性化并生成直邮提供商发送邮件至客户所需的提取文件。
 
-创建直邮时，Journey Optimizer会生成一个文件，其中包含所有定向的用户档案和所选数据（邮政地址、用户档案属性等）。 然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。
+创建直邮时，Journey Optimizer会生成一个文件，其中包含所有定向的用户档案和所选数据（邮政地址、用户档案属性等）。 然后，您的直邮提供商将能够检索该文件，并处理实际发送。
 
 只能在计划促销活动的上下文中创建直邮消息。 无法在API触发的营销活动或历程中使用它们。
 
@@ -31,15 +31,15 @@ ht-degree: 8%
 >
 >在发送直邮之前，请确保已配置：
 >
->* A [文件路由配置](../configuration/direct-mail-configuration.md#file-routing-configuration) 指定应将提取文件上传和存储到的服务器，
->* A [直邮报文表](../configuration/direct-mail-configuration.md#direct-mail-surface) 将引用文件路由配置。
+>1. A [文件路由配置](../configuration/direct-mail-configuration.md#file-routing-configuration) 指定应将提取文件上传和存储到的服务器，
+>1. A [直邮报文表](../configuration/direct-mail-configuration.md#direct-mail-surface) 将引用文件路由配置。
 
 
 ## 创建直邮 {#create}
 
 创建和发送直邮的步骤如下：
 
-1. 创建新的计划营销活动，选择 **[!UICONTROL 直邮]** 作为您的操作，并选择要使用的消息表面。
+1. 创建新的计划营销活动，选择 **[!UICONTROL 直邮]** 作为操作，并选择要使用的渠道曲面。 [了解如何创建直邮界面](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +75,4 @@ ht-degree: 8%
 
 1. 定义直邮内容后，完成营销活动的配置。
 
-   当营销活动开始时，将自动生成提取文件并将其上传到 [文件路由配置](../configuration/direct-mail-configuration.md).
+   当营销活动开始时，提取文件将自动生成并导出到 [文件路由配置](../configuration/direct-mail-configuration.md).
