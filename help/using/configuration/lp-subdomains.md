@@ -6,9 +6,9 @@ description: 了解如何使用Journey Optimizer配置登陆页面子域
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 1%
 能够 [创建登陆页面预设](lp-presets.md)，则必须设置要用于登陆页面的子域。
 
 您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到的更多信息，请Adobe [此部分](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>登陆页面子域配置对所有环境都是通用的。 因此，对登陆页面子域的任何修改也会影响生产沙箱。
+
+请注意，子域中不应允许使用大写字母
 
 ## 使用现有子域 {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ ht-degree: 1%
    >[!NOTE]
    >
    >您无法选择已用作登陆页面子域的子域。
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ ht-degree: 1%
    >[!CAUTION]
    >
    >您无法使用现有登陆页面子域。
+   >
+   >子域中不允许使用大写字母。
 
    不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
 

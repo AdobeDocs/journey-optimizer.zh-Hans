@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 默认情况下，高级参数处于只读和隐藏状态。
 
-要访问高级参数，请单击消息窗格顶部的&#x200B;**[!UICONTROL 显示只读字段]**&#x200B;图标。
+要访问高级参数，请单击消息窗格顶部的&#x200B;**[!UICONTROL 显示只读字段]**&#x200B;图标。单击同一图标可隐藏高级设置。
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ ht-degree: 100%
 
 ![](assets/push-adv-parameters.png)
 
-对于电子邮件，您可以显示主电子邮件地址。
+对于电子邮件，您可以显示 [主电子邮件地址](../configuration/primary-email-addresses.md).
 
-对于特定用途，您可以在特定上下文中覆盖这些值。要强制使用某个值，请单击字段右侧的&#x200B;**启用参数覆盖**&#x200B;图标。此选项可能非常有用，例如在下列操作中：
+在特定上下文中，您可以覆盖这些值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。
 
-* 测试电子邮件，可添加您的电子邮件地址。发布历程后，将向您发送电子邮件。
+![](assets/email-adv-parameters.png)
+
+此选项可能非常有用，例如在下列操作中：
+
+* 测试电子邮件。 您可以添加您的电子邮件地址；发布历程后，将向您发送电子邮件。
 * 请参阅列表中订阅者的电子邮件地址。在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-单击同一图标可隐藏高级设置。
+>[!NOTE]
+>
+>电子邮件地址覆盖仅应用于特定用例。 在大多数情况下，您无需更改电子邮件地址，因为在 **[!UICONTROL 执行字段]** 是应该使用的。 [了解详情](../configuration/primary-email-addresses.md)
 
 ## 浏览消息{#browse-message}
 

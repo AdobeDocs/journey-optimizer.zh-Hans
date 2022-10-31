@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '770'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 抑制列表包含要从投放中排除的电子邮件地址，因为向这些联系人发送可能会损害您的发送信誉和投放率。
 
-的 [!DNL Journey Optimizer] 禁止列表由您自己的环境级别管理。
+的 [!DNL Journey Optimizer] 抑制列表在您自己的环境级别进行管理，例如对于给定的沙盒。
 
 它会收集在单个客户端环境中禁止所有邮件的电子邮件地址和域，即特定于与沙盒ID关联的组织ID。
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '192'
 ht-degree: 4%
 
 ---
@@ -28,10 +28,17 @@ ht-degree: 4%
 * **[!UICONTROL 成功]**:子域已成功完成检查，并可用于投放消息。
 * **[!UICONTROL 失败]**:提交子域委派后，一个或多个检查失败。
 
-要访问有关子域的详细信息，请从列表中将其打开。 您可以：
+要使用 **[!UICONTROL 成功]** 状态，从列表中将其打开。
+
+![](assets/subdomain-delegated.png)
+
+您可以：
 
 * 检索在委派过程中配置的子域名（只读），以及生成的URL（资源、镜像页面、跟踪URL），
 
 * 将Google站点验证TXT记录添加到子域，以确保对其进行验证(请参阅 [将Google TXT记录添加到子域](google-txt.md))。
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>子域配置对所有环境都是通用的。 因此，对子域的任何修改也会影响生产沙箱。

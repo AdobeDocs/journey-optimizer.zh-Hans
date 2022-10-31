@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="设置IP池"
->abstract="您可以创建IP池以将子域的IP地址分组在一起，以改进电子邮件投放能力。"
+>abstract="IP池会收集子域的IP地址，以改进电子邮件投放能力。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ ht-degree: 1%
 强烈建议创建IP池，以便电子邮件可投放。 这样，您就可以防止子域的声誉影响您的其他子域。
 
 例如，一个最佳实践是为营销消息提供一个IP池，为事务型消息设置一个IP池。 这样，如果您的其中一条营销消息性能不佳，且客户声明为垃圾邮件，则不会影响发送给该客户的事务型消息，该客户仍将接收事务型消息（购买确认、密码恢复消息等）。
+
+>[!CAUTION]
+>
+>IP池配置对所有环境都是通用的。 因此，任何IP池创建或编辑都将影响生产沙箱。
 
 ## 创建IP池 {#create-ip-pool}
 
@@ -63,7 +67,7 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 
 ## 编辑IP池 {#edit-ip-pool}
 
-要编辑IP池，请执行以下操作：
+要编辑IP池，请执行以下步骤。
 
 1. 在列表中，单击IP池名称以将其打开。
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->编辑PTR记录时请格外小心。 如有疑问，请联系可投放性专家。<!--why?-->
-
->[!NOTE]
+>PTR记录对所有环境都是通用的。 因此，对PTR记录的任何修改也将影响生产沙箱。
 >
->您无法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR记录]** 字段。
+>编辑PTR记录时请格外小心。 如有疑问，请联系可投放性专家。
 
 ### 完全委派的子域 {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ ht-degree: 0%
    ![](assets/ptr-record-subdomain.png)
 
 1. 单击 **[!UICONTROL 保存]** 确认更改。
+
+>[!NOTE]
+>
+>您无法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR记录]** 字段。
 
 ### 使用CNAME方法委派的子域 {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ ht-degree: 0%
 
 
 1. 单击 **[!UICONTROL 保存]** 确认更改。
+
+>[!NOTE]
+>
+>您无法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR记录]** 字段。
 
 ## 检查PTR记录更新详细信息 {#check-ptr-record-update}
 

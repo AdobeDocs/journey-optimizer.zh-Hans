@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1725'
 ht-degree: 9%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 9%
 >[!CAUTION]
 >
 >推荐使用完全子域委派。 进一步了解两者之间的差异 [子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>子域配置对所有环境都是通用的。 因此，对子域的任何修改也会影响生产沙箱。
 
 ## 完全子域委派 {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ ht-degree: 9%
    >
    >请注意，当前不支持多级子域，如email.marketing.yourcompany.com。
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
 1. 确保所有DNS记录都已生成到您的域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL 提交]**.
@@ -92,8 +96,6 @@ ht-degree: 9%
    >[!NOTE]
    >
    >子域将标记为 **[!UICONTROL 失败]** 如果您未能在托管解决方案上创建验证记录。
-
-   <!-- later on, users will be notified in Pulse -->
 
 将子域委派到中的Adobe后 [!DNL Journey Optimizer]，则会自动创建一个PTR记录并与此子域关联。 [了解详情](ptr-records.md)
 
@@ -133,6 +135,8 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
    >不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
    >
    >请注意，当前不支持多级子域，如email.marketing.yourcompany.com。
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. 此时将显示要放入您的 DNS 服务器中的记录列表。逐个复制这些记录，或者下载 CSV 文件，然后导航到您的域托管解决方案以生成匹配的 DNS 记录。
 
