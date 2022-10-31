@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->抑制列表在沙盒级别操作。
+>禁止列表在沙盒级别进行管理。
 
 此类电子邮件地址会自动收集到Journey Optimizer中 **抑制列表**. 了解有关抑制列表概念和在 [此部分](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >下载时间取决于文件大小，即禁止列表上电子邮件地址的数量。
+   >下载时间取决于文件大小，即禁止列表上的地址数。
    >
    >一次可以针对给定的沙盒处理一个下载请求。
 
