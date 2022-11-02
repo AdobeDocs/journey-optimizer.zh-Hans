@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 9%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 通过受众构图，您可以创建 **组合工作流**，您可以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
 
-完成后， **结果受众** 与现有受众一起被保存到Adobe Experience Platform中。<!--, and can be **leveraged in campaigns** to target customers.-->
+完成后， **结果受众** 与现有受众一起保存到Adobe Experience Platform中，并且可以 **利用的营销活动** 定位客户。
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->目前，合成工作流产生的受众无法定位到Journey Optimizer。 无法在Adobe Experience Platform目标中定位这些区段。
+>由合成工作流生成的受众只能定位到Journey Optimizer营销活动。 它们无法在历程中使用。
 
 ## 访问受众构成 {#access}
 

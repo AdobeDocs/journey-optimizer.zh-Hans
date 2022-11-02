@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1246'
 ht-degree: 95%
 
 ---
@@ -31,114 +31,6 @@ ht-degree: 95%
       + [开发人员入门](using/start/path/developer.md)
    + [用户界面](using/start/user-interface.md)
    + [护栏](using/start/guardrails.md)
-+ 营销活动{#campaigns}
-   + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
-   + [创建营销活动](using/campaigns/create-campaign.md)
-   + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
-   + [管理实时营销活动](using/campaigns/modify-stop-campaign.md)
-   + 内容体验{#content-experiment}
-      + [内容体验入门](using/campaigns/get-started-experiment.md)
-      + [创建内容体验](using/campaigns/content-experiment.md)
-      + [了解统计计算](using/campaigns/experiment-calculations.md)
-      + [配置实验报表](using/campaigns/reporting-configuration.md)
-   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-+ 消息 {#messages}
-   + 消息入门{#get-started-msg}
-      + [概述](using/messages/get-started-content.md)
-      + [在历程中添加消息](using/messages/messages-in-journeys.md)
-      + [在营销活动中添加消息](using/messages/messages-in-campaigns.md)
-   + [创建电子邮件](using/messages/create-email.md)
-   + [创建推送通知](using/messages/create-push.md)
-   + [创建短信消息](using/messages/create-sms.md)
-   + [创建直邮](using/messages/create-direct-mail.md)
-   + [检查警报](using/messages/alerts.md)
-   + [发送时间优化](using/messages/send-time-optimization.md)
-+ Web渠道{#web}
-   + [Web渠道快速入门](using/web/get-started-web.md)
-   + [创建Web体验](using/web/create-web.md)
-   + [创作网页](using/web/author-web.md)
-   + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
-   + [Web报告](using/web/web-report.md)
-+ 应用程序内渠道{#in-app}
-   + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
-   + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
-   + [创建应用程序内消息](using/in-app/create-in-app.md)
-   + [设计应用程序内内容](using/in-app/design-in-app.md)
-   + [应用程序内报表](using/in-app/inapp-report.md)
-+ 设计内容 {#design}
-   + [电子邮件设计入门](using/design/design-emails.md)
-   + [从零开始 ](using/design/create-email-content.md)
-   + [导入电子邮件内容](using/design/existing-content.md)
-   + [对您自己的内容进行编码](using/design/code-content.md)
-   + [使用模板](using/design/email-templates.md)
-   + 内容设计 {#design-content}
-      + [使用内容组件](using/design/content-components.md)
-      + [背景设置](using/design/backgrounds.md)
-      + [调整垂直对齐和填充](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [为链接定义样式](using/design/styling-links.md)
-      + [添加内联样式属性](using/design/adding-inline-styling-attributes.md)
-   + 电子邮件设置 {#design-email}
-      + [生成文本版本](using/design/text-version-email.md)
-      + [添加预编译标头](using/design/preheader.md)
-   + 添加和管理资源 {#manage-asset}
-      + [使用 Assets Essentials](using/design/assets-essentials.md)
-      + [使用 Adobe Stock](using/design/stock.md)
-   + [添加个性化优惠](using/design/deliver-personalized-offers.md)
-   + [添加链接和跟踪消息](using/design/message-tracking.md)
-   + [预览和证明](using/design/preview.md)
-+ 登陆页面{#landing-pages}
-   + [登陆页面入门](using/landing-pages/get-started-lp.md)
-   + [创建登陆页面](using/landing-pages/create-lp.md)
-   + 设计内容 {#landing-pages-design}
-      + [关于登陆页面设计](using/landing-pages/design-lp.md)
-      + [创建登陆页面内容](using/landing-pages/lp-content.md)
-      + [创建模板](using/landing-pages/lp-templates.md)
-      + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
-   + [创建订阅列表](using/landing-pages/subscription-list.md)
-   + [用例](using/landing-pages/lp-use-cases.md)
-+ 个性化和动态内容{#personalized-dynamic-content}
-   + 个性化 {#personalization}
-      + [个性化入门](using/personalization/personalize.md)
-      + [个性化上下文](using/personalization/personalization-contexts.md)
-      + 构建表达式 {#build-expressions}
-         + [个性化语法](using/personalization/personalization-syntax.md)
-         + 使用表达式编辑器 {#expression-editor}
-            + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
-            + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
-            + [使用已保存的表达式](using/personalization/personalization-library.md)
-            + [个性化验证](using/personalization/personalization-validation.md)
-         + 辅助函数{#functions}
-            + [辅助函数入门](using/personalization/functions/functions.md)
-            + [聚合函数](using/personalization/functions/aggregation.md)
-            + [算术函数](using/personalization/functions/arithmetic-functions.md)
-            + [数组和列表函数](using/personalization/functions/arrays-list.md)
-            + [日期函数](using/personalization/functions/dates.md)
-            + [布尔和比较函数](using/personalization/functions/operators.md)
-            + [辅助程序](using/personalization/functions/helpers.md)
-            + [映射函数](using/personalization/functions/maps.md)
-            + [目标函数](using/personalization/functions/objects.md)
-            + [字符串函数](using/personalization/functions/string.md)
-      + 用例{#personalization-use-cases}
-         + [订单状态通知](using/personalization/personalization-use-case.md)
-         + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
-   + 动态内容 {#dynamic}
-      + [动态内容入门](using/personalization/get-started-dynamic-content.md)
-      + [创建条件规则](using/personalization/create-conditions.md)
-      + [创建动态内容](using/personalization/dynamic-content.md)
-+ 区段、用户档案和标识{#segment}
-   + 区段{#segments}
-      + [区段入门](using/segment/about-segments.md)
-      + [构建区段](using/segment/creating-a-segment.md)
-   + 用户档案{#profiles}
-      + [开始使用用户档案](using/segment/get-started-profiles.md)
-      + [创建测试用户档案](using/segment/creating-test-profiles.md)
-   + [标识](using/segment/get-started-identity.md)
-   + 组合受众{#audience-orchestration}
-      + [受众组合入门](using/segment/get-started-audience-orchestration.md)
-      + [创建组合工作流](using/segment/create-compositions.md)
-      + [使用组合画布](using/segment/composition-canvas.md)
-      + [访问和管理受众](using/segment/access-audiences.md)
-   + [许可证使用](using/segment/license-usage.md)
 + 历程 {#orchestrate-journeys}
    + 关于历程{#about-journeys}
       + [一般原则](using/building-journeys/journey.md)
@@ -255,6 +147,114 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 使用案例{#journey-use-cases}
++ 营销活动{#campaigns}
+   + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
+   + [创建营销活动](using/campaigns/create-campaign.md)
+   + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
+   + [管理实时营销活动](using/campaigns/modify-stop-campaign.md)
+   + 内容体验{#content-experiment}
+      + [内容体验入门](using/campaigns/get-started-experiment.md)
+      + [创建内容体验](using/campaigns/content-experiment.md)
+      + [了解统计计算](using/campaigns/experiment-calculations.md)
+      + [配置实验报表](using/campaigns/reporting-configuration.md)
+   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
++ 消息 {#messages}
+   + 消息入门{#get-started-msg}
+      + [概述](using/messages/get-started-content.md)
+      + [在历程中添加消息](using/messages/messages-in-journeys.md)
+      + [在营销活动中添加消息](using/messages/messages-in-campaigns.md)
+   + [创建电子邮件](using/messages/create-email.md)
+   + [创建推送通知](using/messages/create-push.md)
+   + [创建短信消息](using/messages/create-sms.md)
+   + [创建直邮](using/messages/create-direct-mail.md)
+   + [检查警报](using/messages/alerts.md)
+   + [发送时间优化](using/messages/send-time-optimization.md)
++ Web渠道{#web}
+   + [Web渠道快速入门](using/web/get-started-web.md)
+   + [创建Web体验](using/web/create-web.md)
+   + [创作网页](using/web/author-web.md)
+   + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
+   + [Web报告](using/web/web-report.md)
++ 应用程序内渠道{#in-app}
+   + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
+   + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
+   + [创建应用程序内消息](using/in-app/create-in-app.md)
+   + [设计应用程序内内容](using/in-app/design-in-app.md)
+   + [应用程序内报表](using/in-app/inapp-report.md)
++ 设计内容 {#design}
+   + [电子邮件设计入门](using/design/design-emails.md)
+   + [从零开始 ](using/design/create-email-content.md)
+   + [导入电子邮件内容](using/design/existing-content.md)
+   + [对您自己的内容进行编码](using/design/code-content.md)
+   + [使用模板](using/design/email-templates.md)
+   + 内容设计 {#design-content}
+      + [使用内容组件](using/design/content-components.md)
+      + [背景设置](using/design/backgrounds.md)
+      + [调整垂直对齐和填充](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [为链接定义样式](using/design/styling-links.md)
+      + [添加内联样式属性](using/design/adding-inline-styling-attributes.md)
+   + 电子邮件设置 {#design-email}
+      + [生成文本版本](using/design/text-version-email.md)
+      + [添加预编译标头](using/design/preheader.md)
+   + 添加和管理资源 {#manage-asset}
+      + [使用 Assets Essentials](using/design/assets-essentials.md)
+      + [使用 Adobe Stock](using/design/stock.md)
+   + [添加个性化优惠](using/design/deliver-personalized-offers.md)
+   + [添加链接和跟踪消息](using/design/message-tracking.md)
+   + [预览和证明](using/design/preview.md)
++ 登陆页面{#landing-pages}
+   + [登陆页面入门](using/landing-pages/get-started-lp.md)
+   + [创建登陆页面](using/landing-pages/create-lp.md)
+   + 设计内容 {#landing-pages-design}
+      + [关于登陆页面设计](using/landing-pages/design-lp.md)
+      + [创建登陆页面内容](using/landing-pages/lp-content.md)
+      + [创建模板](using/landing-pages/lp-templates.md)
+      + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
+   + [创建订阅列表](using/landing-pages/subscription-list.md)
+   + [用例](using/landing-pages/lp-use-cases.md)
++ 个性化和动态内容{#personalized-dynamic-content}
+   + 个性化 {#personalization}
+      + [个性化入门](using/personalization/personalize.md)
+      + [个性化上下文](using/personalization/personalization-contexts.md)
+      + 构建表达式 {#build-expressions}
+         + [个性化语法](using/personalization/personalization-syntax.md)
+         + 使用表达式编辑器 {#expression-editor}
+            + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
+            + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
+            + [使用已保存的表达式](using/personalization/personalization-library.md)
+            + [个性化验证](using/personalization/personalization-validation.md)
+         + 辅助函数{#functions}
+            + [辅助函数入门](using/personalization/functions/functions.md)
+            + [聚合函数](using/personalization/functions/aggregation.md)
+            + [算术函数](using/personalization/functions/arithmetic-functions.md)
+            + [数组和列表函数](using/personalization/functions/arrays-list.md)
+            + [日期函数](using/personalization/functions/dates.md)
+            + [布尔和比较函数](using/personalization/functions/operators.md)
+            + [辅助程序](using/personalization/functions/helpers.md)
+            + [映射函数](using/personalization/functions/maps.md)
+            + [目标函数](using/personalization/functions/objects.md)
+            + [字符串函数](using/personalization/functions/string.md)
+      + 用例{#personalization-use-cases}
+         + [订单状态通知](using/personalization/personalization-use-case.md)
+         + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
+   + 动态内容 {#dynamic}
+      + [动态内容入门](using/personalization/get-started-dynamic-content.md)
+      + [创建条件规则](using/personalization/create-conditions.md)
+      + [创建动态内容](using/personalization/dynamic-content.md)
++ 区段、用户档案和标识{#segment}
+   + 区段{#segments}
+      + [区段入门](using/segment/about-segments.md)
+      + [构建区段](using/segment/creating-a-segment.md)
+   + 用户档案{#profiles}
+      + [开始使用用户档案](using/segment/get-started-profiles.md)
+      + [创建测试用户档案](using/segment/creating-test-profiles.md)
+   + [标识](using/segment/get-started-identity.md)
+   + [许可证使用](using/segment/license-usage.md)
+   + 组合受众{#audience-orchestration}
+      + [受众组合入门](using/segment/get-started-audience-orchestration.md)
+      + [创建组合工作流](using/segment/create-compositions.md)
+      + [使用组合画布](using/segment/composition-canvas.md)
+      + [访问和管理受众](using/segment/access-audiences.md)
       + 业务用例 {#business-use-cases}
          + [发送多渠道消息](using/building-journeys/journeys-uc.md)
          + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
@@ -454,6 +454,7 @@ ht-degree: 95%
    + [基于属性的访问控制](using/administration/attribute-based-access.md)
    + [对象级访问控制](using/administration/object-based-access.md)
 + 隐私权 {#privacy}
+   + [隐私入门](using/privacy/get-started-privacy.md)
    + [隐私请求](using/privacy/requests.md)
    + [对资源的审核操作](using/privacy/audit-logs.md)
    + 管理同意 {#consent}

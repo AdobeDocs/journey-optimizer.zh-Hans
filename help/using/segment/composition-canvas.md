@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -28,24 +28,28 @@ ht-degree: 2%
 
 ## 选择起始受众 {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="合并类型"
->abstract="指定应如何合并选定受众的配置文件。"
-
 创建合成的第一步是选择一个或多个现有受众作为合成的基础。
 
-选择 **[!UICONTROL 受众]** 活动，然后单击 **[!UICONTROL 添加受众]** 按钮，然后选择一个或多个受众。
+1. 选择 **[!UICONTROL 受众]** 活动，然后为活动提供标签。
+
+1. 选择要定位的受众：
+
+   * 单击 **[!UICONTROL 添加受众]** 按钮选择一个或多个现有受众，
+   * 单击 **[!UICONTROL 生成规则]** 按钮以使用 [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. 如果选择了多个受众，请指定这些受众的用户档案应如何合并：
+
+* **[!UICONTROL 并集]**:包含来自选定受众的所有用户档案，
+* **[!UICONTROL 交集]**:包括所有选定受众共有的用户档案，
+* **[!UICONTROL 排除重叠]**:包括仅属于其中一个受众的用户档案。 将不包含属于多个受众的用户档案。
 
 在此示例中，我们要定位属于金牌和银牌受众的所有用户档案。
 
 ![](assets/audiences-starting-audience.png)
 
-如果选择多个受众，请指定这些受众的配置文件应合并的方式：
-
-* **[!UICONTROL 并集]**:包含来自选定受众的所有用户档案，
-* **[!UICONTROL 交集]**:包括所有选定受众共有的用户档案，
-* **[!UICONTROL 排除重叠]**:包括仅属于其中一个受众的用户档案。 将不包含属于多个受众的用户档案。
+选择受众后，预计用户档案数会显示在活动底部。
 
 ## 添加活动 {#action-activities}
 
@@ -74,6 +78,11 @@ ht-degree: 2%
 >id="ajo_ao_audience"
 >title="受众活动"
 >abstract="利用受众活动，可在合成中包含属于现有受众的其他用户档案。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="合并类型"
+>abstract="指定应如何合并选定受众的配置文件。"
 
 的 **[!UICONTROL 受众]** 活动允许您在合成中包含属于现有受众的其他用户档案。
 

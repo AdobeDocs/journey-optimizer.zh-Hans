@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '365'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,11 @@ ht-degree: 6%
    * **[!UICONTROL 保存]**:最后一步。 此活动用于将工作流的结果保存到新受众中。
    有关如何在合成工作流画布中配置活动的更多信息，请参阅 [使用合成画布](composition-canvas.md).
 
-1. 选择 **[!UICONTROL 受众]** 活动，然后为合成指定标签。
+1. 打开合成属性以指定标题和描述。
 
-   >[!IMPORTANT]
-   >
-   >的 **[!UICONTROL 受众]** 活动标签是您的合成的标签。 确保提供有意义的名称，以便更轻松地在列表中检索组合。
+   如果属性中未定义标题，则合成标签将作为开始 **[!UICONTROL 受众]** 活动。
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. 通过在 **[!UICONTROL 受众]** 和 **[!UICONTROL 保存]** 活动。 [了解如何使用合成画布](composition-canvas.md)
 
@@ -57,7 +55,7 @@ ht-degree: 6%
 
    ![](assets/audiences-alerts.png)
 
-1. 合成已发布。 生成的受众将保存到Adobe Experience Platform。 <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. 合成已发布。 生成的受众将保存到Adobe Experience Platform中，并准备好在Journey Optimizer营销活动中定位。 [营销活动入门](../campaigns/get-started-with-campaigns.md)
 
 ## 接入组合物 {#access}
 
@@ -69,7 +67,7 @@ ht-degree: 6%
 所有创建的合成都可以从 **[!UICONTROL 组合物]** 选项卡。 它们可以具有多种状态：
 
 * **[!UICONTROL 草稿]**:该组合正在进行中，尚未发布。
-* **[!UICONTROL 已发布]**:合成已发布，因此已保存受众。 <!-- and are available for use.-->
+* **[!UICONTROL 已发布]**:合成已发布，生成的受众已保存并可供使用。
 * **[!UICONTROL 已存档]**:构图已存档。
 
 ![](assets/audiences-compositions.png)

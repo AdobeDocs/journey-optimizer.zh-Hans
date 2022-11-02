@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 14%
+source-wordcount: '146'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 14%
 # 访问和管理受众 {#access-manage-audiences}
 
 受众可从访问 **[!UICONTROL 受众]** 选项卡 **[!UICONTROL 区段]** 菜单。
-
->[!IMPORTANT]
->
->目前，合成工作流产生的受众无法定位到Journey Optimizer。
 
 此选项卡列出了存储到Adobe Experience Platform中的所有受众。 使用受众合成创建的受众可由 **[!UICONTROL 受众构成]** 源。
 
