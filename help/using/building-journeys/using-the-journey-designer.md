@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 3%
+source-wordcount: '1605'
+ht-degree: 2%
 
 ---
 
@@ -60,15 +60,17 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 在设计历程时，您想要问的第一个问题是用户档案如何进入历程。 有两种可能：
 
-**从事件开始**:当历程设置为侦听事件时，个人会进入历程 **统一** 实时。 历程中包含的消息会发送到当前流入历程的人员。 [进一步了解事件](../event/about-events.md)
+1. **从事件开始**:当历程设置为侦听事件时，个人会进入历程 **统一** 实时。 历程中包含的消息会发送到当前流入历程的人员。 [进一步了解事件](../event/about-events.md)
 
-**从读取区段开始**:您可以设置历程来监听Adobe Experience Platform区段。 在这种情况下，属于指定区段的所有个人都将进入历程。 历程中包含的消息会发送给属于该区段的个人。 [了解有关读取区段的更多信息](read-segment.md).
+1. **从读取区段开始**:您可以设置历程来监听Adobe Experience Platform区段。 在这种情况下，属于指定区段的所有个人都将进入历程。 历程中包含的消息会发送给属于该区段的个人。 [了解有关读取区段的更多信息](read-segment.md).
 
 ## 定义后续步骤{#define-next-steps}
 
 在第一个事件或读取区段后，您可以组合不同的活动以构建多步跨渠道方案。 从面板中选择所需的步骤。
 
 ### 活动{#jo-event}
+
+事件是触发个性化历程的因素，例如在线购买。 当某人进入某个历程时，他们作为个人穿行，没有两个人以相同的速度或同一路径移动。
 
 当您通过事件开始历程时，当收到事件时触发历程。 然后，历程中的每个人员分别遵循历程中定义的后续步骤。
 
@@ -80,11 +82,15 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 ### 编排{#jo-orch}
 
-在编排活动中，使用 **读取区段** 活动，用于设置历程以监听Adobe Experience Platform区段。 [了解有关读取区段活动的更多信息](read-segment.md).
+编排活动是帮助确定旅程中下一步的不同条件。
+
+在编排活动中，使用 **读取区段** 活动，以设置侦听Adobe Experience Platform区段的历程。 [了解有关读取区段活动的更多信息](read-segment.md).
 
 其他活动允许您向历程添加条件以定义多个路径、设置在执行下一活动之前的等待时间，或结束历程。 [了解有关编排活动的更多信息](about-journey-activities.md#orchestration-activities).
 
 ### 操作{#jo-actions}
+
+操作是您希望通过某种触发器执行的操作，如发送消息。 这是客户体验的历程。 这可以是电子邮件、短信或推送消息，或第三方操作，如Slack消息。
 
 渠道操作活动允许您包含 [!DNL Journey Optimizer]. [进一步了解渠道操作活动](journeys-message.md)
 

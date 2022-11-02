@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 94%
@@ -63,7 +63,7 @@ ht-degree: 94%
 * 文档中新增了有关隐私请求的章节。[了解详情](../privacy/requests.md)
 * 文档中新增了有关资源审核日志的章节。[了解详情](../privacy/audit-logs.md)
 * 文档中新增了有关如何将来自 Adobe Experience Cloud 资产库的 HTML 或 JSON 内容添加到优惠呈现的章节。[了解详情](../offers/offer-library/add-representations.md#html-json)
-* 在历程生命周期中添加了新页面。[了解更多信息](../building-journeys/journey-end.md)
+* 在历程生命周期中添加了新页面。[了解更多信息](../building-journeys/journey.md#journey-versions)
 * 更新了等待活动页面。[了解更多信息](../building-journeys/wait-activity.md)
 * 添加了包含查询示例的 Adobe Journey Optimizer 数据集列表。[了解更多信息](../start/datasets-query-examples.md)
 * 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)

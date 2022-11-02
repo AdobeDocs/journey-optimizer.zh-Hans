@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 3%
@@ -156,7 +156,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意。 由于您随
    
    >[!NOTE]
    >
-   >要获取 `<journey version id>`参数，选择相应的 [历程版本](../building-journeys/journey-versions.md) 从 **[!UICONTROL 历程管理]** > **[!UICONTROL 历程]** 菜单。 历程版本ID显示在Web浏览器中显示的URL的末尾。
+   >要获取 `<journey version id>`参数，选择相应的 [历程版本](../building-journeys/journey.md#journey-versions) 从 **[!UICONTROL 历程管理]** > **[!UICONTROL 历程]** 菜单。 历程版本ID显示在Web浏览器中显示的URL的末尾。
    >
    >![](assets/preset-bcc-action-id.png)
 

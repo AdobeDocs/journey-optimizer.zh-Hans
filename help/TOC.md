@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 95%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 95%
    + [用户界面](using/start/user-interface.md)
    + [护栏](using/start/guardrails.md)
 + 历程 {#orchestrate-journeys}
-   + 历程入门{#about-journeys}
-      + [一般原则](using/building-journeys/journey.md)
-      + [历程生命周期](using/building-journeys/journey-end.md)
-      + [历程版本](using/building-journeys/journey-versions.md)
+   + [历程入门](using/building-journeys/journey.md)
    + 创建历程{#create-journey}
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 95%
       + [解决您的历程](using/building-journeys/troubleshooting.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 活动 {#about-journey-building}
-      + [关于历程活动](using/building-journeys/about-journey-activities.md)
+      + [历程活动入门](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反应](using/building-journeys/reaction-events.md)
       + [区段限定条件](using/building-journeys/segment-qualification-events.md)

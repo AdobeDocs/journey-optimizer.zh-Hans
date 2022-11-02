@@ -1,26 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-description: 了解历程活动
+title: 历程活动入门
+description: 历程活动入门
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 22%
+source-wordcount: '428'
+ht-degree: 14%
 
 ---
 
-# 关于历程活动 {#about-journey-activities}
+# 历程活动入门 {#about-journey-activities}
 
 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
 ## 事件活动 {#event-activities}
 
-技术用户配置的事件(请参阅 [本页](../event/about-events.md))都显示在屏幕左侧面板的第一个类别中。 可以使用以下事件活动：
+事件是触发个性化历程的因素，例如在线购买。 当某人进入某个历程时，他们作为个人穿行，没有两个人以相同的速度或同一路径移动。 当您通过事件开始历程时，当收到事件时触发历程。 然后，历程中的每个人员分别遵循历程中定义的后续步骤。
+
+由技术用户配置的事件(请参阅 [本页](../event/about-events.md))都显示在屏幕左侧面板的第一个类别中。 可以使用以下事件活动：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
@@ -34,6 +37,8 @@ ht-degree: 22%
 
 ## 编排活动 {#orchestration-activities}
 
+编排活动是帮助确定旅程中下一步的不同条件。 如果人员是否有未结的支持案例，则可能会预测其当前位置的天气情况（他们是否完成了购买）或达到10 000个会员积分。
+
 从屏幕左侧的面板中，可以使用以下编排活动：
 
 * [条件](../building-journeys/condition-activity.md)
@@ -44,7 +49,9 @@ ht-degree: 22%
 
 ## 操作活动 {#action-activities}
 
-从屏幕左侧的面板，下方 **[!UICONTROL 事件]** 和 **[!UICONTROL 编排]**，您将找到 **[!UICONTROL 操作]** 类别。 可使用以下操作活动：
+操作是您希望通过某种触发器执行的操作，如发送消息。 这是客户体验的历程。
+
+从屏幕左侧的面板，下方 **[!UICONTROL 事件]** 和 **[!UICONTROL 编排]**，您可以找到 **[!UICONTROL 操作]** 类别。 可使用以下操作活动：
 
 * [电子邮件、短信、推送](../building-journeys/journeys-message.md)
 * [自定义操作](../building-journeys/using-custom-actions.md)
@@ -54,7 +61,7 @@ ht-degree: 22%
 
 这些活动代表各种的可用通信渠道。您可以将它们组合在一起，以创建跨渠道方案。
 
-如果您配置了自定义操作，则它们将显示在此处(请参阅 [本页](../building-journeys/using-custom-actions.md))。
+如果您配置了自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md)).
 
 ## 最佳实践 {#best-practices}
 
