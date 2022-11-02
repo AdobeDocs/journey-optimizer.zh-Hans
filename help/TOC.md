@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 95%
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
+   + 管理您的历程{#mannage-journey}
+      + [结束您的历程](using/building-journeys/end-journey.md)
       + [时区管理](using/building-journeys/timezone-management.md)
+      + [用户档案条目管理](using/building-journeys/entry-management.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [解决您的历程](using/building-journeys/troubleshooting.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
@@ -144,6 +147,14 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 使用案例{#journey-use-cases}
+      + 业务用例 {#business-use-cases}
+         + [发送多渠道消息](using/building-journeys/journeys-uc.md)
+         + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
+         + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
+      + 技术用例 {#technical-use-cases}
+         + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
+         + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
 + 营销活动{#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
@@ -252,14 +263,6 @@ ht-degree: 95%
       + [创建组合工作流](using/segment/create-compositions.md)
       + [使用组合画布](using/segment/composition-canvas.md)
       + [访问和管理受众](using/segment/access-audiences.md)
-      + 业务用例 {#business-use-cases}
-         + [发送多渠道消息](using/building-journeys/journeys-uc.md)
-         + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
-         + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
-      + 技术用例 {#technical-use-cases}
-         + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
-         + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)

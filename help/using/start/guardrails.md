@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 3%
@@ -47,7 +47,7 @@ ht-degree: 3%
 * 系统会在发生错误时执行三次重试。 您无法根据收到的错误消息调整重试次数。
 * 内置 **反应** 事件允许您对即装即用的操作做出响应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。
 * 不能并行放置两个操作，必须先添加一个，然后再添加另一个操作。
-* 在大多数情况下，同一历程中不能同时存在多个用户档案。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解详情](../building-journeys/journey.md#journey-ending)
+* 在大多数情况下，同一历程中不能同时存在多个用户档案。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解详情](../building-journeys/end-journey.md)
 
 ### 历程版本 {#journey-versions-g}
 
