@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 9%
+source-wordcount: '1012'
+ht-degree: 11%
 
 ---
 
@@ -93,15 +93,9 @@ ht-degree: 9%
 
 ### 入口{#entrance}
 
-默认情况下，新历程允许重新进入。 您可以取消选中“一次性”历程的选项，例如，如果您希望在某人进入商店时提供一次性礼品。 在这种情况下，您不希望客户能够重新进入历程并再次接收选件。
+默认情况下，新历程允许重新进入。 您可以取消选中“一次性”历程的选项，例如，如果您希望在某人进入商店时提供一次性礼品。
 
-当历程“结束”时，将具有状态 **[!UICONTROL 已关闭]**. 历程将不再让新人进入历程。 已在历程中的人员将正常完成历程。
-
-在默认的全局超时为30天后，历程将切换到 **已完成** 状态。 请参阅 [部分](../building-journeys/journey-gs.md#global_timeout).
-
->[!NOTE]
->
->单一历程（从事件或区段鉴别开始）包括护栏，可防止同一事件多次错误触发历程。 默认情况下，用户档案重新进入会暂时阻止5分钟。 例如，如果某个事件在12:01触发某个特定用户档案的历程，而另一个事件在12:03到达（无论是同一事件还是其他事件触发同一历程），则该历程将不会为此用户档案再次开始。
+在 [此部分](entry-management.md).
 
 ### 历程活动中的超时和错误 {#timeout_and_error}
 
