@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1507'
 ht-degree: 3%
 
 ---
@@ -22,11 +22,13 @@ ht-degree: 3%
 >title="设计您的历程"
 >abstract="历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。"
 
-历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。 每个活动都具有特定的角色和在流程中的位置。 活动已排序。 活动完成后，该流程将继续并处理下一个活动，等等。
+Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。 请注意，您还可以在下一个可用步骤中双击某个活动以将其添加到画布中。
+
+活动、编排和行动活动在过程中具有特定的作用和地位。 活动已排序：活动完成后，流程将继续并处理下一个活动，等等。
 
 ## 历程设计入门 {#gs-journey-design}
 
-的 **调色板** 位于屏幕的左侧。 所有可用活动都按以下几类进行分类： **[!UICONTROL 事件]**, **[!UICONTROL 编排]** 和 **[!UICONTROL 操作]**. 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
+的 **调色板** 位于屏幕的左侧。 所有可用活动都按以下几类进行分类： [事件](#jo-event), [编排](#jo-orch) 和 [操作](#jo-actions). 您可以通过单击不同类别的名称来展开/折叠其名称。 要在历程中使用活动，请将其从面板拖放到画布中。
 
 启动新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
@@ -66,27 +68,27 @@ ht-degree: 3%
 
 在第一个事件或读取区段后，您可以组合不同的活动以构建多步跨渠道方案。 从面板中选择所需的步骤。
 
-**事件**
+### 活动{#jo-event}
 
-当您通过事件开始历程时，将在收到事件时触发历程。 然后，人员将逐个遵循历程中定义的后续步骤。
+当您通过事件开始历程时，当收到事件时触发历程。 然后，历程中的每个人员分别遵循历程中定义的后续步骤。
 
-您可以添加 **多个事件** 在历程中，只要它们使用相同的命名空间。 事件是预先配置的。 [进一步了解事件](about-journey-activities.md#event-activities)
+您可以添加 **多个事件** 在历程中，只要它们使用相同的命名空间。 事件是预先配置的。 [了解有关历程事件的更多信息](about-journey-activities.md#event-activities)
 
-您还可以添加 **反应** 事件，以对与消息相关的跟踪数据做出响应。 例如，如果用户打开前一条消息或在其中单击该消息，则允许您发送另一条消息。 在中了解详情 [部分](reaction-events.md).
+您还可以添加 **反应** 事件，以对与消息相关的跟踪数据做出响应。 例如，如果用户打开前一条消息或在其中单击该消息，则允许您发送另一条消息。 [进一步了解反应事件](reaction-events.md).
 
-的 **区段鉴别** 事件活动允许您让个人根据Adobe Experience Platform区段入口和出口进入旅程或在旅程中前进。 您可以让所有新的银牌客户进入历程并发送个性化消息。 在中了解详情 [部分](segment-qualification-events.md).
+使用 **区段鉴别** 事件活动，根据Adobe Experience Platform区段入口和出口，让个人进入历程或在历程中前进。 您可以让所有新的银牌客户进入历程并发送个性化消息。 在中了解详情 [部分](segment-qualification-events.md).
 
-**编排**
+### 编排{#jo-orch}
 
-在编排活动中，您将找到 **读取区段** 活动，用于设置历程以监听Adobe Experience Platform区段。 [了解有关读取区段活动的更多信息](read-segment.md).
+在编排活动中，使用 **读取区段** 活动，用于设置历程以监听Adobe Experience Platform区段。 [了解有关读取区段活动的更多信息](read-segment.md).
 
-其他活动允许您向历程添加条件以定义多个路径、设置在执行下一活动之前的等待时间，或结束历程。 在中了解详情 [部分](about-journey-activities.md#orchestration-activities).
+其他活动允许您向历程添加条件以定义多个路径、设置在执行下一活动之前的等待时间，或结束历程。 [了解有关编排活动的更多信息](about-journey-activities.md#orchestration-activities).
 
-**操作**
+### 操作{#jo-actions}
 
-您将在此处找到渠道操作活动，该活动允许您包含在 [!DNL Journey Optimizer]. [进一步了解渠道操作活动](journeys-message.md)
+渠道操作活动允许您包含 [!DNL Journey Optimizer]. [进一步了解渠道操作活动](journeys-message.md)
 
-您还将找到已配置为通过第三方系统发送消息的自定义操作。 在中了解详情 [部分](about-journey-activities.md#action-activities).
+在操作活动中，使用自定义操作通过第三方系统发送消息。 [了解有关自定义操作的更多信息](about-journey-activities.md#action-activities).
 
 ## 添加替代路径{#paths}
 
