@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 19%
+source-wordcount: '573'
+ht-degree: 18%
 
 ---
 
@@ -32,27 +32,38 @@ ht-degree: 19%
 
 ## 创建历程的步骤{#steps-journey}
 
-Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。 请注意，您还可以在下一个可用步骤中双击某个活动以将其添加到画布中。
+使用Adobe Journey Optimizer从单个画布中设计和编排个性化历程。
+
+Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。
+
+![](assets/interface-journeys.png)
 
 了解如何在 [本页](journey-gs.md).
 
-了解如何使用历程设计器和组合活动，在中编排强大的全渠道历程 [此部分](using-the-journey-designer.md).
+全渠道历程设计器通过直观的拖放界面，帮助您通过目标受众、基于实时客户或业务交互的更新以及全渠道消息构建多步历程。
 
-作为数据工程师，了解如何配置您的历程，包括 [此部分](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+有关更多信息，请参阅 [此部分](using-the-journey-designer.md).
+
+作为数据工程师，有关配置您的历程（包括数据源、事件和操作）的详细步骤，请参见 [此部分](../configuration/about-data-sources-events-actions.md).
 
 
 ## 用例{#uc-journey}
 
-了解以下端到端用例以利用
-* 业务用例
-   * [发送多渠道消息](journeys-uc.md)
-   * [使用 Campaign v7/v8 发送消息](campaign-classic-use-case.md)
-   * [向订阅者发送消息](message-to-subscribers-uc.md)
+在以下端到端用例中了解如何构建历程。
 
-* 技术用例
-   * [使用自定义操作动态传递集合](collections.md)
-   * [增加投放数量](ramp-up-deliveries-uc.md)
-   * [使用外部数据源和自定义操作限制吞吐量](limit-throughput.md)
+业务用例：
+
+* [发送多渠道消息](journeys-uc.md)
+* [使用 Campaign v7/v8 发送消息](campaign-classic-use-case.md)
+* [向订阅者发送消息](message-to-subscribers-uc.md)
+
+技术用例：
+
+* [使用自定义操作动态传递集合](collections.md)
+* [增加投放数量](ramp-up-deliveries-uc.md)
+* [使用外部数据源和自定义操作限制吞吐量](limit-throughput.md)
 
 ## 历程版本{#journey-versions}
 
