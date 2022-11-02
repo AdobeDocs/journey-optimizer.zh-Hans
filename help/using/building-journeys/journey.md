@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 992f1ee215cc7f14d7f29a0bd592838fead2568c
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 8%
@@ -62,7 +62,7 @@ ht-degree: 8%
 
 如果允许重新进入，则人员可以重新进入历程。 请参阅 [本页](../building-journeys/journey-gs.md#change-properties)
 
-要终止实时历程，我们建议您关闭该历程。 随后，将阻止新客户进入历程。 已在历程中进入的客户能够体验到该历程的结束。 请参阅 [此部分](../building-journeys/.md#close-journey)
+要终止实时历程，我们建议您关闭该历程。 随后，将阻止新客户进入历程。 已在历程中进入的客户能够体验到该历程的结束。 请参阅 [此部分](../building-journeys/journey.md#close-journey)
 
 仅当发生紧急情况并且需要在旅程中立即结束所有处理时，才能停止旅程。 已进入历程的人员都会停止其进度。 请参阅 [此部分](../building-journeys/journey.md#stop-journey)
 
