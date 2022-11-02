@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 通过受众构图，您可以创建 **组合工作流**，您可以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
 
-完成后， **结果受众** 与现有受众一起保存到Adobe Experience Platform中，并且可以 **利用的营销活动** 定位客户。
+完成后， **结果受众** 与现有受众一起保存到Adobe Experience Platform中，并且可以 **利用的营销活动** 定位客户。 [了解如何使用营销活动](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
