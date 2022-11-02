@@ -1,24 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 一般原则
-description: 一般原则
+title: 历程入门
+description: 历程入门
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 18%
+source-wordcount: '577'
+ht-degree: 19%
 
 ---
 
 
-# 一般原则{#jo-general-principle}
+# 历程入门{#jo-general-principle}
 
-使用 [!DNL Journey Optimizer] 利用存储在事件或数据源中的情境数据构建实时编排用例。
+使用 [!DNL Journey Optimizer] 使用存储在事件或数据源中的情境数据构建实时编排用例。
 
 设计由以下功能提供支持的分步式高级方案：
 
@@ -32,7 +31,7 @@ ht-degree: 18%
 
 ## 创建历程的步骤{#steps-journey}
 
-使用Adobe Journey Optimizer从单个画布中设计和编排个性化历程。
+使用Adobe Journey Optimizer从单个画布设计和编排个性化历程。
 
 Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。
 
@@ -75,7 +74,7 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 >[!NOTE]
 >
->在大多数情况下，同一历程中不能同时存在多个用户档案。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解更多信息](end-journey.md)。
+>通常，用户档案不能在同一历程中同时存在多次。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解更多信息](end-journey.md)。
 
 如果您需要修改到实时历程，请创建历程的新版本。
 

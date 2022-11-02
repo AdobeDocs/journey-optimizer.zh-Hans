@@ -5,10 +5,10 @@ title: Journey Optimizer 营销人员入门指南
 description: 作为历程实践者，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **测试和验证**。定义内容后，即可使用测试个人资料对其进行预览和测试。如果插入[个性化内容](../../personalization/personalize.md)，您将能够利用测试个人资料数据检查此内容在消息中的显示方式。此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../design/preview.md)了解如何测试和验证消息。
+1. **测试和验证**。定义内容后，即可使用测试个人资料对其进行预览和测试。如果插入 [个性化内容](../../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在消息中的显示方式。 此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../design/preview.md)了解如何测试和验证消息。
 
-1. **设计客户历程**，以提供个性化的情境式体验。[!DNL Journey Optimizer] 使您可以利用存储在事件或数据源中的上下文数据构建实时编排用例。设计由以下功能提供支持的分步式高级方案：
+1. **设计客户历程**，以提供个性化的情境式体验。[!DNL Journey Optimizer] 允许您使用存储在事件或数据源中的情境数据构建实时编排用例。 设计由以下功能提供支持的分步式高级方案：
 
    * 实时发送由事件接收触发的&#x200B;**单一投放** ，或使用 Adobe Experience Platform 区段&#x200B;**批量**&#x200B;发送。
 

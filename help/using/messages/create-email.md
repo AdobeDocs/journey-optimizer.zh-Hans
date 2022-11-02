@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 10%
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 使用 [!DNL Journey Optimizer] 表达式编辑器来使用用户档案数据个性化您的消息。 有关个性化的更多信息，请参考[此部分](../personalization/personalize.md)。
 
-利用 [!DNL Journey Optimizer] 动态内容功能。 [动态内容入门](../personalization/get-started-dynamic-content.md)
+使用 [!DNL Journey Optimizer] 动态内容功能。 [动态内容入门](../personalization/get-started-dynamic-content.md)
 
 ## 电子邮件跟踪{#email-tracking}
 
