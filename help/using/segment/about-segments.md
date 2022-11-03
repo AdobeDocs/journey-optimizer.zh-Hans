@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: df16e6be53629ef529b765c9e36a293234244867
+source-git-commit: adfd47f23188935f6382a18d0de4a6101f022d78
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 3%
 
 * 生成 **复杂条件** 使用简单或高级表达式编辑器在历程中访问。 有关详细信息，请参阅[此部分](../building-journeys/condition-activity.md#using-a-segment)。
 
-## Adobe Journey Optimizer评价方法 {#evaluation-method-in-journey-optimizer}
+## 受众评价方法 {#evaluation-method-in-journey-optimizer}
 
 在Adobe Journey Optimizer中，受众是使用以下评估方法之一从区段定义生成的：
 
 * 流分段 — 当新数据流入系统时，区段的受众列表会实时保持为最新。 流式客户细分是一种持续的数据选择流程，可根据用户活动更新您的区段。 生成并保存区段后，会将区段定义应用于传入数据到Journey Optimizer。 会定期处理区段添加和移除，以确保您的目标受众仍然相关。
 
-* 批量分段 — 每24小时对区段的受众列表进行评估。 作为持续数据选择过程的替代方法，批量分段会通过区段定义一次移动所有配置文件数据以生成相应的受众。 创建后，将保存并存储此区段，以便您导出该区段以供使用。
+* 批量分段 — 每24小时对区段的受众列表进行评估。 作为持续数据选择流程的替代方法，批量分段会通过区段定义一次移动所有配置文件数据以生成相应的受众。 创建后，将保存并存储此区段，以便您导出该区段以供使用。
 
 系统根据评估区段规则的复杂性和成本来确定每个区段定义的批处理分段和流式分段之间的确定。
 
