@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: adfd47f23188935f6382a18d0de4a6101f022d78
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 * 生成 **复杂条件** 使用简单或高级表达式编辑器在历程中访问。 有关详细信息，请参阅[此部分](../building-journeys/condition-activity.md#using-a-segment)。
 
-## 受众评价方法 {#evaluation-method-in-journey-optimizer}
+## 受众评估方法{#evaluation-method-in-journey-optimizer}
 
 在Adobe Journey Optimizer中，受众是使用以下评估方法之一从区段定义生成的：
 
