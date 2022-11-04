@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 77%
 
 ---
 
@@ -215,12 +215,28 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 
 根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
->[!NOTE]
+默认情况下，Adobe Journey Optimizer会根据Sinch和Twilio等本机集成的行业标准，处理免费和长代码报文的标准英语回复消息，如STOP、UNSTOP和START。 这些关键字通常会触发来自第三方提供商的自动标准回复（例如Twilio、Sinch等）。 您可以直接与提供商或通过其文档网站确认此信息。
+
+无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP和START将被自动识别。
+
+除了Adobe Journey Optimizer根据选择退出状态停止发送（用于与Twilio或Sinch的直接集成）之外，大多数短信网关提供商还维护一个阻止列表，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过发送短信 [自定义渠道](../building-journeys/using-custom-actions.md)，则需要与提供商确认。
+
+>[!IMPORTANT]
 >
->对于事务型消息，并不要求添加退订链接。
+>根据短信促销活动的性质、发送短信的位置以及收件人的位置，短信促销活动可能会受到各种法律合规性要求的约束。 <br>虽然Adobe Journey Optimizer将处理上述长代码和免费电话号码的报文，但您应咨询您的法律顾问，以确保您的短信活动符合所有适用的法律合规要求。
 
-Adobe Journey Optimizer 会自动处理传入消息中的以下关键词：**开始**、**停止**&#x200B;和&#x200B;**不停止**。这些关键词会触发短信提供商的标准自动回复。
+### 短代码 {#short-codes}
 
-要详细了解原生入站关键词支持（开始、停止和不停止）如何用于短信，请参阅以下视频：
+默认情况下，Adobe Journey Optimizer将不处理短代码号的选择退出、选择加入或帮助关键词。
+
+您必须确保您的简短代码符合所有选择退出处理的行业规则和法规。
+
+### 字母数字发件人ID {#alphanumeric}
+
+字母数字发件人ID仅用于单向消息传递，无法接收入站消息。 因此，Adobe Journey Optimizer的SMS STOP、START、HELP关键字不适用于Alpha Sender ID。 您必须提供其他说明，例如写信给支持团队、拨打支持电话或发短信给其他电话号码或代码，以允许用户选择退出通过字母数字发件人ID发送的消息。
+
+#### 视频 {#video-sms}
+
+要了解有关本机入站关键词支持（“开始”、“停止”和“停止”）如何用于短信的更多信息，请参阅以下视频：
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
