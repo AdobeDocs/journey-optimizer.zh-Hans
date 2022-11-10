@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -129,21 +130,11 @@ When [创建直邮](../messages/create-direct-mail.md)，则可定义目标受�
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. 选择文件格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文本分隔]**.
 
-1. 在 **[!UICONTROL 插入]** ，则可以选择自动删除重复的行。
-
-1. 为包含用户档案数据的每个文件定义最大记录数（即行）。 达到指定的阈值后，将为其余记录创建另一个文件。
-
-   ![](assets/surface-direct-mail-split.png)
-
-   例如，如果文件中有100,000条记录，且阈值限制设置为60,000，则记录将被拆分为两个文件。 第一个文件将包含60,000行，第二个文件将包含其余40,000行。
-
-   >[!NOTE]
-   >
-   >您可以设置介于1到200,000条记录之间的任意数字，这意味着每个文件必须至少包含1行且不超过200,000行。
-
-1. 最后，选择 **[!UICONTROL 文件路由配置]** 在您创建的其中。 这定义了将文件导出到何处以供直邮提供商使用。
+1. 选择 **[!UICONTROL 文件路由配置]** 在您创建的其中。 这定义了将文件导出到何处以供直邮提供商使用。
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ When [创建直邮](../messages/create-direct-mail.md)，则可定义目标受�
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. 提交直邮表面。
 
 您现在可以 [创建直邮](../messages/create-direct-mail.md) 在营销策划中。 营销活动启动后，包含目标受众数据的文件将自动导出到您定义的服务器。 然后，直邮提供商将能够检索该文件并继续直邮投放。
+
+>[!NOTE]
+>
+>将自动删除重复的行。
+>
+>如果每个包含用户档案数据的文件的最大记录数（即行数）过高，将自动为其余记录创建另一个文件。
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->

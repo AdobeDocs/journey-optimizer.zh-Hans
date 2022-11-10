@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,12 @@ ht-degree: 2%
 >abstract="要创建登陆页面，您需要选择一个预设，然后配置主页面和子页面，最后在发布之前对您的页面进行测试。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="发布登陆页面"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="为登陆页面分配标签"
+>abstract="为保护敏感数字资产，您可以定义权限以使用标签管理对登陆页面的数据访问。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="创建登陆页面预设"
 
 创建登陆页面的步骤如下所示。
 
