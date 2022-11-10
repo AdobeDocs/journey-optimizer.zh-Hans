@@ -177,7 +177,7 @@ GDPR 等法规规定，您必须遵守特定要求才能使用数据主体的信
 >id="ajo_admin_preset_unsubscribe"
 >title="向电子邮件标头添加取消订阅链接"
 >abstract="启用“List-Unsubscribe”以向电子邮件标头添加取消订阅链接。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="一键式选择退出"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
 如果在渠道平面级别启用 [List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) 选项，使用 [!DNL Journey Optimizer] 发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。
 

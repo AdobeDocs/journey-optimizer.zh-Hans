@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -146,8 +146,8 @@ ht-degree: 94%
             + [trim](using/building-journeys/functions/functiontrim.md)
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
-   + 使用案例{#journey-use-cases}
-      + 业务用例 {#business-use-cases}
+   + 用例 {#journey-use-cases}
+      + 商业用例 {#business-use-cases}
          + [发送多渠道消息](using/building-journeys/journeys-uc.md)
          + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
          + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
@@ -177,18 +177,18 @@ ht-degree: 94%
    + [创建直邮](using/messages/create-direct-mail.md)
    + [检查警报](using/messages/alerts.md)
    + [发送时间优化](using/messages/send-time-optimization.md)
-+ Web渠道{#web}
-   + [Web渠道快速入门](using/web/get-started-web.md)
-   + [创建Web体验](using/web/create-web.md)
-   + [创作网页](using/web/author-web.md)
++ Web 渠道{#web}
+   + [Web 渠道入门](using/web/get-started-web.md)
+   + [创建 Web 体验](using/web/create-web.md)
+   + [创建 Web 页面](using/web/author-web.md)
    + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
-   + [Web报告](using/web/web-report.md)
+   + [Web 报告](using/web/web-report.md)
 + 应用程序内渠道{#in-app}
-   + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
+   + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
    + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
-   + [应用程序内报表](using/in-app/inapp-report.md)
+   + [应用程序内报告](using/in-app/inapp-report.md)
 + 设计内容 {#design}
    + [电子邮件设计入门](using/design/design-emails.md)
    + [从零开始 ](using/design/create-email-content.md)
