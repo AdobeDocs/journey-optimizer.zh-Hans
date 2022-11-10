@@ -5,8 +5,8 @@ description: Adobe Journey Optimizer 产品帮助中心
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
 <table style="table-layout:fixed">
-<tr>
+<tr style="border: 0;">
   <td>
     <div><strong>入门指南</strong>
     </div>
@@ -103,7 +103,7 @@ ht-degree: 100%
     </li>
     </div>
   </td>
-   <td>
+   <td align="right">
    <div><strong>关键资源的直接链接</strong>
     </div>
     <p>

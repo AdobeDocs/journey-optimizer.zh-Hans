@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -64,15 +64,7 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 
 ![](assets/preset-bcc-in-msg.png)
 
-但是，密送地址会按照以下逻辑接收以发送通信：
-
-* 对于批处理和拆分历程，它不适用于在进行密送设置之前已启动的批处理或拆分执行。 更改将在下次重复或新执行时被提取。
-
-* 对于事务型消息，将立即接收更改，以便进行下次通信（最多延迟一分钟）。
-
->[!NOTE]
->
->您无需重新发布历程，即可选取密件抄送设置。
+但是，将按照描述的逻辑提取密件抄送地址以发送通信 [此处](email-settings.md).
 
 ### Recommendations和限制 {#bcc-recommendations-limitations}
 

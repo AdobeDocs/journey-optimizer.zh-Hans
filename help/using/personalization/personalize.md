@@ -8,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 27%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
@@ -58,6 +58,6 @@ Discover [!DNL Adobe Journey Optimizer] 个性化功能，通过利用您拥有�
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-了解如何使用历程中的情境式事件信息来对消息进行个性化。
+了解如何在消息中添加基于用户档案的个性化设置，以及如何将区段会员资格用作个性化块的先决条件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

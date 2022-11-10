@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 2%
+source-wordcount: '1418'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 2%
 在渠道表面（即消息预设）配置的专用部分中定义电子邮件设置。 了解如何在 [此部分](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
+
+将按照以下逻辑选取用于发送通信的电子邮件界面配置：
+
+* 对于批处理和拆分历程，它不适用于在进行电子邮件表面配置之前已启动的批处理或拆分执行。 更改将在下次重复或新执行时被提取。
+
+* 对于事务型消息，将立即接收更改，以便进行下次通信（最长为五分钟延迟）。
+
+>[!NOTE]
+>
+>更新的电子邮件界面设置将在历程或使用该界面的营销活动中自动选取。
 
 ## 电子邮件类型 {#email-type}
 
@@ -96,25 +106,39 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 在 **[!UICONTROL 标头参数]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
 
->[!CAUTION]
->
->电子邮件地址必须使用当前选定的 [委派子域](about-subdomain-delegation.md).
-
 * **[!UICONTROL 发件人名称]**:发件人的名称，如您的品牌名称。
 
-* **[!UICONTROL 发件人电子邮件]**:要用于通信的电子邮件地址。 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com*.
+* **[!UICONTROL 发件人电子邮件]**:要用于通信的电子邮件地址。
 
 * **[!UICONTROL 回复（名称）]**:收件人单击 **回复** 按钮。
 
-* **[!UICONTROL 回复（电子邮件）]**:收件人单击 **回复** 按钮。 您必须使用在委派子域上定义的地址(例如， *reply@marketing.luma.com*)，否则将删除电子邮件。
+* **[!UICONTROL 回复（电子邮件）]**:收件人单击 **回复** 按钮。 [了解详情](#reply-to-email)
 
 * **[!UICONTROL 错误电子邮件]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
+
+>[!CAUTION]
+>
+>的 **[!UICONTROL 发件人电子邮件]** 和 **[!UICONTROL 错误电子邮件]** 地址必须使用当前选定的 [委派子域](about-subdomain-delegation.md). 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com* 和 *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >地址必须以字母(A-Z)开头，且只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
+
+### 回复电子邮件 {#reply-to-email}
+
+定义 **[!UICONTROL 回复（电子邮件）]** 地址，您可以指定任何电子邮件地址（如果地址是有效地址），且格式正确且没有任何类型。
+
+为确保正确的回复管理，请遵循以下建议：
+
+* 用于回复的收件箱将收到所有回复电子邮件，包括外出通知和质询响应，因此，请确保您已经完成手动或自动流程，以处理登陆此收件箱的电子邮件。
+
+* 确保专用收件箱具有足够的接收容量，可接收使用电子邮件界面发送的所有回复电子邮件。 如果收件箱返回退回，则可能未收到客户的某些回复。
+
+* 处理回复时必须牢记隐私和合规义务，因为它们可能包含个人身份信息(PII)。
+
+* 请勿在回复收件箱中将邮件标记为垃圾邮件，因为这会影响发送到此地址的所有其他回复。
 
 ### 转发电子邮件 {#forward-email}
 
