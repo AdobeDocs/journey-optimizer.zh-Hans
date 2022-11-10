@@ -5,9 +5,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 94%
 
 ## 2022 年 10 月 {#october-2022}
 
-* 添加了有关如何使用外部数据源和自定义操作限制吞吐量的历程用例。 [了解详情](../building-journeys/limit-throughput.md)
-* 历程用例部分已重组为两个类别： [业务用例](../building-journeys/journeys-uc.md) 和 [技术用例](../building-journeys/collections.md).
-* 的 **实体数据集** 章节已更新，其中包含更多详细信息。 [了解详情](../start/datasets-query-examples.md#entity-dataset)
+* 添加了有关如何使用外部数据源和自定义操作限制吞吐量的历程用例。[了解详情](../building-journeys/limit-throughput.md)
+* 历程用例部分已重组为两个类别：[业务用例](../building-journeys/journeys-uc.md)和[技术用例](../building-journeys/collections.md)。
+* **实体数据集**&#x200B;部分已更新，其中包含更多详细信息。[了解详情](../start/datasets-query-examples.md#entity-dataset)
 * 与选择禁用管理和同意策略相关的信息已重新编入新章节。[了解详情](../privacy/opt-out.md)
-* 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。 在大多数情况下，定义为 **执行字段** 是应该使用的。 [了解详情](../messages/messages-in-journeys.md#adv-settings)
-* 在 **配置登陆页面子域** 部分，以指定登陆页面子域中不允许使用大写字母。 [了解详情](../configuration/lp-subdomains.md)
+* 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../messages/messages-in-journeys.md#adv-settings)
+* 在&#x200B;**配置登陆页面子域**&#x200B;部分添加了注释，以指定登陆页面子域中不允许使用大写字母。[了解详情](../configuration/lp-subdomains.md)
 
 ## 2022 年 9 月 {#september-2022}
 
