@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    + 用例 {#journey-use-cases}
       + 商业用例 {#business-use-cases}
          + [发送多渠道消息](using/building-journeys/journeys-uc.md)
-         + [使用 Campaign v7/v8 发送消息](using/building-journeys/campaign-classic-use-case.md)
+         + [使用 Campaign v7/v8 发送消息](using/building-journeys/ajo-ac.md)
          + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
       + 技术用例 {#technical-use-cases}
          + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
@@ -389,11 +389,12 @@ ht-degree: 98%
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + 数据管理 {#data-management}
-   + [架构](using/start/get-started-schemas.md)
-   + 数据集 {#datasets}
-      + [数据集入门](using/start/get-started-datasets.md)
-      + [查询示例](using/start/datasets-query-examples.md)
-   + [查询](using/start/get-started-queries.md)
+   + [数据管理入门](using/data/gs-data.md)
+   + [使用模式](using/data/get-started-schemas.md)
+   + Journey Optimizer数据集 {#datasets}
+      + [数据集入门](using/data/get-started-datasets.md)
+      + [查询示例](using/data/datasets-query-examples.md)
+   + [查询](using/data/get-started-queries.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration-message}

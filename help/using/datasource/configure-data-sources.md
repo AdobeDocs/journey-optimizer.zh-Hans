@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 17%
+source-wordcount: '566'
+ht-degree: 15%
 
 ---
 
 # 配置数据源 {#configure-data-source}
 
-以下是主要的数据源配置步骤：
 
 >[!NOTE]
 >
 >数据源配置操作必须始终由&#x200B;**技术用户**&#x200B;执行。
+
+要配置数据源，请执行以下步骤：
 
 1. 在“管理”菜单部分，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 数据源]** ，单击 **[!UICONTROL 管理]**. 将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../start/user-interface.md)。
 

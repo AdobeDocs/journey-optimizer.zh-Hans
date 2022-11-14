@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +30,7 @@ Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通�
 
 ![](assets/alerts2.png)
 
-When [在平台UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，则可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会组织到不同的订阅包中。 与读取区段警报对应的I/O事件订阅名称为：“历程读取区段延迟、失败和错误”。
+When [在Adobe Experience Platform UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，则可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会组织到不同的订阅包中。 与读取区段警报对应的I/O事件订阅名称为：“历程读取区段延迟、失败和错误”。
 
 >[!WARNING]
 >

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 要使此功能正常工作，您需要配置专用操作。 请参阅 [部分](../action/acc-action.md).
 
-本节介绍了端到端用例 [部分](../building-journeys/campaign-classic-use-case.md).
+本节介绍了端到端用例 [部分](../building-journeys/ajo-ac.md).
 
 1. 从事件开始设计您的历程。 请参阅 [部分](../building-journeys/journey.md).
 1. 在 **操作** 选择Campaign操作并将其添加到历程中。

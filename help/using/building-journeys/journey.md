@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
@@ -52,13 +52,13 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 在以下端到端用例中了解如何构建历程。
 
-业务用例：
+商业用例:
 
 * [发送多渠道消息](journeys-uc.md)
-* [使用 Campaign v7/v8 发送消息](campaign-classic-use-case.md)
+* [使用 Campaign v7/v8 发送消息](ajo-ac.md)
 * [向订阅者发送消息](message-to-subscribers-uc.md)
 
-技术用例：
+技术用例:
 
 * [使用自定义操作动态传递集合](collections.md)
 * [增加投放数量](ramp-up-deliveries-uc.md)
@@ -74,7 +74,7 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 >[!NOTE]
 >
->通常，用户档案不能在同一历程中同时存在多次。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解更多信息](end-journey.md)。
+>通常，用户档案不能在同一历程中同时存在多次。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](end-journey.md)。
 
 如果您需要修改到实时历程，请创建历程的新版本。
 

@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '338'
 ht-degree: 8%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 8%
 
 使用之前 [!DNL Customer Journey Analytics] 对于您的历程，必须首先配置此集成：
 
-1. [创建连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 数据集]** 您希望发送到平台。
+1. [创建连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 数据集]** 你想发到Adobe Experience Platform。
 
    以下 [!DNL Journey Optimizer] 可以配置：
    * [历程步骤事件](../start/datasets-query-examples.md#journey-step-event):允许您查看进入您的历程的人员及其到达的距离。

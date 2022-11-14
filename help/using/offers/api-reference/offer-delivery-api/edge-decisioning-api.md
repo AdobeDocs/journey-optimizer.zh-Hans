@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Experience PlatformWeb SDK支持在Adobe中查询个性化解决方案（包括�
 
 可使用以下两种方式实施决策管理： [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员，需要了解网站和编程知识。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需在HTML页面的标题中引用一个小脚本即可。
 
-请参阅 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Platform Web SDK提供个性化优惠的更多信息。
+请参阅 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 1. [添加嵌入代码](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. 使用您通过从“Datastream”下拉菜单中选择配置而创建的数据流，安装和配置Platform Web SDK扩展。 请参阅 [扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. 使用您通过从“Datastream”下拉菜单中选择配置而创建的数据流，安装和配置Adobe Experience Platform Web SDK扩展。 请参阅 [扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 

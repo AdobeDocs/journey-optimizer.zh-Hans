@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设置的。
 
-本节介绍了端到端用例 [部分](../building-journeys/campaign-classic-use-case.md).
+本节介绍了端到端用例 [部分](../building-journeys/ajo-ac.md).
 
 对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅 [部分](../building-journeys/using-adobe-campaign-classic.md).
 
