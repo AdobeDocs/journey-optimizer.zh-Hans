@@ -5,7 +5,7 @@ title: Journey Optimizer 数据工程师入门
 description: 作为历程工程师，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. **创建架构**&#x200B;并为用户档案启用。架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。要了解有关架构的更多信息，请参阅[本页](../../data/get-started-schemas.md)。
 
-1. **创建数据集**&#x200B;并为用户档案启用。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。数据集还包含描述其存储的数据的各方面特性的元数据。创建数据集后，您可以将其映射到现有架构并向其中添加数据。要了解有关数据集的更多信息，请参阅[本页](../get-started-datasets.md)。
+1. **创建数据集**&#x200B;并为用户档案启用。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。数据集还包含描述其存储的数据的各方面特性的元数据。创建数据集后，您可以将其映射到现有架构并向其中添加数据。要了解有关数据集的更多信息，请参阅[本页](../../data/get-started-datasets.md)。
 
 1. **配置源连接器**。Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用 Platform 服务来构建、标记和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。要了解有关源连接器的更多信息，请参阅[本页](../get-started-sources.md)。
 
