@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 98%
@@ -257,12 +257,12 @@ ht-degree: 98%
       + [开始使用用户档案](using/segment/get-started-profiles.md)
       + [创建测试用户档案](using/segment/creating-test-profiles.md)
    + [标识](using/segment/get-started-identity.md)
-   + [许可证使用](using/segment/license-usage.md)
    + 组合受众{#audience-orchestration}
       + [受众组合入门](using/segment/get-started-audience-orchestration.md)
       + [创建组合工作流](using/segment/create-compositions.md)
       + [使用组合画布](using/segment/composition-canvas.md)
       + [访问和管理受众](using/segment/access-audiences.md)
+   + [许可证使用](using/segment/license-usage.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
