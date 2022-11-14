@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 8%
 
 ---
 
 # 利用Adobe Analytics数据{#analytics-data}
 
-您可以利用已在捕获并流入到平台中的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
+您可以利用已在捕获并流入Adobe Experience Platform的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
 
 >[!NOTE]
 >
@@ -35,4 +35,4 @@ ht-degree: 8%
 
 ![](assets/jo-event9.png)
 
-了解有关Adobe Analytics源连接器的更多信息，请参阅  [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}。
+了解有关Adobe Analytics源连接器的更多信息，请参阅  [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans){target=&quot;_blank&quot;}。
