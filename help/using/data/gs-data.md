@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -34,7 +34,10 @@ ht-degree: 0%
     <br>
   </td>
   <td>
-    <div>可在其他目标中使用 — 当Journey Optimizer协同化和集成数据以提供超个性化的客户体验时，您希望在总体技术环境中的其他系统中使用此数据，同时您还希望通过其他方法来利用此数据。 <a href="../start/ajo-integrations.md">了解详情</a>&lt;</div>
+    <div>可在其他目标中使用 — 当Journey Optimizer协同化和集成数据以提供超个性化的客户体验时，您希望在总体技术环境中的其他系统中使用此数据，同时您还希望通过其他方法来利用此数据。
+    <div>
+     <a href="../start/ajo-integrations.md">了解详情</a></div>
+    </div>
     <br>
   </td>
 </tr>
