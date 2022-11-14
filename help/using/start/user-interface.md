@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
 
@@ -62,11 +62,11 @@ ht-degree: 100%
 
 **[!UICONTROL 数据管理]**
 
-* **[!UICONTROL 架构]** - 使用 Adobe Experience Platform 在称为“架构编辑器”的交互式可视画布中创建和管理 Experience Data Model (XDM) 架构。[了解详情](get-started-schemas.md)
+* **[!UICONTROL 架构]** - 使用 Adobe Experience Platform 在称为“架构编辑器”的交互式可视画布中创建和管理 Experience Data Model (XDM) 架构。[了解详情](../data/get-started-schemas.md)
 
-* **[!UICONTROL 数据集]** - 摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。[了解详情](get-started-datasets.md)
+* **[!UICONTROL 数据集]** - 摄取到 Adobe Experience Platform 中的所有数据将作为数据集保留在数据湖中。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。[了解详情](../data/get-started-datasets.md)
 
-* **[!UICONTROL 查询]** - 使用 Adobe Experience Platform Query Service 编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](get-started-queries.md)
+* **[!UICONTROL 查询]** - 使用 Adobe Experience Platform Query Service 编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](../data/get-started-queries.md)
 
 * **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target=&quot;_blank&quot;}
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -215,7 +215,7 @@ ht-degree: 100%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -239,7 +239,7 @@ ht-degree: 100%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
 </table>
 
