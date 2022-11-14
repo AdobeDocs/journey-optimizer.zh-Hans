@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -29,9 +29,9 @@ ht-degree: 8%
 1. [创建连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 数据集]** 你想发到Adobe Experience Platform。
 
    以下 [!DNL Journey Optimizer] 可以配置：
-   * [历程步骤事件](../start/datasets-query-examples.md#journey-step-event):允许您查看进入您的历程的人员及其到达的距离。
-   * [消息反馈/跟踪数据集](../start/datasets-query-examples.md#message-feedback-event-dataset):允许您查看通过 [!DNL Journey Optimizer].
-   * [实体和历程数据集](../start/datasets-query-examples.md#entity-dataset):允许您搜索友好名称，并在报表中使用它们。
+   * [历程步骤事件](../data/datasets-query-examples.md#journey-step-event):允许您查看进入您的历程的人员及其到达的距离。
+   * [消息反馈/跟踪数据集](../data/datasets-query-examples.md#message-feedback-event-dataset):允许您查看通过 [!DNL Journey Optimizer].
+   * [实体和历程数据集](../data/datasets-query-examples.md#entity-dataset):允许您搜索友好名称，并在报表中使用它们。
 
 1. [创建数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 配置要用于报表的维度和量度。
 

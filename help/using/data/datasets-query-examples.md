@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 在本页中，您将找到Adobe Journey Optimizer数据集列表和相关用例：
 
 [电子邮件跟踪体验事件数据集](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[消息反馈事件数据集](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[推送跟踪体验事件数据集](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[历程步骤事件](../start/datasets-query-examples.md#journey-step-event)
-[决策事件数据集](../start/datasets-query-examples.md#ode-decisionevents)
-[同意服务数据集](../start/datasets-query-examples.md#consent-service-dataset)
-[密送反馈事件数据集](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
-[实体数据集](../start/datasets-query-examples.md#entity-dataset)
+[消息反馈事件数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)
+[推送跟踪体验事件数据集](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[历程步骤事件](../data/datasets-query-examples.md#journey-step-event)
+[决策事件数据集](../data/datasets-query-examples.md#ode-decisionevents)
+[同意服务数据集](../data/datasets-query-examples.md#consent-service-dataset)
+[密送反馈事件数据集](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
+[实体数据集](../data/datasets-query-examples.md#entity-dataset)
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 

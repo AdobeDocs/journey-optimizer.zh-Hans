@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * 添加了有关如何使用外部数据源和自定义操作限制吞吐量的历程用例。[了解详情](../building-journeys/limit-throughput.md)
 * 历程用例部分已重组为两个类别：[业务用例](../building-journeys/journeys-uc.md)和[技术用例](../building-journeys/collections.md)。
-* **实体数据集**&#x200B;部分已更新，其中包含更多详细信息。[了解详情](../start/datasets-query-examples.md#entity-dataset)
+* **实体数据集**&#x200B;部分已更新，其中包含更多详细信息。[了解详情](../data/datasets-query-examples.md#entity-dataset)
 * 与选择禁用管理和同意策略相关的信息已重新编入新章节。[了解详情](../privacy/opt-out.md)
 * 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../messages/messages-in-journeys.md#adv-settings)
 * 在&#x200B;**配置登陆页面子域**&#x200B;部分添加了注释，以指定登陆页面子域中不允许使用大写字母。[了解详情](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 添加了新的步骤事件查询示例以及有关 id、instanceid 和 profileid 之间差异的信息。[了解更多信息](../reports/query-examples.md)。
 * 更新了与 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函数相关的页面。
 * 添加了有关时间条件参数的详细信息。[了解详情](../building-journeys/condition-activity.md#time_condition)
-* 添加了有关内置数据集的信息。[了解详情](../start/get-started-datasets.md#access-datasets)
+* 添加了有关内置数据集的信息。[了解详情](../data/get-started-datasets.md#access-datasets)
 * 全局报告和实时报告部分已重新组织，以提高可读性。[了解详情](../reports/global-report.md)
 * 添加了 Adobe Journey Optimizer 中可用的所有报表量度的列表。
    [了解详情](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ ht-degree: 100%
 * 文档中新增了有关如何将来自 Adobe Experience Cloud 资产库的 HTML 或 JSON 内容添加到优惠呈现的章节。[了解详情](../offers/offer-library/add-representations.md#html-json)
 * 在历程生命周期中添加了新页面。[了解更多信息](../building-journeys/journey.md#journey-versions)
 * 更新了等待活动页面。[了解更多信息](../building-journeys/wait-activity.md)
-* 添加了包含查询示例的 Adobe Journey Optimizer 数据集列表。[了解更多信息](../start/datasets-query-examples.md)
+* 添加了包含查询示例的 Adobe Journey Optimizer 数据集列表。[了解更多信息](../data/datasets-query-examples.md)
 * 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
@@ -90,7 +90,7 @@ ht-degree: 100%
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 4 月版的所有新增功能和改进。[了解更多信息](release-notes.md)
 * 更新了&#x200B;**反应**&#x200B;事件文档页面。[了解更多信息](../building-journeys/reaction-events.md)
 * 更新了有关决策管理功能的视频，以反映 Journey Optimizer 用户界面。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
-* 对&#x200B;**数据集入门**&#x200B;部分进行了改进，以详细说明如何访问和创建数据集。[了解更多信息](../start/get-started-datasets.md)
+* 对&#x200B;**数据集入门**&#x200B;部分进行了改进，以详细说明如何访问和创建数据集。[了解更多信息](../data/get-started-datasets.md)
 * 在 **Adobe Journey Optimizer 文档**&#x200B;主页上添加了帮助指南和产品发行说明的链接。[了解更多信息](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hans)
 * **创建消息预设**&#x200B;部分现在说明了当选定的 IP 池在编辑中（处于&#x200B;**[!UICONTROL 处理]**&#x200B;状态）且从未与选定的子域关联时，无法继续创建预设。[了解更多信息](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * 更新了消息预设 **URL 跟踪**&#x200B;部分，以反映用户界面中的细微更改。[了解更多信息](../configuration/channel-surfaces.md#url-tracking)
