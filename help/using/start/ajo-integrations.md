@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '525'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,6 @@ Journey Optimizer与Customer Journey Analytics集成通过自动报表分发和�
 
 ## 外部系统{#integration-external-systems}
 
-Journey Optimizer允许您通过自定义数据源和自定义操作配置与外部系统的连接。 例如，这允许您使用来自外部预订系统的数据扩充您的历程，或使用第三方系统(如Epsilon或Facebook)发送消息。
+Journey Optimizer允许您通过自定义数据源和自定义操作配置与外部系统的连接。 例如，这允许您使用来自外部预订系统的数据扩充您的历程。
 
 了解如何使用外部数据源定义与 [此部分](../datasource/external-data-sources.md).
