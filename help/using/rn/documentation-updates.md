@@ -4,16 +4,20 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 100%
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2022 年 11 月 {#november-2022}
+
+添加了关于镜像页面URL长度的建议。 [了解详情](../design/message-tracking.md)
 
 ## 2022 年 10 月 {#october-2022}
 

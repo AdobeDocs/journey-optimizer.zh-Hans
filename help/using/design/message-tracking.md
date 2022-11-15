@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '677'
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 10%
 
 将自动创建镜像页面。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->您无法编辑自动生成的链接。
+>镜像页面链接是自动生成的，无法编辑。 它们包含呈现原始电子邮件所需的所有加密个性化数据。 因此，使用具有大值的个性化属性可能会生成较长的镜像页面URL，这会阻止该链接在URL长度最大的Web浏览器中工作。
 
 发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容会显示在其默认的Web浏览器中。
 
