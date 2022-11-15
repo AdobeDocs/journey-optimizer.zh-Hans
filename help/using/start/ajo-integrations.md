@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 5%
+source-wordcount: '529'
+ht-degree: 6%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer构建于Adobe Experience Platform上，本地连接到 [Adobe实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。 此内置数据源已预配置，旨在从实时客户资料中检索和使用数据（例如，检查进入旅程的人员是否为客户）。 它允许您使用用户档案数据和体验事件数据。
-
+> Adobe Journey Optimizer构建于Adobe Experience Platform上，本地连接到 [Adobe实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。 此内置数据源已预配置，旨在从实时客户资料中检索和使用数据（例如，检查进入旅程的人员是否为客户）。 它允许您使用用户档案数据和体验事件数据。 [了解详情](../datasource/adobe-experience-platform-data-source.md)。
 
 ## 报告{#integration-reporting}
 
@@ -45,7 +44,7 @@ Journey Optimizer与Customer Journey Analytics集成通过自动报表分发和�
 
 ## 机器学习{#integration-intelligent-service}
 
-与Adobe智能服务的集成，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
+与Adobe智能服务的集成，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。 [了解详情](../building-journeys/ai-services-overview.md)。
 
 ## 发送邮件 {#integration-messages}
 
