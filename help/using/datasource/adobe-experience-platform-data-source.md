@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 10%
+source-wordcount: '422'
+ht-degree: 9%
 
 ---
 
@@ -20,17 +20,19 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 数据源"
->abstract="Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。"
+>abstract="Adobe Experience Platform数据源定义与Adobe实时客户资料的连接。 此数据源已内置并预配置，无法删除。 它旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。"
 
-Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源已内置并预配置。 无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户资料服务的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+Adobe Experience Platform数据源定义与Adobe实时客户资料的连接。 此数据源已内置并预配置，无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关Adobe实时客户资料的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+
+
+要允许连接到实时客户资料服务，我们必须使用键来标识人员，以及将键关联到的命名空间。 因此，仅当您的历程以包含键和命名空间的事件开头时，才能使用此数据源。 [了解详情](../building-journeys/journey.md)。
+
+您可以编辑名为“ProfileFieldGroup”的预配置字段组，添加新字段组并删除未在任何草稿或实时历程中使用的字段组。 [了解详情](../datasource/configure-data-sources.md#define-field-groups)。
+
 
 >[!NOTE]
 >
 >您可以检索不到一年前创建的1000个最新体验事件。
-
-要允许连接到实时客户资料服务，我们必须使用键来标识人员，以及将键关联到的命名空间。 因此，仅当您的历程以包含键和命名空间的事件开头时，才能使用此数据源。 请参阅[此页](../building-journeys/journey.md)。
-
-您可以编辑名为“ProfileFieldGroup”的预配置字段组，添加新字段组并删除未在任何草稿或实时历程中使用的字段组。 请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
 
 以下是向内置数据源添加字段组的主要步骤。
 
@@ -40,7 +42,7 @@ Adobe Experience Platform数据源定义与实时客户资料服务的连接。 
 
    ![](assets/journey23.png)
 
-1. 单击 **[!UICONTROL 添加新字段组]** 定义要检索的一系列新字段。 请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
+1. 单击 **[!UICONTROL 添加新字段组]** 定义要检索的一系列新字段。 [了解详情](../datasource/configure-data-sources.md#define-field-groups)。
 
    ![](assets/journey24.png)
 
