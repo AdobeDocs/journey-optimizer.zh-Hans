@@ -1,5 +1,5 @@
 ---
-title: 创作网页
+title: 创建 Web 页面
 description: 了解如何在Journey Optimizer中创作网页并编辑其内容
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '916'
+ht-degree: 3%
 
 ---
 
-# 创作网页 {#author-web}
+# 创建 Web 页面 {#author-web}
 
 >[!AVAILABILITY]
 >
@@ -28,7 +29,11 @@ ht-degree: 2%
 
 从营销活动创建Web操作后，即可使用Web设计器编辑内容。 为此，请执行以下步骤。
 
-1. 从 **[!UICONTROL 操作]** 选项卡，选择 **[!UICONTROL 编辑内容]** 以开始创作web营销活动。 [了解详情](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>要在 [!DNL Journey Optimizer]，则必须使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+
+1. 从 **[!UICONTROL 操作]** 选项卡，选择 **[!UICONTROL 编辑内容]** 以开始创作web营销活动。
 
 1. 如果您创建的页面与规则匹配，则必须输入与此规则匹配的任何URL。 更改将应用于与规则匹配的所有页面。
 
@@ -42,7 +47,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >要访问，必须使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+   >网页必须包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}。
 
 1. 单击 **[!UICONTROL 打开Web设计器]** 来编辑。 [了解详情](author-web.md)
 
