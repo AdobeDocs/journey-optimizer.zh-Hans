@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
+exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
+source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -30,32 +31,23 @@ ht-degree: 0%
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <img alt="目标" src="assets/do-not-localize/dest.png" />
-    <br>
-  </td>
-  <td>
-    <div>可在其他目标中使用 — 当Journey Optimizer协同化和集成数据以提供超个性化的客户体验时，您希望在总体技术环境中的其他系统中使用此数据，同时您还希望通过其他方法来利用此数据。
+    <div><img alt="目标" src="assets/do-not-localize/dest.png" /> 
+    <br>可在其他目标中使用 — 当Journey Optimizer协同化和集成数据以提供超个性化的客户体验时，您希望在总体技术环境中的其他系统中使用此数据，同时您还希望通过其他方法来利用此数据。
     <div>
      <a href="../start/ajo-integrations.md">了解详情</a></div>
     </div>
     <br>
   </td>
 </tr>
-<tr style="border: 0;">
   <td>
-    <img alt="保留" src="assets/do-not-localize/retention.png" />
-  </td>
-  <td>
-    <div>保留的期限 — 行业或地区法规（如GDPR或CCPA）或内部数据管理政策规定了在Adobe Experience Platform数据湖中维护或存档数据的时长或时长。 <a href="../privacy/get-started-privacy.md">了解详情</a></div>
+    <div><img alt="保留" src="assets/do-not-localize/retention.png" />  
+    <br>保留的期限 — 行业或地区法规（如GDPR或CCPA）或内部数据管理政策规定了在Adobe Experience Platform数据湖中维护或存档数据的时长或时长。 <a href="../privacy/get-started-privacy.md">了解详情</a></div>
   </td>
 </tr>
 <tr style="border: 0;">
   <td>
-    <img alt="策略" src="assets/do-not-localize/policy.png" />
-    <br>
-  </td>
-  <td>
-    <div>根据商定的时间表或您的策略删除数据 — 数据删除是数据保护的一个关键方面，也是所有数据管理流程中的一个关键步骤。 Journey Optimizer可能会生成超出要求的数据。 此外，您还希望最大限度地关注在数据集所需持续时间之后所发生的情况 — 无论是因为实用程序还是法规的原因。 您需要的控制是删除任何给定时间点的数据。</div>
+    <div><img alt="策略" src="assets/do-not-localize/policy.png" /> 
+    <br>根据商定的时间表或您的策略删除数据 — 数据删除是数据保护的一个关键方面，也是所有数据管理流程中的一个关键步骤。 Journey Optimizer可能会生成超出要求的数据。 此外，您还希望最大限度地关注在数据集所需持续时间之后所发生的情况 — 无论是因为实用程序还是法规的原因。 您需要的控制是删除任何给定时间点的数据。 <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">在Adobe Experience Platform文档中了解有关数据卫生的更多信息</a></div>
   </td>
 </tr>
 </table>
@@ -66,18 +58,23 @@ Adobe Experience Platform是Journey Optimizer的构建基础，在参与期间�
 
 您可以使用Journey Optimizer的数据灵活性来满足与数据保留、存档或删除相关的特定要求：
 
-* **数据提取/导出**:您可以随时通过数据访问API启动源数据提取，而不会受到任何处罚或延迟。 的 [数据访问API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) 为用户提供一个RESTful界面，重点关注在Experience Platform内摄取的数据集的发现性和可访问性。 <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **数据提取/导出**:您可以随时通过数据访问API启动源数据提取，而不会受到任何处罚或延迟。 的 [数据访问API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;}为用户提供了RESTful界面，重点关注在Experience Platform内摄取的数据集的发现性和可访问性。 <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    请注意，无法通过上述API或目标方法提取历程或营销活动中使用的内容。
 
 * **配置文件服务数据保留**:对于附加到任何配置文件的行为和时间系列数据，您可以选择使用Journey Optimizer的默认设置，即从其添加到配置文件之日起，或直到您选择的替代时间段，将此数据保留多达30天。 Adobe保留此数据的时间因合同而异，在组织的数据保留策略中进行了概述。
 
+   进一步了解 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target=&quot;_blank&quot;}。
+
 * **清除和归档机制**:在Journey Optimizer中，可以自由定义和自动清除数据和存档，以自动执行数据保留策略。 可以为不同的数据实体定义不同的老化策略。 还可以定义导出机制，以在清除或存档老化数据之前自动导出老化数据。
+
+   利用Adobe Experience Platform UI中的数据卫生工作区，可创建和监视各种数据卫生任务，包括删除消费者身份和计划数据集过期。 在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
 
 * **数据湖和删除**:存储在数据湖中的客户数据可以由Journey Optimizer保留：
 
    * 7天，以便于将客户数据载入用户档案服务，之后可永久删除或
    * 直到您选择删除
+
 
 * **参与终止/退出时数据提取**:合同终止后，您的数据将从Adobe的存储空间中完全删除。 此外，您还可以在终止协议之前提取完整的用户档案提取。 此功能不需要额外付费。 这可以随时执行，而不只是在终止时执行。
 
