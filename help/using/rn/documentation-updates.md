@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 99%
@@ -17,7 +17,8 @@ ht-degree: 99%
 
 ## 2022 年 11 月 {#november-2022}
 
-添加了关于镜像页面URL长度的建议。 [了解详情](../design/message-tracking.md)
+<!--* Added a new page about Journey Optimizer integration. [Read more](../start/ajo-integrations.md)-->
+* 添加了关于镜像页面URL长度的建议。 [了解详情](../design/message-tracking.md)
 
 ## 2022 年 10 月 {#october-2022}
 

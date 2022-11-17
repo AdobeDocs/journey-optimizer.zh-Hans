@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '558'
 ht-degree: 5%
 
 ---
@@ -24,12 +24,11 @@ ht-degree: 5%
 >
 > Adobe Journey Optimizer构建于Adobe Experience Platform上，本地连接到 [Adobe实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。 此内置数据源已预配置，旨在从实时客户资料中检索和使用数据（例如，检查进入旅程的人员是否为客户）。 它允许您使用用户档案数据和体验事件数据。 [了解详情](../datasource/adobe-experience-platform-data-source.md)。
 
-
 ## Adobe Customer Journey Analytics{#integration-cja}
 
 您可以导出由Journey Optimizer生成的数据，以便在Customer Journey Analytics中执行高级分析。
 
-Journey Optimizer与Customer Journey Analytics集成通过自动报表分发和数据的自定义可视化图表，提供所有历程的整体视图。
+Journey Optimizer与Customer Journey Analytics的集成通过自动报表分发和自定义的数据可视化图表，全面了解您的所有历程、营销活动和选件。
 
 在Journey Optimizer中创建旅程后，您可以将客户数据导入Customer Journey Analytics，以开始报告并了解客户与您的旅程进行的每次交互的影响。
 
@@ -37,13 +36,13 @@ Journey Optimizer与Customer Journey Analytics集成通过自动报表分发和�
 
 ## Adobe Analytics{#integration-aa}
 
-您可以利用已在捕获并流入Adobe Experience Platform的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
+您可以利用已在捕获并流入Adobe Experience Platform的所有Adobe Analytics行为事件数据，以触发实时历程并自动化客户体验。
 
 详细了解 [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe智能服务{#integration-intelligent-service}
 
-与Adobe智能服务的集成，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。 [了解详情](../building-journeys/ai-services-overview.md)。
+与Adobe智能服务的集成，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。 例如，Adobe智能服务允许品牌创建基于流失率或转化机器学习的得分，这些得分将作为Adobe Experience Platform中的用户档案属性提供，并可用于个性化旅程。 [了解详情](../building-journeys/ai-services-overview.md)。
 
 
 ## Adobe Campaign{#integration-ac}
@@ -64,7 +63,7 @@ Journey Optimizer与Customer Journey Analytics集成通过自动报表分发和�
 
 详细了解 [自定义操作](../action/about-custom-action-configuration.md).
 
-## 外部系统{#integration-external-systems}
+## 外部数据源{#integration-external-systems}
 
 Journey Optimizer允许您通过自定义数据源和自定义操作配置与外部系统的连接。 例如，这允许您使用来自外部预订系统的数据扩充您的历程。
 
