@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 **格式**
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 
 <!--
@@ -33,7 +33,7 @@ ht-degree: 6%
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 -->
 
@@ -125,7 +125,7 @@ The following operation gets all the values for the map `identityMap`.
 **格式**
 
 ```sql
-{%= formatDate(date, format) %}
+{%= formatDate(datetime, format) %}
 ```
 
 其中，第一个字符串是日期属性，第二个值是您希望转换和显示日期的方式。
@@ -151,7 +151,7 @@ The following operation gets all the values for the map `identityMap`.
 **格式**
 
 ```sql
-{%= setDays(date, day) %}
+{%= setDays(datetime, day) %}
 ```
 
 <!--
@@ -171,7 +171,7 @@ The following operation gets all the values for the map `identityMap`.
 **格式**
 
 ```sql
-{%= setHours(date, hour) %}
+{%= setHours(datetime, hour) %}
 ```
 
 <!--
