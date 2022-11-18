@@ -4,7 +4,7 @@ product: journey optimizer
 title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 5%
@@ -67,6 +67,7 @@ ht-degree: 5%
     ]
    }
    ```
+
 * 要使用测试模式测试收藏集，您需要使用代码视图模式。 目前，业务事件不支持代码视图模式。 您只能发送包含单个元素的集合。
 
 ## 一般程序 {#general-procedure}

@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -62,6 +62,7 @@ ht-degree: 2%
 ## 步骤2:创建电子邮件{#configure-email}
 
 1. 在 **电子邮件** 活动，单击 **[!UICONTROL 编辑内容]**，然后单击 **[!UICONTROL Email Designer]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. 从Email Designer主页的左侧面板，将三个结构组件拖放到消息正文中。
@@ -109,6 +110,7 @@ ht-degree: 2%
 1. 单击 **[!UICONTROL 验证]**，然后单击 **[!UICONTROL 保存]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. 保存消息。
 
 ## 步骤4:插入购物车中的项目列表 {#each-helper}
@@ -164,6 +166,8 @@ ht-degree: 2%
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. 将此代码粘贴到 `{{#each}}` 标记和结束 `{/each}}` 标记：
 
    ```html
@@ -184,6 +188,7 @@ ht-degree: 2%
    1. 在上一个搜索结果中，添加 **[!UICONTROL 名称]** 表达式的令牌。
 
    重复以下步骤两次：
+
    * 将占位符“#quantity”替换为 **[!UICONTROL 数量]** 令牌。
    * 将占位符“#priceTotal”替换为 **[!UICONTROL 总价]** 令牌。
 
@@ -202,7 +207,9 @@ ht-degree: 2%
       </table>
    {{/each}}
    ```
+
 1. 单击 **[!UICONTROL 验证]**，然后单击 **[!UICONTROL 保存]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## 步骤5:插入产品特定的注释 {#if-helper}
@@ -225,6 +232,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. 从表达式中删除此条件：
@@ -258,6 +266,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. 修改表达式：
@@ -288,6 +297,7 @@ ht-degree: 2%
          {%else%} default_render
       {%/if%}
       ```
+
    1. 从表达式中删除“default_render”占位符。
 1. 单击 **[!UICONTROL 验证]**，然后单击 **[!UICONTROL 保存]**.
 
