@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 99%
+source-wordcount: '2145'
+ht-degree: 98%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 99%
 ## 2022 年 11 月 {#november-2022}
 
 * 添加了有关Journey Optimizer集成的新页面。 [了解详情](../start/ajo-integrations.md)
-* 添加了关于镜像页面URL长度的建议。 [了解详情](../design/message-tracking.md)
+* 添加了关于镜像页面URL长度的推荐。 [了解详情](../design/message-tracking.md)
 
 ## 2022 年 10 月 {#october-2022}
 
 * 添加了有关如何使用外部数据源和自定义操作限制吞吐量的历程用例。[了解详情](../building-journeys/limit-throughput.md)
 * 历程用例部分已重组为两个类别：[业务用例](../building-journeys/journeys-uc.md)和[技术用例](../building-journeys/collections.md)。
 * **实体数据集**&#x200B;部分已更新，其中包含更多详细信息。[了解详情](../data/datasets-query-examples.md#entity-dataset)
-* 与选择禁用管理和同意策略相关的信息已重新编入新章节。[了解详情](../privacy/opt-out.md)
+* 选择退出管理和同意策略部分已重组。 [了解详情](../privacy/opt-out.md)
 * 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../messages/messages-in-journeys.md#adv-settings)
 * 在&#x200B;**配置登陆页面子域**&#x200B;部分添加了注释，以指定登陆页面子域中不允许使用大写字母。[了解详情](../configuration/lp-subdomains.md)
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 * 更新了与 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函数相关的页面。
 * 添加了有关时间条件参数的详细信息。[了解详情](../building-journeys/condition-activity.md#time_condition)
 * 添加了有关内置数据集的信息。[了解详情](../data/get-started-datasets.md#access-datasets)
-* 全局报告和实时报告部分已重新组织，以提高可读性。[了解详情](../reports/global-report.md)
+* 改进并重组了“全局报告”和“实时报告”章节。 [了解详情](../reports/global-report.md)
 * 添加了 Adobe Journey Optimizer 中可用的所有报表量度的列表。
    [了解详情](../reports/global-report.md#email-and-sms-metrics)
 * “密件抄送电子邮件”部分已移至新的“存档支持”页面。[了解详情](../configuration/archiving-support.md)

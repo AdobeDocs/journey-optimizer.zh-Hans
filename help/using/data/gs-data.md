@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe Experience Platform是Journey Optimizer的构建基础，在参与期间�
 
 * **清除和归档机制**:在Journey Optimizer中，可以自由定义和自动清除数据和存档，以自动执行数据保留策略。 可以为不同的数据实体定义不同的老化策略。 还可以定义导出机制，以在清除或存档老化数据之前自动导出老化数据。
 
-   利用Adobe Experience Platform UI中的数据卫生工作区，可创建和监视各种数据卫生任务，包括删除消费者身份和计划数据集过期。 在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
+   利用Adobe Experience Platform UI中的数据卫生工作区，可创建和监视各种数据卫生任务，包括删除消费者身份和计划数据集过期。 此工作区在“安全和隐私保护”和“医疗保健保护”中均可用。 在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}。
 
 * **数据湖和删除**:存储在数据湖中的客户数据可以由Journey Optimizer保留：
 
