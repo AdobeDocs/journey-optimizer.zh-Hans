@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
-workflow-type: ht
-source-wordcount: '1572'
-ht-degree: 100%
+source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 99%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -215,7 +215,7 @@ ht-degree: 100%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -239,7 +239,7 @@ ht-degree: 100%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
   </tr>
 </table>
 
@@ -262,6 +262,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 英语
 * 法语
 * 德语
+* 意大利语
+* 西班牙语
+* 葡萄牙语（巴西）
+* 日语
+* 朝鲜语
 
 您的默认界面语言由您的用户档案中指定的首选语言决定。
 
