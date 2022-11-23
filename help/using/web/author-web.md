@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1051'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ ht-degree: 3%
 在 [!DNL Journey Optimizer] 用户界面，请遵循 [此部分](create-web.md#prerequesites).
 
 ## 编辑网页内容 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="输入要编辑的URL"
+>abstract="输入特定网页的URL，以用于编辑将应用于上面定义的Web表面的内容。 必须使用Adobe Experience Platform Web SDK来实施页面。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="了解更多"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 从营销活动创建Web操作后，即可使用Web设计器编辑内容。 为此，请执行以下步骤。
 
@@ -73,6 +81,11 @@ ht-degree: 3%
 
 ## 使用内容组件 {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="将内容组件添加到网页"
+>abstract="您可以向网页中添加许多组件，并根据需要对其进行编辑。"
+
 1. 从 **[!UICONTROL 组件]** 左侧的窗格中，您可以将以下组件添加到网页中，并根据需要对其进行编辑：
 
    * [除法器](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ ht-degree: 3%
 
 ### 交换到浏览模式 {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="使用浏览模式"
+>abstract="在此模式下，您可以从要个性化的选定表面导航到确切的页面。"
+
 您可以从默认 **[!UICONTROL 设计]** 模式 **[!UICONTROL 浏览]** 模式。
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ ht-degree: 3%
 ![](assets/web-designer-device.png)
 
 ## 管理修改 {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="轻松管理所有更改"
+>abstract="使用此窗格，您可以导航并管理您添加到网页的所有调整和样式。"
 
 您可以轻松管理您添加到网页的所有组件、调整和样式。
 
@@ -164,6 +187,11 @@ ht-degree: 3%
 ![](assets/web-designer-offer.png)
 
 ## 测试Web营销活动 {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="预览Web体验"
+>abstract="模拟您的Web体验。"
 
 要显示已修改的Web体验的预览，请执行以下步骤。
 

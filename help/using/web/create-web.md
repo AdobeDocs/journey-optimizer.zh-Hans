@@ -1,5 +1,5 @@
 ---
-title: 创建Web体验
+title: 创建 Web 体验
 description: 了解如何在Journey Optimizer中创作网页并编辑其内容
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1073'
 ht-degree: 6%
 
 ---
 
-# 创建Web体验 {#create-web}
+# 创建 Web 体验 {#create-web}
 
 >[!AVAILABILITY]
 >
@@ -57,6 +58,11 @@ ht-degree: 6%
    ![](assets/web-aep-merge-policy.png)
 
 ## 创建Web营销活动 {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="定义网页曲面"
+>abstract="Web界面可以匹配单个页面URL或多个页面，从而允许您在一个或多个网页中交付内容修改。"
 
 要开始通过营销活动构建Web体验，请执行以下步骤。
 

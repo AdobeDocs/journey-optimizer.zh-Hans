@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="定义要使用的地址"
->abstract="当数据库中有多个地址（个人地址、专业地址等）可用时，您可以选择要优先发送的地址。"
+>abstract="当数据库中有多个电子邮件地址或电话号码（个人、专业等）时，您可以选择发送的优先级。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address_header"
+>title="定义要使用的地址"
+>abstract="编辑用于确定用户档案电子邮件地址或电话号码以确定发送优先级的字段。"
 
 定位用户档案时，数据库中可能有多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
 
