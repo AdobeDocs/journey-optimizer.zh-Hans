@@ -1,5 +1,5 @@
 ---
-title: 应用程序内报表
+title: 应用程序内报告
 description: 了解如何使用应用程序内报表中的数据
 feature: Reporting
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 2%
+source-wordcount: '608'
+ht-degree: 4%
 
 ---
 
-
-# 应用程序内报表 {#inapp-report}
+# 应用程序内报告 {#inapp-report}
 
 应用程序内报表可在促销活动报表中找到。
 
@@ -63,3 +63,72 @@ ht-degree: 2%
 * [创建应用程序内消息](../in-app/create-in-app.md)
 * [设计应用程序内消息](../in-app/design-in-app.md)
 * [应用程序内配置](../in-app/inapp-configuration.md)
+
+
+>[!BEGINTABS]
+
+>[!TAB 向历程添加推送]
+
+1. 打开您的历程，然后从面板的“操作”部分拖放推送活动。
+
+1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。
+
+>[!TAB 向营销活动添加推送]
+
+1. 创建新的计划营销活动或API触发的营销活动，选择 **[!UICONTROL 推送通知]** 作为您的操作，然后选择 **[!UICONTROL 应用程序界面]** 。
+
+1. 单击&#x200B;**[!UICONTROL 创建]**。
+
+1. 从 **[!UICONTROL 属性]** ，编辑营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
+
+1. 单击 **[!UICONTROL 选择受众]** 按钮，以从可用的Adobe Experience Platform区段列表中定义要定位的受众。
+
+1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。
+
+1. 营销活动设计为在特定日期或定期频率执行。 了解如何配置 **[!UICONTROL 计划]** 你的营销活动。
+
+1. 从 **[!UICONTROL 操作触发器]** 菜单，选择 **[!UICONTROL 频率]** 在您的推送通知中：
+
+   * 一次
+   * 每日
+   * 每周
+   * 每月
+
+>[!ENDTABS]
+
+测试2:
+
+1. 这是个测试
+
+>[!BEGINTABS]
+
+>[!TAB 向历程添加推送]
+
+    1. 打开您的历程，然后从面板的“操作”部分拖放推送活动。
+    
+    1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。
+
+>[!TAB 向营销活动添加推送]
+
+    1. 创建新的计划营销活动或API触发的营销活动，选择**[!UICONTROL 推送通知]**作为您的操作，然后选**[!UICONTROL 应用程序界面]**使用。
+    
+    1. 单击**[!UICONTROL 创建]**。
+    
+    1. 从**[!UICONTROL 属性]**部分，编辑营销活动的**[!UICONTROL 标题]**和**[!UICONTROL 描述]**。
+    
+    1. 单击**[!UICONTROL 选择受众]**按钮，从可用的Adobe Experience Platform区段列表中定义要定位的受众。
+    
+    1. 在**[!UICONTROL 身份命名空间]**字段中，选择要用于识别选定区段中个人的命名空间。
+    
+    1. 营销活动设计为在特定日期或定期频率执行。 了解如何配置**[!UICONTROL 计划]**你的营销活动。
+    
+    1. 从**[!UICONTROL 操作触发器]**菜单，选择**[!UICONTROL 频率]**:
+    
+    *一次
+    *每日
+    *每周
+    *每月
+
+>[!ENDTABS]
+
+1. 这是测试的一部分
