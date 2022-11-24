@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,12 @@ ht-degree: 8%
 >
 >本节仅适用于基于规则的事件和需要使用Adobe Analytics数据的客户。
 
-要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
+要使此功能正常工作，您需要在Adobe Experience Platform中激活要使用的报表包。 为此，请执行以下步骤：
 
-1. 在Adobe Experience Platform中，选择 **[!UICONTROL 源]** then **[!UICONTROL 添加数据]** 在Adobe Analytics部分。 此时会显示可用的Adobe Analytics报表包列表。
+1. 连接到Adobe Experience Platform并浏览 **[!UICONTROL 源]**.
+1. 在Adobe Analytics部分中，选择 **[!UICONTROL 添加数据]**:随即会显示可用的Adobe Analytics报表包列表。
 
-1. 选择要启用的报表包，单击 **[!UICONTROL 下一个]** 单击 **[!UICONTROL 完成]**.
+1. 选择要启用的报表包，单击 **[!UICONTROL 下一个]** 和 **[!UICONTROL 完成]**.
 
 1. 与您的测试版计划联系人共享源数据ID。
 
