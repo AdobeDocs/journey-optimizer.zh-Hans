@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1578'
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 **[!UICONTROL 历程管理]**
 
-* **[!UICONTROL 历程]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL 历程]**  — 创建、配置和编排客户旅程。 [了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 登陆页面]** - 创建、设计、测试和发布登陆页面。[了解详情](../landing-pages/get-started-lp.md)
+* **[!UICONTROL 登陆页面]**  — 创建、设计、测试和发布登陆页面。 [了解详情](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL 决策管理]**
 
@@ -275,7 +275,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 单击右上角头像中的 **Preferences**。
    ![](assets/preferences.png)
 * 然后，单击电子邮件地址下显示的语言
-* 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二种语言。
+* 选择首选语言，然后单击 **Save**。如果您使用的组件未以第一种语言本地化，则可以选择第二种语言。
    ![](assets/select-language.png)
 
 ## 搜索{#unified-search}
