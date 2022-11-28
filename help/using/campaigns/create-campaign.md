@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '897'
 ht-degree: 9%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 9%
 >* [区段入门](../segment/about-segments.md)
 
 
-## 创建您的第1个营销活动 {#create}
+## 创建您的第一个营销活动 {#create}
 
 1. 访问 **[!UICONTROL 促销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**.
 
@@ -34,10 +35,12 @@ ht-degree: 9%
 
    ![](assets/create-campaign.png)
 
-1. 在 **[!UICONTROL 属性]** 部分，指定您希望何时执行营销活动：
+1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行营销活动：
 
-   * **[!UICONTROL 已计划]**:立即执行营销活动或在指定日期执行营销活动。 计划的营销活动旨在发送 **营销** 键入消息。
-   * **[!UICONTROL API触发]**:使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作后发出的消息：密码重置、卡放弃等。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
+   * **[!UICONTROL 已计划]**
+   * **[!UICONTROL API触发]**
+
+   有关促销活动类型和相关参与的详细信息，请参阅此 [部分](#campaigntype).
 
 1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL 创建]**.
 
@@ -95,7 +98,40 @@ ht-degree: 9%
 
 营销活动准备就绪后，您可以查看并发布它。 [了解详情](#review-activate)
 
+## 营销活动类型 {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="营销活动类型"
+>abstract="热障涂层"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="促销活动类别"
+>abstract="热障涂层"
+
+可用的营销活动类型有两种：
+
+* **[!UICONTROL 已计划]**:立即执行营销活动或在指定日期执行营销活动。 计划的营销活动旨在发送 **营销** 键入消息。
+
+* **[!UICONTROL API触发]**:使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作后发出的消息：密码重置、卡放弃等。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
+
 ## 计划营销活动 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="营销活动开始"
+>abstract="热障涂层"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="营销活动结束"
+>abstract="热障涂层"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Campaign操作触发器"
+>abstract="热障涂层"
 
 默认情况下，营销活动在手动激活后即开始，并在消息发送一次后结束。
 
@@ -105,7 +141,7 @@ ht-degree: 9%
 
 ![](assets/create-campaign-schedule.png)
 
-## 快速投放模式 {#rapid-delivery}
+## 推送促销活动的快速投放模式 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"

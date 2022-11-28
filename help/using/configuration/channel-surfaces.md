@@ -8,14 +8,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 1%
+source-wordcount: '1605'
+ht-degree: 3%
 
 ---
 
 # 设置渠道平面 {#set-up-channel-surfaces}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_channel_surfaces"
+>title="应用程序界面"
+>abstract="平面是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
+
 
 使用 [!DNL Journey Optimizer]，您可以设置渠道曲面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动应用程序、短信配置等。
 

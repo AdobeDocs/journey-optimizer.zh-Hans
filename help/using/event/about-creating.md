@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1530'
 ht-degree: 11%
 
 ---
@@ -107,6 +107,11 @@ ht-degree: 11%
    ![](assets/journey12.png)
 
 ## 选择命名空间 {#select-the-namespace}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_namespace"
+>title="身份命名空间"
+>abstract="热障涂层"
 
 命名空间允许您定义用于标识与事件关联的人员的键类型。 其配置是可选的。 如果要在您的历程中检索来自 [实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。 如果您仅使用来自第三方系统的数据通过自定义数据源，则不需要命名空间定义。
 
