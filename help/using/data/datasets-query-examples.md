@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ _界面中的名称：ajo_entity_dataset（系统数据集）_
 >[!NOTE]
 >
 >出于将来的兼容性原因，目前实体数据集中每个消息发布有两个条目。 这不会影响您根据需要在数据集中使用连接查询来获取所需信息的能力。
+
+如果要在报表中根据发送特定历程的操作对由特定历程发送的电子邮件进行排序。 您可以将消息反馈数据集与实体数据集结合使用。 要使用的字段包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
 
 以下查询可帮助您获取给定营销活动的关联消息模板：
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 97%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ ht-degree: 97%
 对于推送通知，您可以显示以下参数：令牌、应用程序 ID、应用程序平台。
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>如果覆盖其中一个属性，则还需要覆盖所有这三个属性。
 
 对于电子邮件，可以显示[主电子邮件地址](../configuration/primary-email-addresses.md)。
 

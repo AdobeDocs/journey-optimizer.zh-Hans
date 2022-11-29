@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 97%
+source-wordcount: '2189'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 * 添加了有关Journey Optimizer集成的新页面。 [了解详情](../start/ajo-integrations.md)
 * 添加了关于镜像页面URL长度的推荐。 [了解详情](../design/message-tracking.md)
 * 在电子邮件设置配置的回复电子邮件地址中添加了新子部分，包括确保正确回复管理的建议。 [了解详情](../configuration/email-settings.md#reply-to-email)
+* 添加了有关如何修改实时历程中消息内容的章节。 [了解详情](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022 年 10 月 {#october-2022}
 

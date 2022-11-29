@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 7%
+source-wordcount: '168'
+ht-degree: 6%
 
 ---
 
 # distinct {#distinct}
 
 返回给定列表的不同值或对象。 将忽略空条目。
+
+>[!NOTE]
+>
+>如果目标列表是listObject，则此函数只能在自定义操作表达式中使用。
 
 ## 类别
 

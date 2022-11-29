@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 24%
+source-wordcount: '223'
+ht-degree: 18%
 
 ---
 
@@ -39,4 +39,12 @@ ht-degree: 24%
 
    有关配置消息和定义其内容的所有步骤，请参见 [此部分](../messages/get-started-content.md).
 
+## 更新实时内容{#update-live-content}
 
+您可以更新实时历程中消息的内容（电子邮件、短信、推送）。
+
+为此，请打开您的实时历程，选择消息活动并单击 **编辑内容**.
+
+![](assets/add-a-message2.png)
+
+但是，您无法更改个性化中使用的属性，无论这些属性是用户档案属性还是上下文数据（来自事件或历程属性）。
