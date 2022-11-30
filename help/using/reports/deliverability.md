@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '695'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 2%
 # 可投放性入门 {#manage-deliverability}
 
 投放能力是衡量您向收件人发送收件箱的成功程度。
+
+>[!NOTE]
+>
+>对于授权Healthcare Shield的客户，Adobe使用传输层安全性(TLS)1.2来保护用户系统（收件人）与Journey Optimizer（发件人）之间的数据交换。 如果接收邮件服务器不支持TLS 1.2，则客户将遇到投放能力问题，包括退回原始发件人的电子邮件。
 
 **电子邮件投放能力** 是指一组特征，这些特征决定了消息在短时间内通过个人电子邮件地址到达其目的地的能力，并且在内容和格式方面具有预期的质量。 这些特征分为四大类：数据质量、消息和内容、发送基础结构和信誉。 它们共同构成了成功电子邮件投放能力计划的基础。
 
