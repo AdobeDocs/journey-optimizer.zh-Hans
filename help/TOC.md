@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 97%
+source-wordcount: '1278'
+ht-degree: 96%
 
 ---
 
@@ -173,8 +173,11 @@ ht-degree: 97%
       + [在历程中添加消息](using/messages/messages-in-journeys.md)
       + [在营销活动中添加消息](using/messages/messages-in-campaigns.md)
    + [创建电子邮件](using/messages/create-email.md)
+   + [创建电子邮件对号](using/messages/create-email-bis.md)
    + [创建推送通知](using/messages/create-push.md)
    + [创建短信消息](using/messages/create-sms.md)
+   + [创建短信消息之二](using/messages/create-sms-bis.md)
+   + [创建推送通知行](using/messages/create-push-bis.md)
    + [创建直邮](using/messages/create-direct-mail.md)
    + [检查警报](using/messages/alerts.md)
    + [发送时间优化](using/messages/send-time-optimization.md)
