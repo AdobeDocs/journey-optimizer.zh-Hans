@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 创建推送通知 {#create-push-notification-bis}
 
-## 在历程或营销策划中创建推送通知 {#create}
+## 在历程或营销策划中创建推送通知
 
 要创建推送通知，请执行以下步骤：
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-## 快速投放模式 {#rapid-delivery}
+## 快速投放模式
 
 快速交付模式（以前称为历程中的突发模式）是 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以大量量发送非常快速的推送消息。
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 有关使用快速投放模式时性能的更多信息，请参阅。
 
-### 先决条件 {#prerequisites}
+### 先决条件
 
 快速投放消息具有以下要求：
 

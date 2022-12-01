@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。为此，短信收件人可以使用选择加入和选择退出关键词进行回复。
 
-## 在历程或营销策划中创建短信消息 {#sms-content}
+## 在历程或营销策划中创建短信消息
 
 要开始个性化短信消息，请执行以下步骤：
 
@@ -65,7 +65,7 @@ ht-degree: 7%
 
 >[!ENDTABS]
 
-## 定义短信内容{#sms-content}
+## 定义短信内容
 
 1. 在历程或营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置短信内容。
 
@@ -77,7 +77,7 @@ ht-degree: 7%
 
 1. 当短信消息准备就绪时，完成要发送的配置。
 
-## 验证短信{#sms-preview}
+## 验证短信
 
 >[!NOTE]
 >
