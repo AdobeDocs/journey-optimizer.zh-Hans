@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
       + [时区管理](using/building-journeys/timezone-management.md)
       + [用户档案入口管理](using/building-journeys/entry-management.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
-      + [解决您的历程](using/building-journeys/troubleshooting.md)
+      + [对历程进行故障排除](using/building-journeys/troubleshooting.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 活动 {#about-journey-building}
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
@@ -391,7 +391,7 @@ ht-degree: 97%
 + 数据管理 {#data-management}
    + [数据管理入门](using/data/gs-data.md)
    + [使用模式](using/data/get-started-schemas.md)
-   + Journey Optimizer数据集 {#datasets}
+   + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
    + [查询](using/data/get-started-queries.md)
