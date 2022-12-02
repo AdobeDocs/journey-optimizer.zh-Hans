@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
 ht-degree: 100%
 
