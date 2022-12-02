@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 **[!UICONTROL 历程管理]**
 
-* **[!UICONTROL 历程]**  — 创建、配置和编排客户旅程。 [了解详情](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL 历程]** - 创建、配置和编排客户历程。[了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 登陆页面]**  — 创建、设计、测试和发布登陆页面。 [了解详情](../landing-pages/get-started-lp.md)
+* **[!UICONTROL 登陆页面]** - 创建、设计、测试和发布登陆页面。[了解详情](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL 决策管理]**
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>选项卡</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -215,7 +215,7 @@ ht-degree: 0%
   <tr>
     <td>文本字段</td>
     <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">弹出窗口</td>
@@ -239,7 +239,7 @@ ht-degree: 0%
   <tr>
     <td>负载预览</td>
     <td>选择有效负载</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>
 
@@ -275,7 +275,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 单击右上角头像中的 **Preferences**。
    ![](assets/preferences.png)
 * 然后，单击电子邮件地址下显示的语言
-* 选择首选语言，然后单击 **Save**。如果您使用的组件未以第一种语言本地化，则可以选择第二种语言。
+* 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
    ![](assets/select-language.png)
 
 ## 搜索{#unified-search}
