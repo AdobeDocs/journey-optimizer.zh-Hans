@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 15%
@@ -31,7 +31,7 @@ ht-degree: 15%
 
 在电子邮件设计器中，您可以个性化内容：
 
-* 在 **消息**:在文本块内单击，然后单击 **个性化** 图标，然后选择 **插入个性化** 字段。 有关Email Designer界面的更多信息，请参阅此 [部分](../design/design-emails.md).
+* 在 **消息**:在文本块内单击，然后单击 **个性化** 图标，然后选择 **插入个性化** 字段。 有关Email Designer界面的更多信息，请参阅此 [部分](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 ![](assets/perso_push.png)
 
-了解有关 [此部分](../configuration/push-gs.md).
+了解有关 [此部分](../push/push-gs.md).
 
 ## 个性化您的选件 {#personalize-offers}
 

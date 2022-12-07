@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -182,7 +182,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错并希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在 [此部分](../design/message-tracking.md#insert-links).
+   >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错并希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在 [此部分](../email/message-tracking.md#insert-links).
 
 1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ ht-degree: 2%
 
    ![](assets/lp_test-profiles.png)
 
-   选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../design/preview.md#select-test-profiles).
+   选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../email/preview.md#select-test-profiles).
 
 1. 选择 **[!UICONTROL 预览]** 选项卡，单击 **[!UICONTROL 打开预览]** 来测试登陆页面。
 
@@ -275,7 +275,7 @@ ht-degree: 2%
 
 发布登陆页面后，该页面会添加到登陆页面列表，其中包含 **[!UICONTROL 已发布]** 状态。
 
-它现已上线，可在 [!DNL Journey Optimizer] [消息](../messages/get-started-content.md) 将通过 [历程](../building-journeys/journey.md).
+它现已上线，可在 [!DNL Journey Optimizer] 将通过 [历程](../building-journeys/journey.md).
 
 >[!NOTE]
 >

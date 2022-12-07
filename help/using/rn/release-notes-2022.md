@@ -4,9 +4,9 @@ product: journey optimizer
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
-workflow-type: ht
-source-wordcount: '3461'
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '3453'
 ht-degree: 100%
 
 ---
@@ -232,7 +232,7 @@ ht-degree: 100%
 <td>
 <p>现在，通过与 <b>Sinch</b> 或 <b>Twilio</b> 集成，您可以在 Journey Optimizer 中创建、个性化和发送短信。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>在此<a href="../messages/create-sms.md">详细文档</a>中了解如何创建和发送短信。</p>
+<p>在此<a href="../sms/create-sms.md">详细文档</a>中了解如何创建和发送短信。</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,6 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 为历程中的消息创作提供了一个新流程。在 Journey Optimizer 中，内联消息传送可简化创建和发送电子邮件、推送通知或短信的工作流程，为用户节省大量时间。通过将消息作为单独的步骤删除，而改为在历程画布上的操作中使其可内联编辑，用户只需单击较少的按钮并导航较少的屏幕即可设计和编辑内容。</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>有关更多信息，请参阅<a href="../messages/get-started-content.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -364,7 +363,7 @@ ht-degree: 100%
 
 * **允许列表逻辑更新** - 现在，允许列表这一功能会在启用后立即应用允许列表逻辑，即使该列表为空也是如此。[了解详情](../configuration/allow-list.md#logic)
 
-* **URL 跟踪参数** - 现可使用表达式编辑器在电子邮件界面中配置 URL 跟踪参数（即消息预设）。[了解详情](../configuration/email-settings.md#url-tracking)
+* **URL 跟踪参数** - 现可使用表达式编辑器在电子邮件界面中配置 URL 跟踪参数（即消息预设）。[了解详情](../email/email-settings.md#url-tracking)
 
 **决策管理**
 
@@ -387,7 +386,7 @@ ht-degree: 100%
 <p>现在，通过与 <b>Sinch</b> 或 <b>Twilio</b> 集成，您可以在 Journey Optimizer 中创建、个性化和发送短信。</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>目前，短信渠道仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。</p>
-<p>在此<a href="../messages/create-sms.md">详细文档</a>中了解如何创建和发送短信。</p>
+<p>在此<a href="../sms/create-sms.md">详细文档</a>中了解如何创建和发送短信。</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +404,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 电子邮件设计器集成插件为客户提供一种简单的方式来导航、许可和保存图像，用于消息创作。使用</br>全新的<b>查找类似 Stock 照片</b>选项，您可查找与图像的内容、颜色以及合成匹配的照片库。 </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>有关更多信息，请参阅<a href="../design/stock.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../email/stock.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -474,12 +473,12 @@ ht-degree: 100%
 
 **电子邮件**
 
-* **另存为模板** – 现在，您可将电子邮件内容另存为模板，并在创建其他消息时重复使用。[了解详情](../design/email-templates.md)
+* **另存为模板** – 现在，您可将电子邮件内容另存为模板，并在创建其他消息时重复使用。[了解详情](../email/email-templates.md)
 
 
 **管理**
 
-* **预览跟踪 URL 参数** – 现在，配置消息预设时，如果定义了 URL 跟踪参数，则会显示所产生的跟踪 URL 的动态预览。[了解详情](../configuration/email-settings.md#url-tracking)
+* **预览跟踪 URL 参数** – 现在，配置消息预设时，如果定义了 URL 跟踪参数，则会显示所产生的跟踪 URL 的动态预览。[了解详情](../email/email-settings.md#url-tracking)
 
 * **消息预设版本** - 现在，更新消息预设时，处理时间最长可能只需 3 小时。[了解详情](../configuration/channel-surfaces.md#edit-channel-surface)
 

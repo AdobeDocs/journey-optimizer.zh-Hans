@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 2%
@@ -71,7 +71,7 @@ ISP通常以一种突出的方式将收到的消息报告为垃圾邮件。 这�
 
 * **取消订阅链接和登陆页面**:取消订阅链接至关重要。 它必须可见且有效，并且表单必须有效。
 
-[了解有关设计电子邮件内容的更多信息](../design/design-emails.md).
+[了解有关设计电子邮件内容的更多信息](../email/get-started-email-design.md).
 
 ## 建立发件人的声誉
 

@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 1%
@@ -61,7 +61,7 @@ ht-degree: 1%
 * 直接量度，即用户对打开电子邮件或单击链接等处理方式做出直接反应。
 * 间接或“漏斗底部”量度，在用户接触到处理后发生。
 
-对于Adobe Journey Optimizer跟踪消息的直接目标量度，最终用户的响应事件会自动使用促销活动和处理标识符进行标记，从而允许将响应量度与处理直接关联。 [了解有关跟踪的更多信息](../design/message-tracking.md).
+对于Adobe Journey Optimizer跟踪消息的直接目标量度，最终用户的响应事件会自动使用促销活动和处理标识符进行标记，从而允许将响应量度与处理直接关联。 [了解有关跟踪的更多信息](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

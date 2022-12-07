@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 1%
 
 ---
-
 
 # 创建动态内容 {#dynamic-content}
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 
    ![](assets/conditions-language-sample.png)
 
-1. 内容准备就绪后，您可以使用 **[!UICONTROL 模拟内容]** 按钮。 [了解如何测试和预览消息](../design/preview.md)
+1. 内容准备就绪后，您可以使用 **[!UICONTROL 模拟内容]** 按钮。 [了解如何测试和预览消息](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 

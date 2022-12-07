@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
@@ -23,13 +23,13 @@ ht-degree: 2%
 
 要将自定义JavaScript插入登陆页面内容，您可以执行以下操作：
 
-* 在开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 了解如何导入内容 [在此部分中](../design/existing-content.md).
+* 在开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 了解如何导入内容 [在此部分中](../email/existing-content.md).
 
-* 从头开始或从保存的模板开始设计登陆页面。 拖放 **[!UICONTROL HTML]** 内容组件添加到画布中，并显示源代码以将您的JavaSCript添加到组件中。 了解如何在中使用HTML组件 [此部分](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 从头开始或从保存的模板开始设计登陆页面。 拖放 **[!UICONTROL HTML]** 内容组件添加到画布中，并显示源代码以将您的JavaSCript添加到组件中。 了解如何在中使用HTML组件 [此部分](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* 直接在内容设计器中输入或粘贴JavaScript代码。 了解如何编码您自己的内容 [在此部分中](../design/code-content.md).
+* 直接在内容设计器中输入或粘贴JavaScript代码。 了解如何编码您自己的内容 [在此部分中](../email/code-content.md).
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ description: Adobe Journey Optimizer 产品帮助中心
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
-workflow-type: ht
-source-wordcount: '336'
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,15 +42,10 @@ ht-degree: 100%
     <p>
     <p>
     <div>
-      <a href="using/design/design-emails.md">设计电子邮件内容</a>
+      <a href="using/email/get-started-email-design.md">设计电子邮件内容</a>
     </div>
     <p>
     设计新电子邮件或导入现有 HTML 内容
-    <p>
-    <div>
-      <a href="using/messages/get-started-content.md">发送消息</a>
-    </div>
-    <p>了解如何在客户历程中添加推送、短信和电子邮件消息
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">创建您的第一个历程</a>
@@ -127,7 +122,7 @@ ht-degree: 100%
     <p>
     <p>内容管理</p>
     <li>
-      <a href="using/design/assets-essentials.md">资源</a>
+      <a href="using/email/assets-essentials.md">资源</a>
     </li>
     <p>
     <p>数据管理</p>

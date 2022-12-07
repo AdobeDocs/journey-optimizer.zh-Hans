@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
-workflow-type: ht
-source-wordcount: '1264'
-ht-degree: 100%
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '1301'
+ht-degree: 94%
 
 ---
 
@@ -160,57 +160,71 @@ ht-degree: 100%
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
-   + [管理实时营销活动](using/campaigns/modify-stop-campaign.md)
+   + [管理活动](using/campaigns/modify-stop-campaign.md)
    + 内容体验{#content-experiment}
       + [内容体验入门](using/campaigns/get-started-experiment.md)
       + [创建内容体验](using/campaigns/content-experiment.md)
       + [了解统计计算](using/campaigns/experiment-calculations.md)
       + [配置实验报表](using/campaigns/reporting-configuration.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-+ 消息 {#messages}
-   + 消息入门{#get-started-msg}
-      + [概述](using/messages/get-started-content.md)
-      + [在历程中添加消息](using/messages/messages-in-journeys.md)
-      + [在营销活动中添加消息](using/messages/messages-in-campaigns.md)
-   + [创建电子邮件](using/messages/create-email.md)
-   + [创建推送通知](using/messages/create-push.md)
-   + [创建短信消息](using/messages/create-sms.md)
-   + [创建直邮](using/messages/create-direct-mail.md)
-   + [检查警报](using/messages/alerts.md)
-   + [发送时间优化](using/messages/send-time-optimization.md)
-+ Web 渠道{#web}
-   + [Web 渠道入门](using/web/get-started-web.md)
-   + [创建 Web 体验](using/web/create-web.md)
-   + [创建 Web 页面](using/web/author-web.md)
-   + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
-   + [Web 报告](using/web/web-report.md)
++ 电子邮件渠道 {#email}
+   + [电子邮件入门](using/email/get-started-email.md)
+   + [创建电子邮件](using/email/create-email.md)
+   + 设计电子邮件内容 {#design-email}
+      + [电子邮件设计入门](using/email/get-started-email-design.md)
+      + 开始创建内容 {#start-creating-content}
+         + [从零开始](using/email/content-from-scratch.md)
+         + [导入电子邮件内容](using/email/existing-content.md)
+         + [对您自己的内容进行编码](using/email/code-content.md)
+         + [使用模板](using/email/email-templates.md)
+      + 设计内容 {#add-content}
+         + [使用内容组件](using/email/content-components.md)
+         + [添加链接和跟踪消息](using/email/message-tracking.md)
+         + 管理资产 {#manage-asset}
+            + [使用 Assets Essentials](using/email/assets-essentials.md)
+            + [使用 Adobe Stock](using/email/stock.md)
+         + [添加个性化优惠](using/email/add-offers-email.md)
+         + [生成文本版本](using/email/text-version-email.md)
+         + [添加预编译标头](using/email/preheader.md)
+      + 编辑样式 {#edit-style}
+         + [编辑背景设置](using/email/backgrounds.md)
+         + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
+         + [为链接定义样式](using/email/styling-links.md)
+         + [添加内联样式属性](using/email/inline-styling.md)
+   + [预览和测试电子邮件](using/email/preview.md)
+   + [管理电子邮件选择退出](using/email/email-opt-out.md)
+   + 配置电子邮件渠道 {#configure-email}
+      + [电子邮件配置入门](using/email/get-started-email-config.md)
+      + [配置电子邮件界面设置](using/email/email-settings.md)
 + 应用程序内渠道{#in-app}
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
    + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
    + [应用程序内报告](using/in-app/inapp-report.md)
-+ 设计内容 {#design}
-   + [电子邮件设计入门](using/design/design-emails.md)
-   + [从零开始 ](using/design/create-email-content.md)
-   + [导入电子邮件内容](using/design/existing-content.md)
-   + [对您自己的内容进行编码](using/design/code-content.md)
-   + [使用模板](using/design/email-templates.md)
-   + 内容设计 {#design-content}
-      + [使用内容组件](using/design/content-components.md)
-      + [背景设置](using/design/backgrounds.md)
-      + [调整垂直对齐和填充](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [为链接定义样式](using/design/styling-links.md)
-      + [添加内联样式属性](using/design/adding-inline-styling-attributes.md)
-   + 电子邮件设置 {#design-email}
-      + [生成文本版本](using/design/text-version-email.md)
-      + [添加预编译标头](using/design/preheader.md)
-   + 添加和管理资源 {#manage-asset}
-      + [使用 Assets Essentials](using/design/assets-essentials.md)
-      + [使用 Adobe Stock](using/design/stock.md)
-   + [添加个性化优惠](using/design/deliver-personalized-offers.md)
-   + [添加链接和跟踪消息](using/design/message-tracking.md)
-   + [预览和证明](using/design/preview.md)
++ 推送通知渠道{#push}
+   + [推送通知入门](using/push/get-started-push.md)
+   + [创建推送通知](using/push/create-push.md)
+   + [设计推送通知](using/push/design-push.md)
+   + [发送推送通知](using/push/send-push.md)
+   + 配置推送通知{#push-config}
+      + [推送通知和Adobe Journey Optimizer](using/push/push-gs.md)
+      + [配置推送通知渠道](using/push/push-configuration.md)
++ 短信渠道{#sms}
+   + [短信入门](using/sms/get-started-sms.md)
+   + [创建短信消息](using/sms/create-sms.md)
+   + [发送短信消息](using/sms/send-sms.md)
+   + [管理短信选择退出](using/sms/sms-opt-out.md)
+   + [配置短信渠道](using/sms/sms-configuration.md)
++ 直邮{#direct-mail}
+   + [创建直邮](using/direct-mail/create-direct-mail.md)
+   + [配置直邮](using/direct-mail/direct-mail-configuration.md)
++ Web 渠道{#web}
+   + [Web 渠道入门](using/web/get-started-web.md)
+   + [创建 Web 体验](using/web/create-web.md)
+   + [创建 Web 页面](using/web/author-web.md)
+   + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
+   + [Web 报告](using/web/web-report.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -398,9 +412,6 @@ ht-degree: 100%
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + 配置消息{#configuration-message}
-      + 配置推送通知{#push-config}
-         + [推送配置入门](using/configuration/push-gs.md)
-         + [配置推送通知渠道](using/configuration/push-configuration.md)
       + 配置电子邮件 {#email-configuration}
          + 委派子域{#delegate-subdomains}
             + [子域委派入门](using/configuration/about-subdomain-delegation.md)
@@ -414,11 +425,8 @@ ht-degree: 100%
             + [禁止列表](using/configuration/manage-suppression-list.md)
             + [重试](using/configuration/retries.md)
             + [允许列表](using/configuration/allow-list.md)
-      + [配置短信渠道](using/configuration/sms-configuration.md)
-      + [配置直邮](using/configuration/direct-mail-configuration.md)
       + 设置渠道平面 {#set-up-channels}
          + [创建渠道平面](using/configuration/channel-surfaces.md)
-         + [配置电子邮件设置](using/configuration/email-settings.md)
       + [存档支持](using/configuration/archiving-support.md)
       + [管理执行地址](using/configuration/primary-email-addresses.md)
       + [配置频率规则](using/configuration/frequency-rules.md)

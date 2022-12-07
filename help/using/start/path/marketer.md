@@ -5,8 +5,8 @@ title: Journey Optimizer 营销人员入门指南
 description: 作为历程实践者，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -24,13 +24,13 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets Essentials] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../design/assets-essentials.md)了解详情。
+1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets Essentials] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../email/assets-essentials.md)了解详情。
 
 1. **添加优惠**。使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。[在此部分中](../../offers/get-started/starting-offer-decisioning.md)了解有关决策管理的更多信息。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **测试和验证**。定义内容后，即可使用测试个人资料对其进行预览和测试。如果插入[个性化内容](../../personalization/personalize.md)，您可以通过测试用户档案数据，检查此内容在消息中的显示方式。此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../design/preview.md)了解如何测试和验证消息。
+1. **测试和验证**。定义内容后，即可使用测试个人资料对其进行预览和测试。如果插入[个性化内容](../../personalization/personalize.md)，您可以通过测试用户档案数据，检查此内容在消息中的显示方式。此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../email/preview.md)了解如何测试和验证消息。
 
 1. **设计客户历程**，以提供个性化的情境式体验。[!DNL Journey Optimizer] 使您可以利用存储在事件或数据源中的上下文数据，生成实时编排用例。设计由以下功能提供支持的分步式高级方案：
 

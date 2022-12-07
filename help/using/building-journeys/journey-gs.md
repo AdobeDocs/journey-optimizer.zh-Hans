@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 11%
+source-wordcount: '1009'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
    ![](assets/jo-datasource.png)
 
-1. **配置操作**:如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。如果您使用的是Journey Optimizer内置的消息功能，则只需在历程中添加渠道操作并设计内容即可。 请参阅[此小节](../messages/get-started-content.md)。
+1. **配置操作**:如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。如果您使用的是Journey Optimizer内置的消息功能，则只需在历程中添加渠道操作并设计内容即可。
 
    ![](assets/custom2.png)
 

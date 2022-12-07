@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    ![](assets/jo-uc4.png)
 
-1. 删除 **电子邮件** 操作活动，并定义“第一条消息”的内容。 此消息将发送给历程中的所有个人。 请参阅 [部分](../messages/create-email.md) 了解如何配置和设计电子邮件。
+1. 删除 **电子邮件** 操作活动，并定义“第一条消息”的内容。 此消息将发送给历程中的所有个人。 请参阅 [部分](../email/create-email.md) 了解如何配置和设计电子邮件。
 
    ![](assets/jo-uc5.png)
 
@@ -104,11 +104,11 @@ ht-degree: 1%
    >
    >在为多个事件配置超时（本例中是两个反应）时，您只需为其中一个事件配置超时。
 
-1. 在超时路径中，将 **电子邮件** 活动，并定义“跟进”消息的内容。 此消息将发送给未在第二天打开电子邮件或推送第一封邮件的用户。 请参阅 [部分](../messages/create-email.md) 了解如何配置和设计电子邮件。
+1. 在超时路径中，将 **电子邮件** 活动，并定义“跟进”消息的内容。 此消息将发送给未在第二天打开电子邮件或推送第一封邮件的用户。 请参阅 [部分](../email/create-email.md) 了解如何配置和设计电子邮件。
 
 1. 将三个路径连接到之前创建的购买事件。 当个人购买商品时，将触发该事件。
 
-1. 事件后，删除 **推送** 活动，并定义“谢谢”消息的内容。 请参阅 [部分](../messages/create-push.md) 了解如何配置和设计推送。
+1. 事件后，删除 **推送** 活动，并定义“谢谢”消息的内容。 请参阅 [部分](../push/create-push.md) 了解如何配置和设计推送。
 
 ## 测试并发布历程
 

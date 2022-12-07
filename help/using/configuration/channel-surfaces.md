@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 3%
@@ -22,14 +22,13 @@ ht-degree: 3%
 >title="应用程序界面"
 >abstract="平面是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
 
-
 使用 [!DNL Journey Optimizer]，您可以设置渠道曲面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动应用程序、短信配置等。
 
 >[!CAUTION]
 >
 > * 要创建、编辑和删除通道曲面，您必须具有 [管理渠道表面](../administration/high-low-permissions.md#manage-channel-surface) 权限。
 >
-> * 您必须执行 [电子邮件配置](email-settings.md), [推送配置](../configuration/push-configuration.md) 和 [短信配置](../configuration/sms-configuration.md) 创建通道曲面之前的步骤。
+> * 您必须执行 [电子邮件配置](../email/get-started-email-config.md), [推送配置](../push/push-configuration.md) 和 [短信配置](../sms/sms-configuration.md) 创建通道曲面之前的步骤。
 
 
 配置渠道表面后，您将能够在从历程或营销策划创建消息时选择渠道表面。
@@ -64,7 +63,7 @@ ht-degree: 3%
    >
    > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 还可以使用下划线 `_`，点`.` 和连字符 `-` 字符。
 
-1. 如果您选择了 **[!UICONTROL 电子邮件]** 渠道，按照 [此部分](email-settings.md).
+1. 如果您选择了 **[!UICONTROL 电子邮件]** 渠道，按照 [此部分](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](push-gs.md).
+   >有关如何配置环境以发送推送通知的更多信息，请参阅 [此部分](../push/push-gs.md).
 
-1. 对于 **[!UICONTROL 短信]** 渠道，定义设置，详情请参阅 [此部分](sms-configuration.md#message-preset-sms).
+1. 对于 **[!UICONTROL 短信]** 渠道，定义设置，详情请参阅 [此部分](../sms/sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](sms-configuration.md).
+   >有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](../sms/sms-configuration.md).
 
 1. 配置所有参数后，单击 **[!UICONTROL 提交]** 确认。 您还可以将通道曲面另存为草稿，并稍后恢复其配置。
 

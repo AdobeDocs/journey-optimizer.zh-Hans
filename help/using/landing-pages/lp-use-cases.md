@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 15%
@@ -53,9 +53,9 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [设计电子邮件](../messages/get-started-content.md) 以宣布注册现已对您的活动开放。
+1. [设计电子邮件](../email/get-started-email-design.md) 以宣布注册现已对您的活动开放。
 
-1. [插入链接](../design/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL 登陆页面]** 作为 **[!UICONTROL 链接类型]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
+1. [插入链接](../email/message-tracking.md#insert-links) 到消息内容中。 选择 **[!UICONTROL 登陆页面]** 作为 **[!UICONTROL 链接类型]** 然后选择 [登陆页面](create-lp.md#configure-primary-page) 创建的注册目录。
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ ht-degree: 15%
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [创建电子邮件](../messages/get-started-content.md) 在旅程中。
+1. [创建电子邮件](../email/get-started-email-design.md) 在旅程中。
 
-1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../design/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
+1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../email/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
 
    ![](assets/lp_opt-out-insert-link.png)
 

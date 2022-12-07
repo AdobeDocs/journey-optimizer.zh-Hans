@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -60,11 +60,11 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 >
 >您的密件抄送功能使用情况将根据您获得许可的消息数量进行计数。 因此，只能在您希望存档的关键通信所使用的表面上启用它。 检查您的合同中是否有许可的卷。
 
-“密件抄送”电子邮件地址设置将立即保存并处理在表面级别。 当您 [创建新消息](../messages/get-started-content.md) 使用此表面，会自动显示密送电子邮件地址。
+“密件抄送”电子邮件地址设置将立即保存并处理在表面级别。 使用此表面创建新邮件时，会自动显示密送电子邮件地址。
 
 ![](assets/preset-bcc-in-msg.png)
 
-但是，将按照描述的逻辑提取密件抄送地址以发送通信 [此处](email-settings.md).
+但是，将按照描述的逻辑提取密件抄送地址以发送通信 [此处](../email/email-settings.md).
 
 ### Recommendations和限制 {#bcc-recommendations-limitations}
 
@@ -74,7 +74,7 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 
 * 对于空间和投放，应正确管理用于密件抄送的收件箱。 如果收件箱返回退回，则可能未收到某些电子邮件，因此将无法存档。
 
-* 在目标收件人之前，可将邮件发送至密件抄送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
+* 在目标收件人之前，可以将邮件发送到密送电子邮件地址。 即使原始消息可能已发送，也会发送密送消息 [已退回](../reports/suppression-list.md#delivery-failures).
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 

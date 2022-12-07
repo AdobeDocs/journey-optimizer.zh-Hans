@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -80,7 +81,7 @@ ht-degree: 4%
 
 ![](assets/in_app_content_3.png)
 
-键入您的媒体URL，或单击 **[!UICONTROL 选择资产]** 图标，可直接将存储在资产库中的资产添加到应用程序内消息。 [了解有关资产管理的更多信息](../design/assets-essentials.md).
+键入您的媒体URL，或单击 **[!UICONTROL 选择资产]** 图标，可直接将存储在资产库中的资产添加到应用程序内消息。 [了解有关资产管理的更多信息](../email/assets-essentials.md).
 您还可以添加 **[!UICONTROL 替换文本]** 屏幕读取应用程序。
 
 +++更多具有高级格式的选项
@@ -190,6 +191,5 @@ ht-degree: 4%
 **相关主题：**
 
 * [创建应用程序内消息](create-in-app.md)
-* [应用程序内报表](inapp-report.md)
+* [应用程序内报告](inapp-report.md)
 * [应用程序内配置](inapp-configuration.md)
-

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -23,14 +23,14 @@ ht-degree: 3%
 
 从此处，您可以：
 
-* **从头开始设计登陆页面** 通过内容设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../design/create-email-content.md).
+* **从头开始设计登陆页面** 通过内容设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../email/content-from-scratch.md).
 
-* **代码或粘贴原始HTML** 直接导入内容设计器。 了解如何编码您自己的内容 [在此部分中](../design/code-content.md).
+* **代码或粘贴原始HTML** 直接导入内容设计器。 了解如何编码您自己的内容 [在此部分中](../email/code-content.md).
 
-* **导入现有HTML内容** 文件或.zip文件夹中。 了解如何导入内容 [在此部分中](../design/existing-content.md).
+* **导入现有HTML内容** 文件或.zip文件夹中。 了解如何导入内容 [在此部分中](../email/existing-content.md).
 
 * **使用保存的登陆页面模板** 创建于 [!DNL Journey Optimizer]. [了解详情](lp-templates.md)
 
 >[!NOTE]
 >
->登陆页面内容设计器与电子邮件设计器大体相似。 了解详情 [设计内容 [!DNL Journey Optimizer]](../design/design-emails.md).
+>登陆页面内容设计器与电子邮件设计器大体相似。 了解详情 [设计内容 [!DNL Journey Optimizer]](../email/get-started-email-design.md).

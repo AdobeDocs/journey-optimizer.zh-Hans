@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 2%
 激活营销活动后，您可以随时修改或停止该营销活动。 这些操作仅适用于定期执行的营销活动。
 
 此外，您还可以复制实时营销活动（执行一次或定期执行）以创建新营销活动，并存档已完成或已停止的营销活动。
+
+## 访问活动 {#access}
+
+营销活动可从 **[!UICONTROL 促销活动]** 菜单。
+
+默认情况下，列表会显示 **[!UICONTROL 草稿]**, **[!UICONTROL 已计划]**&#x200B;和 **[!UICONTROL 实时]** 状态。
+
+要显示已停止、已完成和已存档的营销活动，您需要清除过滤器。
+
+![](assets/create-campaign-list.png)
+
+## 营销活动状态 {#statuses}
+
+营销活动可以有多种状态：
+
+* **[!UICONTROL 草稿]**:营销活动正在编辑，尚未激活。
+* **[!UICONTROL 激活]**:营销活动正在激活。
+* **[!UICONTROL 实时]**:营销活动已激活。
+* **[!UICONTROL 已计划]**:营销活动配置为在特定开始日期激活。
+* **[!UICONTROL 已停止]**:营销活动已手动停止。 您无法再激活或重复使用它。 [了解如何停止营销活动](modify-stop-campaign.md#stop)
+* **[!UICONTROL 已完成]**:营销活动已完成。 此状态在营销活动激活3天后自动分配，如果营销活动定期执行，则在营销活动结束日期自动分配。
+* **[!UICONTROL 已存档]**:营销活动已存档。 [了解如何存档营销活动](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>位于 **[!UICONTROL 实时]** 或 **[!UICONTROL 已计划]** 状态表示营销活动的新版本已创建且尚未激活。 [了解详情](modify-stop-campaign.md#modify)。
 
 ## 修改定期营销活动 {#modify}
 

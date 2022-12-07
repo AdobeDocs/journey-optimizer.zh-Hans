@@ -4,9 +4,9 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2187'
 ht-degree: 99%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 99%
 ## 2022 年 11 月 {#november-2022}
 
 * 添加了有关 Journey Optimizer 集成的新页面。[了解详情](../start/ajo-integrations.md)
-* 添加了有关镜像页面 URL 长度的建议。[了解详情](../design/message-tracking.md)
-* 在电子邮件设置配置中新增了有关回复电子邮件地址的子部分，其中包括确保正确进行回复管理的建议。[了解详情](../configuration/email-settings.md#reply-to-email)
+* 添加了有关镜像页面 URL 长度的建议。[了解详情](../email/message-tracking.md)
+* 在电子邮件设置配置中新增了有关回复电子邮件地址的子部分，其中包括确保正确进行回复管理的建议。[了解详情](../email/email-settings.md#reply-to-email)
 * 添加了有关如何修改实时历程中消息内容的章节。 [了解详情](../building-journeys/journeys-message.md#update-live-content)
 
 ## 2022 年 10 月 {#october-2022}
@@ -28,7 +28,7 @@ ht-degree: 99%
 * 历程用例部分已重组为两个类别：[业务用例](../building-journeys/journeys-uc.md)和[技术用例](../building-journeys/collections.md)。
 * **实体数据集**&#x200B;部分已更新，其中包含更多详细信息。[了解详情](../data/datasets-query-examples.md#entity-dataset)
 * 对选择退出管理和同意策略部分进行了重组。[了解详情](../privacy/opt-out.md)
-* 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../messages/messages-in-journeys.md#adv-settings)
+* 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。
 * 在&#x200B;**配置登陆页面子域**&#x200B;部分添加了注释，以指定登陆页面子域中不允许使用大写字母。[了解详情](../configuration/lp-subdomains.md)
 
 ## 2022 年 9 月 {#september-2022}
@@ -76,21 +76,21 @@ ht-degree: 99%
 * 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
-* “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../messages/send-time-optimization.md)
+* “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
 * Batch Decisioning API 已添加到可用 API 列表中，以提供个性化优惠。[了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了与[区段鉴别](../reports/query-examples.md#segment-qualification-queries)和[事件](../reports/query-examples.md#event-based-queries)相关的新查询示例。
-* 电子邮件设计部分现对新的内置模板进行了介绍，在开始制作内容时可以利用这些模板。更新了相关屏幕截图。[了解更多信息](../design/design-emails.md)
+* 电子邮件设计部分现对新的内置模板进行了介绍，在开始制作内容时可以利用这些模板。更新了相关屏幕截图。[了解更多信息](../email/get-started-email-design.md)
 * 在 Journey Optimizer 文档主页中更新了关键资源的链接。
 * 更新了登陆页面和订阅报告的屏幕截图。[了解更多信息](../reports/live-report.md)
 * 添加了注释，说明自定义操作不支持 Delete 方法。[了解更多信息](../action/about-custom-action-configuration.md)
 * 更新了操作方法视频的链接。
 * 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/channel-surfaces.md)和[配置登陆页面](../configuration/lp-subdomains.md)部分，以提高可读性。
-* 通过示例更新并改进了 URL 跟踪部分。[了解详情](../configuration/email-settings.md#url-tracking)
-* 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解详情](../configuration/email-settings.md#forward-email)
+* 通过示例更新并改进了 URL 跟踪部分。[了解详情](../email/email-settings.md#url-tracking)
+* 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解详情](../email/email-settings.md#forward-email)
 
 ## 2022 年 4 月 {#april-2022}
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/channel-surfaces.md#create-channel-surface)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../privacy/opt-out.md#opt-out-management)
-* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../design/message-tracking.md#insert-links)
+* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../email/message-tracking.md#insert-links)
 
 ## 2021 年 11 月 {#november-2021}
 
@@ -204,8 +204,8 @@ ht-degree: 99%
 * 在主页中添加了到 [!DNL Journey Optimizer] 产品说明的链接
 * 在多个页面中添加了教程视频
 * 优化了主页图像
-* 对“消息跟踪”部分进行了移动和改进，并将其重命名为“添加链接和跟踪消息”。[了解更多信息](../design/message-tracking.md)
-* 在镜像页面上添加了子部分。[了解更多信息](../design/message-tracking.md#mirror-page)
+* 对“消息跟踪”部分进行了移动和改进，并将其重命名为“添加链接和跟踪消息”。[了解更多信息](../email/message-tracking.md)
+* 在镜像页面上添加了子部分。[了解更多信息](../email/message-tracking.md#mirror-page)
 * 在文档和屏幕中，将“优惠活动”重命名为“决策”，将“决策”重命名为“决策范围”。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用辅助函数个性化消息](../personalization/personalization-use-case-helper-functions.md)
 * 更新了读取区段文档，以反映实体化区段的影响。[了解更多信息](../building-journeys/read-segment.md)

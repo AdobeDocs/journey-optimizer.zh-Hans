@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -94,13 +94,13 @@ ht-degree: 4%
 
 1. 从 **[!UICONTROL 组件]** 左侧的窗格中，您可以将以下组件添加到网页中，并根据需要对其进行编辑：
 
-   * [除法器](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [图像](../design/content-components.md#image)
-   * 标题 — 使用此组件与使用 **[!UICONTROL 文本]** 组件。 [了解详情](../design/content-components.md#text)
-   * 段落 — 使用此组件与使用 **[!UICONTROL 文本]** 组件。 [了解详情](../design/content-components.md#text)
-   * 链接 — 了解如何在 [此部分](../design/styling-links.md)
-   * [优惠决策](../design/deliver-personalized-offers.md)
+   * [除法器](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [图像](../email/content-components.md#image)
+   * 标题 — 使用此组件与使用 **[!UICONTROL 文本]** 组件。 [了解详情](../email/content-components.md#text)
+   * 段落 — 使用此组件与使用 **[!UICONTROL 文本]** 组件。 [了解详情](../email/content-components.md#text)
+   * 链接 — 了解如何在 [此部分](../email/styling-links.md)
+   * [优惠决策](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -188,7 +188,7 @@ ht-degree: 4%
 
 ![](assets/web-designer-personalization.png)
 
-使用 **[!UICONTROL 优惠决策]** 插入组件 [选件](../offers/get-started/starting-offer-decisioning.md) 到您的网页中。 该过程与 [向电子邮件添加选件](../design/deliver-personalized-offers.md). 它将利用决策管理来选择最佳选件，以提供给您的客户。
+使用 **[!UICONTROL 优惠决策]** 插入组件 [选件](../offers/get-started/starting-offer-decisioning.md) 到您的网页中。 该过程与 [向电子邮件添加选件](../email/add-offers-email.md). 它将利用决策管理来选择最佳选件，以提供给您的客户。
 
 ![](assets/web-designer-offer.png)
 

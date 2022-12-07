@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 3%
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 要将频度规则应用于消息，请执行以下步骤。
 
-1. [创建消息](../messages/get-started-content.md#create-new-message) ，方法是选择您为规则定义的渠道之一。
+1. 通过选择您为规则定义的渠道之一来创建消息。
 
 1. 选择为 [创建的规则](#create-new-rule).
 
@@ -162,9 +162,9 @@ ht-degree: 3%
 
 1. 保存并 [激活](#activate-rule) 规则。
 
-1. 创建电子邮件并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../messages/get-started-content.md#create-new-message)
+1. 创建电子邮件并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../email/create-email.md)
 
-1. 创建推送通知并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../messages/get-started-content.md#create-new-message)
+1. 创建推送通知并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../push/create-push.md)
 
 在此方案中，单个用户档案：
 * 每月最多可接收12条营销消息；

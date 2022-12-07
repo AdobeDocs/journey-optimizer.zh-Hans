@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -155,7 +155,7 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 
 Journey Optimizer允许您通过向消息中的一个或多个个性化字段，来对其进行个性化。 要个性化URL，请执行以下步骤：
 
-1. 在消息内容中创建链接。 [了解详情](../design/message-tracking.md#insert-links)
+1. 在消息内容中创建链接。 [了解详情](../email/message-tracking.md#insert-links)
 1. 从个性化图标中，选择属性。 个性化图标仅适用于以下类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
 
 ![](assets/perso-url.png)

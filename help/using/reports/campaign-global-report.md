@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 1%
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->的 **[!UICONTROL 优化与非优化]** 和 **[!UICONTROL 发送时间优化]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [本页](../messages/send-time-optimization.md).
+>的 **[!UICONTROL 优化与非优化]** 和 **[!UICONTROL 发送时间优化]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [本页](../building-journeys/journeys-message.md#send-time-optimization).
 
 的 **[!UICONTROL 优化与非优化]** 图表详细列出了与消息相关的主要信息（无论消息是否已优化）：
 
@@ -192,7 +192,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->的 **[!UICONTROL 优化与非优化]** 和 **[!UICONTROL 发送时间优化]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [本页](../messages/send-time-optimization.md).
+>的 **[!UICONTROL 优化与非优化]** 和 **[!UICONTROL 发送时间优化]**  只有为您的投放激活了发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [本页](../building-journeys/journeys-message.md#send-time-optimization).
 
 的 **[!UICONTROL 优化与非优化]** 图表详细列出了与消息相关的主要信息（无论消息是否已优化）：
 

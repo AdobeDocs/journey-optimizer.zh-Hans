@@ -5,8 +5,8 @@ title: Journey Optimizer 数据工程师入门
 description: 作为历程工程师，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **配置源连接器**。Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用 Platform 服务来构建、标记和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。要了解有关源连接器的更多信息，请参阅[本页](../get-started-sources.md)。
 
-1. **创建测试用户档案**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试用户档案，并在发送之前[预览和测试消息](../../design/preview.md)。[本页](../../segment/creating-test-profiles.md)中详细说明了创建测试用户档案的步骤。
+1. **创建测试用户档案**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试用户档案，并在发送之前[预览和测试消息](../../email/preview.md)。[本页](../../segment/creating-test-profiles.md)中详细说明了创建测试用户档案的步骤。
 
 
 此外，要在历程中发送消息，您必须配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。[在此部分中](../../configuration/about-data-sources-events-actions.md)了解详情。
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 * **事件**&#x200B;允许您统一触发历程，向流入历程的个人实时发送消息。在事件配置中，您可以配置历程中的预期事件。对于传入事件的数据，将会按照 Adobe 体验数据模型 (XDM) 进行标准化。事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。要了解有关事件的更多信息，请参阅[此部分](../../event/about-events.md)。
 
-* [!DNL Journey Optimizer] 附带[内置消息功能](../../messages/get-started-content.md)：您可以在历程中创建消息并设计内容。如果您使用第三方系统来发送消息，例如 Adobe Campaign，请创建&#x200B;**自定义操作**。要了解有关此中操作的更多信息，请参阅[此部分](../../action/action.md)。
+* [!DNL Journey Optimizer] 附带内置消息功能：您可以在历程中创建消息并设计内容。如果您使用第三方系统来发送消息，例如 Adobe Campaign，请创建&#x200B;**自定义操作**。要了解有关此中操作的更多信息，请参阅[此部分](../../action/action.md)。

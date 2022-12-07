@@ -4,7 +4,7 @@ product: journey optimizer
 title: 过往发行说明（2021 年）
 description: Journey Optimizer 2021 年发行说明
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 95%
@@ -182,7 +182,7 @@ ht-degree: 95%
 <td>
 <p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。由 Adobe 的 AI 服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，以最大化参与度。</p>
 <p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
-<p>有关更多信息，请参阅<a href="../messages/send-time-optimization.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journeys-message.md#send-time-optimization">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ ht-degree: 95%
 
 **内容设计**
 
-* **背景** - 现在，实时预览支持背景图像。[了解详情](../design/preview.md)
+* **背景** - 现在，实时预览支持背景图像。[了解详情](../email/preview.md)
 * **一键式选择退出链接** - 您可以在电子邮件内容中插入新类型的链接：**选择退出**&#x200B;链接让用户只需单击一下即可取消订阅以停止接收您的通信，而不会被重定向到登陆页面以确认选择退出。[了解详情](../privacy/opt-out.md#one-click-opt-out-link)
 
 **个性化**
@@ -346,9 +346,9 @@ ht-degree: 95%
 
 **预览和测试**
 
-* 标识和命名空间现在在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../design/preview.md#preview-your-messages)
+* 标识和命名空间现在在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../email/preview.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
-* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../design/preview.md#send-proofs)
+* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../email/preview.md#send-proofs)
 
 **个性化表达式编辑器**
 

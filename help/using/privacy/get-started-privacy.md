@@ -7,16 +7,18 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
-workflow-type: ht
-source-wordcount: '205'
-ht-degree: 100%
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 90%
 
 ---
 
 # 隐私入门 {#privacy}
 
 Journey Optimizer 是一款用于收集和处理超大量数据（包括个人信息和敏感数据）的强大工具。因此，需要对隐私进行谨慎管理。
+
+此外，GDPR等法规规定，您必须先遵守特定要求，然后才能使用数据主体提供的信息。 此外，数据主体应当能够随时修改其许可。
 
 Adobe Experience Platform 和 Journey Optimizer 提供了多种工具，帮助您确保妥当地进行隐私管理。
 

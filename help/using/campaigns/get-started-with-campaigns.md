@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 9%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -66,32 +66,6 @@ ht-degree: 9%
 
 1. **您需要受众**. 在创建营销活动之前，需要提供受众区段。 了解有关受众创建的更多信息 [本页](../segment/about-segments.md).
 1. **你需要一个通道表面**. 要选择渠道，必须创建并提供相应的渠道表面（即预设）。 进一步了解渠道曲面 [本页](../configuration/channel-surfaces.md).
-
-## 访问活动 {#access}
-
-营销活动可从 **[!UICONTROL 促销活动]** 菜单。
-
-默认情况下，列表会显示 **[!UICONTROL 草稿]**, **[!UICONTROL 已计划]**&#x200B;和 **[!UICONTROL 实时]** 状态。
-
-要显示已停止、已完成和已存档的营销活动，您需要清除过滤器。
-
-![](assets/create-campaign-list.png)
-
-## 营销活动状态 {#statuses}
-
-营销活动可以有多种状态：
-
-* **[!UICONTROL 草稿]**:营销活动正在编辑，尚未激活。
-* **[!UICONTROL 激活]**:营销活动正在激活。
-* **[!UICONTROL 实时]**:营销活动已激活。
-* **[!UICONTROL 已计划]**:营销活动配置为在特定开始日期激活。
-* **[!UICONTROL 已停止]**:营销活动已手动停止。 您无法再激活或重复使用它。 [了解如何停止营销活动](modify-stop-campaign.md#stop)
-* **[!UICONTROL 已完成]**:营销活动已完成。 此状态在营销活动激活3天后自动分配，如果营销活动定期执行，则在营销活动结束日期自动分配。
-* **[!UICONTROL 已存档]**:营销活动已存档。 [了解如何存档营销活动](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->位于 **[!UICONTROL 实时]** 或 **[!UICONTROL 已计划]** 状态表示营销活动的新版本已创建且尚未激活。 [了解详情](modify-stop-campaign.md#modify)。
 
 ## 操作方法视频 {#video}
 

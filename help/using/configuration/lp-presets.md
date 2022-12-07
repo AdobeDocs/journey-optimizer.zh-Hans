@@ -6,7 +6,7 @@ description: 了解如何配置环境以通过Journey Optimizer创建和使用�
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 5%
@@ -66,7 +66,7 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
    将显示与所选子域对应的设置。
 
-1. 如果要为跟踪URL选择登陆页面子域，请检查 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../design/message-tracking.md)
+1. 如果要为跟踪URL选择登陆页面子域，请检查 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
