@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 13%
@@ -26,7 +26,7 @@ ht-degree: 13%
 >
 >根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。为此，短信收件人可以使用选择加入和选择退出关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-## 在历程或营销策划中创建短信消息 {#sms-content}
+## 在历程或营销策划中创建短信消息 {#create-sms-journey-campaign}
 
 要开始个性化短信消息，请执行以下步骤：
 
