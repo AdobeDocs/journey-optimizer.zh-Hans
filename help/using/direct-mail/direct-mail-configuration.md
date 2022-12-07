@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
 >abstract="直邮界面包含文件格式设置，其中包含目标受众数据，将由邮件提供商使用。 您还必须通过选择文件路由配置来定义将导出文件的位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="配置文件路由"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]
