@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程入门
+title: 创建您的第一个历程
 description: 使用 Adobe Journey Optimizer 构建您的首个历程的关键步骤
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 10%
 
 ---
 
-# 历程入门{#jo-quick-start}
+# 创建您的第一个历程{#jo-quick-start}
 
 ## 先决条件{#start-prerequisites}
 
