@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 94%
+source-wordcount: '1296'
+ht-degree: 93%
 
 ---
 
@@ -183,10 +183,11 @@ ht-degree: 94%
          + 管理资产 {#manage-asset}
             + [使用 Assets Essentials](using/email/assets-essentials.md)
             + [使用 Adobe Stock](using/email/stock.md)
-         + [添加个性化优惠](using/email/add-offers-email.md)
+         + [插入个性化优惠](using/email/add-offers-email.md)
          + [生成文本版本](using/email/text-version-email.md)
          + [添加预编译标头](using/email/preheader.md)
       + 编辑样式 {#edit-style}
+         + [电子邮件样式入门](using/email/get-started-email-style.md)
          + [编辑背景设置](using/email/backgrounds.md)
          + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
          + [为链接定义样式](using/email/styling-links.md)
@@ -234,7 +235,10 @@ ht-degree: 94%
       + [创建模板](using/landing-pages/lp-templates.md)
       + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
    + [创建订阅列表](using/landing-pages/subscription-list.md)
-   + [用例](using/landing-pages/lp-use-cases.md)
+   + [通过用例学习](using/landing-pages/lp-use-cases.md)
+   + 配置登陆页面 {#lp-configuration}
+      + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
+      + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 个性化和动态内容{#personalized-dynamic-content}
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
@@ -411,28 +415,20 @@ ht-degree: 94%
    + [查询](using/data/get-started-queries.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
-   + 配置消息{#configuration-message}
-      + 配置电子邮件 {#email-configuration}
-         + 委派子域{#delegate-subdomains}
-            + [子域委派入门](using/configuration/about-subdomain-delegation.md)
-            + [委派子域](using/configuration/delegate-subdomain.md)
-            + [访问委派的子域](using/configuration/access-subdomains.md)
-         + 管理与子域相关的操作 {#subdomain-related-actions}
-            + [添加 Google TXT 记录](using/configuration/google-txt.md)
-            + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
-            + [创建 IP 池](using/configuration/ip-pools.md)
-         + 监测电子邮件地址{#monitor-reputation}
-            + [禁止列表](using/configuration/manage-suppression-list.md)
-            + [重试](using/configuration/retries.md)
-            + [允许列表](using/configuration/allow-list.md)
-      + 设置渠道平面 {#set-up-channels}
-         + [创建渠道平面](using/configuration/channel-surfaces.md)
-      + [存档支持](using/configuration/archiving-support.md)
-      + [管理执行地址](using/configuration/primary-email-addresses.md)
-      + [配置频率规则](using/configuration/frequency-rules.md)
-   + 配置登陆页面 {#lp-configuration}
-      + [配置登陆页面子域](using/configuration/lp-subdomains.md)
-      + [定义登陆页面预设](using/configuration/lp-presets.md)
+   + 委派电子邮件子域 {#delegate-subdomains}
+      + [子域委派入门](using/configuration/about-subdomain-delegation.md)
+      + [委派子域](using/configuration/delegate-subdomain.md)
+      + [添加 Google TXT 记录](using/configuration/google-txt.md)
+      + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
+      + [创建 IP 池](using/configuration/ip-pools.md)
+   + [设置渠道平面](using/configuration/channel-surfaces.md)
+   + 监测电子邮件地址{#monitor-reputation}
+      + [禁止列表](using/configuration/manage-suppression-list.md)
+      + [重试](using/configuration/retries.md)
+      + [允许列表](using/configuration/allow-list.md)
+   + [存档支持](using/configuration/archiving-support.md)
+   + [配置频度规则](using/configuration/frequency-rules.md)
+   + [管理执行地址](using/configuration/primary-email-addresses.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + [与外部系统集成](using/configuration/external-systems.md)

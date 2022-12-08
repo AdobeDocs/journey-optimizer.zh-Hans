@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -72,7 +72,7 @@ ht-degree: 2%
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. 选择预设。 了解如何在 [此部分](../configuration/lp-presets.md#lp-create-preset).
+1. 选择预设。 了解如何在 [此部分](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ ht-degree: 2%
 
    ![](assets/lp_open-designer.png)
 
-1. 定义登陆页面URL。 URL的第一部分要求您之前在 [预设](../configuration/lp-presets.md#lp-create-preset) 已选择。 [了解详情](../configuration/lp-subdomains.md)
+1. 定义登陆页面URL。 URL的第一部分要求您之前在 [预设](../landing-pages/lp-presets.md#lp-create-preset) 已选择。 [了解详情](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ ht-degree: 2%
    >
    >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错并希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在 [此部分](../email/message-tracking.md#insert-links).
 
-1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../configuration/lp-subdomains.md)
+1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

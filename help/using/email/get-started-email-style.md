@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 设计电子邮件
-description: 了解如何调整电子邮件内容样式
+title: 电子邮件样式入门
+description: 了解调整电子邮件内容样式的不同方法
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 0%
 
 ---
 
-# 电子邮件内容样式入门 {#get-started-email-style}
+# 电子邮件样式入门 {#get-started-email-style}
 
 开始在 [!DNL Journey Optimizer]，则可以从“Email Designer”设置窗格中调整许多样式参数和属性。
 

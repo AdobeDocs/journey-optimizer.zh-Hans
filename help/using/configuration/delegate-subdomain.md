@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 9%
@@ -86,7 +86,7 @@ ht-degree: 9%
    >
    >您稍后可以使用 **[!UICONTROL 另存为草稿]** 按钮。 然后，您将能够从子域列表中打开子域委派，以恢复子域委派。
 
-1. 提交完整子域委派后，该子域将显示在列表中，其中 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).
+1. 提交完整子域委派后，该子域将显示在列表中，其中 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -167,7 +167,7 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
    >
    >您还可以在以后使用 **[!UICONTROL 另存为草稿]** 按钮。 然后，您将能够从子域列表中打开子域委派，以恢复子域委派。
 
-1. 提交CNAME子域委派后，该子域将显示在列表中，并且 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).
+1. 提交CNAME子域委派后，该子域将显示在列表中，并且 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](about-subdomain-delegation.md#access-delegated-subdomains).
 
    在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查（通常需要2到3小时）。 有关详细信息，请参阅[此部分](#subdomain-validation)。
 

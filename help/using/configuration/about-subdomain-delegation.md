@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 32%
+source-wordcount: '897'
+ht-degree: 26%
 
 ---
 
@@ -69,3 +69,31 @@ ht-degree: 32%
 有关域配置的其他信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 如果您对子域配置方法有任何疑问，请联系Adobe，或最终联系客户关怀团队以请求可交付性咨询。
+
+## 访问委派的子域 {#access-delegated-subdomains}
+
+所有委派的子域都显示在 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]** 菜单。 过滤器可帮助您优化列表（委派日期、用户或状态）。
+
+![](assets/subdomain-list.png)
+
+的 **[!UICONTROL 状态]** 列提供有关子域委派过程的信息：
+
+* **[!UICONTROL 草稿]**:子域委派已另存为草稿。 单击子域名以恢复委派过程，
+* **[!UICONTROL 处理]**:子域在使用之前会先执行多项配置检查，
+* **[!UICONTROL 成功]**:子域已成功完成检查，并可用于投放消息。
+* **[!UICONTROL 失败]**:提交子域委派后，一个或多个检查失败。
+
+要使用 **[!UICONTROL 成功]** 状态，从列表中将其打开。
+
+![](assets/subdomain-delegated.png)
+
+您可以：
+
+* 检索在委派过程中配置的子域名（只读），以及生成的URL（资源、镜像页面、跟踪URL），
+
+* 将Google站点验证TXT记录添加到子域，以确保对其进行验证(请参阅 [将Google TXT记录添加到子域](google-txt.md))。
+
+
+>[!CAUTION]
+>
+>子域配置对所有环境都是通用的。 因此，对子域的任何修改也会影响生产沙箱。

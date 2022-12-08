@@ -8,10 +8,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 40%
+source-wordcount: '381'
+ht-degree: 34%
 
 ---
 
@@ -24,21 +24,31 @@ ht-degree: 40%
 
 ## 配置消息和渠道
 
-定义渠道表面，调整和自定义消息。
+1. 要创建和发送消息，您需要根据渠道执行特定配置。
 
-* [委派以Adobe子域](about-subdomain-delegation.md) 要用于发送电子邮件和 [创建IP池](ip-pools.md) 将随您的实例配置的IP地址分组到一起。
+   * 对于 **电子邮件** 渠道中，您需要将子域委派到Adobe，并创建IP池以将IP地址分组到一起。 [了解详情](../email/get-started-email-config.md)
 
-* 管理在将电子邮件地址发送到禁止列表之前执行重试的天数。[了解详情](manage-suppression-list.md)
+   * 对于 **推送** 渠道，您需要在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. [了解详情](../push/push-configuration.md)
 
-* 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定义推送通知设置。[了解详情](../push/push-gs.md)
+   * 对于 **短信** 渠道中，您需要配置实例以发送短信，包括将提供商设置与 [!DNL Journey Optimizer]. [了解详情](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. 完成后，您必须创建 **通道曲面** 配置投放消息所需的所有技术参数。 [了解详情](channel-surfaces.md)
 
-* 配置您的实例以发送短信（当前仅适用于一组组织 — 有限可用性）。 [了解详情](../sms/sms-configuration.md)
+1. 您还可以：
 
-* 创建渠道界面以配置传送消息所需的所有技术参数。 [了解详情](channel-surfaces.md)
+   * 管理在将电子邮件地址发送到禁止列表之前执行重试的天数。[了解详情](manage-suppression-list.md)
 
-* 在Adobe Experience Platform中提供多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。 [了解详情](primary-email-addresses.md)
+   * 启用 **BBC电子邮件选项** 来保存发送给个人的邮件副本。 [了解详情](archiving-support.md#enable-bcc)
+
+   * 配置 **频率规则** 以避免过度关注收件人。 [了解详情](frequency-rules.md)
+
+   * 在Adobe Experience Platform中提供多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。 [了解详情](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>这些步骤必须由 [Adobe Journey Optimizer系统管理员](../start/path/administrator.md).
 
 ## 配置历程
 

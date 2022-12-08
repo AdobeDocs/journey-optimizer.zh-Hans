@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 21%
@@ -28,7 +28,7 @@ TXT 记录是一种 DNS 记录类型，用于提供有关域的文本信息，�
 
 >[!CAUTION]
 >
-> 仅当子域具有 **[!UICONTROL 成功]** 状态。 有关子域状态的更多信息，请参阅 [此部分](access-subdomains.md).
+> 仅当子域具有 **[!UICONTROL 成功]** 状态。 有关子域状态的更多信息，请参阅 [此部分](about-subdomain-delegation.md#access-delegated-subdomains).
 
 要将Google TXT记录添加到子域，请执行以下步骤：
 

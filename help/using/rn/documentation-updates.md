@@ -4,16 +4,24 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2022 年 12 月 {#december-2022}
+
+* 邮件指南已重组并拆分为每个渠道的专用指南：
+
+   * [电子邮件渠道](../email/get-started-email.md)
+   * [推送通知渠道](../push/get-started-push.md)
+   * [短信渠道](../sms/get-started-sms.md)
 
 ## 2022 年 11 月 {#november-2022}
 
@@ -29,7 +37,7 @@ ht-degree: 99%
 * **实体数据集**&#x200B;部分已更新，其中包含更多详细信息。[了解详情](../data/datasets-query-examples.md#entity-dataset)
 * 对选择退出管理和同意策略部分进行了重组。[了解详情](../privacy/opt-out.md)
 * 对历程消息中高级参数的部分进行了阐明，现在指定电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。
-* 在&#x200B;**配置登陆页面子域**&#x200B;部分添加了注释，以指定登陆页面子域中不允许使用大写字母。[了解详情](../configuration/lp-subdomains.md)
+* 在&#x200B;**配置登陆页面子域**&#x200B;部分添加了注释，以指定登陆页面子域中不允许使用大写字母。[了解详情](../landing-pages/lp-subdomains.md)
 
 ## 2022 年 9 月 {#september-2022}
 
@@ -88,7 +96,7 @@ ht-degree: 99%
 * 更新了登陆页面和订阅报告的屏幕截图。[了解更多信息](../reports/live-report.md)
 * 添加了注释，说明自定义操作不支持 Delete 方法。[了解更多信息](../action/about-custom-action-configuration.md)
 * 更新了操作方法视频的链接。
-* 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/channel-surfaces.md)和[配置登陆页面](../configuration/lp-subdomains.md)部分，以提高可读性。
+* 重新组织了[电子邮件配置](../configuration/about-subdomain-delegation.md)、[消息预设](../configuration/channel-surfaces.md)和[配置登陆页面](../landing-pages/lp-subdomains.md)部分，以提高可读性。
 * 通过示例更新并改进了 URL 跟踪部分。[了解详情](../email/email-settings.md#url-tracking)
 * 添加了关于设置转发电子邮件地址的新子部分。 请注意，您无法通过用户界面执行此操作。 [了解详情](../email/email-settings.md#forward-email)
 
