@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
-# 操作员 {#operators}
+# 运算符 {#operators}
 
 ## 布尔函数 {#boolean-functions}
 

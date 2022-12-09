@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Campaign v7/v8 发送消息
+title: 使用Campaign v7/v8发送消息
 description: 了解如何使用Campaign v7/v8发送消息
 feature: Actions
 topic: Administration
@@ -11,7 +11,7 @@ exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
    ![](assets/accintegration-uc-2.png)
 
-1. 设计模板。 在此示例中，我们对用户档案的名字和订单号进行个性化设置。 名字在Adobe Experience Platform数据源中，订单号是我们的Journey Optimizer事件中的一个字段。 确保在Campaign中使用正确的字段名称。
+1. 设计模板。 在此示例中，我们对用户档案的名字和订单号进行个性化设置。 名字在Adobe Experience Platform数据源中，订单号是Journey Optimizer事件中的一个字段。 确保在Campaign中使用正确的字段名称。
 
    ![](assets/accintegration-uc-3.png)
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 
    ![](assets/accintegration-uc-5.png)
 
-1. 然后，您需要在Journey Optimizer中创建与营销活动模板对应的操作。 在 **操作类型** 下拉列表，选择 **Adobe Campaign Classic**.
+1. 然后，您需要在Journey Optimizer中创建与您的促销活动模板对应的操作。 在 **操作类型** 下拉列表，选择 **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
    ![](assets/accintegration-uc-10.png)
 
-1. 测试您的历程.
+1. 测试您的历程。
 
    ![](assets/accintegration-uc-11.png)
 

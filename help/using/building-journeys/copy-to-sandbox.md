@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 2%
+source-wordcount: '836'
+ht-degree: 0%
 
 ---
 
-# 将历程复制到另一个沙盒 {#copy-to-sandbox}
+# 将历程复制到其他沙盒 {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="将历程复制到另一个沙盒"
+>title="将历程复制到其他沙盒"
 >abstract="Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还会复制历程所依赖的大多数对象。"
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ ht-degree: 2%
 >title="从属对象"
 >abstract="这是历程中使用的关联对象列表。 此列表显示名称、对象类型以及内部Journey Optimizer ID。"
 
-Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 有关已复制对象的详细信息，请参阅 [部分](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还会复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 有关已复制对象的详细信息，请参阅 [部分](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
 要将历程复制到其他沙盒，请执行以下步骤：
 
-1. 在“历程管理”菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
+1. 在历程管理菜单部分中，单击 **[!UICONTROL Journeys]**. 将显示历程列表。
 
 2. 搜索要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个圆点），然后单击 **复制到沙盒**.
 
@@ -95,7 +95,7 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
    画布上历程的表示形式，包括历程中的对象，如条件、操作、事件、读取区段等。 跳转活动将从副本中排除。
 
-* 活动
+* 事件
 
    将复制历程中使用的事件和事件详细信息。
 
@@ -107,4 +107,4 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
 对于方案、合并策略和区段，当第二次尝试复制这些对象时，将只引用它们。 它们将被视为已存在的对象，并将再次复制。 这意味着这些对象只能复制一次。
 
-在Adobe Journey Optimizer引用架构、合并策略和区段之前，需要经过五分钟的延迟，才能在画布中看到错误。 等待五分钟，这些参考资料将可用。
+Adobe Journey Optimizer引用架构、合并策略和区段之前有五分钟的延迟，而不会在画布中看到错误。 等待五分钟，这些参考资料将可用。

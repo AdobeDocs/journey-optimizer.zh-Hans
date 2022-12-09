@@ -9,13 +9,13 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
 # 列出决策规则 {#list-decision-rules}
 
-决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。 您可以通过对 [!DNL Offer Library] API。
+决策规则是添加到个性化选件并应用于用户档案以确定资格的限制。 您可以通过执行对 [!DNL Offer Library] API。
 
 **API格式**
 

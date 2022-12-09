@@ -1,5 +1,5 @@
 ---
-title: 删除收藏集
+title: 删除集合
 description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 feature: Offers
 topic: Integrations
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 7%
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
-# 删除收藏集 {#delete-collection}
+# 删除集合 {#delete-collection}
 
-有时可能需要删除(DELETE)集合。 只能删除您在租户容器中创建的集合。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的集合的$id的API。
+有时可能需要删除（删除）集合。 只能删除您在租户容器中创建的集合。 这是通过对 [!DNL Offer Library] 使用您要删除的集合的$id的API。
 
 **API格式**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的响应会返回HTTP状态202（无内容）和空白正文。
 
-您可以通过尝试对集合进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为该集合已从容器中删除。
+您可以尝试对集合进行查找(GET)请求以确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为该集合已从容器中删除。

@@ -10,19 +10,19 @@ level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
 # 警报入门 {#alerts}
 
-Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。当您操作中达到一组特定条件（例如，系统违反阈值时可能出现的问题）时，会向组织中订阅这些条件的任何用户发送警报消息。 这些消息可以在预定义的时间间隔内重复，直到警报得到解析。
+Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。 当您操作中达到一组特定条件（例如，系统违反阈值时可能出现的问题）时，会向组织中订阅这些条件的任何用户发送警报消息。 这些消息可以在预定义的时间间隔内重复，直到警报得到解析。
 
-在Adobe Experience Platform中了解有关警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
+进一步了解Adobe Experience Platform中的警报 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
 要了解如何订阅和配置警报，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
-在左侧菜单的 **管理**，单击 **警报**. 提供了预配置的Journey Optimizer警报。 如果读取区段节点在定义的时间范围内未处理任何配置文件，则此警报将警告您。
+在左侧菜单的 **管理**，单击 **警报**. 提供了Journey Optimizer的预配置警报。 如果读取区段节点在定义的时间范围内未处理任何配置文件，则此警报将警告您。
 
 ![](assets/alerts1.png)
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 4%
+source-wordcount: '1421'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 4%
 >
 > 如果在使用查询服务时通过API进行自定义查询，则报表可能会出现延迟。
 
-使用 **[!UICONTROL 全局报告]** 以测量选定时间段内历程和投放的影响。
+使用 **[!UICONTROL Global report]** 以测量选定时间段内历程和投放的影响。
 
-* 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL 历程]** 菜单，访问您的历程并单击 **[!UICONTROL 查看报表]** 按钮。 然后，您可以找到历程、电子邮件、短信和推送全局报表。
+* 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL Journeys]** 菜单，访问您的历程并单击 **[!UICONTROL View report]** 按钮。 然后，您可以找到历程、电子邮件、短信和推送全局报告。
 
    ![](assets/report_journey.png)
 
-* 如果要定位营销活动，请从 **[!UICONTROL 促销活动]** 菜单，访问您的营销活动并单击 **[!UICONTROL 报表]** 按钮。
+* 如果要定位营销活动，请从 **[!UICONTROL Campaigns]** 菜单，访问您的营销活动并单击 **[!UICONTROL Reports]** 按钮。
 
    ![](assets/report_campaign.png)
 
-* 如果要从 **[!UICONTROL 实时报表]** 到 **[!UICONTROL 全局报告]** 对于投放，单击 **[!UICONTROL 所有时间]** 切换器。
+* 如果要从 **[!UICONTROL Live report]** 到 **[!UICONTROL Global report]** 对于投放，单击 **[!UICONTROL All time]** 切换器。
 
    ![](assets/report_5.png)
 
@@ -47,11 +47,11 @@ ht-degree: 4%
 
 1. 选择是否要使用切换栏从报表中排除测试事件。 有关测试事件的更多信息，请参阅 [本页](../building-journeys/testing-the-journey.md).
 
-   请注意， **[!UICONTROL 排除测试事件]** 选项仅可用于历程报表。
+   请注意， **[!UICONTROL Exclude test events]** 选项仅适用于历程报表。
 
    ![](assets/report_modify_2.png)
 
-1. 单击 **[!UICONTROL 修改]** 开始自定义功能板。
+1. 单击 **[!UICONTROL Modify]** 开始自定义功能板。
 
    ![](assets/report_modify_3.png)
 
@@ -59,13 +59,13 @@ ht-degree: 4%
 
    ![](assets/report_modify_4.png)
 
-1. 单击 **[!UICONTROL 删除]** 删除您不需要的任何小组件。
+1. 单击 **[!UICONTROL Remove]** 删除您不需要的任何小组件。
 
    ![](assets/report_modify_5.png)
 
-1. 当您对小组件的显示顺序和大小感到满意后，单击 **[!UICONTROL 保存]**.
+1. 当您对小组件的显示顺序和大小感到满意后，单击 **[!UICONTROL Save]**.
 
-功能板现已保存。 您的不同更改将重新应用，以便日后使用您的实时报表。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认小组件和小组件顺序的选项。
+功能板现已保存。 您的不同更改将重新应用，以便日后使用您的实时报表。 如果需要，请使用 **[!UICONTROL Reset]** 用于恢复默认小组件和小组件顺序的选项。
 
 ## 组件列表 {#list-of-components-global}
 
@@ -115,7 +115,7 @@ ht-degree: 4%
  </thead> 
  <tbody>
   <tr> 
-   <td> 退信数<br/> </td> 
+   <td> 跳出次数<br/> </td> 
    <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br/> </td> 
 </tr> 
   <tr> 
@@ -123,11 +123,11 @@ ht-degree: 4%
    <td> 退回的电子邮件与发送的电子邮件的百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td> 单击次数<br/> </td> 
+   <td> 点击次数<br/> </td> 
    <td> 电子邮件中内容的点击次数。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 已送达 <br/> </td> 
+   <td> 已交付 <br/> </td> 
    <td> 已成功发送的消息数，与已发送消息的总数有关。<br/></td> 
 </tr> 
   <tr> 
@@ -144,7 +144,7 @@ ht-degree: 4%
 </tr>
   <tr> 
    <td> 排除<br/> </td> 
-   <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的用户档案数。<br/> </td> 
 </tr>
   <tr> 
    <td> 硬退回<br/> </td> 
@@ -171,7 +171,7 @@ ht-degree: 4%
    <td>选件的发送总数。<br/> </td> 
 </tr> 
   <tr>
-   <td>打开次数<br/> </td> 
+   <td>打开<br/> </td> 
    <td> 消息的打开次数。<br/> </td> 
 </tr> 
   <tr> 
@@ -195,7 +195,7 @@ ht-degree: 4%
    <td> 临时错误（如完整收件箱）的总数。<br/> </td> 
 </tr>
   <tr> 
-   <td> 垃圾邮件投诉次数<br/> </td> 
+   <td> 垃圾邮件投诉<br/> </td> 
    <td> 将消息声明为垃圾邮件或垃圾邮件的次数。<br/> </td> 
 </tr>
   <tr> 
@@ -203,7 +203,7 @@ ht-degree: 4%
    <td> 在投放分析期间处理的消息总数。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 唯一点击次数<br/> </td> 
+   <td> 独特点击<br/> </td> 
    <td> 单击电子邮件中内容的收件人数量。<br/> </td> 
 </tr> 
   <tr> 
@@ -211,7 +211,7 @@ ht-degree: 4%
    <td> 与投放进行交互的用户百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td> 唯一打开次数<br/> </td> 
+   <td> 唯一打开数<br/> </td> 
    <td>打开投放的收件人数。<br/> </td> 
 </tr> 
   <tr> 
@@ -321,7 +321,7 @@ ht-degree: 4%
    <td> 已送达推送通知的操作总数，例如按钮单击或解除。<br/> </td> 
 </tr>
   <tr> 
-   <td>退信数<br/> </td> 
+   <td>跳出次数<br/> </td> 
    <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br/> </td> 
 </tr> 
   <tr> 
@@ -329,7 +329,7 @@ ht-degree: 4%
    <td> 与发送的推送通知相比，已退回的推送通知的百分比。<br/> </td>
 </tr>
   <tr> 
-   <td> 已送达<br/> </td> 
+   <td> 已交付<br/> </td> 
    <td> 已成功发送的消息数，与已发送消息的总数有关。<br/> </td> 
 </tr> 
   <tr> 
@@ -354,10 +354,10 @@ ht-degree: 4%
 </tr> 
   <tr> 
    <td> 排除<br/> </td> 
-   <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的用户档案数。<br/> </td> 
 </tr>
   <tr> 
-   <td> 打开次数<br/> </td> 
+   <td> 打开<br/> </td> 
    <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br/> </td> 
 </tr> 
   <tr> 
@@ -386,7 +386,7 @@ ht-degree: 4%
  </thead> 
  <tbody>
  <tr> 
-  <td>退信数<br/> </td> 
+  <td>跳出次数<br/> </td> 
    <td>未与登陆页面进行交互且未完成订阅操作的人员数。<br/> </td> 
 </tr>
  <tr> 
@@ -395,7 +395,7 @@ ht-degree: 4%
 </tr>
  <tr>
   <tr> 
-   <td>单击次数<br/> </td> 
+   <td>点击次数<br/> </td> 
    <td>内容在登陆页面中的点击次数。<br/> </td> 
 </tr>
  <tr> 
@@ -448,7 +448,7 @@ ht-degree: 4%
    <td> 已送达推送通知的操作总数，例如按钮单击或解除。<br/> </td> 
 </tr>
   <tr> 
-   <td>退信数<br/> </td> 
+   <td>跳出次数<br/> </td> 
    <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br/> </td> 
 </tr> 
   <tr> 
@@ -456,7 +456,7 @@ ht-degree: 4%
    <td> 与发送的推送通知相比，已退回的推送通知的百分比。<br/> </td>
 </tr>
   <tr> 
-   <td> 已送达<br/> </td> 
+   <td> 已交付<br/> </td> 
    <td> 已成功发送的消息数，与已发送消息的总数有关。<br/> </td> 
 </tr> 
   <tr> 
@@ -481,10 +481,10 @@ ht-degree: 4%
 </tr> 
   <tr> 
    <td> 排除<br/> </td> 
-   <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的用户档案数。<br/> </td> 
 </tr>
   <tr> 
-   <td> 打开次数<br/> </td> 
+   <td> 打开<br/> </td> 
    <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br/> </td> 
 </tr> 
   <tr> 

@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **多臂老虎机**:A [多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=&quot;_blank&quot;}优化方法可在探索性学习与对该学习的利用之间取得平衡。
 
-* **Thomson采样**：汤普森采样是一种在线决策问题的算法，在此类问题中，动作按顺序执行，且必须在利用已知内容最大化即时性能与投资以积累可能改善未来性能的新信息之间取得平衡。 [了解详情](#thompson-sampling)
+* **Thomson采样**：汤普森采样是一种在线决策问题的算法，在此类问题中，动作按顺序执行，且必须在利用已知内容最大化即时性能与投资以积累可能改善未来性能的新信息之间取得平衡。 [了解更多](#thompson-sampling)
 
 * [**测试版分发**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}:连续集 [概率分布](https://en.wikipedia.org/wiki/Probability_distribution)在间隔上定义的{target=&quot;_blank&quot;} [0,1] [参数化](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;}，正两个 [形状参数](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 的 **先验概率** 是关于产出概率的初步猜测。 在收集了一些证据之后，这种概率被称为 **后验概率**. 
 
-自动优化旨在考虑二进制奖励（单击/无单击）。 在这种情况下，似然度表示N个试验的成功次数，并由 **二项式分布**. 对于某些似然函数，如果选择某个先验，则后验最终与前验的分布相同。 这样之前的事件称为 **共轭先验**. 这种先验方法使得后验分布的计算非常简单。 的 **测试版分发** 是二项似然（二值奖励）前的共轭项，是先验和后验概率分布的一种方便而明智的选择。 ***α*** 和 ***β***. 这些参数可视为成功和失败的计数，以及给出的平均值：
+自动优化旨在考虑二进制奖励（单击/无单击）。 在这种情况下，似然度表示N次试验成功的次数，并由 **二项式分布**. 对于某些似然函数，如果选择某个先验，则后验最终与前验的分布相同。 这样之前的事件称为 **共轭先验**. 这种先验方法使得后验分布的计算非常简单。 的 **测试版分发** 是二项似然（二值奖励）前的共轭项，是先验和后验概率分布的一种方便而明智的选择。 ***α*** 和 ***β***. 这些参数可视为成功和失败的计数，以及给出的平均值：
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 如上例所示，对于自动优化，我们以先前的分配开始 ***Beta(1, 1)*** （均匀分布），在获得成功和失败后，后验为带参数的Beta分布 ***(s+α,f+β)*** 那个要价。
 +++
 
-**相关主题**：
+**相关主题**:
 
 要更深入地研究汤普森采样，请阅读以下研究论文：
 * [Thompson抽样的实证评价](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}

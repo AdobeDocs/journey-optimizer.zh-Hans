@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用同意策略
-description: 了解如何使用Adobe Experience Platform同意策略
+description: 了解如何使用Adobe Experience PL表单同意策略
 feature: Actions
 topic: Administration
 role: Admin
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 0%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+通过Adobe Experience Platform，您可以轻松采用和实施营销策略，以尊重客户的同意偏好。 同意策略在Adobe Experience Platform中定义。 请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
-在 Journey Optimizer 中，您可以将这些同意策略应用于自定义操作。例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
+在Journey Optimizer中，您可以将这些同意策略应用于您的自定义操作。 例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
 
 >[!NOTE]
 >

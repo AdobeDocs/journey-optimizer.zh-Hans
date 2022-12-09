@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 在 [!DNL Journey Optimizer] 电子邮件中，您可以插入将利用决策管理引擎的决策，以便选择要交付给客户的最佳选件。
 
-例如，您可以添加一个决策，该决策会在电子邮件中显示一个特殊折扣选件，该选件会因收件人的忠诚度级别而异。
+例如，您可以添加一个决策，该决策会在电子邮件中显示一个特殊折扣选件，该选件将因收件人的忠诚度级别而异。
 
 有关如何创建和管理选件的更多信息，请参阅 [此部分](../offers/get-started/starting-offer-decisioning.md).
 
@@ -37,13 +37,13 @@ ht-degree: 1%
 
 1. 创建电子邮件，然后打开Email Designer以配置其内容。
 
-1. 添加 **[!UICONTROL 优惠决策]** 内容组件。
+1. 添加 **[!UICONTROL Offer decision]** 内容组件。
 
    ![](assets/deliver-offer-component.png)
 
    了解如何在 [此部分](content-components.md).
 
-1. 的 **[!UICONTROL 优惠决策]** 选项卡。 单击 **[!UICONTROL 选择选件决策]**.
+1. 的 **[!UICONTROL Offer decision]** 选项卡。 单击 **[!UICONTROL Select Offer decision]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
    [版面](../offers/offer-library/creating-placements.md) 是用于显示选件的容器。 在此示例中，我们将使用“电子邮件顶部图像”放置。 此位置已在选件库中创建，用于显示位于消息顶部的图像类型选件。
 
-1. 显示与所选版面匹配的决策。 选择要在内容组件中使用的决策，然后单击 **[!UICONTROL 添加]**.
+1. 显示与所选版面匹配的决策。 选择要在内容组件中使用的决策，然后单击 **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -69,13 +69,13 @@ ht-degree: 1%
 
 ## 在电子邮件中预览选件 {#preview-offers-in-email}
 
-您可以使用 **[!UICONTROL 选件]** 或内容组件箭头。
+您可以使用 **[!UICONTROL Offers]** 或内容组件箭头。
 
 ![](assets/deliver-offer-preview.png)
 
 要通过客户用户档案显示决策中所包含的不同选件，请执行以下步骤。
 
-1. 单击 **[!UICONTROL 预览]**.
+1. 单击 **[!UICONTROL Preview]**.
 
    ![](assets/deliver-offer-preview-button.png)
 
@@ -83,15 +83,15 @@ ht-degree: 1%
    >
    >您需要提供测试用户档案才能预览消息。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
-1. 要选择用于标识测试用户档案的命名空间，请选择 **[!UICONTROL 电子邮件]** 从 **[!UICONTROL 身份命名空间]** 字段。
+1. 要选择用于标识测试用户档案的命名空间，请选择 **[!UICONTROL Email]** 从 **[!UICONTROL Identity namespace]** 字段。
 
    >[!NOTE]
    >
    >在本例中，我们将使用 **电子邮件** 命名空间。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../segment/get-started-identity.md).
 
-1. 在身份命名空间列表中，选择 **[!UICONTROL 电子邮件]** 单击 **[!UICONTROL 选择]**.
+1. 在身份命名空间列表中，选择 **[!UICONTROL Email]** 单击 **[!UICONTROL Select]**.
 
-1. 在 **[!UICONTROL 标识值]** 字段中，输入用于标识测试用户档案的值。 在本例中，输入测试用户档案的电子邮件地址。
+1. 在 **[!UICONTROL Identity value]** 字段中，输入用于标识测试用户档案的值。 在本例中，输入测试用户档案的电子邮件地址。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    ![](assets/deliver-offer-test-profiles.png)
 
-1. 单击 **[!UICONTROL 预览]** 选项卡来测试消息。
+1. 单击 **[!UICONTROL Preview]** 选项卡来测试消息。
 
 1. 选择测试用户档案。 将显示与所选用户档案（女性）对应的选件。
 

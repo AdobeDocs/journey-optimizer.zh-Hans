@@ -1,5 +1,5 @@
 ---
-title: 列出收藏集
+title: 列出集合
 description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 feature: Offers
 topic: Integrations
@@ -9,15 +9,15 @@ exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# 列出收藏集 {#list-collections}
+# 列出集合 {#list-collections}
 
 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
 
-您可以通过对 [!DNL Offer Library] API。
+您可以通过执行对 [!DNL Offer Library] API。
 
 **API格式**
 

@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 5%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
-# 构建区段 {#build-segments}
+# 生成区段 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 ➡️ [在此视频中了解如何创建区段](#video-segment)
 
-1. 访问 **[!UICONTROL 区段]** 菜单，然后单击 **[!UICONTROL 创建区段]** 按钮。
+1. 访问 **[!UICONTROL Segments]** 菜单，然后单击 **[!UICONTROL Create segment]** 按钮。
 
    ![](assets/create-segment.png)
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 
    ![](assets/segment-builder.png)
 
-1. 在 **[!UICONTROL 区段属性]** ，请为区段提供名称和描述（可选）。
+1. 在 **[!UICONTROL Segment properties]** ，请为区段提供名称和描述（可选）。
 
    ![](assets/segment-properties.png)
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >请注意，左窗格中可用的字段因 **XDM个人配置文件** 和 **XDM ExperienceEvent** 已为贵组织配置了架构。  在 [体验数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+   >请注意，左窗格中可用的字段因 **XDM个人配置文件** 和 **XDM ExperienceEvent** 已为贵组织配置了架构。  在 [体验数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
 
    ![](assets/drag-fields.png)
 
@@ -56,13 +56,13 @@ ht-degree: 5%
 
       ![](assets/add-events.png)
 
-1. 在工作区中添加和配置新字段时， **[!UICONTROL 区段属性]** 窗格会自动更新有关属于该区段的预计用户档案的信息。
+1. 在工作区中添加和配置新字段时， **[!UICONTROL Segment Properties]** 窗格会自动更新有关属于该区段的预计用户档案的信息。
 
    ![](assets/segment-estimate.png)
 
-1. 区段准备就绪后，单击 **[!UICONTROL 保存]**. 它会显示在Adobe Experience Platform区段列表中。 请注意，搜索栏可帮助您在列表中搜索特定区段。
+1. 区段准备就绪后，单击 **[!UICONTROL Save]**. 它会显示在Adobe Experience Platform区段列表中。 请注意，搜索栏可帮助您在列表中搜索特定区段。
 
-现在，该区段可用于您的历程。 有关详细信息，请参阅[此部分](../segment/about-segments.md)。
+现在，该区段可用于您的历程。 有关更多信息，请参阅 [此部分](../segment/about-segments.md).
 
 ## 操作方法视频{#video-segment}
 

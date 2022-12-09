@@ -11,7 +11,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 如果默认值5不适合您的需求，您可以按照以下步骤修改错误阈值。
 
-1. 转到 **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 禁止列表]**.
+1. 转到 **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
 
-1. 选择 **[!UICONTROL 编辑隐藏规则]** 按钮。
+1. 选择 **[!UICONTROL Edit suppression rules]** 按钮。
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -55,9 +55,9 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../reports/deliverability.md)
+   >超过10的任何值都可能导致投放能力声誉问题，以及ISP的IP限制或阻止列表。 [了解有关投放能力的更多信息](../reports/deliverability.md)
 
-## 重试时段 {#retry-duration}
+## 重试时间段 {#retry-duration}
 
 的 **重试时段** 是重试投放遇到临时错误或软退件的任何电子邮件的时间范围。
 

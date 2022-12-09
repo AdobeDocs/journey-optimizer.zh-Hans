@@ -1,6 +1,6 @@
 ---
-title: 创建优惠的关键步骤
-description: 探索创建选件所需的关键步骤
+title: 创建选件的关键步骤
+description: 了解创建优惠所需的关键步骤
 feature: Offers
 topic: Integrations
 role: User
@@ -9,11 +9,11 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
-# 创建和管理优惠的关键步骤 {#key-steps-to-manage-offers}
+# 创建和管理选件的关键步骤 {#key-steps-to-manage-offers}
 
 创建、配置和管理选件以及在决策中使用这些选件的主要步骤如下所示。
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">创建投放位置</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">创建版面</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">创建决策规则</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">创建标记</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">创建排名公式</a></p></td>

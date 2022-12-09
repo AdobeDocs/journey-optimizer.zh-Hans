@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 与 Adobe Campaign v7/v8 集成
+title: 与Adobe Campaign v7/v8集成
 description: 了解如何与Adobe Campaign v7/v8集成
 feature: Actions
 topic: Administration
@@ -10,21 +10,21 @@ level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 5%
+source-wordcount: '494'
+ht-degree: 0%
 
 ---
 
-# 与 Adobe Campaign v7/v8 集成 {#integrating-with-adobe-campaign-classic}
+# 与Adobe Campaign v7/v8集成 {#integrating-with-adobe-campaign-classic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
->title="Adobe Campaign v7/v8 操作"
->abstract="此集成适用于Adobe Campaign Classic v7和v8。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。 Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设置的。"
+>title="Adobe Campaign v7/v8操作"
+>abstract="此集成适用于Adobe Campaign Classic v7和v8。 利用该功能，可使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。 Journey Optimizer和Campaign实例之间的连接由Adobe在配置时设置。"
 
-此集成适用于从7.1版本开始的Adobe Campaign Classic v7和Adobe Campaign v8。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
+此集成适用于从7.1版本开始的Adobe Campaign Classic v7和Adobe Campaign v8。 利用该功能，可使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
 
-Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设置的。
+Journey Optimizer和Campaign实例之间的连接由Adobe在配置时设置。
 
 本节介绍了端到端用例 [部分](../building-journeys/ajo-ac.md).
 
@@ -34,7 +34,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 * 没有消息限制。 系统根据当前的促销活动SLA，将可发送的消息数量限制为每5分钟4000条。 因此，Journey Optimizer只应用于单一用例（单个事件，而不是区段）。
 
-* 您需要在每个要使用的模板的画布上配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
+* 您需要在每个要使用的模板的画布上配置一个操作。 您需要在Journey Optimizer中为您希望从Adobe Campaign使用的每个模板配置一个操作。
 
 * 我们建议您使用为此集成托管的专用消息中心实例，以避免影响您可能正在进行的任何其他Campaign操作。 营销服务器可以是托管的，也可以是内部部署的。 所需的内部版本为21.1发行候选版本或更高版本。
 
@@ -73,7 +73,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 1. 输入名称和描述。
 1. 在 **操作类型** 字段，选择 **Adobe Campaign Classic**.
 1. 单击 **负载** 字段中，并粘贴与Campaign消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
-1. 根据要在历程画布上映射不同字段，将其调整为静态字段或变量字段。 某些字段(例如电子邮件地址和个性化字段(ctx)的渠道参数)，您可能希望定义为用于在历程上下文中映射的变量。
-1. 单击&#x200B;**保存**。
+1. 根据要在历程画布上映射不同字段，将其调整为静态字段或变量。 某些字段(例如电子邮件地址和个性化字段(ctx)的渠道参数)，您可能希望定义为用于在历程上下文中映射的变量。
+1. 单击 **保存**.
 
 ![](assets/accintegration1.png)

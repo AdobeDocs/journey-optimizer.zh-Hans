@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * 自定义操作URL不支持动态参数。 
 * 仅支持POST和PUT调用方法。 
-* 查询参数或标头的名称不得以“。”开头 或 &quot;$&quot;. 
+* 查询参数或标头的名称不得以“。”开头 或“$”。 
 * 不允许使用IP地址。 
 * 内部Adobe地址(.adobe.) 不允许。
  
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 * 可以在客户历程中利用外部数据源来实时查找外部数据。 这些源必须通过REST API可用，支持JSON并能够处理请求量。
 
-## 历程从创建用户档案的同时开始 {#journeys-limitation-profile-creation}
+## 从创建用户档案的同时开始的历程 {#journeys-limitation-profile-creation}
 
-在Adobe Experience Platform中，创建/更新基于API的配置文件会存在延迟。 延迟方面的服务级别目标(SLT)从摄取到统一配置文件（针对第95个百分位数的请求）在每秒20K请求(RPS)的量下小于1分钟。
+在Adobe Experience Platform中，基于API的配置文件创建/更新存在延迟。 延迟方面的服务级别目标(SLT)从摄取到统一配置文件（针对第95个百分位数的请求）在每秒20K请求(RPS)的量下小于1分钟。
 
-如果历程同时触发到配置文件创建，并立即检查/检索配置文件服务中的信息，则它可能无法正常工作。
+如果历程同时触发到用户档案创建，并立即检查/检索用户档案服务中的信息，则该历程可能无法正常工作。
 
 您可以从以下两种解决方案之一进行选择：
 
-* 在第一个事件后添加等待活动，为Adobe Experience Platform提供执行向用户档案服务摄取所需的时间。
+* 在第一个事件后添加等待活动，以便Adobe Experience Platform获得执行向用户档案服务摄取所需的时间。
 
 * 设置不会立即利用用户档案的历程。 例如，如果历程设计为确认帐户创建，则体验事件可能包含发送第一条确认消息（名字、姓氏、电子邮件地址等）所需的信息。
 

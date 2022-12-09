@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 20%
+source-wordcount: '191'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +19,13 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->如果您是首次创建短信，请确保已配置短信渠道。 [了解详情](sms-configuration.md)。
+>如果您是首次创建短信，请确保已配置短信渠道。 [了解更多](sms-configuration.md).
 
 使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
 
 可以创建短信投放：
 
-* 在 **历程**:在历程中添加短信活动并定义基本设置后，请使用 **[!UICONTROL 操作：短信]** 用于创建短信消息内容的右窗格。
+* 在 **历程**:在历程中添加短信活动并定义基本设置后，请使用 **[!UICONTROL Actions: SMS]** 用于创建短信消息内容的右窗格。
 
    有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
 
@@ -32,12 +33,12 @@ ht-degree: 20%
 
    有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
 
-如果您是首次创建短信消息，请确保已配置短信渠道。 [了解详情](sms-configuration.md)。
+如果您是首次创建短信消息，请确保已配置短信渠道。 [了解更多](sms-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="潜在客户" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="商机" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div><a href="create-sms.md"><strong>创建短信消息</strong>
 </div>
@@ -56,7 +57,7 @@ ht-degree: 20%
 <img alt="验证" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>短信选择禁用管理</strong></a>
+<a href="sms-opt-out.md"><strong>短信选择退出管理</strong></a>
 </div>
 <p>
 </td>

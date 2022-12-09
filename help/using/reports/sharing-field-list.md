@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 16%
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
 | ID | 字符串 | 用户档案标识符用于标识在历程中发送/使用的用户档案。 例如：foo@adobe.com。 |
-| namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
+| 命名空间 | 字符串 | 此字段描述历程中使用的用户档案引用的命名空间。 例如：电子邮件、ECID |
 
 ## serviceEvents {#servicevents-field}
 

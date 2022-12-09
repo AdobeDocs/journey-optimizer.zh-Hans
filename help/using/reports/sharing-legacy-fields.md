@@ -11,7 +11,7 @@ exl-id: 8cad0a6e-fd5c-44ae-9ce4-44d99504b855
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 50%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 50%
 
 此类别包含原始步骤事件字段。 这些字段属于以下字段组：
 
-* [journeySteps 事件常用字段](../reports/sharing-common-fields.md)
-* [journeyStep 事件操作执行字段](../reports/sharing-execution-fields.md)
-* [journeyStep 事件数据提取字段](../reports/sharing-fetch-fields.md)
-* [journeyStep 事件身份字段](../reports/sharing-identity-fields.md)
-* [历程字段](../reports/sharing-journey-fields.md)
+* [journeySteps事件常用字段](../reports/sharing-common-fields.md)
+* [journeyStep事件操作执行字段](../reports/sharing-execution-fields.md)
+* [journeyStep事件数据获取字段](../reports/sharing-fetch-fields.md)
+* [journeyStep事件标识字段](../reports/sharing-identity-fields.md)
+* [历程场](../reports/sharing-journey-fields.md)

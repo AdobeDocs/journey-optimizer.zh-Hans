@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: aad4e08a-3369-454d-9e32-974347a3b393
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -20,11 +21,11 @@ ht-degree: 0%
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入个性化内容，则可以利用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. 单击 **[!UICONTROL 模拟内容]**.
+1. 单击 **[!UICONTROL Simulate content]**.
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 添加测试用户档案。
+1. 单击 **[!UICONTROL Manage test profiles]** 添加测试用户档案。
 
-1. 通过 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加用户档案]**.
+1. 通过 **[!UICONTROL Identity namespace]** 和 **[!UICONTROL Identity value]** 字段。 然后，单击 **[!UICONTROL Add profile]**.
 
    ![](assets/push_preview_1.png)
 
@@ -50,13 +51,12 @@ ht-degree: 0%
 
 * **错误** 阻止您测试或激活历程（只要它们未得到解析），例如：
 
-   * **[!UICONTROL 消息的推送版本为空]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
+   * **[!UICONTROL The push version of the message is empty]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
 
-   * **[!UICONTROL 曲面不存在]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL 属性]**. 了解有关 [此部分](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL Properties]**. 了解有关 [此部分](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL 推送iOS/Android有效负载超过4KB的限制]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](../push/create-push.md).
+   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](../push/create-push.md).
 
 ![](assets/push_alert.png)
 
 准备就绪后，完成 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md) 来发送。
-

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 20%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 20%
 
 返回3。
 
-解释:
+解释：
 
 在“Hello”中，最后一个出现的“l”位于位置3。

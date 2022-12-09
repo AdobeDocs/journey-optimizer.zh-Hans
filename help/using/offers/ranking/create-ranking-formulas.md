@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 要创建排名公式，请执行以下步骤：
 
-1. 访问 **[!UICONTROL 组件]** 菜单，然后选择 **[!UICONTROL 排名]** 选项卡。 将显示先前创建的排名列表。
+1. 访问 **[!UICONTROL Components]** 菜单，然后选择 **[!UICONTROL Rankings]** 选项卡。 将显示先前创建的排名列表。
 
    ![](../assets/rankings-list.png)
 
-1. 单击 **[!UICONTROL 创建排名]** 创建新排名公式。
+1. 单击 **[!UICONTROL Create ranking]** 创建新排名公式。
 
    ![](../assets/ranking-create-formula.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
    ![](../assets/ranking-syntax.png)
 
-1. 单击 **[!UICONTROL Save]**。您的排名公式即已创建，您可以从列表中选择它以获取详细信息，并对其进行编辑或删除。
+1. 单击 **[!UICONTROL Save]**. 您的排名公式即已创建，您可以从列表中选择它以获取详细信息，并对其进行编辑或删除。
 
    现在，它可用于对符合条件的选件进行版面排名的决策(请参阅 [在决策中配置选件选择](../offer-activities/configure-offer-selection.md))。
 

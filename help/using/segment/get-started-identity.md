@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 开始使用Journey Optimizer中的身份
+title: Journey Optimizer中的身份入门
 description: 了解如何在Adobe Journey Optimizer中管理身份
 feature: Profiles
 role: User
@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 9%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 9%
 
 ![](assets/identities-home.png)
 
-详细了解 **Identity Service** in [本文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+详细了解 **Identity Service** in [本文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}。
 
 ## 身份命名空间 {#identity-namespaces}
 
-****&#x200B;身份命名空间是 Identity Service 的组件，充当与身份相关的上下文指示器。例如，它们会将 `name@email.com` 作为电子邮件地址或 `443522` 作为数字CRM ID。 使用身份命名空间需要了解所涉及的各种Adobe Experience Platform服务。 开始使用命名空间之前，请查阅以下服务的文档：
+**身份命名空间** 是Identity Service的一个组件，充当与身份相关的上下文的指示器。 例如，它们会将 `name@email.com` 作为电子邮件地址或 `443522` 作为数字CRM ID。 使用身份命名空间需要了解涉及的各种Adobe Experience Platform服务。 开始使用命名空间之前，请查阅以下服务的文档：
 
-详细了解 **身份命名空间** in [本文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+详细了解 **身份命名空间** in [本文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}。
 
 ## 身份图{#id-graph}
 

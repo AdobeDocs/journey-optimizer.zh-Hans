@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: replace
+title: 替换
 description: 了解函数替换
 feature: Journeys
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| Target | 字符串（正则表达式） |
+| 目标 | 字符串（正则表达式） |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
@@ -41,13 +41,13 @@ ht-degree: 10%
 
 返回字符串。
 
-## 示例 1
+## 示例1
 
 `replace("Hello World", "l", "x")`
 
 返回“Hexlo World”。
 
-## 示例 2 {#example_2}
+## 示例2 {#example_2}
 
 由于target参数是正则表达式，因此根据要替换的字符串，您可能需要对某些字符进行转义。 示例如下：
 

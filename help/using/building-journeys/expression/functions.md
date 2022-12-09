@@ -10,7 +10,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 75%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 75%
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 聚合 | [avg](../functions/functionavg.md) |
-| 聚合 | [count](../functions/functioncount.md) |
+| 聚合 | [计数](../functions/functioncount.md) |
 | 聚合 | [countOnlyNull](../functions/functioncountonlynull.md) |
 | 聚合 | [countWithNull](../functions/functioncountwithnull.md) |
 | 聚合 | [distinctCount](../functions/functiondistinctcount.md) |
@@ -62,15 +62,15 @@ ht-degree: 75%
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 列表 | [filter](../functions/functionfilter.md) |
+| 列表 | [过滤器](../functions/functionfilter.md) |
 | 列表 | [getListItem](../functions/functiongetlistitem.md) |
 | 列表 | [in](../functions/functionin.md) |
-| 列表 | [intersect](../functions/functionintersect.md) |
+| 列表 | [相交](../functions/functionintersect.md) |
 | 列表 | [listSize](../functions/functionlimit.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
-| 列表 | [sort](../functions/functionsort.md) |
-| 数学 | [random](../functions/functionrandom.md) |
+| 列表 | [排序](../functions/functionsort.md) |
+| 数学 | [随机](../functions/functionrandom.md) |
 | 数学 | [round](../functions/functionround.md) |
 | 字符串 | [concat](../functions/functionconcat.md) |
 | 字符串 | [contain](../functions/functioncontain.md) |
@@ -82,15 +82,15 @@ ht-degree: 75%
 | 字符串 | [isEmpty](../functions/functionisempty.md) |
 | 字符串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字符串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字符串 | [长度](../functions/functionlength.md) |
+| 字符串 | [length](../functions/functionlength.md) |
 | 字符串 | [lower](../functions/functionlower.md) |
 | 字符串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字符串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| 字符串 | [replace](../functions/functionreplace.md) |
+| 字符串 | [替换](../functions/functionreplace.md) |
 | 字符串 | [replaceAll](../functions/functionreplaceall.md) |
 | 字符串 | [startWith](../functions/functionstartwith.md) |
 | 字符串 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | 字符串 | [substr](../functions/functionsubstr.md) |
 | 字符串 | [trim](../functions/functiontrim.md) |
 | 字符串 | [upper](../functions/functionupper.md) |
-| 字符串 | [uuid](../functions/functionuuid.md) |
+| 字符串 | [uid](../functions/functionuuid.md) |

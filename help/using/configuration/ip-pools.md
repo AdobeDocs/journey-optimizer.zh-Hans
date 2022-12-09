@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建 IP 池
+title: 创建IP池
 description: 了解如何管理IP池
 feature: Application Settings
 topic: Administration
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 1%
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
-# 创建 IP 池 {#create-ip-pools}
+# 创建IP池 {#create-ip-pools}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="设置IP池"
->abstract="使用Journey Optimizer，您可以创建IP池以将子域的IP地址分组在一起。 这可能会显着提高您的电子邮件投放能力，因为这样做可以防止子域的声誉影响您的其他子域。"
+>abstract="通过Journey Optimizer，您可以创建IP池以将子域的IP地址分组到一起。 这可能会显着提高您的电子邮件投放能力，因为这样做可以防止子域的声誉影响您的其他子域。"
 
 ## 关于IP池 {#about-ip-pools}
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 要创建IP池，请执行以下步骤：
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP池]** 菜单，然后单击 **[!UICONTROL 创建IP池]**.
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** 菜单，然后单击 **[!UICONTROL Create IP Pool]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -53,7 +53,7 @@ ht-degree: 1%
    >
    >名称必须以字母(A-Z)开头，且只包含字母数字字符或特殊字符(_、 ., -)。
 
-1. 从下拉列表中选择要包含在池中的IP地址，然后单击 **[!UICONTROL 提交]**.
+1. 从下拉列表中选择要包含在池中的IP地址，然后单击 **[!UICONTROL Submit]**.
 
    ![](assets/ip-pool-config.png)
 
@@ -89,14 +89,14 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 
 根据与关联的IP池，更新可立即或异步生效 [通道表面](channel-surfaces.md) 或否：
 
-* 如果IP池为 **not** 与任何通道表面相关联，更新是瞬时(**[!UICONTROL 成功]** 状态)。
-* 如果IP池 **is** 与通道表面相关，更新最长可能需要3小时(**[!UICONTROL 处理]** 状态)。
+* 如果IP池为 **not** 与任何通道表面相关联，更新是瞬时(**[!UICONTROL Success]** 状态)。
+* 如果IP池 **is** 与通道表面相关，更新最长可能需要3小时(**[!UICONTROL Processing]** 状态)。
 
 >[!NOTE]
 >
->When [创建通道曲面](channel-surfaces.md#create-channel-surface)，如果您选择的IP池位于版本(**[!UICONTROL 处理]** 状态)且从未与为该曲面选择的子域关联，则无法继续创建曲面。 [了解详情](channel-surfaces.md#subdomains-and-ip-pools)
+>When [创建通道曲面](channel-surfaces.md#create-channel-surface)，如果您选择的IP池位于版本(**[!UICONTROL Processing]** 状态)且从未与为该曲面选择的子域关联，则无法继续创建曲面。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
 
-要检查IP池更新状态，请单击 **[!UICONTROL 更多操作]** 按钮，选择 **[!UICONTROL 近期更新]**.
+要检查IP池更新状态，请单击 **[!UICONTROL More actions]** 按钮，选择 **[!UICONTROL Recent updates]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -107,5 +107,5 @@ IP池现已创建并显示在列表中。 您可以选择它以访问其属性�
 >* 直到IP池的下一个批处理消息生效。
 
 
-您还可以使用 **[!UICONTROL 删除]** 按钮以删除IP池。 请注意，您无法删除已与通道表面关联的IP池。
+您还可以使用 **[!UICONTROL Delete]** 按钮以删除IP池。 请注意，您无法删除已与通道表面关联的IP池。
 

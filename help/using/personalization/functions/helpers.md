@@ -1,6 +1,6 @@
 ---
-title: 辅助程序
-description: 辅助程序
+title: 帮助者
+description: 帮助者
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
-# 辅助程序 {#gs-helpers}
+# 帮助者 {#gs-helpers}
 
 ## 默认回退值{#default-value}
 

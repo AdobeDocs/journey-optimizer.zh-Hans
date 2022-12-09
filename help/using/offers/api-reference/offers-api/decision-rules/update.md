@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API格式**

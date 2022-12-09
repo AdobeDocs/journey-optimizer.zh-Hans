@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 0%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 2%
 
 ## 入门指南和先决条件 {#edge-overview-and-prerequisites}
 
-的 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是一个客户端JavaScript库，它允许Adobe Experience Cloud客户通过Experience Platform边缘网络与Experience Cloud中的各种服务进行交互。
+的 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是一个客户端JavaScript库，它允许Adobe Experience Cloud客户通过Experience Platform Edge Network与Experience Cloud中的各种服务进行交互。
 
-Experience PlatformWeb SDK支持在Adobe中查询个性化解决方案（包括决策管理），从而允许您检索和渲染使用API或选件库创建的个性化选件。 有关更多详细说明，请参阅 [创建优惠](../../get-started/starting-offer-decisioning.md).
+Experience Platform Web SDK支持在Adobe查询个性化解决方案（包括决策管理），从而允许您检索和渲染使用API或选件库创建的个性化选件。 有关更多详细说明，请参阅 [创建优惠](../../get-started/starting-offer-decisioning.md).
 
-可使用以下两种方式实施决策管理： [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员，需要了解网站和编程知识。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需在HTML页面的标题中引用一个小脚本即可。
+可使用以下两种方式实施决策管理： [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员，需要了解网站和编程知识。 另一种方法是使用Adobe Experience Platform用户界面来设置选件，该选件只需在HTML页面的标题中引用一个小脚本即可。
 
 请参阅 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
 
 >[!NOTE]
 >
->Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（有限可用性）。 如果要利用此功能，请联系您的Adobe客户经理。
+>Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（有限可用性）。 如果您想利用此功能，请联系您的Adobe客户经理。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
@@ -44,7 +44,7 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) (位于您帐户的Adobe Experience Cloud中的数据收集选项卡中)。
+1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) （位于您帐户的Adobe Experience Cloud中的数据收集选项卡中）。
 
 1. 安装SDK。 可以使用多种方法来执行此操作，详情请参阅 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本页将继续介绍每种不同的实施方法。
 
@@ -74,9 +74,9 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 1. 创建必需的 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). 您至少必须创建Platform Web SDK身份映射和Platform Web SDK XDM对象数据元素。
 
-   ![标识映射](../../assets/sdk-identity-map.png)
+   ![身份映射](../../assets/sdk-identity-map.png)
 
-   ![XDM 对象](../../assets/xdm-object.png)
+   ![XDM对象](../../assets/xdm-object.png)
 
 1. 创建 [规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
@@ -92,7 +92,7 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 以下是使用预建的独立安装Web SDK来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定具有一些开发经验。
 
-在选项2中包含以下JavaScript代码片段：上预建的独立版本 [本页](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML页面的部分。
+在选项2中包含以下JavaScript代码片段：上预建的独立版本 [本页](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` 部分。
 
 ```
 javascript
@@ -165,7 +165,7 @@ javascript
 >
 >如果您在日志中未看到与边缘的连接，则可能需要禁用广告拦截器。
 
-请参阅创建选件的方式和使用的格式。 根据决策中满足的条件，您将收到一个选件，其中包含您在Adobe Experience Platform中创建该选件时指定的信息。
+请参阅创建选件的方式和使用的格式。 根据决策中满足的标准，系统会向您返回一个选件，其中包含您在Adobe Experience Platform中创建选件时指定的信息。
 
 在此示例中，要返回的JSON是：
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 [!DNL Journey Optimizer] 事件是通过流摄取发送到Adobe Experience Platform的XDM体验事件。
 
-因此，为设置事件的重要先决条件 [!DNL Journey Optimizer] 您应该熟悉Adobe Experience Platform的体验数据模型（或XDM）、如何构建XDM体验事件架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
+因此，为设置事件的重要先决条件 [!DNL Journey Optimizer] 您应该熟悉Adobe Experience Platform的Experience Data Model（或XDM）、如何构建XDM Experience Event架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
 
 ## 架构要求 [!DNL Journey Optimizer] 事件  {#schema-requirements}
 
@@ -37,11 +37,11 @@ ht-degree: 4%
 
    ![](assets/schema3.png)
 
-* 声明用于标识事件主题的标识字段。 如果未指定身份，则可以使用身份映射。 不建议采取此做法。
+* 声明用于标识事件主题的标识字段。 如果未指定身份，则可以使用身份映射。 不建议这样做。
 
    ![](assets/schema4.png)
 
-* 如果希望此数据稍后在历程中可供查找，请标记配置文件的架构和数据集。
+* 如果您希望此数据稍后在历程中可供查找，请为用户档案标记架构和数据集。
 
    ![](assets/schema5.png)
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 ## 利用架构关系{#leverage_schema_relationships}
 
-Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
 
 假设您的品牌数据模型有一个用于捕获购买的架构。 您还具有产品目录的架构。 您可以在购买架构中捕获产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您便可以为购买笔记本电脑的所有客户创建一个区段，而无需明确列出所有笔记本电脑ID或捕获事务系统中的每个产品详细信息。
 
@@ -73,7 +73,7 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 >
 >在 [Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
-在Journey Optimizer中，您随后可以利用链接表中的所有字段：
+然后，在Journey Optimizer中，您可以利用链接表中的所有字段：
 
 * 在配置业务或统一事件时， [了解更多](../event/experience-event-schema.md#unitary_event_configuration)
 * 在历程中使用条件时， [了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
@@ -96,7 +96,7 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 
 要了解如何配置单一事件，请参阅 [页面](../event/about-creating.md).
 
-### 历程使用事件上下文的条件{#journey_conditions_using_event_context}
+### 使用事件上下文的历程条件{#journey_conditions_using_event_context}
 
 您可以使用来自查找表的数据来构建条件（表达式编辑器），该查询表链接到历程中使用的事件。
 

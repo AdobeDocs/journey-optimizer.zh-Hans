@@ -9,8 +9,8 @@ level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ JSON格式：数值
 
 **描述**
 
-小数. 它表示浮动值：
+小数。 它表示浮动值：
 
 * 双(2-2^-52)x2^1023型最大正有限值
 * 双型、2-1022型的最小正常值
@@ -134,7 +134,7 @@ JSON格式：字符串。
 
 它可以封装在toDateOnly函数中。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解详情](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解更多](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **文字表示**
 
@@ -152,19 +152,19 @@ date("2021-02-19")
 
 **描述**
 
-表示不带时区的日期时间，以年月日每小时分钟每秒的毫秒数来查看。
+表示不带时区的日期时间，以年月日每小时分钟每秒的毫秒为单位进行查看。
 
 JSON格式：字符串。
 
 它不存储或表示时区。 相反，它是日期的描述，用于生日，并与在墙上钟上看到的当地时间相结合。
 
-如果没有其他信息（如偏移或时区），它不能在时间线上表示即时。
+如果没有其他信息（如偏移或时区），它无法在时间线上表示即时。
 
 它可以封装在toDateTimeOnly函数中。
 
 序列化格式：ISO-8601扩展的偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **文字表示**
 
@@ -193,9 +193,9 @@ JSON格式：字符串。
 
 序列化格式：ISO-8601扩展的偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您还可以传递传递传递新纪元值的整数。 [了解详情](https://www.epochconverter.com)
+您还可以传递传递传递新纪元值的整数。 [了解更多](https://www.epochconverter.com)
 
 时区可以由偏移或时区代码指定(例如：欧洲/巴黎，Z — 表示UTC)。
 
@@ -257,7 +257,7 @@ JSON格式：字符串。
 
 序列化格式：要反序列化时区ID，它使用java函数java.time。
 
-持续时间.parse:所接受的格式以ISO-8601持续时间格式PnDTnHnMn.nS为基础，天数被认为恰好为24小时。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+持续时间.parse:所接受的格式以ISO-8601持续时间格式PnDTnHnMn.nS为基础，天数被认为恰好为24小时。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **文字表示**
 
@@ -311,7 +311,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## 列表 {#list}
 
 **描述**
 

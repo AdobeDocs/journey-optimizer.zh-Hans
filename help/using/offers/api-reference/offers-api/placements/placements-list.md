@@ -1,5 +1,5 @@
 ---
-title: 列出投放位置
+title: 列表版面
 description: 版面是用于显示选件的容器。
 feature: Offers
 topic: Integrations
@@ -9,15 +9,15 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
-# 列出投放位置 {#list-placements}
+# 列表版面 {#list-placements}
 
-版面是用于显示选件的容器。 版面有助于确保正确的选件内容显示在消息中的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
+版面是用于显示选件的容器。 版面有助于确保正确的选件内容显示在消息中的正确位置。 向选件添加内容时，系统将要求您选择可显示该内容的版面。
 
-您可以通过向 [!DNL Offer Library] API。
+您可以通过对 [!DNL Offer Library] API。
 
 **API格式**
 

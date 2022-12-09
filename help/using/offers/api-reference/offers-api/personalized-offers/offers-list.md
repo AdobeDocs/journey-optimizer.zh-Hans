@@ -9,7 +9,7 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 个性化优惠是基于资格规则和限制的可自定义营销消息。
 
-您可以通过向 [!DNL Offer Library] API。
+您可以通过对 [!DNL Offer Library] API。
 
 **API格式**
 

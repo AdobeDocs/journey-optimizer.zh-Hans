@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +26,9 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
 要访问登陆页面预设，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单。
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单。
 
-1. 选择 **[!UICONTROL 品牌策略]** > **[!UICONTROL 登陆页面预设]**.
+1. 选择 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -44,9 +44,9 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 >
 >要创建预设，请确保您之前至少配置了一个登陆页面子域。 [了解如何](lp-subdomains.md)
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 品牌策略]** > **[!UICONTROL 登陆页面预设]**.
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 菜单，然后选择 **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
 
-1. 选择 **[!UICONTROL 创建登陆页面预设]**.
+1. 选择 **[!UICONTROL Create landing page preset]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -66,17 +66,17 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
    将显示与所选子域对应的设置。
 
-1. 如果要为跟踪URL选择登陆页面子域，请检查 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+1. 如果要为跟踪URL选择登陆页面子域，请检查 **[!UICONTROL Same as landing page subdomain]** 选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登陆页面URL为“pages.mail.luma.com”，而跟踪URL为“data.mail.luma.com”，则可以选择“pages.mail.luma.com”作为跟踪子域。
 
-1. 单击 **[!UICONTROL 提交]** 以确认创建登陆页面预设。 <!--You can also save the preset as draft and resume its configuration later on.-->
+1. 单击 **[!UICONTROL Submit]** 以确认创建登陆页面预设。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. 创建登陆页面预设后，该预设会显示在列表中，并且 **[!UICONTROL 活动]** 状态。 它已准备好用于您的登陆页面。
+1. 创建登陆页面预设后，该预设会显示在列表中，并且 **[!UICONTROL Active]** 状态。 它已准备好用于您的登陆页面。
 
    ![](assets/lp-preset-active-temp.png)
 
@@ -86,7 +86,7 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 >
 >Learn how to create channel surfaces for push notifications and emails in [this section](channel-surfaces.md).-->
 
-**相关主题**：
+**相关主题**:
 
 * [登陆页面入门](../landing-pages/get-started-lp.md)
 * [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)

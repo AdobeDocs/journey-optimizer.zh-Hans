@@ -1,5 +1,5 @@
 ---
-title: Batch Decisioning API
+title: 批量决策API
 description: 了解如何使用Batch Decisioning API为预定义决策范围内的分段用户档案选择最佳选件。
 feature: Offers
 topic: Integrations
@@ -8,17 +8,17 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 3%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
 
 # 使用 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-的 [!DNL Batch Decisioning] API允许组织在一次调用中对给定区段中的所有用户档案使用决策功能。 区段中每个用户档案的选件内容都放置在Adobe Experience Platform数据集中，该数据集可用于自定义批量工作流。
+的 [!DNL Batch Decisioning] API允许组织在一次调用中对给定区段中的所有用户档案使用决策功能。 区段中每个用户档案的选件内容会放置在Adobe Experience Platform数据集中，该数据集可用于自定义批量工作流。
 
-使用 [!DNL Batch Decisioning] API中，您可以使用Adobe Experience Platform区段中所有用户档案的最佳选件为决策范围填充数据集。 例如，组织可能希望运行 [!DNL Batch Decisioning] 以便他们向消息投放供应商发送优惠。 然后，这些选件将用作发出的内容，以便将批量消息交付到同一用户区段。
+使用 [!DNL Batch Decisioning] API中，您可以使用Adobe Experience Platform区段中所有用户档案的最佳选件填充数据集，以便进行决策。 例如，组织可能希望运行 [!DNL Batch Decisioning] 以便他们向消息投放供应商发送优惠。 然后，这些选件将用作发出以将批量消息交付到同一用户区段的内容。
 
 为此，组织将：
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 * **每个数据集正在运行的批处理作业数**:每个数据集一次最多可以运行5个批处理作业。 具有相同输出数据集的任何其他批处理请求都会添加到队列中。 在上一个作业完成运行后，将选取已排队的作业进行处理。
 * **频率封顶**:每天发生一次的配置文件快照的批处理运行。 的 [!DNL Batch Decisioning] API会限制频率，并始终从最新快照加载用户档案。
 
-## 快速入门 {#getting-started}
+## 入门指南 {#getting-started}
 
 使用此API之前，请确保完成以下先决条件步骤。
 

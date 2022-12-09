@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 3%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
@@ -98,7 +98,7 @@ expression examples:
 
 ## 对集合中字段的引用
 
-使用特定函数引用集合中定义的元素 `all`, `first` 和 `last`. 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
+使用特定函数引用集合中定义的元素 `all`, `first` 和 `last`. 有关更多信息，请参阅 [本页](../expression/collection-management-functions.md).
 
 示例：
 
@@ -142,7 +142,7 @@ expression examples:
 
 ## 数据源的参数值（数据源动态值）
 
-如果从外部数据源中选择字段需要调用参数，则右侧会显示一个新选项卡，用于指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
+如果从外部数据源中选择字段需要调用参数，则右侧会显示一个新选项卡，用于指定此参数。 请参阅 [本页](../expression/expressionadvanced.md).
 
 对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字定义其值 _params_. 参数可以是任何有效表达式，即使来自其他数据源（也包含其他参数）的参数也是如此。
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
@@ -56,13 +56,13 @@ ht-degree: 1%
 
 在 **子域和IP池** 部分，您必须：
 
-1. 选择要用于发送电子邮件的子域。 [了解详情](../configuration/about-subdomain-delegation.md)
+1. 选择要用于发送电子邮件的子域。 [了解更多](../configuration/about-subdomain-delegation.md)
 
-1. 选择要与曲面关联的IP池。 [了解详情](../configuration/ip-pools.md)
+1. 选择要与曲面关联的IP池。 [了解更多](../configuration/ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-当选定的IP池位于 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 处理]** 状态)且从未与选定的子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果出现这种情况，请将曲面另存为草稿，并在IP池具有 **[!UICONTROL 成功]** 状态。
+当选定的IP池位于 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** 状态)且从未与选定的子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果出现这种情况，请将曲面另存为草稿，并在IP池具有 **[!UICONTROL Success]** 状态。
 
 >[!NOTE]
 >
@@ -70,11 +70,11 @@ ht-degree: 1%
 
 ## 列表取消订阅 {#list-unsubscribe}
 
-On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用列表取消订阅]** 选项。
+On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL Enable List-Unsubscribe]** 选项。
 
 ![](assets/preset-list-unsubscribe.png)
 
-默认启用此选项。
+默认情况下，此选项处于启用状态。
 
 如果保持启用状态，则取消订阅链接将自动包含在电子邮件标题中，例如：
 
@@ -86,7 +86,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 * 安 **取消订阅电子邮件地址**，所有取消订阅请求都将发送到该服务器。
 
-   在 [!DNL Journey Optimizer]，则取消订阅电子邮件地址为默认地址 **[!UICONTROL Mailto（取消订阅）]** 通道表面中显示的地址，基于 [选定子域](#subdomains-and-ip-pools).
+   在 [!DNL Journey Optimizer]，则取消订阅电子邮件地址为默认地址 **[!UICONTROL Mailto (unsubscribe)]** 通道表面中显示的地址，基于 [选定子域](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
@@ -106,21 +106,21 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 ## 标头参数 {#email-header}
 
-在 **[!UICONTROL 标头参数]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
+在 **[!UICONTROL Header parameters]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
 
-* **[!UICONTROL 发件人名称]**:发件人的名称，如您的品牌名称。
+* **[!UICONTROL Sender name]**:发件人的名称，如您的品牌名称。
 
-* **[!UICONTROL 发件人电子邮件]**:要用于通信的电子邮件地址。
+* **[!UICONTROL Sender email]**:要用于通信的电子邮件地址。
 
-* **[!UICONTROL 回复（名称）]**:收件人单击 **回复** 按钮。
+* **[!UICONTROL Reply to (name)]**:收件人单击 **回复** 按钮。
 
-* **[!UICONTROL 回复（电子邮件）]**:收件人单击 **回复** 按钮。 [了解详情](#reply-to-email)
+* **[!UICONTROL Reply to (email)]**:收件人单击 **回复** 按钮。 [了解更多](#reply-to-email)
 
-* **[!UICONTROL 错误电子邮件]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
+* **[!UICONTROL Error email]**:收到ISP在收到几天邮件后（异步退回）生成的所有错误，均位于此地址。
 
 >[!CAUTION]
 >
->的 **[!UICONTROL 发件人电子邮件]** 和 **[!UICONTROL 错误电子邮件]** 地址必须使用当前选定的 [委派子域](../configuration/about-subdomain-delegation.md). 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com* 和 *error@marketing.luma.com*.
+>的 **[!UICONTROL Sender email]** 和 **[!UICONTROL Error email]** 地址必须使用当前选定的 [委派子域](../configuration/about-subdomain-delegation.md). 例如，如果委派的子域为 *marketing.luma.com*，您可以使用 *contact@marketing.luma.com* 和 *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -130,7 +130,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 ### 回复电子邮件 {#reply-to-email}
 
-定义 **[!UICONTROL 回复（电子邮件）]** 地址，您可以指定任何电子邮件地址（如果地址是有效地址），且格式正确且没有任何类型。
+定义 **[!UICONTROL Reply to (email)]** 地址，您可以指定任何电子邮件地址（如果地址是有效地址），且格式正确且没有任何类型。
 
 为确保正确的回复管理，请遵循以下建议：
 
@@ -144,12 +144,12 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 ### 转发电子邮件 {#forward-email}
 
-如果您希望将收到的所有电子邮件转发到特定电子邮件地址 [!DNL Journey Optimizer] 对于委派的子域，请联系Adobe客户关怀团队。 您需要提供：
+如果您希望将收到的所有电子邮件转发到特定电子邮件地址 [!DNL Journey Optimizer] 有关委派的子域，请联系Adobe客户关怀团队。 您需要提供：
 
 * 您选择的转发电子邮件地址。 请注意，转发电子邮件地址域与委派给Adobe的任何子域都不匹配。
 * 您的沙盒名称。
 * 将使用转发电子邮件地址的表面名称。
-* 当前 **[!UICONTROL 回复（电子邮件）]** 在通道表面级别设置的地址。
+* 当前 **[!UICONTROL Reply to (email)]** 在通道表面级别设置的地址。
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 您可以发送由发送的电子邮件的相同副本（或盲文副本） [!DNL Journey Optimizer] 发送到密件抄送收件箱，以供符合要求或进行存档。
 
-为此，请启用 **[!UICONTROL 密送电子邮件]** 通道曲面级别的可选功能。 [了解详情](../configuration/archiving-support.md#bcc-email)
+为此，请启用 **[!UICONTROL BCC email]** 通道曲面级别的可选功能。 [了解更多](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
@@ -192,24 +192,24 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="定义URL跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的URL。 此功能属于可选功能。"
+>abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的URL。 此功能是可选的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
 >title="预览URL跟踪参数"
 >abstract="查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
 
-您可以使用 **[!UICONTROL URL跟踪参数]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
+您可以使用 **[!UICONTROL URL tracking parameters]** 来衡量您跨渠道营销工作的有效性。 此功能是可选的。
 
-此部分中定义的参数将附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Web分析工具(如Adobe Analytics或Google Analytics)中捕获这些参数，并创建各种性能报表。
+此部分中定义的参数将附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Adobe Analytics或Google Analytics等Web分析工具中捕获这些参数，并创建各种性能报表。
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-您最多可以使用 **[!UICONTROL 添加新参数]** 按钮。
+您最多可以使用 **[!UICONTROL Add new parameter]** 按钮。
 
 ![](assets/preset-url-tracking.png)
 
-要配置URL跟踪参数，您可以直接在 **[!UICONTROL 名称]** 和 **[!UICONTROL 值]** 字段。
+要配置URL跟踪参数，您可以直接在 **[!UICONTROL Name]** 和 **[!UICONTROL Value]** 字段。
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
@@ -222,17 +222,17 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-您还可以编辑每个 **[!UICONTROL 值]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开编辑器。 从此处，您可以选择所选的上下文属性和/或直接编辑文本。
+您还可以编辑每个 **[!UICONTROL Value]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开编辑器。 从此处，您可以选择所选的上下文属性和/或直接编辑文本。
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL 值]** 字段最多可包含255个字符。
+>您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL Value]** 字段最多可包含255个字符。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
-以下是与Adobe Analytics和Google Analytics兼容的URL的示例。
+以下是与Adobe Analytics和Google Analytics兼容的URL示例。
 
 * Adobe Analytics兼容URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 

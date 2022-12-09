@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >title="反应事件"
 >abstract="此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。"
 
-在面板中可用的不同事件活动中，您会找到 **[!UICONTROL 反应]** 事件。 此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。
+在面板中可用的不同事件活动中，您会找到 **[!UICONTROL Reactions]** 事件。 此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。
 
 您可以对点击或打开的消息做出响应。
 
@@ -36,10 +36,10 @@ ht-degree: 2%
 
 以下是配置反应事件的不同步骤：
 
-1. 添加 **[!UICONTROL 标签]** 反应。 此步骤是可选的。
+1. 添加 **[!UICONTROL Label]** 反应。 此步骤是可选的。
 1. 从下拉列表中，选择要对其做出响应的操作活动。 您可以选择位于路径前面步骤中的任何操作活动。
 1. 根据您选择的操作，选择要对哪些内容做出响应。
-1. 您可以定义事件超时（在40秒到30天之间）和超时路径。 这将为未在定义的持续时间内做出反应的个人创建第二个路径。 测试使用反应事件的历程时，测试模式 **[!UICONTROL 等待时间]** 默认值和最小值为40秒。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
+1. 您可以定义事件超时（在40秒到30天之间）和超时路径。 这将为未在定义的持续时间内做出反应的个人创建第二个路径。 测试使用反应事件的历程时，测试模式 **[!UICONTROL Wait time]** 默认值和最小值为40秒。 请参阅 [此部分](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 26%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 26%
 
 使用 [!DNL Journey Optimizer] 使用存储在事件或数据源中的情境数据构建实时编排用例。
 
-设计由以下功能提供支持的分步式高级方案：
+设计由以下功能提供支持的多步高级方案：
 
-* 实时发送由事件接收触发的&#x200B;**单一投放** ，或使用 Adobe Experience Platform 区段&#x200B;**批量**&#x200B;发送。
+* 实时发送 **单一投放** 在收到事件时触发，或 **批量** 使用Adobe Experience Platform区段。
 
-* 利用来自事件的&#x200B;**上下文数据**、来自 Adobe Experience Platform 的信息或来自第三方 API 服务的数据。
+* 利用 **上下文数据** 来自事件、Adobe Experience Platform信息或来自第三方API服务的数据。
 
 * 使用 **内置操作** 发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
 
-* 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取区段活动、添加条件和发送个性化消息。
+* 使用 **历程设计器**，构建多步用例：轻松拖放登入事件或读取区段活动、添加条件和发送个性化消息。
 
 ## 创建历程的步骤{#steps-journey}
 
 使用Adobe Journey Optimizer从单个画布设计和编排个性化历程。
 
-Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。
+Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一的客户参与协调起来。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。
 
 ![](assets/interface-journeys.png)
 
@@ -52,21 +52,21 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 在以下端到端用例中了解如何构建历程。
 
-商业用例:
+业务用例：
 
 * [发送多渠道消息](journeys-uc.md)
-* [使用 Campaign v7/v8 发送消息](ajo-ac.md)
+* [使用Campaign v7/v8发送消息](ajo-ac.md)
 * [向订阅者发送消息](message-to-subscribers-uc.md)
 
-技术用例:
+技术用例：
 
-* [使用自定义操作动态传递集合](collections.md)
-* [增加投放数量](ramp-up-deliveries-uc.md)
+* [使用自定义操作动态传递收藏集](collections.md)
+* [加快投放速度](ramp-up-deliveries-uc.md)
 * [使用外部数据源和自定义操作限制吞吐量](limit-throughput.md)
 
 ## 历程版本{#journey-versions}
 
-在历程列表中，所有历程版本均显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。
+在历程列表中，所有历程版本均显示版本号。 请参阅 [本页](../building-journeys/using-the-journey-designer.md).
 
 当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版本界面的顶部画布上方。
 
@@ -74,11 +74,11 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 >[!NOTE]
 >
->通常，用户档案不能在同一历程中同时存在多次。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](end-journey.md)。
+>通常，用户档案不能在同一历程中同时存在多次。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解更多](end-journey.md).
 
 如果您需要修改到实时历程，请创建历程的新版本。
 
-1. 打开实时历程的最新版本，单击 **[!UICONTROL 创建新版本]** 确认。
+1. 打开实时历程的最新版本，单击 **[!UICONTROL Create a new version]** 确认。
 
    ![](assets/journeyversions2.png)
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
    >
    >您只能从历程的最新版本创建新版本。
 
-1. 进行修改，单击 **[!UICONTROL 发布]** 确认。
+1. 进行修改，单击 **[!UICONTROL Publish]** 确认。
 
    ![](assets/journeyversions3.png)
 

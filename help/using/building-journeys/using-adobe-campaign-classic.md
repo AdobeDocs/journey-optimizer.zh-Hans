@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Campaign v7/v8 操作
+title: Adobe Campaign v7/v8操作
 description: 了解Adobe Campaign v7/v8操作
 feature: Actions
 topic: Administration
@@ -11,15 +11,15 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# Adobe Campaign v7/v8 操作 {#using_campaign_classic}
+# Adobe Campaign v7/v8操作 {#using_campaign_classic}
 
-如果您具有Adobe Campaign v7或v8，则集成可用。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
+如果您具有Adobe Campaign v7或v8，则可以使用集成。 利用该功能，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。
 
-Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设置的。 联系Adobe。
+Journey Optimizer和Campaign实例之间的连接由Adobe在配置时设置。 联系Adobe。
 
 要使此功能正常工作，您需要配置专用操作。 请参阅 [部分](../action/acc-action.md).
 

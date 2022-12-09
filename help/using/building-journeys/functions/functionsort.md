@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: sort
+title: 排序
 description: 了解函数排序
 feature: Journeys
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeyStep 事件操作执行字段
-description: journeyStep 事件操作执行字段
+title: journeyStep事件操作执行字段
+description: journeyStep事件操作执行字段
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 12%
+source-wordcount: '323'
+ht-degree: 0%
 
 ---
 
-# journeyStep 事件操作执行字段 {#sharing-execution-fields}
+# journeyStep事件操作执行字段 {#sharing-execution-fields}
 
 此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
 
@@ -43,7 +43,7 @@ ht-degree: 12%
 
 指示操作是否已参数化。
 
-类型：布尔值
+类型：布尔
 
 ## actionExecutionTime {#actionexecutiontime-field}
 
@@ -60,8 +60,8 @@ ht-degree: 12%
 值：
 * http
 * 上限
-* timeout
-* error
+* 超时
+* 错误
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
@@ -115,13 +115,13 @@ actionExecOrigError的错误代码。
 
 ## deliveryJobID {#deliveryjobid-field}
 
-这描述了批处理历程的提交作业ID。
+此描述批处理历程的交付作业ID。
 
 类型：字符串
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-此变量描述批处理历程的提交ID。
+此变量描述批处理历程的交付ID。
 
 类型：字符串
 
@@ -129,7 +129,7 @@ actionExecOrigError的错误代码。
 
 此描述是否从受众区段触发批量历程。
 
-类型：布尔值
+类型：布尔
 
 ## actionSchedulerCount {#actionschedulercount-field}
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 6%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 6%
 
 ➡️ [在视频中发现此功能](#video)
 
-可在 **[!UICONTROL 组件]** 菜单。
+可在 **[!UICONTROL Components]** 菜单。
 
 ![](../assets/tags_list.png)
 
 要创建标记，请执行以下步骤：
 
-1. 转到 **[!UICONTROL 标记]** ，然后单击 **[!UICONTROL 创建标记]**.
+1. 转到 **[!UICONTROL Tags]** ，然后单击 **[!UICONTROL Create tag]**.
 
-1. 指定标记的名称，然后单击 **[!UICONTROL 保存]**.
+1. 指定标记的名称，然后单击 **[!UICONTROL Save]**.
 
    ![](../assets/tags_create.png)
 

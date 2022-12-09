@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 21%
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
 
@@ -28,18 +28,18 @@ ht-degree: 21%
 
 要导入包含HTML内容的文件，请执行以下步骤：
 
-1. 从Email Designer主页中，选择 **[!UICONTROL 导入HTML]**.
+1. 从Email Designer主页中，选择 **[!UICONTROL Import HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. 拖放包含您的HTML内容的HTML或.zip文件。
+1. 拖放包含HTML内容的HTML或.zip文件。
 
-1. 上传HTML内容后，您可以利用Email Designer功能编辑和预览电子邮件。 [了解详情](content-from-scratch.md)
+1. 上传HTML内容后，您可以利用Email Designer功能编辑和预览电子邮件。 [了解更多](content-from-scratch.md)
 
    ![](assets/html-imported.png)
 
 ## 操作方法视频 {#video}
 
-了解如何导入现有 HTML 内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行编码。
+了解如何导入现有HTML内容、调整设计、添加镜像页面和取消订阅链接，以及如何对内容进行代码。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

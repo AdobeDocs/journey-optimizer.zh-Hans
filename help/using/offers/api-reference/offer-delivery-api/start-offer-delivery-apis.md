@@ -1,5 +1,5 @@
 ---
-title: 优惠投放 API 入门
+title: 开始使用选件交付API
 description: 进一步了解可用于提供个性化优惠的API。
 feature: Offers
 topic: Integrations
@@ -9,25 +9,25 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# 优惠投放 API 入门 {#about-decisioning-apis}
+# 开始使用选件交付API {#about-decisioning-apis}
 
-您可以使用 **决策** 或 **Edge Decisioning** API。 此外， **Batch Decisioning** API允许您在一次调用中向给定区段中的所有用户档案交付选件。 区段中每个用户档案的选件内容都放置在Adobe Experience Platform数据集中，该数据集可用于自定义批量工作流。
+您可以使用 **决策** 或 **Edge Decisioning** API。 此外， **Batch Decisioning** API允许您在一次调用中向给定区段中的所有用户档案交付选件。 区段中每个用户档案的选件内容会放置在Adobe Experience Platform数据集中，该数据集可用于自定义批量工作流。
 
 在本页中，您将找到有关 **决策** 和 **Edge Decisioning** API。 虽然这两种方法都允许您向客户交付选件，但我们建议您使用 **Edge Decisioning** 尽可能针对入站用例使用API，并确保平台上的延迟和吞吐量得到改善。
 
 |  | 请求数/秒 | 延迟 |
 |---|---|---|
-| Decisioning API | 2000年 | &lt;500 毫秒 |
-| Edge Decisioning API | 5000 | &lt;250 毫秒 |
+| 决策API | 2000年 | &lt;500毫秒 |
+| Edge Decisioning API | 5000 | &lt;250毫秒 |
 
 有关如何使用API的更多信息，请参阅以下章节：
 * [决策API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
-* [Batch Decisioning API](batch-decisioning-api.md)
+* [批量决策API](batch-decisioning-api.md)
 
 ## Edge Decisioning API功能 {#edge}
 
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 例如，如果客户访问您的网站，则请求将包含体验事件（客户对页面的访问），并获取回选件以填充访问的页面。
 
-**将上下文数据存储到Adobe Experience Platform**
+**将上下文数据存储到Adobe Experience Platform中**
 
 上下文数据是指您仅在希望返回选件时才知道的数据。 例如，购买文章的颜色、购买时的天气等。
 

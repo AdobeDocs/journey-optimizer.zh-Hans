@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->消息频度规则与选择退出管理不同，选择退出管理允许用户取消订阅以接收来自品牌的通信。 [了解详情](../privacy/opt-out.md#opt-out-management)
+>消息频度规则与选择退出管理不同，选择退出管理允许用户取消订阅以接收来自品牌的通信。 [了解更多](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [在视频中发现此功能](#video)
 
 ## 访问规则 {#access-rules}
 
-规则可从 **[!UICONTROL 管理]** > **[!UICONTROL 规则]** 菜单。 将列出所有规则，并按修改日期排序。
+规则可从 **[!UICONTROL Administration]** > **[!UICONTROL Rules]** 菜单。 将列出所有规则，并按修改日期排序。
 
 使用过滤器图标可对类别、状态和/或渠道进行过滤。 您还可以在消息标签上搜索。
 
@@ -39,9 +39,9 @@ ht-degree: 3%
 
 ### 权限{#permissions-frequency-rules}
 
-要访问、创建、编辑或删除消息频度规则，您必须具有 **[!UICONTROL 管理频度规则]** 权限。
+要访问、创建、编辑或删除消息频度规则，您必须具有 **[!UICONTROL Manage frequency rules]** 权限。
 
-具有 **[!UICONTROL 查看频度规则]** 权限可以查看规则，但不能修改或删除规则。
+具有 **[!UICONTROL View frequency rules]** 权限可以查看规则，但不能修改或删除规则。
 
 ![](assets/message-rules-access.png)
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 要创建新规则，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 消息频度规则]** 列表，然后单击 **[!UICONTROL 创建规则]**.
+1. 访问 **[!UICONTROL Message frequency rules]** 列表，然后单击 **[!UICONTROL Create rule]**.
 
    ![](assets/message-rules-create.png)
 
@@ -63,7 +63,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >当前仅 **[!UICONTROL 营销]** 类别。
+   >当前仅 **[!UICONTROL Marketing]** 类别。
 
 1. 设置规则的上限，即每月可发送到单个用户配置文件的消息数上限。
 
@@ -73,7 +73,7 @@ ht-degree: 3%
    >
    >频度上限基于月度日历周期。 它会在每月初重置。
 
-1. 选择要用于此规则的渠道： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 推送通知]**.
+1. 选择要用于此规则的渠道： **[!UICONTROL Email]** 或 **[!UICONTROL Push notification]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -85,13 +85,13 @@ ht-degree: 3%
 
    例如，将上限设置为15，然后选择电子邮件和推送渠道。 如果用户档案已收到10封营销电子邮件和5条营销推送通知，则此用户档案将从任何营销电子邮件或推送通知的下一次投放中排除。
 
-1. 单击 **[!UICONTROL 另存为草稿]** 以确认创建规则。 您的消息将添加到规则列表，并且 **[!UICONTROL 草稿]** 状态。
+1. 单击 **[!UICONTROL Save as draft]** 以确认创建规则。 您的消息将添加到规则列表，并且 **[!UICONTROL Draft]** 状态。
 
    ![](assets/message-rules-created.png)
 
 ## 激活规则 {#activate-rule}
 
-创建消息频度规则后，该规则的 **[!UICONTROL 草稿]** 状态和尚未影响任何消息。 要启用它，请单击规则旁边的省略号，然后选择 **[!UICONTROL 激活]**.
+创建消息频度规则后，该规则的 **[!UICONTROL Draft]** 状态和尚未影响任何消息。 要启用它，请单击规则旁边的省略号，然后选择 **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -101,11 +101,11 @@ ht-degree: 3%
 >
 >规则最多可能需要10分钟才能完全激活。 您无需修改消息或重新发布历程，规则即可生效。
 
-要停用消息频度规则，请单击规则旁边的省略号，然后选择 **[!UICONTROL 停用]**.
+要停用消息频度规则，请单击规则旁边的省略号，然后选择 **[!UICONTROL Deactivate]**.
 
 ![](assets/message-rules-deactivate.png)
 
-规则的状态将更改为 **[!UICONTROL 不活动]** 并且该规则将不适用于将来的消息执行。 当前正在执行的任何消息都不会受到影响。
+规则的状态将更改为 **[!UICONTROL Inactive]** 并且该规则将不适用于将来的消息执行。 当前正在执行的任何消息都不会受到影响。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >当前仅 **[!UICONTROL 营销]** 类别可用于消息频度规则。
+   >当前仅 **[!UICONTROL Marketing]** 类别可用于消息频度规则。
 
    <!--
    1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
@@ -132,7 +132,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL 事务型]** 将不会根据频度规则进行评估。
+   >消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL Transactional]** 将不会根据频度规则进行评估。
 
    <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -144,7 +144,7 @@ ht-degree: 3%
 
 ## 示例：合并多个规则 {#frequency-rule-example}
 
-您可以组合多个消息频率规则，如以下示例中所述。
+您可以组合多个消息频度规则，如以下示例中所述。
 
 1. [创建规则](#create-new-rule) 调用 *整体营销上限*:
 
@@ -162,9 +162,9 @@ ht-degree: 3%
 
 1. 保存并 [激活](#activate-rule) 规则。
 
-1. 创建电子邮件并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../email/create-email.md)
+1. 创建电子邮件并选择 **[!UICONTROL Marketing]** 类别。 [了解更多](../email/create-email.md)
 
-1. 创建推送通知并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../push/create-push.md)
+1. 创建推送通知并选择 **[!UICONTROL Marketing]** 类别。 [了解更多](../push/create-push.md)
 
 在此方案中，单个用户档案：
 * 每月最多可接收12条营销消息；
@@ -176,6 +176,6 @@ ht-degree: 3%
 
 ## 操作方法视频 {#video}
 
-了解如何创建、激活、测试和报告频率规则。
+了解如何创建、激活、测试和报告频度规则。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

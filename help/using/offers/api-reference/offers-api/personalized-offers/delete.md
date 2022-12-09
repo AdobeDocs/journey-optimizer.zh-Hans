@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 0%
 
 ---
 
 # 删除个性化优惠 {#delete-personalized-offer}
 
-有时可能需要删除(DELETE)个性化选件。 只能删除您在租户容器中创建的个性化选件。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的个性化选件$id的API。
+有时可能需要删除（删除）个性化选件。 只能删除您在租户容器中创建的个性化选件。 这是通过对 [!DNL Offer Library] 使用您要删除的个性化选件$id的API。
 
 **API格式**
 
@@ -44,4 +44,4 @@ curl -X DELETE \
 
 成功的响应会返回HTTP状态202（无内容）和空白正文。
 
-您可以通过尝试对个性化选件进行查询(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为已从容器中删除了个性化选件。
+您可以通过尝试对个性化选件进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为已从容器中删除了个性化选件。

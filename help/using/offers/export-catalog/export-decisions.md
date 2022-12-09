@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 3%
+source-wordcount: '1524'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >了解如何在 [此部分](../export-catalog/access-dataset.md).
 
-以下是可在 **[!UICONTROL 决策对象存储库 — 决策]** 数据集（以前称为决策对象存储库 — 活动）。
+以下是可在 **[!UICONTROL Decision Object Repository - Decisions]** 数据集（以前称为决策对象存储库 — 活动）。
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
@@ -34,9 +34,9 @@ ht-degree: 3%
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
-**类型：**&#x200B;字符串
+**类型：** 字符串
 
-## _experience（体验） {#experience}
+## _体验 {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -58,7 +58,7 @@ ht-degree: 3%
 **字段：** 描述
 **标题：** 描述
 **描述：** 标准描述。 它用于传达人类可读的意图，说明如何构建此标准或为何构建此标准以及它如何影响决策。
-**类型：**&#x200B;字符串
+**类型：** 字符串
 
 **_experience > decisioning > criteria > optionSelection**
 
@@ -72,21 +72,21 @@ ht-degree: 3%
    **字段：** 描述
    **标题：** 描述
    **描述：** 选项选择描述。 它用于传达人类可读的意图，说明如何构建此选项选择以及/或将匹配哪个选项。
-   **类型：**&#x200B;字符串
+   **类型：** 字符串
 
 * **选项过滤器**
 
    **字段：** 过滤器
    **标题：** 选项过滤器
    **描述：** 对基于标记的过滤器的引用，该过滤器使用其附加的标记来匹配库存中的选项。 该值是引用的决策规则的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/filter 。
-   **类型：**&#x200B;字符串
+   **类型：** 字符串
 
 * **轮廓约束类型**
 
    **字段：** optionSelectionType
    **标题：** 轮廓约束类型
    **描述：** 确定当前是否设置了任何约束以及约束的表示方式。 可以通过过滤器查询或通过一个或多个区段成员关系进行。
-   **类型：**字符串
+   **类型：** 字符串
    **可能值：** &quot;none&quot;（默认）、&quot;directList&quot;、&quot;filter&quot;
 
 * **选项列表**
@@ -109,7 +109,7 @@ ht-degree: 3%
 
    **标题：** 版面标识符
    **描述：** 对放置图元的引用。 值是所引用版面的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/placement 。
-   **类型：**&#x200B;字符串
+   **类型：** 字符串
 
 **_experience > decisioning > criteria > profileConstraints**
 
@@ -123,21 +123,21 @@ ht-degree: 3%
    **字段：** 描述
    **标题：** 描述
    **描述：** 配置文件约束描述。 它用于传达人类可读的意图，说明如何构建此用户档案约束以及/或该用户档案约束将包含或排除哪个选项。
-   **类型：**&#x200B;字符串
+   **类型：** 字符串
 
 * **_experience > decisioning > criteria > profileConstraints >资格规则**
 
    **字段：** igilityRule
    **标题：** 资格规则
    **描述：** 对决策规则的引用，该规则对给定配置文件和/或其他给定上下文XDM对象的计算结果为true或false。 该规则用于确定选项是否符合给定用户档案的条件。 该值是引用的决策规则的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rule 。
-   **类型：**&#x200B;字符串
+   **类型：** 字符串
 
 * **_experience > decisioning > criteria > profileConstraints >配置文件约束类型**
 
    **字段：** profileConstraintType
    **标题：** 轮廓约束类型
    **描述：** 确定当前是否设置了任何约束以及约束的表示方式。 可以通过规则或通过一个或多个区段成员关系实现。
-   **类型：**字符串
+   **类型：** 字符串
    **可能值：**
    * &quot;none&quot;（默认）
    * &quot;igilityRule&quot;:“配置文件约束以单个规则表示，在允许约束操作之前，必须将其计算为true。”
@@ -157,9 +157,9 @@ ht-degree: 3%
       **字段：** _id
       **标题：** 标识符
       **描述：** 相关命名空间中区段的标识。
-      **类型：**&#x200B;字符串
+      **类型：** 字符串
 
-   * **namespace**
+   * **命名空间**
 
       **字段：** 命名空间
       **标题：** 命名空间
@@ -172,13 +172,13 @@ ht-degree: 3%
          **字段：** 代码
          **标题：** 代码
          **描述：** 该代码是命名空间的人类可读标识符，可用于请求用于身份图处理的技术命名空间ID。
-         **类型：**&#x200B;字符串
+         **类型：** 字符串
    * **体验标识符**
 
       **字段：** xid
       **标题：** 体验标识符
       **描述：** 如果存在，则此值表示跨命名空间标识符，该标识符在所有命名空间中所有命名空间范围内的标识符都是唯一的。
-      **类型：**&#x200B;字符串
+      **类型：** 字符串
 
 
 **_experience > decisioning > criteria > riferiang**
@@ -200,14 +200,14 @@ ht-degree: 3%
       **字段：** 函数
       **标题：** 评分功能
       **描述：** 对函数的引用，该函数计算此决策选项的数值分数。 然后，将根据该分数对决策选项进行排序（排名）。 此属性的值是要一次通过on选项调用的函数的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/function 。
-      **类型：**&#x200B;字符串
+      **类型：** 字符串
 
    * **订单评估类型**
 
       **字段：** orderEvaluationType
       **标题：** 订单评估类型
       **描述：** 指定使用哪种顺序评估机制、决策选项的静态优先级、计算每个选项的数值的评分函数或接收列表以对其进行排序的排名策略。
-      **类型：**字符串
+      **类型：** 字符串
       **可能值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
 
    * **排名策略**
@@ -215,7 +215,7 @@ ht-degree: 3%
       **字段：** rankingStrategy
       **标题：** 排名策略
       **描述：** 对决策选项列表进行排名的策略的引用。 决策选项将在有序列表中返回。 此属性的值是要一次通过on选项调用的函数的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rankingStrategy 。
-      **类型：**&#x200B;字符串
+      **类型：** 字符串
 
 * **_experience > decisioning > criteria > rifirary > priority**
 
@@ -231,28 +231,28 @@ ht-degree: 3%
 **字段：** endTime
 **标题：** 活动结束日期和时间
 **描述：** 决策（以前称为活动）结束日期和结束时间。 该属性在http://schema.org/Action上定义了schema.org的“endTime”属性的语义。
-**类型：**&#x200B;字符串
+**类型：** 字符串
 
 #### _experience > decisioning >回退选项
 
 **字段：** 回退
 **标题：** 回退选项
 **描述：** 对回退选项的引用（在此决策的上下文中进行决策时使用）不会限定任何常规选项（通常在应用硬约束时发生）。 值是引用的回退选项的URI(@id)。
-**类型：**&#x200B;字符串
+**类型：** 字符串
 
 #### _experience > decisioning >活动名称
 
 **字段：** name
 **标题：** 活动名称
 **描述：** 在各种用户界面中显示的决策（以前称为活动）名称。
-**类型：**&#x200B;字符串
+**类型：** 字符串
 
 #### _experience > decisioning > Activity Start Date and Time
 
 **字段：** startTime
 **标题：** 活动开始日期和时间
 **描述：** 决策（以前称为活动）开始日期和结束时间。 该属性在http://schema.org/Action上定义了schema.org的“startTime”属性的语义。
-**类型：**&#x200B;字符串
+**类型：** 字符串
 
 ## _repo {#repo}
 
@@ -264,4 +264,4 @@ ht-degree: 3%
 **字段：** etag
 **标题：** 活动ETag
 **描述：** 拍摄快照时，决策对象（以前称为活动）所在的修订版本。
-**类型：**&#x200B;字符串
+**类型：** 字符串

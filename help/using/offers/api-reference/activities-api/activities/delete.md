@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 5%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
 # 删除决策 {#delete-decision}
 
-有时可能需要删除(DELETE)决策。 只能删除您在租户容器中创建的决策。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
+有时可能需要删除（删除）决策。 只能删除您在租户容器中创建的决策。 这是通过对 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
 
 **API格式**
 

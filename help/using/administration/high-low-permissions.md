@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 每个产品配置文件都包含允许用户访问不同功能的权限。
 分为两种类型：
 
-* **高级权限**:表示可分配给的不同权限 **[!UICONTROL 产品配置文件]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高级权限包含低级权限。
+* **高级权限**:表示可分配给的不同权限 **[!UICONTROL Product profile]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高级权限包含低级权限。
 
 * **低级别权限**:表示来自高级权限的不同权限。
 
-例如， **[!DNL Journey administrator]** 已分配产品配置文件 **[!DNL Manage journeys]** 权限。 从此权限中，将产生低级权限，该权限将允许历程管理员写入、读取和删除历程。
+例如， **[!DNL Journey administrator]** 已分配产品配置文件 **[!DNL Manage journeys]** 权限。 从此权限中，将产生低级权限，这将允许历程管理员写入、读取和删除历程。
 
 ## 历程功能 {#journey-capability}
 
 ### [!DNL Manage journeys] 许可 {#manage-journeys}
 
-的 **[!DNL Manage journeys]** 高级权限允许用户创建新历程和编辑/删除现有访客，以及访问历程画布中用于构建历程流的对象。
+的 **[!DNL Manage journeys]** 高级权限允许用户创建新历程和编辑/删除现有历程，以及访问历程画布中用于构建历程流的对象。
 
 它包括以下低级权限：
 
@@ -42,7 +42,7 @@ ht-degree: 0%
    * journeys.delete
    * messages.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
 
    * segments.read
    * profiles.read
@@ -68,7 +68,7 @@ ht-degree: 0%
 * Journey Optimizer特定：
    * journeys.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * segments.read
    * profiles.read
 
@@ -89,7 +89,7 @@ ht-degree: 0%
    * journeys_actions.write
    * journeys_actions.delete
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * schemas.read
    * datasets.read
    * identity_namespace.read
@@ -105,7 +105,7 @@ ht-degree: 0%
    * journeys_data_sources.read
    * journeys_actions.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * schemas.read
    * datasets.read
    * identity_namespace.read
@@ -120,7 +120,7 @@ ht-degree: 0%
    * journeys_report.read
    * messages_report.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * datasets.read
    * queries.read
    * queries.write
@@ -146,7 +146,7 @@ ht-degree: 0%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -166,7 +166,7 @@ ht-degree: 0%
    * placements.read
    * ranking_strategy.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * schemas.read
    * segment.read
    * datasets.read
@@ -189,7 +189,7 @@ ht-degree: 0%
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * schemas.read
    * segment.read
    * datasets.read
@@ -288,7 +288,7 @@ It includes the following low-level permissions:
    * messages_presets.delete
    * subdomains_delegation.read
    * IP_pools.read
-   * mobile_setting.read(从Adobe Experience Platform Launch)
+   * mobile_setting.read（从Adobe Experience Platform Launch中）
 
 ### [!DNL View channel surface] 许可 {#view-channel-surface}
 
@@ -299,7 +299,7 @@ It includes the following low-level permissions:
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read(从Adobe Experience Platform数据收集)
+* mobile_setting.read（从Adobe Experience Platform数据收集）
 
 ### [!DNL Manage suppression] 许可 {#manage-suppression}
 
@@ -322,7 +322,7 @@ It includes the following low-level permissions:
 * Journey Optimizer特定：
    * suppression_list.view
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * profiles.read
    * datasets.read
 
@@ -335,7 +335,7 @@ It includes the following low-level permissions:
 * Journey Optimizer特定：
    * suppression_list.export
 
-* Adobe Experience Platform特定：
+* 特定于Adobe Experience Platform的：
    * profiles.read
    * datasets.read
 

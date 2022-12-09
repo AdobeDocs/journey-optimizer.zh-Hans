@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 6%
+source-wordcount: '263'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +21,15 @@ ht-degree: 6%
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入个性化内容，则可以利用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. 单击 **[!UICONTROL 模拟内容]**.
+1. 单击 **[!UICONTROL Simulate content]**.
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 添加测试用户档案。
+1. 单击 **[!UICONTROL Manage test profiles]** 添加测试用户档案。
 
-1. 通过 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加用户档案]**.
+1. 通过 **[!UICONTROL Identity namespace]** 和 **[!UICONTROL Identity value]** 字段。 然后，单击 **[!UICONTROL Add profile]**.
 
    ![](assets/sms_preview_3.png)
 
-1. 选择测试用户档案后，可以关闭 **[!UICONTROL 添加测试用户档案]** 窗口。
+1. 选择测试用户档案后，可以关闭 **[!UICONTROL Add test profile]** 窗口。
 
    ![](assets/sms_preview_1.png)
 

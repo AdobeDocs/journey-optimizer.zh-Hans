@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="选择AWS地区"
+>title="选择AWS区域"
 >abstract="选择要导出直邮文件的AWS服务器的地理区域。 通常情况下，最好选择与直邮提供商所在位置最接近的区域。"
 
 要发送直邮， [!DNL Journey Optimizer] 生成包含目标受众数据的文件并将其导出到服务器。
@@ -67,37 +67,37 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 
 要配置文件路由，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
+1. 访问 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** 菜单，然后单击 **[!UICONTROL Create routing configuration]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. 设置配置的名称。
 
-1. 选择 **[!UICONTROL 服务器类型]** 用于导出直邮文件的URL。
+1. 选择 **[!UICONTROL Server type]** 用于导出直邮文件的URL。
 
    ![](assets/file-routing-config-type.png)
 
    >[!NOTE]
    >
-   >目前，仅Amazon S3和SFTP在 [!DNL Journey Optimizer].
+   >目前，仅支持Amazon S3和SFTP [!DNL Journey Optimizer].
 
 1. 填写服务器的详细信息和凭据，如服务器地址、访问密钥等。
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 如果已选择 **[!UICONTROL Amazon S3]**，选择 **[!UICONTROL AWS地区]** 服务器基础架构的位置。
+1. 如果已选择 **[!UICONTROL Amazon S3]**，选择 **[!UICONTROL AWS region]** 服务器基础架构的位置。
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >AWS地区是AWS用来托管其云基础架构的地理区域。 通常情况下，最好选择与直邮提供商位置最接近的区域。
+   >AWS区域是AWS用来托管其云基础设施的地理区域。 通常情况下，最好选择与直邮提供商位置最接近的区域。
 
-1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 现在，它已准备好用于 [直邮表面](#direct-mail-surface).
+1. 选择 **[!UICONTROL Submit]**. 文件路由配置是使用 **[!UICONTROL Active]** 状态。 现在，它已准备好用于 [直邮表面](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件路由配置，但在曲面上 **[!UICONTROL 活动]**.
+   >您还可以选择 **[!UICONTROL Save as draft]** 创建文件路由配置，但在曲面上 **[!UICONTROL Active]**.
 
 ## 创建直邮界面 {#direct-mail-surface}
 
@@ -122,9 +122,9 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 
 直邮界面还必须包括文件路由配置，该配置定义了将导出直邮文件的服务器。
 
-1. 创建通道曲面。 [了解详情](../configuration/channel-surfaces.md)
+1. 创建通道曲面。 [了解更多](../configuration/channel-surfaces.md)
 
-1. 选择 **[!UICONTROL 直邮]** 渠道。
+1. 选择 **[!UICONTROL Direct mail]** 渠道。
 
    ![](assets/surface-direct-mail-channel.png)
 
@@ -134,13 +134,13 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. 选择文件格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文本分隔]**.
+1. 选择文件格式： **[!UICONTROL CSV]** 或 **[!UICONTROL Text delimited]**.
 
-1. 选择 **[!UICONTROL 文件路由配置]** 在您创建的其中。 这定义了将文件导出到何处以供直邮提供商使用。
+1. 选择 **[!UICONTROL File routing configuration]** 在您创建的其中。 这定义了将文件导出到何处以供直邮提供商使用。
 
    >[!CAUTION]
    >
-   >如果未配置任何文件路由选项，则将无法创建直邮界面。 [了解详情](#file-routing-configuration)
+   >如果未配置任何文件路由选项，则将无法创建直邮界面。 [了解更多](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
 

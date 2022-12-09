@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 4%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >title="等待活动"
 >abstract="如果要在执行路径中的下一个活动之前等待，可以使用等待活动。 利用该活动，可定义执行下一个活动的时间。 有两个选项可用：持续时间和自定义。"
 
-如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
+如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL Wait]** 活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 ## 关于等待活动{#about_wait}
 
-最长等待时长为30天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅 [本页](../building-journeys/testing-the-journey.md)
+最长等待时长为30天。 在测试模式下， **[!UICONTROL Wait time in test]** 参数允许您定义每个等待活动的持续时间。 默认时间为10秒。 这样可以确保快速获得测试结果。 请参阅 [本页](../building-journeys/testing-the-journey.md)
 
 在历程中使用多个等待活动时要谨慎，因为全局历程超时为30天，这意味着用户档案将始终在其进入历程后30天内从历程中删除。
 
@@ -61,7 +61,7 @@ Select the date for the execution of the next activity.
 >
 >您可以使用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段为2016-08-12T09格式:46:06Z。
 >
->的 **时区** 在历程的属性中是预期的。 因此，今天从界面无法直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>的 **时区** 在历程的属性中是预期的。 因此，今天从界面无法直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅 [本页](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

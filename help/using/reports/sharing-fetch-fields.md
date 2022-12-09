@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journeyStep 事件数据提取字段
-description: journeyStep 事件数据提取字段
+title: journeyStep事件数据获取字段
+description: journeyStep事件数据获取字段
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
-# journeyStep 事件数据提取字段 {#sharing-fetch-fields}
+# journeyStep事件数据获取字段 {#sharing-fetch-fields}
 
 此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
 
@@ -47,7 +47,7 @@ ht-degree: 7%
 * http
 * 上限
 * timedout
-* error
+* 错误
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
@@ -89,7 +89,7 @@ ht-degree: 7%
 
 ## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
-从Adobe Experience Platform（以米为单位）获取数据所花费的总时间。 备注：从引擎向扩充服务发送扩充事件并接收响应的时间开始计算此时间量。
+从Adobe Experience Platform获取数据所花费的总时间（以米为单位）。 备注：从引擎向扩充服务发送扩充事件并接收响应的时间开始计算此时间量。
 
 类型：long
 

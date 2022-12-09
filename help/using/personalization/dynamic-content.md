@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 1%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 # 创建动态内容 {#dynamic-content}
 
-Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内容添加到消息中。
+Adobe Journey Optimizer允许您利用库中创建的条件规则向消息中添加动态内容。
 
 动态内容可以创建到任何字段中，您可以在其中使用表达式编辑器添加个性化。 这包括主题行、链接、推送通知内容或文本类型选件的表示形式。 [了解有关个性化上下文的更多信息](personalization-contexts.md)
 
@@ -29,9 +29,9 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 
 1. 导航到要添加动态内容的字段，然后打开表达式编辑器。
 
-1. 选择 **[!UICONTROL 条件]** 菜单来显示可用条件规则列表。 单击规则旁边的+按钮以将其添加到当前表达式中。
+1. 选择 **[!UICONTROL Conditions]** 菜单来显示可用条件规则列表。 单击规则旁边的+按钮以将其添加到当前表达式中。
 
-   您还可以通过选择 **[!UICONTROL 新建]**. [了解如何创建条件](create-conditions.md)
+   您还可以通过选择 **[!UICONTROL Create new]**. [了解如何创建条件](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 
    ![](assets/conditions-language-sample.png)
 
-1. 内容准备就绪后，您可以使用 **[!UICONTROL 模拟内容]** 按钮。 [了解如何测试和预览消息](../email/preview.md)
+1. 内容准备就绪后，您可以使用 **[!UICONTROL Simulate content]** 按钮。 [了解如何测试和预览消息](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 
@@ -59,21 +59,21 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 
 在Email Designer中创建内容组件变体的步骤如下所示：
 
-1. 在Email Designer中，选择一个内容组件，然后单击 **[!UICONTROL 启用条件内容]**.
+1. 在Email Designer中，选择一个内容组件，然后单击 **[!UICONTROL Enable conditional content]**.
 
    ![](assets/conditions-enable-conditional.png)
 
-1. 的 **[!UICONTROL 条件内容]** 窗格。 在此窗格中，您可以使用条件创建选定内容组件的多个变体。
+1. 的 **[!UICONTROL Conditional Content]** 窗格。 在此窗格中，您可以使用条件创建选定内容组件的多个变体。
 
-   通过选择 **[!UICONTROL 应用条件]** 按钮。
+   通过选择 **[!UICONTROL Apply condition]** 按钮。
 
    ![](assets/conditions-apply.png)
 
-1. 将显示条件库。 选择要与变体关联的条件规则，然后单击 **[!UICONTROL 选择]**. 在本例中，我们希望根据收件人的首选语言来调整组件文本。
+1. 将显示条件库。 选择要与变体关联的条件规则，然后单击 **[!UICONTROL Select]**. 在本例中，我们希望根据收件人的首选语言来调整组件文本。
 
    ![](assets/conditions-select.png)
 
-   您还可以通过单击 **[!UICONTROL 新建]**. [了解如何创建条件](create-conditions.md)
+   您还可以通过单击 **[!UICONTROL Create new]**. [了解如何创建条件](create-conditions.md)
 
 1. 条件规则与变体关联。 为了更好的可读性，我们建议通过单击椭圆菜单来重命名变体。
 
@@ -84,6 +84,6 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 1. 根据需要为内容组件添加任意数量的变体。 您可以随时在不同的变体之间切换，以根据条件规则检查内容组件的显示方式。
 
    >[!NOTE]
-   >如果在发送消息时不满足变体中定义的任何规则，则内容组件将显示 **[!UICONTROL 默认变体]**.
+   >如果在发送消息时不满足变体中定义的任何规则，则内容组件将显示 **[!UICONTROL Default variant]**.
    >
    >将根据关联的规则评估条件内容，并按变体的显示顺序排列。 如果不满足其他条件，则始终显示默认变体。
