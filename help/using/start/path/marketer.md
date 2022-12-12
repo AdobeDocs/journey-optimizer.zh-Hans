@@ -1,49 +1,49 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer营销人员入门
-description: 作为历程实践者，了解如何使用Journey Optimizer的更多信息
+title: Journey Optimizer 营销人员入门指南
+description: 作为历程实践者，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 营销人员入门 {#get-started-marketers}
+# 营销人员入门指南 {#get-started-marketers}
 
-As a **营销人员** 或 **旅程实践者**，则您负责创建优惠和历程以及设计内容。 您可以开始使用 [!DNL Adobe Journey Optimizer] 一次 [系统管理员](administrator.md) 和 [数据工程师](data-engineer.md) 授予您访问权限并准备环境。
+作为&#x200B;**营销人员**&#x200B;或&#x200B;**历程实践者**，您负责创建优惠和历程以及设计内容。[系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 
-请参阅以下部分，设置您的第一个历程、添加选件和资产以及发送消息：
+请参阅以下部分，以设置第一个历程、添加优惠与资源并发送消息：
 
-1. **创建区段**. Journey Optimizer允许您直接从 **区段** ，并将它们用于您的历程。  进一步了解区段 [本页](../../segment/about-segments.md). 了解如何构建区段 [在此示例中](../../segment/creating-a-segment.md).
+1. **创建区段**。Journey Optimizer 允许直接从&#x200B;**“区段”**&#x200B;菜单创建受众区段，并将它们用于历程。[在本页面](../../segment/about-segments.md)中了解更多有关区段的信息。[在此示例中](../../segment/creating-a-segment.md)了解如何生成区段。
 
-1. **添加个性化和动态内容**. 利用Journey Optimizer个性化和动态内容功能，将您的消息调整为适合您的受众。 详细了解 [个性化](../../personalization/personalize.md) 和 [动态内容](../../personalization/get-started-dynamic-content.md).
+1. **添加个性化和动态内容**。利用 Journey Optimizer 个性化和动态内容功能，根据受众调整消息。详细了解[个性化](../../personalization/personalize.md)和[动态内容](../../personalization/get-started-dynamic-content.md)。
 
    ![](../assets/perso_ee2.png)
 
-1. **创建和管理资产**. [!DNL Adobe Experience Manager Assets Essentials] 提供了一个可用于填充消息的集中资产存储库。 了解更多 [在此部分中](../../email/assets-essentials.md).
+1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets Essentials] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../email/assets-essentials.md)了解详情。
 
-1. **添加选件**. 使用 [!DNL Journey Optimizer] 以在适当的时间跨所有接触点为客户提供最佳选件和体验。 设计完成后，即可使用个性化优惠定位受众。 进一步了解Decisioning管理 [在此部分中](../../offers/get-started/starting-offer-decisioning.md).
+1. **添加优惠**。使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。[在此部分中](../../offers/get-started/starting-offer-decisioning.md)了解有关决策管理的更多信息。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **测试和验证**. 定义内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在消息中的显示方式。 此外，您还可以 **利特穆斯** 帐户 [!DNL Journey Optimizer] 立即预览 **电子邮件渲染** 在流行的电子邮件客户中。 然后，您可以确保电子邮件内容在每个收件箱中都显示正常且工作正常。 了解如何测试和验证消息 [在此部分中](../../email/preview.md).
+1. **测试和验证**。定义内容后，即可使用测试个人资料对其进行预览和测试。如果插入[个性化内容](../../personalization/personalize.md)，您可以通过测试用户档案数据，检查此内容在消息中的显示方式。此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../email/preview.md)了解如何测试和验证消息。
 
-1. **设计客户历程** 提供个性化的情境式体验。 [!DNL Journey Optimizer] 允许您使用存储在事件或数据源中的情境数据构建实时编排用例。 设计由以下功能提供支持的多步高级方案：
+1. **设计客户历程**，以提供个性化的情境式体验。[!DNL Journey Optimizer] 使您可以利用存储在事件或数据源中的上下文数据，生成实时编排用例。设计由以下功能提供支持的分步式高级方案：
 
-   * 实时发送 **单一投放** 在收到事件时触发，或 **批量** 使用Adobe Experience Platform区段。
+   * 实时发送由事件接收触发的&#x200B;**单一投放** ，或使用 Adobe Experience Platform 区段&#x200B;**批量**&#x200B;发送。
 
-   * 利用 **上下文数据** 来自事件、Adobe Experience Platform信息或来自第三方API服务的数据。
+   * 利用来自事件的&#x200B;**上下文数据**、来自 Adobe Experience Platform 的信息或来自第三方 API 服务的数据。
 
-   * 使用 **内置渠道操作** （电子邮件、短信、推送），用于发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
+   * 使用&#x200B;**内置渠道操作**（电子邮件、短信、推送）发送在 [!DNL Journey Optimizer] 中设计的消息；或者，如果您使用第三方系统，可以创建&#x200B;**自定义操作**&#x200B;来发送消息。
 
-   * 使用 **历程设计器**，构建多步用例：轻松拖放登入事件或读取区段活动、添加条件和发送个性化消息。
+   * 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取区段活动、添加条件和发送个性化消息。
 
    ![](../assets/journey-design.png)
 
-   了解如何设计和执行历程 [在此部分中](../../building-journeys/journey-gs.md)
+   请参阅[本节](../../building-journeys/journey-gs.md)，了解如何设计和执行历程
 
-1. **监控消息和历程**. 为确保消息的执行、发送和发送成功， [!DNL Journey Optimizer] 提供了用于监视当前已发布和触发的消息的功能。 了解如何监控性能 [在此部分中](../../reports/global-report.md).
+1. **监测消息和历程**。为确保消息成功执行、发送和投放，[!DNL Journey Optimizer] 提供了用于监测当前已发布和触发的消息的功能。请参阅[本节](../../reports/global-report.md)，了解如何检测性能表现。
