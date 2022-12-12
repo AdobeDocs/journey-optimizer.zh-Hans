@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建营销活动
+title: 创建活动
 description: 了解如何在 [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -10,22 +10,22 @@ level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 8%
 
 ---
 
-# 创建营销活动 {#create-campaign}
+# 创建活动 {#create-campaign}
 
 >[!NOTE]
 >
->在创建新营销活动之前，请确保您有一个表面渠道（即消息预设）和一个Adobe Experience Platform区段可供使用。 请通过以下章节了解更多信息：
+>在创建新营销活动之前，请确保您有表面渠道（即消息预设）和Adobe Experience Platform区段可供使用。 请通过以下章节了解更多信息：
 >
->* [创建通道曲面](../configuration/channel-surfaces.md)
->* [区段快速入门](../segment/about-segments.md)
+>* [创建渠道平面](../configuration/channel-surfaces.md)
+>* [区段入门](../segment/about-segments.md)
 
 
-要创建新营销活动，请访问 **[!UICONTROL Campaigns]** 菜单，然后单击 **[!UICONTROL Create campaign]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解更多](modify-stop-campaign.md#duplicate)
+要创建新营销活动，请访问 **[!UICONTROL 促销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
 ![](assets/create-campaign.png)
 
@@ -41,15 +41,15 @@ ht-degree: 0%
 >title="促销活动类别"
 >abstract="类别值直接与促销活动类型值关联。 为 **营销** 类别和API触发的类别类型 **事务型**"
 
-1. 在 **[!UICONTROL Properties]** 部分，指定您希望如何执行营销活动。 可用的营销活动类型有两种：
+1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行营销活动。 可用的营销活动类型有两种：
 
-   * **[!UICONTROL Scheduled]**:立即执行营销活动或在指定日期执行营销活动。 计划的营销活动旨在发送 **营销** 键入消息。
+   * **[!UICONTROL 已计划]**:立即执行营销活动或在指定日期执行营销活动。 计划的营销活动旨在发送 **营销** 键入消息。
 
-   * **[!UICONTROL API-triggered]**:使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作后发出的消息：密码重置、卡放弃等。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
+   * **[!UICONTROL API触发]**:使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作后发出的消息：密码重置、卡放弃等。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
 
-1. 在 **[!UICONTROL Actions]** 部分，选择用于发送消息的渠道和渠道表面。
+1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道表面。
 
-   曲面是由 [系统管理员](../start/path/administrator.md). 它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。 [了解更多](../configuration/channel-surfaces.md).
+   平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
    ![](assets/create-campaign-action.png)
 
@@ -57,7 +57,7 @@ ht-degree: 0%
    >
    >下拉列表中只列出与营销活动类型兼容的渠道表面。
 
-1. 单击 **[!UICONTROL Create]** 创建营销活动。
+1. 单击 **[!UICONTROL 创建]** 创建营销活动。
 
 ## 定义营销活动属性 {#create}
 
@@ -65,15 +65,15 @@ ht-degree: 0%
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. 要为营销活动分配自定义或核心数据使用标签，请单击 **[!UICONTROL Manage access]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
+1. 要为营销活动分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
    ![](assets/create-campaign-properties.png)
 
 ## 创建消息 {#content}
 
-在 **[!UICONTROL Actions]** 部分创建要与营销活动一起发送的消息。
+在 **[!UICONTROL 操作]** 部分创建要与营销活动一起发送的消息。
 
-1. 单击 **[!UICONTROL Edit content]** 按钮，然后创建和设计消息内容。
+1. 单击 **[!UICONTROL 编辑内容]** 按钮，然后创建和设计消息内容。
 
    了解在以下页面中创建消息内容的详细步骤：
 
@@ -81,7 +81,7 @@ ht-degree: 0%
     <tr style="border: 0;">
     <td>
     <a href="../email/create-email.md">
-    <img alt="商机" src="../assets/do-not-localize/email.jpg">
+    <img alt="潜在客户" src="../assets/do-not-localize/email.jpg">
     </a>
     <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
     </div>
@@ -108,25 +108,25 @@ ht-degree: 0%
     </tr>
     </table>
 
-1. 定义内容后，使用 **[!UICONTROL Simulate content]** 按钮来预览和测试使用测试用户档案的内容。 [了解更多](../email/preview.md).
+1. 定义内容后，使用 **[!UICONTROL 模拟内容]** 按钮来预览和测试使用测试用户档案的内容。 [了解详情](../email/preview.md)。
 
 1. 单击箭头可返回至营销活动创建屏幕。
 
    ![](assets/create-campaign-design.png)
 
-1. 在 **[!UICONTROL Actions tracking]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开次数。
+1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开次数。
 
    一旦执行了营销活动，即可从营销活动报表访问跟踪结果。 [进一步了解营销活动报告](../reports/campaign-global-report.md)
 
 ## 定义受众 {#audience}
 
-1. 定义要定位的受众。 为此，请单击 **[!UICONTROL Select audience]** 按钮以显示可用Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
+1. 定义要定位的受众。 为此，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用的Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
 
    >[!NOTE]
    >
-   >对于API触发的营销活动，需要通过API调用来设置受众。 [了解更多](api-triggered-campaigns.md)
+   >对于API触发的营销活动，需要通过API调用来设置受众。 [了解详情](api-triggered-campaigns.md)
 
-   在 **[!UICONTROL Identity namespace]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
+   在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
 
    ![](assets/create-campaign-namespace.png)
 
@@ -155,10 +155,10 @@ ht-degree: 0%
 
 默认情况下，营销活动在手动激活后即开始，并在消息发送一次后结束。
 
-您可以定义营销活动消息的发送频率。 为此，请使用 **[!UICONTROL Action triggers]** 营销活动创建屏幕中的选项，以指定应每日、每周还是每月执行营销活动。
+您可以定义营销活动消息的发送频率。 为此，请使用 **[!UICONTROL 操作触发器]** 营销活动创建屏幕中的选项，以指定应每日、每周还是每月执行营销活动。
 
-如果您不想在营销活动激活后立即执行营销活动，则可以使用指定发送消息的日期和时间 **[!UICONTROL Campaign start]** 选项。 的 **[!UICONTROL Campaign end]** 选项，可指定应何时停止执行定期营销活动。
+如果您不想在营销活动激活后立即执行营销活动，则可以使用指定发送消息的日期和时间 **[!UICONTROL 营销活动开始]** 选项。 的 **[!UICONTROL 营销活动结束]** 选项，可指定应何时停止执行定期营销活动。
 
 ![](assets/create-campaign-schedule.png)
 
-营销活动准备就绪后，您可以查看并发布它。 [了解更多](#review-activate)
+营销活动准备就绪后，您可以查看并发布它。 [了解详情](#review-activate)
