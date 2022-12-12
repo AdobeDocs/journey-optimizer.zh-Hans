@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="热障涂层"
+>abstract="对于通过指定发送日期的营销消息， **已计划** 类型是最合适的。 但是，如果要发送诸如密码重置或卡放弃之类的事务型消息，请 **API触发** 类型是最佳选择。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="促销活动类别"
->abstract="热障涂层"
+>abstract="类别值直接链接到促销活动类型值。 为 **营销** 类别和API触发的类别类型 **事务型**"
 
 可用的营销活动类型有两种：
 
