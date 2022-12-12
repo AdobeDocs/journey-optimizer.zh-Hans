@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
+source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 2%
+source-wordcount: '1397'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 ## 访问登陆页面 {#access-landing-pages}
 
-要访问登陆页面列表，请选择 **[!UICONTROL 历程管理]** > **[!UICONTROL 登陆页面]** 菜单中。
+要访问登陆页面列表，请选择 **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** 菜单中。
 
 ![](assets/lp_access-list.png)
 
-的 **[!UICONTROL 登陆页面]** 列表会显示所有已创建的项目。 您可以根据用户的状态或修改日期进行筛选。
+的 **[!UICONTROL Landing Pages]** 列表会显示所有已创建的项目。 您可以根据用户的状态或修改日期进行筛选。
 
 ![](assets/lp_access-list-filter.png)
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 创建登陆页面的步骤如下所示。
 
-1. 在登陆页面列表中，单击 **[!UICONTROL 创建登陆页面]**.
+1. 在登陆页面列表中，单击 **[!UICONTROL Create landing page]**.
 
    ![](assets/lp_create-lp.png)
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 
    ![](assets/lp_create-lp-details.png)
 
-1. 要为登陆页面分配自定义或核心数据使用标签，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级别访问控制(OLAC)的更多信息](../administration/object-based-access.md)
+1. 要为登陆页面分配自定义或核心数据使用标签，请选择 **[!UICONTROL Manage access]**. [了解有关对象级别访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
    ![](assets/lp_create-lp-presets.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+1. 单击 **[!UICONTROL Create]**.
 
 1. 将显示主页面及其属性。 了解如何配置主页面设置 [此处](#configure-primary-page).
 
@@ -107,13 +107,13 @@ ht-degree: 2%
 
 要定义主页面设置，请执行以下步骤。
 
-1. 您可以更改页面名称，即 **[!UICONTROL 主页面]** 默认情况下。
+1. 您可以更改页面名称，即 **[!UICONTROL Primary page]** 默认情况下。
 
 1. 使用内容设计器编辑页面内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. 定义登陆页面URL。 URL的第一部分要求您之前在 [预设](../landing-pages/lp-presets.md#lp-create-preset) 已选择。 [了解详情](../landing-pages/lp-subdomains.md)
+1. 定义登陆页面URL。 URL的第一部分要求您之前在 [预设](../landing-pages/lp-presets.md#lp-create-preset) 已选择。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -125,7 +125,7 @@ ht-degree: 2%
    >
    >即使发布了URL，您也无法通过将此URL复制粘贴到Web浏览器来访问登陆页面。 您而是可以使用预览函数(如 [此部分](#test-landing-page).
 
-1. 如果希望登陆页面预载已可用的表单数据，请选择 **[!UICONTROL 使用用户档案信息预填表单字段]**.
+1. 如果希望登陆页面预载已可用的表单数据，请选择 **[!UICONTROL Pre-fill form fields with profile information]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
@@ -137,17 +137,17 @@ ht-degree: 2%
 
 1. 您可以为页面定义到期日期。 在这种情况下，您必须在页面到期时选择一项操作：
 
-   * **[!UICONTROL 重定向URL]**:输入用户将在页面过期时被重定向到的页面的URL。
-   * **[!UICONTROL 自定义页面]**: [配置子页面](#configure-subpages) ，然后从显示的下拉列表中选择它。
-   * **[!UICONTROL 浏览器错误]**:键入将显示的错误文本，而不是页面。
+   * **[!UICONTROL Redirect URL]**:输入用户将在页面过期时被重定向到的页面的URL。
+   * **[!UICONTROL Custom page]**: [配置子页面](#configure-subpages) ，然后从显示的下拉列表中选择它。
+   * **[!UICONTROL Browser error]**:键入将显示的错误文本，而不是页面。
 
    ![](assets/lp_expiry-date.png)
 
-1. 在 **[!UICONTROL 其他数据]** 定义一个或多个键及其相应的参数值。 您将能够在主页面和子页面的内容中使用 [表达式编辑器](../personalization/personalization-build-expressions.md). 有关详细信息，请参阅[此部分](lp-content.md#use-form-component#use-additional-data)。
+1. 在 **[!UICONTROL Additional data]** 定义一个或多个键及其相应的参数值。 您将能够在主页面和子页面的内容中使用 [表达式编辑器](../personalization/personalization-build-expressions.md). 在 [此部分](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. 如果您在 [设计主页面](design-lp.md)，则它们会显示在 **[!UICONTROL 订阅列表]** 中。
+1. 如果您在 [设计主页面](design-lp.md)，则它们会显示在 **[!UICONTROL Subscription list]** 中。
 
    ![](assets/lp_subscription-list.png)
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
    ![](assets/lp_create-journey.png)
 
-   单击 **[!UICONTROL 创建历程]** 被重定向到 **[!UICONTROL 历程管理]** > **[!UICONTROL 历程]** 列表。
+   单击 **[!UICONTROL Create journey]** 被重定向到 **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** 列表。
 
 ## 配置子页面 {#configure-subpages}
 
@@ -169,14 +169,14 @@ ht-degree: 2%
 >id="ajo_lp_access_settings-subpage"
 >title="定义登陆页面URL"
 >abstract="在此部分中，定义一个唯一的登陆页面URL。 URL的第一部分要求您之前在所选预设中设置登陆页面子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 最多可以添加2个子页面。 例如，您可以创建一个“感谢”页面，在用户提交表单后，该页面将显示；您可以定义一个错误页面，在登陆页面出现问题时，将调用该错误页面。
 
 要定义子页面设置，请执行以下步骤。
 
-1. 您可以更改页面名称，即 **[!UICONTROL 子页面1]** 默认情况下。
+1. 您可以更改页面名称，即 **[!UICONTROL Subpage 1]** 默认情况下。
 
 1. 使用内容设计器编辑页面内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
@@ -184,7 +184,7 @@ ht-degree: 2%
    >
    >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错并希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在 [此部分](../email/message-tracking.md#insert-links).
 
-1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解详情](../landing-pages/lp-subdomains.md)
+1. 定义登陆页面URL。 URL的第一部分要求您先前设置登陆页面子域。 [了解更多](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -200,21 +200,21 @@ ht-degree: 2%
 >
 >您必须具有测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
-1. 在登陆页面界面中，单击 **[!UICONTROL 预览和测试]** 按钮以访问测试用户档案选择。
+1. 在登陆页面界面中，单击 **[!UICONTROL Preview & test]** 按钮以访问测试用户档案选择。
 
    ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 预览]** 按钮。
+   >的 **[!UICONTROL Preview]** 按钮。
 
-1. 从 **[!UICONTROL 预览和测试]** ，选择一个或多个测试用户档案。
+1. 从 **[!UICONTROL Preview & test]** ，选择一个或多个测试用户档案。
 
    ![](assets/lp_test-profiles.png)
 
    选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../email/preview.md#select-test-profiles).
 
-1. 选择 **[!UICONTROL 预览]** 选项卡，单击 **[!UICONTROL 打开预览]** 来测试登陆页面。
+1. 选择 **[!UICONTROL Preview]** 选项卡，单击 **[!UICONTROL Open preview]** 来测试登陆页面。
 
    ![](assets/lp_open-preview.png)
 
@@ -222,7 +222,7 @@ ht-degree: 2%
 
    ![](assets/lp_preview.png)
 
-1. 选择其他测试用户档案以预览登陆页面每个变体的呈现。
+1. 选择其他测试用户档案以预览登陆页面每个变体的渲染。
 
 ## 检查警报 {#check-alerts}
 
@@ -271,13 +271,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->在发布之前，请检查并解析警报。 [了解详情](#check-alerts)
+>在发布之前，请检查并解析警报。 [了解更多](#check-alerts)
 
-发布登陆页面后，该页面会添加到登陆页面列表，其中包含 **[!UICONTROL 已发布]** 状态。
+发布登陆页面后，该页面会添加到登陆页面列表，其中包含 **[!UICONTROL Published]** 状态。
 
 它现已上线，可在 [!DNL Journey Optimizer] 将通过 [历程](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->您可以通过特定报表监控登陆页面的影响。 [了解详情](../reports/lp-report-live.md)
+>您可以通过特定报表监控登陆页面的影响。 [了解更多](../reports/lp-report-live.md)
 
