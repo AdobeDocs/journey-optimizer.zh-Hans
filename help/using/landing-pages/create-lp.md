@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 >id="ajo_lp_create"
 >title="定义和配置登陆页面"
 >abstract="要创建登陆页面，您需要选择一个预设，然后配置主页面和子页面，最后在发布之前对您的页面进行测试。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="发布登陆页面"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ ht-degree: 0%
 >id="ajo_lp_access_settings"
 >title="定义登陆页面URL"
 >abstract="在此部分中，定义一个唯一的登陆页面URL。 URL的第一部分要求您之前在所选预设中设置登陆页面子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 主页面是用户在单击登陆页面的链接后立即向其显示的页面，例如来自电子邮件或网站的页面。
 
