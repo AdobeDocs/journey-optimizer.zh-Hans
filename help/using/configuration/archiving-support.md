@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1132'
+ht-degree: 3%
 
 ---
 
-# 对归档的支持 {#archiving-support}
+# 存档支持 {#archiving-support}
 
 ## 如何存档消息 {#about-archiving}
 
 HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发送给个人的消息。 事实上，如果您的客户提出要求，他们应该能够获取已发送邮件的副本以用于验证目的。
 
-* 对于电子邮件渠道， [!DNL Journey Optimizer] 提供内置密送电子邮件功能。 [了解更多](#bcc-email)
+* 对于电子邮件渠道， [!DNL Journey Optimizer] 提供内置密送电子邮件功能。 [了解详情](#bcc-email)
 
-* 此外，对于所有渠道，您可以在 **实体数据集**，其中包含非个性化消息模板的详细信息。 导出包含此字段的数据集以保存元数据，例如：谁发送了信息，是谁和何时发送的。 请注意，不会导出个性化数据 — 只考虑模板（消息的格式和结构）。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
+* 此外，对于所有渠道，您可以在 **实体数据集**，其中包含非个性化消息模板的详细信息。 导出包含此字段的数据集以保存元数据，例如：谁发送了信息，是谁和何时发送的。 请注意，不会导出个性化数据 — 只考虑模板（消息的格式和结构）。 [了解详情](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定义密送电子邮件地址"
->abstract="您可以通过将已发送的电子邮件发送到密件抄送收件箱来保留其副本。 输入您选择的电子邮件地址，以便发送的每封电子邮件都会被盲目复制到此密件抄送地址。 请注意，密送地址域不应与委派给Adobe的任何子域相同。 此功能是可选的。"
+>abstract="您可以通过将已发送的电子邮件发送到密件抄送收件箱来保留其副本。 输入您选择的电子邮件地址，以便发送的每封电子邮件都会被盲目复制到此密件抄送地址。 请注意，密送地址域不应与委派给Adobe的任何子域相同。 此功能属于可选功能。"
 
 您可以发送由 [!DNL Journey Optimizer] 发送到密件抄送收件箱。 此可选功能允许您保留您发送给用户的电子邮件通信副本，以便符合规范和/或进行存档。 投放收件人将看不到该内容。
 
 ### 启用密送电子邮件 {#enable-bcc}
 
-启用 **[!UICONTROL BCC email]** 选项，请在 [通道表面](channel-surfaces.md) （即消息预设）。 您可以以正确的格式指定任何外部地址，但委派给Adobe的子域上定义的电子邮件地址除外。 例如，如果您将 *marketing.luma.com* 子域到Adobe，任何地址，如 *abc@marketing.luma.com* 禁止。
+启用 **[!UICONTROL 密送电子邮件]** 选项，请在 [通道表面](channel-surfaces.md) （即消息预设）。 您可以以正确的格式指定任何外部地址，但在委派给Adobe的子域上定义的电子邮件地址除外。 例如，如果您将 *marketing.luma.com* 子域到Adobe，任何地址，如 *abc@marketing.luma.com* 禁止。
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 
 但是，将按照描述的逻辑提取密件抄送地址以发送通信 [此处](../email/email-settings.md).
 
-### 建议和限制 {#bcc-recommendations-limitations}
+### Recommendations和限制 {#bcc-recommendations-limitations}
 
 * 为确保您的隐私合规性，密件抄送电子邮件必须由能够安全存储个人身份信息(PII)的归档系统进行处理。
 
@@ -89,41 +89,41 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 
 ### GDPR合规 {#gdpr-compliance}
 
-GDPR等法规规定，数据主体应能够随时修改其同意。 由于您通过Journey Optimizer发送的密送电子邮件包含安全的个人身份信息(PII)，因此您必须编辑 **[!UICONTROL CJM Email BCC Feedback Event Schema]** 以便能够按照GDPR及类似法规管理这些PII。
+GDPR等法规规定，数据主体应能够随时修改其同意。 由于您随Journey Optimizer发送的密件抄送电子邮件包含安全的个人身份信息(PII)，因此您必须编辑 **[!UICONTROL CJM电子邮件密件抄送事件架构]** 以便能够按照GDPR及类似法规管理这些PII。
 
 为此，请执行以下步骤。
 
-1. 转到 **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** 选择 **[!UICONTROL CJM Email BCC Feedback Event Schema]**.
+1. 转到 **[!UICONTROL 数据管理]** > **[!UICONTROL 模式]** > **[!UICONTROL 浏览]** 选择 **[!UICONTROL CJM电子邮件密件抄送事件架构]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. 单击可展开 **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** then **[!UICONTROL secondaryRecipientDetail]**.
+1. 单击可展开 **[!UICONTROL _体验]**, **[!UICONTROL customerJourneyManagement]** then **[!UICONTROL secondaryRecipientDetail]**.
 
 1. 选择 **[!UICONTROL originalRecipientAddress]**.
 
-1. 在 **[!UICONTROL Field properties]** 在右侧，向下滚动到 **[!UICONTROL Identity]** 复选框。
+1. 在 **[!UICONTROL 字段属性]** 在右侧，向下滚动到 **[!UICONTROL 身份]** 复选框。
 
-1. 选择它，然后选择 **[!UICONTROL Primary identity]**.
+1. 选择它，然后选择 **[!UICONTROL 主标识]**.
 
 1. 从下拉列表中选择一个命名空间。
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. 单击 **[!UICONTROL Apply]**.
+1. 单击&#x200B;**[!UICONTROL 应用]**。
 
 >[!NOTE]
 >
->了解有关管理隐私和 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}。
+>在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target=&quot;_blank&quot;}中进一步了解管理隐私和适用的法规。
 
 ### 密送报表数据 {#bcc-reporting}
 
-历程和消息报表中不提供密送的此类报告。 但是，信息存储在名为 **[!UICONTROL AJO BCC Feedback Event Dataset]**. 您可以对此数据集运行查询，以查找用于调试的有用信息，例如。
+历程和消息报表中不提供密送的此类报告。 但是，信息存储在名为 **[!UICONTROL AJO密送反馈事件数据集]**. 您可以对此数据集运行查询，以查找用于调试的有用信息，例如。
 
-您可以通过用户界面访问此数据集。 选择 **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** 并启用 **[!UICONTROL Show system datasets]** 从筛选器中切换以显示系统生成的数据集。 了解有关如何访问 [此部分](../data/get-started-datasets.md#access-datasets).
+您可以通过用户界面访问此数据集。 选择 **[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]** 并启用 **[!UICONTROL 显示系统数据集]** 从筛选器中切换以显示系统生成的数据集。 了解有关如何访问 [此部分](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-要对此数据集运行查询，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。 要访问它，请选择 **[!UICONTROL Data management]** > **[!UICONTROL Queries]** 单击 **[!UICONTROL Create query]**. [了解更多](../data/get-started-queries.md)
+要对此数据集运行查询，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。 要访问它，请选择 **[!UICONTROL 数据管理]** > **[!UICONTROL 查询]** 单击 **[!UICONTROL 创建查询]**. [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意。 由于您通
 
    >[!NOTE]
    >
-   >要获取 `<journey version id>`参数，选择相应的 [历程版本](../building-journeys/journey.md#journey-versions) 从 **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** 菜单。 历程版本ID显示在Web浏览器中显示的URL的末尾。
+   >要获取 `<journey version id>`参数，选择相应的 [历程版本](../building-journeys/journey.md#journey-versions) 从 **[!UICONTROL 历程管理]** > **[!UICONTROL 历程]** 菜单。 历程版本ID显示在Web浏览器中显示的URL的末尾。
    >
    >![](assets/preset-bcc-action-id.png)
 
