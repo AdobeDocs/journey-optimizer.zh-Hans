@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -131,21 +131,21 @@ GDPR等法规规定，数据主体应能够随时修改其同意。 由于您通
 
 1. 对于以下所有其他查询，您将需要历程操作ID。 运行此查询以获取在过去2天内与特定历程版本ID关联的所有操作ID:
 
-       &quot;
-       选择
-       DISTINCT
-       将时间戳转换为日期，
-       _experience.journeyOrchestration.stepEvents.journeyVersionID，
-       _experience.journeyOrchestration.stepEvents.actionName，
-       _experience.journeyOrchestration.stepEvents.actionID
-       FROM journey_step_events
-       其中
-       _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>“和
-       _experience.journeyOrchestration.stepEvents.actionID不为NULL且
-       时间戳> NOW() — 时间间隔“2”天
-       按事件时间DESC排序；
-       &quot;
-   
+   ```
+   SELECT
+   DISTINCT
+   CAST(TIMESTAMP AS DATE) AS EventTime,
+   _experience.journeyOrchestration.stepEvents.journeyVersionID,
+   _experience.journeyOrchestration.stepEvents.actionName, 
+   _experience.journeyOrchestration.stepEvents.actionID 
+   FROM journey_step_events 
+   WHERE 
+   _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+   _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+   TIMESTAMP > NOW() - INTERVAL '2' DAY 
+   ORDER BY EventTime DESC;
+   ```
+
    >[!NOTE]
    >
    >要获取 `<journey version id>`参数，选择相应的 [历程版本](../building-journeys/journey.md#journey-versions) 从 **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** 菜单。 历程版本ID显示在Web浏览器中显示的URL的末尾。
@@ -154,28 +154,28 @@ GDPR等法规规定，数据主体应能够随时修改其同意。 由于您通
 
 1. 运行此查询以获取在过去2天内为特定用户定向的特定消息生成的所有消息反馈事件（特别是反馈状态）：
 
-       &quot;
-       选择
-       _experience.customerJourneyManagement.messageExecution.journeyVersionID作为JourneyVersionID，
-       _experience.customerJourneyManagement.messageExecution.journeyActionID作为JourneyActionID，
-       时间戳AS EventTime，
-       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress，
-       _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus，
-       CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
-       “已发送”时，然后“已发送”
-       当为“delay”时，然后为“Retry”
-       WHEN &#39;out_of_band&#39; THEN &#39;Bounce&#39;
-       “跳出”后“跳出”
-       END AS FeedbackStatusCategory
-       从cjm_message_feedback_event_dataset
-       其中
-       timestamp > now() — 时间间隔“2”天和
-       _experience.customerJourneyManagement.messageExecution.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>“和
-       _experience.customerJourneyManagement.messageExecution.journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>“和
-       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39;
-       按事件时间DESC排序；
-       &quot;
-   
+   ```
+   SELECT  
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+       WHEN 'sent' THEN 'Sent'
+       WHEN 'delay' THEN 'Retry'
+       WHEN 'out_of_band' THEN 'Bounce' 
+       WHEN 'bounce' THEN 'Bounce'
+   END AS FeedbackStatusCategory
+   FROM cjm_message_feedback_event_dataset 
+   WHERE  
+       timestamp > now() - INTERVAL '2' day  AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+       _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
+       ORDER BY EventTime DESC;
+   ```
+
    >[!NOTE]
    >
    >要获取 `<journey action id>` 参数，使用历程版本id运行上述第一个查询。 的 `<recipient email address>` 参数是目标或实际收件人的电子邮件地址。
