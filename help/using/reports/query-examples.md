@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 2%
 
 ---
 
@@ -155,7 +155,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-结果应大于0。 此查询返回用户档案进入历程的确切次数。
+结果应大于0。 此查询会返回用户档案进入历程的确切次数。
 
 **查找用户档案是否发送了特定消息**
 
@@ -449,7 +449,7 @@ WHERE
 
 * 主题创建
 * 导出作业创建
-* 导出作业终止（包含导出配置文件上的量度）
+* 导出作业终止（包含已导出配置文件上的量度）
 * 工作流处理终止
 
 我们还可以检测以下问题：
@@ -691,7 +691,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-此查询会返回因用户档案的任何其他原因而被丢弃的所有事件（外部事件/区段鉴别事件）。
+此查询会返回由于用户档案的任何其他原因而被丢弃的所有事件（外部事件/区段鉴别事件）。
 
 ## 基于事件的查询 {#event-based-queries}
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 0%
+source-wordcount: '337'
+ht-degree: 25%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您是首次创建推送通知，请确保配置了推送渠道。 [了解更多](push-gs.md).
+>如果您是首次创建推送通知，请确保配置了推送渠道。 [了解详情](push-gs.md)。
 
 推送通知可帮助您随时联系移动设备应用程序用户 — 尤其是当他们未主动使用您的应用程序时。 推送通知可帮助您实现各种用例，例如提供有关您的服务的更新、要求用户采取行动、提醒用户进行新交易等。 设备平台要求最终用户在收到或查看您的通知之前选择加入。 最早可在应用程序在安装后首次启动后或在后续会话或工作流中（视情况而定）收到用户选择加入。
 
-[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包括个性化和基于历程的上下文，以便利用您的品牌在Adobe Experience Cloud中拥有的数据分析。
+[!DNL Journey Optimizer] 支持推送通知，并帮助您以行业领先的吞吐率发送高度相关的通知。 推送通知可能包含个性化和基于历程的上下文，以便利用您的品牌对Adobe Experience Cloud的数据分析。
 
 可以创建推送通知：
 
-* 在 **历程**:在历程中添加推送活动并定义基本设置后，请使用 **[!UICONTROL Actions: Push]** 用于创建推送通知内容的右窗格。
+* 在 **历程**:在历程中添加推送活动并定义基本设置后，请使用 **[!UICONTROL 操作：推送]** 用于创建推送通知内容的右窗格。
 
    有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
 
@@ -39,12 +39,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->While **[!DNL Journey Optimizer]** 提供了管理电子邮件和短信消息中选择退订的方法，推送通知在您这边不需要采取任何操作，因为收件人自己可以通过其设备取消订阅。 例如，下载或使用应用程序时，用户可以选择停止通知。 同样，他们也可以通过移动设备操作系统更改通知设置。
+>虽然 **[!DNL Journey Optimizer]** 提供了在电子邮件和短信消息中管理选择退出的方法，但推送通知不需要您采取任何操作，因为收件人可以通过其设备自行取消订阅。例如，在下载或使用应用程序时，用户可以选择停止发送通知。同样，他们可以通过移动操作系统更改通知设置。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="商机" src="../assets/do-not-localize/push-create.jpeg">
+<img alt="潜在客户" src="../assets/do-not-localize/push-create.jpeg">
 </a>
 <div><a href="create-push.md"><strong>创建推送通知</strong>
 </div>

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer中的源连接器入门
+title: 开始使用Journey Optimizer中的源连接器
 description: 了解如何在Adobe Journey Optimizer中从外部源摄取数据
 feature: Schemas
 role: User
@@ -9,14 +9,14 @@ level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 22%
 
 ---
 
 # 源连接器入门 {#sources-gs}
 
-Adobe Journey Optimizer允许从外部源摄取数据，同时让您能够使用Platform服务来构建、标记和增强传入数据。 您可以从各种源摄取数据，如Adobe应用程序、基于云的存储、数据库和许多其他源。
+Adobe Journey Optimizer允许从外部源摄取数据，同时让您能够使用Platform服务来构建、标记和增强传入数据。 您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。
 
 ![](assets/sources-home.png)
 
@@ -24,4 +24,4 @@ Adobe Journey Optimizer允许从外部源摄取数据，同时让您能够使用
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-了解有关如何使用源连接器从外部源摄取数据的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html){target=&quot;_blank&quot;}。
+了解有关如何使用源连接器从外部源摄取数据的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。

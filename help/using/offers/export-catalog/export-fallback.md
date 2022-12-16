@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 0%
+source-wordcount: '1050'
+ht-degree: 3%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 0%
 >
 >了解如何在 [此部分](../export-catalog/access-dataset.md).
 
-以下是可在 **[!UICONTROL Decision Object Repository - Fallback Offers]** 数据集。
+以下是可在 **[!UICONTROL 决策对象存储库 — 备用选件]** 数据集。
 
 ## 标识符 {#identifier}
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
-## _体验 {#experience}
+## _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -72,7 +72,7 @@ ht-degree: 0%
    **字段：** _type
    **标题：** 内容组件类型
    **描述：** 枚举的URI集，其中每个值映射到给定给内容组件的类型。 内容表示的某些用户希望@type值作为对描述内容组件其他属性的架构的引用。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **_experience > decisioning >内容>组件> _dc**
 
@@ -85,7 +85,7 @@ ht-degree: 0%
       **字段：** 格式
       **标题：** 格式
       **描述：** 资源的物理或数字显示。 通常，格式应包括资源的媒体类型。 格式可用于确定显示或操作资源所需的软件、硬件或其它设备。 建议的最佳做法是从受控词汇中选择一个值(例如， [Internet媒体类型](http://www.iana.org/ assignments/media-types/)定义计算机媒体格式)。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** &quot;application/vnd.adobe.photoshop&quot;
 
    * **语言**
@@ -105,47 +105,47 @@ ht-degree: 0%
 
       **字段：** id
       **描述：** 用于引用内容存储库中资产的可选唯一标识符。 当使用Platform API检索表示形式时，客户端可能需要额外的属性\&quot;repo:resolveUrl\&quot;来检索资产。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** “urn”:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e”
 
    * **name**
 
       **字段：** name
       **描述：** 有关在何处查找通过\&quot;repo:id\&quot;存储外部资产的存储库的一些提示。
-      **类型：** 字符串
+      **类型：**&#x200B;字符串
 
    * **repositoryID**
 
       **字段：** repositoryID
       **描述：** 用于引用内容存储库中资产的可选唯一标识符。 当使用Platform API检索表示形式时，客户端可能需要额外的属性\&quot;repo:resolveUrl\&quot;来检索资产。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **字段：** resolveURL
       **描述：** 用于在内容存储库中读取资产的可选唯一资源定位器。 这样，客户就无需了解资产的管理位置以及要调用的API，即可更轻松地获取资产。 这类似于HAL链接，但语义更简单、目的更明确。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning >内容>组件>内容**
 
    **字段：** 内容
    **描述：** 可直接保存内容的可选字段。 组件可以直接保存简单内容，而不是在资产存储库中引用内容。 此字段不用于复合、复杂和二进制内容资产。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
    **字段：** deliveryURL
    **描述：** 用于从内容交付网络或服务端点获取资产的可选唯一资源定位器。 此URL用于由用户代理公开访问资产。
-   **类型：** 字符串
+   **类型：**字符串
    **示例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
    **字段：** linkURL
    **描述：** 用户交互的可选唯一资源定位器。 此URL用于在用户代理中将最终用户引荐至，并可进行跟踪。
-   **类型：** 字符串
+   **类型：**字符串
    **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning > contents > placement**
@@ -153,7 +153,7 @@ ht-degree: 0%
 **字段：** 投放
 **标题：** 版面
 **描述：** 要符合的版面。 值是所引用的选件版面的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/placement 。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
 #### _experience >决策>生命周期状态
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 **字段：** name
 **标题：** 决策选项名称
 **描述：** 各种用户界面中显示的选项名称。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
 #### _experience > decisioning > tag
 
@@ -189,4 +189,4 @@ ht-degree: 0%
 **字段：** etag
 **标题：** 决策选项ETag
 **描述：** 拍摄快照时，决策选项对象所在的修订版本。
-**类型：** 字符串
+**类型：**&#x200B;字符串

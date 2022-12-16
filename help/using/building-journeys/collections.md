@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用自定义操作动态传递收藏集
-description: 使用Campaign v7/v8发送消息
+title: 使用自定义操作动态传递集合
+description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 5%
 
 ---
 
@@ -100,9 +100,9 @@ ht-degree: 0%
 
 您可以看到“products”是两个对象的数组。 您至少需要一个对象。
 
-1. 创建自定义操作。 请参阅 [本页](../action/about-custom-action-configuration.md).
+1. 创建自定义操作。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
+1. 在 **[!UICONTROL 操作参数]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
 
    ![](assets/uc-collection-1.png)
 
@@ -122,9 +122,9 @@ ht-degree: 0%
 
    ![](assets/uc-collection-2.png)
 
-1. 创建历程并添加您创建的自定义操作。 请参阅 [本页](../building-journeys/using-custom-actions.md).
+1. 创建历程并添加您创建的自定义操作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
+1. 在 **[!UICONTROL 操作参数]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
 
    ![](assets/uc-collection-3.png)
 

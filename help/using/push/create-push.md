@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '681'
+ht-degree: 4%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果您从历程发送推送通知，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率预测发送消息以最大化参与度的最佳时间。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
+   >如果您从历程发送推送通知，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率预测发送消息的最佳时间，以最大限度提高参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
 
    有关如何配置旅程的更多信息，请参阅 [本页](../building-journeys/journey-gs.md)
 
-1. 在历程配置屏幕中，单击 **[!UICONTROL Edit content]** 按钮来配置推送内容。 [设计推送通知](design-push.md)
+1. 在历程配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置推送内容。 [设计推送通知](design-push.md)
 
 1. 定义消息内容后，即可使用测试用户档案进行预览和测试。
 
@@ -54,32 +54,32 @@ ht-degree: 0%
 
 >[!TAB 向营销活动添加推送]
 
-1. 创建新的计划营销活动或API触发的营销活动，选择 **[!UICONTROL Push notification]** 作为您的操作，然后选择 **[!UICONTROL App surface]** 。 [了解有关推送配置的更多信息](push-configuration.md).
+1. 创建新的计划营销活动或API触发的营销活动，选择 **[!UICONTROL 推送通知]** 作为您的操作，然后选择 **[!UICONTROL 应用程序界面]** 。 [了解有关推送配置的更多信息](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
-1. 单击 **[!UICONTROL Create]**.
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 从 **[!UICONTROL Properties]** ，编辑营销活动的 **[!UICONTROL Title]** 和 **[!UICONTROL Description]**.
+1. 从 **[!UICONTROL 属性]** ，编辑营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
 
    ![](assets/push_create_4.png)
 
-1. 单击 **[!UICONTROL Select audience]** 按钮，以从可用Adobe Experience Platform区段列表中定义要定位的受众。 [了解更多](../segment/about-segments.md).
+1. 单击 **[!UICONTROL 选择受众]** 按钮，以从可用的Adobe Experience Platform区段列表中定义要定位的受众。 [了解详情](../segment/about-segments.md)。
 
-1. 在 **[!UICONTROL Identity namespace]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解更多](../event/about-creating.md#select-the-namespace).
+1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
 
-1. 营销活动设计为在特定日期或定期频率执行。 了解如何配置 **[!UICONTROL Schedule]** 在 [此部分](../campaigns/create-campaign.md#schedule).
+1. 营销活动设计为在特定日期或定期频率执行。 了解如何配置 **[!UICONTROL 计划]** 在 [此部分](../campaigns/create-campaign.md#schedule).
 
-1. 从 **[!UICONTROL Action triggers]** 菜单，选择 **[!UICONTROL Frequency]** 在您的推送通知中：
+1. 从 **[!UICONTROL 操作触发器]** 菜单，选择 **[!UICONTROL 频率]** 在您的推送通知中：
 
    * 一次
    * 每日
    * 每周
    * 每月
 
-1. 在营销活动配置屏幕中，单击 **[!UICONTROL Edit content]** 按钮来配置推送内容。 [设计推送通知](design-push.md)
+1. 在营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置推送内容。 [设计推送通知](design-push.md)
 
 1. 定义消息内容后，即可使用测试用户档案进行预览和测试。
 
@@ -105,20 +105,20 @@ ht-degree: 0%
 
 当消息投放的延迟对业务至关重要时，如果您想在手机上发送紧急推送警报（例如，向已安装您的新闻渠道应用程序的用户发送突发新闻），可使用快速投放。
 
-有关使用快速投放模式时性能的更多信息，请参阅 [Adobe Journey Optimizer产品说明](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
+有关使用快速投放模式时性能的更多信息，请参阅 [Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### 先决条件 {#prerequisites}
 
 快速投放消息具有以下要求：
 
-* 快速交付适用于 **[!UICONTROL Scheduled]** 仅限促销活动，且不适用于API触发的促销活动、
+* 快速交付适用于 **[!UICONTROL 已计划]** 仅限促销活动，且不适用于API触发的促销活动、
 * 推送消息中不允许进行个性化，
 * 目标受众必须包含少于3000个用户档案，
 * 使用快速投放模式，最多可同时执行5个营销活动。
 
 ### 激活快速投放模式
 
-1. 创建推送通知营销活动并打开 **[!UICONTROL Rapid delivery]** 选项。
+1. 创建推送通知营销活动并打开 **[!UICONTROL 快速交付]** 选项。
 
 ![](assets/create-campaign-burst.png)
 

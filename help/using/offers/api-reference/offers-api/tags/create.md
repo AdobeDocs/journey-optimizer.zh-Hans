@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API格式**

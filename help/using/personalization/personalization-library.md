@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用保存的表达式
+title: 使用已保存的表达式
 description: 了解如何使用 [!DNL Journey Optimizer] 库。
 feature: Personalization
 topic: Personalization
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '354'
+ht-degree: 8%
 
 ---
 
-# 使用保存的表达式 {#expression-library}
+# 使用已保存的表达式 {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ➡️ [了解如何在此视频中使用保存的表达式](#video-preview)
 
-要访问保存的表达式，请单击 **[!UICONTROL Library]** 按钮。 该列表显示管理员用户保存的所有表达式(请参阅 [将表达式保存到库](#save-expressions))。
+要访问保存的表达式，请单击 **[!UICONTROL 库]** 按钮。 该列表显示管理员用户保存的所有表达式(请参阅 [将表达式保存到库](#save-expressions))。
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ![](assets/library-list.png)
 
-单击+以将表达式插入编辑器。 然后，您可以像往常一样自定义和验证个性化内容。 [了解更多](../personalization/personalization-build-expressions.md)
+单击+以将表达式插入编辑器。 然后，您可以像往常一样自定义和验证个性化内容。 [了解详情](../personalization/personalization-build-expressions.md)
 
 ![](assets/library-add.png)
 
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 要将表达式保存到库，请执行以下步骤：
 
-1. 在编辑器界面中，生成表达式，然后单击 **[!UICONTROL Add to library]**.
+1. 在编辑器界面中，生成表达式，然后单击 **[!UICONTROL 添加到库]**.
 
    >[!NOTE]
    >
-   >如果按钮不可见，请在Admin Console中检查您是否具有所需的权限(请参阅 [权限级别](../administration/high-low-permissions.md))。
+   >如果按钮不可见，请在Admin Console中确认您拥有所需的权限(请参阅 [权限级别](../administration/high-low-permissions.md))。
 
    ![](assets/library-save.png)
 
-1. 在右侧窗格中，输入表达式的标题和说明，以帮助用户更轻松地找到它，然后单击 **[!UICONTROL Add]**.
+1. 在右侧窗格中，输入表达式的标题和说明，以帮助用户更轻松地找到它，然后单击 **[!UICONTROL 添加]**.
 
    ![](assets/add-expression.png)
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 
 
-要编辑现有表达式，请将其添加到编辑器中，然后根据需要对其进行修改。 单击 **[!UICONTROL Add to library]** 验证语法并保存表达式。
+要编辑现有表达式，请将其添加到编辑器中，然后根据需要对其进行修改。 单击 **[!UICONTROL 添加到库]** 验证语法并保存表达式。
 
-要删除表达式，请单击椭圆按钮，然后单击 **[!UICONTROL Delete]**.
+要删除表达式，请单击椭圆按钮，然后单击 **[!UICONTROL 删除]**.
 
 ## 操作方法视频{#video}
 
-了解如何在消息中使用保存的个性化库项目，以及如何创建和管理个性化库项目。
+了解如何在消息中使用已保存的个性化库项目，以及如何创建和管理个性化库项目。
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

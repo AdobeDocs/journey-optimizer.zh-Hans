@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 6%
 
 ---
 
@@ -78,7 +78,7 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## 每周时间{#day-week}
+## 每周的某一日{#day-week}
 
 的 `dayOfWeek` 函数用于检索星期。
 
@@ -98,7 +98,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 每年的某一日{#day-year}
+## 年中哪天{#day-year}
 
 的 `dayOfYear` 函数用于检索每年的某一天。
 
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 如果日期模式无效，日期将回退到ISO标准格式。
 >
-> 您可以使用摘要的Java日期格式功能 [在Oracle文档中](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 您可以使用摘要的Java日期格式功能 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **示例**
 

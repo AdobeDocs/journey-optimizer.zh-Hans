@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 在Email Designer界面中，当您选择某个元素并在侧面板上显示其设置时，可以自定义该特定元素的内联属性及其值。
 
 1. 在内容中选择一个元素。
-1. 在侧面板上，查找 **[!UICONTROL Styles Inline]** 设置。
+1. 在侧面板上，查找 **[!UICONTROL 内联样式]** 设置。
 
    ![](assets/styles_1.png)
 

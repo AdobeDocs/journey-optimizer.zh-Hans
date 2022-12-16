@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 0%
+source-wordcount: '1685'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## 包含 {#contains}
+## Contains {#contains}
 
 的 `contains` 函数来确定字符串是否包含指定的子字符串。
 
@@ -741,7 +741,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## 裁切{#trim}
+## 修剪{#trim}
 
 的 **trim** 函数会删除字符串开头和结尾的所有空格。
 

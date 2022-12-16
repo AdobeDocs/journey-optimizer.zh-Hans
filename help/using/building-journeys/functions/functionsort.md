@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 排序
+title: sort
 description: 了解函数排序
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 排序 {#sort}
+# sort {#sort}
 
 按自然顺序对值或对象列表进行排序。
 

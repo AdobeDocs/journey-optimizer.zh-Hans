@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 受众构成入门
+title: 受众组合入门
 description: 进一步了解受众构成
 feature: Journeys
 topic: Content Management
@@ -12,12 +12,12 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 0%
+source-wordcount: '256'
+ht-degree: 9%
 
 ---
 
-# 受众构成入门 {#get-start-audience-composition}
+# 受众组合入门 {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -38,24 +38,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->由合成工作流生成的受众只能定位到Journey Optimizer促销活动中。 它们无法在历程中使用。
+>由合成工作流生成的受众只能定位到Journey Optimizer营销活动。 它们无法在历程中使用。
 
 ## 访问受众构成 {#access}
 
-受众构成可从 **[!UICONTROL Segments]** 菜单：
+受众构成可从 **[!UICONTROL 区段]** 菜单：
 
-* 的 **[!UICONTROL Audiences]** 选项卡列出了存储到Adobe Experience Platform中的所有现有受众。 [了解如何访问和管理受众](access-audiences.md)
+* 的 **[!UICONTROL 受众]** 选项卡列出了存储到Adobe Experience Platform中的所有现有受众。 [了解如何访问和管理受众](access-audiences.md)
 
-* 的 **[!UICONTROL Compositions]** 选项卡，用于创建合成工作流，您可以在其中合并和排列受众以创建新受众。 [了解如何创建合成工作流](create-compositions.md)
+* 的 **[!UICONTROL 组合物]** 选项卡，用于创建合成工作流，您可以在其中合并和排列受众以创建新受众。 [了解如何创建合成工作流](create-compositions.md)
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->本文档仅适用于受众构成。 的 **[!UICONTROL Overview]** 和 **[!UICONTROL Segments]** 选项卡。 有关更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>本文档仅适用于受众构成。 的 **[!UICONTROL 概述]** 和 **[!UICONTROL 区段]** 选项卡。 有关更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-了解更多：
+了解详情:
 
-* [创建合成工作流](create-compositions.md)
-* [使用合成画布](composition-canvas.md)
+* [创建组合工作流](create-compositions.md)
+* [使用组合画布](composition-canvas.md)
 * [访问和管理受众](access-audiences.md)

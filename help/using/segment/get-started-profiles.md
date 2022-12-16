@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer中的用户档案入门
+title: 开始使用Journey Optimizer中的用户档案
 description: 了解如何在Adobe Journey Optimizer中创建和管理用户档案
 feature: Profiles
 role: User
@@ -9,8 +9,8 @@ level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![](assets/profiles-home.png)
 
-了解如何访问和使用 **用户档案仪表板** 以及功能板中显示的量度的详细信息，请参阅 [此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target=&quot;_blank&quot;}。
+了解如何访问和使用 **用户档案仪表板** 以及功能板中显示的量度的详细信息，请参阅 [此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 您可以将多个来源的数据片段合并在一起，以便查看各个客户的完整视图。 将此数据整合在一起时，合并策略是用于确定数据优先级的规则，以及将合并哪些数据以创建统一视图。
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 
 **另请参阅**
 
-* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [实时客户资料概述视频](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}
+* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* [实时客户资料概述视频](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}

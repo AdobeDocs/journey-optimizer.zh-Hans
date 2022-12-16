@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
->title="促销活动"
+>title="营销活动"
 >abstract="创建营销活动，以便跨各种渠道将一次性内容交付到特定区段。 在创建营销活动之前，请确保已准备好渠道界面（即消息预设）和Adobe Experience Platform区段以供使用。"
 
-使用Journey Optimizer促销活动，通过各种渠道将一次性内容交付到特定区段。 使用历程时，将依次执行操作。 对于营销活动，可同时执行（立即执行）或根据指定的计划执行（即）操作。
+使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，将依次执行操作。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
 您可以创建两种类型的营销活动：
 
@@ -35,32 +35,32 @@ ht-degree: 0%
 
 ➡️ [在视频中发现此功能](#video)
 
-## 开始之前 {#campaign-prerequisites}
+## 开始前 {#campaign-prerequisites}
 
-在Journey Optimizer中开始创建您的第一个营销活动之前，请检查以下先决条件：
+在Journey Optimizer中开始创建您的第一个营销活动之前，请查看以下先决条件：
 
-1. **您需要适当的权限**. 营销活动仅供有权访问与营销活动相关的营销活动的用户使用 **[!UICONTROL Product profile]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。
+1. **您需要适当的权限**. 营销活动仅供有权访问与营销活动相关的营销活动的用户使用 **[!UICONTROL 产品配置文件]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。
 
    如果您无法访问营销活动，则必须扩展您的权限。 如果您有权访问 [Adobe Admin Console](https://adminconsole.adobe.com/)为您的组织{target=&quot;_blank&quot;}，请按照以下步骤操作。 如果没有，请联系您的Journey Optimizer管理员。
 
    +++了解如何分配营销活动权限
 
-   要分配对应的 **[!UICONTROL Product profile]** 对您的用户：
+   要分配对应的 **[!UICONTROL 产品配置文件]** 对您的用户：
 
    1. 从 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，选择 [!DNL Adobe Experience Platform] 产品。
 
-   1. 浏览到 **[!UICONTROL Product profile]** 选项卡，选择与内置营销活动相关的其中一个 **[!UICONTROL Product profile]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
+   1. 浏览到 **[!UICONTROL 产品配置文件]** 选项卡，选择与内置营销活动相关的其中一个 **[!UICONTROL 产品配置文件]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
 
-      有关Journey Optimizer促销活动的更多信息 **[!UICONTROL Product profiles]** 和 **[!UICONTROL Permissions]**, [请参阅此页面](../administration/ootb-product-profiles.md).
+      有关Journey Optimizer促销活动的更多信息 **[!UICONTROL 产品配置文件]** 和 **[!UICONTROL 权限]**, [请参阅此页面](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. 单击 **[!UICONTROL Add user]** 要将选定的 **[!UICONTROL Product profile]**.
+   1. 单击 **[!UICONTROL 添加用户]** 要将选定的 **[!UICONTROL 产品配置文件]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. 键入您的用户名、组或电子邮件地址，然后单击 **[!UICONTROL Save]**.
-   您的用户现在可以访问 **[!UICONTROL Campaigns]**.
+   1. 键入您的用户名、组或电子邮件地址，然后单击 **[!UICONTROL 保存]**.
+   您的用户现在可以访问 **[!UICONTROL 促销活动]**.
 
 +++
 

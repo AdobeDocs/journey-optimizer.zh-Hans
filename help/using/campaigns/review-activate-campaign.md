@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 配置营销活动后，您需要先查看其参数和内容，然后再激活它。 为此，请执行以下步骤：
 
-1. 在营销活动配置屏幕中，单击 **[!UICONTROL Review to activate]** 以显示营销活动摘要。
+1. 在营销活动配置屏幕中，单击 **[!UICONTROL 查看以激活]** 以显示营销活动摘要。
 
    摘要允许您根据需要修改营销活动，并检查是否有参数不正确或缺失。
 
@@ -29,22 +29,22 @@ ht-degree: 0%
 
    ![](assets/create-campaign-alerts.png)
 
-1. 检查营销活动配置是否正确，然后单击 **[!UICONTROL Activate]**.
+1. 检查营销活动配置是否正确，然后单击 **[!UICONTROL 激活]**.
 
    ![](assets/create-campaign-review.png)
 
-1. 营销活动现已激活。 其状态为 **[!UICONTROL Live]**&#x200B;或 **[!UICONTROL Scheduled]** 输入开始日期。 [进一步了解营销活动状态](get-started-with-campaigns.md#statuses).
+1. 营销活动现已激活。 其状态为 **[!UICONTROL 实时]**&#x200B;或 **[!UICONTROL 已计划]** 输入开始日期。 [进一步了解营销活动状态](get-started-with-campaigns.md#statuses).
 
    营销活动中配置的消息将立即或在指定的日期发送。
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL Completed]** 状态会在营销活动激活后3天自动分配给该营销活动，或者如果营销活动已定期执行，则会在营销活动结束日期自动分配给该营销活动。
+   >的 **[!UICONTROL 已完成]** 状态会在营销活动激活后3天自动分配给该营销活动，或者如果营销活动已定期执行，则会在营销活动结束日期自动分配给该营销活动。
    >
-   >如果未指定结束日期，营销活动将保留 **[!UICONTROL Live]** 状态。 要更改营销活动，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
+   >如果未指定结束日期，营销活动将保留 **[!UICONTROL 实时]** 状态。 要更改营销活动，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
 
 1. 激活营销活动后，您可以随时打开营销活动信息以检查其信息。 利用摘要，可获取有关定向用户档案数量以及已提交和已失败操作的统计信息。
 
-   您还可以通过单击 **[!UICONTROL Reports]** 按钮。 [了解更多](../reports/campaign-global-report.md)
+   您还可以通过单击 **[!UICONTROL 报表]** 按钮。 [了解详情](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)

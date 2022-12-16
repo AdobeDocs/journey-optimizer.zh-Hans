@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 10%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 0%
 
 * 利用 [!DNL Journey Optimizer] 内容设计功能可轻松构建 **响应式登陆页面**.
 * 设置 **选择加入和选择退出流程** 快速、无缝地。
-* 创建订阅列表，使用户能够 **订购服务**. [了解更多](lp-use-cases.md#subscription-to-a-service)
-* 向收件人提供 **取消订阅功能** 接收你的通信。 [了解更多](lp-use-cases.md#opt-out)
-* 发送 **确认电子邮件** 选择启用或选择禁用时。 [了解更多](lp-use-cases.md#send-confirmation-email)
+* 创建订阅列表，使用户能够 **订购服务**. [了解详情](lp-use-cases.md#subscription-to-a-service)
+* 向收件人提供 **取消订阅功能** 接收你的通信。 [了解详情](lp-use-cases.md#opt-out)
+* 发送 **确认电子邮件** 选择启用或选择禁用时。 [了解详情](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="商机" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="潜在客户" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>创建登陆页面</strong>
 </div>
@@ -60,7 +60,7 @@ ht-degree: 0%
 <img alt="验证" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>报表</strong></a>
+<a href="../reports/lp-report-live.md"><strong>报告</strong></a>
 </div>
 <p>
 </td>

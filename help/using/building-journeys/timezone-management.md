@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 时区也可以固定。 清除预定义的时区，然后从下拉列表中选择一个时区。 如果您使用固定时区，则进入历程的所有个人都将使用相同的时区。
 
-为此，请在 **[!UICONTROL Journey Properties]** 窗格，选择时区。
+为此，请在 **[!UICONTROL 历程属性]** 窗格，选择时区。
 
 ![](assets/journey72.png)
 
 ## 使用用户档案定义旅程时区 {#timezone-from-profiles}
 
-如果历程的登入事件具有命名空间，即历程可以访问Adobe Experience Platform的实时客户资料服务，则您可能希望使用在资料级别定义的时区。 为此，请在 **属性**，勾选 **在等待和条件中使用配置文件时区**. 默认情况下，不会选中此选项。
+如果历程的登入事件具有命名空间，即历程可以访问Adobe Experience Platform的实时客户资料服务，则您可能需要使用在资料级别定义的时区。 为此，请在 **属性**，勾选 **在等待和条件中使用配置文件时区**. 默认情况下，不会选中此选项。
 
 如果为用户档案定义了时区，则历程将检索并使用该时区。 如果没有，则使用的时区将是时区字段中定义的时区。
 

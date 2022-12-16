@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 限制
+title: limit
 description: 了解函数限制
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# 限制 {#limit}
+# limit {#limit}
 
 返回列表的第一个或最后一个N个元素。
 

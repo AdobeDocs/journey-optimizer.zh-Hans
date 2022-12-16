@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 8%
 
 ---
 
-# 更新投放 {#update-placement}
+# 更新投放位置 {#update-placement}
 
-通过向 [!DNL Offer Library] API。
+您可以通过向 [!DNL Offer Library] API。
 
 有关JSON修补程序（包括可用操作）的更多信息，请参阅 [JSON修补程序文档](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API格式**

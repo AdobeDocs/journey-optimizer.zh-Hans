@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 _界面中的名称：CJM电子邮件跟踪体验事件数据集_
 
-用于从Journey Optimizer摄取电子邮件跟踪体验事件的系统数据集。
+用于从Journey Optimizer中摄取电子邮件跟踪体验事件的系统数据集。
 
 相关架构是CJM电子邮件跟踪体验事件架构。
 
@@ -72,7 +72,7 @@ limit 100;
 
 _界面中的名称：CJM消息反馈事件数据集_
 
-用于从Journey Optimizer摄取电子邮件和推送应用程序反馈事件的数据集。
+用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。
 
 相关架构为CJM消息反馈事件架构。
 
@@ -148,7 +148,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 _界面中的名称：CJM推送跟踪体验事件数据集_
 
-用于从Journey Optimizer中摄取移动跟踪体验事件的数据集。
+用于为从Journey Optimizer推送引入移动跟踪体验事件的数据集。
 
 相关架构为CJM推送跟踪体验事件架构。
 
@@ -168,7 +168,7 @@ _内部名称：历程步骤事件（系统数据集）_
 
 用于在历程中摄取步骤事件的数据集。
 
-相关架构是用于Journey Orchestration的Journey Step事件架构。
+相关架构是历程步骤事件架构，用于Journey Orchestration。
 
 此查询按给定历程的操作标签显示操作成功计数的细分：
 
@@ -314,7 +314,7 @@ _界面中的名称：ajo_entity_dataset（系统数据集）_
 
 相关架构是AJO实体架构。
 
-通过此数据集，您可以访问营销人员定义的元数据，当导出Journey Optimizer数据集以使用外部工具进行报表可视化时，这些元数据使您能够获得更好的报表分析。 可使用messageID属性实现此目的，该属性有助于拼合各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获取从在用户档案级别发送到跟踪的消息投放的详细信息。
+利用此数据集，可访问营销人员定义的元数据，当导出Journey Optimizer数据集以用于外部工具中的报表可视化时，利用这些元数据可更好地分析报表。 可使用messageID属性实现此目的，该属性有助于拼合各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获取从在用户档案级别发送到跟踪的消息投放的详细信息。
 
 **重要说明**
 

@@ -10,13 +10,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # 历程属性属性 {#journey-properties}
 
-在高级表达式编辑器中，您将找到 **历程属性** 类别中，位于事件和数据源类别下。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程ID或遇到的特定错误。
+在高级表达式编辑器中，您将找到 **历程属性** 类别中，位于事件和数据源类别下。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。
 
 >[!NOTE]
 >
@@ -54,8 +54,8 @@ ht-degree: 0%
 |  | externalKey | 外部键 | 触发历程的单个标识符 |
 |  | organizationId | 组织标识符 | 品牌组织 |
 |  | sandboxName | 沙盒名称 | 沙盒的名称 |
-| 身份 | profileId | 配置文件标识符 | 历程中用户档案的标识符 |
-|  | 命名空间 | 配置文件标识命名空间 | 历程中用户档案的命名空间(示例：ECID) |
+| 标识 | profileId | 配置文件标识符 | 历程中用户档案的标识符 |
+|  | namespace | 配置文件标识命名空间 | 历程中用户档案的命名空间(示例：ECID) |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
 |  | currentNodeName | 当前节点名称 | 当前活动的名称（节点） |
 | 上一节点 | previousNodeId | 上一节点标识符 | 上一活动（节点）的标识符 |

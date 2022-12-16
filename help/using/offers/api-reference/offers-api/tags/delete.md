@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
 # 删除标记 {#delete-tag}
 
-有时可能需要删除（删除）标记。 只能删除您在租户容器中创建的标记。 这是通过对 [!DNL Offer Library] 使用您要删除的标记的$id的API。
+有时可能需要删除(DELETE)标记。 只能删除您在租户容器中创建的标记。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的标记的$id的API。
 
 **API格式**
 

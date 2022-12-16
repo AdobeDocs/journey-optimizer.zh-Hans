@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 使用 [!DNL Journey Optimizer]，您可以确定从用户档案服务中使用的电子邮件地址或电话号码，并在多个地址可用时排定优先级。 为此，请执行以下步骤。
 
-1. 访问  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** 菜单。
+1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]** 菜单。
 
    ![](assets/primary-address-execution-fields.png)
 
-1. 默认情况下，当前用于确定用户档案电子邮件地址和电话号码的字段会显示在此屏幕上。 单击 **[!UICONTROL Edit]** 来改变他们。
+1. 默认情况下，当前用于确定用户档案电子邮件地址和电话号码的字段会显示在此屏幕上。 单击 **[!UICONTROL 编辑]** 来改变他们。
 
    ![](assets/primary-address.png)
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    ![](assets/primary-address-select-field.png)
 
-1. 单击 **[!UICONTROL Save]** 以确认您的选择。
+1. 单击 **[!UICONTROL 保存]** 以确认您的选择。
 
 执行字段已更新，现在将用作主地址。
 

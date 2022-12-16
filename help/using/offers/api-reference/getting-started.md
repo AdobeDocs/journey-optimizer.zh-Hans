@@ -1,5 +1,5 @@
 ---
-title: 入门指南
+title: 快速入门
 description: 了解如何开始使用优惠库API来使用决策引擎执行关键操作。
 feature: Offers
 topic: Integrations
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 5%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 本指南要求您对Adobe Experience Platform的以下组件有一定的了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}:标准化框架， [!DNL Experience Platform] 组织客户体验数据。
-   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}:了解XDM模式的基本构建块。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}:标准化框架， [!DNL Experience Platform] 组织客户体验数据。
+   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target=&quot;_blank&quot;}:了解XDM模式的基本构建块。
 * [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):解释Experience Decisioning的一般概念和组件，特别是决策管理。 说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}:PQL是一种用于通过XDM实例编写表达式的强大语言。 PQL用于定义决策规则。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已获得权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
 
-您可以通过 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 有关更多信息，请参阅 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target=&quot;_blank&quot;}。
+您可以通过 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 有关更多信息，请参阅 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 ### 列出用户和集成可访问的容器 {#list-containers-accessible-to-users-and-integrations}
 

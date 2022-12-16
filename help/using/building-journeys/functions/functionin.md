@@ -9,7 +9,7 @@ exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 布尔值 | 布尔值 |
+| 布尔型 | 布尔型 |
 | 整数 | 整数 |
 | 小数 | 小数 |
 | 持续时间 | 持续时间 |

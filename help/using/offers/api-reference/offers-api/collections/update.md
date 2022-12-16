@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 0%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
-# 更新集合 {#update-collection}
+# 更新收藏集 {#update-collection}
 
 您可以通过向 [!DNL Offer Library] API
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API格式**

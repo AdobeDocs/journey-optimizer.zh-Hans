@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ listInteger,listInteger : listInteger
 listString,listString : listString
 ```
 
-**使用情况**
+**用法**
 
 条件说明允许您通过减少条件活动的数量来优化历程工作流。 例如，在同一操作活动中，您只能使用一个条件表达式为字段定义指定两个替换项。
 

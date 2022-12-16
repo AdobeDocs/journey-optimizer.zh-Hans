@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用API触发营销活动
+title: 使用 API 触发活动
 description: 了解如何使用 [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 3%
 
 ---
 
-# 使用API触发营销活动 {#trigger-campaigns}
+# 使用 API 触发活动 {#trigger-campaigns}
 
 ## 关于API触发的营销活动 {#about}
 
-使用 [!DNL Journey Optimizer]，您可以创建营销活动，然后使用根据用户触发器从外部系统调用它们 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种操作和事务性消息传递需求，如密码重置、OTP令牌等。
+使用 [!DNL Journey Optimizer]，您可以创建营销活动，然后使用根据用户触发器从外部系统调用它们 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种操作和事务性消息传递需求，如密码重置、OTP 令牌等。
 
-为此，您首先需要在Journey Optimizer中创建一个API触发的营销活动，然后通过API调用启动其执行。
+为此，您首先需要在Journey Optimizer中创建由API触发的营销活动，然后通过API调用启动其执行。
 
 API触发的营销活动的可用渠道有电子邮件、短信和推送消息。
 
@@ -27,9 +27,9 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
 要创建API触发的营销活动，请执行以下步骤：
 
-1. 使用 **[!UICONTROL API-triggered]** 类型。
+1. 使用 **[!UICONTROL API触发]** 类型。
 
-1. 选择要用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL Create]**.
+1. 选择要用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL 创建]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -39,23 +39,23 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
    >[!NOTE]
    >
-   >您可以将其他数据传递到API有效负载中，以便将其用于个性化您的消息。 [了解更多](#contextual)
+   >您可以将其他数据传递到API有效负载中，以便将其用于个性化您的消息。 [了解详情](#contextual)
    >
    >在内容中使用大量或大量上下文数据可能会影响性能。
 
-1. 在 **[!UICONTROL Audience]** 部分，指定用于识别区段中个人的命名空间。
+1. 在 **[!UICONTROL 受众]** 部分，指定用于识别区段中个人的命名空间。
 
-   的 **[!UICONTROL Create new profiles]** 选项，可自动创建数据库中不存在的配置文件。 [了解有关在营销活动执行时创建用户档案的更多信息](#profile-creation)
+   的 **[!UICONTROL 创建新用户档案]** 选项，可自动创建数据库中不存在的配置文件。 [了解有关在营销活动执行时创建用户档案的更多信息](#profile-creation)
 
 1. 配置营销活动的开始和结束日期。
 
    如果为营销活动配置特定的开始和/或结束日期，则不会在这些日期之外执行该日期，而且如果营销活动由API触发，则API调用将失败。
 
-1. 在 **[!UICONTROL cURL request]** 检索 **[!UICONTROL Campaign ID]** 以在API有效负载中使用。
+1. 在 **[!UICONTROL cURL请求]** 检索 **[!UICONTROL 促销活动ID]** 以在API有效负载中使用。
 
    ![](assets/api-triggered-curl.png)
 
-1. 单击 **[!UICONTROL Review to activate]** 要检查营销活动配置是否正确，请将其激活。
+1. 单击 **[!UICONTROL 查看以激活]** 要检查营销活动配置是否正确，请将其激活。
 
 ## 在API触发的营销活动中使用上下文属性 {#contextual}
 
@@ -81,7 +81,7 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
 ## 执行营销活动 {#execute}
 
-要执行API触发的营销活动，您首先需要检索其ID，并将其传递到API有效负载中。 为此，请打开营销活动，然后复制并粘贴 **[!UICONTROL cURL request]** 中。
+要执行API触发的营销活动，您首先需要检索其ID，并将其传递到API有效负载中。 为此，请打开营销活动，然后复制并粘贴 **[!UICONTROL cURL请求]** 中。
 
 ![](assets/api-triggered-id.png)
 
@@ -93,13 +93,13 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
 在某些情况下，您可能需要向系统中不存在的用户档案发送事务型消息。 例如，未知用户尝试重置您网站上的密码。
 
-当数据库中不存在用户档案时，Journey Optimizer允许您在执行营销活动时自动创建该用户档案，以允许向此用户档案发送消息。
+当数据库中不存在用户档案时，利用Journey Optimizer，可在执行营销活动时自动创建该用户档案，以向此用户档案发送消息。
 
 >[!IMPORTANT]
 >
 >此功能针对 **创建少量用户档案** 在大量事务性发送用例中，平台中已存在大量用户档案。
 
-要在营销活动执行时激活用户档案创建，请将 **[!UICONTROL Create new profiles]** 的 **[!UICONTROL Audience]** 中。
+要在营销活动执行时激活用户档案创建，请将 **[!UICONTROL 创建新用户档案]** 的 **[!UICONTROL 受众]** 中。
 
 ![](assets/api-triggered-create-profile.png)
 

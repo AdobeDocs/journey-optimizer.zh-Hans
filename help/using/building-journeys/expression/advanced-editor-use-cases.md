@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 高级表达式编辑器对于对时间序列（如购买列表或对消息的过去点击）执行查询是强制性的。 无法使用简单编辑器执行此类查询。
 
-体验事件是作为收藏集从Adobe Experience Platform中以时间顺序逆序检索的，因此：
+体验事件是作为收藏集从Adobe Experience Platform中按照时间顺序进行检索，因此：
 
 * 第一个函数将返回最近的事件
 * 最后一个函数将返回最早的一个函数。
@@ -146,4 +146,4 @@ substr(
 
 解释：此示例使用 `substr` 和 `lastIndexOf` 用于删除与移动设备应用程序启动事件一起传递的CRM ID周围大括号的函数。
 
-有关如何使用高级表达式编辑器的更多信息，请观看 [此视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).
+有关如何使用高级表达式编辑器的更多信息，请观看 [此视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hans).

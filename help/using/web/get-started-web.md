@@ -1,5 +1,5 @@
 ---
-title: Web渠道快速入门
+title: Web 渠道入门
 description: 了解Journey Optimizer中的Web渠道
 feature: Overview
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Web渠道快速入门 {#get-sarted-web}
+# Web 渠道入门 {#get-sarted-web}
 
 >[!AVAILABILITY]
 >
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">创建Web体验</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">创作网页</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Web报告</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">创建 Web 体验</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">创建 Web 页面</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Web 报告</a></p></td>
 </tr>
 </table>
 

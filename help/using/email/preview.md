@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 0%
+source-wordcount: '1008'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 然后，您将能够 [发送校样](#send-proofs) 到测试用户档案。
 
-此外，您还可以 **利特穆斯** 帐户 [!DNL Journey Optimizer] 立即预览 **电子邮件渲染** 在流行的电子邮件客户中。 然后，您可以确保电子邮件内容在每个收件箱中都显示正常且工作正常。 了解如何解锁Litmus电子邮件预览 [此部分](#email-rendering).
+此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。了解如何解锁Litmus电子邮件预览 [此部分](#email-rendering).
 
 >[!CAUTION]
 >
@@ -55,15 +55,15 @@ ht-degree: 0%
 
 要选择测试用户档案，请执行以下步骤：
 
-1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL Simulate content]** 按钮以访问测试用户档案选择。
+1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
 
    ![](assets/email-preview-button.png)
 
-1. 选择 **[!UICONTROL Manage test profiles]**.
+1. 选择 **[!UICONTROL 管理测试用户档案]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. 通过单击 **[!UICONTROL Identity namespace]** 选择图标。
+1. 通过单击 **[!UICONTROL 身份命名空间]** 选择图标。
 
    ![](assets/previewselect-namespace.png)
 
@@ -71,11 +71,11 @@ ht-degree: 0%
 
    在以下示例中，我们将使用 **电子邮件** 命名空间。
 
-1. 使用搜索字段查找命名空间，选择该命名空间并单击 **[!UICONTROL Select]**
+1. 使用搜索字段查找命名空间，选择该命名空间并单击 **[!UICONTROL 选择]**
 
    ![](assets/preview-email-namespace.png)
 
-1. 在 **[!UICONTROL Identity value]** 字段中，输入值（此处为电子邮件地址）以标识测试用户档案并单击 **[!UICONTROL Add profile]**.
+1. 在 **[!UICONTROL 标识值]** 字段中，输入值（此处为电子邮件地址）以标识测试用户档案并单击 **[!UICONTROL 添加用户档案]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
@@ -87,9 +87,9 @@ ht-degree: 0%
 
 ### 电子邮件预览 {#preview-email}
 
-一次 [测试用户档案](#select-test-profiles) ，则可以预览电子邮件内容。 请执行以下步骤：
+一次 [测试用户档案](#select-test-profiles) ，则可以预览电子邮件内容。 应遵循以下步骤：
 
-1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL Simulate content]** 按钮。
+1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮。
 
 1. 选择测试用户档案。 您可以检查列中可用的值。 使用右/左箭头浏览数据。
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >要添加更多测试用户档案，请选择 **[!UICONTROL Manage test profiles]**. [了解更多](#select-test-profiles)
+   >要添加更多测试用户档案，请选择 **[!UICONTROL 管理测试用户档案]**. [了解详情](#select-test-profiles)
 
-1. 单击 **[!UICONTROL Select data]** 图标以添加或删除列。
+1. 单击 **[!UICONTROL 选择数据]** 图标以添加或删除列。
 
    ![](assets/preview-select-data.png)
 
@@ -113,17 +113,17 @@ ht-degree: 0%
 
 1. 选择其他测试用户档案，以预览消息每个变体的电子邮件呈现。
 
-## 发送校样 {#send-proofs}
+##   发送验证 {#send-proofs}
 
 校样是一种特定的消息，允许您在将消息发送到主受众之前对消息进行测试。 校样收件人负责批准邮件：呈现、内容、个性化设置、配置。
 
 一次 [测试用户档案](#select-test-profiles) ，则可以发送校样。
 
-1. 在 **[!UICONTROL Simulate]** 屏幕，单击 **[!UICONTROL Send proof]** 按钮。
+1. 在 **[!UICONTROL 模拟]** 屏幕，单击 **[!UICONTROL 发送校样]** 按钮。
 
    ![](assets/send-proof-button.png)
 
-1. 从 **[!UICONTROL Send proof]** 窗口中，键入收件人的电子邮件并单击 **[!UICONTROL Add]** 将校样发送给您自己或您组织的成员。
+1. 从 **[!UICONTROL 发送校样]** 窗口中，键入收件人的电子邮件并单击 **[!UICONTROL 添加]** 将校样发送给您自己或您组织的成员。
 
    请注意，您最多可以为校样投放添加10个收件人。
 
@@ -135,11 +135,11 @@ ht-degree: 0%
 
 1. 如果需要，您可以向校样的主题行添加前缀。 仅字母数字字符和特殊字符，如。- _() [ ] 作为主题行的前缀。
 
-1. 单击 **[!UICONTROL Send proof]**.
+1. 单击 **[!UICONTROL 发送校样]**.
 
    ![](assets/send-proof-select.png)
 
-1. 返回  **[!UICONTROL Simulate]** 屏幕，单击  **[!UICONTROL View proofs]** 按钮来检查状态。
+1. 返回  **[!UICONTROL 模拟]** 屏幕，单击  **[!UICONTROL 查看校样]** 按钮来检查状态。
 
    ![](assets/send-proof-view.png)
 
@@ -160,9 +160,9 @@ ht-degree: 0%
 
 然后，执行以下步骤：
 
-1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL Simulate content]** 按钮。
+1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮。
 
-1. 选择 **[!UICONTROL Render email]** 按钮。
+1. 选择 **[!UICONTROL 呈现电子邮件]** 按钮。
 
    ![](assets/email-rendering-button.png)
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->连接 **利特穆斯** 帐户 [!DNL Journey Optimizer]，则您同意将测试消息发送到Litmus:发送后，Adobe将不再管理这些电子邮件。 因此，Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。
+>连接 **利特穆斯** 帐户 [!DNL Journey Optimizer]，则您同意将测试消息发送到Litmus:发送后，这些电子邮件将不再由Adobe管理。 因此，Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。
 
 ## 操作方法视频 {#video-preview}
 

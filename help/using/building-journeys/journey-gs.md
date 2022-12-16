@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建您的第一个历程
-description: 使用Adobe Journey Optimizer构建您的第一个历程的关键步骤
+description: 使用 Adobe Journey Optimizer 构建您的首个历程的关键步骤
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 0%
+source-wordcount: '1009'
+ht-degree: 10%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 要通过历程发送消息，需要以下配置：
 
-1. **配置事件**:如果要在收到事件后一直触发历程，则需要配置事件。 您可以定义预期信息以及处理方式。 此步骤由 **技术用户**. [了解更多](../event/about-events.md).
+1. **配置事件**:如果要在收到事件后一直触发历程，则需要配置事件。 您可以定义预期信息以及处理方式。 此步骤由&#x200B;**技术用户**&#x200B;执行。[了解更多信息](../event/about-events.md)。
 
    ![](assets/jo-event7bis.png)
 
-1. **创建区段**:您的历程还可以监听Adobe Experience Platform区段，以便将消息批量发送到指定的一组用户档案。 为此，您需要创建区段。 [了解更多](../segment/about-segments.md).
+1. **创建区段**:您的历程还可以监听Adobe Experience Platform区段，以便将消息批量发送到一组指定的用户档案。 为此，您需要创建区段。 [了解更多信息](../segment/about-segments.md)。
 
    ![](assets/segment2.png)
 
-1. **配置数据源**:您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 内置的Adobe Experience Platform数据源也会在预配时进行配置。 如果您仅利用历程中事件的数据，则不需要执行此步骤。 此步骤由 **技术用户**. [了解更多](../datasource/about-data-sources.md)
+1. **配置数据源**:您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。[了解详情](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
-1. **配置操作**:如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由 **技术用户**. 如果您使用Journey Optimizer内置消息功能，则只需在历程中添加渠道操作并设计内容即可。
+1. **配置操作**:如果您使用第三方系统发送消息，则可以创建自定义操作。 在中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。如果您使用的是Journey Optimizer内置的消息功能，则只需在历程中添加渠道操作并设计内容即可。
 
    ![](assets/custom2.png)
 
@@ -44,17 +44,17 @@ ht-degree: 0%
 >title="构建历程"
 >abstract="此屏幕显示现有历程的列表。 打开旅程或单击“创建旅程”，并组合不同的事件、编排和操作活动以构建多步跨渠道方案。"
 
-此步骤由 **商业用户**. 您可以在此处创建历程。 将不同的事件、编排和操作活动结合在一起，构建多步跨渠道方案。
+此步骤由 **商业用户**. 您可以在此处创建历程。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
 以下是通过历程发送消息的主要步骤：
 
-1. 在历程管理菜单部分中，单击 **[!UICONTROL Journeys]**. 将显示历程列表。
+1. 在“历程管理”菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
 
    ![](assets/interface-journeys.png)
 
-1. 单击 **[!UICONTROL Create Journey]** 以创建新历程。
+1. 单击 **[!UICONTROL 创建历程]** 以创建新历程。
 
-1. 在右侧显示的配置窗格中编辑历程的属性。 在中了解详情 [部分](journey-gs.md#change-properties).
+1. 编辑右侧显示的配置窗格中的历程属性。在中了解详情 [部分](journey-gs.md#change-properties).
 
    ![](assets/jo-properties.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 单击右上方的铅笔图标以访问历程的属性。
 
-您可以更改历程名称、添加描述、允许重新进入、选择开始和结束日期，并作为管理员用户定义 **[!UICONTROL Timeout and error]** 持续时间。
+您可以更改历程名称、添加描述、允许重新进入、选择开始和结束日期，并作为管理员用户定义 **[!UICONTROL 超时和错误]** 持续时间。
 
 对于实时历程，此屏幕显示发布日期和发布历程的用户名称。
 
@@ -99,11 +99,11 @@ ht-degree: 0%
 
 ### 历程活动中的超时和错误 {#timeout_and_error}
 
-在编辑操作或条件活动时，您可以定义出现错误或超时的替代路径。 如果查询第三方系统的活动的处理超过了历程属性中定义的超时持续时间(**[!UICONTROL Timeout and  error]** 字段)，则将选择第二个路径来执行潜在的回退操作。
+在编辑操作或条件活动时，您可以定义出现错误或超时的替代路径。 如果查询第三方系统的活动的处理超过了历程属性中定义的超时持续时间(**[!UICONTROL 超时和错误]** 字段)，则将选择第二个路径来执行潜在的回退操作。
 
 授权值介于1到30秒之间。
 
-我们建议您定义一个非常短的 **[!UICONTROL Timeout and error]** 值(例如：响应人员的实时位置)，因为您不能将操作延迟超过几秒钟。 如果您的历程不太时间敏感，您可以使用较长的值为调用的系统提供更多时间以发送有效响应。
+我们建议您定义一个非常短的 **[!UICONTROL 超时和错误]** 值(例如：响应人员的实时位置)，因为您不能将操作延迟超过几秒钟。 如果您的历程不太时间敏感，您可以使用较长的值为调用的系统提供更多时间以发送有效响应。
 
 历程还使用全局超时。 请参阅 [下一部分](#global_timeout).
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->历程不会对隐私选择退出、访问或删除请求做出直接反应。 但是，全局超时可确保个人在任何历程中停留的时间不得超过30天。
+>历程不会直接对隐私选择退出、访问或删除请求做出反应。 但是，全局超时可确保个人在任何历程中停留的时间不得超过30天。
 
 由于历程超时30天，因此当不允许历程重新进入时，我们无法确保重新进入阻止的工作时间超过30天。 事实上，由于我们删除了有关在进入历程30天后进入历程的人员的所有信息，因此我们无法知道之前进入的人员，即30天前。
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 在历程级别定义时区。
 
-您可以输入固定时区，或使用Adobe Experience Platform配置文件定义旅程时区。
+您可以输入固定时区或使用Adobe Experience Platform配置文件定义历程时区。
 
 如果在Adobe Experience Platform配置文件中定义了时区，则可以在历程中进行检索。
 
@@ -129,6 +129,6 @@ ht-degree: 0%
 
 ### 管理访问权限 {#access}
 
-要为历程分配自定义或核心数据使用标签，请单击 **[!UICONTROL Manage access]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
+要为历程分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)

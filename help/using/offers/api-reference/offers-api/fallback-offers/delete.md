@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 8%
 
 ---
 
 # 删除后备优惠 {#delete-fallback-offer}
 
-有时可能需要删除（删除）备用选件。 只能删除您在租户容器中创建的备用选件。 这是通过对 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
+有时可能需要删除(DELETE)备用选件。 只能删除您在租户容器中创建的备用选件。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
 
 **API格式**
 

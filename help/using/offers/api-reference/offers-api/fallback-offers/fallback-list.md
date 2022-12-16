@@ -9,7 +9,7 @@ exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 如果客户不符合其他选件的资格，则会向客户发送一个备用选件。 创建备用选件的步骤包括创建一个或多个表示形式，例如创建选件时。
 
-您可以通过对 [!DNL Offer Library] API。
+您可以通过向 [!DNL Offer Library] API。
 
 **API格式**
 

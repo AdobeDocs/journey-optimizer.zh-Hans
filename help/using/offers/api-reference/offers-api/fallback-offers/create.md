@@ -9,7 +9,7 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **API格式**

@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 拆分
+title: split
 description: 了解函数拆分
 feature: Journeys
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 0%
+source-wordcount: '63'
+ht-degree: 19%
 
 ---
 
-# 拆分 {#split}
+# split {#split}
 
 将第一个参数字符串与分隔符字符串（第二个参数字符串，可以是正则表达式）拆分，以生成字符串列表（令牌）。
 

@@ -1,6 +1,6 @@
 ---
 title: 在电子邮件中使用个性化优惠
-description: 了解一个端到端示例，其中显示了配置选件并在电子邮件中使用它们所需的所有步骤。
+description: 探索一个端到端示例，其中显示配置选件和在电子邮件中使用它们所需的所有步骤。
 feature: Offers
 topic: Integrations
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 0%
+source-wordcount: '1085'
+ht-degree: 6%
 
 ---
 
-# 用例：配置个性化选件以在电子邮件中使用它们 {#configure-add-personalized-offers-email}
+# 用例：配置个性化优惠并将其添加到电子邮件中 {#configure-add-personalized-offers-email}
 
 此部分提供一个端到端示例，以展示如何根据您之前创建的决策，在电子邮件中配置和使用选件。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 在创建选件之前， [定义组件](#define-components)
 
-   * 创建版面
+   * 创建投放位置
    * 创建决策规则
    * 创建标记
    * 创建排名（可选）
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 在开始创建选件之前，您必须定义要在选件中使用的多个组件。
 
-你会在 **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+你会在 **[!UICONTROL 决策管理]** > **[!UICONTROL “组件”菜单]**.
 
 1. 首先创建 **投放** 的URL。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
    决策规则将为Adobe Experience Platform中的用户档案提供最佳选件。
 
-   使用 **[!UICONTROL XDM Individual Profile > Person > Gender]** 属性：
+   使用 **[!UICONTROL XDM个人资料>人员>性别]** 属性：
 
    * *女性客户*
    * *男性客户*
@@ -110,11 +110,11 @@ ht-degree: 0%
    >
    >在本例中，我们将仅使用优先级得分。 了解详情 [资格规则和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-## 配置选件 {#configure-offers}
+## 配置优惠 {#configure-offers}
 
 您现在可以创建和配置选件。 在此示例中，您将创建四个选件，以根据每个特定的配置文件显示这些选件。
 
-1. 创建选件。 在 [此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. 创建选件. 有关详细信息，请参阅[此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)。
 
 1. 在此选件中，创建三个表示法。 每个表示形式必须是您之前创建的版面和资产的组合：
 
@@ -132,13 +132,13 @@ ht-degree: 0%
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL Offer eligibility]** 选择 **[!UICONTROL By defined decision rule]** 并拖放您选择的规则。
+1. 在 **[!UICONTROL 选件资格]** 选择 **[!UICONTROL 按定义的决策规则]** 并拖放您选择的规则。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填写 **[!UICONTROL Priority]**. 在本例中，添加 *25*.
+1. 填写 **[!UICONTROL 优先级]**. 在本例中，添加 *25*.
 
-1. 查看选件，然后单击 **[!UICONTROL Save and approve]**.
+1. 查看选件，然后单击 **[!UICONTROL 保存和批准]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 ## 创建后备优惠 {#create-fallback}
 
-1. 创建后备优惠。
+1. 创建后备优惠.
 
 1. 为选件定义与相同的表示形式，并使用相应的资产（它们应与选件中使用的资产不同）。
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 查看备用选件，然后单击 **[!UICONTROL Save and approve]**.
+1. 查看备用选件，然后单击 **[!UICONTROL 保存和批准]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 要创建和配置选件决策，请执行以下步骤：
 
-1. 创建决策。 在 [此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. 创建决策. 有关详细信息，请参阅[此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity)。
 
 1. 选择 *Web — 图像*, *电子邮件 — 图像* 和 *非数字 — 文本* 版面。
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 查看您的决策，然后单击 **[!UICONTROL Save and approve]**.
+1. 查看您的决策，然后单击 **[!UICONTROL 保存和批准]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

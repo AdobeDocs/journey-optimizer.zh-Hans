@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 * 定义要捕获的事件类型 — 显示的选件（展示次数）和/或点击的选件（转化），
 * 以及要在哪个数据集中收集事件数据。
 
-现在，每次显示和/或单击选件时，您都希望 **[!UICONTROL Experience Event - Proposition Interactions]** 字段组 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或Mobile SDK。
+现在，每次显示和/或单击选件时，您都希望 **[!UICONTROL 体验事件 — 建议交互]** 字段组 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;}或Mobile SDK。
 
 要发送事件类型（显示的选件或点击的选件），您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 以下是在JavaScript代码中实施所需的架构要求：
 

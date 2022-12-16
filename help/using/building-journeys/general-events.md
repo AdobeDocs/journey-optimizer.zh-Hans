@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 11%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般事件"
->abstract="事件允许您触发旅程，以便实时向流入旅程的个人发送消息。 对于此类型的事件，您只能添加标签和描述。 事件配置由数据工程师执行，无法编辑。"
+>abstract="事件允许您统一触发历程，向流入历程的个人实时发送消息。对于此类型的事件，您只能添加标签和描述。 事件配置由数据工程师执行，无法编辑。"
 
-事件允许您触发旅程，以便实时向流入旅程的个人发送消息。
+事件允许您统一触发历程，向流入历程的个人实时发送消息。
 
-对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅 [本页](../event/about-events.md).
+对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
 
 ![](assets/general-events.png)
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 要为事件配置超时，请执行以下步骤：
 
-1. 激活 **[!UICONTROL Define the event timeout]** 选项。
+1. 激活 **[!UICONTROL 定义事件超时]** 选项。
 
 1. 指定历程将等待事件的时长。
 
-1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用 **[!UICONTROL Set a timeout path]** 选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
+1. 如果要在指定的超时内未收到任何事件时将个人发送到超时路径，请启用 **[!UICONTROL 设置超时路径]** 选项。 如果未启用此选项，则到达超时后，个人的历程将结束。
 
    ![](assets/event-timeout.png)
 
@@ -51,8 +51,8 @@ ht-degree: 0%
 * 如果在欢迎推送后不到1天收到餐馆事件，则会发送餐饮折扣推送活动。
 * 如果第二天未收到餐馆事件，则人员将通过超时路径流动。
 
-请注意，如果要对位于 **[!UICONTROL Wait]** 活动中，您只需要为其中一个事件配置超时。
+请注意，如果要对位于 **[!UICONTROL 等待]** 活动中，您只需要为其中一个事件配置超时。
 
-超时将应用于位于 **[!UICONTROL Wait]** 活动。 如果在指定的超时前未收到任何事件，则这些个人将流入一个超时路径，或结束其历程。
+超时将应用于位于 **[!UICONTROL 等待]** 活动。 如果在指定的超时前未收到任何事件，则这些个人将流入一个超时路径，或结束其历程。
 
 ![](assets/event-timeout-group.png)

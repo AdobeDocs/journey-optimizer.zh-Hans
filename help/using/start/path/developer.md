@@ -1,6 +1,6 @@
 ---
 title: 开发人员入门
-description: 作为开发人员，了解有关如何使用Journey Optimizer的更多信息
+description: 作为开发人员，了解有关如何与Journey Optimizer合作的更多信息
 level: Intermediate
 hide: true
 hidefromtoc: true

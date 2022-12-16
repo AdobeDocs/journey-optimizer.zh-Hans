@@ -8,8 +8,8 @@ level: Experienced
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 0%
+source-wordcount: '74'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 |--- |--- |
 | 日期时间 | dateTime |
 | 不考虑时区的日期时间 | dateTimeOnly |
-| 天数 | 整数 |
+| 天 | 整数 |
 
 ## 签名和返回类型
 

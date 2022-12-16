@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 1%
 
 ---
 
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 有关区段的更多信息，请参阅此 [页面](../segment/about-segments.md).
 
-1. 从“客户”菜单部分中，选择 **[!UICONTROL Segments]**.
+1. 从“客户”菜单部分中，选择 **[!UICONTROL 区段]**.
 
-1. 单击 **[!UICONTROL Create segment]** 按钮。
+1. 单击 **[!UICONTROL 创建区段]** 按钮。
 
-1. 在 **[!UICONTROL Segment properties]** 窗格，输入区段的名称。
+1. 在 **[!UICONTROL 区段属性]** 窗格，输入区段的名称。
 
 1. 将所需字段从左侧窗格拖放到中心工作区中，然后根据需要对其进行配置。 在本例中，我们使用 **城市** 和 **出生年份** 属性字段。
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/add-attributes.png)
 
@@ -64,19 +64,19 @@ ht-degree: 0%
 
 为此，我们使用基于规则的事件。 有关事件的更多信息，请参阅此 [页面](../event/about-events.md).
 
-1. 在“管理”菜单部分，选择 **[!UICONTROL Configurations]**，然后单击 **[!UICONTROL Events]**. 单击 **[!UICONTROL Create event]** 创建新事件。
+1. 在“管理”菜单部分，选择 **[!UICONTROL 配置]**，然后单击 **[!UICONTROL 事件]**. 单击 **[!UICONTROL 创建事件]** 创建新事件。
 
 1. 输入事件的名称。
 
-1. 在 **[!UICONTROL Event ID type]** 字段，选择 **[!UICONTROL Rule Based]**.
+1. 在 **[!UICONTROL 事件ID类型]** 字段，选择 **[!UICONTROL 基于规则]**.
 
-1. 定义 **[!UICONTROL Schema]** 和负载 **[!UICONTROL Fields]**. 您可以使用多个字段，例如已购买的产品、购买日期和购买ID。
+1. 定义 **[!UICONTROL 架构]** 和负载 **[!UICONTROL 字段]**. 您可以使用多个字段，例如已购买的产品、购买日期和购买ID。
 
-1. 在 **[!UICONTROL Event ID condition]** 字段中，定义系统用于识别触发历程的事件的条件。 例如，您可以添加 `purchaseMessage` 字段并定义以下规则： `purchaseMessage="thank you"`
+1. 在 **[!UICONTROL 事件ID条件]** 字段中，定义系统用于识别触发历程的事件的条件。 例如，您可以添加 `purchaseMessage` 字段并定义以下规则： `purchaseMessage="thank you"`
 
-1. 定义 **[!UICONTROL Namespace]** 和 **[!UICONTROL Profile Identifier]**.
+1. 定义 **[!UICONTROL 命名空间]** 和 **[!UICONTROL 配置文件标识符]**.
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/jo-uc2.png)
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. 事件后，删除 **推送** 活动，并定义“谢谢”消息的内容。 请参阅 [部分](../push/create-push.md) 了解如何配置和设计推送。
 
-## 测试和发布历程
+## 测试并发布历程
 
 1. 在测试历程之前，请验证历程是否有效且没有错误。
 

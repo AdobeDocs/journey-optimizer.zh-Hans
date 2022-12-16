@@ -5,8 +5,8 @@ description: 使用外部数据源和自定义操作限制吞吐量
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: '619'
+ht-degree: 3%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 用例描述
 
-Adobe Journey Optimizer允许从业者通过使用自定义操作和数据源向外部系统发送API调用。
+Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源，向外部系统发送API调用。
 
 这可以通过完成：
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer允许从业者通过使用自定义操作和数据源向
 
 ## 实施
 
-对于 **区段触发的历程**，您可以定义将影响历程吞吐量的读取区段活动的限制速率。  [了解更多](../building-journeys/read-segment.md)
+对于 **区段触发的历程**，您可以定义将影响历程吞吐量的读取区段活动的限制速率。  [了解详情](../building-journeys/read-segment.md)
 
 ![](assets/limit-throughput-1.png)
 

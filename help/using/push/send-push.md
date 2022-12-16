@@ -10,8 +10,8 @@ level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入个性化内容，则可以利用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. 单击 **[!UICONTROL Simulate content]**.
+1. 单击 **[!UICONTROL 模拟内容]**.
 
-1. 单击 **[!UICONTROL Manage test profiles]** 添加测试用户档案。
+1. 单击 **[!UICONTROL 管理测试用户档案]** 添加测试用户档案。
 
-1. 通过 **[!UICONTROL Identity namespace]** 和 **[!UICONTROL Identity value]** 字段。 然后，单击 **[!UICONTROL Add profile]**.
+1. 通过 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加用户档案]**.
 
    ![](assets/push_preview_1.png)
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 * **错误** 阻止您测试或激活历程（只要它们未得到解析），例如：
 
-   * **[!UICONTROL The push version of the message is empty]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
+   * **[!UICONTROL 消息的推送版本为空]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
 
-   * **[!UICONTROL Surface doesn't exist]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL Properties]**. 了解有关 [此部分](../configuration/channel-surfaces.md).
+   * **[!UICONTROL 曲面不存在]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL 属性]**. 了解有关 [此部分](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](../push/create-push.md).
+   * **[!UICONTROL 推送iOS/Android有效负载超过4KB的限制]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](../push/create-push.md).
 
 ![](assets/push_alert.png)
 

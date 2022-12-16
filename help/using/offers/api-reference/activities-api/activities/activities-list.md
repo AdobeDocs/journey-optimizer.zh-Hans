@@ -9,7 +9,7 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 决策包含通知选件选择的逻辑。
 
-您可以通过执行对 [!DNL Offer Library] API。
+您可以通过对执行单个GET请求，查看容器中所有决策的列表 [!DNL Offer Library] API。
 
 **API格式**
 

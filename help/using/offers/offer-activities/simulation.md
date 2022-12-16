@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '865'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >此功能模拟对 [!DNL Decisioning] API。 了解详情 [使用决策API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md).
 
-要访问此功能，请选择 **[!UICONTROL Simulation]** 选项卡 **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** 菜单。
+要访问此功能，请选择 **[!UICONTROL 模拟]** 选项卡 **[!UICONTROL 决策管理]** > **[!UICONTROL 选件]** 菜单。
 
 ![](../assets/offers_simulation-tab.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >您必须具有测试用户档案，以模拟将向他们提供哪些选件。 了解如何 [创建测试用户档案](../../segment/creating-test-profiles.md).
 
-1. 单击 **[!UICONTROL Manage profile]**.
+1. 单击 **[!UICONTROL 管理配置文件]**.
 
    ![](../assets/offers_simulation-manage-profile.png)
 
@@ -63,7 +63,7 @@ ht-degree: 0%
    >
    >标识命名空间定义标识符的上下文，如电子邮件地址或CRM ID。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../../segment/get-started-identity.md){target=&quot;_blank&quot;}。
 
-1. 输入标识值并单击 **[!UICONTROL View]** 列出可用的用户档案。
+1. 输入标识值并单击 **[!UICONTROL 查看]** 列出可用的用户档案。
 
    ![](../assets/offers_simulation-add-profile.png)
 
@@ -71,15 +71,15 @@ ht-degree: 0%
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 添加后，所有用户档案都会列在 **[!UICONTROL Test profile]**. 您可以在保存的测试用户档案之间切换，以显示每个选定用户档案的结果。
+1. 添加后，所有用户档案都会列在 **[!UICONTROL 测试用户档案]**. 您可以在保存的测试用户档案之间切换，以显示每个选定用户档案的结果。
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >所选用户档案将在 **[!UICONTROL Simulation]** 选项卡，直到使用 **[!UICONTROL Manage profile]**.
+   >所选用户档案将在 **[!UICONTROL 模拟]** 选项卡，直到使用 **[!UICONTROL 管理配置文件]**.
 
-1. 您可以单击 **[!UICONTROL Profile details]** 链接以显示所选的用户档案数据。
+1. 您可以单击 **[!UICONTROL 配置文件详细信息]** 链接以显示所选的用户档案数据。
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 现在，选择要在测试用户档案上模拟的选件决策。
 
-1. 选择 **[!UICONTROL Add decision scope]**.
+1. 选择 **[!UICONTROL 添加决策范围]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -98,9 +98,9 @@ ht-degree: 0%
 1. 将显示可用的决策。
 
    * 您可以使用搜索字段来优化选择。
-   * 您可以单击 **[!UICONTROL Open offer decisions]** 链接以打开您创建的所有决策的列表。 了解详情 [决策](create-offer-activities.md).
+   * 您可以单击 **[!UICONTROL 开放选件决策]** 链接以打开您创建的所有决策的列表。 了解详情 [决策](create-offer-activities.md).
 
-   选择您选择的决策并单击 **[!UICONTROL Add]**.
+   选择您选择的决策并单击 **[!UICONTROL 添加]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -126,11 +126,11 @@ ht-degree: 0%
 
 要编辑模拟的默认设置，请执行以下步骤。
 
-1. 单击 **[!UICONTROL Settings]**.
+1. 单击 **[!UICONTROL 设置]**.
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 在 **[!UICONTROL Deduplication]** 部分，您可以选择在决策和/或版面中允许重复的选件。 这意味着可能会为多个决策/版面分配相同的选件。
+1. 在 **[!UICONTROL 重复数据删除]** 部分，您可以选择在决策和/或版面中允许重复的选件。 这意味着可能会为多个决策/版面分配相同的选件。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >默认情况下，会启用所有重复数据删除标记以进行模拟，这意味着决策引擎允许重复项，因此可以在多个决策/投放中提出相同的建议。 了解 [!DNL Decisioning] 中的API请求属性 [此部分](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. 在 **[!UICONTROL Response format]** 部分，则可以选择在代码视图中包含元数据。 选中相应的选项，然后选择所选的元数据。 选择 **[!UICONTROL View code]**. 在 [查看模拟结果](#simulation-results) 中。
+1. 在 **[!UICONTROL 响应格式]** 部分，则可以选择在代码视图中包含元数据。 选中相应的选项，然后选择所选的元数据。 选择 **[!UICONTROL 查看代码]**. 在 [查看模拟结果](#simulation-results) 中。
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -146,11 +146,11 @@ ht-degree: 0%
    >
    >在打开选项时，默认情况下会选择所有项目。
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
->目前，对于模拟数据，您只能使用 **[!UICONTROL Hub]** API。
+>目前，对于模拟数据，您只能使用 **[!UICONTROL 中心]** API。
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -170,7 +170,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 添加决策范围并选择测试用户档案后，即可查看结果。
 
-1. 单击 **[!UICONTROL View results]**.
+1. 单击 **[!UICONTROL 查看结果]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
@@ -180,7 +180,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 单击 **[!UICONTROL View code]** 以显示请求和响应负载。 [了解更多](#view-code)
+1. 单击 **[!UICONTROL 查看代码]** 以显示请求和响应负载。 [了解详情](#view-code)
 
 1. 从列表中选择其他用户档案以显示其他测试用户档案的选件决策结果。
 
@@ -188,23 +188,23 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 >[!NOTE]
 >
->每次更改用户档案或更新决策范围时，您都需要使用 **[!UICONTROL View results]** 按钮。
+>每次更改用户档案或更新决策范围时，您都需要使用 **[!UICONTROL 查看结果]** 按钮。
 
 ## 查看代码 {#view-code}
 
-1. 使用 **[!UICONTROL View code]** 按钮来显示请求和响应负载。
+1. 使用 **[!UICONTROL 查看代码]** 按钮来显示请求和响应负载。
 
    ![](../assets/offers_simulation-view-code.png)
 
-   代码视图显示当前用户的开发人员信息。 默认情况下， **[!UICONTROL Response payload]** 中。
+   代码视图显示当前用户的开发人员信息。 默认情况下， **[!UICONTROL 响应负载]** 中。
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. 单击 **[!UICONTROL Response payload]** 或 **[!UICONTROL Request payload]** 来导航。
+1. 单击 **[!UICONTROL 响应负载]** 或 **[!UICONTROL 请求负载]** 来导航。
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 在之外使用请求有效负载 [!DNL Journey Optimizer]  — 例如，为进行故障诊断，请使用 **[!UICONTROL Copy to clipboard]** 按钮。
+1. 在之外使用请求有效负载 [!DNL Journey Optimizer]  — 例如，为进行故障诊断，请使用 **[!UICONTROL 复制到剪贴板]** 按钮。
 
    ![](../assets/offers_simulation-copy-payload.png)
 

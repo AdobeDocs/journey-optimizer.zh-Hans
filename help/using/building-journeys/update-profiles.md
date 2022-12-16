@@ -20,11 +20,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="更新用户档案活动"
->abstract="通过“更新配置文件”操作活动，可以使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。"
+>abstract="利用更新配置文件操作活动，可使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。"
 
-使用 **[!UICONTROL Update Profile]** 操作活动，使用来自事件、数据源或具有特定值的信息更新现有Adobe Experience Platform配置文件。
+使用 **[!UICONTROL 更新用户档案]** 操作活动，使用来自事件、数据源或具有特定值的信息更新现有Adobe Experience Platform配置文件。
 
-## 推荐
+## Recommendations
 
 * 的 **更新用户档案** 操作只能在以具有命名空间的事件开始的历程中使用。
 * 该操作仅更新现有字段，而不会创建新的用户档案字段。

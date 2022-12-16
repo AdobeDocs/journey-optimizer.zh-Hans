@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: '159'
+ht-degree: 5%
 
 ---
 
 # 删除决策规则 {#delete-decision-rule}
 
-有时可能需要删除（删除）决策规则。 只能删除您在租户容器中创建的决策规则。 这是通过对 [!DNL Offer Library] 使用您要删除的决策规则的实例ID的API。
+有时可能需要删除(DELETE)决策规则。 只能删除您在租户容器中创建的决策规则。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的决策规则的实例ID的API。
 
 **API格式**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的响应会返回HTTP状态202（无内容）和空白正文。
 
-您可以尝试对决策规则进行查找(GET)请求以确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为决策规则已从容器中删除。
+您可以通过尝试对决策规则进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为决策规则已从容器中删除。

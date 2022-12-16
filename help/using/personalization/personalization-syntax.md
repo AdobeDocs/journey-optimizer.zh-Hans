@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 其中：
 
 * `profile` 是命名空间。
-* `person.name` 是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+* `person.name` 是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}.
 
 ## 语法常规规则 {#general-rules}
 
@@ -49,9 +49,9 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## 用户档案
+## 配置文件
 
-此命名空间允许您引用配置文件架构中定义的所有属性，详见 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+此命名空间允许您引用配置文件架构中定义的所有属性，详见 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 在 [!DNL Journey Optimizer] 个性化块。
 
@@ -116,12 +116,12 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* 来自决策引擎的优惠的HTML内容：
+* HTML来自决策引擎的优惠内容：
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## 帮助者{#helpers-all}
+## 辅助程序{#helpers-all}
 
 Handlebars助手是一个简单的标识符，其后可能跟有参数。
 每个参数都是Handlebars表达式。 这些帮助程序可以从模板中的任何上下文访问。
@@ -140,10 +140,10 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 
 | 文字 | 定义 |
 | ------- | ---------- |
-| 字符串 | 数据类型，由被双引号括住的字符组成。 <br>示例： `"prospect"`, `"jobs"`, `"articles"` |
-| 布尔值 | 数据类型为true或false。 |
-| 整数 | 表示整数的数据类型。 可以是正数、负数或零。 <br>示例： `-201`, `0`, `412` |
-| 数组 | 作为一组其他文字值组成的数据类型。 它使用方括号对不同值进行分组和逗号分隔。 <br> **注意：** 不能直接访问数组中项的属性。 <br> 示例： `[1, 4, 7]`, `["US", "FR"]` |
+| 字符串 | 数据类型，由被双引号括住的字符组成。 <br>示例: `"prospect"`, `"jobs"`, `"articles"` |
+| 布尔型 | 数据类型为true或false。 |
+| 整数 | 表示整数的数据类型。 可以是正数、负数或零。 <br>示例: `-201`, `0`, `412` |
+| 数组 | 作为一组其他文字值组成的数据类型。 它使用方括号对不同值进行分组和逗号分隔。 <br> **注意：** 不能直接访问数组中项的属性。 <br> 示例: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
@@ -151,11 +151,11 @@ Handlebars助手是一个简单的标识符，其后可能跟有参数。
 
 ## URL个性化{#perso-urls}
 
-个性化URL可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于用户档案属性。 在Adobe Journey Optimizer中，您可以向消息内容中的URL添加个性化。 URL个性化可应用于文本和图像，并使用用户档案数据或上下文数据。
+个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于用户档案属性。在Adobe Journey Optimizer中，您可以向消息内容中的URL添加个性化。 URL 个性化可应用于文本和图像，并使用用户档案数据或上下文数据。
 
-Journey Optimizer允许您通过向消息中添加个性化字段来个性化一个或多个URL。 要个性化URL，请执行以下步骤：
+Journey Optimizer允许您通过向消息中的一个或多个个性化字段，来对其进行个性化。 要个性化URL，请执行以下步骤：
 
-1. 在消息内容中创建链接。 [了解更多](../email/message-tracking.md#insert-links)
+1. 在消息内容中创建链接。 [了解详情](../email/message-tracking.md#insert-links)
 1. 从个性化图标中，选择属性。 个性化图标仅适用于以下类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
 
 ![](assets/perso-url.png)

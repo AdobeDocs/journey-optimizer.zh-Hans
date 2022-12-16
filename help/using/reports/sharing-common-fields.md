@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 指示用户是否已进入历程。 如果不存在，则我们假定该值为false。
 
-类型：布尔
+类型：布尔值
 
 值：true/false
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 指示用户是否使用同一实例重新进入历程。 如果不存在，则我们假定该值为false。
 
-类型：布尔
+类型：布尔值
 
 值：true/false
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 指示实例是否已结束（成功或未成功）。
 
-类型：布尔
+类型：布尔值
 
 ## eventID {#eventid-field}
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 指示此历程是否处于测试模式。
 
-类型：布尔
+类型：布尔值
 
 ## processingTime {#processingtime-field}
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 指示此单一实例是否已从批处理实例触发。
 
-类型：布尔
+类型：布尔值
 
 ## batchExternalKey {#batchexternalkey-field}
 

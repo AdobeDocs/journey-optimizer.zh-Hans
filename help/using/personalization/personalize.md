@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中个性化内容
+title: 在 Journey Optimizer 中个性化内容
 description: 个性化入门。
 feature: Personalization
 topic: Personalization
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
@@ -24,18 +24,18 @@ Discover [!DNL Adobe Journey Optimizer] 个性化功能，通过利用您拥有�
 
 ## 使用专用语法构建个性化表达式 {#syntax}
 
-[!DNL Journey Optimizer] 使用 **内嵌** 基于Handlebars的简单个性化语法，允许您创建内容由双大括号括起的表达式 **{{}}**. 您可以在同一内容或字段中添加多个表达式，且不受限制。 在 [个性化语法](personalization-syntax.md).
+[!DNL Journey Optimizer] 使用 **内嵌** 基于Handlebars的简单个性化语法，允许您创建内容由双大括号括起的表达式 **{{}}**. 您可以在同一内容或字段中添加多个表达式，而不受限制。在 [个性化语法](personalization-syntax.md).
 
 **示例：**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-在处理消息（电子邮件和推送）时，Journey Optimizer会将表达式替换为Experience Platform数据库中包含的数据：  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 变成了“你好约翰·多伊”。
+处理消息（电子邮件和推送）时，Journey Optimizer会将表达式替换为Experience Platform数据库中包含的数据：  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` 变成了“你好，无名氏”。
 
 ## 利用用户档案数据个性化您的消息 {#data}
 
-个性化基于由 **XDM个人配置文件** 架构。 在 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}。
+个性化基于 Adobe Experience Platform 中定义的 **XDM Individual Profile** 架构管理的用户档案数据。在 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 >[!CAUTION]
 >的 **XDM个人配置文件** 架构是您唯一可以在 [!DNL Journey Optimizer].
@@ -52,12 +52,12 @@ Discover [!DNL Adobe Journey Optimizer] 个性化功能，通过利用您拥有�
 
 详细了解 [!DNL Journey Optimizer] 表达式编辑器 [此部分](personalization-build-expressions.md)
 
-## 操作方法视频{#video-perso}
+## 操作说明视频{#video-perso}
 
-了解如何使用历程中的情境事件信息来个性化消息。
+了解如何使用历程中的情境式事件信息来对消息进行个性化。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-了解如何向消息添加基于用户档案的个性化，以及如何将区段成员资格用作个性化块的先决条件。
+了解如何在消息中添加基于用户档案的个性化设置，以及如何将区段会员资格用作个性化块的先决条件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

@@ -1,5 +1,5 @@
 ---
-title: 在决策中配置选件选择
+title: 在决策中配置优惠选择
 description: 了解如何在决策中管理选件选择
 feature: Offers
 topic: Integrations
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 6%
 
 ---
 
-# 在决策中配置选件选择 {#offers-selection-in-decisions}
+# 在决策中配置优惠选择 {#offers-selection-in-decisions}
 
 如果多个选件符合给定版面的条件，您可以在配置决策时选择为每个用户档案选择最佳选件的方法。 您可以按以下方式对选件进行排名：
 * 选件优先级
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 排名公式 {#assign-ranking-formula}
 
-除了优先选件之外，Journey Optimizer还允许您创建 **排名公式**. 这些公式可确定在给定版面中应首先显示哪个选件，而不是考虑选件的优先级得分。
+除了选件优先级之外，Journey Optimizer还允许您创建 **排名公式**. 这些公式可确定在给定版面中应首先显示哪个选件，而不是考虑选件的优先级得分。
 
 例如，您可以提升结束日期现在后不到24小时的所有选件的优先级，或者如果用户档案的目标点为“正在运行”，则提升“正在运行”类别中的选件。
 
@@ -40,17 +40,17 @@ ht-degree: 0%
 
 创建排名公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
-1. 创建决策或编辑现有决策。 请参阅 [创建决策](../offer-activities/create-offer-activities.md).
+1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
 1. 添加将包含您的选件的版面。 请参阅 [创建版面](../offer-library/creating-placements.md).
 
 1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
-1. 选择 **[!UICONTROL Ranking formula]** 作为排名方法，然后单击 **[!UICONTROL Add ranking]**.
+1. 选择 **[!UICONTROL 排名公式]** 作为排名方法，然后单击 **[!UICONTROL 添加排名]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 选择所需的排名公式，然后单击 **[!UICONTROL Select]**.
+1. 选择所需的排名公式，然后单击 **[!UICONTROL 选择]**.
 
    ![](../assets/ranking-selection.png)
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 创建排名策略后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
-1. 创建决策或编辑现有决策。 请参阅 [创建决策](../offer-activities/create-offer-activities.md).
+1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
 1. 添加将包含您的选件的版面。 请参阅 [创建版面](../offer-library/creating-placements.md).
 
 1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
-1. 选择对选件进行排名 **[!UICONTROL AI ranking]** 从下拉列表中，单击 **[!UICONTROL Add ranking]**.
+1. 选择对选件进行排名 **[!UICONTROL 人工智能排名]** 从下拉列表中，单击 **[!UICONTROL 添加排名]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 单击 **[!UICONTROL Select]**. 排名策略现在与版面相关联。
+1. 单击&#x200B;**[!UICONTROL 选择]**。排名策略现在与版面相关联。
 
 如果多个选件符合条件，则经过培训的模型系统将确定应首先为给定版面显示哪个选件。
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用同意策略
-description: 了解如何使用Adobe Experience PL表单同意策略
+description: 了解如何使用Adobe Experience Platform同意策略
 feature: Actions
 topic: Administration
 role: Admin
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 35%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-通过Adobe Experience Platform，您可以轻松采用和实施营销策略，以尊重客户的同意偏好。 同意策略在Adobe Experience Platform中定义。 请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
+Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy).
 
-在Journey Optimizer中，您可以将这些同意策略应用于您的自定义操作。 例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
+在 Journey Optimizer 中，您可以将这些同意策略应用于自定义操作。例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 读取区段：检索到的区段会被考虑在内。
 * 自定义操作：同意管理考虑了所使用的属性([操作参数](../action/about-custom-action-configuration.md#define-the-message-parameters))以及定义的营销操作（必需的营销操作和其他营销操作）。
-* 不支持使用现成并集架构的字段组所包含的属性。 这些属性将在界面中隐藏。 您需要使用其他架构创建另一个字段组。
+* 不支持使用现成联合架构的字段组所包含的属性。这些属性在界面中处于隐藏状态。您需要使用其他架构创建另一个字段组。
 * 仅当在自定义操作级别设置营销操作（必需或其他操作）时，才应用同意策略。
 
 历程中使用的所有其他活动均不予考虑。 如果您以区段鉴别开始历程，则不会考虑该区段。
@@ -59,21 +59,21 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="定义必需的营销操作"
->abstract="“必需”营销操作允许您定义与自定义操作相关的营销操作。 例如，如果您使用该自定义操作发送电子邮件，则可以选择电子邮件定位。 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 无法在画布上修改此设置。"
+>abstract="使用必需的营销操作字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择电子邮件定位。 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 无法在画布上修改此设置。"
 
 配置自定义操作时，可使用两个字段进行同意管理。
 
-的 **渠道** 字段允许您选择与此自定义操作相关的渠道： **电子邮件**, **短信**&#x200B;或 **推送通知**. 它将预填充 **必需的营销操作** 字段，其中包含所选渠道的默认营销操作。 如果您选择 **其他**，则默认情况下不会定义营销操作。
+使用&#x200B;**渠道**&#x200B;字段，可选择与此自定义操作相关的渠道：**电子邮件**、**短信**&#x200B;或&#x200B;**推送通知**。所选渠道的&#x200B;**必需的营销操作**&#x200B;字段会预填充默认营销操作。如选择&#x200B;**其他**，则默认不会定义营销操作。
 
 ![](assets/consent1.png)
 
-的 **必需的营销操作** 允许您定义与自定义操作相关的营销操作。 例如，如果您使用该自定义操作发送电子邮件，则可以选择 **电子邮件定位**. 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 已选择默认营销操作，但您可以单击向下箭头，从列表中选择任何可用的营销操作。
+使用&#x200B;**必需的营销操作**&#x200B;字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择 **电子邮件定位**. 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 已选择默认营销操作，但您可以单击向下箭头，从列表中选择任何可用的营销操作。
 
 ![](assets/consent2.png)
 
 对于某些类型的重要通信（例如发送的用于重置客户端密码的事务型消息），您可能不希望应用同意策略。 然后，您将选择 **无** 在 **必需的营销操作** 字段。
 
-有关配置自定义操作的其他步骤，请参见 [此部分](../action/about-custom-action-configuration.md#consent-management).
+有关配置自定义操作的其他步骤，请参见[此部分](../action/about-custom-action-configuration.md#consent-management)。
 
 ### 构建历程 {#consent-journey}
 
@@ -92,13 +92,13 @@ There are two types of latency regarding the use of consent policies:
 >title="可视化将在运行时应用的同意策略"
 >abstract="营销操作引入了同意策略，这些策略将操作参数和单个配置文件同意值结合起来，以过滤掉用户。 单击要刷新的按钮，以获取这些策略的最新定义。"
 
-在历程中添加自定义操作时，多个选项允许您管理同意。 单击 **显示只读字段** 以显示所有参数。
+在历程中添加自定义操作时，多个选项允许您管理同意。 单击&#x200B;**显示只读字段**&#x200B;以显示所有参数。
 
-的 **渠道** 和 **必需的营销操作**，则配置自定义操作时定义的规则将显示在屏幕顶部。 您无法修改这些字段。
+配置自定义操作时定义的&#x200B;**渠道**&#x200B;和&#x200B;**必需的营销操作**&#x200B;将显示在屏幕顶部。您无法修改这些字段。
 
 ![](assets/consent4.png)
 
-您可以定义 **其他营销操作** 设置自定义操作类型。 这允许您定义此历程中自定义操作的用途。 除了所需的营销操作（通常特定于渠道）之外，您还可以定义其他营销操作，该操作将特定于此特定历程中的自定义操作。 例如：健身通讯、时事通讯、健身通讯等。 所需的营销操作和其他营销操作都将适用。
+您可以定义&#x200B;**其他营销操作**&#x200B;以设置自定义操作类型。这允许您定义此历程中自定义操作的用途。除了必需的营销操作（通常特定于渠道）之外，您还可以定义附加营销操作，该操作将特定于此历程中的自定义操作。例如：训练通信、新闻稿、健身通信等。必需的营销操作和附加营销操作都将适用。
 
 ![](assets/consent3.png)
 
@@ -118,4 +118,4 @@ The following data is taken into account for consent:
 >Please note that there can be a latency when updating the list of policies applied, refer to this [this section](../action/consent.md#important-notes).
 -->
 
-有关在历程中配置自定义操作的其他步骤，请参阅 [此部分](../building-journeys/using-custom-actions.md).
+有关在历程中配置自定义操作的其他步骤，请参阅[此部分](../building-journeys/using-custom-actions.md)。

@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | 版本ID | 字符串 | 历程版本的ID。 此id表示历程的标识 |
 | name | 字符串 | 历程的名称 |
 | 描述 | 字符串 | 历程描述 |
-| 版本 | 字符串 | 版本，表示为 `major`.`minor` |
+| version | 字符串 | 版本，表示为 `major`.`minor` |
 
 ## 个人资料 {#profile-field}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
 | ID | 字符串 | 用户档案标识符用于标识在历程中发送/使用的用户档案。 例如：foo@adobe.com。 |
-| 命名空间 | 字符串 | 此字段描述历程中使用的用户档案引用的命名空间。 例如：电子邮件、ECID |
+| namespace | 字符串 | 此字段描述在历程中使用的配置文件引用的命名空间。 例如：电子邮件、ECID |
 
 ## serviceEvents {#servicevents-field}
 

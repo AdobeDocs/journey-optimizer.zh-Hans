@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe会保留已知错误地址的更新列表，这些地址已证明对参与度和邮件声誉有害，并确保不会向他们发送电子邮件。 此列表在全局抑制列表中进行管理，该列表在所有Adobe客户中都是通用的。 全局禁止列表中包含的地址和域名将被隐藏。 投放报表中仅显示被排除的收件人数。
+>Adobe会保留已知错误地址的更新列表，这些地址已证实对参与度和邮件声誉有害，并确保不会向他们发送电子邮件。 此列表在全局抑制列表中进行管理，该列表在所有Adobe客户中都是通用的。 全局禁止列表中包含的地址和域名将被隐藏。 投放报表中仅显示被排除的收件人数。
 
 ## 为什么要列禁名单？ {#why-suppression-list}
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 如果您没有收到他们的反馈（例如垃圾邮件投诉、退回等） 因此，他们会降低你的声誉。 抑制列表可帮助您响应ISP的反馈。
 
-电子邮件地址被禁止的收件人会自动从消息投放中排除。 这将加快投放速度，因为错误率会对投放速度产生重大影响。
+电子邮件地址被禁止的收件人会自动从消息投放中排除。 这样可加快投放速度，因为错误率对投放速度有显著的影响。
 
 ## 禁止名单上有什么？ {#what-s-on-suppression-list}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->具有 **[!UICONTROL Suppressed]** 在消息发送过程中，状态将被排除。 因此，当 **历程报告** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL Sent]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
+>具有 **[!UICONTROL 隐藏]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
 >
 >了解 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
 
@@ -72,7 +72,7 @@ A **软退回** <!--or an **ignored** error--> 多次重试后，也会向抑制
 
 如果您继续向这些地址发送邮件，可能会影响您的投放率，因为它告知ISP您可能没有遵循电子邮件地址列表维护最佳实践，因此可能不是值得信赖的发件人。
 
-### 垃圾邮件投诉 {#spam-complaints}
+### 垃圾邮件投诉次数 {#spam-complaints}
 
 抑制列表会收集将您的消息标记为垃圾邮件的电子邮件地址。 例如，如果某人写信给客户服务部门，请求不再从您那里接收邮件，则该人的电子邮件地址将在您的实例中被禁止，您将无法再将邮件发送到该地址。
 

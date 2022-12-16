@@ -134,7 +134,7 @@ ht-degree: 11%
 
 键值是字段或字段组合，字段是事件有效负载数据的一部分，并允许系统标识与事件关联的人员。 键可以是Experience CloudID、CRM ID或电子邮件地址。
 
-要使用存储在Adobe实时客户资料数据库中的数据，事件键必须是您在 [实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}。
+要使用存储在Adobe实时客户资料数据库中的数据，事件键必须是您在 [实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 用户档案标识符允许系统执行事件与个人用户档案之间的协调。 如果您选择的架构具有主标识，则 **[!UICONTROL 用户档案标识符]** 和 **[!UICONTROL 命名空间]** 字段已预填充。 如果未定义身份，则 _identityMap > id_ 是主键。 然后，您必须选择命名空间，并且该键值会使用 _identityMap > id_.
 

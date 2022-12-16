@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 0%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 访问条件规则生成器 {#access}
 
-条件规则是从 **[!UICONTROL Conditions]** 表达式编辑器中的菜单，可访问该菜单的以下任一位置：
+条件规则是从 **[!UICONTROL 条件]** 表达式编辑器中的菜单，可访问该菜单的以下任一位置：
 
 * 在Email Designer中为电子邮件正文中的组件启用动态内容时。 [了解如何将动态内容添加到电子邮件中](dynamic-content.md#emails)
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 创建条件规则的步骤如下所示：
 
-1. 访问 **[!UICONTROL Conditions]** 菜单，然后单击 **[!UICONTROL Create new]**.
+1. 访问 **[!UICONTROL 条件]** 菜单，然后单击 **[!UICONTROL 新建]**.
 
 1. 根据需要构建条件规则。 要实现此目的，请将所需属性从左侧菜单拖放到画布中，并排列到画布中。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
    属性分为三个选项卡：
 
-   * **[!UICONTROL Profile]**:
-      * **[!UICONTROL Segment Membership]** 列出所有区段属性（即状态、版本等） 表示 [Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL XDM Individual profiles]** 列出与 [体验数据模型(XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 在Adobe Experience Platform中定义。
-   * **[!UICONTROL Contextual]**:在历程中使用消息时，上下文历程字段可通过此选项卡使用。
-   * **[!UICONTROL Audiences]**:列出从中创建的区段生成的所有受众 [Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL 配置文件]**:
+      * **[!UICONTROL 区段成员资格]** 列出所有区段属性（即状态、版本等） 表示 [Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+      * **[!UICONTROL XDM单个配置文件]** 列出与 [体验数据模型(XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 在Adobe Experience Platform中定义。
+   * **[!UICONTROL 情境]**:在历程中使用消息时，上下文历程字段可通过此选项卡使用。
+   * **[!UICONTROL 受众]**:列出从中创建的区段生成的所有受众 [Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. 条件规则准备就绪后，您可以将其添加到消息中以创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
 
@@ -79,9 +79,9 @@ ht-degree: 0%
 >
 >利用历程上下文属性的条件规则无法保存到库。
 
-1. 在条件编辑屏幕中，单击 **[!UICONTROL Save condition]** 按钮。
+1. 在条件编辑屏幕中，单击 **[!UICONTROL 保存条件]** 按钮。
 
-1. 为规则指定名称和描述（可选），然后单击 **[!UICONTROL Add]**.
+1. 为规则指定名称和描述（可选），然后单击 **[!UICONTROL 添加]**.
 
    ![](assets/conditions-name-description.png)
 

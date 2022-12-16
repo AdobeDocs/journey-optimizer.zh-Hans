@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 0%
+source-wordcount: '1738'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 通过单击 `>` 图标。 通过单击 `+` 图标：函数会自动添加到个性化屏幕中。
 
-单击 `...` 图标，以查看函数的描述并将其添加到收藏夹。 [了解更多](../personalize.md#fav)
+单击 `...` 图标，以查看函数的描述并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
 
 ## 函数{#functions-helper}
 
@@ -105,10 +105,10 @@ ht-degree: 0%
         <td><a href="dates.md#date-diff">日期差异</a></td><td>此函数以天为单位检索两个日期之间的差异</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">每周时间</a></td><td>此函数检索每周时间</td>
+        <td><a href="dates.md#day-week">每周的某一日</a></td><td>此函数检索每周时间</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">每年的某一日</a></td><td>此函数检索每年的某天</td>
+        <td><a href="dates.md#day-year">年中哪天</a></td><td>此函数检索每年的某天</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">格式日期</a></td><td>此函数可设置日期时间值的格式</td>
@@ -149,7 +149,7 @@ ht-degree: 0%
         <td><a href="objects.md#absolute">绝对</a></td><td>此函数将转换其绝对值的数字</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">随机</a></td><td>此函数返回一个介于0和1之间的随机值</td>
+        <td><a href="objects.md#random">Random</a></td><td>此函数返回一个介于0和1之间的随机值</td>
     </tr>
     <tr>
         <td><a href="objects.md#round-down">向下舍入</a></td><td>此函数对数字进行四舍五入</td>
@@ -186,7 +186,7 @@ ht-degree: 0%
         <td><a href="string.md#concat">Concat</a></td><td>此函数用于将两个字符串合并为一个</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">包含</a></td><td>此函数用于确定字符串是否包含指定的子字符串</td>
+        <td><a href="string.md#contains">Contains</a></td><td>此函数用于确定字符串是否包含指定的子字符串</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">不包含</a></td><td>此函数用于确定字符串是否不包含指定的子字符串</td>
@@ -304,7 +304,7 @@ ht-degree: 0%
         <td><a href="string.md#to-date-time-only">仅截止日期时间</a></td><td>此函数会将参数值转换为仅限日期时间的值。 它返回纪元日期作为无效输入的输出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">裁切</a></td><td>此函数从字符串的开头和结尾删除空格</td>
+        <td><a href="string.md#trim">修剪</a></td><td>此函数从字符串的开头和结尾删除空格</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">大写</a></td><td>此函数将字符串转换为大写字母</td>
@@ -318,7 +318,7 @@ ht-degree: 0%
 </table>
 
 
-## 帮助者{#helper-helper}
+## 辅助程序{#helper-helper}
 
 帮助者详见 [本页](helpers.md).
 
@@ -344,7 +344,7 @@ ht-degree: 0%
     </tr>
 </table>
 
-## 运算符{#operators-helper}
+## 操作员{#operators-helper}
 
 ### 算术函数 {#arithmetic-helper}
 
@@ -407,6 +407,6 @@ ht-degree: 0%
 
 ## 操作方法视频{#video}
 
-了解如何使用个性化帮助程序函数转换个性化值，并了解帮助程序函数的不同用例。
+了解如何使用个性化辅助函数转换个性化值以及辅助函数的不同用例。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

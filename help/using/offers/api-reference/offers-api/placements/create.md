@@ -1,5 +1,5 @@
 ---
-title: 创建版面
+title: 创建投放位置
 description: 版面是用于显示选件的容器。
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# 创建版面 {#create-placement}
+# 创建投放位置 {#create-placement}
 
 您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API格式**

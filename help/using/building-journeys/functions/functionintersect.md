@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 相交
+title: intersect
 description: 了解函数相交
 feature: Journeys
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
-# 相交{#intersect}
+# intersect{#intersect}
 
 返回两个输入列表中的公共值。 如果两个列表之一为空，则返回空列表。
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 列表1 | 列表 |
-| 列表2 | 列表 |
+| 列表1 | list |
+| 列表2 | list |
 
 ## 签名和返回的类型
 

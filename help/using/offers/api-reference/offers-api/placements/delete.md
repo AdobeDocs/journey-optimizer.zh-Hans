@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
-# 删除版面 {#delete-placement}
+# 删除投放位置 {#delete-placement}
 
-有时可能需要删除（删除）版面。 只能删除您在租户容器中创建的版面。 这是通过对 [!DNL Offer Library] 使用您要删除的版面的实例ID的API。
+有时可能需要删除(DELETE)版面。 只能删除您在租户容器中创建的版面。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的版面的实例ID的API。
 
 **API格式**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的响应会返回HTTP状态202（无内容）和空白正文。
 
-您可以尝试对版面进行查找(GET)请求以确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为已从容器中删除了版面。
+您可以通过尝试对版面进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为已从容器中删除了版面。

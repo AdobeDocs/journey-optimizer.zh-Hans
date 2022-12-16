@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: 过滤器
+title: filter
 description: 了解函数过滤器
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 过滤器{#filter}
+# filter{#filter}
 
 返回一个listObject，其对象具有与给定键值之一匹配的键属性。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 |-----------|------------------|------------------|
 | listToFilter | listObject | 要过滤的对象列表。 它必须是字段引用。 |
 | keyAttributeName | 字符串 | 给定列表对象中的属性名称，用作筛选的键 |
-| keyValueList | 列表 | 用于筛选的键值数组 |
+| keyValueList | list | 用于筛选的键值数组 |
 
 ## 签名和返回的类型
 

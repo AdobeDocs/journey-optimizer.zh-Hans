@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 0%
+source-wordcount: '2008'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >了解如何在 [此部分](../export-catalog/access-dataset.md).
 
-以下是可在 **[!UICONTROL Decision Object Repository - Personalized Offers]** 数据集。
+以下是可在 **[!UICONTROL 决策对象存储库 — 个性化选件]** 数据集。
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
-## _体验 {#experience}
+## _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
@@ -58,14 +58,14 @@ ht-degree: 0%
    **字段：** endDate
    **标题：** 结束日期和时间
    **描述：** 决策选项有效期的结束日期。 在决策过程中，无法再建议已超过其结束日期的选项。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **开始日期和时间**
 
    **字段：** startDate
    **标题：** 开始日期和时间
    **描述：** 决策选项有效期的开始日期。 尚未达到其开始日期的选项在决策过程中尚无法提议。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 #### _experience > decisioning >特征
 
@@ -93,7 +93,7 @@ ht-degree: 0%
    **字段：** _type
    **标题：** 内容组件类型
    **描述：** 枚举的URI集，其中每个值映射到给定给内容组件的类型。 内容表示的某些用户希望@type值作为对描述内容组件其他属性的架构的引用。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **_experience > decisioning >内容>组件> _dc**
 
@@ -106,7 +106,7 @@ ht-degree: 0%
       **字段：** 格式
       **标题：** 格式
       **描述：** 资源的物理或数字显示。 通常，格式应包括资源的媒体类型。 格式可用于确定显示或操作资源所需的软件、硬件或其它设备。 建议的最佳做法是从受控词汇中选择一个值(例如， [Internet媒体类型](http://www.iana.org/assignments/media-types/) 定义计算机媒体格式)。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** &quot;application/vnd.adobe.photoshop&quot;
 
    * **语言**
@@ -125,47 +125,47 @@ ht-degree: 0%
 
       **字段：** id
       **描述：** 用于引用内容存储库中资产的可选唯一标识符。 当使用Platform API检索表示形式时，客户端可能需要额外的属性\&quot;repo:resolveUrl\&quot;来检索资产。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** “urn”:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e”
 
    * **name**
 
       **字段：** name
       **描述：** 有关在何处查找通过\&quot;repo:id\&quot;存储外部资产的存储库的一些提示。
-      **类型：** 字符串
+      **类型：**&#x200B;字符串
 
    * **repositoryID**
 
       **字段：** repositoryID
       **描述：** 用于引用内容存储库中资产的可选唯一标识符。 当使用Platform API检索表示形式时，客户端可能需要额外的属性\&quot;repo:resolveUrl\&quot;来检索资产。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **字段：** resolveURL
       **描述：** 用于在内容存储库中读取资产的可选唯一资源定位器。 这样，客户就无需了解资产的管理位置以及要调用的API，即可更轻松地获取资产。 这类似于HAL链接，但语义更简单、目的更明确。
-      **类型：** 字符串
+      **类型：**字符串
       **示例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning >内容>组件>内容**
 
    **字段：** 内容
    **描述：** 可直接保存内容的可选字段。 组件可以直接保存简单内容，而不是在资产存储库中引用内容。 此字段不用于复合、复杂和二进制内容资产。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
    **字段：** deliveryURL
    **描述：** 用于从内容交付网络或服务端点获取资产的可选唯一资源定位器。 此URL用于由用户代理公开访问资产。
-   **类型：** 字符串
+   **类型：**字符串
    **示例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
    **字段：** linkURL
    **描述：** 用户交互的可选唯一资源定位器。 此URL用于在用户代理中将最终用户引荐至，并可进行跟踪。
-   **类型：** 字符串
+   **类型：**字符串
    **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisioning > contents > placement**
@@ -173,7 +173,7 @@ ht-degree: 0%
 **字段：** 投放
 **标题：** 版面
 **描述：** 要符合的版面。 值是所引用的选件版面的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/placement 。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
 #### _experience >决策>生命周期状态
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 **字段：** name
 **标题：** 决策选项名称
 **描述：** 各种用户界面中显示的选项名称。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
 #### _experience > decisioning > profileConstraints
 
@@ -202,14 +202,14 @@ ht-degree: 0%
 **字段：** 描述
 **标题：** 描述
 **描述：** 配置文件约束描述。 它用于传达人类可读的意图，说明如何构建此用户档案约束以及/或该用户档案约束将包含或排除哪个选项。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
 **_experience > decisioning > profileConstraints >资格规则**
 
 **字段：** igilityRule
 **标题：** 资格规则
 **描述：** 对决策规则的引用，该规则对给定配置文件和/或其他给定上下文XDM对象的计算结果为true或false。 该规则用于确定选项是否符合给定用户档案的条件。 该值是引用的决策规则的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rule 。
-**类型：** 字符串
+**类型：**&#x200B;字符串
 
 **_experience > decisioning > profileConstraints >配置文件约束类型**
 
@@ -236,7 +236,7 @@ ht-degree: 0%
    **字段：** _id
    **标题：** 标识符
    **描述：** 相关命名空间中区段的标识。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **命名空间**
 
@@ -251,14 +251,14 @@ ht-degree: 0%
       **字段：** 代码
       **标题：** 代码
       **描述：** 该代码是命名空间的人类可读标识符，可用于请求用于身份图处理的技术命名空间ID。
-      **类型：** 字符串
+      **类型：**&#x200B;字符串
 
 * **体验标识符**
 
    **字段：** xid
    **标题：** 体验标识符
    **描述：** 如果存在，则此值表示跨命名空间标识符，该标识符在所有命名空间中所有命名空间范围内的标识符都是唯一的。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 #### _experience >决策>排名
 
@@ -279,14 +279,14 @@ ht-degree: 0%
    **字段：** 函数
    **标题：** 评分功能
    **描述：** 对函数的引用，该函数计算此决策选项的数值分数。 然后，将根据该分数对决策选项进行排序（排名）。 此属性的值是要一次通过on选项调用的函数的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/function 。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 * **订单评估类型**
 
    **字段：** orderEvaluationType
    **标题：** 订单评估类型
    **描述：** 指定使用哪种顺序评估机制、决策选项的静态优先级、计算每个选项的数值的评分函数或接收列表以对其进行排序的排名策略。
-   **类型：** 字符串
+   **类型：**字符串
    **可能值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
 
 * **排名策略**
@@ -294,7 +294,7 @@ ht-degree: 0%
    **字段：** rankingStrategy
    **标题：** 排名策略
    **描述：** 对决策选项列表进行排名的策略的引用。 决策选项将在有序列表中返回。 此属性的值是要一次通过on选项调用的函数的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rankingStrategy 。
-   **类型：** 字符串
+   **类型：**&#x200B;字符串
 
 **_experience > decisioning >排名>优先级**
 
@@ -324,4 +324,4 @@ ht-degree: 0%
 **字段：** etag
 **标题：** 决策选项ETag
 **描述：** 拍摄快照时，决策选项对象所在的修订版本。
-**类型：** 字符串
+**类型：**&#x200B;字符串
