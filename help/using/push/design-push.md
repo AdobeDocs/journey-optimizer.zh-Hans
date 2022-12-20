@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 9%
 
 使用设备预览部分可视化推送通知在iOS和Android设备上的显示方式。
 
-## 点击行为 {#on-click-behavior}
+## 单击行为 {#on-click-behavior}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
->title="关于点击行为"
+>title="关于单击行为"
 >abstract="选择收件人单击推送通知正文时的行为。"
 
 您可以选择用户单击推送通知正文时的行为。
@@ -74,11 +74,11 @@ ht-degree: 9%
 
 ![](assets/push_buttons.png)
 
-## 发送无提示通知 {#silent-notification}
+## 发送静默通知 {#silent-notification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
->title="关于无提示通知"
+>title="关于静默通知"
 >abstract="在不干扰用户的情况下发送通知，通知不会显示在通知中心或通知栏中。"
 
 无提示推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，它用于通知您的应用程序新内容的可用性或在后台启动下载。
