@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1577'
 ht-degree: 11%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 11%
    >在定义 **[!UICONTROL 事件ID条件]**. 在简单的表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字段的字符串类型，可以使用“包含”或“等于”。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
+
 1. 定义用户档案标识符：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的人员。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
 
    ![](assets/jo-event7.png)
@@ -123,12 +124,15 @@ ht-degree: 11%
 
 ![](assets/primary-identity.png)
 
-
 从下拉列表中选择一个命名空间。
 
 ![](assets/journey17.png)
 
 每个历程只允许一个命名空间。 如果您在同一历程中使用多个事件，则它们需要使用相同的命名空间。 请参阅[此页](../building-journeys/journey.md)。
+
+>[!NOTE]
+>
+>您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间(例如：产品查找的产品ID命名空间)，则该命名空间将在 **命名空间** 下拉列表。
 
 ## 定义用户档案标识符 {#define-the-event-key}
 

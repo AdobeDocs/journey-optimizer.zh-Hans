@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1328'
 ht-degree: 12%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >属于某个区段、且其不同身份之间没有选定身份（命名空间）的个人无法进入历程。
+   >属于某个区段、且其不同身份之间没有选定身份（命名空间）的个人无法进入历程。 您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间(例如：产品查找的产品ID命名空间)，则该命名空间将在 **命名空间** 下拉列表。
 
 1. 设置 **[!UICONTROL 节流速率]** 字段，以限制读取区段活动的吞吐量。
 

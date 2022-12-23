@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -79,6 +79,16 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 * 在历程中使用条件时， [了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * 在消息个性化中， [了解更多](../event/experience-event-schema.md#message_personalization)
 * 在自定义操作个性化中， [了解更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### 数组{#relationships_limitations}
+
+您可以在字符串数组上定义架构关系，例如产品ID列表。
+
+![](assets/schema15.png)
+
+但是，您不能定义与对象数组内属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 查询值在历程中将不可用（条件、自定义操作等） 和邮件个性化。
+
+![](assets/schema16.png)
 
 ### 事件配置{#unitary_event_configuration}
 

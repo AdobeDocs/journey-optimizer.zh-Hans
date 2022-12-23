@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 55%
+source-wordcount: '924'
+ht-degree: 53%
 
 ---
 
@@ -66,6 +66,10 @@ ht-degree: 55%
    >请注意 **[!UICONTROL 输入]** 和 **[!UICONTROL 退出]** 与 **已实现** 和 **已退出** 区段参与状态。Adobe Experience Platform 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}。
 
 1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
+
+   >[!NOTE]
+   >
+   >您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间(例如：产品查找的产品ID命名空间)，则该命名空间将在 **命名空间** 下拉列表。
 
    ![](assets/segment7.png)
 

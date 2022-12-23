@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 55%
+source-wordcount: '975'
+ht-degree: 51%
 
 ---
 
@@ -57,7 +57,9 @@ ht-degree: 55%
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 
-Journey Optimizer要求将事件流式传输或批量传输到Adobe Experience Platform。 此数据不一定需要转至实时用户档案。如果要在单独的历程中使用事件进行分段或查找，我们建议您为用户档案启用数据集。
+>[!NOTE]
+>
+>Journey Optimizer要求将事件流式传输到数据收集核心服务(DCCS)才能触发历程。 批量摄取的事件或来自内部Journey Optimizer数据集（消息反馈、电子邮件跟踪等）的事件 无法用于触发历程。 对于无法获取流式处理事件的用例，请根据这些事件构建一个区段，然后使用 **读取区段** 活动。 从技术上讲，区段鉴别可以使用，但可能会根据使用的操作在下游造成挑战。 此数据不一定需要转至实时用户档案。如果要在单独的历程中使用事件进行分段或查找，我们建议您为用户档案启用数据集。
 
 ## 数据周期 {#data-cycle}
 
