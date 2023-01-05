@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # 登陆页面实时报表 {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="登陆页面实时报表"
+>abstract="登陆页面实时报表允许您实时测量和可视化仅在过去24小时内登陆页面的影响和性能。 您的报表被划分为不同的小组件，用于详细描述登陆页面成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
 
 登陆页面 **[!UICONTROL 实时报表]** 报表仅显示有关过去24小时内登陆页面影响的详细信息。 要测量选定时间段内的登陆页面数据，请参阅 [登陆页面全局报表](lp-report-global.md).
 

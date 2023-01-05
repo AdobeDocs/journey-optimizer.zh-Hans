@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 1%
 
 ---
 
 # 历程实时报告 {#journey-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="历程实时报告"
+>abstract="历程实时报告仅允许您实时测量和可视化过去24小时内历程的影响和性能。 您的报告分为不同的小组件，用于详细描述历程的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
 
 历程实时报表可直接从您的历程中通过 **[!UICONTROL 查看报表]** 按钮。
 

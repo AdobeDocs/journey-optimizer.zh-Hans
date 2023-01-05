@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # 登陆页面全局报表 {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="登陆页面全局报表"
+>abstract="登陆页面全局报表允许您测量选定时间段内登陆页面的影响。 您的报表被划分为不同的小组件，用于详细描述登陆页面成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
 
 登陆页面 **[!UICONTROL 全局报告]** 报表显示有关选定时间段内登陆页面影响的详细信息。 要仅测量过去24小时内的登陆页面数据，请参阅 [登陆页面实时报表](lp-report-live.md).
 

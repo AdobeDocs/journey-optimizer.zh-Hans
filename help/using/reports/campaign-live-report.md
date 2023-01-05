@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
 # 营销活动实时报告 {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="营销活动实时报告"
+>abstract="营销活动实时报表允许您实时测量和可视化仅在过去24小时内的营销活动影响和绩效。 您的报告分为不同的小组件，用于详细说明营销活动的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
 
 营销活动实时报告可通过 **[!UICONTROL 实时视图]** 按钮。
 
@@ -25,7 +30,6 @@ ht-degree: 3%
 * [电子邮件](#email-live)
 * [推送](#push-live)
 * [短信](#sms-live)
-
 
 营销活动 **[!UICONTROL 实时报表]** 会被分为不同的小组件，用于详细说明营销活动的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/live-report.md#modify-dashboard).
 

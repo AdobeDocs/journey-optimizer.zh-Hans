@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
 
 # 营销活动全局报告 {#campaign-global-report}
 
-营销活动全局报告可直接通过 **[!UICONTROL 所有时间]** 按钮。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="营销活动全局报告"
+>abstract="营销活动全局报表允许测量选定时间段内营销活动的影响。 您的报告分为不同的小组件，用于详细说明营销活动的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
+
+可通过 **[!UICONTROL 查看报表]** 按钮。
 
 ![](assets/campaign_report_global_5.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '973'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,21 @@ ht-degree: 3%
 了解有关 [此部分](../administration/high-low-permissions.md).
 
 ## 创建规则 {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="选择消息规则类别"
+>abstract="激活并应用于消息后，所有与选定类别匹配的频率规则将自动应用于此消息。 目前只有营销类别可用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="为规则设置上限"
+>abstract="指定每月发送给客户用户档案的消息数上限。 频度上限将基于每月日历期，并将在每月初重置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="定义规则所应用的渠道"
+>abstract="至少选择一个渠道。 以总计数形式跨渠道应用上限。"
 
 要创建新规则，请执行以下步骤。
 
@@ -115,26 +130,23 @@ ht-degree: 3%
 
 要将频度规则应用于消息，请执行以下步骤。
 
-1. 通过选择您为规则定义的渠道之一来创建消息。
+1. 创建 [历程](../building-journeys/journey-gs.md)，通过选择您为规则定义的渠道之一来添加消息。
 
 1. 选择为 [创建的规则](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >当前仅 **[!UICONTROL 营销]** 类别可用于消息频度规则。
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. 您可以单击 **[!UICONTROL 频度规则]** 链接以查看新选项卡中的频度规则屏幕。 [了解详情](#access-rules)
 
-1. 与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
+   与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
 
    >[!NOTE]
    >
-   >消息 <!--that do not have any selected category or messages -->其中，选定类别为 **[!UICONTROL 事务型]** 将不会根据频度规则进行评估。
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >选择类别的消息 **[!UICONTROL 事务型]** 将不会根据频度规则进行评估。
 
 1. 您可以在 [全局报告](../reports/global-report.md)和 [实时报表](../reports/live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
 

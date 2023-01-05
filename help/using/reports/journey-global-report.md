@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
 
 # 历程全局报告 {#journey-global-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="历程全局报告"
+>abstract="历程全局报告允许您测量选定时间段内历程的影响。 您的报告分为不同的小组件，用于详细描述历程的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
 
 历程全局报告可直接从您的历程(使用 **[!UICONTROL 查看报表]** 按钮。
 
