@@ -6,9 +6,9 @@ description: 作为系统管理员，了解有关如何使用 Journey Optimizer 
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 92%
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。**沙盒**&#x200B;在 [!DNL Journey Optimizer] 中创建。在[沙盒](../../administration/sandboxes.md)部分了解详情。
 
    >[!NOTE]
-   >As a **系统管理员**，如果您看不到 **[!UICONTROL 沙箱]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
+   >作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
 
 1. **了解产品配置文件**。产品配置文件是一组单一的权利，允许用户访问界面中的特定功能或对象。在[开箱即用的产品配置文件](../../administration/ootb-product-profiles.md)中了解详情。
 
-1. 为产品配置文件（包括&#x200B;**沙箱**）**设置权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。此步骤在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
+1. 为产品配置文件（包括&#x200B;**沙箱**）**设置权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。此步骤在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中执行。权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
 
 此外，还须将需要访问 Assets Essentials 的用户添加到 **Assets Essentials Consumer Users** 或/和 **Assets Essentials Users** 产品配置文件中。[详情请参阅 Assets Essentials 文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
@@ -42,7 +42,7 @@ ht-degree: 92%
 要创建您的历程并发送消息，请访问&#x200B;**管理**&#x200B;菜单。浏览&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单以配置消息和渠道界面（即消息预设）。
 
 >[!NOTE]
->As a **系统管理员**，如果您看不到 **[!UICONTROL 渠道]** 菜单 [!DNL Journey Optimizer]，在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
+>作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
 
 请遵循以下步骤：
 
