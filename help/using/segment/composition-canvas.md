@@ -143,7 +143,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="控制组"
+>title="对照组"
 >abstract="使用控制组隔离部分配置文件。 这允许您衡量营销活动的影响，并与其他群体的行为进行比较。"
 
 >[!CONTEXTUALHELP]
