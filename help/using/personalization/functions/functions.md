@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 3%
 
 ---
@@ -146,22 +146,22 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">绝对</a></td><td>此函数将转换其绝对值的数字</td>
+        <td><a href="math.md#absolute">绝对</a></td><td>此函数将转换数字的绝对值</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>此函数返回一个介于0和1之间的随机值</td>
+        <td><a href="math.md#random">Random</a></td><td>此函数返回一个介于0和1之间的随机值</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">向下舍入</a></td><td>此函数对数字进行四舍五入</td>
+        <td><a href="math.md#round-down">向下舍入</a></td><td>此函数对数字进行四舍五入</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">向上舍入</a></td><td>此函数会舍入一个数字</td>
+        <td><a href="math.md#round-up">向上舍入</a></td><td>此函数会舍入一个数字</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">至百分比</a></td><td>此函数将数字转换为百分比</td>
+        <td><a href="math.md#to-percentage">至百分比</a></td><td>此函数将数字转换为百分比</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">精度</a></td><td>此函数将数字转换为所需的精度</td>
+        <td><a href="math.md#to-precision">精度</a></td><td>此函数将数字转换为所需的精度</td>
     </tr>
 </table>
 
@@ -325,7 +325,7 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">默认回退值</a></td><td>此函数允许呈现默认为的变量</td>
+        <td><a href="helpers.md#default">默认回退值</a></td><td>此函数用于呈现默认的变量</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">每个</a></td><td>此函数用于在数组上迭代</td>
