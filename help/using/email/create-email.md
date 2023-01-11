@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '834'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!ENDTABS]
 
 ## 定义电子邮件内容 {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="配置电子邮件内容"
+>abstract="创建电子邮件的内容。 定义其主题，然后利用Email Designer构建和个性化电子邮件的正文。"
 
 1. 在历程或营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置电子邮件内容。 [了解详情](get-started-email-design.md)
 
