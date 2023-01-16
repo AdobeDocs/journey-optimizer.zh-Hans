@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-### 电子邮件和短信量度 {#email-and-sms-metrics}
+### 电子邮件和短信维度和量度 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ ht-degree: 4%
    <td>访问次数<br/> </td> 
    <td>登陆页面的访问次数，包括一个收件人的多次访问。<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### 推送通知量度
-
-<table> 
- <thead> 
-  <tr> 
-   <th> 量度<br/> </th> 
-   <th> 定义<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>操作<br/> </td> 
-   <td> 已送达推送通知的操作总数，例如按钮单击或解除。<br/> </td> 
-</tr>
-  <tr> 
-   <td>退信数<br/> </td> 
-   <td> 在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 跳出率<br/> </td> 
-   <td> 与发送的推送通知相比，已退回的推送通知的百分比。<br/> </td>
-</tr>
-  <tr> 
-   <td> 已送达<br/> </td> 
-   <td> 已成功发送的消息数，与已发送消息的总数有关。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 投放率<br/> </td> 
-   <td> 成功发送推送通知的百分比。<br/> </td> 
-</tr>
-  <tr> 
-   <td>参与<br/> </td> 
-   <td> 此推送通知的打开和操作总数，例如用户档案打开推送或单击按钮时。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 参与率<br/> </td> 
-   <td> 此推送通知的打开次数和操作的百分比，例如用户档案打开了推送或单击了按钮。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 错误<br/> </td> 
-   <td> 投放期间发生的阻止将其发送到用户档案的错误总数。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 错误率<br/> </td> 
-   <td> 与发送的推送通知相比，在阻止发送投放的投放期间发生的错误百分比。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 排除<br/> </td> 
-   <td> 已被Adobe Journey Optimizer排除的用户档案数。<br/> </td> 
-</tr>
-  <tr> 
-   <td> 打开次数<br/> </td> 
-   <td> 用户交付到设备并点击的推送通知总数，从而打开应用程序。 这类似于推送点击，除非取消通知后不会触发推送打开。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 打开率<br/> </td> 
-   <td> 打开的推送通知的百分比。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 已发送<br/> </td> 
-   <td> 投放的发送总数。<br/> </td> 
-</tr> 
-  <tr> 
-   <td> 目标<br/> </td> 
-   <td> 在投放分析期间处理的推送消息总数。<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
