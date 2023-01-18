@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 3%
@@ -75,7 +75,7 @@ curl -X POST \
                 }
                 ]
             },
-            "xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"
+            "xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"
             }
         ],
         "xdm:allowDuplicatePropositions": {
@@ -110,7 +110,7 @@ curl -X POST \
 | `xdm:itemCount` | 要返回的选件数。 最大数为30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此对象包含有关请求决策的用户档案的信息。 对于API请求，此配置文件将包含一个配置文件。 |
 | `xdm:profiles.xdm:identityMap` | 此对象基于身份的命名空间集成代码包含一组最终用户身份。 标识映射可以携带每个命名空间的多个标识。 有关命名空间的更多信息，请参阅[此页面](../../../segment/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
-| `xdm:profiles.xdm:decisionRequestId` | 由客户端生成的ID，可用于唯一标识用户档案决策请求。 此ID在响应中回复，不影响决策的结果。 | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
+| `xdm:profiles.xdm:decisionRequestId` | 由客户端生成的ID，可用于唯一标识用户档案决策请求。 此ID在响应中回复，不影响决策的结果。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | 此对象是重复数据消除规则的控制结构。 它由一系列标记组成，这些标记指示是否可以在特定维度中提出相同的选项。 设置为true的标记表示允许重复项，且不应在标志指示的类别中删除。 设置为false的标记表示决策引擎不应在整个维度中提出相同的建议，而是为其中一个子决策选择下一个最佳选项。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 如果设置为true，则可能会为多个决策分配相同的选项。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 如果设置为true，则可能会为多个版面分配相同的选项。 | `"xdm:acrossPlacements": true` |
