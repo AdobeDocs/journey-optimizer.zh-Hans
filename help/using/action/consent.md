@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用同意策略
 description: 了解如何使用Adobe Experience Platform同意策略
-feature: Data Governance
+feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
 keywords: 政策，治理，平台，医疗保健盾，同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 35%
