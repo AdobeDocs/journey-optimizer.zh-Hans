@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: a5b49f113fa0f1375f74368a63ea19789f3798c2
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 26%
 >
 >您不能使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和来自其他产品，例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage].
 
-## 为什么要设置子域？ {#why-setting-up-subdomains}
+## 为何设置子域？ {#why-set-up-subdomains}
 
 子域是域的一个分支，可用于隔离您的品牌或各种类型的流量（例如交易消息和营销通信）。
 
