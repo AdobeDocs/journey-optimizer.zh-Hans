@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 与 Adobe Campaign v7/v8 集成
-description: 了解如何与Adobe Campaign v7/v8集成
+description: 了解如何将Journey Optimizer与Adobe Campaign v7/v8集成
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '501'
 ht-degree: 5%
 
 ---
@@ -44,7 +45,7 @@ Journey Optimizer实例和Campaign实例之间的连接是在预配时Adobe设�
 
 ## 先决条件 {#prerequisites}
 
-在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅 [Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}。
+在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅 [Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 您可以按照以下模式构建与每个消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您将粘贴此有效负载（请参阅下文）
 

@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 管理用户和产品配置文件
-description: 了解如何管理权限
+description: 了解如何管理用户和产品配置文件
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+keywords: 产品，配置文件，沙盒
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '838'
 ht-degree: 6%
 
 ---
@@ -99,7 +100,7 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer] 允许您创建自己的 **[!UICONTROL 产品配置文件]** 并为用户分配一组权限和沙箱。 使用 **[!UICONTROL 产品配置文件]**，则可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
 
 在本例中，我们将创建一个名为 **历程只读** 我们将为历程功能授予只读权限。 用户将只能访问和查看历程，并且将无法访问其他功能，例如 **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 

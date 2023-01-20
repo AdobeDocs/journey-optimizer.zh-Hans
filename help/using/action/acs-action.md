@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 与 Adobe Campaign Standard 集成
-description: 了解如何与Adobe Campaign Standard集成
+description: 了解如何将Journey Optimizer与Adobe Campaign Standard集成
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: 营销活动，标准，集成，封顶，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '433'
 ht-degree: 5%
 
 ---

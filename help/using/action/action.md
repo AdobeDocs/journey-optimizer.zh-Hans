@@ -5,12 +5,13 @@ title: 关于操作
 description: 了解如何配置操作
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: 操作，历程，消息，发送，连接
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '255'
 ht-degree: 46%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 46%
 
 如果您拥有Adobe Campaign v7或v8，则集成可应请求提供。 请参见[此页面](../action/acc-action.md)。
 
-如果您使用第三方系统来发送消息，例如Epsilon、Facebook、 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等，您需要添加和配置自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
+如果您使用第三方系统来发送消息，例如Epsilon、Facebook、 [Adobe Developer](https://developer.adobe.com){target="_blank"}、 Firebase等，则需要添加和配置自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
 通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 

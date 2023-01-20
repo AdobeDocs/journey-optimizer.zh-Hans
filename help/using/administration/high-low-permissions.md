@@ -2,14 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 权限级别
-description: 了解高级和低级权限
+description: 了解允许用户访问不同功能的高级和低级权限。
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Architect, Developer
+level: Experienced
+keywords: 权限，高级，低级别，配置文件，管理控制台
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---

@@ -5,12 +5,13 @@ title: 沙盒管理
 description: 了解如何管理沙箱
 feature: Sandboxes
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Architect, Developer
+level: Experienced
+keywords: 沙箱，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 53%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 53%
 沙箱通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙箱](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙箱。
-可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
 
 您可以在屏幕右上方找到您的组织名称旁边的沙盒切换器控件。 要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
 
@@ -35,7 +36,7 @@ ht-degree: 53%
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关此内容的更多信息，请参阅 [管理控制台文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}。
+> 沙箱管理只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关此内容的更多信息，请参阅 [管理控制台文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
 您可以选择为现成或自定义沙箱分配不同的沙箱 **[!UICONTROL 产品配置文件]**.
 
@@ -53,7 +54,7 @@ ht-degree: 53%
 
    ![](assets/sandbox_2.png)
 
-1. 在 **[!UICONTROL 可用权限项]**，单击加号(+)图标，将沙箱分配给用户档案。 [了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+1. 在 **[!UICONTROL 可用权限项]**，单击加号(+)图标，将沙箱分配给用户档案。 [了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
@@ -71,7 +72,7 @@ ht-degree: 53%
 
 请注意，要使内容与正确的沙箱同步，您必须遵循与沙箱相同的语法，例如，如果沙箱命名为“development”，则共享文件夹应具有相同的名称。
 
-[了解如何管理共享文件夹](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}。
+[了解如何管理共享文件夹](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## 操作方法视频{#video}
 

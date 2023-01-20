@@ -6,11 +6,12 @@ description: 了解如何配置自定义操作
 feature: Actions
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
+keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1048'
 ht-degree: 6%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 6%
 >title="自定义操作"
 >abstract="如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon，Slack, [Adobe Developer](https://developer.adobe.com)、Firebase等"
 
-如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon，Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase等。
+如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon，Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等
 
 自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，这些组件会显示在历程的左侧面板(位于 **[!UICONTROL 操作]** 类别。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
 
