@@ -3,12 +3,13 @@ product: journey optimizer
 title: replaceAll
 description: 了解函数replaceAll
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: replaceAll，函数，表达式，历程
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '109'
 ht-degree: 10%
 
 ---

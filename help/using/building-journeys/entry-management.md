@@ -6,11 +6,12 @@ description: 了解如何管理用户档案条目
 feature: Journeys
 role: User
 level: Intermediate
+keywords: 重新进入，历程，用户档案，循环
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 23%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 23%
 
 ![](assets/journey-re-entrance.png)
 
-历程结束时，其状态为 **[!UICONTROL 已关闭]**. 新个人不能再进入历程。 已在历程中的人员正常完成历程。
+历程结束时，其状态为 **[!UICONTROL 已关闭]**. 新人不能再进入历程。 已在历程中的人员正常完成历程。
 
 在默认的全局超时为30天后，历程将切换到 **已完成** 状态。  [了解详情](journey-gs.md#global_timeout)。
 

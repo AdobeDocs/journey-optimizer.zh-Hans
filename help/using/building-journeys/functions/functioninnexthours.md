@@ -3,12 +3,13 @@ product: journey optimizer
 title: inNextHours
 description: 了解inNextHours的函数
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: inNextHours，函数，表达式，历程
 exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '48'
 ht-degree: 18%
 
 ---

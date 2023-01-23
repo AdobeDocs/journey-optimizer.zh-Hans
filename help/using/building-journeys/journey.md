@@ -6,10 +6,11 @@ description: 历程入门
 feature: Journeys
 role: User
 level: Beginner
+keywords: 历程，发现，快速入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '580'
 ht-degree: 29%
 
 ---
@@ -68,7 +69,7 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 在历程列表中，所有历程版本均显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
-当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版界面的顶部，画布上方。
+当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版本界面的顶部画布上方。
 
 ![](assets/journeyversions1.png)
 

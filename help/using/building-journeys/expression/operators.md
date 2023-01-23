@@ -4,13 +4,14 @@ product: journey optimizer
 title: 操作员
 description: 了解高级表达式中的运算符
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 表达式，语法，运算符，编辑器，历程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 7%
+source-wordcount: '458'
+ht-degree: 6%
 
 ---
 

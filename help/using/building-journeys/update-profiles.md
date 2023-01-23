@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 用户档案，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: '474'
+ht-degree: 2%
 
 ---
 
@@ -72,6 +73,6 @@ ht-degree: 0%
 
 在测试模式下，将不模拟用户档案更新。 将对测试用户档案执行更新。
 
-只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用 **更新用户档案** 操作活动，并将测试用户档案布尔字段从false更改为true。
+只有测试配置文件才能进入处于测试模式的历程。您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用来更新用户档案属性。 更简单的方法是使用 **更新用户档案** 操作活动，并将测试用户档案布尔字段从false更改为true。
 
 有关如何将现有用户档案转换为测试用户档案的更多信息，请参阅此 [部分](../segment/creating-test-profiles.md#create-test-profiles-csv).

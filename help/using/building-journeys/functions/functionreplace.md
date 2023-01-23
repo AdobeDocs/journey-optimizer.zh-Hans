@@ -3,12 +3,13 @@ product: journey optimizer
 title: replace
 description: 了解函数替换
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 替换，函数，表达式，历程
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '150'
 ht-degree: 10%
 
 ---

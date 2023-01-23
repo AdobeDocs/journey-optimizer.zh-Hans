@@ -3,12 +3,13 @@ product: journey optimizer
 title: inLastMonths
 description: 了解LastMonths中的函数
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: inLastMonths，函数，表达式，历程
 exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '48'
 ht-degree: 18%
 
 ---

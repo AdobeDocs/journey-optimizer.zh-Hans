@@ -6,10 +6,11 @@ description: 了解历程如何在Journey Optimizer结束
 feature: Journeys
 role: User
 level: Beginner
+keywords: 重新进入、历程、结束、实时、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---

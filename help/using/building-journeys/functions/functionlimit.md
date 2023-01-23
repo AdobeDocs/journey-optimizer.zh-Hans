@@ -3,13 +3,14 @@ product: journey optimizer
 title: limit
 description: 了解函数限制
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 限制，函数，表达式，历程
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 7%
+source-wordcount: '156'
+ht-degree: 8%
 
 ---
 

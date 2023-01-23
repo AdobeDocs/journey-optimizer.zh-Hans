@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 测试，历程，检查，错误，疑难解答
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 2%
+source-wordcount: '1553'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 在发布历程之前，使用测试用户档案对历程进行测试。 利用此模式，可运行历程测试并使用测试用户档案识别问题。
 
-只有测试用户档案才能在测试模式下进入历程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在 [此部分](../segment/creating-test-profiles.md).
+只有测试配置文件才能进入处于测试模式的历程。您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 在 [此部分](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >

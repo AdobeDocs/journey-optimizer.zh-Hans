@@ -4,13 +4,14 @@ product: journey optimizer
 title: 语法
 description: 了解高级表达式编辑器
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 4%
 
 ---
 
