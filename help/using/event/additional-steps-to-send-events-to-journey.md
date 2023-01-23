@@ -7,8 +7,9 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 步骤，配置，历程，事件，流， API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 5%
@@ -19,7 +20,7 @@ ht-degree: 5%
 
 配置要发送到的事件 **[!UICONTROL 流式引入API]** 和 [!DNL Journey Optimizer]，则需要执行以下步骤：
 
-1. 从Adobe Experience Platform API获取入口URL。 在 [流摄取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+1. 从Adobe Experience Platform API获取入口URL。 在 [流摄取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}.
 1. 从 **[!UICONTROL 事件]** 菜单。 请参阅[此页面](../event/about-creating.md#define-the-payload-fields)以了解详情。
 
 然后，您需要配置数据系统，以使用您复制的有效负载将事件推送到流摄取API:
@@ -87,6 +88,6 @@ ht-degree: 5%
 }
 ```
 
-为便于确定粘贴“数据”部件的位置，您可以使用JSON可视化工具，例如 [JSON格式化程序](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}。
+为便于确定粘贴“数据”部件的位置，您可以使用JSON可视化工具，例如 [JSON格式化程序](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-要对流摄取API进行故障诊断，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}。
+要对流摄取API进行故障诊断，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: 库，图像，集成，照片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 的 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] Email Designer集成插件为客户提供了一种导航、许可和保存图像以用于消息创作的简便方法。
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以授权资产，或仅为所需资产购买一个Standard或Extended许可证。 Adobe Stock还提供免费的资产集合。
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以授权资产，或仅为所需资产购买一个Standard或Extended许可证。 Adobe Stock还提供免费的资产集合。
 
 使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] 并将其添加到 **[!UICONTROL 资产]** 文件夹 **[!UICONTROL 查找Adobe Stock照片]** 选项。 此外， **[!UICONTROL 查找类似的库存照片]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
 
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 的 **[!UICONTROL 查找Adobe Stock照片]** 和 **[!UICONTROL 查找相似图像]** 用户有权访问AEM Assets Essentials产品配置文件。
 
-有关更多信息，请参阅 [资产基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}。
+有关更多信息，请参阅 [资产基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## 插入图像 [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ ht-degree: 1%
 
    此购买取决于您的Adobe Stock计划或订阅。 请注意，如果您有多个Adobe Stock帐户，则会被重定向到上次使用的股票ID。 在这种情况下，请确保您在获得资产许可之前已登录到正确的帐户。
 
-   有关Adobe Stock计划和价格的更多信息，请参阅 [Adobe Stock文档](https://stock.adobe.com/plans){target=&quot;_blank&quot;}。
+   有关Adobe Stock计划和价格的更多信息，请参阅 [Adobe Stock文档](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > 如果发送了包含未授权图像的电子邮件，则图像会保留其未授权的表单，并带有水印。
@@ -102,5 +103,5 @@ ht-degree: 1%
 
 * [Journey Optimizer中的电子邮件设计](get-started-email-design.md)
 * [电子邮件设计的组件设置](content-components.md)
-* [Adobe Stock快速入门](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}。
+* [Adobe Stock快速入门](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

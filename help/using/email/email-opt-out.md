@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 85%
+source-wordcount: '1037'
+ht-degree: 79%
 
 ---
 
@@ -59,7 +60,7 @@ ht-degree: 85%
 
 ### 为选择退出实施 API 调用 {#opt-out-api}
 
-要在收件人从登陆页面提交选择时为其完成选择退出，您必须通过 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} 实施&#x200B;**订阅 API 调用**&#x200B;以更新相应用户档案的偏好设置。
+要在收件人从登陆页面提交其选择时选择退出，您必须实施 **订阅API调用** 至 [Adobe Developer](https://developer.adobe.com){target="_blank"} 更新相应用户档案的首选项。
 
 此 POST 调用如下：
 
@@ -97,7 +98,7 @@ ht-degree: 85%
 }
 ```
 
-[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API 调用更新相应用户档案的选择。
+[!DNL Journey Optimizer] 将使用这些参数通过 [Adobe Developer](https://developer.adobe.com){target="_blank"} API调用。
 
 ### 使用取消订阅链接发送消息 {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ ht-degree: 85%
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
-1. 要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+1. 要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ ht-degree: 85%
    >
    >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
 
-* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.

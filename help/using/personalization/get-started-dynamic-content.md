@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: 表达式，编辑器，开始，条件，开始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 25%
+source-wordcount: '150'
+ht-degree: 24%
 
 ---
 

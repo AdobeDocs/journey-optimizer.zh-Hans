@@ -7,11 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 登陆，登陆页面，用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 15%
+source-wordcount: '914'
+ht-degree: 13%
 
 ---
 
@@ -95,7 +96,7 @@ ht-degree: 15%
 
 ### 选择退出管理 {#opt-out-management}
 
-向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target=&quot;_blank&quot;}中进一步了解适用的法规。
+向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。详细了解 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}.
 
 因此，您必须在发送给收件人的每封电子邮件中都加入&#x200B;**取消订阅链接**：
 
@@ -154,7 +155,7 @@ ht-degree: 15%
 
    * 用户档案数据已更新，除非再次订阅，否则将不会从您的品牌接收通信。
 
-要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target=&quot;_blank&quot;}中了解更多信息。
+要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
