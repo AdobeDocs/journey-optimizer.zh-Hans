@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 开始使用 [!DNL Journey Optimizer] 配置
 description: 详细了解 [!DNL Journey Optimizer] 配置
-role: Admin
+role: Admin, Developer
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+keywords: 配置，配置，消息，渠道，沙盒，优化程序
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '387'
 ht-degree: 34%
 
 ---

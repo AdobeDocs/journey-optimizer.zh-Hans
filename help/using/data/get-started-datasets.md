@@ -5,11 +5,12 @@ title: 数据集入门
 description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform数据集
 role: User
 level: Beginner
+keywords: 平台，数据湖，创建，湖，数据集，配置文件
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 7%
+source-wordcount: '813'
+ht-degree: 8%
 
 ---
 
@@ -66,8 +67,8 @@ ht-degree: 7%
 
 您可以：
 
-* 从架构创建数据集。 [在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
-* 从CSV文件创建数据集。 [在此文档中了解更多信息](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* 从架构创建数据集。 [在本文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* 从CSV文件创建数据集。 [在本文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans){target="_blank"}
 
 请观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据，以及确认已摄取数据。
 
@@ -81,19 +82,19 @@ ht-degree: 7%
 
 [!DNL Adobe Experience Platform Data Governance] 允许您管理客户数据，并确保符合适用于数据使用的法规、限制和策略。 它在Experience Platform的各个级别中发挥着关键作用，包括编目、数据谱系、数据使用标签、数据使用策略以及控制营销操作数据的使用。
 
-在 [数据管理文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
+在 [数据管理文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target="_blank"}
 
 ## 示例和用例{#uc-datasets}
 
 了解如何在Adobe Journey Optimizer中创建架构、数据集和摄取数据，以在 [此端到端示例](../segment/creating-test-profiles.md)
 
-了解有关在中创建数据集的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target=&quot;_blank&quot;}。
+了解有关在中创建数据集的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}.
 
-了解如何在 [数据摄取概述文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+了解如何在 [数据摄取概述文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}.
 
 提供了包含查询示例的用例列表 [此处](../data/datasets-query-examples.md).
 
 **另请参阅**
 
-* [流摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}
-* [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
+* [流摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}
+* [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}

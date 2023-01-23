@@ -6,10 +6,11 @@ description: 了解如何在Adobe Journey Optimizer中创建查询
 feature: Schemas
 role: User
 level: Beginner
+keywords: 查询，平台，数据，探索
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 12%
 
 ---
@@ -22,9 +23,9 @@ ht-degree: 12%
 
 ![](assets/queries-home.png)
 
-了解如何在中使用查询编辑器 [本文档](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}。
+了解如何在中使用查询编辑器 [本文档](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
 
 **另请参阅**
 
-* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target=&quot;_blank&quot;}
-* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-CN){target=&quot;_blank&quot;}
+* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
+* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-CN){target="_blank"}

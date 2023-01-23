@@ -2,17 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 内容体验入门
-description: 进一步了解 [!DNL Journey Optimizer]
+description: 了解有关在Journey Optimizer中进行内容实验的更多信息
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
+keywords: 入门，开始，内容，实验
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1950'
 ht-degree: 1%
 
 ---

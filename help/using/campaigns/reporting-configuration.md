@@ -7,13 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 配置，实验，报告，优化程序
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 29%
+source-wordcount: '719'
+ht-degree: 23%
 
 ---
 
@@ -46,11 +47,11 @@ ht-degree: 29%
 ## 先决条件
 
 
-必须先创建该数据集，然后才能将数据集添加到报表配置中。 在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh_Hans#create){target=&quot;_blank&quot;}中了解更多信息。
+必须先创建该数据集，然后才能将数据集添加到报表配置中。 了解 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh_Hans#create){target="_blank"}.
 
 * 您只能添加事件类型数据集。
 
-* 这些数据集必须至少包含以下任一数据集 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target=&quot;_blank&quot;}: **应用程序详细信息**, **商务详细信息**, **Web详细信息**.
+* 这些数据集必须至少包含以下任一数据集 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}: **应用程序详细信息**, **商务详细信息**, **Web详细信息**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->在 [XDM 系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh_Hans){target=&quot;_blank&quot;}中了解关于 XDM 架构和字段组的更多信息。
+>在 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh_Hans){target="_blank"}.
 
 ## 对应于每个字段组的目标 {#objective-list}
 
@@ -98,11 +99,11 @@ ht-degree: 29%
 
    >[!CAUTION]
    >
-   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target=&quot;_blank&quot;}: **应用程序详细信息**, **商务详细信息**, **Web详细信息**. 如果选择的数据集与这些条件不匹配，您将无法保存所做的更改。
+   >您只能选择事件类型数据集，该数据集必须至少包含一个受支持的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}: **应用程序详细信息**, **商务详细信息**, **Web详细信息**. 如果选择的数据集与这些条件不匹配，您将无法保存所做的更改。
 
    ![](assets/reporting-config-datasets.png)
 
-   在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target=&quot;_blank&quot;}中了解关于数据集的更多信息。
+   了解有关 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}.
 
 1. 从 **[!UICONTROL 配置文件ID]** 下拉列表中，选择用于标识报表中每个配置文件的数据集字段属性。
 
@@ -116,7 +117,7 @@ ht-degree: 29%
 
    ![](assets/reporting-config-namespace.png)
 
-   在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target=&quot;_blank&quot;}中了解关于命名空间的更多信息。
+   了解有关 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}.
 
 1. 保存您所做的更改，以将选定的数据集添加到报表配置列表。
 

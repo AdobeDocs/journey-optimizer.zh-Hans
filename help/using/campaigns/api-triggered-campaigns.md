@@ -2,11 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用 API 触发活动
-description: 了解如何使用 [!DNL Journey Optimizer] API
+description: 了解如何使用Journey Optimizer API触发营销活动
+topic: Content Management
+role: Developer, Admin
+level: Intermediate, Experienced
+keywords: 促销活动， API触发， REST，优化程序，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '807'
 ht-degree: 3%
 
 ---

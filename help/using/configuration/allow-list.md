@@ -7,10 +7,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -141,7 +142,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -153,7 +154,7 @@ ht-degree: 2%
 
 您可以执行 **添加**, **删除** 和 **获取** 操作。
 
-进一步了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;}引用文档。
+进一步了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 参考文档。
 
 ## 允许列表逻辑 {#logic}
 
@@ -180,7 +181,7 @@ ht-degree: 2%
 
 ## 排除项报告 {#reporting}
 
-当允许列表处于活动状态时，您可以检索因未在允许列表中而从发送中排除的电子邮件地址或域。 为此，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}进行下面的API调用。
+当允许列表处于活动状态时，您可以检索因未在允许列表中而从发送中排除的电子邮件地址或域。 为此，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} ，以进行下面的API调用。
 
 要获取 **电子邮件数量** 收件人不在允许列表上而未发送的收件人，请使用以下查询：
 

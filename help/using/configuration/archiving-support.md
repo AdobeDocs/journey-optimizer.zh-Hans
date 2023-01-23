@@ -7,11 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 存档，邮件， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 3%
+source-wordcount: '1133'
+ht-degree: 2%
 
 ---
 
@@ -113,7 +114,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意。 由于您随
 
 >[!NOTE]
 >
->在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target=&quot;_blank&quot;}中进一步了解管理隐私和适用的法规。
+>了解有关管理隐私和 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}.
 
 ### 密送报表数据 {#bcc-reporting}
 
@@ -123,7 +124,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意。 由于您随
 
 ![](assets/preset-bcc-dataset.png)
 
-要对此数据集运行查询，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。 要访问它，请选择 **[!UICONTROL 数据管理]** > **[!UICONTROL 查询]** 单击 **[!UICONTROL 创建查询]**. [了解详情](../data/get-started-queries.md)
+要对此数据集运行查询，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. 要访问它，请选择 **[!UICONTROL 数据管理]** > **[!UICONTROL 查询]** 单击 **[!UICONTROL 创建查询]**. [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 

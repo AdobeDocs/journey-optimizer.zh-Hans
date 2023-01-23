@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 查看和激活营销活动
-description: 了解如何在 [!DNL Journey Optimizer]
+description: 了解如何在Journey Optimizer中查看和激活营销活动
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 营销活动，审查，验证，激活，激活，优化程序
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 7%
 
 ---

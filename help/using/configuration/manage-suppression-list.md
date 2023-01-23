@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: 抑制，列表，退回，电子邮件，优化程序
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -195,7 +196,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -228,7 +229,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在 **注释** 列。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters)例如，{target=&quot;_blank&quot;}。
+   >在 **注释** 列。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如。
 
 1. 完成后，拖放CSV文件，然后单击 **[!UICONTROL 提交]**.
 

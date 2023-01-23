@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 修改或停止营销活动
-description: 了解如何在中修改、停止或复制实时营销活动 [!DNL Journey Optimizer]
+description: 了解如何在Journey Optimizer中修改、停止或复制实时营销活动
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 管理营销活动，状态，计划，访问，优化程序
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---

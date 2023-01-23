@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 营销活动入门
-description: 进一步了解 [!DNL Journey Optimizer]
+description: 进一步了解Journey Optimizer中的促销活动
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: 营销活动，操作方法，开始， optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '406'
 ht-degree: 12%
 
 ---
@@ -41,13 +42,13 @@ ht-degree: 12%
 
 1. **您需要适当的权限**. 营销活动仅供有权访问与营销活动相关的营销活动的用户使用 **[!UICONTROL 产品配置文件]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。
 
-   如果您无法访问营销活动，则必须扩展您的权限。 如果您有权访问 [Adobe Admin Console](https://adminconsole.adobe.com/)为您的组织{target=&quot;_blank&quot;}，请按照以下步骤操作。 如果没有，请联系您的Journey Optimizer管理员。
+   如果您无法访问营销活动，则必须扩展您的权限。 如果您有权访问 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 对于贵组织，请执行以下步骤。 如果没有，请联系您的Journey Optimizer管理员。
 
    +++了解如何分配营销活动权限
 
    要分配对应的 **[!UICONTROL 产品配置文件]** 对您的用户：
 
-   1. 从 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}，选择 [!DNL Adobe Experience Platform] 产品。
+   1. 从 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，选择 [!DNL Adobe Experience Platform] 产品。
 
    1. 浏览到 **[!UICONTROL 产品配置文件]** 选项卡，选择与内置营销活动相关的其中一个 **[!UICONTROL 产品配置文件]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
 
