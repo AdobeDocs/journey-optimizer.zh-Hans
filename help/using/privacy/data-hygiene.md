@@ -6,9 +6,9 @@ description: 了解如何执行数据卫生操作
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '135'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->目前，数据卫生功能仅适用于已购买Healthcare Shield附加产品的组织。 除了Healthcare Shield之外，它还适用于Privacy和Security Shield
+>数据卫生功能当前仅适用于已购买 **医疗盾** 和 **隐私和安全防护** 附加产品。
 
 
 随着数据不断被摄取到Adobe Experience Platform中，根据组织策略确保数据按预期使用、必要时进行更新和删除就变得至关重要。

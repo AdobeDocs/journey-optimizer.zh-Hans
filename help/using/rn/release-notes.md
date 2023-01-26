@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 17%
 
 ---
@@ -38,8 +38,8 @@ ht-degree: 17%
 <td>
 <p>Adobe Experience Platform提供了一套数据卫生功能，允许您通过程序化删除消费者记录和数据集来管理存储的数据。 此功能现已可用于Adobe Journey Optimizer。 </p>
 <p>您可以管理数据存储，以确保按预期使用信息，在需要修复错误数据时更新信息，并在组织策略认为有必要时删除信息。</p>
-<p><strong>注意</strong>  — 数据卫生功能目前仅适用于购买了Healthcare Shield附加产品的组织。</p>
-<p>有关更多信息，请参阅<a href="../privacy/data-hygiene.md">详细文档</a>。
+<p><strong>注意</strong>  — 目前，数据卫生功能仅适用于已购买 <strong>医疗盾</strong> 和 <strong>隐私和安全防护</strong> 附加产品。</p><p>有关更多信息，请参阅<a href="../privacy/data-hygiene.md">详细文档</a>。
+
 </td>
 </tr>
 </tbody>
