@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 数据，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 0%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * **清除和归档机制**:可以在中自由定义和自动清除数据和存档 [!DNL Adobe Journey Optimizer] 自动执行数据保留策略。 可以为不同的数据实体定义不同的老化策略。 还可以定义导出机制，以在清除或存档老化数据之前自动导出老化数据。
 
-   利用Adobe Experience Platform UI中的数据卫生工作区，可创建和监视各种数据卫生任务，包括删除消费者身份和计划数据集过期。 此工作区在“安全和隐私保护”和“医疗保健保护”中均可用。 在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+   利用数据卫生工作区，可创建和监视各种数据卫生任务，包括删除消费者身份和计划数据集过期。 此工作区在“安全和隐私保护”和“医疗保健保护”中均可用。 请参阅[此页面](../privacy/data-hygiene.md)以了解详情。
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
