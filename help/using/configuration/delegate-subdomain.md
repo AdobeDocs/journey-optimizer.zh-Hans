@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 8%
@@ -167,13 +167,15 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
 
 1. Adobe生成SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您在托管解决方案上正确创建了此记录，请选中“I confirm...”框，然后单击 **[!UICONTROL 提交]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >您还可以在以后使用 **[!UICONTROL 另存为草稿]** 按钮。 然后，您将能够从子域列表中打开子域委派，以恢复子域委派。
 
 1. 提交CNAME子域委派后，该子域将显示在列表中，并且 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查（通常需要2到3小时）。 有关详细信息，请参阅[此部分](#subdomain-validation)。
 

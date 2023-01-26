@@ -5,9 +5,9 @@ description: 了解如何使用Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 94%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 94%
     </li>
     </div>
   </td>
-   <td align="right">
+   <td>
    <div><strong>关键资源的直接链接</strong>
     </div>
     <p>
@@ -106,6 +106,9 @@ ht-degree: 94%
     <p>
     <p>历程管理</p>
     <li>
+      <a href="using/campaigns/get-started-with-campaigns.md">营销活动</a>
+    </li>
+        <li>
       <a href="using/building-journeys/journey-gs.md">历程</a>
     </li>
     <li>

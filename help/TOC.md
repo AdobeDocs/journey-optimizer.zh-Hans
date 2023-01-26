@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1307'
 ht-degree: 99%
 
 ---
@@ -166,6 +166,7 @@ ht-degree: 99%
       + [创建内容体验](using/campaigns/content-experiment.md)
       + [了解统计计算](using/campaigns/experiment-calculations.md)
       + [配置实验报表](using/campaigns/reporting-configuration.md)
+      + [实验报表中的统计计算](using/campaigns/experiment-report-calculations.md)
    + [使用 API 触发活动](using/campaigns/api-triggered-campaigns.md)
 + 电子邮件渠道 {#email}
    + [电子邮件入门](using/email/get-started-email.md)
@@ -464,6 +465,7 @@ ht-degree: 99%
    + [隐私入门](using/privacy/get-started-privacy.md)
    + [隐私请求](using/privacy/requests.md)
    + [对资源的审核操作](using/privacy/audit-logs.md)
+   + [执行数据卫生操作](using/privacy/data-hygiene.md)
    + 管理同意 {#consent}
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)

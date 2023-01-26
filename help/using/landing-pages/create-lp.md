@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -57,7 +57,7 @@ ht-degree: 2%
 >id="ajo_lp_access_management_labels"
 >title="为登陆页面分配标签"
 >abstract="为保护敏感数字资产，您可以定义权限以使用标签管理对登陆页面的数据访问。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="对象级访问控制"
 
 创建登陆页面的步骤如下所示。
 

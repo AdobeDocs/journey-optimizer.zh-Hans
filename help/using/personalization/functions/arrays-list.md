@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 的 `countOnlyNull` 函数用于计算列表中null值的数量。
 
-**格式**
+**语法**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 的 `countWithNull` 函数用于计算列表中包含null值的所有元素。
 
-**格式**
+**语法**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 的 `distinct` 函数，用于从删除了重复值的数组或列表中获取值。
 
-**格式**
+**语法**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ ht-degree: 6%
 
 的 `distinctCountWithNull` 函数用于计算列表中不同值的数量，包括null值。
 
-**格式**
+**语法**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ ht-degree: 6%
 
 的 `head` 函数返回数组或列表中的第一个项目。
 
-**格式**
+**语法**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ ht-degree: 6%
 
 的 `topN` 函数返回 `N` 数组中的项目，当根据给定的数值表达式以升序排序时。
 
-**格式**
+**语法**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ ht-degree: 6%
 
 的 `in` 函数来确定项目是否是数组或列表的成员。
 
-**格式**
+**语法**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ ht-degree: 6%
 
 的 `includes` 函数来确定数组或列表是否包含给定项。
 
-**格式**
+**语法**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ ht-degree: 6%
 
 的 `intersects` 函数用于确定两个阵列或列表是否具有至少一个公共成员。
 
-**格式**
+**语法**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ ht-degree: 6%
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 的 `bottomN` 函数返回 `N` 数组中的项目，当根据给定的数值表达式以升序排序时。
 
-**格式**
+**语法**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 >
 >的 `notIn` 函数 *也* 确保两个值均不等于null。 因此，结果不是 `in` 函数。
 
-**格式**
+**语法**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 的 `subsetOf` 函数用于确定特定阵列（阵列A）是否是另一阵列（阵列B）的子集。 换句话说，数组A中的所有元素都是数组B的元素。
 
-**格式**
+**语法**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 的 `supersetOf` 函数用于确定特定阵列（阵列A）是否是另一阵列（阵列B）的超集。 换言之，数组A包含数组B中的所有元素。
 
-**格式**
+**语法**
 
 ```sql
 {%= supersetOf(array1, array2) %}

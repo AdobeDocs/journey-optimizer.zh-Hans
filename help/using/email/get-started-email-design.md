@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 电子邮件，设计，库存，资产
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 21%
+source-wordcount: '317'
+ht-degree: 18%
 
 ---
 
@@ -52,6 +52,10 @@ ht-degree: 21%
    * **选择现有内容** 从内置或自定义模板列表。 了解如何使用电子邮件模板 [此部分](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. 定义并个性化电子邮件内容后，即可导出内容以供验证或稍后使用。 单击 **[!UICONTROL 导出HTML]** 要在您的计算机上保存一个zip文件，其中将包含您的HTML和资产。
+
+   ![](assets/email_designer_export.png)
 
 ## 操作方法视频 {#video}
 

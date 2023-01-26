@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 的 `get` 函数用于检索给定键值的映射值。
 
-**格式**
+**语法**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 的 `keys` 函数用于检索给定映射的所有键。
 
-**格式**
+**语法**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 的 `values` 函数检索给定映射的所有值。
 
-**格式**
+**语法**
 
 ```sql
 {%= values(map) %}

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 3%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 3%
 内置上限API提供了上游技术护栏，可帮助保护外部系统。
 
 对于外部数据源，每秒的最大调用数设置为15。 如果呼叫数超过每秒15次，则会丢弃剩余的呼叫。 您可以提高专用外部数据源的此限制。 联系Adobe以在中包含端允许列表点。 对于公共外部数据源，这是不可能的。
+
+>[!NOTE]
+>
+> 如果数据源使用的自定义身份验证的端点与数据源使用的端点不同，则您需要联系Adobe以将该端点也包含在允许列表中。
 
 对于自定义操作，您需要评估外部API的容量。 例如，如果Journey Optimizer每秒发送1000个调用，而您的系统每秒只能支持100个调用，则您需要定义上限规则，以便您的系统不会饱和。
 

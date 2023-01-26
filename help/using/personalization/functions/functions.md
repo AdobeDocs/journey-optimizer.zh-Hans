@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 3%
 
 ---
@@ -146,7 +146,10 @@ ht-degree: 3%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">绝对</a></td><td>此函数将转换数字的绝对值</td>
+        <td><a href="math.md#absolute">绝对</a></td><td>此函数可将任何数字格式化为其语言敏感表示形式。</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">格式编号</a></td><td>此函数可将任何数字格式化为其语言敏感表示形式。</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>此函数返回一个介于0和1之间的随机值</td>
@@ -158,10 +161,16 @@ ht-degree: 3%
         <td><a href="math.md#round-up">向上舍入</a></td><td>此函数会舍入一个数字</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">十六进制字符串</a></td><td>将任何数字转换为其十六进制字符串。</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">至百分比</a></td><td>此函数将数字转换为百分比</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">精度</a></td><td>此函数将数字转换为所需的精度</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">至字符串</a></td><td>此函数可将任何数字转换为其字符串表示形式。 </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ ht-degree: 3%
 <table>
     <tr>
         <td><a href="string.md#camelCase">驼峰</a></td><td>此函数用于大写字符串中每个单词的第一个字母</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">字符代码位于</a></td><td>此函数返回字符的ASCII值，如JavaScript中的charCodeAt函数</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>此函数用于将两个字符串合并为一个</td>
@@ -212,6 +224,9 @@ ht-degree: 3%
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">提取电子邮件域</a></td><td>此函数用于提取电子邮件地址的域</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">设置货币格式</a></td><td>此函数会根据作为第二个参数中的字符串传递的区域设置，将任何数字转换为其相应的语言敏感货币表示形式</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">获取URL主机</a></td><td>此函数用于获取url主机。</td>
@@ -280,7 +295,7 @@ ht-degree: 3%
         <td><a href="string.md#startsWith">开始于</a></td><td>此函数用于确定字符串是否以指定的子字符串开头</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">字符串至今</a></td><td>此函数用于将字符串转换为日期。 它返回纪元日期作为无效输入的输出。</td>
+        <td><a href="string.md#string-to-date">字符串至今</a></td><td>此函数将字符串值转换为日期时间值</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">字符串到整数</a></td><td>此函数将字符串值转换为整数值。</td>

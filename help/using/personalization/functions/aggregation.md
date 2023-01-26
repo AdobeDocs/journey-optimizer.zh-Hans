@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 的 `average` 函数返回数组中所有选定值的算术平均值。
 
-**格式**
+**语法**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 的 `count` 函数返回给定数组中的元素数。
 
-**格式**
+**语法**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 的 `max` 函数返回数组中所有选定值的最大值。
 
-**格式**
+**语法**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 的 `min` 函数返回数组中所有选定值的最小值。
 
-**格式**
+**语法**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ ht-degree: 7%
 
 的 `sum` 函数会返回数组中所有选定值的总和。
 
-**格式**
+**语法**
 
 ```sql
 {%= sum(array) %}

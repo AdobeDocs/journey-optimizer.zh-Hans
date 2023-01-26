@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 鉴别，事件，区段，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '936'
 ht-degree: 53%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 53%
    >
    >请注意 **[!UICONTROL 输入]** 和 **[!UICONTROL 退出]** 与 **已实现** 和 **已退出** 区段参与状态。Adobe Experience Platform 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
+1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。 默认情况下，该字段会预填充上次使用的命名空间。
 
    >[!NOTE]
    >

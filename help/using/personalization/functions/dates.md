@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 的 `age` 函数来检索给定日期的页面。
 
-**格式**
+**语法**
 
 ```sql
  {%= age(datetime) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 的 `currentTimeInMillis` 函数用于以新纪元毫秒为单位检索当前时间。
 
-**格式**
+**语法**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 的 `dateDiff` 函数用于以天为单位检索两个日期之间的差异。
 
-**格式**
+**语法**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 的 `dayOfWeek` 函数用于检索星期。
 
-**格式**
+**语法**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 的 `dayOfYear` 函数用于检索每年的某一天。
 
-**格式**
+**语法**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 的 `formatDate` 函数来设置日期时间值的格式。 格式应为有效的Java DateTimeFormat模式。
 
-**格式**
+**语法**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -134,7 +134,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 如果日期模式无效，日期将回退到ISO标准格式。
 >
-> 您可以使用摘要的Java日期格式功能 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 您可以使用Java日期格式功能，如 [Oracle文档](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **示例**
 
@@ -148,7 +148,7 @@ The following operation gets all the values for the map `identityMap`.
 
 的 `setDays` 函数来设置给定日期时间在月中的某天。
 
-**格式**
+**语法**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 的 `setHours` 函数来设置日期时间的小时数。
 
-**格式**
+**语法**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 的 `toUTC` 函数将日期时间转换为UTC。
 
 
-**格式**
+**语法**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 的 `weekOfYear` 函数用于检索一年中的某周。
 
-**格式**
+**语法**
 
 ```sql
 {%= weekOfYear(datetime) %}

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 的 `and` 函数创建逻辑连接。
 
-**格式**
+**语法**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ ht-degree: 11%
 
 的 `or` 函数创建逻辑分离。
 
-**格式**
+**语法**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ ht-degree: 11%
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ not (homeAddress.countryISO = "CA")
 
 的 `=` （等于）函数检查一个值或表达式是否等于另一个值或表达式。
 
-**格式**
+**语法**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ not (homeAddress.countryISO = "CA")
 
 的 `!=` （不等于）函数检查一个值或表达式是否为 **not** 等于其他值或表达式。
 
-**格式**
+**语法**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ not (homeAddress.countryISO = "CA")
 
 的 `>` （大于）函数用于检查第一个值是否大于第二个值。
 
-**格式**
+**语法**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ not (homeAddress.countryISO = "CA")
 
 的 `>=` （大于或等于）函数用于检查第一个值是否大于或等于第二个值。
 
-**格式**
+**语法**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ not (homeAddress.countryISO = "CA")
 
 的 `<` （小于）比较函数用于检查第一值是否小于第二值。
 
-**格式**
+**语法**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ not (homeAddress.countryISO = "CA")
 
 的 `<=` （小于或等于）比较函数用于检查第一值是否小于或等于第二值。
 
-**格式**
+**语法**
 
 ```sql
 {%= expression1 <= expression2 %}

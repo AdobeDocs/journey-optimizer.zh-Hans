@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1350'
 ht-degree: 1%
 
 ---
@@ -247,11 +247,17 @@ ht-degree: 1%
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-将显示您提交的最新上传及其相应状态。
+将显示您提交的最新上传及其相应状态：
 
-如果错误报告与文件关联，您可以下载它以检查遇到的错误。
+* **[!UICONTROL 待定]**:正在处理文件上传。
+* **[!UICONTROL 错误]**:由于技术问题或文件格式错误，文件上传过程失败。
+* **[!UICONTROL 完成]**:文件上传过程已成功完成。
 
-![](assets/suppression-list-recent-uploads-error.png)
+在上传期间，如果某些地址的格式不正确，则它们不会添加到 [!DNL Journey Optimizer] 隐藏列表。
+
+在这种情况下，上传完成后，它将与报表关联。 您可以下载它以检查遇到的错误<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 下面是可在错误报表中找到的条目类型示例：
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 连接到 [Adobe Experience Cloud](http://experience.adobe.com) 并浏览至 [!DNL Journey Optimizer]。
 
-浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}。
+浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide)。{target="_blank"}
 
-用户界面中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}。如有任何问题，请联系 Adobe 客户成功经理。
+用户界面中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. 如有任何问题，请联系 Adobe 客户成功经理。
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 查询]** - 使用 Adobe Experience Platform Query Service 编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](../data/get-started-queries.md)
 
-* **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target="_blank"}
 
 **[!UICONTROL 连接]**
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
 
-* **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target=&quot;_blank&quot;}
+* **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"}
 
 
 ## 产品内用例 {#in-product-uc}
@@ -118,7 +118,7 @@ ht-degree: 100%
 * 颜色对比度
 * 验证必填字段
 
-在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"} 在Adobe Experience Platform文档中。
 
 您可以在 [!DNL Journey Optimizer] 中使用这些常用键盘快捷键：
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 | 选择或清除焦点元素 | 回车键或空格键 |
 | 取消选择、折叠面板、或关闭对话框 | Esc |
 
-在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target="_blank"} 在Adobe Experience Platform文档中。
 
 您可以在 Journey Optimizer 的特定部分中使用这些快捷键：
 
@@ -154,12 +154,32 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>选择所有活动</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
   </tr>
   <tr>
     <td>删除选定的活动</td>
     <td>Delete 键或退格键，然后按回车键以确认删除</td>
   </tr>
+  <tr>
+    <td>放大和缩小（集中在画布或其任何子元素上）</td>
+    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
+  </tr>  
+  <tr>
+    <td>在每个活动和路径（集中在画布上）之间或在工具栏按钮（集中在工具栏上）之间导航</td>
+    <td>箭头键</td>
+  </tr>   
+  <tr>
+    <td>将焦点移到画布上下一个可操作的元素，工具栏是第一个</td>
+    <td>Tab</td>
+  </tr>  
+  <tr>
+    <td>打开右侧配置窗格（重点关注活动）</td>
+    <td>输入</td>
+  </tr>   
+  <tr>
+    <td>在画布中移动活动（集中于活动）</td>
+    <td>SHIFT +箭头键</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

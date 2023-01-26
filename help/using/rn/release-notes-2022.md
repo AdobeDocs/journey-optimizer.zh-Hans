@@ -4,16 +4,57 @@ product: journey optimizer
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # 2022 年发行说明 {#release-notes-2022}
 
 本页列出了 [!DNL Journey Optimizer] 于 2022 年发布的功能和改进。
+
+
+
+## 2022 年 10 月版 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### 改进 {#oct-2022-improvements}
+
+**历程**
+
+* **强制定期重入**&#x200B;选项已添加到定期读取区段计划参数中。利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。停用此选项后，用户档案必须先完成历程，然后才能在另一个事件中再次进入。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**管理**
+
+* 在用户界面中添加了一条消息，警告称子域、登陆页子域、PTR 记录和 IP 池配置对所有沙盒都是通用的，因此对这些配置中的任何修改也会影响生产沙盒。
+* 修改了从用户界面以 CSV 文件格式上传禁止列表的步骤。[了解详情](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**营销活动**
+
+* 您现在可以存档已完成和已停止的营销活动。[了解详情](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## 2022 年 9 月版{#sept-2022-release}
@@ -346,7 +387,7 @@ ht-degree: 100%
 
 **历程**
 
-* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅[文档](../building-journeys/end-journey.md)和[功能视频](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}。
+* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅 [文档](../building-journeys/end-journey.md) 和 [功能视频](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 *  默认情况下，历程属性中的&#x200B;**配置文件时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)

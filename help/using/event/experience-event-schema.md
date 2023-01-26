@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -38,7 +38,7 @@ ht-degree: 3%
 
    ![](assets/schema3.png)
 
-* 声明用于标识事件主题的标识字段。 如果未指定身份，则可以使用身份映射。 不建议采取此做法。
+* 声明用于标识事件中各个用户档案的标识字段。 如果未指定身份，则可以使用身份映射。 不建议采取此做法。
 
    ![](assets/schema4.png)
 

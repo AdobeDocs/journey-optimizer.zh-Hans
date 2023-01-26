@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 的 `+` (addition)函数用于查找两个参数表达式的和。
 
-**格式**
+**语法**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 的 `*` （乘法）函数用于查找两个参数表达式的乘积。
 
-**格式**
+**语法**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ ht-degree: 7%
 
 的 `-` （减法）函数用于查找两个参数表达式的差。
 
-**格式**
+**语法**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 的 `/` （除法）函数用于查找两个参数表达式的商。
 
-**格式**
+**语法**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ ht-degree: 7%
 
 的 `%` （模/余数）函数用于在将两个参数表达式除以后查找余数。
 
-**格式**
+**语法**
 
 ```sql
 {%= double % double %}

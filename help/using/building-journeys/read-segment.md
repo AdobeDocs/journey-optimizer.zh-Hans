@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，区段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1342'
 ht-degree: 12%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 12%
 
    ![](assets/read-segment-copy.png)
 
-1. 在 **[!UICONTROL 命名空间]** 字段中，选择要用于标识个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
+1. 在 **[!UICONTROL 命名空间]** 字段中，选择要用于标识个人的命名空间。 默认情况下，该字段会预填充上次使用的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
