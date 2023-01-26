@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 数据，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,11 @@ ht-degree: 1%
 <tr style="border: 0;">
   <td>
     <div><img alt="策略" src="assets/do-not-localize/policy.png" /> 
-    <br>根据商定的时间表或您的策略删除数据 — 数据删除是数据保护的一个关键方面，也是所有数据管理流程中的一个关键步骤。 [!DNL Adobe Journey Optimizer] 可能会生成比所需数据多的数据。 此外，您还希望最大限度地关注在数据集所需持续时间之后所发生的情况 — 无论是因为实用程序还是法规的原因。 您需要的控制是删除任何给定时间点的数据。 <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">在Adobe Experience Platform文档中了解有关数据卫生的更多信息</a></div>
+    <br>根据商定的时间表或您的策略删除数据 — 数据删除是数据保护的一个关键方面，也是所有数据管理流程中的一个关键步骤。 [!DNL Adobe Journey Optimizer] 可能会生成比所需数据多的数据。 此外，您还希望最大限度地关注在数据集所需持续时间之后所发生的情况 — 无论是因为实用程序还是法规的原因。 您需要的控制是删除任何给定时间点的数据。 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">了解详情</a></div>
+    </div>
   </td>
 </tr>
 </table>
