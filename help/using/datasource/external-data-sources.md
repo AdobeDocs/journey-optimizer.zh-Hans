@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 73%
+source-wordcount: '1453'
+ht-degree: 71%
 
 ---
 
@@ -171,30 +171,67 @@ ht-degree: 73%
 
 您可以更改自定义身份验证数据源的令牌的缓存时间。以下是自定义身份验证有效负载的示例。缓存时间在“cacheDuration”参数中定义。它指定缓存中生成的令牌的保留持续时间。单位可以是毫秒、秒、分钟、小时、天、月、年。
 
+以下是承载身份验证类型的示例：
+
 ```
-"authentication": {
-    "type":"customAuthorization",
-    "authorizationType":"Bearer",
-    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
-    "method":"POST",
+{
+  "authentication": {
+    "type": "customAuthorization",
+    "authorizationType": "Bearer",
+    "endpoint": "http://localhost:${port}/epsilon/oauth2/access_token",
+    "method": "POST",
     "headers": {
-        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
-        },
+      "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"
+    },
     "body": {
-        "bodyType":"form",
-        "bodyParams": {
-             "scope":"cn mail givenname uid employeeNumber",
-             "grant_type":"password",
-             "username":"${epsilonUserName}",
-             "password":"${epsilonUserPassword}"
-             }
-        },
-    "tokenInResponse":"json://access_token",
-    "cacheDuration":
-             { "duration":5, "timeUnit":"seconds" }
+      "bodyType": "form",
+      "bodyParams": {
+        "scope": "cn mail givenname uid employeeNumber",
+        "grant_type": "password",
+        "username": "<epsilon User Name>",
+        "password": "<epsilon User Password>"
+      }
+    },
+    "tokenInResponse": "json://access_token",
+    "cacheDuration": {
+      "duration": 5,
+      "timeUnit": "minutes"
     }
+  }
+}
 ```
 
 >[!NOTE]
 >
 >缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留已缓存在服务中，不存在持久性。 如果服务重新启动，则会以干净的缓存启动。 默认情况下，缓存持续时间为1小时。 在自定义身份验证有效负载中，可以通过指定另一个保留持续时间来调整该有效负载。
+
+以下是头身份验证类型的示例：
+
+```
+{
+  "type": "customAuthorization",
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token",
+  "endpoint": "https://myapidomain.com/v2/user/login",
+  "method": "POST",
+  "headers": {
+    "x-retailer": "any value"
+  },
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "secret": "any value",
+      "username": "any value"
+    }
+  },
+  "tokenInResponse": "json://token"
+} 
+```
+
+以下是登录API调用响应的示例：
+
+```
+{
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+}
+```

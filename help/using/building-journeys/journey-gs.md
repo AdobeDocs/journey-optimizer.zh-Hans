@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，首次，开始，快速入门，区段，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1061'
 ht-degree: 10%
 
 ---
@@ -94,9 +94,39 @@ ht-degree: 10%
 
 ### 入口{#entrance}
 
-默认情况下，新历程允许重新进入。 您可以取消选中“一次性”历程的选项，例如，如果您希望在某人进入商店时提供一次性礼品。
+默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”历程的选项，例如，当某人进入商店时，您想提供一次性礼物。
+
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 
 在 [此部分](entry-management.md).
+
+### 管理访问权限 {#access}
+
+要为历程分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### 时区和配置文件时区 {#timezone}
+
+在历程级别定义时区。
+
+您可以输入固定时区或使用Adobe Experience Platform配置文件定义历程时区。
+
+如果在Adobe Experience Platform配置文件中定义了时区，则可以在历程中进行检索。
+
+有关时区管理的更多信息，请参阅 [本页](../building-journeys/timezone-management.md).
+
+### 开始和结束日期 {#dates}
+
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+
+您可以定义 **开始日期**. 您还可以添加 **结束日期**. 这允许用户档案在到达日期时自动退出。 如果您没有指定结束日期，则配置文件可以一直保留到默认历程超时。
 
 ### 历程活动中的超时和错误 {#timeout_and_error}
 
@@ -118,18 +148,3 @@ ht-degree: 10%
 
 由于历程超时30天，因此当不允许历程重新进入时，我们无法确保重新进入阻止的工作时间超过30天。 事实上，由于我们删除了有关在进入历程30天后进入历程的人员的所有信息，因此我们无法知道之前进入的人员，即30天前。
 
-### 时区和配置文件时区 {#timezone}
-
-在历程级别定义时区。
-
-您可以输入固定时区或使用Adobe Experience Platform配置文件定义历程时区。
-
-如果在Adobe Experience Platform配置文件中定义了时区，则可以在历程中进行检索。
-
-有关时区管理的更多信息，请参阅 [本页](../building-journeys/timezone-management.md).
-
-### 管理访问权限 {#access}
-
-要为历程分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)
