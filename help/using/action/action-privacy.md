@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 数据治理
-description: 定义链接到标签和营销操作的管理策略
+description: 定义链接到标签和营销操作的治理策略。
 feature: Privacy
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 数据，治理， DULE，标签，标签，平台，策略
+keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
