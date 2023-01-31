@@ -2,51 +2,51 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用同意策略
-description: 了解如何使用Adobe Experience Platform同意策略
+description: 了解如何使用 Adobe Experience Platform 同意策略
 feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
-keywords: 政策，治理，平台，医疗保健盾，同意
+keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy).
+Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参见[此文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy)。
 
 在 Journey Optimizer 中，您可以将这些同意策略应用于自定义操作。例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
 
 >[!NOTE]
 >
->同意策略当前仅适用于已购买Healthcare Shield附加产品的组织。
+>同意策略当前仅适用于已购买 Healthcare Shield 加载项的组织。
 
-在Journey Optimizer中，同意在以下几个级别定义：
+在 Journey Optimizer 中，可以在以下几个级别定义同意策略：
 
-* when **配置自定义操作**，您可以定义渠道和营销操作。 请参阅 [部分](../action/consent.md#consent-custom-action).
-* 添加 **历程中的自定义操作**，您可以定义其他营销操作。 请参阅 [部分](../action/consent.md#consent-journey).
+* 在&#x200B;**配置自定义操作**&#x200B;时，您可以定义渠道和营销操作。请参阅此[部分](../action/consent.md#consent-custom-action)。
+* 在添加&#x200B;**历程中的自定义操作**&#x200B;时，您可以定义其他营销操作。请参阅此[部分](../action/consent.md#consent-journey)。
 
 ## 重要说明 {#important-notes}
 
-在Journey Optimizer中，可以在自定义操作中利用同意。 如果要将其与内置消息功能一起使用，您需要使用条件活动来筛选历程中的客户。
+在 Journey Optimizer 中，可以在自定义操作中利用同意策略。如果要将其与内置消息功能一起使用，您需要使用条件活动来筛选历程中的客户。
 
-在同意管理下，将分析两个历程活动：
+使用同意管理功能时，会分析两个历程活动：
 
 * 读取区段：检索到的区段会被考虑在内。
-* 自定义操作：同意管理考虑了所使用的属性([操作参数](../action/about-custom-action-configuration.md#define-the-message-parameters))以及定义的营销操作（必需的营销操作和其他营销操作）。
+* 自定义操作：同意管理功能会考虑所使用的属性（[操作参数](../action/about-custom-action-configuration.md#define-the-message-parameters)）以及定义的营销操作（必需的营销操作和其他营销操作）。
 * 不支持使用现成联合架构的字段组所包含的属性。这些属性在界面中处于隐藏状态。您需要使用其他架构创建另一个字段组。
-* 仅当在自定义操作级别设置营销操作（必需或其他操作）时，才应用同意策略。
+* 仅在自定义操作级别设置营销操作（必需或其他）时，同意策略才适用。
 
-历程中使用的所有其他活动均不予考虑。 如果您以区段鉴别开始历程，则不会考虑该区段。
+历程中使用的所有其他活动均不会被考虑在内。如果您以“区段鉴别”开始历程，则不会考虑该区段。
 
-在历程中，如果自定义操作中的同意策略将用户档案排除，则不会向其发送消息，但是他会继续历程。 使用条件时，用户档案不会转到超时和错误路径。
+在历程中，如果自定义操作中的同意策略将某个用户档案排除，则不会向该用户发送消息，但是其历程会继续运行。 使用条件时，用户档案不会转到超时和错误路径。
 
-在位于历程中的自定义操作中刷新策略之前，请确保您的历程没有错误。
+在刷新位于历程中的自定义操作中的策略之前，请确保您的历程没有错误。
 
 <!--
 There are two types of latency regarding the use of consent policies:
@@ -60,7 +60,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="定义必需的营销操作"
->abstract="使用必需的营销操作字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择电子邮件定位。 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 无法在画布上修改此设置。"
+>abstract="使用“必需的营销操作”字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择“电子邮件定位”。在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。无法在画布上修改此设置。"
 
 配置自定义操作时，可使用两个字段进行同意管理。
 
@@ -68,11 +68,11 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent1.png)
 
-使用&#x200B;**必需的营销操作**&#x200B;字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择 **电子邮件定位**. 在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。 已选择默认营销操作，但您可以单击向下箭头，从列表中选择任何可用的营销操作。
+使用&#x200B;**必需的营销操作**&#x200B;字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择&#x200B;**电子邮件定位**。在历程中使用时，将检索和利用与该营销操作关联的所有同意策略。系统会选择默认营销操作，但您可以单击向下箭头，从列表中选择任何可用的营销操作。
 
 ![](assets/consent2.png)
 
-对于某些类型的重要通信（例如发送的用于重置客户端密码的事务型消息），您可能不希望应用同意策略。 然后，您将选择 **无** 在 **必需的营销操作** 字段。
+对于某些类型的重要通信（例如发送的用于重置客户密码的事务性消息），您可能不希望应用同意策略。您可以在&#x200B;**必需的营销操作**&#x200B;字段中选择&#x200B;**无**。
 
 有关配置自定义操作的其他步骤，请参见[此部分](../action/about-custom-action-configuration.md#consent-management)。
 
@@ -81,19 +81,19 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_canvas"
 >title="必需的营销操作"
->abstract="在创建自定义操作时，定义了必需的营销操作。 无法从操作中删除或修改此必需的营销操作。"
+>abstract="在创建自定义操作时，定义必需的营销操作。无法从操作中删除或修改此必需的营销操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_additional_marketing_action_canvas"
 >title="其他营销操作"
->abstract="除了所需的操作之外，还添加其他营销操作。 将强制执行与两个营销操作相关的同意策略。"
+>abstract="除了必需的操作之外，还可以添加其他营销操作。将强制执行与两个营销操作相关的同意策略。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_refresh_policies_canvas"
->title="可视化将在运行时应用的同意策略"
->abstract="营销操作引入了同意策略，这些策略将操作参数和单个配置文件同意值结合起来，以过滤掉用户。 单击要刷新的按钮，以获取这些策略的最新定义。"
+>title="对将在运行时应用的同意策略进行可视化"
+>abstract="营销操作可引入同意策略，这些策略会将操作参数和单个用户档案同意值结合起来，以筛选用户。单击按钮进行刷新，获取这些策略的最新定义。"
 
-在历程中添加自定义操作时，多个选项允许您管理同意。 单击&#x200B;**显示只读字段**&#x200B;以显示所有参数。
+在历程中添加自定义操作时，有多个选项可用于管理同意。单击&#x200B;**显示只读字段**&#x200B;以显示所有参数。
 
 配置自定义操作时定义的&#x200B;**渠道**&#x200B;和&#x200B;**必需的营销操作**&#x200B;将显示在屏幕顶部。您无法修改这些字段。
 
@@ -103,7 +103,7 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent3.png)
 
-单击 **刷新策略** 按钮来更新和检查此自定义操作考虑的策略列表。 这仅用于信息目的，在构建历程时。 对于实时历程，每6小时自动检索和更新一次同意策略。
+单击屏幕底部的&#x200B;**刷新策略**&#x200B;按钮，更新和检查此自定义操作考虑的策略列表。在构建历程时，这仅供参考。对于实时历程，每 6 小时自动检索和更新一次同意策略。
 
 ![](assets/consent5.png)
 
