@@ -9,38 +9,14 @@ role: Admin, User
 level: Intermediate
 keywords: 权限，创作，消息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 9%
+source-wordcount: '1026'
+ht-degree: 10%
 
 ---
 
 # 内置产品配置文件 {#ootb-product-profiles}
-
-
-## 关于与消息相关的权限{#message-permissions}
-
-Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历程或营销策划创建和创作消息。
-
-此功能将影响以下权限：
-
-| 权限名称 | 将包含在 |
-|:-:|:-:|
-| **[!DNL View Messages]** | **[!DNL View Journeys]** |
-| **[!DNL View Message reports]** | **[!DNL View Journeys Report]** |
-| **[!DNL Manage Messages]** | **[!DNL Manage Journey]** |
-| **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
-| **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
-
-**7月25日之后**，与 **消息** 仍然可用，因为仍然可以访问消息以启用过渡，并且您仍可以将它们另存为模板。
-
-**截至9月6日**，与 **消息** 将被删除，消息将不再可访问。
-
->[!WARNING]
->
->如果您的用户已分配到 **[!DNL Message Manager]** 仅限产品配置文件，不包含 **[!DNL Journey manager]** 产品配置文件，您需要为他们分配新的产品配置文件，以便能够继续编辑内容。
-
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -94,6 +70,7 @@ Adobe Journey Optimizer发布了新的内联创作功能，允许您直接从历
 |管理|<ul><li>**[!DNL Manage subdomains delegation]**:读取、创建、编辑和删除子域委派。</li><li>**[!DNL Manage IP pools]**:读取、创建、编辑和删除ip池。</li><li>**[!DNL Manage PTR records]**:读取和编辑PTR记录。</li><li>**[!DNL View PTR records]**:对PTR记录的只读访问。</li><li>**[!DNL Manage channel surfaces]**:读取、创建、编辑和删除内容品牌。</li><li>**[!DNL Manage Landing page settings]**:创建、编辑和删除登陆页面子域和登陆页面预设。</li><li> **[!DNL Manage messages general settings]**:读取、创建、编辑和删除消息常规设置。</li><li>**[!DNL Manage SMS settings]**:创建、编辑和删除启用短信渠道所需的API凭据和短信渠道表面。</li><li>**[!DNL Manage suppression rules]**:访问读取、创建、编辑和删除隐藏规则。</li><li>**[!DNL View suppression list]**:读取和导出本地抑制列表。</li><li>**[!DNL Manage alerts]**:启用/禁用历程和授权警报。</li></ul>|
 |决策管理|<ul><li>**[!DNL Manage decisions]**:读取、创建、编辑和删除决策。</li><li>**[!DNL Manage ranking strategies]**:读取、创建、编辑和删除排名策略。</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**:授予对沙箱的访问权限。</li><li>**[!DNL Manage segments]**:读取、创建、编辑和删除区段。</li><li>**[!DNL Manage profiles]**:读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**:对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**:对架构的只读访问。</li><li>**[!DNL Read Identity namespace]**:对身份命名空间的只读访问权限。</li><li>**[!DNL Manage merge policies]**:读取、创建、编辑和删除合并策略。</li></ul>| |Journey Optimizer库|<ul><li>**[!DNL Manage Library Items]**:添加和删除 [!DNL Journey Optimizer] 库。</li></ul>|
+|数据治理|<ul><li>**[!DNL Manage usage label]**:读取、创建和删除使用情况标签。</li><li>**[!DNL Manage data usage policies]**:读取、创建、编辑和删除数据使用策略。</li><li>**[!DNL View data usage policies]**:对数据使用策略的只读访问权限。</li><li>**[!DNL View user activity log]**:读取和导出审核日志。</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

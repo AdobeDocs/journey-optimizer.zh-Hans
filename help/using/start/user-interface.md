@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1220'
+ht-degree: 97%
 
 ---
 
@@ -110,158 +110,6 @@ ht-degree: 94%
 
 您可以从&#x200B;**[!UICONTROL 查看用例库]**&#x200B;按钮访问执行的用例。
 
-## 辅助功能{#accessibility}
-
-[!DNL Adobe Journey Optimizer] 中的辅助功能源自于 Adobe Experience Platform：
-
-* 键盘辅助功能
-* 颜色对比度
-* 验证必填字段
-
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"} 在Adobe Experience Platform文档中。
-
-您可以在 [!DNL Journey Optimizer] 中使用这些常用键盘快捷键：
-
-| 操作 | 快捷键 |
-| --- | --- |
-| 在用户界面元素、部分和菜单组之间移动 | Tab |
-| 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
-| 在部分内移动，将焦点设置到单个元素 | 箭头 |
-| 选择或清除焦点元素 | 回车键或空格键 |
-| 取消选择、折叠面板、或关闭对话框 | Esc |
-
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target="_blank"} 在Adobe Experience Platform文档中。
-
-您可以在 Journey Optimizer 的特定部分中使用这些快捷键：
-
-<table>
-  <thead>
-    <tr>
-      <th>界面元素</th>
-      <th>操作</th>
-      <th>快捷键</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>历程、操作、数据源或事件列表</td>
-    <td>创建历程、操作、数据源或事件</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">历程画布处于草稿状态</td>
-    <td>从左侧面板的第一个可用位置从上到下添加活动</td>
-    <td>双击活动</td>
-  </tr>
-  <tr>
-    <td>选择所有活动</td>
-    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
-  </tr>
-  <tr>
-    <td>删除选定的活动</td>
-    <td>Delete 键或退格键，然后按回车键以确认删除</td>
-  </tr>
-  <tr>
-    <td>放大和缩小（集中在画布或其任何子元素上）</td>
-    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
-  </tr>  
-  <tr>
-    <td>在每个活动和路径（集中在画布上）之间或在工具栏按钮（集中在工具栏上）之间导航</td>
-    <td>箭头键</td>
-  </tr>   
-  <tr>
-    <td>将焦点移到画布上下一个可操作的元素，工具栏是第一个</td>
-    <td>Tab</td>
-  </tr>  
-  <tr>
-    <td>打开右侧配置窗格（重点关注活动）</td>
-    <td>输入</td>
-  </tr>   
-  <tr>
-    <td>在画布中移动活动（集中于活动）</td>
-    <td>SHIFT +箭头键</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-以下元素的配置窗格：
-
-<ul>
-  <li>历程中的活动</li>
-  <li>事件</li>
-  <li>数据源</li>
-  <li>操作</li>
-</ul>
-
-</td>
-    <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
-  </tr>
-  <tr>
-    <td>保存更改并关闭配置窗格</td>
-    <td>回车键</td>
-  </tr>
-  <tr>
-    <td>放弃更改并关闭配置窗格</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">测试模式下的历程</td>
-    <td>启用或禁用测试模式</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>在基于事件的历程中触发事件</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-在基于区段的历程中触发事件，其中&#x200B;**[!UICONTROL 一次单个配置文件]**&#x200B;选项处于打开状态
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>显示测试日志</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>文本字段</td>
-    <td>选择所选字段中的所有文本</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">弹出窗口</td>
-    <td>保存更改或确认操作</td>
-    <td>回车键</td>
-  </tr>
-  <tr>
-    <td>关闭窗口</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>简单表达式编辑器</td>
-    <td>选择并添加字段</td>
-    <td>双击字段</td>
-  </tr>
-  <tr>
-    <td>浏览 XDM 字段</td>
-    <td>选择节点的所有字段</td>
-    <td>选择父节点</td>
-  </tr>
-  <tr>
-    <td>负载预览</td>
-    <td>选择有效负载</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-</table>
 
 ## 查找帮助和支持 {#find-help}
 
@@ -312,9 +160,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 过滤器列表{#filter-lists}
 
-在大多数列表中，搜索栏允许您搜索特定项目并选择筛选条件。
+在大多数列表中，使用搜索栏查找特定项目并定义筛选条件。
 
-单击列表左上角的过滤器图标即可访问过滤器。通过使用过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改过的元素。选项因上下文不同而异。
+单击列表左上角的过滤器图标，即可访问过滤器。 通过使用过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改过的元素。选项因上下文不同而异。
 
 在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;中筛选历程。类型可以是：**[!UICONTROL 单一事件]**、**[!UICONTROL 区段鉴别]**、**[!UICONTROL 读取区段]**、**[!UICONTROL 业务事件]**&#x200B;或&#x200B;**[!UICONTROL 突发]**。您可以从&#x200B;**[!UICONTROL 活动过滤器]**&#x200B;和&#x200B;**[!UICONTROL 数据过滤器]**&#x200B;中选择仅显示使用特定事件、字段组或操作的历程。通过&#x200B;**[!UICONTROL 发布过滤器]**，您可以选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
 

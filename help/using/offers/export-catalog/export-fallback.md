@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 3%
@@ -27,40 +27,50 @@ ht-degree: 3%
 
 以下是可在 **[!UICONTROL 决策对象存储库 — 备用选件]** 数据集。
 
-## 标识符 {#identifier}
++++ 标识符
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
-## _experience（体验） {#experience}
++++
+
++++ _experience（体验）
 
 **字段：** _体验
 **类型：** 对象
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **字段：** 决策
 **类型：** 对象
 
-#### _experience > decisioning >特征
++++
+
++++ _experience > decisioning >特征
 
 **字段：** 特征
 **标题：** 决策选项特性
 **描述：** 属于此特定决策选项的其他属性或属性。 不同的实例可能具有不同的特性（映射中的键）。 特征是用于区分一个决策选项与其他决策选项的名称值对。 特征用作表示此决策选项的内容中的值，以及用作分析和优化选项性能的功能。 当每个实例具有相同的属性或属性时，应将该方面建模为从决策选项详细信息派生的扩展架构。
 **类型：** 对象
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisioning >内容
++++ _experience > decisioning >内容
 
 **字段：** 内容
 **标题：** 内容详细信息
 **描述：** 在不同上下文中呈现决策项的内容项。 单个决策选项可以具有多个内容变体。 内容是指面向受众以便在（数字）体验中使用的信息。 通过渠道将内容交付到特定版面中。
 **类型：** 阵列
 
-**_experience > decisioning > contents > components**
++++
+
++++_体验>决策>内容>组件
 
 **字段：** 组件
 **描述：** 代表决策选项的内容的组件，包括其所有语言变体。 特定组件可通过“dx:format”、“dc:subject”和“dc:language”或其组合找到。 此元数据用于查找或表示与选件关联的内容，并根据版面合同对其进行集成。
@@ -148,14 +158,18 @@ ht-degree: 3%
    **类型：**字符串
    **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > contents > placement**
++++
+
++++ _experience > decisioning > contents > placement
 
 **字段：** 投放
 **标题：** 版面
 **描述：** 要符合的版面。 值是所引用的选件版面的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/placement 。
 **类型：**&#x200B;字符串
 
-#### _experience >决策>生命周期状态
++++
+
++++ _experience >决策>生命周期状态
 
 **字段：** lifecycleStatus
 **标题：** 生命周期状态
@@ -163,30 +177,40 @@ ht-degree: 3%
 **类型：** 字符串
 **可能值：** “草稿”（默认）、“已批准”、“实时”、“已完成”、“已存档”
 
-#### _experience > decisioning >决策选项名称
++++
+
++++ _experience > decisioning >决策选项名称
 
 **字段：** name
 **标题：** 决策选项名称
 **描述：** 各种用户界面中显示的选项名称。
 **类型：**&#x200B;字符串
 
-#### _experience > decisioning > tag
++++
+
++++ _experience > decisioning > tag
 
 **字段：** 标记
 **标题：** 标记
 **描述：** 与此实体关联的标记集。 标记在过滤器表达式中使用，用于将整体库存限制为子集（类别）。
 **类型：** 阵列
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **字段：** _repo
 **类型：** 对象
 
-### _repo >决策选项ETag
++++
+
++++ _repo >决策选项ETag
 
 **字段：** etag
 **标题：** 决策选项ETag
 **描述：** 拍摄快照时，决策选项对象所在的修订版本。
 **类型：**&#x200B;字符串
+
++++

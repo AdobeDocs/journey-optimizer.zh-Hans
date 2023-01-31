@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 3%
@@ -29,24 +29,30 @@ ht-degree: 3%
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## 标识符 {#identifier}
++++ 标识符
 
 **字段：** _id
 **标题：** 标识符
 **描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
-## _experience（体验） {#experience}
++++
+
++++ _experience（体验） {#experience}
 
 **字段：** _体验
 **类型：** 对象
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **字段：** 决策
 **类型：** 对象
 
-#### _experience > decisioning > calendarConstraints
++++
+
++++ _experience > decisioning > calendarConstraints
 
 **字段：** calendarConstraints
 **标题：** 日历约束详细信息
@@ -67,21 +73,27 @@ ht-degree: 3%
    **描述：** 决策选项有效期的开始日期。 尚未达到其开始日期的选项在决策过程中尚无法提议。
    **类型：**&#x200B;字符串
 
-#### _experience > decisioning >特征
++++
+
++++ _experience > decisioning >特征
 
 **字段：** 特征
 **标题：** 决策选项特性
 **描述：** 属于此特定决策选项的其他属性或属性。 不同的实例可能具有不同的特性（映射中的键）。 特征是用于区分一个决策选项与其他决策选项的名称值对。 特征用作表示此决策选项的内容中的值，以及用作分析和优化选项性能的功能。 当每个实例具有相同的属性或属性时，应将该方面建模为从决策选项详细信息派生的扩展架构。
 **类型：** 对象
 
-#### _experience > decisioning >内容
++++
+
++++ _experience > decisioning >内容
 
 **字段：** 内容
 **标题：** 内容详细信息
 **描述：** 在不同上下文中呈现决策项的内容项。 单个决策选项可以具有多个内容变体。 内容是指面向受众以便在（数字）体验中使用的信息。 通过渠道将内容交付到特定版面中。
 **类型：** 阵列
 
-**_experience > decisioning > contents > components**
++++
+
++++_体验>决策>内容>组件
 
 **字段：** 组件
 **描述：** 代表决策选项的内容的组件，包括其所有语言变体。 特定组件可通过“dx:format”、“dc:subject”和“dc:language”或其组合找到。 此元数据用于查找或表示与选件关联的内容，并根据版面合同对其进行集成。
@@ -168,14 +180,16 @@ ht-degree: 3%
    **类型：**字符串
    **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisioning > contents > placement**
++++_体验>决策>内容>版面
 
 **字段：** 投放
 **标题：** 版面
 **描述：** 要符合的版面。 值是所引用的选件版面的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/placement 。
 **类型：**&#x200B;字符串
 
-#### _experience >决策>生命周期状态
++++
+
++++ _experience >决策>生命周期状态
 
 **字段：** lifecycleStatus
 **标题：** 生命周期状态
@@ -183,35 +197,45 @@ ht-degree: 3%
 **类型：** 字符串
 **可能值：** “草稿”（默认）、“已批准”、“实时”、“已完成”、“已存档”
 
-#### _experience > decisioning >决策选项名称
++++
+
++++ _experience > decisioning >决策选项名称
 
 **字段：** name
 **标题：** 决策选项名称
 **描述：** 各种用户界面中显示的选项名称。
 **类型：**&#x200B;字符串
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **字段：** profileConstraints
 **标题：** 配置文件约束详细信息
 **描述：** 此时，配置文件约束将决定在此上下文中某个选项是否符合此配置文件标识的条件。 如果配置文件约束不需要考虑每个选项的值，即选项选择中的选项不变，则计算为“false”的配置文件约束会取消整个选项选择。 另一方面，将为选项选择的每个限定选项评估以选项作为参数的配置文件约束规则。
 **类型：** 对象
 
-**_experience > decisioning > profileConstraints >描述**
++++
+
++++_体验>决策> profileConstraints >描述
 
 **字段：** 描述
 **标题：** 描述
 **描述：** 配置文件约束描述。 它用于传达人类可读的意图，说明如何构建此用户档案约束以及/或该用户档案约束将包含或排除哪个选项。
 **类型：**&#x200B;字符串
 
-**_experience > decisioning > profileConstraints >资格规则**
++++
+
++++_体验>决策> profileConstraints >资格规则
 
 **字段：** igilityRule
 **标题：** 资格规则
 **描述：** 对决策规则的引用，该规则对给定配置文件和/或其他给定上下文XDM对象的计算结果为true或false。 该规则用于确定选项是否符合给定用户档案的条件。 该值是引用的决策规则的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rule 。
 **类型：**&#x200B;字符串
 
-**_experience > decisioning > profileConstraints >配置文件约束类型**
++++
+
++++_体验>决策>配置文件约束>配置文件约束类型
 
 **字段：** profileConstraintType
 **标题：** 轮廓约束类型
@@ -224,7 +248,9 @@ ht-degree: 3%
 * &quot;allSegments&quot;:“配置文件约束以一个或多个区段表示，并且配置文件必须是所有区段的成员，然后才能允许约束操作。”
 * &quot;rules&quot;:“用户档案约束以许多不同的规则表示，例如资格、适用性、适用性，所有规则都必须在允许约束操作之前评估为true。”
 
-**_experience > decisioning > profileConstraints >区段标识符**
++++
+
++++_体验>决策> profileConstraints >区段标识符
 
 **字段：** segmentIdentities
 **标题：** 区段标识符
@@ -260,14 +286,18 @@ ht-degree: 3%
    **描述：** 如果存在，则此值表示跨命名空间标识符，该标识符在所有命名空间中所有命名空间范围内的标识符都是唯一的。
    **类型：**&#x200B;字符串
 
-#### _experience >决策>排名
++++
+
++++ _experience >决策>排名
 
 **字段：** 排名
 **标题：** 排名详细信息
 **描述：** 排名（优先级）。 定义在决策标准的上下文下被视为\&quot;最佳操作\&quot;的内容。 在符合资格约束的所有选定选项中，排名顺序将决定要建议的排名前（或排名前N）的选项。
 **类型：** 对象
 
-**_experience > decisioning >排名>订单评估**
++++
+
++++_体验>决策>排名>订单评估
 
 **字段：** 订购
 **标题：** 订单评估
@@ -296,7 +326,9 @@ ht-degree: 3%
    **描述：** 对决策选项列表进行排名的策略的引用。 决策选项将在有序列表中返回。 此属性的值是要一次通过on选项调用的函数的URI(@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rankingStrategy 。
    **类型：**&#x200B;字符串
 
-**_experience > decisioning >排名>优先级**
++++
+
++++_体验>决策>排名>优先级
 
 **字段：** 优先级
 **标题：** 优先级
@@ -305,23 +337,31 @@ ht-degree: 3%
 **最小值：** 0
 **默认值：** 0
 
-#### _experience > decisioning > tag
++++
+
++++ _experience > decisioning > tag
 
 **字段：** 标记
 **标题：** 标记
 **描述：** 与此实体关联的标记集。 标记用在过滤器表达式中，用于将整体库存限制为子集（类别）。
 **类型：** 阵列
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **字段：** _repo
 **类型：** 对象
 
-### _repo >决策选项ETag
++++
+
++++ _repo >决策选项ETag
 
 **字段：** etag
 **标题：** 决策选项ETag
 **描述：** 拍摄快照时，决策选项对象所在的修订版本。
 **类型：**&#x200B;字符串
+
++++

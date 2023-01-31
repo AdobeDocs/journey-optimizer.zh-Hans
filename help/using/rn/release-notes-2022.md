@@ -4,7 +4,7 @@ product: journey optimizer
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 99%
@@ -234,7 +234,7 @@ ht-degree: 99%
 
 ### 其他更改{#sept-2022-other}
 
-* 历程突发模式已被 Campaign 快速投放模式取代。[了解详情](../campaigns/create-campaign.md#rapid-delivery)
+* 历程突发模式已被 Campaign 快速投放模式取代。[了解详情](../push/create-push.md#rapid-delivery)
 * 为了提高性能，从读取区段、区段鉴别或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
 * 已移除计划读取区段历程的 1 小时限制。这些历程现在可以毫不延迟地执行。
 

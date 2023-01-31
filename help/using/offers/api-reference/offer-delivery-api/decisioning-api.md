@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,9 @@ ht-degree: 3%
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API格式**
+## API请求 {#request}
+
+### API格式
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -43,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | 决策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**请求**
+### 请求
 
 ```shell
 curl -X POST \
@@ -122,7 +124,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | 此标记标识为 `xdm:option`. | `name`、`characteristics` |
 | `xdm:responseFormat.xdm:placement` | 此标记标识为 `xdm:placement`. | `name`、`channel`、`componentType` |
 
-**响应**
+### 响应
 
 成功的响应会返回有关您的建议的信息，包括其独特性 `xdm:propositionId`.
 
@@ -192,6 +194,20 @@ curl -X POST \
 | `xdm:propositions.xdm:fallback.dc:format` | 资源的物理或数字显示。 通常，格式应包括资源的媒体类型。 该格式可用于确定显示或操作资源所需的软件、硬件或其它设备。 建议从受控词汇表(例如， [Internet媒体类型](http://www.iana.org/assignments/media-types/) 定义计算机媒体格式。 | `"dc:format": "image/png"` 或 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 用于从内容交付网络或服务端点读取资产的可选URL。 此URL用于从用户代理公开访问资产。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 创建决策响应消息的时间。 这表示为纪元时间。 | `"ode:createDate": 1566497582038` |
+
+**响应代码**
+
+下表列出了可在响应中返回的所有代码：
+
+| 代码 | 描述 |
+|  ---  |  ---  |
+| 200 | 成功. 已就特定活动作出决定 |
+| 400 | 请求参数无效。 由于语法格式错误，服务器无法理解请求。 |
+| 403 | 禁止，权限不足。 |
+| 422 | 不可处理的实体。 请求语法正确，但由于语义错误，无法处理它。 |
+| 429 | 请求过多。 用户在给定的时间内发送了过多请求。 |
+| 500 | 内部服务器错误。 服务器遇到意外情况，导致其无法执行请求。 |
+| 503 | 由于服务器过载，服务不可用。 由于临时过载，服务器当前无法处理该请求。 |
 
 ## 教程视频 {#video}
 

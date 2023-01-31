@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 创建，优化程序，营销活动，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '754'
 ht-degree: 8%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 8%
 
    平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
+   下拉列表中只列出与营销活动类型兼容的渠道表面。
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >下拉列表中只列出与营销活动类型兼容的渠道表面。
+   >如果要创建推送通知营销活动，则可以启用 **[!UICONTROL 快速投放模式]**，这是一个Journey Optimizer加载项，允许以非常快的速度发送大量推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
 
 1. 单击 **[!UICONTROL 创建]** 创建营销活动。
 

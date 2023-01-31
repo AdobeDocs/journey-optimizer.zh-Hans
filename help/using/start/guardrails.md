@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 94%
 
 ---
 
 # 护栏和限制 {#limitations}
 
- [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}列出了授权、产品限制和性能护栏。
+授权、产品限制和性能护栏列在 [Adobe Journey Optimizer产品描述页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+您还需要了解 [开始之前，对实时客户资料数据的防范](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}.
 
 下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
 
@@ -29,7 +31,7 @@ ht-degree: 100%
 
 ## 决策管理护栏 {#offer-guardrails}
 
-[Adobe Offer Decisioning 应用程序服务产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}列出了决策的性能护栏和静态限制。
+决策的性能护栏和静态限制列在 [AdobeOffer decisioning应用程序服务产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## 登陆页面护栏 {#lp-guardrails}

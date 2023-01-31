@@ -4,16 +4,23 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '2220'
-ht-degree: 100%
+source-wordcount: '2282'
+ht-degree: 97%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2023 年 1 月 {#jan-2023}
+
+* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’23年1月版进行了详细介绍。 [了解详情](release-notes.md)
+* 中的辅助功能 [!DNL Journey Optimizer] 现在将分组到专用页面中。 [了解详情](../start/accessibility.md)
+* 在 [!DNL Journey Optimizer]. [了解详情](../data/gs-data.md)
+* 添加了一个表格，其中列出了使用决策API交付选件时，响应中可返回的所有代码。 [了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022 年 12 月 {#december-2022}
 

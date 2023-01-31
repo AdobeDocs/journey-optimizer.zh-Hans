@@ -1,0 +1,170 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Journey Optimizer中的辅助功能
+description: 进一步了解Journey Optimizer用户界面中的辅助功能
+feature: Overview
+role: User
+level: Beginner
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 54%
+
+---
+
+# Journey Optimizer中的辅助功能{#accessibility}
+
+辅助功能是指使软件产品尽可能少地用于患有视觉、听觉、认知、运动或其他类型的残疾的用户的一系列功能。 Adobe是无障碍领域的行业领先者，通过鼓励开发人员制作可供所有用户访问的丰富且引人入胜的内容，支持创建出色的Web体验。 进一步了解Adobe在 [Adobe辅助功能页面](https://www.adobe.com/accessibility.html){target="_blank"}.
+
+为帮助实现符合无障碍性的目标， [!DNL Journey Optimizer] 遵循《Web内容无障碍准则》(WCAG)2.1 A级和AA级中国际公认的最佳实践。 在最新版本中了解更多信息 [Adobe Journey Optimizer无障碍合规性报告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+
+
+[!DNL Adobe Journey Optimizer] 中的辅助功能源自于 Adobe Experience Platform：
+
+* 键盘辅助功能
+* 颜色对比度
+* 验证必填字段
+
+详细介绍了Adobe Experience Platform中的辅助功能 [在本文档中](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}.
+
+以下常用键盘快捷键位于 [!DNL Journey Optimizer]:
+
+| 操作 | 快捷键 |
+| --- | --- |
+| 在用户界面元素、部分和菜单组之间移动 | Tab |
+| 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
+| 在部分内移动，将焦点设置到单个元素 | 箭头 |
+| 选择或清除焦点元素 | 回车键或空格键 |
+| 取消选择、折叠面板、或关闭对话框 | Esc |
+
+您可以在 [!DNL Journey Optimizer] 用户界面：
+
+<table>
+  <thead>
+    <tr>
+      <th>界面元素</th>
+      <th>操作</th>
+      <th>快捷键</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>历程、操作、数据源或事件列表</td>
+    <td>创建历程、操作、数据源或事件</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">历程画布处于草稿状态</td>
+    <td>从左侧面板的第一个可用位置从上到下添加活动</td>
+    <td>双击活动</td>
+  </tr>
+  <tr>
+    <td>选择所有活动</td>
+    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>删除选定的活动</td>
+    <td>Delete 键或退格键，然后按回车键以确认删除</td>
+  </tr>
+  <tr>
+    <td>放大和缩小（集中在画布或其任何子元素上）</td>
+    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
+  </tr>  
+  <tr>
+    <td>在每个活动和路径（集中在画布上）之间或在工具栏按钮（集中在工具栏上）之间导航</td>
+    <td>箭头键</td>
+  </tr>   
+  <tr>
+    <td>将焦点移到画布上下一个可操作的元素，工具栏是第一个</td>
+    <td>Tab</td>
+  </tr>  
+  <tr>
+    <td>打开右侧配置窗格（重点关注活动）</td>
+    <td>输入</td>
+  </tr>   
+  <tr>
+    <td>在画布中移动活动（集中于活动）</td>
+    <td>SHIFT +箭头键</td>
+  </tr>  
+  <tr>
+  <td rowspan="3">
+
+以下元素的配置窗格：
+
+<ul>
+  <li>历程中的活动</li>
+  <li>事件</li>
+  <li>数据源</li>
+  <li>操作</li>
+</ul>
+
+</td>
+    <td>移到要配置的下一个字段</td>
+    <td>Tab</td>
+  </tr>
+  <tr>
+    <td>保存更改并关闭配置窗格</td>
+    <td>回车键</td>
+  </tr>
+  <tr>
+    <td>放弃更改并关闭配置窗格</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">测试模式下的历程</td>
+    <td>启用或禁用测试模式</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>在基于事件的历程中触发事件</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+在基于区段的历程中触发事件，其中&#x200B;**[!UICONTROL 一次单个配置文件]**&#x200B;选项处于打开状态
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>显示测试日志</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>文本字段</td>
+    <td>选择所选字段中的所有文本</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">弹出窗口</td>
+    <td>保存更改或确认操作</td>
+    <td>回车键</td>
+  </tr>
+  <tr>
+    <td>关闭窗口</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>简单表达式编辑器</td>
+    <td>选择并添加字段</td>
+    <td>双击字段</td>
+  </tr>
+  <tr>
+    <td>浏览 XDM 字段</td>
+    <td>选择节点的所有字段</td>
+    <td>选择父节点</td>
+  </tr>
+  <tr>
+    <td>负载预览</td>
+    <td>选择有效负载</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+</table>
