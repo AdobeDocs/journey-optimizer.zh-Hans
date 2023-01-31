@@ -1,14 +1,14 @@
 ---
 keywords: Journey Optimizer；主页；热门主题
 title: Journey Optimizer 产品文档
-description: 了解如何使用Adobe Journey Optimizer。
+description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 94%
 </table>
 
 
-![新闻稿](using/assets/do-not-localize/nl-icon.png) 注册 [Adobe Journey Optimizer季刊](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} 今天！
+![新闻稿](using/assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}！
 
 每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。
 
