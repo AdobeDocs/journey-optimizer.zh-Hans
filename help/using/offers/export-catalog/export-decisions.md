@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 3%
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 +++
 
-+++ _experience > decisioning >标准>描述**
++++ _experience > decisioning > criteria > descriptioning
 
 **字段：** 描述
 **标题：** 描述
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 +++
 
-+++_体验>决策>标准>版面**
++++_体验>决策>标准>版面
 
 **字段：** 投放
 **标题：** 版面限制
@@ -125,7 +125,7 @@ ht-degree: 3%
 
 +++
 
-+++_体验>决策>标准> profileConstraints**
++++_体验>决策>标准> profileConstraints
 
 **字段：** profileConstraints
 **标题：** 轮廓约束
@@ -205,7 +205,7 @@ ht-degree: 3%
 
 +++
 
-+++_体验>决策>标准>排名**
++++_体验>决策>标准>排名
 
 **字段：** 排名
 **标题：** 排名详细信息
@@ -292,7 +292,7 @@ ht-degree: 3%
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **字段：** _repo
 **类型：** 对象
