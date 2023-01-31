@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限，创作，消息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1144'
 ht-degree: 10%
 
 ---
@@ -107,8 +107,18 @@ ht-degree: 10%
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-的 **[!DNL Decisioning manager]** 产品配置文件仅允许 **[!UICONTROL 决策管理]** 菜单。 分配给此产品配置文件的用户将只能管理、查看和发布决策。
+的 **[!DNL Decisioning manager]** 产品配置文件仅允许访问 **[!UICONTROL 决策管理]** 菜单。 分配给此产品配置文件的用户将只能管理、查看和发布决策。
 
 此产品用户档案包括以下权限：
 
 |功能 |权限| |-|-| |决策管理| <ul><li>**[!DNL Manage decisions]**:读取、创建、编辑和删除决策实体。</li><li>**[!DNL View decisions]**:对决策实体的只读访问权限。</li><li>**[!DNL Manage ranking strategies]**:读取、创建、编辑和删除自定义报表以及使用操作功能。</li><li>**[!DNL Publish decisions]**:激活或停用决策活动。</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+的 **[!DNL Content Library Manager]** 产品配置文件仅允许访问 **[!UICONTROL 内容模板]** 菜单。 分配给此产品配置文件的用户将只能访问模板库以创建内容，而无需访问历程或营销活动。
+
+此产品用户档案包括以下权限：
+
+|功能 |权限| |-|-| |Journey Optimizer库| <ul><li>**[!DNL Manage library items]**:读取、创建、编辑和删除Journey Optimizer库项目。</li><li>**[!DNL Manage simulate content]**:对 **[!UICONTROL 模拟内容]** 选项进行预览和校样。</li></ul>|
+|决策管理|<ul><li>**[!DNL Manage decisions]**:读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**:读取、创建、编辑和删除自定义报表以及使用操作功能。</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**:读取、创建、编辑和删除区段。</li><li>**[!DNL Manage profiles]**:读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**:对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**:对架构的只读访问。</li><li>**[!DNL Manage merge policies]**:读取、创建、编辑和删除合并策略。</li></ul>|

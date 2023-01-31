@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件，模板，设计
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 5%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 5%
 
 您可以选择：
 * 20个现成的电子邮件模板。
-* 保存的模板。 [了解详情](#use-saved-template)
+* 保存的电子邮件模板。 [了解详情](#use-saved-template)
+* 内容模板. [了解详情](content-templates.md)
 
 ## 另存为模板 {#save-as-template}
 
@@ -34,6 +35,10 @@ ht-degree: 5%
 >abstract="2022年7月25日，“消息”菜单消失，消息现在直接从历程创作。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
 
 设计完 [电子邮件内容](get-started-email-design.md)，则可以保存它以供将来重复使用。 为此，请执行以下步骤。
+
+>[!CAUTION]
+>
+>要将内容另存为模板，您必须具有 **[!DNL Manage Library Items]** 包含的权限 **[!DNL Content Library Manager]** 产品配置文件。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. 单击屏幕右上方的省略号。
 
@@ -46,6 +51,8 @@ ht-degree: 5%
    ![](assets/email_designer-template-name.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+此模板将保存到内容模板列表中。 [了解详情](content-templates.md)
 
 下次创建电子邮件时，您可以使用此模板来构建内容。 [了解如何](#use-saved-template)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 电子邮件，设计，库存，资产
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 18%
@@ -45,7 +45,6 @@ ht-degree: 18%
       >[!NOTE]
       >
       >在营销策划中，您还可以选择 **[!UICONTROL 代码编辑器]** 按钮 **[!UICONTROL 编辑内容]** 屏幕。 [了解详情](create-email.md#define-email-content)
-
 
    * **导入现有HTML内容** 文件或.zip文件夹中。 了解如何在 [此部分](existing-content.md).
 
