@@ -11,13 +11,13 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
 # 护栏和限制 {#limitations}
 
-授权、产品限制和性能护栏列在 [Adobe Journey Optimizer产品描述页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 您还需要了解 [开始之前，对实时客户资料数据的防范](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}.
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 ## 决策管理护栏 {#offer-guardrails}
 
-决策的性能护栏和静态限制列在 [AdobeOffer decisioning应用程序服务产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+[Adobe Offer Decisioning 应用程序服务产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}列出了决策的性能护栏和静态限制。
 
 
 ## 登陆页面护栏 {#lp-guardrails}
