@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer 构建于 Adobe Experience Platform 之上，原生连接到 [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。此内置数据源已预配置，旨在检索和使用 Real-time Customer Profile 中的数据（例如，检查进入历程的人员是否为客户）。该数据源允许您使用用户档案数据和体验事件数据。[了解详情](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe Journey Optimizer 构建于 Adobe Experience Platform 之上，以原生方式连接到 [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。此内置数据源已预配置，旨在检索和使用 Real-time Customer Profile 中的数据（例如，检查进入历程的人员是否为客户）。该数据源允许您使用用户档案数据和体验事件数据。[了解详情](../datasource/adobe-experience-platform-data-source.md)。
 
 ## 了解 Adobe Customer Journey Analytics{#integration-cja}
 
@@ -59,7 +59,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 ## 自定义渠道{#integration-custom}
 
-如果您使用第三方系统发送消息，或者如果您希望历程将 API 调用发送到第三方系统，请使用自定义操作连接到您的历程。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}、Firebase 等。
+如果您使用第三方系统发送消息，或者如果您希望历程将 API 调用发送到第三方系统，请使用自定义操作连接到您的历程。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等。
 
 自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
 
