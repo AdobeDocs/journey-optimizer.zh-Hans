@@ -6,8 +6,8 @@ description: 作为系统管理员，了解有关如何使用 Journey Optimizer 
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: tm+mt
-source-wordcount: '735'
+workflow-type: ht
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
@@ -19,30 +19,30 @@ ht-degree: 100%
 
 作为&#x200B;**系统管理员**，您需要&#x200B;**了解产品配置文件并为沙盒管理和渠道配置分配权限**。您还需要设置沙盒，并为可用的产品配置文件管理这些沙盒。然后，您便能够将团队成员分配到产品配置文件中。
 
-这些功能可以由有权访问 Admin console 的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;管理。[进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/admin-guide.html){target=&quot;_blank&quot;}。
+这些功能可以由有权访问 Admin console 的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;管理。[进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/admin-guide.html){target="_blank"}。
 
 在以下页面中了解访问管理：
 
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。**沙盒**&#x200B;在 [!DNL Journey Optimizer] 中创建。在[沙盒](../../administration/sandboxes.md)部分了解详情。
 
    >[!NOTE]
-   >作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
+   >作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
 
 1. **了解产品配置文件**。产品配置文件是一组单一的权利，允许用户访问界面中的特定功能或对象。在[开箱即用的产品配置文件](../../administration/ootb-product-profiles.md)中了解详情。
 
-1. 为产品配置文件（包括&#x200B;**沙箱**）**设置权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。此步骤在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中执行。权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
+1. 为产品配置文件（包括&#x200B;**沙箱**）**设置权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。此步骤在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中执行。权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
 
-此外，还须将需要访问 Assets Essentials 的用户添加到 **Assets Essentials Consumer Users** 或/和 **Assets Essentials Users** 产品配置文件中。[详情请参阅 Assets Essentials 文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+此外，还须将需要访问 Assets Essentials 的用户添加到 **Assets Essentials Consumer Users** 或/和 **Assets Essentials Users** 产品配置文件中。[请参阅 Assets Essentials 文档以了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"}。
 
 >[!NOTE]
->对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 [!DNL Adobe Experience Manager Assets Essentials]。在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target=&quot;_blank&quot;} 部分了解详情。
+>对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 [!DNL Adobe Experience Manager Assets Essentials]。在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"} 部分中了解详情。
 
 首次访问 [!DNL Journey Optimizer] 时，系统会为您预置一个生产沙盒，并根据您的合同分配特定数量的 IP。
 
 要创建您的历程并发送消息，请访问&#x200B;**管理**&#x200B;菜单。浏览&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单以配置消息和渠道界面（即消息预设）。
 
 >[!NOTE]
->作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
+>作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
 
 请遵循以下步骤：
 
