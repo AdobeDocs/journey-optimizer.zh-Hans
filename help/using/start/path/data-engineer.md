@@ -6,8 +6,8 @@ description: 作为历程工程师，了解有关如何使用 Journey Optimizer 
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->要了解有关&#x200B;**数据摄取**&#x200B;的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+>要了解有关&#x200B;**数据摄取**&#x200B;的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
 
 以下各部分中详细介绍了为用户档案和测试用户档案创建身份命名空间和启用数据集的步骤：
 
