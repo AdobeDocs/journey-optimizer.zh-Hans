@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 历程，发现，快速入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 29%
+source-wordcount: '590'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 29%
 
 ## 创建历程的步骤{#steps-journey}
 
-使用Adobe Journey Optimizer从单个画布设计和编排个性化历程。
+使用Adobe Journey Optimizer从单个画布设计和编排个性化历程。 创建历程的主要步骤如下：
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。
 
@@ -69,7 +71,7 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 在历程列表中，所有历程版本均显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
-当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版本界面的顶部画布上方。
+当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版界面的顶部，画布上方。
 
 ![](assets/journeyversions1.png)
 
