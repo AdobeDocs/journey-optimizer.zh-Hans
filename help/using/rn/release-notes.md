@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 92%
@@ -56,9 +56,8 @@ ht-degree: 92%
 <td>
 <p>您现在可以创建独立的内容模板，这些模板可以跨历程和促销活动使用，以便快速重复使用。</p> 
 </p>
-<!--img src="assets/do-not-localize/"/-->
-<p>了解如何在 <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">此视频</a>.
-<p>有关更多信息，请参阅<a href="../email/content-templates.md">详细文档</a>。
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>了解如何在 <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">此视频</a>. 有关更多信息，请参阅<a href="../email/content-templates.md">详细文档</a>。
 </p>
 </td>
 </tr>
