@@ -4,16 +4,20 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 97%
+source-wordcount: '2307'
+ht-degree: 96%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2023 年 2 月 {#feb-2023}
+
+* 在API触发的营销活动文档中添加了注释，以指定传递到请求的上下文属性不能超过50kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 
 ## 2023 年 1 月 {#jan-2023}
 
