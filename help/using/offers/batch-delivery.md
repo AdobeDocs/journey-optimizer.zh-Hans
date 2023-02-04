@@ -2,9 +2,9 @@
 title: 批量决策
 description: 了解如何向给定Adobe Experience Platform区段中的所有用户档案提供优惠决策。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
    >[!NOTE]
    >
-   >批处理作业在每天发生一次的配置文件快照之外运行。 批量决策会限制频率并始终从最新快照加载用户档案。
+   >批处理作业在每天发生一次的配置文件快照之外运行。 批量决策会限制频率并始终从最新快照加载用户档案。 在尝试批量决策API之前，请等待最长24小时（在创建区段后）。
 
 * **决定** 在Adobe Journey Optimizer。 [了解如何创建决策](offer-activities/create-offer-activities.md)
 
