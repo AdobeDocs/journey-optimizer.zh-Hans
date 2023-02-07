@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,19 @@ ht-degree: 0%
 
 要访问排除的电子邮件地址和域的详细列表，请浏览 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择 **[!UICONTROL 禁止列表]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >查看、导出和管理抑制列表的权限限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在 [此部分](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 过滤器可帮助您浏览列表。
 
 ![](assets/suppression-list-filters.png)
 
-您可以在 **[!UICONTROL 抑制类别]**, **[!UICONTROL 地址类型]**&#x200B;或 **[!UICONTROL 原因]**. 为每个标准选择您选择的选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
+您可以在 **[!UICONTROL 抑制类别]**, **[!UICONTROL 地址类型]**&#x200B;或 **[!UICONTROL 原因]**. 为每个条件选择一个或多个选项。 选择后，您可以清除每个过滤器或列表顶部显示的所有过滤器。
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 * **柔和**:软退回是针对有效电子邮件地址发生的临时电子邮件退回。 多次重试后，电子邮件地址会添加到抑制列表。 当错误计数达到限制阈值时，软错误会向抑制列表发送地址。 [了解有关重试的更多信息](retries.md)
 
-* **手动**:手动错误已手动添加到禁止列表。 [了解详情](#add-addresses-and-domains)
+* **手动**:手动错误已被手动添加到禁止列表。 [了解详情](#add-addresses-and-domains)
 
 对于列出的每个电子邮件地址，您还可以检查 **[!UICONTROL 类型]** （电子邮件或域）、 **[!UICONTROL 原因]** ，以及将其添加到禁止列表的日期/时间。
 
