@@ -4,9 +4,9 @@ product: journey optimizer
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: ht
-source-wordcount: '3583'
+source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+workflow-type: tm+mt
+source-wordcount: '3575'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>作为 Journey Optimizer 用户，您现在可以通过用户界面访问系统警报，在历程工作异常时获得通知。您可以查看可用的警报并订阅它们。如果读取区段活动在定义的时间范围内未处理任何用户档案，则此版本中提供的第一个警报将会警告您。解锁此工作流程后，将会有更多内容。</p>
-<p>有关更多信息，请参阅<a href="../reports/alerts.md">详细文档</a>。
+<!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
