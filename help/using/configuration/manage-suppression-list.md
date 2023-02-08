@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 抑制规则  {#suppression-rules}
 
-从 **[!UICONTROL 禁止列表]** 视图中，您还可以在 **[!UICONTROL “编辑禁止规则”按钮]**. 使用此选项可更新当前沙盒的重试阈值。 [了解详情](retries.md)
+从 **[!UICONTROL 禁止列表]** 视图中，您还可以在 **[!UICONTROL 编辑隐藏规则]** 按钮。 使用此选项可更新当前沙盒的重试阈值。 [了解有关重试的更多信息](retries.md).
 
 
 ## 将地址和域添加到禁止列表{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. 选择地址类型： **[!UICONTROL 电子邮件地址]** 或 **[!UICONTROL 域地址]**.
+1. 选择地址类型： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 域]**.
 
 1. 输入要从发送中排除的电子邮件地址或域。
 
