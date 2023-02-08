@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 2%
 
 ---
 
 # 使用内容模板 {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="创建内容模板"
->abstract="创建独立模板以在历程和营销活动中重复使用内容。"
 
 为了加快和改进设计过程，您可以创建独立模板以在 [!DNL Journey Optimizer] 营销活动和历程。
 
@@ -58,6 +53,11 @@ ht-degree: 2%
 >编辑或删除模板时，包括使用此模板创建的电子邮件在内的营销活动或历程将不受影响。
 
 ## 创建内容模板 {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="定义您自己的内容模板"
+>abstract="从头开始创建一个独立的自定义模板，以使内容可在多个历程和营销活动中重复使用。"
 
 有两种方法可以创建内容模板：
 

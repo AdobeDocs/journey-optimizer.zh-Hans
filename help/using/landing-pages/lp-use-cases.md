@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 登陆，登陆页面，用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 13%
+source-wordcount: '952'
+ht-degree: 14%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 13%
 
 ### 选择退出管理 {#opt-out-management}
 
-向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。详细了解 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}.
+向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}中进一步了解适用的法规。
 
 因此，您必须在发送给收件人的每封电子邮件中都加入&#x200B;**取消订阅链接**：
 
@@ -160,6 +160,13 @@ ht-degree: 13%
 ![](assets/lp_opt-out-profile-choice.png)
 
 在 **[!UICONTROL 属性]** 选项卡，您可以看到 **[!UICONTROL 选择]** 已更改为 **[!UICONTROL 否]**.
+
+选择退出信息存储在 **同意服务数据集**. [了解有关数据集的更多信息](../data/get-started-datasets.md)
+
+>[!NOTE]
+>
+>如果默认的合并方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+
 
 <!--
 

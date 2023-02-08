@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -168,44 +168,6 @@ ht-degree: 0%
    ![](assets/email_designer_10.png)
 
 1. 调整其他样式属性，如边距、边框等。 或添加链接，以将受众重定向到 **[!UICONTROL 组件设置]** 中。
-
-## 视频 {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="视频设置"
->abstract="使用此组件可在电子邮件中插入视频。 请注意，视频并非适用于所有电子邮件客户端。 我们建议设置备用图像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="视频设置"
->abstract="使用此组件可在登陆页面中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="视频设置"
->abstract="使用此组件在片段中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="视频设置"
->abstract="使用此组件可在模板中插入视频。 请注意，视频并非适用于所有消息客户端。 我们建议设置备用图像。"
-
-使用 **[!UICONTROL 视频]** 组件，通过URL链接将视频插入电子邮件内容。
-
-1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 视频]** 组件 **[!UICONTROL 结构部件]**.
-
-   ![](assets/email_designer_17.png)
-
-1. 单击新添加的组件。
-
-1. 在 **[!UICONTROL 视频链接]** 字段 **[!UICONTROL 组件设置]** 窗格，添加您的视频URL。
-
-   ![](assets/email_designer_18.png)
-
-1. 您可以添加 **[!UICONTROL 海报图像]** ，以指定要显示的图像，直到受众单击播放按钮为止。
-
-1. 调整其他样式属性，如样式、边距、边框等。 从 **[!UICONTROL 组件设置]** 中。
 
 ## 社交 {#social}
 

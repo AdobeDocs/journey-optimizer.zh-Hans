@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 96%
+source-wordcount: '2330'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 96%
 ## 2023 年 2 月 {#feb-2023}
 
 * 在API触发的营销活动文档中添加了注释，以指定传递到请求的上下文属性不能超过50kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
+
+* 添加了有关如何在 **同意服务数据集** 收件人通过登陆页面取消订阅后，退订。 [了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 

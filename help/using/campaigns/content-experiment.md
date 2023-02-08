@@ -11,9 +11,9 @@ keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1116'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 4%
 >
 >的 **内容实验** 功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
 
-使用Journey Optimizer内容实验定义多种投放处理方式。 兴趣的受众被随机分配给每个治疗，以便确定哪个治疗在兴趣量度方面表现最佳。 您可以选择更改投放内容、主题或发件人。
+Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡量哪种交付处理方式对目标受众的效果最佳。 您可以选择更改投放内容、主题或发件人。 兴趣的受众随机分配给每个治疗，以确定哪个治疗在指定量度方面效果最佳。
 
 >[!NOTE]
 >
@@ -52,68 +52,53 @@ ht-degree: 4%
 
    ![](assets/content_experiment_1.png)
 
-1. 选择您的渠道，然后选择 **[!UICONTROL 曲面]** 要用于此投放。 有关更多信息，请参阅 [通道曲面](../configuration/channel-surfaces.md) 页面。
+1. 选择您的渠道，然后选择 **[!UICONTROL 曲面]** 要用于此投放，请单击 **[!UICONTROL 创建]**. 有关更多信息，请参阅 [通道曲面](../configuration/channel-surfaces.md) 页面。
 
    ![](assets/content_experiment_2.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
-
 1. 设置 **[!UICONTROL 属性]** 投放内容：
-   * **[!UICONTROL 标题]**
-   * **[!UICONTROL 描述]**
-   * **[!UICONTROL 类别]**: **[!UICONTROL 营销]** / **[!UICONTROL 事务型]**
-
-1. 要开始内容实验，请将 **[!UICONTROL 内容实验]** 选项。 的 **[!UICONTROL 内容实验]** 菜单。
-
-   ![](assets/content_experiment_3.png)
+   * **[!UICONTROL 名称]**
+   * **[!UICONTROL 说明]**
 
 1. 定义要定位的受众。 为此，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用的Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
 
    在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解详情](get-started-experiment.md#content-experiment-work)
 
-1. 要在特定日期或定期频率执行营销活动，请配置计划部分。 [了解详情](create-campaign.md)
+   ![](assets/content_experiment_16.png)
 
-1. 单击 **[!UICONTROL 编辑内容]** 开始个性化您的 **[!UICONTROL 治疗]**.
+1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开次数。
 
-   ![](assets/content_experiment_4.png)
+   一旦执行了营销活动，即可从营销活动报表访问跟踪结果。
 
-## 创建您的治疗方案 {#treatment-experiment}
+1. 要在特定日期或定期频率执行营销活动，请配置 **[!UICONTROL 计划]** 中。 [了解详情](create-campaign.md)
 
-1. 从 **[!UICONTROL 编辑内容]** 窗口中，开始个性化您的治疗A。
+1. 单击 **[!UICONTROL 编辑内容]** 以开始个性化投放。 [了解详情](../email/content-from-scratch.md)
 
-   对于这种处理，我们将直接在主题行中指定特价。
+   ![](assets/content_experiment_17.png)
+
+1. 从 **[!UICONTROL 编辑内容]** 窗口，开始个性化处理A。
+
+   对于此处理方式，我们将直接在主题行中指定特殊选件并添加个性化。
 
    ![](assets/content_experiment_5.png)
 
-1. 在设计您的第一个治疗方案后， **[!UICONTROL 更多操作]** 按钮，单击 **[!UICONTROL 复制]**.
-
-   您还可以选择从头开始单击 **[!UICONTROL 内容实验]** 按钮 ![](assets/content_experiment_16.png) 访问高级选项，然后 **[!UICONTROL 添加治疗]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. 更改 **[!UICONTROL 标题]** 以便更好地区分他们。
-
-   ![](assets/content_experiment_8.png)
-
-1. 根据需要将第二次处理个性化。
-
-   在此，我们选择不在 **[!UICONTROL 主题行]**.
-
-   ![](assets/content_experiment_9.png)
-
-个性化处理后，即可开始配置内容实验。
-
 ## 配置内容实验 {#configure-experiment}
 
-1. 当这两个投放都进行了个性化后， **[!UICONTROL 编辑内容]** 窗口，选择 **[!UICONTROL 配置内容实验]**.
+1. 在您的投放进行个性化后，从Campaign摘要页面，单击 **[!UICONTROL 创建实验]** 以开始配置内容实验。
 
-   ![](assets/content_experiment_10.png)
+   ![](assets/content_experiment_3.png)
 
-1. 选择要为实验设置的目标。
+1. 选择 **[!UICONTROL 成功量度]** 你想为你的实验设定。
 
    对于我们的实验，我们选择 **[!UICONTROL 电子邮件打开]** 以测试收件人在促销代码位于主题行中时是否会打开其电子邮件。
 
    ![](assets/content_experiment_11.png)
+
+1. 单击 **[!UICONTROL 添加治疗]** 以创造所需数量的新治疗。
+
+   ![](assets/content_experiment_8.png)
+
+1. 更改 **[!UICONTROL 标题]** 以便更好地区分他们。
 
 1. 选择添加 **[!UICONTROL 维持]** 组到您的投放。 此群组将不会从此营销策划接收任何内容。
 
@@ -125,9 +110,31 @@ ht-degree: 4%
 
    ![](assets/content_experiment_13.png)
 
-1. 单击 **[!UICONTROL 保存]** 设置配置时。
+1. 单击 **[!UICONTROL 创建]** 设置配置时。
 
-1. 内容实验准备就绪后，您可以单击 **[!UICONTROL 查看以激活]** 以显示营销活动摘要。 如果有任何参数不正确或缺失，则会显示警报。
+## 设计您的处理方法 {#treatment-experiment}
+
+1. 从 **[!UICONTROL 编辑内容]** 窗口中，选择您的治疗B以更改内容。
+
+   在此，我们选择不在 **[!UICONTROL 主题行]**.
+
+   ![](assets/content_experiment_18.png)
+
+1. 单击 **[!UICONTROL 编辑电子邮件正文]** 进一步个性化你的治疗B。
+
+   ![](assets/content_experiment_9.png)
+
+1. 设计理疗后，单击 **[!UICONTROL 更多操作]** 要访问与您的治疗相关的选项，请执行以下操作： **[!UICONTROL 重命名]**, **[!UICONTROL 复制]** 和 **[!UICONTROL 删除]**.
+
+   ![](assets/content_experiment_7.png)
+
+1. 如果需要，请访问 **[!UICONTROL 实验设置]** 菜单来更改您的处理配置。
+
+   ![](assets/content_experiment_19.png)
+
+1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮以控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../email/preview.md)
+
+1. 在内容实验准备就绪后，从Campaign摘要页面中，您可以单击 **[!UICONTROL 查看以激活]** 以显示营销活动摘要。 如果有任何参数不正确或缺失，则会显示警报。
 
    ![](assets/content_experiment_15.png)
 

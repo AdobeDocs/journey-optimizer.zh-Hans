@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: 应用程序内，消息，创建，开始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 4%
 
 ---
@@ -115,3 +115,9 @@ ht-degree: 4%
 * [设计应用程序内消息](design-in-app.md)
 * [应用程序内报告](inapp-report.md)
 * [应用程序内配置](inapp-configuration.md)
+
+## 操作方法视频{#video}
+
+以下视频演示如何在营销活动中创建、配置和发布应用程序内消息。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

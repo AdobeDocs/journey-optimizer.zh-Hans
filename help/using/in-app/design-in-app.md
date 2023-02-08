@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: 应用程序内，消息，设计，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '884'
 ht-degree: 5%
 
 ---
@@ -194,3 +194,9 @@ ht-degree: 5%
 * [创建应用程序内消息](create-in-app.md)
 * [应用程序内报告](inapp-report.md)
 * [应用程序内配置](inapp-configuration.md)
+
+## 操作方法视频{#video}
+
+以下视频演示如何创作和测试应用程序内消息。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
