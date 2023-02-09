@@ -1,16 +1,16 @@
 ---
 title: 创建 Web 体验
 description: 了解如何在Journey Optimizer中创作网页并编辑其内容
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1028'
 ht-degree: 6%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 6%
 
 在 [!DNL Journey Optimizer] 用户界面中，请遵循以下先决条件：
 
-* 要向网站添加修改，您需要实施 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans)网站上的{target=&quot;_blank&quot;}。
+* 要向网站添加修改，您需要实施 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 在您的网站上。
 
-* 访问 [!DNL Journey Optimizer] web designer中，您必须下载 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Chrome上的{target=&quot;_blank&quot;}浏览器扩展。 [了解详情](visual-editing-helper.md)
+* 访问 [!DNL Journey Optimizer] web designer中，您必须下载 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 浏览器扩展。 [了解详情](visual-editing-helper.md)
 
 >[!CAUTION]
 >
@@ -41,9 +41,9 @@ ht-degree: 6%
 
 要正确交付Web体验，必须定义以下设置：
 
-* 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}，请确保在 **[!UICONTROL Adobe Experience Platform]** 你们都有 **[!UICONTROL 边缘分割]** 和 **[!UICONTROL Adobe Journey Optimizer]** 选项。
+* 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}，请确保在 **[!UICONTROL Adobe Experience Platform]** 你们都有 **[!UICONTROL 边缘分割]** 和 **[!UICONTROL Adobe Journey Optimizer]** 选项。
 
-   这可确保Journey Optimizer集客事件由Adobe Experience Platform Edge正确处理。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+   这可确保Journey Optimizer集客事件由Adobe Experience Platform Edge正确处理。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -51,9 +51,9 @@ ht-degree: 6%
    >
    >的 **[!UICONTROL Adobe Journey Optimizer]** 选项仅在 **[!UICONTROL 边缘分割]** 选项。
 
-* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}，请确保您有一个与 **[!UICONTROL 边缘活动合并策略]** 选项。 为此，请在 **[!UICONTROL 客户]** > **[!UICONTROL 用户档案]** > **[!UICONTROL 合并策略]** Experience Platform菜单。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   此合并策略由 [!DNL Journey Optimizer] 入站渠道，以在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
+   此合并策略由 [!DNL Journey Optimizer] 入站渠道，以在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 
