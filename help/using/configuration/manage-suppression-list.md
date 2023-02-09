@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -221,7 +221,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 例如，在互联网服务提供商(ISP)中断的情况下，电子邮件错误地标记为硬退回，因为它们无法成功发送给收件人。 必须从禁止列表中删除这些电子邮件地址。
 
-要检索这些地址，请根据中断的上下文，使用自定义参数运行特定查询。 [在此示例中了解更多信息](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+要检索这些地址，请根据中断的上下文，使用自定义参数运行特定查询。 [在此示例中了解更多信息](../data/datasets-query-examples.md#isp-outage-query).
 
 识别受影响的电子邮件地址后，过滤抑制列表以显示它们。 例如，如果2022年11月11日至2022年11月13日发生ISP中断， **test.com** 域中，过滤在该时间范围内添加到抑制列表的地址，如下所示：
 
