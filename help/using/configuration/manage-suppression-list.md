@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -220,13 +220,13 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >考虑删除任何电子邮件地址或域名时，请格外小心。 如有疑问，请联系可投放性专家。
 
 
-例如，在互联网服务提供商(ISP)中断的情况下，电子邮件错误地标记为硬退回，因为它们无法成功发送给收件人。 必须从禁止列表中删除这些电子邮件地址。
+例如，在互联网服务提供商(ISP)中断的情况下，电子邮件可能被错误地标记为硬退回，因为它们无法成功发送给收件人。 必须从禁止列表中删除这些电子邮件地址。
 
 要执行此操作，请过滤抑制列表以显示受影响的电子邮件地址或域。 例如，如果2022年11月11日至2022年11月13日发生ISP中断， **test.com** 域中，过滤在该时间范围内添加到抑制列表的地址，如下所示：
 
 ![](assets/remove-from-supp-list.png)
 
-您还需要根据服务中断的详细信息，为硬退回类型添加过滤器。 这些详细信息由ISP提供，例如返回给发件人的确切错误代码。 例如： `550 <email address> recipient rejected` 或 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+您还需要根据中断的详细信息，针对跳出类型添加过滤器。 这些详细信息由ISP提供，例如返回给发件人的确切错误代码。 例如： `550 <email address> recipient rejected` 或 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 识别后，即可使用 **[!UICONTROL 删除]** 按钮。 然后，这些地址便可以包含在将来的电子邮件促销活动中。
 
