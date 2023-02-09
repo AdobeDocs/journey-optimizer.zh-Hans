@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer中的辅助功能
 description: 进一步了解Journey Optimizer用户界面中的辅助功能
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 54%
+ht-degree: 69%
 
 ---
 
@@ -60,31 +60,31 @@ ht-degree: 54%
   </tr>
   <tr>
     <td>选择所有活动</td>
-    <td>CTRL + A(Windows)<br/>CMD + A(Mac)</td>
+    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>删除选定的活动</td>
     <td>Delete 键或退格键，然后按回车键以确认删除</td>
   </tr>
   <tr>
-    <td>放大和缩小（集中在画布或其任何子元素上）</td>
-    <td>CTRL +/-(Windows)或CMD +/-(Mac)</td>
+    <td>放大和缩小（将焦点对准画布或其任何子元素）</td>
+    <td>CTRL +/- (Windows) 或 CMD +/- (Mac)</td>
   </tr>  
   <tr>
-    <td>在每个活动和路径（集中在画布上）之间或在工具栏按钮（集中在工具栏上）之间导航</td>
+    <td>在每个活动和路径（将焦点对准画布）之间或在工具栏按钮（将焦点对准工具栏）之间导航</td>
     <td>箭头键</td>
   </tr>   
   <tr>
-    <td>将焦点移到画布上下一个可操作的元素，工具栏是第一个</td>
+    <td>将焦点移到画布上的下一个可操作的元素，工具栏是第一个</td>
     <td>Tab</td>
   </tr>  
   <tr>
-    <td>打开右侧配置窗格（重点关注活动）</td>
-    <td>输入</td>
+    <td>打开右侧配置窗格（将焦点对准活动）</td>
+    <td>回车键</td>
   </tr>   
   <tr>
-    <td>在画布中移动活动（集中于活动）</td>
-    <td>SHIFT +箭头键</td>
+    <td>在画布中移动活动（将焦点对准活动）</td>
+    <td>SHIFT + 箭头键</td>
   </tr>  
   <tr>
   <td rowspan="3">
