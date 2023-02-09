@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -219,16 +219,15 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >
 >考虑删除任何电子邮件地址或域名时，请格外小心。 如有疑问，请联系可投放性专家。
 
+例如，在互联网服务提供商(ISP)中断的情况下，电子邮件错误地标记为硬退回，因为它们无法成功发送给收件人。 必须从禁止列表中删除这些电子邮件地址。
 
-例如，在互联网服务提供商(ISP)中断的情况下，电子邮件可能被错误地标记为硬退回，因为它们无法成功发送给收件人。 必须从禁止列表中删除这些电子邮件地址。
+要检索这些地址，请根据中断的上下文，使用自定义参数运行特定查询。 [在此示例中了解更多信息](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-要执行此操作，请过滤抑制列表以显示受影响的电子邮件地址或域。 例如，如果2022年11月11日至2022年11月13日发生ISP中断， **test.com** 域中，过滤在该时间范围内添加到抑制列表的地址，如下所示：
+识别受影响的电子邮件地址后，过滤抑制列表以显示它们。 例如，如果2022年11月11日至2022年11月13日发生ISP中断， **test.com** 域中，过滤在该时间范围内添加到抑制列表的地址，如下所示：
 
 ![](assets/remove-from-supp-list.png)
 
-您还需要根据中断的详细信息，针对跳出类型添加过滤器。 这些详细信息由ISP提供，例如返回给发件人的确切错误代码。 例如： `550 <email address> recipient rejected` 或 `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-识别后，即可使用 **[!UICONTROL 删除]** 按钮。 然后，这些地址便可以包含在将来的电子邮件促销活动中。
+然后，您可以使用 **[!UICONTROL 删除]** 按钮。
 
 ## 下载抑制列表 {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 要将禁止列表导出为CSV文件，请执行以下步骤：

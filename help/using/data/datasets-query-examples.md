@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 数据集，优化程序，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,28 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
+
+### 确定ISP中断后的隔离地址{#isp-outage-query}
+
+如果互联网服务提供商(ISP)中断，您需要在某个时间范围内将错误地标记为特定域的退回（隔离）电子邮件地址。 要获取这些地址，请使用以下查询：
+
+```sql
+SELECT
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+    timestamp AS EventTime,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
+FROM cjm_message_feedback_event_dataset
+WHERE
+    eventtype = 'message.feedback' AND
+    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
+    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
+ORDER BY timestamp DESC;
+```
+
+其中日期格式为：YYYY-MM-DD HH:MM:SS。
+
+识别后，从Journey Optimizer抑制列表中删除这些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 ## 推送跟踪体验事件数据集 {#push-tracking-experience-event-dataset}
 
