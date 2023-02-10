@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->要查看和导出审核日志，您必须具有 **[!DNL View User Activity Log]** 已授予权限。 [了解详情](../administration/ootb-product-profiles.md)
+>要查看和导出审核日志，您必须具有 **[!DNL View User Activity Log]** 权限。[了解详情](../administration/ootb-product-profiles.md)
 
 借助 Journey Optimizer，您可以识别用户在系统中对各种服务和功能（如历程、消息、登陆页面等）执行的操作。
 
 这样，您就可以提高系统中所执行活动的可见性，排查问题，并帮助企业遵守法规和公司数据管理政策。
 
-“审核日志”会记录每个操作的元数据，可在 Adobe Experience Platform 中访问该日志。有关审核日志（包括如何在UI或API中查看和管理这些日志）的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans).
+“审核日志”会记录每个操作的元数据，可在 Adobe Experience Platform 中访问该日志。有关审核日志（包括如何在 UI 或 API 中进行查看和管理）的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans)。
 
 ![](assets/audit-logs.png)
 
