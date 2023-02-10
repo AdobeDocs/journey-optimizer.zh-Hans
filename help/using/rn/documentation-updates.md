@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 95%
 
 ## 2023 年 2 月 {#feb-2023}
 
-* 在API触发的营销活动文档中添加了注释，以指定传递到请求的上下文属性不能超过50kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
+* 在 API 触发的营销活动文档中添加了注释，规定传递到请求的上下文属性不能超过 50kb。[了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 
 * 添加了有关如何在 **同意服务数据集** 收件人通过登陆页面取消订阅后，退订。 [了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’23年1月版进行了详细介绍。 [了解详情](release-notes.md)
-* 中的辅助功能 [!DNL Journey Optimizer] 现在将分组到专用页面中。 [了解详情](../start/accessibility.md)
-* 在 [!DNL Journey Optimizer]. [了解详情](../data/gs-data.md)
-* 添加了一个表格，其中列出了使用决策API交付选件时，响应中可返回的所有代码。 [了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 1 月版本的所有新增功能和改进。[了解详情](release-notes.md)
+* 现在，[!DNL Journey Optimizer] 中的辅助功能被分组到了专用页面中。[了解详情](../start/accessibility.md)
+* [!DNL Journey Optimizer] 中增添了关于数据管理的新页面。[了解详情](../data/gs-data.md)
+* 新增的表格中列出了使用 Decisioning API 提供优惠时，响应中可返回的所有代码。[了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## 2022 年 12 月 {#december-2022}
 
