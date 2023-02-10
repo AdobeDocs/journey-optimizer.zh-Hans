@@ -7,13 +7,11 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '210'
+ht-degree: 8%
 
 ---
 
@@ -24,16 +22,20 @@ Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通�
 在Adobe Experience Platform中了解有关警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
 要了解如何订阅和配置警报，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
-在左侧菜单的 **管理**，单击 **警报**. 提供了预配置的Journey Optimizer警报。 如果读取区段节点在定义的时间范围内未处理任何配置文件，则此警报将警告您。
+在左侧菜单的 **管理**，单击 **警报**.
 
-![](assets/alerts1.png)
+<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
+
+![](assets/alerts1.png)-->
 
 如果发生此类意外行为，则会通过界面右上角的电子邮件向警报的订阅者发送警报通知。
 
-![](assets/alerts2.png)
+<!--![](assets/alerts2.png)-->
 
-When [在Adobe Experience Platform UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，则可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会组织到不同的订阅包中。 与读取区段警报对应的I/O事件订阅名称为：“历程读取区段延迟、失败和错误”。
+When [在Adobe Experience Platform UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，则可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会组织到不同的订阅包中。
+
+<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 
 >[!WARNING]
 >
->这些警报仅适用于实时历程。 在测试模式下，不会触发历程的警报。
+>These alerts apply only to live journeys. Alerts will not be triggered for journeys in test mode.-->
