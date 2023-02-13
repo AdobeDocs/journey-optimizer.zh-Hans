@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 9%
+source-wordcount: '695'
+ht-degree: 6%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含 [选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型消息不需要此参数。 消息类别（**[!UICONTROL 营销型]**&#x200B;或&#x200B;**[!UICONTROL 事务型]**）在[渠道界面](../configuration/channel-surfaces.md#email-type)（即消息预设）级别和创建消息时定义。
+>营销类型的电子邮件必须包含 [选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务型]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息预设）。
 
 ## 链接到镜像页面 {#mirror-page}
 

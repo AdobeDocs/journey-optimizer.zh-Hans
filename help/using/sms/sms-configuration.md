@@ -6,9 +6,9 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
@@ -73,12 +73,12 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
 现在，创建和配置API凭据后，您需要为短信消息创建渠道表面（即消息预设）。
 
-## 创建通道曲面 {#message-preset-sms}
+## 创建短信界面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定义短信类别"
->abstract="选择使用此表面时将发送的短信消息类型：需要用户同意的促销短信消息，或非商业短信消息的交易型营销，也可以在特定环境中发送给未订阅的用户档案。"
+>abstract="使用以下表面选择短信消息的类型：需要用户同意的促销短信消息的营销，或非商业短信消息的事务型营销，如密码重置。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择退出营销短信消息"
 
 配置短信渠道后，必须创建渠道表面，才能从发送短信消息 **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
    * 选择 **[!UICONTROL 短信类型]** 将随表面一起发送： **[!UICONTROL 事务型]** 或 **[!UICONTROL 营销]**.
 
+      * 选择 **营销** 促销短信：这些消息需要用户同意。
+      * 选择 **事务型** 例如，对于订单确认、密码重置通知或投放信息等非商业性消息。
+
+      >[!CAUTION]
+      >
+      >**事务型** 短信消息可发送给从营销通信中取消订阅的用户档案。 这些消息只能在特定上下文中发送。
+
+      创建短信消息时，必须选择与您为消息选择的类别匹配的有效渠道表面。
+
    * 选择 **[!UICONTROL 短信配置]** 与表面相关。
 
       有关如何配置环境以发送短信消息的更多信息，请参阅 [此部分](#create-api).
@@ -110,6 +119,7 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
    * 输入 **[!UICONTROL 发件人编号]** 你&#x200B;想用于你的通讯。
 
    * 选择 **[!UICONTROL 短信执行字段]** 选择 **[!UICONTROL 配置文件属性]** 与用户档案的电话号码关联。
+
 
 1. 配置所有参数后，单击 **[!UICONTROL 提交]** 确认。 您还可以将通道曲面另存为草稿，并稍后恢复其配置。
 
