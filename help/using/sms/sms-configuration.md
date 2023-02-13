@@ -6,9 +6,9 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -131,3 +131,5 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
 * [创建短信消息](create-sms.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
+* [在营销活动中添加消息](../campaigns/create-campaign.md)
+
