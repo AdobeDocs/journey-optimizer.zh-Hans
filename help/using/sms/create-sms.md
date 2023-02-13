@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '430'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,18 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="创建短信"
->abstract="添加文本消息，然后使用表达式编辑器对其进行个性化设置。"
+>title="创建短信消息"
+>abstract="添加短信消息，然后使用表达式编辑器对其进行个性化设置。"
 
->[!NOTE]
->
->根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。为此，短信收件人可以使用选择加入和选择退出关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## 添加短信消息 {#create-sms-journey-campaign}
 
-## 在历程或营销策划中创建短信消息 {#create-sms-journey-campaign}
-
-要开始个性化短信消息，请执行以下步骤：
+浏览以下选项卡，了解如何在营销活动或历程中添加短信。
 
 >[!BEGINTABS]
 
 >[!TAB 向历程添加短信消息]
 
-1. 打开您的历程，然后从面板的操作部分拖放短信活动。
+1. 打开您的历程，然后从 **操作** 的子菜单。
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ ht-degree: 13%
 
    有关如何配置旅程的更多信息，请参阅 [本页](../building-journeys/journey-gs.md)
 
-您现在可以从 **[!UICONTROL 编辑内容]** 按钮。 [设计短信内容](#sms-content)
+您现在可以从 **[!UICONTROL 编辑内容]** 按钮。 [定义短信内容](#sms-content)
 
 >[!TAB 向营销活动添加短信消息]
 
@@ -79,6 +75,7 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
+
 ## 定义短信内容{#sms-content}
 
 1. 在历程或营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置短信内容。
@@ -93,8 +90,13 @@ ht-degree: 13%
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。为此，短信收件人可以使用选择加入和选择退出关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **相关主题**
 
 * [配置短信渠道](sms-configuration.md)
 * [短信报告](../reports/journey-global-report.md#sms-global)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
+* [在营销活动中添加消息](../campaigns/create-campaign.md)

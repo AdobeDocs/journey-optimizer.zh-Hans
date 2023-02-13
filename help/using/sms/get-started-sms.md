@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '173'
+ht-degree: 23%
 
 ---
 
 # 短信入门 {#get-started-sms}
-
->[!IMPORTANT]
->
->如果您是首次创建短信，请确保已配置短信渠道。 [了解详情](sms-configuration.md)。
 
 使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
 
@@ -33,7 +29,10 @@ ht-degree: 22%
 
    有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
 
-如果您是首次创建短信消息，请确保已配置短信渠道。 [了解详情](sms-configuration.md)。
+
+>[!IMPORTANT]
+>
+>如果您是首次创建短信，请确保已配置短信渠道。 [了解详情](sms-configuration.md)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

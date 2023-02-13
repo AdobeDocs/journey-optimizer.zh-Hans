@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 预览消息和发送校样
-description: 了解如何预览和测试消息
+description: 了解如何预览和测试电子邮件
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 预览，内容，电子邮件，校样，测试，用户档案
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
 
 ---
 
-# 预览和测试消息 {#preview-and-proof}
+# 预览和测试电子邮件 {#preview-and-proof}
 
 定义电子邮件内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 

@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 发送推送通知
+title: 预览和测试推送通知
 description: 了解如何在Journey Optimizer中预览和测试推送通知
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '380'
+ht-degree: 5%
 
 ---
 
-# 发送推送通知 {#send-push}
+# 预览和测试推送通知 {#send-push}
 
 ## 预览推送通知 {#preview-push}
 
-定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入个性化内容，则可以利用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，即可使用测试用户档案进行预览和测试。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
 1. 单击 **[!UICONTROL 模拟内容]**.
 
@@ -29,11 +29,9 @@ ht-degree: 2%
 
    ![](assets/push_preview_1.png)
 
-1. 应用与上述步骤相同的步骤来选择测试用户档案，并
+1. 选择测试用户档案后，可以关闭 **[!UICONTROL 添加测试用户档案]** 窗口。
 
-   ![](assets/push_preview_2.png)
-
-1. 在推送预览中，测试用户档案数据会在消息内容中使用。
+1. 从 **预览和测试** 窗口中，测试用户档案数据会添加到消息内容中。
 
    选择要预览内容的设备类型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
@@ -41,11 +39,8 @@ ht-degree: 2%
 
 ## 验证推送通知 {#push-validate}
 
->[!NOTE]
->
-> 为了更好地交付，您应始终使用提供商支持的格式的电话号码。 例如， Twilio和Sinch仅支持E.164格式的电话号码。
 
-您还必须检查编辑器上部的警报。  其中一些是简单的警告，但其他警告可能会阻止您使用消息。 可以发生两种类型的警报：
+您必须在编辑器的上半部分检查警报。 其中一些是简单的警告，但其他一些可能会阻止您发送消息。 可以发生两种类型的警报：警告和错误。
 
 * **警告** 请参阅建议和最佳实践。
 
@@ -57,6 +52,22 @@ ht-degree: 2%
 
    * **[!UICONTROL 推送iOS/Android有效负载超过4KB的限制]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](../push/create-push.md).
 
-![](assets/push_alert.png)
+   ![](assets/push_alert.png)
 
-准备就绪后，完成 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md) 来发送。
+
+>[!NOTE]
+>
+> 为了更好地交付，您应始终使用提供商支持的格式的电话号码。 例如， Twilio和Sinch仅支持E.164格式的电话号码。
+
+## 发送推送通知{#push-send}
+
+在您的推送消息准备就绪后，完成 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md) 来发送。
+
+**相关主题**
+
+* [配置推送渠道](push-configuration.md)
+* [推送通知报告](../reports/journey-global-report.md#push-global)
+* [创建推送通知](create-push.md)
+* [在历程中添加消息](../building-journeys/journeys-message.md)
+* [在营销活动中添加消息](../campaigns/create-campaign.md)
+
