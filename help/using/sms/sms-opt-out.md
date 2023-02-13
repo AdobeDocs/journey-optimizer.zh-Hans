@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 96%
+source-wordcount: '421'
+ht-degree: 45%
 
 ---
 
@@ -19,21 +19,27 @@ ht-degree: 96%
 
 根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。[了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
-默认情况下，Adobe Journey Optimizer 会根据 Sinch 和 Twilio 等原生集成的行业标准，处理免费和长代码消息的标准英语回复消息，如 STOP、UNSTOP 和 START。这些关键字通常会触发来自第三方提供商的自动标准回复（例如 Twilio、Sinch 等）。您可以直接与提供商或通过其文档网站确认此信息。
-
-无需执行任何步骤，即可确保短信选择退出功能在 Adobe Journey Optimizer 中正常工作，因为关键词响应 STOP、UNSTOP 和 START 将被自动识别。
-
-除了 Adobe Journey Optimizer 根据选择退出状态停止发送（用于与 Twilio 或 Sinch 的直接集成）之外，大多数短信网关提供商还设有一个阻止列表，确保您的短信消息不会被发送给选择退出的个人。如果您使用的是 Sinch 或 Twilio 以外的提供商，并通过 [自定义渠道](../building-journeys/using-custom-actions.md)发送短信，则需要就此与提供商确认。
-
 >[!IMPORTANT]
 >
->根据短信活动的性质、发送短信的位置以及收件人的位置，短信活动可能会受到各种法律合规性要求的约束。<br>虽然 Adobe Journey Optimizer 将处理使用上述长代码和免费电话号码的消息，但您应咨询您的法律顾问，以确保您的短信活动符合所有适用的法律合规要求。
+>根据短信通信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规要求的约束。 虽然Adobe Journey Optimizer会按照下文详细处理长代码和免费电话号码的报文，但请咨询您的法律顾问，确保您的短信通信符合所有适用的法律合规要求。
+
+## 本机入站关键词{#sms-native-keywords}
+
+默认情况下，Adobe Journey Optimizer 会根据 Sinch 和 Twilio 等原生集成的行业标准，处理免费和长代码消息的标准英语回复消息，如 STOP、UNSTOP 和 START。
+
+这些关键字通常会触发第三方提供商（如Twilio或Sinch）的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
+
+无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP和START会被自动识别。 配置文件选择退出状态会在Adobe Journey Optimizer中实时更新。
+
+
+## 阻止列表{#sms-blocklists}
+
+除了Adobe Journey Optimizer根据选择退出状态停止发送（用于与Twilio或Sinch的直接集成）之外，大多数短信网关提供商还维护一个，确保短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过 [自定义渠道](../building-journeys/using-custom-actions.md)，则需要与提供商确认。
+
 
 ## 短代码 {#short-codes}
 
-默认情况下，Adobe Journey Optimizer 将不处理短代码号的选择退出、选择加入或帮助关键词。
-
-您必须确保您的短代码符合所有选择退出处理方面的行业规则和法规。
+默认情况下，Adobe Journey Optimizer不处理短代码号的选择退出、选择加入或帮助关键词。 您必须确保您的短代码符合所有选择退出处理方面的行业规则和法规。
 
 ## 字母数字发件人 ID {#alphanumeric}
 
