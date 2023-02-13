@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '449'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## 添加短信消息 {#create-sms-journey-campaign}
 
-浏览以下选项卡，了解如何在营销活动或历程中添加短信。
+浏览以下选项卡，了解如何在营销活动或历程中添加短信消息。
 
 >[!BEGINTABS]
 
@@ -86,9 +86,11 @@ ht-degree: 13%
 
 1. 使用表达式编辑器定义内容并添加动态内容。 您可以使用任何属性，如配置文件名称或城市。 详细了解 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
 
-1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 [了解详情](send-sms.md)
+1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。
 
    ![](assets/sms-content-preview.png)
+
+您现在可以测试短信消息并将其发送给受众。 [了解详情](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ ht-degree: 13%
 
 **相关主题**
 
+* [预览、测试和发送短信消息](send-sms.md)
 * [配置短信渠道](sms-configuration.md)
 * [短信报告](../reports/journey-global-report.md#sms-global)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
