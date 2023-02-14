@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -24,6 +24,10 @@ Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通�
 在Adobe Experience Platform中了解有关警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
 要了解如何订阅和配置警报，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
+>[!AVAILABILITY]
+>
+>“读取区段触发失败”警报的某些设计更改正在进行中，因此此警报暂时暂停。 更改发布后，此警报将再次显示，您将能够订阅该警报。
+
 在左侧菜单的 **管理**，单击 **警报**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通�
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->“读取区段触发失败”警报的某些设计更改正在进行中，因此此警报暂时暂停。 更改发布后，此警报将再次显示，您将能够订阅该警报。
 
 When [在Adobe Experience Platform UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，则可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会组织到不同的订阅包中。
 
