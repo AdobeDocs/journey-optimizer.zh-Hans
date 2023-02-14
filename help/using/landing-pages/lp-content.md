@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1194'
 ht-degree: 3%
 
 ---
 
 # 定义登陆页面特定的内容 {#lp-content}
 
-要定义允许用户从登陆页面选择和提交其选择的特定内容，请使用 **[!UICONTROL 表单]** 组件。 为此，请执行以下步骤。
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="使用内容组件"
+>abstract="内容组件是空内容占位符，您可以使用这些占位符创建登陆页面的布局。 要定义允许用户选择和提交其选择的特定内容，请使用表单组件。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="添加内容组件"
+
+要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
+
+要设计允许用户选择和提交其选择的特定内容， [使用表单组件](#use-form-component) 定义 [登陆页面特定的样式](#lp-form-styles).
 
 >[!NOTE]
 >
 >您还可以创建点进登陆页面，但不 **[!UICONTROL 表单]** 组件。 在这种情况下，将向用户显示登陆页面，但用户无需提交任何表单。 如果您只想显示登陆页面而无需收件人执行任何操作（如选择启用或选择禁用），或者希望提供不需要用户输入的信息，则此功能非常有用。
 
+使用登陆页面内容设计器，您还可以利用来自子页面主页面的上下文数据。 [了解详情](#use-primary-page-context)
+
 ## 使用表单组件 {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="设置表单组件字段"
+>abstract="定义收件人将如何从您的登陆页面查看和提交其所做的选择。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定义登陆页面表单样式"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="单击按钮时会发生什么情况"
+>abstract="定义用户提交登陆页面表单后将发生的情况。"
+
+要定义允许用户从登陆页面选择和提交其选择的特定内容，请使用 **[!UICONTROL 表单]** 组件。 为此，请执行以下步骤。
 
 1. 拖放特定于登陆页面的 **[!UICONTROL 表单]** 组件从左侧面板移入主工作区。
 
@@ -129,13 +152,13 @@ ht-degree: 3%
 
 您可以使用来自同一登陆页面内其他页面的上下文数据。
 
-例如，如果您链接复选框<!-- or the submission of the page--> 至 [订阅列表](subscription-list.md) 在主登录页面上，您可以在“谢谢”子页面上使用该订阅列表。
+例如，如果您链接复选框 <!-- or the submission of the page--> 至 [订阅列表](subscription-list.md) 在主登录页面上，您可以在“谢谢”子页面上使用该订阅列表。
 
 假设您将主页面上的两个复选框链接到两个不同的订阅列表。 如果用户订阅了其中一个复选框，则您希望在提交表单时显示特定消息，具体取决于用户选中的复选框。
 
 要实现此目的，请执行以下步骤：
 
-1. 在主页上，将每个复选框链接到相关订阅列表。 [了解详情](#use-form-component)。
+1. 在主页上，链接 **[!UICONTROL 表单]** 组件添加到相关订阅列表。 [了解详情](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

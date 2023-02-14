@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ ht-degree: 2%
 ![](assets/lp_subpage-settings.png)
 
 ## 测试登陆页面 {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="预览和测试登陆页面"
+>abstract="定义登陆页面设置和内容后，即可使用测试用户档案进行预览。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="选择测试用户档案"
 
 定义登陆页面设置和内容后，即可使用测试用户档案进行预览。 如果插入 [个性化内容](../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在登陆页面中的显示方式。
 
