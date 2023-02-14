@@ -8,16 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
+source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 8%
+source-wordcount: '248'
+ht-degree: 7%
 
 ---
 
 # 警报入门 {#alerts}
 
-Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。当您操作中达到一组特定条件（例如，系统违反阈值时可能出现的问题）时，会向组织中订阅这些条件的任何用户发送警报消息。 这些消息可以在预定义的时间间隔内重复，直到警报得到解析。
+Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。
+
+当您操作中达到一组特定条件（例如，系统违反阈值时可能出现的问题）时，会向组织中订阅这些条件的任何用户发送警报消息。 这些消息可以在预定义的时间间隔内重复，直到警报得到解析。
 
 在Adobe Experience Platform中了解有关警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
 要了解如何订阅和配置警报，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
@@ -28,9 +30,13 @@ Journey Optimizer利用Adobe Experience Platform警报功能。 这允许您通�
 
 ![](assets/alerts1.png)-->
 
-如果发生此类意外行为，则会通过界面右上角的电子邮件向警报的订阅者发送警报通知。
+如果发生意外行为，则会通过界面右上角的电子邮件向警报的订阅者发送警报通知。
 
 <!--![](assets/alerts2.png)-->
+
+>[!AVAILABILITY]
+>
+>“读取区段触发失败”警报的某些设计更改正在进行中，因此此警报暂时暂停。 更改发布后，此警报将再次显示，您将能够订阅该警报。
 
 When [在Adobe Experience Platform UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，则可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会组织到不同的订阅包中。
 
