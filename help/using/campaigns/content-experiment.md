@@ -11,9 +11,9 @@ keywords: 内容，实验，多个，受众，处理
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1168'
 ht-degree: 4%
 
 ---
@@ -163,6 +163,11 @@ Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡
 请注意，如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
 
 ## 实验报表 {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="每个用户档案的独特点击量"
+>abstract="每个用户档案的独特点击量量度可帮助您了解实验吸引受众并促使点击进入目标目标的效果如何。 它会计算特定链接的不同点击次数除以该链接所显示的用户档案总数。"
 
 >[!AVAILABILITY]
 >

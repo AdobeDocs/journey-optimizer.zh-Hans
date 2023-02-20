@@ -11,9 +11,9 @@ keywords: 入门，开始，内容，实验
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
 +++按照正确的受众规模或足够长的时间运行测试
 
 如果运行测试的时间较长，则能够检测到不同治疗方式之间目标量度差异较小。 但是，如果目标量度的基线值较小，则需要较大的样本量。
-实验中必须包含的用户数取决于您希望检测的效果大小、目标量度的方差或分布，以及您对误报和误报的容忍度。 在经典实验中，您可以使用 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank}来确定必须运行测试的时长。
+实验中必须包含的用户数取决于您希望检测的效果大小、目标量度的方差或分布，以及您对误报和误报的容忍度。 在经典实验中，您可以使用 [样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hans){_blank}来确定必须运行测试的时长。
 +++
 
 +++了解统计不确定性
@@ -111,6 +111,11 @@ ht-degree: 1%
 +++
 
 ## 解释实验结果 {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="摘要小组件"
+>abstract="摘要小组件提供了实验结果的概述，包括它们是否是结论性的。 它为您快速、轻松地了解实验结果提供了方法。"
 
 ![](assets/experimentation_report_3.png)
 
