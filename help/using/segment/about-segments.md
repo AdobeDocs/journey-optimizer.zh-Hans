@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
 
 # Adobe Experience Platform区段快速入门 {#about-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_segment"
+>title="区段"
+>abstract="通过利用实时客户资料数据，Adobe Experience Platform使您能够轻松创建可捕获客户独特行为和偏好的目标区段。"
 
 [!DNL Journey Optimizer]  允许您直接从 **[!UICONTROL 区段]** 菜单，并将其用于您的历程或营销策划。
 
