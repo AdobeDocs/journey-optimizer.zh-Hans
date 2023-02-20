@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: f07a46e6fc42afb80275557dfe8bd27f51e4fad9
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,43 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
+
+
+## 2023年2月早期发行说明 {#feb-2023}
+
+此部分包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。详细文档将在发行日期提供。
+
+可用性： **2023年2月22日**
+
+### 改进 {#feb-2023-improvements}
+
+**历程**
+
+* 的 **重新进入等待期** 字段已添加到历程属性。 利用此字段，可定义在允许用户档案在单一历程中再次进入历程之前等待的时间（从事件或区段鉴别开始）。 这可防止同一事件多次错误触发历程。 默认情况下，字段设置为5分钟。
+
+* 改进了 **历程开始和结束日期**. 如果您未指定开始日期，该日期现在会在发布时自动添加。 对于 **读取区段** 历程，您现在可以添加结束日期。 这允许用户档案在到达日期时自动退出。
+
+* 历程画布已得到增强，可提供更简单、更好的用户体验。 在画布中每个路径的末尾，已删除空占位符。 您现在只需将活动拖动到节点之间的任意位置即可添加活动。
+
+* 历程中的超时和错误管理已得到改进。 超时和错误路径现在始终在画布上添加。 可使用新的工具栏按钮来显示/隐藏这些路径。
+
+* 引入了一种新型系统警报。 现在，当自定义操作失败时，您会收到通知。
+
+
+**管理**
+
+* **允许列表**  — 您现在可以将允许列表下载为.csv文件。
+
+* **电子邮件界面**  — 已向电子邮件界面设置添加了额外的检查：如果 **回复（电子邮件）地址** 或 **密送电子邮件地址** 未正确配置，则无法再创建电子邮件界面。 您必须配置或使用其他配置。
+
+* **电子邮件界面**  — 在电子邮件表面设置的URL跟踪参数部分中，每个 **值** 字段已从255个字符更新为5 KB，以与Adobe Analytics跟踪兼容。
+
+**决策管理**
+
+* **版面**  — 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。
+
+* **URL个性化**  — 现在，在将URL作为内容添加到选件的表示中时，您可以使用表达式编辑器对这些URL进行个性化。
+
 
 
 ## 2023 年 1 月版 {#jan-2023-release}
