@@ -5,9 +5,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 * 在 API 触发的营销活动文档中添加了注释，规定传递到请求的上下文属性不能超过 50kb。[了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 添加了有关如何在 **同意服务数据集** 收件人通过登陆页面取消订阅后，退订。 [了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 添加了有关收件人通过登陆页面取消订阅后如何在&#x200B;**同意服务数据集**&#x200B;中存储选择退出信息的内容。[了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
