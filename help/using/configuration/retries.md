@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 重试，退回，软，优化程序，错误
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '459'
+ht-degree: 1%
 
 ---
 
@@ -72,5 +72,5 @@ ht-degree: 0%
 >
 >重试周期不能超过84小时。 营销电子邮件的最短重试期限为6小时，事务电子邮件的最短重试期限为10分钟。
 
-了解在中创建渠道表面时如何调整电子邮件重试参数 [此部分](channel-surfaces.md#create-channel-surface).
+了解在中创建渠道表面时如何调整电子邮件重试参数 [此部分](../email/email-settings.md#email-retry).
 

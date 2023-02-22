@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: 应用程序内，消息，创建，开始
+badge: label="Beta" type="Informitive"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 5%
 
 ---
 
 # 创建应用程序内消息 {#create-in-app}
+
+>[!IMPORTANT]
+>
+>应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 ## 创建营销活动和应用程序内消息{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ ht-degree: 4%
 
 您的营销活动现已激活。 营销活动中配置的应用程序内通知将立即发送，或在指定的日期发送。
 
-发送后，您可以在营销活动报表中衡量应用程序内消息的影响。 有关报告的更多信息，请参考[此章节](inapp-report.md)。
+发送后，您可以在营销活动报表中衡量应用程序内消息的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#inapp-report)。
 
 **相关主题：**
 
 * [设计应用程序内消息](design-in-app.md)
-* [应用程序内报告](inapp-report.md)
+* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
 * [应用程序内配置](inapp-configuration.md)
 
 ## 操作方法视频{#video}

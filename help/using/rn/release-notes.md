@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 64%
+source-wordcount: '917'
+ht-degree: 61%
 
 ---
 
@@ -21,41 +21,148 @@ ht-degree: 64%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
+## 2023年2月发行说明 {#feb-2023}
 
-## 2023年2月早期发行说明 {#feb-2023}
+### 新功能{#feb-2023-features}
 
-此部分包含预发行信息。 发布日期、功能及其他信息如有更改，恕不另行通知。详细文档将在发行日期提供。
+<table>
+<thead>
+<tr>
+<th><strong>应用程序内渠道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。 使用Journey Optimizer设计通知并自定义消息布局、显示、文本和按钮，以创建无缝体验。</p>
+<p>
+此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
+<img src="assets/do-not-localize/in-app.gif"/>
+<p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-可用性： **2023年2月22日**
+<table>
+<thead>
+<tr>
+<th><strong>将Journey Optimizer数据集导出到云存储目标（测试版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以与云存储位置建立实时连接，以导出数据集的内容。 可用目标包括：Amazon S3云存储、Azure Blob、Azure数据湖第2代、数据登陆区、Google云存储、SFTP。</p>
+<p><strong>注意</strong>  — 此功能目前为测试版，可供所有Adobe Journey Optimizer用户使用。 如果您尚未拥有访问权限，请与您的Adobe代表合作，以获取目标的访问权限。</p>
+
+<img src="assets/do-not-localize/gif-destinations.gif"/>
+
+<p>有关更多信息，请参阅<a href="../privacy/data-hygiene.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+
+<table>
+<thead>
+<tr>
+<th><strong>Performance Measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the <strong>Objective</strong> tab of your campaign reports. </p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../privacy/data-hygiene.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ Learn more about Performance Measurement
+
+The **[!UICONTROL Objective]** tab of your Campaign report allows you to better fine-tune your deliveries' reports by targeting one specific metric. With this feature, you can effectively track and analyze your campaign's performance and make informed decisions to improve your results.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of pre-configured **[!UICONTROL Objectives]** is available, but you can also customize your report by adding new **[!UICONTROL Datasets]** and defining your own objectives. 
+
+By selecting the desired Objectives, the **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets provide a comprehensive and insightful summary of your delivery performance, allowing you to closely monitor and evaluate the success of your campaign.
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your primary objective against another performance metric.
+
+Note that each widget can be resized and deleted as needed.
++++
+
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
 
 ### 改进 {#feb-2023-improvements}
 
 **历程**
 
-* 的 **重新进入等待期** 字段已添加到历程属性。 利用此字段，可定义在允许用户档案在单一历程中再次进入历程之前等待的时间（从事件或区段鉴别开始）。 这可防止同一事件多次错误触发历程。 默认情况下，字段设置为5分钟。
+* 的 **重新进入等待期** 字段已添加到历程属性。 利用此字段，可定义在允许用户档案在单一历程中再次进入历程之前等待的时间（从事件或区段鉴别开始）。 这可防止同一事件多次错误触发历程。 默认情况下，字段设置为5分钟。 [了解详情](../building-journeys/journey-gs.md#entrance)
 
-* 改进了 **历程开始和结束日期**. 如果您未指定开始日期，该日期现在会在发布时自动添加。 对于 **读取区段** 历程，您现在可以添加结束日期。 这允许用户档案在到达日期时自动退出。
+* 改进了 **历程开始和结束日期**. 如果您未指定开始日期，该日期现在会在发布时自动添加。 对于 **读取区段** 历程，您现在可以添加结束日期。 这允许用户档案在到达日期时自动退出。 [了解详情](../building-journeys/journey-gs.md#dates)
+
+<!--
+
+* The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
+
+* Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
+
+* The Journey dashboard is now split in two tabs:
+    * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
+    * Use the **Browse** tab to access list of all journeys.
+-->
+
 
 **管理**
 
-* **允许列表**  — 您现在可以将允许列表下载为.csv文件。
+* **允许列表**  — 您现在可以将允许列表下载为.csv文件。 [了解详情](../configuration/allow-list.md#download-allowed-list)
 
-* **电子邮件界面**  — 已向电子邮件界面设置添加了额外的检查：如果 **回复（电子邮件）地址** 或 **密送电子邮件地址** 未正确配置，则无法再创建电子邮件界面。 您必须配置或使用其他配置。
+* **电子邮件界面**  — 已向电子邮件界面设置添加了额外的检查：如果 **回复（电子邮件）地址** 或 **密送电子邮件地址** 未正确配置，则无法再创建电子邮件界面。 您必须配置或使用其他配置。 [了解详情](../email/email-settings.md#reply-to-email)
 
-* **电子邮件界面**  — 在电子邮件表面设置的URL跟踪参数部分中，每个 **值** 字段已从255个字符更新为5 KB，以与Adobe Analytics跟踪兼容。
+* **电子邮件界面**  — 在 **URL跟踪参数** 电子邮件界面设置的部分，每个 **值** 字段已从255个字符更新为5 KB，以与Adobe Analytics跟踪兼容。 [了解详情](../email/email-settings.md#url-tracking)
 
 **决策管理**
 
-* **版面**  — 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
-* **URL个性化**  — 现在，在将URL作为内容添加到选件的表示中时，您可以使用表达式编辑器对这些URL进行个性化。
+* **URL个性化**  — 现在，在将URL作为内容添加到选件的表示中时，您可以使用表达式编辑器对这些URL进行个性化。 [了解详情](../offers/offer-library/add-representations.md)
 
+<!--
+* **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
 
+* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
+-->
 
 ## 2023 年 1 月版 {#jan-2023-release}
 
 ### 新功能{#jan-2023-features}
-
 
 <table>
 <thead>
@@ -69,7 +176,6 @@ ht-degree: 64%
 <p>Adobe Experience Platform 提供了一整套数据安全功能，允许您通过程序化删除客户记录和数据集来管理存储的数据。Adobe Journey Optimizer 现已提供此功能。 </p>
 <p>您可以管理数据存储，以确保按预期使用信息，在需要修复错误数据时更新信息，并在组织策略认为有必要时删除信息。</p>
 <p><strong>注意</strong> - 目前，数据安全功能仅适用于已购买 <strong>Healthcare Shield</strong> 和 <strong>Privacy and Security Shield</strong> 附加产品的组织。</p><p>有关更多信息，请参阅<a href="../privacy/data-hygiene.md">详细文档</a>。
-
 </td>
 </tr>
 </tbody>
@@ -98,12 +204,6 @@ ht-degree: 64%
 
 **历程**
 
-<!--
-* The **Re-entrance wait period** field has been added to the journey properties. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes. [Learn more](../building-journeys/journey-gs.md#entrance)
-
-* Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
--->
-
 * 在历程中添加&#x200B;**区段鉴别**&#x200B;或&#x200B;**读取区段**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅[区段鉴别](../building-journeys/segment-qualification-events.md#about-segment-qualification)和[读取区段](../building-journeys/read-segment.md#configuring-segment-trigger-activity)部分。
 
 * 在历程画布中，工具栏中新增了一个按钮，用于下载历程的屏幕截图。
@@ -130,12 +230,6 @@ ht-degree: 64%
 
 * 现在会自动生成一个示例 cURL 请求，允许执行 API 触发的营销活动，并可在营销活动屏幕中获得。[了解详情](../campaigns/api-triggered-campaigns.md)
 
-<!--
-**Decision management**
-
-* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
-
-<!--* It is now possible to reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 **个性化**
 

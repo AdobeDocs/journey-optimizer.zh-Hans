@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陆，登陆页面，用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '970'
 ht-degree: 14%
 
 ---
@@ -166,6 +166,8 @@ ht-degree: 14%
 >[!NOTE]
 >
 >如果默认的合并方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>
+>即使尚未向此数据集添加任何批次，它仍将包含选择启用/选择禁用信息。
 
 
 <!--

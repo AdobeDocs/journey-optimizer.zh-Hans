@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '660'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}，您需要部署 [!DNL Assets Essentials] ，并确保用户是 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 了解详情 [本页](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}。
+> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. 选择 **[!UICONTROL 资产库]** 选项。
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 
 ### 添加HTML或JSON文件 {#html-json}
 
-如果所选版面是HTML类型，则还可以添加来自的HTML或JSON内容 [Adobe Experience Cloud资产库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;})。
+如果所选版面是HTML类型，则还可以添加来自的HTML或JSON内容 [Adobe Experience Cloud资产库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"})。
 
-例如，您在 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;}，并且您希望将该文件用于选件内容。 您只需将模板上传到 **资产库** 以便能够在选件的表示法中重复使用。
+例如，您在 [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} 并且您希望将该文件用于选件内容。 您只需将模板上传到 **资产库** 以便能够在选件的表示法中重复使用。
 
 要在演示文稿中重复使用您的内容，请浏览 **资产库** 如 [此部分](#images) 并选择您选择的HTML或JSON文件。
 
@@ -100,7 +100,17 @@ ht-degree: 0%
 
 要从外部公共位置添加内容，请选择 **[!UICONTROL URL]**，然后输入要添加内容的URL地址。
 
+您可以使用表达式编辑器对URL进行个性化。 了解详情 [个性化](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+例如，您希望将显示为选件的图像个性化。 你希望那些喜欢城市度假的用户能看到纽约的天际线，而那些喜欢海滩度假的用户能看到夏威夷的北岸。
+
+使用表达式编辑器，使用并集架构检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+如果您指定 **[!UICONTROL 目标链接]**，您还可以将单击选件的用户定向到的URL个性化。
 
 ### 添加自定义文本 {#custom-text}
 

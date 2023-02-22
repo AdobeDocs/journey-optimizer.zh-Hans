@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 15%
@@ -31,7 +31,7 @@ ht-degree: 15%
 
 的 **[!UICONTROL 用户档案计数]** 列提供有关受众中包含的用户档案数的信息。 单击“i”按钮以了解有关计算此信息的日期的更多信息。
 
-要为受众分配自定义或核心数据使用标签，请单击椭圆按钮，然后选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
+要为受众分配自定义或核心数据使用标签，请单击省略号按钮，然后选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

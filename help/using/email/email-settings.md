@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 设置，电子邮件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -151,6 +151,14 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 * 请勿在回复收件箱中将邮件标记为垃圾邮件，因为这会影响发送到此地址的所有其他回复。
 
+此外，在定义 **[!UICONTROL 回复（电子邮件）]** 地址，请确保使用具有有效MX记录配置的子域，否则电子邮件表面处理将失败。
+
+如果您在提交电子邮件界面时遇到错误，则表示未为您输入的地址的子域配置MX记录。 请联系您的管理员以配置相应的MX记录或使用其他具有有效MX记录配置的地址。
+
+>[!NOTE]
+>
+>如果您输入的地址的子域是 [充分授权](../configuration/delegate-subdomain.md#full-subdomain-delegation) 要Adobe，请联系您的Adobe客户经理。
+
 ### 转发电子邮件 {#forward-email}
 
 如果您希望将收到的所有电子邮件转发到特定电子邮件地址 [!DNL Journey Optimizer] 对于委派的子域，请联系Adobe客户关怀团队。 您需要提供：
@@ -173,6 +181,10 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 为此，请启用 **[!UICONTROL 密送电子邮件]** 通道曲面级别的可选功能。 [了解详情](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+此外，在定义 **[!UICONTROL 密送电子邮件]** 地址，请确保使用具有有效MX记录配置的子域，否则电子邮件表面处理将失败。
+
+如果您在提交电子邮件界面时遇到错误，则表示未为您输入的地址的子域配置MX记录。 请联系您的管理员以配置相应的MX记录或使用其他具有有效MX记录配置的地址。
 
 ## 电子邮件重试参数 {#email-retry}
 
@@ -237,7 +249,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 >[!NOTE]
 >
->您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL 值]** 字段最多可包含255个字符。
+>您可以结合使用表达式编辑器中的上下文属性和键入文本值。 每个 **[!UICONTROL 值]** 字段可包含最多5 KB的字符数。
 
 <!--You can drag and drop the parameters to reorder them.-->
 

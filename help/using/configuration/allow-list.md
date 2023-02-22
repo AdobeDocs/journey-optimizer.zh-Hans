@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 2%
+source-wordcount: '1129'
+ht-degree: 6%
 
 ---
 
@@ -128,21 +128,21 @@ ht-degree: 2%
 
    ![](assets/allowed-list-add-email.png)
 
-1. 选择地址类型： **[!UICONTROL 电子邮件地址]** 或 **[!UICONTROL 域地址]**.
+1. 选择地址类型：**[!UICONTROL 电子邮件地址]**&#x200B;或&#x200B;**[!UICONTROL 域地址]**。
 
 1. 输入要向其发送电子邮件的电子邮件地址或域。
 
    >[!NOTE]
    >
-   >请确保输入有效的电子邮件地址(如abc@company.com)或域名（如abc.company.com）。
+   >确保输入有效的电子邮件地址（例如 abc@company.com）或域（例如 abc.company.com）。
 
-1. 根据需要指定原因。
+1. 如果需要，请指定原因。
 
    ![](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >在 **[!UICONTROL 原因]** 字段。 完整列表可在 [本页](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} 例如。
+   >在 **[!UICONTROL 原因]** 字段。 可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -155,6 +155,34 @@ ht-degree: 2%
 您可以执行 **添加**, **删除** 和 **获取** 操作。
 
 进一步了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 参考文档。
+
+## 下载允许列表 {#download-allowed-list}
+
+要将允许列表导出为CSV文件，请执行以下步骤：
+
+1. 选择 **[!UICONTROL 下载CSV]** 按钮。
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. 等待文件生成。
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >下载时间取决于文件大小，即允许列表上的地址数。
+   >
+   >一次可以针对给定的沙盒处理一个下载请求。
+
+1. 生成文件后，您会收到通知。 单击屏幕右上方的铃铛图标以显示它。
+
+1. 单击通知本身以下载文件。
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >该链接的有效期为24小时。
 
 ## 允许列表逻辑 {#logic}
 

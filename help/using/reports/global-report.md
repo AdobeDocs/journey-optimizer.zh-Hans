@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1276'
 ht-degree: 4%
 
 ---
@@ -306,6 +306,39 @@ ht-degree: 4%
 </table>
 -->
 
+### 应用程序内量度 {#inapp-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 量度<br/> </th> 
+   <th> 定义<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>单击次数<br/> </td> 
+   <td>与应用程序内消息中包含的按钮进行交互的收件人总数。<br/> </td> 
+</tr>
+  <tr> 
+   <td>点击率<br/> </td> 
+   <td>与查看了消息的用户相比，与应用程序内消息中包含的按钮进行交互的用户百分比。<br/> </td> 
+</tr> 
+  <tr> 
+   <td>取消率<br/> </td> 
+   <td> 收件人取消的应用程序内消息的百分比。<br/> </td> 
+</tr> 
+  <tr> 
+   <td>展示次数<br/> </td> 
+   <td> 发送给所有用户的应用程序内消息总数。<br/> </td>
+</tr>
+  <tr> 
+   <td>独特展示次数<br/> </td> 
+   <td>将应用程序内消息发送到的独特用户数。<br/> </td>
+</tr>
+ </tbody> 
+</table>
+
 ### 推送通知量度
 
 <table> 
@@ -433,36 +466,5 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-<!--
-### In-app metrics {#inapp-metrics}
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br/> </th> 
-   <th> Definition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Clicks<br/> </td> 
-   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Click rate<br/> </td> 
-   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Dismiss rate<br/> </td> 
-   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
-</tr> 
-  <tr> 
-   <td>Impressions<br/> </td> 
-   <td> Total number of In-app messages delivered to all users.<br/> </td>
-</tr>
-  <tr> 
-   <td>Unique impressions<br/> </td> 
-   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
-</tr>
- </tbody> 
-</table>
--->
+
+

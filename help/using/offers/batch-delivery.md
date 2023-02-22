@@ -2,7 +2,7 @@
 title: 批量决策
 description: 了解如何向给定Adobe Experience Platform区段中的所有用户档案提供优惠决策。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -76,7 +76,7 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
 >[!NOTE]
 >
->要确保您获得有关作业请求状态的最新信息，请使用作业旁边的椭圆按钮刷新作业请求。
+>要确保您获得有关作业请求状态的最新信息，请使用作业旁边的省略号按钮来刷新它。
 
 1. **[!UICONTROL 已排队]**:作业请求已创建并进入处理队列。 每个数据集一次最多可以运行5个批处理作业。 具有相同输出数据集的任何其他批处理请求都会添加到队列中。 在上一个作业完成运行后，将选取已排队的作业进行处理。
 1. **[!UICONTROL 处理]**:正在处理作业请求

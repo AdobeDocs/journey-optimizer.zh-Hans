@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 4%
@@ -29,15 +29,15 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="输入要编辑的URL"
->abstract="输入特定网页的URL，以用于编辑将应用于上面定义的Web表面的内容。 必须使用Adobe Experience Platform Web SDK来实施网页。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解更多"
+>title="确认要编辑的URL"
+>abstract="确认特定网页的URL，以用于编辑将应用于上面定义的Web表面的内容。 必须使用Adobe Experience Platform Web SDK来实施网页。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="输入要编辑的URL"
 >abstract="输入特定网页的URL，以用于编辑将应用于与规则匹配的所有页面的内容。 必须使用Adobe Experience Platform Web SDK来实施网页。"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解更多"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，库，个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 要编辑现有表达式，请将其添加到编辑器中，然后根据需要对其进行修改。 单击 **[!UICONTROL 添加到库]** 验证语法并保存表达式。
 
-要删除表达式，请单击椭圆按钮，然后单击 **[!UICONTROL 删除]**.
+要删除表达式，请单击省略号按钮，然后单击 **[!UICONTROL 删除]**.
 
 ## 操作方法视频{#video}
 

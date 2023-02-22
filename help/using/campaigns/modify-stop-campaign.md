@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 管理营销活动，状态，计划，访问，优化程序
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 随着时间的推移，营销活动列表会不断增长，最终会使浏览已完成和已停止的营销活动变得更加困难。
 
-为防止出现这种情况，您可以存档不再需要的已完成和已停止的营销活动。 要执行此操作，请单击椭圆按钮，然后选择 **[!UICONTROL 存档]**.
+为防止出现这种情况，您可以存档不再需要的已完成和已停止的营销活动。 要实现此目的，请单击省略号按钮，然后选择 **[!UICONTROL 存档]**.
 
 ![](assets/create-campaign-archive.png)
 

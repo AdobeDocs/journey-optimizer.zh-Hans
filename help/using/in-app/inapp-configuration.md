@@ -3,18 +3,21 @@ title: 应用程序内配置
 description: 了解如何配置环境以使用Journey Optimizer发送应用程序内消息
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: 应用程序内，消息，配置，平台
+badge: label="Beta" type="Informitive"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 9%
+source-wordcount: '307'
+ht-degree: 13%
 
 ---
 
 # 配置应用程序内渠道 {#inapp-configuration}
+
+>[!IMPORTANT]
+>
+>应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 在发送应用程序内消息之前，您需要在 [!DNL Adobe Experience Platform Data Collection].
 
@@ -52,7 +55,7 @@ ht-degree: 9%
 
 1. 从新创建资产的Extensions菜单中，安装以下扩展：
 
-   * Adobe Experience Platform边缘网络
+   * Adobe Experience Platform Edge Network
    * Adobe Journey Optimizer
    * AEP保证
    * 同意
@@ -71,4 +74,4 @@ ht-degree: 9%
 * [创建应用程序内消息](create-in-app.md)
 * [创建活动](../campaigns/create-campaign.md)
 * [设计应用程序内消息](design-in-app.md)
-* [应用程序内报告](inapp-report.md)
+* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)

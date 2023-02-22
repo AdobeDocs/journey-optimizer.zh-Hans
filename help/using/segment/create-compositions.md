@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 5%
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->您可以随时使用列表中的椭圆按钮复制或删除现有合成。
+>您可以随时使用列表中的省略号按钮复制或删除现有的合成。
 
 了解详情:
 

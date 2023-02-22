@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 ## 编辑和删除保存的条件规则 {#edit-delete}
 
-您可以随时使用椭圆按钮删除条件规则。
+您可以随时使用省略号按钮删除条件规则。
 
 ![](assets/conditions-open.png)
 

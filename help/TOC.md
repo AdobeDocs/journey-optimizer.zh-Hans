@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 99%
 
 ---
 
@@ -202,10 +202,9 @@ ht-degree: 100%
       + [配置电子邮件设置](using/email/email-settings.md)
 + 应用程序内渠道{#in-app}
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
-   + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
-   + [应用程序内报告](using/in-app/inapp-report.md)
+   + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
 + 推送通知渠道{#push}
    + [推送通知入门](using/push/get-started-push.md)
    + [创建推送通知](using/push/create-push.md)
@@ -416,6 +415,7 @@ ht-degree: 100%
    + [查询](using/data/get-started-queries.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
+      + [导出Journey Optimizer数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 1%
+source-wordcount: '1904'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 1%
 
 * [Campaign](#campaign-global)
 * [电子邮件](#email-global)
+* [应用程序内](#inapp-global)
 * [推送](#push-global)
 * [短信](#sms-global)
 
@@ -141,6 +142,37 @@ ht-degree: 1%
 
 * **[!UICONTROL 已交付]**:已成功发送的消息数，与已发送消息的总数有关。
 * **[!UICONTROL 跳出次数]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
++++
+
+## 应用程序内选项卡 {#inapp-global}
+
+>[!IMPORTANT]
+>
+>应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+
+从营销策划 **[!UICONTROL 全局报告]**, **[!UICONTROL 应用程序内]** 选项卡详细列出了与营销活动中发送的应用程序内投放相关的主要信息。
+
+![](assets/campaign_report_global_6.png)
+
++++了解有关可用于应用程序内报表的不同量度和小组件的更多信息。
+
+的 **[!UICONTROL 应用程序内性能]** KPI会详细描述与访客对应用程序内消息的参与度相关的主要信息，例如：
+
+* **[!UICONTROL 独特展示次数]**:将应用程序内消息发送到的独特用户数。
+
+* **[!UICONTROL 展示次数]**:发送给所有用户的应用程序内消息总数。
+
+* **[!UICONTROL 点击率]**:与查看了消息的用户相比，与应用程序内消息中包含的按钮进行交互的用户百分比。
+
+* **[!UICONTROL 取消率]**:收件人取消的应用程序内消息的百分比。
+
+的 **[!UICONTROL 应用程序内摘要]** 图表显示相关时段内应用程序内展示次数的变化情况。
+
+的 **[!UICONTROL 按按钮点击]** 图表和表格包含每个按钮的收件人行为可用数据：
+
+* **[!UICONTROL 点击次数]**:与应用程序内消息中包含的按钮进行交互的收件人总数。
+
+* **[!UICONTROL 点击率]**:与查看了消息的用户相比，与应用程序内消息中包含的按钮进行交互的用户百分比。
 +++
 
 ## “推送通知”选项卡 {#push-global}
