@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 61%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -28,15 +28,14 @@ ht-degree: 61%
 <table>
 <thead>
 <tr>
-<th><strong>应用程序内渠道</strong><br/></th>
+<th><strong>应用程序内渠道（测试版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。 使用Journey Optimizer设计通知并自定义消息布局、显示、文本和按钮，以创建无缝体验。</p>
-<p>
-此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
+<p><strong>注意</strong>  — 此功能目前为测试版，仅供测试版客户使用。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
 </td>
@@ -55,9 +54,7 @@ ht-degree: 61%
 <td>
 <p>您现在可以与云存储位置建立实时连接，以导出数据集的内容。 可用目标包括：Amazon S3云存储、Azure Blob、Azure数据湖第2代、数据登陆区、Google云存储、SFTP。</p>
 <p><strong>注意</strong>  — 此功能目前为测试版，可供所有Adobe Journey Optimizer用户使用。 如果您尚未拥有访问权限，请与您的Adobe代表合作，以获取目标的访问权限。</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>有关更多信息，请参阅<a href="../data/export-datasets.md">详细文档</a>。</p>
 </td>
 </tr>

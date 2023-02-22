@@ -5,10 +5,11 @@ title: 将数据集导出到云存储位置
 description: 了解如何使用Adobe Experience Platform云存储目标导出数据集。
 role: User
 level: Beginner
+badge: label="Beta" type="Informitive"
 keywords: 平台，数据湖，创建，湖，数据集，配置文件
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---

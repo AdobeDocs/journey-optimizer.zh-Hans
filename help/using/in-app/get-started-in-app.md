@@ -8,7 +8,7 @@ level: Beginner
 keywords: 应用程序内，消息，创建，开始
 badge: label="Beta" type="Informitive"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 16%
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # 应用程序内渠道入门 {#gs-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
