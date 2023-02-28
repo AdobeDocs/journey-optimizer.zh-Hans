@@ -8,7 +8,7 @@ level: Beginner
 keywords: 应用程序内，消息，设计，格式
 badge: label="Beta" type="Informitive"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 设计应用程序内内容 {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 

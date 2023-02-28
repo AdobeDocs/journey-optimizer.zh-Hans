@@ -6,7 +6,7 @@ level: Intermediate
 keywords: 应用程序内，消息，配置，平台
 badge: label="Beta" type="Informitive"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 13%
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # 配置应用程序内渠道 {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 1. 选择 [!DNL Adobe Experience Platform] 服务。
 
-   [!DNL Edge Segmentation], [!DNL Offer Decisioning] 和 [!DNL Adobe Journey Optimizer] 必须被选中。
+   [!DNL Edge Segmentation] 和 [!DNL Adobe Journey Optimizer] 必须被选中。
 
    ![](assets/inapp_config_6.png)
 
@@ -72,6 +72,6 @@ ht-degree: 13%
 **相关主题：**
 
 * [创建应用程序内消息](create-in-app.md)
-* [创建活动](../campaigns/create-campaign.md)
+* [创建营销活动](../campaigns/create-campaign.md)
 * [设计应用程序内消息](design-in-app.md)
 * [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
