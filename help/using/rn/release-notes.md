@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 57%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -145,7 +145,9 @@ Note that each widget can be resized and deleted as needed.
 
 **决策管理**
 
-* **版面**  — 在投放位置创建屏幕中添加了其他参数。 利用它们，可控制是否可以在多个投放位置之间复制选件，并指定是否应将选件的内容和元数据包含在API响应中。 [了解详情](../offers/offer-library/creating-placements.md)
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **URL个性化**  — 将URL作为内容添加到优惠的表示法时，您现在可以使用表达式编辑器对这些URL进行个性化设置。 [了解详情](../offers/offer-library/add-representations.md)
 
