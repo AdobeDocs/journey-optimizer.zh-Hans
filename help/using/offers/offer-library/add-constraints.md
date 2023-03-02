@@ -1,156 +1,161 @@
 ---
-title: 向选件添加约束
-description: 了解如何定义要显示的选件的条件
+title: 向优惠添加约束
+description: 了解如何定义优惠的显示条件
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 2%
 
 ---
 
-# 向选件添加约束 {#add-constraints}
+# 向优惠添加约束 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
->title="关于选件约束"
->abstract="通过限制，您可以指定与其他选件相比，选件的优先级和呈现给用户的方式。"
+>title="关于优惠约束"
+>abstract="通过约束，您可以指定与其他选件相比，如何优先考虑选件并将其呈现给用户。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
->title="关于选件约束"
->abstract="通过限制，您可以指定与其他选件相比，选件的优先级和呈现给用户的方式。"
+>title="关于优惠约束"
+>abstract="通过约束，您可以指定与其他选件相比，如何优先考虑选件并将其呈现给用户。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="关于选件优先级"
->abstract="在此字段中，您可以指定选件的优先级设置。 优先级是用于对满足所有限制（如资格、日期和上限）的选件进行排名的数字。"
+>title="关于优惠优先级"
+>abstract="在此字段中，您可以指定选件的优先级设置。 优先级是一个数字，用于对满足所有约束（如资格、日期和上限）的优惠进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="设置优先级"
->abstract="如果用户符合多个选件的条件，则优先级有助于定义选件与其他选件相比的优先级。 优惠的优先级越高，与其他选件相比，优先级越高。"
+>abstract="优先级有助于定义用户符合多个选件的条件时，选件相对于其他选件的优先级。 选件的优先级越高，其优先级与其他选件相比就越高。"
 
-利用约束，可定义显示选件的条件。
+利用约束，可定义显示优惠的条件。
 
-1. 配置 **[!UICONTROL 选件资格]**. [了解详情](#eligibility)
+1. 配置 **[!UICONTROL 优惠资格]**. [了解详情](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. 定义 **[!UICONTROL 优先级]** 选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他选件相比，优先级越高。
+1. 定义 **[!UICONTROL 优先级]** 与其他选件相比，如果用户符合多个选件的条件，则该选件具有相同的权限。 选件的优先级越高，其优先级与其他选件相比就越高。
 
    ![](../assets/offer-priority.png)
 
-1. 指定选件的 **[!UICONTROL 上限]**，即显示选件的次数。 [了解详情](#capping)
+1. 指定优惠的 **[!UICONTROL 上限]**，表示优惠的展示次数。 [了解详情](#capping)
 
    ![](../assets/offer-capping.png)
 
 1. 单击 **[!UICONTROL 下一个]** 以确认您定义的所有约束。
 
-例如，如果设置以下约束：
+例如，如果设置了以下约束：
 
 ![](../assets/offer-constraints-example.png)
 
-* 仅对与“金牌忠诚度客户”决策规则匹配的用户考虑选件。
-* 选件的优先级设置为“50”，这意味着选件将在优先级为1到49的选件之前和优先级为至少51的选件之后显示。
-* 每个用户在所有版面中仅会向该选件显示一次。
+* 只有符合“金会员客户”决策规则的用户，才会考虑提供该优惠。
+* 优惠的优先级设置为“50”，这意味着优惠将在优先级为1到49的优惠之前呈现，并且优先级至少为51的优惠之后呈现。
+* 所有投放位置中每个用户仅会显示一次选件。
 
 ## 资格 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定义资格"
->abstract="默认情况下，任何用户档案都有资格向您显示选件，但您可以使用区段或决策规则将选件限制为特定用户档案。"
+>abstract="默认情况下，任何用户档案都有资格获得优惠，但您可以使用区段或决策规则将优惠限制为特定用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
 >title="关于优惠资格"
->abstract="在此部分中，您可以使用决策规则确定哪些用户有资格使用选件。"
+>abstract="在此部分中，您可以使用决策规则确定哪些用户符合优惠条件。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="用户档案估计总数"
->abstract="选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。"
+>title="配置文件估计总数"
+>abstract="在选择区段或决策规则时，您可以查看有关预计的合格用户档案的信息。"
 
-的 **[!UICONTROL 选件资格]** 部分允许您将选件限制为使用区段或决策规则定义的特定用户档案。
+此 **[!UICONTROL 优惠资格]** 部分允许您将优惠限制为您使用区段或决策规则定义的特定用户档案。
 
 >[!NOTE]
 >
->了解有关使用的更多信息 **区段** 与 **决策规则** in [此部分](#segments-vs-decision-rules).
+>了解关于使用的更多信息 **区段** 对比 **决策规则** 在 [本节](#segments-vs-decision-rules).
 
-* 默认情况下， **[!UICONTROL 所有访客]** 选项，这意味着任何用户档案都有资格获得该选件。
+* 默认情况下， **[!UICONTROL 所有访客]** 选项，这意味着任何用户档案都符合呈现优惠的条件。
 
    ![](../assets/offer-eligibility-default.png)
 
-* 您还可以将选件的呈现方式限制为一个或多个选件的成员 [Adobe Experience Platform区段](../../segment/about-segments.md).
+* 您还可以将优惠的呈现方式限制为一个或多个成员 [Adobe Experience Platform区段](../../segment/about-segments.md).
 
-   为此，请激活 **[!UICONTROL 属于一个或多个区段的访客]** 选项，然后从左侧窗格添加一个或多个区段，并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
+   为此，请激活 **[!UICONTROL 属于一个或多个区段的访客]** 选项，然后从左窗格添加一个或多个区段并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
 
    ![](../assets/offer-eligibility-segment.png)
 
-* 如果要关联特定 [决策规则](../offer-library/creating-decision-rules.md) 在选件中，选择 **[!UICONTROL 按定义的决策规则]**，然后将所需的规则从左侧窗格拖入 **[!UICONTROL 决策规则]** 的上界。
+* 如果要关联特定 [决策规则](../offer-library/creating-decision-rules.md) 对于选件，选择 **[!UICONTROL 按定义的决策规则]**，然后将所需规则从左窗格拖入 **[!UICONTROL 决策规则]** 区域。
 
    ![](../assets/offer_rule.png)
 
    >[!CAUTION]
    >
-   >中当前不支持基于事件的选件 [!DNL Journey Optimizer]. 如果您根据 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}，您将无法在选件中利用它。
+   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}，您将无法在选件中利用它。
 
-选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 更新数据。
+在选择区段或决策规则时，您可以查看有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
 >[!NOTE]
 >
->如果规则参数包含不在配置文件中的数据（如上下文数据），则配置文件估计不可用。 例如，要求当前天气为≥80度的资格规则。
+>当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，一个资格规则，要求当前天气为≥80度。
 
-### 使用区段和决策规则 {#segments-vs-decision-rules}
+### 使用区段与决策规则 {#segments-vs-decision-rules}
 
-要应用约束，您可以将选件的选择限制为一个或多个选件的成员 **Adobe Experience Platform区段**，或者您可以使用 **决策规则**，两个解决方案对应于不同的使用情况。
+要应用约束，您可以将选件的选择限制为一个或多个选件的成员 **Adobe Experience Platform区段**，或者您可以使用 **决策规则**，这两种解决方案分别对应于不同的用法。
 
-基本上，区段的输出是用户档案列表，而决策规则是在决策过程中针对单个用户档案按需执行的函数。 下面详述了这两种用法之间的差异。
+基本上，区段的输出是用户档案的列表，而决策规则是在决策过程中根据单个用户档案按需执行的功能。 这两种使用方式的区别详见下文。
 
 * **区段**
 
-   一方面，区段是一组Adobe Experience Platform用户档案，这些用户档案根据用户档案属性和体验事件与特定逻辑进行匹配。 但是，选件管理不会重新计算区段，在显示选件时，该区段可能不是最新的。
+   一方面，区段是一组Adobe Experience Platform配置文件，它们根据配置文件属性和体验事件匹配特定逻辑。 但是，选件管理不会重新计算区段，因为此区段在展示选件时可能不是最新的。
 
-   了解有关 [此部分](../../segment/about-segments.md).
+   了解中有关区段的更多信息 [本节](../../segment/about-segments.md).
 
 * **决策规则**
 
-   另一方面，决策规则基于Adobe Experience Platform中可用的数据，并确定可向谁显示选件。 在选件中选择或为给定版面做出决策后，每次做出决策时都会执行规则，以确保每个用户档案都获得最新和最佳选件。
+   另一方面，决策规则基于Adobe Experience Platform中可用的数据，并决定可以向谁显示优惠。 在给定投放位置的优惠或决策中选择优惠后，每次做出决策时都会执行规则，从而确保每个用户档案都获得最新和最佳优惠。
 
-   了解有关 [此部分](creating-decision-rules.md).
+   在中了解有关决策规则的更多信息 [本节](creating-decision-rules.md).
 
 ## 上限 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
 >title="关于优惠上限"
->abstract="在此字段中，您可以指定选件的显示次数。"
+>abstract="在此字段中，您可以指定选件可显示的次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="使用上限"
->abstract="为避免过度取悦客户，请使用上限来定义选件可以显示的最大次数。"
+>abstract="为避免过度吸引客户，请使用上限来定义可显示优惠的最大次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="设置上限频率"
->abstract="您可以选择每日、每周或每月重置选件上限计数器。"
+>abstract="您可以选择每日、每周或每月重置优惠上限计数器。"
 
-上限用作约束，以定义选件可显示的最大次数。
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=“展示次数用作上限事件仅适用于入站渠道。”
 
-通过限制用户获得特定选件的次数，您可以避免过度取悦客户，从而使用最佳选件优化每个接触点。
+上限用作约束，以定义可显示优惠的最大次数。
+
+通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
 要设置上限，请执行以下步骤。
 
-1. 定义选件可显示的次数。
+1. 定义可显示优惠的次数。
 
    ![](../assets/offer-capping-times.png)
 
@@ -158,17 +163,17 @@ ht-degree: 2%
    >
    >数字必须是大于0的整数。
 
-1. 指定您希望对所有用户还是一个特定配置文件应用上限：
+1. 指定要将上限应用于所有用户还是某个特定用户档案：
 
    ![](../assets/offer-capping-total.png)
 
-   * 选择 **[!UICONTROL 合计]** 定义在组合目标受众中可建议选件多少次，即在所有用户中。
+   * 选择 **[!UICONTROL 总计]** 定义可在组合目标受众中建议多少次选件，即在所有用户中均如此。
 
-      例如，如果您是一家电子产品零售商，并且有一项“电视门卫交易”，则您希望在所有用户档案中仅返回选件200次。
+      例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
 
-   * 选择 **[!UICONTROL 每个用户档案]** 定义向同一用户建议选件的次数。
+   * 选择 **[!UICONTROL 每个配置文件]** 定义可向同一用户建议多少次选件。
 
-      例如，如果您是拥有“白金信用卡”选件的银行，则您不希望此选件在每个用户档案中显示超过5次。 事实上，您认为如果用户查看了选件5次而未对其执行操作，则他们更有机会对下一个最佳选件执行操作。
+      例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次报价，但未对其执行操作，则他们更有可能对下一个最佳报价执行操作。
    <!--
     Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
     ![](../assets/offer-capping-frequency.png)
@@ -179,73 +184,73 @@ ht-degree: 2%
     For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
     -->
 
-1. 如果您定义了 [表示](add-representations.md) 为选件指定是否要应用上限 **[!UICONTROL 跨所有版面]** 或 **[!UICONTROL 对于每个版面]**.
+1. 如果已定义多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **[!UICONTROL 在所有投放位置中]** 或 **[!UICONTROL 对于每个投放位置]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL 跨所有版面]**:上限计数将总计与选件关联的版面中的所有决策。
+   * **[!UICONTROL 在所有投放位置中]**：上限计数将总计与优惠关联的投放位置中的所有决策。
 
-      例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **所有版面中的每个用户档案2个**，则无论使用何种版面组合，每个用户档案总共可收到选件2次。
+      例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **所有投放位置中每个配置文件2个**，则无论版面组合如何，每个用户档案最多可以接收总共2次选件。
 
-   * **[!UICONTROL 对于每个版面]**:上限计数将单独对每个版面应用决策计数。
+   * **[!UICONTROL 对于每个投放位置]**：上限计数将分别应用每个投放位置的决策计数。
 
-      例如，如果选件具有 **电子邮件** 版面和 **Web** 的上限，并在 **每次投放的每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），另外2次（用于Web投放）。
+      例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **每次投放每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），以及额外的2次（用于网站投放）。
 
-1. 保存并批准后，如果向选件显示您根据标准和您定义的时间范围在此字段中指定的次数，则其交付将停止。
+1. 保存并批准优惠后，如果根据您定义的标准和时间范围，已按照您在此字段中指定的次数向其显示优惠，则投放将停止。
 
-在准备电子邮件时计算建议使用选件的次数。 例如，如果您准备发送一封包含大量选件的电子邮件，则无论是否发送了这封电子邮件，这些数量都将计入您的最大上限。
+在准备电子邮件时会计算建议使用选件的次数。 例如，如果您准备发送一封包含大量选件的电子邮件，则无论是否发送了这封电子邮件，这些数量都将计入您的最大上限。
 
 <!--If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.-->
 
 >[!NOTE]
 >
->当选件过期或选件开始日期后2年（以先到者为准）时，上限计数器将重置。 了解如何在 [此部分](creating-personalized-offers.md#create-offer).
+>当优惠到期时或优惠开始日期后2年后（以先到者为准），上限计数器将重置。 了解如何在中定义优惠的日期 [本节](creating-personalized-offers.md#create-offer).
 
-### 更改日期对上限的影响 {#capping-change-date}
+### 更改日期对上限设置的影响 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="更改日期可能会影响上限"
->abstract="如果对此选件应用了上限，则当您更改开始或结束日期时，上限可能会受到影响。"
+>abstract="如果对此选件应用了上限，则更改开始或结束日期时可能会影响该选件。"
 
-更改选件日期时，您必须继续小心，因为如果满足以下条件，这可能会对上限产生影响：
+更改优惠日期时必须小心操作，因为如果满足以下条件，这可能会影响上限：
 
-* 该选件是 [已批准](#review).
+* 选件为 [已批准](#review).
 * [上限](#capping) 已应用于选件。
-* 按用户档案定义上限。
+* 根据配置文件定义上限。
 
 >[!NOTE]
 >
->了解如何在 [此部分](creating-personalized-offers.md#create-offer).
+>了解如何在中定义优惠的日期 [本节](creating-personalized-offers.md#create-offer).
 
-每个配置文件的上限存储每个配置文件的上限计数。 当您更改已批准选件的开始和结束日期时，某些配置文件的上限计数可能会根据下面描述的不同方案而受到影响。
+每个配置文件设置上限会存储每个配置文件上的上限计数。 当您更改已批准优惠的开始日期和结束日期时，某些用户档案的上限计数可能会根据下面描述的不同情况受到影响。
 
 ![](../assets/offer-capping-change-date.png)
 
-以下是 **更改选件开始日期**:
+以下是以下情形的可能方案： **更改优惠开始日期**：
 
-| 方案：<br>如果…… | 会发生什么情况：<br>那么…… | 对上限计数的可能影响 |
+| 方案：<br>如果…… | 发生什么情况：<br>然后…… | 对上限计数的可能影响 |
 |--- |--- |--- |
-| ...在原始选件开始日期开始之前更新选件开始日期， | ...上限计数将从新开始日期开始。 | 否 |
-| ...新的开始日期在当前结束日期之前， | ...上限将继续保留新的开始日期，并且每个用户档案的上一个上限计数将继续。 | 否 |
-| ...新开始日期晚于当前结束日期， | ...当前上限将过期，并且新上限计数将从新开始日期所有用户档案的0开始。 | 是 |
+| ...优惠开始日期在原始优惠开始日期之前更新， | ...上限计数将从新的开始日期开始。 | 否 |
+| ...新的开始日期早于当前结束日期， | ...上限将继续计为一个新的开始日期，每个用户档案的上一个上限计数将结转。 | 否 |
+| ...新的开始日期在当前的结束日期之后， | ...当前上限将过期，新的上限计数将从新开始日期的所有配置文件的0重新开始。 | 是 |
 
-以下是 **延长优惠结束日期**:
+以下是以下情形的可能方案： **延长优惠结束日期**：
 
-| 方案：<br>如果…… | 会发生什么情况：<br>那么…… | 对上限计数的可能影响 |
+| 方案：<br>如果…… | 发生什么情况：<br>然后…… | 对上限计数的可能影响 |
 |--- |--- |--- |
-| ...在原始选件结束日期之前，发生决策请求， | ...将更新上限计数，并且每个用户档案的上一个上限计数将结转。 | 否 |
-| ...在原始结束日期之前，不会发出决策请求， | ...上限计数将在每个用户档案的原始结束日期重置。 随后，对于将在原始结束日期之后发生的任何新决策请求，新的上限计数将从0重新开始。 | 是 |
+| ...决策请求发生在原始优惠结束日期之前， | ...将更新上限计数，并将结转每个用户档案的上一个上限计数。 | 否 |
+| ...在原始结束日期之前不会发生任何决策请求， | ...上限计数将在每个配置文件的原始结束日期重置。 对于在原始结束日期之后发生的任何新决策请求，新的上限计数将从0重新开始。 | 是 |
 
 **示例**
 
-假设您有一个选件，且原始开始日期设置为 **1月1日**，过期 **1月31日**.
+假设您有一个优惠，其原始开始日期设置为 **1月1日**，到期日期 **1月，31日**.
 
-1. 将显示用户档案X、Y和Z。
-1. 开 **1月10日**，则选件的结束日期将更改为 **2月15日**.
-1. **从1月11日至1月31日**，则仅会显示选件Z。
+1. 配置文件X、Y和Z将显示选件。
+1. 日期 **1月10日**，则优惠的结束日期将更改为 **2,15**.
+1. **一月十一日至一月三十一日**，则只有配置文件Z呈现选件。
 
-   * 因为决策请求在原始结束日期之前发生 **对于配置文件Z**，则选件的结束日期可延长到 **2月15日**.
-   * 但是，由于在的原始结束日期之前未发生任何活动 **用户档案X和Y**，其计数器将过期，其上限计数将在 **1月31日**.
+   * 因为决策请求发生在原始结束日期之前 **配置文件Z**，优惠的结束日期可以延长到 **2,15**.
+   * 但是，由于以下项的原始结束日期之前未发生任何活动： **配置文件X和Y**，其计数器将过期，其上限计数将重置为0于 **1月，31日**.
 
 ![](../assets/offer-capping-change-date-ex.png)
