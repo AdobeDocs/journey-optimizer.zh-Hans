@@ -417,7 +417,7 @@ ht-degree: 99%
    + [查询](using/data/get-started-queries.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
-      + [导出Journey Optimizer数据集](using/data/export-datasets.md)
+      + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)

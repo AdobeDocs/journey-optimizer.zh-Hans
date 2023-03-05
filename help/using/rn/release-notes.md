@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 60%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2023年2月发行说明 {#feb-2023}
+## 2023 年 2 月发行说明 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>应用程序内渠道（测试版）</strong><br/></th>
+<th><strong>应用程序内渠道（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在促销活动中向应用程序用户发送个性化的应用程序内消息。 使用Journey Optimizer设计通知并自定义消息布局、显示、文本和按钮以创建无缝体验。</p>
-<p><strong>注意</strong>  — 此功能目前为测试版，仅供测试版客户使用。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
+<p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
+<p><strong>注意</strong> - 此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
 </td>
@@ -46,14 +46,14 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>将Journey Optimizer数据集导出到Cloud Storage Destinations (beta)</strong><br/></th>
+<th><strong>将 Journey Optimizer 数据集导出到云存储目标（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以与云存储位置建立实时连接，以导出数据集的内容。 可用的目标包括：Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
-<p><strong>注意</strong>  — 此功能目前为测试版，可供所有Adobe Journey Optimizer用户使用。 如果您还没有访问权限，请与您的Adobe代表合作以获取对目标的访问权限。</p>
+<p>您现在可以与云存储位置建立实时连接，以导出数据集的内容。可用目标包括：Amazon S3 云存储、Azure Blob、Azure Data Lake 第 2 代、数据登陆区、Google 云存储、SFTP。</p>
+<p><strong>注意</strong> - 此功能目前为 Beta 版，可供所有 Adobe Journey Optimizer 用户使用。如果您尚未拥有访问权限，请与 Adobe 代表联系，获取目标的访问权限。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>有关更多信息，请参阅<a href="../data/export-datasets.md">详细文档</a>。</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* 此 **重新进入等待期** 字段已添加到历程属性。 此字段允许您定义允许用户档案在单一历程中再次进入历程之前的等待时间（从事件或区段资格开始）。 这样可防止同一事件多次错误地触发历程。 默认情况下，该字段设置为5分钟。 [了解详情](../building-journeys/journey-gs.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或区段鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-gs.md#entrance)
 
-* 在以下方面做出了改进： **历程开始和结束日期**. 如果尚未指定开始日期，则会在发布时自动添加该日期。 对象 **读取区段** 历程，您现在可以添加结束日期。 这允许用户档案在到达日期时自动退出。 [了解详情](../building-journeys/journey-gs.md#dates)
+* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取区段**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -137,11 +137,11 @@ Note that each widget can be resized and deleted as needed.
 
 **管理**
 
-* **允许列表**  — 您现在可以将允许列表下载为.csv文件。 [了解详情](../configuration/allow-list.md#download-allowed-list)
+* **允许列表** - 您现在可以将允许列表下载为 .csv 文件。[了解详情](../configuration/allow-list.md#download-allowed-list)
 
-* **电子邮件表面**  — 已对电子邮件表面设置添加了其他检查：如果子域的MX记录用于 **回复（电子邮件）地址** 或在 **密件抄送电子邮件地址** 配置不正确，无法再创建电子邮件表面。 您必须配置它或使用其他服务器。 [了解详情](../email/email-settings.md#reply-to-email)
+* **电子邮件平面** - 向电子邮件平面设置添加了额外的检查：如果&#x200B;**回复（电子邮件）地址**&#x200B;或&#x200B;**密送电子邮件地址**&#x200B;中使用的子域 MX 记录未正确配置，则无法再创建电子邮件平面。您必须对其进行配置或使用其他记录。[了解详情](../email/email-settings.md#reply-to-email)
 
-* **电子邮件表面**  — 在 **URL跟踪参数** 电子邮件表面设置部分，每个部分的 **值** 为了与Adobe Analytics跟踪兼容，字段已从255个字符更新为5 KB。 [了解详情](../email/email-settings.md#url-tracking)
+* **电子邮件平面** - 在电子邮件平面设置的 **URL 跟踪参数**&#x200B;部分，每个&#x200B;**值**&#x200B;字段的限制已从 255 个字符更新为 5 KB，以便与 Adobe Analytics 跟踪兼容。[了解详情](../email/email-settings.md#url-tracking)
 
 **决策管理**
 
@@ -149,7 +149,7 @@ Note that each widget can be resized and deleted as needed.
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
 -->
 
-* **URL个性化**  — 将URL作为内容添加到优惠的表示法时，您现在可以使用表达式编辑器对这些URL进行个性化设置。 [了解详情](../offers/offer-library/add-representations.md)
+* **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
