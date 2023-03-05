@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 * 仅支持 POST 和 PUT 调用方法
 * 查询参数或标头的名称不得以“.”或“$”开始
 * 不允许使用 IP 地址
-* 内部Adobe地址(`.adobe.*`)。
+* URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
 
 ### 事件 {#events-g}
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 ### 数据源 {#data-sources-g}
 
 * 可在客户历程中利用外部数据源，以实时查找外部数据。这些源必须可通过 REST API 使用，支持 JSON，并能够处理大量请求。
-* 内部Adobe地址(`.adobe.*`)。
+* URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
 
 ### 历程和用户档案创建 {#journeys-limitation-profile-creation}
 
