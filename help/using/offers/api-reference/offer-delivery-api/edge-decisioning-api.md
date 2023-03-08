@@ -1,15 +1,15 @@
 ---
 title: 使用Edge Decisioning API提供优惠
-description: Adobe Experience Platform Web SDK允许您检索和渲染使用API或选件库创建的个性化选件。
+description: Adobe Experience Platform Web SDK允许您检索和渲染使用API或优惠库创建的个性化优惠。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 2%
+source-wordcount: '1013'
+ht-degree: 3%
 
 ---
 
@@ -17,42 +17,42 @@ ht-degree: 2%
 
 ## 入门指南和先决条件 {#edge-overview-and-prerequisites}
 
-的 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是一个客户端JavaScript库，它允许Adobe Experience Cloud客户通过Experience Platform边缘网络与Experience Cloud中的各种服务进行交互。
+此 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是一个客户端JavaScript库，它允许Adobe Experience Cloud客户通过Experience Platform边缘网络与Experience Cloud中的各种服务进行交互。
 
-Experience PlatformWeb SDK支持在Adobe中查询个性化解决方案（包括决策管理），从而允许您检索和渲染使用API或选件库创建的个性化选件。 有关更多详细说明，请参阅 [创建优惠](../../get-started/starting-offer-decisioning.md).
+Experience PlatformWeb SDK支持在Adobe查询个性化解决方案，包括决策管理，从而允许您检索和渲染使用API或优惠库创建的个性化优惠。 有关更多详细说明，请参阅以下文档： [创建优惠](../../get-started/starting-offer-decisioning.md).
 
-可使用以下两种方式实施决策管理： [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员，需要了解网站和编程知识。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需在HTML页面的标题中引用一个小脚本即可。
+有两种方法可以通过实施决策管理 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员的，需要了解网站和编程。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需要在HTML页面的标头中引用一个小型脚本。
 
-请参阅 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
+请参阅以下文档： [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
 
 >[!NOTE]
 >
->Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（有限可用性）。 如果要利用此功能，请联系您的Adobe客户经理。
+>Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（限量发布）。 如果要利用此功能，请联系您的Adobe客户经理。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
-Platform Web SDK取代了以下SDK:
+Platform Web SDK取代了以下SDK：
 
 * Visitor.js
 * AppMeasurement.js
 * AT.js
 * DIL.js
 
-SDK未合并这些库，而是从头开始的一项新实施。 要使用它，您必须首先执行以下步骤：
+SDK未组合这些库，并且是从头开始的新实施。 要使用它，您必须首先执行以下步骤：
 
-1. 确保贵组织具有使用SDK的适当权限，并且您已正确配置了这些权限。
+1. 确保贵组织具有使用SDK的相应权限，并且您已正确配置这些权限。
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) (位于您帐户的Adobe Experience Cloud中的数据收集选项卡中)。
+1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) 在Adobe Experience Cloud帐户的“数据收集”选项卡中。
 
-1. 安装SDK。 可以使用多种方法来执行此操作，详情请参阅 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本页将继续介绍每种不同的实施方法。
+1. 安装SDK。 执行此操作的方法有多种，请参见 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本页将继续介绍每种不同的实施方法。
 
-要使用SDK，您必须具有 [模式](../../../data/get-started-schemas.md) 和 [数据流](../../../data/get-started-datasets.md) 定义。
+要使用SDK，您必须拥有 [架构](../../../data/get-started-schemas.md) 和 [数据流](../../../data/get-started-datasets.md) 已定义。
 
 <!-- ****TODO - Configure schema**** -->
 
-要个性化选件，您必须单独配置个性化/配置文件。
+要个性化优惠，您必须单独配置个性化/用户档案。
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
@@ -60,39 +60,39 @@ SDK未合并这些库，而是从头开始的一项新实施。 要使用它，�
 
 ## 选项1 — 使用Launch安装标记扩展和实施
 
-对于编码体验可能较少的用户而言，此选项更易于使用。
+此选项对于编码体验可能较少的用户更友好。
 
-1. [创建标记属性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
+1. [创建标记属性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hans)
 
 1. [添加嵌入代码](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. 使用您通过从“Datastream”下拉菜单中选择配置而创建的数据流，安装和配置Adobe Experience Platform Web SDK扩展。 请参阅 [扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. 通过从“数据流”下拉列表中选择配置，使用您创建的数据流安装和配置Adobe Experience Platform Web SDK扩展。 请参阅相关文档 [扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![配置扩展](../../assets/configure-sdk-extension.png)
 
-1. 创建必需的 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans). 您至少必须创建Platform Web SDK身份映射和Platform Web SDK XDM对象数据元素。
+1. 创建必要的 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans). 您至少必须创建一个Platform Web SDK标识映射和一个Platform Web SDK XDM对象数据元素。
 
    ![标识映射](../../assets/sdk-identity-map.png)
 
    ![XDM 对象](../../assets/xdm-object.png)
 
-1. 创建 [规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. 创建您的 [规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en)：
 
-   添加Platform Web SDK发送事件操作，并将相关决策作用域添加到该操作的配置中
+   添加Platform Web SDK发送事件操作，并将相关的decisionScopes添加到该操作的配置中
 
    ![渲染选件](../../assets/rule-render-offer.png)
 
-   ![请求选件](../../assets/rule-request-offer.png)
+   ![请求优惠](../../assets/rule-request-offer.png)
 
-1. [创建和发布](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 包含您配置的所有相关规则、数据元素和扩展的库。
+1. [创建并发布](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 一个库，其中包含您配置的所有相关规则、数据元素和扩展。
 
 ## 选项2 — 使用预建的独立版本手动实施
 
-以下是使用预建的独立安装Web SDK来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定具有一些开发经验。
+以下是使用Web SDK预建独立安装来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定您有一些开发经验。
 
-在选项2中包含以下JavaScript代码片段：上预建的独立版本 [本页](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML页面的部分。
+包括选项2中的以下JavaScript代码片段：上的预建独立版本 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML部分。
 
 ```
 javascript
@@ -105,11 +105,11 @@ javascript
     <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
-您需要Adobe帐户中的两个ID来设置SDK配置 — 您的edgeConfigId和您的orgId。 edgeConfigId与您的数据流ID相同，您应该在先决条件中配置该ID。
+您需要在Adobe帐户中拥有两个ID才能设置SDK配置 — 您的edgeConfigId和您的orgId。 edgeConfigId与您的数据流ID相同，您应在先决条件中配置此数据流ID。
 
-要查找您的edgeConfigID/数据流ID，请转到“数据收集”并选择您的数据流。 要查找您的orgId，请转到您的用户档案。
+要查找edgeConfigID/数据流ID，请转到数据收集并选择您的数据流。 要查找您的orgId，请转到您的个人资料。
 
-按照本页中的说明在JavaScript中配置SDK。 您将始终在配置函数中使用您的edgeConfigId和orgId。 本文档还介绍了配置中存在的可选参数。 您的最终配置可能会如下所示：
+按照此页面上的说明，在JavaScript中配置SDK。 在配置函数中，您将始终使用edgeConfigId和orgId。 此文档还介绍了您的配置中存在的可选参数。 最终配置可能如下所示：
 
 ```
 javascript
@@ -125,11 +125,11 @@ javascript
     });
 ```
 
-安装要与调试结合使用的Debugger Chrome扩展。 可在此处找到： <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+安装调试器Chrome扩展以用于调试。 可在此处找到： <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
-接下来，在调试器中登录您的帐户。 然后，转到日志，并确保您已连接到正确的工作区。 现在，从您的选件中复制决策范围的base64编码版本。
+接下来，在Debugger中登录到您的帐户。 然后，转到日志并确保已连接到正确的工作区。 现在，从优惠中复制决策范围的base64编码版本。
 
-在编辑网站时，请包含具有配置的脚本，以及 `sendEvent` 函数将决策范围发送到Adobe。
+编辑网站时，请包含脚本以及配置和 `sendEvent` 用于将决策范围发送到Adobe的函数。
 
 **示例**:
 
@@ -159,13 +159,13 @@ javascript
     });
 ```
 
-您可以使用调试器验证您是否已成功连接到边缘网络。
+您可以使用调试器验证是否已成功连接到Edge网络。
 
 >[!NOTE]
 >
 >如果您在日志中未看到与边缘的连接，则可能需要禁用广告拦截器。
 
-请参阅创建选件的方式和使用的格式。 根据决策中满足的条件，您将收到一个选件，其中包含您在Adobe Experience Platform中创建该选件时指定的信息。
+请参阅如何创建选件和使用的格式。 根据决策中符合的标准，系统会向您返回一个选件，其中包含您在Adobe Experience Platform中创建该选件时指定的信息。
 
 在此示例中，要返回的JSON是：
 
@@ -179,7 +179,7 @@ json
 }
 ```
 
-处理响应对象并解析所需的数据。 因为您可以在一个中发送多个决策范围 `sendEvent` 呼叫，您的响应可能看起来会略有不同。
+处理响应对象并解析所需的数据。 因为您可以在一个决策范围中发送多个决策范围 `sendEvent` 调用，您的响应可能略有不同。
 
 ```
 json
@@ -237,7 +237,7 @@ json
 }
 ```
 
-在此示例中，处理和使用网页中特定于选件的详细信息所需的路径是： `result['decisions'][0]['items'][0]['data']['content']`
+在此示例中，在网页中处理和使用特定于选件的详细信息所需的路径是： `result['decisions'][0]['items'][0]['data']['content']`
 
 要设置JS变量，请执行以下操作：
 
@@ -253,6 +253,6 @@ document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
 ```
 
-## 限制
+<!--## Limitations
 
-移动设备体验边缘工作流程当前不支持某些选件约束，例如上限。 上限字段值指定选件在所有用户中可显示的次数。 有关更多详细信息，请参阅 [向选件添加约束](../../offer-library/add-constraints.md#capping).
+Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).-->
