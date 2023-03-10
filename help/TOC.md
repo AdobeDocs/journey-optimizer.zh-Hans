@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -334,10 +334,7 @@ ht-degree: 97%
          + AI 模型类型 {#ai-model-types}
             + [自动优化模型](using/offers/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/offers/ranking/personalized-optimization-model.md)
-         + 创建 AI 模型 {#configure-ai-model}
-            + [创建数据集以收集事件](using/offers/ranking/create-dataset.md)
-            + [创建 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-            + [配置事件捕获](using/offers/ranking/schema-requirement.md)
+         + [创建 AI 模型](using/offers/ranking/create-ranking-strategies.md)
    + 创建和管理优惠 {#managing-offers-in-the-offer-library}
       + 配置优惠 {#configure-offers}
          + [创建个性化优惠](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,7 +346,11 @@ ht-degree: 97%
       + [创建决策](using/offers/offer-activities/create-offer-activities.md)
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
       + [创建模拟](using/offers/offer-activities/simulation.md)
-   + [批量决策](using/offers/batch-delivery.md)
+   + [使用批量决策](using/offers/batch-delivery.md)
+   + 收集事件数据 {#collect-event-data}
+      + [数据收集快速入门](using/offers/data-collection/data-collection.md)
+      + [创建数据集以收集事件](using/offers/data-collection/create-dataset.md)
+      + [配置事件捕获](using/offers/data-collection/schema-requirement.md)
    + 创建决策管理报表 {#create-reports}
       + [决策管理事件入门](using/offers/reports/get-started-events.md)
       + [决策管理事件关键信息](using/offers/reports/key-information.md)

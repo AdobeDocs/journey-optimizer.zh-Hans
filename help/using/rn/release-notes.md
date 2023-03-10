@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 89%
+source-wordcount: '1063'
+ht-degree: 87%
 
 ---
 
@@ -164,11 +164,9 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 
-<!--
-* **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)
+* **上限**  — 您现在可以每日、每周或每月重置优惠上限计数器。 [了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* **Capping** - You can now choose which Adobe Experience Platform event should be looked at for offer decisioning capping. [Learn more](../offers/offer-library/add-constraints.md#capping)
--->
+* **上限**  — 您现在可以选择要查看哪个Adobe Experience Platform活动以设置offer decisioning上限。 [了解详情](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 1 月版 {#jan-2023-release}
 

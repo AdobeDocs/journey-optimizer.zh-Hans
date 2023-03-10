@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '2197'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 * 只有符合“金会员客户”决策规则的用户，才会考虑提供该优惠。
 * 优惠的优先级设置为“50”，这意味着优惠将在优先级为1到49的优惠之前呈现，并且优先级至少为51的优惠之后呈现。
-* 所有投放位置中每个用户仅会显示一次选件。
+* 每个用户每月仅在所有投放位置中显示一次选件。
 
 ## 资格 {#eligibility}
 
@@ -138,63 +138,37 @@ ht-degree: 2%
 >id="ajo_decisioning_capping"
 >title="使用上限"
 >abstract="为避免过度吸引客户，请使用上限来定义可显示优惠的最大次数。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响上限"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="设置上限频率"
->abstract="您可以选择每日、每周或每月重置优惠上限计数器。"
+>abstract="您可以选择每日、每周或每月重置优惠上限计数器。 请注意，保存优惠后，您将无法更改选定的频率。"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="展示"
->abstract="将展示次数用作上限事件仅适用于入站渠道。"
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=“展示次数用作上限事件仅适用于入站渠道。”
 
 上限用作约束，以定义可显示优惠的最大次数。
 
 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
-要设置上限，请执行以下步骤。
+要设置上限，请执行以下主要步骤。
 
-1. 定义可显示优惠的次数。
+1. 确保 **[!UICONTROL 包括上限]** 切换按钮处于选中状态。 默认情况下包含上限。
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >数字必须是大于0的整数。
+   >无法为之前创建的选件启用或禁用频率上限。 为此，您需要复制选件或创建新选件。
 
-1. 指定要将上限应用于所有用户还是某个特定用户档案：
+1. 定义哪些 **[!UICONTROL 设置事件上限]** 将被考虑以增加计数器。 [了解详情](#capping-event)
 
-   ![](../assets/offer-capping-total.png)
+1. 定义可显示优惠的次数。 [了解详情](#capping-type)
 
-   * 选择 **[!UICONTROL 总计]** 定义可在组合目标受众中建议多少次选件，即在所有用户中均如此。
+1. 设置 **[!UICONTROL 频率]** 以定义重置上限计数的频率。 [了解详情](#frequency-capping)
 
-      例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
-
-   * 选择 **[!UICONTROL 每个配置文件]** 定义可向同一用户建议多少次选件。
-
-      例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次报价，但未对其执行操作，则他们更有可能对下一个最佳报价执行操作。
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. 如果已定义多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **[!UICONTROL 在所有投放位置中]** 或 **[!UICONTROL 对于每个投放位置]**.
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL 在所有投放位置中]**：上限计数将总计与优惠关联的投放位置中的所有决策。
-
-      例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **所有投放位置中每个配置文件2个**，则无论版面组合如何，每个用户档案最多可以接收总共2次选件。
-
-   * **[!UICONTROL 对于每个投放位置]**：上限计数将分别应用每个投放位置的决策计数。
-
-      例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **每次投放每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），以及额外的2次（用于网站投放）。
+1. 如果已定义多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **[!UICONTROL 在所有投放位置中]** 或 **[!UICONTROL 对于每个投放位置]**. [了解详情](#placements)
 
 1. 保存并批准优惠后，如果根据您定义的标准和时间范围，已按照您在此字段中指定的次数向其显示优惠，则投放将停止。
 
@@ -205,6 +179,86 @@ ht-degree: 2%
 >[!NOTE]
 >
 >当优惠到期时或优惠开始日期后2年后（以先到者为准），上限计数器将重置。 了解如何在中定义优惠的日期 [本节](creating-personalized-offers.md#create-offer).
+
+### 设置事件上限 {#capping-event}
+
+此 **[!UICONTROL 设置事件上限]** 字段允许您定义 **[!UICONTROL 设置事件上限]** 将考虑以增加计数器：
+
+* **[!UICONTROL 决策事件]** （默认值）：可显示选件的最大次数。
+* **[!UICONTROL 展示]**：选件可向用户显示的最大次数。
+
+   >[!NOTE]
+   >
+   >可将展示次数用作上限事件 **入站渠道** 仅此而已。
+
+* **[!UICONTROL 点击次数]**：用户可单击选件的最大次数。
+* **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到给定用户档案赎回了1次。 要执行此操作，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"} 用于构建自定义事件规则的架构。
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >对于除决策事件之外的所有上限事件，决策管理反馈可能不会自动收集，因此请确保数据已传入。 [了解有关数据收集的更多信息](../data-collection/data-collection.md)
+
+### 上限类型 {#capping-type}
+
+此 **[!UICONTROL 上限类型]** 字段，用于指定可显示选件的次数。
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>数字必须是大于0的整数。
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+您还可以指定要将上限应用于所有用户还是某个特定用户档案：
+
+![](../assets/offer-capping-total.png)
+
+* 选择 **[!UICONTROL 总计]** 定义可在组合目标受众中建议多少次选件，即在所有用户中均如此。
+
+   例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
+
+* 选择 **[!UICONTROL 每个配置文件]** 定义可向同一用户建议多少次选件。
+
+   例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次报价，但未对其执行操作，则他们更有可能对下一个最佳报价执行操作。
+
+### 频率封顶 {#frequency-capping}
+
+此 **[!UICONTROL 频率]** 部分允许您定义重置上限计数的频率。 要执行此操作，请定义盘点期间（每天、每周或每月），并输入您选择的天数/周数/月数。
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>重置发生在UTC凌晨12点（您定义的日期）或周/月的第一天（如果适用）。 工作开始日期是星期日。 您选择的任何持续时间不得超过2年（即相应的月数、周数或天数）。
+
+例如，如果希望每2周重置一次上限计数，请选择 **[!UICONTROL 每周]** 从 **[!UICONTROL 重复]** 下拉列表和类型 **2** 在另一个栏位中。 重置将在每隔一个星期日的中午12点(UTC)发生。
+
+>[!CAUTION]
+>
+>保存优惠后，您将无法更改为该频率选择的时间段（每月、每周或每日）。
+
+### 上限和投放 {#placements}
+
+如果已定义多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **[!UICONTROL 在所有投放位置中]** 或 **[!UICONTROL 对于每个投放位置]**.
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL 在所有投放位置中]**：上限计数将总计与优惠关联的投放位置中的所有决策。
+
+   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **所有投放位置中每个配置文件2个**，则无论版面组合如何，每个用户档案最多可以接收总共2次选件。
+
+* **[!UICONTROL 对于每个投放位置]**：上限计数将分别应用每个投放位置的决策计数。
+
+   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **每次投放每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），以及额外的2次（用于网站投放）。
 
 ### 更改日期对上限设置的影响 {#capping-change-date}
 
