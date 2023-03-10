@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -145,10 +145,10 @@ ht-degree: 2%
 >title="设置上限频率"
 >abstract="您可以选择每日、每周或每月重置优惠上限计数器。 请注意，保存优惠后，您将无法更改选定的频率。"
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;Impression&quot;
->abstract=“展示次数用作上限事件仅适用于入站渠道。”
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="展示"
+>abstract="将展示次数用作上限事件仅适用于入站渠道。"
 
 上限用作约束，以定义可显示优惠的最大次数。
 
