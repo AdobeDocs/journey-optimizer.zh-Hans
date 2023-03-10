@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1329'
 ht-degree: 97%
 
 ---
@@ -376,7 +376,7 @@ ht-degree: 97%
             + [创建决策规则](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [更新决策规则](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [删除决策规则](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 标记 {#tags}
+         + 收藏集限定符 {#tags}
             + [列出集合限定符](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [查找集合限定词](using/offers/api-reference/offers-api/tags/lookup.md)
             + [创建集合限定符](using/offers/api-reference/offers-api/tags/create.md)
