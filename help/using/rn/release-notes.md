@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 95%
 **管理历程中的标记**
 
 作为Journey Optimizer的从业者，您现在可以使用标记整理业务对象。 标记是对对象进行分类以改进搜索的一种快速而简单的方法。 此功能目前为测试版，仅适用于历程。 [了解详情](../building-journeys/tags.md)
+
+**决策管理标记已重命名为“收藏集”限定符**
+
+为了防止与最近发布的Adobe Experience Platform中的标记功能混淆，决策管理标记已重命名为“收藏集限定符”。
+
+请注意，尽管术语“标记”不再用在决策管理用户界面中，它仍然用在后端服务中，例如API和数据集。
 
 ## 2023 年 2 月发行说明 {#feb-2023}
 

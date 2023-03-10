@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 99%
+source-wordcount: '1328'
+ht-degree: 97%
 
 ---
 
@@ -325,7 +325,7 @@ ht-degree: 99%
    + 创建组件{#create-components}
       + [创建投放位置](using/offers/offer-library/creating-placements.md)
       + [创建决策规则](using/offers/offer-library/creating-decision-rules.md)
-      + [创建标记](using/offers/offer-library/creating-tags.md)
+      + [创建收藏集限定符](using/offers/offer-library/creating-tags.md)
    + 创建排名 {#rankings}
       + [排名入门](using/offers/ranking/get-started-rankings.md)
       + [排名公式](using/offers/ranking/create-ranking-formulas.md)
@@ -377,11 +377,11 @@ ht-degree: 99%
             + [更新决策规则](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [删除决策规则](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + 标记 {#tags}
-            + [列出标记](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [查找标记](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [创建标记](using/offers/api-reference/offers-api/tags/create.md)
-            + [更新标记](using/offers/api-reference/offers-api/tags/update.md)
-            + [删除标记](using/offers/api-reference/offers-api/tags/delete.md)
+            + [列出集合限定符](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [查找集合限定词](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [创建集合限定符](using/offers/api-reference/offers-api/tags/create.md)
+            + [更新收藏集限定符](using/offers/api-reference/offers-api/tags/update.md)
+            + [删除收藏集限定符](using/offers/api-reference/offers-api/tags/delete.md)
          + 个性化优惠 {#personalized-offers}
             + [列出个性化优惠](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [查找个性化优惠](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

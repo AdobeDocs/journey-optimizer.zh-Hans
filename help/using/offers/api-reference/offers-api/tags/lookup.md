@@ -1,21 +1,21 @@
 ---
-title: 查找标记
-description: 利用标记，可更好地组织和排序选件。
+title: 查找收藏集限定词
+description: 收藏集限定符允许您更好地对优惠进行组织和排序。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
 
-# 查找标记 {#look-up-tag}
+# 查找收藏集限定词 {#look-up-tag}
 
-您可以通过向 [!DNL Offer Library] 包含任一标记的API `@id` 或请求路径中标记的名称。
+您可以通过对以下对象发出GET请求，来查找特定的收藏集限定符（以前称为“标记”）： [!DNL Offer Library] 包含集合限定符的API `@id` 或请求路径中集合限定符的名称。
 
 **API格式**
 
@@ -26,10 +26,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | 定义与标记关联的架构。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | 定义与集合限定符关联的架构。 | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:tag:124e147572cd7866` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
+| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Holiday sales and promotions` |
 
 **请求**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **响应**
 
-成功响应会返回标记的详细信息，包括有关容器ID、实例ID和唯一标记的信息 `@id`.
+成功的响应将返回收集限定词的详细信息，包括有关容器ID、实例ID和唯一收集限定词的信息 `@id`.
 
 ```json
 {
