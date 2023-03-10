@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2290'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,9 @@ ht-degree: 2%
 
 1. 定义哪些 **[!UICONTROL 设置事件上限]** 将被考虑以增加计数器。 [了解详情](#capping-event)
 
-1. 定义可显示优惠的次数。 [了解详情](#capping-type)
+1. 设置可显示优惠的次数。 [了解详情](#capping-count)
+
+1. 选择是将上限应用于所有用户，还是只应用于一个配置文件。 [了解详情](#capping-type)
 
 1. 设置 **[!UICONTROL 频率]** 以定义重置上限计数的频率。 [了解详情](#frequency-capping)
 
@@ -184,6 +186,8 @@ ht-degree: 2%
 
 此 **[!UICONTROL 设置事件上限]** 字段允许您定义 **[!UICONTROL 设置事件上限]** 将考虑以增加计数器：
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL 决策事件]** （默认值）：可显示选件的最大次数。
 * **[!UICONTROL 展示]**：选件可向用户显示的最大次数。
 
@@ -192,21 +196,25 @@ ht-degree: 2%
    >可将展示次数用作上限事件 **入站渠道** 仅此而已。
 
 * **[!UICONTROL 点击次数]**：用户可单击选件的最大次数。
-* **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到给定用户档案赎回了1次。 要执行此操作，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"} 用于构建自定义事件规则的架构。
+* **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到它们等于10000次，或者直到给定用户档案赎回了1次。 要执行此操作，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"} 用于构建自定义事件规则的架构。
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   在下面的示例中，您希望限制订阅的数量。 选择 **[!UICONTROL 自定义事件]** ，并使用 **[!UICONTROL 创建自定义事件规则]** 生成器以选择相关事件。
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   创建规则后，该规则将显示在 **[!UICONTROL 自定义事件查询]** 字段。
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >对于除决策事件之外的所有上限事件，决策管理反馈可能不会自动收集，因此请确保数据已传入。 [了解有关数据收集的更多信息](../data-collection/data-collection.md)
 
-### 上限类型 {#capping-type}
+### 上限计数 {#capping-count}
 
-此 **[!UICONTROL 上限类型]** 字段，用于指定可显示选件的次数。
+此 **[!UICONTROL 上限计数]** 字段，用于指定可显示选件的次数。
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ ht-degree: 2%
 >
 >数字必须是大于0的整数。
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+例如，如果您定义了自定义上限事件（如订阅），并且您在 **[!UICONTROL 上限计数]** 字段，则在10次订阅后不会再发送优惠。
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### 上限类型 {#capping-type}
 
 您还可以指定要将上限应用于所有用户还是某个特定用户档案：
 
