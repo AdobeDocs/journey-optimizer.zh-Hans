@@ -27,7 +27,7 @@ Experience PlatformWeb SDK支持在Adobe查询个性化解决方案，包括决�
 
 >[!NOTE]
 >
->Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（限量发布）。 如果要利用此功能，请联系您的Adobe客户经理。
+>Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（限量发布）。 如果要利用此功能，请与您的Adobe客户经理联系。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 

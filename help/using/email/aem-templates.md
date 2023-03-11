@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informational"
-source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
+source-git-commit: 7a044f7c048ba797e7b857212f6d6b0cf2644b5d
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 * **Experience Manager设置**
 
-   此功能从Adobe Experience Manager 6.5.14开始提供。您必须在Managed Services创作环境中连接到Adobe Experience Manager Sites。
+   此功能适用于 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
    作为测试版计划的一部分，Cloud Service配置由Adobe Experience Manager中的Adobe执行，以连接到Adobe Journey Optimizer。
 
