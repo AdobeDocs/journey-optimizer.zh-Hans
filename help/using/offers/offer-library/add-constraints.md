@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2323'
 ht-degree: 2%
 
 ---
@@ -200,14 +200,21 @@ ht-degree: 2%
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   在下面的示例中，您希望限制订阅的数量。 选择 **[!UICONTROL 自定义事件]** ，并使用 **[!UICONTROL 创建自定义事件规则]** 生成器以选择相关事件。
+   在下面的示例中，您希望限制结账的数量。
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. 选择 **[!UICONTROL 自定义事件]** ，并使用 **[!UICONTROL 添加自定义事件]** 按钮。
 
-   创建规则后，该规则将显示在 **[!UICONTROL 自定义事件查询]** 字段。
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. 使用 **[!UICONTROL 创建自定义事件规则]** 生成器以选择相关事件。 您可以选择您希望限制选件的任何用户操作。
 
+      在此选择 **[!UICONTROL 商务]** > **[!UICONTROL 结账]** > **[!UICONTROL 值]** 并选择 **[!UICONTROL 存在]** 下拉列表中。
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. 创建规则后，该规则将显示在 **[!UICONTROL 自定义事件查询]** 字段。
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >对于除决策事件之外的所有上限事件，决策管理反馈可能不会自动收集，因此请确保数据已传入。 [了解有关数据收集的更多信息](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ ht-degree: 2%
 >
 >数字必须是大于0的整数。
 
-例如，如果您定义了自定义上限事件（如订阅），并且您在 **[!UICONTROL 上限计数]** 字段，则在10次订阅后不会再发送优惠。
+例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在 **[!UICONTROL 上限计数]** 字段，10次结账后将不再发送任何优惠。
 
 ### 上限类型 {#capping-type}
 
