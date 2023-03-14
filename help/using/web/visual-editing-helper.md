@@ -1,6 +1,6 @@
 ---
 title: 可视化编辑帮助程序扩展
-description: 了解可视化编辑助手Chrome扩展，该扩展允许您在Journey Optimizer中创作和预览网页
+description: 了解可视化编辑帮助程序Chrome扩展，该扩展允许您在Journey Optimizer中创作和预览网页
 feature: Web Channel
 topic: Content Management
 role: User
@@ -8,44 +8,53 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informational"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '409'
+ht-degree: 18%
 
 ---
 
 # 可视化编辑帮助程序扩展 {#visual-editing-helper}
 
-为了快速创作和预览您的Web体验，适用于Google Chrome的Adobe Experience Cloud可视化编辑助手浏览器扩展允许您在Adobe内可靠地加载网站 [!DNL Journey Optimizer] web设计器。
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->Web渠道功能目前仅作为测试版提供给选定的用户。
+您将在本文档中找到以下内容：
 
-## 安装Visual Editing Helper扩展 {#install-visual-editing-helper}
+* [Web 渠道入门](get-started-web.md)
+* [创建 Web 体验](create-web.md)
+* [创建 Web 页面](author-web.md)
+* **[可视化编辑帮助程序扩展](visual-editing-helper.md)**
+* [Web 报告](web-report.md)
 
-要获取并安装Visual Editing Helper浏览器扩展，请执行以下步骤。
+>[!ENDSHADEBOX]
 
-1. 从Google Chrome Web Store中，导航到 [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 浏览器扩展。
+为了快速创作和预览Web体验，适用于Google Chrome的Adobe Experience Cloud可视化编辑帮助程序浏览器扩展允许您在Adobe中以可靠的方式加载网站 [!DNL Journey Optimizer] Web设计器。
+
+## 安装可视化编辑帮助程序扩展 {#install-visual-editing-helper}
+
+要获取并安装可视化编辑帮助程序浏览器扩展，请执行以下步骤。
+
+1. 从Google Chrome网上应用商店，导航至 [Adobe Experience Cloud可视化编辑帮助程序](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 浏览器扩展。
 
 1. 点击&#x200B;**[!UICONTROL 添加至 Chrome]** > **[!UICONTROL 添加扩展。]**
 
-1. 在中创建Web渠道营销活动 [!DNL Journey Optimizer]. [了解如何](author-web.md#create-web-campaign)
+1. 在中创建Web渠道营销活动 [!DNL Journey Optimizer]. [了解如何操作](author-web.md#create-web-campaign)
 
-1. 打开 [!DNL Journey Optimizer] web设计器来开始创作Web体验。 [了解详情](author-web.md)
+1. 打开 [!DNL Journey Optimizer] Web设计器，以开始创作您的Web体验。 [了解详情](author-web.md)
 
-1. 通过单击相应的图标，确保在Chrome浏览器的工具栏中启用了可视化编辑助手浏览器扩展。
+1. 通过单击相应的图标，确保在Chrome浏览器的工具栏中启用了可视化编辑帮助程序浏览器扩展。
 
    ![](assets/web-visual-editing-extension.png)
 
-现在，当在 [!DNL Journey Optimizer] web设计器来实现创作。
+现在，在中打开网站时，会自动启用Adobe Experience Cloud可视化编辑帮助程序。 [!DNL Journey Optimizer] Web设计器支持创作。
 
-该扩展没有任何条件设置，并会自动处理所有设置，包括SameSite Cookie设置。
+该扩展没有任何条件设置，并且会自动处理所有设置，包括SameSite Cookie设置。
 
 >[!NOTE]
 >
->某些网站可能无法在 [!DNL Journey Optimizer] web designer的原因如下：
+>某些网站可能无法在中可靠打开 [!DNL Journey Optimizer] Web Designer ，原因如下：
 >
 > * 网站具有严格的安全策略。
 > * 网站位于 iframe 中。
@@ -54,10 +63,10 @@ ht-degree: 14%
 
 ## 故障排除
 
-使用Adobe时 [!DNL Journey Optimizer] web设计器中，如果尝试加载无法加载的网站，则会显示一条消息，建议您安装 [Visual Editing Helper浏览器扩展](#install-visual-editing-helper).
+使用Adobe时 [!DNL Journey Optimizer] Web Designer如果尝试加载无法加载的网站，则会显示一条消息，建议您安装 [可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper).
 
-如果尚未在网站上实施Adobe Experience Platform Web SDK，则Web设计器中会显示一条消息，建议您安装可视化编辑助手浏览器扩展并实施 [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}.
+如果尚未在网站上实施Adobe Experience Platform Web SDK，则Web设计器中会显示一条消息，建议您安装可视化编辑帮助程序浏览器扩展并实施 [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}.
 
-如果网站加载失败或行为异常，可能的修复是：在尝试以Adobe方式加载网站之前，接受浏览器中您网站上的Cookie [!DNL Journey Optimizer].
+如果网站加载失败或行为异常，潜在的修复方法是在尝试在Adobe中加载网站之前，在浏览器中接受网站上的Cookie [!DNL Journey Optimizer].
 
-对于处于身份验证下的页面，如果登录页面加载失败，或者如果尝试登录后您仍未登录，请尝试先在浏览器的其他选项卡中登录，然后在Adobe中加载网站 [!DNL Journey Optimizer] web设计器。
+对于身份验证下的页面，如果登录页面加载失败，或者如果在尝试登录后您仍未登录，请尝试先在浏览器的其他选项卡中登录，然后在Adobe中加载网站 [!DNL Journey Optimizer] Web设计器。

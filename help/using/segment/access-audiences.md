@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informational"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 11%
@@ -20,11 +20,16 @@ ht-degree: 11%
 
 # 访问和管理受众 {#access-manage-audiences}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>您将在本文档中找到以下内容：<br/><ul>
-<li><a href="get-started-audience-orchestration.md">受众组合入门</a></li>
-<li><a href="create-compositions.md">创建您的第一个合成工作流</a></li>
-<li><a href="composition-canvas.md">使用组合画布</a></li>
-<li><b><a href="access-audiences.md">访问和管理受众</a></b></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+您将在本文档中找到以下内容：
+
+* [受众组合入门](get-started-audience-orchestration.md)
+* [创建您的第一个合成工作流](create-compositions.md)
+* [使用组合画布](composition-canvas.md)
+* **[访问和管理受众](access-audiences.md)**
+
+>[!ENDSHADEBOX]
 
 从以下位置可访问由受众构成产生的受众： **[!UICONTROL 浏览]** 在中选项卡 **[!UICONTROL 区段]** 菜单。
 
