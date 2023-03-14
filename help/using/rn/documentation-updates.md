@@ -4,9 +4,9 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2386'
 ht-degree: 97%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 97%
 
 ## 2023 年 2 月 {#feb-2023}
 
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年2月版。 [了解详情](release-notes.md)
 * 在 API 触发的营销活动文档中添加了注释，规定传递到请求的上下文属性不能超过 50kb。[了解详情](../campaigns/api-triggered-campaigns.md#contextual)
-
 * 添加了关于如何在中存储选择退出信息的信息 **同意服务数据集** 在收件人通过登陆页面取消订阅后。 [了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
@@ -31,6 +31,8 @@ ht-degree: 97%
 * 现在，[!DNL Journey Optimizer] 中的辅助功能被分组到了专用页面中。[了解详情](../start/accessibility.md)
 * [!DNL Journey Optimizer] 中增添了关于数据管理的新页面。[了解详情](../data/gs-data.md)
 * 新增的表格中列出了使用 Decisioning API 提供优惠时，响应中可返回的所有代码。[了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## 2022 年 12 月 {#december-2022}
 
@@ -153,13 +155,16 @@ ht-degree: 97%
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/channel-surfaces.md#create-channel-surface)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../privacy/opt-out.md#opt-out-management)
-* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解更多信息](../email/message-tracking.md#insert-links)
+* 已更新&#x200B;**插入链接**&#x200B;章节，以反映最近对用户界面所做的更改。[了解详情](../email/message-tracking.md#insert-links)
+
++++
+
++++ 2021
 
 ## 2021 年 11 月 {#november-2021}
 
 * 现在提供了历程中使用的&#x200B;**高级表达式编辑器**&#x200B;的完整说明。[了解更多信息](../building-journeys/expression/expressionadvanced.md)
 * 添加了关于 **CNAME 子域委派方法**&#x200B;的新章节。[了解更多信息](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## 2021 年 10 月 {#october-2021}
 
@@ -202,7 +207,6 @@ ht-degree: 97%
 
 * 添加了关于如何编辑 IP 池的子部分。[了解更多信息](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## 2021 年 8 月 {#august-2021}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2021 年 8 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
@@ -221,7 +225,6 @@ ht-degree: 97%
 * 添加了介绍如何手动将电子邮件地址和域添加到禁止列表的部分。[了解更多信息](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问禁止列表](../configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](../configuration/retries.md)部分，以反映新的用户界面。
 * 已记录在创建优惠时添加和配置呈现的新流程。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## 2021 年 7 月 {#july-2021}
 
@@ -242,3 +245,4 @@ ht-degree: 97%
 * 加入了有关“决策管理”功能中新增的&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡的说明内容。[了解更多信息](../offers/get-started/user-interface.md#overview)
 * 添加了新章节，以说明优惠和决策列表中可用的操作：[优惠列表](../offers/offer-library/creating-personalized-offers.md#offer-list) 和 [决策列表](../offers/offer-activities/create-offer-activities.md#decision-list)。
 
++++
