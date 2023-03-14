@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informational"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 2%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
 # 使用组合画布 {#composition-canvas}
 
-合成画布是一种可视画布，允许您通过利用受众和活动（拆分、排除……）来创建合成。
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>您将在本文档中找到以下内容：<br/><ul>
+<li><a href="get-started-audience-orchestration.md">受众组合入门</a></li>
+<li><a href="create-compositions.md">创建您的第一个合成工作流</a></li>
+<li><b><a href="composition-canvas.md">使用组合画布</a></b></li>
+<li><a href="access-audiences.md">访问和管理受众</a></li></ul></td></tr></table>
 
-在合成画布中配置合成的步骤如下：
+受众构成提供了一个可视画布，允许您创建受众并使用各种活动（拆分、扩充等）。
+
+在画布中构建受众的步骤如下：
 
 1. [定义起始受众](#starting-audience)
 1. [添加一个或多个活动](#action-activities)
@@ -29,168 +36,201 @@ ht-degree: 2%
 
 ## 选择起始受众 {#starting-audience}
 
-创建合成的第一步是选择一个或多个现有受众作为合成的基础。
+创建组合的第一步是选择一个或多个现有受众作为组合的基础。
 
-1. 选择 **[!UICONTROL 受众]** 活动，然后为活动提供标签。
+1. 选择 **[!UICONTROL Audience]** 活动，然后为活动提供标签。
 
 1. 选择要定位的受众：
 
-   * 单击 **[!UICONTROL 添加受众]** 按钮选择一个或多个现有受众，
-   * 单击 **[!UICONTROL 生成规则]** 按钮以使用 [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * 单击 **[!UICONTROL 添加受众]** 按钮以选择一个或多个现有受众，
+   * 单击 **[!UICONTROL 生成规则]** 按钮以使用创建新区段定义 [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/audiences-choose-audience.png)
 
-1. 如果选择了多个受众，请指定这些受众的用户档案应如何合并：
+1. 如果选择多个受众，请指定应如何合并这些受众的用户档案：
 
-* **[!UICONTROL 并集]**:包含来自选定受众的所有用户档案，
-* **[!UICONTROL 交集]**:包括所有选定受众共有的用户档案，
-* **[!UICONTROL 排除重叠]**:包括仅属于其中一个受众的用户档案。 将不包含属于多个受众的用户档案。
+* **[!UICONTROL 并集]**：包括选定受众的所有用户档案，
+* **[!UICONTROL 交叉]**：包含所有选定受众通用的用户档案，
+* **[!UICONTROL 排除重叠]**：仅包含属于某个受众的用户档案。 属于多个受众的用户档案将不会包括在内。
 
-在此示例中，我们要定位属于金牌和银牌受众的所有用户档案。
+在本例中，我们要定位属于金牌和银牌受众的所有用户档案。
 
 ![](assets/audiences-starting-audience.png)
 
-选择受众后，预计用户档案数会显示在活动底部。
+选择受众后，活动底部会显示预计数量的用户档案。
 
 ## 添加活动 {#action-activities}
 
-选择起始受众后添加活动以优化您的选择。
+选择开始受众后添加活动以优化您的选择。
 
-要实现此目的，请单击合成路径上的+按钮，然后选择所需的活动。 此时会打开右侧窗格，用于配置活动。
+要实现此目的，请单击组合路径上的+按钮，然后选择所需的活动。 右侧窗格将打开，允许您配置新添加的活动。
 
 ![](assets/audiences-select-activity.png)
 
->[!NOTE]
->
->您可以添加任意数量的 **[!UICONTROL 受众]** 和 **[!UICONTROL 排除]** 活动。 但是，在 **[!UICONTROL 排名]** 和 **[!UICONTROL 拆分]** 活动。
-
-您可以随时通过单击右侧窗格中的删除按钮，从画布中删除活动。 在此活动之后添加的所有活动也将从画布中删除。
-
 可用的活动包括：
 
-* [受众](#audience):包括属于一个或多个现有受众的其他用户档案，
-* [排除](#exclude):排除属于现有受众的用户档案，或根据特定属性排除用户档案，
-* [排名](#rank):根据特定属性对用户档案进行排名，指定要保留的用户档案数并将其包含在您的构成中，
-* [拆分](#split):根据随机百分比或属性将您的构图划分为多个路径。
+* [Audience](#audience)：包括属于一个或多个现有受众的其他配置文件，
+* [排除](#exclude)：排除属于现有受众的用户档案，或根据特定属性排除用户档案，
+* [扩充]{#enrich}：使用来自Adobe Experience Platform数据集的其他属性丰富受众，
+* [排名](#rank)：根据特定属性对配置文件进行排名，指定要保留并包含到构成中的配置文件数，
+* [Split](#split)：根据随机百分比或属性，将合成划分为多个路径。
+
+您可以添加任意数量的 **[!UICONTROL Audience]** 和 **[!UICONTROL 排除]** 根据需要在合成中进行的活动。 但是，之后无法添加其他活动 **[!UICONTROL 排名]** 和 **[!UICONTROL Split]** 活动。
+
+您可以随时通过单击右窗格中的删除按钮从画布中删除活动。  如果要删除的活动是构成中其他活动的父项，则会显示一条消息，允许您指定是只删除选定活动，还是删除其所有子活动。
 
 ### 受众活动 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="受众活动"
->abstract="利用受众活动，可在合成中包含属于现有受众的其他用户档案。"
+>abstract="利用受众活动，可在构成中包含属于现有受众的其他配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="合并类型"
->abstract="指定应如何合并选定受众的配置文件。"
+>abstract="指定所选受众的配置文件应如何合并。"
 
-的 **[!UICONTROL 受众]** 活动允许您在合成中包含属于现有受众的其他用户档案。
+此 **[!UICONTROL Audience]** 利用活动，可在合成中包含属于现有受众的其他配置文件。
 
-此活动的配置与开始 [受众活动](#starting-audience).
+此活动的配置与起始活动相同 [受众活动](#starting-audience).
 
 ### 排除活动 {#exclude}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除类型"
->abstract="使用排除受众类型排除属于现有受众的用户档案。 使用属性类型排除可根据特定属性排除用户档案。"
+>abstract="使用“排除受众”类型可排除属于现有受众的用户档案。 使用属性类型排除允许您根据特定属性排除用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活动"
->abstract="利用排除活动，可通过选择现有受众或使用规则从构图中排除用户档案。"
+>abstract="利用“排除”活动，您可以通过选择现有受众或使用规则，从构成中排除用户档案。"
 
-的 **[!UICONTROL 排除]** 活动，可将用户档案从构图中排除。 可以使用两种类型的排除：
+此 **[!UICONTROL 排除]** 利用活动，可从构成中排除用户档案。 提供了两种类型的排除项：
 
-* **[!UICONTROL 排除受众]**:排除属于现有受众的用户档案。
+* **[!UICONTROL 排除受众]**：排除属于现有受众的用户档案。
 
    单击 **[!UICONTROL 添加受众]** 按钮，然后选择要排除的受众。
 
    ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL 使用属性排除]**:根据特定属性排除用户档案。
+* **[!UICONTROL 使用属性排除]**：根据特定属性排除用户档案。
 
-   选择要查找的属性，然后指定要排除的值。 在本例中，我们从其家庭地址位于日本的合成用户档案中排除。
+   选择要查找的属性，然后指定要排除的值。 在本例中，我们从家庭地址在日本的用户档案中排除。
 
    ![](assets/audiences-exclude-attribute.png)
+
+### 扩充 {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="丰富活动"
+>abstract="使用扩充活动可排除属于现有受众的用户档案。 使用属性类型排除允许您根据特定属性排除用户档案。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="扩充数据集"
+>abstract="选择包含要与受众关联的数据的扩充数据集。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="扩充条件"
+>abstract="选择用作源数据集（即受众）和扩充数据集之间协调键的字段。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="扩充属性"
+>abstract="从扩充数据集中选择一个或多个要与受众关联的属性。 发布构成后，这些属性即与受众关联，并可在营销活动中利用它们来个性化投放。"
+
+此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性丰富受众。 例如，您可以添加与所购买产品相关的信息（如名称、价格或制造商ID），并利用这些信息来个性化发送给受众的投放。
+
+>[!IMPORTANT]
+>
+>目前，数据集上的标签（数据集级别或字段级别）不会传播到新创建的受众。 这可能会影响最终受众的访问控制和/或数据管理。 因此，请在构成受众时仅使用测试数据。
+
+要配置活动，请执行以下步骤：
+
+1. 选择 **[!UICONTROL 扩充数据集]** 包含要与受众关联的数据。
+
+1. 在 **[!UICONTROL 扩充条件]** 部分，选择要用作源数据集（即受众）和扩充数据集之间协调键的字段。 在本例中，我们使用购买产品的ID作为协调密钥。
+
+1. 单击 **[!UICONTROL 添加属性]** 按钮后，从扩充数据集中选择一个或多个要与受众关联的属性。
+
+   ![](assets/audiences-enrich-activity.png)
+
+发布构成后，选定的属性即与受众关联，并可在营销活动中利用来个性化投放。
 
 ### 排名活动 {#rank}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活动"
->abstract="利用排名活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，包括会员积分数量最大的50个用户档案。"
+>abstract="通过“排名”活动，可根据特定属性对用户档案进行排名，并将其包含在构成中。 例如，包含忠诚度积分最多的50个用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="添加配置文件限制"
->abstract="打开此选项可指定要包含在组合中的最大用户档案数。"
+>abstract="打开此选项可指定构成中包含的最大配置文件数。"
 
-的 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，您可以包含50个用户档案，其中会员积分数量最多。
+此 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将它们包含在合成中。 例如，您可以包含忠诚度积分最多的50个用户档案。
 
 1. 选择要查找的属性并指定排名顺序（升序或降序）。
 
    >[!NOTE]
    >
-   >您可以选择具有以下数据类型的属性：整数，数字，短 <!--(other?)-->
+   >您可以选择具有以下数据类型的属性：整数、数字、短整数 <!--(other?)-->
 
-1. 切换 **[!UICONTROL 添加配置文件限制]** 选项，并指定要包含在组合中的配置文件的最大数量。
+1. 切换 **[!UICONTROL 添加配置文件限制]** 选项，并指定要包含在构成中的配置文件的最大数量。
 
    ![](assets/audiences-rank.png)
 
 ### 拆分活动 {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="对照组"
->abstract="使用控制组隔离部分配置文件。 这允许您衡量营销活动的影响，并与其他群体的行为进行比较。"
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="拆分活动"
->abstract="利用拆分活动，可将构图划分为多个路径。 发布合成时，每个路径的一个受众都将保存到Adobe Experience Platform中。"
+>abstract="利用拆分活动，可将合成划分为多个路径。 发布构成时，将为每个路径将一个受众保存到Adobe Experience Platform中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="拆分类型"
->abstract="使用百分比拆分类型将用户档案随机拆分为多个路径。 利用属性拆分类型，可根据特定属性拆分用户档案。"
+>abstract="使用百分比拆分类型将用户档案随机拆分为多个路径。 属性拆分类型允许您根据特定属性拆分用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
->title="其他用户档案"
->abstract="打开此选项可创建一个附加路径，其余配置文件与其他路径中指定的任何条件都不匹配。"
+>title="其他配置文件"
+>abstract="启用此选项后，可使用不符合其他路径中指定的任何条件的剩余配置文件创建其他路径。"
 
-的 **[!UICONTROL 拆分]** 活动，可将构图划分为多个路径。
+此 **[!UICONTROL Split]** 利用活动，可将合成划分为多个路径。
 
-此操作会自动添加 **[!UICONTROL 保存]** 活动。 发布合成时，每个路径的一个受众都将保存到Adobe Experience Platform中。
+此操作会自动添加 **[!UICONTROL 保存]** 活动。 发布构成时，将为每个路径将一个受众保存到Adobe Experience Platform中。
 
-可以使用两种类型的拆分操作：
+提供了两种类型的拆分操作：
 
-* **[!UICONTROL 百分比拆分]**:将用户档案随机拆分为两个或多个路径。 例如，您可以将用户档案拆分为2个不同的路径，每个路径为45%，并为控制组添加一个额外的路径。
+* **[!UICONTROL 百分比拆分]**：将用户档案随机拆分为两个或多个路径。 例如，可将用户档案拆分为2条路径，每条路径占50%。 <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL 属性拆分]**:根据特定属性拆分用户档案。 在此示例中，我们将根据用户档案的文件室类型首选项来拆分用户档案。
+* **[!UICONTROL 属性拆分]**：根据特定属性拆分用户档案。 在本例中，我们根据用户档案的类型偏好来分割用户档案。
 
    ![](assets/audiences-split.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 其他用户档案]** 选项允许您使用其余配置文件创建其他路径，这些路径与其他路径中指定的任何条件都不匹配。
+   >此 **[!UICONTROL 其他配置文件]** 选项允许您使用不符合其他路径中指定的任何条件的剩余配置文件创建其他路径。
 
-## 保存受众 {#save}
+## 保存您的受众 {#save}
 
-配置将保存到Adobe Experience Platform中的结果受众。
+配置将保存到Adobe Experience Platform中的生成受众。
 
-为此，请选择 **[!UICONTROL 保存受众]** 活动，然后指定要创建的新受众的名称。
+要执行此操作，请选择 **[!UICONTROL 保存受众]** 每个路径末尾的活动，然后指定要创建的新受众的名称。
 
 ![](assets/audiences-publish.png)
 
-合成准备就绪后，即可发布它。 [了解如何创建合成](create-compositions.md)
-
-了解详情:
-
-* [受众组合入门](get-started-audience-orchestration.md)
-* [创建组合工作流](create-compositions.md)
-* [访问和管理受众](access-audiences.md)
+一旦合成准备就绪，即可发布。 [了解如何创建合成](create-compositions.md)
