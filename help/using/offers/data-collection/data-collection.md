@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
+source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,25 +39,20 @@ ht-degree: 2%
 
 根据 [!DNL Journey Optimizer] 使用的渠道。
 
-1. 一方面，一些渠道 **自动** 跟踪展示次数和点击次数。 具体如下：
+**电子邮件** 由创作者 [!DNL Journey Optimizer] **自动** 跟踪展示次数和点击次数。
 
-   * 由创作的电子邮件 [!DNL Journey Optimizer]
-   * 由创作的移动推送通知 [!DNL Journey Optimizer]
+但是， **最多渠道** 需要将展示次数和点击次数数据作为 **体验事件**. 这包括：
 
-   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
+* 网页使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} 渲染选件
 
-1. 另一方面，某些渠道要求将展示次数和点击次数数据作为 **体验事件**.
+* 移动设备应用程序使用 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* 网亭
+* 通过第三方应用程序发送的消息
+   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
-   使用决策API请求接收选件的所有渠道都需要作为体验事件发送反馈。 这包括：
-
-   * 网页使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} 渲染选件
-   * 移动设备应用程序使用 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} 渲染选件
-   * 网亭
-   * 通过第三方应用程序发送的消息
-
-   >[!NOTE]
-   >
-   >如果选件需要有关如何渲染的说明，您可以假定您应该作为体验事件发送反馈。
+>[!NOTE]
+>
+>使用决策API请求接收选件的渠道需要将反馈作为体验事件发送到。 换言之，如果选件需要有关如何渲染的说明，您可以假定您应当作为体验事件发送反馈。
 
 ### 自定义事件
 
