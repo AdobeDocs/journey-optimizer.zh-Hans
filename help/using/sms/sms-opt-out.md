@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 45%
+source-wordcount: '442'
+ht-degree: 31%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 45%
 
 ## 本机入站关键词{#sms-native-keywords}
 
-默认情况下，Adobe Journey Optimizer 会根据 Sinch 和 Twilio 等原生集成的行业标准，处理免费和长代码消息的标准英语回复消息，如 STOP、UNSTOP 和 START。
+默认情况下，Adobe Journey Optimizer会为免费电话和长码电文处理以下标准英语回复消息：停止、取消停止、开始、退出、取消、结束和取消订阅。 请注意，与Journey Optimizer一起使用时，只有Sinch支持本机关键字。
 
-这些关键字通常会触发第三方提供商（如Twilio或Sinch）的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
+这些关键字通常会触发来自第三方提供商的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
 
-无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP和START会被自动识别。 配置文件选择退出状态会在Adobe Journey Optimizer中实时更新。
+无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE会被自动识别。 配置文件选择退出状态会在Adobe Journey Optimizer中实时更新。
 
 
 ## 阻止列表{#sms-blocklists}
@@ -39,7 +39,9 @@ ht-degree: 45%
 
 ## 短代码 {#short-codes}
 
-默认情况下，Adobe Journey Optimizer不处理短代码号的选择退出、选择加入或帮助关键词。 您必须确保您的短代码符合所有选择退出处理方面的行业规则和法规。
+默认情况下，短代码号的选择加入或帮助关键字不由Adobe Journey Optimizer处理。 要确保符合选择退出处理的行业法规和规则，必须验证您的简短代码是否遵守所有准则。
+
+但是，Journey Optimizer支持基于具有不同发件人ID的传入关键词的全局选择退出。
 
 ## 字母数字发件人 ID {#alphanumeric}
 
