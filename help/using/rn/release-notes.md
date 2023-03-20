@@ -5,9 +5,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 86%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年3月改进 {#march-2023}
+## 2023 年 3 月改进 {#march-2023}
 
 **管理历程中的标记**
 
-作为Journey Optimizer的从业者，您现在可以使用标记整理业务对象。 标记是对对象进行分类以改进搜索的一种快速而简单的方法。 此功能目前为测试版，仅适用于历程。 [了解详情](../building-journeys/tags.md)
+作为使用 Journey Optimizer 的专业人员，您现在可以使用标记组织业务对象。标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。此功能目前为 Beta 版，仅适用于历程。[了解详情](../building-journeys/tags.md)
 
-**决策管理标记已重命名为“收藏集”限定符**
+**决策管理标记已重命名为收藏集限定符**
 
-为了防止与最近发布的Adobe Experience Platform中的标记功能混淆，决策管理标记已重命名为“收藏集限定符”。
+为了防止与最近发布的 Adobe Experience Platform 中的标记功能混淆，决策管理标记已重命名为“收藏集限定符”。
 
-请注意，尽管术语“标记”不再用在决策管理用户界面中，它仍然用在后端服务中，例如API和数据集。
+请注意，尽管术语“标记”不再用于“决策管理”用户界面中，但仍然在后端服务中使用，例如 API 和数据集。
 
 **决策管理上限**
 
-* 您现在可以每日、每周或每月重置优惠上限计数器。 [了解详情](../offers/offer-library/add-constraints.md#capping)
+* 您现在可以每日、每周或每月重置优惠上限计数器。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* 您还可以选择应查看哪个Adobe Experience Platform事件来设置offer decisioning上限。 [了解详情](../offers/offer-library/add-constraints.md#capping)
+* 您还可以选择应查看哪个 Adobe Experience Platform 事件来设置 Offer Decisioning 上限。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 2 月发行说明 {#feb-2023}
 
