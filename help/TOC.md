@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 96%
          + [添加内联样式属性](using/email/inline-styling.md)
    + [预览和测试电子邮件](using/email/preview.md)
    + [创建内容模板](using/email/content-templates.md)
-   + [使用Experience Manager模板](using/email/aem-templates.md)
+   + [使用 Experience Manager 模板](using/email/aem-templates.md)
    + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 配置电子邮件渠道 {#configure-email}
       + [电子邮件配置入门](using/email/get-started-email-config.md)
@@ -347,8 +347,8 @@ ht-degree: 96%
       + [在决策中配置优惠选择](using/offers/offer-activities/configure-offer-selection.md)
       + [创建模拟](using/offers/offer-activities/simulation.md)
    + [使用批量决策](using/offers/batch-delivery.md)
-   + 收集事件数据 {#collect-event-data}
-      + [数据收集快速入门](using/offers/data-collection/data-collection.md)
+   + 收集事件数据{#collect-event-data}
+      + [数据收集入门](using/offers/data-collection/data-collection.md)
       + [创建数据集以收集事件](using/offers/data-collection/create-dataset.md)
       + [配置事件捕获](using/offers/data-collection/schema-requirement.md)
    + 创建决策管理报表 {#create-reports}
@@ -377,10 +377,10 @@ ht-degree: 96%
             + [创建决策规则](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [更新决策规则](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [删除决策规则](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + 收藏集限定符 {#tags}
-            + [列出集合限定符](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [查找集合限定词](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [创建集合限定符](using/offers/api-reference/offers-api/tags/create.md)
+         + 收藏集限定符{#tags}
+            + [列出收藏集限定符](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [查找收藏集限定符](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [创建收藏集限定符](using/offers/api-reference/offers-api/tags/create.md)
             + [更新收藏集限定符](using/offers/api-reference/offers-api/tags/update.md)
             + [删除收藏集限定符](using/offers/api-reference/offers-api/tags/delete.md)
          + 个性化优惠 {#personalized-offers}
