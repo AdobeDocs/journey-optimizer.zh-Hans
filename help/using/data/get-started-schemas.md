@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 架构，平台，数据，结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 30%
+source-wordcount: '332'
+ht-degree: 28%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 30%
 了解如何在中使用模式用户界面 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
 有关使用架构编辑器创建架构的分步文档，请参阅 [本页](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}
+
+要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## 操作方法视频{#video-schema}

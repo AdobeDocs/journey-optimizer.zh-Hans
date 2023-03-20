@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 数据集，优化程序，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 [同意服务数据集](#consent-service-dataset)
 [密送反馈事件数据集](#bcc-feedback-event-dataset)
 [实体数据集](#entity-dataset)
+
+要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 
