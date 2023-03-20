@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 要向电子邮件中添加内容组件并根据需要对其进行调整，请执行以下步骤。
 
-1. 在Email Designer中，使用现有内容或拖放 **[!UICONTROL 结构部件]** ，以定义电子邮件的布局。 [了解如何](content-from-scratch.md)
+1. 在Email Designer中，使用现有内容或拖放 **[!UICONTROL 结构部件]** ，以定义电子邮件的布局。 [了解如何操作](content-from-scratch.md)
 
 1. 访问 **[!UICONTROL 内容组件]** 部分，从Email Designer左窗格中选择相应的按钮。
 

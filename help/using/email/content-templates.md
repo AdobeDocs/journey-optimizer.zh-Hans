@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 2%
 
 有两种方法可以创建内容模板：
 
-* 使用左边栏从头开始创建内容模板 **[!UICONTROL 内容模板]** 菜单。 [了解如何](#create-template-from-scratch)
+* 使用左边栏从头开始创建内容模板 **[!UICONTROL 内容模板]** 菜单。 [了解如何操作](#create-template-from-scratch)
 
-* 在营销活动或历程中设计电子邮件时，将电子邮件内容另存为模板。 [了解如何](#save-as-template)
+* 在营销活动或历程中设计电子邮件时，将电子邮件内容另存为模板。 [了解如何操作](#save-as-template)
 
-保存后，您的内容模板即可在营销活动或历程中使用。 无论是从头开始创建，还是从以前的电子邮件创建，您现在都可以在生成任何 [电子邮件](get-started-email-design.md) within [!DNL Journey Optimizer]. [了解如何](email-templates.md)
+保存后，您的内容模板即可在营销活动或历程中使用。 无论是从头开始创建，还是从以前的电子邮件创建，您现在都可以在生成任何 [电子邮件](get-started-email-design.md) within [!DNL Journey Optimizer]. [了解如何操作](email-templates.md)
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ ht-degree: 2%
 
    ![](assets/content-template-designer.png)
 
-1. 您可以根据需要测试内容。 [了解如何](#test-template)
+1. 您可以根据需要测试内容。 [了解如何操作](#test-template)
 
 1. 模板准备就绪后，单击 **[!UICONTROL 保存]**.
 
@@ -118,7 +118,7 @@ ht-degree: 2%
 
    ![](assets/content-template-designer-back.png)
 
-现在，此模板已准备就绪，可用于在 [!DNL Journey Optimizer]. [了解如何](email-templates.md)
+现在，此模板已准备就绪，可用于在 [!DNL Journey Optimizer]. [了解如何操作](email-templates.md)
 
 ### 另存为模板 {#save-as-template}
 
@@ -143,7 +143,7 @@ ht-degree: 2%
 
 1. 模板将保存到 **[!UICONTROL 内容模板]** 列表，可从 [!DNL Journey Optimizer] 专用菜单。 它将成为独立内容模板，可以作为该列表上的任何其他项目访问、编辑和删除该模板。 [了解详情](#access-manage-templates)
 
-现在，您可以在构建任何 [电子邮件](get-started-email-design.md) within [!DNL Journey Optimizer]. [了解如何](email-templates.md)
+现在，您可以在构建任何 [电子邮件](get-started-email-design.md) within [!DNL Journey Optimizer]. [了解如何操作](email-templates.md)
 
 >[!NOTE]
 >

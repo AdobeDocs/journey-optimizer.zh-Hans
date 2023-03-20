@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -43,7 +43,7 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
 >[!NOTE]
 >
->要创建预设，请确保您之前至少配置了一个登陆页面子域。 [了解如何](lp-subdomains.md)
+>要创建预设，请确保您之前至少配置了一个登陆页面子域。 [了解如何操作](lp-subdomains.md)
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 品牌策略]** > **[!UICONTROL 登陆页面预设]**.
 
@@ -63,7 +63,7 @@ When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须
 
    >[!NOTE]
    >
-   >要选择子域，请确保您之前至少配置了一个登陆页面子域。 [了解如何](#lp-subdomains)
+   >要选择子域，请确保您之前至少配置了一个登陆页面子域。 [了解如何操作](#lp-subdomains)
 
    将显示与所选子域对应的设置。
 

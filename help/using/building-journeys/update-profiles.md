@@ -36,7 +36,7 @@ ht-degree: 2%
 
 ## 使用用户档案更新
 
-1. 通过以事件开始来设计您的历程。 请参阅 [部分](../building-journeys/journey.md).
+1. 通过以事件开始来设计您的历程。 请参阅此[部分](../building-journeys/journey.md)。
 
 1. 在 **操作** ，请将 **更新用户档案** 活动。
 

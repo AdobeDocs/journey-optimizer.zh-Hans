@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >查看、导出和管理抑制列表的权限限制为 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在 [此部分](../administration/permissions-overview.md).
 
 
-过滤器可帮助您浏览列表。
+其中提供过滤器以帮助您浏览列表。
 
 ![](assets/suppression-list-filters.png)
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 >
 >最长可能需要60分钟 [!DNL Journey Optimizer] 考虑外发电子邮件中禁止使用的地址。
 
-您可以添加电子邮件地址或域 [一次一个](#add-one-address-or-domain)或 [在批量模式下](#upload-csv-file) 通过CSV文件上传。
+可[一次一个地](#add-one-address-or-domain)或通过上传 CSV 文件[以批量方式](#upload-csv-file)添加电子邮件地址或域。
 
 ### 添加一个地址或域 {#add-one-address-or-domain}
 
@@ -128,17 +128,17 @@ ht-degree: 0%
 
 1. 选择地址类型： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 域]**.
 
-1. 输入要从发送中排除的电子邮件地址或域。
+1. 输入您要从发送中排除的电子邮件地址或域。
 
    >[!NOTE]
    >
-   >请确保输入有效的电子邮件地址(如abc@company.com)或域名（如abc.company.com）。
+   >确保输入有效的电子邮件地址（例如 abc@company.com）或域（例如 abc.company.com）。
 
-1. （可选）输入原因。 此字段中允许包含32到126之间的所有ASCII可打印字符。
+1. （可选）输入原因。 在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。
 
 1. 使用 **[!UICONTROL 提交]** 按钮进行确认。
 
-### 上传CSV文件 {#upload-csv-file}
+### 上传 CSV 文件 {#upload-csv-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
@@ -152,7 +152,7 @@ ht-degree: 0%
 
    ![](assets/suppression-list-upload-csv.png)
 
-1. 下载要使用的CSV模板，该模板包括以下列和格式：
+1. 下载要使用的 CSV 模板，该模板包括以下列和格式：
 
    ```
    TYPE,VALUE,COMMENT
@@ -166,7 +166,7 @@ ht-degree: 0%
    >
    >请勿更改CSV模板中列的名称。
    >
-   >文件大小不应超过1 MB。
+   >文件大小不应超过 1 MB。
 
 1. 完成后，拖放CSV文件，然后使用 **[!UICONTROL 提交]** 按钮进行确认。
 
@@ -180,15 +180,15 @@ ht-degree: 0%
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-可能的状态包括：
+可能的状态是：
 
-* **[!UICONTROL 待定]**:正在处理文件上传。
-* **[!UICONTROL 错误]**:由于技术问题或文件格式错误，文件上传过程失败。
-* **[!UICONTROL 完成]**:文件上传过程已成功完成。
+* **[!UICONTROL 待定]**：正在处理文件上传。
+* **[!UICONTROL 错误]**：由于技术问题或文件格式错误，文件上传过程失败。
+* **[!UICONTROL 完成]**：成功完成了文件上传过程。
 
 在上传期间，如果某些地址的格式不正确，则它们不会添加到 [!DNL Journey Optimizer] 隐藏列表。
 
-在这种情况下，上传完成后，它将与报表关联。 您可以下载它以检查遇到的错误<!-- and understand why they were not added to the suppression list-->.
+在这种情况下，当上传完毕后，它与某个报告关联。您可以下载它以检查遇到的错误<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 

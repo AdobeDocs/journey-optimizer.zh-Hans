@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 6%
 >
 >要创建标签，您必须是 **[!UICONTROL 管理使用情况标签]** 权限。
 
-**[!UICONTROL 标签]** 允许您根据应用于该数据的使用策略对数据集和字段进行分类。 **[!UICONTROL 标签]** 可以随时应用，从而在选择如何管理数据方面提供了灵活性。
+**[!UICONTROL 通过标签，可根据适用于数据的使用策略将数据集和字段分类。]****[!UICONTROL 标签]** 可以随时应用，从而在选择如何管理数据方面提供了灵活性。
 
 您可以在 [!DNL Permissions] 产品。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)。
 
