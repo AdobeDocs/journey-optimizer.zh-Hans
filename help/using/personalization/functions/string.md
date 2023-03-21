@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 7%
+source-wordcount: '1868'
+ht-degree: 6%
 
 ---
 
@@ -648,13 +648,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 全部替换{#replaceAll}
 
-的 `replaceAll` 函数将匹配“target”的文本的所有子字符串替换为指定的文字“replacement”字符串。 替换从字符串的开头到结尾，例如，将字符串“aaa”中的“aa”替换为“b”将生成“ba”而不是“ab”。
+的 `replaceAll` 函数将匹配“regex”表达式的文本的所有子字符串替换为指定的文字“replacement”字符串。 Regex对“\”和“+”具有特殊处理，所有正则表达式都遵循PQL转义策略。 替换从字符串的开头到结尾，例如，将字符串“aaa”中的“aa”替换为“b”将生成“ba”而不是“ab”。
 
 **语法**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> 如果用作第二个参数的正则表达式是特殊的正则表达式字符，则我们需要使用双反斜杠(`//`)来处理此类情况。
+>
+> 特殊正则表达式字符[., +, *, ?, ^, $,(,), [, ], {, }, |, \.]
+> 
+> 这在 [Oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## 右修剪 {#rightTrim}
 
