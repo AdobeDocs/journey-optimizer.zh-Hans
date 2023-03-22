@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 6%
 
 ---
@@ -655,13 +655,12 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> 如果用作第二个参数的正则表达式是特殊的正则表达式字符，则我们需要使用双反斜杠(`//`)来处理此类情况。
->
-> 特殊正则表达式字符[., +, *, ?, ^, $,(,), [, ], {, }, |, \.]
+> 当用作第二个参数的表达式是特殊正则表达式字符时，请使用双反斜杠(`//`)。  特殊正则表达式字符包括：[., +, *, ?, ^, $(,) [, ], {, }, |, \.]
 > 
-> 这在 [Oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> 在 [Oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
 
 ## 右修剪 {#rightTrim}
 
