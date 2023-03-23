@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
->title="表示"
->abstract="添加表示法以定义选件在消息中的显示位置。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。"
+>title="呈现"
+>abstract="添加呈现以定义您的优惠在消息中显示的位置。优惠的呈现越多，在不同的投放上下文中使用该优惠的机会就越多。"
 
-选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、HTML块等。 选件表示的越多，在不同版面环境中使用该选件的机会就越多。
+选件可以显示在消息中的不同位置：在顶部横幅中显示图像、段落中的文本、HTML块等。 优惠的呈现越多，在不同的投放上下文中使用该优惠的机会就越多。
 
 ## 配置选件的表示形式 {#representations}
 

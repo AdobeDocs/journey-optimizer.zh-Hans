@@ -12,7 +12,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
 >title="关于表达式编辑器"
->abstract="表达式编辑器允许您选择、排列、自定义和验证所有数据，以便为您的内容创建自定义个性化。"
+>abstract="表达式编辑器让您可以选择、排列、自定义和验证所有数据，为自己的内容创建定制的个性化。"
 
 表达式编辑器是 [!DNL Journey Optimizer]. 它在您需要定义个性化（如电子邮件、推送和选件）的每个上下文中均可用。
 

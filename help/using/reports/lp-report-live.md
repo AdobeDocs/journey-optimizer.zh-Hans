@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 登陆页面实时报表
+title: 登陆页面实时报告
 description: 了解如何使用登陆页面实时报表中的数据
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# 登陆页面实时报表 {#lp-report-live}
+# 登陆页面实时报告 {#lp-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
->title="登陆页面实时报表"
->abstract="登陆页面实时报表允许您实时测量和可视化仅在过去24小时内登陆页面的影响和性能。 您的报表被划分为不同的小组件，用于详细描述登陆页面成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
+>title="登陆页面实时报告"
+>abstract="使用登陆页面实时报告，您可以实时衡量和可视化登陆页面的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明您的登陆页面中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
 登陆页面 **[!UICONTROL 实时报表]** 报表仅显示有关过去24小时内登陆页面影响的详细信息。 要测量选定时间段内的登陆页面数据，请参阅 [登陆页面全局报表](lp-report-global.md).
 

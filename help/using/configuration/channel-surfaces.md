@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="曲面"
+>title="表面"
 >abstract="平面是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
 
 使用 [!DNL Journey Optimizer]，您可以设置渠道曲面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和名称、移动应用程序、短信配置等。
@@ -42,13 +42,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="通道表面设置"
->abstract="设置渠道表面时，选择渠道并定义其适用的渠道，以及定义发送所需的所有技术参数，例如电子邮件类型、发件人名称、移动应用程序、短信配置等。"
+>title="渠道表面设置"
+>abstract="设置渠道表面时，选择它适用的渠道，并定义在您发送电子邮件时需要的所有技术参数，例如电子邮件类型、发件人姓名、移动应用程序、短信配置等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="通道表面设置"
->abstract="要能够创建诸如历程或营销策划中的电子邮件之类的操作，您必须首先创建一个渠道界面，该界面定义消息所需的所有技术设置。 必须具有“管理”(Manage)通道曲面权限才能创建、编辑和删除通道曲面。"
+>title="渠道表面设置"
+>abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道表面，用于定义消息所需的全部技术设置。您必须具有管理渠道表面权限才能创建、编辑和删除渠道表面。"
 
 要创建通道曲面，请执行以下步骤：
 

@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
 >title="业务事件"
->abstract="事件配置允许您定义Journey Optimizer将作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。 与单一事件不同，业务事件与特定用户档案不相关。 事件ID类型始终基于规则。"
+>abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。与单一事件不同，业务事件不链接到特定的配置文件。事件 ID 类型始终基于规则。"
 
-与单一事件不同，业务事件与特定用户档案不相关。 事件ID类型始终基于规则。 请阅读 [此部分](../event/about-events.md).
+与单一事件不同，业务事件不链接到特定的配置文件。事件 ID 类型始终基于规则。请阅读 [此部分](../event/about-events.md).
 
 基于读取区段的历程可以由调度程序在事件发生时通过一次性、定期或由业务事件触发。
 

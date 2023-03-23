@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 1%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 选择测试用户档案 {#select-test-profiles}
+## 选择测试配置文件 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
->title="添加测试用户档案"
->abstract="您可以通过选择身份命名空间和相应的身份值来添加测试用户档案。 您必须已有测试用户档案可用，才能将其用于模拟。"
+>title="添加测试配置文件"
+>abstract="您可通过选择身份命名空间以及对应的身份值来添加测试配置文件。您必须拥有已经可用的测试配置文件才能将它们用于模拟。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="创建测试用户档案"
 
 首先，您需要选择要用于模拟的测试用户档案。

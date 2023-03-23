@@ -12,7 +12,7 @@ exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反应事件"
->abstract="此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。"
+>abstract="您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。"
 
-在面板中可用的不同事件活动中，您会找到 **[!UICONTROL 反应]** 事件。 此活动允许您对与在同一历程中发送的消息相关的跟踪数据做出响应。 我们会在与Adobe Experience Platform共享此信息时实时捕获此信息。
+在面板中可用的不同事件活动中，您会找到 **[!UICONTROL 反应]** 事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。
 
 您可以对点击或打开的消息做出响应。
 

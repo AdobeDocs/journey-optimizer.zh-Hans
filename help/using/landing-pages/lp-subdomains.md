@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 2%
+ht-degree: 24%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="委派登陆页面子域"
->abstract="您将设置子域以供登陆页面使用。 您可以使用已委派用于Adobe或配置其他子域的子域。"
+>abstract="您需要设置子域以供登陆页面使用。您可以使用已委派给 Adobe 的子域或配置其他子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="委派登陆页面子域"
->abstract="您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来 Adobe 或配置新的子域。"
+>abstract="您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来 Adobe 或配置新的子域。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
->abstract="要创建登陆页面预设，请确保您之前至少配置了一个要从子域名列表中选取的登陆页面子域。"
+>abstract="要想创建登陆页面预设，请确保您之前至少配置了一个登陆页面子域，可以从子域名称列表中选择。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 能够 [创建登陆页面预设](lp-presets.md)，则必须设置要用于登陆页面的子域。
@@ -97,8 +97,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
->title="生成匹配的DNS记录"
->abstract="要配置新的登陆页面子域，您需要复制Journey Optimizer界面中显示的Adobe名称服务器信息，并将其粘贴到您的域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域即可用于创建登陆页面预设。"
+>title="生成匹配的 DNS 记录"
+>abstract="要配置新的登陆页面子域，您需要复制 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，将其粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。检查成功后，子域就可以用来创建登陆页面预设了。"
 
 要配置新子域，请执行以下步骤。
 

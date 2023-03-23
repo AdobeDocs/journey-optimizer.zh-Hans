@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="营销活动实时报告"
->abstract="营销活动实时报表允许您实时测量和可视化仅在过去24小时内的营销活动影响和绩效。 您的报告分为不同的小组件，用于详细说明营销活动的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
+>abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明您营销活动中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
 营销活动实时报告可通过 **[!UICONTROL 实时视图]** 按钮。
 

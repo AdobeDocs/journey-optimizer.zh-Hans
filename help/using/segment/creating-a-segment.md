@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="创建规则"
->abstract="构建规则创建方法允许您使用Adobe Experience Platform Segmentation Service创建新的区段定义。"
+>abstract="通过构建规则创建方法，您可以使用 Adobe Experience Platform Segmentation Service 创建新的区段定义。"
 
 在此示例中，我们将构建一个区段，以定位居住在亚特兰大、旧金山或西雅图的1980年以后出生的所有客户。 所有这些客户都应该在过去7天内打开Luma应用程序，然后在打开该应用程序后的2小时内完成购买。
 

@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="关于静默通知"
->abstract="在不干扰用户的情况下发送通知，通知不会显示在通知中心或通知栏中。"
+>abstract="发送通知但不打扰用户，通知中心或通知栏中不显示通知。"
 
 无提示推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，它用于通知您的应用程序新内容的可用性或在后台启动下载。
 

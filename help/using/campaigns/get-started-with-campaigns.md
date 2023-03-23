@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="营销活动"
->abstract="创建营销活动，以便跨各种渠道将一次性内容交付到特定区段。 在创建营销活动之前，请确保已准备好渠道界面（即消息预设）和Adobe Experience Platform区段以供使用。"
+>abstract="创建营销活动，以跨各种渠道向特定区段投放一次性内容。在创建营销活动之前，请确保您已准备好渠道表面（即消息预设）和 Adobe Experience Platform 区段以供使用。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，将依次执行操作。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 

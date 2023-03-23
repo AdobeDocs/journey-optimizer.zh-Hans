@@ -12,7 +12,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定义网页曲面"
->abstract="Web界面可以匹配单个页面URL或多个页面，从而允许您在一个或多个网页中交付内容修改。"
+>title="定义 Web 表面"
+>abstract="Web 表面可以匹配单个页面 URL 或多个页面，这让您可以在一个或多个网页上传递内容修改。"
 
 要开始通过营销活动构建Web体验，请执行以下步骤。
 
@@ -81,7 +81,7 @@ ht-degree: 8%
 
    ![](assets/web-create-campaign.png)
 
-1. 定义网页曲面。
+1. 定义 Web 表面.
 
    >[!NOTE]
    >

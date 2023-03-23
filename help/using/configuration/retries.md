@@ -12,7 +12,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
 >title="更新重试阈值"
->abstract="如果默认值不适合您的需求，您可以修改允许的连续软退回数。 当重试计数器达到特定电子邮件地址的错误阈值时，此地址会添加到禁止列表。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解支持列表"
+>abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解禁止列表"
 
 如果默认值5不适合您的需求，您可以按照以下步骤修改错误阈值。
 

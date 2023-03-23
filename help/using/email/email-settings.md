@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类别"
->abstract="选择使用此表面时将发送的电子邮件类型：营销促销电子邮件（需要用户同意）或非商业电子邮件（也可在特定环境中发送给未订阅用户档案）。"
+>abstract="选择使用此表面时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者事务性的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
 
 在 **电子邮件类型** 部分，选择将随曲面一起发送的消息类型： **营销** 或 **事务型**.
 
@@ -190,8 +190,8 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="调整重试时间段"
->abstract="当电子邮件投放由于临时软退件错误而失败，则会执行3.5天（84小时）的重试。 您可以调整此默认的重试时间段，以更好地满足您的需求。"
+>title="调整重试时段"
+>abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以调整此默认重试时段以更好地满足您的需求。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置 **电子邮件重试参数**.
@@ -212,13 +212,13 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定义URL跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的URL。 此功能属于可选功能。"
+>title="定义 URL 跟踪参数"
+>abstract="使用此部分可自动将跟踪参数附加到在电子邮件内容中提供的 URL。此功能属于可选功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="预览URL跟踪参数"
->abstract="查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
+>title="预览 URL 跟踪参数"
+>abstract="查看如何对电子邮件内容中出现的 URL 附加跟踪参数。"
 
 您可以使用 **[!UICONTROL URL跟踪参数]** 来衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
 

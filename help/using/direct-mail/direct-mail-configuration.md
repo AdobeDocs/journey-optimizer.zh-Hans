@@ -13,7 +13,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 1%
+ht-degree: 32%
 
 ---
 
@@ -47,7 +47,7 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
->abstract="创建直邮后，将生成包含目标受众数据的文件并将其导出到服务器。 您需要指定服务器详细信息，以便您的直邮提供商可以访问并使用该文件来传送直邮。"
+>abstract="创建直邮之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投递直邮。"
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
@@ -55,22 +55,22 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="定义文件路由配置"
->abstract="您需要定义将文件导出到何处，以供直邮提供商使用。"
+>abstract="您需要定义将文件导出到何处以供直邮提供商使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="文件路由配置"
->abstract="选择选择的文件路由配置，该配置定义将导出文件以供直邮提供商使用的位置。"
+>abstract="选择您要使用的文件路由配置，这会定义将文件导出到何处以供您的直邮提供商使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="为文件选择服务器类型"
->abstract="选择要用于导出直邮文件的服务器类型。 目前，Journey Optimizer仅支持Amazon S3和SFTP。"
+>abstract="选择您在导出直邮文件时要使用的服务器类型。Journey Optimizer 目前仅支持 Amazon S3 和 SFTP。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="选择AWS地区"
->abstract="选择要导出直邮文件的AWS服务器的地理区域。 通常情况下，最好选择与直邮提供商所在位置最接近的区域。"
+>title="选择 AWS 区域"
+>abstract="选择要将直邮文件导出到的 AWS 服务器的地理区域。作为常规做法，最好选择离您的直邮提供商位置最近的区域。"
 
 要发送直邮， [!DNL Journey Optimizer] 生成包含目标受众数据的文件并将其导出到服务器。
 
@@ -115,7 +115,7 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
->abstract="直邮界面包含文件格式设置，其中包含目标受众数据，将由邮件提供商使用。 您还必须通过选择文件路由配置来定义将导出文件的位置。"
+>abstract="直邮表面包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="配置文件路由"
 
 <!--
@@ -127,7 +127,7 @@ When [创建直邮](../direct-mail/create-direct-mail.md)，则可定义目标�
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="定义文件拆分阈值"
->abstract="您必须为包含受众数据的每个文件设置最大记录数。 您可以选择介于1到200,000条记录之间的任意数字。 达到指定的阈值后，将为其余记录创建另一个文件。"
+>abstract="您必须为包含受众数据的每个文件设置最大记录数。您可以选择 1 到 200,000 之间的任意记录数。达到指定阈值后，将创建另一个文件用于其余的记录。"
 
 能够通过 [!DNL Journey Optimizer]，则需要创建渠道表面以定义将由邮件提供商使用的文件格式的设置。
 

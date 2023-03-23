@@ -12,7 +12,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="单一事件"
->abstract="事件配置允许您定义Journey Optimizer将作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。 单一事件与特定用户档案相关联。 它们可以是基于规则的，也可以是系统生成的。"
+>abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。单一事件链接到特定配置文件。它们可以基于规则，也可以由系统生成。"
 
-单一事件与特定用户档案相关联。 它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件的更多信息 [此部分](../event/about-events.md).
+单一事件链接到特定配置文件。它们可以基于规则，也可以由系统生成。阅读有关单一事件的更多信息 [此部分](../event/about-events.md).
 
 以下是配置新事件的首要步骤：
 
@@ -113,7 +113,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
 >title="身份命名空间"
->abstract="选择键以标识与事件关联的客户用户档案。"
+>abstract="选择用于标识与事件关联的客户配置文件的键。"
 
 命名空间允许您定义用于标识与事件关联的人员的键类型。 其配置是可选的。 如果要在您的历程中检索来自 [实时客户资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}. 如果您仅使用来自第三方系统的数据通过自定义数据源，则不需要命名空间定义。
 

@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -108,13 +108,13 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
->title="向允许列表添加地址或域"
->abstract="您可以通过逐一选择新电子邮件地址或域名，手动将其添加到允许列表。"
+>title="将地址或域添加到允许列表"
+>abstract="您可以通过逐个选择新电子邮件地址或域，将它们手动添加到允许列表中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
->title="向允许列表添加地址或域"
->abstract="您可以通过逐一选择新电子邮件地址或域名，手动将其添加到允许列表。"
+>title="将地址或域添加到允许列表"
+>abstract="您可以通过逐个选择新电子邮件地址或域，将它们手动添加到允许列表中。"
 
 您可以手动填充 [!DNL Journey Optimizer] 允许列表。
 
@@ -189,7 +189,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="管理允许列表"
->abstract="激活允许列表后，只有允许列表中包含的收件人才会收到来自此沙盒的电子邮件。 停用后，所有收件人都将收到电子邮件。"
+>abstract="激活允许列表后，只有包含在允许列表中的收件人才能收到来自此沙盒的电子邮件。如果停用，则所有收件人都将收到电子邮件。"
 
 允许列表为 [活动](#enable-allow-list)，则以下逻辑适用：
 

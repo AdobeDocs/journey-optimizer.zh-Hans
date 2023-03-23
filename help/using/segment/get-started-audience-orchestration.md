@@ -14,7 +14,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
->title="创建合成"
->abstract="创建合成工作流，将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）创建新受众。"
+>title="创建组合"
+>abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除...）来创建新的受众。"
 
 >[!BEGINSHADEBOX]
 

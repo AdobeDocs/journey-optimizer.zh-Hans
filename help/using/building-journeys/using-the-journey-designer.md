@@ -12,7 +12,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1611'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="设计您的历程"
->abstract="历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。"
+>abstract="历程界面让您可以轻松地将活动从调色板拖放到画布中。您还可以双击一个活动，以便在可以进行后续步骤时将其添加到画布中。"
 
 Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营销推广与一对一客户参与相协调。 利用用户界面，可轻松地将活动从面板拖放到画布中，以构建历程。 请注意，您还可以在下一个可用步骤中双击某个活动以将其添加到画布中。
 

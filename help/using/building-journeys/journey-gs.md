@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="构建历程"
->abstract="此屏幕显示现有历程的列表。 打开旅程或单击“创建旅程”，并组合不同的事件、编排和操作活动以构建多步跨渠道方案。"
+>abstract="此屏幕显示现有历程的列表。打开某个历程或单击“创建历程”，然后组合不同的事件、编排和操作活动，以此来构建您的多步骤跨渠道场景。"
 
 此步骤由 **商业用户**. 您可以在此处创建历程。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
@@ -80,7 +80,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="历程属性"
->abstract="此部分显示历程属性。 默认情况下，只读参数处于隐藏状态。 可用设置取决于历程的状态、权限和产品配置。"
+>abstract="此部分显示历程属性。默认情况下，只读参数是隐藏的。可用设置取决于历程的状态、您的权限和产品配置。"
 
 单击右上方的铅笔图标以访问历程的属性。
 

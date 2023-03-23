@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
@@ -91,13 +91,13 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
->title="向抑制列表添加电子邮件或域"
->abstract="您可以手动填充Journey Optimizer抑制列表，以便从发送中排除特定的电子邮件地址和/或域。"
+>title="将电子邮件或域添加到禁止列表"
+>abstract="您可以手动填充 Journey Optimizer 禁止列表，以便在发送时排除特定的电子邮件地址和/或域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="向抑制列表添加电子邮件或域"
->abstract="要填充抑制列表，您可以手动添加电子邮件地址或域：一次一个，或通过CSV文件上传在批量模式下。 这些特定的电子邮件地址和/或域将被排除在发送之外。"
+>title="将电子邮件或域添加到禁止列表"
+>abstract="要填充禁止列表，您可以手动添加电子邮件地址或域：可以逐个添加，也可以通过 CSV 文件上传来批量添加。在您发送电子邮件时将排除这些特定的电子邮件地址和/或域。"
 
 当消息无法发送到电子邮件地址时，此地址会根据定义的禁止规则或退回计数自动添加到禁止列表中。
 
@@ -113,8 +113,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="向禁止列表添加一项"
->abstract="您可以通过逐个添加电子邮件地址和/或域来填充抑制列表。"
+>title="添加一项到禁止列表"
+>abstract="您可以逐个添加电子邮件地址和/或域来填充禁止列表。"
 
 要向抑制列表添加电子邮件地址或域，请执行以下步骤：
 
@@ -142,8 +142,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="上传CSV以向隐藏列表添加项目"
->abstract="您可以通过上传以您要排除的电子邮件地址/域填充的CSV文件来填充抑制列表。"
+>title="上传 CSV 以添加多项到禁止列表"
+>abstract="您可以通过上传已填写要排除的电子邮件地址/域的 CSV 文件来填充禁止列表。"
 
 要向抑制列表添加一组电子邮件地址或域，请执行以下步骤：
 

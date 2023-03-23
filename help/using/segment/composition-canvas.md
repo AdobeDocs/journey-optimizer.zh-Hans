@@ -14,7 +14,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -89,12 +89,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="受众活动"
->abstract="利用受众活动，可在合成中包含属于现有受众的其他用户档案。"
+>abstract="“受众活动”让您可以在组合中包括属于现有受众的配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="合并类型"
->abstract="指定应如何合并选定受众的配置文件。"
+>abstract="指定应如何合并所选受众的配置文件。"
 
 的 **[!UICONTROL 受众]** 活动允许您在合成中包含属于现有受众的其他用户档案。
 
@@ -105,12 +105,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除类型"
->abstract="使用排除受众类型排除属于现有受众的用户档案。 使用属性类型排除可根据特定属性排除用户档案。"
+>abstract="使用“排除受众类型”排除属于现有受众的配置文件。“使用属性类型排除”让您可以根据特定属性来排除配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活动"
->abstract="利用排除活动，可通过选择现有受众或使用规则从构图中排除用户档案。"
+>abstract="“排除活动”让您可以通过选择现有受众或使用规则，从组合中排除配置文件。"
 
 的 **[!UICONTROL 排除]** 活动，可将用户档案从构图中排除。 可以使用两种类型的排除：
 
@@ -130,8 +130,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="丰富活动"
->abstract="使用扩充活动排除属于现有受众的用户档案。 使用属性类型排除可根据特定属性排除用户档案。"
+>title="扩充活动"
+>abstract="使用“扩充活动”排除属于现有受众的配置文件。“使用属性类型”排除让您可以根据特定属性来排除配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -141,12 +141,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="扩充标准"
->abstract="选择要用作源数据集（即受众）与扩充数据集之间协调键值的字段。"
+>abstract="选择要用作源数据集（即受众）与扩充数据集之间的合并关键项的字段。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="扩充属性"
->abstract="从扩充数据集中选择一个或多个要与受众关联的属性。 发布组合后，这些属性将与受众关联，并可在营销活动中利用这些属性来个性化投放。"
+>abstract="从扩充数据集中选择一个或多个属性以关联到受众。组合在发布之后，这些属性就会与受众相关联，并且可以在营销活动中用来提供个性化的投放。"
 
 的 **[!UICONTROL 丰富]** 活动允许您使用来自Adobe Experience Platform数据集的其他属性来扩充受众。 例如，您可以添加与所购买产品相关的信息（如其名称、价格或制造商ID），并利用这些信息将发送给受众的投放个性化。
 
@@ -171,12 +171,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活动"
->abstract="利用排名活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，包括会员积分数量最大的50个用户档案。"
+>abstract="“排名活动”允许您根据特定属性对配置文件进行排名并将它们包含在组合中。例如，包含忠诚度积分最高的 50 个配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="添加配置文件限制"
->abstract="打开此选项可指定要包含在组合中的最大用户档案数。"
+>abstract="打开此选项以指定要包含在组合中的配置文件最大数量。"
 
 的 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将其包含在您的构图中。 例如，您可以包含50个用户档案，其中会员积分数量最多。
 
@@ -200,21 +200,21 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="拆分活动"
->abstract="利用拆分活动，可将构图划分为多个路径。 发布合成时，每个路径的一个受众都将保存到Adobe Experience Platform中。"
+>abstract="“拆分活动”让您可以将组合拆分成多个路径。在发布组合时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="拆分类型"
->abstract="使用百分比拆分类型将用户档案随机拆分为多个路径。 利用属性拆分类型，可根据特定属性拆分用户档案。"
+>abstract="使用“百分比拆分类型”可将配置文件随机拆分到多个路径中。“属性拆分类型”让您可以根据特定属性来拆分配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
->title="其他用户档案"
->abstract="打开此选项可创建一个附加路径，其余配置文件与其他路径中指定的任何条件都不匹配。"
+>title="其他配置文件"
+>abstract="打开此选项可以创建一个附加路径，其中包含与其他路径中指定的任意条件都不匹配的剩余配置文件。"
 
 的 **[!UICONTROL 拆分]** 活动，可将构图划分为多个路径。
 
-此操作会自动添加 **[!UICONTROL 保存]** 活动。 发布合成时，每个路径的一个受众都将保存到Adobe Experience Platform中。
+此操作会自动添加 **[!UICONTROL 保存]** 活动。 在发布组合时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。
 
 可以使用两种类型的拆分操作：
 

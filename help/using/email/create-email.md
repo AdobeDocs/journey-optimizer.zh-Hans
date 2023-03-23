@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="电子邮件创建"
->abstract="只需三个简单步骤即可定义电子邮件参数。"
+>abstract="只需三个简单的步骤即可定义您的电子邮件参数。"
 
 在中创建电子邮件 [!DNL Journey Optimizer]，请执行以下步骤。
 
@@ -78,7 +78,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="配置电子邮件内容"
->abstract="创建电子邮件的内容。 定义其主题，然后利用Email Designer构建和个性化电子邮件的正文。"
+>abstract="创建电子邮件的内容。定义其主题，然后利用电子邮件设计器构建和个性化电子邮件正文。"
 
 1. 在历程或营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置电子邮件内容。 [了解详情](get-started-email-design.md)
 

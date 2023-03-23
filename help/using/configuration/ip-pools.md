@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
->title="设置IP池"
->abstract="IP池会收集子域的IP地址，以改进电子邮件投放能力。"
+>title="设置 IP 池"
+>abstract="IP 池收集您子域的 IP 地址以提高电子邮件的送达率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
->title="设置IP池"
->abstract="使用Journey Optimizer，您可以创建IP池以将子域的IP地址分组在一起。 这可能会显着提高您的电子邮件投放能力，因为这样做可以防止子域的声誉影响您的其他子域。"
+>title="设置 IP 池"
+>abstract="使用 Journey Optimizer，您可以创建 IP 池，将子域的 IP 地址分组在一起。这可以显著提高您的电子邮件送达率，因为这样做可以防止一个子域的声誉影响您的其他子域。"
 
 ## 关于IP池 {#about-ip-pools}
 

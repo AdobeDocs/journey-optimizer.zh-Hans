@@ -15,7 +15,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="设置报表数据集"
->abstract="利用报表配置，可检索将在营销活动报表的“目标”选项卡中使用的其他量度。 该操作必须由技术用户执行。"
+>abstract="报告配置让您可以检索将在营销活动报告的“目标”选项卡中使用的其他指标。该操作必须由技术用户执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="选择数据集"
->abstract="您只能选择事件类型数据集，该数据集必须至少包含一个受支持的字段组：应用程序详细信息、商务详细信息、Web详细信息。"
+>abstract="您只能选择一个事件类型的数据集，该数据集必须至少包含一个支持的字段组：应用程序详细信息、商务详细信息、Web 详细信息。"
 
 >[!BEGINSHADEBOX]
 

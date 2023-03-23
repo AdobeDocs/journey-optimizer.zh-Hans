@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -43,12 +43,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="创建条件"
->abstract="合并用户档案属性、上下文事件或受众，以构建规则来定义消息中应显示的内容。"
+>abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="创建条件"
->abstract="合并用户档案属性、上下文事件或受众，以构建规则来定义消息中应显示的内容。"
+>abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
 
 创建条件规则的步骤如下所示：
 

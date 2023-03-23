@@ -12,7 +12,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 要测试电子邮件内容，您需要：
 
-* [选择测试用户档案](#select-test-profiles)
+* [选择测试配置文件](#select-test-profiles)
 * [检查消息预览](#preview-your-messages)
 
 然后，您将能够 [发送校样](#send-proofs) 到测试用户档案。
@@ -43,12 +43,12 @@ ht-degree: 4%
 
 ➡️ [在此视频中了解如何预览和校样电子邮件](#video-preview)
 
-## 选择测试用户档案 {#select-test-profiles}
+## 选择测试配置文件 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="预览和测试消息"
->abstract="定义消息内容后，即可使用测试用户档案进行预览和测试。"
+>abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="电子邮件渲染"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="预览"
 
@@ -157,7 +157,7 @@ ht-degree: 4%
 要访问电子邮件渲染功能，您需要：
 
 * 拥有Litmus帐户
-* [选择测试用户档案](#select-test-profiles)
+* [选择测试配置文件](#select-test-profiles)
 
 然后，执行以下步骤：
 

@@ -12,7 +12,7 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 56%
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="关于历程配置"
->abstract="要随历程发送消息，您需要配置数据源、事件和操作。 数据源允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 事件允许您在收到事件时触发历程。 自定义操作允许您连接到第三方系统以发送消息。 如果您使用的是Journey Optimizer内置消息功能，则无需配置操作。"
+>abstract="要随历程一起发送消息，您需要配置数据源、事件和操作。使用数据源，您可以定义与系统的连接，以检索将在您历程中使用的其他信息，例如在条件中。事件让您可以在收到事件时触发历程。 利用自定义操作，您可以连接到第三方系统以发送消息。如果您使用 Journey Optimizer 内置消息功能，则无需配置操作。"
 
 要随历程发送消息，您需要配置 **[!UICONTROL 数据源]**, **[!UICONTROL 事件]** 和 **[!UICONTROL 操作]**.
 

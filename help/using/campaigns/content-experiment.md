@@ -15,7 +15,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="内容体验"
->abstract="您可以选择更改投放内容、主题或发件人，以定义多种投放处理方式并确定适合受众的最佳组合。"
+>abstract="您可以选择改变投放内容、主题或发件人，以便定义多种投放处理方法并确定最适合您受众的组合。"
 
 >[!BEGINSHADEBOX]
 
@@ -175,8 +175,8 @@ Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="成功指标"
->abstract="成功量度的总值（之前在创建实验时选择的量度）除以用户档案数。"
+>title="成功量度"
+>abstract="您之前在创建试验时选择的成功量度的总值，除以配置文件数。"
 
 >[!AVAILABILITY]
 >

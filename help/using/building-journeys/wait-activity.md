@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 4%
+ht-degree: 20%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活动"
->abstract="如果要在执行路径中的下一个活动之前等待，可以使用等待活动。 利用该活动，可定义执行下一个活动的时间。 有两个选项可用：持续时间和自定义。"
+>abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
 
-如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
+如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。提供了以下三个选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)

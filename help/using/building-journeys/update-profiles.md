@@ -12,7 +12,7 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
->title="更新用户档案活动"
->abstract="利用更新配置文件操作活动，可使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。"
+>title="更新配置文件活动"
+>abstract="更新配置文件操作活动让您可以使用来自事件、数据源的信息或使用特定值，更新现有 Adobe Experience Platform 配置文件。"
 
 使用 **[!UICONTROL 更新用户档案]** 操作活动，使用来自事件、数据源或具有特定值的信息更新现有Adobe Experience Platform配置文件。
 

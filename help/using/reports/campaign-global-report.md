@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="营销活动全局报告"
->abstract="营销活动全局报表允许测量选定时间段内营销活动的影响。 您的报告分为不同的小组件，用于详细说明营销活动的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
+>abstract="营销活动全局报告可以衡量您的营销活动在选定时段内产生的影响。报告分为不同的构件，详细说明您营销活动中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
 可通过 **[!UICONTROL 查看报表]** 按钮。
 

@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="对象级访问控制"
->abstract="如果您应用了您无权访问的任何标签，则您对此对象的访问权限将被撤消。"
+>abstract="如果应用了任何您无权访问的标签，那么您对此对象的访问权限将被撤销。"
 
 >[!IMPORTANT]
 >

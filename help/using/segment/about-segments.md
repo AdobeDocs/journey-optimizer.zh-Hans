@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="区段"
->abstract="通过利用实时客户资料数据，Adobe Experience Platform使您能够轻松创建可捕获客户独特行为和偏好的目标区段。"
+>abstract="通过利用实时客户配置文件数据，Adobe Experience Platform 让您能够轻松地创建目标区段，用于捕捉客户的独特行为和偏好。"
 
 [!DNL Journey Optimizer]  允许您直接从 **[!UICONTROL 区段]** 菜单，并将其用于您的历程或营销策划。
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 * **流分段**:当新数据流入系统时，区段的受众列表会实时保持为最新。
 
-   流式客户细分是一种持续的数据选择流程，可根据用户活动更新您的区段。 生成并保存区段后，会将区段定义应用于传入数据到Journey Optimizer。 这意味着当个人的配置文件数据发生更改时，会在区段中添加或删除他们，从而确保目标受众始终相关。
+   流式分段是一个持续的数据选择过程，它会更新区段以响应用户活动。生成并保存区段后，会将区段定义应用于传入数据到Journey Optimizer。 这意味着当个人的配置文件数据发生更改时，会在区段中添加或删除他们，从而确保目标受众始终相关。
 
 * **批量分段**:每24小时评估一次区段的受众列表。
 

@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="创建登陆页面预设"
->abstract="要构建登陆页面并通过Journey Optimizer利用该页面，您必须创建包含要使用的子域的登陆页面预设。"
+>abstract="为了构建登陆页面并通过 Journey Optimizer 使用它，您必须创建一个登陆页面预设，在其中包含要使用的子域。"
 
 When [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须选择登陆页面预设才能构建登陆页面并通过该页面进行利用 **[!DNL Journey Optimizer]**.
 

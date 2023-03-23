@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 3%
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="定义要使用的地址"
->abstract="当数据库中有多个电子邮件地址或电话号码（个人、专业等）时，您可以选择发送的优先级。"
+>abstract="当数据库中有多个电子邮件地址或电话号码（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="定义要使用的地址"
->abstract="编辑用于确定用户档案电子邮件地址或电话号码以确定发送优先级的字段。"
+>abstract="编辑字段，用于确定优先向其发送的配置文件的电子邮件地址或电话号码。"
 
 定位用户档案时，数据库中可能有多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
 

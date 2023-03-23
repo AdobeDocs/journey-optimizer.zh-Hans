@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -21,24 +21,24 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="将历程复制到另一个沙盒"
->abstract="Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还会复制历程所依赖的大多数对象。"
+>abstract="可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。除了历程本身，Journey Optimizer 还会复制历程所依赖的大部分对象。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="沙盒详细信息"
->abstract="选择要将历程复制到的目标沙盒。 只有IMS组织内的沙箱才可用。"
+>abstract="选择您要将历程复制到的目标沙盒。只有您 IMS 组织内的沙盒才可供使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
 >title="对象详细信息"
->abstract="这是您要复制的历程。"
+>abstract="这就是您要复制的历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="从属对象"
->abstract="这是历程中使用的关联对象列表。 此列表显示名称、对象类型以及内部Journey Optimizer ID。"
+>title="依赖对象"
+>abstract="这是在历程中使用的关联对象的列表。此列表显示名称、对象类型以及内部 Journey Optimizer ID。"
 
-Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒。 例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 有关已复制对象的详细信息，请参阅 [部分](#limitations).
+可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身之外，Journey Optimizer还复制历程所依赖的大多数对象：区段、曲面（即预设）、架构、事件和操作。 有关已复制对象的详细信息，请参阅 [部分](#limitations).
 
 >[!CAUTION]
 >
@@ -58,9 +58,9 @@ Journey Optimizer允许您将整个历程从一个沙盒复制到另一个沙盒
 
    ![](assets/copy-sandbox2.png)
 
-3. 选择 **Target沙盒** 中。 只有IMS组织内的沙箱才可用。
+3. 选择 **Target沙盒** 中。 只有您 IMS 组织内的沙盒才可供使用。
 
-4. 查看 **从属对象** 中。 这是历程中使用的关联对象列表。 此列表显示名称、对象类型以及内部Journey Optimizer ID。
+4. 查看 **从属对象** 中。 这是在历程中使用的关联对象的列表。此列表显示名称、对象类型以及内部 Journey Optimizer ID。
 
 5. 单击 **复制** 按钮，以开始将历程复制到目标沙箱。
 

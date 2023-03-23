@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
 >title="定义您自己的内容模板"
->abstract="从头开始创建一个独立的自定义模板，以使内容可在多个历程和营销活动中重复使用。"
+>abstract="从头开始创建独立的自定义模板，这样您的内容便可在多个历程和营销活动中重复使用。"
 
 有两种方法可以创建内容模板：
 
@@ -124,8 +124,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
->title="了解如何迁移消息"
->abstract="2022年7月25日，“消息”菜单消失，消息现在直接从历程创作。 如果要在历程中重复使用旧版消息，需要将其另存为模板。"
+>title="了解如何迁移您的消息"
+>abstract="从 2022 年 7 月 25 日开始，消息菜单取消，现在直接在历程中创作消息。如果您重用历程中的旧消息，则需要将它们另存为模板。"
 
 设计 [电子邮件](get-started-email-design.md) 在营销活动或历程中，您可以保存电子邮件内容以供将来重复使用。 为此，请执行以下步骤。
 

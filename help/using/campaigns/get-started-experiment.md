@@ -15,7 +15,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '2013'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -127,8 +127,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="摘要小组件"
->abstract="摘要小组件提供了实验结果的概述，包括它们是否是结论性的。 它为您快速、轻松地了解实验结果提供了方法。"
+>title="摘要构件"
+>abstract="“摘要”构件提供实验结果的概述，包括结果是否具有结论性。它提供了一种简便快速的方法来了解实验的结果。"
 
 ![](assets/experimentation_report_3.png)
 

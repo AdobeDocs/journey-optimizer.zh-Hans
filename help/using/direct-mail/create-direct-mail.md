@@ -13,7 +13,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直邮创建"
->abstract="在计划的营销活动中创建直邮邮件，并设计直邮提供商向客户发送邮件所需的提取文件。"
+>abstract="在计划的营销活动中创建直邮，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
 
 >[!BEGINSHADEBOX]
 

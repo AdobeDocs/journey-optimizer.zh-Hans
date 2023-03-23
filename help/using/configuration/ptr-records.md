@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
->title="子域的PTR记录"
->abstract="指针记录(PTR)是一种DNS记录类型，它提供链接到IP地址的域名，这有助于接收邮件服务器验证发件人的IP地址。 只有在与您的可投放性专家进行适当考虑和讨论后，才编辑PTR记录。"
+>title="子域的 PTR 记录"
+>abstract="指针记录 (PTR) 是一种 DNS 记录，它提供链接到 IP 地址的域名，帮助接收邮件服务器验证发件人的 IP 地址。您只有在与送达率专家进行讨论并充分考虑后，才能编辑 PTR 记录。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
->title="子域的PTR记录"
->abstract="在Journey Optimizer中将子域委派到Adobe后，将自动创建PTR记录并与此子域关联。"
+>title="子域的 PTR 记录"
+>abstract="在 Journey Optimizer 中将子域委派给 Adobe 后，将自动创建 PTR 记录并将其与此子域相关联。"
 
 ## 关于PTR记录 {#about-ptr-records}
 

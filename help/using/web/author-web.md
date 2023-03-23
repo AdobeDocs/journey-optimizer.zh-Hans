@@ -12,7 +12,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="确认要编辑的URL"
->abstract="确认特定网页的URL，以用于编辑将应用于上面定义的Web表面的内容。 必须使用Adobe Experience Platform Web SDK来实施网页。"
+>title="确认要编辑的 URL"
+>abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 表面的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="输入要编辑的URL"
->abstract="输入特定网页的URL，以用于编辑将应用于与规则匹配的所有页面的内容。 必须使用Adobe Experience Platform Web SDK来实施网页。"
+>title="输入 URL 以进行编辑"
+>abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
@@ -99,7 +99,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="将内容组件添加到网页"
->abstract="您可以向网页中添加许多组件，并根据需要对其进行编辑。"
+>abstract="您可以将许多组件添加到网页，然后根据需要进行编辑。"
 
 1. 从 **[!UICONTROL 组件]** 左侧的窗格中，您可以将以下组件添加到网页中，并根据需要对其进行编辑：
 
@@ -167,7 +167,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="轻松管理所有更改"
->abstract="使用此窗格，您可以导航并管理您添加到网页的所有调整和样式。"
+>abstract="使用此窗格，您可以浏览和管理您添加到网页的所有调整和样式。"
 
 您可以轻松管理您添加到网页的所有组件、调整和样式。
 
@@ -205,8 +205,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="预览Web体验"
->abstract="模拟您的Web体验。"
+>title="预览 Web 体验"
+>abstract="模拟您将获得的 Web 体验。"
 
 要显示已修改的Web体验的预览，请执行以下步骤。
 

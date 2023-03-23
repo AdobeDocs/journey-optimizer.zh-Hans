@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 10%
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
->title="Google TXT记录"
->abstract="为确保将电子邮件成功发送到Gmail地址，您可以向子域添加特殊的Google网站验证TXT记录，以确保已对其进行验证。"
+>title="Google TXT 记录"
+>abstract="为确保将电子邮件成功发送到 Gmail 地址，您可以将专门的 Google 网站验证 TXT 记录添加到您的子域中，以确保该地址已通过验证。"
 
 TXT记录是一种DNS记录类型，用于提供域的文本信息，外部源可读取该信息。
 

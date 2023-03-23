@@ -12,7 +12,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
 >title="设置订阅列表"
->abstract="创建订阅列表以收集选择接收特定主题或事件通信的用户档案。 "
+>abstract="创建订阅列表，用于收集已选择接收特定主题或事件通信的配置文件。 "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="创建订阅列表"
 
 订购服务是指向选择接收特定主题/事件/兴趣等通信的客户提供的营销产品和服务。 不断进行。 在 [!DNL Journey Optimizer]，则这些选择加入的客户将被收集到订阅列表中。

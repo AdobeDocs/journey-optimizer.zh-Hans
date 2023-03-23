@@ -23,9 +23,9 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="区段鉴别事件"
->abstract="此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。"
+>abstract="此活动允许您的历程侦听 Adobe Experience Platform 区段中配置文件的进入和退出，以便使个人进入历程或在历程中向前推进。"
 
-此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
+此活动允许您的历程侦听 Adobe Experience Platform 区段中配置文件的进入和退出，以便使个人进入历程或在历程中向前推进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
 
 假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 

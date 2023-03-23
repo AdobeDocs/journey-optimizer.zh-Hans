@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -51,12 +51,12 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="条件内容"
->abstract="使用条件规则为内容组件创建多个变体。 如果发送消息时不满足任何条件，则将显示“默认”变体中的内容。"
+>abstract="使用条件规则创建内容组件的多个变体。如果在发送消息时不满足任何条件，则将显示默认变体中的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
 >title="条件内容"
->abstract="使用保存到库中的条件规则或创建新规则。"
+>abstract="使用保存在库中的条件规则或创建新规则。"
 
 在Email Designer中创建内容组件变体的步骤如下所示：
 

@@ -12,7 +12,7 @@ exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="条件"
->abstract="条件规则允许您根据用户档案属性、上下文事件或受众区段在消息中显示多个内容变体。"
+>abstract="条件规则让您可以根据配置文件属性、上下文事件或受众区段，在消息中显示多个内容变体。"
 
 动态内容允许您根据 **条件规则** 可由用户档案属性、上下文事件或受众区段组成。 条件规则是使用表达式编辑器中的可视化规则生成器创建的，你可以在其中存储这些规则以供在历程和营销活动中进一步重复使用。
 

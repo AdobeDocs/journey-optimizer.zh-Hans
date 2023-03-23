@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -34,8 +34,8 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种方法来存档发�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
->title="定义密送电子邮件地址"
->abstract="您可以通过将已发送的电子邮件发送到密件抄送收件箱来保留其副本。 输入您选择的电子邮件地址，以便发送的每封电子邮件都会被盲目复制到此密件抄送地址。 请注意，密送地址域不应与委派给Adobe的任何子域相同。 此功能属于可选功能。"
+>title="定义密件抄送电子邮件地址"
+>abstract="您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。输入您选择的电子邮件地址，这样发送的每封电子邮件都会被密送至此密件抄送地址。请注意，密件抄送地址域不应与委派给 Adobe 的任何子域相同。此功能属于可选功能。"
 
 您可以发送由 [!DNL Journey Optimizer] 发送到密件抄送收件箱。 此可选功能允许您保留您发送给用户的电子邮件通信副本，以便符合规范和/或进行存档。 投放收件人将看不到该内容。
 

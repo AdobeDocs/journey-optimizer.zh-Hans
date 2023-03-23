@@ -11,7 +11,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="订阅全局报告"
->abstract="订阅提供报表允许您测量和可视化选定时间段内订阅者的活动。 您的报告分为不同的小组件，用于详细说明您的订阅和退订。 可通过调整大小或删除小组件来修改每个报表功能板。"
+>abstract="使用订阅全局报告，您可以衡量并可视化订阅者在选定时段内的活动。报告分为不同的构件，详细说明了订阅和取消订阅情况。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
 订阅 **[!UICONTROL 全局报告]** 显示有关选定时间段内订阅者活动的详细信息。 要仅测量过去24小时内的订阅，请参阅 [订阅实时报告](subscription-report-live.md).
 

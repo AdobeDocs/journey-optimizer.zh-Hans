@@ -12,7 +12,7 @@ exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="一般事件"
->abstract="事件允许您统一触发历程，向流入历程的个人实时发送消息。对于此类型的事件，您只能添加标签和描述。 事件配置由数据工程师执行，无法编辑。"
+>abstract="事件允许您统一触发历程，向流入历程的个人实时发送消息。对于此类事件，只能添加标签和描述。事件配置由数据工程师执行，不可编辑。"
 
 事件允许您统一触发历程，向流入历程的个人实时发送消息。
 
-对于此类型的事件，您只能添加标签和描述。 无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
+对于此类事件，只能添加标签和描述。无法编辑配置的其余部分。 由技术用户执行。 请参阅[此页](../event/about-events.md)。
 
 ![](assets/general-events.png)
 

@@ -14,7 +14,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="发布受众"
->abstract="发布您的构图，以将生成的受众保存到Adobe Experience Platform。"
+>abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
 
 所有创建的合成都可以从 **[!UICONTROL 组合物]** 选项卡。 它们可以具有多种状态：
 

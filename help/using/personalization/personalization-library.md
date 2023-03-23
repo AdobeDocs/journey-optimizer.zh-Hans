@@ -12,7 +12,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="关于表达式库"
->abstract="[!DNL Journey Optimizer] 提供一个库，您可以在其中访问已由管理员用户配置的保存个性化表达式。 "
+>abstract="[!DNL Journey Optimizer] 提供了一个库，您可以在其中访问由管理员用户配置的已保存个性化表达式。 "
 
 [!DNL Journey Optimizer] 提供了一个库，您可以在其中访问之前保存的由管理员用户添加的个性化表达式。
 

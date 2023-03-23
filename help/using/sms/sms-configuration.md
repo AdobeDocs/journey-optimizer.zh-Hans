@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -32,19 +32,19 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用Journey Optimizer配置短信供应商"
->abstract="选择您的供应商并填写您的短信API凭据。"
+>title="使用 Journey Optimizer 配置 SMS 供应商"
+>abstract="选择您的供应商并填写 SMS API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer配置短信供应商"
->abstract="在发送短信之前，您必须将提供程序设置与Journey Optimizer集成。 完成后，您需要创建短信界面。 这些步骤必须由Adobe Journey Optimizer系统管理员执行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="创建短信渠道表面"
+>title="使用 Journey Optimizer 配置 SMS 供应商"
+>abstract="在发送 SMS 之前，您必须将供应商设置与 Journey Optimizer 集成。完成后，您将需要创建一个 SMS 表面。这些步骤必须由 Adobe Journey Optimizer 系统管理员执行。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="创建 SMS 渠道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="选择短信供应商配置"
->abstract="选择为短信供应商配置的API凭据。"
+>title="选择 SMS 供应商配置"
+>abstract="选择为您的 SMS 供应商配置的 API 凭据。"
 
 要使用Journey Optimizer配置短信供应商，请执行以下步骤：
 
@@ -77,9 +77,9 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="定义短信类别"
->abstract="使用以下表面选择短信消息的类型：需要用户同意的促销短信消息的营销，或非商业短信消息的事务型营销，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择退出营销短信消息"
+>title="定义 SMS 类别"
+>abstract="选择使用此表面的 SMS 消息类型：营销性的推广 SMS 消息，此时需要用户同意；或者事务性的非商业 SMS 消息，例如密码重置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择退出营销 SMS 消息"
 
 配置短信渠道后，必须创建渠道表面，才能从发送短信消息 **[!DNL Journey Optimizer]**.
 

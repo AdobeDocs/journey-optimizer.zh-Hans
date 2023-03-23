@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '2022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="历程全局报告"
->abstract="历程全局报告允许您测量选定时间段内历程的影响。 您的报告分为不同的小组件，用于详细描述历程的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
+>abstract="历程全局报告让您可以衡量您的历程在选定时段内产生的影响。报告分为不同的构件，详细说明历程中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
 历程全局报告可直接从您的历程(使用 **[!UICONTROL 查看报表]** 按钮。
 

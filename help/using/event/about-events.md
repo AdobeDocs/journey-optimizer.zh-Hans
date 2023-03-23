@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 60%
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="关于事件"
->abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是Journey Optimizer在历程中将侦听的内容，以编排最佳的后续行动。"
+>abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 Journey Optimizer 在历程中将侦听的内容，以编排最佳的后续行动。"
 
 事件配置允许您定义 [!DNL Journey Optimizer] 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。
 

@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建登陆页面的布局。 要定义允许用户选择和提交其选择的特定内容，请使用表单组件。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="添加内容组件"
 
 要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
@@ -39,13 +39,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="设置表单组件字段"
->abstract="定义收件人将如何从您的登陆页面查看和提交其所做的选择。"
+>abstract="定义您的收件人如何从登陆页面查看和提交他们的选择。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定义登陆页面表单样式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="单击按钮时会发生什么情况"
->abstract="定义用户提交登陆页面表单后将发生的情况。"
+>title="单击按钮时会出现的情况"
+>abstract="定义在用户提交登陆页面表单时将会出现的情况。"
 
 要定义允许用户从登陆页面选择和提交其选择的特定内容，请使用 **[!UICONTROL 表单]** 组件。 为此，请执行以下步骤。
 

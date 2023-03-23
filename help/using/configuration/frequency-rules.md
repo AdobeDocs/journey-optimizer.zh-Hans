@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -53,17 +53,17 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="选择消息规则类别"
->abstract="激活并应用于消息后，所有与选定类别匹配的频率规则将自动应用于此消息。 目前只有营销类别可用。"
+>abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="为规则设置上限"
->abstract="指定每月发送给客户用户档案的消息数上限。 频度上限将基于每月日历期，并将在每月初重置。"
+>title="设置规则的上限"
+>abstract="指定每个月发送到客户配置文件的最大消息数。频率上限基于每月的日历周期，并将在每个月的月初重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="定义规则所应用的渠道"
->abstract="至少选择一个渠道。 以总计数形式跨渠道应用上限。"
+>title="定义规则应用到的渠道"
+>abstract="请至少选择一个渠道。对所有渠道的总计数应用上限。"
 
 要创建新规则，请执行以下步骤。
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    ![](assets/message-rules-details.png)
 
-1. 选择消息规则类别。
+1. 选择消息规则类别.
 
    >[!NOTE]
    >

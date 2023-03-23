@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 数据源"
->abstract="Adobe Experience Platform数据源定义与Adobe实时客户资料的连接。 此数据源已内置并预配置，无法删除。 它旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。"
+>abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户配置文件服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用用户档案数据和体验事件数据。"
 
-Adobe Experience Platform数据源定义与Adobe实时客户资料的连接。 此数据源已内置并预配置，无法删除。 此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户资料的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
+Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在从实时客户资料服务中检索和使用数据（例如，检查进入旅程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户资料的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
 
 
 要允许连接到实时客户资料服务，我们必须使用键来标识人员，以及将键关联到的命名空间。 因此，仅当您的历程以包含键和命名空间的事件开头时，才能使用此数据源。 [了解详情](../building-journeys/journey.md)。

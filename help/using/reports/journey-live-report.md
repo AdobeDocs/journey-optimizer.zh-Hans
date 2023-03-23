@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="历程实时报告"
->abstract="历程实时报告仅允许您实时测量和可视化过去24小时内历程的影响和性能。 您的报告分为不同的小组件，用于详细描述历程的成功和错误。 可通过调整大小或删除小组件来修改每个报表功能板。"
+>abstract="使用历程实时报告，您可以实时衡量和可视化历程的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明历程中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
 历程实时报表可直接从您的历程中通过 **[!UICONTROL 查看报表]** 按钮。
 

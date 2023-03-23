@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 8%
+ht-degree: 22%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="对于通过指定发送日期的营销消息， **已计划** 类型是最合适的。 但是，如果要发送诸如密码重置或放弃购买之类的事务型消息，请 **API触发** 类型是最佳选择。"
+>abstract="对于要指定发送日期的营销信息，**计划**&#x200B;类型最合适。但是，如果您想发送密码重置或购物车放弃等事务性消息，最佳选择是 **API 触发**&#x200B;类型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
->title="促销活动类别"
->abstract="类别值直接与促销活动类型值关联。 为 **营销** 类别和API触发的类别类型 **事务型**"
+>title="营销活动类别"
+>abstract="类别值直接关联到营销活动类型值。计划营销活动类型适用于&#x200B;**营销**&#x200B;类别，API 触发类型适用于&#x200B;**事务**&#x200B;类别"
 
 1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行营销活动。 可用的营销活动类型有两种：
 
@@ -144,16 +144,16 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="营销活动开始"
->abstract="指定消息的发送日期和时间。"
+>abstract="指定应发送消息的日期和时间。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
 >title="营销活动结束"
->abstract="指定周期性营销活动应何时停止执行。"
+>abstract="指定应停止执行周期性营销活动的时间。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Campaign操作触发器"
+>title="营销活动操作触发器"
 >abstract="定义营销活动消息的发送频率。"
 
 默认情况下，营销活动在手动激活后即开始，并在消息发送一次后结束。

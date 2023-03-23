@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="推送消息创建"
->abstract="添加推送消息，然后使用表达式编辑器对其进行个性化设置。"
+>abstract="添加您的推送消息，并使用表达式编辑器开始对其进行个性化设置。"
 
 ## 在历程或营销策划中创建推送通知 {#create}
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 1. 在历程配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置推送内容。 [设计推送通知](design-push.md)
 
-1. 定义消息内容后，即可使用测试用户档案进行预览和测试。
+1. 定义消息内容后，即可使用测试配置文件对其进行预览和测试。
 
 1. 在推送准备就绪后，完成 [历程](../building-journeys/journey-gs.md) 来发送。
 
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 1. 在营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置推送内容。 [设计推送通知](design-push.md)
 
-1. 定义消息内容后，即可使用测试用户档案进行预览和测试。
+1. 定义消息内容后，即可使用测试配置文件对其进行预览和测试。
 
 1. 在推送准备就绪后，完成 [营销活动](../campaigns/create-campaign.md) 来发送。
 
@@ -94,12 +94,12 @@ ht-degree: 4%
 * [配置推送渠道](push-gs.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 
-## 快速投放模式 {#rapid-delivery}
+## 快速传递模式 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="快速投放模式"
->abstract="快速投放模式允许您在推送渠道上执行向受众大小在30M以下的高速消息发送。"
+>title="快速传递模式"
+>abstract="快速传递模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
 
 快速交付模式（以前称为历程中的突发模式）是 [!DNL Journey Optimizer] 附加组件，允许通过营销活动以大量量发送非常快速的推送消息。
 

@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建电子邮件的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建登陆页面的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用它们创建片段的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
 >title="关于内容组件"
->abstract="内容组件是空内容占位符，您可以使用这些占位符创建模板的布局。"
+>abstract="内容组件是空的内容占位符，您可用它来创建模板的版面。"
 
 创建电子邮件内容时， **[!UICONTROL 内容组件]** 允许您使用原始组件进一步个性化电子邮件，一旦将原始组件放入电子邮件中，即可对其进行编辑。
 
