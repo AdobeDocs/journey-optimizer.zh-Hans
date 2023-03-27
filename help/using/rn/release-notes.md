@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1397'
 ht-degree: 77%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 77%
 
 以下信息可能会在发行日期之前发生更改，恕不另行通知。 更新的文档将在发行日期发布，并在此页面中添加直接链接。
 
-**发布日期**:3月29日
+**发布日期**:2023年3月29日
 
 ### 新功能{#mar-2023-features}
 
@@ -42,7 +42,7 @@ ht-degree: 77%
 <td>
 <p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ ht-degree: 77%
 <tr>
 <td>
 <p>作为使用 Journey Optimizer 的专业人员，您现在可以使用标记组织业务对象。标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。此功能目前为 Beta 版，仅适用于历程。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/tags.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
