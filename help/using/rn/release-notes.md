@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 416da542b6e0ea8c66cdcebcc0219db63a9608fb
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 81%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 81%
 
 以下信息可能会在发行日期之前发生更改，恕不另行通知。 更新的文档将在发行日期发布，并在此页面中添加直接链接。
 
-**发布日期**:2023年3月29日
 
 ### 新功能{#mar-2023-features}
 
