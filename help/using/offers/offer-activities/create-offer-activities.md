@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
       了解如何在 [此部分](../offer-library/creating-decision-rules.md).
 
-1. 选择区段或决策规则时，可以查看有关估计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 更新数据。
+1. 当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 更新数据。
 
    >[!NOTE]
    >
@@ -189,7 +189,7 @@ ht-degree: 1%
 
    >[!CAUTION]
    >
-   >该决策及其内容将无法再访问。 此操作无法撤消。
+   >该决策及其内容将无法再访问。 此操作无法撤销。
    >
    >如果决策在其他对象中使用，则无法删除该决策。
 
