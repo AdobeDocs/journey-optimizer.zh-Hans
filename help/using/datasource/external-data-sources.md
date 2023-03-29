@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1462'
 ht-degree: 71%
 
 ---
@@ -82,6 +82,11 @@ ht-degree: 71%
 * **[!UICONTROL 方法]**:选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
 * **[!UICONTROL 动态值]**:在我们的示例中，输入以逗号分隔的不同参数“long，lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 响应有效负载]**:在 **[!UICONTROL 负载]** 字段并粘贴由调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，您可以单击 **[!UICONTROL 粘贴新有效负载]** 如果要更改当前传递的有效负载。
+
+   >[!NOTE]
+   >
+   >响应有效负载定义中不支持标量数组。
+
 * **[!UICONTROL 发送的负载]**:在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
 如果GET调用需要参数，请在 **[!UICONTROL 动态值]** 字段中，且这些字段会在调用结束时自动添加。 如果是 POST 调用，您需要：

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 77%
+source-wordcount: '1320'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年3月早期发行说明 {#mar-2023}
+## 2023年3月发行说明 {#mar-2023}
 
 以下信息可能会在发行日期之前发生更改，恕不另行通知。 更新的文档将在发行日期发布，并在此页面中添加直接链接。
 
@@ -30,22 +30,23 @@ ht-degree: 77%
 
 ### 新功能{#mar-2023-features}
 
-
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>应用程序内渠道（正式发布）</strong><br/></th>
+<th><strong>In-app channel (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
+<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -57,7 +58,8 @@ ht-degree: 77%
 <tr>
 <td>
 <p>通过短信点击跟踪，您可以监控缩短的URL的性能，识别点击者，并使用此数据通过后续促销活动重新定位这些客户。</p>
-<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/sms-tracking.gif"/>
+<p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ ht-degree: 77%
 <tr>
 <td>
 <p>作为使用 Journey Optimizer 的专业人员，您现在可以使用标记组织业务对象。标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。此功能目前为 Beta 版，仅适用于历程。</p>
-<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../building-journeys/tags.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -85,10 +87,11 @@ ht-degree: 77%
 
 **历程**
 
-* 新 **限制API** 允许您设置每秒发送事件数的限制，以防止外部系统或API上的流量激增。 达到设置限制后，所有后续API调用将按收到的顺序尽快排入队列并进行处理。 请注意，此功能仅支持所有沙箱中的一个限制配置。
-* 历程画布已得到增强，可提供更简单、更好的用户体验。 在画布中每个路径的末尾，已删除空占位符。 现在，您只需在路径末尾拖动活动即可添加活动。 <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
-* 历程属性中的默认超时和错误持续时间已从5秒更改为30秒。 读取区段活动中的默认限制速率已从每秒20,000条消息更改为每秒5,000条消息。
-* 测试模式中添加了护栏，以仅监听通过界面发送的事件。 不会考虑通过外部工具发送的事件。
+* 新 **限制API** 允许您设置每秒发送事件数的限制，以防止外部系统或API上的流量激增。 达到设置限制后，所有后续API调用将按收到的顺序尽快排入队列并进行处理。 请注意，此功能仅支持所有沙箱中的一个限制配置。 [了解详情](../configuration/external-systems.md)
+* 历程画布已得到增强，可提供更简单、更好的用户体验。 在画布中每个路径的末尾，已删除空位置保持器。 现在，您只需在路径末尾拖动活动即可添加活动。
+* 在历程画布中， **结束** 标记不再使用之前活动的名称自动设置。 用户可以根据需要手动添加自定义标签。
+* 历程属性中的默认超时和错误持续时间已从5秒更改为30秒。 [了解详情](../configuration/external-systems.md#timeout)
+* 读取区段活动中的默认限制速率已从每秒20,000条消息更改为每秒5,000条消息。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -105,15 +108,23 @@ ht-degree: 77%
 
    请注意，尽管术语“标记”不再用于“决策管理”用户界面中，但仍然在后端服务中使用，例如 API 和数据集。
 
-* 您现在可以每日、每周或每月重置优惠上限计数器。<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* 您现在可以每日、每周或每月重置优惠上限计数器。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* 您还可以选择应查看哪个 Adobe Experience Platform 事件来设置 Offer Decisioning 上限。<!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* 您还可以选择应查看哪个 Adobe Experience Platform 事件来设置 Offer Decisioning 上限。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。 <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-**个性化**
+<!--**Personalization**
 
-* 现在，您可以在表达式编辑器中包含基于字符串的配置文件属性的默认回退文本。 如果选定的属性未返回任何结果，则将显示这些值。 <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
+* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+
+<!--
+**Reporting**
+
+* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
+-->
 
 ## 2023 年 2 月发行说明 {#feb-2023}
 
@@ -130,6 +141,7 @@ ht-degree: 77%
 <td>
 <p>现在，您可以在营销活动中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
 <p><strong>注意</strong> - 此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
+<img src="assets/do-not-localize/in-app.gif"/>
 <p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -185,6 +197,25 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
+
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 -->
 
 ### 改进 {#feb-2023-improvements}
@@ -218,6 +249,10 @@ Note that each widget can be resized and deleted as needed.
 * **电子邮件平面** - 在电子邮件平面设置的 **URL 跟踪参数**&#x200B;部分，每个&#x200B;**值**&#x200B;字段的限制已从 255 个字符更新为 5 KB，以便与 Adobe Analytics 跟踪兼容。[了解详情](../email/email-settings.md#url-tracking)
 
 **决策管理**
+
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 

@@ -1,0 +1,145 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 配置短信子域
+description: 了解如何使用Journey Optimizer配置短信子域
+role: Admin
+level: Intermediate
+keywords: 短信、子域、配置
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '741'
+ht-degree: 4%
+
+---
+
+# 配置短信子域 {#lp-subdomains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_sms_header"
+>title="委派短信子域"
+>abstract="您将设置子域以用于短信。 您可以使用已委派给 Adobe 的子域或配置其他子域。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_sms"
+>title="委派短信子域"
+>abstract="您必须配置子域以用于短信消息，因为您需要此子域才能创建短信界面。 您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来 Adobe 或配置新的子域。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="创建短信曲面"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_sms_subdomain"
+>title="选择短信子域"
+>abstract="要创建短信界面，请确保您之前至少配置了一个短信子域，以便从子域名列表中进行选择。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="创建短信曲面"
+
+要缩短添加到短信消息的URL，您必须设置在 [创建短信界面](sms-configuration.md#message-preset-sms).
+
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到的更多信息，请Adobe [此部分](../configuration/delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>SMS子域配置对所有环境都是通用的。 因此：
+>
+>* 要访问和编辑短信子域，您必须具有 **[!UICONTROL 管理短信子域]** 对生产沙盒的权限。
+>
+> * 对短信子域的任何修改也会影响生产沙箱。
+
+
+## 使用现有子域 {#sms-use-existing-subdomain}
+
+要使用已委派给Adobe的子域，请执行以下步骤。
+
+1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 短信配置]** > **[!UICONTROL 短信子域]**.
+
+   ![](assets/sms_access-subdomains.png)
+
+1. 单击 **[!UICONTROL 设置子域]**.
+
+   ![](assets/sms_set-up-subdomain.png)
+
+1. 选择 **[!UICONTROL 使用委派的子域]** 从 **[!UICONTROL 配置类型]** 中。
+
+   ![](assets/sms_use-delegated-subdomain.png)
+
+1. 输入将在短信URL中显示的前缀。
+
+   >[!NOTE]
+   >
+   >只允许使用字母数字字符和连字符。
+
+1. 从列表中选择委派的子域。
+
+   >[!NOTE]
+   >
+   >您无法选择已用作短信子域的子域。
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
+   ![](assets/sms_prefix-and-subdomain.png)
+
+   <!--Note that you cannot use multiple delegated subdomains of the same parent domain. For example, if 'marketing1.yourcompany.com' is already delegated to Adobe for your SMS messages, you will not be able to use 'marketing2.yourcompany.com'. However, multi-level subdomains being supported for SMS, you may proceed using a subdomain of 'marketing1.yourcompany.com' (such as 'email.marketing1.yourcompany.com'), or a different parent domain.-->
+
+   >[!CAUTION]
+   >
+   >如果您选择的域是使用 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，则必须在托管平台上创建DNS记录。 要生成DNS记录，该过程与配置新SMS子域时的过程相同。 了解 [此部分](#sms-configure-new-subdomain).
+
+1. 单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 提交后，子域将显示在列表中，其中 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+
+   >[!NOTE]
+   >
+   >在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查，该检查最长可能需要4小时。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+
+1. 检查成功后，子域将获取 **[!UICONTROL 成功]** 状态。 它可用于创建短信渠道表面。
+
+## 配置新子域 {#sms-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_subdomain_dns"
+>title="生成匹配的 DNS 记录"
+>abstract="要配置新的SMS子域，您需要复制Journey Optimizer界面中显示的Adobe名称服务器信息，并将其粘贴到您的域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域即可用于创建短信曲面。"
+
+要配置新子域，请执行以下步骤。
+
+1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 短信配置]** > **[!UICONTROL 短信子域]**.
+
+1. 单击 **[!UICONTROL 设置子域]**.
+
+1. 选择 **[!UICONTROL 添加您自己的域]** 从 **[!UICONTROL 配置类型]** 中。
+
+   ![](assets/sms_add-your-own-subdomain.png)
+
+1. 指定要委派的子域。
+
+   >[!CAUTION]
+   >
+   >不能使用现有的短信子域。
+   >
+   >子域中不允许使用大写字母。
+
+   不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
+
+   >[!NOTE]
+   >
+   >支持多级子域（属于同一父域）。 例如，您可以使用“sms.marketing.yourcompany.com”。
+
+1. 将显示要置入DNS服务器的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
+
+1. 确保已在您的域托管解决方案中生成DNS记录。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL 提交]**.
+
+   ![](assets/sms_add-your-own-subdomain-confirm.png)
+
+   >[!NOTE]
+   >
+   >当您配置新的短信子域时，它将始终指向CNAME记录。
+
+1. 提交子域委派后，子域将显示在列表中，其中 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+
+   >[!NOTE]
+   >
+   >在能够使用该子域发送短信消息之前，您必须等到Adobe执行所需的检查后再执行，该检查最长可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
+
+1. 检查成功后，子域将获取 **[!UICONTROL 成功]** 状态。 它可用于创建短信渠道表面。
+
+   请注意，子域将标记为 **[!UICONTROL 失败]** 如果您未能在托管解决方案上创建验证记录。

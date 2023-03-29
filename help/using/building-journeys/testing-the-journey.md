@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，疑难解答
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1522'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 11%
 
 ## 重要说明 {#important_notes}
 
-* 提供了一个界面来触发事件到测试历程，但事件也可由第三方系统(如Postman)发送。
+* 在测试模式下，您可以使用界面触发事件。
 * 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试历程。 请参阅 [部分](../segment/creating-test-profiles.md).
 * 测试模式仅在使用命名空间的草稿历程中可用。 测试模式需要检查进入历程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间，可以进入历程的测试用户档案最大数为100。
@@ -103,8 +103,6 @@ ht-degree: 11%
 当您在事件配置屏幕中选择其他测试用户档案并再次运行测试时，会清除可视化流程并显示新用户的路径。
 
 在测试中打开历程时，显示的路径对应于上次执行的测试。
-
-无论事件是通过界面触发还是通过外部触发(例如使用Postman)，可视化流程都可正常工作。
 
 ## 基于规则的历程的测试模式 {#test-rule-based}
 

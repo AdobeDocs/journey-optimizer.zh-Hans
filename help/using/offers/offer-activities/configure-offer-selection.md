@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 6%
 
 了解如何在中创建排名公式 [此部分](../ranking/create-ranking-formulas.md).
 
-创建排名公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
+创建公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
 
 1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
@@ -46,17 +46,17 @@ ht-degree: 6%
 
 1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
-1. 选择 **[!UICONTROL 排名公式]** 作为排名方法，然后单击 **[!UICONTROL 添加排名]**.
+1. 选择 **[!UICONTROL 公式]** 作为排名方法，然后单击 **[!UICONTROL 添加排名]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 选择所需的排名公式，然后单击 **[!UICONTROL 选择]**.
+1. 选择所需的公式，然后单击 **[!UICONTROL 选择]**.
 
    ![](../assets/ranking-selection.png)
 
 排名公式现在与版面相关联。
 
-如果多个选件符合在此版面中显示的条件，则决策将使用排名公式的公式来计算要先交付的选件。
+如果多个选件符合在此版面中显示的条件，则决策将使用所选公式计算要先交付的选件。
 
 ## 人工智能排名 {#use-ranking-strategy}
 

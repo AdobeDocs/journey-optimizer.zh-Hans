@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: 登陆，登陆页面，子域，配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '807'
 ht-degree: 24%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 24%
 >[!CAUTION]
 >
 >登陆页面子域配置对所有环境都是通用的。 因此，对登陆页面子域的任何修改也会影响生产沙箱。
-
-请注意，子域中不应允许使用大写字母
 
 ## 使用现有子域 {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查，该检查最长可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
+   >在能够将该子域用于登陆页面之前，您必须等到Adobe执行所需的检查，该检查可能最多需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 检查成功后，子域将获取 **[!UICONTROL 成功]** 状态。 它已准备好用于创建登陆页面预设。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1926'
 ht-degree: 4%
 
 ---
@@ -282,6 +282,9 @@ ht-degree: 4%
 * **[!UICONTROL 错误]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
 的 **[!UICONTROL 排除原因]**, **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 图形和表格允许您查看在投放期间发生的错误和排除项。
+
+的 **[!UICONTROL 短信 — 按链接的点击量]** 和 **[!UICONTROL 短信 — 跟踪统计信息]** 小组件详细介绍与访客对URL的参与度相关的主要信息。
+
 +++
 
 ## 其他资源

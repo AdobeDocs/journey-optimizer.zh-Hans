@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '926'
 ht-degree: 8%
 
 ---
@@ -135,7 +135,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++了解有关可用于短信报表的不同量度和小组件的更多信息。
 
-的 **[!UICONTROL 短信 — 发送统计信息]** 表格详细说明了交付的成功：
+的 **[!UICONTROL 短信 — 统计信息]** 表格详细说明了交付的成功：
 
 * **[!UICONTROL 目标]**:符合此投放目标用户档案的用户配置文件数。
 
@@ -148,6 +148,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 跳出次数]**:在投放和自动回访处理过程中累积的错误总数。
 
 * **[!UICONTROL 错误]**:投放期间发生的阻止将其发送到用户档案的错误总数。
+
+* **[!UICONTROL 点击次数]**:URL访问总数。
 
 的 **[!UICONTROL 按日期划分的短信性能]** 小组件通过图形详细描述与您的消息相关的主要信息：
 

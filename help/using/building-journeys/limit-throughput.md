@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,13 @@ Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源
 
 * **自定义操作**:将信息发送到外部系统，例如，使用Journey Optimizer的编排功能以及用户档案信息、受众数据和journey context通过外部解决方案发送电子邮件。
 
-如果您使用外部数据源或自定义操作，则可能需要通过限制历程吞吐量来保护外部系统：单一历程最多为5000个实例/秒，区段触发的历程最多为20000个实例/秒。 您可以在端点级别定义上限限制，以避免通过Journey Optimizer的上限API压倒那些外部系统。 但是，达到限制后的所有其余请求都将被丢弃。
+如果您使用外部数据源或自定义操作，则可能需要通过限制历程吞吐量来保护外部系统：单一历程最多为5000个实例/秒，区段触发的历程最多为20000个实例/秒。
 
-在此部分中，您将找到可用于优化吞吐量的解决方法。 有关如何与外部系统集成的更多信息，请参阅此 [页面](../configuration/external-systems.md).
+对于自定义操作，在产品级别提供限制功能。 请参阅 [页面](../configuration/external-systems.md#capping).
+
+对于外部数据源，您可以在端点级别定义上限限制，以避免通过Journey Optimizer的上限API压倒那些外部系统。 但是，达到限制后的所有其余请求都将被丢弃。 在此部分中，您将找到可用于优化吞吐量的解决方法。
+
+有关如何与外部系统集成的更多信息，请参阅此 [页面](../configuration/external-systems.md).
 
 ## 实施
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，区段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 13%
@@ -69,7 +69,7 @@ ht-degree: 13%
 
 1. 设置 **[!UICONTROL 节流速率]** 字段，以限制读取区段活动的吞吐量。
 
-   此值存储在历程版本有效负载中。 默认值为每秒20,000条消息。 您可以将此值从每秒500条修改为20,000条消息。
+   此值存储在历程版本有效负载中。 默认值为每秒5,000条消息。 您可以将此值从每秒500条修改为20,000条消息。
 
    >[!NOTE]
    >

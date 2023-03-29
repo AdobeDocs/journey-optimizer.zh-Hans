@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 99%
+source-wordcount: '1355'
+ht-degree: 98%
 
 ---
 
@@ -221,6 +221,7 @@ ht-degree: 99%
    + [预览和测试短信](using/sms/send-sms.md)
    + [管理短信选择禁用](using/sms/sms-opt-out.md)
    + [配置短信渠道](using/sms/sms-configuration.md)
+   + [设置短信子域](using/sms/sms-subdomains.md)
 + 直邮 {#direct-mail}
    + [创建直邮](using/direct-mail/create-direct-mail.md)
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
@@ -439,7 +440,10 @@ ht-degree: 99%
    + [管理执行地址](using/configuration/primary-email-addresses.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
-      + [与外部系统集成](using/configuration/external-systems.md)
+      + 与外部系统集成 {#external-systems}
+         + [历程与外部系统集成](using/configuration/external-systems.md)
+         + [API上限](using/configuration/capping.md)
+         + [限制API](using/configuration/throttling.md)
       + 事件配置{#events-journeys}
          + [一般原则](using/event/about-events.md)
          + 配置统一事件{#unitary-events}

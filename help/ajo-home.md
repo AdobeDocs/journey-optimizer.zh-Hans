@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 2ef5c87561df71b1c55a71c237477d34750f8ac7
-workflow-type: ht
-source-wordcount: '324'
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
@@ -146,6 +146,9 @@ ht-degree: 100%
     </li>
     <p>
     <p>连接</p>
+      <li>
+      <a href="using/data/get-started-datasets.md">目标</a>
+    </li>
     <li>
       <a href="using/start/get-started-sources.md">源</a>
     </li>
@@ -184,7 +187,7 @@ ht-degree: 100%
       <a href="using/configuration/get-started-configuration.md">渠道</a>
     </li>
      <li>
-      <a href="using/administration/sandboxes.md">沙箱</a>
+      <a href="using/administration/sandboxes.md">沙盒</a>
     </li>
   </td>
 </tr>

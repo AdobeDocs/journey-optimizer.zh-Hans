@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 9%
@@ -61,6 +61,15 @@ Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡
 
    ![](assets/content_experiment_1.png)
 
+<!--
+1. In the **[!UICONTROL Properties]** section, choose your **[!UICONTROL Campaign type]**:
+
+    * **[!UICONTROL Scheduled]**: designed to send marketing messages and can be executed immediately or at a specified date.
+
+    * **[!UICONTROL API-Triggered]**: designed to send transactional messages, such as password reset notifications or cart abandonment reminders. 
+    
+        To execute an API-triggered campaign, you will need to make an API call. [Learn more](api-triggered-campaigns.md)
+-->
 1. 选择您的渠道，然后选择 **[!UICONTROL 曲面]** 要用于此投放，请单击 **[!UICONTROL 创建]**. 有关更多信息，请参阅 [通道曲面](../configuration/channel-surfaces.md) 页面。
 
    ![](assets/content_experiment_2.png)

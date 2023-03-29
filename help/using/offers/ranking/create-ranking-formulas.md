@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '483'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 要创建排名公式，请执行以下步骤：
 
-1. 访问 **[!UICONTROL 组件]** 菜单，然后选择 **[!UICONTROL 排名]** 选项卡。 将显示先前创建的排名列表。
+1. 访问 **[!UICONTROL 组件]** 菜单，然后选择 **[!UICONTROL 排名]** 选项卡。 的 **[!UICONTROL 公式]** 选项卡。 随即会显示之前创建的公式的列表。
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![](../assets/ranking-create-formula.png)
 
-1. 指定排名公式名称、说明和公式。
+1. 指定公式名称、说明和公式。
 
    在本例中，如果实际天气炎热，我们希望使用“hot”属性提高所有选件的优先级。 为此， **contextData.weather=hot** 在决策呼叫中被传递。
 

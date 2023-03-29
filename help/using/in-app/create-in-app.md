@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 应用程序内，消息，创建，开始
 badge: label="Beta" type="Informitive"
+keywords: 应用程序内，消息，创建，开始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 5%
+source-wordcount: '624'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 1. 从 **[!UICONTROL 属性]** ，编辑营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
 
-1. 要为登陆页面分配自定义或核心数据使用标签，请选择 **[!UICONTROL 管理访问权限]**. [了解详情](../administration/object-based-access.md)。
+1. 要为应用程序内消息分配自定义或核心数据使用标签，请选择 **[!UICONTROL 管理访问权限]**. [了解详情](../administration/object-based-access.md)。
 
 1. 单击 **[!UICONTROL 选择受众]** 按钮，以从可用的Adobe Experience Platform区段列表中定义要定位的受众。 [了解详情](../segment/about-segments.md)。
 
@@ -45,27 +45,22 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
+1. 单击 **[!UICONTROL 编辑触发器]** 选择将触发消息的事件和标准：
+
+   1. 单击 **[!UICONTROL 添加] 条件** 您希望触发器考虑多个事件或条件时，请执行以下操作。
+   1. 选择事件的链接方式，例如选择 **[!UICONTROL 和]** 如果您愿意 **both** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望在 **e** 触发器是真的。
+   1. 单击 **[!UICONTROL 创建组]** 将触发器分组在一起。
+
+   ![](assets/in_app_create_3.png)
+
 1. 选择应用程序内消息处于活动状态时触发的频率：
 
-   * **[!UICONTROL 每次显示]**:在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表。
-   * **[!UICONTROL 显示一次]**:仅当在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表。
-   * **[!UICONTROL 点进前显示]**:在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表，直到SDK通过“已单击”操作发送interact事件。
+   * **[!UICONTROL 每次]**:在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表。
+   * **[!UICONTROL 一次]**:仅当在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表。
+   * **[!UICONTROL 点进之前]**:在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表，直到SDK通过“已单击”操作发送interact事件。
+   * **[!UICONTROL X次数]**:显示此消息X时间。
 
-1. 从 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表中，选择将触发消息的事件和标准：
-
-   1. 从左下拉菜单中，选择触发消息所需的事件。
-   1. 从右下拉菜单中，选择选定事件所需的验证。
-   1. 单击 **[!UICONTROL 添加]** 按钮。 然后，重复上述步骤。
-   1. 选择事件的链接方式，例如选择 **[!UICONTROL 和]** 如果您愿意 **both** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望在 **e** 触发器是真的。
-
-   ![](assets/in_app_create_3.png)
-
-1. 从 **[!UICONTROL 移动设备应用程序触发器]**
-下拉菜单。
-
-   通过选择触发器，您可以选择显示应用程序内消息的用户操作。
-
-   ![](assets/in_app_create_3.png)
+1. 如果需要，请选择 **[!UICONTROL 每周时间]** 或 **[!UICONTROL 时间]** 将显示应用程序内消息。
 
 1. 营销活动设计为在特定日期或定期频率执行。 了解如何配置 **[!UICONTROL 计划]** 在 [此部分](../campaigns/create-campaign.md#schedule).
 
@@ -111,7 +106,7 @@ ht-degree: 5%
 
 您的营销活动现已激活。 营销活动中配置的应用程序内通知将立即发送，或在指定的日期发送。
 
-发送后，您可以在营销活动报表中衡量应用程序内消息的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#inapp-report)。
+发送后，您可以在营销活动或历程报表中衡量应用程序内消息的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#inapp-report)。
 
 **相关主题：**
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 4%
+source-wordcount: '1052'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,9 @@ ht-degree: 4%
 
 ## 自定义功能板 {#modify-dashboard}
 
-可通过调整大小或删除小组件来修改每个报表功能板。 更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
+每个报告仪表板都可以修改，您可以调整构件大小或删除构件。更改小组件仅会影响当前用户的功能板。 其他用户将看到他们自己的功能板或默认设置的功能板。
+
+1. 从 **[!UICONTROL 操作]** 下拉列表，选择是否要报告历程的一个特定操作。
 
 1. 选择是否要使用切换栏从报表中排除测试事件。 有关测试事件的更多信息，请参阅 [本页](../building-journeys/testing-the-journey.md).
 
@@ -57,6 +59,10 @@ ht-degree: 4%
    ![](assets/report_modify_9.png)
 
 1. 当您对小组件的显示顺序和大小感到满意后，单击 **[!UICONTROL 保存]**.
+
+1. 要自定义数据的显示方式，您可以从不同的可视化选项（如图形、表格和圆环图）切换。
+
+   ![](assets/report_modify_11.png)
 
 功能板现已保存。 您的不同更改将重新应用，以便日后使用您的实时报表。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认小组件和小组件顺序的选项。
 

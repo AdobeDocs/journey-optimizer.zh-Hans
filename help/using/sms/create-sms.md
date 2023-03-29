@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 15%
+source-wordcount: '560'
+ht-degree: 14%
 
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 15%
    ![](assets/sms_create_2.png)
 
    有关如何配置旅程的更多信息，请参阅 [本页](../building-journeys/journey-gs.md)
+
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 您现在可以从 **[!UICONTROL 编辑内容]** 按钮。 [定义短信内容](#sms-content)
 
@@ -75,7 +77,6 @@ ht-degree: 15%
 
 >[!ENDTABS]
 
-
 ## 定义短信内容{#sms-content}
 
 1. 在历程或营销活动配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮来配置短信内容。
@@ -86,11 +87,24 @@ ht-degree: 15%
 
 1. 使用表达式编辑器定义内容并添加动态内容。 您可以使用任何属性，如配置文件名称或城市。 详细了解 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
 
-1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。
+1. 定义内容后，您可以将跟踪URL添加到消息中。 为此，请访问 **[!UICONTROL 帮助程序函数]** 菜单和选择 **[!UICONTROL 帮助者]**.
+
+   请注意，要使用URL缩短功能，必须首先配置一个子域，然后该子域将链接到您的表面。 [了解详情](sms-subdomains.md)
+
+   ![](assets/sms_tracking_1.png)
+
+1. 在 **[!UICONTROL 帮助程序函数]** 菜单，单击 **[!UICONTROL URL函数]** 然后选择 **[!UICONTROL 添加URL]**.
+
+   ![](assets/sms_tracking_2.png)
+
+1. 在 `originalUrl` 字段中，粘贴要缩短的URL。
+
+1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
 
    ![](assets/sms-content-preview.png)
 
-您现在可以测试短信消息并将其发送给受众。 [了解详情](send-sms.md)
+您现在可以测试短信消息并将其发送给受众。 [了解更多](send-sms.md)
+发送后，您可以在营销活动或历程报表中衡量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
 
 >[!NOTE]
 >

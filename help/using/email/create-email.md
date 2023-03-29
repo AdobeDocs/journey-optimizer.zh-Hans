@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 9%
@@ -40,6 +40,8 @@ ht-degree: 9%
 1. 选择 [电子邮件界面](email-settings.md) 。
 
    ![](assets/email_journey.png)
+
+<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 >[!NOTE]
 >

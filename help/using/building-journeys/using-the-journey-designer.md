@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1642'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,12 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 的 **画布** 是历程设计器中的中心区域。 您可以在此区域中拖放并配置活动。 单击画布中的活动以对其进行配置。 此操作将打开右侧的活动配置窗格。
 
 ![](assets/journey39.png)
+
+的 **工具栏**，用于显示/隐藏网格、放大/缩小和下载画布的屏幕截图。 请参阅此[部分](../building-journeys/journey-gs.md#timeout_and_error)。
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 的 **活动配置窗格** 单击面板中的活动时显示。 填写必填字段。 单击 **[!UICONTROL 删除]** 图标以删除活动。 单击 **[!UICONTROL 取消]** 取消修改或 **[!UICONTROL 确定]** 确认。 要删除活动，您还可以选择一个活动（或多个活动）并按Backspace键。 按Esc键将关闭活动配置窗格。
 

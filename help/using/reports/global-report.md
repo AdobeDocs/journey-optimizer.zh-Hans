@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -64,6 +64,10 @@ ht-degree: 4%
    ![](assets/report_modify_5.png)
 
 1. 当您对小组件的显示顺序和大小感到满意后，单击 **[!UICONTROL 保存]**.
+
+1. 要自定义数据的显示方式，您可以从不同的可视化选项（如图形、表格和圆环图）切换。
+
+   ![](assets/report_modify_10.png)
 
 功能板现已保存。 您的不同更改将重新应用，以便日后使用您的实时报表。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认小组件和小组件顺序的选项。
 

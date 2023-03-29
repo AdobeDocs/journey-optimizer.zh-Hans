@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 100%
 * 无法在新版本中更改在&#x200B;**区段鉴别** （第一个节点）中选择的区段和命名空间。
 * 在所有历程版本中，重新进入规则必须相同。
 * 以&#x200B;**读取区段**&#x200B;开始的历程，在后续版本中无法以其他事件开头。
+* 您无法创建具有增量读取的读取区段历程的新版本。 您需要复制历程。
 
 ### 自定义操作 {#custom-actions-g}
 

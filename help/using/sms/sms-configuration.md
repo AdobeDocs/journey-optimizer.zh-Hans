@@ -6,9 +6,9 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '830'
 ht-degree: 18%
 
 ---
@@ -120,6 +120,12 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
    * 选择 **[!UICONTROL 短信执行字段]** 选择 **[!UICONTROL 配置文件属性]** 与用户档案的电话号码关联。
 
+
+1. 如果要在短信消息中使用URL缩短功能，请从 **[!UICONTROL 子域]** 列表。
+
+   >[!NOTE]
+   >
+   >要选择子域，请确保您之前至少配置了一个短信子域。 [了解如何操作](sms-subdomains.md)
 
 1. 配置所有参数后，单击 **[!UICONTROL 提交]** 确认。 您还可以将通道曲面另存为草稿，并稍后恢复其配置。
 

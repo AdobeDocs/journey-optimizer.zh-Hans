@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 应用程序内，消息，设计，格式
 badge: label="Beta" type="Informitive"
+keywords: 应用程序内，消息，设计，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 要配置消息内容，请单击 **[!UICONTROL 编辑内容]** 按钮，然后使用屏幕右侧部分的选项来设计应用程序内消息内容。
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 的 **[!UICONTROL 高级格式]** 切换可激活其他选项以自定义体验。
 

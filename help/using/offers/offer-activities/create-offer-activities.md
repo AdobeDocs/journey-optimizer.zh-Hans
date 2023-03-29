@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1402'
 ht-degree: 3%
 
 ---
@@ -98,19 +98,19 @@ ht-degree: 3%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 定义要用于为每个用户档案选择最佳选件的排名方法。
+1. 定义要用于为每个用户档案选择最佳选件的排名方法。 [了解详情](../offer-activities/configure-offer-selection.md)。
 
    ![](../assets/activity_ranking-method.png)
 
-   * 默认情况下，如果多个选件符合此版面的条件，则具有最高优先级分数的选件将会交付给客户。
+   * 默认情况下，如果多个选件符合此版面的条件，则 **[!UICONTROL 选件优先级]** 方法使用选件中定义的值：具有最高优先级分数的选件将交付给用户。
 
-   * 如果要使用特定公式选择要交付的合格选件，请选择 **[!UICONTROL 排名公式]**. 了解如何在 [此部分](../offer-activities/configure-offer-selection.md).
+   * 如果要使用特定的计算得分选择要交付的合格选件，请选择 **[!UICONTROL 公式]** 或 **[!UICONTROL 人工智能模型]**. [了解详情](../offer-activities/configure-offer-selection.md)。
 
 1. 单击 **[!UICONTROL 添加]** 为同一版面定义更多标准。
 
    ![](../assets/activity_add-collection.png)
 
-1. 添加多个标准时，将按特定顺序对其进行评估。 添加到序列的第一个集合将首先进行评估，依此类推。
+1. 添加多个标准时，将按特定顺序对其进行评估。 添加到序列的第一个集合将首先进行评估，依此类推。 [了解详情](#evaluation-criteria-order)
 
    要更改默认序列，您可以拖放收藏集以根据需要对它们重新排序。
 
@@ -120,13 +120,27 @@ ht-degree: 3%
 
    ![](../assets/activity_move-collection.png)
 
-   现在，它们具有相同的排名，因此将同时进行评估。
+   现在，它们具有相同的排名，因此将同时进行评估。 [了解详情](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. 要在此决策中为选件添加其他版面，请使用 **[!UICONTROL 新范围]** 按钮。 对每个决策范围重复上述步骤。
 
    ![](../assets/activity_new-scope.png)
+
+### 评估标准顺序 {#evaluation-criteria-order}
+
+如上所述，评估标准包括集合、资格约束和排名方法。 您可以为要评估的评估标准设置所需的顺序顺序，但也可以合并多个评估标准，以便将它们一起进行评估，而不是单独进行评估。
+
+例如，您有两个收藏集，一个位于评估标准A，一个位于评估标准B。请求发送两个选件回。 假设有两个来自评估标准A的合格选件和三个来自评估标准B的合格选件。
+
+* 如果两个评估标准是 **未合并** 和/或按顺序（1和2），将在第一行中返回评估标准中前两个符合条件的选件。 如果第一个评估标准没有两个符合条件的选件，决策引擎将依次移至下一个评估标准，以查找仍需要的选件数量，并最终在需要时返回回退。
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* 如果两个收藏集是 **同时评估**，由于评估标准A有两个符合条件的选件和评估标准B有三个符合条件的选件，因此五个选件将根据由各自的排名方法确定的值一起堆叠。 请求两个选件，因此将返回这五个选件中排名前两的符合条件的选件。
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## 添加后备优惠 {#add-fallback}
 

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: ht
-source-wordcount: '939'
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 100%
 
 * 数据治理仅适用于历程中的自定义操作。不支持 Campaign Classic 和 Campaign Standard 操作。
 * 仅在自定义操作级别设置营销操作（必需或附加）时，治理策略才适用。
-* 不支持使用现成联合架构的字段组所包含的属性。这些属性在界面中处于隐藏状态。您需要使用其他架构创建另一个字段组。
 
 ## 定义治理策略 {#governance-policies}
 
