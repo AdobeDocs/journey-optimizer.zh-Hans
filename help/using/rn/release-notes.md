@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
+source-git-commit: d0ce2c6f4f9ad46a74d3be7864dbfd23c941ee55
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 75%
+source-wordcount: '1389'
+ht-degree: 77%
 
 ---
 
@@ -45,25 +45,25 @@ ht-degree: 75%
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
 <tr>
-<th><strong>短信点击跟踪</strong><br/></th>
+<th><strong>SMS click tracking</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通过短信点击跟踪，您可以监控缩短的URL的性能，识别点击者，并使用此数据通过后续促销活动重新定位这些客户。</p>
+<p>With SMS click tracking, you can monitor the performance of your shortened URLs, identify who clicked on them, and use this data to retarget those customers with subsequent campaigns.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
+<p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
