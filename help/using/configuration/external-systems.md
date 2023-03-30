@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1197'
 ht-degree: 3%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 3%
 
 * [API上限](capping.md)
 * [限制API](throttling.md)
+
+有关API的详细描述，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### 数据源和自定义操作容量 {#capacity}
 
