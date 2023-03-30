@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 79%
+source-wordcount: '1429'
+ht-degree: 75%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 79%
 
 * 您还可以选择应查看哪个 Adobe Experience Platform 事件来设置 Offer Decisioning 上限。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
-<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+* 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。 [了解详情](../offers/offer-library/creating-placements.md)
 
 **个性化**
 
@@ -249,9 +249,7 @@ Note that each widget can be resized and deleted as needed.
 
 **决策管理**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **版面**  — 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。 [了解详情](../offers/offer-library/creating-placements.md)
 
 * **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 

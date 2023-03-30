@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,24 @@ ht-degree: 25%
    * **[!UICONTROL 描述]**:版面的描述（可选）。
 
    ![](../assets/offers_placement_creation_properties.png)
+
+
+1. 的 **[!UICONTROL 请求设置]** 和 **[!UICONTROL 响应格式]** 部分提供了其他参数：
+
+   * **[!UICONTROL 允许跨版面重复项]**:控制是否可以在不同版面中多次建议同一选件。 如果启用，系统将考虑同一选件用于多个版面。 默认情况下，参数设置为false。
+
+      如果对于决策请求中的任何版面，将此选项设置为false，则请求中的所有版面都将继承“false”设置。
+
+   * **[!UICONTROL 请求选件]**:默认情况下，每个用户档案会返回一个决策范围选件。 您可以使用此选项调整返回的选件数。 例如，如果您选择2，则将显示选定决策范围的2个最佳选件。
+
+   * **[!UICONTROL 包含内容]** / **[!UICONTROL 包含元数据]**:指定是否应在API响应中返回选件的内容和元数据。 您只能包含所有元数据或特定字段。 默认情况下，Include元数据值设置为true。
+   如果您使用 [决策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). 但是，在用户界面中配置这些参数可以帮助您节省时间，因为您无需在每个API请求中传递它们。 请注意，如果您在用户界面和API请求中都配置了参数，则API请求中的值将优先于界面中的值。
+
+   >[!NOTE]
+   >
+   >如果您使用 [Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，则无法在请求中设置这些参数。 您需要在此屏幕中定义它们。
+   >
+   >如果您使用 [批量决策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，您可以在此屏幕或API请求中设置这些参数。 如果屏幕和APi请求之间的参数值不匹配，则将使用请求值。
 
 1. 单击 **[!UICONTROL 保存]** 确认。
 
