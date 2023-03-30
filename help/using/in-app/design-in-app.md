@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informitive"
 keywords: 应用程序内，消息，设计，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 5%
 
 ---
 
 # 设计应用程序内内容 {#design-content}
-
->[!AVAILABILITY]
->
->应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 您可以编辑应用程序内内容以配置体验选项，包括消息布局和显示、文本和按钮选项。
 

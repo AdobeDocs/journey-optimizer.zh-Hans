@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informitive"
 keywords: 应用程序内，消息，创建，开始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 16%
+source-wordcount: '171'
+ht-degree: 13%
 
 ---
 
 # 应用程序内渠道入门 {#gs-in-app}
-
->[!AVAILABILITY]
->
->应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 应用程序内消息是可发送给应用程序内用户的通知，可将其引导至特定的目标点。 这些通知可用于不同的用途，例如推广新功能、提供特殊优惠或促进用户入门。 利用应用程序内消息，您可以有效地与受众互动，并引导受众注意应用程序的重要方面。
 

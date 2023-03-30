@@ -3,21 +3,16 @@ title: 应用程序内配置
 description: 了解如何配置环境以使用Journey Optimizer发送应用程序内消息
 role: Admin
 level: Intermediate
-badge: label="Beta" type="Informitive"
 keywords: 应用程序内，消息，配置，平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 13%
+source-wordcount: '281'
+ht-degree: 11%
 
 ---
 
 # 配置应用程序内渠道 {#inapp-configuration}
-
->[!AVAILABILITY]
->
->应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 在发送应用程序内消息之前，您需要在 [!DNL Adobe Experience Platform Data Collection].
 

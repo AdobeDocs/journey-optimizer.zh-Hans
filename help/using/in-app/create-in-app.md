@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informitive"
 keywords: 应用程序内，消息，创建，开始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 6%
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
 # 创建应用程序内消息 {#create-in-app}
-
->[!AVAILABILITY]
->
->应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 ## 创建营销活动和应用程序内消息{#create-in-app-in-a-campaign}
 
