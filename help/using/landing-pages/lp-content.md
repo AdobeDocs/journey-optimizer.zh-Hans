@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,19 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. 添加所有所需的复选框后，单击 **[!UICONTROL 行动动员]** 以展开相应的部分。 它允许您在 **[!UICONTROL 表单]** 组件。
+1. 您还可以添加 **[!UICONTROL 文本字段]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * 输入 **[!UICONTROL 标签]** 字段顶部显示的URL。
+
+   * 输入 **[!UICONTROL 占位符]** 文本。 用户填写字段之前，该字段将显示在字段内。
+
+   * 检查 **[!UICONTROL 将表单字段设为必填字段]** 选项。 在这种情况下，仅当用户填写了此字段时，才能提交登陆页面。 如果未填写必填字段，则用户提交页面时将显示错误消息。
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. 添加所有所需的复选框和/或文本字段后，单击 **[!UICONTROL 行动动员]** 以展开相应的部分。 它允许您在 **[!UICONTROL 表单]** 组件。
 
    ![](assets/lp_designer-form-call-to-action.png)
 
