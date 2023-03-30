@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 15%
+source-wordcount: '421'
+ht-degree: 12%
 
 ---
 
-# 关于表达式编辑器 {#build-personalization-expressions}
+# 表达式编辑器入门 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
@@ -29,11 +29,9 @@ ht-degree: 15%
 
 ![](assets/perso_ee1.png)
 
-屏幕的左侧部分显示一个域选择器，用于选择个性化的源。
+## 可用的个性化源 {#sources}
 
-![](assets/perso_ee3.png)
-
-可用源包括：
+屏幕的左侧部分显示一个域选择器，用于选择个性化的源。 可用源包括：
 
 * **[!UICONTROL 配置文件属性]** :列出与 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
 * **[!UICONTROL 区段成员资格]** :列出在Adobe Experience Platform分段服务中创建的所有区段。 有关可用分段的更多信息 [此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
@@ -41,11 +39,13 @@ ht-degree: 15%
 * **[!UICONTROL 上下文属性]** :在历程中使用渠道操作活动（电子邮件、推送、短信）时，可通过此菜单访问上下文历程字段。 有关详细信息，请参阅[此部分](personalization-use-case.md)。
 * **[!UICONTROL 帮助程序函数]** :列出可用于对数据执行操作的所有帮助程序函数，例如计算、数据格式或转化、条件，并在个性化环境中处理这些函数。 有关详细信息，请参阅[此部分](functions/functions.md)。
 
-单击+按钮以向编辑器中添加属性。
+## 添加个性化属性 {#add}
 
->[!NOTE]
->
->通过“+”图标旁边的椭圆菜单，您可以获取每个变量的更多详细信息，并将最常用的属性添加到 [收藏夹](personalization-favorites.md).
+单击+按钮可向个性化表达式中添加属性。
+
+“+”图标旁边的省略号菜单允许您获取每个变量的更多详细信息，并将您最常用的属性添加到收藏夹。 [了解如何将属性添加到收藏夹](personalization-favorites.md)
+
+此外，您还可以定义默认的回退文本，当字符串类型配置文件属性为空时，将显示该文本。 要实现此目的，请单击属性旁边的省略号按钮，然后选择 **[!UICONTROL 插入替换文本]**. 为配置文件写入默认应显示的文本（如果属性的值为空），然后单击 **[!UICONTROL 添加]**.
 
 ![](assets/attribute-details.png)
 

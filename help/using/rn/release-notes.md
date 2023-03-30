@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 416da542b6e0ea8c66cdcebcc0219db63a9608fb
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 81%
+source-wordcount: '1346'
+ht-degree: 79%
 
 ---
 
@@ -113,9 +113,9 @@ ht-degree: 81%
 
 <!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-<!--**Personalization**
+**个性化**
 
-* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+* 现在，您可以在表达式编辑器中包含基于字符串的配置文件属性的默认回退文本。 如果选定的属性未返回任何结果，则将显示这些值。 [了解详情](../personalization/personalization-build-expressions.md#add)
 
 <!--
 **Reporting**
