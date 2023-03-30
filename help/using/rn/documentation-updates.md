@@ -6,8 +6,8 @@ description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2445'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 97%
 ## 2023 年 3 月 {#march-2023}
 
 * 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’23年3月版进行了详细介绍。 [了解详情](release-notes.md)
-* 添加了在您的历程中启用Adobe Analytics事件的步骤。 [了解详情](../event/about-analytics.md)
+* 添加了在历程中启用 Adobe Analytics 事件的步骤。[了解详情](../event/about-analytics.md)
 * 决策管理指南中新增了有关如何在 Adobe Experience Platform 中收集 Offer Decisioning 反馈的章节，包括显示哪些优惠以及用户如何与其进行交互。[了解详情](../offers/data-collection/data-collection.md)
 * 向 **创建决策** 部分，以说明按顺序或同时评估标准之间的差异。 [了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 
 ## 2023 年 2 月 {#feb-2023}
 
-* 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档详细介绍了’23年2月的版本。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 2 月版本的所有新增功能和改进。[了解详情](release-notes.md)
 * 在 API 触发的营销活动文档中添加了注释，规定传递到请求的上下文属性不能超过 50kb。[了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 * 添加了有关收件人通过登陆页面取消订阅后如何在&#x200B;**同意服务数据集**&#x200B;中存储选择退出信息的内容。[了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
 
