@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 99%
+source-wordcount: '1361'
+ht-degree: 98%
 
 ---
 
@@ -206,6 +206,7 @@ ht-degree: 99%
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
+   + [测试并发送应用程序内通知](using/in-app/send-in-app.md)
    + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
 + 推送通知渠道{#push}
    + [推送通知入门](using/push/get-started-push.md)
