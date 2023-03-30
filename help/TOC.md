@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -420,7 +420,7 @@ ht-degree: 98%
       + [数据集入门](using/data/get-started-datasets.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
-      + [内置架构> ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [内置架构 > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hans)
    + [查询](using/data/get-started-queries.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
@@ -449,7 +449,7 @@ ht-degree: 98%
          + 配置统一事件{#unitary-events}
             + [统一事件入门](using/event/about-creating.md)
             + [关于 ExperienceEvent Schemas](using/event/experience-event-schema.md)
-            + [使用Adobe Analytics](using/event/about-analytics.md)
+            + [使用 Adobe Analytics](using/event/about-analytics.md)
          + [配置业务事件](using/event/about-creating-business.md)
          + [用于发送事件的其他步骤](using/event/additional-steps-to-send-events-to-journey.md)
       + 数据源配置{#data-source-journeys}
