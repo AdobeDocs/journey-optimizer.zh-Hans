@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，条件，画布，历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
+source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1465'
 ht-degree: 17%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 17%
 
 默认上限为1000。
 
-计数器仅适用于选定的历程版本。 计数器在一个月后、新历程版本后或该历程的重复版本上重置为零。 重置后，进入的用户档案将再次采用标称路径，直到达到计数器限制。
+计数器仅适用于选定的历程版本。 当历程复制或创建新版本时，计数器将重置为零。 重置后，进入的用户档案将再次采用标称路径，直到达到计数器限制。
 
 在定期历程上定义用户档案上限时，计数器不会在每次重复后重置。
 
