@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
 workflow-type: tm+mt
-source-wordcount: '2445'
-ht-degree: 98%
+source-wordcount: '2499'
+ht-degree: 96%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 98%
 
 ## 2023 年 3 月 {#march-2023}
 
+* Journey Optimizer架构词典现已可用。 您将找到每个架构的字段和属性的完整列表。  [了解详情](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hans)
 * 随附的所有新增功能和改进功能 [!DNL Journey Optimizer] 文档中对’23年3月版进行了详细介绍。 [了解详情](release-notes.md)
 * 添加了在历程中启用 Adobe Analytics 事件的步骤。[了解详情](../event/about-analytics.md)
 * 决策管理指南中新增了有关如何在 Adobe Experience Platform 中收集 Offer Decisioning 反馈的章节，包括显示哪些优惠以及用户如何与其进行交互。[了解详情](../offers/data-collection/data-collection.md)
 * 向 **创建决策** 部分，以说明按顺序或同时评估标准之间的差异。 [了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 为具有增量读取的读取区段历程添加了护栏。 您无法创建新版本，您需要复制历程。 [了解详情](../start/guardrails.md#journey-versions-g)
 
 ## 2023 年 2 月 {#feb-2023}
 
