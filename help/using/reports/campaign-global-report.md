@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 4%
+source-wordcount: '1904'
+ht-degree: 3%
 
 ---
 
@@ -145,10 +145,6 @@ ht-degree: 4%
 +++
 
 ## 应用程序内选项卡 {#inapp-global}
-
->[!IMPORTANT]
->
->应用程序内功能当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 从营销策划 **[!UICONTROL 全局报告]**, **[!UICONTROL 应用程序内]** 选项卡详细列出了与营销活动中发送的应用程序内投放相关的主要信息。
 
