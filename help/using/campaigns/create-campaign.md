@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="对于通过指定发送日期的营销消息， **已计划** 类型是最合适的。 但是，如果您想发送密码重置或购物车放弃等事务性消息，最佳选择是 **API 触发**&#x200B;类型。"
+>abstract="要通过指定发送日期发送营销信息，**计划**&#x200B;类型最合适。但是，如果您想发送密码重置或购物车放弃等事务性消息，最佳选择是 **API 触发**&#x200B;类型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"

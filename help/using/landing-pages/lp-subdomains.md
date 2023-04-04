@@ -19,7 +19,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="委派登陆页面子域"
->abstract="您需要设置子域以供登陆页面使用。您可以使用已委派给 Adobe 的子域或配置其他子域。"
+>abstract="您需要设置子域以供登陆页面使用。可使用已委派给 Adobe 的子域或配置另一子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"

@@ -39,7 +39,7 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 配置 SMS 供应商"
 >abstract="在发送 SMS 之前，您必须将供应商设置与 Journey Optimizer 集成。完成后，您将需要创建一个 SMS 表面。这些步骤必须由 Adobe Journey Optimizer 系统管理员执行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="创建 SMS 渠道表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建 SMS 渠道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
