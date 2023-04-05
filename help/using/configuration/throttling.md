@@ -6,9 +6,9 @@ description: 了解如何使用限制API
 role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 2%
 >当前，每个组织只允许一个配置。 必须在生产沙盒上定义配置（通过标头中的x-sandbox-name提供）。
 >
 >在组织级别应用配置。
+>
+>当达到API中设置的限制时，其他事件将排队长达6小时。 无法修改此值。
 
 ## 限制API说明 {#description}
 
