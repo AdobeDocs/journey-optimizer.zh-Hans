@@ -4,16 +4,21 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 96%
+source-wordcount: '2518'
+ht-degree: 95%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2023 年 4 月 {#apr-2023}
+
+* Adobe Experience Manager Assets Essentials和Adobe Stock已添加到多解决方案集成页面。 [了解详情](../start/ajo-integrations.md)
+
 
 ## 2023 年 3 月 {#march-2023}
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+workflow-type: tm+mt
+source-wordcount: '714'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,25 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 您可以利用已在捕获并流入到 Adobe Experience Platform 中的所有 Adobe Analytics 行为事件数据，从而触发实时历程并将客户的体验自动化。此数据还可用于创建可使用 Journey Optimizer 接触的区段。
 
 详细了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
+
+
+## Adobe Experience Manager Assets Essentials{#integration-assets}
+
+使用将营销和创意工作流整合在一起 [!DNL Adobe Experience Manager Assets Essentials]. 与本地集成 [!DNL Adobe Journey Optimizer]，访问 [!DNL Assets Essentials] 存储、管理、发现和分发数字资产。 它提供了可用于填充消息的资产集中存储库。
+
+[!DNL Adobe Experience Manager Assets Essentials] 可以直接从访问 [!DNL Adobe Journey Optimizer] 从左侧菜单 **[!UICONTROL 资产]** 中。
+
+详细了解 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+
+
+## Adobe Stock{#integration-stock}
+
+的 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] Email Designer集成插件为客户提供了一种导航、许可和保存图像以用于消息创作的简便方法。
+
+使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] 并将其添加到 **[!UICONTROL 资产]** 文件夹 **[!UICONTROL 查找Adobe Stock照片]** 选项。 此外， **[!UICONTROL 查找类似的库存照片]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
+
+详细了解 [Journey Optimizer + Stock](../email/stock.md).
+
 
 ## Adobe 智能服务{#integration-intelligent-service}
 
