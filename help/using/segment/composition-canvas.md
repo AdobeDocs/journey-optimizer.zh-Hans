@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 27%
@@ -31,7 +31,7 @@ ht-degree: 27%
 
 >[!ENDSHADEBOX]
 
-受众组合提供了一个可视化画布，允许您创建受众并使用各种活动（拆分、扩充等）。
+受众组合提供了一个可视画布，允许您创建受众并使用各种活动（拆分、扩充等）。
 
 在画布中构建受众的步骤如下：
 
@@ -76,7 +76,7 @@ ht-degree: 27%
 
 * [受众](#audience):包括属于一个或多个现有受众的其他用户档案，
 * [排除](#exclude):排除属于现有受众的用户档案，或根据特定属性排除用户档案，
-* [丰富]{#enrich}:通过来自Adobe Experience Platform数据集的其他属性来丰富受众，
+* [丰富](#enrich):通过来自Adobe Experience Platform数据集的其他属性来丰富受众，
 * [排名](#rank):根据特定属性对用户档案进行排名，指定要保留的用户档案数并将其包含在您的构成中，
 * [拆分](#split):根据随机百分比或属性将您的构图划分为多个路径。
 

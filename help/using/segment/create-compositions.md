@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 7%
@@ -39,11 +39,11 @@ ht-degree: 7%
 
 1. 选择 **[!UICONTROL 撰写受众]**.
 
+   ![](assets/audiences-create.png)
+
    >[!NOTE]
    >
    >的 **[!UICONTROL 生成规则]** 创建方法允许您使用 [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
-
-   ![](assets/audiences-create.png)
 
 1. 此时将显示组合画布，其中包含两个默认活动：
 
