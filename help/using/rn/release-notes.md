@@ -5,9 +5,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 74%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年3月发行说明 {#mar-2023}
+## 2023 年 3 月发行说明 {#mar-2023}
 
-以下信息可能会在发行日期之前发生更改，恕不另行通知。 更新的文档将在发行日期发布，并在此页面中添加直接链接。
+以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
 
 
 ### 新功能{#mar-2023-features}
@@ -54,7 +54,7 @@ ht-degree: 74%
 <tbody>
 <tr>
 <td>
-<p>通过短信点击跟踪，您可以监控缩短的URL的性能，识别点击者，并使用此数据通过后续促销活动重新定位这些客户。</p>
+<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重新定位这些客户。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
 </td>
@@ -65,7 +65,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>在您的历程中使用标记（测试版）</strong><br/></th>
+<th><strong>在您的历程中使用标记（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,11 +83,11 @@ ht-degree: 74%
 
 **历程**
 
-* 新 **限制API** 允许您设置每秒发送事件数的限制，以防止外部系统或API上的流量激增。 达到设置限制后，所有后续API调用将按收到的顺序尽快排入队列并进行处理。 请注意，此功能仅支持所有沙箱中的一个限制配置。 [了解详情](../configuration/external-systems.md)
-* 历程画布已得到增强，可提供更简单、更好的用户体验。 在画布中每个路径的末尾，已删除空位置保持器。 现在，您只需在路径末尾拖动活动即可添加活动。
-* 在历程画布中， **结束** 标记不再使用之前活动的名称自动设置。 用户可以根据需要手动添加自定义标签。
-* 历程属性中的默认超时和错误持续时间已从5秒更改为30秒。 [了解详情](../configuration/external-systems.md#timeout)
-* 读取区段活动中的默认限制速率已从每秒20,000条消息更改为每秒5,000条消息。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。请注意，此功能仅支持在所有沙箱中配置一个限制。[了解详情](../configuration/external-systems.md)
+* 历程画布已得到改进，可提供更简单、更优质的用户体验。移除了在画布中每个路径的末尾的空占位符。现在，您只需将活动拖动到路径末尾即可添加活动。
+* 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
+* 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。[了解详情](../configuration/external-systems.md#timeout)
+* 读取区段活动中的默认限制速率已从每秒 20000 条消息更改为每秒 5000 条消息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -108,17 +108,17 @@ ht-degree: 74%
 
 * 您还可以选择应查看哪个 Adobe Experience Platform 事件来设置 Offer Decisioning 上限。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。 [了解详情](../offers/offer-library/creating-placements.md)
+* 投放位置创建屏幕中添加了更多参数。通过这些参数，您可以控制是否能在多个投放位置中复制某个优惠，并指定是否应将该优惠的内容和元数据包含在 API 响应中。[了解详情](../offers/offer-library/creating-placements.md)
 
 **个性化**
 
-* 现在，您可以在表达式编辑器中包含基于字符串的配置文件属性的默认回退文本。 如果选定的属性未返回任何结果，则将显示这些值。 [了解详情](../personalization/personalization-build-expressions.md#add)
+* 现在，您可以在“表达式编辑器”中包含基于字符串的个人资料属性的默认回退文本。如果选定的属性未返回任何结果，则将显示这些值。[了解详情](../personalization/personalization-build-expressions.md#add)
 
 **报告**
 
-* 报表小组件功能已得到改进，能够自定义用户查看其数据的方式。 通过这项改进，用户现在可以在多个可视化选项（包括图形、表格和圆环图）之间进行选择。
+* 报表小组件功能已得到改进，允许自定义用户查看其数据的方式。通过这项改进，用户现在可以在多个可视化选项（包括图形、表格和圆环图）之间进行选择。
 
-   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关功能板自定义的更多信息，请参阅 [详细文档](../reports/global-report.md#modify-dashboard).
+   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md#modify-dashboard)。
 
 ## 2023 年 2 月发行说明 {#feb-2023}
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **决策管理**
 
-* **版面**  — 在版面创建屏幕中添加了其他参数。 利用选件，可控制是否可以在多个版面中复制某个选件，并指定是否应将该选件的内容和元数据包含在API响应中。 [了解详情](../offers/offer-library/creating-placements.md)
+* **投放位置** - 投放位置创建屏幕中添加了更多参数。通过这些参数，您可以控制是否能在多个投放位置中复制某个优惠，并指定是否应将该优惠的内容和元数据包含在 API 响应中。[了解详情](../offers/offer-library/creating-placements.md)
 
 * **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 
