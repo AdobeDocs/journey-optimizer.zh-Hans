@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -442,9 +442,9 @@ ht-degree: 98%
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成 {#external-systems}
-         + [历程与外部系统集成](using/configuration/external-systems.md)
-         + [API上限](using/configuration/capping.md)
-         + [限制API](using/configuration/throttling.md)
+         + [历程与外部系统的集成](using/configuration/external-systems.md)
+         + [API 上限](using/configuration/capping.md)
+         + [API 限制](using/configuration/throttling.md)
       + 事件配置{#events-journeys}
          + [一般原则](using/event/about-events.md)
          + 配置统一事件{#unitary-events}
