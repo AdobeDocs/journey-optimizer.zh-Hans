@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 11%
+source-wordcount: '1091'
+ht-degree: 10%
 
 ---
 
@@ -72,6 +72,11 @@ ht-degree: 11%
 >id="ajo_web_surface"
 >title="定义 Web 表面"
 >abstract="Web 表面可以匹配单个页面 URL 或多个页面，这让您可以在一个或多个网页上传递内容修改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="生成与规则匹配的页面"
+>abstract="使用页面匹配规则可以定位与同一规则匹配的多个URL — 例如，如果您要将更改应用于整个网站中的主页横幅，或添加显示在网站所有产品页面上的顶部图像。"
 
 要开始通过营销活动构建Web体验，请执行以下步骤。
 
