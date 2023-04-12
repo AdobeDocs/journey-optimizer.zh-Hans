@@ -6,7 +6,7 @@ description: 作为系统管理员，了解有关如何使用 Journey Optimizer 
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 1. **了解产品配置文件**。产品配置文件是一组单一的权利，允许用户访问界面中的特定功能或对象。在[开箱即用的产品配置文件](../../administration/ootb-product-profiles.md)中了解详情。
 
-1. 为产品配置文件（包括&#x200B;**沙箱**）**设置权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。此步骤在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中执行。权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
+1. 为产品配置文件（包括&#x200B;**沙盒**）**设置权限**，并通过将团队成员分配给不同的产品配置文件来授予他们访问权限。此步骤在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中执行。权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
 
 此外，还须将需要访问 Assets Essentials 的用户添加到 **Assets Essentials Consumer Users** 或/和 **Assets Essentials Users** 产品配置文件中。[请参阅 Assets Essentials 文档以了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"}。
 

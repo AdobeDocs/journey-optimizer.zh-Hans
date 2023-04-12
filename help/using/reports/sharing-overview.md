@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -58,11 +58,11 @@ ht-degree: 5%
 
 ## 与Customer Journey Analytics集成 {#integration-cja}
 
-[!DNL Journey Optimizer] 步骤事件可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+[!DNL Journey Optimizer] 步骤事件可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans){target="_blank"}.
 
 常规工作流为：
 
 * [!DNL Customer Journey Analytics] 摄取“历程步骤事件”数据集。
 * 的 **profileID** 关联的“历程步骤Journey Orchestration事件架构”中的字段定义为标识字段。 在 [!DNL Customer Journey Analytics]，则您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 要在 [!DNL Customer Journey Analytics]，有关跨渠道历程分析，请参阅 [Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}。
+* 要在 [!DNL Customer Journey Analytics]，有关跨渠道历程分析，请参阅 [Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 

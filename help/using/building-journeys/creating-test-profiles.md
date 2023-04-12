@@ -142,7 +142,7 @@ ht-degree: 3%
 1. 添加 **[!UICONTROL 更新用户档案]** 操作活动。
 1. 选择架构， **testProfiles** 字段，并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL 值]** 字段，单击 **笔** 图标，选择 **[!UICONTROL 高级模式]** 输入 **true**.
    ![](assets/test-profiles-26.png)
-1. 单击 **[!UICONTROL 发布]**.
+1. 单击&#x200B;**[!UICONTROL 发布]**。
 1. 在 **[!UICONTROL 区段]** 部分，检查用户档案是否已正确更新。
    ![](assets/test-profiles-28.png)
 

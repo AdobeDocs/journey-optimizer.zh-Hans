@@ -31,7 +31,7 @@ ht-degree: 21%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 布尔型 | 布尔型 |
+| 布尔值 | 布尔型 |
 | DateTimeOnly | DateTimeOnly |
 | 列表 | listString |
 | 列表 | listBoolean |

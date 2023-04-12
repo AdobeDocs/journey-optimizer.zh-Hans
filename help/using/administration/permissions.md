@@ -140,7 +140,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 在 **[!UICONTROL 可用权限项]**，单击加号(+)图标，将沙箱分配给用户档案。 [进一步了解沙箱](sandboxes.md)。
+1. 在 **[!UICONTROL 可用权限项]**，单击加号(+)图标，将沙箱分配给用户档案。 [进一步了解沙盒](sandboxes.md)。
 
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 

@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 11%
 
    ![](../assets/offer_manage-access.png)
 
-1. 添加表示法以定义选件在消息中的显示位置。 [了解详情](add-representations.md)
+1. 添加呈现以定义您的优惠在消息中显示的位置。[了解详情](add-representations.md)
 
    ![](../assets/channel-placement.png)
 

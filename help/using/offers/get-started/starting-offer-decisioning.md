@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target=&quot;_blank&quot;} 用户并使用 **Offer Decisioning** 应用程序服务，则本节中介绍的所有决策管理功能也适合您。
+>如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} 利用 **offer decisioning** 应用程序服务中，本节中介绍的所有决策管理功能也适用于您。
 
 ## 关于优惠和决策 {#about-offers-and-decisions}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
 
-使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} 管理访问和使用决策功能的权限。
+访问和使用决策功能的权限可使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target="_blank"}.
 
 要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;并为用户分配相应的权限。在[本节](../../administration/permissions.md)中了解更多关于管理 [!DNL Journey Optimizer] 用户和权限的信息。
 

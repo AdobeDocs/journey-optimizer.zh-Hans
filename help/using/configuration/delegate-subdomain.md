@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 23%
+source-wordcount: '1779'
+ht-degree: 22%
 
 ---
 
@@ -72,6 +72,8 @@ ht-degree: 23%
    >[!CAUTION]
    >
    >不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
+   >
+   >请注意，当前不支持多级子域，如email.marketing.yourcompany.com。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -142,6 +144,8 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
    >[!CAUTION]
    >
    >不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
+   >
+   >请注意，当前不支持多级子域，如email.marketing.yourcompany.com。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 

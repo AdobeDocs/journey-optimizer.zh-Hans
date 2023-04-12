@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 默认回退值{#default-value}
 
-此 `Default Fallback Value` 如果属性为空或null，则使用帮助程序返回默认回退值。 此机制适用于配置文件属性和历程事件。
+的 `Default Fallback Value` 如果属性为空或null，则使用帮助程序返回默认回退值。 此机制适用于用户档案属性和历程事件。
 
 **语法**
 
@@ -25,12 +25,12 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，值 `there` 在以下情况下显示： `firstName` 此配置文件的属性为空或null。
+在本例中，值 `there` 如果 `firstName` 此配置文件的属性为空或null。
 
 ## 条件{#if-function}
 
-此 `if` 帮助程序用于定义条件块。
-如果表达式求值返回true，则会呈现块，否则将跳过该块。
+的 `if` 帮助程序用于定义条件块。
+如果表达式计算返回true，则会呈现块，否则会跳过该块。
 
 **语法**
 
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-遵循 `if` 帮助程序，您可以输入 `else` 语句，指定要在相同条件为false时执行的代码块。
-此 `elseif` 语句将指定一个新条件来测试第一个语句是否返回false。
+关注 `if` 帮手，你可以输入 `else` 语句指定要执行的代码块（如果相同条件为false）。
+的 `elseif` 语句将指定一个新条件来测试第一个语句是否返回false。
 
 
 **格式**
@@ -68,7 +68,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **确定电子邮件地址扩展名**
+1. **确定电子邮件地址扩展**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -82,7 +82,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 1. **添加条件链接**
 
-   以下操作将添加一个链接，指向仅包含“.edu”电子邮件地址的用户档案的“www.adobe.com/academia&#39;网站”、包含“.org”电子邮件地址的用户档案的“www.adobe.com/org&#39;网站”，以及所有其他用户档案的默认URL“www.adobe.com/users&#39;”：
+   以下操作将添加一个链接，指向“www.adobe.com/academia&#39;”网站（仅适用于具有“.edu”电子邮件地址的用户档案）、“www.adobe.com/org&#39;网站（适用于具有“.org”电子邮件地址的用户档案），以及所有其他用户档案的默认URL“www.adobe.com/users&#39;”：
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->要了解有关分段和分段服务的更多信息，请参阅此 [部分](../../segment/about-segments.md).
+>要了解有关分段和分段服务的更多信息，请参阅 [部分](../../segment/about-segments.md).
 
 
-## Unless{#unless}
+## 除非{#unless}
 
-此 `unless` 帮助程序用于定义条件块。 反对The `if`  帮助程序，如果表达式求值返回false，则会渲染块。
+的 `unless` 帮助程序用于定义条件块。 反对党 `if`  帮助程序，如果表达式求值返回false，则会呈现块。
 
 **语法**
 
@@ -133,9 +133,9 @@ Some edu specific content Content
 
 ## 每个{#each}
 
-此 `each` 辅助函数用于遍历数组。
-辅助函数的语法为 ```{{#each ArrayName}}``` 您的内容 {{/each}}
-我们可以使用关键字引用单个数组项 **此** 在街区里。 可以使用呈现数组元素的索引 {{@index}}.
+的 `each` 帮助程序用于在数组上迭代。
+帮助程序的语法为 ```{{#each ArrayName}}``` 您的内容 {{/each}}
+我们可以使用关键字引用各个数组项目 **此** 在街区内。 数组元素的索引可以使用 {{@index}}.
 
 **语法**
 
@@ -156,7 +156,7 @@ Some edu specific content Content
 
 **示例**
 
-呈现此用户购物车中产品的列表：
+呈现此用户购物车中的产品列表：
 
 ```sql
 {{#each profile.products as |product|}}
@@ -165,9 +165,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 替换为{#with}
+## 使用{#with}
 
-此 `with` 辅助函数用于更改模板部分的求值令牌。
+的 `with` 帮助程序用于更改模板部分的评估令牌。
 
 **语法**
 
@@ -177,11 +177,11 @@ Some edu specific content Content
 {{/with}}
 ```
 
-此 `with` 辅助函数也可用于定义快捷键变量。
+的 `with` 帮助程序对于定义快捷方式变量也很有用。
 
 **示例**
 
-与结合使用可将长变量名称别名化为短变量名称：
+与一起使用，以将长变量名称取为短变量名称：
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -190,9 +190,9 @@ Some edu specific content Content
 {{/with}}
 ```
 
-## Let{#let}
+## 让{#let}
 
-此 `let` 函数允许将表达式存储为变量，以便稍后在查询中使用。
+的 `let` 函数允许将表达式存储为变量，以便稍后在查询中使用。
 
 **语法**
 
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **示例**
 
-以下示例允许交易以美元表示的所有产品总计的总和，其中总计大于$100且小于$1000。
+以下示例允许以美元表示的交易产品合计的所有合计金额，其合计金额大于100美元且小于1000美元。
 
 ```sql
 {% let variable = expression %} {{variable}}

@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 讨论自动优化时，以下术语很有用：
 
-* **多臂老虎机**:A [多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=&quot;_blank&quot;}优化方法可在探索性学习与对该学习的利用之间取得平衡。
+* **多臂老虎机**:A [多臂老虎机](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} 优化方法可平衡探索性学习和对该学习的利用。
 
 * **Thomson采样**：汤普森采样是一种在线决策问题的算法，在此类问题中，动作按顺序执行，且必须在利用已知内容最大化即时性能与投资以积累可能改善未来性能的新信息之间取得平衡。 [了解详情](#thompson-sampling)
 
-* [**测试版分发**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}:连续集 [概率分布](https://en.wikipedia.org/wiki/Probability_distribution)在间隔上定义的{target=&quot;_blank&quot;} [0,1] [参数化](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;}，正两个 [形状参数](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}。
+* [**测试版分发**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## 汤普森采样 {#thompson-sampling}
 
 作为自动优化的基础的算法是 **汤普森采样**. 在本节中，我们讨论了汤普森采样背后的直觉。
 
-[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}或Bayesian强盗是多臂老虎机问题的贝叶斯方法。  其基本思想是对待平均回报??作为 **随机变量** 利用我们迄今收集到的数据来更新我们对平均回报的“信念”。 这种“信念”在数学上由 **后验概率分布**  — 基本上是平均奖励的值范围，以及奖励对每次奖励具有该值的可信度（或概率）。 那么，每个决定，我们都会 **从这些后期奖励分布中抽取的点** 并选择其抽样奖励具有最高价值的选件。
+[汤普森采样](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}而贝叶斯强盗是多臂老虎机问题的贝叶斯方法。  其基本思想是对待平均回报??作为 **随机变量** 利用我们迄今收集到的数据来更新我们对平均回报的“信念”。 这种“信念”在数学上由 **后验概率分布**  — 基本上是平均奖励的值范围，以及奖励对每次奖励具有该值的可信度（或概率）。 那么，每个决定，我们都会 **从这些后期奖励分布中抽取的点** 并选择其抽样奖励具有最高价值的选件。
 
 下图说明了此过程，其中我们提供了3个不同的选件。 最初，我们没有从数据中得到任何证据，我们假设所有报价都具有统一的后期奖励分布。 我们从每个选件的后奖励分布中抽取一个样本。 从选件2的分发中选择的示例具有最高值。 这是 **勘探**. 在显示选件2后，我们收集任何潜在的奖励（例如转换/无转换），并使用Bayes定理更新选件2的后验分布，如下所述。  我们会继续此过程，并在每次显示选件并收集奖励时更新后验分配。 在第二个数字中，选择选件3 — 尽管选件1具有最高的平均回报（其后奖励分配最靠右），但从每个分配中取样的过程导致我们选择明显次优的选件3。 在这样做时，我们有机会进一步了解Offer 3的真实奖励分配。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-如上所述，似然函数由二项式分布模型建立，成功（转化）和失败（无转化），q为 [随机变量](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;} [测试版分发](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}。
+如上所述，似然函数由二项式分布模型建立，成功（转化）和失败（无转化），q为 [随机变量](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 前验分布由Beta分布建模，后验分布采用以下形式：
 
@@ -85,8 +85,8 @@ ht-degree: 0%
 **相关主题**：
 
 要更深入地研究汤普森采样，请阅读以下研究论文：
-* [Thompson抽样的实证评价](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [多臂老虎机问题的Thompson抽样分析](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Thompson抽样的实证评价](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [多臂老虎机问题的Thompson抽样分析](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## 冷启动问题 {#cold-start}
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe会保留已知错误地址的更新列表，这些地址已证实对参与度和邮件声誉有害，并确保不会向他们发送电子邮件。 此列表在全局抑制列表中进行管理，该列表在所有Adobe客户中都是通用的。 全局禁止列表中包含的地址和域名将被隐藏。 投放报表中仅显示被排除的收件人数。
+>Adobe会保留已知错误地址的更新列表，这些地址已证实对参与度和邮件声誉有害，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
 
 ## 为什么要列禁名单？ {#why-suppression-list}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 >
 >具有 **[!UICONTROL 隐藏]** 在消息发送过程中，状态将被排除。 因此，当 **历程报表** 会将这些用户档案显示为已在历程([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))、 **电子邮件报表** 将不会在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前，这些量度会被过滤掉。
 >
->了解 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}。
+>了解 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md). 要找出所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### 投放失败 {#delivery-failures}
 

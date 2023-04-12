@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 使用之前 [!DNL Adobe Experience Manager Assets Essentials]，则必须将用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 有关更多信息，请参阅 [Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"}.
 
 >[!NOTE]
->对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 [!DNL Adobe Experience Manager Assets Essentials]。在 [部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"} 中。
+>对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 [!DNL Adobe Experience Manager Assets Essentials]。在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"} 部分中了解详情。
 
 ## 上传和插入资产{#add-asset}
 

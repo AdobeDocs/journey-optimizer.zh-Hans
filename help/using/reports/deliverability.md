@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '693'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 优化 [!DNL Journey Optimizer] 体验时，我们建议您使用此部分中列出的最佳实践。 投放能力问题通常与互联网服务提供商(ISP)和邮件服务器管理员实施的防垃圾邮件保护有关。
 
-要更深入地了解什么是可投放性，并了解有关关键可投放性术语、概念和方法的更多信息，请参阅 [Adobe投放能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+要更深入地了解什么是可投放性，并了解有关关键可投放性术语、概念和方法的更多信息，请参阅 [Adobe投放能力最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans){target="_blank"}.
 
 ## 降低投诉率 {#reduce-complaint-rate}
 

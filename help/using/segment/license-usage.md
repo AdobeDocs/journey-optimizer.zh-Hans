@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '120'
 ht-degree: 6%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->要能够查看功能板，您必须获得 [查看许可证使用情况功能板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target=&quot;_blank&quot;}权限。
+>要能够查看功能板，您必须获得 [查看许可证使用情况功能板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} 权限。
 
 请参阅Adobe Experience Platform文档，了解详情：
 
-* [许可证使用功能板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target=&quot;_blank&quot;}
-* [浏览许可证使用功能板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
-* [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target=&quot;_blank&quot;}
+* [许可证使用功能板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [浏览许可证使用功能板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target="_blank"}

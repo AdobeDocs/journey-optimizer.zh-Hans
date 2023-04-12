@@ -10,7 +10,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 2%
 
 有关如何使用API的更多信息，请参阅以下章节：
 
-* [API上限](capping.md)
-* [限制API](throttling.md)
+* [API 上限](capping.md)
+* [API 限制](throttling.md)
 
 有关API的详细描述，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 

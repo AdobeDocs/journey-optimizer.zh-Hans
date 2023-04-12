@@ -10,7 +10,7 @@ keywords: 平台，数据湖，创建，湖，数据集，配置文件
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->数据集导出功能目前为测试版，可供所有Adobe Journey Optimizer用户使用。 如果您尚未拥有访问权限，请与您的Adobe代表合作，以获取目标的访问权限。
+>数据集导出功能目前为测试版，可供所有Adobe Journey Optimizer用户使用。 如果您尚未拥有访问权限，请与 Adobe 代表联系，获取目标的访问权限。
 
 Journey Optimizer允许您与云存储位置建立实时连接，以导出数据集的内容。
 

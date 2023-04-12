@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1536'
 ht-degree: 3%
 
 ---
@@ -32,11 +32,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 设置权限 {#setup-permissions}
 
-在创建移动应用程序之前，您首先需要确保在Adobe Experience Platform中拥有或分配正确的标记用户权限。 在 [标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}。
+在创建移动应用程序之前，您首先需要确保在Adobe Experience Platform中拥有或分配正确的标记用户权限。 在 [标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件或在应用程序开发人员与 **Adobe Journey Optimizer** 管理员。 详细了解 **标记** 权限 [本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}。
+>推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件或在应用程序开发人员与 **Adobe Journey Optimizer** 管理员。 详细了解 **标记** 权限 [本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -53,7 +53,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    ![](assets/push_product_1.png)
 
-1. 选择现有 **[!UICONTROL 产品配置文件]** 或使用 **[!UICONTROL 新建用户档案]** 按钮。 了解如何创建新 **[!UICONTROL 新建用户档案]** 在 [管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target=&quot;_blank&quot;}。
+1. 选择现有 **[!UICONTROL 产品配置文件]** 或使用 **[!UICONTROL 新建用户档案]** 按钮。 了解如何创建新 **[!UICONTROL 新建用户档案]** 在 [管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. 从 **[!UICONTROL 权限]** 选项卡，选择 **[!UICONTROL 资产权限]**.
 
@@ -109,14 +109,14 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 按照以下链接中详细描述的实施步骤操作：
 
-* 对于 **AppleiOS**:了解如何在 [Apple文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target=&quot;_blank&quot;}
-* 对于 **Google Android**:了解如何在Android中设置Firebase Cloud Messaging客户端应用程序 [Google文档](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;}
+* 对于 **AppleiOS**:了解如何在 [Apple文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* 对于 **Google Android**:了解如何在Android中设置Firebase Cloud Messaging客户端应用程序 [Google文档](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 ### 将您的移动设备应用程序与Adobe Experience Platform SDK集成 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK为您的手机提供客户端集成API。 关注 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;}，以在您的应用程序中使用Adobe Experience Platform Mobile SDK进行设置。
+Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK为您的手机提供客户端集成API。 关注 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} 以在您的应用程序中使用Adobe Experience Platform Mobile SDK进行设置。
 
-在此步骤结束时，您还应该在 [!DNL Adobe Experience Platform Data Collection]. 通常，您会为要管理的每个移动应用程序创建一个移动资产。 了解如何在 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}。
+在此步骤结束时，您还应该在 [!DNL Adobe Experience Platform Data Collection]. 通常，您会为要管理的每个移动应用程序创建一个移动资产。 了解如何在 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
 
 
 ## 步骤1:在Adobe Experience Platform数据收集中添加您的应用程序推送凭据 {#push-credentials-launch}
@@ -156,7 +156,7 @@ Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK为您的�
 
       1. 已打开 **[!UICONTROL 推送凭据]** 按钮以添加您的凭据。
 
-      1. 拖放FCM推送凭据。 有关如何获取推送凭据的更多详细信息，请参阅 [Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target=&quot;_blank&quot;}。
+      1. 拖放FCM推送凭据。 有关如何获取推送凭据的更多详细信息，请参阅 [Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 
 
@@ -184,7 +184,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 的 **Adobe Journey Optimizer扩展** for Adobe Experience Platform Mobile SDK可为移动设备应用程序的推送通知提供支持，并帮助您收集用户推送令牌并管理与Adobe Experience Platform服务的交互测量。
 
-了解如何在中设置Journey Optimizer扩展 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}。
+了解如何在中设置Journey Optimizer扩展 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target="_blank"}.
 
 
 <!-- 
@@ -261,7 +261,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-要使此历程正常工作，您需要创建XDM模式。 有关更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}。
+要使此历程正常工作，您需要创建XDM模式。 有关更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
 1. 在左侧菜单中，浏览 **[!UICONTROL 模式]**.
 
@@ -271,7 +271,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 选择 **[!UICONTROL 创建新字段组]**.
 
-1. 输入 **[!UICONTROL 显示名称]** 和 **[!UICONTROL 描述]**. 单击 **[!UICONTROL 添加字段组]** 完成时。 有关如何创建字段组的更多信息，请参阅 [XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+1. 输入 **[!UICONTROL 显示名称]** 和 **[!UICONTROL 描述]**. 单击 **[!UICONTROL 添加字段组]** 完成时。 有关如何创建字段组的更多信息，请参阅 [XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}.
 
 
    ![](assets/test_push_4.png)

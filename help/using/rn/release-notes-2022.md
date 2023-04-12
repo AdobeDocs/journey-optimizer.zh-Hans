@@ -5,7 +5,7 @@ title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -489,13 +489,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>在沙箱之间复制对象</strong><br/></th>
+<th><strong>在沙盒之间复制对象</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以重新创建从 Journey Optimizer 沙箱到另一个沙箱的体验，例如从非生产沙箱到生产沙箱。此新功能可将整个历程（包括历程赖以正常运行的任何对象）从一个环境复制到另一个环境。除了历程之外，您还可以复制其他组件，如优惠、消息、模式、数据集、数据源、事件和操作。</p>
+<p>现在，您可以重新创建从 Journey Optimizer 沙盒到另一个沙盒的体验，例如从非生产沙盒到生产沙盒。此新功能可将整个历程（包括历程赖以正常运行的任何对象）从一个环境复制到另一个环境。除了历程之外，您还可以复制其他组件，如优惠、消息、模式、数据集、数据源、事件和操作。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。
 </td>
 </tr>

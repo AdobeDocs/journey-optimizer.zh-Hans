@@ -1,6 +1,6 @@
 ---
-title: 删除收藏集限定符
-description: 收藏集限定符允许您更好地对优惠进行组织和排序。
+title: 删除集合限定符
+description: 使用收藏集限定符，您可以更好地组织和排序选件。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 # 删除收藏集限定符 {#delete-tag}
 
-有时可能有必要删除(DELETE)收藏集限定符（以前称为“标记”）。 只能删除您在租户容器中创建的收藏集限定符。 DELETE这是通过对 [!DNL Offer Library] 使用要删除的集合限定符的$id的API。
+有时可能需要删除(DELETE)集合限定符（以前称为“标记”）。 只能删除您在租户容器中创建的集合限定符。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的集合限定符$id的API。
 
 **API格式**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **响应**
 
-成功的响应返回HTTP状态202（无内容）和一个空白正文。
+成功的响应会返回HTTP状态202（无内容）和空白正文。
 
-您可以通过尝试对集合限定词进行查找(GET)请求来确认删除。 您需要在请求中包含“接受”标头，但应会收到HTTP状态404（未找到），因为集合限定符已从容器中删除。
+您可以通过尝试对集合限定符进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为集合限定符已从容器中删除。

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 限制API
+title: API 限制
 description: 了解如何使用限制API
 role: User
 level: Beginner

@@ -48,7 +48,7 @@ ht-degree: 14%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [发布](create-lp.md#publish) 登陆页面。
+1. [发布登陆页面.](create-lp.md#publish)
 
 1. 在 [历程](../building-journeys/journey.md)，添加 **电子邮件** 活动，以引导流量进入注册登陆页面。
 

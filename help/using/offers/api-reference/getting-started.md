@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '565'
 ht-degree: 5%
 
 ---
@@ -23,18 +23,18 @@ ht-degree: 5%
 
 本指南要求您对Adobe Experience Platform的以下组件有一定的了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target=&quot;_blank&quot;}:标准化框架， [!DNL Experience Platform] 组织客户体验数据。
-   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target=&quot;_blank&quot;}:了解XDM模式的基本构建块。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}:标准化框架， [!DNL Experience Platform] 组织客户体验数据。
+   * [架构组合的基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}:了解XDM模式的基本构建块。
 * [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md):解释Experience Decisioning的一般概念和组件，特别是决策管理。 说明了在客户体验期间选择要显示的最佳选项时所使用的策略。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}:PQL是一种用于通过XDM实例编写表达式的强大语言。 PQL用于定义决策规则。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}:PQL是一种用于通过XDM实例编写表达式的强大语言。 PQL用于定义决策规则。
 
 ## 读取示例API调用 {#reading-sample-api-calls}
 
-本指南提供了示例API调用，以演示如何设置请求的格式。 这包括路径、所需标头以及格式正确的请求负载。 还提供了API响应中返回的示例JSON。 有关示例API调用文档中使用的约定的信息，请参阅 [如何阅读示例API调用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;}(位于 [!DNL Experience Platform] 疑难解答指南。
+本指南提供了示例API调用，以演示如何设置请求的格式。 这包括路径、所需标头以及格式正确的请求负载。 还提供了API响应中返回的示例JSON。 有关示例API调用文档中使用的约定的信息，请参阅 [如何阅读示例API调用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑难解答指南。
 
 ## 收集所需标题的值 {#gather-values-for-required-headers}
 
-为了调用 [!DNL Adobe Experience Platform] API，您必须先完成 [身份验证教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}。 完成身份验证教程将为所有中每个所需标头提供值 [!DNL Experience Platform] API调用，如下所示：
+为了调用 [!DNL Adobe Experience Platform] API，您必须先完成 [身份验证教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成身份验证教程将为所有中每个所需标头提供值 [!DNL Experience Platform] API调用，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 管理员可以将类似的承担者、资源和访问权限分组到用户档案中。 这减轻了管理负担，并受 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必须是组织中Adobe Experience Platform的产品管理员，才能创建用户档案并为其分配用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已获得权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
 
-您可以通过 [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}。 有关更多信息，请参阅 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+您可以通过 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target="_blank"}.
 
 ### 列出用户和集成可访问的容器 {#list-containers-accessible-to-users-and-integrations}
 

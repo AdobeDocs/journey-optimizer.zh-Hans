@@ -11,7 +11,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 历程功能 {#journey-capability}
 
-### [!DNL Manage journeys] 许可 {#manage-journeys}
+### [!DNL Manage journeys] 权限 {#manage-journeys}
 
 的 **[!DNL Manage journeys]** 高级权限允许用户创建新历程和编辑/删除现有访客，以及访问历程画布中用于构建历程流的对象。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    * datasets.read
    * schemas.read
 
-### [!DNL Publish journeys] 许可 {#publish-journeys}
+### [!DNL Publish journeys] 权限 {#publish-journeys}
 
 的 **[!DNL Publish journeys]** 用户通过高级权限发布历程。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
    * journeys.publish
    * journeys.read
 
-### [!DNL View journeys] 许可 {#view-journeys}
+### [!DNL View journeys] 权限 {#view-journeys}
 
 的 **[!DNL View journeys]** 高级权限允许用户浏览和查看历程。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] 许可 {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] 权限 {#manage-journeys-events}
 
 的 **[!DNL Manage journeys events, data sources and actions]** 高级权限允许用户配置事件和数据配置。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys events, data sources and actions] 许可 {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] 权限 {#view-journeys-event}
 
 的 **[!DNL View journeys events, data sources and actions]** 高级权限允许用户在历程流中使用事件和数据。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys report] 许可 {#view-journeys-report}
+### [!DNL View journeys report] 权限 {#view-journeys-report}
 
 的 **[!DNL View journeys report]** 高级权限允许用户报告只读历程。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ## 决策管理能力 {#decisions-permissions}
 
-### [!DNL Manage decisions] 许可 {#manage-decisioning}
+### [!DNL Manage decisions] 权限 {#manage-decisioning}
 
 的 **[!DNL Manage decisions]** 高级权限允许用户创建新页面，以及编辑/删除现有页面 **[!DNL Activity entities]**，以及管理这些活动中用于做出决策的对象。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
    * profile.read
    * segments.read
 
-### [!DNL View decisions] 许可 {#view-decisions}
+### [!DNL View decisions] 权限 {#view-decisions}
 
 的 **[!DNL View decisions]** 高级权限允许用户使用现有活动和相关业务对象做出决策。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
    * datasets.write
    * datasets.delete
 
-### [!DNL Publish offers decisioning] 许可 {#publish-decisions}
+### [!DNL Publish offers decisioning] 权限 {#publish-decisions}
 
 的 **[!DNL Publish offers decisioning]** 高级权限允许用户访问批准/取消批准选件活动。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] 许可 {#manage-ranking-strategies}
+### [!DNL Manage ranking strategies] 权限 {#manage-ranking-strategies}
 
 的 **[!DNL Manage ranking strategies]** 高级权限允许用户读取、创建、编辑和删除排名策略。
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 ## 管理能力 {#administration-permissions}
 
-### [!DNL Manage subdomains delegation] 许可 {#manage-subdomain}
+### [!DNL Manage subdomains delegation] 权限 {#manage-subdomain}
 
 的 **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### [!DNL Manage PTR records] 许可 {#manage-ptr}
+### [!DNL Manage PTR records] 权限 {#manage-ptr}
 
 的 **[!DNL Manage PTR records]** 高级权限允许用户读取和编辑已基于子域配置的PTR记录。
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 * PTR_records.write
 * subdomains_delegation.read
 
-### [!DNL View PTR records] 许可 {#view-ptr}
+### [!DNL View PTR records] 权限 {#view-ptr}
 
 的 **[!DNL View PTR records]** 高级权限允许用户查看基于子域配置的PTR记录。
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 * PTR_records.read
 * subdomains_delegation.read
 
-### [!DNL Manage IP pools] 许可 {#manage-ip-pools}
+### [!DNL Manage IP pools] 权限 {#manage-ip-pools}
 
 的 **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除亲和度定义。
 
@@ -277,7 +277,7 @@ It includes the following low-level permissions:
   * schemas.read
 -->
 
-### [!DNL Manage channel surface] 许可 {#manage-channel-surface}
+### [!DNL Manage channel surface] 权限 {#manage-channel-surface}
 
 的 **[!DNL Manage channel surface]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除渠道表面。
 
@@ -291,7 +291,7 @@ It includes the following low-level permissions:
    * IP_pools.read
    * mobile_setting.read(从Adobe Experience Platform Launch)
 
-### [!DNL View channel surface] 许可 {#view-channel-surface}
+### [!DNL View channel surface] 权限 {#view-channel-surface}
 
 的 **[!DNL View channel surface]** 高级权限允许用户查看通道曲面，以便知道要使用哪些通道曲面。
 
@@ -302,7 +302,7 @@ It includes the following low-level permissions:
 * IP_pools.read
 * mobile_setting.read(从Adobe Experience Platform数据收集)
 
-### [!DNL Manage suppression] 许可 {#manage-suppression}
+### [!DNL Manage suppression] 权限 {#manage-suppression}
 
 的 **[!DNL Manage suppression]** 高级权限允许用户在将电子邮件地址添加到禁止列表之前定义退回次数，以及向禁止列表添加和删除条目。
 
@@ -314,7 +314,7 @@ It includes the following low-level permissions:
 * suppression_list.write
 * suppression_list.delete
 
-### [!DNL View suppression list] 许可 {#view-suppression-list}
+### [!DNL View suppression list] 权限 {#view-suppression-list}
 
 的 **[!DNL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
 
@@ -327,7 +327,7 @@ It includes the following low-level permissions:
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] 许可 {#export-suppression-list}
+### [!DNL Export suppression list] 权限 {#export-suppression-list}
 
 的 **[!DNL Export suppression list]** 高级权限允许用户将禁止列表下载为CSV文件。
 
@@ -340,7 +340,7 @@ It includes the following low-level permissions:
    * profiles.read
    * datasets.read
 
-### [!DNL Manage landing page settings] 许可 {#manage-landing-page-settings}
+### [!DNL Manage landing page settings] 权限 {#manage-landing-page-settings}
 
 的 **[!DNL Manage landing page settings]** 高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
@@ -354,7 +354,7 @@ It includes the following low-level permissions:
    * landing_page_preset.write
    * landing_page_preset.delete
 
-### [!DNL Manage frequency rules] 许可 {#manage-frequency-rules}
+### [!DNL Manage frequency rules] 权限 {#manage-frequency-rules}
 
 的 **[!DNL Manage frequency rules]** 高级权限允许用户读取、创建、编辑、删除和激活/停用频度规则。
 
@@ -365,7 +365,7 @@ It includes the following low-level permissions:
    * frequency_rules.write
    * frequency_rules.delete
 
-### [!DNL View frequency rules] 许可 {#view-frequency-rules}
+### [!DNL View frequency rules] 权限 {#view-frequency-rules}
 
 的 **[!DNL View frequency rules]** 高级权限允许用户查看频度规则。
 

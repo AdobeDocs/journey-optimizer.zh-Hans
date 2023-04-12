@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1363'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 3%
 
    除了这两种方法之外，Adobe Journey Optimizer还提供了 [产品内用例](#use-case-1) 以便于创建测试用户档案。
 
-您还可以在现有数据集中上传json文件。 有关更多信息，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}。
+您还可以在现有数据集中上传json文件。 有关更多信息，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
-请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅 [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅 [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
 
 ➡️ [在此视频中了解如何创建测试用户档案](#video)
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有关模式创建的更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}。
+>有关模式创建的更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 那你需要 **创建数据集** 导入用户档案的位置。 请执行以下步骤：
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 有关数据集创建的更多信息，请参阅 [目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}。
+> 有关数据集创建的更多信息，请参阅 [目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## 产品内用例{#use-case-1}
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 1. 添加 **[!UICONTROL 更新用户档案]** 操作活动。
 1. 选择架构， **testProfiles** 字段，并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL 值]** 字段，单击 **笔** 图标，选择 **[!UICONTROL 高级模式]** 输入 **true**.
    ![](assets/test-profiles-26.png)
-1. 单击 **[!UICONTROL 发布]**.
+1. 单击&#x200B;**[!UICONTROL 发布]**。
 1. 在 **[!UICONTROL 区段]** 部分，检查用户档案是否已正确更新。
    ![](assets/test-profiles-28.png)
 
@@ -177,11 +177,11 @@ ht-degree: 3%
 您的测试用户档案已添加，现在可在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 有关csv导入的更多信息，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}。
+> 有关csv导入的更多信息，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
-您还可以通过API调用创建测试用户档案。 在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target=&quot;_blank&quot;}。
+您还可以通过API调用创建测试用户档案。 在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
 
 您必须使用包含“用户档案测试详细信息”字段组的用户档案架构。 testProfile标记是此字段组的一部分。
 创建用户档案时，请确保传递值：testProfile = true。

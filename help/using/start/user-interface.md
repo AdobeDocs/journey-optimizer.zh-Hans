@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 100%
 
@@ -148,7 +148,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 搜索{#unified-search}
 
-在 Adobe Journey Optimizer 界面的任何地方，使用顶部中央位置的 Adobe Experience Cloud 统一搜索功能在沙箱中查找资产、历程和数据集等等。
+在 Adobe Journey Optimizer 界面的任何地方，使用顶部中央位置的 Adobe Experience Cloud 统一搜索功能在沙盒中查找资产、历程和数据集等等。
 
 开始输入内容以显示排名靠前的结果。与输入的关键词有关的帮助文章也会显示在结果中。
 

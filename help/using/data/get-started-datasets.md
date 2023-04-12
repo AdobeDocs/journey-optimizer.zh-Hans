@@ -10,7 +10,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 * _发送时间优化得分/参与度得分_:历程AI的输出分数。
 
-要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}.
 
 ## 预览数据集{#preview-datasets}
 

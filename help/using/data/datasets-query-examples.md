@@ -29,7 +29,7 @@ ht-degree: 0%
 [密送反馈事件数据集](#bcc-feedback-event-dataset)
 [实体数据集](#entity-dataset)
 
-要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}.
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 
