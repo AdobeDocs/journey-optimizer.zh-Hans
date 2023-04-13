@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
+source-git-commit: 0e45d6e4995f4f21dc5122203b715ae999e2b760
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 8%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 8%
 
 ➡️ [发现Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
+>[!NOTE]
+>
+>除了此集成之外，您还可以将Adobe Journey Optimizer数据集的内容导出到云存储位置，并将此信息用于报告或分析目的。 [了解如何将数据集导出到云存储位置](../data/export-datasets.md)
+>
+>请注意，数据集导出功能目前处于测试阶段，可供所有Adobe Journey Optimizer用户使用。 如果您尚未拥有访问权限，请与 Adobe 代表联系，获取目标的访问权限。
+
 使用之前 [!DNL Customer Journey Analytics] 对于您的历程，必须首先配置此集成：
 
 1. [创建连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans) in [!DNL Customer Journey Analytics] 和 **[!UICONTROL 数据集]** 你想发到Adobe Experience Platform。
@@ -38,7 +44,6 @@ ht-degree: 8%
 1. [创建数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 配置要用于报表的维度和量度。
 
    您可以创建特定于Journey Optimizer的量度，以更好地反映您的历程数据。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
-
 
 使用 [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] 可能会导致以下原因导致报表数据出现差异：
 
