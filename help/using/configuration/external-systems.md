@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1202'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 1. 应用上限或限制规则：如果达到最大速率，则剩余的调用将被丢弃或排入队列。
 
-2. 超时并重试：如果满足上限规则，Journey Optimizer会尝试执行调用，直到达到超时持续时间的结束。
+2. 超时并重试：如果满足上限或限制规则，Journey Optimizer会尝试执行呼叫，直到达到超时持续时间的结束。
 
 ## 限制API上限 {#capping}
 
