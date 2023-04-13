@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 电子邮件，开始，创建，预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 17%
 
 可以创建电子邮件投放：
 
-* 在 **历程**:添加 **[!UICONTROL 电子邮件]** 活动，并定义基本设置，使用 **[!UICONTROL 操作：电子邮件]** 用于创建短信消息内容的右窗格。
+* 在 **历程**:添加 **[!UICONTROL 电子邮件]** 活动，并定义基本设置，使用 **[!UICONTROL 操作：电子邮件]** 右窗格创建消息的内容。
 
    有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
 
