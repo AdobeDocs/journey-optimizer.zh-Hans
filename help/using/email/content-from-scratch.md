@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '569'
 ht-degree: 23%
 
 ---
@@ -82,15 +82,13 @@ ht-degree: 23%
 
    选择 **[!UICONTROL n:n列]** 组件来定义所选的列数（在3到10之间）。 您还可以通过在每列底部移动箭头来定义每列的宽度。
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >每个列大小不能低于结构组件总宽度的10%。 无法删除不为空的列。
 
-1. 展开 **[!UICONTROL 内容组件]** ，并将所需数量的元素添加到一个或多个结构组件中。 [了解有关内容组件的更多信息](content-components.md)
+1. 从 **[!UICONTROL 内容组件]** 列表中，将所需数量的元素添加到一个或多个结构组件中。 [了解有关内容组件的更多信息](content-components.md)
 
-1. 可使用 **[!UICONTROL 组件设置]** 窗格。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
+1. 可使用 **[!UICONTROL 设置]** 或 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_personalization.png)
 
-1. 添加动态内容以根据条件规则将内容调整为目标用户档案。 [动态内容入门](../personalization/get-started-dynamic-content.md)
+1. 单击 **[!UICONTROL 启用条件内容]** 以根据条件规则添加动态内容并将内容调整为目标用户档案。 [动态内容入门](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_links.png)
 
-1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 中。 [了解有关代码编辑器的更多信息](code-content.md)
+1. 您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 中。 [了解有关代码编辑器的更多信息](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

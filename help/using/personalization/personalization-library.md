@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，库，个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 14%
@@ -31,9 +31,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您可以使用“信息”按钮获取有关已保存表达式内容的更多信息。 如果您具有管理库项目的适当权限，则“信息”按钮将显示在椭圆菜单中。
-
-![](assets/library-list.png)
+>您可以从省略号按钮获取有关保存的表达式内容的更多信息。 请注意，如果您有管理库项目的适当权限，信息按钮将显示在省略号中。
 
 单击+以将表达式插入编辑器。 然后，您可以像往常一样自定义和验证个性化内容。 [了解详情](../personalization/personalization-build-expressions.md)
 

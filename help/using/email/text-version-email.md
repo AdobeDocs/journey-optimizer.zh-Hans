@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 文本，电子邮件，版本，纯文本，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 如果您希望对纯文本版本使用其他内容，请执行以下步骤：
 
-1. 从您的电子邮件中，选择 **[!UICONTROL 纯文本]** 选项卡。
+1. 从您的电子邮件中，选择 **[!UICONTROL 纯文本]** 图标。
 
    ![](assets/text_version_3.png)
 

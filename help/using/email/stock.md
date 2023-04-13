@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 库，图像，集成，照片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 1%
 
    如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
 
-
 ## 查找类似照片 {#similar-stock-image}
 
 您可以通过 [!DNL Adobe Stock]. 请注意，此选项适用于所有图像：Assets文件夹中的Stock图像和图像获得许可/未获得许可。
@@ -68,7 +67,7 @@ ht-degree: 1%
 
    如果您选择的图像未获得许可，则必须 [获得许可证](#license-stock-image).
 
-1. 根据需要，使用 **[!UICONTROL 组件设置]** 菜单。 [了解有关组件设置的更多信息](content-components.md).
+1. 根据需要，使用 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 [了解有关组件设置的更多信息](content-components.md).
 
 ## 从获取许可证 [!DNL Adobe Stock] {#license-stock-image}
 
@@ -80,7 +79,7 @@ ht-degree: 1%
 
    ![](assets/stock-license-icon.png)
 
-   然后，系统会将您重定向到 [!DNL Adobe Stock] 网站，但许可证。
+   然后，系统会将您重定向到 [!DNL Adobe Stock] 网站购买许可证。
 
    ![](assets/stock-license-photo.png)
 

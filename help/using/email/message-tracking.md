@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 6%
@@ -73,8 +73,6 @@ ht-degree: 6%
 
    * **[!UICONTROL 镜像页面]**:插入链接以在Web浏览器中显示电子邮件内容。 有关详细信息，请参阅[此部分](#mirror-page)。
 
-   ![](assets/message-tracking-links.png)
-
 1. 您可以个性化自己的链接。在[本节](../personalization/personalization-syntax.md#perso-urls)中了解更多关于个性化 URL 的信息。
 
 1. 保存更改。
@@ -121,8 +119,6 @@ ht-degree: 6%
    利用此列表，可以集中查看并查找电子邮件内容中的每个URL。
 
 1. 要编辑链接，请单击相应的铅笔图标。
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. 您可以修改 **[!UICONTROL 跟踪类型]** （如果需要）：
 

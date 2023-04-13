@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 样式，链接，颜色，电子邮件，编辑器
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '149'
 ht-degree: 8%
 
 ---
@@ -22,11 +22,7 @@ ht-degree: 8%
 
 1. 在文本中 **[!UICONTROL 内容组件]** 插入链接时，选择您的链接。
 
-1. 在 **[!UICONTROL 组件设置]** 菜单，勾选 **[!UICONTROL 下划线链接]** 为链接的标签文本添加下划线。
-
-   ![](assets/link_1.png)
-
-1. 选择如何通过 **[!UICONTROL Target]** 下拉列表：
+1. 从 **[!UICONTROL 设置]** 选项卡，选择受众将如何通过 **[!UICONTROL Target]** 下拉列表：
 
    * **[!UICONTROL 无]**:在点击链接的同一帧中打开该链接（默认）。
    * **[!UICONTROL 空白]**:在新窗口或选项卡中打开链接。
@@ -36,10 +32,12 @@ ht-degree: 8%
 
    ![](assets/link_2.png)
 
-1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]**.
+1. 检查 **[!UICONTROL 下划线链接]** 为链接的标签文本添加下划线。
+
+   ![](assets/link_1.png)
+
+1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]** 从 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/link_3.png)
-
-1. 选你需要的颜色。
 
 1. 保存更改。

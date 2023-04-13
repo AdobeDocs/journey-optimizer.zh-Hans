@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 标题，编辑器，摘要，电子邮件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 38%
+source-wordcount: '197'
+ht-degree: 41%
 
 ---
 
@@ -39,13 +39,9 @@ ht-degree: 38%
 
    ![](assets/preheader_body.png)
 
-1. 从 **[!UICONTROL 正文设置]** 右窗格中，单击 **[!UICONTROL Preheader]** 字段添加内容。
+1. 从 **[!UICONTROL 设置]** ，请单击 **[!UICONTROL Preheader]** 字段添加内容。
 
    ![](assets/preheader_body_settings.png)
-
-1. 添加您的预标头。 您可以通过单击 **[!UICONTROL 添加个性化]** 图标。
-
-   ![](assets/preheader_3.png)
 
 1. 从 **[!UICONTROL 编辑个性化]** 窗口，您可以添加 **[!UICONTROL 内容块]**, **[!UICONTROL 动态内容]** 或 **[!UICONTROL 个性化字段]**.
 

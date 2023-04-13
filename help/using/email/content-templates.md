@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 9%
@@ -108,9 +109,7 @@ ht-degree: 9%
 
 1. 的 [Email Designer](get-started-email-design.md) 显示。 根据需要编辑内容，与根据您选择的选项对历程或营销策划内的任何电子邮件执行的操作相同。
 
-   ![](assets/content-template-designer.png)
-
-1. 您可以根据需要测试内容。 [了解如何操作](#test-template)
+   您可以根据需要测试内容。 [了解如何操作](#test-template)
 
 1. 模板准备就绪后，单击 **[!UICONTROL 保存]**.
 

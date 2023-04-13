@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 28%
@@ -209,15 +209,15 @@ ht-degree: 28%
 >
 >您必须具有测试用户档案才能预览消息和发送校样。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
-1. 在登陆页面界面中，单击 **[!UICONTROL 预览和测试]** 按钮以访问测试用户档案选择。
+1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 预览]** 按钮。
+   >的 **[!UICONTROL 模拟内容]** 按钮。
 
-1. 从 **[!UICONTROL 预览和测试]** ，选择一个或多个测试用户档案。
+1. 从 **[!UICONTROL 模拟]** ，选择一个或多个测试用户档案。
 
    ![](assets/lp_test-profiles.png)
 

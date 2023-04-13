@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1324'
 ht-degree: 11%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >切换到 **[!UICONTROL 表单样式]** 选项卡，以编辑表单组件内容的样式。 [了解详情](#define-lp-styles)
+   >切换到 **[!UICONTROL 样式]** 选项卡，以编辑表单组件内容的样式。 [了解详情](#define-lp-styles)
 
 1. 从 **[!UICONTROL 复选框1]** 部分，则可以编辑与此复选框对应的标签。
 
@@ -83,7 +83,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 订阅列表]**:如果用户档案选中此复选框，则必须选择要更新的订阅列表。 了解详情 [订阅列表](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 渠道（电子邮件）]**:选择加入或选择退出适用于整个渠道。 例如，如果选择退出的用户档案具有两个电子邮件地址，则这两个地址将从您的所有通信中排除。
 
@@ -136,21 +136,25 @@ ht-degree: 11%
 
 ## 定义登陆页面表单样式 {#lp-form-styles}
 
-1. 要修改表单组件内容的样式，请随时切换到 **[!UICONTROL 表单样式]** 选项卡。
+1. 要修改表单组件内容的样式，请随时切换到 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/lp_designer-form-style.png)
 
-1. 展开 **[!UICONTROL 复选框]** 部分定义复选框和相应文本的外观。 例如，您可以调整字体系列或大小，以及复选框边框颜色。
+1. 的 **[!UICONTROL 字段]** 部分默认会展开，并允许您编辑文本字段的外观，如标签和占位符字体、标签的位置、字段背景颜色或字段边框。
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. 展开 **[!UICONTROL 复选框]** 部分定义复选框和相应文本的外观。 例如，您可以调整字体系列或大小，或复选框边框颜色。
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. 展开 **[!UICONTROL 按钮]** 部分修改组件表单中按钮的外观。 例如，您可以添加边框、在悬停鼠标时编辑标签颜色或调整按钮的对齐方式。
+1. 展开 **[!UICONTROL 按钮]** 部分修改组件表单中按钮的外观。 例如，您可以更改字体、添加边框、在悬停时编辑标签颜色或调整按钮的对齐方式。
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   您可以使用 **[!UICONTROL 预览]** 按钮。 了解有关测试登陆页面的更多信息 [此处](create-lp.md#test-landing-page).
+   您可以使用 **[!UICONTROL 模拟内容]** 按钮。 了解有关测试登陆页面的更多信息 [此处](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. 展开 **[!UICONTROL 表单布局]** 部分来编辑布局设置，如背景颜色、内边距或边距。
 
@@ -194,11 +198,15 @@ ht-degree: 11%
 
 1. 保存更改。
 
+现在，当用户选中其中一个复选框时，
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-现在，当用户选中其中一个复选框时，与选定复选框对应的消息将在提交表单时显示出来。
+提交表单时，将显示与选定复选框对应的消息。
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

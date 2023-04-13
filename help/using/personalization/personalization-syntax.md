@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，语法，个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -159,7 +159,7 @@ Journey Optimizer允许您通过向消息中的一个或多个个性化字段，
 1. 在消息内容中创建链接。 [了解详情](../email/message-tracking.md#insert-links)
 1. 从个性化图标中，选择属性。 个性化图标仅适用于以下类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

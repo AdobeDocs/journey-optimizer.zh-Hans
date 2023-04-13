@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 选件，决策，电子邮件，个性化，决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,7 @@ ht-degree: 0%
 
 要通过客户用户档案显示决策中所包含的不同选件，请执行以下步骤。
 
-1. 单击 **[!UICONTROL 预览]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. 单击 **[!UICONTROL “模拟内容”按钮]** 按钮。
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ ht-degree: 0%
 了解如何向 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

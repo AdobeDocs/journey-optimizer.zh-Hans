@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 背景，电子邮件，颜色，编辑器
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 8%
@@ -60,5 +60,3 @@ ht-degree: 8%
    >这是最常见的用例。 Adobe建议在列级别设置背景颜色，因为这样在编辑整个电子邮件内容时就更灵活了。
 
    您也可以在列级别设置背景图像，但很少使用此方法。
-
-   ![](assets/background_5.png)

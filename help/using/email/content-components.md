@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1353'
 ht-degree: 7%
 
 ---
@@ -60,13 +60,17 @@ ht-degree: 7%
    >
    >可以将多个组件添加到单个结构组件中，并添加到结构组件的每一列中。
 
-1. 使用 **[!UICONTROL 组件设置]** 窗格。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
+1. 使用 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
+1. 从 **[!UICONTROL 内容组件]**，您可以根据需要轻松删除或复制任何内容组件。
+
+   ![](assets/email_designer_content_components_settings_2.png)
+
 ## 容器 {#container}
 
-您可以添加一个简单的容器，在其中可以添加其他内容组件。 这允许您对容器应用特定样式，该样式将与内部使用的组件不同。
+要将特定样式应用于一组内容组件，您可以添加 **[!UICONTROL 容器]** 组件，然后在其中添加所需的内容组件。 这允许您对容器应用不同的样式，该样式将与对内部内容组件应用的样式有所不同。
 
 例如，添加 **[!UICONTROL 容器]** 组件，然后添加 [按钮](#button) 组件。 您可以为容器使用特定背景，为按钮使用另一个背景。
 
@@ -78,11 +82,11 @@ ht-degree: 7%
 
 1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 按钮]** 组件 **[!UICONTROL 结构部件]**.
 
-1. 单击您新添加的按钮以个性化文本并有权访问 **[!UICONTROL 组件设置]** 在Email Designer右窗格中。
+1. 单击您新添加的按钮以个性化文本并有权访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/email_designer_button_component.png)
 
-1. 在 **[!UICONTROL 链接]** 字段中，添加您希望在单击按钮时重定向到的URL。
+1. 从 **[!UICONTROL 链接]** 菜单，在单击按钮时添加要重定向到的URL。
 
 1. 选择如何通过 **[!UICONTROL Target]** 下拉列表：
 
@@ -98,13 +102,13 @@ ht-degree: 7%
 
 ## 文本 {#text}
 
-使用 **[!UICONTROL 文本]** 组件，以在电子邮件中插入文本，并调整样式（边框、大小、内边距等） 使用 **[!UICONTROL 组件设置]** 中。
+使用 **[!UICONTROL 文本]** 组件，以在电子邮件中插入文本，并调整样式（边框、大小、内边距等） 使用 **[!UICONTROL 样式]** 选项卡。
 
 ![](assets/email_designer_text_component.png)
 
 1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 文本]** 组件 **[!UICONTROL 结构部件]**.
 
-1. 单击您新添加的组件以个性化文本，并有权访问 **[!UICONTROL 组件设置]** 在Email Designer的右侧窗格中。
+1. 单击您新添加的组件以个性化文本，并有权访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
 1. 使用以下工具栏中的选项更改文本：
 
@@ -115,20 +119,25 @@ ht-degree: 7%
    * **[!UICONTROL 创建列表]**:在文本中添加项目符号或编号列表。
    * **[!UICONTROL 设置标题]**:在文本中最多添加6个标题级别。
    * **字体大小**:以像素为单位选择文本的字体大小。
+   * **[!UICONTROL 更改字体颜色]**:选择字体的颜色。
+   * **[!UICONTROL 插入链接]**:向内容添加任何类型的链接。
    * **[!UICONTROL 编辑图像]**:向文本组件中添加图像或资产。 [了解有关资产管理的更多信息](assets-essentials.md)
+   * **[!UICONTROL 更改字体颜色]**:选择字体的颜色。
+   * **[!UICONTROL 添加个性化]**:添加个性化字段以自定义用户档案数据的内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
    * **[!UICONTROL 显示源代码]**:显示文本的源代码。 无法修改。
+   * **[!UICONTROL 启用条件内容]**:添加条件内容，以将组件内容调整为目标用户档案。 [进一步了解动态内容](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 复制]**:添加文本组件的副本。
    * **[!UICONTROL 删除]**:从电子邮件中删除选定的文本组件。
-   * **[!UICONTROL 添加个性化]**:添加个性化字段以自定义用户档案数据的内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
-   * **[!UICONTROL 启用条件内容]**:添加条件内容，以将组件内容调整为目标用户档案。 [进一步了解动态内容](../personalization/get-started-dynamic-content.md)
 
-1. 调整其他样式属性，如文本颜色、字体系列、边框、内边距、边距等。 从 **[!UICONTROL 组件设置]** 中。
+1. 调整其他样式属性，如文本颜色、字体系列、边框、内边距、边距等。 从 **[!UICONTROL 样式]** 选项卡。
+
+   ![](assets/email_designer_text_component_2.png)
 
 ## 除法器 {#divider}
 
 使用 **[!UICONTROL 除法器]** 用于插入划分线以组织电子邮件的布局和内容的组件。
 
-您可以调整样式属性，如 **[!UICONTROL 组件设置]** 中。
+您可以调整样式属性，如 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
 ![](assets/email_designer_divider.png)
 
@@ -156,18 +165,22 @@ ht-degree: 7%
 
 1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 图像]** 组件 **[!UICONTROL 结构部件]**.
 
+   ![](assets/email_designer_image_content.png)
+
 1. 单击 **[!UICONTROL 浏览]** ，以从资产中选择图像文件。
 
    要了解 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. 单击新添加的组件，然后使用 **[!UICONTROL 组件设置]** 窗格：
+1. 单击新添加的组件，然后从 **[!UICONTROL 设置]** 选项卡：
 
    * **[!UICONTROL 图像标题]** 用于为图像定义标题。
    * **[!UICONTROL 替换文本]** 用于定义链接到图像的标题。 此属性对应于altHTML属性。
 
    ![](assets/email_designer_10.png)
 
-1. 调整其他样式属性，如边距、边框等。 或添加链接，以将受众重定向到 **[!UICONTROL 组件设置]** 中。
+1. 您还可以选择 **[!UICONTROL 查找类似的Stock照片]**. [了解详情](stock.md)
+
+1. 从 **[!UICONTROL 样式]** 选项卡，调整其他样式属性，如边距、边框等。 或添加链接，以将受众重定向到 **[!UICONTROL 组件设置]** 中。
 
 ## 社交 {#social}
 
@@ -175,9 +188,9 @@ ht-degree: 7%
 
 1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 社交]** 组件 **[!UICONTROL 结构部件]**.
 
-1. 单击新添加的组件。
+1. 选择新添加的组件。
 
-1. 在 **[!UICONTROL 社交]** 字段 **[!UICONTROL 组件设置]** 窗格，选择要添加或删除的社交媒体。
+1. 在 **[!UICONTROL 社交]** 字段 **[!UICONTROL 设置]** 选项卡，选择要添加或删除的社交媒体。
 
    ![](assets/email_designer_20.png)
 
@@ -187,13 +200,25 @@ ht-degree: 7%
 
    ![](assets/email_designer_21.png)
 
-1. 您还可以根据需要在 **[!UICONTROL 图像]** 字段。
+1. 您还可以根据需要从资产中更改每个社交媒体的图标。
 
-1. 调整其他样式属性，如样式、边距、边框等。 从 **[!UICONTROL 组件设置]** 中。
+1. 调整其他样式属性，如样式、边距、边框等。 从 **[!UICONTROL 样式]** 选项卡。
 
 ## 优惠决策 {#offer-decision}
 
 使用 **[!UICONTROL 优惠决策]** 组件。 的 [决策管理](../offers/get-started/starting-offer-decisioning.md) 引擎将选择要交付给客户的最佳选件。
+
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 优惠决策]** 组件 **[!UICONTROL 结构部件]**.
+
+1. 单击 **[!UICONTROL 添加]** 选择 **[!UICONTROL 优惠决策]**.
+
+   ![](assets/component_offers.png)
+
+1. 从下拉菜单中，选择 **[!UICONTROL 版面]**.  然后，选择 **[!UICONTROL 优惠决策]** 要添加到内容中，然后单击 **[!UICONTROL 添加]**.
+
+   ![](assets/component_offers_2.png)
+
+1. 从 **[!UICONTROL 优惠决策]** 选项卡，您可以预览或更改插入的选件。
 
 了解如何在 [此部分](add-offers-email.md).
 

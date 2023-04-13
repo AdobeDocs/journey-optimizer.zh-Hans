@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 内联，样式，属性，编辑器
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '122'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 6%
 在Email Designer界面中，当您选择某个元素并在侧面板上显示其设置时，可以自定义该特定元素的内联属性及其值。
 
 1. 在内容中选择一个元素。
-1. 在侧面板上，查找 **[!UICONTROL 内联样式]** 设置。
+
+1. 从 **[!UICONTROL 样式]** 选项卡，查找 **[!UICONTROL 内联样式]** 设置 **[!UICONTROL 高级]** 下拉菜单。
 
    ![](assets/styles_1.png)
 

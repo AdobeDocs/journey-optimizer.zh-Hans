@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，上下文，个性化
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 在电子邮件设计器中，您可以个性化内容：
 
-* 在 **消息**:在文本块内单击，然后单击 **个性化** 图标，然后选择 **插入个性化** 字段。 有关Email Designer界面的更多信息，请参阅此 [部分](../email/get-started-email-design.md).
+* 在 **消息**:在文本块内单击，然后单击 **添加个性化** 图标。 有关Email Designer界面的更多信息，请参阅此 [部分](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

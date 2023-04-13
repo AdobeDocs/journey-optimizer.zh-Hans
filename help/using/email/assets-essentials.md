@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 资产，基本功能， experience manager，集成
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 9%
 
 ---
@@ -57,29 +57,23 @@ ht-degree: 9%
 
 1. 从 **[!UICONTROL 上传文件]**，单击 **[!UICONTROL 浏览]** 然后选择 **[!UICONTROL 浏览文件]** 或 **[!UICONTROL 浏览文件夹]**.
 
-   ![](assets/media_library_3.png)
+1. 选择要上传的文件。 完成后，单击 **[!UICONTROL 上传]**. 要了解有关如何管理资产的更多信息，请参阅 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. 选择要上传的文件。 完成后，单击 **[!UICONTROL 上传]**.
-
-   要了解有关如何管理资产的更多信息，请参阅 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. 上传资产后，您现在可以通过Email Designer将资产插入其中一条消息。
-
-   您的资产还可以使用 **编辑** 模式 [!DNL Assets Essentials]. [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. 要使用Adobe Photoshop Express进一步编辑您的资产，请双击资产。 然后，从右侧菜单中，选择 **[!UICONTROL 编辑模式]** 图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. 从 [!DNL Adobe Journey Optimizer]，选择 **[!UICONTROL 资产选取器]** 电子邮件设计工具的左窗格。
+1. 从 [!DNL Adobe Journey Optimizer]，选择 **[!UICONTROL 资产选取器]** 菜单。
 
    ![](assets/media_library_5.png)
 
-1. 选择 **[!UICONTROL 资产]** 文件夹。 您还可以在搜索栏中搜索资产或文件夹。
+1. 选择您之前创建的 **[!UICONTROL 资产]** 文件夹。 您还可以在搜索栏中搜索资产或文件夹。
 
 1. 将资产拖放到电子邮件内容中。
 
    ![](assets/media_library_6.png)
 
-1. 您可以进一步自定义您的资产，例如使用 **[!UICONTROL 组件设置]**. [了解有关组件设置的更多信息](content-components.md)
+1. 您可以进一步自定义您的资产，例如使用 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 [了解有关组件设置的更多信息](content-components.md)
 
    ![](assets/media_library_13.png)
 
