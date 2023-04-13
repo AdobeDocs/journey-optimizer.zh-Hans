@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选件，决策，电子邮件，个性化，决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,12 @@ ht-degree: 1%
 
 例如，您可以添加一个决策，该决策会在电子邮件中显示一个特殊折扣选件，该选件会因收件人的忠诚度级别而异。
 
-有关如何创建和管理选件的更多信息，请参阅 [此部分](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>如果对历程消息中使用的选件决策进行了更改，则需要取消发布历程并重新发布该历程。  这将确保将更改纳入历程的消息中，并确保消息与最新更新保持一致。
 
-对于 **全端对端示例** 显示如何配置选件，在决策中使用它们并在电子邮件中利用此决策，请注销 [此部分](../offers/offers-e2e.md#insert-decision-in-email).
+* 有关如何创建和管理选件的更多信息，请参阅 [此部分](../offers/get-started/starting-offer-decisioning.md).
+* 对于 **全端对端示例** 显示如何配置选件，在决策中使用它们并在电子邮件中利用此决策，请注销 [此部分](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [在此视频中了解如何将选件添加为个性化](#video-offers)
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 12%
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 * **[!UICONTROL 配置文件属性]** :列出与 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
 * **[!UICONTROL 区段成员资格]** :列出在Adobe Experience Platform分段服务中创建的所有区段。 有关可用分段的更多信息 [此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
-* **[!UICONTROL 优惠决策]** :列出与特定版面关联的所有选件。 选择版面，然后在内容中插入选件。 有关如何管理选件的完整文档，请参阅 [此部分](../email/add-offers-email.md).
+* **[!UICONTROL 优惠决策]** :列出与特定版面关联的所有选件。 选择版面，然后在内容中插入选件。 有关如何管理选件的完整文档，请参阅 [此部分](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL 上下文属性]** :在历程中使用渠道操作活动（电子邮件、推送、短信）时，可通过此菜单访问上下文历程字段。 有关详细信息，请参阅[此部分](personalization-use-case.md)。
 * **[!UICONTROL 帮助程序函数]** :列出可用于对数据执行操作的所有帮助程序函数，例如计算、数据格式或转化、条件，并在个性化环境中处理这些函数。 有关详细信息，请参阅[此部分](functions/functions.md)。
 

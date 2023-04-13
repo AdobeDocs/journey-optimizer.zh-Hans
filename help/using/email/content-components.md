@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 8%
+source-wordcount: '1223'
+ht-degree: 7%
 
 ---
 
@@ -197,3 +197,6 @@ ht-degree: 8%
 
 了解如何在 [此部分](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>如果对历程消息中使用的选件决策进行了更改，则需要取消发布历程并重新发布该历程。  这将确保将更改纳入历程的消息中，并确保消息与最新更新保持一致。

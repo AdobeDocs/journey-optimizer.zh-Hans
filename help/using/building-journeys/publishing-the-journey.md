@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 8%
    ![](assets/journeyuc1_18.png)
 
 历程发布后，处于只读模式。
+
+>[!IMPORTANT]
+>
+>如果对历程消息中使用的选件决策进行了更改，则需要取消发布历程并重新发布该历程。  这将确保将更改纳入历程的消息中，并确保消息与最新更新保持一致。
 
 ## 操作方法视频 {#video}
 

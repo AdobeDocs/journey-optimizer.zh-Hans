@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 3%
+source-wordcount: '1449'
+ht-degree: 2%
 
 ---
 
@@ -184,6 +184,10 @@ ht-degree: 3%
 ![](../assets/decision_created.png)
 
 选择 **[!UICONTROL 编辑]** 按钮返回到决策版模式，在该模式中，您可以修改决策 [详细信息](#create-activity), [决策范围](#add-decision-scopes) 和 [后备优惠](#add-fallback).
+
+>[!IMPORTANT]
+>
+>如果对历程消息中使用的选件决策进行了更改，则需要取消发布历程并重新发布该历程。  这将确保将更改纳入历程的消息中，并确保消息与最新更新保持一致。
 
 选择实时决策并单击 **[!UICONTROL 停用]** 将决策状态设置回 **[!UICONTROL 草稿]**.
 
