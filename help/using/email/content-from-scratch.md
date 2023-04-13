@@ -1,74 +1,74 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中设计电子邮件
-description: 了解如何从头开始设计电子邮件内容
+title: 在Journey Optimizer中从头开始设计内容
+description: 了解如何从头开始设计内容
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 23%
+source-wordcount: '637'
+ht-degree: 5%
 
 ---
 
-# 从零开始 {#content-from-scratch}
+# 从头开始设计内容 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="关于结构组件"
->abstract="结构组件定义电子邮件的版面。"
+>title="添加结构组件"
+>abstract="结构组件定义电子邮件的版面。拖放 **结构** 组件，以开始设计电子邮件内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="关于结构组件"
->abstract="结构组件定义登陆页面的版面。"
+>title="添加结构组件"
+>abstract="结构组件定义登陆页面的版面。拖放 **结构** 组件，以开始设计登陆页面的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="关于结构组件"
->abstract="结构组件定义片段的版面。"
+>title="添加结构组件"
+>abstract="结构组件定义片段的版面。拖放 **结构** 组件，以开始设计片段的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="关于结构组件"
->abstract="结构组件定义模板的版面。"
+>title="添加结构组件"
+>abstract="结构组件定义模板的版面。拖放 **结构** 组件来开始设计模板的内容。"
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定义电子邮件列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义电子邮件的版面。"
+>abstract="Email Designer允许您通过选择列结构轻松定义电子邮件的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="定义登陆页面列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义登陆页面的版面。"
+>abstract="通过设计器，您可以通过选择列结构轻松定义登陆页面的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定义片段列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义片段的版面。"
+>abstract="设计器允许您通过选择列结构轻松定义片段的布局。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定义模板列"
->abstract="使用电子邮件设计器，您可以通过定义列结构来轻松定义模板的版面。"
+>abstract="Designer允许您通过选择列结构轻松定义模板的布局。"
 
 
-通过Email Designer，可轻松定义电子邮件的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计电子邮件的形状。
+使用Adobe Journey Optimizer Designer轻松定义内容的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计内容的形状。
 
-要开始构建电子邮件内容，请执行以下步骤：
+要开始构建内容，请执行以下步骤：
 
-1. 从Email Designer主页中，选择 **[!UICONTROL 从头开始设计]** 选项。
+1. 从Designer主页中，选择 **[!UICONTROL 从头开始设计]** 选项。
 
    ![](assets/email_designer.png)
 
-1. 通过拖放开始设计电子邮件内容 **[!UICONTROL 结构部件]** 到画布中以定义电子邮件的布局。
+1. 通过拖放开始设计内容 **[!UICONTROL 结构]** 到画布中以定义电子邮件的布局。
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 23%
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. 添加任意数量的 **[!UICONTROL 结构部件]** 根据需要，在右侧的专用窗格中编辑其设置。
+1. 添加任意数量的 **[!UICONTROL 结构]** 根据需要，在右侧的专用窗格中编辑其设置。
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,7 +86,7 @@ ht-degree: 23%
    >
    >每个列大小不能低于结构组件总宽度的10%。 无法删除不为空的列。
 
-1. 从 **[!UICONTROL 内容组件]** 列表中，将所需数量的元素添加到一个或多个结构组件中。 [了解有关内容组件的更多信息](content-components.md)
+1. 展开 **[!UICONTROL 内容]** ，并将所需数量的元素添加到一个或多个结构组件中。 [了解有关内容组件的更多信息](content-components.md)
 
 1. 可使用 **[!UICONTROL 设置]** 或 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。 [了解有关对齐和填充的更多信息](alignment-and-padding.md)
 
@@ -98,7 +98,7 @@ ht-degree: 23%
 
    ![](assets/email_designer_asset_picker.png)
 
-1. 插入个性化字段以根据用户档案数据自定义电子邮件内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
+1. 插入个性化字段以根据用户档案属性、区段成员关系、上下文属性等自定义您的内容。 [了解有关内容个性化的更多信息](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,21 +106,21 @@ ht-degree: 23%
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. 单击 **[!UICONTROL 链接]** 选项卡，以显示要跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 标记]** （如果需要）。 [了解有关链接和消息跟踪的更多信息](message-tracking.md)
+1. 单击 **[!UICONTROL 链接]** 选项卡，以显示要跟踪的内容的所有URL。 您可以修改 **[!UICONTROL 跟踪类型]** 或 **[!UICONTROL 标签]** 添加 **[!UICONTROL 标记]** （如果需要）。 [了解有关链接和跟踪的更多信息](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. 您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 中。 [了解有关代码编辑器的更多信息](code-content.md)
+1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 从顶部 **更多** 按钮。 [了解有关代码编辑器的更多信息](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >切换到代码编辑器后，您将无法还原到此电子邮件的可视设计器。
+   >切换到代码编辑器后，无法还原到此内容的可视设计器。
 
-1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 以检查电子邮件渲染。 您可以选择桌面视图或移动设备视图。 [了解有关预览电子邮件的更多信息](preview.md)
+1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 按钮来检查渲染。 您可以选择桌面视图或移动设备视图。 [了解有关预览电子邮件的更多信息](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 准备好电子邮件后，单击 **[!UICONTROL 保存]**.
+1. 内容准备就绪后，单击 **[!UICONTROL 保存]**.
 
