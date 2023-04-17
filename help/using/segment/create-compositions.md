@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informitive"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '411'
 ht-degree: 7%
 
 ---
@@ -63,6 +63,10 @@ ht-degree: 7%
    ![](assets/audiences-publish.png)
 
 1. 准备好构图后，单击 **[!UICONTROL 发布]** 按钮以发布合成并将生成的受众保存到Adobe Experience Platform。
+
+   >[!IMPORTANT]
+   >
+   >在给定的沙盒中，最多可发布75个作品。 如果已达到此阈值，则需要删除合成以释放空间并发布新合成。
 
    如果在发布过程中发生任何错误，则会显示警报，其中包含有关如何解决此问题的信息。
 
