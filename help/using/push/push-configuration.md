@@ -6,7 +6,7 @@ description: 了解如何配置环境以通过Journey Optimizer发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 3%
@@ -16,6 +16,13 @@ ht-degree: 3%
 # 配置推送通知渠道 {#push-notification-configuration}
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始使用 [!DNL Journey Optimizer]，您需要确保移动设备应用程序上以及Adobe Experience Platform中标记上的配置和集成已就位。 要了解 [!DNL Adobe Journey Optimizer] 请参阅 [本页](push-gs.md).
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
 
 ## 开始前 {#before-starting}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 99%
+source-wordcount: '1363'
+ht-degree: 98%
 
 ---
 
@@ -214,8 +214,9 @@ ht-degree: 99%
    + [设计推送通知](using/push/design-push.md)
    + [发送推送通知](using/push/send-push.md)
    + 配置推送通知{#push-config}
-      + [Adobe Journey Optimizer 的推送通知功能](using/push/push-gs.md)
+      + [推送通知流程](using/push/push-gs.md)
       + [配置推送通知渠道](using/push/push-configuration.md)
+      + [移动设备入门快速入门工作流程](using/push/mobile-onboarding-wf.md)
 + 短信渠道{#sms}
    + [短信入门](using/sms/get-started-sms.md)
    + [创建短信消息](using/sms/create-sms.md)
