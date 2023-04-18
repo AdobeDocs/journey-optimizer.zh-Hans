@@ -11,8 +11,8 @@ keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 31%
 
 ---
 
@@ -21,43 +21,43 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="添加结构组件"
->abstract="结构组件定义电子邮件的版面。拖放 **结构** 组件，以开始设计电子邮件内容。"
+>abstract="结构组件定义电子邮件的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的电子邮件内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="添加结构组件"
->abstract="结构组件定义登陆页面的版面。拖放 **结构** 组件，以开始设计登陆页面的内容。"
+>abstract="结构组件定义登陆页面的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的登陆页面内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="添加结构组件"
->abstract="结构组件定义片段的版面。拖放 **结构** 组件，以开始设计片段的内容。"
+>abstract="结构组件定义片段的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的片段内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="添加结构组件"
->abstract="结构组件定义模板的版面。拖放 **结构** 组件来开始设计模板的内容。"
+>abstract="结构组件定义模板的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的模板内容。"
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定义电子邮件列"
->abstract="Email Designer允许您通过选择列结构轻松定义电子邮件的布局。"
+>abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="定义登陆页面列"
->abstract="通过设计器，您可以通过选择列结构轻松定义登陆页面的布局。"
+>abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定义片段列"
->abstract="设计器允许您通过选择列结构轻松定义片段的布局。"
+>abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定义模板列"
->abstract="Designer允许您通过选择列结构轻松定义模板的布局。"
+>abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义模板的版面。"
 
 
 使用Adobe Journey Optimizer Designer轻松定义内容的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计内容的形状。

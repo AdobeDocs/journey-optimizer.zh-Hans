@@ -12,7 +12,7 @@ badge: label="Beta" type="Informitive"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -75,8 +75,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="生成与规则匹配的页面"
->abstract="使用页面匹配规则可以定位与同一规则匹配的多个URL — 例如，如果您要将更改应用于整个网站中的主页横幅，或添加显示在网站所有产品页面上的顶部图像。"
+>title="构建页面匹配规则"
+>abstract="页面匹配规则可以定位匹配相同规则的多个 URL——例如，如果您想要将更改应用到整个网站的主图横幅或添加显示在网站所有产品页面上的顶部图像。"
 
 要开始通过营销活动构建Web体验，请执行以下步骤。
 
