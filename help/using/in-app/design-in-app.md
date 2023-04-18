@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: 应用程序内，消息，设计，格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '886'
 ht-degree: 5%
 
 ---
 
 # 设计应用程序内内容 {#design-content}
 
-您可以编辑应用程序内内容以配置体验选项，包括消息布局和显示、文本和按钮选项。
+您可以编辑应用程序内内容以配置体验选项：
 
-要配置消息内容，请单击 **[!UICONTROL 编辑内容]** 按钮，然后使用屏幕右侧部分的选项来设计应用程序内消息内容。
+* 在 **[!UICONTROL Campaign]**，从 **[!UICONTROL 操作]** 菜单中，要配置消息内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* 在 **[!UICONTROL 历程]**，从应用程序内的高级菜单 **[!UICONTROL 操作]**，则可以使用 **[!UICONTROL 编辑内容]** 按钮。
+
+   ![](assets/design_inapp_journey.png)
 
 的 **[!UICONTROL 高级格式]** 切换可激活其他选项以自定义体验。
 
-创建应用程序内消息并定义其内容并进行个性化后，您便可以查看并激活该消息。 然后，将根据促销活动计划发送通知。 请参阅[此页面](create-in-app.md#in-app-send)以了解详情。
+创建应用程序内消息并定义其内容并进行个性化后，您便可以查看并激活该消息。 然后，将根据促销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
 
 ## 消息布局 {#message-layout}
 

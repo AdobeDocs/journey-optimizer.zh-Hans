@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 历程，消息，推送，短信，电子邮件
+keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 26%
+source-wordcount: '864'
+ht-degree: 22%
 
 ---
 
-# 电子邮件、短信、推送{#add-a-message-in-a-journey}
+# 电子邮件、应用程序内、推送、短信{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信或电子邮件活动，并定义设置和内容即可。 然后，在历程的上下文中执行并发送该事件。
+[!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后，在历程的上下文中执行并发送该事件。
 
 您还可以设置特定操作以发送消息：
 
@@ -33,7 +33,7 @@ ht-degree: 26%
 
 1. 通过[事件](general-events.md)或[读取区段](read-segment.md)活动开始您的历程。
 
-1. 从调板的&#x200B;**操作**&#x200B;部分，拖放&#x200B;**电子邮件**、**短信**&#x200B;或&#x200B;**推送**&#x200B;活动到画布中。
+1. 从 **操作** ，拖放 **电子邮件**, **应用程序内**, **短信** 或 **推送** 活动。
 
 1. 配置活动。 了解在以下页面中创建消息内容的详细步骤：
 
@@ -44,6 +44,14 @@ ht-degree: 26%
    <img alt="潜在客户" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="潜在客户" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>创建应用程序内消息</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ ht-degree: 26%
 
 ## 更新实时内容{#update-live-content}
 
-您可以更新实时历程中消息的内容（电子邮件、短信、推送）。
+您可以更新实时历程中消息的内容（电子邮件、应用程序内、推送、短信）。
 
 为此，请打开您的实时历程，选择消息活动并单击 **编辑内容**.
 
 ![](assets/add-a-message2.png)
 
 但是，您无法更改个性化中使用的属性，无论这些属性是用户档案属性还是上下文数据（来自事件或历程属性）。
+
+请注意，对于应用程序内活动，可以在历程处于实时状态时对内容进行任何更改，但无法修改应用程序内触发器。
 
 ## 发送时间优化{#send-time-optimization}
 

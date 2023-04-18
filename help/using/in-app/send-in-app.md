@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内，消息，创建，开始
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 17%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 17%
 
 ## 在设备上预览 {#preview-device}
 
-一旦 [创建了应用程序内消息](create-in-app.md) 和 [定义其内容](design-in-app.md)，则可以在特定设备中预览应用程序内通知。
+如果您想在应用程序内通知面向所有用户发布之前先了解该通知，则可以在特定设备上预览该通知。 利用此功能，可确保通知在所选设备上的外观和功能符合预期，从而为受众提供更好的用户体验。
 
 为此，请执行以下步骤：
 
@@ -37,7 +38,7 @@ ht-degree: 17%
 
 ## 查看并激活应用程序内通知{#in-app-review}
 
-应用程序内消息准备就绪后，您可以查看并激活它。
+创建应用程序内消息并定义其内容并进行个性化后，您便可以查看并激活该消息。
 
 为此，请执行以下步骤：
 
