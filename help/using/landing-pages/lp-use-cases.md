@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陆，登陆页面，用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '968'
 ht-degree: 14%
 
 ---
@@ -70,11 +70,11 @@ ht-degree: 14%
 
 此外，您还可以向为您的活动注册的收件人发送电子邮件确认。 为此，请执行以下步骤。
 
-1. 创建其他 [历程](../building-journeys/journey.md). 您可以通过单击 **[!UICONTROL 创建历程]** 按钮。 了解更多 [此处](create-lp.md#configure-primary-page)
+1. 创建其他 [历程](../building-journeys/journey.md). 您可以通过单击 **[!UICONTROL 创建历程]** 按钮。 [了解详情](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 展开 **[!UICONTROL 事件]** 类别和拖放 **[!UICONTROL 区段鉴别]** 活动。 了解更多 [此处](../building-journeys/segment-qualification-events.md)
+1. 展开 **[!UICONTROL 事件]** 类别和拖放 **[!UICONTROL 区段鉴别]** 活动。 [了解详情](../building-journeys/segment-qualification-events.md)
 
 1. 单击 **[!UICONTROL 区段]** 字段，然后选择您创建的订阅列表。
 
@@ -127,13 +127,9 @@ ht-degree: 14%
 
 1. 配置并定义页面内容后， [发布](create-lp.md#publish) 登陆页面。
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [创建电子邮件](../email/get-started-email-design.md) 在旅程中。
 
 1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../email/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. 选择 **[!UICONTROL 登陆页面]** 从 **[!UICONTROL 链接类型]** 下拉列表中，然后选择 [登陆页面](create-lp.md#configure-primary-page) 您为选择退出而创建的。
 
