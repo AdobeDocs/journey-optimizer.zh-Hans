@@ -8,7 +8,8 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 3%
@@ -67,7 +68,7 @@ ht-degree: 3%
 
 这具有一些深层含义，对于在线测试非常重要：
 
-* 当有新数据可用时，可以选择更新CS。
+* 当有新数据时，可以选择更新CS。
 * 实验可以持续地监控、自适应地停止或持续。
 * I类错误在所有停止时间（包括与数据相关的时间）都受到控制。
 

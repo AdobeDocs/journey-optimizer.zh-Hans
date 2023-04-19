@@ -12,7 +12,7 @@ exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 ## 开始使用 [!DNL Adobe Stock] {#get-started-stock}
 
-的 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] Email Designer集成插件为客户提供了一种导航、许可和保存图像以用于消息创作的简便方法。
+[!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 电子邮件设计器集成增效工具可帮助客户在创作消息时轻松进行导航、许可并保存图像。
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以授权资产，或仅为所需资产购买一个Standard或Extended许可证。 Adobe Stock还提供免费的资产集合。
 
-使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] 并将其添加到 **[!UICONTROL 资产]** 文件夹 **[!UICONTROL 查找Adobe Stock照片]** 选项。 此外， **[!UICONTROL 查找类似的库存照片]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
+通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
 
 ## 权限{#stock-permissions}
 

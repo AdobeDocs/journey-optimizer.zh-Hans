@@ -6,13 +6,13 @@ description: 了解如何使用上限API
 role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 3%
+ht-degree: 30%
 
 ---
-
 
 # 使用上限API {#work}
 
@@ -107,49 +107,49 @@ ht-degree: 3%
 
 在此部分中，您将找到在中管理上限配置可执行的五个主要用例 [!DNL Journey Optimizer].
 
-为帮助您进行测试和配置，提供了Postman集合 [此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+为帮助您进行测试和配置，可点击[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)获取 Postman 集合。
 
-此Postman集合已设置为共享通过 __[Adobe I/O控制台的集成](https://console.adobe.io/integrations) >试用>下载到Postman__，它会使用选定的集成值生成Postman环境文件。
+此“Postman 集合”已设置为通过 __[Adobe I/O 控制台的集成](https://console.adobe.io/integrations) > 试用 > 为 Postman 下载__&#x200B;共享 Postman 变量集合，它会使用选定的集成值生成 Postman 环境文件。
 
-下载并上传到Postman后，您需要添加三个变量： `{JO_HOST}`,`{BASE_PATH}` 和 `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Optimizer] 网关URL
-* `{BASE_PATH}` :API的入口点。
-* `{SANDBOX_NAME}` :标题 **x-sandbox-name** （例如，“prod”），对应于将执行API操作的沙盒名称。 请参阅 [沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans) 以了解更多信息。
+下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
+* `{JO_HOST}`：[!DNL Journey Optimizer]网关 URL
+* `{BASE_PATH}`：API 的入口点。
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
-在以下部分中，您将找到用于执行用例的Rest API调用排序列表。
+在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
 
 用例n°1: **创建和部署新的上限配置**
 
 1. list
-1. 创建
+1. create
 1. candeploy
-1. 部署
+1. deploy
 
 用例n°2: **更新和部署尚未部署的上限配置**
 
 1. list
 1. get
-1. 更新
+1. update
 1. candeploy
-1. 部署
+1. deploy
 
 用例n°3: **取消部署和删除已部署的上限配置**
 
 1. list
-1. 取消部署
-1. 删除
+1. undeploy
+1. delete
 
 用例n°4: **删除已部署的上限配置。**
 
-在仅一个API调用中，您可以使用forceDelete参数取消部署和删除配置。
+在仅一个 API 调用中，您可以使用 forceDelete 参数取消部署和删除配置。
 1. list
-1. 删除，使用forceDelete参数
+1. 删除，使用 forceDelete 参数
 
 用例n°5: **更新已部署的上限配置**
 
 1. list
 1. get
-1. 更新
-1. 取消部署
+1. update
+1. undeploy
 1. candeploy
-1. 部署
+1. deploy
