@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -41,20 +41,20 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 
 ## Adobe Experience Manager Assets Essentials{#integration-assets}
 
-使用将营销和创意工作流整合在一起 [!DNL Adobe Experience Manager Assets Essentials]. 与本地集成 [!DNL Adobe Journey Optimizer]，访问 [!DNL Assets Essentials] 存储、管理、发现和分发数字资产。 它提供了可用于填充消息的资产集中存储库。
+利用 [!DNL Adobe Experience Manager Assets Essentials] 整合营销和创意工作流。与 [!DNL Adobe Journey Optimizer] 原生集成，可访问 [!DNL Assets Essentials] 来存储、管理、发现和分配数字资源。提供了单一集中式资源存储库，您可以使用它来填充消息。
 
-[!DNL Adobe Experience Manager Assets Essentials] 可以直接从访问 [!DNL Adobe Journey Optimizer] 从左侧菜单 **[!UICONTROL 资产]** 中。
+通过左侧菜单&#x200B;**[!UICONTROL 资源]**&#x200B;部分的 [!DNL Adobe Journey Optimizer]，可直接访问 [!DNL Adobe Experience Manager Assets Essentials]。
 
-详细了解 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+了解 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md) 的更多信息。
 
 
 ## Adobe Stock{#integration-stock}
 
-的 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] Email Designer集成插件为客户提供了一种导航、许可和保存图像以用于消息创作的简便方法。
+[!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 电子邮件设计器集成增效工具可帮助客户在创作消息时轻松进行导航、许可并保存图像。
 
-使用 [!DNL Adobe Journey Optimizer]，则您可以从 [!DNL Adobe Stock] 并将其添加到 **[!UICONTROL 资产]** 文件夹 **[!UICONTROL 查找Adobe Stock照片]** 选项。 此外， **[!UICONTROL 查找类似的库存照片]** 选项可帮助您查找与投放中所用资产的内容、颜色和组成相匹配的图像。
+通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
 
-详细了解 [Journey Optimizer + Stock](../email/stock.md).
+了解 [Journey Optimizer + Stock](../email/stock.md) 的更多信息。
 
 
 ## Adobe 智能服务{#integration-intelligent-service}
