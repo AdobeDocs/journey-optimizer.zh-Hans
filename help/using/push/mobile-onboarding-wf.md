@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informitive"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 6%
 
 ---
 
 # 移动设备入门快速入门工作流程 {#mobile-wf}
 
-新 **移动载入快速启动工作流** 是一项新的产品功能，可快速配置Mobile SDK、开始收集和验证移动事件数据，以及通过发送推送通知 [!DNL Journey Optimizer].
+新 **移动载入快速启动工作流** 是一项新的产品功能，可快速配置Adobe Experience Platform Mobile SDK，开始收集和验证移动事件数据，以及通过发送推送通知 [!DNL Journey Optimizer].
 
 此功能可通过 **[!DNL Adobe Experience Platform Data Collection]** 作为公共测试版发送给所有客户的主页。
 
@@ -35,8 +35,8 @@ ht-degree: 5%
 以下是一些其他功能：
 
 * 简单的四步工作流和用户界面。
-* 提供了一个基本设置，可在几分钟内开始通过Mobile SDK收集移动事件数据。
-* 能够利用“保证”测试和验证基本的移动推送事件。
+* 提供了一个基本设置，用于通过 [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} 几分钟。
+* 能够利用测试和验证基本的移动推送事件 [Adobe Experience Platform保障](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * 自动创建和配置所有必需的数据收集和Journey Optimizer资产。
 * 在产品指南和工具提示中。
 * 根据需要为更高级的实施提供免费过渡。
