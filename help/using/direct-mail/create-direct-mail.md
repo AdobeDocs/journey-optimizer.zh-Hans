@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,9 +85,9 @@ ht-degree: 9%
 
 1. 重复这些步骤以根据需要添加任意数量的列，以构建提取文件。 请注意，最多可添加50列。
 
-   ![](assets/direct-mail-complete.png)
-
    您可以随时删除列，方法是选择该列并单击 **[!UICONTROL 删除]** 按钮 **[!UICONTROL 格式]** 中。
+
+   ![](assets/direct-mail-complete.png)
 
 1. 定义直邮内容后，完成营销活动的配置。
 

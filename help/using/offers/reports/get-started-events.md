@@ -1,15 +1,15 @@
 ---
-title: 决策管理事件入门
+title: 使用决策管理事件
 description: 了解如何在Adobe Experience Platform中创建决策管理报告。
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 56%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,24 @@ ht-degree: 56%
 
 每次决策管理部门对给定的用户档案做出决策时，与这些事件相关的信息都会自动发送到Adobe Experience Platform。
 
-因此您可以导出这些数据，然后将其导入您自己的报告系统中进行分析。您还可以将 Adobe Experience Platform [查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans)与其他工具结合使用，以增强分析和报告。
+这样，您就可以洞察您的决策，例如，知道向给定用户档案展示了哪个选件。 您可以将这些数据导出以将其分析到您自己的报表系统中，或利用Adobe Experience Platform [查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans) 与其他工具结合使用，以增强分析和报告功能。
+
+## 数据集中可用的关键信息 {#key-information}
+
+做出决策时发送的每个事件都包含四个关键数据点，您可以利用这些数据点进行分析和报告：
+
+![](../assets/events-dataset-preview.png)
+
+* **[!UICONTROL 回退]**:如果未选择个性化选件，则备用选件的名称和ID
+* **[!UICONTROL 版面]**:用于交付选件的版面的名称、ID和渠道，
+* **[!UICONTROL 选择]**:为配置文件选择的选件的名称和ID，
+* **[!UICONTROL 活动]**:决策的名称和ID。
+
+此外，您还可以利用 **[!UICONTROL identityMap]** 和 **[!UICONTROL 时间戳]** 字段，以检索有关用户档案和选件交付时间的信息。
+
+有关随每项决策发送的所有 XDM 字段的更多信息，请参阅[此小节](xdm-fields.md)。
+
+## 访问数据集 {#access-datasets}
 
 可从Adobe Experience Platform访问包含决策管理事件的数据集 **[!UICONTROL 数据集]** 菜单。 在为每个实例进行预配时会自动创建一个数据集。
 
@@ -28,8 +45,3 @@ ht-degree: 56%
 >[!NOTE]
 >
 >请注意，ODE DecisionEvents 数据集是&#x200B;**非用户档案数据集**，这意味着它们不能被引入到 Experience Platform 中以供实时客户档案使用。
-
-**相关主题：**
-
-* [决策管理事件关键信息](../reports/key-information.md)
-* [访问事件 XDM 字段](../reports/xdm-fields.md)
