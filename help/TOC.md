@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [条件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [阅读区段](using/building-journeys/read-segment.md)
-      + [电子邮件、应用程序内、推送、短信](using/building-journeys/journeys-message.md)
+      + [电子邮件、应用程序内消息、推送、短信](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-classic.md)
@@ -215,9 +215,9 @@ ht-degree: 98%
    + [设计推送通知](using/push/design-push.md)
    + [发送推送通知](using/push/send-push.md)
    + 配置推送通知{#push-config}
-      + [推送通知流程](using/push/push-gs.md)
+      + [推送通知数据流](using/push/push-gs.md)
       + [配置推送通知渠道](using/push/push-configuration.md)
-      + [移动设备入门快速入门工作流程](using/push/mobile-onboarding-wf.md)
+      + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
 + 短信渠道{#sms}
    + [短信入门](using/sms/get-started-sms.md)
    + [创建短信消息](using/sms/create-sms.md)
