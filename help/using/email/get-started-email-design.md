@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 电子邮件，设计，库存，资产
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 18%
 * 通过根据客户的用户档案属性创建个性化的动态消息来增强客户体验。 详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在视频中发现此功能](#video)
+
+## 电子邮件设计最佳实践 {#best-practices}
+
+发送电子邮件时，请务必考虑收件人可能会转发这些电子邮件，这有时可能会导致电子邮件渲染出现问题。 当使用电子邮件提供程序可能不支持的用于转发的CSS类时（例如，如果您使用“is-desktop-hidden”CSS类在移动设备上隐藏图像），尤其如此。
+
+为了最大限度地减少这些渲染问题，我们建议保持电子邮件设计结构尽可能简单。 请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的CSS类或其他设计元素，这些元素可能并非所有电子邮件客户端都完全支持。 通过遵循这些最佳实践，您可以确保无论收件人如何查看或转发电子邮件，电子邮件均能始终如一地正确呈现。
+
+## 创建电子邮件内容的关键步骤 {#key-steps}
 
 一旦 [添加了电子邮件](create-email.md) 到历程或营销策划，您可以开始创建电子邮件内容。
 
