@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1858'
 ht-degree: 82%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 82%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年4月早期发行说明 {#apr-e-rn-2023}
+## 2023年4月发行说明 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
 **Release date**: April 27, 2023-->
 
 ### 新功能{#apr-2023-features}
-
 
 <table>
 <thead>
