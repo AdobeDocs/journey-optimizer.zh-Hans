@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c523783b0984a36f919a581053e994ca131a0115
+source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 81%
@@ -41,7 +41,7 @@ ht-degree: 81%
 <tr>
 <td>
 <p>Adobe Journey Optimizer正通过增加对web渠道的支持来扩展其跨渠道功能。 您现在可以像任何其他渠道一样通过智能且直观的可视化界面创作、更改和预览Web体验，以个性化最终用户体验。 请注意，目前在Journey Optimizer中，您只能在营销活动中创建Web体验。</p>
-<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
