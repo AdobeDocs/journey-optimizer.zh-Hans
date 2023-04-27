@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 创建，优化程序，营销活动，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 22%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 22%
 
 
 要创建新营销活动，请访问 **[!UICONTROL 促销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
-
-![](assets/create-campaign.png)
 
 ## 选择营销活动类型和渠道 {#campaigntype}
 
@@ -64,15 +62,13 @@ ht-degree: 22%
 
 ## 定义营销活动属性 {#create}
 
-1. 指定营销活动的标题和描述。
+1. 在 **[!UICONTROL 属性]** 部分，指定营销活动的名称和描述。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. 要为营销活动分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
-
-## 创建消息 {#content}
+## 创建消息并配置跟踪 {#content}
 
 在 **[!UICONTROL 操作]** 部分创建要与营销活动一起发送的消息。
 
@@ -123,21 +119,21 @@ ht-degree: 22%
 
 ## 定义受众 {#audience}
 
-1. 定义要定位的受众。 为此，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用的Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
+单击 **[!UICONTROL 选择受众]** 按钮以显示可用的Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >对于API触发的营销活动，需要通过API调用来设置受众。 [了解详情](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>对于API触发的营销活动，需要通过API调用来设置受众。 [了解详情](api-triggered-campaigns.md)
 
-   在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
+在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >属于某个客户群的不同身份中没有选定身份（命名空间）的个人将不会被营销活动定位。
+>[!NOTE]
+>
+>属于某个客户群的不同身份中没有选定身份（命名空间）的个人将不会被营销活动定位。
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 计划营销活动 {#schedule}
 
