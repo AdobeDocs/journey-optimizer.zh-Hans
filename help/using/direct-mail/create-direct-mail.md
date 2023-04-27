@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informitive"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '517'
+ht-degree: 9%
 
 ---
 
@@ -60,8 +60,6 @@ ht-degree: 0%
    ![](assets/direct-mail-campaign.png)
 
 1. 单击 **[!UICONTROL 创建]** 然后，定义营销活动的基本信息（名称、描述）。 [了解如何配置营销活动](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. 单击 **[!UICONTROL 编辑内容]** 按钮以配置要发送到直邮提供商的提取文件。
 

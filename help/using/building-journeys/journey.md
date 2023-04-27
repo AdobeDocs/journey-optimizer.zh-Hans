@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 历程，发现，快速入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 28%
 
 ---
@@ -29,6 +29,11 @@ ht-degree: 28%
 * 使用 **内置操作** 发送 [!DNL Journey Optimizer] 或创建 **自定义操作** 如果您使用第三方系统来发送消息。
 
 * 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取区段活动、添加条件和发送个性化消息。
+
+
+>[!NOTE]
+>
+>历程护栏和限制详见 [本页](../start/guardrails.md)
 
 ## 创建历程的步骤{#steps-journey}
 
@@ -71,7 +76,7 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 
 在历程列表中，所有历程版本均显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
-当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版本界面的顶部画布上方。
+当您搜索历程时，最新版本会在首次打开应用程序时显示在列表顶部。 然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。 历程版本还显示在历程版界面的顶部，画布上方。
 
 ![](assets/journeyversions1.png)
 
@@ -98,7 +103,3 @@ Adobe Journey Optimizer包含全渠道编排画布，使营销人员能够将营
 历程版本可以单独停止。 历程的所有版本都具有相同的名称。
 
 当您发布新版本的历程时，之前的版本会自动结束并切换到 **已关闭** 状态。 旅程中不可能进入。 即使停止最新版本，以前的版本仍会保持关闭状态。
-
->[!NOTE]
->
->在 [本页](../start/guardrails.md#journey-versions-limitations)

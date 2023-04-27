@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1371'
+ht-degree: 99%
 
 ---
 
@@ -230,10 +230,10 @@ ht-degree: 0%
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
 + Web 渠道{#web}
    + [Web 渠道入门](using/web/get-started-web.md)
+   + [Web渠道先决条件](using/web/web-prerequisites.md)
    + [创建 Web 体验](using/web/create-web.md)
    + [创建 Web 页面](using/web/author-web.md)
-   + [可视化编辑帮助程序扩展](using/web/visual-editing-helper.md)
-   + [Web 报告](using/web/web-report.md)
+   + [配置Web子域](using/web/web-delegated-subdomains.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 0%
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
+      + [组件列表](using/reports/live-report-components.md)
       + [历程实时报告](using/reports/journey-live-report.md)
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全局报告 {#global-report}
       + [全局报告入门](using/reports/global-report.md)
+      + [组件列表](using/reports/global-report-components.md)
       + [历程全局报告](using/reports/journey-global-report.md)
       + [营销活动全局报告](using/reports/campaign-global-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)

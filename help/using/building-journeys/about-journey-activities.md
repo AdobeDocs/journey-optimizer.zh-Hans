@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,27 @@ ht-degree: 17%
 
 ## 最佳实践 {#best-practices}
 
+### 添加标签
+
 大多数活动都允许您定义 **[!UICONTROL 标签]**. 这会为将在画布中活动下方显示的名称添加后缀。 如果您在历程中多次使用同一活动并希望更轻松地识别它们，则此功能非常有用。 它还可以在出错时更轻松地进行调试，并且还可以更轻松地阅读报表。 您还可以添加一个可选 **[!UICONTROL 描述]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### 管理高级参数 {#advanced-parameters}
+
+大多数活动都显示许多您无法修改的高级和/或技术参数。
+
+![](assets/journey-advanced-parameters.png)
+
+为了更好的可读性，您可以使用 **[!UICONTROL 隐藏只读字段]** 按钮。
+
+![](assets/journey-hide-read-only-fields.png)
+
+在某些特定环境中，您可以覆盖这些参数的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### 添加替代路径
 
 当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中方框 **[!UICONTROL 在出现超时或错误时添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 

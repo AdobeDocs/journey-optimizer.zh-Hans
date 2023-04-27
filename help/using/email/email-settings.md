@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 设置，电子邮件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 9%
+source-wordcount: '1739'
+ht-degree: 8%
 
 ---
 
@@ -243,9 +243,23 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-您还可以编辑每个 **[!UICONTROL 值]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开编辑器。 从此处，您可以选择所选的上下文属性和/或直接编辑文本。
+您还可以编辑每个 **[!UICONTROL 值]** 字段 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击编辑图标以打开编辑器。 从此处，您可以选择可用的上下文属性和/或直接编辑文本。
 
 ![](assets/preset-url-tracking-editor.png)
+
+可以通过表达式编辑器使用以下预定义值：
+
+* **源操作ID**:添加到历程或营销策划的电子邮件操作的ID。
+
+* **源操作名称**:添加到历程或营销策划的电子邮件操作的名称。
+
+* **源ID**:与电子邮件一起发送的历程或营销策划的ID。
+
+* **源名称**:发送电子邮件的历程或营销策划的名称。
+
+* **源版本ID**:随电子邮件发送的历程或营销活动版本的ID。
+
+* **选件ID**:电子邮件中使用的选件的ID。
 
 >[!NOTE]
 >

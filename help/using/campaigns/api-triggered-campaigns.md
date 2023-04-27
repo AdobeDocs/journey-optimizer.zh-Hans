@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 促销活动， API触发， REST，优化程序，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 3%
 
 ---
@@ -39,9 +39,7 @@ API触发的营销活动的可用渠道有电子邮件、短信和推送消息�
 
    ![](assets/api-triggered-type.png)
 
-1. 为营销活动指定标题和描述，然后配置要发送的消息。
-
-   ![](assets/api-triggered-properties.png)
+1. 指定营销活动的标题和描述，然后点击 **[!UICONTROL 编辑内容]** 配置要发送的消息。
 
    >[!NOTE]
    >

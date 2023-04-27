@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，模板
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 1. 单击屏幕右上方的省略号。
 
-1. 选择 **[!UICONTROL 保存设计模板]** 下拉菜单中。
+1. 选择 **[!UICONTROL 另存为内容模板]** 下拉菜单中。
 
    ![](assets/lp_designer-save-template.png)
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. 单击 **[!UICONTROL 使用此登陆页面]**.
+1. 单击 **[!UICONTROL 使用此模板]**.
 
 1. 使用登陆页面设计器根据需要编辑内容。
 

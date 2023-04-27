@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 历程，消息，营销活动，集成
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '412'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 3%
 # 用例：使用Campaign v7/v8发送消息 {#campaign-classic-use-case}
 
 此用例介绍使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
+
+>[!NOTE]
+>
+>要使用此集成，您必须具有Campaign Classic内部版本9125或更高版本。
 
 我们将首先在Campaign中创建事务型电子邮件模板。 然后，在Journey Optimizer中，我们将创建事件、操作并设计历程。
 

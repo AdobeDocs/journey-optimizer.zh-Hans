@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 ### 自定义事件
 
-有关与选件绑定的自定义事件的反馈，可根据您自己的偏好发送到Adobe Experience Platform。 例如，如果选件具有多个按钮，例如 *感兴趣*, *不感兴趣*&#x200B;等，则您可能希望单独发送这些事件，但这些事件也可以作为体验事件发送。 <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+有关与选件绑定的自定义事件的反馈，可根据您自己的偏好发送到Adobe Experience Platform。 例如，如果选件具有多个按钮，例如 *感兴趣*, *不感兴趣*&#x200B;等，则您可能希望单独发送这些事件，但这些事件也可以作为体验事件发送。
 
 ## 发送反馈数据
 

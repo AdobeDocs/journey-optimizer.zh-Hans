@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，用例，消息，订阅者，列表，读取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '331'
+ht-degree: 17%
 
 ---
 
@@ -56,3 +56,7 @@ ht-degree: 4%
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. 在 **[!UICONTROL 添加表达式]** 对话框，单击 **[!UICONTROL 确定]**.
+
+>[!CAUTION]
+>
+>仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。[了解详情](../configuration/primary-email-addresses.md)

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2357'
 ht-degree: 17%
 
 ---
@@ -215,9 +215,12 @@ ht-degree: 17%
    1. 创建规则后，该规则会显示在 **[!UICONTROL 自定义事件查询]** 字段。
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >对于除决策事件之外的所有上限事件，可能不会自动收集决策管理反馈，因此请确保数据传入。 [了解有关数据收集的更多信息](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>对于除决策事件之外的所有上限事件，可能不会自动收集决策管理反馈，这可能会导致上限计数器无法正确递增。 [了解详情](../data-collection/data-collection.md)
+>
+>要确保在上限计数器中跟踪每个上限事件并对其进行计数，请确保用于收集体验事件的架构包含该事件的正确字段组。 [了解详情](../data-collection/schema-requirement.md)
 
 ### 上限计数 {#capping-count}
 
@@ -245,7 +248,7 @@ ht-degree: 17%
 
    例如，如果您是拥有“白金信用卡”选件的银行，则您不希望此选件在每个用户档案中显示超过5次。 事实上，您认为如果用户查看了选件5次而未对其执行操作，则他们更有机会对下一个最佳选件执行操作。
 
-### 频率封顶 {#frequency-capping}
+### 频次上限 {#frequency-capping}
 
 的 **[!UICONTROL 频率]** 部分允许您定义重置上限计数的频率。 为此，请定义计数的时间段（每日、每周或每月），并输入您选择的天/周/月数。
 

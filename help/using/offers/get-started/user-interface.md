@@ -6,56 +6,45 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 38%
+source-wordcount: '662'
+ht-degree: 35%
 
 ---
 
 # 用户界面 {#user-interface}
 
-选件库允许您在一个位置创建和管理版面和选件，以及访问所有创建的决策。
+的 **[!UICONTROL 决策管理]** 左边栏中的部分提供了两个菜单，用于访问决策管理功能：
 
->[!NOTE]
->
->如果您在访问选件库或其某些功能时遇到问题，请咨询已向您授予所需权限的管理员用户。 请参阅 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
+使用 **[!UICONTROL 选件]** 菜单，用于管理和提供您的选件：
 
-使用  **[!UICONTROL 选件]** 菜单，用于管理个性化和备用选件，将其组织到集合中，并通过创建决策来提供它们：
-
-* **[!UICONTROL 概述]**:新 [!DNL decision management]? 按照屏幕上的步骤，开始设置版面、选件和收藏集。 当已经熟悉 [!DNL decision management]，获取有关最新选件、收藏集和决策的概述。 请参阅[概述](#overview)。
-
-* **[!UICONTROL 选件]**:访问您的个性化和后备优惠或创建新优惠。 请参阅[创建优惠](../offer-library/creating-personalized-offers.md)和[创建后备优惠](../offer-library/creating-fallback-offers.md)。
-
-* **[!UICONTROL 收藏集]**:创建和管理静态和动态选件集合。 请参阅[关于优惠收藏集](../offer-library/creating-collections.md)。
-
-* **[!UICONTROL 决策]**:创建和管理决策以提供选件。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
 ![](../assets/offers_menu.png)
 
-使用  **[!UICONTROL 组件]** 用于管理创建选件所需组件的菜单：
+* **[!UICONTROL 概述]**:新 [!DNL decision management]? 按照屏幕上的步骤，开始设置版面、选件和收藏集。 当已经熟悉 [!DNL decision management]，获取有关最新选件、收藏集和决策的概述。 [了解详情](#overview)
+* **[!UICONTROL 选件]**:创建并访问您的个性化和后备优惠。 了解如何创建 [选件](../offer-library/creating-personalized-offers.md) 和 [后备优惠](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL 收藏集]**:将选件整理到静态和动态收藏集中。 [了解详情](../offer-library/creating-collections.md)
+* **[!UICONTROL 决策]**:创建和管理决策以提供选件。 [了解详情](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL 批量决策]**:向给定Adobe Experience Platform区段中的所有用户档案提供优惠决策。 [了解详情](../batch-delivery.md)
+* **[!UICONTROL 模拟]**:通过模拟将哪些选件交付到给定版面的测试用户档案来验证您的决策逻辑。 [了解详情](../offer-activities/simulation.md)
 
-* **[!UICONTROL 版面]**:创建和管理将显示选件的版面。 请参阅[创建投放位置](../offer-library/creating-placements.md)。
-
-* **[!UICONTROL 集合限定符]**:创建和管理收藏集限定符（以前称为“标记”），以组织和筛选选件。 请参阅 [创建集合限定符](../offer-library/creating-tags.md).
-
-* **[!UICONTROL 规则]**:管理提供选件的条件。 请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
-
-* **[!UICONTROL 排名]**:创建并管理排名公式，以确定应首先为给定版面显示哪个选件。 请参阅[创建排名公式](../ranking/create-ranking-formulas.md)。
+使用 **[!UICONTROL 组件]** 菜单，用于创建和管理创建选件和决策所需的组件：
 
 ![](../assets/offer_activities.png)
 
+* **[!UICONTROL 版面]**:创建和管理将显示选件的版面。 [了解详情](../offer-library/creating-placements.md)
+* **[!UICONTROL 集合限定符]**:创建和管理收藏集限定符（以前称为“标记”），以组织和筛选选件。 [了解详情](../offer-library/creating-tags.md)
+* **[!UICONTROL 规则]**:管理提供选件的条件。 [了解详情](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL 排名]**:创建并管理排名公式，以确定应首先为给定版面显示哪个选件。 [了解详情](../ranking/create-ranking-formulas.md)
+
+>[!NOTE]
+>
+>如果您在访问决策管理或其某些功能时遇到问题，请咨询管理员用户，您是否已获得所需权限。 请参阅 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
+
 ## 概述 {#overview}
 
-当您是 [!DNL decision management], **[!UICONTROL 概述]** 选项卡可引导您完成开始构建首个选件决策所需的主要步骤。
-
-![](../assets/overview_onboarding.png)
-
-按照屏幕上的步骤开始创建版面、选件和收藏集。
-
-完成这些首要步骤后，系统会提示您创建选件决策。
-
-![](../assets/overview_collection-created.png)
+当您是 [!DNL decision management], **[!UICONTROL 概述]** 选项卡可引导您完成开始构建首个选件决策所需的主要步骤。 按照屏幕上的步骤开始创建版面、选件和收藏集。 完成这些首要步骤后，系统会提示您创建选件决策。
 
 >[!NOTE]
 >
@@ -95,11 +84,7 @@ ht-degree: 38%
 
 通过优惠和优惠活动列表也可对多个元素执行批量操作。为此，请选择所需的优惠或决策，然后从信息窗格中选择要执行的操作。
 
-![](../assets/bulk-actions.png)
-
 请注意，您还可以复制现有选件或决策，以便使用 **[!UICONTROL 草稿]** 状态。 可以在信息窗格或在优惠或决策的详细视图中执行此操作。
-
-![](../assets/duplicate-offer.png)
 
 ## 优惠和决策更改日志 {#changes-logs}
 

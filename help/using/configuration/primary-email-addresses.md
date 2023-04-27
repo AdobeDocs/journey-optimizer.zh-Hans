@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 更改主电子邮件地址
+title: 更改执行地址
 description: 了解如何从用户档案服务确定要使用的电子邮件地址。
 feature: Application Settings
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 主，执行，电子邮件，定位，配置文件，优化程序
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 26%
+source-wordcount: '431'
+ht-degree: 23%
 
 ---
 
-# 更改主地址 {#change-primary-email}
+# 更改执行地址 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -30,13 +30,25 @@ ht-degree: 26%
 
 定位用户档案时，数据库中可能有多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
 
-使用 [!DNL Journey Optimizer]，您可以确定从用户档案服务中使用的电子邮件地址或电话号码，并在多个地址可用时排定优先级。 为此，请执行以下步骤。
+在这种情况下， [!DNL Journey Optimizer] 使用 **[!UICONTROL 执行字段]** 以确定优先使用用户档案服务的电子邮件地址或电话号码。
+
+要检查默认当前使用的字段，请访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]** 菜单。
+
+![](assets/primary-address-execution-fields.png)
+
+当前值用于沙盒级别的所有投放。 您可以根据需要更新这些字段。
+
+在大多数情况下，您将全局更改执行字段，并定义一个值，该值应用于所有电子邮件或短信消息。 <!--[Learn how](#admin-settings)-->
+
+<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+
+## 更新管理设置 {#admin-settings}
+
+要在沙盒级别全局更改执行字段，请执行以下步骤。
 
 1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]** 菜单。
 
-   ![](assets/primary-address-execution-fields.png)
-
-1. 默认情况下，当前用于确定用户档案电子邮件地址和电话号码的字段会显示在此屏幕上。 单击 **[!UICONTROL 编辑]** 来改变他们。
+1. 单击 **[!UICONTROL 编辑]** 来更改默认值。
 
    ![](assets/primary-address.png)
 
@@ -53,3 +65,22 @@ ht-degree: 26%
 执行字段已更新，现在将用作主地址。
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
+
+## 覆盖历程参数中的值 {#journey-parameters}
+
+仅对于特定用例，您可以全局覆盖设置的执行字段，并在历程级别定义不同的值，尤其是电子邮件渠道的值。
+
+添加 **[!UICONTROL 电子邮件]** 操作 [历程](../email/create-email.md#create-email-journey-campaign)，则主电子邮件地址显示在历程高级参数下。
+
+在某些特定上下文中，您可以使用 **[!UICONTROL 启用参数覆盖]** 图标 **[!UICONTROL 地址]** 字段。
+
+![](assets/journey-enable-parameter-override.png)
+
+>[!CAUTION]
+>
+>仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。
+
+覆盖此值可能对以下项目有用：
+
+* 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，将向您发送电子邮件。
+* 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。

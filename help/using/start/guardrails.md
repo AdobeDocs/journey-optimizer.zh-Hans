@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ ht-degree: 100%
 
 ## 历程护栏 {#journeys-guardrails}
 
+### 一般历程护栏 {#journeys-guardrails-journeys}
+
+* 历程中的活动数量最多为50个。 活动数显示在历程画布的左上角部分。
+* 数量 **实时历程** 在一个组织中，每个沙箱最多限制为100个。 达到此限制后，您将无法再发布新历程。
+
 ### 常规操作 {#general-actions-g}
 
 * 无发送限制。
@@ -67,6 +72,7 @@ ht-degree: 100%
 * 查询参数或标头的名称不得以“.”或“$”开始
 * 不允许使用 IP 地址
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
+* 无法删除内置的自定义操作。
 
 ### 事件 {#events-g}
 
@@ -99,5 +105,6 @@ ht-degree: 100%
 
 ### 表达式编辑器 {#expression-editor}
 
-* 以读取区段、区段鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+* 以读取区段、区段鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。您需要创建新区段并在历程中使用内段条件。
+
 

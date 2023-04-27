@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1539'
 ht-degree: 28%
 
 ---
@@ -223,13 +223,13 @@ ht-degree: 28%
 
    选择测试用户档案的步骤与测试消息时相同。 详见 [此部分](../email/preview.md#select-test-profiles).
 
-1. 选择 **[!UICONTROL 预览]** 选项卡，单击 **[!UICONTROL 打开预览]** 来测试登陆页面。
+1. 选择 **[!UICONTROL 打开预览]** 来测试登陆页面。
 
    ![](assets/lp_open-preview.png)
 
 1. 登陆页面的预览将在新选项卡中打开。 个性化元素会被替换为选定的测试用户档案数据。
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. 选择其他测试用户档案以预览登陆页面每个变体的呈现。
 

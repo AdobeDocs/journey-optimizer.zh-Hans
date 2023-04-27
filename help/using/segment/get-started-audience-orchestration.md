@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 23%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->受众构成当前仅作为私有测试版提供，可能会频繁更新，恕不另行通知。 测试版是在IMS组织级别设置的，这意味着它将影响您组织内的所有沙箱。
+>受众构成当前仅作为私有测试版提供，可能会频繁更新，恕不另行通知。 测试版是在组织级别设置的，这意味着它将影响您组织内的所有沙箱。
 
 通过受众构图，您可以创建 **组合工作流**，您可以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
 

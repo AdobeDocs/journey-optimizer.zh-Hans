@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，疑难解答
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -128,6 +128,7 @@ ht-degree: 11%
 的 **[!UICONTROL 显示日志]** 按钮查看测试结果。 此页面以JSON格式显示历程的当前信息。 利用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >

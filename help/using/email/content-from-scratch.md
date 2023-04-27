@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '654'
 ht-degree: 31%
 
 ---
@@ -110,13 +110,11 @@ ht-degree: 31%
 
    ![](assets/email_designer_links.png)
 
-1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 从顶部 **更多** 按钮。 [了解有关代码编辑器的更多信息](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. 如果需要，您可以通过单击 **[!UICONTROL 切换到代码编辑器]** 中。 这允许您编辑电子邮件源代码，例如添加跟踪或自定义HTML标记。 [了解有关代码编辑器的更多信息](code-content.md)
 
    >[!CAUTION]
    >
-   >切换到代码编辑器后，无法还原到此内容的可视设计器。
+   >切换到代码编辑器后，无法还原到此电子邮件的可视设计器。
 
 1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 按钮来检查渲染。 您可以选择桌面视图或移动设备视图。 [了解有关预览电子邮件的更多信息](preview.md)
 

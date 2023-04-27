@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 
    有关如何配置旅程的更多信息，请参阅 [本页](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   的 **[!UICONTROL 曲面]** 默认情况下，字段会预填充用户用于该渠道的最后一个曲面。
 
 您现在可以从 **[!UICONTROL 编辑内容]** 按钮。 [定义短信内容](#sms-content)
 

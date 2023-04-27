@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 22%
 
 ---
 
-# 电子邮件、应用程序内、推送、短信{#add-a-message-in-a-journey}
+# 电子邮件、应用程序内消息、推送、短信{#add-a-message-in-a-journey}
 
 [!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后，在历程的上下文中执行并发送该事件。
 
@@ -85,6 +85,10 @@ ht-degree: 22%
 ![](assets/add-a-message2.png)
 
 但是，您无法更改个性化中使用的属性，无论这些属性是用户档案属性还是上下文数据（来自事件或历程属性）。
+
+如果您修改了上下文数据，将显示以下错误消息：ERR_AUTHORING_JOURNEYVERSION_201
+
+如果修改了配置文件属性，将显示以下错误消息：ERR_AUTHORING_JOURNEYVERSION_202
 
 请注意，对于应用程序内活动，可以在历程处于实时状态时对内容进行任何更改，但无法修改应用程序内触发器。
 

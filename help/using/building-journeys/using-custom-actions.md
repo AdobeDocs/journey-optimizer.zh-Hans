@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 24%
+source-wordcount: '400'
+ht-degree: 25%
 
 ---
 
@@ -55,18 +55,13 @@ ht-degree: 24%
 
 ![](assets/journey-custom-action-url.png)
 
-### 标头
+### 标题和查询参数 {#headers}
 
-的 **[!UICONTROL URL配置]** 部分显示动态标题字段，但不显示常量标题字段。 动态标头字段是HTTP标头字段，其值配置为变量。 [了解详情](../action/about-custom-action-configuration.md)。
+的 **[!UICONTROL URL配置]** 部分显示动态标题和查询参数字段，但不显示常量字段。 动态标题和查询参数字段在操作配置屏幕中定义为变量。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
 
-如果需要，请指定动态标题字段的值：
+要指定动态标题和查询参数字段的值，请在字段内或铅笔图标上单击，然后选择所需的字段。
 
-1. 在历程中选择自定义操作。
-1. 在配置窗格中，单击 **[!UICONTROL URL配置]** 中。
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. 选择字段并单击 **[!UICONTROL 确定]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## 操作参数
 

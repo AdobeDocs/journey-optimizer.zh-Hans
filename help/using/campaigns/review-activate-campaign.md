@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 营销活动，审查，验证，激活，激活，优化程序
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -31,8 +31,6 @@ ht-degree: 7%
    ![](assets/create-campaign-alerts.png)
 
 1. 检查营销活动配置是否正确，然后单击 **[!UICONTROL 激活]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. 营销活动现已激活。 其状态为 **[!UICONTROL 实时]**&#x200B;或 **[!UICONTROL 已计划]** 输入开始日期。 [进一步了解营销活动状态](get-started-with-campaigns.md#statuses).
 

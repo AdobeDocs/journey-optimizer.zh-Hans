@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 选件，决策，电子邮件，个性化，决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -47,25 +47,21 @@ ht-degree: 0%
 
    了解如何在 [此部分](content-components.md).
 
-1. 的 **[!UICONTROL 优惠决策]** 选项卡。 单击 **[!UICONTROL 选择选件决策]**.
+1. 的 **[!UICONTROL 优惠决策]** 选项卡。 单击 **[!UICONTROL 选择选件决策]**:
 
-   ![](assets/deliver-offer-tab.png)
+   1. 在显示的窗口中，选择与要显示的选件对应的版面。
 
-1. 在显示的窗口中，选择与要显示的选件对应的版面。
+      [版面](../offers/offer-library/creating-placements.md) 是用于显示选件的容器。 在此示例中，我们将使用“电子邮件顶部图像”放置。 此位置已在选件库中创建，用于显示位于消息顶部的图像类型选件。
 
-   [版面](../offers/offer-library/creating-placements.md) 是用于显示选件的容器。 在此示例中，我们将使用“电子邮件顶部图像”放置。 此位置已在选件库中创建，用于显示位于消息顶部的图像类型选件。
+   1. 显示与所选版面匹配的决策。 选择要在内容组件中使用的决策，然后单击 **[!UICONTROL 添加]**.
 
-1. 显示与所选版面匹配的决策。 选择要在内容组件中使用的决策，然后单击 **[!UICONTROL 添加]**.
+      >[!NOTE]
+      >
+      >列表中仅显示与所选版面兼容的决策。 在此示例中，只有一个选件活动与“电子邮件顶部图像”版面相匹配。
 
-   >[!NOTE]
-   >
-   >列表中仅显示与所选版面兼容的决策。 在此示例中，只有一个选件活动与“电子邮件顶部图像”版面相匹配。
+      ![](assets/deliver-offer-placement.png)
 
-   ![](assets/deliver-offer-placement.png)
-
-决策现已添加到组件中。
-
-保存更改后，在历程中发送消息时，您的选件即可显示给相关用户档案。
+决策现已添加到组件中。 保存更改后，在历程中发送消息时，您的选件即可显示给相关用户档案。
 
 >[!NOTE]
 >
@@ -79,39 +75,34 @@ ht-degree: 0%
 
 要通过客户用户档案显示决策中所包含的不同选件，请执行以下步骤。
 
-1. 单击 **[!UICONTROL “模拟内容”按钮]** 按钮。
+>[!NOTE]
+>
+>您需要提供测试用户档案才能预览消息。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >您需要提供测试用户档案才能预览消息。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
+1. 选择要用于预览选件的测试用户档案：
 
-1. 要选择用于标识测试用户档案的命名空间，请选择 **[!UICONTROL 电子邮件]** 从 **[!UICONTROL 身份命名空间]** 字段。
+   1. 单击 **[!UICONTROL “模拟内容”按钮]** 按钮，然后选择用于从 **[!UICONTROL 身份命名空间]** 字段。
 
-   >[!NOTE]
-   >
-   >在本例中，我们将使用 **电子邮件** 命名空间。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../segment/get-started-identity.md).
+      >[!NOTE]
+      >
+      >在本例中，我们使用 **电子邮件** 命名空间。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../segment/get-started-identity.md).
 
-1. 在身份命名空间列表中，选择 **[!UICONTROL 电子邮件]** 单击 **[!UICONTROL 选择]**.
-
-1. 在 **[!UICONTROL 标识值]** 字段中，输入用于标识测试用户档案的值。 在本例中，输入测试用户档案的电子邮件地址。
+   1. 在 **[!UICONTROL 标识值]** 字段中，输入用于标识测试用户档案的值。 在本例中，输入测试用户档案的电子邮件地址。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-1. 添加其他用户档案，以便根据用户档案数据测试消息的不同变体。
+   1. 添加其他用户档案，以便根据用户档案数据测试消息的不同变体。
 
-   ![](assets/deliver-offer-test-profiles.png)
+      ![](assets/deliver-offer-test-profiles.png)
 
-1. 单击 **[!UICONTROL 预览]** 选项卡来测试消息。
 
-1. 选择测试用户档案。 将显示与所选用户档案（女性）对应的选件。
+1. 单击 **[!UICONTROL 预览]** 选项卡来测试消息，然后选择测试用户档案。 将显示与所选用户档案（女性）对应的选件。
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. 选择其他测试用户档案以预览消息每个变体的电子邮件内容。 在消息内容中，将显示与选定测试用户档案（现为人员）对应的选件。
+   您可以选择其他测试用户档案来预览消息每个变体的电子邮件内容。 在消息内容中，将显示与选定测试用户档案（现为人员）对应的选件。
 
-   ![](assets/deliver-offer-test-profile-male-preview.png)
-
-了解有关在中查看消息预览的详细步骤的更多信息 [此部分](#preview-your-messages).
+详细了解 [此部分](#preview-your-messages).
 
 ## 操作方法视频{#video-offers}
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 14%
+source-wordcount: '1045'
+ht-degree: 15%
 
 ---
 
@@ -97,35 +97,31 @@ ht-degree: 14%
    >
    > 的 **DELETE** 方法不受支持。 如果需要更新现有资源，请选择 **PUT** 方法。
 
-1. 在 **[!UICONTROL 标题]** 部分，定义要发送到外部服务的请求消息的HTTP标头：
-   1. 要添加标题字段，请单击 **[!UICONTROL 添加标题字段]**.
-   1. 输入标题字段的键。
-   1. 要为键值对设置动态值，请选择 **[!UICONTROL 变量]**. 否则，请选择 **[!UICONTROL 常量]**.
+1. 定义标题和查询参数：
 
-      例如，对于时间戳，您可以设置动态值。
+   * 在 **[!UICONTROL 标题]** ，单击 **[!UICONTROL 添加标题字段]** 定义要发送到外部服务的请求消息的HTTP标头。 的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 标题字段默认设置。 您无法修改或删除这些字段。
 
-   1. 如果已选择 **[!UICONTROL 常量]**，然后输入常数值。
+   * 在 **[!UICONTROL 查询参数]** ，单击 **[!UICONTROL 添加查询参数字段]** 以定义要在URL中添加的参数。
 
-      如果已选择 **[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. 输入字段的标签或名称。
 
-   1. 要删除标题字段，请指向标题字段，然后单击 **[!UICONTROL 删除]** 图标。
-   的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 标题字段默认设置。 您无法修改或删除这些字段。
+1. 选择类型： **[!UICONTROL 常量]** 或 **[!UICONTROL 变量]**. 如果已选择 **[!UICONTROL 常量]**，然后在 **[!UICONTROL 值]** 字段。 如果已选择 **[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
-   在将自定义操作添加到历程后，如果历程处于草稿状态，您仍可以向该历程添加标题字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将标题字段添加到新的自定义操作。
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >在将自定义操作添加到历程后，如果历程处于草稿状态，您仍可以向其添加标题或查询参数字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将字段添加到新的自定义操作。
    >
    >将根据字段解析规则验证标头。 在 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
 
 ## 定义操作参数 {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 在 **[!UICONTROL 操作参数]** 部分，粘贴要发送到外部服务的JSON有效负载示例。
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ ht-degree: 14%
 
 您还可以选择指定参数是常量还是变量：
 
-* 常量表示参数的值由技术人员在操作配置窗格中定义。 跨历程的值将始终相同。 在历程中使用自定义操作时，它不会有所不同，营销人员也不会看到它。 例如，它可能是第三方系统所需的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
-* 变量表示参数的值会有所不同。 在历程中使用此自定义操作的营销人员可以自由地传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、从Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在命名此参数的历程中看到的标签。
+* **常量** 表示参数的值由技术人员在操作配置窗格中定义。 跨历程的值将始终相同。 在历程中使用自定义操作时，它不会有所不同，营销人员也不会看到它。 例如，它可能是第三方系统所需的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
+* **变量** 表示参数的值将有所不同。 在历程中使用此自定义操作的营销人员可以自由地传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、从Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在命名此参数的历程中看到的标签。
 
 ![](assets/customactionpayloadmessage2.png)

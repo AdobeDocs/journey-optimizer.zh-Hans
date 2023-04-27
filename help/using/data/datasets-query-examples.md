@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 数据集，优化程序，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: '850'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 0%
 [推送跟踪体验事件数据集](#push-tracking-experience-event-dataset)
 [历程步骤事件](#journey-step-event)
 [决策事件数据集](#ode-decisionevents)
-[同意服务数据集](#consent-service-dataset)
 [密送反馈事件数据集](#bcc-feedback-event-dataset)
 [实体数据集](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## 同意服务数据集{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_界面中的名称：CJM同意服务数据集（系统数据集）_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Journey Optimizer同意服务的数据集。
+Dataset for Journey Optimizer Consent service.
 
-相关架构是CJM同意服务架构。
+The related schema is CJM Consent Service Schema.
 
-查询以列出同意接收电子邮件的电子邮件ID:
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-查询以返回将电子邮件ID作为输入的电子邮件ID的同意值：
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## 密送反馈事件数据集{#bcc-feedback-event-dataset}
 

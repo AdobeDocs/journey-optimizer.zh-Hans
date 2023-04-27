@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 
    ![](assets/push_create_1.png)
 
-1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。
+1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。 的 **[!UICONTROL 曲面]** 默认情况下，字段会预填充用户用于该渠道的最后一个曲面。
 
    ![](assets/push_create_2.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 代码，HTML，编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,13 @@ ht-degree: 8%
 
    ![](assets/code-editor.png)
 
-1. 如果要打开Email Designer以从新设计开始发送电子邮件，请选择 **[!UICONTROL 更改设计]** 中。
+1. 如果要清除电子邮件内容并从新设计开始发送电子邮件，请选择 **[!UICONTROL 更改设计]** 中。
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >此操作将在Email Designer中打开所选模板。 从此处，您可以完成电子邮件的设计，或使用返回代码编辑器 **[!UICONTROL 切换到代码编辑器]** 选项。
 
 1. 单击 **[!UICONTROL 预览]** 按钮以使用测试用户档案检查消息设计和个性化。 [了解详情](preview.md)
 

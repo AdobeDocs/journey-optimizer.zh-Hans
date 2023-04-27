@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 81%
+source-wordcount: '1859'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 81%
 
 ## 2023年4月早期发行说明 {#apr-e-rn-2023}
 
-以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**发行日期**:2023年4月27日
+**Release date**: April 27, 2023-->
 
 ### 新功能{#apr-2023-features}
 
@@ -42,7 +42,7 @@ ht-degree: 81%
 <td>
 <p>Adobe Journey Optimizer正通过增加对web渠道的支持来扩展其跨渠道功能。 您现在可以像任何其他渠道一样通过智能且直观的可视化界面创作、更改和预览Web体验，以个性化最终用户体验。 请注意，目前在Journey Optimizer中，您只能在营销活动中创建Web体验。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../web/get-started-web.md">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ ht-degree: 81%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>新的历程功能板（测试版）</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 历程功能板现在拆分为两个选项卡：</p>
-<ul><li>使用 <strong>概述</strong> 选项卡，以访问新功能板，其中显示与您的历程相关的关键量度。</li>
-<li>使用 <strong>浏览</strong> 选项卡，访问所有历程的列表。</li></ul>
-<p>此功能可在所有历程中作为公共测试版访问。</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ ht-degree: 81%
 
 **历程**
 
-* 历程画布现在在操作节点和结束标记上显示活动ID。 这可改进报表和重定位。
+* 历程画布现在在消息活动和结束标记中显示活动ID。 这可改进报表和重定位。
 * 配置窗格的布局（在操作、数据源、事件和历程中显示）已得到改进。
 * 历程中已添加新护栏：
-   * 历程中的节点数现在最多限制为50个
-   * 现在，一个组织中的实时历程数上限为100个。 历程在测试模式下时，不会被考虑在内。
+   * 历程中的活动数量现在限制为50个。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+   * 数量 **实时历程** 现在，一个组织中的每个沙盒限制为100个。 历程在测试模式下时，不会被考虑在内。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 
-* 在历程中添加电子邮件、短信或推送操作时，默认情况下，会预填充该渠道的最后一个使用表面。
-* 您现在可以在自定义操作中定义静态或动态查询参数。
+* 添加 [电子邮件](../email/create-email.md), [短信](../sms/create-sms.md) 或 [推送](../push/create-push.md) 在历程中的操作时，默认情况下，该曲面会在当前历程中预填充该渠道的最后一个使用曲面。
+* 您现在可以在自定义操作中定义静态或动态查询参数。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
 
 **报告**
 
@@ -190,6 +190,8 @@ ht-degree: 81%
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。[了解详情](../configuration/external-systems.md#timeout)
 * 读取区段活动中的默认限制速率已从每秒 20000 条消息更改为每秒 5000 条消息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 测试模式中添加了护栏，以仅监听通过界面发送的事件。 不会考虑通过外部工具发送的事件。 [了解详情](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

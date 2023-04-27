@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 12%
+source-wordcount: '263'
+ht-degree: 10%
 
 ---
 
@@ -20,11 +20,9 @@ ht-degree: 12%
 
 首先，创建将在数据集中使用的架构：
 
-1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]**，转到 **[!UICONTROL 浏览]** 选项卡，单击 **[!UICONTROL 创建架构]**.
+1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]** 然后转到 **[!UICONTROL 浏览]** 选项卡。
 
-   ![](../assets/ai-ranking-create-schema.png)
-
-1. 选择 **[!UICONTROL XDM ExperienceEvent]**.
+1. 单击 **[!UICONTROL 创建架构]** 选择 **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,20 +34,15 @@ ht-degree: 12%
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 在 **[!UICONTROL 搜索]** 字段中，键入“建议交互”并选择 **[!UICONTROL 体验事件 — 建议交互]** 字段组。
+1. 在 **[!UICONTROL 搜索]** 字段中，键入“建议交互”。
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+1. 选择 **[!UICONTROL 体验事件 — 建议交互]** 字段组，单击 **[!UICONTROL 添加字段组]**.
+
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
    >将在数据集中使用的架构必须具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 否则，您将无法在排名策略中使用它。
-
-1. 单击 **[!UICONTROL 添加字段组]**.
-
-   ![](../assets/ai-ranking-add-field-group.png)
-
-   >[!NOTE]
-   >字段组以前称为mixin。
 
 1. 键入名称并保存架构。
 
@@ -59,19 +52,13 @@ ht-degree: 12%
 
 现在，您可以使用此架构创建数据集。 为此，请执行以下步骤：
 
-1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 数据集]**，转到 **[!UICONTROL 浏览]** 选项卡，单击 **[!UICONTROL 创建数据集]**.
+1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 数据集]** 然后转到 **[!UICONTROL 浏览]** 选项卡。
 
-   ![](../assets/ai-ranking-create-dataset.png)
-
-1. 选择&#x200B;**[!UICONTROL 使用模式创建数据集]**。
+1. 单击 **[!UICONTROL 创建数据集]** 选择 **[!UICONTROL 从架构创建数据集]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 从列表中选择之前创建的架构。
-
-   ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. 单击&#x200B;**[!UICONTROL 下一步]**。
+1. 从列表中选择之前创建的架构，然后单击 **[!UICONTROL 下一个]**.
 
 1. 为 **[!UICONTROL 名称]** 字段，单击 **[!UICONTROL 完成]**.
 

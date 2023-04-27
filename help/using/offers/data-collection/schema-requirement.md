@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 2%
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # 配置数据收集 {#schema-requirements}
 
-<!--To send in feedback data, you must define how the experience events will be captured.-->
-
 要获得有关决策事件以外的事件类型的反馈，您必须在 **体验事件** 被发送到Adobe Experience Platform。
 
-对于每个事件类型，请确保数据集中使用的架构具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 [了解详情](create-dataset.md)
+>[!CAUTION]
+>
+>对于每个事件类型，请确保数据集中使用的架构具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 [了解详情](create-dataset.md)
 
 以下是在JavaScript代码中实施所需的架构要求。
 

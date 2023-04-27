@@ -5,61 +5,77 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-badge: label="Beta" type="Informitive"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 23%
+source-wordcount: '243'
+ht-degree: 11%
 
 ---
 
 # Web 渠道入门 {#get-sarted-web}
 
->[!BEGINSHADEBOX]
-
-您将在本文档中找到的内容：
-
-* **[Web 渠道入门](get-started-web.md)**
-* [创建 Web 体验](create-web.md)
-* [创建 Web 页面](author-web.md)
-* [可视化编辑帮助程序扩展](visual-editing-helper.md)
-* [Web 报告](web-report.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Web渠道功能目前仅作为测试版提供给选定的用户。
+>此功能仅在 [!DNL Adobe Journey Optimizer] **Prime** 和 **Ultimate** [软件包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
 
 [!DNL Journey Optimizer] 使您能够以可视方式创作并为客户提供个性化的web体验。
 
 如果您已经使用出站渠道（如电子邮件、短信或推送通知），则现在可以利用入站Web渠道来提供跨所有渠道的真正个性化体验。
 
+通过直观的可视化界面，此功能可让您轻松修改Web属性，以便体验、优化和个性化最终用户活动。
+
 >[!CAUTION]
 >
 >当前位于 [!DNL Journey Optimizer] 您只能使用 **营销活动**.
 
-通过直观的可视化界面，此功能可让您轻松修改Web属性，以便体验、优化和个性化最终用户活动。
+创建营销活动后，选择 **Web** 定义基本设置。 有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
 
-<!--
-[Learn more on web channel in this video](#video)
--->
+>[!NOTE]
+>
+>如果您是首次创建Web体验，请确保遵循 [此部分](web-prerequisites.md).
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">创建 Web 体验</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">创建 Web 页面</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Web 报告</a></p></td>
-</tr>
-</table>
+了解在中创建Web营销活动的详细步骤 [此视频](create-web.md#video).
 
-<!--
-## How-to video{#video}
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="web-prerequisites.md">
+<img alt="潜在客户" src="../assets/do-not-localize/web-prerequisites.jpg">
+</a>
+<div><a href="web-prerequisites.md"><strong>先决条件</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-web.md">
+<img alt="不频繁" src="../assets/do-not-localize/web-create.jpg">
+</a>
+<div>
+<a href="create-web.md"><strong>创建Web体验</strong></a>
+</div>
+<p></td>
+<td>
+<a href="author-web.md">
+<img alt="验证" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="author-web.md"><strong>创建 Web 页面</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/campaign-global-report.md#web-tab.md">
+<img alt="验证" src="../assets/do-not-localize/web-reporting.jpg">
+</a>
+<div>
+<a href="../reports/campaign-global-report.md#web-tab"><strong>报告</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
-The video below shows how to 
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] Web营销活动会定位其他渠道中以前未参与的新用户档案。 这将增加可接合配置文件总数，如果您购买的可接合配置文件的合同数量超过，则可能会产生成本影响。 每个包的许可证量度列在 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html) 页面。
 
->[!VIDEO]()
--->
+

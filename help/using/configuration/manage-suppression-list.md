@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 抑制，列表，退回，电子邮件，优化程序，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 19%
+source-wordcount: '1558'
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 19%
 
 了解有关抑制列表概念和在 [此部分](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe会保留已知错误地址的更新列表，这些地址已证实对参与度和邮件声誉有害，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
 
 ## 访问禁止列表 {#access-suppression-list}
 

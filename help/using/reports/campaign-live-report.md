@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 8%
+source-wordcount: '1049'
+ht-degree: 7%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 8%
 * [电子邮件](#email-live)
 * [推送](#push-live)
 * [短信](#sms-live)
+* [Web](#web-tab)
 
 营销活动 **[!UICONTROL 实时报表]** 会被分为不同的小组件，用于详细说明营销活动的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/live-report.md#modify-dashboard).
 
@@ -162,6 +163,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 错误]**:投放期间发生的阻止将其发送到用户档案的错误总数。
 
 的 **[!UICONTROL 排除原因]**, **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 图形和表格允许您查看在投放期间发生的错误和排除项。
++++
+
+## Web选项卡 {#web-tab}
+
+从营销策划 **[!UICONTROL 全局报告]**, **[!UICONTROL Web]** 选项卡详细列出了与网页相关的主要信息。
+
++++了解有关Web报表可用的不同量度和小组件的更多信息。
+
+的 **[!UICONTROL Web性能]** KPI会详细描述与访客对Web体验的参与度相关的主要信息，例如：
+
+* **[!UICONTROL 独特展示次数]**:向其提供Web体验的独特用户数。
+
+* **[!UICONTROL 展示次数]**:交付给所有用户的Web体验总数。
+
+* **[!UICONTROL 点击次数]**:URL访问总数。
+
+的 **[!UICONTROL Web摘要]** 图表显示了相关时段内网站体验（展示次数、独特展示次数和点击次数）的演变情况。
+
+的 **[!UICONTROL 按元素单击]** 表格详细列出了与访客对网页上各元素的参与度相关的主要信息。
 +++
 
 ## 其他资源

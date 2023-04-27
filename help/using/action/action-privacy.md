@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ ht-degree: 100%
 让我们以血型字段为例，您需要将该字段标记为敏感字段，并限制将其导出到第三方系统。具体步骤如下：
 
 1. 在左侧菜单中的&#x200B;**隐私**&#x200B;下，单击&#x200B;**策略**。
-   ![](assets/action-privacy0.png)
 1. 选择&#x200B;**标签**&#x200B;选项卡，然后单击&#x200B;**创建标签**。
    ![](assets/action-privacy1.png)
 1. 为此标签定义名称和友好名称。例如，_ePHI1_。
-   ![](assets/action-privacy2.png)
 1. 在左侧菜单中的&#x200B;**数据管理**&#x200B;下，单击&#x200B;**架构**，然后单击&#x200B;**应用访问和数据治理标签**&#x200B;按钮。选择您的架构和字段（血型），然后选择之前创建的标签，在我们的例子中为 _ePHI1_。
    ![](assets/action-privacy3.png)
 1. 返回至&#x200B;**策略**&#x200B;菜单，选择&#x200B;**营销操作**&#x200B;选项卡，然后单击&#x200B;**创建营销操作**。建议您为历程中使用的每个第三方自定义操作创建一个营销操作。例如，我们来创建一个 _Slack 营销操作_，用于 Slack 自定义操作。

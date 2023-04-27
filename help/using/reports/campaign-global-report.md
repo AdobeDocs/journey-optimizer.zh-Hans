@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '2036'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 3%
 * [应用程序内](#inapp-global)
 * [推送](#push-global)
 * [短信](#sms-global)
+* [Web](#web-tab)
 
 营销活动 **[!UICONTROL 全局报告]** 会被分为不同的小组件，用于详细说明营销活动的成功和错误。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
 
@@ -281,6 +282,27 @@ ht-degree: 3%
 
 的 **[!UICONTROL 短信 — 按链接的点击量]** 和 **[!UICONTROL 短信 — 跟踪统计信息]** 小组件详细介绍与访客对URL的参与度相关的主要信息。
 
++++
+
+## Web选项卡 {#web-tab}
+
+从营销策划 **[!UICONTROL 全局报告]**, **[!UICONTROL Web]** 选项卡详细列出了与网页相关的主要信息。
+
+![](assets/web-report.png)
+
++++了解有关Web报表可用的不同量度和小组件的更多信息。
+
+的 **[!UICONTROL Web性能]** KPI会详细描述与访客对Web体验的参与度相关的主要信息，例如：
+
+* **[!UICONTROL 独特展示次数]**:向其提供Web体验的独特用户数。
+
+* **[!UICONTROL 展示次数]**:交付给所有用户的Web体验总数。
+
+* **[!UICONTROL 点击率]**:与网页上的各种元素进行交互的访客百分比。
+
+的 **[!UICONTROL Web摘要]** 图表显示了相关时段内网站体验（展示次数、独特展示次数和点击次数）的演变情况。
+
+的 **[!UICONTROL 按元素单击]** 表格详细列出了与访客对网页上各元素的参与度相关的主要信息。
 +++
 
 ## 其他资源
