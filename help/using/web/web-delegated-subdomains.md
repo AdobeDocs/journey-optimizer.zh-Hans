@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: Web，子域，配置
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="设置默认子域"
->abstract="您可以创建多个Web子域，但将仅使用默认子域。 您可以更改默认的Web子域，但一次只能使用一个子域。"
+>title="设置Web子域"
+>abstract="从委派给Adobe的子域列表中选择子域。 您可以将此Web子域设置为默认子域，但一次只能使用一个默认子域。"
 
 在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。
 
@@ -67,11 +68,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >仅 **默认** 子域。 您可以更改默认的Web子域，但一次只能使用一个子域。
+   >仅 **默认** 子域。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**. 子域获取 **[!UICONTROL 成功]** 状态。 它已准备好用于您的Web体验。
 
 1. 的 **[!UICONTROL 默认]** 标记显示在当前用作默认的子域旁边。 要更改默认子域，请选择 **[!UICONTROL 设置为默认值]** 从 **[!UICONTROL 更多操作]** 按钮。
+
+   >[!NOTE]
+   >
+   >您可以更改默认的Web子域，但一次只能使用一个子域。
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ ht-degree: 0%
 1. 您只能删除 **[!UICONTROL 失败]** 子域来清理列表。 要执行此操作，请选择 **[!UICONTROL 删除]** 从 **[!UICONTROL 更多操作]** 按钮。
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-
