@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 6%
+source-wordcount: '885'
+ht-degree: 5%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含 [选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务型]**) [通道表面](../configuration/channel-surfaces.md#email-type) （即消息预设）。
+>营销类型的电子邮件必须包含 [选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型消息不需要此参数。 消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务型]**) [通道表面](../configuration/channel-surfaces.md#email-type) 创建消息时。
 
 ## 链接到镜像页面 {#mirror-page}
 
@@ -132,3 +132,29 @@ ht-degree: 6%
    * **[!UICONTROL 从不]**:从不激活此URL的跟踪。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 在 [实时报表](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
+
+## URL跟踪 {#url-tracking}
+
+通常 [URL跟踪](email-settings.md#url-tracking) 在曲面级别进行管理，但不支持配置文件属性。 目前，唯一的方法是 [个性化URL](../personalization/personalization-syntax.md#perso-urls) 在电子邮件设计器中。
+
+要向链接添加个性化URL跟踪参数，请执行以下步骤。
+
+1. 选择链接并单击 **[!UICONTROL 插入链接]** 中。
+
+1. 选择个性化图标。 它仅适用于以下类型的链接： **外部链接**, **退订链接** 和 **选择退出**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. 添加URL跟踪参数，并从表达式编辑器中选择您选择的配置文件属性。
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. 保存更改。
+
+1. 对要将此跟踪参数添加到的每个链接重复上述步骤。
+
+现在，当发送电子邮件时，此参数将自动附加到URL的末尾。 然后，您可以在Web分析工具或性能报表中捕获此参数。
+
+>[!NOTE]
+>
+>要验证最终URL，您可以 [发送校样](preview.md#send-proofs) 收到校样后，单击电子邮件内容中的链接。 URL应显示跟踪参数。 在以上示例中，最终URL将为：https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
