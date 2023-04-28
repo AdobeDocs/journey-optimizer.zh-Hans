@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '835'
 ht-degree: 11%
 
 ---
 
-# Web渠道先决条件 {#web-prerequisites}
+# 先决条件和防护 {#web-prerequisites}
 
 在 [!DNL Journey Optimizer] 用户界面中，请遵循以下先决条件：
 
@@ -21,6 +22,13 @@ ht-degree: 11%
 * 访问 [!DNL Journey Optimizer] web designer中，您必须安装特定的Google Chrome浏览器扩展。 [了解详情](#visual-authoring-prerequesites)
 
 * 为了正确提供Web体验，请确保详细定义Adobe Experience Platform设置 [此处](#delivery-prerequisites).
+
+## 警告
+
+当前位于 [!DNL Journey Optimizer] 您只能使用 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] Web营销活动会定位其他渠道中以前未参与的新用户档案。 这将增加可接合配置文件总数，如果您购买的可接合配置文件的合同数量超过，则可能会产生成本影响。 每个包的许可证量度列在 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html) 页面。
 
 ## 实施先决条件 {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ ht-degree: 11%
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-

@@ -6,28 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '160'
 ht-degree: 11%
 
 ---
 
 # Web 渠道入门 {#get-sarted-web}
 
->[!AVAILABILITY]
->
->此功能仅在 [!DNL Adobe Journey Optimizer] **Prime** 和 **Ultimate** [软件包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
-
 [!DNL Journey Optimizer] 使您能够以可视方式创作并为客户提供个性化的web体验。
-
-如果您已经使用出站渠道（如电子邮件、短信或推送通知），则现在可以利用入站Web渠道来提供跨所有渠道的真正个性化体验。
 
 通过直观的可视化界面，此功能可让您轻松修改Web属性，以便体验、优化和个性化最终用户活动。
 
->[!CAUTION]
->
->当前位于 [!DNL Journey Optimizer] 您只能使用 **营销活动**.
+如果您已经使用出站渠道（如电子邮件、短信或推送通知），则现在可以利用入站Web渠道来提供跨所有渠道的真正个性化体验。
 
 创建营销活动后，选择 **Web** 定义基本设置。 有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
 
@@ -73,9 +65,5 @@ ht-degree: 11%
 <p>
 </td>
 </tr></table>
-
->[!CAUTION]
->
->[!DNL Journey Optimizer] Web营销活动会定位其他渠道中以前未参与的新用户档案。 这将增加可接合配置文件总数，如果您购买的可接合配置文件的合同数量超过，则可能会产生成本影响。 每个包的许可证量度列在 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html) 页面。
 
 
