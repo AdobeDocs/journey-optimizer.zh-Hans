@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 设置，电子邮件，配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1779'
 ht-degree: 8%
 
 ---
@@ -263,3 +263,7 @@ On [选择子域](#subdomains-and-ip-pools) 在列表中， **[!UICONTROL 启用
 您可以动态预览生成的跟踪URL。 每次添加、编辑或删除参数时，预览都会自动更新。
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数，但在表面级别无法实现这一点。 在使用电子邮件设计器创作消息时，您需要执行此操作。 [了解详情](message-tracking.md#url-tracking)
