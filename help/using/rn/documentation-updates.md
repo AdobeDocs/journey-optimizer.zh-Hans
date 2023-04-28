@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
 ht-degree: 94%
@@ -23,7 +23,7 @@ ht-degree: 94%
 * 添加了注释，以指定如果对历程消息中使用的选件决策进行了更改，则需要取消发布历程并重新发布该历程。 [了解详情](../building-journeys/publishing-the-journey.md)
 * 在决策管理中阐明了如何确保上限计数器中正确计入事件的说明 **上限事件** 中。 [了解详情](../offers/offer-library/add-constraints.md#capping-event)
 * 在 **更改执行地址** 页面。 它指定可以覆盖历程高级参数中全局设置的执行字段，但电子邮件地址覆盖仅应用于特定用例。 大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
-* 的 **URL跟踪** 部分现在提供所有上下文属性的列表和描述，这些属性可用于在电子邮件渠道表面中设置URL跟踪。 [了解详情](../offers/offer-library/add-constraints.md)
+* 的 **URL跟踪** 部分现在提供所有上下文属性的列表和描述，这些属性可用于在电子邮件渠道表面中设置URL跟踪。 [了解详情](../email/email-settings.md#url-tracking)
 
 ## 2023 年 3 月 {#march-2023}
 
