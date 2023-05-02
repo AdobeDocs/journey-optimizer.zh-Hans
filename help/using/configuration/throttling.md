@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 92%
 
 ## 用例 {#uc}
 
-为帮助您进行测试和配置，可点击[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json)获取 Postman 集合。
+为帮助您进行测试和配置，可点击[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json)获取 Postman 集合。
 
 此“Postman 集合”已设置为通过 __[Adobe I/O 控制台的集成](https://console.adobe.io/integrations) > 试用 > 为 Postman 下载__&#x200B;共享 Postman 变量集合，它会使用选定的集成值生成 Postman 环境文件。
 
