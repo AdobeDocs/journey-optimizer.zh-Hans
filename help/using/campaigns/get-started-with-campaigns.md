@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 营销活动入门
-description: 进一步了解Journey Optimizer中的促销活动
+description: 了解 Journey Optimizer 中营销活动的更多信息
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 营销活动，操作方法，开始， optimizer
+keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 20%
 >title="营销活动"
 >abstract="创建营销活动，以跨各种渠道向特定区段投放一次性内容。在创建营销活动之前，请确保您已准备好渠道表面（即消息预设）和 Adobe Experience Platform 区段以供使用。"
 
-使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，将依次执行操作。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
+使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
 您可以创建两种类型的营销活动：
 
-* **计划促销活动** 允许针对促销用例（如促销优惠、参与促销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
-* **API触发的营销活动** 允许使用REST API（密码重置、购物车放弃等）的简单事务/操作消息，其中需要使用用户档案属性和有效负荷中的上下文数据进行个性化。
+* **计划营销活动**&#x200B;允许针对营销用例（如促销优惠、参与性营销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
+* **API 触发的营销活动**&#x200B;允许使用 REST API 传送简单的事务/操作消息（密码重置、删除购物车等），其中可能会涉及需要使用用户档案属性和负载上下文数据进行个性化。
 
 创建营销活动的主要步骤如下：
 
@@ -38,35 +38,35 @@ ht-degree: 20%
 
 ## 开始前 {#campaign-prerequisites}
 
-在Journey Optimizer中开始创建您的第一个营销活动之前，请查看以下先决条件：
+在 Journey Optimizer 中开始创建您的第一个营销活动之前，请查看以下先决条件：
 
-1. **您需要适当的权限**. 营销活动仅供有权访问与营销活动相关的营销活动的用户使用 **[!UICONTROL 产品配置文件]** 例如，促销活动管理员、促销活动审批者、促销活动管理器和/或促销活动查看器。
+1. **您需要适当的权限**。有权访问营销活动相关&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的用户（例如营销活动管理员、营销活动审批者、营销活动经理和/或营销活动查看者）才能使用营销活动。
 
-   如果您无法访问营销活动，则必须扩展您的权限。 如果您有权访问 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 对于贵组织，请执行以下步骤。 如果没有，请联系您的Journey Optimizer管理员。
+   如果您无法访问营销活动，则必须扩展您的权限。如果您有权访问贵组织的 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，请执行以下步骤。如果没有，请联系 Journey Optimizer 管理员。
 
    +++了解如何分配营销活动权限
 
-   要分配对应的 **[!UICONTROL 产品配置文件]** 对您的用户：
+   要向您的用户分配对应的&#x200B;**[!UICONTROL 产品配置文件]**：
 
-   1. 从 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，选择 [!DNL Adobe Experience Platform] 产品。
+   1. 在 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中选择 [!DNL Adobe Experience Platform] 产品。
 
-   1. 浏览到 **[!UICONTROL 产品配置文件]** 选项卡，选择与内置营销活动相关的其中一个 **[!UICONTROL 产品配置文件]**:促销活动管理员、促销活动审批者、促销活动管理器或促销活动查看者。
+   1. 浏览到&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;选项卡，选择与内置营销活动相关的其中一个&#x200B;**[!UICONTROL 产品配置文件]**：营销活动管理员、营销活动审批者、营销活动经理或营销活动查看者。
 
-      有关Journey Optimizer促销活动的更多信息 **[!UICONTROL 产品配置文件]** 和 **[!UICONTROL 权限]**, [请参阅此页面](../administration/ootb-product-profiles.md).
+      有关 Journey Optimizer 营销活动&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;和&#x200B;**[!UICONTROL 权限]**&#x200B;的更多信息，[请参阅此页](../administration/ootb-product-profiles.md)。
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. 单击 **[!UICONTROL 添加用户]** 要将选定的 **[!UICONTROL 产品配置文件]**.
+   1. 单击&#x200B;**[!UICONTROL 添加用户]**，向您的用户分配选定的&#x200B;**[!UICONTROL 产品配置文件]**。
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. 键入您的用户名、组或电子邮件地址，然后单击 **[!UICONTROL 保存]**.
-   您的用户现在可以访问 **[!UICONTROL 促销活动]**.
+   1. 键入用户的名称、组或电子邮件地址，然后单击&#x200B;**[!UICONTROL 保存]**。
+   您的用户现在已可访问&#x200B;**[!UICONTROL 营销活动]**。
 
 +++
 
-1. **您需要受众**. 在创建营销活动之前，需要提供受众区段。 了解有关受众创建的更多信息 [本页](../segment/about-segments.md).
-1. **你需要一个通道表面**. 要选择渠道，必须创建并提供相应的渠道表面（即预设）。 进一步了解渠道曲面 [本页](../configuration/channel-surfaces.md).
+1. **您需要受众**。在创建营销活动之前，需要提供受众区段。要了解有关创建受众的更多信息，请参阅[本页](../segment/about-segments.md)。
+1. **您需要一个渠道表面**。要选择渠道，必须创建并提供相应的渠道表面（即预设）。要了解有关渠道表面的更多信息，请参阅[本页](../configuration/channel-surfaces.md)。
 
 ## 操作方法视频 {#video}
 
