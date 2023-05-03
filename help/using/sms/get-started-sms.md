@@ -2,37 +2,37 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 短信入门
-description: 了解如何在Journey Optimizer中创建短信
+description: 了解如何在 Journey Optimizer 中创建短信
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # 短信入门 {#get-started-sms}
 
-使用 [!DNL Journey Optimizer] 在客户的移动设备上向客户发送短信。 您可以从短信编辑器创建、个性化和预览文本格式的消息。
+使用 [!DNL Journey Optimizer] 向客户的移动设备上发送短信。您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
-可以创建短信投放：
+可以通过以下方式创建短信投放：
 
-* 在 **历程**:在历程中添加短信活动并定义基本设置后，请使用 **[!UICONTROL 操作：短信]** 用于创建短信消息内容的右窗格。
+* 在&#x200B;**历程**&#x200B;中：在历程中添加短信活动并定义基本设置后，请使用&#x200B;**[!UICONTROL 操作：用于创建短信消息内容的短信]**&#x200B;右侧窗格。
 
-   有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
+   有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
 
-* 在 **Campaign**:创建营销活动后，选择短信作为您的操作并定义基本设置。
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择短信作为您的操作并定义基本设置。
 
-   有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
+   有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
 
 
 >[!IMPORTANT]
 >
->如果您是首次创建短信，请确保已配置短信渠道。 [了解详情](sms-configuration.md)。
+>如果您是首次创建短信，请确保已配置短信渠道。[了解详情](sms-configuration.md)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
