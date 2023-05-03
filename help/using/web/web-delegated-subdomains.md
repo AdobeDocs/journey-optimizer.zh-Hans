@@ -12,7 +12,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
->title="委派Web子域"
->abstract="您将设置子域以供Web渠道使用。 从已委派给Adobe的子域中进行选择。"
+>title="委派 Web 子域"
+>abstract="您将设置您的子域以供 Web 渠道使用。请从已委派给 Adobe 的子域中进行选择。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
->title="委派Web子域"
->abstract="如果将来自Adobe Experience Manager Assets Essentials的内容添加到Web体验，则必须设置用于发布此内容的子域。 从已委派到Adobe的子域中进行选择。"
+>title="委派 Web 子域"
+>abstract="如果您将来自 Adobe Experience Manager Assets Essentials 的内容添加到您的 Web 体验，则必须设置将用于发布此内容的子域。请从已委派给 Adobe 的子域中进行选择。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="设置Web子域"
->abstract="从委派给Adobe的子域列表中选择子域。 您可以将此Web子域设置为默认子域，但一次只能使用一个默认子域。"
+>title="设置 Web 子域"
+>abstract="从委派给 Adobe 的子域的列表中选择一个子域。可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
 
 在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。
 

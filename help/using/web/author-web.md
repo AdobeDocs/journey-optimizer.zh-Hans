@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="将组件添加到网页"
->abstract="您可以将许多组件添加到网页，然后根据需要进行编辑。"
+>abstract="可将许多组件添加到网页，然后根据需要编辑这些组件。"
 
 1. 从 **[!UICONTROL 组件]** 在左侧的窗格中，选择一个项目。 您可以将以下组件添加到网页中，并根据需要对其进行编辑：
 

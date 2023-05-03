@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="沙盒详细信息"
->abstract="选择您要将历程复制到的目标沙盒。只有您 组织内的沙盒才可供使用。"
+>abstract="选择您要将历程复制到的目标沙盒。只有您组织内的沙盒可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ ht-degree: 20%
 
    ![](assets/copy-sandbox2.png)
 
-3. 选择 **Target沙盒** 中。 只有您 组织内的沙盒才可供使用。
+3. 选择 **Target沙盒** 中。 只有您组织内的沙盒可用。
 
 4. 查看 **从属对象** 中。 这是在历程中使用的关联对象的列表。此列表显示名称、对象类型以及内部 Journey Optimizer ID。
 
