@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 电子邮件，开始，创建，预览
+keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->如果您是首次创建电子邮件，请确保配置了电子邮件渠道。 [了解详情](email-settings.md)
+>如果您是首次创建电子邮件，请确保已配置电子邮件渠道。[了解详情](email-settings.md)
 
-使用 [!DNL Journey Optimizer] 向客户发送电子邮件。 您可以在Email Designer中创建、个性化和预览消息。
+使用 [!DNL Journey Optimizer] 向客户发送电子邮件。您可以在“电子邮件设计器”中创建、个性化和预览消息。
 
-可以创建电子邮件投放：
+可以通过以下方式创建电子邮件投放：
 
-* 在 **历程**:添加 **[!UICONTROL 电子邮件]** 活动，并定义基本设置，使用 **[!UICONTROL 操作：电子邮件]** 右窗格创建消息的内容。
+* 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。
 
-   有关如何配置历程的更多信息，请参阅此 [页面](../building-journeys/journey-gs.md).
+   有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
 
-* 在 **Campaign**:创建营销活动后，选择 **[!UICONTROL 电子邮件]** 定义基本设置。
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。
 
-   有关如何配置营销活动的更多信息，请参阅此 [页面](../campaigns/create-campaign.md#configure).
+   有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
