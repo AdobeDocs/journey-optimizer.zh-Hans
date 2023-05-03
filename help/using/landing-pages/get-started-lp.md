@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 登陆页面入门
-description: 了解Journey Optimizer中的登陆页面
+description: 了解 Journey Optimizer 中的登陆页面
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: 登陆，登陆页面，开始，开始
+keywords: 登陆、登陆页面、开始、入门
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 10%
 
 ➡️ [在此视频中了解有关配置订阅和创建登陆页面的更多信息](#video)
 
-* 利用 [!DNL Journey Optimizer] 内容设计功能可轻松构建 **响应式登陆页面**.
-* 设置 **选择加入和选择退出流程** 快速、无缝地。
-* 创建订阅列表，使用户能够 **订购服务**. [了解详情](lp-use-cases.md#subscription-to-a-service)
-* 向收件人提供 **取消订阅功能** 接收你的通信。 [了解详情](lp-use-cases.md#opt-out)
-* 发送 **确认电子邮件** 选择启用或选择禁用时。 [了解详情](lp-use-cases.md#send-confirmation-email)
+* 利用 [!DNL Journey Optimizer] 内容设计功能可轻松构建&#x200B;**响应式登陆页面**。
+* 快捷、实时地设置&#x200B;**选择启用和选择禁用流程**。
+* 创建订阅列表，使用户能够&#x200B;**订阅服务**。[了解详情](lp-use-cases.md#subscription-to-a-service)
+* 向收件人提供&#x200B;**取消订阅功能**&#x200B;选择不接收通信。[了解详情](lp-use-cases.md#opt-out)
+* 选择启用或选择禁用时，发送&#x200B;**确认电子邮件**。 [了解详情](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
