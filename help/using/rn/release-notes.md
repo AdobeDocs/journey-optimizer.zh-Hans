@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 82%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年4月发行说明 {#apr-rn-2023}
+## 2023 年 4 月发行说明 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -33,13 +33,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>Web渠道（正式发布）</strong><br/></th>
+<th><strong>Web 渠道（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer正通过增加对web渠道的支持来扩展其跨渠道功能。 您现在可以像任何其他渠道一样通过智能且直观的可视化界面创作、更改和预览Web体验，以个性化最终用户体验。 请注意，目前在Journey Optimizer中，您只能在营销活动中创建Web体验。</p>
+<p>Adobe Journey Optimizer 正通过增加对 Web 渠道的支持来扩展其跨渠道功能。您现在可以通过智能且直观的可视化界面创作、更改和预览 Web 体验，像任何其他渠道一样，从而为最终用户提供个性化体验。请注意，目前在 Journey Optimizer 中，您只能在营销活动中创建 Web 体验。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>有关更多信息，请参阅<a href="../web/get-started-web.md">详细文档</a>。</p>
 </tr>
@@ -50,13 +50,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>移动设备入门快速入门工作流程（测试版）</strong><br/></th>
+<th><strong>移动端加入快速入门工作流程（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的移动载入快速入门工作流现已可用。 使用此新产品功能可快速配置Mobile SDK，以开始收集和验证移动事件数据，并使用Adobe Journey Optimizer发送移动推送通知。 此功能可通过数据收集主页作为公共测试版访问。</p>
+<p>现已推出新的移动端加入快速入门工作流程。使用此新产品功能可快速配置 Mobile SDK，从而开始收集和验证移动端事件数据，并使用 Adobe Journey Optimizer 发送移动端推送通知。作为公开测试版，此功能可通过数据收集主页访问。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>有关更多信息，请参阅<a href="../push/mobile-onboarding-wf.md">详细文档</a>。</p>
 </td>
@@ -106,26 +106,26 @@ ht-degree: 82%
 
 **历程**
 
-* 历程画布现在在消息活动和结束标记中显示活动ID。 这可改进报表和重定位。
-* 配置窗格的布局（在操作、数据源、事件和历程中显示）已得到改进。
+* 现在，历程画布会显示消息活动的活动 ID 和结束标记。这可改进报表和重定位。
+* 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
 * 历程中已添加新护栏：
-   * 历程中的活动数量现在限制为50个。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-   * 数量 **实时历程** 现在，一个组织中的每个沙盒限制为100个。 历程在测试模式下时，不会被考虑在内。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+   * 历程中的活动数量现在限制为 50 个。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+   * 现在，一个组织中的&#x200B;**实时历程**&#x200B;数量限制为每个沙盒 100 个。历程在测试模式下时，不会被考虑在内。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 
-* 添加 [电子邮件](../email/create-email.md), [短信](../sms/create-sms.md) 或 [推送](../push/create-push.md) 在历程中的操作时，默认情况下，该曲面会在当前历程中预填充该渠道的最后一个使用曲面。
-* 您现在可以在自定义操作中定义静态或动态查询参数。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
+* 默认情况下，在历程中添加[电子邮件](../email/create-email.md)、[短信](../sms/create-sms.md)或[推送](../push/create-push.md)操作时，该平面会在当前历程中使用该渠道的最后一个使用平面进行预填充。
+* 您现在可以在自定义操作中定义静态或动态查询参数。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
 
 **报告**
 
-* 您现在可以将Journey Optimizer报表导出为PDF。 [了解详情](../reports/global-report.md#export-reports)
+* 您现在可以将 Journey Optimizer 报表导出为 PDF。[了解详情](../reports/global-report.md#export-reports)
 
 **内容设计器**
 
-* 更新了Adobe Journey Optimizer内容设计器，现在可以更轻松地访问设计样式和组件。 此新版本提供了改进的用户体验，并且提供了更高的性能、深色模式的部分兼容性以及新的辅助功能标准支持。
+* 对 Adobe Journey Optimizer 内容设计器进行了更新，现在可以更轻松地访问设计样式和组件。此新版本提供了改进的用户体验，并且具有更优秀的性能，对深色模式部分兼容，还支持新的辅助功能标准。
 
 
 
-## 2023年3月发行说明 {#mar-2023}
+## 2023 年 3 月发行说明 {#mar-2023}
 
 ### 新功能{#mar-2023-features}
 
@@ -189,7 +189,7 @@ ht-degree: 82%
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。[了解详情](../configuration/external-systems.md#timeout)
 * 读取区段活动中的默认限制速率已从每秒 20000 条消息更改为每秒 5000 条消息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 测试模式中添加了护栏，以仅监听通过界面发送的事件。 不会考虑通过外部工具发送的事件。 [了解详情](../building-journeys/testing-the-journey.md)
+* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。不会侦听通过外部工具发送的事件。[了解详情](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -223,7 +223,7 @@ ht-degree: 82%
 
    要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md#modify-dashboard)。
 
-## 2023年2月发行说明 {#feb-2023}
+## 2023 年 2 月发行说明 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
