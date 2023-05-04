@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
 + Web 渠道{#web}
    + [Web 渠道入门](using/web/get-started-web.md)
-   + [Web渠道先决条件](using/web/web-prerequisites.md)
+   + [Web 渠道先决条件](using/web/web-prerequisites.md)
    + [创建 Web 体验](using/web/create-web.md)
    + [创建 Web 页面](using/web/author-web.md)
-   + [配置Web子域](using/web/web-delegated-subdomains.md)
+   + [配置 Web 子域](using/web/web-delegated-subdomains.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
