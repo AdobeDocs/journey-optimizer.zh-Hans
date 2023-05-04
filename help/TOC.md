@@ -165,7 +165,7 @@ ht-degree: 100%
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + 内容体验{#content-experiment}
       + [内容体验入门](using/campaigns/get-started-experiment.md)
-      + [创建内容体验](using/campaigns/content-experiment.md)
+      + [创建内容试验](using/campaigns/content-experiment.md)
       + [了解统计计算](using/campaigns/experiment-calculations.md)
       + [配置实验报表](using/campaigns/reporting-configuration.md)
       + [实验报表中的统计计算](using/campaigns/experiment-report-calculations.md)
