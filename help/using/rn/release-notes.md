@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
+source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 100%
+source-wordcount: '1920'
+ht-degree: 97%
 
 ---
 
@@ -64,26 +64,27 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>新的历程功能板（测试版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> The Journey dashboard is now split in two tabs:</p>
-<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta.</p>
+<p> 历程功能板现在拆分为两个选项卡：</p>
+<ul><li>使用 <strong>概述</strong> 选项卡，以访问新功能板，其中显示与您的历程相关的关键量度。</li>
+<li>使用 <strong>浏览</strong> 选项卡，访问所有历程的列表。</li></ul>
+<p>此功能可在所有历程中作为公共测试版访问。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-gs.md#journey-access">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 
 <table>
 <thead>
