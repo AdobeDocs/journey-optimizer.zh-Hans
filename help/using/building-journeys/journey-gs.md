@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，首次，开始，快速入门，区段，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 19%
+source-wordcount: '1325'
+ht-degree: 18%
 
 ---
 
@@ -38,27 +38,26 @@ ht-degree: 19%
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## 访问历程 {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+在“历程管理”菜单部分，单击 **[!UICONTROL 历程]**. 提供了两个选项卡：
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**浏览**:此选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。有关更多信息，请参见[此章节](../start/user-interface.md#filter-lists)。
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**概述**:此选项卡显示包含与您的历程相关关键量度的功能板：
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **处理的用户档案**:过去24小时内处理的用户档案总数
+* **实时历程**:过去24小时内具有流量的实时历程总数。 实时历程包括 **单一历程** （基于事件）和 **批量历程** （读取区段）。
+* **错误率**:与过去24小时内输入的用户档案总数相比，所有出错用户档案的比率。
+* **放弃率**:所有已描述用户档案的比率与过去24小时内输入的用户档案总数的比率。
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>此仪表板考虑了过去24小时内流量的历程。 仅显示您有权访问的历程。
 
--->
+![](assets/journeys-dashboard.png)
 
 ## 构建历程{#jo-build}
 
@@ -71,15 +70,7 @@ In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tab
 
 以下是通过历程发送消息的主要步骤：
 
-1. 在“历程管理”菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
-
-   ![](assets/interface-journeys.png)
-
-1. 单击 **[!UICONTROL 创建历程]** 以创建新历程。
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. 从 **浏览** ，单击 **[!UICONTROL 创建历程]** 以创建新历程。
 
 1. 编辑右侧显示的配置窗格中的历程属性。在中了解详情 [部分](journey-gs.md#change-properties).
 
