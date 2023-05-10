@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: Web，子域，配置
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 27%
@@ -78,11 +78,11 @@ ht-degree: 27%
 
 1. 的 **[!UICONTROL 默认]** 标记显示在当前用作默认的子域旁边。 要更改默认子域，请选择 **[!UICONTROL 设置为默认值]** 从 **[!UICONTROL 更多操作]** 按钮。
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >您可以更改默认的Web子域，但一次只能使用一个子域。
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
