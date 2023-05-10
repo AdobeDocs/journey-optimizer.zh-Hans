@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: Web，子域，配置
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
+source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 29%
+source-wordcount: '413'
+ht-degree: 27%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 29%
    >
    >无法选择已用作Web子域的子域。
 
-1. 将自动添加在您的Web URL中显示的前缀。
+1. 将自动添加在您的Web URL中显示的前缀。 你无法更改它。
 
 1. 要将此子域设置为默认值，请选择相应的选项。
 
@@ -72,6 +72,10 @@ ht-degree: 29%
 
 1. 单击&#x200B;**[!UICONTROL 提交]**. 子域获取 **[!UICONTROL 成功]** 状态。 它已准备好用于您的Web体验。
 
+   >[!NOTE]
+   >
+   >在极少数情况下，子域设置可能会失败。 在这种情况下，您可以删除 **[!UICONTROL 失败]** 子域来使用 **[!UICONTROL 删除]** 按钮 **[!UICONTROL 更多操作]** 图标。
+
 1. 的 **[!UICONTROL 默认]** 标记显示在当前用作默认的子域旁边。 要更改默认子域，请选择 **[!UICONTROL 设置为默认值]** 从 **[!UICONTROL 更多操作]** 按钮。
 
    >[!NOTE]
@@ -81,7 +85,5 @@ ht-degree: 29%
    ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
-
-    You can only delete a **[!UICONTROL Failed]** subdomain to clean up the list. To do so, select **[!UICONTROL Delete]** from the **[!UICONTROL More actions]** button next to the desired subdomain.
 
     You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
