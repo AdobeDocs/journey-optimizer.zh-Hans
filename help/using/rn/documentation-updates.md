@@ -4,9 +4,9 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
+source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2769'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,8 @@ ht-degree: 98%
 
 ## 2023 年 5 月 {#may-2023}
 
-* 的 **配置Web子域** 页面已创建：如果将来自Adobe Experience Manager Assets Essentials的内容添加到Web体验，则必须设置用于发布此内容的子域。 [了解详情](../web/web-delegated-subdomains.md)
+* 添加了新页面，以说明如何设置子域，该子域将用于发布来自Adobe Experience Manager Assets Essentials的内容（在您的Web体验中）。 [了解详情](../web/web-delegated-subdomains.md)
+* 添加了新子部分，以说明如何在电子邮件设计器中向URL添加个性化跟踪参数。 [了解详情](../email/message-tracking.md#url-tracking)
 
 ## 2023 年 4 月 {#apr-2023}
 
