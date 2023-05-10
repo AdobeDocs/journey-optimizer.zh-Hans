@@ -1,15 +1,15 @@
 ---
-title: Web渠道先决条件
+title: Web 渠道先决条件
 description: 要在Journey Optimizer用户界面中访问和创作网页，请遵循本页的先决条件
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 11%
+source-wordcount: '872'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 ## 警告
 
-当前位于 [!DNL Journey Optimizer] 您只能使用 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)
+这当前位于 [!DNL Journey Optimizer] 中，您只能使用&#x200B;**营销活动**&#x200B;创建 Web 体验。[了解详情](../campaigns/create-campaign.md#configure)
 
 
 [!DNL Journey Optimizer] Web营销活动会定位其他渠道中以前未参与的新用户档案。 这将增加可接合配置文件总数，如果您购买的可接合配置文件的合同数量超过，则可能会产生成本影响。 每个包的许可证量度列在 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html) 页面。
@@ -123,11 +123,10 @@ ht-degree: 11%
 
 * 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   此合并策略由 [!DNL Journey Optimizer] 入站渠道，以在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+   此合并策略由 [!DNL Journey Optimizer] 入站渠道，以在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 
-<!--
-Branded domains for assets
+## 资产的品牌域 {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。 [了解详情](web-delegated-subdomains.md)
