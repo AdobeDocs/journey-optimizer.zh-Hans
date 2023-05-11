@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 10%
+source-wordcount: '327'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >与与 **[!UICONTROL 受众目标]** 服务。 例如， **[!UICONTROL 区段]** 选项卡。 但是， [区段生成器](../../segment/about-segments.md) 文档仍对构建选件决策规则有效。 在 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >与与 **[!UICONTROL 分段]** 服务。 例如， **[!UICONTROL 区段]** 选项卡。 但是， [区段生成器](../../segment/about-segments.md) 文档仍对构建选件决策规则有效。 在 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 1. 在工作区中添加和配置新字段时， **[!UICONTROL 区段属性]** 窗格显示属于该区段的估计用户档案的信息。 单击 **[!UICONTROL 刷新估计]** 更新数据。
 

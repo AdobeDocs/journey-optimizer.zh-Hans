@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 100%
 >[!NOTE]
 >
 >本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
-
 
 ## 左侧导航栏 {#left-nav}
 
@@ -90,7 +89,6 @@ ht-degree: 100%
 
 * **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"}
 
-
 ## 产品内用例 {#in-product-uc}
 
 在主页中利用 [!DNL Adobe Journey Optimizer]用例，快速输入一些信息以创建客户历程。
@@ -110,7 +108,6 @@ ht-degree: 100%
 
 您可以从&#x200B;**[!UICONTROL 查看用例库]**&#x200B;按钮访问执行的用例。
 
-
 ## 查找帮助和支持 {#find-help}
 
 从主页的下半部分访问 Adobe Journey Optimizer 关键帮助页面。
@@ -118,10 +115,6 @@ ht-degree: 100%
 使用&#x200B;**帮助**&#x200B;图标来访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
 
 ![](assets/ajo-help.png)
-
-## 支持的浏览器 {#browsers}
-
-Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中发挥最佳表现。在旧版本或其他浏览器上使用某些功能时可能会遇到问题。
 
 ## 语言偏好设置 {#language-pref}
 
@@ -145,39 +138,3 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 然后，单击电子邮件地址下显示的语言
 * 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
    ![](assets/select-language.png)
-
-## 搜索{#unified-search}
-
-在 Adobe Journey Optimizer 界面的任何地方，使用顶部中央位置的 Adobe Experience Cloud 统一搜索功能在沙盒中查找资产、历程和数据集等等。
-
-开始输入内容以显示排名靠前的结果。与输入的关键词有关的帮助文章也会显示在结果中。
-
-![](assets/unified-search.png)
-
-按 **Enter** 键访问所有结果并按业务对象进行筛选。
-
-![](assets/search-and-filter.png)
-
-## 筛选器列表{#filter-lists}
-
-在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。
-
-单击列表左上角的筛选图标即可访问筛选器。通过使用过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改过的元素。选项因上下文不同而异。
-
-在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;中筛选历程。类型可以是：**[!UICONTROL 单一事件]**、**[!UICONTROL 区段鉴别]**、**[!UICONTROL 读取区段]**、**[!UICONTROL 业务事件]**&#x200B;或&#x200B;**[!UICONTROL 突发]**。您可以从&#x200B;**[!UICONTROL 活动过滤器]**&#x200B;和&#x200B;**[!UICONTROL 数据过滤器]**&#x200B;中选择仅显示使用特定事件、字段组或操作的历程。通过&#x200B;**[!UICONTROL 发布过滤器]**，您可以选择发布日期或用户。例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
-
->[!NOTE]
->
->请注意，显示的列可以使用列表右上角的配置按钮进行个性化设置。为每个用户保存个性化设置。
-
-使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;和&#x200B;**[!UICONTROL 上次更新者]**&#x200B;列检查历程的上次更新时间以及保存该更新的人员。
-
-![](assets/filter-journeys.png)
-
-在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL 使用位置]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
-
-![](assets/journey3bis.png)
-
-在列表中，您可以对每个元素执行基本操作。例如，您可以删除项目或制作项目副本。
-
-![](assets/journey4.png)

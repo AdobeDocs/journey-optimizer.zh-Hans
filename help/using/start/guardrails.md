@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1066'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 92%
 您还需要[在开始之前了解针对 Real-time Customer Profile 数据的防护](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}。
 
 下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
+
+## 支持的浏览器 {#browsers}
+
+Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中发挥最佳表现。在旧版本或其他浏览器上使用某些功能时可能会遇到问题。
 
 ## 消息护栏 {#message-guardrails}
 

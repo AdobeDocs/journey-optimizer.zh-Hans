@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，首次，开始，快速入门，区段，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 18%
+source-wordcount: '1512'
+ht-degree: 25%
 
 ---
 
@@ -42,10 +42,6 @@ ht-degree: 18%
 
 在“历程管理”菜单部分，单击 **[!UICONTROL 历程]**. 提供了两个选项卡：
 
-**浏览**:此选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。有关更多信息，请参见[此章节](../start/user-interface.md#filter-lists)。
-
-![](assets/journeys-browse.png)
-
 **概述**:此选项卡显示包含与您的历程相关关键量度的功能板：
 
 * **处理的用户档案**:过去24小时内处理的用户档案总数
@@ -58,6 +54,22 @@ ht-degree: 18%
 >此仪表板考虑了过去24小时内流量的历程。 仅显示您有权访问的历程。
 
 ![](assets/journeys-dashboard.png)
+
+**浏览**:此选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。有关更多信息，请参见[此章节](../start/user-interface.md#filter-lists)。
+
+![](assets/journeys-browse.png)
+
+在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;中筛选历程。类型可以是：**[!UICONTROL 单一事件]**、**[!UICONTROL 区段鉴别]**、**[!UICONTROL 读取区段]**、**[!UICONTROL 业务事件]**&#x200B;或&#x200B;**[!UICONTROL 突发]**。
+
+您可以从&#x200B;**[!UICONTROL 活动过滤器]**&#x200B;和&#x200B;**[!UICONTROL 数据过滤器]**&#x200B;中选择仅显示使用特定事件、字段组或操作的历程。此外， **[!UICONTROL 发布过滤器]** 允许您选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
+
+![](assets/filter-journeys.png)
+
+使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;和&#x200B;**[!UICONTROL 上次更新者]**&#x200B;列检查历程的上次更新时间以及保存该更新的人员。
+
+在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL 使用位置]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
+
+![](assets/journey3bis.png)
 
 ## 构建历程{#jo-build}
 
@@ -101,7 +113,7 @@ ht-degree: 18%
 
 单击右上方的铅笔图标以访问历程的属性。
 
-您可以更改历程名称、添加描述、允许重新进入、选择开始和结束日期，并作为管理员用户定义 **[!UICONTROL 超时和错误]** 持续时间。
+您可以更改历程名称、添加描述、允许重新进入、选择开始和结束日期，并作为管理员用户定义 **[!UICONTROL 超时和错误]** 持续时间。 您还可以将Adobe Experience Platform统一标记分配给历程。 这样，您就可以轻松地对促销活动进行分类，并改进促销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
 对于实时历程，此屏幕显示发布日期和发布历程的用户名称。
 

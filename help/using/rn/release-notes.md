@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,24 @@ ht-degree: 97%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
+## 2023年5月改进 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>在营销活动中使用标记</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以为营销活动分配Adobe Experience Platform统一标记。 这样，您就可以轻松地对促销活动进行分类，并改进促销活动列表中的搜索。 请注意，统一标记功能目前处于测试阶段。
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2023 年 4 月发行说明 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ ht-degree: 97%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ ht-degree: 97%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>新的历程功能板（测试版）</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 历程功能板现在拆分为两个选项卡：</p>
-<ul><li>使用 <strong>概述</strong> 选项卡，以访问新功能板，其中显示与您的历程相关的关键量度。</li>
-<li>使用 <strong>浏览</strong> 选项卡，访问所有历程的列表。</li></ul>
-<p>此功能可在所有历程中作为公共测试版访问。</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>有关更多信息，请参阅<a href="../building-journeys/journey-gs.md#journey-access">详细文档</a>。</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ ht-degree: 97%
 <tr>
 <td>
 <p>作为使用 Journey Optimizer 的专业人员，您现在可以使用标记组织业务对象。标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。此功能目前为 Beta 版，仅适用于历程。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/tags.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### 改进 {#mar-2023-improvements}
 

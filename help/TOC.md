@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+workflow-type: tm+mt
+source-wordcount: '1370'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
       + [管理员入门](using/start/path/administrator.md)
       + [开发人员入门](using/start/path/developer.md)
    + [用户界面](using/start/user-interface.md)
+   + [搜索、过滤、分类](using/start/search-filter-categorize.md)
    + [辅助功能](using/start/accessibility.md)
    + [集成](using/start/ajo-integrations.md)
    + [护栏](using/start/guardrails.md)
@@ -47,7 +48,6 @@ ht-degree: 100%
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [对历程进行故障排除](using/building-journeys/troubleshooting.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
-      + [管理历程中的标记](using/building-journeys/tags.md)
    + 活动 {#about-journey-building}
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)

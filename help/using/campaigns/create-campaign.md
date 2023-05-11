@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 创建，优化程序，营销活动，表面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 22%
+source-wordcount: '789'
+ht-degree: 21%
 
 ---
 
@@ -65,6 +65,8 @@ ht-degree: 22%
 1. 在 **[!UICONTROL 属性]** 部分，指定营销活动的名称和描述。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+
+1. 的 **标记** 字段，可为营销活动分配Adobe Experience Platform统一标记。 这样，您就可以轻松地对促销活动进行分类，并改进促销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
 1. 要为营销活动分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级别访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
@@ -129,9 +131,9 @@ ht-degree: 22%
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->属于某个客户群的不同身份中没有选定身份（命名空间）的个人将不会被营销活动定位。
+    >[!NOTE]
+    >
+    >属于某个客户群且该客户群的不同身份之间没有选定的身份（命名空间）的个人将不会被营销活动定位。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

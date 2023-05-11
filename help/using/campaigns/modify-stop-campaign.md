@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 管理营销活动，状态，计划，访问，优化程序
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 2%
 
 营销活动可从 **[!UICONTROL 促销活动]** 菜单。
 
-默认情况下，列表会显示 **[!UICONTROL 草稿]**, **[!UICONTROL 已计划]**&#x200B;和 **[!UICONTROL 实时]** 状态。
-
-要显示已停止、已完成和已存档的营销活动，您需要清除过滤器。
+默认情况下，列表会显示 **[!UICONTROL 草稿]**, **[!UICONTROL 已计划]**&#x200B;和 **[!UICONTROL 实时]** 状态。 要显示已停止、已完成和已存档的营销活动，您需要清除过滤器。
 
 ![](assets/create-campaign-list.png)
+
+此外，您还可以根据营销活动类型和渠道，或在创建营销活动时分配给营销活动的标记来过滤列表。 [了解如何为营销活动分配标记](create-campaign.md#create)
 
 ## 营销活动状态 {#statuses}
 
