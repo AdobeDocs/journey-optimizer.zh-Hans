@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 33%
@@ -53,7 +53,7 @@ ht-degree: 33%
 >
 >统一标记当前处于测试阶段。 文档和功能可能会发生变化。
 
-## 向对象添加标记
+### 向对象添加标记
 
 的 **标记** 字段，在 [历程](../building-journeys/journey-gs.md#change-properties) 或 [营销活动](../campaigns/create-campaign.md#create) 属性，用于为对象定义标记。 您可以选择现有标记，也可以创建新标记。
 
@@ -69,7 +69,7 @@ ht-degree: 33%
 > 
 > 如果您复制或创建历程或营销策划的新版本，则会保留标记。
 
-## 标记过滤
+### 标记过滤
 
 历程和营销活动列表显示一个专用列，以便您能够轻松地将标记可视化。
 
@@ -81,7 +81,7 @@ ht-degree: 33%
 
 ![](assets/tags3.png)
 
-## 管理标记
+### 管理标记
 
 管理员可以删除标记，并使用 **标记** 菜单，下 **管理**. 在 [统一标记文档](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
