@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 13%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 13%
 1. 定义内容后，您可以将跟踪URL添加到消息中。 为此，请访问 **[!UICONTROL 帮助程序函数]** 菜单和选择 **[!UICONTROL 帮助者]**.
 
    请注意，要使用URL缩短功能，必须首先配置一个子域，然后该子域将链接到您的表面。 [了解详情](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > 要访问和编辑短信子域，您必须具有 **[!UICONTROL 管理短信子域]** 对生产沙盒的权限。
 
    ![](assets/sms_tracking_1.png)
 

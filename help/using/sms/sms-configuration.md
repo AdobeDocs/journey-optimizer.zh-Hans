@@ -6,10 +6,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '848'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。
 
-发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer [创建短信界面](#message-preset-sms) （即短信预设）。 这些步骤必须由 [Adobe Journey Optimizer系统管理员](../start/path/administrator.md).
+发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer [创建短信界面](#message-preset-sms) （即短信预设）。 这些步骤必须由 [Adobe Journey Optimizer 系统管理员](../start/path/administrator.md)执行。
 
 ## 先决条件{#sms-prerequisites}
 
@@ -27,6 +27,9 @@ Adobe Journey Optimizer当前与Sinch和Twilio等第三方提供商集成，后�
 
 您使用短信服务将受适用短信提供商的其他条款和条件的约束。 鉴于Sinch和Twilio是通过集成提供给Adobe Journey Optimizer用户的第三方产品，因此对于与短信服务相关的任何问题或查询，Sinch或Twilio的用户将需要联系适用的短信提供商以获取帮助。 Adobe不控制第三方产品，也不负责第三方产品。
 
+>[!CAUTION]
+>
+>要访问和编辑短信子域，您必须具有 **[!UICONTROL 管理短信子域]** 对生产沙盒的权限。
 
 ## 创建新API凭据 {#create-api}
 
