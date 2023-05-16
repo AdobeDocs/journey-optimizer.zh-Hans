@@ -10,11 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-badge: label="Beta" type="Informitive"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+badge: label="Beta" type="Informative"
+source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-您将在本文档中找到的内容：
+本文档包括以下内容：
 
 * [受众组合入门](get-started-audience-orchestration.md)
-* [创建您的第一个合成工作流](create-compositions.md)
+* [创建您的第一个组合工作流程](create-compositions.md)
 * **[使用组合画布](composition-canvas.md)**
 * [访问和管理受众](access-audiences.md)
 
