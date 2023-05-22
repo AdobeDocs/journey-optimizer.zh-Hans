@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 68%
 
 如果您已经使用出站渠道（如电子邮件、短信或推送通知），则现在可以利用入站 Web 渠道来提供跨所有渠道的真正个性化体验。
 
-创建营销活动后，选择 **Web** 定义基本设置。 有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
+创建营销活动后，选择 **Web** 作为操作并定义基本设置。有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
 
 >[!NOTE]
 >
->如果您是首次创建Web体验，请确保遵循 [此部分](web-prerequisites.md).
+>如果您是首次创建 Web 体验，请确保遵循[此部分](web-prerequisites.md)中叙述的先决条件。
 
-了解在中创建Web营销活动的详细步骤 [此视频](create-web.md#video).
+通过[此视频](create-web.md#video)了解创建 Web 营销活动的详细步骤。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -43,7 +43,7 @@ ht-degree: 68%
 <img alt="不频繁" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
-<a href="create-web.md"><strong>创建Web体验</strong></a>
+<a href="create-web.md"><strong>创建 Web 体验</strong></a>
 </div>
 <p></td>
 <td>
