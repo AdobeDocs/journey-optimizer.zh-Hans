@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
+source-git-commit: d04f102100e67baf34ca72f9af26931955f84c67
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 97%
+source-wordcount: '2379'
+ht-degree: 82%
 
 ---
 
@@ -21,24 +21,173 @@ ht-degree: 97%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2023 年 5 月改进 {#may-improvements}
+
+## 2023年5月早期發行說明 {#may-rn-2023}
+
+以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
+
+**發行日期**：2023年5月25日
+
+### 新功能{#may-2023-features}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Audience Composition</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>在营销活动中使用标记</strong><br/></th>
+<th><strong>行銷活動中的內容實驗</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在支援行銷活動中的實驗。 實驗是隨機試驗，線上上測試的背景下，意指您讓一些隨機選取的使用者接觸到訊息的給定變數，讓另外一組隨機選取的使用者接觸到一些其他變數或處理方式。 曝光後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買。</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>在您的電子郵件內容中建立和使用片段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以創作、使用和管理片段，以快速組合您的電子郵件和內容範本。 片段是預先建立的可重複使用元件，可在跨Journey Optimizer行銷活動和歷程的多封電子郵件中參考，以改進並加快設計流程。</p>
+<img src="assets/fragment-insert.png"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>在您的行銷活動中使用標籤(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您现在可以为营销活动分配 Adobe Experience Platform 统一标记。这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。请注意，统一标记功能目前为 Beta 版。
+</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI排名模型（全面發佈）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI排名模型現在通常可在決策管理中使用。 利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### 改进 {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**受众**
+
+* 已針對歷程或行銷活動中的對象選擇器進行增強功能，新增欄顯示對象的原始和更新頻率。
+
+**短信渠道**
+
+* 在設定您的SMS頻道介面時，Infobip已新增為供應商提供者。
+* Twilio - API認證設定現在包含新增傳訊服務SID的功能，以便與您的Twilio帳戶緊密整合。
+
+**应用程序内渠道**
+
+* 新增Adobe地標服務的訊息觸發規則。
+* 已新增新的Adobe Experience Platform保證功能，以擷取裝置事件並新增為觸發規則。
+
+**历程**
+
+* 您現在可以在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。
+
+**营销活动**
+
+* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。
+* 您現在可以刪除即時行銷活動的草稿修改。
+* 啟用行銷活動的步驟現已簡化。
+
+**决策管理**
+
+* 如果優惠方案處於「草稿」狀態且之前從未發佈，您現在可以編輯頻率上限。
+
+**个性化**
+
+* 在HTML內容中工作時，您現在可以直接從「個人化編輯器」中選取和插入資產參考。
+
+### 修复{#may-2023-fixes}
+
+* 應用程式內訊息 — 修正行銷活動排程與訊息頻率設定衝突的問題。
+
 
 ## 2023 年 4 月发行说明 {#apr-rn-2023}
 
@@ -67,7 +216,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>移动端加入快速入门工作流程（Beta 版）</strong><br/></th>
+<th><strong>行動入門快速入門工作流程（測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,25 +249,6 @@ ht-degree: 97%
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### 改进 {#april-2023-improvements}
 
@@ -246,7 +376,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>应用程序内渠道（Beta 版）</strong><br/></th>
+<th><strong>應用程式內頻道(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -264,7 +394,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>将 Journey Optimizer 数据集导出到云存储目标（Beta 版）</strong><br/></th>
+<th><strong>將Journey Optimizer資料集匯出至雲端儲存目標（測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
