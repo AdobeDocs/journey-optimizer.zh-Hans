@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2023年5月改进 {#may-improvements}
+## 2023 年 5 月改进 {#may-improvements}
 
 <table>
 <thead>
@@ -32,7 +32,7 @@ ht-degree: 95%
 <tbody>
 <tr>
 <td>
-<p>您现在可以为营销活动分配Adobe Experience Platform统一标记。 这样，您就可以轻松地对促销活动进行分类，并改进促销活动列表中的搜索。 请注意，统一标记功能目前处于测试阶段。
+<p>您现在可以为营销活动分配 Adobe Experience Platform 统一标记。这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。请注意，统一标记功能目前为 Beta 版。
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
@@ -84,16 +84,16 @@ ht-degree: 95%
 <table>
 <thead>
 <tr>
-<th><strong>新的历程功能板（测试版）</strong><br/></th>
+<th><strong>新歷程儀表板（測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 历程功能板现在拆分为两个选项卡：</p>
-<ul><li>使用 <strong>概述</strong> 选项卡，以访问新功能板，其中显示与您的历程相关的关键量度。</li>
-<li>使用 <strong>浏览</strong> 选项卡，访问所有历程的列表。</li></ul>
-<p>此功能可在所有历程中作为公共测试版访问。</p>
+<p> Journey儀表板現在分成兩個標籤：</p>
+<ul><li>使用 <strong>概觀</strong> 標籤來存取顯示與歷程相關之關鍵量度的新儀表板。</li>
+<li>使用 <strong>瀏覽</strong> 標籤以存取所有歷程的清單。</li></ul>
+<p>此功能可作為公開測試版存取，於所有歷程中使用。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-gs.md#journey-access">详细文档</a>。</p>
 </td>
