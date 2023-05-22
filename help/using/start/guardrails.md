@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,8 +44,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 一般历程护栏 {#journeys-guardrails-journeys}
 
-* 历程中的活动数量最多为50个。 活动数显示在历程画布的左上角部分。
-* 数量 **实时历程** 在一个组织中，每个沙箱最多限制为100个。 达到此限制后，您将无法再发布新历程。
+* 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。
+* 一个组织中的&#x200B;**实时历程**&#x200B;数量限制为每个沙盒 100 个。达到此限制后，您将无法再发布新历程。
 
 ### 常规操作 {#general-actions-g}
 
@@ -71,7 +71,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 查询参数或标头的名称不得以“.”或“$”开始
 * 不允许使用 IP 地址
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
-* 无法删除内置的自定义操作。
+* 无法移除内置的自定义操作。
 
 ### 事件 {#events-g}
 
@@ -104,6 +104,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 表达式编辑器 {#expression-editor}
 
-* 以读取区段、区段鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。您需要创建新区段并在历程中使用内段条件。
+* 以读取区段、区段鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。您需要创建新区段并在历程中使用段内条件。
 
 
