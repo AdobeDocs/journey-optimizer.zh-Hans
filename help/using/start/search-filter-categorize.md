@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 
-# 搜索、过滤、组织 {#search-filter-organize}
+# 搜索、筛选、组织 {#search-filter-organize}
 
 ## 搜索{#unified-search}
 
@@ -33,9 +33,9 @@ ht-degree: 33%
 
 在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。
 
-单击列表左上角的筛选图标即可访问筛选器。利用过滤器菜单，可根据不同的条件筛选显示的元素：您可以选择仅显示特定类型或状态的元素、您创建的元素或最近30天内修改的元素。 选项因上下文不同而异。
+单击列表左上角的筛选图标即可访问筛选器。利用筛选菜单，可根据不同的条件筛选显示的元素：您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改的元素。选项因上下文不同而异。
 
-此外，您还可以使用统一标记来根据分配给对象的标记来筛选列表。 目前，标记可用于历程和营销活动。 [了解如何使用标记](#tags)
+此外，您还可以使用统一标记来根据分配给对象的标记筛选列表。目前，标记可用于历程和营销活动。[了解如何使用标记](#tags)
 
 >[!NOTE]
 >
@@ -45,46 +45,46 @@ ht-degree: 33%
 
 ![](assets/journey4.png)
 
-## 使用统一的标记 {#tags}
+## 使用统一标记 {#tags}
 
-使用Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html)，您可以轻松地对Journey Optimizer历程和促销活动进行分类，以改进从列表中的搜索。
+使用 Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hans)，您可以轻松地对 Journey Optimizer 历程和营销活动进行分类，以改进列表中的搜索。
 
 >[!AVAILABILITY]
 >
->统一标记当前处于测试阶段。 文档和功能可能会发生变化。
+>统一标记目前为 Beta 版。文档和功能可能会发生变化。
 
 ### 向对象添加标记
 
-的 **标记** 字段，在 [历程](../building-journeys/journey-gs.md#change-properties) 或 [营销活动](../campaigns/create-campaign.md#create) 属性，用于为对象定义标记。 您可以选择现有标记，也可以创建新标记。
+使用&#x200B;**标记**&#x200B;字段（在[历程](../building-journeys/journey-gs.md#change-properties)或[营销活动](../campaigns/create-campaign.md#create)）属性中，您可以为对象定义标记。您可以选择现有标记，也可以创建新标记。
 
-开始键入所需标记的名称，然后从列表中选择该名称。 如果不可用，请单击 **创建** 以创建并添加新受众。 您可以根据需要定义任意数量的标记。
+开始键入所需标记的名称，然后从列表中选择该名称。如果不可用，请单击&#x200B;**创建**&#x200B;以创建并添加。您可以根据需要定义任意数量的标记。
 
 ![](assets/tags1.png)
 
-定义的标记列表显示在 **标记** 字段。
+定义的标记列表显示在&#x200B;**标记**&#x200B;字段的下方。
 
 >[!NOTE]
 >
 > 标记区分大小写
 > 
-> 如果您复制或创建历程或营销策划的新版本，则会保留标记。
+> 您复制或创建历程或营销活动的新版本时，会保留标记。
 
-### 标记过滤
+### 标记筛选
 
-历程和营销活动列表显示一个专用列，以便您能够轻松地将标记可视化。
+历程和营销活动列表会显示专门的一列，以便您能够轻松地显示标记。
 
-过滤器还仅可用于显示具有特定标记的历程或营销活动。
+此外，筛选器仅可用于显示具有特定标记的历程或营销活动。
 
 ![](assets/tags2.png)
 
-您可以在任何类型的历程或营销策划（实时、草稿等）中添加或删除标记。 为此，请单击 **更多操作** 图标，然后选择 **编辑标记**.
+您可以在任何类型的历程或营销活动（实时、草稿等）中添加或移除标记。为此，请单击对象旁边的&#x200B;**更多操作**&#x200B;图标，然后选择&#x200B;**编辑标记**。
 
 ![](assets/tags3.png)
 
 ### 管理标记
 
-管理员可以删除标记，并使用 **标记** 菜单，下 **管理**. 在 [统一标记文档](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+管理员可以删除标记，并使用&#x200B;**管理**&#x200B;下的&#x200B;**标记**&#x200B;菜单按类别进行组织。在[统一标记文档](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hans)中了解标记管理的更多信息。
 
 >[!NOTE]
 >
-> 直接从 **[!UICONTROL 标记]** 字段会自动添加到内置的“未分类”类别中。
+> 直接从 Journey Optimizer **[!UICONTROL 标记]**&#x200B;字段创建的标记会自动添加到内置的“未分类”类别中。
