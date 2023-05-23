@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: da59efccc65d78ae357123d5f99e94cfcb52a68d
+source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 82%
@@ -96,7 +96,7 @@ ht-degree: 82%
 <tr>
 <td>
 <p>您現在可以創作、使用和管理片段，以快速組合您的電子郵件和內容範本。 片段是預先建立的可重複使用元件，可在跨Journey Optimizer行銷活動和歷程的多封電子郵件中參考，以改進並加快設計流程。</p>
-<img src="assets/fragment-insert.png"/>
+<img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
