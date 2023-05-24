@@ -1,6 +1,6 @@
 ---
 title: 创建模拟
-description: 了解如何模拟将为给定版面提供哪些选件，以验证决策逻辑
+description: 瞭解如何模擬將在指定位置傳遞哪些優惠，以驗證您的決策邏輯
 feature: Offers
 topic: Integrations
 role: User
@@ -15,25 +15,25 @@ ht-degree: 6%
 
 # 创建模拟 {#create-simulations}
 
-## 关于模拟 {#about-simulation}
+## 關於模擬 {#about-simulation}
 
-要验证决策逻辑，您可以模拟哪些选件将交付到给定版面的测试用户档案。
+若要驗證您的決定邏輯，您可以模擬哪些優惠將傳遞至指定位置的測試設定檔。
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-这样，您就可以测试和优化各种版本的选件，而不会对目标收件人产生任何影响。
+這可讓您測試和調整各種版本的優惠方案，而不會對目標收件者造成影響。
 
 >[!NOTE]
 >
->此功能模拟对 [!DNL Decisioning] API。 了解详情 [使用决策API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md).
+>此功能可模擬對的單一請求 [!DNL Decisioning] API。 進一步瞭解 [使用Decisioning API傳遞優惠方案](../api-reference/offer-delivery-api/decisioning-api.md).
 
-要访问此功能，请选择 **[!UICONTROL 模拟]** 选项卡 **[!UICONTROL 决策管理]** > **[!UICONTROL 选件]** 菜单。
+若要存取此功能，請選取 **[!UICONTROL 模擬]** 標籤從 **[!UICONTROL 決定管理]** > **[!UICONTROL 選件]** 功能表。
 
 ![](../assets/offers_simulation-tab.png)
 
 >[!NOTE]
 >
->由于模拟不生成任何决策事件，因此 [上限](../offer-library/creating-personalized-offers.md#capping) 计数不受影响。
+>由於模擬不會產生任何決定事件，因此 [上限](../offer-library/creating-personalized-offers.md#capping) 計數不受影響。
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -47,110 +47,110 @@ ht-degree: 6%
 >abstract="您可通过选择身份命名空间以及对应的身份值来添加测试配置文件。您必须拥有已经可用的测试配置文件才能将它们用于模拟。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="创建测试用户档案"
 
-首先，您需要选择要用于模拟的测试用户档案。
+首先，您需要選取要用於模擬的測試設定檔。
 
 >[!CAUTION]
 >
->您必须具有测试用户档案，以模拟将向他们提供哪些选件。 了解如何 [创建测试用户档案](../../segment/creating-test-profiles.md).
+>您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../../segment/creating-test-profiles.md).
 
-1. 单击 **[!UICONTROL 管理配置文件]**.
+1. 按一下 **[!UICONTROL 管理設定檔]**.
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. 选择要用于标识测试用户档案的身份命名空间。 在本例中，我们将使用 **电子邮件** 命名空间。
+1. 選取您要用來識別測試設定檔的身分名稱空間。 在此範例中，我們將使用 **電子郵件** 名稱空間。
 
    >[!NOTE]
    >
-   >标识命名空间定义标识符的上下文，如电子邮件地址或CRM ID。 进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../../segment/get-started-identity.md){target="_blank"}.
+   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../../segment/get-started-identity.md){target="_blank"}.
 
-1. 输入标识值并单击 **[!UICONTROL 查看]** 列出可用的用户档案。
+1. 輸入身分值並按一下 **[!UICONTROL 檢視]** 以列出可用的設定檔。
 
    ![](../assets/offers_simulation-add-profile.png)
 
-1. 如果要测试不同的用户档案数据，请添加其他用户档案，并保存您的选择。
+1. 如果您想要測試不同的設定檔資料，請新增其他設定檔，並儲存您的選取專案。
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 添加后，所有用户档案都会列在 **[!UICONTROL 测试用户档案]**. 您可以在保存的测试用户档案之间切换，以显示每个选定用户档案的结果。
+1. 新增後，所有設定檔都會列在下的下拉式清單中 **[!UICONTROL 測試設定檔]**. 您可以在儲存的測試設定檔之間切換，以顯示每個所選設定檔的結果。
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >所选用户档案将在 **[!UICONTROL 模拟]** 选项卡，直到使用 **[!UICONTROL 管理配置文件]**.
+   >選取的設定檔仍會列為測試設定檔列在 **[!UICONTROL 模擬]** 在不同工作階段之間切換標籤，直到使用移除工作階段為止 **[!UICONTROL 管理設定檔]**.
 
-1. 您可以单击 **[!UICONTROL 配置文件详细信息]** 链接以显示所选的用户档案数据。
+1. 您可以按一下 **[!UICONTROL 設定檔詳細資料]** 顯示所選設定檔資料的連結。
 
 <!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
-## 添加决策作用域 {#add-decision-scopes}
+## 新增決定範圍 {#add-decision-scopes}
 
-现在，选择要在测试用户档案上模拟的选件决策。
+現在選取您要在測試設定檔上模擬的優惠決定。
 
-1. 选择 **[!UICONTROL 添加决策范围]**.
+1. 選取 **[!UICONTROL 新增決定範圍]**.
 
    ![](../assets/offers_simulation-add-decision.png)
 
-1. 从列表中选择版面。
+1. 從清單中選取位置。
 
    ![](../assets/offers_simulation-add-decision-scope.png)
 
-1. 将显示可用的决策。
+1. 會顯示可用的決定。
 
-   * 您可以使用搜索字段来优化选择。
-   * 您可以单击 **[!UICONTROL 开放选件决策]** 链接以打开您创建的所有决策的列表。 了解详情 [决策](create-offer-activities.md).
+   * 您可以使用搜尋欄位來縮小選取範圍。
+   * 您可以按一下 **[!UICONTROL 開啟優惠決定]** 連結以開啟您建立的所有決定清單。 進一步瞭解 [決定](create-offer-activities.md).
 
-   选择您选择的决策并单击 **[!UICONTROL 添加]**.
+   選取您選擇的決定並按一下 **[!UICONTROL 新增]**.
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
-1. 您刚刚定义的决策范围将显示在主工作区中。
+1. 您剛才定義的決定範圍會顯示在主要工作區中。
 
-   您可以调整要请求的选件数量。 例如，如果您选择2，则此决策范围将显示2个最佳选件。
+   您可以調整要請求的優惠方案數量。 例如，如果您選取2，則會為此決定範圍顯示最佳的2個優惠。
 
    ![](../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
-   >您最多可以请求30个选件。
+   >您最多可以請求30個優惠方案。
 
-1. 重复上述步骤，以根据需要添加任意数量的决策。
+1. 重複上述步驟，視需要新增更多決策。
 
    ![](../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
-   >即使您定义多个决策范围，也只会模拟一个API请求。
+   >即使您定義了數個決定範圍，也只會模擬一個API請求。
 
-## 定义模拟设置 {#define-simulation-settings}
+## 定義模擬設定 {#define-simulation-settings}
 
-要编辑模拟的默认设置，请执行以下步骤。
+若要編輯模擬的預設設定，請遵循下列步驟。
 
-1. 单击 **[!UICONTROL 设置]**.
+1. 按一下 **[!UICONTROL 設定]**.
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 在 **[!UICONTROL 重复数据删除]** 部分，您可以选择在决策和/或版面中允许重复的选件。 这意味着可能会为多个决策/版面分配相同的选件。
+1. 在 **[!UICONTROL 重複資料刪除]** 區段，您可以選擇允許跨決定和/或版位重複的優惠。 這表示可能會將相同優惠指派給多個決定/位置。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >默认情况下，会启用所有重复数据删除标记以进行模拟，这意味着决策引擎允许重复项，因此可以在多个决策/投放中提出相同的建议。 了解 [!DNL Decisioning] 中的API请求属性 [此部分](../api-reference/offer-delivery-api/decisioning-api.md).
+   >依預設，所有重複資料刪除旗標都會啟用以進行模擬，這表示決定引擎允許重複專案，因此可以在多個決定/位置中進行相同的主張。 進一步瞭解 [!DNL Decisioning] 中的API要求屬性 [本節](../api-reference/offer-delivery-api/decisioning-api.md).
 
-1. 在 **[!UICONTROL 响应格式]** 部分，则可以选择在代码视图中包含元数据。 选中相应的选项，然后选择所选的元数据。 选择 **[!UICONTROL 查看代码]**. 在 [查看模拟结果](#simulation-results) 中。
+1. 在 **[!UICONTROL 回應格式]** 區段，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選擇的中繼資料。 選擇時，它們將顯示在請求和回應裝載中 **[!UICONTROL 檢視程式碼]**. 進一步瞭解 [檢視模擬結果](#simulation-results) 區段。
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
-   >在打开选项时，默认情况下会选择所有项目。
+   >開啟選項時，預設會選取所有專案。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 >[!NOTE]
 >
->目前，对于模拟数据，您只能使用 **[!UICONTROL 中心]** API。
+>目前對於模擬資料，您只能使用 **[!UICONTROL 中心]** API。
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -166,45 +166,45 @@ Context data allows the user to add contextual data that could affect the simula
 For instance, let's say the customer has an offer for a discount on ice cream. In the rules for that offer, it can have logic that would rank it higher when the temperature is above 80 degrees. In simulation, the user could add context data: temperature=65 and that offer would rank lower, of they could add temperature=95 and that would rank higher.
 -->
 
-## 查看模拟结果 {#simulation-results}
+## 檢視模擬結果 {#simulation-results}
 
-添加决策范围并选择测试用户档案后，即可查看结果。
+新增決定範圍並選取測試設定檔後，即可檢視結果。
 
-1. 单击 **[!UICONTROL 查看结果]**.
+1. 按一下 **[!UICONTROL 檢視結果]**.
 
    ![](../assets/offers_simulation-view-results.png)
 
-1. 将根据为每个决策选择的用户档案显示最佳的可用选件。
+1. 系統會根據針對每個決定選取的設定檔，顯示最佳可用優惠方案。
 
-   选择选件以显示其详细信息。
+   選取要顯示其詳細資訊的選件。
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 单击 **[!UICONTROL 查看代码]** 以显示请求和响应负载。 [了解详情](#view-code)
+1. 按一下 **[!UICONTROL 檢視程式碼]** 以顯示請求和回應裝載。 [了解详情](#view-code)
 
-1. 从列表中选择其他用户档案以显示其他测试用户档案的选件决策结果。
+1. 從清單中選取其他設定檔，以顯示不同測試設定檔的優惠方案決策結果。
 
-1. 您可以根据需要多次添加、删除或更新决策范围。
+1. 您可以視需要多次新增、移除或更新決定範圍。
 
 >[!NOTE]
 >
->每次更改用户档案或更新决策范围时，您都需要使用 **[!UICONTROL 查看结果]** 按钮。
+>每次您變更設定檔或更新決定範圍時，都需要使用 **[!UICONTROL 檢視結果]** 按鈕。
 
-## 查看代码 {#view-code}
+## 檢視程式碼 {#view-code}
 
-1. 使用 **[!UICONTROL 查看代码]** 按钮来显示请求和响应负载。
+1. 使用 **[!UICONTROL 檢視程式碼]** 按鈕以顯示請求和回應裝載。
 
    ![](../assets/offers_simulation-view-code.png)
 
-   代码视图显示当前用户的开发人员信息。 默认情况下， **[!UICONTROL 响应负载]** 中。
+   程式碼檢視會顯示目前使用者的開發人員資訊。 根據預設， **[!UICONTROL 回應裝載]** 隨即顯示。
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. 单击 **[!UICONTROL 响应负载]** 或 **[!UICONTROL 请求负载]** 来导航。
+1. 按一下 **[!UICONTROL 回應裝載]** 或 **[!UICONTROL 請求裝載]** 以在這兩個標籤之間瀏覽。
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 在之外使用请求有效负载 [!DNL Journey Optimizer]  — 例如，为进行故障诊断，请使用 **[!UICONTROL 复制到剪贴板]** 按钮。
+1. 若要在外部使用請求裝載 [!DNL Journey Optimizer]  — 如需疑難排解，例如，複製時使用 **[!UICONTROL 複製到剪貼簿]** 「程式碼」檢視上方的按鈕。
 
    ![](../assets/offers_simulation-copy-payload.png)
 
@@ -212,5 +212,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >在将请求或响应负载复制到您自己的代码中时，请确保将{USER_TOKEN}和{API_KEY}替换为有效值。 了解如何在 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 文档。
+   >將請求或回應裝載複製到您自己的程式碼時，請務必將{USER_TOKEN}和{API_KEY}替換為有效值。 瞭解如何在中擷取這些值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 說明檔案。
 

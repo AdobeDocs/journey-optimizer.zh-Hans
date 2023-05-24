@@ -1,43 +1,43 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中调整垂直对齐和内边距
-description: 了解如何调整垂直对齐和内边距
+title: 在Journey Optimizer中調整垂直對齊和邊框間距
+description: 了解如何调整垂直对齐方式和内边距
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 垂直对齐，电子邮件编辑器，内边距
+keywords: 垂直對齊，電子郵件編輯器，邊框間距
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
 # 调整垂直对齐和填充 {#alignment-and-padding}
 
-在此示例中，我们将调整由三列组成的结构组件内的填充和垂直对齐方式。
+在此範例中，我們將調整由三欄組成的結構元件內的邊框間距和垂直對齊方式。
 
-1. 直接在电子邮件中或使用 **[!UICONTROL 导航树]** 菜单。
+1. 直接在電子郵件中選取結構元件，或使用 **[!UICONTROL 導覽樹狀結構]** 可在左側功能表中取得。
 
-1. 在工具栏中，单击 **[!UICONTROL 选择列]** 并选择要编辑的。 也可以从结构树中选择它。
+1. 在工具列中按一下 **[!UICONTROL 選取欄]** 並選擇要編輯的專案。 您也可以從結構樹中選取它。
 
-   该列的可编辑参数显示在 **[!UICONTROL 样式]** 选项卡。
+   該欄的可編輯引數會顯示在 **[!UICONTROL 樣式]** 標籤。
 
    ![](assets/alignment_2.png)
 
-1. 在 **[!UICONTROL 对齐方式]**，选择 **[!UICONTROL 顶部]**, **[!UICONTROL 中间]** 或 **[!UICONTROL 底部]**.
+1. 下 **[!UICONTROL 對齊方式]**，選取 **[!UICONTROL 上]**， **[!UICONTROL 中間]** 或 **[!UICONTROL 下]**.
 
    ![](assets/alignment_3.png)
 
-1. 在 **[!UICONTROL 内边距]**，则定义所有边距。
+1. 下 **[!UICONTROL 內距]**，定義所有邊的邊框間距。
 
-   选择 **[!UICONTROL 每侧的内边距不同]** 要微调内边距。 单击锁图标以中断同步。
+   選取 **[!UICONTROL 每一邊不同的內距]** 如果您想要微調內距。 按一下鎖定圖示以中斷同步。
 
    ![](assets/alignment_4.png)
 
-1. 以类似方式继续调整其他列的对齐方式和内边距。
+1. 以类似的方式继续调整其他列的对齐方式和内边距。
 
 1. 保存更改。

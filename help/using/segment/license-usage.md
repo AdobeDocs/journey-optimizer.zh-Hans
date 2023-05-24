@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 许可证使用功能板
-description: 了解Journey Optimizer许可证使用功能板
+title: 授權使用情況儀表板
+description: 瞭解Journey Optimizer授權使用儀表板
 feature: Overview
 topic: Content Management
 role: User
@@ -15,20 +15,20 @@ ht-degree: 6%
 
 ---
 
-# 许可证使用功能板 {#license-usage}
+# 授權使用情況儀表板 {#license-usage}
 
-的 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md) 提供一个功能板，其中显示有关贵组织许可证使用情况的重要信息（在每日快照中捕获）。
+此 [!DNL Adobe Journey Optimizer] [使用者介面](../start/user-interface.md) 提供一個儀表板，顯示貴組織授權使用的重要資訊，如每日快照期間所擷取。
 
-要访问此功能板，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**. 这将打开 **[!UICONTROL 概述]** 选项卡。
+若要存取此儀表板，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**. 如此將可開啟 **[!UICONTROL 概觀]** 標籤顯示控制面板。
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->要能够查看功能板，您必须获得 [查看许可证使用情况功能板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} 权限。
+>若要檢視控制面板，您必須被授予 [檢視授權使用量儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} 許可權。
 
-请参阅Adobe Experience Platform文档，了解详情：
+在Adobe Experience Platform檔案中進一步瞭解：
 
-* [许可证使用功能板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [浏览许可证使用功能板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [授權使用情況儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target="_blank"}

@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 权限级别
-description: 了解允许用户访问不同功能的高级和低级权限。
+description: 瞭解允許使用者存取不同功能的高層級和低層級許可權。
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: 权限，高级，低级别，配置文件，管理控制台
+keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
@@ -19,22 +19,22 @@ ht-degree: 2%
 
 ![](assets/do-not-localize/permissions.png)
 
-每个产品配置文件都包含允许用户访问不同功能的权限。
-分为两种类型：
+每個產品設定檔都包含許可權，可讓使用者存取不同功能。
+它們可以分為兩種型別：
 
-* **高级权限**:表示可分配给的不同权限 **[!UICONTROL 产品配置文件]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高级权限包含低级权限。
+* **高階許可權**：代表可指派給的不同許可權 **[!UICONTROL 產品設定檔]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高層級許可權包含低層級許可權。
 
-* **低级别权限**:表示来自高级权限的不同权限。
+* **低階許可權**：代表來自高階許可權的不同許可權。
 
-例如， **[!DNL Journey administrator]** 已分配产品配置文件 **[!DNL Manage journeys]** 权限。 从此权限中，将产生低级权限，该权限将允许历程管理员写入、读取和删除历程。
+例如， **[!DNL Journey administrator]** 產品設定檔已指派 **[!DNL Manage journeys]** 許可權。 此許可權會產生低階許可權，可讓Journey管理員寫入、讀取和刪除歷程。
 
-## 历程功能 {#journey-capability}
+## 歷程功能 {#journey-capability}
 
 ### [!DNL Manage journeys] 权限 {#manage-journeys}
 
-的 **[!DNL Manage journeys]** 高级权限允许用户创建新历程和编辑/删除现有访客，以及访问历程画布中用于构建历程流的对象。
+此 **[!DNL Manage journeys]** 高階許可權可讓使用者建立新歷程及編輯/刪除現有歷程，以及存取歷程畫布中用來建立歷程流程的物件。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
 
@@ -52,9 +52,9 @@ ht-degree: 2%
 
 ### [!DNL Publish journeys] 权限 {#publish-journeys}
 
-的 **[!DNL Publish journeys]** 用户通过高级权限发布历程。
+此 **[!DNL Publish journeys]** 高階許可權可讓使用者發佈歷程。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * journeys.publish
@@ -62,9 +62,9 @@ ht-degree: 2%
 
 ### [!DNL View journeys] 权限 {#view-journeys}
 
-的 **[!DNL View journeys]** 高级权限允许用户浏览和查看历程。
+此 **[!DNL View journeys]** 高階許可權可讓使用者瀏覽和檢視歷程。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * journeys.read
@@ -75,9 +75,9 @@ ht-degree: 2%
 
 ### [!DNL Manage journeys events, data sources and actions] 权限 {#manage-journeys-events}
 
-的 **[!DNL Manage journeys events, data sources and actions]** 高级权限允许用户配置事件和数据配置。
+此 **[!DNL Manage journeys events, data sources and actions]** 高階許可權可讓使用者設定事件和資料設定。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * journeys_events.read
@@ -97,9 +97,9 @@ ht-degree: 2%
 
 ### [!DNL View journeys events, data sources and actions] 权限 {#view-journeys-event}
 
-的 **[!DNL View journeys events, data sources and actions]** 高级权限允许用户在历程流中使用事件和数据。
+此 **[!DNL View journeys events, data sources and actions]** 高階許可權可讓使用者在歷程流程中使用事件和資料。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * journeys_events.read
@@ -113,13 +113,13 @@ ht-degree: 2%
 
 ### [!DNL View journeys report] 权限 {#view-journeys-report}
 
-的 **[!DNL View journeys report]** 高级权限允许用户报告只读历程。
+此 **[!DNL View journeys report]** 高階許可權可讓使用者以唯讀方式存取歷程報告。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * journeys_report.read
-   * messages_report.read
+   * message_report.read
 
 * Adobe Experience Platform特定：
    * datasets.read
@@ -127,15 +127,15 @@ ht-degree: 2%
    * queries.write
    * queries.delete
 
-## 决策管理能力 {#decisions-permissions}
+## 決策管理功能 {#decisions-permissions}
 
 ### [!DNL Manage decisions] 权限 {#manage-decisioning}
 
-的 **[!DNL Manage decisions]** 高级权限允许用户创建新页面，以及编辑/删除现有页面 **[!DNL Activity entities]**，以及管理这些活动中用于做出决策的对象。
+此 **[!DNL Manage decisions]** 高階許可權可讓使用者建立新專案和編輯/刪除現有專案 **[!DNL Activity entities]**，以及管理用於這些活動中以做出決策的物件。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
-* 具体决策管理：
+* 特定決策管理：
    * activities.read
    * activities.write
    * activities.delete
@@ -157,11 +157,11 @@ ht-degree: 2%
 
 ### [!DNL View decisions] 权限 {#view-decisions}
 
-的 **[!DNL View decisions]** 高级权限允许用户使用现有活动和相关业务对象做出决策。
+此 **[!DNL View decisions]** 高階許可權可讓使用者使用現有活動和相關商業物件來做出決定。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
-* 具体决策管理：
+* 特定決策管理：
    * activities.read
    * offers.read
    * placements.read
@@ -176,11 +176,11 @@ ht-degree: 2%
 
 ### [!DNL Publish offers decisioning] 权限 {#publish-decisions}
 
-的 **[!DNL Publish offers decisioning]** 高级权限允许用户访问批准/取消批准选件活动。
+此 **[!DNL Publish offers decisioning]** 高階許可權可讓使用者存取以核准/取消核准優惠方案活動。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
-* 具体决策管理：
+* 特定決策管理：
    * offers_activity.read
    * offers.read
    * offers.write
@@ -198,11 +198,11 @@ ht-degree: 2%
 
 ### [!DNL Manage ranking strategies] 权限 {#manage-ranking-strategies}
 
-的 **[!DNL Manage ranking strategies]** 高级权限允许用户读取、创建、编辑和删除排名策略。
+此 **[!DNL Manage ranking strategies]** 高階許可權可讓使用者讀取、建立、編輯和刪除排名策略。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
-* 具体决策管理：
+* 特定決策管理：
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -210,13 +210,13 @@ ht-degree: 2%
    * offers.read
    * placements.read
 
-## 管理能力 {#administration-permissions}
+## 管理功能 {#administration-permissions}
 
 ### [!DNL Manage subdomains delegation] 权限 {#manage-subdomain}
 
-的 **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
+此 **[!DNL Manage subdomains delegation]** 高階許可權可讓使用者建立、編輯和刪除子網域委派（包括IP集區）。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * subdomains_delegation.read
 * subdomains_delegation.write
@@ -224,9 +224,9 @@ ht-degree: 2%
 
 ### [!DNL Manage PTR records] 权限 {#manage-ptr}
 
-的 **[!DNL Manage PTR records]** 高级权限允许用户读取和编辑已基于子域配置的PTR记录。
+此 **[!DNL Manage PTR records]** 高階許可權可讓使用者讀取和編輯已根據子網域設定的PTR記錄。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * PTR_records.read
 * PTR_records.write
@@ -234,18 +234,18 @@ ht-degree: 2%
 
 ### [!DNL View PTR records] 权限 {#view-ptr}
 
-的 **[!DNL View PTR records]** 高级权限允许用户查看基于子域配置的PTR记录。
+此 **[!DNL View PTR records]** 高階許可權可讓使用者檢視已根據子網域設定的PTR記錄。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * PTR_records.read
 * subdomains_delegation.read
 
 ### [!DNL Manage IP pools] 权限 {#manage-ip-pools}
 
-的 **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除亲和度定义。
+此 **[!DNL Manage IP pools]** 高階許可權可讓使用者建立、編輯和刪除相似性定義。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * IP_pools.read
 * IP_pools.write
@@ -279,9 +279,9 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage channel surface] 权限 {#manage-channel-surface}
 
-的 **[!DNL Manage channel surface]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除渠道表面。
+此 **[!DNL Manage channel surface]** 高階許可權可讓使用者在沙箱層級建立、編輯和刪除跨頻道的頻道介面。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * messages_presets.read
@@ -289,24 +289,24 @@ It includes the following low-level permissions:
    * messages_presets.delete
    * subdomains_delegation.read
    * IP_pools.read
-   * mobile_setting.read(从Adobe Experience Platform Launch)
+   * mobile_setting.read (來自Adobe Experience Platform Launch)
 
 ### [!DNL View channel surface] 权限 {#view-channel-surface}
 
-的 **[!DNL View channel surface]** 高级权限允许用户查看通道曲面，以便知道要使用哪些通道曲面。
+此 **[!DNL View channel surface]** 高階許可權可讓使用者檢視管道表面，以瞭解要使用哪些管道表面。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read(从Adobe Experience Platform数据收集)
+* mobile_setting.read (來自Adobe Experience Platform Data Collection)
 
 ### [!DNL Manage suppression] 权限 {#manage-suppression}
 
-的 **[!DNL Manage suppression]** 高级权限允许用户在将电子邮件地址添加到禁止列表之前定义退回次数，以及向禁止列表添加和删除条目。
+此 **[!DNL Manage suppression]** 高階許可權可讓使用者定義將電子郵件地址新增至隱藏清單前的跳出次數，以及在隱藏清單中新增和刪除專案。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * suppression_rules.read
 * suppression_rules.write
@@ -316,9 +316,9 @@ It includes the following low-level permissions:
 
 ### [!DNL View suppression list] 权限 {#view-suppression-list}
 
-的 **[!DNL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
+此 **[!DNL View suppression list]** 高階許可權可讓使用者檢視隱藏清單內容和設定。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * suppression_list.view
@@ -329,9 +329,9 @@ It includes the following low-level permissions:
 
 ### [!DNL Export suppression list] 权限 {#export-suppression-list}
 
-的 **[!DNL Export suppression list]** 高级权限允许用户将禁止列表下载为CSV文件。
+此 **[!DNL Export suppression list]** 高階許可權可讓使用者將隱藏清單下載為CSV檔案。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * suppression_list.export
@@ -342,9 +342,9 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage landing page settings] 权限 {#manage-landing-page-settings}
 
-的 **[!DNL Manage landing page settings]** 高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
+此 **[!DNL Manage landing page settings]** 高階許可權可讓使用者讀取、建立及編輯登陸頁面子網域和預設集設定。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * landing_page_subdomain.read
@@ -356,9 +356,9 @@ It includes the following low-level permissions:
 
 ### [!DNL Manage frequency rules] 权限 {#manage-frequency-rules}
 
-的 **[!DNL Manage frequency rules]** 高级权限允许用户读取、创建、编辑、删除和激活/停用频度规则。
+此 **[!DNL Manage frequency rules]** 高階許可權可讓使用者讀取、建立、編輯、刪除和啟用/停用頻率規則。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * frequency_rules.read
@@ -367,9 +367,9 @@ It includes the following low-level permissions:
 
 ### [!DNL View frequency rules] 权限 {#view-frequency-rules}
 
-的 **[!DNL View frequency rules]** 高级权限允许用户查看频度规则。
+此 **[!DNL View frequency rules]** 高階許可權可讓使用者檢影片率規則。
 
-它包括以下低级权限：
+其中包含下列低階許可權：
 
 * Journey Optimizer特定：
    * frequency_rules.read

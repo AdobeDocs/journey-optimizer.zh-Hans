@@ -1,6 +1,6 @@
 ---
 title: 投放位置数据集
-description: 此部分列出了在导出的数据集中用于版面的所有字段
+description: 本節列出匯出的資料集中用於版位的所有欄位
 feature: Offers
 topic: Integrations
 role: User
@@ -15,106 +15,106 @@ ht-degree: 5%
 
 # 投放位置数据集 {#placements-dataset}
 
-每次修改选件时，都会更新自动生成的版面数据集。
+每次修改選件時，都會更新自動產生的版位資料集。
 
 ![](../assets/dataset-placements.png)
 
-数据集中最近一次成功的批处理将显示在右侧。 数据集架构的分层视图将显示在左窗格中。
+資料集中最近成功的批次顯示在右側。 資料集的結構描述階層檢視會顯示在左窗格中。
 
 >[!NOTE]
 >
->了解如何在 [此部分](../export-catalog/access-dataset.md).
+>瞭解如何在中存取優惠資料庫每個物件的匯出資料集 [本節](../export-catalog/access-dataset.md).
 
-以下是可在 **[!UICONTROL 决策对象存储库 — 版面]** 数据集。
+以下為可用於以下專案的所有欄位清單： **[!UICONTROL 決定物件存放庫 — 位置]** 資料集。
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 +++ 标识符
 
-**字段：** _id
-**标题：** 标识符
-**描述：** 记录的唯一标识符。
+**欄位：** _id
+**標題：** 識別碼
+**說明：** 記錄的唯一識別碼。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _experience（体验）
 
-**字段：** _体验
-**类型：** 对象
+**欄位：** 體驗(_E)
+**型別：** 物件
 
 +++
 
-+++ _experience > decisioning
++++ 體驗>決策(_E)
 
-**字段：** 决策
-**类型：** 对象
+**欄位：** 決策
+**型別：** 物件
 
 +++
 
-+++ _experience > decisioning >版面的渠道标识符
++++ _experience >決策>刊登版位的頻道識別碼
 
-**字段：** channelID
-**标题：** 版面的渠道标识符
-**描述：** 提出建议的渠道。 值是有效的渠道URI。 请参阅https://ns.adobe.com/xdm/channels/channel。
+**欄位：** channelid
+**標題：** 刊登版位的頻道識別碼
+**說明：** 提出主張的管道。 值是有效的管道URI。 請參閱https://ns.adobe.com/xdm/channels/channel。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _experience > decisioning >内容组件类型
++++ _experience >決策>內容元件型別
 
-**字段：** componentType
-**标题：** 内容组件类型
-**描述：** 枚举的URI集，其中每个值映射到给定给内容组件的类型。 内容表示的某些用户希望@type值作为对描述内容组件其他属性的架构的引用。
+**欄位：** componentType
+**標題：** 內容元件型別
+**說明：** 列舉的一組URI，其中每個值對應到指定給內容元件的型別。 內容表示的某些消費者期望@type值是描述內容元件其他屬性的結構描述的參考。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _experience > decisioning > contentTypes
++++ _experience >決策> contentTypes
 
-**字段：** contentTypes
-**类型：** 阵列
+**欄位：** contentType
+**型別：** 陣列
 
 +++
 
-+++_体验>决策> contentTypes > MIME媒体类型
++++_體驗>決策>內容型別> MIME媒體型別
 
-**标题：** MIME媒体类型
-**描述：** 该放置中预期的组件的媒体类型的约束。 一个组件可能有多个媒体类型，如不同的图像格式。
+**標題：** MIME媒體型別
+**說明：** 該位置中預期會出現的元件媒體型別限制。 一個元件可能有多種媒體型別，例如不同的影像格式。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _experience > decisioning >版面描述
++++ _experience >決策>位置說明
 
-**字段：** 描述
-**标题：** 版面描述
-**描述：** 它用于传达人类可读的意图，即如何在整体消息投放中使用动态内容。 网页中的某个空间是\&quot;横幅\&quot;通常通过描述而不是正式方法来传达。
+**欄位：** 說明
+**標題：** 位置說明
+**說明：** 它可用來傳達人類對於如何在整體訊息傳送中使用動態內容的可讀取意圖。 特定空間是網頁中的\&quot;Banner\&quot;通常透過說明而不是正式方法傳遞。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _experience > decisioning >版面名称
++++ _experience >決策>位置名稱
 
-**字段：** name
-**标题：** 版面名称
-**描述：** 在人类交互中引用版面的指定名称。
+**欄位：** 名稱
+**標題：** 位置名稱
+**說明：** 用於放置的指派名稱，可在人與人之間的互動中參照。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _repo
++++ 存放庫(_R)
 
-**字段：** _repo
-**类型：** 对象
+**欄位：** 存放庫(_R)
+**型別：** 物件
 
 +++
 
-+++ _repo >放置集
++++ _repo >版位ETag
 
-**字段：** etag
-**标题：** 版面ETag
-**描述：** 拍摄快照时，决策选项对象所在的修订版本。
+**欄位：** etag
+**標題：** 刊登ETag
+**說明：** 決定選項物件拍攝快照時的修訂版本。
 **类型：**&#x200B;字符串
 
 +++

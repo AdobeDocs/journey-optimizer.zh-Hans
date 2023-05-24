@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 与 Adobe Campaign v7/v8 集成
-description: 了解如何将Journey Optimizer与Adobe Campaign v7/v8集成
+description: 瞭解如何將Journey Optimizer與Adobe Campaign v7/v8整合
 feature: Actions
 topic: Administration
 role: Admin,Developer
 level: Intermediate
-keywords: campaign， acc，集成
+keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -23,31 +23,31 @@ ht-degree: 20%
 >title="Adobe Campaign v7/v8 操作"
 >abstract="此集成可用于 Adobe Campaign Classic v7 和 v8。它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和 SMS。Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。"
 
-此集成适用于从7.1版本开始的Adobe Campaign Classic v7和Adobe Campaign v8。 它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和 SMS。
+此整合適用於Adobe Campaign Classic v7 （從7.1版開始）和Adobe Campaign v8。 它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和 SMS。
 
 Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。
 
-本节介绍了端到端用例 [部分](../building-journeys/ajo-ac.md).
+本頁面介紹端對端使用案例 [區段](../building-journeys/ajo-ac.md).
 
-对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅 [部分](../building-journeys/using-adobe-campaign-classic.md).
+對於每個已設定的動作，歷程設計工具浮動視窗中都有動作活動可用。 请参阅此[章节](../building-journeys/using-adobe-campaign-classic.md)。
 
 ## 重要说明 {#important-notes}
 
-* 没有消息限制。 系统根据当前的促销活动SLA，将可发送的消息数量限制为每5分钟4000条。 因此，Journey Optimizer只应用于单一用例（单个事件，而不是区段）。
+* 無訊息限制。 系統會根據目前的Campaign SLA，將每5分鐘可傳送的訊息數量上限設為4000封。 因此，Journey Optimizer應僅用於單一使用案例（個別事件，而非區段）。
 
-* 您需要在每个要使用的模板的画布上配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
+* 您必須在要使用的每個範本的畫布上設定一個動作。 您需要在Journey Optimizer中，為您要從Adobe Campaign使用的每個範本設定一個動作。
 
-* 我们建议您使用为此集成托管的专用消息中心实例，以避免影响您可能正在进行的任何其他Campaign操作。 营销服务器可以是托管的，也可以是内部部署的。 所需的内部版本为21.1发行候选版本或更高版本。
+* 建議您使用針對這項整合而代管的專用訊息中心執行個體，以避免影響您可能進行的任何其他Campaign作業。 行銷伺服器可以是託管式或內部部署。 所需的版本編號為21.1版本候選版本或更新版本。
 
-* 没有验证有效负载或Campaign消息是否正确。
+* 沒有驗證裝載或Campaign訊息是否正確。
 
-* 您不能将促销活动操作与区段鉴别事件结合使用。
+* 促銷活動動作不可與區段資格事件搭配使用。
 
 ## 先决条件 {#prerequisites}
 
-在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅 [Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱 [Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
-您可以按照以下模式构建与每个消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您将粘贴此有效负载（请参阅下文）
+您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）
 
 示例如下：
 
@@ -62,19 +62,19 @@ Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 
 }
 ```
 
-* **频道**:为营销活动事务型模板定义的渠道
-* **eventType**:营销活动事件的内部名称
-* **ctx**:变量。
+* **頻道**：為您的Campaign交易範本定義的管道
+* **事件型別**：Campaign事件的內部名稱
+* **ctx**：變數，根據您訊息中的個人化設定而定。
 
-## 配置操作 {#configure-action}
+## 設定動作 {#configure-action}
 
-在Journey Optimizer中，您需要为每个事务型消息配置一个操作。 请执行以下步骤：
+在Journey Optimizer中，您需要為每個交易式訊息設定一個動作。 执行以下步骤：
 
-1. 创建新操作。 请参阅 [部分](../action/action.md).
-1. 输入名称和描述。
-1. 在 **操作类型** 字段，选择 **Adobe Campaign Classic**.
-1. 单击 **负载** 字段中，并粘贴与Campaign消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
-1. 根据要在历程画布上映射不同字段，将其调整为静态字段或变量字段。 某些字段(例如电子邮件地址和个性化字段(ctx)的渠道参数)，您可能希望定义为用于在历程上下文中映射的变量。
+1. 建立新動作。 请参阅此[章节](../action/action.md)。
+1. 輸入名稱和說明。
+1. 在 **動作型別** 欄位，選取 **Adobe Campaign Classic**.
+1. 按一下 **裝載** 欄位並貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
+1. 視您想要在歷程畫布上對應欄位，將不同的欄位調整為靜態或變數。 某些欄位，例如電子郵件地址和個人化欄位(ctx)的管道引數，您可能想要定義為要在歷程內容中對應的變數。
 1. 单击&#x200B;**保存**。
 
 ![](assets/accintegration1.png)

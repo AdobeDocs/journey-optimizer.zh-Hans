@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: avg
-description: 了解函数avg
+description: 瞭解函式avg
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: avg，函数，表达式，历程
+keywords: 平均，函式，運算式，歷程
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,27 +16,27 @@ ht-degree: 13%
 
 # avg {#avg}
 
-返回一组表达式中的平均值（以列表或两个表达式的形式提供）。 将忽略空值。
+傳回一組運算式中的平均值，以清單或兩個運算式形式給出。 Null值會被忽略。
 
 
 ## 类别
 
 聚合
 
-## 函数语法
+## 函式語法
 
 `avg(<parameter>)`
 
 ## 参数
 
-支持的类型：
+支援的型別：
 
 * listInteger
 * listDecimal
-* 小数
+* 小數
 * 整数
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `avg(<listInteger>)`
 
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 `avg(<integer>,<integer>)`
 
-返回小数。
+傳回小數。
 
 ## 示例
 
@@ -58,8 +58,8 @@ ht-degree: 13%
 
 `avg([10,3,8])`
 
-返回7.0。
+傳回7.0。
 
 `avg(10.2, 3)`
 
-返回6.6。
+傳回6.6。

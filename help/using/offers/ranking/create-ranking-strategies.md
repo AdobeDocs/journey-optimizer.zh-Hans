@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: 创建 AI 模型
-description: 了解如何创建AI模型以对优惠进行排名
+description: 瞭解如何建立AI模型來對優惠進行排名
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -16,61 +16,61 @@ ht-degree: 6%
 
 # 创建 AI 模型 {#ai-rankings}
 
-[!DNL Journey Optimizer] 允许您创建 **AI模型** 根据您的业务目标对选件进行排名。
+[!DNL Journey Optimizer] 可讓您建立 **AI模型** 以根據您的業務目標來排名優惠方案。
 
 >[!CAUTION]
 >
->要创建、编辑或删除AI模型，您必须具有 **管理排名策略** 权限。 [了解详情](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>若要建立、編輯或刪除AI模型，您必須擁有 **管理排名策略** 許可權。 [了解详情](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## 创建 AI 模型 {#create-ranking-strategy}
 
-要创建AI模型，请执行以下步骤：
+若要建立AI模型，請遵循下列步驟：
 
-1. 创建将在其中收集转化事件的数据集。 [了解如何操作](../data-collection/create-dataset.md)
+1. 建立將收集轉換事件的資料集。 [了解如何操作](../data-collection/create-dataset.md)
 
-1. 在 **[!UICONTROL 组件]** 菜单，访问 **[!UICONTROL 排名]** 选项卡，然后选择 **[!UICONTROL AI模型]**.
+1. 在 **[!UICONTROL 元件]** 功能表，存取 **[!UICONTROL 排名]** 索引標籤，然後選取 **[!UICONTROL AI模型]**.
 
    ![](../assets/ai-ranking-list.png)
 
-   迄今创建的所有AI模型都列出。
+   列出目前為止建立的所有AI模型。
 
-1. 单击 **[!UICONTROL 创建AI模型]** 按钮。
+1. 按一下 **[!UICONTROL 建立AI模型]** 按鈕。
 
-1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
+1. 指定AI模型的唯一名稱和說明，然後選取您要建立的AI模型型別：
 
-   * **[!UICONTROL 自动优化]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
-   * **[!UICONTROL 个性化]** 根据区段和选件性能优化和个性化选件。 [了解详情](personalized-optimization-model.md)
+   * **[!UICONTROL 自動最佳化]** 會根據過去的優惠方案效能來最佳化優惠方案。 [了解详情](auto-optimization-model.md)
+   * **[!UICONTROL 個人化]** 根據區段和優惠方案效能最佳化並個人化優惠方案。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 优化量度]** 部分提供有关AI模型用于计算选件排名的转化事件的信息。
+   >此 **[!UICONTROL 最佳化量度]** 區段提供有關AI模型用來計算優惠排名之轉換事件的資訊。
    >
-   >[!DNL Journey Optimizer] 根据 **转化率** （转化率=转化事件总数/展示事件总数）。 转化率使用两种类型的量度计算：
-   >* **展示事件** （显示的选件）
-   >* **转化事件** （通过电子邮件或web进行点击的选件）。
+   >[!DNL Journey Optimizer] 根據以下專案排名優惠： **轉換率** （轉換率=轉換事件總數/曝光事件總數）。 轉換率是使用兩種量度型別來計算：
+   >* **曝光事件** （已顯示的優惠方案）
+   >* **轉換事件** （可透過電子郵件或網頁點按的選件）。
 
    >
-   >这些事件是使用已提供的Web SDK或Mobile SDK自动捕获的。 在 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+   >系統會使用提供的Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解，請參閱 [Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-1. 选择收集转化和展示事件的数据集。 了解如何在 [此部分](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. 選取轉換和曝光事件收集所在的資料集。 瞭解如何在中建立這類資料集 [本節](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
-   >仅从与 **[!UICONTROL 体验事件 — 建议交互]** 字段组（以前称为mixin）会显示在下拉列表中。
+   >只有從關聯的結構描述建立的資料集 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組（先前稱為mixin）會顯示在下拉式清單中。
 
-1. 如果您要创建 **[!UICONTROL 个性化]** AI模型中，选择用于训练AI模型的区段。
+1. 如果您要建立 **[!UICONTROL 個人化]** AI模型，選取要用來訓練AI模型的區段。
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >您最多可以选择5个区段。
+   >您最多可以選取5個區段。
 
-1. 保存并激活AI模型。
+1. 儲存並啟動AI模型。
 
    ![](../assets/ai-ranking-save-activate.png)
 
@@ -80,6 +80,6 @@ ht-degree: 6%
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-现在，每次显示和/或单击选件时，您都希望 **[!UICONTROL 体验事件 — 建议交互]** 字段组 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或Mobile SDK。
+現在，每次顯示和/或按一下優惠方案時，您都希望對應的事件能由 **[!UICONTROL 體驗事件 — 主張互動]** 使用下列專案的欄位群組： [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或Mobile SDK。
 
-要发送事件类型（显示的选件或点击的选件），您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
+若要能夠在事件型別（顯示的優惠方案或按一下優惠方案）中傳送，您必須為傳送至Adobe Experience Platform的體驗事件中的每個事件型別設定正確的值。 [了解如何操作](../data-collection/schema-requirement.md)

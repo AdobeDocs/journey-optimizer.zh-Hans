@@ -1,6 +1,6 @@
 ---
 title: 创建 Web 页面
-description: 了解如何在Journey Optimizer中创作网页并编辑其内容
+description: 瞭解如何在Journey Optimizer中編寫網頁及編輯其內容
 feature: Web Channel
 topic: Content Management
 role: User
@@ -15,17 +15,17 @@ ht-degree: 14%
 
 # 创建 Web 页面 {#author-web}
 
-一旦 [添加了web操作](create-web.md#create-web-campaign) 对于您的营销活动，您可以使用web设计器编辑网站的内容。
+一旦您 [已新增網路動作](create-web.md#create-web-campaign) 對於促銷活動，您可以使用網頁設計工具編輯網站內容。
 
-在 [!DNL Journey Optimizer], Web创作由 **Adobe Experience Cloud Visual Helper** chrome浏览器扩展。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
+在 [!DNL Journey Optimizer]，網頁製作功能由 **Adobe Experience Cloud Visual Helper** chrome瀏覽器擴充功能。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
->在 [!DNL Journey Optimizer] 用户界面，请确保遵循 [此部分](web-prerequisites.md).
+>若要能夠存取及編寫中的網頁，請 [!DNL Journey Optimizer] 使用者介面，請務必遵循下列先決條件： [本節](web-prerequisites.md).
 
-[在此视频中了解如何创作Web营销活动](#video)
+[透過此影片瞭解如何創作網路行銷活動](#video)
 
-## 编辑网页内容 {#edit-web-content}
+## 編輯網頁內容 {#edit-web-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -39,94 +39,94 @@ ht-degree: 14%
 >abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-要开始创作Web营销活动，请执行以下步骤。
+若要開始編寫您的網頁行銷活動，請遵循下列步驟。
 
-1. 从 **[!UICONTROL 操作]** 选项卡 [营销活动](create-web.md#create-web-campaign)，选择 **[!UICONTROL 编辑内容]**.<!--change screen with rule-->
+1. 從 **[!UICONTROL 動作]** 的標籤 [行銷活動](create-web.md#create-web-campaign)，選取 **[!UICONTROL 編輯內容]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
-1. 如果您创建的页面与规则匹配，则必须输入与此规则匹配的任何URL:更改将应用于与规则匹配的所有页面。 此时会显示页面内容。
+1. 如果您已建立符合規則的頁面，則必須輸入符合此規則的任何URL：變更將套用至符合規則的所有頁面。 頁面內容隨即顯示。
 
    >[!NOTE]
    >
-   >如果您输入单个URL作为Web界面，则要个性化的URL已经填充。
+   >如果您輸入單一URL作為網頁表面，則會填入個人化的URL。
 
    ![](assets/web-edit-enter-url.png)
 
    >[!CAUTION]
    >
-   >网页必须包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}. [了解详情](web-prerequisites.md#implementation-prerequisites)
+   >網頁必須包含 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}. [了解详情](web-prerequisites.md#implementation-prerequisites)
 
-1. 单击 **[!UICONTROL 编辑网页]** 以开始创作。 此时将显示Web设计器。
+1. 按一下 **[!UICONTROL 編輯網頁]** 以開始編寫。 網頁設計工具隨即顯示。
 
    ![](assets/web-designer.png)
 
    >[!NOTE]
    >
-   >如果尝试加载加载失败的网站，则会显示一条消息，建议您安装 [Visual Editing Helper浏览器扩展](#install-visual-editing-helper). 请参阅 [此部分](web-prerequisites.md#troubleshooting).
+   >如果您嘗試載入無法載入的網站，則會顯示一則訊息，建議您安裝 [Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper). 請參閱中疑難排解的一些提示 [本節](web-prerequisites.md#troubleshooting).
 
-1. 从画布中选择任何元素，如图像、按钮、段落、文本、容器、标题、链接等。 [了解详情](#content-components)
+1. 從畫布中選取任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。 [了解详情](#content-components)
 
 1. 使用:
 
-   * 用于编辑其内容、布局、插入链接或个性化等的上下文菜单。
+   * 內容選單，用於編輯其內容、配置、插入連結或個人化等。
 
       ![](assets/web-designer-contextual-bar.png)
 
-   * 用于编辑、复制、删除或隐藏每个元素的右侧面板顶部的图标。
+   * 右側面板頂端的圖示可編輯、複製、刪除或隱藏每個元素。
 
       ![](assets/web-designer-right-panel-icons.png)
 
-   * 根据所选元素动态更改的右侧面板。 例如，您可以编辑元素的背景、排版规则、边框、大小、位置、间距、效果或内联样式。
+   * 根據所選元素動態變更的右側面板。 例如，您可以編輯元素的背景、印刷樣式、框線、大小、位置、間距、效果或內嵌樣式。
 
       ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
->Web内容设计器与电子邮件设计器大体相似。 了解详情 [设计内容 [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>網頁內容設計工具主要類似於電子郵件設計工具。 進一步瞭解 [設計內容使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
-## 使用组件 {#content-components}
+## 使用元件 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="将组件添加到网页"
 >abstract="可将许多组件添加到网页，然后根据需要编辑这些组件。"
 
-1. 从 **[!UICONTROL 组件]** 在左侧的窗格中，选择一个项目。 您可以将以下组件添加到网页中，并根据需要对其进行编辑：
+1. 從 **[!UICONTROL 元件]** 左窗格中選取專案。 您可以將下列元件新增至網頁，並視需要加以編輯：
 
-   * [除法器](../email/content-components.md#divider)
+   * [分隔条](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [图像](../email/content-components.md#image)
-   * 标题 — 使用此组件与使用 **[!UICONTROL 文本]** 组件。 [了解详情](../email/content-components.md#text)
-   * 段落 — 使用此组件与使用 **[!UICONTROL 文本]** 组件。 [了解详情](../email/content-components.md#text)
+   * 標題 — 使用此元件與使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解详情](../email/content-components.md#text)
+   * 段落 — 使用此元件類似於使用 **[!UICONTROL 文字]** 電子郵件設計工具中的元件。 [了解详情](../email/content-components.md#text)
    * 链接
-   * [优惠决策](../email/add-offers-email.md)
+   * [優惠決定](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
-1. 将鼠标悬停在页面中，然后单击 **[!UICONTROL 此项前插入]** 或 **[!UICONTROL 此项后插入]** 按钮将组件附加到页面上的现有元素。
+1. 將滑鼠指標暫留在頁面上，然後按一下 **[!UICONTROL 插入在前]** 或 **[!UICONTROL 插入在後]** 按鈕以將元件附加至頁面上的現有元素。
 
    ![](assets/web-designer-insert-components.png)
 
    >[!NOTE]
    >
-   >要取消选择组件，请单击 **[!UICONTROL ESC]** 按钮。
+   >若要取消選取元件，請按一下 **[!UICONTROL ESC]** 在畫布上方顯示的內容藍色橫幅中的按鈕。
 
-1. 根据需要直接在页面内容中编辑组件。
+1. 視需要直接在頁面的內容中編輯元件。
 
    ![](assets/web-designer-edit-header.png)
 
-1. 从右侧的上下文窗格中调整显示的样式，如背景、文本颜色、边框、大小、位置等。  — 具体取决于选定的组件。
+1. 調整從右邊內容窗格顯示的樣式，例如背景、文字顏色、邊框、大小、位置等。  — 視選取的元件而定。
 
    ![](assets/web-designer-header-style.png)
 
-## 添加个性化和选件
+## 新增個人化和優惠方案
 
-要添加个性化，请选择一个容器，然后从显示的上下文菜单栏中选择个性化图标。 使用表达式编辑器添加更改。 [了解详情](../personalization/personalization-build-expressions.md)
+若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用運算式編輯器新增變更。 [了解详情](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
-使用 **[!UICONTROL 优惠决策]** 插入组件 [选件](../offers/get-started/starting-offer-decisioning.md) 到您的网页中。 该过程与 [向电子邮件添加选件](../email/add-offers-email.md). 它将利用决策管理来选择最佳选件，以提供给您的客户。
+使用 **[!UICONTROL 優惠決定]** 要插入元件 [優惠方案](../offers/get-started/starting-offer-decisioning.md) 放入您的網頁。 此程式與以下情況相同： [新增優惠方案至電子郵件](../email/add-offers-email.md). 它會運用決策管理，挑選最適合提供給客戶的優惠方案。
 
 ![](assets/web-designer-offer.png)
 
@@ -137,139 +137,139 @@ ht-degree: 14%
 >title="轻松管理所有更改"
 >abstract="使用此窗格，您可以浏览和管理您添加到网页的所有调整和样式。"
 
-您可以轻松管理您添加到网页的所有组件、调整和样式。
+您可以輕鬆管理新增至網頁的所有元件、調整和樣式。
 
-1. 选择 **[!UICONTROL 修改]** 图标以在左侧显示相应的窗格。
+1. 選取 **[!UICONTROL 修改]** 圖示以在左側顯示對應的窗格。
 
    ![](assets/web-designer-modifications-pane.png)
 
-1. 您可以查看对页面所做的每项更改。
+1. 您可以檢閱對頁面所做的每項變更。
 
-1. 选择不需要的修改并单击删除图标以将其删除。
+1. 選取不要的修改，然後按一下刪除圖示以移除它。
 
    ![](assets/web-designer-modifications-delete.png)
 
    >[!CAUTION]
    >
-   >删除某个操作时请务必小心，因为该操作可能会影响后续操作。
+   >刪除動作時請謹慎操作，因為動作可能會影響後續動作。
 
-1. 使用 **[!UICONTROL 更多操作]** 按钮 **[!UICONTROL 修改]** 窗格以同时删除所有修改。
+1. 使用 **[!UICONTROL 更多動作]** 按鈕在頂端 **[!UICONTROL 修改]** 窗格，一次刪除所有修改。
 
    ![](assets/web-designer-delete-modifications.png)
 
-1. 从 **[!UICONTROL 更多操作]** 菜单，您也只能删除无效的修改，即被其他更改覆盖的更改。 例如，如果修改文本的颜色，然后删除该文本，则颜色修改将无效，因为该文本不再存在。
+1. 從 **[!UICONTROL 更多動作]** 功能表您也可以只刪除無效的修改，亦即被其他變更覆寫的變更。 例如，如果您修改文字的顏色，然後刪除該文字，則顏色修改會變成無效，因為該文字已不存在。
 
-1. 您还可以使用 **[!UICONTROL 撤消/重做]** 按钮。
+1. 您也可以使用取消和重做動作 **[!UICONTROL 還原/重做]** 按鈕。
 
    ![](assets/web-designer-undo-redo.png)
 
-   单击并按住按钮可在 **[!UICONTROL 撤消]** 和 **[!UICONTROL 重做]** 选项。 然后，单击按钮本身以应用所需的操作。
+   按一下並按住按鈕，以在 **[!UICONTROL 還原]** 和 **[!UICONTROL 取消復原]** 選項。 然後按一下按鈕本身，套用所需的動作。
 
-## 使用点击跟踪 {#use-click-tracing}
+## 使用點選追蹤 {#use-click-tracing}
 
-Web设计器中的这项功能允许您选择网站的任何元素并跟踪该元素的点击。
+網頁設計工具中的這項功能可讓您選取網站的任何元素，並追蹤該元素上的點按次數。
 
-营销活动上线后，您可以检查营销活动Web报表中每个元素的点击次数。 此信息对于改善网站用户体验非常有用。 例如，如果 [网站报告](../reports/campaign-global-report.md#web-tab) 显示许多用户单击的某个元素实际上不可点击，您可能想要添加指向该元素的链接。
+一旦您的行銷活動上線，您就可以檢查行銷活動網頁報告中每個元素的點按次數。 此資訊有助於改善網站使用者的體驗。 例如，如果 [網站報告](../reports/campaign-global-report.md#web-tab) 顯示有許多使用者點按了實際上無法點按的元素，您可能會想要新增該元素的連結。
 
-1. 在页面中选择一个元素，然后选择 **[!UICONTROL 单击跟踪元素]** 中。
+1. 在頁面中選取元素，然後選擇 **[!UICONTROL 點選追蹤元素]** 從內容功能表。
 
    ![](assets/web-designer-click-track.png)
 
    >[!NOTE]
    >
-   >可以选择任何项目（无论是否可点击）。
+   >可以選取任何專案（無論是否可點按）。
 
-1. 相应的跟踪操作会自动显示在 **[!UICONTROL 点击跟踪]** 窗格。
+1. 對應的追蹤動作會自動顯示在 **[!UICONTROL 點選追蹤]** 左側的窗格。
 
    ![](assets/web-designer-click-track-pane.png)
 
-1. 添加有意义的标签以管理所有跟踪的元素并在报表中轻松查找它们。 的 **[!UICONTROL CSS选择器]** 字段中显示了用于查找选定元素的信息。
+1. 新增有意義的標籤以管理所有追蹤的元素，並在報表中輕鬆找到它們。 此 **[!UICONTROL CSS選取器]** 欄位會顯示尋找所選元素的資訊。
 
-1. 重复上述步骤，以根据需要选择任意数量的其他元素进行点击跟踪。 相应的操作都列在左窗格中。
+1. 重複上述步驟，視需要選取點選追蹤所需數量的其他元素。 對應的動作會全部列在左窗格中。
 
    ![](assets/web-designer-click-tracking-actions.png)
 
-1. 要删除元素上的点击跟踪，请选择相应的删除图标。
+1. 若要移除元素上的點選追蹤，請選取對應的刪除圖示。
 
-活动活动后，即可查看营销活动报表 **[!UICONTROL Web]** 选项卡来比较展示次数、点击率和按元素的点击次数。 [了解详情](../reports/campaign-global-report.md#web-tab)
+一旦您的行銷活動開始運作，您就可以檢查行銷活動報告 **[!UICONTROL Web]** 索引標籤以比較曝光次數、點按率和依元素的點按次數。 [了解详情](../reports/campaign-global-report.md#web-tab)
 
-## 在Web设计器中导航 {#navigate-web-designer}
+## 瀏覽網頁設計工具 {#navigate-web-designer}
 
-### 使用痕迹导航 {#breadcrumbs}
+### 使用階層連結 {#breadcrumbs}
 
-1. 从画布中选择任意元素。
+1. 從畫布中選取任何元素。
 
-1. 单击 **[!UICONTROL 展开/折叠痕迹导航]** 按钮来快速显示有关选定元素的信息。
+1. 按一下 **[!UICONTROL 展開/收合階層連結]** 按鈕來快速顯示有關所選元素的資訊。
 
    ![](assets/web-designer-breadcrumbs.png)
 
-1. 将鼠标悬停在痕迹导航上时，编辑器中会高亮显示相应的元素。
+1. 當您將游標停留在階層連結上時，對應的元素會在編輯器中反白顯示。
 
-1. 使用它，您可以轻松导航到可视编辑器中的任何父元素、同级元素或子元素。
+1. 使用它，您可以輕鬆導覽至視覺化編輯器中的任何父項、同層級專案或子項元素。
 
-### 交换到浏览模式 {#browse-mode}
+### 切換至瀏覽模式 {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用浏览模式"
 >abstract="在此模式下，您可以从要个性化的选定表面导航到确切的页面。"
 
-您可以从默认 **[!UICONTROL 设计]** 模式 **[!UICONTROL 浏览]** 模式。
+您可以從預設值交換 **[!UICONTROL 設計]** 模式切換成 **[!UICONTROL 瀏覽]** 模式使用「專用」按鈕。
 
 ![](assets/web-designer-browse-mode.png)
 
-从 **[!UICONTROL 浏览]** 模式下，您可以从要个性化的选定表面导航到确切的页面。
+從 **[!UICONTROL 瀏覽]** 模式，您可以從您想要個人化的所選表面瀏覽至確切頁面。
 
-当处理身份验证后或特定URL开头不可用的页面时，此插件特别有用。 例如，您将能够进行身份验证，导航到帐户页面或购物车页面，然后切换回 **[!UICONTROL 设计]** 模式来执行对所需页面所做的更改。
+在處理經過驗證或無法從某個URL開始的頁面時，此功能特別有用。 例如，您將能夠進行驗證、導覽至您的帳戶頁面或購物車頁面，然後切換回 **[!UICONTROL 設計]** 模式，以便在您需要的頁面上執行變更。
 
-### 更改设备大小 {#change-device-size}
+### 變更裝置大小 {#change-device-size}
 
-您可以将Web设计器显示的设备大小更改为预定义的大小，例如 **[!UICONTROL 平板电脑]** 或 **[!UICONTROL 移动设备横向]**，或通过输入所需的像素数定义自定义大小。
+您可以將網頁設計工具顯示的裝置大小變更為預先定義的大小，例如 **[!UICONTROL 平板電腦]** 或 **[!UICONTROL 行動裝置橫向]**，或輸入所需的畫素數，以定義自訂大小。
 
-您还可以将缩放焦点从25%更改为400%。
+您也可以將縮放焦點從25%變更為400%。
 
 ![](assets/web-designer-device.png)
 
-更改设备大小的功能专为在各种设备、窗口和屏幕大小上均能正常呈现的响应式网站而设计。 响应式网站自动调整和适应任意屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
+變更裝置大小的功能專為可在各種裝置、視窗和熒幕大小上良好呈現的回應式網站所設計。 响应式网站自动调整和适应任意屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
 
 >[!CAUTION]
 >
->您可以编辑具有特定设备大小的Web体验。 但是，只要选择器相同，这些更改就会应用于所有大小和设备，而不仅仅是您正在使用的设备大小。 同样，在普通桌面视图中编辑体验时，会将更改应用于所有屏幕大小，而不仅仅是桌面视图。
+>您可以編輯具有特定裝置大小的網頁體驗。 不過，只要選取器相同，這些變更就會套用至所有大小和裝置，而不只是您正在使用的裝置大小。 同樣地，在標準案頭檢視中編輯體驗時，會將變更套用至所有熒幕大小，而不僅僅是案頭檢視。
 >
->目前， [!DNL Journey Optimizer] 不支持特定于设备大小的页面更改。 这意味着，例如，如果您有一个单独的移动设备网站，且网站结构各不相同，则应在其他营销活动中对移动设备网站进行特定更改。
+>目前， [!DNL Journey Optimizer] 不支援裝置大小特定的頁面變更。 這表示，舉例來說，如果您有另一個行動網站具有不同的網站結構，您應針對不同促銷活動中的行動網站進行特定變更。
 
-## 测试Web营销活动 {#test-web-campaign}
+## 測試網頁行銷活動 {#test-web-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
 >title="预览 Web 体验"
 >abstract="模拟您将获得的 Web 体验。"
 
-要显示已修改的Web体验的预览，请执行以下步骤。
+若要顯示修改後Web體驗的預覽，請遵循下列步驟。
 
 >[!CAUTION]
 >
->您必须具有测试用户档案，以模拟将向他们提供哪些选件。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
+>您必須具備可用的測試設定檔，以模擬將傳送哪些優惠給他們。 瞭解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
 
-1. 从Web营销活动编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
+1. 從任一網路促銷活動編輯內容畫面中，選取 **[!UICONTROL 模擬內容]**.
 
    <!--![](assets/web-designer-simulate.png)-->
 
    ![](assets/web-campaign-simulate.png)
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 选择一个或多个测试用户档案。
-1. 将显示已修改网页的预览。
+1. 按一下 **[!UICONTROL 管理測試設定檔]** 以選取一或多個測試設定檔。
+1. 此時會顯示修改後網頁的預覽。
 
    ![](assets/web-designer-preview.png)
 
-1. 您还可以在默认浏览器中打开测试URL，或复制测试URL以将其粘贴到任何浏览器中。 这样，您就可以与团队和利益相关方共享该链接，在营销活动开始之前，他们将能够在任何浏览器中预览新的Web体验。
+1. 您也可以在預設瀏覽器中開啟它，或複製測試URL以將其貼到任何瀏覽器中。 這可讓您與團隊和利害關係人共用連結，這些利害關係人將能夠在行銷活動上線之前在任何瀏覽器中預覽新的Web體驗。
 
    >[!NOTE]
    >
-   >复制测试URL时，显示的内容是在中生成内容模拟时用于测试用户档案的个性化内容 [!DNL Journey Optimizer].
+   >複製測試URL時，顯示的內容是在中產生內容模擬時所使用的測試設定檔的個人化內容 [!DNL Journey Optimizer].
 
 ## 操作方法视频{#video}
 
-以下视频演示如何在 [!DNL Journey Optimizer] 营销活动。
+以下影片說明如何在中使用Web設計工具編寫Web體驗 [!DNL Journey Optimizer] 行銷活動。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

@@ -1,6 +1,6 @@
 ---
-title: 删除集合限定符
-description: 使用收藏集限定符，您可以更好地组织和排序选件。
+title: 刪除集合限定詞
+description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 删除收藏集限定符 {#delete-tag}
 
-有时可能需要删除(DELETE)集合限定符（以前称为“标记”）。 只能删除您在租户容器中创建的集合限定符。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的集合限定符$id的API。
+有時可能必須移除(DELETE)集合限定詞（先前稱為「標籤」）。 只能刪除您在租使用者容器中建立的集合限定詞。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之集合限定元的$id。
 
 **API格式**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 集合限定符所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 要更新的集合限定符的实例ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合限定詞所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 您要更新的集合限定詞的執行個體識別碼。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **请求**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **响应**
 
-成功的响应会返回HTTP状态202（无内容）和空白正文。
+成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以通过尝试对集合限定符进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为集合限定符已从容器中删除。
+您可以嘗試查詢(GET)集合限定詞來確認刪除。 您需要在要求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為集合限定詞已從容器中移除。

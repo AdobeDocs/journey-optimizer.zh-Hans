@@ -15,9 +15,9 @@ ht-degree: 4%
 
 # 辅助程序 {#gs-helpers}
 
-## 默认回退值{#default-value}
+## 預設遞補值{#default-value}
 
-的 `Default Fallback Value` 如果属性为空或null，则使用帮助程序返回默认回退值。 此机制适用于用户档案属性和历程事件。
+此 `Default Fallback Value` 如果屬性為空白或null，會使用helper傳回預裝置援值。 此機制適用於設定檔屬性和歷程事件。
 
 **语法**
 
@@ -25,12 +25,12 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在本例中，值 `there` 如果 `firstName` 此配置文件的属性为空或null。
+在此範例中，值 `there` 顯示條件為 `firstName` 此設定檔的屬性為空白或null。
 
 ## 条件{#if-function}
 
-的 `if` 帮助程序用于定义条件块。
-如果表达式计算返回true，则会呈现块，否则会跳过该块。
+此 `if` helper用於定義條件區塊。
+如果運算式評估傳回true，則會轉譯區塊，否則會略過該區塊。
 
 **语法**
 
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-关注 `if` 帮手，你可以输入 `else` 语句指定要执行的代码块（如果相同条件为false）。
-的 `elseif` 语句将指定一个新条件来测试第一个语句是否返回false。
+遵循 `if` helper，您可以輸入 `else` 陳述式，指定要在相同條件為false時執行的程式碼區塊。
+此 `elseif` 陳述式會指定新條件，以測試第一個陳述式是否傳回false。
 
 
 **格式**
@@ -58,7 +58,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **示例**
 
-1. **根据条件表达式呈现不同的存储链接**
+1. **根據條件運算式演算不同的存放區連結**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **确定电子邮件地址扩展**
+1. **決定電子郵件地址副檔名**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -80,9 +80,9 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **添加条件链接**
+1. **新增條件式連結**
 
-   以下操作将添加一个链接，指向“www.adobe.com/academia&#39;”网站（仅适用于具有“.edu”电子邮件地址的用户档案）、“www.adobe.com/org&#39;网站（适用于具有“.org”电子邮件地址的用户档案），以及所有其他用户档案的默认URL“www.adobe.com/users&#39;”：
+   下列作業會將連結新增至僅含有「.edu」電子郵件地址之設定檔的「www.adobe.com/academia&#39;網站」、含有「.org」電子郵件地址之設定檔的「www.adobe.com/org&#39;網站」，以及所有其他設定檔的預設URL「www.adobe.com/users&#39;」：
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%/if%}
    ```
 
-1. **基于区段成员资格的条件内容**
+1. **以區段成員資格為基礎的條件式內容**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->要了解有关分段和分段服务的更多信息，请参阅 [部分](../../segment/about-segments.md).
+>若要進一步瞭解細分和細分服務，請參閱此 [區段](../../segment/about-segments.md).
 
 
-## 除非{#unless}
+## Unless{#unless}
 
-的 `unless` 帮助程序用于定义条件块。 反对党 `if`  帮助程序，如果表达式求值返回false，则会呈现块。
+此 `unless` helper用於定義條件區塊。 反對The `if`  協助程式，如果運算式評估傳回false，則會轉譯區塊。
 
 **语法**
 
@@ -121,7 +121,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 **示例**
 
-根据电子邮件地址扩展呈现某些内容：
+根據電子郵件地址副檔名轉譯某些內容：
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -131,11 +131,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## 每个{#each}
+## 每個{#each}
 
-的 `each` 帮助程序用于在数组上迭代。
-帮助程序的语法为 ```{{#each ArrayName}}``` 您的内容 {{/each}}
-我们可以使用关键字引用各个数组项目 **此** 在街区内。 数组元素的索引可以使用 {{@index}}.
+此 `each` helper是用來反複運算陣列。
+協助程式的語法為 ```{{#each ArrayName}}``` 您的內容 {{/each}}
+我們可以使用關鍵字來參照個別陣列專案 **此** 區塊內部。 可以使用呈現陣列元素的索引 {{@index}}.
 
 **语法**
 
@@ -156,7 +156,7 @@ Some edu specific content Content
 
 **示例**
 
-呈现此用户购物车中的产品列表：
+呈現此使用者購物車中產品的清單：
 
 ```sql
 {{#each profile.products as |product|}}
@@ -165,9 +165,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 使用{#with}
+## 替換為{#with}
 
-的 `with` 帮助程序用于更改模板部分的评估令牌。
+此 `with` helper用於變更範本部分的評估權杖。
 
 **语法**
 
@@ -177,11 +177,11 @@ Some edu specific content Content
 {{/with}}
 ```
 
-的 `with` 帮助程序对于定义快捷方式变量也很有用。
+此 `with` 協助程式也可用來定義捷徑變數。
 
 **示例**
 
-与一起使用，以将长变量名称取为短变量名称：
+搭配使用可將長變數名稱等同為短變數名稱：
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -190,9 +190,9 @@ Some edu specific content Content
 {{/with}}
 ```
 
-## 让{#let}
+## Let{#let}
 
-的 `let` 函数允许将表达式存储为变量，以便稍后在查询中使用。
+此 `let` 函式可將運算式儲存為變數，以便稍後在查詢中使用。
 
 **语法**
 
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **示例**
 
-以下示例允许以美元表示的交易产品合计的所有合计金额，其合计金额大于100美元且小于1000美元。
+下列範例會允許交易總和大於$100且小於$1000時以USD表示的所有產品總和。
 
 ```sql
 {% let variable = expression %} {{variable}}

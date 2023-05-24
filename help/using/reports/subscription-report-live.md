@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 订阅实时报告
-description: 了解如何通过订阅实时报告使用订阅服务中的数据
+description: 瞭解如何透過訂閱即時報告使用訂閱服務中的資料
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,24 +22,24 @@ ht-degree: 22%
 >title="订阅实时报告"
 >abstract="使用订阅实时报告，您可以实时衡量和可视化订阅者的活动（仅限过去 24 小时）。报告分为不同的构件，详细说明了订阅和取消订阅情况。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
-订阅 **[!UICONTROL 实时报表]** 仅显示有关过去24小时订阅者活动的详细信息。 要测量您在选定时间段内的订阅，请参阅 [订阅全局报告](subscription-report-global.md).
+訂閱 **[!UICONTROL 即時報告]** 僅顯示過去24小時內訂閱者的活動詳細資訊。 若要在選取的時段內測量訂閱，請參閱 [訂閱全域報告](subscription-report-global.md).
 
-要访问您的报表，请单击 **[!UICONTROL 报表]** 图标。
+若要存取報告，請按一下 **[!UICONTROL 報告]** 圖示來尋找您選取的訂閱清單。
 
 ![](assets/subscription_report_7.png)
 
-订阅 **[!UICONTROL 实时报表]** 分为不同的小组件，用于详细介绍您的订阅和退订。 如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的详细信息，请参阅 [部分](live-report.md).
+訂閱 **[!UICONTROL 即時報告]** 分成不同的Widget，詳細說明您的訂閱和取消訂閱。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此 [區段](live-report.md).
 
 ![](assets/subscription_report_3.png)
 
-的 **[!UICONTROL 订阅性能]** KPI和 **[!UICONTROL 按历程的订阅]**/**[!UICONTROL 按历程取消订阅]** 表格详细介绍了与访客对您登陆页面的参与度相关的主要信息。 表和KPI包含与登陆页面相关的可用数据，例如：
+此 **[!UICONTROL 訂閱績效]** KPI與 **[!UICONTROL 依據歷程的訂閱]**/**[!UICONTROL 依據歷程的取消訂閱]** 表格詳細說明與訪客對登入頁面的參與度相關的主要資訊。 表格和KPI包含與登入頁面相關的可用資料，例如：
 
-* **[!UICONTROL 订阅]**:过去24小时内的订阅总数。
+* **[!UICONTROL 訂閱者]**：過去24小時的訂閱總數。
 
-* **[!UICONTROL 取消订阅]**:过去24小时内取消订阅的总数。
+* **[!UICONTROL 取消訂閱]**：過去24小時的取消訂閱總數。
 
-的 **[!UICONTROL 订阅性能]** 图表显示了过去24小时内订阅的演变。
+此 **[!UICONTROL 訂閱績效]** 圖表顯示過去24小時訂閱的演變。
 
 ![](assets/subscription_report_4.png)
 
-的 **订阅 — 划分** 和 **取消订阅 — 划分** 图表表示过去24小时内订阅或取消订阅的总人数，具体取决于消息、登陆页面和渠道。
+此 **訂閱 — 劃分** 和 **取消訂閱 — 劃分** 圖表代表過去24小時內訂閱或取消訂閱的總人數，依訊息、登入頁面和管道而定。

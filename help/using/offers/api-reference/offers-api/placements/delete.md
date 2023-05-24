@@ -1,6 +1,6 @@
 ---
-title: 删除版面
-description: 版面是用于显示选件的容器。
+title: 刪除版位
+description: 版位是用於展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 删除投放位置 {#delete-placement}
 
-有时可能需要删除(DELETE)版面。 只能删除您在租户容器中创建的版面。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的版面的实例ID的API。
+有時可能需要移除(DELETE)位置。 只能刪除您在租使用者容器中建立的版位。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] API使用您要刪除之位置的例項ID。
 
 **API格式**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 放置位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 要更新的版面的实例ID。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 您要更新之位置的例項ID。 | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **请求**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **响应**
 
-成功的响应会返回HTTP状态202（无内容）和空白正文。
+成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以通过尝试对版面进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为已从容器中删除了版面。
+您可以嘗試向位置查詢(GET)請求以確認刪除。 您需要在請求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為位置已從容器中移除。

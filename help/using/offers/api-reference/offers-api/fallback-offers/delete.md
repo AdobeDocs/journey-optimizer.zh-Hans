@@ -1,6 +1,6 @@
 ---
 title: 删除后备优惠
-description: 如果客户不符合其他选件的资格，则会向客户发送备用选件
+description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 删除后备优惠 {#delete-fallback-offer}
 
-有时可能需要删除(DELETE)备用选件。 只能删除您在租户容器中创建的备用选件。 这是通过向执行DELETE请求来完成的 [!DNL Offer Library] 使用您要删除的备用选件$id的API。
+有時可能必須移除(DELETE)遞補優惠。 只能刪除您在租使用者容器中建立的遞補優惠。 這是透過對「 」執行DELETE請求來完成 [!DNL Offer Library] 使用您要刪除之遞補優惠$id的API。
 
 **API格式**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 备用选件的实例ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 遞補優惠方案的執行個體ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **请求**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **响应**
 
-成功的响应会返回HTTP状态202（无内容）和空白正文。
+成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以通过尝试对备用选件进行查找(GET)请求来确认删除。 您需要在请求中包含接受标头，但应会收到HTTP状态404（未找到），因为回退选件已从容器中删除。
+您可以嘗試向遞補優惠方案查詢(GET)要求以確認刪除。 您需要在請求中加入Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已從容器中移除遞補優惠。

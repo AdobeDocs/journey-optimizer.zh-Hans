@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inNextMonths
-description: 了解NextMonths中的函数
+description: 瞭解函式inNextMonths
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextMonths，函数，表达式，历程
+keywords: inNextMonths，函式，運算式，歷程
 exl-id: e2e520ec-ae9e-4ed6-b50d-606fc6861d56
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 18%
 
 # inNextMonths {#inNextMonths}
 
-如果给定的日期或dateTime介于现在和现在+增量月之间，则返回true。
+如果指定的日期或日期時間介於現在和現在+差異月份之間，則傳回true。
 
 ## 类别
 
 日期
 
-## 函数语法
+## 函式語法
 
 `inNextMonths(<dateTime>,<delta>)`
 
@@ -30,17 +30,17 @@ ht-degree: 18%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期时间 | dateTime |
-| 三角洲 | 整数 |
+| 日期時間 | dateTime |
+| delta | 整数 |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `inNextMonths(<dateTime>,<integer>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。

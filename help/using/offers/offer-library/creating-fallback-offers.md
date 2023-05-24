@@ -1,6 +1,6 @@
 ---
 title: 创建后备优惠
-description: 了解如何创建后备优惠以向不符合任何优惠条件的客户显示
+description: 瞭解如何建立遞補優惠，以顯示給不符合任何優惠方案資格的客戶
 topic: Integrations
 role: User
 level: Intermediate
@@ -8,49 +8,49 @@ exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 创建后备优惠 {#create-fallback-offers}
 
-如果客户不符合其他选件的资格，则会向客户发送备用选件。 创建备用选件的步骤包括创建一个或多个表示形式，例如创建选件时。
+如果客戶不符合其他優惠方案的資格，系統會將遞補優惠方案傳送給客戶。 建立遞補優惠方案的步驟包括建立一或多個表示，例如建立優惠方案時。
 
 ➡️ [在视频中发现此功能](#video)
 
-后备优惠的列表可在 **[!UICONTROL 选件]** 菜单。
+遞補優惠清單可在以下位置存取： **[!UICONTROL 選件]** 功能表。
 
 ![](../assets/offers_list.png)
 
-要创建备用选件，请执行以下步骤：
+若要建立遞補優惠，請遵循下列步驟：
 
 >[!NOTE]
 >
->请注意，与个性化选件不同，备用选件没有资格规则和约束参数，因为它们是作为最后一个度假村呈现给客户的，没有任何条件。
+>請注意，不同於個人化優惠方案，遞補優惠方案沒有適用規則和限制引數，因為它們會以無條件的最後度假村形式呈現給客戶。
 
-1. 单击 **[!UICONTROL 创建选件]**，然后选择 **[!UICONTROL 后备优惠]**.
+1. 按一下 **[!UICONTROL 建立優惠方案]**，然後選取 **[!UICONTROL 遞補優惠]**.
 
    ![](../assets/create_fallback.png)
 
-1. 指定备用选件的名称。 您还可以将一个或多个现有的收藏集限定符（以前称为“标记”）与其关联，从而更轻松地搜索和组织选件库。
+1. 指定遞補優惠的名稱。 您也可以將一或多個現有的集合限定詞（先前稱為「標籤」）與其建立關聯，讓您更輕鬆地搜尋及組織「優惠資料庫」。
 
    ![](../assets/fallback_details.png)
 
-1. 要为选件分配自定义或核心数据使用标签，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级别访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
+1. 若要將自訂或核心資料使用標籤指派給選件，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
-1. 为备用选件创建一个或多个表示形式。 要实现此目的，请从左窗格拖放版面，例如在创建个性化选件时。 请参阅 [创建个性化优惠](../offer-library/creating-personalized-offers.md).
+1. 為遞補優惠建立一或多個代表。 若要這麼做，請從左側窗格拖放版位，就像建立個人化優惠方案一樣。 另請參閱 [建立個人化優惠](../offer-library/creating-personalized-offers.md).
 
    ![](../assets/fallback_content.png)
 
-1. 添加备用选件的表示形式后，会显示一个摘要。 如果一切配置正确，并且您的备用选件已准备好呈现给客户，请单击 **[!UICONTROL 完成]**，然后选择 **[!UICONTROL 保存和批准]**.
+1. 新增遞補優惠的宣告後，會顯示摘要。 如果所有專案皆已正確設定，且您的遞補優惠已準備好呈現給客戶，請按一下 **[!UICONTROL 完成]**，然後選取 **[!UICONTROL 儲存並核准]**.
 
-   您还可以将备用选件另存为草稿，以便稍后进行编辑和批准。
+   您也可以將遞補優惠儲存為草稿，以便稍後編輯及核准。
 
    ![](../assets/fallback_review.png)
 
-1. 后备选件会显示在列表中，其中 **[!UICONTROL 实时]** 或 **[!UICONTROL 草稿]** 状态，具体取决于您在上一步中是否批准了它。
+1. 備援優惠方案會顯示在含有「 」的清單中 **[!UICONTROL 即時]** 或 **[!UICONTROL 草稿]** 狀態，取決於您在上一步驟中是否核准。
 
-   现在，它已准备好交付给客户。 您可以选择它以显示其属性并进行编辑。 <!-- no suppression? -->
+   現在已準備好交付給客戶。 您可以選取它以顯示其屬性並加以編輯。 <!-- no suppression? -->
 
    ![](../assets/fallback_created.png)
 

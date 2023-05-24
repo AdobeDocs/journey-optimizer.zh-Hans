@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: 配置事件捕获
-description: 了解如何配置选件模式以捕获事件
+description: 瞭解如何設定優惠方案以擷取事件
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -14,27 +14,27 @@ ht-degree: 2%
 
 ---
 
-# 配置数据收集 {#schema-requirements}
+# 設定資料彙集 {#schema-requirements}
 
-要获得有关决策事件以外的事件类型的反馈，您必须在 **体验事件** 被发送到Adobe Experience Platform。
+為了能夠取得對決策事件以外的事件型別的意見反應，您必須為中的每種事件型別設定正確的值 **體驗事件** 會傳送至Adobe Experience Platform的ID。
 
 >[!CAUTION]
 >
->对于每个事件类型，请确保数据集中使用的架构具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 [了解详情](create-dataset.md)
+>對於每種事件型別，請確定資料集中使用的結構描述具有 **[!UICONTROL 體驗事件 — 主張互動]** 與其相關聯的欄位群組。 [了解详情](create-dataset.md)
 
-以下是在JavaScript代码中实施所需的架构要求。
+以下是實作JavaScript程式碼所需的結構描述需求。
 
 >[!NOTE]
 >
->决策事件无需发送，因为决策管理将自动生成这些事件并将其置于 **[!UICONTROL 代码决策事件]** 数据集<!--to check--> 自动生成。
+>決定事件不需要傳入，因為決定管理會自動產生這些事件，並將它們放入 **[!UICONTROL ODE DecisionEvents]** 資料集<!--to check--> 是自動產生的。
 
-## 跟踪展示次数
+## 追蹤印象
 
-确保事件类型和源如下所示：
+請確定事件型別和來源如下：
 
-**体验事件类型：** `decisioning.propositionDisplay`
-**来源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量摄取
-+++**有效负载示例：**
+**體驗事件型別：** `decisioning.propositionDisplay`
+**來源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次擷取
++++**範例裝載：**
 
 ```
 {
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 +++
 
-## 跟踪点击量
+## 追蹤點按
 
-确保事件类型和源如下所示：
+請確定事件型別和來源如下：
 
-**体验事件类型：** `decisioning.propositionInteract`
-**来源：** Web.sdk/Alloy.js(`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量摄取
-+++**有效负载示例：**
+**體驗事件型別：** `decisioning.propositionInteract`
+**來源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次擷取
++++**範例裝載：**
 
 ```
 {
@@ -96,9 +96,9 @@ ht-degree: 2%
 
 +++
 
-## 跟踪自定义事件
+## 追蹤自訂事件
 
-对于自定义事件，数据集中使用的架构还必须具有 **[!UICONTROL 体验事件 — 建议交互]** 字段组关联，但是对体验事件类型没有特定要求，必须使用该类型来标记这些事件。
+對於自訂事件，資料集中使用的結構描述也必須具有 **[!UICONTROL 體驗事件 — 主張互動]** 欄位群組相關聯，但對必須用來標籤這些事件的體驗事件型別沒有特定要求。
 
 <!--
 ## Using a ranking strategy {#using-ranking}

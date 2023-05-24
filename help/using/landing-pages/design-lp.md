@@ -2,36 +2,36 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 设计登陆页面
-description: 了解如何在Journey Optimizer中设计登陆页面的内容
+description: 瞭解如何在Journey Optimizer中設計登入頁面的內容
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: 登陆，登陆页面，设计，HTML
+keywords: 登陸，登陸頁面，設計，HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
 # 设计登陆页面内容 {#design-lp}
 
-开始为登陆创建内容 [主页](create-lp.md#configure-primary-page) 或 [子页面](create-lp.md#configure-subpages)，将鼠标悬停在页面内容上并单击 **[!UICONTROL 打开设计工具]**. 您还可以单击右侧面板中的相应按钮。
+若要開始建立登入內容 [主要頁面](create-lp.md#configure-primary-page) 或 [子頁面](create-lp.md#configure-subpages)，將滑鼠停留在頁面內容上，然後按一下 **[!UICONTROL 開啟設計工具]**. 您也可以按一下右側浮動視窗中的對應按鈕。
 
 ![](assets/lp_open-designer.png)
 
-从此处，您可以：
+從那裡，您可以：
 
-* **从头开始设计登陆页面** 通过内容设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../email/content-from-scratch.md).
+* **從頭開始設計您的登入頁面** 透過內容設計工具的介面，並運用以下專案的影像： [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). 瞭解如何設計您的內容 <!--or use built-in templates--> [在本節中](../email/content-from-scratch.md).
 
-* **代码或粘贴原始HTML** 直接导入内容设计器。 了解如何编码您自己的内容 [在此部分中](../email/code-content.md).
+* **程式碼或貼上原始HTML** 直接進入內容設計工具。 瞭解如何編寫您自己的內容的程式碼 [在本節中](../email/code-content.md).
 
-* **导入现有HTML内容** 文件或.zip文件夹中。 了解如何导入内容 [在此部分中](../email/existing-content.md).
+* 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。瞭解如何匯入內容 [在本節中](../email/existing-content.md).
 
-* **使用保存的登陆页面模板** 创建于 [!DNL Journey Optimizer]. [了解详情](lp-templates.md)
+* **使用已儲存的登入頁面範本** 建立於 [!DNL Journey Optimizer]. [了解详情](lp-templates.md)
 
 >[!NOTE]
 >
->登陆页面内容设计器与电子邮件设计器大体相似。 了解详情 [设计内容 [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>登入頁面內容設計工具大多與電子郵件設計工具類似。 進一步瞭解 [設計內容使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md).

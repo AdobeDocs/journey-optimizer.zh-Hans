@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 查看和激活营销活动
-description: 了解如何在Journey Optimizer中查看和激活营销活动
+description: 瞭解如何在Journey Optimizer中檢閱和啟用行銷活動
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 营销活动，审查，验证，激活，激活，优化程序
+keywords: 行銷活動，檢閱，驗證，啟動，啟動，最佳化工具
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -18,32 +18,32 @@ ht-degree: 7%
 
 # 查看和激活营销活动 {#review-activate}
 
-配置营销活动后，您需要先查看其参数和内容，然后再激活它。 为此，请执行以下步骤：
+設定行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 为此，请执行以下步骤：
 
-1. 在营销活动配置屏幕中，单击 **[!UICONTROL 查看以激活]** 以显示营销活动摘要。
+1. 在行銷活動設定畫面中，按一下 **[!UICONTROL 檢閱以啟動]** 以顯示行銷活動的摘要。
 
-   摘要允许您根据需要修改营销活动，并检查是否有参数不正确或缺失。
+   摘要可讓您視需要修改行銷活動，以及檢查是否有任何引數不正確或遺失。
 
    >[!IMPORTANT]
    >
-   >如果出现错误，您将无法激活营销活动。 继续之前，请解决错误。
+   >發生錯誤時，您無法啟用行銷活動。 請先解決錯誤，然後再繼續。
 
    ![](assets/create-campaign-alerts.png)
 
-1. 检查营销活动配置是否正确，然后单击 **[!UICONTROL 激活]**.
+1. 檢查您的行銷活動是否已正確設定，然後按一下 **[!UICONTROL 啟動]**.
 
-1. 营销活动现已激活。 其状态为 **[!UICONTROL 实时]**&#x200B;或 **[!UICONTROL 已计划]** 输入开始日期。 [进一步了解营销活动状态](get-started-with-campaigns.md#statuses).
+1. 行銷活動現在已啟用。 其狀態為 **[!UICONTROL 即時]**，或 **[!UICONTROL 已排程]** 如果您輸入了開始日期。 [進一步瞭解行銷活動狀態](get-started-with-campaigns.md#statuses).
 
-   营销活动中配置的消息将立即或在指定的日期发送。
+   行銷活動中設定的訊息會立即傳送或在指定日期傳送。
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 已完成]** 状态会在营销活动激活后3天自动分配给该营销活动，或者如果营销活动已定期执行，则会在营销活动结束日期自动分配给该营销活动。
+   >此 **[!UICONTROL 已完成]** 狀態會在行銷活動3天後自動指派給行銷活動，或是如果行銷活動有週期性執行，則會在行銷活動的結束日期指派。
    >
-   >如果未指定结束日期，营销活动将保留 **[!UICONTROL 实时]** 状态。 要更改营销活动，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
+   >如果未指定結束日期，行銷活動將會保留 **[!UICONTROL 即時]** 狀態。 若要變更，您必須手動停止行銷活動。 [瞭解如何停止行銷活動](modify-stop-campaign.md)
 
-1. 激活营销活动后，您可以随时打开营销活动信息以检查其信息。 利用摘要，可获取有关定向用户档案数量以及已提交和已失败操作的统计信息。
+1. 行銷活動啟動後，您可以隨時透過開啟行銷活動來檢查其資訊。 摘要可讓您取得目標設定檔數目以及傳送和失敗動作的統計資料。
 
-   您还可以通过单击 **[!UICONTROL 报表]** 按钮。 [了解详情](../reports/campaign-global-report.md)
+   您也可以在專用報表中按一下 **[!UICONTROL 報表]** 按鈕。 [了解详情](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)

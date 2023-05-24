@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 沙盒管理
-description: 了解如何管理沙箱
+description: 瞭解如何管理沙箱
 feature: Sandboxes
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: 沙箱，虚拟，环境，组织，平台
+keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -24,41 +24,41 @@ ht-degree: 53%
 沙盒通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙盒](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙盒。
-可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[進一步瞭解sandbox使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
 
-您可以在屏幕右上方找到您的组织名称旁边的沙盒切换器控件。 要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。
+您可以在熒幕右上角組織名稱旁找到沙箱切換器控制項。 要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。
 
 ![](assets/sandbox_5.png)
 
-➡️ [在此视频中了解有关沙箱的更多信息](#video)
+➡️ [在本影片中進一步瞭解沙箱](#video)
 
-## 分配沙箱 {#assign-sandboxes}
+## 指派沙箱 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> 沙箱管理只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关此内容的更多信息，请参阅 [管理控制台文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> 沙箱管理只能由 **[!UICONTROL 產品]** 或 **[!UICONTROL 系統]** 管理員。 如需詳細資訊，請參閱 [Admin Console檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-您可以选择为现成或自定义沙箱分配不同的沙箱 **[!UICONTROL 产品配置文件]**.
+您可以選擇將不同的沙箱指派給現成可用的或自訂的 **[!UICONTROL 產品設定檔]**.
 
-要分配沙箱，请执行以下操作：
+若要指派沙箱：
 
-1. 在 [!DNL Admin Console]，从 **[!UICONTROL 产品]** 选项卡，选择 **[!UICONTROL Adobe Experience Platform应用程序]** 产品。
+1. 在 [!DNL Admin Console]，來自 **[!UICONTROL 產品]** 索引標籤中，選取 **[!UICONTROL Adobe Experience Platform應用程式]** 產品。
 
-1. 选择 **[!UICONTROL 产品配置文件]**.
+1. 選取 **[!UICONTROL 產品設定檔]**.
 
    ![](assets/sandbox_1.png)
 
-1. 选择 **[!UICONTROL 权限]** 选项卡。
+1. 選取 **[!UICONTROL 許可權]** 標籤。
 
-1. 选择 **[!UICONTROL 沙箱]** 功能。
+1. 選取 **[!UICONTROL 沙箱]** 功能。
 
    ![](assets/sandbox_2.png)
 
-1. 在 **[!UICONTROL 可用权限项]**，单击加号(+)图标，将沙箱分配给用户档案。 [了解有关沙箱的更多信息](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}.
+1. 下 **[!UICONTROL 可用的許可權專案]**，按一下加號(+)圖示，將沙箱指派給您的設定檔。 [進一步瞭解sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
-1. 如果需要，在下 **[!UICONTROL 包含的权限项]**，请单击删除沙箱访问您的 **[!UICONTROL 产品配置文件]**.
+1. 如有需要，在 **[!UICONTROL 包含的許可權專案]**，按一下旁邊的X圖示，以移除對您的 **[!UICONTROL 產品設定檔]**.
 
    ![](assets/sandbox_4.png)
 
@@ -66,13 +66,13 @@ ht-degree: 53%
 
 ## 访问内容 {#content-access}
 
-要配置内容辅助功能，您需要为每个沙盒分配一个内容共享文件夹。您可以在 **[!UICONTROL 存储]** 选项卡 [!DNL Admin Console] 的URL。 如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
+要配置内容辅助功能，您需要为每个沙盒分配一个内容共享文件夹。您可以在「 」中建立和設定共用資料夾 **[!UICONTROL 儲存]** 標籤中顯示 [!DNL Admin Console] 適用於管理員。 如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
 
 ![](assets/do-not-localize/content_access.png)
 
 请注意，要使内容与正确的沙盒同步，您必须遵循与沙盒相同的语法，例如，如果沙盒命名为“development”，则共享文件夹应具有相同的名称。
 
-[了解如何管理共享文件夹](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
+[瞭解如何管理共用資料夾](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## 操作方法视频{#video}
 

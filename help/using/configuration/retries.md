@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 重试
-description: 了解在向抑制列表发送地址之前如何执行重试
+description: 瞭解在將地址傳送到隱藏清單之前如何執行重試
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 重试，退回，软，优化程序，错误
+keywords: 重試，退回，軟化，最佳化程式，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
@@ -18,21 +18,21 @@ ht-degree: 13%
 
 # 重试 {#retries}
 
-当由于临时 **软退回** 错误，会执行多次重试。 每个错误都会增加一个错误计数。 当此计数器达到限制阈值时，地址将添加到禁止列表。
+當電子郵件訊息因暫時性而失敗時 **軟退信** 錯誤，會執行多次重試。 每個錯誤都會遞增錯誤計數器。 當此計數器達到限制臨界值時，會將地址新增到隱藏清單中。
 
 >[!NOTE]
 >
->了解有关 [投放失败类型](../reports/suppression-list.md#delivery-failures) 中。
+>深入瞭解中的錯誤型別 [傳遞失敗型別](../reports/suppression-list.md#delivery-failures) 區段。
 
-在默认配置中，阈值设置为5个错误。
+在預設設定中，臨界值設定為5個錯誤。
 
-* 对于同一投放，在第5次遇到 [重试时段](#retry-duration)，则禁止显示地址。
+* 對於相同傳遞，在第五個遇到內錯誤 [重試時段](#retry-duration)，則會隱藏位址。
 
-* 如果存在不同的投放且至少24小时间隔地发生两个错误，则每次错误时错误计数都递增，并且在第五次尝试时地址也被抑制。
+* 如果有不同的傳送，且至少相隔24小時發生兩個錯誤，則每個錯誤都會增加錯誤計數器，並且在第五次嘗試時也會隱藏地址。
 
-如果重试投放成功，则地址的错误计数会重新初始化。
+如果重試後傳遞成功，則會重新初始化位址的錯誤計數器。
 
-## 重试阈值版本 {#edit-retry-threshold}
+## 重試臨界值版本 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
@@ -40,37 +40,37 @@ ht-degree: 13%
 >abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解禁止列表"
 
-如果默认值5不适合您的需求，您可以按照以下步骤修改错误阈值。
+如果預設值5不符合您的需求，您可以按照以下步驟修改錯誤臨界值。
 
-1. 转到 **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 禁止列表]**.
+1. 前往 **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 隱藏清單]**.
 
-1. 选择 **[!UICONTROL 编辑隐藏规则]** 按钮。
+1. 選取 **[!UICONTROL 編輯隱藏規則]** 按鈕。
 
    ![](assets/suppression-list-edit-retries.png)
 
-1. 根据需要编辑允许的连续软退回数。
+1. 根據您的需求，編輯允許的連續軟跳出次數。
 
    ![](assets/suppression-list-edit-soft-bounces.png)
 
-   您必须输入一个介于1和20之间的整数值，这表示重试的最小次数为1，最大数量为20。
+   您必須輸入介於1到20之間的整數值，表示最小重試次數為1，最大重試次數為20。
 
    >[!CAUTION]
    >
-   >超过10的任何值都可能导致投放能力声誉问题，以及ISP对IP的列入阻止列表限制或。 [了解有关投放能力的更多信息](../reports/deliverability.md)
+   >大於10的任何值都可能會導致傳遞能力聲譽問題，並遭到ISP施加IP節流或加入封鎖清單。 [進一步瞭解傳遞能力](../reports/deliverability.md)
 
 ## 重试时段 {#retry-duration}
 
-的 **重试时段** 是重试投放遇到临时错误或软退件的任何电子邮件的时间范围。
+此 **重試時段** 是任何遇到暫時錯誤或軟退信之傳遞電子郵件訊息將重試傳遞的時間範圍。
 
-默认情况下，将对 **3.5天** (或 **84小时**)。
+依預設，將執行重試 **3.5天** (或 **84小時**)時，系統就會將訊息新增至電子郵件佇列。
 
-但是，为确保不再需要重试尝试，您可以在创建或编辑 [通道表面](channel-surfaces.md) （即消息预设）。
+不過，為了確保當不再需要重試時不再執行，您可以在建立或編輯時根據您的需求變更此設定 [管道表面](channel-surfaces.md) （即訊息預設集）套用至電子郵件頻道。
 
-例如，对于与密码重置相关并包含仅有效一天的链接的事务型电子邮件，您可以将重试期限设置为24小时。 同样，对于午夜销售，您可能需要定义6小时的重试期限。
+例如，對於與密碼重設相關的交易式電子郵件，您可以將重試期間設為24小時，其中包含僅一天有效的連結。 同樣地，對於午夜優惠，您可能想要定義6小時的重試期間。
 
 >[!NOTE]
 >
->重试周期不能超过84小时。 营销电子邮件的最短重试期限为6小时，事务电子邮件的最短重试期限为10分钟。
+>重試期間不能超過84小時。 行銷電子郵件的最小重試期間為6小時，交易電子郵件的最小重試期間為10分鐘。
 
-了解在中创建渠道表面时如何调整电子邮件重试参数 [此部分](../email/email-settings.md#email-retry).
+瞭解在中建立管道表面時，如何調整電子郵件重試引數 [本節](../email/email-settings.md#email-retry).
 

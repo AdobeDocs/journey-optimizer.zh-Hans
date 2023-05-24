@@ -1,6 +1,6 @@
 ---
 title: 创建收藏集
-description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 9%
 
 # 创建收藏集 {#create-collection}
 
-收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
+您可以透過向以下傳送POST請求來建立集合： [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和内容类型标头 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 标题名称 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
@@ -36,8 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -61,7 +61,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建集合的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的集合。 您可以使用您的独特收藏集 `@id` 在稍后的教程中创建决策。
+成功的回應會傳回關於新建立集合的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可以在稍後的步驟中使用執行個體ID來更新或刪除您的集合。 您可以使用唯一集合 `@id` 在稍後的教學課程中建立決定。
 
 ```json
 {

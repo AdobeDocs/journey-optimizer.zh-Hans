@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 外部，源，数据，配置，连接，第三方
+keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
@@ -27,7 +27,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->使用外部系统时的护栏列在 [本页](../configuration/external-systems.md).
+>使用外部系統時的護欄列於 [此頁面](../configuration/external-systems.md).
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
@@ -42,7 +42,7 @@ ht-degree: 71%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击 **[!UICONTROL 创建数据源]** 创建新的外部数据源。
+1. 從資料來源清單中，按一下 **[!UICONTROL 建立資料來源]** 以建立新的外部資料來源。
 
    ![](assets/journey25.png)
 
@@ -65,33 +65,33 @@ ht-degree: 71%
 
    ![](assets/journey27.png)
 
-1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**, **[!UICONTROL 基本]**, **[!UICONTROL 自定义]** 或 **[!UICONTROL API密钥]**. 有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
+1. 根據外部服務組態設定驗證： **[!UICONTROL 無驗證]**， **[!UICONTROL 基本]**， **[!UICONTROL 自訂]** 或 **[!UICONTROL API金鑰]**. 有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
 
-   * **[!UICONTROL 类型]**:&quot;API密钥&quot;
-   * **[!UICONTROL 名称]**:&quot;appid&quot;（这是API密钥参数名称）
-   * **[!UICONTROL 值]**:“1234”（这是API密钥的值）
-   * **[!UICONTROL 位置]**:“查询参数”（API密钥位于URL中）
+   * **[!UICONTROL 型別]**：「API金鑰」
+   * **[!UICONTROL 名稱]**：「appid」（這是API金鑰引數名稱）
+   * **[!UICONTROL 值]**：「1234」（這是我們API金鑰的值）
+   * **[!UICONTROL 位置]**：「查詢引數」（API金鑰位於URL）
 
    ![](assets/journey28.png)
 
-1. 通过单击 **[!UICONTROL 添加新字段组]**. 请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
+1. 按一下以為每個API引數集新增欄位群組 **[!UICONTROL 新增欄位群組]**. 请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
 对于“long/lat”参数集，我们创建一个包含以下信息的字段组：
 
-* **[!UICONTROL 在]**:显示使用字段组的历程数。 您可以单击 **[!UICONTROL 查看历程]** 图标以显示使用此字段组的历程列表。
-* **[!UICONTROL 方法]**:选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL 动态值]**:在我们的示例中，输入以逗号分隔的不同参数“long，lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL 响应有效负载]**:在 **[!UICONTROL 负载]** 字段并粘贴由调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，您可以单击 **[!UICONTROL 粘贴新有效负载]** 如果要更改当前传递的有效负载。
+* **[!UICONTROL 使用位置]**：顯示使用欄位群組的歷程次數。 您可以按一下 **[!UICONTROL 檢視歷程]** 圖示以顯示使用此欄位群組的歷程清單。
+* **[!UICONTROL 方法]**：選取POST或GET方法。 在我们的示例中，我们选择 GET 方法。
+* **[!UICONTROL 動態值]**：在本例中，輸入以逗號分隔的不同引數，即&quot;long，lat&quot;。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 回應裝載]**：按一下 **[!UICONTROL 裝載]** 欄位並貼上呼叫傳回之裝載的範例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。請注意，您可以按一下 **[!UICONTROL 貼上新裝載]** 如果您想要變更目前已傳遞的裝載。
 
    >[!NOTE]
    >
-   >响应有效负载定义中不支持标量数组。
+   >回應裝載定義中不支援純量陣列。
 
-* **[!UICONTROL 发送的负载]**:在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
+* **[!UICONTROL 已傳送裝載]**：此欄位不會出現在我們的範例中。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
-如果GET调用需要参数，请在 **[!UICONTROL 动态值]** 字段中，且这些字段会在调用结束时自动添加。 如果是 POST 调用，您需要：
+若是GET呼叫所需的引數，請在 **[!UICONTROL 動態值]** 欄位，它們就會在呼叫結束時自動新增。 如果是 POST 调用，您需要：
 
-* 列出在 **[!UICONTROL 动态值]** 字段(在以下示例中为：&quot;identifier&quot;)。
+* 在中列出呼叫時要傳遞的引數 **[!UICONTROL 動態值]** 欄位（在以下範例中：「identifier」）。
 * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。请遵循以下语法：
 
    ```
@@ -132,10 +132,10 @@ ht-degree: 71%
 
 * 端点：用于生成端点的 URL
 * 端点上 HTTP 请求的方法（GET 或 POST）
-* 标题：键值对将作为标头插入此调用（如果需要）
-* 主体：描述在方法为 POST 时调用的主体。我们支持在bodyParams（键值对）中定义的有限主体结构。 bodyType 描述调用中主体的格式和编码：
-   * “form”：这意味着内容类型将为application/x-www-form-urlencoded(charset UTF-8)，键值对将按原样序列化：key1=value1&amp;key2=value2&amp;...
-   * “json”：这表示内容类型将为application/json(charset UTF-8)，键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;,...}_
+* 標頭：在此呼叫中插入做為標頭的機碼值組（如有需要）
+* 主体：描述在方法为 POST 时调用的主体。我們支援有限的主體結構，在bodyParams （索引鍵值配對）中定義。 bodyType 描述调用中主体的格式和编码：
+   * &#39;form&#39;：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;：表示內容型別將會是application/json （字元集UTF-8），而機碼值組將會序列化為json物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
 在操作的 HTTP 请求中必须插入访问令牌方式的定义：
 
@@ -176,7 +176,7 @@ ht-degree: 71%
 
 您可以更改自定义身份验证数据源的令牌的缓存时间。以下是自定义身份验证有效负载的示例。缓存时间在“cacheDuration”参数中定义。它指定缓存中生成的令牌的保留持续时间。单位可以是毫秒、秒、分钟、小时、天、月、年。
 
-以下是承载身份验证类型的示例：
+以下是持有人驗證型別的範例：
 
 ```
 {
@@ -208,9 +208,9 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留已缓存在服务中，不存在持久性。 如果服务重新启动，则会以干净的缓存启动。 默认情况下，缓存持续时间为1小时。 在自定义身份验证有效负载中，可以通过指定另一个保留持续时间来调整该有效负载。
+>快取持續時間有助於避免過多呼叫驗證端點。 驗證權杖保留在服務中會快取，沒有持續性。 如果重新啟動服務，它會從乾淨的快取開始。 快取持續時間預設為1小時。 在自訂驗證裝載中，可透過指定另一個保留期間來調整它。
 
-以下是头身份验证类型的示例：
+以下是標頭驗證型別的範例：
 
 ```
 {
@@ -233,7 +233,7 @@ ht-degree: 71%
 } 
 ```
 
-以下是登录API调用响应的示例：
+以下是登入API呼叫的回應範例：
 
 ```
 {

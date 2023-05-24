@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建您的第一个合成工作流
-description: 了解如何创建合成工作流以合并和排列现有受众。
+title: 创建您的第一个组合工作流程
+description: 瞭解如何建立構成工作流程，以組合和排列現有對象。
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,85 +10,85 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-badge: label="Beta" type="Informitive"
+badge: label="Beta" type="Informative"
 source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 7%
+ht-degree: 14%
 
 ---
 
-# 创建您的第一个合成工作流 {#create-compositions}
+# 创建您的第一个组合工作流程 {#create-compositions}
 
 >[!BEGINSHADEBOX]
 
-您将在本文档中找到的内容：
+本文档包括以下内容：
 
 * [受众组合入门](get-started-audience-orchestration.md)
-* **[创建您的第一个合成工作流](create-compositions.md)**
+* **[创建您的第一个组合工作流程](create-compositions.md)**
 * [使用组合画布](composition-canvas.md)
 * [访问和管理受众](access-audiences.md)
 
 >[!ENDSHADEBOX]
 
-## 创建合成工作流 {#create}
+## 建立構成工作流程 {#create}
 
-要创建合成工作流，请执行以下步骤：
+若要建立構成工作流程，請遵循下列步驟：
 
-1. 访问 **[!UICONTROL 区段]** 菜单和选择 **[!UICONTROL 创建受众]**.
+1. 存取 **[!UICONTROL 區段]** 功能表並選取 **[!UICONTROL 建立對象]**.
 
-1. 选择 **[!UICONTROL 撰写受众]**.
+1. 選取 **[!UICONTROL 組成對象]**.
 
    ![](assets/audiences-create.png)
 
    >[!NOTE]
    >
-   >的 **[!UICONTROL 生成规则]** 创建方法允许您使用 [Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   >此 **[!UICONTROL 建置規則]** 建立方法可讓您使用建立新的區段定義。 [細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-1. 此时将显示组合画布，其中包含两个默认活动：
+1. 構成畫布會顯示兩個預設活動：
 
-   * **[!UICONTROL 受众]**:作品的起点。 此活动允许您选择一个或多个受众作为工作流的基础，
+   * **[!UICONTROL 對象]**：構成起點。 此活動可讓您選取一或多個對象作為工作流程的基礎。
 
-   * **[!UICONTROL 保存]**:最后一步。 此活动用于将工作流的结果保存到新受众中。
-   有关如何在合成工作流画布中配置活动的更多信息，请参阅 [使用合成画布](composition-canvas.md).
+   * **[!UICONTROL 儲存]**：構成的最後一步。 此活動可讓您將工作流程的結果儲存至新受眾。
+   如需如何在構成工作流程畫布中設定活動的詳細資訊，請參閱 [使用構成畫布](composition-canvas.md).
 
-1. 打开合成属性以指定标题和描述。
+1. 開啟構成屬性以指定標題和說明。
 
-   如果属性中未定义标题，则合成的标签将设置为“合成”，后跟其创建日期和时间。
+   如果屬性中未定義標題，構成標籤會設為「構成」，接著是建立日期和時間。
 
    ![](assets/audiences-properties.png)
 
-1. 通过在 **[!UICONTROL 受众]** 和 **[!UICONTROL 保存]** 活动。 [了解如何使用合成画布](composition-canvas.md)
+1. 視需要在「 」之間新增任意數量的活動，以設定您的構成 **[!UICONTROL 對象]** 和 **[!UICONTROL 儲存]** 活動。 [瞭解如何使用構成畫布](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. 准备好构图后，单击 **[!UICONTROL 发布]** 按钮以发布合成并将生成的受众保存到Adobe Experience Platform。
+1. 在構成準備就緒後，按一下 **[!UICONTROL 發佈]** 按鈕來發佈構成並將產生的對象儲存到Adobe Experience Platform中。
 
    >[!IMPORTANT]
    >
-   >在给定的沙盒中，最多可发布75个作品。 如果已达到此阈值，则需要删除合成以释放空间并发布新合成。
+   >您可以在指定的沙箱中發佈最多75個組合。 如果您已達到此臨界值，則需要刪除構成以釋放空間並發佈新構成。
 
-   如果在发布过程中发生任何错误，则会显示警报，其中包含有关如何解决此问题的信息。
+   如果在發佈期間發生任何錯誤，將顯示警報，其中包含如何解決問題的資訊。
 
    ![](assets/audiences-alerts.png)
 
-1. 合成已发布。 生成的受众将保存到Adobe Experience Platform中，并准备好在Journey Optimizer营销活动中定位。 [了解如何使用营销活动](../campaigns/get-started-with-campaigns.md)
+1. 組合已發佈。 產生的對象會儲存至Adobe Experience Platform，並準備好在Journey Optimizer行銷活動中鎖定目標。 [了解如何使用营销活动](../campaigns/get-started-with-campaigns.md)
 
-## 接入组合物 {#access}
+## 存取組合 {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="发布受众"
 >abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
 
-所有创建的合成都可以从 **[!UICONTROL 组合物]** 选项卡。 它们可以具有多种状态：
+所有已建立的構成都可從以下網址存取： **[!UICONTROL 組合]** 標籤。 它們可以有多個狀態：
 
-* **[!UICONTROL 草稿]**:该组合正在进行中，尚未发布。
-* **[!UICONTROL 已发布]**:合成已发布，生成的受众已保存并可供使用。
-* **[!UICONTROL 已存档]**:构图已存档。
+* **[!UICONTROL 草稿]**：構成正在進行中，尚未發佈。
+* **[!UICONTROL 已發佈]**：構成已發佈，產生的對象已儲存並可供使用。
+* **[!UICONTROL 已封存]**：構成已封存。
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->您可以随时使用列表中的省略号按钮复制或删除现有的合成。
+>您可以使用清單中的省略符號按鈕，隨時複製或刪除現有構成。

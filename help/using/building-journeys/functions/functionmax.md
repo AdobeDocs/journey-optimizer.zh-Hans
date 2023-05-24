@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: max
-description: 了解函数max
+description: 瞭解函式max
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: max，函数，表达式，历程
+keywords: max，函式，運算式，歷程
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 # max{#max}
 
-返回一组表达式中的最大值（以列表或两个表达式的形式给定）。 将忽略空值。
+傳回一組運算式中的最大值，以清單或兩個運算式形式給出。 Null值會被忽略。
 
 ## 类别
 
 聚合
 
-## 函数语法
+## 函式語法
 
 `max(<parameter>)`
 
@@ -34,57 +34,57 @@ ht-degree: 7%
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 持续时间
+* 持續時間
 * 整数
-* 小数
+* 小數
 * dateTime
 * dateTimeOnly
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `max(<listDuration>)`
 
-返回持续时间。
+傳回持續時間。
 
 `max(<listInteger>)`
 
-返回持续时间。
+傳回持續時間。
 
 `max(<listDateTimeOnly>)`
 
-返回日期时间，而不考虑时区。
+傳回不考慮時區的日期時間。
 
 `max(<listDateTime>)`
 
-返回日期时间。
+傳回日期時間。
 
 `max(<listDateOnly>)`
 
-返回日期。
+傳回日期。
 
 `max(<listDecimal>)`
 
-返回小数。
+傳回小數。
 
 `max(<decimal>,<decimal>)`
 
-返回小数。
+傳回小數。
 
 `max(<duration>,<duration>)`
 
-返回持续时间。
+傳回持續時間。
 
 `max(<dateTime>,<dateTime>)`
 
-返回日期时间。
+傳回日期時間。
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回日期时间，而不考虑时区。
+傳回不考慮時區的日期時間。
 
 `max(<integer>,<integer>)`
 
-返回整数。
+傳回整數。
 
 ## 示例
 
@@ -92,8 +92,8 @@ ht-degree: 7%
 
 `max([10,3,8])`
 
-返回10。
+傳回10。
 
 `max([10,null,8])`
 
-返回10。
+傳回10。

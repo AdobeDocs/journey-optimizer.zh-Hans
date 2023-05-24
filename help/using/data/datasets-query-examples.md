@@ -1,44 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 数据集查询示例
-description: 数据集查询示例
+title: 資料集查詢範例
+description: 資料集查詢範例
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 数据集，优化程序，用例
+keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 数据集用例 {#tracking-datasets}
+# 資料集使用案例 {#tracking-datasets}
 
-在本页中，您将找到Adobe Journey Optimizer数据集列表和相关用例：
+在此頁面中，您會找到Adobe Journey Optimizer資料集清單和相關使用案例：
 
-[电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)
-[消息反馈事件数据集](#message-feedback-event-dataset)
-[推送跟踪体验事件数据集](#push-tracking-experience-event-dataset)
-[历程步骤事件](#journey-step-event)
-[决策事件数据集](#ode-decisionevents)
-[密送反馈事件数据集](#bcc-feedback-event-dataset)
-[实体数据集](#entity-dataset)
+[電子郵件追蹤體驗事件資料集](#email-tracking-experience-event-dataset)
+[訊息回饋事件資料集](#message-feedback-event-dataset)
+[推播追蹤體驗事件資料集](#push-tracking-experience-event-dataset)
+[歷程步驟事件](#journey-step-event)
+[決策事件資料集](#ode-decisionevents)
+[密件副本意見事件資料集](#bcc-feedback-event-dataset)
+[實體資料集](#entity-dataset)
 
-要查看每个架构的字段和属性的完整列表，请参阅 [Journey Optimizer模式字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}.
+要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
-## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
+## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
 
-_界面中的名称：CJM电子邮件跟踪体验事件数据集_
+_介面中的名稱： CJM電子郵件追蹤體驗事件資料集_
 
-用于从Journey Optimizer中摄取电子邮件跟踪体验事件的系统数据集。
+用於從Journey Optimizer擷取電子郵件追蹤體驗事件的系統資料集。
 
-相关架构是CJM电子邮件跟踪体验事件架构。
+相關結構描述是CJM電子郵件追蹤體驗事件結構描述。
 
-此查询显示给定消息的不同电子邮件交互（打开数、点击数）计数：
+此查詢會顯示指定訊息的不同電子郵件互動（開啟、點按）計數：
 
 ```sql
 select
@@ -51,7 +51,7 @@ group by
     _experience.customerJourneyManagement.messageInteraction.interactionType
 ```
 
-此查询显示按给定历程的消息划分不同电子邮件交互（打开数、点击数）的计数：
+此查詢會依指定歷程的訊息，顯示不同電子郵件互動（開啟、點按）次數的劃分：
 
 ```sql
 select
@@ -70,15 +70,15 @@ order by
 limit 100;
 ```
 
-## 消息反馈事件数据集{#message-feedback-event-dataset}
+## 訊息回饋事件資料集{#message-feedback-event-dataset}
 
-_界面中的名称：CJM消息反馈事件数据集_
+_介面中的名稱： CJM訊息回饋事件資料集_
 
-用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。
+用於從Journey Optimizer擷取電子郵件和推播應用程式回饋事件的資料集。
 
-相关架构为CJM消息反馈事件架构。
+相關結構描述是CJM訊息回饋事件結構描述。
 
-此查询显示给定消息的不同电子邮件反馈状态（发送、退回等）的计数：
+此查詢顯示特定訊息的不同電子郵件回饋狀態（已傳送、退回等）的計數：
 
 ```sql
 select
@@ -91,7 +91,7 @@ group by
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
 ```
 
-此查询显示给定历程中按消息划分的不同电子邮件反馈状态（发送、退回等）计数：
+此查詢會依指定歷程的訊息，顯示不同電子郵件回饋狀態（已傳送、退回等）的計數劃分：
 
 ```sql
 select
@@ -110,45 +110,45 @@ order by
 limit 100;
 ```
 
-在聚合级别，域级别报表（按顶级域排序）：域名、已发送消息、退回
+彙總層級的網域層級報表（依最上層網域排序）：網域名稱、已傳送訊息、跳出數
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
 ```
 
-每天发送电子邮件：
+電子郵件每日傳送次數：
 
 ```sql
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-查找特定电子邮件ID是否收到了电子邮件，如果没有，则错误、退回类别、代码：
+尋找特定電子郵件ID是否收到電子郵件，若未收到，則錯誤為何，退回類別，代碼：
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
-查找在过去x小时/天内发生特定错误、退回类别或代码的所有电子邮件ID的列表，或查找与特定消息投放相关联的电子邮件ID:
+尋找過去x小時/天內，發生特定錯誤、退回類別或程式碼或與特定訊息傳送相關聯的所有個別電子郵件ID清單：
 
 ```sql
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-聚合级别的硬跳出率：
+彙總層級的硬跳出率：
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
 ```
 
-按退件代码分组的永久错误：
+依退回代碼分組的永久錯誤：
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
-### 确定ISP中断后的隔离地址{#isp-outage-query}
+### 在ISP中斷後識別隔離地址{#isp-outage-query}
 
-如果互联网服务提供商(ISP)中断，您需要在某个时间范围内将错误地标记为特定域的退回（隔离）电子邮件地址。 要获取这些地址，请使用以下查询：
+如果網際網路服務提供者(ISP)發生中斷，您需要識別在時間範圍內特定網域被錯誤標籤為跳出（隔離）的電子郵件地址。 若要取得這些位址，請使用下列查詢：
 
 ```sql
 SELECT
@@ -164,19 +164,19 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-其中日期格式为：YYYY-MM-DD HH:MM:SS。
+其中日期的格式為：YYYY-MM-DD HH:MM:SS.
 
-识别后，从Journey Optimizer抑制列表中删除这些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
-## 推送跟踪体验事件数据集 {#push-tracking-experience-event-dataset}
+## 推播追蹤體驗事件資料集 {#push-tracking-experience-event-dataset}
 
-_界面中的名称：CJM推送跟踪体验事件数据集_
+_介面中的名稱： CJM推播追蹤體驗事件資料集_
 
-用于为从Journey Optimizer推送引入移动跟踪体验事件的数据集。
+用於從Journey Optimizer擷取推送之行動追蹤體驗事件的資料集。
 
-相关架构为CJM推送跟踪体验事件架构。
+相關結構描述是CJM推播追蹤體驗事件結構描述。
 
-查询示例：
+查詢範例：
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -186,15 +186,15 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-## 历程步骤事件{#journey-step-event}
+## 歷程步驟事件{#journey-step-event}
 
-_内部名称：历程步骤事件（系统数据集）_
+_內部名稱：歷程步驟事件（系統資料集）_
 
-用于在历程中摄取步骤事件的数据集。
+用於擷取歷程中步驟事件的資料集。
 
-相关架构是历程步骤事件架构，用于Journey Orchestration。
+相關結構描述是Journey Orchestration的歷程步驟事件結構描述。
 
-此查询按给定历程的操作标签显示操作成功计数的细分：
+此查詢會依指定歷程的動作標籤顯示動作成功計數的劃分：
 
 ```sql
 select
@@ -210,7 +210,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-此查询显示按nodeId和nodeLabel为给定历程输入的步骤计数的细分。 nodeId包含在此处，因为nodeLabel对于不同的历程节点可以是相同的。
+此查詢會依指定歷程的nodeId和nodeLabel顯示步驟輸入計數的劃分。 nodeId包含在這裡，因為不同歷程節點的nodeLabel可以相同。
 
 ```sql
 select
@@ -227,15 +227,15 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## 决策事件数据集{#ode-decisionevents}
+## 決策事件資料集{#ode-decisionevents}
 
-_界面中的名称：ODE DecisionEvents（系统数据集）_
+_介面中的名稱： ODE DecisionEvents （系統資料集）_
 
-用于摄取数据的数据集向用户提供建议。
+用於擷取優惠方案主張給使用者的資料集。
 
-相关架构为ODE DecisionEvents。
+相關結構描述為ODE DecisionEvents。
 
-此查询显示前一天返回的所有选件：
+此查詢顯示前一天傳回的所有優惠方案：
 
 ```sql
 SELECT date_format(Decision.Timestamp, 'MM/dd/yyyy') as Date
@@ -248,7 +248,7 @@ GROUP BY date_format(Decision.Timestamp, 'MM/dd/yyyy')
 ORDER BY 1, 2 DESC;
 ```
 
-此查询显示特定活动/决策的最近30天内建议的选件及其关联的选件优先级的次数。
+此查詢顯示特定活動/決定及其相關優惠優先順序在過去30天內建議優惠的次數。
 
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
@@ -289,13 +289,13 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## 密送反馈事件数据集{#bcc-feedback-event-dataset}
+## 密件副本意見事件資料集{#bcc-feedback-event-dataset}
 
-_界面中的名称：AJO密送反馈事件数据集（系统数据集）_
+_介面中的名稱： AJO密件副本回饋事件資料集（系統資料集）_
 
-用于存储密送消息信息的数据集。
+儲存密件副本訊息資訊的資料集。
 
-在2天内查询所有密件抄送消息（针对特定营销活动）：
+查詢2天內所有密件副本訊息（針對特定行銷活動）：
 
 ```sql
 SELECT bcc.*
@@ -305,7 +305,7 @@ WHERE
     bcc.timestamp >= now() - INTERVAL '2' day; 
 ```
 
-包含反馈数据集的查询，以显示未收到（所有退回和抑制）以及具有特定消息的密送条目的用户：
+使用意見資料集進行查詢，以顯示未收到（所有跳出和隱藏）的使用者以及具有特定訊息的密件副本專案的使用者：
 
 ```sql
 SELECT 
@@ -332,29 +332,29 @@ WHERE
             mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus
 ```
 
-## 实体数据集{#entity-dataset}
+## 實體資料集{#entity-dataset}
 
-_界面中的名称：ajo_entity_dataset（系统数据集）_
+_介面中的名稱： ajo_entity_dataset （系統資料集）_
 
-用于存储发送给最终用户的消息的实体元数据的数据集。
+儲存傳送給一般使用者之訊息的實體中繼資料的資料集。
 
-相关架构是AJO实体架构。
+相關結構描述是AJO實體結構描述。
 
-利用此数据集，可访问营销人员定义的元数据，当导出Journey Optimizer数据集以用于外部工具中的报表可视化时，利用这些元数据可更好地分析报表。 可使用messageID属性实现此目的，该属性有助于拼合各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获取从在用户档案级别发送到跟踪的消息投放的详细信息。
+此資料集可讓您存取行銷人員定義的中繼資料，以便在Journey Optimizer資料集匯出以用於外部工具中的報表視覺效果時，獲得更好的報表深入分析。 這是使用messageID屬性來達成，此屬性有助於拼接各種資料集（例如訊息意見資料集和體驗事件追蹤資料集），以取得從傳送到設定檔層級追蹤的訊息傳送細節。
 
 **重要说明**
 
-* 消息的条目仅在历程或营销活动发布后创建。
+* 訊息的專案只會在歷程或行銷活動發佈後建立。
 
-* 营销活动/历程发布30分钟后，您可能会看到该条目。
+* 您可能會在行銷活動/歷程發佈30分鐘後看到此專案。
 
 >[!NOTE]
 >
->出于将来的兼容性原因，目前实体数据集中每个消息发布有两个条目。 这不会影响您根据需要在数据集中使用连接查询来获取所需信息的能力。
+>目前，基於未來的相容性原因，實體資料集中的每個訊息發佈都有兩個專案。 這不會影響您視需要跨資料集使用聯結查詢來擷取所需資訊的能力。
 
-如果要在报表中根据发送特定历程的操作对由特定历程发送的电子邮件进行排序。 您可以将消息反馈数据集与实体数据集结合使用。 要使用的字段包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
+如果您想在報表中排序特定歷程所傳送的電子郵件（根據傳送它們的動作）。 您可以使用實體資料集加入訊息回饋意見資料集。 要使用的欄位包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
 
-以下查询可帮助您获取给定营销活动的关联消息模板：
+以下查詢可協助您取得指定行銷活動的相關訊息範本：
 
 ```sql
 SELECT
@@ -364,7 +364,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-以下查询有助于获取与所有反馈事件关联的历程详细信息和电子邮件主题：
+以下查詢有助於取得與所有回饋事件關聯的歷程詳細資料和電子郵件主題：
 
 ```sql
 SELECT 
@@ -381,7 +381,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-您可以拼合历程步骤事件、消息反馈和跟踪数据集，以获取特定用户档案的统计资料：
+您可以拼接歷程步驟事件、訊息回饋和追蹤資料集，以取得特定設定檔的統計資料：
 
 ```sql
 SELECT 

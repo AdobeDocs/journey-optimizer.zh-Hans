@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: equalIgnoreCase
-description: 了解函数equalIgnoreCase
+description: 瞭解函式equalIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: equalIgnoreCase，函数，表达式，历程
+keywords: equalIgnoreCase，函式，運算式，歷程
 exl-id: b74ef5c9-0202-4a69-8870-77004a4397e0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 17%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-将第一个参数字符串与第二个参数字符串进行比较，忽略大小写注意事项。
+比較第一個引數字串與第二個引數字串，忽略大小寫考量。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `equalIgnoreCase(<parameters>)`
 
@@ -30,14 +30,14 @@ ht-degree: 17%
 
 * 字符串
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `equalIgnoreCase(<string>,<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-返回true。
+傳回true。

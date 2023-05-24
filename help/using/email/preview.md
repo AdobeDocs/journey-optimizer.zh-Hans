@@ -1,47 +1,47 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 预览消息和发送校样
+title: 預覽訊息並傳送校樣
 description: 了解如何预览和测试电子邮件
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 预览，内容，电子邮件，校样，测试，用户档案
+keywords: 預覽，內容，電子郵件，校樣，測試，設定檔
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # 预览和测试电子邮件 {#preview-and-proof}
 
-定义电子邮件内容后，即可使用测试用户档案进行预览和测试。 如果插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定義電子郵件內容後，您可以使用測試設定檔來預覽和測試。 如果您已插入 [個人化內容](../personalization/personalize.md)，您可使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-要检测电子邮件内容或个性化设置中可能出现的错误，请向测试用户档案发送校样。 每次进行更改时都应发送验证，以验证最新内容。
+若要偵測電子郵件內容或個人化設定中可能出現的錯誤，請將校樣傳送至測試設定檔。 每次進行變更時都應傳送校樣，以驗證最新內容。
 
 >[!CAUTION]
 >
->您需要提供测试用户档案才能预览消息和发送校样。
+>您需要有可用的測試設定檔，才能預覽訊息和傳送校樣。
 >
->了解如何在 [本页](../segment/creating-test-profiles.md).
+>瞭解如何在中建立測試設定檔 [此頁面](../segment/creating-test-profiles.md).
 
-要测试电子邮件内容，您需要：
+若要測試您的電子郵件內容，您需要：
 
 * [选择测试配置文件](#select-test-profiles)
-* [检查消息预览](#preview-your-messages)
+* [檢查訊息預覽](#preview-your-messages)
 
-然后，您将能够 [发送校样](#send-proofs) 到测试用户档案。
+然後，您將能夠 [傳送校樣](#send-proofs) 至測試設定檔。
 
-此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。了解如何解锁Litmus电子邮件预览 [此部分](#email-rendering).
+此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。瞭解如何在中解鎖Litmus電子郵件預覽 [本節](#email-rendering).
 
 >[!CAUTION]
 >
->预览消息或发送校样时，只显示用户档案个性化数据。 基于上下文数据（如事件信息）的个性化只能在历程的上下文中进行测试。 了解如何在 [此用例](../personalization/personalization-use-case.md).
+>預覽訊息或傳送校樣時，只會顯示設定檔個人化資料。 基於內容資料（例如事件資訊）的個人化只能在歷程的內容中測試。 瞭解如何在中測試個人化 [此使用案例](../personalization/personalization-use-case.md).
 
-➡️ [在此视频中了解如何预览和校样电子邮件](#video-preview)
+➡️ [透過此影片瞭解如何預覽和校樣您的電子郵件](#video-preview)
 
 ## 选择测试配置文件 {#select-test-profiles}
 
@@ -52,141 +52,141 @@ ht-degree: 9%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#email-rendering" text="电子邮件渲染"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#preview-email" text="预览"
 
-使用 [测试用户档案](../segment/creating-test-profiles.md) 以定位不符合所定义定位标准的其他收件人。
+使用 [測試設定檔](../segment/creating-test-profiles.md) 鎖定不符合已定義定位准則的其他收件者。
 
-要选择测试用户档案，请执行以下步骤：
+若要選取測試設定檔，請遵循下列步驟：
 
-1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
+1. 在 [編輯內容](create-email.md#define-email-content) 熒幕或在電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕以存取測試設定檔選項。
 
    ![](assets/email-preview-button.png)
 
-1. 选择 **[!UICONTROL 管理测试用户档案]**.
+1. 選取 **[!UICONTROL 管理測試設定檔]**.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. 通过单击 **[!UICONTROL 身份命名空间]** 选择图标。
+1. 按一下「 」，選取用於識別測試設定檔的名稱空間 **[!UICONTROL 身分名稱空間]** 選取範圍圖示。
 
    ![](assets/previewselect-namespace.png)
 
-   进一步了解Adobe Experience Platform身份命名空间 [在此部分中](../segment/get-started-identity.md).
+   進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../segment/get-started-identity.md).
 
-   在以下示例中，我们将使用 **电子邮件** 命名空间。
+   在以下範例中，我們將使用 **電子郵件** 名稱空間。
 
-1. 使用搜索字段查找命名空间，选择该命名空间并单击 **[!UICONTROL 选择]**
+1. 使用搜尋欄位來尋找名稱空間、選取它並按一下 **[!UICONTROL 選取]**
 
    ![](assets/preview-email-namespace.png)
 
-1. 在 **[!UICONTROL 标识值]** 字段中，输入值（此处为电子邮件地址）以标识测试用户档案并单击 **[!UICONTROL 添加用户档案]**.
+1. 在 **[!UICONTROL 身分值]** 欄位，輸入值（此處為電子郵件地址）以識別測試設定檔，然後按一下 **[!UICONTROL 新增設定檔]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
-1. 如果向消息添加了个性化，请添加其他用户档案，以便根据用户档案数据测试消息的不同变体。 添加后，用户档案会列在选定字段下。
+1. 如果您將個人化新增至訊息，請新增其他設定檔，以便根據設定檔資料測試訊息的不同變體。 新增後，設定檔會列在選取的欄位下。
 
    ![](assets/preview-profile-list.png)
 
-   此列表根据消息个性化元素显示相关列中每个测试用户档案的数据。
+   此清單會根據訊息個人化元素，在相關欄中顯示每個測試設定檔的資料。
 
-### 电子邮件预览 {#preview-email}
+### 電子郵件預覽 {#preview-email}
 
-一次 [测试用户档案](#select-test-profiles) ，则可以预览电子邮件内容。 应遵循以下步骤：
+一次 [測試設定檔](#select-test-profiles) ，即可預覽電子郵件內容。 应遵循以下步骤：
 
-1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 在 [編輯內容](create-email.md#define-email-content) 熒幕或在電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
-1. 选择测试用户档案。 您可以检查列中可用的值。 使用右/左箭头浏览数据。
+1. 選取測試設定檔。 您可以檢查欄中可用的值。 使用右/左箭頭來瀏覽資料。
 
    ![](assets/preview-select-profile.png)
 
    >[!NOTE]
    >
-   >要添加更多测试用户档案，请选择 **[!UICONTROL 管理测试用户档案]**. [了解详情](#select-test-profiles)
+   >若要新增更多測試設定檔，請選取 **[!UICONTROL 管理測試設定檔]**. [了解详情](#select-test-profiles)
 
-1. 单击 **[!UICONTROL 选择数据]** 图标以添加或删除列。
+1. 按一下 **[!UICONTROL 選取資料]** 圖示來新增或移除欄。
 
    ![](assets/preview-select-data.png)
 
-   您可以在列表末尾查看特定于当前消息的个性化字段。 在此示例中，用户档案的城市、名字和姓氏。 选择这些字段，并确保在测试用户档案中填充这些值。
+   您可在清單末尾看到目前訊息專屬的個人化欄位。 在此範例中，為設定檔城市、名字和姓氏。 選取這些欄位，並確認這些值已填入測試設定檔中。
 
-1. 在消息预览中，个性化元素会被替换为选定的测试用户档案数据。
+1. 在訊息預覽中，個人化元素會由選取的測試設定檔資料取代。
 
-   例如，对于此消息，电子邮件内容和电子邮件主题都进行了个性化：
+   例如，對於此郵件，電子郵件內容和電子郵件主旨都會經過個人化：
 
    ![](assets/preview-test-profile.png)
 
-1. 选择其他测试用户档案，以预览消息每个变体的电子邮件呈现。
+1. 選取其他測試設定檔，以預覽訊息每個變體的電子郵件呈現。
 
 ##   发送验证 {#send-proofs}
 
-校样是一种特定的消息，允许您在将消息发送到主受众之前对消息进行测试。 校样收件人负责批准邮件：呈现、内容、个性化设置、配置。
+校樣是一種特定訊息，可讓您在將訊息傳送給主要對象之前先測試訊息。 校樣的收件者負責核准訊息：呈現、內容、個人化設定、設定。
 
-一次 [测试用户档案](#select-test-profiles) ，则可以发送校样。
+一次 [測試設定檔](#select-test-profiles) ，即可傳送校樣。
 
-1. 在 **[!UICONTROL 模拟]** 屏幕，单击 **[!UICONTROL 发送校样]** 按钮。
+1. 在 **[!UICONTROL 模擬]** 熒幕上，按一下 **[!UICONTROL 傳送證明]** 按鈕。
 
    ![](assets/send-proof-button.png)
 
-1. 从 **[!UICONTROL 发送校样]** 窗口中，键入收件人的电子邮件并单击 **[!UICONTROL 添加]** 将校样发送给您自己或您组织的成员。
+1. 從 **[!UICONTROL 傳送證明]** 視窗，輸入收件者的電子郵件並按一下 **[!UICONTROL 新增]** 將校樣傳送給您自己或您組織的成員。
 
-   请注意，您最多可以为校样投放添加10个收件人。
+   請注意，您最多可以為校樣傳遞新增10個收件者。
 
    ![](assets/send-proof-add.png)
 
-1. 然后，选择 **测试用户档案** 用于个性化消息内容。
+1. 然後，選取 **測試設定檔** ，用於個人化訊息內容。
 
-   校样的每个收件人将收到与选定测试用户档案数相同数量的消息。 例如，如果您添加了五封收件人电子邮件并选择了十个测试用户档案，则您将发送五十条校样消息，每个收件人将收到其中十条消息。
+   每個校樣收件者收到的訊息數量都會與所選測試設定檔的數量相同。 例如，如果您新增了5封收件者電子郵件，並選取了10個測試設定檔，則您將傳送50封校樣訊息，而每位收件者將收到其中10封。
 
-1. 如果需要，您可以向校样的主题行添加前缀。 仅字母数字字符和特殊字符，如。- _() [ ] 作为主题行的前缀。
+1. 如有需要，您可以在校樣的主旨行新增字首。 僅限英數字元和特殊字元，例如。- _ ( ) [ ] 允許作為主旨行的前置詞。
 
-1. 单击 **[!UICONTROL 发送校样]**.
+1. 按一下 **[!UICONTROL 傳送證明]**.
 
    ![](assets/send-proof-select.png)
 
-1. 返回  **[!UICONTROL 模拟]** 屏幕，单击  **[!UICONTROL 查看校样]** 按钮来检查状态。
+1. 返回  **[!UICONTROL 模擬]** 熒幕上，按一下  **[!UICONTROL 檢視校樣]** 按鈕以檢查狀態。
 
    ![](assets/send-proof-view.png)
 
-建议在对消息内容进行每次修改后发送校样。
+建議在每次修改訊息內容後傳送校樣。
 
 >[!NOTE]
 >
->在发送的校样中，指向镜像页面的链接不活动。 它仅在最终消息中激活。
+>在傳送的校樣中，指向映象頁面的連結未啟用。 它仅在最终邮件中激活。
 
-## 使用电子邮件渲染 {#email-rendering}
+## 使用電子郵件呈現 {#email-rendering}
 
-您可以利用 **利特穆斯** 帐户 [!DNL Journey Optimizer] 立即预览 **电子邮件渲染** 在流行的电子邮件客户中。
+您可以善用您的 **Litmus** 帳戶至 [!DNL Journey Optimizer] 立即預覽 **電子郵件呈現** 在常用的電子郵件使用者端中。
 
-要访问电子邮件渲染功能，您需要：
+若要存取電子郵件呈現功能，您需要：
 
-* 拥有Litmus帐户
+* 擁有Litmus帳戶
 * [选择测试配置文件](#select-test-profiles)
 
-然后，执行以下步骤：
+然後，請遵循下列步驟：
 
-1. 在 [编辑内容](create-email.md#define-email-content) 屏幕或在Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 在 [編輯內容](create-email.md#define-email-content) 熒幕或在電子郵件設計工具中，按一下 **[!UICONTROL 模擬內容]** 按鈕。
 
-1. 选择 **[!UICONTROL 呈现电子邮件]** 按钮。
+1. 選取 **[!UICONTROL 演算電子郵件]** 按鈕。
 
    ![](assets/email-rendering-button.png)
 
-1. 单击 **连接您的Litmus帐户** 中。
+1. 按一下 **連線您的Litmus帳戶** 在右上角。
 
    ![](assets/email-rendering-litmus.png)
 
-1. 输入您的凭据并登录。
+1. 輸入您的憑證並登入。
 
    ![](assets/email-rendering-credentials.png)
 
-1. 单击 **运行测试** 按钮以生成电子邮件预览。
+1. 按一下 **執行測試** 按鈕以產生電子郵件預覽。
 
-1. 在流行的桌面、移动设备和基于Web的客户端中查看您的电子邮件内容。
+1. 在熱門的案頭、行動裝置和網頁型使用者端中檢視您的電子郵件內容。
 
    ![](assets/email-rendering-previews.png)
 
 >[!CAUTION]
 >
->连接 **利特穆斯** 帐户 [!DNL Journey Optimizer]，则您同意将测试消息发送到Litmus:发送后，这些电子邮件将不再由Adobe管理。 因此，Litmus数据保留电子邮件策略适用于这些电子邮件，包括可能包含在这些测试消息中的个性化数据。
+>連線時 **Litmus** 帳戶與 [!DNL Journey Optimizer]，您同意將測試訊息傳送至Litmus：傳送後，這些電子郵件將不再由Adobe管理。 因此，Litmus資料保留電子郵件原則適用於這些電子郵件，包括可能包含在這些測試訊息中的個人化資料。
 
 ## 操作方法视频 {#video-preview}
 
-了解如何在收件箱中测试电子邮件渲染，如何根据测试用户档案预览个性化电子邮件，以及发送校样。
+瞭解如何測試各收件匣間的電子郵件呈現、如何根據測試設定檔預覽您的個人化電子郵件，以及傳送校樣。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

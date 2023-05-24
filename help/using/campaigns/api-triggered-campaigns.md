@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用 API 触发活动
-description: 了解如何使用Journey Optimizer API触发营销活动
+description: 瞭解如何使用Journey Optimizer API觸發行銷活動
 topic: Content Management
 role: Developer, Admin
 level: Intermediate, Experienced
-keywords: 促销活动， API触发， REST，优化程序，消息
+keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -17,101 +17,101 @@ ht-degree: 3%
 
 # 使用 API 触发活动 {#trigger-campaigns}
 
-## 关于API触发的营销活动 {#about}
+## 關於API觸發的行銷活動 {#about}
 
-使用 [!DNL Journey Optimizer]，您可以创建营销活动，然后使用根据用户触发器从外部系统调用它们 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种操作和事务性消息传递需求，如密码重置、OTP 令牌等。
+替換為 [!DNL Journey Optimizer]，您可以建立行銷活動，然後使用根據使用者觸發條件從外部系統叫用行銷活動。 [互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种操作和事务性消息传递需求，如密码重置、OTP 令牌等。
 
-为此，您首先需要在Journey Optimizer中创建由API触发的营销活动，然后通过API调用启动其执行。
+若要這麼做，您首先需要在Journey Optimizer中建立API觸發的行銷活動，然後透過API呼叫啟動其執行。
 
-API触发的营销活动的可用渠道有电子邮件、短信和推送消息。
+API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊息。
 
-## 创建API触发的营销活动 {#create}
+## 建立API觸發的行銷活動 {#create}
 
-### 配置和激活营销活动 {#create-activate}
+### 設定並啟動行銷活動 {#create-activate}
 
-创建API触发的营销活动的过程与计划的营销活动相同，但受众选择在API有效负载中执行的情况除外。 有关如何创建营销活动的详细信息，请参阅 [此部分](create-campaign.md).
+建立API觸發的行銷活動的程式與排程的行銷活動相同，除了在API裝載中執行的對象選擇。 有關如何建立行銷活動的詳細資訊，請參閱 [本節](create-campaign.md).
 
-要创建API触发的营销活动，请执行以下步骤：
+若要建立API觸發的行銷活動，請遵循下列步驟：
 
-1. 使用 **[!UICONTROL API触发]** 类型。
+1. 使用建立新的行銷活動 **[!UICONTROL API觸發]** 型別。
 
-1. 选择要用于发送消息的渠道和渠道表面，然后单击 **[!UICONTROL 创建]**.
+1. 選擇頻道和頻道介面以用來傳送您的訊息，然後按一下 **[!UICONTROL 建立]**.
 
    ![](assets/api-triggered-type.png)
 
-1. 指定营销活动的标题和描述，然后点击 **[!UICONTROL 编辑内容]** 配置要发送的消息。
+1. 指定行銷活動的標題和說明，然後按一下 **[!UICONTROL 編輯內容]** 以設定要傳送的訊息。
 
    >[!NOTE]
    >
-   >您可以将其他数据传递到API有效负载中，以便将其用于个性化您的消息。 [了解详情](#contextual)
+   >您可以將其他資料傳遞至API裝載中，以便運用這些資料來個人化您的訊息。 [了解详情](#contextual)
    >
-   >在内容中使用大量或大量上下文数据可能会影响性能。
+   >在內容中使用大量或繁重的內容相關資料可能會影響效能。
 
-1. 在 **[!UICONTROL 受众]** 部分，指定用于识别区段中个人的命名空间。
+1. 在 **[!UICONTROL 對象]** 區段，指定用來識別區段中的個人的名稱空間。
 
-   的 **[!UICONTROL 创建新用户档案]** 选项，可自动创建数据库中不存在的配置文件。 [了解有关在营销活动执行时创建用户档案的更多信息](#profile-creation)
+   此 **[!UICONTROL 建立新設定檔]** 選項可讓您自動建立資料庫中不存在的設定檔。 [進一步瞭解行銷活動執行時的設定檔建立](#profile-creation)
 
-1. 配置营销活动的开始和结束日期。
+1. 設定行銷活動的開始和結束日期。
 
-   如果为营销活动配置特定的开始和/或结束日期，则不会在这些日期之外执行该日期，而且如果营销活动由API触发，则API调用将失败。
+   如果您為行銷活動設定特定的開始和/或結束日期，則不會在這些日期之外執行，而且如果行銷活動由API觸發，API呼叫將會失敗。
 
-1. 单击 **[!UICONTROL 查看以激活]** 要检查营销活动配置是否正确，请将其激活。
+1. 按一下 **[!UICONTROL 檢閱以啟動]** 檢查您的行銷活動是否已正確設定，然後啟用它。
 
-现在，您可以从API执行营销活动。 [了解详情](#execute)
+您現在已準備好從API執行行銷活動。 [了解详情](#execute)
 
-### 执行营销活动 {#execute}
+### 執行行銷活動 {#execute}
 
-激活营销活动后，您需要检索生成的示例cURL请求，并将其用到API中以构建有效负载并触发营销活动。
+啟動行銷活動後，您需要擷取產生的範例cURL請求，並將其用於API中以建置您的裝載並觸發行銷活動。
 
-1. 打开营销活动，然后复制并粘贴 **[!UICONTROL cURL请求]** 中。
+1. 開啟行銷活動，然後從複製並貼上範例請求 **[!UICONTROL cURL要求]** 區段。
 
    ![](assets/api-triggered-curl.png)
 
-1. 在API中使用此cURL请求来构建有效负载并触发营销活动。 有关更多信息，请参阅 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+1. 將此cURL請求用於API以建置您的裝載並觸發行銷活動。 如需詳細資訊，請參閱 [互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
    >[!NOTE]
    >
-   >如果您在创建营销活动时配置了特定的开始和/或结束日期，则不会在这些日期之外执行该日期，API调用将失败。
+   >如果您在建立行銷活動時已設定特定的開始和/或結束日期，則不會在這些日期以外執行，且API呼叫將會失敗。
 
-## 在API触发的营销活动中使用上下文属性 {#contextual}
+## 在API觸發的行銷活動中使用內容屬性 {#contextual}
 
-借助API触发的营销活动，您可以在API有效负载中传递其他数据，并在营销活动中使用这些数据来个性化您的消息。
+透過API觸發的行銷活動，您可以在API裝載中傳遞其他資料，並在行銷活動中使用這些資料來個人化您的訊息。
 
-让我们举一个示例，其中客户希望重置其密码，而您希望向他们发送在第三方工具中生成的密码重置URL。 通过API触发的营销活动，您可以将此生成的URL传递到API有效负载中，并利用它进入营销活动，将其添加到消息中。
+讓我們舉個例子，客戶想要重設密碼，而您想要傳送第三方工具產生的密碼重設URL給他們。 透過API觸發的行銷活動，您可以將此產生的URL傳遞至API裝載，並將其運用至行銷活動，以新增至訊息。
 
 >[!NOTE]
 >
->与启用用户档案的事件不同，在REST API中传递的上下文数据用于一次性通信，而不是存储在用户档案中。 如果发现缺少配置文件，则最大会创建包含命名空间详细信息的配置文件。
+>與設定檔啟用的事件不同，在REST API中傳遞的內容資料會用於一次性通訊，而不會針對設定檔儲存。 如果發現遺失設定檔，則會建立包含名稱空間詳細資訊的設定檔。
 
-要在营销活动中使用这些数据，您需要将它们传递到API有效负载中，然后使用表达式编辑器将它们添加到消息中。 为此，请使用 `{{context.<contextualAttribute>}}` 语法，其中 `<contextualAttribute>` 应与API有效负载中包含要传递的数据的变量名称匹配。
+若要在行銷活動中使用這些資料，您需要將這些資料傳遞至API裝載，並使用運算式編輯器新增至您的訊息中。 若要這麼做，請使用 `{{context.<contextualAttribute>}}` 語法，其中 `<contextualAttribute>` 應符合包含您要傳遞之資料的API裝載中的變數名稱。
 
-的 `{{context.<contextualAttribute>}}` 语法仅映射到字符串数据类型。
+此 `{{context.<contextualAttribute>}}` 語法僅對應到String資料型別。
 
 ![](assets/api-triggered-context.png)
 
 
 >[!IMPORTANT]
 >
->传递到请求的上下文属性不能超过50kb。
+>傳入要求的內容屬性不能超過50kb。
 >
->的 `context.system` 语法仅限于Adobe内部用法，不应用于传递上下文属性。
+>此 `context.system` 語法限製為僅供Adobe內部使用，且不得用於傳遞內容屬性。
 
-请注意，目前没有上下文属性可用于左边栏菜单。 必须在个性化表达式中直接键入属性，且不会执行任何检查 [!DNL Journey Optimizer].
+請注意，目前左側邊欄功能表中沒有可用的內容屬性。 屬性必須直接在個人化運算式中輸入，不會由執行任何檢查 [!DNL Journey Optimizer].
 
-## 在营销活动执行时创建用户档案 {#profile-creation}
+## 行銷活動執行時建立設定檔 {#profile-creation}
 
-在某些情况下，您可能需要向系统中不存在的用户档案发送事务型消息。 例如，未知用户尝试重置您网站上的密码。
+在某些情況下，您可能需要將交易式訊息傳送至系統中不存在的設定檔。 例如，如果未知的使用者嘗試在您的網站上重設密碼。
 
-当数据库中不存在用户档案时，利用Journey Optimizer，可在执行营销活动时自动创建该用户档案，以向此用户档案发送消息。
+當資料庫中不存在設定檔時，Journey Optimizer可讓您在執行行銷活動時自動建立該設定檔，以允許傳送訊息至此設定檔。
 
 >[!IMPORTANT]
 >
->此功能针对 **创建少量用户档案** 在大量事务性发送用例中，平台中已存在大量用户档案。
+>此功能提供給 **建立非常小的體積設定檔** 在大量交易式傳送使用案例中，大量設定檔已存在於平台中。
 
-要在营销活动执行时激活用户档案创建，请将 **[!UICONTROL 创建新用户档案]** 的 **[!UICONTROL 受众]** 中。
+若要在行銷活動執行時啟用設定檔建立，請切換 **[!UICONTROL 建立新設定檔]** 中的開啟選項 **[!UICONTROL 對象]** 區段。
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!NOTE]
 >
->未知的用户档案在 **AJO交互式消息传递配置文件数据集** 数据集，每个出站渠道（电子邮件、短信和推送）分别位于三个默认命名空间（电子邮件、电话和ECID）中。
+>在中建立未知的設定檔 **AJO互動式傳訊設定檔資料集** 資料集，分別位於每個傳出頻道（電子郵件、簡訊和推播）的三個預設名稱空間（電子郵件、電話和ECID）中。

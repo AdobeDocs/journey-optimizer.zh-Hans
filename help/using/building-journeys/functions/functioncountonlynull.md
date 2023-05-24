@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: countOnlyNull
-description: 了解函数countOnlyNull
+description: 瞭解函式countOnlyNull
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: countOnlyNull，函数，表达式，历程
+keywords: countOnlyNull，函式，運算式，歷程
 exl-id: d06fc594-33dd-48ce-8c62-2f2892a867da
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 30%
 
 # countOnlyNull {#countOnlyNull}
 
-计算列表中空值的数量。
+計算清單中null值的數量。
 
 ## 类别
 
 聚合
 
-## 函数语法
+## 函式語法
 
 `countOnlyNull(<listAny>)`
 
@@ -39,14 +39,14 @@ ht-degree: 30%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `countOnlyNull(<listAny>)`
 
-返回整数。
+傳回整數。
 
 ## 示例
 
 `countOnlyNull([10,2,10,null])`
 
-返回1。
+傳回1。

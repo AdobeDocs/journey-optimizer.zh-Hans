@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: getListItem
-description: 了解gstListItem函数
+description: 瞭解函式gstListItem
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: getListItem，函数，表达式，历程
+keywords: getListItem，函式，運算式，歷程
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 20%
 
 # getListItem {#gestListItem}
 
-返回给定索引处列表的项目。
+傳回指定索引處的清單專案。
 
 ## 类别
 
 列表
 
-## 函数语法
+## 函式語法
 
 `getListItem(<parameters>)`
 
@@ -40,50 +40,50 @@ ht-degree: 20%
 | list | listDateOnly |
 | index | 整数 |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `getListItem(<listInteger>,<index>)`
 
-返回整数。
+傳回整數。
 
 `getListItem(<listDecimal>,<index>)`
 
-返回小数。
+傳回小數。
 
 `getListItem(<listString>,<index>)`
 
-返回字符串。
+傳回字串。
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-返回日期时间，而不考虑时区。
+傳回不考慮時區的日期時間。
 
 `getListItem(<listDateTime>,<index>)`
 
-返回日期时间。
+傳回日期時間。
 
 `getListItem(<listDateOnly>,<index>)`
 
-返回日期列表。
+傳回日期清單。
 
 `getListItem(<listBoolean>,<index>)`
 
-返回布尔值。
+傳回布林值。
 
 `getListItem(<listDuration>,<index>)`
 
-返回持续时间。
+傳回持續時間。
 
 ## 示例
 
 `getListItem([10, 2, 3], 1)`
 
-返回“2”
+傳回「2」
 
 `getListItem(["A", "B", "C"], 2)`
-返回“C”
+傳回「C」
 
-事件字段为“event.appVersion”且值为的示例：&quot;20.45.2.3434&quot;
+具有事件欄位「event.appVersion」且值為「20.45.2.3434」的範例
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -91,4 +91,4 @@ ht-degree: 20%
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-返回“20”
+傳回「20」

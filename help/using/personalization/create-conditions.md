@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建条件
-description: 了解如何创建条件
+description: 瞭解如何建立條件
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 表达式，编辑器，条件，规则
+keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
@@ -16,29 +16,29 @@ ht-degree: 8%
 
 ---
 
-# 使用条件规则 {#conditions}
+# 使用條件式規則 {#conditions}
 
-条件规则是一组规则，用于定义消息中应显示的内容，具体取决于各种标准，如用户档案属性、区段成员资格或上下文事件。
+條件規則是一組規則，用來定義應在訊息中顯示哪些內容，需視各種條件而定，例如設定檔屬性、區段成員資格或內容相關事件。
 
-条件规则是使用表达式编辑器创建的，如果要在内容中重复使用条件规则，可以对其进行存储。 [了解如何将条件规则保存到库](#save)
+條件式規則是使用運算式編輯器建立的，如果您想要在整個內容中重複使用它們，可以儲存這些規則。 [瞭解如何將條件規則儲存至程式庫](#save)
 
 >[!NOTE]
 >
->个人需要 [管理库项目](../administration/ootb-product-profiles.md) 保存或删除条件规则的权限。 保存的条件可供组织内的所有用户使用。
+>個人需要 [管理程式庫專案](../administration/ootb-product-profiles.md) 儲存或刪除條件規則的許可權。 已儲存的條件可供組織內的所有使用者使用。
 
-## 访问条件规则生成器 {#access}
+## 存取條件式規則產生器 {#access}
 
-条件规则是从 **[!UICONTROL 条件]** 表达式编辑器中的菜单，可访问该菜单的以下任一位置：
+條件式規則是從以下專案建立： **[!UICONTROL 條件]** 運算式編輯器中的功能表，您可透過以下任一方式存取：
 
-* 在Email Designer中为电子邮件正文中的组件启用动态内容时。 [了解如何将动态内容添加到电子邮件中](dynamic-content.md#emails)
+* 從電子郵件設計工具，為電子郵件內文中的元件啟用動態內容時。 [瞭解如何將動態內容新增至電子郵件](dynamic-content.md#emails)
 
    ![](assets/conditions-access-email.png)
 
-* 在可以使用 [表达式编辑器](personalization-build-expressions.md).
+* 在任何您可以使用來新增個人化的欄位中 [運算式編輯器](personalization-build-expressions.md).
 
    ![](assets/conditions-access-editor.png)
 
-## 创建条件规则 {#create-condition}
+## 建立條件規則 {#create-condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
@@ -50,48 +50,48 @@ ht-degree: 8%
 >title="创建条件"
 >abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
 
-创建条件规则的步骤如下所示：
+建立條件式規則的步驟如下：
 
-1. 访问 **[!UICONTROL 条件]** 菜单，然后单击 **[!UICONTROL 新建]**.
+1. 存取 **[!UICONTROL 條件]** 運算式編輯器或電子郵件設計工具中的功能表，然後按一下 **[!UICONTROL 新建]**.
 
-1. 根据需要构建条件规则。 要实现此目的，请将所需属性从左侧菜单拖放到画布中，并排列到画布中。
+1. 根據您的需求建置條件式規則。 若要這麼做，請從左側選單拖放並排列所需的屬性至畫布中。
 
-   将属性合并到画布中的步骤与区段生成体验类似。 有关如何使用规则生成器画布的更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+   將屬性結合至畫布的步驟與區段建置體驗類似。 有關如何使用規則產生器畫布的詳細資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
-   属性分为三个选项卡：
+   屬性會組織成三個標籤：
 
    * **[!UICONTROL 配置文件]**:
-      * **[!UICONTROL 区段成员资格]** 列出所有区段属性（即状态、版本等） 表示 [Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL XDM单个配置文件]** 列出与 [体验数据模型(XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 在Adobe Experience Platform中定义。
-   * **[!UICONTROL 情境]**:在历程中使用消息时，上下文历程字段可通过此选项卡使用。
-   * **[!UICONTROL 受众]**:列出从中创建的区段生成的所有受众 [Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+      * **[!UICONTROL 區段會籍]** 列出所有區段屬性（即狀態、版本等） 的 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
+      * **[!UICONTROL XDM個別設定檔]** 列出所有與相關的設定檔屬性 [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 在Adobe Experience Platform中定義。
+   * **[!UICONTROL 情境]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
+   * **[!UICONTROL 受眾]**：列出從建立的區段產生的所有對象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-1. 条件规则准备就绪后，您可以将其添加到消息中以创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
+1. 條件式規則準備就緒後，您就可以將其新增至訊息，以建立動態內容。 [瞭解如何新增動態內容](dynamic-content.md)
 
-   您还可以保存规则以供进一步重复使用。 [了解如何保存条件](#save)
+   您也可以儲存規則以允許進一步重複使用。 [瞭解如何儲存條件](#save)
 
-## 保存条件规则 {#save}
+## 儲存條件規則 {#save}
 
-如果有条件规则需要经常重复使用，则可以将其保存到条件库。 所有保存的规则都是共享的，组织内的个人都可以访问并使用这些规则。
+如果經常會重複使用某些條件規則，您可以將其儲存至條件程式庫。 所有已儲存的規則會共用，並可由組織內的個人存取及使用。
 
 >[!NOTE]
 >
->利用历程上下文属性的条件规则无法保存到库。
+>使用歷程內容屬性的條件式規則無法儲存至程式庫。
 
-1. 在条件编辑屏幕中，单击 **[!UICONTROL 保存条件]** 按钮。
+1. 在條件版本畫面中，按一下 **[!UICONTROL 儲存條件]** 按鈕。
 
-1. 为规则指定名称和描述（可选），然后单击 **[!UICONTROL 添加]**.
+1. 為規則提供名稱和說明（選用），然後按一下 **[!UICONTROL 新增]**.
 
    ![](assets/conditions-name-description.png)
 
-1. 条件规则将保存到库。 您现在可以使用它在消息中创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
+1. 條件式規則會儲存至程式庫。 您現在可以使用它在訊息中建立動態內容。 [瞭解如何新增動態內容](dynamic-content.md)
 
-## 编辑和删除保存的条件规则 {#edit-delete}
+## 編輯和刪除儲存的條件規則 {#edit-delete}
 
-您可以随时使用省略号按钮删除条件规则。
+您可以隨時使用省略符號按鈕刪除條件規則。
 
 ![](assets/conditions-open.png)
 
-无法修改保存到库的条件规则。 但是，您仍可以使用它们创建新规则。 为此，请打开条件规则，进行所需的更改，然后将其保存到库。 [了解如何将条件保存到库](#save)
+無法修改儲存至程式庫的條件式規則。 不過，您仍然可以使用它們來建立新規則。 若要這麼做，請開啟條件規則，進行所需的變更，然後儲存至程式庫。 [瞭解如何將條件儲存至資料庫](#save)

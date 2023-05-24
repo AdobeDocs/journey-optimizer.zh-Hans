@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 历程，活动，入门，事件，操作
+keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -22,37 +22,37 @@ ht-degree: 18%
 
 ## 事件活动 {#event-activities}
 
-事件是触发个性化历程的因素，例如在线购买。 当某人进入某个历程时，他们作为个人穿行，没有两个人以相同的速度或同一路径移动。 当您通过事件开始历程时，当收到事件时触发历程。 然后，历程中的每个人员分别遵循历程中定义的后续步骤。
+事件會觸發個人化歷程，例如線上購買。 當某人進入歷程時，就會以個人身分穿過，而且不會有兩個人以相同的速度或路徑穿過。 當您使用事件開始您的歷程時，歷程會在收到事件時觸發。 接著，歷程中的每個人都個別遵循歷程中定義的後續步驟。
 
-由技术用户配置的事件(请参阅 [本页](../event/about-events.md))都显示在屏幕左侧面板的第一个类别中。 可以使用以下事件活动：
+技術使用者設定的事件(請參閱 [此頁面](../event/about-events.md))都會顯示在畫面左側的浮動視窗第一個類別中。 可使用下列事件活動：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
-* [区段鉴别](../building-journeys/segment-qualification-events.md)
+* [區段資格](../building-journeys/segment-qualification-events.md)
 
 ![](assets/journey43.png)
 
-通过拖放事件活动以开始您的历程。 您还可以双击该页面。
+拖放事件活動以開始您的歷程。 您也可以連按兩下它。
 
 ![](assets/journey44.png)
 
 ## 编排活动 {#orchestration-activities}
 
-编排活动是帮助确定旅程中下一步的不同条件。 如果人员是否有未结的支持案例，则可能会预测其当前位置的天气情况（他们是否完成了购买）或达到10 000个会员积分。
+協調活動是不同的條件，可協助判斷歷程的下一步。 可能是此人是否擁有未解決的支援案例、目前所在位置的天氣預報、是否完成購買或達到10,000點忠誠度。
 
-从屏幕左侧的面板中，可以使用以下编排活动：
+從浮動視窗的畫面左側，提供下列協調活動：
 
 * [条件](../building-journeys/condition-activity.md)
 * [等待](../building-journeys/wait-activity.md)
-* [读取区段](../building-journeys/read-segment.md)
+* [讀取區段](../building-journeys/read-segment.md)
 
 ![](assets/journey49.png)
 
 ## 操作活动 {#action-activities}
 
-操作是您希望通过某种触发器执行的操作，如发送消息。 这是客户体验的历程。
+動作是您希望因某種觸發而發生的動作，例如傳送訊息。 這是客戶體驗的歷程。
 
-从屏幕左侧的面板，下方 **[!UICONTROL 事件]** 和 **[!UICONTROL 编排]**，您可以找到 **[!UICONTROL 操作]** 类别。 可使用以下操作活动：
+從浮動視窗的熒幕左側，下方的 **[!UICONTROL 事件]** 和 **[!UICONTROL 協調流程]**，您可以找到 **[!UICONTROL 動作]** 類別。 可使用下列動作活動：
 
 * [电子邮件、短信、推送](../building-journeys/journeys-message.md)
 * [自定义操作](../building-journeys/using-custom-actions.md)
@@ -60,34 +60,34 @@ ht-degree: 18%
 
 ![](assets/journey58.png)
 
-这些活动代表各种的可用通信渠道。您可以将它们组合在一起，以创建跨渠道方案。
+这些活动代表各种的可用通信渠道。您可以結合這些案例來建立跨管道情境。
 
-如果您配置了自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md)).
+如果您已設定自訂動作，它們也會顯示在這裡。 [了解详情](../building-journeys/using-custom-actions.md)).
 
 ## 最佳实践 {#best-practices}
 
-### 添加标签
+### 新增標籤
 
-大多数活动都允许您定义 **[!UICONTROL 标签]**. 这会为将在画布中活动下方显示的名称添加后缀。 如果您在历程中多次使用同一活动并希望更轻松地识别它们，则此功能非常有用。 它还可以在出错时更轻松地进行调试，并且还可以更轻松地阅读报表。 您还可以添加一个可选 **[!UICONTROL 描述]**.
+大部分活動都可讓您定義 **[!UICONTROL 標籤]**. 這會在名稱中新增尾碼，該名稱會出現在畫布中的活動下方。 如果您在歷程中多次使用相同的活動，且想要更輕鬆地識別它們，這會很有用。 它也會讓發生錯誤時的偵錯更容易，並讓報表更易於閱讀。 您也可以新增選用的 **[!UICONTROL 說明]**.
 
 ![](assets/journey-action-label.png)
 
-### 管理高级参数 {#advanced-parameters}
+### 管理進階引數 {#advanced-parameters}
 
-大多数活动都显示许多您无法修改的高级和/或技术参数。
+大多數活動會顯示許多您無法修改的進階和/或技術引數。
 
 ![](assets/journey-advanced-parameters.png)
 
-为了更好的可读性，您可以使用 **[!UICONTROL 隐藏只读字段]** 按钮。
+為了提高可讀性，您可以使用 **[!UICONTROL 隱藏唯讀欄位]** 按鈕。
 
 ![](assets/journey-hide-read-only-fields.png)
 
-在某些特定环境中，您可以覆盖这些参数的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
+在某些特定內容中，您可以覆寫這些引數的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![](assets/journey-enable-parameter-override.png)
 
-### 添加替代路径
+### 新增替代路徑
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中方框 **[!UICONTROL 在出现超时或错误时添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ![](assets/journey42.png)

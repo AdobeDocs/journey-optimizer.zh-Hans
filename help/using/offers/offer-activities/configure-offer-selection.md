@@ -1,6 +1,6 @@
 ---
 title: 在决策中配置优惠选择
-description: 了解如何在决策中管理选件选择
+description: 瞭解如何管理決定中的優惠選擇
 feature: Offers
 topic: Integrations
 role: User
@@ -15,72 +15,72 @@ ht-degree: 6%
 
 # 在决策中配置优惠选择 {#offers-selection-in-decisions}
 
-如果多个选件符合给定版面的条件，您可以在配置决策时选择为每个用户档案选择最佳选件的方法。 您可以按以下方式对选件进行排名：
-* 选件优先级
+如果多個優惠方案符合指定位置的資格，您可以選擇在設定決定時，為每個設定檔選取最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
+* 優惠優先順序
 * 排名公式
 * [人工智能排名](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
-## 选件优先级 {#offer-priority}
+## 優惠優先順序 {#offer-priority}
 
-默认情况下，当多个选件符合在决策中放置给定版面的条件时，具有最高级别的选件 **优先级** 会先送给客户。
+依預設，當數個優惠方案符合在決定中指定位置的資格時，具有最高優惠方案 **優先順序** 會先傳送給客戶。
 
 ![](../assets/offer-priority.png)
 
-创建选件时会分配选件的优先级分数。 了解如何在 [此部分](../offer-library/creating-personalized-offers.md).
+建立優惠方案時會指派優惠方案的優先順序分數。 瞭解如何在中建立個人化優惠方案 [本節](../offer-library/creating-personalized-offers.md).
 
 ## 排名公式 {#assign-ranking-formula}
 
-除了选件优先级之外，Journey Optimizer还允许您创建 **排名公式**. 这些公式可确定在给定版面中应首先显示哪个选件，而不是考虑选件的优先级得分。
+除了優惠優先順序之外，Journey Optimizer還允許您建立 **排名公式**. 這些公式可決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
 
-例如，您可以提升结束日期现在后不到24小时的所有选件的优先级，或者如果用户档案的目标点为“正在运行”，则提升“正在运行”类别中的选件。
+例如，您可以提升結束日期距離現在不足24小時的所有優惠方案的優先順序，或如果設定檔的興趣點為「執行中」，則提升「執行中」類別的優惠方案。
 
-了解如何在中创建排名公式 [此部分](../ranking/create-ranking-formulas.md).
+瞭解如何在中建立排名公式 [本節](../ranking/create-ranking-formulas.md).
 
-创建公式后，可将其分配给决策中的版面。 为此，请执行以下步骤：
+建立公式後，您可以將其指派給決定中的位置。 为此，请执行以下步骤：
 
-1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
+1. 建立決定或編輯現有決定。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
-1. 添加将包含您的选件的版面。 请参阅 [创建版面](../offer-library/creating-placements.md).
+1. 新增將包含優惠方案的版位。 另請參閱 [建立版位](../offer-library/creating-placements.md).
 
-1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
+1. 對於每個位置，新增一個集合。 另請參閱 [建立集合](../offer-library/creating-collections.md).
 
-1. 选择 **[!UICONTROL 公式]** 作为排名方法，然后单击 **[!UICONTROL 添加排名]**.
+1. 選取 **[!UICONTROL 公式]** 作為排名方法，然後按一下 **[!UICONTROL 新增排名]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. 选择所需的公式，然后单击 **[!UICONTROL 选择]**.
+1. 選取所需的公式，然後按一下 **[!UICONTROL 選取]**.
 
    ![](../assets/ranking-selection.png)
 
-排名公式现在与版面相关联。
+排名公式現在與位置相關聯。
 
-如果多个选件符合在此版面中显示的条件，则决策将使用所选公式计算要先交付的选件。
+如果在此位置中符合呈現多個優惠方案的資格，決策將使用選取的公式來計算要先傳送哪個優惠方案。
 
 ## 人工智能排名 {#use-ranking-strategy}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-您还可以使用经过培训的模型系统，通过选择排名策略自动对选件进行排名以显示给定用户档案。 了解如何在 [此部分](../ranking/create-ranking-strategies.md).
+您也可以使用經過訓練的模型系統，藉由選取排名策略，自動排名要針對指定設定檔顯示的優惠方案。 瞭解如何在中建立排名策略 [本節](../ranking/create-ranking-strategies.md).
 
-创建排名策略后，可将其分配给决策中的版面。 为此，请执行以下步骤：
+建立排名策略後，您可以將其指派給決定中的位置。 若要這麼做，請遵循下列步驟：
 
-1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
+1. 建立決定或編輯現有決定。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
-1. 添加将包含您的选件的版面。 请参阅 [创建版面](../offer-library/creating-placements.md).
+1. 新增將包含優惠方案的版位。 另請參閱 [建立版位](../offer-library/creating-placements.md).
 
-1. 为每个版面添加一个收藏集。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
+1. 對於每個位置，新增一個集合。 另請參閱 [建立集合](../offer-library/creating-collections.md).
 
-1. 选择对选件进行排名 **[!UICONTROL 人工智能排名]** 从下拉列表中，单击 **[!UICONTROL 添加排名]**.
+1. 選擇優惠排名依據 **[!UICONTROL AI排名]** ，然後按一下「 」 **[!UICONTROL 新增排名]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 选择您创建的排名策略。 将显示排名策略的所有详细信息。
+1. 選取您建立的排名策略。 會顯示排名策略的所有詳細資訊。
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 单击&#x200B;**[!UICONTROL 选择]**。排名策略现在与版面相关联。
+1. 单击&#x200B;**[!UICONTROL 选择]**。排名策略現在與位置相關聯。
 
-如果多个选件符合条件，则经过培训的模型系统将确定应首先为给定版面显示哪个选件。
+如果多個優惠方案都符合條件，訓練有素的模型系統將決定應先針對指定位置顯示哪個優惠方案。
 

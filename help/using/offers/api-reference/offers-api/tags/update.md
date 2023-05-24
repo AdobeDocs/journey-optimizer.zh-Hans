@@ -1,6 +1,6 @@
 ---
-title: 更新集合限定符
-description: 使用收藏集限定符，您可以更好地组织和排序选件。
+title: 更新集合限定詞
+description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 更新收藏集限定符 {#update-collection-qualifier}
 
-您可以通过向 [!DNL Offer Library] API。
+您可以透過向以下發出PATCH請求，修改或更新容器中的集合限定詞（先前稱為「標籤」）： [!DNL Offer Library] API。
 
-有关JSON修补程序（包括可用操作）的更多信息，请参阅 [JSON修补程序文档](http://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
 
-## 接受和内容类型标头 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 标题名称 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 要更新的标记的实例ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 標籤所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 您要更新之標籤的執行個體ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **请求**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括： `add`, `replace`和 `remove`. |
-| `path` | 要更新的参数的路径。 |
-| `value` | 要使用更新参数的新值。 |
+| `op` | 用來定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新的引數路徑。 |
+| `value` | 您想要用來更新引數的新值。 |
 
 **响应**
 
-成功响应会返回集合限定符的更新详细信息，包括其唯一实例ID和集合限定符 `@id`.
+成功的回應會傳回收集限定詞的更新詳細資料，包括其唯一執行環境ID和收集限定詞 `@id`.
 
 ```json
 {

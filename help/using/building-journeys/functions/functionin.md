@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: in
-description: 了解
+description: 瞭解中的函式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: in，函数，表达式，历程
+keywords: in，函式，運算式，歷程
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,15 +16,15 @@ ht-degree: 18%
 
 # in {#in}
 
-检查第一个参数值是否在列表中。 对每个参数值使用等于来执行检查。 如果找到参数值，则返回true，否则返回false。
+檢查第一個引數值是否在清單中。 檢查會透過每個引數值上的「等於」來執行。 如果找到引數值，則會傳回true，否則會傳回false。
 
-类型 `<expression>` 必须与列表项目匹配。 列表项目的类型必须相互匹配，作为提醒。
+型別 `<expression>` 必須與清單專案相符。 作為提醒，清單的專案型別必須彼此相符。
 
 ## 类别
 
 列表
 
-## 函数语法
+## 函式語法
 
 `in(<parameters>)`
 
@@ -35,9 +35,9 @@ ht-degree: 18%
 | 字符串 | 字符串 |
 | 布尔值 | 布尔型 |
 | 整数 | 整数 |
-| 小数 | 小数 |
-| 持续时间 | 持续时间 |
-| DateTime | DateTime |
+| 小數 | 小數 |
+| 持續時間 | 持續時間 |
+| 日期時間 | 日期時間 |
 | DateTimeOnly | DateTimeOnly |
 | 列表 | listString |
 | 列表 | listBoolean |
@@ -48,7 +48,7 @@ ht-degree: 18%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `in(<integer>,<listInteger>)`
 
@@ -66,16 +66,16 @@ ht-degree: 18%
 
 `in(<duration>,<listDuration>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `in(4,[4,5,3,4])`
 
-返回true。
+傳回true。
 
 `in(8,[4,5,3,4])`
 
-返回false。
+傳回false。
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

@@ -1,6 +1,6 @@
 ---
-title: 查找版面
-description: 版面是用于显示选件的容器。
+title: 查詢位置
+description: 版位是用於展示優惠方案的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ---
 
-# 查找版面 {#look-up-placement}
+# 查詢位置 {#look-up-placement}
 
-您可以通过向 [!DNL Offer Library] 包含投放的API `@id` 或请求路径中版面的名称。
+您可以透過向以下網址發出GET請求來查詢特定版位： [!DNL Offer Library] 包含任一位置的API `@id` 或請求路徑中的位置名稱。
 
 **API格式**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 放置位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | 定义与版面关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Sales and Promotions Placement` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | 定義與版位關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **响应**
 
-成功响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一版面的信息 `@id`.
+成功的回應會傳回位置的詳細資訊，包括容器ID、執行個體ID和唯一位置的相關資訊 `@id`.
 
 ```json
 {

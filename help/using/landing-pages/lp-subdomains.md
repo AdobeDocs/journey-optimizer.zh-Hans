@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置登陆页面子域
-description: 了解如何使用Journey Optimizer配置登陆页面子域
+description: 瞭解如何使用Journey Optimizer設定登陸頁面子網域
 role: Admin
 level: Intermediate
-keywords: 登陆，登陆页面，子域，配置
+keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
@@ -33,111 +33,111 @@ ht-degree: 24%
 >abstract="要想创建登陆页面预设，请确保您之前至少配置了一个登陆页面子域，可以从子域名称列表中选择。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
-能够 [创建登陆页面预设](lp-presets.md)，则必须设置要用于登陆页面的子域。
+能夠 [建立登陸頁面預設集](lp-presets.md)，您必須設定用於登入頁面的子網域。
 
-您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到的更多信息，请Adobe [此部分](../configuration/delegate-subdomain.md).
+您可以使用已委派給Adobe的子網域，也可以設定其他子網域。 進一步瞭解將子網域委派至Adobe於 [本節](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
->登陆页面子域配置对所有环境都是通用的。 因此，对登陆页面子域的任何修改也会影响生产沙箱。
+>登陸頁面子網域設定對所有環境都是通用的。 因此，對登陸頁面子網域所做的任何修改也會影響生產沙箱。
 
-## 使用现有子域 {#lp-use-existing-subdomain}
+## 使用現有的子網域 {#lp-use-existing-subdomain}
 
-要使用已委派给Adobe的子域，请执行以下步骤。
+若要使用已委派給Adobe的子網域，請遵循下列步驟。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 登陆页面子域]**.
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**.
 
    ![](assets/lp_access-subdomains.png)
 
-1. 单击 **[!UICONTROL 设置子域]**.
+1. 按一下 **[!UICONTROL 設定子網域]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. 选择 **[!UICONTROL 使用委派的域]** 从 **[!UICONTROL 配置类型]** 中。
+1. 選取 **[!UICONTROL 使用委派網域]** 從 **[!UICONTROL 設定型別]** 區段。
 
    ![](assets/lp_use-delegated-subdomain.png)
 
-1. 输入将在登陆页面URL中显示的前缀。
+1. 輸入將顯示在登陸頁面URL的前置詞。
 
    >[!NOTE]
    >
-   >只允许使用字母数字字符和连字符。
+   >僅允許使用英數字元和連字型大小。
 
-1. 从列表中选择委派的子域。
+1. 從清單中選取委派的子網域。
 
    >[!NOTE]
    >
-   >您无法选择已用作登陆页面子域的子域。
+   >您無法選取已用作登陸頁面子網域的子網域。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   请注意，不能使用同一父域的多个委派子域。 例如，如果已将“marketing1.yourcompany.com”委派给登陆页面的Adobe，您将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多级子域，您可以继续使用“marketing1.yourcompany.com”的子域（如“email.marketing1.yourcompany.com”），或使用其他父域。
+   請注意，您無法使用相同上層網域的多個委派子網域。 例如，如果登入頁面的「marketing1.yourcompany.com」已委派給Adobe，則您將無法使用「marketing2.yourcompany.com」。 不過，登陸頁面支援多層級子網域，因此您可以使用「marketing1.yourcompany.com」的子網域（例如「email.marketing1.yourcompany.com」）或不同的父網域繼續操作。
 
    >[!CAUTION]
    >
-   >如果您选择的域是使用 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，则必须在托管平台上创建DNS记录。 要生成DNS记录，该过程与配置新登陆页面子域时的过程相同。 了解 [此部分](#lp-configure-new-subdomain).
+   >如果您選取的網域已委派給Adobe，請使用 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必須在您的代管平台上建立DNS記錄。 若要產生DNS記錄，程式與您設定新登陸頁面子網域時的程式相同。 瞭解如何在 [本節](#lp-configure-new-subdomain).
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
-1. 提交后，子域将显示在列表中，其中 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交後，子網域會顯示在清單中，並附上 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    >[!NOTE]
    >
-   >在能够使用该子域发送消息之前，您必须等到Adobe执行所需的检查，该检查最长可能需要4小时。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >在能夠使用該子網域來傳送訊息之前，您必須等待Adobe執行所需的檢查，這可能需要4小時。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 检查成功后，子域将获取 **[!UICONTROL 成功]** 状态。 它已准备好用于创建登陆页面预设。
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 已準備好用來建立登入頁面預設集。
 
-## 配置新子域 {#lp-configure-new-subdomain}
+## 設定新的子網域 {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="生成匹配的 DNS 记录"
 >abstract="要配置新的登陆页面子域，您需要复制 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，将其粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。检查成功后，子域就可以用来创建登陆页面预设了。"
 
-要配置新子域，请执行以下步骤。
+若要設定新的子網域，請遵循下列步驟。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 登陆页面子域]**.
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** 功能表，然後選取 **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 登陸頁面子網域]**.
 
-1. 单击 **[!UICONTROL 设置子域]**.
+1. 按一下 **[!UICONTROL 設定子網域]**.
 
-1. 选择 **[!UICONTROL 添加您自己的域]** 从 **[!UICONTROL 配置类型]** 中。
+1. 選取 **[!UICONTROL 新增您自己的網域]** 從 **[!UICONTROL 設定型別]** 區段。
 
    ![](assets/lp_add-your-own-subdomain.png)
 
-1. 指定要委派的子域。
+1. 指定要委派的子網域。
 
    >[!CAUTION]
    >
-   >您无法使用现有登陆页面子域。
+   >您無法使用現有的登陸頁面子網域。
    >
-   >子域中不允许使用大写字母。
+   >子網域中不允許使用大寫字母。
 
-   不允许将无效的子域委派到Adobe。 确保输入您的组织拥有的有效子域，如marketing.yourcompany.com。
+   不允許將無效的子網域委派給Adobe。 請務必輸入貴組織所擁有的有效子網域，例如marketing.yourcompany.com。
 
    >[!NOTE]
    >
-   >对于登陆页面，支持多级子域。 例如，您可以使用“email.marketing.yourcompany.com”。
+   >對於登入頁面，支援多層級子網域。 例如，您可以使用「email.marketing.yourcompany.com」。
 
-1. 将显示要置入DNS服务器的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
+1. 將會顯示要放置在DNS伺服器中的記錄。 複製此記錄或下載CSV檔案，然後導覽至您的網域託管解決方案，以產生相符的DNS記錄。
 
-1. 确保已在您的域托管解决方案中生成DNS记录。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL 提交]**.
+1. 請確定已在您的網域託管解決方案中產生DNS記錄。 如果所有專案皆已正確設定，請勾選「我確認……」方塊，然後按一下 **[!UICONTROL 提交]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
    >[!NOTE]
    >
-   >当您配置新的登陆页面子域时，它将始终指向CNAME记录。
+   >當您設定新的登陸頁面子網域時，它始終會指向CNAME記錄。
 
-1. 提交子域委派后，子域将显示在列表中，其中 **[!UICONTROL 处理]** 状态。 有关子域状态的更多信息，请参阅 [此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交子網域委派後，子網域會顯示在清單中，並包含 **[!UICONTROL 處理中]** 狀態。 如需子網域狀態的詳細資訊，請參閱 [本節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >在能够将该子域用于登陆页面之前，您必须等到Adobe执行所需的检查，该检查可能最多需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
+   >您必須等到Adobe執行必要的檢查（最多可能需要4小時）後，才能將該子網域用於登入頁面。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. 检查成功后，子域将获取 **[!UICONTROL 成功]** 状态。 它已准备好用于创建登陆页面预设。
+1. 檢查成功後，子網域會取得 **[!UICONTROL 成功]** 狀態。 已準備好用來建立登入頁面預設集。
 
-   请注意，子域将标记为 **[!UICONTROL 失败]** 如果您未能在托管解决方案上创建验证记录。
+   請注意，子網域將標示為 **[!UICONTROL 已失敗]** 如果您無法在託管解決方案上建立驗證記錄。

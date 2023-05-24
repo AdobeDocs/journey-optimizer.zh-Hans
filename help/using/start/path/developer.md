@@ -1,6 +1,6 @@
 ---
-title: 开发人员入门
-description: 作为开发人员，了解有关如何与Journey Optimizer合作的更多信息
+title: 開發人員快速入門
+description: 作為開發人員，進一步瞭解如何使用Journey Optimizer
 level: Intermediate
 hide: true
 hidefromtoc: true
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# 开发人员入门 {#get-started-developers}
+# 開發人員快速入門 {#get-started-developers}
 
-## 集成移动设备应用程序 {#integrate-mobile-app}
+## 整合您的行動應用程式 {#integrate-mobile-app}
 
-作为开发人员，您需要 **配置移动设备应用程序** 能够通过 [!DNL Adobe Journey Optimizer].
+作為開發人員，您需要 **設定您的行動應用程式** 以便能夠傳送推播通知 [!DNL Adobe Journey Optimizer].
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始使用 [!DNL Journey Optimizer]，您需要确保在移动应用程序上部署配置和集成，以及 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. 要了解 [!DNL Adobe Journey Optimizer] 请参阅 [本页](../../push/push-gs.md).
+[!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標對象。 開始使用傳送推播通知之前 [!DNL Journey Optimizer]，您需要確保設定和整合在行動應用程式及中 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch]. 若要瞭解中的推播通知資料流程 [!DNL Adobe Journey Optimizer] 請參閱 [此頁面](../../push/push-gs.md).
 
-有关配置推送通知渠道和测试移动设备应用程序集成的详细步骤，请参阅 [本页](../../push/push-configuration.md).
+設定推播通知頻道和測試行動應用程式整合的步驟已詳載於 [此頁面](../../push/push-configuration.md).
 
 ## 使用API {#work-apis}
 
-您还可以通过 **[!DNL Adobe Journey Optimizer]API**.
+您也可以使用執行多個動作 **[!DNL Adobe Journey Optimizer]API**.
 
-帮助您开始使用的步骤 [!DNL Offer Library] 详细介绍了API [在此部分中](../../offers/api-reference/getting-started.md). 本指南提供了使用决策引擎执行关键操作的示例API调用。
+協助您開始使用的步驟 [!DNL Offer Library] API已詳細說明 [在本節中](../../offers/api-reference/getting-started.md). 本指南提供使用決策引擎執行關鍵作業的API呼叫範例。

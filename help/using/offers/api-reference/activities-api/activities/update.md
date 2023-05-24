@@ -1,6 +1,6 @@
 ---
-title: 更新决策
-description: 决策包含通知选件选择的逻辑。
+title: 更新決定
+description: 決定包含通知優惠選擇的邏輯。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 更新决策 {#update-decision}
 
-您可以通过向 [!DNL Offer Library] API。
+您可以透過向以下專案發出PATCH請求，修改或更新容器中的決定： [!DNL Offer Library] API。
 
-有关JSON修补程序（包括可用操作）的更多信息，请参阅 [JSON修补程序文档](http://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
 
-## 接受和内容类型标头 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 标题名称 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 决策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 决策的实例ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 決定的例項ID。 | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **请求**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括： `add`, `replace`和 `remove`. |
-| `path` | 要更新的参数的路径。 |
-| `value` | 要使用更新参数的新值。 |
+| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新的引數路徑。 |
+| `value` | 您想要用來更新引數的新值。 |
 
 **响应**
 
-成功的响应会返回决策的更新详细信息，包括其唯一实例ID和决策 `@id`.
+成功的回應會傳回決定的更新詳細資料，包括其唯一的執行個體ID和決定 `@id`.
 
 ```json
 {

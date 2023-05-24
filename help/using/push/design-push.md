@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 设计推送通知
-description: 了解如何在Journey Optimizer中设计推送通知
+title: 設計推播通知
+description: 瞭解如何在Journey Optimizer中設計推播通知
 feature: Overview
 topic: Content Management
 role: User
@@ -15,13 +15,13 @@ ht-degree: 12%
 
 ---
 
-# 设计推送通知 {#design-push-notification}
+# 設計推播通知 {#design-push-notification}
 
-## 标题与正文 {#push-title-body}
+## 標題與內文 {#push-title-body}
 
-要撰写消息，请单击 **[!UICONTROL 标题]** 和 **[!UICONTROL 正文]** 字段。 使用表达式编辑器定义内容、个性化数据和添加动态内容。 详细了解 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
+若要撰寫訊息，請按一下 **[!UICONTROL 標題]** 和 **[!UICONTROL 內文]** 欄位。 使用運算式編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解 [個人化](../personalization/personalize.md) 和 [動態內容](../personalization/get-started-dynamic-content.md) 在運算式編輯器中。
 
-使用设备预览部分可视化推送通知在iOS和Android设备上的显示方式。
+使用裝置預覽區段來視覺化推播通知在iOS和Android裝置上的顯示方式。
 
 ## 单击行为 {#on-click-behavior}
 
@@ -30,47 +30,47 @@ ht-degree: 12%
 >title="关于单击行为"
 >abstract="选择收件人单击推送通知正文时的行为。"
 
-您可以选择用户单击推送通知正文时的行为。
+您可以選取使用者點按推播通知內文時的行為。
 
 ![](assets/title-body-push.png)
 
-* 要打开应用程序，请选择 **[!UICONTROL 打开应用程序]** 选项。 在 [通道表面](../configuration/channel-surfaces.md) （即消息预设）。
-* 要将用户重定向到应用程序中的特定内容段，请选择 **[!UICONTROL Deeplink]** 选项。  特定内容可以是特定视图、页面的特定部分或特定选项卡。 选择选项后，在关联的字段中输入深层链接。
-* 要将用户重定向到外部URL，请使用 **[!UICONTROL Web URL]** 选项。 选择选项后，在关联的字段中输入URL。
+* 若要開啟應用程式，請選取 **[!UICONTROL 開啟應用程式]** 選項。 與通知相關聯的應用程式定義於 [管道表面](../configuration/channel-surfaces.md) （即訊息預設集）。
+* 若要將使用者重新導向至應用程式內的特定內容，請選取 **[!UICONTROL 深層連結]** 選項。  特定內容可以是特定檢視、頁面的特定區段或特定標籤。 選取選項後，請在相關欄位中輸入深層連結。
+* 若要將使用者重新導向至外部URL，請使用 **[!UICONTROL 網頁URL]** 選項。 選取選項後，請在相關欄位中輸入URL。
 
-## 添加媒体 {#add-media-push}
+## 新增媒體 {#add-media-push}
 
-在iOS版本的推送通知中，您可以添加将在通知中显示的图像、视频或GIF。
+在推播通知的iOS版本中，您可以新增將顯示在通知中的影像、影片或GIF。
 
-在Android版本中，您只能添加图像图标和用于扩展通知的图像。
+在Android版本中，您只能新增影像圖示，以及用於展開通知的影像。
 
 ![](assets/push-config-add-media.png)
 
-有两个选项可用。 您可以：
+有兩個可用選項。 您可以：
 
-* 使用 **[!UICONTROL 添加媒体]** 按钮以在 **[!DNL Adobe Experience Manager Assets Essentials]**.
+* 使用 **[!UICONTROL 新增媒體]** 按鈕以選取中的資產 **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   了解如何使用 **[!DNL Adobe Experience Manager Assets Essentials]** in [本页](../email/assets-essentials.md).
+   瞭解如何使用 **[!DNL Adobe Experience Manager Assets Essentials]** 在 [此頁面](../email/assets-essentials.md).
 
-* 或在 **[!UICONTROL 添加媒体]** 字段。 在这种情况下，您可以向URL添加个性化。
+* 或者，在中輸入媒體URL **[!UICONTROL 新增媒體]** 欄位。 在這種情況下，您可以將個人化新增至URL。
 
-添加后，媒体会显示在通知正文的右侧。
+新增後，媒體會顯示在通知內文的右側。
 
-## 添加按钮 {#add-buttons-push}
+## 新增按鈕 {#add-buttons-push}
 
-通过向推送内容添加按钮来创建可操作的通知。
+將按鈕新增至推播內容，以建立可操作通知。
 
-如果设备屏幕已锁定，则不会显示以下按钮：只有 **标题** 和 **消息** 显示。 如果其设备已解锁，则收件人将看到这些按钮。
+如果裝置熒幕已鎖定，則不會顯示這些按鈕：只會顯示 **標題** 和 **訊息** 通知的可見部分。 如果解除鎖定其裝置，收件者將會看到按鈕。
 
-在iOS版本中，最多可添加四个按钮。 在Android版本中，最多可以添加三个按钮。
+在iOS版本中，您最多可以新增四個按鈕。 在Android版本中，您最多可以新增三個按鈕。
 
 >[!NOTE]
 >
->对于iOS，请使用 **[!UICONTROL iOS类别]** 字段将操作与通知类别关联。
+>若為iOS，請使用 **[!UICONTROL iOS類別]** 將作業與通知類別產生關聯的欄位。
 
-1. 使用 **[!UICONTROL “添加”按钮]** 要定义设置，请执行以下操作：标签和关联的操作。 可能的操作与 [点击行为](#on-click-behavior).
+1. 使用 **[!UICONTROL 新增按鈕]** 若要定義設定：標籤和相關聯的動作。 可能的動作與相同。 [點按行為](#on-click-behavior).
 
-1. 使用 **[!UICONTROL 展开视图]** 图标来预览个性化按钮。
+1. 使用 **[!UICONTROL 展開檢視]** 圖示來預覽您的個人化按鈕。
 
 ![](assets/push_buttons.png)
 
@@ -81,29 +81,29 @@ ht-degree: 12%
 >title="关于静默通知"
 >abstract="发送通知但不打扰用户，通知中心或通知栏中不显示通知。"
 
-无提示推送通知（或后台通知）是交付给应用程序的隐藏指令。 例如，它用于通知您的应用程序新内容的可用性或在后台启动下载。
+無訊息推播通知（或背景通知）是傳送至應用程式的隱藏指示。 例如，它可用來通知您的應用程式新內容是否可用，或在背景啟動下載。
 
-选择 **[!UICONTROL 无提示通知]** 用于静默通知应用程序的选项：在这种情况下，通知会直接转给应用程序。 设备屏幕上未显示任何警报。
+選取 **[!UICONTROL 無訊息通知]** 無訊息通知應用程式的選項：在此情況下，通知會直接傳輸到應用程式。 裝置畫面上不會顯示任何警示。
 
-使用 **[!UICONTROL 自定义数据]** 部分添加键值对。
+使用 **[!UICONTROL 自訂資料]** 區段來新增索引鍵/值組。
 
 ## 自定义数据
 
-在 **[!UICONTROL 自定义数据]** 部分，则可以根据移动应用程序配置将自定义变量添加到有效负载。 有关如何在Adobe Experience Platform中设置推送通知和AdobeLaunch的更多信息，请参阅 [此部分](push-gs.md)
+在 **[!UICONTROL 自訂資料]** 區段，您可以根據您的行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform和Adobe Launch中設定推播通知的詳細資訊，請參閱 [本節](push-gs.md)
 
-## 高级选项 {#advanced-options-push}
+## 進階選項 {#advanced-options-push}
 
-您可以配置 **[!UICONTROL 高级选项]** ，以获取推送通知。 以下列出了可用参数：
+您可以設定 **[!UICONTROL 進階選項]** 用於您的推播通知。 可用的引數列示如下：
 
 | 参数 | 描述 |
 |---------|---------|
-| **[!UICONTROL 可折叠]** (iOS/Android) | 可折叠的消息是一种消息，如果消息已过时，则可以用新消息替换该消息。 可折叠消息的常见用例是消息，用于告知移动设备应用程序从服务器同步数据。 例如，一个可更新用户最新得分的体育应用程序。 只有最新的消息才相关。 另一方面，通过不可折叠的消息，非常的消息对客户端应用程序很重要，需要发送。 |
-| **[!UICONTROL 自定义声音]** (iOS/Android) | 移动终端在收到通知时要播放的声音。 需要在应用程序中捆绑声音。 |
-| **[!UICONTROL 徽章]** (iOS/Android) | 标记用于直接在应用程序图标上显示新的未读信息数。<br/>当用户打开或从应用程序中读取新内容时，标记值将消失。在设备上收到通知时，可能会刷新或增加相关应用程序的标记值。<br/>例如，如果您存储的是客户的未读文章数，则可以利用个性化功能为每个客户发送唯一的未读文章标记值。 如需更多个性化信息，请参阅 [此部分](../personalization/personalize.md). |
-| **[!UICONTROL 通知组]**  (仅限iOS) | 将通知组与推送通知关联。<br/>从iOS 12开始，通知组允许您将消息线程和通知主题合并到线程ID中。 例如，品牌可能会在一个组ID下发送营销通知，而在一个或多个不同ID下保留更多操作类型通知。<br/>为了说明这一点，您可以具有groupID:123 “查看新的Sweaters春季系列”和groupID:456 “您的包已送达”通知组。 在本例中，所有投放通知都将捆绑在组ID下：456。 |
-| **[!UICONTROL 通知渠道]** （仅限Android） | 将通知渠道关联到推送通知。<br/>从Android 8.0（API级别26）开始，必须将所有通知分配给渠道才能显示。 有关更多信息，请参阅 [Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
-| **[!UICONTROL 添加内容可用性标记]** (仅限iOS) | 发送推送负载中的可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效载荷数据。<br/> 即使应用程序在后台运行且无需任何用户交互（例如点按推送通知），这项操作仍可正常运行。 但是，如果应用程序未运行，则不适用此设置。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
-| **[!UICONTROL 添加可变内容标记]** (仅限iOS) | 发送推送负载中的可变内容标记，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用程序扩展进一步修改从发送的推送通知的内容或演示 [!DNL Journey Optimizer]. 例如，用户可以利用此选项解密数据、更改通知的正文或标题文本、向通知添加线程标识符等。 |
-| **[!UICONTROL 通知可见性]** （仅限Android） | 定义推送通知的可见性。 <br/><b>私有</b> 将在所有锁屏上显示通知，但在安全的锁屏上隐藏敏感或隐私信息。 <br/><b>公共</b> 将在所有锁屏上全部显示通知。 <br/><b>密码</b> 不会在安全的锁屏上显示通知的任何部分。 <br/>有关更多信息，请参阅 [Android开发人员文档](https://developer.android.com/reference/android/app/Notification). |
-| **[!UICONTROL 通知优先级]** （仅限Android） | 将推送通知的重要性从“低”定义为“最大”。 这可确定发送推送通知时“侵入”的程度。 有关更多信息，请参阅 [Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
-| **[!UICONTROL 投放优先级]** （仅限Android） | 为推送通知设置高优先级或普通优先级。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
+| **[!UICONTROL 可摺疊]** (iOS / Android) | 可收合訊息是訊息，如果訊息已過時，則可由新訊息取代。 可摺疊訊息的常見使用案例是用來指示行動應用程式從伺服器同步資料的訊息。 例如，使用最新分數更新使用者的運動應用程式。 只有最近的訊息才相關。 另一方面，對於不可收合的訊息而言，非常訊息對於使用者端應用程式而言非常重要，需要加以傳送。 |
+| **[!UICONTROL 自訂音效]** (iOS / Android) | 在收到通知時，由行動終端機播放的聲音。 應用程式中需要隨附此音效。 |
+| **[!UICONTROL 徽章]** (iOS / Android) | 标记用于直接在应用程序图标上显示新的未读信息数。<br/>当用户打开或从应用程序中读取新内容时，标记值将消失。在设备上收到通知时，可能会刷新或增加相关应用程序的标记值。<br/>例如，如果您儲存客戶的未讀文章數量，您可以運用個人化，為每個客戶傳送唯一的未讀文章徽章值。 如需更多個人化資訊，請參閱 [本節](../personalization/personalize.md). |
+| **[!UICONTROL 通知群組]**  (僅限iOS) | 將通知群組關聯至推播通知。<br/>從iOS 12開始，通知群組可讓您將訊息執行緒和通知主題整合到執行緒ID中。 例如，品牌可能會以一個群組ID傳送行銷通知，而以一個或多個不同的ID保留更多營運型別通知。<br/>舉例來說，您可以有groupID： 123 「看看新的春季毛衣系列」和groupID： 456 「您的包裹已送達」通知群組。 在此範例中，所有傳送通知都會整合在群組ID： 456底下。 |
+| **[!UICONTROL 通知頻道]** （僅限Android） | 將通知頻道與推播通知建立關聯。<br/>從Android 8.0 （API層級26）開始，所有通知都必須指派給管道才能顯示。 如需詳細資訊，請參閱 [Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
+| **[!UICONTROL 新增內容可用性旗標]** (僅限iOS) | 傳送推播裝載中的可用內容旗標，以確保應用程式在收到推播通知時立即喚醒，這表示應用程式將能夠存取裝載資料。<br/> 即使應用程式在背景執行，且不需要任何使用者互動（例如點選推播通知），此功能仍可運作。不過，如果應用程式未執行，則不適用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| **[!UICONTROL 新增可變內容旗標]** (僅限iOS) | 在推播裝載中傳送可變內容旗標，並允許推播通知內容由iOS SDK中提供的通知服務應用程式擴充功能修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然後，您可以運用行動應用程式擴充功能，進一步修改所傳送推播通知的內容或簡報 [!DNL Journey Optimizer]. 例如，使用者可以善用此選項來解密資料、變更通知的正文或標題文字、將執行緒識別碼新增到通知等。 |
+| **[!UICONTROL 通知可見性]** （僅限Android） | 定義推播通知的可見度。 <br/><b>私人</b> 會在所有鎖定熒幕上顯示通知，但在安全鎖定熒幕隱藏敏感或私人資訊。 <br/><b>公用</b> 會在所有鎖定熒幕上顯示完整通知。 <br/><b>密碼</b> 將不會在安全鎖定熒幕上顯示通知的任何部分。 <br/>如需詳細資訊，請參閱 [Android開發人員檔案](https://developer.android.com/reference/android/app/Notification). |
+| **[!UICONTROL 通知優先順序]** （僅限Android） | 定義推播通知的重要性從低到高。 這會決定推播通知傳送時「干擾性」如何。 如需詳細資訊，請參閱 [Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
+| **[!UICONTROL 傳遞優先順序]** （僅限Android） | 設定推播通知的高優先順序或一般優先順序。 有关消息优先级的更多信息，请参阅 [Google 开发人员文档](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |

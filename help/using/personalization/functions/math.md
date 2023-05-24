@@ -1,6 +1,6 @@
 ---
-title: 数学函数库
-description: 数学函数库
+title: 數學函式館
+description: 數學函式館
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 6%
 
 ---
 
-# 数学函数 {#math}
+# 數學函式 {#math}
 
-了解如何在表达式编辑器中使用Math函数。
+瞭解如何在運算式編輯器中使用數學函式。
 
 ## 绝对 {#absolute}
 
-的 `absolute` 函数来转换数字的绝对值。
+此 `absolute` 函式可用來將數字轉換為絕對值。
 
 **语法**
 
@@ -29,9 +29,9 @@ ht-degree: 6%
 
 ## formatNumber {#format-number}
 
-的 `formatNumber` 函数将任何数字格式化为其语言敏感表示形式。
+此 `formatNumber` 函式用於將任何數字格式化成其區分語言的表示法。
 
-它接受表示区域设置的数字和字符串，并返回所需区域设置中该数字的格式化字符串。
+它會接受數字和代表地區設定的字串，並傳回所需地區設定中數字的格式化字串。
 
 **语法**
 
@@ -39,11 +39,11 @@ ht-degree: 6%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-您可以使用格式和有效区域设置，如 [Oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+您可以使用格式設定和有效地區設定，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支援的區域設定](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **示例**
 
-此查询返回一个阿拉伯文格式的字符串，其对应123456.789作为输入编号。
+此查詢會傳回對應至123456.789的阿拉伯文格式化字串作為輸入數字。
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ## Random {#random}
 
-的 `random` 函数返回介于0和1之间的随机值。
+此 `random` 函式用於傳回0到1之間的隨機值。
 
 **语法**
 
@@ -59,9 +59,9 @@ ht-degree: 6%
 {%= random() %}: double
 ```
 
-## 向下舍入 {#round-down}
+## 向下四捨五入 {#round-down}
 
-的 `roundDown` 函数对数字进行四舍五入。
+此 `roundDown` 函式用於對數字進行向下四捨五入。
 
 **语法**
 
@@ -69,9 +69,9 @@ ht-degree: 6%
 {%= roundDown(double) %}: double
 ```
 
-## 向上舍入 {#round-up}
+## 向上四捨五入 {#round-up}
 
-的 `Count only null` 函数对数字进行四舍五入。
+此 `Count only null` 函式用於對數字進行向上四捨五入。
 
 **语法**
 
@@ -79,9 +79,9 @@ ht-degree: 6%
 {%= roundUp(double) %}: double
 ```
 
-## 十六进制字符串 {#to-hex-string}
+## 至十六進位字串 {#to-hex-string}
 
-的 `toHexString` 函数会将任何数字转换为其十六进制字符串。
+此 `toHexString` 函式將任何數字轉換為十六進位字串。
 
 **语法**
 
@@ -91,15 +91,15 @@ ht-degree: 6%
 
 **示例**
 
-此查询返回十六进制值158（即9e）。
+此查詢會傳回158的十六進位值，即9e。
 
 ```sql
 {%= toHexString(158) %}
 ```
 
-## 至百分比 {#to-percentage}
+## 目標百分比 {#to-percentage}
 
-的 `toPercentage` 函数将数字转换为百分比。
+此 `toPercentage` 函式用於將數字轉換為百分比。
 
 **语法**
 
@@ -107,9 +107,9 @@ ht-degree: 6%
 {%= toPercentage(double) %}: string
 ```
 
-## 精度 {#to-precision}
+## 至精確度 {#to-precision}
 
-的 `toPrecision` 函数将数字转换为所需的精度。
+此 `toPrecision` 函式用於將數字轉換為所需的精確度。
 
 **语法**
 
@@ -117,9 +117,9 @@ ht-degree: 6%
 {%= toPrecision(double,int) %}: string
 ```
 
-## 至字符串 {#to-string}
+## 至字串 {#to-string}
 
-的 **toString** 函数会将任何数字转换为其字符串表示形式。
+此 **toString** 函式將任何數字轉換為字串表示法。
 
 **语法**
 
@@ -129,7 +129,7 @@ ht-degree: 6%
 
 **示例**
 
-此查询返回“12”。
+此查詢傳回「12」。
 
 ```sql
 {%= toString(12) %} 

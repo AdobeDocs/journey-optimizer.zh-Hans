@@ -1,18 +1,18 @@
 ---
-title: 在历程中创建应用程序内通知
-description: 了解如何在Journey Optimizer中创建应用程序内消息
+title: 在歷程中建立應用程式內通知
+description: 瞭解如何在Journey Optimizer中建立應用程式內訊息
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 应用程序内，消息，创建，开始
+keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -20,65 +20,65 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->应用程序内活动当前仅作为测试版提供给选定用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+>應用程式內活動目前僅供選取使用者使用，且為測試版。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
-1. 打开您的历程，然后拖放 **[!UICONTROL 应用程序内]** 活动 **[!UICONTROL 操作]** 的子菜单。
+1. 開啟您的歷程，然後拖放 **[!UICONTROL 應用程式內]** 活動來自 **[!UICONTROL 動作]** 區段。
 
-   当用户档案到达其历程结束时，向其显示的任何应用程序内消息都将自动过期。 因此，将在应用程序内活动之后自动添加等待活动，以确保设置正确的时间。
+   當設定檔到達其歷程結尾時，顯示給他們的任何應用程式內訊息都會自動過期。 因此，會在應用程式內活動後自動新增等待活動，以確保計時正確。
 
    ![](assets/in_app_journey_1.png)
 
-1. 输入 **[!UICONTROL 标签]** 和 **[!UICONTROL 描述]** 的URL。
+1. 輸入 **[!UICONTROL 標籤]** 和 **[!UICONTROL 說明]** 以取得訊息。
 
-1. 选择 [应用程序内界面](inapp-configuration.md) 。
+1. 選擇 [應用程式內表面](inapp-configuration.md) 以使用。
 
    ![](assets/in_app_journey_2.png)
 
-1. 您现在可以使用 **[!UICONTROL 编辑内容]** 按钮。 [了解详情](design-in-app.md)
+1. 您現在可以開始使用設計內容 **[!UICONTROL 編輯內容]** 按鈕。 [了解详情](design-in-app.md)
 
-1. 单击 **[!UICONTROL 编辑触发器]** 来配置触发器。
+1. 按一下 **[!UICONTROL 編輯觸發程式]** 以設定您的觸發器。
 
    ![](assets/in_app_journey_4.png)
 
-1. 选择应用程序内消息处于活动状态时触发的频率：
+1. 選擇應用程式內訊息作用中時的觸發頻率：
 
-   * **[!UICONTROL 每次显示]**:在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表。
-   * **[!UICONTROL 显示一次]**:仅当在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表。
-   * **[!UICONTROL 点进前显示]**:在 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表，直到SDK通过“已单击”操作发送interact事件。
+   * **[!UICONTROL 每次都顯示]**：一律顯示中選取的事件時的訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
+   * **[!UICONTROL 顯示一次]**：只會在中第一次選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單隨即出現。
+   * **[!UICONTROL 顯示至點進為止]**：當在中選取事件時顯示此訊息 **[!UICONTROL 行動應用程式觸發程式]** 下拉式清單會一直出現，直到SDK以「已點按」的動作傳送互動事件為止。
 
-1. 从 **[!UICONTROL 移动设备应用程序触发器]** 下拉列表中，选择将触发消息的事件和标准：
+1. 從 **[!UICONTROL 行動應用程式觸發程式]** 在下拉式清單中，選擇將觸發訊息的事件和條件：
 
-   1. 从左下拉菜单中，选择触发消息所需的事件。
-   1. 从右下拉菜单中，选择选定事件所需的验证。
-   1. 单击 **[!UICONTROL 添加]** 按钮。 然后，重复上述步骤。
-   1. 选择事件的链接方式，例如选择 **[!UICONTROL 和]** 如果您愿意 **both** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望在 **e** 触发器是真的。
-   1. 单击 **[!UICONTROL 保存]** 触发器配置后。
+   1. 從左側下拉式清單中，選取觸發訊息所需的事件。
+   1. 從右側的下拉式清單中，選取所選事件所需的驗證。
+   1. 按一下 **[!UICONTROL 新增]** 按鈕（如果要觸發器考慮多個事件或條件）。 然後，重複上述步驟。
+   1. 選取事件的連結方式，例如，選擇 **[!UICONTROL 和]** 如果您需要 **兩者** 觸發器設為true，以便顯示或選擇訊息 **[!UICONTROL 或]** 如果您想要顯示訊息，如果 **兩者之一** 的觸發程式為true。
+   1. 按一下 **[!UICONTROL 儲存]** 您的觸發器設定完成時。
 
    ![](assets/in_app_journey_3.png)
 
-1. 如有必要，可通过拖放其他操作或事件来完成您的历程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-1. 应用程序内消息准备就绪后，完成配置并发布历程以激活它。
+1. 應用程式內訊息準備就緒後，請完成設定並發佈您的歷程以將其啟用。
 
-有关如何配置旅程的更多信息，请参阅 [本页](../building-journeys/journey-gs.md).
+有關如何設定歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey-gs.md).
 
-## 应用程序内活动限制 {#in-app-activity-limitations}
+## 應用程式內活動限制 {#in-app-activity-limitations}
 
-* 此功能当前不适用于医疗保健客户。
+* 此功能目前不適用於醫療保健客戶。
 
-* 个性化只能包含配置文件属性。
+* 個人化只能包含設定檔屬性。
 
-* 应用程序内显示已绑定到历程生命周期，这意味着当某个用户档案的历程结束时，该历程中的所有应用程序内消息将停止为该用户档案显示。  因此，无法直接从历程活动中停止应用程序内消息。 相反，您需要结束整个历程，以阻止应用程序内消息显示到用户档案。
+* 應用程式內顯示會與歷程期限繫結，這表示當設定檔的歷程結束時，該歷程中的所有應用程式內訊息將不再顯示該設定檔。  因此，無法直接從歷程活動停止應用程式內訊息。 相反地，您需要結束整個歷程，才能停止將應用程式內訊息顯示給設定檔。
 
-* 在测试模式下，应用程序内显示取决于历程的生命周期。 要防止在测试期间历程过早结束，请调整 **[!UICONTROL 等待时间]** 值 **[!UICONTROL 等待]** 活动。
+* 在測試模式中，應用程式內顯示取決於歷程的有效期限。 為避免歷程在測試期間過早結束，請調整 **[!UICONTROL 等待時間]** 您的價值 **[!UICONTROL 等待]** 活動。
 
-* **[!UICONTROL 反应]** 活动无法用于对应用程序内打开或单击做出响应。
+* **[!UICONTROL 反應]** 活動無法用於對應用程式內開啟或點按做出反應。
 
-* 从用户配置文件在画布中到达应用程序内活动时到用户开始看到该应用程序内消息时，会出现激活延迟。 此延迟可介于15分钟到1小时之间。
+* 使用者設定檔到達畫布中的應用程式內活動時，與他們開始看到應用程式內訊息時，就會發生啟用延遲。 此延遲的範圍為15分鐘到1小時。
 
 **相关主题：**
 
-* [设计应用程序内消息](design-in-app.md)
-* [测试并发送应用程序内消息](send-in-app.md)
+* [設計應用程式內訊息](design-in-app.md)
+* [測試並傳送您的應用程式內訊息](send-in-app.md)
 * [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
-* [应用程序内配置](inapp-configuration.md)
+* [應用程式內設定](inapp-configuration.md)

@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 函数
-description: 了解函数
+description: 瞭解函式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 函数，表达式，编辑器，历程
+keywords: 函式，運算式，編輯器，歷程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -17,15 +17,15 @@ ht-degree: 73%
 
 # 函数 {#functions}
 
-一个函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N表达式作为有序参数。
+函式可以有不同的簽名（一組不同的有序引數）。 函式簽章可以有0-N運算式做為有序引數。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-每个函数都具有特定的返回类型。
+每個函式都有特定的傳回型別。
 
-以下是受支持的函数的列表。
+以下是支援的函式清單。
 
-## 主要函数
+## 主要函式
 
 | 类别 | 函数 |
 |-------------|-----------------------|

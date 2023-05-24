@@ -1,6 +1,6 @@
 ---
 title: 更新集合
-description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 7%
 
 # 更新收藏集 {#update-collection}
 
-您可以通过向 [!DNL Offer Library] API
+您可以透過向發出PATCH請求來修改或更新集合 [!DNL Offer Library] API
 
-有关JSON修补程序（包括可用操作）的更多信息，请参阅 [JSON修补程序文档](http://jsonpatch.com/).
+如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
 
-## 接受和内容类型标头 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 标题名称 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 要更新的集合的实例ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 您要更新之集合的執行個體ID。 | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **请求**
 
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 操作调用，用于定义更新连接所需的操作。 操作包括： `add`, `replace`和 `remove`. |
-| `path` | 要更新的参数的路径。 |
-| `value` | 要使用更新参数的新值。 |
+| `op` | 用來定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新的引數路徑。 |
+| `value` | 您想要用來更新引數的新值。 |
 
 **响应**
 
-成功响应会返回集合的更新详细信息，包括其唯一实例ID和集合 `@id`.
+成功的回應會傳回集合的更新詳細資料，包括其唯一的執行個體ID和集合 `@id`.
 
 ```json
 {

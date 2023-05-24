@@ -1,6 +1,6 @@
 ---
-title: 查找收藏集
-description: 收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+title: 查詢集合
+description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 2%
 
 ---
 
-# 查找收藏集 {#look-up-collection}
+# 查詢集合 {#look-up-collection}
 
-收藏集是基于营销人员定义的预定义条件（如选件的类别）的选件子集。
+集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以通过向 [!DNL Offer Library] 包含集合之一的API `@id` 或请求路径中集合的名称。
+您可以透過向以下傳送GET請求來查詢特定集合： [!DNL Offer Library] 包含任一集合的API `@id` 或要求路徑中集合的名稱。
 
 **API格式**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 用于匹配实体的xdm:name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Mobile demo` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | 定義與集合相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `id` | 用於比對 `@id` 個實體的屬性。 字串完全相符。 引數 `id` 和 `name` 不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全符合，但可使用萬用字元。 引數 `id` 和 `name` 不能一起使用 | `Mobile demo` |
 
 **请求**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **响应**
 
-成功响应会返回版面的详细信息，包括有关容器ID、实例ID和唯一集合的信息 `@id`.
+成功的回應會傳回位置的詳細資訊，包括容器ID、執行個體ID和唯一集合的相關資訊 `@id`.
 
 ```json
 {

@@ -1,52 +1,52 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 频度规则
-description: 了解如何定义频度规则
+title: 頻率規則
+description: 瞭解如何定義頻率規則
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 消息，频率，规则，压力
+keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
-# 消息频度规则 {#frequency-rules}
+# 訊息頻率規則 {#frequency-rules}
 
-[!DNL Journey Optimizer] 允许您通过设置跨渠道规则来控制用户接收消息或进入历程的频率，该规则将自动从消息和操作中排除发送过量请求的用户档案。
+[!DNL Journey Optimizer] 可讓您設定跨管道規則，控制使用者接收訊息或進入歷程的頻率，這些規則會自動從訊息和動作中排除過度請求的設定檔。
 
-例如，您不希望您的品牌每月向其客户发送超过3条营销消息。
+例如，您不希望品牌每月傳送超過3則行銷訊息給客戶。
 
-为此，您可以使用频度规则来限制在每月日历期间根据一个或多个渠道发送的消息数量。
+若要這麼做，您可以使用頻率規則，在日曆的每月期間，根據一或多個管道傳送的訊息數量會受到限制。
 
 >[!NOTE]
 >
->消息频度规则与选择退出管理不同，选择退出管理允许用户取消订阅以接收来自品牌的通信。 [了解详情](../privacy/opt-out.md#opt-out-management)
+>訊息頻率規則與選擇退出管理不同，後者允許使用者取消訂閱以停止接收來自品牌的通訊。 [了解详情](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [在视频中发现此功能](#video)
 
-## 访问规则 {#access-rules}
+## 存取規則 {#access-rules}
 
-规则可从 **[!UICONTROL 管理]** > **[!UICONTROL 规则]** 菜单。 将列出所有规则，并按修改日期排序。
+規則可從以下網址取得： **[!UICONTROL 管理]** > **[!UICONTROL 規則]** 功能表。 所有規則都會列出，並按修改日期排序。
 
-使用过滤器图标可对类别、状态和/或渠道进行过滤。 您还可以在消息标签上搜索。
+使用篩選器圖示來篩選類別、狀態和/或頻道。 您也可以搜尋訊息標籤。
 
 ![](assets/message-rules-filter.png)
 
 ### 权限{#permissions-frequency-rules}
 
-要访问、创建、编辑或删除消息频度规则，您必须具有 **[!UICONTROL 管理频度规则]** 权限。
+若要存取、建立、編輯或刪除訊息頻率規則，您必須擁有 **[!UICONTROL 管理頻率規則]** 許可權。
 
-具有 **[!UICONTROL 查看频度规则]** 权限可以查看规则，但不能修改或删除规则。
+使用者具有 **[!UICONTROL 檢影片率規則]** 許可權可以檢視規則，但不能修改或刪除規則。
 
 ![](assets/message-rules-access.png)
 
-了解有关 [此部分](../administration/high-low-permissions.md).
+進一步瞭解中的許可權 [本節](../administration/high-low-permissions.md).
 
 ## 创建规则 {#create-new-rule}
 
@@ -65,13 +65,13 @@ ht-degree: 12%
 >title="定义规则应用到的渠道"
 >abstract="请至少选择一个渠道。对所有渠道的总计数应用上限。"
 
-要创建新规则，请执行以下步骤。
+若要建立新規則，請遵循下列步驟。
 
-1. 访问 **[!UICONTROL 消息频度规则]** 列表，然后单击 **[!UICONTROL 创建规则]**.
+1. 存取 **[!UICONTROL 訊息頻率規則]** 清單，然後按一下 **[!UICONTROL 建立規則]**.
 
    ![](assets/message-rules-create.png)
 
-1. 定义规则名称。
+1. 定義規則名稱。
 
    ![](assets/message-rules-details.png)
 
@@ -79,113 +79,113 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >当前仅 **[!UICONTROL 营销]** 类别。
+   >目前僅限 **[!UICONTROL 行銷]** 類別可供使用。
 
-1. 设置规则的上限，即每月可发送到单个用户配置文件的消息数上限。
+1. 設定規則的上限，即每月可傳送至個別使用者設定檔的訊息數量上限。
 
    ![](assets/message-rules-capping.png)
 
    >[!NOTE]
    >
-   >频度上限基于月度日历周期。 它会在每月初重置。
+   >頻率上限是以日曆的每月週期為基礎。 它會在每個月的月初重設。
 
-1. 选择要用于此规则的渠道： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 推送通知]**.
+1. 選取您要用於此規則的管道： **[!UICONTROL 電子郵件]** 或 **[!UICONTROL 推播通知]**.
 
    ![](assets/message-rules-channels.png)
 
    >[!NOTE]
    >
-   >您必须至少选择一个渠道才能创建规则。
+   >您必須至少選取一個管道才能建立規則。
 
-1. 如果要将上限作为总计数应用于所有选定渠道，请选择多个渠道。
+1. 如果您要將上限套用至所有選取的管道，並作為總計數，請選取數個管道。
 
-   例如，将上限设置为15，然后选择电子邮件和推送渠道。 如果用户档案已收到10封营销电子邮件和5条营销推送通知，则此用户档案将从任何营销电子邮件或推送通知的下一次投放中排除。
+   例如，將上限設為15，然後選取電子郵件和推播通道。 如果設定檔已收到10封行銷電子郵件和5個行銷推播通知，則此設定檔將從任何行銷電子郵件或推播通知的下一個傳送中排除。
 
-1. 单击 **[!UICONTROL 另存为草稿]** 以确认创建规则。 您的消息将添加到规则列表，并且 **[!UICONTROL 草稿]** 状态。
+1. 按一下 **[!UICONTROL 另存為草稿]** 以確認建立規則。 您的訊息會新增至規則清單，並使用 **[!UICONTROL 草稿]** 狀態。
 
    ![](assets/message-rules-created.png)
 
-## 激活规则 {#activate-rule}
+## 啟用規則 {#activate-rule}
 
-创建消息频度规则后，该规则的 **[!UICONTROL 草稿]** 状态和尚未影响任何消息。 要启用它，请单击规则旁边的省略号，然后选择 **[!UICONTROL 激活]**.
+建立後，訊息頻率規則會將 **[!UICONTROL 草稿]** 狀態，且尚未影響任何訊息。 若要啟用此功能，請按一下規則旁的省略符號，然後選取 **[!UICONTROL 啟動]**.
 
 ![](assets/message-rules-activate.png)
 
-激活规则将影响规则应用于其下次执行的任何消息。 了解如何 [将频度规则应用于消息](#apply-frequency-rule).
+啟用規則將會影響在下次執行時套用到的任何訊息。 瞭解如何 [將頻率規則套用至訊息](#apply-frequency-rule).
 
 >[!NOTE]
 >
->规则最多可能需要10分钟才能完全激活。 您无需修改消息或重新发布历程，规则即可生效。
+>完全啟用規則最多可能需要10分鐘。 您不需要修改訊息或重新發佈歷程，規則就能生效。
 
-要停用消息频度规则，请单击规则旁边的省略号，然后选择 **[!UICONTROL 停用]**.
+若要停用訊息頻率規則，請按一下規則旁邊的省略符號，然後選取 **[!UICONTROL 停用]**.
 
 ![](assets/message-rules-deactivate.png)
 
-规则的状态将更改为 **[!UICONTROL 不活动]** 并且该规则将不适用于将来的消息执行。 当前正在执行的任何消息都不会受到影响。
+規則的狀態將變更為 **[!UICONTROL 非使用中]** 而且規則不會套用至未來的訊息執行。 目前執行中的任何訊息都不會受到影響。
 
 >[!NOTE]
 >
->取消激活规则不会影响或重置单个用户档案的任何计数。
+>停用規則不會影響或重設個別設定檔的任何計數。
 
-## 将频度规则应用于消息 {#apply-frequency-rule}
+## 將頻率規則套用至訊息 {#apply-frequency-rule}
 
-要将频度规则应用于消息，请执行以下步骤。
+若要將頻率規則套用至訊息，請遵循下列步驟。
 
-1. 创建 [历程](../building-journeys/journey-gs.md)，通过选择您为规则定义的渠道之一来添加消息。
+1. 建立時 [歷程](../building-journeys/journey-gs.md)，選取您為規則定義的其中一個管道，以新增訊息。
 
-1. 选择为 [创建的规则](#create-new-rule).
+1. 選取您為定義的類別 [您已建立的規則](#create-new-rule).
 
    ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
-   >当前仅 **[!UICONTROL 营销]** 类别可用于消息频度规则。
+   >目前僅限 **[!UICONTROL 行銷]** 類別適用於訊息頻率規則。
 
-1. 您可以单击 **[!UICONTROL 频度规则]** 链接以查看新选项卡中的频度规则屏幕。 [了解详情](#access-rules)
+1. 您可以按一下 **[!UICONTROL 頻率規則]** 連結以在新標籤中檢影片率規則畫面。 [了解详情](#access-rules)
 
-   与所选类别和渠道匹配的所有频率规则都将自动应用于此消息。
+   所有符合所選類別和頻道的頻率規則將自動套用至此訊息。
 
    >[!NOTE]
    >
-   >选择类别的消息 **[!UICONTROL 事务型]** 将不会根据频度规则进行评估。
+   >所選類別為的訊息 **[!UICONTROL 異動]** 不會根據頻率規則進行評估。
 
-1. 您可以在 [全局报告](../reports/global-report.md)和 [实时报表](../reports/live-report.md)，其中频度规则将列为用户被排除在投放之外的可能原因。
+1. 您可以在中檢視從傳送中排除的設定檔數 [全域報告](../reports/global-report.md)，以及 [即時報告](../reports/live-report.md)，其中會列出頻率規則，作為使用者遭排除於傳送的可能原因。
 
 >[!NOTE]
 >
->多个规则可以应用于同一渠道，但达到下限后，下次投放中将排除用户档案。
+>數個規則可套用至相同的管道，但一旦達到較低上限，設定檔將從下一次傳送中排除。
 
-## 示例：合并多个规则 {#frequency-rule-example}
+## 範例：合併數個規則 {#frequency-rule-example}
 
-您可以组合多个消息频率规则，如以下示例中所述。
+您可以結合數個訊息頻率規則，如下例所述。
 
-1. [创建规则](#create-new-rule) 调用 *整体营销上限*:
+1. [建立規則](#create-new-rule) 已呼叫 *整體行銷上限*：
 
-   * 选择电子邮件和推送渠道。
-   * 将上限设置为12。
+   * 選取電子郵件和推播通道。
+   * 將上限設為12。
 
    ![](assets/message-rules-ex-overall-cap.png)
 
-1. 要进一步限制用户发送的基于营销的推送通知数量，请再创建一个名为 *推送营销上限*:
+1. 若要進一步限制傳送使用者的行銷型推播通知數量，請建立第二個規則，稱為 *推播行銷上限*：
 
-   * 选择推送渠道。
-   * 将上限设置为4。
+   * 選取「推播頻道」。
+   * 將上限設定為4。
 
    ![](assets/message-rules-ex-push-cap.png)
 
-1. 保存并 [激活](#activate-rule) 规则。
+1. 儲存並 [啟用](#activate-rule) 規則。
 
-1. 创建电子邮件并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../email/create-email.md)
+1. 建立電子郵件並選取 **[!UICONTROL 行銷]** 該訊息的類別。 [了解详情](../email/create-email.md)
 
-1. 创建推送通知并选择 **[!UICONTROL 营销]** 类别。 [了解详情](../push/create-push.md)
+1. 建立推播通知並選取 **[!UICONTROL 行銷]** 該訊息的類別。 [了解详情](../push/create-push.md)
 
-在此方案中，单个用户档案：
-* 每月最多可接收12条营销消息；
-* 但在收到4个推送通知后，将从营销推送通知中排除。
+在此案例中，個別設定檔：
+* 每月最多可接收12則行銷訊息；
+* 但在收到4個推播通知後，便會從行銷推播通知中排除。
 
 >[!NOTE]
 >
->测试频度规则时，建议使用新创建的 [测试用户档案](../segment/creating-test-profiles.md)，因为达到用户档案的频度上限后，在下个月之前将无法重置计数器。 取消激活规则将允许有上限的用户档案接收消息，但不会删除或删除任何计数器增量。
+>測試頻率規則時，建議使用新建立的 [測試設定檔](../segment/creating-test-profiles.md)，因為一旦達到設定檔的頻率上限，就無法在下個月之前重設計數器。 停用規則將允許設定檔接收訊息，但不會移除或刪除任何計數器增量。
 
 ## 操作方法视频 {#video}
 

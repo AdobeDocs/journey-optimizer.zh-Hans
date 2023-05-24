@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 步骤事件字段列表
-description: 旧字段
+title: 步驟事件欄位清單
+description: 舊版欄位
 feature: Reporting
 topic: Content Management
 role: User
@@ -17,7 +17,7 @@ ht-degree: 50%
 
 # 关于旧版字段 {#sharing-legacy-fields}
 
-此类别包含原始步骤事件字段。 这些字段属于以下字段组：
+此類別包含原始步驟事件欄位。 這些欄位是以下欄位群組的一部分：
 
 * [journeySteps 事件常用字段](../reports/sharing-common-fields.md)
 * [journeyStep 事件操作执行字段](../reports/sharing-execution-fields.md)

@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建内容实验
-description: 了解如何在营销活动中创建内容实验
+title: 建立內容實驗
+description: 瞭解如何在行銷活動中建立內容實驗
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
-keywords: 内容，实验，多个，受众，处理
+keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informitive"
+badge: label="Beta" type="Informative"
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# 创建内容体验 {#content-experiment}
+# 创建内容试验 {#content-experiment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
@@ -28,36 +28,36 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-您将在本文档中找到的内容：
+本文档包括以下内容：
 
-* [内容体验入门](get-started-experiment.md)
-* **[创建内容体验](content-experiment.md)**
+* [内容试验入门](get-started-experiment.md)
+* **[创建内容试验](content-experiment.md)**
 * [了解统计计算](experiment-calculations.md)
 * [配置实验报表](reporting-configuration.md)
 * [实验报表中的统计计算](experiment-report-calculations.md)
 
 >[!ENDSHADEBOX]
 
-Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡量哪种交付处理方式对目标受众的效果最佳。 您可以选择更改投放内容、主题或发件人。 兴趣的受众随机分配给每个治疗，以确定哪个治疗在指定量度方面效果最佳。
+Journey Optimizer內容實驗可讓您定義多個傳送處理方式，以衡量哪個方式最適合您的目標對象。 您可以選擇變更傳遞內容、主旨或寄件者。 感興趣的對象會隨機分配給每個處理，以決定哪個處理在指定的量度方面效果最佳。
 
 >[!NOTE]
 >
->在开始内容实验之前，请确保为自定义数据集设置了报表配置。 有关详细信息，请参阅[此部分](reporting-configuration.md)。
+>開始內容實驗之前，請確定您的報告設定已針對自訂資料集設定。 有关详细信息，请参阅[此部分](reporting-configuration.md)。
 
-在以下示例中，投放目标已被拆分为两个组，每个组分别占目标群体的45%，而拒绝组为10%，他们将不会收到投放。
+在下列範例中，傳遞目標已分割為兩個群組，每個群組代表目標人口的45%，以及一個保留群組10%，這些群組將不會收到傳遞。
 
-目标受众中的每个人都将收到一封电子邮件的一个版本，其主题行为以下两个版本之一：
+目標對象中的每個人都會收到一個版本的電子郵件，主旨列是以下兩個版本之一：
 
-* 一个是直接向新收藏集和图像促销10%的优惠。
-* 另一个只是在广告中宣传特惠，而没有指定任何图像的10%的优惠。
+* 直接推廣新系列和影像的10%優惠方案的使用者。
+* 另一個只宣傳特殊優惠而沒有指定沒有任何影像的10%折扣。
 
-此处的目标是根据收到的实验，查看收件人是否将与电子邮件进行交互。 因此，我们将选择 **[!UICONTROL 电子邮件打开次数]** 作为此内容实验中的主要目标量度。
+此處的目標是檢視收件者是否會根據收到的實驗與電子郵件互動。 因此，我們將選擇 **[!UICONTROL 電子郵件開啟次數]** 作為此內容實驗中的主要目標量度。
 
 ![](assets/content_experiment.png)
 
-## 创建营销活动 {#campaign-experiment}
+## 建立您的行銷活動 {#campaign-experiment}
 
-1. 从 **[!UICONTROL 促销活动]** 页面，单击 **[!UICONTROL 创建营销活动]**.
+1. 從 **[!UICONTROL 行銷活動]** 頁面，按一下 **[!UICONTROL 建立行銷活動]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -70,117 +70,117 @@ Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡
     
         To execute an API-triggered campaign, you will need to make an API call. [Learn more](api-triggered-campaigns.md)
 -->
-1. 选择您的渠道，然后选择 **[!UICONTROL 曲面]** 要用于此投放，请单击 **[!UICONTROL 创建]**. 有关更多信息，请参阅 [通道曲面](../configuration/channel-surfaces.md) 页面。
+1. 選取您的頻道，然後 **[!UICONTROL 表面]** 您要用於此傳遞，然後按一下 **[!UICONTROL 建立]**. 如需詳細資訊，請參閱 [管道表面](../configuration/channel-surfaces.md) 頁面。
 
    ![](assets/content_experiment_2.png)
 
-1. 设置 **[!UICONTROL 属性]** 投放内容：
+1. 設定 **[!UICONTROL 屬性]** 您的傳遞內容：
    * **[!UICONTROL 名称]**
    * **[!UICONTROL 描述]**
 
-1. 定义要定位的受众。 为此，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用的Adobe Experience Platform区段列表。 [了解有关区段的更多信息](../segment/about-segments.md)
+1. 定義要定位的對象。 若要這麼做，請按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform區段的清單。 [深入瞭解區段](../segment/about-segments.md)
 
-   在 **[!UICONTROL 身份命名空间]** 字段中，选择要用于识别选定区段中个人的命名空间。 [了解详情](get-started-experiment.md#content-experiment-work)
+   在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [了解详情](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 
-1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开次数。
+1. 在 **[!UICONTROL 動作追蹤]** 區段，指定是否要追蹤收件者對傳送的反應：您可以追蹤點按和/或開啟。
 
-   一旦执行了营销活动，即可从营销活动报表访问跟踪结果。
+   執行行銷活動後，即可從行銷活動報表存取追蹤結果。
 
-1. 要在特定日期或定期频率执行营销活动，请配置 **[!UICONTROL 计划]** 中。 [了解详情](create-campaign.md)
+1. 若要在特定日期或循環頻率執行行銷活動，請設定 **[!UICONTROL 排程]** 區段。 [了解详情](create-campaign.md)
 
-1. 单击 **[!UICONTROL 编辑内容]** 以开始个性化投放。 [了解详情](../email/content-from-scratch.md)
+1. 按一下 **[!UICONTROL 編輯內容]** 以開始個人化您的傳遞。 [了解详情](../email/content-from-scratch.md)
 
    ![](assets/content_experiment_17.png)
 
-1. 从 **[!UICONTROL 编辑内容]** 窗口，开始个性化处理A。
+1. 從 **[!UICONTROL 編輯內容]** 視窗，開始個人化處理A。
 
-   对于此处理方式，我们将直接在主题行中指定特殊选件并添加个性化。
+   針對此處理方式，我們將直接在主旨行中指定特殊優惠方案，並新增個人化。
 
    ![](assets/content_experiment_5.png)
 
-## 配置内容实验 {#configure-experiment}
+## 設定您的內容實驗 {#configure-experiment}
 
-1. 在您的投放进行个性化后，从Campaign摘要页面，单击 **[!UICONTROL 创建实验]** 以开始配置内容实验。
+1. 當您的傳遞個人化時，從Campaign摘要頁面，按一下 **[!UICONTROL 建立實驗]** 以開始設定您的內容實驗。
 
    ![](assets/content_experiment_3.png)
 
-1. 选择 **[!UICONTROL 成功量度]** 你想为你的实验设定。
+1. 選取 **[!UICONTROL 成功量度]** 您想要為實驗設定。
 
-   对于我们的实验，我们选择 **[!UICONTROL 电子邮件打开]** 以测试收件人在促销代码位于主题行中时是否会打开其电子邮件。
+   對於我們的實驗，我們選取 **[!UICONTROL 電子郵件開啟]** 測試收件者是否會開啟其電子郵件（如果促銷代碼在主題行中）。
 
    ![](assets/content_experiment_11.png)
 
-1. 单击 **[!UICONTROL 添加治疗]** 以创造所需数量的新治疗。
+1. 按一下 **[!UICONTROL 新增處理]** 以建立所需數量的新處理。
 
    ![](assets/content_experiment_8.png)
 
-1. 更改 **[!UICONTROL 标题]** 以便更好地区分他们。
+1. 變更 **[!UICONTROL 標題]** 以更佳地區分它們。
 
-1. 选择添加 **[!UICONTROL 维持]** 组到您的投放。 此群组将不会从此营销策划接收任何内容。
+1. 選擇以新增 **[!UICONTROL 保留]** 群組至您的傳遞。 此群組將不會收到此行銷活動中的任何內容。
 
-   打开切换栏将自动获取您群体的10%，您可以根据需要调整此百分比。
+   開啟切換列會自動取得母體的10%，您可以視需要調整此百分比。
 
    ![](assets/content_experiment_12.png)
 
-1. 然后，您可以选择为每个 **[!UICONTROL 治疗]** 或者只是打开 **[!UICONTROL 均匀分配]** 切换栏。
+1. 然後，您可以選擇將精確百分比配置給每一個 **[!UICONTROL 處理]** 或只需開啟 **[!UICONTROL 平均分配]** 切換列。
 
    ![](assets/content_experiment_13.png)
 
-1. 单击 **[!UICONTROL 创建]** 设置配置时。
+1. 按一下 **[!UICONTROL 建立]** 設定您的設定時。
 
-## 设计您的处理方法 {#treatment-experiment}
+## 設計您的處理方式 {#treatment-experiment}
 
-1. 从 **[!UICONTROL 编辑内容]** 窗口中，选择您的治疗B以更改内容。
+1. 從 **[!UICONTROL 編輯內容]** 視窗中，選取您的處理B以變更內容。
 
-   在此，我们选择不在 **[!UICONTROL 主题行]**.
+   在此，我們選擇不指定中的選件 **[!UICONTROL 主旨列]**.
 
    ![](assets/content_experiment_18.png)
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 进一步个性化你的治疗B。
+1. 按一下 **[!UICONTROL 編輯電子郵件內文]** 以進一步個人化您的待遇B。
 
    ![](assets/content_experiment_9.png)
 
-1. 设计理疗后，单击 **[!UICONTROL 更多操作]** 要访问与您的治疗相关的选项，请执行以下操作： **[!UICONTROL 重命名]**, **[!UICONTROL 复制]** 和 **[!UICONTROL 删除]**.
+1. 設計您的處理方式後，按一下 **[!UICONTROL 更多動作]** 若要存取與處理相關的選項： **[!UICONTROL 重新命名]**， **[!UICONTROL 複製]** 和 **[!UICONTROL 刪除]**.
 
    ![](assets/content_experiment_7.png)
 
-1. 如果需要，请访问 **[!UICONTROL 实验设置]** 菜单来更改您的处理配置。
+1. 如有需要，請存取 **[!UICONTROL 實驗設定]** 功能表以變更您的處理設定。
 
    ![](assets/content_experiment_19.png)
 
-1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮以控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../email/preview.md)
+1. 定義訊息內容後，按一下 **[!UICONTROL 模擬內容]** 按鈕來控制傳遞的呈現，並使用測試設定檔檢查個人化設定。 [了解详情](../email/preview.md)
 
-1. 在内容实验准备就绪后，从Campaign摘要页面中，您可以单击 **[!UICONTROL 查看以激活]** 以显示营销活动摘要。 如果有任何参数不正确或缺失，则会显示警报。
+1. 當您的內容實驗準備就緒時，您可以從您的Campaign摘要頁面按一下 **[!UICONTROL 檢閱以啟動]** 以顯示行銷活動的摘要。 如果有任何引數不正確或遺失，則會顯示警報。
 
    ![](assets/content_experiment_15.png)
 
-1. 检查营销活动配置是否正确，然后单击 **[!UICONTROL 激活]** 启动它。
+1. 檢查您的行銷活動是否已正確設定，然後按一下 **[!UICONTROL 啟動]** 以啟動它。
 
    ![](assets/content_experiment_14.png)
 
-在配置实验和营销活动后，您可以使用营销活动报表跟踪投放成功与否。
+設定實驗與行銷活動後，您可以使用Campaign報告追蹤傳送成功。
 
-## 目标报告 {#objectives-global}
+## 目標報表 {#objectives-global}
 
 >[!AVAILABILITY]
 >
->内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+>內容實驗功能目前僅適用於一組組織（可用性限制）。 有关更多信息，请与您的 Adobe 代表联系。
 
 ![](assets/performance_report.gif)
 
-的 **[!UICONTROL 目标]** 选项卡，通过定位一个特定量度来优化投放报表。
+此 **[!UICONTROL 目標]** Campaign報告的「 」索引標籤可讓您透過鎖定一個特定量度，更好地微調傳送的報告。
 
-的 **[!UICONTROL 目标]** 已列出，链接到 **[!UICONTROL 数据集]** 定义与系统的连接以检索其他信息。 内置列表 **[!UICONTROL 目标]** 可用，但您可以通过添加新来添加自己的 **[!UICONTROL 数据集]**. 有关详细过程，请参阅此 [部分](reporting-configuration.md).
+此 **[!UICONTROL 目標]** 清單連結至 **[!UICONTROL 資料集]** 定義系統連線，以擷取其他資訊。 內建清單 **[!UICONTROL 目標]** 可使用，但您可以透過新增來新增您自己的 **[!UICONTROL 資料集]**. 如需詳細程式，請參閱此 [區段](reporting-configuration.md).
 
-选择要定位的目标后，这两个 **[!UICONTROL 性能概述]** 和 **[!UICONTROL 营销活动目标]** 小组件将提供您交付性能的详细摘要。
+選取您要鎖定目標之後，兩項 **[!UICONTROL 效能總覽]** 和 **[!UICONTROL 行銷活動目標]** Widget將提供您傳遞效能的詳細摘要。
 
-使用 **[!UICONTROL 营销活动目标]** 小组件中，您还可以选择将主要目标与其他量度进行比较。
+使用 **[!UICONTROL 行銷活動目標]** widget，您也可以選擇將主要目標與其他量度比較。
 
-请注意，如果需要，可以调整每个小组件的大小并将其删除。 有关此内容的更多信息，请参阅此内容 [部分](../reports/global-report.md#modify-dashboard).
+請注意，如果需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此 [區段](../reports/global-report.md#modify-dashboard).
 
-## 实验报表 {#experimentation-global}
+## 實驗報告 {#experimentation-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
@@ -189,28 +189,28 @@ Journey Optimizer内容实验允许您定义多种交付处理方式，以便衡
 
 >[!AVAILABILITY]
 >
->内容实验功能当前仅适用于一组组织（有限可用性）。 有关更多信息，请与您的 Adobe 代表联系。
+>內容實驗功能目前僅適用於一組組織（可用性限制）。 有关更多信息，请与您的 Adobe 代表联系。
 
 ![](assets/experimentation_report_3.png)
 
-从营销策划 **[!UICONTROL 全局报告]**, **[!UICONTROL 实验]** 选项卡详细列出了与每个变体的执行方式以及是否存在最佳执行者相关的主要信息。
+從您的行銷活動 **[!UICONTROL 全域報告]**，則 **[!UICONTROL 實驗]** tab會詳細說明與每個變體的表現以及是否有最佳表現相關的主要資訊。
 
-请注意，定义最佳表演可能需要一些时间，它将由此图标表示 ![](assets/experimentation_report_1.png).
+請注意，定義績效最佳者可能需要一些時間，其將以此圖示表示 ![](assets/experimentation_report_1.png).
 
-的 **[!UICONTROL 实验结果]** 小组件详细介绍每个变体的性能。 您可以通过从 **[!UICONTROL 基线]** 下拉菜单。 最佳待遇将用星形图标表示。
+此 **[!UICONTROL 實驗結果]** Widget詳細說明每個變體的效能。 您可以變更基線，方法是從 **[!UICONTROL 基線]** 下拉式清單。 最佳處理方式將以星形圖示表示。
 
-下表显示了以下量度：
+此表格會顯示下列量度：
 
-* **[!UICONTROL 用户档案]**:针对此治疗的用户档案数。
+* **[!UICONTROL 設定檔]**：針對此處理的設定檔數目。
 
-* **[!UICONTROL 独特出站点击]**:出站渠道的总点击次数。
+* **[!UICONTROL 不重複傳出點按]**：跨傳出頻道的點按總數。
 
-* **[!UICONTROL 每个用户档案的计数]**:实验目标量度的总值除以用户档案数。
+* **[!UICONTROL 每個設定檔計數]**：實驗目標量度的總值除以設定檔數量。
 
-* **[!UICONTROL 置信区间]**:基线与最佳处理之间性能差异的百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
+* **[!UICONTROL 信賴區間]**：基準線和績效最佳的處理之間的績效差異百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
 
-* **[!UICONTROL 平均提升度]**:给定治疗相对于基准线的转化率提高的百分比。 [了解详情](../campaigns/experiment-calculations.md#understand-lift)
+* **[!UICONTROL 平均提升度]**：指定處理的轉換率超過基線的改善百分比。 [了解详情](../campaigns/experiment-calculations.md#understand-lift)
 
-* **[!UICONTROL 置信度]**:有证据表明，给定治疗与基准治疗相同。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 信賴度]**：指定處理與基準處理相同的證據。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
 
-要深入了解这些结果以及如何解释它们，请参阅 [本页](../campaigns/get-started-experiment.md#interpret-results).
+如需這些結果的深入瞭解及如何解讀，請參閱 [此頁面](../campaigns/get-started-experiment.md#interpret-results).

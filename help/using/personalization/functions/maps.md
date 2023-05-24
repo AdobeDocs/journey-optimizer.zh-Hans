@@ -1,6 +1,6 @@
 ---
-title: 映射函数库
-description: 映射函数库
+title: 地圖函式庫
+description: 地圖函式庫
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 5%
 
 ---
 
-# 映射函数{#maps}
+# 地圖函式{#maps}
 
-在个性化中使用映射函数，以便更轻松地与映射交互。
+在個人化中使用地圖功能，以便更輕鬆地與地圖互動。
 
-## 获取{#get}
+## 取得{#get}
 
-的 `get` 函数用于检索给定键值的映射值。
+此 `get` 函式用於擷取給定索引鍵的對映值。
 
 **语法**
 
@@ -29,15 +29,15 @@ ht-degree: 5%
 
 **示例**
 
-以下操作将获取键的标识映射值 `example@example.com`.
+下列作業取得索引鍵的身分對應值 `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
 ```
 
-## 键{#keys}
+## 金鑰{#keys}
 
-的 `keys` 函数用于检索给定映射的所有键。
+此 `keys` 函式來擷取給定對應的所有索引鍵。
 
 **语法**
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 **示例**
 
-以下操作将获取映射的所有键值 `identityMap`.
+下列作業取得對應的所有索引鍵 `identityMap`.
 
 ```sql
 {%= keys(identityMap) %}
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 ## 值{#values}
 
-的 `values` 函数检索给定映射的所有值。
+此 `values` 函式來擷取給定對應的所有值。
 
 **语法**
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 **示例**
 
-以下操作将获取映射的所有值 `identityMap`.
+下列作業取得對應的所有值 `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

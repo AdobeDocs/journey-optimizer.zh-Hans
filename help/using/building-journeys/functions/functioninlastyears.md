@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inLastYears
-description: 了解LastYears中的函数
+description: 瞭解函式inLastYears
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastYears，函数，表达式，历程
+keywords: inLastYears，函式，運算式，歷程
 exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 18%
 
 # inLastYears {#inLastYears}
 
-如果给定的日期或dateTime介于现在和现在之间 — 增量年，则返回true。
+如果指定的日期或dateTime介於現在和現在之間 — 差異年份，則傳回true。
 
 ## 类别
 
 日期
 
-## 函数语法
+## 函式語法
 
 `inLastYears(<dateTime>,<delta>)`
 
@@ -30,17 +30,17 @@ ht-degree: 18%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期时间 | dateTime |
-| 三角洲 | 整数 |
+| 日期時間 | dateTime |
+| delta | 整数 |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `inLastYears(<dateTime>,<integer>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `inLastYears(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。

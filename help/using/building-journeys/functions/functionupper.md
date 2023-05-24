@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: upper
-description: 了解函数上部
+description: 瞭解函式上限
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 上限，函数，表达式，历程
+keywords: upper， function， expression， journey
 exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,24 +16,24 @@ ht-degree: 15%
 
 # upper {#upper}
 
-返回参数的大写版本。
+傳回引數的大寫版本。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `upper(<parameters>)`
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `upper(<string>)`
 
-返回字符串。
+傳回字串。
 
 ## 示例
 
 `upper("b")`
 
-返回“B”。
+傳回「B」。

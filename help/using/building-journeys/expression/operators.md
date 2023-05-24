@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 操作员
-description: 了解高级表达式中的运算符
+description: 瞭解進階運算式中的運運算元
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 表达式，语法，运算符，编辑器，历程
+keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 操作员 {#operators}
 
-有两种运算符：一元运算符和二进制运算符。 有左一元运算符和右一元运算符。
+運運算元有兩種型別：一元運運算元和二進位運運算元。 有左側一元運運算元和右側一元運運算元。
 
 ```json
 // left-hand unary operators
@@ -38,11 +38,11 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## 重要说明{#important-notes}
 
-* 使用乘数(`*`)，则两个运算字段必须具有相同的类型（整数或小数）。 示例：
-   * 以下示例正确： `3.0 * 4.0`
-   * `3 * 4.0` 会导致错误
+* 使用乘法時(`*`)，則兩個作業欄位都必須有相同的型別，可以是整數或小數。 示例：
+   * 以下範例是正確的： `3.0 * 4.0`
+   * `3 * 4.0` 將導致錯誤
 
-## 逻辑  {#logical}
+## 邏輯  {#logical}
 
 ### 和
 
@@ -50,7 +50,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-两者兼有 &lt;expression1> 和 &lt;expression2> 必须是布尔值。 结果为布尔值。
+兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
 
 示例：
 
@@ -64,7 +64,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> or <expression2>
 ```
 
-两者兼有 &lt;expression1> 和 &lt;expression2> 必须是布尔值。 结果为布尔值。
+兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
 
 示例：
 
@@ -78,7 +78,7 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 not <expression>
 ```
 
-&lt;expression> 必须是布尔值。 结果为布尔值。
+&lt;expression> 必須為布林值。 結果是布林值。
 
 示例：
 
@@ -86,17 +86,17 @@ not <expression>
 not 3.15 < 1
 ```
 
-## 比较 {#comparison}
+## 比較 {#comparison}
 
-### 为null
+### 為null
 
 ```json
 <expression> is null
 ```
 
-结果为布尔值。
+結果是布林值。
 
-请注意，null表示表达式没有计算值。
+請注意，null表示運算式沒有評估值。
 
 示例：
 
@@ -104,15 +104,15 @@ not 3.15 < 1
 @{BarBeacon.location} is null
 ```
 
-### 不为空
+### 不是null
 
 ```json
 <expression> is not null
 ```
 
-结果为布尔值。
+結果是布林值。
 
-请注意，null表示表达式没有计算值。
+請注意，null表示運算式沒有評估值。
 
 示例：
 
@@ -126,9 +126,9 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必须是列表。 结果为布尔值。
+&lt;expression> 必須為清單。 結果是布林值。
 
-用于标识列表至少包含一个空值。
+用於識別清單是否包含至少一個Null值。
 
 示例：
 
@@ -136,13 +136,13 @@ not 3.15 < 1
 ["foo", "bar", null] has null
 ```
 
-返回true
+傳回true
 
 ```json
 ["foo", "bar", ""] has null
 ```
 
-返回false，因为“”不被视为null。
+傳回false，因為「」不視為null。
 
 ### ==
 
@@ -152,7 +152,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
->对于 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
+>對象 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
 
 示例：
 
@@ -171,9 +171,9 @@ not 3.15 < 1
 ```
 
 >[!NOTE]
-对于 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
+對象 &lt;expression1> 和 &lt;expression2> 沒有資料型別控制項。
 
-结果为布尔值。
+結果是布林值。
 
 示例：
 
@@ -191,15 +191,15 @@ not 3.15 < 1
 <expression1> > <expression2>
 ```
 
-可以将日期时间与日期时间进行比较。
+Datetime可以與Datetime比較。
 
-可以将Datetimeonly与Datetimeonly进行比较。
+Datetimeonly可與Datetimeonly比較。
 
-可以将整数或小数都与整数或小数进行比较。
+整數或小數點都可與整數或小數點進行比較。
 
-禁止任何其他组合。
+禁止任何其他組合。
 
-结果为布尔值。
+結果是布林值。
 
 示例：
 
@@ -213,15 +213,15 @@ not 3.15 < 1
 <expression1> >= <expression2>
 ```
 
-可以将日期时间与日期时间进行比较。
+Datetime可以與Datetime比較。
 
-可以将Datetimeonly与Datetimeonly进行比较。
+Datetimeonly可與Datetimeonly比較。
 
-可以将整数或小数都与整数或小数进行比较。
+整數或小數點都可與整數或小數點進行比較。
 
-禁止任何其他组合。
+禁止任何其他組合。
 
-结果为布尔值。
+結果是布林值。
 
 示例：
 
@@ -235,15 +235,15 @@ not 3.15 < 1
 <expression1> < <expression2>
 ```
 
-可以将日期时间与日期时间进行比较。
+Datetime可以與Datetime比較。
 
-可以将Datetimeonly与Datetimeonly进行比较。
+Datetimeonly可與Datetimeonly比較。
 
-可以将整数或小数都与整数或小数进行比较。
+整數或小數點都可與整數或小數點進行比較。
 
-禁止任何其他组合。
+禁止任何其他組合。
 
-结果为布尔值。
+結果是布林值。
 
 示例：
 
@@ -257,15 +257,15 @@ not 3.15 < 1
 <expression1> <= <expression2>
 ```
 
-可以将日期时间与日期时间进行比较。
+Datetime可以與Datetime比較。
 
-可以将Datetimeonly与Datetimeonly进行比较。
+Datetimeonly可與Datetimeonly比較。
 
-可以将整数或小数都与整数或小数进行比较。
+整數或小數點都可與整數或小數點進行比較。
 
-禁止任何其他组合。
+禁止任何其他組合。
 
-结果为布尔值。
+結果是布林值。
 
 示例：
 
@@ -273,7 +273,7 @@ not 3.15 < 1
 42 <= 3.14
 ```
 
-## 算术 {#arithmetic}
+## 算術 {#arithmetic}
 
 ### +
 
@@ -281,9 +281,9 @@ not 3.15 < 1
 <expression1> + <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+這兩個運算式都必須是數值（整數或小數）。
 
-结果也是数字。
+結果也是數字。
 
 示例：
 
@@ -291,7 +291,7 @@ not 3.15 < 1
 1 + 2
 ```
 
-返回3
+傳回3
 
 ### -
 
@@ -299,9 +299,9 @@ not 3.15 < 1
 <expression1> - <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+這兩個運算式都必須是數值（整數或小數）。
 
-结果也是数字。
+結果也是數字。
 
 示例：
 
@@ -309,7 +309,7 @@ not 3.15 < 1
 2 - 1 
 ```
 
-返回1
+傳回1
 
 ### /
 
@@ -317,11 +317,11 @@ not 3.15 < 1
 <expression1> / <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+這兩個運算式都必須是數值（整數或小數）。
 
-结果也是数字。
+結果也是數字。
 
-&lt;expression2> 不得等于0（返回0）。
+&lt;expression2> 不得等於0 （傳回0）。
 
 示例：
 
@@ -329,7 +329,7 @@ not 3.15 < 1
 4 / 2
 ```
 
-返回2
+傳回2
 
 ### *
 
@@ -337,9 +337,9 @@ not 3.15 < 1
 <expression1> * <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+這兩個運算式都必須是數值（整數或小數）。
 
-结果也是数字。
+結果也是數字。
 
 示例：
 
@@ -347,7 +347,7 @@ not 3.15 < 1
 3 * 4
 ```
 
-返回12
+傳回12
 
 ### %
 
@@ -355,9 +355,9 @@ not 3.15 < 1
 <expression1> % <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+這兩個運算式都必須是數值（整數或小數）。
 
-结果也是数字。
+結果也是數字。
 
 示例：
 
@@ -365,17 +365,17 @@ not 3.15 < 1
 3 % 2
 ```
 
-返回1。
+傳回1。
 
 ## 数学 {#math}
 
-### 表示数值
+### 為數值
 
 ```json
 <expression> is numeric
 ```
 
-表达式的类型为整数或小数。
+運算式的型別是整數或小數。
 
 示例：
 
@@ -383,13 +383,13 @@ not 3.15 < 1
 @ is numeric
 ```
 
-### 是整数
+### 為整數
 
 ```json
 <expression> is integer
 ```
 
-表达式的类型为整数。
+運算式的型別是整數。
 
 示例：
 
@@ -397,13 +397,13 @@ not 3.15 < 1
 @ is integer
 ```
 
-### 小数
+### 為小數
 
 ```json
 <expression> is decimal
 ```
 
-表达式的类型为十进制。
+運算式的型別是十進位。
 
 示例：
 
@@ -423,9 +423,9 @@ not 3.15 < 1
 <expression> + <string>
 ```
 
-它连接两个表达式。
+它會串連兩個運算式。
 
-一个表达式必须是链式字符串。
+一個運算式必須是鏈結字串。
 
 示例：
 
@@ -433,19 +433,19 @@ not 3.15 < 1
 "the current time is " + (now())
 ```
 
-返回“当前时间为2019-09-23T09:30:06.693z”
+傳回「目前時間是2019-09-23T09:30:06.693盎司
 
 ```json
 (now()) + " is the current time"
 ```
 
-返回&quot;2019-09-23T09:30:06.693Z是当前时间”
+傳回「2019-09-23T09」:30:06.693Z為目前時間」
 
 ```json
 "a" + "b" + "c" + 1234
 ```
 
-返回“abc1234”。
+傳回「abc1234」。
 
 ## 日期 {#date}
 
@@ -455,7 +455,7 @@ not 3.15 < 1
 <expression> + <duration>
 ```
 
-将持续时间附加到dateTime、dateTimeOnly或持续时间。
+將期間附加至dateTime、dateTimeOnly或duration。
 
 示例：
 
@@ -463,22 +463,22 @@ not 3.15 < 1
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-返回 _dateTime_ 2011-12-03T15:30:30Z
+傳回 _dateTime_ 2011-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-返回 _dateTimeOnly_ 2011-12-03T15:30:30
+傳回 _dateTimeOnly_ 2011-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-返回 _dateTime_ （带UTC时区）距当前时间一小时后
+傳回 _dateTime_ （含UTC時區）從目前時間推後1小時
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-返回 _持续时间_ PT2H
+傳回 _持續時間_ PT2H

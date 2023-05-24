@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: notEqualIgnoreCase
-description: 了解函数notEqualIgnoreCase
+description: 瞭解函式notEqualIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: notEqualIgnoreCase，函数，表达式，历程
+keywords: notEqualIgnoreCase，函式，運算式，歷程
 exl-id: 74f8cae0-7d2f-4f5e-bc13-837c9bc69ad9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 12%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-检查具有第二个参数字符串的第一个参数字符串是否不同，忽略大小写注意事项。
+檢查第一個引數字串與第二個引數字串是否不同，忽略大小寫考量。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `notEqualIgnoreCase(<parameters>)`
 
@@ -30,11 +30,11 @@ ht-degree: 12%
 
 * 字符串
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `notEqualIgnoreCase(<string>,<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 

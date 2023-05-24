@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: setHours
-description: 了解函数setHours
+description: 瞭解函式setHours
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: setHours，函数，表达式， journey
+keywords: setHours，函式，運算式，歷程
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 9%
 
 # setHours {#setHours}
 
-仅设置日期时间或日期时间的小时数。 例如，如果您想要等到明天某个小时，则可以强制该小时。
+僅設定日期時間或日期時間的小時。 例如，如果您要等到明天的某個小時，您可以強制該小時。
 
 ## 类别
 
 日期
 
-## 函数语法
+## 函式語法
 
 `setHours(<parameter>)`
 
@@ -30,26 +30,26 @@ ht-degree: 9%
 
 | 参数 | 类型 |
 |--- |--- |
-| 日期时间 | dateTime |
-| 不考虑时区的日期时间 | dateTimeOnly |
+| 日期時間 | dateTime |
+| 不考慮時區的日期時間 | dateTimeOnly |
 | 小时 | 整数 |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `setHours(<dateTime>,<hours>)`
 
-返回日期时间。
+傳回日期時間。
 
 `setHours(<dateTimeOnly>,<hours>)`
 
-返回日期时间，而不考虑时区。
+傳回不考慮時區的日期時間。
 
 ## 示例
 
 `setHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-返回2010-12-12T04:11:00Z。
+傳回2010-12-12T04:11:00Z。
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-明天8:XY PM返回，XY是当前时间评估时的分钟。 如果评估在凌晨2:45进行，则返回的时间将为晚上8:45。
+明天晚上8：XY，XY會傳回目前時間評估的分鐘數。 如果評估在凌晨2:45進行，則傳回的時間將會是晚上8:45。

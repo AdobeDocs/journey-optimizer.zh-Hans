@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inNextHours
-description: 了解inNextHours的函数
+description: 瞭解inNextHours函式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextHours，函数，表达式，历程
+keywords: inNextHours，函式，運算式，歷程
 exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 18%
 
 # inNextHours {#inNextHours}
 
-如果给定的日期或dateTime介于现在和现在+增量小时之间，则返回true。
+如果指定的日期或日期時間介於現在和現在+差異小時之間，則傳回true。
 
 ## 类别
 
 日期
 
-## 函数语法
+## 函式語法
 
 `inNextHours(<dateTime>,<delta>)`
 
@@ -30,17 +30,17 @@ ht-degree: 18%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期时间 | dateTime |
-| 三角洲 | 整数 |
+| 日期時間 | dateTime |
+| delta | 整数 |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `inNextHours(<dateTime>,<integer>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。

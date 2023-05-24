@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建 IP 池
-description: 了解如何管理IP池
+description: 瞭解如何管理IP集區
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: IP、池、组、子域、可交付性
+keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
@@ -28,97 +28,97 @@ ht-degree: 10%
 >title="设置 IP 池"
 >abstract="使用 Journey Optimizer，您可以创建 IP 池，将子域的 IP 地址分组在一起。这可以显著提高您的电子邮件送达率，因为这样做可以防止一个子域的声誉影响您的其他子域。"
 
-## 关于IP池 {#about-ip-pools}
+## 關於IP集區 {#about-ip-pools}
 
-使用 [!DNL Journey Optimizer]，则可以创建IP池以将子域的IP地址分组到一起。
+替換為 [!DNL Journey Optimizer]，您可以建立IP集區，將子網域的IP位址群組在一起。
 
-强烈建议创建IP池，以便电子邮件可投放。 这样，您就可以防止子域的声誉影响您的其他子域。
+強烈建議建立IP集區，以傳遞電子郵件。 如此，您就可以防止子網域的信譽影響您的其他子網域。
 
-例如，一个最佳实践是为营销消息提供一个IP池，为事务型消息设置一个IP池。 这样，如果您的其中一条营销消息性能不佳，且客户声明为垃圾邮件，则不会影响发送给该客户的事务型消息，该客户仍将接收事务型消息（购买确认、密码恢复消息等）。
+例如，一個最佳實務是讓一個IP集區用於行銷訊息，另一個集區用於交易式訊息。 如此一來，如果您的行銷訊息之一執行不佳且被客戶宣告為垃圾訊息，則不會影響傳送給該客戶的交易式訊息，該客戶仍會收到交易式訊息（購買確認、密碼恢複訊息等）。
 
 >[!CAUTION]
 >
->IP池配置对所有环境都是通用的。 因此，任何IP池创建或编辑都将影响生产沙箱。
+>IP集區設定對所有環境都是通用的。 因此，任何IP集區的建立或編輯也將影響生產沙箱。
 
-## 创建IP池 {#create-ip-pool}
+## 建立IP集區 {#create-ip-pool}
 
-要创建IP池，请执行以下步骤：
+若要建立IP集區，請遵循下列步驟：
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP池]** 菜单，然后单击 **[!UICONTROL 创建IP池]**.
+1. 存取 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL ip集區]** 功能表，然後按一下 **[!UICONTROL 建立IP集區]**.
 
    ![](assets/ip-pool-create.png)
 
-1. 为IP池提供名称和描述（可选）。
+1. 提供IP集區的名稱和說明（選擇性）。
 
    >[!NOTE]
    >
-   >名称必须以字母(A-Z)开头，且只包含字母数字字符或特殊字符(_、 ., -)。
+   >名稱必須以字母(A-Z)開頭，且僅包含英數字元或特殊字元( _、.、-)。
 
-1. 从下拉列表中选择要包含在池中的IP地址，然后单击 **[!UICONTROL 提交]**.
+1. 從下拉式清單中選取要包含在集區中的IP位址，然後按一下 **[!UICONTROL 提交]**.
 
    ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
-   >随您的实例配置的所有IP地址都可在列表中找到。
+   >清單中提供您執行個體布建的所有IP位址。
 
-选择IP时，您可以从列表中看到与IP关联的PTR记录。 这样，您就可以在创建IP池时验证每个IP的品牌信息，并选择具有相同品牌信息的IP。 [了解有关PTR记录的更多信息](ptr-records.md)
+選取IP時，您可以從清單中檢視與IP相關聯的PTR記錄。 這可讓您在建立IP集區時驗證每個IP的品牌資訊，並選取具有相同品牌資訊的IP。 [深入瞭解PTR記錄](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
 >[!NOTE]
 >
->如果没有为IP配置PTR记录，则无法选择该IP。 请联系您的Adobe代表以配置该IP的PTR记录。
+>如果未為IP設定PTR記錄，則無法選取該IP。 請聯絡您的Adobe代表以設定該IP的PTR記錄。
 
-创建IP池后，当将鼠标悬停在IP池下拉列表下方显示的IP地址上时，将显示PTR信息。
+建立IP集區後，當游標停留在IP集區下拉式清單下方顯示的IP位址上時，會顯示PTR資訊。
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-IP池现已创建并显示在列表中。 您可以选择它以访问其属性并显示关联的渠道表面（即消息预设）。 有关如何将通道表面与IP池关联的详细信息，请参阅 [此部分](channel-surfaces.md).
+IP集區現在已建立並顯示在清單中。 您可以選取它以存取其屬性並顯示相關頻道介面（即訊息預設集）。 有關如何將通道表面與IP集區關聯的詳細資訊，請參閱 [本節](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
-## 编辑IP池 {#edit-ip-pool}
+## 編輯IP集區 {#edit-ip-pool}
 
-要编辑IP池，请执行以下步骤。
+若要編輯IP集區，請遵循下列步驟。
 
-1. 在列表中，单击IP池名称以将其打开。
+1. 從清單中，按一下IP集區名稱以開啟。
 
    ![](assets/ip-pool-list.png)
 
-1. 根据需要编辑其属性。 您可以修改描述，并添加或删除IP地址。
+1. 視需要編輯其屬性。 您可以修改說明，以及新增或移除IP位址。
 
    >[!NOTE]
    >
-   >IP池名称不可编辑。 如果要修改IP池，您需要删除该IP池，然后使用您选择的名称创建另一个IP池。
+   >IP集區名稱不可編輯。 如果您想要修改它，您需要刪除IP集區，並以您選擇的名稱建立另一個集區。
 
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
-   >考虑删除IP时请格外小心，因为这会给其他IP带来额外负载，并且可能会对您的投放能力造成严重影响。 如有疑问，请联系可投放性专家。
+   >在考慮刪除IP時請格外小心，因為這將對其他IP造成額外負載，並可能嚴重影響您的傳遞能力。 如有疑問，請聯絡傳遞能力專家。
 
 1. 保存更改。
 
-根据与关联的IP池，更新可立即或异步生效 [通道表面](channel-surfaces.md) 或否：
+根據與關聯的IP集區，更新會立即或非同步生效。 [管道表面](channel-surfaces.md) 或不能：
 
-* 如果IP池为 **not** 与任何通道表面相关联，更新是瞬时(**[!UICONTROL 成功]** 状态)。
-* 如果IP池 **is** 与通道表面相关，更新最长可能需要3小时(**[!UICONTROL 处理]** 状态)。
+* 如果IP集區是 **not** 與任何管道表面相關聯，更新是即時的(**[!UICONTROL 成功]** status)。
+* 如果IP集區 **是** 和管道表面相關聯，更新最多可能需要3小時(**[!UICONTROL 處理中]** status)。
 
 >[!NOTE]
 >
->When [创建通道曲面](channel-surfaces.md#create-channel-surface)，如果您选择的IP池位于版本(**[!UICONTROL 处理]** 状态)且从未与为该曲面选择的子域关联，则无法继续创建曲面。 [了解详情](channel-surfaces.md#subdomains-and-ip-pools)
+>時間 [建立管道表面](channel-surfaces.md#create-channel-surface)，如果您選取正在編輯的IP集區(**[!UICONTROL 處理中]** 狀態)且從未與為該曲面選取的子域相關聯，則無法繼續建立曲面。 [了解详情](channel-surfaces.md#subdomains-and-ip-pools)
 
-要检查IP池更新状态，请单击 **[!UICONTROL 更多操作]** 按钮，选择 **[!UICONTROL 近期更新]**.
+若要檢查IP集區更新狀態，請按一下 **[!UICONTROL 更多動作]** 按鈕並選取 **[!UICONTROL 最近更新]**.
 
 ![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >
->成功更新IP池后，您可能需要等待：
->* 在被单一报文使用前几分钟，
->* 直到IP池的下一个批处理消息生效。
+>成功更新IP集區後，您可能必須等待：
+>* 幾分鐘後，單一訊息便會使用，
+>* 直到IP集區的下一個批次在批次訊息中生效。
 
 
-您还可以使用 **[!UICONTROL 删除]** 按钮以删除IP池。 请注意，您无法删除已与通道表面关联的IP池。
+您也可以使用 **[!UICONTROL 刪除]** 按鈕以刪除IP集區。 請注意，您無法刪除已關聯至管道表面的IP集區。
 

@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: endWithIgnoreCase
-description: 了解函数endWithIgnoreCase
+description: 瞭解函式endWithIgnoreCase
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: endWithIgnoreCase，函数，表达式，历程
+keywords: endWithIgnoreCase，函式，運算式，歷程
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 17%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾，而不考虑大小写。
+檢查第一個引數字串是否以特定字串（第二個引數字串）結尾，而不考慮大小寫。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `endWithIgnoreCase(<parameters>)`
 
@@ -31,16 +31,16 @@ ht-degree: 17%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 后缀 | 字符串 |
+| 字尾 | 字符串 |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `endWithIgnoreCase(<string>,<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `endWithIgnoreCase("rowing is great", "AT")`
 
-返回true。
+傳回true。

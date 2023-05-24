@@ -1,6 +1,6 @@
 ---
 title: 创建决策
-description: 决策包含通知选件选择的逻辑。
+description: 決定包含通知優惠選擇的邏輯。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 12%
 
 # 创建决策 {#create-decision}
 
-您可以通过向 [!DNL Offer Library] API，同时提供容器ID。
+您可以透過向以下傳送POST請求來建立決策： [!DNL Offer Library] API，同時提供容器ID。
 
-## 接受和内容类型标头 {#accept-and-content-type-headers}
+## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
-下表显示构成 *Content-Type* 和 *接受* 请求标题中的字段：
+下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
 
-| 标题名称 | 值 |
+| 標頭名稱 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 决策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -72,7 +72,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建决策的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的决策。
+成功的回應會傳回關於新建立決定的資訊，包括其唯一的執行個體ID和位置 `@id`. 您可在後續步驟中使用執行個體ID來更新或刪除您的決定。
 
 ```json
 {

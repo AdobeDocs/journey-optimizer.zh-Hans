@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 预览和测试推送通知
-description: 了解如何在Journey Optimizer中预览和测试推送通知
+title: 預覽和測試推播通知
+description: 瞭解如何在Journey Optimizer中預覽和測試推播通知
 feature: Overview
 topic: Content Management
 role: User
@@ -15,59 +15,59 @@ ht-degree: 9%
 
 ---
 
-# 预览和测试推送通知 {#send-push}
+# 預覽和測試推播通知 {#send-push}
 
-## 预览推送通知 {#preview-push}
+## 預覽推播通知 {#preview-push}
 
-定义消息内容后，即可使用测试配置文件对其进行预览和测试。如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，即可使用测试配置文件对其进行预览和测试。如果您已插入個人化內容，可使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
-1. 单击 **[!UICONTROL 模拟内容]**.
+1. 按一下 **[!UICONTROL 模擬內容]**.
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 添加测试用户档案。
+1. 按一下 **[!UICONTROL 管理測試設定檔]** 以新增測試設定檔。
 
-1. 通过 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加用户档案]**.
+1. 使用尋找您的測試設定檔 **[!UICONTROL 身分名稱空間]** 和 **[!UICONTROL 身分值]** 欄位。 然後，按一下 **[!UICONTROL 新增設定檔]**.
 
    ![](assets/push_preview_1.png)
 
-1. 选择测试用户档案后，可以关闭 **[!UICONTROL 添加测试用户档案]** 窗口。
+1. 選取測試設定檔後，您可以關閉 **[!UICONTROL 新增測試設定檔]** 視窗。
 
-1. 从 **预览和测试** 窗口中，测试用户档案数据会添加到消息内容中。
+1. 從 **預覽和測試** 視窗，測試設定檔資料會新增至訊息內容。
 
-   选择要预览内容的设备类型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
+   選取要預覽內容的裝置型別： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
    ![](assets/push_preview_3.png)
 
-## 验证推送通知 {#push-validate}
+## 驗證推播通知 {#push-validate}
 
 
-您必须在编辑器的上半部分检查警报。 其中一些是简单的警告，但其他一些可能会阻止您发送消息。 可以发生两种类型的警报：警告和错误。
+您必須在編輯器的上方區段中檢查警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 
-* **警告** 请参阅建议和最佳实践。
+* **警告** 請參閱建議和最佳實務。
 
-* **错误** 阻止您测试或激活历程（只要它们未得到解析），例如：
+* **錯誤** 防止您測試或啟動歷程，只要它們未解決，例如：
 
-   * **[!UICONTROL 消息的推送版本为空]**:当推送通知正文或标题缺失时，将显示此错误。 了解如何在 [此部分](create-push.md).
+   * **[!UICONTROL 訊息的推送版本為空白]**：當遺失推播通知本文或標題時，會顯示此錯誤。 瞭解如何在中定義推播通知內容 [本節](create-push.md).
 
-   * **[!UICONTROL 曲面不存在]**:如果在消息创建后删除了所选曲面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL 属性]**. 了解有关 [此部分](../configuration/channel-surfaces.md).
+   * **[!UICONTROL 表面不存在]**：如果您選取的表面在建立訊息後遭到刪除，則無法使用訊息。 如果發生此錯誤，請在訊息中選取另一個曲面 **[!UICONTROL 屬性]**. 進一步瞭解中的管道表面 [本節](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL 推送iOS/Android有效负载超过4KB的限制]**:推送通知大小不能超过4KB。 要遵守此限制，请尽量减少使用图像或表情符号。 了解如何在 [此部分](../push/create-push.md).
+   * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不得超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 瞭解如何在中管理您的推播通知內容 [本節](../push/create-push.md).
 
    ![](assets/push_alert.png)
 
 
 >[!NOTE]
 >
-> 为了更好地交付，您应始终使用提供商支持的格式的电话号码。 例如， Twilio和Sinch仅支持E.164格式的电话号码。
+> 為了提供更好的傳遞能力，您應該一律使用提供者支援格式的電話號碼。 例如，Twilio和Sinch僅支援E.164格式的電話號碼。
 
 ## 发送推送通知{#push-send}
 
-在您的推送消息准备就绪后，完成 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md) 来发送。
+當您的推送訊息就緒時，請完成設定 [歷程](../building-journeys/journey-gs.md) 或 [行銷活動](../campaigns/create-campaign.md) 以傳送。
 
 **相关主题**
 
-* [配置推送渠道](push-configuration.md)
+* [設定推播頻道](push-configuration.md)
 * [推送通知报告](../reports/journey-global-report.md#push-global)
 * [创建推送通知](create-push.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
-* [在营销活动中添加消息](../campaigns/create-campaign.md)
+* [在行銷活動中新增訊息](../campaigns/create-campaign.md)
 

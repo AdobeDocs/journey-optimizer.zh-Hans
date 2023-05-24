@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建动态内容
-description: 了解如何在消息中添加动态消息。
+description: 瞭解如何將動態新增至訊息。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 表达式，编辑器，动态，内容
+keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -18,35 +18,35 @@ ht-degree: 9%
 
 # 创建动态内容 {#dynamic-content}
 
-Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内容添加到消息中。
+Adobe Journey Optimizer可讓您善用程式庫中建立的條件式規則，將動態內容新增至訊息。
 
-动态内容可以创建到任何字段中，您可以在其中使用表达式编辑器添加个性化。 这包括主题行、链接、推送通知内容或文本类型选件的表示形式。 [了解有关个性化上下文的更多信息](personalization-contexts.md)
+動態內容可建立至任何欄位，您可在其中使用運算式編輯器新增個人化。 這包括主旨列、連結、推播通知內容或文字型別優惠方案的表示方式。 [進一步瞭解個人化內容](personalization-contexts.md)
 
-此外，您还可以在Email Designer中使用条件规则创建内容组件的多个变体。
+此外，您可以在電子郵件設計工具中使用條件式規則，以建立內容元件的多個變體。
 
-## 将动态内容添加到表达式中 {#perso-expressions}
+## 將動態內容新增至運算式 {#perso-expressions}
 
-在表达式中添加动态内容的步骤如下所示：
+在運算式中新增動態內容的步驟如下：
 
-1. 导航到要添加动态内容的字段，然后打开表达式编辑器。
+1. 導覽至您要新增動態內容的欄位，然後開啟運算式編輯器。
 
-1. 选择 **[!UICONTROL 条件]** 菜单来显示可用条件规则列表。 单击规则旁边的+按钮以将其添加到当前表达式中。
+1. 選取 **[!UICONTROL 條件]** 功能表，以顯示可用的條件規則清單。 按一下規則旁的+按鈕，將其新增至目前的運算式。
 
-   您还可以通过选择 **[!UICONTROL 新建]**. [了解如何创建条件](create-conditions.md)
+   您也可以選取「 」，建立新規則 **[!UICONTROL 新建]**. [瞭解如何建立條件](create-conditions.md)
 
    ![](assets/conditions-expression.png)
 
-1. 在 `{%if}` 和 `{%/if}` 标记满足条件规则时要显示的内容。 您可以根据需要添加任意数量的规则，以创建表达式的多个变体。
+1. 新增至 `{%if}` 和 `{%/if}` 標籤您要在符合條件規則時顯示的內容。 您可以視需要新增任意數量的規則，以建立運算式的多個變體。
 
-   在以下示例中，根据收件人的首选语言，为短信内容创建了两个变体。
+   在以下範例中，根據收件者的偏好語言，已為SMS內容建立兩個變體。
 
    ![](assets/conditions-language-sample.png)
 
-1. 内容准备就绪后，您可以使用 **[!UICONTROL 模拟内容]** 按钮。 [了解如何测试和预览消息](../email/preview.md)
+1. 內容準備就緒後，您就可以使用 **[!UICONTROL 模擬內容]** 按鈕。 [瞭解如何測試和預覽訊息](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 
-## 将动态内容添加到电子邮件中 {#emails}
+## 將動態內容新增至電子郵件 {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
@@ -58,33 +58,33 @@ Adobe Journey Optimizer允许您利用库中创建的条件规则，将动态内
 >title="条件内容"
 >abstract="使用保存在库中的条件规则或创建新规则。"
 
-在Email Designer中创建内容组件变体的步骤如下所示：
+在電子郵件設計工具中建立內容元件變體的步驟如下：
 
-1. 在Email Designer中，选择一个内容组件，然后单击 **[!UICONTROL 启用条件内容]**.
+1. 在電子郵件設計工具中，選取內容元件，然後按一下 **[!UICONTROL 啟用條件式內容]**.
 
    ![](assets/conditions-enable-conditional.png)
 
-1. 的 **[!UICONTROL 条件内容]** 窗格。 在此窗格中，您可以使用条件创建选定内容组件的多个变体。
+1. 此 **[!UICONTROL 條件式內容]** 窗格會顯示在左側。 在此窗格中，您可以使用條件來建立所選內容元件的多個變體。
 
-   通过选择 **[!UICONTROL 应用条件]** 按钮。
+   選取以下專案來設定您的第一個變體： **[!UICONTROL 套用條件]** 按鈕。
 
    ![](assets/conditions-apply.png)
 
-1. 将显示条件库。 选择要与变体关联的条件规则，然后单击 **[!UICONTROL 选择]**. 在本例中，我们希望根据收件人的首选语言来调整组件文本。
+1. 條件程式庫隨即顯示。 選取要與變體關聯的條件規則，然後按一下 **[!UICONTROL 選取]**. 在此範例中，我們想要根據收件者偏好的語言調整元件文字。
 
    ![](assets/conditions-select.png)
 
-   您还可以通过单击 **[!UICONTROL 新建]**. [了解如何创建条件](create-conditions.md)
+   您也可以按一下「 」，建立新規則 **[!UICONTROL 新建]**. [瞭解如何建立條件](create-conditions.md)
 
-1. 条件规则与变体关联。 为了更好的可读性，我们建议通过单击椭圆菜单来重命名变体。
+1. 條件式規則與變體相關聯。 為了提高可讀性，建議您按一下橢圓選單來重新命名變體。
 
-   现在，配置在发送消息时如果满足规则，则组件应显示的方式。 在本例中，我们希望以法语显示收件人的首选语言文本。
+   現在設定在傳送訊息時如果符合規則應如何顯示元件。 在此範例中，如果法文是收件者的慣用語言，我們想以法文顯示文字。
 
    ![](assets/conditions-design.png)
 
-1. 根据需要为内容组件添加任意数量的变体。 您可以随时在不同的变体之间切换，以根据条件规则检查内容组件的显示方式。
+1. 視需要為內容元件新增任意數量的變體。 您可以隨時在不同的變體之間切換，以檢查內容元件如何根據條件規則顯示。
 
    >[!NOTE]
-   >如果在发送消息时不满足变体中定义的任何规则，则内容组件将显示 **[!UICONTROL 默认变体]**.
+   >如果在傳送訊息時不符合變體中所定義的任何規則，則內容元件將顯示中定義的內容。 **[!UICONTROL 預設變體]**.
    >
-   >将根据关联的规则评估条件内容，并按变体的显示顺序排列。 如果不满足其他条件，则始终显示默认变体。
+   >條件式內容將會依照變體顯示的順序，根據關聯的規則進行評估。 如果未符合其他條件，則一律會顯示預設變體。
