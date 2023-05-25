@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -99,6 +99,15 @@ ht-degree: 2%
 ## 跟踪自定义事件
 
 对于自定义事件，数据集中使用的架构还必须具有 **[!UICONTROL 体验事件 — 建议交互]** 字段组相关联，但对必须用于标记这些事件的体验事件类型没有特定要求。
+
+>[!NOTE]
+>
+>要将您的自定义事件计入 [频率封顶](../offer-library/add-constraints.md#capping)，您需要将体验事件发送到以下两个Edge数据收集端点之一，以将其连接到Adobe Experience Platform端点：
+>
+>* POST/ee/v2/interact
+>* POST/ee/v2/collect
+>
+>如果您使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，则会自动建立连接。
 
 <!--
 ## Using a ranking strategy {#using-ranking}
