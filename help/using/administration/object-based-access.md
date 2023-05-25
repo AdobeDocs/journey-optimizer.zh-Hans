@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
@@ -94,4 +94,4 @@ ht-degree: 14%
 要访问此对象，用户需要具有 **[!UICONTROL 标签]** 包含在其中 **[!UICONTROL 角色]**.
 例如，具有C1标签的用户只能访问C1标签或未标签的对象。
 
-有关如何分配的详细信息 **[!UICONTROL 标签]** 到 **[!UICONTROL 角色]**，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
+有关如何分配的详细信息 **[!UICONTROL 标签]** 到 **[!UICONTROL 角色]**，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

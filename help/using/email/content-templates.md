@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 12%
@@ -81,8 +81,6 @@ ht-degree: 12%
 
 1. 通过访问内容模板列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 左侧菜单。
 
-   ![](assets/content-template-list.png)
-
 1. 选择 **[!UICONTROL 创建模板]**.
 
 1. 填写模板详细信息。
@@ -95,7 +93,7 @@ ht-degree: 12%
 
 1. 要将自定义或核心数据使用标签分配给模板，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md).
 
-1. 单击 **[!UICONTROL 创建]** 并从以下不同选项中选择所需的电子邮件设计方式：
+1. 单击 **[!UICONTROL 创建]** 并从不同的选项中选择所需的模板设计方式：
 
    * [从头开始设计电子邮件](content-from-scratch.md) 通过Email Designer的界面。
 

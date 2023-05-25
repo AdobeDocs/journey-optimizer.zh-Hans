@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 6%
@@ -39,7 +39,7 @@ ht-degree: 6%
 1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
 
    * **[!UICONTROL 自动优化]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
-   * **[!UICONTROL 个性化]** 根据区段和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
+   * **[!UICONTROL 个性化优化]** 根据区段和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -52,7 +52,7 @@ ht-degree: 6%
    >* **转化事件** （选件通过电子邮件或Web导致点击）。
 
    >
-   >这些事件是使用提供的Web SDK或Mobile SDK自动捕获的。 有关此内容的更多信息，请参阅 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+   >这些事件是使用提供的Web SDK或Mobile SDK自动捕获的。 有关此内容的更多信息，请参阅 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans).
 
 1. 选择收集转化和印象事件的数据集。 了解如何在中创建此类数据集 [本节](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -62,7 +62,7 @@ ht-degree: 6%
    >
    >仅从与关联的架构创建的数据集 **[!UICONTROL 体验事件 — 建议交互]** 字段组（以前称为mixin）将显示在下拉列表中。
 
-1. 如果您要创建 **[!UICONTROL 个性化]** AI模型，选择要用于训练AI模型的区段。
+1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的区段。
 
    ![](../assets/ai-ranking-segments.png)
 

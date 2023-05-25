@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '993'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Experience PlatformWeb SDK支持在Adobe查询个性化解决方案，包括决�
 
 有两种方法可以通过实施决策管理 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员的，需要了解网站和编程。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需要在HTML页面的标头中引用一个小型脚本。
 
-请参阅以下文档： [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
+请参阅以下文档： [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
 
 >[!NOTE]
 >
@@ -44,9 +44,9 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=zh-Hans) 在Adobe Experience Cloud帐户的“数据收集”选项卡中。
+1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) 在Adobe Experience Cloud帐户的“数据收集”选项卡中。
 
-1. 安装SDK。 执行此操作的方法有多种，请参见 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). 本页将继续介绍每种不同的实施方法。
+1. 安装SDK。 执行此操作的方法有多种，请参见 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans). 本页将继续介绍每种不同的实施方法。
 
 要使用SDK，您必须拥有 [架构](../../../data/get-started-schemas.md) 和 [数据流](../../../data/get-started-datasets.md) 已定义。
 
@@ -62,11 +62,11 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
 此选项对于编码体验可能较少的用户更友好。
 
-1. [创建标记属性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hans)
+1. [创建标记属性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
 
-1. [添加嵌入代码](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [添加嵌入代码](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. 通过从“数据流”下拉列表中选择配置，使用您创建的数据流安装和配置Adobe Experience Platform Web SDK扩展。 请参阅相关文档 [扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. 通过从“数据流”下拉列表中选择配置，使用您创建的数据流安装和配置Adobe Experience Platform Web SDK扩展。 请参阅相关文档 [扩展](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -78,7 +78,7 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
    ![XDM 对象](../../assets/xdm-object.png)
 
-1. 创建您的 [规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en)：
+1. 创建您的 [规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)：
 
    添加Platform Web SDK发送事件操作，并将相关的decisionScopes添加到该操作的配置中
 
@@ -86,13 +86,13 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
    ![请求优惠](../../assets/rule-request-offer.png)
 
-1. [创建并发布](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) 一个库，其中包含您配置的所有相关规则、数据元素和扩展。
+1. [创建并发布](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) 一个库，其中包含您配置的所有相关规则、数据元素和扩展。
 
 ## 选项2 — 使用预建的独立版本手动实施
 
 以下是使用Web SDK预建独立安装来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定您有一些开发经验。
 
-包括选项2中的以下JavaScript代码片段：上的预建独立版本 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) 在 `<head>` HTML部分。
+包括选项2中的以下JavaScript代码片段：上的预建独立版本 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans) 在 `<head>` HTML部分。
 
 ```
 javascript

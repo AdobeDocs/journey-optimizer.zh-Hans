@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 电子邮件、样式、css、正文、结构
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 100%
 
 * 了解如何[个性化电子邮件背景](backgrounds.md)
 * 了解如何[管理垂直对齐方式和间距](alignment-and-padding.md)
-* 了解如何[定义电子邮件中链接的样式](styling-links.md)
 * 了解如何[自定义内联样式属性](inline-styling.md)

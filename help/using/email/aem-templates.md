@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 3%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 从内容库中，您可以使用之前配置的模板或从头开始创建一个模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. 从内容库中，您可以使用之前配置的模板或从头开始创建一个模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 通过将Journey Optimizer个性化语法合并到模板中，可以增强其自定义功能。 [了解详情](../personalization/personalization-syntax.md)
 
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 1. 要进一步个性化您的Experience Manager模板并将自定义个性化添加到您的内容，请单击 **[!UICONTROL 编辑内容]**. 这样，您就可以轻松地做出更改，并根据特定需求定制模板。 [了解详情](get-started-email-design.md)
 
-   >[!NOTE]
+   >[!WARNING]
    >
    > 如果要编辑模板并使其个性化，则只能使用兼容模式。
 

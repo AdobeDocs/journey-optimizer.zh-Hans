@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '726'
 ht-degree: 16%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 16%
 1. 在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
+
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理以衡量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
 
 1. 营销活动设计为按特定日期或重复频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
 

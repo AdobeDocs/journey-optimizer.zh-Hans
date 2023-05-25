@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2355'
 ht-degree: 17%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 17%
 
    >[!CAUTION]
    >
-   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}，您将无法在选件中利用它。
+   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您将无法在选件中利用它。
 
 当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
 
@@ -220,7 +220,7 @@ ht-degree: 17%
 >
 >对于除决策事件之外的所有上限事件，决策管理反馈可能无法自动收集，这可能导致上限计数器无法正确递增。 [了解详情](../data-collection/data-collection.md)
 >
->要确保在上限计数器中对每个上限事件进行跟踪和计数，请确保用于收集体验事件的架构包含该事件的正确字段组。 [了解详情](../data-collection/schema-requirement.md)
+>要确保在上限计数器中跟踪和说明每个上限事件，请确保用于收集体验事件的架构包含该事件的正确字段组。 [了解详情](../data-collection/schema-requirement.md)
 
 ### 上限计数 {#capping-count}
 

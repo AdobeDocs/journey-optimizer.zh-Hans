@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 28%
+source-wordcount: '1583'
+ht-degree: 27%
 
 ---
 
 # 创建和发布登陆页面 {#create-lp}
+
+>[!CAUTION]
+>
+>要测试和发布登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -207,6 +211,8 @@ ht-degree: 28%
 
 >[!CAUTION]
 >
+>要能够测试登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
+>
 >您必须具有可用的测试用户档案，才能预览消息和发送校样。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
 1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
@@ -273,6 +279,10 @@ ht-degree: 28%
 -->
 
 ## 发布登陆页面 {#publish-landing-page}
+
+>[!CAUTION]
+>
+>要发布登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
 
 准备登陆页面后，您可以发布该页面，使其可在消息中使用。
 

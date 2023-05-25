@@ -5,30 +5,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informative"
-exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 4%
+source-wordcount: '932'
+ht-degree: 0%
 
 ---
 
-# 实验报表中的统计计算 {#experiment-report-calculations}
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* [内容体验入门](get-started-experiment.md)
-* [创建内容试验](content-experiment.md)
-* [了解统计计算](experiment-calculations.md)
-* [配置实验报表](reporting-configuration.md)
-* **[实验报表中的统计计算](experiment-report-calculations.md)**
-
->[!ENDSHADEBOX]
+# 了解试验报告中的统计计算 {#experiment-report-calculations}
 
 本页记录了Adobe Journey Optimizer中促销活动的试验报告中使用的详细统计计算。
 

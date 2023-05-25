@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 98%
 
 ---
 
@@ -165,10 +165,11 @@ ht-degree: 100%
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + 内容体验{#content-experiment}
       + [内容体验入门](using/campaigns/get-started-experiment.md)
-      + [创建内容试验](using/campaigns/content-experiment.md)
-      + [了解统计计算](using/campaigns/experiment-calculations.md)
+      + [创建内容体验](using/campaigns/content-experiment.md)
       + [配置实验报表](using/campaigns/reporting-configuration.md)
-      + [实验报表中的统计计算](using/campaigns/experiment-report-calculations.md)
+      + 技术说明 {#technotes}
+         + [了解统计计算](using/campaigns/experiment-calculations.md)
+         + [了解试验报告中的统计计算](using/campaigns/experiment-report-calculations.md)
    + [使用 API 触发活动](using/campaigns/api-triggered-campaigns.md)
 + 电子邮件渠道 {#email}
    + [电子邮件入门](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 100%
          + [电子邮件样式入门](using/email/get-started-email-style.md)
          + [编辑背景设置](using/email/backgrounds.md)
          + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
-         + [为链接定义样式](using/email/styling-links.md)
          + [添加内联样式属性](using/email/inline-styling.md)
    + [预览和测试电子邮件](using/email/preview.md)
    + [创建内容模板](using/email/content-templates.md)
    + [使用 Experience Manager 模板](using/email/aem-templates.md)
+   + [使用片段](using/email/fragments.md)
    + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 配置电子邮件渠道 {#configure-email}
       + [电子邮件配置入门](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 100%
       + [组件列表](using/reports/global-report-components.md)
       + [历程全局报告](using/reports/journey-global-report.md)
       + [营销活动全局报告](using/reports/campaign-global-report.md)
+      + [目标报告](using/reports/objective-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
    + 历程报告 {#reports}
@@ -468,13 +470,15 @@ ht-degree: 100%
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
    + [源](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
-   + [访问控制概述](using/administration/permissions-overview.md)
-   + [内置产品配置文件](using/administration/ootb-product-profiles.md)
-   + [管理用户和产品配置文件](using/administration/permissions.md)
-   + [权限级别](using/administration/high-low-permissions.md)
-   + [沙盒管理](using/administration/sandboxes.md)
+   + 访问控制概述 {#privacy}
+      + [用户管理入门](using/administration/permissions-overview.md)
+      + [内置角色](using/administration/ootb-product-profiles.md)
+      + [内置权限](using/administration/ootb-permissions.md)
+      + [权限级别](using/administration/high-low-permissions.md)
+   + [管理用户和角色](using/administration/permissions.md)
    + [基于属性的访问控制](using/administration/attribute-based-access.md)
    + [对象级访问控制](using/administration/object-based-access.md)
+   + [沙盒管理](using/administration/sandboxes.md)
 + 隐私权 {#privacy}
    + [隐私入门](using/privacy/get-started-privacy.md)
    + [隐私请求](using/privacy/requests.md)

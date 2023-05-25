@@ -8,10 +8,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件，管理控制台
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 2%
+source-wordcount: '1087'
+ht-degree: 0%
 
 ---
 
@@ -19,357 +19,438 @@ ht-degree: 2%
 
 ![](assets/do-not-localize/permissions.png)
 
-每个产品配置文件都由允许用户访问不同功能的权限组成。
+每个角色都由允许用户访问不同功能的权限组成。
 它们可以分为两种类型：
 
-* **高级权限**：表示可以分配到的不同权限 **[!UICONTROL 产品配置文件]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高级权限包括低级权限。
+* **高级权限**：表示可以分配到的不同权限 **[!UICONTROL 角色]** 在 [!DNL Admin console]，例如 **[!DNL Publish journeys]** 和 **[!DNL Manage subdomains delegation]**. 高级权限包括低级权限。
 
 * **低级权限**：表示来自高级别权限的不同权限。
 
-例如， **[!DNL Journey administrator]** 产品配置文件已分配 **[!DNL Manage journeys]** 许可。 通过此权限，可生成允许历程管理员写入、读取和删除历程的低级权限。
+例如， **[!DNL Journey administrator]** 角色已分配给 **[!DNL Manage journeys]** 许可。 通过此权限，可生成允许历程管理员写入、读取和删除历程的低级权限。
 
-## 历程功能 {#journey-capability}
+## 历程资源 {#journey-capability}
 
-### [!DNL Manage journeys] 权限 {#manage-journeys}
+* **[!DNL Manage journeys]** 高级权限允许用户创建新的和编辑/删除现有历程，以及访问历程画布中用于构建历程流的对象。
 
-此 **[!DNL Manage journeys]** 高级权限允许用户创建新的和编辑/删除现有历程，以及访问历程画布中用于构建历程流的对象。
++++ 它包括以下低级权限：
 
-它包括以下低级权限：
+   * 特定于Journey Optimizer：
 
-* 特定于Journey Optimizer：
+      * journeys.read
+      * journeys.write
+      * journeys.delete
+      * messages.read
+   * 特定于Adobe Experience Platform：
 
-   * journeys.read
-   * journeys.write
-   * journeys.delete
-   * messages.read
+      * segments.read
+      * profiles.read
+      * datasets.read
+      * schemas.read
 
-* 特定于Adobe Experience Platform：
++++
 
-   * segments.read
-   * profiles.read
-   * datasets.read
-   * schemas.read
+* **[!DNL Publish journeys]** 高级权限允许用户发布历程。
 
-### [!DNL Publish journeys] 权限 {#publish-journeys}
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+      * journeys.publish
+      * journeys.read
 
-此 **[!DNL Publish journeys]** 高级权限允许用户发布历程。
++++
 
-它包括以下低级权限：
+* **[!DNL View journeys]** 高级权限允许用户浏览和查看历程。
 
-* 特定于Journey Optimizer：
-   * journeys.publish
-   * journeys.read
++++ 它包括以下低级权限：
 
-### [!DNL View journeys] 权限 {#view-journeys}
+   * 特定于Journey Optimizer：
+      * journeys.read
+   * 特定于Adobe Experience Platform：
+      * segments.read
+      * profiles.read
 
-此 **[!DNL View journeys]** 高级权限允许用户浏览和查看历程。
++++
 
-它包括以下低级权限：
+* **[!DNL Manage journeys events, data sources and actions]** 高级权限允许用户配置事件和数据配置。
 
-* 特定于Journey Optimizer：
-   * journeys.read
++++ 它包括以下低级权限：
 
-* 特定于Adobe Experience Platform：
-   * segments.read
-   * profiles.read
+   * 特定于Journey Optimizer：
+      * journeys_events.read
+      * journeys_events.write
+      * journeys_events.delete
+      * journeys_data_sources.read
+      * journeys_data_sources.write
+      * journeys_data_sources.delete
+      * journeys_actions.read
+      * journeys_actions.write
+      * journeys_actions.delete
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+      * datasets.read
+      * identity_namespace.read
 
-### [!DNL Manage journeys events, data sources and actions] 权限 {#manage-journeys-events}
++++
 
-此 **[!DNL Manage journeys events, data sources and actions]** 高级权限允许用户配置事件和数据配置。
+* **[!DNL View journeys events, data sources and actions]** 高级权限允许用户在历程流中使用事件和数据。
 
-它包括以下低级权限：
++++ 它包括以下低级权限：
 
-* 特定于Journey Optimizer：
-   * journeys_events.read
-   * journeys_events.write
-   * journeys_events.delete
-   * journeys_data_sources.read
-   * journeys_data_sources.write
-   * journeys_data_sources.delete
-   * journeys_actions.read
-   * journeys_actions.write
-   * journeys_actions.delete
+   * 特定于Journey Optimizer：
+      * journeys_events.read
+      * journeys_data_sources.read
+      * journeys_actions.read
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+      * datasets.read
+      * identity_namespace.read
 
-* 特定于Adobe Experience Platform：
-   * schemas.read
-   * datasets.read
-   * identity_namespace.read
++++
 
-### [!DNL View journeys events, data sources and actions] 权限 {#view-journeys-event}
+* **[!DNL View journeys report]** 高级权限允许用户只读历程报告。
 
-此 **[!DNL View journeys events, data sources and actions]** 高级权限允许用户在历程流中使用事件和数据。
++++ 它包括以下低级权限：
 
-它包括以下低级权限：
+   * 特定于Journey Optimizer：
+      * journeys_report.read
+      * message_report.read
+   * 特定于Adobe Experience Platform：
+      * datasets.read
+      * queries.read
+      * queries.write
+      * queries.delete
 
-* 特定于Journey Optimizer：
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
++++
 
-* 特定于Adobe Experience Platform：
-   * schemas.read
-   * datasets.read
-   * identity_namespace.read
+## Journey Optimizer规则资源 {#journey-rules-capability}
 
-### [!DNL View journeys report] 权限 {#view-journeys-report}
+* **[!DNL Manage frequency rules]** 高级权限允许用户读取、创建、编辑、删除和激活/停用频率规则。
 
-此 **[!DNL View journeys report]** 高级权限允许用户只读历程报告。
++++ 它包括以下低级权限：
 
-它包括以下低级权限：
+   * 特定于Journey Optimizer：
+      * frequency_rules.read
+      * frequency_rules.write
+      * frequency_rules.delete
 
-* 特定于Journey Optimizer：
-   * journeys_report.read
-   * message_report.read
++++
 
-* 特定于Adobe Experience Platform：
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
+* **[!DNL View frequency rules]** 高级权限允许用户查看频率规则。
 
-## 决策管理功能 {#decisions-permissions}
++++ 它包括以下低级权限：
 
-### [!DNL Manage decisions] 权限 {#manage-decisioning}
+   * 特定于Journey Optimizer：
+      * frequency_rules.read
 
-此 **[!DNL Manage decisions]** 高级权限允许用户创建新权限和编辑/删除现有权限 **[!DNL Activity entities]**，并管理在这些活动中用于制定决策的对象。
++++
 
-它包括以下低级权限：
+## 营销活动资源 {#campaign-capability}
 
-* 决策管理特定：
-   * activities.read
-   * activities.write
-   * activities.delete
-   * offers.read
-   * offers.write
-   * offers.delete
-   * placements.read
-   * placements.write
-   * placements.delete
-   * ranking_strategy.read
+* **[!DNL Manage campaigns]** 高级权限允许用户创建新营销活动和编辑/删除营销活动
 
-* 特定于Adobe Experience Platform：
-   * datasets.read
-   * datasets.write
-   * datasets.delete
-   * schemas.read
-   * profile.read
-   * segments.read
++++ 它包括以下低级权限：
 
-### [!DNL View decisions] 权限 {#view-decisions}
+   * 特定于Journey Optimizer：
 
-此 **[!DNL View decisions]** 高级权限允许用户使用现有活动和相关业务对象做出决策。
+      * campaign.read
+      * campaign.write
+      * campaign.delete
 
-它包括以下低级权限：
+      <!--* experiments.read
+      * experiments.write
+      * experiments.delete-->
++++
 
-* 决策管理特定：
-   * activities.read
-   * offers.read
-   * placements.read
-   * ranking_strategy.read
+* **[!DNL Publish campaigns]** 高级权限允许用户发布营销活动。
 
-* 特定于Adobe Experience Platform：
-   * schemas.read
-   * segment.read
-   * datasets.read
-   * datasets.write
-   * datasets.delete
++++ 它包括以下低级权限：
 
-### [!DNL Publish offers decisioning] 权限 {#publish-decisions}
+   * 特定于Journey Optimizer：
 
-此 **[!DNL Publish offers decisioning]** 高级权限允许用户访问以批准/取消批准优惠活动。
+      * campaign-read
+      * campaign-publish
+         <!--* experiments.activate-->
 
-它包括以下低级权限：
++++
 
-* 决策管理特定：
-   * offers_activity.read
-   * offers.read
-   * offers.write
-   * offers.delete
-   * placements.read
-   * placements.write
-   * placements.delete
-   * ranking_strategy.read
+* **[!DNL View campaigns report]** 高级权限允许用户阅读和编辑营销活动报告。
 
-* 特定于Adobe Experience Platform：
-   * schemas.read
-   * segment.read
-   * datasets.read
-   * profiles.read
++++ 它包括以下低级权限：
 
-### [!DNL Manage ranking strategies] 权限 {#manage-ranking-strategies}
+   * 特定于Journey Optimizer：
+      * campaign.read
+      * campaign-report.read
 
-此 **[!DNL Manage ranking strategies]** 高级权限允许用户读取、创建、编辑和删除排名策略。
+      <!--* experiments.read
+      * experiments_report.read-->
++++
 
-它包括以下低级权限：
+## 决策管理资源 {#decisions-permissions}
 
-* 决策管理特定：
-   * ranking_strategy.read
-   * ranking_strategy.write
-   * ranking_strategy.delete
-   * activities.read
-   * offers.read
-   * placements.read
+* **[!DNL Manage decisions]** 高级权限允许用户创建新权限和编辑/删除现有权限 **[!DNL Activity entities]**，并管理在这些活动中用于制定决策的对象。
 
-## 管理功能 {#administration-permissions}
++++ 它包括以下低级权限：
 
-### [!DNL Manage subdomains delegation] 权限 {#manage-subdomain}
+   * 决策管理特定：
+      * activities.read
+      * activities.write
+      * activities.delete
+      * offers.read
+      * offers.write
+      * offers.delete
+      * placements.read
+      * placements.write
+      * placements.delete
+      * ranking_strategy.read
+   * 特定于Adobe Experience Platform：
+      * datasets.read
+      * datasets.write
+      * datasets.delete
+      * schemas.read
+      * profile.read
+      * segments.read
 
-此 **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
++++
 
-它包括以下低级权限：
+* **[!DNL View decisions]** 高级权限允许用户使用现有活动和相关业务对象做出决策。
 
-* subdomains_delegation.read
-* subdomains_delegation.write
-* subdomains_delegation.delete
++++ 它包括以下低级权限：
 
-### [!DNL Manage PTR records] 权限 {#manage-ptr}
+   * 决策管理特定：
+      * activities.read
+      * offers.read
+      * placements.read
+      * ranking_strategy.read
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+      * segment.read
+      * datasets.read
+      * datasets.write
+      * datasets.delete
 
-此 **[!DNL Manage PTR records]** 高级权限允许用户读取和编辑已根据子域配置的PTR记录。
++++
 
-它包括以下低级权限：
+* **[!DNL Manage offers]** 高级权限允许用户创建、编辑和删除所有优惠、组件、读取决策和集合。
 
-* PTR_records.read
-* PTR_records.write
-* subdomains_delegation.read
++++ 它包括以下低级权限：
 
-### [!DNL View PTR records] 权限 {#view-ptr}
+   * 决策管理特定：
+      * offers_activity.read
+      * offers.read
+      * offers.Write
+      * offers.Delete
+      * placements.Read
+      * placements.Write
+      * placements.Delete
+      * ranking_strategy.read
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+      * segment.read
+      * datasets.read
+      * profiles.read
 
-此 **[!DNL View PTR records]** 高级权限允许用户查看已根据子域配置的PTR记录。
++++
 
-它包括以下低级权限：
+* **[!DNL Manage ranking strategies]** 高级权限允许用户读取、创建、编辑和删除排名策略。
 
-* PTR_records.read
-* subdomains_delegation.read
++++ 它包括以下低级权限：
 
-### [!DNL Manage IP pools] 权限 {#manage-ip-pools}
+   * 决策管理特定：
+      * ranking_strategy.read
+      * ranking_strategy.write
+      * ranking_strategy.delete
+      * activities.read
+      * offers.read
+      * placements.read
 
-此 **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除关联定义。
++++
 
-它包括以下低级权限：
+## 渠道配置资源 {#administration-permissions}
 
-* IP_pools.read
-* IP_pools.write
-* IP_pools.delete
+* **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+
+      * subdomains_delegation.read
+      * subdomains_delegation.write
+      * subdomains_delegation.delete
+
++++
+
+* **[!DNL Manage PTR records]** 高级权限允许用户读取和编辑已根据子域配置的PTR记录。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * PTR_records.read
+      * PTR_records.write
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL View PTR records]** 高级权限允许用户查看已根据子域配置的PTR记录。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除关联定义。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
+
++++
+
+* **[!DNL Manage messages general settings]** 高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+
++++
+
+* **[!DNL View messages general settings]** 高级权限允许用户查看消息的一般设置，如执行地址。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * messages_general_settings.read
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+
++++
+
+* **[!DNL Manage channel surface]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除渠道表面。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * messages_presets.read
+      * messages_presets.write
+      * messages_presets.delete
+      * subdomains_delegation.read
+      * IP_pools.read
+      * mobile_setting.read(来自Adobe Experience Platform Launch)
+
++++
 
 <!--
-### [!DNL Manage messages general settings] permission {#manage-message-settings}
+### [!DNL View channel surface] permission {#view-channel-surface}
 
-The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
-
-It includes the following low-level permissions: 
-
-* Journey Optimizer specific: 
-  * messages_general_settings.read
-  * messages_general_settings.write
-  * messages_general_settings.delete
-* Adobe Experience Platform specific:
-  * schemas.read
-
-### [!DNL View messages general settings] permission {#view-message-settings}
-
-The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
-
-It includes the following low-level permissions:
-
-* Journey Optimizer specific: 
-  * messages_general_settings.read
-* Adobe Experience Platform specific: 
-  * schemas.read
--->
-
-### [!DNL Manage channel surface] 权限 {#manage-channel-surface}
-
-此 **[!DNL Manage channel surface]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除渠道表面。
-
-它包括以下低级权限：
-
-* 特定于Journey Optimizer：
-   * messages_presets.read
-   * messages_presets.write
-   * messages_presets.delete
-   * subdomains_delegation.read
-   * IP_pools.read
-   * mobile_setting.read(来自Adobe Experience Platform Launch)
-
-### [!DNL View channel surface] 权限 {#view-channel-surface}
-
-此 **[!DNL View channel surface]** 高级权限允许用户查看渠道界面，以了解要使用哪些渠道界面。
-
-它包括以下低级权限：
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read(来自Adobe Experience Platform数据收集)
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
 
-### [!DNL Manage suppression] 权限 {#manage-suppression}
+* **[!DNL Manage suppression]** 高级权限允许用户定义在将电子邮件地址添加到禁止列表之前退回的次数，以及向禁止列表添加和删除条目。
 
-此 **[!DNL Manage suppression]** 高级权限允许用户定义在将电子邮件地址添加到禁止列表之前退回的次数，以及向禁止列表添加和删除条目。
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
 
-它包括以下低级权限：
++++
 
-* suppression_rules.read
-* suppression_rules.write
-* suppression_rules.delete
-* suppression_list.write
-* suppression_list.delete
+* **[!DNL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
 
-### [!DNL View suppression list] 权限 {#view-suppression-list}
++++ 它包括以下低级权限：
 
-此 **[!DNL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
+   * 特定于Journey Optimizer：
+      * suppression_list.view
+   * 特定于Adobe Experience Platform：
+      * profiles.read
+      * datasets.read
 
-它包括以下低级权限：
++++
 
-* 特定于Journey Optimizer：
-   * suppression_list.view
+* **[!DNL Export suppression list]** 高级权限允许用户将禁止列表下载为CSV文件。
 
-* 特定于Adobe Experience Platform：
-   * profiles.read
-   * datasets.read
++++ 它包括以下低级权限：
 
-### [!DNL Export suppression list] 权限 {#export-suppression-list}
+   * 特定于Journey Optimizer：
+      * suppression_list.export
+   * 特定于Adobe Experience Platform：
+      * profiles.read
+      * datasets.read
 
-此 **[!DNL Export suppression list]** 高级权限允许用户将禁止列表下载为CSV文件。
++++
 
-它包括以下低级权限：
+* **[!DNL Manage landing page settings]** 高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
-* 特定于Journey Optimizer：
-   * suppression_list.export
++++ 它包括以下低级权限：
 
-* 特定于Adobe Experience Platform：
-   * profiles.read
-   * datasets.read
+   * 特定于Journey Optimizer：
 
-### [!DNL Manage landing page settings] 权限 {#manage-landing-page-settings}
+      * landing_page_subdomain.read
+      * landing_page_subdomain.write
+      * landing_page_subdomain.delete
+      * landing_page_preset.read
+      * landing_page_preset.write
+      * landing_page_preset.delete
 
-此 **[!DNL Manage landing page settings]** 高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
++++
 
-它包括以下低级权限：
+<!--
+### Manage web subdomain permission {#web-subdomain}
 
-* 特定于Journey Optimizer：
-   * landing_page_subdomain.read
-   * landing_page_subdomain.write
-   * landing_page_subdomain.delete
-   * landing_page_preset.read
-   * landing_page_preset.write
-   * landing_page_preset.delete
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-### [!DNL Manage frequency rules] 权限 {#manage-frequency-rules}
+  +++ It includes the following low-level permissions: 
+-->
 
-此 **[!DNL Manage frequency rules]** 高级权限允许用户读取、创建、编辑、删除和激活/停用频率规则。
+* **[!DNL Manage messages presets]** 高级权限允许用户读取、创建、编辑和删除内容品牌策略。
 
-它包括以下低级权限：
++++ 它包括以下低级权限：
 
-* 特定于Journey Optimizer：
-   * frequency_rules.read
-   * frequency_rules.write
-   * frequency_rules.delete
+   * 特定于Journey Optimizer：
+      * messages_presets.read
+      * messages_presets.write
+      * messages_presets.delete
+      * subdomains_delegation.read
+      * IP_pools.read
+   * 数据收集特定：
+      * Mobile_setting.read
 
-### [!DNL View frequency rules] 权限 {#view-frequency-rules}
++++
 
-此 **[!DNL View frequency rules]** 高级权限允许用户查看频率规则。
+* **[!DNL View messages presets]** 高级权限允许用户查看消息预设。
 
-它包括以下低级权限：
++++ 它包括以下低级权限：
 
-* 特定于Journey Optimizer：
-   * frequency_rules.read
+   * 特定于Journey Optimizer：
+      * messages_presets.read
+      * subdomains_delegation.read
+      * IP_pools.read
+   * 数据收集特定：
+      * Mobile_setting.read
+
++++
+
+* **[!DNL Manage SMS subdomains]** 高级权限允许用户读取、创建、编辑和删除短信子域。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * sms_subdomains.read
+      * sms_subdomains.write
+      * sms_subdomains.delete
++++

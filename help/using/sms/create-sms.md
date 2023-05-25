@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '623'
 ht-degree: 13%
 
 ---
@@ -56,13 +56,15 @@ ht-degree: 13%
 
    ![](assets/sms_create_4.png)
 
-1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪短信消息中链接的点击次数。
-
 1. 单击 **[!UICONTROL 选择受众]** 按钮，从可用的Adobe Experience Platform区段列表中定义要定位的受众。 [了解详情](../segment/about-segments.md)。
 
 1. 在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/sms_create_5.png)
+
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理以衡量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
+
+1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪短信消息中链接的点击次数。
 
 1. 营销活动设计为按特定日期或重复频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
 

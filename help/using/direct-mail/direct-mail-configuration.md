@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 33%
+source-wordcount: '898'
+ht-degree: 32%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >当前仅支持Amazon S3和SFTP [!DNL Journey Optimizer].
+   >当前支持Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
 
 1. 填写服务器的详细信息和凭据，如服务器地址、访问密钥等。
 
@@ -116,7 +116,7 @@ ht-degree: 33%
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
 >abstract="直邮表面包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=zh-Hans#file-routing-configuration" text="配置文件路由"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ ht-degree: 33%
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. 选择文件格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文本分隔]**.
+
+1. 如果您选择 **[!UICONTROL 文本分隔]**，定义所选的列分隔符：制表、分号、竖线或&amp;符号。
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. 选择 **[!UICONTROL 文件路由配置]** 包含于您创建的内容中。 这定义文件将导出到何处以供直邮提供商使用。
 

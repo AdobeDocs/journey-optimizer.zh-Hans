@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '133'
+ht-degree: 95%
 
 ---
 
@@ -30,4 +30,4 @@ ht-degree: 100%
 有关 Privacy Service 以及如何执行数据卫生操作的更多信息，请参阅 Adobe Experience Platform 文档：
 
 * [Privacy Service 概述](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans)
-* [Adobe Experience Platform 中的数据卫生](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=zh-Hans)
+* [Adobe Experience Platform 中的数据卫生](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html)

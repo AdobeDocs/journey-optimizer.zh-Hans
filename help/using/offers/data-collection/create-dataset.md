@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 10%
+source-wordcount: '259'
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target="_blank"}.
+   >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
 
 1. 从 **[!UICONTROL 字段组]** 部分，选择 **[!UICONTROL 添加]**.
 
@@ -48,7 +48,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->了解有关在中构建架构的更多信息 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target="_blank"}.
+>了解有关在中构建架构的更多信息 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 您现在已准备好使用此架构创建数据集。 为此，请执行以下步骤：
 

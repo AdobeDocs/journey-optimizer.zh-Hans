@@ -9,18 +9,15 @@ keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
+badge: label="Beta" type="Informative"
+source-git-commit: 50afe137c618153278c596f1553216c20637e40b
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 5%
+source-wordcount: '535'
+ht-degree: 4%
 
 ---
 
 # 在历程中创建应用程序内消息 {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->应用程序内活动目前仅作为测试版向部分用户提供。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 1. 打开您的历程，然后拖放 **[!UICONTROL 应用程序内]** 中的活动 **[!UICONTROL 操作]** 面板的部分。
 

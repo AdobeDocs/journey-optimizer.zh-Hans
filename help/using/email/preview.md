@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 预览，内容，电子邮件，验证，测试，配置文件
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 11%
+source-wordcount: '1010'
+ht-degree: 9%
 
 ---
 
@@ -49,8 +49,8 @@ ht-degree: 11%
 >id="ac_preview_testprofiles"
 >title="预览和测试消息"
 >abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#email-rendering" text="电子邮件渲染"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#preview-email" text="预览"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="电子邮件渲染"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="预览"
 
 使用 [测试用户档案](../segment/creating-test-profiles.md) 定位不符合所规定定位标准的其他收件人。
 

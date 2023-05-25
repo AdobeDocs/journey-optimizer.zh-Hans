@@ -6,9 +6,9 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '846'
 ht-degree: 19%
 
 ---
@@ -42,7 +42,7 @@ Adobe Journey Optimizer目前与Sinch和Twilio等第三方提供商集成，这�
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 配置短信供应商"
 >abstract="在发送短信之前，您必须将供应商设置与 Journey Optimizer 集成。完成后，您将需要创建一个短信表面。这些步骤必须由 Adobe Journey Optimizer 系统管理员执行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信渠道表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="创建短信渠道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

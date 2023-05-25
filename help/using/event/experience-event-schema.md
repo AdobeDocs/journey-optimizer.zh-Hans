@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 3%
+source-wordcount: '838'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 
 >[!NOTE]
 >
->在中了解有关架构关系的更多信息 [Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>在中了解有关架构关系的更多信息 [Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-CN).
 
 在Journey Optimizer中，您可以利用链接表中的所有字段：
 

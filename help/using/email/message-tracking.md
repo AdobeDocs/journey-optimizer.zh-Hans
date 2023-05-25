@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 38%
+source-wordcount: '1063'
+ht-degree: 34%
 
 ---
 
@@ -63,30 +63,59 @@ ht-degree: 38%
 
    * **[!UICONTROL 外部链接]**：插入指向外部URL的链接。
 
-   * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 [在本节](../landing-pages/get-started-lp.md)中了解详情
+   * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 [了解详情 ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL 一键式选择退出]**：插入链接以使用户能够快速取消订阅您的通信，而无需确认选择退出。 有关详细信息，请参阅[此部分](../privacy/opt-out.md#one-click-opt-out)。
+   * **[!UICONTROL 一键式选择退出]**：插入链接以使用户能够快速取消订阅您的通信，而无需确认选择退出。 [了解详情](email-opt-out.md#one-click-opt-out)。
 
    * **[!UICONTROL 外部选择加入/订阅]**：插入链接以接受来自您品牌的通信。
 
-   * **[!UICONTROL 外部选择退出/退订]**：插入链接以取消订阅来自您品牌的通信。 在[此部分中](../privacy/opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * **[!UICONTROL 外部选择退出/退订]**：插入链接以取消订阅来自您品牌的通信。 在[此部分中](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
-   * **[!UICONTROL 镜像页面]**：插入链接以在Web浏览器中显示电子邮件内容。 有关详细信息，请参阅[此部分](#mirror-page)。
+   * **[!UICONTROL 镜像页面]**：添加链接以在Web浏览器中显示电子邮件内容。 [了解详情](#mirror-page)
 
-1. 您可以个性化自己的链接。在[本节](../personalization/personalization-syntax.md#perso-urls)中了解更多关于个性化 URL 的信息。
+1. 在相应字段中输入所需的URL，或选择登陆页面，然后定义链接设置和样式。 [了解详情](#adjust-links)
+
+   >[!NOTE]
+   >
+   >要解释URL， [!DNL Journey Optimizer] 符合URI语法([RFC 3986标准版](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})，这将禁用URL中的某些特殊国际字符。 在尝试发送校样或电子邮件时，如果返回了与添加到内容的URL有关的错误，则可以URL编码字符串作为解决方法。
+
+1. 您可以个性化自己的链接。[了解详情](../personalization/personalization-syntax.md#perso-urls)
 
 1. 保存更改。
 
-1. 创建链接后，仍可以从右侧的&#x200B;**[!UICONTROL 组件设置]**&#x200B;窗格修改它。
-
-   * 您可以编辑链接并更改其类型。
-   * 可以通过选中相应的选项来选择是否为链接加下划线。
+1. 创建链接后，您仍然可以从以下位置对其进行修改： **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 右边的窗格。
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >营销类型的电子邮件必须包含 [选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型消息不需要此字段。 消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)在中定义 [渠道表面](../configuration/channel-surfaces.md#email-type) 创建消息时。
+
+## 调整链接 {#adjust-links}
+
+您可以使用对链接进行调整 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 右边的窗格。 您可以为链接加下划线、编辑其颜色并选择其目标。
+
+1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
+
+1. 从 **[!UICONTROL 设置]** 选项卡，选择将怎样通过重定向受众 **[!UICONTROL Target]** 下拉列表：
+
+   * **[!UICONTROL 无]**：单击时在同一框架中打开链接（默认）。
+   * **[!UICONTROL 空白]**：在新窗口或标签页中打开链接。
+   * **[!UICONTROL 自身]**：单击时在同一框架中打开链接。
+   * **[!UICONTROL 父]**：在父框架中打开链接。
+   * **[!UICONTROL 顶部]**：在窗口的整个正文中打开链接。
+
+   ![](assets/link_2.png)
+
+1. Check **[!UICONTROL 为链接加下划线]** 为链接的标签文本加下划线。
+
+   ![](assets/link_1.png)
+
+1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]** 从 **[!UICONTROL 样式]** 选项卡。
+
+   ![](assets/link_3.png)
+
+1. 保存更改。
 
 ## 链接到镜像页面 {#mirror-page}
 

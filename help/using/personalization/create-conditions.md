@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 1. 根据需要构建条件规则。 为此，请将所需属性从左侧菜单拖放并排列到画布中。
 
-   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 

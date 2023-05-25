@@ -6,9 +6,9 @@ description: 了解如何使用Journey Optimizer配置环境以发送推送通�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
+source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1588'
 ht-degree: 4%
 
 ---
@@ -119,9 +119,9 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 将您的移动应用程序与Adobe Experience Platform SDK集成 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您的移动设备提供客户端集成API。 关注 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"} ，以在您的应用程序中使用Adobe Experience Platform Mobile SDK进行设置。
+Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您的移动设备提供客户端集成API。 关注 [Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} ，以在您的应用程序中使用Adobe Experience Platform Mobile SDK进行设置。
 
-最后，您还应该在中创建和配置移动资产 [!DNL Adobe Experience Platform Data Collection]. 通常，您将为要管理的每个移动应用程序创建一个移动资产。 了解如何在中创建和配置移动资产 [Adobe Experience Platform Mobile SDK文档](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"}.
+最后，您还应该在中创建和配置移动资产 [!DNL Adobe Experience Platform Data Collection]. 通常，您将为要管理的每个移动应用程序创建一个移动资产。 了解如何在中创建和配置移动资产 [Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 
 ## 步骤1：在Adobe Experience Platform数据收集中添加应用程序推送凭据 {#push-credentials-launch}

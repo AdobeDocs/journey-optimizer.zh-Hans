@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 79%
+source-wordcount: '1033'
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)定义于 [渠道表面](../configuration/channel-surfaces.md#email-type) （即消息预设）级别和创建消息时)。
+>营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)定义于 [渠道表面](../configuration/channel-surfaces.md#email-type) 级别和创建消息时)。
 
 ## 外部选择退出 {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ ht-degree: 79%
 
 此 POST 调用如下：
 
-端点：platform.adobe.io/journey/imp/consent/preferences
+端点：https://platform.adobe.io/journey/imp/consent/preferences
 
 查询参数：
 
 * **params**：包含加密后的有效负载
-* **sig**：签名
 * **pid**：加密后的用户档案 ID
 
 以上三个参数将包含在发送给您的收件人的第三方登陆页面 URL 中：

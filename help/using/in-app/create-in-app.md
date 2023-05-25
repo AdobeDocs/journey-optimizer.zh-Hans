@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '440'
 ht-degree: 6%
 
 ---
@@ -87,6 +87,8 @@ For more information on how to configure a journey, refer to [this page](../buil
    ![](assets/in_app_create_2.png)
 
 1. 在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
+
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理以衡量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
 
 1. 单击 **[!UICONTROL 编辑触发器]** 选择将触发消息的事件和条件：
 

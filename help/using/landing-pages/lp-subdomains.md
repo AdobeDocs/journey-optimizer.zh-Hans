@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: 登录、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '827'
 ht-degree: 24%
 
 ---
@@ -39,7 +39,12 @@ ht-degree: 24%
 
 >[!CAUTION]
 >
->登陆页面子域配置对所有环境通用。 因此，对登陆页面子域的任何修改也将影响生产沙箱。
+>登陆页面子域配置对所有环境通用。 因此：
+>
+>* 要访问和编辑登陆页面子域，您必须具有 **[!UICONTROL 管理登陆页面子域]** 生产沙盒的权限。
+>
+> * 对登陆页面子域的任何修改也将影响生产沙箱。
+
 
 ## 使用现有子域 {#lp-use-existing-subdomain}
 

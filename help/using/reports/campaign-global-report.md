@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c9941a800783b399b587b952c4191ce906b70552
 workflow-type: tm+mt
-source-wordcount: '2036'
-ht-degree: 3%
+source-wordcount: '2262'
+ht-degree: 4%
 
 ---
 
@@ -52,6 +52,54 @@ Campaign全局报告可通过以下方式直接从您的Campaign访问： **[!UI
 * **[!UICONTROL 已交付操作]**：历程中交付操作的唯一总次数。
 
 * **[!UICONTROL 操作失败百分比]**：与已交付操作的独特次数总数相比，历程中操作的独特失败总次数。
+
+<!--
+### Objectives report {#objectives-global}
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
+
+### 试验报告 {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="成功量度"
+>abstract="您之前在创建试验时选择的成功量度的总值，除以配置文件数。"
+
+![](assets/experimentation_report_3.png)
+
+此 **[!UICONTROL 试验]** 选项卡提供了有关每个变体的性能的关键分析，并标识了最成功的变体。
+
+请注意，定义最佳业绩者可能需要一些时间，它将由此图标表示 ![](assets/experimentation_report_1.png).
+
++++了解有关试验报表可用的不同量度和小部件的更多信息。
+
+此 **[!UICONTROL 实验结果]** 构件详细说明每个变体的性能。 通过从中选择处理方法之一，可以更改基线 **[!UICONTROL 基线]** 下拉列表。 最佳处理方式将以星形图标表示。
+
+下表显示了以下量度：
+
+* **[!UICONTROL 提升度超过基线]**：衡量给定疗法的转化率相对于基线的提高百分比。
+
+* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL 独特出站点击次数]**：跨出站渠道的点击总数。
+
+* **[!UICONTROL 配置文件]**：针对此处理的用户档案数。
+
+* **[!UICONTROL 独特出站点击次数/个人资料]**：成功量度的总值（之前创建实验时选择）除以用户档案数。
+
+此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
++++
+
+要深入了解这些结果以及如何解释这些结果，请参阅 [此页面](../campaigns/get-started-experiment.md#interpret-results).
 
 ## “电子邮件”选项卡 {#email-global}
 

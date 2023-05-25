@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # 内容试验入门 {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* **[内容试验入门](get-started-experiment.md)**
-* [创建内容试验](content-experiment.md)
-* [了解统计计算](experiment-calculations.md)
-* [配置实验报表](reporting-configuration.md)
-* [实验报表中的统计计算](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->目前，内容试验功能仅适用于一批组织（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
 ## 什么是内容试验？
 
