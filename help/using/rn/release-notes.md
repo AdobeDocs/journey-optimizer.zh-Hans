@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 78%
 
 ---
@@ -168,11 +168,11 @@ ht-degree: 78%
 **短信渠道**
 
 * 在配置短信渠道界面时，Infobip已添加为供应商提供商。 [了解详情](../sms/sms-configuration.md)
-* Twilio - API凭据设置现在包括添加消息服务SID的功能，以便与您的Twilio帐户无缝集成。
+* Twilio - API凭据设置现在包括添加消息服务SID的功能，以便与您的Twilio帐户无缝集成。 [了解详情](../sms/sms-configuration.md)
 
 **应用程序内渠道**
 
-* 为Adobe地标服务添加了新消息触发规则。
+* 为Adobe地标服务添加了新消息触发规则。 [了解详情](../in-app/inapp-configuration.md)
 * 添加了新的Adobe Experience Platform保证功能，用于捕获设备事件以添加为触发规则。
 
 **历程**
@@ -181,9 +181,9 @@ ht-degree: 78%
 
 **营销活动**
 
-* 现在，可以使用省略号操作菜单从库存屏幕复制营销活动。
+* 现在，可以使用省略号操作菜单从库存屏幕复制营销活动。 [了解详情](../campaigns/modify-stop-campaign.md#duplicate)
 * 您现在可以删除对实时营销活动的草稿修改。
-* 激活营销活动的步骤现已得到简化。
+* 激活营销活动的步骤现已得到简化。 [了解详情](../campaigns/modify-stop-campaign.md)
 
 **决策管理**
 
