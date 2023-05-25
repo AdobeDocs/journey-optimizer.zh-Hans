@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建短信消息"
->abstract="添加您的 SMS 消息，并使用表达式编辑器开始对其进行个性化设置。"
+>abstract="添加您的短信消息，并使用表达式编辑器开始对其进行个性化设置。"
 
 ## 添加短信消息 {#create-sms-journey-campaign}
 
