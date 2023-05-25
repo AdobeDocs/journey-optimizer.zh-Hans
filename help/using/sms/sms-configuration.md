@@ -6,10 +6,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 19%
+source-wordcount: '920'
+ht-degree: 18%
 
 ---
 
@@ -55,20 +55,25 @@ Adobe Journey Optimizer目前与Sinch和Twilio等第三方提供商集成，这�
 
    ![](assets/sms_6.png)
 
-1. 选择您的 **[!UICONTROL SMS供应商]**：
+1. 配置SMS API凭据：
 
-   * **[!DNL Sinch]**
+   * 对象 **[!DNL Sinch]**：
 
-      查找您的 **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**，从您的Sinch帐户访问SMS > API菜单。
+      * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。  [了解详情](https://developers.sinch.com/docs/sms/getting-started/)
+   * 对象 **[!DNL Twilio]**：
 
-      查找您的 **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**，访问控制台仪表板页面的“帐户信息”窗格。
+      * **[!UICONTROL 名称]**：选择API凭据的名称。
 
+      * **[!UICONTROL 帐户SID]** 和 **[!UICONTROL 身份验证令牌]**：访问Twilio控制台仪表板页面的“帐户信息”窗格以查找凭据。
 
-1. 输入 **[!UICONTROL 名称]** 用于您的API凭据。
+      * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 [了解详情](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * 对象 **[!DNL Infobip]**：
 
-1. 输入您的 **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**.
+      * **[!UICONTROL 名称]**：选择API凭据的名称。
+
+      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL api令牌]**：访问Web界面主页或API密钥管理页面以查找凭据。 [了解详情](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
