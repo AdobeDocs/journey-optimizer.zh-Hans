@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
+source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 77%
+source-wordcount: '2504'
+ht-degree: 78%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 77%
 
 
 
-* 历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **短信渠道**
 
