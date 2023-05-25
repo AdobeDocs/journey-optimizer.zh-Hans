@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 向订阅者发送消息
-description: 瞭解如何建立歷程，以傳送訊息給清單的訂閱者
+description: 了解如何构建历程以向列表的订阅者发送消息
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 歷程，使用案例，訊息，訂閱者，清單，讀取
+keywords: 历程，用例，消息，订阅者，列表，读取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -16,46 +16,46 @@ ht-degree: 17%
 
 ---
 
-# 使用案例：傳送訊息給清單的訂閱者{#send-a-message-to-the-subscribers-of-a-list}
+# 用例：向列表的订阅者发送消息{#send-a-message-to-the-subscribers-of-a-list}
 
-此使用案例的目的是建立歷程，向清單的訂閱者傳送訊息。
+此用例的目的在于创建历程，向列表的订阅者发送消息。
 
-在此範例中， **[!UICONTROL 同意和偏好設定詳細資料]** 欄位群組來源 [!DNL Adobe Experience Platform] 已使用。 若要尋找此欄位群組，請從 **[!UICONTROL 資料管理]** 功能表，選擇 **[!UICONTROL 結構描述]**. 於 **[!UICONTROL 欄位群組]** 索引標籤中，在搜尋欄位中輸入欄位群組的名稱。
+在此示例中， **[!UICONTROL 同意和偏好设置详细信息]** 字段分组来源 [!DNL Adobe Experience Platform] 已使用。 要查找此字段组，请从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]**. 在 **[!UICONTROL 字段组]** 选项卡，在搜索字段中输入字段组的名称。
 
-![此欄位群組包含訂閱元素](assets/consent-and-preference-details-field-group.png)
+![此字段组包含订阅元素](assets/consent-and-preference-details-field-group.png)
 
-若要設定此歷程，請遵循下列步驟：
+要配置此历程，请执行以下步骤：
 
-1. 建立以「 」開始的歷程 **[!UICONTROL 讀取]** 活動。 [了解更多信息](journey-gs.md)。
-1. 新增 **[!UICONTROL 電子郵件]** 歷程的動作活動。 [了解更多信息](journeys-message.md)。
-1. 在 **[!UICONTROL 電子郵件引數]** 部分 **[!UICONTROL 電子郵件]** 活動設定，取代預設電子郵件地址(`PersonalEmail.adress`)，並加上訂閱者的電子郵件地址：
+1. 创建以开始的历程 **[!UICONTROL 读取]** 活动。 [了解更多信息](journey-gs.md)。
+1. 添加 **[!UICONTROL 电子邮件]** 历程的操作活动。 [了解更多信息](journeys-message.md)。
+1. 在 **[!UICONTROL 电子邮件参数]** 部分 **[!UICONTROL 电子邮件]** 活动设置，替换默认电子邮件地址(`PersonalEmail.adress`)，并使用列表订阅者的电子邮件地址：
 
-   1. 按一下 **[!UICONTROL 啟用引數覆寫]** 圖示右側 **[!UICONTROL 地址]** 欄位，然後按一下 **[!UICONTROL 編輯]** 圖示。
+   1. 单击 **[!UICONTROL 启用参数覆盖]** 图标右侧的 **[!UICONTROL 地址]** 字段，然后单击 **[!UICONTROL 编辑]** 图标。
 
       ![](assets/message-to-subscribers-uc-1.png)
 
-   1. 在運算式編輯器中，輸入運算式以擷取訂閱者的電子郵件地址。 [了解更多信息](expression/expressionadvanced.md)。
+   1. 在表达式编辑器中，输入用于检索订阅者的电子邮件地址的表达式。 [了解更多信息](expression/expressionadvanced.md)。
 
-      此範例顯示包含對應欄位參照的運算式：
+      此示例显示一个包含映射字段引用的表达式：
 
       ```json
       #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
       ```
 
-      在此範例中，會使用下列函式：
+      在此示例中，使用以下函数：
 
       | 函数 | 描述 | 示例 |
       | --- | --- | --- |
-      | `entry` | 根據選取的名稱空間參考對應元素 | 請參閱特定訂閱清單 |
-      | `firstEntryKey` | 擷取對應的第一個專案索引鍵 | 擷取訂閱者的第一個電子郵件地址 |
+      | `entry` | 根据选定的命名空间引用映射元素 | 请参阅特定的订阅列表 |
+      | `firstEntryKey` | 检索映射的第一个条目键 | 检索订阅者的第一个电子邮件地址 |
 
-      在此範例中，訂閱清單名為 `daily-email`. 電子郵件地址在中定義為金鑰 `subscribers` 對應，此對應會連結至訂閱清單對應。
+      在此示例中，订阅列表名为 `daily-email`. 电子邮件地址在中定义为键 `subscribers` 映射，链接到订阅列表映射。
 
-      深入瞭解 [欄位參考](expression/field-references.md) 在運算式中。
+      详细了解 [对字段的引用](expression/field-references.md) 在表达式中。
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. 在 **[!UICONTROL 新增運算式]** 對話方塊中，按一下 **[!UICONTROL 確定]**.
+   1. 在 **[!UICONTROL 添加表达式]** 对话框中，单击 **[!UICONTROL 确定]**.
 
 >[!CAUTION]
 >

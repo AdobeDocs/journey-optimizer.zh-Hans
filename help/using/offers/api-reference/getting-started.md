@@ -1,6 +1,6 @@
 ---
 title: 快速入门
-description: 瞭解如何開始使用Offer Library API，使用決策引擎執行關鍵操作。
+description: 了解如何开始使用优惠库API以使用决策引擎执行关键操作。
 feature: Offers
 topic: Integrations
 role: User
@@ -13,46 +13,46 @@ ht-degree: 6%
 
 ---
 
-# Decision Management API開發人員指南 {#decision-management-api-developer-guide}
+# Decision Management API开发人员指南 {#decision-management-api-developer-guide}
 
-本開發人員指南提供步驟，協助您開始使用 [!DNL Offer Library] API。 接著，指南會提供範例API呼叫，以利使用決策引擎執行關鍵作業。
+本开发人员指南提供了一些步骤，帮助您开始使用 [!DNL Offer Library] API。 然后，该指南提供了使用决策引擎执行关键操作的示例API调用。
 
-➡️ [在本影片中進一步了解決定管理的元件](#video)
+➡️ [在此视频中了解关于决策管理组件的更多信息](#video)
 
 ## 先决条件 {#prerequisites}
 
-本指南需要您實際瞭解下列Adobe Experience Platform元件：
+本指南要求您对Adobe Experience Platform的以下组件有一定的了解：
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}：作為依據的標準化架構 [!DNL Experience Platform] 組織客戶體驗資料。
-   * [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}：瞭解XDM結構描述的基本建置組塊。
-* [決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般體驗決策，尤其是決策管理的概念和元件。 說明用於選擇在客戶體驗期間呈現的最佳選項的策略。
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}： PQL是一種強大的語言，可透過XDM執行個體寫入運算式。 PQL可用來定義決定規則。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}：用于实现此目标的标准化框架 [!DNL Experience Platform] 组织客户体验数据。
+   * [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}：了解XDM架构的基本构建基块。
+* [决策管理](../../../using/offers/get-started/starting-offer-decisioning.md)：说明用于Experience Decisioning的一般概念和组件，特别是决策管理。 说明了用于选择在客户体验期间呈现的最佳选项的策略。
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}：PQL是一种强大的语言，可用于通过XDM实例编写表达式。 pql用于定义决策规则。
 
-## 讀取範例API呼叫 {#reading-sample-api-calls}
+## 正在读取示例API调用 {#reading-sample-api-calls}
 
-本指南提供範例API呼叫，示範如何格式化您的請求。 這些包括路徑、必要的標頭，以及正確格式化的請求裝載。 此外，也提供API回應中傳回的範例JSON。 如需檔案中用於範例API呼叫的慣例相關資訊，請參閱以下章節： [如何讀取範例API呼叫](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑難排解指南。
+本指南提供了示例API调用，以演示如何设置请求的格式。 这些资源包括路径、必需的标头和格式正确的请求负载。 此外，还提供了在API响应中返回的示例JSON。 有关示例API调用文档中使用的约定的信息，请参阅以下章节： [如何读取示例API调用](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} 在 [!DNL Experience Platform] 疑难解答指南。
 
-## 收集必要標題的值 {#gather-values-for-required-headers}
+## 收集所需标题的值 {#gather-values-for-required-headers}
 
-為了呼叫 [!DNL Adobe Experience Platform] API，您必須先完成 [驗證教學課程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成驗證教學課程後，會在所有標題中提供每個必要標題的值 [!DNL Experience Platform] API呼叫，如下所示：
+为了调用 [!DNL Adobe Experience Platform] API，您必须先完成 [身份验证教程](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. 完成身份验证教程将提供所有中所有所需标头的值 [!DNL Experience Platform] API调用，如下所示：
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
 
-包含裝載(POST、PUT、PATCH)的所有請求都需要額外的標頭：
+包含有效负载(POST、PUT、PATCH)的所有请求都需要额外的标头：
 
 * `Content-Type: application/json`
 
-## 管理對容器的存取 {#manage-access-to-container}
+## 管理对容器的访问 {#manage-access-to-container}
 
-容器是一種隔離機制，可將不同的關注點分開。 容器ID是所有存放庫API的第一個路徑元素。 所有決策物件都位於容器內。
+容器是一种隔离机制，用于分隔不同的关注点。 容器ID是所有存储库API的第一个路径元素。 所有决策对象都驻留在容器中。
 
-管理員可以將類似的主體、資源和存取許可權分組到設定檔中。 這能減輕管理負擔，並由 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必須是組織中Adobe Experience Platform的產品管理員，才能建立設定檔並將使用者指派給設定檔。 只要在一次性步驟中建立符合特定許可權的產品設定檔，然後只需將使用者新增到這些設定檔就足夠了。 設定檔會作為已授與許可權的群組，而該群組中的每個實際使用者或技術使用者都會繼承這些許可權。
+管理员可以将相似的主体、资源和访问权限分组到配置文件中。 这减轻了管理负担，并得到了以下支持 [Adobe Admin Console](https://adminconsole.adobe.com/). 您必须是组织中Adobe Experience Platform的产品管理员，才能创建配置文件并将用户分配给这些用户。 只需在一次性步骤中创建与特定权限匹配的产品配置文件，然后只需将用户添加到这些配置文件即可。 用户档案充当已授予权限的组，该组中的每个实际用户或技术用户都会继承这些权限。
 
-授予管理員許可權，您可以透過授予或撤銷使用者許可權 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target="_blank"}.
+授予管理员权限，您可以通过授予或撤销用户权限 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target="_blank"}.
 
-### 使用者和整合功能可存取的清單容器 {#list-containers-accessible-to-users-and-integrations}
+### 列出用户和集成可访问的容器 {#list-containers-accessible-to-users-and-integrations}
 
 **API格式**
 
@@ -62,9 +62,9 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | 依照容器與產品前後關聯的關聯來篩選容器清單。 | `acp` |
-| `{PROPERTY}` | 篩選傳回的容器型別。 | `_instance.containerType==decisioning` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | 按容器与产品上下文的关联筛选容器列表。 | `acp` |
+| `{PROPERTY}` | 筛选返回的容器类型。 | `_instance.containerType==decisioning` |
 
 **请求**
 
@@ -79,7 +79,7 @@ curl -X GET \
 
 **响应**
 
-成功的回應會傳回與決策管理容器相關的資訊。 這包括 `instanceId` 屬性，其值是您的容器ID。
+成功的响应将返回有关决策管理容器的信息。 这包括 `instanceId` 属性，其值是您的容器ID。
 
 ```json
 {
@@ -126,7 +126,7 @@ curl -X GET \
 
 ## 后续步骤 {#next-steps}
 
-本檔案說明呼叫「 」所需的必要條件知識。 [!DNL Offer Library] API，包括取得您的容器ID。 您現在可以繼續本開發人員指南中提供的範例呼叫，並依照其指示操作。
+本文档介绍了调用 [!DNL Offer Library] API，包括获取容器ID。 您现在可以继续本开发人员指南中提供的示例调用，并按照其说明进行操作。
 <!--
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ curl -X GET \
 
 ## 操作方法视频 {#video}
 
-以下影片旨在協助您了解決定管理的元件。
+以下视频旨在帮助您了解决策管理的各个组件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 与 Adobe Campaign Standard 集成
-description: 瞭解如何將Journey Optimizer與Adobe Campaign Standard整合
+description: 了解如何将Journey Optimizer与Adobe Campaign Standard集成
 feature: Actions
 topic: Administration
 role: Admin,Developer
 level: Intermediate
-keywords: campaign， standard，整合，上限，動作
+keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
@@ -18,50 +18,50 @@ ht-degree: 5%
 
 # 与 Adobe Campaign Standard 集成 {#using_adobe_campaign_standard}
 
-您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
+您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 
-如果您有Adobe Campaign Standard，則可使用內建動作來連線至Adobe Campaign Standard。
+如果您有Adobe Campaign Standard，则可使用内置操作来允许连接到Adobe Campaign Standard。
 
-必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Optimizer中使用。 如果事件已發佈，但訊息尚未發佈，則不會顯示在Journey Optimizer介面中。 如果訊息已發佈，但其關聯事件尚未發佈，則會顯示在Journey Optimizer介面中，但無法使用。
+必须发布Campaign Standard事务型消息及其相关事件，才能在Journey Optimizer中使用。 如果事件已发布但消息未发布，则它将不会显示在Journey Optimizer界面中。 如果消息已发布，但其关联事件未发布，则它将在Journey Optimizer界面中可见，但不可用。
 
 ## 重要说明 {#important-notes}
 
-* Adobe Campaign Standard動作會自動定義每5分鐘4000次呼叫的上限規則。 這與Adobe Campaign Standard交易式訊息的官方規模相對應。 閱讀中有關交易式訊息傳送SLA的詳細資訊 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这与Adobe Campaign Standard事务性消息传递的官方规模相对应。 有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
-* Adobe Campaign Standard整合是透過動作清單中的專屬內建動作來設定。 需要為每個沙箱設定此設定。
+* Adobe Campaign Standard集成是通过操作列表中的专用内置操作设置的。 需要为每个沙盒配置此设置。
 
-* 您無法搭配「區段」資格或「讀取區段」活動使用Campaign Standard動作。
+* Campaign Standard操作不能与区段鉴别或读取区段活动一起使用。
 
-* 歷程不能同時使用訊息和Campaign Standard動作。
+* 历程不能同时使用消息和Campaign Standard操作。
 
-## 設定動作 {#configure-action}
+## 配置操作 {#configure-action}
 
-以下是設定它的步驟：
+以下是配置它的步骤：
 
-1. 選取 **[!UICONTROL 設定]** 在「管理」選單區段中。 在  **[!UICONTROL 動作]** 區段，按一下 **[!UICONTROL 管理]**. 将显示操作列表。
+1. 选择 **[!UICONTROL 配置]** 在“管理”菜单部分中。 在  **[!UICONTROL 操作]** 部分，单击 **[!UICONTROL 管理]**. 将显示操作列表。
 
-1. 選取內建 **[!UICONTROL AdobeCampaignStandard]** 動作。 動作設定窗格會在畫面右側開啟。
+1. 选择内置 **[!UICONTROL AdobeCampaignStandard]** 操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](assets/actioncampaign.png)
 
-1. 複製您的Adobe Campaign Standard執行個體URL並貼到 **[!UICONTROL URL]** 欄位。
+1. 复制Adobe Campaign Standard实例URL并将其粘贴到 **[!UICONTROL URL]** 字段。
 
-1. 按一下 **[!UICONTROL 測試執行個體URL]** 以測試例項的有效性。
+1. 单击 **[!UICONTROL 测试实例URL]** 以测试实例的有效性。
 
    >[!NOTE]
    >
-   >此測試會驗證：
+   >此测试可验证：
    >
-   >主機為「.campaign.adobe.com」、「.campaign-sandbox.adobe.com」、「.campaign-demo.adobe.com」、「.ats.adobe.com」或「.adls.adobe.com」。
+   >主机为“.campaign.adobe.com”、“.campaign-sandbox.adobe.com”、“.campaign-demo.adobe.com”、“.ats.adobe.com”或“.adls.adobe.com”。
    >
-   >URL以https開頭，
+   >URL以https开头，
    >
-   >與此Adobe Campaign Standard例項關聯的組織與Journey Optimizer的組織相同。
+   >与此Adobe Campaign Standard实例关联的组织与Journey Optimizer的组织相同。
 
-設計您的歷程時，三個動作將適用於 **[!UICONTROL 動作]** 類別： **[!UICONTROL 電子郵件]**， **[!UICONTROL 推播]**， **[!UICONTROL 簡訊]** (請參閱 [使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-standard.md))。
+设计旅程时，以下三个操作将可用： **[!UICONTROL 操作]** 类别： **[!UICONTROL 电子邮件]**， **[!UICONTROL 推送]**， **[!UICONTROL 短信]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-standard.md))。
 
 ![](assets/journey58.png)
 
-您可以使用 **回應** 事件，用於回應相同歷程中傳送之Campaign Standard訊息的相關追蹤資料。 對於推播通知，您可以對點選、傳送或失敗的訊息做出反應。 對於SMS訊息，您可以對已傳送或失敗的訊息做出反應。 對於電子郵件，您可以對點選、傳送、開啟或失敗的訊息做出反應。 另請參閱 [回應事件](../building-journeys/reaction-events.md).
+您可以使用 **反应** 事件，用于对与在同一历程中发送的Campaign Standard消息相关的跟踪数据做出反应。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出反应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出反应。 参见 [反应事件](../building-journeys/reaction-events.md).
 
-如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 另請參閱 [關於自訂動作組態](../action/about-custom-action-configuration.md).
+如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 参见 [关于自定义操作配置](../action/about-custom-action-configuration.md).

@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API 限制
-description: 瞭解如何使用節流API
+description: 了解如何使用限制API
 role: User
 level: Beginner
-keywords: 外部， API，最佳化程式，上限
+keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 91%
 
 # 使用 API 限制
 
-節流API可協助您建立、設定和監控節流設定，以限制每秒傳送的事件數。
+限制API可帮助您创建、配置和监视限制配置，以限制每秒发送的事件数。
 
-本節提供如何使用API的全域資訊。 詳細的API說明可在以下網址取得： [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/).
+本节提供了有关如何使用API的全球信息。 有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >

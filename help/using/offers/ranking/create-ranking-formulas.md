@@ -1,6 +1,6 @@
 ---
 title: 排名公式
-description: 瞭解如何建立公式來排名優惠
+description: 了解如何创建公式来排名优惠
 feature: Offers
 topic: Integrations
 role: User
@@ -15,41 +15,41 @@ ht-degree: 9%
 
 # 排名公式 {#create-ranking-formulas}
 
-## 關於排名公式 {#about-ranking-formulas}
+## 关于排名公式 {#about-ranking-formulas}
 
 **排名公式**&#x200B;允许您定义规则，以确定应首先为给定投放位置显示哪个优惠，而不是考虑优惠的优先级得分。 
 
-排名公式表示為 **PQL語法** 並可運用設定檔屬性、內容資料和選件屬性。 如需如何使用PQL語法的詳細資訊，請參閱 [專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+排名公式表示为 **PQL语法** 和可以利用配置文件属性、上下文数据和选件属性。 有关如何使用PQL语法的更多信息，请参阅 [专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-建立排名公式後，您可以將其指派給決定中的位置。 有关此内容的更多信息，请参阅[在决策中配置优惠选择](../offer-activities/configure-offer-selection.md)。
+创建排名公式后，您可以将其分配给决策中的投放位置。 有关此内容的更多信息，请参阅[在决策中配置优惠选择](../offer-activities/configure-offer-selection.md)。
 
-## 建立排名公式 {#create-ranking-formula}
+## 创建排名公式 {#create-ranking-formula}
 
-若要建立排名公式，請遵循下列步驟：
+要创建排名公式，请执行以下步骤：
 
-1. 存取 **[!UICONTROL 元件]** 功能表，然後選取 **[!UICONTROL 排名]** 標籤。 此 **[!UICONTROL 公式]** 標籤預設為選取。 此時會顯示先前建立的公式清單。
+1. 访问 **[!UICONTROL 组件]** 菜单，然后选择 **[!UICONTROL 排名]** 选项卡。 此 **[!UICONTROL 公式]** 选项卡默认处于选中状态。 此时将显示之前创建的公式列表。
 
    ![](../assets/rankings-list.png)
 
-1. 按一下 **[!UICONTROL 建立排名]** 以建立新的排名公式。
+1. 单击 **[!UICONTROL 创建排名]** 以创建新的排名公式。
 
    ![](../assets/ranking-create-formula.png)
 
-1. 指定公式名稱、說明和公式。
+1. 指定公式名称、说明和公式。
 
-   在此範例中，如果實際天氣炎熱，我們想提高所有具有「炎熱」屬性之選件的優先順序。 若要這麼做， **contextData.weather=hot** 已在決策呼叫中傳遞。
+   在本例中，如果实际天气炎热，我们希望提高所有具有“hot”属性的选件的优先级。 要执行此操作， **contextData.weather=hot** 在决策调用中传递。
 
    ![](../assets/ranking-syntax.png)
 
-1. 单击 **[!UICONTROL Save]**。您的排名公式已建立，您可以從清單中選取它以取得詳細資訊，然後編輯或刪除它。
+1. 单击 **[!UICONTROL Save]**。排名公式已创建，您可以从列表中选择该公式以获取详细信息并对其进行编辑或删除。
 
-   它現在已可隨時用於決定排名合適的優惠方案以進行刊登(請參閱 [設定決定中的優惠選擇](../offer-activities/configure-offer-selection.md))。
+   它现在可用于对投放位置中符合条件的优惠进行排名的决策中(请参阅 [在决策中配置优惠选择](../offer-activities/configure-offer-selection.md))。
 
    ![](../assets/ranking-formula-created.png)
 
-## 排名公式範例 {#ranking-formula-examples}
+## 排名公式示例 {#ranking-formula-examples}
 
-您可以視需要建立許多不同的排名公式。 以下是一些範例。
+您可以根据需要创建许多不同的排名公式。 以下是一些示例。
 
 <!--
 Boost by offer ID
@@ -83,9 +83,9 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### 根據設定檔屬性，使用特定優惠方案屬性提升優惠方案
+### 根据配置文件属性，提升具有特定优惠属性的优惠
 
-如果設定檔位在與優惠方案對應的城市，則將該城市中所有優惠方案的優先順序加倍。
+如果配置文件住在选件对应的城市，则将该城市中所有选件的优先级提高一倍。
 
 **排名公式：**
 
@@ -93,7 +93,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### 結束日期距今不到24小時的Boost優惠方案
+### 结束日期距现在不到24小时的Boost优惠
 
 **排名公式：**
 
@@ -101,9 +101,9 @@ if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offe
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### 根據內容資料，透過特定優惠屬性提升優惠方案
+### 根据上下文数据提升具有特定优惠属性的优惠
 
-根據決策呼叫中傳遞的內容資料，提升特定優惠方案。 例如，如果 `contextData.weather=hot` 傳遞至決策呼叫，所有優惠方案的優先順序為 `attribute=hot` 必須提升。
+根据决策调用中传递的上下文数据提升某些选件。 例如，如果 `contextData.weather=hot` 在决策调用中传递，所有优惠的优先级 `attribute=hot` 必须提升。
 
 **排名公式：**
 
@@ -112,9 +112,9 @@ if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
-請注意，使用決策API時，內容資料會新增至請求內文中的設定檔元素，如下例所示。
+请注意，使用决策API时，上下文数据会添加到请求正文中的配置文件元素，如下面的示例所示。
 
-**要求內文的程式碼片段：**
+**请求正文中的片段：**
 
 ```
 "xdm:profiles": [
@@ -137,15 +137,15 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
  }],
 ```
 
-### 根據客戶購買所提供產品的傾向來提升優惠方案
+### 根据客户购买所提供产品的倾向来提升优惠
 
-您可以根據客戶傾向分數來提升優惠方案的分數。
+您可以根据客户倾向得分提高选件的得分。
 
-在此範例中，例項租使用者為 *銷售速度(_S)* 而且設定檔結構描述包含儲存在陣列中的一系列分數：
+在此示例中，实例租户是 *_salesvelocity* 配置文件架构包含存储在数组中的一系列得分：
 
 ![](../assets/ranking-example-schema.png)
 
-有鑑於此，對於設定檔，例如：
+因此，对于用户档案，例如：
 
 ```
 {"_salesvelocity": {"individualScoring": [
@@ -165,11 +165,11 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 }
 ```
 
-選件將包含 *傾向性型別* 符合分數中的類別：
+选件将包含 *倾向类型* 与分数中的类别匹配的类别：
 
 ![](../assets/ranking-example-propensityType.png)
 
-然後，您的排名公式可將每個優惠方案的優先順序設定為等於客戶 *傾向分數* 針對此 *傾向性型別*. 如果找不到分數，請使用在選件上設定的靜態優先順序：
+然后，您的排名公式可以将每个优惠的优先级设置为等于客户 *倾向分数* 为了这个 *倾向类型*. 如果未找到得分，请使用在选件中设置的静态优先级：
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

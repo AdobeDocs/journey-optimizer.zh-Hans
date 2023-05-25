@@ -1,6 +1,6 @@
 ---
 title: 优惠投放 API 入门
-description: 深入瞭解可用於提供個人化優惠的API。
+description: 了解更多有关可用于提供个性化优惠的API的信息。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,45 +15,45 @@ ht-degree: 6%
 
 # 优惠投放 API 入门 {#about-decisioning-apis}
 
-您可以使用以下任一專案傳遞優惠方案： **決策** 或 **邊緣決策** API。 此外， **批次決策** API可讓您透過一次呼叫，將優惠傳送至指定區段中的所有設定檔。 區段中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
+您可以使用以下任一方式交付优惠： **决策** 或 **Edge Decisioning** API。 此外， **批量决策** API允许您在一次调用中将选件交付给给定区段中的所有用户档案。 区段中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
 
-在本頁中，您會找到特定功能的相關資訊，這些功能包括 **決策** 和 **邊緣決策** API。 雖然兩者皆可讓您將優惠方案傳送給客戶，我們建議您使用 **邊緣決策** API儘可能用於傳入使用案例，並確保平台上有更好的延遲和輸送量。
+在本页中，您将找到有关特定功能的信息，这些功能随 **决策** 和 **Edge Decisioning** API。 虽然这两种方法都允许您向客户提供优惠，但我们建议使用 **Edge Decisioning** API适用于入站用例，并确保提高平台的延迟和吞吐量。
 
-|  | 要求數/秒 | 延迟 |
+|  | 请求数/秒 | 延迟 |
 |---|---|---|
 | Decisioning API | 2000 | &lt;500 毫秒 |
 | Edge Decisioning API | 5000 | &lt;250 毫秒 |
 
-如需如何使用API的詳細資訊，請參閱下列章節：
+有关如何使用API的更多信息，请参阅以下章节：
 * [Decisioning API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
 * [Batch Decisioning API](batch-decisioning-api.md)
 
 ## Edge Decisioning API功能 {#edge}
 
-**體驗事件和決策請求的不重複請求**
+**体验事件和决策请求的独特请求**
 
-有了Edge Decisioning API，您可以在單一請求中傳送體驗事件本身與決策請求，而不是有兩個不同的請求。
+借助Edge Decisioning API，您可以在一个请求中发送体验事件本身以及决策请求，而不是发送两个不同的请求。
 
-例如，如果客戶造訪您的網站，要求會包含體驗事件（客戶造訪頁面的次數），並傳回選件以填入造訪的頁面。
+例如，如果客户访问您的网站，则请求将包括体验事件（客户对页面的访问），并获取选件以填充所访问的页面。
 
-**將內容資料儲存至Adobe Experience Platform**
+**将上下文数据存储到Adobe Experience Platform中**
 
-內容資料是指您只有在要取回優惠方案時才知道的資料。 例如，所購買文章的顏色、購買時的天氣等。
+上下文数据是指您仅在需要恢复选件时知道的数据。 例如，所购买物品的颜色、购买时的天气等。
 
-使用Edge Decisioning API請求傳遞內容資料時，資料會儲存至Adobe Experience Platform設定檔，以便日後重複使用。
+使用Edge Decisioning API请求传递上下文数据时，数据会存储到Adobe Experience Platform配置文件中，以便将来重复使用。
 
 >[!NOTE]
 >
->為了儲存內容資料，您需要設定專用的XDM結構描述。
+>为了存储上下文数据，您需要配置专用的XDM架构。
 
-## 決策API功能 {#decisioning}
+## 决策API功能 {#decisioning}
 
-下列功能僅適用於Decisioning API。 如果您需要運用其中一個符合需求，請使用Decisioning API。 否則，我們建議使用Edge Decisioning API。
+以下列出的功能仅适用于Decisioning API。 如果您需要利用其中一个应用程序来满足您的要求，请使用Decisioning API。 否则，我们建议使用Edge Decisioning API。
 
-* **體驗事件**：運用體驗事件來建立您的決策規則。
-* **選件內容和特性**：您可以選擇不使用專用選項傳回選件的內容和特徵。
-* **優惠中繼資料**：啟用一個選項以傳回選件的中繼資料。
-* **合併原則**：在您的請求中使用與沙箱關聯的不同合併原則。
-* **決策事件和頻率限定**：封鎖決策事件，不讓發生的任何頻率上限計算在內。
-* **重複的主張**：啟用不重複主張的選項。
+* **体验事件**：利用体验事件构建决策规则。
+* **选件内容和特征**：您可以选择不使用专用选项返回选件的内容和特征。
+* **优惠元数据**：启用一个选项以返回选件的元数据。
+* **合并策略**：在您的请求中使用与沙盒关联的合并策略不同的合并策略。
+* **决策事件和频率封顶**：阻止将决策事件计数为所发生的任何频率上限。
+* **复制建议**：启用一个不删除重复建议的选项。

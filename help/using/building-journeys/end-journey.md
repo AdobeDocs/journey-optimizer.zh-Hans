@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程結束
-description: 瞭解歷程如何以Journey Optimizer結束
+title: 历程结束
+description: 了解历程如何以Journey Optimizer结束
 feature: Journeys
 role: User
 level: Beginner
-keywords: 重新進入、歷程、結束、即時、停止
+keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -15,26 +15,26 @@ ht-degree: 1%
 
 ---
 
-# 結束歷程{#journey-ending}
+# 结束历程{#journey-ending}
 
-歷程可以在兩個特定情境中為個人結束：
+历程可以在两个特定上下文中为个人结束：
 
-* 該人員到達路徑的最後一個活動。
-* 人員到達 **條件** 活動(或 **等待** 活動（含條件）且不符合任何條件。
+* 该人员到达路径的最后一个活动。
+* 人员到达 **条件** 活动(或 **等待** 活动（具有条件）且不匹配任何条件。
 
-如果允許重新進入，則人員可以重新進入歷程。 另請參閱 [此頁面](../building-journeys/journey-gs.md#change-properties)
+如果允许重新进入，人员可以重新进入历程。 参见 [此页面](../building-journeys/journey-gs.md#change-properties)
 
-若要終止即時歷程，建議您將其關閉。 接著，新客戶抵達歷程時會被封鎖。 已進入歷程的客戶能體驗到歷程的結尾。 另請參閱 [本節](../building-journeys/journey.md#close-journey)
+要终止实时历程，我们建议您将其关闭。 然后，将阻止新客户进入历程。 已进入历程的客户能够体验到历程的结尾。 参见 [本节](../building-journeys/journey.md#close-journey)
 
-只有在發生緊急狀況且需要在歷程中立即結束所有處理時，您才能停止歷程。 已進入歷程的人都在進度中停止。 另請參閱 [本節](../building-journeys/journey.md#stop-journey)
+仅当发生紧急情况并且所有处理需要在历程中立即结束时，才能停止历程。 已进入旅程的用户都在进程中停止。 参见 [本节](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >
->請注意，您無法繼續已關閉或已停止的歷程。
+>请注意，您无法继续已关闭或已停止的历程。
 
-## 歷程結束標籤{#end-tag}
+## 历程结束标记{#end-tag}
 
-製作歷程時，每個路徑的結尾會顯示「結束標籤」。 使用者無法新增此節點、無法移除節點，且只能變更其標籤。 它會標籤歷程每個路徑的結尾。 如果歷程有多個路徑，我們建議您在每個端點新增標籤，讓報告更易於閱讀。 请参阅[此页](../reports/live-report.md)。
+创作历程时，每个路径的末尾都会显示“结束标记”。 用户无法添加此节点，无法删除此节点，只能更改其标签。 它标记历程每个路径的结尾。 如果历程包含多个路径，我们建议您在每个末端添加一个标签，以使报告更易于阅读。 请参阅[此页](../reports/live-report.md)。
 
 ![](assets/journey-end.png)
 
@@ -48,46 +48,46 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 -->
 
-## 關閉歷程{#close-journey}
+## 关闭历程{#close-journey}
 
-歷程可以關閉，原因如下：
+旅程可以关闭，原因如下：
 
-* 已透過手動關閉歷程 **[!UICONTROL 關閉新入口]** 按鈕。
-* 已完成的單次區段型歷程。
-* 在重複產生區段型歷程的最後一次發生之後。
+* 历程已通过 **[!UICONTROL 对新入口关闭]** 按钮。
+* 基于一次性区段的历程，该历程已完成执行。
+* 基于区段的定期历程的最后一次发生之后。
 
-手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 當歷程關閉時（基於上述任何原因），它將具有狀態 **[!UICONTROL 已關閉]**. 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。 在預設全域逾時30天後，歷程將切換為 **已完成** 狀態。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
+手动关闭历程可确保已进入历程的客户可以完成其路径，但新用户无法进入历程。 当历程关闭时（由于上述任何原因），它将具有状态 **[!UICONTROL 已关闭]**. 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。 默认全局超时30天后，历程将切换到 **已完成** 状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 
-無法重新啟動或刪除已關閉的歷程版本。 您可以建立或複製它的新版本。 只能刪除已完成的歷程。
+无法重新启动或删除已关闭的历程版本。 您可以创建新版本或复制该版本。 只能删除已完成的历程。
 
-若要從歷程清單關閉歷程，請按一下 **[!UICONTROL 省略符號]** 位於歷程名稱右側的按鈕，並選取 **[!UICONTROL 關閉新入口]**.
-
-![](assets/journey-finish-quick-action.png)
-
-您还可以：
-
-1. 在 **[!UICONTROL 歷程]** 清單中，按一下您要關閉的歷程。
-1. 在右上方，按一下向下箭頭。
-
-   ![](assets/finish_drop_down_list.png)
-
-1. 按一下 **[!UICONTROL 關閉新入口]**，並在對話方塊中確認。
-
-## 停止歷程{#stop-journey}
-
-如果您需要停止歷程中所有個人的進度，您可以停止它。 停止歷程將會讓歷程中的所有個人逾時。 但是，停止歷程涉及已經進入歷程的人都在他們的進度中停止。 歷程已基本關閉。 如果您想要結束歷程，我們建議您將其關閉。
-
-停止的歷程版本無法重新啟動。
-
-停止時，歷程狀態會設為 **[!UICONTROL 已停止]**.
-
-例如，如果行銷人員發現歷程鎖定了錯誤的對象，或應該用來傳送訊息的自訂動作無法正常運作，則可以停止歷程。 若要從歷程清單停止歷程，請按一下 **[!UICONTROL 省略符號]** 位於歷程名稱右側的按鈕，並選取 **[!UICONTROL 停止]**.
+要从历程列表中关闭历程，请单击 **[!UICONTROL 省略号]** 位于历程名称右侧的按钮，然后选择 **[!UICONTROL 对新入口关闭]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 您还可以：
 
-1. 在 **[!UICONTROL 歷程]** 清單中，按一下您要停止的歷程。
-1. 在右上方，按一下向下箭頭。
+1. 在 **[!UICONTROL 历程]** 列表中，单击要关闭的历程。
+1. 单击右上角的向下箭头。
+
    ![](assets/finish_drop_down_list.png)
-1. 按一下 **[!UICONTROL 停止]**，並在對話方塊中確認。
+
+1. 单击 **[!UICONTROL 对新入口关闭]**，并在对话框中确认。
+
+## 停止历程{#stop-journey}
+
+如果您需要停止历程中所有个人的进度，则可以停止它。 停止历程将超时历程中的所有个人。 但是，停止旅程的过程涉及已进入旅程的人员都在进程中停止。 旅程基本上是关闭的。 如果要结束历程，我们建议您将其关闭。
+
+无法重新启动停止的历程版本。
+
+停止后，历程状态将设置为 **[!UICONTROL 已停止]**.
+
+例如，您可以停止历程，如果营销人员意识到历程定位了错误的受众，或者应该用于投放消息的自定义操作无法正常工作。 要从历程列表中停止历程，请单击 **[!UICONTROL 省略号]** 位于历程名称右侧的按钮，然后选择 **[!UICONTROL 停止]**.
+
+![](assets/journey-finish-quick-action.png)
+
+您还可以：
+
+1. 在 **[!UICONTROL 历程]** 列表中，单击要停止的历程。
+1. 单击右上角的向下箭头。
+   ![](assets/finish_drop_down_list.png)
+1. 单击 **[!UICONTROL 停止]**，并在对话框中确认。

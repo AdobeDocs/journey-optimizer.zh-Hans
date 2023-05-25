@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 等待活动
-description: 瞭解等待活動
+description: 了解等待活动
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 等待，活動，歷程，下一個，畫布
+keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -23,9 +23,9 @@ ht-degree: 20%
 >title="等待活动"
 >abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
 
-如果您想在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL 等待]** 活動。 这让您可以定义执行下一个活动的时刻。有三個可用選項：
+如果您想在执行路径中的下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
 
-* [持續時間](#duration)
+* [持续时间](#duration)
 * [自定义](#custom)
 
 <!--
@@ -33,15 +33,15 @@ ht-degree: 20%
 * [Fixed date](#fixed_date) 
 -->
 
-## 關於等待活動{#about_wait}
+## 关于等待活动{#about_wait}
 
-最長等待時間為30天。 在測試模式中， **[!UICONTROL 測試中的等待時間]** 引數可讓您定義每個等待活動的持續時間。 默认时间为 10 秒。這可確保您快速獲得測試結果。 另請參閱 [此頁面](../building-journeys/testing-the-journey.md)
+最长等待时间为30天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 参见 [此页面](../building-journeys/testing-the-journey.md)
 
-在歷程中使用多個等待活動時請小心，因為全域歷程逾時為30天，這表示設定檔在進入歷程後，將一律退出歷程最多30天。
+当在历程中使用多个等待活动时，请务必谨慎，因为全局历程超时为30天，这意味着用户档案在进入历程后始终退出历程的最长30天。
 
-## 持續時間等待{#duration}
+## 持续时间等待{#duration}
 
-選取下一個活動執行前等待的持續時間。
+选择下一个活动执行前等待的持续时间。
 
 ![](assets/journey55.png)
 
@@ -54,19 +54,19 @@ Select the date for the execution of the next activity.
 
 -->
 
-## 自訂等待{#custom}
+## 自定义等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它無法讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱此 [頁面](expression/expressionadvanced.md). 如需dateTimeOnly格式的詳細資訊，請參閱此 [頁面](expression/data-types.md).
+利用此选项，您可以使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅此 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->此 **時區** 應在您歷程的屬性中找到。 因此，目前無法從介面直接指向完整的ISO-8601時間戳記，混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>此 **时区** 应在历程的属性中找到。 因此，目前无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 
-若要驗證等待活動是否如預期般運作，您可以使用步驟事件。 请参阅[此页](../reports/query-examples.md#common-queries)。
+要验证等待活动是否按预期运行，您可以使用步骤事件。 请参阅[此页](../reports/query-examples.md#common-queries)。
 
 <!--## Email send time optimization{#email_send_time_optimization}
 

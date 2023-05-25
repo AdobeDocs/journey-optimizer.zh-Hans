@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 文字，電子郵件，版本，普通，編輯器
+keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ ht-degree: 75%
 
 如果您希望为纯文本版本使用其他内容，请执行以下步骤：
 
-1. 從您的電子郵件中，選取 **[!UICONTROL 純文字]** 圖示。
+1. 在电子邮件中，选择 **[!UICONTROL 纯文本]** 图标。
 
    ![](assets/text_version_3.png)
 
@@ -42,5 +42,5 @@ ht-degree: 75%
 >
 >* 在&#x200B;**[!UICONTROL 纯文本]**&#x200B;视图中所做的更改不会反映在 HTML 视图中。
 >
->* 如果您重新啟用 **[!UICONTROL 與HTML同步]** 選項在更新純文字內容後，您的變更將會遺失，並以HTML版本產生的文字內容取代。
+>* 如果您重新启用 **[!UICONTROL 与HTML同步]** 选项在更新纯文本内容后，您的更改将丢失，并替换为从HTML版本生成的文本内容。
 

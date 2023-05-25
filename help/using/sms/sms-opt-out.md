@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 短信选择禁用管理
-description: 瞭解如何透過簡訊管理選擇退出
+description: 了解如何使用短信消息管理选择退出
 feature: Journeys
 topic: Content Management
 role: User
@@ -17,31 +17,31 @@ ht-degree: 31%
 
 # 短信选择禁用管理 {#sms-opt-out}
 
-根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。[進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
+根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。[了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->文字訊息通訊可能會受到各種法律規範要求的約束，具體取決於其性質、您傳送文字訊息的位置以及收件者的位置。 雖然Adobe Journey Optimizer會處理長程式碼和免付費號碼的訊息（如下所述），但請洽詢您的法律顧問，以確保您的文字訊息通訊符合所有適用的法律規範要求。
+>根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理长代码和免费电话号码的消息（如下所述），但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
 
-## 原生傳入關鍵字{#sms-native-keywords}
+## 本机入站关键词{#sms-native-keywords}
 
-依預設，Adobe Journey Optimizer會針對免付費和長程式碼訊息處理下列標準英文回複訊息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 請注意，搭配Journey Optimizer使用時，只有Sinch支援原生關鍵字。
+默认情况下，Adobe Journey Optimizer会为免费和长代码消息处理以下标准英语回复消息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 请注意，在与Journey Optimizer一起使用时，只有Sinch支持Native关键字。
 
-這些關鍵字通常會觸發來自第三方提供者的自動標準回覆。 您可以直接与提供商或通过其文档网站确认此信息。
+这些关键字通常会触发第三方提供商的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
 
-無需任何步驟，即可確保SMS選擇退出功能在Adobe Journey Optimizer中運作，因為關鍵字回應STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE會自動識別。 在Adobe Journey Optimizer中即時更新設定檔選擇退出狀態。
+无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE会被自动识别。 在Adobe Journey Optimizer中实时更新用户档案选择退出状态。
 
 
-## 封鎖清單{#sms-blocklists}
+## 阻止列表{#sms-blocklists}
 
-除了Adobe Journey Optimizer根據選擇退出狀態停止傳送（用於與Twilio或Sinch直接整合）之外，大部分的SMS閘道提供者也會維護封鎖清單，確保SMS訊息不會傳送給選擇退出的個人。 如果您使用Sinch或Twilio以外的提供者，並透過以下方式傳送SMS： [自訂頻道](../building-journeys/using-custom-actions.md)，您需要向提供者確認。
+除了Adobe Journey Optimizer阻止列表根据选择退出状态停止发送（用于与Twilio或Sinch的直接集成）之外，大多数短信网关提供商还维护一个，以确保短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过发送短信 [自定义渠道](../building-journeys/using-custom-actions.md)，您需要向提供商确认此操作。
 
 
 ## 短代码 {#short-codes}
 
-依預設，Adobe Journey Optimizer不會處理短程式碼的選擇加入或說明關鍵字。 為確保符合業界法規與選擇退出處理規則，您必須確認您的短程式碼符合所有准則。
+默认情况下，Adobe Journey Optimizer不处理短代码的选择加入或帮助关键字。 要确保遵守选择退出处理的行业法规和规则，必须验证您的短代码是否符合所有准则。
 
-不過，Journey Optimizer不支援根據不同寄件者ID傳入關鍵字的全域選擇退出。
+但是，Journey Optimizer不支持根据具有不同发件人ID的传入关键字进行全局选择退出。
 
 ## 字母数字发件人 ID {#alphanumeric}
 

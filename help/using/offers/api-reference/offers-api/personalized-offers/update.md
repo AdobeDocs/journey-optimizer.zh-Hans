@@ -1,6 +1,6 @@
 ---
-title: 更新個人化優惠
-description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
+title: 更新个性化优惠
+description: 个性化优惠是基于资格规则和约束的可自定义营销消息。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 更新个性化优惠 {#update-personalized-offer}
 
-您可以透過向以下網站發出PATCH請求，修改或更新個人化優惠方案： [!DNL Offer Library] API
+您可以通过向以下网站发出PATCH请求来修改或更新个性化优惠： [!DNL Offer Library] API
 
-如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
+有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](http://jsonpatch.com/).
 
-## Accept和Content-Type標題 {#accept-and-content-type-headers}
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
 
-| 標頭名稱 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -36,8 +36,8 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 个性化优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -71,13 +71,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用來定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
-| `path` | 要更新的引數路徑。 |
-| `value` | 您想要用來更新引數的新值。 |
+| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新的参数的路径。 |
+| `value` | 您希望使用更新参数的新值。 |
 
 **响应**
 
-成功的回應會傳回個人化優惠的更新詳細資料，包括其唯一執行個體ID和個人化優惠 `@id`.
+成功的响应将返回个性化优惠的更新详细信息，包括其唯一的实例ID和个性化优惠 `@id`.
 
 ```json
 {

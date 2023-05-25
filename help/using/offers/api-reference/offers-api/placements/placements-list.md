@@ -1,6 +1,6 @@
 ---
 title: 列出投放位置
-description: 版位是用於展示優惠方案的容器。
+description: 投放位置是用于展示优惠的容器。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # 列出投放位置 {#list-placements}
 
-版位是用於展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
+投放位置是用于展示优惠的容器。 版面有助于确保正确的选件内容显示在消息的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
-您可以透過對「 」執行單一GET請求，來檢視容器中所有位置的清單 [!DNL Offer Library] API。
+您可以通过对容器执行单个GET请求，查看容器中所有版面的列表。 [!DNL Offer Library] API。
 
 **API格式**
 
@@ -27,26 +27,26 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `SCHEMA_PLACEMENT}` | 定義與版位關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=2` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 投放位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `SCHEMA_PLACEMENT}` | 定义与投放位置关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
+| `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=2` |
 
-## 使用查詢引數 {#using-query-parameters}
+## 使用查询参数 {#using-query-parameters}
 
-列出資源時，您可以使用查詢引數來分頁和篩選結果。
+在列出资源时，可以使用查询参数来分页和筛选结果。
 
 ### 分页 {#paging}
 
-分頁最常見的查詢引數包括：
+分页最常见的查询参数包括：
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止其標籤化及逸出特殊字元。 字元 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
-| `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可以重複執行，如下所示： field=field1[，field=field2，...] 和（路徑運算式的形式為點分隔的路徑，例如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 新增 `-` 在標題之前(`orderby=-title`)會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
-| `limit` | 限制傳回的版位數量。 | `limit=5` |
+| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应当使用反斜杠进行转义。 | 网站JSON |
+| `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
+| `field` | 要限制搜索的可选字段列表。 此参数可重复，如下所示： field=field1[，field=field2，...] 和（路径表达式采用点分隔路径的形式，如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题对项目进行降序排序(Z-A)。 | `-repo:createdDate` |
+| `limit` | 限制返回的投放位置数。 | `limit=5` |
 
 **请求**
 
@@ -62,7 +62,7 @@ curl -X GET \
 
 **响应**
 
-成功回應會傳回您在有權存取的容器中存在的版位清單。
+成功响应将返回您有权访问的容器中存在的投放位置列表。
 
 ```json
 {

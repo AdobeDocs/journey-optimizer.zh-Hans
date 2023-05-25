@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inLastHours
-description: 瞭解函式inLastHours
+description: 了解inLastHours函数
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastHours，函式，運算式，歷程
+keywords: inLastHours，函数，表达式，历程
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 18%
 
 # inLastHours {#inLastHours}
 
-如果指定的日期時間介於現在和現在之間 — 差異小時，則傳回true。
+如果给定的日期时间介于现在和现在之间 — 增量小时，则返回true。
 
 ## 类别
 
 日期
 
-## 函式語法
+## 函数语法
 
 `inLastHours(<dateTime>,<delta>)`
 
@@ -30,21 +30,21 @@ ht-degree: 18%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
+| 日期时间 | dateTime |
 | delta | 整数 |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `inLastHours(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回真。
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 
-傳回true。
+返回真。

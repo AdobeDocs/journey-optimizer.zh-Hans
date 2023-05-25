@@ -1,6 +1,6 @@
 ---
-title: 日期時間函式庫
-description: 日期時間函式庫
+title: 日期时间函数库
+description: 日期时间函数库
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 4%
 
 ---
 
-# 日期時間函式{#date-time}
+# 日期时间函数{#date-time}
 
-日期和時間函式可用來對Journey Optimizer中的值執行日期和時間作業。
+日期和时间函数用于对Journey Optimizer中的值执行日期和时间操作。
 
 ## 年龄{#age}
 
-此 `age` 函式用於從指定日期擷取年齡。
+此 `age` 函数用于从给定日期检索年龄。
 
 **语法**
 
@@ -37,9 +37,9 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## 目前時間（毫秒）{#current-time}
+## 当前时间（以毫秒为单位）{#current-time}
 
-此 `currentTimeInMillis` 函式用於擷取目前時間（以epoch毫秒為單位）。
+此 `currentTimeInMillis` 函数用于检索当前时间，以纪元毫秒为单位。
 
 **语法**
 
@@ -57,9 +57,9 @@ The following operation gets all the keys for the map `identityMap`.
 ```
 -->
 
-## 日期差異{#date-diff}
+## 日期差异{#date-diff}
 
-此 `dateDiff` 函式來擷取兩個日期之間的天數差異。
+此 `dateDiff` 函数用于检索两个日期之间的天数差。
 
 **语法**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 每周的某一日{#day-week}
 
-此 `dayOfWeek` 函式來擷取星期幾。
+此 `dayOfWeek` 函数用于检索星期几。
 
 **语法**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 年中哪天{#day-year}
 
-此 `dayOfYear` 函式來擷取一年中的第幾天。
+此 `dayOfYear` 函数用于检索每年的某一日。
 
 **语法**
 
@@ -118,9 +118,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 格式化日期{#format-date}
+## 设置日期格式{#format-date}
 
-此 `formatDate` 函式來格式化日期時間值。 格式應為有效的Java DateTimeFormat模式。
+此 `formatDate` 函数用于设置日期时间值的格式。 格式应为有效的Java DateTimeFormat模式。
 
 **语法**
 
@@ -128,25 +128,25 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format) %}
 ```
 
-其中第一個字串是日期屬性，第二個值是您希望轉換和顯示日期的方式。
+其中第一个字符串是日期属性，第二个值是您希望如何转换和显示日期。
 
 >[!NOTE]
 >
-> 如果日期模式無效，日期將退回至ISO標準格式。
+> 如果日期模式无效，日期将回退到ISO标准格式。
 >
-> 您可以使用Java日期格式函式，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> 您可以使用Java日期格式函数，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **示例**
 
-下列作業會以下列格式傳回日期：MM/DD/YY。
+以下操作将返回以下格式的日期：MM/DD/YY。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## 支援地區設定的日期格式{#format-date-locale}
+## 支持区域设置的日期格式{#format-date-locale}
 
-此 `formatDate` 函式可用來將日期時間值格式化為對應的語言敏感表示法，亦即所需的地區設定。 格式應為有效的Java DateTimeFormat模式。
+此 `formatDate` 函数用于将日期时间值格式化为其相应的语言敏感表示形式，即在所需的区域设置中。 格式应为有效的Java DateTimeFormat模式。
 
 **语法**
 
@@ -154,28 +154,28 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format, locale) %}
 ```
 
-其中第一個字串是日期屬性，第二個值是您轉換和顯示日期的方式，第三個值代表字串格式的地區設定。
+其中第一个字符串是日期属性，第二个值是您希望如何转换和显示日期，第三个值表示字符串格式的区域设置。
 
 >[!NOTE]
 >
-> 如果日期模式無效，日期將退回至ISO標準格式。
+> 如果日期模式无效，日期将回退到ISO标准格式。
 >
-> 您可以使用Java日期格式函式，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> 您可以使用Java日期格式函数，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> 您可以使用格式設定和有效地區設定，如中所述 [oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支援的區域設定](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> 您可以使用格式设置和有效区域设置，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **示例**
 
-下列作業會以下列格式傳回日期： MM/DD/YY和locale FRANCE。
+以下操作将返回以下格式的日期： MM/DD/YY和locale FRANCE。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
 ```
 
-## 設定天數{#set-days}
+## 设置天数{#set-days}
 
-此 `setDays` 函式用來設定指定日期時間的月份日期。
+此 `setDays` 函数用于为给定的日期时间设置月中日（该月中的第几天）。
 
 **语法**
 
@@ -193,9 +193,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 設定小時{#set-hours}
+## 设置小时{#set-hours}
 
-此 `setHours` 函式來設定日期時間的小時。
+此 `setHours` 函数用于设置日期时间的小时。
 
 **语法**
 
@@ -216,7 +216,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 到UTC{#to-utc}
 
-此 `toUTC` 函式用於將日期時間轉換為UTC。
+此 `toUTC` 函数用于将日期时间转换为UTC。
 
 
 **语法**
@@ -236,9 +236,9 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## UTC年周{#week-of-year}
+## UTC年中的周{#week-of-year}
 
-此 `weekOfYear` 函式來擷取一年中的周數。
+此 `weekOfYear` 函数用于检索年中周。
 
 **语法**
 

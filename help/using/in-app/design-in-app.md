@@ -1,11 +1,11 @@
 ---
 title: 设计应用程序内内容
-description: 瞭解如何在Journey Optimizer中設計您的應用程式內內容
+description: 了解如何在Journey Optimizer中设计应用程序内内容
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 應用程式內、訊息、設計、格式設定
+keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
@@ -16,178 +16,178 @@ ht-degree: 5%
 
 # 设计应用程序内内容 {#design-content}
 
-您可以編輯應用程式內內容來設定體驗選項：
+您可以编辑应用程序内内容以配置体验选项：
 
-* 在 **[!UICONTROL Campaign]**，來自 **[!UICONTROL 動作]** 功能表，若要設定訊息內容，請按一下 **[!UICONTROL 編輯內容]** 按鈕。
+* 在 **[!UICONTROL Campaign]**，来自 **[!UICONTROL 操作]** 菜单，要配置消息内容，请单击 **[!UICONTROL 编辑内容]** 按钮。
 
    ![](assets/edit-in-app-content.png)
 
-* 在 **[!UICONTROL 歷程]**，從應用程式內進階功能表 **[!UICONTROL 動作]**，您就可以開始使用設計內容 **[!UICONTROL 編輯內容]** 按鈕。
+* 在 **[!UICONTROL 历程]**，从应用程序内菜单访问 **[!UICONTROL 操作]**，您可以使用来开始设计内容 **[!UICONTROL 编辑内容]** 按钮。
 
    ![](assets/design_inapp_journey.png)
 
-此 **[!UICONTROL 進階格式]** 切換可啟動其他選項來自訂體驗。
+此 **[!UICONTROL 高级格式化]** 切换可激活其他选项以自定义体验。
 
-建立應用程式內訊息，並定義其內容且加以個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 请参阅[此页面](send-in-app.md)以了解详情。
+创建应用程序内消息，并定义其内容并对其进行个性化后，您可以查看和激活该消息。 然后，将根据营销策划计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
 
-## 訊息配置 {#message-layout}
+## 消息布局 {#message-layout}
 
-從 **[!UICONTROL 訊息配置]** 區段，根據您的訊息傳送需求，選取四個不同的版面配置選項之一。
+从 **[!UICONTROL 消息布局]** 部分，根据消息传送需求从四个不同的布局选项中选择一个。
 
 ![](assets/in_app_content_1.png)
 
-* **[!UICONTROL 全熒幕]**：此型別的版麵包含對象裝置的整個熒幕。
+* **[!UICONTROL 全屏]**：此类型的布局会覆盖受众设备的整个屏幕。
 
    此选项支持媒体（图像、视频）、文本和按钮组件。
 
-* **[!UICONTROL 強制回應視窗]**：此版面會顯示在大型警報樣式視窗中，而您的應用程式仍會顯示在背景中。
+* **[!UICONTROL 模态]**：此布局显示在大型警报样式窗口中，背景中仍可看到您的应用程序。
 
    此选项支持媒体（图像、视频）、文本和按钮组件。
 
-* **[!UICONTROL 橫幅]**：此型別的版面會以原生作業系統警報訊息的形式顯示。
+* **[!UICONTROL 横幅]**：此类型的布局显示为本机操作系统警报消息。
 
-   您只能新增 **[!UICONTROL 頁首]** 和 **[!UICONTROL 內文]** 至您的訊息。
+   您只能添加 **[!UICONTROL 页眉]** 和 **[!UICONTROL 正文]** 给你的留言。
 
-* **[!UICONTROL 自訂]**：自訂訊息模式可讓您直接匯入及編輯其中一個預先設定的HTML訊息。
+* **[!UICONTROL 自定义]**：利用自定义消息模式，可直接导入和编辑其中一个预配置的HTML消息。
 
-   * 選取 **[!UICONTROL 撰寫]** 以輸入或貼上您的原始HTML程式碼。
+   * 选择 **[!UICONTROL 撰写]** 输入或粘贴原始HTML代码。
 
-      使用左窗格來運用Journey Optimizer個人化功能。 有关详细信息，请参阅[此部分](../personalization/personalize.md)。
+      使用左窗格来利用Journey Optimizer个性化功能。 有关详细信息，请参阅[此部分](../personalization/personalize.md)。
 
-   * 選取 **[!UICONTROL 匯入]** 匯入包含HTML內容的HTML或.zip檔案。
+   * 选择 **[!UICONTROL 导入]** 导入包含HTML内容的HTML或.zip文件。
 
-## 內容索引標籤 {#content-tab}
+## “内容”选项卡 {#content-tab}
 
-從 **內容** 標籤內，您可以定義並個人化： **關閉** 按鈕。 您也可以新增媒體至應用程式內通知，並透過此索引標籤新增動作按鈕。
+从 **内容** 选项卡上，您可以定义和个性化：通知的内容和样式 **关闭** 按钮。 您还可以向应用程序内通知添加媒体，并通过此选项卡添加操作按钮。
 
-### 關閉按鈕 {#close-button}
+### “关闭”按钮 {#close-button}
 
 ![](assets/in_app_content_2.png)
 
-選擇 **[!UICONTROL 樣式]** 的 **[!UICONTROL 關閉按鈕]**.
+选择 **[!UICONTROL 样式]** 的 **[!UICONTROL “关闭”按钮]**.
 
-可用的樣式包括：
+可用的样式包括：
 
-* **[!UICONTROL 簡單]**
-* **[!UICONTROL 圓形]**
-* **[!UICONTROL 自訂影像]** 來自媒體URL或您的資產。
+* **[!UICONTROL 简单]**
+* **[!UICONTROL 圆形]**
+* **[!UICONTROL 自定义图像]** 从媒体URL或您的资产中。
 
-+++更多具有進階格式化的選項
++++更多高级格式选项
 
-如果 **[!UICONTROL 進階格式化模式]** 開啟，您可以檢查 **[!UICONTROL 顏色]** 選項來選擇按鈕的顏色和不透明度。
+如果 **[!UICONTROL 高级格式模式]** 打开，您可以检查 **[!UICONTROL 颜色]** 选项来选择按钮的颜色和不透明度。
 
 +++
 
 ### 媒体 {#add-media}
 
-此 **[!UICONTROL 媒體]** 欄位可讓您將媒體新增至應用程式內訊息，為一般使用者建立引人入勝的體驗。
+此 **[!UICONTROL 媒体]** 字段允许您将媒体添加到应用程序内消息中，从而为最终用户创造引人入胜的体验。
 
 ![](assets/in_app_content_3.png)
 
-輸入您的媒體URL或按一下 **[!UICONTROL 選取資產]** 圖示可將儲存在Assets程式庫中的資產直接新增至應用程式內訊息。 [進一步瞭解資產管理](../email/assets-essentials.md).
-您也可以新增 **[!UICONTROL 替代文字]** 適用於熒幕閱讀應用程式。
+键入您的媒体URL或单击 **[!UICONTROL 选择资源]** 图标，用于将存储在Assets库中的资产直接添加到应用程序内消息中。 [了解有关资产管理的更多信息](../email/assets-essentials.md).
+您还可以添加 **[!UICONTROL 替换文本]** 用于屏幕阅读应用程序。
 
-+++更多具有進階格式化的選項
++++更多高级格式选项
 
-如果 **[!UICONTROL 進階格式化模式]** 開啟，您可以自訂 **[!UICONTROL 最大高度]** 和 **[!UICONTROL 最大寬度]** 媒體的。
+如果 **[!UICONTROL 高级格式模式]** 打开，您可以自定义 **[!UICONTROL 最大高度]** 和 **[!UICONTROL 最大宽度]** 您的媒体。
 
 +++
 
-### 頁首與內文 {#title-body}
+### 页眉和正文 {#title-body}
 
-若要撰寫訊息，請在 **[!UICONTROL 頁首]** 和 **[!UICONTROL 內文]** 欄位。
+要撰写消息，请在 **[!UICONTROL 页眉]** 和 **[!UICONTROL 正文]** 字段。
 
 ![](assets/in_app_content_4.png)
 
-使用 **[!UICONTROL 個人化]** 圖示以新增個人化。 進一步瞭解Adobe Journey Optimizer運算式編輯器中的個人化 [在本節中](../personalization/personalize.md).
+使用 **[!UICONTROL 个性化]** 图标以添加个性化。 了解有关Adobe Journey Optimizer表达式编辑器中个性化的更多信息 [在此部分中](../personalization/personalize.md).
 
-+++更多具有進階格式化的選項
++++更多高级格式选项
 
-如果 **[!UICONTROL 進階格式化模式]** 已開啟，您可以為 **[!UICONTROL 頁首]** 和 **[!UICONTROL 內文]**：
+如果 **[!UICONTROL 高级格式模式]** 已打开，您可以为 **[!UICONTROL 页眉]** 和 **[!UICONTROL 正文]**：
 
-* 此 **[!UICONTROL 字型]**
+* 此 **[!UICONTROL 字体]**
 * 此 **[!UICONTROL Pt大小]**
-* 此 **[!UICONTROL 字型色彩]**
-* 此 **[!UICONTROL 對齊方式]**
+* 此 **[!UICONTROL 字体颜色]**
+* 此 **[!UICONTROL 对齐方式]**
 +++
 
 ### 按钮 {#add-buttons}
 
-新增按鈕讓使用者與您的應用程式內訊息互動。
+添加按钮以方便用户与应用程序内消息交互。
 
 ![](assets/in_app_content_5.png)
 
-個人化您的按鈕：
+要个性化您的按钮，请执行以下操作：
 
-1. 編輯「按鈕#1文字（主要）」欄位。 您也可以使用 **[!UICONTROL 個人化]** 圖示來定義內容和個人化資料。
+1. 编辑按钮#1文本（主要）字段。 您还可以使用 **[!UICONTROL 个性化]** 图标来定义内容和个性化数据。
 
-1. 選擇您的 **[!UICONTROL 互動事件]** 會定義使用者與按鈕互動後的按鈕動作。
+1. 选择您的 **[!UICONTROL 交互事件]** 定义用户与按钮交互后按钮的操作。
 
-1. 在「 」中輸入您的網頁URL或深層連結 **[!UICONTROL Target]** 欄位。
+1. 在中输入Web URL或深层链接 **[!UICONTROL Target]** 字段。
 
-1. 若要新增多個按鈕，請按一下 **[!UICONTROL 新增按鈕]**.
+1. 要添加多个按钮，请单击 **[!UICONTROL “添加”按钮]**.
 
-+++更多具有進階格式化的選項
++++更多高级格式选项
 
-如果 **[!UICONTROL 進階格式化模式]** 已開啟，您可以為 **[!UICONTROL 按鈕]**：
+如果 **[!UICONTROL 高级格式模式]** 已打开，您可以为 **[!UICONTROL 按钮]**：
 
-* 此 **[!UICONTROL 字型]**
+* 此 **[!UICONTROL 字体]**
 * 此 **[!UICONTROL Pt大小]**
-* 此 **[!UICONTROL 字型色彩]**
-* 此 **[!UICONTROL 對齊方式]**
-* 此 **[!UICONTROL 按鈕樣式]**
-* 此 **[!UICONTROL 半徑]**
-* 此 **[!UICONTROL 按鈕顏色]**
+* 此 **[!UICONTROL 字体颜色]**
+* 此 **[!UICONTROL 对齐方式]**
+* 此 **[!UICONTROL 按钮样式]**
+* 此 **[!UICONTROL 半径]**
+* 此 **[!UICONTROL 按钮颜色]**
 
 +++
 
-## 設定索引標籤 {#settings-tab}
+## “设置”选项卡 {#settings-tab}
 
-從 **設定** 索引標籤中，您可以定義訊息版面並預覽應用程式內訊息。 您也可以存取進階格式選項。
+从 **设置** 选项卡，您可以定义消息布局并预览应用程序内消息。 您还可以访问高级格式设置选项。
 
 ### 预览 {#preview-tab}
 
 ![](assets/in_app_content_6.png)
 
-此 **[!UICONTROL 應用程式預覽]** 可讓您在應用程式內訊息後面新增背景：
+此 **[!UICONTROL 应用程序预览]** 允许您在应用程序内消息后添加背景：
 
-* URL連結中的媒體。
+* URL链接中的媒体。
 
-* 資產庫中的資產。
+* 资产库中的资产。
 
-* 背景顏色。
+* 背景颜色。
 
 ### 版式 {#layout-options}
 
 ![](assets/in_app_content_7.png)
 
-此 **[!UICONTROL 背景影像]** 欄位可讓您將背景新增至應用程式內訊息：
+此 **[!UICONTROL 背景图像]** 字段允许您向应用程序内消息添加背景：
 
-* URL連結中的媒體。
+* URL链接中的媒体。
 
-* 背景顏色。
+* 背景颜色。
 
 ### 消息 {#message-tab}
 
 ![](assets/in_app_content_8.png)
 
-UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景變暗，強調對內容的關注。
+默认启用的UI接管选项允许您使应用程序内消息背后的背景变暗，以强调对内容的关注。
 
-+++更多具有進階格式化的選項
++++更多高级格式选项
 
-如果 **[!UICONTROL 進階格式化模式]** 開啟，您可使用下列選項進一步個人化您的訊息：
+如果 **[!UICONTROL 高级格式模式]** ，则可以使用以下选项进一步个性化您的消息：
 
-* **[!UICONTROL 自訂手勢]**：可讓您自訂使用者滑動互動的內容。 如果選取了關閉，您可以新增自訂互動事件和/或目標目的地。
+* **[!UICONTROL 自定义手势]**：用于自定义用户轻扫交互的内容。 如果选择了“消除”，则可以添加自定义交互事件和/或目标目标。
 
-* **[!UICONTROL 自訂UI接管]**：可讓您選取要在背景中顯示的顏色及其不透明度。
+* **[!UICONTROL 自定义UI接管]**：用于选择要在背景中显示的颜色及其不透明度。
 
-* **[!UICONTROL 自訂大小]**：可讓您調整應用程式內通知的寬度和高度。
+* **[!UICONTROL 自定义大小]**：用于调整应用程序内通知的宽度和高度。
 
-* **[!UICONTROL 自訂位置]**：可讓您自訂應用程式內訊息在使用者熒幕上的位置。 您可以變更「垂直」和「水準」對齊。
+* **[!UICONTROL 自定义位置]**：用于自定义应用程序内消息在用户屏幕上的位置。 您可以更改“垂直”和“水平”对齐。
 
-* **[!UICONTROL 自訂動畫]**：可讓您自訂顯示和解除動畫，例如從使用者裝置的左側或上方出現應用程式內通知時。
+* **[!UICONTROL 自定义动画]**：允许您自定义显示和解除动画，例如，如果您从用户设备的左侧或顶部显示应用程序内通知。
 
-* **[!UICONTROL 訊息圓角]**：可讓您透過變更 **[!UICONTROL 圓角半徑]**.
+* **[!UICONTROL 消息圆角]**：用于通过更改 **[!UICONTROL 圆角半径]**.
 
 +++
 
@@ -195,10 +195,10 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
 * [创建应用程序内消息](create-in-app.md)
 * [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
-* [應用程式內設定](inapp-configuration.md)
+* [应用程序内配置](inapp-configuration.md)
 
 ## 操作方法视频{#video}
 
-以下影片說明如何製作及測試您的應用程式內訊息。
+以下视频介绍了如何创作和测试应用程序内消息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

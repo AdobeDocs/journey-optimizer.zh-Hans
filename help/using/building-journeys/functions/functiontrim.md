@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: trim
-description: 瞭解函式修剪
+description: 了解函数修剪
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: trim，函式，運算式，歷程
+keywords: trim，函数，表达式，旅程
 exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 28%
 
 # trim {#trim}
 
-移除開始和結束空格。
+删除起始和结束空格。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `trim(<parameters>)`
 
@@ -32,14 +32,14 @@ ht-degree: 28%
 |-----------|------------------|
 | 字符串 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `trim(<string>)`
 
-傳回字串。
+返回字符串。
 
 ## 示例
 
 `trim(" Hello ")`
 
-傳回「Hello」。
+返回“Hello”。

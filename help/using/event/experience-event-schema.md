@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 關於歷程事件的ExperienceEvent結構描述
-description: 瞭解歷程事件的ExperienceEvent結構描述
+title: 关于历程事件的ExperienceEvent架构
+description: 了解历程事件的ExperienceEvent架构
 feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 結構描述， XDM，平台，串流，擷取，歷程
+keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
@@ -16,39 +16,39 @@ ht-degree: 3%
 
 ---
 
-# 關於的ExperienceEvent結構描述 [!DNL Journey Optimizer] 事件 {#about-experienceevent-schemas}
+# 关于的ExperienceEvent架构 [!DNL Journey Optimizer] 事件 {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] 事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
+[!DNL Journey Optimizer] 事件是通过流式摄取发送到Adobe Experience Platform的XDM体验事件。
 
-因此，設定事件的重要先決條件 [!DNL Journey Optimizer] 您是否熟悉Adobe Experience Platform的Experience Data Model （或XDM）、如何組成XDM Experience Event結構描述，以及如何將XDM格式的資料串流到Adobe Experience Platform。
+因此，设置事件的重要先决条件 [!DNL Journey Optimizer] 您熟悉Adobe Experience Platform的体验数据模型（或XDM）、如何构建XDM体验事件架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
 
-## 的結構描述需求 [!DNL Journey Optimizer] 事件  {#schema-requirements}
+## 架构要求 [!DNL Journey Optimizer] 事件  {#schema-requirements}
 
-設定事件的第一步 [!DNL Journey Optimizer] 是用來確保您定義了XDM結構描述來代表事件，並建立了一個資料集來記錄Adobe Experience Platform上的事件例項。 擁有事件的資料集並非絕對必要，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考及分析，因此總是對的。 如果您還沒有適合事件的結構描述和資料集，這兩項工作都可以在Adobe Experience Platform網頁介面中完成。
+设置事件的第一步 [!DNL Journey Optimizer] 是确保您定义了用于表示事件的XDM架构，并创建了数据集以在Adobe Experience Platform上记录事件的实例。 严格来说，没有必要为事件设置数据集，但将事件发送到特定数据集将允许您维护用户的事件历史记录，以供将来参考和分析，因此始终是很好的做法。 如果您还没有适合事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
 
 ![](assets/schema1.png)
 
-任何將用於以下專案的XDM結構描述 [!DNL Journey Optimizer] 事件應符合下列要求：
+任何将使用的XDM架构 [!DNL Journey Optimizer] 事件应满足以下要求：
 
-* 結構描述必須是XDM ExperienceEvent類別。
+* 架构必须是XDM ExperienceEvent类的。
 
    ![](assets/schema2.png)
 
-* 對於系統產生的事件，結構描述必須包括Orchestration eventID欄位群組。 [!DNL Journey Optimizer] 使用此欄位來識別歷程中使用的事件。
+* 对于系统生成的事件，架构必须包括业务流程eventID字段组。 [!DNL Journey Optimizer] 使用此字段标识历程中使用的事件。
 
    ![](assets/schema3.png)
 
-* 宣告識別事件中個別設定檔的身分欄位。 如果未指定身分，則可使用身分對應。 不建议采取此做法。
+* 声明一个标识字段，用于标识事件中的各个用户档案。 如果未指定标识，则可以使用标识映射。 不建议采取此做法。
 
    ![](assets/schema4.png)
 
-* 如果您希望此資料稍後可在歷程中查詢，請標籤設定檔的結構描述和資料集。
+* 如果您希望此数据稍后可在历程中查找，请标记架构和数据集的配置文件。
 
    ![](assets/schema5.png)
 
    ![](assets/schema6.png)
 
-* 您可以隨意加入資料欄位，以擷取您要與事件一起加入的任何其他內容資料，例如關於使用者的資訊、產生事件的裝置、位置或與事件相關的任何其他有意義的情況。
+* 您可以随意包含数据字段，以捕获要与事件一起包含的任何其他上下文数据，例如有关用户的信息、生成事件的设备、位置或与事件相关的任何其他有意义的情况。
 
    ![](assets/schema7.png)
 
@@ -58,77 +58,77 @@ ht-degree: 3%
 
 Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
 
-假設您的品牌資料模型有一個擷取購買資料的結構描述。 您也有產品目錄的結構描述。 您可以在購買結構描述中擷取產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立區段，而無須明確列出所有筆記型電腦ID，或擷取異動系統中的每個單一產品詳細資訊。
+假设您的品牌数据模型具有一个用于捕获购买情况的模式。 此外，您还有一个产品目录架构。 您可以在购买架构中捕获产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个区段，而不必明确列出所有笔记本电脑ID或在事务性系统中捕获每个产品的详细信息。
 
-若要定義關係，來源結構描述中必須有專用欄位，在此案例中是購買結構描述中的產品ID欄位。 此欄位需要參考目的地結構描述中的產品ID欄位。 必須為設定檔啟用來源和目的地資料表，而且目的地結構描述必須將該通用欄位定義為其主要身分。
+要定义关系，您需要在源架构中有一个专用字段，在本例中是购买架构中的产品ID字段。 此字段需要引用目标架构中的产品ID字段。 必须为配置文件启用源表和目标表，并且目标架构必须将公共字段定义为其主要标识。
 
-以下是已為設定檔啟用的產品目錄結構，產品ID已定義為主要身分。
+以下是为将产品ID定义为主要标识的配置文件启用的产品目录架构。
 
 ![](assets/schema9.png)
 
-以下是產品ID欄位中定義的購買結構描述。
+以下是产品ID字段中定义关系的购买架构。
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->進一步瞭解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>在中了解有关架构关系的更多信息 [Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
-在Journey Optimizer中，您可以善用連結表格中的所有欄位：
+在Journey Optimizer中，您可以利用链接表中的所有字段：
 
-* 設定企業或單一事件時， [瞭解詳情](../event/experience-event-schema.md#unitary_event_configuration)
-* 在歷程中使用條件時， [瞭解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在訊息個人化中， [瞭解詳情](../event/experience-event-schema.md#message_personalization)
-* 在自訂動作個人化中， [瞭解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 配置业务或单一事件时， [了解更多](../event/experience-event-schema.md#unitary_event_configuration)
+* 在历程中使用条件时， [了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在消息个性化中， [了解更多](../event/experience-event-schema.md#message_personalization)
+* 在自定义操作个性化中， [了解更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 数组{#relationships_limitations}
 
-您可以在字串陣列上定義結構描述關係，例如，產品ID清單。
+您可以对字符串数组定义架构关系，例如，产品ID列表。
 
 ![](assets/schema15.png)
 
-不過，您不可以物件陣列內的屬性定義結構描述關係，例如購買資訊清單（產品ID、產品名稱、價格、折扣）。 查閱值將無法在歷程中使用（條件、自訂動作等） 和訊息個人化。
+但是，不能定义与对象数组内部属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 查找值在历程（条件、自定义操作等）中不可用 和消息个性化。
 
 ![](assets/schema16.png)
 
 ### 事件配置{#unitary_event_configuration}
 
-連結的結構描述欄位可用於單一和商業事件設定：
+链接的架构字段在单一和业务事件配置中可用：
 
-* 瀏覽事件設定畫面中的事件結構描述欄位時。
-* 定義系統產生事件的條件時。
+* 浏览事件配置屏幕中的事件架构字段时。
+* 在为系统生成的事件定义条件时。
 
 ![](assets/schema11.png)
 
-連結的欄位無法使用：
+链接的字段不可用：
 
-* 在事件索引鍵公式中
-* 在事件id條件中（規則型事件）
+* 在事件键公式中
+* 在事件id条件中（基于规则的事件）
 
-若要瞭解如何設定單一事件，請參閱此 [頁面](../event/about-creating.md).
+要了解如何配置单一事件，请参阅此 [页面](../event/about-creating.md).
 
-### 使用事件內容的歷程條件{#journey_conditions_using_event_context}
+### 使用事件上下文的历程条件{#journey_conditions_using_event_context}
 
-您可以使用查詢表格中的資料，連結至歷程中使用的事件，以進行條件建置（運算式編輯器）。
+您可以使用查询表中的数据，该表链接到历程中使用的事件，以进行条件构建（表达式编辑器）。
 
-在歷程中新增條件、編輯運算式，並在運算式編輯器中展開事件節點。
+在历程中添加条件、编辑表达式并在表达式编辑器中展开事件节点。
 
 ![](assets/schema12.png)
 
-若要瞭解如何定義歷程條件，請參閱此 [頁面](../building-journeys/condition-activity.md).
+要了解如何定义历程条件，请参阅此 [页面](../building-journeys/condition-activity.md).
 
-### 訊息個人化{#message_personalization}
+### 消息个性化{#message_personalization}
 
-個人化訊息時，可使用連結的欄位。 相關欄位會顯示在從歷程傳遞至訊息的內容中。
+对消息进行个性化设置时，可以使用链接的字段。 相关字段显示在从历程传递到消息的上下文中。
 
 ![](assets/schema14.png)
 
-若要瞭解如何使用內容歷程資訊個人化訊息，請參閱此 [頁面](../personalization/personalization-use-case.md).
+要了解如何使用上下文历程信息个性化消息，请参阅此 [页面](../personalization/personalization-use-case.md).
 
-### 使用歷程事件內容進行自訂動作個人化{#custom_action_personalization_with_journey_event_context}
+### 使用历程事件上下文进行自定义操作个性化{#custom_action_personalization_with_journey_event_context}
 
-設定歷程自訂動作活動的動作引數時，可使用連結的欄位。
+配置历程自定义操作活动的操作参数时，链接的字段可用。
 
 ![](assets/schema13.png)
 
-若要瞭解如何使用自訂動作，請參閱此 [頁面](../building-journeys/using-custom-actions.md).
+要了解如何使用自定义操作，请参阅此 [页面](../building-journeys/using-custom-actions.md).

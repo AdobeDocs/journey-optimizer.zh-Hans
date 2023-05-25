@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 添加个性化优惠
-description: 瞭解如何將個人化優惠方案新增至您的訊息
+description: 了解如何向消息添加个性化优惠
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 優惠，決定，電子郵件，個人化，決定
+keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -18,94 +18,94 @@ ht-degree: 1%
 
 # 添加个性化优惠 {#deliver-personalized-offers}
 
-在 [!DNL Journey Optimizer] 電子郵件中，您可以插入將運用決策管理引擎的決策，以挑選要提供給客戶的最佳優惠方案。
+In [!DNL Journey Optimizer] 在电子邮件中，您可以插入将利用决策管理引擎的决策，以便选择向客户提供的最佳优惠。
 
-例如，您可以新增一項決定，該決定會在您的電子郵件中顯示特殊的折扣優惠，該優惠會根據收件者的忠誠度等級而有所不同。
+例如，您可以添加一个决策，该决策将在您的电子邮件中显示一个特殊的折扣优惠，该优惠将因收件人的忠诚度级别而异。
 
 >[!IMPORTANT]
 >
->如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。  這將確保將變更納入歷程的訊息中，且訊息與最新更新一致。
+>如果对历程消息中使用的优惠决策进行了更改，则需要取消发布历程并重新发布它。  这将确保将更改纳入历程的消息中，并且消息与最新更新一致。
 
-* 有關如何建立和管理優惠方案的詳細資訊，請參閱 [本節](../offers/get-started/starting-offer-decisioning.md).
-* 對於 **完整的端對端範例** 顯示如何設定優惠方案、在決定中使用優惠方案，以及在電子郵件中運用此決定、結帳 [本節](../offers/offers-e2e.md#insert-decision-in-email).
+* 有关如何创建和管理优惠的更多信息，请参阅 [本节](../offers/get-started/starting-offer-decisioning.md).
+* 对于 **完整的端到端示例** 显示如何配置优惠、在决策中使用优惠以及在电子邮件中利用此决策、签出 [本节](../offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [瞭解如何在本影片中新增優惠方案作為個人化](#video-offers)
+➡️ [在此视频中了解如何添加优惠作为个性化](#video-offers)
 
-## 在電子郵件中插入決定 {#insert-offers}
+## 在电子邮件中插入决策 {#insert-offers}
 
 >[!CAUTION]
 >
->開始之前，您必須 [定義優惠決定](../offers/offer-activities/create-offer-activities.md).
+>在开始之前，您必须 [定义优惠决策](../offers/offer-activities/create-offer-activities.md).
 
-若要將決定插入電子郵件訊息，請遵循下列步驟：
+要在电子邮件中插入决策，请执行以下步骤：
 
-1. 建立您的電子郵件，然後開啟「電子郵件設計工具」以設定其內容。
+1. 创建电子邮件，然后打开Email Designer以配置其内容。
 
-1. 新增 **[!UICONTROL 優惠決定]** 內容元件。
+1. 添加 **[!UICONTROL 优惠决策]** 内容组件。
 
    ![](assets/deliver-offer-component.png)
 
-   瞭解如何在中使用內容元件 [本節](content-components.md).
+   了解如何在中使用内容组件 [本节](content-components.md).
 
-1. 此 **[!UICONTROL 優惠決定]** 標籤會顯示在右方的浮動視窗中。 按一下 **[!UICONTROL 選取優惠決定]**：
+1. 此 **[!UICONTROL 优惠决策]** 选项卡显示在右侧面板中。 单击 **[!UICONTROL 选择优惠决策]**：
 
-   1. 在顯示的視窗中，選取與您要顯示之優惠方案對應的版位。
+   1. 在显示的窗口中，选择与要显示的选件对应的版面。
 
-      [版位](../offers/offer-library/creating-placements.md) 是用來展示優惠方案的容器。 在此範例中，我們將使用「電子郵件上層影像」位置。 此版位已建立在選件資料庫中，用來顯示位於訊息頂端的影像型別選件。
+      [版面](../offers/offer-library/creating-placements.md) 是用于展示优惠的容器。 在本例中，我们将使用“电子邮件顶部图像”投放位置。 此版面已在选件库中创建，用于显示位于消息顶部的图像类型选件。
 
-   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下 **[!UICONTROL 新增]**.
+   1. 将显示与所选投放位置匹配的决策。 选择要在内容组件中使用的决策，然后单击 **[!UICONTROL 添加]**.
 
       >[!NOTE]
       >
-      >清單中只會顯示與所選位置相容的決策。 在此範例中，只有一個優惠方案活動符合「電子郵件熱門影像」位置。
+      >列表中仅显示与所选投放位置兼容的决策。 在此示例中，只有一个选件活动与“电子邮件顶部图像”投放位置匹配。
 
       ![](assets/deliver-offer-placement.png)
 
-決定現在已新增至元件。 儲存變更後，您的優惠已準備好在傳送訊息作為歷程的一部分時顯示在相關的設定檔中。
+决策现已添加到组件中。 保存更改后，在历程中发送消息时，您的优惠可随时显示给相关用户档案。
 
 >[!NOTE]
 >
->當您更新訊息中直接或間接參考的優惠、遞補優惠、優惠集合或優惠決定時，更新會自動反映在相對應的訊息中。
+>当您更新消息中直接或间接引用的优惠、后备优惠、优惠收藏集或优惠决策时，更新会自动反映在相应的消息中。
 
-## 預覽電子郵件中的優惠方案 {#preview-offers-in-email}
+## 在电子邮件中预览优惠 {#preview-offers-in-email}
 
-您可以使用來預覽屬於新增至電子郵件決定一部分的不同優惠方案 **[!UICONTROL 選件]** 區段或內容元件箭頭。
+您可以使用预览作为添加到电子邮件决策一部分的不同优惠 **[!UICONTROL 选件]** 部分或内容组件箭头。
 
 ![](assets/deliver-offer-preview.png)
 
-若要以客戶設定檔顯示屬於決策一部分的不同優惠，請遵循下列步驟。
+要在客户配置文件中显示作为决策一部分的不同优惠，请执行以下步骤。
 
 >[!NOTE]
 >
->您必須有可用的測試設定檔，才能預覽訊息。 瞭解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
+>您需要具有测试用户档案才能预览消息。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
-1. 選取要用於預覽選件的測試設定檔：
+1. 选择要用于预览选件的测试配置文件：
 
-   1. 按一下 **[!UICONTROL 模擬內容按鈕]** 按鈕然後選擇名稱空間，以用於識別來自 **[!UICONTROL 身分名稱空間]** 欄位。
+   1. 单击 **[!UICONTROL “模拟内容”按钮]** 按钮，然后选择命名空间以从中标识测试用户档案 **[!UICONTROL 身份命名空间]** 字段。
 
       >[!NOTE]
       >
-      >在此範例中，我們使用 **電子郵件** 名稱空間。 進一步瞭解Adobe Experience Platform身分識別名稱空間 [在本節中](../segment/get-started-identity.md).
+      >在此示例中，我们使用 **电子邮件** 命名空间。 了解有关Adobe Experience Platform身份命名空间的更多信息 [在此部分中](../segment/get-started-identity.md).
 
-   1. 在 **[!UICONTROL 身分值]** 欄位，輸入值以識別測試設定檔。 在此範例中，輸入測試設定檔的電子郵件地址。
+   1. 在 **[!UICONTROL 标识值]** 字段中，输入用于标识测试用户档案的值。 在此示例中，输入测试用户档案的电子邮件地址。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-   1. 新增其他設定檔，以便您根據設定檔資料測試訊息的不同變體。
+   1. 添加其他用户档案，以便您根据用户档案数据测试消息的不同变体。
 
       ![](assets/deliver-offer-test-profiles.png)
 
 
-1. 按一下 **[!UICONTROL 預覽]** 索引標籤以測試您的訊息，然後選取測試設定檔。 將顯示與所選設定檔（女性）對應的優惠方案。
+1. 单击 **[!UICONTROL 预览]** 选项卡，测试您的消息，然后选择测试用户档案。 将显示与所选用户档案（女性）对应的优惠。
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-   您可以選取其他測試設定檔，以預覽訊息每個變體的電子郵件內容。 訊息內容中現在會顯示與所選測試設定檔（現在為男性）對應的選件。
+   您可以选择其他测试用户档案来预览消息每个变体的电子邮件内容。 在消息内容中，将显示与选定测试用户档案（现为男性）对应的选件。
 
-深入瞭解檢查訊息預覽的詳細步驟 [本節](#preview-your-messages).
+详细了解在中查看消息预览的详细步骤 [本节](#preview-your-messages).
 
 ## 操作方法视频{#video-offers}
 
-瞭解如何在中新增決策管理元件至訊息 [!DNL Journey Optimizer].
+了解如何在中向消息添加决策管理组件 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

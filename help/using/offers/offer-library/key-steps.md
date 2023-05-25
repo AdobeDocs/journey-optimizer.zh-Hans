@@ -15,23 +15,23 @@ ht-degree: 13%
 
 # 创建和管理优惠的关键步骤 {#key-steps-to-manage-offers}
 
-建立、設定和管理優惠以及在決定中使用優惠的主要步驟如下所示。
+下面介绍了创建、配置和管理优惠以及在决策中使用优惠的主要步骤。
 
 ![](../assets/offer-create-manage-process.png)
 
-如需顯示如何設定優惠方案的完整端對端範例、在決定中使用優惠方案，並在電子郵件中利用此決定，請檢視 [此頁面](../offers-e2e.md).
+有关显示如何配置优惠、在决策中使用优惠并在电子邮件中利用此决策的完整端到端示例，请查看 [此页面](../offers-e2e.md).
 
 ## 创建组件 {#create-components}
 
-在開始建立優惠方案之前，您必須定義幾個要用於優惠方案的元件。
+在开始创建选件之前，必须定义将在选件中使用的多个组件。
 
-1. **建立版位**，此容器會用來展示您的優惠方案。 例如，您可以建立專屬於影像格式之優惠方案的版位，並位於訊息頂端。
+1. **创建投放位置**，是用于展示选件的容器。 例如，您可以创建一个仅用于图像格式的选件的版面，并位于消息的顶部。
 
-1. **建立決定規則** 會指定提供優惠的條件。
+1. **创建决策规则** 以指定提供优惠的条件。
 
-1. **建立集合限定詞** （先前稱為「標籤」）可讓您關聯至優惠方案，輕鬆加以整理並在資料庫中搜尋。
+1. **创建收藏集限定符** （以前称为“标记”）来关联选件，这样您可以轻松地将其整理并搜索到库中。
 
-1. 如果您想要定義規則，以決定應先針對指定位置顯示哪個優惠方案（而不是考慮優惠方案的優先順序分數），您可以 **建立排名公式**.
+1. 如果要定义规则以确定在给定投放位置应首先显示哪个优惠（而不是考虑优惠的优先级评分），则可以 **创建排名公式**.
 
 <table>
 <tr>
@@ -43,31 +43,31 @@ ht-degree: 13%
 
 ## 创建和管理优惠 {#create-and-manage-offers}
 
-1. **建立優惠方案**，並設定其內容和屬性。
+1. **创建优惠**，并配置其内容和属性。
 
-1. **建立遞補優惠**，如果客戶不符合任何選定優惠方案的資格，這是最後要顯示的優惠方案。
+1. **创建后备优惠**，这是客户不符合任何选定优惠资格时显示的最后一个选件。
 
-1. **建立集合** 將您建立的個人化優惠納入決策中，並使用這些優惠。
+1. **创建收藏集** 以包含您创建的个性化优惠，并在决策中使用它们。
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">建立優惠方案</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">创建优惠</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">创建后备优惠</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">创建收藏集</a></p></td></tr>
 </table>
 
-## 建立及設定決定 {#create-and-configure-decisions}
+## 创建和配置决策 {#create-and-configure-decisions}
 
-1. **建立決定** 此維度會將刊登版位與個人化優惠和遞補優惠結合在一起。 決策引擎將使用此組合來尋找特定設定檔的最佳選件。
+1. **创建决策** 该功能会将投放位置与个性化优惠和备用优惠相结合。 决策引擎将使用此组合来查找特定用户档案的最佳选件。
 
-1. **設定決定**. 若要這麼做，請選取版位，並針對每個版位，選取集合和備援。
+1. **配置决策**. 为此，请选择投放位置，并为每个投放位置选择一个收藏集和一个备用。
 
-1. 如有需要，您可以 **指派排名公式** 至某個版位。
+1. 如果需要，您可以 **分配排名公式** 配置决策时添加到投放位置。
 
 <table>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">创建决策</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">設定決定</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">指派排名</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">配置决策</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">分配排名</a></p></td>
 </tr>
 </table>

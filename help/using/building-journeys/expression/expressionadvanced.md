@@ -6,7 +6,7 @@ description: 了解如何构建高级表达式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 運算式編輯器，資料，歷程
+keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -36,7 +36,7 @@ _高级表达式编辑器界面_
 * 定义自定义[等待活动](../wait-activity.md#custom)
 * 定义操作参数映射
 
-如有可能，您可以使用 **[!UICONTROL 進階模式]** / **[!UICONTROL 簡單模式]** 按鈕。 [此处](../condition-activity.md#about_condition)介绍了简单模式。
+如果可能，您可以使用 **[!UICONTROL 高级模式]** / **[!UICONTROL 简单模式]** 按钮。 [此处](../condition-activity.md#about_condition)介绍了简单模式。
 
 >[!NOTE]
 >
@@ -48,12 +48,12 @@ _高级表达式编辑器界面_
 
 您可以通过不同方式访问高级表达式编辑器：
 
-* 建立資料來源條件時，您可以按一下「 」以存取進階編輯器 **[!UICONTROL 進階模式]**.
+* 在创建数据源条件时，您可以通过单击 **[!UICONTROL 高级模式]**.
 
    ![](../assets/journeyuc2_33.png)
 
 * 创建自定义计时器时，系统将直接显示高级编辑器。
-* 對應動作引數時，按一下 **[!UICONTROL 進階模式]**.
+* 映射操作参数时，单击 **[!UICONTROL 高级模式]**.
 
 ## 了解界面{#discovering-the-interface}
 
@@ -63,11 +63,11 @@ _高级表达式编辑器界面_
 
 屏幕左侧显示了可用字段和函数：
 
-* **[!UICONTROL 事件]**：選擇從傳入事件接收的其中一個欄位。 显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../../event/about-events.md)
-* **[!UICONTROL 區段]**：如果您已卸除 **[!UICONTROL 區段資格]** 事件，選擇您要在運算式中使用的區段。 [了解详情](../condition-activity.md#using-a-segment)
-* **[!UICONTROL 資料來源]**：從資料來源欄位群組中的可用欄位清單中選擇。 [了解详情](../../datasource/about-data-sources.md)
-* **[!UICONTROL 歷程屬性]**：本節會對特定設定檔中與歷程相關的技術欄位進行重新分組。 [了解详情](journey-properties.md)
-* **[!UICONTROL 函式]**：從可執行複雜篩選的內建函式清單中選擇。 函数按类别组织。[了解详情](functions.md)
+* **[!UICONTROL 事件]**：选择从入站事件接收的字段之一。 显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../../event/about-events.md)
+* **[!UICONTROL 区段]**：如果您已放置 **[!UICONTROL 区段鉴别]** 事件，选择要在表达式中使用的区段。 [了解详情](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 数据源]**：从数据源的字段组提供的字段列表中进行选择。 [了解详情](../../datasource/about-data-sources.md)
+* **[!UICONTROL 历程属性]**：此部分重组与给定用户档案的历程相关的技术领域。 [了解详情](journey-properties.md)
+* **[!UICONTROL 函数]**：从允许执行复杂筛选的内置函数列表中进行选择。 函数按类别组织。[了解详情](functions.md)
 
 ![](../assets/journey65.png)
 

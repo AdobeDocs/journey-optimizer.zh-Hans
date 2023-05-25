@@ -1,6 +1,6 @@
 ---
-title: 字串函式庫
-description: 字串函式庫
+title: 字符串函数库
+description: 字符串函数库
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 6%
 
 ---
 
-# 字串函式 {#string}
+# 字符串函数 {#string}
 
-瞭解如何在運算式編輯器中使用字串函式。
+了解如何在表达式编辑器中使用字符串函数。
 
-## 駝峰式大小寫 {#camelCase}
+## 驼峰式大小写 {#camelCase}
 
-此 `camelCase` 函式會將字串中每個字詞的第一個字母變成大寫。
+此 `camelCase` 函数将字符串中每个单词的第一个字母变为大写。
 
 **语法**
 
@@ -29,15 +29,15 @@ ht-degree: 6%
 
 **示例**
 
-以下函式會將設定檔街道地址中的第一個字詞變成大寫。
+以下函数会将用户档案的街道地址中的第一个单词变为大写。
 
 ```sql
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## 字元代碼位於 {#char-code-at}
+## 字符代码位于 {#char-code-at}
 
-此 `charCodeAt` 函式會傳回字元的ASCII值，類似JavaScript中的charCodeAt函式。 它以字串和整數（定義字元的位置）作為輸入引數，並傳回其對應的ASCII值。
+此 `charCodeAt` 函数返回字符的ASCII值，与JavaScript中的charCodeAt函数类似。 它将一个字符串和一个整数（定义字符的位置）作为输入参数，并返回其相应的ASCII值。
 
 **语法**
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 
 **示例**
 
-以下函式傳回o的ASCII值，即111。
+以下函数返回o的ASCII值，即111。
 
 ```sql
 {%= charCodeAt("some", 1)%}
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ## Concat {#concate}
 
-此 `concat` 函式將兩個字串合併為一個。
+此 `concat` 函数将两个字符串合并为一个。
 
 **语法**
 
@@ -65,7 +65,7 @@ ht-degree: 6%
 
 **示例**
 
-以下函式會將個人資料城市和國家/地區結合在單一字串中。
+以下函数会将用户档案中的城市和国家/地区组合到一个字符串中。
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -73,7 +73,7 @@ ht-degree: 6%
 
 ## Contains {#contains}
 
-此 `contains` 函式來決定字串是否包含指定的子字串。
+此 `contains` 函数用于确定一个字符串是否包含指定的子字符串。
 
 **语法**
 
@@ -83,19 +83,19 @@ ht-degree: 6%
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `STRING_1` | 執行檢查的字串。 |
-| `STRING_2` | 要在第一個字串中搜尋的字串。 |
-| `CASE_SENSITIVE` | 選擇性引數，用來判斷檢查是否區分大小寫。 可能的值： true （預設） / false。 |
+| `STRING_1` | 要检查的字符串。 |
+| `STRING_2` | 要在第一个字符串中搜索的字符串。 |
+| `CASE_SENSITIVE` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-* 以下函式將檢查設定檔名字是否包含字母A （大寫或小寫）。 如果是這種情況，則會傳回「true」，否則會傳回「false」。
+* 以下函数将检查用户档案名字是否包含字母A（大写或小写）。 如果是这种情况，则将返回“true”，否则将返回“false”。
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
    ```
 
-* 下列查詢會區分大小寫，判斷個人的電子郵件地址是否包含「2010@gm」字串。
+* 以下查询区分大小写确定人员的电子邮件地址是否包含字符串“2010@gm”。
 
    ```sql
    {%= contains(profile.person.emailAddress,"2010@gm") %}
@@ -103,7 +103,7 @@ ht-degree: 6%
 
 ## 不包含{#doesNotContain}
 
-此 `doesNotContain` 函式來決定字串是否不包含指定的子字串。
+此 `doesNotContain` 函数用于确定一个字符串是否不包含指定的子字符串。
 
 **语法**
 
@@ -113,22 +113,22 @@ ht-degree: 6%
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `STRING_1` | 執行檢查的字串。 |
-| `STRING_2` | 要在第一個字串中搜尋的字串。 |
-| `CASE_SENSITIVE` | 選擇性引數，用來判斷檢查是否區分大小寫。 可能的值： true （預設） / false。 |
+| `STRING_1` | 要检查的字符串。 |
+| `STRING_2` | 要在第一个字符串中搜索的字符串。 |
+| `CASE_SENSITIVE` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-下列查詢會區分大小寫，判斷個人的電子郵件地址是否不包含字串「2010@gm」。
+以下查询区分大小写确定个人的电子邮件地址是否不包含字符串“2010@gm”。
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
 ```
 
 
-## 結尾不是{#doesNotEndWith}
+## 结尾不是{#doesNotEndWith}
 
-此 `doesNotEndWith` 函式來決定字串的結尾是否不是指定的子字串。
+此 `doesNotEndWith` 函数用于确定一个字符串是否不以指定的子字符串结尾。
 
 **语法**
 
@@ -138,21 +138,21 @@ ht-degree: 6%
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串中搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 選擇性引數，用來判斷檢查是否區分大小寫。 可能的值： true （預設） / false。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-下列查詢會區分大小寫，判斷個人的電子郵件地址是否不以「.com」結尾。
+以下查询会区分大小写确定人员的电子邮件地址是否不以“.com”结尾。
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## 開頭不是{#doesNotStartWith}
+## 开头不是{#doesNotStartWith}
 
-此 `doesNotStartWith` 函式來決定字串的開頭是否不是指定的子字串。
+此 `doesNotStartWith` 函数用于确定一个字符串是否不以指定的子字符串开头。
 
 **语法**
 
@@ -162,21 +162,21 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串中搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 選擇性引數，用來判斷檢查是否區分大小寫。 可能的值： true （預設） / false。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-下列查詢會區分大小寫，判斷個人的名稱是否不是以「Joe」開頭。
+以下查询以区分大小写方式确定人员的姓名是否不以“Joe”开头。
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
 ```
 
-## 編碼64{#encode64}
+## 编码64{#encode64}
 
-此 `encode64` 函式可用來編碼字串，以保留個人資訊(PI)，例如包含在URL中時。
+此 `encode64` 函数用于对字符串进行编码，以保留个人信息(PI)（例如，如果包含在URL中）。
 
 **语法**
 
@@ -186,7 +186,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 结束于{#endsWith}
 
-此 `endsWith` 函式用來決定字串的結尾是否為指定的子字串。
+此 `endsWith` 函数用于确定一个字符串是否以指定的子字符串结尾。
 
 **语法**
 
@@ -196,13 +196,13 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串中搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 選擇性引數，用來判斷檢查是否區分大小寫。 可能的值： true （預設） / false。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-下列查詢會區分大小寫，判斷個人的電子郵件地址是否以「.com」結尾。
+以下查询会区分大小写确定人员的电子邮件地址是否以“.com”结尾。
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -211,7 +211,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 等于{#equals}
 
-此 `equals` 函式用來決定字串是否等於指定的字串，須區分大小寫。
+此 `equals` 函数用于确定一个字符串是否等于指定的字符串（区分大小写）。
 
 **语法**
 
@@ -221,20 +221,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要与第一个字符串进行比较的字符串。 |
 
 **示例**
 
-下列查詢會區分大小寫，判斷人員是否為「John」。
+以下查询将区分大小写确定人员姓名是否为“John”。
 
 ```sql
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 等於忽略大小寫{#equalsIgnoreCase}
+## Equals Ignore Case{#equalsIgnoreCase}
 
-此 `equalsIgnoreCase` 函式來判斷字串是否等於指定的字串，不區分大小寫。
+此 `equalsIgnoreCase` 函数用于确定一个字符串是否等于指定的字符串，不区分大小写。
 
 **语法**
 
@@ -244,20 +244,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要与第一个字符串进行比较的字符串。 |
 
 **示例**
 
-下列查詢會在不區分大小寫的情況下，判斷個人的姓名是否為「John」。
+以下查询在不区分大小写的情况下确定人员姓名是否为“John”。
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## 擷取電子郵件網域 {#extractEmailDomain}
+## 提取电子邮件域 {#extractEmailDomain}
 
-此 `extractEmailDomain` 函式用於擷取電子郵件地址的網域。
+此 `extractEmailDomain` 函数用于提取电子邮件地址的域。
 
 **语法**
 
@@ -267,15 +267,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-以下查詢會擷取個人電子郵件地址的電子郵件網域。
+以下查询提取个人电子邮件地址的电子邮件域。
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## 格式化貨幣 {#format-currency}
+## 设置货币格式 {#format-currency}
 
-此 `formatCurrency` 函式可用來根據第二個引數中作為字串傳遞的區域設定，將任何數字轉換為對應的語言敏感型貨幣表示法。
+此 `formatCurrency` 函数用于将任何数字转换为相应的语言敏感型货币表示形式，具体取决于在第二个参数中作为字符串传递的区域设置。
 
 **语法**
 
@@ -285,15 +285,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-此查詢傳回56.00英鎊
+此查询返回56.00英镑
 
 ```sql
 {%= formatCurrency(56L,"en_GB") %}
 ```
 
-## 取得url主機 {#get-url-host}
+## 获取url主机 {#get-url-host}
 
-此 `getUrlHost` 函式來擷取URL的主機名稱。
+此 `getUrlHost` 函数用于检索URL的主机名。
 
 **语法**
 
@@ -307,11 +307,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlHost("http://www.myurl.com/contact") %}
 ```
 
-傳回「www.myurl.com」
+返回“www.myurl.com”
 
-## 取得url路徑 {#get-url-path}
+## 获取url路径 {#get-url-path}
 
-此 `getUrlPath` 函式來擷取URL網域名稱之後的路徑。
+此 `getUrlPath` 函数用于检索URL的域名之后的路径。
 
 **语法**
 
@@ -325,11 +325,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlPath("http://www.myurl.com/contact.html") %}
 ```
 
-傳回「/contact.html」
+返回“/contact.html”
 
-## 取得url通訊協定 {#get-url-protocol}
+## 获取url协议 {#get-url-protocol}
 
-此 `getUrlProtocol` 函式來擷取URL的通訊協定。
+此 `getUrlProtocol` 函数用于检索URL的协议。
 
 **语法**
 
@@ -343,11 +343,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= getUrlProtocol("http://www.myurl.com/contact.html") %}
 ```
 
-傳回「http」
+返回“http”
 
 ## 索引： {#index-of}
 
-此 `indexOf` 函式可用來傳回第二個引數第一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
+此 `indexOf` 函数用于返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1。
 
 **语法**
 
@@ -357,8 +357,8 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個引數中搜尋的字串 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要在第一个参数中搜索的字符串 |
 
 **示例**
 
@@ -366,11 +366,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= indexOf("hello world","world" ) %}
 ```
 
-傳回6。
+返回6。
 
 ## 为空 {#isEmpty}
 
-此 `isEmpty` 函式來判斷字串是否為空白。
+此 `isEmpty` 函数用于确定一个字符串是否为空。
 
 **语法**
 
@@ -380,15 +380,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-如果設定檔的行動電話號碼為空，則以下函式會傳回「true」。 否則，會傳回「false」。
+如果个人资料的手机号码为空，则以下函数返回“true”。 否则，将返回“false”。
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## 不是空的 {#is-not-empty}
+## 不为空 {#is-not-empty}
 
-此 `isNotEmpty` 函式來判斷字串是否不是空的。
+此 `isNotEmpty` 函数用于确定一个字符串是否不为空。
 
 **语法**
 
@@ -398,15 +398,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-如果設定檔的行動電話號碼非空白，則以下函式會傳回「true」。 否則，會傳回「false」。
+如果个人资料的手机号码不为空，则以下函数返回“true”。 否则，将返回“false”。
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## 最後一個索引： {#last-index-of}
+## 最后一个索引： {#last-index-of}
 
-此 `lastIndexOf` 函式可用來傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
+此 `lastIndexOf` 函数用于返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。
 
 **语法**
 
@@ -416,8 +416,8 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個引數中搜尋的字串 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要在第一个参数中搜索的字符串 |
 
 **示例**
 
@@ -425,11 +425,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= lastIndexOf("hello world","o" ) %}
 ```
 
-傳回7。
+返回7。
 
-## 左側修剪 {#leftTrim}
+## 左侧修剪 {#leftTrim}
 
-此 `leftTrim` 函式可用來移除字串開頭的空格。
+此 `leftTrim` 函数用于去除字符串开头的空格。
 
 **语法**
 
@@ -439,7 +439,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 长度 {#length}
 
-此 `length` 函式來取得字串或運算式中的字元數。
+此 `length` 函数用于获取字符串或表达式中的字符数。
 
 **语法**
 
@@ -449,15 +449,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-以下函式傳回設定檔城市名稱的長度。
+以下函数返回用户档案的城市名称的长度。
 
 ```sql
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 按讚{#like}
+## 点赞{#like}
 
-此 `like` 函式來判斷字串是否符合指定的模式。
+此 `like` 函数用于确定一个字符串是否与指定的模式匹配。
 
 **语法**
 
@@ -467,20 +467,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 比對第一個字串的運算式。 建立運算式有兩個支援的特殊字元： `%` 和 `_`. <ul><li>`%` 用於表示零個或多個字元。</li><li>`_` 用於表示正好一個字元。</li></ul> |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要与第一个字符串匹配的表达式。 创建表达式时支持使用两个特殊字符： `%` 和 `_`. <ul><li>`%` 用于表示零个或更多字符。</li><li>`_` 用于恰好表示一个字符。</li></ul> |
 
 **示例**
 
-下列查詢會擷取設定檔所在的所有城市，且其中包含「es」模式。
+以下查询检索用户档案所在的所有城市，其中包含“es”模式。
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## 小寫{#lower}
+## 小写{#lower}
 
-此 `lowerCase` 函式會將字串轉換為小寫字母。
+此 `lowerCase` 函数将字符串转换为小写字母。
 
 **语法**
 
@@ -490,7 +490,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-此函式將設定檔名字轉換為小寫字母。
+此函数将用户档案名字转换为小写字母。
 
 ```sql
 {%= lowerCase(profile.person.name.firstName) %}
@@ -498,7 +498,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 匹配{#matches}
 
-此 `matches` 函式來判斷字串是否符合特定的規則運算式。 請參閱 [本檔案](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 以取得規則運算式中比對模式的詳細資訊。
+此 `matches` 函数用于确定一个字符串是否与特定的正则表达式匹配。 请参阅 [本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 有关正则表达式中匹配模式的详细信息。
 
 **语法**
 
@@ -508,15 +508,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-下列查詢會在不區分大小寫的情況下，判斷個人的名稱是否以「John」開頭。
+以下查询在不区分大小写的情况下确定人员的姓名是否以“John”开头。
 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## 遮色片 {#mask}
+## 蒙版 {#mask}
 
-此 `Mask` 函式可用來以「X」字元取代字串的一部分。
+此 `Mask` 函数用于将字符串的一部分替换为“X”字符。
 
 **语法**
 
@@ -526,17 +526,17 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-下列查詢會將「123456789」字串取代為「X」字元，前兩個字元和最後兩個字元除外。
+以下查询会将“123456789”字符串替换为“X”字符，但前两个字符和最后2个字符除外。
 
 ```sql
 {%= mask("123456789",1,2) %}
 ```
 
-查詢傳回 `1XXXXXX89`.
+查询返回 `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-此 `md5` 函式用於計算及傳回字串的md5雜湊。
+此 `md5` 函数用于计算和返回字符串的md5哈希值。
 
 **语法**
 
@@ -550,11 +550,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= md5("hello world") %}
 ```
 
-傳回「5eb63bbe01eeed093cb22bb8f5acdc3」
+返回“5eb63bbbe01eeed093cb22bb8f5acdc3”
 
-## 不等於{#notEqualTo}
+## 不等于{#notEqualTo}
 
-此 `notEqualTo` 函式來判斷字串是否不等於指定的字串。
+此 `notEqualTo` 函数用于确定一个字符串是否不等于指定的字符串。
 
 **语法**
 
@@ -564,20 +564,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要与第一个字符串进行比较的字符串。 |
 
 **示例**
 
-下列查詢會區分大小寫判斷個人的姓名是否為「John」。
+以下查询将区分大小写确定人员姓名是否为“John”。
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 不等於忽略大小寫 {#not-equal-with-ignore-case}
+## 不等于忽略大小写 {#not-equal-with-ignore-case}
 
-此 `notEqualWithIgnoreCase` 函式是用來比較兩個字串，忽略大小寫。
+此 `notEqualWithIgnoreCase` 函数用于比较两个字符串，忽略大小写。
 
 **语法**
 
@@ -587,20 +587,20 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要與第一個字串進行比較的字串。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要与第一个字符串进行比较的字符串。 |
 
 **示例**
 
-下列查詢會判斷人員姓名是否為「john」，不區分大小寫。
+以下查询确定人员姓名是否为“john”，不区分大小写。
 
 ```sql
 {%= notEqualTo(profile.person.name,"john") %}
 ```
 
-## 規則運算式群組{#regexGroup}
+## 正则表达式组{#regexGroup}
 
-此 `Group` 函式是根據提供的規則運算式來擷取特定資訊。
+此 `Group` 函数用于根据提供的正则表达式提取特定信息。
 
 **语法**
 
@@ -610,13 +610,13 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING}` | 執行檢查的字串。 |
-| `{EXPRESSION}` | 比對第一個字串的規則運算式。 |
-| `{GROUP}` | 要比對的運算式群組。 |
+| `{STRING}` | 要检查的字符串。 |
+| `{EXPRESSION}` | 要与第一个字符串匹配的正则表达式。 |
+| `{GROUP}` | 要匹配的表达式组。 |
 
 **示例**
 
-下列查詢用於從電子郵件地址中擷取網域名稱。
+以下查询用于从电子邮件地址中提取域名。
 
 ```sql
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
@@ -624,7 +624,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 替换 {#replace}
 
-此 `replace` 函式可用來將字串中的指定子字串取代為另一個子字串。
+此 `replace` 函数用于将字符串中的给定子字符串替换为另一个子字符串。
 
 **语法**
 
@@ -634,9 +634,9 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 必須取代子字串的字串。 |
-| `{STRING_2}` | 要取代的子字串。 |
-| `{STRING_3}` | 取代子字串。 |
+| `{STRING_1}` | 必须替换子字符串的字符串。 |
+| `{STRING_2}` | 要替换的子字符串。 |
+| `{STRING_3}` | 替换子字符串。 |
 
 **示例**
 
@@ -644,11 +644,11 @@ doesNotEndWith(person.emailAddress,".com")
 {%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
-傳回「Hello Mark，這是您的每月電子報！」
+返回“Hello Mark，这是您每月的新闻稿！”
 
-## 全部取代{#replaceAll}
+## 全部替换{#replaceAll}
 
-此 `replaceAll` function可用來將符合「regex」運算式的文字的所有子字串取代為指定的常值「replacement」字串。 Regex有特殊處理「\」和「+」，所有regex運算式都遵循PQL逸出策略。 取代會從字串的開頭到結尾進行，例如，將字串「aaa」中的「aa」取代為「b」將會產生「ba」而不是「ab」。
+此 `replaceAll` 函数用于将匹配“regex”表达式的文本的所有子字符串替换为指定的文本“replacement”字符串。 正则表达式对“\”和“+”具有特殊处理，并且所有正则表达式都遵循PQL转义策略。 例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
 **语法**
 
@@ -658,13 +658,13 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 當當作第二個引數的運算式是特殊規則運算式字元時，請使用雙反斜線(`//`)。  特殊規則運算式字元包括：[.， +， *， ？， ^， $， (， )， [， ]，{， }， |， \.]
+> 当用作第二个参数的表达式是特殊正则表达式时，请使用双反斜杠(`//`)。  特殊正则表达式字符包括：[.， +， *， ？， ^， $， (， )， [， ]，{， }， |， \.]
 > 
-> 進一步瞭解 [oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
+> 了解详情，请参阅 [oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
 
-## 右側修剪 {#rightTrim}
+## 右侧修剪 {#rightTrim}
 
-此 `rightTrim` 函式移除字串結尾的空格。
+此 `rightTrim` 函数去除字符串末尾的空格。
 
 **语法**
 
@@ -674,7 +674,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 拆分 {#split}
 
-此 `split` 函式可用來依指定字元分割字串。
+此 `split` 函数用于按给定字符拆分字符串。
 
 **语法**
 
@@ -684,7 +684,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 开始于{#startsWith}
 
-此 `startsWith` 函式來決定字串的開頭是否為指定的子字串。
+此 `startsWith` 函数用于确定一个字符串是否以指定的子字符串开头。
 
 **语法**
 
@@ -694,21 +694,21 @@ doesNotEndWith(person.emailAddress,".com")
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `{STRING_1}` | 執行檢查的字串。 |
-| `{STRING_2}` | 要在第一個字串中搜尋的字串。 |
-| `{CASE_SENSITIVE}` | 選擇性引數，用來判斷檢查是否區分大小寫。 預設情況下，此項設為true。 |
+| `{STRING_1}` | 要检查的字符串。 |
+| `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 默认情况下，此项设置为true。 |
 
 **示例**
 
-下列查詢會區分大小寫，判斷個人的名稱是否以「Joe」開頭。
+以下查询区分大小写确定人员的姓名是否以“Joe”开头。
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## 字串至日期 {#string-to-date}
+## String to date {#string-to-date}
 
-此 `stringToDate` 函式會將字串值轉換為日期時間值。 它需要兩個引數：日期時間的字串表示和格式器的字串表示。
+此 `stringToDate` 函数将一个字符串值转换为日期时间值。 它采用两个参数：日期时间的字符串表示和格式化器的字符串表示。
 
 **语法**
 
@@ -722,9 +722,9 @@ doesNotEndWith(person.emailAddress,".com")
 {= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
 ```
 
-## 字串至整數 {#string-to-integer}
+## 字符串到整数 {#string-to-integer}
 
-此 `string_to_integer` 函式用於將字串值轉換為整數值。
+此 `string_to_integer` 函数用于将字符串值转换为整数值。
 
 **语法**
 
@@ -732,9 +732,9 @@ doesNotEndWith(person.emailAddress,".com")
 {= string_to_integer(string) %}: int
 ```
 
-## 字串至數字 {#string-to-number}
+## 字符串到数字 {#string-to-number}
 
-此 `stringToNumber` 函式用於將字串轉換為數字。 對於無效的輸入，它會傳回相同的字串作為輸出。
+此 `stringToNumber` 函数用于将字符串转换为数字。 对于无效的输入，它返回相同的字符串作为输出。
 
 **语法**
 
@@ -742,18 +742,18 @@ doesNotEndWith(person.emailAddress,".com")
 {%= stringToNumber(string) %}: double
 ```
 
-## 子字串 {#sub-string}
+## 子字符串 {#sub-string}
 
-此 `Count string` 函式用來傳回開始索引和結束索引之間字串運算式的子字串。
+此 `Count string` 函数用于返回字符串表达式在开始索引和结束索引之间的子字符串。
 **语法**
 
 ```sql
 {= substr(string, integer, integer) %}: string
 ```
 
-## 字首大寫{#titleCase}
+## 字首大写{#titleCase}
 
-此 **titleCase** 函式可用來將字串中每個字詞的首字母變成大寫。
+此 **titleCase** 函数用于将字符串中每个单词的第一个字母变为大写。
 
 **语法**
 
@@ -763,15 +763,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-如果這個人住在華盛頓高街，這個函式會傳回華盛頓高街。
+如果该人住在华盛顿高街，则此函数将返回华盛顿高街。
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## 至Bool {#to-bool}
+## To Bool {#to-bool}
 
-此 `toBool` 函式可用來將引數值轉換為布林值（視其型別而定）。
+此 `toBool` 函数用于将参数值转换为布尔值，具体取决于其类型。
 
 **语法**
 
@@ -779,9 +779,9 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## 結束日期時間 {#to-date-time}
+## 结束日期时间 {#to-date-time}
 
-此 `toDateTime` 函式用於將字串轉換為日期。 針對無效輸入，它會傳回epoch日期作為輸出。
+此 `toDateTime` 函数用于将字符串转换为日期。 对于无效的输入，它返回纪元日期作为输出。
 
 **语法**
 
@@ -789,9 +789,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## 僅至日期時間 {#to-date-time-only}
+## 仅结束日期时间 {#to-date-time-only}
 
-此 `toDateTimeOnly` 函式用於將引數值轉換為僅日期時間值。 針對無效輸入，它會傳回epoch日期作為輸出。 此函式接受字串、日期、長欄位和整數欄位型別。
+此 `toDateTimeOnly` 函数用于将参数值转换为仅日期时间值。 对于无效的输入，它返回纪元日期作为输出。 此函数接受字符串、日期、长整型和int字段类型。
 
 **语法**
 
@@ -801,7 +801,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 修剪 {#trim}
 
-此 **trim** 函式會移除字串開頭和結尾的所有空格。
+此 **trim** 函数删除字符串开始和结束位置的所有空格。
 
 **语法**
 
@@ -809,9 +809,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= trim(string) %}
 ```
 
-## 大寫{#upper}
+## 大写{#upper}
 
-此 **大寫** 函式會將字串轉換為大寫字母。
+此 **大写** 函数将字符串转换为大写字母。
 
 **语法**
 
@@ -821,15 +821,15 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-此函式將設定檔姓氏轉換為大寫字母。
+此函数将配置文件姓氏转换为大写字母。
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## Url解碼 {#url-decode}
+## Url decode {#url-decode}
 
-此 `urlDecode` 函式用於解碼url編碼的字串。
+此 `urlDecode` 函数用于对url编码的字符串进行解码。
 
 **语法**
 
@@ -837,9 +837,9 @@ doesNotEndWith(person.emailAddress,".com")
 {%= urlDecode(string) %}: string
 ```
 
-## Url編碼 {#url-encode}
+## Url编码 {#url-encode}
 
-此 `Count only null` 函式用於對字串進行url編碼。
+此 `Count only null` 函数用于对字符串进行url编码。
 
 **语法**
 

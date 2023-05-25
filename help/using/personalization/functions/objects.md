@@ -1,6 +1,6 @@
 ---
-title: 物件函式庫
-description: 物件函式庫
+title: 对象函数库
+description: 对象函数库
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 7%
 
 ---
 
-# 物件函式 {#objects}
+# 对象函数 {#objects}
 
-## 為null{#isNull}
+## Is null{#isNull}
 
-此 `isNull` 函式決定物件參考是否不存在。
+此 `isNull` 函数确定对象引用是否不存在。
 
 **语法**
 
@@ -27,15 +27,15 @@ ht-degree: 7%
 
 **示例**
 
-下列作業會檢查個人的住家地址是否不存在。
+以下操作检查人员的家庭地址是否不存在。
 
 ```sql
 {%= isNull(person.homeAddress) %}
 ```
 
-## 不是Null{#isNotNull}
+## 不为null{#isNotNull}
 
-此 `isNotNull` 函式決定物件參考是否存在。
+此 `isNotNull` 函数确定是否存在对象引用。
 
 **语法**
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 **示例**
 
-下列作業會檢查人員的住家地址是否存在。
+以下操作检查人员的家庭地址是否存在。
 
 ```sql
 {%= isNotNull(person.homeAddress) %}

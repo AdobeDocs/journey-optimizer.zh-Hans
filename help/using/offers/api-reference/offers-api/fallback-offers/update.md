@@ -1,6 +1,6 @@
 ---
 title: 更新后备优惠
-description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
+description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,15 +15,15 @@ ht-degree: 10%
 
 # 更新后备优惠 {#update-fallback-offer}
 
-您可以透過向發出PATCH請求，修改或更新容器中的遞補優惠。 [!DNL Offer Library] API。
+您可以通过对以下网站发出PATCH请求，修改或更新容器中的后备优惠： [!DNL Offer Library] API。
 
-如需JSON修補程式的詳細資訊，包括可用操作，請參閱官方檔案 [JSON修補程式檔案](http://jsonpatch.com/).
+有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](http://jsonpatch.com/).
 
-## Accept和Content-Type標題 {#accept-and-content-type-headers}
+## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表顯示包含 *Content-Type* 和 *Accept* 請求標頭中的欄位：
+下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
 
-| 標頭名稱 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 遞補優惠方案所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | 遞補優惠方案的執行個體ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | 后备优惠的实例ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **请求**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用於定義更新連線所需動作的操作呼叫。 作業包括： `add`， `replace`、和 `remove`. |
-| `path` | 要更新的引數路徑。 |
-| `value` | 您想要用來更新引數的新值。 |
+| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
+| `path` | 要更新的参数的路径。 |
+| `value` | 您希望使用更新参数的新值。 |
 
 **响应**
 
-成功的回應會傳回遞補優惠方案的更新詳細資料，包括其唯一執行個體ID和遞補優惠 `@id`.
+成功的响应将返回备用选件的更新详细信息，包括其唯一的实例ID和备用选件 `@id`.
 
 ```json
 {

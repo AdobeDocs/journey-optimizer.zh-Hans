@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: lower
-description: 瞭解下方的函式
+description: 了解函数lower
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,13 +16,13 @@ ht-degree: 20%
 
 # lower {#lower}
 
-傳回小寫版本的引數。
+返回参数的小写版本。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `lower(<parameter>)`
 
@@ -30,14 +30,14 @@ ht-degree: 20%
 
 * 字符串
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `lower(<string>)`
 
-傳回字串。
+返回字符串。
 
 ## 示例
 
 `lower("A")`
 
-傳回「a」。
+返回“a”。

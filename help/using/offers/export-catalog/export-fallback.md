@@ -1,6 +1,6 @@
 ---
-title: 遞補優惠資料集
-description: 本節列出匯出的資料集中用於遞補優惠的所有欄位
+title: 后备优惠数据集
+description: 此部分列出在导出数据集中用于后备优惠的所有字段
 feature: Offers
 topic: Integrations
 role: User
@@ -13,204 +13,204 @@ ht-degree: 3%
 
 ---
 
-# 遞補優惠資料集 {#fallback-dataset}
+# 后备优惠数据集 {#fallback-dataset}
 
-每次修改優惠方案時，都會更新自動產生的備援優惠方案資料集。
+每次修改选件时，都会更新自动生成的备用选件数据集。
 
 ![](../assets/dataset-fallback.png)
 
-資料集中最近成功的批次顯示在右側。 資料集的結構描述階層檢視會顯示在左窗格中。
+数据集中最近成功的批次显示在右侧。 数据集的架构的分层视图显示在左窗格中。
 
 >[!NOTE]
 >
->瞭解如何在中存取優惠資料庫每個物件的匯出資料集 [本節](../export-catalog/access-dataset.md).
+>了解如何在中访问选件库每个对象的导出数据集 [本节](../export-catalog/access-dataset.md).
 
-以下為可用於以下專案的所有欄位清單： **[!UICONTROL 決定物件存放庫 — 遞補優惠]** 資料集。
+以下是可在该字段中使用的所有字段的列表 **[!UICONTROL 决策对象存储库 — 后备优惠]** 数据集。
 
 +++ 标识符
 
-**欄位：** _id
-**標題：** 識別碼
-**說明：** 記錄的唯一識別碼。
+**字段：** _id
+**标题：** 标识符
+**描述：** 记录的唯一标识符。
 **类型：**&#x200B;字符串
 
 +++
 
 +++ _experience（体验）
 
-**欄位：** 體驗(_E)
-**型別：** 物件
+**字段：** 体验(_E)
+**类型：** 对象
 
 +++
 
-+++ 體驗>決策(_E)
++++ 体验>决策(_E)
 
-**欄位：** 決策
-**型別：** 物件
+**字段：** 决策
+**类型：** 对象
 
 +++
 
-+++ _experience >決策>特性
++++ _experience > decisioning >特征
 
-**欄位：** 特性
-**標題：** 決定選項特性
-**說明：** 屬於此特定決定選項的其他特性或屬性。 不同的執行個體可以有不同的特性（地圖中的索引鍵）。 特性是用來區分一個決定選項與其他決定選項的名稱值組。 特徵會用作內容中的值，代表此決定選項，並作為分析和最佳化選項效能的功能。 當每個例項都具有相同的屬性或屬性時，該層面應模組化為衍生自決定選項詳細資訊的擴充功能結構。
-**型別：** 物件
+**字段：** 特征
+**标题：** 决策选项特性
+**描述：** 属于此特定决策选项的其他特性或属性。 不同的实例可以具有不同的特征（映射中的键）。 特征是用于区分一个决策选项与其他决策选项的名称值对。 特征用作表示此决策选项的内容中的值，并用作分析和优化选项性能的功能。 当每个实例具有相同的属性或属性时，该方面应建模为从决策选项详细信息派生的扩展模式。
+**类型：** 对象
 
 +++
 
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-+++ 體驗>決策>內容(_E)
++++ 体验>决策>内容(_E)
 
-**欄位：** 內容
-**標題：** 內容詳細資料
-**說明：** 在不同內容中呈現決定專案的內容專案。 單一決定選項可以有多個內容變體。 內容是導向對象以供在（數位）體驗中使用的資訊。 內容會透過管道傳送到特定位置。
-**型別：** 陣列
+**字段：** 目录
+**标题：** 内容详细信息
+**描述：** 在不同上下文中呈现决策项的内容项。 单个决策选项可以有多个内容变体。 内容是定向到受众以供在（数字）体验中使用的信息。 内容通过渠道投放到特定投放位置。
+**类型：** 数组
 
 +++
 
-+++_體驗>決策>內容>元件
++++_体验>决策>内容>组件
 
-**欄位：** 元件
-**說明：** 代表決定選項的內容元件，包括其所有語言變體。 特定元件可透過「dx：format」、「dc：subject」和「dc：language」或其組合找到。 此中繼資料用於尋找或表示與優惠方案相關聯的內容，並根據刊登版位合約加以整合。
-**型別：** 陣列
-**必填：** &quot;_type&quot;， &quot;_dc&quot; <!--TBC?-->
+**字段：** 组件
+**描述：** 表示决策选项的内容组件，包括其所有语言变体。 特定组件通过“dx：format”、“dc：subject”和“dc：language”或其组合找到。 此元数据用于定位或表示与优惠关联的内容，并根据版面合同对其进行集成。
+**类型：** 数组
+**必需：** “_type”、“_dc” <!--TBC?-->
 
-* **_experience >決策>內容>元件>內容元件型別**
+* **_experience >决策>内容>组件>内容组件类型**
 
-   **欄位：** 型別(_t)
-   **標題：** 內容元件型別
-   **說明：** 列舉的一組URI，其中每個值對應到指定給內容元件的型別。 內容表示的某些消費者期望@type值是描述內容元件其他屬性的結構描述的參考。
+   **字段：** _type
+   **标题：** 内容组件类型
+   **描述：** 一组URI的枚举，其中每个值映射到为内容组件给定的类型。 内容表示的一些使用者期望@type值是对描述内容组件的其他属性的架构的引用。
    **类型：**&#x200B;字符串
 
-* **_experience >決策>內容>元件> _dc**
+* **_experience > decisioning >内容>组件> _dc**
 
-   **欄位：** _dc
-   **型別：** 物件
-   **必填：** &quot;format&quot;
+   **字段：** _dc
+   **类型：** 对象
+   **必需：** &quot;format&quot;
 
    * **格式**
 
-      **欄位：** 格式
-      **標題：** 格式
-      **說明：** 資源的實體或數位表現形式。 通常，格式應包含資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議的最佳作法是從受控的辭彙(例如 [網際網路媒體型別](http://www.iana.org/ assignments/media-types/)定義電腦媒體格式)。
+      **字段：** 格式
+      **标题：** 格式
+      **描述：** 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 格式可用于确定显示或操作资源所需的软件、硬件或其他设备。 建议的最佳做法是从受控词汇(例如， [Internet媒体类型](http://www.iana.org/ assignments/media-types/)定义计算机媒体格式)。
       **类型：**字符串
-      **範例：** &quot;application/vnd.adobe.photoshop&quot;
+      **示例：** &quot;application/vnd.adobe.photoshop&quot;
 
    * **语言**
 
-      **欄位：** 語言
-      **標題：** 語言
-      **說明：** 資源的語言。 \n語言是依照中定義的語言代碼指定的 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)，這是XDM其他位置所使用的BCP 47的一部分。
-      **型別：** 陣列
-      **範例：** &quot;\n&quot;、&quot;pt-BR&quot;、&quot;es-ES&quot;
+      **字段：** 语言
+      **标题：** 语言
+      **描述：** 资源的一种或多种语言。 \n语言是在中定义的语言代码中指定的 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)，它是XDM中的其他位置使用的BCP 47的一部分。
+      **类型：** 数组
+      **示例：** “\n”、“pt-BR”、“es-ES”
 
-* **_experience >決策>內容>元件> _repo**
+* **_experience > decisioning >内容>组件> _repo**
 
-   **欄位：** 存放庫(_R)
-   **型別：** 物件
+   **字段：** 存储库(_R)
+   **类型：** 对象
 
    * **id**
 
-      **欄位：** id
-      **說明：** 選用的唯一識別碼，可參考內容存放庫中的資產。 使用Platform API擷取表示法時，使用者端可期待額外屬性\&quot;repo：resolveUrl\&quot;來擷取資產。
+      **字段：** id
+      **描述：** 在内容存储库中引用资产的可选唯一标识符。 当使用平台API检索表示法时，客户端需要额外的属性\&quot;repo：resolveUrl\&quot;来检索资产。
       **类型：**字符串
-      **範例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e」
+      **示例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e”
 
    * **name**
 
-      **欄位：** 名稱
-      **說明：** 對於透過\&quot;repo：id\&quot;尋找儲存外部資產的存放庫的位置，有一些提示。
+      **字段：** name
+      **描述：** 有关通过\&quot;repo：id\&quot;查找存储外部资产的存储库的位置的一些提示。
       **类型：**&#x200B;字符串
 
    * **repositoryID**
 
-      **欄位：** repositoryID
-      **說明：** 選用的唯一識別碼，可參考內容存放庫中的資產。 使用Platform API擷取表示法時，使用者端可期待額外屬性\&quot;repo：resolveUrl\&quot;來擷取資產。
+      **字段：** repositoryID
+      **描述：** 在内容存储库中引用资产的可选唯一标识符。 当使用平台API检索表示法时，客户端需要额外的属性\&quot;repo：resolveUrl\&quot;来检索资产。
       **类型：**字符串
-      **範例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+      **示例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **欄位：** resolveURL
-      **說明：** 選用的唯一資源定位器，可讀取內容存放庫中的資產。 這可讓使用者端更容易取得資產，而無需瞭解資產的管理位置以及要呼叫的API。 這類似於HAL連結，但語意較簡單，且更有意義。
+      **字段：** resolveURL
+      **描述：** 可选的唯一资源定位器，用于读取内容存储库中的资产。 这样，无需客户了解资产的管理位置以及要调用的API，即可更轻松地获取资产。 这类似于HAL链接，但语义更简单、更有意义。
       **类型：**字符串
-      **範例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
+      **示例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
-* **_experience >決策>內容>元件>內容**
+* **_experience >决策>内容>组件>内容**
 
-   **欄位：** 內容
-   **說明：** 直接保留內容的選用欄位。 元件可以直接儲存簡單的內容，而不必參考資產存放庫中的內容。 此欄位不適用於複合、複雜和二進位內容資產。
+   **字段：** 内容
+   **描述：** 直接保存内容的可选字段。 组件可以直接保存简单的内容，而不是引用资产存储库中的内容。 此字段不适用于复合、复杂和二进制内容资产。
    **类型：**&#x200B;字符串
 
-* **_experience >決策>內容>元件> deliveryURL**
+* **_experience > decisioning > contents > components > deliveryURL**
 
-   **欄位：** deliveryURL
-   **說明：** 選用的唯一資源定位器，可從內容傳遞網路或服務端點取得資產。 使用者代理程式會使用此URL來公開存取資產。
+   **字段：** deliveryURL
+   **描述：** 用于从内容交付网络或服务端点获取资源的可选唯一资源定位器。 用户代理使用此URL公开访问资产。
    **类型：**字符串
-   **範例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+   **示例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-* **_experience >決策>內容>元件> linkURL**
+* **_experience > decisioning >内容>组件> linkURL**
 
-   **欄位：** linkURL
-   **說明：** 選擇性唯一資源定位器，用於使用者互動。 此URL用於在使用者代理中將一般使用者引薦至，並且可被追蹤。
+   **字段：** linkURL
+   **描述：** 用于用户交互的可选唯一资源定位器。 此URL用于将最终用户引荐到用户代理中，并且可以对其进行跟踪。
    **类型：**字符串
-   **範例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+   **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 
-+++ _experience >決策>內容>位置
++++ _experience >决策>内容>投放位置
 
-**欄位：** 刊登
-**標題：** 刊登
-**說明：** 要遵循的位置。 該值是被參考之優惠方案版位的URI (@id)。 請參閱結構描述https://ns.adobe.com/experience/decisioning/placement 。
+**字段：** 投放
+**标题：** 投放
+**描述：** 要遵循的位置。 该值是被引用的优惠投放位置的URI (@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/placement 。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _experience >決策>生命週期狀態
++++ _experience >决策>生命周期状态
 
-**欄位：** lifecycleStatus
-**標題：** 生命週期狀態
-**說明：** 生命週期狀態允許使用物件執行工作流程。 狀態可能會影響顯示物件或物件被視為相關的位置。 狀態變更是由使用物件的使用者端或服務所驅動。
-**型別：** 字串
-**可能的值：** 「草稿」（預設）、「已核准」、「即時」、「已完成」、「已封存」
+**字段：** lifecycleStatus
+**标题：** 生命周期状态
+**描述：** 生命周期状态允许使用对象执行工作流。 状态可能会影响对象可见或被视为相关的位置。 状态更改由使用对象的客户端或服务驱动。
+**类型：** 字符串
+**可能的值：** &quot;草稿&quot;（默认）、&quot;已批准&quot;、&quot;实时&quot;、&quot;已完成&quot;、&quot;已存档&quot;
 
 +++
 
-+++ 體驗>決策>決策選項名稱(_E)
++++ _experience >决策>决策选项名称
 
-**欄位：** 名稱
-**標題：** 決定選項名稱
-**說明：** 顯示在各種使用者介面中的選項名稱。
+**字段：** name
+**标题：** 决策选项名称
+**描述：** 显示在各种用户界面中的选项名称。
 **类型：**&#x200B;字符串
 
 +++
 
-+++ _experience >決策>標籤
++++ _experience >决策>标记
 
-**欄位：** 標籤
-**標題：** 標籤
-**說明：** 與此實體相關聯的一組集合限定詞（先前稱為「標籤」）。 集合限定詞用於篩選運算式，以將整體詳細目錄限製為子集（類別）。
-**型別：** 陣列
+**字段：** 标记
+**标题：** 标记
+**描述：** 与此实体关联的一组收藏集限定符（以前称为“标记”）。 集合限定符用在过滤器表达式中，以将整个库存限制为子集（类别）。
+**类型：** 数组
 
 +++
 
 <!--Field without name under collection qualifiers: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-+++ 存放庫(_R)
++++ 存储库(_R)
 
-**欄位：** 存放庫(_R)
-**型別：** 物件
+**字段：** 存储库(_R)
+**类型：** 对象
 
 +++
 
-+++ _repo >決定選項ETag
++++ _repo >决策选项ETag
 
-**欄位：** etag
-**標題：** 決定選項ETag
-**說明：** 決定選項物件拍攝快照時的修訂版本。
+**字段：** etag
+**标题：** 决策选项ETag
+**描述：** 拍摄快照时决策选项对象所处的修订版本。
 **类型：**&#x200B;字符串
 
 +++

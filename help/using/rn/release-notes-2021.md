@@ -49,7 +49,7 @@ ht-degree: 94%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能可讓非技術和技術使用者快速測試決策管理並疑難排解潛在問題。</p>
+<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理和排除潜在问题。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/simulation.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -73,7 +73,7 @@ ht-degree: 94%
 </table>
 
 
-另請參閱 [Adobe Experience Platform 10月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hans){target="_blank"} 以取得更多變更。
+另请参阅 [Adobe Experience Platform 10月发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hans){target="_blank"} 以了解更多更改。
 
 ### 改进
 
@@ -276,7 +276,7 @@ ht-degree: 94%
 
 **个性化**
 
-* **運算式編輯器**  — 您現在可在定義個人化時輕鬆新增回傳值：當個人資料的個人化欄位空白時，將顯示回傳值。 [了解详情](../personalization/functions/helpers.md)
+* **表达式编辑器**  — 现在，您可以在定义个性化设置时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。 [了解详情](../personalization/functions/helpers.md)
 
 **电子邮件配置**
 
@@ -291,7 +291,7 @@ ht-degree: 94%
 
 * 修复了消息选项卡导航中的辅助功能问题。
 * 修复了电子邮件设计器标签中的本地化问题。
-* 修正在歷程中選取多個節點並在屬性窗格上按一下「刪除」時的問題。
+* 修复了在历程中选择多个节点并单击属性窗格上的“删除”时的问题。
 * 修复了无法向历程中使用的操作添加新标头的问题。
 * 现在，您可以通过用户界面中的内容更明确的警告，了解消息预设创建失败的原因。
 
@@ -342,11 +342,11 @@ ht-degree: 94%
 * 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../configuration/external-systems.md#capping)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解更多信息](../building-journeys/journey-gs.md#change-properties)
 * 在历程列表屏幕中，添加了历程类型筛选器。[了解更多信息](../start/user-interface.md#filter-lists)
-* 此 **[!UICONTROL 節流率]** 引數已新增至讀取區段活動。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 此 **[!UICONTROL 限制率]** 参数已添加到读取区段活动中。 [了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**預覽和測試**
+**预览和测试**
 
-* 身分和名稱空間現在會顯示在 **[!UICONTROL 預覽]** 畫面。 [了解更多信息](../email/preview.md#preview-your-messages)
+* 标识和命名空间现在显示在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../email/preview.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
 * 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../email/preview.md#send-proofs)
 
@@ -359,6 +359,6 @@ ht-degree: 94%
 * 修复了导致批量电子邮件投放出现重复消息投放的问题。
 * 现在，当重试期限结束后未执行电子邮件发送时，将相应地生成事件。
 * 修复了 PTR 记录屏幕中缺少 IP 信息的问题。
-* 運算式編輯器中的選件邊欄現已開始本地化。
+* 现在，在表达式编辑器中实现了选件边栏的本地化。
 * 修复了信息弹出窗口中间距不正确的问题。
 * 修复了在上传包含不支持的 `background-image` 属性的 HTML 文件时，电子邮件设计器内部样式表中出现的问题。

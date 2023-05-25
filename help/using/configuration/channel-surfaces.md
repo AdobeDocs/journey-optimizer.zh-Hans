@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 设置渠道平面
-description: 瞭解如何設定和監控管道表面
+description: 了解如何配置和监控渠道界面
 feature: Application Settings, Surface
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 管道，表面，技術，引數，最佳化工具
+keywords: 渠道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
@@ -23,22 +23,22 @@ ht-degree: 8%
 >title="表面"
 >abstract="平面是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
 
-替換為 [!DNL Journey Optimizer]，您可以設定頻道介面（即訊息預設集），定義訊息所需的所有技術引數：電子郵件型別、寄件者電子郵件和名稱、行動應用程式、簡訊設定等。
+替换为 [!DNL Journey Optimizer]，您可以设置渠道界面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、移动应用程序、短信配置等。
 
 >[!CAUTION]
 >
-> * 若要建立、編輯和刪除管道曲面，您必須擁有 [管理管道表面](../administration/high-low-permissions.md#manage-channel-surface) 許可權。
+> * 要创建、编辑和删除渠道曲面，您必须具有 [管理渠道平面](../administration/high-low-permissions.md#manage-channel-surface) 许可。
 >
-> * 您必須執行 [電子郵件設定](../email/get-started-email-config.md)， [推送設定](../push/push-configuration.md) 和 [簡訊設定](../sms/sms-configuration.md) 建立管道曲面之前的步驟。
+> * 您必须执行 [电子邮件配置](../email/get-started-email-config.md)， [推送配置](../push/push-configuration.md) 和 [短信配置](../sms/sms-configuration.md) 创建渠道表面之前的步骤。
 
 
-設定頻道介面後，您就可以在從歷程或行銷活動建立訊息時選取它們。
+配置渠道界面后，您将能够在从历程或营销策划创建消息时选择它们。
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
 -->
 
-## 建立管道表面 {#create-channel-surface}
+## 创建渠道表面 {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
@@ -50,217 +50,217 @@ ht-degree: 8%
 >title="渠道表面设置"
 >abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道表面，用于定义消息所需的全部技术设置。您必须具有管理渠道表面权限才能创建、编辑和删除渠道表面。"
 
-若要建立管道曲面，請遵循下列步驟：
+要创建渠道表面，请执行以下步骤：
 
-1. 存取 **[!UICONTROL 頻道]** > **[!UICONTROL 品牌化]** > **[!UICONTROL 管道表面]** 功能表，然後按一下 **[!UICONTROL 建立管道表面]**.
+1. 访问 **[!UICONTROL 渠道]** > **[!UICONTROL 品牌化]** > **[!UICONTROL 渠道表面]** 菜单，然后单击 **[!UICONTROL 创建渠道表面]**.
 
    ![](assets/preset-create.png)
 
-1. 輸入表面的名稱和說明（選擇性），然後選取要設定的管道。
+1. 输入表面的名称和描述（可选），然后选择要配置的渠道。
 
    ![](assets/preset-general.png)
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`，點`.` 和連字型大小 `-` 個字元。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您也可以使用下划线 `_`，点`.` 和连字符 `-` 个字符。
 
-1. 如果您已選取 **[!UICONTROL 電子郵件]** 頻道，請依照中的說明進行設定 [本節](../email/email-settings.md).
+1. 如果您选择了 **[!UICONTROL 电子邮件]** 渠道，请按照中的说明配置设置 [本节](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
-1. 對於 **[!UICONTROL 推播通知]** 頻道，請至少選取一個平台 —   **iOS** 和/或 **Android**  — 以及每個平台要使用的行動應用程式。
+1. 对于 **[!UICONTROL 推送通知]** 渠道，请至少选择一个平台 —   **iOS** 和/或 **Android**  — 以及用于每个平台的移动应用程序。
 
    ![](assets/preset-push.png)
 
    >[!NOTE]
    >
-   >有關如何設定環境以傳送推播通知的詳細資訊，請參閱 [本節](../push/push-gs.md).
+   >有关如何配置环境以发送推送通知的更多信息，请参阅 [本节](../push/push-gs.md).
 
-1. 對於 **[!UICONTROL 簡訊]** 管道，定義您的設定，如所述 [本節](../sms/sms-configuration.md#message-preset-sms).
+1. 对于 **[!UICONTROL 短信]** 渠道，请定义您的设置，如中所述 [本节](../sms/sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱 [本節](../sms/sms-configuration.md).
+   >有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](../sms/sms-configuration.md).
 
-1. 設定好所有引數後，按一下 **[!UICONTROL 提交]** 以確認。 您也可以將管路曲面儲存為拔模，並在稍後恢復其組態。
+1. 配置完所有参数后，单击 **[!UICONTROL 提交]** 以确认。 也可以将渠道曲面另存为拔模，并稍后恢复其配置。
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >當選取的IP集區位於下方時，您無法繼續建立表面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 處理中]** 狀態)，且從未與所選子網域建立關聯。 [了解详情](#subdomains-and-ip-pools)
+   >当选定的IP池位于下方时，无法继续创建表面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)，且从未与选定的子域关联。 [了解详情](#subdomains-and-ip-pools)
    >
-   >將表面儲存為草稿，並等待IP集區具有 **[!UICONTROL 成功]** 繼續建立曲面的狀態。
+   >将表面另存为草稿，并等待IP池具有 **[!UICONTROL 成功]** 恢复表面创建的状态。
 
-1. 建立管道曲面後，它會顯示於清單中，並具有 **[!UICONTROL 處理中]** 狀態。
+1. 创建渠道表面后，它显示在列表中，其中包含 **[!UICONTROL 正在处理]** 状态。
 
-   在此步驟中，將會執行數個檢查以確認其已正確設定。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+   在此步骤中，将执行若干检查以验证是否已正确配置该服务器。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >為指定子網域建立第一個電子郵件介面時，可能需要處理時間 **10分鐘到10天**. 如果選取的子網域已用於其他電子郵件介面，則最多只需3小時。
+   >为给定子域创建第一个电子邮件表面时，可能需要一些处理时间 **10分钟到10天**. 如果所选子域已用于其他电子邮件表面，则最多只需3小时。
 
-   這些檢查包括Adobe團隊執行的設定和技術測試：
+   这些检查包括Adobe团队执行的配置和技术测试：
 
-   * SPF驗證
-   * DKIM驗證
-   * MX記錄驗證
-   * 檢查IP封鎖清單
-   * Helo主機檢查
-   * IP集區驗證
-   * A/PTR記錄，t/m/res子網域驗證
-   * FBL註冊（此檢查只會在第一次為指定子網域建立電子郵件曲面時執行）
+   * SPF验证
+   * DKIM验证
+   * MX记录验证
+   * 检查IP列入阻止列表
+   * Helo主机检查
+   * IP池验证
+   * A/PTR记录， t/m/res子域验证
+   * FBL注册（此检查仅在第一次为给定子域创建电子邮件表面时执行）
 
    >[!NOTE]
    >
-   >如果檢查未成功，請在中進一步瞭解可能的失敗原因 [本節](#monitor-channel-surfaces).
+   >如果检查不成功，请在中进一步了解失败的可能原因 [本节](#monitor-channel-surfaces).
 
-1. 檢查成功後，管道表面會取得 **[!UICONTROL 作用中]** 狀態。 已準備好用於傳遞訊息。
+1. 检查成功后，渠道表面将获得 **[!UICONTROL 活动]** 状态。 它可用于投放消息。
 
    ![](assets/preset-active.png)
 
-## 監視頻道介面 {#monitor-channel-surfaces}
+## 监测渠道表面 {#monitor-channel-surfaces}
 
-您的所有管道表面都會顯示在 **[!UICONTROL 頻道]** > **[!UICONTROL 管道表面]** 功能表。 篩選器可協助您瀏覽清單（頻道、使用者、狀態）。
+您的所有渠道界面都将显示在 **[!UICONTROL 渠道]** > **[!UICONTROL 渠道表面]** 菜单。 筛选器可帮助您浏览列表（渠道、用户、状态）。
 
 ![](assets/preset-filters.png)
 
-建立之後，管道表面可以有下列狀態：
+创建渠道曲面后，其状态如下所示：
 
-* **[!UICONTROL 草稿]**：管道表面已儲存為草稿，但尚未提交。 開啟以繼續設定。
-* **[!UICONTROL 處理中]**：管道表面已提交，且正在執行數個驗證步驟。
-* **[!UICONTROL 作用中]**：管道表面已經過驗證，可以選取它來建立訊息。
-* **[!UICONTROL 已失敗]**：在管道表面驗證期間，一項或多項檢查失敗。
-* **[!UICONTROL 已停用]**：管道表面已停用。 無法用來建立新訊息。
+* **[!UICONTROL 草稿]**：渠道表面已另存为草稿，但尚未提交。 打开它以恢复配置。
+* **[!UICONTROL 正在处理]**：渠道平面已提交，并正在执行多个验证步骤。
+* **[!UICONTROL 活动]**：已验证渠道平面，可以选择该表面来创建消息。
+* **[!UICONTROL 失败]**：在渠道表面验证期间，一项或多项检查失败。
+* **[!UICONTROL 已停用]**：渠道表面已停用。 无法用于创建新消息。
 
-如果管道曲面建立失敗，下文將說明每個可能失敗原因的詳細資訊。
+如果渠道表面创建失败，下面将介绍每个可能失败原因的详细信息。
 
-如果發生這些錯誤之一，請連絡 [Adobe客戶服務](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 以取得協助。
+如果出现这些错误之一，请联系 [Adobe客户关怀](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 以获得帮助。
 
-* **SPF驗證失敗**： SPF (Sender Policy Framework)是電子郵件驗證通訊協定，允許指定可從指定子網域傳送電子郵件的授權IP。 SPF驗證失敗表示SPF記錄中的IP位址不符合用來傳送電子郵件給信箱提供者的IP位址。
+* **SPF验证失败**： SPF (Sender Policy Framework)是一种电子邮件身份验证协议，允许指定可从给定子域发送电子邮件的授权IP。 SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供商发送电子邮件的IP地址不匹配。
 
-* **DKIM驗證失敗**： DKIM (DomainKeys Identified Mail)可讓收件者伺服器驗證所收到的郵件是由相關網域的真正寄件者傳送，且原始郵件的內容並未在傳送途中變更。 DKIM驗證失敗表示接收郵件伺服器無法驗證郵件內容的真實性及其與傳送網域的關聯：
+* **DKIM验证失败**： DKIM （DomainKeys Identified Mail，域密钥识别邮件）允许收件人服务器验证接收到的邮件是由相关域的真实发件人发送的，并且原始邮件的内容在发送过程中未发生更改。 DKIM验证失败意味着接收邮件服务器无法验证消息内容的真实性及其与发送域的关联：
 
-* **MX記錄驗證失敗**： MX (Mail eXchange)記錄驗證失敗表示負責代表指定子網域接受傳入電子郵件的郵件伺服器未正確設定。
+* **MX记录验证失败**： MX (Mail eXchange)记录验证失败表示未正确配置负责代表给定子域接受入站电子邮件的邮件服务器。
 
-* **傳遞能力設定失敗**：傳遞能力設定失敗的可能原因如下：
-   * 已配置IP的封鎖清單
-   * 無效 `helo` 名稱
-   * 從對應介面的IP集區中指定之IP以外的IP傳送電子郵件
-   * 無法將電子郵件傳遞至主要ISP的收件匣
+* **投放能力配置失败**：投放能力配置失败可能由于以下任何原因而发生：
+   * 分配的IP的列入阻止列表
+   * 无效 `helo` name
+   * 从非在相应表面的IP池中指定的IP发送的电子邮件
+   * 无法将电子邮件投放到主要ISP的收件箱
 
-## 編輯管道表面 {#edit-channel-surface}
+## 编辑渠道表面 {#edit-channel-surface}
 
-若要編輯管道曲面，請遵循下列步驟。
+要编辑渠道表面，请执行以下步骤。
 
 >[!NOTE]
 >
->您無法編輯 **[!UICONTROL 推播通知設定]**. 如果管道表面僅設定為推播通知管道，則無法編輯。
+>您无法编辑 **[!UICONTROL 推送通知设置]**. 如果仅为推送通知渠道配置渠道表面，则无法编辑该表面。
 
-1. 從清單中，按一下管道曲面名稱以開啟。
+1. 从列表中，单击渠道表面名称以将其打开。
 
    ![](assets/preset-name.png)
 
-1. 視需要編輯其屬性。
+1. 根据需要编辑其属性。
 
    >[!NOTE]
    >
-   >如果管道表面具有 **[!UICONTROL 作用中]** 狀態， **[!UICONTROL 名稱]**， **[!UICONTROL 選取頻道]** 和 **[!UICONTROL 子網域]** 欄位會變灰且無法編輯。
+   >如果渠道表面具有 **[!UICONTROL 活动]** 状态， **[!UICONTROL 名称]**， **[!UICONTROL 选择渠道]** 和 **[!UICONTROL 子域]** 字段呈灰显状态，无法编辑。
 
-1. 按一下 **[!UICONTROL 提交]** 以確認您的變更。
+1. 单击 **[!UICONTROL 提交]** 以确认更改。
 
    >[!NOTE]
    >
-   >您也可以將管路曲面儲存為拔模，並在稍後繼續更新。
+   >也可以将渠道曲面另存为拔模，并稍后恢复更新。
 
-提交變更後，管道表面將經歷一個驗證週期，類似於以下情形下的驗證週期： [建立管道表面](#create-channel-surface). 版本處理時間最多可能需要 **3小時**.
+提交更改后，渠道界面将经历一个验证周期，类似于以下情况下就地经历的验证周期： [创建渠道表面](#create-channel-surface). 版本处理时间最长可能需要 **3小时**.
 
 >[!NOTE]
 >
->如果您只編輯 **[!UICONTROL 說明]**， **[!UICONTROL 電子郵件型別]** 和/或 **[!UICONTROL 電子郵件重試引數]** 欄位，更新即時。
+>如果您只编辑 **[!UICONTROL 描述]**， **[!UICONTROL 电子邮件类型]** 和/或 **[!UICONTROL 电子邮件重试参数]** 场内，更新是瞬时的。
 
-### 更新詳細資料 {#update-details}
+### 更新详细信息 {#update-details}
 
-對於具有下列專案的管道表面： **[!UICONTROL 作用中]** 狀態，您可以檢查更新的詳細資訊。 为实现此操作，请执行以下步骤：
+对于具有 **[!UICONTROL 活动]** 状态，您可以检查更新的详细信息。 为实现此操作，请执行以下步骤：
 
-按一下 **[!UICONTROL 最近更新]** 顯示在活動曲面名稱旁的圖示。
+单击 **[!UICONTROL 最近更新]** 图标显示在活动曲面名称旁边。
 
 ![](assets/preset-recent-update-icon.png)
 
 <!--You can also access the update details from an active channel surface while update is in progress.-->
 
-於 **[!UICONTROL 最近更新]** 熒幕中，您可以看到更新狀態和請求變更清單等資訊。
+在 **[!UICONTROL 最近更新]** 屏幕中，您可以看到更新状态和请求的更改列表等信息。
 
 <!--![](assets/preset-recent-update-screen.png)-->
 
-### 更新狀態 {#update-statuses}
+### 更新状态 {#update-statuses}
 
-管道表面更新可以具有以下狀態：
+渠道表面更新可以具有以下状态：
 
-* **[!UICONTROL 處理中]**：管道表面更新已提交，並正在執行數個驗證步驟。
-* **[!UICONTROL 成功]**：已驗證更新的管道表面，並可選取它來建立訊息。
-* **[!UICONTROL 已失敗]**：在管道表面更新驗證期間，一項或多項檢查失敗。
+* **[!UICONTROL 正在处理]**：已提交渠道表面更新，并且正在执行多个验证步骤。
+* **[!UICONTROL 成功]**：已验证更新的渠道平面，并可选择它来创建消息。
+* **[!UICONTROL 失败]**：在渠道表面更新验证期间，一项或多项检查失败。
 
-每個狀態都詳列於下方。
+每种状态详见下文。
 
 #### 处理时间 {#surface-processing}
 
-將會執行數個傳遞能力檢查，以確認曲面已正確更新。
+将执行多次可投放性检查以验证表面是否已正确更新。
 
 >[!NOTE]
 >
->如果您只編輯 **[!UICONTROL 說明]**， **[!UICONTROL 電子郵件型別]** 和/或 **[!UICONTROL 電子郵件重試引數]** 欄位，更新即時。
+>如果您只编辑 **[!UICONTROL 描述]**， **[!UICONTROL 电子邮件类型]** 和/或 **[!UICONTROL 电子邮件重试参数]** 场内，更新是瞬时的。
 
-處理時間最多可能需要 **3小時**. 瞭解更多有關驗證週期期間執行的檢查，請參閱 [本節](#create-channel-surface).
+处理时间最长可能需要 **3小时**. 了解验证周期内执行的检查的更多信息，请参阅 [本节](#create-channel-surface).
 
-如果您編輯已啟動的曲面：
+如果编辑已处于活动状态的曲面：
 
-* 其狀態維持不變 **[!UICONTROL 作用中]** 驗證程式進行時。
+* 其状态保持不变 **[!UICONTROL 活动]** 验证过程中。
 
-* 此 **[!UICONTROL 最近更新]** 圖示會顯示在「管道曲面」清單中的曲面名稱旁。
+* 此 **[!UICONTROL 最近更新]** 图标显示在渠道曲面列表中的曲面名称旁边。
 
-* 在驗證程式期間，使用此介面設定的訊息仍使用舊版介面。
+* 在验证过程中，使用此表面配置的消息仍在使用旧版本的表面。
 
 >[!NOTE]
 >
->更新進行中時，您無法修改管道表面。 您仍然可以按一下其名稱，但所有欄位都顯示為灰色。 更新成功後才會反映變更。
+>在更新过程中，您无法修改渠道表面。 您仍然可以单击其名称，但所有字段都显示为灰色。 更新成功后才会反映更改。
 
 #### 成功 {#success}
 
-一旦驗證程式成功，使用此表面的所有訊息都會自動使用表面的新版本。 不過，您可能必須等待：
-* 幾分鐘後，單一訊息便會使用，
-* 直到下一個批次，讓曲面在批次訊息中生效。
+一旦验证过程成功，新版本的表面将自动用于使用此表面的所有消息中。 但是，您可能必须等待：
+* 几分钟后才会被单一消息占用，
+* 直到下一个批次使表面在批处理消息中有效。
 
 #### 失败 {#failed}
 
-如果驗證程式失敗，仍會使用舊版曲面。
+如果验证过程失败，仍将使用旧版本的曲面。
 
-進一步瞭解中可能出現的失敗原因 [本節](#monitor-channel-surfaces).
+要了解有关可能失败原因的更多信息，请参阅 [本节](#monitor-channel-surfaces).
 
-更新失敗時，表面將再次變為可編輯。 您可以按一下其名稱並更新需要修正的設定。
+更新失败时，表面将再次变为可编辑。 您可以单击其名称并更新需要修复的设置。
 
-## 停用管道表面 {#deactivate-a-surface}
+## 取消激活渠道表面 {#deactivate-a-surface}
 
-若要建立 **[!UICONTROL 作用中]** 頻道介面無法用來建立新訊息，您可以將其停用。 但是，目前使用此表面的歷程訊息將不會受到影響，並將繼續運作。
+创建 **[!UICONTROL 活动]** 渠道表面不可用于创建新消息，您可以取消激活它。 但是，当前使用此表面的历程消息不会受到影响，并且将继续工作。
 
 >[!NOTE]
 >
->處理更新時，您無法停用管道表面。 您必須等候更新成功或失敗。 進一步瞭解 [編輯頻道介面](#edit-channel-surface) 並在 [更新狀態](#update-statuses).
+>处理更新时，无法取消激活渠道表面。 您必须等待更新成功或失败。 详细了解 [编辑渠道表面](#edit-channel-surface) 并在 [更新状态](#update-statuses).
 
-1. 存取管道表面清單。
+1. 访问渠道表面列表。
 
-1. 對於您選擇的活動曲面，按一下 **[!UICONTROL 更多動作]** 按鈕。
+1. 对于所选的活动曲面，单击 **[!UICONTROL 更多操作]** 按钮。
 
-1. 選取 **[!UICONTROL 停用]**.
+1. 选择 **[!UICONTROL 取消激活]**.
 
    ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
->無法刪除已停用的管道表面，以避免使用這些表面傳送訊息的歷程中出現任何問題。
+>无法删除已停用的渠道表面，以避免使用这些表面发送消息的历程中出现任何问题。
 
-您無法直接編輯已停用的管道表面。 但是，您可以複製它並編輯副本，以建立用於建立新訊息的新版本。 您也可以再次啟動它，然後等到更新成功後再進行編輯。
+无法直接编辑已停用的渠道表面。 但是，您可以复制该副本并编辑副本，以创建将用于创建新消息的新版本。 您也可以再次激活它，然后等到更新成功时再进行编辑。
 
 ![](assets/preset-activate.png)
 

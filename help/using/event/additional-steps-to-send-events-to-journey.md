@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 將事件傳送至歷程的其他步驟
-description: 瞭解將事件傳送至歷程的其他步驟
+title: 将事件发送到历程的其他步骤
+description: 了解将事件发送到历程的其他步骤
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 步驟，設定，歷程，事件，串流， API
+keywords: 步骤，配置，历程，事件，流， API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -18,20 +18,20 @@ ht-degree: 5%
 
 # 用于发送事件的其他步骤 {#additional-steps-to-send-events}
 
-若要設定要傳送至的事件 **[!UICONTROL 串流擷取API]** 並將用於 [!DNL Journey Optimizer]，您必須遵循下列步驟：
+配置要发送到的事件 **[!UICONTROL 流式引入API]** 并将用于 [!DNL Journey Optimizer]，您需要执行以下步骤：
 
-1. 從Adobe Experience Platform API取得入口URL。 進一步瞭解 [串流擷取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}.
-1. 從中的裝載預覽複製裝載 **[!UICONTROL 事件]** 功能表。 请参阅[此页面](../event/about-creating.md#define-the-payload-fields)以了解详情。
+1. 从Adobe Experience Platform API获取入口URL。 了解详情，请参阅 [流摄取API概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}.
+1. 从的有效负载预览中复制有效负载，位置在 **[!UICONTROL 事件]** 菜单。 请参阅[此页面](../event/about-creating.md#define-the-payload-fields)以了解详情。
 
-然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流獲取API：
+然后，您需要配置数据系统，以使用复制的有效负载将事件推送到流摄取API：
 
-1. 設定串流獲取API URL的POSTAPI呼叫（稱為入口）。
-1. 使用您複製自的裝載 [!DNL Journey Optimizer] 串流獲取API之API呼叫的內文（「資料區段」）中。 如需範例，請參閱下文
-1. 決定從何處取得裝載中出現的所有變數。 範例：如果事件應該要傳達位址，貼上的裝載會顯示「address」：「string」。 「string」應取代為會自動填入正確值的變數，也就是傳送訊息的收件者電子郵件。 請注意，在裝載預覽中，在 **[!UICONTROL 頁首]** 章節，我們會自動填入許多值，以利您順利完成工作。
-1. 選取「application/json」作為內文型別。
-1. 使用索引鍵「x-gw-ims-org-id」在標題中傳遞您的組織ID。 對於該值，請使用您的組織ID (&quot;XXX@AdobeOrg&quot;)。
+1. 设置对流式引入API URL的POSTAPI调用（称为入口）。
+1. 使用您复制过的有效负载 [!DNL Journey Optimizer] 在流摄取API调用正文（“数据部分”）中。 有关示例，请参阅下文
+1. 确定从何处获取有效负载中存在的所有变量。 示例：如果事件应传递地址，则粘贴的有效负载将显示“address”：“string”。 “string”应替换为自动填充正确值的变量，即向其发送消息的人员的电子邮件。 请注意，在有效负载预览中，在 **[!UICONTROL 页眉]** 部分，我们将自动填写许多值，期望为您的工作提供方便。
+1. 选择“application/json”作为主体类型。
+1. 使用键“x-gw-ims-org-id”在标头中传递您的组织ID。 对于值，请使用您的组织ID (&quot;XXX@AdobeOrg&quot;)。
 
-以下是串流擷取API事件的範例：
+以下是流摄取API事件的示例：
 
 ```
 {
@@ -88,6 +88,6 @@ ht-degree: 5%
 }
 ```
 
-為方便您識別「資料」部分的貼上位置，您可以使用JSON視覺化工具，例如 [JSON格式化程式](https://jsonformatter.curiousconcept.com){target="_blank"}.
+为了便于识别粘贴“数据”部分的位置，您可以使用JSON可视化工具，例如 [JSON格式器](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-若要疑難排解串流獲取API，請參閱 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
+要排查流摄取API问题，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

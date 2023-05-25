@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 背景，電子郵件，顏色，編輯器
+keywords: 背景，电子邮件，颜色，编辑器
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 以下是可使用的可用背景设置。
 
-* 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。請務必在可從左側浮動視窗存取的導覽樹狀結構中選取內文設定。
+* 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。确保在可从左侧面板访问的导航树中选择正文设置。
 
    ![](assets/background_1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 82%
 
    ![](assets/background_2.png)
 
-* 为每个结构组件设置不同的背景颜色。在導覽樹狀結構中選取可從左側浮動視窗存取的結構，以僅將特定背景顏色套用至該結構。
+* 为每个结构组件设置不同的背景颜色。在导航树中选择可从左侧面板访问的结构，以便仅对该结构应用特定的背景颜色。
 
    切勿设置视口背景颜色，因为它可能会隐藏结构背景颜色。
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >某些电子邮件程序不支持背景图像。當不支援時，將改用列背景顏色。 请务必选择合适的备用背景颜色，以防图像无法显示。
+   >某些电子邮件程序不支持背景图像。当不支持时，将改用行背景颜色。 请务必选择合适的备用背景颜色，以防图像无法显示。
 
    ![](assets/background_4.png)
 

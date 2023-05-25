@@ -1,6 +1,6 @@
 ---
-title: 優惠資料庫使用者介面
-description: 深入瞭解優惠資料庫使用者介面
+title: 选件库用户界面
+description: 了解有关优惠库用户界面的更多信息
 feature: Offers
 topic: Integrations
 role: User
@@ -13,48 +13,48 @@ ht-degree: 35%
 
 ---
 
-# 優惠資料庫使用者介面 {#user-interface}
+# 选件库用户界面 {#user-interface}
 
-此 **[!UICONTROL 決定管理]** 左側邊欄中的區段提供兩個選單，可讓您存取決策管理功能：
+此 **[!UICONTROL 决策管理]** 左边栏中的部分提供两个菜单，用于访问决策管理功能：
 
-使用 **[!UICONTROL 選件]** 管理及傳遞優惠方案的功能表：
+使用 **[!UICONTROL 选件]** 用于管理和提供优惠的菜单：
 
 
 ![](../assets/offers_menu.png)
 
-* **[!UICONTROL 概觀]**：新至 [!DNL decision management]？ 依照熒幕上的步驟開始設定位置、優惠和集合。 熟悉時 [!DNL decision management]，取得您最近優惠、集合和決定的概觀。 [了解详情](#overview)
-* **[!UICONTROL 選件]**：建立並存取您的個人化和遞補優惠。 瞭解如何建立 [優惠方案](../offer-library/creating-personalized-offers.md) 和 [遞補優惠](../offer-library/creating-fallback-offers.md)
-* **[!UICONTROL 集合]**：將優惠方案組織成靜態和動態集合。 [了解详情](../offer-library/creating-collections.md)
-* **[!UICONTROL 決定]**：建立和管理決定以傳遞您的優惠。 [了解详情](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL 批次決策]**：將優惠決定傳送至指定Adobe Experience Platform區段中的所有設定檔。 [了解详情](../batch-delivery.md)
-* **[!UICONTROL 模擬]**：模擬會將哪些優惠傳遞至指定位置的測試設定檔，以驗證決策邏輯。 [了解详情](../offer-activities/simulation.md)
+* **[!UICONTROL 概述]**：新到 [!DNL decision management]？ 按照屏幕上的步骤开始设置投放位置、优惠和收藏集。 在已经熟悉时 [!DNL decision management]，大致了解您最近的优惠、收藏集和决策。 [了解详情](#overview)
+* **[!UICONTROL 选件]**：创建和访问您的个性化的后备优惠。 了解如何创建 [优惠](../offer-library/creating-personalized-offers.md) 和 [后备优惠](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL 收藏集]**：将优惠组织为静态和动态收藏集。 [了解详情](../offer-library/creating-collections.md)
+* **[!UICONTROL 决策]**：创建和管理决策以投放优惠。 [了解详情](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL 批量决策]**：将优惠决策交付给给定Adobe Experience Platform区段中的所有用户档案。 [了解详情](../batch-delivery.md)
+* **[!UICONTROL 模拟]**：通过模拟将哪些优惠提供给给定投放位置的测试用户档案来验证决策逻辑。 [了解详情](../offer-activities/simulation.md)
 
-使用 **[!UICONTROL 元件]** 建立和管理元件以建立優惠和決定的功能表：
+使用 **[!UICONTROL 组件]** 用于创建和管理创建优惠和决策所需的组件的菜单：
 
 ![](../assets/offer_activities.png)
 
-* **[!UICONTROL 版位]**：建立並管理您的優惠將顯示的位置。 [了解详情](../offer-library/creating-placements.md)
-* **[!UICONTROL 集合限定詞]**：建立和管理集合限定詞（先前稱為「標籤」）以組織及篩選您的優惠。 [了解详情](../offer-library/creating-tags.md)
-* **[!UICONTROL 規則]**：管理提供您優惠的條件。 [了解详情](../offer-library/creating-decision-rules.md)
-* **[!UICONTROL 排名]**：建立和管理排名公式，以決定應先針對指定位置顯示哪個優惠。 [了解详情](../ranking/create-ranking-formulas.md)
+* **[!UICONTROL 版面]**：创建和管理优惠将显示的投放位置。 [了解详情](../offer-library/creating-placements.md)
+* **[!UICONTROL 收藏集限定符]**：创建和管理收藏集限定符（以前称为“标记”）以组织和筛选优惠。 [了解详情](../offer-library/creating-tags.md)
+* **[!UICONTROL 规则]**：管理提供优惠的条件。 [了解详情](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL 排名]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪个优惠。 [了解详情](../ranking/create-ranking-formulas.md)
 
 >[!NOTE]
 >
->如果您在存取決策管理或其部分功能時遇到問題，請向管理員使用者確認您已獲得所需許可權。 另請參閱 [授與決策管理的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>如果您在访问决策管理或其某些功能时遇到问题，请联系管理员用户，确认您已获得所需的权限。 参见 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 ## 概述 {#overview}
 
-當您初次使用 [!DNL decision management]，則 **[!UICONTROL 概觀]** 索引標籤會引導您完成開始建立第一個優惠決定所需的主要步驟。 依照熒幕上的步驟開始建立版位、優惠和集合。 完成這些第一個步驟後，系統會提示您建立優惠決定。
+当您初次使用 [!DNL decision management]，则 **[!UICONTROL 概述]** 选项卡将指导您完成开始构建第一个优惠决策所需的主要步骤。 按照屏幕上的步骤开始创建投放位置、优惠和收藏集。 完成这些首要步骤后，系统会提示您创建优惠决策。
 
 >[!NOTE]
 >
->建立優惠並在決定中使用優惠的主要步驟在中介紹 [本節](../offer-library/key-steps.md).
+>有关创建优惠并在决策中使用优惠的主要步骤，请参见 [本节](../offer-library/key-steps.md).
 
-當您更熟悉 [!DNL decision management] 而且您已建立至少一個優惠決定， **[!UICONTROL 概觀]** 標籤會顯示您最近的優惠、集合和決定。
+当您更熟悉 [!DNL decision management] 并且您已创建至少一个优惠决策， **[!UICONTROL 概述]** 选项卡会显示您最近的优惠、收藏集和决策。
 
-按一下優惠或決定，直接存取所選專案的詳細資料。
+单击优惠或决策以直接访问所选项目的详细信息。
 
-按一下 **[!UICONTROL 檢視全部]** 按鈕來存取優惠方案、集合或決定清單。
+单击 **[!UICONTROL 查看全部]** 按钮访问优惠、收藏集或决策列表。
 
 ![](../assets/overview_view-all.png)
 
@@ -84,11 +84,11 @@ ht-degree: 35%
 
 通过优惠和优惠活动列表也可对多个元素执行批量操作。为此，请选择所需的优惠或决策，然后从信息窗格中选择要执行的操作。
 
-請注意，您也可以複製現有優惠或決定，以便使用建立副本 **[!UICONTROL 草稿]** 狀態。 可以在信息窗格或在优惠或决策的详细视图中执行此操作。
+请注意，您还可以复制现有优惠或决策，以便使用创建副本 **[!UICONTROL 草稿]** 状态。 可以在信息窗格或在优惠或决策的详细视图中执行此操作。
 
 ## 优惠和决策更改日志 {#changes-logs}
 
-優惠資料庫可讓您以視覺效果呈現對優惠或決定進行的所有變更。 若要這麼做，請按一下清單中優惠或決定的名稱，然後選取 **[!UICONTROL 變更記錄]** 標籤。
+优惠库允许您可视化对优惠或决策所做的所有更改。 要执行此操作，请在列表中单击优惠或决策的名称以将其打开，然后选择 **[!UICONTROL 更改日志]** 选项卡。
 
 此屏幕中显示所有已完成的更改，还显示执行更改的用户姓名。
 

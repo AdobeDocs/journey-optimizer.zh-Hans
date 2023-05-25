@@ -1,8 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: 開始使用AI模型
-description: 瞭解允許對優惠進行排名的AI模型
+title: AI模型入门
+description: 了解允许对优惠进行排名的AI模型
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -14,31 +14,31 @@ ht-degree: 4%
 
 ---
 
-# 開始使用AI模型 {#ai-models}
+# AI模型入门 {#ai-models}
 
-[!DNL Journey Optimizer] 可讓您使用經過訓練的模型系統，對要針對指定設定檔顯示的選件進行排名。
+[!DNL Journey Optimizer] 允许您使用经过训练的模型系统，对要针对给定用户档案显示的选件进行排名。
 
-此功能可讓您建立不同的 **AI模型** 根據您的業務目標而定。 在決定中使用這些不同的目標型策略，經過訓練的模型系統將幫助您瞭解不同的AI模型如何影響您的目標。
+此功能使您能够创建不同的 **AI模型** 基于您的业务目标。 在决策中使用这些基于目标的不同策略，经过训练的模型系统将帮助您了解不同的AI模型如何影响您的目标。
 
-例如，您可以為電子郵件頻道選取一個AI模型，並為推播頻道選取另一個模型。 對於每個管道，經過訓練的模型系統將運用多個資料點來決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數或 [排名公式](create-ranking-formulas.md).
+例如，您可以为电子邮件渠道选择一个AI模型，为推送渠道选择另一个模型。 对于每个渠道，经过训练的模型系统将利用多个数据点来确定在给定投放位置应首先显示哪个优惠，而不是考虑优惠的优先级得分或 [排名公式](create-ranking-formulas.md).
 
 ## AI 模型类型 {#ai-model-types}
 
-有兩種型別的AI模型可用於 [!DNL Journey Optimizer]：
+中提供了两种类型的AI模型 [!DNL Journey Optimizer]：
 
-* **自動最佳化模型** 旨在提供可大幅提升業務客戶設定之回報(KPI)的優惠方案。 這些KPI可以是轉換率、收入等形式。 此時，自動最佳化的重點是最佳化優惠點按，並將優惠轉換作為我們的目標。 自動最佳化是非個人化的，並根據選件的「全域」效能最佳化。 [了解详情](auto-optimization-model.md)
+* **自动优化模型** 旨在提供可最大程度提高业务客户回报(KPI)的优惠。 这些KPI可以是转化率、收入等形式。 目前，自动优化侧重于优化优惠点击，并将优惠转化作为我们的目标。 自动优化是非个性化的，并根据选件的“全局”性能进行优化。 [了解详情](auto-optimization-model.md)
 
-* **個人化模型** 可讓您定義業務目標，並利用客戶資料來訓練業務導向的模型，以提供個人化優惠方案並最大化KPI。 [了解详情](personalized-optimization-model.md)
+* **个性化模型** 允许您定义业务目标，并利用客户数据来培训面向业务的模型，以提供个性化优惠并最大化KPI。 [了解详情](personalized-optimization-model.md)
 
    >[!CAUTION]
    >
-   >個人化最佳化模型目前僅供特定使用者提早存取。
+   >目前，个性化优化模型的使用仅供特定用户提前访问。
 
-## 建立AI模型 {#create-ai-model}
+## 创建AI模型 {#create-ai-model}
 
-建立及使用AI模型的主要步驟如下：
+创建并使用AI模型的主要步骤如下：
 
-1. 建立將收集轉換和曝光事件的資料集。 [了解详情](../data-collection/create-dataset.md)
-1. 建立AI模型，運用資料集中的事件來排名選件。 [了解详情](create-ranking-strategies.md)
-1. 設定您的優惠方案綱要以自動擷取事件。 [了解详情](../data-collection/schema-requirement.md)
-1. 將AI模型指派給決定中的位置，以排名合格的優惠。 [了解详情](../offer-activities/configure-offer-selection.md)
+1. 创建将从中收集转化和印象事件的数据集。 [了解详情](../data-collection/create-dataset.md)
+1. 创建一个AI模型，该模型将利用来自数据集的事件对选件进行排名。 [了解详情](create-ranking-strategies.md)
+1. 配置选件架构以自动捕获事件。 [了解详情](../data-collection/schema-requirement.md)
+1. 将AI模型分配给决策中的投放位置，以排名符合条件的优惠。 [了解详情](../offer-activities/configure-offer-selection.md)

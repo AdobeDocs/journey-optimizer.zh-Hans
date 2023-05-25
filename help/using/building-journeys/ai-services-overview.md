@@ -1,11 +1,11 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI服務總覽
-description: AI服務總覽
+title: AI服务概述
+description: AI服务概述
 role: User
 level: Intermediate
-keywords: 人工， AI，智慧，歷程，服務
+keywords: 人工，人工智能，智能，旅程，服务
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 # 与智能服务集成 {#ai-overview}
 
-與整合 **[!DNL Adobe Intelligent Services]** 可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司需求設定專屬預測，而不需要資料科學專業知識。
+与集成 **[!DNL Adobe Intelligent Services]** 允许您在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置设置特定于公司需求的预测，而无需数据科学专业知识。
 
-[!DNL Intelligent Services]，以Adobe Experience Platform為基礎打造，可讓負責客戶體驗的行銷人員存取AI-as-a-service，讓任何人都能輕鬆預測客戶行為、衡量行銷活動的影響，或確保每一筆投資都有更好的回報。 如需詳細資訊，請參閱 [!DNL Adobe Intelligent Services]，請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
+[!DNL Intelligent Services]基于Adobe Experience Platform的解决方案使负责客户体验的营销人员能够访问AI-as-a-service，从而使任何人能够轻松预测客户行为、衡量营销活动的影响或确保提高每项投资的回报。 有关的详细信息 [!DNL Adobe Intelligent Services]，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 
-以下各項之間的整合： [!DNL Journey Optimizer] 和 [!DNL Intelligent Services] 可讓您善用客戶預測。
+集成介于 [!DNL Journey Optimizer] 和 [!DNL Intelligent Services] 使您可以利用客户预测。
 
-Customer AI屬於 [!DNL Adobe Intelligent Services]. 它有助於預測客戶可能會做什麼。 請參閱 [Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
+客户人工智能是的一部分 [!DNL Adobe Intelligent Services]. 它有助于预测客户可能会做什么。 请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
 
-Customer AI可讓品牌建立流失率或轉換機器學習型分數，這些分數將作為Adobe Experience Platform設定檔（即時客戶設定檔）中的設定檔屬性使用。
+客户人工智能允许品牌商创建基于流失率或转化率的机器学习分数，这些分数将作为Adobe Experience Platform用户档案（实时客户用户档案）中的用户档案属性提供。
 
-因此，它們可以用作Journey Optimizer條件（以做出最佳決策）、動作或區段建立中的任何其他設定檔屬性。
+因此，它们可以用作Journey Optimizer条件（做出最佳决策）、操作或区段构建中的任何其他配置文件属性。
 
 ![](assets/customer-ai.png)
 

@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 內嵌，樣式，屬性，編輯器
+keywords: 内联、样式、属性、编辑器
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -18,16 +18,16 @@ ht-degree: 36%
 
 # 添加内联样式属性 {#inline-styling}
 
-在「電子郵件設計工具」介面中，當您選取元素並在側面板上顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
+在Email Designer界面中，当您选择某个元素并在侧面板上显示其设置时，可以自定义该特定元素的内联属性及其值。
 
-1. 在您的內容中選取元素。
+1. 在内容中选择元素。
 
-1. 從 **[!UICONTROL 樣式]** 標籤，尋找 **[!UICONTROL 內嵌樣式]** 下的設定 **[!UICONTROL 進階]** 下拉式清單。
+1. 从 **[!UICONTROL 样式]** 选项卡，查找 **[!UICONTROL 内联样式]** 下的设置 **[!UICONTROL 高级]** 下拉菜单。
 
    ![](assets/styles_1.png)
 
-1. 修改現有屬性的值，或使用 **+** 按鈕。 可以添加任何符合 CSS 的属性和值。
+1. 修改现有属性的值，或使用 **+** 按钮。 可以添加任何符合 CSS 的属性和值。
 
    ![](assets/styles_2.png)
 
-然後，樣式會套用至選取的元素。 如果子元素不具有定义的特定样式属性，则继承父元素的样式。
+然后，样式将应用于所选的元素。 如果子元素不具有定义的特定样式属性，则继承父元素的样式。

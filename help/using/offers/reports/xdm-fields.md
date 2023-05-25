@@ -15,11 +15,11 @@ ht-degree: 67%
 
 # 访问事件 XDM 字段 {#decisioningevents-xdm-schema}
 
-您可以直接從包含決定管理事件的資料集存取DecisioningEvents XDM架構。
+您可以直接从包含决策管理事件的数据集访问DecisioningEvents XDM架构。
 
 ![](../assets/access-schema.png)
 
-結構描述包含從決定管理傳送資訊至Adobe Experience Platform所需的所有欄位。
+架构包含从决策管理向Adobe Experience Platform发送信息所需的所有字段。
 
 要获取有关特定字段的更多信息，请选择该字段以显示包含该字段属性的信息窗格。
 

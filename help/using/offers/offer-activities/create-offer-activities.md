@@ -1,6 +1,6 @@
 ---
 title: 创建决策
-description: 瞭解如何建立決定
+description: 了解如何创建决策
 feature: Offers
 topic: Integrations
 role: User
@@ -15,223 +15,223 @@ ht-degree: 3%
 
 # 创建决策 {#create-offer-activities}
 
-決定是優惠的容器，可運用優惠決定引擎，根據傳遞的目標來挑選最佳優惠。
+决策是优惠的容器，它们将利用优惠决策引擎，以便根据投放目标来选择应投放的最佳优惠。
 
-➡️ [在本影片中瞭解如何建立優惠方案活動](#video)
+➡️ [在此视频中了解如何创建优惠活动](#video)
 
-決策清單可在 **[!UICONTROL 選件]** 功能表> **[!UICONTROL 決定]** 標籤。 篩選器可協助您根據決策的狀態或開始和結束日期來擷取決策。
+决策列表可在 **[!UICONTROL 选件]** 菜单> **[!UICONTROL 决策]** 选项卡。 过滤器可帮助您根据其状态或开始和结束日期检索决策。
 
 ![](../assets/activities-list.png)
 
-建立決定之前，請確定已在優惠資料庫中建立下列元件：
+在创建决策之前，请确保已在优惠库中创建了以下组件：
 
 * [投放位置](../offer-library/creating-placements.md)
 * [收藏集](../offer-library/creating-collections.md)
 * [个性化优惠](../offer-library/creating-personalized-offers.md)
 * [后备优惠](../offer-library/creating-fallback-offers.md)
 
-## 建立決定 {#create-activity}
+## 创建决策 {#create-activity}
 
-1. 存取決定清單，然後按一下 **[!UICONTROL 建立決定]**.
+1. 访问决策列表，然后单击 **[!UICONTROL 创建决策]**.
 
-1. 指定決定的名稱。
+1. 指定决策的名称。
 
-1. 視需要定義開始和結束日期及時間，然後按一下 **[!UICONTROL 下一個]**.
+1. 根据需要定义开始和结束日期和时间，然后单击 **[!UICONTROL 下一个]**.
 
    ![](../assets/activities-name.png)
 
-1. 若要將自訂或核心資料使用標籤指派給決策，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
+1. 要将自定义或核心数据使用标签分配给决策，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
 
-## 定義決定範圍 {#add-decision-scopes}
+## 定义决策范围 {#add-decision-scopes}
 
-1. 從下拉式清單中選取位置。 它會新增至您決定中的第一個決定範圍。
+1. 从下拉列表中选择一个版面。 它将被添加到您决策中的第一个决策范围。
 
    ![](../assets/activities-placement.png)
 
-1. 按一下 **[!UICONTROL 新增]** 以選取此位置的評估准則。
+1. 单击 **[!UICONTROL 添加]** 以选择此投放位置的评估标准。
 
    ![](../assets/activities-evaluation-criteria.png)
 
-   每個條件都包含與適用性限制相關聯的優惠方案集合，以及用於決定要顯示在位置中的優惠方案的排名方法。
+   每个标准都包含与资格约束关联的优惠收藏集和排名方法，以确定要在投放位置中显示的优惠。
 
    >[!NOTE]
    >
-   >至少需要一個評估標準。
+   >至少需要一个评估标准。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下 **[!UICONTROL 新增]**.
+1. 选择包含要考虑的选件的选件收藏集，然后单击 **[!UICONTROL 添加]**.
 
    ![](../assets/activities-collection.png)
 
    >[!NOTE]
    >
-   >您可以按一下 **[!UICONTROL 開啟優惠收藏]** 在新標籤中顯示集合清單的連結，可讓您瀏覽集合及其包含的優惠。
+   >您可以单击 **[!UICONTROL 打开优惠收藏集]** 用于在新选项卡中显示收藏集列表的链接，通过该链接可浏览收藏集及其包含的优惠。
 
-   選取的集合會新增至條件。
+   选定的收藏集将添加到标准中。
 
    ![](../assets/activities-collection-added.png)
 
-1. 使用 **[!UICONTROL 資格]** 欄位以限制此位置的優惠方案選擇。
+1. 使用 **[!UICONTROL 资格]** 用于限制为此投放位置选择优惠的字段。
 
-   此限制可使用套用 **決定規則**，或一或數個 **Adobe Experience Platform區段**. 兩者皆詳見 [本節](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   此约束可以通过使用 **决策规则**，或者一个或多个 **Adobe Experience Platform区段**. 有关详情，请参阅 [本节](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * 若要將優惠方案的選擇限製為Experience Platform區段的成員，請選取 **[!UICONTROL 區段]**，然後按一下 **[!UICONTROL 新增區段]**.
+   * 要将优惠选择限制为Experience Platform区段的成员，请选择 **[!UICONTROL 区段]**，然后单击 **[!UICONTROL 添加区段]**.
 
       ![](../assets/activity_constraint_segment.png)
 
-      從左窗格新增一或多個區段，並使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 邏輯運運算元。
+      从左窗格中添加一个或多个区段，然后使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
 
       ![](../assets/activity_constraint_segment2.png)
 
-      瞭解如何在中使用區段 [本節](../../segment/about-segments.md).
+      了解如何在中使用区段 [本节](../../segment/about-segments.md).
 
-   * 如果您想使用決定規則新增選擇限制，請使用 **[!UICONTROL 決定規則]** 選項並選取您選擇的規則。
+   * 如果要为决策规则添加选择约束，请使用 **[!UICONTROL 决策规则]** 选项并选择您选择的规则。
 
       ![](../assets/activity_constraint_rule.png)
 
-      瞭解如何在中建立決定規則 [本節](../offer-library/creating-decision-rules.md).
+      了解如何在中创建决策规则 [本节](../offer-library/creating-decision-rules.md).
 
-1. 当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。按一下 **[!UICONTROL 重新整理]** 以更新資料。
+1. 当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
 
    >[!NOTE]
    >
-   >當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估不可用。 例如，適用性規則要求目前天氣為≥80度。
+   >当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，一个资格规则，要求当前天气为≥80度。
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [了解详情](../offer-activities/configure-offer-selection.md)。
+1. 定义要用于为每个用户档案选择最佳选件的排名方法。 [了解详情](../offer-activities/configure-offer-selection.md)。
 
    ![](../assets/activity_ranking-method.png)
 
-   * 依預設，如果有多個優惠方案符合此位置的資格， **[!UICONTROL 優惠優先順序]** 方法使用優惠中定義的值：會將具有最高優先順序分數的優惠傳送給使用者。
+   * 默认情况下，如果有多个选件符合此投放位置的条件， **[!UICONTROL 优惠优先级]** 方法使用选件中定义的值：会将具有最高优先级分数的选件交付给用户。
 
-   * 如果您想使用特定的計算分數來選擇要遞送的合格優惠方案，請選取 **[!UICONTROL 公式]** 或 **[!UICONTROL AI模型]**. [了解详情](../offer-activities/configure-offer-selection.md)。
+   * 如果要使用特定的计算得分来选择要交付的合格优惠，请选择 **[!UICONTROL 公式]** 或 **[!UICONTROL AI模型]**. [了解详情](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下 **[!UICONTROL 新增]** 為相同位置定義更多條件。
+1. 单击 **[!UICONTROL 添加]** 为同一放置定义更多标准。
 
    ![](../assets/activity_add-collection.png)
 
-1. 新增多個條件時，系統會以特定順序評估這些條件。 系統會先評估新增至序列的第一個集合，依此類推。 [了解详情](#evaluation-criteria-order)
+1. 添加多个标准时，将按特定顺序评估这些标准。 将首先评估添加到序列中的第一个集合，依此类推。 [了解详情](#evaluation-criteria-order)
 
-   若要變更預設順序，您可以拖放收藏集，以視需要重新排序。
+   要更改默认序列，您可以拖放收藏集以根据需要重新排序。
 
    ![](../assets/activity_reorder-collections.png)
 
-1. 您也可以同時評估多個條件。 若要這麼做，請將集合拖放至其他集合上方。
+1. 还可同时评估多个标准。 要执行此操作，请将收藏集拖放到另一个收藏集上。
 
    ![](../assets/activity_move-collection.png)
 
-   它們現在具有相同的排名，因此將同時進行評估。 [了解详情](#evaluation-criteria-order)
+   它们现在具有相同的排名，因此将同时进行评估。 [了解详情](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
-1. 若要在此決定中新增其他優惠位置，請使用 **[!UICONTROL 新範圍]** 按鈕。 對每個決定範圍重複上述步驟。
+1. 要在此决策中添加其他优惠版面，请使用 **[!UICONTROL 新范围]** 按钮。 对每个决策范围重复上述步骤。
 
    ![](../assets/activity_new-scope.png)
 
-### 評估准則順序 {#evaluation-criteria-order}
+### 评估标准顺序 {#evaluation-criteria-order}
 
-如上所述，評估准則包含集合、資格限制和排名方法。 您可以設定評估准則要評估的順序順序，但也可以合併多個評估准則，以便一起評估而不是單獨評估。
+如上所述，评估标准由收集、资格约束和排名方法组成。 可以设置评估标准的评估顺序，但也可以合并多个评估标准，以便一起评估而不是单独评估。
 
-例如，您有兩個集合，一個在評估標準A中，一個在評估標準B中。要求傳回兩個優惠方案。 假設有兩個來自評估標準A的合格優惠方案和三個來自評估標準B的合格優惠方案。
+例如，您有两个集合，一个在评估标准A中，一个在评估标准B中。请求发送回两个选件。 假设有两个符合评估标准A的优惠和三个符合评估标准B的优惠。
 
-* 如果兩個評估准則為 **未合併** 和/或依序順序（1和2），評估准則的前兩個合格優惠方案會傳回在第一列。 如果第一個評估條件中沒有兩個符合資格的優惠，決定引擎會依序移至下一個評估條件，以找出仍需要多少優惠方案，最終將視需要傳回遞補。
+* 如果两个评估标准为 **未合并** 和/或按顺序（1和2），评估标准中前两个符合条件的优惠将返回第一行。 如果第一个评估标准中没有两个符合条件的优惠，则决策引擎将依次转到下一个评估标准，以查找仍需要多少优惠，并且最终将在需要时返回回退。
 
    ![](../assets/activity_consecutive-rank-collections.png)
 
-* 如果兩個集合為 **同時評估**，由於評估標準A中有兩個符合資格優惠方案，評估標準B中有三個符合資格優惠方案，因此這五個優惠方案都會根據各自排名方法決定的值棧疊在一起。 要求兩個優惠方案，因此將傳回這五個優惠方案中的前兩個合格優惠方案。
+* 如果两个收藏集为 **同时评估**，因为有两个来自评估标准A的合格选件和三个来自评估标准B的合格选件，所以这五个选件都将根据各自的排名方法确定的值栈叠在一起。 由于请求了两个选件，因此将返回这五个选件中符合条件的前两个选件。
 
    ![](../assets/activity_same-rank-collections.png)
 
-## 新增遞補優惠 {#add-fallback}
+## 添加后备优惠 {#add-fallback}
 
-定義決定範圍後，請定義遞補優惠，此遞補優惠將作為不符合優惠方案適用性規則和限制的客戶的最後手段。
+定义决策范围后，请定义作为最后的手段向不符合优惠资格规则和限制的客户提供的备用优惠。
 
-若要這麼做，請從決定中定義之位置的可用遞補優惠清單中選取它，然後按一下 **[!UICONTROL 下一個]**.
+为此，请从决策中定义的版面的可用备用优惠列表中选择它，然后单击 **[!UICONTROL 下一个]**.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->您可以按一下 **[!UICONTROL 開啟優惠資料庫]** 在新標籤中顯示優惠方案清單的連結。
+>您可以单击 **[!UICONTROL 打开选件库]** 用于在新选项卡中显示优惠列表的链接。
 
-## 檢閱並儲存決定 {#review}
+## 查看并保存决策 {#review}
 
-如果所有專案皆已正確設定，則會顯示決定屬性的摘要。
+如果一切配置正确，则会显示决策属性的摘要。
 
-1. 確定決定已準備好用於向客戶呈現優惠方案。 會顯示所有決定範圍及其包含的遞補優惠。
+1. 确保决策已准备就绪，可用于向客户提供优惠。 将显示所有决策范围及其包含的备用优惠。
 
    ![](../assets/review-decision.png)
 
-1. 您可以展開或收合每個位置。 您可以預覽每個位置的可用優惠方案、資格和排名詳細資料。 您也可以顯示預估合格設定檔的相關資訊。 按一下 **[!UICONTROL 重新整理]** 以更新資料。
+1. 可以展开或折叠每个投放位置。 您可以预览每个投放位置的可用优惠、资格和排名详细信息。 您还可以显示有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
 
    ![](../assets/review-decision-details.png)
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
-1. 選取 **[!UICONTROL 儲存並啟動]**.
+1. 选择 **[!UICONTROL 保存并激活]**.
 
    ![](../assets/save-activities.png)
 
-   您也可以將決定儲存為草稿，以便稍後編輯及啟動。
+   您还可以将决策另存为草稿，以便稍后对其进行编辑和激活。
 
-決定會顯示在清單中，並附有 **[!UICONTROL 即時]** 或 **[!UICONTROL 草稿]** 狀態，取決於您是否在上一步啟動。
+决策显示在列表中，其中包含 **[!UICONTROL 实时]** 或 **[!UICONTROL 草稿]** 状态，具体取决于您在上一步中是否激活了该活动。
 
-現在已準備好用來將優惠方案提供給客戶。
+它现在可用于向客户提供优惠。
 
 ## 决策列表 {#decision-list}
 
-從決定清單中，您可以選取要顯示其屬性的決定。 您也可以從那裡編輯和變更其狀態(**草稿**， **即時**， **完成**， **已封存**)、複製決定或刪除決定。
+从决策列表中，您可以选择决策以显示其属性。 您还可以从此处编辑和更改其状态(**草稿**， **实时**， **完成**， **已存档**)、复制决策或将其删除。
 
 ![](../assets/decision_created.png)
 
-選取 **[!UICONTROL 編輯]** 按鈕以返回決定版本模式，您可以在其中修改決定 [詳細資料](#create-activity)， [決定範圍](#add-decision-scopes) 和 [遞補優惠](#add-fallback).
+选择 **[!UICONTROL 编辑]** 按钮以返回到决策编辑模式，您可以在其中修改决策的 [详细信息](#create-activity)， [决策范围](#add-decision-scopes) 和 [后备优惠](#add-fallback).
 
 >[!IMPORTANT]
 >
->如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。  這將確保將變更納入歷程的訊息中，且訊息與最新更新一致。
+>如果对历程消息中使用的优惠决策进行了更改，则需要取消发布历程并重新发布它。  这将确保将更改纳入历程的消息中，并且消息与最新更新一致。
 
-選取即時決定並按一下 **[!UICONTROL 停用]** 將決定狀態設回 **[!UICONTROL 草稿]**.
+选择实时决策并单击 **[!UICONTROL 取消激活]** 将决策状态设回 **[!UICONTROL 草稿]**.
 
-若要再次將狀態設定為 **[!UICONTROL 即時]**，選取 **[!UICONTROL 啟動]** 現在顯示的按鈕。
+要再次将状态设置为，请执行以下操作 **[!UICONTROL 实时]**，选择 **[!UICONTROL 激活]** 按钮。
 
 ![](../assets/decision_activate.png)
 
-此 **[!UICONTROL 更多動作]** 按鈕會啟用下面所述的動作。
+此 **[!UICONTROL 更多操作]** 按钮可启用下面所述的操作。
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL 完成]**：將決定的狀態設為 **[!UICONTROL 完成]**，這表示該決定無法再被呼叫。 此動作僅適用於啟用的決定。 該決定仍然可以從清單中使用，但您不能將其狀態設定回 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已核准]**. 您只能複製、刪除或封存它。
+* **[!UICONTROL 完成]**：将决策的状态设置为 **[!UICONTROL 完成]**，这意味着不能再调用该决策。 此操作仅适用于已激活的决策。 该决策仍然可以从列表中获得，但您不能将其状态重新设置为 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已批准]**. 您只能复制、删除或存档它。
 
-* **[!UICONTROL 複製]**：使用相同的屬性、決定範圍和遞補優惠建立決定。 依預設，新決定具有 **[!UICONTROL 草稿]** 狀態。
+* **[!UICONTROL 复制]**：创建具有相同属性、决策范围和备用优惠的决策。 默认情况下，新决策具有 **[!UICONTROL 草稿]** 状态。
 
-* **[!UICONTROL 刪除]**：從清單中移除決定。
+* **[!UICONTROL 删除]**：从列表中删除决策。
 
    >[!CAUTION]
    >
-   >決定及其內容將無法再存取。 此操作无法撤销。
+   >该决策及其内容将无法再访问。 此操作无法撤销。
    >
-   >如果決定用於其他物件，則無法刪除該決定。
+   >如果决策用于其他对象，则无法删除该决策。
 
-* **[!UICONTROL 封存]**：將決定狀態設為 **[!UICONTROL 已封存]**. 該決定仍然可以從清單中使用，但您不能將其狀態設定回 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已核准]**. 您只能複製或刪除它。
+* **[!UICONTROL 存档]**：将决策状态设置为 **[!UICONTROL 已存档]**. 该决策仍然可以从列表中获得，但您不能将其状态重新设置为 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已批准]**. 您只能复制或删除它。
 
-您也可以選取對應的核取方塊，同時刪除或變更多個決定的狀態。
+您还可以通过选择相应的复选框同时删除或更改多个决策的状态。
 
 ![](../assets/decision_multiple-selection.png)
 
-如果您想要變更具有不同狀態的多個決定的狀態，則只會變更相關狀態。
+如果要更改具有不同状态的多个决策的状态，则只会更改相关状态。
 
 ![](../assets/decision_change-status.png)
 
-建立決定後，您可以從清單中按一下其名稱。
+创建决策后，您可以从列表中单击其名称。
 
 ![](../assets/decision_click-name.png)
 
-這可讓您存取該決定的詳細資訊。 選取 **[!UICONTROL 變更記錄]** 按Tab鍵至 [監視所有變更](../get-started/user-interface.md#changes-log) 已針對此決定進行。
+这样，您就可以访问该决策的详细信息。 选择 **[!UICONTROL 更改日志]** 按Tab键至 [监控所有更改](../get-started/user-interface.md#changes-log) 已做出此决定。
 
 ![](../assets/decision_information.png)
 
 ## 操作方法视频{#video}
 
-瞭解如何在決定管理中建立優惠方案活動。
+了解如何在决策管理中创建优惠活动。
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

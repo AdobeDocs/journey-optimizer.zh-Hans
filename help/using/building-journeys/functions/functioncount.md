@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: count
-description: 瞭解函式計數
+description: 了解函数计数
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: count，計數， function，運算式， journey
+keywords: count，计数， function，函数， expression，历程
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 28%
 
 # count {#count}
 
-計算清單的元素而不考慮null值。
+计算列表的元素，而不考虑null值。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `count(<listAny>)`
 
@@ -39,14 +39,14 @@ ht-degree: 28%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `count(<listAny>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
 `count([10,2,10,null])`
 
-傳回3。
+返回3。

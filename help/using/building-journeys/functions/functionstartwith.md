@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: startWith
-description: 瞭解函式startWith
+description: 了解函数startWith
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: startWith，函式，運算式，歷程
+keywords: startWith，函数，表达式，历程
 exl-id: 1abdf947-2873-4e45-a26c-cb895980e76a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 23%
 
 # startWith {#startWith}
 
-如果第二個引數是第一個引數的前置詞，則傳回true。
+如果第二个参数是第一个参数的前缀，则返回true。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `startWith(<parameters>)`
 
@@ -31,20 +31,20 @@ ht-degree: 23%
 | 参数 | 类型 |
 |-------------|--------|
 | 字符串 | 字符串 |
-| 前置詞 | 字符串 |
+| 前缀 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `startWith(<string>,<string>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `startWith("Hello World", "Hello")`
 
-傳回true。
+返回真。
 
 `startWith("Hello World", "World")`
 
-傳回false。
+返回假。

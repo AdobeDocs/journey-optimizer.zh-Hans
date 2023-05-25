@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: distinctCount
-description: 瞭解函式distinctCount
+description: 了解distinctCount函数
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: distinctCount，函式，運算式，歷程
+keywords: distinctCount，函数，表达式，历程
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 30%
 
 # distinctCount{#distinctCount}
 
-計算忽略空值的不同值數目。
+计算忽略空值的不同值的数量。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `distinctCount(<listAny>)`
 
@@ -39,14 +39,14 @@ ht-degree: 30%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `distinctCount(<listAny>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
 `distinctCount([10,2,10,null])`
 
-傳回2。
+返回2。

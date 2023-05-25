@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 将属性添加到收藏夹
-description: 瞭解如何將屬性新增至我的最愛。
+description: 了解如何将属性添加到收藏夹。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 運算式，編輯器，屬性，個人化
+keywords: 表达式，编辑器，属性，个性化
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -18,16 +18,16 @@ ht-degree: 24%
 
 # 将属性添加到收藏夹 {#fav}
 
-通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。若要將屬性新增至您的最愛，請按一下橢圓選單並選擇 **[!UICONTROL 新增至我的最愛]**.
+通过向收藏夹菜单添加不同属性，可以快速访问最常使用的项目。要将属性添加到收藏夹，请单击椭圆菜单，然后选择 **[!UICONTROL 添加到收藏夹]**.
 
 ![](assets/favorite-option.png)
 
-若要存取您最愛的專案，請使用 **[!UICONTROL 我的最愛]** 功能表。
+要访问您最喜爱的项目，请使用 **[!UICONTROL 收藏夹]** 菜单。
 
-您可以從此清單快速將個人化物件新增至您目前的運算式。
+从该列表中，您可以快速将个性化对象添加到当前表达式。
 
 ![](assets/favorite-list.png)
 
-如果您不想再看見我的最愛清單中的專案，可以將它從我的最愛移除。
+如果您希望不再在收藏夹列表中看到某个项目，则可以从收藏夹中删除。
 
 ![](assets/favorite-remove.png)

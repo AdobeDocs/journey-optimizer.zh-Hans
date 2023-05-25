@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中新增預覽文字
+title: 在Journey Optimizer中添加标头
 description: 了解如何设计电子邮件内容
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 預覽文字，編輯器，摘要，電子郵件
+keywords: 预告头、编辑者、摘要、电子邮件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -39,7 +39,7 @@ ht-degree: 86%
 
    ![](assets/preheader_body.png)
 
-1. 從 **[!UICONTROL 設定]** 索引標籤中，按一下旁邊的個人化圖示 **[!UICONTROL Preheader]** 欄位以新增內容。
+1. 从 **[!UICONTROL 设置]** 选项卡，单击旁边的个性化图标 **[!UICONTROL 预告标题]** 用于添加内容的字段。
 
    ![](assets/preheader_body_settings.png)
 

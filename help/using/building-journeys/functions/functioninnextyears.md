@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inNextYears
-description: 瞭解函式inNextYears
+description: 了解inNextYears中的函数
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextYears，函式，運算式，歷程
+keywords: inNextYears，函数，表达式，历程
 exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 18%
 
 # inNextYears {#inNextYears}
 
-如果指定的日期或dateTime介於現在和現在+差異年度之間，則傳回true。
+如果给定的日期或日期时间介于现在和现在+增量年之间，则返回true。
 
 ## 类别
 
 日期
 
-## 函式語法
+## 函数语法
 
 `inNextYears(<dateTime>,<delta>)`
 
@@ -30,17 +30,17 @@ ht-degree: 18%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
+| 日期时间 | dateTime |
 | delta | 整数 |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `inNextYears(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回真。

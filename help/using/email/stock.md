@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Adobe Stock影像
-description: 開始使用Adobe Stock
+title: 使用Adobe Stock图像
+description: Adobe Stock入门
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: stock，圖片，整合，像片
+keywords: stock，图像，集成，照片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -16,91 +16,91 @@ ht-degree: 13%
 
 ---
 
-# 使用 [!DNL Adobe Stock] 影像 {#stock}
+# 使用 [!DNL Adobe Stock] 图像 {#stock}
 
 ## 开始使用 [!DNL Adobe Stock] {#get-started-stock}
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 电子邮件设计器集成增效工具可帮助客户在创作消息时轻松进行导航、许可并保存图像。
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 提供數百萬張高品質、精選且免版稅的像片、影片、插圖和向量圖形的存取權。 您可以選擇購買信用套件以授權資產，或只購買一個標準或延伸授權以授權所需資產。 Adobe Stock也提供免費的資產集合。
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} 提供对数百万张高品质、精选且免版税的照片、视频、插图和矢量图形的访问。 您可以选择购买信用包以许可资产，或者为所需资产仅购买一个Standard或Extended许可。 Adobe Stock还提供免费的资产收藏集。
 
 通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
 
 ## 权限{#stock-permissions}
 
-此 **[!UICONTROL 尋找Adobe Stock像片]** 和 **[!UICONTROL 尋找類似影像]** 有權存取AEM Assets Essentials產品設定檔的使用者可以使用選項。
+此 **[!UICONTROL 查找Adobe Stock照片]** 和 **[!UICONTROL 查找相似图像]** 这些选项可供有权访问AEM Assets Essentials产品配置文件的用户使用。
 
-有關詳細資訊，請參閱 [Assets基本檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+有关更多信息，请参阅 [Assets基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
-## 插入影像來源 [!DNL Adobe Stock] {#add-stock-image}
+## 插入图像来源 [!DNL Adobe Stock] {#add-stock-image}
 
-若要從新增影像 [!DNL Adobe Stock] 請依照下列步驟前往您的內容：
+添加图像来源： [!DNL Adobe Stock] 对于您的内容，请执行以下步骤：
 
-1. 從 **[!UICONTROL 內容元件]** 電子郵件設計工具的區段，拖放 **影像**.
+1. 从 **[!UICONTROL 内容组件]** Email Designer的部分，拖放 **图像**.
 
-1. 按一下 **[!UICONTROL 尋找Adobe Stock像片]** 電子郵件設計工具左側的按鈕。
+1. 单击 **[!UICONTROL 查找Adobe Stock照片]** 按钮进行编辑。
 
    ![](assets/stock-find-photos.png)
 
-1. 瀏覽資料庫或在搜尋欄位中輸入字詞。
+1. 浏览库或在搜索字段中输入搜索词。
 
    ![](assets/stock-select-from-lib.png)
 
-1. 選取選取選取的影像，然後按一下 **[!UICONTROL 儲存]**.
+1. 选择所选图像并单击 **[!UICONTROL 保存]**.
 
-   如果您選取的影像未獲授權，您必須 [取得授權](#license-stock-image).
+   如果您选择的图像未获得许可，您必须 [获取许可证](#license-stock-image).
 
-## 尋找類似的像片 {#similar-stock-image}
+## 查找相似照片 {#similar-stock-image}
 
-您可以使用以下位置的像片取代電子郵件內容中的任何現有影像： [!DNL Adobe Stock]. 請注意，此選項適用於所有影像：授權/未授權的Stock影像，以及您「資產」資料夾中的影像。
+您可以使用以下位置提供的照片替换电子邮件内容中的任何现有图像： [!DNL Adobe Stock]. 请注意，此选项适用于所有图像：已许可/未许可的Stock图像和您的“资产”文件夹中的图像。
 
-若要瀏覽類似的像片，請遵循下列步驟：
+要浏览类似的照片，请执行以下步骤：
 
-1. 選取要取代的影像。
-1. 按一下 **[!UICONTROL 尋找類似的Stock像片]** 顯示資產的按鈕 [!DNL Adobe Stock] 會比對影像的內容、顏色和構成。
+1. 选择要替换的图像。
+1. 单击 **[!UICONTROL 查找类似的Stock照片]** 用于在中显示资产的按钮 [!DNL Adobe Stock] 匹配图像的内容、颜色和合成。
 
    ![](assets/stock-similar.png)
 
-1. 選取選取選取的影像，然後按一下 **[!UICONTROL 儲存]**.
+1. 选择所选图像并单击 **[!UICONTROL 保存]**.
 
    ![](assets/stock-similar-results.png)
 
-   如果您選取的影像未獲授權，您必須 [取得授權](#license-stock-image).
+   如果您选择的图像未获得许可，您必须 [获取许可证](#license-stock-image).
 
-1. 如有需要，請使用自訂影像 **[!UICONTROL 設定]** 和 **[!UICONTROL 樣式]** 索引標籤。 [進一步瞭解元件設定](content-components.md).
+1. 如果需要，可使用自定义图像 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 [了解有关组件设置的更多信息](content-components.md).
 
-## 從取得授權 [!DNL Adobe Stock] {#license-stock-image}
+## 从获取许可证 [!DNL Adobe Stock] {#license-stock-image}
 
-如果您的影像已獲得授權，則會以 ![](assets/stock_10.png) 圖示。 如果沒有，您必須授權它。
+如果您的图像已获得许可，则它由 ![](assets/stock_10.png) 图标。 如果不能，则必须为其授予许可。
 
-若要授權並下載影像，請遵循下列步驟：
+要许可并下载映像，请执行以下步骤：
 
-1. 選取並按一下 **[!UICONTROL 授權Adobe Stock影像]** 圖示。
+1. 选择它并单击 **[!UICONTROL 许可Adobe Stock图像]** 图标。
 
    ![](assets/stock-license-icon.png)
 
-   系統會將您重新導向至 [!DNL Adobe Stock] 網站以購買授權。
+   然后，您将被重定向到 [!DNL Adobe Stock] 网站购买许可证。
 
    ![](assets/stock-license-photo.png)
 
-1. 從 [!DNL Adobe Stock] 網站，您必須購買資產才能下載影像並移除浮水印。
+1. 从 [!DNL Adobe Stock] 网站，您需要购买资产才能下载图像并删除水印。
 
-   此次購買取決於您的Adobe Stock計畫或訂閱。 請注意，如果您有多個Adobe Stock帳戶，系統會將您重新導向至上次使用的Stock ID。 在此情況下，在授權您的資產之前，請確定您已登入正確的帳戶。
+   此次购买取决于您的Adobe Stock计划或订阅。 请注意，如果您有多个Adobe Stock帐户，您将被重定向到上次使用的Stock ID。 在这种情况下，请确保在授权资产之前登录到正确的帐户。
 
-   如需Adobe Stock計畫和價格的詳細資訊，請參閱 [Adobe Stock檔案](https://stock.adobe.com/plans){target="_blank"}.
+   有关Adobe Stock计划和价格的更多信息，请访问 [Adobe Stock文档](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
-   > 如果傳送了包含未授權影像的電子郵件，該影像會保留含有浮水印的未授權表單。
+   > 如果发送了包含未授权图像的电子邮件，则图像会使用水印保留其未授权表单。
 
-1. 完成購買後，您現在可以返回電子郵件至 [!DNL Adobe Journey Optimizer] 並選取 **[!UICONTROL 匯入庫存影像]** 將您的授權影像匯入至資產。
+1. 完成购买后，您现在可以返回电子邮件至 [!DNL Adobe Journey Optimizer] 并选择 **[!UICONTROL 导入图库图像]** 以将您的许可图像导入到您的资产。
 
    ![](assets/stock_6.png)
 
-1. 選取要儲存資產的資料夾。 如需詳細資訊，請參閱 [!DNL Assets Essentials]，請參閱此 [頁面](assets-essentials.md#get-started-assets-essentials).
+1. 选择要在哪个文件夹中存储您的资产。 有关的详细信息 [!DNL Assets Essentials]，请参阅此 [页面](assets-essentials.md#get-started-assets-essentials).
 
 ## 相关主题{#stock-related-topics}
 
-* [Journey Optimizer中的電子郵件設計](get-started-email-design.md)
-* [電子郵件設計的元件設定](content-components.md)
-* [Adobe Stock快速入門](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
+* [Journey Optimizer中的电子邮件设计](get-started-email-design.md)
+* [电子邮件设计的组件设置](content-components.md)
+* [Adobe Stock入门](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

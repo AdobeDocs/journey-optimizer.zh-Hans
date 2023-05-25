@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 实时报告
-description: 瞭解如何使用即時報告中的資料
+description: 了解如何使用实时报告中的数据
 feature: Reporting
 topic: Content Management
 role: User
@@ -17,67 +17,67 @@ ht-degree: 4%
 
 # 实时报告入门 {#live-report}
 
-使用 **[!UICONTROL 即時報告]** 在內建儀表板中，即時測量並視覺化歷程和訊息的影響和效能。
-資料可在 **[!UICONTROL 即時報告]** 傳送傳遞或執行歷程後，立即從 **[!UICONTROL 過去24小時]** 標籤。
+使用 **[!UICONTROL 实时报告]** 在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。
+数据可在以下位置获取： **[!UICONTROL 实时报告]** 发送投放或执行历程后， **[!UICONTROL 最近24小时]** 选项卡。
 
-* 如果您想要在歷程內容中鎖定歷程，請從 **[!UICONTROL 歷程]** 選單，存取您的歷程並按一下 **[!UICONTROL 檢視報告]** 按鈕。
+* 如果要在历程上下文中定位历程，请从 **[!UICONTROL 历程]** 菜单，访问您的旅程，然后单击 **[!UICONTROL 查看报告]** 按钮。
 
    ![](assets/report_journey.png)
 
-* 若要鎖定行銷活動，請從 **[!UICONTROL 行銷活動]** 功能表，存取您的行銷活動，然後按一下 **[!UICONTROL 報表]** 按鈕。
+* 如果要定位促销活动，请从 **[!UICONTROL 营销活动]** 菜单，访问您的营销策划，然后单击 **[!UICONTROL 报告]** 按钮。
 
    ![](assets/report_campaign.png)
 
-* 如果您想從 **[!UICONTROL 全域報告]** 至 **[!UICONTROL 即時報告]** 針對您的傳遞，按一下 **[!UICONTROL 過去24小時]** 標籤切換器。
+* 如果要从 **[!UICONTROL 全局报告]** 到 **[!UICONTROL 实时报告]** 对于您的投放，请单击 **[!UICONTROL 最近24小时]** 选项卡切换器中的。
 
    ![](assets/report_3.png)
 
-如需Adobe Journey Optimizer中可用每個量度的詳細清單，請參閱 [此頁面](#list-of-components-live).
+有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅 [此页面](#list-of-components-live).
 
-## 自訂儀表板 {#modify-dashboard}
+## 自定义仪表板 {#modify-dashboard}
 
-每个报告仪表板都可以修改，您可以调整构件大小或删除构件。變更Widget只會影響目前使用者的儀表板。 其他使用者將看到他們自己的儀表板或預設設定的儀表板。
+每个报告仪表板都可以修改，您可以调整构件大小或删除构件。更改构件只会影响当前用户的仪表板。 其他用户将看到他们自己的功能板或默认设置的功能板。
 
-1. 從 **[!UICONTROL 動作]** 下拉式清單，選擇是否要針對歷程的一個特定動作製作報表。
+1. 从 **[!UICONTROL 操作]** 下拉列表中，选择是否要报告历程的一个特定操作。
 
-1. 選擇是否要使用切換列從報告中排除測試事件。 如需測試事件的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
+1. 选择是否要通过切换栏从报表中排除测试事件。 有关测试事件的详细信息，请参阅 [此页面](../building-journeys/testing-the-journey.md).
 
-   請注意 **[!UICONTROL 排除測試事件]** 選項僅適用於歷程報告。
+   请注意 **[!UICONTROL 排除测试事件]** 选项仅适用于历程报表。
 
    ![](assets/report_modify_6.png)
 
-1. 若要調整大小或移除Widget，請按一下 **[!UICONTROL 修改]**.
+1. 要调整小部件的大小或删除小部件，请单击 **[!UICONTROL 修改]**.
 
    ![](assets/report_modify_7.png)
 
-1. 拖曳Widget的右下角，調整其大小。
+1. 通过拖动小部件的右下角调整其大小。
 
    ![](assets/report_modify_8.png)
 
-1. 按一下 **[!UICONTROL 移除]** 以移除您不需要的任何Widget。
+1. 单击 **[!UICONTROL 移除]** 以删除任何您不需要的构件。
 
    ![](assets/report_modify_9.png)
 
-1. 在您滿意顯示順序和Widget大小後，請按一下 **[!UICONTROL 儲存]**.
+1. 对小部件的显示顺序和大小满意后，单击 **[!UICONTROL 保存]**.
 
-1. 若要自訂資料的顯示方式，您可以切換不同的視覺效果選項，例如圖形、表格和環圈圖。
+1. 要自定义数据的显示方式，可以从不同的可视化选项（如图形、表格和圆环图）进行切换。
 
    ![](assets/report_modify_11.png)
 
-您的儀表板現在已儲存。 您的不同變更將會重新套用，以供稍後使用您的即時報告。 如有需要，請使用 **[!UICONTROL 重設]** 恢復預設Widget和Widget順序的選項。
+您的信息板现已保存。 您的不同更改将重新应用，以供以后使用实时报告。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认构件和构件顺序的选项。
 
-## 匯出您的報告 {#export-reports}
+## 导出报告 {#export-reports}
 
-您可以輕鬆地將不同的報表匯出為PDF格式，以便共用或列印。
+您可以轻松地将不同的报表导出为PDF格式，以便共享或打印它们。
 
-1. 在報表中，按一下 **[!UICONTROL 匯出]**.
+1. 在报表中，单击 **[!UICONTROL 导出]**.
 
    ![](assets/export_2.png)
 
-1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會因您的瀏覽器而異。
+1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
 
-1. 選擇將報表列印或儲存為PDF。
+1. 选择打印报表或将报表另存为PDF。
 
-1. 找到您要儲存檔案的資料夾，視需要重新命名，然後按一下「儲存」。
+1. 找到要保存文件的文件夹，根据需要对其进行重命名，然后单击“保存”。
 
-您的報告現在可以在pdf檔案中檢視或共用。
+您的报告现在可以在PDF文件中查看或共享。

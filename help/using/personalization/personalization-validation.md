@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 个性化验证
-description: 進一步瞭解個人化驗證及疑難排解。
+description: 详细了解个性化验证和疑难解答。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 運算式，編輯器，驗證，錯誤，個人化
+keywords: 表达式，编辑器，验证，错误，个性化
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -18,35 +18,35 @@ ht-degree: 1%
 
 # 个性化验证 {#personalization-validation}
 
-## 驗證機制 {#validation-mechanisms}
+## 验证机制 {#validation-mechanisms}
 
-在 **運算式編輯器** 畫面，使用 **驗證** 按鈕以檢查您的個人化語法。
+在 **表达式编辑器** 屏幕，使用 **验证** 按钮以检查您的个性化语法。
 
 >[!NOTE]
-> 當您按一下 **新增** 按鈕以關閉編輯器視窗。
+> 单击 **添加** 按钮以关闭编辑器窗口。
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> 如果個人化語法無效，則無法關閉運算式編輯器視窗。
+> 如果个性化语法无效，则无法关闭表达式编辑器窗口。
 
 ## 常见错误 {#common-errors}
 
-* **找不到路徑「XYZ」**
+* **未找到路径“XYZ”**
 
-嘗試參照結構描述中未定義的欄位時。
+尝试引用架构中未定义的字段时。
 
-在此案例中 **名字1** 未在設定檔結構描述中定義為屬性：
+在这种情况下 **名字1** 未在配置文件架构中定义为属性：
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **變數&quot;XYZ&quot;的型別不相符。 必須是陣列。 找到字串。**
+* **变量“XYZ”的类型不匹配。 应为数组。 找到字符串。**
 
-嘗試對字串而非陣列進行反複運算時：
+当尝试对字符串而不是数组进行迭代时：
 
-在此案例中 **product** 不是陣列：
+在这种情况下 **product** 不是数组：
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -54,67 +54,67 @@ ht-degree: 1%
 {{/each}}
 ```
 
-* **無效的Handlebars語法。 已找到`‘[XYZ}}’`**
+* **Handlebars语法无效。 已找到`‘[XYZ}}’`**
 
-使用無效的Handlebars語法時。
+当使用了无效的handlebars语法时。
 
-Handlebars運算式周圍有 **{{expression}}**
+Handlebars表达式周围有 **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
 ```
 
-* **區段定義無效**
+* **区段定义无效**
 
 ```
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## 與優惠方案相關的特定錯誤 {#specific-errors}
+## 与优惠相关的特定错误 {#specific-errors}
 
-與電子郵件或推播訊息中的優惠方案整合相關的錯誤具有以下模式：
+与电子邮件或推送消息中的优惠集成相关的错误具有以下模式：
 
 ```
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-驗證會在運算式編輯器中執行個人化內容驗證。
+验证是在表达式编辑器的个性化内容验证期间执行的。
 
 <table> 
  <thead> 
   <tr> 
-   <th> 錯誤標題<br /> </th> 
-   <th> 驗證/解析 <br /> </th> 
+   <th> 错误标题<br /> </th> 
+   <th> 验证/解决 <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>找不到id placementID和型別OfferPlacement的資源 <br/>
-找不到id activityID和型別OfferActivity的資源<br/></td> 
-   <td>檢查ActivityID和/或PlacementID是否可用</td> 
+   <td>未找到id placementID和类型OfferPlacement的资源 <br/>
+未找到id为activityID且类型为OfferActivity的资源<br/></td> 
+   <td>检查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
    <tr> 
-   <td>無法驗證資源。</td> 
-   <td>Placement中的componentType應符合offerType選件</td> 
+   <td>无法验证资源。</td> 
+   <td>投放位置中的componentType应与offerType选件匹配</td> 
   </tr> 
    <tr> 
-   <td>offerId中不存在公開URL。</td> 
-   <td>影像選件（與決定和位置配對相關的所有個人化和遞補內容）應填入公開URL （deliveryURL不應空白）。</td> 
+   <td>offerId中不存在公共URL。</td> 
+   <td>图像选件（与决策和投放位置对关联的所有个性化和回退）应填充公共URL（deliveryURL不应为空）。</td> 
   </tr> 
   <tr> 
-   <td>決定包含非設定檔屬性。</td> 
-   <td>優惠方案模型使用方式應僅包含設定檔屬性。</td> 
+   <td>决策包含非配置文件属性。</td> 
+   <td>优惠模型用法应仅包含配置文件属性。</td> 
   </tr> 
   <tr> 
-   <td>擷取決定使用方式時發生錯誤。</td> 
-   <td>當API嘗試擷取選件模型時，可能會發生此錯誤。</td> 
+   <td>获取决策用法时出错。</td> 
+   <td>当API尝试获取选件模型时，可能会发生此错误。</td> 
   </tr>
   <tr> 
-   <td>優惠屬性優惠屬性無效。</td> 
-   <td>檢查優惠方案drp中參照的優惠方案屬性是否有效。 以下是有效的屬性： <br/>
-影像： deliveryURL， linkURL<br/>
-文字：內容<br/>
-HTML：內容<br/></td> 
+   <td>选件属性offer-attribute无效。</td> 
+   <td>检查选件drp中引用的选件属性是否有效。 以下是有效的属性： <br/>
+图像： deliveryURL， linkURL<br/>
+文本：内容<br/>
+HTML：内容<br/></td> 
   </tr> 
  </tbody> 
 </table>

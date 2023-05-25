@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 允许列表
-description: 瞭解如何使用允許清單
+description: 了解如何使用允许列表
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 允許清單，清單，安全，設定
+keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
@@ -18,93 +18,93 @@ ht-degree: 14%
 
 # 允许列表 {#allow-list}
 
-您可在以下位置定義特定的傳送安全清單： [沙箱](../administration/sandboxes.md) 層級。
+可以在以下位置定义特定的安全发送列表 [沙盒](../administration/sandboxes.md) 级别。
 
-此允許清單可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。
+利用此允许列表，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。
 
 >[!NOTE]
 >
->此功能適用於生產及非生產沙箱。
+>此功能在生产沙盒和非生产沙盒上可用。
 
-例如，在可能發生錯誤的非生產執行個體上，允許清單可確保您將不需要的訊息傳送至真實客戶地址的風險降至最低，因此會提供用於測試用途的安全環境。
+例如，在可能出现错误的非生产实例上，该允许列表可确保不会出现将不需要的报文发送到真实客户地址的风险，从而为测试目的提供安全的环境。
 
-此外，當允許清單為作用中但空白時，不會傳出任何郵件。 因此，如果您遇到一些重大問題，可以使用此功能來停止所有來自的傳出通訊 [!DNL Journey Optimizer] 直到您修正問題為止。 進一步瞭解 [允許清單邏輯](#logic).
+此外，当允许列表处于活动状态但为空时，不会发出任何邮件。 因此，如果您遇到一些严重问题，可以使用此功能停止所有传出通信 [!DNL Journey Optimizer] 直到你把问题解决了。 了解更多关于 [允许列表逻辑](#logic).
 
 >[!CAUTION]
 >
->此功能僅適用於電子郵件頻道。
+>此功能仅适用于电子邮件渠道。
 
-## 存取允許清單 {#access-allowed-list}
+## 访问允许列表 {#access-allowed-list}
 
-若要存取允許的電子郵件地址和網域的詳細清單，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]**，並選取 **[!UICONTROL 允許清單]**.
+要访问允许的电子邮件地址和域的详细列表，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，并选择 **[!UICONTROL 允许列表]**.
 
 ![](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
->檢視、匯出和管理允許清單的許可權僅限於 [歷程管理員](../administration/ootb-product-profiles.md#journey-administrator). 進一步瞭解管理 [!DNL Journey Optimizer] 使用者在中的存取許可權 [本節](../administration/permissions-overview.md).
+>查看、导出和管理允许列表的权限仅限于 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在中拥有的访问权限 [本节](../administration/permissions-overview.md).
 
-若要將允許清單匯出為CSV檔案，請選取 **[!UICONTROL 下載CSV]** 按鈕。
+要将允许列表导出为CSV文件，请选择 **[!UICONTROL 下载CSV]** 按钮。
 
-使用 **[!UICONTROL 刪除]** 按鈕以永久移除專案。
+使用 **[!UICONTROL 删除]** 按钮以永久删除条目。
 
-您可以搜尋電子郵件地址或網域，並篩選 **[!UICONTROL 地址型別]**. 選取後，您可以清除顯示在清單頂端的篩選器。
+您可以搜索电子邮件地址或域，并筛选 **[!UICONTROL 地址类型]**. 选中后，您可以清除显示在列表顶部的筛选器。
 
 ![](assets/allowed-list-filtering-example.png)
 
-## 啟用允許清單 {#enable-allow-list}
+## 激活允许列表 {#enable-allow-list}
 
-若要啟用允許清單，請遵循下列步驟。
+要激活允许列表，请执行以下步骤。
 
-1. 存取  **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 允許清單]** 功能表。
+1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 允许列表]** 菜单。
 
-1. 選取切換按鈕。
+1. 选择切换按钮。
 
    ![](assets/allow-list-edit.png)
 
-1. 選取 **[!UICONTROL 啟用允許清單]**. 允許清單現在已啟用。
+1. 选择 **[!UICONTROL 激活允许列表]**. 允许列表现在处于活动状态。
 
    ![](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
-   >啟用允許清單後，有5分鐘的延遲時間，它就會在您的歷程和行銷活動中生效。
+   >激活允许列表后，它需要5分钟才能在您的历程和营销活动中生效。
 
-當功能作用中時，允許清單邏輯適用。 有关详细信息，请参阅[此部分](#logic)。
+当功能处于活动状态时，将应用允许列表逻辑。 有关详细信息，请参阅[此部分](#logic)。
 
 >[!NOTE]
 >
->啟用時，允許清單功能在執行歷程時執行，但也在使用測試訊息時執行 [校樣](../email/preview.md#send-proofs) 和測試歷程，使用 [測試模式](../building-journeys/testing-the-journey.md).
+>激活后，在执行历程时，以及在使用测试消息时，将应用允许列表功能 [验证](../email/preview.md#send-proofs) 和测试历程 [测试模式](../building-journeys/testing-the-journey.md).
 
-## 停用允許清單 {#deactivate-allow-list}
+## 取消激活允许列表 {#deactivate-allow-list}
 
-若要停用允許清單，請遵循下列步驟。
+要取消激活允许列表，请执行以下步骤。
 
-1. 存取  **[!UICONTROL 頻道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 允許清單]** 功能表。
+1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 允许列表]** 菜单。
 
-1. 選取切換按鈕。
+1. 选择切换按钮。
 
    ![](assets/allow-list-edit-active.png)
 
-1. 選取 **[!UICONTROL 停用允許清單]**. 允許清單不再有效。
+1. 选择 **[!UICONTROL 取消激活允许列表]**. 该允许列表不再处于活动状态。
 
    ![](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
-   >停用允許清單後，有5分鐘的延遲時間，它就會在您的歷程和行銷活動中生效。
+   >停用允许列表后，它需要5分钟才能在您的历程和营销活动中生效。
 
-停用功能時，允許清單邏輯不適用。 有关详细信息，请参阅[此部分](#logic)。
+停用该功能时，不应用允许列表逻辑。 有关详细信息，请参阅[此部分](#logic)。
 
-## 將實體新增至允許清單 {#add-entities}
+## 将实体添加到允许列表 {#add-entities}
 
-若要將新的電子郵件地址或網域新增到特定沙箱的允許清單，您可以 [手動填入清單](#manually-populate-list)，或使用 [API呼叫](#api-call-allowed-list).
+要向特定沙盒的允许列表中添加新的电子邮件地址或域，您可以 [手动填充列表](#manually-populate-list)，或使用 [API调用](#api-call-allowed-list).
 
 >[!NOTE]
 >
->允許清單最多可包含1,000個專案。
+>允许列表最多可包含1,000个条目。
 
-### 手動填入允許清單 {#manually-populate-list}
+### 手动填充允许列表 {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
@@ -116,21 +116,21 @@ ht-degree: 14%
 >title="将地址或域添加到允许列表"
 >abstract="您可以通过逐个选择新电子邮件地址或域，将它们手动添加到允许列表中。"
 
-您可以手動填入 [!DNL Journey Optimizer] 透過使用者介面新增電子郵件地址或網域來允許清單。
+您可以手动填充 [!DNL Journey Optimizer] 通过允许列表界面添加电子邮件地址或域。
 
 >[!NOTE]
 >
->您一次只能新增一個電子郵件地址或網域。
+>您一次只能添加一个电子邮件地址或域。
 
 为此，请执行以下步骤。
 
-1. 選取 **[!UICONTROL 新增電子郵件或網域]** 按鈕。
+1. 选择 **[!UICONTROL 添加电子邮件或域]** 按钮。
 
    ![](assets/allowed-list-add-email.png)
 
 1. 选择地址类型：**[!UICONTROL 电子邮件地址]**&#x200B;或&#x200B;**[!UICONTROL 域地址]**。
 
-1. 輸入您要傳送電子郵件的電子郵件地址或網域。
+1. 输入要向其发送电子邮件的电子邮件地址或域。
 
    >[!NOTE]
    >
@@ -142,76 +142,76 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >包含在32到126之間的所有ASCII字元都允許在 **[!UICONTROL 原因]** 欄位。 可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
+   >中允许包含32到126之间的所有ASCII字符 **[!UICONTROL 原因]** 字段。 可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
-### 使用API呼叫新增實體 {#api-call-allowed-list}
+### 使用API调用添加实体 {#api-call-allowed-list}
 
-若要填入允許清單，您也可以使用呼叫隱藏API `ALLOWED` 的值 `listType` 屬性。 例如：
+要填充允许列表，您还可以使用调用禁止API `ALLOWED` 的值 `listType` 属性。 例如：
 
 ![](assets/allow-list-api.png)
 
-您可以執行 **新增**， **刪除** 和 **取得** 作業。
+您可以执行 **添加**， **删除** 和 **Get** 操作。
 
-進一步瞭解在中進行API呼叫 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 參考檔案。
+了解有关在中进行API调用的更多信息 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} 参考文档。
 
-## 下載允許清單 {#download-allowed-list}
+## 下载允许列表 {#download-allowed-list}
 
-若要將允許清單匯出為CSV檔案，請執行以下步驟：
+要将允许列表导出为CSV文件，请执行以下步骤：
 
-1. 選取 **[!UICONTROL 下載CSV]** 按鈕。
+1. 选择 **[!UICONTROL 下载CSV]** 按钮。
 
    ![](assets/allowed-list-download-csv.png)
 
-1. 等候檔案產生。
+1. 等待文件生成。
 
    ![](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
-   >下載時間取決於檔案大小，亦即允許清單中的位址數量。
+   >下载时间取决于文件大小，即允许列表上的地址数量。
    >
-   >對於指定的沙箱，一次可以處理一個下載請求。
+   >对于给定的沙盒，一次可以处理一个下载请求。
 
-1. 檔案產生後，您會收到通知。 按一下畫面右上方的鈴鐺圖示即可顯示。
+1. 文件生成后，您将收到通知。 单击屏幕右上方的铃铛图标可显示铃铛图标。
 
-1. 按一下通知本身以下載檔案。
+1. 单击通知本身以下载文件。
 
    ![](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
-   >連結的有效期限為24小時。
+   >该链接的有效期限为24小时。
 
-## 允許清單邏輯 {#logic}
+## 允许列表逻辑 {#logic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="管理允许列表"
 >abstract="激活允许列表后，只有包含在允许列表中的收件人才能收到来自此沙盒的电子邮件。如果停用，则所有收件人都将收到电子邮件。"
 
-當允許清單為 [作用中](#enable-allow-list)，則套用下列邏輯：
+当允许列表为 [活动](#enable-allow-list)，则以下逻辑适用：
 
-* 如果允許清單為 **空白**，不會傳送任何電子郵件。
+* 如果允许列表为 **空**，将不会发送电子邮件。
 
-* 如果實體為 **在允許清單上**，而不是在隱藏清單上，電子郵件會傳送給相對應的收件者。 但是，如果實體也在 [隱藏清單](../reports/suppression-list.md)，對應的收件者將不會收到電子郵件，原因為 **[!UICONTROL 已隱藏]**.
+* 如果实体为 **在允许列表上**，而不是禁止列表上，则电子邮件将发送给对应的收件人。 但是，如果实体也在 [禁止显示列表](../reports/suppression-list.md)，相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 已隐藏]**.
 
-* 如果實體為 **不在允許清單上** （不在隱藏清單上），對應的收件者將不會收到電子郵件，原因為 **[!UICONTROL 不允許]**.
+* 如果实体为 **不在允许列表上** （不在禁止列表上），相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 不允许]**.
 
 >[!NOTE]
 >
->設定檔具有 **[!UICONTROL 不允許]** 在訊息傳送過程中會排除狀態。 因此，當 **歷程報告** 會將這些設定檔顯示為已移動通過歷程([讀取區段](../building-journeys/read-segment.md) 和 [訊息活動](../building-journeys/journeys-message.md))， **以電子郵件傳送報告** 不會將其納入 **[!UICONTROL 已傳送]** 量度，因為這些量度在傳送電子郵件前會被篩選掉。
+>具有的配置文件 **[!UICONTROL 不允许]** 在消息发送过程中排除状态。 因此，虽然 **历程报表** 将显示这些用户档案在整个历程中移动([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报告** 不会将它们包含在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前已将它们过滤掉。
 >
->進一步瞭解 [即時報告](../reports/live-report.md) 和 [全域報告](../reports/global-report.md).
+>了解更多关于 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 
-當允許清單為 [已停用](#deactivate-allow-list)，您從目前沙箱傳送的所有電子郵件都會傳送給所有收件者（前提是這些電子郵件不在隱藏清單中），包括真實的客戶地址。
+当允许列表为 [已停用](#deactivate-allow-list)，您从当前沙盒发送的所有电子邮件都会发送给所有收件人（前提是它们不在禁止列表上），包括真实的客户地址。
 
-## 排除報告 {#reporting}
+## 排除报告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未傳送的電子郵件地址或網域。 若要這麼做，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 進行下列API呼叫。
+当允许列表处于活动状态时，您可以检索由于不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 进行以下API调用。
 
-若要取得 **電子郵件數量** 因為收件者不在允許清單中而未傳送的郵件，請使用以下查詢：
+获取 **电子邮件数量** 由于收件人不在允许列表上而未发送，请使用以下查询：
 
 ```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -220,7 +220,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-若要取得 **電子郵件地址清單** 因為收件者不在允許清單中而未傳送的郵件，請使用以下查詢：
+获取 **电子邮件地址列表** 由于收件人不在允许列表上而未发送，请使用以下查询：
 
 ```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE

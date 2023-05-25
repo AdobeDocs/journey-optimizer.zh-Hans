@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 電子郵件，匯入，內容， html， zip， css
+keywords: 电子邮件，导入，内容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -18,22 +18,22 @@ ht-degree: 52%
 
 # 导入电子邮件内容 {#existing-content}
 
-[!DNL Journey Optimizer] 可讓您匯入現有的HTML內容，以設計您的電子郵件。 相关的内容可以是：
+[!DNL Journey Optimizer] 允许您导入现有HTML内容以设计电子邮件。 相关的内容可以是：
 
-* 一個 **HTML檔案** 含內建樣式表；
-* A **.zip資料夾** 包括HTML檔案、樣式表(.css)和影像。
+* An **HTML文件** 具有内嵌样式表；
+* A **.zip文件夹** 包括HTML文件、样式表(.css)和图像。
 
    >[!NOTE]
    >
-   >具体的 .zip 文件结构没有任何限制。不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
+   >具体的 .zip 文件结构没有任何限制。但是，引用必须是相对的，并且适合.zip文件夹的树结构。
 
 要导入包含 HTML 内容的文件，请执行以下步骤：
 
-1. 從電子郵件設計工具首頁，選取 **[!UICONTROL 匯入HTML]**.
+1. 从Email Designer主页中，选择 **[!UICONTROL 导入HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. 拖放包含您HTML內容的HTML或.zip檔案。
+1. 拖放包含HTMLHTML的.zip文件。
 
 1. 上传 HTML 内容后，可以利用电子邮件设计器功能来编辑和预览电子邮件。[了解详情](content-from-scratch.md)
 

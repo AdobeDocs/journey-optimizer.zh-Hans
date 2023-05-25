@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: random
-description: 瞭解隨機函式
+description: 了解随机函数
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: random，隨機， function，函式， expression，運算式， journey
+keywords: random，随机， function，函数， expression，表达式， journey
 exl-id: df006301-d309-4cb0-b505-317f623df494
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,18 +16,18 @@ ht-degree: 14%
 
 # random {#random}
 
-產生介於0和1之間的隨機數字。
+生成一个介于0和1之间的随机数。
 
 ## 类别
 
 数学
 
-## 函式語法
+## 函数语法
 
 `random(<parameters>)`
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `random()`
 
-傳回小數。
+返回小数。

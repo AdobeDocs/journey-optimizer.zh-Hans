@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer的封存支援
-description: 瞭解如何封存訊息
+title: Journey Optimizer中的归档支持
+description: 了解如何存档邮件
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 封存，訊息， HIPAA，密件副本，電子郵件
+keywords: 存档、消息、HIPAA、密件抄送、电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
@@ -18,94 +18,94 @@ ht-degree: 7%
 
 # 存档支持 {#archiving-support}
 
-## 如何封存訊息 {#about-archiving}
+## 如何存档消息 {#about-archiving}
 
-HIPAA等法規規定 [!DNL Journey Optimizer] 應提供一種封存傳送給個人的訊息的方式。 事實上，如果您的客戶提出索賠，他們應該能夠取得已傳送訊息的副本以進行驗證。
+HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种将发送给个人的邮件存档的方法。 事实上，如果您的客户提出索赔，他们应能够获取已发送报文的副本以进行验证。
 
-* 對於電子郵件頻道， [!DNL Journey Optimizer] 提供內建的密件副本電子郵件功能。 [了解详情](#bcc-email)
+* 对于电子邮件渠道， [!DNL Journey Optimizer] 提供内置的密件抄送电子邮件功能。 [了解详情](#bcc-email)
 
-* 此外，對於所有管道，您可以使用 **實體資料集**，其中包含非個人化訊息範本的詳細資料。 使用此欄位匯出資料集以儲存中繼資料，例如：傳送訊息的對象、收件者和時間。 請注意，不會匯出個人化資料，而只會考慮範本（訊息的格式和結構）。 [了解详情](../data/datasets-query-examples.md#entity-dataset)
+* 此外，对于所有渠道，您可以使用 **实体数据集**，其中包含非个性化消息模板的详细信息。 使用此字段导出数据集以保存元数据，例如：消息发送者、发送者以及发送时间。 请注意，不会导出个性化数据，而只会考虑模板（报文的格式和结构）。 [了解详情](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] 不支援SMS封存需求。 如需專屬的封存支援，請與您的SMS供應商（Synch或Twilio）合作。
+>[!DNL Journey Optimizer] 不拥有对SMS存档要求的支持。 要获得专门的存档支持，请与您的SMS供应商（Synch或Twilio）合作。
 
-## 如何使用密件副本處理電子郵件 {#bcc-email}
+## 如何使用密件抄送处理电子邮件 {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定义密件抄送电子邮件地址"
 >abstract="您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。输入您选择的电子邮件地址，这样发送的每封电子邮件都会被密送至此密件抄送地址。请注意，密件抄送地址域不应与委派给 Adobe 的任何子域相同。此功能属于可选功能。"
 
-您可以傳送所傳送電子郵件的相同復本（或密件副本） [!DNL Journey Optimizer] 至密件副本收件匣。 此選擇性功能可讓您保留傳送給使用者的電子郵件通訊復本，以供合規性和/或封存之用。 傳遞收件者將無法看到此訊息。
+您可以发送由发送的电子邮件的相同副本（或密件副本） [!DNL Journey Optimizer] 到密件抄送收件箱。 此可选功能允许您保留发送给用户的电子邮件通信副本，以便用于合规性和/或存档。 投放收件人将无法看到该内容。
 
-### 啟用密件副本電子郵件 {#enable-bcc}
+### 启用密件抄送电子邮件 {#enable-bcc}
 
-若要啟用 **[!UICONTROL 密件副本電子郵件]** 選項，請在的專屬欄位中輸入您選擇的電子郵件地址 [管道表面](channel-surfaces.md) （即訊息預設集）。 您可以指定正確格式的任何外部地址，但委派給Adobe的子網域上定義的電子郵件地址除外。 例如，如果您委派 *marketing.luma.com* 要Adobe的子網域，任何位址，例如 *abc@marketing.luma.com* 為禁止。
+要启用 **[!UICONTROL 密件抄送电子邮件]** 选项，请在的专用字段中输入您选择的电子邮件地址 [渠道表面](channel-surfaces.md) （即消息预设）。 您可以按正确格式指定任何外部地址，但在委派给Adobe的子域上定义的电子邮件地址除外。 例如，如果您委托 *marketing.luma.com* 要Adobe的子域，任意地址，如 *abc@marketing.luma.com* 是被禁止的。
 
 >[!CAUTION]
 >
->您只能定義一個密件副本電子郵件地址。 請確定密件副本位址有足夠的接收容量，以儲存使用目前頻道介面傳送的所有電子郵件。
+>您只能定义一个密件抄送电子邮件地址。 确保密件抄送地址有足够的接收容量来存储使用当前渠道表面发送的所有电子邮件。
 >
->下列清單中列出更多建議 [本節](#bcc-recommendations-limitations).
+>中列出了更多推荐 [本节](#bcc-recommendations-limitations).
 
 >[!NOTE]
 >
->如果您已購買Healthcare Shield附加產品，您必須確保密件副本位址的ISP支援TLS 1.2通訊協定。
+>如果您已购买Healthcare Shield附加产品，则必须确保密件抄送地址的ISP支持TLS 1.2协议。
 
 ![](assets/preset-bcc.png)
 
-使用此介面的所有電子郵件訊息都將密件副本至您輸入的密件副本電子郵件地址。 從那裡，可以使用外部系統處理和封存它們。
+使用此表面的所有电子邮件都将密件复制到您输入的密件抄送电子邮件地址。 从那里，可以使用外部系统处理和存档它们。
 
 >[!CAUTION]
 >
->密件副本功能的使用量將根據您獲授權的訊息數量計算。 因此，只能在用於要封存的關鍵通訊的表面中啟用它。 檢查您的合約以取得授權磁碟區。
+>密件抄送功能使用量将根据您获得许可的邮件数计算。 因此，只能在用于要存档的关键通信的表面中启用它。 检查您的合同中是否有许可卷。
 
-密件副本電子郵件地址設定會立即在表面層級儲存和處理。 當您使用此介面建立新訊息時，會自動顯示密件副本電子郵件地址。
+密件抄送电子邮件地址设置会立即在表面级别保存和处理。 使用此界面创建新邮件时，会自动显示密件抄送电子邮件地址。
 
 ![](assets/preset-bcc-in-msg.png)
 
-不過，系統會擷取密件副本位址，以便依照所述的邏輯傳送通訊 [此處](../email/email-settings.md).
+但是，会提取BCC地址以按照描述的逻辑发送通信 [此处](../email/email-settings.md).
 
 ### Recommendations和限制 {#bcc-recommendations-limitations}
 
-* 為確保您的隱私權合規性，密件副本電子郵件必須由能夠安全地儲存個人識別資訊(PII)的封存系統處理。
+* 为确保您的隐私合规性，密件抄送电子邮件必须由能够安全地存储个人身份信息(PII)的归档系统处理。
 
-* 由於郵件可能包含敏感或私人資料(例如個人識別資訊(PII))，請確定BCC位址正確，並保護對郵件的存取權。
+* 由于邮件可能包含敏感或专用数据(如个人身份信息(PII))，因此请确保密件抄送地址正确，并保护对邮件的访问。
 
-* 您用於密件副本的收件匣應可妥善管理空間和傳遞。 如果收件匣傳回跳出，則可能無法接收某些電子郵件，因此無法封存。
+* 应正确管理用于密件抄送的收件箱，以便提供空间和投放。 如果收件箱返回跳出，则可能无法接收某些电子邮件，因此将无法存档。
 
-* 訊息可在目標收件者之前傳遞至密件副本電子郵件地址。 密件副本訊息也可以傳送，即使原始訊息可能有 [已退回](../reports/suppression-list.md#delivery-failures).
+* 可将邮件先发送到密件抄送电子邮件地址，然后再发送给目标收件人。 密件抄送邮件也可以发送，即使原始邮件可能具有 [已退回](../reports/suppression-list.md#delivery-failures).
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* 請勿開啟或點選傳送至密件副本地址的電子郵件，因為傳送分析的總開啟次數和點按次數會將其列入考量，這可能會導致計算錯誤 [報告](../reports/global-report.md).
+* 请勿打开或单击发送到BCC地址的电子邮件，因为发送分析的总打开数和点击数中已考虑该地址，这可能会导致中的某些计算错误 [报告](../reports/global-report.md).
 
-* 請勿在密件副本收件匣中將郵件標示為垃圾郵件，因為它會影響傳送至此地址的所有其他電子郵件。
+* 请勿在密件抄送收件箱中将邮件标记为垃圾邮件，因为它会影响发送到此地址的所有其他电子邮件。
 
 >[!CAUTION]
 >
->請勿在傳送至密件副本地址的電子郵件中按一下取消訂閱連結，因為您將立即取消訂閱對應的收件者。
+>请勿单击发送到密件抄送地址的电子邮件中的取消订阅链接，因为您将立即取消订阅相应的收件人。
 
-### GDPR法規遵循 {#gdpr-compliance}
+### GDPR合规性 {#gdpr-compliance}
 
-GDPR等法規規定，資料主體應能隨時修改其同意。 由於您使用Journey Optimizer傳送的密件副本電子郵件包含安全的個人識別資訊(PII)，因此您必須編輯 **[!UICONTROL CJM電子郵件BCC回饋事件結構描述]** 能夠根據GDPR和類似法規管理這些PII。
+GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您通过Journey Optimizer发送的密件抄送电子邮件包含安全的个人身份信息(PII)，因此您必须编辑 **[!UICONTROL CJM电子邮件密件抄送反馈事件架构]** 能够根据GDPR和类似法规管理这些PII。
 
 为此，请执行以下步骤。
 
-1. 前往 **[!UICONTROL 資料管理]** > **[!UICONTROL 結構描述]** > **[!UICONTROL 瀏覽]** 並選取 **[!UICONTROL CJM電子郵件BCC回饋事件結構描述]**.
+1. 转到 **[!UICONTROL 数据管理]** > **[!UICONTROL 架构]** > **[!UICONTROL 浏览]** 并选择 **[!UICONTROL CJM电子邮件密件抄送反馈事件架构]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. 按一下以展開 **[!UICONTROL 體驗(_E)]**， **[!UICONTROL customerJourneyManagement]** 則 **[!UICONTROL secondaryRecipientDetail]**.
+1. 单击以展开 **[!UICONTROL 体验(_E)]**， **[!UICONTROL customerjourneyManagement]** 则 **[!UICONTROL secondaryRecipientDetail]**.
 
-1. 選取 **[!UICONTROL originalRepientAddress]**.
+1. 选择 **[!UICONTROL originalrecipientaddress]**.
 
-1. 在 **[!UICONTROL 欄位屬性]** 在右側，向下捲動至 **[!UICONTROL 身分]** 核取方塊。
+1. 在 **[!UICONTROL 字段属性]** 在右侧，向下滚动到 **[!UICONTROL 身份]** 复选框。
 
-1. 請選取它，也請選取 **[!UICONTROL 主要身分]**.
+1. 选择它，同时选择 **[!UICONTROL 主要身份]**.
 
-1. 從下拉式清單中選取名稱空間。
+1. 从下拉列表中选择一个命名空间。
 
    ![](assets/preset-bcc-schema-identity.png)
 
@@ -113,23 +113,23 @@ GDPR等法規規定，資料主體應能隨時修改其同意。 由於您使用
 
 >[!NOTE]
 >
->進一步瞭解管理隱私權和 [Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}.
+>了解有关管理隐私和适用法规的更多信息，请参见 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}.
 
-### 密件副本報告資料 {#bcc-reporting}
+### 密件抄送报表数据 {#bcc-reporting}
 
-歷程和訊息報表中沒有密件副本的相關報表。 不過，資訊會儲存在名為的系統資料集中 **[!UICONTROL AJO密件副本意見事件資料集]**. 您可以針對此資料集執行查詢，以尋找有用的資訊，例如用於偵錯。
+历程和消息报表中没有此类密件抄送报告。 但是，信息存储在名为的系统数据集上 **[!UICONTROL AJO密件抄送反馈事件数据集]**. 您可以对此数据集运行查询，以查找有用的信息，例如用于调试用途的信息。
 
-您可以透過使用者介面存取此資料集。 選取 **[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]** 並啟用 **[!UICONTROL 顯示系統資料集]** 從篩選器切換以顯示系統產生的資料集。 進一步瞭解如何存取中的資料集 [本節](../data/get-started-datasets.md#access-datasets).
+您可以通过用户界面访问此数据集。 选择 **[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]** 并启用 **[!UICONTROL 显示系统数据集]** 从筛选器切换以显示系统生成的数据集。 详细了解如何在中访问数据集 [本节](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-若要針對此資料集執行查詢，您可以使用 [Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. 若要存取，請選取「 」 **[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]** 並按一下 **[!UICONTROL 建立查詢]**. [了解详情](../data/get-started-queries.md)
+要针对此数据集运行查询，您可以使用提供的查询编辑器 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. 要访问它，请选择 **[!UICONTROL 数据管理]** > **[!UICONTROL 查询]** 并单击 **[!UICONTROL 创建查询]**. [了解详情](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
-根據您要尋找的資訊，您可以執行下列查詢。
+根据您要查找的信息，可以运行以下查询。
 
-1. 對於以下所有其他查詢，您將需要歷程動作ID。 執行此查詢以擷取過去2天內與特定歷程版本ID相關聯的所有動作ID：
+1. 对于以下所有其他查询，您将需要历程操作ID。 运行此查询以获取过去2天内与特定历程版本ID关联的所有操作ID：
 
    ```
    SELECT
@@ -148,11 +148,11 @@ GDPR等法規規定，資料主體應能隨時修改其同意。 由於您使用
 
    >[!NOTE]
    >
-   >若要取得 `<journey version id>`引數，選取對應的 [歷程版本](../building-journeys/journey.md#journey-versions) 從 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 功能表。 歷程版本ID會顯示在網頁瀏覽器中顯示的URL結尾。
+   >获取 `<journey version id>`参数，选择相应的 [历程版本](../building-journeys/journey.md#journey-versions) 从 **[!UICONTROL 历程管理]** > **[!UICONTROL 历程]** 菜单。 历程版本ID显示在Web浏览器中显示的URL的末尾。
    >
    >![](assets/preset-bcc-action-id.png)
 
-1. 執行此查詢以擷取針對特定使用者在過去2天內的特定訊息產生的所有訊息回饋事件（尤其是回饋狀態）：
+1. 运行此查询以提取针对特定用户在最近2天内定向的特定消息生成的所有消息反馈事件（尤其是反馈状态）：
 
    ```
    SELECT  
@@ -178,9 +178,9 @@ GDPR等法規規定，資料主體應能隨時修改其同意。 由於您使用
 
    >[!NOTE]
    >
-   >若要取得 `<journey action id>` 引數，使用歷程版本id執行上述第一個查詢。 此 `<recipient email address>` parameter是目標或實際收件者的電子郵件地址。
+   >获取 `<journey action id>` 参数，使用历程版本id运行上述第一个查询。 此 `<recipient email address>` 参数是目标或实际收件人的电子邮件地址。
 
-1. 執行此查詢以擷取針對過去2天內特定使用者為目標的特定訊息所產生的所有BCC訊息回饋事件：
+1. 运行此查询以获取针对过去2天内特定用户的特定消息生成的所有密件抄送消息反馈事件：
 
    ```
    SELECT   
@@ -205,7 +205,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意。 由於您使用
    ORDER BY EventTime DESC;
    ```
 
-1. 執行此查詢以擷取所有未收到訊息（但密件副本專案在過去30天內存在）的收件者地址：
+1. 运行此查询以提取未收到消息但过去30天内存在密件抄送条目的所有收件人地址：
 
    ```
     SELECT

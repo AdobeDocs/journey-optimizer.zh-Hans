@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: listSize
-description: 瞭解函式listSize
+description: 了解函数listSize
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: listSize，函式，運算式，歷程
+keywords: listSize，函数，表达式，历程
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,13 +16,13 @@ ht-degree: 31%
 
 # listSize {#listSize}
 
-計算清單中的元素數量。
+计算列表中的元素数量。
 
 ## 类别
 
 列表
 
-## 函式語法
+## 函数语法
 
 `listSize(<parameters>)`
 
@@ -39,7 +39,7 @@ ht-degree: 31%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `listSize(<listInteger>)`
 
@@ -59,10 +59,10 @@ ht-degree: 31%
 
 `listSize(<listPoint>)`
 
-傳回整數。
+返回整数。
 
 ## 示例
 
 `listSize([10,2,3])`
 
-傳回3。
+返回3。

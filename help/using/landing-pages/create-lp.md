@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建登陆页面
-description: 瞭解如何在Journey Optimizer中設定和發佈登入頁面
+description: 了解如何在Journey Optimizer中配置和发布登陆页面
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: 登陸，登陸頁面，建立，發佈
+keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -16,33 +16,33 @@ ht-degree: 28%
 
 ---
 
-# 建立並發佈登入頁面 {#create-lp}
+# 创建和发布登陆页面 {#create-lp}
 
-## 存取登入頁面 {#access-landing-pages}
+## 访问登陆页面 {#access-landing-pages}
 
-若要存取登入頁面清單，請選取「 」 **[!UICONTROL 歷程管理]** > **[!UICONTROL 登陸頁面]** 從左側功能表。
+要访问登陆页面列表，请选择 **[!UICONTROL 历程管理]** > **[!UICONTROL 登陆页面]** 从左侧菜单中。
 
 ![](assets/lp_access-list.png)
 
-此 **[!UICONTROL 登陸頁面]** 清單會顯示所有已建立的專案。 您可以根據它們的狀態或修改日期來篩選它們。
+此 **[!UICONTROL 登陆页面]** 列表会显示所有已创建的项目。 您可以根据它们的状态或修改日期筛选它们。
 
 ![](assets/lp_access-list-filter.png)
 
-從此清單，您可以存取 [登陸頁面即時報告](../reports/lp-report-live.md) 或 [登陸頁面全域報告](../reports/lp-report-global.md) （已發佈專案）。
+从该列表中，您可以访问 [登陆页面实时报告](../reports/lp-report-live.md) 或 [登陆页面全局报告](../reports/lp-report-global.md) （已发布项目）。
 
-您也可以刪除、複製和取消發佈登入頁面。
+您还可以删除、复制和取消发布登陆页面。
 
 >[!CAUTION]
 >
->如果您取消發佈訊息中參照的登入頁面，則連結至登入頁面的連結會中斷，並顯示錯誤頁面。
+>如果取消发布消息中引用的登陆页面，则指向登陆页面的链接将被断开，并显示错误页面。
 
-按一下登入頁面旁的三個點，以選取所需的動作。
+单击登陆页面旁边的三个圆点以选择所需的操作。
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->您無法刪除 [已發佈](#publish-landing-page) 登陸頁面。 若要刪除它，您必須先取消發佈。
+>您无法删除 [已发布](#publish-landing-page) 登陆页面。 要删除它，您必须先取消发布它。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -59,39 +59,39 @@ ht-degree: 28%
 >abstract="为了保护敏感的数字资产，您可以使用标签来定义授权，用于管理对登陆页面的数据访问。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="对象级访问控制"
 
-建立登入頁面的主要步驟如下：
+创建登陆页面的主要步骤如下：
 
 ![](assets/lp-creation-process.png)
 
-1. 從登入頁面清單中，按一下 **[!UICONTROL 建立登陸頁面]**.
+1. 从登陆页面列表中，单击 **[!UICONTROL 创建登陆页面]**.
 
    ![](assets/lp_create-lp.png)
 
-1. 新增標題。 您可以視需要新增說明。
+1. 添加标题。 您可以根据需要添加描述。
 
    ![](assets/lp_create-lp-details.png)
 
-1. 若要將自訂或核心資料使用標籤指派給登陸頁面，請選取 **[!UICONTROL 管理存取權]**. [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+1. 要将自定义或核心数据使用标签分配给登陆页面，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. 選取預設集。 瞭解如何在中建立登入頁面預設集 [本節](../landing-pages/lp-presets.md#lp-create-preset).
+1. 选择预设。 了解如何在中创建登陆页面预设 [本节](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 主要頁面及其屬性隨即顯示。 瞭解如何設定主要頁面設定 [此處](#configure-primary-page).
+1. 将显示主页面及其属性。 了解如何配置主页面设置 [此处](#configure-primary-page).
 
    ![](assets/lp_primary-page.png)
 
-1. 按一下+圖示以新增子頁面。 瞭解如何設定子頁面設定 [此處](#configure-subpages).
+1. 单击+图标以添加子页面。 了解如何配置子页面设置 [此处](#configure-subpages).
 
    ![](assets/lp_add-subpage.png)
 
-設定並設計 [主要頁面](#configure-primary-page)，以及 [子頁面](#configure-subpages) 如果有的話，您可以 [測試](#test-landing-page) 和 [發佈](#publish-landing-page) 您的登陸頁面。
+配置和设计 [主页面](#configure-primary-page)，以及 [子页面](#configure-subpages) 如果有的话，您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
 
-## 設定主要頁面 {#configure-primary-page}
+## 配置主页面 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
@@ -106,61 +106,61 @@ ht-degree: 28%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
-主要頁面是使用者點按登陸頁面連結後（例如從電子郵件或網站）立即顯示給使用者的頁面。
+主页面是在用户单击指向登陆页面的链接后立即向用户显示的页面，例如通过电子邮件或网站。
 
-若要定義主要頁面設定，請遵循下列步驟。
+要定义主页面设置，请执行以下步骤。
 
-1. 您可以變更頁面名稱，即 **[!UICONTROL 主要頁面]** 依預設。
+1. 您可以更改页面名称，即 **[!UICONTROL 主页面]** 默认情况下。
 
-1. 使用內容設計工具編輯頁面的內容。 瞭解如何定義登入頁面內容 [此處](design-lp.md).
+1. 使用内容设计器编辑页面的内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. 定义登陆页面 URL. URL的第一部分要求您先前將登陸頁面子網域設定為 [預設集](../landing-pages/lp-presets.md#lp-create-preset) 您已選取。 [了解详情](../landing-pages/lp-subdomains.md)
+1. 定义登陆页面 URL. URL的第一部分要求您之前将登陆页面子域设置为 [预设](../landing-pages/lp-presets.md#lp-create-preset) 您已选择。 [了解详情](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
-   >登陸頁面URL必須是唯一的。
+   >登陆页面URL必须是唯一的。
 
    ![](assets/lp_access-url.png)
 
    >[!NOTE]
    >
-   >您無法將此URL複製貼上至網頁瀏覽器，即使已發佈，仍可存取您的登入頁面。 相反地，您可以使用預覽函式來測試它，如中所述 [本節](#test-landing-page).
+   >您仅需将此URL复制粘贴到Web浏览器中（即使已发布），就无法访问登陆页面。 相反，您可以使用预览功能对其进行测试，如中所述 [本节](#test-landing-page).
 
-1. 如果您希望登入頁面預先載入已可用的表單資料，請選取 **[!UICONTROL 使用設定檔資訊預先填寫表單欄位]**.
+1. 如果您希望登陆页面预载已可用的表单数据，请选择 **[!UICONTROL 使用用户档案信息预填表单字段]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   啟用此選項時，如果設定檔已選擇加入/退出或已新增至訂閱清單，其選擇將在顯示登入頁面時反映出來。
+   启用此选项后，如果配置文件已选择加入/退出或已添加到订阅列表，则其选择将在显示登陆页面时反映出来。
 
-   例如，如果設定檔已選擇加入以接收有關未來事件的通訊，則下次向該設定檔顯示登入頁面時，將會選取對應的核取方塊。
+   例如，如果某个用户档案已选择接收有关未来事件的通信，则下次向该用户档案显示登陆页面时，将会选中相应的复选框。
 
    ![](assets/lp_prefill-form-ex.png)
 
-1. 您可以定義頁面的到期日。 在這種情況下，您必須在頁面到期時選取動作：
+1. 您可以为页面定义到期日期。 在这种情况下，您必须在页面到期时选择一个操作：
 
-   * **[!UICONTROL 重新導向URL]**：輸入當頁面過期時，會將使用者重新導向到的頁面URL。
-   * **[!UICONTROL 自訂頁面]**： [設定子頁面](#configure-subpages) 並從顯示的下拉式清單中選取它。
-   * **[!UICONTROL 瀏覽器錯誤]**：輸入將顯示而非頁面的錯誤文字。
+   * **[!UICONTROL 重定向URL]**：输入页面过期时用户将被重定向到的页面的URL。
+   * **[!UICONTROL 自定义页面]**： [配置子页面](#configure-subpages) 并从显示的下拉列表中选择它。
+   * **[!UICONTROL 浏览器错误]**：键入将显示的错误文本而不是页面。
 
    ![](assets/lp_expiry-date.png)
 
-1. 在 **[!UICONTROL 其他資料]** 區段，定義一或多個索引鍵及其對應的引數值。 您將能夠使用以下工具在首頁面和子頁面的內容中運用這些金鑰 [運算式編輯器](../personalization/personalization-build-expressions.md). 有关详细信息，请参阅[此部分](lp-content.md#use-form-component#use-additional-data)。
+1. 在 **[!UICONTROL 其他数据]** 部分，定义一个或多个键及其相应的参数值。 您将能够使用以下工具在主页面和子页面的内容中利用这些键 [表达式编辑器](../personalization/personalization-build-expressions.md). 有关详细信息，请参阅[此部分](lp-content.md#use-form-component#use-additional-data)。
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. 如果您在下列情況下選取一或多個訂閱清單： [設計主要頁面](design-lp.md)，它們會顯示在 **[!UICONTROL 訂閱清單]** 區段。
+1. 如果您在以下情况下选择了一个或多个订阅列表： [设计主页面](design-lp.md)，它们显示在 **[!UICONTROL 订阅列表]** 部分。
 
    ![](assets/lp_subscription-list.png)
 
-1. 從登入頁面，您可以直接 [建立歷程](../building-journeys/journey-gs.md#jo-build) 會在使用者提交表單時傳送確認訊息給他們。 瞭解如何在本課程結束時建立這類歷程 [使用案例](lp-use-cases.md#subscription-to-a-service).
+1. 从登陆页面，您可以直接 [创建历程](../building-journeys/journey-gs.md#jo-build) 会在用户提交表单时向其发送确认消息。 在本课程结束时了解如何构建此类历程 [用例](lp-use-cases.md#subscription-to-a-service).
 
    ![](assets/lp_create-journey.png)
 
-   按一下 **[!UICONTROL 建立歷程]** 重新導向至 **[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]** 清單。
+   单击 **[!UICONTROL 创建历程]** 将被重定向到 **[!UICONTROL 历程管理]** > **[!UICONTROL 历程]** 列表。
 
-## 設定子頁面 {#configure-subpages}
+## 配置子页面 {#configure-subpages}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
@@ -177,25 +177,25 @@ ht-degree: 28%
 
 您最多可以添加 2 个子页。例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。
 
-若要定義子頁面設定，請遵循下列步驟。
+要定义子页面设置，请执行以下步骤。
 
-1. 您可以變更頁面名稱，即 **[!UICONTROL 子頁面1]** 依預設。
+1. 您可以更改页面名称，即 **[!UICONTROL 子页面1]** 默认情况下。
 
-1. 使用內容設計工具編輯頁面的內容。 瞭解如何定義登入頁面內容 [此處](design-lp.md).
+1. 使用内容设计器编辑页面的内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
    >[!NOTE]
    >
-   >您可以從相同登陸頁面的任何子頁面插入主要頁面的連結。 例如，若要重新導向發生錯誤並想要再次訂閱的使用者，您可以從確認子頁面新增連結至訂閱主要頁面。 瞭解如何在中插入連結 [本節](../email/message-tracking.md#insert-links).
+   >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错且希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在中插入链接 [本节](../email/message-tracking.md#insert-links).
 
-1. 定义登陆页面 URL. URL的第一部分要求您先前設定登陸頁面子網域。 [了解详情](../landing-pages/lp-subdomains.md)
+1. 定义登陆页面 URL. URL的第一部分要求您之前设置登陆页面子域。 [了解详情](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
-   >登陸頁面URL必須是唯一的。
+   >登陆页面URL必须是唯一的。
 
 ![](assets/lp_subpage-settings.png)
 
-## 測試登入頁面 {#test-landing-page}
+## 测试登陆页面 {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
@@ -203,59 +203,59 @@ ht-degree: 28%
 >abstract="定义了登陆页面设置和内容之后，您可使用测试配置文件对其进行预览。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="选择测试配置文件"
 
-定義登入頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入 [個人化內容](../personalization/personalize.md)，您將能使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
+定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您已插入 [个性化内容](../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在登陆页面中的显示方式。
 
 >[!CAUTION]
 >
->您必須有可用的測試設定檔，才能預覽訊息和傳送校樣。 瞭解如何 [建立測試設定檔](../segment/creating-test-profiles.md).
+>您必须具有可用的测试用户档案，才能预览消息和发送校样。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
 
-1. 從登入頁面介面，按一下 **[!UICONTROL 模擬內容]** 按鈕以存取測試設定檔選項。
+1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
 
    ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 模擬內容]** 按鈕也可以從內容設計工具存取。
+   >此 **[!UICONTROL 模拟内容]** 按钮也可以从内容设计器访问。
 
-1. 從 **[!UICONTROL 模擬]** 畫面，選取一或多個測試設定檔。
+1. 从 **[!UICONTROL 模拟]** 屏幕中，选择一个或多个测试用户档案。
 
    ![](assets/lp_test-profiles.png)
 
-   選取測試設定檔的步驟與測試訊息時的步驟相同。 如需詳細資訊，請參閱 [本節](../email/preview.md#select-test-profiles).
+   选择测试用户档案的步骤与测试消息时的步骤相同。 有关详情，请参阅 [本节](../email/preview.md#select-test-profiles).
 
-1. 選取 **[!UICONTROL 開啟預覽]** 以測試您的登入頁面。
+1. 选择 **[!UICONTROL 打开预览]** 以测试您的登陆页面。
 
    ![](assets/lp_open-preview.png)
 
-1. 登入頁面的預覽會在新標籤中開啟。 個人化元素會由選取的測試設定檔資料取代。
+1. 登陆页面的预览将在新选项卡中打开。 个性化的元素将由选定的测试用户档案数据替换。
 
    <!--![](assets/lp_preview.png)-->
 
-1. 選取其他測試設定檔以預覽登陸頁面每個變體的呈現。
+1. 选择其他测试用户档案以预览登陆页面每个变体的渲染。
 
 ## 检查警报 {#check-alerts}
 
-當您建立登入頁面時，發佈之前必須採取重要動作時，系統會發出警告。
+创建登陆页面时，如果必须在发布之前执行重要操作，则会收到警报警告。
 
-警示會顯示在畫面的右上方，如下所示：
+警报显示在屏幕的右上方，如下所示：
 
 ![](assets/lp_alerts.png)
 
 >[!NOTE]
 >
->如果您沒有看到此按鈕，則表示未偵測到任何警示。
+>如果未看到此按钮，则表示未检测到警报。
 
-可能會發生兩種型別的警報：
+可能会发生两种类型的警报：
 
-* **警告** 請參閱建議和最佳實務。 <!--For example, a message will display if -->
+* **警告** 请参阅建议和最佳实践。 <!--For example, a message will display if -->
 
-* **錯誤** 只要登入頁面未解決，防止您發佈登入頁面。 例如，如果缺少主要頁面URL，您會收到警告。
+* **错误** 阻止您发布登陆页面，只要它们未解析。 例如，如果缺少主页面URL，您将收到警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
 >[!CAUTION]
 >
-> 您必須全部解析 **錯誤** 發佈前的警示。
+> 您必须解决所有 **错误** 发布前的警报。
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -274,19 +274,19 @@ ht-degree: 28%
 
 ## 发布登陆页面 {#publish-landing-page}
 
-一旦登入頁面準備就緒後，您就可以發佈該頁面，以供訊息使用。
+准备登陆页面后，您可以发布该页面，使其可在消息中使用。
 
 ![](assets/lp_publish.png)
 
 >[!CAUTION]
 >
->發佈之前，請先檢查並解決警報。 [了解详情](#check-alerts)
+>发布之前，请检查并解决警报。 [了解详情](#check-alerts)
 
-您的登入頁面發佈後，會透過新增至登入頁面清單 **[!UICONTROL 已發佈]** 狀態。
+发布登陆页面后，该页面将添加到登陆页面列表，其中包含 **[!UICONTROL 已发布]** 状态。
 
-它現在已上線，並準備好用於 [!DNL Journey Optimizer] 將透過 [歷程](../building-journeys/journey.md).
+它现已上线，并准备好用于 [!DNL Journey Optimizer] 将通过 [历程](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->您可以透過特定報告監控您的登入頁面影響。 [了解详情](../reports/lp-report-live.md)
+>您可以通过特定报告监控登陆页面影响。 [了解详情](../reports/lp-report-live.md)
 

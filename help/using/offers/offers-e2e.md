@@ -1,5 +1,5 @@
 ---
-title: 在電子郵件中使用個人化優惠
+title: 在电子邮件中使用个性化优惠
 description: 探索一个端到端示例，其中显示配置选件和在电子邮件中使用它们所需的所有步骤。
 feature: Offers
 topic: Integrations
@@ -15,214 +15,214 @@ ht-degree: 6%
 
 # 用例：配置个性化优惠并将其添加到电子邮件中 {#configure-add-personalized-offers-email}
 
-本節提供端對端範例，說明如何根據您先前建立的決定，設定優惠方案並在電子郵件中使用。
+本节将提供一个端到端示例，说明如何根据您之前创建的决策配置优惠并在电子邮件中使用优惠。
 
-## 主要步驟 {#main-steps}
+## 主要步骤 {#main-steps}
 
-設定優惠（包含在決定中）並在電子郵件中運用此決定的關鍵步驟如下：
+下面列出了配置优惠（在决策中包括优惠）并在电子邮件中利用此决策的关键步骤：
 
-1. 建立優惠方案之前， [定義您的元件](#define-components)
+1. 在创建选件之前， [定义组件](#define-components)
 
    * 创建投放位置
    * 创建决策规则
-   * 创建收藏集限定符 （先前稱為「標籤」）
-   * 建立排名（選擇性）
+   * 创建收藏集限定符 （以前称为“标记”）
+   * 创建排名（可选）
 
-1. [設定優惠方案](#configure-offers)
+1. [配置优惠](#configure-offers)
 
-   * 建立優惠方案
-   * 對於每個選件：
+   * 创建优惠
+   * 对于每个选件：
 
-      * 建立表示，並為每個表示選取版位和資產
-      * 為每個選件新增規則
-      * 定義每個優惠方案的優先順序
+      * 创建表示，并为每个表示选择版面和资产
+      * 为每个选件添加规则
+      * 定义每个优惠的优先级
 
 1. [创建后备优惠](#create-fallback)
 
-1. [建立集合](#create-collection) 以包含您建立的個人化優惠方案
+1. [创建收藏集](#create-collection) 以包含您创建的个性化优惠
 
-1. [設定決定](#configure-decision)
+1. [配置决策](#configure-decision)
 
    * 创建决策
-   * 選取您建立的版位
-   * 針對每個位置，選取集合
-   * 選取每個位置的排名（選擇性）
-   * 選取遞補內容
+   * 选择您创建的投放位置
+   * 对于每个投放位置，选择收藏集
+   * 对于每个投放位置，选择一个排名（可选）
+   * 选择后备
 
-1. [在電子郵件中插入決定](#insert-decision-in-email)
+1. [在电子邮件中插入决策](#insert-decision-in-email)
 
-   * 選取符合您要顯示之優惠方案的位置
-   * 從與所選位置相容的專案中選取決定
-   * 預覽您的優惠方案
+   * 选择与要显示的选件匹配的版面
+   * 从与所选投放位置兼容的项目中选择决策
+   * 预览优惠
 
-在電子郵件中使用優惠方案的整體決定管理程式可描述如下：
+在电子邮件中使用选件的整体决策管理过程可描述如下：
 
 ![](assets/offers-e2e-process.png)
 
-## 定義元件 {#define-components}
+## 定义组件 {#define-components}
 
-在開始建立優惠方案之前，您必須定義幾個要用於優惠方案的元件。
+在开始创建选件之前，必须定义将在选件中使用的多个组件。
 
-您會在 **[!UICONTROL 決定管理]** > **[!UICONTROL 元件功能表]**.
+您会在下面找到它们 **[!UICONTROL 决策管理]** > **[!UICONTROL “组件”菜单]**.
 
-1. 從建立開始 **位置** 以取得優惠。
+1. 首先创建 **投放位置** 您选件的。
 
-   您將使用這些版位來定義定義定義優惠決定時，產生的優惠將顯示在何處。
+   您将使用这些投放位置来定义在定义优惠决策时生成的优惠的显示位置。
 
-   在此範例中，使用下列頻道和內容型別建立三個版位：
+   在此示例中，使用以下渠道和内容类型创建三个投放位置：
 
-   * *網頁 — 影像*
-   * *電子郵件 — 影像*
-   * *非數位 — 文字*
+   * *Web — 图像*
+   * *电子邮件 — 图像*
+   * *非数字 — 文本*
 
    ![](assets/offers-e2e-placements.png)
 
-   建立刊登版位的詳細步驟已說明，請參閱 [本節](../../using/offers/offer-library/creating-placements.md).
+   有关创建版面的详细步骤，请参见 [本节](../../using/offers/offer-library/creating-placements.md).
 
-1. 建立 **決定規則**.
+1. 创建 **决策规则**.
 
-   決定規則將為Adobe Experience Platform中的設定檔提供最佳優惠。
+   决策规则将为Adobe Experience Platform中的用户档案提供最佳优惠。
 
-   使用設定兩個簡單規則 **[!UICONTROL XDM個人設定檔>人員>性別]** 屬性：
+   使用配置两个简单规则 **[!UICONTROL XDM个人资料>人员>性别]** 属性：
 
-   * *女性客戶*
-   * *男性客戶*
+   * *女性客户*
+   * *男性客户*
 
    ![](assets/offers-e2e-rules.png)
 
-   建立規則的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-decision-rules.md).
+   有关创建规则的详细步骤，请参见 [本节](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. 您也可以建立 **集合限定詞**.
+1. 您还可以创建 **集合限定符**.
 
-   然後，您就可以將其與優惠方案建立關聯，並使用此集合限定詞將優惠方案群組在一起，形成一個集合。
+   然后，您可以将其与优惠相关联，并使用此收藏集限定符将优惠分组到一个收藏集中。
 
-   在此範例中，建立 *瑜伽* 集合限定詞。
+   在此示例中，创建 *瑜伽* 集合限定符。
 
    ![](assets/offers-e2e-tag.png)
 
-   建立集合限定詞的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-tags.md).
+   有关创建集合限定符的详细步骤，请参阅 [本节](../../using/offers/offer-library/creating-tags.md).
 
-1. 如果您想要定義規則，以決定應先針對指定位置顯示哪個優惠方案（而不是考慮優惠方案的優先順序分數），您可以建立 **排名公式**.
+1. 如果要定义规则以确定在给定投放位置应首先显示哪个优惠（而不是考虑优惠的优先级评分），则可以创建 **排名公式**.
 
-   建立排名公式的詳細步驟如下所述： [本節](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
+   有关创建排名公式的详细步骤，请参见 [本节](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
-   >在此範例中，我們將僅使用優先順序分數。 進一步瞭解 [適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >在本例中，我们将仅使用优先级分数。 详细了解 [资格规则和约束](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## 配置优惠 {#configure-offers}
 
-您現在可以建立和設定優惠方案。 在此範例中，您將根據每個特定設定檔建立四個要顯示的選件。
+您现在可以创建并配置选件。 在本例中，您将根据每个特定用户档案创建四个要显示的选件。
 
 1. 创建选件. 有关详细信息，请参阅[此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)。
 
-1. 在此選件中，建立三種宣告。 每個表示都必須是您先前建立的版位與資產的組合：
+1. 在此优惠中，创建三个呈现。 每个表示都必须是您之前创建的版面和资源的组合：
 
-   * 對應至 *網頁 — 影像* 刊登
-   * 對應至 *電子郵件 — 影像* 刊登
-   * 對應至 *非數位 — 文字* 刊登
+   * 一个对应于 *Web — 图像* 投放
+   * 一个对应于 *电子邮件 — 图像* 投放
+   * 一个对应于 *非数字 — 文本* 投放
 
    >[!NOTE]
    >
-   >優惠方案可顯示在訊息中的不同位置，以創造更多機會，以便在不同的版位內容中使用優惠方案。
+   >选件可以显示在消息中的不同位置，从而创造更多机会在不同的版面上下文中使用选件。
 
-   進一步瞭解中的代表 [本節](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   了解有关呈现的更多信息，请参见 [本节](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. 為前兩個版位選取適當的影像。 輸入自訂文字 *非數位 — 文字* 位置。
+1. 为前两个投放位置选择合适的图像。 输入自定义文本 *非数字 — 文本* 投放位置。
 
    ![](assets/offers-e2e-representations.png)
 
-1. 在 **[!UICONTROL 優惠資格]** 區段，選取 **[!UICONTROL 依定義的決定規則]** 並拖放您選擇的規則。
+1. 在 **[!UICONTROL 优惠资格]** 部分，选择 **[!UICONTROL 按定义的决策规则]** 并拖放您选择的规则。
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. 填寫 **[!UICONTROL 優先順序]**. 在此範例中，新增 *25*.
+1. 填写 **[!UICONTROL 优先级]**. 在此示例中，添加 *25*.
 
-1. 檢閱您的選件，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 查看选件，然后单击 **[!UICONTROL 保存并批准]**.
 
    ![](assets/offers-e2e-review.png)
 
-1. 在此範例中，再建立三個具有相同表示但不同資產的優惠方案。 以不同的規則和優先順序指派他們，例如：
+1. 在本例中，再创建三个具有相同表示但资源不同的选件。 为他们分配不同的规则和优先级，例如：
 
-   * 第一個優惠 — 決定規則： *女性客戶*，優先順序： *25*
-   * 第二個優惠 — 決定規則： *女性客戶*，優先順序： *15*
-   * 第三個優惠 — 決定規則： *男性客戶*，優先順序： *25*
-   * 第四個優惠 — 決定規則： *男性客戶*，優先順序： *15*
+   * 第一个优惠 — 决策规则： *女性客户*，优先级： *25*
+   * 第二个优惠 — 决策规则： *女性客户*，优先级： *15*
+   * 第三个优惠 — 决策规则： *男性客户*，优先级： *25*
+   * 第四个优惠 — 决策规则： *男性客户*，优先级： *15*
 
    ![](assets/offers-e2e-offers-created.png)
 
-建立和設定優惠方案的詳細步驟已詳述於 [本節](../../using/offers/offer-library/creating-personalized-offers.md).
+有关创建和配置选件的详细步骤，请参见 [本节](../../using/offers/offer-library/creating-personalized-offers.md).
 
 ## 创建后备优惠 {#create-fallback}
 
 1. 创建后备优惠.
 
-1. 使用適當的資產，定義與優惠方案相同的表示（資產應與優惠方案中使用的資產不同）。
+1. 定义与优惠相同的呈现方式，并提供相应的资源（它们应该与优惠中使用的呈现方式不同）。
 
-   每個表示都必須是您先前建立的版位與資產的組合：
+   每个表示都必须是您之前创建的版面和资源的组合：
 
-   * 對應至 *網頁 — 影像* 刊登
-   * 對應至 *電子郵件 — 影像* 刊登
-   * 對應至 *非數位 — 文字* 刊登
+   * 一个对应于 *Web — 图像* 投放
+   * 一个对应于 *电子邮件 — 图像* 投放
+   * 一个对应于 *非数字 — 文本* 投放
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 查看您的后备优惠，然后单击 **[!UICONTROL 保存并批准]**.
 
 ![](assets/offers-e2e-fallback.png)
 
-您的遞補優惠現在已準備好用於決定中。
+您的后备优惠现已准备就绪，可在决策中使用。
 
-建立和設定遞補優惠方案的詳細步驟已說明，請參閱 [本節](../../using/offers/offer-library/creating-fallback-offers.md).
+有关创建和配置后备优惠的详细步骤，请参见 [本节](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## 创建收藏集 {#create-collection}
 
-設定決定時，您需要將個人化優惠新增為集合的一部分。
+配置决策时，您需要将个性化优惠添加为收藏集的一部分。
 
-1. 若要加快決策流程，請建立動態集合。
+1. 要加快决策过程，请创建动态收藏集。
 
-1. 使用 *瑜伽* 集合限定詞，以選取您先前建立的四個個人化優惠方案。
+1. 使用 *瑜伽* 收藏集限定符，可选择您之前创建的四个个性化优惠。
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-建立集合的詳細步驟如下所述： [本節](../../using/offers/offer-library/creating-collections.md).
+有关创建收藏集的详细步骤，请参见 [本节](../../using/offers/offer-library/creating-collections.md).
 
-## 設定決定 {#configure-decision}
+## 配置决策 {#configure-decision}
 
-現在您必須建立決定，將刊登版位與您剛建立的個人化優惠和遞補優惠結合使用。
+现在，您必须创建一个决策，以将投放位置与您刚刚创建的个性化优惠和备用优惠相结合。
 
-決策引擎將使用此組合來尋找特定設定檔的最佳優惠方案：在此範例中，它會根據您指派給每個優惠方案的優先順序和決策規則。
+决策引擎将使用此组合来查找特定配置文件的最佳优惠：在本例中，最佳优惠将基于您分配给每个优惠的优先级和决策规则。
 
-若要建立並設定優惠決定，請遵循下列主要步驟：
+要创建和配置优惠决策，请执行以下步骤：
 
 1. 创建决策. 有关详细信息，请参阅[此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity)。
 
-1. 選取 *網頁 — 影像*， *電子郵件 — 影像* 和 *非數位 — 文字* 位置。
+1. 选择 *Web — 图像*， *电子邮件 — 图像* 和 *非数字 — 文本* 投放位置。
 
    ![](assets/offers-e2e-decision-placements.png)
 
-1. 對於每個位置，新增您建立的集合。
+1. 对于每个投放位置，添加您创建的收藏集。
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. 如果您在以下情況下定義排名： [建置元件](#define-components)，您可以將其指派給決定中的版位。 如果有多個優惠方案符合在此位置中顯示的資格，決策會使用此公式來計算要先傳送哪個優惠方案。
+1. 如果您在以下情况下定义排名： [构建组件](#define-components)，您可以将其分配给决策中的投放位置。 如果在此投放位置中有多个优惠符合条件，决策将使用此公式计算首先投放哪个优惠。
 
-   將排名公式指派至位置的詳細步驟如下所述： [本節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+   有关将排名公式分配给投放位置的详细步骤，请参见 [本节](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
-1. 選取您建立的遞補優惠。 它將顯示為三個所選位置的可用遞補優惠。
+1. 选择您创建的后备优惠。 它将显示为三个所选投放位置的可用后备优惠。
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. 檢閱您的決定，然後按一下 **[!UICONTROL 儲存並核准]**.
+1. 查看您的决策，然后单击 **[!UICONTROL 保存并批准]**.
 
    ![](assets/offers-e2e-review-decision.png)
 
-您的決定現在已準備好用於提供最佳化和個人化優惠。
+您的决策现已准备就绪，可用于提供优化和个性化的优惠。
 
-建立及設定決策的詳細步驟已說明，請參閱 [本節](../../using/offers/offer-activities/create-offer-activities.md).
+有关创建和配置决策的详细步骤，请参见 [本节](../../using/offers/offer-activities/create-offer-activities.md).
 
-## 在電子郵件中插入決定 {#insert-decision-in-email}
+## 在电子邮件中插入决策 {#insert-decision-in-email}
 
-現在您的決定已上線，您可以將其插入電子郵件訊息。 若要這麼做，請遵循中詳述的步驟 [此頁面](../../using/email/add-offers-email.md).
+现在，您的决策已上线，您可以将其插入到电子邮件中。 为此，请按照中详述的步骤操作 [此页面](../../using/email/add-offers-email.md).
 
 ![](assets/offers-e2e-offers-displayed.png)

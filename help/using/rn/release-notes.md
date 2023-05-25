@@ -22,11 +22,11 @@ ht-degree: 82%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年5月早期發行說明 {#may-rn-2023}
+## 2023年5月早期发行说明 {#may-rn-2023}
 
 以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
 
-**發行日期**：2023年5月25日
+**发行日期**：2023年5月25日
 
 ### 新功能{#may-2023-features}
 
@@ -52,13 +52,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>行銷活動中的內容實驗</strong><br/></th>
+<th><strong>营销活动中的内容试验</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在支援行銷活動中的實驗。 實驗是隨機試驗，線上上測試的背景下，意指您讓一些隨機選取的使用者接觸到訊息的給定變數，讓另外一組隨機選取的使用者接觸到一些其他變數或處理方式。 曝光後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買。</p>
+<p>Adobe Journey Optimizer现在支持营销活动中的试验。 实验是随机试验，在在线测试的背景下，这意味着您将一些随机选择的用户暴露于给定的消息变体，将另外一组随机选择的用户暴露于一些其他变体或处理。 曝光后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
 </td>
@@ -89,13 +89,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>在您的電子郵件內容中建立和使用片段</strong><br/></th>
+<th><strong>在您的电子邮件内容中创建和使用片段</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以創作、使用和管理片段，以快速組合您的電子郵件和內容範本。 片段是預先建立的可重複使用元件，可在跨Journey Optimizer行銷活動和歷程的多封電子郵件中參考，以改進並加快設計流程。</p>
+<p>您现在可以创作、使用和管理片段，以快速组合电子邮件和内容模板。 片段是预建的可重用组件，可以在跨Journey Optimizer营销活动和历程的多个电子邮件中引用，以改进和加快设计过程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
@@ -107,7 +107,7 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>在您的行銷活動中使用標籤(Beta)</strong><br/></th>
+<th><strong>在营销活动中使用标记（测试版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -127,13 +127,13 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>Personalized Optimization AI排名模型（全面發佈）</strong><br/></th>
+<th><strong>个性化优化AI排名模型（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized Optimization AI排名模型現在通常可在決策管理中使用。 利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>个性化优化AI排名模型现在通常在决策管理中可用。 利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
 </td>
@@ -157,39 +157,39 @@ ht-degree: 82%
 
 **受众**
 
-* 已針對歷程或行銷活動中的對象選擇器進行增強功能，新增欄顯示對象的原始和更新頻率。
+* 历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。
 
 **短信渠道**
 
-* 在設定您的SMS頻道介面時，Infobip已新增為供應商提供者。
-* Twilio - API認證設定現在包含新增傳訊服務SID的功能，以便與您的Twilio帳戶緊密整合。
+* 在配置短信渠道界面时，Infobip已添加为供应商提供商。
+* Twilio - API凭据设置现在包括添加消息服务SID的功能，以便与您的Twilio帐户无缝集成。
 
 **应用程序内渠道**
 
-* 新增Adobe地標服務的訊息觸發規則。
-* 已新增新的Adobe Experience Platform保證功能，以擷取裝置事件並新增為觸發規則。
+* 为Adobe地标服务添加了新消息触发规则。
+* 添加了新的Adobe Experience Platform保证功能，用于捕获设备事件以添加为触发规则。
 
 **历程**
 
-* 您現在可以在自訂動作中運用API呼叫回應，並根據這些回應協調您的歷程。
+* 您现在可以在自定义操作中利用API调用响应，并根据这些响应编排您的历程。
 
 **营销活动**
 
-* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。
-* 您現在可以刪除即時行銷活動的草稿修改。
-* 啟用行銷活動的步驟現已簡化。
+* 现在，可以使用省略号操作菜单从库存屏幕复制营销活动。
+* 您现在可以删除对实时营销活动的草稿修改。
+* 激活营销活动的步骤现已得到简化。
 
 **决策管理**
 
-* 如果優惠方案處於「草稿」狀態且之前從未發佈，您現在可以編輯頻率上限。
+* 如果优惠处于“草稿”状态且以前从未发布，您现在可以编辑频率封顶。
 
 **个性化**
 
-* 在HTML內容中工作時，您現在可以直接從「個人化編輯器」中選取和插入資產參考。
+* 在HTML内容中工作时，您现在可以直接从个性化编辑器中选择和插入资源引用。
 
 ### 修复{#may-2023-fixes}
 
-* 應用程式內訊息 — 修正行銷活動排程與訊息頻率設定衝突的問題。
+* 应用程序内消息 — 修复了营销活动计划与消息频率设置冲突的问题。
 
 
 ## 2023 年 4 月发行说明 {#apr-rn-2023}
@@ -219,7 +219,7 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>行動入門快速入門工作流程（測試版）</strong><br/></th>
+<th><strong>移动载入快速入门工作流（测试版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -236,16 +236,16 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>新歷程儀表板（測試版）</strong><br/></th>
+<th><strong>新历程功能板（测试版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Journey儀表板現在分成兩個標籤：</p>
-<ul><li>使用 <strong>概觀</strong> 標籤來存取顯示與歷程相關之關鍵量度的新儀表板。</li>
-<li>使用 <strong>瀏覽</strong> 標籤以存取所有歷程的清單。</li></ul>
-<p>此功能可作為公開測試版存取，於所有歷程中使用。</p>
+<p> 历程功能板现在分为两个选项卡：</p>
+<ul><li>使用 <strong>概述</strong> 选项卡，以访问显示与历程相关关键量度的新仪表板。</li>
+<li>使用 <strong>浏览</strong> 选项卡以访问所有历程的列表。</li></ul>
+<p>此功能作为公共测试版可在所有历程中访问。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-gs.md#journey-access">详细文档</a>。</p>
 </td>
@@ -379,7 +379,7 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>應用程式內頻道(Beta)</strong><br/></th>
+<th><strong>应用程序内渠道（测试版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -397,7 +397,7 @@ ht-degree: 82%
 <table>
 <thead>
 <tr>
-<th><strong>將Journey Optimizer資料集匯出至雲端儲存目標（測試版）</strong><br/></th>
+<th><strong>将Journey Optimizer数据集导出到Cloud Storage Destinations (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

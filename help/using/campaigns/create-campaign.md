@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建营销活动
-description: 瞭解如何在Journey Optimizer中建立行銷活動
+description: 了解如何在Journey Optimizer中创建营销活动
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 建立，最佳化工具，行銷活動，表面，訊息
+keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
@@ -20,15 +20,15 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->建立新行銷活動之前，請確定您有可供使用的表面頻道（即訊息預設集）和Adobe Experience Platform區段。 請前往下列章節深入瞭解：
+>在创建新营销活动之前，请确保您准备好表面渠道（即消息预设）和Adobe Experience Platform区段。 请参阅以下部分以了解详情：
 >
 >* [创建渠道平面](../configuration/channel-surfaces.md)
 >* [区段入门](../segment/about-segments.md)
 
 
-若要建立新的行銷活動，請存取 **[!UICONTROL 行銷活動]** 功能表，然後按一下 **[!UICONTROL 建立行銷活動]**. 您也可以複製現有的即時行銷活動，以建立新的行銷活動。 [了解详情](modify-stop-campaign.md#duplicate)
+要创建新营销活动，请访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
-## 選擇行銷活動型別和頻道 {#campaigntype}
+## 选择营销活动类型和渠道 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -40,43 +40,43 @@ ht-degree: 23%
 >title="营销活动类别"
 >abstract="类别值直接关联到营销活动类型值。计划营销活动类型适用于&#x200B;**营销**&#x200B;类别，API 触发类型适用于&#x200B;**事务**&#x200B;类别"
 
-1. 在 **[!UICONTROL 屬性]** 區段，指定您要如何執行行銷活動。 可用的行銷活動型別有兩種：
+1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行营销策划。 有两种类型的营销活动可用：
 
-   * **[!UICONTROL 已排程]**：立即執行行銷活動或在指定日期執行。 已排程的行銷活動旨在傳送 **行銷** 輸入訊息。
+   * **[!UICONTROL 已计划]**：立即执行营销活动，或在指定日期执行。 计划的营销活动旨在发送 **营销** 键入消息。
 
-   * **[!UICONTROL API觸發]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送 **異動** 訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車放棄等。 [瞭解如何使用API觸發行銷活動](api-triggered-campaigns.md)
+   * **[!UICONTROL API触发]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作（密码重置、购物车放弃等）后发送的消息。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
 
-1. 在 **[!UICONTROL 動作]** 區段，選擇頻道和頻道介面來用於傳送您的訊息。
+1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道平面。
 
    平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
-   下拉式清單中只會列出與行銷活動型別相容的管道表面。
+   下拉列表中仅列出与营销活动类型兼容的渠道平面。
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >如果您要建立推播通知行銷活動，可以啟用 **[!UICONTROL 快速傳遞模式]**，這是Journey Optimizer的附加元件，可讓您以非常快的速度大量傳送推送訊息。 [了解详情](../push/create-push.md#rapid-delivery)
+   >如果您正在创建推送通知营销活动，则可以启用 **[!UICONTROL 快速投放模式]**，它是一个Journey Optimizer加载项，允许以非常快的速度大量发送推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
 
-1. 按一下 **[!UICONTROL 建立]** 以建立行銷活動。
+1. 单击 **[!UICONTROL 创建]** 以创建营销活动。
 
-## 定義行銷活動屬性 {#create}
+## 定义营销活动属性 {#create}
 
-1. 在 **[!UICONTROL 屬性]** 區段，指定行銷活動的名稱和說明。
+1. 在 **[!UICONTROL 属性]** 部分，指定营销策划的名称和描述。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. 此 **標籤** 欄位可讓您將Adobe Experience Platform統一標籤指派給行銷活動。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)
+1. 此 **标记** 字段允许您向营销活动分配Adobe Experience Platform统一标记。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)
 
-1. 若要將自訂或核心資料使用標籤指派給促銷活動，請按一下 **[!UICONTROL 管理存取權]** 按鈕。 [進一步瞭解物件層級存取控制(OLA)](../administration/object-based-access.md)
+1. 要将自定义或核心数据使用标签分配给活动，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
-## 建立訊息並設定追蹤 {#content}
+## 创建消息并配置跟踪 {#content}
 
-在 **[!UICONTROL 動作]** 區段，建立要與行銷活動一起傳送的訊息。
+在 **[!UICONTROL 操作]** 部分，创建要与营销活动一起发送的消息。
 
-1. 按一下 **[!UICONTROL 編輯內容]** 按鈕，然後建立並設計訊息內容。
+1. 单击 **[!UICONTROL 编辑内容]** 按钮，然后创建和设计消息内容。
 
-   在以下頁面中瞭解建立訊息內容的詳細步驟：
+   在以下页面中了解创建消息内容的详细步骤：
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -93,7 +93,7 @@ ht-degree: 23%
       <img alt="不频繁" src="../assets/do-not-localize/push.jpg">
     </a>
     <div>
-    <a href="../push/create-push.md"><strong>建立推播通知</strong></a>
+    <a href="../push/create-push.md"><strong>创建推送通知</strong></a>
     </div>
     <p>
     </td>
@@ -102,42 +102,42 @@ ht-degree: 23%
       <img alt="验证" src="../assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>建立簡訊訊息</strong></a>
+    <a href="../sms/create-sms.md"><strong>创建短信消息</strong></a>
     </div>
     <p>
     </td>
     </tr>
     </table>
 
-1. 定義內容後，請使用 **[!UICONTROL 模擬內容]** 按鈕以使用測試設定檔預覽和測試您的內容。 [了解详情](../email/preview.md)。
+1. 定义内容后，请使用 **[!UICONTROL 模拟内容]** 按钮，使用测试用户档案预览和测试您的内容。 [了解详情](../email/preview.md)。
 
-1. 按一下箭頭，返回行銷活動建立畫面。
+1. 单击箭头以返回营销策划创建屏幕。
 
    ![](assets/create-campaign-design.png)
 
-1. 在 **[!UICONTROL 動作追蹤]** 區段，指定是否要追蹤收件者對傳送的反應：您可以追蹤點按和/或開啟。
+1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开。
 
-   執行行銷活動後，即可從行銷活動報表存取追蹤結果。 [進一步瞭解行銷活動報告](../reports/campaign-global-report.md)
+   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关活动报告的更多信息](../reports/campaign-global-report.md)
 
 ## 定义受众 {#audience}
 
-按一下 **[!UICONTROL 選取對象]** 按鈕來顯示可用Adobe Experience Platform區段的清單。 [深入瞭解區段](../segment/about-segments.md)
+单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform区段的列表。 [了解有关区段的更多信息](../segment/about-segments.md)
 
 >[!NOTE]
 >
->針對API觸發的行銷活動，需透過API呼叫設定對象。 [了解详情](api-triggered-campaigns.md)
+>对于API触发的营销活动，需要通过API调用设置受众。 [了解详情](api-triggered-campaigns.md)
 
-在 **[!UICONTROL 身分名稱空間]** 欄位中，選擇要使用的名稱空間，以識別所選區段中的個人。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)
+在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
-    >[！NOTE]
+    >[！注意]
     >
-    >屬於區段(其不同身分中沒有選取的身分（名稱空間）)的個人將不會成為促銷活動的目標。
+    >如果属于区段的个人在不同的身份中没有选定的身份（命名空间），则营销活动不会将这些个人设为目标。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-## 排程行銷活動 {#schedule}
+## 计划营销活动 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -154,12 +154,12 @@ ht-degree: 23%
 >title="营销活动操作触发器"
 >abstract="定义营销活动消息的发送频率。"
 
-依預設，行銷活動在手動啟動後開始，並在訊息傳送後立即結束。
+默认情况下，营销活动在手动激活后开始，在发送一次消息后结束。
 
-您可以定義行銷活動訊息的傳送頻率。 若要這麼做，請使用 **[!UICONTROL 動作觸發程式]** 行銷活動建立畫面中的選項，用於指定行銷活動應每日、每週或每月執行。
+您可以定义发送营销活动消息的频率。 要执行此操作，请使用 **[!UICONTROL 操作触发器]** 活动创建屏幕中的选项，用于指定活动是应每日、每周还是每月执行。
 
-如果您不想在行銷活動啟動後立即執行行銷活動，您可以使用來指定傳送訊息的日期和時間 **[!UICONTROL 行銷活動開始]** 選項。 此 **[!UICONTROL 行銷活動結束]** 選項可讓您指定循環行銷活動何時應停止執行。
+如果不想在活动激活后立即执行活动，则可以使用指定发送消息的日期和时间 **[!UICONTROL 营销活动开始]** 选项。 此 **[!UICONTROL 营销活动结束]** 选项允许您指定何时应停止执行定期活动。
 
 ![](assets/create-campaign-schedule.png)
 
-行銷活動準備就緒後，您即可進行稽核和發佈。 [了解详情](review-activate-campaign.md)
+活动准备就绪后，您可以对其进行审核和发布。 [了解详情](review-activate-campaign.md)
