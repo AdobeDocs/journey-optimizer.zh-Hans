@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 82%
+source-wordcount: '2530'
+ht-degree: 77%
 
 ---
 
@@ -156,6 +156,23 @@ ht-degree: 82%
 
 
 **受众**
+
+* 为了准备Audience Portal功能的正式发布，Adobe Experience Platform正在更新系统和文档中“受众”和“区段”的使用情况。
+
+   * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
+   * 区段定义：在Adobe Experience Platform中，用于描述目标受众关键特征或行为的规则。 此术语以前称为“区段”。
+
+   因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，您将看到“区段”被“受众”取代，以反映这种创建和管理受众的新方式。
+
+   这些更改将在下一个UI和文档版本中逐步推出。
+
+   在指旨在接收报文的一组用户档案时，术语“受众”的翻译在所有数字体验产品中得到了协调，使用了以下语言：
+
+   * 德语：Zielgruppe
+   * 巴西葡萄牙语：público-alvo
+   * 西班牙语：público destinatario
+
+
 
 * 历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。
 
