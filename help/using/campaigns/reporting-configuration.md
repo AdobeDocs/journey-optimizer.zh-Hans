@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 配置，试验，报告，优化器
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 32%
+source-wordcount: '715'
+ht-degree: 28%
 
 ---
 
@@ -30,18 +27,6 @@ ht-degree: 32%
 >id="ajo_admin_reporting_dataset"
 >title="选择数据集"
 >abstract="您只能选择一个事件类型的数据集，该数据集必须至少包含一个支持的字段组：应用程序详细信息、商务详细信息、Web 详细信息。"
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* [内容体验入门](get-started-experiment.md)
-* [创建内容试验](content-experiment.md)
-* [了解统计计算](experiment-calculations.md)
-* **[配置实验报表](reporting-configuration.md)**
-* [实验报表中的统计计算](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +45,7 @@ ht-degree: 32%
 ## 先决条件
 
 
-必须先创建该数据集，然后才能将数据集添加到报表配置。 了解如何在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh_Hans#create){target="_blank"}.
+必须先创建该数据集，然后才能将数据集添加到报表配置。 了解如何在 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * 您只能添加事件类型数据集。
 
@@ -80,7 +65,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh_Hans){target="_blank"}.
+>在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
 
 ## 对应于每个字段组的目标 {#objective-list}
 
