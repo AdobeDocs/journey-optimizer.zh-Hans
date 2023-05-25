@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2477'
 ht-degree: 78%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 78%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年5月早期发行说明 {#may-rn-2023}
+## 2023年5月发行说明 {#may-rn-2023}
 
-以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**发行日期**：2023年5月25日
+**Release date**: May 25, 2023-->
 
 ### 新功能{#may-2023-features}
 
@@ -60,7 +60,7 @@ ht-degree: 78%
 <td>
 <p>Adobe Journey Optimizer现在支持营销活动中的试验。 实验是随机试验，在在线测试的背景下，这意味着您将一些随机选择的用户暴露于给定的消息变体，将另外一组随机选择的用户暴露于一些其他变体或处理。 曝光后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../campaigns/content-experiment.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ ht-degree: 78%
 <td>
 <p>您现在可以创作、使用和管理片段，以快速组合电子邮件和内容模板。 片段是预建的可重用组件，可以在跨Journey Optimizer营销活动和历程的多个电子邮件中引用，以改进和加快设计过程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../email/fragments.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -145,14 +145,6 @@ ht-degree: 78%
 
 ### 改进 {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **受众**
@@ -164,21 +156,18 @@ ht-degree: 78%
 
    因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，您将看到“区段”被“受众”取代，以反映这种创建和管理受众的新方式。
 
-   这些更改将在下一个UI和文档版本中逐步推出。
-
-   在指旨在接收报文的一组用户档案时，术语“受众”的翻译在所有数字体验产品中得到了协调，使用了以下语言：
+   在指一组旨在接收报文的用户档案时，“受众”一词的翻译在部分语言的所有数字体验产品中得到了统一：
 
    * 德语：Zielgruppe
    * 巴西葡萄牙语：público-alvo
    * 西班牙语：público destinatario
 
 
-
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **短信渠道**
 
-* 在配置短信渠道界面时，Infobip已添加为供应商提供商。
+* 在配置短信渠道界面时，Infobip已添加为供应商提供商。 [了解详情](../sms/sms-configuration.md)
 * Twilio - API凭据设置现在包括添加消息服务SID的功能，以便与您的Twilio帐户无缝集成。
 
 **应用程序内渠道**
@@ -198,7 +187,7 @@ ht-degree: 78%
 
 **决策管理**
 
-* 如果优惠处于“草稿”状态且以前从未发布，您现在可以编辑频率封顶。
+* 如果选件具有以下特征，您现在可以编辑频率封顶 **[!UICONTROL 草稿]** 状态，以前从未发布并启用了频率封顶。 [了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **个性化**
 
