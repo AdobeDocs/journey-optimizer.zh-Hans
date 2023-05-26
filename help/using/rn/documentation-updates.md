@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
+source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 95%
@@ -23,7 +23,7 @@ ht-degree: 95%
 * 添加了新章节，介绍如何确保遵守选择不使用其配置文件数据进行个性化的客户的选择。 [了解详情](../privacy/opt-out.md#opt-out-personalization)
 * 添加了关于在电子邮件内容中包含的URL中使用特殊国际字符的注释。 [了解详情](../email/message-tracking.md#insert-links)
 * 添加了测试和发布登陆页面所需的权限。 [了解详情](../landing-pages/create-lp.md)
-* 添加了有关在“管理决策”频率上限中考虑自定义事件所需的Adobe Experience Platform端点的说明。 [了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 添加了有关在决策管理频度上限中考虑自定义事件所需的Adobe Experience Platform端点的说明。 [了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}
 

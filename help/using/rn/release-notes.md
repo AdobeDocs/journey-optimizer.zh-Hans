@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 271952e9c5d3c7823edba100d38e4ef673143cc3
+source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 80%
+source-wordcount: '2485'
+ht-degree: 78%
 
 ---
 
@@ -86,22 +86,22 @@ ht-degree: 80%
 -->
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Create and use fragments in your email content</strong><br/></th>
+<th><strong>在您的电子邮件内容中创建和使用片段</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
+<p>您现在可以创作、使用和管理片段，以快速组合电子邮件和内容模板。 片段是预建的可重用组件，可以在跨Journey Optimizer营销活动和历程的多个电子邮件中引用，以改进和加快设计过程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
+<p>有关更多信息，请参阅<a href="../email/fragments.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
