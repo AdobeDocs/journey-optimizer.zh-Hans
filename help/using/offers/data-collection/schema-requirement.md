@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 >
 >无需发送决策事件，因为决策管理会自动生成这些事件并将其放入 **[!UICONTROL ODE DecisionEvents]** 数据集<!--to check--> 是自动生成的。
 
-## 跟踪展示
+## 跟踪展示 {#track-impressions}
 
 确保事件类型和源如下所示：
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 +++
 
-## 跟踪点击次数
+## 跟踪点击次数 {#track-clicks}
 
 确保事件类型和源如下所示：
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 +++
 
-## 跟踪自定义事件
+## 跟踪自定义事件 {#track-custom-events}
 
 对于自定义事件，数据集中使用的架构还必须具有 **[!UICONTROL 体验事件 — 建议交互]** 字段组相关联，但对必须用于标记这些事件的体验事件类型没有特定要求。
 
@@ -108,22 +108,3 @@ ht-degree: 3%
 >* POST/ee/v2/collect
 >
 >如果您使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，则会自动建立连接。
-
-<!--
-## Using a ranking strategy {#using-ranking}
-
-To use the ranking strategy you created above, follow the steps below:
-
-Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
-
-1. Create a decision.
-1. Add a placement.
-1. Add a collection.
-1. Choose to rank offers by AI ranking (select it from the drop-down list).
-1. Click Add ranking.
-1. Select the ranking strategy that you created. All the details of the ranking strategy are displayed.
-1. Click Next to confirm.
-1. Save your decision.
-
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
--->

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
+source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 97%
+source-wordcount: '2876'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,9 @@ ht-degree: 97%
 * 添加了说明如何设置子域的新页面，在您提供给客户的 Web 体验中，子域将用于发布来自 Adobe Experience Manager Assets Essentials 的内容。[了解详情](../web/web-delegated-subdomains.md)
 * 添加了新子部分，以说明如何在Email Designer中向URL添加个性化跟踪参数。 [了解详情](../email/message-tracking.md#url-tracking)
 * 添加了新章节，介绍如何确保遵守选择不使用其配置文件数据进行个性化的客户的选择。 [了解详情](../privacy/opt-out.md#opt-out-personalization)
+* 添加了关于在电子邮件内容中包含的URL中使用特殊国际字符的注释。 [了解详情](../email/message-tracking.md#insert-links)
+* 添加了测试和发布登陆页面所需的权限。 [了解详情](../landing-pages/create-lp.md)
+* 添加了有关在“管理决策”频率上限中考虑自定义事件所需的Adobe Experience Platform端点的说明。 [了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}
 
