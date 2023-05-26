@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 78%
+source-wordcount: '2466'
+ht-degree: 79%
 
 ---
 
@@ -175,9 +175,11 @@ ht-degree: 78%
 * 为Adobe地标服务添加了新消息触发规则。 [了解详情](../in-app/inapp-configuration.md)
 * 添加了新的Adobe Experience Platform保证功能，用于捕获设备事件以添加为触发规则。
 
-**历程**
+<!--
+**Journeys**
 
-* 您现在可以在自定义操作中利用API调用响应，并根据这些响应编排您的历程。
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **营销活动**
 
