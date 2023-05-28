@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 3%
 
 ---
-
 
 # 使用片段 {#fragments}
 
