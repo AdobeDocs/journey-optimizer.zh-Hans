@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 3%
 
 此功能允许预先构建多个自定义内容块，非技术性营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [在此视频中了解如何管理、创作和使用片段](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ ht-degree: 3%
 
 1. 该片段将成为不再链接到原始片段的独立元素。 将其编辑为内容中的任何其他内容组件。 [了解详情](content-components.md)
 
-<!--
+## 操作方法视频 {#video-fragments}
 
-## How-to video {#video-templates}
+了解如何在中管理、创作和使用片段 [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
