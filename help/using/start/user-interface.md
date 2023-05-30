@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9b38eb37408be9603c0ec06e6f66b4e65465252f
+source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 99%
+source-wordcount: '869'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 99%
 
 **[!UICONTROL 决策管理]**
 
-* **[!UICONTROL 优惠]** - 通过此菜单访问近期的源和数据集。使用此部分可创建新优惠。[了解详情](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL 优惠]** - 通过此菜单访问近期的源和数据集。使用此部分可创建选件。 [了解详情](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL 组件]** - 创建投放位置、规则和标记。[了解详情](../offers/offer-library/key-steps.md)
+* **[!UICONTROL 组件]**  — 创建投放位置、规则和标记。 [了解详情](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL 内容管理]**
 
@@ -71,11 +71,11 @@ ht-degree: 99%
 
 **[!UICONTROL 连接]**
 
-* **[!UICONTROL 源]** - 使用此菜单从各种来源（如 Adobe 应用程序、基于云的存储、数据库等）中摄取数据，并构建、标记和增强传入数据。[了解详情](get-started-sources.md)
+* **[!UICONTROL 源]**  — 使用此菜单从各种来源(如Adobe应用程序、基于云的存储、数据库等)中摄取数据。 您可以构建、标记和增强传入数据。 [了解详情](get-started-sources.md)
 
 **[!UICONTROL 客户]**
 
-* **[!UICONTROL 区段]** - 创建和管理 Experience Platform 区段定义，并将其用于您的历程。[了解详情](../segment/about-segments.md)
+* **[!UICONTROL 区段]**  — 创建和管理Experience Platform区段定义，并将其用于您的历程。 [了解详情](../segment/about-segments.md)
 
 * **[!UICONTROL 用户档案]** - Real-time Customer Profile 可以为每位客户创建整体视图，结合来自多个渠道（包括在线、离线、CRM 和第三方数据）的数据。[了解详情](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ ht-degree: 99%
 
 **[!UICONTROL 管理]**
 
-* **[!UICONTROL 历程管理]** - 使用此菜单来配置要在历程中使用的[事件](../event/about-events.md)、[数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)。
+* **[!UICONTROL 历程管理]**  — 使用此菜单配置 [事件](../event/about-events.md)， [数据源](../datasource/about-data-sources.md)、和 [操作](../action/action.md) 以在您的历程中使用。
 
 * **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。[了解详情](../administration/sandboxes.md)
 
@@ -91,7 +91,7 @@ ht-degree: 99%
 
 ## 产品内用例 {#in-product-uc}
 
-在主页中利用 [!DNL Adobe Journey Optimizer]用例，快速输入一些信息以创建客户历程。
+起始日期 [!DNL Adobe Journey Optimizer] 主页，产品用例为创建客户历程提供快速输入。
 
 ![](assets/use-cases-home.png)
 
@@ -102,9 +102,9 @@ ht-degree: 99%
 * **向新客户发送电子邮件**，可以轻松发送最多两封电子邮件来欢迎新注册的客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
 
-单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;了解关于每个用例的更多信息。
+要了解有关每个用例的更多信息，请单击 **[!UICONTROL 查看详细信息]** 链接。
 
-单击&#x200B;**[!UICONTROL 开始]**&#x200B;按钮开始实施用例。
+要运行用例，请单击 **[!UICONTROL 开始]** 按钮。
 
 您可以从&#x200B;**[!UICONTROL 查看用例库]**&#x200B;按钮访问执行的用例。
 
@@ -112,13 +112,15 @@ ht-degree: 99%
 
 从主页的下半部分访问 Adobe Journey Optimizer 关键帮助页面。
 
-使用&#x200B;**帮助**&#x200B;图标来访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
+使用 **帮助** 图标以访问帮助页面、联系支持人员和分享反馈。 您可以从搜索字段搜索帮助文章和视频。
 
 ![](assets/ajo-help.png)
 
+在每个页面中，使用上下文帮助按钮了解有关功能的更多信息，并浏览到 **[!DNL Adobe Experience League]** 文档。
+
 ## 语言偏好设置 {#language-pref}
 
-用户界面目前提供以下语言版本：
+提供了以下语言版本的用户界面：
 
 * 英语
 * 法语
