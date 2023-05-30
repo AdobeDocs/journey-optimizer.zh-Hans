@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -64,6 +64,8 @@ ht-degree: 6%
 
 1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的区段。
 
+   ➡️ [在视频中发现此功能](#video)
+
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
@@ -83,3 +85,9 @@ ht-degree: 6%
 现在，每次显示和/或单击选件时，您都希望相应的事件能够由 **[!UICONTROL 体验事件 — 建议交互]** 字段组使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或Mobile SDK。
 
 要能够在事件类型（显示选件或单击选件）中发送，您必须为发送到Adobe Experience Platform中的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
+
+## 操作方法视频 {#video}
+
+了解如何创建个性化优化模型以及如何将其应用于决策。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
