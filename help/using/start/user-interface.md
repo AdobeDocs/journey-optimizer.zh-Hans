@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9b38eb37408be9603c0ec06e6f66b4e65465252f
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,8 @@ ht-degree: 100%
 * 葡萄牙语（巴西）
 * 日语
 * 朝鲜语
+* 繁体中文
+* 简体中文
 
 您的默认界面语言由您的用户档案中指定的首选语言决定。
 
