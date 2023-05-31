@@ -10,7 +10,7 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # 使用同意策略 {#consent-management}
 
-Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参见[此文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)。
+Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参见[此文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy)。
 
 在 Journey Optimizer 中，您可以将这些同意策略应用于自定义操作。例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
 
