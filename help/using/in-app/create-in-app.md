@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '457'
 ht-degree: 6%
 
 ---
@@ -119,12 +119,15 @@ For more information on how to configure a journey, refer to [this page](../buil
 >[!ENDTABS]
 -->
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 以下视频介绍如何在营销活动中创建、配置和发布应用程序内消息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
+以下视频介绍了如何为A/B测试应用程序内消息配置和分析内容实验。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
 **相关主题：**
 

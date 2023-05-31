@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报告，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 28%
+source-wordcount: '564'
+ht-degree: 36%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 28%
 >title="选择数据集"
 >abstract="您只能选择一个事件类型的数据集，该数据集必须至少包含一个支持的字段组：应用程序详细信息、商务详细信息、Web 详细信息。"
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+通过报表数据源配置可以定义与系统的连接，以检索要在报表中使用的其他信息。
 
-通过报表数据源配置，可检索将用于 **[!UICONTROL 目标]** 选项卡中。 [了解详情](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 28%
 
    同样，如果要报告移动交互，则需要使用创建体验事件数据集 **应用程序详细信息** 字段组。
 
-   将列出与每个字段组对应的量度 [此处](#objective-list).
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * 您可以将这些字段组添加到一个或多个架构中，这些架构将用于一个或多个数据集。
 
@@ -67,15 +67,17 @@ ht-degree: 28%
 >
 >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
 
-## 对应于每个字段组的目标 {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-下表显示了要将哪些指标添加到 **[!UICONTROL 目标]** 每个字段组的促销活动报告的选项卡。
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| 字段组 | 目标 |
+| Field group | Objectives |
 |--- |--- |
-| 商业详细信息 | 总价<br>付款金额<br>（唯一）结账<br>（唯一）产品列表添加次数<br>（唯一）产品列表打开<br>（唯一）产品列表移除<br>（唯一）产品列表查看次数<br>（唯一）产品查看次数<br>（独特）购买<br>（唯一）保存以备后用<br>产品价格总计<br>产品数量 |
-| 应用程序详细信息 | （独特）应用程序启动次数<br>应用程序首次启动次数<br>（唯一）应用程序安装次数<br>（唯一）应用程序升级 |
-| Web详细信息 | （唯一）页面查看次数 |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## 添加数据集 {#add-datasets}
 
@@ -123,15 +125,16 @@ ht-degree: 28%
    >
    >如果您选择了非事件类型的数据集，则将无法继续。
 
-在构建营销活动报表时，您现在可以看到与所添加数据集中使用的字段组对应的量度。 转到 **[!UICONTROL 目标]** 选项卡，然后选择您选择的量度以更好地优化报表。 [了解详情](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->如果添加多个数据集，则所有数据集中的所有数据都将可用于报表。
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.

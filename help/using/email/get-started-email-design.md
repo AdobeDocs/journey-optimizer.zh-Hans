@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -64,8 +64,12 @@ ht-degree: 100%
 
    ![](assets/email_designer_export.png)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何使用消息编辑器创建电子邮件内容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
