@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 95%
 
 ## 2023 年 5 月 {#may-2023}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年5月版。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了说明如何设置子域的新页面，在您提供给客户的 Web 体验中，子域将用于发布来自 Adobe Experience Manager Assets Essentials 的内容。[了解详情](../web/web-delegated-subdomains.md)
-* 添加了新子部分，以说明如何在Email Designer中向URL添加个性化跟踪参数。 [了解详情](../email/message-tracking.md#url-tracking)
-* 添加了新章节，介绍如何确保遵守选择不使用其配置文件数据进行个性化的客户的选择。 [了解详情](../privacy/opt-out.md#opt-out-personalization)
-* 添加了关于在电子邮件内容中包含的URL中使用特殊国际字符的注释。 [了解详情](../email/message-tracking.md#insert-links)
-* 添加了测试和发布登陆页面所需的权限。 [了解详情](../landing-pages/create-lp.md)
+* 添加了说明如何在电子邮件设计器中向 URL 添加个性化跟踪参数的新部分。[了解详情](../email/message-tracking.md#url-tracking)
+* 添加了介绍如何确保遵循客户选择不使用其个人资料数据进行个性化的意愿的新部分。[了解详情](../privacy/opt-out.md#opt-out-personalization)
+* 添加了关于在电子邮件内容 URL 中使用特殊国际字符的注释。[了解详情](../email/message-tracking.md#insert-links)
+* 添加了测试和发布登陆页面所需的权限。[了解详情](../landing-pages/create-lp.md)
 * 添加了有关在决策管理频度上限中考虑自定义事件所需的Adobe Experience Platform端点的说明。 [了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}

@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 79%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年5月发行说明 {#may-rn-2023}
+## 2023 年 5 月发行说明 {#may-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -58,7 +58,7 @@ ht-degree: 79%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在支持营销活动中的试验。 实验是随机试验，在在线测试的背景下，这意味着您将一些随机选择的用户暴露于给定的消息变体，将另外一组随机选择的用户暴露于一些其他变体或处理。 曝光后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
+<p>现在，Adobe Journey Optimizer 在营销活动中支持试验。试验是开展在线测试时进行的随机试用，这意味着您将为给定的消息试验接触部分随机选择的用户，并为其他试验或试验组接触另外一组随机选择的用户。公开后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>有关更多信息，请参阅<a href="../campaigns/content-experiment.md">详细文档</a>。</p>
 </td>
@@ -107,14 +107,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>在营销活动中使用标记（测试版）</strong><br/></th>
+<th><strong>在营销活动中使用标记（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以为营销活动分配 Adobe Experience Platform 统一标记。这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。请注意，统一标记功能目前为 Beta 版。
-</p>
+<p>您现在可以为营销活动分配 Adobe Experience Platform 统一标记。这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。请注意，统一标记功能目前为 Beta 版。</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
@@ -127,13 +126,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>个性化优化AI排名模型（正式发布）</strong><br/></th>
+<th><strong>个性化优化 AI 排名模型（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>个性化优化AI排名模型现在通常在决策管理中可用。 利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
 </td>
@@ -149,14 +148,14 @@ ht-degree: 79%
 
 **受众**
 
-* 为了准备Audience Portal功能的正式发布，Adobe Experience Platform正在更新系统和文档中“受众”和“区段”的使用情况。
+* 为使 Audience Portal 功能顺利正式发布，Adobe Experience Platform 将会更新系统和文档中“受众”和“区段”的使用说明。
 
    * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
-   * 区段定义：在Adobe Experience Platform中，用于描述目标受众关键特征或行为的规则。 此术语以前称为“区段”。
+   * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
 
-   因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，您将看到“区段”被“受众”取代，以反映这种创建和管理受众的新方式。
+   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
-   在指一组旨在接收报文的用户档案时，“受众”一词的翻译在部分语言的所有数字体验产品中得到了统一：
+   “受众”一词在指代一组向其发送消息的目标个人资料时，对于部分语言，其含义在所有数字体验产品中是统一的：
 
    * 德语：Zielgruppe
    * 巴西葡萄牙语：público-alvo
@@ -167,13 +166,13 @@ ht-degree: 79%
 
 **短信渠道**
 
-* 在配置短信渠道界面时，Infobip已添加为供应商提供商。 [了解详情](../sms/sms-configuration.md)
-* Twilio - API凭据设置现在包括添加消息服务SID的功能，以便与您的Twilio帐户无缝集成。 [了解详情](../sms/sms-configuration.md)
+* 在配置短信渠道平面时，Infobip 已添加为供应商提供商。[了解详情](../sms/sms-configuration.md)
+* Twilio - API 凭据设置现在包括添加消息服务 SID 的功能，以便与您的 Twilio 帐户无缝集成。[了解详情](../sms/sms-configuration.md)
 
 **应用程序内渠道**
 
-* 为Adobe地标服务添加了新消息触发规则。 [了解详情](../in-app/inapp-configuration.md)
-* 添加了新的Adobe Experience Platform保证功能，用于捕获设备事件以添加为触发规则。
+* 为 Adobe Places Service 添加了新消息触发规则。[了解详情](../in-app/inapp-configuration.md)
+* 添加了新的 Adobe Experience Platform 保证功能，用于捕获设备事件以添加为触发规则。
 
 <!--
 **Journeys**
@@ -183,21 +182,21 @@ ht-degree: 79%
 
 **营销活动**
 
-* 现在，可以使用省略号操作菜单从库存屏幕复制营销活动。 [了解详情](../campaigns/modify-stop-campaign.md#duplicate)
+* 现在，可以使用省略号操作菜单从库屏幕复制营销活动。[了解详情](../campaigns/modify-stop-campaign.md#duplicate)
 * 您现在可以删除对实时营销活动的草稿修改。
-* 激活营销活动的步骤现已得到简化。 [了解详情](../campaigns/modify-stop-campaign.md)
+* 激活营销活动的步骤现已简化。[了解详情](../campaigns/modify-stop-campaign.md)
 
 **决策管理**
 
-* 如果选件具有以下特征，您现在可以编辑频率封顶 **[!UICONTROL 草稿]** 状态，以前从未发布并启用了频率封顶。 [了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
+* 如果优惠为&#x200B;**[!UICONTROL 草稿]**&#x200B;状态且之前从未在启用频率封顶的情况下发布，您现在可以编辑频率封顶。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **个性化**
 
-* 在HTML内容中工作时，您现在可以直接从个性化编辑器中选择和插入资源引用。
+* 在处理 HTML 内容时，您现在可以直接从个性化编辑器中选择和插入资源引用。
 
 ### 修复{#may-2023-fixes}
 
-* 应用程序内消息 — 修复了营销活动计划与消息频率设置冲突的问题。
+* 应用程序内消息 – 修复了营销活动计划与消息频率设置冲突的问题。
 
 
 ## 2023 年 4 月发行说明 {#apr-rn-2023}
@@ -227,7 +226,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>移动载入快速入门工作流（测试版）</strong><br/></th>
+<th><strong>移动端加入快速入门工作流程（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -244,16 +243,16 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>新历程功能板（测试版）</strong><br/></th>
+<th><strong>新历程仪表板（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> 历程功能板现在分为两个选项卡：</p>
-<ul><li>使用 <strong>概述</strong> 选项卡，以访问显示与历程相关关键量度的新仪表板。</li>
-<li>使用 <strong>浏览</strong> 选项卡以访问所有历程的列表。</li></ul>
-<p>此功能作为公共测试版可在所有历程中访问。</p>
+<p> 历程仪表板现在分为两个选项卡：</p>
+<ul><li>使用<strong>概述</strong>选项卡，可访问显示与历程有关的关键量度的新仪表板。</li>
+<li>使用<strong>浏览</strong>选项卡，可访问所有历程列表。</li></ul>
+<p>此功能为公开 Beta 版，可在所有历程中使用。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-gs.md#journey-access">详细文档</a>。</p>
 </td>
@@ -387,7 +386,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>应用程序内渠道（测试版）</strong><br/></th>
+<th><strong>应用程序内渠道（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -405,7 +404,7 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>将Journey Optimizer数据集导出到Cloud Storage Destinations (Beta)</strong><br/></th>
+<th><strong>将 Journey Optimizer 数据集导出到云存储目标（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
