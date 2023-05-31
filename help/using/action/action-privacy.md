@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 有关数据管理框架以及如何使用标签和策略的更多信息，请参阅 Adobe Experience Platform 文档：
 
 * [数据管理服务概述](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hans)
-* [数据使用标签概述](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
+* [数据使用标签概述](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans)
 * [数据使用策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans)
 
 ## 重要说明 {#important-notes}
@@ -48,7 +48,7 @@ ht-degree: 99%
 * 为历程中使用的每个第三方自定义操作定义营销操作。
 * 创建治理策略并将其与标签和营销操作相关联。
 
-有关如何管理策略的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)
+有关如何管理策略的更多信息，请参阅此[文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy)
 
 让我们以血型字段为例，您需要将该字段标记为敏感字段，并限制将其导出到第三方系统。具体步骤如下：
 
