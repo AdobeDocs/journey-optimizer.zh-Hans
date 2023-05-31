@@ -9,22 +9,22 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
 # 管理选择退出机制 {#consent}
 
-向收件人提供取消订阅以停止从品牌接收通信的功能是一项法律要求，同时确保遵循此选择。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}中进一步了解适用的法规。
+向收件人提供取消订阅功能以用于停止从品牌接收通信并确保尊重用户的选择，这是法律要求。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}中进一步了解适用的法规。
 
 **为什么这很重要？**
 
 * 未能遵守这些法规会为您的品牌带来法律监管风险。
 * 它有助于避免向收件人发送未经请求的通信，这种通信可能会使他们将您的消息标记为垃圾邮件并损害您的声誉。
 
-## 管理历程和营销活动中的退订 {#opt-out-ajo}
+## 管理历程和营销活动中的取消订阅 {#opt-out-ajo}
 
 在从历程或活动发送消息时，必须始终确保客户可以取消订阅未来的通信。取消订阅后，用户档案将自动从未来营销消息的受众中删除。
 
@@ -57,35 +57,35 @@ ht-degree: 43%
 
 ## 实施个性化同意 {#opt-out-personalization}
 
-您的客户还可以选择不向展示个性化内容。 一旦用户档案选择退出个性化，您需要确保其数据不被用于个性化，并且您必须使用回退变体替换任何个性化内容。
+您的客户还可以选择不展示个性化内容。用户选择退出个性化后，您需要确保其数据不被用于个性化，并且必须使用后备版本替换任何个性化内容。
 
 ### 在决策管理中
 
-利用优惠时，个性化首选项不会自动在中实施 [决策范围](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) 使用自 [决策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API请求或 [边缘决策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) api请求。 在这种情况下，您需要手动强制执行个性化同意。 为此，请执行以下步骤。
+使用优惠时，个性化首选项不会自动实施[决策范围](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)（在[决策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 请求或 [Edge 决策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 请求中所使用的）。在这种情况下，您需要手动强制执行个性化同意。要实现此目的，请执行以下步骤。
 
 >[!NOTE]
 >
->中使用的决策范围 [!DNL Journey Optimizer] 创作渠道从它们所属的历程或营销活动中满足此要求。
+>[!DNL Journey Optimizer] 创建的渠道中使用的决策范围满足其所属历程或营销活动的这一要求。
 
 
 
-1. 创建 [Adobe Experience Platform区段](../segment/about-segments.md) 使用配置文件属性，例如： *&quot;同意个性化= True&quot;* 定位同意个性化的用户。
+1. 使用个人资料属性创建 [Adobe Experience Platform 区段](../segment/about-segments.md)来定位同意个性化的用户，例如：*&quot;Consents to Personalization = True&quot;*。
 
-1. 创建时 [决策](../offers/offer-activities/create-offer-activities.md)，添加决策范围，并根据此区段为包含个性化优惠的每个评估标准集合定义资格约束。
+1. 创建[决策](../offers/offer-activities/create-offer-activities.md)时，添加决策范围，并根据此区段为包含个性化优惠的每个评估标准集合定义资格条件约束。
 
-1. 创建 [后备优惠](../offers/offer-library/creating-fallback-offers.md) 不包括个性化内容。
+1. 创建不包括个性化内容的[后备优惠](../offers/offer-library/creating-fallback-offers.md)。
 
-1. [分配](../offers/offer-activities/create-offer-activities.md#add-fallback) 决策的非个性化后备优惠。
+1. 将非个性化后备优惠[分配](../offers/offer-activities/create-offer-activities.md#add-fallback)到决策。
 
-1. [查看并保存](../offers/offer-activities/create-offer-activities.md#review) 决定。
+1. [查看并保存](../offers/offer-activities/create-offer-activities.md#review)决策。
 
-如果用户具有：
+如果用户：
 
-* 同意进行个性化，决策范围将确定适用于该配置文件的最佳选件。
+* 同意进行个性化，决策范围将确定适用于该个人资料的最佳优惠。
 
-* 未经同意进行个性化，则相应的用户档案将不符合评估标准中的任何选件的条件，因此将收到非个性化的后备选件。
+* 不同意进行个性化，则相应的个人资料将不符合评估标准中任何优惠的条件，因此将收到非个性化的后备优惠。
 
 >[!NOTE]
 >
->同意在中使用配置文件数据 [数据建模](../offers/ranking/ai-models.md) 尚不支持 [!DNL Journey Optimizer].
+>针对在[数据建模](../offers/ranking/ai-models.md)中使用个人资料数据的同意功能在 [!DNL Journey Optimizer] 中尚不支持。
 
