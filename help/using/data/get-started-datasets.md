@@ -8,9 +8,9 @@ level: Beginner
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 
 您可以：
 
-* 从架构创建数据集。[在本文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
+* 从架构创建数据集。[在本文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#schema){target="_blank"}
 * 从 CSV 文件创建数据集。[在本文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans){target="_blank"}
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
