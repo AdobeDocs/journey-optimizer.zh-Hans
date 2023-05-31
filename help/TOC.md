@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 98%
    + 内容体验{#content-experiment}
       + [内容体验入门](using/campaigns/get-started-experiment.md)
       + [创建内容体验](using/campaigns/content-experiment.md)
-      + [配置实验报表](using/campaigns/reporting-configuration.md)
+      + [配置实验报告](using/campaigns/reporting-configuration.md)
       + 技术说明 {#technotes}
          + [了解统计计算](using/campaigns/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/campaigns/experiment-report-calculations.md)
