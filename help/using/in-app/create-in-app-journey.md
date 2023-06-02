@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
+source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '552'
 ht-degree: 4%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 4%
 
 1. 选择应用程序内消息处于活动状态时触发的频率：
 
-   * **[!UICONTROL 每次都显示]**：当在中选择了事件时，始终显示消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 显示一次]**：仅在第一次在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
+   * **[!UICONTROL 每次]**：当在中选择了事件时，始终显示消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+   * **[!UICONTROL 一次]**：仅在第一次在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+   * **[!UICONTROL 点进之前]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
    * **[!UICONTROL X次数]**：仅显示消息的特定次数，具体次数由中设置的值决定。 **[!UICONTROL 显示时间]** 字段。
 
 1. 选择一周中的哪一天以及您希望触发应用程序内消息的特定时间，然后单击 **[!UICONTROL 保存]**.
