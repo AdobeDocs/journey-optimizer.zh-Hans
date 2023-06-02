@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -37,21 +37,20 @@ ht-degree: 4%
 
    ![](assets/in_app_journey_4.png)
 
+1. 从 **[!UICONTROL 应用程序内消息触发器]** 窗口中，选择将触发消息的事件和条件：
+
+   1. 单击 **[!UICONTROL 添加条件]** 您希望触发器考虑多个事件或标准。
+   1. 从 **[!UICONTROL 选择事件]** 下拉列表中，选择触发器的事件类型。
+   1. 选择事件的链接方式，例如，选择 **[!UICONTROL 和]** 如果您愿意 **两者** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望显示消息，如果 **任一** 的触发条件为真。
+   1. 单击 **[!UICONTROL 创建组]** 将触发器组合在一起。
+
+   ![](assets/in_app_journey_3.png)
+
 1. 选择应用程序内消息处于活动状态时触发的频率：
 
    * **[!UICONTROL 每次都显示]**：当在中选择了事件时，始终显示消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
    * **[!UICONTROL 显示一次]**：仅在第一次在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
    * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
-
-1. 从 **[!UICONTROL 移动应用程序触发器]** 在下拉列表中，选择将触发消息的事件和条件：
-
-   1. 从左侧下拉列表中，选择触发消息所需的事件。
-   1. 从右侧的下拉列表中，选择选定事件所需的验证。
-   1. 单击 **[!UICONTROL 添加]** 按钮。 然后，重复上述步骤。
-   1. 选择事件的链接方式，例如，选择 **[!UICONTROL 和]** 如果您愿意 **两者** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望显示消息，如果 **任一** 的触发条件为真。
-   1. 单击 **[!UICONTROL 保存]** 触发器配置完成时。
-
-   ![](assets/in_app_journey_3.png)
 
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流。 [了解详情](../building-journeys/about-journey-activities.md)
 
