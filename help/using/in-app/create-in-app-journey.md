@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 4%
    * **[!UICONTROL 显示一次]**：仅在第一次在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
    * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
 
+1. 选择一周中的哪一天以及您希望触发应用程序内消息的特定时间，然后单击 **[!UICONTROL 保存]**.
+
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流。 [了解详情](../building-journeys/about-journey-activities.md)
 
 1. 应用程序内消息准备就绪后，完成配置并发布历程以激活它。
@@ -70,7 +72,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 反应]** 活动无法用于对应用程序内打开或单击作出反应。
 
-* 从用户配置文件到达画布中的应用程序内活动到开始看到应用程序内消息之间，会发生激活延迟。 此延迟的范围为15分钟到1小时。
+* 从用户配置文件到达画布中的应用程序内活动到开始看到应用程序内消息时，可能会发生激活延迟。
 
 **相关主题：**
 
