@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
+source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '555'
 ht-degree: 4%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 4%
    * **[!UICONTROL 每次都显示]**：当在中选择了事件时，始终显示消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
    * **[!UICONTROL 显示一次]**：仅在第一次在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
    * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
+   * **[!UICONTROL X次数]**：仅显示消息的特定次数，具体次数由中设置的值决定。 **[!UICONTROL 显示时间]** 字段。
 
 1. 选择一周中的哪一天以及您希望触发应用程序内消息的特定时间，然后单击 **[!UICONTROL 保存]**.
 
