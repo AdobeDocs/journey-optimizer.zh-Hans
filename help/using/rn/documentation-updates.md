@@ -5,9 +5,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 * 添加了介绍如何确保遵循客户选择不使用其个人资料数据进行个性化的意愿的新部分。[了解详情](../privacy/opt-out.md#opt-out-personalization)
 * 添加了关于在电子邮件内容 URL 中使用特殊国际字符的注释。[了解详情](../email/message-tracking.md#insert-links)
 * 添加了测试和发布登陆页面所需的权限。[了解详情](../landing-pages/create-lp.md)
-* 添加了有关在决策管理频度上限中考虑自定义事件所需的Adobe Experience Platform端点的说明。 [了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
+* 添加了有关在“决策管理”频率封顶中考虑您的自定义事件所需的 Adobe Experience Platform 端点的注释。[了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## 2023 年 4 月 {#apr-2023}
 
