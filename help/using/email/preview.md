@@ -49,7 +49,7 @@ ht-degree: 11%
 >id="ac_preview_testprofiles"
 >title="预览和测试消息"
 >abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="电子邮件渲染"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="电子邮件呈现"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="预览"
 
 使用 [测试用户档案](../segment/creating-test-profiles.md) 定位不符合所规定定位标准的其他收件人。

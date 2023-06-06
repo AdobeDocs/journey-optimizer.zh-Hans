@@ -125,7 +125,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
 >title="定义您自已的片段"
->abstract="从头开始创建独立的片段，这样您的内容便可在多个历程和营销活动中重复使用。"
+>abstract="从头开始创建独立的片段，以便可在历程和营销活动中重用您的内容。"
 
 要从头开始创建片段，请执行以下步骤。
 
