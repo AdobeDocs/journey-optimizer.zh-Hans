@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 您可以通过向以下网站发出PATCH请求来修改或更新个性化优惠： [!DNL Offer Library] API
 
-有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](http://jsonpatch.com/).
+有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

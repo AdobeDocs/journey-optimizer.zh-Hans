@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 要更深入地了解汤普森采样，请阅读以下研究论文：
 * [Thompson抽样方法的实证分析](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [多臂强盗问题的Thompson抽样分析](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [多臂强盗问题的Thompson抽样分析](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## 冷启动问题 {#cold-start}
 

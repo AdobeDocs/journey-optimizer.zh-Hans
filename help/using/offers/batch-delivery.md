@@ -2,7 +2,7 @@
 title: 批量决策
 description: 了解如何将优惠决策投放给给定Adobe Experience Platform区段中的所有用户档案。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
 * **数据集** 在Adobe Experience Platform中。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 了解详情，请参阅 [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans).
 
-* **区段** 在Adobe Experience Platform中。 应评估并更新区段。 了解如何更新中的区段会员资格评估 [分段服务文档](http://www.adobe.com/go/segmentation-overview-en)
+* **区段** 在Adobe Experience Platform中。 应评估并更新区段。 了解如何更新中的区段会员资格评估 [分段服务文档](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 您可以通过对容器中的PATCH发出收集请求，来修改或更新容器中的收藏集限定符（以前称为“标记”）。 [!DNL Offer Library] API。
 
-有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](http://jsonpatch.com/).
+有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 

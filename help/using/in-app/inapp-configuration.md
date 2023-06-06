@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 11%
+source-wordcount: '281'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 在发送应用程序内消息之前，您需要在中配置应用程序内渠道 [!DNL Adobe Experience Platform Data Collection].
 
-1. 来自您的 [!DNL Adobe Experience Platform Data Collection] 帐户，访问 **[!UICONTROL 数据流]** 菜单并单击 **[!UICONTROL 新建数据流]**. 有关创建数据流的详细信息，请参阅 [此页面](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. 来自您的 [!DNL Adobe Experience Platform Data Collection] 帐户，访问 **[!UICONTROL 数据流]** 菜单并单击 **[!UICONTROL 新建数据流]**. 有关创建数据流的详细信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans).
 
 1. 选择 [!DNL Adobe Experience Platform] 服务。
 
