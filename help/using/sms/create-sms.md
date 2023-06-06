@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 13%
 
 1. 在 `originalUrl` 字段中，粘贴要缩短的URL。
 
-1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
 
    ![](assets/sms-content-preview.png)
 

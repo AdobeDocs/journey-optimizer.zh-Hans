@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 此外，还可以从分段服务本身创建区段。 了解详情，请参阅 [Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## 在中使用区段 [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## 在 [!DNL Journey Optimizer] 中使用  区段 {#segments-in-journey-optimizer}
 
 您可以在中利用区段 **[!DNL Journey Optimizer]** 以不同方式进行：
 

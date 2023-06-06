@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 34%
 
    ![](assets/link_1.png)
 
-1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]** 从 **[!UICONTROL 样式]** 选项卡。
+1. 要更改链接的颜色，请单击&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 链接颜色]**。
 
    ![](assets/link_3.png)
 

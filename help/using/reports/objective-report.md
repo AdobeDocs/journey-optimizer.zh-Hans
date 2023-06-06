@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6b8983d3f3fa989bd7190fc6a8b51fa8989b2293
+exl-id: b0ba68ec-0e1c-4dbe-86d8-3f3653bb7b5c
+source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 3%
@@ -82,4 +83,3 @@ Campaign全局报告可通过以下方式直接从您的Campaign访问： **[!UI
 +++
 
 要深入了解这些结果以及如何解释这些结果，请参阅 [此页面](../campaigns/get-started-experiment.md#interpret-results).
-

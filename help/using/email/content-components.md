@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 54%
+ht-degree: 57%
 
 ---
 
@@ -137,7 +137,7 @@ ht-degree: 54%
 
 使用&#x200B;**[!UICONTROL 分隔条]**&#x200B;组件可插入分隔线来整理电子邮件的版面和内容。
 
-您可以从以下位置调整样式属性，例如线条的颜色、样式和高度 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
+您可以从&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整样式属性，例如线条颜色、样式和高度。
 
 ![](assets/email_designer_divider.png)
 
@@ -190,7 +190,7 @@ ht-degree: 54%
 
 1. 选择新添加的组件。
 
-1. 在 **[!UICONTROL Social]** 字段 **[!UICONTROL 设置]** 选项卡，选择要添加或删除的社交媒体。
+1. 在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡的&#x200B;**[!UICONTROL 社交]**&#x200B;字段中，选择要添加或删除的社交媒体。
 
    ![](assets/email_designer_20.png)
 

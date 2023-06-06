@@ -12,7 +12,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 14%
 
 ### 发送确认电子邮件 {#send-confirmation-email}
 
-此外，您还可以向注册了事件的收件人发送确认电子邮件。 为此，请执行以下步骤。
+此外，您还可以向注册了事件的收件人发送确认电子邮件。 要实现此目的，请执行以下步骤。
 
 1. 创建另一个 [历程](../building-journeys/journey.md). 您可以直接从登陆页面通过单击 **[!UICONTROL 创建历程]** 按钮。 [了解详情](create-lp.md#configure-primary-page)
 
