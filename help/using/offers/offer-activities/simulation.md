@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: c2cd44113223b9886f803da131e451440293a966
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '901'
 ht-degree: 6%
 
 ---
 
 # 创建模拟 {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="模拟优惠决策"
+>abstract="模拟允许您模拟在给定投放位置将哪些优惠投放到测试用户档案。 这使您能够测试和优化优惠的各种版本，而不会影响目标收件人。
 
 ## 关于模拟 {#about-simulation}
 
@@ -204,7 +209,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 要在外部使用请求有效负载，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
+1. 要在外部使用请求有效负载，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为便于进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
 
    ![](../assets/offers_simulation-copy-payload.png)
 
