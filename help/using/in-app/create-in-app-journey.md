@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 4%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
@@ -74,6 +74,35 @@ ht-degree: 4%
 * **[!UICONTROL 反应]** 活动无法用于对应用程序内打开或单击作出反应。
 
 * 从用户配置文件到达画布中的应用程序内活动到开始看到应用程序内消息时，可能会发生激活延迟。
+
+## 应用程序内报告 {#inapp-report}
+
+从您的历程 **[!UICONTROL 全局报告]**，则 **[!UICONTROL 应用程序内]** 选项卡详细列出了与历程中发送的应用程序内投放相关的主要信息。
+
+详细了解 [历程全局报告](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++了解有关可用于应用程序内报表的不同量度和小部件的更多信息。
+
+此 **[!UICONTROL 应用程序内性能]** KPI详细列出与访客对应用程序内消息的参与度相关的主要信息，例如：
+
+* **[!UICONTROL 独特展示次数]**：向其传递应用程序内消息的独特用户数。
+
+* **[!UICONTROL 展示次数]**：交付给所有用户的应用程序内消息总数。
+
+* **[!UICONTROL 点击率]**：与查看了消息的用户相比，与应用程序内消息中包含的按钮进行交互的用户百分比。
+
+* **[!UICONTROL 解除率]**：收件人已解除的应用程序内消息的百分比。
+
+此 **[!UICONTROL 应用程序内摘要]** 图形可显示相关时段内应用程序内展示的演变。
+
+此 **[!UICONTROL 按按钮显示的点击次数]** 图表和表包含每个按钮的收件人行为的可用数据：
+
+* **[!UICONTROL 点击次数]**：与应用程序内消息中包含的按钮进行交互的收件人总数。
+
+* **[!UICONTROL 点击率]**：与查看了消息的用户相比，与应用程序内消息中包含的按钮进行交互的用户百分比。
++++
 
 **相关主题：**
 
