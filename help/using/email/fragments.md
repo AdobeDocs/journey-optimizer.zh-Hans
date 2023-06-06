@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -124,8 +124,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="定义您自己的片段"
->abstract="从头开始创建一个独立片段，以使您的内容可在多个历程和营销活动中重复使用。"
+>title="定义您自已的片段"
+>abstract="从头开始创建独立的片段，这样您的内容便可在多个历程和营销活动中重复使用。"
 
 要从头开始创建片段，请执行以下步骤。
 

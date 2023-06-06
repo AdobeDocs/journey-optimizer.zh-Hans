@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: c2cd44113223b9886f803da131e451440293a966
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模拟优惠决策"
->abstract="模拟允许您模拟在给定投放位置将哪些优惠投放到测试用户档案。 这使您能够测试和优化优惠的各种版本，而不会影响目标收件人。
+>abstract="模拟允许您模拟在给定投放位置将哪些优惠投放到测试用户档案。 这使您能够测试和优化优惠的各种版本，而不会影响目标收件人。"
 
 ## 关于模拟 {#about-simulation}
 

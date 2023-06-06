@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -248,7 +248,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="设置上限频率"
->abstract="您可以选择每天、每周或每月重置优惠上限计数器。请注意，在启用了频率上限的情况下发布优惠后，您将无法更改已定义的频率。"
+>abstract="您可以选择每天、每周或每月重置优惠上限计数器。请注意，在启用频率封顶的情况下发布优惠后，您将无法更改已定义的频率。"
 
 此 **[!UICONTROL 频率]** 部分允许您定义重置上限计数的频率。 要执行此操作，请定义盘点期间（每天、每周或每月），并输入您选择的天数/周数/月数。
 
