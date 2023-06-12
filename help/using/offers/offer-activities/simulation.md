@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 6%
+source-wordcount: '901'
+ht-degree: 12%
 
 ---
 
 # 创建模拟 {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="模拟优惠决策"
+>abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些优惠投放到某个测试配置文件。这样测试和细化您的优惠的各个版本即可不影响目标收件人。"
 
 ## 关于模拟 {#about-simulation}
 
@@ -21,7 +26,7 @@ ht-degree: 6%
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-这使您能够测试和优化优惠的各种版本，而不会影响目标收件人。
+这样测试和细化您的优惠的各个版本即可不影响目标收件人。
 
 >[!NOTE]
 >
@@ -204,7 +209,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 要在外部使用请求有效负载，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
+1. 要在外部使用请求有效负载，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为便于进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
 
    ![](../assets/offers_simulation-copy-payload.png)
 
@@ -212,5 +217,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >将请求或响应负载复制到您自己的代码中时，请确保使用有效值替换{USER_TOKEN}和{API_KEY}。 了解如何在中检索这些值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 文档。
+   >将请求或响应负载复制到您自己的代码中时，请确保替换 {USER_TOKEN} 和 {API_KEY} 的有效值。 了解如何在中检索这些值 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 文档。
 
