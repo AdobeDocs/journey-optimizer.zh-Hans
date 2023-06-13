@@ -57,15 +57,15 @@ ht-degree: 95%
 
 * 根据来自 Adobe Experience Platform 的数据，在您的网站主页上显示与来访客户的兴趣点相匹配的优惠。
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * 如果客户走到您的商店附近，根据他们的属性（忠诚度、性别、以前的购买记录等）向他们发送推送通知，提醒他们有可用的优惠。
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * 决策管理还可帮助您提升客户在联系支持团队时的体验。决策管理 API 允许您在呼叫中心服务人员的门户中显示有关客户已兑现的优惠和下个最合适优惠的信息。
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## 授予对决策管理的访问权限 {#granting-acess-to-decision-management}
 
