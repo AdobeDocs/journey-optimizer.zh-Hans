@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2453'
+ht-degree: 98%
 
 ---
 
@@ -153,14 +153,13 @@ ht-degree: 100%
    * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
    * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
 
-   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
+  因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
-   “受众”一词在指代一组向其发送消息的目标个人资料时，对于部分语言，其含义在所有数字体验产品中是统一的：
+  “受众”一词在指代一组向其发送消息的目标个人资料时，对于部分语言，其含义在所有数字体验产品中是统一的：
 
    * 德语：Zielgruppe
    * 巴西葡萄牙语：público-alvo
    * 西班牙语：público destinatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -266,10 +265,7 @@ ht-degree: 100%
 
 * 现在，历程画布会显示消息活动的活动 ID 和结束标记。这可改进报表和重定位。
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
-* 历程中已添加新护栏：
-   * 历程中的活动数量现在限制为 50 个。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-   * 现在，一个组织中的&#x200B;**实时历程**&#x200B;数量限制为每个沙盒 100 个。历程在测试模式下时，不会被考虑在内。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-
+* 对画布上的节点数有了新的见解，并提供了有助于增长的保护措施：使历程易于阅读、QA和故障排除，每个历程的最大节点数为50。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * 默认情况下，在历程中添加[电子邮件](../email/create-email.md)、[短信](../sms/create-sms.md)或[推送](../push/create-push.md)操作时，该平面会在当前历程中使用该渠道的最后一个使用平面进行预填充。
 * 您现在可以在自定义操作中定义静态或动态查询参数。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -361,7 +357,7 @@ ht-degree: 100%
 
 * 为了防止与最近发布的 Adobe Experience Platform 中的标记功能混淆，决策管理标记已重命名为“收藏集限定符”。
 
-   请注意，尽管术语“标记”不再用于“决策管理”用户界面中，但仍然在后端服务中使用，例如 API 和数据集。
+  请注意，尽管术语“标记”不再用于“决策管理”用户界面中，但仍然在后端服务中使用，例如 API 和数据集。
 
 * 您现在可以每日、每周或每月重置优惠上限计数器。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
@@ -377,7 +373,7 @@ ht-degree: 100%
 
 * 报表小组件功能已得到改进，允许自定义用户查看其数据的方式。通过这项改进，用户现在可以在多个可视化选项（包括图形、表格和圆环图）之间进行选择。
 
-   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md#modify-dashboard)。
+  要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md#modify-dashboard)。
 
 ## 2023 年 2 月发行说明 {#feb-2023}
 

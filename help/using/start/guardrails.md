@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -44,8 +44,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 一般历程护栏 {#journeys-guardrails-journeys}
 
-* 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。
-* 一个组织中的&#x200B;**实时历程**&#x200B;数量限制为每个沙盒 100 个。达到此限制后，您将无法再发布新历程。
+* 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有助于提高可读性、QA和疑难解答。
 
 ### 常规操作 {#general-actions-g}
 
