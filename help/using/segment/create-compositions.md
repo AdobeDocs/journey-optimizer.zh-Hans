@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '405'
+ht-degree: 15%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 14%
    * **[!UICONTROL Audience]**：构图的起点。 此活动允许您选择一个或多个受众作为工作流的基础，
 
    * **[!UICONTROL 保存]**：构成的最后一步。 利用此活动，可将工作流结果保存到新受众中。
+
    有关如何配置构成工作流画布中的活动的更多信息，请参阅 [使用合成画布](composition-canvas.md).
 
 1. 打开合成属性以指定标题和描述。
@@ -66,7 +67,7 @@ ht-degree: 14%
 
    >[!IMPORTANT]
    >
-   >在一个给定的沙盒中最多可发布75个合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
+   >在一个给定的沙盒中最多可发布10个合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
 
    如果在发布期间发生任何错误，将显示警报，其中包含有关如何解决该问题的信息。
 
@@ -85,7 +86,6 @@ ht-degree: 14%
 
 * **[!UICONTROL 草稿]**：构成正在进行中，尚未发布。
 * **[!UICONTROL 已发布]**：构成已发布，生成的受众已保存并可供使用。
-* **[!UICONTROL 已存档]**：构成已存档。
 
 ![](assets/audiences-compositions.png)
 

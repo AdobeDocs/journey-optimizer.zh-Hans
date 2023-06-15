@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->受众组合当前仅作为 Private Beta 提供，可能会时常更新，恕不另行通知。 Beta 版是在组织级别配置的，这意味着它将影响您组织内的所有沙盒。
+>受众构成目前仅适用于有限的客户群体。 如果您有任何问题，请联系您的Adobe代表。
 
 通过受众组合，您可以创建&#x200B;**组合工作流程**，将现有 Adobe Experience Platform 受众合并到可视画布中，并利用各种活动（拆分、排除等）来创建新受众。
 
@@ -49,6 +49,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >由组合工作程流生成的受众只能在 Journey Optimizer 营销活动中定位。 这些受众无法在历程中加以使用。
+>
+>Adobe Journey Optimizer中的营销活动尚未与策略执行服务集成。 因此，您应用于受众属性的任何数据使用标签都不会在Journey Optimizer营销活动中强制执行。
 
 受众组合可通过 Adobe Journey Optimizer **[!UICONTROL 区段]**&#x200B;菜单访问：
 
