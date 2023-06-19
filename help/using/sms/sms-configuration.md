@@ -6,10 +6,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 ## 先决条件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前与Sinch和Twilio等第三方提供商集成，这些提供商提供独立于Adobe Journey Optimizer的短信服务。
+Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集成，这些提供商提供独立于Adobe Journey Optimizer的短信服务。
 
 在配置SMS之前，您必须使用这些SMS提供商之一创建一个帐户，以接收API令牌和服务ID，从而能够在Adobe Journey Optimizer和适用的SMS提供商之间建立连接。
 
@@ -62,6 +62,7 @@ Adobe Journey Optimizer目前与Sinch和Twilio等第三方提供商集成，这�
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
       * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。  [了解详情](https://developers.sinch.com/docs/sms/getting-started/)
+
    * 对象 **[!DNL Twilio]**：
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
@@ -69,6 +70,7 @@ Adobe Journey Optimizer目前与Sinch和Twilio等第三方提供商集成，这�
       * **[!UICONTROL 帐户SID]** 和 **[!UICONTROL 身份验证令牌]**：访问Twilio控制台仪表板页面的“帐户信息”窗格以查找凭据。
 
       * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 [了解详情](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+
    * 对象 **[!DNL Infobip]**：
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
@@ -114,20 +116,19 @@ Adobe Journey Optimizer目前与Sinch和Twilio等第三方提供商集成，这�
       * 选择 **营销** 促销短信：这些消息需要用户同意。
       * 选择 **事务性** 用于非商业性消息，例如订单确认、密码重置通知或投放信息。
 
-      >[!CAUTION]
-      >
-      >**事务性** 短信消息可以发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
+     >[!CAUTION]
+     >
+     >**事务性** 短信消息可以发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
 
-      创建短信消息时，您必须选择与为消息选择的类别匹配的有效渠道平面。
+     创建短信消息时，您必须选择与为消息选择的类别匹配的有效渠道平面。
 
    * 选择 **[!UICONTROL 短信配置]** 以与曲面相关联。
 
-      有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](#create-api).
+     有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](#create-api).
 
    * 输入 **[!UICONTROL 发件人号码]** 您&#x200B;希望用于通信。
 
    * 选择您的 **[!UICONTROL 短信执行字段]** 以选择 **[!UICONTROL 配置文件属性]** 与用户档案的电话号码相关联。
-
 
 1. 如果要在短信消息中使用URL缩短功能，请从 **[!UICONTROL 子域]** 列表。
 
