@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1787'
 ht-degree: 8%
 
 ---
@@ -43,13 +43,9 @@ ht-degree: 8%
 
 在 **电子邮件类型** 部分，选择将随表面一起发送的消息类型： **营销** 或 **事务性**.
 
-* 选择 **营销** 促销电子邮件：这些消息需要用户同意。
+* 选择 **营销** 促销电子邮件，例如零售商店的每周促销活动。 这些消息需要用户同意。
 
-* 选择 **事务性** 用于非商业电子邮件，例如订单确认、密码重置通知或投放信息。
-
->[!CAUTION]
->
->**事务性** 可以将电子邮件发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
+* 选择 **事务性** 用于非商业电子邮件，例如订单确认、密码重置通知或投放信息。 这些电子邮件可以发送给以下用户档案： **已取消订阅** 来自营销通信。 这些消息只能在特定上下文中发送。
 
 创建消息时，必须选择与为电子邮件选择的类别相匹配的有效渠道平面。
 
@@ -95,19 +91,19 @@ ht-degree: 8%
 
 * An **取消订阅电子邮件地址**，则会向所有发送取消订阅请求。
 
-   In [!DNL Journey Optimizer]，默认使用取消订阅电子邮件地址 **[!UICONTROL Mailto（取消订阅）]** 渠道平面中显示的地址，基于 [选定的子域](#subdomains-and-ip-pools).
+  In [!DNL Journey Optimizer]，默认使用取消订阅电子邮件地址 **[!UICONTROL Mailto（取消订阅）]** 渠道平面中显示的地址，基于 [选定的子域](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * 此 **取消订阅URL**，这是登陆页面的URL，取消订阅后，用户将重定向到该页面。
 
-   如果您添加 [一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out) 对于使用此界面创建的消息，取消订阅URL将为一键式选择退出链接定义的URL。
+  如果您添加 [一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out) 对于使用此界面创建的消息，取消订阅URL将为一键式选择退出链接定义的URL。
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >如果您没有在消息内容中添加一键式选择退出链接，则不会向用户显示登陆页面。
+  >[!NOTE]
+  >
+  >如果您没有在消息内容中添加一键式选择退出链接，则不会向用户显示登陆页面。
 
 在中了解更多有关向您的消息添加标头取消订阅链接的信息 [本节](../privacy/opt-out.md#unsubscribe-header).
 
