@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8aa64e44501b144cd3ccb325e07c1453753fc65c
+source-git-commit: 68a2846c33ce347b481ebd02e4d77938c24e6040
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 98%
+source-wordcount: '2565'
+ht-degree: 96%
 
 ---
 
@@ -22,47 +22,44 @@ ht-degree: 98%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+## 2023年6月早期发行说明 {#june-rn-2023}
 
-**Release date**: June 21-22, 2023
+以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
 
-### New capabilities{#june-2023-features}
+**发行日期**：2023年6月21日至22日
+
+### 新功能{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+<th><strong>针对营销用例的API触发的营销活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
-<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
+<p>您现在可以使用API从外部系统在Adobe Journey Optimizer中触发营销活动。</p>
+<p>在此版本之前，API触发的营销活动功能涵盖了各种操作和事务性消息传递需求（如密码重置或OTP令牌），但无法用于创建营销活动。 API触发的营销活动的可用渠道包括：电子邮件、短信和推送消息。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+<p>有关更多信息，请参阅<a href="../campaigns/api-triggered-campaigns.md">详细文档</a>。
 </td>
 </tr>
 </tbody>
 </table>
 
-
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
-
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
-
-* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
 -->
 
 ## 2023 年 5 月发行说明 {#may-rn-2023}
