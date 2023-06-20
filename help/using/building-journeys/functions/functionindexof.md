@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf，函数，表达式，历程
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # indexOf {#indexOf}
 
-检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾。 如果找不到该字符串，则返回–1。
+返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1。
 
 ## 类别
 
