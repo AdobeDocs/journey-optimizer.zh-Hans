@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，区段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 13%
 >title="读取区段活动"
 >abstract="利用读取区段活动，您可以允许属于 Adobe Experience Platform 区段的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。"
 
-使用 **读取区段** 活动，使区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
+使用 **读取区段** 活动使区段的所有个人进入旅程。 进入历程的操作可以执行一次，也可以定期执行。
 
 让我们以中创建的“Luma应用程序打开和结账”区段为例 [生成区段](../segment/about-segments.md) 用例。 通过读取区段活动，您可以使属于此区段的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性读取区段历程在历程执行30天后会变为“已完成”状态。 对于计划的读取区段，此期限为上次执行后的 30 天。 
+>一次性 **读取区段** 历程移至 **已完成** 历程执行30天后的状态。 对于已计划 **读取区段**，则为上次执行后的30天。
 
 ### 测试并发布历程 {#testing-publishing}
 

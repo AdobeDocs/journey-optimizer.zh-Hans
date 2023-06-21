@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，区段，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1549'
 ht-degree: 26%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 26%
 
 ## 访问历程 {#journey-access}
 
-在“历程管理”菜单部分中，单击 **[!UICONTROL 历程]**. 提供了两个选项卡：
+在“历程管理”菜单部分中，单击 **[!UICONTROL 历程]**. 提供了以下两个选项卡：
 
 **概述**：此选项卡显示一个功能板，其中包含与您的历程相关的关键量度：
 
@@ -153,7 +153,7 @@ ht-degree: 26%
 
 ### 历程活动中的超时和错误 {#timeout_and_error}
 
-在编辑操作或条件活动时，您可以定义替代路径，以防出现错误或超时。 如果对询问第三方系统的活动的处理超过了历程属性中定义的超时持续时间(**[!UICONTROL 超时和错误]** 字段)，将选择第二条路径来执行潜在的回退操作。
+编辑操作或条件活动时，您可以选择在出现错误或超时的情况下指定替代路径。 如果活动的处理（包括查询第三方系统）超过了历程属性中为超时和错误处理指定的持续时间(**[!UICONTROL 超时和错误]** 字段)，如有必要，将选择第二个路径以执行回退操作。
 
 授权值介于1和30秒之间。
 
