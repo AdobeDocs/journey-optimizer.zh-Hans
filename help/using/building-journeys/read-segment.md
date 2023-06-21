@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，区段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1337'
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 12%
    >
    >每个沙盒的总限制速率设置为每秒20,000条消息。 因此，在同一沙盒中同时运行的所有读取区段的限制速率每秒最多可添加20,000条消息。 您无法修改此上限。
 
-1. 此 **[!UICONTROL 读取区段]** 利用活动，可指定区段进入历程的时间。 要执行此操作，请单击 **[!UICONTROL 编辑历程计划]** 链接以访问历程的属性，然后配置 **[!UICONTROL 计划程序类型]** 字段。
+1. 此 **[!UICONTROL 读取区段]** 利用活动，可指定区段进入历程的时间。 要执行此操作，请单击 **[!UICONTROL 编辑历程计划]** 用于访问历程属性的链接。然后，配置 **[!UICONTROL 计划程序类型]** 字段。
 
    ![](assets/read-segment-schedule.png)
 
