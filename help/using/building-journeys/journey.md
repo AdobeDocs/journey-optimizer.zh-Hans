@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 历程，探索，开始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 28%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer包括全渠道编排画布，允许营销人员协调营
 
 了解如何在中开始和创建您的第一个历程 [此页面](journey-gs.md).
 
-全渠道历程设计器帮助您使用直观的拖放界面通过目标受众、基于实时客户或业务交互的更新以及全渠道消息构建多步骤历程。
+全渠道历程设计器可帮助您构建多步骤历程，特别是面向受众，并根据实时客户互动或业务互动引入更新。 它还允许您通过直观的拖放界面创建全渠道消息。
 
 ![](assets/journey38.png)
 
