@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 74%
 
 如果您成功发送事件，但未看到有人进入历程，则意味着在事件发送和事件接收之间出现问题。
 
-以下是管理员应检查的一些事项：
+您可以通过以下问题开始进行故障诊断：
 
 * 是否确定期待传入事件的历程处于测试模式或处于实时状态？
 * 是否在从有效负载预览复制有效负载之前保存了您的事件？
@@ -67,10 +67,10 @@ ht-degree: 74%
 * 您是否使用“事件配置”窗格中的有效负载结构预览遵循了流摄取 API 的有效负载结构？请参阅[此页](../event/about-creating.md#preview-the-payload)。
 * 您在事件的标头中使用了正确的键值对吗？
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## 检查人员在历程中的导航方式{#checking-how-people-navigate-through-the-journey}
 
