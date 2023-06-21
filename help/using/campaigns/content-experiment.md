@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 内容，试验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 6%
@@ -57,7 +57,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 -->
 1. 选择您的渠道，然后选择 **[!UICONTROL 表面]** 要用于此投放并单击 **[!UICONTROL 创建]**. 有关详情，请参阅 [渠道表面](../configuration/channel-surfaces.md) 页面。
 
-   在此示例中，我们选择使用电子邮件发送营销活动。
+   在本例中，我们选择使用电子邮件发送营销活动。
 
    ![](assets/content_experiment_2.png)
 
