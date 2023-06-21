@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，区段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 13%
@@ -116,13 +116,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 测试并发布历程 {#testing-publishing}
 
-此 **[!UICONTROL 读取区段]** 活动允许您在单一用户档案上测试历程，或者在符合区段条件的用户档案中随机选择的100个测试用户档案上测试历程。
+此 **[!UICONTROL 读取区段]** 活动允许您在单一用户档案上测试历程，或者在符合区段条件的用户档案中随机选择100个测试用户档案上测试历程。
 
-为此，请激活测试模式，然后从左窗格中选择所需的选项。
+为此，请激活 **测试模式**. 然后，从左窗格中选择所需的选项。
 
 ![](assets/read-segment-test-mode.png)
 
-然后，您可以像往常一样配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md).
+然后，您可以配置并运行 **测试模式** 和往常一样。 [了解如何测试历程](testing-the-journey.md).
 
 测试运行后， **[!UICONTROL 显示日志]** 按钮允许您根据选定的测试选项查看测试结果：
 
@@ -130,9 +130,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **[!UICONTROL 一次最多100个配置文件]**：利用测试日志，可跟踪从Adobe Experience Platform导出区段的进度，以及所有进入旅程的人员的个人进度。
 
-   请注意，一次最多使用100个配置文件测试历程不允许您使用视觉流跟踪历程中个人的进度。
+  请注意，一次最多使用100个配置文件测试历程不允许您使用视觉流跟踪历程中个人的进度。
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 测试成功后，即可发布历程(请参阅 [发布历程](publishing-the-journey.md))。 属于区段的个人将在历程的属性中指定的日期/时间进入历程 **[!UICONTROL 调度程序]** 部分。
 
