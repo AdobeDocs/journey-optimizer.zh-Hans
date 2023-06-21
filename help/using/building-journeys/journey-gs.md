@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，区段，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 26%
