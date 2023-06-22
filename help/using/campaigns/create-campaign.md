@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 23%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 23%
 >* [创建渠道平面](../configuration/channel-surfaces.md)
 >* [区段入门](../segment/about-segments.md)
 
-
 要创建新营销活动，请访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
 ## 选择营销活动类型和渠道 {#campaigntype}
@@ -33,18 +32,20 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="要通过指定发送日期发送营销信息，**计划**&#x200B;类型最合适。但是，如果您想发送密码重置或购物车放弃等事务性消息，最佳选择是 **API 触发**&#x200B;类型。"
+>abstract="**计划的活动** 立即执行或在指定日期执行，旨在发送营销类型消息。 **API触发** 营销活动使用API调用执行。 它们旨在发送营销消息或事务性消息，即根据个人执行的操作（密码重置、购物车放弃等）发送消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="营销活动类别"
->abstract="类别值直接关联到营销活动类型值。计划营销活动类型适用于&#x200B;**营销**&#x200B;类别，API 触发类型适用于&#x200B;**事务**&#x200B;类别"
+>abstract="如果您正在创建计划的活动， **营销** 类型被自动选中。 对于API触发的营销活动，请选择是否要发送 **营销** 或 **事务性** 消息，即在个人执行操作（密码重置、购物车放弃等）后发送的消息。"
 
 1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行营销策划。 有两种类型的营销活动可用：
 
-   * **[!UICONTROL 已计划]**：立即执行营销活动，或在指定日期执行。 计划的营销活动旨在发送 **营销** 键入消息。
+   * **[!UICONTROL 已计划]**：立即执行营销活动，或在指定日期执行。 计划的营销活动旨在发送 **营销** 消息。 它们可以从用户界面配置和执行。
 
-   * **[!UICONTROL API触发]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作（密码重置、购物车放弃等）后发送的消息。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
+   * **[!UICONTROL API触发]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **营销**，或 **事务性** 消息，即在个人执行操作（密码重置、购物车购买等）后发送的消息。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
+
+1. 如果您正在创建计划的活动， **营销** 类型被自动选中。 对于API触发的营销活动，请选择是否要发送 **营销** 或 **事务性** 信息。”
 
 1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道平面。
 

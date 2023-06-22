@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 877c4e871beebdd5a050df1a5d44f06cba07e109
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2527'
 ht-degree: 96%
 
 ---
@@ -23,14 +23,15 @@ ht-degree: 96%
 
 
 
-## 2023年6月早期发行说明 {#june-rn-2023}
-
-以下信息可能会在发行日期之前发生更改，恕不另行通知。更新文档将在发行之日发布，其直接链接将添加到此页面。
-
-**发行日期**：2023年6月21日至22日
+## 2023年6月发行说明 {#june-rn-2023}
 
 <!--
-### New capabilities{#june-2023-features}-->
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Release date**: June 21-22, 2023-->
+
+
+<!-- ### New capabilities{#june-2023-features}-->
 
 <table>
 <thead>
