@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 营销活动、 API触发、 REST 、优化器、消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -25,6 +25,10 @@ ht-degree: 1%
 
 API触发的营销活动的可用渠道包括电子邮件、短信和推送消息。
 
+>[!NOTE]
+>
+>截至目前，推送通知API触发的营销活动不支持快速投放。
+
 ## 创建API触发的营销活动 {#create}
 
 ### 配置和激活营销活动 {#create-activate}
@@ -38,10 +42,6 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 1. 选择其中一个受支持的渠道和关联的渠道表面来用于发送消息，然后单击 **[!UICONTROL 创建]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >截至目前，推送通知API触发的营销活动不支持快速投放。
 
 1. 指定营销活动的标题和描述，然后单击 **[!UICONTROL 编辑内容]** 以配置要发送的消息。
 
