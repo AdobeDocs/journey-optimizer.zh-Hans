@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 历程，探索，开始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer包括全渠道编排画布，允许营销人员协调营
 
 >[!NOTE]
 >
->通常，同一历程中无法同时存在多个用户档案。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](end-journey.md)。
+>通常，同一历程中无法同时存在多个用户档案。如果启用了重新进入，则用户档案可以重新进入历程，但在完全退出该历程的上一个实例之前无法重新进入历程。 [了解更多信息](end-journey.md)。
 
 如果您需要修改到实时历程，请创建历程的新版本。
 

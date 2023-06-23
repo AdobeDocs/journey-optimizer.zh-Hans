@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，区段，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 使用 **读取区段** 活动使区段的所有个人进入旅程。 进入历程的操作可以执行一次，也可以定期执行。
 
-让我们以中创建的“Luma应用程序打开和结账”区段为例 [生成区段](../segment/about-segments.md) 用例。 通过读取区段活动，您可以使属于此区段的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
+让我们以中创建的“Luma应用程序打开和结账”区段为例 [构建区段用例](../segment/about-segments.md). 使用 **[!UICONTROL 读取区段]** 活动时，您可以使属于某个区段的所有个人进入旅程，并使他们流入将利用所有旅程功能（条件、计时器、事件、操作）的个性化旅程。
 
 >[!NOTE]
 >

@@ -9,10 +9,10 @@ role: Admin,Developer
 level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重
 
 历程中使用的所有其他活动均不会被考虑在内。如果您以“区段鉴别”开始历程，则不会考虑该区段。
 
-在历程中，如果自定义操作中的同意策略将某个用户档案排除，则不会向该用户发送消息，但是其历程会继续运行。 使用条件时，用户档案不会转到超时和错误路径。
+在历程中，如果在自定义操作中同意策略排除用户档案，则不会向他们发送消息，但他们可以继续历程。 使用条件时，用户档案不会转到超时和错误路径。
 
 在刷新位于历程中的自定义操作中的策略之前，请确保您的历程没有错误。
 
