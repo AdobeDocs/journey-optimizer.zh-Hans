@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 16%
+source-wordcount: '1623'
+ht-degree: 15%
 
 ---
 
@@ -69,6 +69,8 @@ ht-degree: 16%
    >[!NOTE]
    >
    >定义时，高级表达式编辑器不可用 **[!UICONTROL 事件ID条件]**. 在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，您可以使用“包含”或“等于”。
+   >
+   >如果在创建事件后使用新的枚举值修改架构，则需要执行以下步骤以将更改应用于现有事件：从事件字段中取消选择枚举字段，确认选择，然后再次选择枚举字段。 此时将显示新的枚举值。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '608'
 ht-degree: 9%
 
 ---
@@ -109,11 +109,19 @@ ht-degree: 9%
 
 类型：字符串
 
+>[!NOTE]
+>
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。
+
 ## journeyVersionName {#journeyversionname-field}
 
 历程版本的名称。
 
 类型：字符串
+
+>[!NOTE]
+>
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。
 
 ## journeyVersion {#journeyversion-field}
 

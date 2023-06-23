@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ ht-degree: 15%
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据治理](../action/action.md).
-* [同意](../action/action.md).
+* [数据治理](../action/action-privacy.md).
+* [同意](../action/action-privacy.md).
 
 
 ## 配置步骤 {#configuration-steps}
@@ -82,9 +82,10 @@ ht-degree: 15%
 
    * 如果URL包含动态路径，则仅输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-      示例：`https://xxx.yyy.com/somethingstatic/`
+     示例：`https://xxx.yyy.com/somethingstatic/`
 
-      将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
+     将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
+
    >[!NOTE]
    >
    >出于安全原因，我们强烈建议您对URL使用HTTPS方案。 我们不允许使用非公共Adobe地址和IP地址。
@@ -115,7 +116,7 @@ ht-degree: 15%
    >
    >将自定义操作添加到历程后，如果历程处于草稿状态，您仍然可以向其添加标题或查询参数字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将字段添加到新的自定义操作。
    >
-   >根据字段解析规则验证标头。 了解详情，请参阅 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
+   >根据字段解析规则验证标头。 了解详情，请参阅 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## 定义操作参数 {#define-the-message-parameters}
 
