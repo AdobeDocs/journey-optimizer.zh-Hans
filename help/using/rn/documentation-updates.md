@@ -4,16 +4,22 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2023 年 6 月 {#june-2023}
+
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年6月版。 [了解详情](release-notes.md)
+* 评估标准顺序的其他示例已添加到 **创建决策** 以说明使用了多个标准和多个决策范围的案例。 [了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 对决策管理文档进行了阐明，添加了注释，指明了对象级别访问控制的使用不适用于动态收集。 [了解详情](../offers/offer-library/creating-collections.md)
 
 ## 2023 年 5 月 {#may-2023}
 
@@ -95,7 +101,7 @@ ht-degree: 100%
 * 添加了有关内置数据集的信息。[了解详情](../data/get-started-datasets.md#access-datasets)
 * 改进并重组了“全局报告”和“实时报告”章节。[了解详情](../reports/global-report.md)
 * 添加了 Adobe Journey Optimizer 中可用的所有报表量度的列表。
-   [了解详情](../reports/global-report.md#email-and-sms-metrics)
+  [了解详情](../reports/global-report.md#email-and-sms-metrics)
 * “密件抄送电子邮件”部分已移至新的“存档支持”页面。[了解详情](../configuration/archiving-support.md)
 
 ## 2022 年 8 月 {#august-2022}
