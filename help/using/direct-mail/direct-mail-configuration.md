@@ -116,7 +116,7 @@ ht-degree: 33%
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
 >abstract="直邮表面包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="配置文件路由"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=zh-Hans#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]

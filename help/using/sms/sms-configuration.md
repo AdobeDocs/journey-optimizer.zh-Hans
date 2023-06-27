@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '921'
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 配置短信供应商"
 >abstract="在发送短信之前，您必须将供应商设置与 Journey Optimizer 集成。完成后，您将需要创建一个短信表面。这些步骤必须由 Adobe Journey Optimizer 系统管理员执行。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="创建短信渠道表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信渠道表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
@@ -89,7 +89,7 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 >id="ajo_admin_surface_sms_type"
 >title="定义短信类别"
 >abstract="选择使用此表面的短信消息类型：营销性的推广短信消息，此时需要用户同意；或者事务性的非商业短信消息，例如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择退出营销短信消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择退出营销短信消息"
 
 配置短信渠道后，您必须创建一个渠道平面才能从中发送短信消息 **[!DNL Journey Optimizer]**.
 

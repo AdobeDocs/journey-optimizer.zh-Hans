@@ -25,13 +25,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="委派短信子域"
 >abstract="您必须配置一个子域以用于短信消息，因为您需要此子域才能创建短信表面。您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来 Adobe 或配置新的子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="创建短信表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="选择短信子域"
 >abstract="要可创建短信表面，请确保您以前已配置至少一个短信表面，以供从子域名称列表中选择。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="创建短信表面"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信表面"
 
 要缩短添加到短信消息的URL，您必须设置将在以下情况下选择的子域： [创建短信表面](sms-configuration.md#message-preset-sms).
 
@@ -44,7 +44,6 @@ ht-degree: 24%
 >* 要访问和编辑SMS子域，您必须具有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
 >
 > * 对短信子域的任何修改也将影响生产沙箱。
-
 
 ## 使用现有子域 {#sms-use-existing-subdomain}
 

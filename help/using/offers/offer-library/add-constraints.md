@@ -85,21 +85,21 @@ ht-degree: 17%
 
 * 默认情况下， **[!UICONTROL 所有访客]** 选项，这意味着任何用户档案都符合呈现优惠的条件。
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
 * 您还可以将优惠的呈现方式限制为一个或多个成员 [Adobe Experience Platform区段](../../segment/about-segments.md).
 
-   为此，请激活 **[!UICONTROL 属于一个或多个区段的访客]** 选项，然后从左窗格添加一个或多个区段并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
+  为此，请激活 **[!UICONTROL 属于一个或多个区段的访客]** 选项，然后从左窗格添加一个或多个区段并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * 如果要关联特定 [决策规则](../offer-library/creating-decision-rules.md) 对于选件，选择 **[!UICONTROL 按定义的决策规则]**，然后将所需规则从左窗格拖入 **[!UICONTROL 决策规则]** 区域。
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您将无法在选件中利用它。
+  >[!CAUTION]
+  >
+  >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您将无法在选件中利用它。
 
 当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
 
@@ -117,15 +117,15 @@ ht-degree: 17%
 
 * **区段**
 
-   一方面，区段是一组Adobe Experience Platform配置文件，它们根据配置文件属性和体验事件匹配特定逻辑。 但是，选件管理不会重新计算区段，因为此区段在展示选件时可能不是最新的。
+  一方面，区段是一组Adobe Experience Platform配置文件，它们根据配置文件属性和体验事件匹配特定逻辑。 但是，选件管理不会重新计算区段，因为此区段在展示选件时可能不是最新的。
 
-   了解中有关区段的更多信息 [本节](../../segment/about-segments.md).
+  了解中有关区段的更多信息 [本节](../../segment/about-segments.md).
 
 * **决策规则**
 
-   另一方面，决策规则基于Adobe Experience Platform中可用的数据，并决定可以向谁显示优惠。 在给定投放位置的优惠或决策中选择优惠后，每次做出决策时都会执行规则，从而确保每个用户档案都获得最新和最佳优惠。
+  另一方面，决策规则基于Adobe Experience Platform中可用的数据，并决定可以向谁显示优惠。 在给定投放位置的优惠或决策中选择优惠后，每次做出决策时都会执行规则，从而确保每个用户档案都获得最新和最佳优惠。
 
-   在中了解有关决策规则的更多信息 [本节](creating-decision-rules.md).
+  在中了解有关决策规则的更多信息 [本节](creating-decision-rules.md).
 
 ## 上限 {#capping}
 
@@ -138,7 +138,7 @@ ht-degree: 17%
 >id="ajo_decisioning_capping"
 >title="使用上限"
 >abstract="为避免过度招揽客户，请使用上限定义可呈现优惠的最大次数。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响上限"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hans#capping-change-date" text="更改日期可能会影响上限"
 
 上限用作约束，以定义可显示优惠的最大次数。
 
@@ -186,16 +186,16 @@ ht-degree: 17%
 * **[!UICONTROL 决策事件]** （默认值）：可显示选件的最大次数。
 * **[!UICONTROL 展示]**：选件可向用户显示的最大次数。
 
-   >[!NOTE]
-   >
-   >可将展示次数用作上限事件 **入站渠道** 仅此而已。
+  >[!NOTE]
+  >
+  >可将展示次数用作上限事件 **入站渠道** 仅此而已。
 
 * **[!UICONTROL 点击次数]**：用户可单击选件的最大次数。
 * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到它们等于10000次，或者直到给定用户档案赎回了1次。 要执行此操作，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"} 用于构建自定义事件规则的架构。
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   在下面的示例中，您希望限制结账的数量。
+  在下面的示例中，您希望限制结账的数量。
 
    1. 选择 **[!UICONTROL 自定义事件]** ，并使用 **[!UICONTROL 添加自定义事件]** 按钮。
 
@@ -237,11 +237,11 @@ ht-degree: 17%
 
 * 选择 **[!UICONTROL 总计]** 定义可在组合目标受众中建议多少次选件，即在所有用户中均如此。
 
-   例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
+  例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
 
 * 选择 **[!UICONTROL 每个配置文件]** 定义可向同一用户建议多少次选件。
 
-   例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次报价，但未对其执行操作，则他们更有可能对下一个最佳报价执行操作。
+  例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次报价，但未对其执行操作，则他们更有可能对下一个最佳报价执行操作。
 
 ### 频次上限 {#frequency-capping}
 
@@ -274,11 +274,11 @@ ht-degree: 17%
 
 * **[!UICONTROL 在所有投放位置中]**：上限计数将总计与优惠关联的投放位置中的所有决策。
 
-   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **所有投放位置中每个配置文件2个**，则无论版面组合如何，每个用户档案最多可以接收总共2次选件。
+  例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **所有投放位置中每个配置文件2个**，则无论版面组合如何，每个用户档案最多可以接收总共2次选件。
 
 * **[!UICONTROL 对于每个投放位置]**：上限计数将分别应用每个投放位置的决策计数。
 
-   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **每次投放每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），以及额外的2次（用于网站投放）。
+  例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置为 **每次投放每个用户档案2个**，则每个用户档案最多可收到选件2次（用于电子邮件投放），以及额外的2次（用于网站投放）。
 
 ### 更改日期对上限设置的影响 {#capping-change-date}
 

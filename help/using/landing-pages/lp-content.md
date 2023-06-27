@@ -22,7 +22,7 @@ ht-degree: 11%
 >id="ac_lp_components"
 >title="使用内容组件"
 >abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="添加内容组件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=zh-Hans#add-content-components" text="添加内容组件"
 
 要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
 
@@ -40,7 +40,7 @@ ht-degree: 11%
 >id="ac_lp_formfield"
 >title="设置表单组件字段"
 >abstract="定义您的收件人如何从登陆页面查看和提交他们的选择。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定义登陆页面表单样式"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=zh-Hans#lp-form-styles" text="定义登陆页面表单样式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
@@ -83,7 +83,7 @@ ht-degree: 11%
 
    * **[!UICONTROL 订阅列表]**：如果配置文件选中此复选框，则必须选择将更新的订阅列表。 详细了解 [订阅列表](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL 渠道（电子邮件）]**：选择加入或选择退出适用于整个渠道。 例如，如果选择退出的用户档案有两个电子邮件地址，则这两个地址都将从您的所有通信中排除。
 
