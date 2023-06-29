@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,9 +301,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * 现在，历程画布会显示消息活动的活动 ID 和结束标记。这可改进报表和重定位。
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
-* 对画布上的节点数有了新的见解，并提供了有助于增长的保护措施：使历程易于阅读、QA和故障排除，每个历程的最大节点数为50。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * 默认情况下，在历程中添加[电子邮件](../email/create-email.md)、[短信](../sms/create-sms.md)或[推送](../push/create-push.md)操作时，该平面会在当前历程中使用该渠道的最后一个使用平面进行预填充。
 * 您现在可以在自定义操作中定义静态或动态查询参数。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
+* 管理历程提供的体验增长的新护栏：
+   * 我们建议您将节点数量限制为50个或更少，以保证历程的性能、易读性、QA和故障排除。 活动数将显示在历程画布的左上部。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+   * 当您开发和启动旅程时，我们会在您同时达到100个实时旅程的里程碑时通知您。 如果您的计划一次需要100个以上的历程，请在看到通知后创建支持工单，我们将帮助您。 [了解更多信息](../start/guardrails.md#journeys-guardrails-journeys)
 
 **报告**
 
@@ -377,7 +379,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。[了解详情](../configuration/external-systems.md#timeout)
 * 读取区段活动中的默认限制速率已从每秒 20000 条消息更改为每秒 5000 条消息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。不会侦听通过外部工具发送的事件。[了解详情](../building-journeys/testing-the-journey.md)
+* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。通过外部工具发送的事件不会考虑在内。 [了解详情](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
