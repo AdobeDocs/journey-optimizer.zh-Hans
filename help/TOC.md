@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       + [使用决策管理事件](using/offers/reports/get-started-events.md)
       + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)
    + 导出优惠目录{#export-catalog}
-      + [导出优惠目录入门 ](using/offers/export-catalog/get-started-export.md)
+      + [导出优惠目录入门](using/offers/export-catalog/get-started-export.md)
       + [访问导出的优惠目录](using/offers/export-catalog/access-dataset.md)
       + [个性化优惠数据集](using/offers/export-catalog/export-offers.md)
       + [决策数据集](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 100%
       + [数据集入门](using/data/get-started-datasets.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
-      + [内置架构 > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hans)
+      + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hans)
    + [查询](using/data/get-started-queries.md)
 + 配置{#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
@@ -488,3 +488,4 @@ ht-degree: 100%
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
    + [数据管理](using/action/action-privacy.md)
+   + [设置和管理客户管理的密钥](using/privacy/cmk.md)

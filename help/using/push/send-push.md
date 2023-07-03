@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -39,7 +39,6 @@ ht-degree: 9%
 
 ## 验证推送通知 {#push-validate}
 
-
 必须在编辑器的上半部分检查警报。 其中一些是简单的警告，但其他警告可能会阻止您发送消息。 可能会发生两种类型的警报：警告和错误。
 
 * **警告** 请参阅建议和最佳实践。
@@ -52,7 +51,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 推送iOS/Android有效负载已超出4KB的限制]**：推送通知大小不能超过4KB。 要遵守此限制，请尝试减少使用图像或表情符号。 了解如何在中管理推送通知内容 [本节](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]
