@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ddb2d916d24b6931ec43ce2f4e5a89a746c0d5e0
+source-git-commit: c45598877441765405c7ca29373801f1d095ff3a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 88%
+source-wordcount: '316'
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
     <div>
       <a href="using/start/quick-start.md">快速入门指南</a>
     </div>
-    <p>了解如何以管理员、数据工程师或历程实践者的身份开始使用</p>
+    <p>了解如何以管理员、数据工程师或历程实践者的身份开始工作</p>
     <p>
     <p>
     <div>
@@ -108,7 +108,7 @@ ht-degree: 88%
     <p>
     <div>
     <p>注册 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer季度新闻稿</a>.</p>
-    <p>每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。每份新闻稿都包含以下内容：</p>
+    <p>每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。在每个新闻稿中，您都可以找到：</p>
     <li>产品新闻与更新（包括最近发布的功能）</li>
     <li>活动和网络研讨会的邀请，以及近期网络研讨会的录像</li>
     <li>Adobe Journey Optimizer Experience League 社区中的热门讨论 </li>
@@ -196,10 +196,10 @@ ht-degree: 88%
       <a href="using/privacy/requests.md">请求</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans"target="_blank">审核</a>
+      <a href="using/privacy/audit-logs.md"target="_blank">审核</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans"target="_blank">数据卫生</a>
+      <a href="using/privacy/data-hygiene.md"target="_blank">数据卫生</a>
     </li>
     <p>
     <p>管理</p>
