@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 67%
 
 >[!AVAILABILITY]
 >
->受众构成目前仅适用于有限的客户群体。 如果您有任何问题，请联系您的Adobe代表。
+>受众构成目前仅适用于有限的客户群体。如果您有任何问题，请联系 Adobe 代表。
 
 通过受众组合，您可以创建&#x200B;**组合工作流程**，将现有 Adobe Experience Platform 受众合并到可视画布中，并利用各种活动（拆分、排除等）来创建新受众。
 
-完成后， **生成的受众** 与现有受众一起保存到Adobe Experience Platform中，并可用于定位以下客户： [Journey Optimizer营销活动](../campaigns/get-started-with-campaigns.md)，或Adobe [Real-time Customer Data Platform目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}.
+完成后，**生成的受众**&#x200B;与现有受众一起保存到 Adobe Experience Platform 中，并可用于定位以下客户：[Journey Optimizer 营销活动](../campaigns/get-started-with-campaigns.md)，或 Adobe [Real-time Customer Data Platform 目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=zh-Hans){target="_blank"}。
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->截至目前，合成工作流生成的受众无法在历程中使用。
+>截至目前，构成工作流程生成的受众无法在历程中使用。
 >
->Adobe Journey Optimizer中的营销活动尚未与策略执行服务集成。 因此，您应用于受众属性的任何数据使用标签都不会在Journey Optimizer营销活动中强制执行。
+>Adobe Journey Optimizer 中的营销活动尚未与策略执行服务集成。因此，不会在 Journey Optimizer 营销活动中强制执行您应用于受众属性的任何数据使用标签。
 
 受众组合可通过 Adobe Journey Optimizer **[!UICONTROL 区段]**&#x200B;菜单访问：
 
