@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 一般历程护栏 {#journeys-guardrails-journeys}
 
-* 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有助于提高可读性、QA和疑难解答。
+* 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有益于可读性、进行 QA 检查和故障排除。
 * 当您发布历程时，我们会自动缩放和调整以确保最大吞吐量和稳定性。 当您一次接近100个实时历程的里程碑时，您将在UI中看到有关此成就的通知。 如果您看到此通知，并且需要将您的历程每次扩展到100个实时历程以外，请为客户关怀创建票证，我们将帮助您实现目标。
 
 ### 常规操作 {#general-actions-g}
@@ -53,7 +53,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。
 * 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出反应，则需要配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
-* 同一历程中不能同时存在多个用户档案。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
+* 同一历程中不能同时存在多个用户档案。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
 
 ### 历程版本 {#journey-versions-g}
 

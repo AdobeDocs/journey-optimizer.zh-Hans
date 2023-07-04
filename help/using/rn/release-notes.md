@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '2595'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 
 
-## 2023年6月发行说明 {#june-rn-2023}
+## 2023 年 6 月发行说明 {#june-rn-2023}
 
 <!--
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
@@ -36,14 +36,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>针对营销用例的API触发的营销活动</strong><br/></th>
+<th><strong>针对营销用例的 API 触发营销活动</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用API从外部系统在Adobe Journey Optimizer中触发营销活动。</p>
-<p>在此版本之前，API触发的营销活动功能涵盖了各种操作和事务性消息传递需求（如密码重置或OTP令牌），但无法用于创建营销活动。 API触发的营销活动的可用渠道包括：电子邮件、短信和推送消息。</p>
+<p>您现在可以使用 API 从外部系统触发 Adobe Journey Optimizer 中的营销活动。</p>
+<p>在此版本之前，API 触发营销活动功能涵盖了多种操作和事务性消息传递需求（如密码重置或 OTP 令牌），但无法用于创建营销活动。API 触发营销活动的可用渠道包括：电子邮件、短信和推送消息。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>有关更多信息，请参阅<a href="../campaigns/api-triggered-campaigns.md">详细文档</a>。
 </td>
