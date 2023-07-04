@@ -5,9 +5,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 ## 2023 年 6 月 {#june-2023}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年6月版。 [了解详情](release-notes.md)
-* 评估标准顺序的其他示例已添加到 **创建决策** 以说明使用了多个标准和多个决策范围的案例。 [了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* 对决策管理文档进行了阐明，添加了注释，指明了对象级别访问控制的使用不适用于动态收集。 [了解详情](../offers/offer-library/creating-collections.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 6 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 添加了更多的评估标准顺序示例到&#x200B;**创建决策**&#x200B;部分，对使用了多个标准和多个决策范围的案例进行了说明。[了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* 对决策管理文档进行了阐明，添加了注释，指明了对象级别访问控制的使用不适合动态收藏集。[了解详情](../offers/offer-library/creating-collections.md)
 
 ## 2023 年 5 月 {#may-2023}
 
