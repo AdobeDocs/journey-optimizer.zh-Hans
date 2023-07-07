@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '532'
 ht-degree: 10%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 10%
 >title="登陆页面全局报告"
 >abstract="登陆页面全局报告让您可以衡量您的登陆页面在选定时段内产生的影响。报告分为不同的构件，详细说明您的登陆页面中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
-登陆页面 **[!UICONTROL 全局报告]** 报表显示有关选定时间段内登陆页面影响的详细信息。 要仅测量过去24小时内的登陆页面数据，请参阅 [登陆页面实时报告](lp-report-live.md).
+全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
 要访问报表，请选择 **[!UICONTROL 报告]** 从选定登陆页面的高级菜单中。
 

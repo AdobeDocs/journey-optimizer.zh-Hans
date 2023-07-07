@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1100'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 7%
 >id="ajo_campaign_live_report"
 >title="营销活动实时报告"
 >abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明您营销活动中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
+
+实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最短时间间隔为距事件发生后的2分钟。 相比之下，全局报告侧重于至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
 营销活动实时报告可通过以下方式直接从您的营销活动访问 **[!UICONTROL 实时视图]** 按钮。
 

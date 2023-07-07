@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 20%
+source-wordcount: '262'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 20%
 >title="订阅全局报告"
 >abstract="使用订阅全局报告，您可以衡量并可视化订阅者在选定时段内的活动。报告分为不同的构件，详细说明了订阅和取消订阅情况。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
-订阅 **[!UICONTROL 全局报告]** 显示所选时段内订阅者的活动详细信息。 要仅测量过去24小时内的订阅，请参阅 [订阅实时报告](subscription-report-live.md).
+全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
 要访问报告，请单击 **[!UICONTROL 报告]** 图标。
 
