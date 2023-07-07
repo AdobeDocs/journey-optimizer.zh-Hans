@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 28%
+source-wordcount: '1373'
+ht-degree: 26%
 
 ---
 
@@ -116,22 +116,22 @@ ht-degree: 28%
 
 * **[!UICONTROL 排除受众]**：排除属于现有受众的用户档案。
 
-   单击 **[!UICONTROL 添加受众]** 按钮，然后选择要排除的受众。
+  单击 **[!UICONTROL 添加受众]** 按钮，然后选择要排除的受众。
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL 使用属性排除]**：根据特定属性排除用户档案。
 
-   选择要查找的属性，然后指定要排除的值。 在本例中，我们从家庭地址在日本的用户档案中排除。
+  选择要查找的属性，然后指定要排除的值。 在本例中，我们从家庭地址在日本的用户档案中排除。
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### 扩充 {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="扩充活动"
->abstract="使用“扩充活动”排除属于现有受众的配置文件。“使用属性类型”排除让您可以根据特定属性来排除配置文件。"
+>abstract="使用扩充活动通过来自Adobe Experience Platform数据集的其他属性扩充受众。 例如，您可以添加与所购买产品相关的信息（如名称、价格或制造商ID），并利用这些信息来个性化发送给受众的投放。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -220,15 +220,15 @@ ht-degree: 28%
 
 * **[!UICONTROL 百分比拆分]**：将用户档案随机拆分为两个或多个路径。 例如，可将用户档案拆分为2条路径，每条路径占50%。 <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL 属性拆分]**：根据特定属性拆分用户档案。 在本例中，我们根据用户档案的类型偏好来分割用户档案。
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >此 **[!UICONTROL 其他配置文件]** 选项允许您使用不符合其他路径中指定的任何条件的剩余配置文件创建其他路径。
+  >[!NOTE]
+  >
+  >此 **[!UICONTROL 其他配置文件]** 选项允许您使用不符合其他路径中指定的任何条件的剩余配置文件创建其他路径。
 
 ## 保存您的受众 {#save}
 
