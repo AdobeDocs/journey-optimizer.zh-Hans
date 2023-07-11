@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 26%
+ht-degree: 31%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="扩充活动"
->abstract="使用扩充活动通过来自Adobe Experience Platform数据集的其他属性扩充受众。 例如，您可以添加与所购买产品相关的信息（如名称、价格或制造商ID），并利用这些信息来个性化发送给受众的投放。"
+>abstract="使用“扩充活动”通过来自 Adobe Experience Platform 数据集的其他属性来扩充您的受众。例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -148,7 +148,7 @@ ht-degree: 26%
 >title="扩充属性"
 >abstract="从扩充数据集中选择一个或多个属性以关联到受众。组合在发布之后，这些属性就会与受众相关联，并且可以在营销活动中用来提供个性化的投放。"
 
-此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性丰富受众。 例如，您可以添加与所购买产品相关的信息（如名称、价格或制造商ID），并利用这些信息来个性化发送给受众的投放。
+此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性丰富受众。 例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。
 
 >[!IMPORTANT]
 >
