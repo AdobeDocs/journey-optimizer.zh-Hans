@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 31%
+source-wordcount: '203'
+ht-degree: 16%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 31%
 
 中的用户管理 [!DNL Journey Optimizer] 基于三个概念：
 
-* **[!UICONTROL 产品配置文件]**：一组统一权限，允许用户访问界面中的特定功能或对象。 请参阅 [开箱即用的产品配置文件](ootb-product-profiles.md) 部分
+* **[!UICONTROL 角色]**：一组统一权限，允许用户访问界面中的特定功能或对象。 请参阅 [开箱即用的角色](ootb-product-profiles.md) 部分。
 
-* **[!UICONTROL 权限]**：统一权限，允许您定义分配给的授权 **[!UICONTROL 产品配置文件]**. 每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。请参阅 [权限级别](high-low-permissions.md) 部分。
+* **[!UICONTROL 权限]**：统一权限，允许您定义分配给的授权 **[!UICONTROL 角色]**. 每个权限都集中在资源(例如历程或优惠)下，代表中的不同功能或对象。 [!DNL Journey Optimizer]. 请参阅 [权限级别](high-low-permissions.md) 部分。
 
-* **[!UICONTROL 沙盒]**：将实例分区为单独的独立虚拟环境的虚拟沙盒。 请参阅 [使用沙盒](sandboxes.md)
+* **[!UICONTROL 沙盒]**：将实例分区为单独的独立虚拟环境的虚拟沙盒。 请参阅 [使用沙盒](sandboxes.md).
 
 每个概念都可以通过以下方式管理 **[!UICONTROL 产品管理员]** 有权访问Admin Console的用户。 [进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
 
@@ -36,6 +36,6 @@ ht-degree: 31%
 
 ## 操作方法视频{#video}
 
-详细了解Adobe Journey Optimizer中的访问控制系统和自定义产品配置文件。 了解如何管理产品用户档案和权限，以及如何添加和管理用户。
+进一步了解Adobe Journey Optimizer中的访问控制系统和自定义问题。 了解如何管理角色和权限以及如何添加和管理用户。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

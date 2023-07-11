@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 54%
+source-wordcount: '354'
+ht-degree: 55%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 54%
 ## 使用沙盒 {#using-sandbox}
 
 [!DNL Journey Optimizer] 允许您将实例分区为称为沙盒的分隔虚拟环境。
-沙盒通过 Admin Console 中的产品用户档案进行分配。[了解如何分配沙盒](permissions.md#create-product-profile)。
+沙盒通过“权限”中的角色进行分配。 [了解如何分配沙盒](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙盒。
 可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
@@ -38,27 +38,21 @@ ht-degree: 54%
 >
 > 沙盒管理只能由 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关详情，请参阅 [Admin console文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-您可以选择将不同的沙箱分配给现成或自定义 **[!UICONTROL 产品配置文件]**.
+您可以选择将不同的沙箱分配给现成或自定义 **[!UICONTROL 角色]**.
 
 要分配沙箱，请执行以下操作：
 
-1. 在 [!DNL Admin Console]，来自 **[!UICONTROL 产品]** 选项卡，选择 **[!UICONTROL Adobe Experience Platform应用程序]** 产品。
-
-1. 选择 **[!UICONTROL 产品配置文件]**.
+1. In [!DNL Permissions]，来自 **[!UICONTROL 角色]** 选项卡，选择 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_1.png)
 
-1. 选择 **[!UICONTROL 权限]** 选项卡。
+1.  点击&#x200B;**[!UICONTROL 编辑]**。
 
-1. 选择 **[!UICONTROL 沙盒]** 功能。
-
-   ![](assets/sandbox_2.png)
-
-1. 下 **[!UICONTROL 可用权限项]**，单击加号(+)图标以将沙箱分配给您的配置文件。 [进一步了解sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans){target="_blank"}.
+1. 从 **[!UICONTROL 沙盒]** 资源下拉列表中，选择要分配给您的角色的沙盒。
 
    ![](assets/sandbox_3.png)
 
-1. 如果需要，在 **[!UICONTROL 包含的权限项]**，单击旁边的X图标，以删除对的沙盒访问权限 **[!UICONTROL 产品配置文件]**.
+1. 如果需要，单击沙盒旁边的X图标以删除对您的沙盒的访问权限 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_4.png)
 

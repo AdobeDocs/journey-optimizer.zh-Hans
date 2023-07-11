@@ -9,20 +9,18 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 3%
 
 ---
 
 # 内置权限 {#ootb-permissions}
 
 | 功能 | 权限 |
-|---|---|
-| 警报 | **[!DNL Manage alerts]**：启用/禁用历程和授权的警报规则。</br>**[!DNL Resolve alerts]**：用于解决触发的警报。</br>**[!DNL View alerts]**：用于查看收到的警报消息并访问警报选项卡。 </br>**[!DNL View alerts history]**：用于查看收到警报的历史记录。 |
+|-|-|
 | 营销活动 | **[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。 </br>**[!DNL Publish campaigns]**：发布营销活动的权利。</br>**[!DNL View campaigns]**：对营销活动的只读访问权限。 </br>**[!DNL View campaigns report]**：读取和编辑营销活动报告。 |
-| 渠道配置 | **[!DNL View messages general settings]**：对消息常规设置的只读访问权限。</br>**[!DNL Manage web subdomain]**：读取、创建、编辑和删除Web子域。</br>**[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息的一般设置。</br>**[!DNL Manage suppression]**：读取、创建、编辑和删除禁止显示规则。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌策略。</br>**[!DNL View messages presets]**：对消息预设的只读访问权限。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除短信子域。</br>**[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。</br>**[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。</br>**[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL Manage channel surfaces]**：读取、创建、编辑和删除内容品牌策略。</br>**[!DNL Manage Landing page settings]**：读取、创建、编辑和删除登陆页面子域和登陆页面预设。</br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除启用SMS渠道所需的API凭据和SMS渠道界面。</br>**[!DNL Export suppression list]**：访问将禁止列表导出为csv的权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
 | 仪表板 | **[!DNL View license usage dashboards]**：对许可证使用情况仪表板的只读访问权限。 </br>**[!DNL Manage custom dashboards]**：用于创建新功能板或编辑现有功能板。</br>**[!DNL View custom dashboards]**：对用户定义功能板的只读访问权限。 </br>**[!DNL View standard dashboards]**：对“配置文件”、“目标”和“区段”功能板的只读访问权限。</br>**[!DNL Manage standard dashboards]**：用于创建自定义构件并通过构件库编辑构件架构。 |
 | 数据收集 | **[!DNL Manage datastream]**：读取、创建和编辑数据流。</br>**[!DNL View datastream]**：对数据流的只读访问权限。 |
 | 数据治理 | **[!DNL Manage usage labels]**：读取、创建、编辑和删除标签。</br>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</br>**[!DNL View data usage policies]**：对属于您组织的数据使用策略的只读访问权限。</br>**[!DNL View user activity log]**：只读访问权限，可查看记录的Platform活动审核日志。 |

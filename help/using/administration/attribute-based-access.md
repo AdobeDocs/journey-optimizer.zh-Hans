@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，属性，授权，数据，访问，敏感，资产
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 3%
+source-wordcount: '1062'
+ht-degree: 1%
 
 ---
 
 # 基于属性的访问控制 {#attribute-based-access}
-
->[!IMPORTANT]
->
->目前，基于属性的访问控制的使用仅限于选定用户，但将在未来版本中部署到所有环境。
 
 通过基于属性的访问控制(ABAC)，可定义用于管理特定团队或用户组的数据访问的授权。 其目的是保护敏感的数字资产免受未经授权用户的侵害，从而进一步保护个人数据。
 
