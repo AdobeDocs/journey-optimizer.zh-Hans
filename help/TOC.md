@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + [生成区段定义](using/audience/creating-a-segment-definition.md)
+      + 组合受众{#audience-orchestration}
+         + [受众组合入门](using/audience/get-started-audience-orchestration.md)
+         + [创建组合工作流](using/audience/create-compositions.md)
+         + [使用组合画布](using/audience/composition-canvas.md)
+         + [访问和管理受众](using/audience/access-audiences.md)
    + 配置文件{#profiles}
       + [开始使用用户档案](using/audience/get-started-profiles.md)
       + [创建测试用户档案](using/audience/creating-test-profiles.md)
    + [标识](using/audience/get-started-identity.md)
-   + 组合受众{#audience-orchestration}
-      + [受众组合入门](using/audience/get-started-audience-orchestration.md)
-      + [创建组合工作流](using/audience/create-compositions.md)
-      + [使用组合画布](using/audience/composition-canvas.md)
-      + [访问和管理受众](using/audience/access-audiences.md)
    + [许可证使用](using/audience/license-usage.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
