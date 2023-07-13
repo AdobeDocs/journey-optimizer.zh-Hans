@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -33,7 +33,7 @@ Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 
 
 ## 重要说明 {#important-notes}
 
-* 消息不受限制。 系统根据当前Campaign SLA，将每5分钟可发送的消息数量限制为4000条。 因此，Journey Optimizer应仅用于单一用例（单个事件，而不是区段）。
+* 消息不受限制。 系统根据当前Campaign SLA，将每5分钟可发送的消息数量限制为4000条。 因此，Journey Optimizer应仅用于单一用例（单个事件，而不是受众）。
 
 * 您需要在要使用的每个模板的画布上配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
 
@@ -41,7 +41,7 @@ Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 
 
 * 无法验证有效负载或Campaign消息是否正确。
 
-* 不能将Campaign操作与区段资格事件一起使用。
+* 您不能将Campaign操作与受众资格事件一起使用。
 
 ## 先决条件 {#prerequisites}
 

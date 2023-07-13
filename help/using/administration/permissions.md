@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 6%
@@ -109,7 +109,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 在不同的资源之间选择，例如 **[!DNL Journeys]**， **[!DNL Segments]** 或 **[!DNL Decision management]** 可用位置 [!DNL Journey Optimizer] 列在左侧菜单中。
+1. 在不同的功能之间选择，例如 **[!DNL Journeys]**， **[!DNL Segments]** <!--CHECK--> 或 **[!DNL Decision management]** 可用位置 [!DNL Journey Optimizer] 列在左侧菜单中。
 
    在此处，我们选择 **[!UICONTROL 历程]** 资源。
 

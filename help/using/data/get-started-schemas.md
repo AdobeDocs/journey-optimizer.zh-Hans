@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 架构、平台、数据、结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 **另请参阅**
 
-* [创建架构、数据集并摄取数据，以在 Journey Optimizer 中添加测试用户档案](../segment/creating-test-profiles.md)
+* [创建架构、数据集并摄取数据，以在 Journey Optimizer 中添加测试用户档案](../audience/creating-test-profiles.md)
 * [XDM 系统概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}
 * [数据建模的最佳实践](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hans){target="_blank"}
 * [使用“架构注册表 API”创建架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hans){target="_blank"}

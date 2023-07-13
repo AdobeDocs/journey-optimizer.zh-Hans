@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '596'
 ht-degree: 8%
 
 ---
 
 # 使用条件规则 {#conditions}
 
-条件规则是一组规则，用于定义应在消息中显示哪些内容，具体取决于用户档案属性、区段成员资格或上下文事件等各种条件。
+条件规则是一组规则，用于定义应在消息中显示哪些内容，具体取决于用户档案属性、受众成员资格或上下文事件等各种条件。
 
 条件规则是使用表达式编辑器创建的，如果要跨内容重用这些规则，可以存储这些规则。 [了解如何将条件规则保存到库](#save)
 
@@ -32,11 +32,11 @@ ht-degree: 8%
 
 * 在Email Designer中为电子邮件正文中的组件启用动态内容时。 [了解如何将动态内容添加到电子邮件中](dynamic-content.md#emails)
 
-   ![](assets/conditions-access-email.png)
+  ![](assets/conditions-access-email.png)
 
 * 在任何您可以使用添加个性化的字段中 [表达式编辑器](personalization-build-expressions.md).
 
-   ![](assets/conditions-access-editor.png)
+  ![](assets/conditions-access-editor.png)
 
 ## 创建条件规则 {#create-condition}
 
@@ -56,17 +56,17 @@ ht-degree: 8%
 
 1. 根据需要构建条件规则。 为此，请将所需属性从左侧菜单拖放并排列到画布中。
 
-   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+   将属性组合到画布中的步骤与区段定义构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    属性分为三个选项卡：
 
    * **[!UICONTROL 配置文件]**:
-      * **[!UICONTROL 区段成员资格]** 列出所有区段属性（即状态、版本等） 对象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
+      * **[!UICONTROL 受众]** 列出所有受众属性（即状态、版本等） 对象 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
       * **[!UICONTROL XDM个人资料]** 列出与关联的所有配置文件属性 [Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans) 在Adobe Experience Platform中定义。
    * **[!UICONTROL 上下文]**：当您的消息在历程中使用时，上下文历程字段可通过此选项卡使用。
-   * **[!UICONTROL 受众]**：列出从在中创建的区段生成的所有受众 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL 受众]**：列出根据在中创建的区段定义生成的所有受众 [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. 条件规则准备就绪后，您可以将其添加到消息以创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 预览，内容，电子邮件，验证，测试，配置文件
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 11%
@@ -26,7 +26,7 @@ ht-degree: 11%
 >
 >您需要具有可用的测试用户档案，才能预览消息和发送校样。
 >
->了解如何在中创建测试用户档案 [此页面](../segment/creating-test-profiles.md).
+>了解如何在中创建测试用户档案 [此页面](../audience/creating-test-profiles.md).
 
 要测试电子邮件内容，您需要：
 
@@ -52,7 +52,7 @@ ht-degree: 11%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#email-rendering" text="电子邮件呈现"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#preview-email" text="预览"
 
-使用 [测试用户档案](../segment/creating-test-profiles.md) 定位不符合所规定定位标准的其他收件人。
+使用 [测试用户档案](../audience/creating-test-profiles.md) 定位不符合所规定定位标准的其他收件人。
 
 要选择测试配置文件，请执行以下步骤：
 
@@ -68,7 +68,7 @@ ht-degree: 11%
 
    ![](assets/previewselect-namespace.png)
 
-   了解有关Adobe Experience Platform身份命名空间的更多信息 [在此部分中](../segment/get-started-identity.md).
+   了解有关Adobe Experience Platform身份命名空间的更多信息 [在此部分中](../audience/get-started-identity.md).
 
    在以下示例中，我们将使用 **电子邮件** 命名空间。
 

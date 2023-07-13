@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 2%
 * id：对于所有步骤事件条目均唯一。 两个不同的步骤事件不能具有相同的ID。
 * instanceId： instanceID对于历程执行中与配置文件关联的所有步骤事件是相同的。 如果配置文件重新进入历程，将使用其他instanceId。 对于重新进入的实例的所有步骤事件（从开始到结束），此新instanceId将相同。
 * profileID：与历程命名空间对应的用户档案身份。
-
->[!NOTE]
->
->出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。
 
 ## 基本用例/常见查询 {#common-queries}
 
@@ -429,11 +425,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-在定义的周期内，查询将返回每天进入历程的用户档案数。 如果通过多个身份输入的用户档案，则将被计算两次。 如果启用了重新进入，并且用户档案计数是在不同日期重新进入历程，则可能会跨不同日期复制用户档案计数。
+在定义的周期内，查询会返回每天进入历程的用户档案数。 如果通过多个身份输入的用户档案，则将被计算两次。 如果启用了重新进入，并且用户档案计数是在不同日期重新进入历程，则可能会跨不同日期复制用户档案计数。
 
-## 与读取区段相关的查询 {#read-segment-queries}
+## 与读取受众相关的查询 {#read-segment-queries}
 
-**完成区段导出作业所用的时间**
+**完成受众导出作业所用的时间**
 
 _Data Lake查询_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-查询返回区段导出作业排队时间和最终结束时间之间的时间差（以分钟为单位）。
+查询返回受众导出作业排队时间和最终结束时间之间的时间差（以分钟为单位）。
 
 **因重复而被历程丢弃的用户档案数**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查询返回由于某些内部错误而被历程丢弃的所有用户档案ID。
 
-**给定历程版本的读取区段概述**
+**给定历程版本的读取受众概述**
 
 _Data Lake查询_
 
@@ -604,7 +600,7 @@ WHERE
 
 我们还可以检测以下问题：
 
-* 创建主题或导出作业时出错（包括区段导出API调用超时）
+* 创建主题或导出作业时出错（包括受众导出API调用超时）
 * 导出作业可能卡住（对于给定的历程版本，我们没有任何有关导出作业终止的事件）
 * 工作人员问题，如果我们收到了导出作业终止事件，但没有工作人员处理终止事件
 
@@ -613,7 +609,7 @@ WHERE
 * 历程版本尚未达到计划
 * 如果历程版本应该通过调用orchestrator来触发导出作业，则上行流出现问题：历程部署问题、业务事件或调度程序问题。
 
-**获取给定历程版本的读取区段错误**
+**获取给定历程版本的读取受众错误**
 
 _Data Lake查询_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**获取所有导出作业的汇总量度（区段导出作业和放弃作业）**
+**获取所有导出作业的汇总量度（受众导出作业和放弃作业）**
 
 _Data Lake查询_
 
@@ -791,9 +787,9 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 它会返回给定历程版本的整体量度，而不考虑可以为其运行的作业（在重复历程的情况下，业务事件会触发利用主题重用的事件）。
 
-## 与区段资格相关的查询 {#segment-qualification-queries}
+## 与受众资格相关的查询 {#segment-qualification-queries}
 
-**配置文件已丢弃，因为区段实现与配置的区段实现不同**
+**由于与配置的受众实现不同的受众实现，配置文件被丢弃**
 
 _Data Lake查询_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-此查询返回由于区段实现错误而被历程版本丢弃的所有用户档案ID。
+此查询返回由于受众实现错误而被历程版本丢弃的所有用户档案ID。
 
-**因特定配置文件的任何其他原因而丢弃的区段资格事件**
+**因特定用户档案的任何其他原因放弃的受众资格事件**
 
 _Data Lake查询_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-此查询返回由于用户档案的任何其他原因而放弃的所有事件（外部事件/区段资格事件）。
+此查询返回由于用户档案的任何其他原因而放弃的所有事件（外部事件/受众资格事件）。
 
 ## 基于事件的查询 {#event-based-queries}
 

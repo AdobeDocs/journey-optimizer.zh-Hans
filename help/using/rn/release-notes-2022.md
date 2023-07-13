@@ -4,10 +4,10 @@ product: journey optimizer
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '3575'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **历程**
 
-* **强制定期重入**&#x200B;选项已添加到定期读取区段计划参数中。利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。停用此选项后，用户档案必须先完成历程，然后才能在另一个事件中再次进入。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* 此 **在重复时强制重入** 选项已添加到循环读取受众计划参数中。 利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。停用此选项后，用户档案必须先完成历程，然后才能在另一个事件中再次进入。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **管理**
 
@@ -176,7 +176,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>作为 Journey Optimizer 用户，您现在可以通过用户界面访问系统警报，在历程工作异常时获得通知。您可以查看可用的警报并订阅它们。如果读取区段活动在定义的时间范围内未处理任何用户档案，则此版本中提供的第一个警报将会警告您。解锁此工作流程后，将会有更多内容。</p>
+<p>作为 Journey Optimizer 用户，您现在可以通过用户界面访问系统警报，在历程工作异常时获得通知。您可以查看可用的警报并订阅它们。如果读取受众活动在定义的时间范围内未处理任何用户档案，则此版本中提供的第一个警报将警告您。 解锁此工作流程后，将会有更多内容。</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -196,7 +196,7 @@ ht-degree: 100%
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ ht-degree: 100%
 **历程**
 
 * 现在，**实体数据集**&#x200B;是 Adobe Journey Optimizer 中包含的现成可用的数据集。此查询数据集包含元数据，可用于丰富跟踪和反馈数据集信息。这有助于您使用更易理解的数据来改进报表和查询。[了解详情](../data/datasets-query-examples.md#entity-dataset)
-* 向单一历程（从事件或区段鉴别开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，重新进入用户档案会被暂时阻止 5 分钟。[了解详情](../start/guardrails.md#events-g)
+* 向单一历程（从事件或受众资格开始）添加了新护栏，以防止同一事件多次错误触发历程。 默认情况下，重新进入用户档案会被暂时阻止 5 分钟。[了解详情](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -235,8 +235,8 @@ ht-degree: 100%
 ### 其他更改{#sept-2022-other}
 
 * 历程突发模式已被 Campaign 快速投放模式取代。[了解详情](../push/create-push.md#rapid-delivery)
-* 为了提高性能，从读取区段、区段鉴别或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
-* 已移除计划读取区段历程的 1 小时限制。这些历程现在可以毫不延迟地执行。
+* 为了提高性能，从读取受众、受众资格或业务事件活动开始的历程中，无法再使用体验事件字段组。 此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
+* 已删除计划读取受众历程的1小时限制。 这些历程现在可以毫不延迟地执行。
 
 
 
@@ -254,7 +254,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
+<p>使用Journey Optimizer营销活动，通过各种渠道向特定受众投放一次性内容。 使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
 </td>
@@ -290,7 +290,7 @@ ht-degree: 100%
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -303,7 +303,7 @@ ht-degree: 100%
 
 * 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的用户档案。[了解详情](../reports/journey-global-report.md#journey-global)
 
-   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md)。
+  要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md)。
 
 **管理**
 
@@ -374,7 +374,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现可在决策管理中使用个性化优化模型系统。利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>现可在决策管理中使用个性化优化模型系统。这种新模型允许您根据受众和优惠表现来优化和个性化优惠。</p>
 <p>目前，个性化优化 AI 模型的使用仅限于选定的用户，但将在未来的版本中部署到所有环境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
@@ -408,7 +408,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* **受众规模** - 现在，在创建决策规则、选择区段或规则以设置优惠资格，或将区段或规则添加到决策范围时，用户界面中会显示新的受众规模估算组件。
+* **受众规模**  — 现在，在创建决策规则、选择受众或规则以设置优惠资格，或将受众或规则添加到决策范围时，用户界面中会显示新的受众规模估算组件。
 
 
 ## 2022 年 6 月版 {#june-2022-release}
@@ -477,7 +477,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -615,12 +615,12 @@ ht-degree: 100%
 
 **历程**
 
-* **读取区段** - 现在，一次性读取区段历程在历程执行 30 天后会变为“已完成”状态。 对于计划的读取区段，此期限为上次执行后的 30 天。 [了解详情](../building-journeys/read-segment.md)
+* **读取受众**  — 现在，一次性读取受众历程在历程执行30天后会变为“已完成”状态。 对于计划的读取受众，此期限为上次执行后的30天。 [了解详情](../building-journeys/read-audience.md)
 * **表达式编辑器** - 添加了 [limit](../building-journeys/functions/functionlimit.md) 函数，以限制列表的项目数。 现在，使用 [sort](../building-journeys/functions/functionsort.md) 函数可对列表对象进行排序。 此外，还向 [disctinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 函数添加了 listObject 支持。
 
 **管理**
 
-* **许可证使用情况仪表板更新** – 现在，[!DNL Adobe Journey Optimizer] 用户界面中提供的“许可证使用情况”仪表板可反映&#x200B;**已授予许可**&#x200B;平均用户档案丰富度的准确值。您可在此量度呈现中看到一个下拉信息，这意味着现在可以正确报告许可证限制。[了解详情](../segment/license-usage.md)
+* **许可证使用情况仪表板更新** – 现在，[!DNL Adobe Journey Optimizer] 用户界面中提供的“许可证使用情况”仪表板可反映&#x200B;**已授予许可**&#x200B;平均用户档案丰富度的准确值。您可在此量度呈现中看到一个下拉信息，这意味着现在可以正确报告许可证限制。[了解详情](../audience/license-usage.md)
 
 
 ## 2022 年 4 月版 {#april-2022-release}
@@ -673,7 +673,7 @@ ht-degree: 100%
 **决策管理**
 
 * 现在，您可以指定是将优惠上限应用到所有用户还是某个特定用户档案，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
-* 通过“批量决策 API”，各类组织可以在一次调用中对特定区段中的所有用户档案使用决策管理功能。区段中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 批量决策API允许组织在一次调用中对给定受众中的所有用户档案使用决策管理功能。 受众中每个用户档案的选件内容都放在AEP数据集中，可用于自定义批处理工作流。 [了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -800,14 +800,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>历程 - 读取区段改进</strong><br/></th>
+<th><strong>历程 — 读取受众改进</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>增量读取</strong>选项已添加到周期性<strong>读取区段</strong>活动。此选项允许您仅将自上次执行历程后进入区段的个人作为目标。第一次执行始终以所有区段成员为目标。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">详细文档</a>。
+<p>此 <strong>增量读取</strong> 选项已添加到周期性 <strong>读取受众</strong> 活动。 此选项允许您仅定向自上次执行历程以来进入受众的个人。 第一次执行始终以所有受众成员为目标。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">详细文档</a>。
 </td>
 </tr>
 </tbody>

@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，属性，授权，数据，访问，敏感，资产
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 通过基于属性的访问控制(ABAC)，可定义用于管理特定团队或用户组的数据访问的授权。 其目的是保护敏感的数字资产免受未经授权用户的侵害，从而进一步保护个人数据。
 
-在Adobe Journey Optimizer中，ABAC允许您保护数据并授予对特定字段元素(包括体验数据模型(XDM)架构、配置文件属性和区段)的特定访问权限。
+在Adobe Journey Optimizer中，ABAC允许您保护数据并授予对特定字段元素(包括体验数据模型(XDM)架构、配置文件属性和受众)的特定访问权限。
 
 有关与ABAC一起使用的术语的更详细列表，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 **[!UICONTROL 标签]** 可使用基于属性的访问控制来指定特定的功能区域。
 在本例中，我们要限制对 **国籍** 字段。 此字段仅供具有相应 **[!UICONTROL 标签]** 敬他们的  **[!UICONTROL 角色]**.
 
-请注意，您还可以添加  **[!UICONTROL 标签]** 到  **[!UICONTROL 架构]**，  **[!UICONTROL 数据集]** 和  **[!UICONTROL 区段]**.
+请注意，您还可以添加  **[!UICONTROL 标签]** 到  **[!UICONTROL 架构]**，  **[!UICONTROL 数据集]** 和  **[!UICONTROL 受众]**.
 
 1. 创建您的 **[!UICONTROL 架构]**. 有关更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans).
 

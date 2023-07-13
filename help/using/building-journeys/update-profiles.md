@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 个人资料、更新、历程、活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%
@@ -58,11 +58,11 @@ ht-degree: 9%
 
    * 使用简单表达式编辑器，您可以从数据源或传入事件中选择字段。
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * 如果要定义特定值或利用高级函数，请单击 **高级模式**.
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 此 **更新配置文件** 现已配置。
 
@@ -75,4 +75,4 @@ ht-degree: 9%
 
 只有测试配置文件才能进入处于测试模式的历程。您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用更新用户档案属性。 更简单的方法是使用 **更新配置文件** 操作活动，并将测试用户档案布尔字段从false更改为true。
 
-有关如何将现有配置文件转换为测试配置文件的更多信息，请参阅此 [部分](../segment/creating-test-profiles.md#create-test-profiles-csv).
+有关如何将现有配置文件转换为测试配置文件的更多信息，请参阅此 [部分](../audience/creating-test-profiles.md#create-test-profiles-csv).

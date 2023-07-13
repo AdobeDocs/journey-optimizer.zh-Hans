@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -201,7 +201,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->具有的配置文件 **[!UICONTROL 不允许]** 在消息发送过程中排除状态。 因此，虽然 **历程报表** 将显示这些用户档案在整个历程中移动([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报告** 不会将它们包含在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前已将它们过滤掉。
+>具有的配置文件 **[!UICONTROL 不允许]** 在消息发送过程中排除状态。 因此，虽然 **历程报表** 将显示这些用户档案在整个历程中移动([读取受众](../building-journeys/read-audience.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报告** 不会将它们包含在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前已将它们过滤掉。
 >
 >了解更多关于 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 

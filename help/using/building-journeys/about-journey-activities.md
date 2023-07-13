@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 18%
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
-* [区段鉴别](../building-journeys/segment-qualification-events.md)
+* [受众资格](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ ht-degree: 18%
 
 * [条件](../building-journeys/condition-activity.md)
 * [等待](../building-journeys/wait-activity.md)
-* [读取区段](../building-journeys/read-segment.md)
+* [读取受众](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

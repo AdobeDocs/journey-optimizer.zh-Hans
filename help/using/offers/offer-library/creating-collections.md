@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 8%
+source-wordcount: '321'
+ht-degree: 9%
 
 ---
 
@@ -57,10 +57,6 @@ ht-degree: 8%
    >静态收藏集不会自动更新。 要将选件添加到静态收藏集，您需要编辑它并手动添加它们。
 
 1. 要将自定义或核心数据使用标签分配给静态集合，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
-
-   >[!NOTE]
-   >
-   >OLAC不适用于动态收藏集。 它必须在选件级别进行管理。 因此，如果您无权访问任何选件，则可能无法在动态收藏集中看到任何选件。
 
 1. 创建收藏集后，该收藏集将显示在列表中。 您可以选择它进行编辑或删除。
 

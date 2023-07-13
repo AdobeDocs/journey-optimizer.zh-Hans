@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '726'
 ht-degree: 16%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 16%
 
    ![](assets/push_create_4.png)
 
-1. 单击 **[!UICONTROL 选择受众]** 按钮，从可用的Adobe Experience Platform区段列表中定义要定位的受众。 [了解详情](../segment/about-segments.md)。
+1. 单击 **[!UICONTROL 选择受众]** 按钮，从可用的Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
-1. 在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
+1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
 
@@ -103,7 +103,7 @@ ht-degree: 16%
 >title="快速传递模式"
 >abstract="快速传递模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
 
-快速投放模式是 [!DNL Journey Optimizer] 此加载项允许通过营销活动以非常快的速度发送大量推送消息。
+快速投放模式（以前在历程中称为突发模式）是 [!DNL Journey Optimizer] 此加载项允许通过营销活动以非常快的速度发送大量推送消息。
 
 当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
 

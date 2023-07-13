@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，语法，个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '735'
 ht-degree: 9%
 
 ---
@@ -76,12 +76,12 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 `{{profile.faxPhone.number}}`
 
-## 区段{#perso-segments}
+## 受众{#perso-segments}
 
 了解如何在中利用条件中的配置文件属性 [本节](functions/helpers.md#if-function).
 
 >[!NOTE]
->要了解有关分段和分段服务的更多信息，请参阅 [本节](../segment/about-segments.md).
+>要了解有关分段服务的更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## 选件 {#offers-syntax}
 
@@ -107,19 +107,19 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 * 图像托管位置：
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * 单击图像时的目标URL：
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * 来自决策引擎的优惠的文本内容：
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * 来自决策引擎的优惠的HTML内容：
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## 辅助程序{#helpers-all}
@@ -134,6 +134,7 @@ Handlebars帮助程序是一个简单标识符，后面可跟参数。
 >[!NOTE]
 >
 >有关帮助程序功能的详情，请参见 [本节](functions/helpers.md).
+>
 
 ## 文本类型 {#literal-types}
 
@@ -163,7 +164,8 @@ Journey Optimizer允许您通过向消息中添加个性化字段来个性化消
 
 >[!NOTE]
 >
->在表达式编辑器中，编辑个性化的URL时，出于安全原因，帮助程序功能和区段成员资格被禁用。
+>在表达式编辑器中，编辑个性化的URL时，出于安全原因，将禁用帮助程序功能和受众成员资格。
+>
 
 **个性化URL示例**
 

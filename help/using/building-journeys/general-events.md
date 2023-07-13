@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -29,7 +29,7 @@ ht-degree: 20%
 
 ![](assets/general-events.png)
 
-删除业务事件时，会自动添加 **读取区段** 活动。 有关业务事件的详细信息，请参阅 [本节](../event/about-events.md)
+删除业务事件时，会自动添加 **读取受众** 活动。 有关业务事件的详细信息，请参阅 [本节](../event/about-events.md)
 
 ## 在特定时间监听事件 {#events-specific-time}
 

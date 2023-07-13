@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -77,7 +77,7 @@ In [!DNL Journey Optimizer] 在电子邮件中，您可以插入将利用决策�
 
 >[!NOTE]
 >
->您需要具有测试用户档案才能预览消息。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
+>您需要具有测试用户档案才能预览消息。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
 1. 选择要用于预览选件的测试配置文件：
 
@@ -85,16 +85,15 @@ In [!DNL Journey Optimizer] 在电子邮件中，您可以插入将利用决策�
 
       >[!NOTE]
       >
-      >在此示例中，我们使用 **电子邮件** 命名空间。 了解有关Adobe Experience Platform身份命名空间的更多信息 [在此部分中](../segment/get-started-identity.md).
+      >在此示例中，我们使用 **电子邮件** 命名空间。 了解有关Adobe Experience Platform身份命名空间的更多信息 [在此部分中](../audience/get-started-identity.md).
 
    1. 在 **[!UICONTROL 标识值]** 字段中，输入用于标识测试用户档案的值。 在此示例中，输入测试用户档案的电子邮件地址。
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
-   1. 添加其他用户档案，以便您根据用户档案数据测试消息的不同变体。
+   1. 添加其他用户档案，以便根据用户档案数据测试消息的不同变体。
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. 单击 **[!UICONTROL 预览]** 选项卡，测试您的消息，然后选择测试用户档案。 将显示与所选用户档案（女性）对应的优惠。
 

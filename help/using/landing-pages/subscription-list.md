@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，列表，订阅，服务
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 12%
@@ -76,7 +76,7 @@ ht-degree: 12%
 
 创建订阅列表后，您可以在登陆页面中使用该列表。 选择通过登陆页面表单的用户档案将添加到列表中。 [了解详情](design-lp.md)
 
-在以下情况下，您还可以将订阅列表用作区段： [构建历程](../building-journeys/journey-gs.md#jo-build) 和添加个性化。
+在以下情况下，您还可以使用订阅列表作为受众： [构建历程](../building-journeys/journey-gs.md#jo-build) 和添加个性化。
 
 >[!NOTE]
 >

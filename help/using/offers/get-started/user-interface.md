@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 35%
@@ -26,7 +26,7 @@ ht-degree: 35%
 * **[!UICONTROL 选件]**：创建和访问您的个性化的后备优惠。 了解如何创建 [优惠](../offer-library/creating-personalized-offers.md) 和 [后备优惠](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL 收藏集]**：将优惠组织为静态和动态收藏集。 [了解详情](../offer-library/creating-collections.md)
 * **[!UICONTROL 决策]**：创建和管理决策以投放优惠。 [了解详情](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL 批量决策]**：将优惠决策交付给给定Adobe Experience Platform区段中的所有用户档案。 [了解详情](../batch-delivery.md)
+* **[!UICONTROL 批量决策]**：将优惠决策交付给给给定Adobe Experience Platform受众中的所有用户档案。 [了解详情](../batch-delivery.md)
 * **[!UICONTROL 模拟]**：通过模拟将哪些优惠提供给给定投放位置的测试用户档案来验证决策逻辑。 [了解详情](../offer-activities/simulation.md)
 
 使用 **[!UICONTROL 组件]** 用于创建和管理创建优惠和决策所需的组件的菜单：

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 > Adobe Journey Optimizer 构建于 Adobe Experience Platform 之上，以原生方式连接到 [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。此内置数据源已预配置，旨在检索和使用 Real-time Customer Profile 中的数据（例如，检查进入历程的人员是否为客户）。该数据源允许您使用用户档案数据和体验事件数据。[了解详情](../datasource/adobe-experience-platform-data-source.md)。
+>
 
 ## 了解 Adobe Customer Journey Analytics{#integration-cja}
 
@@ -34,7 +35,7 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 
 ## Adobe Analytics{#integration-aa}
 
-您可以利用已在捕获并流入到 Adobe Experience Platform 中的所有 Adobe Analytics 行为事件数据，从而触发实时历程并将客户的体验自动化。此数据还可用于创建可使用 Journey Optimizer 接触的区段。
+您可以利用已在捕获并流入到 Adobe Experience Platform 中的所有 Adobe Analytics 行为事件数据，从而触发实时历程并将客户的体验自动化。此数据还可用于创建可以使用Journey Optimizer参与的受众。
 
 详细了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
 

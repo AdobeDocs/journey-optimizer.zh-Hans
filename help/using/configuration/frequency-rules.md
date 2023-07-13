@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 信息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 74db87267c2bc4a1aabfc506adaa29758467dd81
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '977'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer] 允许您通过设置跨渠道规则，控制用户接收消息或进入历程的频率，这些规则将自动从消息和操作中排除过度请求的用户档案。
 
-例如，对于品牌，规则不能每月向客户发送超过3条营销消息。 要实现此目的，您可以使用频率规则，该规则将限制每月日历期间基于一个或多个渠道发送的消息数。
+例如，您不希望品牌每月向其客户发送的营销消息超过3条。
+
+要实现此目的，您可以使用频率规则，该规则将限制每月日历期间基于一个或多个渠道发送的消息数。
 
 >[!NOTE]
 >
@@ -183,7 +185,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->测试频率规则时，建议使用新创建的 [测试配置文件](../segment/creating-test-profiles.md)，因为一旦达到用户档案的频率上限，就无法在下月之前重置计数器。 停用规则将允许限定用户档案接收消息，但不会移除或删除任何计数器增量。
+>测试频率规则时，建议使用新创建的 [测试配置文件](../audience/creating-test-profiles.md)，因为一旦达到用户档案的频率上限，就无法在下月之前重置计数器。 停用规则将允许限定用户档案接收消息，但不会移除或删除任何计数器增量。
 
 ## 操作方法视频 {#video}
 

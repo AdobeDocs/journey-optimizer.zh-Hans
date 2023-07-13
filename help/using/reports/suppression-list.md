@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->具有的配置文件 **[!UICONTROL 已隐藏]** 在消息发送过程中排除状态。 因此，虽然 **历程报表** 将显示这些用户档案在整个历程中移动([读取区段](../building-journeys/read-segment.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报告** 不会将它们包含在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前已将它们过滤掉。
+>具有的配置文件 **[!UICONTROL 已隐藏]** 在消息发送过程中排除状态。 因此，虽然 **历程报表** 将显示这些用户档案在整个历程中移动([读取受众](../building-journeys/read-audience.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报告** 不会将它们包含在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前已将它们过滤掉。
 >
 >了解更多关于 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md). 要了解所有排除案例的原因，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 

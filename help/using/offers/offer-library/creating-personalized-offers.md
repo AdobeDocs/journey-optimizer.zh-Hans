@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
+   >在选择受众或决策规则时，您可以查看有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
    >
    >请注意，当规则参数包括不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，一个资格规则，要求当前天气为≥80度。
 
@@ -122,11 +122,11 @@ ht-degree: 12%
 * **[!UICONTROL 复制]**：创建具有相同属性、表示法、资格规则和约束的优惠。 默认情况下，新选件具有 **[!UICONTROL 草稿]** 状态。
 * **[!UICONTROL 删除]**：从列表中删除选件。
 
-   >[!CAUTION]
-   >
-   >将无法再访问选件及其内容。 此操作无法撤销。
-   >
-   >如果优惠用在收藏集或决策中，则无法删除该优惠。 必须先从任何对象中删除选件。
+  >[!CAUTION]
+  >
+  >将无法再访问选件及其内容。 此操作无法撤销。
+  >
+  >如果优惠用在收藏集或决策中，则无法删除该优惠。 必须先从任何对象中删除选件。
 
 * **[!UICONTROL 存档]**：将选件状态设置为 **[!UICONTROL 已存档]**. 该优惠仍然可以从列表中获得，但您不能将其状态重新设置为 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已批准]**. 您只能复制或删除它。
 

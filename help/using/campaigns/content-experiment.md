@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 内容，试验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 6%
@@ -57,7 +57,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 -->
 1. 选择您的渠道，然后选择 **[!UICONTROL 表面]** 要用于此投放并单击 **[!UICONTROL 创建]**. 有关详情，请参阅 [渠道表面](../configuration/channel-surfaces.md) 页面。
 
-   在本例中，我们选择使用电子邮件发送营销活动。
+   在此示例中，我们选择使用电子邮件发送营销活动。
 
    ![](assets/content_experiment_2.png)
 
@@ -65,9 +65,9 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    * **[!UICONTROL 名称]**
    * **[!UICONTROL 描述]**
 
-1. 定义要定位的受众。 要执行此操作，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform区段的列表。 [了解有关区段的更多信息](../segment/about-segments.md)
+1. 定义要定位的受众。 要执行此操作，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)
 
-   在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解详情](get-started-experiment.md#content-experiment-work)
+   在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

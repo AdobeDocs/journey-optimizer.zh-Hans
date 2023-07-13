@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 17%
@@ -61,7 +61,7 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 要创建区段，您可以在历程条件中利用它们。 请参阅 [在条件中使用区段](../building-journeys/condition-activity.md#using-a-segment).
+如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} 要创建受众，您可以在历程条件中利用它们。 请参阅 [在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ ht-degree: 17%
 
 ![](assets/profile-cap-condition.png)
 
-## 在条件中使用区段 {#using-a-segment}
+## 在条件中使用受众 {#using-a-segment}
 
-本节介绍如何在旅程条件中使用区段。 有关区段以及如何构建区段的更多信息，请参阅 [本节](../segment/about-segments.md).
+本节介绍如何在历程条件中使用受众。 有关受众以及如何构建受众的更多信息，请参阅 [本节](../audience/about-audiences.md).
 
-要在历程条件中使用区段，请执行以下步骤：
+要在历程条件中使用受众，请执行以下步骤：
 
 1. 打开历程，放置 **[!UICONTROL 条件]** 活动并选择 **数据源条件**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ ht-degree: 17%
 
    ![](assets/segment3.png)
 
-1. 在左侧，展开 **[!UICONTROL 区段]** 节点。 拖放要用于条件的区段。 默认情况下，区段的条件为true。
+1. 在左侧，展开 **[!UICONTROL 受众]** 节点。 拖放要用于条件的受众。 默认情况下，受众的条件为true。
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >请注意，只有具有 **已实现** 和 **现有** 区段参与状态将被视为区段的成员。 有关如何评估区段的更多信息，请参阅 [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >请注意，只有具有 **已实现** 和 **现有** 受众参与状态将被视为受众的成员。 有关如何评估受众的更多信息，请参阅 [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

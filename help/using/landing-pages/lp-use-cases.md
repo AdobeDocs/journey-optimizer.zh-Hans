@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 15%
@@ -74,9 +74,9 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. 展开 **[!UICONTROL 事件]** 类别并放置 **[!UICONTROL 区段鉴别]** 活动放入画布。 [了解详情](../building-journeys/segment-qualification-events.md)
+1. 展开 **[!UICONTROL 事件]** 类别并放置 **[!UICONTROL 受众资格]** 活动放入画布。 [了解详情](../building-journeys/audience-qualification-events.md)
 
-1. 单击 **[!UICONTROL 区段]** 字段并选择您创建的订阅列表。
+1. 单击 **[!UICONTROL Audience]** 字段并选择您创建的订阅列表。
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -227,7 +227,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 

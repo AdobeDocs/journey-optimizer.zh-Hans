@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 13%
+source-wordcount: '322'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 13%
 
 1. 命名规则并提供描述，然后根据需要配置规则。
 
-   要执行此操作， **区段生成器** 可用于帮助您构建规则的条件。 [了解详情](../../segment/about-segments.md)
+   为此，请使用Adobe Experience Platform **区段生成器** 可用于帮助您构建规则的条件。 [了解如何生成区段定义](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >与用于创建决策规则的区段生成器相比，该生成器具有一些特定性 **[!UICONTROL 分段]** 服务。 例如， **[!UICONTROL 区段]** 选项卡不可用。 但是，中所述的全局过程 [区段生成器](../../segment/about-segments.md) 文档仍然可用于构建优惠决策规则。 了解详情，请参阅 [Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >与用于创建决策规则的区段生成器相比，该生成器具有一些特定性 **[!UICONTROL 分段]** 服务。 但是，中所述的全局过程 [区段生成器](../../audience/creating-a-segment-definition.md) 文档仍然可用于构建优惠决策规则。 了解详情，请参阅 [Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. 当您在工作区中添加和配置新字段时， **[!UICONTROL 区段属性]** 窗格显示有关属于区段的预计用户档案的信息。 单击 **[!UICONTROL 刷新估计]** 以更新数据。
+1. 当您在工作区中添加和配置新字段时， **[!UICONTROL 受众属性]** 窗格显示有关属于受众的预计用户档案的信息。 单击 **[!UICONTROL 刷新估计]** 以更新数据。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 

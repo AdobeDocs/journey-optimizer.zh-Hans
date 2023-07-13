@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -61,17 +61,17 @@ ht-degree: 3%
 
 * **结束日期和时间**
 
-   **字段：** endDate
-   **标题：** 结束日期和时间
-   **描述：** 决策选项有效性的结束日期。 不能再在决策过程中建议已超过其结束日期的选项。
-   **类型：**&#x200B;字符串
+  **字段：** endDate
+  **标题：** 结束日期和时间
+  **描述：** 决策选项有效性的结束日期。 不能再在决策过程中建议已超过其结束日期的选项。
+  **类型：**&#x200B;字符串
 
 * **开始日期和时间**
 
-   **字段：** startDate
-   **标题：** 开始日期和时间
-   **描述：** 决策选项有效性的开始日期。 尚未到达其开始日期的选项尚无法在决策过程中建议。
-   **类型：**&#x200B;字符串
+  **字段：** startDate
+  **标题：** 开始日期和时间
+  **描述：** 决策选项有效性的开始日期。 尚未到达其开始日期的选项尚无法在决策过程中建议。
+  **类型：**&#x200B;字符串
 
 +++
 
@@ -102,83 +102,83 @@ ht-degree: 3%
 
 * **_experience >决策>内容>组件>内容组件类型**
 
-   **字段：** _type
-   **标题：** 内容组件类型
-   **描述：** 一组URI的枚举，其中每个值映射到为内容组件给定的类型。 内容表示的一些使用者期望@type值是对描述内容组件的其他属性的架构的引用。
-   **类型：**&#x200B;字符串
+  **字段：** _type
+  **标题：** 内容组件类型
+  **描述：** 一组URI的枚举，其中每个值映射到为内容组件给定的类型。 内容表示的一些使用者期望@type值是对描述内容组件的其他属性的架构的引用。
+  **类型：**&#x200B;字符串
 
 * **_experience > decisioning >内容>组件> _dc**
 
-   **字段：** _dc
-   **类型：** 对象
-   **必需：** &quot;format&quot;
+  **字段：** _dc
+  **类型：** 对象
+  **必需：** &quot;format&quot;
 
    * **格式**
 
-      **字段：** 格式
-      **标题：** 格式
-      **描述：** 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 格式可用于确定显示或操作资源所需的软件、硬件或其他设备。 建议的最佳做法是从受控词汇(例如， [Internet媒体类型](https://www.iana.org/assignments/media-types/) 定义计算机媒体格式)。
-      **类型：**字符串
-      **示例：** &quot;application/vnd.adobe.photoshop&quot;
+     **字段：** 格式
+     **标题：** 格式
+     **描述：** 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 格式可用于确定显示或操作资源所需的软件、硬件或其他设备。 建议的最佳做法是从受控词汇(例如， [Internet媒体类型](https://www.iana.org/assignments/media-types/) 定义计算机媒体格式)。
+     **类型：**字符串
+     **示例：** &quot;application/vnd.adobe.photoshop&quot;
 
    * **语言**
-      **字段：** 语言
-      **标题：** 语言
-      **描述：** 资源的一种或多种语言。 \n语言是在中定义的语言代码中指定的 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)，它是XDM中的其他位置使用的BCP 47的一部分。
-      **类型：** 数组
-      **示例：** “\n”、“pt-BR”、“es-ES”
+     **字段：** 语言
+     **标题：** 语言
+     **描述：** 资源的一种或多种语言。 \n语言是在中定义的语言代码中指定的 [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt)，它是XDM中的其他位置使用的BCP 47的一部分。
+     **类型：** 数组
+     **示例：** “\n”、“pt-BR”、“es-ES”
 
 * **_experience > decisioning >内容>组件> _repo**
 
-   **字段：** 存储库(_R)
-   **类型：** 对象
+  **字段：** 存储库(_R)
+  **类型：** 对象
 
    * **id**
 
-      **字段：** id
-      **描述：** 在内容存储库中引用资产的可选唯一标识符。 当使用平台API检索表示法时，客户端需要额外的属性\&quot;repo：resolveUrl\&quot;来检索资产。
-      **类型：**字符串
-      **示例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e”
+     **字段：** id
+     **描述：** 在内容存储库中引用资产的可选唯一标识符。 当使用平台API检索表示法时，客户端需要额外的属性\&quot;repo：resolveUrl\&quot;来检索资产。
+     **类型：**字符串
+     **示例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e”
 
    * **name**
 
-      **字段：** name
-      **描述：** 有关通过\&quot;repo：id\&quot;查找存储外部资产的存储库的位置的一些提示。
-      **类型：**&#x200B;字符串
+     **字段：** name
+     **描述：** 有关通过\&quot;repo：id\&quot;查找存储外部资产的存储库的位置的一些提示。
+     **类型：**&#x200B;字符串
 
    * **repositoryID**
 
-      **字段：** repositoryID
-      **描述：** 在内容存储库中引用资产的可选唯一标识符。 当使用平台API检索表示法时，客户端需要额外的属性\&quot;repo：resolveUrl\&quot;来检索资产。
-      **类型：**字符串
-      **示例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **字段：** repositoryID
+     **描述：** 在内容存储库中引用资产的可选唯一标识符。 当使用平台API检索表示法时，客户端需要额外的属性\&quot;repo：resolveUrl\&quot;来检索资产。
+     **类型：**字符串
+     **示例：** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **字段：** resolveURL
-      **描述：** 可选的唯一资源定位器，用于读取内容存储库中的资产。 这样，无需客户了解资产的管理位置以及要调用的API，即可更轻松地获取资产。 这类似于HAL链接，但语义更简单、更有意义。
-      **类型：**字符串
-      **示例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
+     **字段：** resolveURL
+     **描述：** 可选的唯一资源定位器，用于读取内容存储库中的资产。 这样，无需客户了解资产的管理位置以及要调用的API，即可更轻松地获取资产。 这类似于HAL链接，但语义更简单、更有意义。
+     **类型：**字符串
+     **示例：** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;
 
 * **_experience >决策>内容>组件>内容**
 
-   **字段：** 内容
-   **描述：** 直接保存内容的可选字段。 组件可以直接保存简单的内容，而不是引用资产存储库中的内容。 此字段不适用于复合、复杂和二进制内容资产。
-   **类型：**&#x200B;字符串
+  **字段：** 内容
+  **描述：** 直接保存内容的可选字段。 组件可以直接保存简单的内容，而不是引用资产存储库中的内容。 此字段不适用于复合、复杂和二进制内容资产。
+  **类型：**&#x200B;字符串
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
-   **字段：** deliveryURL
-   **描述：** 用于从内容交付网络或服务端点获取资源的可选唯一资源定位器。 用户代理使用此URL公开访问资产。
-   **类型：**字符串
-   **示例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **字段：** deliveryURL
+  **描述：** 用于从内容交付网络或服务端点获取资源的可选唯一资源定位器。 用户代理使用此URL公开访问资产。
+  **类型：**字符串
+  **示例：** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning >内容>组件> linkURL**
 
-   **字段：** linkURL
-   **描述：** 用于用户交互的可选唯一资源定位器。 此URL用于将最终用户引荐到用户代理中，并且可以对其进行跟踪。
-   **类型：**字符串
-   **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **字段：** linkURL
+  **描述：** 用于用户交互的可选唯一资源定位器。 此URL用于将最终用户引荐到用户代理中，并且可以对其进行跟踪。
+  **类型：**字符串
+  **示例：** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_体验>决策>内容>投放位置
 
@@ -239,13 +239,13 @@ ht-degree: 3%
 
 **字段：** profileConstraintType
 **标题：** 配置文件约束类型
-**描述：** 确定当前是否设置了任何约束以及如何表示约束。 它可以通过规则或通过一个或多个区段成员资格进行。
+**描述：** 确定当前是否设置了任何约束以及如何表示约束。 它可以通过规则或通过一个或多个受众成员资格实现。
 **类型：** 字符串
 **可能的值：**
 * “无”（默认）
 * &quot;eligibilityRule&quot;：&quot;配置文件约束表示为单个规则，在允许约束活动之前必须评估为true。&quot;
-* “anySegments”：“配置文件约束表示为一个或多个区段，在允许约束操作之前，配置文件必须是至少一个区段的成员。”
-* “allSegments”：“配置文件约束表示为一个或多个区段，在允许约束操作之前，配置文件必须是所有这些区段的成员。”
+* “anySegments”：“用户档案约束表示为一个或多个受众，并且用户档案必须是其中至少一个受众的成员，然后才能执行约束操作。”
+* “allSegments”：“配置文件约束表示为一个或多个受众，在允许约束操作之前，配置文件必须是所有这些受众的成员。”
 * &quot;rules&quot;：&quot;profile constraint表示为许多不同的规则，例如适用性、适用性、适用性，在允许约束操作之前，所有这些规则都必须评估为true。&quot;
 
 +++
@@ -254,37 +254,37 @@ ht-degree: 3%
 
 **字段：** segmentIdentities
 **标题：** 区段标识符
-**描述：** 区段的标识符
+**描述：** 受众的标识符
 **类型：** 数组
 
 * **标识符**
 
-   **字段：** _id
-   **标题：** 标识符
-   **描述：** 区段在相关命名空间中的身份。
-   **类型：**&#x200B;字符串
+  **字段：** _id
+  **标题：** 标识符
+  **描述：** 受众在相关命名空间中的身份。
+  **类型：**&#x200B;字符串
 
 * **命名空间**
 
-   **字段：** 命名空间
-   **标题：** 命名空间
-   **描述：** 与关联的命名空间 `xid` 属性。
-   **类型：** 对象
-   **必需：** &quot;code&quot;
+  **字段：** 命名空间
+  **标题：** 命名空间
+  **描述：** 与关联的命名空间 `xid` 属性。
+  **类型：** 对象
+  **必需：** &quot;code&quot;
 
    * **代码**
 
-      **字段：** 代码
-      **标题：** 代码
-      **描述：** 该代码是易于用户识别的命名空间标识符，可用于请求用于标识图处理的技术命名空间ID。
-      **类型：**&#x200B;字符串
+     **字段：** 代码
+     **标题：** 代码
+     **描述：** 该代码是易于用户识别的命名空间标识符，可用于请求用于标识图处理的技术命名空间ID。
+     **类型：**&#x200B;字符串
 
 * **体验标识符**
 
-   **字段：** xid
-   **标题：** 体验标识符
-   **描述：** 如果存在，则此值表示跨命名空间标识符，该标识符在所有命名空间中的所有命名空间范围内的标识符中是唯一的。
-   **类型：**&#x200B;字符串
+  **字段：** xid
+  **标题：** 体验标识符
+  **描述：** 如果存在，则此值表示跨命名空间标识符，该标识符在所有命名空间中的所有命名空间范围内的标识符中是唯一的。
+  **类型：**&#x200B;字符串
 
 +++
 
@@ -306,25 +306,25 @@ ht-degree: 3%
 
 * **评分功能**
 
-   **字段：** 函数
-   **标题：** 评分功能
-   **描述：** 对此决策选项计算数值分数的函数的引用。 然后，决策选项将按该得分排序（排名）。 此属性的值是每次使用on选项调用的函数的URI (@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/function 。
-   **类型：**&#x200B;字符串
+  **字段：** 函数
+  **标题：** 评分功能
+  **描述：** 对此决策选项计算数值分数的函数的引用。 然后，决策选项将按该得分排序（排名）。 此属性的值是每次使用on选项调用的函数的URI (@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/function 。
+  **类型：**&#x200B;字符串
 
 * **订单评估类型**
 
-   **字段：** orderEvaluationType
-   **标题：** 订单评估类型
-   **描述：** 指定使用哪种顺序评估机制、决策选项的静态优先级、为每个选项计算数值的评分函数或接收排序列表的排名策略。
-   **类型：**字符串
-   **可能的值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
+  **字段：** orderEvaluationType
+  **标题：** 订单评估类型
+  **描述：** 指定使用哪种顺序评估机制、决策选项的静态优先级、为每个选项计算数值的评分函数或接收排序列表的排名策略。
+  **类型：**字符串
+  **可能的值：** &quot;static&quot;、&quot;scoringFunction&quot;、&quot;rankingStrategy&quot;
 
 * **排名策略**
 
-   **字段：** 排名策略
-   **标题：** 排名策略
-   **描述：** 对决策选项列表进行排名的策略参考。 决策选项将按有序列表返回。 此属性的值是每次使用on选项调用的函数的URI (@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rankingStrategy 。
-   **类型：**&#x200B;字符串
+  **字段：** 排名策略
+  **标题：** 排名策略
+  **描述：** 对决策选项列表进行排名的策略参考。 决策选项将按有序列表返回。 此属性的值是每次使用on选项调用的函数的URI (@id)。 请参阅架构https://ns.adobe.com/experience/decisioning/rankingStrategy 。
+  **类型：**&#x200B;字符串
 
 +++
 

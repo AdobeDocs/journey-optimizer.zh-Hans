@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 在发布历程之前，使用测试配置文件来测试历程。此模式允许您运行历程测试并使用测试配置文件识别问题。
 
-只有测试配置文件才能进入处于测试模式的历程。您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在中了解有关测试用户档案的更多信息 [本节](../segment/creating-test-profiles.md).
+只有测试配置文件才能进入处于测试模式的历程。您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在中了解有关测试用户档案的更多信息 [本节](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ ht-degree: 11%
 ## 重要说明 {#important_notes}
 
 * 在测试模式下，您可以使用界面触发事件。
-* 只有在Real-time Customer Profile Service中标记为“测试配置文件”的个人才能进入测试历程。 请参阅此[章节](../segment/creating-test-profiles.md)。
+* 只有在Real-time Customer Profile Service中标记为“测试配置文件”的个人才能进入测试历程。 请参阅此[章节](../audience/creating-test-profiles.md)。
 * 测试模式仅适用于使用命名空间的草稿历程。 测试模式需要检查进入旅程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间可以进入历程的测试用户档案的最大数量为100。
 * 禁用测试模式后，它会从过去进入该模式或当前处于该模式中的所有人员中清空历程。 它还会清除报表。
@@ -114,7 +114,7 @@ ht-degree: 11%
 
 ## 业务事件的测试模式 {#test-business}
 
-使用时 [业务事件](../event/about-events.md)，使用测试模式在历程中触发单个测试用户档案入口，模拟事件并传递正确的用户档案ID。 您必须传递事件参数和将进入测试历程的测试用户档案的标识符。 您不能使用 **[!UICONTROL 一次最多100个配置文件]** 基于其他区段的历程中存在的选项。 在测试模式下，没有基于业务事件的历程可用的“代码视图”模式。
+使用时 [业务事件](../event/about-events.md)，使用测试模式在历程中触发单个测试用户档案入口，模拟事件并传递正确的用户档案ID。 您必须传递事件参数和将进入测试历程的测试用户档案的标识符。 您不能使用 **[!UICONTROL 一次最多100个配置文件]** 适用于其他基于受众的历程的选项。 在测试模式下，没有基于业务事件的历程可用的“代码视图”模式。
 
 请注意，首次触发业务事件时，不能在同一测试会话中更改业务事件定义。 您只能让同一人或不同人进入传递相同或其他标识符的历程。 如果要更改业务事件参数，则必须停止并重新启动测试模式。
 

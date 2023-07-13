@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 6%
@@ -26,7 +26,8 @@ Journey Optimizer可利用Adobe Experience Platform警报功能。 这允许您�
 
 >[!AVAILABILITY]
 >
->“读取区段触发器不成功”警报的一些设计更改正在进行中，因此该警报暂时暂停，并从用户界面中临时删除。 发布这些更改后，警报将再次显示，您可以订阅它。
+>“读取受众触发器不成功”警报的一些设计更改正在进行中，因此该警报现已暂停，并且已从用户界面中临时删除。 发布这些更改后，警报将再次显示，您可以订阅它。
+>
 
 在左侧菜单的下方 **管理**，单击 **警报**.
 

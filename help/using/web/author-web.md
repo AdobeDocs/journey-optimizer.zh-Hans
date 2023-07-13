@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 14%
@@ -71,15 +71,15 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
    * 上下文菜单，用于编辑其内容、布局、插入链接或个性化等。
 
-      ![](assets/web-designer-contextual-bar.png)
+     ![](assets/web-designer-contextual-bar.png)
 
    * 右侧面板顶部的图标用于编辑、复制、删除或隐藏每个元素。
 
-      ![](assets/web-designer-right-panel-icons.png)
+     ![](assets/web-designer-right-panel-icons.png)
 
    * 根据所选元素动态更改的右侧面板。 例如，您可以编辑元素的背景、排版规则、边框、大小、位置、间距、效果或内联样式。
 
-      ![](assets/web-designer-right-panel.png)
+     ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Web设计器中的这项功能允许您选择网站的任何元素并跟踪对�
 
 >[!CAUTION]
 >
->您必须具有可用的测试用户档案，以模拟将向其投放哪些优惠。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
+>您必须具有可用的测试用户档案，以模拟将向其投放哪些优惠。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
 1. 从Web营销活动编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
 

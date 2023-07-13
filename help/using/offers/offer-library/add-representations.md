@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 9%
 
 ---
@@ -134,5 +134,5 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >仅 **[!UICONTROL 配置文件属性]**， **[!UICONTROL 区段成员资格]** 和 **[!UICONTROL 辅助函数]** 源可用于Decision Management。
+   >仅 **[!UICONTROL 配置文件属性]**， **[!UICONTROL 受众]** 和 **[!UICONTROL 辅助函数]** 源可用于Decision Management。
 

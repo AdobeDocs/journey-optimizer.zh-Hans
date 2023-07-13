@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 18%
@@ -59,12 +59,12 @@ ht-degree: 18%
 
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
-| ID | 字符串 | 触发的区段导出作业的标识符 |
-| 状态 | 字符串 | 区段导出作业的状态：已排队、已启动、已完成 |
-| exportCountTotal | 整数 | 区段导出作业的最大可能值 |
-| exportCountRealized | 整数 | 通过作业导出的实际区段数 |
-| exportCountFailed | 整数 | 通过作业导出时失败的区段数 |
-| exportSegmentID | 字符串 | 正在导出的区段的标识符 |
+| ID | 字符串 | 触发的受众导出作业的标识符 |
+| 状态 | 字符串 | 受众导出作业的状态：已排队、已启动、已完成 |
+| exportCountTotal | 整数 | 受众导出作业的最大可能值 |
+| exportCountRealized | 整数 | 通过作业导出的实际受众数量 |
+| exportCountFailed | 整数 | 通过作业导出时失败的受众数量 |
+| exportSegmentID | 字符串 | 正在导出的受众的标识符 |
 | 事件类型 | 字符串 | 指示它是否为信息事件的错误事件的事件类型：信息、错误 |
 | eventcode | 字符串 | 指示相应eventType原因的错误代码 |
 

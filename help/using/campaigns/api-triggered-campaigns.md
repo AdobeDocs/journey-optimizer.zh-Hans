@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 营销活动、 API触发、 REST 、优化器、消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
+source-wordcount: '831'
+ht-degree: 3%
 
 ---
 
@@ -19,27 +19,23 @@ ht-degree: 1%
 
 ## 关于API触发的营销活动 {#about}
 
-替换为 [!DNL Journey Optimizer]，您可以创建营销策划，然后使用根据用户触发器从外部系统调用它们。 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这样，您就可以满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
+替换为 [!DNL Journey Optimizer]，您可以创建营销策划，然后使用根据用户触发器从外部系统调用它们。 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种操作和事务性消息传递需求，如密码重置、OTP 令牌等。
 
 为此，您首先需要在Journey Optimizer中创建一个API触发的营销活动，然后通过API调用启动其执行。
 
 API触发的营销活动的可用渠道包括电子邮件、短信和推送消息。
 
->[!NOTE]
->
->截至目前，推送通知API触发的营销活动不支持快速投放。
-
 ## 创建API触发的营销活动 {#create}
 
 ### 配置和激活营销活动 {#create-activate}
 
-要创建API触发的营销活动，请执行以下步骤。 有关如何创建营销活动的详细信息，请参阅 [本节](create-campaign.md).
+创建API触发的营销活动的过程与计划的营销活动相同，但在API有效负荷中执行的受众选择除外。 有关如何创建营销活动的详细信息，请参阅 [本节](create-campaign.md).
+
+要创建API触发的营销活动，请执行以下步骤：
 
 1. 使用创建新营销活动 **[!UICONTROL API触发]** 类型。
 
-1. 选择 **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]** 类别，具体取决于您要发送的通信类型。
-
-1. 选择其中一个受支持的渠道和关联的渠道表面来用于发送消息，然后单击 **[!UICONTROL 创建]**.
+1. 选择要用于发送消息的渠道和渠道平面，然后单击 **[!UICONTROL 创建]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -51,11 +47,9 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
    >
    >在内容中使用大量或繁重的上下文数据可能会影响性能。
 
-1. 在 **[!UICONTROL Audience]** 部分，指定用于标识个人的命名空间。
+1. 在 **[!UICONTROL Audience]** 部分，指定用于识别受众中个人的命名空间。
 
-   * 如果您要创建 **事务性**-type campaign，则需要在API调用中定义目标用户档案。 此 **[!UICONTROL 创建新配置文件]** 选项允许您自动创建数据库中不存在的配置文件。 [了解有关活动执行时用户档案创建的更多信息](#profile-creation)
-
-   * 对象 **营销**-type campaigns，单击 **[!UICONTROL Audience]** 按钮选择要定位的受众。
+   此 **[!UICONTROL 创建新配置文件]** 选项允许您自动创建数据库中不存在的配置文件。 [了解有关活动执行时用户档案创建的更多信息](#profile-creation)
 
 1. 配置营销活动的开始和结束日期。
 
@@ -74,8 +68,6 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
    ![](assets/api-triggered-curl.png)
 
 1. 在API中使用此cURL请求构建有效负载并触发营销活动。 欲了解更多信息，请参见 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
-
-   API调用示例还可在以下位置找到： [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -100,7 +92,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!IMPORTANT]
 >
->传递到请求的上下文属性不能超过50kb，并且始终被视为字符串类型。
+>传递到请求的上下文属性不能超过50kb。
 >
 >此 `context.system` 语法限制为仅供Adobe内部使用，并且不得用于传递上下文属性。
 
@@ -114,9 +106,9 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!IMPORTANT]
 >
->对于事务型消息，此功能仅用于 **创建非常小的卷配置文件** 在大量事务性发送用例中，其中大量用户档案已存在于platform中。
+>此功能提供给 **创建非常小的卷配置文件** 在大量事务性发送用例中，其中大量用户档案已存在于platform中。
 
-要在活动执行时激活用户档案创建，请切换 **[!UICONTROL 创建新配置文件]** 中的选项 **[!UICONTROL Audience]** 部分。 如果禁用此选项，则任何发送都将拒绝未知配置文件，并且API调用将失败。
+要在活动执行时激活用户档案创建，请切换 **[!UICONTROL 创建新配置文件]** 中的选项 **[!UICONTROL Audience]** 部分。
 
 ![](assets/api-triggered-create-profile.png)
 

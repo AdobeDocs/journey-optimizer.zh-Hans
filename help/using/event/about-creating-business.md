@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 与单一事件不同，业务事件不链接到特定的配置文件。事件 ID 类型始终基于规则。阅读更多有关业务活动的信息，请参见 [本节](../event/about-events.md).
 
-基于读取区段的历程可以由调度程序定期触发，也可以在事件发生时由业务事件触发。
+基于受众的读取历程可以由调度程序定期触发，也可以在事件发生时由业务事件触发。
 
 业务事件可以是“产品重新上架”、“公司股价达到一定价值”等。
 
@@ -39,12 +39,12 @@ ht-degree: 15%
 * 事件架构必须包含不基于人员的主要身份。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
 * 业务事件只能作为历程的第一步删除。
 * 将业务事件删除为历程的第一步时，历程的调度程序类型将为“业务事件”。
-* 在业务事件之后，只能删除读取区段活动。 它作为下一步自动添加。
+* 在业务事件之后，只能删除读取受众活动。 它作为下一步自动添加。
 * 要允许多个业务事件执行，请在 **[!UICONTROL 执行]** 旅程属性的部分。
-* 触发业务事件后，区段导出操作将延迟15分钟到1小时。
+* 触发业务事件后，将延迟让受众从15分钟导出到1小时。
 * 测试业务事件时，您必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有“代码视图”模式可用。
 * 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当发生新重复时个人仍处于重复历程中的情况相同。 他们的路径结束了。 因此，营销人员必须注意避免构建太长的历程，如果他们预计频繁的业务事件。
-* 业务事件无法与单一事件或区段资格活动结合使用。
+* 业务事件不能与单一事件或受众资格活动结合使用。
 
 ## 多个业务事件 {#multiple-business-events}
 
@@ -54,9 +54,9 @@ ht-degree: 15%
 
 商业活动遵循的重新进入规则与单一活动相同。 如果历程允许重新进入，则将处理下一个业务事件。
 
-**避免重载实体化区段的护栏是什么？**
+**避免重载具体化受众的护栏是什么？**
 
-对于非点击业务事件，对于给定历程，由第一个事件作业推送的数据会在1小时时段内重复使用。 对于计划的旅程，没有护栏。 要了解有关区段的更多信息，请参阅 [Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+对于非点击业务事件，对于给定历程，由第一个事件作业推送的数据会在1小时时段内重复使用。 对于计划的旅程，没有护栏。 了解中受众的更多信息 [Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## 商业活动入门 {#gs-business-events}
 

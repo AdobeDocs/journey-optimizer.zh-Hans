@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -32,33 +32,33 @@ ht-degree: 4%
 
 * 架构必须是XDM ExperienceEvent类的。
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * 对于系统生成的事件，架构必须包括业务流程eventID字段组。 [!DNL Journey Optimizer] 使用此字段标识历程中使用的事件。
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * 声明一个标识字段，用于标识事件中的各个用户档案。 如果未指定标识，则可以使用标识映射。 不建议采取此做法。
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * 如果您希望此数据稍后可在历程中查找，请标记架构和数据集的配置文件。
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * 您可以随意包含数据字段，以捕获要与事件一起包含的任何其他上下文数据，例如有关用户的信息、生成事件的设备、位置或与事件相关的任何其他有意义的情况。
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## 利用架构关系{#leverage_schema_relationships}
 
 Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
 
-假设您的品牌数据模型具有一个用于捕获购买情况的模式。 此外，您还有一个产品目录架构。 您可以在购买架构中捕获产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个区段，而不必明确列出所有笔记本电脑ID或在事务性系统中捕获每个产品的详细信息。
+假设您的品牌数据模型具有一个用于捕获购买情况的模式。 此外，您还有一个产品目录架构。 您可以在购买架构中捕获产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个受众，而不必明确列出所有笔记本电脑ID或在事务性系统中捕获每个产品的详细信息。
 
 要定义关系，您需要在源架构中有一个专用字段，在本例中是购买架构中的产品ID字段。 此字段需要引用目标架构中的产品ID字段。 必须为配置文件启用源表和目标表，并且目标架构必须将公共字段定义为其主要标识。
 

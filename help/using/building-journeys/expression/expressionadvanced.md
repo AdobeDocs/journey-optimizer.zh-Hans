@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 79%
@@ -50,7 +50,7 @@ _高级表达式编辑器界面_
 
 * 在创建数据源条件时，您可以通过单击 **[!UICONTROL 高级模式]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * 创建自定义计时器时，系统将直接显示高级编辑器。
 * 映射操作参数时，单击 **[!UICONTROL 高级模式]**.
@@ -64,7 +64,7 @@ _高级表达式编辑器界面_
 屏幕左侧显示了可用字段和函数：
 
 * **[!UICONTROL 事件]**：选择从入站事件接收的字段之一。 显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../../event/about-events.md)
-* **[!UICONTROL 区段]**：如果您已放置 **[!UICONTROL 区段鉴别]** 事件，选择要在表达式中使用的区段。 [了解详情](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 受众]**：如果您已放置 **[!UICONTROL 受众资格]** 事件，则选择要在表达式中使用的受众。 [了解详情](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 数据源]**：从数据源的字段组提供的字段列表中进行选择。 [了解详情](../../datasource/about-data-sources.md)
 * **[!UICONTROL 历程属性]**：此部分重组与给定用户档案的历程相关的技术领域。 [了解详情](journey-properties.md)
 * **[!UICONTROL 函数]**：从允许执行复杂筛选的内置函数列表中进行选择。 函数按类别组织。[了解详情](functions.md)

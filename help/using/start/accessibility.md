@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 100%
   <tr>
     <td>
 
-在基于区段的历程中触发事件，其中&#x200B;**[!UICONTROL 一次单个配置文件]**&#x200B;选项处于打开状态
+在基于受众的历程中触发事件，其中 **[!UICONTROL 一次单个配置文件]** 选项已打开
 
 </td>
     <td>P</td>

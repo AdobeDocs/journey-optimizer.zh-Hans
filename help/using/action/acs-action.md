@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 * Adobe Campaign Standard集成是通过操作列表中的专用内置操作设置的。 需要为每个沙盒配置此设置。
 
-* Campaign Standard操作不能与区段鉴别或读取区段活动一起使用。
+* 您无法将Campaign Standard操作用于“受众”资格或“读取受众”活动。
 
 * 历程不能同时使用消息和Campaign Standard操作。
 

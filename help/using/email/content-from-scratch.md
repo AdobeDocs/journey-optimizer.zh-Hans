@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 57%
@@ -98,7 +98,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_asset_picker.png)
 
-1. 插入个性化字段以根据用户档案属性、区段成员资格、上下文属性等自定义内容。 [详细了解内容个性化](../personalization/personalize.md)
+1. 插入个性化字段以根据用户档案属性、受众成员资格、上下文属性等自定义您的内容。 [详细了解内容个性化](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

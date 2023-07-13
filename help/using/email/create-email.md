@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建、电子邮件、开始、历程、营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -59,7 +59,7 @@ ht-degree: 9%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 完成步骤以创建电子邮件营销活动，如营销活动属性， [受众](../segment/about-segments.md)、和 [计划](../campaigns/create-campaign.md#schedule).
+1. 完成步骤以创建电子邮件营销活动，如营销活动属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -122,9 +122,9 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 电子邮件正文中不存在选择退出链接]**：最佳做法是在电子邮件正文中添加退订链接。 了解如何在中配置它 [本节](../privacy/opt-out.md#opt-out-management).
 
-      >[!NOTE]
-      >
-      >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)定义于 [渠道表面](email-settings.md#email-type) 级别和时间 [创建消息](#create-email-journey-campaign) 旅程或营销策划中的活动。
+     >[!NOTE]
+     >
+     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)定义于 [渠道表面](email-settings.md#email-type) 级别和时间 [创建消息](#create-email-journey-campaign) 旅程或营销策划中的活动。
 
    * **[!UICONTROL HTML的文本版本为空]**：别忘了定义电子邮件正文的文本版本，因为当HTML内容无法显示时，将使用该版本。 了解如何在中创建文本版本 [本节](text-version-email.md).
 
@@ -136,12 +136,11 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 缺少主题行]**：电子邮件主题行是必填的。 了解如何在中定义和个性化它 [本节](create-email.md).
 
-   <!--HTML is empty when Amp HTML is present-->
+  <!--HTML is empty when Amp HTML is present-->
 
    * **[!UICONTROL 消息的电子邮件版本为空]**：当电子邮件内容未配置时，显示此错误。 了解如何在中设计电子邮件内容 [本节](get-started-email-design.md).
 
    * **[!UICONTROL 表面不存在]**：如果在创建消息后删除了所选表面，则不能使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL 属性]**. 有关渠道界面的更多信息，请参阅 [本节](../configuration/channel-surfaces.md).
-
 
 >[!CAUTION]
 >

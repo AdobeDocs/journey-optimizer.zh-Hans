@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 优惠投放 API 入门 {#about-decisioning-apis}
 
-您可以使用以下任一方式交付优惠： **决策** 或 **Edge Decisioning** API。 此外， **批量决策** API允许您在一次调用中将选件交付给给定区段中的所有用户档案。 区段中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
+您可以使用以下任一方式交付优惠： **决策** 或 **Edge Decisioning** API。 此外， **批量决策** API允许您在一次调用中将选件交付给给定受众中的所有用户档案。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
 
 在本页中，您将找到有关特定功能的信息，这些功能随 **决策** 和 **Edge Decisioning** API。 虽然这两种方法都允许您向客户提供优惠，但我们建议使用 **Edge Decisioning** API适用于入站用例，并确保提高平台的延迟和吞吐量。
 

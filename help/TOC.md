@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反应](using/building-journeys/reaction-events.md)
-      + [区段限定条件](using/building-journeys/segment-qualification-events.md)
+      + [受众资格](using/building-journeys/audience-qualification-events.md)
       + [条件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
-      + [阅读区段](using/building-journeys/read-segment.md)
+      + [读取受众](using/building-journeys/read-audience.md)
       + [电子邮件、应用程序内消息、推送、短信](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-+ 区段、用户档案和标识{#segment}
-   + 区段{#segments}
-      + [区段入门](using/segment/about-segments.md)
-      + [构建区段](using/segment/creating-a-segment.md)
-   + 用户档案{#profiles}
-      + [开始使用用户档案](using/segment/get-started-profiles.md)
-      + [创建测试用户档案](using/segment/creating-test-profiles.md)
-   + [标识](using/segment/get-started-identity.md)
++ 受众、用户档案和标识{#audiences-profiles-identities}
+   + 受众 {#audiences}
+      + [受众入门](using/audience/about-audiences.md)
+      + [生成区段定义](using/audience/creating-a-segment-definition.md)
+   + 配置文件{#profiles}
+      + [开始使用用户档案](using/audience/get-started-profiles.md)
+      + [创建测试用户档案](using/audience/creating-test-profiles.md)
+   + [标识](using/audience/get-started-identity.md)
    + 组合受众{#audience-orchestration}
-      + [受众组合入门](using/segment/get-started-audience-orchestration.md)
-      + [创建组合工作流](using/segment/create-compositions.md)
-      + [使用组合画布](using/segment/composition-canvas.md)
-      + [访问和管理受众](using/segment/access-audiences.md)
-   + [许可证使用](using/segment/license-usage.md)
+      + [受众组合入门](using/audience/get-started-audience-orchestration.md)
+      + [创建组合工作流](using/audience/create-compositions.md)
+      + [使用组合画布](using/audience/composition-canvas.md)
+      + [访问和管理受众](using/audience/access-audiences.md)
+   + [许可证使用](using/audience/license-usage.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
    + [数据管理](using/action/action-privacy.md)
-   + [设置和管理客户管理的密钥](using/privacy/cmk.md)

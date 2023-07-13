@@ -5,7 +5,7 @@ title: Journey Optimizer 数据工程师入门
 description: 作为历程工程师，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 以下各部分中详细介绍了为用户档案和测试用户档案创建身份命名空间和启用数据集的步骤：
 
-1. **创建身份命名空间**。在 Adobe [!DNL Journey Optimizer] 中，跨设备和渠道的&#x200B;**身份**&#x200B;与用户相关联，从而会生成一个身份图。关联的身份图用于根据您所有业务接触点之间的交互对体验进行个性化。要了解有关身份和身份命名空间的更多信息，请参阅[本页](../../segment/get-started-identity.md)。
+1. **创建身份命名空间**。在 Adobe [!DNL Journey Optimizer] 中，跨设备和渠道的&#x200B;**身份**&#x200B;与用户相关联，从而会生成一个身份图。关联的身份图用于根据您所有业务接触点之间的交互对体验进行个性化。要了解有关身份和身份命名空间的更多信息，请参阅[本页](../../audience/get-started-identity.md)。
 
 1. **创建架构**&#x200B;并为用户档案启用。架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。要了解有关架构的更多信息，请参阅[本页](../../data/get-started-schemas.md)。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. **配置源连接器**。Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用 Platform 服务来构建、标记和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。要了解有关源连接器的更多信息，请参阅[本页](../get-started-sources.md)。
 
-1. **创建测试用户档案**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试用户档案，并在发送之前[预览和测试消息](../../email/preview.md)。[本页](../../segment/creating-test-profiles.md)中详细说明了创建测试用户档案的步骤。
+1. **创建测试用户档案**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试用户档案，并在发送之前[预览和测试消息](../../email/preview.md)。[本页](../../audience/creating-test-profiles.md)中详细说明了创建测试用户档案的步骤。
 
 
 此外，要在历程中发送消息，您必须配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。[在此部分中](../../configuration/about-data-sources-events-actions.md)了解详情。

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 表达式、编辑者、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
@@ -59,6 +59,6 @@ ht-degree: 28%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-了解如何在消息中添加基于个人资料的个性化设置，以及如何将区段会员资格用作个性化块的先决条件。
+了解如何向消息添加基于用户档案的个性化设置，以及如何使用受众成员资格作为个性化块的先决条件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

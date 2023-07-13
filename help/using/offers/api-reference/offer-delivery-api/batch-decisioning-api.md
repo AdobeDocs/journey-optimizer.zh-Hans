@@ -1,12 +1,12 @@
 ---
 title: Batch Decisioning API
-description: 了解如何使用Batch Decisioning API为预定义决策范围内的分段配置文件选择最佳优惠。
+description: 了解如何使用Batch Decisioning API在预定义的决策范围内为受众的用户档案选择最佳选件。
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 3%
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 # 使用交付优惠 [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-此 [!DNL Batch Decisioning] API允许组织在一次调用中对给定区段中的所有用户档案使用决策功能。 区段中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
+此 [!DNL Batch Decisioning] API允许组织在一次调用中对给定受众中的所有用户档案使用决策功能。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
 
-使用 [!DNL Batch Decisioning] 之后，您可以在数据集中为决策范围的Adobe Experience Platform区段中的所有用户档案填充最佳选件。 例如，组织可能希望运行 [!DNL Batch Decisioning] 以便他们向消息投放供应商发送选件。 然后，这些选件会用作发送的内容，以批量将消息投放给同一用户区段。
+使用 [!DNL Batch Decisioning] 之后，您可以为决策范围的Adobe Experience Platform受众中的所有配置文件使用最佳选件填充数据集。 例如，组织可能希望运行 [!DNL Batch Decisioning] 以便他们向消息投放供应商发送选件。 然后，这些选件会用作发送的内容，以批量将消息投放给相同的用户受众。
 
 为此，本组织将：
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ### 准备决策 {#prepare-decision}
 
-要准备一个或多个决策，请确保已创建数据集、区段和决策。 有关这些先决条件的详情，请参见 [本节](../../batch-delivery.md).
+要准备一个或多个决策，请确保已创建数据集、受众和决策。 有关这些先决条件的详情，请参见 [本节](../../batch-delivery.md).
 
 ### API要求 {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | 属性 | 描述 | 示例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 该值是一个数组，其中包含区段的唯一标识符。 它只能包含一个值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | 该值是一个数组，其中包含受众的唯一标识符。 它只能包含一个值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 可写入决策事件的输出数据集。 | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | 包含 `placementId` 和 `activityId` |  |
 | `xdm:activityId` | 决策的唯一标识符。 | `xcore:offer-activity:1410cdcda196707b` |

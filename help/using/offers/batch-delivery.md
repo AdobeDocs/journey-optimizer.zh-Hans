@@ -1,8 +1,8 @@
 ---
 title: 批量决策
-description: 了解如何将优惠决策投放给给定Adobe Experience Platform区段中的所有用户档案。
+description: 了解如何将优惠决策投放给给给定Adobe Experience Platform受众中的所有用户档案。
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ## 开始使用批量决策 {#start}
 
-Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有用户档案投放优惠决策。
+Journey Optimizer允许您向给定Adobe Experience Platform受众中的所有用户档案投放优惠决策。
 
-为此，您需要在Journey Optimizer中创建一个作业请求，该请求将包含有关要定位的区段和要使用的优惠决策的信息。 然后，区段中每个配置文件的选件内容将放入Adobe Experience Platform数据集，该数据集可用于自定义批处理工作流。
+为此，您需要在Journey Optimizer中创建一个作业请求，其中包含有关要定位的受众和要使用的优惠决策的信息。 然后，受众中每个用户档案的选件内容会放置在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
 
 也可以使用API执行批量交付。 有关详情，请参阅 [Batch Decisioning API文档](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
 * **数据集** 在Adobe Experience Platform中。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 了解详情，请参阅 [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans).
 
-* **区段** 在Adobe Experience Platform中。 应评估并更新区段。 了解如何更新中的区段会员资格评估 [分段服务文档](https://www.adobe.com/go/segmentation-overview-en)
+* **受众** 在Adobe Experience Platform中。 应评估并更新受众。 了解如何更新中的受众会员资格评估 [分段服务文档](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >批处理作业以每天发生一次的配置文件快照运行。 批量决策会限制此频率，并始终从最新快照加载用户档案。 在您创建区段后，最长可能等待24小时，然后再尝试使用批量决策API。
+  >[!NOTE]
+  >
+  >批处理作业以每天发生一次的配置文件快照运行。 批量决策会限制此频率，并始终从最新快照加载用户档案。 在您创建受众之后最多24小时之后，再尝试使用批量决策API，请耐心等待。
 
 * **决策** 在Adobe Journey Optimizer中。 [了解如何创建决策](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
 1. 命名作业请求，然后选择作业数据应发送到的数据集。
 
-1. 选择要定位的Adobe Experience Platform区段。
+1. 选择要定位的Adobe Experience Platform受众。
 
-1. 选择您要用于向区段投放优惠的一个或多个优惠决策范围：
+1. 选择您要用于向受众提供优惠的一个或多个优惠决策范围：
    1. 从列表中选择一个版面。
    1. 将显示可用于所选版面的决策。 选择您选择的决策并单击 **[!UICONTROL 添加]**.
    1. 重复该操作以添加所需数量的决策范围。
@@ -93,11 +93,11 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
 每个批处理作业的端到端时间是从工作负载创建时到决策结果在输出数据集中可用的时长。
 
-区段大小是影响端到端批量决策时间的主要因素。 如果符合条件的优惠启用了全局频率限制，则批量决策需要额外的时间才能完成。 下面是其各自区段大小端到端处理时间的一些近似值，包括有和无符合条件的优惠的频率上限：
+受众规模是影响端到端批量决策时间的主要因素。 如果符合条件的优惠启用了全局频率限制，则批量决策需要额外的时间才能完成。 以下是相应受众规模端到端处理时间的一些近似值，无论是否对合格优惠设置频率上限：
 
 为符合条件的优惠启用了频率上限：
 
-| 区段大小 | 端到端处理时间 |
+| 受众规模 | 端到端处理时间 |
 |--------------|----------------------------|
 | 1万个或更少配置文件 | 7 分钟 |
 | 100万个或更少配置文件 | 30 分钟 |
@@ -105,7 +105,7 @@ Journey Optimizer允许您向给定Adobe Experience Platform区段中的所有�
 
 符合条件的优惠没有频率上限：
 
-| 区段大小 | 端到端处理时间 |
+| 受众规模 | 端到端处理时间 |
 |--------------|----------------------------|
 | 1万个或更少配置文件 | 6 分钟 |
 | 100万个或更少配置文件 | 8 分钟 |

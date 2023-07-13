@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: 电子邮件、样式、css、正文、结构
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: ht
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 # 电子邮件样式入门 {#get-started-email-style}
 
-开始在 [!DNL Journey Optimizer] 中创建电子邮件内容后，您可以从电子邮件设计器&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中调整多个样式参数和属性。
+开始在 [!DNL Journey Optimizer] 中创建电子邮件内容后，您可以从“电子邮件设计器”设置窗格中调整多个样式参数和属性。
 
 您可以将更改应用到电子邮件正文、结构组件或内容组件。
 
-![](assets/email_designer_content_components_styles.png)
+![](assets/email_designer_content_components_settings.png)
 
 请访问以下链接，了解如何调整电子邮件中的某些样式设置。
 

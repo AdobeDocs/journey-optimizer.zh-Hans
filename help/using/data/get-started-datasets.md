@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 100%
 
 **报告**
 
-* _报告 - 消息反馈事件数据集_：消息投放日志。用于报告和创建区段的有关从 Journey Optimizer 执行的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。
-* _报告 - 电子邮件跟踪体验事件数据集_：电子邮件渠道的交互日志，用于报告和创建区段。存储的信息便于您了解最终用户在电子邮件中执行的操作（打开次数、点击次数等）。
-* _报告 - 推送跟踪体验事件数据集_：推送渠道的交互日志，用于报告和创建区段。存储的信息便于您了解最终用户针对推送通知执行的操作。
+* _报告 - 消息反馈事件数据集_：消息投放日志。有关从Journey Optimizer发送的所有消息的信息，用于报表和创建受众。 此数据集中还记录了电子邮件 ISP 退回的反馈。
+* _报告 — 电子邮件跟踪体验事件数据集_：用于报告和受众创建的电子邮件渠道的交互日志。 存储的信息便于您了解最终用户在电子邮件中执行的操作（打开次数、点击次数等）。
+* _报表 — 推送跟踪体验事件数据集_：用于报表和受众创建的推送渠道的交互日志。 存储的信息便于您了解最终用户针对推送通知执行的操作。
 * _报表 - 历程步骤事件_：捕获从 Journey Optimizer 生成的所有历程步骤体验事件，以供报告等服务使用。还可以在 Customer Journey Analytics 中生成报告以便进行 YoY 分析，这一点也非常重要。绑定到历程元数据。
 * _报表 - 历程_：元数据数据集包含历程中每个步骤的信息。
 * _报表 - 密送_：用于存储密送电子邮件投放日志的反馈事件数据集。可用于报告用途。
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 ## 示例和用例{#uc-datasets}
 
-在[此端到端示例](../segment/creating-test-profiles.md)中，了解如何在 Adobe Journey Optimizer 中创建架构、数据集和摄取数据以添加到“测试”个人资料
+在[此端到端示例](../audience/creating-test-profiles.md)中，了解如何在 Adobe Journey Optimizer 中创建架构、数据集和摄取数据以添加到“测试”个人资料
 
 在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中，了解有关数据集创建的更多信息。
 

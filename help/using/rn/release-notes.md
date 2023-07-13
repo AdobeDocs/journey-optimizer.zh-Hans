@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2595'
+source-wordcount: '2453'
 ht-degree: 95%
 
 ---
@@ -22,46 +22,47 @@ ht-degree: 95%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-
-## 2023 年 6 月发行说明 {#june-rn-2023}
-
 <!--
+## June 2023 early release notes {#june-rn-2023}
+
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: June 21-22, 2023-->
+**Release date**: June 21-22, 2023
 
-
-<!-- ### New capabilities{#june-2023-features}-->
+### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>针对营销用例的 API 触发营销活动</strong><br/></th>
+<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用 API 从外部系统触发 Adobe Journey Optimizer 中的营销活动。</p>
-<p>在此版本之前，API 触发营销活动功能涵盖了多种操作和事务性消息传递需求（如密码重置或 OTP 令牌），但无法用于创建营销活动。API 触发营销活动的可用渠道包括：电子邮件、短信和推送消息。</p>
+<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
+<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>有关更多信息，请参阅<a href="../campaigns/api-triggered-campaigns.md">详细文档</a>。
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+
 
 **Journeys**
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
 ## 2023 年 5 月发行说明 {#may-rn-2023}
@@ -79,7 +80,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tr>
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../segment/assets/audiences-publish.png"/>
+<img src="../audience/assets/audiences-publish.png"/>
 <!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -170,7 +171,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tbody>
 <tr>
 <td>
-<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。利用这种新型模型可根据区段和优惠表现对优惠进行优化和个性化设置。</p>
+<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。这种新模型允许您根据受众和优惠表现来优化和个性化优惠。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
 </td>
@@ -301,11 +302,9 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * 现在，历程画布会显示消息活动的活动 ID 和结束标记。这可改进报表和重定位。
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
+* 针对画布上的节点数提供了新的洞察力，并提供了有助于增长的保护措施：使历程易于阅读、进行 QA 检查和故障排除，每个历程的最大节点数为 50。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * 默认情况下，在历程中添加[电子邮件](../email/create-email.md)、[短信](../sms/create-sms.md)或[推送](../push/create-push.md)操作时，该平面会在当前历程中使用该渠道的最后一个使用平面进行预填充。
 * 您现在可以在自定义操作中定义静态或动态查询参数。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* 管理历程提供的体验增长的新护栏：
-   * 我们建议您将节点数量限制为50个或更少，以保证历程的性能、易读性、QA和故障排除。 活动数将显示在历程画布的左上部。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-   * 当您开发和启动旅程时，我们会在您同时达到100个实时旅程的里程碑时通知您。 如果您的计划一次需要100个以上的历程，请在看到通知后创建支持工单，我们将帮助您。 [了解更多信息](../start/guardrails.md#journeys-guardrails-journeys)
 
 **报告**
 
@@ -378,8 +377,8 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * 历程画布已得到改进，可提供更简单、更优质的用户体验。移除了在画布中每个路径的末尾的空占位符。现在，您只需将活动拖动到路径末尾即可添加活动。
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。[了解详情](../configuration/external-systems.md#timeout)
-* 读取区段活动中的默认限制速率已从每秒 20000 条消息更改为每秒 5000 条消息。[了解详情](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。通过外部工具发送的事件不会考虑在内。 [了解详情](../building-journeys/testing-the-journey.md)
+* 读取受众活动中的默认限制速率已从每秒20,000条消息更改为每秒5,000条消息。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。不会侦听通过外部工具发送的事件。[了解详情](../building-journeys/testing-the-journey.md)
 
 
 <!-- 
@@ -509,9 +508,9 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或区段鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-gs.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。此字段允许您定义允许用户档案在单一历程中再次进入历程之前的等待时间（从事件或受众资格开始）。 这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-gs.md#entrance)
 
-* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取区段**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
+* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对象 **读取受众** 历程，您现在可以添加结束日期。 这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -585,7 +584,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* 在历程中添加&#x200B;**区段鉴别**&#x200B;或&#x200B;**读取区段**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅[区段鉴别](../building-journeys/segment-qualification-events.md#about-segment-qualification)和[读取区段](../building-journeys/read-segment.md#configuring-segment-trigger-activity)部分。
+* 添加 **受众资格** 或 **读取受众** 在历程中，现在默认使用最后一个使用的命名空间预填充命名空间。 请参阅 [受众资格](../building-journeys/audience-qualification-events.md#about-segment-qualification) 和 [读取受众](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 部分。
 
 * 在历程画布中，工具栏中新增了一个按钮，用于下载历程的屏幕截图。
 

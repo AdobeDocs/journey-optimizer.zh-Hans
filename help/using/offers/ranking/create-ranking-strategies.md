@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 7%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
 
    * **[!UICONTROL 自动优化]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
-   * **[!UICONTROL 个性化优化]** 根据区段和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
+   * **[!UICONTROL 个性化]** 根据受众和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -50,7 +50,6 @@ ht-degree: 7%
    >[!DNL Journey Optimizer] 根据以下内容对优惠进行排名 **转化率** （转化率=转化事件总数/展示事件总数）。 转化率使用两种类型的量度计算：
    >* **展示事件** （显示的选件）
    >* **转化事件** （选件通过电子邮件或Web导致点击）。
-
    >
    >这些事件是使用提供的Web SDK或Mobile SDK自动捕获的。 有关此内容的更多信息，请参阅 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans).
 
@@ -62,15 +61,13 @@ ht-degree: 7%
    >
    >仅从与关联的架构创建的数据集 **[!UICONTROL 体验事件 — 建议交互]** 字段组（以前称为mixin）将显示在下拉列表中。
 
-1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的区段。
-
-   ➡️ [在视频中发现此功能](#video)
+1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的受众。
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >您最多可以选择5个区段。
+   >您最多可以选择5个受众。
 
 1. 保存并激活AI模型。
 
