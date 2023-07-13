@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 11%
@@ -50,7 +50,7 @@ ht-degree: 11%
 >id="ajo_decisioning_simulation_test_profile"
 >title="添加测试配置文件"
 >abstract="您可通过选择身份命名空间以及对应的身份值来添加测试配置文件。您必须拥有已经可用的测试配置文件才能将它们用于模拟。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="创建测试用户档案"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="创建测试用户档案"
 
 首先，您需要选择将用于模拟的测试用户档案。
 
@@ -209,7 +209,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 要在外部使用请求有效负载，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为便于进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
+1. 要在外部使用请求有效负载，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
 
    ![](../assets/offers_simulation-copy-payload.png)
 

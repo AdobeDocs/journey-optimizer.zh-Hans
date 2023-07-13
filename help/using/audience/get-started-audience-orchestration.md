@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -24,21 +22,6 @@ ht-degree: 91%
 >id="ajo_ao_create_composition"
 >title="创建组合"
 >abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除...）来创建新的受众。"
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* **[受众组合入门](get-started-audience-orchestration.md)**
-* [创建您的第一个组合工作流程](create-compositions.md)
-* [使用组合画布](composition-canvas.md)
-* [访问和管理受众](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->受众构成目前仅适用于有限的客户群体。如果您有任何问题，请联系 Adobe 代表。
 
 通过受众组合，您可以创建&#x200B;**组合工作流程**，将现有 Adobe Experience Platform 受众合并到可视画布中，并利用各种活动（拆分、排除等）来创建新受众。
 

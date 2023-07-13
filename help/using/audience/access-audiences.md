@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 17%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 # 访问和管理受众 {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* [受众组合入门](get-started-audience-orchestration.md)
-* [创建您的第一个组合工作流程](create-compositions.md)
-* [使用组合画布](composition-canvas.md)
-* **[访问和管理受众](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 从以下位置可访问由受众构成产生的受众： **[!UICONTROL 浏览]** 在中选项卡 **[!UICONTROL 受众]** 菜单。
 
@@ -38,8 +25,6 @@ ht-degree: 17%
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->对于此测试版，最初显示在受众清单中的多个组件和/或元数据不会出现在此选项卡中（例如，划分、评估方法等）。
 >
 >有关Adobe Experience Platform中可用的其他受众类型的更多信息，请参阅 [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

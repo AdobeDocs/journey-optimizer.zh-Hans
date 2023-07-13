@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 31%
+source-wordcount: '1354'
+ht-degree: 30%
 
 ---
 
 # 使用组合画布 {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* [受众组合入门](get-started-audience-orchestration.md)
-* [创建您的第一个组合工作流程](create-compositions.md)
-* **[使用组合画布](composition-canvas.md)**
-* [访问和管理受众](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 受众构成提供了一个可视画布，允许您创建受众并使用各种活动（拆分、扩充等）。
 
@@ -151,6 +138,8 @@ ht-degree: 31%
 此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性丰富受众。 例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。
 
 >[!IMPORTANT]
+>
+>扩充可用于 **[!UICONOTROL Adobe Journey Optimizer]** 仅限用户。
 >
 >目前，数据集上的标签（数据集级别或字段级别）不会传播到新创建的受众。 这可能会影响最终受众的访问控制和/或数据管理。 因此，请在构成受众时仅使用测试数据。
 
