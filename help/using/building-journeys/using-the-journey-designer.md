@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%
@@ -69,11 +69,11 @@ Adobe Journey Optimizer包括全渠道编排画布，允许营销人员协调营
 
 1. **从事件开始**：当历程设置为侦听事件时，个人进入历程 **统一地** 实时。 历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 
-1. **从读取区段开始**：您可以设置历程以监听Adobe Experience Platform区段。 在这种情况下，属于指定区段的所有个人都会进入历程。 历程中包含的消息将发送给属于该区段的个人。 [了解有关读取区段的更多信息](read-segment.md).
+1. **从读取受众开始**：您可以将历程设置为侦听Adobe Experience Platform受众。 在这种情况下，属于指定受众的所有个人都会进入历程。 历程中包含的消息将发送给属于受众的个人。 详细了解 [读取受众](read-audience.md).
 
 ## 定义后续步骤{#define-next-steps}
 
-在第一个事件或读取区段后，您可以组合不同的活动以构建多步骤跨渠道方案。 从面板中选择所需的步骤。
+在第一个事件或读取受众后，您可以组合不同的活动以构建多步骤跨渠道方案。 从面板中选择所需的步骤。
 
 ### 活动{#jo-event}
 
@@ -85,13 +85,13 @@ Adobe Journey Optimizer包括全渠道编排画布，允许营销人员协调营
 
 您还可以添加 **反应** 消息后的事件，用于对与消息相关的跟踪数据做出反应。 例如，如果某人打开了前一条消息或单击了前一条消息，则允许您发送另一条消息。 [了解有关反应事件的更多信息](reaction-events.md).
 
-使用 **区段鉴别** 事件活动，用于根据Adobe Experience Platform区段入口和出口，使个人进入历程或在历程中前进。 您可以让所有银牌新客户进入历程并发送个性化消息。 在本节中了解详情 [部分](segment-qualification-events.md).
+使用 **受众资格** 事件活动，用于根据Adobe Experience Platform受众进入和退出，使个人进入旅程或在旅程中前进。 您可以让所有银牌新客户进入历程并发送个性化消息。 在本节中了解详情 [部分](audience-qualification-events.md).
 
 ### 编排{#jo-orch}
 
 编排活动是不同的条件，可帮助确定历程的下一步骤。
 
-在编排活动中，使用 **读取区段** 活动来设置您的历程以监听Adobe Experience Platform区段。 [了解有关读取区段活动的更多信息](read-segment.md).
+在编排活动中，使用 **读取受众** 活动来设置您的历程以监听Adobe Experience Platform受众。 [进一步了解读取受众活动](read-audience.md).
 
 其他活动允许您向历程添加条件以定义多个路径，在执行下一个活动之前设置等待时间，或结束历程。 [了解有关编排活动的更多信息](about-journey-activities.md#orchestration-activities).
 
