@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 28%
+source-wordcount: '788'
+ht-degree: 24%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->在创建新营销活动之前，请确保您准备好表面渠道（即消息预设）和Adobe Experience Platform区段。 请参阅以下部分以了解详情：
+>在创建新营销活动之前，请确保您拥有可供使用的表面渠道（即消息预设）和Adobe Experience Platform受众。 请参阅以下部分以了解详情：
 >
 >* [创建渠道平面](../configuration/channel-surfaces.md)
->* [区段入门](../segment/about-segments.md)
+>* [受众入门](../audience/about-audiences.md)
 
 要创建新营销活动，请访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
@@ -32,20 +32,18 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="立即执行或在指定日期执行&#x200B;**计划的营销活动**，其旨在发送市场营销类型的消息。使用 API 调用执行 **API 触发的**&#x200B;活动。其旨在发送市场营销消息或事务性消息，如在个人执行操作后发送的消息：重置密码、丢弃购物车等。"
+>abstract="要通过指定发送日期发送营销信息，**计划**&#x200B;类型最合适。但是，如果您想发送密码重置或购物车放弃等事务性消息，最佳选择是 **API 触发**&#x200B;类型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="营销活动类别"
->abstract="如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于 API 触发的营销活动，选择要发送&#x200B;**市场营销**&#x200B;还是&#x200B;**事务性**&#x200B;消息，如在个人执行操作后发送的消息：重置密码、丢弃购物车等。"
+>abstract="类别值直接关联到营销活动类型值。计划营销活动类型适用于&#x200B;**营销**&#x200B;类别，API 触发类型适用于&#x200B;**事务**&#x200B;类别"
 
 1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行营销策划。 有两种类型的营销活动可用：
 
-   * **[!UICONTROL 已计划]**：立即执行营销活动，或在指定日期执行。 计划的营销活动旨在发送 **营销** 消息。 它们可以从用户界面配置和执行。
+   * **[!UICONTROL 已计划]**：立即执行营销活动，或在指定日期执行。 计划的营销活动旨在发送 **营销** 键入消息。
 
-   * **[!UICONTROL API触发]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **营销**，或 **事务性** 消息，即在个人执行操作（密码重置、购物车购买等）后发送的消息。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
-
-1. 如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于API触发的营销活动，请选择是否要发送 **营销** 或 **事务性** 信息。”
+   * **[!UICONTROL API触发]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **事务性** 消息，即在个人执行操作（密码重置、购物车放弃等）后发送的消息。 [了解如何使用API触发营销活动](api-triggered-campaigns.md)
 
 1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道平面。
 
@@ -122,19 +120,19 @@ ht-degree: 28%
 
 ## 定义受众 {#audience}
 
-单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform区段的列表。 [了解有关区段的更多信息](../segment/about-segments.md)
+单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >对于API触发的营销活动，需要通过API调用设置受众。 [了解详情](api-triggered-campaigns.md)
 
-在 **[!UICONTROL 身份命名空间]** 字段，选择要使用的命名空间，以标识所选区段中的个人。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
+在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
-    >[！注意]
-    >
-    >如果属于区段的个人在不同的身份中没有选定的身份（命名空间），则营销活动不会将这些个人设为目标。
+>[!NOTE]
+>
+>如果受众的不同身份中没有选定的身份（命名空间），则属于该受众的个人不会成为营销活动的目标。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定义资格"
->abstract="默认情况下，任何配置文件都有资格获得优惠，但您可以使用区段或决策规则将优惠限制为特定的配置文件。"
+>abstract="默认情况下，任何用户档案都可以获得选件，但您可以使用受众或决策规则将选件限制为特定用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,21 +75,21 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="对配置文件的总体估计"
->abstract="当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。"
+>abstract="在选择受众或决策规则时，您可以查看有关预计的合格用户档案的信息。"
 
-此 **[!UICONTROL 优惠资格]** 部分允许您将优惠限制为您使用区段或决策规则定义的特定用户档案。
+此 **[!UICONTROL 优惠资格]** 部分允许您将优惠限制为您使用受众或决策规则定义的特定用户档案。
 
 >[!NOTE]
 >
->了解关于使用的更多信息 **区段** 对比 **决策规则** 在 [本节](#segments-vs-decision-rules).
+>了解关于使用的更多信息 **受众** 对比 **决策规则** 在 [本节](#segments-vs-decision-rules).
 
 * 默认情况下， **[!UICONTROL 所有访客]** 选项，这意味着任何用户档案都符合呈现优惠的条件。
 
   ![](../assets/offer-eligibility-default.png)
 
-* 您还可以将优惠的呈现方式限制为一个或多个成员 [Adobe Experience Platform区段](../../segment/about-segments.md).
+* 您还可以将优惠的呈现方式限制为一个或多个成员 [Adobe Experience Platform受众](../../audience/about-audiences.md).
 
-  为此，请激活 **[!UICONTROL 属于一个或多个区段的访客]** 选项，然后从左窗格添加一个或多个区段并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
+  为此，请激活 **[!UICONTROL 属于一个或多个受众的访客]** 选项，然后从左窗格添加一个或多个受众并使用 **[!UICONTROL 和]** / **[!UICONTROL 或]** 逻辑运算符。
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ ht-degree: 17%
   >
   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您将无法在选件中利用它。
 
-当您选择区段或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
+在选择受众或决策规则时，您可以查看有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,17 +109,17 @@ ht-degree: 17%
 >
 >当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，一个资格规则，要求当前天气为≥80度。
 
-### 使用区段与决策规则 {#segments-vs-decision-rules}
+### 使用受众与决策规则 {#segments-vs-decision-rules}
 
-要应用约束，您可以将选件的选择限制为一个或多个选件的成员 **Adobe Experience Platform区段**，或者您可以使用 **决策规则**，这两种解决方案分别对应于不同的用法。
+要应用约束，您可以将选件的选择限制为一个或多个选件的成员 **Adobe Experience Platform受众**，或者您可以使用 **决策规则**，这两种解决方案分别对应于不同的用法。
 
-基本上，区段的输出是用户档案的列表，而决策规则是在决策过程中根据单个用户档案按需执行的功能。 这两种使用方式的区别详见下文。
+基本上，受众的输出是用户档案列表，而决策规则是在决策过程中根据单个用户档案按需执行的函数。 这两种使用方式的区别详见下文。
 
-* **区段**
+* **受众**
 
-  一方面，区段是一组Adobe Experience Platform配置文件，它们根据配置文件属性和体验事件匹配特定逻辑。 但是，选件管理不会重新计算区段，因为此区段在展示选件时可能不是最新的。
+  一方面，受众是一组Adobe Experience Platform用户档案，它们根据用户档案属性和体验事件匹配特定逻辑。 但是，选件管理不会重新计算受众，它在呈现选件时可能不是最新的。
 
-  了解中有关区段的更多信息 [本节](../../segment/about-segments.md).
+  了解中受众的更多信息 [本节](../../audience/about-audiences.md).
 
 * **决策规则**
 

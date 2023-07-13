@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="营销活动"
->abstract="创建营销活动，以跨各种渠道向特定区段投放一次性内容。在创建营销活动之前，请确保您已准备好渠道表面（即消息预设）和 Adobe Experience Platform 区段以供使用。"
+>abstract="创建营销活动，以通过各种渠道向特定受众投放一次性内容。 在创建营销活动之前，请确保您具有可供使用的渠道界面（即消息预设）和Adobe Experience Platform受众。"
 
-使用 Journey Optimizer 营销活动通过各种渠道向特定区段投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
+使用Journey Optimizer营销活动，通过各种渠道向特定受众投放一次性内容。 使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
 您可以创建两种类型的营销活动：
 
 * **计划营销活动**&#x200B;允许针对营销用例（如促销优惠、参与性营销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
-* **API 触发的营销活动**&#x200B;允许在正确的时间将营销通信传达给受众，或者允许将事务性/运营消息发送给个人（如密码重置），其中需求可能涉及个性化，将不仅使用用户档案属性，还涉及触发器中的实时上下文数据（即 REST API 有效负载）。
+* **API 触发的营销活动**&#x200B;允许使用 REST API 传送简单的事务/操作消息（密码重置、删除购物车等），其中可能会涉及需要使用用户档案属性和负载上下文数据进行个性化。
 
 创建营销活动的主要步骤如下：
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 +++
 
-1. **您需要受众**。在创建营销活动之前，需要提供受众区段。要了解有关创建受众的更多信息，请参阅[本页](../segment/about-segments.md)。
+1. **您需要受众**。在创建营销活动之前，受众需要可用。 了解有关受众的更多信息 [本页内容](../audience/about-audiences.md).
 1. **您需要一个渠道表面**。要选择渠道，必须创建并提供相应的渠道表面（即预设）。要了解有关渠道表面的更多信息，请参阅[本页](../configuration/channel-surfaces.md)。
 
 ## 操作方法视频 {#video}

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 27%
 >id="ac_preview_lp_profiles"
 >title="预览和测试登陆页面"
 >abstract="定义了登陆页面设置和内容之后，您可使用测试配置文件对其进行预览。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=zh-Hans" text="选择测试配置文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="选择测试配置文件"
 
 定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您已插入 [个性化内容](../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在登陆页面中的显示方式。
 
@@ -213,7 +213,7 @@ ht-degree: 27%
 >
 >要能够测试登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
 >
->您必须具有可用的测试用户档案，才能预览消息和发送校样。 了解如何 [创建测试用户档案](../segment/creating-test-profiles.md).
+>您必须具有可用的测试用户档案，才能预览消息和发送校样。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
 1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
 
