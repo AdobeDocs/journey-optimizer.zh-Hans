@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2e3335372dca8c344773eaf365e8f90589ecfd7e
+source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
 workflow-type: tm+mt
 source-wordcount: '2591'
 ht-degree: 93%
@@ -34,7 +34,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建组合工作流，将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、扩充……）来创建新受众。 新创建的受众将与现有受众一起保存到Adobe Experience Platform中，并且可以在Journey Optimizer营销活动中利用来定位客户。</p>
+<p>您现在可以创建组合工作流，将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、扩充……）来创建新受众。 新创建的受众与现有受众一起保存回Adobe Experience Platform中，并可在Journey Optimizer营销活动中利用来定位客户。</p>
 <img src="../audience/assets/audiences-publish.png"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
 </td>
