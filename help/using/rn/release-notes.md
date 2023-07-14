@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 50b917cf1cd23f46bf6b7cfd3d84226d5ad7adec
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 93%
 
 ---
 
@@ -22,45 +22,76 @@ ht-degree: 95%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-<!--
-## June 2023 early release notes {#june-rn-2023}
+## 2023年7月更新
 
-Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
-
-**Release date**: June 21-22, 2023
-
-### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
+<th><strong>受众构成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
-<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
-<img src="assets/do-not-localize/api-triggered.gif"/>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
+<p>您现在可以创建组合工作流，将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、扩充……）来创建新受众。 新创建的受众将与现有受众一起保存到Adobe Experience Platform中，并且可以在Journey Optimizer营销活动中利用来定位客户。</p>
+<img src="../audience/assets/audiences-publish.png"/>
+<p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
+## 2023 年 6 月发行说明 {#june-rn-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>针对营销用例的 API 触发营销活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用 API 从外部系统触发 Adobe Journey Optimizer 中的营销活动。</p>
+<p>在此版本之前，API 触发营销活动功能涵盖了多种操作和事务性消息传递需求（如密码重置或 OTP 令牌），但无法用于创建营销活动。API 触发营销活动的可用渠道包括：电子邮件、短信和推送消息。</p>
+<img src="assets/do-not-localize/api-triggered.gif"/>
+<p>有关更多信息，请参阅<a href="../campaigns/api-triggered-campaigns.md">详细文档</a>。
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+
+**Journeys**
+
+You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
+
+## 2023 年 5 月发行说明 {#may-rn-2023}
+
+
+<!--
+## June 2023 early release notes {#june-rn-2023}
+
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
+
+**Audiences**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
 
 
 **Journeys**
 
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.     
 
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
@@ -69,24 +100,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ### 新功能{#may-2023-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Audience Composition</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../audience/assets/audiences-publish.png"/>
-<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 <table>
 <thead>
