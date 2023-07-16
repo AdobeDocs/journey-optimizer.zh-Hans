@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，事件，反应，跟踪，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 21%
@@ -40,7 +40,7 @@ ht-degree: 21%
 1. 添加 **[!UICONTROL 标签]** 来应对这种反应。 此步骤是可选的。
 1. 从下拉列表中，选择要做出反应的操作活动。 您可以选择位于路径前面步骤中的任何操作活动。
 1. 根据您选择的操作，选择要作出反应的内容。
-1. 您可以定义事件超时（40秒到30天之间）和超时路径。 这将为未在定义的持续时间内做出反应的个人创建第二条路径。 测试使用反应事件的历程时，测试模式 **[!UICONTROL 等待时间]** 默认值和最小值为40秒。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
+1. 您可以定义事件超时（40秒到30天之间）和超时路径。 这将为未在定义的持续时间内做出反应的个人创建第二条路径。 测试使用反应事件的历程时，测试模式 **[!UICONTROL 等待时间]** 默认值和最小值为40秒。 请参阅[此章节](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >

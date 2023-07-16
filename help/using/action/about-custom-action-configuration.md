@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ ht-degree: 15%
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据治理](../action/action.md).
-* [同意](../action/action.md).
+* [数据治理](../action/action-privacy.md).
+* [同意](../action/action-privacy.md).
 
 
 ## 配置步骤 {#configuration-steps}
@@ -60,7 +60,7 @@ ht-degree: 15%
 1. 向操作添加描述。 此步骤是可选的。
 1. 使用此操作的历程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 按钮以显示使用此操作的历程列表。
 1. 定义不同的 **[!UICONTROL URL配置]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
-1. 配置 **[!UICONTROL 身份验证]** 部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
+1. 配置 **[!UICONTROL 身份验证]** 部分。 此配置与数据源的配置相同。  请参阅[此章节](../datasource/external-data-sources.md#custom-authentication-mode)。
 1. 定义 **[!UICONTROL 操作参数]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 

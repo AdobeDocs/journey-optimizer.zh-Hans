@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 20%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 20%
 >title="等待活动"
 >abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
 
-如果您想在执行路径中的下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
+如果您想在执行路径中的下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。可以使用以下选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)

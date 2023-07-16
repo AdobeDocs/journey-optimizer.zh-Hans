@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1133'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 6%
 | 营销活动 | <ul><li> **[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。</li><li>**[!DNL Publish campaigns]**：发布营销活动。</li><li>**[!DNL View campaigns report]**：读取和编辑营销活动报告。</li></ul> |
 | 渠道配置 | <ul><li>**[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。</li><li>**[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。</li><li>**[!DNL Manage PTR records]**：读取和编辑PTR记录。</li><li>**[!DNL View PTR records]**：对PTR记录的只读访问权限。</li><li> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息的一般设置。</li><li>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌策略。</li><li>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</li><li>**[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件的权限。</li><li>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。</li><li>**[!DNL Manage alerts]**：为营销活动、消息和权利启用/禁用警报。</li><li>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</li><li>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</li></ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除排名策略。</li></ul> |
-| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**：授予对沙盒的访问权限。</li><li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。 <li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Read Identity namespace]**：对身份命名空间的只读访问。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Sandbox]**：授予对沙盒的访问权限。</li><li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Read Identity namespace]**：对身份命名空间的只读访问。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 | 营销活动 | <ul><li>**[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。</li><li>**[!DNL Publish campaigns]**：发布营销活动。</li><li>**[!DNL View Campaigns report]**：读取、编辑历程报告。</li></ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义消息报告并使用操作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
-| 管理 | <ul><li>**[!DNL View messages presets]**：对消息预设的只读访问权限。</li></ul> |
+| 渠道配置 | <ul><li>**[!DNL View messages presets]**：对消息预设的只读访问权限。</li></ul> |
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
@@ -53,7 +53,7 @@ ht-degree: 6%
 | 营销活动 | <ul><li>**[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。</li><li>**[!DNL View campaigns report]**：读取，编辑历程报告。</li></ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义消息报告并使用操作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
-| 管理 | <ul><li>**[!DNL View messages presets]**：对消息预设的只读访问权限。</li></ul> |
+| 渠道配置 | <ul><li>**[!DNL View messages presets]**：对消息预设的只读访问权限。</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
@@ -94,7 +94,7 @@ ht-degree: 6%
 | 历程 | <ul><li>**[!DNL Manage journeys]**：读取、创建、编辑和删除历程。</li><li>**[!DNL Publish journey]**：发布历程。</li><li>**[!DNL View journeys events, data sources and actions]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</li><li>**[!DNL View journeys report]**：读取、编辑历程报告。</li></ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义报告并使用操作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li>**[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
-| 管理 | <ul><li>**[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</li></ul> |
+| 渠道配置 | <ul><li>**[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -107,7 +107,7 @@ ht-degree: 6%
 | 历程 | <ul><li>**[!DNL Manage journeys]**：读取、创建、编辑和删除历程。</li><li>**[!DNL View journeys events]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</li><li>**[!DNL View journeys report]**：读取，编辑历程报告。</li></ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义报告并使用操作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
-| 管理 | <ul><li>**[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</li></ul> |
+| 渠道配置 | <ul><li>**[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 2%
 * id：对于所有步骤事件条目均唯一。 两个不同的步骤事件不能具有相同的ID。
 * instanceId： instanceID对于历程执行中与配置文件关联的所有步骤事件是相同的。 如果配置文件重新进入历程，将使用其他instanceId。 对于重新进入的实例的所有步骤事件（从开始到结束），此新instanceId将相同。
 * profileID：与历程命名空间对应的用户档案身份。
+
+>[!NOTE]
+>
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。
 
 ## 基本用例/常见查询 {#common-queries}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程，人工智能，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '482'
 ht-degree: 36%
 
 ---
@@ -37,10 +37,6 @@ Adobe Journey Optimizer 的发送时间优化功能由 Adobe 的 AI 服务提供
 * 评分 — 根据经过训练的模型，将评分应用于个人资料
 
 此信息存储在用户的配置文件中，并在历程执行中引用，以告知Adobe Journey Optimizer何时发送消息。
-
->[!CAUTION]
->
->此功能与突发模式不兼容。
 
 ## 激活发送时间优化{#activate-send-time-optimization}
 

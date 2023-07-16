@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1783'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 系统会选取电子邮件表面配置，以便按照以下逻辑发送通信：
 
-* 对于批处理历程和突发历程，它不适用于在创建电子邮件表面配置之前已启动的批处理或突发执行。 更改将在下次循环或新执行时提取。
+* 对于批处理历程，它不适用于在创建电子邮件表面配置之前已启动的批处理执行。 更改将在下次循环或新执行时提取。
 
 * 对于事务型消息，更改会被立即拾取以供下次通信（最多延迟5分钟）。
 

@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '316'
 ht-degree: 100%
 
 ---
@@ -32,40 +32,44 @@ ht-degree: 100%
     <div>
       <a href="using/rn/release-notes.md">发行说明</a>
     </div>
-    <p>新增功能、最新改进和修复
+    <p>新增功能、最新改进和修复</p>
    <p>
     <div>
       <a href="using/start/quick-start.md">快速入门指南</a>
     </div>
-    <p>
-    了解如何以管理员、数据工程师或历程实践者的身份开始使用
+    <p>了解如何以管理员、数据工程师或历程实践者的身份开始使用</p>
     <p>
     <p>
     <div>
       <a href="using/email/get-started-email-design.md">设计电子邮件内容</a>
     </div>
-    <p>
-    设计新电子邮件或导入现有 HTML 内容
+    <p>设计新电子邮件或导入现有 HTML 内容</p>
     <p>
     <div>
     <a href="using/building-journeys/journey-gs.md">创建您的第一个历程</a>
     </div>
     <p>了解如何构建并执行历程
     <p>
+     <div>
+      <a href="using/campaigns/create-campaign.md">创建和管理营销活动</a>
+    </div>
+    <p>创建、配置并发送第一个营销活动</p>
+    <p>
+    <div>
     <div>
     <a href="using/configuration/get-started-configuration.md">配置 [!DNL Journey Optimizer]</a>
     </div>
-    <p>了解配置 [!DNL Journey Optimizer] 的关键步骤
+    <p>了解关键配置步骤 [!DNL Journey Optimizer]</p>
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">授予对 [!DNL Journey Optimizer]</a> 的访问权限
     </div>
-    <p>定义和管理分配给 [!DNL Journey Optimizer] 用户的权限
+    <p>定义和管理分配给 [!DNL Journey Optimizer] 用户的权限</p>
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">决策管理</a>
     </div>
-    <p>创建优惠并为客户提供最佳优惠和体验
+    <p>创建优惠并为客户提供最佳优惠和体验</p>
     <p>
     <p>
     <div><strong>其他资源</strong>
@@ -92,6 +96,24 @@ ht-degree: 100%
       <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 开发人员资源</a>
     </li>
     </div>
+    <p>
+    </p>
+    <p>
+    </p>
+    <div>
+    </div>
+    <div><strong>新闻稿</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+    <p>立即注册订阅 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer 季度新闻稿</a>。</p>
+    <p>每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。每份新闻稿都包含以下内容：</p>
+    <li>产品新闻与更新（包括最近发布的功能）</li>
+    <li>活动和网络研讨会的邀请，以及近期网络研讨会的录像</li>
+    <li>Adobe Journey Optimizer Experience League 社区中的热门讨论 </li>
+    <li>其他 Adobe Journey Optimizer 客户的案例研究和用例</li>
+    <li>有助于提供客户体验并推动业务成功的提示和技巧</li>
   </td>
    <td>
    <div><strong>关键资源的直接链接</strong>
@@ -125,6 +147,9 @@ ht-degree: 100%
     <li>
       <a href="using/email/content-templates.md">内容模板</a>
     </li>
+      <li>
+      <a href="using/email/fragments.md">片段</a>
+    </li>
     <p>
     <p>数据管理</p>
     <li>
@@ -142,7 +167,7 @@ ht-degree: 100%
     <p>
     <p>连接</p>
       <li>
-      <a href="using/data/get-started-datasets.md">目标</a>
+      <a href="using/data/export-datasets.md">目标</a>
     </li>
     <li>
       <a href="using/start/get-started-sources.md">源</a>
@@ -165,10 +190,16 @@ ht-degree: 100%
     <p>
     <p>隐私</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans" target="_blank">政策</a>
+      <a href="using/action/action-privacy.md">政策</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans"target="_blank">请求</a>
+      <a href="using/privacy/requests.md">请求</a>
+    </li>
+        <li>
+      <a href="using/privacy/audit-logs.md"target="_blank">审核</a>
+    </li>
+        <li>
+      <a href="using/privacy/data-hygiene.md"target="_blank">数据卫生</a>
     </li>
     <p>
     <p>管理</p>
@@ -178,24 +209,18 @@ ht-degree: 100%
     <li>
       <a href="using/configuration/frequency-rules.md">规则</a>
     </li>
+        <li>
+      <a href="using/reports/alerts.md">警报</a>
+    </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">渠道</a>
     </li>
      <li>
       <a href="using/administration/sandboxes.md">沙盒</a>
     </li>
+     <li>
+      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">标记</a>
+    </li>
   </td>
 </tr>
 </table>
-
-
-![新闻稿](using/assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}！
-
-每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。
-
-每份新闻稿都包含以下内容：
-* 产品新闻与更新（包括最近发布的功能）
-* 活动和网络研讨会的邀请，以及近期网络研讨会的录像
-* Adobe Journey Optimizer Experience League 社区中的热门讨论
-* 其他 Adobe Journey Optimizer 客户的案例研究和用例
-* 有助于提供卓越客户体验并推动业务成功的提示和技巧

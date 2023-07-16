@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 8%
+source-wordcount: '607'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 * 要导出数据集，您需要 **管理目标**， **查看目标**， **激活目标**、和 **管理和激活数据集目标** [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 阅读 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或与产品管理员联系以获取所需的权限。
 
-* 此功能仅支持导出第一代数据，即中定义的原始数据 [Real-time Customer Data Platform产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 确保要导出的数据集不包含第二代数据。
+* 确保要导出的数据集不包含第二代数据。 此功能仅支持导出第一代数据，即中定义的原始数据 [Real-time Customer Data Platform产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 第一代数据包括通过Adobe Experience Platform源引入的数据集或使用Adobe解决方案(如Analytics Data Connector和Journey Optimizer日志/报告数据集)收集的数据集。
 
 ## 导出数据集的主要步骤 {#main-steps}
 

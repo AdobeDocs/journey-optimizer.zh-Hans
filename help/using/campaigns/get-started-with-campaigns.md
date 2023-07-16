@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 您可以创建两种类型的营销活动：
 
 * **计划营销活动**&#x200B;允许针对营销用例（如促销优惠、参与性营销活动、公告、法律声明或策略更新）进行简单的临时批量通信。
-* **API 触发的营销活动**&#x200B;允许使用 REST API 传送简单的事务/操作消息（密码重置、删除购物车等），其中可能会涉及需要使用用户档案属性和负载上下文数据进行个性化。
+* **API 触发的营销活动**&#x200B;允许在正确的时间将营销通信传达给受众，或者允许将事务性/运营消息发送给个人（如密码重置），其中需求可能涉及个性化，将不仅使用用户档案属性，还涉及触发器中的实时上下文数据（即 REST API 有效负载）。
 
 创建营销活动的主要步骤如下：
 

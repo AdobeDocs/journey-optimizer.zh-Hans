@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 6%
 1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
 
    * **[!UICONTROL 自动优化]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
-   * **[!UICONTROL 个性化]** 根据受众和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
+   * **[!UICONTROL 个性化优化]** 根据受众和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -61,7 +61,9 @@ ht-degree: 6%
    >
    >仅从与关联的架构创建的数据集 **[!UICONTROL 体验事件 — 建议交互]** 字段组（以前称为mixin）将显示在下拉列表中。
 
-1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的受众。
+1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的区段。
+
+   ➡️ [在视频中发现此功能](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

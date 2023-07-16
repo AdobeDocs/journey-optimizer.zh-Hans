@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1385'
 ht-degree: 99%
 
 ---
@@ -488,3 +488,4 @@ ht-degree: 99%
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
    + [数据管理](using/action/action-privacy.md)
+   + [设置和管理客户托管密钥](using/privacy/cmk.md)

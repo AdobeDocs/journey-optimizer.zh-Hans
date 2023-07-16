@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '719'
 ht-degree: 16%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 16%
 >title="快速传递模式"
 >abstract="快速传递模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
 
-快速投放模式（以前在历程中称为突发模式）是 [!DNL Journey Optimizer] 此加载项允许通过营销活动以非常快的速度发送大量推送消息。
+快速投放模式是 [!DNL Journey Optimizer] 此加载项允许通过营销活动以非常快的速度发送大量推送消息。
 
 当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 57%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 57%
    >
    >您可以将多个组件添加到单个结构组件中，也可以将它们添加到结构组件的每个列中。
 
-1. 使用调整每个组件的样式属性 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡位于右侧。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
+1. 使用调整每个组件的属性和样式 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡位于右侧。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
