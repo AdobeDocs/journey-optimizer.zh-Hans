@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 6%
+source-wordcount: '169'
+ht-degree: 5%
 
 ---
 
 # 访问和管理受众 {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 从以下位置可访问由受众构成产生的受众： **[!UICONTROL 浏览]** 在中选项卡 **[!UICONTROL 受众]** 菜单。
 

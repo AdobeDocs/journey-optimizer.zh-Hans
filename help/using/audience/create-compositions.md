@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '410'
 ht-degree: 8%
 
 ---
 
 # 创建您的第一个组合工作流程 {#create-compositions}
+
+>[!BEGINSHADEBOX]
+
+此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 ## 创建合成工作流 {#create}
 

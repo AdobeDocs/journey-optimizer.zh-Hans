@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 30%
+source-wordcount: '1415'
+ht-degree: 29%
 
 ---
 
 # 使用组合画布 {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 受众构成提供了一个可视画布，允许您创建受众并使用各种活动（拆分、扩充等）。
 
@@ -137,9 +143,11 @@ ht-degree: 30%
 
 此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性丰富受众。 例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。
 
->[!IMPORTANT]
->
->目前，数据集上的标签（数据集级别或字段级别）不会传播到新创建的受众。 这可能会影响最终受众的访问控制和/或数据管理。 因此，请在构成受众时仅使用测试数据。
+使用时请注意以下限制 **[!UICONTROL 扩充]** 活动：
+
+* **数据集** for扩充必须属于记录类型（与事件类型相反），并且不能是系统数据集，也不能标记为用户档案。 它们必须小于1GB。
+* **扩充支持1:1联接**. 这意味着，如果连接键在扩充数据集上具有多个匹配项，则系统会选取一个匹配项，并将其用于1:1连接。
+* **可以在RTCDP目标中激活受众**，但其扩充属性（如果有）不能。
 
 要配置活动，请执行以下步骤：
 
