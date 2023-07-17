@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报告，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 36%
+source-wordcount: '595'
+ht-degree: 35%
 
 ---
 
@@ -49,17 +49,19 @@ ht-degree: 36%
 
 * 您只能添加事件类型数据集。
 
-* 这些数据集必须至少包含以下项之一 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： **应用程序详细信息**， **商业详细信息**， **Web详细信息**.
+* 这些数据集必须包括 **体验事件 — 建议交互** [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}.
 
-   >[!NOTE]
-   >
-   >当前仅支持这些字段组。
+* 这些数据集可能还包含下列内容之一 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： **应用程序详细信息**， **商业详细信息**， **Web详细信息**.
 
-   例如，如果您想了解电子邮件营销活动对商业数据（如购买或订单）的影响，则需要使用创建体验事件数据集 **商业详细信息** 字段组。
+  >[!NOTE]
+  >
+  >可能还包括其他字段组，但Journey Optimizer报表中当前仅支持上述字段组。
 
-   同样，如果要报告移动交互，则需要使用创建体验事件数据集 **应用程序详细信息** 字段组。
+  例如，如果您想了解电子邮件营销活动对商业数据（如购买或订单）的影响，则需要使用创建体验事件数据集 **商业详细信息** 字段组。
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  同样，如果要报告移动交互，则需要使用创建体验事件数据集 **应用程序详细信息** 字段组。
+
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * 您可以将这些字段组添加到一个或多个架构中，这些架构将用于一个或多个数据集。
 
