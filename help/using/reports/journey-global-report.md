@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2087'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 电子邮件发送统计数据]** 图表详细说明了您的交付是否成功：
 
-* **[!UICONTROL 已定位]**：AdobeJourney Orchestration针对任何操作（如发送电子邮件或短信）定向的用户档案数。
+* **[!UICONTROL 已定位]**：任何操作（如发送电子邮件或短信）的目标用户档案数。
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
@@ -193,7 +193,7 @@ ht-degree: 2%
 
 此 **[!UICONTROL 推送通知 — 发送统计数据]** 该表通过图表和KPI详细列出了与推送通知相关的主要信息：
 
-* **[!UICONTROL 已定位]**：AdobeJourney Orchestration针对任何操作（如发送电子邮件或短信）定向的用户档案数。
+* **[!UICONTROL 已定位]**：任何操作（如发送电子邮件或短信）的目标用户档案数。
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
