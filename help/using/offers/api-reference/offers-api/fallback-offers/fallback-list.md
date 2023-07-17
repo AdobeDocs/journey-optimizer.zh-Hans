@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40cd9df5b41fd622b8e447d7fc672502e9e29787
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -54,7 +54,7 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应当使用反斜杠进行转义。 | `default` |
+| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应当使用反斜杠进行转义。 | `default` |
 | `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
 | `field` | 要限制搜索的可选字段列表。 此参数可重复，如下所示： field=field1[，field=field2，...] 和（路径表达式采用点分隔路径的形式，如_instance.xdm：name） | `_instance.xdm:name` |
 | `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题对项目进行降序排序(Z-A)。 | `-repo:createdDate` |
