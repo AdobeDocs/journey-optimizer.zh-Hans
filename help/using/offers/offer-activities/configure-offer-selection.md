@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 6%
 
 ---
@@ -62,9 +62,9 @@ ht-degree: 6%
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-您还可以使用经过训练的模型系统，通过选择排名策略来自动对要针对给定用户档案显示的选件进行排名。 了解如何在中创建排名策略 [本节](../ranking/create-ranking-strategies.md).
+您还可以使用经过训练的模型系统，通过选择一个AI模型来自动对要针对给定用户档案显示的选件进行排名。 了解如何在中创建AI模型 [本节](../ranking/create-ranking-strategies.md).
 
-创建排名策略后，您可以将其分配给决策中的投放位置。 为此，请执行以下步骤：
+创建AI模型后，您可以将其分配给决策中的投放位置。 为此，请执行以下步骤：
 
 1. 创建决策或编辑现有决策。 请参阅[创建决策](../offer-activities/create-offer-activities.md)。
 
@@ -76,11 +76,11 @@ ht-degree: 6%
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 选择您创建的排名策略。 将显示排名策略的所有详细信息。
+1. 选择您创建的AI模型。 将显示模型的所有详细信息。
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 单击&#x200B;**[!UICONTROL 选择]**。排名策略现在与投放位置相关联。
+1. 单击&#x200B;**[!UICONTROL 选择]**。AI模型现在与投放相关联。
 
 如果多个选件符合条件，则经过训练的模型系统将确定在给定投放位置应首先显示哪个选件。
 

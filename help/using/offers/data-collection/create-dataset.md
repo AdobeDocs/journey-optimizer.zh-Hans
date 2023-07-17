@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 9%
 
    >[!CAUTION]
    >
-   >要在数据集中使用的架构必须具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 否则，您将无法在排名策略中使用它。
+   >要在数据集中使用的架构必须具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 否则，您将无法在AI模型中使用它。
 
 1. 键入名称并保存架构。
 
 >[!NOTE]
 >
->了解有关在中构建架构的更多信息 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>了解有关在中构建架构的更多信息 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#understanding-schemas){target="_blank"}.
 
 您现在已准备好使用此架构创建数据集。 为此，请执行以下步骤：
 
@@ -66,4 +66,4 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->在以下情况下，现在可以选择此数据集来收集事件数据 [创建排名策略](#create-ranking-strategy).
+>在以下情况下，现在可以选择此数据集来收集事件数据 [创建AI模型](../ranking/create-ranking-strategies.md).

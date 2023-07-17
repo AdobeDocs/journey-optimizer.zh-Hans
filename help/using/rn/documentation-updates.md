@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 95%
@@ -181,8 +181,8 @@ ht-degree: 95%
 ## 2022 年 1 月 {#january-2022}
 
 * 文档中详细介绍了[!DNL Journey Optimizer] 2022 年 1 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
-* 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解更多信息](../offers/ranking/auto-optimization-model.md)
-* 添加了有关在使用排名策略时为了能够发送事件类型而需要遵循的架构要求的新章节。[了解更多信息](../offers/data-collection/schema-requirement.md)
+* 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解详情](../offers/ranking/auto-optimization-model.md)
+* 添加了有关在使用AI模型时能够在事件类型中发送所需的架构要求的新部分。 [了解详情](../offers/data-collection/schema-requirement.md)
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/channel-surfaces.md#create-channel-surface)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../privacy/opt-out.md#opt-out-management)
