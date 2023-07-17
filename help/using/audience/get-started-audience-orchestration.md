@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 0996de79ae5b9593db8ec61ba51fc17073c0f458
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 90%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 90%
 >id="ajo_ao_create_composition"
 >title="创建组合"
 >abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除...）来创建新的受众。"
+
+>[!BEGINSHADEBOX]
+
+此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 通过受众组合，您可以创建&#x200B;**组合工作流程**，将现有 Adobe Experience Platform 受众合并到可视画布中，并利用各种活动（拆分、排除等）来创建新受众。
 
