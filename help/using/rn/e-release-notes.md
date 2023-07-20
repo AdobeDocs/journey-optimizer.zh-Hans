@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
+source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 25%
+source-wordcount: '636'
+ht-degree: 24%
 
 ---
 
@@ -106,6 +106,8 @@ ht-degree: 25%
 **历程**
 
 * 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
+* 介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
+
 
 
 **营销活动**
@@ -123,5 +125,6 @@ ht-degree: 25%
 * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
 
 因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
+
 
 
