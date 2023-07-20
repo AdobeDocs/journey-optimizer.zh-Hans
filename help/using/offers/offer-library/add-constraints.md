@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定义资格"
->abstract="默认情况下，任何用户档案都可以获得选件，但您可以使用受众或决策规则将选件限制为特定用户档案。"
+>abstract="默认情况下，任何配置文件都有资格获得优惠，但您可以使用受众或决策规则将优惠限制为特定的配置文件。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,7 +75,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="对配置文件的总体估计"
->abstract="在选择受众或决策规则时，您可以查看有关预计的合格用户档案的信息。"
+>abstract="当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。"
 
 此 **[!UICONTROL 优惠资格]** 部分允许您将优惠限制为您使用受众或决策规则定义的特定用户档案。
 
@@ -101,7 +101,7 @@ ht-degree: 15%
   >
   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下规则创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您将无法在选件中利用它。
 
-在选择受众或决策规则时，您可以查看有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
+当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

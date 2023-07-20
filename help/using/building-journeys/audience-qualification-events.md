@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="受众资格事件"
->abstract="此活动允许您的旅程侦听Adobe Experience Platform受众中用户档案的进出口，以使个人进入旅程或在旅程中前进。"
+>abstract="此活动允许您的历程侦听 Adobe Experience Platform 受众中配置文件的进出口，以便使个人进入历程或在历程中前进。"
 
-此活动允许您的旅程侦听Adobe Experience Platform受众中用户档案的进出口，以使个人进入旅程或在旅程中前进。 有关创建受众的更多信息，请参阅此 [部分](../audience/about-audiences.md).
+此活动允许您的历程侦听 Adobe Experience Platform 受众中配置文件的进出口，以便使个人进入历程或在历程中前进。有关创建受众的更多信息，请参阅此 [部分](../audience/about-audiences.md).
 
 假设您有一个“银牌客户”受众。 通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 

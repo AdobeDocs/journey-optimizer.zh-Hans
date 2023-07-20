@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Audience"
->abstract="通过利用实时客户档案数据，Adobe Experience Platform使您能够轻松构建区段定义，以创建目标受众来捕获客户的独特行为和偏好。"
+>abstract="通过利用实时客户配置文件数据，Adobe Experience Platform 让您能够轻松生成区段定义，以创建能够捕捉客户独特行为和偏好设置的目标受众。"
 
 [!DNL Journey Optimizer] 允许您直接从使用实时客户档案数据构建和利用Adobe Experience Platform受众。 **[!UICONTROL 受众]** 菜单，并将其用于您的历程或营销活动。
 

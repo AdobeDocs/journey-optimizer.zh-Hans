@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="读取受众活动"
->abstract="通过读取受众活动，您可以让属于Adobe Experience Platform受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。"
+>abstract="利用读取受众活动功能，您可以允许属于 Adobe Experience Platform 受众的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。"
 
 使用 **读取受众** 活动，使受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
