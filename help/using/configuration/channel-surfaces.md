@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 渠道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
+source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1626'
 ht-degree: 8%
 
 ---
@@ -101,7 +101,8 @@ ht-degree: 8%
    > 为子域创建电子邮件表面时，处理时间会有所不同，如下所述：
    >
    > * 对象 **新子域**，创建第一个渠道曲面的过程可能需要 **10分钟到10天**.
-   > * 对象 **非生产沙盒**，或者如果选定的子域为 **已使用** 在另一个渠道曲面中，该过程只需要 **3小时**.
+   > * 对象 **非生产沙盒**，或者如果选定的子域为 **已使用** 在另一个批准的渠道界面中，该流程最多只需 **3小时**.
+
 
    这些检查包括Adobe团队执行的配置和技术测试：
 
