@@ -5,9 +5,9 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '617'
 ht-degree: 25%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 25%
 <tbody>
 <tr>
 <td>
-<p>除了营销活动和历程之外，您现在还可以将Adobe Experience Platform统一标记分配给登陆页面、模板、内容片段和订阅列表。 这使您能够轻松对它们进行分类，并改进所有列表中的搜索和导航。 此功能目前处于GA阶段（一般可用）。</p>
+<p>除了营销活动和历程之外，您现在还可以将Adobe Experience Platform统一标记分配给登陆页面、模板、内容片段和订阅列表。 这使您能够轻松对它们进行分类，并改进所有列表中的搜索和导航。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
@@ -103,6 +103,16 @@ ht-degree: 25%
 
 此版本附带了下面列出的改进。
 
+**历程**
+
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
+
+
+**营销活动**
+
+* 现在，与营销活动相关的上下文事件可在个性化编辑器“上下文属性”菜单中使用。
+
+
 **受众**
 
 历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。
@@ -114,13 +124,4 @@ ht-degree: 25%
 
 因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
-
-**历程**
-
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
-
-
-**营销活动**
-
-* 现在，与营销活动相关的上下文事件可在个性化编辑器“上下文属性”菜单中使用。
 
