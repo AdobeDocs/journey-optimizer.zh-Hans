@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 渠道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1623'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 8%
 > * 要创建、编辑和删除渠道曲面，您必须具有 [管理渠道平面](../administration/high-low-permissions.md#manage-channel-surface) 许可。
 >
 > * 您必须执行 [电子邮件配置](../email/get-started-email-config.md)， [推送配置](../push/push-configuration.md) 和 [短信配置](../sms/sms-configuration.md) 创建渠道表面之前的步骤。
-
 
 配置渠道界面后，您将能够在从历程或营销策划创建消息时选择它们。
 
@@ -99,7 +98,10 @@ ht-degree: 8%
    在此步骤中，将执行若干检查以验证是否已正确配置该服务器。 <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >为给定子域创建第一个电子邮件表面时，可能需要一些处理时间 **10分钟到10天**. 如果所选子域已用于其他电子邮件表面，则最多只需3小时。
+   > 为子域创建电子邮件表面时，处理时间会有所不同，如下所述：
+   >
+   > * 对于新子域，创建第一个渠道曲面的过程可能需要 **10分钟到10天**.
+   > * 对象 **非生产沙盒**，或者如果选定的子域为 **已使用** 在另一个渠道界面中，该过程只需3小时。
 
    这些检查包括Adobe团队执行的配置和技术测试：
 
@@ -136,7 +138,7 @@ ht-degree: 8%
 
 如果渠道表面创建失败，下面将介绍每个可能失败原因的详细信息。
 
-如果出现这些错误之一，请联系 [Adobe客户关怀](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 以获得帮助。
+如果出现这些错误之一，请联系 [Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} 以获得帮助。
 
 * **SPF验证失败**： SPF (Sender Policy Framework)是一种电子邮件身份验证协议，允许指定可从给定子域发送电子邮件的授权IP。 SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供商发送电子邮件的IP地址不匹配。
 
