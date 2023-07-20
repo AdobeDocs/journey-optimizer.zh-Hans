@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 22%
+source-wordcount: '626'
+ht-degree: 25%
 
 ---
 
@@ -55,9 +55,10 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer通过增加直邮渠道的支持来扩展其跨渠道功能。 直邮是一种离线渠道，允许您对直邮提供商向客户发送邮件所需的提取文件进行个性化和生成。</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>您现在可以在营销活动和历程中添加直邮消息。 直邮是一种离线渠道，允许您对直邮提供商向客户发送邮件所需的文件进行个性化和生成。</p>
+<p>在准备直邮投放时，Journey Optimizer会生成一个文件，其中包含所有定向的用户档案和选定的联系信息（例如邮政地址）。 然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>有关更多信息，请参阅<a href="../direct-mail/create-direct-mail.md">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
