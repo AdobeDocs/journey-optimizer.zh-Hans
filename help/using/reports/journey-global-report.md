@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2057'
 ht-degree: 2%
 
 ---
@@ -271,8 +271,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
-* **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
-
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。
 
 * **[!UICONTROL 错误]**：投放期间发生的阻止将投放发送到用户档案的错误总数。
@@ -280,8 +278,6 @@ ht-degree: 2%
 此 **[!UICONTROL 短信摘要]** 构件以图表形式详细描述与报文相关的主要信息：
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
-
-* **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。
 

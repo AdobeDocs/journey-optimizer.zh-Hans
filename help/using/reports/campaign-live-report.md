@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1088'
 ht-degree: 7%
 
 ---
@@ -146,8 +146,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
-* **[!UICONTROL 已投放]**：成功发送的消息数。
-
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数。
 
 * **[!UICONTROL 错误]**：投放期间发生的阻止将投放发送到用户档案的错误总数。
@@ -157,8 +155,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 短信性能（按日期）]** 构件以图表形式详细描述与报文相关的主要信息：
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
-
-* **[!UICONTROL 已投放]**：成功发送的消息数。
 
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数。
 

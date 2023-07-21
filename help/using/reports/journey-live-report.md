@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1177'
 ht-degree: 5%
 
 ---
@@ -170,8 +170,6 @@ ht-degree: 5%
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
-* **[!UICONTROL 已投放]**：成功发送的消息数。
-
 * **[!UICONTROL 打开次数]**：消息在投放中打开的次数。
 
 * **[!UICONTROL 点击次数]**：在投放中点击内容的次数。
@@ -181,8 +179,6 @@ ht-degree: 5%
 * **[!UICONTROL 错误]**：投放期间发生的阻止将投放发送到用户档案的错误总数。
 
 此 **[!UICONTROL 短信摘要]** 图表详细说明了您的交付是否成功：
-
-* **[!UICONTROL 已投放]**：成功发送的消息数。
 
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数。
 

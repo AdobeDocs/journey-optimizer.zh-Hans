@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2283'
 ht-degree: 4%
 
 ---
@@ -312,8 +312,6 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
-* **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
-
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。
 
 * **[!UICONTROL 错误]**：投放期间发生的阻止将投放发送到用户档案的错误总数。
@@ -321,8 +319,6 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 短信性能（按日期）]** 构件以图表形式详细描述与报文相关的主要信息：
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
-
-* **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。
 
