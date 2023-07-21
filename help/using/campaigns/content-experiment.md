@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 内容，试验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -88,6 +88,16 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    ![](assets/content_experiment_5.png)
 
 ## 配置内容试验 {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="维度"
+>abstract="选择要跟踪试验的特定维度，例如特定页面的特定点击或查看。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="成功量度"
+>abstract="成功量度用于跟踪和评估试验中表现最佳的处理。 在使用数据集之前，请务必先为某些指标设置数据集。"
 
 1. 个性化投放后，从Campaign摘要页面，单击 **[!UICONTROL 创建试验]** 以开始配置内容试验。
 
