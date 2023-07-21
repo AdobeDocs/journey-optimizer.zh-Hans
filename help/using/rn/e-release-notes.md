@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 24%
+source-wordcount: '616'
+ht-degree: 22%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在营销活动和历程中添加直邮消息。 直邮是一种离线渠道，允许您对直邮提供商向客户发送邮件所需的文件进行个性化和生成。</p>
+<p>您现在可以在营销策划中添加直邮消息。 直邮是一种离线渠道，允许您对直邮提供商向客户发送邮件所需的文件进行个性化和生成。</p>
 <p>在准备直邮投放时，Journey Optimizer会生成一个文件，其中包含所有定向的用户档案和选定的联系信息（例如邮政地址）。 然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>有关更多信息，请参阅<a href="../direct-mail/create-direct-mail.md">详细文档</a>。</p>
@@ -90,7 +90,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>除了营销活动和历程之外，您现在还可以将Adobe Experience Platform统一标记分配给登陆页面、模板、内容片段和订阅列表。 这使您能够轻松对它们进行分类，并改进所有列表中的搜索和导航。 </p>
+<p>除了营销活动和历程之外，您现在还可以将Adobe Experience Platform统一标记分配给登陆页面、内容模板、片段和订阅列表。 这使您能够轻松对它们进行分类，并改进所有列表中的搜索和导航。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 24%
 
 **历程**
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
 
 
