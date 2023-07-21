@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '740'
+ht-degree: 19%
 
 ---
 
@@ -26,6 +26,23 @@ ht-degree: 22%
 ### 新功能{#july-2023-features}
 
 此版本引入了下面列出的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>内容模板API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用专用API创建和管理Adobe Journey Optimizer内容模板，从而提供与现有内容系统的无缝集成。</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ ht-degree: 22%
 * 介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
 
 
-
 **营销活动**
 
 * 现在，与营销活动相关的上下文事件可在个性化编辑器“上下文属性”菜单中使用。
@@ -126,5 +142,15 @@ ht-degree: 22%
 
 因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
+**API**
+
+Adobe Journey Optimizer API身份验证 — 已弃用用于生成访问令牌的JWT方法。 必须使用OAuth服务器到服务器身份验证方法创建所有新的集成。 Adobe还建议您将现有集成迁移到OAuth方法。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**其他更改**
+
+现在所有客户都可以将Journey Optimizer数据集导出到Cloud Storage目标。 此功能允许您与云存储位置建立实时连接，以导出数据集的内容。 [了解详情](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>此功能目前处于测试阶段，可能会发生更改。</p>
