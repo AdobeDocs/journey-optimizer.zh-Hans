@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 42%
 >
 >[!DNL Journey Optimizer] 创建的渠道中使用的决策范围满足其所属历程或营销活动的这一要求。
 
-1. 创建 [Adobe Experience Platform受众](../audience/access-audiences.md) 使用 [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} 并使用配置文件属性，例如 **[!UICONTROL 个性化内容=是（选择启用）]** 定位同意个性化的用户。
+1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/access-audiences.md)，并使用用户档案属性，例如&#x200B;**[!UICONTROL 个性化内容=是（选择启用）]**，定位同意个性化的用户。
 
    ![](assets/perso-consent-od-audience.png)
 
-1. 创建时 [决策](../offers/offer-activities/create-offer-activities.md)，添加决策范围，并根据此受众为包含个性化优惠的每个评估标准集合定义资格限制。
+1. 创建[决策](../offers/offer-activities/create-offer-activities.md)时添加决策范围，并根据受众为包含个性化优惠的每个评估标准集合定义资格条件约束。
 
    ![](assets/perso-consent-od-audience-decision.png)
 
@@ -97,36 +97,36 @@ ht-degree: 42%
 
 <!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
 
-此 [表达式编辑器](../personalization/personalization-build-expressions.md) 它本身不执行任何同意检查或执行，因为它不涉及消息的投放。
+[表达式编辑器](../personalization/personalization-build-expressions.md)本身不会执行任何同意检查或进行强制执行，因为表达式编辑器不涉及消息投放操作。
 
-但是，使用基于权限的访问控制标签允许限制哪些字段可用于个性化。 此 [消息预览](../email/preview.md#preview-email) 和 [电子邮件渲染服务](../email/preview.md#email-rendering) 将屏蔽用敏感信息标识的字段。
+但是，使用基于权限的访问控制标签可限制将哪些字段用于个性化。此[消息预览](../email/preview.md#preview-email)和[电子邮件渲染服务](../email/preview.md#email-rendering)将屏蔽用敏感信息标识的字段。
 
 >[!NOTE]
 >
->在中了解有关对象级访问控制(OLAC)的更多信息 [本节](../administration/object-based-access.md).
+>要了解有关对象级访问控制 (OLAC) 的更多信息，请访问[此部分](../administration/object-based-access.md)。
 
 
-In [!DNL Journey Optimizer] 营销活动，同意政策的实施如下所示：
+在 [!DNL Journey Optimizer] 营销活动中，同意政策的实施如下所示：
 
-* 您可以在受众创建过程中包含同意策略定义，以确保为营销活动选择的受众已 **过滤掉不符合同意条件的用户档案**.
+* 您可以在创建受众时包含同意策略定义，以确保为营销活动选择的受众已&#x200B;**筛选掉不符合同意条件的用户档案**。
 
-* [!DNL Journey Optimizer] 将在渠道级别执行一般同意检查，以便 **确保用户档案已选择加入** ，以便在相应的渠道上接收营销通信。
+* [!DNL Journey Optimizer] 将在渠道级别执行一般同意检查，以&#x200B;**确保用户档案已选择同意**&#x200B;接收特定渠道上的营销通信。
 
   >[!NOTE]
   >
-  >此 [!DNL Journey Optimizer] campaign对象本身目前不执行任何额外的同意策略实施检查。
+  >此时，[!DNL Journey Optimizer] 营销活动对象本身不会执行任何额外的同意政策实施检查。
 
-要在营销活动中手动强制执行个性化同意，请遵循以下选项之一。
+要在营销活动中手动强制执行个性化同意，请遵循以下方法之一。
 
 ### 使用区段规则生成器
 
-您可以使用区段规则生成器创建包含选择退出配置文件的受众。
+您可以使用区段规则生成器创建包含选择退出用户档案的受众。
 
-1. 创建 [Adobe Experience Platform受众](../audience/access-audiences.md) 使用 [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/access-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
-1. 选择配置文件属性，例如 **[!UICONTROL 个性化内容=否（选择退出）]** 排除未同意个性化的用户。
+1. 选择用户档案属性，例如&#x200B;**[!UICONTROL 个性化内容 = 否（选择退出）]**，排除未同意个性化的用户。
 
    ![](assets/perso-consent-audience-no.png)
 
@@ -134,46 +134,46 @@ In [!DNL Journey Optimizer] 营销活动，同意政策的实施如下所示：
 
 您现在可以使用此受众从营销活动中筛选出未同意个性化的用户档案。
 
-### 在合成工作流中使用拆分活动
+### 在组合工作流中使用拆分活动
 
-您还可以通过将拆分活动添加到合成工作流来向受众添加个性化同意检查。
+您还可以通过将拆分活动添加到组合工作流来向受众添加个性化同意检查。
 
-1. 使用创建受众 **[!UICONTROL 组成受众]** 选项。 [了解有关创建合成工作流的更多信息](../audience/create-compositions.md)
+1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建组合工作流的更多信息](../audience/create-compositions.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
-1. 使用右侧的专用按钮添加起始受众。
+1. 使用右侧的专用按钮添加初始受众。
 
-1. 单击+图标并选择 **[!UICONTROL Split]** 以创建拆分受众。 [了解有关拆分活动的更多信息](../audience/composition-canvas.md#split)
+1. 单击 + 图标并选择&#x200B;**[!UICONTROL 拆分]**，创建拆分受众。[了解有关拆分活动的更多信息](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 选择 **[!UICONTROL 属性拆分]** 作为右窗格中的拆分类型。
+1. 在右侧窗格中，选择&#x200B;**[!UICONTROL 属性拆分]**&#x200B;作为拆分类型。
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
-1. 单击旁边的铅笔图标 **[!UICONTROL 属性]** 用于调出 **[!UICONTROL 选择配置文件属性]** 窗口。
+1. 单击&#x200B;**[!UICONTROL 属性]**&#x200B;字段旁边的铅笔图标，调出&#x200B;**[!UICONTROL 选择用户档案属性]**&#x200B;窗口。
 
-1. 搜索个性化同意属性(`profile.consents.personalize.content.val`)，然后选择它。
+1. 搜索个性化同意属性 (`profile.consents.personalize.content.val`)，然后将其选中。
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL 路径1]** 将成为非个性化受众。 选择相关标签。
+1. **[!UICONTROL 路径 1]** 是非个性化受众。选择相关标签。
 
-1. 从中选择适当的值 [列表](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}.
+1. 从此[列表](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}中选择适当的值。
 
    在这种情况下，我们将使用 `n` 表示用户不同意将其数据用于个性化。
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. 您可以为其他选项值创建单独的路径。 您还可以选择删除其余路径并打开 **[!UICONTROL 其他配置文件]** 以包括没有选项值的所有其他配置文件 `n`.
+1. 您可以为其他选项值创建单独的路径。您还可以选择删除其余路径并打开&#x200B;**[!UICONTROL 其他用户档案]**，以包括没有`n`选项值的所有其他用户档案。
 
-1. 完成后，单击 **[!UICONTROL 保存受众]** 将工作流结果保存到新受众中的每个路径。 每个路径都将有一个受众保存到Adobe Experience Platform中。
+1. 完成后，在每个路径中单击&#x200B;**[!UICONTROL 保存受众]**，将工作流结果保存到新受众中。对于每条路径，都会将一个受众保存到 Adobe Experience Platform 中。
 
-1. 完成后，发布构成工作流。
+1. 完成后，发布组合工作流。
 
 您现在可以使用此受众从营销活动中筛选出未同意个性化的用户档案。
 
 >[!NOTE]
 >
->如果您创建的受众未同意进行个性化，然后在营销活动中选择此受众，则个性化工具将仍然可用。 您的营销用户需要了解，如果他们正在与不应接收个性化的受众合作，则他们不应使用个性化工具。
+>如果创建的受众未同意进行个性化，但您在营销活动中选择了此受众，则个性化工具将仍然可用。营销用户需要了解一点，即如果其处理的受众不应接收个性化内容，则不应使用个性化工具。
