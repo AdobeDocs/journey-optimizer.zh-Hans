@@ -6,9 +6,9 @@ description: 作为历程实践者，了解有关如何使用 Journey Optimizer 
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 请参阅以下部分，以设置第一个历程、添加优惠与资源并发送消息：
 
-1. **创建受众**. Journey Optimizer允许您直接从通过区段定义创建受众。 **受众** 菜单上，并将其用于您的历程。  了解有关受众的更多信息 [本页内容](../../audience/about-audiences.md). 了解如何生成区段定义 [在此示例中](../../audience/creating-a-segment-definition.md).
+1. **创建受众**。Journey Optimizer 允许通过区段定义直接从&#x200B;**受众**&#x200B;菜单创建受众，并将其用于历程。要了解有关受众的更多信息，请参阅[本页面](../../audience/about-audiences.md)。[在此示例中](../../audience/creating-a-segment-definition.md)了解如何构建区段定义。
 
 1. **添加个性化和动态内容**。利用 Journey Optimizer 个性化和动态内容功能，根据受众调整消息。详细了解[个性化](../../personalization/personalize.md)和[动态内容](../../personalization/get-started-dynamic-content.md)。
 
@@ -34,13 +34,13 @@ ht-degree: 82%
 
 1. **设计客户历程**，以提供个性化的情境式体验。[!DNL Journey Optimizer] 使您可以利用存储在事件或数据源中的上下文数据，生成实时编排用例。设计由以下功能提供支持的分步式高级方案：
 
-   * 实时发送 **单一投放** 在收到事件时触发，或 **批次** 使用Adobe Experience Platform受众。
+   * 使用 Adobe Experience Platform 受众在接收到事件时触发发送实时&#x200B;**单一投放**，或进行&#x200B;**批量**&#x200B;处理。
 
    * 利用来自事件的&#x200B;**上下文数据**、来自 Adobe Experience Platform 的信息或来自第三方 API 服务的数据。
 
    * 使用&#x200B;**内置渠道操作**（电子邮件、短信、推送）发送在 [!DNL Journey Optimizer] 中设计的消息；或者，如果您使用第三方系统，可以创建&#x200B;**自定义操作**&#x200B;来发送消息。
 
-   * 使用 **历程设计器**，构建分步式用例：轻松拖放登入事件或读取受众活动、添加条件和发送个性化消息。
+   * 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取受众活动、添加条件和发送个性化消息。
 
    ![](../assets/journey-design.png)
 
