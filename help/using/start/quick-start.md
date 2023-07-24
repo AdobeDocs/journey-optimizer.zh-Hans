@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # 快速入门 {#cjm-quick-start}
 
-替换为 [!DNL Adobe Journey Optimizer]，您可以导入现有消息内容或设计新内容，使用客户档案数据对消息进行个性化，创建事件以触发消息，定义受众，创建和添加优惠以及获取一整套报告和监测工具以衡量消息和客户历程的影响。
+借助 [!DNL Adobe Journey Optimizer]，您可以导入现有消息内容或设计新内容，使用客户档案数据对消息进行个性化，创建事件以触发消息，定义受众，创建和添加优惠以及获取一整套报告和监测工具以衡量消息和客户历程的影响。
 
 根据您所在的组织，您可以定义几种类型的用户，并根据用户的权限授予他们对某些功能的访问权限。
 
