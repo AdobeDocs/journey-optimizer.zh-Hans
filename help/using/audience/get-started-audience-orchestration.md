@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您是仅Real-time Customer Profile客户并且没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您是仅Real-time Customer Profile客户并且没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ ht-degree: 78%
 >
 >Adobe Journey Optimizer 中的营销活动尚未与策略执行服务集成。因此，不会在 Journey Optimizer 营销活动中强制执行您应用于受众属性的任何数据使用标签。
 
-可以从Adobe Journey Optimizer访问受众合成 **[!UICONTROL 受众]** 菜单：
+可通过 Adobe Journey Optimizer **[!UICONTROL 受众]**&#x200B;菜单访问受众组合：
 
 ![](assets/audiences-browse.png)
 
-* 此 **[!UICONTROL 概述]** 选项卡提供了一个专用仪表板，其中包含与贵组织的受众数据相关的关键量度。 要了解更多信息，请参阅 [Adobe Experience Platform 仪表板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hans)。
+* **[!UICONTROL 概述]**&#x200B;选项卡提供了专用仪表板，其中包含与贵组织受众数据相关的关键量度。要了解更多信息，请参阅 [Adobe Experience Platform 仪表板指南](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=zh-Hans)。
 
 * **[!UICONTROL 浏览]**&#x200B;选项卡列出了存储到 Adobe Experience Platform 中的所有现有受众。
 

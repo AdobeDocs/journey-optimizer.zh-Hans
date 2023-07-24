@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反应](using/building-journeys/reaction-events.md)
-      + [受众资格](using/building-journeys/audience-qualification-events.md)
+      + [受众鉴别](using/building-journeys/audience-qualification-events.md)
       + [条件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [读取受众](using/building-journeys/read-audience.md)
@@ -279,7 +279,7 @@ ht-degree: 99%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-+ 受众、用户档案和标识{#audiences-profiles-identities}
++ 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + [生成区段定义](using/audience/creating-a-segment-definition.md)
@@ -288,7 +288,7 @@ ht-degree: 99%
          + [创建组合工作流](using/audience/create-compositions.md)
          + [使用组合画布](using/audience/composition-canvas.md)
          + [访问和管理受众](using/audience/access-audiences.md)
-   + 配置文件{#profiles}
+   + 用户档案{#profiles}
       + [开始使用用户档案](using/audience/get-started-profiles.md)
       + [创建测试用户档案](using/audience/creating-test-profiles.md)
    + [标识](using/audience/get-started-identity.md)

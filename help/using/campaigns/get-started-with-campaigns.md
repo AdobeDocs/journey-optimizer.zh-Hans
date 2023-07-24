@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 >title="营销活动"
 >abstract="创建营销活动，以跨各种渠道向特定受众投放一次性内容。在创建营销活动之前，请确保您已准备好渠道表面（即消息预设）和 Adobe Experience Platform 受众以供使用。"
 
-使用Journey Optimizer营销活动，通过各种渠道向特定受众投放一次性内容。 使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
+使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
 您可以创建两种类型的营销活动：
 
@@ -66,7 +66,7 @@ ht-degree: 92%
 
 +++
 
-1. **您需要受众**。在创建营销活动之前，受众需要可用。 了解有关受众的更多信息 [本页内容](../audience/about-audiences.md).
+1. **您需要受众**。在创建营销活动之前，需要设置受众。要了解有关受众的更多信息，请参阅[本页面](../audience/about-audiences.md)。
 1. **您需要一个渠道表面**。要选择渠道，必须创建并提供相应的渠道表面（即预设）。要了解有关渠道表面的更多信息，请参阅[本页](../configuration/channel-surfaces.md)。
 
 ## 操作方法视频 {#video}

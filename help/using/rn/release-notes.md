@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年7月更新
+## 2023 年 7 月更新
 
 <table>
 <thead>
@@ -33,13 +33,13 @@ ht-degree: 90%
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建组合工作流，将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、扩充……）来创建新受众。 新创建的受众与现有受众一起保存回Adobe Experience Platform中，并可在Journey Optimizer营销活动中利用来定位客户。</p>
+<p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众组合到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来定位客户。</p>
 
 <img src="../audience/assets/audiences-publish.png"/>
 
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
 
-<p>受众构成与新的Adobe Experience Platform“受众”菜单完全集成，该菜单用作受众的集中门户。 您现在可以使用包含新仪表板（带有区段趋势和重叠）的浏览页面来查找新见解并探索用于折叠和标记的组织工具。 此体验中嵌入了用于标准化受众标签的管理控制以及用于管理激活工作流的受众生命周期管理功能。 凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform文档</a>.</p></p>
+<p>受众构成与新的Adobe Experience Platform“受众”菜单完全集成，该菜单用作受众的集中门户。 您现在可以使用包含新仪表板（带有区段趋势和重叠）的浏览页面来查找新见解并探索用于折叠和标记的组织工具。 此体验中嵌入了用于标准化受众标签的管理控制以及用于管理激活工作流的受众生命周期管理功能。 凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform文档</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。这种新模型允许您根据受众和优惠表现来优化和个性化优惠。</p>
+<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。利用这种新型模型可根据受众和优惠表现对优惠进行优化和个性化设置。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
 </td>
@@ -390,7 +390,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 历程画布已得到改进，可提供更简单、更优质的用户体验。移除了在画布中每个路径的末尾的空占位符。现在，您只需将活动拖动到路径末尾即可添加活动。
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。[了解详情](../configuration/external-systems.md#timeout)
-* 读取受众活动中的默认限制速率已从每秒20,000条消息更改为每秒5,000条消息。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 读取受众活动中的默认限制速率已从每秒 20000 条消息更改为每秒 5000 条消息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 测试模式中添加了护栏，以仅侦听通过界面发送的事件。不会侦听通过外部工具发送的事件。[了解详情](../building-journeys/testing-the-journey.md)
 
 
@@ -521,9 +521,9 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。此字段允许您定义允许用户档案在单一历程中再次进入历程之前的等待时间（从事件或受众资格开始）。 这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-gs.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-gs.md#entrance)
 
-* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对象 **读取受众** 历程，您现在可以添加结束日期。 这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
+* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -597,7 +597,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* 添加 **受众资格** 或 **读取受众** 在历程中，现在默认使用最后一个使用的命名空间预填充命名空间。 请参阅 [受众资格](../building-journeys/audience-qualification-events.md#about-segment-qualification) 和 [读取受众](../building-journeys/read-audience.md#configuring-segment-trigger-activity) 部分。
+* 在历程中添加&#x200B;**受众鉴别**&#x200B;或&#x200B;**读取受众**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅[受众鉴别](../building-journeys/audience-qualification-events.md#about-segment-qualification)和[读取受众](../building-journeys/read-audience.md#configuring-segment-trigger-activity)部分。
 
 * 在历程画布中，工具栏中新增了一个按钮，用于下载历程的屏幕截图。
 
