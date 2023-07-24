@@ -10,9 +10,9 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重
 
 使用同意管理功能时，会分析两个历程活动：
 
-* 读取受众：考虑检索到的受众。
+* 读取受众：检索到的受众会被考虑在内。
 * 自定义操作：同意管理功能会考虑所使用的属性（[操作参数](../action/about-custom-action-configuration.md#define-the-message-parameters)）以及定义的营销操作（必需的营销操作和其他营销操作）。
 * 不支持使用现成联合架构的字段组所包含的属性。这些属性在界面中处于隐藏状态。您需要使用其他架构创建另一个字段组。
 * 仅在自定义操作级别设置营销操作（必需或其他）时，同意策略才适用。
 
-历程中使用的所有其他活动均不会被考虑在内。如果您以受众资格开始您的历程，则不会考虑受众。
+历程中使用的所有其他活动均不会被考虑在内。如果您以“受众鉴别”开始历程，则不会考虑该受众。
 
 在历程中，如果自定义操作中的同意策略将某个用户档案排除，则不会向该用户发送消息，但是其历程会继续运行。 使用条件时，用户档案不会转到超时和错误路径。
 
