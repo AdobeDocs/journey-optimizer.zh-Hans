@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
+source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
 workflow-type: tm+mt
-source-wordcount: '3125'
+source-wordcount: '3105'
 ht-degree: 85%
 
 ---
@@ -127,10 +127,10 @@ ht-degree: 85%
 
 此版本附带了下面列出的改进。
 
-**历程**
+<!--**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **营销活动**
