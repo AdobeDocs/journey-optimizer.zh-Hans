@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ ht-degree: 85%
 **历程**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
+介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
 
 
 **营销活动**
 
-* 现在，与营销活动相关的上下文事件可在个性化编辑器“上下文属性”菜单中使用。
+现在，与营销活动相关的上下文事件可在个性化编辑器“上下文属性”菜单中使用。
 
 
 **受众**
 
-历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。
-
-随着受众构成门户的发布，Adobe Experience Platform和Adobe Journey Optimizer更新了系统和文档中“受众”和“区段”的使用。
+历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。 随着受众构成门户的发布，Adobe Experience Platform和Adobe Journey Optimizer更新了系统和文档中“受众”和“区段”的使用。
 
 * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
 * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
 
-因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
+因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，“区段”将替换为“受众”，以反映这种创建和管理受众的新途径。
 
 **API**
 
-Adobe Journey Optimizer API身份验证 — 已弃用用于生成访问令牌的JWT方法。 必须使用OAuth服务器到服务器身份验证方法创建所有新的集成。 Adobe还建议您将现有集成迁移到OAuth方法。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+已弃用用于为Adobe Journey Optimizer APIsauthentication生成访问令牌的JWT方法。 必须使用OAuth服务器到服务器身份验证方法创建所有新的集成。 Adobe还建议您将现有集成迁移到OAuth方法。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **其他更改**
