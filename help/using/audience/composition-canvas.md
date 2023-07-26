@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 27%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans)
 
 >[!ENDSHADEBOX]
 
-受众构成提供了一个可视画布，允许您创建受众并使用各种活动（拆分、扩充等）。
+受众构成提供了一个可视画布，通过它可创建受众并使用各种活动（拆分、扩充等）。
 
 在画布中构建受众的步骤如下：
 
@@ -33,14 +33,14 @@ ht-degree: 27%
 
 ## 选择起始受众 {#starting-audience}
 
-创建组合的第一步是选择一个或多个现有受众作为组合的基础。
+创建构成的第一步是选择一个或多个现有受众作为构成的基础。
 
-1. 选择 **[!UICONTROL Audience]** 活动，然后为活动提供标签。
+1. 选择 **[!UICONTROL 受众]** 活动，然后为活动提供标签。
 
 1. 选择要定位的受众：
 
    * 单击 **[!UICONTROL 添加受众]** 按钮以选择一个或多个现有受众，
-   * 单击 **[!UICONTROL 生成规则]** 按钮以使用创建新的受众定义 [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * 单击 **[!UICONTROL 生成规则]** 按钮，以使用创建新的受众定义 [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans).
 
    ![](assets/audiences-choose-audience.png)
 
@@ -48,31 +48,31 @@ ht-degree: 27%
 
 * **[!UICONTROL 并集]**：包括选定受众的所有用户档案，
 * **[!UICONTROL 交叉]**：包含所有选定受众通用的用户档案，
-* **[!UICONTROL 排除重叠]**：仅包含属于某个受众的用户档案。 属于多个受众的用户档案将不会包括在内。
+* **[!UICONTROL 排除重叠]**：仅包含属于某个受众的用户档案。 属于多个受众的用户档案将不会包含在内。
 
 在本例中，我们要定位属于金牌和银牌受众的所有用户档案。
 
 ![](assets/audiences-starting-audience.png)
 
-选择受众后，活动底部会显示预计数量的用户档案。
+选择受众后，活动底部会显示预计的用户档案数。
 
 ## 添加活动 {#action-activities}
 
-选择开始受众后添加活动以优化您的选择。
+选择起始受众后添加活动以优化您的选择。
 
-要实现此目的，请单击组合路径上的+按钮，然后选择所需的活动。 右侧窗格将打开，允许您配置新添加的活动。
+为此，请单击构成路径上的+按钮，然后选择所需的活动。 右侧窗格将打开，允许您配置新添加的活动。
 
 ![](assets/audiences-select-activity.png)
 
 可用的活动包括：
 
-* [Audience](#audience)：包括属于一个或多个现有受众的其他配置文件，
+* [受众](#audience)：包括属于一个或多个现有受众的其他配置文件，
 * [排除](#exclude)：排除属于现有受众的用户档案，或根据特定属性排除用户档案，
 * [扩充](#enrich)：使用来自Adobe Experience Platform数据集的其他属性丰富受众，
-* [排名](#rank)：根据特定属性对配置文件进行排名，指定要保留并包含到构成中的配置文件数，
-* [Split](#split)：根据随机百分比或属性，将合成划分为多个路径。
+* [排名](#rank)：根据特定属性对配置文件进行排名，指定要保留并包含在构成中的配置文件数，
+* [Split](#split)：根据随机百分比或属性将合成划分为多个路径。
 
-您可以添加任意数量的 **[!UICONTROL Audience]** 和 **[!UICONTROL 排除]** 根据需要在合成中进行的活动。 但是，之后无法添加其他活动 **[!UICONTROL 排名]** 和 **[!UICONTROL Split]** 活动。
+您可以添加任意数量的 **[!UICONTROL 受众]** 和 **[!UICONTROL 排除]** 构成中所需的活动。 但是，之后无法添加其他活动 **[!UICONTROL 排名]** 和 **[!UICONTROL Split]** 活动。
 
 您可以随时通过单击右窗格中的删除按钮从画布中删除活动。  如果要删除的活动是构成中其他活动的父项，则会显示一条消息，允许您指定是只删除选定活动，还是删除其所有子活动。
 
@@ -88,9 +88,9 @@ ht-degree: 27%
 >title="合并类型"
 >abstract="指定应如何合并所选受众的配置文件。"
 
-此 **[!UICONTROL Audience]** 利用活动，可在合成中包含属于现有受众的其他配置文件。
+此 **[!UICONTROL 受众]** 利用活动，可在构成中包含属于现有受众的其他用户档案。
 
-此活动的配置与起始活动相同 [受众活动](#starting-audience).
+此活动的配置与 [受众活动](#starting-audience).
 
 ### 排除活动 {#exclude}
 
@@ -138,27 +138,27 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="扩充属性"
->abstract="从扩充数据集中选择一个或多个属性以关联到受众。发布构成后，这些属性即与受众关联，并可在Journey Optimizer营销活动中利用来个性化投放。"
+>abstract="从扩充数据集中选择一个或多个属性以关联到受众。组合在发布之后，这些属性就会与受众相关联，并且可以在 Journey Optimizer 营销活动中用来提供个性化的投放。"
 
-此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性丰富受众。 例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。
+此 **[!UICONTROL 扩充]** 利用活动，可使用来自Adobe Experience Platform数据集的其他属性扩充受众。 例如，您可以添加与所购买产品相关的信息（例如名称、价格或制造商 ID），并利用这些信息对发送给受众的投放内容进行个性化设置。
 
-使用时请注意以下限制 **[!UICONTROL 扩充]** 活动：
+使用时，请注意以下限制 **[!UICONTROL 扩充]** 活动：
 
-* **数据集** for扩充必须属于记录类型（与事件类型相反），并且不能是系统数据集，也不能标记为用户档案。 它们必须小于1GB。
-* **扩充支持1:1联接**. 这意味着，如果连接键在扩充数据集上具有多个匹配项，则系统会选取一个匹配项，并将其用于1:1连接。
+* **数据集** 要扩充，则必须是记录类型（与事件类型相反），并且它们不能是系统数据集，也不能标记为用户档案。 它们必须小于1GB。
+* **扩充支持1:1联接**. 这意味着，如果联接键在扩充数据集上具有多个匹配项，则系统会选取一个匹配项，并将其用于1:1联接。
 * **可以在RTCDP目标中激活受众**，但其扩充属性（如果有）不能。
 
 要配置活动，请执行以下步骤：
 
 1. 选择 **[!UICONTROL 扩充数据集]** 包含要与受众关联的数据。
 
-1. 在 **[!UICONTROL 扩充条件]** 部分，选择要用作源数据集（即受众）和扩充数据集之间协调键的字段。 在本例中，我们使用购买产品的ID作为协调密钥。
+1. 在 **[!UICONTROL 扩充条件]** 部分，选择要用作源数据集（即受众）和扩充数据集之间的协调键的字段。 在本例中，我们使用购买产品的ID作为协调密钥。
 
-1. 单击 **[!UICONTROL 添加属性]** 按钮后，从扩充数据集中选择一个或多个要与受众关联的属性。
+1. 单击 **[!UICONTROL 添加属性]** 按钮，然后从扩充数据集中选择一个或多个要关联到受众的属性。
 
    ![](assets/audiences-enrich-activity.png)
 
-发布构成后，选定的属性即与受众关联，并可在营销活动中利用来个性化投放。
+发布构成后，选定的属性即与受众关联，并可在营销活动中用于个性化投放。
 
 ### 排名活动 {#rank}
 
@@ -172,7 +172,7 @@ ht-degree: 27%
 >title="添加配置文件限制"
 >abstract="打开此选项以指定要包含在组合中的配置文件最大数量。"
 
-此 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将它们包含在合成中。 例如，您可以包含忠诚度积分最多的50个用户档案。
+此 **[!UICONTROL 排名]** 利用活动，可根据特定属性对用户档案进行排名，并将其包含在合成中。 例如，您可以包含50个用户档案，其中具有最高的会员积分。
 
 1. 选择要查找的属性并指定排名顺序（升序或降序）。
 
@@ -180,7 +180,7 @@ ht-degree: 27%
    >
    >您可以选择具有以下数据类型的属性：整数、数字、短整数 <!--(other?)-->
 
-1. 切换 **[!UICONTROL 添加配置文件限制]** 选项，并指定要包含在构成中的配置文件的最大数量。
+1. 切换 **[!UICONTROL 添加配置文件限制]** 选项，并指定构成中要包含的最大配置文件数。
 
    ![](assets/audiences-rank.png)
 
@@ -210,13 +210,13 @@ ht-degree: 27%
 
 此操作会自动添加 **[!UICONTROL 保存]** 活动。 在发布组合时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。
 
-提供了两种类型的拆分操作：
+有两种类型的拆分操作可用：
 
-* **[!UICONTROL 百分比拆分]**：将用户档案随机拆分为两个或多个路径。 例如，可将用户档案拆分为2条路径，每条路径占50%。 <!--and add an additional path for control group.-->
+* **[!UICONTROL 百分比拆分]**：将用户档案随机拆分为两个或更多路径。 例如，可将用户档案拆分为2个各自为50%的不同路径。 <!--and add an additional path for control group.-->
 
   ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL 属性拆分]**：根据特定属性拆分用户档案。 在本例中，我们根据用户档案的类型偏好来分割用户档案。
+* **[!UICONTROL 属性拆分]**：根据特定属性拆分用户档案。 在本例中，我们将根据用户档案的类型首选项来分割用户档案。
 
   ![](assets/audiences-split.png)
 
@@ -226,10 +226,10 @@ ht-degree: 27%
 
 ## 保存您的受众 {#save}
 
-配置将保存到Adobe Experience Platform中的生成受众。
+配置将保存到Adobe Experience Platform中的生成的受众。
 
-要执行此操作，请选择 **[!UICONTROL 保存受众]** 每个路径末尾的活动，然后指定要创建的新受众的名称。
+要执行此操作，请选择 **[!UICONTROL 保存受众]** 每个路径末尾的活动中，指定要创建的新受众的名称。
 
 ![](assets/audiences-publish.png)
 
-一旦合成准备就绪，即可发布。 [了解如何创建合成](create-compositions.md)
+合成准备就绪后，即可发布。 [了解如何创建合成](create-compositions.md)

@@ -21,7 +21,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="添加结构组件"
->abstract="结构组件定义电子邮件的版面。拖放&#x200B;**结构**&#x200B;组件到画布中，开始设计您的电子邮件内容。"
+>abstract="结构组件定义电子邮件的版面。将&#x200B;**结构**&#x200B;组件拖放到画布中，开始设计您的电子邮件内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
@@ -60,7 +60,7 @@ ht-degree: 57%
 >abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义模板的版面。"
 
 
-使用Adobe Journey Optimizer Designer可轻松定义内容的结构。 通过通过简单的拖放操作添加和移动结构元素，您可以在几秒内设计内容的形状。
+使用Adobe Journey Optimizer Designer轻松定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以在几秒钟内设计内容的形状。
 
 要开始构建内容，请执行以下步骤：
 
@@ -68,7 +68,7 @@ ht-degree: 57%
 
    ![](assets/email_designer.png)
 
-1. 通过拖放开始设计内容 **[!UICONTROL 结构]** 以定义电子邮件的布局。
+1. 通过拖放开始设计内容 **[!UICONTROL 结构]** 放入画布以定义电子邮件的布局。
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ ht-degree: 57%
    >
    >每个列的大小不能小于结构组件的总宽度的 10%。不能删除非空列。
 
-1. 展开 **[!UICONTROL 目录]** 部分，并将所需数量的元素添加到一个或多个结构元件中。 [详细了解内容组件](content-components.md)
+1. 展开 **[!UICONTROL 目录]** 部分，并将所需数量的元素添加到一个或多个结构组件中。 [详细了解内容组件](content-components.md)
 
 1. 可使用进一步自定义每个组件 **[!UICONTROL 设置]** 或 **[!UICONTROL 样式]** 选项卡。 例如，您可以更改每个组件的文本样式、内边距或边距。[了解有关对齐方式和内边距的更多信息](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. 从 **[!UICONTROL 资产选取器]**&#x200B;中，您可以直接选择存储在中的资产 **[!UICONTROL 资产库]**. [了解有关资产管理的更多信息](assets-essentials.md)
+1. 从 **[!UICONTROL 资产选取器]**&#x200B;中，您可以直接选择存储在以下位置中的资源： **[!UICONTROL 资产库]**. [了解有关资产管理的更多信息](assets-essentials.md)
 
    双击包含资产的文件夹。 将它们拖放到结构组件中。
 
@@ -102,7 +102,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_personalization.png)
 
-1. 单击 **[!UICONTROL 启用条件内容]** 添加动态内容，并根据条件规则将内容调整到目标用户档案。 [动态内容入门](../personalization/get-started-dynamic-content.md)
+1. 单击 **[!UICONTROL 启用条件内容]** 添加动态内容，并根据条件规则将内容调整为定向的用户档案。 [动态内容入门](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -120,5 +120,5 @@ ht-degree: 57%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 内容准备就绪后，单击 **[!UICONTROL 保存]**.
+1. 内容就绪后，单击 **[!UICONTROL 保存]**.
 
