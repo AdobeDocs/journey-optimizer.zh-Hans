@@ -5,9 +5,9 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 9241dc286839b9875c7e0de34be4b7493168718f
+source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 27%
 
 ---
@@ -118,11 +118,12 @@ ht-degree: 27%
 
 此版本具有下面列出的改进。
 
-**历程**
+<!--
+**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * 介绍了一种新型的系统报警。 现在，您可以在自定义操作失败时收到通知。
-
+—>
 
 **营销活动**
 
