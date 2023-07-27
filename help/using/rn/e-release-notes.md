@@ -5,7 +5,7 @@ title: 发行说明
 description: Journey Optimizer早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
+source-git-commit: 3f00453df4ba73f621b23aaba7ce4631d40b648a
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 27%
@@ -36,7 +36,6 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众组合到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来定位客户。</p>
-<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
 <p>受众构成与新的Adobe Experience Platform“受众”菜单完全集成，该菜单用作受众的集中门户。 您现在可以使用包含新仪表板（带有区段趋势和重叠）的浏览页面来查找新见解，并探索用于折叠和标记的组织工具。 此体验中嵌入了用于标准化受众标签的管理控件以及用于管理激活工作流的受众生命周期管理功能。 有了这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform文档</a>.</p></p>
 </td>
