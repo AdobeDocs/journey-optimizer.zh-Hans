@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 11%
 
 ---
@@ -81,6 +81,5 @@ ht-degree: 11%
 
 * 以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
 
-  +++观看视频
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
-+++
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
