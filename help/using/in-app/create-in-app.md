@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '747'
 ht-degree: 6%
 
 ---
@@ -70,9 +70,9 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. 访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**.
 
-1. 在 **[!UICONTROL 属性]** 部分，选择何时执行营销活动：已计划或API触发。 要了解有关促销活动类型的更多信息，请参阅 [此页面](../campaigns/create-campaign.md#campaigntype).
+1. 在 **[!UICONTROL 属性]** 部分，选择何时执行营销活动：计划或API触发。 了解中促销活动类型的更多信息 [此页面](../campaigns/create-campaign.md#campaigntype).
 
-1. 在 **[!UICONTROL 操作]** 部分，选择 **[!UICONTROL 应用程序内消息]** 和 **[!UICONTROL 应用程序表面]** 之前为您的应用程序内消息配置的。 然后，单击 **[!UICONTROL 创建]**.
+1. 在 **[!UICONTROL 操作]** 部分，选择 **[!UICONTROL 应用程序内消息]** 和 **[!UICONTROL 应用程序表面]** 之前已为您的应用程序内消息配置此功能。 然后，单击 **[!UICONTROL 创建]**.
 
    在中了解有关应用程序内配置的更多信息 [此页面](inapp-configuration.md).
 
@@ -88,26 +88,58 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理以衡量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
 
-1. 单击 **[!UICONTROL 编辑触发器]** 选择将触发消息的事件和条件：
+1. 单击 **[!UICONTROL 编辑触发器]** 以选择触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
 
-   1. 单击 **添加条件** 您希望触发器考虑多个事件或标准。
-   1. 选择事件的链接方式，例如，选择 **[!UICONTROL 和]** 如果您愿意 **两者** 触发器为true，以便显示或选择消息 **[!UICONTROL 或]** 如果您希望显示消息，如果 **任一** 的触发条件为真。
+   1. 如果需要，单击事件下拉列表以更改触发器。
+
+   1. 单击 **[!UICONTROL 添加条件]** 如果希望触发器考虑多个事件或标准。
+
+   1. 选择 **[!UICONTROL 或]** 条件（如果要添加更多） **[!UICONTROL 触发器]** 以进一步扩展您的规则。
+
+      ![](assets/in_app_create_3.png)
+
+   1. 选择 **[!UICONTROL 和]** 条件（如果要添加） **[!UICONTROL 特征]** 并且更好地调整你的规则。
+
+      +++查看可用的特征。
+
+      | 包 | 特征 | 定义 |
+      |---|---|---|
+      | 设备信息 | 运营商名称 | 当满足列表中的运营商名称之一时触发。 |
+      | 设备信息 | 设备名称 | 当满足设备名称之一时触发。 |
+      | 设备信息 | 区域设置 | 当满足列表中的一种语言时触发。 |
+      | 设备信息 | 操作系统版本 | 当满足指定的操作系统版本之一时触发。 |
+      | 设备信息 | 以前的操作系统版本 | 当满足指定的先前操作系统版本之一时触发。 |
+      | 设备信息 | 运行模式 | 如果运行模式为应用程序或扩展，则会触发。 |
+      | 应用程序生命周期 | 应用程序 ID | 当满足指定的应用程序ID时触发。 |
+      | 应用程序生命周期 | 每周的某一日 | 当满足一周中的指定日期时触发。 |
+      | 应用程序生命周期 | 首次使用后间隔天数 | 当满足自首次使用以来的指定天数时触发。 |
+      | 应用程序生命周期 | 上次使用后间隔天数 | 当满足自上次使用后指定的天数时触发。 |
+      | 应用程序生命周期 | 升级后间隔天数 | 当满足自上次升级以来的指定天数时触发。 |
+      | 应用程序生命周期 | 安装日期 | 当满足指定的安装日期时触发。 |
+      | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
+      | 应用程序生命周期 | 一天中的时间 | 当满足指定的时间时触发。 |
+      | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
+      | Places | 上次进入的POI | 由Places SDK触发，具体取决于客户上次输入的目标点(POI)。 |
+      | Places | 上次退出的POI | 由Places SDK触发，具体取决于您的客户上次退出兴趣点(POI)。 |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
    1. 单击 **[!UICONTROL 创建组]** 将触发器组合在一起。
-
-   ![](assets/in_app_create_3.png)
 
 1. 选择应用程序内消息处于活动状态时触发的频率。 可以使用以下选项：
 
-   * **[!UICONTROL Everytime]**：当在中选择了事件时，始终显示消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 一次]**：仅在第一次在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+   * **[!UICONTROL Everytime]**：始终显示所选事件时的消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+   * **[!UICONTROL 一次]**：仅在中首次选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
    * **[!UICONTROL 点进之前]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
-   * **[!UICONTROL X次数]**：显示此消息X次。
+   * **[!UICONTROL X次数]**：此消息显示X次。
 
-1. 如有需要，选择所需的 **[!UICONTROL 星期几]** 或 **[!UICONTROL 一天中的时间]** 此时将显示应用程序内消息。
+1. 如果需要，请选择所需的 **[!UICONTROL 星期几]** 或 **[!UICONTROL 时间]** 此时将显示应用程序内消息。
 
-1. 营销活动设计为按特定日期或重复频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
+1. 营销活动旨在按特定日期或循环频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
@@ -121,13 +153,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## 操作说明视频{#video}
 
-以下视频介绍如何在营销活动中创建、配置和发布应用程序内消息。
+* 以下视频介绍了如何在营销活动中创建、配置和发布应用程序内消息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  +++观看视频
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
-以下视频介绍了如何为A/B测试应用程序内消息配置和分析内容实验。
+* 以下视频介绍了如何为A/B测试应用程序内消息配置和分析内容实验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  +++观看视频
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
+
 
 **相关主题：**
 

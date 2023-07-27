@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -108,6 +108,10 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    对于我们的试验，我们选择 **[!UICONTROL 电子邮件打开]** 测试收件人是否会打开其电子邮件（如果促销代码在主题行中）。
 
    ![](assets/content_experiment_11.png)
+
+1. 使用应用程序内或Web渠道设置试验并选择 **[!UICONTROL 入站点击次数]**， **[!UICONTROL 独特入站点击次数]** ， **[!UICONTROL 页面查看次数]** ，或 **[!UICONTROL 独特页面查看次数量度]** ， **[!UICONTROL 单击操作]**  利用下拉列表，可精确跟踪和监控特定页面上的点击次数和查看次数。
+
+   ![](assets/content_experiment_20.png)
 
 1. 单击 **[!UICONTROL 添加处理]** 创建所需数量的新治疗。
 

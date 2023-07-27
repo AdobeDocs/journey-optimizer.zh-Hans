@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 79%
+source-wordcount: '647'
+ht-degree: 72%
 
 ---
 
@@ -48,7 +48,7 @@ _高级表达式编辑器界面_
 
 您可以通过不同方式访问高级表达式编辑器：
 
-* 在创建数据源条件时，您可以通过单击 **[!UICONTROL 高级模式]**.
+* 在创建数据源条件时，可以通过单击访问高级编辑器 **[!UICONTROL 高级模式]**.
 
   ![](../assets/journeyuc2_33.png)
 
@@ -63,8 +63,8 @@ _高级表达式编辑器界面_
 
 屏幕左侧显示了可用字段和函数：
 
-* **[!UICONTROL 事件]**：选择从入站事件接收的字段之一。 显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../../event/about-events.md)
-* **[!UICONTROL 受众]**：如果您已放置 **[!UICONTROL 受众资格]** 事件，则选择要在表达式中使用的受众。 [了解详情](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 活动]**：选择从入站事件接收的字段之一。 显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../../event/about-events.md)
+* **[!UICONTROL 受众]**：如果您已放置 **[!UICONTROL 受众资格]** 事件，选择要在表达式中使用的受众。 [了解详情](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 数据源]**：从数据源的字段组提供的字段列表中进行选择。 [了解详情](../../datasource/about-data-sources.md)
 * **[!UICONTROL 历程属性]**：此部分重组与给定用户档案的历程相关的技术领域。 [了解详情](journey-properties.md)
 * **[!UICONTROL 函数]**：从允许执行复杂筛选的内置函数列表中进行选择。 函数按类别组织。[了解详情](functions.md)
@@ -81,7 +81,7 @@ _高级表达式编辑器界面_
 
 **使用高级表达式编辑器构建条件时需要参数**
 
-如果您从外部数据源选择字段，则需要调用参数（请参阅[此页面](../../datasource/external-data-sources.md)）。例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
+如果您从外部数据源中选择字段，则需要调用一个参数(请参阅 [此页面](../../datasource/external-data-sources.md))，右侧将显示一个新选项卡，允许您指定此参数。 参数值可以来自位于历程或Experience Platform数据源中的事件（而不是其他外部数据源）。 例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
 
 ![](../assets/journeyuc2_19.png)
 

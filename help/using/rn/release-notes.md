@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '3105'
-ht-degree: 85%
+source-wordcount: '3079'
+ht-degree: 86%
 
 ---
 
@@ -22,18 +22,9 @@ ht-degree: 85%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年7月早期发行说明 {#july-rn-2023}
-
-在发行日期之前，以下早期发行说明可能会发生更改，恕不另行通知。 链接、屏幕和更新文档在发布日期发布。
-
-
-**发行日期**： 7月26日至27日
+## 2023年7月发行说明 {#july-rn-2023}
 
 ### 新功能{#july-2023-features}
-
-此版本引入了下面列出的新功能。
-
-
 
 <table>
 <thead>
@@ -45,9 +36,9 @@ ht-degree: 85%
 <tr>
 <td>
 <p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众组合到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来定位客户。</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
-<p>受众构成与新的Adobe Experience Platform“受众”菜单完全集成，该菜单用作受众的集中门户。 您现在可以使用包含新仪表板（带有区段趋势和重叠）的浏览页面来查找新见解并探索用于折叠和标记的组织工具。 此体验中嵌入了用于标准化受众标签的管理控制以及用于管理激活工作流的受众生命周期管理功能。 凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform文档</a>.</p></p>
+<p>受众构成与新的Adobe Experience Platform“受众”菜单完全集成，该菜单用作受众的集中门户。 您现在可以使用包含新仪表板（带有区段趋势和重叠）的浏览页面来查找新见解，并探索用于折叠和标记的组织工具。 此体验中嵌入了用于标准化受众标签的管理控件以及用于管理激活工作流的受众生命周期管理功能。 有了这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。 有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform文档</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +55,8 @@ ht-degree: 85%
 <td>
 <p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
 <p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<img src="assets/do-not-localize/gif-dm.gif"/>
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
@@ -73,7 +65,7 @@ ht-degree: 85%
 <table>
 <thead>
 <tr>
-<th><strong>为Email Designer转换HTML内容</strong><br/></th>
+<th><strong>为电子邮件设计器转换HTML内容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -97,7 +89,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>除了营销活动和历程之外，您现在还可以将Adobe Experience Platform统一标记分配给登陆页面、内容模板、片段和订阅列表。 这使您能够轻松对它们进行分类，并改进所有列表中的搜索和导航。 </p>
+<p>除了营销活动和历程之外，您现在还可以将Adobe Experience Platform统一标记分配给登陆页面、内容模板、片段和订阅列表。 这使您能够轻松地对它们进行分类，并改进所有列表中的搜索和导航。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>有关更多信息，请参阅<a href="../start/search-filter-categorize.md#tags">详细文档</a>。</p>
 </td>
@@ -116,16 +108,15 @@ ht-degree: 85%
 <tr>
 <td>
 <p>您现在可以使用专用API创建和管理Adobe Journey Optimizer内容模板，从而提供与现有内容系统的无缝集成。</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
 ### 改进 {#july-2023-improvements}
 
-此版本附带了下面列出的改进。
+此版本具有下面列出的改进。
 
 <!--**Journeys**
 
@@ -135,26 +126,26 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **营销活动**
 
-现在，与营销活动相关的上下文事件可在个性化编辑器“上下文属性”菜单中使用。
+现在，可在个性化编辑器“上下文属性”菜单中使用与营销活动相关的上下文事件。
 
 
 **受众**
 
-历程或营销活动中的受众选择器已得到增强，新增了显示受众来源和更新频率的新列。 随着受众构成门户的发布，Adobe Experience Platform和Adobe Journey Optimizer更新了系统和文档中“受众”和“区段”的使用。
+在历程或营销策划中对受众选取器进行了增强，添加了显示受众来源和更新频率的新列。 随着受众构成门户的发布，Adobe Experience Platform和Adobe Journey Optimizer更新了系统和文档中“受众”和“区段”的使用。
 
 * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
 * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
 
-因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，“区段”将替换为“受众”，以反映这种创建和管理受众的新途径。
+因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，“区段”将替换为“受众”，以反映受众创建和管理的新路径。
 
 **API**
 
-已弃用用于为Adobe Journey Optimizer APIsauthentication生成访问令牌的JWT方法。 必须使用OAuth服务器到服务器身份验证方法创建所有新的集成。 Adobe还建议您将现有集成迁移到OAuth方法。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+已弃用用于为Adobe Journey Optimizer APIsauthentication生成访问令牌的JWT方法。 必须使用OAuth服务器到服务器身份验证方法创建所有新集成。 Adobe还建议您将现有集成迁移到OAuth方法。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **其他更改**
 
-现在，所有客户都可以在公共测试版中获取Journey Optimizer数据集导出到Cloud Storage Destinations的功能。 此功能允许您与云存储位置建立实时连接，以导出数据集的内容。 [了解详情](../data/export-datasets.md)
+现在，所有客户都可以在公共测试版中获取Journey Optimizer数据集导出到Cloud Storage目标的功能。 此功能允许您与云存储位置建立实时连接，以导出数据集的内容。 [了解详情](../data/export-datasets.md)
 
 
 

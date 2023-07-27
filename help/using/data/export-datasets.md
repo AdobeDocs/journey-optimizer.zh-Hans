@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 7%
+source-wordcount: '585'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->数据集导出功能当前为测试版，可供所有Adobe Journey Optimizer用户使用。 如果您尚未拥有访问权限，请与 Adobe 代表联系，获取目标的访问权限。
+>数据集导出功能当前为测试版，可供所有Adobe Journey Optimizer用户使用。
 
 Journey Optimizer允许您与云存储位置建立实时连接，以导出数据集的内容。
 
-通过定期导出数据，您可以确保对客户交互有完整和最新的记录，将此信息用于报告或分析目的，并保持对法律要求的遵守。
+通过定期导出数据，您可以确保对客户互动有完整和最新的记录，将此信息用于报告或分析目的，并保持对法律要求的遵守。
 
 ## 可用的云存储目标 {#destinations}
 
@@ -48,9 +48,9 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 在开始导出数据集之前，请检查以下先决条件：
 
-* 要导出数据集，您需要 **管理目标**， **查看目标**， **激活目标**、和 **管理和激活数据集目标** [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 阅读 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或与产品管理员联系以获取所需的权限。
+* 要导出数据集，您需要 **查看目标** 和 **管理和激活数据集目标** [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 阅读 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或与产品管理员联系以获取所需的权限。
 
-* 确保要导出的数据集不包含第二代数据。 此功能仅支持导出第一代数据，即中定义的原始数据 [Real-time Customer Data Platform产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 第一代数据包括通过Adobe Experience Platform源引入的数据集或使用Adobe解决方案(如Analytics Data Connector和Journey Optimizer日志/报告数据集)收集的数据集。
+* 确保要导出的数据集不包含第二代数据。 此功能仅支持导出第一代数据，即中定义的原始数据 [Real-time Customer Data Platform产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 第一代数据包括通过Adobe Experience Platform源引入的数据集或使用Analytics Data Connector和Journey Optimizer日志/报表数据集等Adobe解决方案收集的数据集。
 
 ## 导出数据集的主要步骤 {#main-steps}
 
@@ -60,23 +60,23 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 有关每个步骤的详细信息，请参阅Adobe Experience Platform文档： [将数据集导出到云存储目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
 
-1. **设置云存储目标**. 如果您尚未这样做，请从目标目录连接到云存储目标。 [了解如何创建新的目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **设置您的云存储目标**. 如果您尚未这样做，请从目标目录连接到云存储目标。 [了解如何创建新的目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
    <!--![](assets/dataset-export-setup.png)-->
 
-1. **选择云存储目标** 从中导出数据集。 在目标目录中，单击 **[!UICONTROL 导出数据集]** 按钮，并选择要使用的连接。
+1. **选择云存储目标** 要导出数据集的位置。 在目标目录中，单击 **[!UICONTROL 导出数据集]** 按钮，并选择要使用的连接。
 
    <!--![](assets/dataset-export-destination.png)-->
 
    >[!NOTE]
    >
-   >如果您正在将Adobe Journey Optimizer与实时客户档案结合使用，则目标卡片将显示“激活”按钮，允许您根据您启用的权限导出数据集并激活此目标的受众。
+   >如果您使用Adobe Journey Optimizer以及实时客户档案，目标卡片将显示“激活”按钮，根据您启用的权限，允许您导出数据集并激活此目标的受众。
 
-1. **选择数据集** 导出到选定目标的属性。
+1. **选择数据集** 要导出到所选目标的文件。
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **计划导出** 数据集的URL。 指定导出的开始时间和频率。
+1. **计划导出** 数据集的。 指定导出应何时开始以及开始频率。
 
    <!--![](assets/dataset-export-schedule.png)-->
 
@@ -84,4 +84,4 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
    <!--![](assets/dataset-export-review.png)-->
 
-导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证数据集导出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)

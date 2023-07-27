@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 26%
+source-wordcount: '1604'
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 ## 访问登陆页面 {#access-landing-pages}
 
-要访问登陆页面列表，请选择 **[!UICONTROL 历程管理]** > **[!UICONTROL 登陆页面]** 从左侧菜单中。
+要访问登陆页面列表，请选择 **[!UICONTROL 历程管理]** > **[!UICONTROL 登陆页面]** 从左侧菜单。
 
 ![](assets/lp_access-list.png)
 
@@ -38,15 +38,15 @@ ht-degree: 26%
 
 >[!CAUTION]
 >
->如果取消发布消息中引用的登陆页面，则指向登陆页面的链接将被断开，并显示错误页面。
+>如果取消发布消息中引用的登陆页面，则将断开指向登陆页面的链接，并显示错误页面。
 
-单击登陆页面旁边的三个圆点以选择所需的操作。
+单击登陆页面旁边的三个圆点，以选择所需的操作。
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->您无法删除 [已发布](#publish-landing-page) 登陆页面。 要删除它，您必须先取消发布它。
+>您无法删除 [已发布](#publish-landing-page) 登陆页面。 要删除它，必须先取消发布它。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -77,7 +77,7 @@ ht-degree: 26%
 
 1. 要将自定义或核心数据使用标签分配给登陆页面，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. 从中选择或创建Adobe Experience Platform标记 **[!UICONTROL 标记]** 用于对登陆页面进行分类以改进搜索的字段。 [了解详情](../start/search-filter-categorize.md#tags)
 
 1. 选择预设。 了解如何在中创建登陆页面预设 [本节](../landing-pages/lp-presets.md#lp-create-preset).
 
@@ -85,15 +85,15 @@ ht-degree: 26%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 将显示主页面及其属性。 了解如何配置主页面设置 [此处](#configure-primary-page).
+1. 此时将显示主页面及其属性。 了解如何配置主页面设置 [此处](#configure-primary-page).
 
    ![](assets/lp_primary-page.png)
 
-1. 单击+图标以添加子页面。 了解如何配置子页面设置 [此处](#configure-subpages).
+1. 单击+图标可添加子页面。 了解如何配置子页面设置 [此处](#configure-subpages).
 
    ![](assets/lp_add-subpage.png)
 
-配置和设计 [主页面](#configure-primary-page)，以及 [子页面](#configure-subpages) 如果有的话，您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
+配置和设计 [主页面](#configure-primary-page)，和 [子页面](#configure-subpages) 如果有，您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
 
 ## 配置主页面 {#configure-primary-page}
 
@@ -114,7 +114,7 @@ ht-degree: 26%
 
 要定义主页面设置，请执行以下步骤。
 
-1. 您可以更改页面名称，即 **[!UICONTROL 主页面]** 默认情况下。
+1. 您可以更改页面名称，它是 **[!UICONTROL 主页面]** 默认情况下。
 
 1. 使用内容设计器编辑页面的内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
@@ -136,13 +136,13 @@ ht-degree: 26%
 
    ![](assets/lp_prefill-form-fields.png)
 
-   启用此选项后，如果配置文件已选择加入/退出或已添加到订阅列表，则其选择将在显示登陆页面时反映出来。
+   启用此选项后，如果配置文件已选择加入/退出或已经添加到订阅列表，则显示登陆页面时会反映配置文件的选择。
 
    例如，如果某个用户档案已选择接收有关未来事件的通信，则下次向该用户档案显示登陆页面时，将会选中相应的复选框。
 
    ![](assets/lp_prefill-form-ex.png)
 
-1. 您可以为页面定义到期日期。 在这种情况下，您必须在页面到期时选择一个操作：
+1. 您可以为页面定义到期日期。 在这种情况下，您必须在页面到期时选择操作：
 
    * **[!UICONTROL 重定向URL]**：输入页面过期时用户将被重定向到的页面的URL。
    * **[!UICONTROL 自定义页面]**： [配置子页面](#configure-subpages) 并从显示的下拉列表中选择它。
@@ -154,11 +154,11 @@ ht-degree: 26%
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. 如果您在以下情况下选择了一个或多个订阅列表： [设计主页面](design-lp.md)，它们显示在 **[!UICONTROL 订阅列表]** 部分。
+1. 如果您在以下情况下选择了一个或多个订阅列表： [设计主页面](design-lp.md)，它们显示在中 **[!UICONTROL 订阅列表]** 部分。
 
    ![](assets/lp_subscription-list.png)
 
-1. 从登陆页面，您可以直接 [创建历程](../building-journeys/journey-gs.md#jo-build) 会在用户提交表单时向其发送确认消息。 在本课程结束时了解如何构建此类历程 [用例](lp-use-cases.md#subscription-to-a-service).
+1. 从登陆页面，您可以直接 [创建旅程](../building-journeys/journey-gs.md#jo-build) 会在用户提交表单时向其发送确认消息。 在本课程结束时了解如何构建此类历程 [用例](lp-use-cases.md#subscription-to-a-service).
 
    ![](assets/lp_create-journey.png)
 
@@ -183,13 +183,13 @@ ht-degree: 26%
 
 要定义子页面设置，请执行以下步骤。
 
-1. 您可以更改页面名称，即 **[!UICONTROL 子页面1]** 默认情况下。
+1. 您可以更改页面名称，它是 **[!UICONTROL 子页面1]** 默认情况下。
 
 1. 使用内容设计器编辑页面的内容。 了解如何定义登陆页面内容 [此处](design-lp.md).
 
    >[!NOTE]
    >
-   >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向出错且希望再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在中插入链接 [本节](../email/message-tracking.md#insert-links).
+   >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向发生错误并想要再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在中插入链接 [本节](../email/message-tracking.md#insert-links).
 
 1. 定义登陆页面 URL. URL的第一部分要求您之前设置登陆页面子域。 [了解详情](../landing-pages/lp-subdomains.md)
 
@@ -213,9 +213,9 @@ ht-degree: 26%
 >
 >要能够测试登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
 >
->您必须具有可用的测试用户档案，才能预览消息和发送校样。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
+>您必须具有可用的测试用户档案，才能预览消息并发送校样。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
-1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问测试用户档案选择。
+1. 在登陆页面界面中，单击 **[!UICONTROL 模拟内容]** 按钮以访问选择的测试用户档案。
 
    ![](assets/lp_simulate-button.png)
 
@@ -233,7 +233,7 @@ ht-degree: 26%
 
    ![](assets/lp_open-preview.png)
 
-1. 登陆页面的预览将在新选项卡中打开。 个性化的元素将由选定的测试用户档案数据替换。
+1. 登陆页面的预览将在新选项卡中打开。 个性化的元素将由选定的测试配置文件数据替换。
 
    <!--![](assets/lp_preview.png)-->
 
@@ -241,7 +241,7 @@ ht-degree: 26%
 
 ## 检查警报 {#check-alerts}
 
-创建登陆页面时，如果必须在发布之前执行重要操作，则会收到警报警告。
+在创建登陆页面时，如果必须在发布之前执行重要操作，则会收到警报。
 
 警报显示在屏幕的右上方，如下所示：
 
@@ -255,7 +255,7 @@ ht-degree: 26%
 
 * **警告** 请参阅建议和最佳实践。 <!--For example, a message will display if -->
 
-* **错误** 阻止您发布登陆页面，只要它们未解析。 例如，如果缺少主页面URL，您将收到警告。
+* **错误** 阻止发布登陆页面，前提是这些页面未解析。 例如，如果缺少主页面URL，您将收到警告。
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -284,7 +284,7 @@ ht-degree: 26%
 >
 >要发布登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
 
-准备登陆页面后，您可以发布该页面，使其可在消息中使用。
+准备登陆页面后，即可发布该页面，以供在消息中使用。
 
 ![](assets/lp_publish.png)
 
@@ -294,7 +294,7 @@ ht-degree: 26%
 
 发布登陆页面后，该页面将添加到登陆页面列表，其中包含 **[!UICONTROL 已发布]** 状态。
 
-它现已上线，并准备好用于 [!DNL Journey Optimizer] 将通过 [历程](../building-journeys/journey.md).
+它现在已上线并准备好用于 [!DNL Journey Optimizer] 将通过 [历程](../building-journeys/journey.md).
 
 >[!NOTE]
 >

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 应用程序内消息是可发送给应用程序内用户的通知，可将其引导至特定的目标点。这些通知可用于不同的用途，例如推广新功能、提供特殊优惠或帮助用户入门。利用应用程序内消息，您可以有效地与受众互动，并引导受众注意应用程序的重要方面。
 
 使用 Journey Optimizer 创建应用程序内通知，并配置体验选项，包括消息布局和显示、文本和按钮选项。
+
+>[!AVAILABILITY]
+>
+>目前，应用程序内渠道不适用于已购买AdobeHealthcare Shield附加产品的组织。
+>
 
 ## 先决条件{#prerequisites-in-app}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 22%
+source-wordcount: '471'
+ht-degree: 18%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 22%
 >title="等待活动"
 >abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
 
-如果您想在执行路径中的下一个活动之前等待，可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。可以使用以下选项：
+如果您希望在执行路径中的下一个活动之前等待，则可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。可以使用以下选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)
@@ -35,9 +35,13 @@ ht-degree: 22%
 
 ## 关于等待活动{#about_wait}
 
-最长等待时间为30天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 参见 [此页面](../building-journeys/testing-the-journey.md)
+最长等待时间为30天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)。
 
-当在历程中使用多个等待活动时，请务必谨慎，因为全局历程超时为30天，这意味着用户档案在进入历程后始终退出历程的最长30天。
+当在历程中使用多个等待活动时，请务必谨慎，因为全局历程超时为30天，这意味着用户档案在进入历程后，将始终退出历程的最长30天。 请参阅[此页](../building-journeys/journey-gs.md#global_timeout)。
+
+仅当个人在历程中剩余的时间足以在30天历程超时前完成等待持续时间时，他或她才能进入等待活动。 例如，如果添加两个分别设置为20天的等待活动，则系统将检测到第二个等待将在30天超时后结束。 因此，第二次等待将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
+
+最佳做法是不使用等待来阻止重新进入。 请改用 **允许重新进入** 历程属性级别的选项。 请参阅[此页](../building-journeys/journey-gs.md#entrance)。
 
 ## 持续时间等待{#duration}
 
@@ -56,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## 自定义等待{#custom}
 
-利用此选项，您可以使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅此 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
+此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅此 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
 
 >[!NOTE]
 >
 >您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->此 **时区** 应在历程的属性中找到。 因此，目前无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
+>此 **时区** 应在历程的属性中找到。 因此，目前不可能从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 
@@ -88,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+请你围绕它草稿好吗？

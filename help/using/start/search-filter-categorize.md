@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ ht-degree: 100%
 
 使用 Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hans)，您可以轻松地对 Journey Optimizer 历程和营销活动进行分类，以改进列表中的搜索。
 
->[!AVAILABILITY]
->
->统一标记目前为 Beta 版。文档和功能可能会发生变化。
-
 ### 向对象添加标记
 
-使用&#x200B;**标记**&#x200B;字段（在[历程](../building-journeys/journey-gs.md#change-properties)或[营销活动](../campaigns/create-campaign.md#create)）属性中，您可以为对象定义标记。您可以选择现有标记，也可以创建新标记。
+此 **[!UICONTROL 标记]** 字段允许您定义对象的标记。 标记可用于以下对象：
 
-开始键入所需标记的名称，然后从列表中选择该名称。如果不可用，请单击&#x200B;**创建**&#x200B;以创建并添加。您可以根据需要定义任意数量的标记。
+* [历程](../building-journeys/journey-gs.md#change-properties)
+* [营销活动](../campaigns/create-campaign.md#create)
+* [模板](../email/content-templates.md)
+* [片段](../email/fragments.md)
+* [订阅列表](../landing-pages/subscription-list.md)
+* [登陆页面](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+您可以选择现有标记，也可以创建新标记。要实现此目的，请执行以下步骤。
 
-定义的标记列表显示在&#x200B;**标记**&#x200B;字段的下方。
+1. 开始键入所需标记的名称，并/或从列表中选择该标记。
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > 标记不区分大小写。
+
+1. 如果您要搜索的标记不可用，请单击 **[!UICONTROL 创建“”]** 定义新对象 — 它会自动添加到当前对象中，并可用于所有其他对象。
+
+   ![](assets/tags4.png)
+
+1. 所选或创建的标记列表显示在下面 **[!UICONTROL 标记]** 字段。 您可以根据需要定义任意数量的标记。
 
 >[!NOTE]
->
-> 标记区分大小写
 > 
-> 您复制或创建历程或营销活动的新版本时，会保留标记。
+> 如果复制或创建对象的新版本，则将保留标记。
 
 ### 标记筛选
 
-历程和营销活动列表会显示专门的一列，以便您能够轻松地显示标记。
+每个对象列表都显示一个专用列，以便您轻松实现标记的可视化。
 
-此外，筛选器仅可用于显示具有特定标记的历程或营销活动。
+过滤器也仅可用于显示具有特定标记的对象。
 
 ![](assets/tags2.png)
 
-您可以在任何类型的历程或营销活动（实时、草稿等）中添加或移除标记。为此，请单击对象旁边的&#x200B;**更多操作**&#x200B;图标，然后选择&#x200B;**编辑标记**。
+您可以在任何类型的历程或营销活动（实时、草稿等）中添加或移除标记。为此，请单击对象旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标，然后选择&#x200B;**[!UICONTROL 编辑标记]**。
 
 ![](assets/tags3.png)
 
 ### 管理标记
 
-管理员可以删除标记，并使用&#x200B;**管理**&#x200B;下的&#x200B;**标记**&#x200B;菜单按类别进行组织。在[统一标记文档](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hans)中了解标记管理的更多信息。
+管理员可以删除标记，并使用&#x200B;**[!UICONTROL 管理]**&#x200B;下的&#x200B;**[!UICONTROL 标记]**&#x200B;菜单按类别进行组织。在[统一标记文档](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hans)中了解标记管理的更多信息。
 
 >[!NOTE]
 >
