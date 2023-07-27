@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
 workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 86%
@@ -72,7 +72,7 @@ ht-degree: 86%
 <tr>
 <td>
 <p>您现在可以在Journey Optimizer的电子邮件编辑器中导入和转换任何HTML内容。 内容块是自动标识的，并且可在Email Designer中使用：利用其强大的设计功能对其进行更新和个性化！</p>
-<img src="../email/assets/html-imported_2.png">
+<img src="assets/html-convert.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
