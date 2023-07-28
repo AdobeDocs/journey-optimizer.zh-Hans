@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 33%
+source-wordcount: '881'
+ht-degree: 31%
 
 ---
 
 # 直邮配置 {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-本文档包括以下内容：
-
-* [创建直邮](create-direct-mail.md)
-* **[配置直邮](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 允许您个性化并生成直邮提供商向客户发送邮件所需的文件。
 
@@ -34,7 +22,7 @@ ht-degree: 33%
 
 在生成此文件之前，您需要创建：
 
-1. A [文件路由配置](#file-routing-configuration) 以指定要导出文件的服务器。
+1. A [文件路由配置](#file-routing-configuration) 指定要导出文件的服务器。
 
 1. A [直邮表面](#direct-mail-surface) 将引用文件路由配置。
 
@@ -74,41 +62,41 @@ ht-degree: 33%
 
 要发送直邮消息， [!DNL Journey Optimizer] 生成包含目标受众数据的文件并将其导出到服务器。
 
-您需要指定服务器详细信息，以便直邮提供商能够访问并使用该文件来传递邮件。
+您需要指定服务器详细信息，以便直邮提供商能够访问并使用该文件传递邮件。
 
 要配置文件路由，请执行以下步骤。
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
-1. 为配置设置名称。
+1. 为您的配置设置一个名称。
 
 1. 选择 **[!UICONTROL 服务器类型]** 要用于导出直邮文件的文件。
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
-   >当前支持Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+   >目前，支持Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
 
 1. 填写服务器的详细信息和凭据，如服务器地址、访问密钥等。
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. 如果您已选择 **[!UICONTROL Amazon S3]**，选择 **[!UICONTROL AWS地区]** 服务器基础架构所在的位置。
+1. 如果您选择 **[!UICONTROL Amazon S3]**，选择 **[!UICONTROL AWS地区]** 服务器基础架构所在的位置。
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
-   >AWS区域是AWS用来托管其云基础架构的地理区域。 一般情况下，最好选择距离直邮提供商所在位置最近的区域。
+   >AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
 
 1. 选择&#x200B;**[!UICONTROL 提交]**。文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件布线配置，但在曲面中选取该文件布线配置之前，不能选取它 **[!UICONTROL 活动]**.
+   >您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件布线配置，但在曲面中选取它之前，您将无法选取它 **[!UICONTROL 活动]**.
 
 ## 创建直邮表面 {#direct-mail-surface}
 
@@ -129,19 +117,19 @@ ht-degree: 33%
 >title="定义文件拆分阈值"
 >abstract="您必须为包含受众数据的每个文件设置最大记录数。您可以选择 1 到 200,000 之间的任意记录数。达到指定阈值后，将创建另一个文件用于其余的记录。"
 
-能够发送直邮 [!DNL Journey Optimizer]，您需要创建一个渠道界面来定义邮件提供商将使用的文件格式设置。
+能够发送直邮 [!DNL Journey Optimizer]，则需要创建渠道表面来定义邮件提供商使用的文件格式设置。
 
-直邮表面还必须包含文件路由配置，该配置定义了将导出直邮文件的服务器。
+直邮表面还必须包括文件路由配置，该配置定义了将导出直邮文件的服务器。
 
 1. 创建渠道表面。 [了解详情](../configuration/channel-surfaces.md)
 
 1. 选择 **[!UICONTROL 直邮]** 渠道。
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. 在渠道平面配置的专用部分中定义直邮设置。
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -151,25 +139,25 @@ ht-degree: 33%
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. 选择 **[!UICONTROL 文件路由配置]** 包含于您创建的内容中。 这定义文件将导出到何处以供直邮提供商使用。
+1. 选择 **[!UICONTROL 文件路由配置]** 在您创建的那些报表中。 这会定义文件的导出位置，以供直邮提供商使用。
 
    >[!CAUTION]
    >
    >如果尚未配置任何文件路由选项，您将无法创建直邮表面。 [了解详情](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
 1. 提交直邮表面。
 
-您现在可以 [创建直邮消息](../direct-mail/create-direct-mail.md) 在营销策划中。 营销活动启动后，包含目标受众数据的文件将自动导出到您定义的服务器。 然后，直邮提供商将能够检索该文件并继续直邮投放。
+您现在可以 [创建直邮消息](../direct-mail/create-direct-mail.md) 在营销活动中。 营销活动开始后，包含目标受众数据的文件将自动导出到您定义的服务器。 然后，直邮提供商将能够检索该文件并继续直邮投放。
 
 >[!NOTE]
 >
 >将自动删除重复行。
 >
->如果包含配置文件数据的每个文件的最大记录数（即行数）过高，则会自动为其余记录创建另一个文件。
+>如果每个包含配置文件数据的文件的最大记录数（即行数）过高，系统会自动为剩余记录创建另一个文件。
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

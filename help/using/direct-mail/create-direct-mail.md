@@ -5,15 +5,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 直邮、邮件、营销活动
-hide: true
-hidefromtoc: true
+keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 11%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -24,69 +21,58 @@ ht-degree: 11%
 >title="直邮创建"
 >abstract="在计划的营销活动中创建直邮，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
 
->[!BEGINSHADEBOX]
+## 创建直邮营销活动{#create-dm-campaign}
 
-本文档包括以下内容：
+1. 创建新的计划活动，然后选择 **[!UICONTROL 直邮]** 作为操作。
 
-* **[创建直邮](create-direct-mail.md)**
-* [配置直邮](direct-mail-configuration.md)
+1. 选择 **[!UICONTROL 直邮表面]** ，然后单击 **[!UICONTROL 创建]**. [了解如何创建直邮表面](direct-mail-configuration.md#direct-mail-surface).
 
->[!ENDSHADEBOX]
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
->[!AVAILABILITY]
->
->直邮目前是私人测试版，可能会频繁更新，恕不另行通知。
+1. 在 **[!UICONTROL 属性]** 部分，编辑您的营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
 
-直邮是一种离线渠道，允许您对直邮提供商向客户发送邮件所需的提取文件进行个性化和生成。
+1. 要定义目标受众，请单击 **[!UICONTROL 选择受众]** 按钮进行选择，然后从可用的Adobe Experience Platform受众中进行选择。 [了解详情](../audience/about-audiences.md)。
 
-在创建直邮时，Journey Optimizer会生成一个文件，其中包含所有定向的用户档案和所选数据（例如邮政地址、用户档案属性）。 然后，您的直邮提供商将能够检索该文件，并负责实际发送。
+   >[!IMPORTANT]
+   >
+   >目前，受众选择限制为300万个配置文件。 根据向Adobe代表提出的请求，可取消此限制。
 
-直邮消息只能在计划的营销活动的上下文中创建。 它们不可用于API触发的营销活动或历程。
+1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择相应的命名空间以标识所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
->[!IMPORTANT]
->
->在发送直邮消息之前，请确保已配置：
->
->1. A [文件路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 指定应将提取文件上传和存储到的服务器，
->1. A [直邮消息表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 将引用文件路由配置。
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
+1. 营销活动可以计划为特定日期，也可以设置为定期重复。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
 
-## 创建直邮消息 {#create}
+您现在可以开始配置要发送给直邮提供商的提取文件。
 
-创建和发送直邮消息的步骤如下：
+## 配置提取文件 {#extraction-file}
 
-1. 创建新的计划活动，选择 **[!UICONTROL 直邮]** 作为您的操作，然后选择要使用的渠道界面。 [了解如何创建直邮表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. 在Campaign配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置提取文件内容。
 
-   ![](assets/direct-mail-campaign.png)
+1. 调整提取文件属性：
 
-1. 单击 **[!UICONTROL 创建]** 然后定义有关促销活动的基本信息（名称、描述）。 [了解如何配置营销活动](../campaigns/create-campaign.md)
+   1. 指定所需的 **[!UICONTROL 文件名]** 提取文件。
 
-1. 单击 **[!UICONTROL 编辑内容]** 按钮以配置要发送到直邮提供商的提取文件。
+   1. （可选）启用 **[!UICONTROL 附加时间戳以导出文件名]** 选项。
 
-1. 在中定义提取文件的名称 **[!UICONTROL 文件名]** 字段。
+   1. 有时您可能需要在提取文件的开头或结尾添加信息。要执行此操作，请使用 **[!UICONTROL 注释]** 字段，然后指定是否要以页眉或页脚形式包含注释。
 
-   有时您可能需要在提取文件的开头或结尾添加信息。要执行此操作，请使用 **[!UICONTROL 注释]** 字段，然后指定是否要包含注释作为页眉或页脚。
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+1. 配置要在提取文件中显示的列和信息：
 
-   ![](assets/direct-mail-properties.png)
+   1. 单击 **[!UICONTROL 添加]** 按钮以创建新列。
 
-1. 使用左侧区域定义要作为列显示在提取文件中的信息：
+   1. 此 **[!UICONTROL 格式化]** 窗格显示在右侧，允许您设置选定的列。 指定 **[!UICONTROL 标签]** 用于列。
 
-   1. 单击 **[!UICONTROL 添加]** 按钮以添加新列，然后从列表中选择该列。
+   1. 在 **[!UICONTROL 数据]** 字段中，选择要显示的配置文件属性， [表达式编辑器](../personalization/personalization-build-expressions.md).
 
-   1. 在 **[!UICONTROL 格式化]** 部分，为列指定标签，然后使用定义要显示的配置文件属性 [表达式编辑器](../personalization/personalization-build-expressions.md).
+   1. 要使用列对提取文件排序，请选择该列并打开 **[!UICONTROL 排序方式]** 选项。 此 **[!UICONTROL 排序方式]** 图标显示在中的列标签旁边 **[!UICONTROL 数据字段]** 部分。
 
-      ![](assets/direct-mail-content.png)
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
-   1. 要使用选定的列对提取文件排序，请切换 **[!UICONTROL 排序方式]** 选项启用。 此 **[!UICONTROL 排序方式]** 图标随后将显示在文件结构中列的标签旁边。
+   1. 重复这些步骤以根据需要为提取文件添加任意数量的列。 请注意，最多可添加50列。
 
-1. 重复这些步骤，根据需要添加任意数量的列来构建提取文件。 请注意，您最多可以添加50列。
+      要更改列的位置，请将其拖放到中所需的位置 **[!UICONTROL 数据字段]** 部分。 要删除列，请选择该列并单击 **[!UICONTROL 移除]** 中的按钮 **[!UICONTROL 格式化]** 窗格。
 
-   您可以随时删除列，方法是选择列并单击 **[!UICONTROL 移除]** 按钮来自 **[!UICONTROL 格式化]** 部分。
-
-   ![](assets/direct-mail-complete.png)
-
-1. 定义直邮内容后，完成营销活动的配置。
-
-   当营销活动开始时，将自动生成提取文件并将其导出到中指定的服务器。 [文件路由配置](../direct-mail/direct-mail-configuration.md).
+您现在可以测试直邮消息并将其发送给受众。 [了解如何测试和发送直邮消息](test-send-direct-mail.md)
