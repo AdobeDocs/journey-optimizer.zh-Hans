@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 6%
@@ -207,6 +207,8 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## 直邮选项卡 {#direct-mail-tab}
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 直邮]** 选项卡详细列出了与直邮投放相关的主要信息。
+
+![](assets/direct-mail-report_2.png)
 
 +++了解有关直邮报表可用的不同量度和小组件的更多信息。
 
