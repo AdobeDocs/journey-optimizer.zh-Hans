@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1383'
 ht-degree: 12%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 12%
    >
    >如果受众的不同身份中没有选定的身份（命名空间），则属于该受众的个人无法进入历程。 您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则它将在 **命名空间** 下拉列表。
 
-1. 设置 **[!UICONTROL 节流率]**. 这是每秒可以进入读取受众的配置文件的最大数量。 此费率仅适用于此活动。 它不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参阅此 [页面](../configuration/throttling.md).
+1. 设置 **[!UICONTROL 节流率]**. 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参阅此 [页面](../configuration/throttling.md).
 
    此值存储在历程版本有效负载中。 默认值为每秒5,000个配置文件。 您可以将此值从每秒500个配置文件修改为20,000个配置文件。
 
