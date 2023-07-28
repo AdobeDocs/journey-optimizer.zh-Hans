@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ ht-degree: 0%
 
 直邮消息只能在计划的营销活动的上下文中创建。 它们不可用于API触发的营销活动或历程。
 
->[!IMPORTANT]
->
->在发送直邮消息之前，请确保已配置：
->
->1. A [文件路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 指定提取文件应上载和存储的服务器，
->1. A [直邮消息表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 将引用文件路由配置。
+

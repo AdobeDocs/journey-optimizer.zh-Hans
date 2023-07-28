@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 10%
+source-wordcount: '560'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 10%
 >title="直邮创建"
 >abstract="在计划的营销活动中创建直邮，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
 
+要创建直邮消息，请创建计划的营销活动，并配置提取文件。 直邮提供商需要此文件向客户发送邮件。
+
+>[!IMPORTANT]
+>
+>在创建直邮消息之前，请确保已配置：
+>
+>1. A [文件路由配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration) 指定提取文件应上载和存储的服务器，
+>1. A [直邮消息表面](../direct-mail/direct-mail-configuration.md#direct-mail-surface) 将引用文件路由配置。
+
+
 ## 创建直邮营销活动{#create-dm-campaign}
+
+要创建直邮营销活动，请执行以下步骤：
 
 1. 创建新的计划活动，然后选择 **[!UICONTROL 直邮]** 作为操作。
 
@@ -46,6 +58,8 @@ ht-degree: 10%
 您现在可以开始配置要发送给直邮提供商的提取文件。
 
 ## 配置提取文件 {#extraction-file}
+
+直邮提供商需要使用提取文件向客户发送邮件。 要定义提取文件配置，请执行以下步骤：
 
 1. 在Campaign配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置提取文件内容。
 
