@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
+source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
 workflow-type: tm+mt
-source-wordcount: '3079'
-ht-degree: 86%
+source-wordcount: '3193'
+ht-degree: 84%
 
 ---
 
@@ -44,23 +44,23 @@ ht-degree: 86%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Direct mail channel</strong><br/></th>
+<th><strong>直邮渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<p>您现在可以在营销策划中添加直邮消息。 直邮是一种离线渠道，允许您个性化并生成直邮提供商向客户发送邮件所需的文件。</p>
+<p>在准备直邮投放时，Journey Optimizer会生成一个文件，其中包含所有定向的用户档案和选定的联系信息（例如邮政地址）。 然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。</p>
+<p>目前，直邮渠道不适用于已购买AdobeHealthcare Shield附加产品的组织。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
+<p>有关更多信息，请参阅<a href="../direct-mail/create-direct-mail.md">详细文档</a>。</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
