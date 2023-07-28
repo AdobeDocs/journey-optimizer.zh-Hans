@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# 创建直邮消息 {#create-direct}
+# 直邮入门 {#create-direct}
 
 >[!AVAILABILITY]
 >
 >目前，直邮渠道不适用于已购买AdobeHealthcare Shield附加产品的组织。
+>
 
 直邮是一种离线渠道，允许您个性化并生成直邮提供商向客户发送邮件所需的提取文件。
 
