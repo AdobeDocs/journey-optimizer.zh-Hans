@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您是仅Real-time Customer Profile客户并且没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans).
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您仅是 Real-time Customer Profile 客户并且没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans)。
 
 >[!ENDSHADEBOX]
 
