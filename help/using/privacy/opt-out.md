@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 您的客户还可以选择不展示个性化内容。用户选择退出个性化后，您需要确保其数据不被用于个性化，并且必须使用后备版本替换任何个性化内容。
 
-### 在决策管理中
+### 在决策管理中 {#opt-out-decision-management}
 
 使用优惠时，个性化首选项不会自动实施[决策范围](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)（在[决策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 请求或 [Edge 决策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 请求中所使用的）。在这种情况下，您需要手动强制执行个性化同意。要实现此目的，请执行以下步骤。
 
@@ -93,9 +93,7 @@ ht-degree: 100%
 >
 >针对在[数据建模](../offers/ranking/ai-models.md)中使用个人资料数据的同意功能在 [!DNL Journey Optimizer] 中尚不支持。
 
-## 在表达式编辑器中
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## 在表达式编辑器中 {#opt-out-expression-editor}
 
 [表达式编辑器](../personalization/personalization-build-expressions.md)本身不会执行任何同意检查或进行强制执行，因为表达式编辑器不涉及消息投放操作。
 
@@ -104,7 +102,6 @@ ht-degree: 100%
 >[!NOTE]
 >
 >要了解有关对象级访问控制 (OLAC) 的更多信息，请访问[此部分](../administration/object-based-access.md)。
-
 
 在 [!DNL Journey Optimizer] 营销活动中，同意政策的实施如下所示：
 

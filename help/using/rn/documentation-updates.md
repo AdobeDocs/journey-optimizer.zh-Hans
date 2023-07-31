@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
-source-wordcount: '3001'
-ht-degree: 97%
+source-wordcount: '3061'
+ht-degree: 96%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 97%
 
 ## 2023 年 7 月 {#july-2023}
 
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年7月版。 [了解详情](release-notes.md)
 * 等待活动文档页面已得到改进，其中包含与全局超时和重入使用相关的其他信息和最佳实践。 [了解详情](../building-journeys/wait-activity.md)
 * 条目管理页面已得到改进。 [了解详情](../building-journeys/entry-management.md)
-* 在读取受众活动文档中添加了有关限制率的更多信息。 [了解详情](../building-journeys/read-audience.md)
+* 在读取受众活动文档中添加了有关限制率的其他信息。 [了解详情](../building-journeys/read-audience.md)
+* 此 **实施个性化同意** 更新了描述如何在营销活动中手动强制执行个性化同意的章节：可使用区段规则生成器创建包含选择退出用户档案的受众，或将拆分活动添加到构成工作流。 [了解详情](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023 年 6 月 {#june-2023}
 
@@ -188,7 +190,7 @@ ht-degree: 97%
 
 * 文档中详细介绍了[!DNL Journey Optimizer] 2022 年 1 月版本的所有新增功能和改进。[了解更多信息](release-notes.md)
 * 更新了 **Offer Decisioning AI 排名**&#x200B;章节，更详细地说明了自动优化模型。[了解详情](../offers/ranking/auto-optimization-model.md)
-* 添加了有关在使用AI模型时为了能够发送事件类型而需要满足的架构要求的新部分。 [了解详情](../offers/data-collection/schema-requirement.md)
+* 添加了新部分，其中说明了在使用 AI 模型时为了能够发送事件类型而需要遵循的架构要求。[了解详情](../offers/data-collection/schema-requirement.md)
 * 已重新组织与 [!DNL Journey Optimizer] 个性化功能相关的部分，以提高可读性。[了解更多信息](../personalization/personalize.md)
 * 为了使内容更清晰易懂，将&#x200B;**创建消息预设**&#x200B;章节分为了多个部分。[了解更多信息](../configuration/channel-surfaces.md#create-channel-surface)
 * 对&#x200B;**选择退出管理**&#x200B;章节进行了修订和简单重组。[了解更多信息](../privacy/opt-out.md#opt-out-management)
