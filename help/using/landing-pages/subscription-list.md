@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，列表，订阅，服务
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%
@@ -58,11 +58,11 @@ ht-degree: 12%
    >
    >当前不能使用空格或输入中其他订阅列表已存在的名称 **[!UICONTROL 标题]** 字段。
 
-1. 从中选择或创建Adobe Experience Platform标记 **[!UICONTROL 标记]** 用于对登陆页面进行分类以改进搜索的字段。 [了解详情](../start/search-filter-categorize.md#tags)
-
 1. 您可以定义开始日期和结束日期。
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. 从中选择或创建Adobe Experience Platform标记 **[!UICONTROL 标记]** 用于对登陆页面进行分类以改进搜索的字段。 [了解详情](../start/search-filter-categorize.md#tags)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
