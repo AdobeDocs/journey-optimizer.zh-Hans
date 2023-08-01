@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -92,12 +92,12 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"
 >title="维度"
->abstract="选择要跟踪试验的特定维度，如特定页面的特定点击或查看。"
+>abstract="选择要跟踪试验的特定维度，例如特定点击次数或特定页面的浏览次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度用于跟踪和评估试验中表现最佳的处理。 在使用某些量度之前，请务必先为其设置数据集。"
+>abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。在使用数据集之前，请务必针对某些量度设置数据集。"
 
 1. 当投放个性化时，从Campaign摘要页面，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。
 
