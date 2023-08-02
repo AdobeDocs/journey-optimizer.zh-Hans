@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 30%
+source-wordcount: '607'
+ht-degree: 28%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 30%
 
 上限API可帮助您创建、配置和监控上限配置。
 
-本节提供了有关如何使用API的全球信息。 有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/).
+本节提供有关如何使用API的全球信息。 有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/).
 
-## 上限API描述
+## API说明上限
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
@@ -31,10 +31,10 @@ ht-degree: 30%
 | [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 检查是否可以部署端点上限配置 |
 | [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端点上限配置 |
 | [!DNL GET] | /endpointConfigs/`{uid}` | 检索端点上限配置 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除端点上限配置 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除端点封顶配置 |
 
-创建或更新配置时，将自动执行检查以确保有效负载的语法和完整性。
-如果出现一些问题，该操作将返回警告或错误，以帮助您更正配置。
+创建或更新配置时，将自动执行检查以确保语法和有效负载的完整性。
+如果发生某些问题，该操作将返回警告或错误，以帮助您更正配置。
 
 ## 端点配置
 
@@ -46,7 +46,7 @@ ht-degree: 30%
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -56,6 +56,12 @@ ht-degree: 30%
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>此 **maxHttpConnections** 参数是可选的。 它允许您限制Journey Optimizer将打开到外部系统的连接数。
+>
+>可以设置的最大值为400。 如果未指定任何内容，则系统可能会打开数千个连接，具体取决于系统的动态缩放情况。
 
 ### 示例：
 
@@ -67,9 +73,9 @@ ht-degree: 30%
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
@@ -80,7 +86,7 @@ ht-degree: 30%
 
 ## 警告和错误
 
-当 **canDeploy** 方法时，该过程将验证配置并返回由其唯一ID标识的验证状态，即：
+当 **canDeploy** 方法调用时，该过程将验证配置并返回由其唯一ID标识的验证状态，即：
 
 ```
 "ok" or "error"
@@ -88,20 +94,20 @@ ht-degree: 30%
 
 潜在的错误包括：
 
-* **ERR_ENDPOINTCONFIG_100**：上限配置：缺失或无效的url
+* **ERR_ENDPOINTCONFIG_100**：上限配置：缺少url或无效的url
 * **ERR_ENDPOINTCONFIG_101**：上限配置：格式错误的url
-* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：host：port中不允许使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url： host：port中不允许使用url中的wildchar
 * **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用评级
 * **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**：上限配置：无效的最大调用计数(periodInMs)
+* **ERR_ENDPOINTCONFIG_108**：上限配置：调用数上限无效(periodInMs)
 * **ERR_ENDPOINTCONFIG_111**：上限配置：无法创建终结点配置：有效负载无效
 * **ERR_ENDPOINTCONFIG_112**：上限配置：无法创建终结点配置：应为JSON有效负载
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**：服务名称无效 `<!--<given value>-->`：必须为“dataSource”或“action”
 
 潜在的警告是：
 
-**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接：默认情况下无限制
+**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接数：默认情况下无限制
 
 ## 用例
 
