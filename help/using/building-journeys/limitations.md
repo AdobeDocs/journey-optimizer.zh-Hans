@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
+source-git-commit: 64abe386cd0d7b7e849fb6f6cdc70c00b4365feb
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -30,21 +30,23 @@ ht-degree: 48%
 ## 历程版本限制 {#journey-versions-limitations}
 
 * v1 中以事件活动开始的历程，在后续版本中无法以事件之外的其他内容开始。历程不能以 **受众资格** 事件。
-* 以“ ”开始的历程 **受众资格** v1中的活动必须始终以 **受众资格** 在后续版本中。
-* 在中选择的受众和命名空间 **受众资格** （第一个节点）不能在新版本中更改。
+* 以开始的历程 **受众资格** v1中的活动必须始终以 **受众资格** 在后续版本中。
+* 在中选择的受众和命名空间 **受众资格** （第一个节点）无法在新版本中更改。
 * 在所有历程版本中，重新进入规则必须相同。
-* 以开始的历程 **读取受众** 在后续版本中无法以其他事件开头。
- 
+* 从&#x200B;**读取受众**&#x200B;开始的历程，在后续版本中无法从其他事件开始。
+
 ## 自定义操作限制 {#custom-actions-limitations}
 
 * 自定义操作 URL 不支持动态参数。 
 * 仅支持 POST 和 PUT 调用方法. 
 * 查询参数或标头的名称不得以“.”或“$”开始。 
 * 不允许使用 IP 地址. 
-* 不允许使用内部 Adobe 地址 (.adobe.)。 
-## 事件限制 {#events-limitations}
+* 不允许使用内部 Adobe 地址 (.adobe.)。
 
-* 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。 
+## 事件 限制 {#events-limitations}
+
+* 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
+
 ## 数据源限制 {#data-sources-limitations}
 
 * 可在客户历程中利用外部数据源实时查找外部数据。 这些源必须可通过REST API使用，支持JSON，并能够处理大量请求。
@@ -63,4 +65,4 @@ ht-degree: 48%
 
 ## 读取受众限制 {#read-audiences-limitations}
 
-* 流式处理受众始终是最新的，但在检索时不会计算批量受众。 它们每天仅在每日批量评估时间中进行评估。
+* 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
