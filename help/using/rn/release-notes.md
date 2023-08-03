@@ -5,9 +5,9 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年7月发行说明 {#july-rn-2023}
+## 2023 年 7 月发行说明 {#july-rn-2023}
 
 ### 新功能{#july-2023-features}
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 <td>
 <p>您现在可以在营销活动中添加直邮消息。直邮是一种离线渠道，允许您生成直邮服务提供商向客户发送邮件所需的文件并进行个性化。</p>
 <p>在准备直邮投放时，Journey Optimizer 会生成一个文件，其中包含了所有定向的用户档案和选定的联系信息（例如邮政地址）。然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。</p>
-<p>目前，直邮渠道不适用于已购买AdobeHealthcare Shield附加产品的组织。</p>
+<p>目前，直邮渠道不适用于已购买 Adobe Healthcare Shield 附加产品的组织。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>有关更多信息，请参阅<a href="../direct-mail/get-started-direct-mail.md">详细文档</a>。</p>
 </tr>
@@ -136,16 +136,16 @@ A new type of system alert has been introduced. You can now get notified when a 
 * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
 * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
 
-因此，在Adobe Journey Optimizer和Adobe Experience Platform UI中，“区段”将替换为“受众”，以反映受众创建和管理的新路径。
+因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
 **API**
 
-已弃用用于为Adobe Journey Optimizer APIsauthentication生成访问令牌的JWT方法。 必须使用 OAuth 服务器到服务器身份验证方法创建所有新集成。Adobe 还建议您将现有集成迁移到 OAuth 方法。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
+已弃用为 Adobe Journey Optimizer API 身份验证生成访问令牌的 JWT 方法。必须使用 OAuth 服务器到服务器身份验证方法创建所有新集成。Adobe 还建议您将现有集成迁移到 OAuth 方法。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
 
 
 **其他更改**
 
-现在，所有客户都可以在公共测试版中获取Journey Optimizer数据集导出到Cloud Storage目标的功能。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。[了解详情](../data/export-datasets.md)
+现在作为公开 Beta 功能，所有客户都可以将 Journey Optimizer 数据集导出到云存储目标。通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。[了解详情](../data/export-datasets.md)
 
 
 
