@@ -6,9 +6,9 @@ description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,8 @@ ht-degree: 97%
 **Journeys**
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。—>
+* 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
+-->
 
 **营销活动**
 
@@ -146,7 +147,7 @@ Adobe Journey Optimizer API 身份验证 - 已弃用用于生成访问令牌的 
 
 **其他更改**
 
-现在，所有客户都可以在公共测试版中获取Journey Optimizer数据集导出到Cloud Storage目标的功能。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。[了解详情](../data/export-datasets.md)
+现在作为公开 Beta 功能，所有客户都可以将 Journey Optimizer 数据集导出到云存储目标。通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。[了解详情](../data/export-datasets.md)
 
 
 
