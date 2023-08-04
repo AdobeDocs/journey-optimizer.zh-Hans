@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
-workflow-type: ht
-source-wordcount: '1399'
+source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+workflow-type: tm+mt
+source-wordcount: '1401'
 ht-degree: 100%
 
 ---
@@ -471,6 +471,7 @@ ht-degree: 100%
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
+         + [关于操作](using/action/action-response.md)
    + [源](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
    + 访问控制概述 {#privacy}
