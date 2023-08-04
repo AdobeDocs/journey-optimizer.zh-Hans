@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 9%
+source-wordcount: '497'
+ht-degree: 4%
 
 ---
 
 # 自定义操作增强功能
 
-您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
+您现在可以在自定义操作中利用API调用响应，并根据这些响应编排历程。
 
 此功能仅在使用数据源时可用。 现在，您可以将其用于自定义操作。
 
@@ -55,11 +55,11 @@ ht-degree: 9%
 
 1. 在 **响应** 字段。
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. 粘贴由调用返回的有效负载示例。 验证字段类型是否正确（字符串、整数等）。
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. 单击&#x200B;**保存**。
 
@@ -121,15 +121,15 @@ ht-degree: 9%
 
 例如，可添加条件以检查风速。 当人员进入冲浪店时，如果天气太风，您可以发送推送。
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 在条件中，您需要使用高级编辑器来利用 **上下文** 节点。
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 您还可以利用 **jo_states** 用于创建新路径以防出错的代码。
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ ht-degree: 9%
 * 上限错误： **上限**
 * 内部错误： **内部错误**
 
+有关历程活动的更多信息，请参阅 [本节](../building-journeys/about-journey-activities.md).
+
 ### 消息个性化
 
 您可以使用响应字段个性化消息。 在我们的示例中，在推送通知中，我们使用速度值将内容个性化。
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->在给定历程中，每个用户档案只能执行一次调用。 多条消息不会触发新调用。
+>在给定历程中，每个用户档案只能执行一次调用。 同一配置文件的多条消息不会触发新调用。
+
+有关消息个性化的更多信息，请参阅 [本节](../personalization/personalize.md).
 
 ## 表达式语法
 
@@ -175,4 +179,4 @@ ht-degree: 9%
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+有关字段引用的更多信息，请参阅 [本节](../building-journeys/expression/field-references.md).
