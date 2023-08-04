@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 9%
 
 ---
 
-# 自定义操作增强功能 {#configure-an-action}
+# 自定义操作增强功能
 
 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
 
 此功能仅在使用数据源时可用。 现在，您可以将其用于自定义操作。
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> 此功能目前作为私有测试版提供。
+>此功能目前作为私有测试版提供。
 
 ## 定义自定义操作
 
 在定义自定义操作时，提供了两项增强功能：添加了GET方法和新的有效负载响应字段。 其他选项和参数保持不变。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-### 端点配置 {#url-configuration}
+### 端点配置
 
 此 **URL配置** 已重命名部分 **端点配置**.
 
@@ -40,16 +40,16 @@ ht-degree: 9%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 负载 {#url-configuration}
+### 负载
 
 此 **操作参数** 已重命名部分 **负载**. 有两个字段可用：
 
 * 此 **请求** 字段：此字段仅可用于POST和PUT调用方法。
 * 此 **响应** 字段：这是新功能。 此字段可用于所有调用方法。
 
-> [!NOTE]
+>[!NOTE]
 > 
-> 这两个字段都是可选的。
+>这两个字段都是可选的。
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ ht-degree: 9%
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> 只有新创建的自定义操作才包括此字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
+>只有新创建的自定义操作才包括此字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
 
 以下是此字段的可能值：
 
@@ -148,9 +148,9 @@ ht-degree: 9%
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> 在给定历程中，每个用户档案只能执行一次调用。 多条消息不会触发新调用。
+>在给定历程中，每个用户档案只能执行一次调用。 多条消息不会触发新调用。
 
 ## 表达式语法
 
