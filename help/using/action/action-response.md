@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 4%
 >[!AVAILABILITY]
 >
 >此功能目前作为私有测试版提供。
+
+>[!WARNING]
+>
+>自定义操作只能用于私有或内部端点，并且应配合适当的上限或限制使用。 请参阅[此页](../configuration/external-systems.md)。
 
 ## 定义自定义操作
 
@@ -57,104 +61,80 @@ ht-degree: 4%
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. 粘贴由调用返回的有效负载示例。 验证字段类型是否正确（字符串、整数等）。
+1. 粘贴由调用返回的有效负载示例。 验证字段类型是否正确（字符串、整数等）。 以下是调用期间捕获的响应有效负载示例。 我们的本地端点发送会员积分数和用户档案的状态。
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   每次调用 API 时，系统将检索有效负载示例中包含的所有字段。
+
+1. 我们还要将customerID添加为查询参数。
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. 单击&#x200B;**保存**。
-
-每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，您可以单击 **粘贴新的有效负载** （如果要更改当前传递的有效负载）。
-
-以下是调用天气API服务期间捕获的响应有效负载示例：
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
 
 ## 在历程中利用响应
 
 只需将自定义操作添加到历程中。 然后，您可以在条件、其他操作和消息个性化中利用响应有效负载字段。
 
-### 条件和操作
-
-例如，可添加条件以检查风速。 当人员进入冲浪店时，如果天气太风，您可以发送推送。
+例如，您可以添加条件以检查会员积分数。 当人员进入餐厅时，您的本地端点会发送包含用户档案忠诚度信息的调用。 如果用户档案是黄金客户，则可以发送推送。 如果在调用中检测到错误，请发送自定义操作以通知您的系统管理员。
 
 ![](assets/action-response5.png)
 
-在条件中，您需要使用高级编辑器来利用 **上下文** 节点。
+1. 添加您的事件和之前创建的忠诚度自定义操作。
 
-![](assets/action-response6.png)
+1. 在“忠诚度”自定义操作中，将客户ID查询参数映射到配置文件ID。 选中选项 **在超时或错误的情况下添加替代路径**.
 
-您还可以利用 **jo_states** 用于创建新路径以防出错的代码。
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. 在第一个分支中，添加一个条件并使用高级编辑器利用 **上下文** 节点。
 
->[!WARNING]
->
->只有新创建的自定义操作才包括此字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
+   ![](assets/action-response6.png)
+
+1. 然后，添加推送，并使用响应字段个性化消息。 在本例中，我们使用忠诚度积分数和客户状态来个性化内容。 操作响应字段位于 **上下文属性** > **Journey Orchestration** > **操作**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
+
+1. 在超时和错误分支中，添加条件并利用内置 **jo_status_code** 字段。 在我们的示例中，我们使用
+   **http_400** 错误类型。 请参阅[此章节](#error-status)。
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. 添加将发送到贵组织的自定义操作。
+
+   ![](assets/action-response11.png)
+
+## 错误状态{#error-status}
+
+此 **jo_status_code** 字段始终可用，即使未定义响应有效负载也是如此。
 
 以下是此字段的可能值：
 
-* http状态代码：用于实例 **http_200** 或 **http_400**
+* http状态代码： http_`<HTTP API call returned code>`，例如http_200或http_400
 * 超时错误： **超时**
 * 上限错误： **上限**
 * 内部错误： **内部错误**
 
-有关历程活动的更多信息，请参阅 [本节](../building-journeys/about-journey-activities.md).
+如果返回的http代码大于2xx或发生错误，则认为操作调用有误。 在这种情况下，历程会流向专用超时或错误分支。
 
-### 消息个性化
-
-您可以使用响应字段个性化消息。 在我们的示例中，在推送通知中，我们使用速度值将内容个性化。
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->在给定历程中，每个用户档案只能执行一次调用。 同一配置文件的多条消息不会触发新调用。
-
-有关消息个性化的更多信息，请参阅 [本节](../personalization/personalize.md).
+>只有新创建的自定义操作包括 **jo_status_code** 现成字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
 
 ## 表达式语法
 
