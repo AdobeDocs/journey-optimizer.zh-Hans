@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
 hide: true
 hidefromtoc: true
-source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
+source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 4%
@@ -147,16 +147,16 @@ ht-degree: 4%
 下面是一些示例：
 
 ```json
-// action response field
-@action{<action name>.<path to the field>}
-@action{OpenWeatherMap.main.temp}
+ // action response field
+ @action{<action name>.<path to the field>}
+ @action{ActionLoyalty.status}
 ```
 
 ```json
-// action response field
-@action{<action name>.<path to the field>, defaultValue: <default value expression>}
-@action{OpenWeatherMap.main.temp, defaultValue: 273.15}
-@action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
+ // action response field
+ @action{<action name>.<path to the field>, defaultValue: <default value expression>}
+ @action{ActionLoyalty.points, defaultValue: 0}
+ @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
 
 有关字段引用的更多信息，请参阅 [本节](../building-journeys/expression/field-references.md).
