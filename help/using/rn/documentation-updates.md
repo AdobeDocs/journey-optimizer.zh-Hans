@@ -5,9 +5,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3061'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 96%
 
 ## 2023 年 7 月 {#july-2023}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年7月版。 [了解详情](release-notes.md)
-* 等待活动文档页面已得到改进，其中包含与全局超时和重入使用相关的其他信息和最佳实践。 [了解详情](../building-journeys/wait-activity.md)
-* 条目管理页面已得到改进。 [了解详情](../building-journeys/entry-management.md)
-* 在读取受众活动文档中添加了有关限制率的其他信息。 [了解详情](../building-journeys/read-audience.md)
-* 此 **实施个性化同意** 更新了描述如何在营销活动中手动强制执行个性化同意的章节：可使用区段规则生成器创建包含选择退出用户档案的受众，或将拆分活动添加到构成工作流。 [了解详情](../privacy/opt-out.md#opt-out-expression-editor)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 对等待活动文档页面进行了改进，其中包含与全局超时和重新进入使用情况相关的更多信息和最佳实践。[了解详情](../building-journeys/wait-activity.md)
+* 对进入管理页面进行了改进。[了解详情](../building-journeys/entry-management.md)
+* 在读取受众活动文档中添加了有关限制速率的更多信息。[了解详情](../building-journeys/read-audience.md)
+* **实施个性化同意**&#x200B;部分中更新了描述如何在营销活动中手动强制执行个性化同意的内容：可使用区段规则生成器创建包含选择退出用户档案的受众，或将拆分活动添加到组合工作流程。[了解详情](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023 年 6 月 {#june-2023}
 
