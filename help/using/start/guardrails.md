@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 常规操作 {#general-actions-g}
 
-* 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。对HTTP 401、403和404以外的所有HTTP错误执行重试。
+* 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。对 HTTP 401、403 和 404 以外的所有 HTTP 错误执行重试。
 * 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出反应，则需要配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
 * 同一历程中不能同时存在多个用户档案。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
