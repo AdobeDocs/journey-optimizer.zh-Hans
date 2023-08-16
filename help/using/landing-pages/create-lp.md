@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 27%
+source-wordcount: '1783'
+ht-degree: 24%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 27%
 >[!CAUTION]
 >
 >要测试和发布登陆页面，您必须拥有 **[!UICONTROL 发布消息]** 许可。
+
+要将您的客户引导至要在他们单击特定链接时显示的已定义网页，请在中创建登陆页面 [!DNL Journey Optimizer]，配置主页面和任何子页面，测试并发布它。
+
+>[!CAUTION]
+>
+>您无法将以下情况下定义的URL复制粘贴到Web浏览器中，从而无法访问登陆页面： [创建页面](#create-landing-page)，即使已发布。 相反，您可以使用预览功能对其进行测试，如中所述 [本节](#test-landing-page).
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -95,6 +101,10 @@ ht-degree: 27%
 
 配置和设计 [主页面](#configure-primary-page)，和 [子页面](#configure-subpages) 如果有，您可以 [测试](#test-landing-page) 和 [发布](#publish-landing-page) 您的登陆页面。
 
+>[!CAUTION]
+>
+>即使已发布，您也无法仅通过复制粘贴已定义的URL到Web浏览器中来访问登陆页面。 相反，您可以使用预览功能对其进行测试，如中所述 [本节](#test-landing-page).
+
 ## 配置主页面 {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ ht-degree: 27%
    >[!CAUTION]
    >
    >登陆页面URL必须是唯一的。
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >您仅需将此URL复制粘贴到Web浏览器中（即使已发布），就无法访问登陆页面。 相反，您可以使用预览功能对其进行测试，如中所述 [本节](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. 如果您希望登陆页面预载已可用的表单数据，请选择 **[!UICONTROL 使用用户档案信息预填表单字段]**.
 
@@ -196,6 +204,8 @@ ht-degree: 27%
    >[!CAUTION]
    >
    >登陆页面URL必须是唯一的。
+   >
+   >即使已发布，您也无法仅通过复制此URL并将其粘贴到Web浏览器中来访问子页面。 相反，您可以使用预览功能对其进行测试，如中所述 [本节](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->您可以通过特定报告监控登陆页面影响。 [了解详情](../reports/lp-report-live.md)
+>您无法将以下情况下定义的URL复制粘贴到Web浏览器中，从而无法访问登陆页面： [创建页面](#create-landing-page)，即使已发布。 相反，您可以使用预览功能对其进行测试，如中所述 [本节](#test-landing-page).
 
+您可以通过特定报告监控登陆页面影响。 [了解详情](../reports/lp-report-live.md)
