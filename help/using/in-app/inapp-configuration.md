@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 11%
 
    ![](assets/inapp_config_6.png)
 
-1. 然后，访问 **[!UICONTROL 应用程序表面]** 菜单，然后单击 **[!UICONTROL 创建应用程序表面]**.
+   >[!NOTE]
+   >
+   >要为应用程序内渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 已在您的应用程序内使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"} 您的报表配置中也会存在 — 否则，应用程序内数据将不会显示在内容试验报表中。 [了解如何添加数据集](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
+
+1. 然后，访问 **[!UICONTROL 应用程序表面]** 菜单并单击 **[!UICONTROL 创建应用程序表面]**.
 
    >[!NOTE]
    >

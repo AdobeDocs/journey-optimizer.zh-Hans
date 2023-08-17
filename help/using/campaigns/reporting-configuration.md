@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '638'
 ht-degree: 35%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="设置报表数据集"
->abstract="报告配置让您可以检索将在营销活动报告的“目标”选项卡中使用的其他指标。该操作必须由技术用户执行。"
+>abstract="通过报表配置，可检索将在营销活动报表中使用的其他指标。 该操作必须由技术用户执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -30,7 +30,7 @@ ht-degree: 35%
 
 通过报表数据源配置可以定义与系统的连接，以检索要在报表中使用的其他信息。
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -49,17 +49,17 @@ ht-degree: 35%
 
 * 您只能添加事件类型数据集。
 
-* 这些数据集必须包括 **体验事件 — 建议交互** [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}.
+* 这些数据集必须包括 `Experience Event - Proposition Interactions` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}.
 
-* 这些数据集可能还包含下列内容之一 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： **应用程序详细信息**， **商业详细信息**， **Web详细信息**.
+* 这些数据集可能还包含下列内容之一 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `Application Details`， `Commerce Details`， `Web Details`.
 
   >[!NOTE]
   >
   >其中可能还包括其他字段组，但Journey Optimizer报表当前仅支持上述字段组。
 
-  例如，如果您想要了解电子邮件营销活动对商业数据（如购买或订购）的影响，则需要使用创建体验事件数据集 **商业详细信息** 字段组。
+  例如，如果您想要了解电子邮件营销活动对商务数据（如购买或订购）的影响，则需要使用 `Commerce Details` 字段组创建体验事件数据集。
 
-  同样，如果要报告移动交互，则需要使用 **应用程序详细信息** 字段组。
+  同样，如果要报告移动设备交互情况，则需要使用“应用程序详细信息”字段组创建体验事件数据集。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -126,6 +126,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >[!CAUTION]
    >
    >如果您选择了非事件类型的数据集，则将无法继续。
+
+请注意，对于Web和应用程序内渠道，您需要确保 [数据集](../data/get-started-datasets.md) 为数据收集配置的也添加到此报表配置。 否则，Web和应用程序内数据将不会显示在内容试验报表中。
+
+* 在中详细了解Web渠道的内容试验先决条件 [本节](../web/web-prerequisites.md#experiment-prerequisites).
+
+* 在中了解有关应用程序内渠道配置的更多信息 [本节](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

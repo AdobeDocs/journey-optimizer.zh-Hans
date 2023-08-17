@@ -4,16 +4,22 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '3061'
-ht-degree: 100%
+source-wordcount: '3171'
+ht-degree: 96%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2023 年 8 月 {#august-2023}
+
+* 添加了关于Web渠道内容试验先决条件的新章节。 [了解详情](../web/web-prerequisites.md#experiment-prerequisites)
+* 警告已添加至 **使用内容模板** 页面指示当前在测试电子邮件内容模板时不支持跟踪。 要测试跟踪，您必须在电子邮件中使用内容模板并发送校样。 [了解详情](../email/content-templates.md#test-template)
+* 中添加了多个警告 **创建和发布登陆页面** 部分，指定您仅通过将创建页面时定义的URL（即使已发布）复制粘贴到Web浏览器中来无法访问登陆页面。 相反，您可以使用预览功能对其进行测试。 [了解详情](../landing-pages/create-lp.md)
 
 ## 2023 年 7 月 {#july-2023}
 
