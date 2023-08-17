@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1113'
 ht-degree: 12%
 
 ---
@@ -176,6 +176,10 @@ ht-degree: 12%
    * 在发送校样之前，您必须选择 [电子邮件表面](../configuration/channel-surfaces.md) 将用于测试您的内容。
 
      ![](assets/content-template-stimulate-proof-surface.png)
+
+>[!CAUTION]
+>
+>当前在测试电子邮件内容模板时不支持跟踪，这意味着跟踪事件、UTM参数和登陆页面链接将在从模板发送的验证中无效。 要测试跟踪， [使用内容模板](email-templates.md) 在电子邮件和 [发送验证](preview.md#send-proofs).
 
 ## 操作方法视频 {#video-templates}
 
