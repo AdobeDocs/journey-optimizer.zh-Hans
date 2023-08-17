@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 35%
+source-wordcount: '636'
+ht-degree: 38%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 35%
 
   例如，如果您想要了解电子邮件营销活动对商务数据（如购买或订购）的影响，则需要使用 `Commerce Details` 字段组创建体验事件数据集。
 
-  同样，如果要报告移动设备交互情况，则需要使用“应用程序详细信息”字段组创建体验事件数据集。
+  同样，如果要报告移动设备交互情况，则需要使用 `Application Details` 字段组创建体验事件数据集。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
