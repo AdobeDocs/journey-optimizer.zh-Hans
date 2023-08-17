@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: 配置，试验，报告，优化器
+keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
@@ -34,9 +34,9 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->报告配置必须由技术用户执行。 <!--Rights?-->
+>报表配置必须由技术用户执行。 <!--Rights?-->
 
-对于此配置，您需要添加一个或多个数据集，其中包含要用于报表的其他元素。 为此，请执行以下步骤 [以下](#add-datasets).
+对于此配置，您需要添加一个或多个包含要用于报表的其他元素的数据集。 为此，请执行以下步骤 [以下](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -55,11 +55,11 @@ ht-degree: 35%
 
   >[!NOTE]
   >
-  >可能还包括其他字段组，但Journey Optimizer报表中当前仅支持上述字段组。
+  >其中可能还包括其他字段组，但Journey Optimizer报表当前仅支持上述字段组。
 
-  例如，如果您想了解电子邮件营销活动对商业数据（如购买或订单）的影响，则需要使用创建体验事件数据集 **商业详细信息** 字段组。
+  例如，如果您想要了解电子邮件营销活动对商业数据（如购买或订购）的影响，则需要使用创建体验事件数据集 **商业详细信息** 字段组。
 
-  同样，如果要报告移动交互，则需要使用创建体验事件数据集 **应用程序详细信息** 字段组。
+  同样，如果要报告移动交互，则需要使用 **应用程序详细信息** 字段组。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -83,7 +83,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
 ## 添加数据集 {#add-datasets}
 
-1. 从 **[!UICONTROL 管理]** 菜单，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 报告]** 部分，单击 **[!UICONTROL 管理]**.
+1. 从 **[!UICONTROL 管理]** 菜单，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 报表]** 部分，单击 **[!UICONTROL 管理]**.
 
    ![](assets/reporting-config-menu.png)
 
@@ -97,7 +97,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >如果您选择 **[!UICONTROL 系统数据集]** 选项卡，仅显示由系统创建的数据集。 您将无法添加其他数据集。
 
-1. 从 **[!UICONTROL 数据集]** 从下拉列表中，选择要用于报表的数据集。
+1. 从 **[!UICONTROL 数据集]** 在下拉列表中，选择要用于报表的数据集。
 
    >[!CAUTION]
    >
@@ -105,7 +105,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   了解更多有关数据集的信息，请参见 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}.
+   在中了解关于数据集的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}.
 
 1. 从 **[!UICONTROL 配置文件ID]** 从下拉列表中，选择用于标识报表中每个配置文件的数据集字段属性。
 
@@ -115,11 +115,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >只显示可用于报表的 ID。
 
-1. 此 **[!UICONTROL 使用主ID命名空间]** 选项默认处于启用状态。 如果选定了 **[!UICONTROL 配置文件ID]** 是 **[!UICONTROL 身份映射]**，您可以禁用此选项，然后从显示的下拉列表中选择其他命名空间。
+1. 此 **[!UICONTROL 使用主ID命名空间]** 选项默认处于启用状态。 如果选中 **[!UICONTROL 配置文件ID]** 是 **[!UICONTROL 标识映射]**&#x200B;中，您可以禁用此选项，然后从显示的下拉列表中选择其他命名空间。
 
    ![](assets/reporting-config-namespace.png)
 
-   在中了解关于命名空间的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}.
+   在中详细了解命名空间 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}.
 
 1. 保存您所做的更改，以将选定的数据集添加到报表配置列表。
 

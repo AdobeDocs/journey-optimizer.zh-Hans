@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: distinctCountWithNull
-description: 了解distinctCountWithNull函数
+description: 了解函数distinctCountWithNull
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 22%
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-计算包括空值在内的不同值的数量。
+计算不同值（包括空值）的数量。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 22%
 
 `distinctCountWithNull(<listAny>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastYears
-description: 了解inLastYears函数
+description: 了解函数inLastYears
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastYears {#inLastYears}
 
-如果给定的日期或日期时间介于现在和现在之间 — 增量年份，则返回true。
+如果给定的日期或日期时间介于现在和现在之间 — 增量年，则返回true。
 
 ## 类别
 
@@ -31,9 +31,9 @@ ht-degree: 18%
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| delta | 整数 |
+| 增量 | 整数 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `inLastYears(<dateTime>,<integer>)`
 

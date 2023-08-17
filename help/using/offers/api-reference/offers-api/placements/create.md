@@ -19,9 +19,9 @@ ht-degree: 10%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应将返回新创建的投放位置的详细信息，包括其唯一的实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除投放位置。 您可以使用独特的投放位置 `@id` 在后面的教程中创建决策、决策规则和后备优惠。
+成功的响应会返回新创建的投放位置的详细信息，包括其唯一的实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除投放位置。 您可以使用独特的版面 `@id` 在后面的教程中，这些教程用于创建决策、决策规则和后备优惠。
 
 ```json
 {

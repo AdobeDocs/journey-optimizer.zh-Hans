@@ -1,6 +1,6 @@
 ---
 title: 查找收藏集
-description: 收藏集是基于营销人员定义的预定义条件的优惠的子集，例如优惠的类别。
+description: 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # 查找收藏集 {#look-up-collection}
 
-收藏集是基于营销人员定义的预定义条件的优惠的子集，例如优惠的类别。
+集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过向以下网站发出GET请求来查找特定收藏集： [!DNL Offer Library] 包含集合的API `@id` 或请求路径中集合的名称。
+您可以通过向以下网站发出GET请求来查找特定收藏集： [!DNL Offer Library] 包含收藏集的API `@id` 或请求路径中集合的名称。
 
 **API格式**
 

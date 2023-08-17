@@ -5,7 +5,7 @@ description: 了解函数min
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: min，函数，表达式，历程
+keywords: 最小值，函数，表达式，历程
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # min {#min}
 
-返回一组表达式中的最小值，以列表或两个表达式形式给出。 Null值将被忽略。
+返回一组表达式中的最小值，这些表达式以列表或两个表达式形式给定。 Null值将被忽略。
 
 ## 类别
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 * listDateOnly
 * 持续时间
 * 整数
-* 十进制
+* 小数
 * dateTime
 * dateTimeOnly
 
@@ -84,7 +84,7 @@ ht-degree: 7%
 
 `min(<integer>,<integer>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

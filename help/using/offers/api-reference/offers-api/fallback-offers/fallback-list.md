@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # 列出后备优惠 {#list-fallback-offers}
 
-如果客户不符合其他优惠的资格，则会向客户发送后备优惠。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
+如果客户不符合其他优惠的条件，则会向客户发送后备优惠。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
 
-您可以通过对容器执行单个GET请求，查看容器中所有后备优惠的列表。 [!DNL Offer Library] API。
+您可以通过对以下对象执行单个GET请求，查看容器中所有后备选件的列表： [!DNL Offer Library] API。
 
 **API格式**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 后备优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 定义与后备优惠关联的架构。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=1` |
 
@@ -46,7 +46,7 @@ curl -X GET \
 
 ## 使用查询参数 {#using-query-parameters}
 
-在列出资源时，可以使用查询参数来分页和筛选结果。
+在列出资源时，您可以使用查询参数来分页并筛选结果。
 
 ### 分页 {#paging}
 
@@ -54,10 +54,10 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应当使用反斜杠进行转义。 | `default` |
-| `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
-| `field` | 要限制搜索的可选字段列表。 此参数可重复，如下所示： field=field1[，field=field2，...] 和（路径表达式采用点分隔路径的形式，如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题对项目进行降序排序(Z-A)。 | `-repo:createdDate` |
+| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `default` |
+| `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
+| `field` | 将搜索限制到的可选字段列表。 此参数可重复，如下所示：field=field1[，字段=字段2，...] 和（路径表达式采用点分隔路径形式，如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题降序对项目排序(Z-A)。 | `-repo:createdDate` |
 | `limit` | 限制返回的备用选件的数量。 | `limit=5` |
 
 **响应**

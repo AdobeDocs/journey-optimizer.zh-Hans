@@ -17,7 +17,7 @@ ht-degree: 6%
 
 使用这些函数可以更轻松地与数组、列表和字符串进行交互。
 
-## 仅计数null {#count-only-null}
+## 仅计算null {#count-only-null}
 
 此 `countOnlyNull` 函数用于计算列表中空值的数量。
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 返回3。
 
-## Null计数 {#count-with-null}
+## 空计数 {#count-with-null}
 
 此 `countWithNull` 函数用于计算列表中的所有元素，包括空值。
 
@@ -73,7 +73,7 @@ ht-degree: 6%
 
 ## Null非重复计数 {#distinct-count-with-null}
 
-此 `distinctCountWithNull` 函数用于计算列表中包含null值的不同值的数量。
+此 `distinctCountWithNull` 函数用于计算列表中包含空值的不同值的数量。
 
 **语法**
 
@@ -91,7 +91,7 @@ ht-degree: 6%
 
 ## 第一个项目{#head}
 
-此 `head` 函数用于返回数组或列表中的第一个项。
+此 `head` 函数用于返回数组或列表中的第一项。
 
 **语法**
 
@@ -107,7 +107,7 @@ ht-degree: 6%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 第一个 `n` 在数组中 {#first-n}
+## 第一 `n` 在数组中 {#first-n}
 
 此 `topN` 函数用于返回第一个 `N` 数组中的项（当根据给定的数值表达式按升序排序时）。
 
@@ -120,18 +120,18 @@ ht-degree: 6%
 | 参数 | 描述 |
 | --------- | ----------- |
 | `{ARRAY}` | 要排序的数组或列表。 |
-| `{VALUE}` | 用于对数组或列表进行排序的属性。 |
-| `{AMOUNT}` | 要返回的项数。 |
+| `{VALUE}` | 要对数组或列表进行排序的属性。 |
+| `{AMOUNT}` | 要返回的项目数。 |
 
 **示例**
 
-以下操作将返回价格最低的前五张订单。
+以下操作将返回价格最低的前五个订单。
 
 ```sql
 {%= topN(orders,price, 5) %}
 ```
 
-## In{#in}
+## 在{#in}
 
 此 `in` 函数用于确定一个项是否是一个数组或列表的成员。
 
@@ -143,7 +143,7 @@ ht-degree: 6%
 
 **示例**
 
-以下操作定义在3月、6月或9月享有生日的人员。
+以下操作定义3月、6月或9月拥有生日的人员。
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
@@ -161,7 +161,7 @@ ht-degree: 6%
 
 **示例**
 
-以下操作定义其最喜爱颜色包括红色的人员。
+以下操作定义其最喜爱的颜色包括红色的人员。
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 最后 `n` 在数组中{#last-n}
+## 最后一个 `n` 在数组中{#last-n}
 
-此 `bottomN` 函数用于返回最后一个 `N` 数组中的项（当根据给定的数值表达式按升序排序时）。
+此 `bottomN` 函数用于返回最后 `N` 数组中的项（当根据给定的数值表达式按升序排序时）。
 
 **语法**
 
@@ -218,8 +218,8 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 | 参数 | 描述 |
 | --------- | ----------- | 
 | `{ARRAY}` | 要排序的数组或列表。 |
-| `{VALUE}` | 用于对数组或列表进行排序的属性。 |
-| `{AMOUNT}` | 要返回的项数。 |
+| `{VALUE}` | 要对数组或列表进行排序的属性。 |
+| `{AMOUNT}` | 要返回的项目数。 |
 
 **示例**
 
@@ -231,7 +231,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 不在{#notin}
 
-此 `notIn` 函数用于确定一个项是否不是数组或列表的成员。
+此 `notIn` 函数用于确定一个项是否不是一个数组或列表的成员。
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 **示例**
 
-以下操作定义访问过其所有最喜爱城市的人。
+以下操作定义访问过他们喜欢的所有城市的人。
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}

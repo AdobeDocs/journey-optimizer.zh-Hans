@@ -156,7 +156,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * 数据源数据
 * 事件上下文是历程数据的一部分，例如：某人是否单击了一小时前收到的消息？
-* 例如，日期：人员访问历程时是否为6月？
+* 例如，日期：人员进入旅程时是否在6月？
 * 时间，例如：上午是人员时区吗？
 * 一种算法，根据百分比拆分历程中流动的受众，例如：90% - 10%以排除控制组
 
@@ -166,7 +166,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 相同 **条件** 用于分段的活动（请参阅上文）还允许您排除部分群体。 例如，您可以排除VIP人员，方法是：让这些人员流入分支中，并在其后执行结束步骤。
 
-此排除可能紧随受众检索之后、出于群体计数目的或沿多步历程发生。
+此排除可能紧随受众检索之后、出于群体计数目的或随着多步历程而发生。
 
 ![](assets/read-segment-audience2.png)
 

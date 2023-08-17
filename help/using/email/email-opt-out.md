@@ -18,15 +18,15 @@ ht-degree: 78%
 
 # 电子邮件选择退出管理 {#email-opt-out}
 
-为了向收件人提供取消订阅以停止接收电子邮件通信的功能，您必须始终包含 **取消订阅链接** 在发送给收件人的每封电子邮件中。 [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
+为了向收件人提供取消订阅以停止接收电子邮件通信的功能，您必须始终包含 **取消订阅链接** 发往收件人的每封电子邮件中。 [了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
-要执行此操作，您可以：
+为此，您可以：
 
 * 插入 **链接到外部登陆页面** 以使用户能够取消订阅以停止接收来自您品牌的通信。 [了解如何添加外部选择退出链接](#opt-out-external-lp)
 
-* 添加 **一键式选择退出链接** 放入您的电子邮件内容中。 该链接可让您的收件人快速取消订阅您的通信，而无需重定向到需要确认其选择的登陆页面，从而简化取消订阅流程。 [了解如何添加一键式选择退出链接](#one-click-opt-out)
+* 添加 **一键式选择退出链接** 添加到您的电子邮件内容中。 该链接可让您的收件人快速取消订阅您的通信，而无需重定向到需要确认其选择的登陆页面，从而简化取消订阅流程。 [了解如何添加一键式选择退出链接](#one-click-opt-out)
 
-此外，如果 **[!UICONTROL 列表 — 取消订阅]** 选项在渠道平面级别启用，通过Journey Optimizer发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。 [了解有关电子邮件标头中选择退出的更多信息](#unsubscribe-header)
+此外，如果 **[!UICONTROL 列表 — 取消订阅]** 选项在渠道平面级别启用，使用Journey Optimizer发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。 [了解有关电子邮件标题中选择退出的更多信息](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 78%
 
 ### 为选择退出实施 API 调用 {#opt-out-api}
 
-要在收件人从登陆页面提交选择时为其完成选择退出，您必须实施 **订阅API调用** 到 [Adobe Developer](https://developer.adobe.com){target="_blank"} 更新相应用户档案的偏好设置。
+要在收件人从登陆页面提交选择时为其完成选择退出，您必须实施 **订阅API调用** 到 [Adobe Developer](https://developer.adobe.com){target="_blank"} 以更新相应用户档案的偏好设置。
 
 此 POST 调用如下：
 
@@ -117,7 +117,7 @@ ht-degree: 78%
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
-1. 要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。了解详情，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.
+1. 要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。在中了解详情 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -181,8 +181,8 @@ ht-degree: 78%
 
 * 收件人被定向到您在向消息添加选择退出链接时指定的登陆页面 URL。
 
-   >[!NOTE]
-   >
-   >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
+  >[!NOTE]
+  >
+  >如果您没有在消息内容中添加一键式选择退出链接，则不会显示登陆页面。
 
-* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。了解详情，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.
+* 相应的用户档案会立即退出订阅，并且此选择将在 Experience Platform 中更新。在中了解详情 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.

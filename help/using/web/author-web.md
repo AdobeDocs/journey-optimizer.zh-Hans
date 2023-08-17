@@ -15,13 +15,13 @@ ht-degree: 14%
 
 # 创建 Web 页面 {#author-web}
 
-一旦您 [添加了Web操作](create-web.md#create-web-campaign) 对于营销策划，您可以使用Web设计器编辑网站内容。
+一旦您 [添加了Web操作](create-web.md#create-web-campaign) 对于营销策划，您可以使用Web设计器编辑网站的内容。
 
-In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud可视化帮助程序** chrome浏览器扩展。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
+在 [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud可视化帮助程序** chrome浏览器扩展。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
->能够访问和创作中的网页 [!DNL Journey Optimizer] 用户界面中，确保遵循中列出的先决条件 [本节](web-prerequisites.md).
+>要能够访问和创作中的网页，请执行以下操作： [!DNL Journey Optimizer] 用户界面中，确保遵循中列出的先决条件 [本节](web-prerequisites.md).
 
 [在此视频中了解如何创作Web营销活动](#video)
 
@@ -41,7 +41,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
 要开始创作Web营销活动，请执行以下步骤。
 
-1. 从 **[!UICONTROL 操作]** 的选项卡 [营销活动](create-web.md#create-web-campaign)，选择 **[!UICONTROL 编辑内容]**.<!--change screen with rule-->
+1. 从 **[!UICONTROL 操作]** 选项卡 [营销活动](create-web.md#create-web-campaign)，选择 **[!UICONTROL 编辑内容]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
@@ -49,7 +49,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
    >[!NOTE]
    >
-   >如果您输入单个URL作为Web界面，则已填充要个性化的URL。
+   >如果您输入单个URL作为Web表面，则已填充要个性化的URL。
 
    ![](assets/web-edit-enter-url.png)
 
@@ -63,7 +63,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
    >[!NOTE]
    >
-   >如果尝试加载无法加载的网站，则会显示一条消息，建议您安装 [可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper). 请参阅中有关疑难解答的一些提示 [本节](web-prerequisites.md#troubleshooting).
+   >如果尝试加载无法加载的网站，则会显示一则消息，建议您安装 [可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper). 请参阅中有关疑难解答的一些提示 [本节](web-prerequisites.md#troubleshooting).
 
 1. 从画布中选择任意元素，如图像、按钮、段落、文本、容器、标题、链接等。 [了解详情](#content-components)
 
@@ -92,7 +92,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 >title="将组件添加到网页"
 >abstract="可将许多组件添加到网页，然后根据需要编辑这些组件。"
 
-1. 从 **[!UICONTROL 组件]** 选择项目。 您可以将以下组件添加到网页中，并根据需要对其进行编辑：
+1. 从 **[!UICONTROL 组件]** 左侧的窗格中选择一个项目。 您可以将以下组件添加到网页中，并根据需要对其进行编辑：
 
    * [分隔条](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
@@ -104,7 +104,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
    ![](assets/web-designer-components.png)
 
-1. 将鼠标悬停在页面中并单击 **[!UICONTROL 在此之前插入]** 或 **[!UICONTROL 在此之后插入]** 按钮以将组件附加到页面上的现有元素。
+1. 将鼠标悬停在页面上，然后单击 **[!UICONTROL 在此之前插入]** 或 **[!UICONTROL 在此之后插入]** 按钮以将组件附加到页面上的现有元素。
 
    ![](assets/web-designer-insert-components.png)
 
@@ -126,7 +126,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
 ![](assets/web-designer-personalization.png)
 
-使用 **[!UICONTROL 优惠决策]** 要插入的组件 [优惠](../offers/get-started/starting-offer-decisioning.md) 放到您的网页中。 此过程与以下情况相同： [将选件添加到电子邮件](../email/add-offers-email.md). 它将利用决策管理选择向客户提供的最佳优惠。
+使用 **[!UICONTROL 优惠决策]** 要插入的组件 [优惠](../offers/get-started/starting-offer-decisioning.md) 放到您的网页中。 此过程与以下情况相同： [将选件添加到电子邮件](../email/add-offers-email.md). 它将利用决策管理选择向客户提供的最佳选件。
 
 ![](assets/web-designer-offer.png)
 
@@ -139,7 +139,7 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
 您可以轻松管理添加到网页的所有组件、调整和样式。
 
-1. 选择 **[!UICONTROL 修改]** 图标以在左侧显示相应的窗格。
+1. 选择 **[!UICONTROL 修改]** 图标，以在左侧显示相应的窗格。
 
    ![](assets/web-designer-modifications-pane.png)
 
@@ -151,27 +151,27 @@ In [!DNL Journey Optimizer]，Web创作由提供支持 **Adobe Experience Cloud�
 
    >[!CAUTION]
    >
-   >删除操作时请小心操作，因为此操作可能会影响后续操作。
+   >在删除操作时请务必谨慎，因为此操作可能影响后续操作。
 
-1. 使用 **[!UICONTROL 更多操作]** 按钮位于顶部 **[!UICONTROL 修改]** 窗格，一次删除所有修改。
+1. 使用 **[!UICONTROL 更多操作]** 按钮位于顶部 **[!UICONTROL 修改]** 窗格，以便一次删除所有修改。
 
    ![](assets/web-designer-delete-modifications.png)
 
-1. 从 **[!UICONTROL 更多操作]** 菜单上，您还可以仅删除无效的修改，即被其他更改覆盖的更改。 例如，如果修改文本的颜色，然后删除该文本，则颜色修改将变得无效，因为该文本已不存在。
+1. 从 **[!UICONTROL 更多操作]** 菜单也可以仅删除无效的修改，即由其他更改覆盖的更改。 例如，如果修改文本的颜色，然后删除该文本，则颜色修改将变得无效，因为该文本已不存在。
 
 1. 您还可以使用取消和重做操作 **[!UICONTROL 撤消/重做]** 按钮。
 
    ![](assets/web-designer-undo-redo.png)
 
-   单击并按住按钮以在 **[!UICONTROL 撤消]** 和 **[!UICONTROL 重做]** 选项。 然后，单击按钮本身以应用所需的操作。
+   单击并按住按钮以在 **[!UICONTROL 还原]** 和 **[!UICONTROL 重做]** 选项。 然后，单击按钮本身以应用所需的操作。
 
 ## 使用点击跟踪 {#use-click-tracing}
 
 Web设计器中的这项功能允许您选择网站的任何元素并跟踪对该元素的点击。
 
-活动上线后，您可以检查活动Web报告中每个元素的点击次数。 此信息对于改善网站用户的体验非常有用。 例如，如果 [Web报表](../reports/campaign-global-report.md#web-tab) 如果表明有许多用户单击了一个实际上不可单击的元素，则您可能希望添加指向该元素的链接。
+活动开始后，即可检查活动Web报告中每个元素的点击次数。 此信息对于改善网站用户的体验非常有用。 例如，如果 [Web报表](../reports/campaign-global-report.md#web-tab) 如果表明有许多用户单击的元素实际上不可点击，则您可能需要添加指向该元素的链接。
 
-1. 在页面中选择一个元素，然后选择 **[!UICONTROL 点击跟踪元素]** 从上下文菜单中。
+1. 在页面中选择元素，然后选择 **[!UICONTROL 点击跟踪元素]** 从上下文菜单中。
 
    ![](assets/web-designer-click-track.png)
 
@@ -179,19 +179,19 @@ Web设计器中的这项功能允许您选择网站的任何元素并跟踪对�
    >
    >可以选择任何项目（无论是否可单击）。
 
-1. 相应的跟踪操作会自动显示在 **[!UICONTROL 点击跟踪]** 左侧的窗格。
+1. 相应的跟踪操作会自动显示在 **[!UICONTROL 点击跟踪]** 窗格在左边。
 
    ![](assets/web-designer-click-track-pane.png)
 
-1. 添加有意义的标签以管理所有跟踪的元素，并轻松地在报表中找到它们。 此 **[!UICONTROL CSS选择器]** 字段显示有关查找选定元素的信息。
+1. 添加有意义的标签以管理所有跟踪的元素并轻松地在报表中找到它们。 此 **[!UICONTROL CSS选择器]** 字段显示用于查找选定元素的信息。
 
-1. 重复上述步骤，根据需要为点击跟踪选择任意数量的其他元素。 相应的操作全部列在左窗格中。
+1. 重复上述步骤，根据需要选择点击跟踪所需数量的其他元素。 相应的操作全部列在左窗格中。
 
    ![](assets/web-designer-click-tracking-actions.png)
 
 1. 要删除某个元素的点击跟踪，请选择相应的删除图标。
 
-活动处于活动状态后，您可以查看活动报告 **[!UICONTROL Web]** 选项卡以比较展示次数、点击率和按元素显示的点击次数。 [了解详情](../reports/campaign-global-report.md#web-tab)
+活动处于活动状态后，即可查看活动报告 **[!UICONTROL Web]** 选项卡比较展示次数、点击率和按元素显示的点击次数。 [了解详情](../reports/campaign-global-report.md#web-tab)
 
 ## 在Web设计器中导航 {#navigate-web-designer}
 
@@ -214,17 +214,17 @@ Web设计器中的这项功能允许您选择网站的任何元素并跟踪对�
 >title="使用浏览模式"
 >abstract="在此模式下，您可以从要个性化的选定表面导航到确切的页面。"
 
-您可以从默认选项中进行交换 **[!UICONTROL 设计]** 模式切换到 **[!UICONTROL 浏览]** 模式。
+您可以从默认位置进行交换 **[!UICONTROL 设计]** 模式到 **[!UICONTROL 浏览]** 模式。
 
 ![](assets/web-designer-browse-mode.png)
 
-从 **[!UICONTROL 浏览]** 在模式中，您可以从要个性化的选定界面导航到确切的页面。
+从 **[!UICONTROL 浏览]** 在模式下，您可以导航到要个性化的选定表面中的确切页面。
 
-在处理身份验证后的页面或在特定URL处从头不可用的页面时，此插件特别有用。 例如，您将能够进行身份验证，导航到您的帐户页面或购物车页面，然后切换回到 **[!UICONTROL 设计]** 模式，以便在所需的页面上执行更改。
+在处理身份验证后的页面或在特定URL处从头开始不可用的页面时，此插件特别有用。 例如，您将能够进行身份验证，导航到您的帐户页面或购物车页面，然后切换回 **[!UICONTROL 设计]** 模式，以便在所需的页面上执行更改。
 
 ### 更改设备大小 {#change-device-size}
 
-您可以将Web设计器显示的设备大小更改为预定义的大小，例如 **[!UICONTROL 平板电脑]** 或 **[!UICONTROL 移动版面]**，或通过输入所需的像素数来定义自定义大小。
+您可以将Web设计器显示的设备大小更改为预定义的大小，例如 **[!UICONTROL 平板电脑]** 或 **[!UICONTROL 移动设备横向]**，或通过输入所需的像素数来定义自定义大小。
 
 您还可以将缩放焦点从25%更改为400%。
 
@@ -236,7 +236,7 @@ Web设计器中的这项功能允许您选择网站的任何元素并跟踪对�
 >
 >您可以编辑具有特定设备大小的Web体验。 但是，只要选择器相同，这些更改就会应用于所有大小和设备，而不仅仅是您正在使用的设备大小。 同样，在普通桌面视图中编辑体验会将更改应用于所有屏幕大小，而不仅仅是桌面视图。
 >
->目前， [!DNL Journey Optimizer] 不支持特定于设备大小的页面更改。 这意味着，例如，如果您有一个单独的移动网站并具有单独的网站结构，则您应该针对不同营销活动中的移动网站进行更改。
+>目前， [!DNL Journey Optimizer] 不支持特定于设备大小的页面更改。 这意味着，例如，如果您具有一个单独的移动网站并具有单独的网站结构，则您应该针对不同营销活动中的移动网站进行更改。
 
 ## 测试Web营销活动 {#test-web-campaign}
 
@@ -249,7 +249,7 @@ Web设计器中的这项功能允许您选择网站的任何元素并跟踪对�
 
 >[!CAUTION]
 >
->您必须具有可用的测试用户档案，以模拟将向其投放哪些优惠。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
+>您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
 1. 从Web营销活动编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
 
@@ -258,15 +258,15 @@ Web设计器中的这项功能允许您选择网站的任何元素并跟踪对�
    ![](assets/web-campaign-simulate.png)
 
 1. 单击 **[!UICONTROL 管理测试用户档案]** 选择一个或多个测试用户档案。
-1. 此时会显示已修改网页的预览。
+1. 此时将显示已修改网页的预览。
 
    ![](assets/web-designer-preview.png)
 
-1. 您还可以在默认浏览器中打开它，或复制测试URL以将其粘贴到任何浏览器中。 这允许您与团队和利益相关者共享链接，利益相关者将能够在营销活动上线之前在任何浏览器中预览新的Web体验。
+1. 您还可以在默认浏览器中打开它，或复制测试URL以将其粘贴到任何浏览器中。 这样，您就可以与团队和利益相关者共享链接，这些利益相关者将能够在营销活动上线之前在任何浏览器中预览新的Web体验。
 
    >[!NOTE]
    >
-   >复制测试URL时，显示的内容是生成内容模拟时所使用的测试用户档案的个性化内容。 [!DNL Journey Optimizer].
+   >在复制测试URL时，显示的内容是在中生成内容模拟时所使用的测试用户档案的个性化内容 [!DNL Journey Optimizer].
 
 ## 操作方法视频{#video}
 

@@ -17,16 +17,16 @@ ht-degree: 6%
 
 # 警报入门 {#alerts}
 
-Journey Optimizer可利用Adobe Experience Platform警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。
+Journey Optimizer可利用Adobe Experience Platform的警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。
 
-当达到操作中的特定条件集时（例如系统违反阈值时可能出现的问题），将向组织中订阅了警报消息的任何用户发送警报消息。 这些消息可在预定义的时间间隔内重复出现，直到警报得到解决为止。
+当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向组织中订阅警报消息的任何用户发送警报消息。 这些消息可在预定义的时间间隔内重复出现，直到警报得到解决为止。
 
-了解有关Adobe Experience Platform中警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
+在Adobe Experience Platform中了解关于警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
 要了解如何订阅和配置警报，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
 >[!AVAILABILITY]
 >
->“读取受众触发器不成功”警报的一些设计更改正在进行中，因此该警报现已暂停，并且已从用户界面中临时删除。 发布这些更改后，警报将再次显示，您可以订阅它。
+>“读取受众触发器失败”警报的一些设计更改正在进行中，因此此警报暂时暂停，并从用户界面中暂时删除。 发布这些更改后，警报将再次显示，您可以订阅它。
 >
 
 在左侧菜单的下方 **管理**，单击 **警报**.

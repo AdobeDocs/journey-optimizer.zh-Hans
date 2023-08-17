@@ -50,9 +50,9 @@ ht-degree: 100%
 
    * 在电子邮件设计器中直接&#x200B;**编码或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 
-      >[!NOTE]
-      >
-      >在营销活动中，您还可以选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕中的&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮。[了解详情](create-email.md#define-email-content)
+     >[!NOTE]
+     >
+     >在营销活动中，您还可以选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕中的&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮。[了解详情](create-email.md#define-email-content)
 
    * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
 

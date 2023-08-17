@@ -40,7 +40,7 @@ ht-degree: 57%
 
 创建电子邮件内容时， **[!UICONTROL 内容组件]** 允许您使用原始组件进一步个性化电子邮件，一旦这些组件放入电子邮件中即可编辑。
 
-您可以根据需要在一个或多个定义电子邮件布局的结构组件内添加任意数量的内容组件。
+您可以根据需要在一个或多个结构组件中添加任意数量的内容组件，这些组件定义电子邮件的布局。
 
 ## 添加内容组件 {#add-content-components}
 
@@ -70,7 +70,7 @@ ht-degree: 57%
 
 ## 容器 {#container}
 
-要将特定样式应用于一组内容组件，您可以添加 **[!UICONTROL 容器]** 组件，然后在其中添加所需的内容组件。 这允许您向容器应用不同的样式，这些样式将与应用于内部内容组件的样式不同。
+要将特定样式应用于一组内容组件，您可以添加 **[!UICONTROL 容器]** 组件，然后将所需的内容组件添加到其中。 这允许您向容器应用不同的样式，这与应用于内部内容组件的样式不同。
 
 例如，添加一个&#x200B;**[!UICONTROL 容器]**&#x200B;组件，然后在该容器中添加一个[按钮](#button)组件。可以为该容器使用一个特定背景，并为按钮使用另一个背景。
 
@@ -86,7 +86,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_button_component.png)
 
-1. 从 **[!UICONTROL 链接]** 菜单，添加您要在单击按钮时重定向到的URL。
+1. 从 **[!UICONTROL 链接]** 菜单，添加您单击按钮时要重定向到的URL。
 
 1. 选择将通过 **[!UICONTROL Target]** 下拉列表：
 
@@ -106,7 +106,7 @@ ht-degree: 57%
 
 ![](assets/email_designer_text_component.png)
 
-1. 起始日期 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 文本]** 组件到 **[!UICONTROL 结构组件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 文本]** 组件到 **[!UICONTROL 结构组件]**.
 
 1. 单击新添加的组件以个性化文本并访问 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。
 
@@ -163,15 +163,15 @@ ht-degree: 57%
 
 使用 **[!UICONTROL 图像]** 用于将图像文件从计算机插入电子邮件内容的组件。
 
-1. 起始日期 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 图像]** 组件到 **[!UICONTROL 结构组件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 图像]** 组件到 **[!UICONTROL 结构组件]**.
 
    ![](assets/email_designer_image_content.png)
 
 1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从您的资源中选择图像文件。
 
-   要了解有关以下内容的更多信息 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   要了解更多关于 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. 单击新添加的组件，然后从以下位置设置图像属性 **[!UICONTROL 设置]** 选项卡：
+1. 单击新添加的组件，然后从以下位置设置图像属性： **[!UICONTROL 设置]** 选项卡：
 
    * 使用&#x200B;**[!UICONTROL 图像标题]**&#x200B;可以定义图像的标题。
    * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。这对应于 alt HTML 属性。
@@ -196,7 +196,7 @@ ht-degree: 57%
 
 1. 通过专用字段选择图标的大小。
 
-1. 单击每个社交媒体图标以配置 **[!UICONTROL URL]** 将受众重定向到的位置。
+1. 单击每个社交媒体图标以配置 **[!UICONTROL URL]** 您的受众将被重定向到的目标位置。
 
    ![](assets/email_designer_21.png)
 
@@ -208,7 +208,7 @@ ht-degree: 57%
 
 使用 **[!UICONTROL 优惠决策]** 用于将选件插入到消息中的组件。 此 [决策管理](../offers/get-started/starting-offer-decisioning.md) engine将选择向客户提供的最佳选件。
 
-1. 起始日期 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 优惠决策]** 组件到 **[!UICONTROL 结构组件]**.
+1. 从 **[!UICONTROL 内容组件]**，拖放 **[!UICONTROL 优惠决策]** 组件到 **[!UICONTROL 结构组件]**.
 
 1. 单击 **[!UICONTROL 添加]** 以选择您的 **[!UICONTROL 优惠决策]**.
 
@@ -224,4 +224,4 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->如果对历程消息中使用的优惠决策进行了更改，则需要取消发布历程并重新发布它。  这将确保将更改纳入历程的消息中，并且消息与最新更新一致。
+>如果对历程消息中使用的优惠决策进行了更改，则需要取消发布该历程并重新发布。  这将确保将更改纳入历程的消息中，并且消息与最新更新一致。

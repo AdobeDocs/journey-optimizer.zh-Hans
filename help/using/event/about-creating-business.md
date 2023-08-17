@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 13%
 >title="业务事件"
 >abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。与单一事件不同，业务事件不链接到特定的配置文件。事件 ID 类型始终基于规则。"
 
-与单一事件不同，业务事件不链接到特定的配置文件。事件 ID 类型始终基于规则。阅读更多有关业务活动的信息，请参见 [本节](../event/about-events.md).
+与单一事件不同，业务事件不链接到特定的配置文件。事件 ID 类型始终基于规则。阅读更多有关业务活动的信息，请参阅 [本节](../event/about-events.md).
 
-基于受众的读取历程可以由调度程序定期触发，也可以在事件发生时由业务事件触发。
+基于受众的读取历程可以在事件发生时由调度程序定期或业务事件一次性触发。
 
 业务事件可以是“产品重新上架”、“公司股价达到一定价值”等。
 
@@ -36,15 +36,15 @@ ht-degree: 13%
 ## 重要说明 {#important-notes}
 
 * 只有时间序列架构可用。 体验事件、决策事件和历程步骤事件架构不可用。
-* 事件架构必须包含不基于人员的主要身份。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
-* 业务事件只能作为历程的第一步删除。
-* 将业务事件删除为历程的第一步时，历程的调度程序类型将为“业务事件”。
-* 在业务事件之后，只能删除读取受众活动。 它作为下一步自动添加。
+* 事件架构必须包含不基于人员的主标识。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
+* 业务事件只能作为历程的第一步放置。
+* 将业务事件作为历程的第一步删除时，历程的调度程序类型将为“业务事件”。
+* 在业务事件后，只能删除读取受众活动。 它会自动添加为下一步。
 * 要允许多个业务事件执行，请在 **[!UICONTROL 执行]** 旅程属性的部分。
-* 触发业务事件后，将延迟让受众从15分钟导出到1小时。
-* 测试业务事件时，您必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此小节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有“代码视图”模式可用。
-* 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当发生新重复时个人仍处于重复历程中的情况相同。 他们的路径结束了。 因此，营销人员必须注意避免构建太长的历程，如果他们预计频繁的业务事件。
-* 业务事件不能与单一事件或受众资格活动结合使用。
+* 触发业务事件后，将延迟一段时间以将受众导出15分钟到1小时。
+* 测试业务事件时，必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此章节](../building-journeys/testing-the-journey.md#test-business)。在测试模式下，没有“代码视图”模式可用。
+* 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当新循环发生时个人仍处于循环历程中的情况相同。 他们的道路已经结束。 因此，营销人员必须注意避免在预计业务事件频繁时构建过长的历程。
+* 业务事件无法与单一事件或受众鉴别活动结合使用。
 
 ## 多个业务事件 {#multiple-business-events}
 
@@ -52,17 +52,17 @@ ht-degree: 13%
 
 **处理历程时接收业务事件时的行为是什么？**
 
-商业活动遵循的重新进入规则与单一活动相同。 如果历程允许重新进入，则将处理下一个业务事件。
+商业活动遵循的重新进入规则与单一活动遵循的规则相同。 如果历程允许重新进入，将处理下一个业务事件。
 
-**避免重载具体化受众的护栏是什么？**
+**避免过度加载实体化受众的护栏是什么？**
 
-对于非点击业务事件，对于给定历程，由第一个事件作业推送的数据会在1小时时段内重复使用。 对于计划的旅程，没有护栏。 了解中受众的更多信息 [Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+对于拍摄业务事件，对于给定历程，第一个事件作业推送的数据会在1小时时间范围内重用一次。 对于计划的历程，没有护栏。 在中了解关于受众的更多信息 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans).
 
 ## 商业活动入门 {#gs-business-events}
 
 以下是配置业务事件的首要步骤：
 
-1. 在“管理”菜单部分中，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 事件]** 部分，单击 **[!UICONTROL 管理]**. 将显示事件列表。
+1. 在“管理”菜单部分中，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 活动]** 部分，单击 **[!UICONTROL 管理]**. 将显示事件列表。
 
    ![](assets/jo-event1.png)
 
@@ -82,25 +82,25 @@ ht-degree: 13%
 
    ![](assets/jo-event3bis-business.png)
 
-1. 使用此事件的历程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 图标，以显示使用此事件的历程列表。
+1. 使用此事件的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 图标，以显示使用此事件的旅程列表。
 
-1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（或有效负载）。 您稍后将在旅程中使用此信息。 请参阅[此小节](../event/about-creating-business.md#define-the-payload-fields)。
+1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（或有效负载）。 您稍后将在历程中使用这些信息。 请参阅[此章节](../event/about-creating-business.md#define-the-payload-fields)。
 
    ![](assets/jo-event5-business.png)
 
-   只有时间序列架构可用。 `Experience Events`， `Decision Events` 和 `Journey Step Events` 架构不可用。 事件架构必须包含不基于人员的主要身份。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
+   只有时间序列架构可用。 `Experience Events`， `Decision Events` 和 `Journey Step Events` 架构不可用。 事件架构必须包含不基于人员的主标识。 定义事件时必须选择以下字段： `_id` 和 `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. 在 **[!UICONTROL 事件ID条件]** 字段。 使用简单表达式编辑器定义条件，系统使用它来标识触发历程的事件。
+1. 在 **[!UICONTROL 事件ID条件]** 字段。 使用简单表达式编辑器定义条件，系统使用它来识别触发历程的事件。
 
    ![](assets/jo-event6-business.png)
 
-   在我们的示例中，我们根据产品ID编写了一个条件。 这意味着每当系统收到与此条件匹配的事件时，它都会将其传递给历程。
+   在我们的示例中，我们根据产品ID编写了条件。 这意味着每当系统收到与此条件匹配的事件时，它都会将其传递给历程。
 
    >[!NOTE]
    >
-   >在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，您可以使用“包含”或“等于”。
+   >在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，可以使用“包含”或“等于”。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -110,13 +110,13 @@ ht-degree: 13%
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预期从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
 
-1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL 字段]** 字段或 **[!UICONTROL 编辑]** 图标。
+1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL 字段]** 字段或在 **[!UICONTROL 编辑]** 图标。
 
    ![](assets/journey8-business.png)
 
-   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选定。 不能取消选择它们。 默认情况下，选择历程正确接收事件所必需的所有字段。
+   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选择。 不能取消选择它们。 默认情况下，选择历程正确接收事件所必需的所有字段。
 
    ![](assets/journey9-business.png)
 
@@ -124,7 +124,7 @@ ht-degree: 13%
    >
    > 确保选择以下字段： `_id` 和 `timestamp`
 
-1. 选择您希望从事件接收的字段。 这些是商业用户将在历程中利用的字段。
+1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。
 
 1. 选择完所需的字段后，单击 **[!UICONTROL 保存]** 或按 **[!UICONTROL 输入]**.
 
@@ -134,9 +134,9 @@ ht-degree: 13%
 
 ## 预览有效负载 {#preview-the-payload}
 
-使用有效负载预览来验证有效负载定义。
+使用有效负载预览以验证有效负载定义。
 
-1. 单击 **[!UICONTROL 查看有效负荷]** 图标以预览系统预期的有效负载。
+1. 单击 **[!UICONTROL 查看有效负荷]** 图标以预览系统所需的有效负载。
 
    ![](assets/journey13-business.png)
 
@@ -146,4 +146,4 @@ ht-degree: 13%
 
 1. 检查预览以验证有效负载定义。
 
-1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到的事件设置 [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
+1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到以下位置的事件设置： [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。

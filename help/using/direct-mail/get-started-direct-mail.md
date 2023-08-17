@@ -9,7 +9,7 @@ keywords: 直邮、消息、营销活动
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->目前，直邮渠道不适用于已购买AdobeHealthcare Shield附加产品的组织。
+>目前，直邮渠道不适用于已购买 Adobe Healthcare Shield 附加产品的组织。
 >
 
 直邮是一种离线渠道，允许您个性化并生成直邮提供商向客户发送邮件所需的提取文件。

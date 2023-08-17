@@ -17,7 +17,7 @@ ht-degree: 73%
 
 # 函数 {#functions}
 
-函数可以有不同的特征码（一组不同的有序参数）。 函数签名可以将0-N表达式作为有序参数。
+一个函数可以有不同的特征码（一组不同的有序参数）。 函数签名可以有0-N个表达式作为有序参数。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 

@@ -21,7 +21,7 @@ ht-degree: 55%
 ## 使用沙盒 {#using-sandbox}
 
 [!DNL Journey Optimizer] 允许您将实例分区为称为沙盒的分隔虚拟环境。
-沙盒通过“权限”中的角色进行分配。 [了解如何分配沙盒](permissions.md#create-product-profile)。
+沙盒通过权限中的角色进行分配。 [了解如何分配沙盒](permissions.md#create-product-profile)。
 
 [!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙盒。
 可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
@@ -32,7 +32,7 @@ ht-degree: 55%
 
 ➡️ [在此视频中了解关于沙盒的更多信息](#video)
 
-## 分配沙箱 {#assign-sandboxes}
+## 分配沙盒 {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ ht-degree: 55%
 
 要分配沙箱，请执行以下操作：
 
-1. In [!DNL Permissions]，来自 **[!UICONTROL 角色]** 选项卡，选择 **[!UICONTROL 角色]**.
+1. 在 [!DNL Permissions]，来自 **[!UICONTROL 角色]** 选项卡，选择 **[!UICONTROL 角色]**.
 
    ![](assets/sandbox_1.png)
 
@@ -60,7 +60,7 @@ ht-degree: 55%
 
 ## 访问内容 {#content-access}
 
-要配置内容辅助功能，您需要为每个沙盒分配一个内容共享文件夹。您可以在中创建并配置共享文件夹，网址为 **[!UICONTROL 存储]** 选项卡中显示 [!DNL Admin Console] 对于管理员。 如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
+要配置内容辅助功能，您需要为每个沙盒分配一个内容共享文件夹。您可以在 **[!UICONTROL 存储]** 选项卡显示在 [!DNL Admin Console] 适用于管理员。 如果您对 [!DNL Admin Console] 拥有系统管理员访问权限，则可以创建共享文件夹并向它们添加具有不同访问级别的代表。
 
 ![](assets/do-not-localize/content_access.png)
 

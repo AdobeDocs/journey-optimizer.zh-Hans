@@ -18,32 +18,32 @@ ht-degree: 1%
 
 # 基于属性的访问控制 {#attribute-based-access}
 
-通过基于属性的访问控制(ABAC)，可定义用于管理特定团队或用户组的数据访问的授权。 其目的是保护敏感的数字资产免受未经授权用户的侵害，从而进一步保护个人数据。
+通过基于属性的访问控制(ABAC)，可定义用于管理特定团队或用户组的数据访问的授权。 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 
-在Adobe Journey Optimizer中，ABAC允许您保护数据并授予对特定字段元素(包括体验数据模型(XDM)架构、配置文件属性和受众)的特定访问权限。
+在Adobe Journey Optimizer中，ABAC允许您保护数据并授予特定字段元素的特定访问权限，这些元素包括体验数据模型(XDM)架构、配置文件属性和受众。
 
 有关与ABAC一起使用的术语的更详细列表，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
-在本例中，我们想要将一个标签添加到 **国籍** 架构字段，用于限制未经授权的用户使用该字段。 要使此功能正常工作，您需要执行以下步骤：
+在本例中，我们想要将一个标签添加到 **国籍** 模式字段，用于限制未经授权的用户使用该字段。 要使此功能正常工作，您需要执行以下步骤：
 
-1. 新建  **[!UICONTROL 角色]** 并将其与相应的  **[!UICONTROL 标签]** 使用户能够访问和使用架构字段。
+1. 新建  **[!UICONTROL 角色]** 并为其分配相应的  **[!UICONTROL 标签]** 以便用户能够访问和使用架构字段。
 
 1. 分配  **[!UICONTROL 标签]** 到 **国籍** Adobe Experience Platform中的架构字段。
 
 1. 使用  **[!UICONTROL 架构字段]** 在Adobe Journey Optimizer中。
 
-请注意 **[!UICONTROL 角色]**， **[!UICONTROL 策略]** 和 **[!UICONTROL 产品]** 还可以使用基于属性的访问控制API进行访问。 有关更多信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+请注意 **[!UICONTROL 角色]**， **[!UICONTROL 策略]** 和 **[!UICONTROL 产品]** 也可以使用基于属性的访问控制API进行访问。 有关详细信息，请参阅此 [文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
 
 ## 创建角色并分配标签 {#assign-role}
 
 >[!IMPORTANT]
 >
->在管理角色的权限之前，您将首先需要创建策略。 有关更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+>在管理角色的权限之前，您将首先需要创建策略。 有关详细信息，请参见 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
 
 **[!UICONTROL 角色]** 是组织内共享相同权限、标签和沙盒的一组用户。 每个用户属于一个 **[!UICONTROL 角色]** 有权使用产品中包含的Adobe应用程序和服务。
-您还可以创建自己的 **[!UICONTROL 角色]** 如果您希望微调用户对界面中特定功能或对象的访问权限。
+您还可以创建自己的 **[!UICONTROL 角色]** 如果您想微调用户对于界面中特定功能或对象的访问权限。
 
-现在，我们要向选定的用户授予对 **国籍** 字段，标记为C2。 为此，我们需要创建一个 **[!UICONTROL 角色]** ，并授予他们标签C2 ，以便 **国籍** 中的详细信息 **[!UICONTROL 历程]**.
+现在，我们要向选定的用户授予对 **国籍** 字段，标记为C2。 为此，我们需要创建一个 **[!UICONTROL 角色]** ，并授予他们标签C2 ，让他们使用 **国籍** 中的详细信息 **[!UICONTROL 历程]**.
 
 1. 从 [!DNL Permissions] 产品，选择 **[!UICONTROL 角色]** 从左窗格菜单中单击 **[!UICONTROL 创建角色]**. 请注意，您还可以添加 **[!UICONTROL 标签]** 到内置角色。
 
@@ -59,11 +59,11 @@ ht-degree: 1%
 
    ![](assets/role_3.png)
 
-1. 从下拉菜单中，选择 **[!UICONTROL 权限]** 链接到选定特征，例如 **[!UICONTROL 查看历程]** 或 **[!UICONTROL 发布历程]**.
+1. 从下拉菜单中，选择 **[!UICONTROL 权限]** 链接到选定功能，例如 **[!UICONTROL 查看历程]** 或 **[!UICONTROL 发布历程]**.
 
    ![](assets/role_6.png)
 
-1. 保存您新创建的内容后 **[!UICONTROL 角色]**，单击 **[!UICONTROL 属性]** 以进一步配置对角色的访问权限。
+1. 保存您新创建的后 **[!UICONTROL 角色]**，单击 **[!UICONTROL 属性]** 以进一步配置对角色的访问权限。
 
    ![](assets/role_7.png)
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    ![](assets/role_9.png)
 
-1. 选择 **[!UICONTROL 标签]** 要添加到您的角色并单击 **[!UICONTROL 保存]**. 对于此示例，我们授予标签C2以使用户有权访问以前限制的架构的字段。
+1. 选择 **[!UICONTROL 标签]** 添加到您的角色，然后单击 **[!UICONTROL 保存]**. 在本例中，我们为用户授予标签C2以访问以前受限的架构的字段。
 
    ![](assets/role_4.png)
 
@@ -85,14 +85,14 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->使用不正确的标签可能会中断对人员的访问并触发策略违规。
+>不正确的标签使用可能会中断对人员的访问并触发策略违规。
 
-**[!UICONTROL 标签]** 可使用基于属性的访问控制来指定特定的功能区域。
-在本例中，我们要限制对 **国籍** 字段。 此字段仅供具有相应 **[!UICONTROL 标签]** 敬他们的  **[!UICONTROL 角色]**.
+**[!UICONTROL 标签]** 可以使用基于属性的访问控制来指定特定的功能区域。
+在本例中，我们要限制对 **国籍** 字段。 此字段仅对具有相应 **[!UICONTROL 标签]** 敬他们的  **[!UICONTROL 角色]**.
 
 请注意，您还可以添加  **[!UICONTROL 标签]** 到  **[!UICONTROL 架构]**，  **[!UICONTROL 数据集]** 和  **[!UICONTROL 受众]**.
 
-1. 创建您的 **[!UICONTROL 架构]**. 有关更多信息，请参阅 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans).
+1. 创建您的 **[!UICONTROL 架构]**. 有关详细信息，请参见 [本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans).
 
    ![](assets/label_1.png)
 
@@ -108,17 +108,17 @@ ht-degree: 1%
 
    ![](assets/label_4.png)
 
-1. 如果需要，可进一步个性化您的架构，然后启用它。 有关如何启用架构的详细步骤，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile).
+1. 如果需要，进一步个性化您的架构，然后启用它。 有关如何启用架构的详细步骤，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile).
 
 架构的字段现在将仅可见，并且现在只能由属于具有C2标签的角色集的用户使用。
 通过应用 **[!UICONTROL 标签]** 敬您的 **[!UICONTROL 字段名称]**，请注意 **[!UICONTROL 标签]** 将自动应用于 **国籍** 每个创建的架构中的字段。
 
 ![](assets/label_5.png)
 
-## 访问Adobe Journey Optimizer中标记的对象 {#attribute-access-ajo}
+## 访问Adobe Journey Optimizer中带有标签的对象 {#attribute-access-ajo}
 
 在标记我们的 **国籍** 字段名称以及我们的新角色，我们现在可以在Adobe Journey Optimizer中看到此限制的影响。
-例如，第一个有权访问标记为C2的对象的用户X将创建一个历程，其条件以受限用户为目标 **[!UICONTROL 字段名称]**. 第二个用户Y无权访问标记为C2的对象，则需要发布该历程。
+例如，第一个访问标记为C2的对象的历程X将创建一个用户，其条件以受限用户为目标 **[!UICONTROL 字段名称]**. 第二个用户Y无权访问标记为C2的对象，则需要发布该历程。
 
 1. 在Adobe Journey Optimizer中，您首先需要配置 **[!UICONTROL 数据源]** 使用新架构。
 
@@ -144,11 +144,11 @@ ht-degree: 1%
 
    ![](assets/journey_6.png)
 
-1. 编辑您的 **[!UICONTROL 条件]** 以受限制的特定群体为目标 **国籍** 字段。
+1. 编辑您的 **[!UICONTROL 条件]** 使用受限制的特定群体进行定位 **国籍** 字段。
 
    ![](assets/journey_7.png)
 
-1. 根据需要个性化您的历程，此处我们添加了一个 **[!UICONTROL 电子邮件]** 操作。
+1. 根据需要个性化您的历程，我们在此添加一个 **[!UICONTROL 电子邮件]** 操作。
 
    ![](assets/journey_8.png)
 
@@ -156,7 +156,7 @@ ht-degree: 1%
 
 * 用户Y将无法使用受限字段名称，因为它将不可见。
 
-* 用户Y将无法在“高级”模式下编辑具有受限字段名称的表达式。 将出现以下错误 `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
+* 在高级模式下，用户Y将无法编辑具有受限字段名称的表达式。 将出现以下错误 `The expression is invalid. Field is no longer available or you don't have enough permission to see it`.
 
 * 用户Y可以删除表达式。
 

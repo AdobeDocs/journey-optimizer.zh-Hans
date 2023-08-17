@@ -39,7 +39,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## 当前时间（以毫秒为单位）{#current-time}
 
-此 `currentTimeInMillis` 函数用于检索当前时间，以纪元毫秒为单位。
+此 `currentTimeInMillis` 函数用于检索当前时间（以纪元毫秒为单位）。
 
 **语法**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 每周的某一日{#day-week}
 
-此 `dayOfWeek` 函数用于检索星期几。
+此 `dayOfWeek` 函数用于检索每周的某天。
 
 **语法**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 年中哪天{#day-year}
 
-此 `dayOfYear` 函数用于检索每年的某一日。
+此 `dayOfYear` 函数用于检索年中哪天。
 
 **语法**
 
@@ -154,7 +154,7 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format, locale) %}
 ```
 
-其中第一个字符串是日期属性，第二个值是您希望如何转换和显示日期，第三个值表示字符串格式的区域设置。
+其中第一个字符串是日期属性，第二个值是您希望如何转换和显示日期，第三个值以字符串格式表示区域设置。
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 您可以使用Java日期格式函数，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> 您可以使用格式设置和有效区域设置，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> 您可以使用格式和有效区域设置，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **示例**
@@ -175,7 +175,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 设置天数{#set-days}
 
-此 `setDays` 函数用于为给定的日期时间设置月中日（该月中的第几天）。
+此 `setDays` 函数为给定的日期时间设置月中日（该月中的第几天）。
 
 **语法**
 
@@ -193,7 +193,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 设置小时{#set-hours}
+## 设置小时数{#set-hours}
 
 此 `setHours` 函数用于设置日期时间的小时。
 
@@ -236,7 +236,7 @@ The following operation gets all the values for the map `identityMap`.
 -->
 
 
-## UTC年中的周{#week-of-year}
+## UTC年周{#week-of-year}
 
 此 `weekOfYear` 函数用于检索年中周。
 

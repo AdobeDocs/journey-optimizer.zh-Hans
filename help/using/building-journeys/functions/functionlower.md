@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: lower
-description: 了解函数lower
+description: 了解函数下限
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: lower， function， expression， journey
+keywords: lower，函数，表达式，历程
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt

@@ -19,7 +19,7 @@ ht-degree: 2%
 
 表达式语言还引入了一组查询集合的函数。
 
-这些功能说明如下。 在以下示例中，让我们使用包含集合的事件有效负载：
+这些职能说明如下。 在以下示例中，我们使用包含集合的事件有效负载：
 
 ```json
                 { 
@@ -69,13 +69,13 @@ ht-degree: 2%
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有应用程序用户中，您可以使用IOS 13(布尔表达式“用于IOS 13==应用程序”)获得这些用户。 此函数的结果是包含与布尔表达式匹配的项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
+例如，在所有应用程序用户中，您可以使用IOS 13(布尔表达式“IOS 13==使用的应用程序”)获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
 
-在数据源条件活动中，您可以检查 **[!UICONTROL 所有]** 函数是否为null。 您也可以合并此 **[!UICONTROL 所有]** 函数，例如 **[!UICONTROL count]**. 有关更多信息，请参阅 [数据源条件活动](../condition-activity.md#data_source_condition).
+在数据源条件活动中，您可以检查 **[!UICONTROL 所有]** 函数是否为null。 您也可以合并此 **[!UICONTROL 所有]** 函数和其他函数，例如 **[!UICONTROL count]**. 有关更多信息，请参阅 [数据源条件活动](../condition-activity.md#data_source_condition).
 
 **示例 1:**
 
-我们要检查用户是否安装了应用程序的特定版本。 为此，我们将获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，我们使用 **[!UICONTROL count]** 函数以检查返回的令牌列表是否至少包含一个元素。
+我们要检查用户是否已安装了应用程序的特定版本。 为此，我们将获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，我们使用 **[!UICONTROL count]** 函数，以检查返回的令牌列表是否至少包含一个元素。
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -85,13 +85,13 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **示例 2:**
 
-此处我们使用 **[!UICONTROL count]** 函数以检查集合中是否存在推送通知令牌。
+在这里，我们使用 **[!UICONTROL count]** 函数检查集合中是否存在推送通知令牌。
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
-结果将为true。
+结果将会是真。
 
 <!--Alternatively, you can check if there is no token in the collection:
 
@@ -118,7 +118,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->当筛选条件位于 **all()** 函数为空，则过滤器将返回列表中的所有元素。 **但是，为了计算集合的元素数，不需要all函数。**
+>当过滤条件在 **all()** 函数为空，则过滤器将返回列表中的所有元素。 **但是，要计算集合的元素数，不需要all函数。**
 
 
 ```json
@@ -129,7 +129,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **示例 3:**
 
-此处我们检查个人在过去24小时内是否未收到任何通信。 我们使用基于集合的两个元素的两个表达式，筛选从ExperiencePlatform数据源检索到的体验事件集合。 特别是，事件的时间戳会与返回的日期时间进行比较 **[!UICONTROL nowWithDelta]** 函数。
+在此处，我们检查个人在过去24小时内是否未收到任何通信。 我们使用基于集合的两个元素的两个表达式，过滤从ExperiencePlatform数据源检索到的体验事件集合。 特别是，会将事件的时间戳与返回的日期时间进行比较 **[!UICONTROL nowWithΔ]** 函数。
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -141,7 +141,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 **示例 4:**
 
-在此，我们要检查个人在过去7天内是否至少启动过一次应用程序，以便触发推送通知，邀请他们启动教程。
+在此处，我们要检查个人在过去7天内是否至少启动过一次应用程序，以便触发推送通知，邀请他们启动教程。
 
 ```json
 count(
@@ -169,14 +169,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 仅在处理事件集合和时可用 **currentDataPackField**
->处理数据源集合时。 处理收藏集时使用 **[!UICONTROL 所有]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 最后]**，我们
+>**[!UICONTROL currentEventField]** 仅在处理事件集合和 **currentDataPackField**
+>处理数据源集合时。 处理收藏集时 **[!UICONTROL 所有]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 最后一个]**， we
 >逐个循环集合的每个元素。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
 >对应于正在循环的元素。
 
 **函数“first(`<condition>`)”和“last(`<condition>`)”**
 
-此 **[!UICONTROL 第一]** 和 **[!UICONTROL 最后]** 函数还支持对集合定义过滤器，同时返回满足过滤器的列表的第一个/最后一个元素。
+此 **[!UICONTROL 第一]** 和 **[!UICONTROL 最后一个]** 函数还支持对集合定义过滤器，同时返回满足过滤器的列表的第一个/最后一个元素。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -204,11 +204,10 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->体验事件作为收藏集从Adobe Experience Platform中按反时间顺序进行检索，因此：
+>体验事件将作为集合，以反向时间顺序从Adobe Experience Platform中进行检索，因此：
 >
 >* **[!UICONTROL 第一]** 函数将返回最近的事件
->* **[!UICONTROL 最后]** 函数将返回最早的一个。
-
+>* **[!UICONTROL 最后一个]** 函数将返回最早的一个。
 
 **示例 3:**
 

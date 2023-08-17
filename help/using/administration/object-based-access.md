@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 对象级访问控制
-description: 了解对象级访问控制，该访问控制允许您定义管理对所选对象的数据访问的授权
+description: 了解对象级访问控制，它允许您定义管理对所选对象的数据访问的授权
 feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
@@ -34,9 +34,9 @@ ht-degree: 15%
 * 静态优惠收藏集
 * 优惠决策
 
-其目的是保护敏感的数字资产免受未经授权用户的侵害，从而进一步保护个人数据。
+其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 
-在Adobe Journey Optimizer中，OLAC允许您保护数据并授予对特定对象的特定访问权限。
+在Adobe Journey Optimizer中，OLAC允许您保护数据并授予特定对象的特定访问权限。
 
 ## 创建标签 {#create-assign-labels}
 
@@ -50,7 +50,7 @@ ht-degree: 15%
 
 **[!UICONTROL 标签]** 也可以直接在Journey Optimizer中创建：
 
-1. 从Adobe Journey Optimizer对象，此处为新创建的 **[!UICONTROL Campaign]**，单击 **[!UICONTROL 管理访问权限]** 按钮。
+1. 从Adobe Journey Optimizer对象中，以下是一个新创建的 **[!UICONTROL 营销活动]**，单击 **[!UICONTROL 管理访问权限]** 按钮。
 
    ![](assets/olac_1.png)
 
@@ -58,14 +58,14 @@ ht-degree: 15%
 
    ![](assets/olac_2.png)
 
-1. 配置标签，必须指定：
+1. 配置标签，您必须指定：
    * **[!UICONTROL 名称]**
    * **[!UICONTROL 友好名称]**
    * **[!UICONTROL 描述]**
 
    ![](assets/olac_3.png)
 
-1. 单击 **[!UICONTROL 创建]** 保存您的 **[!UICONTROL 标签]**.
+1. 单击 **[!UICONTROL 创建]** 以保存您的 **[!UICONTROL 标签]**.
 
 您新创建的 **[!UICONTROL 标签]** 现在可在列表中找到。 如果需要，您可以在以下位置对其进行修改： [!DNL Permissions] 产品。
 
@@ -73,11 +73,11 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->要分配标签，您必须是具有管理权限的角色的一部分，即 [!DNL Manage journeys]， [!DNL Manage Campaigns] 或 [!DNL Manage decisions]. 如果没有此权限， **[!UICONTROL 管理访问权限]** 按钮将灰显。
+>要分配标签，您必须是具有管理权限(即 [!DNL Manage journeys]， [!DNL Manage Campaigns] 或 [!DNL Manage decisions]. 如果没有此权限， **[!UICONTROL 管理访问权限]** 按钮将灰显。
 
 要将自定义或核心数据使用标签分配给您的Journey Optimizer对象，请执行以下操作：
 
-1. 从Adobe Journey Optimizer对象，此处为新创建的 **[!UICONTROL Campaign]**，单击 **[!UICONTROL 管理访问权限]** 按钮。
+1. 从Adobe Journey Optimizer对象中，以下是一个新创建的 **[!UICONTROL 营销活动]**，单击 **[!UICONTROL 管理访问权限]** 按钮。
 
    ![](assets/olac_1.png)
 

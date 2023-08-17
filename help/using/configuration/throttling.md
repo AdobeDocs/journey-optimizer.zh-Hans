@@ -16,9 +16,9 @@ ht-degree: 91%
 
 # 使用 API 限制
 
-限制API可帮助您创建、配置和监视限制配置，以限制每秒发送的事件数。
+节流API可帮助您创建、配置和监视节流配置，以限制每秒发送的事件数。
 
-本节提供了有关如何使用API的全球信息。 有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/).
+本节提供有关如何使用API的全球信息。 有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >

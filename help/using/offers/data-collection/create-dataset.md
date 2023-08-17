@@ -16,9 +16,9 @@ ht-degree: 12%
 
 # 创建数据集以收集事件 {#create-dataset}
 
-要收集体验事件，您首先需要创建将这些事件发送到的数据集。
+要收集体验事件，您首先需要创建一个将发送这些事件的数据集。
 
-首先创建将在数据集中使用的架构：
+首先，创建将在您的数据集中使用的架构：
 
 1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]** 然后转到 **[!UICONTROL 浏览]** 选项卡。
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 在 **[!UICONTROL 搜索]** 字段，键入“proposition interaction”。
+1. 在 **[!UICONTROL Search]** 字段，键入“proposition interaction”。
 
 1. 选择 **[!UICONTROL 体验事件 — 建议交互]** 字段组并单击 **[!UICONTROL 添加字段组]**.
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->了解有关在中构建架构的更多信息 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#understanding-schemas){target="_blank"}.
+>详细了解在中构建架构 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#understanding-schemas){target="_blank"}.
 
 您现在已准备好使用此架构创建数据集。 为此，请执行以下步骤：
 

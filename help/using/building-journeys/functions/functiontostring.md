@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: toString
-description: 了解toString函数
+description: 了解函数toString
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 # toString {#toString}
 
-根据类型将参数值转换为字符串值。 有关数据类型的更多信息，请参阅 [此页面](../expression/data-types.md).
+根据类型将参数值转换为字符串值。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
 
 ## 类别
 
@@ -34,10 +34,10 @@ ht-degree: 8%
 | dateTimeOnly | 将日期转换为UTC日期格式 |
 | 持续时间 | 转换为字符串形式的相应毫秒数 |
 | 整数 | 转换为值的字符串表示形式（1变为“1”） |
-| 十进制 | 转换为值的字符串表示形式（1.5变为“1.5”） |
+| 小数 | 转换为值的字符串表示形式（1.5变为“1.5”） |
 | 布尔 | 将布尔值转换为“true”（如果为true），“false”（如果为false） |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `toString(<dateTimeOnly>)`
 

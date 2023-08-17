@@ -15,13 +15,13 @@ ht-degree: 12%
 
 # 创建决策 {#create-decision}
 
-您可以通过对以下对象发出POST请求来创建决策 [!DNL Offer Library] API，同时提供容器ID。
+您可以通过向以下网站发出POST请求来创建决策 [!DNL Offer Library] API，同时提供容器ID。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的决策的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的决策。
+成功的响应会返回有关新创建的决策的信息，包括其唯一实例ID和位置 `@id`. 您可以在后面的步骤中使用实例ID来更新或删除您的决策。
 
 ```json
 {

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 个性化验证
-description: 详细了解个性化验证和疑难解答。
+description: 详细了解个性化验证以及如何进行故障排除。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -20,15 +20,17 @@ ht-degree: 1%
 
 ## 验证机制 {#validation-mechanisms}
 
-在 **表达式编辑器** 屏幕，使用 **验证** 按钮以检查您的个性化语法。
+在 **表达式编辑器** 屏幕，使用 **验证** 按钮检查您的个性化语法。
 
 >[!NOTE]
-> 单击 **添加** 按钮以关闭编辑器窗口。
+> 当您单击 **添加** 按钮以关闭编辑器窗口。
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 如果个性化语法无效，则无法关闭表达式编辑器窗口。
+>
 
 ## 常见错误 {#common-errors}
 
@@ -36,7 +38,7 @@ ht-degree: 1%
 
 尝试引用架构中未定义的字段时。
 
-在这种情况下 **名字1** 未在配置文件架构中定义为属性：
+在本例中 **名字1** 未定义为配置文件架构中的属性：
 
 ```
 {{profile.person.name.firstName1}}
@@ -46,7 +48,7 @@ ht-degree: 1%
 
 当尝试对字符串而不是数组进行迭代时：
 
-在这种情况下 **product** 不是数组：
+在本例中 **产品** 不是数组：
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -54,9 +56,9 @@ ht-degree: 1%
 {{/each}}
 ```
 
-* **Handlebars语法无效。 已找到`‘[XYZ}}’`**
+* **把手语法无效。 已找到`‘[XYZ}}’`**
 
-当使用了无效的handlebars语法时。
+当使用了无效的Handlebars语法时。
 
 Handlebars表达式周围有 **{{expression}}**
 
@@ -99,11 +101,11 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   </tr> 
    <tr> 
    <td>offerId中不存在公共URL。</td> 
-   <td>图像选件（与决策和投放位置对关联的所有个性化和回退）应填充公共URL（deliveryURL不应为空）。</td> 
+   <td>图像选件（所有与决策和投放对关联的个性化和回退）应填充公共URL（deliveryURL不应为空）。</td> 
   </tr> 
   <tr> 
    <td>决策包含非配置文件属性。</td> 
-   <td>优惠模型用法应仅包含配置文件属性。</td> 
+   <td>选件模型用法应仅包含配置文件属性。</td> 
   </tr> 
   <tr> 
    <td>获取决策用法时出错。</td> 
@@ -112,7 +114,7 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   <tr> 
    <td>选件属性offer-attribute无效。</td> 
    <td>检查选件drp中引用的选件属性是否有效。 以下是有效的属性： <br/>
-图像： deliveryURL， linkURL<br/>
+图像：deliveryURL、linkURL<br/>
 文本：内容<br/>
 HTML：内容<br/></td> 
   </tr> 

@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # 创建 Web 体验 {#create-web}
 
-[!DNL Journey Optimizer] 允许您通过入站Web营销活动为客户提供Web体验，从而实现个性化。
+[!DNL Journey Optimizer] 允许您将通过入站Web营销活动向客户提供的Web体验个性化。
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ ht-degree: 20%
 >title="构建页面匹配规则"
 >abstract="一条页面匹配规则即可针对多个匹配同一规则的 URL - 例如，如果要将更改应用于跨越整个网站的主图横幅或添加在网站的所有产品页面上显示的置顶图像。"
 
-要开始通过营销活动构建Web体验，请执行以下步骤。
+要通过营销活动开始构建Web体验，请执行以下步骤。
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 20%
    >
    >Web表面是由要交付内容的URL标识的Web属性。 它可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页进行修改。
 
-   您可以输入 **[!UICONTROL 页面URL]** （如果要将更改仅应用于单个页面）。
+   您可以输入 **[!UICONTROL 页面URL]** （如果要仅将更改应用于单个页面）。
 
    ![](assets/web-campaign-surface.png)
 
@@ -61,7 +61,7 @@ ht-degree: 20%
 
    ![](assets/web-campaign-matching-rule.png)
 
-1. 定义您的标准 **[!UICONTROL 域]** 和 **[!UICONTROL 页面]** 字段。
+1. 为以下项定义您的标准 **[!UICONTROL 域]** 和 **[!UICONTROL 页面]** 字段。
 
    例如，如果您要编辑显示在Luma网站的所有女性产品页面上的元素，请选择 **[!UICONTROL 域]** > **[!UICONTROL 开头为]** > `luma` 和 **[!UICONTROL 页面]** > **[!UICONTROL 包含]** > `women`.
 
@@ -71,9 +71,9 @@ ht-degree: 20%
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. 定义Web曲面后，选择 **[!UICONTROL 创建]**.
+1. 定义Web表面后，选择 **[!UICONTROL 创建]**.
 
-1. 完成创建Web营销活动的步骤，如营销活动属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
+1. 完成步骤以创建Web营销活动，如营销活动属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
@@ -81,15 +81,15 @@ ht-degree: 20%
 
 ## 激活Web活动 {#activate-web-campaign}
 
-一旦您定义了 [Web营销活动设置](#configure-web-campaign) 并且您根据需要使用 [Web设计器](author-web.md)，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
+定义您的 [Web营销活动设置](#configure-web-campaign) 并且您根据需要使用 [Web设计器](author-web.md)，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
 
 >[!NOTE]
 >
 >您还可以在激活Web营销活动内容之前对其进行预览。 [了解详情](author-web.md#test-web-campaign)
 
-1. 在Web营销活动中，选择 **[!UICONTROL 查看以激活]**.
+1. 在Web营销活动中，选择 **[!UICONTROL 审查以激活]**.
 
-1. 根据需要检查并编辑内容、属性、表面、受众和计划。
+1. 检查并编辑内容、属性、界面、受众和计划（如果需要）。
 
 1. 选择 **[!UICONTROL 激活]**.
 
@@ -97,9 +97,9 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >单击之后 **[!UICONTROL 激活]**，网站营销活动更改最多可能需要15分钟才能实时发布。
+   >单击之后 **[!UICONTROL 激活]**，则网站营销活动更改最多可能需要15分钟才能在网站上实时可用。
 
-您的Web营销活动会获取 **[!UICONTROL 实时]** 状态，并且现在对选定的受众可见。 营销活动的每个收件人均可以使用查看您添加到网站的修改 [!DNL Journey Optimizer] Web设计器。
+您的Web营销活动会获取 **[!UICONTROL 实时]** 状态，并且现在对选定的受众可见。 营销活动的每个收件人均可使用查看您在网站中添加的修改。 [!DNL Journey Optimizer] Web设计器。
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ ht-degree: 20%
 
 ## 停止Web活动 {#stop-web-campaign}
 
-当Web营销活动处于实时状态时，您可以停止它以防止受众看到您的修改。 请按照以下步骤操作。
+在Web营销活动处于实时状态时，您可以停止它以防止受众看到您的修改。 请按照以下步骤操作。
 
 1. 从列表中选择一个实时营销活动。
 
@@ -127,6 +127,6 @@ ht-degree: 20%
 
 ## 操作方法视频{#video}
 
-以下视频介绍了如何创建Web营销活动、配置其属性、查看并发布它。
+以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -21,9 +21,9 @@ ht-degree: 8%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -73,11 +73,11 @@ curl -X PATCH \
 | --------- | ----------- |
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
 | `path` | 要更新的参数的路径。 |
-| `value` | 您希望使用更新参数的新值。 |
+| `value` | 要用于更新参数的新值。 |
 
 **响应**
 
-成功的响应将返回个性化优惠的更新详细信息，包括其唯一的实例ID和个性化优惠 `@id`.
+成功的响应会返回个性化优惠的更新详细信息，包括其唯一实例ID和个性化优惠 `@id`.
 
 ```json
 {

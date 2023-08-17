@@ -43,7 +43,7 @@ ht-degree: 30%
 
 `countWithNull(<listAny>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

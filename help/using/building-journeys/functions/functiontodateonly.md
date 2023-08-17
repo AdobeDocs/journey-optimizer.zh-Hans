@@ -30,7 +30,7 @@ ht-degree: 10%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 以“YYYY-MM-DD”（XDM格式）表示日期的字符串表示。 还支持ISO-8601格式：仅限 **完整日期** 已考虑部件(请参阅 [RFC 3339,5.6节](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 字符串 |
+| 以“YYYY-MM-DD”形式表示的日期的字符串（XDM格式）。 还支持ISO-8601格式：仅限 **完整日期** 部分已考虑(请参阅 [RFC 3339,5.6节](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 字符串 |
 | 日期时间 | dateTime |
 | 不带时区的日期时间 | dateTimeOnly |
 | 纪元的整数值（以毫秒为单位） | 整数 |

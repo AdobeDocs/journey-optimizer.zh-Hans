@@ -15,42 +15,42 @@ ht-degree: 35%
 
 # 选件库用户界面 {#user-interface}
 
-此 **[!UICONTROL 决策管理]** 左边栏中的部分提供两个菜单，用于访问决策管理功能：
+此 **[!UICONTROL 决策管理]** 部分提供了两个菜单，用于访问决策管理功能：
 
 使用 **[!UICONTROL 选件]** 用于管理和提供优惠的菜单：
 
 
 ![](../assets/offers_menu.png)
 
-* **[!UICONTROL 概述]**：新到 [!DNL decision management]？ 按照屏幕上的步骤开始设置投放位置、优惠和收藏集。 在已经熟悉时 [!DNL decision management]，大致了解您最近的优惠、收藏集和决策。 [了解详情](#overview)
+* **[!UICONTROL 概述]**：新用户 [!DNL decision management]？ 按照屏幕上的步骤开始设置投放位置、优惠和收藏集。 在已经熟悉时 [!DNL decision management]，大致了解您最近的优惠、收藏集和决策。 [了解详情](#overview)
 * **[!UICONTROL 选件]**：创建和访问您的个性化的后备优惠。 了解如何创建 [优惠](../offer-library/creating-personalized-offers.md) 和 [后备优惠](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL 收藏集]**：将优惠组织为静态和动态收藏集。 [了解详情](../offer-library/creating-collections.md)
 * **[!UICONTROL 决策]**：创建和管理决策以投放优惠。 [了解详情](../offer-activities/create-offer-activities.md)
 * **[!UICONTROL 批量决策]**：将优惠决策交付给给给定Adobe Experience Platform受众中的所有用户档案。 [了解详情](../batch-delivery.md)
-* **[!UICONTROL 模拟]**：通过模拟将哪些优惠提供给给定投放位置的测试用户档案来验证决策逻辑。 [了解详情](../offer-activities/simulation.md)
+* **[!UICONTROL 模拟]**：通过模拟将哪些优惠传递到给定投放位置的测试用户档案，验证您的决策逻辑。 [了解详情](../offer-activities/simulation.md)
 
-使用 **[!UICONTROL 组件]** 用于创建和管理创建优惠和决策所需的组件的菜单：
+使用 **[!UICONTROL 组件]** 菜单以创建和管理创建优惠和决策所需的组件：
 
 ![](../assets/offer_activities.png)
 
 * **[!UICONTROL 版面]**：创建和管理优惠将显示的投放位置。 [了解详情](../offer-library/creating-placements.md)
 * **[!UICONTROL 收藏集限定符]**：创建和管理收藏集限定符（以前称为“标记”）以组织和筛选优惠。 [了解详情](../offer-library/creating-tags.md)
-* **[!UICONTROL 规则]**：管理提供优惠的条件。 [了解详情](../offer-library/creating-decision-rules.md)
-* **[!UICONTROL 排名]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪个优惠。 [了解详情](../ranking/create-ranking-formulas.md)
+* **[!UICONTROL 规则]**：管理您的优惠的展示条件。 [了解详情](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL 排名]**：创建和管理排名公式，以确定在给定投放位置应首先显示哪些优惠。 [了解详情](../ranking/create-ranking-formulas.md)
 
 >[!NOTE]
 >
->如果您在访问决策管理或其某些功能时遇到问题，请联系管理员用户，确认您已获得所需的权限。 参见 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>如果您在访问决策管理或其某些功能时遇到问题，请与管理员用户联系，确认您已获得所需的权限。 请参阅 [授予对决策管理的访问权限](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 ## 概述 {#overview}
 
-当您初次使用 [!DNL decision management]，则 **[!UICONTROL 概述]** 选项卡将指导您完成开始构建第一个优惠决策所需的主要步骤。 按照屏幕上的步骤开始创建投放位置、优惠和收藏集。 完成这些首要步骤后，系统会提示您创建优惠决策。
+当您初次使用 [!DNL decision management]， **[!UICONTROL 概述]** 选项卡将指导您完成开始构建您的第一个优惠决策所需的主要步骤。 按照屏幕上的步骤开始创建投放位置、优惠和收藏集。 完成这些首要步骤后，系统会提示您创建优惠决策。
 
 >[!NOTE]
 >
 >有关创建优惠并在决策中使用优惠的主要步骤，请参见 [本节](../offer-library/key-steps.md).
 
-当您更熟悉 [!DNL decision management] 并且您已创建至少一个优惠决策， **[!UICONTROL 概述]** 选项卡会显示您最近的优惠、收藏集和决策。
+当您更熟悉 [!DNL decision management] 而且您已创建至少一个优惠决策， **[!UICONTROL 概述]** 选项卡会显示您最近的优惠、收藏集和决策。
 
 单击优惠或决策以直接访问所选项目的详细信息。
 
@@ -88,7 +88,7 @@ ht-degree: 35%
 
 ## 优惠和决策更改日志 {#changes-logs}
 
-优惠库允许您可视化对优惠或决策所做的所有更改。 要执行此操作，请在列表中单击优惠或决策的名称以将其打开，然后选择 **[!UICONTROL 更改日志]** 选项卡。
+优惠库允许您可视化对优惠或决策所做的所有更改。 为此，请在列表中单击优惠名称或决策名称来打开优惠或决策，然后选择 **[!UICONTROL 更改日志]** 选项卡。
 
 此屏幕中显示所有已完成的更改，还显示执行更改的用户姓名。
 

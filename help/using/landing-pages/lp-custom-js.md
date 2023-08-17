@@ -22,27 +22,27 @@ ht-degree: 2%
 
 ## 将JavaScript代码插入登陆页面
 
-要将自定义JavaScript插入到登陆页面内容中，您可以执行以下操作：
+要将自定义JavaScript插入登陆页面内容，您可以执行以下操作：
 
 * 开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 了解如何导入内容 [在此部分中](../email/existing-content.md).
 
-* 从头开始或从保存的模板设计登陆页面。 拖放 **[!UICONTROL HTML]** 将内容组件添加到画布中并显示源代码以将JavaScript添加到组件中。 了解如何在中使用HTML组件 [本节](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 从头开始或从保存的模板设计登陆页面。 拖放 **[!UICONTROL HTML]** 将内容组件放入画布并显示源代码以将JavaScript添加到组件中。 了解如何在中使用HTML组件 [本节](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * 将JavaScript代码直接输入或粘贴到内容设计器中。 了解如何为自己的内容编码 [在此部分中](../email/code-content.md).
 
 >[!NOTE]
 >
->目前，在以下情况下，您无法显示JavaScript正在使用 [预览登陆页面](create-lp.md#test-landing-page).
+>当前，在以下情况下，您无法显示JavaScript正在使用 [预览登陆页面](create-lp.md#test-landing-page).
 
 要正确显示登陆页面，请使用以下语法，如下节所述。
 
 ## 代码初始化
 
-要初始化JavaScript代码，您必须使用 `lpRuntimeReady` 事件。 成功初始化库后，将触发此事件。 回调将通过以下方式执行 `lpRuntime` 对象来公开库方法和挂接。
+要初始化JavaScript代码，您必须使用 `lpRuntimeReady` 事件。 成功初始化库后，将触发此事件。 回调将使用 `lpRuntime` 对象以公开库方法和挂接。
 
-`LpRuntime` 表示“登陆页面运行时”。 此对象是主库标识符。 它会公开挂接、表单提交方法以及在自定义JavaScript中使用的其他实用程序方法。
+`LpRuntime` 其中，表示“Landing page Runtime”。 此对象是主库标识符。 它会公开挂接、表单提交方法以及在自定义JavaScript中使用的其他实用工具方法。
 
 **示例：**
 
@@ -68,9 +68,9 @@ function init(lpRuntime){
 
 | 名称 | 描述 |
 |--- |--- |
-| addBeforeSubmitHook | 在提交表单之前调用的自定义挂接。 返回true可继续提交，返回false可阻止提交。 |
-| addOnFailureHook | 在失败的表单提交时调用的自定义挂接。 |
-| addOnSuccessHook | 在成功提交表单时要调用的自定义挂接。 |
+| addBeforeSubmitHook | 在提交表单之前调用的自定义挂接。 返回true以继续提交，否则返回false以阻止提交。 |
+| addOnFailureHook | 在表单提交失败时调用的自定义挂接。 |
+| Addonsuccessfhook | 在成功提交表单时将调用的自定义挂接。 |
 
 **示例：**
 
@@ -92,7 +92,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 | 名称 | 描述 |
 |--- |--- |
 | submitform | 此方法将提交表单，并处理后提交流程。 |
-| submitFormPartial | 此方法还将提交表单，但将跳过后提交流程。 例如，如果已配置在提交成功后重定向到成功页面，则在提交部分表单时不会发生该重定向。 |
+| submitFormPartial | 此方法还将提交表单，但将跳过后提交流程。 例如，如果您在成功提交后配置了重定向到成功页面，那么在提交部分表单的情况下，将不会发生此重定向。 |
 
 **示例：**
 
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | 名称 | 描述 |
 |--- |--- |
-| getFormData | 此方法可用于获取 `formData` 以JSON对象的形式提供。 此对象可以传递到 `submitForm` 用于表单提交。 |
+| getFormData | 此方法可用于获取 `formData` 以JSON对象的形式提供。 此对象可以传递到 `submitForm` 用于提交表单。 |
 
 **示例：**
 

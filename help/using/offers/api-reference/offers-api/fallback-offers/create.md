@@ -19,9 +19,9 @@ ht-degree: 11%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 后备优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 

@@ -27,7 +27,7 @@ ht-degree: 27%
 
 ## journeyVersionID {#journeyversionid-field}
 
-历程版本的ID。 此ID表示历程的身份。
+历程版本的ID。 此id表示历程的身份。
 
 类型：字符串
 
@@ -39,7 +39,7 @@ ht-degree: 27%
 
 ## 描述 {#description-field}
 
-历程描述。
+历程的描述。
 
 类型：字符串
 

@@ -7,7 +7,7 @@ feature: Data Sources
 topic: Administration
 role: Admin, Developer
 level: Intermediate
-keywords: 数据，来源，历程，平台
+keywords: 数据，源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ➡️ [在视频中发现此功能](#video)
 
-如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的历程由一个事件组成，后跟一个仅使用事件数据的渠道操作活动，则无需配置数据源。
+如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的历程由一个事件组成，后跟一个只使用事件数据的渠道操作活动，则无需配置数据源。
 
 数据源有两种类型：
 
@@ -45,7 +45,7 @@ ht-degree: 73%
 >
 >数据源不支持架构关系。
 
-有关如何配置Adobe Experience Platform数据源和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此 [教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+有关如何配置Adobe Experience Platform数据源和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此视频 [教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## 操作方法视频 {#video}
 

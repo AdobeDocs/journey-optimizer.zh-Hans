@@ -26,7 +26,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 备用选件所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | 后备优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 定义与后备优惠关联的架构。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
 | `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `F1: Web fallback` |
@@ -45,7 +45,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应将返回投放位置的详细信息，包括有关容器ID、实例ID和唯一备用选件的信息 `@id`.
+成功的响应将返回投放位置的详细信息，包括有关容器ID、实例ID和唯一后备优惠的信息 `@id`.
 
 ```json
 {

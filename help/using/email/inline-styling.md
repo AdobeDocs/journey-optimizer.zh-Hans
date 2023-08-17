@@ -18,11 +18,11 @@ ht-degree: 36%
 
 # 添加内联样式属性 {#inline-styling}
 
-在Email Designer界面中，当您选择某个元素并在侧面板上显示其设置时，可以自定义该特定元素的内联属性及其值。
+在Email Designer界面中，当您选择元素并在侧面板上显示其设置时，您可以自定义该特定元素的内联属性及其值。
 
 1. 在内容中选择元素。
 
-1. 从 **[!UICONTROL 样式]** 选项卡，查找 **[!UICONTROL 内联样式]** 下的设置 **[!UICONTROL 高级]** 下拉菜单。
+1. 从 **[!UICONTROL 样式]** 选项卡，查找 **[!UICONTROL 行内样式]** 下的设置 **[!UICONTROL 高级]** 下拉菜单。
 
    ![](assets/styles_1.png)
 

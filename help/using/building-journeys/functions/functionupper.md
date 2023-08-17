@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: upper
-description: 了解upper函数
+description: 了解函数上限
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: upper， function， expression， journey
+keywords: upper，函数，表达式，历程
 exl-id: 09e11d52-2d52-4479-b67f-6dd53b00a861
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt

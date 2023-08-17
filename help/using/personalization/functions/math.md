@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 格式数字 {#format-number}
 
-此 `formatNumber` 函数用于将任何数字格式化为其对语言敏感的表示形式。
+此 `formatNumber` 函数用于将任何数字格式化为其区分语言的表示形式。
 
 它接受一个数字和一个表示区域设置的字符串，并返回所需区域设置中数字的格式化字符串。
 
@@ -39,11 +39,11 @@ ht-degree: 6%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-您可以使用格式设置和有效区域设置，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+您可以使用格式和有效区域设置，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **示例**
 
-此查询返回一个阿拉伯文格式字符串，作为输入数字与123456.789相对应。
+此查询返回一个格式化的阿拉伯语字符串，作为输入数字，对应于123456.789。
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ## Random {#random}
 
-此 `random` 函数用于返回介于0和1之间的随机值。
+此 `random` 函数用于返回0到1之间的随机值。
 
 **语法**
 
@@ -59,7 +59,7 @@ ht-degree: 6%
 {%= random() %}: double
 ```
 
-## 向下四舍五入 {#round-down}
+## Round down {#round-down}
 
 此 `roundDown` 函数用于对数字进行向下舍入。
 
@@ -107,7 +107,7 @@ ht-degree: 6%
 {%= toPercentage(double) %}: string
 ```
 
-## 目标精度 {#to-precision}
+## 到Precision {#to-precision}
 
 此 `toPrecision` 函数用于将数字转换为所需的精度。
 

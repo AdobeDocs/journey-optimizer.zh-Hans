@@ -29,12 +29,12 @@ ht-degree: 25%
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据治理](../action/action-privacy.md).
+* [数据管理](../action/action-privacy.md).
 * [同意](../action/consent.md).
 
 ## URL 配置
 
-的配置窗格 **自定义操作** 活动显示为自定义操作配置的URL配置参数和身份验证参数。 您不能在历程中设置URL的静态部分，而应在自定义操作的全局配置中设置。 [了解详情](../action/about-custom-action-configuration.md)。
+的配置窗格 **自定义操作** 活动显示为自定义操作配置的URL配置参数和身份验证参数。 您无法在历程中设置URL的静态部分，但可以在自定义操作的全局配置中设置。 [了解详情](../action/about-custom-action-configuration.md)。
 
 ### 动态路径
 
@@ -59,7 +59,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL URL配置]** 部分显示动态标题和查询参数字段，但不显示常量字段。 在操作配置屏幕中，动态标头和查询参数字段被定义为变量。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
 
-要指定动态标题和查询参数字段的值，请在字段内或铅笔图标上单击，然后选择所需的字段。
+要指定动态标题和查询参数字段的值，请在字段内或铅笔图标上单击，然后选择所需字段。
 
 ![](assets/journey-dynamicheaderfield.png)
 

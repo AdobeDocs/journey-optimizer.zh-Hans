@@ -24,9 +24,9 @@ ht-degree: 13%
 
 从那里，您可以：
 
-* **从头开始设计登陆页面** 通过内容设计器的界面，并利用以下项的图像： [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../email/content-from-scratch.md).
+* **从头开始设计登陆页面** 通过内容设计器的界面，并利用来自以下各项的图像 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../email/content-from-scratch.md).
 
-* **编码或粘贴原始HTML** 直接导入内容设计器中。 了解如何为自己的内容编码 [在此部分中](../email/code-content.md).
+* **编码或粘贴原始HTML** 直接导入内容设计器。 了解如何为自己的内容编码 [在此部分中](../email/code-content.md).
 
 * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。了解如何导入内容 [在此部分中](../email/existing-content.md).
 

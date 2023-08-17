@@ -15,19 +15,19 @@ ht-degree: 4%
 
 # 使用Edge Decisioning API提供优惠 {#edge-decisioning-api}
 
-## 入门指南和先决条件 {#edge-overview-and-prerequisites}
+## 快速入门和先决条件 {#edge-overview-and-prerequisites}
 
 此 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) 是一个客户端JavaScript库，它允许Adobe Experience Cloud客户通过Experience Platform边缘网络与Experience Cloud中的各种服务进行交互。
 
-Experience PlatformWeb SDK支持在Adobe查询个性化解决方案，包括决策管理，从而允许您检索和渲染使用API或优惠库创建的个性化优惠。 有关更多详细说明，请参阅以下文档： [创建优惠](../../get-started/starting-offer-decisioning.md).
+Experience PlatformWeb SDK支持在Adobe查询个性化解决方案，包括决策管理，从而允许您检索和呈现使用API或优惠库创建的个性化优惠。 有关更多详细说明，请参阅有关 [创建优惠](../../get-started/starting-offer-decisioning.md).
 
-有两种方法可以通过实施决策管理 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员的，需要了解网站和编程。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需要在HTML页面的标头中引用一个小型脚本。
+有两种方式可使用实施决策管理 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员的，需要了解网站和编程。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需要在HTML页面的标题中引用一个小型脚本。
 
-请参阅以下文档： [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
+请参阅有关以下内容的文档 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
 
 >[!NOTE]
 >
->Adobe Experience Platform Web SDK中的决策管理仅适用于一组组织（限量发布）。 如果要利用此功能，请与您的Adobe客户经理联系。
+>仅有一组组织可以使用Adobe Experience Platform Web SDK中的决策管理（限量发布）。 如果您希望利用此功能，请与您的Adobe客户经理联系。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
@@ -40,13 +40,13 @@ Platform Web SDK取代了以下SDK：
 
 SDK未组合这些库，并且是从头开始的新实施。 要使用它，您必须首先执行以下步骤：
 
-1. 确保贵组织具有使用SDK的相应权限，并且您已正确配置这些权限。
+1. 确保您的组织具有使用SDK的相应权限，并且您已正确配置这些权限。
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) 在Adobe Experience Cloud帐户的“数据收集”选项卡中。
+1. [配置数据流](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) 在Adobe Experience Cloud中的帐户的“数据收集”选项卡中。
 
-1. 安装SDK。 执行此操作的方法有多种，请参见 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans). 本页将继续介绍每种不同的实施方法。
+1. 安装SDK。 执行此操作的方法多种多样，请参见 [安装SDK页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html). 本页将继续使用每种不同的实施方法。
 
 要使用SDK，您必须拥有 [架构](../../../data/get-started-schemas.md) 和 [数据流](../../../data/get-started-datasets.md) 已定义。
 
@@ -60,7 +60,7 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
 ## 选项1 — 使用Launch安装标记扩展和实施
 
-此选项对于编码体验可能较少的用户更友好。
+此选项对于编码体验较少的人更加友好。
 
 1. [创建标记属性](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
 
@@ -72,7 +72,7 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
    ![配置扩展](../../assets/configure-sdk-extension.png)
 
-1. 创建必要的 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans). 您至少必须创建一个Platform Web SDK标识映射和一个Platform Web SDK XDM对象数据元素。
+1. 创建必要的 [数据元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hans). 您必须至少创建一个Platform Web SDK标识映射和一个Platform Web SDK XDM对象数据元素。
 
    ![标识映射](../../assets/sdk-identity-map.png)
 
@@ -86,13 +86,13 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
    ![请求优惠](../../assets/rule-request-offer.png)
 
-1. [创建并发布](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) 一个库，其中包含您配置的所有相关规则、数据元素和扩展。
+1. [创建并发布](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) 一个库，其中包含您已配置的所有相关规则、数据元素和扩展。
 
 ## 选项2 — 使用预建的独立版本手动实施
 
-以下是使用Web SDK预建独立安装来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能不适用于您。 本指南还假定您有一些开发经验。
+以下是使用Web SDK预建独立安装来使用决策管理所需的步骤。 本指南假定这是您首次实施SDK，因此所有步骤可能都不适用于您。 本指南还假定您有一些开发经验。
 
-包括选项2中的以下JavaScript代码片段：上的预建独立版本 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hans) 在 `<head>` HTML部分。
+包含选项2中的以下JavaScript代码片段：上的预建独立版本 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 在 `<head>` HTML部分。
 
 ```
 javascript
@@ -105,11 +105,11 @@ javascript
     <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
-您需要在Adobe帐户中拥有两个ID才能设置SDK配置 — 您的edgeConfigId和您的orgId。 edgeConfigId与您的数据流ID相同，您应在先决条件中配置此数据流ID。
+您需要在Adobe帐户中拥有两个ID才能设置SDK配置：edgeConfigId和orgId。 edgeConfigId与您的数据流ID相同，您应在先决条件中配置此ID。
 
-要查找edgeConfigID/数据流ID，请转到数据收集并选择您的数据流。 要查找您的orgId，请转到您的个人资料。
+要查找您的edgeConfigID/数据流ID，请转到数据收集并选择您的数据流。 要查找您的orgId，请转到您的个人资料。
 
-按照此页面上的说明，在JavaScript中配置SDK。 在配置函数中，您将始终使用edgeConfigId和orgId。 此文档还介绍了您的配置中存在的可选参数。 最终配置可能如下所示：
+按照此页面上的说明，在JavaScript中配置SDK。 您始终将在配置函数中使用edgeConfigId和orgId。 此文档还介绍了您的配置中存在的可选参数。 最终配置可能如下所示：
 
 ```
 javascript
@@ -125,11 +125,11 @@ javascript
     });
 ```
 
-安装调试器Chrome扩展以用于调试。 可在此处找到： <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+安装调试器Chrome扩展以用于调试。 可在此处找到该标记： <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
-接下来，在Debugger中登录到您的帐户。 然后，转到日志并确保已连接到正确的工作区。 现在，从优惠中复制决策范围的base64编码版本。
+接下来，在Debugger中登录您的帐户。 然后，转到日志并确保已连接到正确的工作区。 现在，从优惠中复制决策范围的base64编码版本。
 
-编辑网站时，请包含脚本以及配置和 `sendEvent` 用于将决策范围发送到Adobe的函数。
+编辑网站时，请包含脚本以及配置和 `sendEvent` 函数以将决策范围发送到Adobe。
 
 **示例**:
 
@@ -163,7 +163,7 @@ javascript
 
 >[!NOTE]
 >
->如果您在日志中未看到与边缘的连接，则可能需要禁用广告拦截器。
+>如果日志中未显示与边缘的连接，则可能需要禁用广告拦截器。
 
 请参阅如何创建选件和使用的格式。 根据决策中符合的标准，系统会向您返回一个选件，其中包含您在Adobe Experience Platform中创建该选件时指定的信息。
 
@@ -237,7 +237,7 @@ json
 }
 ```
 
-在此示例中，在网页中处理和使用特定于选件的详细信息所需的路径是： `result['decisions'][0]['items'][0]['data']['content']`
+在此示例中，在网页中处理和使用特定于选件的详细信息所需的路径为： `result['decisions'][0]['items'][0]['data']['content']`
 
 要设置JS变量，请执行以下操作：
 

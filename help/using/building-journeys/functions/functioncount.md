@@ -5,7 +5,7 @@ description: 了解函数计数
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: count，计数， function，函数， expression，历程
+keywords: 计数，函数，表达式，历程
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
@@ -39,11 +39,11 @@ ht-degree: 28%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `count(<listAny>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

@@ -29,17 +29,17 @@ ht-degree: 15%
 
 ## 限制{#custom-actions-limitations}
 
-自定义操作带有中列出的一些限制 [此页面](../start/guardrails.md).
+自定义操作具有下列限制 [此页面](../start/guardrails.md).
 
-在自定义操作参数中，您可以传递简单的集合以及对象集合。 要了解有关收藏集限制的更多信息，请参阅 [此页面](../building-journeys/collections.md#limitations).
+在自定义操作参数中，您可以传递简单的集合以及对象集合。 在中了解有关收藏集限制的更多信息 [此页面](../building-journeys/collections.md#limitations).
 
-另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期的格式。 在本节中了解详情 [用例](../building-journeys/collections.md).
+另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在本节中了解详情 [用例](../building-journeys/collections.md).
 
 ## 同意和数据治理 {#privacy}
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据治理](../action/action-privacy.md).
+* [数据管理](../action/action-privacy.md).
 * [同意](../action/action-privacy.md).
 
 
@@ -58,7 +58,7 @@ ht-degree: 15%
    >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
 
 1. 向操作添加描述。 此步骤是可选的。
-1. 使用此操作的历程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 按钮以显示使用此操作的历程列表。
+1. 使用此操作的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 按钮以显示使用此操作的历程列表。
 1. 定义不同的 **[!UICONTROL URL配置]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
 1. 配置 **[!UICONTROL 身份验证]** 部分。 此配置与数据源的配置相同。  请参阅[此章节](../datasource/external-data-sources.md#custom-authentication-mode)。
 1. 定义 **[!UICONTROL 操作参数]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 ![](assets/journeyurlconfiguration.png)
 
-1. 在 **[!UICONTROL URL]** 字段中，指定外部服务的URL：
+1. 在 **[!UICONTROL URL]** 字段，指定外部服务的URL：
 
    * 如果URL是静态的，请在此字段中输入URL。
 
@@ -100,7 +100,7 @@ ht-degree: 15%
 
 1. 定义标头和查询参数：
 
-   * 在 **[!UICONTROL 标头]** 部分，单击 **[!UICONTROL 添加标题字段]** 定义要发送到外部服务的请求消息的HTTP标头。 此 **[!UICONTROL 内容类型]** 和 **[!UICONTROL Charset]** 默认设置标题字段。 您无法修改或删除这些字段。
+   * 在 **[!UICONTROL 标题]** 部分，单击 **[!UICONTROL 添加标题字段]** 定义发送到外部服务的请求消息的HTTP标头。 此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL 字符集]** 默认设置标题字段。 您无法修改或删除这些字段。
 
    * 在 **[!UICONTROL 查询参数]** 部分，单击 **[!UICONTROL 添加查询参数字段]** 以定义要在URL中添加的参数。
 
@@ -108,19 +108,19 @@ ht-degree: 15%
 
 1. 输入字段的标签或名称。
 
-1. 选择类型： **[!UICONTROL 常量]** 或 **[!UICONTROL 变量]**. 如果已选择 **[!UICONTROL 常量]**，然后在中输入常量值 **[!UICONTROL 值]** 字段。 如果已选择 **[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+1. 选择类型： **[!UICONTROL 常量]** 或 **[!UICONTROL 变量]**. 如果您已选择 **[!UICONTROL 常量]**，然后在中输入常量值 **[!UICONTROL 值]** 字段。 如果您已选择 **[!UICONTROL 变量]**，则您将在向历程添加自定义操作时指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
    ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
    >
-   >将自定义操作添加到历程后，如果历程处于草稿状态，您仍然可以向其添加标题或查询参数字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将字段添加到新的自定义操作。
+   >将自定义操作添加到历程后，如果历程处于草稿状态，您仍然可以向历程添加标题或查询参数字段。 如果您不希望配置更改影响历程，请复制自定义操作并将字段添加到新的自定义操作。
    >
-   >根据字段解析规则验证标头。 了解详情，请参阅 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >将根据字段解析规则验证标头。 了解详情，请参阅 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## 定义操作参数 {#define-the-message-parameters}
 
-在 **[!UICONTROL 操作参数]** 部分，粘贴要发送到外部服务的JSON有效负载示例。
+在 **[!UICONTROL 操作参数]** 部分中，粘贴要发送到外部服务的JSON有效负载示例。
 
 ![](assets/messageparameterssection.png)
 
@@ -132,7 +132,7 @@ ht-degree: 15%
 
 您还可以在指定参数是常量还是变量之间进行选择：
 
-* **常量** 表示参数的值由技术角色在操作配置窗格中定义。 该值将在各个历程中始终相同。 它不会发生变化，并且营销人员在历程中使用自定义操作时不会看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
-* **变量** 表示参数的值将有所不同。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定从何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员在历程中看到的为此参数命名标签。
+* **常量** 表示参数的值由技术角色在操作配置窗格中定义。 值将在各个历程中始终相同。 此操作不会有所不同，并且营销人员在历程中使用自定义操作时不会看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
+* **变量** 表示参数的值将发生变化。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
 
 ![](assets/customactionpayloadmessage2.png)

@@ -16,7 +16,7 @@ ht-degree: 31%
 
 # listSize {#listSize}
 
-计算列表中的元素数量。
+计算列表中的元素数。
 
 ## 类别
 
@@ -39,7 +39,7 @@ ht-degree: 31%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `listSize(<listInteger>)`
 

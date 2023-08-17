@@ -27,6 +27,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
+   >
 
 1. **了解产品配置文件**。产品配置文件是一组单一的权利，允许用户访问界面中的特定功能或对象。在[开箱即用的产品配置文件](../../administration/ootb-product-profiles.md)中了解详情。
 
@@ -43,6 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
+>
 
 请遵循以下步骤：
 
@@ -67,7 +69,9 @@ ht-degree: 100%
 1. **管理禁止和允许列表**：使用禁止和允许列表提高可投放性
 
    * [禁止列表](../../reports/suppression-list.md)包含要从投放中排除的电子邮件地址，因为发送给这些联系人可能会损害您的发送信誉和投放率。您可以监测在历程中自动排除发送的所有电子邮件地址，例如无效地址、始终软退信的地址、可能对您的电子邮件信誉造成不利影响的地址，以及针对您的某封电子邮件发出某种垃圾邮件投诉的收件人。了解如何管理[禁止列表](../../configuration/manage-suppression-list.md)和[重试](../../configuration/retries.md)。
+
    ![](../assets/suppression-list-filtering-example.png)
 
    * 借助[允许列表](../../configuration/allow-list.md)，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。了解如何[启用允许列表](../../configuration/allow-list.md)。
+
    在[!DNL Adobe Journey Optimizer][本页面](../../reports/deliverability.md)中了解有关可投放性管理的更多信息。

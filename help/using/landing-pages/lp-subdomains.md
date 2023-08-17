@@ -5,7 +5,7 @@ title: 配置登陆页面子域
 description: 了解如何使用Journey Optimizer配置登陆页面子域
 role: Admin
 level: Intermediate
-keywords: 登录、登陆页面、子域、配置
+keywords: 登陆、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
@@ -35,7 +35,7 @@ ht-degree: 24%
 
 能够 [创建登陆页面预设](lp-presets.md)中，您必须设置将用于登陆页面的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
+您可以使用已委派给Adobe的子域，也可以配置另一个子域。 了解有关委派子域以在中进行Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -43,7 +43,7 @@ ht-degree: 24%
 >
 >* 要访问和编辑登陆页面子域，您必须具有 **[!UICONTROL 管理登陆页面子域]** 生产沙盒的权限。
 >
-> * 对登陆页面子域的任何修改也将影响生产沙箱。
+> * 对登陆页面子域所做的任何修改也将影响生产沙箱。
 
 ## 使用现有子域 {#lp-use-existing-subdomain}
 
@@ -61,13 +61,13 @@ ht-degree: 24%
 
    ![](assets/lp_use-delegated-subdomain.png)
 
-1. 输入将在登陆页面URL中显示的前缀。
+1. 输入要显示在登陆页面URL中的前缀。
 
    >[!NOTE]
    >
-   >仅允许使用字母数字字符和连字符。
+   >只允许使用字母数字字符和连字符。
 
-1. 从列表中选择一个已委派的子域。
+1. 从列表中选择已委派的子域。
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ ht-degree: 24%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   请注意，不能使用同一父域的多个已委派子域。 例如，如果登陆页面的“marketing1.yourcompany.com”已委派给Adobe，则您将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多层子域，您可以继续使用“marketing1.yourcompany.com”的子域（如“email.marketing1.yourcompany.com”）或其他父域。
+   请注意，您不能使用同一父域的多个已委派子域。 例如，如果已将“marketing1.yourcompany.com”委派给登陆页面的Adobe，则您将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多级别子域，您可以继续使用“marketing1.yourcompany.com”的子域（如“email.marketing1.yourcompany.com”）或其他父域。
 
    >[!CAUTION]
    >
@@ -128,20 +128,20 @@ ht-degree: 24%
 
 1. 将显示要放置在DNS服务器上的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
 
-1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL 提交]**.
+1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“我确认……”框，然后单击 **[!UICONTROL 提交]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
    >[!NOTE]
    >
-   >当您配置新的登陆页面子域时，它将始终指向CNAME记录。
+   >配置新登陆页面子域时，它将始终指向CNAME记录。
 
 1. 提交子域委派后，子域将显示在列表中，其中包含 **[!UICONTROL 正在处理]** 状态。 有关子域状态的更多信息，请参阅 [本节](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >在能够将该子域用于登陆页面之前，您必须等待Adobe执行所需的检查，这最多可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
+   >在能够将该子域用于登陆页面之前，您必须等待Adobe执行所需的检查，最长可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它可用于创建登陆页面预设。
 
-   请注意，子域将标记为 **[!UICONTROL 失败]** 如果您无法在托管解决方案上创建验证记录。
+   请注意，该子域将标记为 **[!UICONTROL 失败]** 如果您无法在托管解决方案上创建验证记录。

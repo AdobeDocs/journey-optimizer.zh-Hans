@@ -49,7 +49,7 @@ ht-degree: 89%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理和排除潜在问题。</p>
+<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理并排除潜在问题。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/simulation.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -65,7 +65,7 @@ ht-degree: 89%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用Adobe Experience Platform配置文件属性和受众，使用在整个Journey Optimizer UI中找到的相同表达式编辑器组件来对优惠内容进行个性化设置。 </p>
+<p>您现在可以使用Adobe Experience Platform配置文件属性和受众，使用在整个Journey Optimizer UI中都相同的表达式编辑器组件来对优惠内容进行个性化设置。 </p>
 <p>有关更多信息，请参阅<a href="../offers/offer-library/creating-personalized-offers.md#custom-text">详细文档</a>。</p>
 </td>
 </tr>
@@ -267,7 +267,7 @@ ht-degree: 89%
 **用户界面**
 
 * **搜索** - 现在，您可以在每个页面上直接从 Experience Cloud 统一搜索字段搜索业务对象和帮助文章。[了解详情](../start/user-interface.md#unified-search)
-* **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。通过此更新，您最近访问的快捷方式包括“消息”、“历程”、“受众”、“架构”、“数据集”、“数据源”、“事件”、“操作”、“源”和“目标”。 [了解详情](../action/about-custom-action-configuration.md#passing-collection)
+* **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。通过此更新，您最近访问过的元素的快捷方式包括消息、历程、受众、架构、数据集、数据源、事件、操作、源和目标。 [了解详情](../action/about-custom-action-configuration.md#passing-collection)
 
 **内容设计**
 
@@ -342,7 +342,7 @@ ht-degree: 89%
 * 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../configuration/external-systems.md#capping)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解更多信息](../building-journeys/journey-gs.md#change-properties)
 * 在历程列表屏幕中，添加了历程类型筛选器。[了解更多信息](../start/user-interface.md#filter-lists)
-* 此 **[!UICONTROL 限制率]** 参数已添加到读取受众活动中。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 此 **[!UICONTROL 节流率]** 参数已添加到读取受众活动中。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **预览和测试**
 

@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="创建登陆页面预设"
 >abstract="为了构建登陆页面并通过 Journey Optimizer 使用它，您必须创建一个登陆页面预设，在其中包含要使用的子域。"
 
-时间 [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，您必须选择登陆页面预设，才能构建登陆页面并通过它进行利用 **[!DNL Journey Optimizer]**.
+时间 [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须选择登陆页面预设，才能构建登陆页面并通过它进行利用 **[!DNL Journey Optimizer]**.
 
 ## 访问登陆页面预设 {#access-lp-presets}
 
@@ -33,7 +33,7 @@ ht-degree: 17%
 
    ![](assets/lp_presets-access.png)
 
-1. 单击任意预设标签以访问登陆页面预设详细信息。
+1. 单击任何预设标签可访问登陆页面预设详细信息。
 
    ![](assets/lp_preset-details.png)
 
@@ -65,15 +65,15 @@ ht-degree: 17%
    >
    >要能够选择子域，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](#lp-subdomains)
 
-   将显示与所选子域对应的设置。
+   此时将显示与所选子域对应的设置。
 
-1. 如果要为跟踪URL选择登陆页面子域，请选中 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+1. 如果要为跟踪URL选择登陆页面子域，请勾选 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登陆页面URL是“pages.mail.luma.com”，而跟踪URL是“data.mail.luma.com”，则可以选择将“pages.mail.luma.com”用作跟踪子域。
 
-1. 单击 **[!UICONTROL 提交]** 以确认登陆页面预设的创建。 <!--You can also save the preset as draft and resume its configuration later on.-->
+1. 单击 **[!UICONTROL 提交]** 以确认创建登陆页面预设。 <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
@@ -81,7 +81,7 @@ ht-degree: 17%
 
    ![](assets/lp-preset-active-temp.png)
 
-您现在已准备就绪 [创建登陆页面](../landing-pages/create-lp.md) 在 [!DNL Journey Optimizer].
+您现在已准备好 [创建登陆页面](../landing-pages/create-lp.md) 在 [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >

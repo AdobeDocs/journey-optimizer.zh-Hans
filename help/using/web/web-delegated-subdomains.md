@@ -33,7 +33,7 @@ ht-degree: 27%
 
 在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。
 
-要执行此操作，您必须从已委派给Adobe的子域列表中进行选择。 了解有关将子域委派到Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
+要实现此目的，您必须从已委派给Adobe的子域列表中进行选择。 了解有关委派子域以在中进行Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
@@ -43,7 +43,6 @@ ht-degree: 27%
 >
 > * 对Web子域的任何修改也将影响生产沙箱。
 
-
 您可以创建多个Web子域，但只能创建 **默认** 将使用子域。 您可以更改默认的Web子域，但一次只能使用一个子域。
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**.
@@ -52,7 +51,7 @@ ht-degree: 27%
 
 1. 单击 **[!UICONTROL 设置子域]**.
 
-1. 从列表中选择一个已委派的子域。
+1. 从列表中选择已委派的子域。
 
    ![](assets/web-subdomain-details.png)
 
@@ -70,13 +69,13 @@ ht-degree: 27%
    >
    >仅 **默认** 将使用子域。
 
-1. 单击&#x200B;**[!UICONTROL 提交]**. 子域将获取 **[!UICONTROL 成功]** 状态。 它可用于您的Web体验。
+1. 单击&#x200B;**[!UICONTROL 提交]**. 子域将获取 **[!UICONTROL 成功]** 状态。 它可供您的Web体验使用。
 
    >[!NOTE]
    >
    >在极少数情况下，子域设置可能会失败。 在这种情况下，您可以删除 **[!UICONTROL 失败]** 子域，以使用清除列表 **[!UICONTROL 删除]** 按钮来自 **[!UICONTROL 更多操作]** 图标。
 
-1. 此 **[!UICONTROL 默认]** 徽章显示在当前用作默认的子域旁边。 要更改默认子域，请选择 **[!UICONTROL 设置为默认值]** 从 **[!UICONTROL 更多操作]** 按钮来指定子域。
+1. 此 **[!UICONTROL 默认]** 徽章显示在当前用作默认的子域旁边。 要更改默认子域，请选择 **[!UICONTROL 设置为默认值]** 从 **[!UICONTROL 更多操作]** 按钮来填充所需的子域。
 
    ![](assets/web-subdomain-default.png)
 

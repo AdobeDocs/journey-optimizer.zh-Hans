@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建您的第一个组合工作流程
-description: 了解如何创建合成工作流以组合和排列现有受众。
+description: 了解如何创建组合工作流以组合和排列现有受众。
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在Adobe Journey Optimizer中使用受众组合的详细信息。 如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans)
 
 >[!ENDSHADEBOX]
 
@@ -35,31 +35,31 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 生成规则]** 创建方法允许您使用以下对象创建新的区段定义： [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   >此 **[!UICONTROL 生成规则]** 创建方法允许您使用以下对象创建新的区段定义： [分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans).
 
 1. 组合画布显示有两个默认活动：
 
-   * **[!UICONTROL Audience]**：构图的起点。 此活动允许您选择一个或多个受众作为工作流的基础，
+   * **[!UICONTROL 受众]**：构图的起点。 此活动允许您选择一个或多个受众作为工作流的基础，
 
-   * **[!UICONTROL 保存]**：构成的最后一步。 利用此活动，可将工作流结果保存到新受众中。
+   * **[!UICONTROL 保存]**：构成的最后一步。 此活动用于将工作流结果保存到新受众中。
 
    有关如何配置构成工作流画布中的活动的更多信息，请参阅 [使用合成画布](composition-canvas.md).
 
 1. 打开合成属性以指定标题和描述。
 
-   如果未在属性中定义标题，则组合的标签将设置为“组合”，其后跟有其创建日期和时间。
+   如果未在属性中定义标题，则排版标签将设置为“排版”，其后跟其创建日期和时间。
 
    ![](assets/audiences-properties.png)
 
-1. 通过在页面之间添加所需数量的活动来配置合成 **[!UICONTROL Audience]** 和 **[!UICONTROL 保存]** 活动。 [了解如何使用合成画布](composition-canvas.md)
+1. 通过添加所需数量的活动来配置合成，具体方法是 **[!UICONTROL 受众]** 和 **[!UICONTROL 保存]** 活动。 [了解如何使用合成画布](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. 准备好构成后，单击 **[!UICONTROL Publish]** 按钮以发布构成并将生成的受众保存到Adobe Experience Platform中。
+1. 合成准备就绪后，单击 **[!UICONTROL Publish]** 按钮以发布构成并将生成的受众保存到Adobe Experience Platform中。
 
    >[!IMPORTANT]
    >
-   >在一个给定的沙盒中最多可发布10个合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
+   >您最多可以在给定沙盒中发布10个合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
 
    如果在发布期间发生任何错误，将显示警报，其中包含有关如何解决该问题的信息。
 
@@ -74,7 +74,7 @@ ht-degree: 7%
 >title="发布受众"
 >abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
 
-所有创建的合成都可从以下位置访问： **[!UICONTROL 合成]** 选项卡。 它们可以具有多种状态：
+所有创建的合成都可以从 **[!UICONTROL 合成]** 选项卡。 它们可以具有多个状态：
 
 * **[!UICONTROL 草稿]**：构成正在进行中，尚未发布。
 * **[!UICONTROL 已发布]**：构成已发布，生成的受众已保存并可供使用。

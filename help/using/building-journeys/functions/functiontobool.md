@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: toBool
-description: 了解toBool函数
+description: 了解函数toBool
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,10 +16,10 @@ ht-degree: 11%
 
 # toBool {#toBool}
 
-根据参数值的类型，将其转换为布尔值。
+根据类型将参数值转换为布尔值。
 
-* 从字符串：尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”；否则从“false”
-* 从数值：如果数值不等于0，则为真，否则为假
+* 从字符串：尝试将字符串值转换为布尔值；如果字符串值为“true”，则从“true”；否则从“false”
+* 从数值：如果数值不等于0，则为true；否则为false
 
 ## 类别
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 ## 参数
 
-* 十进制
+* 小数
 * 布尔
 * 字符串
 * 整数

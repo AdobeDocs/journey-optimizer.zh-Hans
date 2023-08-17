@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: 创建、电子邮件、开始、历程、营销活动
+keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 ## 在历程或营销策划中创建电子邮件 {#create-email-journey-campaign}
 
-添加 **[!UICONTROL 电子邮件]** 对历程或营销策划执行操作，并根据您的具体情况执行以下步骤。
+添加 **[!UICONTROL 电子邮件]** 向历程或营销策划执行操作，并根据您的具体情况执行以下步骤。
 
 >[!BEGINTABS]
 
@@ -41,17 +41,17 @@ ht-degree: 9%
 
    ![](assets/email_journey.png)
 
-   默认情况下，该字段会预填充，用户将使用最后一个表面用于该渠道。
+   默认情况下，该字段会预填充为用户用于该渠道的最后一个表面。
 
 >[!NOTE]
 >
->如果您从历程发送电子邮件，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率，预测发送消息的最佳时间，以最大化参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
+>如果您从历程发送电子邮件，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率预测发送消息的最佳时间，从而最大限度地提高参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
 
 有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md).
 
 >[!TAB 向营销活动添加电子邮件]
 
-1. 创建新的计划活动或API触发的活动，然后选择 **[!UICONTROL 电子邮件]** 作为你的行动。
+1. 创建新的计划或API触发的营销活动，然后选择 **[!UICONTROL 电子邮件]** 作为您的操作。
 
 1. 选择 [电子邮件表面](email-settings.md) 以使用。
 
@@ -59,7 +59,7 @@ ht-degree: 9%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 完成步骤以创建电子邮件营销活动，如营销活动属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
+1. 完成相应步骤以创建电子邮件营销活动，如营销活动属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -73,7 +73,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!ENDTABS]
 
-## 定义电子邮件内容 {#define-email-content}
+## 定义您的电子邮件内容 {#define-email-content}
 
 <!-- update the quarry component with right ID value-->
 
@@ -86,13 +86,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-1. 在 **[!UICONTROL 页眉]** 部分 **[!UICONTROL 编辑内容]** 屏幕， **[!UICONTROL 发件人姓名]**， **[!UICONTROL 发件人电子邮件]** 和 **[!UICONTROL 密件抄送]** 字段来自您选择的电子邮件表面。 [了解详情](email-settings.md) <!--check if same for journey-->
+1. 在 **[!UICONTROL 页眉]** 的部分 **[!UICONTROL 编辑内容]** 屏幕， **[!UICONTROL 发件人姓名]**， **[!UICONTROL 发件人电子邮件]** 和 **[!UICONTROL 密件抄送]** 字段来自您选择的电子邮件表面。 [了解详情](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
 1. 您可以添加主题行。 在相应的字段中直接键入纯文本，或使用 [表达式编辑器](../personalization/personalization-build-expressions.md) 以个性化您的主题行。
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以开始使用构建内容 [!DNL Journey Optimizer] 电子邮件设计工具。 [了解详情](get-started-email-design.md)
+1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以开始使用构建您的内容 [!DNL Journey Optimizer] 电子邮件设计器。 [了解详情](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
@@ -106,7 +106,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ## 检查警报 {#check-email-alerts}
 
-在设计消息时，如果关键设置缺失，则会在界面（屏幕右上方）中显示警报。
+设计消息时，如果缺少关键设置，会在界面（屏幕右上方）中显示警报。
 
 ![](assets/email_journey_alerts_details.png)
 
@@ -118,13 +118,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 可能会发生两种类型的警报：
 
-* **警告** 请参阅建议和最佳实践，例如：
+* **警告** 请参阅相关建议和最佳实践，例如：
 
    * **[!UICONTROL 电子邮件正文中不存在选择退出链接]**：最佳做法是在电子邮件正文中添加退订链接。 了解如何在中配置它 [本节](../privacy/opt-out.md#opt-out-management).
 
      >[!NOTE]
      >
-     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)定义于 [渠道表面](email-settings.md#email-type) 级别和时间 [创建消息](#create-email-journey-campaign) 旅程或营销策划中的活动。
+     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)定义于 [渠道表面](email-settings.md#email-type) 级别和时间 [创建消息](#create-email-journey-campaign) 旅程或营销活动中的。
 
    * **[!UICONTROL HTML的文本版本为空]**：别忘了定义电子邮件正文的文本版本，因为当HTML内容无法显示时，将使用该版本。 了解如何在中创建文本版本 [本节](text-version-email.md).
 
@@ -132,31 +132,31 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 电子邮件大小已超出100KB的限制]**：要获得最佳投放，请确保电子邮件大小不超过100 KB。 了解如何在中编辑电子邮件内容 [本节](content-from-scratch.md).
 
-* **错误** 防止测试或激活历程/营销活动（只要它们未解析），例如：
+* **错误** 阻止测试或激活历程/营销活动，只要它们未解析，例如：
 
-   * **[!UICONTROL 缺少主题行]**：电子邮件主题行是必填的。 了解如何在中定义和个性化它 [本节](create-email.md).
+   * **[!UICONTROL 缺少主题行]**：电子邮件主题行是必填项。 了解如何在中定义和个性化它 [本节](create-email.md).
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL 消息的电子邮件版本为空]**：当电子邮件内容未配置时，显示此错误。 了解如何在中设计电子邮件内容 [本节](get-started-email-design.md).
+   * **[!UICONTROL 消息的电子邮件版本为空]**：当电子邮件内容未配置时，将显示此错误。 了解如何在中设计电子邮件内容 [本节](get-started-email-design.md).
 
-   * **[!UICONTROL 表面不存在]**：如果在创建消息后删除了所选表面，则不能使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL 属性]**. 有关渠道界面的更多信息，请参阅 [本节](../configuration/channel-surfaces.md).
+   * **[!UICONTROL 表面不存在]**：如果在创建消息后删除了所选表面，则无法使用消息。 如果出现此错误，请在消息中选择另一个曲面 **[!UICONTROL 属性]**. 在中了解有关渠道界面的更多信息 [本节](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >
->要能够使用电子邮件测试或激活历程/营销活动，您必须全部解析 **错误** 警报。
+>要能够使用电子邮件测试或激活历程/营销活动，您必须解决所有 **错误** 警报。
 
 ## 预览并发送电子邮件
 
-定义消息内容后，您可以预览它以控制电子邮件的呈现，并使用测试用户档案检查个性化设置。 [了解详情](preview.md)
+定义消息内容后，您可以预览该内容以控制电子邮件的呈现，并使用测试用户档案检查个性化设置。 [了解详情](preview.md)
 
 ![](assets/email_designer_edit_simulate.png)
 
-当电子邮件准备就绪时，完成 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md)，并激活它以发送消息。
+当您的电子邮件准备就绪时，完成您的 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md)，并激活它以发送消息。
 
 >[!NOTE]
 >
->要通过电子邮件打开次数和/或交互来跟踪收件人的行为，请确保 **[!UICONTROL 跟踪]** 部分已在历程的启用 [电子邮件活动](../building-journeys/journeys-message.md) 或在电子邮件中 [营销活动](../campaigns/create-campaign.md).<!--to move?-->
+>要通过电子邮件打开和/或交互跟踪收件人的行为，请确保提供的专用选项 **[!UICONTROL 跟踪]** 在历程的已启用部分 [电子邮件活动](../building-journeys/journeys-message.md) 或在电子邮件中 [营销活动](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

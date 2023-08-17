@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # max{#max}
 
-返回一组表达式中的最大值，以列表或两个表达式形式给定。 Null值将被忽略。
+返回一组表达式中的最大值，这些表达式以列表或两个表达式形式给定。 Null值将被忽略。
 
 ## 类别
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 * listDateOnly
 * 持续时间
 * 整数
-* 十进制
+* 小数
 * dateTime
 * dateTimeOnly
 
@@ -84,7 +84,7 @@ ht-degree: 7%
 
 `max(<integer>,<integer>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

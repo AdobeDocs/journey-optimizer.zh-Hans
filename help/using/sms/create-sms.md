@@ -24,7 +24,7 @@ ht-degree: 14%
 
 ## 添加短信消息 {#create-sms-journey-campaign}
 
-浏览以下选项卡，了解如何在营销活动或历程中添加短信消息。
+浏览以下选项卡，了解如何在活动或历程中添加短信消息。
 
 >[!BEGINTABS]
 
@@ -40,19 +40,19 @@ ht-degree: 14%
 
    有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md)
 
-   此 **[!UICONTROL 表面]** 默认情况下，字段已预填充，用户将使用最后一个表面用于该渠道。
+   此 **[!UICONTROL 表面]** 默认情况下，字段会使用用户用于该渠道的最后一个表面进行预填充。
 
-您现在可以从以下位置开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮。 [定义短信内容](#sms-content)
+您现在可以从以下网址开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮。 [定义短信内容](#sms-content)
 
 >[!TAB 向营销活动添加短信消息]
 
-1. 创建新的计划活动或API触发的活动，选择 **[!UICONTROL 短信]** 作为您的操作，然后选择 **[!UICONTROL 应用程序表面]** 以使用。 [了解有关短信配置的更多信息](sms-configuration.md).
+1. 创建新的计划或API触发的营销活动，请选择 **[!UICONTROL 短信]** 作为您的操作，然后选择 **[!UICONTROL 应用程序表面]** 以使用。 [了解有关短信配置的更多信息](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 从 **[!UICONTROL 属性]** 部分，编辑营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
+1. 从 **[!UICONTROL 属性]** 部分，编辑您的营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
 
    ![](assets/sms_create_4.png)
 
@@ -62,11 +62,11 @@ ht-degree: 14%
 
    ![](assets/sms_create_5.png)
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理以衡量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
 
-1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪短信消息中链接的点击次数。
+1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪短信消息中的链接点击次数。
 
-1. 营销活动设计为按特定日期或重复频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
+1. 营销活动旨在按特定日期或循环频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
 
 1. 从 **[!UICONTROL 操作触发器]** 菜单，选择 **[!UICONTROL 频率]** 短信消息的：
 
@@ -75,7 +75,7 @@ ht-degree: 14%
    * 每周
    * 月
 
-您现在可以从以下位置开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮。 [设计短信内容](#sms-content)
+您现在可以从以下网址开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮。 [设计短信内容](#sms-content)
 
 >[!ENDTABS]
 
@@ -87,15 +87,15 @@ ht-degree: 14%
 
    ![](assets/sms-content.png)
 
-1. 使用表达式编辑器定义内容并添加动态内容。 您可以使用任何属性，例如配置文件名称或城市。 详细了解 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
+1. 使用表达式编辑器定义内容并添加动态内容。 您可以使用任何属性，如配置文件名称或城市。 了解有关 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
 
-1. 定义内容后，您可以将跟踪URL添加到消息中。 为此，请访问 **[!UICONTROL 辅助函数]** 菜单并选择 **[!UICONTROL 辅助程序]**.
+1. 定义内容后，您可以将跟踪URL添加到消息中。 为此，请访问 **[!UICONTROL 辅助函数]** 菜单并选择 **[!UICONTROL 辅助函数]**.
 
    请注意，要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的表面。 [了解详情](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > 要访问和编辑SMS子域，您必须具有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
+   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
 
    ![](assets/sms_tracking_1.png)
 
@@ -110,7 +110,7 @@ ht-degree: 14%
    ![](assets/sms-content-preview.png)
 
 您现在可以测试短信消息并将其发送给受众。 [了解详情](send-sms.md)
-发送后，您可以在促销活动或历程报表中衡量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
+发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
 
 >[!NOTE]
 >
@@ -122,4 +122,4 @@ ht-degree: 14%
 * [配置短信渠道](sms-configuration.md)
 * [短信报告](../reports/journey-global-report.md#sms-global)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
-* [在营销策划中添加消息](../campaigns/create-campaign.md)
+* [在营销活动中添加消息](../campaigns/create-campaign.md)

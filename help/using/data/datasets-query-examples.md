@@ -7,7 +7,7 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 数据集、优化器、用例
+keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # 数据集用例 {#tracking-datasets}
 
-在此页面中，您将找到Adobe Journey Optimizer数据集列表和相关用例：
+在此页面中，您将找到Adobe Journey Optimizer数据集和相关用例的列表：
 
 [电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)
 [消息反馈事件数据集](#message-feedback-event-dataset)
@@ -34,11 +34,11 @@ ht-degree: 3%
 
 _界面中的名称：CJM电子邮件跟踪体验事件数据集_
 
-用于从Journey Optimizer引入电子邮件跟踪体验事件的系统数据集。
+用于从Journey Optimizer中摄取电子邮件跟踪体验事件的系统数据集。
 
 相关架构是CJM电子邮件跟踪体验事件架构。
 
-此查询显示给定消息的不同电子邮件交互（打开次数、点击次数）的计数：
+此查询显示给定消息的不同电子邮件交互（打开次数、点击次数）计数：
 
 ```sql
 select
@@ -74,7 +74,7 @@ limit 100;
 
 _界面中的名称： CJM消息反馈事件数据集_
 
-用于从Journey Optimizer摄取电子邮件和推送应用程序反馈事件的数据集。
+用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。
 
 相关架构是CJM消息反馈事件架构。
 
@@ -110,7 +110,7 @@ order by
 limit 100;
 ```
 
-在聚合级别，域级别报告（按顶级域排序）：域名、已发送消息、跳出次数
+在聚合级别，域级别报告（按顶级域排序）：域名、发送的消息、跳出次数
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
@@ -122,19 +122,19 @@ SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.addr
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-查找某个特定电子邮件ID是否收到电子邮件，如果没有，则错误是退件类别，代码：
+查找特定电子邮件ID是否收到电子邮件，如果没有，则错误是什么，退回类别，代码：
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
-查找最近x小时/天内出现特定错误、退回类别或代码或与特定消息投放关联的所有单个电子邮件ID的列表：
+查找过去x小时/天内出现特定错误、退回类别或代码或与特定消息投放相关的所有单个电子邮件ID的列表：
 
 ```sql
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-聚合级别的硬跳出率：
+聚合级别的硬退回率：
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
@@ -210,7 +210,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-此查询显示给定历程中按nodeId和nodeLabel划分的步骤输入计数。 此处包含nodeId，因为不同历程节点的nodeLabel可以相同。
+此查询显示给定历程中按nodeId和nodeLabel划分的步骤输入计数。 由于nodeLabel对于不同的历程节点可以是相同的，因此此处包含了nodeId。
 
 ```sql
 select
@@ -248,7 +248,7 @@ GROUP BY date_format(Decision.Timestamp, 'MM/dd/yyyy')
 ORDER BY 1, 2 DESC;
 ```
 
-此查询显示特定活动/决策及其相关优惠优先级在过去30天内提议优惠的次数。
+此查询显示特定活动/决策及其相关优惠优先级在过去30天内建议优惠的次数。
 
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
@@ -334,13 +334,13 @@ WHERE
 
 ## 实体数据集{#entity-dataset}
 
-_界面中的名称：ajo_entity_dataset（系统数据集）_
+_界面中的名称： ajo_entity_dataset（系统数据集）_
 
 用于存储发送给最终用户的消息的实体元数据的数据集。
 
 相关架构是AJO实体架构。
 
-通过此数据集，您可以访问营销人员定义的元数据，这样当您导出Journey Optimizer数据集以在外部工具中实现报表可视化时，可以获得更好的报表见解。 这是使用messageID属性实现的，该属性有助于拼接各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获得从发送到用户档案级别跟踪的消息投放的详细信息。
+通过此数据集，可访问营销人员定义的元数据，以便在Journey Optimizer数据集导出到外部工具中用于报表可视化时，获得更好的报表见解。 可使用messageID属性实现这一点，该属性有助于拼接各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获取从用户档案级别发送到跟踪的消息投放详细信息。
 
 **重要说明**
 
@@ -350,9 +350,9 @@ _界面中的名称：ajo_entity_dataset（系统数据集）_
 
 >[!NOTE]
 >
->目前，出于未来兼容性原因，实体数据集中的每个消息发布都包含两个条目。 这不会影响您根据需要跨数据集使用连接查询来获取所需信息的能力。
+>目前，出于未来兼容性原因，实体数据集中的每个消息发布有两个条目。 这不会影响您根据需要跨数据集使用联接查询来获取所需信息的能力。
 
-如果您想在报表中对特定历程发送的电子邮件按照发送它们的操作进行排序。 您可以将“消息反馈”数据集与“实体”数据集连接。 要使用的字段包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
+如果您想在报表中对特定历程发送的电子邮件按照发送它们的操作进行排序。 您可以将消息反馈数据集与实体数据集连接起来。 要使用的字段包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
 
 以下查询可帮助您获取给定营销活动的关联消息模板：
 
@@ -381,7 +381,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-您可以拼合历程步骤事件、消息反馈和跟踪数据集，以获取特定用户档案的统计信息：
+您可以拼合历程步骤事件、消息反馈和跟踪数据集以获取特定用户档案的统计信息：
 
 ```sql
 SELECT 

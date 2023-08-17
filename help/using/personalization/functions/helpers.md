@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 默认回退值{#default-value}
 
-此 `Default Fallback Value` 如果属性为空或null，则使用帮助程序返回默认回退值。 此机制适用于配置文件属性和历程事件。
+此 `Default Fallback Value` 如果属性为空或null，则使用辅助函数返回默认回退值。 此机制适用于配置文件属性和历程事件。
 
 **语法**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，值 `there` 在以下情况下显示： `firstName` 此配置文件的属性为空或null。
+在此示例中，值 `there` 在以下情况下显示 `firstName` 此配置文件的属性为空或null。
 
 ## 条件{#if-function}
 
-此 `if` 帮助程序用于定义条件块。
+此 `if` 辅助函数用于定义条件块。
 如果表达式求值返回true，则会呈现块，否则将跳过该块。
 
 **语法**
@@ -40,7 +40,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
 遵循 `if` 帮助程序，您可以输入 `else` 语句，指定要在相同条件为false时执行的代码块。
-此 `elseif` 语句将指定一个新条件来测试第一个语句是否返回false。
+此 `elseif` 语句将指定一个新条件以测试第一个语句是否返回false。
 
 
 **格式**
@@ -111,7 +111,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 ## Unless{#unless}
 
-此 `unless` 帮助程序用于定义条件块。 反对The `if`  帮助程序，如果表达式求值返回false，则会渲染块。
+此 `unless` 辅助函数用于定义条件块。 因为反对《南方民族报》 `if`  帮助程序，如果表达式求值返回false，则会呈现块。
 
 **语法**
 
@@ -156,7 +156,7 @@ Some edu specific content Content
 
 **示例**
 
-呈现此用户购物车中产品的列表：
+呈现此用户在其购物车中拥有的产品列表：
 
 ```sql
 {{#each profile.products as |product|}}
@@ -181,7 +181,7 @@ Some edu specific content Content
 
 **示例**
 
-与结合使用可将长变量名称别名化为短变量名称：
+与一起使用，将长变量名称别名更改为短变量名称：
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **示例**
 
-以下示例允许交易以美元表示的所有产品总计的总和，其中总计大于$100且小于$1000。
+以下示例允许以美元为单位的所有交易产品总计的总和，其中总计大于$100且小于$1000。
 
 ```sql
 {% let variable = expression %} {{variable}}

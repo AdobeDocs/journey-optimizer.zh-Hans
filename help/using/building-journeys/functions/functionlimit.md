@@ -48,7 +48,7 @@ ht-degree: 8%
 `limit(<listInteger>,<integer>)`
 `limit(<listInteger>,<integer>,<boolean>)`
 
-返回整数的列表。
+返回整数列表。
 
 `limit(<listDecimal>,<integer>)`
 `limit(<listDecimal>,<integer>,<boolean>)`

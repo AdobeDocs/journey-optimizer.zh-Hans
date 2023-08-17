@@ -1,6 +1,6 @@
 ---
 title: 更新收藏集
-description: 收藏集是基于营销人员定义的预定义条件的优惠的子集，例如优惠的类别。
+description: 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -21,9 +21,9 @@ ht-degree: 7%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
@@ -69,11 +69,11 @@ curl -X PATCH \
 | --------- | ----------- |
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
 | `path` | 要更新的参数的路径。 |
-| `value` | 您希望使用更新参数的新值。 |
+| `value` | 要用于更新参数的新值。 |
 
 **响应**
 
-成功的响应将返回集合的更新详细信息，包括其唯一的实例ID和集合 `@id`.
+成功的响应将返回集合的更新详细信息，包括其唯一实例ID和集合 `@id`.
 
 ```json
 {

@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 驼峰式大小写 {#camelCase}
 
-此 `camelCase` 函数将字符串中每个单词的第一个字母变为大写。
+此 `camelCase` 函数将字符串中每个单词的第一个字母转换为大写。
 
 **语法**
 
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 ## 字符代码位于 {#char-code-at}
 
-此 `charCodeAt` 函数返回字符的ASCII值，与JavaScript中的charCodeAt函数类似。 它将一个字符串和一个整数（定义字符的位置）作为输入参数，并返回其相应的ASCII值。
+此 `charCodeAt` 函数返回字符的ASCII值，与JavaScript中的charCodeAt函数类似。 它采用字符串和整数（定义字符的位置）作为输入参数，并返回相应的ASCII值。
 
 **语法**
 
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ## Concat {#concate}
 
-此 `concat` 函数将两个字符串合并为一个。
+此 `concat` 函数将两个字符串组合在一起。
 
 **语法**
 
@@ -65,7 +65,7 @@ ht-degree: 6%
 
 **示例**
 
-以下函数会将用户档案中的城市和国家/地区组合到一个字符串中。
+以下函数将用户档案城市和国家/地区组合在一个字符串中。
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -85,21 +85,21 @@ ht-degree: 6%
 | --------- | ----------- |
 | `STRING_1` | 要检查的字符串。 |
 | `STRING_2` | 要在第一个字符串中搜索的字符串。 |
-| `CASE_SENSITIVE` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
+| `CASE_SENSITIVE` | 用于确定检查是否区分大小写，的可选参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-* 以下函数将检查用户档案名字是否包含字母A（大写或小写）。 如果是这种情况，则将返回“true”，否则将返回“false”。
+* 以下函数将检查用户档案名字是否包含字母A（大写或小写）。 如果是这种情况，将返回“true”，否则将返回“false”。
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * 以下查询区分大小写确定人员的电子邮件地址是否包含字符串“2010@gm”。
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## 不包含{#doesNotContain}
 
@@ -115,11 +115,11 @@ ht-degree: 6%
 | --------- | ----------- |
 | `STRING_1` | 要检查的字符串。 |
 | `STRING_2` | 要在第一个字符串中搜索的字符串。 |
-| `CASE_SENSITIVE` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
+| `CASE_SENSITIVE` | 用于确定检查是否区分大小写，的可选参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-以下查询区分大小写确定个人的电子邮件地址是否不包含字符串“2010@gm”。
+以下查询区分大小写确定人员的电子邮件地址是否不包含字符串“2010@gm”。
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
@@ -140,11 +140,11 @@ ht-degree: 6%
 | --------- | ----------- |
 | `{STRING_1}` | 要检查的字符串。 |
 | `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
-| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写，的可选参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-以下查询会区分大小写确定人员的电子邮件地址是否不以“.com”结尾。
+以下查询区分大小写确定人员的电子邮件地址是否不以“.com”结尾。
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
@@ -164,11 +164,11 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | 要检查的字符串。 |
 | `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
-| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写，的可选参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-以下查询以区分大小写方式确定人员的姓名是否不以“Joe”开头。
+以下查询区分大小写确定人员的姓名是否不以“Joe”开头。
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
@@ -198,11 +198,11 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | 要检查的字符串。 |
 | `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
-| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 可能的值： true （默认） / false。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写，的可选参数。 可能的值： true （默认） / false。 |
 
 **示例**
 
-以下查询会区分大小写确定人员的电子邮件地址是否以“.com”结尾。
+以下查询区分大小写确定人员的电子邮件地址是否以“.com”结尾。
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -226,7 +226,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-以下查询将区分大小写确定人员姓名是否为“John”。
+以下查询区分大小写确定人员姓名是否为“John”。
 
 ```sql
 {%=equals(profile.person.name,"John") %}
@@ -309,7 +309,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“www.myurl.com”
 
-## 获取url路径 {#get-url-path}
+## 获取URL路径 {#get-url-path}
 
 此 `getUrlPath` 函数用于检索URL的域名之后的路径。
 
@@ -327,7 +327,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“/contact.html”
 
-## 获取url协议 {#get-url-protocol}
+## Get url protocol {#get-url-protocol}
 
 此 `getUrlProtocol` 函数用于检索URL的协议。
 
@@ -404,7 +404,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## 最后一个索引： {#last-index-of}
+## 最后索引： {#last-index-of}
 
 此 `lastIndexOf` 函数用于返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。
 
@@ -427,7 +427,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回7。
 
-## 左侧修剪 {#leftTrim}
+## Left trim {#leftTrim}
 
 此 `leftTrim` 函数用于去除字符串开头的空格。
 
@@ -490,7 +490,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-此函数将用户档案名字转换为小写字母。
+此函数将用户档案的名字转换为小写字母。
 
 ```sql
 {%= lowerCase(profile.person.name.firstName) %}
@@ -516,7 +516,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 蒙版 {#mask}
 
-此 `Mask` 函数用于将字符串的一部分替换为“X”字符。
+此 `Mask` 函数可将字符串的一部分替换为“X”字符。
 
 **语法**
 
@@ -526,7 +526,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-以下查询会将“123456789”字符串替换为“X”字符，但前两个字符和最后2个字符除外。
+以下查询将“123456789”字符串替换为“X”字符，但前两个字符和后两个字符除外。
 
 ```sql
 {%= mask("123456789",1,2) %}
@@ -550,7 +550,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= md5("hello world") %}
 ```
 
-返回“5eb63bbbe01eeed093cb22bb8f5acdc3”
+返回“5eb63bbe01eeed093cb22bb8f5acdc3”
 
 ## 不等于{#notEqualTo}
 
@@ -569,13 +569,13 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-以下查询将区分大小写确定人员姓名是否为“John”。
+以下查询区分大小写确定人员姓名是否为“John”。
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 不等于忽略大小写 {#not-equal-with-ignore-case}
+## 不等于，忽略大小写 {#not-equal-with-ignore-case}
 
 此 `notEqualWithIgnoreCase` 函数用于比较两个字符串，忽略大小写。
 
@@ -648,7 +648,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 全部替换{#replaceAll}
 
-此 `replaceAll` 函数用于将匹配“regex”表达式的文本的所有子字符串替换为指定的文本“replacement”字符串。 正则表达式对“\”和“+”具有特殊处理，并且所有正则表达式都遵循PQL转义策略。 例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
+此 `replaceAll` 函数用于将匹配“regex”表达式的文本的所有子字符串替换为指定的文本“replacement”字符串。 正则表达式对“\”和“+”有特殊处理，所有正则表达式都遵循PQL转义策略。 例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
 **语法**
 
@@ -658,11 +658,12 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 当用作第二个参数的表达式是特殊正则表达式时，请使用双反斜杠(`//`)。  特殊正则表达式字符包括：[.， +， *， ？， ^， $， (， )， [， ]，{， }， |， \.]
+> 当用作第二个参数的表达式是特殊正则表达式时，请使用双反斜杠(`//`)。  特殊正则表达式字符包括：[.， +， *， ？， ^， $， (， )， [，]，{， }， |， \.]
 > 
-> 了解详情，请参阅 [oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
+> 了解详情，请参阅 [oracle文档](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
-## 右侧修剪 {#rightTrim}
+## Right trim {#rightTrim}
 
 此 `rightTrim` 函数去除字符串末尾的空格。
 
@@ -696,7 +697,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | 要检查的字符串。 |
 | `{STRING_2}` | 要在第一个字符串中搜索的字符串。 |
-| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写（可选）的参数。 默认情况下，此项设置为true。 |
+| `{CASE_SENSITIVE}` | 用于确定检查是否区分大小写，的可选参数。 默认情况下，该参数设置为true。 |
 
 **示例**
 
@@ -722,7 +723,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
 ```
 
-## 字符串到整数 {#string-to-integer}
+## String to integer {#string-to-integer}
 
 此 `string_to_integer` 函数用于将字符串值转换为整数值。
 
@@ -753,7 +754,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 字首大写{#titleCase}
 
-此 **titleCase** 函数用于将字符串中每个单词的第一个字母变为大写。
+此 **titleCase** 函数用于将字符串中每个单词的首字母大写。
 
 **语法**
 
@@ -779,7 +780,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## 结束日期时间 {#to-date-time}
+## To Date Time {#to-date-time}
 
 此 `toDateTime` 函数用于将字符串转换为日期。 对于无效的输入，它返回纪元日期作为输出。
 
@@ -789,7 +790,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## 仅结束日期时间 {#to-date-time-only}
+## To Date Time Only {#to-date-time-only}
 
 此 `toDateTimeOnly` 函数用于将参数值转换为仅日期时间值。 对于无效的输入，它返回纪元日期作为输出。 此函数接受字符串、日期、长整型和int字段类型。
 
@@ -821,7 +822,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **示例**
 
-此函数将配置文件姓氏转换为大写字母。
+此函数将用户档案的姓氏转换为大写字母。
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
@@ -837,7 +838,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= urlDecode(string) %}: string
 ```
 
-## Url编码 {#url-encode}
+## Url encode {#url-encode}
 
 此 `Count only null` 函数用于对字符串进行url编码。
 

@@ -19,9 +19,9 @@ ht-degree: 11%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
@@ -55,7 +55,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的集合限定符的信息，包括其唯一的实例ID和位置 `@id`. 您可以在后面的步骤中使用实例ID来更新或删除集合限定符。 您可以使用唯一的收集限定词 `@id` 在后面的教程中创建收藏集和个性化优惠。
+成功的响应会返回有关新创建的集合限定符的信息，包括其唯一实例ID和位置 `@id`. 您可以在后面的步骤中使用实例ID来更新或删除您的集合限定词。 您可以使用唯一的集合限定词 `@id` ，以创建收藏集和个性化优惠。
 
 ```json
 {

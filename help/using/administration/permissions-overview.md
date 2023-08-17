@@ -20,22 +20,22 @@ ht-degree: 16%
 
 [!DNL Journey Optimizer] 允许您定义和管理分配给不同用户的权限。权限是授权或拒绝访问产品内特性和功能的一组权限和限制。
 
-➡️ [在此视频中了解有关Adobe Journey Optimizer中访问控制的更多信息](#video)
+➡️ [通过此视频进一步了解Adobe Journey Optimizer中的访问控制](#video)
 
 中的用户管理 [!DNL Journey Optimizer] 基于三个概念：
 
-* **[!UICONTROL 角色]**：一组统一权限，允许用户访问界面中的特定功能或对象。 请参阅 [开箱即用的角色](ootb-product-profiles.md) 部分。
+* **[!UICONTROL 角色]**：一组统一的权限，允许用户访问界面中的特定功能或对象。 请参阅 [开箱即用的角色](ootb-product-profiles.md) 部分。
 
-* **[!UICONTROL 权限]**：统一权限，允许您定义分配给的授权 **[!UICONTROL 角色]**. 每个权限都集中在资源(例如历程或优惠)下，代表中的不同功能或对象。 [!DNL Journey Optimizer]. 请参阅 [权限级别](high-low-permissions.md) 部分。
+* **[!UICONTROL 权限]**：统一权限，允许您定义分配给的授权 **[!UICONTROL 角色]**. 每个权限都集中在资源(例如历程或优惠)下，代表中的各种功能或对象。 [!DNL Journey Optimizer]. 请参阅 [权限级别](high-low-permissions.md) 部分。
 
 * **[!UICONTROL 沙盒]**：将实例分区为单独的独立虚拟环境的虚拟沙盒。 请参阅 [使用沙盒](sandboxes.md).
 
-每个概念都可以通过以下方式管理 **[!UICONTROL 产品管理员]** 有权访问Admin Console的用户。 [进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
+每个概念都可以通过以下方式管理 **[!UICONTROL 产品管理员]** 拥有对Admin Console的访问权。 [进一步了解 Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html)。
 
 ![](assets/do-not-localize/permissions_2.png)
 
 ## 操作方法视频{#video}
 
-进一步了解Adobe Journey Optimizer中的访问控制系统和自定义问题。 了解如何管理角色和权限以及如何添加和管理用户。
+进一步了解Adobe Journey Optimizer中的访问控制系统和自定义配置文件。 了解如何管理角色和权限以及如何添加和管理用户。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

@@ -17,14 +17,14 @@ ht-degree: 2%
 
 # 查询示例{#query-examples}
 
-此部分列出了几个在Data Lake中查询历程步骤事件的常用示例。
+本节列出了在数据湖中查询历程步骤事件的几个常用示例。
 
-确保查询中使用的字段在相应架构中具有关联值。
+确保在查询中使用的字段在相应架构中具有关联值。
 
 **id、instanceid和profileid之间有何区别**
 
 * id：对于所有步骤事件条目均唯一。 两个不同的步骤事件不能具有相同的ID。
-* instanceId： instanceID对于历程执行中与配置文件关联的所有步骤事件是相同的。 如果配置文件重新进入历程，将使用其他instanceId。 对于重新进入的实例的所有步骤事件（从开始到结束），此新instanceId将相同。
+* instanceId：对于历程执行中与配置文件关联的所有步骤事件，instanceID是相同的。 如果用户档案重新进入历程，将使用其他instanceId。 对于重新输入的实例的所有步骤事件（从开始到结束），此新instanceId将相同。
 * profileID：与历程命名空间对应的用户档案身份。
 
 >[!NOTE]
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 此查询提供在给定时间范围内进入给定历程的不同用户档案的数量。
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
@@ -47,9 +47,9 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**特定历程中一段时间内每个节点发生的错误数**
+**特定历程的每个节点在特定时间段内发生了多少错误**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -71,7 +71,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 **在特定时间范围内从特定历程中丢弃了多少事件**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -83,9 +83,9 @@ AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 
 **在特定时间范围内特定历程中的特定用户档案会发生什么情况**
 
-_Data Lake查询_
+_数据湖查询_
 
-此查询按时间顺序返回给定用户档案和历程在指定时间内的所有步骤事件和服务事件。
+此查询按时间顺序返回给定用户档案和历程在指定时间的所有步骤事件和服务事件。
 
 ```sql
 SELECT
@@ -110,9 +110,9 @@ ORDER BY timestamp;
 
 **两个节点之间经过的时间**
 
-例如，可以使用这些查询来估计等待活动所花费的时间。 这允许您确保正确配置等待活动。
+例如，可以使用这些查询来估计等待活动所花费的时间。 这允许您确保等待活动配置正确。
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 WITH
@@ -174,7 +174,7 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 WITH
@@ -237,11 +237,11 @@ WHERE
 
 **如何检查serviceEvent的详细信息**
 
-历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与活动（事件、操作等）相关 历程中的用户档案。 serviceEvents存储在同一数据集中，它们表示用于调试的其他信息，例如体验事件丢弃的原因。
+历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与活动（事件、操作等）相关 历程中的用户档案。 serviceEvents存储在同一数据集中，它们指示额外的调试信息，例如体验事件放弃的原因。
 
 以下是检查serviceEvent详细信息的查询示例：
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -259,9 +259,9 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 **历程中遇到的每个错误的列表**
 
-此查询允许您列出执行消息/操作时历程中遇到的每个错误。
+此查询允许您列出执行消息/操作时在历程中遇到的每个错误。
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -281,13 +281,13 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-此查询返回在历程中执行操作时发生的所有不同错误以及发生的次数。
+此查询返回在历程中执行操作时发生的所有不同错误以及发生次数。
 
 ## 基于用户档案的查询 {#profile-based-queries}
 
 **查找配置文件是否输入了特定历程**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events
@@ -307,11 +307,11 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 结果应大于0。 此查询返回用户档案进入历程的确切次数。
 
-**查找是否向用户档案发送了特定消息**
+**查找用户档案是否已发送特定消息**
 
-方法1：如果您的消息名称在历程中不是唯一的（会在多个位置使用）。
+方法1：如果消息的名称在历程中不是唯一的（会在多个位置使用）。
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -331,11 +331,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-结果应大于0。 此查询仅告诉我们是否在历程端成功执行了消息操作。
+结果应大于0。 此查询仅告诉我们是否已在历程端成功执行消息操作。
 
 方法2：如果消息的名称在历程中是唯一的。
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -355,11 +355,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-查询会返回所有消息的列表以及为所选用户档案调用的消息计数。
+查询会返回所有消息的列表，以及为所选用户档案调用的消息计数。
 
 **查找用户档案在过去30天内收到的所有邮件**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -381,11 +381,11 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-查询会返回所有消息的列表以及为所选用户档案调用的消息计数。
+查询会返回所有消息的列表，以及为所选用户档案调用的消息计数。
 
 **查找用户档案在过去30天内输入的所有历程**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -407,9 +407,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 查询会返回所有历程名称的列表，以及被查询的用户档案进入历程的次数。
 
-**符合每日历程资格的用户档案数**
+**每天符合历程条件的用户档案数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -429,13 +429,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-在定义的周期内，查询会返回每天进入历程的用户档案数。 如果通过多个身份输入的用户档案，则将被计算两次。 如果启用了重新进入，并且用户档案计数是在不同日期重新进入历程，则可能会跨不同日期复制用户档案计数。
+在定义的周期内，查询将返回每天进入历程的用户档案数。 如果通过多个身份输入用户档案，则将被计算两次。 如果启用了重新进入，并且用户档案计数可能在不同日期重复（如果在不同的日期重新进入历程）。
 
 ## 与读取受众相关的查询 {#read-segment-queries}
 
 **完成受众导出作业所用的时间**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 select DATEDIFF (minute,
@@ -463,11 +463,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-查询返回受众导出作业排队时间和最终结束时间之间的时间差（以分钟为单位）。
+查询将返回受众导出作业排队时间和最终结束时间之间的时间差（以分钟为单位）。
 
 **因重复而被历程丢弃的用户档案数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -485,11 +485,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
-查询返回历程因重复而被丢弃的所有用户档案ID。
+查询返回历程丢弃的所有用户档案ID，因为这些用户档案ID是重复的。
 
-**由于命名空间无效而被历程丢弃的用户档案数**
+**历程因命名空间无效而被丢弃的配置文件数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -507,11 +507,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
-查询将返回历程丢弃的所有配置文件ID，原因是这些ID具有无效的命名空间或没有该命名空间的标识。
+该查询返回历程丢弃的所有用户档案ID，原因是它们具有无效的命名空间或没有该命名空间的身份。
 
-**历程因无标识映射而被丢弃的配置文件数**
+**由于无标识映射而被历程丢弃的配置文件数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -529,11 +529,11 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
-查询返回因缺少身份映射而被历程丢弃的所有用户档案ID。
+查询返回历程丢弃的所有用户档案ID，因为缺少身份映射。
 
 **由于历程在测试节点中并且用户档案不是测试用户档案而被历程丢弃的用户档案数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -553,9 +553,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查询返回旅程丢弃的所有配置文件ID，因为导出作业在测试模式下运行，但配置文件的testProfile属性未设置为true。
 
-**历程因内部错误而丢弃的用户档案数**
+**历程因内部错误而被丢弃的用户档案数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -577,7 +577,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 **给定历程版本的读取受众概述**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -604,18 +604,18 @@ WHERE
 
 我们还可以检测以下问题：
 
-* 创建主题或导出作业时出错（包括受众导出API调用超时）
+* 主题或导出作业创建出错（包括受众导出API调用超时）
 * 导出作业可能卡住（对于给定的历程版本，我们没有任何有关导出作业终止的事件）
 * 工作人员问题，如果我们收到了导出作业终止事件，但没有工作人员处理终止事件
 
-重要信息：如果此查询未返回任何事件，则可能是由于以下原因之一：
+重要信息：如果此查询未返回任何事件，则可能是由于以下原因之一造成的：
 
 * 历程版本尚未达到计划
-* 如果历程版本应该通过调用orchestrator来触发导出作业，则上行流出现问题：历程部署问题、业务事件或调度程序问题。
+* 如果历程版本应该通过调用orchestrator触发导出作业，则上行流出现问题：历程部署问题、业务事件或调度程序问题。
 
 **获取给定历程版本的读取受众错误**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -641,7 +641,7 @@ WHERE
 
 **获取导出作业处理状态**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -668,9 +668,9 @@ WHERE
 * 创建主题或导出作业期间出错
 * 导出作业仍在运行
 
-**获取导出用户档案的量度，包括每个导出作业的放弃和导出作业量度**
+**获取有关导出的配置文件的量度，包括每个导出作业的放弃和导出作业量度**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 WITH
@@ -728,9 +728,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**获取所有导出作业的汇总量度（受众导出作业和放弃作业）**
+**获取所有导出作业的汇总量度（受众导出作业和放弃）**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 WITH
@@ -793,9 +793,9 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 与受众资格相关的查询 {#segment-qualification-queries}
 
-**由于与配置的受众实现不同的受众实现，配置文件被丢弃**
+**由于与配置的受众实现不同的受众实现，已放弃配置文件**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
@@ -819,7 +819,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 **因特定用户档案的任何其他原因放弃的受众资格事件**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
@@ -841,13 +841,13 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-此查询返回由于用户档案的任何其他原因而放弃的所有事件（外部事件/受众资格事件）。
+此查询返回由于用户档案的任何其他原因而被放弃的所有事件（外部事件/受众资格事件）。
 
 ## 基于事件的查询 {#event-based-queries}
 
-**检查是否收到历程的业务事件**
+**检查是否已收到历程的业务事件**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
@@ -871,9 +871,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**检查配置文件的外部事件是否因未找到相关历程而被丢弃**
+**检查是否由于未找到相关历程而丢弃了用户档案的外部事件**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -897,7 +897,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 
 **检查配置文件的外部事件是否因任何其他原因而被丢弃**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -921,9 +921,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**通过errorCode检查stateMachine丢弃的所有事件的计数**
+**检查stateMachine通过errorCode丢弃的所有事件的计数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -941,7 +941,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 **检查所有已丢弃的事件，因为不允许重新进入**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
@@ -963,11 +963,11 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-## 常见基于历程的查询 {#journey-based-queries}
+## 常见的基于历程的查询 {#journey-based-queries}
 
 **每日活动历程数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -985,13 +985,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-查询会返回在定义的周期内每天触发的唯一历程计数。 每天将计算一次触发多天的单个历程。
+查询会返回在定义的期间内，每天触发的唯一历程计数。 每天将计算一次触发多天的单个历程。
 
-## 历程实例的查询 {#journey-instances-queries}
+## 历程实例查询 {#journey-instances-queries}
 
-**特定时间内处于特定状态的配置文件数**
+**特定时间处于特定状态的配置文件数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 WITH
@@ -1139,7 +1139,7 @@ ORDER BY
 
 **在特定时间段内退出历程的用户档案数**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT
@@ -1175,9 +1175,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**在特定时间段内有多少具有节点/状态的用户档案退出历程**
+**特定时间段内有多少具有节点/状态的配置文件退出历程**
 
-_Data Lake查询_
+_数据湖查询_
 
 ```sql
 SELECT

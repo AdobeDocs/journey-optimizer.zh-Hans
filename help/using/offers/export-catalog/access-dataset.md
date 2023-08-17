@@ -19,9 +19,9 @@ ht-degree: 11%
 
 ![](../assets/datasets-list.png)
 
-单击数据集可访问其详细信息。
+单击数据集以访问其详细信息。
 
-此 **[!UICONTROL 预览数据集]** 按钮可让您显示数据集中最近成功的批次。
+此 **[!UICONTROL 预览数据集]** 按钮可让您显示数据集中最近成功的批处理。
 
 ![](../assets/dataset-activity.png)
 

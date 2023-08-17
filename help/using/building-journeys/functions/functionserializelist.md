@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: serializeList
-description: 了解serializeList函数
+description: 了解函数serializeList
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced

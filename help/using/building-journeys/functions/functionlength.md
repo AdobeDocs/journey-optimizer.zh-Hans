@@ -5,7 +5,7 @@ description: 了解函数长度
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 长度，函数，表达式，旅程
+keywords: 长度，函数，表达式，历程
 exl-id: 22c32919-2936-417c-a668-4f6dbf8b759b
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -34,7 +34,7 @@ ht-degree: 18%
 
 `length(<string>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

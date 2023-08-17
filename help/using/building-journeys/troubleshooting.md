@@ -50,11 +50,11 @@ ht-degree: 73%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 用于流摄取API故障排除。
+事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 流摄取API疑难解答。
 
 ## 检查人员是否进入历程{#checking-if-people-enter-the-journey}
 
-历程报表可实时测量人员进入旅程。
+历程报表实时衡量人员进入旅程。
 
 如果您成功发送事件，但未看到有人进入历程，则意味着在事件发送和事件接收之间出现问题。
 
@@ -65,7 +65,7 @@ ht-degree: 73%
 * 您的事件有效负载是否包含事件 ID？
 * 您是否点击了正确的 URL？
 * 您是否使用“事件配置”窗格中的有效负载结构预览遵循了流摄取 API 的有效负载结构？请参阅[此页](../event/about-creating.md#preview-the-payload)。
-* 您在事件的标头中使用了正确的键值对吗？
+* 您在事件标头中使用了正确的键值对吗？
 
   ```
   X-gw-ims-org-id - your organization's ID

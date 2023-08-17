@@ -5,7 +5,7 @@ description: 了解函数拆分
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: split， function， expression， journey（拆分，函数，表达式，历程）
+keywords: 拆分，函数，表达式，历程
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
 workflow-type: tm+mt
@@ -33,7 +33,7 @@ ht-degree: 17%
 | 输入字符串 | 字符串 |
 | 分隔符字符串 | 字符串 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `split(<input string>, <separator string>)`
 
@@ -45,7 +45,7 @@ ht-degree: 17%
 
 返回结果 `["A","B","C"]`
 
-事件字段“event.appVersion”的示例，其值为：“20.45.2.3434”
+具有事件字段“event.appVersion”且值为“20.45.2.3434”的示例
 
 `split(@{event.appVersion}, "\\.")`
 

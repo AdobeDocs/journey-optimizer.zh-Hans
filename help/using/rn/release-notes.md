@@ -5,7 +5,7 @@ title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 100%
 
@@ -723,7 +723,7 @@ Note that each widget can be resized and deleted as needed.
 
 * 用于创建和编辑子域的用户界面已得到改进。[了解详情](../configuration/delegate-subdomain.md)
 
-* 黑名单&#x200B;**最近上传**&#x200B;屏幕已更新。[了解详情](../configuration/manage-suppression-list.md#recent-uploads)
+* 禁止列表&#x200B;**最近上传**&#x200B;屏幕已更新。[了解详情](../configuration/manage-suppression-list.md#recent-uploads)
 
 **营销活动**
 

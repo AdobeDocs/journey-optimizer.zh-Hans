@@ -21,9 +21,9 @@ ht-degree: 9%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -86,7 +86,7 @@ curl -X POST \
 
 **响应**
 
-成功响应将返回有关新创建的个性化优惠的信息，包括其唯一实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除个性化优惠。
+成功的响应会返回有关新创建的个性化优惠的信息，包括其唯一实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除个性化优惠。
 
 ```json
 {
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 限制 {#limitations}
 
-移动设备当前不支持优惠呈现和一些优惠限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 此 `Capping` 字段值指定选件在所有用户中可显示的次数。 有关更多详细信息，请参阅 [优惠资格规则和限制文档](../../../offer-library/creating-personalized-offers.md).
+移动设备当前不支持优惠呈现和一些优惠限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 此 `Capping` 字段值指定某个选件在所有用户中可以显示的次数。 有关更多详细信息，请参阅 [优惠资格规则和限制文档](../../../offer-library/creating-personalized-offers.md).

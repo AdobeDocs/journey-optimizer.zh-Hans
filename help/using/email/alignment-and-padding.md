@@ -20,21 +20,21 @@ ht-degree: 25%
 
 在本例中，我们将调整由三列组成的结构组件内的填充和垂直对齐。
 
-1. 直接在电子邮件中或使用选择结构组件 **[!UICONTROL 导航树]** 在左侧菜单中可用。
+1. 直接在电子邮件中选择结构组件，或使用 **[!UICONTROL 导航树]** 在左侧菜单中提供。
 
 1. 在工具栏中，单击 **[!UICONTROL 选择列]** 并选择要编辑的项目。 也可以从结构树中选择它。
 
-   该列的可编辑参数显示在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中。
+   随后将在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中显示该列的可编辑参数。
 
    ![](assets/alignment_2.png)
 
-1. 下 **[!UICONTROL 对齐方式]**，选择 **[!UICONTROL 顶部]**， **[!UICONTROL 中间]** 或 **[!UICONTROL 底部]**.
+1. 下 **[!UICONTROL 对齐方式]**，选择 **[!UICONTROL 上]**， **[!UICONTROL 中间]** 或 **[!UICONTROL 下]**.
 
    ![](assets/alignment_3.png)
 
-1. 下 **[!UICONTROL 填充]**，定义所有边的填充。
+1. 下 **[!UICONTROL 内边距]**，定义所有边的填充。
 
-   选择 **[!UICONTROL 每边的不同填充]** 如果要微调填充，请执行以下操作。 单击锁定图标可中断同步。
+   选择 **[!UICONTROL 每一边不同的填充]** 如果要微调内边距，请执行以下操作。 单击锁定图标可中断同步。
 
    ![](assets/alignment_4.png)
 

@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # 用例：使用Campaign v7/v8发送消息 {#campaign-classic-use-case}
 
-此用例介绍了使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
+此用例展示了使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 
 >[!NOTE]
 >
@@ -37,17 +37,17 @@ ht-degree: 3%
 
 1. 登录到Campaign控制实例。
 
-1. 下 **管理** > **Platform** > **明细列表**，选择 **事件类型** (eventType)枚举。 创建新的事件类型（在我们的示例中为“journey-event”）。 稍后写入JSON文件时，您将必须使用事件类型的内部名称。
+1. 下 **管理** > **平台** > **明细列表**，选择 **事件类型** (eventType)枚举。 创建新的事件类型（在我们的示例中为“journey-event”）。 稍后写入JSON文件时，您将必须使用事件类型的内部名称。
 
    ![](assets/accintegration-uc-1.png)
 
-1. 断开连接并重新连接到实例，以使创建生效。
+1. 断开并重新连接到实例，以使创建生效。
 
 1. 下 **消息中心** > **事务性消息模板**，根据之前创建的事件类型创建新的电子邮件模板。
 
    ![](assets/accintegration-uc-2.png)
 
-1. 设计您的模板。 在此示例中，我们对用户档案的名字和订单编号使用个性化。 名字在Adobe Experience Platform数据源中，订单号是Journey Optimizer事件中的字段。 确保在Campaign中使用正确的字段名称。
+1. 设计您的模板。 在此示例中，我们对用户档案的名字和订单号使用个性化设置。 名字在Adobe Experience Platform数据源中，订单号是Journey Optimizer事件中的字段。 确保在Campaign中使用正确的字段名称。
 
    ![](assets/accintegration-uc-3.png)
 

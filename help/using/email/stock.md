@@ -28,9 +28,9 @@ ht-degree: 13%
 
 ## 权限{#stock-permissions}
 
-此 **[!UICONTROL 查找Adobe Stock照片]** 和 **[!UICONTROL 查找相似图像]** 这些选项可供有权访问AEM Assets Essentials产品配置文件的用户使用。
+此 **[!UICONTROL 查找Adobe Stock照片]** 和 **[!UICONTROL 查找类似图像]** 这些选项可供有权访问AEM Assets Essentials产品配置文件的用户使用。
 
-有关更多信息，请参阅 [Assets基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+有关详细信息，请参见 [Assets基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## 插入图像来源 [!DNL Adobe Stock] {#add-stock-image}
 
@@ -50,14 +50,14 @@ ht-degree: 13%
 
    如果您选择的图像未获得许可，您必须 [获取许可证](#license-stock-image).
 
-## 查找相似照片 {#similar-stock-image}
+## 查找类似照片 {#similar-stock-image}
 
-您可以使用以下位置提供的照片替换电子邮件内容中的任何现有图像： [!DNL Adobe Stock]. 请注意，此选项适用于所有图像：已许可/未许可的Stock图像和您的“资产”文件夹中的图像。
+您可以使用中的照片替换电子邮件内容中的任何现有图像 [!DNL Adobe Stock]. 请注意，此选项适用于所有图像：您的Assets文件夹中已授予许可/未授予许可的Stock图像和图像。
 
 要浏览类似的照片，请执行以下步骤：
 
 1. 选择要替换的图像。
-1. 单击 **[!UICONTROL 查找类似的Stock照片]** 用于在中显示资产的按钮 [!DNL Adobe Stock] 匹配图像的内容、颜色和合成。
+1. 单击 **[!UICONTROL 查找类似的Stock照片]** 按钮以在中显示资源 [!DNL Adobe Stock] 匹配图像的内容、颜色和合成。
 
    ![](assets/stock-similar.png)
 
@@ -67,19 +67,19 @@ ht-degree: 13%
 
    如果您选择的图像未获得许可，您必须 [获取许可证](#license-stock-image).
 
-1. 如果需要，可使用自定义图像 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 [了解有关组件设置的更多信息](content-components.md).
+1. 如果需要，请使用自定义您的图像 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 选项卡。 [了解有关组件设置的更多信息](content-components.md).
 
 ## 从获取许可证 [!DNL Adobe Stock] {#license-stock-image}
 
-如果您的图像已获得许可，则它由 ![](assets/stock_10.png) 图标。 如果不能，则必须为其授予许可。
+如果您的图像已获得许可，则由 ![](assets/stock_10.png) 图标。 否则，您必须为其授予许可。
 
 要许可并下载映像，请执行以下步骤：
 
-1. 选择它并单击 **[!UICONTROL 许可Adobe Stock图像]** 图标。
+1. 选择该文件夹，然后单击 **[!UICONTROL 许可Adobe Stock图像]** 图标。
 
    ![](assets/stock-license-icon.png)
 
-   然后，您将被重定向到 [!DNL Adobe Stock] 网站购买许可证。
+   系统会将您重定向至 [!DNL Adobe Stock] 网站购买许可证。
 
    ![](assets/stock-license-photo.png)
 
@@ -90,13 +90,13 @@ ht-degree: 13%
    有关Adobe Stock计划和价格的更多信息，请访问 [Adobe Stock文档](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
-   > 如果发送了包含未授权图像的电子邮件，则图像会使用水印保留其未授权表单。
+   > 如果发送了包含未授权图像的电子邮件，则图像会使用水印保留其未授权形式。
 
-1. 完成购买后，您现在可以返回电子邮件至 [!DNL Adobe Journey Optimizer] 并选择 **[!UICONTROL 导入图库图像]** 以将您的许可图像导入到您的资产。
+1. 完成购买后，您现在可以返回电子邮件至 [!DNL Adobe Journey Optimizer] 并选择 **[!UICONTROL 导入图库图像]** 以将您的许可图像导入到资源。
 
    ![](assets/stock_6.png)
 
-1. 选择要在哪个文件夹中存储您的资产。 有关的详细信息 [!DNL Assets Essentials]，请参阅此 [页面](assets-essentials.md#get-started-assets-essentials).
+1. 选择要将资源存储到的文件夹。 有关的详细信息 [!DNL Assets Essentials]，请参阅此 [页面](assets-essentials.md#get-started-assets-essentials).
 
 ## 相关主题{#stock-related-topics}
 

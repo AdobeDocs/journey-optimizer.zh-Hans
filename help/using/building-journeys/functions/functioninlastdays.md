@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastDays
-description: 了解inLastDays函数
+description: 了解函数inLastDays
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -31,9 +31,9 @@ ht-degree: 18%
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| delta | 整数 |
+| 增量 | 整数 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `inLastDays(<dateTime>,<integer>)`
 

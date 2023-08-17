@@ -32,18 +32,18 @@ ht-degree: 9%
 
 指针记录(PTR)是一种域名系统(DNS)记录，它提供链接到IP地址的域名。
 
-利用PTR记录，接收邮件服务器可以通过识别其IP地址是否与服务器连接的名称对应来检查发送邮件服务器的真实性。
+使用PTR记录，接收邮件服务器可以通过识别其IP地址是否与服务器所连接的名称对应来检查发送邮件服务器的真实性。
 
 ## 访问子域的PTR记录 {#access-ptr-records}
 
-一次 [已委派子域](delegate-subdomain.md) 在Adobe Journey Optimizer中，会自动创建一个PTR记录并与此子域关联。 您可以从 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR记录]** 菜单。
+一次 [已委派子域](delegate-subdomain.md) 在Adobe Journey Optimizer中，会自动创建PTR记录并与该子域关联。 您可以从以下位置访问它 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR记录]** 菜单。
 
 ![](assets/ptr-records.png)
 
 该列表显示了使用下列语法为每个委派的子域生成的PTR记录：
 
-* 记录“r”，
-* IP地址的最后两个数字是“xx”
+* R作为记录，
+* IP地址的最后两个数字是“xx”，
 * 子域名。
 
 您可以从列表中打开PTR记录，以显示关联的子域名和IP地址。
@@ -54,19 +54,19 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->PTR记录对所有环境都是通用的。 因此，对PTR记录的任何修改也将影响生产沙箱。
+>PTR记录在所有环境中都是通用的。 因此，对PTR记录的任何修改也将影响生产沙盒。
 >
 >编辑PTR记录时请格外小心。 如有任何疑问，请联系可投放性专家。
 
 ### 完全委派的子域 {#fully-delegated-subdomains}
 
-要编辑包含子域的PTR记录，请执行以下操作 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 要Adobe，请执行以下步骤。
+要编辑包含子域的PTR记录，该子域 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 要Adobe，请执行以下步骤。
 
 1. 从列表中，单击PTR记录名称以将其打开。
 
    ![](assets/ptr-record-select.png)
 
-1. 选择子域 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 以从列表中Adobe。
+1. 选择子域 [已完全委派](delegate-subdomain.md#full-subdomain-delegation) 从列表中Adobe。
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -78,7 +78,7 @@ ht-degree: 9%
 
 ### 使用CNAME方法委派的子域 {#edit-ptr-subdomains-cname}
 
-要编辑包含使用委派给Adobe的子域的PTR记录 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，请按照以下步骤操作。
+Adobe要编辑包含子域的PTR记录，该子域已使用 [CNAME方法](delegate-subdomain.md#cname-subdomain-delegation)，请按照以下步骤操作。
 
 1. 从列表中，单击PTR记录名称以将其打开。
 
@@ -88,7 +88,7 @@ ht-degree: 9%
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. 您需要在托管平台上创建新的转发DNS记录。 为此，请复制Adobe生成的记录。 完成后，选中“I confirm...”框。
+1. 您需要在托管平台上创建新的转发DNS记录。 为此，请复制Adobe生成的记录。 完成后，选中“我确认……”框。
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
@@ -97,7 +97,6 @@ ht-degree: 9%
    >如果您收到此消息：“请先创建转发DNS，然后重试”，请执行以下步骤：
    >   * 如果成功创建了转发DNS记录，请检查DNS提供商。
    >   * DNS中的记录可能不会立即同步。 请等待几分钟，然后重试。
-
 
 1. 单击 **[!UICONTROL 保存]** 以确认更改。
 
@@ -127,17 +126,17 @@ ht-degree: 9%
 
 PTR记录更新可以具有以下状态：
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 正在处理]**：PTR记录更新已提交，并正在验证过程中。
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL 成功]**：更新的PTR记录已通过验证，新子域现在已与IP地址关联。
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL 正在处理]**：PTR记录更新已提交，并正在进行验证过程。
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL 成功]**：更新的PTR记录已通过验证，并且新子域现在已与IP地址关联。
 * ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL 失败]**：在PTR记录更新验证期间，一项或多项检查失败。
 
 ### 处理时间 {#processing}
 
-将执行多次可投放性检查，以验证要与IP地址关联的新子域是否有效。 这最多可能需要3小时。
+将执行多次可投放性检查，以验证要与IP地址关联的新子域是否有效。 这最多可能需要3个小时。
 
 >[!NOTE]
 >
->在更新过程中，您无法修改PTR记录。 您仍然可以单击其名称，但是 **[!UICONTROL 子域]** 字段呈灰显状态。 更新成功后才会反映更改。
+>更新过程中无法修改PTR记录。 您仍然可以单击其名称，但是 **[!UICONTROL 子域]** 字段呈灰显状态。 在更新成功之前，不会反映更改。
 
 在验证过程中，旧子域仍与IP地址关联。
 
@@ -147,7 +146,7 @@ PTR记录更新可以具有以下状态：
 
 ### 失败 {#failes}
 
-如果验证过程失败，则会显示较早的PTR记录。 以前与IP地址关联的有效子域保持不变。
+如果验证过程失败，则显示较早的PTR记录。 先前与IP地址关联的有效子域保持不变。
 
 可能的更新错误类型如下：
 * 无法为PTR记录创建新的转发DNS

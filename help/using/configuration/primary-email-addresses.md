@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 更改执行地址
-description: 了解如何从用户档案服务中确定要使用的电子邮件地址。
+description: 了解如何从配置文件服务确定要使用的电子邮件地址。
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -28,7 +28,7 @@ ht-degree: 23%
 >title="定义要使用的地址"
 >abstract="编辑字段，用于确定优先向其发送的配置文件的电子邮件地址或电话号码。"
 
-当您定位用户档案时，数据库中可能会提供多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
+定向用户档案时，数据库中可能会提供多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
 
 在这种情况下， [!DNL Journey Optimizer] 用途 **[!UICONTROL 执行字段]** 以确定从配置文件服务中优先使用的电子邮件地址或电话号码。
 
@@ -60,7 +60,7 @@ ht-degree: 23%
 
    ![](assets/primary-address-select-field.png)
 
-1. 单击 **[!UICONTROL 保存]** 以确认您的选择。
+1. 单击 **[!UICONTROL 保存]** 确认您的选择。
 
 执行字段已更新，现在将用作主地址。
 
@@ -68,11 +68,11 @@ ht-degree: 23%
 
 ## 覆盖历程参数中的值 {#journey-parameters}
 
-仅对于特定用例，您可以全局覆盖执行字段设置，并在历程级别（尤其是电子邮件渠道）定义不同的值。
+仅对于特定用例，您可以全局覆盖执行字段设置，并在历程级别定义不同的值，尤其是电子邮件渠道的值。
 
-添加 **[!UICONTROL 电子邮件]** 操作更改为 [历程](../email/create-email.md#create-email-journey-campaign)时，主电子邮件地址会显示在历程高级参数下。
+添加 **[!UICONTROL 电子邮件]** 操作更改为 [历程](../email/create-email.md#create-email-journey-campaign)，主电子邮件地址会显示在历程高级参数下。
 
-在某些特定上下文中，您可以使用覆盖此值 **[!UICONTROL 启用参数覆盖]** 图标右侧的 **[!UICONTROL 地址]** 字段。
+在某些特定上下文中，您可以使用覆盖此值 **[!UICONTROL 启用参数覆盖]** 图标（位于页面右侧） **[!UICONTROL 地址]** 字段。
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -82,5 +82,5 @@ ht-degree: 23%
 
 覆盖此值可能很有用，例如：
 
-* 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，将向您发送电子邮件。
+* 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，会向您发送电子邮件。
 * 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。

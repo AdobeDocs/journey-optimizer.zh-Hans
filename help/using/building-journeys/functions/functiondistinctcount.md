@@ -16,7 +16,7 @@ ht-degree: 30%
 
 # distinctCount{#distinctCount}
 
-计算忽略空值的不同值的数量。
+计算不同值的数量，忽略空值。
 
 ## 类别
 
@@ -43,7 +43,7 @@ ht-degree: 30%
 
 `distinctCount(<listAny>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

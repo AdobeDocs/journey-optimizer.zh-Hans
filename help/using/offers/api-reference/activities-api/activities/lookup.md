@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 查找决策 {#look-up-decision}
 
-您可以通过向以下网站发出GET请求来查找特定决策 [!DNL Offer Library] 包含任一决策的API `@id` 或请求路径中决策的名称。
+您可以通过向以下网站发出GET请求来查找特定决策 [!DNL Offer Library] 包含决策的API `@id` 或请求路径中决策的名称。
 
 **API格式**
 

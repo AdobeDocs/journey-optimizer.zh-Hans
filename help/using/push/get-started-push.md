@@ -29,11 +29,11 @@ ht-degree: 100%
 
 * 在&#x200B;**历程**&#x200B;中：在历程中添加推送活动并定义基本设置后，请使用&#x200B;**[!UICONTROL 操作：推送]**&#x200B;右侧窗格，创建推送通知内容。
 
-   有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
+  有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
 
 * 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择推送通知作为您的操作并定义基本设置。
 
-   有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
+  有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
 
 使用专用选项卡定义 **iOS** 和 **Android** 操作系统的推送通知设置。
 

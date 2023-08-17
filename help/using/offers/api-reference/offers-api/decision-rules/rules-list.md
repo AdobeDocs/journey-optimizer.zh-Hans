@@ -32,7 +32,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 ## 使用查询参数 {#using-query-parameters}
 
-在列出资源时，可以使用查询参数来分页和筛选结果。
+在列出资源时，您可以使用查询参数来分页并筛选结果。
 
 ### 分页 {#paging}
 
@@ -40,10 +40,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应为小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应当使用反斜杠进行转义。 | `default` |
-| `qop` | 将AND或OR运算符应用于q查询字符串参数中的值。 | `AND` / `OR` |
-| `field` | 要限制搜索的可选字段列表。 此参数可重复，如下所示： field=field1[，field=field2，...] 和（路径表达式采用点分隔路径的形式，如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题对项目进行降序排序(Z-A)。 | `-repo:createdDate` |
+| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `default` |
+| `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
+| `field` | 将搜索限制到的可选字段列表。 此参数可重复，如下所示：field=field1[，字段=字段2，...] 和（路径表达式采用点分隔路径形式，如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题降序对项目排序(Z-A)。 | `-repo:createdDate` |
 | `limit` | 限制返回的决策规则数。 | `limit=5` |
 
 **请求**
@@ -60,7 +60,7 @@ curl -X GET \
 
 **响应**
 
-成功响应将返回决策规则的列表，这些规则存在于您有权访问的容器中。
+成功的响应将返回决策规则列表，这些规则位于您有权访问的容器中。
 
 ```json
 {

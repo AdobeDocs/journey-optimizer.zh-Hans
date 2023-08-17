@@ -18,17 +18,17 @@ ht-degree: 21%
 
 # 管理禁止列表 {#manage-suppression-list}
 
-替换为 [!DNL Journey Optimizer]，您可以监控在历程或营销策划中自动排除发送的所有电子邮件地址，例如硬退回、软退回和垃圾邮件投诉。
+替换为 [!DNL Journey Optimizer]，您可以监测在历程或营销策划中自动排除发送的所有电子邮件地址，例如硬退回、软退回和垃圾邮件投诉。
 
-此类电子邮件地址会自动收集到Journey Optimizer中 **禁止显示列表**. 禁止列表包含要从受众中排除的地址和域。 它收集单个客户端环境中所有邮件中禁止显示的电子邮件地址和域，这意味着特定于与沙盒ID关联的组织ID。
+此类电子邮件地址会自动收集到Journey Optimizer中 **禁止显示列表**. 禁止显示列表包含要从受众中排除的地址和域。 它在一个客户端环境中收集所有邮件中禁止显示的电子邮件地址和域，这意味着特定于与沙盒ID关联的组织ID。
 
-了解有关禁止列表概念及用法的更多信息 [本节](../reports/suppression-list.md).
+了解有关禁止列表概念和用法的更多信息 [本节](../reports/suppression-list.md).
 
 >[!NOTE]
 >
 >Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
 
-## 访问禁止列表 {#access-suppression-list}
+## 访问禁止显示列表 {#access-suppression-list}
 
 要访问排除的电子邮件地址和域的详细列表，请浏览 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，并选择 **[!UICONTROL 禁止显示列表]**.
 
@@ -37,7 +37,7 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->查看、导出和管理禁止显示列表的权限仅限于 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在中拥有的访问权限 [本节](../administration/permissions-overview.md).
+>查看、导出和管理禁止列表的权限仅限于 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解关于管理的更多信息 [!DNL Journey Optimizer] 用户在中拥有的访问权限 [本节](../administration/permissions-overview.md).
 
 
 其中提供过滤器以帮助您浏览列表。
@@ -51,15 +51,15 @@ ht-degree: 21%
 
 ## 了解失败原因 {#suppression-categories-and-reasons}
 
-当消息无法发送到某个电子邮件地址时， [!DNL Journey Optimizer] 确定投放失败的原因并将其与关联 **[!UICONTROL 禁止显示类别]**.
+当邮件无法传送到某个电子邮件地址时， [!DNL Journey Optimizer] 确定投放失败的原因并将其与关联 **[!UICONTROL 禁止显示类别]**.
 
-禁止显示类别如下所示：
+隐藏类别如下所示：
 
-* **硬**：硬退回表示电子邮件地址无效（即不存在电子邮件地址）。 这涉及来自接收电子邮件服务器的退回消息，该消息明确指出地址无效。 电子邮件地址会立即发送到禁止列表。
+* **硬**：硬退回表示电子邮件地址无效（即不存在电子邮件地址）。 这涉及到来自接收电子邮件服务器的退回消息，该消息明确指出地址无效。 该电子邮件地址会立即发送到禁止显示列表。
 
-   如果错误是垃圾邮件投诉的结果，则它也会属于 **硬** 类别。 发出投诉的收件人的电子邮件地址将立即发送到禁止列表。
+  如果错误是垃圾邮件投诉的结果，则它也属于 **硬** 类别。 发出投诉的收件人的电子邮件地址将立即发送到禁止列表。
 
-* **柔和**：软退回是有效电子邮件地址发生的临时电子邮件退回。 在多次重试后，电子邮件地址会添加到禁止显示列表中。 一旦错误计数器达到限制阈值，软错误会向禁止列表发送地址。 [了解有关重试的详细信息](retries.md)
+* **柔光**：软退回是有效电子邮件地址发生的临时电子邮件退回。 重试几次后，电子邮件地址会添加到禁止显示列表中。 一旦错误计数器达到限制阈值，软错误会向禁止列表发送地址。 [了解有关重试的详细信息](retries.md)
 
 * **手动**：手动错误已手动添加到禁止显示列表。 [了解详情](#add-addresses-and-domains)
 
@@ -72,21 +72,21 @@ ht-degree: 21%
 | 原因 | 描述 | 类别 |
 | --- | --- | --- |
 | **[!UICONTROL 收件人无效]** | 收件人无效或不存在。 | 硬 |
-| **[!UICONTROL 软退回]** | 消息软退回，原因不是此表列出的软错误，例如当发送超出ISP建议的允许速率时。 | 柔和 |
-| **[!UICONTROL DNS故障]** | 由于DNS故障，消息已退回。 | 柔和 |
-| **[!UICONTROL 邮箱已满]** | 由于收件人的邮箱已满，无法接受更多邮件，邮件已退回。 | 柔和 |
-| **[!UICONTROL 中继被拒绝]** | 由于不允许中继，该消息被接收器阻止。 | 柔和 |
-| **[!UICONTROL 挑战 — 回应]** | 该消息是一个质询 — 响应探测。 | 柔和 |
+| **[!UICONTROL 软退回]** | 消息因本表中列出的软错误以外的其他原因软退回，例如当超出ISP建议的允许速率发送时。 | 柔光 |
+| **[!UICONTROL DNS故障]** | 由于DNS故障，消息已退回。 | 柔光 |
+| **[!UICONTROL 邮箱已满]** | 由于收件人的邮箱已满且无法接受更多邮件，邮件已退回。 | 柔光 |
+| **[!UICONTROL 已拒绝中继]** | 由于不允许中继，消息被接收器阻止。 | 柔光 |
+| **[!UICONTROL 挑战 — 回应]** | 消息是质询 — 响应探测器。 | 柔光 |
 | **[!UICONTROL 垃圾邮件投诉]** | 邮件被阻止，因为收件人将其标记为垃圾邮件。 | 硬 |
 
 >[!NOTE]
 >
->取消订阅的用户未收到来自的电子邮件 [!DNL Journey Optimizer]因此，无法将其电子邮件地址发送到禁止列表。 他们的选择在Experience Platform级别处理。 [了解有关选择退出的更多信息](../privacy/opt-out.md)
+>取消订阅的用户没有收到来自的电子邮件 [!DNL Journey Optimizer]因此，其电子邮件地址无法发送到禁止列表。 他们的选择在Experience Platform级别处理。 [了解有关选择退出的更多信息](../privacy/opt-out.md)
 
 
 ### 禁止显示规则  {#suppression-rules}
 
-从 **[!UICONTROL 禁止显示列表]** 视图中，您还可以编辑与禁止显示规则关联的重试参数 **[!UICONTROL 编辑禁止显示规则]** 按钮。 使用此选项可更新当前沙盒的重试阈值。 [了解有关重试的详细信息](retries.md).
+从 **[!UICONTROL 禁止显示列表]** 视图，您还可以从编辑与禁止显示规则关联的重试参数 **[!UICONTROL 编辑禁止显示规则]** 按钮。 使用此选项可更新当前沙盒的重试阈值。 [了解有关重试的详细信息](retries.md).
 
 
 ## 将地址和域添加到禁止显示列表{#add-addresses-and-domains}
@@ -138,7 +138,7 @@ ht-degree: 21%
 
 1. （可选）输入原因。 在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。
 
-1. 使用 **[!UICONTROL 提交]** 按钮进行确认。
+1. 使用 **[!UICONTROL 提交]** 按钮确认。
 
 ### 上传 CSV 文件 {#upload-csv-file}
 
@@ -162,15 +162,16 @@ ht-degree: 21%
    DOMAIN,somedomain.com,Comment
    ```
 
-1. 在CSV模板中填写要添加到禁止显示列表的电子邮件地址和/或域。 允许包含在32到126之间的所有ASCII可打印字符 **注释** 列。
+1. 在CSV模板中填写要添加到禁止显示列表的电子邮件地址和/或域。 所有ASCII可打印字符包括在32到126之间，允许在 **注释** 列。
 
    >[!CAUTION]
    >
    >请勿更改CSV模板中列的名称。
    >
    >文件大小不应超过 1 MB。
+   >
 
-1. 完成后，拖放您的CSV文件，并使用 **[!UICONTROL 提交]** 按钮进行确认。
+1. 完成后，拖放您的CSV文件，并使用 **[!UICONTROL 提交]** 按钮确认。
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
@@ -178,7 +179,7 @@ ht-degree: 21%
 
 ### 检查上传状态 {#recent-uploads}
 
-使用 **[!UICONTROL 最近上传]** 按钮以检查最新上传的CSV文件的状态。
+使用 **[!UICONTROL 最近上传]** 按钮来检查最新上传的CSV文件的状态。
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
@@ -188,13 +189,13 @@ ht-degree: 21%
 * **[!UICONTROL 错误]**：由于技术问题或文件格式错误，文件上传过程失败。
 * **[!UICONTROL 完成]**：成功完成了文件上传过程。
 
-在上传期间，如果某些地址的格式不正确，则不会将它们添加到 [!DNL Journey Optimizer] 禁止显示列表。
+上传期间，如果某些地址的格式不正确，则不会将其添加到 [!DNL Journey Optimizer] 禁止显示列表。
 
 在这种情况下，当上传完毕后，它与某个报告关联。您可以下载它以检查遇到的错误<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
-下面是您可以在错误报告中找到的条目类型示例：
+下面是您可以在错误报表中找到的条目类型示例：
 
 ```
 type,value,comments,failureReason
@@ -210,7 +211,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 您可以手动更新禁止显示列表。 从隔离中删除电子邮件地址是一项敏感操作，可能会影响您的IP信誉和投放率。 请务必谨慎操作。
 
-从禁止显示列表中删除电子邮件地址或域时，Adobe Journey Optimizer可以再次开始投递到此地址或域。  在中了解有关可投放性的更多信息 [本节](../reports/deliverability.md).
+从禁止显示列表中删除电子邮件地址或域时，Adobe Journey Optimizer可以再次开始传送到此地址或域。  在中了解有关可投放性的更多信息 [本节](../reports/deliverability.md).
 
 要从禁止显示列表中删除地址，请使用 **[!UICONTROL 删除]** 按钮。
 
@@ -219,13 +220,13 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 >[!NOTE]
 >
->在考虑删除任何电子邮件地址或域时，请格外谨慎。 如有任何疑问，请联系可投放性专家。
+>考虑删除任何电子邮件地址或域时，请格外小心。 如有任何疑问，请联系可投放性专家。
 
-例如，在互联网服务提供商(ISP)中断的情况下，由于电子邮件无法成功传递给收件人，因此错误地将其标记为硬退回。 必须从禁止显示列表中删除这些电子邮件地址。
+例如，在互联网服务提供商(ISP)中断的情况下，电子邮件被错误地标记为硬退回，因为它们无法成功传递给收件人。 必须从禁止显示列表中删除这些电子邮件地址。
 
-要检索这些地址，请根据中断的上下文使用自定义参数运行特定查询。 [在此示例中了解更多信息](../data/datasets-query-examples.md#isp-outage-query).
+要检索这些地址，请根据中断的上下文运行带有自定义参数的特定查询。 [在此示例中了解更多信息](../data/datasets-query-examples.md#isp-outage-query).
 
-确定受影响的电子邮件地址后，筛选禁止显示列表以显示它们。 例如，如果ISP在2022年11月11日至2022年11月13日期间在 **test.com** 域中，在该时间范围内筛选添加到禁止列表的地址，如下所示：
+确定受影响的电子邮件地址后，请筛选隐藏列表以显示它们。 例如，如果ISP在2022年11月11日至2022年11月13日期间在 **test.com** 域，在该时间范围内筛选添加到禁止列表的地址，如下所示：
 
 ![](assets/remove-from-supp-list.png)
 
@@ -252,9 +253,9 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
    >[!NOTE]
    >
-   >下载时间取决于文件大小，即禁止显示列表上的地址数量。
+   >下载时间取决于文件大小，即禁止列表上的地址数。
    >
-   >对于给定的沙盒，一次可以处理一个下载请求。
+   >对于给定的沙盒，一次可处理一个下载请求。
 
 1. 文件生成后，您将收到通知。 单击屏幕右上方的铃铛图标可显示铃铛图标。
 

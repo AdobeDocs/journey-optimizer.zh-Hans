@@ -28,11 +28,11 @@ ht-degree: 100%
 
 * 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。
 
-   有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
+  有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
 
 * 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。
 
-   有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
+  有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -17,7 +17,7 @@ ht-degree: 11%
 
 ## 布尔函数 {#boolean-functions}
 
-布尔函数用于对不同的元素执行布尔逻辑。
+布尔函数用于对不同元素执行布尔逻辑。
 
 ### 和{#and}
 
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 **示例**
 
-这次行动将把所有以法国为原籍国和1985年为出生年份的人送回。
+这次行动将把所有以法国为母国和1985年出生年份的人送回国内。
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -49,7 +49,7 @@ ht-degree: 11%
 
 **示例**
 
-以法国或1985年出生年份为原籍国的全体人民将参加以下行动。
+这次行动将把所有原籍国为法国或1985年出生年份的人送回。
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -78,7 +78,7 @@ not (homeAddress.countryISO = "CA")
 
 ## 比较函数 {#comparison-functions}
 
-比较函数用于比较不同表达式和值之间的差异，并相应地返回true或false。
+比较函数用于比较不同表达式和值之间的差异，从而相应地返回true或false。
 
 ### 等于{#equals}
 
@@ -100,7 +100,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 不等于{#notequal}
 
-此 `!=` （不等于）函数检查一个值或表达式是否为 **非** 等于另一个值或表达式。
+此 `!=` （不等于）函数检查一个值或表达式是 **非** 等于另一个值或表达式。
 
 **语法**
 
@@ -164,7 +164,7 @@ not (homeAddress.countryISO = "CA")
 
 **示例**
 
-以下操作定义了2000年以前出生的人。
+以下操作定义了2000年之前出生的人。
 
 ```sql
 {%= profile.person.birthYear < 2000 %}

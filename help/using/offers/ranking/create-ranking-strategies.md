@@ -36,10 +36,10 @@ ht-degree: 7%
 
 1. 单击 **[!UICONTROL 创建AI模型]** 按钮。
 
-1. 为AI模型指定唯一名称和描述，然后选择要创建的AI模型类型：
+1. 为AI模型指定唯一的名称和描述，然后选择要创建的AI模型类型：
 
    * **[!UICONTROL 自动优化]** 根据过去的选件性能优化选件。 [了解详情](auto-optimization-model.md)
-   * **[!UICONTROL 个性化优化]** 根据受众和优惠性能优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
+   * **[!UICONTROL 个性化优化]** 根据受众和优惠表现优化和个性化优惠。 [了解详情](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -47,11 +47,11 @@ ht-degree: 7%
    >
    >此 **[!UICONTROL 优化量度]** 部分提供了有关AI模型用于计算优惠排名的转化事件的信息。
    >
-   >[!DNL Journey Optimizer] 根据以下内容对优惠进行排名 **转化率** （转化率=转化事件总数/展示事件总数）。 转化率使用两种类型的量度计算：
+   >[!DNL Journey Optimizer] 优惠排名依据 **转化率** （转化率=转化事件总数/展示事件总数）。 转化率使用两种类型的量度进行计算：
    >* **展示事件** （显示的选件）
-   >* **转化事件** （选件通过电子邮件或Web导致点击）。
+   >* **转化事件** （通过电子邮件或Web导致点击的优惠）。
    >
-   >这些事件是使用提供的Web SDK或Mobile SDK自动捕获的。 有关此内容的更多信息，请参阅 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans).
+   >使用提供的Web SDK或Mobile SDK自动捕获这些事件。 有关详情，请参阅 [Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans).
 
 1. 选择收集转化和印象事件的数据集。 了解如何在中创建此类数据集 [本节](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -83,7 +83,7 @@ ht-degree: 7%
 
 现在，每次显示和/或单击选件时，您都希望相应的事件能够由 **[!UICONTROL 体验事件 — 建议交互]** 字段组使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} 或Mobile SDK。
 
-要能够在事件类型（显示选件或单击选件）中发送，您必须为发送到Adobe Experience Platform中的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
+为了能够在事件类型（显示优惠或单击优惠）中发送，您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
 
 ## 操作方法视频 {#video}
 

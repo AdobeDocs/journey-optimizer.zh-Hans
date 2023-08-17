@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # 配置数据收集 {#schema-requirements}
 
-为了能够获取有关决策事件以外的事件类型的反馈，您必须为中的每种事件类型设置正确的值 **体验事件** 发送至Adobe Experience Platform的内容。
+要获得有关决策事件以外的事件类型的反馈，您必须为中的每种事件类型设置正确的值 **体验事件** 发送到Adobe Experience Platform中的内容。
 
 >[!CAUTION]
 >

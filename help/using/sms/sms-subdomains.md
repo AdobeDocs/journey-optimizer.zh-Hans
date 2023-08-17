@@ -35,15 +35,15 @@ ht-degree: 24%
 
 要缩短添加到短信消息的URL，您必须设置将在以下情况下选择的子域： [创建短信表面](sms-configuration.md#message-preset-sms).
 
-您可以使用已委派给Adobe的子域，也可以配置其他子域。 了解有关将子域委派到Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
+您可以使用已委派给Adobe的子域，也可以配置另一个子域。 了解有关委派子域以在中进行Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
 >短信子域配置对所有环境都是通用的。 因此：
 >
->* 要访问和编辑SMS子域，您必须具有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
+>* 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
 >
-> * 对短信子域的任何修改也将影响生产沙箱。
+> * 对短信子域的任何修改也会影响生产沙盒。
 
 ## 使用现有子域 {#sms-use-existing-subdomain}
 
@@ -65,9 +65,9 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >仅允许使用字母数字字符和连字符。
+   >只允许使用字母数字字符和连字符。
 
-1. 从列表中选择一个已委派的子域。
+1. 从列表中选择已委派的子域。
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ ht-degree: 24%
 
    >[!CAUTION]
    >
-   >如果您使用选择已委派给Adobe的域 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必须在托管平台上创建DNS记录。 要生成DNS记录，此过程与配置新的SMS子域时的过程相同。 了解如何在 [本节](#sms-configure-new-subdomain).
+   >如果您使用选择已委派给Adobe的域 [CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)，您必须在托管平台上创建DNS记录。 要生成DNS记录，此过程与配置新的短信子域时的过程相同。 了解如何在 [本节](#sms-configure-new-subdomain).
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -91,7 +91,7 @@ ht-degree: 24%
    >
    >在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，这最多可能需要4小时。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它可用于创建短信渠道界面。
+1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它随时可用于创建短信渠道界面。
 
 ## 配置新子域 {#sms-configure-new-subdomain}
 
@@ -126,7 +126,7 @@ ht-degree: 24%
 
 1. 将显示要放置在DNS服务器上的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
 
-1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“I confirm...”框，然后单击 **[!UICONTROL 提交]**.
+1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“我确认……”框，然后单击 **[!UICONTROL 提交]**.
 
    ![](assets/sms_add-your-own-subdomain-confirm.png)
 
@@ -140,6 +140,6 @@ ht-degree: 24%
    >
    >在能够使用该子域发送短信消息之前，您必须等待Adobe执行所需的检查，这最多可能需要4小时。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它可用于创建短信渠道界面。
+1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它随时可用于创建短信渠道界面。
 
-   请注意，子域将标记为 **[!UICONTROL 失败]** 如果您无法在托管解决方案上创建验证记录。
+   请注意，该子域将标记为 **[!UICONTROL 失败]** 如果您无法在托管解决方案上创建验证记录。

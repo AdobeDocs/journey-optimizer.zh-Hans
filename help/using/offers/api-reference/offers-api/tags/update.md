@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 更新收藏集限定符 {#update-collection-qualifier}
 
-您可以通过对容器中的PATCH发出收集请求，来修改或更新容器中的收藏集限定符（以前称为“标记”）。 [!DNL Offer Library] API。
+您可以通过向以下对象发出PATCH请求，来修改或更新容器中的收藏集限定符（以前称为“标记”） [!DNL Offer Library] API。
 
 有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *内容类型* 和 *接受* 请求标头中的字段：
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
-| 标头名称 | 值 |
+| 标题名称 | 值 |
 | ----------- | ----- |
 | Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
@@ -64,11 +64,11 @@ curl -X PATCH \
 | --------- | ----------- |
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
 | `path` | 要更新的参数的路径。 |
-| `value` | 您希望使用更新参数的新值。 |
+| `value` | 要用于更新参数的新值。 |
 
 **响应**
 
-成功的响应将返回收集限定词的更新详细信息，包括其唯一的实例ID和收集限定词 `@id`.
+成功的响应将返回已更新的收集限定符详细信息，包括其唯一的实例ID和收集限定符 `@id`.
 
 ```json
 {

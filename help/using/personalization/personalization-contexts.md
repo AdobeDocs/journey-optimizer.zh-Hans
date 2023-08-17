@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 个性化上下文
-description: 详细了解使消息内容和显示个性化的方式。
+description: 详细了解使消息的内容和显示个性化的方法。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -20,25 +20,25 @@ ht-degree: 21%
 
 所投放消息的内容和显示 [!DNL Journey Optimizer] 可以通过多种不同的方式进行个性化。
 
-在每个具有编辑器图标的字段中，您可以打开个性化编辑器（也称为表达式编辑器）并定义个性化。
+在每个带有编辑器图标的字段中，您可以打开个性化编辑器（也称为表达式编辑器）并定义个性化。
 
 ![](assets/perso_icon.png)
 
-## 个性化您的电子邮件 {#personalize-emails}
+## 使电子邮件个性化 {#personalize-emails}
 
-创建电子邮件时，您可以在 **[!UICONTROL 主题行]** 消息的字段。
+创建电子邮件时，您可以在以下位置添加个性化设置： **[!UICONTROL 主题行]** 消息的字段。
 
 ![](assets/perso_subject.png)
 
 在Email Designer中，您可以个性化内容：
 
-* 在 **消息**：在文本块内单击，然后单击 **添加个性化** 图标。 有关Email Designer界面的详细信息，请参阅此 [部分](../email/get-started-email-design.md).
+* 在 **message**：在文本块内单击，然后单击 **添加个性化** 图标（位于上下文工具栏中）。 有关Email Designer界面的详细信息，请参阅此 [部分](../email/get-started-email-design.md).
 
-   ![](assets/perso_insert.png)
+  ![](assets/perso_insert.png)
 
-* 对于 **链接**：选择文本块中的一些文本或图像，单击 **插入链接** 图标。 在窗口中，您可以通过单击 **添加个性化** 图标。
+* 对于 **链接**：选择文本块中的某些文本或图像，单击 **插入链接** 图标（位于上下文工具栏中）。 在窗口中，您可以通过单击 **添加个性化** 图标。
 
-   ![](assets/perso_link.png)
+  ![](assets/perso_link.png)
 
 在这两种情况下，您都可以访问个性化编辑器。
 

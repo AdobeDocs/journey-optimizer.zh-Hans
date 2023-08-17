@@ -1,5 +1,5 @@
 ---
-title: 查找收藏集限定词
+title: 查找集合限定符
 description: 收藏集限定符允许您更好地对优惠进行组织和排序。
 feature: Offers
 topic: Integrations
@@ -13,9 +13,9 @@ ht-degree: 3%
 
 ---
 
-# 查找收藏集限定词 {#look-up-tag}
+# 查找集合限定符 {#look-up-tag}
 
-您可以通过对以下对象发出GET请求，来查找特定的收藏集限定符（以前称为“标记”）： [!DNL Offer Library] 包含集合限定符的API `@id` 或请求路径中集合限定符的名称。
+您可以通过对以下网站发出GET请求来查找特定的收藏集限定符（以前称为“标记”）： [!DNL Offer Library] 包含集合限定符的API `@id` 或请求路径中集合限定符的名称。
 
 **API格式**
 

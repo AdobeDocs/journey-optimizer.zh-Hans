@@ -18,7 +18,7 @@ ht-degree: 14%
 
 # 允许列表 {#allow-list}
 
-可以在以下位置定义特定的安全发送列表 [沙盒](../administration/sandboxes.md) 级别。
+可在 [沙盒](../administration/sandboxes.md) 级别。
 
 利用此允许列表，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。
 
@@ -26,9 +26,9 @@ ht-degree: 14%
 >
 >此功能在生产沙盒和非生产沙盒上可用。
 
-例如，在可能出现错误的非生产实例上，该允许列表可确保不会出现将不需要的报文发送到真实客户地址的风险，从而为测试目的提供安全的环境。
+例如，在可能出现错误的非生产实例上，该允许列表可确保不会出现将不需要的消息发送到真实客户地址的风险，从而提供了一个用于测试的安全环境。
 
-此外，当允许列表处于活动状态但为空时，不会发出任何邮件。 因此，如果您遇到一些严重问题，可以使用此功能停止所有传出通信 [!DNL Journey Optimizer] 直到你把问题解决了。 了解更多关于 [允许列表逻辑](#logic).
+此外，当允许列表处于活动状态但为空时，不会发出任何邮件。 因此，如果您遇到一些严重问题，可以使用此功能停止所有传出通信 [!DNL Journey Optimizer] 直到你解决这个问题。 了解更多关于 [允许列表逻辑](#logic).
 
 >[!CAUTION]
 >
@@ -42,13 +42,13 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->查看、导出和管理允许列表的权限仅限于 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解有关管理的更多信息 [!DNL Journey Optimizer] 用户在中拥有的访问权限 [本节](../administration/permissions-overview.md).
+>查看、导出和管理允许列表的权限仅限于 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解关于管理的更多信息 [!DNL Journey Optimizer] 用户在中拥有的访问权限 [本节](../administration/permissions-overview.md).
 
 要将允许列表导出为CSV文件，请选择 **[!UICONTROL 下载CSV]** 按钮。
 
 使用 **[!UICONTROL 删除]** 按钮以永久删除条目。
 
-您可以搜索电子邮件地址或域，并筛选 **[!UICONTROL 地址类型]**. 选中后，您可以清除显示在列表顶部的筛选器。
+您可以搜索电子邮件地址或域，并筛选 **[!UICONTROL 地址类型]**. 选择后，您可以清除显示在列表顶部的过滤器。
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->激活后，在执行历程时，以及在使用测试消息时，将应用允许列表功能 [验证](../email/preview.md#send-proofs) 和测试历程 [测试模式](../building-journeys/testing-the-journey.md).
+>激活后，在执行旅程时采用允许列表功能，在使用测试消息时也是如此 [验证](../email/preview.md#send-proofs) 和测试历程 [测试模式](../building-journeys/testing-the-journey.md).
 
 ## 取消激活允许列表 {#deactivate-allow-list}
 
@@ -94,7 +94,7 @@ ht-degree: 14%
    >
    >停用允许列表后，它需要5分钟才能在您的历程和营销活动中生效。
 
-停用该功能时，不应用允许列表逻辑。 有关详细信息，请参阅[此部分](#logic)。
+停用该功能时，允许列表逻辑不适用。 有关详细信息，请参阅[此部分](#logic)。
 
 ## 将实体添加到允许列表 {#add-entities}
 
@@ -120,7 +120,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您一次只能添加一个电子邮件地址或域。
+>一次只能添加一个电子邮件地址或域。
 
 为此，请执行以下步骤。
 
@@ -142,13 +142,13 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >中允许包含32到126之间的所有ASCII字符 **[!UICONTROL 原因]** 字段。 可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
+   >所有ASCII字符均可在 **[!UICONTROL 原因]** 字段。 可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
 ### 使用API调用添加实体 {#api-call-allowed-list}
 
-要填充允许列表，您还可以使用调用禁止API `ALLOWED` 的值 `listType` 属性。 例如：
+要填充允许列表，您还可以使用调用禁止显示API `ALLOWED` 的值 `listType` 属性。 例如：
 
 ![](assets/allow-list-api.png)
 
@@ -170,9 +170,9 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >下载时间取决于文件大小，即允许列表上的地址数量。
+   >下载时间取决于文件大小，即允许列表上的地址数。
    >
-   >对于给定的沙盒，一次可以处理一个下载请求。
+   >对于给定的沙盒，一次可处理一个下载请求。
 
 1. 文件生成后，您将收到通知。 单击屏幕右上方的铃铛图标可显示铃铛图标。
 
@@ -195,23 +195,23 @@ ht-degree: 14%
 
 * 如果允许列表为 **空**，将不会发送电子邮件。
 
-* 如果实体为 **在允许列表上**，而不是禁止列表上，则电子邮件将发送给对应的收件人。 但是，如果实体也在 [禁止显示列表](../reports/suppression-list.md)，相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 已隐藏]**.
+* 如果实体为 **在允许列表上**，而不是在禁止列表上，则电子邮件将发送给对应的收件人。 但是，如果实体也在 [禁止显示列表](../reports/suppression-list.md)，则相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 已隐藏]**.
 
 * 如果实体为 **不在允许列表上** （不在禁止列表上），相应的收件人将不会收到电子邮件，原因是 **[!UICONTROL 不允许]**.
 
 >[!NOTE]
 >
->具有的配置文件 **[!UICONTROL 不允许]** 在消息发送过程中排除状态。 因此，虽然 **历程报表** 将显示这些用户档案在整个历程中移动([读取受众](../building-journeys/read-audience.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报告** 不会将它们包含在 **[!UICONTROL 已发送]** 量度，因为在发送电子邮件之前已将它们过滤掉。
+>具有的配置文件 **[!UICONTROL 不允许]** 在消息发送过程中排除状态。 因此，尽管 **历程报表** 将显示这些用户档案已在历程中移动([读取受众](../building-journeys/read-audience.md) 和 [消息活动](../building-journeys/journeys-message.md))，则 **电子邮件报表** 不会将它们包含在中 **[!UICONTROL 已发送]** 在发送电子邮件之前过滤掉的量度。
 >
 >了解更多关于 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 
 当允许列表为 [已停用](#deactivate-allow-list)，您从当前沙盒发送的所有电子邮件都会发送给所有收件人（前提是它们不在禁止列表上），包括真实的客户地址。
 
-## 排除报告 {#reporting}
+## 排除报表 {#reporting}
 
-当允许列表处于活动状态时，您可以检索由于不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 进行以下API调用。
+当允许列表处于活动状态时，您可以检索因不在允许列表中而未发送的电子邮件地址或域。 为此，您可以使用 [Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} 进行以下API调用。
 
-获取 **电子邮件数量** 由于收件人不在允许列表上而未发送，请使用以下查询：
+要获取 **电子邮件数量** 由于收件人不在允许列表上而未发送的任何电子邮件，请使用以下查询：
 
 ```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -220,7 +220,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-获取 **电子邮件地址列表** 由于收件人不在允许列表上而未发送，请使用以下查询：
+要获取 **电子邮件地址列表** 由于收件人不在允许列表上而未发送的任何电子邮件，请使用以下查询：
 
 ```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE

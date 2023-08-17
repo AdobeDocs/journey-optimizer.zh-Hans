@@ -1,6 +1,6 @@
 ---
 title: 排名公式
-description: 了解如何创建公式来排名优惠
+description: 了解如何创建公式来对优惠进行排名
 feature: Offers
 topic: Integrations
 role: User
@@ -37,13 +37,13 @@ ht-degree: 9%
 
 1. 指定公式名称、说明和公式。
 
-   在本例中，如果实际天气炎热，我们希望提高所有具有“hot”属性的选件的优先级。 要执行此操作， **contextData.weather=hot** 在决策调用中传递。
+   在本例中，我们希望在实际天气炎热时提高所有具有“hot”属性的选件的优先级。 要执行此操作， **contextData.weather=hot** 在决策调用中传递。
 
    ![](../assets/ranking-syntax.png)
 
-1. 单击 **[!UICONTROL Save]**。排名公式已创建，您可以从列表中选择该公式以获取详细信息并对其进行编辑或删除。
+1. 单击 **[!UICONTROL Save]**。已创建排名公式，您可以从列表中选择该公式以获取详细信息并编辑或删除它。
 
-   它现在可用于对投放位置中符合条件的优惠进行排名的决策中(请参阅 [在决策中配置优惠选择](../offer-activities/configure-offer-selection.md))。
+   它现在可用于决定排名投放位置中符合条件的优惠(请参阅 [在决策中配置优惠选择](../offer-activities/configure-offer-selection.md))。
 
    ![](../assets/ranking-formula-created.png)
 
@@ -85,7 +85,7 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 
 ### 根据配置文件属性，提升具有特定优惠属性的优惠
 
-如果配置文件住在选件对应的城市，则将该城市中所有选件的优先级提高一倍。
+如果配置文件住在选件对应的城市，则将该城市中所有选件的优先级加倍。
 
 **排名公式：**
 
@@ -112,7 +112,7 @@ if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
-请注意，使用决策API时，上下文数据会添加到请求正文中的配置文件元素，如下面的示例所示。
+请注意，使用决策API时，上下文数据将添加到请求正文中的配置文件元素，如下面的示例所示。
 
 **请求正文中的片段：**
 
@@ -137,11 +137,11 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
  }],
 ```
 
-### 根据客户购买所提供产品的倾向来提升优惠
+### 根据客户购买所提供产品的倾向提升优惠内容
 
 您可以根据客户倾向得分提高选件的得分。
 
-在此示例中，实例租户是 *_salesvelocity* 配置文件架构包含存储在数组中的一系列得分：
+在此示例中，实例租户为 *_salesvelocity* 而配置文件架构包含存储在数组中的一系列得分：
 
 ![](../assets/ranking-example-schema.png)
 
@@ -165,11 +165,11 @@ and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}
 }
 ```
 
-选件将包含 *倾向类型* 与分数中的类别匹配的类别：
+选件将包含 *倾向性类型* 匹配得分中的类别：
 
 ![](../assets/ranking-example-propensityType.png)
 
-然后，您的排名公式可以将每个优惠的优先级设置为等于客户 *倾向分数* 为了这个 *倾向类型*. 如果未找到得分，请使用在选件中设置的静态优先级：
+然后，您的排名公式可以将每个优惠的优先级设置为等于客户 *倾向得分* 为了这个 *倾向性类型*. 如果未找到得分，请使用在选件中设置的静态优先级：
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

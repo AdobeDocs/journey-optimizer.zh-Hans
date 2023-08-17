@@ -7,7 +7,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: 表达式，编辑器，属性，个性化
+keywords: 表达式、编辑器、属性、个性化
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
@@ -22,12 +22,12 @@ ht-degree: 24%
 
 ![](assets/favorite-option.png)
 
-要访问您最喜爱的项目，请使用 **[!UICONTROL 收藏夹]** 菜单。
+要访问已收藏的项目，请使用 **[!UICONTROL 收藏夹]** 菜单。
 
 从该列表中，您可以快速将个性化对象添加到当前表达式。
 
 ![](assets/favorite-list.png)
 
-如果您希望不再在收藏夹列表中看到某个项目，则可以从收藏夹中删除。
+如果您希望不再在“收藏夹”列表中看到某个项目，则可以将其从“收藏夹”中删除。
 
 ![](assets/favorite-remove.png)

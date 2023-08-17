@@ -6,7 +6,7 @@ description: 了解如何使用Journey Optimizer API触发营销活动
 topic: Content Management
 role: Developer, Admin
 level: Intermediate, Experienced
-keywords: 营销活动、 API触发、 REST 、优化器、消息
+keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## 关于API触发的营销活动 {#about}
 
-替换为 [!DNL Journey Optimizer]，您可以创建营销策划，然后使用根据用户触发器从外部系统调用它们。 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这样，您就可以满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
+替换为 [!DNL Journey Optimizer]，您可以创建营销策划，然后使用根据用户触发器从外部系统调用它们。 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
 
 为此，您首先需要在Journey Optimizer中创建一个API触发的营销活动，然后通过API调用启动其执行。
 
@@ -27,7 +27,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!NOTE]
 >
->截至目前，推送通知API触发的营销活动不支持快速投放。
+>截至目前，推送通知API触发的营销活动不支持快速交付。
 
 ## 创建API触发的营销活动 {#create}
 
@@ -39,7 +39,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 1. 选择 **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]** 类别，具体取决于您要发送的通信类型。
 
-1. 选择其中一个受支持的渠道和关联的渠道表面来用于发送消息，然后单击 **[!UICONTROL 创建]**.
+1. 选择一个受支持的渠道和关联的渠道表面来用于发送消息，然后单击 **[!UICONTROL 创建]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -47,23 +47,23 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
    >[!NOTE]
    >
-   >您可以将其他数据传递到API有效负载中，以利用这些数据将消息个性化。 [了解详情](#contextual)
+   >您可以将其他数据传递到API有效负荷，以利用这些数据将消息个性化。 [了解详情](#contextual)
    >
    >在内容中使用大量或繁重的上下文数据可能会影响性能。
 
-1. 在 **[!UICONTROL Audience]** 部分，指定用于标识个人的命名空间。
+1. 在 **[!UICONTROL 受众]** 部分，指定用于识别个人的命名空间。
 
-   * 如果您要创建 **事务性**-type campaign，则需要在API调用中定义目标用户档案。 此 **[!UICONTROL 创建新配置文件]** 选项允许您自动创建数据库中不存在的配置文件。 [了解有关活动执行时用户档案创建的更多信息](#profile-creation)
+   * 如果您要创建 **事务性**-type营销活动，则需要在API调用中定义目标用户档案。 此 **[!UICONTROL 创建新配置文件]** 选项允许您自动创建数据库中不存在的配置文件。 [了解有关活动执行时用户档案创建的更多信息](#profile-creation)
 
-   * 对象 **营销**-type campaigns，单击 **[!UICONTROL Audience]** 按钮选择要定位的受众。
+   * 对象 **营销**-type campaigns，单击 **[!UICONTROL 受众]** 按钮以选择要定位的受众。
 
 1. 配置营销活动的开始和结束日期。
 
    如果您为营销活动配置特定的开始和/或结束日期，则它不会在这些日期之外执行，并且如果营销活动由API触发，则API调用将失败。
 
-1. 单击 **[!UICONTROL 查看以激活]** 检查营销活动是否正确配置，然后激活它。
+1. 单击 **[!UICONTROL 审查以激活]** 检查营销活动是否正确配置，然后激活它。
 
-您现在可以从API执行营销活动。 [了解详情](#execute)
+现在，您可以从API执行营销活动了。 [了解详情](#execute)
 
 ### 执行营销活动 {#execute}
 
@@ -73,10 +73,10 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
    ![](assets/api-triggered-curl.png)
 
-1. 在API中使用此cURL请求构建有效负载并触发营销活动。 欲了解更多信息，请参见 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 欲了解更多信息，请参见 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 
-   API调用示例还可在以下位置找到： [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   中还提供了API调用示例 [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -84,15 +84,15 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 ## 在API触发的营销活动中使用上下文属性 {#contextual}
 
-借助API触发的营销活动，您可以在API有效载荷中传递其他数据，并在营销活动中使用这些数据对消息进行个性化。
+借助API触发的营销活动，您可以在API有效载荷中传递其他数据，并在营销活动中使用这些数据来对消息进行个性化。
 
-让我们举一个示例，客户希望重置其密码，而您希望向他们发送一个在第三方工具中生成的密码重置URL。 借助API触发的营销活动，您可以将此生成的URL传递到API有效负荷中，并将其用于营销活动以将其添加到消息中。
+让我们举一个例子，客户希望重置密码，而您希望向他们发送一个在第三方工具中生成的密码重置URL。 借助API触发的营销活动，您可以将此生成的URL传递到API有效负荷中，并将其用于营销活动以将其添加到消息中。
 
 >[!NOTE]
 >
 >与启用配置文件的事件不同，在REST API中传递的上下文数据用于一次性通信，而不是针对配置文件进行存储。 创建的配置文件最多包含命名空间详细信息（如果发现缺少该配置文件）。
 
-要在营销活动中使用这些数据，您需要将这些数据传递到API有效负荷，并使用表达式编辑器将其添加到消息中。 要执行此操作，请使用 `{{context.<contextualAttribute>}}` 语法，其中 `<contextualAttribute>` 应与包含要传递的数据的API有效负载中的变量名称匹配。
+要在营销策划中使用这些数据，您需要将这些数据传递到API有效负荷中，并使用表达式编辑器将其添加到消息中。 要执行此操作，请使用 `{{context.<contextualAttribute>}}` 语法，其中 `<contextualAttribute>` 应与包含要传递的数据的API有效负载中的变量名称匹配。
 
 此 `{{context.<contextualAttribute>}}` 语法仅映射到String数据类型。
 
@@ -115,9 +115,9 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!IMPORTANT]
 >
->对于事务型消息，此功能仅用于 **创建非常小的卷配置文件** 在大量事务性发送用例中，其中大量用户档案已存在于platform中。
+>在事务型消息中，此功能是为提供的 **创建非常小的卷配置文件** 在大量事务性发送用例中，大量用户档案已存在于platform中。
 
-要在活动执行时激活用户档案创建，请切换 **[!UICONTROL 创建新配置文件]** 中的选项 **[!UICONTROL Audience]** 部分。 如果禁用此选项，则任何发送都将拒绝未知配置文件，并且API调用将失败。
+要在活动执行时激活用户档案创建，请切换 **[!UICONTROL 创建新配置文件]** 中的选项 **[!UICONTROL 受众]** 部分。 如果禁用此选项，则任何发送都将拒绝未知配置文件，并且API调用将失败。
 
 ![](assets/api-triggered-create-profile.png)
 

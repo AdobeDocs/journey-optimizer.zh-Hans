@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # 许可证使用情况仪表板 {#license-usage}
 
-此 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md) 提供了一个功能板，显示有关您组织的许可证使用情况的重要信息，如在每日快照期间捕获的信息。
+此 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md) 提供了一个功能板，用于显示有关您组织的许可证使用情况的重要信息，如在每日快照期间捕获的信息。
 
 要访问此仪表板，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 许可证使用情况]**. 这将打开 **[!UICONTROL 概述]** 选项卡显示仪表板。
 
