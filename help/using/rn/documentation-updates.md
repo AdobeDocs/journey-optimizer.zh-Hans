@@ -5,9 +5,9 @@ title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3171'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 96%
 
 ## 2023 年 8 月 {#august-2023}
 
-* 添加了关于Web渠道内容试验先决条件的新章节。 [了解详情](../web/web-prerequisites.md#experiment-prerequisites)
-* 警告已添加至 **使用内容模板** 页面指示当前在测试电子邮件内容模板时不支持跟踪。 要测试跟踪，您必须在电子邮件中使用内容模板并发送校样。 [了解详情](../email/content-templates.md#test-template)
-* 中添加了多个警告 **创建和发布登陆页面** 部分，指定您仅通过将创建页面时定义的URL（即使已发布）复制粘贴到Web浏览器中来无法访问登陆页面。 相反，您可以使用预览功能对其进行测试。 [了解详情](../landing-pages/create-lp.md)
+* 添加了关于 Web 渠道内容试验先决条件的新内容。 [了解详情](../web/web-prerequisites.md#experiment-prerequisites)
+* 在&#x200B;**使用内容模板**&#x200B;页面上添加了一项警告，以指明当前在测试电子邮件内容模板时不支持跟踪。 要测试跟踪，您必须在电子邮件中使用内容模板并发送验证。 [了解详情](../email/content-templates.md#test-template)
+* **创建和发布登陆页面**&#x200B;部分中添加了多项警告，以指明您仅通过将创建页面时定义的 URL（即使已发布）复制粘贴到 Web 浏览器无法访问登陆页面。 不过，您可以使用预览功能对其进行测试。[了解详情](../landing-pages/create-lp.md)
 
 ## 2023 年 7 月 {#july-2023}
 
