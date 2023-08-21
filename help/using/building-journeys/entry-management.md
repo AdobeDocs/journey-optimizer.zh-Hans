@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '599'
 ht-degree: 13%
 
 ---
@@ -31,13 +31,16 @@ ht-degree: 13%
 
 * 如果启用了重新进入，则用户档案可以多次进入历程，但只有在完全退出该历程的上一个实例后才能进入历程。
 
-* 如果禁用重新进入，则用户档案无法多次进入同一历程
+* 如果禁用重新进入，则用户档案无法多次进入同一历程。
 
-默认情况下，新历程允许重新进入。 您可以取消选中“一次性”旅程选项，例如，如果您想要在人员进入商店时提供一次性礼品。 在这种情况下，您不希望客户能够重新进入历程并再次收到选件。 历程结束时，其状态为 **[!UICONTROL 已关闭]**. 新个人无法再进入历程。 已在历程中的人员正常完成历程。 [了解详情](journey-gs.md#entrance)
+默认情况下，新历程允许重新进入。 您可以取消选中“一次性”旅程选项，例如，当您想要在某人访问商店时提供一次性礼品时。 在这种情况下，客户必须无法重新进入历程并再次收到选件。 历程结束时，其状态为 **[!UICONTROL 已关闭]**. 新个人无法再进入历程。 已在历程中的人员正常完成历程。 [了解详情](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-默认全局超时30天后，历程将切换到 **已完成** 状态。 新个人无法再进入历程。 已在历程中的人员正常完成历程。由于30天的历程超时，当历程不允许重新进入时，我们无法确保重新进入阻止将工作超过30天。 事实上，当我们删除有关进入旅程30天后进入旅程的人员的所有信息时，我们无法知道该人员是超过30天前进入的。 [了解详情](journey-gs.md#global_timeout)。
+默认全局超时30天后，历程将切换到 **已完成** 状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。 为了与隐私合规性保持一致，此行为仅设置为30天。 在该时段后，用户档案可以重新进入历程。 要避免此情况，请添加条件以测试输入的配置文件是否已输入。 在中了解有关历程超时的更多信息 [本节](journey-gs.md#global_timeout).
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 单一历程（以事件或受众鉴别开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，重新访问用户档案会被暂时阻止 5 分钟。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
 
