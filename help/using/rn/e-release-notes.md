@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '402'
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的应用程序内渠道</strong><br/></th>
+<th><strong>在您的历程中发送应用程序内消息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ ht-degree: 41%
 <table>
 <thead>
 <tr>
-<th><strong>文本和图像的内容助手</strong><br/></th>
+<th><strong>使用内容助手生成文本和图像</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>创建消息并使其个性化后，使用内容助手将您的内容提升到新的级别。 您现在可以使用内容助手，通过尝试不同的主标题和图像来优化消息的影响。 每个变体都作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>此功能目前作为私有测试版提供。</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ ht-degree: 41%
 
 * 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
 * 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
+
+
+**直邮**
+
+* 支持Azure Blob作为路由目标。
+* 支持“&amp;”作为自定义分隔符。
