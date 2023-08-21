@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '83'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,8 @@ Journey Optimizer 允许您自动将优惠目录导出到 Adobe Experience Platf
 
 每次在优惠库中修改其中一个对象时，都会自动执行新的导出作业来更新数据集。
 
+<!--
 >[!NOTE]
 >
->默认情况下，此功能未启用。 如果要使用它，请联系您的 Adobe 联系人，为您的目录进行激活。启用后，导出作业将自动进行，无需您采取任何操作。
+>This feature is not enabled by default. If you want to use it, reach out to your Adobe contact to have it activated for your catalog. Once it is enabled, export jobs will be automated and will require no action from your side.
+-->
