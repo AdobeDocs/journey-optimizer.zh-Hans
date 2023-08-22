@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
+source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 13%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 ![](assets/journey-re-entrance.png)
 
-默认全局超时30天后，历程将切换到 **已完成** 状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。 此行为仅设置为30天（历程超时默认值），因为我们将删除有关在进入历程30天后进入历程的用户档案的所有信息。 在该时段后，用户档案可以重新进入历程。 要避免此情况，请添加条件以测试输入的配置文件是否已输入。 在中了解有关历程超时的更多信息 [本节](journey-gs.md#global_timeout).
+默认设置之后 [全局超时](journey-gs.md#global_timeout) 在30天内，历程将切换到 **已完成** 状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。 此行为仅设置为30天（即历程超时默认值），因为有关进入历程的用户档案的所有信息在进入30天后会被删除。 在该时段后，用户档案可以重新进入历程。 要避免此情况，并完全禁止这些用户档案重新进入，您可以添加条件以测试是否已输入用户档案。
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
