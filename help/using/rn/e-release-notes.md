@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
+source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 37%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 37%
 
 * 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为私有测试版提供。
 * 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
-* 复制历程时，您现在可以定义历程副本的名称。
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **直邮**
