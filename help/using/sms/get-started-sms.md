@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 30d09c884e7ce778712a0f7a8e4c571c32ded8ed
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
@@ -75,4 +75,4 @@ ht-degree: 100%
 
 了解如何配置、创作短信消息，并将其包含在客户历程中。
 
->[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
