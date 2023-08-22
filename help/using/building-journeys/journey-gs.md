@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
+source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1595'
 ht-degree: 25%
 
 ---
@@ -121,13 +121,13 @@ ht-degree: 25%
 
 ![](assets/journey32.png)
 
-### 入口{#entrance}
+### 进入和重新进入 {#entrance}
 
 默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。
 
 当 **允许重新进入** 选项已激活， **重新进入等待期** 字段。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。
 
-在中了解有关用户档案入口管理的更多信息 [本节](entry-management.md).
+在中了解有关用户档案进入和重入管理的更多信息 [本节](entry-management.md).
 
 ### 管理访问权限 {#access}
 
