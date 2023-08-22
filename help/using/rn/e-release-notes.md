@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
+source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 39%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 39%
 
 **历程**
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为私有测试版提供。
 * 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
 
 
