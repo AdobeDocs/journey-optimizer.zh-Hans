@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '362'
+ht-degree: 43%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在Journey Optimizer中创建和管理种子列表。 种子列表包含测试电子邮件地址，您可以先向这些地址发送电子邮件，然后再将其发送给实际受众。 使用此功能可监控发出的电子邮件副本，并确保所有显示格式、URL、图像和链接均正确无误。</p>
+<p>您现在可以在Journey Optimizer中创建和管理种子列表。 种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标用户档案完全相同的消息。 使用此功能可监控已发送的通信，并确保所有显示格式、URL、图像和链接均正确。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ ht-degree: 38%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>使用内容助手生成文本和图像</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>创建消息并使其个性化后，使用内容助手将您的内容提升到新的级别。 您现在可以使用内容助手，通过尝试不同的主标题和图像来优化消息的影响。 每个变体都作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
-<p>此功能目前作为私有测试版提供。</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ ht-degree: 38%
 
 **电子邮件渠道**
 
-* 电子邮件界面设置中提供了一个新选项，用于包含由于事务型消息受众中投诉垃圾邮件而被禁止使用的电子邮件地址。 即使他们将营销消息标记为垃圾邮件，这些用户档案随后仍可以接收事务型消息，例如密码重置或帐户报表。 此选项默认处于禁用状态。
+电子邮件界面设置中提供了一个新选项，用于包含由于事务型消息受众中投诉垃圾邮件而被禁止使用的电子邮件地址。 即使他们将营销消息标记为垃圾邮件，这些用户档案随后仍可以接收事务型消息，例如密码重置或帐户报表。 此选项默认处于禁用状态。
 
 **历程**
 
@@ -102,5 +102,5 @@ ht-degree: 38%
 
 **直邮**
 
-* 支持Azure Blob作为路由目标。
-* 支持 `&` 作为自定义分隔符。
+* 现在可以在文件路由配置中选择Azure作为服务器类型。
+* &amp;现在可用作直邮表面设置中的列分隔符字段。
