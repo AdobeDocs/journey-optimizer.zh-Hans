@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 应用程序内消息是可发送给应用程序内用户的通知，可将其引导至特定的目标点。这些通知可用于不同的用途，例如推广新功能、提供特殊优惠或帮助用户入门。利用应用程序内消息，您可以有效地与受众互动，并引导受众注意应用程序的重要方面。
 
-使用 Journey Optimizer 创建应用程序内通知，并配置体验选项，包括消息布局和显示、文本和按钮选项。
+使用 Journey Optimizer 创建应用程序内通知，并配置体验选项，包括消息布局和显示、文本和按钮选项。您可以添加应用程序内消息 [在营销活动中](create-in-app.md) 和 [在历程中](create-in-app-journey.md).
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ ht-degree: 85%
 <a href="create-in-app.md">
 <img alt="潜在客户" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>创建应用程序内消息</strong>
+<div><a href="create-in-app.md"><strong>在营销活动中创建应用程序内消息</strong>
 </div>
 <p>
 </td>
@@ -57,7 +57,7 @@ ht-degree: 85%
 <img alt="验证" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>应用程序内报告</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>访问应用程序内报表</strong></a>
 </div>
 <p>
 </td>
