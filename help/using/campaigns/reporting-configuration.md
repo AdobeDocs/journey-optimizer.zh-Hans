@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="设置报表数据集"
->abstract="通过报表配置，可检索将在营销活动报表中使用的其他指标。 该操作必须由技术用户执行。"
+>abstract="报告配置让您可以检索将在营销活动报告中使用的其他指标。该操作必须由技术用户执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"

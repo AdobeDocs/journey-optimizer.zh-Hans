@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 11%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="内容体验"
->abstract="您可以选择改变投放内容、主题或发件人，以便定义多种投放处理方法并确定最适合您受众的组合。"
+>abstract="您可以选择更改邮件内容、主题或发件人，以定义多种处理方式并确定适合受众的最佳组合。"
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。在使用数据集之前，请务必针对某些量度设置数据集。"
 
-1. 当投放个性化时，从Campaign摘要页面，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。
+1. 对消息进行个性化后，在营销活动摘要页面中，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。
 
    ![](assets/content_experiment_3.png)
 
 1. 选择 **[!UICONTROL 成功量度]** 要为试验设置。
 
-   对于我们的试验，我们选择 **[!UICONTROL 电子邮件打开]** 测试收件人是否会打开其电子邮件（如果促销代码在主题行中）。
+   对于此示例，请选择 **[!UICONTROL 电子邮件打开]** 测试用户档案是否打开其电子邮件（如果促销代码在主题行中）。
 
    ![](assets/content_experiment_11.png)
 
