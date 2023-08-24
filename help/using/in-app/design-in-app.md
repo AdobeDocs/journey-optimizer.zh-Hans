@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 5%
@@ -84,7 +84,7 @@ ht-degree: 5%
 
 ![](assets/in_app_content_3.png)
 
-键入您的媒体URL或单击 **[!UICONTROL 选择资源]** 图标，用于将存储在资产库中的资产直接添加到应用程序内消息。 [了解有关资产管理的更多信息](../email/assets-essentials.md).
+键入您的媒体URL或单击 **[!UICONTROL 选择资源]** 图标，用于将存储在资产库中的资产直接添加到应用程序内消息。 [了解有关资产管理的更多信息](../content-management/assets-essentials.md).
 您还可以添加 **[!UICONTROL 替换文本]** 用于屏幕阅读应用程序。
 
 +++更多高级格式选项

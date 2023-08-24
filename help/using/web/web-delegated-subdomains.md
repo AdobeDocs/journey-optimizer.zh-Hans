@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: Web、子域、配置
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 27%
 >title="设置 Web 子域"
 >abstract="从委派给 Adobe 的子域的列表中选择一个子域。可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
 
-在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。
+在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。
 
 要实现此目的，您必须从已委派给Adobe的子域列表中进行选择。 了解有关委派子域以在中进行Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
 

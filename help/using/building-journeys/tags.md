@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 历程，标记
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 46%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 管理历程中的标记 {#journey_tags}
 
 作为Journey Optimizer的从业者，您可以使用标记整理您的历程。 标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。
-
->[!AVAILABILITY]
->
-> 统一标记目前为 Beta 版。文档和功能可能会发生变化。
 
 ## 将标记添加到历程
 

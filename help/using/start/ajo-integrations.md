@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 
 通过左侧菜单&#x200B;**[!UICONTROL 资源]**&#x200B;部分的 [!DNL Adobe Journey Optimizer]，可直接访问 [!DNL Adobe Experience Manager Assets Essentials]。
 
-了解 [Journey Optimizer + Assets Essentials](../email/assets-essentials.md) 的更多信息。
+了解 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md) 的更多信息。
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,12 +55,12 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 
 通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
 
-了解 [Journey Optimizer + Stock](../email/stock.md) 的更多信息。
+了解 [Journey Optimizer + Stock](../content-management/stock.md) 的更多信息。
 
 
 ## Adobe 智能服务{#integration-intelligent-service}
 
-Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。借助此功能，营销分析人员可使用商业级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
+Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。借助此功能，营销分析人员可以使用业务级配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 
 借助客户人工智能，品牌商可利用流失率或转化率机器学习功能来建立分数，这些分数将作为 Adobe Experience Platform 中的用户档案属性，并可用于个性化历程。
 

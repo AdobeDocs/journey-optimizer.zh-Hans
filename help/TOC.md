@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 98%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + 设计内容 {#add-content}
          + [使用内容组件](using/email/content-components.md)
          + [添加链接和跟踪消息](using/email/message-tracking.md)
-         + 管理资产 {#manage-asset}
-            + [使用 Assets Essentials](using/email/assets-essentials.md)
-            + [使用 Adobe Stock](using/email/stock.md)
          + [插入个性化优惠](using/email/add-offers-email.md)
          + [生成文本版本](using/email/text-version-email.md)
          + [添加预编译标头](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + 配置登陆页面 {#lp-configuration}
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
++ 内容管理 {#content-management}
+   + [使用 Assets Essentials](using/content-management/assets-essentials.md)
+   + [使用 Adobe Stock](using/content-management/stock.md)
+   + 使用内容助手{#content-assistant}
+      + [内容助手入门](using/content-management/gs-generative.md)
+      + [标题生成](using/content-management/generative-title.md)
+      + [图像生成](using/content-management/generative-image.md)
 + 个性化和动态内容{#personalized-dynamic-content}
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)

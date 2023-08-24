@@ -5,7 +5,7 @@ title: Journey Optimizer 营销人员入门指南
 description: 作为历程实践者，了解有关如何使用 Journey Optimizer 的更多信息
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets Essentials] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../email/assets-essentials.md)了解详情。
+1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets Essentials] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../content-management/assets-essentials.md)了解详情。
 
 1. **添加优惠**。使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。[在此部分中](../../offers/get-started/starting-offer-decisioning.md)了解有关决策管理的更多信息。
 

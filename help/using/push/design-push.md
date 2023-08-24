@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 12%
@@ -50,7 +50,7 @@ ht-degree: 12%
 
 * 使用 **[!UICONTROL 添加媒体]** 选择资源的按钮 **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-  了解如何使用 **[!DNL Adobe Experience Manager Assets Essentials]** 在 [此页面](../email/assets-essentials.md).
+  了解如何使用 **[!DNL Adobe Experience Manager Assets Essentials]** 在 [此页面](../content-management/assets-essentials.md).
 
 * 或者，在 **[!UICONTROL 添加媒体]** 字段。 在这种情况下，您可以在URL中添加个性化设置。
 

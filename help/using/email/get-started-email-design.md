@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
-* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](assets-essentials.md)
+* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../content-management/assets-essentials.md)
 
-* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](stock.md)
+* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../content-management/stock.md)
 
 * 根据客户的个人资料属性创建个性化的动态消息以增强客户体验。详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 电子邮件设计最佳实践 {#best-practices}
 
-发送电子邮件时，请务必考虑收件人可能会转发这些电子邮件，这有时可能会导致电子邮件呈现出现问题。当使用电子邮件服务提供商可能不支持的 CSS 类进行转发时（例如，如果您使用“is-desktop-hidden”CSS 类在移动设备上隐藏图像），尤其如此。
+在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
 
 为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 在“电子邮件设计器”主页上，从以下选项中选择设计电子邮件的方式：
 
-   * 通过电子邮件设计器的界面&#x200B;**从头开始设计电子邮件**，并利用 [Adobe Experience Manager Assets Essentials](assets-essentials.md) 中的图像。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
+   * 通过电子邮件设计器的界面&#x200B;**从头开始设计电子邮件**，并利用 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 中的图像。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
 
    * 在电子邮件设计器中直接&#x200B;**编码或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 

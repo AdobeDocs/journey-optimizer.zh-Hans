@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 57%
@@ -121,7 +121,7 @@ ht-degree: 57%
    * **字体大小**：选择文本的字体大小（以像素为单位）。
    * **[!UICONTROL 更改字体颜色]**：选择字体的颜色。
    * **[!UICONTROL 插入链接]**：向内容添加任何类型的链接。
-   * **[!UICONTROL 编辑图像]**：将图像或资产添加到文本组件。[了解有关资产管理的更多信息](assets-essentials.md)
+   * **[!UICONTROL 编辑图像]**：将图像或资产添加到文本组件。[了解有关资产管理的更多信息](../content-management/assets-essentials.md)
    * **[!UICONTROL 更改字体颜色]**：选择字体的颜色。
    * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义配置文件数据中的内容。[详细了解内容个性化](../personalization/personalize.md)
    * **[!UICONTROL 显示源代码]**：显示文本的源代码。不能修改。
@@ -178,7 +178,7 @@ ht-degree: 57%
 
    ![](assets/email_designer_10.png)
 
-1. 您还可以选择 **[!UICONTROL 查找类似的Stock照片]**. [了解详情](stock.md)
+1. 您还可以选择 **[!UICONTROL 查找类似的Stock照片]**. [了解详情](../content-management/stock.md)
 
 1. 从 **[!UICONTROL 样式]** 选项卡，调整其他样式属性，如边距、边框等。 或者从&#x200B;**[!UICONTROL 组件设置]**&#x200B;窗格中添加链接，以将受众重定向到其他内容。
 
