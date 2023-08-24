@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 * 配置应用程序内渠道。[了解详情](inapp-configuration.md)
 
-* 在开始之前，请确保您对Journey Optimizer促销活动具有正确的权限<!--, even if you plan to only use in-app messages in journeys. Campaign permissions are still required-->. [了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* 在开始之前，即使您计划在历程中仅使用应用程序内消息，请确保您对Journey Optimizer促销活动具有正确的权限。 仍需要营销活动权限。 [了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
 
