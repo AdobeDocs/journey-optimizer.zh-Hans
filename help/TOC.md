@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -435,22 +435,23 @@ ht-degree: 98%
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hans)
    + [查询](using/data/get-started-queries.md)
-+ 配置{#configuration}
++ 配置 {#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
+   + [设置渠道平面](using/configuration/channel-surfaces.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
-   + [设置渠道平面](using/configuration/channel-surfaces.md)
    + 监测电子邮件地址 {#monitor-reputation}
       + [禁止列表](using/configuration/manage-suppression-list.md)
       + [重试](using/configuration/retries.md)
       + [允许列表](using/configuration/allow-list.md)
+   + [使用种子列表](using/configuration/seed-lists.md)
    + [存档支持](using/configuration/archiving-support.md)
+   + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置频度规则](using/configuration/frequency-rules.md)
-   + [管理执行地址](using/configuration/primary-email-addresses.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成 {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
-         + [关于操作](using/action/action-response.md)
+         + [在自定义操作中使用API调用响应](using/action/action-response.md)
    + [源](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
    + 访问控制概述 {#privacy}

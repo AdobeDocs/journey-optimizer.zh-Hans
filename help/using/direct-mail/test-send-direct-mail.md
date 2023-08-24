@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 13%
 
 ---
 
@@ -50,3 +50,15 @@ ht-degree: 6%
 当直邮营销活动就绪时，单击 **[!UICONTROL 激活]** 按钮。 活动启动时，将自动生成提取文件并将其导出到中指定的服务器。 [文件路由配置](../direct-mail/direct-mail-configuration.md).
 
 发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关报告的更多信息，请参考此章节。
+
+## 管理直邮的同意 {#dm-consent-management}
+
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。
+
+如果配置文件已选择不接收直邮，则在相应的Experience Platform配置文件属性中，值 `consents.marketing.postalMail.val` 将为 `n` 并且相应的用户档案将从后续投放中排除。
+
+要再次启用它，必须将配置文件属性更改回 `consents.marketing.postalMail.val` ： `y`.
+
+要管理配置文件的属性，请转到Experience Platform，然后通过选择身份命名空间和相应的身份值来访问配置文件。 在中了解详情 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}.
+
+在中了解有关管理Journey Optimizer中的选择退出的更多信息 [本节](../privacy/opt-out.md).

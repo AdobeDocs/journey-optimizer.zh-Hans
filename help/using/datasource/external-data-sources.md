@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 71%
+source-wordcount: '1493'
+ht-degree: 68%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 71%
 如果GET调用需要参数，请在 **[!UICONTROL 动态值]** 字段，并在调用结束时自动添加它们。 如果是 POST 调用，您需要：
 
 * 在中列出调用时要传递的参数 **[!UICONTROL 动态值]** 字段（在以下示例中：“identifier”）。
-* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。请遵循以下语法：
+* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
   ```
   {"id":{"param":"identifier"}}
@@ -208,7 +208,10 @@ ht-degree: 71%
 
 >[!NOTE]
 >
+>每个历程都会缓存身份验证令牌：如果两个历程使用相同的自定义操作，则每个历程都会缓存自己的令牌。 该令牌不会在这些历程之间共享。
+>
 >缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留缓存在服务中，没有持久性。 如果重新启动服务，它会从干净的缓存开始。 默认情况下，缓存持续时间为1小时。 在自定义身份验证有效负载中，可以通过指定另一个保留持续时间来调整该有效负载。
+>
 
 标头身份验证类型的示例如下：
 

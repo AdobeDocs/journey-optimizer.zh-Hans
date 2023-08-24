@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置自定义操作
-description: 了解如何配置自定义操作
+title: 自定义操作增强功能
+description: 了解有关自定义操作的最新增强功能的更多信息
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 4%
 
 ---
 
-# 自定义操作增强功能
+# 自定义操作增强功能 {#custom-action-enhancements}
 
 您现在可以在自定义操作中利用API调用响应，并根据这些响应编排历程。
 
-此功能仅在使用数据源时可用。 现在，您可以将其用于自定义操作。
+此功能以前仅在使用数据源时可用。 现在，您可以将其用于自定义操作。
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ ht-degree: 4%
 >
 >自定义操作只能用于私有或内部端点，并且应配合适当的上限或限制使用。 请参阅[此页](../configuration/external-systems.md)。
 
-## 定义自定义操作
+## 定义自定义操作 {#define-custom-action}
 
 在定义自定义操作时，提供了两项增强功能：添加了GET方法和新的有效负载响应字段。 其他选项和参数保持不变。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-### 端点配置
+### 端点配置 {#endpoint-configuration}
 
 此 **URL配置** 已重命名部分 **端点配置**.
 
@@ -44,7 +42,7 @@ ht-degree: 4%
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 负载
+### 负载 {#payloads-new}
 
 此 **操作参数** 已重命名部分 **负载**. 有两个字段可用：
 
@@ -80,7 +78,7 @@ ht-degree: 4%
 
 1. 单击&#x200B;**保存**。
 
-## 在历程中利用响应
+## 在历程中利用响应 {#response-in-journey}
 
 只需将自定义操作添加到历程中。 然后，您可以在条件、其他操作和消息个性化中利用响应有效负载字段。
 
@@ -119,7 +117,7 @@ ht-degree: 4%
 
    ![](assets/action-response11.png)
 
-## 错误状态{#error-status}
+## 错误状态 {#error-status}
 
 此 **jo_status_code** 字段始终可用，即使未定义响应有效负载也是如此。
 
@@ -136,7 +134,7 @@ ht-degree: 4%
 >
 >只有新创建的自定义操作包括 **jo_status_code** 现成字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
 
-## 表达式语法
+## 表达式语法 {#exp-syntax}
 
 以下是语法：
 
@@ -160,3 +158,4 @@ ht-degree: 4%
 ```
 
 有关字段引用的更多信息，请参阅 [本节](../building-journeys/expression/field-references.md).
+

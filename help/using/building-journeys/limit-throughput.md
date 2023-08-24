@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
@@ -42,6 +42,7 @@ Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源
 >[!NOTE]
 >
 > 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 [了解详情](../building-journeys/read-audience.md)
+
 
 ![](assets/limit-throughput-1.png)
 

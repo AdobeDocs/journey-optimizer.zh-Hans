@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '893'
 ht-degree: 31%
 
 ---
@@ -36,9 +36,7 @@ ht-degree: 31%
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
 >abstract="创建直邮之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投递直邮。"
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >当前为Amazon S3和SFTP<!--and Azure--> 在中受支持 [!DNL Journey Optimizer].
+   >目前，支持Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
 
 1. 填写服务器的详细信息和凭据，如服务器地址、访问密钥等。
 
@@ -135,7 +133,7 @@ ht-degree: 31%
 
 1. 选择文件格式： **[!UICONTROL CSV]** 或 **[!UICONTROL 文本分隔]**.
 
-1. 如果您选择 **[!UICONTROL 文本分隔]**，定义所选的列分隔符：制表、分号或管道字符<!--or ampersand-->.
+1. 如果您选择 **[!UICONTROL 文本分隔]**，定义所选的列分隔符：制表、分号、竖线或&amp;符号。
 
    ![](assets/surface-direct-mail-column-separator.png)
 

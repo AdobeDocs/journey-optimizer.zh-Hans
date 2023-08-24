@@ -1,6 +1,6 @@
 ---
 title: 在历程中创建应用程序内通知
-description: 了解如何在Journey Optimizer中创建应用程序内消息
+description: 了解如何在历程中添加应用程序内消息
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 3%
+source-wordcount: '742'
+ht-degree: 2%
 
 ---
 
+
 # 在历程中创建应用程序内消息 {#create-in-app-journey}
+
+要在历程中添加应用程序内消息，请执行以下步骤：
 
 1. 打开您的历程，然后拖放 **[!UICONTROL 应用程序内]** 中的活动 **[!UICONTROL 操作]** 面板的部分。
 

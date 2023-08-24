@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1941'
 ht-degree: 8%
 
 ---
@@ -181,6 +181,31 @@ ht-degree: 8%
 此外，在定义 **[!UICONTROL 密件抄送电子邮件]** 地址，请确保使用具有有效MX记录配置的子域，否则电子邮件表面处理将失败。
 
 如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
+
+## 种子列表 {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="添加种子列表"
+>abstract="选择您选择的种子列表，以在投放中自动包含特定的电子邮件种子地址。 这些地址将在投放执行时包含在内，并将收到投放的精确副本，以便进行保证。"
+
+中的种子列表 [!DNL Journey Optimizer] 使您能够在投放中自动包含特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>目前，此功能仅适用于电子邮件渠道。
+
+在中选择与您相关的列表 **[!UICONTROL 种子列表]** 部分。 了解如何在中创建种子列表 [本节](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>一次只能选择一个种子列表。
+
+在营销活动或历程中使用当前表面时，投放执行时间将包含所选种子列表上的电子邮件地址，这意味着他们将收到投放的副本以进行保证。
+
+了解如何在营销活动或历程中使用种子列表 [本节](../configuration/seed-lists.md#use-seed-list).
 
 ## 电子邮件重试参数 {#email-retry}
 

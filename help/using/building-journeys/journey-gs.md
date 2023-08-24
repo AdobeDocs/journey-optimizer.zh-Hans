@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 25%
+source-wordcount: '1662'
+ht-degree: 24%
 
 ---
 
@@ -172,3 +172,20 @@ ht-degree: 25%
 由于30天历程超时，当历程不允许重新进入时，我们无法确保重新进入阻止将工作超过30天。 事实上，当我们删除有关进入旅程30天后进入旅程的人员的所有信息时，我们无法知道该人员是超过30天前进入的。
 
 仅当个人在历程中剩余的时间足以在30天历程超时前完成等待持续时间时，他或她才能进入等待活动。 请参阅[此页](../building-journeys/wait-activity.md)。
+
+## 复制历程 {#duplicate-a-journey}
+
+您可以从以下位置复制现有历程 **浏览** 选项卡。 所有对象和设置都将复制到历程副本。
+
+为此，请执行以下步骤：
+
+1. 导航到要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个点）。
+1. 选择&#x200B;**复制**。
+
+   ![复制历程](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. 将创建新旅程，该旅程可在旅程列表中找到。
