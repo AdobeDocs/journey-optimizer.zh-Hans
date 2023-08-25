@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1967'
 ht-degree: 8%
 
 ---
@@ -187,7 +187,10 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
->abstract="选择您选择的种子列表，以在投放中自动包含特定的电子邮件种子地址。 这些地址将在投放执行时包含在内，并将收到投放的精确副本，以便进行保证。"
+>abstract="选择您选择的种子列表以自动将特定内部地址添加到受众。 这些种子地址将在投放执行时包含在内，并将收到消息的确切副本，以确保安全。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="创建种子列表"
+
 
 中的种子列表 [!DNL Journey Optimizer] 使您能够在投放中自动包含特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)
 

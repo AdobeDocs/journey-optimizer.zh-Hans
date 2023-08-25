@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 3%
+source-wordcount: '919'
+ht-degree: 2%
 
 ---
 
@@ -72,13 +72,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定义种子列表"
->abstract="填写种子列表详细信息，以自动在投放中包含特定的种子地址。 这些地址将在投放执行时包含在内，并将收到投放的精确副本，以便进行保证。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="什么是种子列表"
+>abstract="使用种子列表自动将特定内部地址添加到投放受众，以便进行保证。 种子列表允许您监视发送的邮件副本，以确保所有显示元素均正确并保护邮寄列表。 目前，此功能仅适用于电子邮件渠道。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="指定要使用的种子地址"
->abstract="添加将自动包含在投放中的种子地址。 您可以导入CSV文件或手动输入电子邮件地址。"
+>title="填写种子列表"
+>abstract="选择将在投放执行时包含并将接收消息的确切副本的地址。 您可以导入CSV文件或手动输入电子邮件地址。"
 
 要创建种子列表，请执行以下步骤。
 
