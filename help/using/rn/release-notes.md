@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在历程中向应用程序用户发送个性化的应用程序内消息。 使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>有关更多信息，请参阅<a href="../in-app/create-in-app-journey.md">详细文档</a>。</p>
+<p>现在，您可以在历程中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
+<img src="assets/do-not-localize/in-app-GA.gif"/>
+<p>有关更多信息，请参阅<a href="../in-app/create-in-app.md">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -54,7 +54,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在Journey Optimizer中创建和管理种子列表。 种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标用户档案完全相同的消息。 使用此功能可监控已发送的通信，并确保所有显示格式、URL、图像和链接均正确。</p>
+<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标用户档案完全相同的消息。 使用此功能可监控已发送的通信，并确保所有显示格式、URL、图像和链接均正确。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>有关更多信息，请参阅<a href="../configuration/seed-lists.md">详细文档</a>。</p>
 </td>
@@ -98,7 +98,7 @@ A new option is available in the email surface settings to include email address
 
 **历程**
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为私有测试版提供。 [了解详情](../action/action-response.md)。
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。[了解详情](../action/action-response.md)。
 * 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
 [了解详情](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
