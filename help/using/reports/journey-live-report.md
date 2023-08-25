@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 5%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 5%
 * [电子邮件](#email-live)
 * [推送](#push-live)
 * [短信](#sms-live)
+* [应用程序内](#in-app-live)
 
 历程 **[!UICONTROL 实时报告]** 分为多个构件，其中详细描述历程的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关详细信息，请参阅此 [部分](live-report.md#modify-dashboard).
 
@@ -185,4 +186,30 @@ ht-degree: 5%
 * **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
 
 此 **[!UICONTROL 排除原因]** 利用图形和表格，可查看在投放期间发生了哪些错误和排除项。
++++
+
+## “应用程序内”选项卡 {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++了解有关可用于应用程序内报表的不同量度和小组件的更多信息。
+
+此 **[!UICONTROL 应用程序内性能]** KPI可详细列出与访客与应用程序内消息互动相关的主要信息，例如：
+
+* **[!UICONTROL 展示次数]**：交付给所有用户的应用程序内消息总数。
+
+  >[!NOTE]
+  >
+  >要确保计入展示次数，用户必须满足两个条件：
+  >* 应用程序内体验中的资格，通过访问其历程中的特定应用程序内活动来实现。
+  >* 满足触发器规则中指定的条件。
+  > 
+  >由于第二标准，目标用户档案的数量和独特展示次数之间可能存在显着差异。
+
+* **[!UICONTROL 交互]**：应用程序内消息的参与总数。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
+
+此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
+
+此 **[!UICONTROL 按类型列出的交互]** 图表和表详细介绍了用户如何通过跟踪任何点击、解除或交互来与您的应用程序内消息进行交互。
+
 +++
