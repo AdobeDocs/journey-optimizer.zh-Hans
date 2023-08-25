@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2258'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 2%
 * [电子邮件](#email-global)
 * [推送](#push-global)
 * [短信](#sms-global)
+* [应用程序内](#in-app-global)
 
 历程 **[!UICONTROL 全局报告]** 分为多个构件，其中详细描述历程的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关详细信息，请参阅此 [部分](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ ht-degree: 2%
 
 此 **[!UICONTROL 短信 — 按链接显示的点击次数]** 和 **[!UICONTROL 短信 — 跟踪统计数据]** 小组件详细介绍了与访客对您的URL的参与度相关的主要信息。
 
++++
+
+## “应用程序内”选项卡 {#in-app-global}
+
+来自您的历程 **[!UICONTROL 全局报告]**， **[!UICONTROL 应用程序内]** 选项卡详细列出了在您的历程中发送的、与应用程序内投放相关的主要信息。
+
+![](assets/in-app-journey-report.png)
+
++++了解有关可用于应用程序内报表的不同量度和小组件的更多信息。
+
+此 **[!UICONTROL 应用程序内性能]** KPI可详细列出与访客与应用程序内消息互动相关的主要信息，例如：
+
+* **[!UICONTROL 独特展示次数]**：向其显示应用程序内消息的独特用户数。
+
+* **[!UICONTROL 展示次数]**：向所有用户显示的应用程序内消息总数。
+
+  >[!NOTE]
+  >
+  >要确保计入展示次数，用户必须满足两个条件：
+  >* 应用程序内体验中的资格，通过访问其历程中的特定应用程序内活动来实现。
+  >* 满足触发器规则中指定的条件。
+  > 
+  >由于第二标准，目标用户档案的数量和独特展示次数之间可能存在显着差异。
+
+* **[!UICONTROL 互动率]**：与应用程序内消息互动的百分比。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
+
+此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
+
+此 **[!UICONTROL 按类型列出的交互]** 图表和表详细介绍了用户如何通过跟踪任何点击、解除或交互来与您的应用程序内消息进行交互。
 +++

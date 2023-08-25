@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2472'
 ht-degree: 4%
 
 ---
@@ -219,17 +219,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 展示次数]**：交付给所有用户的应用程序内消息总数。
 
-* **[!UICONTROL 点击率]**：与应用程序内消息中包含的按钮进行交互的用户与看到该消息的用户相比的百分比。
+* **[!UICONTROL 交互率]**：与应用程序内消息互动的百分比。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
 
-* **[!UICONTROL 消除率]**：收件人已解除的应用程序内消息的百分比。
+此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
 
-此 **[!UICONTROL 应用程序内摘要]** 图形可显示相关时间段内应用程序内展示的演变。
-
-此 **[!UICONTROL 按按钮显示的点击次数]** 图形和表包含每个按钮收件人行为的可用数据：
-
-* **[!UICONTROL 点击次数]**：与应用程序内消息中包含的按钮进行交互的收件人总数。
-
-* **[!UICONTROL 点击率]**：与应用程序内消息中包含的按钮进行交互的用户与看到该消息的用户相比的百分比。
+此 **[!UICONTROL 按类型列出的交互]** 图表和表详细介绍了用户如何通过跟踪任何点击、解除或交互来与您的应用程序内消息进行交互。
 +++
 
 ## “推送通知”选项卡 {#push-global}
@@ -354,11 +348,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 展示次数]**：交付给所有用户的Web体验总数。
 
-* **[!UICONTROL 点击率]**：与网页上的各种元素进行交互的访客百分比。
+* **[!UICONTROL 互动率]**：与网页互动的百分比。 这包括用户执行的任何操作，例如点击或任何其他交互。
 
-此 **[!UICONTROL Web摘要]** 图形可显示相关时间段内Web体验（展示次数、独特展示次数和点击次数）的演变。
+此 **[!UICONTROL Web摘要]** 图形可显示相关时间段内Web体验（展示次数、独特展示次数和交互）的演变。
 
-此 **[!UICONTROL 按元素显示的点击次数]** 该表详细列出了与访客对网页上各种元素的参与度相关的主要信息。
+此 **[!UICONTROL 按元素显示的交互]** 该表详细列出了与访客对网页上各种元素的参与度相关的主要信息。
 +++
 
 ## 直邮选项卡 {#direct-mail-global}

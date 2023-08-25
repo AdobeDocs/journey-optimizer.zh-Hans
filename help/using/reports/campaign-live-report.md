@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1352'
 ht-degree: 6%
 
 ---
@@ -109,15 +109,13 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 此 **[!UICONTROL 应用程序内性能]** KPI可详细列出与访客与应用程序内消息互动相关的主要信息，例如：
 
-* **[!UICONTROL 独特展示次数]**：将应用程序内消息传递到的独特用户数。
-
 * **[!UICONTROL 展示次数]**：交付给所有用户的应用程序内消息总数。
 
-此 **[!UICONTROL 应用程序内摘要]** 图形可显示相关时间段内应用程序内展示的演变。
+* **[!UICONTROL 交互]**：应用程序内消息的参与总数。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
 
-此 **[!UICONTROL 按按钮显示的点击次数]** 图形和表包含每个按钮收件人行为的可用数据：
+此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
 
-* **[!UICONTROL 点击次数]**：与应用程序内消息中包含的按钮进行交互的收件人总数。
+此 **[!UICONTROL 按类型列出的交互]** 图表和表详细介绍了用户如何通过跟踪任何点击、解除或交互来与您的应用程序内消息进行交互。
 
 +++
 
@@ -187,21 +185,19 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## Web选项卡 {#web-tab}
 
-来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL Web]** 选项卡详细列出了与您的网页相关的主要信息。
+来自您的营销活动 **[!UICONTROL 实时报告]**， **[!UICONTROL Web]** 选项卡详细列出了与您的网页相关的主要信息。
 
 +++了解更多可用于Web报表的不同量度和小组件。
 
 此 **[!UICONTROL Web性能]** KPI可详细列出与访客对Web体验的参与度相关的主要信息，例如：
 
-* **[!UICONTROL 独特展示次数]**：将Web体验交付给的独特用户数。
-
 * **[!UICONTROL 展示次数]**：交付给所有用户的Web体验总数。
 
-* **[!UICONTROL 点击次数]**：URL访问总数。
+* **[!UICONTROL 交互]**：与网页的互动总数。 这包括用户执行的任何操作，例如点击或任何其他交互。
 
-此 **[!UICONTROL Web摘要]** 图形可显示相关时间段内Web体验（展示次数、独特展示次数和点击次数）的演变。
+此 **[!UICONTROL Web摘要]** 图形可显示过去24小时内您的Web体验（展示次数、独特展示次数和交互）的演变。
 
-此 **[!UICONTROL 按元素显示的点击次数]** 该表详细列出了与访客对网页上各种元素的参与度相关的主要信息。
+此 **[!UICONTROL 按元素显示的交互]** 该表详细列出了与访客对网页上各种元素的参与度相关的主要信息。
 +++
 
 ## 直邮选项卡 {#direct-mail-tab}

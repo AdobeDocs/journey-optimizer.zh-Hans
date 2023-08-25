@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -105,3 +105,19 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。您需要创建新受众并在历程中使用受众内条件。
 
+
+### 应用程序内活动限制 {#in-app-activity-limitations}
+
+* 此功能目前不适用于医疗保健客户。
+
+* 个性化只能包含配置文件属性。
+
+* 应用程序内显示绑定到历程生命周期，这意味着当历程为用户档案结束时，该历程中的所有应用程序内消息将不再显示该用户档案。  因此，无法直接从历程活动停止应用程序内消息。 相反，您需要结束整个历程以停止向用户档案显示应用程序内消息。
+
+* 在测试模式下，应用程序内显示取决于历程的有效期。 要防止历程在测试期间过早结束，请调整 **[!UICONTROL 等待时间]** 值 **[!UICONTROL 等待]** 活动。
+
+* **[!UICONTROL 反应]** 活动无法用于对应用程序内打开或单击作出反应。
+
+* 从用户配置文件到达画布中的应用程序内活动到他们开始看到应用程序内消息之间，可能会发生激活延迟。
+
+* 应用程序内消息的内容大小限制为2Mb。 包含大图像可能会妨碍发布流程。

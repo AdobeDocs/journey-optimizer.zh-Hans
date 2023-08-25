@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '587'
+ht-degree: 2%
 
 ---
 
@@ -60,20 +62,6 @@ ht-degree: 1%
 1. 应用程序内消息就绪后，完成配置并发布历程以激活它。
 
 有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md).
-
-## 应用程序内活动限制 {#in-app-activity-limitations}
-
-* 此功能目前不适用于医疗保健客户。
-
-* 个性化只能包含配置文件属性。
-
-* 应用程序内显示绑定到历程生命周期，这意味着当历程为用户档案结束时，该历程中的所有应用程序内消息将不再显示该用户档案。  因此，无法直接从历程活动停止应用程序内消息。 相反，您需要结束整个历程以停止向用户档案显示应用程序内消息。
-
-* 在测试模式下，应用程序内显示取决于历程的有效期。 要防止历程在测试期间过早结束，请调整 **[!UICONTROL 等待时间]** 值 **[!UICONTROL 等待]** 活动。
-
-* **[!UICONTROL 反应]** 活动无法用于对应用程序内打开或单击作出反应。
-
-* 从用户配置文件到达画布中的应用程序内活动到他们开始看到应用程序内消息之间，可能会发生激活延迟。
 
 ## 应用程序内报告 {#inapp-report}
 
