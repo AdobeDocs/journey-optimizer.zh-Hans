@@ -1,5 +1,5 @@
 ---
-title: 创建应用程序内通知
+title: 在Journey Optimizer中创建应用程序内通知
 description: 了解如何在Journey Optimizer中创建应用程序内消息
 feature: Overview
 topic: Content Management
@@ -7,66 +7,64 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
+source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 6%
+source-wordcount: '1123'
+ht-degree: 4%
 
 ---
 
 # 创建应用程序内消息 {#create-in-app}
 
-<!--
+您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
+
 >[!BEGINTABS]
 
->[!TAB Add an In-app message to a journey]
+>[!TAB 向历程添加应用程序内消息]
 
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+1. 打开您的历程，然后拖放 **[!UICONTROL 应用程序内]** 中的活动 **[!UICONTROL 操作]** 面板的部分。
 
-1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
+   当用户档案到达其历程结尾时，显示给他们的任何应用程序内消息都将自动过期。 因此，会在应用程序内活动后自动添加等待活动，以确保计时正确。
 
-    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
+   ![](assets/in_app_journey_1.png)
 
-    ![](assets/in_app_journey_1.png)
+1. 输入 **[!UICONTROL 标签]** 和 **[!UICONTROL 描述]** 您的消息。
 
-1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
+1. 选择 [应用程序内表面](inapp-configuration.md) 以使用。
 
-1. Choose the [In-app surface](inapp-configuration.md) to use.
+   ![](assets/in_app_journey_2.png)
 
-    ![](assets/in_app_journey_2.png)
+1. 您现在可以使用开始设计内容 **[!UICONTROL 编辑内容]** 按钮。 [了解详情](design-in-app.md)
 
-1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
+1. 单击 **[!UICONTROL 编辑触发器]** 以配置触发器。
 
-1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
+   ![](assets/in_app_journey_4.png)
 
-    ![](assets/in_app_journey_4.png)
+1. 选择应用程序内消息处于活动状态时触发的频率：
 
-1. Choose the frequency of your trigger when your In-app message is active:
+   * **[!UICONTROL 每次都显示]**：始终显示所选事件时的消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+   * **[!UICONTROL 显示一次]**：仅在中首次选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+   * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+1. 从 **[!UICONTROL 移动应用程序触发器]** 在下拉列表中，选择将触发消息的事件和条件：
 
-1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+   1. 从左侧下拉列表中，选择触发消息所需的事件。
+   1. 从右侧的下拉列表中，选择所选事件所需的验证。
+   1. 单击 **[!UICONTROL 添加]** 按钮。 然后，重复上述步骤。
+   1. 选择事件的链接方式，例如，选择 **[!UICONTROL 和]** 如果您愿意 **两者** 触发器为true以显示或选择消息 **[!UICONTROL 或]** 如果您希望在以下情况下显示消息： **或者** 的触发条件为true。
+   1. 单击 **[!UICONTROL 保存]** 触发器配置完成时。
 
-    1. From the left drop-down, select the event required to trigger the message.
-    1. From the right drop-down, select the validation required on the selected event.
-    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
-    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
+   ![](assets/in_app_journey_3.png)
 
-    ![](assets/in_app_journey_3.png)
-    
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
+1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
+1. 应用程序内消息就绪后，完成配置并发布历程以激活它。
 
-For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
+有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md).
 
->[!TAB Add an In-app message to a campaign]
--->
+>[!TAB 向营销活动添加应用程序内消息]
+
+要在营销策划中添加应用程序内消息，请执行以下步骤：
 
 1. 访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**.
 
@@ -147,9 +145,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
    ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## 操作说明视频{#video}
 
