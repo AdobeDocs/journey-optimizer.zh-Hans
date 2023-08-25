@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
+source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 28%
+source-wordcount: '869'
+ht-degree: 21%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
->abstract="立即执行或在指定日期执行&#x200B;**计划的营销活动**，其旨在发送市场营销类型的消息。使用 API 调用执行 **API 触发的**&#x200B;活动。其旨在发送市场营销消息或事务性消息，如在个人执行操作后发送的消息：重置密码、丢弃购物车等。"
+>abstract="立即执行或在指定日期执行&#x200B;**计划的营销活动**，其旨在发送市场营销类型的消息。使用 API 调用执行 **API 触发的**&#x200B;活动。它们旨在发送营销消息（需要用户同意的促销消息）或事务性消息（非商业消息，也可在特定上下文中发送到已取消订阅的用户档案）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="营销活动类别"
->abstract="如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于 API 触发的营销活动，选择要发送&#x200B;**市场营销**&#x200B;还是&#x200B;**事务性**&#x200B;消息，如在个人执行操作后发送的消息：重置密码、丢弃购物车等。"
+>abstract="如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于API触发的营销活动，选择是否要发送 **营销** 消息（需要用户同意的促销消息）或 **事务性** 报文（非商业报文，也可在特定上下文中发送给未订阅的用户档案）。"
 
 1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行活动。 有两种类型的营销活动可用：
 
