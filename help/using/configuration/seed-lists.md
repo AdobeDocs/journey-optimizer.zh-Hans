@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,14 @@ ht-degree: 2%
 
 要访问已创建的种子列表，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，并选择 **[!UICONTROL 种子列表]**.
 
+<!--
 >[!CAUTION]
 >
->查看、导出和管理种子列表的权限仅限于 [历程管理员](../administration/ootb-product-profiles.md#journey-administrator). 了解关于管理的更多信息 [!DNL Journey Optimizer] 用户在中拥有的访问权限 [本节](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>要查看、编辑和管理种子列表，您必须具有 **[!UICONTROL 管理种子列表]** 许可。
 
 ![](assets/seed-list-access.png)
 
