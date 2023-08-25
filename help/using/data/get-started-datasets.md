@@ -8,9 +8,9 @@ level: Beginner
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 97%
 
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
-下面列出了Adobe Journey Optimizer的系统数据集。
+下面列出了 Adobe Journey Optimizer 的系统数据集。
 
 
 >[!CAUTION]
 >
-> 系统数据集 **不得修改**. 每次产品更新都会自动还原任何更改。
+> 系统数据集&#x200B;**不得修改**。每次产品更新都会自动还原任何更改。
 >
 
 **报告**
