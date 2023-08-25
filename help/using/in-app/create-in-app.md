@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 4%
 >[!BEGINTABS]
 
 >[!TAB 向历程添加应用程序内消息]
+
+要在历程中添加应用程序内消息，请执行以下步骤：
 
 1. 打开您的历程，然后拖放 **[!UICONTROL 应用程序内]** 中的活动 **[!UICONTROL 操作]** 面板的部分。
 
