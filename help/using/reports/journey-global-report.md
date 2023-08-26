@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2257'
 ht-degree: 2%
 
 ---
@@ -312,7 +312,7 @@ ht-degree: 2%
   > 
   >由于第二标准，目标用户档案的数量和独特展示次数之间可能存在显着差异。
 
-* **[!UICONTROL 互动率]**：与应用程序内消息互动的百分比。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
+* **[!UICONTROL 互动]**：与应用程序内消息互动的次数。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
 
 此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
 
