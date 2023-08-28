@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 2%
@@ -146,7 +146,7 @@ ht-degree: 2%
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* 如果两个收藏集是 **同时评估**，由于有来自评估标准A的两个符合条件的优惠和来自评估标准B的三个符合条件的优惠，因此这五个优惠都将根据各自的排名方法确定的值栈叠在一起。 由于请求了两个选件，因此将返回这五个选件中符合条件的前两个选件。
+* 如果两个收藏集是 **同时评估**，由于有两个来自评估标准A的合格选件和三个来自评估标准B的合格选件，因此这五个选件将根据各自的排名方法确定的值一起栈叠排名。 由于请求了两个选件，因此将返回这五个选件中符合条件的前两个选件。
 
   ![](../assets/activity_same-rank-collections.png)
 
