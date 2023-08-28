@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
-source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
+source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '951'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 >
 >目前，此功能仅适用于电子邮件渠道。
 >
->当前不支持变体。 就像来自目标受众的每个用户档案一样，种子地址会收到消息的单个副本，而不是所有变体（例如，对不同的用户档案进行不同的处理） [内容试验](../campaigns/get-started-experiment.md))。
+>当前不支持变体。 与来自目标受众的每个用户档案一样，种子地址会收到每条消息的单个副本，但并非同一消息的所有变体都会收到（例如，对消息的不同处理） [内容试验](../campaigns/get-started-experiment.md))。
 
 种子地址用于定位不符合既定目标标准的收件人。这样，超出投放范围的收件人可以像任何其他目标收件人一样接收投放。
 
