@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
+source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
 ht-degree: 97%
@@ -38,7 +38,7 @@ ht-degree: 97%
 <tr>
 <td>
 <p>现在，您可以在历程中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
-<img src="assets/do-not-localize/in-app-GA.gif"/>
+<img src="assets/do-not-localize/in-app-jo.gif"/>
 <p>有关更多信息，请参阅<a href="../in-app/create-in-app.md">详细文档</a>。</p>
 </tr>
 </tbody>
