@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源
 
 ## 实施
 
-对象 **受众触发的历程**，您可以定义将影响历程吞吐量的读取受众活动的限制速率。 [了解详情](../building-journeys/read-audience.md)
+对象 **受众触发的历程**，您可以定义将影响历程吞吐量的读取受众活动的读取率。 [了解详情](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
