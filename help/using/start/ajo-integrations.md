@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 
 ## Adobe 智能服务{#integration-intelligent-service}
 
-Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。借助此功能，营销分析人员可以使用业务级配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
+Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您能够在客户体验用例中利用人工智能和机器学习的强大功能。借助此功能，营销分析人员可使用商业级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 
 借助客户人工智能，品牌商可利用流失率或转化率机器学习功能来建立分数，这些分数将作为 Adobe Experience Platform 中的用户档案属性，并可用于个性化历程。
 
