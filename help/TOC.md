@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 98%
    + [使用 Adobe Stock](using/content-management/stock.md)
    + 使用内容助手{#content-assistant}
       + [内容助手入门](using/content-management/gs-generative.md)
-      + [标题生成](using/content-management/generative-title.md)
+      + [字幕生成](using/content-management/generative-title.md)
       + [图像生成](using/content-management/generative-image.md)
 + 个性化和动态内容{#personalized-dynamic-content}
    + 个性化 {#personalization}
@@ -436,7 +436,7 @@ ht-degree: 98%
    + [查询](using/data/get-started-queries.md)
 + 配置 {#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
-   + [设置渠道平面](using/configuration/channel-surfaces.md)
+   + [设置渠道表面](using/configuration/channel-surfaces.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
@@ -450,7 +450,7 @@ ht-degree: 98%
    + [使用种子列表](using/configuration/seed-lists.md)
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
-   + [配置频度规则](using/configuration/frequency-rules.md)
+   + [配置频率规则](using/configuration/frequency-rules.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成 {#external-systems}
@@ -475,7 +475,7 @@ ht-degree: 98%
          + [配置操作](using/action/about-custom-action-configuration.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
-         + [在自定义操作中使用API调用响应](using/action/action-response.md)
+         + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
    + [源](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
    + 访问控制概述 {#privacy}
