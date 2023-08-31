@@ -8,9 +8,9 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 84%
 
 * 配置应用程序内渠道。[了解详情](inapp-configuration.md)
 
-* 在开始之前，即使您计划在历程中仅使用应用程序内消息，请确保您对Journey Optimizer促销活动具有正确的权限。 仍需要营销活动权限。 [了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
 
@@ -57,7 +57,7 @@ ht-degree: 84%
 <img alt="验证" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>访问应用程序内报表</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>访问应用程序内报告</strong></a>
 </div>
 <p>
 </td>
