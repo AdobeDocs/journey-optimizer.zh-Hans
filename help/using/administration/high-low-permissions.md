@@ -8,9 +8,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级别，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,19 @@ ht-degree: 0%
 
 ## 营销活动资源 {#campaign-capability}
 
+* **[!DNL Export suppression list]** 高级权限允许用户以CSV文件格式下载禁止列表。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * suppression_list.export
+
+   * 特定于Adobe Experience Platform：
+      * profiles.read
+      * datasets.read
+
++++
+
 * **[!DNL Manage campaigns]** 高级权限允许用户创建新的和编辑/删除营销活动
 
 +++ 它包括以下低级权限：
@@ -274,74 +287,6 @@ ht-degree: 0%
 
 ## 渠道配置资源 {#administration-permissions}
 
-* **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
-
-+++ 它包括以下低级权限：
-   * 特定于Journey Optimizer：
-
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
-
-+++
-
-* **[!DNL Manage PTR records]** 高级权限允许用户读取和编辑已根据子域配置的PTR记录。
-
-+++ 它包括以下低级权限：
-
-   * 特定于Journey Optimizer：
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
-
-+++
-
-* **[!DNL View PTR records]** 高级权限允许用户查看已根据子域配置的PTR记录。
-
-+++ 它包括以下低级权限：
-   * 特定于Journey Optimizer：
-
-      * PTR_records.read
-      * subdomains_delegation.read
-
-+++
-
-* **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除关联定义。
-
-+++ 它包括以下低级权限：
-   * 特定于Journey Optimizer：
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
-
-+++
-
-* **[!DNL Manage messages general settings]** 高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
-
-+++ 它包括以下低级权限：
-
-   * 特定于Journey Optimizer：
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
-
-   * 特定于Adobe Experience Platform：
-      * schemas.read
-
-+++
-
-* **[!DNL View messages general settings]** 高级权限允许用户查看消息的一般设置，如执行地址。
-
-+++ 它包括以下低级权限：
-
-   * 特定于Journey Optimizer：
-      * messages_general_settings.read
-
-   * 特定于Adobe Experience Platform：
-      * schemas.read
-
-+++
-
 * **[!DNL Manage channel surface]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除渠道表面。
 
 +++ 它包括以下低级权限：
@@ -356,53 +301,13 @@ ht-degree: 0%
 
 +++
 
-<!--
-### [!DNL View channel surface] permission {#view-channel-surface}
-
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
-  +++ It includes the following low-level permissions:  
-
-* messages_presets.read
-* subdomains_delegation.read
-* IP_pools.read
-* mobile_setting.read (from Adobe Experience Platform Data Collection)
--->
-
-* **[!DNL Manage suppression]** 高级权限允许用户定义在将电子邮件地址添加到禁止列表之前的退回次数，以及在禁止列表中添加和删除条目。
+* **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除关联定义。
 
 +++ 它包括以下低级权限：
    * 特定于Journey Optimizer：
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
-
-+++
-
-* **[!DNL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
-
-+++ 它包括以下低级权限：
-
-   * 特定于Journey Optimizer：
-      * suppression_list.view
-
-   * 特定于Adobe Experience Platform：
-      * profiles.read
-      * datasets.read
-
-+++
-
-* **[!DNL Export suppression list]** 高级权限允许用户以CSV文件格式下载禁止列表。
-
-+++ 它包括以下低级权限：
-
-   * 特定于Journey Optimizer：
-      * suppression_list.export
-
-   * 特定于Adobe Experience Platform：
-      * profiles.read
-      * datasets.read
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
 
 +++
 
@@ -421,13 +326,19 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-<!--
-### Manage web subdomain permission {#web-subdomain}
+* **[!DNL Manage messages general settings]** 高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
 
-The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
++++ 它包括以下低级权限：
 
-  +++ It includes the following low-level permissions: 
--->
+   * 特定于Journey Optimizer：
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+
++++
 
 * **[!DNL Manage messages presets]** 高级权限允许用户读取、创建、编辑和删除内容品牌策略。
 
@@ -445,17 +356,25 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* **[!DNL View messages presets]** 高级权限允许用户查看消息预设。
+* **[!DNL Manage PTR records]** 高级权限允许用户读取和编辑已根据子域配置的PTR记录。
 
 +++ 它包括以下低级权限：
 
    * 特定于Journey Optimizer：
-      * messages_presets.read
+      * PTR_records.read
+      * PTR_records.write
       * subdomains_delegation.read
-      * IP_pools.read
 
-   * 数据收集特定：
-      * Mobile_setting.read
++++
+
+* **[!DNL Manage Seedlist]** 高级权限允许用户读取、创建、编辑和删除种子列表。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * seedlist.read
+      * seedlist.write
+      * seedlist.delete
 
 +++
 
@@ -469,3 +388,96 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.delete
 
 +++
+
+* **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+
+      * subdomains_delegation.read
+      * subdomains_delegation.write
+      * subdomains_delegation.delete
+
++++
+
+* **[!DNL Manage suppression]** 高级权限允许用户定义在将电子邮件地址添加到禁止列表之前的退回次数，以及在禁止列表中添加和删除条目。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
+
++++
+
+* **[!DNL View PTR records]** 高级权限允许用户查看已根据子域配置的PTR记录。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
+* **[!DNL View messages general settings]** 高级权限允许用户查看消息的一般设置，如执行地址。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * messages_general_settings.read
+
+   * 特定于Adobe Experience Platform：
+      * schemas.read
+
++++
+
+* **[!DNL View messages presets]** 高级权限允许用户查看消息预设。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * messages_presets.read
+      * subdomains_delegation.read
+      * IP_pools.read
+
+   * 数据收集特定：
+      * Mobile_setting.read
+
++++
+<!--
+### [!DNL View channel surface] permission {#view-channel-surface}
+
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
+
+* messages_presets.read
+* subdomains_delegation.read
+* IP_pools.read
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
+
+
+* **[!DNL View suppression list]** 高级权限允许用户查看禁止列表内容和设置。
+
++++ 它包括以下低级权限：
+
+   * 特定于Journey Optimizer：
+      * suppression_list.view
+
+   * 特定于Adobe Experience Platform：
+      * profiles.read
+      * datasets.read
+
++++
+
+<!--
+### Manage web subdomain permission {#web-subdomain}
+
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
+
+  +++ It includes the following low-level permissions: 
+-->
+
