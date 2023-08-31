@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年8月发行说明 {#aug-rn-2023}
+## 2023 年 8 月发行说明 {#aug-rn-2023}
 
 ### 新功能{#aug-2023-features}
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标用户档案完全相同的消息。 使用此功能可监控已发送的通信，并确保所有显示格式、URL、图像和链接均正确。</p>
+<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标个人资料完全相同的消息。 使用此功能可监控发出的通信，并确保所有显示格式、URL、图像和链接均正确无误。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>有关更多信息，请参阅<a href="../configuration/seed-lists.md">详细文档</a>。</p>
 </td>
@@ -99,15 +99,14 @@ A new option is available in the email surface settings to include email address
 **历程**
 
 * 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。[了解详情](../action/action-response.md)。
-* 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
-[了解详情](../reports/alerts.md)。
+* 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。[了解详情](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **直邮**
 
-* 现在可以在文件路由配置中选择Azure作为服务器类型。 [了解详情](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* &amp;现在可用作直邮表面设置中的列分隔符字段。 [了解详情](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* 现在可以在文件路由配置中选择 Azure 作为服务器类型。[了解详情](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* 现在 &amp; 符号可用作直邮表面设置中的列分隔符字段。[了解详情](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
