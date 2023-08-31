@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 4%
+source-wordcount: '1940'
+ht-degree: 12%
 
 ---
 
@@ -38,25 +38,73 @@ ht-degree: 4%
 
 1. 您现在可以使用开始设计内容 **[!UICONTROL 编辑内容]** 按钮。 [了解详情](design-in-app.md)
 
-1. 单击 **[!UICONTROL 编辑触发器]** 以配置触发器。
+1. 单击 **[!UICONTROL 编辑触发器]** 以选择触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
 
    ![](assets/in_app_journey_4.png)
 
-1. 选择应用程序内消息处于活动状态时触发的频率：
+   1. 如果需要，单击事件下拉列表以更改触发器。
 
-   * **[!UICONTROL 每次都显示]**：始终显示所选事件时的消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 显示一次]**：仅在中首次选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
+      +++请参阅可用的触发器。
 
-1. 从 **[!UICONTROL 移动应用程序触发器]** 在下拉列表中，选择将触发消息的事件和条件：
+      | 包 | 触发器 | 定义 |
+      |---|---|---|
+      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常是API调用 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) AEP Edge扩展中的。 |
+      | 核心跟踪 | 跟踪操作 | 当移动代码API中提供旧版功能时触发 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 称为。 |
+      | 核心跟踪 | 跟踪状态 | 当移动代码API中提供旧版功能时触发 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 称为。 |
+      | 核心跟踪 | 收集PII | 当移动代码API中提供旧版功能时触发 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 称为。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入后台时触发。当应用程序在崩溃后启动时会发送该事件。Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
+      | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
-   1. 从左侧下拉列表中，选择触发消息所需的事件。
-   1. 从右侧的下拉列表中，选择所选事件所需的验证。
-   1. 单击 **[!UICONTROL 添加]** 按钮。 然后，重复上述步骤。
-   1. 选择事件的链接方式，例如，选择 **[!UICONTROL 和]** 如果您愿意 **两者** 触发器为true以显示或选择消息 **[!UICONTROL 或]** 如果您希望在以下情况下显示消息： **或者** 的触发条件为true。
-   1. 单击 **[!UICONTROL 保存]** 触发器配置完成时。
++++
 
-   ![](assets/in_app_journey_3.png)
+   1. 单击 **[!UICONTROL 添加条件]** 如果希望触发器考虑多个事件或标准。
+
+   1. 选择 **[!UICONTROL 或]** 条件（如果要添加更多） **[!UICONTROL 触发器]** 以进一步扩展您的规则。
+
+      ![](assets/in_app_create_3.png)
+
+   1. 选择 **[!UICONTROL 和]** 条件（如果要添加） **[!UICONTROL 特征]** 并且更好地调整你的规则。
+
+      +++查看可用的特征。
+
+      | 包 | 特征 | 定义 |
+      |---|---|---|
+      | 设备信息 | 运营商名称 | 当满足列表中的运营商名称之一时触发。 |
+      | 设备信息 | 设备名称 | 当满足设备名称之一时触发。 |
+      | 设备信息 | 区域设置 | 当满足列表中的一种语言时触发。 |
+      | 设备信息 | 操作系统版本 | 当满足指定的操作系统版本之一时触发。 |
+      | 设备信息 | 以前的操作系统版本 | 当满足指定的先前操作系统版本之一时触发。 |
+      | 设备信息 | 运行模式 | 如果运行模式为应用程序或扩展，则会触发。 |
+      | 应用程序生命周期 | 应用程序 ID | 当满足指定的应用程序ID时触发。 |
+      | 应用程序生命周期 | 每周的某一日 | 当满足一周中的指定日期时触发。 |
+      | 应用程序生命周期 | 首次使用后间隔天数 | 当满足自首次使用以来的指定天数时触发。 |
+      | 应用程序生命周期 | 上次使用后间隔天数 | 当满足自上次使用后指定的天数时触发。 |
+      | 应用程序生命周期 | 升级后间隔天数 | 当满足自上次升级以来的指定天数时触发。 |
+      | 应用程序生命周期 | 安装日期 | 当满足指定的安装日期时触发。 |
+      | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
+      | 应用程序生命周期 | 一天中的时间 | 当满足指定的时间时触发。 |
+      | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
+      | Places | 上次进入的POI | 由Places SDK触发，具体取决于客户上次输入的目标点(POI)。 |
+      | Places | 上次退出的POI | 由Places SDK触发，具体取决于您的客户上次退出兴趣点(POI)。 |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
+   1. 单击 **[!UICONTROL 创建组]** 将触发器组合在一起。
+
+      ![](assets/in_app_journey_3.png)
+
+   1. 选择应用程序内消息处于活动状态时触发的频率：
+
+      * **[!UICONTROL 每次都显示]**：始终显示所选事件时的消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+      * **[!UICONTROL 显示一次]**：仅在中首次选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
+      * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
 
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
@@ -93,6 +141,24 @@ ht-degree: 4%
 1. 单击 **[!UICONTROL 编辑触发器]** 以选择触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
 
    1. 如果需要，单击事件下拉列表以更改触发器。
+
+      +++请参阅可用的触发器。
+
+      | 包 | 触发器 | 定义 |
+      |---|---|---|
+      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常是API调用 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) AEP Edge扩展中的。 |
+      | 核心跟踪 | 跟踪操作 | 当移动代码API中提供旧版功能时触发 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 称为。 |
+      | 核心跟踪 | 跟踪状态 | 当移动代码API中提供旧版功能时触发 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 称为。 |
+      | 核心跟踪 | 收集PII | 当移动代码API中提供旧版功能时触发 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 称为。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
+      | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入后台时触发。当应用程序在崩溃后启动时会发送该事件。Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
+      | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
+
++++
 
    1. 单击 **[!UICONTROL 添加条件]** 如果希望触发器考虑多个事件或标准。
 
@@ -153,14 +219,27 @@ ht-degree: 4%
 
 * 以下视频介绍了如何在营销活动中创建、配置和发布应用程序内消息。
 
+  +++观看视频
+
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
++++
 
-* 以下视频介绍了如何为A/B测试应用程序内消息配置和分析内容实验。
+* 以下视频介绍了如何配置和分析A/B测试应用程序内消息的内容实验。
+
+  +++观看视频
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
++++
 
+* 以下视频介绍如何在历程中创建应用程序内消息以及如何测试和发布历程。
+
+  +++观看视频
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
++++
 
 **相关主题：**
 
