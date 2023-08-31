@@ -188,7 +188,7 @@ ht-degree: 8%
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
 >abstract="选择您选择的种子列表以自动将特定内部地址添加到受众。 这些种子地址将在投放执行时包含在内，并将收到消息的确切副本，以确保安全。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？?"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="创建种子列表"
 
 

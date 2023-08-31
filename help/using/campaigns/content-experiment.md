@@ -11,8 +11,8 @@ keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '838'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="内容体验"
->abstract="您可以选择更改邮件内容、主题或发件人，以定义多种处理方式并确定适合受众的最佳组合。"
+>abstract="您可以选择改变消息内容、主题或发件人，以便定义多种处理方法并确定最适合您受众的组合。"
 
 >[!NOTE]
 >
