@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '413'
 ht-degree: 10%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 10%
    >数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
 
 1. 然后，访问 **[!UICONTROL 应用程序表面]** 菜单并单击 **[!UICONTROL 创建应用程序表面]**.
+
+   >[!NOTE]
+   >
+   > 您需要 **管理应用程序配置** 拥有访问 **[!UICONTROL 应用程序表面]** 菜单。 有关更多信息，请参阅 [此视频](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ ht-degree: 10%
 
 * 以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++观看视频
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
