@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 31%
+source-wordcount: '1482'
+ht-degree: 30%
 
 ---
 
@@ -116,9 +116,13 @@ ht-degree: 31%
 
   选择要查找的属性，然后指定要排除的值。 在本例中，我们从家庭地址在日本的用户档案中排除。
 
+  >[!NOTE]
+  >
+  >只能指定一个排除值。
+
   ![](assets/audiences-exclude-attribute.png)
 
-### 扩充 {#enrich}
+### 扩充活动 {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ ht-degree: 31%
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >此 **[!UICONTROL 其他配置文件]** 选项允许您使用不符合其他路径中指定的任何条件的剩余配置文件创建其他路径。
+  要配置基于属性的拆分活动，请执行以下操作：
+
+   1. 单击 **[!UICONTROL 属性]** 用于选择要作为标准选取的属性的字段。
+   1. 根据需要添加任意数量的路径，然后为每个路径指定标签和值，以用于选择要包含在路径中的配置文件。
+
+      >[!NOTE]
+      >
+      >只能为每个路径指定一个值。
+
+   1. 打开 **[!UICONTROL 其他配置文件]** 选项，用于创建具有不符合其他路径中指定的任何条件的剩余配置文件的附加路径。
 
 ## 保存您的受众 {#save}
 
