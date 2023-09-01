@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 30%
 
 ---
@@ -224,10 +224,10 @@ ht-degree: 30%
 
   ![](assets/audiences-split.png)
 
-  要配置基于属性的拆分活动，请执行以下操作：
+  要设置基于属性的拆分活动，请执行以下步骤：
 
-   1. 单击 **[!UICONTROL 属性]** 用于选择要作为标准选取的属性的字段。
-   1. 根据需要添加任意数量的路径，然后为每个路径指定标签和值，以用于选择要包含在路径中的配置文件。
+   1. 单击位于旁边的按钮 **[!UICONTROL 属性]** 字段以选择要用作拆分条件的属性。
+   1. 根据需要添加任意数量的路径。 对于每个路径，提供一个标签并指定将用于确定哪些配置文件应包含在该特定路径中的值。
 
       >[!NOTE]
       >
