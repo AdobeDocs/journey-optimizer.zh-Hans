@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 18%
 | 字段名称 | 类型 | 描述 |
 |---|---|------------|
 | ID | 字符串 | 触发的受众导出作业的标识符 |
-| 状态 | 字符串 | 受众导出作业的状态：已排队、已启动、已完成 |
+| status | 字符串 | 受众导出作业的状态：已排队、已启动、已完成 |
 | exportCountTotal | 整数 | 受众导出作业的最大可能值 |
 | exportCountRealized | 整数 | 通过作业导出的实际受众数 |
 | exportCountFailed | 整数 | 通过作业导出时失败的受众数 |

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 设置渠道平面
+title: 设置渠道表面
 description: 了解如何配置和监控渠道界面
 feature: Application Settings, Surface
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ---
 
-# 设置渠道平面 {#set-up-channel-surfaces}
+# 设置渠道表面 {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"

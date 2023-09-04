@@ -10,13 +10,13 @@ exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
 # 与智能服务集成 {#ai-overview}
 
-与集成 **[!DNL Adobe Intelligent Services]** 可让您在客户体验用例中利用人工智能和机器学习的强大功能。 借助此功能，营销分析人员可以使用业务级配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
+与集成 **[!DNL Adobe Intelligent Services]** 可让您在客户体验用例中利用人工智能和机器学习的强大功能。 借助此功能，营销分析人员可使用商业级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 
 [!DNL Intelligent Services]，构建于Adobe Experience Platform之上，允许负责客户体验的营销人员访问AI-as-a-service，从而让任何人能够轻松预测客户行为、衡量营销活动影响或确保提高每项投资的回报。 有关的详细信息 [!DNL Adobe Intelligent Services]，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target="_blank"}.
 

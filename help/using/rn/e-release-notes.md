@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 76%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标用户档案完全相同的消息。 使用此功能可监控已发送的通信，并确保所有显示格式、URL、图像和链接均正确。</p>
+<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标个人资料完全相同的消息。 使用此功能可监控发出的通信，并确保所有显示格式、URL、图像和链接均正确无误。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -102,5 +102,5 @@ ht-degree: 76%
 
 **直邮**
 
-* 现在可以在文件路由配置中选择Azure作为服务器类型。
-* &amp;现在可用作直邮表面设置中的列分隔符字段。
+* 现在可以在文件路由配置中选择 Azure 作为服务器类型。
+* 现在 &amp; 符号可用作直邮表面设置中的列分隔符字段。

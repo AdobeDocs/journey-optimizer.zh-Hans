@@ -191,7 +191,7 @@ ht-degree: 17%
   >可将展示次数用作上限事件 **入站渠道** 仅限。
 
 * **[!UICONTROL 点击次数]**：用户可单击选件的最大次数。
-* **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"} 用于构建自定义事件规则的架构。
+* **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"} 用于构建自定义事件规则的架构。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 

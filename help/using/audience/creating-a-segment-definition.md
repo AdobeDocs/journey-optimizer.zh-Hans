@@ -42,7 +42,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >请注意，左窗格中可用的字段会因 **XDM个人资料** 和 **XDM ExperienceEvent** 已为您的组织配置架构。  在中了解详情 [Experience Data Model (XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+   >请注意，左窗格中可用的字段会因 **XDM个人资料** 和 **XDM ExperienceEvent** 已为您的组织配置架构。  在中了解详情 [Experience Data Model (XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
    ![](assets/drag-fields.png)
 

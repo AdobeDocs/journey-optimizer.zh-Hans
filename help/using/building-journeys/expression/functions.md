@@ -27,7 +27,7 @@ ht-degree: 73%
 
 ## 主要函数
 
-| 类别 | 函数 |
+| 类别 | 功能 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 聚合 | [avg](../functions/functionavg.md) |

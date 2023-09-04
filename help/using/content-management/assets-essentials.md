@@ -59,7 +59,7 @@ ht-degree: 19%
 
 1. 选择要上传的文件。 完成后，单击 **[!UICONTROL 上传]**. 要了解有关如何管理资产的更多信息，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. 要使用Adobe Photoshop Express进一步编辑您的资源，请双击这些资源。 然后，从右侧菜单中，选择 **[!UICONTROL 编辑模式]** 图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. 要使用Adobe Photoshop Express进一步编辑您的资源，请双击这些资源。 然后，从右侧菜单中，选择 **[!UICONTROL 编辑模式]** 图标。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}。
 
    ![](assets/media_library_12.png)
 

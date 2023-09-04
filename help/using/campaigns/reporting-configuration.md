@@ -67,7 +67,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+>在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}

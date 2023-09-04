@@ -5,7 +5,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 2%
    >
    >您最多可以为每个决策范围请求30个优惠。
 
-1. 如果要在数据集中包含选件内容，请切换 **[!UICONTROL 包含内容]** 选项启用。 此选项默认处于禁用状态。
+1. 如果要在数据集中包含选件内容，请切换 **[!UICONTROL 包含内容]** 选项启用。 默认禁用此选项。
 
 1. 单击 **[!UICONTROL 创建]** 执行作业请求。
 

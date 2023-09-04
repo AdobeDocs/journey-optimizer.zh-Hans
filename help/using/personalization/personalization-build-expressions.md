@@ -33,7 +33,7 @@ ht-degree: 12%
 
 屏幕左侧显示一个域选择器，允许您选择个性化的源。 可用源包括：
 
-* **[!UICONTROL 配置文件属性]** ：列出与中所述的配置文件架构关联的所有引用 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+* **[!UICONTROL 配置文件属性]** ：列出与中所述的配置文件架构关联的所有引用 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请访问 [此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有选件。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅 [本节](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL 上下文属性]** ：当在历程或营销策划中使用渠道操作活动（电子邮件、推送、短信）时，与事件和属性相关的上下文属性可用于个性化。 有关利用上下文属性的个性化示例，请参见 [本节](personalization-use-case.md).

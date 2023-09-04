@@ -30,7 +30,7 @@ ht-degree: 10%
 其中：
 
 * `profile` 是命名空间。
-* `person.name` 是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+* `person.name` 是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 ## 语法一般规则 {#general-rules}
 
@@ -52,7 +52,7 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 ## 配置文件
 
-此命名空间允许您引用中所述配置文件架构中定义的所有属性。 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+此命名空间允许您引用中所述配置文件架构中定义的所有属性。 [Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 属性需要在架构中定义，然后才能在中引用 [!DNL Journey Optimizer] 个性化块。
 

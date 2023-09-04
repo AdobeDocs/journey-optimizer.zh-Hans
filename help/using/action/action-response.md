@@ -12,7 +12,7 @@ keywords: 操作，第三方，自定义，历程， API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->此功能目前作为私有测试版提供。
+>此功能目前作为独享 Beta 版提供。
 
 >[!WARNING]
 >

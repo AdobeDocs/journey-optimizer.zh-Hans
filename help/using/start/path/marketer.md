@@ -6,7 +6,7 @@ description: 作为历程实践者，了解有关如何使用 Journey Optimizer 
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
