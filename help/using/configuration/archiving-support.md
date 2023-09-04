@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种将发送给个人�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定义密件抄送电子邮件地址"
->abstract="您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。输入您选择的电子邮件地址，这样发送的每封电子邮件都会被密送至此密件抄送地址。请注意，密件抄送地址域必须与委派给Adobe的任何子域不同。 此功能属于可选功能。"
+>abstract="您可以通过将电子邮件发送到密件抄送收件箱，保留所发送电子邮件的副本。输入您选择的电子邮件地址，这样发送的每封电子邮件都会被密送至此密件抄送地址。请注意，密件抄送地址域必须不同于委派给 Adobe 的任何子域。此功能属于可选功能。"
 
 您可以发送由发送的电子邮件密件抄送(BCC) [!DNL Journey Optimizer] 到专用的密件抄送地址。 此可选功能允许您保留发送给用户的电子邮件通信副本，以便进行合规性和/或存档。 密件抄送地址对邮件的其他收件人不可见。
 
