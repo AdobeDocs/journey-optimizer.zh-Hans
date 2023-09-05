@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 100%
    + [使用 Adobe Stock](using/content-management/stock.md)
    + 使用内容助手{#content-assistant}
       + [内容助手入门](using/content-management/gs-generative.md)
-      + [字幕生成](using/content-management/generative-title.md)
+      + [内容生成](using/content-management/generative-content.md)
       + [图像生成](using/content-management/generative-image.md)
 + 个性化和动态内容{#personalized-dynamic-content}
    + 个性化 {#personalization}
