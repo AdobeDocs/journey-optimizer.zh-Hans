@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2466'
 ht-degree: 4%
 
 ---
@@ -145,9 +145,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 电子邮件 — 跟踪统计数据]** 小组件包含投放的收件人活动可用数据：
 
-* **[!UICONTROL 打开次数]**：投放在投放中打开的次数。
+* **[!UICONTROL 打开次数]**：电子邮件的打开次数。
 
-* **[!UICONTROL 独特打开次数]**：已打开投放的百分比。
+* **[!UICONTROL 独特打开次数]**：已打开电子邮件的百分比。
 
 * **[!UICONTROL 打开率]**：打开的电子邮件总数，与已投放的电子邮件数相比。
 
@@ -196,7 +196,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 已优化和未优化]** 图表详细列出了与报文相关的主要信息，无论它们是否已优化：
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
-* **[!UICONTROL 打开次数]**：投放在投放中打开的次数。
+
+* **[!UICONTROL 打开次数]**：消息的打开次数。
+
 * **[!UICONTROL 点击次数]**：在电子邮件中点击内容的次数。
 
 此 **[!UICONTROL 发送时间优化]** 根据发送方法（优化或正常）详细描述投放成功与否。
