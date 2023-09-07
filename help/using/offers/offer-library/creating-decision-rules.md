@@ -6,20 +6,31 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 15%
+source-wordcount: '427'
+ht-degree: 12%
 
 ---
 
 # 创建决策规则 {#create-decision-rules}
+
+## 关于决策规则 {#about}
 
 您可以根据Adobe Experience Platform中的可用数据创建优惠决策规则。 决策规则确定可向谁显示优惠。
 
 例如，您可以指定当（性别=“女性”）和（地区=“东北”）时仅显示“女士冬装选件”。
 
 ➡️ [在视频中发现此功能](#video)
+
+以下是使用决策规则时要注意的限制列表：
+
+* 创建规则时，您可以使用历史事件，但这些规则在何时可用存在限制。
+* Edge Decisioning使用不会存储事件的边缘配置文件，因此边缘决策中使用的任何规则都将无效。
+* 使用优惠决策的历程不会查看历史事件，因此这些规则将无效。
+* 使用中心配置文件的决策请求将查看配置文件上的最后100个体验事件，以评估引用历史体验事件的规则。
+
+## 创建决策规则 {#create}
 
 创建的决策规则列表可在 **[!UICONTROL 组件]** 菜单。
 
