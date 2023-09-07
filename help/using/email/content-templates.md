@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
+source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 例如，公司内的用户仅负责内容，因此无法访问营销活动或历程。 但是，此用户可创建一个电子邮件模板，贵组织的营销人员可以将该模板作为起点选择用于所有电子邮件。
 
-您还可以使用API创建和管理内容模板。 有关详细信息，请参见 [Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+您还可以使用API创建和管理内容模板。 有关详细信息，请参见 [Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/).
 
 ➡️ [在本视频中了解如何创建和使用模板](#video-templates)
 

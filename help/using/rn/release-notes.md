@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
+source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -197,7 +197,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>您现在可以使用专用 API 创建和管理 Adobe Journey Optimizer 内容模板，体验与现有内容系统的无缝集成。</p>
-<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
