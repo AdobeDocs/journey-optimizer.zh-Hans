@@ -4,16 +4,20 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 100%
+source-wordcount: '3303'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+## 2023年9月(#september-2023)
+
+* 决策管理文档中添加了创建决策规则时要注意的限制列表。 [了解详情](../offers/offer-library/creating-decision-rules.md)
 
 ## 2023 年 8 月 {#august-2023}
 
