@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 11%
 
 ---
@@ -107,13 +107,15 @@ ht-degree: 11%
 
 使用Adobe时 [!DNL Journey Optimizer] web designer如果尝试加载无法加载的网站，则会显示一条消息，建议您安装 [可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper).
 
-如果可视化编辑帮助程序浏览器扩展安装正确，但网站仍然无法加载或行为异常，潜在的修复方法是，在尝试在中加载网站之前，在浏览器中打开您的网站并接受Cookie [!DNL Journey Optimizer] Web设计器。
+1. 确保已正确安装可视化编辑帮助程序浏览器扩展。
+
+1. 如果网站仍出现意外行为，请确保您的浏览器中允许第三方Cookie，否则网页无法在 [!DNL Journey Optimizer] Web设计器。
 
 对于处于身份验证下的页面，如果登录页面加载失败，或者在尝试登录后您仍未登录：
 
-* 尝试先在新浏览器选项卡中登录并导航到所需的页面，然后复制URL并尝试在 [!DNL Journey Optimizer] Web设计器。
+1. 尝试先在新浏览器选项卡中登录并导航到所需的页面，然后复制URL并尝试在 [!DNL Journey Optimizer] Web设计器。
 
-* 如果您仍然无法在以下位置加载网站： [!DNL Journey Optimizer] Web设计人员联系Adobe客户关怀部门以报告此问题，并确保指定失败的URL。
+2. 如果您仍然无法在以下位置加载网站： [!DNL Journey Optimizer] Web设计人员联系Adobe客户关怀部门以报告此问题，并确保指定失败的URL。
 
 ## 投放先决条件 {#delivery-prerequisites}
 
