@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '165'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应将返回您查找的特定决策规则的详细信息，包括其容器ID、实例ID和唯一决策规则的信息 `@id`.
+成功响应将返回您查找的特定决策规则的详细信息，包括有关其唯一决策规则的信息 `id`.
 
 ```json
 {
