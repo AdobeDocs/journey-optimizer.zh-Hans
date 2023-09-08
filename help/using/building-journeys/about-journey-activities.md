@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 18%
+source-wordcount: '536'
+ht-degree: 17%
 
 ---
 
@@ -71,6 +71,10 @@ ht-degree: 18%
 大多数活动允许您定义 **[!UICONTROL 标签]**. 这会在名称中添加一个后缀，该后缀将显示在画布的活动下方。 如果您在历程中多次使用同一活动，并且希望更轻松地识别它们，则此功能非常有用。 这样还可以使错误时的调试更容易，并使报告更易于阅读。 您还可以添加可选 **[!UICONTROL 描述]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>对于某些活动，其ID也会显示在窗格中。 在报表中，此ID可用作比标签更稳定的键，标签会发生变化。
 
 ### 管理高级参数 {#advanced-parameters}
 
