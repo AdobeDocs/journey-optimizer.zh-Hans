@@ -4,7 +4,7 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ ht-degree: 92%
 * 在上限文档中添加了有关自定义身份验证端点的信息。 [了解详情](../configuration/external-systems.md)
 * 已在外部数据源部分中添加了新的自定义身份验证示例。 [了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
 * 已添加有关事件触发的历程的数据收集核心服务(DCCS)的说明。 [了解详情](../start/guardrails.md#events-g)
-* 在中添加了有关身份命名空间检索的注释 [读取受众](../building-journeys/read-audience.md)， [区段鉴别](../building-journeys/segment-qualification-events.md) 和 [事件创建](../event/about-creating.md) 部分。
+* 在中添加了有关身份命名空间检索的注释 [读取受众](../building-journeys/read-audience.md)， [受众资格](../building-journeys/audience-qualification-events.md) 和 [事件创建](../event/about-creating.md) 部分。
 * 现在，[!DNL Journey Optimizer] 中的辅助功能被分组到了专用页面中。[了解详情](../start/accessibility.md)
 * 在高级表达式编辑器文档的运算符部分中更新了示例。 [了解详情](../building-journeys/expression/operators.md)
 * 添加了有关使用对象数组查找的限制的注释。 [了解详情](../event/experience-event-schema.md#relationships_limitations)
