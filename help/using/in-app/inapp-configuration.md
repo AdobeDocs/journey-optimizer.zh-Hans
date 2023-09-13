@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 10%
+source-wordcount: '551'
+ht-degree: 8%
 
 ---
 
@@ -36,20 +36,47 @@ ht-degree: 10%
    >
    > 您需要 **管理应用程序配置** 拥有访问 **[!UICONTROL 应用程序表面]** 菜单。 有关更多信息，请参阅 [此视频](#video).
 
-   >[!NOTE]
-   >
-   > 您需要 **管理应用程序配置** 拥有访问 **[!UICONTROL 应用程序表面]** 菜单。 有关更多信息，请参阅 [此视频](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. 向添加名称 **[!UICONTROL 应用程序表面]**.
 
+   ![](assets/inapp_config_2b.png)
 
-1. 从Apple iOS下拉列表中，键入您的 **iOS包ID**. 请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 有关的详细信息 **捆绑ID**.
+1. 从 **[!UICONTROL Apple iOS]** 下拉框中，为Apple iOS配置移动应用程序。
 
-   ![](assets/inapp_config_2.png)
++++ 了解详情
 
-1. 从Android下拉列表中，键入 **Android包名称**. 请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 有关的详细信息 **包名称**.
+   1. 键入您的 **[!UICONTROL iOS包ID]**. 请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 有关的详细信息 **捆绑ID**.
+
+   1. （可选）选择 **[!UICONTROL 沙盒]** 从中发送推送通知的位置。 请注意，选择特定的沙盒需要必要的访问权限。
+
+      有关沙盒管理的更多信息，请参阅 [此页面](../administration/sandboxes.md#assign-sandboxes).
+
+   1. 启用 **[!UICONTROL 推送凭据]** 选项，以根据需要拖放您的.p8身份验证密钥文件。
+
+      您也可以启用 **[!UICONTROL 手动输入推送凭据]** 选项，用于直接复制和粘贴APNs身份验证密钥。
+
+   1. 输入您的 **[!UICONTROL 密钥ID]** 和 **[!UICONTROL 团队编号]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. 从 **[!UICONTROL Android]** 下拉菜单中，为Android配置移动应用程序。
+
++++ 了解详情
+
+   1. 键入您的 **[!UICONTROL Android包名称]**. 请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 有关的详细信息 **包名称**.
+
+   1. （可选）选择 **[!UICONTROL 沙盒]** 从中发送推送通知的位置。 请注意，选择特定的沙盒需要必要的访问权限。
+
+      有关沙盒管理的更多信息，请参阅 [此页面](../administration/sandboxes.md#assign-sandboxes).
+
+   1. 启用 **[!UICONTROL 推送凭据]** 选项，以根据需要拖放您的.json私钥文件。
+
+      您也可以启用 **[!UICONTROL 手动输入推送凭据]** 用于直接复制和粘贴FCM私钥的选项。
+
+      ![](assets/inapp_config_7.png)
 
 1. 单击 **[!UICONTROL 保存]** 当您完成 **[!UICONTROL 应用程序表面]**.
 

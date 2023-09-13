@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3468'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,24 @@ ht-degree: 99%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
+## 2023年9月更新 {#sept-rn-2023}
+
+### 新功能{#sept-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>每个沙盒移动应用程序凭据存储</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>这项新功能允许您轻松管理推送凭据，并将其与应用程序表面中的专用沙盒关联。</p>
+<p>有关更多信息，请参阅<a href="../in-app/inapp-configuration.md">详细文档</a>。</p>
+</tr>
+</tbody>
+</table>
 
 ## 2023 年 8 月发行说明 {#aug-rn-2023}
 
