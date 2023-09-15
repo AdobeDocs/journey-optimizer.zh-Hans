@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 99%
 
 * **[!UICONTROL 策略]** - 通过 Adobe Experience Platform，您可以为字段添加标签，并为每个渠道创建营销操作。然后，可定义链接到标签和营销操作的治理策略。[了解详情](../action/action-privacy.md)
 
-* **[!UICONTROL 请求]**  — 隐私请求在Adobe Experience Platform Privacy Service中进行管理。 它提供 RESTful API 和用户界面，可帮助您管理客户数据请求。[了解详情](../privacy/requests.md)
+* **[!UICONTROL 请求]** - 在 Adobe Experience Platform Privacy Service 中管理隐私请求。它提供 RESTful API 和用户界面，可帮助您管理客户数据请求。[了解详情](../privacy/requests.md)
 
 * **[!UICONTROL 审核]** - 浏览到此部分，查看活动日志。[了解详情](../privacy/audit-logs.md)
 
