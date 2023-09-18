@@ -7,7 +7,7 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
-badge: label="Beta" type="Informative"
+badge: label="Beta 版" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
