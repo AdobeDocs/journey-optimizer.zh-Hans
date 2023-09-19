@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: 9b7280c33ce8238b54f7fd1865545f865ffb72ed
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 6%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,4 @@ Experience Decisioning通过提供称为“决策项目”的集中营销优惠�
 
 1. **将决策策略嵌入到基于代码的营销活动中**：决策策略将多个选择策略相结合，以确定向目标受众显示的合格决策项目。
 
-## 术语表
-
-布兰登提供条款。
+<!--## Glossary-->
