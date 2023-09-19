@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 96%
 
 ---
 
@@ -229,12 +229,17 @@ ht-degree: 100%
    + [创建直邮](using/direct-mail/create-direct-mail.md)
    + [测试并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
-+ Web 渠道{#web}
++ Web 渠道 {#web}
    + [Web 渠道入门](using/web/get-started-web.md)
    + [Web 渠道先决条件](using/web/web-prerequisites.md)
    + [创建 Web 体验](using/web/create-web.md)
    + [创建 Web 页面](using/web/author-web.md)
    + [配置 Web 子域](using/web/web-delegated-subdomains.md)
++ 基于代码的体验 {#code-based-experience}
+   + [基于代码的渠道入门](using/code-based/get-started-code-based.md)
+   + [基于代码的先决条件](using/code-based/code-based-prerequisites.md)
+   + [基于代码的实施示例](using/code-based/code-based-implementation-samples.md)
+   + [创建基于代码的体验](using/code-based/create-code-based.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -426,6 +431,17 @@ ht-degree: 100%
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ Experience Decisioning {#experience-decisioning}
+   + [Experience Decisioning入门](using/experience-decisioning/gs-experience-decisioning.md)
+   + 管理您的决策项目 {#decision-items}
+      + [配置物料目录](using/experience-decisioning/catalogs.md)
+      + [创建决策项目](using/experience-decisioning/items.md)
+      + [管理物料集合](using/experience-decisioning/collections.md)
+   + 配置项目的选择 {#selection}
+      + [创建决策规则](using/experience-decisioning/rules.md)
+      + [创建排名方法](using/experience-decisioning/ranking.md)
+   + [创建选择策略](using/experience-decisioning/selection-strategies.md)
+   + [创建决策策略](using/experience-decisioning/create-decision.md)
 + 数据管理 {#data-management}
    + [数据管理入门](using/data/gs-data.md)
    + [使用模式](using/data/get-started-schemas.md)

@@ -1,0 +1,119 @@
+---
+title: 创建选择策略
+description: 了解如何创建选择策略
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
+hide: true
+hidefromtoc: true
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 2%
+
+---
+
+# 创建选择策略 {#selection-strategies}
+
+>[!BEGINSHADEBOX]
+
+本文档指南包括以下内容：
+
+* [Experience Decisioning入门](gs-experience-decisioning.md)
+* 管理您的决策项目
+   * [配置物料目录](catalogs.md)
+   * [创建决策项目](items.md)
+   * [管理物料集合](collections.md)
+* 配置项目的选择
+   * [创建决策规则](rules.md)
+   * [创建排名方法](ranking.md)
+* **[创建选择策略](selection-strategies.md)**
+* [创建决策策略](create-decision.md)
+
+>[!ENDSHADEBOX]
+
+选择策略是可重复使用的项目，包括与资格约束关联的集合以及确定在中选择时显示的优惠的排名方法 [决策策略](create-decision.md).
+
+## 访问和管理选择策略
+
+1. 转到 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 配置]** > **[!UICONTROL 选择策略]**.
+
+1. 将列出迄今为止创建的所有选择策略。 过滤器可帮助您根据排名方法检索策略。
+
+   ![](assets/strategy-list-filters.png)
+
+1. 单击选择策略名称对其进行编辑。
+
+1. 此外，还会显示针对每个策略选择的集合、排名方法和资格。 您可以单击每个收藏集名称旁边的图标以直接编辑收藏集。
+
+   ![](assets/strategy-list-edit-collection.png)
+
+## 创建选择策略
+
+要创建选择策略，请执行以下步骤。
+
+1. 从 **[!UICONTROL 选择策略]** 库存，单击 **[!UICONTROL 创建选择策略]**.
+
+   ![](assets/strategy-create-button.png)
+
+1. 为策略添加名称。
+
+   >[!NOTE]
+   >
+   >当前仅默认 **[!UICONTROL 选件]** 目录可用。
+
+1. 填写选择策略的详细信息，从名称开始。
+
+   ![](assets/strategy-create-screen.png)
+
+1. 选择选件 [收藏集](collections.md) 包含要考虑的选件。
+
+1. 使用 **[!UICONTROL 资格]** 用于限制此选择策略的选件选择的字段。
+
+   ![](assets/strategy-create-eligibility.png)
+
+   * 要将优惠选择限制为Experience Platform受众的成员，请选择 **[!UICONTROL 受众]** 并从列表中选择一个受众。 [了解如何使用受众](../audience/about-audiences.md)
+
+   * 如果要为决策规则添加选择约束，请使用 **[!UICONTROL 决策规则]** 选项并选择您选择的规则。 [了解如何创建规则](rules.md)
+
+1. 定义要用于为每个用户档案选择最佳选件的排名方法。 [了解详情](#select-ranking-method)
+
+   ![](assets/strategy-create-ranking.png)
+
+   * 默认情况下，如果多个选件符合此策略的条件， [优惠优先级](#offer-priority) 方法使用在选件中定义的值。
+
+   * 如果要使用特定的计算得分来选择要交付的合格优惠，请选择 [公式](#ranking-formula) 或 [AI模型](#ai-ranking).
+
+1. 单击&#x200B;**[!UICONTROL 创建]**。它现在已准备好用于 [决策](create-decision.md)
+
+## 选择排名方法 {#select-ranking-method}
+
+如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
+
+* [优惠优先级](#offer-priority)
+* [公式](#ranking-formula)
+* [人工智能排名](#ai-ranking)
+
+### 优惠优先级 {#offer-priority}
+
+默认情况下，当多个优惠符合决策中的给定投放位置资格时，具有最高投放位置的项目 **优先级** 将首先交付给客户。
+
+![](assets/item-priority.png)
+
+创建时分配优惠的优先级分数 [决策项目](items.md).
+
+### 排名公式 {#ranking-formula}
+
+除了选件优先级之外，Journey Optimizer还允许您创建 **排名公式**. 这些公式决定应首先为给定投放位置显示哪项优惠，而不是考虑优惠的优先级评分。
+
+例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 了解如何在中创建排名公式 [本节](ranking.md).
+
+创建后，您可以在选择策略中使用此公式。 使用此选择策略时，如果多个优惠都符合呈现的条件，决策将使用选定的公式计算首先要投放哪个优惠。
+
+### 人工智能排名 {#ai-ranking}
+
+您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 了解如何在中创建AI模型 [本节](ranking.md).
+
+创建AI模型后，您可以在选择策略中使用该模型。 如果多个选件符合条件，则经过训练的模型系统将确定应首先为此选择策略提供哪个选件。
+
