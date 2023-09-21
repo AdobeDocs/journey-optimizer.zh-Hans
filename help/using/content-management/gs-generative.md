@@ -10,14 +10,20 @@ level: Beginner
 badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
+source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
 # 内容助手入门 {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_generation"
+>title="创建电子邮件内容"
+>abstract="Adobe Journey Optimier 内容助手为文本和图像提供主动的内容变体建议。这可用于电子邮件、推送、短信和 Web 渠道。这项新功能可用于快速的文本和图像生成。"
+
 
 >[!BEGINSHADEBOX]
 
