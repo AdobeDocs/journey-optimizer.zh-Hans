@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 39%
 
 ---
 
@@ -18,26 +18,26 @@ ht-degree: 100%
 
 以下早期发行说明可能会在正式发行日期之前发生更改，恕不另行通知。链接、屏幕和更新文档，会在发行之日发布于[发行说明](release-notes.md)中。
 
-## 2023 年 8 月早期发行说明 {#aug-rn-2023}
+## 2023年9月早期发行说明 {#sept-rn-2023}
 
-**发行日期：** 2023 年 8 月 23 日 - 24 日
+**发行日期**： 2023年9月26日至27日
 
-### 新功能{#aug-2023-features}
+### 新功能{#sept-2023-features}
 
 此版本引入了下方列出的新功能。
 
 <table>
 <thead>
 <tr>
-<th><strong>在您的历程中发送应用程序内消息</strong><br/></th>
+<th><strong>合并的渠道报表</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在历程中向应用程序用户发送个性化的应用程序内消息。使用 Journey Optimizer 设计通知并自定义消息布局、显示、文本和按钮，以创造无缝体验。</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p>
+<p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。 要访问“报表”菜单，您必须具有**查看渠道报表**权限。</p>
+<img src="assets/channel-reports.png"/>
+<p>有关更多信息，请参阅<a href="../in-app/get-started-in-app.md">详细文档</a>。</p-->
 </tr>
 </tbody>
 </table>
@@ -46,14 +46,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>使用种子列表验证电子邮件</strong><br/></th>
+<th><strong>数据集导出生成(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标个人资料完全相同的消息。 使用此功能可监控发出的通信，并确保所有显示格式、URL、图像和链接均正确无误。</p>
-<img src="../configuration/assets/seed-list-details.png">
+<p>现在可以将Journey Optimizer数据集导出到Cloud Storage目标。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。</p>
+<img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -61,46 +61,41 @@ ht-degree: 100%
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Generate text and images with the Content assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-<p>This capability is currently available as a private beta.</p>
-<img src="assets/gen-ai-image-2.png"/>
-<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-### 改进 {#aug-2023-improvements}
+### 改进 {#sept-2023-improvements}
 
 此版本包含下方列出的改进。
 
-**API**
+**受众**
 
-现在提供了用于创建和管理内容片段的新 API。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}。
+* 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
+* 已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。
+* 现在，您可以将合成工作流产生的受众定位到历程中。
 
-**电子邮件渠道**
+**个性化**
 
-电子邮件界面设置中提供了一个新选项，用于包含由于事务型消息受众中出现垃圾消息投诉而被禁止使用的电子邮件地址。即使他们将营销消息标记为垃圾消息，这些具有相应个人资料的受众随后仍可以接收事务型消息，例如密码重置或帐户对账单。默认禁用此选项。
+* 除了可视片段之外，现在还可以通过表达式编辑器从Journey Optimizer界面创建、保存和重用表达式片段。 表达式片段替换以前保存的表达式。
+* 您现在可以在Journey Optimizer中使用Adobe Experience Platform计算属性进行个性化。 计算属性是根据引入到Adobe Experience Platform中的支持配置文件的体验事件数据集计算的聚合值。
+
+**警报**
+
+推出了一种新型的系统警报。现在，您可以在读取区段失败时收到通知。
+
+**Web 渠道**
+
+* 您现在可以选择要将网页修改应用于的特定视图。 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。
+* 使用Web设计器编辑页面时，您现在可以直接从“修改”窗格向内容添加新更改，而无需从设计器界面中选择组件并进行编辑。
+* 在设置Web子域时，除了使用已委派给Adobe的子域之外，您现在可以选择添加自己的子域。
 
 **历程**
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
+* 复制历程时，您现在可以定义历程副本的名称。
 
 
-**直邮**
+**电子邮件渠道**
 
-* 现在可以在文件路由配置中选择 Azure 作为服务器类型。
-* 现在 &amp; 符号可用作直邮表面设置中的列分隔符字段。
+利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在Adobe Journey Optimizer禁止列表上也是如此。
+
+**决策管理**
+
+已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。
