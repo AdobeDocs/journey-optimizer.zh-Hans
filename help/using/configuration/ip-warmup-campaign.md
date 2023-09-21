@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >了解如何在中选择要在电子邮件平面中使用的域和IP [本节](using/email/email-settings.md#subdomains-and-ip-pools).
+   >了解如何在中选择要在电子邮件平面中使用的域和IP [本节](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. 创建 [营销活动](../campaigns/create-campaign.md) 并选择 [电子邮件](../email/create-email.md#create-email-journey-campaign) 操作。
 
@@ -68,4 +68,6 @@ ht-degree: 3%
 >对于激活了IP预热计划的实时营销活动， **[!UICONTROL 删除]** 按钮在与IP预热计划关联之前可用。
 
 有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
