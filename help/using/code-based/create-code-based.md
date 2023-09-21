@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="使用代码编辑器"
+>title="使用表达式编辑器"
 >abstract="插入并编辑要作为此基于代码的体验操作的一部分交付的代码。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="表达式编辑器入门"
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. 此时将打开代码编辑器。 它是一个非可视化体验创建界面。
+1. 此 [表达式编辑器](../personalization/personalization-build-expressions.md) 打开。 它是一个非可视化体验创建界面，允许您创作代码。
 
 1. 您可以将创作模式从HTML切换到JSON，反之亦然。
 
@@ -84,7 +84,7 @@ ht-degree: 3%
    >
    >更改创作模式将导致当前代码全部丢失，因此，请确保在开始创作之前切换模式。
 
-1. 根据需要输入代码。 代码编辑器将利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
+1. 根据需要输入代码。 您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ ht-degree: 3%
 >
 >您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
-1. 从代码编辑器或编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
+1. 从表达式编辑器或编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

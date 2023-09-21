@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ ht-degree: 7%
 * 注重营销人员角色。
 
 **基于代码的体验**
-* 使用编辑内容 [代码编辑器](create-code-based.md#edit-code).
+* 使用编辑内容 [表达式编辑器](create-code-based.md#edit-code).
 * 基于代码的体验要求之前在实施中进行开发，以确保您的界面可以解释和交付在Edge上发布的内容，方法是 [!DNL Journey Optimizer] 用于这些曲面。 [了解详情](#surface-definition)
 * 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须识别组件（主页横幅、主页图像、菜单栏等） ，并与您的开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用JSON代码内容。
@@ -133,7 +133,7 @@ ht-degree: 7%
 
 1. 定义 [曲面](#surface-definition)，基本上是您要在其中添加基于代码的体验并创建营销活动的位置 [!DNL Journey Optimizer] 使用这个表面。 [了解如何操作](create-code-based.md#create-code-based-campaign)
 
-1. 通过使用为所选表面指定内容来创作体验 [!DNL Journey Optimizer] 代码编辑器。 [了解如何操作](create-code-based.md#edit-code)
+1. 通过使用为所选表面指定内容来创作体验 [!DNL Journey Optimizer] 表达式编辑器。 [了解如何操作](create-code-based.md#edit-code)
 
 1. 您的应用程序实施团队会进行显式API或SDK调用，以获取命名表面的内容(例如“横幅文本”或“Recommendations任务栏1”)，或应用程序中与UI无关的决策点（例如“搜索算法参数”）。 在这种情况下，实施团队负责呈现或以其他方式解释并处理返回的内容。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
