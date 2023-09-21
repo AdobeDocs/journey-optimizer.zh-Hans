@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ ht-degree: 1%
 
    * 您不能选择已在其他IP预热营销活动中使用的营销活动。
 
-1. 对于每个阶段，将应用以下内容：
+1. 在 **[!UICONTROL 配置文件排除]** 部分中，您可以看到始终排除该阶段先前运行的用户档案。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
 
-   * **[!UICONTROL 配置文件排除]**  — 始终排除该阶段上一次运行的用户档案。 例如，如果在运行#1，Leo在前6300位目标用户中被覆盖，系统将自动确保Leo在运行#2不会收到邮件。
+1. 从 **[!UICONTROL 排除的活动受众]** 部分，从其他部分选择受众 <!--executed/live?-->要从当前阶段排除的营销活动。
 
-   * **[!UICONTROL 排除的活动受众]**  — 从其他受众中选择受众 <!--executed/live?-->要从当前阶段排除的营销活动。
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     例如，您可能正在执行一个阶段，并且由于任何原因必须拆分该阶段。 在这种情况下，在阶段2中，您要将阶段1中使用的营销活动包含在此部分中，以便在阶段2中，不包括先前来自阶段1的联系人员。 这不仅可以应用于同一IP预热计划中的营销活动，还可以应用于其他IP预热计划。
+   例如，在执行阶段1时，必须 [拆分](#split-phase) 不管怎么说。 因此，您可以排除阶段1中使用的营销活动，以便之前从阶段1联系的用户档案不包括到阶段2。 您还可以从其他IP预热计划中排除营销活动。
 
-   * **[!UICONTROL 排除的域组]**  — 选择要从该阶段中排除的域，例如Gmail。 <!--??-->
+1. 从 **[!UICONTROL 排除的域组]** 部分中，选择要从该阶段中排除的域。
 
-     运行IP预热几天后，您意识到某个域的ISP信誉表明hotmail不好，您希望通过ISP解决该问题，但不希望停止IP预热计划。 在这种情况下，您可以将域组hotmail置于排除的类别中。
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。 同样，如果域组不是OOTB域组，则可能必须在Excel中创建域组，然后上载并排除该域组。
+   例如，运行IP预热几天后，您意识到某个域的ISP信誉(即Adobe)不佳，您希望在不停止IP预热计划的情况下解决该问题。 在这种情况下，您可以排除Adobe域组。
+
+   >[!NOTE]
+   >
+   >域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。 同样，如果域组不是OOTB域组，则需要将此域组添加到Excel文件中，将其上传，然后排除该域。
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. 如果需要，可以添加阶段 — 该阶段将在当前最后一个阶段之后添加。 使用 **[!UICONTROL 删除阶段]** 按钮以删除任何不需要的阶段。
+1. 如果需要，可以添加阶段。 它将在当前最后一个阶段后添加。
+
+1. 使用 **[!UICONTROL 删除阶段]** 按钮以删除任何不需要的阶段。
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 选择结束时间，这基本上意味着我们可以在该窗口内执行预热活动，以防受众作业出现任何延迟。 如果未指定，我们将在启动时尝试但失败。 如果提供了结束时间，我们将在该窗口之间执行运行。
+1. 选择结束时间，以定义在受众分段作业执行出现任何延迟的情况下，可以执行IP预热活动的时间范围。 如果未指定结束时间，则会在开始时间尝试执行，如果未完成分段，则执行将失败。
 
 1. 激活每次运行。 确保调度的时间足够早，以允许运行分段作业。 <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ ht-degree: 1%
    >
    >每次运行必须在实际发送时间之前至少12小时激活。 否则，可能无法完成分段。 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. 如果活动执行尚未开始，则可以停止运行。<!--why?-->
 
-   活动开始执行后， **[!UICONTROL 停止]** 按钮将变为不可用。 <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >活动开始执行后， **[!UICONTROL 停止]** 按钮将变为不可用。 <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. 在任何时候，如果您希望使用从特定运行开始的不同营销活动，请选择 **[!UICONTROL 拆分为新阶段选项]** 从三个圆点图标。 为当前阶段的剩余运行创建一个新阶段。 按照以下步骤操作 [以上](#define-phases) 以定义新阶段。
+## 拆分阶段 {#split-phase}
 
-   例如，如果为运行#4选择此选项，则#4运行#8将移至新阶段。
+在任何时候，如果您希望使用从特定运行开始的不同营销活动，请选择 **[!UICONTROL 拆分为新阶段选项]** 从三个圆点图标。
+
+为当前阶段的剩余运行创建一个新阶段。 按照以下步骤操作 [以上](#define-phases) 以定义新阶段。
+
+例如，如果为Run #4选择此选项，则Runs #4 to #8将移动到新阶段。
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
