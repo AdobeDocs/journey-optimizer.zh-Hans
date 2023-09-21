@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -39,11 +39,17 @@ ht-degree: 3%
 
 要创建IP预热活动，请执行以下步骤。
 
-1. 创建 [曲面](channel-surfaces.md) 用于您已为预热计划标识的域和IP。<!--how do you identify these or who does it at the customer level?-->
+1. 创建电子邮件 [曲面](channel-surfaces.md) 用于您已为预热计划标识的域和IP。<!--how do you identify these or who does it at the customer level?-->
+
+   >[!NOTE]
+   >
+   >了解如何在中选择要在电子邮件平面中使用的域和IP [本节](using/email/email-settings.md#subdomains-and-ip-pools).
 
 1. 创建 [营销活动](../campaigns/create-campaign.md) 并选择 [电子邮件](../email/create-email.md#create-email-journey-campaign) 操作。
 
 1. 选择为IP预热创建的曲面。
+
+   ![](assets/ip-warmup-campaign-surface.png)
 
    <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
@@ -53,7 +59,7 @@ ht-degree: 3%
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   营销活动 [计划](../campaigns/create-campaign.md#schedule) 将由与之关联的IP预热计划驱动，这意味着该计划不再在营销策划本身中定义。
+   营销活动 [计划](../campaigns/create-campaign.md#schedule) 将由 [IP预热计划](ip-warmup-plan.md) 它将与关联，这意味着计划不再在营销策划本身中定义。
 
 1. [激活](../campaigns/review-activate-campaign.md) 营销活动。 一旦启用，它就可以在IP预热计划中使用。
 

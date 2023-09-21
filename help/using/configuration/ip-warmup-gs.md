@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 7%
 
 ---
@@ -73,4 +73,4 @@ Benefits
 
 1. 创建IP预热计划并上传您的计划。 [了解详情](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. 调整计划的每个阶段并激活运行。 [了解详情](ip-warmup-running.md)
+1. 为计划的每个阶段选择一个营销活动并激活相应的运行。 [了解详情](ip-warmup-running.md)

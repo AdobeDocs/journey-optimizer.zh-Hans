@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 5%
 * [运行IP预热计划](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+一旦您 [已创建一个或多个营销活动](ip-warmup-campaign.md) 启用专用表面和IP预热选项后，您可以开始创建IP预热计划。
 
 ## 访问和管理IP预热计划 {#manage-ip-warmup-plans}
 
