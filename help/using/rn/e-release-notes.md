@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ ht-degree: 29%
 
 此版本引入了下方列出的新功能。
 
-<table>
-<thead>
-<tr>
-<th><strong>每个沙盒移动应用程序凭据存储</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>这项新功能允许您轻松管理推送凭据，并将其与应用程序表面中的专用沙盒关联。</p>
-<p>有关更多信息，请参阅<a href="../in-app/inapp-configuration.md">详细文档</a>。</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ ht-degree: 29%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>每个沙盒移动应用程序凭据存储</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>这项新功能允许您轻松管理推送凭据，并将其与应用程序表面中的专用沙盒关联。</p>
+<p>有关更多信息，请参阅<a href="../in-app/inapp-configuration.md">详细文档</a>。</p>
+</tr>
+</tbody>
+</table>
 
 ### 改进 {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ ht-degree: 29%
 **受众**
 
 * 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
-* 已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * 现在，您可以将合成工作流产生的受众定位到历程中。
 
 **个性化**
@@ -111,6 +111,6 @@ ht-degree: 29%
 
 利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在Adobe Journey Optimizer禁止列表上也是如此。
 
-**决策管理**
+<!--**Decision management**
 
-已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
