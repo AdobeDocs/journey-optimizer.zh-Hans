@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1ac68f1b3a9657ce71a653011ab92fb817ca80b0
+source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 96%
+source-wordcount: '1492'
+ht-degree: 95%
 
 ---
 
@@ -458,7 +458,11 @@ ht-degree: 96%
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
-   + [实施IP预热计划](using/configuration/ip-warmup.md)
+   + 实施IP预热计划 {#implement-ip-warmup-plan}
+      + [IP预热计划入门](using/configuration/ip-warmup-gs.md)
+      + [创建IP预热活动](using/configuration/ip-warmup-campaign.md)
+      + [创建IP预热计划](using/configuration/ip-warmup-plan.md)
+      + [运行IP预热计划](using/configuration/ip-warmup-running.md)
    + 监测电子邮件地址 {#monitor-reputation}
       + [禁止列表](using/configuration/manage-suppression-list.md)
       + [重试](using/configuration/retries.md)
