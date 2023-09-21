@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>每个沙盒移动应用程序凭据存储</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>这项新功能允许您轻松管理推送凭据，并将其与应用程序表面中的专用沙盒关联。</p>
+<p>有关更多信息，请参阅<a href="../in-app/inapp-configuration.md">详细文档</a>。</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>合并的渠道报表</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。 要访问“报表”菜单，您必须具有**查看渠道报表**权限。</p>
+<p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。 要访问“报告”菜单，您必须具有“查看渠道报告”权限。</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -52,7 +67,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>现在可以将Journey Optimizer数据集导出到Cloud Storage目标。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。</p>
+<p>现在可以将Journey Optimizer数据集导出到云存储目标。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -78,7 +93,7 @@ ht-degree: 38%
 
 **警报**
 
-推出了一种新型的系统警报。现在，您可以在读取区段失败时收到通知。
+* 引入了两种新型的系统报警。 现在，您可以在自定义操作或读取区段失败时收到通知。
 
 **Web 渠道**
 
@@ -88,9 +103,9 @@ ht-degree: 38%
 
 **历程**
 
-* 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。
+* 现在，自定义操作响应功能已正式推出。 这允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将所有海关操作限制为每个端点5000次调用/秒。
 * 复制历程时，您现在可以定义历程副本的名称。
-
+* 现在，您可以在等待活动中定义的最长持续时间为29天，而不是30天。
 
 **电子邮件渠道**
 
