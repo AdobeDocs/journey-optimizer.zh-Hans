@@ -5,7 +5,7 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
+source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 38%
@@ -46,7 +46,7 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
-<th><strong>数据集导出生成(GA)</strong><br/></th>
+<th><strong>数据集导出目标(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
