@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
+source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '556'
+ht-degree: 21%
 
 ---
 
@@ -96,7 +96,8 @@ ht-degree: 23%
 
 **Web 渠道**
 
-* 您现在可以选择要将网页修改应用于的特定视图。 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。
+* 单页应用程序(SPA)现在可以在Web可视编辑器中创作。 您现在可以选择要将网页修改应用到哪些特定视图。 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。 在Adobe Experience Platform Web SDK实施中定义视图需要一次性开发人员设置，这使得营销人员能够在SPA上创建并运行Adobe Journey Optimizer Web营销活动。
+
 * 使用Web设计器编辑页面时，您现在可以直接从“修改”窗格向内容添加新更改，而无需从设计器界面中选择组件并进行编辑。
 * 在设置Web子域时，除了使用已委派给Adobe的子域之外，您现在可以选择添加自己的子域。
 
