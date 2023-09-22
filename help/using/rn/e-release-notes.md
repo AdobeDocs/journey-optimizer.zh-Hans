@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
+source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 24%
+source-wordcount: '586'
+ht-degree: 23%
 
 ---
 
@@ -113,6 +113,10 @@ ht-degree: 24%
 **电子邮件渠道**
 
 利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在Adobe Journey Optimizer禁止列表上也是如此。
+
+**短信渠道**
+
+两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。
 
 **报告**
 
