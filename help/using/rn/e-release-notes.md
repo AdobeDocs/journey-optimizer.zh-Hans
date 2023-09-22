@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 21%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 21%
 
 **警报**
 
-* 引入了两种新型的系统报警。 现在，您可以在自定义操作或读取区段失败时收到通知。
+* 推出了一种新型的系统警报。现在，您可以在读取受众失败时收到通知。
 
 **Web 渠道**
 
@@ -103,13 +103,20 @@ ht-degree: 21%
 
 **历程**
 
-* 现在，自定义操作响应功能已正式推出。 这允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将所有海关操作限制为每个端点5000次调用/秒。
+* 现在，GA支持自定义操作响应。 这允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将所有海关操作限制为每个端点5000次调用/秒。
 * 复制历程时，您现在可以定义历程副本的名称。
-* 现在，您可以在等待活动中定义的最长持续时间为29天，而不是30天。
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **电子邮件渠道**
 
 利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在Adobe Journey Optimizer禁止列表上也是如此。
+
+**报告**
+
+您现在可以将Journey Optimizer报表导出为CSV文件。 [了解详情](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
