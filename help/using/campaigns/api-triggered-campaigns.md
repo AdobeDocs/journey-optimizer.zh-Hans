@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -27,7 +27,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!NOTE]
 >
->截至目前，推送通知API触发的营销活动不支持快速交付。
+>截至目前，推送通知API触发的营销活动不支持快速传递模式。
 
 ## 创建API触发的营销活动 {#create}
 
