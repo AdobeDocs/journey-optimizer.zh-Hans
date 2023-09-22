@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 5%
@@ -271,7 +271,7 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 
 ## 混合实施 {#hybrid-implementation}
 
-如果您有混合实施，请检查以下链接。
+如果您有混合实施，请查看以下链接。
 
 * Adobe技术博客： [Adobe Experience Platform Web SDK中的混合个性化](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK文档： [使用Web SDK和边缘网络服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

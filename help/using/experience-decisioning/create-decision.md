@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 5%
 
 ---
@@ -181,11 +181,11 @@ ht-degree: 5%
 
 ## 在代码编辑器中使用决策策略 {#use-decision-policy}
 
-创建决策策略后，便可在以下位置使用： [代码编辑器](../code-based/create-code-based.md#edit-code). 要实现此目的，请执行以下步骤。
+创建决策策略后，便可在以下位置使用： [表达式编辑器](../code-based/create-code-based.md#edit-code). 要实现此目的，请执行以下步骤。
 
 >[!NOTE]
 >
->代码编辑器将利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
+>基于代码的体验可利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
 1. 单击+图标。 将添加与决策策略对应的代码。 现在，您可以在该代码中添加所需的所有决策属性。
 
@@ -197,7 +197,7 @@ ht-degree: 5%
 
 1. 单击决策策略。 此时将显示决策属性。
 
-   这些属性存储在 **[!UICONTROL 选件]** 目录的架构。 自定义属性存储在 **_cjmstage** 文件夹和中的标准属性 **体验(_E)** 文件夹。 [了解有关优惠目录架构的更多信息](catalogs.md)
+   这些属性存储在 **[!UICONTROL 选件]** 目录的架构。 自定义属性存储在 **`_<imsOrg`>** 文件夹和中的标准属性 **`_experience`** 文件夹。 [了解有关优惠目录架构的更多信息](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
