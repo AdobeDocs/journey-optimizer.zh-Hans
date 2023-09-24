@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 20%
+source-wordcount: '829'
+ht-degree: 18%
 
 ---
 
@@ -79,13 +79,44 @@ ht-degree: 20%
 
 有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
 
+## 测试Web营销活动 {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="预览 Web 体验"
+>abstract="模拟您将获得的 Web 体验。"
+
+一旦您 [已创作您的Web体验](edit-web-content.md) 使用Web设计器，您可以在激活营销活动之前显示修改后的网页预览。 要实现此目的，请执行以下步骤。
+
+>[!CAUTION]
+>
+>您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
+
+1. 从Web营销活动编辑内容屏幕或Web设计器中，选择 **[!UICONTROL 模拟内容]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. 单击 **[!UICONTROL 管理测试用户档案]** 选择一个或多个测试用户档案。
+1. 此时将显示已修改网页的预览。
+
+   ![](assets/web-designer-preview.png)
+
+1. 您还可以在默认浏览器中打开它，或复制测试URL以将其粘贴到任何浏览器中。 这样，您就可以与团队和利益相关者共享链接，这些利益相关者将能够在营销活动上线之前在任何浏览器中预览新的Web体验。
+
+   >[!NOTE]
+   >
+   >在复制测试URL时，显示的内容是在中生成内容模拟时所使用的测试用户档案的个性化内容 [!DNL Journey Optimizer].
+
 ## 激活Web活动 {#activate-web-campaign}
 
-定义您的 [Web营销活动设置](#configure-web-campaign) 并且您根据需要使用 [Web设计器](author-web.md)，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
+定义您的 [Web营销活动设置](#configure-web-campaign) 并且您根据需要使用 [Web设计器](edit-web-content.md#work-with-web-designer)，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
 
+<!--
 >[!NOTE]
 >
->您还可以在激活Web营销活动内容之前对其进行预览。 [了解详情](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. 在Web营销活动中，选择 **[!UICONTROL 审查以激活]**.
 

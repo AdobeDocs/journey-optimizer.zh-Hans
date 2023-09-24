@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 7%
 
 * 当您的数字资产无法通过Web浏览器或移动应用程序进行访问时，您可以考虑随时使用基于代码的体验，在这些情况下，您可能可以更好地使用 [!DNL Journey Optimizer] [Web渠道](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} 渠道。
 
-* 您可以使用基于代码的渠道作为的替代 [!DNL Journey Optimizer] Web渠道(如果您的网站无法加载到 [Web可视化编辑器](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 支持Web渠道的可视化创作。
+* 您可以使用基于代码的渠道作为的替代 [!DNL Journey Optimizer] Web渠道(如果您的网站无法加载到 [Web设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 支持Web渠道的可视化创作。
 
 * 您还可以使用基于代码的渠道作为的替代 [!DNL Journey Optimizer] Web或应用程序内渠道，以防您具有基于API的、Headless或服务器端实施。
 
@@ -104,9 +104,9 @@ ht-degree: 7%
 要执行Web用例，您可以使用Web渠道或基于代码的体验，但根据您的上下文，一种体验可能比其他体验更合适。 下面列出了主要区别，以便您能够就何时使用内容做出明智的决策。
 
 **Web**
-* 使用编辑内容 [可视编辑器](../web/author-web.md){target="_blank"}.
+* 使用编辑内容 [Web设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 可视编辑器。
 * 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
-* 通过Web渠道，您可以修改页面上的所有内容，并且有一个预定义的可用于更改操作列表。 [了解详情](../web/author-web.md){target="_blank"}
+* 通过Web渠道，您可以修改页面上的所有内容，并且有一个预定义的可用于更改操作列表。 [了解详情](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 它易于设置和快速进行。
 * 注重营销人员角色。
 
