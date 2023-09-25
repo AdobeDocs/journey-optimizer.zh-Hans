@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 1%
 * **[运行IP预热计划](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+一旦您拥有 [创建了IP预热计划](ip-warmup-plan.md) 并上传与可投放性顾问一起准备的文件，您可以定义阶段并在计划中运行。
+
+每个阶段对应于由多次运行组成的时段，您可以为该时段分配一个营销活动。
+
+对于每次运行，您都拥有一定数量的收件人，并安排执行此运行的时间。
 
 ## 定义阶段 {#define-phases}
 
@@ -96,7 +102,7 @@ ht-degree: 1%
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 选择结束时间，以定义在受众分段作业执行出现任何延迟的情况下，可以执行IP预热活动的时间范围。 如果未指定结束时间，则会在开始时间尝试执行，如果未完成分段，则执行将失败。
+1. 或者，选择一个窗口，万一受众分段作业执行出现任何延迟，可以在其中执行IP预热活动。 如果未指定结束时间，则会在开始时间尝试执行，如果未完成分段，则执行将失败。
 
 1. 激活每次运行。 确保调度的时间足够早，以允许运行分段作业。 <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## 监控计划
+## 将计划标记为已完成 {#mark-as-completed}
 
-运行可以具有以下状态<!--TBC with Medha-->：
+如果您的计划执行得不够好，或者您要删除它以创建另一个计划，则可以将其标记为已完成。
 
-* **[!UICONTROL 已完成]**:
-* **[!UICONTROL 失败]**:
-* **[!UICONTROL 已取消]**：在开始执行营销活动之前，您已停止运行。
+要执行此操作，请单击 **[!UICONTROL 更多]** IP预热计划右上角的按钮，然后选择 **[!UICONTROL 标记为已完成]**.
 
-优点 :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* 营销活动级别将继续显示具有与今天类似功能的报表。 但IP预热计划还可用作执行多少等内容的单个位置的综合报告。
+仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已成功]** 或 **[!UICONTROL 草稿]** 状态。 无法运行 **[!UICONTROL 实时]**.
 
-* 可在单个位置管理和查看IP热量的进展情况。
+中列出了不同的运行状态 [本节](#monitor-plan).
 
-* 在创意/营销活动级别整合报表，因为某个阶段的所有报表都在运行
+## 监控计划 {#monitor-plan}
+
+要衡量计划的影响，您可以使用报表检查IP预热营销活动的效果。 了解有关营销活动电子邮件的更多信息 [实时报告](../reports/campaign-live-report.md#email-live) 和 [全局报告](../reports/campaign-global-report.md##email-global).
+
+IP预热计划本身也可用作单个位置的整合报告。 您可以检查元素，例如 **[!UICONTROL 实时]** 或 **[!UICONTROL 已成功]** 会针对每个阶段运行，并查看IP预热计划的进展情况。
+
+运行可以具有以下状态：
+
+* **[!UICONTROL 草稿]** ：每当创建运行时，无论是何时 [上传新计划](ip-warmup-plan.md) 或 [添加运行](#define-runs) 在用户界面中，它采用 **[!UICONTROL 草稿]** 状态。
+* **[!UICONTROL 实时]**：无论何时激活运行，都会使用 **[!UICONTROL 实时]** 状态。
+* **[!UICONTROL 已成功]**<!--TBC-->：此运行的营销活动执行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 停止]** 按钮。 仅当活动执行尚未启动时，此按钮才可用。 [了解详情](#define-runs)
+* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止<!--what should the user do in that case?-->.

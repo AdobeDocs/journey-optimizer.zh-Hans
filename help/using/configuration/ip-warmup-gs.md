@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '293'
 ht-degree: 7%
 
 ---
@@ -71,6 +71,6 @@ Benefits
 
 1. 您首先需要在启用IP预热选项的情况下创建一个或多个营销活动。 [了解详情](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. 创建IP预热计划并上传您的计划。 [了解详情](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. 在中创建IP预热计划 [!DNL Journey Optimizer] 并上传之前填充IP预热数据的Excel工作表。 [了解详情](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. 为计划的每个阶段选择一个营销活动并激活相应的运行。 [了解详情](ip-warmup-running.md)

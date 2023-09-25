@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、池、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '798'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,57 @@ ht-degree: 5%
 
 >[!ENDSHADEBOX]
 
-一旦您 [已创建一个或多个营销活动](ip-warmup-campaign.md) 启用专用表面和IP预热选项后，您可以开始创建IP预热计划。
+创建了一个或多个 [IP预热活动](ip-warmup-campaign.md) 启用专用接口和相应的选项后，即可开始创建IP预热计划。
+
+## 填写IP预热模板 {#upload-plan}
+
+在Journey Optimizer界面中创建IP预热计划之前，您需要使用Excel格式填写模板，其中包含将提供计划的所有数据。
+
+>[!CAUTION]
+>
+>请与您的可投放性顾问合作，确保您的IP预热计划文件设置正确。
+
+以下是包含IP预热计划的文件示例。
+
+![](assets/ip-warmup-sample-file.png)
+
+### “IP预热计划”选项卡
+
+IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Internet服务提供商(ISP)的电子邮件数量，以确立您作为合法发件人的声誉。
+
+此活动通常在可交付性顾问或专家的帮助下执行，该顾问或专家根据行业领域、用例、地区、ISP和各种其他因素制定经过深思熟虑的计划。
+
+* 在此示例中，已准备了一个跨越17天的计划，以达到xxx个配置文件的目标数量。
+
+* 该计划分六个阶段执行。
+
+* 对于要交付到的域，您可以拥有任意数量的列。 在本例中，计划被分为四列，对应于要在计划中使用的域组：Gmail、Adobe、Yahoo等。
+
+其思想是在第一阶段运行更多地址，并逐步增加目标地址的数量，同时减少运行次数。
+
+现成域的列表如下：
+
+* Gmail
+* Adobe
+* WP
+* Comcast
+* Yahoo
+* 大池塘
+* 橙色
+* 软银
+* 杜科莫
+* 联合互联网
+* Microsoft
+* KDDI
+* 意大利在线
+* 拉波斯特
+* Apple
+
+### “自定义域组”选项卡
+
+您还可以为自定义域组添加更多列。
+
+使用 **[!UICONTROL 自定义域组]** 选项卡，以定义新域，并为每个域添加它包含的所有子域。<!--TBC-->
 
 ## 访问和管理IP预热计划 {#manage-ip-warmup-plans}
 
@@ -40,10 +90,10 @@ ht-degree: 5%
 
 1. 您可以对状态进行过滤。 不同的状态包括：
 
-   * **未开始**：未发生运行
-   * **进行中**：只要运行开始 <!--or is done?-->
-   * **已暂停**
-   * **已完成**：计划中的所有运行都已完成
+   * **未开始**：尚未激活任何运行。 [了解详情](ip-warmup-running.md#define-runs)
+   * **进行中/实时**：一旦成功激活第一阶段中的第一次运行，计划即采取此状态。 [了解详情](ip-warmup-running.md#define-runs)
+   * **已完成**：计划已标记为已完成。 仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已成功]** 或 **[!UICONTROL 草稿]** 状态(无法运行 **[!UICONTROL 实时]**)。 [了解详情](ip-warmup-running.md#define-runs#mark-as-completed)
+   * **已暂停**<!--: to check (user action)-->
 
 1. 要删除IP预热计划，请选择 **[!UICONTROL 删除]** 图标并确认删除。
 
@@ -99,7 +149,7 @@ ht-degree: 5%
 
    ![](assets/ip-warmup-plan-phases.png)
 
-### 重新上传IP预热计划 {#re-upload-plan}
+## 重新上传IP预热计划 {#re-upload-plan}
 
 您可以使用相应的按钮重新上传另一个IP预热计划。
 
@@ -108,17 +158,3 @@ ht-degree: 5%
 >[!NOTE]
 >
 >IP预热计划的详细信息将根据新上传的文件而更改。 完整运行和激活的运行不受影响。
-
-### 上载包含计划的文件 {#upload-plan}
-
-以下是包含IP预热计划的文件示例。
-
-![](assets/ip-warmup-sample-file.png)
-
-每个阶段对应于由多次运行组成的时段，您将为该时段分配一个营销活动。
-
-对于每次运行，您都拥有一定数量的收件人，您将定义执行此运行的日期。
-
-对于要交付到的域，您可以拥有任意数量的列。 在本例中，您有三个列：Gmail、Adobe和“其他”，这意味着
-
-其思想是在第一阶段运行更多地址，并逐步增加目标地址的数量，同时减少运行次数。
