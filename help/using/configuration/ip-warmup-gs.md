@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP、池、组、子域、可投放性
+keywords: IP，可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 7%
 * **[IP预热入门](ip-warmup-gs.md)**
 * [创建IP预热活动](ip-warmup-campaign.md)
 * [创建IP预热计划](ip-warmup-plan.md)
-* [运行IP预热计划](ip-warmup-running.md)
+* [执行IP预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 使用新平台发送电子邮件时，Internet服务提供商(ISP)会怀疑无法识别的IP地址。 如果突然发送大量电子邮件，ISP通常会将其标记为垃圾邮件。
 
-要避免被标记为垃圾邮件，您可以使用IP预热计划功能逐步增加发送量。 中的新选项 **[!UICONTROL 管理]** 菜单可让您更顺利地执行操作，而不是创建复杂的每日历程。 这应该可以确保启动阶段的顺利发展，并帮助您降低地址无效的总比率。
+要避免被标记为垃圾邮件，您可以使用IP预热计划功能逐步增加发送量。 此新选项位于 **[!UICONTROL 管理]** 菜单允许您以整合的方式更轻松地执行此操作，而不是创建复杂的每日历程。 这应该可以确保启动阶段的顺利发展，并帮助您降低地址无效的总比率。
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 实施IP预热计划的关键步骤如下：
 
-1. 您首先需要在启用IP预热选项的情况下创建一个或多个营销活动。 [了解详情](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. 您首先需要在启用IP预热选项的情况下创建一个或多个营销活动。 [了解详情](ip-warmup-campaign.md)
 
-1. 在中创建IP预热计划 [!DNL Journey Optimizer] 并上传之前填充IP预热数据的Excel工作表。 [了解详情](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. 在中创建IP预热计划 [!DNL Journey Optimizer] 并上传在可投放性顾问帮助下准备的Excel工作表。 [了解详情](ip-warmup-plan.md)
 
-1. 为计划的每个阶段选择一个营销活动并激活相应的运行。 [了解详情](ip-warmup-running.md)
+1. 为计划的每个阶段选择一个营销活动并激活相应的运行。 [了解详情](ip-warmup-execution.md)

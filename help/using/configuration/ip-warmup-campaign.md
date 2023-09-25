@@ -6,13 +6,13 @@ description: 了解如何创建IP预热活动
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP、池、组、子域、可投放性
+level: Intermediate
+keywords: IP 、池、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="激活IP预热计划选项"
->abstract="选择IP预热计划激活选项。 活动开始后，可以将其与IP预热计划关联。"
+>abstract="选择此选项后，可以在IP预热计划中使用活动。 然后，促销活动计划将由与之关联的IP预热计划驱动。"
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 * [IP预热入门](ip-warmup-gs.md)
 * **[创建IP预热活动](ip-warmup-campaign.md)**
 * [创建IP预热计划](ip-warmup-plan.md)
-* [运行IP预热计划](ip-warmup-running.md)
+* [执行IP预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ ht-degree: 3%
    >
    >了解如何在中选择要在电子邮件平面中使用的域和IP [本节](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >如果需要，请与您的可投放性顾问合作，以确定要用于IP预热计划的域和IP。<!--TBC-->
+   >与您的可投放性顾问合作，确定要用于IP预热计划的域和IP。<!--TBC-->
 
 1. 创建 [营销活动](../campaigns/create-campaign.md) 并选择 [电子邮件](../email/create-email.md#create-email-journey-campaign) 操作。
 
@@ -73,9 +73,9 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >对于激活了IP预热计划的实时营销活动， **[!UICONTROL 删除]** 按钮在与IP预热计划关联之前可用。 活动一旦用于IP预热计划，便无法再删除。
+   >对于激活了IP预热计划的实时营销活动， **[!UICONTROL 删除]** 按钮在与IP预热计划关联之前可用。 营销活动一旦用于计划，便无法再删除。
 
-1. 营销策划显示在 **[!UICONTROL 营销活动]** 列表。 要轻松检索在当前沙盒上创建的所有IP预热活动，可以对活动选项进行过滤 **[!UICONTROL IP热身]**.
+1. 营销策划显示在 **[!UICONTROL 营销活动]** 列表。 要轻松检索在当前沙盒上创建的所有IP预热营销活动，您可以在 **[!UICONTROL IP热身]** 营销活动选项。
 
    ![](assets/ip-warmup-campaign-filter.png)
 
