@@ -79,7 +79,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定义种子列表"
->abstract="使用种子列表自动将特定的内部地址添加到投放受众，以便让人放心。种子列表可让您监控发出的消息副本，以确保所有显示要素正确并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
+>abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
