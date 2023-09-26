@@ -5,7 +5,7 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
+source-git-commit: 75a03fbd6a369d9b8f75db819cfa995257eaf77f
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 21%
@@ -85,8 +85,9 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客户资料目标或Journey Optimizer中使用它们。 <br/>
+<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客户资料目标或Journey Optimizer中使用它们。<br/><br/>
 此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。 在中了解详情 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">详细文档</a>.</p>
+<img src="assets/computed-attributes.png">
 </tr>
 </tbody>
 </table>
