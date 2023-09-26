@@ -5,10 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 23%
+source-wordcount: '634'
+ht-degree: 21%
 
 ---
 
@@ -76,6 +76,22 @@ ht-degree: 23%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>计算属性</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客户资料目标或Journey Optimizer中使用它们。 <br/>
+此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。 在中了解详情 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">详细文档</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
 ### 改进 {#sept-2023-improvements}
 
 此版本包含下方列出的改进。
@@ -88,7 +104,6 @@ ht-degree: 23%
 **个性化**
 
 * 除了可视片段之外，现在还可以通过表达式编辑器从Journey Optimizer界面创建、保存和重用表达式片段。 表达式片段替换以前保存的表达式。
-* 您现在可以在Journey Optimizer中使用Adobe Experience Platform计算属性进行个性化。 计算属性是根据引入到Adobe Experience Platform中的支持配置文件的体验事件数据集计算的聚合值。
 
 **警报**
 
