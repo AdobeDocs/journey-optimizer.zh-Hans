@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: 4c148733f2c6046c352135757d4a378b4bbb948e
+source-git-commit: 8a6cb63314c48f6a13d847f3d68790f11fb7b73b
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
 >abstract="选择要从当前阶段排除的域。 域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
->additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
