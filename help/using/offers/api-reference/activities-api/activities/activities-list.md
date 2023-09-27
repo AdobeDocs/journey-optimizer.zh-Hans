@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: a554786f15144923cb5b76c624960c2a602be020
+source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 7%
+source-wordcount: '178'
+ht-degree: 6%
 
 ---
 
@@ -49,11 +49,13 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 
 分页最常见的查询参数包括：
 
-| 参数 | 描述 | 示例 |
-| --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <br> <ul>  — 属性按AND操作分组。 <br><br>  — 参数可重复，如下所示：property=<property-expr>[属性(&amp;P)=<property-expr2>...] 或属性=<property-expr1>[，<property-expr2>...] <br><br>  — 属性表达式的格式为 [！]字段[操作]值，包含运算输入 [==！=，&lt;=，>=，&lt;，>，~]，支持正则表达式 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | 限制返回的实体数。 | `limit=5` |
+| 参数说明 | 示例 |
+|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| `property` | 可选的属性过滤器： |
+ — 属性按AND操作分组。
+ — 参数可重复，如下所示： `property=<property-expr>[&property=<property-expr2>...]` 或 `property=<property-expr1>[,<property-expr2>...]`
+ — 属性表达式的格式为 `[!]field[op]value`，操作位于 `[==,!=,<=,>=,<,>,~]`，支持正则表达式 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  |按特定属性对结果进行排序。 添加 `-` 在名称之前(orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔的路径形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name`                    | | `limit`    |限制返回的实体数。 | `limit=5`                                |
+
 
 **响应**
 
