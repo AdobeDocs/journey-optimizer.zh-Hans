@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: f9011fc803e4766cf1427965118aec32af9c9013
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 6%
+source-wordcount: '199'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
 
-您可以通过对以下对象执行单个GET请求，查看容器中所有个性化优惠的列表： [!DNL Offer Library] API。
+您可以通过对以下网站执行单个GET请求，查看所有个性化优惠的列表： [!DNL Offer Library] API。
 
 **API格式**
 
@@ -33,13 +33,12 @@ GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 **请求**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&limit=1' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personalized&limit=2' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 ## 使用查询参数 {#using-query-parameters}
@@ -52,118 +51,77 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `discounted offers` |
-| `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
-| `field` | 将搜索限制到的可选字段列表。 此参数可重复，如下所示：field=field1[，字段=字段2，...] 和（路径表达式采用点分隔路径形式，如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题降序对项目排序(Z-A)。 | `-repo:createdDate` |
-| `limit` | 限制返回的个性化优惠的数量。 | `limit=5` |
+| `property` | 可选的属性过滤器： <br> <ul>  — 属性按AND操作分组。 <br><br>  — 参数可重复，如下所示：property=<property-expr>[属性(&amp;P)=<property-expr2>...] 或属性=<property-expr1>[，<property-expr2>...] <br><br>  — 属性表达式的格式为 [！]字段[操作]值，包含运算输入 [==！=，&lt;=，>=，&lt;，>，~]，支持正则表达式 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | 限制返回的投放位置数。 | `limit=5` |
 
 **响应**
 
-成功的响应将返回您有权访问的容器中存在的个性化优惠列表。
+成功的响应将返回一个个性化优惠列表，这些优惠与您有权访问的那些优惠一起存在。
 
 ```json
 {
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5",
-    "requestTime": "2020-10-22T20:36:50.408105Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 2,
-                "repo:createdDate": "2020-10-22T19:38:35.489354Z",
-                "repo:lastModifiedDate": "2020-10-22T19:45:43.839088Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "xdm:name": "Checking Advanced",
-                    "xdm:representations": [
+    "results": [
+        {
+            "created": "2023-05-15T14:35:16.781+00:00",
+            "modified": "2023-05-15T14:38:26.691+00:00",
+            "etag": 2,
+            "schemas": [
+                "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.15"
+            ],
+            "createdBy": "{CREATED_BY}",
+            "lastModifiedBy": "{MODIFIED_BY}",
+            "id": "personalizedOffer1234",
+            "name": "Test personalized offer with frequency constraint",
+            "status": "draft",
+            "representations": [
+                {
+                    "channel": "https://ns.adobe.com/xdm/channel-types/web",
+                    "placement": "offerPlacement1234",
+                    "components": [
                         {
-                            "xdm:components": [
-                                {
-                                    "dc:format": "image/png",
-                                    "repo:id": "urn:aaid:sc:US:7db21be9-89ee-472a-b2c9-91f7a39ada51",
-                                    "repo:resolveURL": "https://platform-cs-va6.adobe.io/content/storage/id/urn:aaid:sc:US:7db21be9-89ee-472a-b2c9-91f7a39ada51/:rendition;size=300",
-                                    "repo:name": "mobile-check-deposit.png",
-                                    "dc:language": [
-                                        "en-us"
-                                    ],
-                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
-                                    "xdm:deliveryURL": ""
-                                }
+                            "type": "html",
+                            "format": "text/html",
+                            "language": [
+                                "en-us"
                             ],
-                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/offline",
-                            "xdm:placement": "xcore:offer-placement:124f4e33724bb15f"
-                        },
-                        {
-                            "xdm:components": [
-                                {
-                                    "dc:format": "text/html",
-                                    "repo:name": "my content",
-                                    "dc:language": [
-                                        "en-us"
-                                    ],
-                                    "xdm:content": "{\n\"foo\": \"bar\"\n}",
-                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-html"
-                                }
-                            ],
-                            "xdm:channel": "https://ns.adobe.com/xdm/channel-types/web",
-                            "xdm:placement": "xcore:offer-placement:124e0be5699743d3"
+                            "content": "Hello You qualify for our Discount of 60%"
                         }
-                    ],
-                    "xdm:rank": {
-                        "xdm:priority": 10
-                    },
-                    "xdm:characteristics": {
-                        "PROD": "checking",
-                        "offer_code": "CHECK200",
-                        "region": "NA"
-                    },
-                    "xdm:selectionConstraint": {
-                        "xdm:startDate": "2020-10-22T07:00:00.000Z",
-                        "xdm:endDate": "2020-12-31T08:00:00.000Z",
-                        "xdm:eligibilityRule": "xcore:eligibility-rule:124f4f57259caba5"
-                    },
-                    "xdm:status": "draft",
-                    "xdm:cappingConstraint": {
-                        "xdm:globalCap": 1000
-                    },
-                    "xdm:tags": [
-                        "xcore:tag:124f4e5c8a00cd92",
-                        "xcore:tag:1229cf47455177b1"
-                    ],
-                    "@id": "xcore:personalized-offer:124f513c290bb16e"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/2cdb4d10-149e-11eb-b1a9-a779d2fe8690",
-                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
+                    ]
+                }
+            ],
+            "selectionConstraint": {
+                "startDate": "2022-07-27T05:00:00.000+00:00",
+                "endDate": "2023-07-29T05:00:00.000+00:00",
+                "profileConstraintType": "none"
+            },
+            "rank": {
+                "priority": 0
+            },
+            "cappingConstraint": {},
+            "frequencyCappingConstraints": [
+                {
+                    "enabled": false,
+                    "limit": 1,
+                    "startDate": "2023-05-15T14:25:49.622+00:00",
+                    "endDate": "2023-05-25T14:25:49.622+00:00",
+                    "scope": "global",
+                    "entity": "offer",
+                    "repeat": {
+                        "enabled": false,
+                        "unit": "month",
+                        "unitCount": 1
                     }
-                },
-                "sandboxName": "ode-prod-va7-edge-testing"
-            }
-        ],
-        "total": 15,
-        "count": 1
-    },
+                }
+            ]
+        }
+    ],
+    "count": 1,
+    "total": 1,
     "_links": {
         "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&orderby=-repo:createdDate&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-        },
-        "next": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/queries/core/search?start=1603395515489%2C2cdb4d10-149e-11eb-b1a9-a779d2fe8690&schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&orderby=-repo%3AcreatedDate%2CinstanceId&limit=1",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            "href": "/offers?offer-type=personalized&href={SELF_HREF}",
+            "type": "application/json"
         }
     }
 }

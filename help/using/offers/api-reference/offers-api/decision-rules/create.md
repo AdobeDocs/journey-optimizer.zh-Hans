@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '129'
 ht-degree: 11%
 
 ---
@@ -19,17 +19,16 @@ ht-degree: 11%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了包含 *Content-Type* 请求标头中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Content-Type | `application/json` |
 
 **API格式**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/offer-rules
 ```
 
 | 参数 | 描述 | 示例 |
@@ -40,29 +39,27 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 **请求**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-    "xdm:name": "Sales rule",
+curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "Sales rule",
     "description": "Decisioning rule for sales",
-    "xdm:condition": {
-        "xdm:type": "PQL",
-        "xdm:format": "pql/text",
-        "xdm:value": "profile.person.name.firstName.equals(\"Joe\", false)"
+    "condition": {
+        "type": "PQL",
+        "format": "pql/text",
+        "value": "profile.person.name.firstName.equals(\"Joe\", false)"
     },
-    "xdm:definedOn": {
+    "definedOn": {
         "profile": {
-            "xdm:schema": {
-                "$ref": "https://ns.adobe.com/xdm/context/profile_union",
+            "schema": {
+                "ref": "https://ns.adobe.com/xdm/context/profile_union",
                 "version": "1"
             },
-            "xdm:referencePaths": [
+            "referencePaths": [
                 "person.name.firstName"
             ]
         }
@@ -72,18 +69,18 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的决策规则的信息，包括其唯一实例ID和位置 `@id`. 您可以在以后的步骤中使用实例ID来更新或删除决策规则。 您可以使用独特的决策规则 `@id` 在稍后的教程中创建个性化优惠。
+成功的响应会返回有关新创建的决策规则的信息，包括投放位置 `id`. 您可以使用 `id` 在后续步骤中更新或删除您的决策规则，或在以后的教程中使用它来创建决策、决策规则和后备优惠。
 
 ```json
 {
-    "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
-    "@id": "xcore:eligibility-rule:124e0faf5b8ee89b",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T20:13:43.048666Z",
-    "repo:lastModifiedDate": "2020-10-21T20:13:43.048666Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+   "etag": 1,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
