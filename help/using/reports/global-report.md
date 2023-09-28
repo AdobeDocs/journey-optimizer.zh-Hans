@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -77,20 +77,6 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB 将报表导出为PDF文件]
-
-1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL PDF文件]**.
-
-   ![](assets/export_2.png)
-
-1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
-
-1. 选择打印报表或将报表另存为PDF。
-
-1. 找到要保存文件的文件夹，根据需要重命名它，然后单击“保存”。
-
-您的报表现在可以在PDF文件中查看或共享。
-
 >[!TAB 将报表导出为CSV文件]
 
 1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL CSV文件]** 在整体报表级别生成CSV文件。
@@ -106,5 +92,21 @@ ht-degree: 0%
    如果在报表级别生成文件，则它包含每个小组件的详细信息，包括其标题和数据。
 
    如果在小组件级别生成文件，则它会专门提供选定小组件的数据。
+
+>[!TAB 将报表导出为PDF文件]
+
+1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL PDF文件]**.
+
+   ![](assets/export_2.png)
+
+1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
+
+1. 选择打印报表或将报表另存为PDF。
+
+1. 找到要保存文件的文件夹，根据需要重命名它，然后单击“保存”。
+
+您的报表现在可以在PDF文件中查看或共享。
+
+
 
 >[!ENDTABS]
