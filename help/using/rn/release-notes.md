@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 87%
+source-wordcount: '4069'
+ht-degree: 86%
 
 ---
 
@@ -137,6 +137,10 @@ ht-degree: 87%
 **短信渠道**
 
 两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。
+
+**直邮渠道**
+
+现在，当直邮提供商的文件传输到服务器时，您便可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。
 
 **报告**
 
