@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4059'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -137,10 +137,6 @@ ht-degree: 86%
 **直邮渠道**
 
 现在，当直邮提供商的文件传输到服务器时，您便可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
-
-**直邮渠道**
-
-现在，当直邮提供商的文件传输到服务器时，您便可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。
 
 **报告**
 
