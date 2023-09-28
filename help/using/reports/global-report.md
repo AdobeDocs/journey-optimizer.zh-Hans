@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,10 @@ ht-degree: 0%
 
 ## 导出报告 {#export-reports}
 
-您可以轻松地将不同的报表导出为PDF或CSV格式，以便您共享或打印它们。
+您可以轻松地将不同的报表导出为PDF或CSV格式，以便您共享或打印它们。 导出报告的步骤详见以下选项卡。
+
+➡️ [在视频中发现此功能](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ ht-degree: 0%
 
 
 >[!ENDTABS]
+
+
+### 导出报表（视频） {#video-csv}
+
+请观看以下操作方法视频，了解如何下载适用于单个报表和单个小部件的CSV报表。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+

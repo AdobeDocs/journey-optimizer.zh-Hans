@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '4010'
+source-wordcount: '4018'
 ht-degree: 87%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 87%
 
 **报告**
 
-您现在可以将Journey Optimizer报表导出为CSV文件。 [了解详情](../reports/global-report.md#export-reports)
+您现在可以将Journey Optimizer报表导出为CSV文件。 在中了解详情 [详细文档](../reports/global-report.md#export-reports) 和 [操作方法视频](../reports/global-report.md#video-csv).
 
 **资源**
 
