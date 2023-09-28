@@ -4,17 +4,15 @@ description: 了解如何在Journey Optimizer中实施SPA视图
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
 
-# 单页应用程序实施 {#web-spa-implementation}
+# 实施单页应用程序(SPA) {#web-spa-implementation}
 
 Adobe Experience Platform Web SDK提供了丰富的功能，使您的企业能够在下一代客户端技术(如单页应用程序(SPA))上实现个性化。
 
@@ -24,7 +22,7 @@ Adobe Experience Platform Web SDK提供了丰富的功能，使您的企业能�
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## AEP Web SDK for SPA的好处
+## Adobe Experience Platform Web SDK for SPA的优势 {#web-spa-benefits}
 
 以下是为单页应用程序使用Adobe Experience Platform Web SDK的一些好处：
 
@@ -32,7 +30,7 @@ Adobe Experience Platform Web SDK提供了丰富的功能，使您的企业能�
 * 由于选件是通过缓存立即显示的，不存在传统服务器调用引入的时间延迟，因此极大地提升了网站上的用户体验。
 * 通过一次性开发人员设置，营销人员可以在SPA上通过Adobe Journey Optimizer Web可视化编辑器创建和运行个性化和试验活动。
 
-## XDM视图和单页应用程序
+## XDM视图和单页应用程序 {#web-spa-xdm}
 
 Adobe **[!UICONTROL Journey Optimizer]** Web编辑器利用了称为“视图”的概念，即视觉元素的逻辑组合，这些元素共同构成了SPA体验。 因此，单页应用程序可以被视为基于用户交互通过视图（而不是URL）进行转换。 视图通常可以表示整个网站、单个页面或页面中分组的可视化元素。
 
@@ -91,7 +89,7 @@ Adobe **[!UICONTROL Journey Optimizer]** Web编辑器利用了称为“视图”
 
 本节概述了两个示例，说明如何调用 `sendEvent()` 在React中函数以生成假定的电子商务SPA。
 
-### 示例1：A/B测试主页
+### 示例1：A/B测试主页 {#web-spa-sample-1}
 
 营销团队想要在整个主页上运行A/B测试。
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### 示例2：个性化产品
+### 示例2：个性化产品 {#web-spa-sample-2}
 
 营销团队想要在用户单击查看所有Men产品后将价格标签颜色更改为红色，以对第二行产品进行个性化。
 
