@@ -1,42 +1,38 @@
 ---
-title: 应用程序内配置
+title: 应用程序内渠道先决条件
 description: 了解如何配置环境以使用Journey Optimizer发送应用程序内消息
 role: Admin
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
+source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 10%
 
 ---
 
-# 配置应用程序内渠道 {#inapp-configuration}
+# 应用程序内渠道先决条件 {#inapp-configuration}
 
-在发送应用程序内消息之前，您需要在中配置应用程序内渠道 [!DNL Adobe Experience Platform Data Collection].
+## 投放先决条件 {#delivery-prerequisites}
 
-1. 来自您的 [!DNL Adobe Experience Platform Data Collection] 帐户，访问 **[!UICONTROL 数据流]** 菜单并单击 **[!UICONTROL 新建数据流]**. 有关创建数据流的详细信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans).
+要正确投放应用程序内消息，必须定义以下设置：
 
-1. 选择 [!DNL Adobe Experience Platform] 服务。
+* 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}，确保您有定义的数据流，例如 **[!UICONTROL Adobe Experience Platform]** 服务Adobe Experience Platform Edge和 **[!UICONTROL Adobe Journey Optimizer]** 选项已启用。
 
-   [!DNL Edge Segmentation] 和 [!DNL Adobe Journey Optimizer] 必须选中。
+  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans){target="_blank"}
 
-   ![](assets/inapp_config_6.png)
+  ![](assets/inapp_config_6.png)
 
-   >[!NOTE]
-   >
-   >要为应用程序内渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 已在您的应用程序内使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"} 您的报表配置中也会存在 — 否则，应用程序内数据将不会显示在内容试验报表中。 [了解如何添加数据集](../campaigns/reporting-configuration.md#add-datasets)
-   >
-   >数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
+* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-1. 然后，访问 **[!UICONTROL 应用程序表面]** 菜单并单击 **[!UICONTROL 创建应用程序表面]**.
+  此合并策略的使用者为 [!DNL Journey Optimizer] 入站渠道，用于在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
-   >[!NOTE]
-   >
-   > 您需要 **管理应用程序配置** 拥有访问 **[!UICONTROL 应用程序表面]** 菜单。 有关更多信息，请参阅 [此视频](#video).
+  ![](assets/inapp_config_8.png)
 
-   ![](assets/inapp_config_1.png)
+## 渠道配置先决条件 {#channel-prerequisites}
+
+1. 访问 **[!UICONTROL 应用程序表面]** 菜单并单击 **[!UICONTROL 创建应用程序表面]**.
 
 1. 向添加名称 **[!UICONTROL 应用程序表面]**.
 
@@ -106,13 +102,23 @@ ht-degree: 8%
 
 应用程序内渠道现已配置。 您可以开始向用户发送应用程序内消息。
 
-**相关主题：**
+## 内容试验先决条件 {#experiment-prerequisites}
 
-* [创建应用程序内消息](create-in-app.md)
-* [创建营销活动](../campaigns/create-campaign.md)
-* [设计应用程序内消息](design-in-app.md)
-* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
+要为应用程序内渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在应用程序内实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"} 也包含在您的报表配置中。
 
+换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
+
+了解如何在中为内容实验报告添加数据集 [本节](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
+
+如果您是 **非** 使用以下预定义的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，确保添加以下字段组： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 这些是必需的 [!DNL Journey Optimizer] 内容试验报告，并跟踪每个用户档案参与哪些试验和处理。
+
+>[!NOTE]
+>
+>添加这些字段组不会影响正常数据收集。 它仅适用于正在运行试验的页面，而所有其他跟踪保持不变。
 
 ## 操作说明视频{#video}
 
@@ -124,4 +130,10 @@ ht-degree: 8%
 
 +++
 
+**相关主题：**
+
+* [创建应用程序内消息](create-in-app.md)
+* [创建营销活动](../campaigns/create-campaign.md)
+* [设计应用程序内消息](design-in-app.md)
+* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
 

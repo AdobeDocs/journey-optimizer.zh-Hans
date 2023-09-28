@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1689'
 ht-degree: 24%
 
 ---
@@ -184,8 +184,8 @@ ht-degree: 24%
 
    ![复制历程](assets/duplicate-jo.png)
 
-<!--1. Enter the name of the journey and confirm. 
+1. 输入历程的名称并进行确认。 您还可以在历程属性屏幕中更改名称。 默认情况下，名称设置如下： `[JOURNEY-NAME]_copy`
 
-    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+   ![](assets/duplicate-jo2.png)
 
 1. 将创建新旅程，该旅程可在旅程列表中找到。

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 16%
 
 ---
 
@@ -166,6 +166,8 @@ ht-degree: 17%
 从 **[!UICONTROL 浏览]** 在模式下，您可以导航到要个性化的选定表面中的确切页面。
 
 在处理身份验证后的页面或在特定URL处从头开始不可用的页面时，此插件特别有用。 例如，您将能够进行身份验证，导航到您的帐户页面或购物车页面，然后切换回 **[!UICONTROL 设计]** 模式，以便在所需的页面上执行更改。
+
+使用 **[!UICONTROL 浏览]** 模式还允许您在创作单页应用程序时浏览网站的所有视图。 [了解详情](web-spa.md)
 
 ### 更改设备大小 {#change-device-size}
 

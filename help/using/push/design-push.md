@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1282'
 ht-degree: 12%
 
 ---
@@ -62,17 +62,15 @@ ht-degree: 12%
 
 如果设备屏幕已锁定，则不会显示以下按钮：仅 **标题** 和 **消息** 通知的可见部分。 如果解锁了收件人的设备，收件人将看到相应的按钮。
 
-在iOS版本中，您最多可以添加四个按钮。 在Android版本中，您最多可以添加三个按钮。
+在Android版本中，您最多可以添加三个按钮。
 
->[!NOTE]
->
->对于iOS，请使用 **[!UICONTROL iOS类别]** 用于将操作与通知类别关联的字段。
+在iOS版本中，指定通知类别标识符。 需要在iOS应用程序中预配置通知类别，以便定义要显示的按钮和要采取的操作。 请参阅 [Apple文档](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) 以了解更多详细信息。
 
 1. 使用 **[!UICONTROL “添加”按钮]** 定义设置：标签和相关操作。 可能的操作与相同 [单击行为](#on-click-behavior).
 
 1. 使用 **[!UICONTROL 展开视图]** 图标，以预览个性化按钮。
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## 发送静默通知 {#silent-notification}
 

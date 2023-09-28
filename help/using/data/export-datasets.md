@@ -5,25 +5,20 @@ title: 将数据集导出到云存储位置
 description: 了解如何使用Adobe Experience Platform云存储目标导出数据集。
 role: User
 level: Beginner
-badge: label="Beta 版" type="Informative"
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 08f24547237c01c581248d675c55c834c261b173
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 4%
+source-wordcount: '999'
+ht-degree: 6%
 
 ---
 
 # 将数据集导出到云存储位置 {#export-datasets}
 
->[!AVAILABILITY]
->
->数据集导出功能当前为测试版，可供所有Adobe Journey Optimizer用户使用。
-
 Journey Optimizer允许您与云存储位置建立实时连接，以导出数据集的内容。
 
-通过定期导出数据，您可以确保对客户互动有完整和最新的记录，将此信息用于报告或分析目的，并保持对法律要求的遵守。
+通过定期导出数据，您可以确保拥有客户互动的完整和最新记录，以便随时用于报告、存档或数据分析。
 
 ## 可用的云存储目标 {#destinations}
 
@@ -44,13 +39,19 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 * [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
+## 可用于导出的Journey Optimizer数据集 {#datasets}
+
+从下表了解根据您的产品层，可以导出哪些Journey Optimizer数据集(请参阅 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |数据集|描述|层| |------- |------- |------- | | AJO BCC反馈事件数据集 | AJO BCC反馈事件数据集 | Prime | | AJO分类数据集 |用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 | Prime | | AJO同意服务数据集 |存储用户档案的同意信息。 | Prime | | AJO电子邮件跟踪体验事件数据集 |电子邮件渠道的交互日志，用于报表和创建受众。  | Prime | | AJO实体数据集 |用于存储发送给最终用户的消息的实体元数据的数据集。  | Prime | | AJO入站活动事件数据集 |用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 | Prime | | AJO交互式消息传递配置文件数据集 |存储为支持API触发的营销活动而创建的用户档案 | Prime | | AJO消息反馈事件数据集 |消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。| Prime | | AJO配置文件计数器扩展 |保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 | Prime | | AJO推送配置文件数据集 |存储用户档案的推送令牌。 | Prime | | AJO推送跟踪体验事件数据集 |用于报表和受众创建的推送渠道的交互日志。  | Prime | | AJO表面数据集 |与Journey Optimizer入站表面架构相关的空数据集 | Prime | | AOOutputForUPSDataset |包含要写回UPS的所有AO受众成员资格 | Prime | | Audience Orchestration配置文件数据集 |由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 | Prime | |决策对象存储库 — 活动 |在用户界面中又称为“决策” 。 但是，这些是用户创建的对象，它们将所有的构建块放在一起，包括决策逻辑。 例如，对于特定投放位置（位置），应考虑哪些优惠（优惠收藏集），以及要对这些优惠使用什么排名方法。 | Ultimate | |决策对象存储库 — 后备优惠 |这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 | Ultimate | |决策对象存储库 — 个性化优惠 |这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 | Ultimate | |决策对象存储库 — 投放位置 |这是对象存储库，用于定义需要显示选件的位置。 | Ultimate | |历程步骤事件 |捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 | Prime | |历程 |元数据数据集包含历程中每个步骤的信息 | Prime | | ODE DecisionEvents — 生产决策 |无论我们何时根据请求做出决策，我们都会将其计为决策事件 | Ultimate |
+
 ## 先决条件 {#prerequisites}
 
-在开始导出数据集之前，请检查以下先决条件：
+要导出数据集，您需要 [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) 如下所列。 阅读 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或与产品管理员联系以获取所需的权限。
 
-* 要导出数据集，您需要 **查看目标** 和 **管理和激活数据集目标** [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). 阅读 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或与产品管理员联系以获取所需的权限。
-
-* 确保要导出的数据集不包含第二代数据。 此功能仅支持导出第一代数据，即中定义的原始数据 [Real-time Customer Data Platform产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). 第一代数据包括通过Adobe Experience Platform源引入的数据集或使用Analytics Data Connector和Journey Optimizer日志/报表数据集等Adobe解决方案收集的数据集。
+| 类别 | 权限 |
+|--|--|
+| 目标 | 管理和激活数据集目标 |
+| 数据管理 | 查看数据集 |
+| 目标 | 查看目标 |
 
 ## 导出数据集的主要步骤 {#main-steps}
 
@@ -72,7 +73,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
    >
    >如果您使用Adobe Journey Optimizer以及实时客户档案，目标卡片将显示“激活”按钮，根据您启用的权限，允许您导出数据集并激活此目标的受众。
 
-1. **选择数据集** 要导出到所选目标的文件。
+1. **选择数据集** 要导出到所选目标的文件。 [了解有关可用于导出的Journey Optimizer数据集的更多信息](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

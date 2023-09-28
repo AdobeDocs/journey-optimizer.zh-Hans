@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1277'
+ht-degree: 12%
 
 ---
 
@@ -34,6 +34,16 @@ ht-degree: 15%
 在自定义操作参数中，您可以传递简单的集合以及对象集合。 在中了解有关收藏集限制的更多信息 [此页面](../building-journeys/collections.md#limitations).
 
 另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在本节中了解详情 [用例](../building-journeys/collections.md).
+
+## 最佳实践{#custom-action-enhancements-best-practices}
+
+为所有自定义操作定义了5000次调用的上限限制。 此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。 您需要通过定义适当的读取率（使用自定义操作时为5000个配置文件/秒），在基于受众的历程中考虑这一点。 如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。 请参阅[此页](../configuration/external-systems.md)。
+
+出于以下各种原因，您不应使用自定义操作定位公共端点：
+
+* 如果没有适当的上限或限制，则可能会向可能不支持此类卷的公共端点发送过多调用。
+* 配置文件数据可以通过自定义操作发送，因此，定位公共端点可能会导致无意间在外部共享个人信息。
+* 您对公共端点返回的数据没有控制权。 如果端点更改其API或开始发送错误信息，则这些信息将在发送的通信中可用，并可能产生负面影响。
 
 ## 同意和数据治理 {#privacy}
 
@@ -70,11 +80,11 @@ ht-degree: 15%
    >
    >在历程中使用自定义操作时，大多数参数均为只读。 您只能修改 **[!UICONTROL 名称]**， **[!UICONTROL 描述]**， **[!UICONTROL URL]** 字段和 **[!UICONTROL 身份验证]** 部分。
 
-## URL 配置 {#url-configuration}
+## 端点配置 {#url-configuration}
 
-配置自定义操作时，您需要定义以下内容 **[!UICONTROL URL配置]** 参数：
+配置自定义操作时，您需要定义以下内容 **[!UICONTROL 端点配置]** 参数：
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. 在 **[!UICONTROL URL]** 字段，指定外部服务的URL：
 
@@ -92,7 +102,7 @@ ht-degree: 15%
    >
    >定义自定义操作时只允许使用默认端口：80用于http，443用于https。
 
-1. 选择呼叫 **[!UICONTROL 方法]**：它可以是以下任一类型 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**.
+1. 选择呼叫 **[!UICONTROL 方法]**：它可以是以下任一类型 **[!UICONTROL POST]**， **[!UICONTROL GET]** 或 **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ ht-degree: 15%
    >
    >将根据字段解析规则验证标头。 了解详情，请参阅 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## 定义操作参数 {#define-the-message-parameters}
+## 定义有效负载参数 {#define-the-message-parameters}
 
-在 **[!UICONTROL 操作参数]** 部分中，粘贴要发送到外部服务的JSON有效负载示例。
+1. 在 **[!UICONTROL 请求]** 部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
-![](assets/messageparameterssection.png)
+1. 在 **[!UICONTROL 响应]** 部分中，粘贴由调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在客户操作中利用API调用响应的详细信息，请参阅 [此页面](../action/action-response.md).
+
+>[!NOTE]
+>
+>响应功能目前在Beta版中可用。
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

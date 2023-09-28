@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment，函数，表达式，历程
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 6%
 * 已实现：实体正在进入受众。
 * 退出：实体正在退出受众。
 
-仅具有 **已实现** 和 **现有** 受众参与状态将被视为受众的成员。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+仅具有 **已实现** 和 **现有** 受众参与状态将被视为受众的成员。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` 表示您拥有segmentMembership且状态为entered/existing。
 

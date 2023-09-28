@@ -4,10 +4,10 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 92%
 
 ## 2023 年 9 月 {#september-2023}
 
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年9月版。 [了解详情](release-notes.md)
+* 新增了一个页面，其中包含缩放最佳实践和实时拼合指南。 [了解详情](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* 为优化发送时间添加了“常见问题解答”部分。 [了解详情](../building-journeys/journeys-message.md#faq-send-time)
+* 已添加有关受众资格活动的注释。 激活并监听进入或退出受众的用户档案可能最多需要10分钟。 [了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 决策管理文档中添加了创建决策规则时要注意的限制条件列表。[了解详情](../offers/offer-library/creating-decision-rules.md)
+* 更新了访问控制文档的链接。 [了解详情](../administration/permissions.md)
+* 应用程序内渠道先决条件已更新，其中包含Adobe Experience Platform数据收集详细信息。 [了解详情](../in-app/inapp-configuration.md)
+
+
+
 
 ## 2023 年 8 月 {#august-2023}
 

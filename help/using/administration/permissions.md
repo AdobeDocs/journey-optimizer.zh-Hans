@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '764'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
-> 以下详述的每个程序只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关详情，请参阅 [Admin console文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> 以下详述的每个程序只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。
 
 **[!UICONTROL 角色]** 请参阅共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。
 
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 1. 键入用户名或电子邮件地址，或从列表中选择用户并单击 **[!UICONTROL 保存]**.
 
-   如果用户之前未在 [!DNL Admin Console]，请参阅 [添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   如果用户之前未在 [!DNL Admin Console]，请参阅 [添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
    ![](assets/do-not-localize/access_control_4.png)
 
 随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-有关用户管理的详细信息，请参阅 [Admin Console文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+有关用户管理的详细信息，请参阅 [访问控制文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans).
 
 在访问实例时，您的用户将看到特定视图，具体取决于中分配的权限 **[!UICONTROL 角色]**. 如果用户无权访问某个功能，则会显示以下消息：
 
@@ -125,4 +125,4 @@ ht-degree: 6%
 
 您的 **[!UICONTROL 角色]** 现已创建并配置。 您现在需要将其分配给用户。
 
-有关角色创建与管理的详细信息，请参阅 [Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans).
+有关角色创建与管理的详细信息，请参阅 [Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

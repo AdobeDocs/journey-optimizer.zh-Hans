@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 55%
+source-wordcount: '336'
+ht-degree: 58%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
-> 沙盒管理只能由 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。 有关详情，请参阅 [Admin console文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> 沙盒管理只能由 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。
 
 您可以选择将不同的沙箱分配给现成或自定义 **[!UICONTROL 角色]**.
 

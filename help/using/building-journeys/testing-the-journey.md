@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 11%
+source-wordcount: '1505'
+ht-degree: 12%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 11%
 
 ## 业务事件的测试模式 {#test-business}
 
-使用 [业务事件](../event/about-events.md)，使用测试模式在历程中触发单个测试用户档案入口、模拟事件并传递正确的用户档案ID。 您必须传递事件参数和将进入测试历程的测试用户档案的标识符。 您不能使用 **[!UICONTROL 一次最多100个配置文件]** 适用于其他基于受众的历程的选项。 在测试模式下，对于基于业务事件的历程，没有“代码视图”模式可用。
+使用 [业务事件](../event/about-events.md)，使用测试模式在历程中触发单个测试用户档案入口、模拟事件并传递正确的用户档案ID。 您必须传递事件参数和将进入测试历程的测试用户档案的标识符。 在测试模式下，对于基于业务事件的历程，没有“代码视图”模式可用。
 
 请注意，首次触发业务事件时，不能在同一测试会话中更改业务事件定义。 您只能让同一个人或不同人通过相同或其他标识符进入历程。 如果要更改业务事件参数，则必须停止并重新启动测试模式。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 * 当前位置 [!DNL Journey Optimizer] 您只能在中创建Web体验 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] Web营销活动针对其他渠道中以前未参与过的新用户档案。 这将增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 每个包的许可证量度都列在 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html) 页面。
+* [!DNL Journey Optimizer] Web营销活动针对其他渠道中以前未参与过的新用户档案。 这将增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 每个包的许可证量度都列在 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} 页面。
 
 
 >[!AVAILABILITY]

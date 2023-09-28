@@ -6,10 +6,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 18%
+source-wordcount: '951'
+ht-degree: 17%
 
 ---
 
@@ -62,6 +62,10 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
       * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。  [了解详情](https://developers.sinch.com/docs/sms/getting-started/)
+
+      * **[!UICONTROL 选择加入消息]**：键入自动发送的自定义响应，作为 **[!UICONTROL 选择加入消息]**.
+
+      * **[!UICONTROL 帮助消息]**：键入自动发送的自定义响应，作为 **[!UICONTROL 帮助消息]**.
 
    * 对象 **[!DNL Twilio]**：
 

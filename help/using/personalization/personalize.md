@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 28%
+source-wordcount: '372'
+ht-degree: 25%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 28%
 
 >[!CAUTION]
 >此 **XDM个人资料** 架构是唯一可用于在中个性化内容的架构 [!DNL Journey Optimizer].
+
+此外，您还可以利用 **计算属性** 使您的内容个性化。 计算属性基于提取到Adobe Experience Platform中的支持配置文件的体验事件数据集，并充当存储在客户配置文件中总结各个行为事件的汇总数据点 [了解如何使用计算属性](../audience/computed-attributes.md)
 
 ## 在不同上下文中添加个性化 {#contexts}
 

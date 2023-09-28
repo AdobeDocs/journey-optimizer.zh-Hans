@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets， essentials， experience manager，集成
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 19%
+source-wordcount: '522'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,19 @@ ht-degree: 19%
 1. 从 [!DNL Adobe Journey Optimizer] 主页上，选择 **[!UICONTROL 资产]** 选项卡 **[!UICONTROL 内容管理]** 要访问的菜单 [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. 在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。
+
+   ![](assets/media_library_4.png)
+
++++
+了解如何切换资产存储库。
+
+   要更改您的Assets存储库，请选择右上角的帐户图标，然后单击 **[!UICONTROL 选择存储库]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. 双击中心部分或树视图中的文件夹以将其打开。
 

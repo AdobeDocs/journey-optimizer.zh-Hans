@@ -8,9 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 5%
 
 ---
@@ -114,7 +115,7 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
 ### 工作原理
 
 1. 将请求网页，以及浏览器之前存储的以为前缀的任何Cookie `kndctr_` 中包含。
-1. 当从应用程序服务器请求该页面时，会将事件发送到 [交互式数据收集端点](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) 以获取个性化内容。 此示例应用程序使用一些帮助程序方法来简化构建请求并将请求发送到API(请参阅 [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"})。 但要求只是 `POST` 有效负载中包含事件和查询。 上一步骤中的Cookie（如果可用）包含在中的请求中 `meta>state>entries` 数组。
+1. 当从应用程序服务器请求该页面时，会将事件发送到 [交互式数据收集端点](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 以获取个性化内容。 此示例应用程序使用一些帮助程序方法来简化构建请求并将请求发送到API(请参阅 [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"})。 但要求只是 `POST` 有效负载中包含事件和查询。 上一步骤中的Cookie（如果可用）包含在中的请求中 `meta>state>entries` 数组。
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 
 * Adobe技术博客： [Adobe Experience Platform Web SDK中的混合个性化](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK文档： [使用Web SDK和边缘网络服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

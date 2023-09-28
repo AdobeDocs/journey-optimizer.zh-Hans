@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 4%
+source-wordcount: '527'
+ht-degree: 3%
 
 ---
 
@@ -68,11 +68,15 @@ ht-degree: 4%
 
 ## 导出报告 {#export-reports}
 
-您可以轻松地将不同的报表导出为PDF格式，以便共享或打印它们。
+您可以轻松地将不同的报表导出为PDF或CSV格式，以便您共享或打印它们。
 
-1. 在报表中，单击 **[!UICONTROL 导出]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB 将报表导出为PDF文件]
+
+1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL PDF文件]**.
+
+   ![](assets/export_6.png)
 
 1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
 
@@ -81,3 +85,21 @@ ht-degree: 4%
 1. 找到要保存文件的文件夹，根据需要重命名它，然后单击“保存”。
 
 您的报表现在可以在PDF文件中查看或共享。
+
+>[!TAB 将报表导出为CSV文件]
+
+1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL CSV文件]** 在整体报表级别生成CSV文件。
+
+   ![](assets/export_4.png)
+
+1. 您还可以选择从特定构件导出数据。 单击 **[!UICONTROL 将构件数据导出到CSV]** 在选定小组件旁边。
+
+   ![](assets/export_5.png)
+
+1. 您的文件会自动下载，并位于本地文件中。
+
+   如果在报表级别生成文件，则它包含每个小组件的详细信息，包括其标题和数据。
+
+   如果在小组件级别生成文件，则它会专门提供选定小组件的数据。
+
+>[!ENDTABS]

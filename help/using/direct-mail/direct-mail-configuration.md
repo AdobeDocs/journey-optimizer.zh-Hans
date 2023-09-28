@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 32%
 
 在生成此文件之前，您需要创建：
 
-1. A [文件路由配置](#file-routing-configuration) 指定要导出文件的服务器。
+1. A [文件路由配置](#file-routing-configuration) 指定要导出文件的服务器并加密文件（如有必要）。
 
 1. A [直邮表面](#direct-mail-surface) 将引用文件路由配置。
 
@@ -89,6 +89,8 @@ ht-degree: 32%
    >[!NOTE]
    >
    >AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
+
+1. 要加密文件，请将加密密钥复制并粘贴到 **[!UICONTROL PGP/GPG加密密钥]** 字段。
 
 1. 选择&#x200B;**[!UICONTROL 提交]**。文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
 

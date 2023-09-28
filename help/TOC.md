@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 94%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -232,11 +232,13 @@ ht-degree: 94%
 + Web 渠道 {#web}
    + [Web 渠道入门](using/web/get-started-web.md)
    + [Web 渠道先决条件](using/web/web-prerequisites.md)
+   + [单页应用程序实施](using/web/web-spa-implementation.md)
    + [创建 Web 体验](using/web/create-web.md)
    + 创建 Web 页面 {#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [监测您的Web活动](using/web/monitor-web-campaigns.md)
+      + [创作单页应用程序](using/web/web-spa.md)
    + [配置 Web 子域](using/web/web-delegated-subdomains.md)
 + 基于代码的体验 {#code-based-experience}
    + [基于代码的渠道入门](using/code-based/get-started-code-based.md)
@@ -303,6 +305,7 @@ ht-degree: 94%
    + 用户档案{#profiles}
       + [开始使用用户档案](using/audience/get-started-profiles.md)
       + [创建测试用户档案](using/audience/creating-test-profiles.md)
+      + [使用计算属性](using/audience/computed-attributes.md)
    + [标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
 + 跟踪和监测 {#reporting}
@@ -321,6 +324,9 @@ ht-degree: 94%
       + [目标报告](using/reports/objective-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
+   + 渠道报表 {#channel-report}
+      + [渠道报告入门](using/reports/channel-report-gs.md)
+      + [渠道报表](using/reports/channel-report.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)

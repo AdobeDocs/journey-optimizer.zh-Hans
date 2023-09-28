@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
+source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
 workflow-type: tm+mt
-source-wordcount: '4069'
+source-wordcount: '4059'
 ht-degree: 86%
 
 ---
@@ -21,11 +21,8 @@ ht-degree: 86%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2023年9月早期发行说明 {#sept-rn-2023}
 
-以下早期发行说明可能会在正式发行日期之前发生更改，恕不另行通知。链接、屏幕和更新文档在发布日期发布。
-
-**发行日期**： 2023年9月26日至27日
+## 2023年9月发行说明 {#sept-rn-2023}
 
 ### 新功能{#sept-2023-features}
 
@@ -41,8 +38,8 @@ ht-degree: 86%
 <tr>
 <td>
 <p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客户资料目标或Journey Optimizer中使用它们。<br/><br/>
-此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。 在中了解详情 <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">详细文档</a>.</p>
-<img src="assets/computed-attributes.png">
+此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。 在中了解详情 <a href="../audience/computed-attributes.md">详细文档</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
@@ -57,9 +54,10 @@ ht-degree: 86%
 <tbody>
 <tr>
 <td>
-<p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。 要访问“报告”菜单，您必须具有“查看渠道报告”权限。</p>
+<p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。</p>
+<p>要访问 <b>报表</b> 菜单，您必须拥有 <b>查看渠道报表</b> 许可。</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>欲了解更多信息，请参见 <a href="../reports/channel-report.md">详细文档</a>、和 &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
 </tr>
 </tbody>
 </table>
@@ -76,7 +74,7 @@ ht-degree: 86%
 <td>
 <p>现在可以将Journey Optimizer数据集导出到云存储目标。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../data/export-datasets.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -101,42 +99,44 @@ ht-degree: 86%
 
 此版本包含下方列出的改进。
 
-<!--**Audiences**
+<!--**Personalization**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**个性化**
+<!--
+**Alerting**
 
-* 除了可视片段之外，现在还可以通过表达式编辑器从Journey Optimizer界面创建、保存和重用表达式片段。 表达式片段替换以前保存的表达式。
-
-**警报**
-
-* 推出了一种新型的系统警报。现在，您可以在读取受众失败时收到通知。
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **Web 渠道**
 
-* 单页应用程序(SPA)现在可以在Web可视编辑器中创作。 您现在可以选择要将网页修改应用到哪些特定视图。 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。 在Adobe Experience Platform Web SDK实施中定义视图需要一次性开发人员设置，这使得营销人员能够在SPA上创建并运行Adobe Journey Optimizer Web营销活动。
+* 单页应用程序(SPA)现在可以在Web可视编辑器中创作，该编辑器允许您选择要将网页修改应用于的特定视图。 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。 在Adobe Experience Platform Web SDK实施中定义视图需要一次性开发人员设置；这使营销人员能够在SPA上创建并运行Adobe Journey Optimizer Web营销活动。 [了解详情](../web/web-spa.md)
 
-* 使用Web设计器编辑页面时，您现在可以直接从“修改”窗格向内容添加新更改，而无需从设计器界面中选择组件并进行编辑。
-* 在设置Web子域时，除了使用已委派给Adobe的子域之外，您现在可以选择添加自己的子域。
+* 使用Web设计器编辑页面时，您现在可以直接从“修改”窗格向内容添加新更改，而无需从设计器界面中选择组件并进行编辑。 [了解详情](../web/manage-web-modifications.md#add-modifications)
+
+* 在设置Web子域时，除了使用已委派给Adobe的子域之外，您现在可以选择添加自己的子域。 [了解详情](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **历程**
 
-* 现在，GA支持自定义操作响应。 这允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将所有海关操作限制为每个端点5000次调用/秒。
-* 复制历程时，您现在可以定义历程副本的名称。
+复制历程时，您现在可以定义历程副本的名称。 [了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
+
 
 <!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **电子邮件渠道**
 
-利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在Adobe Journey Optimizer禁止列表上也是如此。
+利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址位于Adobe上也是如此 [!DNL Journey Optimizer] 禁止显示列表。 [了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **短信渠道**
 
-两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。
+两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。 [了解详情](../sms/sms-configuration.md)
+
+**直邮渠道**
+
+现在，当直邮提供商的文件传输到服务器时，您便可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
 
 **直邮渠道**
 
@@ -144,7 +144,11 @@ ht-degree: 86%
 
 **报告**
 
-您现在可以将Journey Optimizer报表导出为CSV文件。 <!--[Learn more](../reports/global-report.md#export-reports)-->
+您现在可以将Journey Optimizer报表导出为CSV文件。 [了解详情](../reports/global-report.md#export-reports)
+
+**资源**
+
+通过“资源”的新选项，您可以在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。 [了解详情](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

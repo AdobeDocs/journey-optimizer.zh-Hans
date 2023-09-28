@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Beta 版" type="Informative"
 keywords: 操作，第三方，自定义，历程， API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 5%
+source-wordcount: '610'
+ht-degree: 7%
 
 ---
 
-# 自定义操作增强功能 {#custom-action-enhancements}
+# 在自定义操作中使用 API 调用响应 {#custom-action-enhancements}
 
-您现在可以在自定义操作中利用API调用响应，并根据这些响应编排历程。
-
-此功能以前仅在使用数据源时可用。 现在，您可以将其用于自定义操作。
+您可以在自定义操作中利用API调用响应，并根据这些响应编排历程。
 
 >[!AVAILABILITY]
 >
->此功能目前作为独享 Beta 版提供。
+>此功能目前在Beta版中可用。
 
->[!WARNING]
->
->自定义操作只能用于私有或内部端点，并且应配合适当的上限或限制使用。 请参阅[此页](../configuration/external-systems.md)。
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## 定义自定义操作 {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-在定义自定义操作时，提供了两项增强功能：添加了GET方法和新的有效负载响应字段。 其他选项和参数保持不变。 请参阅[此页](../action/about-custom-action-configuration.md)。
+## 重要说明{#custom-action-enhancements-notes}
 
-### 端点配置 {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-此 **URL配置** 已重命名部分 **端点配置**.
+* 响应有效负载支持标量数组：
 
-在 **方法** 下拉列表，您现在可以选择 **GET**.
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* 响应有效负载中不支持异构阵列：
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### 负载 {#payloads-new}
+### Payloads {#payloads-new}
 
-此 **操作参数** 已重命名部分 **负载**. 有两个字段可用：
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* 此 **请求** 字段：此字段仅可用于POST和PUT调用方法。
-* 此 **响应** 字段：这是新功能。 此字段可用于所有调用方法。
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->这两个字段都是可选的。
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## 配置自定义操作 {#config-response}
+
+1. 创建自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
 1. 在 **响应** 字段。
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. 粘贴由调用返回的有效负载示例。 验证字段类型是否正确（字符串、整数等）。 以下是调用期间捕获的响应有效负载示例。 我们的本地端点发送会员积分数和用户档案的状态。
 
@@ -117,6 +161,12 @@ ht-degree: 5%
 
    ![](assets/action-response11.png)
 
+## 测试模式日志 {#test-mode-logs}
+
+您可以通过测试模式访问与自定义操作响应相关的状态日志。 如果您在历程中定义了具有响应的自定义操作，则会看到 **actionsHistory** 部分，用于显示外部端点返回的有效负载（作为来自该自定义操作的响应）。 这在调试方面可能非常有用。
+
+![](assets/action-response12.png)
+
 ## 错误状态 {#error-status}
 
 此 **jo_status_code** 字段始终可用，即使未定义响应有效负载也是如此。
@@ -158,4 +208,3 @@ ht-degree: 5%
 ```
 
 有关字段引用的更多信息，请参阅 [本节](../building-journeys/expression/field-references.md).
-

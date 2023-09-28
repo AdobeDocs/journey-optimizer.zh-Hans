@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有益于可读性、进行 QA 检查和故障排除。
 * 当您发布历程时，我们会自动进行缩放和调整，确保最大吞吐量和稳定性。当您接近达成 100 个实时历程的里程碑时，将在 UI 中收到有关此成就的通知。如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
+* 在历程中使用受众资格时，该受众资格活动可能最多需要10分钟才能激活，并侦听进入或退出受众的用户档案。
 
 ### 常规操作 {#general-actions-g}
 
@@ -65,6 +66,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 自定义操作 {#custom-actions-g}
 
+* 为所有自定义操作定义了5000次调用的上限限制。 此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。
 * 自定义操作 URL 不支持动态参数。
 * 支持 POST、PUT 和 GET 调用方法
 * 查询参数或标头的名称不得以“.”或“$”开始

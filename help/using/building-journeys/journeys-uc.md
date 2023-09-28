@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 用例，多渠道，消息，历程，渠道，事件，推送
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,6 @@ ht-degree: 1%
 
 1. 在测试旅程之前，请验证其是否有效以及是否没有错误。
 
-1. 单击 **测试** 切换位于右上角的以激活测试模式。 定义希望测试用户档案输入测试的方式：单个用户档案，或一次最多100个用户档案。 请参阅此 [部分](testing-the-journey.md) 以了解如何使用测试模式。
+1. 单击 **测试** 切换位于右上角的以激活测试模式。 请参阅此 [部分](testing-the-journey.md) 以了解如何使用测试模式。
 
 1. 当历程准备就绪时，使用 **Publish** 按钮，位于右上角。

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 11%
+source-wordcount: '2258'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >title="定义电子邮件类别"
 >abstract="选择使用此表面时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者事务性的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
 
-在 **电子邮件类型** 部分，选择要与表面一起发送的消息类型： **营销** 或 **事务性**.
+在 **电子邮件类型** 部分，选择要与表面一起发送的消息类型： **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**.
 
 * 选择 **营销** 促销电子邮件，如零售商店的每周促销活动。 这些消息需要用户同意。
 
@@ -182,6 +182,36 @@ ht-degree: 11%
 
 如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
 
+## 发送到禁止显示的电子邮件地址 {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="覆盖禁止列表优先级"
+>abstract="您可以决定向用户档案发送事务型消息，即使其电子邮件地址因垃圾邮件投诉而位于Adobe Journey Optimizer禁止列表上也是如此。 默认禁用此选项。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理禁止列表"
+
+>[!IMPORTANT]
+>
+>此选项仅在您选择 **[!UICONTROL 事务性]** 电子邮件类型。 [了解详情](#email-type)
+
+在 [!DNL Journey Optimizer]，则所有标记为硬退回、软退回和垃圾邮件投诉的电子邮件地址都会自动收集到 [禁止显示列表](../configuration/manage-suppression-list.md) 且被排除在发送历程或营销活动之外。
+
+但是，您可以决定继续发送 **事务性** 键入用户档案，即使其电子邮件地址因用户投诉垃圾邮件而包含在禁止列表上。
+
+事实上，事务型消息通常包含有用和预期的信息，例如订单确认或密码重置通知。 因此，即使他们举报了您的某封营销邮件为垃圾邮件，在大多数情况下，您仍希望客户收到此类非商业电子邮件。
+
+要在事务型消息受众中包含由于垃圾邮件投诉而抑制的电子邮件地址，请从中选择相应的选项 **[!UICONTROL 发送到禁止显示的电子邮件地址]** 部分。
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>默认禁用此选项。
+
+作为可投放性最佳实践，此选项默认处于禁用状态，以确保不联系已选择退出的客户。 但是，您可以更改此默认选项，这样您便可以向客户发送事务型消息。
+
+启用此选项后，尽管客户将您的营销电子邮件标记为垃圾邮件，但这些客户将能够使用当前表面接收您的事务型消息。 始终确保根据可投放性最佳实践管理选择退出偏好设置。
+
 ## 种子列表 {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ ht-degree: 11%
 >title="添加种子列表"
 >abstract="选择所选的种子列表以自动将特定的内部地址添加到受众。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#create-seed-list" text="创建种子列表"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="创建种子列表"
 
 
 中的种子列表 [!DNL Journey Optimizer] 使您能够在投放中自动包含特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)

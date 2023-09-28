@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 27%
+source-wordcount: '970'
+ht-degree: 26%
 
 ---
 
@@ -31,14 +31,17 @@ ht-degree: 27%
 
 此类事件可定位为历程的第一步或后续步骤。
 
->[!IMPORTANT]
->
->请记住，Adobe Experience Platform受众每天计算一次(**批次** 受众)或实时(**流式传输** 受众(使用Adobe Experience Platform的“高频受众”选项)。
->
->如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。 如果受众是批量受众，则新近符合此受众条件的人员可能会在Adobe Experience Platform上执行受众计算时进入历程。
->
->以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+### 重要说明{#important-notes-segment-qualification}
 
+* 请记住，Adobe Experience Platform受众每天计算一次(**批次** 受众)或实时(**流式传输** 受众(使用Adobe Experience Platform的“高频受众”选项)。
+
+* 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。 如果受众是批量受众，则新近符合此受众条件的人员可能会在Adobe Experience Platform上执行受众计算时进入历程。
+
+* 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+
+* 在历程中使用受众资格时，该受众资格活动可能最多需要10分钟才能激活，并侦听进入或退出受众的用户档案。
+
+### 配置活动{#cnfigure-segment-qualification}
 
 1. 展开 **[!UICONTROL 活动]** 类别并放置 **[!UICONTROL 受众资格]** 活动移入画布。
 
