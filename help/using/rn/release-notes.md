@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
 workflow-type: tm+mt
 source-wordcount: '4018'
 ht-degree: 87%
@@ -57,7 +57,7 @@ ht-degree: 87%
 <p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。</p>
 <p>要访问 <b>报表</b> 菜单，您必须拥有 <b>查看渠道报表</b> 许可。</p>
 <img src="assets/channel-reports.png"/>
-<p>欲了解更多信息，请参见 <a href="../reports/channel-report.md">详细文档</a>、和 <a href="../reports/channel-report.md#how-to-video-channel-report-video">操作方法视频</a>.</p>
+<p>欲了解更多信息，请参见 <a href="../reports/channel-report.md">详细文档</a>、和 <a href="../reports/channel-report.md#channel-report-video">操作方法视频</a>.</p>
 </tr>
 </tbody>
 </table>
