@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 500b76aaaed604a73f2d8430a181763a9f35565f
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '200'
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <br> <ul>  — 属性按AND操作分组。 <br><br>  — 参数可重复，如下所示：property=<property-expr>[属性(&amp;P)=<property-expr2>...] 或属性=<property-expr1>[和<property-expr2>...] <br><br>  — 属性表达式的格式为 [！]字段[操作]值，包含运算输入 [==！=，&lt;=，>=，&lt;，>，~]，支持正则表达式。 | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 可选的属性过滤器： <ul><li> 这些属性按AND操作进行分组。 <br><br>  — 参数可重复，如下所示：property=`<property-expr>`[属性(&amp;P)=`<property-expr2>`...] 或属性=`<property-expr1>`[和`<property-expr2>`...] <br><br>  — 属性表达式的格式为 `[!]field[op]` 值，包含运算输入 `[==,!=,'<=',>=,<,>,~]`，支持正则表达式  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 限制返回的实体数。 | `limit=5` |
 
