@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
+source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
 workflow-type: tm+mt
 source-wordcount: '2466'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
 >title="营销活动全局报告"
 >abstract="营销活动全局报告可以衡量您的营销活动在选定时段内产生的影响。报告分为不同的构件，详细说明您营销活动中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
 
-全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
+全局报告，可从访问 **所有时间** 选项卡，显示至少两小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
 您可以使用直接从Campaign访问Campaign全局报告 **[!UICONTROL 查看报告]** 按钮。
 
