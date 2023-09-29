@@ -11,10 +11,10 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 1%
+source-wordcount: '1503'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 本文档指南包括以下内容：
 
 * [IP预热入门](ip-warmup-gs.md)
-* [创建IP预热活动](ip-warmup-campaign.md)
+* [创建 IP 预热营销活动](ip-warmup-campaign.md)
 * [创建IP预热计划](ip-warmup-plan.md)
 * **[执行IP预热计划](ip-warmup-execution.md)**
 
@@ -40,12 +40,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="从要从当前阶段排除的其他营销活动中选择受众。 这是为了防止先前从其他阶段或其他IP预热计划联系的用户档案再次成为目标。"
+>abstract="选择要从当前阶段中排除的其他营销活动的受众。这是为了防止先前从其他阶段或其他IP预热计划联系的用户档案再次成为目标。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
->abstract="选择要从当前阶段排除的域。 域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
+>abstract="选择要从当前阶段中排除的域。域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
@@ -122,23 +122,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
-1. 选择 **[!UICONTROL 因错误而暂停]** 选项，以防发生错误。<!--can't see the Paused status for runs? Is it failed?-->
+1. 选择 **[!UICONTROL 因错误而暂停]** 用于在评估了某个运行的受众后，如果符合条件的配置文件少于目标配置文件，则取消该运行的选项。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   例如，运行分段作业后，如果目标配置文件数少于预期值，则会取消运行。
-
-1. **[!UICONTROL 激活]** 逃跑。 确保已计划足够的时间来执行分段作业。
-
-   ![](assets/ip-warmup-plan-activate.png)
-
-   >[!CAUTION]
-   >
-   >每次运行必须在实际发送时间之前至少12小时激活。 否则，可能无法完成分段。 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
-
-   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
-
-   <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+1. **[!UICONTROL 激活]** 逃跑。 [了解详情](#activate-run)
 
 1. 此运行的状态将更改为 **[!UICONTROL 实时]**. 中列出了不同的运行状态 [本节](#monitor-plan). 如果活动执行尚未开始，您可以停止实时运行。<!--why?-->
 
@@ -152,6 +140,37 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
+## 激活运行 {#activate-run}
+
+要激活运行，请选择 **[!UICONTROL 激活]** 按钮。
+
+确保已计划足够的时间来执行分段作业。
+
+![](assets/ip-warmup-plan-activate.png)
+
+>[!CAUTION]
+>
+>每次运行必须在实际发送时间之前至少12小时激活。 否则，可能无法完成分段。
+
+在激活运行时，会自动创建多个区段：
+
+* 如果激活阶段的第一次运行：
+
+   * 系统会为排除的营销活动受众（如果有）创建一个区段。
+   * 为排除的域组（如果有）创建另一个区段。
+
+* 激活任何运行时：
+
+   * 为最后一个参与过滤器创建另一个区段。
+   * 将创建与活动将发送到的受众对应的受众组合。
+
+<!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
+
+<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+
+<!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+
 ## 管理您的计划 {#manage-plan}
 
 在任何时候，如果IP预热计划未按预期执行，您可以执行以下操作。
@@ -164,7 +183,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 为当前阶段的剩余运行创建一个新阶段。
 
-例如，如果为Run #4选择此选项，则Runs #4 to #8将移动到新阶段。
+例如，如果为Run #4选择此选项，则Runs #4 to #8将移动到当前阶段之后的新阶段。
 
 按照以下步骤操作 [以上](#define-phases) 以定义新阶段。
 
@@ -196,13 +215,23 @@ But need to explain in which case you want to modify campaigns, provide examples
 
 ![](assets/ip-warmup-re-upload-plan.png)
 
-之前执行的所有运行都将标记为已完成。 新计划显示在第一个计划下。
+以前执行的所有运行都将为只读。 新计划显示在第一个计划下。
 
 按照以下步骤操作 [以上](#define-phases) 以从新计划定义阶段。
 
 >[!NOTE]
 >
->IP预热计划的详细信息将根据新上传的文件而更改。 实时运行和已完成的运行不受影响。
+>IP预热计划的详细信息将根据新上传的文件而更改。 之前执行的运行(无论其是否包含 [状态](#monitor-plan))不会受到影响。
+
+让我们举一个例子：
+
+* 在最初的IP预热计划中，阶段2运行了9次。
+
+* 已执行4次运行（无论失败、已完成还是已取消 — 只要尝试了运行，就会执行运行）。
+
+* 如果重新上传新计划，则运行前4次的阶段2将进入只读模式。
+
+* 其余5次运行（处于草稿状态）将移至新阶段（第3阶段），该阶段会根据新上传的计划显示。
 
 ## 监控计划 {#monitor-plan}
 
@@ -216,6 +245,6 @@ IP预热计划本身也可用作单个位置的整合报告。 您可以检查�
 
 * **[!UICONTROL 草稿]** ：每当创建运行时，无论是何时 [创建新计划](ip-warmup-plan.md) 或 [添加运行](#define-runs) 在用户界面中，它采用 **[!UICONTROL 草稿]** 状态。
 * **[!UICONTROL 实时]**：无论何时激活运行，都会使用 **[!UICONTROL 实时]** 状态。
-* **[!UICONTROL 已完成]**<!--TBC-->：此运行的营销活动执行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL 已完成]**：此运行的营销活动执行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 停止]** 按钮。 仅当活动执行尚未启动时，此按钮才可用。 [了解详情](#define-runs)
-* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止<!--what should the user do in that case?-->.
+* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止。 如果某个运行失败，您可以计划第二天再次运行。
