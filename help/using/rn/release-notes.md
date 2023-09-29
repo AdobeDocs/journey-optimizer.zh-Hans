@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ ht-degree: 87%
 
 **短信渠道**
 
-两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。 [了解详情](../sms/sms-configuration.md)
+* 两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。 [了解详情](../sms/sms-configuration.md#create-api)
+
+* 短信选择退出不再在渠道级别进行管理。 现在，它是特定于号码的，这意味着如果某些用户档案选择禁用给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他号码向他们发送消息。 通过新选项，您可以选择 **选择退出次数** 要对给定曲面使用。 [了解详情](../sms/sms-configuration.md#message-preset-sms)
 
 **直邮渠道**
 

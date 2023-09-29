@@ -11,10 +11,10 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 3%
+source-wordcount: '1679'
+ht-degree: 2%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 3%
 >title="排除域组"
 >abstract="选择要从当前阶段中排除的域。域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="定义计划的阶段"
+>abstract="每个阶段都包含多次运行，您可以为其分配一个营销活动。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >如果从IP预热计划中删除所有阶段，建议重新上传计划。 [了解详情](#re-upload-plan)
 
 ## 定义运行 {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="定义每次运行"
+>abstract="定义并激活所有阶段的每次运行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="根据参与情况过滤"
+>abstract="此列是一个过滤器，仅定向过去20天内与您的品牌互动的用户。 您也可以通过 **编辑运行** 选项。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="设置时间窗口"
+>abstract="您可以定义一个时间范围，在分段作业出现任何延迟时，可以在其中执行IP预热活动。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="取消运行，但存在受众错误"
+>abstract="如果为运行评估受众后，符合条件的配置文件少于目标配置文件，则选择此选项可取消运行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="查看符合条件的配置文件"
+>abstract="此列显示符合条件的配置文件的数量。 在对受众进行运行评估后，如果定向的用户档案多于符合条件的用户档案，则仍会执行运行，除非 **因错误而暂停** 选项。 在这种情况下，将取消运行。"
 
 1. 为每次运行选择计划。
 

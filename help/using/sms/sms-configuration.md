@@ -6,10 +6,10 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 17%
+source-wordcount: '1010'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
 1. 输入表面的名称和描述（可选），然后选择短信渠道。
 
-   ![](assets/sms_preset.png)
+   ![](assets/sms-create-surface.png)
 
    >[!NOTE]
    >
@@ -113,26 +113,26 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
 1. 定义 **短信设置**.
 
-   ![](assets/preset-sms.png)
+   ![](assets/sms-surface-settings.png)
 
-   * 选择 **[!UICONTROL 短信类型]** 将随表面一起发送的内容： **[!UICONTROL 事务性]** 或 **[!UICONTROL 营销]**.
+   首先，选择 **[!UICONTROL 短信类型]** 将随表面一起发送的内容： **[!UICONTROL 事务性]** 或 **[!UICONTROL 营销]**.
 
-      * 选择 **营销** 促销短信：这些消息需要用户同意。
-      * 选择 **事务性** 用于非商业性消息，如订单确认、密码重置通知或投放信息。
+   * 选择 **营销** 促销短信：这些消息需要用户同意。
+   * 选择 **事务性** 用于非商业性消息，如订单确认、密码重置通知或投放信息。
 
-     >[!CAUTION]
-     >
-     >**事务性** 短信消息可以发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
+   创建短信消息时，必须选择与为消息选择的类别匹配的有效渠道平面。
 
-     创建短信消息时，必须选择与为消息选择的类别匹配的有效渠道平面。
+   >[!CAUTION]
+   >
+   >**事务性** 短信消息可以发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
 
-   * 选择 **[!UICONTROL 短信配置]** 以与曲面相关联。
+1. 选择 **[!UICONTROL 短信配置]** 以与曲面相关联。
 
-     有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](#create-api).
+   有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](#create-api).
 
-   * 输入 **[!UICONTROL 发件人编号]** 您&#x200B;希望用于您的通信。
+1. 输入 **[!UICONTROL 发件人编号]** 您&#x200B;希望用于您的通信。
 
-   * 选择您的 **[!UICONTROL 短信执行字段]** 以选择 **[!UICONTROL 配置文件属性]** 与用户档案的电话号码关联。
+1. 选择您的 **[!UICONTROL 短信执行字段]** 以选择 **[!UICONTROL 配置文件属性]** 与用户档案的电话号码关联。
 
 1. 如果要在短信消息中使用URL缩短功能，请从 **[!UICONTROL 子域]** 列表。
 
@@ -140,11 +140,15 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
    >
    >要能够选择子域，请确保您之前已配置至少一个短信子域。 [了解如何操作](sms-subdomains.md)
 
+1. 输入 **[!UICONTROL 选择退出次数]** 要用于此表面。 当用户档案选择退出此号码时，您仍然能够通过可能用于发送短信的其他号码向他们发送消息 [!DNL Journey Optimizer].
+
+   >[!NOTE]
+   >
+   >在 [!DNL Journey Optimizer]，短信选择退出不再在渠道级别进行管理。 现在，它是特定于某个数字的。
+
 1. 配置完所有参数后，单击 **[!UICONTROL 提交]** 以确认。 也可以将渠道曲面另存为草稿，并稍后恢复其配置。
 
-   ![](assets/sms_preset_2.png)
-<!--
-1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
+   ![](assets/sms-submit-surface.png)
 
 1. 创建渠道表面后，它将显示在列表中，其中包含 **[!UICONTROL 正在处理]** 状态。
 

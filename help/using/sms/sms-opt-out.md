@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 27%
@@ -24,7 +24,7 @@ ht-degree: 27%
 >根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理使用长代码和免费电话号码的消息（如下所述），但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
 >
 
-## 本机入站关键词{#sms-native-keywords}
+## 本机入站关键词 {#sms-native-keywords}
 
 默认情况下，Adobe Journey Optimizer为免费和长代码消息处理以下标准英语回复消息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 请注意，在与Journey Optimizer一起使用时，只有Sinch和Infobip支持本机关键字。
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE会被自动识别。 在Adobe Journey Optimizer中实时更新用户档案选择退出状态。
 
 
-## 阻止列表{#sms-blocklists}
+## 阻止列表 {#sms-blocklists}
 
 除了Adobe Journey Optimizer列入阻止列表根据选择退出状态停止发送（用于与Twilio或Sinch的直接集成）之外，大多数短信网关提供商还维护一个，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过发送短信 [自定义渠道](../building-journeys/using-custom-actions.md)，您需要向提供商确认。
 
