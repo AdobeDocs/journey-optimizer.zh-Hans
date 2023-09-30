@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="什么是决定？"
->abstract="决策策略利用Experience Decisioning引擎，以根据受众来选择应交付的最佳内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="关于Experience决策"
+>title="什么是决策？"
+>abstract="决策策略利用体验决策引擎，以便根据受众选取要投放的最佳内容。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="关于体验决策"
 
 >[!BEGINSHADEBOX]
 
@@ -50,18 +51,18 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="定义要返回的项数"
->abstract="选择要返回的决策项目数。 例如，如果选择2，则会为当前曲面显示最佳的2个合格选件。"
+>title="定义要返回的项目数"
+>abstract="选择要返回的决策项目的数量。例如，如果您选择 2，则将为当前表面显示最佳的 2 个合格优惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="选择后备"
->abstract="当为该决策策略定义的任何选择策略都不符合条件时，将向用户显示回退项目。"
+>title="选择后备项目"
+>abstract="在为该决策策略定义的所有选择策略均不合格时，将向用户显示后备项目。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
 >title="什么是策略？"
->abstract="选择策略的顺序决定了哪个策略将首先被评估。 至少需要一个策略。 组合策略中的决策项目将一起被评估。"
+>abstract="选择策略序列将决定首先评估哪个策略。至少需要一个策略。将一次性评估组合策略中的决策项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="创建策略"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="评估顺序"
 
@@ -85,7 +86,7 @@ ht-degree: 5%
 
    ![](assets/decision-code-based-details.png)
 
-1. 选择要返回的项目数。 例如，如果选择2，则会为当前曲面显示最佳的2个合格选件。 单击 **[!UICONTROL 下一个]**
+1. 选择要返回的项目数。 例如，如果您选择 2，则将为当前表面显示最佳的 2 个合格优惠。单击 **[!UICONTROL 下一个]**
 
 1. 使用 **[!UICONTROL 添加策略]** 按钮定义决策策略的选择策略。 每个策略包括与资格限制关联的优惠收藏集以及确定要显示的优惠的排名方法。 [了解详情](selection-strategies.md)
 
@@ -93,7 +94,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >至少需要一个策略。 不能添加超过10个策略。
+   >至少需要一个策略。不能添加超过10个策略。
 
 1. 从 **[!UICONTROL 添加策略]** 屏幕，您还可以创建策略。 此 **[!UICONTROL 创建选择策略]** 按钮会将您重定向到 **[!UICONTROL Experience decisioning]** > **[!UICONTROL 配置]** 菜单。 [了解详情](selection-strategies.md)
 

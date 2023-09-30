@@ -10,7 +10,8 @@ level: Beginner
 badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
@@ -48,4 +49,3 @@ Adobe Journey Optimier 内容助手为文本和图像提供主动的内容变体
 >[!AVAILABILITY]
 >
 >Adobe Journey Optimizer 内容助手当前为 Beta 版，仅供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
-

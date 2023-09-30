@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 4%
 本文档指南包括以下内容：
 
 * [IP预热入门](ip-warmup-gs.md)
-* [创建IP预热活动](ip-warmup-campaign.md)
+* [创建 IP 预热营销活动](ip-warmup-campaign.md)
 * **[创建IP预热计划](ip-warmup-plan.md)**
 * [执行IP预热计划](ip-warmup-execution.md)
 
@@ -110,15 +111,15 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="指定IP预热计划"
->abstract="下载CSV模板，并使用IP预热阶段的数据和目标配置文件数填充该模板。"
+>title="指定您的 IP 预热计划"
+>abstract="下载 CSV 模板并在其中填入 IP 预热阶段的数据和目标配置文件数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="选择营销表面"
->abstract="必须选择与要在营销策划中与IP预热计划关联的所选表面相同的表面。"
+>abstract="您选择的表面必须与要关联到 IP 预热计划的营销活动中选择的表面相同。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道表面"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建IP预热活动"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
 
 当一个或多个实时营销活动具有 **[!UICONTROL IP预热计划激活]** 启用选项后，您可以将其与IP预热计划关联。
 
@@ -138,7 +139,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    >[!CAUTION]
    >
-   >必须选择与要在营销策划中与IP预热计划关联的所选表面相同的表面。 [了解如何创建IP预热活动](ip-warmup-campaign.md)
+   >您选择的表面必须与要关联到 IP 预热计划的营销活动中选择的表面相同。[了解如何创建IP预热活动](ip-warmup-campaign.md)
 
 1. 上载包含IP预热计划的Excel文件。 [了解详情](#prepare-file)
 

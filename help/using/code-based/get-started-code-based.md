@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -142,7 +143,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
 >title="定义基于代码的体验表面"
->abstract="基于代码的界面是为用户或系统交互而设计的任何实体，由URI唯一标识。"
+>abstract="基于代码的表面是为用户或系统交互设计的任何实体，它由一个 URI 唯一标识。"
 
 A **基于代码的体验表面** 是专为用户或系统交互而设计的任何实体<!--ask Robert to explain further-->，由唯一标识 **URI**.
 

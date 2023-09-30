@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建IP预热活动
+title: 创建 IP 预热营销活动
 description: 了解如何创建IP预热活动
 feature: Application Settings
 topic: Administration
@@ -10,18 +10,19 @@ level: Intermediate
 keywords: IP 、池、可投放性
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# 创建IP预热活动 {#create-ip-warmup-campaign}
+# 创建 IP 预热营销活动 {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="激活IP预热计划选项"
+>title="激活 IP 预热计划选项"
 >abstract="选择此选项后，可以在IP预热计划中使用活动。 然后，促销活动计划将由与之关联的IP预热计划驱动。"
 
 >[!BEGINSHADEBOX]
@@ -29,7 +30,7 @@ ht-degree: 3%
 本文档指南包括以下内容：
 
 * [IP预热入门](ip-warmup-gs.md)
-* **[创建IP预热活动](ip-warmup-campaign.md)**
+* **[创建 IP 预热营销活动](ip-warmup-campaign.md)**
 * [创建IP预热计划](ip-warmup-plan.md)
 * [执行IP预热计划](ip-warmup-execution.md)
 
@@ -82,4 +83,3 @@ ht-degree: 3%
 活动一旦启用，即可在IP预热计划中使用。 [了解详情](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-
