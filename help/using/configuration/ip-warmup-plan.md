@@ -11,7 +11,7 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 14%
@@ -86,6 +86,8 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 例如，如果添加自定义域Luma，则需要包含以下子域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## 访问和管理IP预热计划 {#manage-ip-warmup-plans}
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP预热计划]** 菜单。 此时将显示迄今为止创建的所有IP预热计划。
@@ -96,7 +98,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    * **未开始**：尚未激活任何运行。 [了解详情](ip-warmup-execution.md#define-runs)
    * **实时**：一旦成功激活第一阶段的第一次运行，计划就会更改为此状态。 [了解详情](ip-warmup-execution.md#define-runs)
-   * **已完成**：计划已标记为已完成。 仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已成功]** 或 **[!UICONTROL 草稿]** 状态(无法运行 **[!UICONTROL 实时]**)。 [了解详情](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **已完成**：计划已标记为已完成。 仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已完成]** 或 **[!UICONTROL 草稿]** 状态(无法运行 **[!UICONTROL 实时]**)。 [了解详情](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 要删除IP预热计划，请选择 **[!UICONTROL 删除]** 图标并确认删除。

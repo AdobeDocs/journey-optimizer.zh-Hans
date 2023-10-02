@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c710f647707168105a863ae8b0ea087b7d015aa5
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2381'
 ht-degree: 17%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 17%
 
    >[!CAUTION]
    >
-   >无法对之前创建的选件启用或禁用频率封顶。 为此，您需要复制选件或创建新选件。
+   >无法对之前创建的选件启用或禁用频率封顶。 为此，您需要创建一个新选件。
 
 1. 定义哪些 **[!UICONTROL 设置事件上限]** 将被考虑以增加计数器。 [了解详情](#capping-event)
 

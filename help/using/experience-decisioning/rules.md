@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 5%
+source-wordcount: '283'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +38,8 @@ ht-degree: 5%
 决策规则允许您通过直接在决策项目级别或在特定选择策略内应用约束来定义决策项目的受众。 这使您能够精确控制应该向谁显示哪些项目。
 
 例如，我们考虑一个方案，其中您的决策项包含为女性设计的瑜伽相关产品。 通过决策规则，您可以指定只向性别为“女性”并在“瑜伽”中指定了“兴趣点”的用户档案显示这些项目。
+
+除了项目和选择策略级别决策规则之外，您还可以在营销活动级别为目标受众创建其他参数。 [了解详情](../campaigns/create-campaign.md)
 
 决策规则的列表可在 **[!UICONTROL 配置]** / **[!UICONTROL 决策规则]** 菜单。
 

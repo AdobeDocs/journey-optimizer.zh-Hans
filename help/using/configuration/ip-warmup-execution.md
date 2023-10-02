@@ -11,10 +11,10 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 2%
+source-wordcount: '1696'
+ht-degree: 3%
 
 ---
 
@@ -138,11 +138,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定义一个时间范围，在分段作业发生任何延迟时，可以在其中执行IP预热活动。 为此，请单击计划名称左上角的属性图标，然后使用 **[!UICONTROL 重试运行时间]** 下拉列表以选择持续时间 — 最多240分钟（4小时）。
+1. 或者，您可以定义一个时间窗口，在IP预热活动出现任何延迟时，可以在该窗口执行 [分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 作业。 为此，请单击计划名称左上角的属性图标，然后使用 **[!UICONTROL 重试运行时间]** 下拉列表以选择持续时间 — 最多240分钟（4小时）。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   例如，如果在给定日期的晚上9点设置发送时间，并选择120分钟作为重试运行时间，这将允许执行2小时的分段作业机会窗口。
+   例如，如果在指定日期的早上9点设置发送时间，并选择120分钟作为重试运行时间，这将允许执行分段作业的时间窗口为2小时（上午9点到上午11点）。
 
    >[!NOTE]
    >
@@ -158,7 +158,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL 激活]** 逃跑。 [了解详情](#activate-run)
 
-1. 此运行的状态将更改为 **[!UICONTROL 实时]**. 中列出了不同的运行状态 [本节](#monitor-plan). 如果活动执行尚未开始，您可以停止实时运行。<!--why?-->
+1. 此运行的状态将更改为 **[!UICONTROL 实时]**. 中列出了不同的运行状态 [本节](#monitor-plan).
+
+1. 如果活动执行尚未开始，您可以停止实时运行。<!--why?-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -166,7 +168,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >活动开始执行后， **[!UICONTROL 停止]** 按钮将变为不可用。
 
-1. 要添加运行，请选择 **[!UICONTROL 在下方添加运行]** 从三个圆点图标。
+1. 要添加运行，请选择 **[!UICONTROL 在下方添加运行]** 从更多操作图标。
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -174,7 +176,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 要激活运行，请选择 **[!UICONTROL 激活]** 按钮。
 
-确保已计划足够的时间来执行分段作业。
+确保您已计划足够的时间来允许 [分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 要执行的作业。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -182,17 +184,17 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >每次运行必须在实际发送时间之前至少12小时激活。 否则，可能无法完成分段。
 
-在激活运行时，会自动创建多个区段：
+在激活运行时，会自动创建多个区段。
 
 * 如果激活阶段的第一次运行：
 
-   * 系统会为排除的营销活动受众（如果有）创建一个区段。
+   * A [区段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 为排除的营销活动受众（如果有）创建。
    * 为排除的域组（如果有）创建另一个区段。
 
 * 激活任何运行时：
 
    * 为最后一个参与过滤器创建另一个区段。
-   * 将创建与活动将发送到的受众对应的受众组合。
+   * An [受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"} 创建时对应于将向其发送营销活动的受众。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -200,14 +202,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## 管理您的计划 {#manage-plan}
 
 在任何时候，如果IP预热计划未按预期执行，您可以执行以下操作。
 
 ### 拆分阶段 {#split-phase}
 
-如果要添加从特定运行开始的新阶段，请选择 **[!UICONTROL 拆分为新阶段选项]** 从三个圆点图标。
+如果要添加从特定运行开始的新阶段，请选择 **[!UICONTROL 拆分为新阶段选项]** 从更多操作图标。
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -257,7 +258,7 @@ But need to explain in which case you want to modify campaigns, provide examples
 
 * 在最初的IP预热计划中，阶段2运行了9次。
 
-* 已执行4次运行（无论失败、已完成还是已取消 — 只要尝试了运行，就会执行运行）。
+* 已执行4次运行（无论失败、已完成还是已取消）<!--as long as a run has been attempted, it is an executed run-->)。
 
 * 如果重新上传新计划，则运行前4次的阶段2将进入只读模式。
 
@@ -276,5 +277,5 @@ IP预热计划本身也可用作单个位置的整合报告。 您可以检查�
 * **[!UICONTROL 草稿]** ：每当创建运行时，无论是何时 [创建新计划](ip-warmup-plan.md) 或 [添加运行](#define-runs) 在用户界面中，它采用 **[!UICONTROL 草稿]** 状态。
 * **[!UICONTROL 实时]**：无论何时激活运行，都会使用 **[!UICONTROL 实时]** 状态。
 * **[!UICONTROL 已完成]**：此运行的营销活动执行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 停止]** 按钮。 仅当活动执行尚未启动时，此按钮才可用。 [了解详情](#define-runs)
+* **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 停止]** 按钮，或者您已启用 **[!UICONTROL 因错误而暂停]** 选项并发生错误。 [了解详情](#define-runs)
 * **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止。 如果某个运行失败，您可以计划第二天再次运行。
