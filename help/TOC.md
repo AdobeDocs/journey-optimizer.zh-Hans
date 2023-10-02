@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 93%
@@ -204,10 +204,10 @@ ht-degree: 93%
       + [配置电子邮件设置](using/email/email-settings.md)
 + 应用程序内渠道{#in-app}
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
+   + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
    + [测试并发送应用程序内通知](using/in-app/send-in-app.md)
-   + [配置应用程序内渠道](using/in-app/inapp-configuration.md)
 + 推送通知渠道{#push}
    + [推送通知入门](using/push/get-started-push.md)
    + [创建推送通知](using/push/create-push.md)
@@ -468,7 +468,7 @@ ht-degree: 93%
       + [创建 IP 池](using/configuration/ip-pools.md)
    + 实施IP预热计划 {#implement-ip-warmup-plan}
       + [IP预热计划入门](using/configuration/ip-warmup-gs.md)
-      + [创建IP预热活动](using/configuration/ip-warmup-campaign.md)
+      + [创建 IP 预热营销活动](using/configuration/ip-warmup-campaign.md)
       + [创建IP预热计划](using/configuration/ip-warmup-plan.md)
       + [运行IP预热计划](using/configuration/ip-warmup-execution.md)
    + 监测电子邮件地址 {#monitor-reputation}
