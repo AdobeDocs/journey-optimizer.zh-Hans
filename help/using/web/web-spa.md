@@ -5,9 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '464'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,9 @@ ht-degree: 3%
 >abstract="更改将仅应用于选定的视图。 可以使用以下工具发现视图 **浏览** 模式并导航到它们。 找不到您要查找的视图？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-**单页应用程序** (SPA)现在可以在Web设计器可视编辑器中创作。 这允许您选择要将网页修改应用于的特定视图。
+**单页应用程序** (SPA)现在可以在Web设计器可视编辑器中创作。 这允许您选择特定的 **查看次数** 要将网页修改应用于。
+
+[在此视频中了解如何创作单页面应用程序](#video)
 
 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。
 
@@ -54,7 +57,7 @@ ht-degree: 3%
 
 ## 将修改应用于其他视图 {#apply-modifications-views}
 
-当在特定视图中修改后，可将其应用于其他选定视图。 请按照以下步骤操作。
+在特定视图中添加修改后，可将其应用于其他选定视图。 请按照以下步骤操作。
 
 >[!CAUTION]
 >
@@ -77,3 +80,14 @@ ht-degree: 3%
 1. 交换到 **[!UICONTROL 浏览]** 模式，检查修改是否已应用于所需页面。
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## 操作方法视频{#video}
+
+此视频介绍如何：
+
+* 使用以下方式发现SPA视图 **[!UICONTROL 浏览]** 模式
+* 在当前视图上执行创作
+* 将网站修改应用于多个视图或发现的所有视图
+* 对修改执行批量操作
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

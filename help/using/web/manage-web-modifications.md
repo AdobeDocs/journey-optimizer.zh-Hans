@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 使用Web设计器编辑页面时，可以直接从 **[!UICONTROL 修改]** 窗格 — 无需从Web设计器界面中选择组件并进行编辑。 请按照以下步骤操作。
 
-1. 从 **[!UICONTROL 修改]**，单击 **[!UICONTROL 更多操作]** 按钮。
+1. 从 **[!UICONTROL 修改]** 窗格，单击 **[!UICONTROL 更多操作]** 按钮。
 
 1. 选择 **[!UICONTROL 添加修改]**.
 
@@ -66,7 +66,7 @@ ht-degree: 7%
 
 1. 选择修改类型：
 
-   * **[!UICONTROL CSS选择器]**- [了解详情](#css-selector)
+   * **[!UICONTROL CSS选择器]** - [了解详情](#css-selector)
    * **[!UICONTROL 页面`<Head>`]** - [了解详情](#page-head)
 
 1. 输入您的内容并 **[!UICONTROL 保存]** 您所做的更改。
@@ -184,4 +184,3 @@ ht-degree: 7%
 如果您使用 **[!UICONTROL 页面`<head>`]** 修改类型对于影响同一URL的两个营销活动，JavaScript会从这两个营销活动注入页面。 [!DNL Journey Optimizer] 自动确定已交付内容的顺序。 确保代码与放置无关。 由您来确保代码中没有冲突。
 
 +++
-
