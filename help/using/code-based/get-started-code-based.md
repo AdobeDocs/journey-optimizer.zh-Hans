@@ -143,7 +143,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
 >title="定义基于代码的体验表面"
->abstract="基于代码的表面是为用户或系统交互设计的任何实体，它由一个 URI 唯一标识。"
+>abstract="基于代码的表面是任何专为用户或系统交互设计的实体，用 URI 唯一地标识它。"
 
 A **基于代码的体验表面** 是专为用户或系统交互而设计的任何实体<!--ask Robert to explain further-->，由唯一标识 **URI**.
 

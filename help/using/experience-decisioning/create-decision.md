@@ -20,8 +20,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="什么是决策？"
->abstract="决策策略利用体验决策引擎，以便根据受众选取要投放的最佳内容。"
+>title="决策是什么？"
+>abstract="决策策略利用体验决策引擎根据受众选取最适合投放的内容。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="关于体验决策"
 
 >[!BEGINSHADEBOX]
@@ -51,18 +51,18 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="定义要返回的项目数"
->abstract="选择要返回的决策项目的数量。例如，如果您选择 2，则将为当前表面显示最佳的 2 个合格优惠。"
+>title="定义要返回的项数"
+>abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前表面显示最佳的 2 个合格优惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="选择后备项目"
->abstract="在为该决策策略定义的所有选择策略均不合格时，将向用户显示后备项目。"
+>title="选择回退"
+>abstract="在为该决策策略定义的所有选择策略均不合格时，向用户显示回退项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
->title="什么是策略？"
->abstract="选择策略序列将决定首先评估哪个策略。至少需要一个策略。将一次性评估组合策略中的决策项。"
+>title="策略是什么？"
+>abstract="选择策略的顺序决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="创建策略"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="评估顺序"
 
@@ -86,7 +86,7 @@ ht-degree: 16%
 
    ![](assets/decision-code-based-details.png)
 
-1. 选择要返回的项目数。 例如，如果您选择 2，则将为当前表面显示最佳的 2 个合格优惠。单击 **[!UICONTROL 下一个]**
+1. 选择要返回的项目数。 例如，如果选择 2，则将为当前表面显示最佳的 2 个合格优惠。单击 **[!UICONTROL 下一个]**
 
 1. 使用 **[!UICONTROL 添加策略]** 按钮定义决策策略的选择策略。 每个策略包括与资格限制关联的优惠收藏集以及确定要显示的优惠的排名方法。 [了解详情](selection-strategies.md)
 

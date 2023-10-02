@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 16%
@@ -85,7 +86,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
 >title="填写种子列表"
->abstract="选择将在投放执行时纳入并将收到与消息完全一致的副本的地址。您可以导入 CSV 文件或手动输入电子邮件地址。"
+>abstract="选择将在投放执行时纳入并将收到与消息完全一致的副本的地址。可导入 CSV 文件或手动输入电子邮件地址。"
 
 要创建种子列表，请执行以下步骤。
 
@@ -111,7 +112,7 @@ ht-degree: 16%
    >
    >一次只能选择一个测试配置文件。
 
-1. 添加要将投放发送到的种子地址。 您可以导入 CSV 文件或手动输入电子邮件地址。
+1. 添加要将投放发送到的种子地址。 可导入 CSV 文件或手动输入电子邮件地址。
 
    ![](assets/seed-list-email-addresses.png)
 
@@ -154,4 +155,3 @@ ht-degree: 16%
 >[!NOTE]
 >
 >对于历程，电子邮件投放仅在历程首次执行时发送到种子地址。
-

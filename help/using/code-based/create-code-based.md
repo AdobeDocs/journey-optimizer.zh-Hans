@@ -106,7 +106,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
 >title="预览基于代码的体验"
->abstract="模拟您将获得的基于代码的体验。"
+>abstract="模拟基于代码的体验将看起来是什么样。"
 
 要显示已修改的基于代码的体验的预览，请执行以下步骤。
 
