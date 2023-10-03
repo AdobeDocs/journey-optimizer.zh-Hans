@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
@@ -55,8 +55,8 @@ ht-degree: 100%
 
 * [历程](../building-journeys/journey-gs.md#change-properties)
 * [营销活动](../campaigns/create-campaign.md#create)
-* [模板](../email/content-templates.md)
-* [片段](../email/fragments.md)
+* [模板](../content-management/content-templates.md)
+* [片段](../content-management/fragments.md)
 * [订阅列表](../landing-pages/subscription-list.md)
 * [登陆页面](../landing-pages/create-lp.md)
 

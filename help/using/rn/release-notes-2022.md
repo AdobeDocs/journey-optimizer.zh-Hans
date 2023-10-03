@@ -4,8 +4,8 @@ product: journey optimizer
 title: 2022 年发行说明
 description: Journey Optimizer 2022 年发行说明
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -514,7 +514,7 @@ ht-degree: 100%
 
 **电子邮件**
 
-* **另存为模板** – 现在，您可将电子邮件内容另存为模板，并在创建其他消息时重复使用。[了解详情](../email/email-templates.md)
+* **另存为模板** – 现在，您可将电子邮件内容另存为模板，并在创建其他消息时重复使用。[了解详情](../content-management/content-templates.md#save-as-template)
 
 
 **管理**
@@ -682,7 +682,7 @@ ht-degree: 100%
 
 **个性化**
 
-* 现在可以在库中保存 40 多个个性化表达式。[了解详情](../personalization/personalization-library.md)
+* 现在可以在库中保存 40 多个个性化表达式。[了解详情](../personalization/use-expression-fragments.md)
 
 ## 2022 年 2 月版 {#feb-2022-release}
 
@@ -714,7 +714,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Journey Optimizer 现提供一个可供您访问预定义的个性化表达式的库。这些表达式由管理员用户配置。</p>
-<p>有关更多信息，请参阅<a href="../personalization/personalization-library.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../personalization/use-expression-fragments.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

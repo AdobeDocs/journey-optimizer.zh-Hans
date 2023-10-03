@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 93%
+source-wordcount: '1527'
+ht-degree: 92%
 
 ---
 
@@ -182,9 +182,10 @@ ht-degree: 93%
          + [从头开始设计内容](using/email/content-from-scratch.md)
          + [导入内容](using/email/existing-content.md)
          + [对您自己的内容进行编码](using/email/code-content.md)
-         + [使用模板](using/email/email-templates.md)
+         + [使用电子邮件模板](using/email/use-email-templates.md)
       + 设计内容 {#add-content}
          + [使用内容组件](using/email/content-components.md)
+         + [利用可视化片段](using/email/use-visual-fragments.md)
          + [添加链接和跟踪消息](using/email/message-tracking.md)
          + [插入个性化优惠](using/email/add-offers-email.md)
          + [生成文本版本](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 93%
          + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
          + [添加内联样式属性](using/email/inline-styling.md)
    + [预览和测试电子邮件](using/email/preview.md)
-   + [创建内容模板](using/email/content-templates.md)
    + [使用 Experience Manager 模板](using/email/aem-templates.md)
-   + [使用片段](using/email/fragments.md)
    + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 配置电子邮件渠道 {#configure-email}
       + [电子邮件配置入门](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 93%
       + 使用表达式编辑器 {#expression-editor}
          + [关于表达式编辑器](using/personalization/personalization-build-expressions.md)
          + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
-         + [使用已保存的表达式](using/personalization/personalization-library.md)
+         + [使用表达式片段](using/personalization/use-expression-fragments.md)
          + [个性化验证](using/personalization/personalization-validation.md)
       + 辅助函数{#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 93%
       + 个性化用例{#personalization-use-cases}
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
+   + 管理可重用内容 {#reusable-content}
+      + [使用内容模板](using/content-management/content-templates.md)
+      + [使用片段](using/content-management/fragments.md)
    + 动态内容 {#dynamic}
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)

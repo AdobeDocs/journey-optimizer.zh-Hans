@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -469,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>您现在可以创作、使用和管理片段，以快速组合电子邮件和内容模板。片段是预建的可重复使用的组件，可以在跨 Journey Optimizer 营销活动和历程的多个电子邮件中引用，以改进和加快设计过程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>有关更多信息，请参阅<a href="../email/fragments.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/fragments.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>您现在可以创建独立的内容模板，这些模板可供跨历程和营销活动使用，方便快速重复利用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>通过<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>了解如何创建、编辑和使用内容模板。有关更多信息，请参阅<a href="../email/content-templates.md">详细文档</a>。
+<p>通过<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>了解如何创建、编辑和使用内容模板。有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。
 </p>
 </td>
 </tr>
