@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1656'
 ht-degree: 92%
 
 ---
@@ -428,12 +428,56 @@ ht-degree: 92%
             + [创建后备优惠](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [更新后备优惠](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [删除后备优惠](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + 使用 API 创建和管理决策 {#activities-api}
-         + [列出决策](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [查找决策](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [创建决策](using/offers/api-reference/activities-api/activities/create.md)
-         + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
-         + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
+         + 决策 {#decisions-api}
+            + [列出决策](using/offers/api-reference/activities-api/activities/activities-list.md)
+            + [查找决策](using/offers/api-reference/activities-api/activities/lookup.md)
+            + [创建决策](using/offers/api-reference/activities-api/activities/create.md)
+            + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
+            + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
+         + 旧版API {#legacy-api}
+            + [关于旧版API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + 投放位置{#placements}
+               + [列出投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+               + [查找投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+               + [创建投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+               + [更新投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+               + [删除投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+            + 决策规则 {#decision-rules}
+               + [列出决策规则](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+               + [查找决策规则](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+               + [创建决策规则](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [更新决策规则](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+               + [删除决策规则](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+            + 收藏集限定符{#tags}
+               + [列出收藏集限定符](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+               + [查找收藏集限定符](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+               + [创建收藏集限定符](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+               + [更新收藏集限定符](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+               + [删除收藏集限定符](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+            + 个性化优惠 {#personalized-offers}
+               + [列出个性化优惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+               + [查找个性化优惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+               + [创建个性化优惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+               + [更新个性化优惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+               + [删除个性化优惠](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+            + 后备优惠 {#fallback-offers}
+               + [列出后备优惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+               + [查找后备优惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+               + [创建后备优惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [更新后备优惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+               + [删除后备优惠](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+            + 收藏集 {#collections}
+               + [列出收藏集](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+               + [查找收藏集](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+               + [创建收藏集](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+               + [更新收藏集](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+               + [删除收藏集](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+            + 决策 {#decisions-api}
+               + [列出决策](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+               + [查找决策](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+               + [创建决策](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+               + [更新决策](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+               + [删除决策](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
       + 使用 API 投放优惠 {#offer-delivery-api}
          + [优惠投放 API 入门](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
