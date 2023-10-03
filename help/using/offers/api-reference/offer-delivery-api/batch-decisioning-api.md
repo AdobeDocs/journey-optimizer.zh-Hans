@@ -186,4 +186,4 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[！DNL]检查工作负荷状态和提供的选件 [!DNL Batch Decisioning]] API。 欲了解更多信息，请参见 [决策管理概述](../../get-started/starting-offer-decisioning.md).
+通过遵循此API指南，您已使用[！DNL 检查工作负荷状态和提供的选件 [!DNL Batch Decisioning]] API。 欲了解更多信息，请参见 [决策管理概述](../../get-started/starting-offer-decisioning.md).
