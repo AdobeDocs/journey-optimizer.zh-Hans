@@ -8,10 +8,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
-exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
+exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
+source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '695'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 5%
 | 功能 | 权限 |
 |-|-|
 | 营销活动 | **[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。 </br>**[!DNL Publish campaigns]**：发布营销活动的权限。</br>**[!DNL View campaigns]**：对营销活动的只读访问权限。 </br>**[!DNL View campaigns report]**：读取和编辑营销活动报告。 |
+| 报告 | **[!DNL View channel reports]**：读取和编辑渠道报表。 |
 | 渠道配置 | **[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件。</br>**[!DNL Manage alerts]**：为营销活动、消息和权利启用/禁用警报。</br> **[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。 </br>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</br> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息常规设置。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌策略。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。 </br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除短信子域。</br> **[!DNL Manage Seedlist]**：读取、创建、编辑和删除种子列表。 </br> **[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。 </br>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</br>**[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</br> **[!DNL View messages general settings]**：对消息常规设置的只读访问权限。</br> **[!DNL View messages presets]**：对消息预设的只读访问权限。 </br> **[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
 | 仪表板 | **[!DNL View license usage dashboards]**：对许可证使用情况仪表板的只读访问权限。 </br>**[!DNL Manage custom dashboards]**：用于创建新功能板或编辑现有功能板。</br>**[!DNL View custom dashboards]**：对用户定义功能板的只读访问权限。 </br>**[!DNL View standard dashboards]**：对“配置文件”、“目标”和“区段”功能板的只读访问权限。</br>**[!DNL Manage standard dashboards]**：用于创建自定义构件并通过构件库编辑构件架构。 |
 | 数据收集 | **[!DNL Manage datastream]**：读取、创建和编辑数据流。</br>**[!DNL View datastream]**：对数据流的只读访问权限。 |
