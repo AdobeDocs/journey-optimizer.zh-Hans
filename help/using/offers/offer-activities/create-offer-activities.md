@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2225'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,12 @@ ht-degree: 2%
    它们现在排名相同，因此将同时进行评估。 [了解详情](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* 如果 [AI模型](../ranking/ai-models.md) 用于评估标准组，该组中的所有评估标准都必须使用AI排名方法，并且它们必须使用相同的特定AI模型。
+   >
+   >* 只有一个评估标准组可以使用AI模型。 决策范围内的任何其他组必须使用其他排名方法（优先级或公式）。 [了解有关排名方法的更多信息](../offer-activities/configure-offer-selection.md)
 
 1. 要在此决策中为优惠添加其他版面，请使用 **[!UICONTROL 新范围]** 按钮。 对每个决策范围重复上述步骤。
 
