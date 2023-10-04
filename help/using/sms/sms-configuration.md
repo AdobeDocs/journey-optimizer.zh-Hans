@@ -6,9 +6,9 @@ description: 了解如何配置环境以使用Journey Optimizer发送短信
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1008'
 ht-degree: 16%
 
 ---
@@ -61,11 +61,11 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-      * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。  [了解详情](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。  [了解详情](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}。
 
-      * **[!UICONTROL 选择加入消息]**：键入自动发送的自定义响应，作为 **[!UICONTROL 选择加入消息]**.
+      * **[!UICONTROL 选择加入消息]**：输入将作为您的自动发送的自定义响应 **[!UICONTROL 选择加入消息]**.
 
-      * **[!UICONTROL 帮助消息]**：键入自动发送的自定义响应，作为 **[!UICONTROL 帮助消息]**.
+      * **[!UICONTROL 帮助消息]**：输入将作为您的自动发送的自定义响应 **帮助消息**.
 
    * 对象 **[!DNL Twilio]**：
 
@@ -73,13 +73,13 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
       * **[!UICONTROL 帐户SID]** 和 **[!UICONTROL 身份验证令牌]**：访问Twilio控制台仪表板页面的“帐户信息”窗格以查找您的凭据。
 
-      * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 [了解详情](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 [了解详情](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}。
 
    * 对象 **[!DNL Infobip]**：
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL api令牌]**：访问您的Web界面主页或API密钥管理页面以查找您的凭据。 [了解详情](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL api令牌]**：访问您的Web界面主页或API密钥管理页面以查找您的凭据。 [了解详情](https://www.infobip.com/docs/api){target="_blank"}。
 
    ![](assets/sms_7.png)
 
