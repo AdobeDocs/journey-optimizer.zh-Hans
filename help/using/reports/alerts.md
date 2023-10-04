@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
 # 警报入门 {#alerts}
 
-## 警报功能 {#alerting-capabilities}
+## 访问和订阅警报 {#alerting-capabilities}
 
-您可以通过用户界面访问系统警报，或在发生故障时收到电子邮件。 从 **警报** 菜单，您可以查看可用的警报并订阅它们。 当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向您组织中订阅警报消息的任何用户发送警报消息。
+发生失败时，您可以在Journey Optimizer通知中心获取系统警报并接收电子邮件。 从 **警报** 菜单，您可以查看可用的警报并订阅它们。 当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向您组织中订阅警报消息的任何用户发送警报消息。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
