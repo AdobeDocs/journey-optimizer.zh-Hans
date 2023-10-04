@@ -8,49 +8,61 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6386a5ee5a0d1f221beab67f43636c599531736a
+source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 4%
+source-wordcount: '448'
+ht-degree: 1%
 
 ---
 
 # 警报入门 {#alerts}
 
-Journey Optimizer可利用Adobe Experience Platform的警报功能。 这允许您通过用户界面访问系统警报。 您可以查看可用的警报并订阅它们。
+## 警报功能 {#alerting-capabilities}
 
-当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向组织中订阅警报消息的任何用户发送警报消息。
+您可以通过用户界面访问系统警报，或在发生故障时收到电子邮件。 从 **警报** 菜单，您可以查看可用的警报并订阅它们。 当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向您组织中订阅警报消息的任何用户发送警报消息。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-在Adobe Experience Platform中了解关于警报的更多信息 [文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans).
+要了解有关Adobe Experience Platform中警报的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"}.
 
-要了解如何订阅和配置警报，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+在左侧菜单的下方 **管理**，单击 **警报**. 提供了两个针对Journey Optimizer的预配置警报： [历程自定义操作失败](#alert-custom-actions) 警报和 [读取区段触发器不成功](#alert-read-audiences) 警报。 这些警报详见下文。
 
->[!AVAILABILITY]
->
->“读取受众触发器失败”警报的一些设计更改正在进行中，因此此警报暂时暂停，并从用户界面中暂时删除。 发布这些更改后，警报将再次显示，您可以订阅它。
+您可以通过选择 **订阅** 选项来自 **警报** 仪表板。 使用相同的方法取消订阅。
 
-在左侧菜单的下方 **管理**，单击 **警报**. 适用于Journey Optimizer的预配置警报可用。 如果自定义操作失败，此警报将警告您。 我们认为，过去5分钟内在特定自定义操作中发生超过1%的错误属于故障。 每30秒评估一次。
+![](assets/alert-subscribe.png)
 
-![](assets/alerts-custom-action.png)
+您还可以通过以下方式订阅警报 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}但是，警报规则会整理到不同的订阅包中。
 
+如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送，或直接在用户界面右上角的Journey Optimizer通知中心内发送。
 
-<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
-
-![](assets/alerts1.png)-->
-
-如果发生意外行为，将根据用户首选项，通过电子邮件或直接在界面右上角的Journey Optimizer中，向警报的订阅者发送警报通知。
-
-警报解决后，您会收到“已解决”通知。 对于自定义操作警报，发生这种情况有两个原因：
-* 在过去5分钟内，该自定义操作没有任何错误（或低于1%阈值的错误）。
-* 没有配置文件达到该自定义操作。
-
-时间 [在Adobe Experience Platform UI中查看警报规则](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)，您可以单独订阅每个规则。 通过订阅警报时 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)但是，警报规则会整理到不同的订阅包中。 与自定义操作警报相对应的I/O事件订阅名称为“历程自定义操作失败”。
-
-<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".-->
+警报解决后，订阅者会收到“已解决”通知。
 
 >[!WARNING]
 >
->这些警报仅适用于实时历程。 在测试模式下，历程不会触发警报。
+>特定于Adobe Journey Optimizer的警报仅适用于 **实时** 历程。 在测试模式下，历程不会触发警报。
 
+## 历程自定义操作失败 {#alert-custom-actions}
+
+如果自定义操作失败，此警报将警告您。 我们认为，过去5分钟内在特定自定义操作中发生超过1%的错误属于故障。 每30秒评估一次。
+
+![](assets/alerts-custom-action.png)
+
+过去5分钟内，出现以下情况时，将会解决自定义操作警报：
+
+* 该自定义操作没有任何错误（或低于1%阈值的错误），
+
+* 或者，没有任何配置文件达到该自定义操作。
+
+对应于自定义操作警报的I/O事件订阅名称为 **历程自定义操作失败**.
+
+## 读取区段触发器不成功 {#alert-read-audiences}
+
+此警报会在以下情况下警告您 **读取区段** 活动在计划的执行时间后10分钟未处理任何配置文件。 此故障可能是由技术问题或受众为空导致的。
+
+![](assets/alerts1.png)
+
+警报 **读取区段** 活动仅适用于定期历程。 **读取区段** 实时历程中安排运行的活动 **一次** 或 **尽快** 将被忽略。
+
+警报 **读取区段** 在配置文件进入 **读取区段** 节点。
+
+与对应的I/O事件订阅名称 **读取区段** 警报为 **历程读取区段延迟、失败和错误**.
