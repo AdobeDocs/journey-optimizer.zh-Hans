@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、用例、个性化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc2.png)
 
-1. 键入主题并添加用户档案个性化。 使用搜索栏查找用户档案的名字字段。 在主题文本中，将光标放在要插入个性化字段的位置，然后单击 **+** 图标。 单击&#x200B;**保存**。
+1. 输入主题并添加用户档案个性化。 使用搜索栏查找用户档案的名字字段。 在主题文本中，将光标放在要插入个性化字段的位置，然后单击 **+** 图标。 单击&#x200B;**保存**。
 
    ![](assets/perso-uc3.png)
 
