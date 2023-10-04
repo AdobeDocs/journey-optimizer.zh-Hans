@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 使用表达式编辑器时，您可以利用已创建或已保存到当前沙盒的所有表达式片段。
 
->[!NOTE]
->
->了解如何在中创建和管理片段 [本节](../content-management/fragments.md).
+了解如何在中创建和管理片段 [本节](../content-management/fragments.md).
 
 ➡️ [在此视频中了解如何管理、创作和使用片段](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ ht-degree: 0%
 
 1. 然后，您可以像往常一样使用的所有个性化和创作功能自定义和验证内容。 [表达式编辑器](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>如果您创建的表达式片段包含多个换行符并将其用于 [短信](usi..ng/sms/create-sms.md#sms-content) 或 [推送](../push/design-push.md) 内容，将保留换行符。 因此，请确保预览并测试 [短信](../sms/send-sms.md) 或 [推送](../push/send-push.md) 发送之前发送的消息。
+
 ## 中断继承 {#break-inheritance}
 
 向表达式编辑器添加片段ID时，将同步对原始表达式片段所做的更改。
@@ -79,13 +81,4 @@ ht-degree: 0%
 在这种情况下，来自原始片段的继承将被中断。 片段的内容将会复制到编辑器中，并且更改不再同步。
 
 它会变成一个不再链接到原始片段的独立元素；您可以像代码中的任何其他元素一样编辑它。
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
