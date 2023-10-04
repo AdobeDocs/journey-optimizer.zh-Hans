@@ -4,9 +4,9 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 85%
 
 **警报**
 
-* 推出了一种新型的系统警报。现在，您可以在读取受众失败时收到通知。 [了解详情](../reports/alerts.md)。
+* 推出了一种新型的系统警报。现在，您可以在以下情况下收到通知： **读取受众** 活动失败。 [了解详情](../reports/alerts.md)。
 
 **Web 渠道**
 
@@ -117,7 +117,7 @@ ht-degree: 85%
 
 **历程**
 
-复制历程时，您现在可以定义历程副本的名称。 [了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
+* 复制历程时，您现在可以定义历程副本的名称。 [了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ ht-degree: 85%
 
 **电子邮件渠道**
 
-利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址位于Adobe上也是如此 [!DNL Journey Optimizer] 禁止显示列表。 [了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址位于Adobe上也是如此 [!DNL Journey Optimizer] 禁止显示列表。 [了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **短信渠道**
 
@@ -137,15 +137,15 @@ ht-degree: 85%
 
 **直邮渠道**
 
-现在，当直邮提供商的文件传输到服务器时，您便可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
+* 现在，当直邮提供商的文件传输到服务器时，您可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
 
 **报告**
 
-您现在可以将Journey Optimizer报表导出为CSV文件。 在中了解详情 [详细文档](../reports/global-report.md#export-reports) 和 [操作方法视频](../reports/global-report.md#video-csv).
+* 您现在可以将Journey Optimizer报表导出为CSV文件。 在中了解详情 [详细文档](../reports/global-report.md#export-reports) 和 [操作方法视频](../reports/global-report.md#video-csv).
 
 **资源**
 
-通过“资源”的新选项，您可以在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。 [了解详情](../content-management/assets-essentials.md)
+* 通过“资源”的新选项，您可以在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。 [了解详情](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
