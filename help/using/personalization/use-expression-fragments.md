@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您创建的表达式片段包含多个换行符并将其用于 [短信](../sms/create-sms.md#sms-content) 或 [推送](../push/design-push.md) 内容，将保留换行符。 因此，请确保预览并测试 [短信](../sms/send-sms.md) 或 [推送](../push/send-push.md) 发送之前发送的消息。
+>如果您创建的表达式片段包含多个换行符并将其用于 [短信](../sms/create-sms.md#sms-content) 或 [推送](../push/design-push.md) 内容，将保留换行符。 因此，请务必测试 [短信](../sms/send-sms.md) 或 [推送](../push/send-push.md) 发送之前发送的消息。
 
 ## 中断继承 {#break-inheritance}
 
