@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -43,9 +43,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## 使用查询参数 {#using-query-parameters}
+
 在列出资源时，您可以使用查询参数来分页并筛选结果。
+
 ### 分页 {#paging}
+
 分页最常见的查询参数包括：
 
 | 参数 | 描述 | 示例 |

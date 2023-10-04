@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 5%
@@ -34,7 +34,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 ## 使用查询参数 {#using-query-parameters}
 
 在列出资源时，您可以使用查询参数来分页并筛选结果。
+
 ### 分页 {#paging}
+
 分页最常见的查询参数包括：
 
 | 参数 | 描述 | 示例 |

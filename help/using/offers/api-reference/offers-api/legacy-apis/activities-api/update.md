@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '158'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 8%
 
 有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@下表显示了包含*Content-Type*和
+## 接受和内容类型标头 {#accept-and-content-type-headers}
+
+下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
 
 | 标题名称 | 值 |
 | ----------- | ----- |
