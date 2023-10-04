@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
+source-git-commit: 62ae151ddd92904ac514ee85639c9ba3a18beb0e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 1%
 
 ## 访问和订阅警报 {#alerting-capabilities}
 
-发生失败时，您可以在Journey Optimizer通知中心获取系统警报并接收电子邮件。 从 **警报** 菜单，您可以查看可用的警报并订阅它们。 当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向您组织中订阅警报消息的任何用户发送警报消息。
+发生失败时，您可以在Journey Optimizer通知中心获取系统警报（应用程序内警报）和/或接收电子邮件。
+
+从 **警报** 菜单，您可以查看可用的警报并订阅它们。 当您的操作达到特定条件集时（例如系统违反阈值时可能会出现问题），将向您组织中订阅警报消息的任何用户发送警报消息。
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 
 您还可以通过以下方式订阅警报 [I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. 警报规则将整理到不同的订阅包中。 下文详细介绍了与特定Journey Optimizer警报对应的事件订阅。
 
-如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送，或直接在用户界面右上角的Journey Optimizer通知中心内发送。
+如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送和/或直接在用户界面的右上角的Journey Optimizer通知中心内发送。 默认情况下，仅启用应用程序内警报。 要启用电子邮件警报，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 警报解决后，订阅者会收到“已解决”通知。
 
