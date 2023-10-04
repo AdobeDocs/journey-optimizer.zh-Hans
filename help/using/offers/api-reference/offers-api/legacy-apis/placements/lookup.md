@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
 
 ---
+
 
 # 查找投放位置 {#look-up-placement}
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 **API格式**
 
 ```http
-GET /{ENDPOINT_PATH}/placements/{ID}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
 | 参数 | 描述 | 示例 |

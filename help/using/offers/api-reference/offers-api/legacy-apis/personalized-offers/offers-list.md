@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 6%
+source-wordcount: '262'
+ht-degree: 5%
 
 ---
 
@@ -22,13 +22,15 @@ ht-degree: 6%
 **API格式**
 
 ```http
-GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
 ```
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=2` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 个性化优惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_PERSONALIZED_OFFER}` | 定义与个性化优惠关联的架构。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
+| `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=1` |
 
 **请求**
 

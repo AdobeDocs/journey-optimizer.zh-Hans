@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 9%
+source-wordcount: '164'
+ht-degree: 10%
 
 ---
 
@@ -67,8 +67,6 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 | `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
 | `path` | 要更新的参数的路径。 |
 | `value` | 要用于更新参数的新值。 |
-ens35577将此对话标记为已解决。
-显示已解析项
 
 **响应**
 

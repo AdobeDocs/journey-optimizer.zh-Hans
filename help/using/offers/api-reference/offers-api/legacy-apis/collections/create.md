@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 10%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
+
 
 # 创建收藏集 {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 持久性API的端点路径。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **请求**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的收藏集的信息，包括其 `id`. 您可以使用 `id` 在后续步骤中更新或删除您的收藏集，或在后续教程中创建决策。
+成功的响应会返回有关新创建的收藏集的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的收藏集。 您可以使用您的独特收藏集 `@id` 在稍后的教程中创建决策。
 
 ```json
 {
