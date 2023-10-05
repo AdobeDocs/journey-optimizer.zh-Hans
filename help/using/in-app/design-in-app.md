@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 5%
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
 # 设计应用程序内内容 {#design-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_content"
+>title="定义应用程序内内容"
+>abstract="自定义应用程序内消息的内容和样式。 您还可以添加媒体和操作按钮，使您的消息更加引人入胜和有效。"
 
 您可以编辑应用程序内内容以配置体验选项：
 
@@ -31,6 +36,11 @@ ht-degree: 5%
 创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
 
 ## 消息布局 {#message-layout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_layout"
+>title="定义应用程序内内容"
+>abstract="消息布局为您提供用于构建消息框架的常用模板。 自定义布局提供上传或撰写自定义HTML消息的选项。"
 
 从 **[!UICONTROL 消息布局]** 部分，根据您的消息传送需求从四个不同的布局选项中选择一个。
 
@@ -58,9 +68,14 @@ ht-degree: 5%
 
 ## “内容”选项卡 {#content-tab}
 
-从 **内容** 选项卡上，您可以定义并个性化：通知的内容和样式 **关闭** 按钮。 您还可以向应用程序内通知添加媒体，并在此选项卡中添加操作按钮。
+从 **内容** 选项卡上，您可以定义并个性化通知的内容和样式 **关闭** 按钮。 您还可以向应用程序内通知添加媒体，并在此选项卡中添加操作按钮。
 
 ### “关闭”按钮 {#close-button}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_close"
+>title="选择“关闭”按钮的“样式”。"
+>abstract="关闭按钮部分为您提供了选择消息关闭按钮变体的选项以及上传自定义图像的选项。"
 
 ![](assets/in_app_content_2.png)
 
@@ -80,6 +95,11 @@ ht-degree: 5%
 
 ### 媒体 {#add-media}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_media"
+>title="将媒体添加到应用程序内消息中，为最终用户创造有趣的体验。"
+>abstract="提供指向内容的直接链接或使用资源选择器在Asset Essentials中选择要添加到消息中的媒体。"
+
 此 **[!UICONTROL 媒体]** 字段允许您将媒体添加到应用程序内消息，从而为最终用户创造有趣的体验。
 
 ![](assets/in_app_content_3.png)
@@ -94,6 +114,11 @@ ht-degree: 5%
 +++
 
 ### 页眉和正文 {#title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_content"
+>title="要撰写消息，请在标题和正文字段中输入内容。"
+>abstract="可以在此处添加标题文本和正文文本。 要包含个性化令牌，请打开个性化对话框。"
 
 要撰写消息，请在 **[!UICONTROL 页眉]** 和 **[!UICONTROL 正文]** 字段。
 
@@ -112,6 +137,11 @@ ht-degree: 5%
 +++
 
 ### 按钮 {#add-buttons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_buttons"
+>title="添加按钮以方便用户与应用程序内消息进行交互。"
+>abstract="利用此部分，可在消息中添加行动号召按钮。 您可以为每个按钮包含自定义文本和目标。"
 
 添加按钮以方便用户与应用程序内消息进行交互。
 
@@ -147,6 +177,11 @@ ht-degree: 5%
 
 ### 预览 {#preview-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_preview"
+>title="预览您的应用程序内消息。"
+>abstract="这是在将消息发送到设备的消息摘要时显示的预览图像。"
+
 ![](assets/in_app_content_6.png)
 
 此 **[!UICONTROL 应用程序预览]** 允许您在应用程序内消息后添加背景：
@@ -159,6 +194,11 @@ ht-degree: 5%
 
 ### 版式 {#layout-options}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="定义应用程序内消息的消息布局。"
+>abstract="此部分允许您向应用程序内消息添加背景。 这要求启用UI接管。"
+
 ![](assets/in_app_content_7.png)
 
 此 **[!UICONTROL 背景图像]** 字段用于向应用程序内消息添加背景：
@@ -168,6 +208,11 @@ ht-degree: 5%
 * 背景颜色。
 
 ### 消息 {#message-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_advanced"
+>title="定义消息高级设置。"
+>abstract="此部分允许您增强应用程序内内容的个性化设置，尤其是当您启用了高级格式设置时。"
 
 ![](assets/in_app_content_8.png)
 
