@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 95%
+source-wordcount: '1402'
+ht-degree: 92%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 自定义操作 {#custom-actions-g}
 
-* 为所有自定义操作定义了超过30秒150,000次调用的上限。 此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。
+* 为所有自定义操作定义了超过30秒150,000次调用的上限。 此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。 您需要通过定义适当的读取率（使用自定义操作时为5000个配置文件/秒），在基于受众的历程中考虑这一点。 如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。 请参阅[此页](../configuration/external-systems.md)。
 * 自定义操作 URL 不支持动态参数。
 * 支持 POST、PUT 和 GET 调用方法
 * 查询参数或标头的名称不得以“.”或“$”开始
