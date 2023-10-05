@@ -188,7 +188,7 @@ ht-degree: 30%
 
    ![](assets/audiences-rank.png)
 
-### 拆分活动 {#split}
+### “拆分”活动 {#split}
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"

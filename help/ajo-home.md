@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -145,10 +145,10 @@ ht-degree: 100%
       <a href="using/content-management/assets-essentials.md">资源</a>
     </li>
     <li>
-      <a href="using/content-management/content-templates.md">内容模板</a>
+      <a href="using/email/content-templates.md">内容模板</a>
     </li>
       <li>
-      <a href="using/content-management/fragments.md">片段</a>
+      <a href="using/email/fragments.md">片段</a>
     </li>
     <p>
     <p>数据管理</p>

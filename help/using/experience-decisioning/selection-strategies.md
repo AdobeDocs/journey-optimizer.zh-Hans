@@ -8,7 +8,8 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 3%
@@ -117,4 +118,3 @@ ht-degree: 3%
 您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 了解如何在中创建AI模型 [本节](ranking.md).
 
 创建AI模型后，您可以在选择策略中使用该模型。 如果多个选件符合条件，则经过训练的模型系统将确定应首先为此选择策略提供哪个选件。
-

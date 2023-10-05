@@ -172,7 +172,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
->对象 &lt;expression1&gt; 和 &lt;expression2&gt; 没有数据类型控件。
+对象 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
 
 结果是布尔值。
 

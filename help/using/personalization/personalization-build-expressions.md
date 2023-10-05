@@ -12,11 +12,11 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
-# 表达式编辑器入门 {#build-personalization-expressions}
+# 开始使用表达式编辑器 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 10%
+source-wordcount: '140'
+ht-degree: 9%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **响应**
 
-成功的响应会返回有关新创建的收藏集的信息，包括其 `id`. 您可以使用 `id` 在后续步骤中更新或删除您的收藏集，或在后续教程中创建决策。
+成功的响应会返回有关新创建的收藏集的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的收藏集。 您可以使用您的独特收藏集 `@id` 在稍后的教程中创建决策。
 
 ```json
 {

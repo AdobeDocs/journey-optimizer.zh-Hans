@@ -8,7 +8,8 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 14%
@@ -79,5 +80,3 @@ ht-degree: 14%
 >[!NOTE]
 >
 >数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
-
-

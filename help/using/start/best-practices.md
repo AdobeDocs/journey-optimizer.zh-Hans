@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 4%
@@ -65,6 +66,3 @@ Adobe Journey Optimizer利用Identity Service来合并用户档案并个性化�
 * 如果在多个历程（同意检查、抑制）中重复存在相同的条件，请考虑在区段定义中移动它们。 例如，如果您有一个条件来检查多个历程中的“电子邮件地址不为空”，则将该条件作为区段定义的一部分包含。
 * 如果您的历程存在多个条件，需要拆分受众才能查看每个步骤的数字，请考虑使用更适合分析的Customer Journey Analytics或其他报表解决方案。
 * 如果接近画布上的节点限制，请考虑使用动态参数或内容合并操作以提供正确的内容，而不是显式节点。
-
-
-

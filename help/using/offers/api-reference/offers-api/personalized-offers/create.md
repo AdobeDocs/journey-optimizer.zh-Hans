@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 10%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 10%
 | 标题名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API格式**
 
@@ -112,4 +113,4 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 ## 限制 {#limitations}
 
-移动设备当前不支持优惠呈现和一些优惠限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 此 `Capping` 字段值指定某个选件在所有用户中可以显示的次数。 有关更多详细信息，请参阅 [优惠资格规则和限制文档](../../../../offers/offer-library/creating-personalized-offers.md).
+移动设备当前不支持优惠呈现和一些优惠限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 此 `Capping` 字段值指定某个选件在所有用户中可以显示的次数。 有关更多详细信息，请参阅 [优惠资格规则和限制文档](../../../offer-library/creating-personalized-offers.md).

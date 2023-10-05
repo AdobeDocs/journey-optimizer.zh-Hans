@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '157'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **响应**
 
-成功的响应会返回决策规则的更新详细信息，包括其唯一的决策规则 `id`.
+成功的响应会返回决策规则的更新详细信息，包括其唯一实例ID和决策规则 `@id`.
 
 ```json
 {
