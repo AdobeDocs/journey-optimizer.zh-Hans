@@ -4,14 +4,20 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4221'
 ht-degree: 84%
 
 ---
 
 # 发行说明 {#release-notes}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card1"
+>title="新增功能？"
+>abstract="**Adobe Journey Optimizer** 不断提供新功能、现有功能的增强以及错误修复。 会在每月的最后一周将所有更改整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。
 

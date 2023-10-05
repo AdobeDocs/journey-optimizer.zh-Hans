@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 96%
 
 ---
 
 # 营销活动入门 {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card3"
+>title="创建活动"
+>abstract="使用 **Adobe Journey Optimizer** 使用各种渠道向特定受众投放一次性内容。 使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。"
+
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"

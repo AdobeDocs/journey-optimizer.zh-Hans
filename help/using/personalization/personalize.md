@@ -9,14 +9,20 @@ role: Data Engineer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 25%
+source-wordcount: '411'
+ht-degree: 22%
 
 ---
 
 # 个性化入门{#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card5"
+>title="个性化体验"
+>abstract="使用 **Adobe Journey Optimizer** 利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 这可以是他们的名字、兴趣、居住地、购买的内容等等。"
+
 
 发现 [!DNL Adobe Journey Optimizer] 个性化功能，利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 这可以是他们的名字、兴趣、居住地、购买的内容等等。
 
