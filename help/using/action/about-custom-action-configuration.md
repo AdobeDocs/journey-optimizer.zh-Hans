@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 12%
@@ -132,7 +132,7 @@ ht-degree: 12%
 
 1. 在 **[!UICONTROL 请求]** 部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
-1. 在 **[!UICONTROL 响应]** 部分中，粘贴由调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在客户操作中利用API调用响应的详细信息，请参阅 [此页面](../action/action-response.md).
+1. 在 **[!UICONTROL 响应]** 部分中，粘贴由调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅 [此页面](../action/action-response.md).
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ ht-degree: 84%
 
 
 
-* 现在，GA支持自定义操作响应。 此功能允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将每个端点超过30秒的所有海关操作限制为15,000次调用。 [了解详情](../action/action-response.md)
+* 现在，GA支持自定义操作响应。 此功能允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将每个端点超过30秒的所有海关操作限制为150,000次调用。 [了解详情](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
