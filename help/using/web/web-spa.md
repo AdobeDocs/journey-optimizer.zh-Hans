@@ -19,8 +19,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
->title="将更改应用于所选视图"
->abstract="更改将仅应用于选定的视图。 可以使用以下工具发现视图 **浏览** 模式并导航到它们。 找不到您要查找的视图？"
+>title="将更改应用于选定视图"
+>abstract="更改将仅应用于选定视图。可以使用&#x200B;**浏览**&#x200B;模式来发现视图，并导航到这些视图。找不到您所需的视图？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 **单页应用程序** (SPA)现在可以在Web设计器可视编辑器中创作。 这允许您选择特定的 **查看次数** 要将网页修改应用于。

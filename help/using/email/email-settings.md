@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
 source-wordcount: '2258'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="覆盖禁止列表优先级"
->abstract="您可以决定向用户档案发送事务型消息，即使其电子邮件地址因垃圾邮件投诉而位于Adobe Journey Optimizer禁止列表上也是如此。 默认禁用此选项。"
+>abstract="您可以决定向配置文件发送交易型消息，即使其电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表。默认禁用此选项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理禁止列表"
 
 >[!IMPORTANT]

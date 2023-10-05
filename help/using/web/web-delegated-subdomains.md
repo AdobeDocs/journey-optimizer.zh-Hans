@@ -10,7 +10,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="委派 Web 子域"
->abstract="如果您将来自 Adobe Experience Manager Assets Essentials 的内容添加到您的 Web 体验，则必须设置将用于发布此内容的子域。在已委派给Adobe的子域中进行选择或配置新子域。"
+>abstract="如果您将来自 Adobe Experience Manager Assets Essentials 的内容添加到您的 Web 体验，则必须设置将用于发布此内容的子域。在已委派给 Adobe 的子域中进行选择或配置新的子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -100,7 +100,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要配置新的Web子域，您需要复制Journey Optimizer界面中显示的Adobe名称服务器信息，并将其粘贴到域托管解决方案中，以生成匹配的DNS记录。 检查成功后，子域已准备好用于发布来自Experience Manager Assets Essentials库的内容。"
+>abstract="要配置新的 Web 子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，并将该信息粘贴到域托管解决方案中以生成匹配的 DNS 记录。检查成功后，子域便可用于发布来自 Experience Manager Assets Essentials 库的内容。"
 
 要配置新子域，请执行以下步骤。
 

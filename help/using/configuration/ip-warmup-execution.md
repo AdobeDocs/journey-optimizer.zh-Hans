@@ -33,25 +33,25 @@ ht-degree: 18%
 
 一旦您拥有 [创建了IP预热计划](ip-warmup-plan.md) 并上传与可投放性顾问一起准备的文件，您可以定义阶段并在计划中运行。
 
-每个阶段都包含多次运行，您可以为其分配一个营销活动。
+每个阶段均包含多次运行，您可以为它分配一个营销活动。
 
 ## 定义阶段 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择要从当前阶段中排除的其他营销活动的受众。这是为了防止先前从其他阶段或其他IP预热计划联系的用户档案再次成为目标。"
+>abstract="选择要从当前阶段中排除的其他营销活动的受众。这是为了防止之前在其他阶段或其他 IP 预热计划中联系过的配置文件再次成为目标。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
->abstract="选择要从当前阶段中排除的域。域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
+>abstract="选择要从当前阶段中排除的域。域排除需要非执行阶段，因此，您可能必须拆分运行阶段以添加排除。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
 >title="定义计划的阶段"
->abstract="每个阶段都包含多次运行，您可以为其分配一个营销活动。"
+>abstract="每个阶段均包含多次运行，您可以为它分配一个营销活动。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -112,27 +112,27 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="定义每次运行"
->abstract="定义并激活所有阶段的每次运行。"
+>abstract="为所有阶段定义并激活每次运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="根据参与情况过滤"
->abstract="此列是一个过滤器，仅定向过去20天内与您的品牌互动的用户。 您也可以通过 **编辑运行** 选项。"
+>title="按参与过滤"
+>abstract="例如，此列是一个过滤器，它仅针对过去 20 天内与您的品牌互动的用户。您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="设置时间窗口"
->abstract="您可以定义一个时间范围，在分段作业出现任何延迟时，可以在其中执行IP预热活动。"
+>title="设置时间范围"
+>abstract="您可以定义一个时间范围，在此期间，如果分段作业有任何延迟，则可以执行 IP 预热营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="取消运行，但存在受众错误"
->abstract="如果为运行评估受众后，符合条件的配置文件少于目标配置文件，则选择此选项可取消运行。"
+>title="因受众错误取消运行"
+>abstract="选择此选项后，如果在针对该运行评估受众后，合格的配置文件数少于目标配置文件数，则会取消运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="查看符合条件的配置文件"
->abstract="此列显示符合条件的配置文件的数量。 在对受众进行运行评估后，如果定向的用户档案多于符合条件的用户档案，则仍会执行运行，除非 **因错误而暂停** 选项。 在这种情况下，将取消运行。"
+>title="查看合格的配置文件"
+>abstract="此列显示合格的配置文件数。在针对运行评估受众后，如果目标配置文件数多于合格的配置文件数，则运行仍将执行，除非启用了&#x200B;**因错误导致暂停**&#x200B;选项。在此情况下，将取消运行。"
 
 1. 为每次运行选择计划。
 

@@ -23,7 +23,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="激活 IP 预热计划选项"
->abstract="选择此选项后，可以在IP预热计划中使用活动。 然后，促销活动计划将由与之关联的IP预热计划驱动。"
+>abstract="选择此选项后，可以在 IP 预热计划中使用营销活动。之后，营销活动计划将由与其关联的 IP 预热计划驱动。"
 
 >[!BEGINSHADEBOX]
 
