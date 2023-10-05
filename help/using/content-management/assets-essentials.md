@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets， essentials， experience manager，集成
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
+source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 ## 先决条件{#assets-prerequisites}
 
-使用前 [!DNL Adobe Experience Manager Assets Essentials]，您必须将用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 有关更多信息，请参阅 [Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"}.
+使用前 [!DNL Adobe Experience Manager Assets Essentials]，您必须将用户添加到 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 有关更多信息，请参阅 [Assets Essentials文档](https://experienceleague.corp.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 [!DNL Adobe Experience Manager Assets Essentials]。在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"} 部分中了解详情。
