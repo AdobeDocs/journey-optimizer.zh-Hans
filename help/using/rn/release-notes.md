@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '4086'
-ht-degree: 86%
+source-wordcount: '4190'
+ht-degree: 84%
 
 ---
 
@@ -99,14 +99,13 @@ ht-degree: 86%
 
 此版本包含下方列出的改进。
 
-<!--**Personalization**
+**个性化**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+* 除了可视片段之外，现在还可以通过表达式编辑器从Journey Optimizer界面创建、保存和重用表达式片段。 表达式片段替换以前保存的表达式。 [了解详情](../personalization/use-expression-fragments.md)
 
-<!--
-**Alerting**
+**警报**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* 推出了一种新型的系统警报。现在，您可以在以下情况下收到通知： **读取受众** 活动失败。 [了解详情](../reports/alerts.md)。
 
 **Web 渠道**
 
@@ -118,17 +117,18 @@ ht-degree: 86%
 
 **历程**
 
-复制历程时，您现在可以定义历程副本的名称。 [了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
+* 复制历程时，您现在可以定义历程副本的名称。 [了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
+
+* 现在，GA支持自定义操作响应。 此功能允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将每个端点超过30秒的所有海关操作限制为15,000次调用。 [了解详情](../action/action-response.md)
 <!--
-* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **电子邮件渠道**
 
-利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址位于Adobe上也是如此 [!DNL Journey Optimizer] 禁止显示列表。 [了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址位于Adobe上也是如此 [!DNL Journey Optimizer] 禁止显示列表。 [了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **短信渠道**
 
@@ -138,15 +138,15 @@ ht-degree: 86%
 
 **直邮渠道**
 
-现在，当直邮提供商的文件传输到服务器时，您便可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
+* 现在，当直邮提供商的文件传输到服务器时，您可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
 
 **报告**
 
-您现在可以将Journey Optimizer报表导出为CSV文件。 在中了解详情 [详细文档](../reports/global-report.md#export-reports) 和 [操作方法视频](../reports/global-report.md#video-csv).
+* 您现在可以将Journey Optimizer报表导出为CSV文件。 在中了解详情 [详细文档](../reports/global-report.md#export-reports) 和 [操作方法视频](../reports/global-report.md#video-csv).
 
 **资源**
 
-通过“资源”的新选项，您可以在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。 [了解详情](../content-management/assets-essentials.md)
+* 通过“资源”的新选项，您可以在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。 [了解详情](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
@@ -469,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>您现在可以创作、使用和管理片段，以快速组合电子邮件和内容模板。片段是预建的可重复使用的组件，可以在跨 Journey Optimizer 营销活动和历程的多个电子邮件中引用，以改进和加快设计过程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>有关更多信息，请参阅<a href="../email/fragments.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/fragments.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>您现在可以创建独立的内容模板，这些模板可供跨历程和营销活动使用，方便快速重复利用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>通过<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>了解如何创建、编辑和使用内容模板。有关更多信息，请参阅<a href="../email/content-templates.md">详细文档</a>。
+<p>通过<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hans">此视频</a>了解如何创建、编辑和使用内容模板。有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。
 </p>
 </td>
 </tr>
