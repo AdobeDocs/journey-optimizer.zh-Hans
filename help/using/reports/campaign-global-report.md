@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 4%
+source-wordcount: '2955'
+ht-degree: 3%
 
 ---
 
@@ -45,6 +45,11 @@ ht-degree: 4%
 ## “营销活动”选项卡 {#campaign-global}
 
 ### 交付 {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="营销活动的统计数据"
+>abstract="促销活动的统计小组件会详细列出与促销活动相关的主要信息，例如输入的用户档案和交付的操作。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## “应用程序内”选项卡 {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="应用程序内性能"
+>abstract="应用程序内性能KPI可提供有关访客与应用程序内消息互动程度的基本信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="按类型列出的交互"
+>abstract="按类型划分的交互图表和表通过跟踪任何点击、取消或交互，详细介绍了用户如何与您的应用程序内消息进行交互。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="应用程序内摘要"
+>abstract="应用程序内摘要图表说明了应用程序内展示和交互在指定时段内的进展情况。"
+
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 应用程序内]** 选项卡详细列出了与您的营销活动中发送的应用程序内投放相关的主要信息。
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 交互率]**：与应用程序内消息互动的百分比。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
 
-此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
-
 此 **[!UICONTROL 按类型列出的交互]** 图表和表详细介绍了用户如何通过跟踪任何点击、解除或交互来与您的应用程序内消息进行交互。
+
+此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
 +++
 
 ## “推送通知”选项卡 {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="推送通知 — 发送统计数据"
+>abstract="“推送通知发送统计数据”表汇总了有关推送通知的基本数据，例如“目标”或“已传送”消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="推送通知 — 跟踪统计数据"
+>abstract="推送跟踪统计信息提供有关投放的收件人活动的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="推送通知 — 发送摘要"
+>abstract="“推送通知发送摘要”图形可显示可用于已发送推送通知的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="推送通知 — 排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="推送通知 — 错误原因"
+>abstract="“错误原因”图形和表允许您识别在投放期间发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="推送通知 — 按平台细分"
+>abstract="“按平台细分”图形和表格根据收件人的操作系统提供了推送通知成功与否的细分。"
+
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了与您的营销活动中发送的推送投放相关的主要信息。
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)应用程序内性能KPI可详细列出与访客对应用程序内消息的参与度相关的主要信息。
 
 +++了解有关可用于推送报表的不同量度和小组件的更多信息。
 
-此 **[!UICONTROL 推送通知 — 发送统计数据]** 该表通过图表和KPI详细列出了与推送通知相关的主要信息：
+此 **[!UICONTROL 推送通知 — 发送统计数据]** 该表详细列出了与推送通知相关的主要信息
 
 * **[!UICONTROL 已定位]**：投放分析期间处理的消息总数。
 
@@ -295,14 +345,44 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 * **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
-此 **[!UICONTROL 错误原因]** 利用图表和表格，可查看在交付过程中发生的错误。
+此 **[!UICONTROL 错误原因]** 图表和表格允许您查看在交付过程中发生的错误。
 
 此 **[!UICONTROL 排除的原因]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的不同原因。
 
-此 **[!UICONTROL 按平台跟踪]**， **[!UICONTROL 按平台发送]** 和 **[!UICONTROL 按平台细分]** 图表和表格会根据收件人的操作系统详细描述推送通知的成功情况。
+此 **[!UICONTROL 按平台细分]** 图表和表会根据收件人的操作系统详细描述推送通知的成功情况。
 +++
 
 ## “短信”选项卡 {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="短信 — 发送统计数据"
+>abstract="SMS发送统计数据表汇总了有关SMS消息的基本数据，例如定向或投放的消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="短信 — 错误原因"
+>abstract="短信 — 错误原因图表和表允许您识别投放期间发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="短信 — 按日期列出的性能"
+>abstract="按日期划分的短信表现构件通过图形呈现方式提供有关消息的关键信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="短信 — 排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="短信 — 退回原因"
+>abstract="“退回原因”图形和表包含与退回消息相关的可用数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="短信 — 按链接显示的点击次数"
+>abstract="短信 — 按链接显示的点击量小组件提供了关于访客与消息中URL参与度的基本见解"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 短信]** 选项卡详细列出了与您的营销活动中发送的短信投放相关的主要信息。
 
@@ -330,13 +410,28 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
 
-此 **[!UICONTROL 排除原因]**， **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 利用图形和表格，可查看在投放期间发生了哪些错误和排除项。
+此 **[!UICONTROL 排除原因]** 和 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 利用图形和表格，可查看在投放期间发生了哪些错误和排除项。
 
-此 **[!UICONTROL 短信 — 按链接显示的点击次数]** 和 **[!UICONTROL 短信 — 跟踪统计数据]** 小组件详细介绍了与访客对您的URL的参与度相关的主要信息。
+此 **[!UICONTROL 短信 — 按链接显示的点击次数]** 小组件提供了与访客对您的URL的参与度相关的主要信息的详细信息。
 
 +++
 
 ## Web选项卡 {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Web性能"
+>abstract="Web性能KPI提供关于访客与Web体验互动情况的全面信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Web摘要"
+>abstract="Web摘要图形说明了在指定时间段内，Web体验（包括展示次数、独特展示次数和交互）的进展情况。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="按元素显示的交互"
+>abstract="“按元素列出的交互”表提供了有关访客与网页上不同元素的参与度的关键信息。"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL Web]** 选项卡详细列出了与您的网页相关的主要信息。
 
@@ -358,6 +453,21 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++
 
 ## 直邮选项卡 {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="直邮 — 发送统计数据"
+>abstract="“直邮发送统计数据”表汇总了有关直邮消息的基本数据，例如“目标”消息或“已投放”消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="直邮 — 错误原因"
+>abstract="直邮 — 错误原因图表和表允许您识别投放期间发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="直邮 — 排除的原因"
+>abstract="直邮排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 直邮]** 选项卡详细列出了与直邮投放相关的主要信息。
 

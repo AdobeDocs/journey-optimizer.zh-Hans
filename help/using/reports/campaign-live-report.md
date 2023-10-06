@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 6%
+source-wordcount: '1859'
+ht-degree: 4%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 6%
 
 有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅 [此页面](live-report.md#list-of-components-live).
 
-## “营销活动”选项卡 {#campaign-global}
+## “营销活动”选项卡 {#campaign-live}
 
-### 交付 {#delivery-global}
+### 交付 {#delivery-live}
 
 此 **[!UICONTROL 营销活动统计数据]** 构件详细列出了与您的营销活动相关的主要信息：
 
@@ -103,6 +103,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## “应用程序内”选项卡 {#inapp-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_performance"
+>title="应用程序内性能"
+>abstract="应用程序内性能KPI可提供有关访客在过去24小时内与应用程序内消息互动的重要信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_interactions"
+>title="按类型列出的交互"
+>abstract="按类型划分的交互图表和表通过跟踪过去24小时内的任何点击、关闭或交互，详细介绍了用户如何与您的应用程序内消息进行交互。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_inapp_summary"
+>title="应用程序内摘要"
+>abstract="应用程序内摘要图表说明了过去24小时内应用程序内展示和交互的进展情况。"
+
 来自您的营销活动 **[!UICONTROL 实时报告]**， **[!UICONTROL 应用程序内]** 选项卡详细列出了与您的营销活动中发送的应用程序内投放相关的主要信息。
 
 +++了解有关可用于应用程序内报表的不同量度和小组件的更多信息。
@@ -121,13 +136,43 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## “推送通知”选项卡 {#push-live}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_performance"
+>title="推送通知 — 发送性能"
+>abstract="“推送通知发送性能”图概述了有关推送通知的基本数据，例如过去24小时内的错误或投放的消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_statistics"
+>title="推送通知 — 统计数据"
+>abstract="“推送统计信息”表提供过去24小时内投放的收件人活动数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_sending_summary"
+>title="推送通知 — 发送摘要"
+>abstract="推送通知发送摘要图形可显示过去24小时内已发送推送通知的可用数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_excluded_reasons"
+>title="推送通知 — 排除的原因"
+>abstract="排除的原因图表和表说明了导致用户配置文件从目标受众中排除并在过去24小时内不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_error_reasons"
+>title="推送通知 — 错误原因"
+>abstract="通过“错误原因”图形和表格，您可以识别在投放期间过去24小时内发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_push_breakdown_platform"
+>title="推送通知 — 按平台细分"
+>abstract="“按平台细分”图形和表格根据收件人的操作系统提供了过去24小时内推送通知成功情况的细分。"
+
 来自您的营销活动 **[!UICONTROL 实时报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了与您的营销活动中发送的推送投放相关的主要信息。
 
 ![](assets/campaign_report_live_2.png)
 
 +++了解有关可用于推送报表的不同量度和小组件的更多信息。
 
-**[!UICONTROL 推送通知发送性能]**， **[!UICONTROL 推送通知摘要]** 和 **[!UICONTROL 发送指标 — 按推送]** 构件详细列出与报文相关的主要信息：
+**[!UICONTROL 推送通知发送性能]**， **[!UICONTROL 推送通知摘要]** 和 **[!UICONTROL 推送通知 — 统计数据]** 构件详细列出与报文相关的主要信息：
 
 * **[!UICONTROL 已发送]**：投放的发送总数。
 
@@ -151,6 +196,31 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 +++
 
 ## “短信”选项卡 {#sms-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_statistics"
+>title="短信 — 统计数据"
+>abstract="SMS发送统计信息表汇总了有关SMS消息的基本数据，例如过去24小时内的定向或投放消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_performance"
+>title="短信 — 按日期列出的性能"
+>abstract="按日期划分的短信表现构件以图形呈现方式提供过去24小时内有关您消息的关键信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_error_reasons"
+>title="短信 — 错误原因"
+>abstract="短信 — 错误原因图表和表允许您识别投放过程中过去24小时内发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_excluded_reasons"
+>title="短信 — 排除的原因"
+>abstract="排除的原因图表和表说明了导致用户配置文件从目标受众中排除并在过去24小时内不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_sms_bounces_reasons"
+>title="短信 — 退回原因"
+>abstract="“退回原因”图表和表包含过去24小时内与退回消息相关的可用数据。"
 
 来自您的营销活动 **[!UICONTROL 实时报告]**， **[!UICONTROL 短信]** 选项卡详细列出了与您的营销活动中发送的短信投放相关的主要信息。
 
@@ -185,6 +255,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## Web选项卡 {#web-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_performance"
+>title="Web性能"
+>abstract="Web性能KPI提供关于访客过去24小时内与您的Web体验的互动情况的全面信息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_summary"
+>title="Web摘要"
+>abstract="Web摘要图形说明了您的Web体验从过去24小时的进展情况，包括展示次数、独特展示次数和交互。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_web_interactions"
+>title="按元素显示的交互"
+>abstract="“按元素列出的交互”表提供了有关访客在过去24小时内与网页上不同元素的参与度的关键信息。"
+
 来自您的营销活动 **[!UICONTROL 实时报告]**， **[!UICONTROL Web]** 选项卡详细列出了与您的网页相关的主要信息。
 
 +++了解更多可用于Web报表的不同量度和小组件。
@@ -202,7 +287,22 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## 直邮选项卡 {#direct-mail-tab}
 
-来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 直邮]** 选项卡详细列出了与直邮投放相关的主要信息。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_sending_statistics"
+>title="直邮 — 发送统计数据"
+>abstract="“直邮发送统计数据”表汇总了过去24小时内有关直邮消息的基本数据，例如“目标”消息或“已投放”消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_error_reasons"
+>title="直邮 — 错误原因"
+>abstract="直邮 — 错误原因图表和表允许您识别过去24小时内发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_direct_excluded_reasons"
+>title="直邮 — 排除的原因"
+>abstract="直邮排除的原因图表和表说明了导致用户档案从目标受众中排除以及最近24小时内未接收消息的各种因素。"
+
+来自您的营销活动 **[!UICONTROL 实时报告]**， **[!UICONTROL 直邮]** 选项卡详细列出了与直邮投放相关的主要信息。
 
 ![](assets/direct-mail-report_2.png)
 
