@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 3%
 
 ---
@@ -41,18 +41,18 @@ ht-degree: 3%
 
 1. 在数据管理菜单部分，单击 **[!UICONTROL 架构]**.
    ![](assets/test-profiles-0.png)
-1. 单击 **[!UICONTROL 创建架构]**，然后选择架构类型，例如 **XDM个人资料**.
+1. 单击 **[!UICONTROL 创建架构]**，在右上方，选择架构类型，例如 **个人资料** 并单击 **下一个**.
    ![](assets/test-profiles-1.png)
-1. 选择相应的字段组。 确保添加 **配置文件测试详细信息** 字段组。
+1. 输入架构的名称，然后单击 **完成**.
+   ![](assets/test-profiles-1-bis.png)
+1. 在 **字段组** 部分，单击左侧 **添加** 并选择相应的字段组。 确保添加 **配置文件测试详细信息** 字段组。
    ![](assets/test-profiles-1-ter.png)
 完成后，单击 **[!UICONTROL 添加字段组]**：字段组的列表显示在架构概述屏幕上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* 单击架构的名称可更改并更新其属性。
-   >
-   >* 单击 **[!UICONTROL 添加]** 字段组部分的按钮，以选择要添加到架构中的其他字段组
+   >单击架构的名称可更新其属性。
 
 1. 在字段列表中，单击要定义为主标识的字段。
    ![](assets/test-profiles-3.png)

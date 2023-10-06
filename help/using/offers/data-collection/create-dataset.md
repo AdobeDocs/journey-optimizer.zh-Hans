@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 12%
 
 ---
@@ -20,15 +20,18 @@ ht-degree: 12%
 
 首先，创建将在您的数据集中使用的架构：
 
-1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]** 然后转到 **[!UICONTROL 浏览]** 选项卡。
+1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]**.
 
-1. 单击 **[!UICONTROL 创建架构]** 并选择 **[!UICONTROL XDM ExperienceEvent]**.
+1. 单击 **[!UICONTROL 创建架构]**，在右上方，选择 **[!UICONTROL 体验事件]** 并单击 **下一个**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
    >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+
+1. 输入架构的名称和说明，然后单击 **完成**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. 从 **[!UICONTROL 字段组]** 部分，选择 **[!UICONTROL 添加]**.
 
@@ -44,7 +47,7 @@ ht-degree: 12%
    >
    >要在数据集中使用的架构必须具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 否则，您将无法在AI模型中使用它。
 
-1. 键入名称并保存架构。
+1. 保存架构。
 
 >[!NOTE]
 >

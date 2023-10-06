@@ -6,9 +6,9 @@ description: 了解如何使用Journey Optimizer配置您的环境以发送推�
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1609'
 ht-degree: 4%
 
 ---
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 为了让此历程正常工作，您需要创建XDM架构。 有关更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. 在左侧菜单中，浏览 **[!UICONTROL 架构]**.
-
-1. 单击 **[!UICONTROL 创建架构]** 然后选择 **[!UICONTROL XDM ExperienceEvent]**.
-
+1. 在数据管理菜单部分，单击 **[!UICONTROL 架构]**.
+   ![](assets/test_push_1.png)
+1. 单击 **[!UICONTROL 创建架构]**，在右上方，选择 **[!UICONTROL 体验事件]** 并单击 **下一个**.
    ![](assets/test_push_2.png)
-
-1. 选择 **[!UICONTROL 创建新字段组]**.
+1. 输入架构的名称和说明，然后单击 **完成**.
+   ![](assets/test_push_3.png)
+1. 在 **字段组** 部分，单击左侧 **添加** 并选择 **[!UICONTROL 创建新字段组]**.
 
 1. 输入 **[!UICONTROL 显示名称]** 和 **[!UICONTROL 描述]**. 单击 **[!UICONTROL 添加字段组]** 完成时。 有关如何创建字段组的详细信息，请参阅 [XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. 在左侧，选择架构。 在右侧窗格中，输入架构的名称和描述。 为以下项启用此架构 **[!UICONTROL 个人资料]**.
+1. 在左侧，选择架构。 在右窗格中，为以下对象启用此架构： **[!UICONTROL 个人资料]**.
 
    ![](assets/test_push_4b.png)
 
