@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 17%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 17%
 
 1. 从 **[!UICONTROL 连接到设备]** 窗口，单击 **[!UICONTROL 开始]**.
 
-1. 键入 **[!UICONTROL 基本URL]** ，然后单击 **[!UICONTROL 下一个]**.
+1. 输入 **[!UICONTROL 基本URL]** ，然后单击 **[!UICONTROL 下一个]**.
 
    ![](assets/in_app_create_7.png)
 

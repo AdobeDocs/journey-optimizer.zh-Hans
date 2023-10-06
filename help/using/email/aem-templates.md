@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -97,7 +97,7 @@ ht-degree: 3%
    >
    > 如果要编辑模板并使其个性化，则只能使用兼容模式。
 
-1. 当内容模板准备就绪时， [测试和验证](content-templates.md#test-template).
+1. 当内容模板准备就绪时， [测试和验证](../content-management/content-templates.md#test-template).
 
 1. 定义内容后，您可以在创建新电子邮件时通过浏览 **[!UICONTROL 已保存模板]** 收藏集。 然后，选择 **[!UICONTROL 使用此模板]**.
 

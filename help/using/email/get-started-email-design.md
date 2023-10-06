@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    * 从文件或 .zip 文件夹&#x200B;**导入现有 HTML 内容**。要了解如何导入电子邮件内容，请参阅[此部分](existing-content.md)。
 
-   * 从内置或自定义模板列表中&#x200B;**选择现有内容**。要了解如何使用电子邮件模板，请参阅[此部分](email-templates.md)。
+   * 从内置或自定义模板列表中&#x200B;**选择现有内容**。要了解如何使用电子邮件模板，请参阅[此部分](../email/use-email-templates.md)。
 
    ![](assets/email_designer_create_options.png)
 
