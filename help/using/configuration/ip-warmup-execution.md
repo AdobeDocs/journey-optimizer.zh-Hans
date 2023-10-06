@@ -33,25 +33,25 @@ ht-degree: 18%
 
 一旦您拥有 [创建了IP预热计划](ip-warmup-plan.md) 并上传与可投放性顾问一起准备的文件，您可以定义阶段并在计划中运行。
 
-每个阶段均包含多次运行，您可以为它分配一个营销活动。
+每个阶段都由若干您为其分配单个营销活动的运行组成。
 
 ## 定义阶段 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择要从当前阶段中排除的其他营销活动的受众。这是为了防止之前在其他阶段或其他 IP 预热计划中联系过的配置文件再次成为目标。"
+>abstract="从其他营销活动选择要从当前阶段排除的受众。这是为了防止以前在其他阶段或其他 IP 预热计划中联系过的配置文件再次成为目标。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
->abstract="选择要从当前阶段中排除的域。域排除需要非执行阶段，因此，您可能必须拆分运行阶段以添加排除。"
+>abstract="选择要从当前阶段排除的域。域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
 >title="定义计划的阶段"
->abstract="每个阶段均包含多次运行，您可以为它分配一个营销活动。"
+>abstract="每个阶段都由若干您为其分配单个营销活动的运行组成。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="按参与过滤"
->abstract="例如，此列是一个过滤器，它仅针对过去 20 天内与您的品牌互动的用户。您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
+>abstract="此列是一个过滤器，它仅针对例如在过去 20 天内与您的品牌有过互动的用户。您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
@@ -127,12 +127,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
 >title="因受众错误取消运行"
->abstract="选择此选项后，如果在针对该运行评估受众后，合格的配置文件数少于目标配置文件数，则会取消运行。"
+>abstract="在为某次运行评估受众后，如果合格的配置文件比作为目标的配置文件少，则选择此选项可取消此次运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="查看合格的配置文件"
->abstract="此列显示合格的配置文件数。在针对运行评估受众后，如果目标配置文件数多于合格的配置文件数，则运行仍将执行，除非启用了&#x200B;**因错误导致暂停**&#x200B;选项。在此情况下，将取消运行。"
+>abstract="此列显示合格的配置文件数。为某次运行评估受众后，如果作为目标的配置文件比合格的配置文件多，则除非启用了&#x200B;**因错误导致暂停**&#x200B;选项，否则仍执行该运行。如果启用了该选项，则取消该运行。"
 
 1. 为每次运行选择计划。
 

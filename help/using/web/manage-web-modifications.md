@@ -98,7 +98,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="添加自定义代码"
->abstract="HEAD 元素是元数据的容器，并置于 HTML 标记和 BODY 标记之间。仅添加 SCRIPT 和 STYLE 元素。添加 DIV 标记和其他元素可能会导致其余的 HEAD 元素出现在 BODY 中。"
+>abstract="HEAD 元素是元数据的容器，置于 HTML 标记与 BODY 标记之间。请仅添加 SCRIPT 和 STYLE 元素。添加 DIV 标记和其他元素可能会导致其余的 HEAD 元素出现在 BODY 中。"
 
 您可以使用添加自定义代码 **[!UICONTROL 页面`<head>`]** 修改类型。
 

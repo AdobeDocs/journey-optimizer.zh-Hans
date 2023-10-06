@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
->title="将更改应用于选定视图"
->abstract="更改将仅应用于选定视图。可以使用&#x200B;**浏览**&#x200B;模式来发现视图，并导航到这些视图。找不到您所需的视图？"
+>title="将更改应用于所选视图"
+>abstract="更改将仅应用于所选视图。可使用&#x200B;**浏览**&#x200B;模式发现视图并导航到这些视图。找不到您要找的视图？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 **单页应用程序** (SPA)现在可以在Web设计器可视编辑器中创作。 这允许您选择特定的 **查看次数** 要将网页修改应用于。
@@ -83,11 +83,11 @@ ht-degree: 11%
 
 ## 操作方法视频{#video}
 
-此视频介绍如何：
+以下视频介绍了如何：
 
 * 使用以下方式发现SPA视图 **[!UICONTROL 浏览]** 模式
-* 在当前视图上执行创作
-* 将网站修改应用于多个视图或发现的所有视图
+* 在当前视图上进行创作
+* 将网站修改应用于发现的多个视图或所有视图
 * 对修改执行批量操作
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

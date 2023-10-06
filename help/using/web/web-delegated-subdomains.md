@@ -100,7 +100,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要配置新的 Web 子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，并将该信息粘贴到域托管解决方案中以生成匹配的 DNS 记录。检查成功后，子域便可用于发布来自 Experience Manager Assets Essentials 库的内容。"
+>abstract="要配置新的 Web 子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，并将其粘贴到域托管解决方案以生成匹配的 DNS 记录。检查成功后，子域便可用于发布来自 Experience Manager Assets Essentials 库的内容。"
 
 要配置新子域，请执行以下步骤。
 
