@@ -4,10 +4,10 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
-source-wordcount: '4221'
-ht-degree: 84%
+source-wordcount: '4254'
+ht-degree: 83%
 
 ---
 
@@ -104,6 +104,10 @@ ht-degree: 84%
 ### 改进 {#sept-2023-improvements}
 
 此版本包含下方列出的改进。
+
+**决策管理**
+
+* 现已提供用于创建和管理决策管理对象的新API。 这些API提高了性能和用户体验。 旧版API的支持将持续到2024年3月27日。 [了解详情](../offers/api-reference/getting-started.md)
 
 **个性化**
 
