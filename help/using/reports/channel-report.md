@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 4%
+source-wordcount: '2664'
+ht-degree: 2%
 
 ---
 
@@ -41,15 +41,73 @@ ht-degree: 4%
 
 ➡️ [在视频中发现此功能](#channel-report-video)
 
-
 ## 电子邮件 {#email}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_statistics"
+>title="电子邮件 — 发送统计信息总数"
+>abstract="电子邮件 — 总发送统计数据KPI汇总了有关推送通知的基本数据，如定向或投放的消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_tracking_statistics"
+>title="电子邮件 — 跟踪统计信息总数"
+>abstract="电子邮件 — 跟踪统计数据KPI总计可提供您电子邮件的配置文件活动数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_statistics_overtime"
+>title="电子邮件 — 随时间变化的发送统计数据"
+>abstract="电子邮件 — 随时间变化的发送统计数据图表显示有关已发送电子邮件的数据，按小时、每天、每周或每月划分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_tracking_statistics_overtime"
+>title="电子邮件 — 随时间变化的跟踪统计数据"
+>abstract="电子邮件 — 随时间变化的跟踪统计数据图表提供了电子邮件用户档案活动的数据，按小时、每天、每周或每月划分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_categories"
+>title="退回类别"
+>abstract="“退回类别”图表和表提供了有关临时错误和永久错误的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_reasons"
+>title="退回原因"
+>abstract="“退回原因”图形和表包含与退回消息相关的可用数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_error_reasons"
+>title="错误原因"
+>abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_excluded_reasons"
+>title="排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_delivered_domains"
+>title="按域发送和投放"
+>abstract="“按域发送和交付”图表和表格显示了每个重要电子邮件发送数据的域级细分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounces_errors_domains"
+>title="按域列出的退回和错误"
+>abstract="“按域列出的退回和错误”图表和表表示在发送过程中发生的特定错误的域级别细分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_open_clicks_domains"
+>title="按域打开和点击"
+>abstract="“按域划分的打开和点击次数”图表和表格显示了访客与您的电子邮件互动的域级细分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_reasons_domains"
+>title="按域列出的退回原因"
+>abstract="按域划分的跳出原因图表和表格表示有关临时和永久错误的域级数据细分。"
 
 在渠道报表中，电子邮件菜单详细说明与促销活动和历程中发送的电子邮件相关的主要信息。 指标详见下文。
 
 ![](assets/email_channel_1.png)
 
-+++  了解有关电子邮件报表可用的不同量度和小组件的更多信息。
++++ 了解有关电子邮件报表可用的不同量度和小组件的更多信息。
 
 此 **[!UICONTROL 电子邮件总发送统计数据]** 图表详细说明了电子邮件成功与否：
 
@@ -73,7 +131,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 排除率]**：Adobe Journey Optimizer已排除的用户档案的百分比。
 
-此 **[!UICONTROL 电子邮件跟踪总数统计信息]** 小组件包含电子邮件收件人活动的可用数据：
+此 **[!UICONTROL 电子邮件跟踪总数统计信息]** 小组件包含用于电子邮件用户档案活动的可用数据：
 
 * **[!UICONTROL 打开次数]**：消息的打开次数。
 
@@ -122,11 +180,49 @@ ht-degree: 4%
 
 ## 推送通知 {#push}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics"
+>title="推送通知 — 发送统计信息总数"
+>abstract="推送通知 — 总发送统计数据KPI汇总了有关推送通知的基本数据，例如“已定向”或“已传送”。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics"
+>title="推送通知 — 跟踪统计信息总数"
+>abstract="“推送通知 — 跟踪总数”统计信息提供有关推送通知的用户档案活动的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics_overtime"
+>title="推送通知 — 发送一段时间内的统计数据"
+>abstract="“推送通知发送随时间变化的统计数据”图表显示有关已发送推送通知的数据，按小时、每天、每周或每月划分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics_overtime"
+>title="推送通知 — 随时间变化的跟踪统计数据"
+>abstract="推送通知 — 随时间变化的跟踪统计数据图表提供推送通知的用户档案活动数据，按小时、每天、每周或每月划分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_excluded_reasons"
+>title="排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_error_reasons"
+>title="错误原因"
+>abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics_platform"
+>title="按平台跟踪统计数据"
+>abstract="“按平台跟踪统计数据”图表和表根据用户档案的操作系统提供推送通知的用户档案活动数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics_platform"
+>title="按平台发送统计数据"
+>abstract="“按平台发送统计数据”图表和表格显示了有关已发送推送通知的数据。"
 
 在渠道报表中，推送通知菜单详细列出了与促销活动和历程中发送的推送通知有关的主要信息。 指标详见下文。
 
 ![](assets/push_channel_1.png)
-
 
 +++  了解有关推送报表可用的不同量度和小组件的更多信息。
 
@@ -152,7 +248,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 排除率]**：Adobe Journey Optimizer已排除的用户档案的百分比。
 
-此 **[!UICONTROL 推送通知 — 跟踪统计信息总数]** 包含推送通知的收件人活动可用数据：
+此 **[!UICONTROL 推送通知 — 跟踪统计信息总数]** 包含推送通知的用户档案活动的可用数据：
 
 * **[!UICONTROL 打开次数]**：推送通知的打开次数。
 
@@ -178,16 +274,49 @@ ht-degree: 4%
 
 此 **[!UICONTROL 错误原因]** 通过图表和表格可查看发生的错误。
 
-此 **[!UICONTROL 按平台跟踪]** 和 **[!UICONTROL 按平台发送]** 图表和表格会根据收件人的操作系统详细描述推送通知的成功情况。
+此 **[!UICONTROL 按平台跟踪]** 和 **[!UICONTROL 按平台发送]** 图表和表格根据用户档案的操作系统详细说明了推送通知的成功情况。
 +++
 
 ## 短信 {#sms}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_sending_statistics"
+>title="短信 — 发送统计信息总数"
+>abstract="SMS — 总发送统计数据KPI汇总有关SMS消息的基本数据，如已定位或已投放。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_tracking_statistics"
+>title="短信 — 跟踪统计信息总数"
+>abstract="SMS — 总跟踪统计信息提供有关短信消息的用户档案活动的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_sending_statistics_overtime"
+>title="短信 — 随时间变化的发送统计数据"
+>abstract="SMS — 随时间变化的发送统计数据图表显示有关已发送短信消息的数据，按小时、每天、每周或每月划分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_tracking_statistics_overtime"
+>title="短信 — 随时间变化的跟踪统计数据"
+>abstract="短信 — 随时间变化的跟踪统计数据图表提供短信消息的用户档案活动数据，每小时、每天、每周或每月进行划分。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_excluded_reasons"
+>title="排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_bounce_reasons"
+>title="退回原因"
+>abstract="“退回原因”图形和表包含与退回消息相关的可用数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_error_reasons"
+>title="错误原因"
+>abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
 
 在渠道报表中，短信菜单详细说明与促销活动和历程中发送的短信相关的主要信息。 指标详见下文。
 
 ![](assets/sms_channel_1.png)
-
 
 +++ 了解更多有关可用于短信报告的不同量度和小组件。
 
@@ -233,63 +362,29 @@ ht-degree: 4%
 
 +++
 
-## 应用程序内 {#in-app}
-
-
-在渠道报表中，应用程序内菜单详细列出与促销活动和历程中发送的应用程序内消息相关的主要信息。 指标详见下文。
-
-![](assets/inapp_channel_1.png)
-
-
-+++  了解有关可用于应用程序内报表的不同量度和小组件的更多信息。
-
-此 **[!UICONTROL 应用程序内总参与度]** KPI可详细列出与访客与应用程序内消息互动相关的主要信息，例如：
-
-* **[!UICONTROL 展示次数]**：交付给所有用户的应用程序内消息总数。
-
-* **[!UICONTROL 交互]**：应用程序内消息的参与总数。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
-
-* **[!UICONTROL 消除]**：收件人通过单击关闭按钮或自动关闭而关闭的应用程序内消息总数。
-
-* **[!UICONTROL 消除率]**：收件人已解除的应用程序内消息的百分比。
-
-此 **[!UICONTROL 应用程序内参与加班]** 图形通过跟踪任何展示、拒绝或交互，显示了在相关时间段内应用程序内展示和交互的演变。
-
-+++
-
-## Web {#web}
-
-
-在渠道报表中，Web菜单详细列出与促销活动和历程中包含的网页相关的主要信息。 指标详见下文。
-
-![](assets/web_channel_1.png)
-
-
-+++ 了解更多可用于Web报表的不同量度和小组件。
-
-此 **[!UICONTROL Web总体参与度]** KPI可详细列出与访客对Web体验的参与度相关的主要信息，例如：
-
-* **[!UICONTROL 展示次数]**：交付给所有用户的Web体验总数。
-
-* **[!UICONTROL 交互]**：与网页的互动总数。 这包括用户执行的任何操作，例如点击或任何其他交互。
-
-* **[!UICONTROL 消除]**：收件人已关闭的网页总数。
-
-* **[!UICONTROL 消除率]**：收件人关闭的网页的百分比。
-
-此 **[!UICONTROL Web参与加班]** 图形可详细描述与访客对网页的参与度相关的主要信息。
-
-+++
-
 ## 直邮 {#direct-mail}
 
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_sending_statistics"
+>title="直邮 — 发送统计信息总数"
+>abstract="直邮 — 总发送统计数据KPI汇总了有关直邮消息的基本数据，如“已定向”或“已投放”。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_excluded_reasons"
+>title="排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_error_reasons"
+>title="错误原因"
+>abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
 
 在渠道报表中，直邮菜单详细列出与促销活动和历程中发送的直邮消息相关的主要信息。 量度详见下文。
 
 ![](assets/direct_mail_channel_1.png)
 
-
 +++ 了解有关直邮报表可用的不同量度和小组件的更多信息。
+
 此 **[!UICONTROL 直邮 — 发送统计信息总数]** 该表详细列出了消息的成功情况：
 
 * **[!UICONTROL 已定位]**：符合直邮消息目标用户档案资格的用户档案数。
@@ -307,6 +402,69 @@ ht-degree: 4%
 此 **[!UICONTROL 排除原因]** 和 **[!UICONTROL 错误原因]** 利用图形和表格，可查看发生了哪些错误和排除项。
 +++
 
+## 应用程序内 {#in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_inapp_engagement"
+>title="应用程序内 — 总参与度"
+>abstract="应用程序内 — 总参与度KPI提供关于访客与应用程序内消息互动情况的全面信息，包括展示次数和交互次数等量度。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_inapp_engagement_overtime"
+>title="应用程序内 — 参与超时"
+>abstract="应用程序内 — 参与超时图表跟踪应用程序内展示和交互，提供每小时、每天、每周和每月细分。"
+
+在渠道报表中，应用程序内菜单详细列出与促销活动和历程中发送的应用程序内消息相关的主要信息。 指标详见下文。
+
+![](assets/inapp_channel_1.png)
+
++++  了解有关可用于应用程序内报表的不同量度和小组件的更多信息。
+
+此 **[!UICONTROL 应用程序内总参与度]** KPI可详细列出与访客与应用程序内消息互动相关的主要信息，例如：
+
+* **[!UICONTROL 展示次数]**：交付给所有用户的应用程序内消息总数。
+
+* **[!UICONTROL 交互]**：应用程序内消息的参与总数。 这包括用户执行的任何操作，例如单击、解除或任何其他交互。
+
+* **[!UICONTROL 消除]**：用户档案通过单击关闭按钮或自动关闭而关闭的应用程序内消息总数。
+
+* **[!UICONTROL 消除率]**：配置文件已取消的应用程序内消息的百分比。
+
+此 **[!UICONTROL 应用程序内参与加班]** 图形通过跟踪任何展示、拒绝或交互，显示了在相关时间段内应用程序内展示和交互的演变。
+
++++
+
+## Web {#web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_web_engagement"
+>title="Web — 总参与度"
+>abstract="Web — 总参与度KPI提供关于访客与网页之间参与度的全面信息，包括展示和交互等量度。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_web_engagement_overtime"
+>title="Web — 总参与超时数"
+>abstract="Web — 参与超时图表跟踪您的网页展示次数和交互，提供每小时、每天、每周和每月的细分。"
+
+在渠道报表中，Web菜单详细列出与促销活动和历程中包含的网页相关的主要信息。 指标详见下文。
+
+![](assets/web_channel_1.png)
+
++++ 了解更多可用于Web报表的不同量度和小组件。
+
+此 **[!UICONTROL Web总体参与度]** KPI可详细列出与访客对Web体验的参与度相关的主要信息，例如：
+
+* **[!UICONTROL 展示次数]**：交付给所有用户的Web体验总数。
+
+* **[!UICONTROL 交互]**：与网页的互动总数。 这包括用户执行的任何操作，例如点击或任何其他交互。
+
+* **[!UICONTROL 消除]**：配置文件取消的网页总数。
+
+* **[!UICONTROL 消除率]**：配置文件关闭的网页的百分比。
+
+此 **[!UICONTROL Web参与加班]** 图形可详细描述与访客对网页的参与度相关的主要信息。
+
++++
 
 ## 渠道报表（视频） {#channel-report-video}
 

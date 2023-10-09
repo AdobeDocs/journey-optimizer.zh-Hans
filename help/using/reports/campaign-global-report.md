@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '2955'
+source-wordcount: '3181'
 ht-degree: 3%
 
 ---
@@ -120,35 +120,80 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## “电子邮件”选项卡 {#email-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_statistics"
+>title="电子邮件 — 发送统计数据"
+>abstract="“电子邮件 — 发送统计数据”表概述了有关电子邮件的基本数据，如“已定向”或“已投放”。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_tracking_statistics"
+>title="电子邮件 — 跟踪统计数据"
+>abstract="电子邮件 — 跟踪统计信息表提供有关电子邮件用户档案活动的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_performance"
+>title="电子邮件 — 发送性能"
+>abstract="电子邮件 — 发送性能图显示了有关已发送电子邮件的全面数据，提供了对投放和退回等关键量度的洞察，从而允许对电子邮件投放过程进行详细分析。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_categories"
+>title="电子邮件 — 退回类别"
+>abstract="电子邮件 — 退回类别图形和表提供了有关临时错误和永久错误的数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_reasons"
+>title="电子邮件 — 退回原因"
+>abstract="电子邮件 — 退回原因图表和表包含与退回消息相关的可用数据。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_error_reasons"
+>title="电子邮件 — 错误原因"
+>abstract="电子邮件 — 错误原因图表和表格使您能够识别在发送过程中发生的特定错误。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_excluded_reasons"
+>title="电子邮件 — 排除的原因"
+>abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_top_url"
+>title="电子邮件 — 顶部URL"
+>abstract="电子邮件 — 顶部URL图和表提供了电子邮件中接收最高访客流量的URL的全面概述，允许您识别最受欢迎的链接。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_best_recipient"
+>title="电子邮件 — 最佳收件人域"
+>abstract="“电子邮件 — 最佳收件人域”图表和表详细划分了收件人最常用于打开电子邮件的域，提供了有关收件人行为的宝贵见解。"
+
 ![](assets/campaign_report_global_2.png)
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 电子邮件]** 选项卡详细列出了与在Campaign中发送的电子邮件投放相关的主要信息。
 
 +++了解有关电子邮件报表可用的不同量度和小组件的更多信息。
 
-此 **[!UICONTROL 电子邮件发送统计数据]** 图表详细说明了您的交付是否成功：
+此 **[!UICONTROL 电子邮件发送统计数据]** 图表详细说明了您的电子邮件是否成功：
 
-* **[!UICONTROL 已定位]**：投放分析期间处理的消息总数。
+* **[!UICONTROL 已定位]**：发送过程中处理的消息总数。
 
-* **[!UICONTROL 已发送]**：投放的发送总数。
+* **[!UICONTROL 已发送]**：电子邮件的发送总数。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
 * **[!UICONTROL 投放率]**：成功发送的消息百分比。
 
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
 * **[!UICONTROL 跳出率]**：退回的电子邮件与发送的电子邮件相比的百分比。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：发送过程中发生的阻止将消息发送到用户档案的错误总数。
 
-* **[!UICONTROL 错误率]**：与已发送电子邮件相比，投放期间发生阻止发送该投放的错误百分比。
+* **[!UICONTROL 错误率]**：与已发送电子邮件相比，发送过程中发生阻止发送该邮件的错误百分比。
 
 * **[!UICONTROL 重试]**：重试队列中的电子邮件数。
 
 * **[!UICONTROL 已排除]**：Adobe Journey Optimizer已排除的用户档案数。
 
-此 **[!UICONTROL 电子邮件 — 跟踪统计数据]** 小组件包含投放的收件人活动可用数据：
+此 **[!UICONTROL 电子邮件 — 跟踪统计数据]** 小组件包含您电子邮件的用户档案活动的可用数据：
 
 * **[!UICONTROL 打开次数]**：电子邮件的打开次数。
 
@@ -158,23 +203,23 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 点击次数]**：在电子邮件中点击内容的次数。
 
-* **[!UICONTROL 独特点击]**：单击电子邮件中内容的收件人数量。
+* **[!UICONTROL 独特点击]**：单击电子邮件中内容的用户档案数。
 
-* **[!UICONTROL 独特点击率]**：与投放交互的用户百分比。
+* **[!UICONTROL 独特点击率]**：与您的电子邮件交互的用户百分比。
 
 * **[!UICONTROL 取消订阅]**：取消订阅链接的点击次数。
 
 * **[!UICONTROL 垃圾邮件投诉数]**：将消息声明为垃圾邮件或垃圾邮件的次数。
 
-此 **[!UICONTROL 发送统计数据]** 图形包含可用于已发送电子邮件的数据，例如：
+此 **[!UICONTROL 发送性能]** 图形包含可用于已发送电子邮件的数据，例如：
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
 * **[!UICONTROL 重试]**：重试队列中的电子邮件数。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：发送过程中发生的阻止将消息发送到用户档案的错误总数。
 
 此 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 退回类别]** 小组件包含与退回邮件相关的可用数据，例如：
 
@@ -186,30 +231,31 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 有关退回的详细信息，请参阅 [禁止显示列表](../reports/suppression-list.md) 页面。
 
-此 **[!UICONTROL 错误原因]** 利用图表和表格，可查看在交付过程中发生的错误。
+此 **[!UICONTROL 错误原因]** 利用图表和表格，可查看在发送过程中发生的错误。
 
 此 **[!UICONTROL 排除的原因]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的不同原因。
 
-此 **[!UICONTROL 电子邮件 — 顶部URL]** 图表和表详细列出了投放中访问次数最多的URL。
+此 **[!UICONTROL 电子邮件 — 顶部URL]** 图表和表详细列出了电子邮件中访问次数最多的URL。
 
-此 **[!UICONTROL 电子邮件 — 顶级收件人域]** 图表和表详细说明了收件人最常用于打开电子邮件的域。
+此 **[!UICONTROL 电子邮件 — 顶级收件人域]** 图表和表详细说明了用户档案最常用于打开电子邮件的域。
 
 >[!NOTE]
 >
->此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为您的投放激活发送时间优化选项时，构件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+>此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为电子邮件激活发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 已优化和未优化]** 图表详细列出了与报文相关的主要信息，无论它们是否已优化：
 
-* **[!UICONTROL 已发送]**：投放的发送总数。
+* **[!UICONTROL 已发送]**：发送总数。
 
 * **[!UICONTROL 打开次数]**：消息的打开次数。
 
 * **[!UICONTROL 点击次数]**：在电子邮件中点击内容的次数。
 
-此 **[!UICONTROL 发送时间优化]** 根据发送方法（优化或正常）详细描述投放成功与否。
+此 **[!UICONTROL 发送时间优化]** 根据发送方法详细描述电子邮件的成功情况：已优化或正常。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
 +++
 
 ## “应用程序内”选项卡 {#inapp-global}
@@ -258,7 +304,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="推送通知 — 跟踪统计数据"
->abstract="推送跟踪统计信息提供有关投放的收件人活动的数据。"
+>abstract="推送跟踪统计信息提供有关推送通知的用户档案活动的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -273,12 +319,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
 >title="推送通知 — 错误原因"
->abstract="“错误原因”图形和表允许您识别在投放期间发生的特定错误。"
+>abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推送通知 — 按平台细分"
->abstract="“按平台细分”图形和表格根据收件人的操作系统提供了推送通知成功与否的细分。"
+>abstract="“按平台细分”图形和表格根据用户档案的操作系统提供了推送通知成功与否的细分。"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了与您的营销活动中发送的推送投放相关的主要信息。
 
@@ -288,27 +334,27 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 推送通知 — 发送统计数据]** 该表详细列出了与推送通知相关的主要信息
 
-* **[!UICONTROL 已定位]**：投放分析期间处理的消息总数。
+* **[!UICONTROL 已定位]**：分析期间处理的消息总数。
 
-* **[!UICONTROL 已发送]**：投放的发送总数。
+* **[!UICONTROL 已发送]**：推送通知的发送总数。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
 * **[!UICONTROL 投放率]**：成功发送的消息百分比。
 
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
 * **[!UICONTROL 跳出率]**：退回的推送通知与已发送的推送通知相比的百分比。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：阻止将其发送到用户档案的错误总数。
 
-* **[!UICONTROL 错误率]**：与已发送的推送通知相比，在投放期间发生并阻止发送该投放的错误百分比。
+* **[!UICONTROL 错误率]**：与发送的推送通知相比，在阻止发送该通知期间发生的错误百分比。
 
 * **[!UICONTROL 已排除]**：Adobe Journey Optimizer已排除的用户档案数。
 
-此 **[!UICONTROL 推送 — 跟踪统计数据]** 包含投放的收件人活动的可用数据：
+此 **[!UICONTROL 推送 — 跟踪统计数据]** 包含推送通知的用户档案活动的可用数据：
 
-* **[!UICONTROL 打开次数]**：投放中打开消息的次数。
+* **[!UICONTROL 打开次数]**：推送通知的打开次数。
 
 * **[!UICONTROL 打开率]**：已打开推送通知的百分比。
 
@@ -320,36 +366,39 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 推送通知摘要]** 图形包含可用于已发送推送通知的数据，例如：
 
-* **[!UICONTROL 打开次数]**：投放中打开消息的次数。
+* **[!UICONTROL 打开次数]**：推送通知的打开次数。
 
 * **[!UICONTROL 操作]**：对已投放推送通知执行的总操作数，例如按钮点击或解除。
 
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+* **[!UICONTROL 跳出次数]**：与已发送消息总数相关的累积和自动返回处理的错误总数。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：阻止将其发送到用户档案的错误总数。
 
 >[!NOTE]
 >
->此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为您的投放激活发送时间优化选项时，构件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+>此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为推送通知激活发送时间优化选项时，构件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 已优化和未优化]** 图表详细列出了与报文相关的主要信息，无论它们是否已优化：
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
-* **[!UICONTROL 打开次数]**：投放在投放中打开的次数。
+
+* **[!UICONTROL 打开次数]**：推送通知的打开次数。
+
 * **[!UICONTROL 操作]**：对已投放推送通知执行的总操作数，例如按钮点击或解除。
 
-此 **[!UICONTROL 发送时间优化]** 根据发送方法（优化或正常）详细描述投放成功与否。
+此 **[!UICONTROL 发送时间优化]** 根据发送方法（已优化或正常）详细描述推送通知的成功情况。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
-此 **[!UICONTROL 错误原因]** 图表和表格允许您查看在交付过程中发生的错误。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
+
+此 **[!UICONTROL 错误原因]** 图表和表格允许您查看发生的错误。
 
 此 **[!UICONTROL 排除的原因]** 图形和表格可显示阻止从定向用户档案中排除的用户用户档案接收消息的不同原因。
 
-此 **[!UICONTROL 按平台细分]** 图表和表会根据收件人的操作系统详细描述推送通知的成功情况。
+此 **[!UICONTROL 按平台细分]** 图表和表会根据用户档案的操作系统详细描述推送通知的成功情况。
 +++
 
 ## “短信”选项卡 {#sms-global}
@@ -362,7 +411,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="短信 — 错误原因"
->abstract="短信 — 错误原因图表和表允许您识别投放期间发生的特定错误。"
+>abstract="短信 — 错误原因图表和表允许您识别在发送过程中发生的特定错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -390,27 +439,27 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++了解有关短信报告可用的不同量度和小组件的更多信息。
 
-此 **[!UICONTROL 短信 — 发送统计数据]** 该表详细说明了您的交付是否成功：
+此 **[!UICONTROL 短信 — 发送统计数据]** 该表详细列出了短信消息的成功情况：
 
-* **[!UICONTROL 已定位]**：有资格作为此投放的目标用户档案的用户档案数。
+* **[!UICONTROL 已定位]**：符合目标配置文件资格的用户配置文件数。
 
 * **[!UICONTROL 已排除]**：从定向用户档案中排除且未收到消息的用户用户档案数。
 
-* **[!UICONTROL 已发送]**：投放的发送总数。
+* **[!UICONTROL 已发送]**：短信消息的发送总数。
 
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：阻止将其发送到用户档案的错误总数。
 
 此 **[!UICONTROL 按日期划分的短信性能]** 构件以图表形式详细描述与消息相关的主要信息：
 
-* **[!UICONTROL 已发送]**：投放的发送总数。
+* **[!UICONTROL 已发送]**：短信消息的发送总数。
 
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：阻止将其发送到用户档案的错误总数。
 
-此 **[!UICONTROL 排除原因]** 和 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 利用图形和表格，可查看在投放期间发生了哪些错误和排除项。
+此 **[!UICONTROL 排除原因]** 和 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 利用图形和表格，可查看在发送过程中发生的错误和排除情况。
 
 此 **[!UICONTROL 短信 — 按链接显示的点击次数]** 小组件提供了与访客对您的URL的参与度相关的主要信息的详细信息。
 
@@ -462,7 +511,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="直邮 — 错误原因"
->abstract="直邮 — 错误原因图表和表允许您识别投放期间发生的特定错误。"
+>abstract="直邮 — 错误原因图表和表允许您识别在发送过程中发生的特定错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
@@ -475,17 +524,17 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++了解有关直邮报表可用的不同量度和小组件的更多信息。
 
-此 **[!UICONTROL 直邮 — 发送统计数据]** 该表详细说明了您的交付是否成功：
+此 **[!UICONTROL 直邮 — 发送统计数据]** 该表详细列出了直邮的成功情况：
 
-* **[!UICONTROL 已定位]**：有资格作为此投放的目标用户档案的用户档案数。
+* **[!UICONTROL 已定位]**：有资格作为此直邮的目标用户档案的用户档案数。
 
-* **[!UICONTROL 已发送]**：投放的发送总数。
+* **[!UICONTROL 已发送]**：此直邮的发送总数。
 
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
+* **[!UICONTROL 错误]**：发送过程中发生的阻止将消息发送到用户档案的错误总数。
 
-* **[!UICONTROL 已排除]**：从定向用户档案中排除且未收到投放的用户用户档案数。
+* **[!UICONTROL 已排除]**：从定向用户档案中排除、未收到直邮的用户用户档案数。
 
-此 **[!UICONTROL 直邮 — 排除的原因]** 和 **[!UICONTROL 直邮 — 错误原因]** 利用图形和表格，可查看在投放期间发生了哪些错误和排除项。
+此 **[!UICONTROL 直邮 — 排除的原因]** 和 **[!UICONTROL 直邮 — 错误原因]** 利用图形和表格，可查看在发送过程中发生的错误和排除情况。
 +++
 
 ## 其他资源
