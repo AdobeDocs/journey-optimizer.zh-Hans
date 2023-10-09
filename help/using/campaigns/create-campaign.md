@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 28%
+source-wordcount: '933'
+ht-degree: 27%
 
 ---
 
@@ -139,6 +139,11 @@ ht-degree: 28%
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 计划活动 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="营销活动计划"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送一次消息后立即终止。 但是，您可以灵活地为发送消息设置特定的日期和时间。 此外，您还可以为定期或API触发的活动指定结束日期。 在操作触发器中，您还可以配置消息发送频率以符合您的首选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
