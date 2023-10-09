@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 12%
+source-wordcount: '1522'
+ht-degree: 11%
 
 ---
 
@@ -70,6 +70,7 @@ ht-degree: 12%
 * 激活测试模式后，您无法修改历程。 在测试模式下时，您可以直接发布历程，而无需先停用测试模式。
 * 在达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，可以重新组织拆分分支的位置。
 * 为优化性能并防止使用过时资源，所有处于测试模式且一周内未触发的历程都将切换回 **草稿** 状态。
+* 测试模式触发的事件存储在专用数据集中。 这些数据集的标签如下： `JOtestmode - <schema of your event>`
 
 ## 触发您的事件 {#firing_events}
 
