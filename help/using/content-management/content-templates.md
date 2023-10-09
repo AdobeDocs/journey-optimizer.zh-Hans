@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 12%
@@ -20,6 +20,9 @@ ht-degree: 12%
 为了加快并改进设计过程，您可以创建独立的模板，以轻松地在上下文中重复使用自定义内容 [!DNL Journey Optimizer] 营销活动和历程。
 
 此功能使面向内容的用户能够处理营销活动或历程之外的模板。 然后，营销用户可以在自己的历程或营销策划中重用和调整这些独立内容模板。
+
+![](../rn/assets/do-not-localize/content-template.gif)
+
 
 >[!NOTE]
 >

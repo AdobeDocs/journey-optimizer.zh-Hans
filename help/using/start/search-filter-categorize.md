@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
@@ -48,6 +48,9 @@ ht-degree: 100%
 ## 使用统一标记 {#tags}
 
 使用 Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hans)，您可以轻松地对 Journey Optimizer 历程和营销活动进行分类，以改进列表中的搜索。
+
+![](../rn/assets/do-not-localize/campaigns-tag.gif)
+
 
 ### 向对象添加标记
 

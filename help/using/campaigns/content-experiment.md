@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
@@ -28,6 +28,9 @@ ht-degree: 11%
 >在开始内容试验之前，请确保为自定义数据集设置了报表配置。 有关详细信息，请参阅[此部分](reporting-configuration.md)。
 
 Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种投放处理对目标受众的效果最佳。 您可以选择更改投放内容、主题或发件人。 感兴趣的受众被随机分配给每个处理，以确定哪个处理在指定的量度方面效果最佳。
+
+![](../rn/assets/do-not-localize/experiment.gif)
+
 
 在下面的示例中，投放目标被分为两个组，每个组代表目标人口的45%，而维持组10%则不会收到投放。
 

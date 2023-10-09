@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -19,6 +19,8 @@ ht-degree: 1%
 ## 概述 {#overview}
 
 自动个性化通过在监督机器学习和深度学习中利用一流技术，允许企业用户（营销人员）定义业务目标并利用其客户数据培训面向业务的模型，以提供个性化优惠并最大化KPI。
+
+![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
 ## 主要模型假设和限制 {#key}
 

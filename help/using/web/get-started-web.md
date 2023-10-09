@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -18,6 +18,9 @@ ht-degree: 100%
 [!DNL Journey Optimizer] 使您能够以可视方式为客户创作并提供个性化的 Web 体验。
 
 通过直观的可视化界面，此功能可让您轻松修改 Web 属性，以便体验、优化和个性化最终用户营销活动。
+
+![](../rn/assets/do-not-localize/web-authoring.gif)
+
 
 如果您已经使用出站渠道（如电子邮件、短信或推送通知），则现在可以利用入站 Web 渠道来提供跨所有渠道的真正个性化体验。
 

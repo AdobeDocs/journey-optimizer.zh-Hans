@@ -4,16 +4,23 @@ product: journey optimizer
 title: 文档更新
 description: 了解最新的文档更新
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
-source-wordcount: '3765'
-ht-degree: 98%
+source-wordcount: '3815'
+ht-degree: 97%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
+
+
+
+## 2023 年 10 月 {#oct-2023}
+
+* 添加了GIF以说明一些关键功能，例如： [内容模板](../content-management/content-templates.md)， [片段](../content-management/fragments.md)， [计算属性](../audience/computed-attributes.md)， [直邮](../direct-mail/get-started-direct-mail.md)， [标记](../start/search-filter-categorize.md#tags)， [决策管理优化模型](../offers/ranking/personalized-optimization-model.md)， [API触发的营销活动](../campaigns/api-triggered-campaigns.md)、和 [内容试验](../campaigns/content-experiment.md).
+* 架构创建过程已更新，以反映用户界面中的最新更新，其中包含Adobe Experience Platform的更改。 [了解详情](../audience/creating-test-profiles.md)
 
 ## 2023 年 9 月 {#september-2023}
 
