@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP预热计划入门
-description: 了解如何实施IP预热计划
+title: 开始使用 IP 预热计划
+description: 了解如何实施 IP 预热计划
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -14,11 +14,11 @@ exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# IP预热计划入门 {#ip-warmup-gs}
+# 开始使用 IP 预热计划 {#ip-warmup-gs}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -31,30 +31,30 @@ ht-degree: 8%
 
 本文档指南包括以下内容：
 
-* **[IP预热入门](ip-warmup-gs.md)**
+* **[开始使用 IP 预热](ip-warmup-gs.md)**
 * [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* [创建IP预热计划](ip-warmup-plan.md)
-* [执行IP预热计划](ip-warmup-execution.md)
+* [创建 IP 预热计划](ip-warmup-plan.md)
+* [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->IP预热功能目前仅作为测试版提供给部分用户。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+>IP 预热功能目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
-替换为 [!DNL Journey Optimizer]，您可以按照最佳可投放性实践以标准化且高效的方式直接从用户界面执行IP预热工作流。
+借助 [!DNL Journey Optimizer]，您可以直接在用户界面中以标准化的高效方式轻松执行 IP 预热工作流程，并遵循最佳实践以实现卓越的可投放性。
 
 >[!CAUTION]
 >
 >此功能仅适用于电子邮件渠道。
 
-使用新平台发送电子邮件时，Internet服务提供商(ISP)会怀疑无法识别的IP地址。 如果突然发送大量电子邮件，ISP通常会将其标记为垃圾邮件。
+使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
 
-要避免被标记为垃圾邮件，您可以使用IP预热计划功能逐步增加发送量。 此新选项位于 **[!UICONTROL 管理]** 菜单允许您以整合的方式更轻松地执行此操作，而不是创建复杂的每日历程。 这应该可以确保启动阶段的顺利发展，并帮助您降低地址无效的总比率。
+要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。这应该可以确保启动阶段的顺利进行，并帮助您降低无效地址的总体占比。
 
 >[!NOTE]
 >
->在中了解更多有关利用IP预热提高您的电子邮件声誉的信息 [可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
+>在[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans)中了解更多有关利用 IP 预热提高电子邮件声誉的信息。
 
 <!--
 Benefits
@@ -68,10 +68,10 @@ Benefits
 * There is an expectation that with this, it will ease around 30% of effort and will be much better experience for consultant/partner/practitioner - right from planning to execution to reporting
 -->
 
-实施IP预热计划的关键步骤如下：
+实施 IP 预热计划的关键步骤如下：
 
-1. 您首先需要在启用IP预热选项的情况下创建一个或多个营销活动。 [了解详情](ip-warmup-campaign.md)
+1. 您首先需要在启用 IP 预热选项的情况下创建一个或多个营销活动。[了解详情](ip-warmup-campaign.md)
 
-1. 在中创建IP预热计划 [!DNL Journey Optimizer] 并上传在可投放性顾问帮助下准备的Excel工作表。 [了解详情](ip-warmup-plan.md)
+1. 在 [!DNL Journey Optimizer] 中创建 IP 预热计划，并上传在可投放性顾问的帮助下准备的 Excel 工作表。[了解详情](ip-warmup-plan.md)
 
-1. 为计划的每个阶段选择一个营销活动并激活相应的运行。 [了解详情](ip-warmup-execution.md)
+1. 为计划的每个阶段选择一个营销活动并相应地激活运行。[了解详情](ip-warmup-execution.md)

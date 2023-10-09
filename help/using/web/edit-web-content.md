@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 * [管理修改](manage-web-modifications.md)
 
-* [监测您的Web活动](monitor-web-campaigns.md)
+* [监测 Web 活动](monitor-web-campaigns.md)
 
 ## 使用Web设计器 {#work-with-web-designer}
 

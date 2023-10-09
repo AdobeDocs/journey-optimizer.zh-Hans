@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 运行IP预热计划
+title: 运行 IP 预热计划
 description: 了解如何运行和监控IP预热计划
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
-# 执行IP预热计划 {#ip-warmup-running}
+# 执行 IP 预热计划 {#ip-warmup-running}
 
 >[!BEGINSHADEBOX]
 
 本文档指南包括以下内容：
 
-* [IP预热入门](ip-warmup-gs.md)
+* [开始使用 IP 预热](ip-warmup-gs.md)
 * [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* [创建IP预热计划](ip-warmup-plan.md)
-* **[执行IP预热计划](ip-warmup-execution.md)**
+* [创建 IP 预热计划](ip-warmup-plan.md)
+* **[执行 IP 预热计划](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 

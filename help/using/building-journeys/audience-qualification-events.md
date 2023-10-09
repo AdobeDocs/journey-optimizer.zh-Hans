@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
 * 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
 
-* 在历程中使用受众资格时，该受众资格活动可能最多需要10分钟才能激活，并侦听进入或退出受众的用户档案。
+* 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
 
 ### 配置活动{#cnfigure-segment-qualification}
 

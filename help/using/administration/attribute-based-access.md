@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在Adobe Journey Optimizer中，ABAC允许您保护数据并授予特定字段元素的特定访问权限，这些元素包括体验数据模型(XDM)架构、配置文件属性和受众。
 
-有关与ABAC一起使用的术语的更详细列表，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
+有关与ABAC一起使用的术语的更详细列表，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=zh-Hans).
 
 在本例中，我们想要将一个标签添加到 **国籍** 模式字段，用于限制未经授权的用户使用该字段。 要使此功能正常工作，您需要执行以下步骤：
 

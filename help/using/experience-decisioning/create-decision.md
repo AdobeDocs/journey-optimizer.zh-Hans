@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 16%
 
 本文档指南包括以下内容：
 
-* [Experience Decisioning入门](gs-experience-decisioning.md)
+* [开始使用 Experience Decisioning](gs-experience-decisioning.md)
 * 管理您的决策项目
-   * [配置物料目录](catalogs.md)
+   * [配置项目目录](catalogs.md)
    * [创建决策项目](items.md)
-   * [管理物料集合](collections.md)
+   * [管理项目集合](collections.md)
 * 配置项目的选择
    * [创建决策规则](rules.md)
    * [创建排名方法](ranking.md)

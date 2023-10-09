@@ -12,7 +12,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 本文档指南包括以下内容：
 
-* [基于代码的渠道入门](get-started-code-based.md)
+* [开始使用基于代码的渠道](get-started-code-based.md)
 * [基于代码的先决条件](code-based-prerequisites.md)
 * [基于代码的实施示例](code-based-implementation-samples.md)
 * **[创建基于代码的体验](create-code-based.md)**
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->基于代码的体验渠道目前仅作为测试版向部分用户提供。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+>基于代码的渠道目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 ## 创建基于代码的营销活动 {#create-code-based-campaign}
 

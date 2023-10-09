@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
    ![](assets/media_library_1.png)
 
-1. 在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。
+1. 在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择 Assets Essentials 存储库或 Assets as a Cloud Service 存储库。 
 
    ![](assets/media_library_4.png)
 

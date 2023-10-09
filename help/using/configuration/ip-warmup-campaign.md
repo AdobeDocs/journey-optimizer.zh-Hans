@@ -14,7 +14,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 17%
 
 本文档指南包括以下内容：
 
-* [IP预热入门](ip-warmup-gs.md)
+* [开始使用 IP 预热](ip-warmup-gs.md)
 * **[创建 IP 预热营销活动](ip-warmup-campaign.md)**
-* [创建IP预热计划](ip-warmup-plan.md)
-* [执行IP预热计划](ip-warmup-execution.md)
+* [创建 IP 预热计划](ip-warmup-plan.md)
+* [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 

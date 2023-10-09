@@ -12,7 +12,7 @@ exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 本文档指南包括以下内容：
 
-* [基于代码的渠道入门](get-started-code-based.md)
+* [开始使用基于代码的渠道](get-started-code-based.md)
 * [基于代码的先决条件](code-based-prerequisites.md)
 * **[基于代码的实施示例](code-based-implementation-samples.md)**
 * [创建基于代码的体验](create-code-based.md)

@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 ## 最佳实践{#custom-action-enhancements-best-practices}
 
-为所有自定义操作定义了超过30秒150,000次调用的上限。 此限制是根据客户使用情况设置的，用于保护自定义操作所定位的外部端点。 您需要通过定义适当的读取率（使用自定义操作时为5000个配置文件/秒），在基于受众的历程中考虑这一点。 如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。 请参阅[此页](../configuration/external-systems.md)。
+为所有自定义操作定义了超过30秒150,000次调用的上限。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您需要通过定义适当的读取率（使用自定义操作时为5000个配置文件/秒），在基于受众的历程中考虑这一点。 如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。 请参阅[此页](../configuration/external-systems.md)。
 
 出于以下各种原因，您不应使用自定义操作定位公共端点：
 

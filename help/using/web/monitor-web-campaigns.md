@@ -1,5 +1,5 @@
 ---
-title: 监测您的Web活动
+title: 监测 Web 活动
 description: 了解如何在Journey Optimizer中监测Web活动
 feature: Web Channel
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 监测您的Web活动 {#monitor-web-campaigns}
+# 监测 Web 活动 {#monitor-web-campaigns}
 
 ## 检查Web报告 {#check-web-reports}
 

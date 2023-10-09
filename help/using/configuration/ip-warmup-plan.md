@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建IP预热计划
+title: 创建 IP 预热计划
 description: 了解如何在Journey Optimizer中创建IP预热计划
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
-# 创建IP预热计划 {#ip-warmup}
+# 创建 IP 预热计划 {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
 本文档指南包括以下内容：
 
-* [IP预热入门](ip-warmup-gs.md)
+* [开始使用 IP 预热](ip-warmup-gs.md)
 * [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* **[创建IP预热计划](ip-warmup-plan.md)**
-* [执行IP预热计划](ip-warmup-execution.md)
+* **[创建 IP 预热计划](ip-warmup-plan.md)**
+* [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
    >
    >选定的IP预热计划将被永久删除。
 
-## 创建IP预热计划 {#create-ip-warmup-plan}
+## 创建 IP 预热计划 {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"

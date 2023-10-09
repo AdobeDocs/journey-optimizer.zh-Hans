@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
+source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -91,4 +92,3 @@ ht-degree: 2%
    ![](assets/fragment-break-inheritance.png)
 
 1. 该片段将成为不再链接到原始片段的独立元素。 可将其编辑为内容中的任何其他内容组件。 [了解详情](content-components.md)
-

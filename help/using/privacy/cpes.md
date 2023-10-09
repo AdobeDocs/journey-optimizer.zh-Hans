@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 1. 在路径 1 中 - 选择一个标签以帮助您定义非个性化受众。
 
-1. 从以下列表中选择适当的值： https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
+1. 从该列表中选择适当的值：https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values
 
    在这种情况下，“n”表示“否”，代表选择退出个性化
 

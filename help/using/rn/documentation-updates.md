@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
 source-wordcount: '3765'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 88%
 
 ## 2023 年 9 月 {#september-2023}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年9月版。 [了解详情](release-notes.md)
-* 新增了一个页面，其中包含缩放最佳实践和实时拼合指南。 [了解详情](../start/best-practices.md)
+* 在文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 9 月版本的所有新增功能和改进。[了解详情](release-notes.md)
+* 新增了一个页面，其中包含缩放最佳实践和实时拼合指南。[了解详情](../start/best-practices.md)
 
   <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
-* 为优化发送时间添加了“常见问题解答”部分。 [了解详情](../building-journeys/journeys-message.md#faq-send-time)
-* 已添加有关受众资格活动的注释。 激活并监听进入或退出受众的用户档案可能最多需要10分钟。 [了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* 添加了有关发送时间优化的“常见问题解答”部分。[了解详情](../building-journeys/journeys-message.md#faq-send-time)
+* 添加了有关受众资格活动的注释。最多可能需要 10 分钟才能生效并侦听进入或退出受众的用户档案。[了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 决策管理文档中添加了创建决策规则时要注意的限制条件列表。[了解详情](../offers/offer-library/creating-decision-rules.md)
-* 更新了访问控制文档的链接。 [了解详情](../administration/permissions.md)
-* 应用程序内渠道先决条件已更新，其中包含Adobe Experience Platform数据收集详细信息。 [了解详情](../in-app/inapp-configuration.md)
-* 更新了排名公式示例中介绍的某些表达式，以避免验证错误。 [了解详情](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* 更新了访问控制文档的链接。[了解详情](../administration/permissions.md)
+* 更新了应用程序内渠道先决条件，其中包含 Adobe Experience Platform 数据收集详细信息。[了解详情](../in-app/inapp-configuration.md)
+* 更新了排名公式示例中介绍的某些表达式，以避免验证错误。[了解详情](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 * 警告已添加到 **定义决策范围** 要指定如果在评估标准组中使用AI模型，则该组中的所有评估标准都必须使用具有相同特定AI模型的AI排名方法。 此外，只有一个评价标准组可以使用AI模型。 [了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
@@ -48,15 +48,15 @@ ht-degree: 88%
 * 对等待活动文档页面进行了改进，其中包含与全局超时和重新进入使用情况相关的更多信息和最佳实践。[了解详情](../building-journeys/wait-activity.md)
 * 对进入管理页面进行了改进。[了解详情](../building-journeys/entry-management.md)
 * 在读取受众活动文档中添加了有关限制速率的更多信息。[了解详情](../building-journeys/read-audience.md)
-* 添加了有关重试的其他信息。 [了解详情](../start/guardrails.md#general-actions-g)
+* 添加了有关重试的其他信息。[了解详情](../start/guardrails.md#general-actions-g)
 * **实施个性化同意**&#x200B;部分中更新了描述如何在营销活动中手动强制执行个性化同意的内容：可使用区段规则生成器创建包含选择退出用户档案的受众，或将拆分活动添加到组合工作流程。[了解详情](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023 年 6 月 {#june-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 6 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 在历程概述屏幕中添加了有关丢弃率比率的信息。 [了解详情](../building-journeys/journey-gs.md#journey-access)
-* 已添加注释，其中包含创建事件后使用新枚举值修改架构时要遵循的步骤 [了解更多](../event/about-creating.md)
-* 已添加建议，以在查询历程时使用journeyVersionID而不是journeyVersionName。 [了解详情](../reports/sharing-common-fields.md#journeyversionid-field)
+* 在历程概述屏幕中添加了有关丢弃率比率的信息。[了解详情](../building-journeys/journey-gs.md#journey-access)
+* 添加了注释，其中包含创建事件后使用新枚举值修改架构时要遵循的步骤 [了解详情](../event/about-creating.md)
+* 添加了建议，以在查询历程时使用 journeyVersionID 而不是 journeyVersionName。[了解详情](../reports/sharing-common-fields.md#journeyversionid-field)
 * 添加了更多的评估标准顺序示例到&#x200B;**创建决策**&#x200B;部分，对使用了多个标准和多个决策范围的案例进行了说明。[了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 对决策管理文档进行了阐明，添加了注释，指明了对象级别访问控制的使用不适合动态收藏集。[了解详情](../offers/offer-library/creating-collections.md)
 
@@ -73,9 +73,9 @@ ht-degree: 88%
 ## 2023 年 4 月 {#apr-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 4 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 已添加注释来指定无法删除内置操作。 [了解详情](../start/guardrails.md#custom-actions-g)
-* 添加了有关serviceEvents的信息以及查询example以检查serviceEvent的详细信息。 [了解详情](../reports/query-examples.md#common-queries)
-* 已添加注释，以指定您不能对时间序列执行查询。 [了解详情](../building-journeys/condition-activity.md)
+* 添加了注释来说明无法删除内置操作。[了解详情](../start/guardrails.md#custom-actions-g)
+* 添加了有关 serviceEvents 的信息以及查询示例以检查 serviceEvent 的详细信息。[了解详情](../reports/query-examples.md#common-queries)
+* 添加了注释，以说明您不能对时间序列执行查询。[了解详情](../building-journeys/condition-activity.md)
 * Adobe Experience Manager Assets Essentials 和 Adobe Stock 已添加到多解决方案集成页面。[了解详情](../start/ajo-integrations.md)
 * 关于不支持多级电子邮件子域的警告已移除，因为现在可为这些子域提供支持。[了解详情](../configuration/delegate-subdomain.md)
 * 添加了“如果对历程消息中使用的优惠决策进行了更改，则需要取消发布历程并重新发布该历程”的注释。[了解详情](../building-journeys/publishing-the-journey.md)
@@ -92,27 +92,27 @@ ht-degree: 88%
 * **创建决策**&#x200B;部分添加了一个新的小节，解释按顺序或同时评估标准之间的差异。[了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 为具有增量读取的读取受众历程添加了护栏。您无法创建新版本，您需要复制历程。[了解详情](../start/guardrails.md#journey-versions-g)
 * 更新了关于如何限制吞吐量的用例，其中包含有关限制功能的信息。 [了解详情](../building-journeys/limit-throughput.md)
-* 添加了注释，以指定响应有效负载定义中不支持标量数组。 [了解详情](../datasource/external-data-sources.md)
-* 更新了有关用户档案上限条件的章节。 [了解详情](../building-journeys/condition-activity.md#profile_cap)
+* 添加了注释，以说明响应有效负载定义中不支持标量数组。[了解详情](../datasource/external-data-sources.md)
+* 更新了有关用户档案上限条件的部分。[了解详情](../building-journeys/condition-activity.md#profile_cap)
 
 ## 2023 年 2 月 {#feb-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 2 月版本的所有新增功能和改进。[了解详情](release-notes.md)
-* 添加了有关画布工具栏的信息。 [了解详情](../building-journeys/using-the-journey-designer.md#gs-journey-design)
-* 添加了信息来声明URL和API中不允许内部Adobe地址。 [了解详情](../start/guardrails.md)
+* 添加了有关画布工具栏的信息。[了解详情](../building-journeys/using-the-journey-designer.md#gs-journey-design)
+* 添加了说明 URL 和 API 中不允许使用内部 Adobe 地址的信息。[了解详情](../start/guardrails.md)
 * 在 API 触发的营销活动文档中添加了注释，规定传递到请求的上下文属性不能超过 50kb。[了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 * 添加了有关收件人通过登陆页面取消订阅后如何在&#x200B;**同意服务数据集**&#x200B;中存储选择退出信息的内容。[了解详情](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## 2023 年 1 月 {#jan-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 1 月版本的所有新增功能和改进。[了解详情](release-notes.md)
-* 在上限文档中添加了有关自定义身份验证端点的信息。 [了解详情](../configuration/external-systems.md)
-* 已在外部数据源部分中添加了新的自定义身份验证示例。 [了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
-* 已添加有关事件触发的历程的数据收集核心服务(DCCS)的说明。 [了解详情](../start/guardrails.md#events-g)
-* 在中添加了有关身份命名空间检索的注释 [读取受众](../building-journeys/read-audience.md)， [受众资格](../building-journeys/audience-qualification-events.md) 和 [事件创建](../event/about-creating.md) 部分。
+* 在上限文档中添加了有关自定义身份验证端点的信息。[了解详情](../configuration/external-systems.md)
+* 在外部数据源部分中添加了新的自定义身份验证示例。[了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
+* 添加了有关事件触发历程数据收集核心服务 (DCCS) 的注释。[了解详情](../start/guardrails.md#events-g)
+* 在[读取受众](../building-journeys/read-audience.md)、[受众资格](../building-journeys/audience-qualification-events.md)和[事件创建](../event/about-creating.md)部分中添加了有关身份命名空间检索的注释。
 * 现在，[!DNL Journey Optimizer] 中的辅助功能被分组到了专用页面中。[了解详情](../start/accessibility.md)
-* 在高级表达式编辑器文档的运算符部分中更新了示例。 [了解详情](../building-journeys/expression/operators.md)
-* 添加了有关使用对象数组查找的限制的注释。 [了解详情](../event/experience-event-schema.md#relationships_limitations)
+* 在高级表达式编辑器文档的“运算符”部分中更新了示例。[了解详情](../building-journeys/expression/operators.md)
+* 添加了有关使用对象数组进行查找的限制的注释。[了解详情](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer] 中增添了关于数据管理的新页面。[了解详情](../data/gs-data.md)
 * 新增的表格中列出了使用 Decisioning API 提供优惠时，响应中可返回的所有代码。[了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 

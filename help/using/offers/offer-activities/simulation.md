@@ -217,5 +217,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >将请求或响应负载复制到您自己的代码时，请确保替换 {USER_TOKEN} 和 {API_KEY} 的有效值。 了解如何在 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} 文档。
+   >将请求或响应负载复制到您自己的代码时，请确保替换 {USER_TOKEN} 和 {API_KEY} 的有效值。 了解如何在 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans){target="_blank"} 文档。
 

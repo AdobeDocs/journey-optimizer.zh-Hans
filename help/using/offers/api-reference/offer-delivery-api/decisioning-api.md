@@ -9,7 +9,7 @@ exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -211,7 +211,7 @@ curl -X POST \
 
 ## 教程视频 {#video}
 
-以下视频旨在支持您了解决策管理的各个组件。
+以下视频旨在帮助您了解决策管理的各个组件。
 
 >[!NOTE]
 >

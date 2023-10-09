@@ -11,11 +11,11 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 渠道报表 {#channel-report}
+# 渠道报告 {#channel-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
-> 要访问 **报表** 菜单，您必须拥有 **[!UICONTROL 查看渠道报表]** 许可。 [了解详情](channel-report-gs.md#before-starting-manage-reports-prereq)
+> 要访问&#x200B;**报告**&#x200B;菜单，您必须拥有&#x200B;**[!UICONTROL 查看渠道报告]**&#x200B;权限。[了解详情](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 渠道报表可在渠道级别为用户提供流量和参与量度的全面概述。 这些量度将进行聚合，以显示来自所选渠道（跨各种促销活动和历程）的操作的合并值。
 

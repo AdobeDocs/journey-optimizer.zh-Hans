@@ -49,7 +49,7 @@ ht-degree: 28%
 
 1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道平面。
 
-   平面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
+   表面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
    下拉列表中只列出与营销活动类型兼容的渠道表面。
 

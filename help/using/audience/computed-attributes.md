@@ -10,7 +10,7 @@ exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 规则准备就绪后，发布计算属性以将其用于其他下游服务，包括Journey Optimizer。
 
-有关如何创建和管理计算属性的详细信息，请参阅 [计算属性文档](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+有关如何创建和管理计算属性的详细信息，请参阅 [计算属性文档](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=zh-Hans)
 
 ## 将计算属性添加到Adobe Experience Platform数据源 {#source}
 

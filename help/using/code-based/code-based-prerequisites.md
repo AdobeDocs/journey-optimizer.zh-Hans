@@ -12,7 +12,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 
 本文档指南包括以下内容：
 
-* [基于代码的渠道入门](get-started-code-based.md)
+* [开始使用基于代码的渠道](get-started-code-based.md)
 * **[基于代码的先决条件](code-based-prerequisites.md)**
 * [基于代码的实施示例](code-based-implementation-samples.md)
 * [创建基于代码的体验](create-code-based.md)
@@ -37,7 +37,7 @@ ht-degree: 14%
 
 ## 警告说明 {#caution-notes-web}
 
-* 基于代码的体验渠道目前仅作为测试版向部分用户提供。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+* 基于代码的渠道目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 * 当前位置 [!DNL Journey Optimizer] 您只能在中创建基于代码的体验 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)
 

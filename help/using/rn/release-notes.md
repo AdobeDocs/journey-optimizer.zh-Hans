@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 83%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2023年9月发行说明 {#sept-rn-2023}
+## 2023 年 9 月发行说明 {#sept-rn-2023}
 
 ### 新功能{#sept-2023-features}
 
@@ -43,8 +43,8 @@ ht-degree: 83%
 <tbody>
 <tr>
 <td>
-<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。 借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客户资料目标或Journey Optimizer中使用它们。<br/><br/>
-此外，计算属性简化了分段和历程工作流，可帮助您无缝交付相关体验。 在中了解详情 <a href="../audience/computed-attributes.md">详细文档</a>.</p>
+<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客配置文件目标或 Journey Optimizer 中进行使用。<br/><br/>
+此外，计算属性简化了分段和历程工作流，帮助您完美投放相关体验。有关更多信息，请参阅<a href="../audience/computed-attributes.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -54,16 +54,16 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>合并的渠道报表</strong><br/></th>
+<th><strong>整合的渠道报告</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>渠道报表功能为分析师和营销人员提供了渠道级别的流量和参与量度的全面概述。</p>
-<p>要访问 <b>报表</b> 菜单，您必须拥有 <b>查看渠道报表</b> 许可。</p>
+<p>渠道报告功能为分析师和营销人员在渠道级别提供了流量和参与量度的全面概述。</p>
+<p>要访问<b>报告</b>菜单，您必须拥有<b>查看渠道报告</b>权限。</p>
 <img src="assets/channel-reports.png"/>
-<p>欲了解更多信息，请参见 <a href="../reports/channel-report.md">详细文档</a>、和 <a href="../reports/channel-report.md#channel-report-video">操作方法视频</a>.</p>
+<p>有关更多信息，请参阅<a href="../reports/channel-report.md">详细文档</a>和<a href="../reports/channel-report.md#channel-report-video">教程视频</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -72,13 +72,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>数据集导出目标(GA)</strong><br/></th>
+<th><strong>数据集导出目标 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在可以将Journey Optimizer数据集导出到云存储目标。 通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。</p>
+<p>现在，一般可以将 Journey Optimizer 数据集导出到云存储目标。通过此功能，您可以与云存储位置建立实时连接，以导出数据集的内容。</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>有关更多信息，请参阅<a href="../data/export-datasets.md">详细文档</a>。</p>
 </td>
@@ -89,7 +89,7 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>每个沙盒移动应用程序凭据存储</strong><br/></th>
+<th><strong>基于单个沙盒的移动应用程序凭据存储</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -111,52 +111,52 @@ ht-degree: 83%
 
 **个性化**
 
-* 除了可视片段之外，现在还可以通过表达式编辑器从Journey Optimizer界面创建、保存和重用表达式片段。 表达式片段替换以前保存的表达式。 [了解详情](../personalization/use-expression-fragments.md)
+* 除了可视片段之外，现在还可以通过表达式编辑器从 Journey Optimizer 界面创建、保存和重用表达式片段。表达式片段替换以前保存的表达式。[了解详情](../personalization/use-expression-fragments.md)
 
 **警报**
 
-* 推出了一种新型的系统警报。现在，您可以在以下情况下收到通知： **读取受众** 活动失败。 [了解详情](../reports/alerts.md)。
+* 一种新型的系统警报现已推出。现在，您可以在以下情况下收到通知： **读取受众** 活动失败。 [了解详情](../reports/alerts.md)。
 
 **Web 渠道**
 
-* 单页应用程序(SPA)现在可以在Web可视编辑器中创作，该编辑器允许您选择要将网页修改应用于的特定视图。 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。 在Adobe Experience Platform Web SDK实施中定义视图需要一次性开发人员设置；这使营销人员能够在SPA上创建并运行Adobe Journey Optimizer Web营销活动。 [了解详情](../web/web-spa.md)
+* 现在可以在 Web 可视编辑器中创作单页应用程序 (SPA)，该编辑器允许您选择要应用网页修改的特定视图。视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。在 Adobe Experience Platform Web SDK 实施中定义视图需要进行一次性开发人员设置；这使营销人员能够在 SPA 上创建并运行 Adobe Journey Optimizer Web 营销活动。[了解详情](../web/web-spa.md)
 
-* 使用Web设计器编辑页面时，您现在可以直接从“修改”窗格向内容添加新更改，而无需从设计器界面中选择组件并进行编辑。 [了解详情](../web/manage-web-modifications.md#add-modifications)
+* 使用 Web 设计器编辑页面时，您现在可以直接从“修改”窗格向内容添加新更改，而无需从设计器界面中选择组件并进行编辑。[了解详情](../web/manage-web-modifications.md#add-modifications)
 
-* 在设置Web子域时，除了使用已委派给Adobe的子域之外，您现在可以选择添加自己的子域。 [了解详情](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* 在设置 Web 子域时，除了使用已委派给 Adobe 的子域之外，您现在可以选择添加自己的子域。[了解详情](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **历程**
 
-* 复制历程时，您现在可以定义历程副本的名称。 [了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
+* 复制历程时，您现在可以定义历程副本的名称。[了解详情](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 
-* 现在，GA支持自定义操作响应。 此功能允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将每个端点超过30秒的所有海关操作限制为150,000次调用。 [了解详情](../action/action-response.md)
+* 自定义操作响应功能现已普遍可用。 此功能允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将每个端点超过30秒的所有海关操作限制为150,000次调用。 [了解详情](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **电子邮件渠道**
 
-* 利用电子邮件平面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址位于Adobe上也是如此 [!DNL Journey Optimizer] 禁止显示列表。 [了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 利用电子邮件表面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在 Adobe [!DNL Journey Optimizer] 禁止列表中。[了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **短信渠道**
 
-* 两个新领域， **选择加入消息** 和 **帮助消息**，已添加到API配置屏幕，允许用户自定义入站关键字的响应。 请注意，这仅适用于Sinch SMS提供商。 [了解详情](../sms/sms-configuration.md#create-api)
+* **选择加入消息**&#x200B;和&#x200B;**帮助消息**&#x200B;这两个新字段已添加到 API 配置屏幕，允许用户自定义针对入站关键词的响应。请注意，这仅适用于 Sinch 短信提供商。[了解详情](../sms/sms-configuration.md#create-api)
 
-* 短信选择退出不再在渠道级别进行管理。 现在，它是特定于号码的，这意味着如果某些用户档案选择禁用给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他号码向他们发送消息。 通过新选项，您可以选择 **选择退出次数** 要对给定曲面使用。 [了解详情](../sms/sms-configuration.md#message-preset-sms)
+* 不再在渠道级别进行管理短信选择退出。现在，这是特定于号码的，这意味着如果某些用户档案选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。[了解详情](../sms/sms-configuration.md#message-preset-sms)
 
 **直邮渠道**
 
-* 现在，当直邮提供商的文件传输到服务器时，您可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。 [了解详情](../direct-mail/direct-mail-configuration.md)
+* 现在，当直邮提供商的文件传输到服务器时，您可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。[了解详情](../direct-mail/direct-mail-configuration.md)
 
 **报告**
 
-* 您现在可以将Journey Optimizer报表导出为CSV文件。 在中了解详情 [详细文档](../reports/global-report.md#export-reports) 和 [操作方法视频](../reports/global-report.md#video-csv).
+* 您现在可以将 Journey Optimizer 报告导出为 CSV 文件。有关详细信息，请参阅[详细文档](../reports/global-report.md#export-reports)和[操作方法视频](../reports/global-report.md#video-csv)。
 
 **资源**
 
-* 通过“资源”的新选项，您可以在Journey Optimizer中选择资源的存储库。 如果您拥有此解决方案，则可以选择Assets Essentials存储库或Assetsas a Cloud Service存储库。 [了解详情](../content-management/assets-essentials.md)
+* 新增一个“资源”的新选项，您可以借以在 Journey Optimizer 中选择资源的存储库。 如果您拥有此解决方案，则可以选择 Assets Essentials 存储库或 Assets as a Cloud Service 存储库。 [了解详情](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

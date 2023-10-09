@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -229,17 +229,17 @@ ht-degree: 92%
    + [测试并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
 + Web 渠道 {#web}
-   + [Web 渠道入门](using/web/get-started-web.md)
+   + [开始使用 Web 渠道](using/web/get-started-web.md)
    + [Web 渠道先决条件](using/web/web-prerequisites.md)
    + [创建 Web 体验](using/web/create-web.md)
    + 创建 Web 页面 {#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
-      + [监测您的Web活动](using/web/monitor-web-campaigns.md)
+      + [监测 Web 活动](using/web/monitor-web-campaigns.md)
       + [创作单页应用程序](using/web/web-spa.md)
    + [配置 Web 子域](using/web/web-delegated-subdomains.md)
 + 基于代码的体验 {#code-based-experience}
-   + [基于代码的渠道入门](using/code-based/get-started-code-based.md)
+   + [开始使用基于代码的渠道](using/code-based/get-started-code-based.md)
    + [基于代码的先决条件](using/code-based/code-based-prerequisites.md)
    + [基于代码的实施示例](using/code-based/code-based-implementation-samples.md)
    + [创建基于代码的体验](using/code-based/create-code-based.md)
@@ -325,9 +325,9 @@ ht-degree: 92%
       + [目标报告](using/reports/objective-report.md)
       + [登陆页面全局报告](using/reports/lp-report-global.md)
       + [订阅列表全局报告](using/reports/subscription-report-global.md)
-   + 渠道报表 {#channel-report}
-      + [渠道报告入门](using/reports/channel-report-gs.md)
-      + [渠道报表](using/reports/channel-report.md)
+   + 渠道报告{#channel-report}
+      + [开始使用渠道报告](using/reports/channel-report-gs.md)
+      + [渠道报告](using/reports/channel-report.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
@@ -483,13 +483,13 @@ ht-degree: 92%
          + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Experience Decisioning {#experience-decisioning}
-   + [Experience Decisioning入门](using/experience-decisioning/gs-experience-decisioning.md)
-   + 管理您的决策项目 {#decision-items}
-      + [配置物料目录](using/experience-decisioning/catalogs.md)
++ Experience Decisioning{#experience-decisioning}
+   + [开始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + 管理您的决策项目{#decision-items}
+      + [配置项目目录](using/experience-decisioning/catalogs.md)
       + [创建决策项目](using/experience-decisioning/items.md)
-      + [管理物料集合](using/experience-decisioning/collections.md)
-   + 配置项目的选择 {#selection}
+      + [管理项目集合](using/experience-decisioning/collections.md)
+   + 配置项目的选择{#selection}
       + [创建决策规则](using/experience-decisioning/rules.md)
       + [创建排名方法](using/experience-decisioning/ranking.md)
    + [创建选择策略](using/experience-decisioning/selection-strategies.md)
@@ -512,11 +512,11 @@ ht-degree: 92%
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
-   + 实施IP预热计划 {#implement-ip-warmup-plan}
-      + [IP预热计划入门](using/configuration/ip-warmup-gs.md)
+   + 实施 IP 预热计划{#implement-ip-warmup-plan}
+      + [开始使用 IP 预热计划](using/configuration/ip-warmup-gs.md)
       + [创建 IP 预热营销活动](using/configuration/ip-warmup-campaign.md)
-      + [创建IP预热计划](using/configuration/ip-warmup-plan.md)
-      + [运行IP预热计划](using/configuration/ip-warmup-execution.md)
+      + [创建 IP 预热计划](using/configuration/ip-warmup-plan.md)
+      + [运行 IP 预热计划](using/configuration/ip-warmup-execution.md)
    + 监测电子邮件地址 {#monitor-reputation}
       + [禁止列表](using/configuration/manage-suppression-list.md)
       + [重试](using/configuration/retries.md)
