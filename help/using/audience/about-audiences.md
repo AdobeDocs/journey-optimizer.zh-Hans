@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_campaigns_content_experiment_segment"
 >title="受众"
 >abstract="通过利用 Real-Time Customer Profile 数据，Adobe Experience Platform 让您能够轻松地构建区段定义，从而创建目标受众，用于捕捉客户的独特行为和偏好。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="选择活动受众"
+>abstract="此列表显示所有可用的Adobe Experience Platform受众。 选择营销活动要定位的受众。 在营销活动中配置的消息将发送给属于所选受众的所有个人。 [了解有关受众的更多信息](../audience/about-audiences.md)"
 
 [!DNL Journey Optimizer]允许您使用 Real-Time Customer Profile 数据直接从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单构建并利用 Adobe Experience Platform 受众，并将其用于历程或活动。
 
