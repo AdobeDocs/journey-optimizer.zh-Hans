@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
+source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >id="ajo_create_fragment"
 >title="定义您自己的片段"
 >abstract="创建和管理独立片段，以使您的内容可在多个历程和营销活动中重复使用。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="创建片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="创建片段"
 
 片段是可重复使用的组件，可在其中一个或多个电子邮件中引用 [!DNL Journey Optimizer] 营销活动和历程。
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
 >abstract="创建一个独立的表达式片段，以使您的内容可在多个历程和营销活动中重复使用。 使用表达式编辑器时，您可以利用在当前沙盒上创建的所有表达式片段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="利用表达式片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="利用表达式片段"
 
 1. [创建片段](#create-from-scratch) 从 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左菜单并选择 **[!UICONTROL 表达片段]** 类型。
 
