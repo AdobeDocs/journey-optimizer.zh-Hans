@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 95%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -123,3 +123,32 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 从用户个人资料到达画布中应用程序内活动到开始看到应用程序内消息之间，可能会发生激活延迟。
 
 * 应用程序内消息内容的大小限制为 2Mb。包含大图像可能会妨碍发布流程。
+
+## 决策管理 {#decision-management}
+
+### 性能护栏 {#performance-guardrails}
+
+投放吞吐量对应于决策管理应用程序服务在指定时间段内可以投放的决策响应数。 下表显示了每秒的决策数。
+
+| API | 每秒决策数 |
+|---------|----------|
+| 决策API请求 | 每秒500 |
+| Edge Decisioning API请求 | 每秒5000 |
+
+### 限制 {#offers-limitations}
+
+下面列出了决策管理的限制。
+
+* **批准的个性化优惠+后备优惠**  — 最多10,000个批准的个性化优惠和批准的后备优惠的组合。
+* **决策**  — 最多10,000项决策。
+* **实时决策** -Offer decisioning应用程序服务支持最多1,000个实时决策。
+* **每个响应返回的优惠** -Offer decisioning支持在请求中的所有决策范围内每个请求最多返回100个优惠。
+* **收藏集**  — 最多10,000个收藏集。
+* **每个决策的收藏集**  — 每个决策最多30个收藏集。
+* **决策规则+排名函数** 多达10,000个综合决策规则和排名功能。
+* **版面**  — 最多1,000个投放位置。
+* **每个决策的投放位置**  — 每个决策最多30个投放位置。
+* **每个决策的排名方法** -Offer decisioning应用程序服务支持每个决策最多30个排名函数。
+* **AI排名模型** -Offer decisioning应用程序服务支持最多5个AI排名模型。
+* **每个选件或收藏集的收藏集限定符** -Offer decisioning应用程序服务在任意单个个性化优惠或单个收藏集中支持最多20个收藏集限定符。
+* **集合限定符总数** -Offer decisioning应用程序服务支持最多1,000个收藏集限定符。
