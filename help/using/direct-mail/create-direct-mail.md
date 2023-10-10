@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 8%
 
 ---
 
@@ -58,6 +58,32 @@ ht-degree: 10%
 您现在可以开始配置要发送给直邮提供商的提取文件。
 
 ## 配置提取文件 {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="数据字段"
+>abstract="添加并配置直邮提供商向您的客户发送邮件所需的提取文件中显示的列和信息。 您最多可以添加50列。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="提取文件格式"
+>abstract="此 <b>排序方式</b> 选项允许您使用选定的字段对提取文件的列进行排序。 禁用此选项后，将根据用户档案ID字段自动对列进行排序。"
+
+1. 配置要在提取文件中显示的列和信息：
+
+   1. 单击 **[!UICONTROL 添加]** 按钮以创建新列。
+
+   1. 此 **[!UICONTROL 格式化]** 窗格显示在右侧，允许您设置选定的列。 指定 **[!UICONTROL 标签]** 用于列。
+
+   1. 在 **[!UICONTROL 数据]** 字段中，选择要显示的配置文件属性， [表达式编辑器](../personalization/personalization-build-expressions.md).
+
+   1. 要使用列对提取文件排序，请选择该列并打开 **[!UICONTROL 排序方式]** 选项。 此 **[!UICONTROL 排序方式]** 图标显示在中的列标签旁边 **[!UICONTROL 数据字段]** 部分。
+
+
+
+
+
+
 
 直邮提供商需要使用提取文件向客户发送邮件。 要定义提取文件配置，请执行以下步骤：
 
