@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 144afbd925301ea1eeb690adee335d205fded394
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 4%
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
 >title="定义应用程序内内容"
->abstract="自定义应用程序内消息的内容和样式。 您还可以添加媒体和操作按钮，使您的消息更加引人入胜和有效。"
+>abstract="自定义应用程序内消息的内容和样式。您还可以添加媒体和操作按钮，提升消息的吸引力和有效性。"
 
 您可以编辑应用程序内内容以配置体验选项：
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
 >title="定义应用程序内内容"
->abstract="消息布局为您提供用于构建消息框架的常用模板。 自定义布局提供上传或撰写自定义HTML消息的选项。"
+>abstract="消息版面为您提供了常用模板来构建消息。自定义版面提供了用于上传或撰写自定义 HTML 消息的选项。"
 
 从 **[!UICONTROL 消息布局]** 部分，根据您的消息传送需求从四个不同的布局选项中选择一个。
 
@@ -74,8 +74,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"
->title="选择“关闭”按钮的“样式”。"
->abstract="关闭按钮部分为您提供了选择消息关闭按钮变体的选项以及上传自定义图像的选项。"
+>title="选择“关闭”按钮的样式。"
+>abstract="关闭按钮部分包含用于选择消息关闭按钮变体的选项以及用于上传自定义图像的选项。"
 
 ![](assets/in_app_content_2.png)
 
@@ -97,8 +97,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_media"
->title="将媒体添加到应用程序内消息中，为最终用户创造有趣的体验。"
->abstract="提供指向内容的直接链接或使用资源选择器在Asset Essentials中选择要添加到消息中的媒体。"
+>title="将媒体添加到应用程序内消息中，为最终用户创造引人入胜的体验。"
+>abstract="提供内容的直接链接或使用资源选择器在 Asset Essentials 中选取媒体以添加到消息中。"
 
 此 **[!UICONTROL 媒体]** 字段允许您将媒体添加到应用程序内消息，从而为最终用户创造有趣的体验。
 
@@ -117,8 +117,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
->title="要撰写消息，请在标题和正文字段中输入内容。"
->abstract="可以在此处添加标题文本和正文文本。 要包含个性化令牌，请打开个性化对话框。"
+>title="要撰写消息，请在“标题”和“正文”字段中输入内容。"
+>abstract="可以在此处添加标题和正文文本。要包含个性化令牌，请打开个性化对话框。"
 
 要撰写消息，请在 **[!UICONTROL 页眉]** 和 **[!UICONTROL 正文]** 字段。
 
@@ -140,10 +140,10 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
->title="添加按钮以方便用户与应用程序内消息进行交互。"
->abstract="利用此部分，可在消息中添加行动号召按钮。 您可以为每个按钮包含自定义文本和目标。"
+>title="添加按钮以供用户与应用程序内消息进行交互。"
+>abstract="此部分将允许您向消息添加行动号召按钮。您可以为每个按钮包含自定义文本和目标。"
 
-添加按钮以方便用户与应用程序内消息进行交互。
+添加按钮以供用户与应用程序内消息进行交互。
 
 ![](assets/in_app_content_5.png)
 
@@ -179,8 +179,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_preview"
->title="预览您的应用程序内消息。"
->abstract="这是在将消息发送到设备的消息摘要时显示的预览图像。"
+>title="预览应用程序内消息。"
+>abstract="这是在消息发送到设备的消息摘要时将显示的预览图像。"
 
 ![](assets/in_app_content_6.png)
 
@@ -196,8 +196,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
->title="定义应用程序内消息的消息布局。"
->abstract="此部分允许您向应用程序内消息添加背景。 这要求启用UI接管。"
+>title="定义应用程序内消息的消息版面。"
+>abstract="此部分允许您将背景添加到应用程序内消息。这需要启用 UI 接管。"
 
 ![](assets/in_app_content_7.png)
 
@@ -212,7 +212,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_advanced"
 >title="定义消息高级设置。"
->abstract="此部分允许您增强应用程序内内容的个性化设置，尤其是当您启用了高级格式设置时。"
+>abstract="此部分可让您增强应用程序内内容的个性化，特别是在启用了“高级格式化”时。"
 
 ![](assets/in_app_content_8.png)
 

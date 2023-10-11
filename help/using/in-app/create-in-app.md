@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
 source-wordcount: '1987'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="管理应用程序内触发器"
->abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。 通过规则生成器，用户可以定义精确的条件和值。 当满足这些条件时，它们将启动一系列操作，包括投放应用程序内消息。"
+>abstract="通过选择将激活消息的特定事件和标准，有效地控制触发器。利用规则生成器，用户可以定义精确的条件和值。当满足这些条件时，他们将启动一系列操作，包括投放应用程序内消息。"
 
 您可以在营销活动或历程中添加应用程序内消息。 请按照下面详述的步骤在两个上下文中创建应用程序内消息。
 

@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="创建历程"
->abstract="使用 **Adobe Journey Optimizer** 使用存储在事件或数据源中的情境数据构建实时编排用例。"
+>abstract="借助 **Adobe Journey Optimizer**，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。"
 
 ## 先决条件{#start-prerequisites}
 

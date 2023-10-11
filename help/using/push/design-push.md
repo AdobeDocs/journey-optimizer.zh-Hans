@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="添加按钮以方便用户与推送通知交互。"
->abstract="利用此部分，可在消息中添加行动号召按钮。 对于iOS，指定通知类别标识符。 对于Android，您可以为每个按钮包含自定义文本和目标。"
+>abstract="此部分将允许您向消息添加行动号召按钮。对于iOS，指定通知类别标识符。 对于Android，您可以为每个按钮包含自定义文本和目标。"
 
 通过向推送内容添加按钮来创建可操作通知。
 

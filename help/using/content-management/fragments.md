@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -259,9 +259,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存为表达式片段"
->abstract="此 [!DNL Journey Optimizer] 表达式编辑器允许您将内容另存为表达式片段。 然后，可以使用这些表达式来构建个性化内容。"
+>abstract="[!DNL Journey Optimizer] 表达式编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于构建个性化内容。"
 
-此 [!DNL Journey Optimizer] 表达式编辑器允许您将内容另存为表达式片段。 然后，可以使用这些表达式来构建个性化内容。
+[!DNL Journey Optimizer] 表达式编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于构建个性化内容。
 
 要将内容另存为表达式片段，请执行以下步骤。
 

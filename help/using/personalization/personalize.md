@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 22%
+ht-degree: 35%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="个性化体验"
->abstract="使用 **Adobe Journey Optimizer** 利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 这可以是他们的名字、兴趣、居住地、购买的内容等等。"
+>abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的有关特定收件人的数据和信息，让您的消息适合每个特定收件人。该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
 
 
-发现 [!DNL Adobe Journey Optimizer] 个性化功能，利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 这可以是他们的名字、兴趣、居住地、购买的内容等等。
+发现 [!DNL Adobe Journey Optimizer] 个性化功能，利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。
 
 ➡️ [在这些视频中了解如何个性化消息](#video-perso)
 ➡️ [探索利用个性化的用例](personalization-use-case.md)

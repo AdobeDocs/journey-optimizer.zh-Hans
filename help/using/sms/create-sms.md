@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定义短信内容"
->abstract="使用表达式编辑器自定义短信消息并对消息进行个性化设置，以定义内容并合并动态元素。"
+>abstract="使用表达式编辑器定义内容并集成动态元素，从而自定义和个性化短信内容。"
 
 1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置短信内容。
 

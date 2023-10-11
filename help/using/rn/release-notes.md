@@ -17,7 +17,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能？"
->abstract="**Adobe Journey Optimizer** 不断提供新功能、现有功能的增强以及错误修复。 会在每月的最后一周将所有更改整合到发行说明中。"
+>abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。
 
