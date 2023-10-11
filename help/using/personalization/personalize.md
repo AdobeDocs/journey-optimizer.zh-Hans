@@ -21,7 +21,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="个性化体验"
->abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的有关特定收件人的数据和信息，让您的消息适合每个特定收件人。该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
+>abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的特定收件人相关数据和信息，让您的消息适合每个特定收件人。该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
 
 
 发现 [!DNL Adobe Journey Optimizer] 个性化功能，利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。

@@ -212,7 +212,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_advanced"
 >title="定义消息高级设置。"
->abstract="此部分可让您增强应用程序内内容的个性化，特别是在启用了“高级格式化”时。"
+>abstract="此部分可让您增强应用程序内内容的个性化，特别是在启用了“高级格式化”的情况下。"
 
 ![](assets/in_app_content_8.png)
 
