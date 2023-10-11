@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 8%
 >abstract="添加并配置直邮提供商向您的客户发送邮件所需的提取文件中显示的列和信息。 您最多可以添加50列。"
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="提取文件格式"
->abstract="此 <b>排序方式</b> 选项允许您使用选定的字段对提取文件的列进行排序。 禁用此选项后，将根据用户档案ID字段自动对列进行排序。"
+>abstract="对于每个字段，使用表达式编辑器指定标签和要显示的信息。 <br/><br/> 此 <b>排序方式</b> 选项允许您使用选定的字段对提取文件的列进行排序。"
 
 1. 配置要在提取文件中显示的列和信息：
 
