@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
+source-git-commit: bf43a223da595004972faa1147e8525988cd1b21
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 93%
+source-wordcount: '397'
+ht-degree: 87%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
+>title="新的决策管理API"
+>abstract="现已提供用于创建和管理决策管理对象的新API。 旧版api的支持将持续到2024年3月27日。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_api_support"
 >title="新的决策管理API"
 >abstract="现已提供用于创建和管理决策管理对象的新API。 旧版api的支持将持续到2024年3月27日。"
 
