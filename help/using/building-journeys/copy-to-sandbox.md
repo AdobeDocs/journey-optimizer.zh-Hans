@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aaa9dcbfc691eac0fd9d06e905c2e1d7612d854a
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 20%
@@ -42,7 +42,7 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->我们不保证将所有链接的元素复制到目标沙盒中。 我们强烈建议您在发布历程之前执行彻底检查。 这将允许您标识任何可能缺少的对象。
+>我们不保证将所有链接的元素复制到目标沙盒中。 我们强烈建议您在发布历程之前执行彻底检查。 这将允许您识别任何可能缺少的对象。
 
 目标沙盒中复制的对象是唯一的，不存在覆盖现有元素的风险。 历程和历程中的任何消息都会以草稿模式引入。 这允许您在目标沙盒上发布之前执行彻底验证。 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
 
