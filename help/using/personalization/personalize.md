@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 35%
@@ -70,3 +70,4 @@ ht-degree: 35%
 了解如何在消息中添加基于用户档案的个性化推送，以及如何将受众会员资格用作个性化块的先决条件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+
