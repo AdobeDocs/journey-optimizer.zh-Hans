@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3192'
 ht-degree: 3%
 
 ---
@@ -239,9 +239,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 电子邮件 — 顶级收件人域]** 图表和表详细说明了用户档案最常用于打开电子邮件的域。
 
->[!NOTE]
+>[!CAUTION]
 >
->此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为电子邮件激活发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+> 此 **[!UICONTROL 电子邮件 — 顶级收件人域]** 构件的准确率为99.95%。
 
 此 **[!UICONTROL 已优化和未优化]** 图表详细列出了与报文相关的主要信息，无论它们是否已优化：
 
@@ -256,6 +256,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
 * **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
+
+>[!NOTE]
+>
+>此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为电子邮件激活发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## “应用程序内”选项卡 {#inapp-global}
