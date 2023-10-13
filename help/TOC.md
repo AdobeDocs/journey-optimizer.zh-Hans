@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 98%
+source-wordcount: '1670'
+ht-degree: 97%
 
 ---
 
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
 + Web 渠道 {#web}
    + [开始使用 Web 渠道](using/web/get-started-web.md)
-   + [Web 渠道先决条件](using/web/web-prerequisites.md)
+   + 配置Web渠道 {#configure-web-channel}
+      + [Web 渠道先决条件](using/web/web-prerequisites.md)
+      + [配置 Web 子域](using/web/web-delegated-subdomains.md)
+      + [实施单页应用程序](using/web/web-spa-implementation.md)
    + [创建 Web 体验](using/web/create-web.md)
    + 创建 Web 页面 {#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [监测 Web 活动](using/web/monitor-web-campaigns.md)
       + [创作单页应用程序](using/web/web-spa.md)
-   + [配置 Web 子域](using/web/web-delegated-subdomains.md)
 + 基于代码的体验 {#code-based-experience}
    + [开始使用基于代码的渠道](using/code-based/get-started-code-based.md)
    + [基于代码的先决条件](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 98%
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置频率规则](using/configuration/frequency-rules.md)
-   + [实施单页应用程序](using/web/web-spa-implementation.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成 {#external-systems}
