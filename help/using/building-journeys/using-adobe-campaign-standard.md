@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: 历程，集成，标准，营销活动， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 4%
+source-wordcount: '961'
+ht-degree: 6%
 
 ---
 
 # Adobe Campaign Standard 操作 {#using_campaign_action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="自定义操作"
+>abstract="如果您拥有Adobe Campaign Standard，则可以使用集成。 它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。"
 
 如果您有Adobe Campaign Standard，则可以使用以下内置操作活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 推送]** 和 **[!UICONTROL 短信]**.
 

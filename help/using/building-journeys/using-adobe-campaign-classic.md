@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: 历程，集成， campaign， v7， v8， classic
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 28%
+source-wordcount: '199'
+ht-degree: 39%
 
 ---
 
 # Adobe Campaign v7/v8 操作 {#using_campaign_classic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acc"
+>title="自定义操作"
+>abstract="如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。"
 
 如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。利用此功能，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。
 

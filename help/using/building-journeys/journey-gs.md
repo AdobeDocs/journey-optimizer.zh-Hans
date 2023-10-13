@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 25%
+source-wordcount: '1727'
+ht-degree: 23%
 
 ---
 
@@ -44,6 +44,11 @@ ht-degree: 25%
    ![](assets/custom2.png)
 
 ## 访问历程 {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="历程"
+>abstract="设计客户历程，以提供个性化的情境式体验。Journey Optimizer使您可以利用存储在事件或数据源中的情境数据构建实时编排用例。 此 **概述** 选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。 此 **浏览** 选项卡显示现有历程的列表。"
 
 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 提供了以下两个选项卡：
 
@@ -77,11 +82,6 @@ ht-degree: 25%
 ![](assets/journey3bis.png)
 
 ## 构建历程{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="构建历程"
->abstract="此屏幕显示现有历程的列表。打开某个历程或单击“创建历程”，然后组合不同的事件、编排和操作活动，以此来构建您的多步骤跨渠道场景。"
 
 此步骤由 **商业用户**. 这是创建历程的位置。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 

@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1151'
 ht-degree: 17%
 
 ---
 
 # 电子邮件、应用程序内消息、推送、短信{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_activity"
+>title="消息活动"
+>abstract="Journey Optimizer附带内置消息功能。 您只需在历程中添加推送、短信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后在历程的上下文中执行并发送。"
 
 [!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后在历程的上下文中执行并发送。
 
