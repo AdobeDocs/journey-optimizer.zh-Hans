@@ -1,12 +1,12 @@
 ---
 title: 列出收藏集限定符
 description: 收藏集限定符允许您更好地对优惠进行组织和排序。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: adcf2c1b83f80110c926e06fa931167c411c8d91
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 4%

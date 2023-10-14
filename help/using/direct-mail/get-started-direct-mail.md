@@ -1,13 +1,13 @@
 ---
 title: 直邮入门
 description: 了解如何在Journey Optimizer中创建和直邮消息
-feature: Overview
+feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 17%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 创建条件
 description: 了解如何创建条件
-feature: Personalization
+feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 7%

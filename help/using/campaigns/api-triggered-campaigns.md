@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用 API 触发活动
 description: 了解如何使用Journey Optimizer API触发营销活动
+Feature: Campaigns, API
 topic: Content Management
 role: Developer, Admin
-level: Intermediate, Experienced
+level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%

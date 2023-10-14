@@ -1,12 +1,12 @@
 ---
 title: 创建个性化优惠
 description: 个性化优惠是基于资格规则和约束的可自定义营销消息。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%

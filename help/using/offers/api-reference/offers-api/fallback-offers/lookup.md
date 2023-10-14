@@ -1,12 +1,12 @@
 ---
 title: 查找后备优惠
 description: 如果客户不符合其他优惠的条件，则会向客户发送后备优惠
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 5%

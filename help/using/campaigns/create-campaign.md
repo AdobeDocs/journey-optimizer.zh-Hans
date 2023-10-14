@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 创建营销活动
 description: 了解如何在Journey Optimizer中创建营销活动
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 27%

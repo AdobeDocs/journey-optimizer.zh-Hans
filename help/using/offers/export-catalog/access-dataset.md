@@ -1,12 +1,12 @@
 ---
 title: 访问导出的优惠目录
 description: 了解导出优惠目录后，如何在Adobe Experience Platform上访问优惠目录
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 11%

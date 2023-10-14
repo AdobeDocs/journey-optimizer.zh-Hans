@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 修改或停止营销活动
 description: 了解如何在Journey Optimizer中修改、停止或复制实时营销活动
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%

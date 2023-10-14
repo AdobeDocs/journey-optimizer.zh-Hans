@@ -1,13 +1,13 @@
 ---
 title: 测试并发送直邮消息
 description: 了解如何在Journey Optimizer中测试和发送直邮消息
-feature: Overview
+feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 12%

@@ -1,12 +1,12 @@
 ---
 title: 列出收藏集
 description: 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
-feature: Offers
+feature: Offers, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%

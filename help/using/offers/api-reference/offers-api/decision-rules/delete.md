@@ -1,12 +1,12 @@
 ---
 title: 删除决策规则
 description: 决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 7%

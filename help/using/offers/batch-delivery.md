@@ -1,8 +1,10 @@
 ---
 title: 批量决策
 description: 了解如何向给定Adobe Experience Platform受众中的所有用户档案投放优惠决策。
+Feature: Offers
+Level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 3%

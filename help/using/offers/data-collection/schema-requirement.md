@@ -3,14 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: 配置事件捕获
 description: 了解如何配置优惠方案以捕获事件
-feature: Ranking Formulas
+feature: Ranking Formulas, Datasets, Offers
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
