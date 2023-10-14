@@ -1,13 +1,13 @@
 ---
 title: 直邮配置
 description: 了解如何在Journey Optimizer中配置直邮渠道
-feature: Overview
+feature: Direct Mail, Surface
 topic: Content Management
 role: User
-level: Beginner
+level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
+source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 31%
