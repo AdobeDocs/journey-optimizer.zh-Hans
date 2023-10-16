@@ -11,7 +11,7 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
+source-git-commit: 9236848f0f9ee3ece555833283378570ec498b1d
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 19%
@@ -69,7 +69,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* 您必须选择与为当前IP预热计划选择的活动使用相同曲面的活动。
    >
-   >* 您不能选择已在其他IP预热营销活动中使用的营销活动。
+   >* 您不能选择已在另一个IP预热计划中使用的营销活动。
 
 
 1. 在 **[!UICONTROL 配置文件排除]** 部分中，您可以看到始终排除该阶段先前运行的用户档案。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
