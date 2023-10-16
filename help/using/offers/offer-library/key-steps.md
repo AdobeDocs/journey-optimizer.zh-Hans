@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: fe295f020934893cbe90ba987742b5f9d3931158
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 13%
@@ -33,12 +33,13 @@ ht-degree: 13%
 
 1. 如果要定义规则以确定在给定投放位置应首先显示哪个优惠（而不是考虑优惠的优先级评分），则可以 **创建排名公式**.
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">创建投放位置</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">创建决策规则</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">创建标记</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">创建排名公式</a></p></td>
+</tr>
 </table>
 
 ## 创建和管理优惠 {#create-and-manage-offers}
@@ -49,11 +50,12 @@ ht-degree: 13%
 
 1. **创建收藏集** 将您创建的个性化优惠包含在决策中使用它们。
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">创建优惠</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">创建后备优惠</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">创建收藏集</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">创建收藏集</a></p></td>
+</tr>
 </table>
 
 ## 创建和配置决策 {#create-and-configure-decisions}
@@ -64,7 +66,7 @@ ht-degree: 13%
 
 1. 如果需要，您可以 **分配排名公式** 到投放位置。
 
-<table>
+<table style="table-layout:fixed"><tr style="border: 0;">
 <tr>
 <td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">创建决策</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">配置决策</a></p></td>
