@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '447'
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理使用长代码和免费电话号码的消息（如下所述），但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
+>根据短信的性质、发送短信的位置以及收件人的位置，短信通信可能会受到各种法律合规性要求的约束。 虽然Adobe Journey Optimizer会处理下面详述的短代码、长代码和免费电话号码的消息，但请咨询您的法律顾问，以确保您的短信通信符合所有适用的法律合规要求。
 >
 
 ## 本机入站关键词 {#sms-native-keywords}
 
-默认情况下，Adobe Journey Optimizer为免费和长代码消息处理以下标准英语回复消息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 请注意，在与Journey Optimizer一起使用时，只有Sinch和Infobip支持本机关键字。
+默认情况下，Adobe Journey Optimizer会处理短代码、免费和长代码消息的以下标准英语回复消息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 请注意，在与Journey Optimizer一起使用时，只有Sinch和Infobip支持本机关键字。
 
 这些关键字通常会触发来自第三方提供商的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
 
