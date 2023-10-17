@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件、模板、设计
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 25%
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 25%
 >id="ajo_use_template"
 >title="从模板构建内容"
 >abstract="要开始创建您的电子邮件内容，请选择现成的模板或自定义的现有模板，后者可以是从头开始创建的模板，也可以是从以前的电子邮件另存为的模板。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/content-templates.html#create-content-templates" text="创建内容模板"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="创建内容模板"
 
 从 **[!UICONTROL 创建电子邮件]** 屏幕，使用 **[!UICONTROL 选择设计模板]** 部分，以开始从模板构建内容。
 

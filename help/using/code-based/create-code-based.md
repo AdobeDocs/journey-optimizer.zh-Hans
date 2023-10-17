@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 10%
 >id="ajo_code_based_experience"
 >title="使用表达式编辑器"
 >abstract="插入和编辑要作为此基于代码的体验操作的一部分提供的代码。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/personalization-build-expressions.html" text="开始使用表达式编辑器"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="开始使用表达式编辑器"
 
 1. 从促销活动版本屏幕中，选择 **[!UICONTROL 编辑代码]**.
 
