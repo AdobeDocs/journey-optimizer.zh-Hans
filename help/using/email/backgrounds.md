@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 个性化电子邮件背景
 description: 了解如何个性化电子邮件背景
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 背景，电子邮件，颜色，编辑器
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 82%

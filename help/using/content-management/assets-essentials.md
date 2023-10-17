@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 在 Journey Optimizer 中使用 Assets Essentials
 description: Assets Essentials入门
-feature: Overview
-topic: Content Management
+feature: Assets, Integrations
+topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: assets， essentials， experience manager，集成
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 20%

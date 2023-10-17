@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 创建文本版本的电子邮件
 description: 了解如何创建文本版本的电子邮件
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 文本，电子邮件，版本，普通，编辑器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 75%

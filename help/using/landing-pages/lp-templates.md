@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用登陆页面模板
 description: 了解如何将登陆页面另存为模板并在Journey Optimizer中重复使用
-feature: Landing Pages
+feature: Landing Pages, Templates
 topic: Content Management
 role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，模板
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 12%

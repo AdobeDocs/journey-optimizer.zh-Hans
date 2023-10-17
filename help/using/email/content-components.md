@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用电子邮件设计器内容组件
 description: 了解如何在电子邮件中使用内容组件
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 57%

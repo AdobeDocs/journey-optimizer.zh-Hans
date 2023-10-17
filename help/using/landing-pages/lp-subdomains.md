@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 配置登陆页面子域
 description: 了解如何使用Journey Optimizer配置登陆页面子域
+feature: Landing Pages, Subdomains
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 登陆、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 24%

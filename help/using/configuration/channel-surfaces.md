@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 设置渠道表面
 description: 了解如何配置和监控渠道界面
-feature: Application Settings, Surface
+feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 9%

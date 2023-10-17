@@ -5,11 +5,11 @@ title: 在登陆页面中使用自定义JavaScript
 description: 了解如何在Journey Optimizer中设计登陆页面的内容
 feature: Landing Pages
 topic: Content Management
-role: User
-level: Beginner
+role: Developer
+level: Experienced
 keywords: 登录，登陆页面， javascript，代码
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 2%

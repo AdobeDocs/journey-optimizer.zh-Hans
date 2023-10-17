@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 创建电子邮件
 description: 了解如何在 Journey Optimizer 中创建电子邮件
-feature: Overview
+feature: Email
 topic: Content Management
 role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%

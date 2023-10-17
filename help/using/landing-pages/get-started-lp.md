@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 登陆页面入门
 description: 了解 Journey Optimizer 中的登陆页面
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: 登陆、登陆页面、开始、入门
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用 Campaign v7/v8 发送消息
 description: 了解如何使用Campaign v7/v8发送消息
-feature: Actions
+feature: Integrations
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: 历程，消息，营销活动，集成
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 3%

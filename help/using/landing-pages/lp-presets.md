@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 定义登陆页面预设
 description: 了解如何配置环境以通过Journey Optimizer创建和使用登陆页面
+feature: Landing Pages, Channel Configuration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 17%

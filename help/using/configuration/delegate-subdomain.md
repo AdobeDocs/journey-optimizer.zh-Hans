@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 委派子域
 description: 了解如何委派子域。
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
+source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
 source-wordcount: '1757'
 ht-degree: 23%

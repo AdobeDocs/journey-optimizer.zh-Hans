@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 创建内容试验
 description: 了解如何在营销活动中创建内容试验
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
@@ -68,7 +68,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    * **[!UICONTROL 名称]**
    * **[!UICONTROL 描述]**
 
-1. 定义要定位的受众。 要执行此操作，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)
+1. 定义要定位的受众。 要执行此操作，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)。
 
    在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](get-started-experiment.md#content-experiment-work)
 

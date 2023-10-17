@@ -1,13 +1,13 @@
 ---
 title: 应用程序内消息传送入门
 description: 了解如何使用 Journey Optimizer 发送应用程序内通知
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%

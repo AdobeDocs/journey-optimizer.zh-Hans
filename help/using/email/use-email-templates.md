@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用电子邮件模板
 description: 了解如何将电子邮件内容另存为模板并在Journey Optimizer中重复使用
-feature: Overview
+feature: Templates, Email Design
 topic: Content Management
 role: User
 level: Beginner
 keywords: 电子邮件、模板、设计
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 28%

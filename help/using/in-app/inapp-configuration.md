@@ -2,10 +2,11 @@
 title: 应用程序内渠道先决条件
 description: 了解如何配置环境以使用Journey Optimizer发送应用程序内消息
 role: Admin
+feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 11%

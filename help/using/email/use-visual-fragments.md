@@ -3,19 +3,19 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用可视化片段
 description: 了解如何在Journey Optimizer营销活动和历程中创建电子邮件时使用可视化片段
-feature: Overview
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# 向您的电子邮件添加可视化片段 {#use-visual-fragments}
+# 将可视片段添加到电子邮件 {#use-visual-fragments}
 
 您可以在以下位置使用可视化片段： [电子邮件](get-started-email-design.md) 在历程或营销策划中，或在 [内容模板](../content-management/content-templates.md).
 

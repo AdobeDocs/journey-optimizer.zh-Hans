@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用Adobe Stock图像
 description: Adobe Stock入门
-feature: Overview
+feature: Assets, Integrations
 topic: Content Management
 role: User
 level: Beginner
 keywords: stock，图像，集成，照片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 13%

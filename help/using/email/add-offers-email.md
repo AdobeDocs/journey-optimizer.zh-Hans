@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 添加个性化优惠
 description: 了解如何向消息添加个性化优惠
-feature: Journeys
+feature: Email Design, Offers
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%

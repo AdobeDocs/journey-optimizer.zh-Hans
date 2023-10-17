@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用内容助手生成图像
 description: 内容助理入门
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
@@ -11,7 +11,7 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 11%
@@ -29,8 +29,6 @@ ht-degree: 11%
 * **[使用内容助手生成图像](generative-image.md)**
 
 >[!ENDSHADEBOX]
-
-
 
 创建电子邮件或网页并使其个性化后，可使用内容助手将您的内容提升到新的水平。 这款强大的工具可让您轻松个性化并增强内容。
 
