@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 预览，内容，电子邮件，验证，测试，配置文件
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 11%
+source-wordcount: '991'
+ht-degree: 9%
 
 ---
 
 # 预览和测试电子邮件 {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="预览和测试消息"
+>abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
 
 定义电子邮件内容后，您可以使用测试用户档案对其进行预览和测试。 如果您已插入 [个性化内容](../personalization/personalize.md)，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
@@ -44,13 +49,6 @@ ht-degree: 11%
 ➡️ [在此视频中了解如何预览和验证您的电子邮件](#video-preview)
 
 ## 选择测试配置文件 {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="预览和测试消息"
->abstract="定义消息内容后，即可使用测试配置文件对其进行预览和测试。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#email-rendering" text="电子邮件呈现"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=zh-Hans#preview-email" text="预览"
 
 使用 [测试用户档案](../audience/creating-test-profiles.md) 定位不符合所规定定位标准的其他收件人。
 

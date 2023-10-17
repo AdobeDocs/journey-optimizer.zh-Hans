@@ -7,21 +7,16 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 12%
+source-wordcount: '460'
+ht-degree: 13%
 
 ---
 
 # 测试并发送直邮消息 {#direct-mail-test-send}
 
 ## 预览提取文件 {#preview-dm}
-
->[!CONTEXTUALHELP]
->id="ajo_direct_mail_preview"
->title="提取文件预览"
->abstract="在此窗格中，您可以预览在左窗格中选择的每个测试配置文件的提取文件显示方式。 如果您已插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。"
 
 定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
