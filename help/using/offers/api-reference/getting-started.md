@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 87%
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
->title="新的决策管理API"
->abstract="现已提供用于创建和管理决策管理对象的新API。 旧版api的支持将持续到2024年3月27日。"
+>title="新的决策管理 API"
+>abstract="用于创建和管理决策管理对象的新 API 现已推出。旧版 API 支持的截止日期为 2024 年 3 月 27 日。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
->title="新的决策管理API"
->abstract="现已提供用于创建和管理决策管理对象的新API。 旧版api的支持将持续到2024年3月27日。"
+>title="新的决策管理 API"
+>abstract="用于创建和管理决策管理对象的新 API 现已推出。旧版 API 支持的截止日期为 2024 年 3 月 27 日。"
 
 本开发人员指南提供了帮助您开始使用 [!DNL Offer Library] API 的步骤。此外，该指南提供了使用决策引擎执行关键操作的示例 API 调用。
 

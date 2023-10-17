@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
->title="个性化设置推送通知。"
->abstract="要撰写消息，请在标题和正文字段中输入内容。 要包含个性化令牌，请打开个性化对话框。"
+>title="个性化推送通知。"
+>abstract="要撰写消息，请在“标题”和“正文”字段中输入内容。要包含个性化令牌，请打开个性化对话框。"
 
 要撰写消息，请单击 **[!UICONTROL 标题]** 和 **[!UICONTROL 正文]** 字段。 使用表达式编辑器定义内容、个性化数据和添加动态内容。 了解有关 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
 >title="将媒体添加到推送通知"
->abstract="您可以添加在通知中显示的图像、视频或GIF。"
+>abstract="您可以添加将在通知中显示的图像、视频或 GIF。"
 
 在推送通知的iOS版本中，您可以添加在通知中显示的图像、视频或GIF。
 
@@ -70,8 +70,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
->title="添加按钮以方便用户与推送通知交互。"
->abstract="此部分将允许您向消息添加行动号召按钮。对于iOS，指定通知类别标识符。 对于Android，您可以为每个按钮包含自定义文本和目标。"
+>title="添加按钮以供用户与推送通知进行交互。"
+>abstract="此部分将允许您向消息添加行动号召按钮。对于 iOS，指定通知类别标识符。对于 Android，您可以为每个按钮包含自定文本和目标。"
 
 通过向推送内容添加按钮来创建可操作通知。
 
@@ -105,7 +105,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-custom"
 >title="为推送通知配置自定义数据。"
->abstract="将自定义变量添加到有效负载中，具体取决于您的移动应用程序配置。"
+>abstract="根据移动应用程序配置，将自定义变量添加到负载。"
 
 在 **[!UICONTROL 自定义数据]** 部分，您可以根据移动应用程序配置向有效负载添加自定义变量。 有关如何在Adobe Experience Platform和AdobeLaunch中设置推送通知的更多信息，请参阅 [本节](push-gs.md)
 
@@ -114,7 +114,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-advanced"
 >title="为推送通知配置高级选项。"
->abstract="此部分允许您增强推送通知的个性化设置。"
+>abstract="此部分可让您增强推送通知的个性化。"
 
 您可以配置 **[!UICONTROL 高级选项]** 用于推送通知。 可用参数如下所示：
 

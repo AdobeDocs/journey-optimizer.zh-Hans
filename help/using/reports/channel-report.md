@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 2%
+ht-degree: 32%
 
 ---
 
@@ -45,63 +45,63 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="电子邮件 — 发送统计信息总数"
->abstract="电子邮件 — 总发送统计数据KPI汇总了有关推送通知的基本数据，如定向或投放的消息。"
+>title="电子邮件 - 发送总数统计数据"
+>abstract="电子邮件 - 发送总数统计数据 KPI 汇总了有关推送通知的基本数据，例如定向邮件或已投放邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="电子邮件 — 跟踪统计信息总数"
->abstract="电子邮件 — 跟踪统计数据KPI总计可提供您电子邮件的配置文件活动数据。"
+>title="电子邮件 - 跟踪总数统计数据"
+>abstract="电子邮件 - 跟踪总数统计数据 KPI 提供有关电子邮件的配置文件活动的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
->title="电子邮件 — 随时间变化的发送统计数据"
->abstract="电子邮件 — 随时间变化的发送统计数据图表显示有关已发送电子邮件的数据，按小时、每天、每周或每月划分。"
+>title="电子邮件 - 一段时间内的发送统计数据"
+>abstract="“电子邮件 - 一段时间内的发送统计数据”图表显示有关已发送电子邮件的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
->title="电子邮件 — 随时间变化的跟踪统计数据"
->abstract="电子邮件 — 随时间变化的跟踪统计数据图表提供了电子邮件用户档案活动的数据，按小时、每天、每周或每月划分。"
+>title="电子邮件 - 一段时间内的跟踪统计数据"
+>abstract="“电子邮件 - 一段时间内的跟踪统计数据”图表提供有关您的电子邮件的配置文件活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
 >title="退回类别"
->abstract="“退回类别”图表和表提供了有关临时错误和永久错误的数据。"
+>abstract="“退回类别”图表提供有关临时错误和永久性错误的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
 >title="退回原因"
->abstract="“退回原因”图形和表包含与退回消息相关的可用数据。"
+>abstract="“退回原因”图表包含与退回邮件相关的可用数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
+>abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
->title="排除的原因"
->abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+>title="排除原因"
+>abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="按域发送和投放"
->abstract="“按域发送和交付”图表和表格显示了每个重要电子邮件发送数据的域级细分。"
+>title="按域列出的已发送和已投放邮件"
+>abstract="“按域列出的已发送和已投放邮件”图表表示所有重要电子邮件发送数据的域级细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
 >title="按域列出的退回和错误"
->abstract="“按域列出的退回和错误”图表和表表示在发送过程中发生的特定错误的域级别细分。"
+>abstract="“按域列出的退回和错误”图表表示发送过程中发生的特定错误的域级细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="按域打开和点击"
->abstract="“按域划分的打开和点击次数”图表和表格显示了访客与您的电子邮件互动的域级细分。"
+>title="按域列出的打开和点击数"
+>abstract="“按域列出的打开和点击数”图表表示访客与电子邮件的互动的域级细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
 >title="按域列出的退回原因"
->abstract="按域划分的跳出原因图表和表格表示有关临时和永久错误的域级数据细分。"
+>abstract="“按域列出的退回原因”图表表示临时错误和永久性错误数据的域级细分。"
 
 在渠道报表中，电子邮件菜单详细说明与促销活动和历程中发送的电子邮件相关的主要信息。 指标详见下文。
 
@@ -182,43 +182,43 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
->title="推送通知 — 发送统计信息总数"
->abstract="推送通知 — 总发送统计数据KPI汇总了有关推送通知的基本数据，例如“已定向”或“已传送”。"
+>title="推送通知 - 发送总数统计数据"
+>abstract="推送通知 - 发送总数统计数据 KPI 汇总了有关推送通知的基本数据，例如定向邮件或已投放邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
->title="推送通知 — 跟踪统计信息总数"
->abstract="“推送通知 — 跟踪总数”统计信息提供有关推送通知的用户档案活动的数据。"
+>title="推送通知 - 跟踪总数统计数据"
+>abstract="“推送通知 - 跟踪总数统计数据”提供有关推送通知的配置文件活动的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
->title="推送通知 — 发送一段时间内的统计数据"
->abstract="“推送通知发送随时间变化的统计数据”图表显示有关已发送推送通知的数据，按小时、每天、每周或每月划分。"
+>title="推送通知 - 一段时间内的发送统计数据"
+>abstract="“一段时间内的推送通知发送统计数据”图表显示有关已发送推送通知的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
->title="推送通知 — 随时间变化的跟踪统计数据"
->abstract="推送通知 — 随时间变化的跟踪统计数据图表提供推送通知的用户档案活动数据，按小时、每天、每周或每月划分。"
+>title="推送通知 - 一段时间内的跟踪统计数据"
+>abstract="“推送通知 - 一段时间内的跟踪统计数据”图表提供有关推送通知的配置文件活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
->title="排除的原因"
->abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+>title="排除原因"
+>abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
+>abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
->title="按平台跟踪统计数据"
->abstract="“按平台跟踪统计数据”图表和表根据用户档案的操作系统提供推送通知的用户档案活动数据。"
+>title="按平台列出的跟踪统计数据"
+>abstract="“按平台列出的跟踪统计数据”图表根据配置文件的操作系统提供有关推送通知的配置文件活动的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
->title="按平台发送统计数据"
->abstract="“按平台发送统计数据”图表和表格显示了有关已发送推送通知的数据。"
+>title="按平台列出的发送统计数据"
+>abstract="“按平台列出的发送统计数据”图表显示有关已发送的推送通知的数据。"
 
 在渠道报表中，推送通知菜单详细列出了与促销活动和历程中发送的推送通知有关的主要信息。 指标详见下文。
 
@@ -281,38 +281,38 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
->title="短信 — 发送统计信息总数"
->abstract="SMS — 总发送统计数据KPI汇总有关SMS消息的基本数据，如已定位或已投放。"
+>title="短信 - 发送总数统计数据"
+>abstract="短信 - 发送总数统计数据 KPI 汇总了有关短信的基本数据，例如“定向”或“已投放”信息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
->title="短信 — 跟踪统计信息总数"
->abstract="SMS — 总跟踪统计信息提供有关短信消息的用户档案活动的数据。"
+>title="短信 - 跟踪总数统计数据"
+>abstract="“短信 - 跟踪总数统计数据”提供有关短信的配置文件活动的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
->title="短信 — 随时间变化的发送统计数据"
->abstract="SMS — 随时间变化的发送统计数据图表显示有关已发送短信消息的数据，按小时、每天、每周或每月划分。"
+>title="短信 - 一段时间内的发送统计数据"
+>abstract="“短信 - 一段时间内的发送统计数据”图表显示有关已发送短信的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
->title="短信 — 随时间变化的跟踪统计数据"
->abstract="短信 — 随时间变化的跟踪统计数据图表提供短信消息的用户档案活动数据，每小时、每天、每周或每月进行划分。"
+>title="短信 - 一段时间内的跟踪统计数据"
+>abstract="“短信 - 一段时间内的跟踪统计数据”图表提供有关短信的配置文件活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
->title="排除的原因"
->abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+>title="排除原因"
+>abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
 >title="退回原因"
->abstract="“退回原因”图形和表包含与退回消息相关的可用数据。"
+>abstract="“退回原因”图表包含与退回邮件相关的可用数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
+>abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
 
 在渠道报表中，短信菜单详细说明与促销活动和历程中发送的短信相关的主要信息。 指标详见下文。
 
@@ -366,18 +366,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
->title="直邮 — 发送统计信息总数"
->abstract="直邮 — 总发送统计数据KPI汇总了有关直邮消息的基本数据，如“已定向”或“已投放”。"
+>title="直邮 - 发送总数统计数据"
+>abstract="直邮 - 发送总数统计数据 KPI 汇总了有关直邮的基本数据，例如定向邮件或已投放邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
->title="排除的原因"
->abstract="排除的原因图表和表说明了导致用户档案从目标受众中排除而不接收消息的各种因素。"
+>title="排除原因"
+>abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误。"
+>abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
 
 在渠道报表中，直邮菜单详细列出与促销活动和历程中发送的直邮消息相关的主要信息。 量度详见下文。
 
@@ -406,13 +406,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
->title="应用程序内 — 总参与度"
->abstract="应用程序内 — 总参与度KPI提供关于访客与应用程序内消息互动情况的全面信息，包括展示次数和交互次数等量度。"
+>title="应用程序内 - 总参与次数"
+>abstract="应用程序内 - 总参与次数 KPI 提供有关访客与应用程序内消息的交互情况的全面信息，包括展示次数和交互次数等量度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="应用程序内 — 参与超时"
->abstract="应用程序内 — 参与超时图表跟踪应用程序内展示和交互，提供每小时、每天、每周和每月细分。"
+>title="应用程序内 - 一段时间内的参与次数"
+>abstract="“应用程序内 - 一段时间内的参与次数”图表跟踪应用程序内展示次数和交互次数，并提供每小时、每日、每周和每月细分。"
 
 在渠道报表中，应用程序内菜单详细列出与促销活动和历程中发送的应用程序内消息相关的主要信息。 指标详见下文。
 
@@ -438,13 +438,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
->title="Web — 总参与度"
->abstract="Web — 总参与度KPI提供关于访客与网页之间参与度的全面信息，包括展示和交互等量度。"
+>title="Web - 总参与次数"
+>abstract="Web - 总参与次数 KPI 提供有关访客与网页的交互情况的全面信息，包括展示次数和交互次数等量度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Web — 总参与超时数"
->abstract="Web — 参与超时图表跟踪您的网页展示次数和交互，提供每小时、每天、每周和每月的细分。"
+>title="Web - 一段时间内的总参与次数"
+>abstract="“Web - 一段时间内的参与次数”图表跟踪您的网页展示次数和交互次数，并提供每小时、每天、每周和每月细分。"
 
 在渠道报表中，Web菜单详细列出与促销活动和历程中包含的网页相关的主要信息。 指标详见下文。
 

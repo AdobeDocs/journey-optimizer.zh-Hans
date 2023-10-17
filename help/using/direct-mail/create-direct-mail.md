@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -62,12 +62,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="数据字段"
->abstract="添加并配置直邮提供商向您的客户发送邮件所需的提取文件中显示的列和信息。 您最多可以添加50列。"
+>abstract="添加并配置要在直邮提供商向客户发送电子邮件时所需的提取文件中显示的列和信息。最多可以添加 50 个列。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="提取文件格式"
->abstract="对于每个字段，使用表达式编辑器指定标签和要显示的信息。 <br/><br/> 此 <b>排序方式</b> 选项允许您使用选定的字段对提取文件的列进行排序。"
+>abstract="对于每个字段，使用表达式编辑器指定一个标签和要显示的信息。<br/><br/>这<b>排序方式</b>选项可让您使用选定字段对提取文件的列进行排序。"
 
 1. 配置要在提取文件中显示的列和信息：
 

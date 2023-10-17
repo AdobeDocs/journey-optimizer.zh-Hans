@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 27%
 
 ## 定义受众 {#audience}
 
-单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)
+单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)。
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送一次消息后立即终止。 但是，您可以灵活地为发送消息设置特定的日期和时间。 此外，您还可以为定期或API触发的活动指定结束日期。 在操作触发器中，您还可以配置消息发送频率以符合您的首选项。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即终止。不过，您可以灵活地设置消息的具体发送日期和时间。此外，您可以指定定期的或 API 触发的营销活动的结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

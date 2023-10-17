@@ -11,7 +11,7 @@ exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="标记"
->abstract="利用此字段，可将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。"
+>abstract="利用此字段，您可以将 Adobe Experience Platform 统一标记分配给您的营销活动。这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。"
 
 使用 Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hans)，您可以轻松地对 Journey Optimizer 历程和营销活动进行分类，以改进列表中的搜索。
 

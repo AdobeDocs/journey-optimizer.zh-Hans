@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="选择活动受众"
->abstract="此列表显示所有可用的Adobe Experience Platform受众。 选择营销活动要定位的受众。 在营销活动中配置的消息将发送给属于所选受众的所有个人。 [了解有关受众的更多信息](../audience/about-audiences.md)"
+>title="选择营销活动受众"
+>abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[了解有关受众的更多信息](../audience/about-audiences.md)。"
 
 [!DNL Journey Optimizer]允许您使用 Real-Time Customer Profile 数据直接从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单构建并利用 Adobe Experience Platform 受众，并将其用于历程或活动。
 
