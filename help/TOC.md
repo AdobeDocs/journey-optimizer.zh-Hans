@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 93f4f4edcce7c7e9f7472a871c96cefa276bdda1
+source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1663'
+ht-degree: 98%
 
 ---
 
@@ -233,7 +233,6 @@ ht-degree: 97%
    + 配置Web渠道 {#configure-web-channel}
       + [Web 渠道先决条件](using/web/web-prerequisites.md)
       + [配置 Web 子域](using/web/web-delegated-subdomains.md)
-      + [实施单页应用程序](using/web/web-spa-implementation.md)
    + [创建 Web 体验](using/web/create-web.md)
    + 创建 Web 页面 {#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
