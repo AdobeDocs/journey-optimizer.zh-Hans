@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
 
 # 使用 API 触发活动 {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="营销活动类型"
+>abstract="要获得有限可用性功能以在不创建用户档案的情况下发送消息，请按照文档中详述的步骤操作。"
 
 ## 关于API触发的营销活动 {#about}
 
