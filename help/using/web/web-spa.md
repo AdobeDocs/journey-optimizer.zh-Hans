@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
+source-git-commit: fb05b110fc1bd205810e7d85be4071644f52b191
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 26%
+source-wordcount: '481'
+ht-degree: 25%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 26%
 
 ## 在Web SDK实施中定义视图 {#define-views}
 
-可在Adobe中利用XDM视图 [!DNL Journey Optimizer] 使营销人员能够通过Web可视化编辑器在SPA上运行Web个性化和实验营销活动。 [了解详情](web-spa-implementation.md)
+可在Adobe中利用XDM视图 [!DNL Journey Optimizer] 使营销人员能够通过Web可视化编辑器在SPA上运行Web个性化和实验营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-要能够访问和创作中的视图，请执行以下操作 [!DNL Journey Optimizer] 用户界面中，请确保您遵循中列出的步骤 [本节](web-spa-implementation.md#implement-xdm-views).
+要能够访问和创作中的视图，请执行以下操作 [!DNL Journey Optimizer] 用户界面中，请确保您遵循中列出的步骤 [本节](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## 在Web设计器中发现视图 {#discover-views}
 
