@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 架构入门
 description: 了解如何在 Adobe Journey Optimizer 中使用 Adobe Experience Platform 架构
-role: User
-level: Beginner
+feature: Data Model, Datasets, Data Management
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: 架构、平台、数据、结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%

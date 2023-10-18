@@ -1,12 +1,12 @@
 ---
 title: 快速入门
 description: 了解如何开始使用优惠库 API，使用决策引擎执行关键操作。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
-role: User
-level: Intermediate
+role: Data Engineer
+level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -61,7 +61,7 @@ ht-degree: 100%
 <!--
 >[!NOTE]
 >
-> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = “Mobile_Sheliak”`.
+> The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = "Mobile_Sheliak"`.
 -->
 
 ## 操作方法视频 {#video}

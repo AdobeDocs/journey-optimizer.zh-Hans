@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 测试您的历程
 description: 了解如何测试您的历程
-feature: Journeys
+feature: Journeys, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%

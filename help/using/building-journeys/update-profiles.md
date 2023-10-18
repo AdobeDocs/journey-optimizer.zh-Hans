@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 更新配置文件
 description: 了解如何在历程中使用更新用户档案活动
-feature: Journeys
+feature: Journeys, Profiles, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%

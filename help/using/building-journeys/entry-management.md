@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 配置文件条目管理
 description: 了解如何管理配置文件输入
-feature: Journeys
+feature: Journeys, Profiles
 role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 35f52afe61bf3eda897cc96f5484778522e38d45
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 13%

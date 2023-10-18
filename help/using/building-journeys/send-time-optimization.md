@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 发送时间优化
 description: 了解如何在消息中优化参数发送时间
-feature: Journeys
+feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 发送时间，发送，消息，优化，历程， AI，智能
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 36%

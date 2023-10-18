@@ -1,12 +1,12 @@
 ---
 title: 更新决策规则
 description: 决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 9%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 自定义操作增强功能
 description: 了解有关自定义操作的最新增强功能的更多信息
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 7%

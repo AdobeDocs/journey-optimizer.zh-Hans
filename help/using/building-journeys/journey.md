@@ -3,22 +3,22 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 历程入门
 description: 历程入门
-feature: Journeys
+feature: Journeys, Get Started, Overview
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: 历程，发现，开始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
 
 # 历程入门{#jo-general-principle}
 
-使用 [!DNL Journey Optimizer] 使用存储在事件或数据源中的情境数据构建实时编排用例。
+借助 [!DNL Journey Optimizer]，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。
 
 设计由以下功能提供支持的分步式高级方案：
 

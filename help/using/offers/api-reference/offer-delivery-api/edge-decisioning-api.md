@@ -1,12 +1,12 @@
 ---
 title: 使用Edge Decisioning API提供优惠
 description: Adobe Experience Platform Web SDK允许您检索和渲染使用API或优惠库创建的个性化优惠。
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 4%

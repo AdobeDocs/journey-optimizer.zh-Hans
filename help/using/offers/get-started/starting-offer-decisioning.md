@@ -1,12 +1,12 @@
 ---
 title: 决策管理入门
 description: 了解 Adobe Journey Optimizer 如何帮助您在适合的时间向客户发送合适的优惠
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 95%

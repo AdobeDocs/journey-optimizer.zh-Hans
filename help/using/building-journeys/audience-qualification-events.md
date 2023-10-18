@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 受众资格事件
 description: 了解受众资格事件
-feature: Journeys
+feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 29%

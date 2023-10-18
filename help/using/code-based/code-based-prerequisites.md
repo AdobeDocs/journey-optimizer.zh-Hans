@@ -1,15 +1,15 @@
 ---
 title: 基于代码的体验先决条件
 description: 要使用Journey Optimizer基于代码的功能编辑应用程序和网页，请遵循此页面上的先决条件
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 19%

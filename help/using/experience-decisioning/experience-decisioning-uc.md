@@ -1,14 +1,14 @@
 ---
 title: Experience Decisioning用例
 description: 了解如何使用基于代码的渠道的实验创建决策
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
-level: Intermediate
+level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 18%

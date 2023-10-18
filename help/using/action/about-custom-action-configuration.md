@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 配置自定义操作
 description: 了解如何配置自定义操作
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin
+role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 14%

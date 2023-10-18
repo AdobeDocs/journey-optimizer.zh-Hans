@@ -5,10 +5,10 @@ title: 历程结束
 description: 了解历程如何以Journey Optimizer结束
 feature: Journeys
 role: User
-level: Beginner
+level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 1%
