@@ -1,11 +1,13 @@
 ---
 title: 开发人员入门
 description: 作为开发人员，了解有关如何使用Journey Optimizer的更多信息
-level: Intermediate
+feature: Get Started
+role: Developer
+level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%

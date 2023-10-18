@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 营销活动入门
 description: 了解 Journey Optimizer 中营销活动的更多信息
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 查看和激活营销活动
 description: 了解如何在Journey Optimizer中查看和激活营销活动
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%

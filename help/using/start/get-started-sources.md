@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer 源连接器入门
 description: 了解如何在 Adobe Journey Optimizer 中从外部源摄取数据
+feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 将数据集导出到云存储位置
 description: 了解如何使用Adobe Experience Platform云存储目标导出数据集。
+feature: Datasets
 role: User
 level: Beginner
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 6%
