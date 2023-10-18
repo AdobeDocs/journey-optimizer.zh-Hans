@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1059'
 ht-degree: 11%
 
 ---
@@ -32,8 +32,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->目前，Web渠道不适用于已购买AdobeHealthcare Shield附加产品的组织。
->
+>目前，Web渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
 ## 实施先决条件 {#implementation-prerequisites}
 
