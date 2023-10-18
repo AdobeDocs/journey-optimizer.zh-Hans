@@ -48,7 +48,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
 >title="将媒体添加到推送通知"
->abstract="您可以添加将在通知中显示的图像、视频或 GIF。"
+>abstract="可添加在通知中显示的图像、视频或 GIF。"
 
 在推送通知的iOS版本中，您可以添加在通知中显示的图像、视频或GIF。
 
@@ -71,7 +71,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="添加按钮以供用户与推送通知进行交互。"
->abstract="此部分将允许您向消息添加行动号召按钮。对于 iOS，指定通知类别标识符。对于 Android，您可以为每个按钮包含自定文本和目标。"
+>abstract="通过此部分，可将行动号召按钮添加到消息。对于 iOS，指定通知类别标识符。对于 Android，可为每个按钮加入自定义文本和目标。"
 
 通过向推送内容添加按钮来创建可操作通知。
 
@@ -114,7 +114,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-advanced"
 >title="为推送通知配置高级选项。"
->abstract="此部分可让您增强推送通知的个性化。"
+>abstract="通过此部分，可增强推送通知的个性化。"
 
 您可以配置 **[!UICONTROL 高级选项]** 用于推送通知。 可用参数如下所示：
 

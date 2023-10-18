@@ -20,7 +20,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="渠道级报告"
->abstract="渠道报告全面概述所有渠道上的流量和参与量度。报告分为不同的构件，详细说明营销活动和历程的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
+>abstract="渠道报告全面概述所有渠道上的流量和参与量度。报告分为不同的构件，详细说明营销活动和历程的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
 
 >[!IMPORTANT]
 >
@@ -46,12 +46,12 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="电子邮件 - 发送总数统计数据"
->abstract="电子邮件 - 发送总数统计数据 KPI 汇总了有关推送通知的基本数据，例如定向邮件或已投放邮件。"
+>abstract="“电子邮件 - 发送总数统计数据”KPI 汇总有关推送通知的基本数据，如定向邮件或已送达邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
 >title="电子邮件 - 跟踪总数统计数据"
->abstract="电子邮件 - 跟踪总数统计数据 KPI 提供有关电子邮件的配置文件活动的数据。"
+>abstract="“电子邮件 - 跟踪总数统计数据”KPI 提供有关电子邮件的配置文件活动的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
@@ -76,32 +76,32 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="按域列出的已发送和已投放邮件"
->abstract="“按域列出的已发送和已投放邮件”图表表示所有重要电子邮件发送数据的域级细分。"
+>title="按域列出的已发送和已送达邮件"
+>abstract="“按域列出的已发送和已送达邮件”图表表示所有重要电子邮件发送数据的域级细分。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
 >title="按域列出的退回和错误"
->abstract="“按域列出的退回和错误”图表表示发送过程中发生的特定错误的域级细分。"
+>abstract="“按域列出的退回和错误”图表按域细分地呈现在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
 >title="按域列出的打开和点击数"
->abstract="“按域列出的打开和点击数”图表表示访客与电子邮件的互动的域级细分。"
+>abstract="“按域列出的打开和点击数”图表按域细分地呈现访客与电子邮件的互动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
 >title="按域列出的退回原因"
->abstract="“按域列出的退回原因”图表表示临时错误和永久性错误数据的域级细分。"
+>abstract="“按域列出的退回原因”图表按域细分地呈现临时错误和永久性错误数据。"
 
 在渠道报表中，电子邮件菜单详细说明与促销活动和历程中发送的电子邮件相关的主要信息。 指标详见下文。
 
@@ -183,7 +183,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
 >title="推送通知 - 发送总数统计数据"
->abstract="推送通知 - 发送总数统计数据 KPI 汇总了有关推送通知的基本数据，例如定向邮件或已投放邮件。"
+>abstract="“推送通知 - 发送总数统计数据”KPI 汇总有关推送通知的基本数据，如定向消息或已送达消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
@@ -203,12 +203,12 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
@@ -282,7 +282,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
 >title="短信 - 发送总数统计数据"
->abstract="短信 - 发送总数统计数据 KPI 汇总了有关短信的基本数据，例如“定向”或“已投放”信息。"
+>abstract="“短信 - 发送总数统计数据”KPI 汇总有关短信的基本数据，如定向消息或已送达消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
@@ -302,7 +302,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
@@ -312,7 +312,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 在渠道报表中，短信菜单详细说明与促销活动和历程中发送的短信相关的主要信息。 指标详见下文。
 
@@ -367,17 +367,17 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
 >title="直邮 - 发送总数统计数据"
->abstract="直邮 - 发送总数统计数据 KPI 汇总了有关直邮的基本数据，例如定向邮件或已投放邮件。"
+>abstract="“直邮 - 发送总数统计数据”KPI 汇总有关直邮的基本数据，如定向邮件或已送达邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
 >title="错误原因"
->abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 在渠道报表中，直邮菜单详细列出与促销活动和历程中发送的直邮消息相关的主要信息。 量度详见下文。
 
@@ -407,7 +407,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
 >title="应用程序内 - 总参与次数"
->abstract="应用程序内 - 总参与次数 KPI 提供有关访客与应用程序内消息的交互情况的全面信息，包括展示次数和交互次数等量度。"
+>abstract="“应用程序内 - 总参与次数”KPI 提供有关访客与应用程序内消息的交互情况的全面信息，包括展示次数和交互次数等量度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
@@ -439,7 +439,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
 >title="Web - 总参与次数"
->abstract="Web - 总参与次数 KPI 提供有关访客与网页的交互情况的全面信息，包括展示次数和交互次数等量度。"
+>abstract="“Web - 总参与次数”KPI 提供有关访客与网页的交互情况的全面信息，包括展示次数和交互次数等量度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"

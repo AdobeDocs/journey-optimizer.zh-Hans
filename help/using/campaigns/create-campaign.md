@@ -122,7 +122,7 @@ ht-degree: 34%
 
 ## 定义受众 {#audience}
 
-单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)。
+单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [详细了解受众](../audience/about-audiences.md)。
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即终止。不过，您可以灵活地设置消息的具体发送日期和时间。此外，您可以指定定期的或 API 触发的营销活动的结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即终止。不过，可灵活地设置特定日期和时间以发送消息。此外，还可为定期营销活动或 API 触发的营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

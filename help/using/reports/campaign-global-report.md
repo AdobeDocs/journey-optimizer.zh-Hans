@@ -20,7 +20,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="营销活动全局报告"
->abstract="营销活动全局报告可以衡量您的营销活动在选定时段内产生的影响。报告分为不同的构件，详细说明您营销活动中的成功和错误。每个报告仪表板都可以修改，您可以调整构件大小或删除构件。"
+>abstract="营销活动全局报告可以衡量您的营销活动在选定时段内产生的影响。报告分为不同的构件，详细说明您营销活动中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
 
 全局报告，可从访问 **所有时间** 选项卡，显示至少两小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
@@ -49,7 +49,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="营销活动的统计数据"
->abstract="营销活动的统计数据构件详述了与您的营销活动相关的主要信息，例如进入的配置文件和已交付操作。"
+>abstract="“营销活动的统计数据”构件详述与您的营销活动相关的主要信息，如“进入的配置文件”和“已交付操作”。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -123,7 +123,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
 >title="电子邮件 - 发送统计数据"
->abstract="“电子邮件 - 发送统计数据”表汇总了有关电子邮件的基本数据，例如“已定向”或“已投放”。"
+>abstract="“电子邮件 - 发送统计数据”表汇总有关电子邮件的基本数据，如定向邮件或已送达邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
@@ -133,7 +133,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="电子邮件 - 发送性能"
->abstract="“电子邮件 - 发送性能”图表显示有关已发送电子邮件的全面数据，提供有关投放和退回等关键量度的洞察，以便对电子邮件投放过程进行详细分析。"
+>abstract="“电子邮件 - 发送性能”图表呈现有关已发送电子邮件的全面数据，其中提供针对送达数和退回数等关键量度的见解，从而可详细地分析电子邮件送达过程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
@@ -143,27 +143,27 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_reasons"
 >title="电子邮件 - 退回原因"
->abstract="“电子邮件 - 退回原因”图表包含与退回邮件相关的可用数据。"
+>abstract="“电子邮件 - 退回原因”图表包含与退回的邮件相关的可用数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
 >title="电子邮件 - 错误原因"
->abstract="“电子邮件 - 错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“电子邮件 - 错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="电子邮件 - 排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
 >title="电子邮件 - 热门 URL"
->abstract="“电子邮件 - 热门 URL”图表全面概述了电子邮件中访问量最高的 URL，使您能够确定最受欢迎的链接。"
+>abstract="“电子邮件 - 热门 URL”图表全面概述电子邮件中获得访客流量最高的 URL，从而可找出最热门的链接。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
 >title="电子邮件 - 最佳收件人域"
->abstract="“电子邮件 - 最佳收件人域”图表提供了收件人最常用于打开电子邮件的域的细分，并提供有关收件人行为的有价值洞察。"
+>abstract="“电子邮件 - 最佳收件人域”图表详细地细分收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵见解。"
 
 ![](assets/campaign_report_global_2.png)
 
@@ -268,12 +268,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="应用程序内性能"
->abstract="应用程序内性能 KPI 提供了有关访客与应用程序内消息互动的重要见解。"
+>abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本见解。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
 >title="按类型列出的交互"
->abstract="“按类型列出的交互”图表详述了用户如何通过跟踪任何点击、取消或交互来与应用程序内消息进行交互。"
+>abstract="“按类型列出的交互”图表通过跟踪任何点击、取消或交互而详述用户如何与应用程序内消息交互。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_summary"
@@ -304,7 +304,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
 >title="推送通知 - 发送统计数据"
->abstract="“推送通知发送统计数据”表汇总了有关推送通知的基本数据，例如定向消息或已投放消息。"
+>abstract="“推送通知发送统计数据”表汇总有关推送通知的基本数据，如定向消息或已送达消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
@@ -314,22 +314,22 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
 >title="推送通知 - 发送摘要"
->abstract="“推送通知发送摘要”图表显示可用于已发送推送通知的数据。"
+>abstract="“推送通知发送摘要”图表显示对于已发送的推送通知可用的数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="推送通知 - 排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
 >title="推送通知 - 错误原因"
->abstract="“错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推送通知 - 按平台细分"
->abstract="“按平台细分”图表根据配置文件的操作系统提供推送通知成功情况的细分。"
+>abstract="“按平台细分”图表根据配置文件的操作系统细分推送通知的成功情况。"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了与您的营销活动中发送的推送投放相关的主要信息。
 
@@ -411,12 +411,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="短信 - 发送统计数据"
->abstract="“短信发送统计数据”表汇总了有关短信的基本数据，例如定向消息或已投放消息。"
+>abstract="“短信发送统计数据”表汇总有关短信的基本数据，如定向消息或已送达消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="短信 - 错误原因"
->abstract="“短信 - 错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“短信 - 错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -426,7 +426,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="短信 - 排除原因"
->abstract="“排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_bounces_reasons"
@@ -436,7 +436,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的重要洞察"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本见解"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 短信]** 选项卡详细列出了与您的营销活动中发送的短信投放相关的主要信息。
 
@@ -475,7 +475,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
 >title="Web 性能"
->abstract="Web 性能 KPI 提供有关访客与 Web 体验的交互情况的全面信息。"
+>abstract="“Web 性能”KPI 提供有关访客与 Web 体验的互动的全面信息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_summary"
@@ -511,17 +511,17 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"
 >title="直邮 - 发送统计数据"
->abstract="“直邮发送统计数据”表汇总了有关直邮的基本数据，例如定向邮件或已投放邮件。"
+>abstract="“直邮发送统计数据”表汇总有关直邮的基本数据，如定向邮件或已送达邮件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="直邮 - 错误原因"
->abstract="“直邮 - 错误原因”图表可让您识别发送过程中出现的特定错误。"
+>abstract="通过“直邮 - 错误原因”图表，可了解在发送过程中发生的具体错误。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
 >title="直邮 - 排除原因"
->abstract="“直邮排除原因”图表说明了导致从目标受众中排除用户配置文件且未收到消息的各种因素。"
+>abstract="“直邮排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 来自您的营销活动 **[!UICONTROL 全局报告]**， **[!UICONTROL 直邮]** 选项卡详细列出了与直邮投放相关的主要信息。
 

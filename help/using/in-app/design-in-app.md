@@ -141,7 +141,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
 >title="添加按钮以供用户与应用程序内消息进行交互。"
->abstract="此部分将允许您向消息添加行动号召按钮。您可以为每个按钮包含自定文本和目标。"
+>abstract="通过此部分，可将行动号召按钮添加到消息。您可以为每个按钮包含自定文本和目标。"
 
 添加按钮以供用户与应用程序内消息进行交互。
 
