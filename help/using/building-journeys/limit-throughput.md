@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 title: 使用外部数据源和自定义操作限制吞吐量
 description: 使用外部数据源和自定义操作限制吞吐量
-feature: Journeys, Use cases, Custom actions, Data Sources
+feature: Journeys, Use Cases, Custom actions, Data Sources
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%

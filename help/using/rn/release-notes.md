@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 发行说明
-feature: Journeys, Release Notes
-topic: Journeys
+feature: Release Notes
+topic: Content Management
 role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '4254'
 ht-degree: 98%
@@ -111,7 +111,7 @@ ht-degree: 98%
 
 **决策管理**
 
-* 用于创建和管理决策管理对象的新 API 现已推出。这些API提高了性能和用户体验。 旧版API的支持将持续到2024年3月27日。 [了解详情](../offers/api-reference/getting-started.md)
+* 现有创建和管理决策管理对象的新 API 可用。这些API提高了性能和用户体验。 旧版API的支持将持续到2024年3月27日。 [了解详情](../offers/api-reference/getting-started.md)
 
 **个性化**
 
