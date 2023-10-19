@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->激活后，在执行旅程时采用允许列表功能，在使用测试消息时也是如此 [验证](../email/preview.md#send-proofs) 和测试历程 [测试模式](../building-journeys/testing-the-journey.md).
+>激活后，在执行旅程时采用允许列表功能，在使用测试消息时也是如此 [验证](../content-management/proofs.md) 和测试历程 [测试模式](../building-journeys/testing-the-journey.md).
 
 ## 取消激活允许列表 {#deactivate-allow-list}
 

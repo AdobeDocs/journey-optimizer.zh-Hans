@@ -1,40 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 预览和测试短信消息
-description: 了解如何在Journey Optimizer中预览和测试短信消息
+title: 检查并测试您的短信消息
+description: 了解如何在Journey Optimizer中检查和发送短信消息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 12%
+source-wordcount: '257'
+ht-degree: 6%
 
 ---
 
-# 预览和测试短信消息 {#send-sms}
+# 检查并发送短信消息 {#send-sms}
 
 ## 预览短信 {#preview-sms}
 
-定义消息内容后，即可使用测试配置文件对其进行预览和测试。如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，您可以使用测试用户档案预览其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. 单击 **[!UICONTROL 模拟内容]**.
+为此，请单击 **[!UICONTROL 模拟内容]** 然后，添加测试用户档案，使用测试用户档案数据检查消息。
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 以添加测试用户档案。
+![](assets/sms_preview_2.png)
 
-1. 使用查找您的测试用户档案 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加配置文件]**.
-
-   ![](assets/sms_preview_3.png)
-
-1. 选择测试用户档案后，您可以关闭 **[!UICONTROL 添加测试配置文件]** 窗口。
-
-1. 从 **预览和测试** 窗口，测试用户档案数据添加到消息内容。
-
-   ![](assets/sms_preview_2.png)
-
+有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
 
 ## 验证短信{#sms-validate}
 

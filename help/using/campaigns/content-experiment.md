@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
@@ -68,7 +68,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
    * **[!UICONTROL 名称]**
    * **[!UICONTROL 描述]**
 
-1. 定义要定位的受众。 要执行此操作，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [了解有关受众的更多信息](../audience/about-audiences.md)。
+1. 定义要定位的受众。 要执行此操作，请单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [详细了解受众](../audience/about-audiences.md)。
 
    在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](get-started-experiment.md#content-experiment-work)
 
@@ -154,7 +154,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
    ![](assets/content_experiment_19.png)
 
-1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮来控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../email/preview.md)
+1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮来控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../content-management/preview-test.md)
 
 1. 当内容试验准备就绪时，您可以从营销活动摘要页面单击 **[!UICONTROL 审查以激活]** 以显示营销活动的摘要。 如果有任何参数不正确或缺失，将显示警报。
 

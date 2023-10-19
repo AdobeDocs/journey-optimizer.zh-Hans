@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 9%
+source-wordcount: '916'
+ht-degree: 8%
 
 ---
 
@@ -146,11 +146,15 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >要能够使用电子邮件测试或激活历程/营销活动，您必须解决所有 **错误** 警报。
 
-## 预览并发送电子邮件
+## 检查并发送电子邮件
 
-定义消息内容后，您可以预览该内容以控制电子邮件的呈现，并使用测试用户档案检查个性化设置。 [了解详情](preview.md)
+定义消息内容后，您可以使用测试用户档案进行预览、发送校样并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+
+为此，请单击 **[!UICONTROL 模拟内容]** 然后，添加测试用户档案，使用测试用户档案数据检查消息。
 
 ![](assets/email_designer_edit_simulate.png)
+
+有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
 
 当您的电子邮件准备就绪时，完成您的 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md)，并激活它以发送消息。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -74,10 +74,6 @@ ht-degree: 1%
 ![](assets/deliver-offer-preview.png)
 
 要在客户配置文件中显示作为决策一部分的不同优惠，请执行以下步骤。
-
->[!NOTE]
->
->您需要具有可用的测试用户档案，才能预览消息。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
 1. 选择要用于预览选件的测试配置文件：
 

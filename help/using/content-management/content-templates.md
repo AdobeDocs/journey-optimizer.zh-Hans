@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 12%
 
 ---
@@ -164,21 +164,17 @@ ht-degree: 12%
 
 您可以测试任何电子邮件内容模板的渲染，无论是从草稿还是从电子邮件创建的。 要实现此目的，请执行以下步骤。
 
->[!CAUTION]
->
->要模拟内容，您必须具有 **[!DNL Manage Simulate Content]** 权限包含在 **[!DNL Content Library Manager]** 产品配置文件。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. 通过以下方式访问内容模板列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 菜单，然后选择任意模板。
 
 1. 单击 **[!UICONTROL 编辑内容]** 从 **[!UICONTROL 模板属性]**.
 
-1. 单击 **[!UICONTROL 模拟内容]** 并选择测试用户档案以检查电子邮件渲染。 可以选择桌面或移动视图。[了解详情](../email/preview.md)
+1. 单击 **[!UICONTROL 模拟内容]** 并选择测试用户档案以检查电子邮件渲染。 可以选择桌面或移动视图。[了解详情](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. 您可以发送校样以测试您的内容，并在将其用于历程或营销策划之前，先获得一些内部用户的批准。
 
-   * 要执行此操作，请单击 **[!UICONTROL 发送验证]** 按钮并按照中所述的步骤操作。 [本节](../email/preview.md#send-proofs).
+   * 要执行此操作，请单击 **[!UICONTROL 发送验证]** 按钮并按照中所述的步骤操作。 [本节](../content-management/proofs.md).
 
    * 在发送校样之前，您必须选择 [电子邮件表面](../configuration/channel-surfaces.md) 将用于测试您的内容。
 
@@ -186,7 +182,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->当前在测试电子邮件内容模板时不支持跟踪，这意味着跟踪事件、UTM参数和登陆页面链接将在从模板发送的验证中无效。 要测试跟踪， [使用内容模板](../email/use-email-templates.md) 在电子邮件和 [发送验证](../email/preview.md#send-proofs).
+>当前在测试电子邮件内容模板时不支持跟踪，这意味着跟踪事件、UTM参数和登陆页面链接将在从模板发送的验证中无效。 要测试跟踪， [使用内容模板](../email/use-email-templates.md) 在电子邮件和 [发送验证](../content-management/preview-test.md#send-proofs).
 
 ## 操作方法视频 {#video-templates}
 

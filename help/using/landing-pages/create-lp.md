@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 53d2d09342979d8f277d1be9f2f72da067dc1763
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 24%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 24%
 
    ![](assets/lp_test-profiles.png)
 
-   选择测试用户档案的步骤与测试消息时的步骤相同。 有关详情，请参阅 [本节](../email/preview.md#select-test-profiles).
+   选择测试用户档案的步骤与测试消息时的步骤相同。 有关详情，请参见 [内容管理](../content-management/test-profiles.md) 部分。
 
 1. 选择 **[!UICONTROL 打开预览]** 以测试您的登陆页面。
 

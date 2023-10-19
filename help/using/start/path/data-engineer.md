@@ -7,7 +7,7 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. **配置源连接器**。Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用 Platform 服务来构建、标记和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。要了解有关源连接器的更多信息，请参阅[本页](../get-started-sources.md)。
 
-1. **创建测试用户档案**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试用户档案，并在发送之前[预览和测试消息](../../email/preview.md)。[本页](../../audience/creating-test-profiles.md)中详细说明了创建测试用户档案的步骤。
+1. **创建测试用户档案**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试用户档案，并在发送之前[预览和测试消息](../../content-management/preview-test.md)。[本页](../../audience/creating-test-profiles.md)中详细说明了创建测试用户档案的步骤。
 
 
 此外，要在历程中发送消息，您必须配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。[在此部分中](../../configuration/about-data-sources-events-actions.md)了解详情。

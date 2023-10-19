@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -109,7 +109,7 @@ ht-degree: 3%
 
 1. 如果您向Experience Manager模板添加了个性化内容，请单击 **[!UICONTROL 模拟内容]** 以使用测试用户档案预览它在消息中的显示方式。
 
-[了解有关预览和测试用户档案的更多信息](../email/preview.md)
+[了解有关预览和测试用户档案的更多信息](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

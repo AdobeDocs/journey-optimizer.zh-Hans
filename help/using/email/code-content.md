@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: 代码、HTML、编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -44,7 +44,7 @@ ht-degree: 67%
    >
    >此操作将在电子邮件设计器中打开选定的模板。您可以在其中完成电子邮件的设计，或使用&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;选项来返回代码编辑器。
 
-1. 单击 **[!UICONTROL 预览]** 按钮以使用测试用户档案检查消息设计和个性化。 [了解详情](preview.md)
+1. 单击 **[!UICONTROL 预览]** 按钮以使用测试用户档案检查消息设计和个性化。 [了解详情](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

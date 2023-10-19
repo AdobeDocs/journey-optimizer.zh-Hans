@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 预览和测试推送通知
-description: 了解如何在Journey Optimizer中预览和测试推送通知
+title: 检查并发送推送通知
+description: 了解如何在Journey Optimizer中检查并发送推送通知
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 9%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
-# 预览和测试推送通知 {#send-push}
+# 检查并发送推送通知 {#send-push}
 
 ## 预览推送通知 {#preview-push}
 
-定义消息内容后，即可使用测试配置文件对其进行预览和测试。如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，您可以使用测试用户档案预览其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. 单击 **[!UICONTROL 模拟内容]**.
+为此，请单击 **[!UICONTROL 模拟内容]** 然后添加测试用户档案。 然后，您可以选择预览内容的设备类型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 以添加测试用户档案。
+![](assets/push_preview_3.png)
 
-1. 使用查找您的测试用户档案 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加配置文件]**.
-
-   ![](assets/push_preview_1.png)
-
-1. 选择测试用户档案后，您可以关闭 **[!UICONTROL 添加测试配置文件]** 窗口。
-
-1. 从 **预览和测试** 窗口，测试用户档案数据添加到消息内容。
-
-   选择要预览内容的设备类型： **[!UICONTROL iOS]** 或 **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
 
 ## 验证推送通知 {#push-validate}
-
 
 必须在编辑器的上半部分检查警报。 其中一些是简单的警告，但其他警告可能会阻止您发送消息。 可能会发生两种类型的警报：警告和错误。
 

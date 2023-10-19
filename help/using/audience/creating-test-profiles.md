@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 创建测试用户档案 {#create-test-profiles}
 
-使用时需要测试用户档案 [测试模式](../building-journeys/testing-the-journey.md) 在历程中，以及 [预览和测试您的内容](../email/preview.md).
+使用时需要测试用户档案 [测试模式](../building-journeys/testing-the-journey.md) 在历程中，以及 [预览和测试您的内容](../content-management/preview-test.md).
 
 可通过多种方式创建测试用户档案。 您可以在此页详细信息中查找以下内容：
 

@@ -1,40 +1,30 @@
 ---
-title: 测试并发送直邮消息
-description: 了解如何在Journey Optimizer中测试和发送直邮消息
+title: 检查并发送直邮消息
+description: 了解如何在Journey Optimizer中检查和发送直邮消息
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 13%
+source-wordcount: '429'
+ht-degree: 12%
 
 ---
 
-# 测试并发送直邮消息 {#direct-mail-test-send}
+# 检查并发送直邮消息 {#direct-mail-test-send}
 
 ## 预览提取文件 {#preview-dm}
 
 定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-1. 在提取文件内容配置屏幕中，单击 **[!UICONTROL 模拟内容]**.
+为此，请单击 **[!UICONTROL 模拟内容]** 然后，添加测试用户档案，以检查如何使用测试用户档案数据呈现提取文件。
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 以添加测试用户档案。
-
-1. 使用查找您的测试用户档案 **[!UICONTROL 身份命名空间]** 和 **[!UICONTROL 标识值]** 字段。 然后，单击 **[!UICONTROL 添加配置文件]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. 选择测试用户档案后，您可以关闭 **[!UICONTROL 添加测试配置文件]** 窗口。
-
-1. 从 **预览和测试** 窗口中，测试配置文件数据会添加到提取文件内容，以便您预览文件的呈现方式。
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
 
 一旦文件内容准备好发送，请关闭模拟屏幕，然后单击 **[!UICONTROL 审查以激活]** 按钮。
 

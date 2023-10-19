@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 88%
@@ -275,7 +275,7 @@ ht-degree: 88%
 
 **内容设计**
 
-* **背景** - 现在，实时预览支持背景图像。[了解详情](../email/preview.md)
+* **背景** - 现在，实时预览支持背景图像。[了解详情](../content-management/preview-test.md)
 * **一键式选择退出链接** - 您可以在电子邮件内容中插入新类型的链接：**选择退出**&#x200B;链接让用户只需单击一下即可取消订阅以停止接收您的通信，而不会被重定向到登陆页面以确认选择退出。[了解详情](../privacy/opt-out.md#one-click-opt-out-link)
 
 **个性化**
@@ -350,9 +350,9 @@ ht-degree: 88%
 
 **预览和测试**
 
-* 标识和命名空间现在显示在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../email/preview.md#preview-your-messages)
+* 标识和命名空间现在显示在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../content-management/preview-test.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
-* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../email/preview.md#send-proofs)
+* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
 
 **个性化表达式编辑器**
 

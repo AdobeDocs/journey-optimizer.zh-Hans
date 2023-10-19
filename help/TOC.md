@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 98%
+source-wordcount: '1686'
+ht-degree: 95%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 98%
          + [编辑背景设置](using/email/backgrounds.md)
          + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
          + [添加内联样式属性](using/email/inline-styling.md)
-   + [预览和测试电子邮件](using/email/preview.md)
    + [使用 Experience Manager 模板](using/email/aem-templates.md)
    + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 配置电子邮件渠道 {#configure-email}
@@ -206,12 +205,12 @@ ht-degree: 98%
    + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
-   + [测试并发送应用程序内通知](using/in-app/send-in-app.md)
+   + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
 + 推送通知渠道{#push}
    + [推送通知入门](using/push/get-started-push.md)
    + [创建推送通知](using/push/create-push.md)
    + [设计推送通知](using/push/design-push.md)
-   + [发送推送通知](using/push/send-push.md)
+   + [检查并发送推送通知](using/push/send-push.md)
    + 配置推送通知{#push-config}
       + [推送通知数据流](using/push/push-gs.md)
       + [配置推送通知渠道](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 98%
 + 短信渠道{#sms}
    + [短信入门](using/sms/get-started-sms.md)
    + [创建短信消息](using/sms/create-sms.md)
-   + [预览和测试短信](using/sms/send-sms.md)
+   + [检查并发送短信](using/sms/send-sms.md)
    + [管理短信选择禁用](using/sms/sms-opt-out.md)
    + [配置短信渠道](using/sms/sms-configuration.md)
    + [设置短信子域](using/sms/sms-subdomains.md)
 + 直邮 {#direct-mail}
    + [直邮入门](using/direct-mail/get-started-direct-mail.md)
    + [创建直邮](using/direct-mail/create-direct-mail.md)
-   + [测试并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
+   + [检查并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
 + Web 渠道 {#web}
    + [开始使用 Web 渠道](using/web/get-started-web.md)
@@ -258,14 +257,15 @@ ht-degree: 98%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理 {#content-management}
-   + [使用 Assets Essentials](using/content-management/assets-essentials.md)
-   + [使用 Adobe Stock](using/content-management/stock.md)
    + 使用内容助手{#content-assistant}
       + [内容助手入门](using/content-management/gs-generative.md)
       + [内容生成](using/content-management/generative-content.md)
       + [图像生成](using/content-management/generative-image.md)
    + 使用多语言内容{#content-multilingual}
       + [创建多语言内容](using/content-management/multilingual-manual.md)
+   + 资产/图像 {#assets-images}
+      + [使用 Assets Essentials](using/content-management/assets-essentials.md)
+      + [使用 Adobe Stock](using/content-management/stock.md)
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
       + [个性化上下文](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 98%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
+   + 预览和测试您的内容 {#preview-test}
+      + [预览和测试入门](using/content-management/preview-test.md)
+      + [选择测试配置文件](using/content-management/test-profiles.md)
+      + [预览您的内容](using/content-management/preview.md)
+      + [发送电子邮件校样](using/content-management/proofs.md)
+      + [测试电子邮件渲染](using/content-management/rendering.md)
 + 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)

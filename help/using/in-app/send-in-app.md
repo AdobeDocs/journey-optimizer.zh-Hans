@@ -1,20 +1,20 @@
 ---
-title: 测试并发送应用程序内通知
-description: 了解如何在Journey Optimizer中测试和发送应用程序内消息
+title: 检查并发送应用程序内通知
+description: 了解如何在Journey Optimizer中检查和发送应用程序内消息
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
-# 测试并发送应用程序内通知 {#create-in-app}
+# 检查并发送应用程序内通知 {#create-in-app}
 
 ## 在设备上预览 {#preview-device}
 

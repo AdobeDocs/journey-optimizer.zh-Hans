@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 97%
@@ -97,7 +97,7 @@ ht-degree: 97%
 
 [表达式编辑器](../personalization/personalization-build-expressions.md)本身不会执行任何同意检查或进行强制执行，因为表达式编辑器不涉及消息投放操作。
 
-但是，使用基于权限的访问控制标签可限制将哪些字段用于个性化。此[消息预览](../email/preview.md#preview-email)和[电子邮件渲染服务](../email/preview.md#email-rendering)将屏蔽用敏感信息标识的字段。
+但是，使用基于权限的访问控制标签可限制将哪些字段用于个性化。此[消息预览](../content-management/preview.md)和[电子邮件渲染服务](../content-management/rendering.md)将屏蔽用敏感信息标识的字段。
 
 >[!NOTE]
 >

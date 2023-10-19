@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，动态，内容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 9%
@@ -42,7 +42,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
    ![](assets/conditions-language-sample.png)
 
-1. 内容准备就绪后，您可以使用 **[!UICONTROL 模拟内容]** 按钮。 [了解如何测试和预览消息](../email/preview.md)
+1. 内容准备就绪后，您可以使用 **[!UICONTROL 模拟内容]** 按钮。 [了解如何测试和预览消息](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

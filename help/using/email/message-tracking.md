@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 36%
@@ -135,7 +135,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->在 [验证](preview.md#send-proofs) 发送到测试用户档案，指向镜像页面的链接无效。 它仅在最终邮件中激活。
+>在 [验证](../content-management/proofs.md) 发送到测试用户档案，指向镜像页面的链接无效。 它仅在最终邮件中激活。
 
 镜像页面的保留期为60天。 在该延迟之后，镜像页面将不再可用。
 
@@ -186,4 +186,4 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->要验证最终URL，您可以 [发送验证](preview.md#send-proofs) 并在收到校样后单击电子邮件内容中的链接。 URL应显示跟踪参数。 在上述示例中，最终URL将为： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>要验证最终URL，您可以 [发送验证](../content-management/preview-test.md#send-proofs) 并在收到校样后单击电子邮件内容中的链接。 URL应显示跟踪参数。 在上述示例中，最终URL将为： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

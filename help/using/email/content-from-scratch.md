@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 57%
+source-wordcount: '667'
+ht-degree: 55%
 
 ---
 
@@ -116,9 +116,8 @@ ht-degree: 57%
    >
    >切换到代码编辑器后，无法恢复到此电子邮件的可视设计器。
 
-1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 按钮以检查渲染。 可以选择桌面或移动视图。[详细了解预览电子邮件](preview.md)
+1. 内容准备就绪后，单击 **[!UICONTROL 模拟内容]** 按钮以检查渲染。 可以选择桌面或移动视图。有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
 
    ![](assets/email_designer_simulate_content.png)
 
 1. 内容就绪后，单击 **[!UICONTROL 保存]**.
-
