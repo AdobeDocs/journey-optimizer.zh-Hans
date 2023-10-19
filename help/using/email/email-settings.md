@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 12%
@@ -123,10 +123,7 @@ ht-degree: 12%
 
 * **[!UICONTROL 错误电子邮件]**：在此地址上接收ISP在投放邮件几天后生成的所有错误（异步退回）。 在此地址上还会收到“不在办公室”通知和质询回复。
 
-  >[!NOTE]
-  >
-  >如果您希望在未委派给Adobe的特定电子邮件地址上接收休假通知和质询响应，则需要设置 [转发进程](#forward-email). 在这种情况下，请确保您拥有手动或自动化解决方案来处理登陆此收件箱的电子邮件。
-
+  如果您希望在未委派给Adobe的特定电子邮件地址上接收休假通知和质询响应，则需要设置 [转发进程](#forward-email). 在这种情况下，请确保您拥有手动或自动化解决方案来处理登陆此收件箱的电子邮件。
 
 >[!CAUTION]
 >
