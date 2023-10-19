@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ ht-degree: 24%
 
 此版本引入了下方列出的新功能。
 
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS（测试版）中的多媒体消息服务(MMS)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>借助短信渠道，您现在可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。 请注意，此功能目前仅在Beta版的Sinch中可用。</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ ht-degree: 24%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>历程中的合成受众</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在历程中使用合成工作流中创建的受众来定位客户。 发布受众组合并保存受众后，使用读取受众活动在历程画布中选择此新受众。</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS（测试版）中的多媒体消息服务(MMS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>借助短信渠道，您现在可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。 请注意，此功能目前仅在Beta版的Sinch中可用。</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 改进 {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ ht-degree: 24%
 **受众**
 
 * 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
-* 您现在可以将合成工作流产生的受众定位到历程中。
 
 **电子邮件的垃圾邮件评分**
 
