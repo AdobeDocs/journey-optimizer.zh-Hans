@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 97%
+source-wordcount: '3845'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 97%
 
 此页面列出了 [!DNL Journey Optimizer] 的所有文档更新。
 
-
-
 ## 2023 年 10 月 {#oct-2023}
 
 * 添加了GIF以说明一些关键功能，例如： [内容模板](../content-management/content-templates.md)， [片段](../content-management/fragments.md)， [计算属性](../audience/computed-attributes.md)， [直邮](../direct-mail/get-started-direct-mail.md)， [标记](../start/search-filter-categorize.md#tags)， [决策管理优化模型](../offers/ranking/personalized-optimization-model.md)， [API触发的营销活动](../campaigns/api-triggered-campaigns.md)、和 [内容试验](../campaigns/content-experiment.md).
 * 架构创建过程已更新，以反映用户界面中的最新更新，其中包含Adobe Experience Platform的更改。 [了解详情](../audience/creating-test-profiles.md)
 * 决策管理护栏已添加到护栏和限制页面。 [了解详情](../start/guardrails.md#decision-management)
+* 已创建有关如何预览和测试内容的新部分。 [了解详情](../content-management/preview-test.md)
 
 ## 2023 年 9 月 {#september-2023}
 
