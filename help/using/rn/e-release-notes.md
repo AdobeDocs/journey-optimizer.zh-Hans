@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
+source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 24%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 24%
 <tbody>
 <tr>
 <td>
-<p>您可以使用Adobe Journey Optimizer中的沙盒工具功能选择其他对象并将它们导出到包中。 一个包可以包含单个对象、多个对象或整个沙盒。 包中包含的任何对象必须来自同一沙盒。</p>
+<p>沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 软件包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
