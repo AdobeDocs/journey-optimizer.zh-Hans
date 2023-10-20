@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
+source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 28%
+source-wordcount: '296'
+ht-degree: 33%
 
 ---
 
@@ -63,23 +63,6 @@ ht-degree: 28%
 </tr>
 </tbody>
 &lt;/table --&gt;
-
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS（测试版）中的多媒体消息服务(MMS)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>借助短信渠道，您现在可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。 请注意，此功能目前仅在Beta版的Sinch中可用。</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
 
 ### 改进 {#oct-2023-improvements}
 
