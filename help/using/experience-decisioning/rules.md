@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 17%
+source-wordcount: '323'
+ht-degree: 15%
 
 ---
 
 # 决策规则 {#rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="创建决策规则"
+>abstract="决策规则允许您通过直接在决策项目级别或在特定选择策略内应用约束来定义决策项目的受众。 这使您能够精确控制应该向谁显示哪些项目。"
 
 >[!BEGINSHADEBOX]
 

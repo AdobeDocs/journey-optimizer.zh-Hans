@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1014'
 ht-degree: 7%
 
 ---
 
 # 决策项目 {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="管理决策项目"
+>abstract="Journey Optimizer允许您创建称为决策项的营销优惠，您可以将这些优惠创建并整理到集中的目录和收藏集中。 目前，所有创建的决策项目都整合到单个“优惠”目录中。 在此屏幕中，您还可以使用 **编辑架构** 按钮并为决策项目创建自定义属性。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ Journey Optimizer允许您创建称为决策项的营销优惠，您可以将这
 在创建决策项目之前，请确保已创建 **决策规则** 如果您要设置条件以确定决策项可以显示给谁。 [了解如何创建决策规则](rules.md).
 
 ## 创建您的第一个决策项
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="定义决策项的优先级"
+>abstract="如果配置文件符合多个项目的条件，则优先级允许将此决策项目与其他决策项目进行比较。 较高的优先级授予项目优先于其他项目的权限。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="定义自定义属性"
+>abstract="自定义属性是根据您的需求定制的特定属性，可分配给决策项目。 它们在决策项的目录架构中创建。 仅当向目录方案添加了至少一个自定义属性时，才会显示此部分。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="添加受众或决策规则"
+>abstract="默认情况下，所有用户档案都有资格接收决策项目，但您可以使用受众或规则将项目限制为仅特定用户档案。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用决策规则"
 
 要创建决策项目，请执行以下步骤：
 

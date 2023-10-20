@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 17%
+source-wordcount: '393'
+ht-degree: 12%
 
 ---
 
 # 收藏集 {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="创建收藏集"
+>abstract="收藏集允许您根据自己的偏好对决策项目进行分类和分组。 这些类别是通过构建利用决策项目属性的规则创建的。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="定义收藏集的规则"
+>abstract="添加一个或多个规则以确定要包含在收藏集中的项目。 选择要用作条件的物料属性。 选择所需的运算符并输入要过滤的值。 根据需要添加任意数量的规则。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="选择收藏集"
+>abstract="选择包含要考虑的选件的集合。 创建选择策略时，必须执行此步骤。 收藏集允许您根据自己的偏好对决策项目进行分类和分组。 例如，您可以创建一个集合，该集合包含具有“类别”自定义属性中的“瑜伽”值的所有决策项。"
 
 >[!BEGINSHADEBOX]
 
