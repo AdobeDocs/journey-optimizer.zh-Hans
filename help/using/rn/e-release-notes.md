@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ ht-degree: 33%
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS（测试版）中的多媒体消息服务(MMS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>借助短信渠道，您现在可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。 请注意，此功能目前仅在Beta版的Sinch中可用。</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### 改进 {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ ht-degree: 33%
 **受众**
 
 * 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
+* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。
 
-**电子邮件的垃圾邮件评分**
+>[!AVAILABILITY]
+>
+>这些功能目前作为私有测试版提供。
 
-* 在模拟电子邮件内容时，可通过新选项检查内容对收件箱垃圾邮件过滤的执行情况。 此功能目前仅向部分客户建议（限量发布），并可用于电子邮件渠道。
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **警报**
 
-* 现在提供了与Journey Optimizer促销活动相关的新警报 **警报** 菜单。
+* 当您的某个促销活动发生错误时，警告图标现在会与该促销活动的状态一起显示在促销活动列表中。
 
 **营销活动**
 
@@ -86,8 +108,16 @@ ht-degree: 33%
 
 **历程**
 
-* 现在，您可以在等待活动中定义的最长持续时间为29天，而不是30天。
+* 现在，您可以在任意等待时间中定义的最长持续时间为29天，而不是30天。 这适用于：
+
+   * 该 **时间量** 中的字段 [等待活动](../building-journeys/wait-activity.md)
+   * 该 **重新进入等待期** 在 [历程属性](../building-journeys/journey-gs.md#entrance)
+   * 该 **等待** 字段，其超时定义为 [常规](../building-journeys/general-events.md#events-specific-time) 和 [反应](../building-journeys/reaction-events.md) 事件。
 
 **渠道配置中的同意**
 
 * 现在，您可以在渠道平面级别选择营销操作。 在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
+
+**决策管理**
+
+* 更新了与决策管理界面中的优惠上限相关的多个标签。
