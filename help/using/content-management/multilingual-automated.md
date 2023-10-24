@@ -10,9 +10,9 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,10 @@ ht-degree: 1%
 
    ![](assets/translation_project_2.png)
 
-1. 选择是否在批准后自动发布翻译以及是否要启用审阅工作流。
+1. 选择是否要启用以下选项：
+
+   * **[!UICONTROL 自动发布已批准的翻译]**：一旦翻译获得批准，它们就会自动集成到营销活动中，无需手动干预。
+   * **[!UICONTROL 启用审阅工作流]**：仅适用于人工翻译的语言环境。 这允许内部审阅者有效地评估并批准或拒绝翻译的内容。 [了解详情](#review-translation-project)
 
 1. 单击 **[!UICONTROL 添加区域设置]** 以访问菜单并定义翻译项目的语言。
 
@@ -87,6 +90,8 @@ ht-degree: 1%
 1. 从列表中选择您的 **[!UICONTROL 目标区域设置]** 并选择哪个 **[!UICONTROL 翻译提供商]** 要用于每个区域设置。
 
 1. 单击 **[!UICONTROL 添加区域设置]** 完成将Target区域设置与正确的翻译提供商链接后。 然后，单击 **[!UICONTROL 保存]**.
+
+   请注意，如果某个提供程序在目标区域设置中显示为灰色，则表示该提供程序不支持该特定区域设置。
 
    ![](assets/translation_project_4.png)
 
@@ -192,12 +197,33 @@ ht-degree: 1%
 
 发送后，您可以在促销活动报表中衡量促销活动的影响。
 
+## 管理内部翻译项目 {#manage-ht-project}
+
+如果在配置语言设置时选择了内部翻译，则可以在翻译项目中直接翻译内容。
+
+1. 来自您的 **[!UICONTROL 翻译项目]**，访问 **[!UICONTROL 更多操作]** 菜单并选择 **[!UICONTROL 内部翻译]**.
+
+   ![](assets/inhouse-translation-1.png)
+
+1. 您可以使用外部翻译软件导出CSV文件以进行翻译。 或者，您可以通过单击 **[!UICONTROL 导入CSV]** 按钮。
+
+   ![](assets/inhouse-translation-3.png)
+
+1. 单击 **[!UICONTROL 编辑]** 以添加您的翻译内容。
+
+   ![](assets/inhouse-translation-2.png)
+
+1. 如果您已准备好发布已翻译文本，请单击 **[!UICONTROL 完成]**.
+
 ## 查看您的翻译项目 {#review-translation-project}
 
-如果您选择了 **[!UICONTROL 启用审核工作流]** 在您的 **[!UICONTROL 翻译项目]**之后，您可以在Journey Optimizer中直接查看翻译。
-请注意，如果禁用此选项，则提供商完成翻译后，翻译任务状态将自动设置为 **[!UICONTROL 已审核]**，允许您通过单击 **[!UICONTROL 发送到产品]**.
+如果您选择了 **[!UICONTROL 启用审核工作流]** 在您的 **[!UICONTROL 翻译项目]**&#x200B;之后，您可以在Journey Optimizer中直接查看翻译。
+
+请注意，如果禁用此选项，则提供商完成翻译后，翻译任务状态将自动设置为 **[!UICONTROL 已审核]**，允许您通过单击 **[!UICONTROL Publish]**.
 
 1. 在服务提供商处完成翻译后，您即可访问翻译以供审阅 **[!UICONTROL 翻译项目]** 或直接从您的 **[!UICONTROL 营销活动]**.
+
+   从 **[!UICONTROL 更多操作]** 菜单，单击 **[!UICONTROL 审核]**.
 
    ![](assets/translation_review_1.png)
 
@@ -219,7 +245,7 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL 预览]** 检查每种语言翻译内容的呈现方式。
 
-1. 对翻译满意后，单击 **[!UICONTROL 完成]**.
+1. 如果您已准备好发布已翻译文本，请单击 **[!UICONTROL 完成]**.
 
    ![](assets/translation_review_5.png)
 
@@ -229,7 +255,7 @@ ht-degree: 1%
 
 1. 一旦您的 **[!UICONTROL 翻译项目]** 状态设置为“已审核”，您可以将其发送到您的营销策划。
 
-   在高级菜单中，单击 **[!UICONTROL Publish]**.
+   从 **[!UICONTROL 更多操作]** 菜单，单击 **[!UICONTROL Publish]**.
 
    ![](assets/translation_review_7.png)
 
