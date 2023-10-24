@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
+source-wordcount: '4584'
 ht-degree: 91%
 
 ---
@@ -120,10 +120,6 @@ ht-degree: 91%
    * 该 **时间量** 中的字段 [等待活动](../building-journeys/wait-activity.md)
    * 该 **重新进入等待期** 在 [历程属性](../building-journeys/journey-gs.md#entrance)
    * 该 **等待** 字段，其超时定义为 [常规](../building-journeys/general-events.md#events-specific-time) 和 [反应](../building-journeys/reaction-events.md) 事件。
-
-**登陆页面**
-
-* 使用登陆页面表单组件时，您现在可以添加具有自己特定选项的电子邮件字段。
 
 **渠道配置中的同意**
 
