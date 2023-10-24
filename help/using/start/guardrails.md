@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 83%
+source-wordcount: '1650'
+ht-degree: 81%
 
 ---
 
@@ -124,7 +124,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 应用程序内消息内容的大小限制为 2Mb。包含大图像可能会妨碍发布流程。
 
-## 决策管理 {#decision-management}
+## 受众护栏 {#audience}
+
+* 您最多可以在给定沙盒中发布10个受众合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
+
+## 决策管理护栏 {#decision-management}
 
 ### 性能护栏 {#performance-guardrails}
 
