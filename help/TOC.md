@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 95%
+source-wordcount: '1703'
+ht-degree: 94%
 
 ---
 
@@ -262,7 +262,10 @@ ht-degree: 95%
       + [内容生成](using/content-management/generative-content.md)
       + [图像生成](using/content-management/generative-image.md)
    + 使用多语言内容{#content-multilingual}
-      + [创建多语言内容](using/content-management/multilingual-manual.md)
+      + [多语言内容入门](using/content-management/multilingual-gs.md)
+      + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
+      + [通过自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
+      + [多语言营销活动报告](using/content-management/multilingual-report.md)
    + 资产/图像 {#assets-images}
       + [使用 Assets Essentials](using/content-management/assets-essentials.md)
       + [使用 Adobe Stock](using/content-management/stock.md)

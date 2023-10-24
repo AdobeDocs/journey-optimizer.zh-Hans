@@ -10,17 +10,35 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 hide: true
 hidefromtoc: true
-exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
 
-# 创建多语言内容 {#multilingual}
+# 使用手动翻译创建多语言内容 {#multilingual-manual}
 
-利用多语言功能，您可以轻松地在单个营销活动中创建多种语言的内容。 利用此功能，您可以在编辑活动时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。
+>[!BEGINSHADEBOX]
+
+**目录**
+
+* [多语言内容入门](multilingual-gs.md)
+* **[使用手动翻译创建多语言内容](multilingual-manual.md)**
+* [通过自动翻译创建多语言内容](multilingual-automated.md)
+* [多语言营销活动报告](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+使用手动流程，您可以轻松地直接在电子邮件、推送通知或短信营销活动中翻译内容，从而为多语言消息提供精确的控制和自定义选项。 此外，您还可以使用“导入HTML”选项轻松导入预先存在的多语言内容。
+
+请按照以下步骤使用手动翻译创建多语言内容：
+
+1. [创建您的区域设置](#create-locale).
+
+1. [创建语言设置](#create-language-settings).
+
+1. [创建多语言营销活动](#create-a-multilingual-campaign).
 
 ## 创建区域设置 {#create-locale}
 
@@ -86,7 +104,9 @@ ht-degree: 1%
 
 ## 创建多语言营销活动 {#create-multilingual-campaign}
 
-1. 首先根据您的要求创建和配置活动。 [了解详情](../campaigns/create-campaign.md)
+在设置多语言内容后，您可以制作活动并针对每个所选区域设置自定义内容。
+
+1. 首先根据您的要求创建和配置电子邮件、短信或推送通知营销活动。 [了解详情](../campaigns/create-campaign.md)
 
 1. 导航至 **[!UICONTROL 操作]** 菜单，然后选择 **[!UICONTROL 编辑内容]**.
 
@@ -132,34 +152,6 @@ ht-degree: 1%
 
 发送后，您可以在促销活动报表中衡量促销活动的影响。
 
-## 多语言营销活动报告 {#multilingual-campaign-report}
-
-全局报告，可从访问 **所有时间** 选项卡，显示至少两小时前发生的事件，并涵盖选定时间段内的事件。 您可以使用直接从Campaign访问Campaign全局报告 **[!UICONTROL 查看报告]** 按钮。
-
-有关营销活动报告中可用数据的更多信息，请参阅 [此页面](../reports/campaign-global-report.md).
-
-+++进一步了解可用于多语言内容的不同量度和小组件。
-
-![](assets/report_multilingual.png)
-
-此 **[!UICONTROL 按语言显示的电子邮件发送统计数据]** 小组件根据您网站上的 **[!UICONTROL 区域设置]**：
-
-* **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
-
-* **[!UICONTROL 跳出次数]**：投放和自动返回处理期间累计的错误总数与已发送消息总数相关。
-
-* **[!UICONTROL 错误]**：投放期间发生并阻止将其发送到用户档案的错误总数。
-
-此 **[!UICONTROL 按语言显示的电子邮件跟踪统计数据]** 小组件包含投放的收件人活动可用数据，具体取决于您的 **[!UICONTROL 区域设置]**：
-
-* **[!UICONTROL 取消订阅]**：取消订阅链接的点击次数。
-
-* **[!UICONTROL 打开次数]**：消息的打开次数。
-
-* **[!UICONTROL 点击次数]**：内容被单击的次数。
-+++
-
-
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
 
@@ -167,14 +159,4 @@ ht-degree: 1%
 1. From your delivery action, click Edit content.
 1. Click Add languages.
 
-# Translation project/ Create translation project:
-
-1. From the Translation projects menu, click Create project.
-1. Type-in a Name and Description.
-1. Select the Source locale.
-1. Click Add language to access the menu and define the languages for your translation project.
-1. Select from the list your Target locale(s) and choose which Translation provider you want to use.
-1. Click Add language when you finished linking your Target locale with the correct Translation provider.
-1. Click Save.
-1. From the Advanced menu of your Translation project, you can choose to Edit, deactive or delete it.
 -->
