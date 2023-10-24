@@ -197,7 +197,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="覆盖禁止列表优先级"
->abstract="可决定将事务性消息发送到配置文件，即使这些消息的电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表也是如此。默认禁用此选项。"
+>abstract="可决定将交易消息发送到配置文件，即使这些消息的电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表也是如此。默认禁用此选项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="管理禁止列表"
 
 >[!IMPORTANT]

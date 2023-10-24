@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_api_profile_creation"
 >title="营销活动类型"
->abstract="要获得有限可用性功能以在不创建用户档案的情况下发送消息，请按照文档中详述的步骤操作。"
+>abstract="要使有限的可用性功能无需创建配置文件即可发送消息，请遵循在文档中详述的步骤。"
 
 ## 关于API触发的营销活动 {#about}
 

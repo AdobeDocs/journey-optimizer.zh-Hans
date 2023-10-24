@@ -12,7 +12,7 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="自定义操作"
->abstract="如果您拥有Adobe Campaign Standard，则可以使用集成。 它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。"
+>abstract="如果使用的是 Adobe Campaign Standard，则有集成可用。通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。"
 
 如果您有Adobe Campaign Standard，则可以使用以下内置操作活动： **[!UICONTROL 电子邮件]**， **[!UICONTROL 推送]** 和 **[!UICONTROL 短信]**.
 

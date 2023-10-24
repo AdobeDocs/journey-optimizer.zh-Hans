@@ -21,9 +21,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 操作"
->abstract="此集成可用于 Adobe Campaign Classic v7 和 v8。它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。"
+>abstract="此集成可用于 Adobe Campaign Classic v7 和 v8。通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。"
 
-此集成适用于Adobe Campaign Classic v7（从7.1版本开始）和Adobe Campaign v8。 它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。
+此集成适用于Adobe Campaign Classic v7（从7.1版本开始）和Adobe Campaign v8。 通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。
 
 Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。
 

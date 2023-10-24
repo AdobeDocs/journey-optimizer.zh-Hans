@@ -21,7 +21,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自定义操作"
->abstract="如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。它让您可以使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。"
+>abstract="如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。"
 
 如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。利用此功能，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。
 

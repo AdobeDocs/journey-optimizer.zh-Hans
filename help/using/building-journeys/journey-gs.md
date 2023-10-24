@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="历程"
->abstract="设计客户历程，以提供个性化的情境式体验。Journey Optimizer使您可以利用存储在事件或数据源中的情境数据构建实时编排用例。 此 **概述** 选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。 此 **浏览** 选项卡显示现有历程的列表。"
+>abstract="设计客户历程，以提供个性化的情境式体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
 
 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 提供了以下两个选项卡：
 
