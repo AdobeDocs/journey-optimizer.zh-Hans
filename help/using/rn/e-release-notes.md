@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 24%
+source-wordcount: '350'
+ht-degree: 26%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 24%
 
 **营销活动**
 
-* 您现在可以停止实时一次性营销活动，进行修改并再次恢复它。 此改进在Beta版中提供。
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * 当您的某个促销活动发生错误时，警告图标现在会与该促销活动的状态一起显示在促销活动列表中。
 
 **历程**
