@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 10%
+source-wordcount: '536'
+ht-degree: 9%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 10%
    在本例中，我们希望在实际天气炎热时提高所有具有“hot”属性的选件的优先级。 要执行此操作， **contextData.weather=hot** 在决策调用中传递。
 
    ![](../assets/ranking-syntax.png)
+
+   >[!IMPORTANT]
+   >
+   >创建排名公式时，不支持回顾以前的时间段。 例如，如果您将上个月之内发生的体验事件指定为公式的一个组成部分。 在公式创建期间任何包含回顾期间的尝试将在保存公式时触发错误。
 
 1. 单击 **[!UICONTROL Save]**。已创建排名公式，您可以从列表中选择该公式以获取详细信息并编辑或删除它。
 

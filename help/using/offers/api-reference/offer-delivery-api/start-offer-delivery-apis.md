@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '631'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 5%
 您可以使用以下任一方式交付优惠： **决策** 或 **边缘决策** API。 此外， **批量决策** API允许您在一次调用中将选件交付给给定受众中的所有配置文件。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批量工作流。
 
 在此页面中，您可以找到随提供的有关特定功能的信息。 **决策** 和 **边缘决策** API。 虽然这两种方法都允许您向客户提供选件，但我们建议使用 **边缘决策** API适用于入站用例，并确保提高平台的延迟和吞吐量。
-
 
 有关如何使用API的更多信息，请参阅以下章节：
 * [Decisioning API](decisioning-api.md)
@@ -127,7 +126,6 @@ curl -X GET \
 
 以下列出的功能仅在Decisioning API中可用。 如果您需要利用其中一个应用程序来满足您的要求，请使用Decisioning API。 否则，我们建议使用Edge Decisioning API。
 
-* **体验事件**：利用体验事件构建决策规则。
 * **选件内容和特征**：您可以选择不使用专用选项返回选件的内容和特征。
 * **优惠元数据**：启用一个选项以返回选件的元数据。
 * **合并策略**：在请求中使用与沙盒关联的合并策略不同的合并策略。

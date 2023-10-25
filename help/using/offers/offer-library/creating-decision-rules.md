@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 12%
+source-wordcount: '419'
+ht-degree: 13%
 
 ---
 
@@ -25,10 +25,9 @@ ht-degree: 12%
 
 以下是使用决策规则时要注意的限制列表：
 
-* 创建规则时，您可以使用历史事件，但这些规则在何时可用存在限制。
 * Edge Decisioning使用不会存储事件的边缘配置文件，因此边缘决策中使用的任何规则都将无效。
-* 使用优惠决策的历程不会查看历史事件，因此这些规则将无效。
-* 使用中心配置文件的决策请求将查看配置文件上的最后100个体验事件，以评估引用历史体验事件的规则。
+* 创建决策规则时，不支持回顾以前的时间段。 例如，如果您将上个月之内发生的体验事件指定为规则的组件。 在规则创建期间任何包含回顾期的尝试将在保存时触发错误。
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 创建决策规则 {#create}
 
