@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
+source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4438'
 ht-degree: 94%
 
 ---
@@ -94,14 +94,14 @@ ht-degree: 94%
 
 此版本包含下方列出的改进。
 
-**受众**
+<!--**Audiences**
 
-* 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
-* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。
+* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
 
 >[!AVAILABILITY]
 >
->这些功能目前作为私有测试版提供。
+>These capabilities are currently available as a private beta.-->
 
 <!--
 **Spam scoring for emails**
