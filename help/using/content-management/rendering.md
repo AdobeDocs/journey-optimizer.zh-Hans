@@ -1,10 +1,10 @@
 ---
 title: 测试电子邮件渲染
 description: 了解如何测试电子邮件渲染。
-feature: Preview, Proofs
+feature: Preview
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 13%
