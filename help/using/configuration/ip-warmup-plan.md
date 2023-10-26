@@ -11,10 +11,10 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 18%
+source-wordcount: '1111'
+ht-degree: 11%
 
 ---
 
@@ -33,30 +33,46 @@ ht-degree: 18%
 
 创建了一个或多个 [IP预热活动](ip-warmup-campaign.md) 启用专用接口和相应的选项后，即可开始创建IP预热计划。
 
+>[!CAUTION]
+>
+>要访问、创建、编辑和删除IP预热计划，您必须拥有 **[!UICONTROL 可投放性顾问]** 许可。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
 ## 准备IP预热计划文件 {#prepare-file}
 
 IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Internet服务提供商(ISP)的电子邮件数量，以确立您作为合法发件人的声誉。
 
 此活动通常在可投放性专家的帮助下执行，该专家有助于根据行业域、用例、地区、ISP和各种其他因素制定周全的计划。
 
-使用时 [!DNL Journey Optimizer] IP预热功能，此计划采用Excel文件的形式，该文件必须包含大量预定义列。 在中创建IP预热计划之前 [!DNL Journey Optimizer] 界面，您需要使用此模板填写将提供计划的所有数据。
+<!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
+
+在中创建IP预热计划之前 [!DNL Journey Optimizer] 界面，您需要在Excel模板中填写将提供计划的所有数据。
 
 >[!CAUTION]
 >
 >请与您的可投放性顾问合作，确保您的IP预热计划文件设置正确。
+>
+>确保使用模板中提供的格式。
 
 以下是包含IP预热计划的文件示例。
 
 ![](assets/ip-warmup-sample-file.png)
 
-### “IP预热计划”选项卡
+>[!NOTE]
+>
+>现在，您应该将 **属性** 和 **值** 未接触的单元格。
 
-* 在此示例中，已准备了跨越17天的计划(称为“**运行**“)以实现超过100万用户档案的目标数量。
+### “IP预热计划”选项卡 {#ip-warmup-plan-tab}
 
-* 此计划的执行截止日期为6 **阶段**，每个报表包至少包含一个运行。
+* 在此示例中，已准备了跨越17天的计划(称为“**运行**“)达到超过100万用户档案的目标数量。
 
-* 对于要交付到的域，您可以拥有任意数量的列。 在此示例中，计划分为6列：其中5列对应于 **主域组** 用于您的计划(Gmail、Microsoft、Yahoo、Orange和Apple)和第六列， **其他**，包含其他域的所有剩余地址。
-* 此 **参与天数** 列显示仅定向过去30天内与您的品牌互动的用户档案。
+* 该计划在六年内执行 **阶段**，每个报表包至少包含一个运行。
+
+* 对于要交付到的域，您可以拥有任意数量的列。 在此示例中，计划分为六个列：
+
+   * 其中四个对应于 **现成的域组** 在您的计划(Gmail、Microsoft、Yahoo和Orange)中使用。
+   * 一个与自定义域组(您需要使用 [自定义域组](#custom-domain-group-tab) 选项卡)。
+   * 第六纵队， **其他**，包含计划中未明确涵盖的其他域的所有剩余地址。 此列是可选的：如果忽略，电子邮件将只发送到指定的域。
+* 此 **参与天数** 列会显示仅定向在输入的最后一个期间与您的品牌互动的用户档案。
 
 其思想是逐步增加每次运行的目标地址数量，同时减少每个阶段的运行数量。
 
@@ -78,7 +94,53 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 * 拉波斯特
 * Apple
 
-### “自定义域组”选项卡
+<!--
++++ Gmail
+gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++
+
++++ Adobe
+adobe.com;adobe.fr;adobe.es
++++
+
++++WP
++++
+
++++Comcast
++++
+
++++Yahoo
++++
+
++++Bigpond
++++
+
++++Orange
++++
+
++++Softbank
++++
+
++++Docomo
++++
+
++++United Internet
++++
+
++++Microsoft
++++
+
++++KDDI
++++
+
++++Italia Online
++++
+
++++La Poste
++++
+-->
+
+### “自定义域组”选项卡 {#custom-domain-group-tab}
 
 您还可以通过包含自定义域组向计划添加更多列。
 
@@ -87,6 +149,51 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 例如，如果添加自定义域Luma，则需要包含以下子域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
 ![](assets/ip-warmup-sample-file-custom.png)
+
+### 示例 {#example}
+
+假设您要有两个自定义域组：
+
+* 一个仅用于Hotmail域。
+* 一个用于域组Microsoft中的所有其他域（因此不包括所有Hotmail域）。
+
+请注意，所有其他域都将收集到 **[!UICONTROL 其他]** 列。
+
+1. 在 **[!UICONTROL 自定义域组]** 选项卡，创建 **Hotmail** 域组。
+
+1. 在同一行中添加所有Hotmail域。
+
+   您可以 [复制并粘贴](#copy-paste) 中列出的所有Hotmail域 [“IP预热计划”选项卡](#ip-warmup-plan-tab) 部分。
+
+1. 添加另一行。
+
+1. 创建 **Microsoft_X** 域组。
+
+1. 在同一行中添加所有非Hotmail的Microsoft域。 同样，您也可以从上述列表中复制并粘贴它们。 [了解详情](#copy-paste)
+
+1. 返回 **[!UICONTROL IP预热计划]** 选项卡。
+
+1. 创建三列：一列用于 **Hotmail**，一个用于 **Microsoft_X** 一个用于 **其他**.
+
+1. 根据您的需要填写各列。
+
+>[!NOTE]
+>
+>将IP预热计划上传到后 [!DNL Journey Optimizer]，您无需排除Microsoft域组。
+
+<!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
+
+### 复制粘贴默认域 {#copy-paste}
+
+例如，如果您要创建包含所有Hotmail域的自定义域组，则可以从提供的默认列表中复制并粘贴域 [以上](#ip-warmup-plan-tab).
+
+然后使用Excel转换工具将文本转换为列：
+
+1. 选择 **[!UICONTROL 数据]** > **[!UICONTROL 文本到列……]**，选择 **[!UICONTROL 已分隔]** 并选择 **[!UICONTROL 下一个]**.
+
+1. 选择 **[!UICONTROL 分号]**，单击 **[!UICONTROL 下一个]** 和 **[!UICONTROL 完成]**.
+
+现在，每个域在同一行的不同列中显示。
 
 ## 访问和管理IP预热计划 {#manage-ip-warmup-plans}
 
@@ -98,10 +205,14 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    * **未开始**：尚未激活任何运行。 [了解详情](ip-warmup-execution.md#define-runs)
    * **实时**：一旦成功激活第一阶段的第一次运行，计划就会更改为此状态。 [了解详情](ip-warmup-execution.md#define-runs)
-   * **已完成**：计划已标记为已完成。 仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已完成]** 或 **[!UICONTROL 草稿]** 状态(无法运行 **[!UICONTROL 实时]**)。 [了解详情](ip-warmup-execution.md#mark-as-completed)
+   * **已完成**：计划已标记为已完成。 <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解详情](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 要删除IP预热计划，请选择 **[!UICONTROL 删除]** 图标并确认删除。
+
+   >[!NOTE]
+   >
+   >仅限具有以下属性的计划： **未开始** 状态可删除。
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -123,11 +234,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道表面"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
 
-当一个或多个实时营销活动具有 **[!UICONTROL IP预热计划激活]** 启用选项后，您可以将其与IP预热计划关联。
-
->[!CAUTION]
->
->要创建、编辑和删除IP预热计划，您必须具有 **[!UICONTROL 可投放性顾问]** 许可。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+要创建IP预热计划，请执行以下步骤。
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP预热计划]** 菜单，然后单击 **[!UICONTROL 创建IP预热计划]**.
 
@@ -137,11 +244,11 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 选择 [曲面](channel-surfaces.md). 仅营销表面可供选择。 [了解有关电子邮件类型的更多信息](../email/email-settings.md#email-type)
+1. 选择 [曲面](channel-surfaces.md) 想要热身。 仅营销表面可供选择。 [了解有关电子邮件类型的更多信息](../email/email-settings.md#email-type)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同表面。[了解如何创建IP预热活动](ip-warmup-campaign.md)
+   >要与IP预热计划关联的营销活动必须使用同一表面。 [了解如何创建IP预热活动](ip-warmup-campaign.md)
 
 1. 上载包含IP预热计划的Excel文件。 [了解详情](#prepare-file)
 
@@ -150,6 +257,12 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。在上传的文件中定义的所有阶段、运行、列及其内容会自动显示在 [!DNL Journey Optimizer] 界面。 [了解详情](ip-warmup-execution.md)
+   >[!NOTE]
+   >
+   >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用Adobe为您提供的示例。
+
+1. 单击&#x200B;**[!UICONTROL 创建]**。在上传的文件中定义的所有阶段、运行、列及其内容会自动显示在 [!DNL Journey Optimizer] 界面。
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+您现在可以执行IP预热计划了。 [了解详情](ip-warmup-execution.md)

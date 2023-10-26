@@ -11,9 +11,9 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1730'
 ht-degree: 19%
 
 ---
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. 对于每个阶段，选择要与IP预热计划的此阶段关联的活动。
 
+   >[!NOTE]
+   >
+   >您不能选择已在另一个IP预热计划中使用的营销活动。 但是，同一IP预热计划的一个或多个阶段中可以使用相同的活动。
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * 仅限具有的促销活动 **[!UICONTROL IP预热计划激活]** 选项已启用 <!--and live?--> 可供选择。 [了解详情](#create-ip-warmup-campaign)
+   >* 仅限具有的促销活动 **[!UICONTROL IP预热计划激活]** 启用的选项可供选择。 [了解详情](#create-ip-warmup-campaign)
    >
    >* 您必须选择与为当前IP预热计划选择的活动使用相同曲面的活动。
-   >
-   >* 您不能选择已在另一个IP预热计划中使用的营销活动。
-
 
 1. 在 **[!UICONTROL 配置文件排除]** 部分中，您可以看到始终排除该阶段先前运行的用户档案。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
 
-1. 从 **[!UICONTROL 排除的活动受众]** 部分，从其他部分选择受众 <!--executed/live?-->要从当前阶段排除的营销活动。
+1. 从 **[!UICONTROL 排除的活动受众]** 部分，从其他部分选择营销活动受众 <!--executed/live?-->要从当前阶段排除的营销活动。
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >如果您不想应用 **[!UICONTROL 上次参与]** 当前运行的参数，将其设置为0。
+   >如果不想对运行应用任何参与期，请在 **[!UICONTROL 上次参与]** 字段。
 
 1. 选择 **[!UICONTROL 因错误而暂停]** 用于在评估了某个运行的受众后，如果符合条件的配置文件少于目标配置文件，则取消该运行的选项。
 

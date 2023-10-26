@@ -11,10 +11,10 @@ keywords: IP 、池、可投放性
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 21%
 
 >[!ENDSHADEBOX]
 
-在中创建IP预热计划本身之前 [!DNL Journey Optimizer]，您首先需要创建一个或多个启用了专用选项的营销活动，以便在IP预热计划中使用它们。
+在中创建IP预热计划本身之前 [!DNL Journey Optimizer]，您首先需要创建一个或多个专门用于IP预热计划的营销活动<!--through a dedicated option-->.
 
 要创建IP预热活动，请执行以下步骤。
 
@@ -48,8 +48,9 @@ ht-degree: 21%
    >
    >与您的可投放性顾问合作，确定要用于IP预热计划的域和IP。<!--TBC-->
 
-1. 创建 [营销活动](../campaigns/create-campaign.md) 并选择 [电子邮件](../email/create-email.md#create-email-journey-campaign) 操作。
+1. 创建计划的营销 [营销活动](../campaigns/create-campaign.md) 并选择 [电子邮件](../email/create-email.md#create-email-journey-campaign) 操作。
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. 选择为IP预热创建的曲面。
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ ht-degree: 21%
    >
    >有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
 
-1. [激活](../campaigns/review-activate-campaign.md) 营销活动。
+1. [激活](../campaigns/review-activate-campaign.md) 营销活动。 其状态更改为 **[!UICONTROL 实时]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ ht-degree: 21%
 
 活动一旦启用，即可在IP预热计划中使用。 [了解详情](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+IP预热活动只能用于一个IP预热计划。 但是，同一IP预热计划的一个或多个阶段中可以使用相同的活动。 [了解详情](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>在IP预热计划中使用实时营销活动时，在计划之后 [标记为已完成](ip-warmup-execution.md#mark-as-completed)，则该营销活动的状态将更改为 **[!UICONTROL 已停止]**.
+

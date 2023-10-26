@@ -11,9 +11,9 @@ keywords: IP，可投放性
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
 
-要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。这应该可以确保启动阶段的顺利进行，并帮助您降低无效地址的总体占比。
+要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。
 
 >[!NOTE]
 >
