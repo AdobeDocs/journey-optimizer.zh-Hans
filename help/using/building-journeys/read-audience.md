@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1307'
 ht-degree: 13%
 
 ---
@@ -29,11 +29,13 @@ ht-degree: 13%
 
 以中创建的“Luma应用程序打开和签出”受众为例 [构建受众](../audience/about-audiences.md) 用例。 通过读取受众活动，您可以让属于此受众的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
 
->[!NOTE]
->
->对于使用“读取受众”活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（读取受众、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
->
->以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+## 必读 {#must-read}
+
+* 对于使用“读取受众”活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（读取受众、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
+
+* 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+
+* 目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) “入门”作为私人测试版提供。 有关更多信息，请与您的 Adobe 代表联系。
 
 ### 配置活动 {#configuring-segment-trigger-activity}
 

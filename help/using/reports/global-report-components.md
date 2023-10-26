@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 9%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 10%
 </tr> 
   <tr> 
    <td> 唯一点击次数<br/> </td> 
-   <td> 单击电子邮件中内容的收件人数量。<br/> </td> 
+   <td> 单击电子邮件中内容的收件人数量。<br> 请注意，在计算唯一点击量时，会考虑过去10天的点击量。 如果用户档案在10天内注册了多次点击，则都将计为唯一点击。 但是，如果某个用户档案相隔10天以上，有2次点击，则不会被视为唯一点击。<br/> </td> 
 </tr> 
   <tr> 
    <td>独特点击率<br/> </td> 
@@ -160,7 +160,7 @@ ht-degree: 10%
 </tr>
   <tr> 
    <td> 唯一打开次数<br/> </td> 
-   <td>打开投放的收件人数量。<br/> </td> 
+   <td>打开投放的收件人数量。 <br> 请注意，计算唯一打开次数时，将考虑过去10天。 如果某用户档案在10天内注册了多次打开，则将被计为唯一打开。 但是，如果某个用户档案有2个打开次数，并且间隔超过10天，则这些打开次数不会被视为唯一打开次数。<br/> </td> 
 </tr> 
   <tr> 
    <td> 退订次数<br/> </td> 

@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 94%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 <td>
 <p>沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 软件包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ ht-degree: 94%
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>SMS中的多媒体消息服务(MMS)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>借助短信渠道，您现在可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。 请注意，此功能当前仅在Sinch中可用。</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ ht-degree: 94%
 **受众**
 
 * 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
-* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。
+* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。 [了解详情](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ ht-degree: 94%
 **营销活动**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 当您的某个促销活动发生错误时，警告图标现在会与该促销活动的状态一起显示在促销活动列表中。
+* 当您的某个促销活动发生错误时，警告图标现在会与该促销活动的状态一起显示在促销活动列表中。 [了解详情](../campaigns/modify-stop-campaign.md#statuses)
 
 **历程**
 
-* 现在，您可以在任意等待时间中定义的最长持续时间为29天，而不是30天。 这适用于：
+* 现在，您可以在任意等待时间中定义的最长持续时间为29天，而不是30天。 引入此改进是为了防止等待持续时间超过30天的历程生命周期。 这适用于：
 
    * 该 **时间量** 中的字段 [等待活动](../building-journeys/wait-activity.md)
    * 该 **重新进入等待期** 在 [历程属性](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ ht-degree: 94%
 
 **决策管理**
 
-* 更新了与决策管理界面中的优惠上限相关的多个标签。
+* 更新了与决策管理界面中的优惠上限相关的多个标签。 [了解详情](../offers/offer-library/add-constraints.md#capping)
 
 ## 2023 年 9 月发行说明 {#sept-rn-2023}
 

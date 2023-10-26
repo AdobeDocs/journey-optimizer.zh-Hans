@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '446'
 ht-degree: 20%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 20%
 
 1. 激活 **[!UICONTROL 定义事件超时]** 事件属性中的选项。
 
-1. 指定历程将等待事件的时间量。
+1. 指定历程将等待事件的时间量。 最长持续时间为29天。
 
 1. 如果在指定的超时内未收到任何事件时要将个人发送到超时路径中，请启用 **[!UICONTROL 设置超时路径]** 选项。 如果未启用此选项，则到达超时后个人将结束历程。
 

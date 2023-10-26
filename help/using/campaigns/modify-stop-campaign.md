@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 此外，您可以根据营销活动类型和渠道，或根据创建营销活动时分配给营销活动的标记来过滤列表。 [了解如何为营销活动分配标记](create-campaign.md#create)
 
-## 营销活动状态 {#statuses}
+## 营销活动状态和警报 {#statuses}
 
 营销活动可以具有多种状态：
 
@@ -47,6 +47,10 @@ ht-degree: 2%
 >[!NOTE]
 >
 >旁边的“打开草稿版本”图标 **[!UICONTROL 实时]** 或 **[!UICONTROL 已计划]** 状态表示已创建营销活动的新版本，但尚未激活。 [了解详情](modify-stop-campaign.md#modify)。
+
+当您的某个营销策划中发生错误时，该营销策划的状态旁边会显示一个警告图标。 单击该图标以显示有关警报的信息。 这些警报可能会在各种情况下发生，例如营销活动消息未发布或所选表面不正确时。
+
+![](assets/campaign-alerts.png)
 
 ## 修改定期活动 {#modify}
 

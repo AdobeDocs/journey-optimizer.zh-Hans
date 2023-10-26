@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 34%
+source-wordcount: '967'
+ht-degree: 33%
 
 ---
 
@@ -124,17 +124,17 @@ ht-degree: 34%
 
 单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [详细了解受众](../audience/about-audiences.md)。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 以私有测试版的形式提供。 有关更多信息，请与您的 Adobe 代表联系。
 >
 >对于API触发的营销活动，需要通过API调用设置受众。 [了解详情](api-triggered-campaigns.md)
 
-在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选区段中的个人。 [了解关于命名空间的更多信息](../event/about-creating.md#select-the-namespace)
+在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选区段中的个人。
+
+如果属于区段的个人在不同身份中没有所选身份（命名空间），则不会将该营销活动定位到该区段。 [了解关于命名空间的更多信息](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->如果属于区段的个人在不同身份中没有所选身份（命名空间），则不会将该营销活动定位到该区段。
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

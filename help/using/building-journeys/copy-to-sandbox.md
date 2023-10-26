@@ -9,36 +9,44 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 20%
+source-wordcount: '612'
+ht-degree: 7%
 
 ---
 
 # 将历程复制到另一个沙盒 {#copy-to-sandbox}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="将历程复制到另一个沙盒"
->abstract="可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。除了历程本身，Journey Optimizer 还会复制历程所依赖的大部分对象。"
+>title="Copy a journey to another sandbox"
+>abstract="Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from the Stage sandbox environment to your Production sandbox. In addition to the Journey itself, Journey Optimizer also copies most of the objects the journey depends on."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="沙盒详细信息"
->abstract="选择您要将历程复制到的目标沙盒。只有您组织内的沙盒可用。"
+>title="Sandbox details"
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="对象详细信息"
->abstract="这就是您要复制的历程。"
+>title="Object details"
+>abstract="This is the journey you are going to copy."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="依赖对象"
->abstract="这是在历程中使用的关联对象的列表。此列表显示名称、对象类型以及内部 Journey Optimizer ID。"
+>title="Dependent objects"
+>abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
+-->
 
-可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、界面（即预设）、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此 [部分](#limitations).
+沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 软件包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。
+
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关特征本身的更多信息，请参阅 [Experience Platform文档](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+
+## 沙盒工具入门{#sandbox-gs}
+
+可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此 [部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -46,66 +54,58 @@ ht-degree: 20%
 
 目标沙盒中复制的对象是唯一的，不存在覆盖现有元素的风险。 历程和历程中的任何消息都会以草稿模式引入。 这允许您在目标沙盒上发布之前执行彻底验证。 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
 
+## 导出历程 {#export}
+
 要将历程复制到另一个沙盒，请执行以下步骤：
 
 1. 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
 
-2. 搜索要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个圆点）并单击 **复制到沙盒**.
+1. 搜索要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个圆点）并单击 **添加到包**.
 
-   ![](assets/copy-sandbox1.png)
+![](assets/journey-sandbox1.png)
 
-   此 **复制到沙盒** 屏幕上会显示。
+此 **添加到包** 窗口随即显示。
 
-   ![](assets/copy-sandbox2.png)
+![](assets/journey-sandbox2.png)
 
-3. 选择 **Target沙盒** 从下拉字段中。 只有您组织内的沙盒可用。
+1. 选择是要将历程添加到现有包还是创建新包：
 
-4. 查看 **依赖对象** 部分。 这是在历程中使用的关联对象的列表。此列表显示名称、对象类型以及内部 Journey Optimizer ID。
+   * **现有包**：从下拉菜单中选择资源包。
+   * **创建新资源包**：键入包名称。 您还可以添加描述。
 
-5. 单击 **复制** 按钮以开始将历程复制到目标沙盒。
+1. 在“管理”菜单部分中，单击 **[!UICONTROL 沙盒]**，选择 **包** 选项卡，然后单击要导出的资源包。
 
-   ![](assets/copy-sandbox3.png)
+   ![](assets/journey-sandbox3.png)
 
-   复制过程开始，并显示每个单独对象的进度。 复制过程因历程的复杂性以及需要复制的对象数量而异。 如果遇到错误，则会显示相关对象的消息。
+1. 选择要导出的对象，然后单击 **Publish**
 
-   ![](assets/copy-sandbox4.png)
+   ![](assets/journey-sandbox4.png)
 
-6. 复制完成后，单击 **关闭**.
+   如果发布失败，您可以检查日志以确定失败原因。 打开包，单击 **查看失败的作业**，选择导入作业并单击 **查看导入详细信息**.
 
-7. 访问目标沙盒并对所有复制的对象执行彻底检查。
+   ![](assets/journey-sandbox9.png)
 
-## 复制流程和限制 {#limitations}
+## 导入历程 {#export}
 
-可能无法将所有链接的元素复制到目标沙盒。 Adobe强烈建议您执行彻底检查。 识别任何潜在的缺少对象，并在发布历程之前手动创建它们。
+1. 在包列表中，单击包名称旁边的+图标。
 
-将复制以下对象：
+   ![](assets/journey-sandbox5.png)
 
-* 受众
+1. 选择 **Target沙盒** ，然后单击 **下一个**. 只有您组织内的沙盒可用。
 
-  一个受众只能从一个沙盒复制到另一个沙盒。 复制受众后，该受众就无法在目标沙盒中编辑。
+   ![](assets/journey-sandbox6.png)
 
-* 架构
+1. 查看软件包对象和依赖关系。 这是在历程中使用的关联对象的列表。此列表显示名称和对象类型。 对于每个对象，您可以选择创建新对象或使用目标沙盒中的现有对象。
 
-  将复制此历程中使用的架构。
+   ![](assets/journey-sandbox7.png)
 
-* 消息
+1. 单击 **完成** 按钮，开始将包复制到target沙盒。 复制过程因历程的复杂性以及需要复制的对象数量而异。
 
-  历程中使用的渠道操作活动。 消息中用于个性化的字段不检查完整性。 不会复制内容块。
+1. 单击导入作业以查看复制结果：
 
-* 历程 — 画布详细信息
+   * 单击 **查看导入的对象** 显示每个复制的对象。
+   * 单击 **查看导入详细信息** 检查每个对象的导入结果。
 
-  画布上历程的表示形式，包括历程中的对象，如条件、操作、事件、读取受众等。 将从副本中排除“跳转”活动。
+   ![](assets/journey-sandbox8.png)
 
-* 活动
-
-  旅程中使用的事件和事件详细信息将会复制。
-
-* 操作
-
-  旅程中使用的操作和操作详细信息已复制。
-
-曲面（即预设）不会被复制。 系统根据消息类型和表面名称，自动选择目标沙盒上最接近的匹配项。 如果在目标沙盒上未找到表面，则表面复制将失败。 这意味着邮件副本也将失败，因为邮件需要一个可用于设置的界面。 在这种情况下，为了使副本正常工作，需要为消息的正确渠道创建至少一个表面。
-
-对于架构、合并策略和受众，当这些对象第二次尝试复制时，将仅引用它们。 它们将被视为已存在的对象，并将再次被复制。 这意味着这些对象只能被复制一次。
-
-Adobe Journey Optimizer会延迟五分钟才能引用架构、合并策略和受众，并且不会在画布中看到错误。 等待五分钟，这些引用将可用。
+1. 访问目标沙盒并对所有复制的对象执行彻底检查。

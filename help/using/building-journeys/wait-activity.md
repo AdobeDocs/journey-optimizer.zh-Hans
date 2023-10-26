@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 18%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 18%
 
 ## 持续时间等待{#duration}
 
-选择下一个活动执行前等待的持续时间。
+选择下一个活动执行前等待的持续时间。 最长持续时间为29天。
 
 ![](assets/journey55.png)
 

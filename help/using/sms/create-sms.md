@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 18%
+source-wordcount: '707'
+ht-degree: 17%
 
 ---
 
@@ -108,7 +108,23 @@ ht-degree: 18%
 
    ![](assets/sms_tracking_2.png)
 
-1. 在 `originalUrl` 字段中，粘贴要缩短的URL。
+1. 在 `originalUrl` 字段中，粘贴要缩短的URL并单击 **[!UICONTROL 保存]**.
+
+1. 启用MMS选项以将媒体添加到短信内容。
+
+   MMS附带列出了一些限制 [此页面](../start/guardrails.md#sms-guardrails).
+
+   >[!NOTE]
+   >
+   > MMS选项仅适用于Sinch。 您需要创建特定的API凭据才能创建MMS。 [了解详情](sms-configuration.md#create-new-api)
+
+   ![](assets/sms_create_6.png)
+
+1. 添加 **[!UICONTROL 标题]** 到您的媒体上。
+
+1. 在中输入媒体的URL **[!UICONTROL 媒体]** 字段。
+
+   ![](assets/sms_create_7.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
 

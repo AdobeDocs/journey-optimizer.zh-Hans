@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 13%
 
 默认情况下，新历程允许重新进入。 您可以取消选中“一次性”旅程选项，例如，当您想要在某人访问商店时提供一次性礼品时。 在这种情况下，客户必须无法重新进入历程并再次收到选件。 历程结束时，其状态为 **[!UICONTROL 已关闭]**. 新个人无法再进入历程。 已在历程中的人员正常完成历程。 [了解详情](journey-gs.md#entrance)
 
+当 **允许重新进入** 选项已激活， **重新进入等待期** 字段允许您定义允许用户档案再次进入历程之前的等待时间。 这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为29天。
+
 ![](assets/journey-re-entrance.png)
 
 默认设置之后 [全局超时](journey-gs.md#global_timeout) 在30天内，历程将切换到 **已完成** 状态。 历程中已有的用户档案通常会完成历程。 新配置文件无法再进入历程。 此行为仅设置为30天（即历程超时默认值），因为有关进入历程的用户档案的所有信息在进入30天后会被删除。 在该时段后，用户档案可以重新进入历程。 要避免此情况，并完全禁止这些用户档案的重新进入，您可以使用用户档案或受众数据，添加条件以测试是否已经输入用户档案。
@@ -42,9 +44,7 @@ ht-degree: 13%
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-单一历程（以事件或受众鉴别开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，重新访问用户档案会被暂时阻止 5 分钟。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
-
-密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+密钥用于检查人员是否正在历程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 ## 读取受众历程{#entry-read-segment}
 

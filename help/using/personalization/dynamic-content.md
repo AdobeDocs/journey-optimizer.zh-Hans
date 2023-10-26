@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，动态，内容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '564'
 ht-degree: 9%
 
 ---
@@ -60,13 +60,13 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
 在Email Designer中创建内容组件变体的步骤如下所示：
 
-1. 在Email Designer中，选择一个内容组件，然后单击 **[!UICONTROL 启用条件内容]**.
+1. 在 [电子邮件设计工具](../email/content-from-scratch.md)，选择一个内容组件，然后单击 **[!UICONTROL 启用条件内容]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. 此 **[!UICONTROL 条件内容]** 窗格显示在左侧。 在此窗格中，您可以使用条件创建所选内容组件的多个变体。
 
-   通过选择以下内容配置您的第一个变体： **[!UICONTROL 应用条件]** 按钮。
+   通过选择以下内容配置您的第一个变体： **[!UICONTROL 选择完成情况]** 按钮。
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
    您也可以通过单击 **[!UICONTROL 新建]**. [了解如何创建条件](create-conditions.md)
 
-1. 条件规则已关联到变体。 为了提高可读性，我们建议通过单击椭圆菜单来重命名变体。
+1. 条件规则已关联到变体。 为了提高可读性，请选择 **[!UICONTROL 重命名]** “更多操作”图标中的操作。
 
-   现在，配置在发送消息时如果满足规则应如何显示组件。 在本例中，我们希望以法文显示文本（如果它是收件人的首选语言）。
+   ![](assets/conditions-rename.png)
+
+1. 配置在发送消息时如果满足规则应如何显示组件。 在本例中，我们希望以法文显示文本（如果它是收件人的首选语言）。
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
    >如果在发送消息时未满足变体定义的所有规则，则内容组件将显示中定义的内容。 **[!UICONTROL 默认变量]**.
    >
    >条件内容将按照变体的显示顺序根据关联的规则进行评估。 如果不满足其他条件，则始终显示默认变体。
+
+1. 要删除变体，请单击所需变体旁边的更多操作图标，然后选择 **[!UICONTROL 删除]**.
+
+   ![](assets/conditions-delete.png)

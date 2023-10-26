@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2386'
 ht-degree: 17%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 17%
 
 * 如果要关联特定 [决策规则](../offer-library/creating-decision-rules.md) 对于选件，选择 **[!UICONTROL 按定义的决策规则]**，然后将所需规则从左窗格拖入 **[!UICONTROL 决策规则]** 区域。
 
-  ![](../assets/offer_rule.png)
+  ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
@@ -146,7 +146,7 @@ ht-degree: 17%
 
 要设置上限，请执行以下步骤。
 
-1. 确保 **[!UICONTROL 包括上限]** 切换按钮处于选中状态。 默认情况下包含上限。
+1. 确保 **[!UICONTROL 启用上限]** 切换按钮处于选中状态。 默认情况下，将启用上限。
 
    >[!CAUTION]
    >
@@ -160,7 +160,7 @@ ht-degree: 17%
 
 1. 设置 **[!UICONTROL 频率]** 以定义重置上限计数的频率。 [了解详情](#frequency-capping)
 
-1. 如果您定义了多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **[!UICONTROL 在所有投放位置中]** 或 **[!UICONTROL 对于每个投放位置]**. [了解详情](#placements)
+1. 如果您定义了多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **在所有投放位置中** 或 **到每个投放位置**. [了解详情](#placements)
 
 1. 保存并批准优惠后，如果根据您定义的标准和时间范围在此字段中显示了您指定的次数，则将停止投放优惠。
 
@@ -179,7 +179,7 @@ ht-degree: 17%
 >title="印象"
 >abstract="仅入站频道可将印象用作上限事件。"
 
-此 **[!UICONTROL 设置事件上限]** 字段允许您定义 **[!UICONTROL 设置事件上限]** 将考虑以增加计数器：
+此 **[!UICONTROL 设置事件上限]** 字段允许您定义将考虑哪个事件以增加计数器：
 
 ![](../assets/offer-capping-event.png)
 
@@ -219,7 +219,7 @@ ht-degree: 17%
 
 ### 上限计数 {#capping-count}
 
-此 **[!UICONTROL 上限计数]** 字段，用于指定可显示选件的次数。
+此 **[!UICONTROL 上限计数限制]** 字段，用于指定可显示选件的次数。
 
 ![](../assets/offer-capping-times.png)
 
@@ -227,7 +227,7 @@ ht-degree: 17%
 >
 >数字必须是大于0的整数。
 
-例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在 **[!UICONTROL 上限计数]** 字段中，10次结账后将不再发送任何选件。
+例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在 **[!UICONTROL 上限计数限制]** 字段中，10次结账后将不再发送任何选件。
 
 ### 上限类型 {#capping-type}
 
@@ -258,7 +258,7 @@ ht-degree: 17%
 >
 >重置发生在UTC凌晨12点，也就是您定义的日期或一周/月的第一天（如果适用）。 一周的开始日是星期日。 您选择的任何持续时间不得超过2年（即相应的月数、周数或天数）。
 
-例如，如果希望每2周重置一次上限计数，请选择 **[!UICONTROL 每周]** 从 **[!UICONTROL 重复]** 下拉列表和类型 **2** 在另一个栏位中。 重置将在每隔一个星期日的中午12点(UTC)进行。
+例如，如果希望每2周重置一次上限计数，请选择 **[!UICONTROL 每周]** 从相应的下拉列表输入并键入 **2** 在另一个栏位中。 重置将在每隔一个星期日的中午12点(UTC)进行。
 
 >[!CAUTION]
 >
@@ -268,15 +268,15 @@ ht-degree: 17%
 
 ### 上限和投放 {#placements}
 
-如果您定义了多个 [呈现](add-representations.md) 对于选件，指定是否要应用上限 **[!UICONTROL 在所有投放位置中]** 或 **[!UICONTROL 对于每个投放位置]**.
+如果您定义了多个 [呈现](add-representations.md) 对于选件，指定是要对所有投放位置还是每个投放位置应用上限。
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL 在所有投放位置中]**：上限计数将总计与优惠关联的投放位置中的所有决策。
+* **[!UICONTROL 在所有投放位置中应用上限]**：上限计数将总计与优惠关联的投放位置中的所有决策。
 
   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置在 **所有投放位置中每个配置文件2个**，则无论版面组合如何，每个用户档案最多都会收到选件2次。
 
-* **[!UICONTROL 对于每个投放位置]**：上限计数将分别应用每个投放位置的决策计数。
+* **[!UICONTROL 将上限应用于每个投放位置]**：上限计数将分别应用每个投放位置的决策计数。
 
   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置在 **每次投放每个用户档案2个**，则每个用户档案最多可收到电子邮件投放2次选件，以及网站投放2次选件。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 81%
+source-wordcount: '1698'
+ht-degree: 79%
 
 ---
 
@@ -39,6 +39,13 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 无法在子页面中使用&#x200B;**表单**&#x200B;组件。
 * 无法向登陆页添加预编译标头。
 * 设计主登录页面时，无法选择&#x200B;**自己编写代码**&#x200B;选项。
+
+## 短信护栏 {#sms-guardrails}
+
+* MMS功能仅适用于Sinch。
+* 可以通过支持的URL包含MMS的媒体文件。 请确保单独上传媒体文件。
+* 消息反馈同步当前不适用于MMS。
+* 同意管理在MMS的短信渠道级别运行。
 
 ## 历程护栏 {#journeys-guardrails}
 

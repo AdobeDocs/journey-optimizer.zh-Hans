@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->由组合工作程流生成的受众只能在 Journey Optimizer 营销活动中定位。 这些受众无法在历程中加以使用。
+>目前，可通过私有测试版使用合成工作流产生的受众到历程。 有关更多信息，请与您的 Adobe 代表联系。
 >
 >Adobe Journey Optimizer 中的营销活动尚未与策略执行服务集成。因此，不会在 Journey Optimizer 营销活动中强制执行您应用于受众属性的任何数据使用标签。
 
