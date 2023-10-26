@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4537'
-ht-degree: 92%
+source-wordcount: '4477'
+ht-degree: 94%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 **营销活动**
 
-* 您现在可以停止实时一次性营销活动，进行修改并再次恢复它。 此改进在Beta版中提供。
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * 当您的某个促销活动发生错误时，警告图标现在会与该促销活动的状态一起显示在促销活动列表中。
 
 **历程**
@@ -121,9 +121,10 @@ ht-degree: 92%
    * 该 **重新进入等待期** 在 [历程属性](../building-journeys/journey-gs.md#entrance)
    * 该 **等待** 字段，其超时定义为 [常规](../building-journeys/general-events.md#events-specific-time) 和 [反应](../building-journeys/reaction-events.md) 事件。
 
-**渠道配置中的同意**
+<!--
+**Consent in channel configuration**
 
-* 现在，您可以在渠道平面级别选择营销操作。 在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **决策管理**
 
