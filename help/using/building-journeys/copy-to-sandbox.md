@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 7%
@@ -85,7 +85,7 @@ ht-degree: 7%
 
    ![](assets/journey-sandbox9.png)
 
-## 导入历程 {#export}
+## 导入历程 {#import}
 
 1. 在包列表中，单击包名称旁边的+图标。
 
