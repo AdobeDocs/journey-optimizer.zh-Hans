@@ -12,7 +12,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 9%
+ht-degree: 26%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
->title="定义选择策略"
->abstract="选择策略是可重复使用的项目，包括与资格约束关联的集合以及确定在决策策略中选择时显示的优惠的排名方法。"
+>title="定义您的选择策略"
+>abstract="选择策略是一个可重用的项，它由与资格约束和排名方法关联的收藏集组成，以确定要显示的在决策策略中选择的优惠。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="创建决策策略"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
->title="限制符合条件的用户档案"
->abstract="您可以限制此选择策略的选件选择。 默认情况下，所有用户档案都符合条件，但您可以使用受众或规则将选件选择限制为仅特定用户档案。"
+>title="限制符合条件的配置文件"
+>abstract="可限制为此选择策略选择优惠。默认情况下，所有配置文件都符合条件，但您可使用受众或规则仅限特定配置文件选择优惠。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用决策规则"
 
@@ -106,8 +106,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
->title="定义优惠的排名"
->abstract="如果多个选件符合给定选择策略的条件，请在创建选择策略时，选择将为每个用户档案选择最佳选件的方法：优先级或排名公式。"
+>title="定义如何为优惠排名"
+>abstract="如果有多项优惠符合给定的选择策略，请在创建选择策略时选择将为每个配置文件选择最佳优惠的方法：优先级或排名公式。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="创建决策策略"
 
 如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：

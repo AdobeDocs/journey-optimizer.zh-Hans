@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 1%
+ht-degree: 22%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="检查内容的呈现方式"
->abstract="定义内容后，您可以使用测试用户档案进行预览，并根据您使用的渠道检查渲染是否正确。"
+>title="检查您的内容的渲染方式"
+>abstract="定义内容后可使用测试配置文件预览它，并根据所使用的渠道检查渲染是否正确。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="检查内容的呈现方式"
->abstract="定义内容后，您可以预览内容，并根据您使用的渠道检查渲染是否正确。"
+>title="检查您的内容的渲染方式"
+>abstract="定义内容后可预览它，并根据所使用的渠道检查渲染是否正确。"
 
 ## 关于内容预览和测试 {#about}
 

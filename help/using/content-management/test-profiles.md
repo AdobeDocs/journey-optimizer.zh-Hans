@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="使用测试配置文件检查您的内容"
->abstract="使用测试配置文件来预览和测试您的内容。 如果您添加了个性化字段，则可以使用测试用户档案数据检查这些字段的显示方式。"
+>abstract="使用测试配置文件预览和测试您的内容。如果您添加了个性化字段，则可以使用测试配置文件数据检查它们的显示方式。"
 
 在预览或测试内容之前，您首先需要选择测试用户档案，这些是与定义的定位标准不匹配的附加收件人。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)
 
