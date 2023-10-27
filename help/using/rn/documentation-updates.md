@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 93%
 ## 2023 年 10 月 {#oct-2023}
 
 * 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年10月版。 [了解详情](release-notes.md)
-* 添加了GIF以说明一些关键功能，例如： [内容模板](../content-management/content-templates.md)， [片段](../content-management/fragments.md)， [计算属性](../audience/computed-attributes.md)， [直邮](../direct-mail/get-started-direct-mail.md)， [标记](../start/search-filter-categorize.md#tags)， [决策管理优化模型](../offers/ranking/personalized-optimization-model.md)， [API触发的营销活动](../campaigns/api-triggered-campaigns.md)、和 [内容试验](../campaigns/content-experiment.md).
-* 架构创建过程已更新，以反映用户界面中的最新更新，其中包含Adobe Experience Platform的更改。 [了解详情](../audience/creating-test-profiles.md)
-* 决策管理护栏已添加到护栏和限制页面。 [了解详情](../start/guardrails.md#decision-management)
+* 添加了 GIF 以说明一些关键功能，例如：[内容模板](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[计算属性](../audience/computed-attributes.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[标记](../start/search-filter-categorize.md#tags)、[决策管理优化模型](../offers/ranking/personalized-optimization-model.md)、[API 触发的营销活动](../campaigns/api-triggered-campaigns.md)和[内容试验](../campaigns/content-experiment.md)。
+* 架构创建流程已更新，以反映用户界面中的最新更新，伴随着对 Adobe Experience Platform 做出的一些更改。[了解详情](../audience/creating-test-profiles.md)
+* 在护栏和限制页面中添加了决策管理护栏。[了解详情](../start/guardrails.md#decision-management)
 * 标头参数部分已更新，以反映如何处理“不在办公室”通知和质询响应(在 **[!UICONTROL 错误电子邮件]**)。 [了解详情](../email/email-settings.md#email-header)
 * 已创建有关如何预览和测试内容的新部分。 [了解详情](../content-management/preview-test.md)
 * “实施单页应用程序”页面已移至AdobeExperience Platform Web SDK文档。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
@@ -48,7 +48,7 @@ ht-degree: 93%
 * 更新了访问控制文档的链接。[了解详情](../administration/permissions.md)
 * 更新了应用程序内渠道先决条件，其中包含 Adobe Experience Platform 数据收集详细信息。[了解详情](../in-app/inapp-configuration.md)
 * 更新了排名公式示例中介绍的某些表达式，以避免验证错误。[了解详情](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 在“定义决策范围”部分添加了一个警告，以指定如果在评估标准组中使用AI模型，则该组中的所有评估标准必须使用具有相同特定AI模型的AI排名方法。 此外，只有一个评价标准组可以使用AI模型。 [了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 在“定义决策范围”部分添加了一个警告，以指定如果在评估标准组中使用AI模型，则该组中的所有评估标准必须使用具有相同特定AI模型的AI排名方法。 此外，只有一个评估标准组可以使用 AI 模型。[了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
 

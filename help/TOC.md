@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 94%
    + [配置直邮](using/direct-mail/direct-mail-configuration.md)
 + Web 渠道 {#web}
    + [开始使用 Web 渠道](using/web/get-started-web.md)
-   + 配置Web渠道 {#configure-web-channel}
+   + 配置 Web 渠道{#configure-web-channel}
       + [Web 渠道先决条件](using/web/web-prerequisites.md)
       + [配置 Web 子域](using/web/web-delegated-subdomains.md)
    + [创建 Web 体验](using/web/create-web.md)
@@ -294,8 +294,8 @@ ht-degree: 94%
       + 个性化用例{#personalization-use-cases}
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
-   + 管理可重用内容 {#reusable-content}
-      + [使用内容模板](using/content-management/content-templates.md)
+   + 管理可重用内容{#reusable-content}
+      + [使用电子邮件模板](using/content-management/content-templates.md)
       + [使用片段](using/content-management/fragments.md)
    + 动态内容 {#dynamic}
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
@@ -406,7 +406,7 @@ ht-degree: 94%
    + API 参考 {#api-reference}
       + [快速入门](using/offers/api-reference/getting-started.md)
       + 使用 API 创建和管理优惠 {#offers-api}
-         + 投放位置{#placements}
+         + 投放位置 {#placements}
             + [列出投放位置](using/offers/api-reference/offers-api/placements/placements-list.md)
             + [查找投放位置](using/offers/api-reference/offers-api/placements/lookup.md)
             + [创建投放位置](using/offers/api-reference/offers-api/placements/create.md)
@@ -448,9 +448,9 @@ ht-degree: 94%
             + [创建决策](using/offers/api-reference/activities-api/activities/create.md)
             + [更新决策](using/offers/api-reference/activities-api/activities/update.md)
             + [删除决策](using/offers/api-reference/activities-api/activities/delete.md)
-         + 旧版API {#legacy-api}
-            + [关于旧版API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
-            + 投放位置{#placements}
+         + 旧版 API {#legacy-api}
+            + [关于旧版 API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + 投放位置 {#placements}
                + [列出投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                + [查找投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
                + [创建投放位置](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)

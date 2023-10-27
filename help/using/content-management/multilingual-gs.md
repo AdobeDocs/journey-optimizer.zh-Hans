@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 多语言内容入门
-description: 进一步了解Journey Optimizer中的多语言内容
+description: 了解有关 Journey Optimizer 中的多语言内容的更多信息
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 8%
+ht-degree: 26%
 
 ---
 
