@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -141,11 +141,11 @@ ht-degree: 97%
 
 1. 使用右侧的专用按钮添加初始受众。
 
-1. 单击 **+** 图标并选择 **[!UICONTROL Split]** 创建拆分受众的活动。 [了解有关拆分活动的更多信息](../audience/composition-canvas.md#split)
+1. 单击 **+** 图标并选择&#x200B;**[!UICONTROL 拆分]**&#x200B;活动，创建拆分受众。[了解有关拆分活动的更多信息](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. 在右窗格中，选择 **[!UICONTROL 属性拆分]** 作为拆分类型。
+1. 在右窗格中，选择&#x200B;**[!UICONTROL 属性拆分]**&#x200B;作为拆分类型。
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
