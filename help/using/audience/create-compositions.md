@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 17%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,9 @@ ht-degree: 17%
 >title="发布受众"
 >abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
 
-所有创建的合成都可以从 **[!UICONTROL 合成]** 选项卡。 它们可以具有多个状态：
+所有创建的合成都可以从 **[!UICONTROL 合成]** 选项卡。 您可以使用列表中的省略号按钮随时复制或删除现有合成。
+
+合成可以具有多种状态：
 
 * **[!UICONTROL 草稿]**：构成正在进行中，尚未发布。
 * **[!UICONTROL 已发布]**：构成已发布，生成的受众已保存并可供使用。
@@ -83,4 +85,4 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->您可以使用列表中的省略号按钮随时复制或删除现有合成。
+>受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 Adobe Experience Platform中提供了详细信息 [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
