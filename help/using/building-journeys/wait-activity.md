@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 18%
@@ -35,7 +35,7 @@ ht-degree: 18%
 
 ## 关于等待活动{#about_wait}
 
-最长等待时间为30天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)。
+最长等待时间为29天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)。
 
 当在历程中使用多个等待活动时，请务必谨慎，因为全局历程超时为30天，这意味着用户档案在进入历程后，将始终退出历程的最长30天。 请参阅[此页](../building-journeys/journey-gs.md#global_timeout)。
 
