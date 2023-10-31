@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 7%
+source-wordcount: '718'
+ht-degree: 6%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 7%
 
 本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关特征本身的更多信息，请参阅 [Experience Platform文档](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>此功能需要以下权限： manage-sandbox （或view-sandbox）和manage-package。
+
 ## 沙盒工具入门{#sandbox-gs}
 
 可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此 [部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ ht-degree: 7%
 
 目标沙盒中复制的对象是唯一的，不存在覆盖现有元素的风险。 历程和历程中的任何消息都会以草稿模式引入。 这允许您在目标沙盒上发布之前执行彻底验证。 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
 
-## 导出历程 {#export}
+复制过程通过源沙盒和目标沙盒之间的资源包导出和导入来执行。 以下是将历程从一个沙盒复制到另一个沙盒的常规步骤：
 
-要将历程复制到另一个沙盒，请执行以下步骤：
+1. 将历程作为包添加到源沙盒中。
+1. 将包导出到目标沙盒。
+
+## 将历程添加为包{#export}
+
+要将历程复制到另一个沙盒，您首先需要将该历程作为包添加到源沙盒中。 执行以下步骤：
 
 1. 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
 
 1. 搜索要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个圆点）并单击 **添加到包**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-此 **添加到包** 窗口随即显示。
+   此 **添加到包** 窗口随即显示。
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. 选择是要将历程添加到现有包还是创建新包：
 
@@ -85,9 +94,11 @@ ht-degree: 7%
 
    ![](assets/journey-sandbox9.png)
 
-## 导入历程 {#import}
+## 将包导出到目标沙盒 {#import}
 
-1. 在包列表中，单击包名称旁边的+图标。
+发布包后，您需要将其导出到目标沙盒。
+
+1. 在源沙盒中，单击 **[!UICONTROL 沙盒]** 菜单，选择 **包** 选项卡，然后单击要导出的资源包旁边的+图标。
 
    ![](assets/journey-sandbox5.png)
 
