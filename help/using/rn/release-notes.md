@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '4525'
-ht-degree: 93%
+source-wordcount: '4527'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 93%
 
 **受众**
 
-* 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。
+* 您现在可以将从CSV文件上传的受众定位到历程和营销活动中。 [了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
 * 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。 [了解详情](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
@@ -205,7 +205,7 @@ ht-degree: 93%
 
 **决策管理**
 
-* 现有创建和管理决策管理对象的新 API 可用。这些API提高了性能和用户体验。 旧版API的支持将持续到2024年3月27日。 [了解详情](../offers/api-reference/getting-started.md)
+* 用于创建和管理决策管理对象的新 API 现已推出。这些 API 提高了性能并改善了用户体验。旧版 API 支持的截止日期为 2024 年 3 月 27 日。[了解详情](../offers/api-reference/getting-started.md)
 
 **个性化**
 
@@ -213,7 +213,7 @@ ht-degree: 93%
 
 **警报**
 
-* 一种新型的系统警报现已推出。现在，您可以在以下情况下收到通知： **读取受众** 活动失败。 [了解详情](../reports/alerts.md)。
+* 一种新型的系统警报现已推出。现在，您会在&#x200B;**读取受众**&#x200B;活动失败时收到通知。[了解详情](../reports/alerts.md)。
 
 **Web 渠道**
 
@@ -229,7 +229,7 @@ ht-degree: 93%
 
 
 
-* 自定义操作响应功能现已普遍可用。 此功能允许您在自定义操作中利用API调用响应，并根据这些响应编排您的历程。 此外，还新增了护栏，以将每个端点超过30秒的所有海关操作限制为150,000次调用。 [了解详情](../action/action-response.md)
+* 自定义操作响应功能现已普遍可用。这项功能允许您在自定义操作中对 API 调用响应加以利用，并根据这些响应编排历程。此外，还新增了护栏，以将所有自定义操作限制为每 30 秒每个端点 150,000 次调用。[了解详情](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ ht-degree: 93%
 
 **直邮渠道**
 
-* 现在，当直邮提供商的文件传输到服务器时，您可以加密这些文件。 为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。[了解详情](../direct-mail/direct-mail-configuration.md)
+* 现在，您可以在将直邮服务提供商使用的文件传输到服务器时对其进行加密。为此，文件路由配置屏幕中提供了一个新字段，允许您复制粘贴加密密钥。[了解详情](../direct-mail/direct-mail-configuration.md)
 
 **报告**
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1356'
 ht-degree: 13%
 
 ---
@@ -47,13 +47,13 @@ ht-degree: 13%
 
 1. 添加 **[!UICONTROL 标签]** 到活动（可选）。
 
-1. 在 **[!UICONTROL 受众]** 字段中，选择将进入历程的Adobe Experience Platform受众，然后单击 **[!UICONTROL 保存]**.
-
-   请注意，您可以自定义列表中显示的列，并对其进行排序。
+1. 在 **[!UICONTROL 受众]** 字段中，选择将进入历程的Adobe Experience Platform受众，然后单击 **[!UICONTROL 保存]**. 您可以选择使用以下方式生成的任何Adobe Experience Platform受众 [区段定义](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >仅具有 **已实现** 和 **现有** 受众参与状态将进入历程。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为私有测试版提供。
+
+   请注意，您可以自定义列表中显示的列，并对其进行排序。
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ ht-degree: 13%
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >仅具有 **已实现** 和 **现有** 受众参与状态将进入历程。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. 在 **[!UICONTROL 命名空间]** 字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
 
