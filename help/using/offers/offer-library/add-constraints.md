@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 17%
+source-wordcount: '2396'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="关于优惠优先级"
->abstract="在此字段中，您可以指定优惠的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和上限）的优惠进行排名。"
+>abstract="在此字段中，您可以指定优惠的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的优惠进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
@@ -44,6 +44,10 @@ ht-degree: 17%
 1. 定义 **[!UICONTROL 优先级]** 相较于其他选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他优惠相比其优先级就越高。
 
    ![](../assets/offer-priority.png)
+
+   >[!NOTE]
+   >
+   >优惠优先级必须为整数值（无小数）。
 
 1. 指定选件的 **[!UICONTROL 上限]**，即优惠的展示次数。 [了解详情](#capping)
 
@@ -127,18 +131,18 @@ ht-degree: 17%
 
   在中了解有关决策规则的更多信息 [本节](creating-decision-rules.md).
 
-## 上限 {#capping}
+## 频次封顶 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="关于优惠上限"
+>title="关于优惠频次封顶"
 >abstract="在此字段中，可指定可呈现优惠的次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="使用上限"
->abstract="为避免过度招揽客户，请使用上限定义可呈现优惠的最大次数。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hans#capping-change-date" text="更改日期可能会影响上限"
+>title="使用频次封顶"
+>abstract="为避免过度招揽客户，请使用频次封顶定义可呈现优惠的最大次数。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hans#capping-change-date" text="更改日期可能会影响频次封顶"
 
 上限用作约束，以定义可显示优惠的最大次数。
 
@@ -172,12 +176,12 @@ ht-degree: 17%
 >
 >当优惠到期或优惠开始日期后2年（以先到者为准）时，将重置上限计数器。 了解如何在中定义优惠的日期 [本节](creating-personalized-offers.md#create-offer).
 
-### 设置事件上限 {#capping-event}
+### 频次封顶事件 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="印象"
->abstract="仅入站频道可将印象用作上限事件。"
+>abstract="仅入站频道可将印象用作频次封顶事件。"
 
 此 **[!UICONTROL 设置事件上限]** 字段允许您定义将考虑哪个事件以增加计数器：
 
@@ -247,8 +251,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="设置上限频率"
->abstract="您可以选择每天、每周或每月重置优惠上限计数器。请注意，在启用频率封顶的情况下发布优惠后，您将无法更改已定义的频率。"
+>title="设置频次封顶"
+>abstract="您可以选择每天、每周或每月重置优惠频次封顶计数器。请注意，在启用频次封顶的情况下发布优惠后，您将无法更改已定义的频率。"
 
 此 **[!UICONTROL 频率]** 部分允许您定义上限计数的重置频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。
 
@@ -280,12 +284,12 @@ ht-degree: 17%
 
   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置在 **每次投放每个用户档案2个**，则每个用户档案最多可收到电子邮件投放2次选件，以及网站投放2次选件。
 
-### 更改日期对上限的影响 {#capping-change-date}
+### 更改日期对频次封顶产生的影响 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="更改日期可能会影响上限"
->abstract="如果此优惠具有上限，则在更改开始或结束日期时可能会影响该上限。"
+>title="更改日期可能会影响频次封顶"
+>abstract="如果此优惠应用了频次封顶，则在更改开始或结束日期时可能会影响该频次封顶。"
 
 更改优惠日期时必须小心操作，因为如果满足以下条件，这可能会对上限产生影响：
 

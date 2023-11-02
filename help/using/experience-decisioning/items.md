@@ -1,5 +1,5 @@
 ---
-title: 决策项目
+title: 决策项
 description: 了解如何使用决策项
 feature: Experience Decisioning
 topic: Integrations
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1034'
 ht-degree: 32%
 
 ---
 
-# 决策项目 {#items}
+# 决策项 {#items}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -76,6 +76,10 @@ ht-degree: 32%
    1. 设置 **[!UICONTROL 优先级]** 与其他项目相比，如果配置文件符合多个项目的条件，则为决策项目。 较高的优先级使该项优先于其他项。
 
    ![](assets/item-attributes.png)
+
+   >[!NOTE]
+   >
+   >优先级是integer数据类型。 整数数据类型的所有属性都应包含整数值（无小数）。
 
 1. 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
