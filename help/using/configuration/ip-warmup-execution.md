@@ -11,7 +11,7 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 19%
@@ -190,7 +190,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >
 >每次运行必须在实际发送时间之前至少12小时激活。 否则，可能无法完成分段。
 
-在激活运行时，会自动创建多个区段。
+在激活运行时，会自动创建多个受众。
 
 * 如果激活阶段的第一次运行：
 
