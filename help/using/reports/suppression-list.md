@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 8%
+source-wordcount: '802'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 8%
 >[!NOTE]
 >
 >Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
+
+此外，您还可以利用Journey Optimizer **禁止显示REST API** 使用隐藏和允许列表控制传出消息。 [了解如何使用禁止REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## 为什么要使用禁止列表？ {#why-suppression-list}
 

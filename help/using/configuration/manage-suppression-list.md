@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 22%
+source-wordcount: '1595'
+ht-degree: 23%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 22%
 >[!NOTE]
 >
 >Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
+
+此外，您还可以利用Journey Optimizer **禁止显示REST API** 使用隐藏和允许列表控制传出消息。 [了解如何使用禁止REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## 访问禁止显示列表 {#access-suppression-list}
 
@@ -89,7 +91,7 @@ ht-degree: 22%
 从 **[!UICONTROL 禁止显示列表]** 视图，您还可以从编辑与禁止显示规则关联的重试参数 **[!UICONTROL 编辑禁止显示规则]** 按钮。 使用此选项可更新当前沙盒的重试阈值。 [了解有关重试的详细信息](retries.md).
 
 
-## 将地址和域添加到禁止显示列表{#add-addresses-and-domains}
+## 将地址和域添加到禁止列表{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -232,7 +234,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 然后，您可以使用从禁止显示列表中删除隔离的电子邮件地址 **[!UICONTROL 删除]** 按钮。
 
-## 下载禁止显示列表 {#download-suppression-list}
+## 下载禁止列表 {#download-suppression-list}
 
 <!--
 >[!CONTEXTUALHELP]

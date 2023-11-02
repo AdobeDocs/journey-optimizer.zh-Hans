@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '750'
 ht-degree: 6%
 
 ---
@@ -62,6 +62,8 @@ ht-degree: 6%
 
 1. 将历程作为包添加到源沙盒中。
 1. 将包导出到目标沙盒。
+
+此外，您还可以利用Journey Optimizer **对象复制服务REST API** 以管理沙盒的对象。 [了解如何使用对象复制服务REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 将历程添加为包{#export}
 

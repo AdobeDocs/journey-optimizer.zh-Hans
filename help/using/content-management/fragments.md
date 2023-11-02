@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 14%
+source-wordcount: '1578'
+ht-degree: 15%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 14%
 * 创建您自己的片段。 您可以创建可视化片段或表达式片段。 [了解详情](#create-fragments)
 
 * 您可以根据需要在内容中多次使用它们。 请参阅 [添加可视片段](../email/use-visual-fragments.md) 和 [利用表达式片段](../personalization/use-expression-fragments.md)
+
+此外，您还可以利用Journey Optimizer **内容REST API** 以管理内容片段。 有关详细信息，请参见 [Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## 开始前 {#fragment-prerequisites}
 
