@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 13%
@@ -37,7 +37,7 @@ ht-degree: 13%
 
 * 目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) “入门”作为私人测试版提供。 有关更多信息，请与您的 Adobe 代表联系。
 
-### 配置活动 {#configuring-segment-trigger-activity}
+## 配置活动 {#configuring-segment-trigger-activity}
 
 配置读取受众活动的步骤如下：
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >一次性读取受众历程在历程执行30天后会变为“已完成”状态。 对于计划的读取受众，此期限为上次执行后的 30 天。
 
-### 测试并发布历程 {#testing-publishing}
+## 测试并发布历程 {#testing-publishing}
 
 此 **[!UICONTROL 读取受众]** 利用活动，可在单一用户档案上测试历程。
 
