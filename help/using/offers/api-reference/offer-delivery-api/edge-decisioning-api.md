@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '960'
 ht-degree: 4%
 
 ---
@@ -24,10 +24,6 @@ Experience PlatformWeb SDK支持在Adobe查询个性化解决方案，包括决�
 有两种方式可使用实施决策管理 [平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). 一种方法是面向开发人员的，需要了解网站和编程。 另一种方法是使用Adobe Experience Platform用户界面设置选件，该选件只需要在HTML页面的标题中引用一个小型脚本。
 
 请参阅有关以下内容的文档 [决策管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) 有关如何使用Adobe Experience Platform Web SDK提供个性化优惠的更多信息。
-
->[!NOTE]
->
->仅有一组组织可以使用Adobe Experience Platform Web SDK中的决策管理（限量发布）。 如果您希望利用此功能，请与您的Adobe客户经理联系。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
