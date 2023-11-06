@@ -32,7 +32,7 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 >
 >要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
 
-## 创建新的API凭据 {#create-api}
+## 新建 API 凭据 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

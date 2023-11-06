@@ -102,7 +102,7 @@ ht-degree: 15%
 >
 >允许列表最多可包含1,000个条目。
 
-### 手动填充允许列表 {#manually-populate-list}
+### 手动为允许列表填充数据 {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"

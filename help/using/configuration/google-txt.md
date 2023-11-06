@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 将Google TXT记录添加到子域
+title: 将 Google TXT 记录添加到子域
 description: 了解如何将Google TXT记录添加到子域
 feature: Subdomains, Channel Configuration
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 24%
+ht-degree: 32%
 
 ---
 
-# 将Google TXT记录添加到子域 {#google-txt-record}
+# 将 Google TXT 记录添加到子域 {#google-txt-record}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"

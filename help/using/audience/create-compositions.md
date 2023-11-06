@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 15%
 
 1. 组合已发布。 生成的受众将保存到Adobe Experience Platform中，并准备好在Journey Optimizer营销活动中定位。 [了解如何使用营销活动](../campaigns/get-started-with-campaigns.md)
 
-## 访问合成 {#access}
+## 访问组合 {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"

@@ -73,7 +73,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!ENDTABS]
 
-## 定义您的电子邮件内容 {#define-email-content}
+## 定义电子邮件内容 {#define-email-content}
 
 <!-- update the quarry component with right ID value-->
 

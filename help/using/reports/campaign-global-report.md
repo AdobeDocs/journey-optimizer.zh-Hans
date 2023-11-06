@@ -75,7 +75,7 @@ After selecting the Objectives you want to target on, the two **[!UICONTROL Perf
 With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
 -->
 
-### 试验报表 {#experimentation-global}
+### 试验报告 {#experimentation-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
@@ -118,7 +118,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../campaigns/get-started-experiment.md#interpret-results).
 
-## “电子邮件”选项卡 {#email-global}
+## 电子邮件选项卡 {#email-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -263,7 +263,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-## “应用程序内”选项卡 {#inapp-global}
+## 应用程序内选项卡 {#inapp-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
@@ -299,7 +299,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 应用程序内摘要]** 图形可显示应用程序内展示次数和交互在相关时间段的演变。
 +++
 
-## “推送通知”选项卡 {#push-global}
+## 推送通知选项卡 {#push-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
@@ -406,7 +406,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 此 **[!UICONTROL 按平台细分]** 图表和表会根据用户档案的操作系统详细描述推送通知的成功情况。
 +++
 
-## “短信”选项卡 {#sms-global}
+## 短信选项卡 {#sms-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
@@ -470,7 +470,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-## Web选项卡 {#web-tab}
+## Web 选项卡 {#web-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"

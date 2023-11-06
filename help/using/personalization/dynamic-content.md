@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
    ![](assets/conditions-preview.png)
 
-## 将动态内容添加到电子邮件 {#emails}
+## 将动态内容添加到电子邮件中 {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"

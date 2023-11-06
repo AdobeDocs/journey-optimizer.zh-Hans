@@ -16,7 +16,7 @@ ht-degree: 57%
 
 ---
 
-# 使用Email Designer内容组件 {#content-components}
+# 使用电子邮件设计器内容组件 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

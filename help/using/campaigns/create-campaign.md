@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 33%
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-## 计划活动 {#schedule}
+## 安排营销活动 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"

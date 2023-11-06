@@ -109,7 +109,7 @@ ht-degree: 26%
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## 定义您的历程属性 {#change-properties}
+## 定义历程属性 {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"

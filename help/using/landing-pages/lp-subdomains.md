@@ -96,7 +96,7 @@ ht-degree: 24%
 
 1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它可用于创建登陆页面预设。
 
-## 配置新子域 {#lp-configure-new-subdomain}
+## 配置新的子域 {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"

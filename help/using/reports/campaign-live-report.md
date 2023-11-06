@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 39%
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
 
-## “电子邮件”选项卡 {#email-live}
+## 电子邮件选项卡 {#email-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
@@ -141,7 +141,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 电子邮件 — 最佳收件人域]** 图表和表详细说明了收件人最常用于打开电子邮件的域。
 +++
 
-## “应用程序内”选项卡 {#inapp-live}
+## 应用程序内选项卡 {#inapp-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
@@ -174,7 +174,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-## “推送通知”选项卡 {#push-live}
+## 推送通知选项卡 {#push-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
@@ -235,7 +235,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 按平台跟踪]**， **[!UICONTROL 按平台发送]** 和 **[!UICONTROL 按平台细分]** 图表和表格根据操作系统详细说明了推送通知的成功情况。
 +++
 
-## “短信”选项卡 {#sms-live}
+## 短信选项卡 {#sms-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_statistics"
@@ -293,7 +293,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 此 **[!UICONTROL 排除原因]**， **[!UICONTROL 退回原因]** 和 **[!UICONTROL 错误原因]** 利用图形和表格，可查看在发送过程中发生的错误和排除情况。
 +++
 
-## Web选项卡 {#web-tab}
+## Web 选项卡 {#web-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"

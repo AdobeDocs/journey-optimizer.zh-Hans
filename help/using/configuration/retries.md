@@ -32,7 +32,7 @@ ht-degree: 13%
 
 如果重试后投放成功，则地址的错误计数器将重新初始化。
 
-## 重试阈值编辑 {#edit-retry-threshold}
+## 重试编辑阈值 {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"

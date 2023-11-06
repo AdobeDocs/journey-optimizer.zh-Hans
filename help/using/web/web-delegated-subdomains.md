@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 21%
    >
    >在极少数情况下，子域设置可能会失败。 在这种情况下，您可以删除 **[!UICONTROL 失败]** 子域，以使用清除列表 **[!UICONTROL 删除]** 按钮来自 **[!UICONTROL 更多操作]** 图标。
 
-## 配置新子域 {#web-configure-new-subdomain}
+## 配置新的子域 {#web-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"

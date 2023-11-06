@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -192,7 +192,7 @@ ht-degree: 12%
 
 如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
 
-## 发送到禁止显示的电子邮件地址 {#send-to-suppressed-email-addresses}
+## 发送到已禁止的电子邮件地址 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
@@ -272,7 +272,7 @@ ht-degree: 12%
 
 在中了解有关重试的更多信息 [本节](../configuration/retries.md).
 
-## URL跟踪 {#url-tracking}
+## URL 跟踪 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"

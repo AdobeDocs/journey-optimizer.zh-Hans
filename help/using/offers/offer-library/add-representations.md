@@ -1,5 +1,5 @@
 ---
-title: 向优惠添加呈现
+title: 将呈现添加到优惠
 description: 了解如何向优惠添加呈现
 feature: Decision Management
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# 向优惠添加呈现 {#add-representations}
+# 将呈现添加到优惠 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"

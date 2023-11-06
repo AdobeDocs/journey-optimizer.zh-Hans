@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 >
 >在 [!DNL Journey Optimizer] 用户界面中，决策策略标记为决策<!--but they are decision policies. TBC if this note is needed-->.
 
-## 向基于代码的营销活动添加决策策略 {#add-decision}
+## 将决策策略添加到基于代码的营销活动 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

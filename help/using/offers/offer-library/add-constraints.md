@@ -1,5 +1,5 @@
 ---
-title: 向优惠添加约束
+title: 将约束添加到优惠
 description: 了解如何定义优惠的显示条件
 feature: Decision Management
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 ---
 
-# 向优惠添加约束 {#add-constraints}
+# 将约束添加到优惠 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
@@ -131,7 +131,7 @@ ht-degree: 18%
 
   在中了解有关决策规则的更多信息 [本节](creating-decision-rules.md).
 
-## 频次封顶 {#capping}
+## 上限 {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -176,7 +176,7 @@ ht-degree: 18%
 >
 >当优惠到期或优惠开始日期后2年（以先到者为准）时，将重置上限计数器。 了解如何在中定义优惠的日期 [本节](creating-personalized-offers.md#create-offer).
 
-### 频次封顶事件 {#capping-event}
+### 上限事件 {#capping-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
@@ -284,7 +284,7 @@ ht-degree: 18%
 
   例如，如果选件具有 **电子邮件** 投放位置和 **Web** 放置，并将上限设置在 **每次投放每个用户档案2个**，则每个用户档案最多可收到电子邮件投放2次选件，以及网站投放2次选件。
 
-### 更改日期对频次封顶产生的影响 {#capping-change-date}
+### 更改日期对上限的影响 {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"

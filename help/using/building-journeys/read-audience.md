@@ -18,7 +18,7 @@ ht-degree: 13%
 
 # 在历程中使用受众 {#segment-trigger-activity}
 
-## 添加读取受众活动 {#about-segment-trigger-actvitiy}
+## 添加“读取受众”活动 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -170,7 +170,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience2.png)
 
-**Union**
+**并集**
 
 历程允许您创建N个分支，并在分段后将它们连接在一起。
 

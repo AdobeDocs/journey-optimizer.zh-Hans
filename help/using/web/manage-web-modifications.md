@@ -1,5 +1,5 @@
 ---
-title: 管理Web修改
+title: 管理 Web 修改
 description: 了解如何管理Journey Optimizer网页内容中的修改
 feature: Web Channel
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
-# 管理Web修改 {#manage-web-modifications}
+# 管理 Web 修改 {#manage-web-modifications}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"

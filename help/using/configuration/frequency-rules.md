@@ -55,13 +55,13 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="设置规则的上限"
->abstract="指定每个月发送到客户配置文件的最大消息数。频率上限基于每月的日历周期，并将在每个月的月初重置。"
+>title="设置规则的频次封顶"
+>abstract="指定每个月发送到客户配置文件的最大消息数。频次封顶基于每月的日历周期，并将在每个月的月初重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="定义规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用上限。"
+>abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
 
 要创建新规则，请执行以下步骤。
 

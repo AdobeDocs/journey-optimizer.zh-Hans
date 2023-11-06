@@ -113,7 +113,7 @@ ht-degree: 28%
 
 +++
 
-### 页眉和正文 {#title-body}
+### 标题和正文 {#title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"

@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 24%
 
 1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它随时可用于创建短信渠道界面。
 
-## 配置新子域 {#sms-configure-new-subdomain}
+## 配置新的子域 {#sms-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
