@@ -8,9 +8,9 @@ level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->目前，直邮渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
+>目前，直邮渠道不适用于已购买 Adobe **Health Shield** 和 **Privacy and Security Shield** 附加产品的组织。
 
 直邮是一种离线渠道，允许您生成直邮服务提供商向客户发送邮件所需的提取文件并进行个性化设置。
 
