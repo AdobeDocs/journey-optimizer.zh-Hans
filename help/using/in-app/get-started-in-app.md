@@ -8,9 +8,9 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 >[!AVAILABILITY]
 >
->目前，应用程序内渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
+>目前，应用程序内渠道不适用于已购买 Adobe **Health Shield** 和 **Privacy and Security Shield** 附加产品的组织。
 
 ## 先决条件{#prerequisites-in-app}
 
