@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 个性化电子邮件背景
-description: 了解如何个性化电子邮件背景
+description: 了解如何对电子邮件背景进行个性化设置
 feature: Email Design
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 背景，电子邮件，颜色，编辑器
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 以下是可使用的可用背景设置。
 
-* 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。确保在可从左侧面板访问的导航树中选择正文设置。
+* 为整个电子邮件设置&#x200B;**[!UICONTROL 背景颜色]**。请务必在可从左侧调色板访问的导航树中选择正文设置。
 
   ![](assets/background_1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 82%
 
   ![](assets/background_2.png)
 
-* 为每个结构组件设置不同的背景颜色。在导航树中选择可从左侧面板访问的结构，以便仅对该结构应用特定的背景颜色。
+* 为每个结构组件设置不同的背景颜色。在可从左侧调色板访问的导航树中选择一个结构，以仅将特定的背景颜色应用于该结构。
 
   切勿设置视口背景颜色，因为它可能会隐藏结构背景颜色。
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 
   >[!NOTE]
   >
-  >某些电子邮件程序不支持背景图像。当不支持时，将改用行背景颜色。 请务必选择合适的备用背景颜色，以防图像无法显示。
+  >某些电子邮件程序不支持背景图像。如果不支持，将改用行背景颜色。请务必选择合适的备用背景颜色，以防图像无法显示。
 
   ![](assets/background_4.png)
 
