@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中添加预编译标头
+title: 在 Journey Optimizer 中添加邮件引文
 description: 了解如何设计电子邮件内容
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 预览器，编辑器，摘要，电子邮件
+keywords: 邮件引文，编辑器，摘要，电子邮件
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# 添加预编译标头 {#preheader}
+# 添加邮件引文 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -39,7 +39,7 @@ ht-degree: 86%
 
    ![](assets/preheader_body.png)
 
-1. 从 **[!UICONTROL 设置]** 选项卡，单击选项卡旁边的个性化图标 **[!UICONTROL 预编译标头]** 字段以添加内容。
+1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段旁边的个性化图标来添加内容。
 
    ![](assets/preheader_body_settings.png)
 
