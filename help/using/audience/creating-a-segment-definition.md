@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
+source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 14%
+source-wordcount: '365'
+ht-degree: 13%
 
 ---
 
@@ -66,6 +66,6 @@ ht-degree: 14%
 
 ## 操作方法视频{#video-segment}
 
-了解如何创建受众。
+了解Journey Optimizer如何使用规则生成受众，并了解如何使用属性、事件和现有受众创建受众。
 
->[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
