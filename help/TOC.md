@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 96%
 + 短信渠道{#sms}
    + [短信入门](using/sms/get-started-sms.md)
    + [创建短信消息](using/sms/create-sms.md)
-   + [创建MMS消息](using/sms/create-mms.md)
+   + [创建 MMS 消息](using/sms/create-mms.md)
    + [检查并发送短信](using/sms/send-sms.md)
    + [管理短信选择禁用](using/sms/sms-opt-out.md)
    + [配置短信渠道](using/sms/sms-configuration.md)
@@ -257,7 +257,7 @@ ht-degree: 96%
    + 配置登陆页面 {#lp-configuration}
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
-+ 内容管理 {#content-management}
++ 内容管理{#content-management}
    + 使用内容助手{#content-assistant}
       + [内容助手入门](using/content-management/gs-generative.md)
       + [内容生成](using/content-management/generative-content.md)
@@ -265,9 +265,9 @@ ht-degree: 96%
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
-      + [通过自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
+      + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
       + [多语言营销活动报告](using/content-management/multilingual-report.md)
-   + 资产/图像 {#assets-images}
+   + 资源/图像{#assets-images}
       + [使用 Assets Essentials](using/content-management/assets-essentials.md)
       + [使用 Adobe Stock](using/content-management/stock.md)
    + 个性化 {#personalization}
@@ -301,12 +301,12 @@ ht-degree: 96%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-   + 预览和测试您的内容 {#preview-test}
+   + 预览和测试您的内容{#preview-test}
       + [预览和测试入门](using/content-management/preview-test.md)
-      + [选择测试配置文件](using/content-management/test-profiles.md)
+      + [选择测试用户档案](using/content-management/test-profiles.md)
       + [预览您的内容](using/content-management/preview.md)
-      + [发送电子邮件校样](using/content-management/proofs.md)
-      + [测试电子邮件渲染](using/content-management/rendering.md)
+      + [发送电子邮件验证](using/content-management/proofs.md)
+      + [测试电子邮件呈现](using/content-management/rendering.md)
       + [使用垃圾邮件报告](using/content-management/spam-report.md)
 + 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
