@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 94%
 
 ## 2023 年 10 月 {#oct-2023}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2023年10月版。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 10 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了 GIF 以说明一些关键功能，例如：[内容模板](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[计算属性](../audience/computed-attributes.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[标记](../start/search-filter-categorize.md#tags)、[决策管理优化模型](../offers/ranking/personalized-optimization-model.md)、[API 触发的营销活动](../campaigns/api-triggered-campaigns.md)和[内容试验](../campaigns/content-experiment.md)。
 * 架构创建流程已更新，以反映用户界面中的最新更新，伴随着对 Adobe Experience Platform 做出的一些更改。[了解详情](../audience/creating-test-profiles.md)
 * 在护栏和限制页面中添加了决策管理护栏。[了解详情](../start/guardrails.md#decision-management)
-* 标头参数部分已更新，以反映如何处理“不在办公室”通知和质询响应(在 **[!UICONTROL 错误电子邮件]**)。 [了解详情](../email/email-settings.md#email-header)
-* 已创建有关如何预览和测试内容的新部分。 [了解详情](../content-management/preview-test.md)
-* “实施单页应用程序”页面已移至AdobeExperience Platform Web SDK文档。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
-* “上限”部分已更新，以反映与决策管理界面中的优惠上限相关的标签更改。 [了解详情](../offers/offer-library/add-constraints.md#capping)
-* 更新了将动态内容添加到电子邮件中，其中包含有关如何删除变体的详细信息。 [了解详情](../personalization/dynamic-content.md#emails)
-* 上限和限制配置的示例已更新。 [了解详情](../configuration/external-systems.md)
-* 已从外部数据源部分删除有关标量数组的限制。 [了解详情](../datasource/external-data-sources.md)
-* 多渠道历程用例已更新。 [了解详情](../building-journeys/journeys-uc.md)
-* Journey Optimizer文档集已更新，以反映新的Experience Platform模式创建过程。
+* 更新了标头参数部分，以反映如何处理“外出”通知和质询响应（会在&#x200B;**[!UICONTROL 错误电子邮件]**&#x200B;中收到它们）。[了解详情](../email/email-settings.md#email-header)
+* 新增了有关如何预览和测试内容的部分。[了解详情](../content-management/preview-test.md)
+* “实施单页应用程序”页面已移至 Adobe Experience Platform Web SDK 文档。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
+* 更新了“上限”部分，以反映与决策管理界面中优惠上限相关的标签更改。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* 添加了将动态内容添加到电子邮件中的相关介绍，其中包含有关如何删除变体的详细信息。[了解详情](../personalization/dynamic-content.md#emails)
+* 更新了上限和限制配置的示例。[了解详情](../configuration/external-systems.md)
+* 从外部数据源部分中移除了有关标量数组的限制。[了解详情](../datasource/external-data-sources.md)
+* 多渠道历程用例已更新。[了解详情](../building-journeys/journeys-uc.md)
+* 更新了 Journey Optimizer 文档集，以反映新的 Experience Platform 架构创建过程。
 
 ## 2023 年 9 月 {#september-2023}
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 * 更新了访问控制文档的链接。[了解详情](../administration/permissions.md)
 * 更新了应用程序内渠道先决条件，其中包含 Adobe Experience Platform 数据收集详细信息。[了解详情](../in-app/inapp-configuration.md)
 * 更新了排名公式示例中介绍的某些表达式，以避免验证错误。[了解详情](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* 在“定义决策范围”部分添加了一个警告，以指定如果在评估标准组中使用AI模型，则该组中的所有评估标准必须使用具有相同特定AI模型的AI排名方法。 此外，只有一个评估标准组可以使用 AI 模型。[了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* 在定义决策范围部分中添加了警告以指明：如果在评估标准组中使用 AI 模型，则该组中的所有评估标准都必须使用具有相同特定 AI 模型的 AI 排名方法。此外，只有一个评估标准组可以使用 AI 模型。[了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## 2023 年 8 月 {#august-2023}
 
