@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用Adobe Experience Platform配置文件属性和受众，使用在整个Journey Optimizer UI中都相同的表达式编辑器组件来对优惠内容进行个性化设置。 </p>
+<p>您现在可以使用 Adobe Experience Platform 用户档案属性和受众，使用在整个 Journey Optimizer UI 中都相同的表达式编辑器组件来对您的优惠内容进行个性化设置。 </p>
 <p>有关更多信息，请参阅<a href="../offers/offer-library/creating-personalized-offers.md#custom-text">详细文档</a>。</p>
 </td>
 </tr>
@@ -77,13 +77,13 @@ ht-degree: 88%
 </table>
 
 
-另请参阅 [Adobe Experience Platform 10月发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hans){target="_blank"} 以了解更多更改。
+有关更多更改的信息，另请参阅 [Adobe Experience Platform 10 月发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hans){target="_blank"}。
 
 ### 改进
 
 **历程**
 
-* **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。此功能可与订阅列表一起使用。例如，您现在可以从受众的订阅列表中获取电子邮件地址。 [在此示例中了解更多信息](../building-journeys/message-to-subscribers-uc.md)
+* **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。此功能可与订阅列表一起使用。例如，您现在可以从受众获取订阅列表中的电子邮件地址。[在此示例中了解更多信息](../building-journeys/message-to-subscribers-uc.md)
 
 * **监控** - 改进了实时历程和测试模式的步骤事件。已添加与用户档案导出作业相关的[新字段](../reports/sharing-field-list.md#serviceevents)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
 * **辅助功能** - 在历程中实施了辅助功能改进。
@@ -92,7 +92,7 @@ ht-degree: 88%
 
 **报告**
 
-* **全局视图中的数据格式** - 您现在可以在 **Execution** 选项卡的 **Global view** 中在数字和百分比之间切换。
+* **全局视图中的数据格式** - 您现在可以在&#x200B;**执行**&#x200B;选项卡的&#x200B;**全局视图**&#x200B;中在数字和百分比之间切换。
 
 
 **管理**
@@ -184,7 +184,7 @@ ht-degree: 88%
 <tbody>
 <tr>
 <td>
-<p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。由Adobe AI服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，从而最大化参与度。</p>
+<p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。由 Adobe 的 AI 服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，以最大化参与度。</p>
 <p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journeys-message.md#send-time-optimization">详细文档</a>。</p>
 </td>
@@ -266,12 +266,12 @@ ht-degree: 88%
 
 * **动态标头** - 您现在可以在 HTTP 标头参数中传递动态数据。集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
 * **动态 URL 路径** - 您现在可为自定义操作设置动态 URL 路径。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* 读取受众的总限制速率已从每秒17,000条消息更改为每秒20,000条消息。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 读取受众的总限制速率已从每秒 17,000 条消息更改为每秒 20,000 条消息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **用户界面**
 
 * **搜索** - 现在，您可以在每个页面上直接从 Experience Cloud 统一搜索字段搜索业务对象和帮助文章。[了解详情](../start/user-interface.md#unified-search)
-* **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。通过此更新，您最近访问过的元素的快捷方式包括消息、历程、受众、架构、数据集、数据源、事件、操作、源和目标。 [了解详情](../action/about-custom-action-configuration.md#passing-collection)
+* **收件人** - Adobe Journey Optimizer 主页中最近访问过的元素的显示现已扩展到其他业务对象。在此更新版本中，近期访问过的元素的快捷方式包括消息、历程、受众、架构、数据集、数据源、事件、操作、源和目标。[了解详情](../action/about-custom-action-configuration.md#passing-collection)
 
 **内容设计**
 
@@ -280,7 +280,7 @@ ht-degree: 88%
 
 **个性化**
 
-* **表达式编辑器**  — 现在，您可以在定义个性化设置时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。 [了解详情](../personalization/functions/helpers.md)
+* **表达式编辑器** - 现在，您可以在定义个性化设置时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](../personalization/functions/helpers.md)
 
 **电子邮件配置**
 
@@ -295,7 +295,7 @@ ht-degree: 88%
 
 * 修复了消息选项卡导航中的辅助功能问题。
 * 修复了电子邮件设计器标签中的本地化问题。
-* 修复了在历程中选择多个节点并单击属性窗格上的“删除”时的问题。
+* 修复了选择历程中的多个节点并单击属性面板上的“删除”时存在的问题。
 * 修复了无法向历程中使用的操作添加新标头的问题。
 * 现在，您可以通过用户界面中的内容更明确的警告，了解消息预设创建失败的原因。
 
@@ -341,16 +341,16 @@ ht-degree: 88%
 
 **历程**
 
-* 在同一沙盒中同时运行的所有读取受众的总限制速率限制为每秒17,000条消息。 [了解更多信息](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 在同一沙盒中同时运行的所有读取受众活动的总限制速率限制为每秒 17,000 条消息。[了解更多信息](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **缓存时长**&#x200B;字段已从数据源配置面板中移除。[了解更多信息](../datasource/about-data-sources.md)
 * 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../configuration/external-systems.md#capping)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。[了解更多信息](../building-journeys/journey-gs.md#change-properties)
 * 在历程列表屏幕中，添加了历程类型筛选器。[了解更多信息](../start/user-interface.md#filter-lists)
-* 此 **[!UICONTROL 节流率]** 参数已添加到读取受众活动中。 [了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **[!UICONTROL 限制速率]**&#x200B;参数已添加到读取受众活动中。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **预览和测试**
 
-* 标识和命名空间现在显示在 **[!UICONTROL 预览]** 屏幕。 [了解更多信息](../content-management/preview-test.md#preview-your-messages)
+* 标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-your-messages)
 * 验证的测试电子邮件数量现在限制为 10 封。
 * 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
 
@@ -363,6 +363,6 @@ ht-degree: 88%
 * 修复了导致批量电子邮件投放出现重复消息投放的问题。
 * 现在，当重试期限结束后未执行电子邮件发送时，将相应地生成事件。
 * 修复了 PTR 记录屏幕中缺少 IP 信息的问题。
-* 现在，在表达式编辑器中实现了选件边栏的本地化。
+* 现在，在表达式编辑器中实现了优惠边栏的本地化。
 * 修复了信息弹出窗口中间距不正确的问题。
 * 修复了在上传包含不支持的 `background-image` 属性的 HTML 文件时，电子邮件设计器内部样式表中出现的问题。
