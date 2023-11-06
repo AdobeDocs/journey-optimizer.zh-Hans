@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,10 +42,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 短信护栏 {#sms-guardrails}
 
-* MMS功能仅适用于Sinch。
-* 可以通过支持的URL包含MMS的媒体文件。 请确保单独上传媒体文件。
-* 消息反馈同步当前不适用于MMS。
-* 同意管理在MMS的短信渠道级别运行。
+* MMS 功能仅适用于 Sinch。
+* 可以通过支持的 URL 加入 MMS 的媒体文件。请确保单独上传媒体文件。
+* 消息反馈同步当前不适用于 MMS。
+* 同意管理在 MMS 的短信渠道级别运行。
 
 ## 历程护栏 {#journeys-guardrails}
 
@@ -133,7 +133,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 受众护栏 {#audience}
 
-* 您最多可以在给定沙盒中发布10个受众合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
+* 您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
 ## 决策管理护栏 {#decision-management}
 
