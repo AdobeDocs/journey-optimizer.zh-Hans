@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: ht
-source-wordcount: '1710'
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+workflow-type: tm+mt
+source-wordcount: '1712'
 ht-degree: 100%
 
 ---
@@ -356,6 +356,7 @@ ht-degree: 100%
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
+   + [错误原因](using/reports/error-list.md)
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
 + 决策管理{#offer-decisioning}

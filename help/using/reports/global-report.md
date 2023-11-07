@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,12 @@ ht-degree: 1%
 1. 从全局报表中，选择开始和结束时间以定向特定数据。
 
    ![](assets/report_modify_1.png)
+
+1. 对于涉及多个已配置的历程报表 **[!UICONTROL 操作]**，选择特定的 **[!UICONTROL 操作]** 从下拉菜单中。
+
+1. 如果您只想定向一条或多条定期消息，请从 **[!UICONTROL 执行时间]** 下拉菜单。
+
+   ![](assets/report_modify_12.png)
 
 1. 选择是否要通过切换栏从报表中排除测试事件。 有关测试事件的详细信息，请参阅 [此页面](../building-journeys/testing-the-journey.md).
 

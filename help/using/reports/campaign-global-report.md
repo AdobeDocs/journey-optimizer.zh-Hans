@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 25%
+source-wordcount: '3357'
+ht-degree: 24%
 
 ---
 
@@ -173,6 +173,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 电子邮件发送统计数据]** 图表详细说明了您的电子邮件是否成功：
 
+* **[!UICONTROL 执行时间]**：定期电子邮件的每次执行的开始时间。 要仅定向一个或多个定期电子邮件，请从中选择它 **[!UICONTROL 执行时间]** 下拉菜单。
+
 * **[!UICONTROL 已定位]**：发送过程中处理的消息总数。
 
 * **[!UICONTROL 已发送]**：电子邮件的发送总数。
@@ -194,6 +196,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 已排除]**：Adobe Journey Optimizer已排除的用户档案数。
 
 此 **[!UICONTROL 电子邮件 — 跟踪统计数据]** 小组件包含您电子邮件的用户档案活动的可用数据：
+
+* **[!UICONTROL 执行时间]**：定期电子邮件的每次执行的开始时间。 要仅定向一个或多个定期电子邮件，请从中选择它 **[!UICONTROL 执行时间]** 下拉菜单。
 
 * **[!UICONTROL 打开次数]**：电子邮件的打开次数。
 
@@ -243,7 +247,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >
 > 此 **[!UICONTROL 电子邮件 — 顶级收件人域]** 构件的准确率为99.95%。
 
-此 **[!UICONTROL 已优化和未优化]** 图表详细列出了与报文相关的主要信息，无论它们是否已优化：
+此 **[!UICONTROL 电子邮件 — 已优化与普通]** 图表详细列出了与报文相关的主要信息，无论它们是否已优化：
 
 * **[!UICONTROL 已发送]**：发送总数。
 
@@ -251,7 +255,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 点击次数]**：在电子邮件中点击内容的次数。
 
-此 **[!UICONTROL 发送时间优化]** 根据发送方法详细描述电子邮件的成功情况：已优化或正常。
+此 **[!UICONTROL 电子邮件 — 发送时间优化]** 根据发送方法详细描述电子邮件的成功情况：已优化或正常。
 
 * **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
 
@@ -337,7 +341,9 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++了解有关可用于推送报表的不同量度和小组件的更多信息。
 
-此 **[!UICONTROL 推送通知 — 发送统计数据]** 该表详细列出了与推送通知相关的主要信息
+此 **[!UICONTROL 推送通知 — 发送统计数据]** 该表详细列出了与推送通知相关的主要信息：
+
+* **[!UICONTROL 执行时间]**：每次执行定期推送通知的开始时间。 要仅定位一个或多个定期推送通知，请从以下位置选择通知： **[!UICONTROL 执行时间]** 下拉菜单。
 
 * **[!UICONTROL 已定位]**：分析期间处理的消息总数。
 
@@ -358,6 +364,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 * **[!UICONTROL 已排除]**：Adobe Journey Optimizer已排除的用户档案数。
 
 此 **[!UICONTROL 推送 — 跟踪统计数据]** 包含推送通知的用户档案活动的可用数据：
+
+* **[!UICONTROL 执行时间]**：每次执行定期推送通知的开始时间。 要仅定位一个或多个定期推送通知，请从以下位置选择通知： **[!UICONTROL 执行时间]** 下拉菜单。
 
 * **[!UICONTROL 打开次数]**：推送通知的打开次数。
 
@@ -446,6 +454,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 短信 — 发送统计数据]** 该表详细列出了短信消息的成功情况：
 
+* **[!UICONTROL 执行时间]**：每次执行定期短信消息的开始时间。 要仅定向一条或多条定期短信消息，请从中选择它 **[!UICONTROL 执行时间]** 下拉菜单。
+
 * **[!UICONTROL 已定位]**：符合目标配置文件资格的用户配置文件数。
 
 * **[!UICONTROL 已排除]**：从定向用户档案中排除且未收到消息的用户用户档案数。
@@ -530,6 +540,8 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 +++了解有关直邮报表可用的不同量度和小组件的更多信息。
 
 此 **[!UICONTROL 直邮 — 发送统计数据]** 该表详细列出了直邮的成功情况：
+
+* **[!UICONTROL 执行时间]**：每次执行定期直邮的开始时间。 要仅定向一封或多封定期直邮，请从 **[!UICONTROL 执行时间]** 下拉菜单。
 
 * **[!UICONTROL 已定位]**：有资格作为此直邮的目标用户档案的用户档案数。
 
