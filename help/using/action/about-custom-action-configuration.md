@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 14%
+source-wordcount: '1342'
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 14%
 
 ## 最佳实践{#custom-action-enhancements-best-practices}
 
-为所有自定义操作定义了超过30秒150,000次调用的上限。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您需要通过定义适当的读取率（使用自定义操作时为5000个配置文件/秒），在基于受众的历程中考虑这一点。 如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。 请参阅[此页](../configuration/external-systems.md)。
+为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点(例如： `https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，上限将应用于adobe.com主机下的所有端点。 “endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
+
+此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您需要在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5000 个用户档案/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
 
 出于以下各种原因，您不应使用自定义操作定位公共端点：
 
