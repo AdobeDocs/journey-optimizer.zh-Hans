@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '777'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="子域的 PTR 记录"
->abstract="在 Journey Optimizer 中将子域委派给 Adobe 后，将自动创建 PTR 记录并将其与此子域相关联。"
+>abstract="将第一个子域委派给Journey Optimizer中的Adobe后，将自动创建PTR记录。"
 
 ## 关于 PTR 记录 {#about-ptr-records}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 访问子域的 PTR 记录 {#access-ptr-records}
 
-在 Adobe Journey Optimizer 中[委派子域](delegate-subdomain.md)后，将自动创建 PTR 记录并将其与此子域关联。您可以从以下位置访问它：**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR 记录]**&#x200B;菜单。
+一旦您 [委派](delegate-subdomain.md) Adobe的第一个子域 [!DNL Journey Optimizer]，将自动为您的IP创建PTR记录。 您可以从以下位置访问它们 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR记录]** 菜单。
 
 ![](assets/ptr-records.png)
 

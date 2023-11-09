@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级别，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ ht-degree: 0%
 
 ## 渠道配置资源 {#administration-permissions}
 
-* **[!DNL Manage channel surface]** 高级权限允许用户在沙盒级别跨渠道创建、编辑和删除渠道表面。
-
-+++ 它包括以下低级权限：
-
-   * 特定于Journey Optimizer：
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read(来自Adobe Experience Platform Launch)
-
-+++
-
 * **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除关联定义。
 
 +++ 它包括以下低级权限：
@@ -341,7 +327,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage messages presets]** 高级权限允许用户读取、创建、编辑和删除内容品牌策略。
+* **[!DNL Manage messages presets]** 高级权限允许用户在沙盒级别跨渠道读取、创建、编辑和删除渠道表面。
 
 +++ 它包括以下低级权限：
 
@@ -353,7 +339,7 @@ ht-degree: 0%
       * IP_pools.read
 
    * 数据收集特定：
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage subdomains delegation]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
+* **[!DNL Manage subdomains delegations]** 高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
 +++ 它包括以下低级权限：
    * 特定于Journey Optimizer：
