@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 94%
+source-wordcount: '773'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 94%
 
 ![](assets/ptr-records.png)
 
-该列表显示了使用下列语法为每个委派的子域生成的 PTR 记录：
+该列表显示了使用以下语法生成的PTR记录：
 
 * “r”代表记录，
 * “xx”代表 IP 地址的最后两个数字，
