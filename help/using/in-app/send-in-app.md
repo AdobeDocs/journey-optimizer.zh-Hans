@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '362'
 ht-degree: 13%
 
 ---
@@ -35,6 +35,14 @@ ht-degree: 13%
 1. 使用设备扫描二维码并输入显示的PIN码。
 
 现在可以直接在设备上触发应用程序内消息，从而允许您在实际设备上预览和查看消息。
+
+## 使用测试用户档案预览 {#simulate}
+
+定义应用程序内消息后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+
+为此，请单击 **[!UICONTROL 模拟内容]** 然后，添加测试用户档案，使用测试用户档案数据检查消息。
+
+有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
 
 ## 查看并激活应用程序内通知{#in-app-review}
 

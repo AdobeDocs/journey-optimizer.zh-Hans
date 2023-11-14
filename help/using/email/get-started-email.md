@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 92%
 
 ---
 
@@ -27,19 +27,14 @@ ht-degree: 100%
 
 可以通过以下方式创建电子邮件投放：
 
-* 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。
+* 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-  有关如何配置历程的更多信息，请参阅此[页面](../building-journeys/journey-gs.md)。
-
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。
-
-  有关如何配置营销活动的更多信息，请参阅此[页面](../campaigns/create-campaign.md#configure)。
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。[了解如何创建活动](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
 >
 >如果您是首次创建电子邮件，请确保已配置电子邮件渠道。[了解详情](email-settings.md)
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
