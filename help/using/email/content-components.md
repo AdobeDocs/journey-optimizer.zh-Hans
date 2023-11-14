@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 57%
+source-wordcount: '1405'
+ht-degree: 54%
 
 ---
 
@@ -167,11 +167,17 @@ ht-degree: 57%
 
    ![](assets/email_designer_image_content.png)
 
-1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以从您的资源中选择图像文件。
+1. 从 **[!UICONTROL 设置]** 选项卡，单击 **[!UICONTROL 浏览]** 从资源中选择图像文件，或者 **[!UICONTROL 导入媒体]** 将资源上传到Assets Essentials。
 
    要了解更多关于 [!DNL Assets Essentials]，请参阅 [Adobe Experience Manager Assets Essentials文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. 单击新添加的组件，然后从以下位置设置图像属性： **[!UICONTROL 设置]** 选项卡：
+   >[!NOTE]
+   >
+   > 为了确保您的链接保持活动状态并避免任何过期问题，我们建议使用Adobe资源，而不是依赖图像的源URL。
+
+1. 您还可以使用直接在Adobe Stock中搜索 **[!UICONTROL 查找Adobe Stock照片]** 选项。
+
+1. 单击新添加的组件并设置图像属性：
 
    * 使用&#x200B;**[!UICONTROL 图像标题]**&#x200B;可以定义图像的标题。
    * 使用&#x200B;**[!UICONTROL 替代文字]**&#x200B;可以定义链接到图像的题注。这对应于 alt HTML 属性。
