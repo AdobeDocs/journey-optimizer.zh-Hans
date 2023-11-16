@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 31%
+source-wordcount: '929'
+ht-degree: 32%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 31%
 
 1. A [文件路由配置](#file-routing-configuration) 指定要导出文件的服务器并加密文件（如有必要）。
 
-1. A [直邮表面](#direct-mail-surface) 将引用文件路由配置。
+   >[!CAUTION]
+   >
+   >要创建文件路由配置，您需要具有 **[!DNL Manage file routing]** 内置权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)。
 
->[!CAUTION]
->
->如果尚未配置任何文件路由选项，您将无法创建直邮表面。
+1. A [直邮表面](#direct-mail-surface) 将引用文件路由配置。 如果尚未配置任何文件路由选项，您将无法创建直邮表面。
 
 ## 配置文件路由 {#file-routing-configuration}
 
@@ -121,7 +121,7 @@ ht-degree: 31%
 
 直邮表面还必须包括文件路由配置，该配置定义了将导出直邮文件的服务器。
 
-1. 创建渠道表面。 [了解详情](../configuration/channel-surfaces.md)
+1. 创建渠道表面. [了解详情](../configuration/channel-surfaces.md)
 
 1. 选择 **[!UICONTROL 直邮]** 渠道。
 
