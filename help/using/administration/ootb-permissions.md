@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '740'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 |-|-|
 | 营销活动 | **[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。 </br>**[!DNL Publish campaigns]**：发布营销活动的权限。</br>**[!DNL View campaigns]**：对营销活动的只读访问权限。 </br>**[!DNL View campaigns report]**：读取和编辑营销活动报告。 |
 | 报告 | **[!DNL View channel reports]**：读取和编辑渠道报表。 |
-| 渠道配置 | **[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件。</br>**[!DNL Manage alerts]**：为营销活动、消息和权利启用/禁用警报。</br> **[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。 </br>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</br> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息常规设置。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌策略。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。 </br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除短信子域。</br> **[!DNL Manage Seedlist]**：读取、创建、编辑和删除种子列表。 </br> **[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。 </br>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</br>**[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</br> **[!DNL View messages general settings]**：对消息常规设置的只读访问权限。</br> **[!DNL View messages presets]**：对消息预设的只读访问权限。 </br> **[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
+| 渠道配置 | **[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件。</br>**[!DNL Manage alerts]**：为营销活动、消息和权利启用/禁用警报。</br> **[!DNL Manage file routing]**：读取、创建、编辑和删除文件路由配置。 </br> **[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。 </br>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</br> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除消息常规设置。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌策略。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。 </br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除短信子域。</br> **[!DNL Manage Seedlist]**：读取、创建、编辑和删除种子列表。 </br> **[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。 </br>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</br> **[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</br>**[!DNL View file routing]**：对文件路由配置的只读访问权限。</br>**[!DNL View messages general settings]**：对消息常规设置的只读访问权限。</br> **[!DNL View messages presets]**：对消息预设的只读访问权限。 </br> **[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
 | 仪表板 | **[!DNL View license usage dashboards]**：对许可证使用情况仪表板的只读访问权限。 </br>**[!DNL Manage custom dashboards]**：用于创建新功能板或编辑现有功能板。</br>**[!DNL View custom dashboards]**：对用户定义功能板的只读访问权限。 </br>**[!DNL View standard dashboards]**：对“配置文件”、“目标”和“受众”功能板的只读访问权限。</br>**[!DNL Manage standard dashboards]**：用于创建自定义构件并通过构件库编辑构件架构。 |
 | 数据收集 | **[!DNL Manage datastream]**：读取、创建和编辑数据流。</br>**[!DNL View datastream]**：对数据流的只读访问权限。 |
 | 数据管理 | **[!DNL Manage usage labels]**：读取、创建、编辑和删除标签。</br>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</br>**[!DNL View data usage policies]**：对属于您组织的数据使用策略的只读访问权限。</br>**[!DNL View user activity log]**：只读访问权限，可查看记录的Platform活动审核日志。 |

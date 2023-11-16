@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级别，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -288,6 +288,17 @@ ht-degree: 0%
 
 ## 渠道配置资源 {#administration-permissions}
 
+* **[!DNL Manage file routing]** 高级权限允许用户创建、编辑和删除文件路由配置。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * **[!DNL Manage IP pools]** 高级权限允许用户创建、编辑和删除关联定义。
 
 +++ 它包括以下低级权限：
@@ -399,13 +410,12 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL View PTR records]** 高级权限允许用户查看已根据子域配置的PTR记录。
+* **[!DNL View file routing]** 高级权限允许用户查看文件路由配置。
 
 +++ 它包括以下低级权限：
    * 特定于Journey Optimizer：
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ ht-degree: 0%
       * Mobile_setting.read
 
 +++
+
+* **[!DNL View PTR records]** 高级权限允许用户查看已根据子域配置的PTR记录。
+
++++ 它包括以下低级权限：
+   * 特定于Journey Optimizer：
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
