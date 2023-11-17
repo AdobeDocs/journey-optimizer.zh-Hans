@@ -11,10 +11,10 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 11%
+source-wordcount: '1275'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,43 @@ ht-degree: 11%
 
 创建了一个或多个 [IP预热活动](ip-warmup-campaign.md) 启用专用接口和相应的选项后，即可开始创建IP预热计划。
 
->[!CAUTION]
->
->要访问、创建、编辑和删除IP预热计划，您必须拥有 **[!UICONTROL 可投放性顾问]** 许可。 <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+要访问、创建、编辑和删除IP预热计划，您必须拥有 **[!UICONTROL 可投放性顾问]** 角色或IP预热计划相关权限。
+
++++了解如何分配可投放性顾问角色或IP预热计划相关权限
+
+将相应的权限分配给特定的 **[!UICONTROL 角色]**：
+
+1. 从 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 菜单，然后选择要使用新的更新角色 **[!UICONTROL IP预热配置]** 权限。
+
+1. 来自您的 **[!UICONTROL 角色]** 仪表板，单击 **[!UICONTROL 编辑]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. 拖放 **[!UICONTROL IP预热配置]** 用于分配权限的资源。
+
+1. 从 **[!UICONTROL IP预热配置]** 资源下拉列表，选择用户所需的权限。
+
+   ![](assets/ip_permissions_2.png)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+将相应的角色分配给 **[!UICONTROL 用户]**：
+
+1. 从 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 菜单并选择 **[!UICONTROL 可投放性顾问]** 内置角色。
+
+1. 来自您的 **[!UICONTROL 角色]** 仪表板，访问 **[!UICONTROL 用户]** 选项卡。
+
+   ![](assets/ip_permissions_3.png)
+
+1. 单击 **[!UICONTROL 添加用户]** 以分配 **[!UICONTROL 可投放性顾问]** 内置角色。
+
+   ![](assets/ip_permissions_4.png)
+
+1. 选择您的 **[!UICONTROL 用户]** 并单击 **[!UICONTROL 保存]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## 准备IP预热计划文件 {#prepare-file}
 
@@ -264,5 +298,9 @@ adobe.com;adobe.fr;adobe.es
 1. 单击&#x200B;**[!UICONTROL 创建]**。在上传的文件中定义的所有阶段、运行、列及其内容会自动显示在 [!DNL Journey Optimizer] 界面。
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >此 **[!UICONTROL 已定位]** 列显示每次运行的所有定向配置文件的总和，这意味着来自您定义的每个域组的所有配置文件，包括 **其他** 列（如果有）。
 
 您现在可以执行IP预热计划了。 [了解详情](ip-warmup-execution.md)
