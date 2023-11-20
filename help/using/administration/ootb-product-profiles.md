@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1172'
 ht-degree: 6%
 
 ---
@@ -142,6 +142,6 @@ ht-degree: 6%
 
 | 功能 | 权限 |
 |-|-|
-| Journey Optimizer Library | <ul><li>**[!DNL Manage library items]**：读取、创建、编辑和删除Journey Optimizer库项目。</li><li>**[!DNL Manage simulate content]**：访问 **[!UICONTROL 模拟内容]** 预览和验证选项。</li></ul> |
+| Journey Optimizer Library | <ul><li>**[!DNL Manage library items]**：读取、创建、编辑和删除Journey Optimizer库项目，包括内容模板和片段。</li><li>**[!DNL Manage simulate content]**：访问 **[!UICONTROL 模拟内容]** 预览和验证选项。</li></ul> |
 | 决策管理 | <ul><li>**[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</li><li>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义报表并使用操作功能。</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**：读取、创建、编辑和删除区段定义。</li><li>**[!DNL Manage profiles]**：读取、创建、编辑和删除用户档案。</li><li>**[!DNL Read datasets]**：对数据集的只读访问权限。</li><li>**[!DNL Read schemas]**：对架构的只读访问权限。</li><li>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</li></ul> |
