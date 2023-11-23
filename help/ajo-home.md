@@ -4,222 +4,114 @@ title: Journey Optimizer 产品文档
 description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
-feature: Overview
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: 94d91d423516535ca57f5e89f98abcbffd281897
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 40%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文档 {#cjm-documentation}
 
+## 新增功能？
+
+大致了解Journey Optimizer中的最新增强功能！ 有关功能、改进和修复的完整列表，请查看详细信息 [发行说明](using/rn/release-notes.md).
+
+>[!BEGINTABS]
+
+>[!TAB 沙盒工具]
+
+沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+
+>[!TAB 短信中的多媒体消息服务 (MMS) 内容]
+
+使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能当前仅适用于 Sinch。
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#sms-content)
+
+>[!ENDTABS]
+
+## 从基础知识开始
+
 <table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><strong>入门指南</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <div>
-      <a href="using/start/get-started.md">是什么 [!DNL Journey Optimizer]？</a>
-    </div>
-    <p>了解主要功能和用例
-    <p>
-    <div>
-      <a href="using/rn/release-notes.md">发行说明</a>
-    </div>
-    <p>新增功能、最新改进和修复</p>
-   <p>
-    <div>
-      <a href="using/start/quick-start.md">快速入门指南</a>
-    </div>
-    <p>了解如何以管理员、数据工程师或历程实践者的身份开始使用</p>
-    <p>
-    <p>
-    <div>
-      <a href="using/email/get-started-email-design.md">设计电子邮件内容</a>
-    </div>
-    <p>设计新电子邮件或导入现有 HTML 内容</p>
-    <p>
-    <div>
-    <a href="using/building-journeys/journey-gs.md">创建您的第一个历程</a>
-    </div>
-    <p>了解如何构建并执行历程
-    <p>
-     <div>
-      <a href="using/campaigns/create-campaign.md">创建和管理营销活动</a>
-    </div>
-    <p>创建、配置并发送第一个营销活动</p>
-    <p>
-    <div>
-    <div>
-    <a href="using/configuration/get-started-configuration.md">配置 [!DNL Journey Optimizer]</a>
-    </div>
-    <p>了解关键配置步骤 [!DNL Journey Optimizer]</p>
-    <p>
-    <div>
-    <a href="using/administration/permissions-overview.md">授予对 [!DNL Journey Optimizer]</a> 的访问权限
-    </div>
-    <p>定义和管理分配给 [!DNL Journey Optimizer] 用户的权限</p>
-    <p>
-    <div>
-    <a href="using/offers/get-started/starting-offer-decisioning.md">决策管理</a>
-    </div>
-    <p>创建优惠并为客户提供最佳优惠和体验</p>
-    <p>
-    <p>
-    <div><strong>其他资源</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <li>
-      <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer 产品说明</a>
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer 安全概述</a> (PDF)
-    </li>
-    </div>
-    <div>
-    <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>
-    </li>
-    </div>
-    <div>
-      <li>
-      <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 开发人员资源</a>
-    </li>
-    </div>
-    <p>
-    </p>
-    <p>
-    </p>
-    <div>
-    </div>
-    <div><strong>新闻稿</strong>
-    </div>
-    <p>
-    <p>
-    <div>
-    <p>立即注册订阅 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer 季度新闻稿</a>。</p>
-    <p>每季度直接在您的收件箱中接收最新产品更新、精彩故事、用例、提示及更多内容。每份新闻稿都包含以下内容：</p>
-    <li>产品新闻与更新（包括最近发布的功能）</li>
-    <li>活动和网络研讨会的邀请，以及近期网络研讨会的录像</li>
-    <li>Adobe Journey Optimizer Experience League 社区中的热门讨论 </li>
-    <li>其他 Adobe Journey Optimizer 客户的案例研究和用例</li>
-    <li>有助于提供客户体验并推动业务成功的提示和技巧</li>
-  </td>
-   <td>
-   <div><strong>关键资源的直接链接</strong>
-    </div>
-    <p>
-    <em></em>
-    <p>
-    <p>历程管理</p>
-    <li>
-      <a href="using/campaigns/get-started-with-campaigns.md">营销活动</a>
-    </li>
-        <li>
-      <a href="using/building-journeys/journey-gs.md">历程</a>
-    </li>
-    <li>
-      <a href="using/landing-pages/get-started-lp.md">登陆页面</a>
-    </li>
-    <p>
-    <p>决策管理</p>
-    <li>
-      <a href="using/offers/get-started/starting-offer-decisioning.md">优惠</a>
-    </li>
-     <li>
-      <a href="using/offers/offer-library/key-steps.md">组件</a>
-    </li>
-    <p>
-    <p>内容管理</p>
-    <li>
-      <a href="using/content-management/assets-essentials.md">资源</a>
-    </li>
-    <li>
-      <a href="using/content-management/content-templates.md">内容模板</a>
-    </li>
-      <li>
-      <a href="using/content-management/fragments.md">片段</a>
-    </li>
-    <p>
-    <p>数据管理</p>
-    <li>
-      <a href="using/data/get-started-schemas.md">架构</a>
-    </li>
-     <li>
-      <a href="using/data/get-started-datasets.md">数据集</a>
-    </li>
-        <li>
-      <a href="using/data/get-started-queries.md">查询</a>
-    </li>
-     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans" target="_blank">监控</a>
-    </li>
-    <p>
-    <p>连接</p>
-      <li>
-      <a href="using/data/export-datasets.md">目标</a>
-    </li>
-    <li>
-      <a href="using/start/get-started-sources.md">源</a>
-    </li>
-    <p>
-    <p>客户</p>
-    <li>
-      <a href="using/audience/about-audiences.md">受众</a>
-    </li>
-    </li>
-    <li>
-      <a href="using/landing-pages/subscription-list.md">订阅列表</a>
-    </li>     
-    <li>
-      <a href="using/audience/get-started-profiles.md">用户档案</a>
-    </li>
-    <li>
-      <a href="using/audience/get-started-identity.md">标识</a>
-    </li>
-    <p>
-    <p>隐私</p>
-    <li>
-      <a href="using/action/action-privacy.md">政策</a>
-    </li>
-    <li>
-      <a href="using/privacy/requests.md">请求</a>
-    </li>
-        <li>
-      <a href="using/privacy/audit-logs.md"target="_blank">审核</a>
-    </li>
-        <li>
-      <a href="using/privacy/data-hygiene.md"target="_blank">数据卫生</a>
-    </li>
-    <p>
-    <p>管理</p>
-    <li>
-      <a href="using/configuration/about-data-sources-events-actions.md">配置</a>
-    </li>
-    <li>
-      <a href="using/configuration/frequency-rules.md">规则</a>
-    </li>
-        <li>
-      <a href="using/reports/alerts.md">警报</a>
-    </li>
-    <li>
-      <a href="using/configuration/get-started-configuration.md">渠道</a>
-    </li>
-     <li>
-      <a href="using/administration/sandboxes.md">沙盒</a>
-    </li>
-     <li>
-      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">标记</a>
-    </li>
-  </td>
-</tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <div><strong>快速入门指南</strong><br/>了解如何在Journey Optimizer中通过基于角色的个性化方法更快地实现目标。</div>
+    </td>
+    <td>
+    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>用户界面</strong><br/>了解如何在Journey Optimizer中导航和优化您的体验。</div><br/>
+    </td>
+    <td>
+    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
+    <div><strong>创建您的第一个历程</strong><br/>设计和编排个性化的全渠道历程，以协调营销外联与一对一客户参与。 
+    </div></td>
+    <td>
+    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
+    <div><strong>启动您的第一个营销活动</strong><br/>在Journey Optimizer中创建并启动您的第一个营销活动，向特定受众提供定向的一次性内容。</div>
+    </td>
+  </tr>
 </table>
+
+## 浏览文档
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
+    <td>
+      <strong>客户体验</strong><br/><a href="using/building-journeys/journey.md">历程</a> - <a href="using/campaigns/get-started-with-campaigns.md">营销活动</a> - <a href="using/landing-pages/get-started-lp.md">登陆页面</a> - <a href="using/reports/live-report.md">报表</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">决策管理</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+    </td>
+    <td>
+      <strong>配置和管理</strong><br/><a href="using/configuration/channel-surfaces.md">渠道表面</a> - <a href="using/configuration/about-data-sources-events-actions.md">配置历程</a>  - <a href="using/administration/permissions-overview.md">访问控制</a> - <a href="using/administration/sandboxes.md">沙盒管理</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
+    </td>
+    <td>
+      <strong>通信渠道</strong><br/><a href="using/email/get-started-email.md">电子邮件</a> - <a href="using/sms/get-started-sms.md">短信</a> - <a href="using/in-app/get-started-in-app.md">应用程序内</a> - <a href="using/push/get-started-push.md">推送通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">直邮</a> - <a href="using/web/get-started-web.md">Web</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+    </td>
+    <td>
+      <strong>内容管理</strong><br/><a href="using/content-management/assets-essentials.md">资产/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a> 和 <a href="using/personalization/dynamic-content.md">动态</a> 内容 —  <a href="using/content-management/preview-test.md">测试和预览内容</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
+    </td>
+    <td>
+      <strong>用户档案和受众</strong><br/><a href="using/audience/about-audiences.md">受众</a> - <a href="using/audience/get-started-profiles.md">配置文件</a> - <a href="using/audience/get-started-identity.md">身份</a> - <a href="using/audience/license-usage.md">许可证使用情况</a> - <a href="using/privacy/get-started-privacy.md">隐私管理</a>
+    </td>
+    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
+    </td>
+    <td>
+      <strong>数据管理</strong><br/><a href="using/data/get-started-schemas.md">架构</a> - <a href="using/data/get-started-datasets.md">数据集</a> - <a href="using/data/get-started-queries.md">查询</a>
+    </td>
+  </tr>
+</table>
+
+## 其他资源
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>Adobe Journey Optimizer</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API参考</a>
+</td>
+<td><strong>Adobe Experience Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html?lang=zh-Hans" target="_blank">开发人员资源</a>
+</td>
+</tr></table>
+
+<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>了解最新信息并提升您的Adobe Journey Optimizer体验！</b><br/>注册我们的季度新闻稿。 独家访问最新产品更新、引人入胜的故事、真实使用案例、宝贵提示等 — 所有这些信息每季度都会直接发送到您的收件箱。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即注册！</a></td></tr></table>
+
