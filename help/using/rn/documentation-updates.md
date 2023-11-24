@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2023 年 11 月 {#nov-2023}
 
-* 限制所有自定义操作的护栏已从30秒内的150,000次调用更改为1分钟内的300,000次调用。 此外，默认上限不再适用于每个端点。 现在按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点(例如： `https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，上限将应用于adobe.com主机下的所有端点。 “endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。 [了解详情](../action/about-custom-action-configuration.md)
+* 限制所有自定义操作的护栏已从每 30 秒 150,000 次调用更改为每 1 分钟 300,000 次调用。此外，默认上限不再适用于每个端点。现在按主机和沙盒执行。例如，在沙盒上，如果您有两个具有相同主机的端点（例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`），上限将适用于 adobe.com 主机下的所有端点。“endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。[了解详情](../action/about-custom-action-configuration.md)
 
 ## 2023 年 10 月 {#oct-2023}
 
