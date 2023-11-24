@@ -10,9 +10,9 @@ level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 
 * 在&#x200B;**历程**&#x200B;中：将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动添加到历程并定义基本设置后，使用&#x200B;**[!UICONTROL 操作：电子邮件]**&#x200B;右侧窗格，创建消息的内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。[了解如何创建活动](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为操作并定义基本设置。[了解如何创建营销活动](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
