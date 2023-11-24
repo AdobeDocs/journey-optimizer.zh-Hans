@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="渠道表面设置"
->abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道表面，用于定义消息所需的全部技术设置。您必须具有“管理消息预设”权限才能创建、编辑和删除渠道界面。"
+>abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道表面，用于定义消息所需的全部技术设置。您必须具有“管理消息预设”权限才能创建、编辑和删除渠道表面。"
 
 要创建渠道表面，请执行以下步骤：
 

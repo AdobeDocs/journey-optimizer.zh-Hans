@@ -12,7 +12,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="子域的 PTR 记录"
->abstract="将第一个子域委派给Journey Optimizer中的Adobe后，将自动创建PTR记录。"
+>abstract="在 Journey Optimizer 中将第一个子域委派给 Adobe 后，将自动创建 PTR 记录。"
 
 ## 关于 PTR 记录 {#about-ptr-records}
 
