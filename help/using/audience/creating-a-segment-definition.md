@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 13%
+source-wordcount: '401'
+ht-degree: 18%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 13%
 
      ![](assets/add-events.png)
 
+     >[!NOTE]
+     >
+     >Adobe建议不要将“打开”和“发送”事件与流式分段一起使用。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](about-audiences.md#open-and-send-event-guardrails)
+
 1. 当您在工作区中添加和配置新字段时， **[!UICONTROL 受众属性]** 窗格会自动更新有关属于受众的预计用户档案的信息。
 
    ![](assets/segment-estimate.png)
@@ -66,6 +70,6 @@ ht-degree: 13%
 
 ## 操作方法视频{#video-segment}
 
-了解Journey Optimizer如何使用规则生成受众，并了解如何使用属性、事件和现有受众创建受众。
+了解 Journey Optimizer 如何使用规则生成受众，并了解如何使用属性、事件和现有受众创建受众。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

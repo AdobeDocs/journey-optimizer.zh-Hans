@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 92%
+source-wordcount: '939'
+ht-degree: 52%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 >title="选择营销活动受众"
 >abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
 
-[!DNL Journey Optimizer]允许您使用 Real-Time Customer Profile 数据直接从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单构建并利用 Adobe Experience Platform 受众，并将其用于历程或活动。请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)以了解详情。
+[!DNL Journey Optimizer]允许您使用 Real-Time Customer Profile 数据直接从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单构建并利用 Adobe Experience Platform 受众，并将其用于历程或活动。在中了解详情 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
 
 ## 在 [!DNL Journey Optimizer] 中使用受众 {#segments-in-journey-optimizer}
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为私有测试版提供。
+>此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为 Private Beta 版提供。
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
@@ -53,24 +53,68 @@ ht-degree: 92%
 
 ## 受众评估方法{#evaluation-method-in-journey-optimizer}
 
-在 Adobe Journey Optimizer 中，受众是使用以下两种评估方法之一通过区段定义生成的：
+在Adobe Journey Optimizer中，使用下面三种评估方法之一从区段定义生成受众。
 
-* **流式分段**：当新数据流入系统时，受众的用户档案列表会保持实时更新。
++++ 流式客户细分
 
-  流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人的用户档案数据发生更改时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。
+当新数据流入系统时，受众的用户档案列表会实时保持最新。
 
-* **批量分段**：每 24 小时评估一次受众的用户档案列表。
+流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人的用户档案数据发生更改时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
 
-  批量分段是流式分段的替代方法，是通过区段定义一次性处理所有用户档案数据的过程。这会创建受众的快照，可保存和导出以供使用。但是，与流式分段不同，批量分段不会连续实时更新受众列表，并且在下一次批量处理之前，上一次批量处理之后输入的新数据不会体现在受众中。”
+>[!NOTE]
+>
+>确保使用正确的事件作为流式分段标准。 [了解详情](#open-and-send-event-guardrails)
 
-系统根据分段定义规则的复杂性和评估成本，确定为每个受众进行批量分段或流式分段。您可以在受众列表的&#x200B;**[!UICONTROL 评估方法]**&#x200B;列中查看每个受众的评估方法。
++++
 
++++ 批次分段
+
+每24小时评估一次受众的用户档案列表。
+
+批量分段是流式分段的替代方法，是通过区段定义一次性处理所有用户档案数据的过程。这会创建受众的快照，可保存和导出以供使用。但是，与流式分段不同，批量分段不会持续实时更新受众列表，并且在下一次批量处理之前，批量处理流程之后输入的新数据不会反映在受众中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+
++++
+
++++ 边缘分段
+
+边缘分段是一种在Adobe Experience Platform中即时评估区段的能力 [在边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+
++++
+
+如果您知道要使用哪种评估方法，请使用下拉列表选择它。 您还可以单击带有放大镜的浏览图标文件夹图标，查看可用区段定义评估方法的列表。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+
+![](assets/evaluation-methods.png)
+
+<!--The determination between batch segmentation and streaming segmentation is made by the system for each audience, based on the complexity and the cost of evaluating the segment definition rule. You can view the evaluation method for each audience in the **[!UICONTROL Evaluation method]** column of the audience list.
+    
 ![](assets/evaluation-method.png)
 
 >[!NOTE]
 >
->如果&#x200B;**[!UICONTROL 评估方法]**&#x200B;列没有显示，您需要使用列表右上角的配置按钮进行添加。
+>If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
 首次定义受众后，在符合条件时，用户档案会被添加到受众。
 
 从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
+
+### 使用流式客户细分的事件使用情况 {#open-and-send-event-guardrails}
+
+流式分段对于高价值用例的实时个性化很有用。 但是，选择正确的策略很重要 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} 用作分段标准。
+
+因此，要设置分段最佳性能，请避免使用以下事件：
+
+* **消息已打开** 交互类型事件
+
+  在构建受众时，使用 **消息已打开** 交互事件变得不可靠，因为它们不是用户活动的实际指示器，可能会对分段性能产生负面影响。 请参阅以了解原因 [Adobe博客帖子](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}.
+
+  因此，Adobe建议不要使用 **消息已打开** 使用流式分段处理交互事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。
+
+* **消息已发送** 反馈状态事件
+
+  此 **消息已发送** 反馈事件通常用于在发送电子邮件之前检查频率或禁止显示。 Adobe建议尽量避免使用这种方法，因为它占用的空间相当于每秒可以流式传输的事件数的当前总容量。
+
+  因此，对于频率或抑制逻辑，请使用业务规则而不是 **消息已发送** 反馈活动。 请注意，个人用户档案的每日频率上限将很快可用，以补充业务规则现有的每月频率。
+
+>[!NOTE]
+>
+>您可以使用 **消息已打开** 和 **消息已发送** 批量分段中的事件没有任何性能问题。
