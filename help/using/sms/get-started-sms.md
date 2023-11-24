@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 可以通过以下方式创建短信投放：
 
-* 在&#x200B;**历程**&#x200B;中：在历程中添加短信活动并定义基本设置后，请使用&#x200B;**[!UICONTROL 操作：用于创建短信消息内容的短信]**&#x200B;右侧窗格。[了解如何创建历程](../building-journeys/journey-gs.md)
+* 在&#x200B;**历程**&#x200B;中：在历程中添加短信活动并定义基本设置后，请使用&#x200B;**[!UICONTROL 操作：短信]**&#x200B;右侧窗格来创建短信消息内容。[了解如何创建历程](../building-journeys/journey-gs.md)
 
 * 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择短信作为您的操作并定义基本设置。[了解如何创建营销活动](../campaigns/create-campaign.md#configure)
 
