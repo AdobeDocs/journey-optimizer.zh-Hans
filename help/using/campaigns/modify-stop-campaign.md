@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 草稿]**：正在编辑营销活动，尚未激活它。
 * **[!UICONTROL 激活]**：正在激活营销活动。
+* **[!UICONTROL 正在处理]** *（仅限电子邮件营销活动）*：受众导出已完成，营销活动正在发布中。
 * **[!UICONTROL 实时]**：营销活动已激活。
 * **[!UICONTROL 已计划]**：将营销活动配置为在特定的开始日期激活。
 * **[!UICONTROL 已停止]**：营销活动已手动停止。 您无法再激活或重用它。 [了解如何停止营销活动](modify-stop-campaign.md#stop)
