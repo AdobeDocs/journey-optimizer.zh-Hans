@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 52%
@@ -51,7 +51,7 @@ ht-degree: 52%
 
 * 使用历程中的&#x200B;**条件**&#x200B;活动，根据受众成员资格构建条件。[了解如何在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)。
 
-## 受众评估方法{#evaluation-method-in-journey-optimizer}
+## 受众评估方法 {#evaluation-method-in-journey-optimizer}
 
 在Adobe Journey Optimizer中，使用下面三种评估方法之一从区段定义生成受众。
 
@@ -97,11 +97,11 @@ ht-degree: 52%
 
 从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
 
-### 使用流式客户细分的事件使用情况 {#open-and-send-event-guardrails}
+### 使用流式客户细分的事件使用情况 {#streaming-segmentation-events-guardrails}
 
 流式分段对于高价值用例的实时个性化很有用。 但是，选择正确的策略很重要 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} 用作分段标准。
 
-因此，要设置分段最佳性能，请避免使用以下事件：
+因此，要获得流式分段的最佳性能，请避免使用以下事件：
 
 * **消息已打开** 交互类型事件
 
