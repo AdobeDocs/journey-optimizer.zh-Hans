@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # 利用表达式片段 {#use-expression-fragments}
 
-使用表达式编辑器时，您可以利用已创建或已保存到当前沙盒的所有表达式片段。
+使用时 **表达式编辑器**，您可以利用已创建或已保存到当前沙盒的所有表达式片段。
 
 了解如何在中创建和管理片段 [本节](../content-management/fragments.md).
 
