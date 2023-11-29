@@ -11,9 +11,9 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
+source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1540'
 ht-degree: 8%
 
 ---
@@ -170,6 +170,9 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 +++
 
 +++拉波斯特laposte.net
++++
+
++++Apple mac.com；icloud.com；apple.com；me.com
 +++
 
 ### “自定义域组”选项卡 {#custom-domain-group-tab}
