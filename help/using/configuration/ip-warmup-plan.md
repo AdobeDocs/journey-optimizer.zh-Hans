@@ -11,10 +11,10 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 10%
+source-wordcount: '1552'
+ht-degree: 8%
 
 ---
 
@@ -97,7 +97,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 ### “IP预热计划”选项卡 {#ip-warmup-plan-tab}
 
-* 在此示例中，已准备了跨越17天的计划(称为“**运行**“)达到超过100万用户档案的目标数量。
+* 在此示例中，已准备了跨越17天的计划(称为&#39;**运行**‘)以实现超过100万用户档案的目标数量。
 
 * 该计划在六年内执行 **阶段**，每个报表包至少包含一个运行。
 
@@ -128,51 +128,48 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 * 拉波斯特
 * Apple
 
-<!--
-+++ Gmail
-gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++ Gmail gmail.com；google.com；googlemail.com；googlemail.co.uk
 +++
 
 +++ Adobe
-adobe.com;adobe.fr;adobe.es
+
 +++
 
-+++WP
++++WP wp.pl；o2.pl
 +++
 
-+++Comcast
++++Comcast comcast.net
 +++
 
-+++Yahoo
++++Yahoo aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；yahoo.fi；；yahoo.hr；aol.cz；yahoo.ee；aol.be；aolcom.tr；yahoo.si；；aol.it；；yahoo.es；yahogroups.ca；；aol.kr；yahoo.ie；aol.jp；；aol.nl；yahoo.bg；；aol.se；yahoo.de；；；；aol.dk；；yahoo.nl；；；aol.dk；AOL.k；SK；yahogroups.de yahoo.gr；；yahoo.ro；；yahoo.gr；；aol.in；yahoo.rs；aol.de；aol；；；；yahoo.se；myaol yahoo.pt；；yahoo.pt；；yahogrupper.dk； yahoo.fr；；；aol.ch； yahoo.it；； AOLPOLCKA.pl；；；yahogruppi.it；；yahoo.cl；；；
 +++
 
-+++Bigpond
++++Bigpond bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
 +++
 
-+++Orange
++++橙色voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
 +++
 
-+++Softbank
++++Softbank c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；；
 +++
 
-+++Docomo
++++Docomo docomo.ne.jp
 +++
 
-+++United Internet
++++United Internet gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
 +++
 
-+++Microsoft
++++Microsoft hotmail.com.tr；live.de；live.ru；live.nl；windowslive.com；live.jp；mts.net；xbox.com；hotmail.fr；hotmail.cl；hotmail.co.kr outlook.com.br hotmail.co.il live.co.kr live.co.uk live.com.mx hotmail.co.uk live.com.sg msn.com hotmail.co.jp live.co.za live.com.pt outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar；hotmail.cl；live.com.au；hotmail.co.th；live.hk；hotmail.com.au；hotmail.com；live.com.my；live.ie；live.cn；；hotmail.dk；live.no；live.dk；hotmail.it；live.se；；live.be；live.in；hotmail.se；；hotmail.ch；hotmail.gr；live.it；；hotmail.ca；；live.ca；hotmail.de
 +++
 
-+++KDDI
++++KDDI au.com；ezweb.ne.jp；uqmobile.jp
 +++
 
-+++Italia Online
++++意大利在线inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
 +++
 
-+++La Poste
++++拉波斯特laposte.net
 +++
--->
 
 ### “自定义域组”选项卡 {#custom-domain-group-tab}
 
