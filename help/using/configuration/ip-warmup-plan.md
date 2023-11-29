@@ -11,9 +11,9 @@ keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1535'
 ht-degree: 8%
 
 ---
@@ -112,27 +112,28 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 下面列出了可添加到计划中的现成主域组：
 
+<!--
 * Gmail
 * Adobe
 * WP
 * Comcast
 * Yahoo
-* 大池塘
-* 橙色
-* 软银
-* 杜科莫
-* 联合互联网
+* Bigpond
+* Orange
+* Softbank
+* Docomo
+* United Internet
 * Microsoft
 * KDDI
-* 意大利在线
-* 拉波斯特
+* Italia Online
+* La Poste
 * Apple
+-->
 
 +++ Gmail gmail.com；google.com；googlemail.com；googlemail.co.uk
 +++
 
-+++ Adobe
-
++++ Adobeadobe.com
 +++
 
 +++WP wp.pl；o2.pl
