@@ -40,7 +40,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择营销活动以从当前阶段中排除其受众。 这是为了防止以前在其他阶段或其他 IP 预热计划中联系过的配置文件再次成为目标。"
+>abstract="选择营销活动以从当前阶段排除其受众。这是为了防止以前在其他阶段或其他 IP 预热计划中联系过的配置文件再次成为目标。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
