@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
@@ -254,7 +254,7 @@ ht-degree: 100%
 
 **资源**
 
-* 新增一个“资源”的新选项，您可以借以在 Journey Optimizer 中选择资源的存储库。 如果您拥有此解决方案，则可以选择 Assets Essentials 存储库或 Assets as a Cloud Service 存储库。 [了解详情](../content-management/assets-essentials.md)
+* 新增一个“资源”的新选项，您可以借以在 Journey Optimizer 中选择资源的存储库。 如果您拥有此解决方案，则可以选择 Assets Essentials 存储库或 Assets as a Cloud Service 存储库。 [了解详情](../content-management/assets.md)
 
 <!--**Decision management**
 
