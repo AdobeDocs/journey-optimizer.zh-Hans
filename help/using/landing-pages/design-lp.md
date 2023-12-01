@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登陆，登陆页面，设计，HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '159'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 从那里，您可以：
 
-* **从头开始设计登陆页面** 通过内容设计器的界面，并利用来自以下各项的图像 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../email/content-from-scratch.md).
+* **从头开始设计登陆页面** 通过内容设计器的界面，并利用来自以下各项的图像 [Adobe Experience Manager Assets](../content-management/assets.md). 了解如何设计内容 <!--or use built-in templates--> [在此部分中](../email/content-from-scratch.md).
 
 * **编码或粘贴原始HTML** 直接导入内容设计器。 了解如何为自己的内容编码 [在此部分中](../email/code-content.md).
 

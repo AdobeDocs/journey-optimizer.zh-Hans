@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: stock，图像，集成，照片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 13%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 此 **[!UICONTROL 查找Adobe Stock照片]** 和 **[!UICONTROL 查找类似图像]** 这些选项可供有权访问AEM Assets Essentials产品配置文件的用户使用。
 
-有关详细信息，请参见 [Assets基本文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+有关详细信息，请参见 [Experience Manager Assets文档](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## 插入图像来源 [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ ht-degree: 13%
 
    ![](assets/stock_6.png)
 
-1. 选择要将资源存储到的文件夹。 有关的详细信息 [!DNL Assets Essentials]，请参阅此 [页面](assets-essentials.md#get-started-assets-essentials).
+1. 选择要将资源存储到的文件夹。 有关的详细信息 [!DNL Experience Manager Assets]，请参阅此 [页面](assets.md#get-started-assets).
 
 ## 相关主题{#stock-related-topics}
 

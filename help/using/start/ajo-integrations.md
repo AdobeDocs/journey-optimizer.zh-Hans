@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,13 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 详细了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-利用 [!DNL Adobe Experience Manager Assets Essentials] 整合营销和创意工作流。与 [!DNL Adobe Journey Optimizer] 原生集成，可访问 [!DNL Assets Essentials] 来存储、管理、发现和分配数字资源。提供了单一集中式资源存储库，您可以使用它来填充消息。
+利用 [!DNL Adobe Experience Manager Assets] 整合营销和创意工作流。与 [!DNL Adobe Journey Optimizer] 原生集成，可访问 [!DNL Adobe Experience Manager Assets] 来存储、管理、发现和分配数字资源。提供了单一集中式资源存储库，您可以使用它来填充消息。
 
-通过左侧菜单&#x200B;**[!UICONTROL 资源]**&#x200B;部分的 [!DNL Adobe Journey Optimizer]，可直接访问 [!DNL Adobe Experience Manager Assets Essentials]。
+通过左侧菜单&#x200B;**[!UICONTROL 资源]**&#x200B;部分的 [!DNL Adobe Journey Optimizer]，可直接访问 [!DNL Adobe Experience Manager Assets]。
 
-了解 [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md) 的更多信息。
+了解有关 [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 keywords: 代码、HTML、编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 67%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
-> 图像来源 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 使用此方法时无法引用。 HTML代码中引用的图像必须存储到公共位置。
+> 图像来源 [Adobe Experience Manager Assets](../content-management/assets.md) 使用此方法时无法引用。 HTML代码中引用的图像必须存储到公共位置。
 
 1. 从Email Designer主页中，选择 **[!UICONTROL 自己编写代码]**.
 

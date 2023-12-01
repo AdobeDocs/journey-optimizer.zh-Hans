@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 22%
+source-wordcount: '841'
+ht-degree: 19%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="委派 Web 子域"
->abstract="如果您将来自 Adobe Experience Manager Assets Essentials 的内容添加到您的 Web 体验，则必须设置将用于发布此内容的子域。在已委派给 Adobe 的子域中进行选择或配置新的子域。"
+>abstract="如果您将来自 Adobe Experience Manager Assets 的内容添加到您的 Web 体验，则必须设置将用于发布此内容的子域。在已委派给 Adobe 的子域中进行选择或配置新的子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="设置 Web 子域"
 >abstract="从委派给 Adobe 的子域的列表中选择一个子域。可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
 
-在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) 库中，您必须设置用于发布此内容的子域。
+在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets](../content-management/assets.md) 库中，您必须设置用于发布此内容的子域。
 
 您可以使用已委派给Adobe的子域，也可以配置另一个子域。 了解有关委派子域以在中进行Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
 
@@ -101,7 +101,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要配置新的 Web 子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，并将其粘贴到域托管解决方案以生成匹配的 DNS 记录。检查成功后，子域便可用于发布来自 Experience Manager Assets Essentials 库的内容。"
+>abstract="要配置新的 Web 子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，并将其粘贴到域托管解决方案以生成匹配的 DNS 记录。检查成功后，子域即准备好用于发布来自Adobe Experience Manager Assets库的内容。"
 
 要配置新子域，请执行以下步骤。
 
