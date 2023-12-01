@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建短信消息
-description: 了解如何在Journey Optimizer中创建短信消息
+title: 创建短信/彩信消息
+description: 了解如何在Journey Optimizer中创建短信/彩信消息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 17%
+source-wordcount: '781'
+ht-degree: 15%
 
 ---
 
-# 创建短信消息 {#create-sms}
+# 创建短信/彩信消息 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建短信消息"
 >abstract="添加您的短信消息，并使用表达式编辑器开始对其进行个性化设置。"
 
-## 添加短信消息 {#create-sms-journey-campaign}
+## 添加短信/彩信消息 {#create-sms-journey-campaign}
 
 浏览以下选项卡，了解如何在活动或历程中添加短信消息。
 
@@ -110,13 +110,30 @@ ht-degree: 17%
 
 1. 在 `originalUrl` 字段中，粘贴要缩短的URL并单击 **[!UICONTROL 保存]**.
 
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## 定义彩信内容{#mms-content}
+
+借助短信渠道，您可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。
+
+
+>[!NOTE]
+>
+> 此功能当前适用于 **Sinch** 仅限。
+>
+> MMS渠道具有下列限制 [此页面](../start/guardrails.md#sms-guardrails).
+
+要创建MMS内容，请执行以下步骤：
+
+1. 创建短信，如所述 [本节](#create-sms-journey-campaign).
+
+1. 编辑您的短信内容，如中所述 [本节](#sms-content).
+
 1. 启用MMS选项以将媒体添加到短信内容。
-
-   MMS附带列出了一些限制 [此页面](../start/guardrails.md#sms-guardrails).
-
-   >[!NOTE]
-   >
-   > MMS选项仅适用于Sinch。 您需要创建特定的API凭据才能创建MMS。 [了解详情](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,16 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
 
-   ![](assets/sms-content-preview.png)
+## 测试和发送消息 {#sms-mms-test}
 
 您现在可以测试短信消息并将其发送给受众。 [了解详情](send-sms.md)
+
+
 发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
 
 >[!NOTE]
 >
 >根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **相关主题**
 
 * [预览、测试和发送短信消息](send-sms.md)
