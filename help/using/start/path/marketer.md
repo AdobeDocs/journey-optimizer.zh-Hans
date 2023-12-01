@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets Essentials] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../content-management/assets-essentials.md)了解详情。
+1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../content-management/assets.md)了解详情。
 
 1. **添加优惠**。使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。[在此部分中](../../offers/get-started/starting-offer-decisioning.md)了解有关决策管理的更多信息。
 
