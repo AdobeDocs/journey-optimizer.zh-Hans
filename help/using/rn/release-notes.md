@@ -8,8 +8,8 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
+workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 <td>
 <p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能当前仅适用于 Sinch。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../sms/create-sms.md#mms-content">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
