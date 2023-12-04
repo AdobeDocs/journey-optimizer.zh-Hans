@@ -7,42 +7,46 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 16%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
 # 配置短信渠道 {#sms-configuration}
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。
+在发送短信或彩信之前，必须配置Adobe Journey Optimizer环境。 要执行这项操作，请执行以下操作：
 
-在发送短信之前，请配置您的实例。 您需要 [集成提供程序设置](#create-api) 与Journey Optimizer和 [创建短信表面](#message-preset-sms) （即短信预设）。 这些步骤必须由 [Adobe Journey Optimizer 系统管理员](../start/path/administrator.md)执行。
+* [集成提供程序设置](#create-api) 使用Journey Optimizer
+* [创建短信表面](#message-preset-sms) （即短信预设），也用于MMS
+
+这些步骤必须由Adobe Journey Optimizer执行 [系统管理员](../start/path/administrator.md).
 
 ## 先决条件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集成，这些提供商提供独立于Adobe Journey Optimizer的短信服务。
+Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立于Adobe Journey Optimizer提供短信服务。 支持的短信提供商包括： **Sinch**， **Twilio** 和 **Infobip**. 仅支持MMS **Sinch**.
 
-在配置SMS之前，您必须与这些SMS提供商之一创建一个帐户，以接收API令牌和服务ID，从而能够在Adobe Journey Optimizer和适用的SMS提供商之间建立连接。
+在配置短信渠道之前，您必须使用这些提供商之一创建帐户，以获取 **api令牌** 和 **服务ID**，您需要配置Adobe Journey Optimizer与适用提供商之间的连接。
 
-您使用短信服务将受适用短信提供商提供的其他条款和条件的约束。 由于Sinch和Twilio是第三方产品，可供Adobe Journey Optimizer用户通过集成使用，因此，对于与短信服务相关的任何问题或查询，Sinch或Twilio的用户需要联系适用的短信提供商以获取帮助。 Adobe不控制第三方产品，也不对第三方产品负责。
+您对短信服务的使用受适用提供商提供的其他条款与条件的约束。 作为第三方解决方案，Adobe Journey Optimizer用户可通过集成使用Sinch、Twilio和Infobip。 Adobe不控制，也不对第三方产品负责。 有关文本消息服务(SMS/MMS)的任何问题或协助请求，请与提供商联系。
 
 >[!CAUTION]
 >
->要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
+>要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 要了解有关权限的更多信息，请参阅 [此页面](../administration/high-low-permissions.md#administration-permissions).
+>
 
-## 新建 API 凭据 {#create-api}
+## 创建新的API凭据 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用 Journey Optimizer 配置短信供应商"
->abstract="选择您的供应商并填写短信 API 凭据。"
+>title="使用Journey Optimizer配置短信/彩信提供商"
+>abstract="Adobe Journey Optimizer通过短信/彩信服务提供商发送短信。 选择您的提供商，并填写您的API凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用 Journey Optimizer 配置短信供应商"
->abstract="在发送短信之前，您必须将供应商设置与 Journey Optimizer 集成。完成后，您将需要创建一个短信表面。这些步骤必须由 Adobe Journey Optimizer 系统管理员执行。"
+>title="使用Journey Optimizer配置短信/彩信提供商"
+>abstract="在发送文本消息(SMS/MMS)之前，必须将提供程序设置与Journey Optimizer集成。 完成后，您需要创建短信/彩信表面。 这些步骤必须由Adobe Journey Optimizer系统管理员执行。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信渠道表面"
 
 >[!CONTEXTUALHELP]
@@ -50,19 +54,21 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 >title="选择短信供应商配置"
 >abstract="选择为您的短信供应商配置的 API 凭据。"
 
-要使用Journey Optimizer配置短信供应商，请执行以下步骤：
+要使用Journey Optimizer配置短信/彩信提供商，请执行以下步骤：
 
 1. 在左边栏中，浏览 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 并选择 **[!UICONTROL API凭据]** 菜单。 单击 **[!UICONTROL 创建新的API凭据]** 按钮。
 
    ![](assets/sms_6.png)
 
-1. 配置您的SMS API凭据：
+1. 配置您的SMS API凭据，如下所述。
+
+   ![](assets/sms_7.png)
 
    * 对象 **[!DNL Sinch]**：
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-      * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。  [了解详情](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}。
+      * **[!UICONTROL 服务ID]** 和 **[!UICONTROL api令牌]**：访问API页面，您可以在SMS选项卡下找到凭据。 了解详情，请参阅 [Sinch文档](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
       * **[!UICONTROL 选择加入消息]**：输入将作为您的自动发送的自定义响应 **[!UICONTROL 选择加入消息]**.
 
@@ -72,7 +78,7 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-      * **[!UICONTROL 项目编号]**， **[!UICONTROL 应用程序ID]** 和 **[!UICONTROL api令牌]**：从“对话API”菜单中，您可以在“应用程序”菜单中找到您的凭据。  [了解详情](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
+      * **[!UICONTROL 项目编号]**， **[!UICONTROL 应用程序ID]** 和 **[!UICONTROL api令牌]**：从“对话API”菜单中，您可以在“应用程序”菜单中找到您的凭据。 了解详情，请参阅 [Sinch文档](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
    * 对象 **[!DNL Twilio]**：
 
@@ -80,15 +86,14 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
       * **[!UICONTROL 帐户SID]** 和 **[!UICONTROL 身份验证令牌]**：访问Twilio控制台仪表板页面的“帐户信息”窗格以查找您的凭据。
 
-      * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 [了解详情](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}。
+      * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 了解详情，请参阅 [Twilio文档](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * 对象 **[!DNL Infobip]**：
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL api令牌]**：访问您的Web界面主页或API密钥管理页面以查找您的凭据。 [了解详情](https://www.infobip.com/docs/api){target="_blank"}。
+      * **[!UICONTROL API基本URL]** 和 **[!UICONTROL api令牌]**：访问您的Web界面主页或API密钥管理页面以查找您的凭据。 了解详情，请参阅 [Infobip文档](https://www.infobip.com/docs/api){target="_blank"}.
 
-   ![](assets/sms_7.png)
 
 1. 单击 **[!UICONTROL 提交]** 完成API凭据配置时。
 
@@ -98,11 +103,11 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="定义短信类别"
->abstract="选择使用此表面的短信消息类型：营销性的推广短信消息，此时需要用户同意；或者事务性的非商业短信消息，例如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择退出营销短信消息"
+>title="定义消息类别"
+>abstract="使用此表面选择文本消息的类型：促销消息的营销型（需要用户同意），或非商业消息的事务型（如密码重置）。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="营销文本消息中的选择退出"
 
-配置短信渠道后，您必须创建一个渠道平面以便能够从中发送短信消息 **[!DNL Journey Optimizer]**.
+配置短信/彩信渠道后，您必须创建一个渠道平面以便能够从中发送短信消息 **[!DNL Journey Optimizer]**.
 
 要创建渠道表面，请执行以下步骤：
 
@@ -124,14 +129,14 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
    首先，选择 **[!UICONTROL 短信类型]** 将随表面一起发送的内容： **[!UICONTROL 事务性]** 或 **[!UICONTROL 营销]**.
 
-   * 选择 **营销** 促销短信：这些消息需要用户同意。
+   * 选择 **营销** 促销文本消息：这些消息需要用户同意。
    * 选择 **事务性** 用于非商业性消息，如订单确认、密码重置通知或投放信息。
 
-   创建短信消息时，必须选择与为消息选择的类别匹配的有效渠道平面。
+   创建SMS/MMS消息时，必须选择与为消息选择的类别匹配的有效渠道平面。
 
    >[!CAUTION]
    >
-   >**事务性** 短信消息可以发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
+   >**事务性** 消息可以发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
 
 1. 选择 **[!UICONTROL 短信配置]** 以与曲面相关联。
 
@@ -145,13 +150,13 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
    >[!NOTE]
    >
-   >要能够选择子域，请确保您之前已配置至少一个短信子域。 [了解如何操作](sms-subdomains.md)
+   >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](sms-subdomains.md)
 
-1. 输入 **[!UICONTROL 选择退出次数]** 要用于此表面。 当用户档案选择退出此号码时，您仍然能够通过可能用于发送短信的其他号码向他们发送消息 [!DNL Journey Optimizer].
+1. 输入 **[!UICONTROL 选择退出次数]** 要用于此表面。 当用户档案选择退出此号码时，您仍然可以通过可能用于发送短信的其他号码向他们发送消息 [!DNL Journey Optimizer].
 
    >[!NOTE]
    >
-   >在 [!DNL Journey Optimizer]，短信选择退出不再在渠道级别进行管理。 现在，它是特定于某个数字的。
+   >在 [!DNL Journey Optimizer]，不再在渠道级别管理短信的选择退出。 现在，它是特定于某个数字的。
 
 1. 配置完所有参数后，单击 **[!UICONTROL 提交]** 以确认。 也可以将渠道曲面另存为草稿，并稍后恢复其配置。
 
@@ -167,11 +172,11 @@ Adobe Journey Optimizer目前与Sinch、Twilio和Infobip等第三方提供商集
 
    ![](assets/preset-active.png)
 
-您现在可以使用Journey Optimizer发送短信消息了。
+您现在可以使用Journey Optimizer发送短信。
 
 **相关主题**
 
-* [创建短信消息](create-sms.md)
+* [创建短信(SMS/MMS)](create-sms.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 * [在营销活动中添加消息](../campaigns/create-campaign.md)
 

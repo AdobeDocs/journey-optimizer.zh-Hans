@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 23%
+source-wordcount: '1167'
+ht-degree: 14%
 
 ---
 
-# 电子邮件、应用程序内消息、推送、短信{#add-a-message-in-a-journey}
+# 电子邮件、应用程序内、推送、短信/彩信{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="消息活动"
->abstract="Journey Optimizer 附带内置消息功能。只需在历程中添加推送、短信、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。"
+>abstract="Journey Optimizer 附带内置消息功能。您只需在历程中添加推送消息、短信(SMS/MMS)、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后将在历程的上下文中执行和发送它。"
 
-[!DNL Journey Optimizer] 附带内置消息功能。 只需在历程中添加推送、短信、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。
+[!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信/彩信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后将在历程的上下文中执行和发送它。
 
 您还可以设置向您发送消息的特定操作：
 
@@ -74,7 +74,7 @@ ht-degree: 23%
    <img alt="验证" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>创建短信消息</strong></a>
+   <a href="../sms/create-sms.md"><strong>创建短信(SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
@@ -106,7 +106,7 @@ ht-degree: 23%
 
 ### 关于发送时间优化 {#about-send-time}
 
-Adobe Journey Optimizer 的发送时间优化功能由 Adobe 的 AI 服务提供支持，可以预测发送电子邮件或推送消息的最佳时间，从而根据历史打开率和点击率最大限度地提高参与度。使用我们的机器学习模型安排每个用户的个性化发送时间，以增加消息的打开率和点击率。
+Adobe Journey Optimizer的发送时间优化功能由Adobe的AI服务提供支持，可以根据历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，从而最大化参与度。 使用我们的机器学习模型安排每个用户的个性化发送时间，以增加消息的打开率和点击率。
 
 发送时间优化模型会摄取您的Adobe Journey Optimizer数据，并查看用户级别的打开率（适用于电子邮件和推送）和点击率（适用于电子邮件），以确定客户何时最有可能参与您的消息传送。 发送时间优化需要至少一个月的消息跟踪数据才能提出明智的建议。 对于每个用户，系统将使用以下得分自动选择最佳时间：
 
@@ -159,7 +159,7 @@ Adobe Journey Optimizer 的发送时间优化功能由 Adobe 的 AI 服务提供
 
 ![](../building-journeys/assets/jo-message5.png)
 
-对于电子邮件，选择是优化电子邮件打开次数，还是通过选择相应的单选按钮优化电子邮件点进次数。 推送消息默认为打开选项，因为点击不适用于推送消息。 
+对于电子邮件，选择是优化电子邮件打开次数，还是通过选择相应的单选按钮优化电子邮件点进次数。 推送消息默认为打开选项，因为点击不适用于推送消息。
 
 您还可以通过为以下项输入值，选择将系统使用的发送时间包括在内 **发送于下一个** 选项。 如果你选择“六小时”作为值， [!DNL Journey Optimizer] 将检查每个用户配置文件，并在旅程执行时间后的6小时内选择最佳发送时间。
 

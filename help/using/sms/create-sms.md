@@ -8,27 +8,34 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 15%
+source-wordcount: '948'
+ht-degree: 4%
 
 ---
 
-# 创建短信/彩信消息 {#create-sms}
+# 创建短信(SMS/MMS){#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="创建短信消息"
->abstract="添加您的短信消息，并使用表达式编辑器开始对其进行个性化设置。"
+>title="创建文本消息"
+>abstract="要创建短信(SMS/MMS)，请在历程或营销策划中添加短信操作，然后开始使用表达式编辑器对其进行个性化设置。"
 
-## 添加短信/彩信消息 {#create-sms-journey-campaign}
+您可以使用Adobe Journey Optimizer设计和发送文本(SMS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
-浏览以下选项卡，了解如何在活动或历程中添加短信消息。
+>[!NOTE]
+>
+>根据行业标准和法规，所有SMS/MMS营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
+
+## 添加短信 {#create-sms-journey-campaign}
+
+浏览以下选项卡，了解如何在营销活动或历程中添加短信(SMS/MMS)。
 
 >[!BEGINTABS]
 
->[!TAB 向历程添加短信消息]
+>[!TAB 向历程添加短信]
 
 1. 打开您的历程，然后从拖放短信活动 **操作** 面板的部分。
 
@@ -42,11 +49,11 @@ ht-degree: 15%
 
    此 **[!UICONTROL 表面]** 默认情况下，字段会使用用户用于该渠道的最后一个表面进行预填充。
 
-您现在可以从以下网址开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮。 [定义短信内容](#sms-content)
+您现在可以从以下网址开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮，如下所述。
 
->[!TAB 向营销活动添加短信消息]
+>[!TAB 向营销活动添加短信]
 
-1. 创建新的计划或API触发的营销活动，请选择 **[!UICONTROL 短信]** 作为您的操作，然后选择 **[!UICONTROL 应用程序表面]** 以使用。 [了解有关短信配置的更多信息](sms-configuration.md).
+1. 创建新的计划或API触发的营销活动，请选择 **[!UICONTROL 短信]** 作为您的操作，然后选择 **[!UICONTROL 应用程序表面]** 以使用。 在中了解有关短信配置的更多信息 [此页面](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -75,7 +82,7 @@ ht-degree: 15%
    * 每周
    * 月
 
-您现在可以从以下网址开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮。 [设计短信内容](#sms-content)
+您现在可以从以下网址开始设计短信的内容： **[!UICONTROL 编辑内容]** 按钮，如下所述。
 
 >[!ENDTABS]
 
@@ -84,23 +91,25 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定义短信内容"
->abstract="使用表达式编辑器定义内容并集成动态元素，从而自定义和个性化短信内容。"
+>abstract="使用表达式编辑器自定义文本消息(SMS/MMS)并将其个性化，以定义内容并合并动态元素。"
 
-1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置短信内容。
+要配置短信内容，请执行以下步骤。 有关MMS设置的详情，请参见 [本节](#mms-content).
+
+1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置文本消息内容。
 
 1. 单击 **[!UICONTROL 消息]** 用于打开表达式编辑器的字段。
 
    ![](assets/sms-content.png)
 
-1. 使用表达式编辑器定义内容并添加动态内容。 您可以使用任何属性，如配置文件名称或城市。 了解有关 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
+1. 使用表达式编辑器定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。 浏览到以下页面，了解更多关于 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
 
-1. 定义内容后，您可以将跟踪URL添加到消息中。 为此，请访问 **[!UICONTROL 辅助函数]** 菜单并选择 **[!UICONTROL 辅助函数]**.
+1. 定义内容后，您可以在消息中添加跟踪的URL。 为此，请访问 **[!UICONTROL 辅助函数]** 菜单并选择 **[!UICONTROL 辅助函数]**.
 
    请注意，要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的表面。 [了解详情](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。
+   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
 
    ![](assets/sms_tracking_1.png)
 
@@ -110,22 +119,20 @@ ht-degree: 15%
 
 1. 在 `originalUrl` 字段中，粘贴要缩短的URL并单击 **[!UICONTROL 保存]**.
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
-
-   ![](assets/sms-content-preview.png)
-
+1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您现在可以测试和检查消息内容，如中所述 [本节](#sms-mms-test).
 
 
 ## 定义彩信内容{#mms-content}
 
-借助短信渠道，您可以通过发送多媒体消息服务(MMS)消息，实现与客户共享图像、GIF或视频来增强通信。
+您可以通过发送多媒体消息服务(MMS)消息，启用视频、图片、音频剪辑和GIF等媒体的共享来增强通信。 此外，MMS允许在消息中最多包含1600个字符的文本。
 
 
 >[!NOTE]
 >
-> 此功能当前适用于 **Sinch** 仅限。
+>* 此功能当前适用于 **Sinch** 仅限。
 >
-> MMS渠道具有下列限制 [此页面](../start/guardrails.md#sms-guardrails).
+>* MMS渠道具有下列限制 [此页面](../start/guardrails.md#sms-guardrails).
+>
 
 要创建MMS内容，请执行以下步骤：
 
@@ -143,22 +150,22 @@ ht-degree: 15%
 
    ![](assets/sms_create_7.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
+1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您现在可以测试和检查消息内容，如下所述。
 
 ## 测试和发送消息 {#sms-mms-test}
 
-您现在可以测试短信消息并将其发送给受众。 [了解详情](send-sms.md)
+使用 **[!UICONTROL 模拟内容]** 按钮以预览短信内容、缩短的URL和个性化内容。
 
+![](assets/sms-content-preview.png)
+
+执行测试并验证内容后，即可向受众发送短信。 这些步骤详见 [此页面](send-sms.md)
 
 发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
 
->[!NOTE]
->
->根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 **相关主题**
 
-* [预览、测试和发送短信消息](send-sms.md)
+* [预览、测试和发送短信](send-sms.md)
 * [配置短信渠道](sms-configuration.md)
-* [短信报告](../reports/journey-global-report.md#sms-global)
+* [短信/彩信报告](../reports/journey-global-report.md#sms-global)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 * [在营销活动中添加消息](../campaigns/create-campaign.md)
