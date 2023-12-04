@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 短信选择禁用管理
-description: 了解如何使用短信消息管理选择退出
+title: 短信的选择退出管理
+description: 了解如何使用短信/彩信消息管理选择退出
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 26%
+source-wordcount: '452'
+ht-degree: 25%
 
 ---
 
-# 短信选择禁用管理 {#sms-opt-out}
+# 短信的选择退出管理 {#sms-opt-out}
 
 根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。[了解有关隐私和选择退出管理的更多信息](../privacy/opt-out.md)
 
@@ -46,7 +46,7 @@ ht-degree: 26%
 
 ## 字母数字发件人 ID {#alphanumeric}
 
-字母数字发件人 ID 仅用于单向消息传递，且无法接收入站消息。因此，Adobe Journey Optimizer的短信STOP、START、HELP关键字不适用于字母发件人ID。 您必须提供其他说明，例如写信给支持团队、拨打支持电话或发短信给其他电话号码或代码，以允许用户选择退出接收通过字母数字发件人 ID 发送的消息。
+字母数字发件人 ID 仅用于单向消息传递，且无法接收入站消息。因此，Adobe Journey Optimizer的短信STOP、START、HELP关键字不适用于Alpha发件人ID。 您必须提供其他说明，例如写信给支持团队、拨打支持电话或发短信给其他电话号码或代码，以允许用户选择退出接收通过字母数字发件人 ID 发送的消息。
 
 ## 视频 {#video-sms}
 

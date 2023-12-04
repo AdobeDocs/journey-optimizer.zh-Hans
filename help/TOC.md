@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [早期发行说明](using/rn/e-release-notes.md)
    + [最新发行说明](using/rn/release-notes.md)
    + 过往发行说明 {#previous-rn-new}
+      + [2023版发行说明](using/rn/release-notes-2023.md)
       + [2022 年发行说明](using/rn/release-notes-2022.md)
       + [2021 年发行说明](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
@@ -215,12 +216,12 @@ ht-degree: 99%
       + [推送通知数据流](using/push/push-gs.md)
       + [配置推送通知渠道](using/push/push-configuration.md)
       + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
-+ 短信渠道{#sms}
++ 短信/彩信渠道{#sms}
    + [短信入门](using/sms/get-started-sms.md)
-   + [创建短信消息](using/sms/create-sms.md)
+   + [创建文本消息](using/sms/create-sms.md)
    + [创建 MMS 消息](using/sms/create-mms.md)
    + [检查并发送短信](using/sms/send-sms.md)
-   + [管理短信选择禁用](using/sms/sms-opt-out.md)
+   + [管理短信选择退出](using/sms/sms-opt-out.md)
    + [配置短信渠道](using/sms/sms-configuration.md)
    + [设置短信子域](using/sms/sms-subdomains.md)
 + 直邮 {#direct-mail}
@@ -234,7 +235,7 @@ ht-degree: 99%
       + [Web 渠道先决条件](using/web/web-prerequisites.md)
       + [配置 Web 子域](using/web/web-delegated-subdomains.md)
    + [创建 Web 体验](using/web/create-web.md)
-   + 创建 Web 页面 {#author-web-pages}
+   + 创作网页 {#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [监测 Web 活动](using/web/monitor-web-campaigns.md)

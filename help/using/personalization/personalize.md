@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 表达式、编辑器、开始、个性化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 35%
+source-wordcount: '412'
+ht-degree: 33%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 35%
 >id="ajo_homepage_card5"
 >title="个性化体验"
 >abstract="借助 **Adobe Journey Optimizer**，可利用您拥有的特定收件人相关数据和信息，让您的消息适合每个特定收件人。该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。"
-
 
 发现 [!DNL Adobe Journey Optimizer] 个性化功能，利用您拥有的关于每个特定收件人的数据和信息，根据他们调整您的消息。 该信息可以是特定收件人的名字、兴趣、居住地、购买的物品等。
 
@@ -57,7 +56,7 @@ ht-degree: 35%
 
 [!DNL Journey Optimizer] 提供了一个表达式编辑器，您可以在其中选择、排列、自定义和验证所有数据，以便为您的内容创建自定义的个性化设置。
 
-提供了多种工具来帮助构建个性化内容（辅助函数、预定义表达式库、受欢迎的属性……）
+有多种工具可帮助您构建个性化内容，例如：Felper函数、预定义表达式库、受欢迎的属性等。
 
 了解有关 [!DNL Journey Optimizer] 中的表达式编辑器 [本节](personalization-build-expressions.md)
 

@@ -1,41 +1,43 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 短信入门
-description: 了解如何在 Journey Optimizer 中创建短信
+title: 文本消息（短信/彩信）入门
+description: 了解如何在Journey Optimizer中创建和发送短信
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 10%
 
 ---
 
 # 短信入门 {#get-started-sms}
 
-使用 [!DNL Journey Optimizer] 向客户的移动设备上发送短信。您可以从短信编辑器中创建、个性化和预览文本格式的消息。
+使用 [!DNL Journey Optimizer] 用于在其移动设备上向客户发送短信(SMS/MMS)。 您可以通过短信/彩信编辑器以文本格式创建、个性化和预览消息。
 
-可以通过以下方式创建短信投放：
+短信可以在历程或营销活动中创建和发送。 对于MMS和SMS，使用SMS操作。
 
-* 在&#x200B;**历程**&#x200B;中：在历程中添加短信活动并定义基本设置后，请使用&#x200B;**[!UICONTROL 操作：短信]**&#x200B;右侧窗格来创建短信消息内容。[了解如何创建历程](../building-journeys/journey-gs.md)
+* 在 **历程**. 创建历程、添加短信活动并定义基本设置，然后浏览到 **[!UICONTROL 操作：短信]** 右窗格创建SMS/MMS消息的内容。 了解如何在中创建历程 [此页面](../building-journeys/journey-gs.md).
 
-* 在&#x200B;**营销活动**&#x200B;中：创建营销活动后，选择短信作为您的操作并定义基本设置。[了解如何创建营销活动](../campaigns/create-campaign.md#configure)
+* 在 **营销活动**. 创建营销策划，选择短信作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的短信/彩信消息。 了解如何在中创建营销活动 [此页面](../campaigns/create-campaign.md#configure).
 
+Adobe Journey Optimizer通过短信服务提供商（或短信网关提供商）发送文本消息。 在创建短信/彩信消息之前，请使用Journey Optimizer配置短信服务提供商。 [了解详情](sms-configuration.md)。
 
 >[!IMPORTANT]
 >
->如果您是首次创建短信，请确保已配置短信渠道。[了解详情](sms-configuration.md)。
+> 仅当与集成时，才支持使用Adobe Journey Optimizer发送多媒体消息服务(MMS) **Sinch**.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
 <img alt="潜在客户" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>创建短信消息</strong>
+<div><a href="create-sms.md"><strong>创建您的短信</strong>
 </div>
 <p>
 </td>
@@ -44,7 +46,7 @@ ht-degree: 100%
 <img alt="不频繁" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>发送短信消息</strong></a>
+<a href="send-sms.md"><strong>发送短信</strong></a>
 </div>
 <p></td>
 <td>
@@ -52,7 +54,7 @@ ht-degree: 100%
 <img alt="验证" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>短信选择退出管理</strong></a>
+<a href="sms-opt-out.md"><strong>选择退出管理</strong></a>
 </div>
 <p>
 </td>
