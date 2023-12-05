@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
+source-git-commit: 480fbae74ab444253a2ebff441192d2670dbc538
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -101,7 +101,7 @@ ht-degree: 30%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API参考</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API参考</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html?lang=zh-Hans" target="_blank">开发人员资源</a>
