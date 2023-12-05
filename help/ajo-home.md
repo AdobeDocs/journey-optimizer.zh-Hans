@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: ab63c39b07e6501c4fd9c5578d4e63730ae8a558
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 30%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 30%
 
 [![图像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB 多媒体消息服务(MMS)]
+>[!TAB SMS中的多媒体消息服务(MMS)]
 
 使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能当前仅适用于 Sinch。
 
@@ -39,22 +39,29 @@ ht-degree: 30%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a></a>
+    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
     <div><strong>快速入门指南</strong><br/>了解如何在Journey Optimizer中通过基于角色的个性化方法更快地实现目标。</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>用户界面</strong><br/>了解如何在Journey Optimizer中导航和优化您的体验。</div><br/>
+    <div><strong>用户界面</strong><br/>了解如何在Journey Optimizer中导航和优化您的体验。</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
     <div><strong>创建您的第一个历程</strong><br/>设计和编排个性化的全渠道历程，以协调营销外联与一对一客户参与。 
-    </div></td>
+    </div>
+    </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
     <div><strong>启动您的第一个营销活动</strong><br/>在Journey Optimizer中创建并启动您的第一个营销活动，向特定受众提供定向的一次性内容。</div>
     </td>
   </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="using/sms/create-sms.md#sms-content"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
 ## 浏览文档
@@ -62,40 +69,29 @@ ht-degree: 30%
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="70px">
-    <td>
+      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
       <strong>客户体验</strong><br/><a href="using/building-journeys/journey.md">历程</a> - <a href="using/campaigns/get-started-with-campaigns.md">营销活动</a> - <a href="using/landing-pages/get-started-lp.md">登陆页面</a> - <a href="using/reports/live-report.md">报表</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">决策管理</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="70px">
+      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>配置<br/>管理</strong><br/><a href="using/configuration/channel-surfaces.md">渠道表面</a> - <a href="using/configuration/about-data-sources-events-actions.md">配置历程</a>  - <a href="using/administration/permissions-overview.md">访问控制</a> - <a href="using/administration/sandboxes.md">沙盒管理</a>
     </td>
     <td>
-      <strong>配置和管理</strong><br/><a href="using/configuration/channel-surfaces.md">渠道表面</a> - <a href="using/configuration/about-data-sources-events-actions.md">配置历程</a>  - <a href="using/administration/permissions-overview.md">访问控制</a> - <a href="using/administration/sandboxes.md">沙盒管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
       <strong>通信渠道</strong><br/><a href="using/email/get-started-email.md">电子邮件</a> - <a href="using/sms/get-started-sms.md">短信</a> - <a href="using/in-app/get-started-in-app.md">应用程序内</a> - <a href="using/push/get-started-push.md">推送通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">直邮</a> - <a href="using/web/get-started-web.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="70px">
+      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
+      <strong>内容管理</strong><br/><a href="using/content-management/assets-essentials.md">资产/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a> 和 <a href="using/personalization/dynamic-content.md">动态</a> 内容 —  <a href="using/content-management/preview-test.md">测试和预览内容</a>
     </td>
     <td>
-      <strong>内容管理</strong><br/><a href="using/content-management/assets.md">资产/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a> 和 <a href="using/personalization/dynamic-content.md">动态</a> 内容 —  <a href="using/content-management/preview-test.md">测试和预览内容</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
       <strong>用户档案和受众</strong><br/><a href="using/audience/about-audiences.md">受众</a> - <a href="using/audience/get-started-profiles.md">配置文件</a> - <a href="using/audience/get-started-identity.md">身份</a> - <a href="using/audience/license-usage.md">许可证使用情况</a> - <a href="using/privacy/get-started-privacy.md">隐私管理</a>
     </td>
     <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="70px">
-    </td>
-    <td>
+      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
       <strong>数据管理</strong><br/><a href="using/data/get-started-schemas.md">架构</a> - <a href="using/data/get-started-datasets.md">数据集</a> - <a href="using/data/get-started-queries.md">查询</a>
     </td>
   </tr>
@@ -114,4 +110,3 @@ ht-degree: 30%
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
 <b>了解最新信息并提升您的Adobe Journey Optimizer体验！</b><br/>注册我们的季度新闻稿。 独家访问最新产品更新、引人入胜的故事、真实使用案例、宝贵提示等 — 所有这些信息每季度都会直接发送到您的收件箱。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即注册！</a></td></tr></table>
-
