@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## 新增功能？
 
-大致了解Journey Optimizer产品和文档中的最新增强功能！ 有关功能、改进和修复的完整列表，请查看详细信息 [发行说明](using/rn/release-notes.md).  请访问我们的网站，及时了解我们文档的最新更改 [文档更新页面](using/rn/documentation-updates.md).
+大致了解Journey Optimizer产品和文档中的最新增强功能！ 有关功能、改进和修复的完整列表，请查看详细信息 [发行说明](using/rn/release-notes.md). 请访问我们的网站，及时了解我们文档的最新更改 [文档更新页面](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ ht-degree: 30%
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>内容管理</strong><br/><a href="using/content-management/assets-essentials.md">资产/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a> 和 <a href="using/personalization/dynamic-content.md">动态</a> 内容 —  <a href="using/content-management/preview-test.md">测试和预览内容</a>
+      <strong>内容管理</strong><br/><a href="using/content-management/assets.md">资产/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a> 和 <a href="using/personalization/dynamic-content.md">动态</a> 内容 —  <a href="using/content-management/preview-test.md">测试和预览内容</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
