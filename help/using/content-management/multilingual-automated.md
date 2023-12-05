@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 多语言内容入门
-description: 进一步了解Journey Optimizer中的多语言内容
+description: 了解有关 Journey Optimizer 中的多语言内容的更多信息
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,14 +10,15 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 1%
+source-wordcount: '1315'
+ht-degree: 3%
 
 ---
 
-# 通过自动翻译创建多语言内容 {#multilingual-automated}
+# 使用自动翻译创建多语言内容 {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
@@ -88,6 +89,14 @@ ht-degree: 1%
    ![](assets/translation_project_3.png)
 
 1. 从列表中选择您的 **[!UICONTROL 目标区域设置]** 并选择哪个 **[!UICONTROL 翻译提供商]** 要用于每个区域设置。
+
+   **[!UICONTROL 翻译提供商]** 可以从以下位置访问设置： **[!UICONTROL 翻译]** 中的菜单 **[!UICONTROL 管理]** 菜单部分。
+
+   >[!NOTE]
+   >
+   >与翻译提供商的合同管理不在此功能范围内。 请确保您与指定的翻译合作伙伴签订了有效且有效的合同。
+   >
+   ></br>翻译提供商拥有已翻译内容质量的所有权。
 
 1. 单击 **[!UICONTROL 添加区域设置]** 完成将Target区域设置与正确的翻译提供商链接后。 然后，单击 **[!UICONTROL 保存]**.
 
