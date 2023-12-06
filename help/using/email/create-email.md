@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '908'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->如果您从历程发送电子邮件，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率预测发送消息的最佳时间，从而最大限度地提高参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
+>您可以使用发送时间优化选项根据历史打开率和点击率预测发送消息的最佳时间，以最大化参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
 
 有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md).
 
