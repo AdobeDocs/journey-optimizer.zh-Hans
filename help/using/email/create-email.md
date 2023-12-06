@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 8%
+source-wordcount: '919'
+ht-degree: 7%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="电子邮件创建"
->abstract="只需三个简单的步骤即可定义您的电子邮件参数。"
+>abstract="定义电子邮件主题行，然后打开Email Designer以创建电子邮件的内容。"
 
-在中创建电子邮件 [!DNL Journey Optimizer]，请按照以下步骤操作。
 
-## 在历程或营销策划中创建电子邮件 {#create-email-journey-campaign}
+## 添加电子邮件操作 {#email-action}
 
-添加 **[!UICONTROL 电子邮件]** 向历程或营销策划执行操作，并根据您的具体情况执行以下步骤。
+在中创建电子邮件 [!DNL Journey Optimizer]，添加 **[!UICONTROL 电子邮件]** 针对历程或营销策划的操作。 然后，根据您的情况执行以下步骤。
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-1. 在 **[!UICONTROL 页眉]** 的部分 **[!UICONTROL 编辑内容]** 屏幕， **[!UICONTROL 发件人姓名]**， **[!UICONTROL 发件人电子邮件]** 和 **[!UICONTROL 密件抄送]** 字段来自您选择的电子邮件表面。 [了解详情](email-settings.md) <!--check if same for journey-->
+   在 **[!UICONTROL 页眉]** 的部分 **[!UICONTROL 编辑内容]** 屏幕， **[!UICONTROL 发件人姓名]**， **[!UICONTROL 发件人电子邮件]** 和 **[!UICONTROL 密件抄送]** 字段是在您选择的电子邮件界面中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 您可以添加主题行。 在相应的字段中直接键入纯文本，或使用 [表达式编辑器](../personalization/personalization-build-expressions.md) 以个性化您的主题行。
+1. 为消息添加主题行。 要使用表达式编辑器配置和个性化主题行，请单击 **[!UICONTROL 打开个性化对话框]** 图标。 [了解详情](../personalization/personalization-build-expressions.md)
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以开始使用构建您的内容 [!DNL Journey Optimizer] 电子邮件设计器。 [了解详情](get-started-email-design.md)
+1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以访问Email Designer并开始构建内容。 [了解详情](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
