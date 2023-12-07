@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 多语言内容入门
-description: 进一步了解Journey Optimizer中的多语言内容
+description: 了解有关 Journey Optimizer 中的多语言内容的更多信息
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,10 +10,12 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+badge: label="Beta 版" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '660'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +27,7 @@ ht-degree: 1%
 
 * [多语言内容入门](multilingual-gs.md)
 * **[使用手动翻译创建多语言内容](multilingual-manual.md)**
-* [通过自动翻译创建多语言内容](multilingual-automated.md)
+* [使用自动翻译创建多语言内容](multilingual-automated.md)
 * [多语言营销活动报告](multilingual-report.md)
 
 >[!ENDSHADEBOX]

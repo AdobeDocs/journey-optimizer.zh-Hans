@@ -10,10 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+badge: label="Beta 版" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 3%
+source-wordcount: '480'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 3%
 
 ## “营销活动”选项卡 {#campaign-global-objectives}
 
-### 交付 {#delivery-global-objectives}
+### 投放 {#delivery-global-objectives}
 
 ![](assets/campaign_report_global_1.png)
 
@@ -55,7 +56,7 @@ ht-degree: 3%
 
 使用 **[!UICONTROL 营销活动目标]** 构件，您还可以选择将您的主要目标与其他指标进行比较。
 
-### 试验报表 {#experimentation-global-objectives}
+### 试验报告 {#experimentation-global-objectives}
 
 ![](assets/experimentation_report_3.png)
 

@@ -10,10 +10,12 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
+badge: label="Beta 版" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 26%
+source-wordcount: '135'
+ht-degree: 34%
 
 ---
 
@@ -25,7 +27,7 @@ ht-degree: 26%
 
 * **[多语言内容入门](multilingual-gs.md)**
 * [使用手动翻译创建多语言内容](multilingual-manual.md)
-* [通过自动翻译创建多语言内容](multilingual-automated.md)
+* [使用自动翻译创建多语言内容](multilingual-automated.md)
 * [多语言营销活动报告](multilingual-report.md)
 
 >[!ENDSHADEBOX]
