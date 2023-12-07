@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 61%
+ht-degree: 50%
 
 ---
 
@@ -33,18 +33,11 @@ ht-degree: 61%
 >title="选择一个收藏集。"
 >abstract="选择包含要考虑的优惠的收藏集。创建选择策略时必须执行此步骤。您可以使用收藏集根据自己的喜好对决策项进行分类和分组。例如，您可以创建一个收藏集，其中包含“类别”自定义属性中具有“瑜伽”值的所有决策项。"
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
 * [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * [创建决策项目](items.md)
-   * **[管理项目集合](collections.md)**
-* 配置项目的选择
-   * [创建决策规则](rules.md)
-   * [创建排名方法](ranking.md)
+* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - **[管理物料集合](collections.md)**
+* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
 * [创建选择策略](selection-strategies.md)
 * [创建决策策略](create-decision.md)
 

@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 18%
+ht-degree: 7%
 
 ---
 
 # 开始使用 Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
-本文档指南包括以下内容：
-
-* **[开始使用 Experience Decisioning](gs-experience-decisioning.md)**
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * [创建决策项目](items.md)
-   * [管理项目集合](collections.md)
-* 配置项目的选择
-   * [创建决策规则](rules.md)
-   * [创建排名方法](ranking.md)
+* **[Experience Decisioning入门](gs-experience-decisioning.md)**
+* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
+* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
 * [创建选择策略](selection-strategies.md)
 * [创建决策策略](create-decision.md)
 
@@ -45,7 +38,7 @@ Experience Decisioning通过提供称为“决策项目”的集中营销优惠�
 
 这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的集客界面中。
 
-**限制:**
+**限制：**
 
 * 决策策略仅适用于基于代码的体验营销活动。
 * 目前，频率上限在Experience Decisioning中不可用。

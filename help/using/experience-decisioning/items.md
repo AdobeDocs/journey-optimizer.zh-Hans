@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 32%
+source-wordcount: '1007'
+ht-degree: 26%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 32%
 >abstract="通过 Journey Optimizer，可创建营销优惠（称为决策项）并将其整理到集中目录和收藏集中。目前，所有创建的决策项都会被合并到一个“优惠”目录中。在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
 * [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * **[创建决策项目](items.md)**
-   * [管理项目集合](collections.md)
-* 配置项目的选择
-   * [创建决策规则](rules.md)
-   * [创建排名方法](ranking.md)
+* 管理您的决策项目： [配置物料目录](catalogs.md) - **[创建决策项目](items.md)** - [管理物料集合](collections.md)
+* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
 * [创建选择策略](selection-strategies.md)
 * [创建决策策略](create-decision.md)
 
@@ -103,7 +96,7 @@ ht-degree: 32%
 
    * 要将特定决策规则与决策项目关联，请选择 **[!UICONTROL 按规则]**，然后将所需规则从左窗格拖到中心区域。 [了解有关决策规则的更多信息](rules.md).
 
-   当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
+   在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
 
    >[!NOTE]
    >
@@ -130,6 +123,6 @@ ht-degree: 32%
 
   >[!IMPORTANT]
   >
-  >删除后，无法再访问决策项目及其内容。 此操作无法撤销。如果决策项用在收藏集或决策中，则无法删除该决策项。 必须先从任何对象中删除决策项。
+  >删除后，无法再访问决策项目及其内容。 此操作无法撤消。 如果决策项用在收藏集或决策中，则无法删除该决策项。 必须先从任何对象中删除决策项。
 
 * **[!UICONTROL 存档]**：将决策项状态设置为 **[!UICONTROL 已存档]**. 该决策项目仍然可以从列表中获得，但您不能将其状态恢复为 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已批准]**. 您只能复制或删除它。

@@ -8,30 +8,22 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 18%
+source-wordcount: '394'
+ht-degree: 10%
 
 ---
 
 # Experience Decisioning用例 {#experience-decisioning-uc}
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
 * [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * [创建决策项目](items.md)
-   * [管理项目集合](collections.md)
-* 配置项目的选择
-   * [创建决策规则](rules.md)
-   * [创建排名方法](ranking.md)
+* 管理您的决策项目： [配置物料目录](catalogs.md) -[创建决策项目](items.md) - [管理物料集合](collections.md)
+* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
 * [创建选择策略](selection-strategies.md)
 * [创建决策策略](create-decision.md)
-* **[通过用例学习](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
 

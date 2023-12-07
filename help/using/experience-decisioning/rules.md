@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 40%
+ht-degree: 31%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 40%
 >title="创建决策规则"
 >abstract="决策规则使您可通过直接在决策项级别或在特定选择策略中应用约束而定义决策项的受众。这样可精确地控制应向谁显示哪些项。"
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
 * [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * [创建决策项目](items.md)
-   * [管理项目集合](collections.md)
-* 配置项目的选择
-   * **[创建决策规则](rules.md)**
-   * [创建排名方法](ranking.md)
+* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
+* 配置项目的选择： **[创建决策规则](rules.md)** - [创建排名方法](ranking.md)
 * [创建选择策略](selection-strategies.md)
 * [创建决策策略](create-decision.md)
 

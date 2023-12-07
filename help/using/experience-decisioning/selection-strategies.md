@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 26%
+source-wordcount: '773'
+ht-degree: 19%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 26%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用决策规则"
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
 * [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * [创建决策项目](items.md)
-   * [管理项目集合](collections.md)
-* 配置项目的选择
-   * [创建决策规则](rules.md)
-   * [创建排名方法](ranking.md)
+* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
+* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
 * **[创建选择策略](selection-strategies.md)**
 * [创建决策策略](create-decision.md)
 
@@ -83,6 +76,8 @@ ht-degree: 26%
    ![](assets/strategy-create-screen.png)
 
 1. 选择 [收藏集](collections.md) 包含要考虑的选件。
+
+1. 选择选件 [收藏集](collections.md) 包含要考虑的选件。
 
 1. 使用 **[!UICONTROL 资格]** 用于限制此选择策略的选件选择的字段。
 

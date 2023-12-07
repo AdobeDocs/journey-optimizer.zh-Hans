@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 20%
+source-wordcount: '1290'
+ht-degree: 14%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 20%
 >abstract="决策策略利用体验决策引擎根据受众选取最适合投放的内容。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="关于体验决策"
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
+>[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
 * [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目
-   * [配置项目目录](catalogs.md)
-   * [创建决策项目](items.md)
-   * [管理项目集合](collections.md)
-* 配置项目的选择
-   * [创建决策规则](rules.md)
-   * [创建排名方法](ranking.md)
+* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
+* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
 * [创建选择策略](selection-strategies.md)
 * **[创建决策策略](create-decision.md)**
 
@@ -86,7 +79,7 @@ ht-degree: 20%
 
    ![](assets/decision-code-based-details.png)
 
-1. 选择要返回的项目数。 例如，如果选择 2，则将为当前表面显示最佳的 2 个合格优惠。单击 **[!UICONTROL 下一个]**
+1. 选择要返回的项目数。 例如，如果选择2，则会为当前曲面显示最佳的2个合格选件。 单击 **[!UICONTROL 下一个]**
 
 1. 使用 **[!UICONTROL 添加策略]** 按钮定义决策策略的选择策略。 每个策略包括与资格限制关联的优惠收藏集以及确定要显示的优惠的排名方法。 [了解详情](selection-strategies.md)
 
