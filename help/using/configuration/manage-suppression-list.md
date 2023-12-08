@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 23%
+source-wordcount: '1599'
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 23%
 >
 >Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
 
-此外，您还可以利用Journey Optimizer **禁止显示REST API** 使用隐藏和允许列表控制传出消息。 [了解如何使用禁止REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+此外，您还可以利用Journey Optimizer **禁止显示REST API** 使用隐藏和允许列表控制传出消息。 [了解如何使用禁止REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 访问禁止显示列表 {#access-suppression-list}
 
@@ -138,7 +138,7 @@ ht-degree: 23%
    >
    >确保输入有效的电子邮件地址（例如 abc@company.com）或域（例如 abc.company.com）。
 
-1. （可选）输入原因。 在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。
+1. （可选）输入原因。 此字段允许包含32到126之间的所有ASCII可打印字符。
 
 1. 使用 **[!UICONTROL 提交]** 按钮确认。
 
@@ -226,7 +226,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 例如，在互联网服务提供商(ISP)中断的情况下，电子邮件被错误地标记为硬退回，因为它们无法成功传递给收件人。 必须从禁止显示列表中删除这些电子邮件地址。
 
-要检索这些地址，请根据中断的上下文运行带有自定义参数的特定查询。 [在此示例中了解更多信息](../data/datasets-query-examples.md#isp-outage-query).
+要检索这些地址，请根据中断的上下文运行带有自定义参数的特定查询。 [在此示例中了解详情](../data/datasets-query-examples.md#isp-outage-query).
 
 确定受影响的电子邮件地址后，请筛选隐藏列表以显示它们。 例如，如果ISP在2022年11月11日至2022年11月13日期间在 **test.com** 域，在该时间范围内筛选添加到禁止列表的地址，如下所示：
 
