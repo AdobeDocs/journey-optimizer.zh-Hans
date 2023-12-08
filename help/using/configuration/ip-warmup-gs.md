@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP，可投放性
 hide: true
 hidefromtoc: true
+badge: label="Beta 版"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # 开始使用 IP 预热计划 {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ ht-degree: 100%
 >IP 预热功能目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 借助 [!DNL Journey Optimizer]，您可以直接在用户界面中以标准化的高效方式轻松执行 IP 预热工作流程，并遵循最佳实践以实现卓越的可投放性。
+
+➡️ [在此视频中了解如何创建和执行IP预热计划](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ Benefits
 1. 在 [!DNL Journey Optimizer] 中创建 IP 预热计划，并上传在可投放性顾问的帮助下准备的 Excel 工作表。[了解详情](ip-warmup-plan.md)
 
 1. 为计划的每个阶段选择一个营销活动并相应地激活运行。[了解详情](ip-warmup-execution.md)
+
+## 操作方法视频 {#video}
+
+了解如何创建和执行IP预热计划。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

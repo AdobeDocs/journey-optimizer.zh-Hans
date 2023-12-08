@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP、组、子域、可投放性
 hide: true
 hidefromtoc: true
+badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 8%
+source-wordcount: '1522'
+ht-degree: 7%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 8%
 
 本文档指南包括以下内容：
 
-* [开始使用 IP 预热](ip-warmup-gs.md)
+* [IP预热入门](ip-warmup-gs.md)
 * [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* **[创建 IP 预热计划](ip-warmup-plan.md)**
+* **[创建IP预热计划](ip-warmup-plan.md)**
 * [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
