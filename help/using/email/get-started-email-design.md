@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '479'
+workflow-type: ht
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 在“电子邮件设计器”主页上，从以下选项中选择设计电子邮件的方式：
 
-   * 通过电子邮件设计器的界面&#x200B;**从头开始设计电子邮件**，并利用 [Adobe Experience Manager Assets ](../content-management/assets.md) 中的图像。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
+   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../content-management/assets.md) 中的图像，**从头开始设计电子邮件**。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
 
    * 在电子邮件设计器中直接&#x200B;**编码或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 
