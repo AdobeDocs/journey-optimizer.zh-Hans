@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '709'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Cust
 
 通过左侧菜单&#x200B;**[!UICONTROL 资源]**&#x200B;部分的 [!DNL Adobe Journey Optimizer]，可直接访问 [!DNL Adobe Experience Manager Assets]。
 
-了解有关 [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
+了解有关 [Journey Optimizer 和 Adobe Experience Manager Assets](../content-management/assets.md) 的更多信息。
 
 
 ## Adobe Stock {#integration-stock}
