@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 发行说明2023
+title: 2023 年发行说明
 description: Journey Optimizer 2023 年发行说明
 feature: Release Notes
 topic: Content Management
@@ -11,13 +11,13 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2023 年发行说明 {#release-notes-2023}
 
-本页列出了 [!DNL Journey Optimizer] 于 2023 年发布的功能和改进。
+本页列出了于 2023 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
 ## 2023 年 9 月发行说明 {#sept-rn-2023}
 

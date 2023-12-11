@@ -8,15 +8,15 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文档 {#cjm-documentation}
 
-## 新增功能？
+## 新增功能：
 
-大致了解Journey Optimizer产品和文档中的最新增强功能！ 有关功能、改进和修复的完整列表，请查看详细信息 [发行说明](using/rn/release-notes.md). 请访问我们的网站，及时了解我们文档的最新更改 [文档更新页面](using/rn/documentation-updates.md).
+概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细信息 [发行说明](using/rn/release-notes.md). 要及时了解我们文档的最新更改，请访问[文档更新页面](using/rn/documentation-updates.md)。
 
 >[!BEGINTABS]
 
@@ -40,11 +40,11 @@ ht-degree: 30%
   <tr style="border: 0;">
     <td>
     <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>快速入门指南</strong><br/>了解如何在Journey Optimizer中通过基于角色的个性化方法更快地实现目标。</div>
+    <div><strong>快速入门指南</strong><br/>了解如何在 Journey Optimizer 中通过基于角色的个性化方法更快地实现目标。</div>
     </td>
     <td>
     <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>用户界面</strong><br/>了解如何在Journey Optimizer中导航和优化您的体验。</div>
+    <div><strong>用户界面</strong><br/>了解如何在 Journey Optimizer 中导航和优化您的体验。</div>
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
@@ -53,7 +53,7 @@ ht-degree: 30%
     </td>
     <td>
     <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>启动您的第一个营销活动</strong><br/>在Journey Optimizer中创建并启动您的第一个营销活动，向特定受众提供定向的一次性内容。</div>
+    <div><strong>启动您的第一个营销活动</strong><br/>在 Journey Optimizer 中创建并启动您的第一个营销活动，向特定受众提供定向的一次性内容。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -101,12 +101,12 @@ ht-degree: 30%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API参考</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 参考</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html?lang=zh-Hans" target="_blank">开发人员资源</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans" target="_blank">文档</a> - <a href="https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html" target="_blank">开发人员资源</a>
 </td>
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>了解最新信息并提升您的Adobe Journey Optimizer体验！</b><br/>注册我们的季度新闻稿。 独家访问最新产品更新、引人入胜的故事、真实使用案例、宝贵提示等 — 所有这些信息每季度都会直接发送到您的收件箱。 <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即注册！</a></td></tr></table>
+<b>了解最新信息并提升您的 Adobe Journey Optimizer 体验！</b><br/>订阅我们的季度新闻稿。获取专属的最新产品更新、引人入胜的故事、真实使用案例、颇有帮助的提示等。所有这些信息每季度都会直接发送到您的收件箱。<a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即注册！</a></td></tr></table>
