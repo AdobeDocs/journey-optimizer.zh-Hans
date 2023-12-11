@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
    + [早期发行说明](using/rn/e-release-notes.md)
    + [最新发行说明](using/rn/release-notes.md)
    + 过往发行说明 {#previous-rn-new}
-      + [2023版发行说明](using/rn/release-notes-2023.md)
+      + [2023 年发行说明](using/rn/release-notes-2023.md)
       + [2022 年发行说明](using/rn/release-notes-2022.md)
       + [2021 年发行说明](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
@@ -216,12 +216,12 @@ ht-degree: 97%
       + [推送通知数据流](using/push/push-gs.md)
       + [配置推送通知渠道](using/push/push-configuration.md)
       + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
-+ 短信/彩信渠道{#sms}
-   + [短信入门](using/sms/get-started-sms.md)
++ 短信/MMS 渠道{#sms}
+   + [文本消息入门](using/sms/get-started-sms.md)
    + [创建文本消息](using/sms/create-sms.md)
    + [创建 MMS 消息](using/sms/create-mms.md)
-   + [检查并发送短信](using/sms/send-sms.md)
-   + [管理短信选择退出](using/sms/sms-opt-out.md)
+   + [检查并发送文本消息](using/sms/send-sms.md)
+   + [管理文本消息选择退出](using/sms/sms-opt-out.md)
    + [配置短信渠道](using/sms/sms-configuration.md)
    + [设置短信子域](using/sms/sms-subdomains.md)
 + 直邮 {#direct-mail}
@@ -235,7 +235,7 @@ ht-degree: 97%
       + [Web 渠道先决条件](using/web/web-prerequisites.md)
       + [配置 Web 子域](using/web/web-delegated-subdomains.md)
    + [创建 Web 体验](using/web/create-web.md)
-   + 创作网页 {#author-web-pages}
+   + 编写 Web 页面{#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
       + [监测 Web 活动](using/web/monitor-web-campaigns.md)
@@ -269,7 +269,7 @@ ht-degree: 97%
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
       + [多语言营销活动报告](using/content-management/multilingual-report.md)
    + 资源/图像{#assets-images}
-      + [使用Experience Manager Assets](using/content-management/assets.md)
+      + [使用 Experience Manager Assets](using/content-management/assets.md)
       + [使用 Adobe Stock](using/content-management/stock.md)
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
@@ -543,7 +543,7 @@ ht-degree: 97%
    + [配置频率规则](using/configuration/frequency-rules.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
-      + 与外部系统集成 {#external-systems}
+      + 与外部系统集成{#external-systems}
          + [历程与外部系统的集成](using/configuration/external-systems.md)
          + [API 上限](using/configuration/capping.md)
          + [API 限制](using/configuration/throttling.md)
@@ -567,8 +567,8 @@ ht-degree: 97%
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
          + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
    + [源](using/start/get-started-sources.md)
-+ 访问控制 {#access-control}
-   + 访问控制概述 {#privacy}
++ 访问控制{#access-control}
+   + 访问控制概述{#privacy}
       + [用户管理入门](using/administration/permissions-overview.md)
       + [内置角色](using/administration/ootb-product-profiles.md)
       + [内置权限](using/administration/ootb-permissions.md)
