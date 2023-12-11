@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 98%
 ## 2023 年 11 月 {#nov-2023}
 
 * 限制所有自定义操作的护栏已从每 30 秒 150,000 次调用更改为每 1 分钟 300,000 次调用。此外，默认上限不再适用于每个端点。现在按主机和沙盒执行。例如，在沙盒上，如果您有两个具有相同主机的端点（例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`），上限将适用于 adobe.com 主机下的所有端点。“endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。[了解详情](../action/about-custom-action-configuration.md)
-* 电子邮件营销活动的新状态已添加到营销活动状态列表。 [了解详情](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
-* 更新了Adobe Experience Platform受众入门部分，以反映可用的受众评估方法以及如何选择它们。 [了解详情](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 添加了新子部分，以指定在您使用流式分段评估方法构建受众时应避免的事件。 [了解详情](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
+* 向营销活动状态列表添加了一种新的电子邮件营销活动状态。[了解详情](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* 更新了 Adobe Experience Platform 受众入门部分，以反映可用的受众评估方法以及如何进行选择。[了解详情](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* 添加了新的小节以指明在您使用流式分段评估方法构建受众时应避免的事件。[了解详情](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## 2023 年 10 月 {#oct-2023}
 
