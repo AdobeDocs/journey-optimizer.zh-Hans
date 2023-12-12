@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 52%
+source-wordcount: '880'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 52%
 >title="选择营销活动受众"
 >abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
 
-[!DNL Journey Optimizer]允许您使用 Real-Time Customer Profile 数据直接从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单构建并利用 Adobe Experience Platform 受众，并将其用于历程或活动。在中了解详情 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
+[!DNL Journey Optimizer] 允许您直接从使用实时客户档案数据构建和利用Adobe Experience Platform受众。 **[!UICONTROL 受众]** 菜单，并将它们用于您的历程或营销策划。 在中了解详情 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
 
 ## 在 [!DNL Journey Optimizer] 中使用受众 {#segments-in-journey-optimizer}
 
@@ -59,11 +59,11 @@ ht-degree: 52%
 
 当新数据流入系统时，受众的用户档案列表会实时保持最新。
 
-流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人的用户档案数据发生更改时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
+流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人资料数据发生变化时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
->确保使用正确的事件作为流式分段标准。 [了解详情](#open-and-send-event-guardrails)
+>确保使用正确的事件作为流式分段标准。 [了解详情](#streaming-segmentation-events-guardrails)
 
 +++
 

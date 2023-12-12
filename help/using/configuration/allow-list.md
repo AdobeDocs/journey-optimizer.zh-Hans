@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1143'
 ht-degree: 15%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->此功能仅适用于电子邮件渠道。它在生产沙盒和非生产沙盒上可用。
+>此功能仅适用于电子邮件渠道。 它在生产沙盒和非生产沙盒上可用。
 
 例如，在可能出现错误的非生产实例上，该允许列表可确保不会出现将不需要的消息发送到真实客户地址的风险，从而提供了一个用于测试的安全环境。
 
 此外，当允许列表处于活动状态但为空时，不会发出任何邮件。 因此，如果您遇到一些严重问题，可以使用此功能停止所有传出通信 [!DNL Journey Optimizer] 直到你解决这个问题。 了解更多关于 [允许列表逻辑](#logic).
 
-此外，您还可以利用Journey Optimizer **禁止显示REST API** 使用隐藏和允许列表控制传出消息。 [了解如何使用禁止REST API](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 访问允许列表 {#access-allowed-list}
 
