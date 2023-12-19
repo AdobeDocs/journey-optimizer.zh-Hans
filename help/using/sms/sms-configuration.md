@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -36,17 +36,17 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 >要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 要了解有关权限的更多信息，请参阅 [此页面](../administration/high-low-permissions.md#administration-permissions).
 >
 
-## 创建新的API凭据 {#create-api}
+## 创建新 API 凭据 {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用Journey Optimizer配置短信/彩信提供商"
->abstract="Adobe Journey Optimizer通过短信/彩信服务提供商发送短信。 选择您的提供商，并填写您的API凭据。"
+>title="使用 Journey Optimizer 配置 SMS/MMS 供应商"
+>abstract="Adobe Journey Optimizer 通过 SMS/MMS 服务提供商发送短信。选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer配置短信/彩信提供商"
->abstract="在发送文本消息(SMS/MMS)之前，必须将提供程序设置与Journey Optimizer集成。 完成后，您需要创建短信/彩信表面。 这些步骤必须由Adobe Journey Optimizer系统管理员执行。"
+>title="使用 Journey Optimizer 配置 SMS/MMS 供应商"
+>abstract="在发送短信 (SMS/MMS) 之前，您必须将提供商设置与 Journey Optimizer 集成。完成后，您需要创建一个 SMS/MMS 表面。必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信渠道表面"
 
 >[!CONTEXTUALHELP]
@@ -104,8 +104,8 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
->abstract="使用此表面选择文本消息的类型：促销消息的营销型（需要用户同意），或非商业消息的事务型（如密码重置）。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="营销文本消息中的选择退出"
+>abstract="选择使用此表面的短信的类型：营销型的推广短信（需要用户同意）或交易型的非商业短信，如密码重置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择退出营销短信消息"
 
 配置短信/彩信渠道后，您必须创建一个渠道平面以便能够从中发送短信消息 **[!DNL Journey Optimizer]**.
 

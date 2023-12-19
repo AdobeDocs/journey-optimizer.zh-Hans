@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="电子邮件创建"
->abstract="定义电子邮件主题行，然后打开Email Designer以创建电子邮件的内容。"
+>title="创建电子邮件"
+>abstract="定义电子邮件主题行，然后打开电子邮件设计器以创建电子邮件的内容。"
 
 
 ## 添加电子邮件操作 {#email-action}
