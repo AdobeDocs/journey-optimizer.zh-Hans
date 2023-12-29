@@ -10,7 +10,7 @@ keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '769'
 ht-degree: 91%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 91%
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 * `{JO_HOST}`：[!DNL Journey Optimizer]网关 URL
-* `{BASE_PATH}`：API 的入口点。
+* `{BASE_PATH}` ：API的入口点。
 * `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
 在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。

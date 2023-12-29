@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 3%
+source-wordcount: '1016'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 +++
 
-+++ _experience（体验）
++++ 体验(_E)
 
 **字段：** 体验(_E)
 **类型：** 对象

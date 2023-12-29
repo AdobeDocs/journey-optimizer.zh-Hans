@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置统一事件
+title: 配置单一事件
 description: 了解如何配置单一事件
 feature: Journeys, Events
 topic: Administration
@@ -11,19 +11,19 @@ keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: '1606'
+ht-degree: 13%
 
 ---
 
-# 配置统一事件 {#configure-an-event}
+# 配置单一事件 {#configure-an-event}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="单一事件"
 >abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。单一事件链接到特定配置文件。它们可以基于规则，也可以由系统生成。"
 
-单一事件链接到特定配置文件。它们可以基于规则，也可以由系统生成。阅读有关单一事件的更多信息 [本节](../event/about-events.md).
+单一事件链接到特定配置文件。它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件的更多信息 [本节](../event/about-events.md).
 
 以下是配置新事件的首要步骤：
 
@@ -53,7 +53,7 @@ ht-degree: 15%
 
 1. 使用此事件的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 图标，以显示使用此事件的旅程列表。
 
-1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（通常称为有效负载）。 然后，您便能够在旅程中使用这些信息。请参阅[此章节](../event/about-creating.md#define-the-payload-fields)。
+1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（通常称为有效负载）。 然后，您便能够在旅程中使用这些信息。请参阅[此小节](../event/about-creating.md#define-the-payload-fields)。
 
    ![](assets/jo-event5.png)
 
@@ -72,9 +72,9 @@ ht-degree: 15%
    >
    >如果在创建事件后使用新的枚举值修改架构，则需要按照以下步骤将更改应用于现有事件：从事件字段中取消选择枚举字段，确认选择，然后再次选择枚举字段。 此时将显示新的枚举值。
 
-1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此章节](../event/about-creating.md#select-the-namespace)。
+1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
 
-1. 定义用户档案标识符：从有效负荷字段中选择一个字段，或定义一个公式以标识与事件关联的个人。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。 请参阅[此章节](../event/about-creating.md#define-the-event-key)。
+1. 定义用户档案标识符：从有效负荷字段中选择一个字段，或定义一个公式以标识与事件关联的个人。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
 
    ![](assets/jo-event7.png)
 
@@ -102,7 +102,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段的列表中，以便 [!DNL Journey Optimizer] 可以识别事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此章节](../event/about-creating.md#preview-the-payload)。
+   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段的列表中，以便 [!DNL Journey Optimizer] 可以识别事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
 
 1. 选择完所需的字段后，单击 **[!UICONTROL 确定]** 或按 **[!UICONTROL 输入]**.
 
@@ -159,7 +159,8 @@ ht-degree: 15%
 
    ![](assets/journey20.png)
 
-当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与命名空间关联(请参阅 [本节](../event/about-creating.md#select-the-namespace))，密钥可用于对Adobe Experience Platform执行查询。 请参阅[此页](../building-journeys/about-journey-activities.md#orchestration-activities)。密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与命名空间关联(请参阅 [本节](../event/about-creating.md#select-the-namespace))，密钥可用于对Adobe Experience Platform执行查询。 请参阅 [此页面](../building-journeys/about-journey-activities.md#orchestration-activities).
+密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 您还可以访问高级表达式函数(**[!UICONTROL 高级模式]**)。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅此[页面](../building-journeys/expression/expressionadvanced.md)。
 

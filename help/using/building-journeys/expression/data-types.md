@@ -10,7 +10,7 @@ keywords: 表达式，数据，数据类型，历程
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '616'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ JSON格式：数字
 
 **描述**
 
-小数. 它表示一个浮动值：
+十进制数。 它表示一个浮动值：
 
 * 双精度型的最大正有限值，(2-2^-52)x2^1023
 * double类型的最小正正规值，2-1022

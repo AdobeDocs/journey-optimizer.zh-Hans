@@ -9,7 +9,7 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 +++**技术详细信息**
 
-要计算/更新分配，我们使用 **Bayes定理**. 对于每个选件 ***i***，我们要计算它们的***P(??i |数据)***，即对于每个选件 ***i***，奖励值出现的概率 **??i** 根据我们目前为该选件收集的数据，
+要计算/更新分配，我们使用 **Bayes定理**. 对于每个选件 ***i***，我们要计算它们的***P(??i | 数据)***，即对于每个选件 ***i***，奖励值出现的概率 **??i** 根据我们目前为该选件收集的数据，
 
 根据贝叶斯定理：
 

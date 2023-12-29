@@ -11,8 +11,8 @@ keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 13%
+source-wordcount: '1347'
+ht-degree: 11%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 13%
 
 * 对于使用“读取受众”活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（读取受众、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
 
-* 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+* 以读取受众、受众资格或业务事件活动开始的历程中，无法使用体验事件字段组。
 
 * 目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) “入门”作为私人测试版提供。 有关更多信息，请与您的 Adobe 代表联系。
 
@@ -51,7 +51,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为私有测试版提供。
+   >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为 Private Beta 版提供。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -118,7 +118,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性读取受众历程在历程执行30天后会变为“已完成”状态。 对于计划的读取受众，此期限为上次执行后的 30 天。
+>一次性读取受众历程在历程执行30天后会变为“已完成”状态。 对于计划的读取受众，此期限为上次执行后的30天。
 
 ## 测试并发布历程 {#testing-publishing}
 
@@ -170,7 +170,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience2.png)
 
-**并集**
+**Union**
 
 历程允许您创建N个分支，并在分段后将它们连接在一起。
 

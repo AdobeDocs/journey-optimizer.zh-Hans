@@ -9,8 +9,8 @@ keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 17%
+source-wordcount: '723'
+ht-degree: 18%
 
 ---
 

@@ -11,7 +11,7 @@ keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1052'
 ht-degree: 36%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 36%
 
 有关打开次数和点击次数的报告，请参见 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 
-## URL跟踪 {#url-tracking}
+## URL 跟踪 {#url-tracking}
 
 通常 [URL跟踪](email-settings.md#url-tracking) 在曲面级别进行管理，但不支持配置文件属性。 目前，唯一的方法是 [个性化URL](../personalization/personalization-syntax.md#perso-urls) 在email designer中。
 

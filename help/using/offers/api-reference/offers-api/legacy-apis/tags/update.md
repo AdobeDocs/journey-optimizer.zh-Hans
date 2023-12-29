@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-|参数 |描述 |示例 | | `{ENDPOINT_PATH}` |存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` |标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` |要更新的标记的实例ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| 参数 | 描述 | 示例 | | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | 标记所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | 要更新的标记的实例ID。 | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **请求**
 

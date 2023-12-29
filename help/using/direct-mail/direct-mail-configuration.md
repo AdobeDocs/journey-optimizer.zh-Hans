@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 32%
+source-wordcount: '918'
+ht-degree: 31%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 32%
 
 1. 要加密文件，请将加密密钥复制并粘贴到 **[!UICONTROL PGP/GPG加密密钥]** 字段。
 
-1. 选择&#x200B;**[!UICONTROL 提交]**。文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
+1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -121,7 +121,7 @@ ht-degree: 32%
 
 直邮表面还必须包括文件路由配置，该配置定义了将导出直邮文件的服务器。
 
-1. 创建渠道表面. [了解详情](../configuration/channel-surfaces.md)
+1. 创建渠道表面。 [了解详情](../configuration/channel-surfaces.md)
 
 1. 选择 **[!UICONTROL 直邮]** 渠道。
 

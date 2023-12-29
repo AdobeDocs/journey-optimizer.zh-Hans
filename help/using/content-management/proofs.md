@@ -1,17 +1,18 @@
 ---
-title: 发送电子邮件校样
+title: 发送电子邮件验证
 description: 了解如何发送电子邮件校样。
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+exl-id: e742c04e-2987-4466-84af-bdaf4d714552
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 5%
 
 ---
 
-# 发送电子邮件校样 {#send-proofs}
+# 发送电子邮件验证 {#send-proofs}
 
 利用校样这种特定的消息，可在将消息发送给主受众之前对消息进行测试。 校样的收件人负责批准消息：呈现、内容、个性化设置、配置。
 

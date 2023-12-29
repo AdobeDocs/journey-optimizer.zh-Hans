@@ -11,8 +11,8 @@ keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 26%
+source-wordcount: '1752'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 
 要通过历程发送消息，需要以下配置：
 
-1. **配置事件**：如果您要在收到事件时统一触发历程，则需要配置事件。 您可以定义预期信息及其处理方式。 此步骤由&#x200B;**技术用户**&#x200B;执行。[了解更多信息](../event/about-events.md)。
+1. **配置事件**：如果您要在收到事件时统一触发历程，则需要配置事件。 您可以定义预期信息及其处理方式。 此步骤由 **技术用户**. [了解更多信息](../event/about-events.md)。
 
    ![](assets/jo-event7bis.png)
 
@@ -35,11 +35,11 @@ ht-degree: 26%
 
    ![](assets/segment2.png)
 
-1. **配置数据源**：您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。[了解详情](../datasource/about-data-sources.md)
+1. **配置数据源**：您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由 **技术用户**. [了解详情](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
-1. **配置操作**：如果您使用第三方系统来发送消息，则可以创建自定义操作。 在本节中了解详情 [部分](../action/action.md). 此步骤由&#x200B;**技术用户**&#x200B;执行。如果您使用Journey Optimizer内置消息功能，则只需将渠道操作添加到历程并设计内容即可。
+1. **配置操作**：如果您使用第三方系统来发送消息，则可以创建自定义操作。 在本节中了解详情 [部分](../action/action.md). 此步骤由 **技术用户**. 如果您使用Journey Optimizer内置消息功能，则只需将渠道操作添加到历程并设计内容即可。
 
    ![](assets/custom2.png)
 
@@ -48,7 +48,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="历程"
->abstract="设计客户历程，以提供个性化的情境式体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
+>abstract="设计客户历程以营造个性化的上下文体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
 
 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 提供了以下两个选项卡：
 
@@ -65,11 +65,11 @@ ht-degree: 26%
 
 ![](assets/journeys-dashboard.png)
 
-**浏览**：此选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。有关更多信息，请参见[此章节](../start/user-interface.md#filter-lists)。
+**浏览**：此选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以复制或删除项目。 有关更多信息，请参见[此章节](../start/user-interface.md#filter-lists)。
 
 ![](assets/journeys-browse.png)
 
-在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;中筛选历程。类型可以是： **[!UICONTROL 单一事件]**， **[!UICONTROL 受众资格]**， **[!UICONTROL 读取受众]**， **[!UICONTROL 业务事件]** 或 **[!UICONTROL 突发]**.
+在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本过滤器]**&#x200B;中筛选历程。类型可以是： **[!UICONTROL 单一事件]**， **[!UICONTROL 受众资格]**， **[!UICONTROL 读取受众]**， **[!UICONTROL 业务事件]** 或 **[!UICONTROL 突发]**.
 
 您可以从&#x200B;**[!UICONTROL 活动过滤器]**&#x200B;和&#x200B;**[!UICONTROL 数据过滤器]**&#x200B;中选择仅显示使用特定事件、字段组或操作的历程。此外， **[!UICONTROL 发布过滤器]** 允许您选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
 
@@ -83,7 +83,7 @@ ht-degree: 26%
 
 ## 构建历程{#jo-build}
 
-此步骤由 **商业用户**. 这是创建历程的位置。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
+此步骤由 **商业用户**. 这是创建历程的位置。 结合不同的事件、编排和操作活动，构建多步骤跨渠道方案。
 
 以下是通过历程发送消息的主要步骤：
 

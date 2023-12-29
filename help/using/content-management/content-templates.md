@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 12%
+source-wordcount: '1105'
+ht-degree: 11%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 12%
 
    * [编码或复制粘贴原始HTML](../email/code-content.md) 直接导入Email Designer。
 
-   * 从文件或 .zip 文件夹[导入现有 HTML 内容](../email/existing-content.md)。
+   * [导入现有HTML内容](../email/existing-content.md) 从文件或.zip文件夹中。
 
    * 使用内置或自定义模板列表中的现有内容。 有关在电子邮件中使用内容模板的步骤，请参阅 [本节](../email/use-email-templates.md).
 

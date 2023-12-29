@@ -11,8 +11,8 @@ badge: label="Beta 版"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 19%
+source-wordcount: '449'
+ht-degree: 12%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 19%
 
 ## 内容试验先决条件 {#experiment-prerequisites}
 
-要为基于代码的渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在应用程序实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"} 也包含在您的报表配置中。
+要为基于代码的渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在应用程序实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} 也包含在您的报表配置中。
 
 换言之，在配置实验报告时，如果添加的数据集不在应用程序数据流中，则应用程序数据将不会显示在内容实验报告中。
 

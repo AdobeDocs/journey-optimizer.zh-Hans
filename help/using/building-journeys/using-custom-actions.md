@@ -11,8 +11,8 @@ keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 25%
+source-wordcount: '399'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 25%
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据管理](../action/action-privacy.md).
+* [数据治理](../action/action-privacy.md).
 * [同意](../action/consent.md).
 
 ## URL 配置

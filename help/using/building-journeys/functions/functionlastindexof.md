@@ -9,8 +9,8 @@ keywords: lastIndexOf，函数，表达式，历程
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 18%
+source-wordcount: '67'
+ht-degree: 16%
 
 ---
 
@@ -45,6 +45,6 @@ ht-degree: 18%
 
 返回3。
 
-解释:
+说明：
 
 在“Hello”中，“l”的最后一次出现在位置3。

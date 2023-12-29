@@ -8,8 +8,8 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 18%
+source-wordcount: '833'
+ht-degree: 17%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 18%
 >
 >如果您是首次创建 Web 体验，请确保遵循[此部分](web-prerequisites.md)中叙述的先决条件。
 
-1. 创建营销活动. [了解详情](../campaigns/create-campaign.md)
+1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
 
 1. 选择 **[!UICONTROL Web]** 操作。
 
-1. 定义 Web 表面.
+1. 定义Web表面。
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ ht-degree: 18%
 
    ![](assets/web-pages-matching-rule.png)
 
-1. 保存更改。该规则显示在 **[!UICONTROL 创建营销活动]** 屏幕。
+1. 保存您的更改。该规则显示在 **[!UICONTROL 创建营销活动]** 屏幕。
 
    ![](assets/web-pages-matching-rule-example.png)
 

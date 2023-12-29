@@ -10,8 +10,8 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: ht
-source-wordcount: '917'
+workflow-type: tm+mt
+source-wordcount: '911'
 ht-degree: 100%
 
 ---

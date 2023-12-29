@@ -11,14 +11,14 @@ keywords: 历程，标记
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 42%
+source-wordcount: '229'
+ht-degree: 30%
 
 ---
 
 # 管理历程中的标记 {#journey_tags}
 
-作为Journey Optimizer的从业者，您可以使用标记整理您的历程。 标记是用于进行对象分类的一种快速而简单的方法，能够改进搜索。
+作为Journey Optimizer的从业者，您可以使用标记整理您的历程。 标记是对对象进行分类以改进搜索的一种快速而简单的方法。
 
 ## 将标记添加到历程
 

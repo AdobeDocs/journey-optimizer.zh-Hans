@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3357'
+source-wordcount: '3359'
 ht-degree: 24%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 24%
 
 ## “营销活动”选项卡 {#campaign-global}
 
-### 交付 {#delivery-global}
+### 投放 {#delivery-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"

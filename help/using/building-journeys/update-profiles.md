@@ -11,8 +11,8 @@ keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 9%
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 使用 **[!UICONTROL 更新配置文件]** 操作活动，使用来自事件、数据源的信息或使用特定值更新现有Adobe Experience Platform用户档案。
 
-## Recommendations
+## 建议
 
 * 此 **更新配置文件** 操作只能在以具有命名空间的事件开始的历程中使用。
 * 该操作仅更新现有字段，不创建新配置文件字段。
@@ -73,6 +73,6 @@ ht-degree: 9%
 
 在测试模式下，将不会模拟用户档案更新。 将对测试用户档案执行更新。
 
-只有测试配置文件才能进入处于测试模式的历程。您可以创建新的测试配置文件，或将现有配置文件转换为测试配置文件。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用更新用户档案属性。 更简单的方法是使用 **更新配置文件** 操作活动，并将测试用户档案布尔字段从false更改为true。
+只有测试配置文件才能进入处于测试模式的历程。 您可以创建新的测试配置文件，或将现有配置文件转换为测试配置文件。 在Adobe Experience Platform中，您可以通过csv文件导入或API调用更新用户档案属性。 更简单的方法是使用 **更新配置文件** 操作活动，并将测试用户档案布尔字段从false更改为true。
 
 有关如何将现有配置文件转换为测试配置文件的更多信息，请参阅此 [部分](../audience/creating-test-profiles.md#create-test-profiles-csv).

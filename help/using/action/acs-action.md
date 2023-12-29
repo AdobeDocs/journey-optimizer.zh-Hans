@@ -11,8 +11,8 @@ keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 ## 重要说明 {#important-notes}
 
-* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html).
 
 * Adobe Campaign Standard集成通过操作列表中的专用内置操作进行设置。 需要为每个沙盒配置此设置。
 

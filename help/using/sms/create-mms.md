@@ -9,20 +9,21 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 9%
+source-wordcount: '1084'
+ht-degree: 7%
 
 ---
 
-# 创建MMS消息 {#create-mms}
+# 创建 MMS 消息 {#create-mms}
 
 ## 先决条件{#sms-prerequisites}
 
 在创建短信消息之前，您首先需要使用Journey Optimizer配置短信供应商，请执行以下步骤：
 
-* 在发送短信之前，您必须将供应商设置与 Journey Optimizer 集成。
+* 在发送短信之前，必须将提供商设置与Journey Optimizer集成。
 
 +++ 了解如何创建新的Sinch MMS API凭据。
 
@@ -193,7 +194,7 @@ ht-degree: 9%
 
    ![](assets/sms_create_7.png)
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中检查您的消息。您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
+1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您可以使用 **[!UICONTROL 模拟内容]** 以预览缩短的URL或个性化内容。
 
 您现在可以测试短信消息并将其发送给受众。 [了解详情](send-sms.md)
 发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。

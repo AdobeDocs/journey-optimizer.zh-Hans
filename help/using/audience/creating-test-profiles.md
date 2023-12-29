@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 3%
+source-wordcount: '1323'
+ht-degree: 2%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 因为您将更新 **testProfile** 字段，则所选用户档案必须包含此字段。 相关架构必须具有 **配置文件测试详细信息** 字段组。 请参阅[此章节](../audience/creating-test-profiles.md#test-profiles-prerequisites)。
+> 因为您将更新 **testProfile** 字段，则所选用户档案必须包含此字段。 相关架构必须具有 **配置文件测试详细信息** 字段组。 请参阅[此小节](../audience/creating-test-profiles.md#test-profiles-prerequisites)。
 
 1. 浏览至 **受众**，则 **创建受众**，位于右上方。
    ![](assets/test-profiles-22.png)

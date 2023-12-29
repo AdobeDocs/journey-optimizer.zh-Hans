@@ -11,8 +11,8 @@ badge: label="Beta 版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 9%
 ![](assets/mobile-wf-valid.png)
 
 
-## 请查看 {#review-mobile-wf}
+## 审核 {#review-mobile-wf}
 
 自动化设置已完成。 您现在可以访问标记移动资产，配置规则或数据元素，并开始使用Adobe Journey Optimizer发送推送通知。
 

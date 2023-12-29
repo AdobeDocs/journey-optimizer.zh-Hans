@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 12%
+source-wordcount: '743'
+ht-degree: 11%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
+   >在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
    >
    >请注意，当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，资格规则要求当前天气为≥80度。
 

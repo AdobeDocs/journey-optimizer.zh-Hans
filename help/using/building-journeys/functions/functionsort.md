@@ -10,7 +10,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -76,9 +76,9 @@ ht-degree: 8%
 
 `sort(["A", "C", "B"], true)`
 
-返回结果 `["A","B","C"]`.
+返回 `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-返回结果 `[3, 2, 1]`.
+返回 `[3, 2, 1]`.
 

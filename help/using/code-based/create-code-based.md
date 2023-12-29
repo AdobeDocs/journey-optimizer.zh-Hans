@@ -11,8 +11,8 @@ badge: label="Beta 版"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 11%
+source-wordcount: '1026'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >
 >当前位置 [!DNL Journey Optimizer] 您只能使用以下方式创建基于代码的体验 **营销活动**.
 
-1. 创建营销活动. [了解详情](../campaigns/create-campaign.md)
+1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
 
 1. 选择 **[!UICONTROL 基于代码的体验（测试版）]** 操作。
 

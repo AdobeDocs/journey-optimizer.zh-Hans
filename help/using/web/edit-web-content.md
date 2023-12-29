@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 18%
+source-wordcount: '1101'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 18%
 
 1. 从画布中选择任意元素，如图像、按钮、段落、文本、容器、标题、链接等。 [了解详情](#content-components)
 
-1. 使用:
+1. 使用：
 
    * 上下文菜单，用于编辑其内容、布局、插入链接或个性化等。
 

@@ -11,8 +11,8 @@ keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 15%
+source-wordcount: '942'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [发布登陆页面.](create-lp.md#publish)
+1. [Publish](create-lp.md#publish) 登陆页面。
 
 1. 在 [历程](../building-journeys/journey.md)，添加 **电子邮件** 活动，将流量引导至注册登陆页面。
 
@@ -129,7 +129,7 @@ ht-degree: 15%
 
 1. [创建电子邮件](../email/get-started-email-design.md) 在旅程中。
 
-1. 在内容中选择文本，然后使用上下文工具栏[插入链接](../email/message-tracking.md#insert-links)。您还可以在按钮上使用链接。
+1. 选择内容中的文本并 [插入链接](../email/message-tracking.md#insert-links) 使用上下文工具栏。 您还可以在按钮上使用链接。
 
 1. 选择 **[!UICONTROL 登陆页面]** 从 **[!UICONTROL 链接类型]** 下拉列表，然后选择 [登陆页面](create-lp.md#configure-primary-page) 您创建用于选择退出的库。
 

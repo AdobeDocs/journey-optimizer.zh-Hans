@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2396'
-ht-degree: 18%
+source-wordcount: '2405'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 18%
   >
   >中当前不支持基于事件的优惠 [!DNL Journey Optimizer]. 如果您根据以下内容创建决策规则： [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}，您将无法在选件中利用它。
 
-当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
+在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

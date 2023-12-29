@@ -11,8 +11,8 @@ keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 6%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 >abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
 -->
 
-沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 软件包可以包含单个对象或多个对象。 包中包含的任何对象必须来自同一沙盒。
+沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
 本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关特征本身的更多信息，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 

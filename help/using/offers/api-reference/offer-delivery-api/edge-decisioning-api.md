@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 4%
+source-wordcount: '888'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ SDK未组合这些库，并且是从头开始的新实施。 要使用它，您�
 
    ![标识映射](../../assets/sdk-identity-map.png)
 
-   ![XDM 对象](../../assets/xdm-object.png)
+   ![XDM对象](../../assets/xdm-object.png)
 
 1. 创建您的 [规则](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)：
 
@@ -127,7 +127,7 @@ javascript
 
 编辑网站时，请包含脚本以及配置和 `sendEvent` 函数以将决策范围发送到Adobe。
 
-**示例**:
+**示例**：
 
 ```
 javascript

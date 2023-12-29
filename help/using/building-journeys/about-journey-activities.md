@@ -11,14 +11,14 @@ keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 17%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # 历程活动入门 {#about-journey-activities}
 
-结合不同的事件、编排和操作活动，构建多步跨渠道方案。
+结合不同的事件、编排和操作活动，构建多步骤跨渠道方案。
 
 ## 事件活动 {#event-activities}
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 
 这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
 
-如果已配置自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md)).
+如果已配置自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md))。
 
 ## 最佳实践 {#best-practices}
 
@@ -92,6 +92,6 @@ ht-degree: 17%
 
 ### 添加替代路径
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ![](assets/journey42.png)

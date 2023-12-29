@@ -11,8 +11,8 @@ keywords: 可交付性、历程、用例、电子邮件、声誉
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 6%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 此用例的目的是创建历程以加快电子邮件投放。 要配置此历程，请执行以下步骤：
 
-1. 创建历程. [了解更多信息](journey-gs.md)。
+1. 创建旅程。 [了解更多信息](journey-gs.md)。
 
 1. 添加 **[!UICONTROL 条件]** 历程的活动。 [了解更多信息](condition-activity.md)。
 

@@ -10,8 +10,8 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
-workflow-type: ht
-source-wordcount: '1961'
+workflow-type: tm+mt
+source-wordcount: '1980'
 ht-degree: 100%
 
 ---

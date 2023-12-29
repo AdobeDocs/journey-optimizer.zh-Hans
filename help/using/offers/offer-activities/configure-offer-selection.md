@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 6%
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 单击&#x200B;**[!UICONTROL 选择]**。AI模型现在与投放位置相关联。
+1. 单击 **[!UICONTROL 选择]**. AI模型现在与投放位置相关联。
 
 如果多个选件符合条件，则经过训练的模型系统将确定在给定投放位置应首先显示哪个选件。
 

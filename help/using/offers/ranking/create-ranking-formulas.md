@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 9%
+source-wordcount: '531'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 ## 关于排名公式 {#about-ranking-formulas}
 
-**排名公式**&#x200B;允许您定义规则，以确定应首先为给定投放位置显示哪个优惠，而不是考虑优惠的优先级得分。 
+**排名公式** 允许您定义规则，这些规则将确定在给定投放位置应首先显示哪个优惠，而不是考虑优惠的优先级评分。
 
 排名公式表示为 **PQL语法** 和可以利用配置文件属性、上下文数据和选件属性。 有关如何使用PQL语法的更多信息，请参阅 [专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans).
 

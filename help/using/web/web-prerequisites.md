@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 11%
+source-wordcount: '971'
+ht-degree: 6%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 
 ## 内容试验先决条件 {#experiment-prerequisites}
 
-要为Web渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在您的Web实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"} 也包含在您的报表配置中。
+要为Web渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在您的Web实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} 也包含在您的报表配置中。
 
 换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
 

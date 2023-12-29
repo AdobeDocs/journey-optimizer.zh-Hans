@@ -11,8 +11,8 @@ keywords: 内置，源，数据，平台，集成
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 32%
+source-wordcount: '421'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 数据源"
->abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户配置文件服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用用户档案数据和体验事件数据。"
+>abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户配置文件服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用配置文件数据和体验事件数据。"
 
 Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户个人资料的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
 

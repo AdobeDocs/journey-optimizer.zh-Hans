@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 7%
  </thead> 
  <tbody>
   <tr> 
-   <td> 退信数<br/> </td> 
+   <td> 跳出次数<br/> </td> 
    <td> 投放和自动退货处理期间累计的错误总数。<br/> </td> 
 </tr> 
   <tr> 
@@ -71,11 +71,11 @@ ht-degree: 7%
    <td> 退回的电子邮件与发送的电子邮件相比的百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td> 单击次数<br/> </td> 
+   <td> 点击次数<br/> </td> 
    <td> 在电子邮件中点击内容的次数。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 已送达 <br/> </td> 
+   <td> 已投放 <br/> </td> 
    <td> 成功发送的消息数。<br/></td> 
 </tr> 
   <tr> 
@@ -143,15 +143,15 @@ ht-degree: 7%
    <td> 临时错误总数，如收件箱已满。<br/> </td> 
 </tr>
   <tr> 
-   <td> 垃圾邮件投诉次数<br/> </td> 
+   <td> 垃圾邮件投诉数<br/> </td> 
    <td> 将邮件声明为垃圾邮件或垃圾邮件的次数。<br/> </td> 
 </tr>
   <tr> 
    <td> 已定位<br/> </td> 
-   <td> 投放分析期间处理的消息的总数。<br/> </td> 
+   <td> 投放分析期间处理的消息总数。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 唯一点击次数<br/> </td> 
+   <td> 独特点击<br/> </td> 
    <td> 单击电子邮件中内容的收件人数量。<br/> </td> 
 </tr> 
   <tr> 
@@ -159,11 +159,11 @@ ht-degree: 7%
    <td> 与投放交互的用户百分比。<br/> </td> 
 </tr>
   <tr> 
-   <td> 唯一打开次数<br/> </td> 
+   <td> 独特打开次数<br/> </td> 
    <td>打开投放的收件人数量。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 退订次数<br/> </td> 
+   <td> 取消订阅<br/> </td> 
    <td> 取消订阅链接的点击次数。<br/> </td> 
 </tr> 
  </tbody> 
@@ -180,12 +180,12 @@ ht-degree: 7%
  </thead> 
  <tbody>
  <tr> 
-  <td>退信数<br/> </td> 
+  <td>跳出次数<br/> </td> 
    <td>未与登陆页面交互且未完成订阅操作的人数。<br/> </td> 
 </tr>
  <tr>
   <tr> 
-   <td>单击次数<br/> </td> 
+   <td>点击次数<br/> </td> 
    <td>在登陆页面中点击内容的次数。<br/> </td> 
 </tr>
 <tr>
@@ -209,7 +209,7 @@ ht-degree: 7%
    <td>访问您的登陆页面的人员数量，不考虑一位收件人的多次访问。<br/> </td> 
 </tr>
  <tr> 
-   <td>访问次数<br/> </td> 
+   <td>访问<br/> </td> 
    <td>对登陆页面的访问次数，包括一个收件人的多次访问。<br/> </td> 
 </tr>
  </tbody> 
@@ -230,11 +230,11 @@ ht-degree: 7%
    <td> 已投放推送通知上的操作总数，例如按钮点击或解除。<br/> </td> 
 </tr>
   <tr> 
-   <td>退信数<br/> </td> 
+   <td>跳出次数<br/> </td> 
    <td> 投放和自动退货处理期间累计的错误总数。<br/> </td> 
 </tr> 
   <tr> 
-   <td> 已送达<br/> </td> 
+   <td> 已投放<br/> </td> 
    <td> 成功发送的消息数。<br/> </td> 
 </tr> 
   <tr> 

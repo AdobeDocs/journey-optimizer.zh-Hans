@@ -11,8 +11,8 @@ keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 29%
+source-wordcount: '987'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 29%
 >title="受众资格事件"
 >abstract="此活动允许您的历程侦听 Adobe Experience Platform 受众中配置文件的进出口，以便使个人进入历程或在历程中前进。"
 
-此活动允许您的历程侦听 Adobe Experience Platform 受众中配置文件的进出口，以便使个人进入历程或在历程中前进。有关创建受众的详细信息，请参阅此 [部分](../audience/about-audiences.md).
+此活动允许您的旅程侦听Adobe Experience Platform受众中用户档案的进出口，以便使个人进入旅程或在旅程中前进。 有关创建受众的详细信息，请参阅此 [部分](../audience/about-audiences.md).
 
 假设您拥有“白银客户”受众。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
@@ -37,7 +37,7 @@ ht-degree: 29%
 
 * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。 如果受众是批量受众，则新近符合此受众条件的人员可能会在Adobe Experience Platform上执行受众计算时进入历程。
 
-* 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。
+* 以读取受众、受众资格或业务事件活动开始的历程中，无法使用体验事件字段组。
 
 * 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
 

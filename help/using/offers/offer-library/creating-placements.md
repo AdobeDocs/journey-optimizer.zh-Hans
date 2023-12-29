@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 11%
+source-wordcount: '537'
+ht-degree: 12%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 11%
    >
    >如果您使用 [批量决策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)中，您可以在此屏幕或API请求中设置这些参数。 如果屏幕和APi请求之间的参数值不匹配，将使用请求值。
 
-1. 单击 **[!UICONTROL 保存]** 以确认。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
 1. 创建投放位置后，该投放位置将显示在投放位置列表中。 您可以选择它以显示其属性并对其进行编辑。
 

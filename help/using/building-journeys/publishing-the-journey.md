@@ -11,8 +11,8 @@ keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '243'
+ht-degree: 5%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 7%
 
 ➡️ [在视频中发现此功能](#video)
 
-如果您需要对已发布的历程进行修改，则需要创建历程的新版本。 请参阅[此页](../building-journeys/journey.md)。当历程为只读时，您只能修改活动标签和描述、历程的名称和历程的描述。
+如果您需要对已发布的历程进行修改，则需要创建历程的新版本。 请参阅 [此页面](../building-journeys/journey.md). 当历程为只读时，您只能修改活动标签和描述、历程的名称和历程的描述。
 
 如果停止历程，历程将永久停止。 将永久停止所有流入历程的人员，历程将停止允许新进入。 如果您需要再次使用历程，则需要复制并发布它。
 
-1. 在发布历程之前，请验证其是否有效以及是否没有错误。 您将无法发布包含错误的历程。 请参阅[此章节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。此外，建议在发布之前测试您的历程。 请参阅[此页](../building-journeys/testing-the-journey.md)。
+1. 在发布历程之前，请验证其是否有效以及是否没有错误。 您将无法发布包含错误的历程。 请参阅 [本节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). 此外，建议在发布之前测试您的历程。 请参阅[此页](../building-journeys/testing-the-journey.md)。
 1. 要发布历程，请单击 **[!UICONTROL Publish]** 选项，位于右上角的下拉菜单中。
 
    ![](assets/journeyuc1_18.png)

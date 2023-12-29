@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 8%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 >[!AVAILABILITY]
 >
->新 **移动载入快速入门工作流** 现已推出。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 作为公开测试版，此功能可通过数据收集主页访问。[了解详情](mobile-onboarding-wf.md)
+>新 **移动载入快速入门工作流** 现已推出。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
 >
 
 了解如何在上创建推送通知 [此页面](create-push.md).
@@ -62,7 +62,7 @@ ht-degree: 8%
    * 创建客户端移动属性和添加扩展。 SDK与这些扩展紧密集成，可提供无缝的数据收集体验。
    * 注册移动应用程序捆绑包标识符和应用程序凭据
 
-* **Adobe Experience Platform实时客户资料**  通过组合来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。 档案允许您将您的客户数据整合到一个统一视图中，并提供每个客户交互的带时间戳的可操作帐户。给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知的交互将作为时间序列事件数据受到跟踪。 [了解有关Adobe Experience Platform实时客户个人资料的更多信息](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
+* **Adobe Experience Platform实时客户资料**  通过组合来自多个渠道（包括Web、移动设备、CRM和第三方）的数据，维护每个客户的整体视图。 用户档案允许您将客户数据整合到一个统一视图中，并提供每个客户交互的带时间戳的可操作帐户。 给定应用程序用户的推送令牌将作为记录数据存储在用户的配置文件中，而用户与推送通知的交互将作为时间序列事件数据受到跟踪。 [了解有关Adobe Experience Platform实时客户个人资料的更多信息](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** ：在将您的移动应用程序与上述组件集成到位并且您的客户配置文件位于Adobe Experience Platform中后，您便可以在中创作和编排推送通知 [!DNL Adobe Journey Optimizer] 与您的用户互动。
 

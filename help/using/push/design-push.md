@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 21%
+source-wordcount: '1365'
+ht-degree: 17%
 
 ---
 
@@ -122,10 +122,10 @@ ht-degree: 21%
 |---------|---------|
 | **[!UICONTROL 可折叠]** (iOS / Android) | 可折叠的消息是新消息过期后可能被替换的消息。 可折叠消息的常见用例是用于指示移动应用程序从服务器同步数据的消息。 例如，使用最新得分更新用户的体育应用程序。 只有最新的消息才具有相关性。 另一方面，消息是不可折叠的，消息对于客户端应用来说非常重要，需要传递。 |
 | **[!UICONTROL 自定义声音]** (iOS / Android) | 当接收到通知时，由移动终端播放的声音。 该声音需要在应用程序中捆绑在一起。 |
-| **[!UICONTROL 徽章]** (iOS / Android) | 标记用于直接在应用程序图标上显示新的未读信息数。<br/>当用户打开或从应用程序中读取新内容时，标记值将消失。在设备上收到通知时，可能会刷新或增加相关应用程序的标记值。<br/>例如，如果您存储的是客户的未读文章数，则可以利用个性化为每个客户发送唯一的未读文章标记值。 有关更多个性化信息，请参阅 [本节](../personalization/personalize.md). |
+| **[!UICONTROL 徽章]** (iOS / Android) | 标记用于直接在应用程序图标上显示新的未读信息数。<br/>当用户打开或从应用程序中读取新内容时，标记值将消失。 在设备上收到通知时，它可以刷新或添加相关应用程序的标记值。<br/>例如，如果您存储的是客户的未读文章数，则可以利用个性化为每个客户发送唯一的未读文章标记值。 有关更多个性化信息，请参阅 [本节](../personalization/personalize.md). |
 | **[!UICONTROL 通知组]**  (仅限iOS) | 将通知组关联到推送通知。<br/>从iOS 12开始，通知组允许您将消息线程和通知主题整合到线程ID中。 例如，品牌可能会在一个组ID下发送营销通知，而在一个或多个不同的ID下保留更多操作类型通知。<br/>为了说明这一点，您可以设置groupID： 123“查看新的春季毛衣系列”和groupID： 456“您的包裹已投放”通知组。 在此示例中，所有投放通知都捆绑在组ID：456下。 |
 | **[!UICONTROL 通知渠道]** （仅限Android） | 将通知渠道关联到推送通知。<br/>从Android 8.0（API级别26）开始，必须将所有通知分配给渠道才能显示。 有关详细信息，请参见 [Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
-| **[!UICONTROL 添加内容可用性标记]** (仅限iOS) | 在推送有效负载中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负载数据。<br/> 即使应用程序在后台运行且不需要任何用户交互（例如点击推送通知），此功能也可以正常工作。但是，如果应用程序未运行，则不适用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| **[!UICONTROL 添加内容可用性标记]** (仅限iOS) | 在推送有效负载中发送可用内容标志，以确保应用程序在收到推送通知后立即唤醒，这意味着应用程序将能够访问有效负载数据。<br/> 即使应用程序在后台运行且不需要任何用户交互（例如点击推送通知），此功能也可以正常工作。 但是，如果应用程序未运行，则不适用。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
 | **[!UICONTROL 添加可变内容标志]** (仅限iOS) | 在推送有效载荷中发送可变内容标志，并将允许推送通知内容由iOS SDK中提供的通知服务应用程序扩展进行修改。 有关更多信息，请参阅 [Apple 开发人员文档](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然后，您可以利用移动应用程序扩展进一步修改发送自的推送通知的内容或演示 [!DNL Journey Optimizer]. 例如，用户可以利用此选项解密数据，更改通知的正文或标题文本，向通知添加线程标识符等。 |
 | **[!UICONTROL 通知可见性]** （仅限Android） | 定义推送通知的可见性。 <br/><b>私有</b> 将在所有锁屏界面上显示通知，但在安全锁屏界面上隐藏敏感或私人信息。 <br/><b>公共</b> 将在所有锁屏界面上完整显示通知。 <br/><b>密码</b> 将不会在安全锁屏界面上显示通知的任何部分。 <br/>有关详情，请参阅 [Android开发人员文档](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL 通知优先级]** （仅限Android） | 定义推送通知的重要性从低到大。 这会确定推送通知在投放时会如何“干扰”。 有关详细信息，请参见 [Android开发人员文档](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |

@@ -11,7 +11,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 ## 自定义仪表板 {#modify-dashboard}
 
-每个报告仪表板都可以修改，您可以调整构件大小或删除构件。更改构件只会影响当前用户的仪表板。 其他用户将看到自己的功能板或默认设置的功能板。
+可以通过调整小部件的大小或删除小部件来修改每个报表仪表板。 更改构件只会影响当前用户的仪表板。 其他用户将看到自己的功能板或默认设置的功能板。
 
 1. 从 **[!UICONTROL 操作]** 下拉列表中，选择是否要报告历程的一个特定操作。
 

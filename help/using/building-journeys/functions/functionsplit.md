@@ -9,8 +9,8 @@ keywords: 拆分，函数，表达式，历程
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: 07682901ec94d5b736d364130aaf48f9dfe982a3
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 17%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 17%
 
 `split("A_B_C", "_")`
 
-返回结果 `["A","B","C"]`
+返回 `["A","B","C"]`
 
 具有事件字段“event.appVersion”且值为“20.45.2.3434”的示例
 
 `split(@{event.appVersion}, "\\.")`
 
-返回结果 `["20", "45", "2", "3434"]`
+返回 `["20", "45", "2", "3434"]`

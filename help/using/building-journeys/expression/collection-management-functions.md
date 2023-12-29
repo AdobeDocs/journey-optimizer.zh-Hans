@@ -10,7 +10,7 @@ keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -127,7 +127,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 表达式的结果为 **3**.
 
-**示例 3:**
+**示例3：**
 
 在此处，我们检查个人在过去24小时内是否未收到任何通信。 我们使用基于集合的两个元素的两个表达式，过滤从ExperiencePlatform数据源检索到的体验事件集合。 特别是，会将事件的时间戳与返回的日期时间进行比较 **[!UICONTROL nowWithΔ]** 函数。
 
@@ -139,7 +139,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 如果没有体验事件符合这两个条件，则结果将为true。
 
-**示例 4:**
+**示例4：**
 
 在此处，我们要检查个人在过去7天内是否至少启动过一次应用程序，以便触发推送通知，邀请他们启动教程。
 
@@ -209,7 +209,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL 第一]** 函数将返回最近的事件
 >* **[!UICONTROL 最后一个]** 函数将返回最早的一个。
 
-**示例 3:**
+**示例3：**
 
 我们检查第一个（最新）DMA ID为非零值的Adobe Analytics事件是否具有等于602的值。
 

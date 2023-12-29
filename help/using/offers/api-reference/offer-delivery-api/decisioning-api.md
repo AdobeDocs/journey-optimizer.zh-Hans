@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 5%
+source-wordcount: '1057'
+ht-degree: 4%
 
 ---
 
@@ -201,7 +201,7 @@ curl -X POST \
 
 | 代码 | 描述 |
 |  ---  |  ---  |
-| 200 | 成功. 已针对特定活动做出决策 |
+| 200 | 成功。 已针对特定活动做出决策 |
 | 400 | 请求参数无效。 由于语法错误，服务器无法理解该请求。 |
 | 403 | 权限被禁止，不足。 |
 | 422 | 无法处理的实体。 请求语法正确，但由于语义错误而无法处理。 |

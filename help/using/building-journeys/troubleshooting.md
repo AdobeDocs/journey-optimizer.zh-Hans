@@ -11,7 +11,7 @@ keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1021'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 73%
 
 历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。此 **[!UICONTROL 复制详细信息]** 按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 检查事件是否正确发送{#checking-that-events-are-properly-sent}
 

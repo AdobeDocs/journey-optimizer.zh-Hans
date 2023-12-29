@@ -11,8 +11,8 @@ keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 54%
+source-wordcount: '1401'
+ht-degree: 52%
 
 ---
 
@@ -121,11 +121,11 @@ ht-degree: 54%
    * **字体大小**：选择文本的字体大小（以像素为单位）。
    * **[!UICONTROL 更改字体颜色]**：选择字体的颜色。
    * **[!UICONTROL 插入链接]**：向内容添加任何类型的链接。
-   * **[!UICONTROL 编辑图像]**：将图像或资产添加到文本组件。[了解有关资产管理的更多信息](../content-management/assets.md)
+   * **[!UICONTROL 编辑图像]**：将图像或资源添加到文本组件。 [了解有关资产管理的更多信息](../content-management/assets.md)
    * **[!UICONTROL 更改字体颜色]**：选择字体的颜色。
-   * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义配置文件数据中的内容。[详细了解内容个性化](../personalization/personalize.md)
+   * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义用户档案数据的内容。 [详细了解内容个性化](../personalization/personalize.md)
    * **[!UICONTROL 显示源代码]**：显示文本的源代码。不能修改。
-   * **[!UICONTROL 启用条件内容]**：添加条件内容以使组件内容适应目标配置文件。[了解有关动态内容的更多信息](../personalization/get-started-dynamic-content.md)
+   * **[!UICONTROL 启用条件内容]**：添加条件内容以将组件的内容调整到目标用户档案。 [了解有关动态内容的更多信息](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL 复制]**：添加文本组件的副本。
    * **[!UICONTROL 删除]**：从电子邮件中删除选定的文本组件。
 

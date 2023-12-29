@@ -12,7 +12,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 21%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 ## 个性化您的优惠 {#personalize-offers}
 
-您还可以在将文本类型的内容添加到优惠的表示形式时访问个性化编辑器。
+在将文本类型内容添加到优惠的表示法时，您还可以访问个性化编辑器。
 
 在中了解有关使用决策管理管理内容的更多信息 [本节](../offers/offer-library/creating-personalized-offers.md#custom-text).
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 13%
+source-wordcount: '408'
+ht-degree: 8%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 13%
    >
    >当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，资格规则要求当前天气为≥80度。
 
-1. 单击 **[!UICONTROL 保存]** 以确认。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认。
 
 1. 创建规则后，该规则将显示在 **[!UICONTROL 规则]** 列表。 您可以选择它以显示其属性，并对其进行编辑或删除。
 

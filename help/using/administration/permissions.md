@@ -11,8 +11,8 @@ level: Intermediate
 keywords: 产品、配置文件、沙盒
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 6%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 6%
 
 1. 如果需要，在 **[!UICONTROL 包含的权限项]**，单击将权限或资源移除到角色旁边的X图标。
 
-1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
+1. 完成后，单击 **[!UICONTROL 保存]**.
 
 如果需要，您还可以创建具有特定权限的新角色。 有关详细信息，请参见 [创建新角色](#create-product-profile).
 
@@ -121,7 +121,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
+1. 完成后，单击 **[!UICONTROL 保存]**.
 
 您的 **[!UICONTROL 角色]** 现已创建并配置。 您现在需要将其分配给用户。
 

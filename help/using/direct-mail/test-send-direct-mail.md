@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 12%
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 12%
 
 当直邮营销活动就绪时，单击 **[!UICONTROL 激活]** 按钮。 活动启动时，将自动生成提取文件并将其导出到中指定的服务器。 [文件路由配置](../direct-mail/direct-mail-configuration.md).
 
-发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关报告的更多信息，请参考此章节。
+发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关报告的更多信息，请参阅此章节。
 
 ## 管理直邮的同意 {#dm-consent-management}
 
-在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。
+在 [!DNL Journey Optimizer]，同意由Experience Platform处理 [同意模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}. 默认情况下，“同意”字段的值为空，并视为同意接收您的通信。
 
 如果配置文件已选择不接收直邮，则在相应的Experience Platform配置文件属性中，值 `consents.marketing.postalMail.val` 将为 `n` 并且相应的用户档案将从后续投放中排除。
 

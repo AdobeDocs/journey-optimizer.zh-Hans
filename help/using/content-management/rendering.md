@@ -1,19 +1,20 @@
 ---
-title: 测试电子邮件渲染
+title: 测试电子邮件呈现
 description: 了解如何测试电子邮件渲染。
 feature: Preview
 role: User
 level: Beginner
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
-# 测试电子邮件渲染 {#email-rendering}
+# 测试电子邮件呈现 {#email-rendering}
 
-您可以利用 **利特默斯** 帐户至 [!DNL Journey Optimizer] 即时预览 **电子邮件渲染** 在常用电子邮件客户端中。 这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。
+您可以利用 **利特默斯** 帐户至 [!DNL Journey Optimizer] 即时预览 **电子邮件渲染** 在常用电子邮件客户端中。 然后，您可以确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。
 
 要检查电子邮件渲染，请执行以下步骤：
 

@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 19%
 | 版本ID | 字符串 | 历程版本的ID。 此id表示历程的身份 |
 | name | 字符串 | 历程的名称 |
 | 描述 | 字符串 | 历程描述 |
-| version | 字符串 | 版本，表示为 `major`.`minor` |
+| 版本 | 字符串 | 版本，表示为 `major`.`minor` |
 
 ## 个人资料 {#profile-field}
 

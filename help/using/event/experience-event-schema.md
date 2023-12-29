@@ -11,8 +11,8 @@ keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 4%
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 
 ## 利用架构关系{#leverage_schema_relationships}
 
-Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
 
 假设您的品牌数据模型具有一个用于捕获购买的架构。 此外，您还有一个产品目录架构。 您可以捕获购买架构中的产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个受众，而无需明确列出所有笔记本电脑ID或在事务性系统中捕获每个产品详细信息。
 

@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Adobe使用渐近置信序列，它适用于具有平均估计值的单个变量
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-执行:
+其中：
 
 * `N` 是该变体的单位数。
 * `σ` 是标准偏差的样本估计值（定义见上文）。

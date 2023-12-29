@@ -11,8 +11,8 @@ keywords: 电子邮件、模板、设计
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 28%
+source-wordcount: '269'
+ht-degree: 21%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 28%
 
 1. [访问电子邮件设计器](get-started-email-design.md) 从电子邮件 **[!UICONTROL 编辑内容]** 屏幕。
 
-1. 在&#x200B;**[!UICONTROL 创建您的电子邮件]**&#x200B;屏幕上，**[!UICONTROL 示例模板]**&#x200B;选项卡默认为选中状态。
+1. 在 **[!UICONTROL 创建电子邮件]** 屏幕， **[!UICONTROL 示例模板]** 选项卡默认处于选中状态。
 
 1. 要使用自定义模板，请转到 **[!UICONTROL 已保存模板]** 选项卡。
 

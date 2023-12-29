@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 23%
+ht-degree: 18%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 23%
 
 >[!CAUTION]
 >
->仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。
+>仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，您无需更改电子邮件地址，因为值在中被定义为主地址。 **[!UICONTROL 执行字段]** 是应该使用的变量。
 
 覆盖此值可能很有用，例如：
 

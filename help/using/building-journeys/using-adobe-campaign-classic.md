@@ -12,7 +12,7 @@ exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 39%
+ht-degree: 31%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 39%
 
 如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。利用此功能，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。
 
-Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。联系Adobe。
+Journey Optimizer实例和Campaign实例之间的连接是在预配时通过Adobe进行设置的。 联系Adobe。
 
 要使此功能正常工作，您需要配置专用操作。 请参阅此[章节](../action/acc-action.md)。
 

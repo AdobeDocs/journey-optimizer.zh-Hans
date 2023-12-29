@@ -11,8 +11,8 @@ keywords: 子域，优化器，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 30%
+source-wordcount: '903'
+ht-degree: 27%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 30%
 
 子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。 可用的设置方法包括：
 
-* **将子域完全委派给 Adobe**（推荐）：将子域完全委派给 Adobe。Adobe能够控制和维护投放、渲染和跟踪消息所需的DNS的各个方面。 [了解有关完全子域委派的更多信息](delegate-subdomain.md#full-subdomain-delegation)
+* **将子域完全委派给Adobe** （推荐）：子域已完全委派给Adobe。 Adobe能够控制和维护投放、渲染和跟踪消息所需的DNS的各个方面。 [了解有关完全子域委派的更多信息](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME 的使用**：创建子域并使用 CNAME 指向 Adobe 特定的记录。使用此设置，您和Adobe共同负责维护DNS。 [了解有关CNAME子域委派的更多信息](delegate-subdomain.md#cname-subdomain-delegation)
 

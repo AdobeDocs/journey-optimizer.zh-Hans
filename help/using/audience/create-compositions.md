@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '443'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ ht-degree: 16%
 
    >[!IMPORTANT]
    >
-   >您最多可以在给定沙盒中发布10个合成。 如果您已达到此阈值，则需要删除合成以释放空间并发布新合成。
+   >您最多可以在给定沙盒中发布10个合成。 如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
    如果在发布期间发生任何错误，将显示警报，其中包含有关如何解决该问题的信息。
 

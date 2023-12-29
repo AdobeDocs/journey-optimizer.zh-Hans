@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 API 触发活动
+title: 使用 API 触发营销活动
 description: 了解如何使用Journey Optimizer API触发营销活动
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 3%
+source-wordcount: '952'
+ht-degree: 4%
 
 ---
 
-# 使用 API 触发活动 {#trigger-campaigns}
+# 使用 API 触发营销活动 {#trigger-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_api_profile_creation"

@@ -11,8 +11,8 @@ keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 15%
+source-wordcount: '415'
+ht-degree: 12%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 15%
 >
 >要能够创建标签，您必须属于具有以下特征的角色： **[!UICONTROL 管理使用标签]** 许可。
 
-**[!UICONTROL 通过标签，可根据适用于数据的使用策略将数据集和字段分类。]****[!UICONTROL 标签]** 可以随时应用，从而灵活地选择管理数据的方式。
+**[!UICONTROL 标签]** 允许您根据应用于该数据的使用策略对数据集和字段进行分类。 **[!UICONTROL 标签]** 可以随时应用，从而灵活地选择管理数据的方式。
 
 您可以在中创建标签 [!DNL Permissions] 产品。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html)。
 

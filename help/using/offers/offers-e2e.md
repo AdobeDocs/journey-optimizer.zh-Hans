@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 6%
+source-wordcount: '1100'
+ht-degree: 4%
 
 ---
 
-# 用例：配置个性化优惠并将其添加到电子邮件中 {#configure-add-personalized-offers-email}
+# 用例：配置个性化优惠并将其用在电子邮件中 {#configure-add-personalized-offers-email}
 
 本节将提供一个端到端示例，说明如何根据您之前创建的决策配置优惠并在电子邮件中使用它们。
 
@@ -25,7 +25,7 @@ ht-degree: 6%
 
    * 创建投放位置
    * 创建决策规则
-   * 创建收藏集限定符 （以前称为“标记”）
+   * 创建收藏集限定符（以前称为“标记”）
    * 创建排名（可选）
 
 1. [配置优惠](#configure-offers)
@@ -114,7 +114,7 @@ ht-degree: 6%
 
 您现在可以创建并配置选件。 在此示例中，您将创建四个要根据每个特定配置文件显示的选件。
 
-1. 创建选件. 有关详细信息，请参阅[此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)。
+1. 创建选件。 有关详细信息，请参阅[此部分](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)。
 
 1. 在此优惠中，创建三个呈现。 每个表示都必须是您之前创建的版面和资源的组合：
 
@@ -155,7 +155,7 @@ ht-degree: 6%
 
 ## 创建后备优惠 {#create-fallback}
 
-1. 创建后备优惠.
+1. 创建后备优惠。
 
 1. 定义与优惠相同的呈现方式，并赋予相应的资产（这些资产应与优惠中使用的资产不同）。
 
@@ -195,7 +195,7 @@ ht-degree: 6%
 
 要创建和配置优惠决策，请执行以下步骤：
 
-1. 创建决策. 有关详细信息，请参阅[此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity)。
+1. 创建决策。 有关详细信息，请参阅[此部分](../../using/offers/offer-activities/create-offer-activities.md#create-activity)。
 
 1. 选择 *Web — 图像*， *电子邮件 — 图像* 和 *非数字 — 文本* 投放位置。
 

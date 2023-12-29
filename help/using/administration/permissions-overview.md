@@ -11,14 +11,14 @@ keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 12%
+source-wordcount: '178'
+ht-degree: 5%
 
 ---
 
 # 用户管理入门 {#permissions-overview}
 
-[!DNL Journey Optimizer] 允许您定义和管理分配给不同用户的权限。权限是授权或拒绝访问产品内特性和功能的一组权限和限制。
+[!DNL Journey Optimizer] 允许您定义和管理分配给不同用户的权限。 权限是授权或拒绝访问产品内特性和功能的一组权限和限制。
 
 ➡️ [通过此视频进一步了解Adobe Journey Optimizer中的访问控制](#video)
 

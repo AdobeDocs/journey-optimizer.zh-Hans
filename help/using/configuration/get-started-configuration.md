@@ -10,7 +10,7 @@ feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 

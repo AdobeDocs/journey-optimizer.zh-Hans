@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 12%
+source-wordcount: '954'
+ht-degree: 11%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >您只能添加 `<script>` 和 `<style>` 元素到 `<head>` 部分。 添加 `<div>` 标记和其他元素可能会导致其余的 `<head>` 元素出现在 `<body>` 中。
+   >您只能添加 `<script>` 和 `<style>` 元素到 `<head>` 部分。 正在添加 `<div>` 标记和其他元素可能会导致剩余 `<head>` 要跳入 `<body>`.
 
 1. 单击 **[!UICONTROL 高级编辑选项]** 按钮。 表达式编辑器将打开。
 

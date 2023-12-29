@@ -13,8 +13,8 @@ badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 3%
+source-wordcount: '734'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
   作为测试版计划的一部分，Cloud Service配置将由Adobe Experience Manager中的Adobe执行，以连接到Adobe Journey Optimizer。
 
-* **Permissions**
+* **权限**
 
   要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须具有 **[!DNL Manage Library Items]** 权限包含在 **[!DNL Content Library Manager]** 产品配置文件。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 

@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 
 此外，当允许列表处于活动状态但为空时，不会发出任何邮件。 因此，如果您遇到一些严重问题，可以使用此功能停止所有传出通信 [!DNL Journey Optimizer] 直到你解决这个问题。 了解更多关于 [允许列表逻辑](#logic).
 
-此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 访问允许列表 {#access-allowed-list}
 

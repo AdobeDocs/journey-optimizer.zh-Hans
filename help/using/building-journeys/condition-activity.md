@@ -11,7 +11,7 @@ keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1452'
 ht-degree: 17%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 17%
 >
 >使用简单编辑器无法对时间序列（例如购买列表、过去对消息的点击）执行查询。 为此，您需要使用高级编辑器。 请参阅[此页](expression/expressionadvanced.md)。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。[了解详情](expression/journey-properties.md)
 

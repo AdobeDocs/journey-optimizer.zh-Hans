@@ -10,7 +10,7 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -89,8 +89,8 @@ ht-degree: 8%
 
 `limit(["A", "B", "C", "D", "E"], 3)`
 
-返回结果 `["A","B","C"]`.
+返回 `["A","B","C"]`.
 
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
-返回结果 `["C","D","E"]`.
+返回 `["C","D","E"]`.

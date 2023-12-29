@@ -11,8 +11,8 @@ keywords: 配置，历程，功能板，数据源，事件，操作
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 78%
+source-wordcount: '405'
+ht-degree: 65%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 
 ## 数据源 {#data-sources}
 
-数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。[了解详情](../../using/datasource/about-data-sources.md)
+数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。 [了解详情](../../using/datasource/about-data-sources.md)
 
 ## 活动 {#events}
 
@@ -41,7 +41,7 @@ ht-degree: 78%
 
 Journey Optimizer消息功能内置：您只需将渠道操作活动添加到历程中。 如果您使用第三方系统来发送消息，则可以创建自定义操作。 [了解详情](../../using/action/action.md)
 
-## 浏览 Adobe Experience Platform 字段 {#friendly-names-display}
+## 浏览Adobe Experience Platform字段 {#friendly-names-display}
 
 在定义[事件有效负载](../event/about-creating.md#define-the-payload-fields)、[字段组有效负载](../datasource/configure-data-sources.md#define-field-groups)以及在[表达式编辑器](../building-journeys/expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 

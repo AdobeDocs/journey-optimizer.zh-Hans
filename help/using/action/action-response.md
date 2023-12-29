@@ -11,8 +11,8 @@ keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 7%
+source-wordcount: '596'
+ht-degree: 4%
 
 ---
 
@@ -109,7 +109,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   每次调用 API 时，系统将检索有效负载示例中包含的所有字段。
+   每次调用API时，系统将检索有效负载示例中包含的所有字段。
 
 1. 我们还要将customerID添加为查询参数。
 
@@ -144,7 +144,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
 1. 在超时和错误分支中，添加条件并利用内置 **jo_status_code** 字段。 在我们的示例中，我们使用
-   **http_400** 错误类型。 请参阅[此章节](#error-status)。
+   **http_400** 错误类型。 请参阅[此小节](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"

@@ -11,8 +11,8 @@ keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 24%
+source-wordcount: '1716'
+ht-degree: 21%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 24%
 
    ![](assets/lp_open-designer.png)
 
-1. 定义登陆页面 URL. URL的第一部分要求您之前将登陆页面子域设置为 [预设](../landing-pages/lp-presets.md#lp-create-preset) 您已选择。 [了解详情](../landing-pages/lp-subdomains.md)
+1. 定义登陆页面URL。 URL的第一部分要求您之前将登陆页面子域设置为 [预设](../landing-pages/lp-presets.md#lp-create-preset) 您已选择。 [了解详情](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,7 +199,7 @@ ht-degree: 24%
    >
    >您可以从同一登陆页面的任何子页面插入指向主页面的链接。 例如，要重定向发生错误并想要再次订阅的用户，您可以从确认子页面添加一个链接至订阅主页面。 了解如何在中插入链接 [本节](../email/message-tracking.md#insert-links).
 
-1. 定义登陆页面 URL. URL的第一部分要求您之前设置登陆页面子域。 [了解详情](../landing-pages/lp-subdomains.md)
+1. 定义登陆页面URL。 URL的第一部分要求您之前设置登陆页面子域。 [了解详情](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -215,7 +215,7 @@ ht-degree: 24%
 >id="ac_preview_lp_profiles"
 >title="预览和测试登陆页面"
 >abstract="定义了登陆页面设置和内容之后，您可使用测试配置文件对其进行预览。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="选择测试配置文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="选择测试用户档案"
 
 定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您已插入 [个性化内容](../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在登陆页面中的显示方式。
 

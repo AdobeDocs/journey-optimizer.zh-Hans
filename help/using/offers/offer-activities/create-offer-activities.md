@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 2%
+source-wordcount: '2355'
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
      了解如何在中创建决策规则 [本节](../offer-library/creating-decision-rules.md).
 
-1. 当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。单击 **[!UICONTROL 刷新]** 以更新数据。
+1. 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
 
    >[!NOTE]
    >

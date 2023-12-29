@@ -11,8 +11,8 @@ keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 42%
+source-wordcount: '592'
+ht-degree: 29%
 
 ---
 
@@ -57,9 +57,9 @@ ht-degree: 42%
   >
   >其中可能还包括其他字段组，但Journey Optimizer报表当前仅支持上述字段组。
 
-  例如，如果您想要了解电子邮件营销活动对商务数据（如购买或订购）的影响，则需要使用 `Commerce Details` 字段组创建体验事件数据集。
+  例如，如果您想要了解电子邮件营销活动对商业数据（如购买或订购）的影响，则需要使用创建体验事件数据集 `Commerce Details` 字段组。
 
-  同样，如果要报告移动设备交互情况，则需要使用 `Application Details` 字段组创建体验事件数据集。
+  同样，如果要报告移动交互，则需要使用 `Application Details` 字段组。
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 

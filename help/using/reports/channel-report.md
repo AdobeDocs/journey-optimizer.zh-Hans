@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
 workflow-type: tm+mt
-source-wordcount: '2664'
-ht-degree: 33%
+source-wordcount: '2665'
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> 要访问&#x200B;**报告**&#x200B;菜单，您必须拥有&#x200B;**[!UICONTROL 查看渠道报告]**&#x200B;权限。[了解详情](channel-report-gs.md#before-starting-manage-reports-prereq)
+> 要访问 **报表** 菜单，您必须拥有 **[!UICONTROL 查看渠道报表]** 许可。 [了解详情](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 渠道报表可在渠道级别为用户提供流量和参与量度的全面概述。 这些量度将进行聚合，以显示来自所选渠道（跨各种促销活动和历程）的操作的合并值。
 
@@ -33,7 +33,7 @@ ht-degree: 33%
 此时将显示报告页面，其中包含以下选项卡：
 
 * [电子邮件](#email)
-* [推送 通知](#push)
+* [推送通知](#push)
 * [短信](#sms)
 * [应用程序内](#inapp)
 * [Web](#web)

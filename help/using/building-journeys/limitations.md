@@ -11,8 +11,8 @@ keywords: 历程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 54%
+source-wordcount: '512'
+ht-degree: 47%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 54%
 ## 自定义操作限制 {#custom-actions-limitations}
 
 * 自定义操作 URL 不支持动态参数。 
-* 仅支持 POST 和 PUT 调用方法. 
-* 查询参数或标头的名称不得以“.”或“$”开始。 
-* 不允许使用 IP 地址. 
+* 仅支持POST和PUT调用方法。 
+* 查询参数或标头的名称不得以“.”或“$”。 
+* 不允许使用IP地址。 
 * 不允许使用内部 Adobe 地址 (.adobe.)。
 
-## 事件 限制 {#events-limitations}
+## 事件限制 {#events-limitations}
 
-* 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
+* 对于系统生成的事件，必须先在Journey Optimizer中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
 
 ## 数据源限制 {#data-sources-limitations}
 

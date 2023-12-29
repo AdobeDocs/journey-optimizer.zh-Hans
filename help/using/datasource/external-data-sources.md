@@ -11,8 +11,8 @@ keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 69%
+source-wordcount: '1471'
+ht-degree: 68%
 
 ---
 

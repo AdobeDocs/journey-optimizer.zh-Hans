@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 73%
+ht-degree: 71%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 73%
 
 一个函数可以有不同的特征码（一组不同的有序参数）。 函数签名可以有0-N个表达式作为有序参数。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
 
 每个函数都有一个特定的返回类型。
 
@@ -63,10 +63,10 @@ ht-degree: 73%
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 列表 | [filter](../functions/functionfilter.md) |
+| 列表 | [筛选](../functions/functionfilter.md) |
 | 列表 | [getListItem](../functions/functiongetlistitem.md) |
 | 列表 | [in](../functions/functionin.md) |
-| 列表 | [intersect](../functions/functionintersect.md) |
+| 列表 | [相交](../functions/functionintersect.md) |
 | 列表 | [listSize](../functions/functionlimit.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
@@ -83,7 +83,7 @@ ht-degree: 73%
 | 字符串 | [isEmpty](../functions/functionisempty.md) |
 | 字符串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字符串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字符串 | [长度](../functions/functionlength.md) |
+| 字符串 | [length](../functions/functionlength.md) |
 | 字符串 | [lower](../functions/functionlower.md) |
 | 字符串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字符串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

@@ -11,8 +11,8 @@ keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 

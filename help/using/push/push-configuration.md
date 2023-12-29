@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 4%
+source-wordcount: '1544'
+ht-degree: 3%
 
 ---
 
 # 配置推送通知渠道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。 开始发送推送通知之前 [!DNL Journey Optimizer]中，您需要确保为移动设备应用程序和Adobe Experience Platform中的标记配置了适当配置和集成。 了解推送通知数据流 [!DNL Adobe Journey Optimizer] 请参阅 [此页面](push-gs.md).
+[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。开始发送推送通知之前 [!DNL Journey Optimizer]中，您需要确保为移动设备应用程序和Adobe Experience Platform中的标记配置了适当配置和集成。 要了解 [!DNL Adobe Journey Optimizer] 中的推送通知数据流，请参阅[此页面](push-gs.md)。
 
 >[!AVAILABILITY]
 >
->新 **移动载入快速入门工作流** 现已推出。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 作为公开测试版，此功能可通过数据收集主页访问。[了解详情](mobile-onboarding-wf.md)
+>新 **移动载入快速入门工作流** 现已推出。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
 >
 
 
@@ -71,7 +71,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL 开发]**
    * **[!UICONTROL 管理环境]**
    * **[!UICONTROL 管理扩展]**
-   * **[!UICONTROL 发布]**
+   * **[!UICONTROL Publish]**
 
    在Adobe Experience Platform Mobile SDK中安装和发布Adobe Journey Optimizer扩展以及发布应用程序属性时，需要这些权限。
 

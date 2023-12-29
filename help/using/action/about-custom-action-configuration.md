@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 17%
 
 ## 最佳实践{#custom-action-enhancements-best-practices}
 
-为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点(例如： `https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`)，上限将应用于adobe.com主机下的所有端点。 “endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
+为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点（例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`），上限将适用于 adobe.com 主机下的所有端点。“endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
 
 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您需要在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5000 个用户档案/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据管理](../action/action-privacy.md).
+* [数据治理](../action/action-privacy.md).
 * [同意](../action/action-privacy.md).
 
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 1. 向操作添加描述。 此步骤是可选的。
 1. 使用此操作的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 按钮以显示使用此操作的历程列表。
 1. 定义不同的 **[!UICONTROL URL配置]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
-1. 配置 **[!UICONTROL 身份验证]** 部分。 此配置与数据源的配置相同。  请参阅[此章节](../datasource/external-data-sources.md#custom-authentication-mode)。
+1. 配置 **[!UICONTROL 身份验证]** 部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
 1. 定义 **[!UICONTROL 操作参数]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -144,7 +144,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->有效负载示例不能包含null值。 有效负载中的字段名称不能包含“。” 字符. 不能以“$”字符开头。
+>有效负载示例不能包含null值。 有效负载中的字段名称不能包含“。” 字符。不能以“$”字符开头。
 
 您将能够定义参数类型（例如：字符串、整数等）。
 

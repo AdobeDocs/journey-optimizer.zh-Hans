@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 4%
+source-wordcount: '1349'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 * **[!UICONTROL 操作出错]**：操作发生的错误总数。
 +++
 
-## “电子邮件”选项卡 {#email-live}
+## 电子邮件选项卡 {#email-live}
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 电子邮件]** 选项卡详细列出了在您的历程中发送的与电子邮件投放相关的主要信息。
 
@@ -126,7 +126,7 @@ ht-degree: 4%
 * **[!UICONTROL 优惠点击次数]**：在投放中单击优惠的次数。
 +++
 
-## “推送通知”选项卡 {#push-live}
+## 推送通知选项卡 {#push-live}
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了在您的历程中发送的、与推送投放相关的主要信息。
 
@@ -157,7 +157,7 @@ ht-degree: 4%
 此 **[!UICONTROL 按平台跟踪]**， **[!UICONTROL 按平台发送]** 和 **[!UICONTROL 按平台细分]** 图表和表格根据操作系统详细说明了推送通知的成功情况。
 +++
 
-## “短信”选项卡 {#sms-live}
+## 短信选项卡 {#sms-live}
 
 ![](assets/journey_live_4.png)
 
@@ -188,7 +188,7 @@ ht-degree: 4%
 此 **[!UICONTROL 排除原因]** 利用图形和表格，可查看在投放期间发生了哪些错误和排除项。
 +++
 
-## “应用程序内”选项卡 {#in-app-live}
+## 应用程序内选项卡 {#in-app-live}
 
 ![](assets/journey_live_5.png)
 

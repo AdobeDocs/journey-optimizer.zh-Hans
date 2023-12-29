@@ -9,7 +9,7 @@ keywords: inSegment，函数，表达式，历程
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '191'
 ht-degree: 6%
 
 ---
@@ -62,6 +62,6 @@ Adobe Experience Platform
 
 `inSegment("men over 50")`
 
-解释:
+说明：
 
 函数将返回 **[!UICONTROL true]** 如果旅程实例中的个人是名为“50岁以上的男性”的Adobe Experience Platform受众的一部分， **[!UICONTROL false]** 否则。

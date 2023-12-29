@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 >
 >Adobe会保留已证明对参与和邮件信誉有害的已知错误地址的更新列表，并确保不会向他们发送电子邮件。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
 
-此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您还可以利用 Journey Optimizer **禁止 REST API** 来使用禁止和允许列表控制传出消息。[了解如何使用禁止 REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 为什么要使用禁止列表？ {#why-suppression-list}
 

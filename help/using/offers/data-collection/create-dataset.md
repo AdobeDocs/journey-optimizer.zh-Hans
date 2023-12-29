@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 12%
+source-wordcount: '254'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}.
+   >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 1. 输入架构的名称和说明，然后单击 **完成**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,7 +51,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->详细了解在中构建架构 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#understanding-schemas){target="_blank"}.
+>详细了解在中构建架构 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 您现在已准备好使用此架构创建数据集。 为此，请执行以下步骤：
 

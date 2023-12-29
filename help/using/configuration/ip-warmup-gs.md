@@ -15,7 +15,7 @@ exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -74,6 +74,6 @@ Benefits
 
 ## 操作方法视频 {#video}
 
-了解如何创建和执行IP预热计划。
+了解如何创建和执行 IP 预热计划。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

@@ -8,8 +8,8 @@ keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 11%
+source-wordcount: '642'
+ht-degree: 6%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 11%
 
 1. 从新创建资产的“扩展”菜单中，安装以下扩展：
 
-   * Adobe Experience Platform Edge Network
+   * Adobe Experience Platform边缘网络
    * Adobe Journey Optimizer
    * AEP保证
    * 同意
@@ -105,7 +105,7 @@ ht-degree: 11%
 
 ## 内容试验先决条件 {#experiment-prerequisites}
 
-要为应用程序内渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在应用程序内实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hans){target="_blank"} 也包含在您的报表配置中。
+要为应用程序内渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在应用程序内实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} 也包含在您的报表配置中。
 
 换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
 

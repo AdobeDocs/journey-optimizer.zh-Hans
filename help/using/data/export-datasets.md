@@ -10,8 +10,8 @@ keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 6%
+source-wordcount: '906'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ## 可用于导出的Journey Optimizer数据集 {#datasets}
 
-从下表了解根据您的产品层，可以导出哪些Journey Optimizer数据集(请参阅 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |数据集|描述|层| |------- |------- |------- | | AJO BCC反馈事件数据集 | AJO BCC反馈事件数据集 | Prime | | AJO分类数据集 |用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 | Prime | | AJO同意服务数据集 |存储用户档案的同意信息。 | Prime | | AJO电子邮件跟踪体验事件数据集 |电子邮件渠道的交互日志，用于报表和创建受众。  | Prime | | AJO实体数据集 |用于存储发送给最终用户的消息的实体元数据的数据集。  | Prime | | AJO入站活动事件数据集 |用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 | Prime | | AJO交互式消息传递配置文件数据集 |存储为支持API触发的营销活动而创建的用户档案 | Prime | | AJO消息反馈事件数据集 |消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。| Prime | | AJO配置文件计数器扩展 |保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 | Prime | | AJO推送配置文件数据集 |存储用户档案的推送令牌。 | Prime | | AJO推送跟踪体验事件数据集 |用于报表和受众创建的推送渠道的交互日志。  | Prime | | AJO表面数据集 |与Journey Optimizer入站表面架构相关的空数据集 | Prime | | AOOutputForUPSDataset |包含要写回UPS的所有AO受众成员资格 | Prime | | Audience Orchestration配置文件数据集 |由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 | Prime | |决策对象存储库 — 活动 |在用户界面中又称为“决策” 。 但是，这些是用户创建的对象，它们将所有的构建块放在一起，包括决策逻辑。 例如，对于特定投放位置（位置），应考虑哪些优惠（优惠收藏集），以及要对这些优惠使用什么排名方法。 | Ultimate | |决策对象存储库 — 后备优惠 |这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 | Ultimate | |决策对象存储库 — 个性化优惠 |这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 | Ultimate | |决策对象存储库 — 投放位置 |这是对象存储库，用于定义需要显示选件的位置。 | Ultimate | |历程步骤事件 |捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 | Prime | |历程 |元数据数据集包含历程中每个步骤的信息 | Prime | | ODE DecisionEvents — 生产决策 |无论我们何时根据请求做出决策，我们都会将其计为决策事件 | Ultimate |
+从下表了解根据您的产品层，可以导出哪些Journey Optimizer数据集(请参阅 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |数据集|描述|层| | ------- | ------- | ------- | | AJO BCC反馈事件数据集 | AJO BCC反馈事件数据集 | Prime | | AJO分类数据集 | 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 | Prime | | AJO同意服务数据集 | 存储个人资料的同意信息。 | Prime | | AJO电子邮件跟踪体验事件数据集 | 用于报告和受众创建的电子邮件渠道的交互日志。  | Prime | | AJO实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  | Prime | | AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 | Prime | | AJO交互式消息传递配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 | Prime | | AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。来自电子邮件ISP有关退回的反馈也记录在此数据集中。 | Prime | | AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 | Prime | | AJO推送配置文件数据集 | 存储用户档案的推送令牌。 | Prime | | AJO推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  | Prime | | AJO表面数据集 | 与Journey Optimizer入站表面架构相关的空数据集 | Prime | | AoutputForUPSDataset | 包含要写回UPS的所有AO受众成员资格 | Prime | | Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 | Prime | | 决策对象存储库 — 活动 | 在用户界面中又称为“决策” 。 但是，这些是用户创建的对象，它们将所有的构建块放在一起，包括决策逻辑。 例如，对于特定投放位置（位置），应考虑哪些优惠（优惠收藏集），以及要对这些优惠使用什么排名方法。 | Ultimate | | 决策对象存储库 — 后备优惠 | 这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 | Ultimate | | 决策对象存储库 — 个性化优惠 | 这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 | Ultimate | | 决策对象存储库 — 投放位置 | 这是一个对象存储库，其中定义了需要显示选件的位置。 | Ultimate | | 历程步骤事件 | 捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 | Prime | | 历程 | 元数据数据集存储历程中每个步骤的信息 | Prime | | ODE DecisionEvents - prod decisioning | 无论我们何时根据请求做出决策，我们都会将其计为决策事件 | Ultimate |
 
 ## 先决条件 {#prerequisites}
 
