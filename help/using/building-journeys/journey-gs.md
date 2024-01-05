@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1779'
 ht-degree: 23%
 
 ---
@@ -140,13 +140,9 @@ ht-degree: 23%
 
 ![](assets/journeys-manage-access.png)
 
-### 时区和配置文件时区 {#timezone}
+### 历程和配置文件时区 {#timezone}
 
-时区在历程级别定义。
-
-您可以输入固定时区，或使用Adobe Experience Platform配置文件定义历程时区。
-
-如果在Adobe Experience Platform配置文件中定义了时区，则可以在旅程中检索该时区。
+时区在历程级别定义。 您可以输入固定时区，或使用Adobe Experience Platform配置文件定义历程时区。 如果在Adobe Experience Platform配置文件中定义了时区，则可以在旅程中检索该时区。
 
 有关时区管理的更多信息，请参阅 [此页面](../building-journeys/timezone-management.md).
 
@@ -154,7 +150,7 @@ ht-degree: 23%
 
 您可以定义 **开始日期**. 如果您尚未指定名称，则将在发布时自动定义它。
 
-您还可以添加 **结束日期**. 这允许用户档案在到期时自动退出。如果不指定结束日期，配置文件可以保留到默认历程超时（通常30天，Healthcare Shield附加产品为7天）为止。 唯一的例外是具有以下特征的定期读取受众历程 **在重复时强制重新进入** 激活，在下一次事件的开始日期结束。
+您还可以添加 **结束日期**. 这允许用户档案在到期时自动退出。如果未指定结束日期，则配置文件可以保留到 [全局历程超时](#global_timeout) （通常为30天，使用Healthcare Shield和Security and Privacy Shield附加产品可缩短为7天）。 唯一的例外是具有以下特征的定期读取受众历程 **在重复时强制重新进入** 激活，在下一次事件的开始日期结束。
 
 ### 历程活动中的超时和错误 {#timeout_and_error}
 
@@ -168,7 +164,9 @@ ht-degree: 23%
 
 ### 全局历程超时 {#global_timeout}
 
-除了 [timeout](#timeout_and_error) 在历程活动中使用，还有一个全局历程超时，该超时未显示在界面中并且无法更改。 此超时将在个人进入历程30天后停止个人进度。 这意味着个人的历程不能超过30天。 在30天超时之后，将删除个人的数据。 超时时间结束时仍在历程中流动的个人将被停止，并且不会在报表中考虑他们。 因此，您可能会看到进入历程的人员多于退出的人员。
+除了 [timeout](#timeout_and_error) 在历程活动中使用，还有一个全局历程超时，该超时未显示在界面中并且无法更改。
+
+此全局超时可停止历程中个人的进度 **30天** 他们进去之后。 此超时已减少到 **7天** 包含Healthcare Shield和Privacy and Security Shield附加产品。 这意味着个人的历程不能超过30天（或7天）。 在此超时时段后，个人数据将被删除。 超时时间结束时仍在历程中流动的个人将被停止，并且不会在报表中考虑他们。 因此，您可能会看到进入历程的人员多于退出的人员。
 
 >[!NOTE]
 >
