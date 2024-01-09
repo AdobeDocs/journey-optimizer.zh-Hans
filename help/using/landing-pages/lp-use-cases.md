@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 12%
 
 ---
@@ -92,7 +92,9 @@ ht-degree: 12%
 
 要使收件人能够取消订阅您的通信，您可以在电子邮件中包含指向选择退出登陆页面的链接。
 
-了解有关管理收件人同意的更多信息，以及这在中为什么很重要 [本节](../privacy/opt-out.md).
+>[!NOTE]
+>
+>了解有关管理收件人同意的更多信息，以及这在中为什么很重要 [本节](../privacy/opt-out.md).
 
 ### 选择退出管理 {#opt-out-management}
 
@@ -103,7 +105,7 @@ ht-degree: 12%
 * 单击此链接后，收件人将被定向到一个包含确认取消订阅按钮的登陆页面。
 * 单击选择退出按钮后，用户档案数据将使用此信息更新。
 
-### 配置选择退出 {#configure-opt-out}
+### 配置电子邮件选择退出 {#configure-opt-out}
 
 要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤。
 

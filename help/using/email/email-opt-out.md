@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 77%
+source-wordcount: '1029'
+ht-degree: 76%
 
 ---
 
@@ -22,11 +22,15 @@ ht-degree: 77%
 
 为此，您可以：
 
-* 插入 **链接到外部登陆页面** 以使用户能够取消订阅以停止接收来自您品牌的通信。 [了解如何添加外部选择退出链接](#opt-out-external-lp)
+* 插入 **链接到登陆页面** 以使用户能够取消订阅以停止接收来自您品牌的通信。 它可以是：
+
+   * A **[!DNL Journey Optimizer]登陆页面**. [了解如何添加选择退出登陆页面](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **外部登陆页面**. [了解如何添加外部选择退出链接](#opt-out-external-lp)
 
 * 添加 **一键式选择退出链接** 添加到您的电子邮件内容中。 该链接可让您的收件人快速取消订阅您的通信，而无需重定向到需要确认其选择的登陆页面，从而简化取消订阅流程。 [了解如何添加一键式选择退出链接](#one-click-opt-out)
 
-此外，如果 **[!UICONTROL 列表 — 取消订阅]** 选项在渠道平面级别启用，使用Journey Optimizer发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。 [了解有关电子邮件标题中选择退出的更多信息](#unsubscribe-header)
+* 在电子邮件标头中添加取消订阅链接。 如果 **[!UICONTROL 列表 — 取消订阅]** 选项在渠道平面级别启用，使用Journey Optimizer发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。 [了解有关电子邮件标题中选择退出的更多信息](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -161,7 +165,7 @@ ht-degree: 77%
 >abstract="启用“列表取消订阅”以向电子邮件标头添加取消订阅链接。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
-如果在渠道平面级别启用 [List-Unsubscribe](../configuration/channel-surfaces.md#list-unsubscribe) 选项，使用 [!DNL Journey Optimizer] 发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。
+如果在渠道平面级别启用 [List-Unsubscribe](email-settings.md#list-unsubscribe) 选项，使用 [!DNL Journey Optimizer] 发送的相应电子邮件将在电子邮件标头中包含取消订阅链接。
 
 例如，取消订阅链接在 Gmail 中将会如下图这样显示：
 
