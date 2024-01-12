@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
+source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 48%
+source-wordcount: '909'
+ht-degree: 47%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 48%
 >title="选择营销活动受众"
 >abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
 
-[!DNL Journey Optimizer] 允许您直接从使用实时客户档案数据构建和利用Adobe Experience Platform受众。 **[!UICONTROL 受众]** 菜单，并将它们用于您的历程或营销策划。 在中了解详情 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
+受众是指一组具有相似行为和/或特征的人员。 它们可以由Adobe Experience Platform使用区段定义或受众组合生成，也可以从CSV文件导入。 要了解有关受众的更多信息，请参阅 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
+
+[!DNL Journey Optimizer] 允许您直接从构建Adobe Experience Platform受众 **[!UICONTROL 受众]** 菜单，并将它们用于您的历程或营销活动。
 
 ## 在 [!DNL Journey Optimizer] 中使用受众 {#segments-in-journey-optimizer}
 
@@ -36,6 +38,7 @@ ht-degree: 48%
 >[!NOTE]
 >
 >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为 Private Beta 版提供。
+
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
