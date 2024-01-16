@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2060b18bfcc62e02127776f05de1448378a7a06a
+source-git-commit: 93e29ac1d81ef51c7031e9d37bc05cfc21cfce08
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1557'
 ht-degree: 6%
 
 ---
@@ -82,9 +82,9 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 在中创建IP预热计划之前 [!DNL Journey Optimizer] 界面，您需要在Excel模板中填写将提供计划的所有数据。
 
-* 您可以在此处下载空白 [Excel IP预热计划模板](assets/ip-warmup-csv.zip) 以填写。
+* 您可以在此处下载空白Excel [IP预热计划模板](assets/ip-warmup-plan-template.zip) 以填写。
 
-* 您也可以下载 [示例IP预热计划模板](assets/sample-ip-warmup-plan.zip) 已填入了一些可用作示例的数据。
+* 您也可以下载 [示例IP预热计划](assets/ip-warmup-plan-sample.zip) 已填入了一些可用作示例的数据。
 
 >[!CAUTION]
 >
@@ -299,7 +299,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    >[!NOTE]
    >
-   >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用 [示例](assets/ip-warmup-csv.zip) 由Adobe提供。
+   >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用 [模板](assets/ip-warmup-plan-template.zip) 由Adobe提供。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。在上传的文件中定义的所有阶段、运行、列及其内容会自动显示在 [!DNL Journey Optimizer] 界面。
 
