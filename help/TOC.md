@@ -190,7 +190,7 @@ ht-degree: 100%
          + [添加链接和跟踪消息](using/email/message-tracking.md)
          + [插入个性化优惠](using/email/add-offers-email.md)
          + [生成文本版本](using/email/text-version-email.md)
-         + [添加预编译标头](using/email/preheader.md)
+         + [添加邮件引文](using/email/preheader.md)
       + 编辑样式 {#edit-style}
          + [电子邮件样式入门](using/email/get-started-email-style.md)
          + [编辑背景设置](using/email/backgrounds.md)
