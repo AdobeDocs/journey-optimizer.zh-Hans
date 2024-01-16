@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1398'
 ht-degree: 11%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 11%
 * 对于使用“读取受众”活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（读取受众、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
 
 * 以读取受众、受众资格或业务事件活动开始的历程中，无法使用体验事件字段组。
+
+* 作为最佳实践，我们建议您仅在中使用批量受众 **读取受众** 活动。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用 **[受众资格](audience-qualification-events.md)** 活动。
 
 * 目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) “入门”作为私人测试版提供。 有关更多信息，请与您的 Adobe 代表联系。
 

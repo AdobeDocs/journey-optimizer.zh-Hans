@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 23%
+source-wordcount: '1011'
+ht-degree: 22%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 23%
 * 以读取受众、受众资格或业务事件活动开始的历程中，无法使用体验事件字段组。
 
 * 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
+
+* 作为最佳实践，我们建议您仅将流式受众用于 **受众资格** 活动。 对于批量用例，请使用 **[读取受众](read-audience.md)** 活动。
 
 ### 配置活动{#cnfigure-segment-qualification}
 
