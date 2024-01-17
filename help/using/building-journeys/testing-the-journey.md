@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1535'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 10%
 
 ## 重要说明 {#important_notes}
 
-* 在测试模式下，您可以使用界面触发事件。
+* 在测试模式下，您可以使用界面触发事件。 无法使用API从外部系统触发事件。
 * 只有在Real-time Customer Profile Service中标记为“测试配置文件”的个人才能进入测试历程。 请参阅此[章节](../audience/creating-test-profiles.md)。
 * 测试模式仅适用于使用命名空间的草稿历程。 测试模式需要检查进入旅程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间可进入历程的测试用户档案的最大数量为100。

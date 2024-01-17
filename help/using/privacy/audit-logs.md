@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,6 @@ ht-degree: 100%
 | AJO 登陆页面 HTML 模板 | 创建/删除/更新 |
 | AJO 登陆页面预设 | 创建/删除/更新 |
 | AJO 登陆页面子域 | 创建/删除/更新 |
-| AJO 消息 | 创建/删除/更新/发布 |
 | AJO 消息预设 | 创建/删除/更新 |
 | AJO PTR 记录 | 创建/删除/更新 |
 | AJO 保存的表达式模板 | 创建/删除/更新 |
