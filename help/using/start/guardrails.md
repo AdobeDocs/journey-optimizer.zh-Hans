@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
+source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1860'
+ht-degree: 94%
 
 ---
 
@@ -59,6 +59,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有益于可读性、进行 QA 检查和故障排除。
 * 当您发布历程时，我们会自动进行缩放和调整，确保最大吞吐量和稳定性。当您接近达成 100 个实时历程的里程碑时，将在 UI 中收到有关此成就的通知。如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
 * 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
+* 用户档案的历程实例的最大大小为1MB。 在历程执行过程中收集的所有数据都存储在该历程实例中。 因此，来自传入事件的数据、从Adobe Experience Platform检索的用户档案信息、自定义操作响应等。 存储在历程实例中并影响历程大小。 当历程以事件开始时，建议限制该事件有效负载的最大大小（例如：小于800 KB）以避免在历程执行中的一些活动后达到该限制。 当达到该限制时，用户档案处于错误状态并将从历程中排除。
+
 
 ### 常规操作 {#general-actions-g}
 
