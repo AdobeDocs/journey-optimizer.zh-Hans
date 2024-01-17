@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 47%
+source-wordcount: '970'
+ht-degree: 44%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 47%
 >title="选择营销活动受众"
 >abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
 
-受众是指一组具有相似行为和/或特征的人员。 它们可以由Adobe Experience Platform使用区段定义或受众组合生成，也可以从CSV文件导入。 要了解有关受众的更多信息，请参阅 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
+受众是指一组具有相似行为和/或特征的人员。 要了解有关受众的更多信息，请参阅 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
 
 [!DNL Journey Optimizer] 允许您直接从构建Adobe Experience Platform受众 **[!UICONTROL 受众]** 菜单，并将它们用于您的历程或营销活动。
+
+可以使用不同方法生成受众：
+
+* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 [了解如何构建区段定义](creating-a-segment-definition.md)
+* **CSV文件导入**：使用CSV文件导入受众。 了解如何在Adobe Experience Platform中导入受众 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **受众构成**：创建组合工作流以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
 
 ## 在 [!DNL Journey Optimizer] 中使用受众 {#segments-in-journey-optimizer}
 
