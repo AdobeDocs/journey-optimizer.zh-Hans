@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 44%
+source-wordcount: '991'
+ht-degree: 43%
 
 ---
 
@@ -37,14 +37,17 @@ ht-degree: 44%
 * **CSV文件导入**：使用CSV文件导入受众。 了解如何在Adobe Experience Platform中导入受众 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **受众构成**：创建组合工作流以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
 
-## 在 [!DNL Journey Optimizer] 中使用受众 {#segments-in-journey-optimizer}
+## 在以下位置定位受众： [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 您可以在营销活动和历程中选择使用生成的任何Adobe Experience Platform受众 [区段定义](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为 Private Beta 版提供。
-
+>目前，受众源自 [受众合成](../audience/get-started-audience-orchestration.md) 只能在营销活动中定位。 此功能作为历程的私有测试版提供。
+>
+>受众的使用 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 在营销活动和历程中，目前作为私人测试版提供。
+>
+>有关更多信息，请与您的 Adobe 代表联系。
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
