@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -55,7 +55,7 @@ ht-degree: 100%
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">历程画布处于草稿状态</td>
+    <td rowspan="8">历程画布处于草稿状态</td>
     <td>从左侧面板的第一个可用位置从上到下添加活动</td>
     <td>双击活动</td>
   </tr>
