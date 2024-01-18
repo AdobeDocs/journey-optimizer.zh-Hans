@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 5%
@@ -58,7 +58,7 @@ curl -X PATCH \
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
+| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`， `remove`， `copy` 和 `test`. |
 | `path` | 要更新的参数的路径。 |
 | `value` | 要用于更新参数的新值。 |
 
