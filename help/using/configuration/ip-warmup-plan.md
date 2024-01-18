@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: f776b851b6d3ca868fe34c691c5e1771a561dfef
+source-git-commit: da90e817edac44712f6f137d13574165c834e53a
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 6%
@@ -82,9 +82,9 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 在中创建IP预热计划之前 [!DNL Journey Optimizer] 界面，您需要在Excel模板中填写将提供计划的所有数据。
 
-* 从用户界面中，您可以下载空白Excel IP预热计划模板来填写。
+* 从用户界面可以下载空白Excel [IP预热计划模板](assets/IPWarmupPlan-Template.xlsx) 以填写。
 
-* 您还可以下载已填入一些数据的IP预热计划示例，您可以将其作为示例使用。
+* 您也可以下载 [示例IP预热计划](assets/IPWarmupPlan-Sample.xlsx) 已填入了一些可用作示例的数据。
 
 >[!CAUTION]
 >
@@ -299,7 +299,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    >[!NOTE]
    >
-   >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用Adobe为您提供的模板。
+   >如果上传失败，请确保您使用的是正确的格式和文件格式(.xls或.xlsx)。 使用模板<!--assets/IPWarmupPlan-Template.xlsx--> 由Adobe提供。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。在上传的文件中定义的所有阶段、运行、列及其内容会自动显示在 [!DNL Journey Optimizer] 界面。
 
