@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '743'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->此功能需要以下权限： manage-sandbox （或view-sandbox）和manage-package。
+>此功能需要以下权限： **沙盒管理** 功能：管理沙盒（或查看沙盒）和管理包。 [了解详情](../administration/ootb-permissions.md)
 
 ## 沙盒工具入门{#sandbox-gs}
 
