@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 8%
 * 与任何其他操作一样，您可以定义在发生错误或超时时的替代路径，并且不能将两个操作并行放置。
 * 发送到Adobe Experience Platform的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由更新的“字段1”， **更新配置文件** 位于之前的操作，您不应预期操作中将更新“字段1”。
 * 此 **更新配置文件** 活动不支持定义为枚举的XDM字段。
+* 此 **[!UICONTROL 更新配置文件]** 仅活动会更新 [配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}而不是数据湖。
+* 在中选择数据集时 **[!UICONTROL 更新配置文件]** 活动，建议使用未被数据摄取流定位的流量。 **[!UICONTROL 更新配置文件]** 仅存储在中的更新 [配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，则存在用数据摄取流覆盖此类更改的风险。
 
 ## 使用用户档案更新
 

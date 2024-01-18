@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="创建规则"
->abstract="通过构建规则创建方法，您可以使用 Adobe Experience Platform Audience Segmentation Service 创建新的受众定义。"
+>abstract="通过构建规则创建方法，您可以使用Adobe Experience Platform分段服务创建新的受众定义。"
 
 在本例中，我们将构建受众，以定位生活在亚特兰大、旧金山或西雅图且出生于1980年之后的所有客户。 所有这些客户应在过去7天内打开Luma应用程序，然后在打开应用程序后2小时内购买该应用程序。
 

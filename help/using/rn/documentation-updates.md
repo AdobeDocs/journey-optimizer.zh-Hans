@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '4247'
+source-wordcount: '4258'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 99%
 * 添加了有关历程大小的护栏。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * 已详细说明历程超时管理 [在以下部分中](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [文档主页](../../ajo-home.md) 页面已重新设计。
-
+* 添加了有关更新用户档案活动的Recommendations。 [了解详情](../building-journeys/update-profiles.md)
 
 ## 2023 年 11 月 {#nov-2023}
 
