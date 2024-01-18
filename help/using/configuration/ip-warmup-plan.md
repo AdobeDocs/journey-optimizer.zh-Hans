@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 6%
+source-wordcount: '1577'
+ht-degree: 5%
 
 ---
 
@@ -82,9 +82,14 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 在中创建IP预热计划之前 [!DNL Journey Optimizer] 界面，您需要在Excel模板中填写将提供计划的所有数据。
 
-* 从用户界面可以下载空白Excel [IP预热计划模板](assets/IPWarmupPlan-Template.xlsx) 以填写。
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* 您也可以下载 [示例IP预热计划](assets/IPWarmupPlan-Sample.xlsx) 已填入了一些可用作示例的数据。
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* 从用户界面中，您可以下载空白Excel IP预热计划模板来填写。
+
+* 您还可以下载已填入一些数据的IP预热计划示例，您可以将其作为示例使用。
 
 >[!CAUTION]
 >
@@ -265,7 +270,8 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
->abstract="下载 CSV 模板并在其中填入 IP 预热阶段的数据和配置文件的目标数量。"
+>abstract="在Excel模板中填写将提供计划的所有数据（如IP预热阶段和目标配置文件数），然后将其上传到此处。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备IP预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
