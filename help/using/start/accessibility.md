@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ ht-degree: 100%
     <td>SHIFT + 箭头键</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   以下元素的配置窗格：
 <ul>
   <li>历程中的活动</li>
@@ -97,8 +96,7 @@ ht-degree: 100%
   <li>数据源</li>
   <li>操作</li>
 </ul>
-
-</td>
+  </td>
     <td>移到要配置的下一个字段</td>
     <td>Tab</td>
   </tr>
@@ -120,11 +118,7 @@ ht-degree: 100%
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-在基于受众的历程中触发事件，其中&#x200B;**[!UICONTROL 一次单个用户档案]**&#x200B;选项处于打开状态
-
-</td>
+    <td>在基于受众的历程中触发事件，其中**[！UICONTROL一次单个配置文件]**选项处于打开状态</td>
     <td>P</td>
   </tr>
   <tr>
