@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**.
 
+在中了解有关Google和Yahoo要求的更多信息 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+
 >[!CAUTION]
 >
 >如果不遵循Gmail和Yahoo的新要求，则电子邮件可能会流入垃圾邮件文件夹或被阻止。
-
-在中详细了解Google和Yahoo的要求 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
 因此，Adobe强烈建议您确保为您已委派给Adobe的所有子域设置DMARC记录 [!DNL Journey Optimizer]. 请遵循以下两个选项之一：
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * 在委派的子域上设置DMARC **使用中即将推出的功能 [!DNL Journey Optimizer] 管理UI**  — 无需对托管解决方案执行额外操作。
 
-  >[!WARNING]
+  >[!CAUTION]
   >
   >如果您已设置 [CNAME委派](delegate-subdomain.md#cname-subdomain-delegation) 对于要发送的子域，还需要在托管解决方案中输入一些内容。 确保与IT部门协调，以便他们能够在 [!DNL Journey Optimizer] 功能已推出（2024年1月30日）。 <!--and be ready on February 1st, 2024-->
 
@@ -73,4 +73,4 @@ Google和雅虎共享的最新时间表如下：
 
 >[!NOTE]
 >
->要了解有关DMARC的更多信息，请参阅 [可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更好地了解实施DMARC对电子邮件可投放性的影响。
+>了解有关在中实施DMARC的更多信息 [可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更好地了解对电子邮件可投放性的影响。
