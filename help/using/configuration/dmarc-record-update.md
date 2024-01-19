@@ -8,9 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: 7cbd6a9e80a8d6b87b3c3011db80549a3b5f6e73
+hide: true
+hidefromtoc: true
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="了解有关强制DMARC更新的更多信息"
->abstract="作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**. <br>因此，Adobe强烈建议您确保为已在Journey Optimizer中委派给Adobe的所有子域设置DMARC记录。"
+>abstract="作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**. <br>因此，您必须确保为已在Journey Optimizer中委派给Adobe的所有子域设置了DMARC记录。"
 
 作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**.
 
@@ -32,9 +34,9 @@ ht-degree: 0%
 
 因此，Adobe强烈建议您确保为您已委派给Adobe的所有子域设置DMARC记录 [!DNL Journey Optimizer]. 请遵循以下两个选项之一：
 
-* 在您的子域或子域的父域上设置DMARC， **在您的托管解决方案中**.
+* 在您的子域或子域的父域上设置DMARC， **在您的托管解决方案中**. 你现在可以做了。
 
-* 在委派的子域上设置DMARC **使用中即将推出的功能 [!DNL Journey Optimizer] 管理UI**  — 无需对托管解决方案执行额外操作。
+* 在委派的子域上设置DMARC **使用中即将推出的功能 [!DNL Journey Optimizer] 管理UI**  — 无需对托管解决方案执行额外操作。 此功能将于2024年1月30日推出。
 
   >[!CAUTION]
   >

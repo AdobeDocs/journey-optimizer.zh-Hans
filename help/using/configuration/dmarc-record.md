@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 1%
 
 ---
 
@@ -20,31 +20,44 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="设置DMARC记录"
->abstract="设置DMARC记录以避免ISP出现可投放性问题"
+>abstract="设置DMARC记录以避免ISP出现可投放性问题。 作为强制执行行业最佳实践的一部分，Google和雅虎都要求您拥有DMARC记录，才能使用任何域向它们发送电子邮件。"
 
 >[!CAUTION]
 >
->继最近在Gmail和Yahoo上宣布推出批量发件人功能后，Journey Optimizer现在支持DMARC身份验证技术。//您必须更新已在实例中创建的所有子域以包含DMARC支持。//
+>继最近在Gmail和Yahoo上宣布推出批量发件人功能后，Journey Optimizer现在支持DMARC身份验证技术。
 
-在2月1日前完成此任务很重要，Doc即将推出
+<!--TO ADD TO AJO HOME PAGE (first tab)
 
-开始日期
+>[!TAB Mandatory DMARC update]
 
-您有2个选项：
+As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
 
-* 从现在开始，您自行完成：随时与IT部门一起设置
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+-->
 
-* 在AJO中执行此操作 — 但在这种情况下，您需要等待1月30日
+作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**.
 
-   * 完全委派：您可以在1月30日执行该操作（AJO版本）
+在中了解有关Google和Yahoo要求的更多信息 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-   * CNAME与您的IT部门一起进行规划，这样就不会太费时，但您需要对其进行规划
+>[!CAUTION]
+>
+>如果不遵循Gmail和Yahoo的新要求，则电子邮件可能会流入垃圾邮件文件夹或被阻止。
 
-作为强制执行行业最佳实践的一部分，Google和雅虎都将要求您拥有DMARC记录，才能用于向其发送电子邮件。 此新要求开始于 **2024年2月1日**.
+因此，Adobe强烈建议您确保为您已委派给Adobe的所有子域设置DMARC记录 [!DNL Journey Optimizer]. 请遵循以下两个选项之一：
 
-在中了解有关Google和雅虎对DMARC记录要求的更多信息 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* 在您的子域或子域的父域上设置DMARC， **在您的托管解决方案中**.
 
-在Google和Yahoo上了解更多已宣布的更改 [此页面](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* 在委派的子域上设置DMARC **使用中的新功能 [!DNL Journey Optimizer] 管理UI**  — 无需对托管解决方案执行额外操作。 [了解详情](#implement-dmarc)
+
+  >[!CAUTION]
+  >
+  >如果您已设置 [CNAME委派](delegate-subdomain.md#cname-subdomain-delegation) 对于要发送的子域，还需要在托管解决方案中输入一些内容。 确保与IT部门协调，以便他们能够在 [!DNL Journey Optimizer] 功能已推出（2024年1月30日）。 <!--and be ready on February 1st, 2024-->
+
+>[!NOTE]
+>
+>了解有关在中实施DMARC的更多信息 [可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更好地了解对电子邮件可投放性的影响。
+
+## 什么是DMARC？
 
 DMARC，代表 **基于域的报文验证、报告和符合性**，是一种电子邮件身份验证协议，可帮助防止电子邮件欺骗、网络钓鱼和其他欺诈活动。
 
@@ -61,21 +74,26 @@ DMARC，代表 **基于域的报文验证、报告和符合性**，是一种电�
 
 设置DMARC记录涉及将DNS TXT记录添加到域的DNS设置。 此记录指定您的DMARC策略，例如是隔离还是拒绝身份验证失败的邮件。 实施DMARC是增强电子邮件安全性并保护您的组织和收件人免受电子邮件威胁的主动步骤。
 
-[在可投放性最佳实践指南中了解有关DMARC的更多信息](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更好地了解DMARC对电子邮件可投放性的影响。
+## 实施 DMARC {#implement-dmarc}
 
-如果不添加DMARC，您将至少被隔离。
+* 如果不添加DMARC，您将至少被隔离。
 
-请确保您拥有可控制的正版收件箱 — 您管理此收件箱(不应是Adobe收件箱)
+* 确保您有一个可以接收邮件的正版收件箱 — 您可以管理此收件箱(不应是Adobe收件箱)
 
-建议为24，因为通常情况下，如果低于，请评估您的容量/检查您的>聊天GPT
+推荐值为24，因为通常这是ISP具有的内容。
+如果低于，则评估您的容量/查看您的>聊天GPT
 
-Google和Yahoo，以及所有其他主要ISP
+如果检测到DMARC记录，则可以复制粘贴与列出的值相同的值，或者在需要时更改这些值。
+
+如果不输入任何内容，则使用默认值。
+
+### 完全委派的子域
+
+### 使用CNAME委派的子域
 
 对于版本流中的CNAME，您需要再次下载CSV文件（不是为了完全委派）
 
-新DMARC记录
 
-在RN >中，首先必须使用DMARC支持更新所有子域
 
 
 
