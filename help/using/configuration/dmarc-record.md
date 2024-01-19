@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC，代表 **基于域的报文验证、报告和符合性**，是一种电�
 
 设置DMARC记录涉及将DNS TXT记录添加到域的DNS设置。 此记录指定您的DMARC策略，例如是隔离还是拒绝身份验证失败的邮件。 实施DMARC是增强电子邮件安全性并保护您的组织和收件人免受电子邮件威胁的主动步骤。
 
-[在可投放性最佳实践指南中了解有关DMARC的更多信息](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans){target="_blank"} 以更好地了解DMARC对电子邮件可投放性的影响。
+[在可投放性最佳实践指南中了解有关DMARC的更多信息](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} 以更好地了解DMARC对电子邮件可投放性的影响。
 
 如果不添加DMARC，您将至少被隔离。
 
