@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4121'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 99%
 
 * 复制历程时，您现在可以定义历程副本的名称。[了解详情](../building-journeys/journey-gs.md#uplicate-a-journey
 
-* 自定义操作响应功能现已普遍可用。这项功能允许您在自定义操作中对 API 调用响应加以利用，并根据这些响应编排历程。此外， [新的上限护栏](../start/guardrails.md#custom-actions-g) 已添加以自动限制自定义操作调用。 [了解详情](../action/action-response.md)
+* 自定义操作响应功能现已普遍可用。这项功能允许您在自定义操作中对 API 调用响应加以利用，并根据这些响应编排历程。此外，添加了[新的上限护栏](../start/guardrails.md#custom-actions-g)以自动限制自定义操作调用。[了解详情](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
