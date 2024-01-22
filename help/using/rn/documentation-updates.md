@@ -22,8 +22,8 @@ ht-degree: 99%
 ## 2024 年 1 月 {#jan-2024}
 
 * 添加了有关历程大小的护栏。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-* 已详细说明历程超时管理 [在以下部分中](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [文档主页](../../ajo-home.md) 页面已重新设计。
+* [在以下部分](../building-journeys/journey-gs.md#global_timeout)中对历程超时管理进行了详细说明。
+* Journey Optimizer [文档主页](../../ajo-home.md)页面已重新设计。
 * 添加了有关更新用户档案活动的Recommendations。 [了解详情](../building-journeys/update-profiles.md)
 
 ## 2023 年 11 月 {#nov-2023}
