@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1627'
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 9%
 >
 > * 要创建、编辑和删除渠道曲面，您必须具有 [管理消息预设](../administration/high-low-permissions.md#administration-permissions) 许可。
 >
-> * 您必须执行 [电子邮件配置](../email/get-started-email-config.md)， [推送配置](../push/push-configuration.md) 和 [短信配置](../sms/sms-configuration.md) 创建渠道表面之前的步骤。
+> * 您必须执行 [电子邮件配置](../email/get-started-email-config.md)， [推送配置](../push/push-configuration.md)， [短信配置](../sms/sms-configuration.md) 和 [直邮配置](../direct-mail/direct-mail-configuration.md) 创建渠道表面之前的步骤。
 
 配置渠道平面后，您将能够在从历程或营销策划创建消息时选择它们。
 
