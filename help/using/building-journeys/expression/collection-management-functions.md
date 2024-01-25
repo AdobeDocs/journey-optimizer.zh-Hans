@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
+source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 2%
@@ -169,8 +169,7 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 仅在处理事件集合时可用， **[!UICONTROL currentDataPackField]**
-在处理数据源集合和 **[!UICONTROL currentActionField]** 处理自定义操作响应集合时。
+>**[!UICONTROL currentEventField]** 仅在处理事件集合时可用， **[!UICONTROL currentDataPackField]** 在处理数据源集合和 **[!UICONTROL currentActionField]** 处理自定义操作响应集合时。
 >
 >处理收藏集时 **[!UICONTROL 所有]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 最后一个]**， we
 >逐个循环集合的每个元素。 **[!UICONTROL currentEventField]**， **currentDataPackField** 和 **[!UICONTROL currentActionField]** 对应于正在循环的元素。
