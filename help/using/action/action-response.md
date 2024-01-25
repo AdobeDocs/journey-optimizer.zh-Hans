@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-有关字段引用的更多信息，请参阅 [本节](../building-journeys/expression/field-references.md).
+## 其他资源
+
+有关更多信息，请参阅以下页面：
+
+* [字段引用](../building-journeys/expression/field-references.md).
+* [收藏集管理函数](../building-journeys/expression/collection-management-functions.md)
