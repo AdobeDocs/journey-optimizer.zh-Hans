@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 仅在处理事件集合和 **currentDataPackField**
->处理数据源集合时。 处理收藏集时 **[!UICONTROL 所有]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 最后一个]**， we
->逐个循环集合的每个元素。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
->对应于正在循环的元素。
+>**[!UICONTROL currentEventField]** 仅在处理事件集合时可用， **[!UICONTROL currentDataPackField]**
+在处理数据源集合和 **[!UICONTROL currentActionField]** 处理自定义操作响应集合时。
+>
+>处理收藏集时 **[!UICONTROL 所有]**， **[!UICONTROL 第一]** 和 **[!UICONTROL 最后一个]**， we
+>逐个循环集合的每个元素。 **[!UICONTROL currentEventField]**， **currentDataPackField** 和 **[!UICONTROL currentActionField]** 对应于正在循环的元素。
 
 **函数“first(`<condition>`)”和“last(`<condition>`)”**
 
