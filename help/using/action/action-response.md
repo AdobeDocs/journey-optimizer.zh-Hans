@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '614'
 ht-degree: 4%
 
 ---
@@ -200,6 +200,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  @action{<action name>.<path to the field>, defaultValue: <default value expression>}
  @action{ActionLoyalty.points, defaultValue: 0}
  @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
+```
+
+在自定义操作响应中处理收藏集时，您可以依赖“currentActionField”来访问当前项目：
+
+```json
+count(
+@action{MyAction.MyCollection.all(
+currentActionField.description == "abc"
+)}
+)
 ```
 
 有关字段引用的更多信息，请参阅 [本节](../building-journeys/expression/field-references.md).
