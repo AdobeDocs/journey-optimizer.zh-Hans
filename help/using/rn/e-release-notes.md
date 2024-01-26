@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
+source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 21%
 
 ---
 
@@ -23,98 +23,61 @@ ht-degree: 100%
 
 以下早期发行说明可能会在正式发行日期之前发生更改，恕不另行通知。链接、屏幕和更新文档，会在发行之日发布于[发行说明](release-notes.md)中。
 
-## 2023 年 10 月早期发行说明 {#oct-rn-2023}
+## 2024年1月早期发行说明 {#oct-jan-2024}
 
-**发行日期**：2023 年 10 月 25 日至 26 日
+**发行日期**：2024年1月20日至31日
 
-### 新功能{#oct-2023-features}
+### 新功能{#jan-2024-features}
 
 此版本引入了下方列出的新功能。
 
-<table>
-<thead>
-<tr>
-<th><strong>沙盒工具</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>短信中的多媒体消息服务 (MMS) 内容（Beta 版） </strong><br/></th>
+<th><strong>可投放性更新</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能目前仅在支持 Sinch 的 Beta 版中可用。</p>
+<p>Journey Optimizer现在支持DMARC身份验证技术。</p>
+<p>从2024年2月1日开始，Google和Yahoo！ 将要求您拥有用于向其发送电子邮件的任何域的DMARC记录。 确保为您已委派或正在委派给Journey Optimizer中的Adobe的所有子域设置了DMARC记录。</p>
 <!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>有关更多信息，请参阅<a href="../configuration/dmarc-record-update.md">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
 
-### 改进 {#oct-2023-improvements}
+
+
+### 改进 {#jan-2024-improvements}
 
 此版本包含下方列出的改进。
 
-**受众**
+**报告**
 
-* 您现在可以将从 CSV 文件上传的受众定位到历程和营销活动中。
-* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。
+* **按域划分的渠道报表**  — 添加了新构件，用于增强您的促销活动和历程报表。 此 **按域列出的退回原因**， **按域发送和投放**， **按域划分的打开数和点击数** 和 **按域列出的退回和错误** 小组件在域级别提供了关键电子邮件投放和跟踪指标的详细细分。 [了解详情](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->这些功能目前作为 Private Beta 版提供。
+**短信渠道**
 
-<!--
-**Spam scoring for emails**
+* **双重选择加入**  — 短信的双重选择加入工作流程可确保用户在从其设备发起请求时，明确选择加入接收消息。 用户通过发送入站SMS消息启动同意流程。 确认同意后，将发送后续消息，请求进行最终验证。 如果用户配置文件不存在，则会在成功确认时创建该配置文件。
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**营销活动**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 当您的某个营销活动出现错误时，警告图标现在会与该营销活动的状态一起显示在营销活动列表中。
+  请注意，这仅适用于Sinch和Infobip短信提供商。
 
 **历程**
 
-* 现在，您可以定义的最长等待持续时间为 29 天，而不是 30 天。这适用于：
+* **反应事件持续时间**  — 您可以在 **反应事件** 现在为29天，而不是30天。 [了解详情](../building-journeys/reaction-events.md)
 
-   * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
-   * [历程属性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重入等待期**
-   * [常规](../building-journeys/general-events.md#events-specific-time)和[反应](../building-journeys/reaction-events.md)事件超时定义中的&#x200B;**等待**&#x200B;字段。
+* **日期过滤器**  — 除了现有的预定义日期过滤器之外，您现在可以使用自定义日期来筛选历程库存。 这允许您通过显示特定日期、特定月内、全年或指定时间范围内发布的旅程来优化列表。
 
-**渠道配置中的同意**
+* **读取受众**   — 现在，读取受众活动依赖于批处理区段的配置文件快照数据集，该数据集仅在计划的每日批处理作业运行一天后生成一次。
 
-* 现在，您可以在渠道表面级别选择营销操作。在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
+**频率规则**
+
+* **每周和每日频率上限**  — 现在，您可以指定在一周或一天内（除月外），向客户配置文件发送的最大消息数。 频率上限基于所选日历周期并在相应时间范围的开始处重置。
+
 
 **决策管理**
 
-* 更新了与决策管理界面中优惠上限相关的多个标签。
+* **边缘上的频率字幕**  — 频率上限计数器现已更新，不到3秒即可在Edge Decisioning API决策中提供。
