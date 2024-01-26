@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
 * [在以下部分](../building-journeys/journey-gs.md#global_timeout)中对历程超时管理进行了详细说明。
 * Journey Optimizer [文档主页](../../ajo-home.md)页面已重新设计。
 * 添加了有关更新用户档案活动的Recommendations。 [了解详情](../building-journeys/update-profiles.md)
+* 添加了有关历程中事件活动超时行为的信息。 如果在指定的超时时间内未收到任何事件，且未定义超时路径，则个人将继续历程。 [了解详情](../building-journeys/general-events.md#events-specific-time)
 
 ## 2023 年 11 月 {#nov-2023}
 
