@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 20%
@@ -71,7 +71,7 @@ ht-degree: 20%
 
 * **日期过滤器**  — 除了现有的预定义日期过滤器之外，您现在可以使用自定义日期来筛选历程库存。 这允许您通过显示特定日期、特定月内、全年或指定时间范围内发布的旅程来优化列表。
 
-* **读取受众**   — 现在，读取受众活动依赖于批处理区段的配置文件快照数据集，该数据集仅在计划的每日批处理作业运行一天后生成一次。
+* **读取受众**   — 现在，读取受众活动依赖于批处理区段的配置文件快照数据集，该数据集仅在计划的每日批处理作业运行后每天生成一次。
 
 **频率规则**
 
