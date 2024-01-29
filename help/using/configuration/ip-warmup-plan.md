@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 5%
 
 +++
 
-## 准备IP预热计划文件 {#prepare-file}
+## 准备 IP 预热计划文件 {#prepare-file}
 
 IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Internet服务提供商(ISP)的电子邮件数量，以确立您作为合法发件人的声誉。
 
@@ -270,8 +270,8 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
->abstract="在Excel模板中填写将提供计划的所有数据（如IP预热阶段和目标配置文件数），然后将其上传到此处。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备IP预热计划文件"
+>abstract="在 Excel 模板中填入将为您的计划提供信息的所有数据，例如 IP 预热阶段和目标配置文件数，然后在此处上传。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

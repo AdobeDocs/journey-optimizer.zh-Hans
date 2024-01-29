@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -40,13 +40,13 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="使用Journey Optimizer配置短信提供商"
->abstract="Adobe Journey Optimizer通过短信服务提供商发送短信。 选择提供商并填写 API 凭据。"
+>title="使用 Journey Optimizer 配置短信提供商"
+>abstract="Adobe Journey Optimizer 通过短信服务提供商发送短信。选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
->title="使用Journey Optimizer配置MMS提供商"
->abstract="Adobe Journey Optimizer通过MMS服务提供商发送媒体内容。 选择提供商并填写 API 凭据。"
+>title="使用 Journey Optimizer 配置 MMS 提供商"
+>abstract="Adobe Journey Optimizer 通过 MMS 服务提供商发送媒体内容。选择提供商并填写 API 凭据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
