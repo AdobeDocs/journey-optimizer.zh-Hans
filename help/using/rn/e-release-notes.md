@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
+source-git-commit: fd6f83019aa9cd5b4d6561007f5e0068256bb211
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 20%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 20%
 
 **报告**
 
-* **按域划分的渠道报表**  — 添加了新构件，用于增强您的促销活动和历程报表。 此 **按域列出的退回原因**， **按域发送和投放**， **按域划分的打开数和点击数** 和 **按域列出的退回和错误** 小组件在域级别提供了关键电子邮件投放和跟踪指标的详细细分。
+* **新的基于域的划分构件**  — 添加了新构件，用于增强您的促销活动和历程报表。 此 **按域列出的退回原因**， **按域发送和投放**， **按域划分的打开数和点击数** 和 **按域列出的退回和错误** 小组件在域级别提供了关键电子邮件投放和跟踪指标的详细细分。
 
 **短信渠道**
 
