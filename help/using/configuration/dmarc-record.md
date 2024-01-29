@@ -8,9 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-hide: true
-hidefromtoc: true
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 1%
