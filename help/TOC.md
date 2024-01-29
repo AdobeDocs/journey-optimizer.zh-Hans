@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 99%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 99%
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
-      + [强制性DMARC更新](using/configuration/dmarc-record-update.md)
+      + [新DMARC要求](using/configuration/dmarc-record-update.md)
    + [错误原因](using/reports/error-list.md)
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -526,6 +526,7 @@ ht-degree: 99%
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
+      + [设置DMARC记录](using/configuration/dmarc-record.md)
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)

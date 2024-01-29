@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 22%
+source-wordcount: '1857'
+ht-degree: 21%
 
 ---
 
@@ -85,6 +85,12 @@ ht-degree: 22%
    >
    >您可以创建记录，并稍后使用提交子域配置。 **[!UICONTROL 另存为草稿]** 按钮。 然后，您可以通过从子域列表中打开子域委派来恢复子域委派。
 
+1. 如果子域没有DMARC记录，您可以在此处设置它。 如果子域具有现有DMARC记录，并且它是由获取的 [!DNL Journey Optimizer]，则可以使用相同的值，也可以根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+   <!--update screen when available-->
+
 1. 提交完全子域委派后，子域将显示在列表中，其中包含 **[!UICONTROL 正在处理]** 状态。 有关子域状态的更多信息，请参阅 [本节](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -154,6 +160,8 @@ CNAME 子域委派允许您创建子域，并使用 CNAME 指向特定于 Adobe 
    >[!NOTE]
    >
    >稍后您可以使用创建记录 **[!UICONTROL 另存为草稿]** 按钮。 然后，在此阶段，您可以通过从子域列表中打开子域委派来恢复子域委派。
+
+1. 如果子域没有DMARC记录，您可以在此处设置它。 如果子域具有现有DMARC记录，并且它是由获取的 [!DNL Journey Optimizer]，则可以使用相同的值，也可以根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
 
 1. 请等待，直到Adobe验证在您的托管解决方案上生成这些记录时没有出现错误。 此过程最多可能需要2分钟。
 

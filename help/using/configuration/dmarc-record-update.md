@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 强制性DMARC更新
+title: 符合新的DMARC要求
 description: 了解必须在Journey Optimizer中设置DMARC记录的原因和时间
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 0%
+source-wordcount: '526'
+ht-degree: 7%
 
 ---
 
-# 强制性DMARC更新 {#dmarc-record-update}
+# 符合新的DMARC要求 {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="了解有关强制DMARC更新的更多信息"
->abstract="作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**. <br>因此，您必须确保为已在Journey Optimizer中委派给Adobe的所有子域设置了DMARC记录。"
+>title="了解有关强制 DMARC 更新的更多信息"
+>abstract="作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**.<br>因此，您必须确保为您在 Journey Optimizer 中委托给 Adobe 的所有子域设置 DMARC 记录。"
 
 作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**.
 
@@ -36,13 +36,15 @@ ht-degree: 0%
 
    * 在委派的子域的父域上设置DMARC **在您的托管解决方案中**.
 
-   * 在委派的子域上设置DMARC **使用中即将推出的功能 [!DNL Journey Optimizer] 管理UI**  — 无需对托管解决方案执行额外操作。
+   * 在委派的子域上设置DMARC **在 [!DNL Journey Optimizer] 管理UI**  — 无需对托管解决方案执行额外操作。 [了解如何操作](dmarc-record.md#implement-dmarc)
 
-* 如果您已设置 [CNAME委派](delegate-subdomain.md#cname-subdomain-delegation) 对于正在发送的子域，请遵循以下两个选项之一：
+* 如果您已通过设置发送子域 [CNAME](delegate-subdomain.md#cname-subdomain-delegation)，请遵循以下两个选项之一：
    * 在子域或子域的父域上设置DMARC **在您的托管解决方案中**.
-   * 在委派的子域上设置DMARC **使用中即将推出的功能 [!DNL Journey Optimizer] 管理UI**. 但是，它还需要在托管解决方案中输入。 因此，请确保与IT部门进行协调，以便他们能够在 [!DNL Journey Optimizer] 功能现已推出（1月30日）。 <!--and be ready on February 1st, 2024-->
+   * 在委派的子域上设置DMARC **在 [!DNL Journey Optimizer] 管理UI**. [了解如何操作](dmarc-record.md#implement-dmarc)
 
-**更多有关 [!DNL Journey Optimizer] DMARC即将推出的功能即将推出。**
+     但是，通过CNAME委派，您还需要在托管解决方案中输入。 因此，请确保与IT部门进行协调，以便他们能够在 [!DNL Journey Optimizer] 功能现已推出（1月30日）。 [了解详情](dmarc-record.md#implement-dmarc)
+
+**更多有关 [!DNL Journey Optimizer] DMARC即将推出的功能在以下位置提供： [本节](dmarc-record.md).**
 
 >[!NOTE]
 >
