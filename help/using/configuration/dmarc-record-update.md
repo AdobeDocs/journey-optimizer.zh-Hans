@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="了解有关强制 DMARC 更新的更多信息"
+>title="详细了解强制 DMARC 更新"
 >abstract="作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**.<br>因此，您必须确保为您在 Journey Optimizer 中委托给 Adobe 的所有子域设置 DMARC 记录。"
 
 作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**.

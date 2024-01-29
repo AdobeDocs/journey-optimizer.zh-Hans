@@ -270,7 +270,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
->abstract="在 Excel 模板中填入将为您的计划提供信息的所有数据，例如 IP 预热阶段和目标配置文件数，然后在此处上传。"
+>abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标配置文件数，然后在此处上传它。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
