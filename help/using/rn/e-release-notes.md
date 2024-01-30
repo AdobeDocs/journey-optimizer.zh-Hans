@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c650efb7a2ded5e78e3b11577a250773cec71fd3
+source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>利用Real-Time CDP和Journey Optimizer中特定于行业的用例行动手册目录，解决您可以使用Adobe Experience Platform和Adobe历程优化器执行的常见用例。</p><p>一旦您选择了最符合您需求的行动手册，您就可以启用该行动手册以生成支持您的用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。</p>
-<img src="assets/playbooks-detail.png"/>
+<img src="assets/do-not-localize/playbooks.gif"/>
 <!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
 </tr>
 </tbody>
