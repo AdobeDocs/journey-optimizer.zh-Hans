@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 基于域的消息身份验证、报告和符合性(DMARC)是一种电子邮件身份验证方法，它允许域所有者保护其域免遭未经授权的使用。 通过向电子邮件提供商/ISP提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施DMARC可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可投放性。
 
 
-作为强制执行行业最佳实践的一部分，Google和Yahoo！ 都要求 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求适用于起始日期 **2024年2月1日**. [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}。
+作为强制执行行业最佳实践的一部分，Google和Yahoo！ 都要求 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求适用于起始日期 **2024年2月1日**. [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ ht-degree: 6%
 
      但是，通过CNAME委派，您还需要在托管解决方案中输入。 因此，请确保与IT部门进行协调，以便他们能够在 [!DNL Journey Optimizer] 功能现已推出（1月30日）。 [了解详情](dmarc-record.md#implement-dmarc)
 
-**从1月30日开始，您将可以使用一个自助式界面来实施DMARC。 了解详情，请参阅 [本节](dmarc-record.md#implement-dmarc).**
+**从1月30日起，您将可以使用自助式界面来实施DMARC。 了解详情，请参阅 [本节](dmarc-record.md#implement-dmarc).**
 
 Google和雅虎共享的最新时间表如下：
 
