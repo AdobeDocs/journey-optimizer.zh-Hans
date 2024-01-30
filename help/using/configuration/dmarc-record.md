@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 1%
@@ -111,7 +111,7 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
 
 1. 保存更改。
 
-## 为新子域设置DMARC {#set-up-dmarc}
+### 为新子域设置DMARC {#set-up-dmarc}
 
 委派新子域以在中进行Adobe时 [!DNL Journey Optimizer]，则将为您的域在DNS中创建一个DMARC记录。 按照以下步骤实施DMARC。
 
