@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 23%
+source-wordcount: '1787'
+ht-degree: 16%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 23%
 >title="历程"
 >abstract="设计客户历程以营造个性化的上下文体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
 
+### 关键量度和历程列表 {#access-metrics}
+
 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 提供了以下两个选项卡：
 
 **概述**：此选项卡显示一个功能板，其中包含与您的历程相关的关键量度：
@@ -69,15 +71,27 @@ ht-degree: 23%
 
 ![](assets/journeys-browse.png)
 
-在历程列表中，您可以根据历程的状态、类型和版本从&#x200B;**[!UICONTROL 状态和版本过滤器]**&#x200B;中筛选历程。类型可以是： **[!UICONTROL 单一事件]**， **[!UICONTROL 受众资格]**， **[!UICONTROL 读取受众]**， **[!UICONTROL 业务事件]** 或 **[!UICONTROL 突发]**.
+### 筛选历程 {#filter}
 
-您可以从&#x200B;**[!UICONTROL 活动过滤器]**&#x200B;和&#x200B;**[!UICONTROL 数据过滤器]**&#x200B;中选择仅显示使用特定事件、字段组或操作的历程。此外， **[!UICONTROL 发布过滤器]** 允许您选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时历程。[了解详情](../building-journeys/using-the-journey-designer.md)。
+在历程列表中，您可以利用各种过滤器来优化历程列表，以提高可读性。
 
 ![](assets/filter-journeys.png)
 
-使用&#x200B;**[!UICONTROL 上次更新]**&#x200B;和&#x200B;**[!UICONTROL 上次更新者]**&#x200B;列检查历程的上次更新时间以及保存该更新的人员。
+以下是您可以执行的各种筛选操作：
 
-在“事件”、“数据源”和“操作”配置窗格中，**[!UICONTROL 使用位置]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
+* 根据历程的状态、类型、版本和分配的标记，从筛选历程 **[!UICONTROL 状态和版本筛选器]**.
+
+  类型可以是： **[!UICONTROL 单一事件]**， **[!UICONTROL 受众资格]**， **[!UICONTROL 读取受众]**， **[!UICONTROL 业务事件]** 或 **[!UICONTROL 突发]**.
+
+* 使用 **[!UICONTROL 创建过滤器]** 根据历程的创建日期或创建历程的用户对历程进行筛选。
+
+* 显示使用来自的特定事件、字段组或操作的历程 **[!UICONTROL 活动过滤器]** 和 **[!UICONTROL 数据过滤器]**.
+
+* 使用 **[!UICONTROL 发布过滤器]** 以选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时历程。
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+此外，在“事件”、“数据源”和“操作”配置窗格中， **[!UICONTROL 使用位置]** 字段显示使用该特定事件、字段组或操作的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ ht-degree: 23%
 
 在中了解有关用户档案进入和重入管理的更多信息 [本节](entry-management.md).
 
-### 管理访问权限 {#access}
+### 管理访问权限 {#manage-access}
 
 要将自定义或核心数据使用标签分配给历程，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
