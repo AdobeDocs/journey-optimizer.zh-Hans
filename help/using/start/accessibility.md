@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 96%
     <td>E</td>
   </tr>
   <tr>
-    <td>在基于受众的历程中触发事件，其中**[！UICONTROL一次单个配置文件]**选项处于打开状态</td>
+    <td>在基于受众的历程中触发事件，其中 **[!UICONTROL Single profile at a time]** 选项处于打开状态</td>
     <td>P</td>
   </tr>
   <tr>
