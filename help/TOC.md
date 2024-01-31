@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 99%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 99%
    + [用户界面](using/start/user-interface.md)
    + [搜索、筛选、分类](using/start/search-filter-categorize.md)
    + [辅助功能](using/start/accessibility.md)
+   + [用例行动手册](using/start/playbooks.md)
    + [集成](using/start/ajo-integrations.md)
    + [护栏](using/start/guardrails.md)
    + [最佳实践](using/start/best-practices.md)
@@ -358,9 +359,9 @@ ht-degree: 99%
       + [可投放性入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
       + [新DMARC要求](using/configuration/dmarc-record-update.md)
-   + [错误原因](using/reports/error-list.md)
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [排除原因](using/reports/exclusion-list.md)
 + 决策管理{#offer-decisioning}
    + 决策管理入门 {#get-started-decision}
       + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)

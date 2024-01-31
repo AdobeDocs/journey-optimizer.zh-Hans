@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td> 跳出次数<br/> </td> 
-   <td> 投放和自动返回处理期间累计的错误总数与已发送消息的总数相关。<br/> </td> 
+   <td> 与已发送消息总数相关的发送过程和自动返回处理期间累计的错误总数。<br/> </td> 
 </tr> 
   <tr> 
    <td> 跳出率<br/> </td> 
@@ -84,16 +84,16 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 错误<br/> </td> 
-   <td> 投放期间发生并阻止将其发送到用户档案的错误总数。<br/> </td> 
+   <td> 发送过程中发生的阻止将其发送到用户档案的错误总数。<br/> </td> 
 </tr> 
   <tr> 
    <td> 错误率<br/> </td> 
-   <td> 与已发送电子邮件相比，在投放期间发生并阻止发送该投放的错误百分比。<br/> </td> 
+   <td> 与已发送电子邮件相比，发送过程中发生阻止发送该邮件的错误百分比。<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> 错误原因<br/> </td> 
-   <td> 导致该错误的特定原始原因的名称。 <a href="error-list.md">了解有关错误原因的更多信息</a>.<br/> </td> 
+   <td> 导致该错误的特定原始原因的名称。 <a href="exclusion-list.md">了解有关错误原因的更多信息</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
@@ -340,7 +340,7 @@ ht-degree: 0%
 </tr>
   <tr> 
    <td> 错误原因<br/> </td> 
-   <td> 导致该错误的特定原始原因的名称。 <a href="error-list.md">了解有关错误原因的更多信息</a>.<br/> </td> 
+   <td> 导致该错误的特定原始原因的名称。 <a href="exclusion-list.md">了解有关错误原因的更多信息</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> 已排除<br/> </td> 
