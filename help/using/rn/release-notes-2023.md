@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
 workflow-type: ht
-source-wordcount: '4121'
+source-wordcount: '4398'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 100%
 # 2023 年发行说明 {#release-notes-2023}
 
 本页列出了于 2023 年发布的 [!DNL Journey Optimizer] 功能和改进。
+
+
+## 2023 年 10 月发行说明 {#oct-rn-2023}
+
+### 新功能{#oct-2023-features}
+
+此版本引入了下方列出的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>沙盒工具</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
+<p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>短信中的多媒体消息服务 (MMS) 内容</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能当前仅适用于 Sinch。</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>有关更多信息，请参阅<a href="../sms/create-sms.md#mms-content">详细文档</a>。</p>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#oct-2023-improvements}
+
+此版本包含下方列出的改进。
+
+**受众**
+
+* 您现在可以将从 CSV 文件上传的受众定位到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>这些功能目前作为 Private Beta 版提供。
+
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+
+**营销活动**
+
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
+* 当您的某个营销活动发生错误时，警告图标现在会与该营销活动的状态一起显示在营销活动列表中。[了解详情](../campaigns/modify-stop-campaign.md#statuses)
+
+**历程**
+
+* 现在，您可以定义的最长等待持续时间为 29 天，而不是 30 天。引入此改进是为了防止等待持续时间超过 30 天的历程生命周期。这适用于：
+
+   * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
+   * [历程属性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重入等待期**
+   * [事件活动](../building-journeys/general-events.md#events-specific-time)的超时定义中的&#x200B;**等待**&#x200B;字段
+
+<!--
+**Consent in channel configuration**
+
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+
+**决策管理**
+
+* 更新了与决策管理界面中的优惠上限相关的多个标签。[了解详情](../offers/offer-library/add-constraints.md#capping)
+
+
 
 ## 2023 年 9 月发行说明 {#sept-rn-2023}
 
