@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
+source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '562'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 
 * **日期过滤器**  — 除了现有的预定义日期过滤器之外，您现在可以使用自定义日期来筛选历程库存。 这允许您通过显示特定日期、特定月内、全年或指定时间范围内发布的旅程来优化列表。
 
-* **读取受众**   — 现在，读取受众活动依赖于批处理区段的配置文件快照数据集，该数据集仅在计划的每日批处理作业运行后每天生成一次。
+* **读取受众**   — 现在，读取受众活动依赖于批处理区段的配置文件快照数据集，该数据集仅在计划的每日批处理作业运行后一天生成一次，因此数据将刷新到上一次每日批处理作业。
 
 **频率规则**
 
