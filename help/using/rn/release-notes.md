@@ -8,15 +8,14 @@ role: User
 level: Beginner, Intermediate
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
 # 发行说明 {#release-notes}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
@@ -25,104 +24,79 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。
 
-要查看以前的发行说明，请访问[此页面](release-notes-2023.md)。您还可以查阅[最新文档更新](documentation-updates.md)页面以了解更多更改。
-
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2023 年 10 月发行说明 {#oct-rn-2023}
+## 2024年1月早期发行说明 {#jan-2024}
 
-### 新功能{#oct-2023-features}
+**发行日期**：2024年1月30日至31日
+
+### 新功能{#jan24-features}
 
 此版本引入了下方列出的新功能。
 
 <table>
 <thead>
 <tr>
-<th><strong>沙盒工具</strong><br/></th>
+<th><strong>可投放性更新</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。</p>
-</td>
+<p>Journey Optimizer现在支持DMARC身份验证技术。</p>
+<p>从2024年2月1日开始，Google和Yahoo！ 将要求您拥有用于向其发送电子邮件的任何域的DMARC记录。 确保为您已委派或正在委派给Journey Optimizer中的Adobe的所有子域设置了DMARC记录。</p>
+<p>有关更多信息，请参阅<a href="../configuration/dmarc-record-update.md">详细文档</a>。</p>
+<br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
 </table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>短信中的多媒体消息服务 (MMS) 内容</strong><br/></th>
+<th><strong>用例行动手册</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能当前仅适用于 Sinch。</p>
-<img src="assets/do-not-localize/mms.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/create-sms.md#mms-content">详细文档</a>。</p>
+<p>利用Real-Time CDP和Journey Optimizer中特定于行业的用例行动手册目录，解决您可以使用Adobe Experience Platform和Adobe历程优化器执行的常见用例。</p><p>一旦您选择了最符合您需求的行动手册，您就可以启用该行动手册以生成支持您的用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。</p>
+<p>有关更多信息，请参阅<a href="../start/playbooks.md">详细文档</a>。</p>
+<br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
 </table>
 
-### 改进 {#oct-2023-improvements}
+### 改进 {#jan24-improvements}
 
 此版本包含下方列出的改进。
 
-**受众**
+**报告**
 
-* 您现在可以将从 CSV 文件上传的受众定位到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
+* **新的基于域的划分构件**  — 添加了新构件，用于增强您的促销活动和历程报表。 此 **按域列出的退回原因**， **按域发送和投放**， **按域划分的打开数和点击数** 和 **按域列出的退回和错误** 小组件在域级别提供了关键电子邮件投放和跟踪指标的详细细分。 [了解详情](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->这些功能目前作为 Private Beta 版提供。
+**短信渠道**
 
-<!--
-**Spam scoring for emails**
+* **双重选择加入**  — 短信的双重选择加入工作流程可确保用户在从其设备发起请求时，明确选择加入接收消息。 用户通过发送入站SMS消息启动同意流程。 确认同意后，将发送后续消息，请求进行最终验证。 如果用户配置文件不存在，则会在成功确认时创建该配置文件。 [了解详情](../sms/sms-configuration.md#create-api)
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
-
-**营销活动**
-
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 当您的某个营销活动发生错误时，警告图标现在会与该营销活动的状态一起显示在营销活动列表中。[了解详情](../campaigns/modify-stop-campaign.md#statuses)
+  请注意，此功能适用于Sinch和Infobip短信提供商。
 
 **历程**
 
-* 现在，您可以定义的最长等待持续时间为 29 天，而不是 30 天。引入此改进是为了防止等待持续时间超过 30 天的历程生命周期。这适用于：
+* **反应事件持续时间**  — 您可以在 **反应事件** 现在为29天，而不是30天。 [了解详情](../building-journeys/reaction-events.md)
 
-   * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
-   * [历程属性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重入等待期**
-   * [事件活动](../building-journeys/general-events.md#events-specific-time)的超时定义中的&#x200B;**等待**&#x200B;字段
+<!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-<!--
-**Consent in channel configuration**
+* **读取受众**  - **读取受众** 活动现在依赖于批处理区段的配置文件快照数据集，该数据集仅在计划的每日批处理作业运行后一天生成一次，因此数据将刷新到上一次每日批处理作业。 [了解详情](../building-journeys/read-audience.md)
 
-* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* **字段组**  — 此版本修复了在某些情况下阻止保存字段组的问题。
+
+**频率规则**
+
+* **每周和每日频率上限**  — 现在，您可以指定在一周或一天内（除月外），向客户配置文件发送的最大消息数。 频率上限基于所选日历周期并在相应时间范围的开始处重置。 [了解详情](../configuration/frequency-rules.md#create-new-rule)
 
 **决策管理**
 
-* 更新了与决策管理界面中的优惠上限相关的多个标签。[了解详情](../offers/offer-library/add-constraints.md#capping)
-
+* **边缘的频率封顶**  — 频率上限计数器现已更新，不到3秒即可在Edge Decisioning API决策中提供。 [了解详情](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
