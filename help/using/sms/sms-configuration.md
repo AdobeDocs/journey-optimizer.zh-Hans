@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 15%
+source-wordcount: '1266'
+ht-degree: 13%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 
    ![](assets/sms_7.png)
 
-   * 对象 **[!DNL Sinch]**：
+   * +++ 对象 **[!DNL Sinch]**
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
@@ -77,15 +77,24 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 
       * **[!UICONTROL 选择加入消息]**：输入将作为您的自动发送的自定义响应 **[!UICONTROL 选择加入消息]**.
 
+      * **[!UICONTROL 选择退出消息]**：输入将作为您的自动发送的自定义响应 **[!UICONTROL 选择退出消息]**.
+
       * **[!UICONTROL 帮助消息]**：输入将作为您的自动发送的自定义响应 **帮助消息**.
 
-   * 对象 **[!DNL Sinch MMS]**：
+      * **[!UICONTROL 双重选择加入关键词]**：输入触发双重选择加入流程的关键字。 如果用户配置文件不存在，则会在成功确认时创建该配置文件。 对于多个关键字，请使用逗号分隔的值。
+
+      * **[!UICONTROL 双重选择加入消息]**：输入为响应双重选择加入确认而自动发送的自定义响应。
++++
+
+   * +++ 对象 **[!DNL Sinch MMS]**
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
       * **[!UICONTROL 项目编号]**， **[!UICONTROL 应用程序ID]** 和 **[!UICONTROL api令牌]**：从“对话API”菜单中，您可以在“应用程序”菜单中找到您的凭据。 了解详情，请参阅 [Sinch文档](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * 对象 **[!DNL Twilio]**：
++++
+
+   * +++ 对象 **[!DNL Twilio]**
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
@@ -93,12 +102,26 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 
       * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 了解详情，请参阅 [Twilio文档](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * 对象 **[!DNL Infobip]**：
++++
+
+   * +++ 对象 **[!DNL Infobip]**
 
       * **[!UICONTROL 名称]**：选择API凭据的名称。
 
       * **[!UICONTROL API基本URL]** 和 **[!UICONTROL api令牌]**：访问您的Web界面主页或API密钥管理页面以查找您的凭据。 了解详情，请参阅 [Infobip文档](https://www.infobip.com/docs/api){target="_blank"}.
 
+      * **[!UICONTROL 双重选择加入关键词]**：输入触发双重选择加入流程的关键字。 如果用户配置文件不存在，则会在成功确认时创建该配置文件。 对于多个关键字，请使用逗号分隔的值。
+
+      * **[!UICONTROL 双重选择加入消息]**：输入为响应双重选择加入确认而自动发送的自定义响应。
+
+      * **[!UICONTROL 主体实体ID]**：输入分配的DLT主体实体ID。
+
+      * **[!UICONTROL 内容模板Id]**：输入注册的DLT内容模板ID。
+
+      * **[!UICONTROL 有效期]**：输入以小时为单位的消息有效期。 如果在此时间范围内无法发送消息，系统将再次尝试重新发送消息。 默认有效期设置为48小时。
+
+      * **[!UICONTROL 回调数据]**：输入将在通知URL上发送的其他客户端数据。
++++
 
 1. 单击 **[!UICONTROL 提交]** 完成API凭据配置时。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 25%
+source-wordcount: '459'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,15 @@ ht-degree: 25%
 
 ## 本机入站关键词 {#sms-native-keywords}
 
-默认情况下，Adobe Journey Optimizer会处理短代码、免费和长代码消息的以下标准英语回复消息：STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE。 请注意，在与Journey Optimizer一起使用时，只有Sinch和Infobip支持本机关键字。
+>[!NOTE]
+>
+> 与Journey Optimizer一起使用时，只有Sinch和Infobip支持本机关键字。
+
+默认情况下，Adobe Journey Optimizer会处理短代码、免费和长代码消息的以下标准英语回复消息：
+
+* **选择禁用**：停止、退出、取消、结束、取消订阅、否。
+* **选择加入**：订阅、是、不停止、开始、继续、继续、开始。
+* **帮助**：帮助。
 
 这些关键字通常会触发来自第三方提供商的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -45,9 +45,8 @@ ht-degree: 6%
 或
    * 在委派的子域上设置DMARC **在[!DNL Journey Optimizer]** 配置用户界面。 [了解如何操作](dmarc-record.md#implement-dmarc)
 
-     但是，通过CNAME委派，您还需要在托管解决方案中输入。 因此，请确保与IT部门进行协调，以便他们能够在 [!DNL Journey Optimizer] 功能现已推出（1月30日）。 [了解详情](dmarc-record.md#implement-dmarc)
+  但是，通过CNAME委派，您还需要在托管解决方案中输入。 因此，请确保与您的IT部门进行协调，以便他们能够执行中详述的更新 [本节](dmarc-record.md#implement-dmarc).
 
-**从1月30日起，您将可以使用自助式界面来实施DMARC。 了解详情，请参阅 [本节](dmarc-record.md#implement-dmarc).**
 
 Google和雅虎共享的最新时间表如下：
 

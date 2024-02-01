@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 计数，函数，表达式，历程
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 28%
+source-wordcount: '90'
+ht-degree: 10%
 
 ---
 
@@ -26,18 +26,13 @@ ht-degree: 28%
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## 参数
 
-| 参数 | 类型 |
-|-----------|------------------|
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要处理的列表。 对于listObject，它必须是字段引用。 listObject不能包含null对象。 |
 
 ## 签名和返回的类型
 
@@ -50,3 +45,7 @@ ht-degree: 28%
 `count([10,2,10,null])`
 
 返回3。
+
+`count(@event{my_event.productListItems})`
+
+返回给定对象数组（listObject类型）中的对象数。 备注： listObject不能包含null对象

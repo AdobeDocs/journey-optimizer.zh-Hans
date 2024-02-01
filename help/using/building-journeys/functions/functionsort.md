@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 排序，函数，表达式，历程
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '144'
 ht-degree: 7%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 7%
 # sort {#sort}
 
 以自然顺序对值列表或对象进行排序。
-
->[!NOTE]
->
->如果目标列表是listObject，则此函数只能在自定义操作表达式中使用。
 
 ## 类别
 
@@ -81,4 +77,8 @@ ht-degree: 7%
 `sort([1, 3, 2], false)`
 
 返回 `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+返回按SKU属性排序的listObject（升序）
 

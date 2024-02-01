@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 12%
+source-wordcount: '1135'
+ht-degree: 10%
 
 ---
 
@@ -79,13 +79,27 @@ ht-degree: 12%
    >
    >当前仅 **[!UICONTROL 营销]** 类别可用。
 
-1. 设置规则的上限，即每月可以向单个用户配置文件发送的最大消息数。
+1. 为要应用的限制选择时间范围。
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
+
+   各期间计数器到期如下：
+
+   * **[!UICONTROL 每日]**：频率上限的有效期截止日期为23天:59:59 UTC时间，并在第二天开始时重置为0。
+
+   * **[!UICONTROL 每周]**：频率上限有效期到星期六23日:59:作为日历周的那一周的59 UTC从星期日开始。 无论规则如何创建，都会过期。 例如，如果规则在星期四创建，则此规则的有效期到星期六23:59:59.
+
+   * **[!UICONTROL 每月]**：频率上限有效期到每月最后一天23点:59:世界协调时59分 例如，1月的每月到期时间为01-31 23:59:世界协调时59分
 
    >[!NOTE]
    >
-   >频率上限基于每月日历期间。 它会在每月初重置。
+   >处理以下问题时 [批量分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. 设置规则的上限，即根据您上述选择，每月、每周或每天可以向单个用户配置文件发送的最大消息数。
+
+   ![](assets/message-rules-capping.png)
 
 1. 选择要用于此规则的渠道： **[!UICONTROL 电子邮件]** 或 **[!UICONTROL 推送通知]**.
 
@@ -97,7 +111,7 @@ ht-degree: 12%
 
 1. 如果要将上限应用到所有选定渠道的总数，请选择多个渠道。
 
-   例如，将上限设置为15，然后选择电子邮件和推送渠道。 如果某个用户档案已收到10封营销电子邮件和5封营销推送通知，则该用户档案将从任何营销电子邮件或推送通知的下一个投放中排除。
+   例如，将上限设置为15，然后选择电子邮件和推送渠道。 如果某用户档案在选定时间段内已收到10封营销电子邮件和5封营销推送通知，则将从任何营销电子邮件或推送通知的下一个投放中排除该用户档案。
 
 1. 单击 **[!UICONTROL 另存为草稿]** 以确认创建规则。 您的消息将添加到规则列表，其中 **[!UICONTROL 草稿]** 状态。
 

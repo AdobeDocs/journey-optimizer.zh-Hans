@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: getListItem，函数，表达式，历程
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 18%
@@ -85,10 +85,10 @@ ht-degree: 18%
 
 具有事件字段&quot;event.appVersion&quot;且值为&quot;20.45.2.3434&quot;的示例
 
-`split(@{event.appVersion}, "\\.")`
+`split(@event{event.appVersion}, "\\.")`
 
 返回 `["20", "45", "2", "3434"]`
 
-`getListItem(split(@{event.appVersion}, "\\."), 0)`
+`getListItem(split(@event{event.appVersion}, "\\."), 0)`
 
 返回“20”

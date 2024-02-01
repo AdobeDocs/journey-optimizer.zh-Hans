@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 不允许使用 IP 地址
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
 * 无法移除内置的自定义操作。
+* 在使用自定义操作选择要定位的端点时，请确保：
+
+   * 此端点可以使用来自以下位置的配置支持历程的吞吐量： [限制API](../configuration/throttling.md) 或 [API上限](../configuration/capping.md) 来限制它。 请注意，限制配置不能低于200 TPS。 任何目标端点将需要支持至少200个TPS。
+   * 此端点需要尽可能短的响应时间。 根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
 ### 事件 {#events-g}
 
@@ -99,6 +103,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 可在客户历程中利用外部数据源，以实时查找外部数据。这些源必须可通过 REST API 使用，支持 JSON，并能够处理大量请求。
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
+
+>[!NOTE]
+>
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。
 
 ### 历程和用户档案创建 {#journeys-limitation-profile-creation}
 

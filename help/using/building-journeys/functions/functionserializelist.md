@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList，函数，表达式，历程
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 21%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
 # serializeList {#serializeList}
 
-将第一个参数中给定的列表（任何类型）转换为字符串。 第二个参数表示要使用的分隔符。 第三个参数是一个布尔值，指示表达式的每个元素是否应包含引号。
+将给定列表（除listObject之外的任何类型）转换为字符串。
 
 ## 类别
 
@@ -28,19 +28,11 @@ ht-degree: 21%
 
 ## 参数
 
-| 参数 | 类型 |
-|-----------|------------------|
-| 字符串 | 字符串 |
-| 布尔值 | 布尔型 |
-| DateTimeOnly | DateTimeOnly |
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listPoint |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 要转换为字符串的列表。 |
+| 分隔符 | 字符串 | 输出字符串中每个列表元素之间的分隔符。 |
+| addQuotes | 布尔 | 此参数指示输出字符串中的每个元素是否应包含引号(true)或(false)。 |
 
 ## 签名和返回的类型
 
@@ -59,8 +51,6 @@ ht-degree: 21%
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 返回字符串。
 

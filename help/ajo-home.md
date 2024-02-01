@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 81%
+source-wordcount: '435'
+ht-degree: 68%
 
 ---
 
@@ -20,23 +20,27 @@ ht-degree: 81%
 
 >[!BEGINTABS]
 
+>[!TAB 1月版已上线！]
+
+了解Adobe Journey Optimizer 24.1版本随附的新增功能和改进。
+
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB 强制性DMARC更新]
 
-作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**. 确保为您已委派给Journey Optimizer中的Adobe的所有子域设置了DMARC记录。
+从 **2024 年 2 月 1 日**&#x200B;开始，Google 和 Yahoo 在执行其行业最佳实践的过程中，都将要求您对于任何用于向其发送电子邮件的域都拥有 **DMARC 记录**。确保为您已委派给Journey Optimizer中的Adobe的所有子域设置了DMARC记录。
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB 沙盒工具]
+>[!TAB 用例行动手册]
 
-沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
+利用Real-Time CDP和Journey Optimizer中特定于行业的用例行动手册目录，解决您可以使用Adobe Experience Platform和Adobe历程优化器执行的常见用例。
 
-[![图像](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+一旦您选择了最符合您需求的行动手册，您就可以启用该行动手册以生成支持您的用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。
 
->[!TAB 短信中的彩信]
+![显示用例行动手册的动画图像](using/rn/assets/do-not-localize/playbooks.gif)
 
-使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。请注意，此功能当前仅适用于 Sinch。
-
-[![图像](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![图像](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

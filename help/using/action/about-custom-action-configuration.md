@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 18%
+source-wordcount: '1422'
+ht-degree: 17%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 18%
 另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在本节中了解详情 [用例](../building-journeys/collections.md).
 
 ## 最佳实践{#custom-action-enhancements-best-practices}
+
+在使用自定义操作选择要定位的端点时，请确保：
+
+* 此端点可以使用来自以下位置的配置支持历程的吞吐量： [限制API](../configuration/throttling.md) 或 [API上限](../configuration/capping.md) 来限制它。 请注意，限制配置不能低于200 TPS。 任何目标端点将需要支持至少200个TPS。
+* 此端点需要尽可能短的响应时间。 根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
 为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点（例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`），上限将适用于 adobe.com 主机下的所有端点。“endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
 

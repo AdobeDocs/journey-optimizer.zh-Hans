@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctWithNull，函数，表达式，历程
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '123'
+ht-degree: 7%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
 返回给定列表的不同值或对象。 如果列表至少有一个null条目，则返回的列表中将显示一个null条目。
+
+请注意，参数 `<listObject>` 此函数中不受支持。
 
 ## 类别
 
@@ -30,8 +32,7 @@ ht-degree: 5%
 
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要处理的列表。 对于listObject，它必须是字段引用。 |
-| keyAttributeName | 字符串 | 此参数是可选的，并且仅适用于listObject。 如果未提供参数，则当所有属性都具有相同的值时，会将对象视为重复。 否则，如果给定的属性具有相同的值，则将对象视为重复。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 要处理的列表。 |
 
 ## 签名和返回的类型
 
@@ -66,12 +67,6 @@ ht-degree: 5%
 `distinctWithNull(<listDuration>)`
 
 返回持续时间列表。
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-返回对象列表。
 
 ## 示例
 

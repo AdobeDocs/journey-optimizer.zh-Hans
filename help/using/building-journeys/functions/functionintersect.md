@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 相交，函数，表达式，旅程
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 11%
@@ -69,7 +69,7 @@ intersect(
 ```json
 intersect(
     #{ExperienceDataPlatform.profile.interests},
-        @{myEvent.sport_interests}
+        @event{myEvent.sport_interests}
 )
 ```
 

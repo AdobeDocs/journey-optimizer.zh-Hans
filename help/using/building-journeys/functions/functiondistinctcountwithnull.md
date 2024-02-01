@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCountWithNull，函数，表达式，历程
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 22%
 
 计算不同值（包括空值）的数量。
 
->[!NOTE]
->
->如果目标列表是listObject，则此函数只能在自定义操作表达式中使用。
+请注意，参数 `<listObject>` 此函数中不受支持。
 
 ## 类别
 
@@ -34,14 +32,7 @@ ht-degree: 22%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly |
 
 ## 签名和返回的类型
 

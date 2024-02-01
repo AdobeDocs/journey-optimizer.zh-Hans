@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: listSize，函数，表达式，历程
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 30%
+source-wordcount: '78'
+ht-degree: 11%
 
 ---
 
@@ -28,16 +28,9 @@ ht-degree: 30%
 
 ## 参数
 
-| 参数 | 类型 |
-|-----------|------------------|
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要处理的列表。 对于listObject，它必须是字段引用。 listObject不能包含null对象。 |
 
 ## 签名和返回的类型
 
@@ -57,12 +50,16 @@ ht-degree: 30%
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 返回整数。
+
+`listSize(<listObject>)`
 
 ## 示例
 
 `listSize([10,2,3])`
 
 返回3。
+
+`listSize(@event{my_event.productListItems})`
+
+返回给定对象数组（listObject类型）中的对象数。

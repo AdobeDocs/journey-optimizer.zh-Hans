@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 1%
@@ -105,7 +105,7 @@ ht-degree: 1%
 此条件仅检索在“Arlington”中触发的地理围栏事件：
 
 ```json
-        @{GeofenceEntry
+        @event{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
@@ -117,7 +117,7 @@ ht-degree: 1%
 相同的查询 `Is sensitive` 取消选中将在高级模式下生成以下表达式：
 
 ```json
-        equalIgnoreCase(@{GeofenceEntry
+        equalIgnoreCase(@event{GeofenceEntry
                         .placeContext
                         .POIinteraction
                         .POIDetail
@@ -130,13 +130,13 @@ ht-degree: 1%
 
 ```json
 substr(
-   @{MobileAppLaunch
+   @event{MobileAppLaunch
    ._myorganization
    .identification
    .crmid},
    1, 
    lastIndexOf(
-     @{MobileAppLaunch
+     @event{MobileAppLaunch
      ._myorganization
      .identification
      .crmid},

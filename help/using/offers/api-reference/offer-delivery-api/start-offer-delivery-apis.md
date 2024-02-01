@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -121,6 +121,10 @@ curl -X GET \
 >[!NOTE]
 >
 >为了存储上下文数据，您需要配置专用的XDM架构。
+
+**频率上限计数器更新**
+
+如果您的某些选件启用了频率上限以定义其上限计数重置的频率，则计数器将会更新，并且在不到3秒内可在Edge Decisioning API决策中使用。 [了解如何向优惠添加限制](../../offer-library/add-constraints.md)
 
 ## 决策API功能 {#decisioning}
 

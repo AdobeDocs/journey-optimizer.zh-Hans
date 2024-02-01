@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinct，函数，表达式，历程
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 5%
+source-wordcount: '155'
+ht-degree: 6%
 
 ---
 
 # distinct {#distinct}
 
 返回给定列表的不同值或对象。 Null条目将被忽略。
-
->[!NOTE]
->
->如果目标列表是listObject，则此函数只能在自定义操作表达式中使用。
 
 ## 类别
 

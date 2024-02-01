@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 68%
+source-wordcount: '1489'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 68%
 >[!NOTE]
 >
 >中列出了使用外部系统时的护栏 [此页面](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
@@ -122,9 +126,12 @@ ht-degree: 68%
 1. 调用端点以生成访问令牌。
 1. 通过以正确的方式插入访问令牌以调用 REST API。
 
-此身份验证分为两部分。
 
-要调用以生成访问令牌端点的定义：
+>[!NOTE]
+>
+>**此身份验证分为两部分。**
+
+### 要调用以生成访问令牌的端点的定义
 
 * 端点：用于生成端点的 URL
 * 端点上 HTTP 请求的方法（GET 或 POST）
@@ -133,7 +140,7 @@ ht-degree: 68%
    * “form”：表示内容类型将为application/x-www-form-urlencoded (charset UTF-8)，并且键值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
    * “json”：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
-在操作的 HTTP 请求中必须插入访问令牌方式的定义：
+### 在操作的HTTP请求中必须插入访问令牌方式的定义
 
 * authorizationType：定义如何在操作的 HTTP 调用中插入生成的访问令牌。可能的值包括：
 
@@ -150,8 +157,6 @@ ht-degree: 68%
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ ht-degree: 68%
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ ht-degree: 68%
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 以下是登录API调用的响应示例：
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

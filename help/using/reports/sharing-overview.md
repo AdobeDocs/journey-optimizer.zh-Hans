@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3b1a359427a76780bd3130e292cf2658eb6df03c
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '469'
 ht-degree: 3%
 
 ---
@@ -65,4 +65,6 @@ ht-degree: 3%
 * [!DNL Customer Journey Analytics] 摄取“历程步骤事件”数据集。
 * 此 **profileId** 关联的“用于Journey Orchestration的历程步骤事件架构”中的字段定义为标识字段。 在 [!DNL Customer Journey Analytics]之后，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
 * 要在中使用此数据集，请执行以下操作 [!DNL Customer Journey Analytics]，有关跨渠道历程分析，请参阅 [Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
+
+➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
 

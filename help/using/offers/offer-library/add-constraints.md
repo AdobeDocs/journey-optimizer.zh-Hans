@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2424'
 ht-degree: 16%
 
 ---
@@ -258,9 +258,12 @@ ht-degree: 16%
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >重置发生在UTC凌晨12点，也就是您定义的日期或一周/月的第一天（如果适用）。 一周的开始日是星期日。 您选择的任何持续时间不得超过2年（即相应的月数、周数或天数）。
+>
+>频率封顶计数器将在3秒内完成更新，并在Edge Decisioning API决策中可用。
 
 例如，如果希望每2周重置一次上限计数，请选择 **[!UICONTROL 每周]** 从相应的下拉列表输入并键入 **2** 在另一个栏位中。 重置将在每隔一个星期日的中午12点(UTC)进行。
 

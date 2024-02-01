@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 高级，条件，操作，历程
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -64,7 +64,7 @@ listString,listString : listString
 操作活动的示例（用于预期字符串作为条件指令结果的字段）：
 
 ```json
-if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
+if (startWithIgnoreCase(@event{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@event{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
 then
    ('apns')
 else
