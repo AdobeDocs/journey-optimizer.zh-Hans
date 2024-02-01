@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
 workflow-type: tm+mt
-source-wordcount: '2511'
-ht-degree: 5%
+source-wordcount: '2866'
+ht-degree: 7%
 
 ---
 
@@ -46,11 +46,21 @@ ht-degree: 5%
 
 ### 历程性能 {#journey-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_performance_live"
+>title="历程性能"
+>abstract="XX"
+
 ![](assets/journey_live_performance.png)
 
 **[!UICONTROL 历程性能]** 允许您查看定向用户档案的路径，以逐步了解您的历程。
 
 ### 历程统计数据 {#journey-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_statistics_live"
+>title="历程统计数据"
+>abstract="XX"
 
 ![](assets/journey_live_statistics.png)
 
@@ -67,6 +77,11 @@ ht-degree: 5%
 
 ### 过去24小时内执行的操作 {#action-executed}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_executed_live"
+>title="过去24小时内执行的操作"
+>abstract="XX"
+
 ![](assets/journey_live_executed_24hours.png)
 
 此 **[!UICONTROL 过去24小时内执行的操作]** 构件表示在触发操作时执行的最成功的操作。
@@ -80,6 +95,11 @@ ht-degree: 5%
 +++
 
 ### 执行的操作和错误 {#actions-errors}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_executed__errors_live"
+>title="执行的操作和错误"
+>abstract="XX"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -95,11 +115,21 @@ ht-degree: 5%
 
 ### 操作错误原因 {#actions-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_errors_live"
+>title="操作错误原因"
+>abstract="XX"
+
 ![](assets/journey_live_error_reasons.png)
 
 此 **[!UICONTROL 操作错误原因]** 表格和图形全面概述了在过去24小时内执行您的操作期间发生的错误。
 
 ### 按操作显示的错误类型 {#error-type-actions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_error_type_live"
+>title="按操作显示的错误类型"
+>abstract="XX"
 
 ![](assets/journey_live_error_type.png)
 
@@ -107,17 +137,32 @@ ht-degree: 5%
 
 ### 过去24小时内执行的事件 {#event-executed-24hours}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_24hours_live"
+>title="过去24小时内执行的事件"
+>abstract="XX"
+
 ![](assets/journey_live_event_24hours.png)
 
 此 **[!UICONTROL 过去24小时内执行的事件]** 通过小组件，您可以确定在过去24小时内成功执行了哪些事件。
 
-### 活动 {#events}
+### 事件 {#events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_live"
+>title="事件"
+>abstract="XX"
 
 ![](assets/journey_live_events.png)
 
 此 **[!UICONTROL 活动]** 利用小组件，您可以通过摘要编号、图表和表格查看成功执行了哪一个事件。
 
 ### 按来源显示的事件 {#events-origin}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_origin_live"
+>title="按来源显示的事件"
+>abstract="XX"
 
 ![](assets/journey_events_origin.png)
 
@@ -127,7 +172,12 @@ ht-degree: 5%
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 电子邮件]** 选项卡详细介绍与旅程中发送的电子邮件相关的主要信息。
 
-### 电子邮件发送性能 {#email-sending-performance}
+### 电子邮件 - 发送性能 {#email-sending-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_performance_live"
+>title="电子邮件 - 发送性能"
+>abstract="XX"
 
 ![](assets/journey_live_email_performance.png)
 
@@ -146,6 +196,11 @@ ht-degree: 5%
 +++
 
 ### 电子邮件 - 统计数据 {#email-stat}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_statistics_live"
+>title="电子邮件 - 统计数据"
+>abstract="XX"
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -179,6 +234,11 @@ ht-degree: 5%
 
 ### 电子邮件 - 按日期列出的效果 {#email-perf-date}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_performance_bydate_live"
+>title="电子邮件 - 按日期列出的效果"
+>abstract="XX"
+
 ![](assets/journey_live_email_performance_date.png)
 
 此 **[!UICONTROL 电子邮件 — 按日期列出的性能]** 构件通过图表详细概述了与电子邮件相关的关键信息，提供了过去24小时内性能趋势的见解。
@@ -205,6 +265,11 @@ ht-degree: 5%
 
 ### 电子邮件 — 退回类别和原因 {#email-bounce-categories}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_live"
+>title="电子邮件 — 退回类别和原因"
+>abstract="XX"
+
 ![](assets/journey_live_email_bounce.png)
 
 此 **[!UICONTROL 退回原因]** 和 **[!UICONTROL 退回类别]** 小组件编译与退回邮件相关的可用数据，提供对过去24小时内电子邮件退回背后的具体原因和类别的详细分析。
@@ -223,11 +288,21 @@ ht-degree: 5%
 
 ### 电子邮件 - 错误原因 {#email-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_errors_live"
+>title="电子邮件 - 错误原因"
+>abstract="XX"
+
 ![](assets/journey_live_email_error_reasons.png)
 
 此 **[!UICONTROL 错误原因]** 利用图形和表格可查看过去24小时内发送过程中发生的特定错误，并提供有关错误性质和发生情况的宝贵信息。
 
 ### 电子邮件 - 排除原因 {#email-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_excluded_live"
+>title="电子邮件 - 排除原因"
+>abstract="XX"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -237,11 +312,21 @@ ht-degree: 5%
 
 ### 电子邮件 - 最佳收件人域 {#email-best-recipient}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_best_recipient_live"
+>title="电子邮件 - 最佳收件人域"
+>abstract="XX"
+
 ![](assets/journey_live_email_best_recipient.png)
 
 此 **[!UICONTROL 电子邮件 — 最佳收件人域]** 图表提供过去24小时内用户档案最常用于打开电子邮件的域的详细细分。 这提供了有关用户档案行为的宝贵见解，可帮助您了解首选平台。
 
 ### 电子邮件 — 优惠 {#email-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_offers_live"
+>title="电子邮件 — 优惠"
+>abstract="XX"
 
 >[!NOTE]
 >
@@ -259,11 +344,65 @@ ht-degree: 5%
 
 +++
 
+### 电子邮件 — 优化 {#email-sto}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_optimization_live"
+>title="电子邮件 — 优化"
+>abstract="XX"
+
+![](assets/journey_email_sto.png)
+
+>[!NOTE]
+>
+>此 **[!UICONTROL 发送时间优化]** 和 **[!UICONTROL 已优化和未优化]** 仅当为您的投放激活发送时间优化选项时，构件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+
+此 **[!UICONTROL 发送时间优化]** 和 **[!UICONTROL 已优化和未优化]** 小组件根据发送方法（优化或正常）详细描述电子邮件的成功与否。
+
++++ 了解有关发送时间优化和已优化与未优化量度的更多信息
+
+* **[!UICONTROL 已投放]**：成功发送的消息数，与已发送消息的总数相关。
+* **[!UICONTROL 跳出次数]**：在发送流程和自动返回处理期间累计的错误总数与已发送消息总数相关。
+
+* **[!UICONTROL 已发送]**：为历程发送的电子邮件总数。
+
+* **[!UICONTROL 打开次数]**：您的电子邮件在历程中打开的次数。
+
+* **[!UICONTROL 点击次数]**：在电子邮件中单击内容的次数。
+
++++
+
 ## 推送通知选项卡 {#push-live}
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了与旅程中发送的推送通知相关的主要信息。
 
+### 推送通知 - 发送性能 {#push-sending-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_performance_live"
+>title="推送通知 - 发送性能"
+>abstract="“推送通知发送性能”图表总结了有关推送通知的基本数据，例如过去 24 小时内的错误或已送达消息。"
+
+![](assets/campain_push_live_sending_performance.png)
+
+此 **[!UICONTROL 推送通知发送性能]** 图表全面概述了过去24小时内发送的与推送通知相关的数据。 它提供对基本量度（如投放和跳出）的见解，从而允许详细检查推送通知发送流程。
+
++++ 了解有关推送通知 — 发送性能指标的更多信息
+
+* **[!UICONTROL 已投放]**：成功发送的消息数。
+
+* **[!UICONTROL 跳出次数]**：发送流程和自动返回处理期间累计的错误总数。
+
+* **[!UICONTROL 错误]**：发送过程中发生的阻止将消息发送到用户档案的错误总数。
+
++++
+
 ### 推送通知 - 统计数据 {#push-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_statistics_live"
+>title="推送通知 - 统计数据"
+>abstract="XX"
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -288,11 +427,21 @@ ht-degree: 5%
 
 ### 推送通知 - 按平台细分 {#push-breakdown}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_breakdown_live"
+>title="推送通知 - 按平台细分"
+>abstract="XX"
+
 ![](assets/journey_push_breakdown.png)
 
 此 **[!UICONTROL 推送通知 — 按平台细分]** 图表提供推送通知成功情况的详细分析，并根据用户档案的操作系统提供见解。 此划分可让您更好地了解推送通知在不同平台上的执行情况。
 
 ### 推送通知 - 发送摘要 {#push-sending-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_summary_live"
+>title="推送通知 - 发送摘要"
+>abstract="XX"
 
 ![](assets/journey_live_push_sending.png)
 
@@ -316,11 +465,21 @@ ht-degree: 5%
 
 ### 推送通知 - 错误原因 {#push-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_error_reasons_live"
+>title="推送通知 - 错误原因"
+>abstract="XX"
+
 ![](assets/journey_live_push_error.png)
 
 此 **[!UICONTROL 错误原因]** 通过表格和图形，您可以识别在发送推送通知过程中发生的特定错误，并提供有关过去24小时内遇到的任何问题的详细见解。
 
 ### 推送通知 - 排除原因 {#push-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_excluded_reasons_live"
+>title="推送通知 - 排除原因"
+>abstract="XX"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -331,6 +490,11 @@ ht-degree: 5%
 ## 短信选项卡 {#sms-live}
 
 ### 短信 - 统计数据 {#sms-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_statistics_live"
+>title="短信 - 统计数据"
+>abstract="XX"
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -356,6 +520,11 @@ ht-degree: 5%
 
 ### 短信 - 按日期显示效果 {#sms-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_performance_live"
+>title="短信 - 按日期显示效果"
+>abstract="XX"
+
 ![](assets/journey_live_sms_performance.png)
 
 此 **[!UICONTROL 短信 — 按日期列出的性能]** 构件通过图表详细概述了与报文相关的关键信息，深入分析了过去24小时的性能趋势。
@@ -372,11 +541,21 @@ ht-degree: 5%
 
 ### 短信 - 退回原因 {#sms-bounces}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_bounces_live"
+>title="短信 - 退回原因"
+>abstract="XX"
+
 ![](assets/journey_sms_bounce_reasons.png)
 
 此 **[!UICONTROL 短信 — 退回原因]** 图形和表格提供了与弹回SMS消息相关的全面数据概述，针对过去24小时内SMS消息退回实例背后的具体原因提供了宝贵的洞察。
 
 ### 短信 - 错误原因 {#sms-error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_error_live"
+>title="短信 - 错误原因"
+>abstract="XX"
 
 ![](assets/journey_sms_error.png)
 
@@ -384,21 +563,33 @@ ht-degree: 5%
 
 ### 短信 - 排除原因 {#sms-excluded}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_excluded_live"
+>title="短信 - 排除原因"
+>abstract="XX"
+
 ![](assets/journey_live_sms_excluded.png)
 
 此 **[!UICONTROL 短信 — 排除的原因]** 图表和表格直观地描述了导致从目标受众中排除用户配置文件，阻止他们接收短信消息的各种因素。
 
 请参阅 [此页面](exclusion-list.md) 以获取排除原因的完整列表。
 
-### 短信 - 按链接显示的点击次数 {#sms-clicks}
+<!--
+### SMS - Clicks by links {#sms-clicks}
 
 ![](assets/journey_sms_clicks.png)
 
-此 **[!UICONTROL 短信 — 按链接显示的点击次数]** 构件可提供关于访客与消息中所包含URL参与度的基本见解，并提供有关哪些链接在过去24小时内吸引最多交互的宝贵信息。
+The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into your visitors' engagement with the URLs included in your messages, providing valuable information about which links attract the most interaction within the last 24 hours.
+-->
 
 ## 应用程序内选项卡 {#in-app-live}
 
 ### 应用程序内性能 {#inapp-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_performance_live"
+>title="应用程序内性能"
+>abstract="XX"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -422,6 +613,11 @@ ht-degree: 5%
 
 ### 应用程序内摘要 {#inapp-summary}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_summary_live"
+>title="应用程序内摘要"
+>abstract="XX"
+
 ![](assets/journey_live_inapp_summary.png)
 
 此 **[!UICONTROL 应用程序内摘要]** 图形可展示过去24小时内应用程序内展示和交互的进展情况，全面概述应用程序内消息的性能。
@@ -443,6 +639,11 @@ ht-degree: 5%
 +++
 
 ### 按类型列出的交互 {#interactions-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_interactions_live"
+>title="按类型列出的交互"
+>abstract="XX"
 
 ![](assets/journey_live_inapp_interactions.png)
 
