@@ -11,7 +11,7 @@ keywords: 子域，域，邮件， dmarc，记录
 source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
->title="设置DMARC记录"
->abstract="DMARC是一种电子邮件身份验证方法，它允许域所有者保护其域免遭未经授权的使用，并避免邮箱提供商出现可投放性问题。<br>作为强制执行行业最佳实践的一部分，Google和雅虎都要求您拥有DMARC记录，才能使用任何域向它们发送电子邮件。"
+>title="设置 DMARC 记录"
+>abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现送达问题。<br>Google 和 Yahoo 在执行其行业最佳实践的过程中，都要求您对于任何将电子邮件发送到的域都拥有 DMARC 记录。"
 
 ## 什么是DMARC？ {#what-is-dmarc}
 

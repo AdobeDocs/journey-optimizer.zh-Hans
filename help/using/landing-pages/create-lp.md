@@ -110,7 +110,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
 >title="定义主页面设置"
->abstract="用户单击您的登陆页面链接（例如在电子邮件或网站中）时，主页面会立即显示给用户。"
+>abstract="当用户比如从电子邮件或网站单击您的登陆页面的链接后，将立即向用户显示主页面。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hans" text="设计登陆页面内容"
 
 >[!CONTEXTUALHELP]
