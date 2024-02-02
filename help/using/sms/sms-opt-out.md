@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 099e65cfa4ecbf2e4f4e706415c7fed3313246aa
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 24%
+source-wordcount: '471'
+ht-degree: 19%
 
 ---
 
@@ -58,6 +58,18 @@ ht-degree: 24%
 
 ## 视频 {#video-sms}
 
-要详细了解原生入站关键词支持（START、STOP 和 UNSTOP）如何用于短信，请参阅以下视频：
+* 以下视频演示了原生入站关键词支持（START、STOP和UNSTOP）如何用于短信。
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
++++ 观看视频
+
+  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
++++
+
+* 以下视频可帮助您了解如何为短信配置双重选择加入。
+
++++ 观看视频
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+
++++
