@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: f6b158ffdde66d6e6d9d706a6b067a2746a9be1d
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 25%
@@ -50,4 +50,4 @@ ht-degree: 25%
 
 了解如何跨收件箱测试电子邮件呈现，如何根据测试用户档案预览个性化电子邮件并发送校样。
 
->[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
