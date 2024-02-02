@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 86%
 
 ---
 
@@ -71,6 +71,19 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
 ## 操作方法视频
 
-了解如何配置、创作短信消息，并将其包含在客户历程中。
+* 以下视频演示了如何配置、创作短信消息，并将其包含在客户历程中。
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
++++
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
+
+* 以下视频可帮助您更好地了解Adobe Journey Optimizer为营销人员提供的移动功能。
+
+
+  +++观看视频
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
