@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 14%
+source-wordcount: '575'
+ht-degree: 8%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="详细了解强制 DMARC 更新"
->abstract="从 **2024 年 2 月 1 日**&#x200B;开始，Google 和 Yahoo 在执行其行业最佳实践的过程中，都将要求您对于任何将电子邮件发送到的域都拥有 **DMARC 记录**。<br>因此，您必须确保为您在 Journey Optimizer 中委托给 Adobe 的所有子域设置 DMARC 记录。"
+>abstract="作为强制执行行业最佳实践的一部分，Google和雅虎都要求您拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**.<br>因此，您必须确保为您在 Journey Optimizer 中委托给 Adobe 的所有子域设置 DMARC 记录。"
 
 基于域的消息身份验证、报告和符合性(DMARC)是一种电子邮件身份验证方法，它允许域所有者保护其域免遭未经授权的使用。 通过向电子邮件提供商/ISP提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施DMARC可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可投放性。
-
 
 作为强制执行行业最佳实践的一部分，Google和Yahoo！ 都要求 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求适用于起始日期 **2024年2月1日**. [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
@@ -48,7 +47,7 @@ ht-degree: 14%
   但是，通过CNAME委派，您还需要在托管解决方案中输入。 因此，请确保与您的IT部门进行协调，以便他们能够执行中详述的更新 [本节](dmarc-record.md#implement-dmarc).
 
 
-Google和雅虎共享的最新时间表如下：
+Google和Yahoo！ 如下所示：
 
 * Google：
 
@@ -58,7 +57,7 @@ Google和雅虎共享的最新时间表如下：
 
    * **2024年6月1日**  — 任何未完全合规的发件人都将遇到阻止问题。
 
-* 雅虎尚未提供具体日期，但表示“将从2024年2月开始实施该法案。 执法将逐步展开”。
+* 雅虎！ 尚未提供具体日期，但已表示“执法将从2024年2月开始。 执法将逐步展开”。
 
 >[!NOTE]
 >

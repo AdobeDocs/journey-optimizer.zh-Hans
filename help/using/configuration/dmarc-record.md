@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域，域，邮件， dmarc，记录
-source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 5%
+source-wordcount: '1364'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="设置 DMARC 记录"
->abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现送达问题。<br>Google 和 Yahoo 在执行其行业最佳实践的过程中，都要求您对于任何将电子邮件发送到的域都拥有 DMARC 记录。"
+>abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现送达问题。<br>作为强制执行行业最佳实践的一部分，Google和Yahoo！ 要求您拥有用于向其发送电子邮件的任何域的DMARC记录。"
 
 ## 什么是DMARC？ {#what-is-dmarc}
 
@@ -30,7 +30,7 @@ DMARC还提供了对身份验证失败的消息的报告，以及对未通过DMA
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-为了帮助您防止出现可投放性问题，同时控制身份验证失败的邮件， [!DNL Journey Optimizer] 不久将在其管理界面中直接支持DMARC技术。 [了解详情](#implement-dmarc)
+为了帮助您防止出现可投放性问题，同时控制身份验证失败的邮件， [!DNL Journey Optimizer] 现在直接在其管理界面中支持DMARC技术。 [了解详情](#implement-dmarc)
 
 ### DMARC的工作原理 {#how-dmarc-works}
 
@@ -63,19 +63,19 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
 
 ## DMARC要求更新 {#dmarc-update}
 
-作为执行行业最佳实践的一部分，Google和雅虎都将要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求开始于 **2024年2月1日**.
+作为强制执行行业最佳实践的一部分，Google和Yahoo！ 都要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求适用于起始日期 **2024年2月1日**.
 
-在中了解有关Google和Yahoo要求的更多信息 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+进一步了解Google和Yahoo！&#39;中的s要求 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->如果不遵循Gmail和Yahoo的新要求，则电子邮件可能会流入垃圾邮件文件夹或被阻止。 [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>未能遵守Gmail和Yahoo的新要求！ 可能导致电子邮件登陆垃圾邮件文件夹或被阻止。 [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 因此，Adobe强烈建议您执行以下操作：
 
 * 确保具有 **DMARC记录** 设置 **您已委派的所有子域** Adobe位置 [!DNL Journey Optimizer]. [了解如何操作](#check-subdomains-for-dmarc)
 
-* 时间 **委派任何新子域** 对于Adobe，您很快将能够 **设置DMARC** 直接 **在 [!DNL Journey Optimizer] 管理界面**. [了解如何操作](#implement-dmarc)
+* 时间 **委派任何新子域** Adobe，您可以 **设置DMARC** 直接 **在 [!DNL Journey Optimizer] 管理界面**. [了解如何操作](#implement-dmarc)
 
 ## 在中实施DMARC [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -93,7 +93,7 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
 
    >[!CAUTION]
    >
-   >为了符合Gmail和Yahoo的新要求，并避免顶级ISP出现可投放性问题，建议为所有委派的子域设置DMARC记录。 [了解详情](dmarc-record-update.md)
+   >为了符合Gmail和Yahoo！的新要求，并避免顶级ISP出现可投放性问题，建议为所有委派的子域设置DMARC记录。 [了解详情](dmarc-record-update.md)
 
 1. 选择未关联DMARC记录的子域，并填写 **[!UICONTROL DMARC记录]** 部分。 有关填充DMARC记录字段的详细步骤，请参见 [本节](#implement-dmarc).
 
@@ -117,9 +117,9 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
 
 >[!CAUTION]
 >
->为了符合Gmail和Yahoo的新要求，并避免顶级ISP出现可投放性问题，建议为所有委派的子域设置DMARC记录。 [了解详情](dmarc-record-update.md)
+>为了符合Gmail和Yahoo！的新要求，并避免顶级ISP出现可投放性问题，建议为所有委派的子域设置DMARC记录。 [了解详情](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. 设置新子域。 [了解如何操作](delegate-subdomain.md)
 
@@ -143,7 +143,7 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
    >
    >作为最佳实践，建议通过将DMARC策略升级至 **无**，至 **隔离**，至 **拒绝** 当您了解DMARC的潜在影响时。
 
-1. 或者，添加您选择的一个或多个电子邮件地址以指示位置 **DMARC报表** 在电子邮件中 [身份验证失败](#how-dmarc-works) 应该加入你的组织。 您最多可以为每个报表添加五个地址。
+1. （可选）添加您选择的一个或多个电子邮件地址以指示位置 **DMARC报表** 在电子邮件中 [身份验证失败](#how-dmarc-works) 应该加入你的组织。 您最多可以为每个报表添加五个地址。
 
    >[!NOTE]
    >
