@@ -5,7 +5,7 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
+source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 68%
@@ -26,9 +26,9 @@ ht-degree: 68%
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 强制性DMARC更新]
+>[!TAB 强制性 DMARC 更新]
 
-从 **2024 年 2 月 1 日**&#x200B;开始，Google 和 Yahoo 在执行其行业最佳实践的过程中，都将要求您对于任何用于向其发送电子邮件的域都拥有 **DMARC 记录**。确保为您已委派给Journey Optimizer中的Adobe的所有子域设置了DMARC记录。
+作为强制执行行业最佳实践的一部分，Google和Yahoo！ 都要求你拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**. 确保为您已在 Journey Optimizer 中委派给 Adobe 的所有子域设置了 DMARC 记录。
 
 [![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
@@ -111,7 +111,7 @@ ht-degree: 68%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述(PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API参考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer架构词典</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans" target="_blank">教程</a> - <a href="https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">产品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全概述 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API 参考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans" target="_blank">Journey Optimizer 架构字典</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
