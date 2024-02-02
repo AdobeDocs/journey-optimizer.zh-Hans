@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4648'
-ht-degree: 19%
+source-wordcount: '4806'
+ht-degree: 17%
 
 ---
 
@@ -270,9 +270,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 按域列出的已发送和已送达邮件 {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="按域列出的已发送和已送达邮件"
+>abstract="“按域发送和投放”表格和图形提供了按域分类的电子邮件细分，其中提供了对电子邮件通信整体性能的深入洞察。"
+
 ![](assets/campaign_email_sent_domains.png)
 
-此  **[!UICONTROL 按域发送和投放]** 表格和图形在域级别提供了电子邮件的详细细分，提供了对电子邮件性能的全面洞察。
+此 **[!UICONTROL 按域发送和投放]** 表格和图形在域级别提供了电子邮件的详细细分，提供了对电子邮件性能的全面洞察。
 
 +++ 了解有关“按域发送和交付”指标的更多信息
 
@@ -284,9 +289,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 按域列出的退回和错误 {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="按域列出的退回和错误"
+>abstract="“按域列出的退回和错误”图表和表提供了域级别的细粒度划分，从而深入了解在电子邮件发送过程中遇到的特定错误。"
+
 ![](assets/campaign_email_bounce_domains.png)
 
-此  **[!UICONTROL 按域列出的退回和错误]** 图表和表格提供了发送过程中遇到的特定错误的域级细分，提供了对所发生问题的详细分析。
+此 **[!UICONTROL 按域列出的退回和错误]** 图表和表格提供了发送过程中遇到的特定错误的域级细分，提供了对所发生问题的详细分析。
 
 +++ 详细了解按域列出的退回和错误量度
 
@@ -298,9 +308,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 按域列出的打开和点击数 {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="按域列出的打开和点击数"
+>abstract="按域划分的打开和点击量图形和表格提供了域级别的详细细分，可全面了解受众如何与您的电子邮件互动。"
+
 ![](assets/campaign_email_open_domains.png)
 
-此  **[!UICONTROL 按域打开和点击]** 图表显示了用户档案与您的电子邮件互动的域级细分，提供了有关不同域与您的内容如何互动的宝贵见解。
+此 **[!UICONTROL 按域打开和点击]** 图表显示了用户档案与您的电子邮件互动的域级细分，提供了有关不同域与您的内容如何互动的宝贵见解。
 
 +++ 了解有关“按域列出的打开和点击次数”量度的更多信息
 
@@ -312,9 +327,14 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 按域列出的退回原因 {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="按域列出的退回原因"
+>abstract="“按域列出的退回原因”图表和表格提供了域级别的细分，从而提供对临时和永久错误的全面洞察。 此详细分析为您提供了有关退回消息背后具体原因的宝贵信息。"
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-此  **[!UICONTROL 按域列出的退回原因]** 图表提供了有关临时和永久错误的域级数据细分，提供了有关退回消息原因的详细见解。
+此 **[!UICONTROL 按域列出的退回原因]** 图表提供了有关临时和永久错误的域级数据细分，提供了有关退回消息原因的详细见解。
 
 +++ 详细了解按域量度划分的退回原因
 
@@ -366,7 +386,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!NOTE]
 >
->此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为电子邮件激活发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+>此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]** 仅当为电子邮件激活发送时间优化选项时，小组件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]** 小组件详细说明了与您的报文相关的主要信息，无论它们是否已优化。
 
@@ -554,7 +574,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!NOTE]
 >
->此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]**  仅当为推送通知激活发送时间优化选项时，构件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
+>此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]** 仅当为推送通知激活发送时间优化选项时，构件才可用。 有关发送时间优化的详细信息，请参阅 [此页面](../building-journeys/journeys-message.md#send-time-optimization).
 
 此 **[!UICONTROL 已优化和未优化]** 和 **[!UICONTROL 发送时间优化]** 小组件详细说明了与您的报文相关的主要信息，无论它们是否已优化。
 
@@ -599,7 +619,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推送通知 - 按平台细分"
->abstract="“按平台细分”图表根据配置文件的操作系统细分推送通知的成功情况。"
+>abstract="推送通知 — 按平台划分图形和表格根据用户档案的操作系统提供了推送通知成功情况的划分信息。"
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="短信 - 发送统计数据"
->abstract="“短信发送统计数据”表汇总有关短信的基本数据，如定向消息或已送达消息。"
+>abstract="“短信 — 发送统计数据”表汇总了有关SMS消息的基本数据，例如定向或投放的消息。"
 
 ![](assets/campaign_sms_sending.png)
 
@@ -656,6 +676,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ### 短信 — 跟踪统计数据 {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="短信 — 跟踪统计数据"
+>abstract="短信 — 跟踪统计小组件提供了与访客与您的URL交互相关的基本信息的全面概述。"
+
 ![](assets/campaign_sms_tracking.png)
 
 此 **[!UICONTROL 短信 — 跟踪统计数据]** 构件详细概述了与访客与您的URL参与度相关的关键信息，提供了有关短信消息有效性洞察。
@@ -673,7 +698,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="短信 - 按日期显示效果"
->abstract="“短信 - 按日期显示效果”构件以图形表示形式提供有关消息的关键信息。"
+>abstract="- SMS按日期列出的性能构件通过图形呈现方式提供有关消息的关键信息。"
 
 ![](assets/campaign_sms_performance.png)
 
@@ -727,7 +752,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本见解"
+>abstract="短信 — 按链接显示的点击量小组件提供了关于访客与消息中URL参与度的基本见解。"
 
 ![](assets/campaign_sms_clicks.png)
 

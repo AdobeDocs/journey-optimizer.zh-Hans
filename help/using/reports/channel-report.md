@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
 ht-degree: 25%
@@ -214,7 +214,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_sent_domains.png)
 
-此  **[!UICONTROL 按域发送和投放]** 表格和图形提供了域级别电子邮件投放的详细细分，提供了对电子邮件性能的全面洞察。
+此 **[!UICONTROL 按域发送和投放]** 表格和图形提供了域级别电子邮件投放的详细细分，提供了对电子邮件性能的全面洞察。
 
 +++ 了解有关“按域发送和交付”指标的更多信息
 
@@ -233,7 +233,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_bounces_domain.png)
 
-此  **[!UICONTROL 按域列出的退回和错误]** 图表和表格提供了发送过程中遇到的特定错误的域级细分，提供了对所发生问题的详细分析。
+此 **[!UICONTROL 按域列出的退回和错误]** 图表和表格提供了发送过程中遇到的特定错误的域级细分，提供了对所发生问题的详细分析。
 
 +++ 详细了解按域列出的退回和错误量度
 
@@ -252,7 +252,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_open_domains.png)
 
-此  **[!UICONTROL 按域打开和点击]** 图表显示了访客与您的电子邮件互动的域级细分，提供了有关不同域与您的内容如何互动的宝贵见解。
+此 **[!UICONTROL 按域打开和点击]** 图表显示了访客与您的电子邮件互动的域级细分，提供了有关不同域与您的内容如何互动的宝贵见解。
 
 +++ 了解有关“按域列出的打开和点击次数”量度的更多信息
 
@@ -271,7 +271,7 @@ ht-degree: 25%
 
 ![](assets/channel_email_bounce_domain.png)
 
-此  **[!UICONTROL 按域列出的退回原因]** 图表提供了有关临时和永久错误的域级数据细分，提供了有关退回消息原因的详细见解。
+此 **[!UICONTROL 按域列出的退回原因]** 图表提供了有关临时和永久错误的域级数据细分，提供了有关退回消息原因的详细见解。
 
 有关退回的详细信息，请参阅 [禁止显示列表](../reports/suppression-list.md) 页面。
 
