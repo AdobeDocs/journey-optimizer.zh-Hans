@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -106,10 +106,6 @@ ht-degree: 100%
 * **演示文稿**：演示文稿是渠道所使用的信息，如用于显示优惠的位置或语言。
 
 ## 操作说明视频{#video}
-
->[!NOTE]
->
->这些视频适用于在 Adobe Experience Platform 上构建的 Offer Decisioning 应用程序服务，并非特定于 [!DNL Adobe Journey Optimizer]。但是，它们提供了在 [!DNL Journey Optimizer] 环境中使用决策管理的通用指南。
 
 ### 什么是决策管理？ {#what-is-offer-decisioning}
 
