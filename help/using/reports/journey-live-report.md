@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
 source-wordcount: '3668'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -172,11 +172,11 @@ ht-degree: 17%
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 电子邮件]** 选项卡详细介绍与旅程中发送的电子邮件相关的主要信息。
 
-### 电子邮件 - 发送性能 {#email-sending-performance}
+### 电子邮件 - 发送效果 {#email-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
->title="电子邮件 - 发送性能"
+>title="电子邮件 - 发送效果"
 >abstract="“电子邮件 - 发送统计数据”图表汇总有关电子邮件的基本数据，如过去 24 小时内定向邮件或已送达邮件。"
 
 ![](assets/journey_live_email_performance.png)
@@ -232,12 +232,12 @@ ht-degree: 17%
 
 +++
 
-### 电子邮件 - 按日期列出的效果 {#email-perf-date}
+### 电子邮件 - 各日期的效果 {#email-perf-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
->title="电子邮件 - 按日期列出的效果"
->abstract="电子邮件 — 按日期列出的性能图表显示了过去24小时内已发送电子邮件的全面数据，提供了对关键量度（如投放和跳出）的分析，从而允许对电子邮件发送过程进行详细分析。"
+>title="电子邮件 - 各日期的效果"
+>abstract="“电子邮件 - 各日期的效果”图表显示过去 24 小时内有关已发送的电子邮件的全面数据，其中提供针对是否已送达和退回次数等关键量度的见解，从而可详细地分析电子邮件发送过程。"
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -263,11 +263,11 @@ ht-degree: 17%
 
 +++
 
-### 电子邮件 — 退回类别和原因 {#email-bounce-categories}
+### 电子邮件 - 退回类别和原因 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_live"
->title="电子邮件 — 退回类别和原因"
+>title="电子邮件 - 退回类别和原因"
 >abstract="XX"
 
 ![](assets/journey_live_email_bounce.png)
@@ -297,12 +297,12 @@ ht-degree: 17%
 
 此 **[!UICONTROL 错误原因]** 利用图形和表格可查看过去24小时内发送过程中发生的特定错误，并提供有关错误性质和发生情况的宝贵信息。
 
-### 电子邮件 - 排除原因 {#email-excluded}
+### 电子邮件 - 排除的原因 {#email-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
->title="电子邮件 - 排除原因"
->abstract="“排除原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="电子邮件 - 排除的原因"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -376,12 +376,12 @@ ht-degree: 17%
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 推送通知]** 选项卡详细列出了与旅程中发送的推送通知相关的主要信息。
 
-### 推送通知 - 发送性能 {#push-sending-performance}
+### 推送通知 - 发送效果 {#push-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_performance_live"
->title="推送通知 - 发送性能"
->abstract="“推送通知发送性能”图表总结了有关推送通知的基本数据，例如过去 24 小时内的错误或已送达消息。"
+>title="推送通知 - 发送效果"
+>abstract="“推送通知发送效果”图表总结了有关推送通知的基本数据，例如过去 24 小时内的错误或已送达消息。"
 
 ![](assets/campain_push_live_sending_performance.png)
 
@@ -474,12 +474,12 @@ ht-degree: 17%
 
 此 **[!UICONTROL 错误原因]** 通过表格和图形，您可以识别在发送推送通知过程中发生的特定错误，并提供有关过去24小时内遇到的任何问题的详细见解。
 
-### 推送通知 - 排除原因 {#push-excluded}
+### 推送通知 - 排除的原因 {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
->title="推送通知 - 排除原因"
->abstract="“排除原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="推送通知 - 排除的原因"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -518,12 +518,12 @@ ht-degree: 17%
 
 +++
 
-### 短信 - 按日期显示效果 {#sms-performance}
+### 短信 - 各日期的效果 {#sms-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
->title="短信 - 按日期显示效果"
->abstract="“短信 - 按日期显示效果”构件以图形表示形式提供有关过去 24 小时内消息的关键信息。"
+>title="短信 - 各日期的效果"
+>abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关过去 24 小时内消息的关键信息。"
 
 ![](assets/journey_live_sms_performance.png)
 
@@ -561,12 +561,12 @@ ht-degree: 17%
 
 此 **[!UICONTROL 短信 — 错误原因]** 利用图表和表格，可识别在短信消息发送过程中发生的特定错误，便于对过去24小时内遇到的任何问题进行彻底分析。
 
-### 短信 - 排除原因 {#sms-excluded}
+### 短信 - 排除的原因 {#sms-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
->title="短信 - 排除原因"
->abstract="“排除原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="短信 - 排除的原因"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -638,12 +638,12 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 +++
 
-### 按类型列出的交互 {#interactions-type}
+### 各类型的交互 {#interactions-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions_live"
->title="按类型列出的交互"
->abstract="“按类型列出的交互”图表通过跟踪过去 24 小时内的任何点击、取消或交互而详述用户如何通过与应用程序内消息交互。"
+>title="各类型的交互"
+>abstract="“各类型的交互”图表通过跟踪过去 24 小时内的任何点击、取消或交互而详述用户如何通过与应用程序内消息交互。"
 
 ![](assets/journey_live_inapp_interactions.png)
 

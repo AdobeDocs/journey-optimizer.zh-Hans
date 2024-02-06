@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4368'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -169,11 +169,11 @@ ht-degree: 11%
 
 在您的历程中 **[!UICONTROL 全局报告]**， **[!UICONTROL 电子邮件]** 选项卡详细介绍与旅程中发送的电子邮件相关的主要信息。
 
-### 电子邮件 — 发送统计数据 {#email-sending-statistics}
+### 电子邮件 - 发送统计数据 {#email-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
->title="电子邮件 — 发送统计数据"
+>title="电子邮件 - 发送统计数据"
 >abstract="“电子邮件 - 发送统计数据”表汇总有关电子邮件的基本数据，如定向邮件或已送达邮件。"
 
 ![](assets/journey_email_statistics.png)
@@ -239,12 +239,12 @@ ht-degree: 11%
 
 +++
 
-### 电子邮件 - 发送性能 {#email-performance}
+### 电子邮件 - 发送效果 {#email-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
->title="电子邮件 - 发送性能"
->abstract="电子邮件 — 发送性能图显示了有关已发送电子邮件的全面数据，提供了对关键量度（如投放和跳出）的见解，从而允许对电子邮件投放过程进行详细分析。"
+>title="电子邮件 - 发送效果"
+>abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的见解，从而可详细地分析电子邮件送达过程。"
 
 ![](assets/journey_email_performance.png)
 
@@ -262,11 +262,11 @@ ht-degree: 11%
 
 +++
 
-### 电子邮件 — 退回类别和原因 {#email-bounce-categories}
+### 电子邮件 - 退回类别和原因 {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
->title="电子邮件 — 退回类别和原因"
+>title="电子邮件 - 退回类别和原因"
 >abstract="电子邮件 — 退回类别和原因小组件汇总有关退回邮件的数据，提供对导致电子邮件退回的特定原因和类别的深入分析"
 
 ![](assets/journey_email_bounce_categories.png)
@@ -296,12 +296,12 @@ ht-degree: 11%
 
 此 **[!UICONTROL 错误原因]** 图表和表格提供了发送过程中发生的特定错误的可见性，提供了有关错误性质和发生情况的宝贵信息。
 
-### 电子邮件 - 排除原因 {#email-excluded}
+### 电子邮件 - 排除的原因 {#email-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
->title="电子邮件 - 排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="电子邮件 - 排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/journey_email_excluded.png)
 
@@ -543,11 +543,11 @@ ht-degree: 11%
 
 此 **[!UICONTROL 错误原因]** 表格和图形使您能够识别在推送通知发送过程中发生的特定错误，从而为您提供在此过程中遇到的任何问题的详细见解。
 
-### 推送通知 - 排除原因 {#push-excluded}
+### 推送通知 - 排除的原因 {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
->title="推送通知 - 排除原因"
+>title="推送通知 - 排除的原因"
 >abstract="排除的原因图表和表说明了阻止从目标受众排除的用户配置文件接收消息的各种因素。"
 
 ![](assets/journey_push_excluded.png)
@@ -633,11 +633,11 @@ ht-degree: 11%
 
 * **[!UICONTROL 点击次数]**：内容在短信消息中被点击的次数。
 
-### 短信 - 按日期显示效果 {#sms-performance-date}
+### 短信 - 各日期的效果 {#sms-performance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
->title="短信 - 按日期显示效果"
+>title="短信 - 各日期的效果"
 >abstract="短信 — 按日期列出的性能构件通过图形呈现方式提供有关消息的关键信息。"
 
 ![](assets/journey_sms_performance.png)
@@ -676,12 +676,12 @@ ht-degree: 11%
 
 此 **[!UICONTROL 错误原因]** 利用图表和表格，可识别在短信消息发送过程中发生的特定错误，从而便于彻底分析遇到的任何问题。
 
-### 短信 - 排除原因 {#sms-excluded}
+### 短信 - 排除的原因 {#sms-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
->title="短信 - 排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="短信 - 排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -743,12 +743,12 @@ ht-degree: 11%
 
 此 **[!UICONTROL 应用程序内摘要]** 图形可展示指定时间段内应用程序内展示和交互的进展情况，全面概述应用程序内消息的性能。
 
-### 按类型列出的交互 {#interactions-type}
+### 各类型的交互 {#interactions-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions"
->title="按类型列出的交互"
->abstract="“按类型列出的交互”图表通过跟踪任何点击、取消或交互而详述用户如何与应用程序内消息交互。"
+>title="各类型的交互"
+>abstract="“各类型的交互”图表通过跟踪任何点击、取消或交互而详述用户如何与应用程序内消息交互。"
 
 ![](assets/journey_inapp_interactions.png)
 

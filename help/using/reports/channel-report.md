@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="电子邮件 - 发送总数统计数据"
->abstract="电子邮件 — 总发送统计数据KPI汇总有关电子邮件的基本数据，如“已定向”或“已投放”消息。"
+>abstract="“电子邮件 - 发送总数统计数据”KPI 汇总有关您的电子邮件的基本数据，如定向邮件或送达的邮件。"
 
 ![](assets/channel_email_total_sending.png)
 
@@ -153,7 +153,7 @@ ht-degree: 25%
 
 +++
 
-### 电子邮件 — 退回类别和原因 {#bounce-categories}
+### 电子邮件 - 退回类别和原因 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
@@ -192,12 +192,12 @@ ht-degree: 25%
 
 此 **[!UICONTROL 错误原因]** 利用图表和表格，您可以查明整个发送过程中发生的准确错误，从而帮助客户清楚地了解遇到的任何问题。
 
-### 排除原因 {#excluded-reasons}
+### 排除的原因 {#excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
->title="排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/channel_email_excluded.png)
 
@@ -375,12 +375,12 @@ ht-degree: 25%
 
 +++
 
-### 推送通知 — 排除的原因 {#push-excluded-reasons}
+### 推送通知 - 排除的原因 {#push-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
->title="排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/channel_push_excluded.png)
 
@@ -388,7 +388,7 @@ ht-degree: 25%
 
 请参阅 [此页面](exclusion-list.md) 以获取排除原因的完整列表。
 
-### 推送通知 — 错误原因 {#push-error-reasons}
+### 推送通知 - 错误原因 {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -399,7 +399,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 错误原因]** 利用图形和表格，可识别在发送推送通知过程中发生的特定错误，并针对发送过程中遇到的任何问题提供详细分析。
 
-### 推送通知 — 按平台跟踪 {#push-tracking-platform}
+### 推送通知 - 各平台的跟踪 {#push-tracking-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
@@ -408,7 +408,7 @@ ht-degree: 25%
 
 此 **[!UICONTROL 推送通知 — 按平台跟踪]** 图表和表格根据用户档案的操作系统，详细说明了推送通知的收件人活动。
 
-### 推送通知 — 按平台发送 {#push-sending-platform}
+### 推送通知 - 各平台的发送 {#push-sending-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
@@ -505,12 +505,12 @@ ht-degree: 25%
 
 * **[!UICONTROL 点击次数]**：内容在短信消息中被点击的次数。
 
-### 排除原因 {#sms-excluded-reasons}
+### 排除的原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
->title="排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/channel_sms_excluded.png)
 
@@ -569,12 +569,12 @@ ht-degree: 25%
 
 +++
 
-### 排除原因 {#direct-mail-excluded-reasons}
+### 排除的原因 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
->title="排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/channel_direct_excluded.png)
 
@@ -597,7 +597,7 @@ ht-degree: 25%
 
 在渠道报表中，应用程序内菜单详细列出与促销活动和历程中发送的应用程序内消息相关的主要信息。 指标详见下文。
 
-### 应用程序内总参与度 {#inapp-total-engagement}
+### 应用程序内总参与次数 {#inapp-total-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
@@ -616,12 +616,12 @@ ht-degree: 25%
 
 +++
 
-### 应用程序内参与加班 {#inapp-engagement-overtime}
+### 一段时间内的应用程序内参与次数 {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="应用程序内 - 一段时间内的参与次数"
->abstract="“应用程序内 - 一段时间内的参与次数”图表跟踪应用程序内展示次数和交互次数，并提供每小时、每日、每周和每月细分。"
+>title="一段时间内的应用程序内参与次数"
+>abstract="“一段时间内的应用程序内参与次数”图表跟踪应用程序内展示次数和交互次数，并提供每小时、每日、每周和每月细分。"
 
 ![](assets/channel_inapp_engagement_overtime.png)
 

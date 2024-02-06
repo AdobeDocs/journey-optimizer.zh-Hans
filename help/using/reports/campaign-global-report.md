@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -124,7 +124,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 ## 电子邮件选项卡 {#email-global}
 
-### 电子邮件 — 发送统计数据 {#sending-statistics-email}
+### 电子邮件 - 发送统计数据 {#sending-statistics-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -190,12 +190,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 电子邮件 — 发送性能 {#sending-performance-email}
+### 电子邮件 - 发送效果 {#sending-performance-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
->title="电子邮件 - 发送性能"
->abstract="电子邮件 — 发送性能图显示了有关已发送电子邮件的全面数据，提供了对关键量度（如投放和跳出）的见解，从而允许对电子邮件投放过程进行详细分析。"
+>title="电子邮件 - 发送效果"
+>abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的见解，从而可详细地分析电子邮件送达过程。"
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -213,7 +213,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 电子邮件 — 退回原因和类别 {#bounces-email}
+### 电子邮件 - 退回原因和类别 {#bounces-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
@@ -255,12 +255,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 您可以选择从表、条形图或圆环图切换。
 
-### 电子邮件 - 排除原因 {#excluded-email}
+### 电子邮件 - 排除的原因 {#excluded-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
->title="电子邮件 - 排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="电子邮件 - 排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/campaign_email_excluded.png)
 
@@ -453,12 +453,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 按类型列出的交互 {#interactions-type}
+### 各类型的交互 {#interactions-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
->title="按类型列出的交互"
->abstract="“按类型列出的交互”图表通过跟踪任何点击、取消或交互而详述用户如何与应用程序内消息交互。"
+>title="各类型的交互"
+>abstract="“各类型的交互”图表通过跟踪任何点击、取消或交互而详述用户如何与应用程序内消息交互。"
 
 ![](assets/campaign_inapp_interactions.png)
 
@@ -601,12 +601,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 错误原因]** 表格和图形使您能够识别在推送通知发送过程中发生的特定错误，从而为您提供在此过程中遇到的任何问题的详细见解。
 
-### 推送通知 - 排除原因 {#excluded-push}
+### 推送通知 - 排除的原因 {#excluded-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
->title="推送通知 - 排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="推送通知 - 排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/campaign_push_excluded.png)
 
@@ -693,11 +693,11 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 短信 - 按日期显示效果 {#sms-perfomance-date}
+### 短信 - 各日期的效果 {#sms-perfomance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
->title="短信 - 按日期显示效果"
+>title="短信 - 各日期的效果"
 >abstract="- SMS按日期列出的性能构件通过图形呈现方式提供有关消息的关键信息。"
 
 ![](assets/campaign_sms_performance.png)
@@ -725,12 +725,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 错误原因]** 利用图表和表格，可识别在短信消息发送过程中发生的特定错误，从而便于彻底分析遇到的任何问题。
 
-### 短信 - 排除原因 {#sms-excluded-reasons}
+### 短信 - 排除的原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
->title="短信 - 排除原因"
->abstract="“排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="短信 - 排除的原因"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/campaign_sms_excluded.png)
 
@@ -863,12 +863,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 直邮 — 错误原因]** 图表和表格提供了识别直邮消息发送过程中发生的特定错误的方法，允许对遇到的任何问题进行详细分析。
 
-### 直邮 - 排除原因 {#direct-mail-excluded}
+### 直邮 - 排除的原因 {#direct-mail-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="直邮 - 排除原因"
->abstract="“直邮排除原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>title="直邮 - 排除的原因"
+>abstract="“直邮排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
 
 ![](assets/campaign_direct_excluded.png)
 
