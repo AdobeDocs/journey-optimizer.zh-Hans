@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -136,3 +136,42 @@ ht-degree: 10%
    >
    >仅 **[!UICONTROL 配置文件属性]**， **[!UICONTROL 受众]** 和 **[!UICONTROL 辅助函数]** 源可用于Decision Management。
 
+## 根据上下文数据个性化呈现{#context-data}
+
+当上下文数据传入 [Edge decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md) 调用，您可以利用这些数据动态地个性化呈现。 例如，您可以根据实时因素（如决策时的当前天气条件）定制优惠的表示方式。
+
+要实现此目的，请使用将上下文数据变量直接合并到表示法内容中。 `profile.timeSeriesEvents.` 命名空间。
+
+下面是一个语法示例，用于根据用户的操作系统对优惠的表示进行个性化：
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+包含上下文数据的相应Edge Decisioning请求如下：
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```

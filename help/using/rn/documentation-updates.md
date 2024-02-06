@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '4586'
-ht-degree: 93%
+source-wordcount: '4606'
+ht-degree: 92%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 本页列出了中的所有最新更新 [!DNL Journey Optimizer] 文档。
+
+## 2024年2月(#feb-2024)
+
+* 添加了有关如何根据上下文数据对优惠的表示进行个性化的信息 [了解更多](../offers/offer-library/add-representations.md#context-data)
 
 ## 2024 年 1 月 {#jan-2024}
 
