@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [用户界面](using/start/user-interface.md)
    + [搜索、筛选、分类](using/start/search-filter-categorize.md)
    + [辅助功能](using/start/accessibility.md)
-   + [用例行动手册](using/start/playbooks.md)
+   + [用例战术手册](using/start/playbooks.md)
    + [集成](using/start/ajo-integrations.md)
    + [护栏](using/start/guardrails.md)
    + [最佳实践](using/start/best-practices.md)
@@ -358,7 +358,7 @@ ht-degree: 99%
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
       + [了解禁止列表](using/reports/suppression-list.md)
-      + [新DMARC要求](using/configuration/dmarc-record-update.md)
+      + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
@@ -519,7 +519,7 @@ ht-degree: 99%
       + [数据集入门](using/data/get-started-datasets.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
-      + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh_Hans)
+      + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
    + [查询](using/data/get-started-queries.md)
 + 配置 {#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
@@ -527,7 +527,7 @@ ht-degree: 99%
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
-      + [设置DMARC记录](using/configuration/dmarc-record.md)
+      + [设置 DMARC 记录](using/configuration/dmarc-record.md)
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
       + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
@@ -536,7 +536,7 @@ ht-degree: 99%
       + [创建 IP 预热营销活动](using/configuration/ip-warmup-campaign.md)
       + [创建 IP 预热计划](using/configuration/ip-warmup-plan.md)
       + [运行 IP 预热计划](using/configuration/ip-warmup-execution.md)
-      + [IP预热计划文件](using/configuration/ip-warmup-plan-files.md)
+      + [IP 预热计划文件](using/configuration/ip-warmup-plan-files.md)
    + 监测电子邮件地址 {#monitor-reputation}
       + [禁止列表](using/configuration/manage-suppression-list.md)
       + [重试](using/configuration/retries.md)
