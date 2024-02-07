@@ -11,13 +11,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
 workflow-type: tm+mt
 source-wordcount: '4604'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
-本页列出了中的所有最新更新 [!DNL Journey Optimizer] 文档。
+此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
 
 ## 2024 年 2 月 {#feb-2024}
 
@@ -25,27 +25,27 @@ ht-degree: 92%
 
 ## 2024 年 1 月 {#jan-2024}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年1月版。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 1 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了有关历程大小的护栏。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * [在以下部分](../building-journeys/journey-gs.md#global_timeout)中对历程超时管理进行了详细说明。
 * Journey Optimizer [文档主页](../../ajo-home.md)页面已重新设计。
 * 添加了有关“更新用户档案”活动的建议。[了解详情](../building-journeys/update-profiles.md)
-* 添加了有关历程中事件活动超时行为的信息。 如果在指定的超时时间内未收到任何事件，且未定义超时路径，则个人将继续历程。 [了解详情](../building-journeys/general-events.md#events-specific-time)
-* 应用程序内渠道配置先决条件已更新，其中包含有关使用自定义数据集首选项合并策略的注释。 [了解详情](../in-app/inapp-configuration.md)
-* 已添加有关如何在自定义操作响应中处理集合的更多详细信息。 [了解更多信息](../action/action-response.md#exp-syntax)。
-* 链接到 [Adobe Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans) 已添加到主页。
-* 已从审核日志中的可用资源列表中删除对AJO消息资源的过时引用。 对历程中的消息进行更新时， **历程** 创建日志。 [了解详情](../privacy/audit-logs.md)
-* 添加了关于使用的其他建议 **读取受众** 活动。 [了解详情](../building-journeys/read-audience.md#must-read)
-* Adobe Experience Platform受众入门页面已得到改进，其中列出了一系列受众生成方法。 [了解详情](../audience/about-audiences.md)
-* 添加了在使用自定义操作选择要定位的端点时的最佳实践。 [了解详情](../action/about-custom-action-configuration.md)
-* 添加了注释，以通知用户无法使用API从外部系统触发事件。 [了解详情](../building-journeys/testing-the-journey.md#important-notes)
-* 有关以下内容的信息： **currentActionField** 函数已添加到列表 [集合管理函数](../building-journeys/expression/collection-management-functions.md). 已在中添加了使用该函数的表达式示例 [在自定义操作中使用API调用响应](../action/action-response.md) 页面。
-* 更新有关缓存持续时间的自定义身份验证文档。 [了解更多] (../datasource/external-data-sources.md)
-* 支持 `<listObject>` 已在多个函数中进行了修改。
-* 更新 **持续时间** 中的参数 `toString` 函数。 [了解详情](../building-journeys/functions/functiontostring.md)
+* 添加了有关历程中事件活动的超时行为的信息。如果在指定的超时时间内未收到任何事件，且未定义超时路径，个人将继续历程。[了解详情](../building-journeys/general-events.md#events-specific-time)
+* 更新了应用程序内渠道配置先决条件，其中包含有关使用自定义数据集首选项合并策略的注释。[了解详情](../in-app/inapp-configuration.md)
+* 添加了有关如何在自定义操作响应中处理集合的更多详细信息。[了解详情](../action/action-response.md#exp-syntax)。
+* [Adobe Journey Optimizer 架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)的链接已添加到主页。
+* 已从审核日志的可用资源列表中删除对 AJO 消息资源的过时引用。对历程中的消息进行更新时，将会创建&#x200B;**历程**&#x200B;日志。[了解详情](../privacy/audit-logs.md)
+* 添加了关于使用&#x200B;**读取受众**&#x200B;活动的其他建议。[了解详情](../building-journeys/read-audience.md#must-read)
+* 改进了 Adobe Experience Platform 受众入门页面，其中列出了一系列受众生成方法。[阅读更多内容](../audience/about-audiences.md)
+* 添加了使用自定义操作选择定位端点的最佳实践。[了解详情](../action/about-custom-action-configuration.md)
+* 添加了用于通知用户无法使用 API 从外部系统触发事件的注释。[了解详情](../building-journeys/testing-the-journey.md#important-notes)
+* 将有关 **currentActionField** 函数的信息添加到了[集合管理函数](../building-journeys/expression/collection-management-functions.md)列表。将使用该函数的表达式示例添加到了[在自定义操作中使用 API 调用响应](../action/action-response.md)页面。
+* 更新了有关缓存持续时间的自定义身份验证文档。[阅读更多内容] (../datasource/external-data-sources.md)
+* 在多个函数中修改了对 `<listObject>` 的支持。
+* 更新了 `toString` 函数中的&#x200B;**持续时间**&#x200B;参数。[了解详情](../building-journeys/functions/functiontostring.md)
 * 对于某些外部数据源用例，建议使用自定义操作。
-* 事件字段语法已更新。 以下语法已弃用 `@(my_event.myfield}` 并替换为 `@event{my_event.myfield}`. [了解详情](../building-journeys/expression/field-references.md)
-* 重组了全局报告和实时报告指南。 [了解详情](../reports/campaign-global-report.md)
+* 更新了事件字段语法。以下语法已弃用 `@(my_event.myfield}` 并替换为 `@event{my_event.myfield}`。[了解详情](../building-journeys/expression/field-references.md)
+* 重新编排了“全局报告”和“实时报告”指南。[了解详情](../reports/campaign-global-report.md)
 
 
 ## 2023 年 11 月 {#nov-2023}
