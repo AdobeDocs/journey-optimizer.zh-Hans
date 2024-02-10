@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 7%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,11 @@ ht-degree: 7%
 * 发送到Adobe Experience Platform的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由更新的“字段1”， **更新配置文件** 位于之前的操作，您不应预期操作中将更新“字段1”。
 * 此 **更新配置文件** 活动不支持定义为枚举的XDM字段。
 * 此 **[!UICONTROL 更新配置文件]** 仅活动会更新 [配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}而不是数据湖。
-* 在中选择数据集时 **[!UICONTROL 更新配置文件]** 活动，建议使用未被数据摄取流定位的流量。 **[!UICONTROL 更新配置文件]** 仅存储在中的更新 [配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，则存在用数据摄取流覆盖此类更改的风险。
+* 在中选择数据集时 **[!UICONTROL 更新配置文件]** 活动，建议使用未被数据摄取流定位的流量。 因为 **更新配置文件** 更新仅存储在 [配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，则存在使用数据摄取流覆盖此类更改的风险。
+
+  此外， **更新配置文件** 活动配置不需要标识命名空间。 因此，请确保所选数据集使用的身份命名空间与启动历程的操作所使用的命名空间相同，因为这些更新将使用此命名空间。 所选数据集也可以使用身份映射。 如果未能选择具有正确命名空间或使用标识映射的数据集，则会导致 **更新配置文件** 活动失败。
+
+
 
 ## 使用用户档案更新
 
