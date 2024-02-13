@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -273,7 +273,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="按域列出的已发送和已送达邮件"
->abstract="“按域发送和投放”表格和图形提供了按域分类的电子邮件细分，其中提供了对电子邮件通信整体性能的深入洞察。"
+>abstract="按域列出的已发送和已送达邮件表格和图形提供了按域分类的电子邮件细分，可提供对电子邮件通信整体性能的深入见解。"
 
 ![](assets/campaign_email_sent_domains.png)
 
@@ -292,7 +292,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_domains"
 >title="按域列出的退回和错误"
->abstract="“按域列出的退回和错误”图表和表提供了域级别的细粒度划分，从而深入了解在电子邮件发送过程中遇到的特定错误。"
+>abstract="按域列出的退回和错误图形和表格提供了域级别的精细细分，可深入了解电子邮件发送过程中遇到的特定错误。"
 
 ![](assets/campaign_email_bounce_domains.png)
 
@@ -311,7 +311,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="按域列出的打开和点击数"
->abstract="按域划分的打开和点击量图形和表格提供了域级别的详细细分，可全面了解受众如何与您的电子邮件互动。"
+>abstract="按域列出的打开和点击数图形和表格提供了域级别的详细细分，全面展示了受众如何与您的电子邮件互动。"
 
 ![](assets/campaign_email_open_domains.png)
 
@@ -330,7 +330,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
 >title="按域列出的退回原因"
->abstract="“按域列出的退回原因”图表和表格提供了域级别的细分，从而提供对临时和永久错误的全面洞察。 此详细分析为您提供了有关退回消息背后具体原因的宝贵信息。"
+>abstract="按域列出的退回原因图形和表格包含域级别的细分，提供了对临时和永久错误的综合见解。此详细分析为您提供有关退回邮件背后具体原因的宝贵信息。"
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
@@ -380,7 +380,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 电子邮件 — 优化 {#optimized-email}
+###  电子邮件 - 优化  {#optimized-email}
 
 ![](assets/campaign_email_optimized.png)
 
@@ -404,7 +404,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 电子邮件 — 优惠 {#email-offers}
+### 电子邮件 - 优惠 {#email-offers}
 
 ![](assets/campaign_email_offers.png)
 
@@ -619,7 +619,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推送通知 - 按平台细分"
->abstract="推送通知 — 按平台划分图形和表格根据用户档案的操作系统提供了推送通知成功情况的划分信息。"
+>abstract="“推送通知 - 按平台细分”图形和表格提供了基于配置文件操作系统的推送通知成功情况的细分。"
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -652,7 +652,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="短信 - 发送统计数据"
->abstract="“短信 — 发送统计数据”表汇总了有关SMS消息的基本数据，例如定向或投放的消息。"
+>abstract="“短信 - 发送统计数据”表格汇总了有关短信的基本数据，如定向消息或已送达消息。"
 
 ![](assets/campaign_sms_sending.png)
 
@@ -674,12 +674,12 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 +++
 
-### 短信 — 跟踪统计数据 {#sms-tracking-statistics}
+### 短信 - 跟踪统计数据 {#sms-tracking-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
->title="短信 — 跟踪统计数据"
->abstract="短信 — 跟踪统计小组件提供了与访客与您的URL交互相关的基本信息的全面概述。"
+>title="短信 - 跟踪统计数据"
+>abstract="“短信 - 跟踪统计数据”构件全面概述了有关访问者与 URL 交互的基本信息。"
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -698,7 +698,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="短信 - 各日期的效果"
->abstract="- SMS按日期列出的性能构件通过图形呈现方式提供有关消息的关键信息。"
+>abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关消息的关键信息。"
 
 ![](assets/campaign_sms_performance.png)
 
@@ -752,7 +752,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="短信 - 按链接显示的点击次数"
->abstract="短信 — 按链接显示的点击量小组件提供了关于访客与消息中URL参与度的基本见解。"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本见解。"
 
 ![](assets/campaign_sms_clicks.png)
 

@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4368'
-ht-degree: 12%
+ht-degree: 27%
 
 ---
 
@@ -44,23 +44,23 @@ ht-degree: 12%
 
 在您的历程中 **[!UICONTROL 全局报告]**， **[!UICONTROL 历程]** 选项卡让您清楚地了解历程最重要的跟踪数据。
 
-### 历程性能 {#journey-perfomance}
+### 历程表现 {#journey-perfomance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
->title="历程性能"
->abstract="通过历程性能小组件，您可以可视地跟踪定向用户档案在旅程中的路径。"
+>title="历程表现"
+>abstract="“历程表现”构件使您能够直观地跟踪目标配置文件在您的历程中的进展路径。"
 
 ![](assets/journey_performance.png)
 
 此 **[!UICONTROL 历程性能]** 利用小组件，可在目标用户档案浏览您的历程时直观地跟踪其轨迹。
 
-### 历程统计数据 {#journey-statistics}
+### 历程统计 {#journey-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
->title="历程统计数据"
->abstract="历程统计数据关键绩效指标(KPI)用作一个全面的功能板，提供对与旅程相关的基本量度的深入分析。"
+>title="历程统计"
+>abstract="“历程统计”关键绩效指标 (KPI) 作为一种综合仪表板，可提供与您的历程相关的基本量度的深入分析。"
 
 ![](assets/journey_statistics.png)
 
@@ -76,12 +76,12 @@ ht-degree: 12%
 
 +++
 
-### 操作性能 {#action-performance}
+### 操作表现 {#action-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
->title="操作性能"
->abstract="操作性能构件说明了启动操作时执行的最成功操作。"
+>title="操作表现"
+>abstract="“操作表现”构件显示了启动操作时发生的最成功的操作。"
 
 ![](assets/journey_action_performance.png)
 
@@ -92,7 +92,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
 >title="热门操作"
->abstract="“顶级操作”表整合了有关您的操作的重要信息，提供了有关每个操作的频率和效率的简要观察。"
+>abstract="“热门操作”表格整合了有关您的操作的重要信息，提供了对每项操作的频率和有效性的简明观察。"
 
 ![](assets/journey_top_actions.png)
 
@@ -111,18 +111,18 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="操作错误原因"
->abstract="“操作错误原因”表和图表提供了在执行您的操作期间遇到的错误的彻底摘要，并提供了可能已发生问题的全面概述。"
+>abstract="操作错误原因表格和图形提供了执行操作期间所遇错误的完整摘要，从而全面概述了可能发生的问题。"
 
 ![](assets/journey_action_error.png)
 
 此 **[!UICONTROL 操作错误原因]** 表格和图形全面概述了执行期间发生的错误， **[!UICONTROL 操作]**.
 
-### 按来源显示的事件 {#events-origin}
+### 按来源列出的事件 {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
->title="按来源显示的事件"
->abstract="按起源排序的事件表和图形提供了成功接收事件的视图。 通过这些可视化表示法，您可以准确地识别有效接收的事件，从而针对历程中每个事件的性能和影响提供宝贵的见解。"
+>title="按来源列出的事件"
+>abstract="“按来源列出的事件”表格和图形提供了成功接收事件的情况。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的见解。"
 
 ![](assets/journey_events_origin.png)
 
@@ -133,7 +133,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="按事件显示接收的事件"
->abstract="通过事件图接收的事件，可识别和分析历程中有效执行的特定事件，提供关于各个事件性能和成功率的宝贵见解。"
+>abstract="“按事件显示接收的事件”图型有助于识别和分析您的历程中有效执行的特定事件，从而提供有关单个事件的表现和成功率的宝贵见解。"
 
 ![](assets/journey_event_received.png)
 
@@ -144,7 +144,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="热门事件"
->abstract="“顶级事件”表可整合有关事件的基本数据，并提供有关每个事件的频率和性能的简洁观察结果。"
+>abstract="“热门事件”表格整合了有关事件的基本数据，提供了对每个事件的频率和表现的简明观察。"
 
 ![](assets/journey_top_events.png)
 
@@ -155,7 +155,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="同意政策"
->abstract="“同意策略”表和图表显示在自定义操作中从每个策略排除的用户档案数量。 此演示文稿提供了有关每个同意策略对配置文件排除的影响的清晰洞察。"
+>abstract="“同意政策”表格和图形显示从自定义操作中的每项策略中排除的配置文件的数量。其中清楚地展示了每项同意政策对配置文件排除情况的影响。"
 
 ![](assets/journey_consent.png)
 
@@ -267,7 +267,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="电子邮件 - 退回类别和原因"
->abstract="电子邮件 — 退回类别和原因小组件汇总有关退回邮件的数据，提供对导致电子邮件退回的特定原因和类别的深入分析"
+>abstract="“电子邮件 - 退回类别和原因”构件汇总了有关退回邮件的数据，提供了对导致电子邮件退回的具体原因和类别的深入见解"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -314,7 +314,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="按域列出的已发送和已送达邮件"
->abstract="“按域发送和投放”表格和图形提供了按域分类的电子邮件细分，其中提供了对电子邮件通信整体性能的深入洞察。"
+>abstract="按域列出的已发送和已送达邮件表格和图形提供了按域分类的电子邮件细分，可提供对电子邮件通信整体性能的深入见解。"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -333,7 +333,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="按域列出的打开和点击数"
->abstract="按域划分的打开和点击量图形和表格提供了域级别的详细细分，可全面了解受众如何与您的电子邮件互动。"
+>abstract="按域列出的打开和点击数图形和表格提供了域级别的详细细分，全面展示了受众如何与您的电子邮件互动。"
 
 ![](assets/journey_email_open_domains.png)
 
@@ -352,7 +352,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="按域列出的退回和错误"
->abstract="“按域列出的退回和错误”图表和表提供了域级别的细粒度划分，从而深入了解在电子邮件发送过程中遇到的特定错误。"
+>abstract="按域列出的退回和错误图形和表格提供了域级别的精细细分，可深入了解电子邮件发送过程中遇到的特定错误。"
 
 ![](assets/journey_email_bounce_domains.png)
 
@@ -371,7 +371,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="按域列出的退回原因"
->abstract="“按域列出的退回原因”图表和表格提供了域级别的细分，从而提供对临时和永久错误的全面洞察。 此详细分析为您提供了有关退回消息背后具体原因的宝贵信息。"
+>abstract="“按域列出的退回原因”图形和表格包含域级别的细分，提供了对临时和永久错误的综合见解。此详细分析为您提供有关退回邮件背后具体原因的宝贵信息。"
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
@@ -388,12 +388,12 @@ ht-degree: 12%
 
 此 **[!UICONTROL 电子邮件 — 顶部URL]** 图表和表格提供了电子邮件中吸引最高访客流量的URL的全面概述。 这使您能够识别最受欢迎的链接并排定其优先级，从而加深您对电子邮件中特定内容的用户档案参与情况的了解。
 
-### 电子邮件 — 优化 {#email-sto}
+###  电子邮件 - 优化  {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
->title="电子邮件 — 优化"
->abstract="发送时间优化和已优化与未优化的构件提供关于报文的详细信息，突出显示它们是否已优化。"
+>title=" 电子邮件 - 优化 "
+>abstract="“发送时间优化”以及“已优化”和“未优化”构件提供了有关您的消息的详细信息，并突出显示它们是否已优化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -416,12 +416,12 @@ ht-degree: 12%
 
 +++
 
-### 电子邮件 — 优惠 {#email-offers}
+### 电子邮件 - 优惠 {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
->title="电子邮件 — 优惠"
->abstract="优惠统计和优惠详细统计小组件提供对优惠性能的全面洞察，详细分析优惠随时间变化的影响，并提供详细统计数据以便更深入地了解。"
+>title="电子邮件 - 优惠"
+>abstract="“优惠统计”和“优惠详细统计”构件提供了对优惠绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -537,7 +537,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="推送通知 - 错误原因"
->abstract="“错误原因”图形和表格使您可以确定在发送过程中发生的特定错误"
+>abstract="通过“错误原因”图表，可了解在发送过程中发生的具体错误"
 
 ![](assets/journey_push_error.png)
 
@@ -548,7 +548,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="推送通知 - 排除的原因"
->abstract="排除的原因图表和表说明了阻止从目标受众排除的用户配置文件接收消息的各种因素。"
+>abstract="“排除的原因”图表说明了阻止被排除在目标受众之外的用户配置文件接收消息的各种因素。"
 
 ![](assets/journey_push_excluded.png)
 
@@ -561,7 +561,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
 >title="推送通知 - 按平台细分"
->abstract="推送通知 — 按平台划分图形和表格根据用户档案的操作系统提供了推送通知成功情况的划分信息。"
+>abstract="“推送通知 - 按平台细分”图形和表格提供了基于配置文件操作系统的推送通知成功情况的细分。"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -596,7 +596,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="短信 - 发送统计数据"
->abstract="“短信 — 发送统计数据”表汇总了有关SMS消息的基本数据，例如定向或投放的消息。"
+>abstract="“短信 - 发送统计数据”表格汇总了有关短信的基本数据，如定向消息或已送达消息。"
 
 ![](assets/journey_sms_sending.png)
 
@@ -618,12 +618,12 @@ ht-degree: 12%
 
 +++
 
-### 短信 — 跟踪统计数据 {#sms-tracking-stat}
+### 短信 - 跟踪统计数据 {#sms-tracking-stat}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
->title="短信 — 跟踪统计数据"
->abstract="短信 — 跟踪统计小组件提供了与访客与您的URL交互相关的基本信息的全面概述。"
+>title="短信 - 跟踪统计数据"
+>abstract="“短信 - 跟踪统计数据”构件全面概述了有关访问者与 URL 交互的基本信息。"
 
 ![](assets/journey_sms_tracking.png)
 
@@ -638,7 +638,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="短信 - 各日期的效果"
->abstract="短信 — 按日期列出的性能构件通过图形呈现方式提供有关消息的关键信息。"
+>abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关消息的关键信息。"
 
 ![](assets/journey_sms_performance.png)
 
@@ -694,7 +694,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="短信 - 按链接显示的点击次数"
->abstract="短信 — 按链接显示的点击量小组件提供了关于访客与消息中URL参与度的基本见解。"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本见解。"
 
 ![](assets/journey_sms_clicks.png)
 

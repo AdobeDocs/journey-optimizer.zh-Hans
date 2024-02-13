@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
 source-wordcount: '3668'
-ht-degree: 18%
+ht-degree: 31%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 18%
 
 在您的历程中 **[!UICONTROL 实时报告]**， **[!UICONTROL 历程]** 选项卡让您清楚地了解历程最重要的跟踪数据。
 
-### 历程性能 {#journey-performance}
+### 历程表现 {#journey-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
->title="历程性能"
->abstract="通过历程性能小组件，您可以可视地跟踪定向用户档案在过去24小时内在您的旅程中的路径。"
+>title="历程表现"
+>abstract="“历程表现”构件使您能够直观地跟踪目标配置文件在过去 24 小时内在您的历程中的进展情况。"
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="历程统计数据"
->abstract="历程统计数据关键绩效指标(KPI)用作全面的功能板，提供与您的旅程相关的过去24小时内的基本量度的深入分析。"
+>abstract="“历程统计”关键绩效指标 (KPI) 作为一种综合仪表板，可提供过去 24 小时内与您的历程相关的基本量度的深入分析。"
 
 ![](assets/journey_live_statistics.png)
 
@@ -75,12 +75,12 @@ ht-degree: 18%
 * **[!UICONTROL 失败的个人历程]**：未成功执行的各个历程的总数。
 +++
 
-### 过去24小时内执行的操作 {#action-executed}
+### 过去 24 小时内执行的操作 {#action-executed}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
->title="过去24小时内执行的操作"
->abstract="过去24小时内执行的操作提供最近性能的快照，显示过去24小时内执行的操作的有效性。"
+>title="过去 24 小时内执行的操作"
+>abstract="“过去 24 小时内执行的操作”构件提供了最近性能的快照，展示了过去 24 小时内执行的操作的有效性。"
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,7 +99,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="执行的操作和错误"
->abstract="执行的操作和错误构件展示了最成功的操作以及在过去24小时内触发操作期间发生的任何错误。 此构件全面概述了成功的执行和遇到的错误，提供了有关近期操作性能的宝贵见解。"
+>abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该构件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的见解。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -118,7 +118,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="操作错误原因"
->abstract="“操作错误原因”表和图表提供了在执行您的操作期间遇到的错误的彻底摘要，以及过去24小时内可能发生的问题的全面概述。"
+>abstract="操作错误原因表格和图形提供了执行操作期间遇到的错误的完整摘要，从而全面概述了在过去 24 小时内可能发生的问题。"
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,18 +129,18 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="按操作显示的错误类型"
->abstract="“按操作显示的错误类型”表和图表提供了过去24小时内每次执行操作期间发生错误的全面概述。"
+>abstract="“按操作显示的错误类型”表格和图形提供了过去 24 小时内每次执行操作期间发生的错误的全面概述。"
 
 ![](assets/journey_live_error_type.png)
 
 此 **[!UICONTROL 按操作显示的错误类型]** 表和图形全面概述了过去24小时内每次执行您的操作时发生的错误。
 
-### 过去24小时内执行的事件 {#event-executed-24hours}
+### 过去 24 小时内执行的事件 {#event-executed-24hours}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
->title="过去24小时内执行的事件"
->abstract="通过过去24小时内执行的事件，您可以识别过去24小时内成功执行了哪些事件。 "
+>title="过去 24 小时内执行的事件"
+>abstract="“过去 24 小时内执行的事件”构件有助于确定哪些事件在过去 24 小时内成功执行。 "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,18 +151,18 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="事件"
->abstract="事件小组件全面查看了哪些事件已成功执行，提供了过去24小时详细分析的摘要数字、图形和表格。"
+>abstract="“事件”构件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细见解的摘要数据、图形和表格。"
 
 ![](assets/journey_live_events.png)
 
 此 **[!UICONTROL 活动]** 利用小组件，您可以通过摘要编号、图表和表格查看成功执行了哪一个事件。
 
-### 按来源显示的事件 {#events-origin}
+### 按来源列出的事件 {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
->title="按来源显示的事件"
->abstract="按起源分类的事件表格和图形提供了过去24小时内事件成功接收情况的视图。 通过这些可视化表示法，您可以准确地识别有效接收的事件，从而针对历程中每个事件的性能和影响提供宝贵的见解。"
+>title="按来源列出的事件"
+>abstract="“按来源列出的事件”表格和图形提供了过去 24 小时内事件成功接收情况的视图。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的见解。"
 
 ![](assets/journey_events_origin.png)
 
@@ -321,12 +321,12 @@ ht-degree: 18%
 
 此 **[!UICONTROL 电子邮件 — 最佳收件人域]** 图表提供过去24小时内用户档案最常用于打开电子邮件的域的详细细分。 这提供了有关用户档案行为的宝贵见解，可帮助您了解首选平台。
 
-### 电子邮件 — 优惠 {#email-offers}
+### 电子邮件 - 优惠 {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
->title="电子邮件 — 优惠"
->abstract="优惠统计和优惠详细统计小组件提供过去24小时内优惠性能的全面见解，提供优惠随时间变化的详细分析并提供详细统计信息，以便更深入地了解。"
+>title="电子邮件 - 优惠"
+>abstract="“优惠统计”和“优惠详细统计”构件提供了过去 24 小时内对优惠绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -344,12 +344,12 @@ ht-degree: 18%
 
 +++
 
-### 电子邮件 — 优化 {#email-sto}
+###  电子邮件 - 优化  {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
->title="电子邮件 — 优化"
->abstract="发送时间优化和已优化与未优化的构件可提供过去24小时内有关报文的详细信息，突出显示它们是否已优化。"
+>title=" 电子邮件 - 优化 "
+>abstract="“发送时间优化”以及“已优化”和“未优化”构件提供了过去 24 小时内有关您的消息的详细信息，并突出显示它们是否已优化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="应用程序内性能"
->abstract="应用程序内性能KPI可让您了解访客在过去24小时内与应用程序内消息的互动情况。”"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本见解。"
 
 ![](assets/journey_live_inapp_performance.png)
 

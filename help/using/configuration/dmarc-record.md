@@ -7,11 +7,11 @@ feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 子域，域，邮件， dmarc，记录
+keywords: 子域, 域, 邮件, dmarc, 记录
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="设置 DMARC 记录"
->abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现送达问题。<br>作为强制执行行业最佳实践的一部分，Google和Yahoo！ 要求您拥有用于向其发送电子邮件的任何域的DMARC记录。"
+>abstract="DMARC 是一种电子邮件身份验证方法，它使域所有者可保护其域免遭未经授权的使用，并避免邮箱提供商出现送达问题。<br>作为执行行业最佳实践的举措之一，Google 和 Yahoo!都会要求您用于向它们发送电子邮件的任何域都必须有 DMARC 记录。"
 
 ## 什么是DMARC？ {#what-is-dmarc}
 
-基于域的消息身份验证、报告和符合性(DMARC)是一种电子邮件身份验证方法，它允许域所有者保护其域免遭未经授权的使用。 通过向电子邮件提供商/ISP提供明确的策略，它有助于防止恶意行为者发送声称来自您的域的电子邮件。 实施DMARC可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可投放性。
+基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。向电子邮件提供商/ISP 提供明确的策略，这有助于防止恶意行为者假冒您的域发送电子邮件。实施 DMARC 可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可传递性。
 
 DMARC还提供了对身份验证失败的消息的报告，以及对未通过DMARC验证的电子邮件的处理控制。 根据实施的 [DMARC策略](#dmarc-policies)，则可以监视、隔离或拒绝这些电子邮件。 利用这些功能，可采取措施来缓解和解决潜在错误。
 
@@ -63,13 +63,13 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
 
 ## DMARC要求更新 {#dmarc-update}
 
-作为强制执行行业最佳实践的一部分，Google和Yahoo！ 都要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求适用于起始日期 **2024年2月1日**.
+作为执行行业最佳实践的举措之一，Google 和 Yahoo!都要求您拥有 **DMARC记录** 用于向其发送电子邮件的任何域。 此新要求适用于起始日期 **2024年2月1日**.
 
-进一步了解Google和Yahoo！&#39;中的s要求 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+进一步了解Google和Yahoo！&#39;中的s要求 [本节](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hans#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->未能遵守Gmail和Yahoo的新要求！ 可能导致电子邮件登陆垃圾邮件文件夹或被阻止。 [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>若未能遵守 Gmail 和 Yahoo! 的新要求，可能导致电子邮件登陆垃圾邮件文件夹或被阻止。 [了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 因此，Adobe强烈建议您执行以下操作：
 
