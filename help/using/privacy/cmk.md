@@ -8,7 +8,7 @@ role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Journey Optimizer 的设置过程包括两个部分，利用 Adobe Experience Pl
 * 请按照 [Adobe Experience Platform 中的客户托管密钥](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hans)文档中列出的步骤进行操作。
 * 请按照 [Customer Journey Analytics 中的客户托管密钥](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=zh-Hans)文档中列出的步骤进行操作。
 
-  即使您尚未购买 Customer Journey Analytics (CJA)，也必须完成此设置过程，因为后台会使用 CJA 的某些组件。
+  即使您尚未购买 Customer Journey Analytics (CJA)，也必须完成此设置过程，因为背景会使用 CJA 的某些组件。
 
 要完成设置过程，请参阅 [Adobe Experience Platform 中的客户托管密钥](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=zh-Hans)文档的分步详细说明。
 
