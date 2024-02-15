@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
+source-git-commit: 8d3dac39a0f4ea9982c5a8475d310ae0c3be68b1
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 19%
 
 * 您现在可以定位 **从CSV文件上传的受众** 历程和营销活动。 [了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
 * 您现在可以定位 **通过受众组合创建的受众** 并利用历程中的扩充属性。 [了解详情](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。
 
 **历程**
 
