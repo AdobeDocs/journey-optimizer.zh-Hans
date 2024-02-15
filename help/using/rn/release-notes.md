@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
+source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 95%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 95%
 * **读取受众** - 现在，**读取受众**&#x200B;活动依赖于批量区段的配置文件快照数据集，该数据集仅在计划的每日批量作业运行后每天生成一次，因此数据将刷新到上一次每日批量作业。[了解详情](../building-journeys/read-audience.md)
 
 * **字段组** - 此版本修复了在某些情况下阻止保存字段组的问题。
+
+* 在多个函数中修改了对 `<listObject>` 的支持。
 
 **频率规则**
 
