@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
+source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 19%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 19%
 * **配置** - stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。
 * **用户界面**  — 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。
 
-
 **短信渠道**
 
 * **选择启用/选择禁用关键词**  — 配置短信渠道时，您现在可以自定义 **选择启用和选择禁用关键词** 根据您的喜好选择。 Journey Optimizer会根据这些指定的关键词触发响应。
@@ -101,4 +100,4 @@ ht-degree: 19%
 **内容模板**
 
 * **缩略图** - A **缩略图视图** 现在可用于内容模板和片段，以改进可视访问。
-* **渠道**  — 内容模板现在可用于 **所有渠道**，Web除外。
+* **多渠道模板**  — 内容模板现在可用于 **所有渠道**，Web除外。
