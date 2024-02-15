@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 22%
+source-wordcount: '1043'
+ht-degree: 25%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 22%
 假设您拥有“白银客户”受众。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
 此类事件可定位为历程的第一步或后续步骤。
+
+➡️ [在视频中发现此功能](#video)
 
 ### 重要说明{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ ht-degree: 22%
 在生产历程中使用受众之前，请始终首先评估每天符合此受众条件的个人数量。 为此，您可以检查 **[!UICONTROL 受众]** 菜单，打开受众，然后查看 **[!UICONTROL 随时间变化的配置文件]** 图形。
 
 ![](assets/segment-overload.png)
+
+## 操作方法视频 {#video}
+
+了解受众鉴别历程的适用用例。了解如何使用受众鉴别构建历程以及可以应用的最佳实践。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、用例、个性化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 2%
@@ -111,4 +111,3 @@ ht-degree: 2%
 以下视频演示了利用历程中的上下文数据个性化电子邮件的类似用例。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
-
