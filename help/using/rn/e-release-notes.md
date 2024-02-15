@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 20%
@@ -41,8 +41,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -58,8 +57,7 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建适用于短信和直邮渠道的频率上限规则。 此外，您还可以按通信类型设置频率上限规则。<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>您现在可以创建适用于短信和直邮渠道的频率上限规则。 此外，您还可以按通信类型设置频率上限规则。<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -82,10 +80,11 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 
 **历程**
 
-* 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。
 * 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您通过显示特定日期、特定月内、全年或指定时间范围内发布的旅程来优化列表。
 * 您现在可以更新中的“content-type”标头 **自定义操作**.
 * stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。
+* 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。
+
 
 **短信渠道**
 
