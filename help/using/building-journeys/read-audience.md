@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 6%
+source-wordcount: '1438'
+ht-degree: 8%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 6%
 使用 **读取受众** 活动使受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
 以中创建的“Luma应用程序打开和签出”受众为例 [构建受众](../audience/about-audiences.md) 用例。 通过读取受众活动，您可以让属于此受众的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
+
+➡️ [在视频中发现此功能](#video)
 
 ## 必读 {#must-read}
 
@@ -183,3 +185,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 合并后，您可以通过执行分段或排除来再次拆分受众。
 
 ![](assets/read-segment-audience3.png)
+
+## 操作方法视频 {#video}
+
+了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
