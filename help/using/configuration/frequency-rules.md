@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
+source-git-commit: b85a14dfe5ef52c9bf714246386c79d142f9b002
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1109'
 ht-degree: 10%
 
 ---
@@ -79,23 +79,23 @@ ht-degree: 10%
    >
    >当前仅 **[!UICONTROL 营销]** 类别可用。
 
-1. 为要应用的限制选择时间范围。
+1. 从中选择要应用上限的时间范围 **[!UICONTROL 持续时间]** 下拉列表。
 
-   ![](assets/message-rules-capping-duration.png)
+   <!--![](assets/message-rules-capping-duration.png) TO UPDATE ONCE DAILY REMOVED-->
 
    频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
 
    各期间计数器到期如下：
 
-   * **[!UICONTROL 每日]**：频率上限的有效期截止日期为23天:59:59 UTC时间，并在第二天开始时重置为0。
+   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
 
    * **[!UICONTROL 每周]**：频率上限有效期到星期六23日:59:作为日历周的那一周的59 UTC从星期日开始。 无论规则如何创建，都会过期。 例如，如果规则在星期四创建，则此规则的有效期到星期六23:59:59.
 
    * **[!UICONTROL 每月]**：频率上限有效期到每月最后一天23点:59:世界协调时59分 例如，1月的每月到期时间为01-31 23:59:世界协调时59分
 
-   >[!NOTE]
+   <!--[!NOTE]
    >
-   >处理以下问题时 [批量分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   >When dealing with [batch segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} is recommended. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
 1. 设置规则的上限，即根据您上述选择，每月、每周或每天可以向单个用户配置文件发送的最大消息数。
 
