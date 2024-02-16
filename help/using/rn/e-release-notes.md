@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
+source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -42,7 +42,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
 </table>
