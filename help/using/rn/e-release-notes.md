@@ -6,9 +6,9 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 16%
 
 ---
@@ -80,8 +80,8 @@ ht-degree: 16%
 
 **历程**
 
-* **筛选您的历程**  — 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您通过显示特定日期、特定月内、全年或指定时间范围内发布的旅程来优化列表。
-* **自定义操作**  — 您现在可以在中的“content-type”标头上更新 **自定义操作**.
+* **筛选您的历程**  — 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。
+* **自定义操作**  — 您现在可以更新 **content-type** 标题。 此新 **content-type** 应引用JSON内容。
 * **配置** - stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。
 * **用户界面**  — 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。
 
@@ -103,6 +103,6 @@ ht-degree: 16%
 
   >[!AVAILABILITY]
   >
-  >从此版本开始，此功能将逐步推广到客户环境。
+  >此功能在有限可用性(LA)中面向一小部分客户发布。
 
 * **多渠道模板**  — 内容模板现在可用于 **所有渠道**，Web除外。 对于电子邮件，您现在可以选择类型(HTML或内容)。
