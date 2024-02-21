@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: ht
-source-wordcount: '1960'
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+workflow-type: tm+mt
+source-wordcount: '1912'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,14 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 无法向登陆页添加预编译标头。
 * 设计主登录页面时，无法选择&#x200B;**自己编写代码**&#x200B;选项。
 
-## 短信护栏 {#sms-guardrails}
+<!--
+## SMS guardrails {#sms-guardrails}
 
-* MMS 功能仅适用于 Sinch。
-* 可以通过支持的 URL 加入 MMS 的媒体文件。请确保单独上传媒体文件。
-* 消息反馈同步当前不适用于 MMS。
-* 同意管理在 MMS 的短信渠道级别运行。
+* MMS Capability is only available for Sinch.
+* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
+* Message feedback syncing is not currently available for MMS.
+* Consent management operates at the SMS channel level for MMS.
+-->
 
 ## 片段护栏 {#fragments-guardrails}
 

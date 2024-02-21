@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2152'
 ht-degree: 14%
 
 ---
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >您只能排除已添加到中的域组（无论是默认域组还是自定义域组） [IP预热计划模板](ip-warmup-plan.md#prepare-file). 如果不是这种情况，请用要排除的域组更新模板，然后 [重新上传计划](#re-upload-plan).
+      >您只能排除已添加到中的自定义域组 [IP预热计划模板](ip-warmup-plan.md#prepare-file). 如果不是这种情况，请使用要排除的自定义域组更新模板，然后 [重新上传计划](#re-upload-plan).
 
 1. 如果需要，您可以使用替换促销活动 **[!UICONTROL 替换营销活动]** 按钮。
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. 或者，您可以定义一个时间窗口，在IP预热活动出现任何延迟时，可以在该时间窗口执行 [受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. 为此，请单击计划名称左上角的属性图标，然后使用 **[!UICONTROL 重试运行时间]** 下拉列表以选择持续时间 — 最多240分钟（4小时）。
+
+   >[!NOTE]
+   >
+   >在定义的时间窗口结束前，每30分钟进行一次重试。
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

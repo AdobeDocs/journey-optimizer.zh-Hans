@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: ht
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->在使用用例战术手册之前，需要执行以下配置步骤。有关每个步骤的详细信息，请参阅用例战术手册文档的[入门](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=zh-Hans){target="_blank"}页面。
+>在使用用例战术手册之前，需要执行以下配置步骤。有关每个步骤的详细信息，请参阅用例战术手册文档的[入门](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"}页面。
 >
 >* 创建沙盒
 >* 配置用户权限

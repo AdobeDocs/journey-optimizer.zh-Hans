@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域，优化器，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 27%
 
 ---
@@ -44,10 +44,6 @@ ht-degree: 27%
 * 了解如何 [委派子域](delegate-subdomain.md) 直接从界面
 * 了解如何 [添加Google TXT记录](google-txt.md) 子域，以确保将电子邮件成功发送到Gmail地址
 * 了解如何 [访问PTR记录](ptr-records.md) 为子域生成，允许通过发送邮件服务器来验证它们
-
->[!NOTE]
->
->要为子域实施DMARC，请联系 [Adobe客户关怀](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 

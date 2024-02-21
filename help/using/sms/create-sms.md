@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建短信/彩信消息
-description: 了解如何在Journey Optimizer中创建短信/彩信消息
+title: 创建短信消息
+description: 了解如何在Journey Optimizer中创建短信消息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 10%
+source-wordcount: '789'
+ht-degree: 9%
 
 ---
 
-# 创建短信 (SMS/MMS){#create-sms}
+# 创建文本消息 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建文本消息"
->abstract="要创建短信 (SMS/SMS)，请在历程或营销活动中添加短信操作，然后开始用表达式编辑器使其个性化。"
+>abstract="要创建短信，请在历程或营销策划中添加短信操作，然后开始使用表达式编辑器对其进行个性化设置。"
 
-您可以使用Adobe Journey Optimizer设计和发送文本(SMS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
+您可以使用Adobe Journey Optimizer设计和发送文本(SMS)。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
 >[!NOTE]
 >
->根据行业标准和法规，所有SMS/MMS营销消息都必须包含一种让接收者轻松取消订阅的方式。 要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>根据行业标准和法规，所有短信营销消息都必须包含一种让接收者能够轻松取消订阅的方式。要实现此目的，短信收件人可以使用选择启用和选择禁用关键词进行回复。 [了解如何管理选择退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## 添加短信 {#create-sms-journey-campaign}
 
-浏览以下选项卡，了解如何在营销活动或历程中添加短信(SMS/MMS)。
+浏览以下选项卡，了解如何在活动或历程中添加短信。
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定义短信内容"
->abstract="通过使用表达式编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS) 并使其个性化。"
+>abstract="使用表达式编辑器自定义文本消息并对消息进行个性化设置，以定义内容并合并动态元素。"
 
-要配置短信内容，请执行以下步骤。 有关MMS设置的详情，请参见 [本节](#mms-content).
+要配置短信内容，请执行以下步骤。
 
 1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置文本消息内容。
 
@@ -121,36 +121,37 @@ ht-degree: 10%
 
 1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您现在可以测试和检查消息内容，如中所述 [本节](#sms-mms-test).
 
+<!--
+## Define your MMS content{#mms-content}
 
-## 定义彩信内容{#mms-content}
-
-您可以通过发送多媒体消息服务(MMS)消息，启用视频、图片、音频剪辑和GIF等媒体的共享来增强通信。 此外，MMS允许在消息中最多包含1600个字符的文本。
+You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
 
 
 >[!NOTE]
 >
->* 此功能当前适用于 **Sinch** 仅限。
+>* This feature is currently available with **Sinch** only.
 >
->* MMS渠道具有下列限制 [此页面](../start/guardrails.md#sms-guardrails).
+>* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
 >
 
-要创建MMS内容，请执行以下步骤：
+To create MMS content, follow these steps:
 
-1. 创建短信，如所述 [本节](#create-sms-journey-campaign).
+1. Create a SMS as described in [this section](#create-sms-journey-campaign).
 
-1. 编辑您的短信内容，如中所述 [本节](#sms-content).
+1. Edit your SMS content as detailed in [this section](#sms-content).
 
-1. 启用MMS选项以将媒体添加到短信内容。
+1. Enable the MMS option to add media to your SMS content.
 
-   ![](assets/sms_create_6.png)
+    ![](assets/sms_create_6.png)
 
-1. 添加 **[!UICONTROL 标题]** 到您的媒体上。
+1. Add a **[!UICONTROL Title]** to your media.
 
-1. 在中输入媒体的URL **[!UICONTROL 媒体]** 字段。
+1. Enter the URL of your media in the **[!UICONTROL Media]** field.
 
-   ![](assets/sms_create_7.png)
+    ![](assets/sms_create_7.png)
 
-1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您现在可以测试和检查消息内容，如下所述。
+1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
+-->
 
 ## 测试和发送消息 {#sms-mms-test}
 
@@ -166,6 +167,6 @@ ht-degree: 10%
 
 * [预览、测试和发送短信](send-sms.md)
 * [配置短信渠道](sms-configuration.md)
-* [短信/彩信报告](../reports/journey-global-report.md#sms-global)
+* [短信报告](../reports/journey-global-report.md#sms-global)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 * [在营销活动中添加消息](../campaigns/create-campaign.md)

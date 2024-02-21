@@ -5,15 +5,11 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '602'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ ht-degree: 18%
 
 ## 2024年2月早期发行说明 {#e-2024}
 
-**发行日期**：2024年2月20日至21日
+**发行日期**：2024年2月21日至22日
 
 ### 新功能{#e-features}
 
@@ -51,19 +47,17 @@ ht-degree: 18%
 <table>
 <thead>
 <tr>
-<th><strong>Business Rules（测试版）</strong><br/></th>
+<th><strong>短信和直邮的频率规则</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建适用于短信和直邮渠道的频率上限规则。 此外，您还可以按通信类型设置频率上限规则。<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>您现在可以为短信和直邮渠道创建频率规则。 当达到频率上限时，频率规则会自动从消息和操作中排除过度请求的用户档案。 <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### 改进 {#e-improvements}
 
@@ -75,12 +69,14 @@ ht-degree: 18%
 
 以前作为测试版提供，但现在，所有用户都可以使用以下改进：
 
-* 您现在可以定位 **从CSV文件上传的受众** 历程和营销活动。 [了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
 * 您现在可以定位 **通过受众组合创建的受众** 并利用历程中的扩充属性。 [了解详情](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。
+* 您现在可以定位 **从CSV文件上传的受众** 历程和营销活动。 [了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* 受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。
+  >* 请注意，从CSV文件改进的受众上传功能将在初始发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在帐户中可以使用之前可能会遇到延迟。
 
 **历程**
 
@@ -95,7 +91,7 @@ ht-degree: 18%
 
 **营销活动**
 
-* **API触发的营销活动**  — 已添加有关以下内容的信息： **cURL请求** 部分 **API触发的营销活动** 属于 **草稿** 状态，指定仅在发布并执行活动后才能看到示例cURL请求。
+* **API触发的营销活动**  — 对激活API触发的营销活动后生成的cURL代码进行了增强。 它现在包含消息中使用的所有个性化（用户档案和上下文）变量。
 
 **决策管理**
 
@@ -104,4 +100,9 @@ ht-degree: 18%
 **内容模板**
 
 * **缩略图** - A **缩略图视图** 现在可用于内容模板和片段，以改进可视访问。
-* **多渠道模板**  — 内容模板现在可用于 **所有渠道**，Web除外。
+
+  >[!AVAILABILITY]
+  >
+  >从此版本开始，此功能将逐步推广到客户环境。
+
+* **多渠道模板**  — 内容模板现在可用于 **所有渠道**，Web除外。 对于电子邮件，您现在可以选择类型(HTML或内容)。

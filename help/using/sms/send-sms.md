@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 3%
 
 ---
 
-# 检查并发送您的短信(SMS/MMS) {#send-sms}
+# 检查并发送您的短信 {#send-sms}
 
 ## 预览您的短信 {#preview-sms}
 
@@ -49,6 +49,6 @@ ht-degree: 3%
 **相关主题**
 
 * [配置短信渠道](sms-configuration.md)
-* [短信/彩信报告](../reports/journey-global-report.md#sms-global)
+* [SMSS报告](../reports/journey-global-report.md#sms-global)
 * [创建文本消息](create-sms.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)

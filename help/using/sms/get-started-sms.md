@@ -1,36 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 文本消息（短信/MMS）入门
+title: 短信入门
 description: 了解如何在 Journey Optimizer 中创建和发布文本消息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 86%
+source-wordcount: '225'
+ht-degree: 51%
 
 ---
 
 # 文本消息入门 {#get-started-sms}
 
-使用 [!DNL Journey Optimizer] 向客户的移动设备发送文本消息（短信/MMS）。您可以从短信/MMS 编辑器中创建、个性化和预览文本格式的消息。
+使用 [!DNL Journey Optimizer] 向客户的移动设备上发送短信。您可以从短信编辑器中创建、个性化和预览文本格式的消息。
 
-可以在历程或营销活动中创建和发送短信。对于 MMS 和短信，使用短信操作。
+可以在历程或营销活动中创建和发送短信。对于短信，请使用短信操作。
 
-* 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置，然后浏览到&#x200B;**[!UICONTROL 操作：短信]**&#x200B;右窗格，创建短信/MMS 消息的内容。在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
+* 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置，然后浏览到 **[!UICONTROL 操作：短信]** 右窗格中的内容，用于创建短信消息的内容。 在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
 
-* 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择短信作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的短信/彩信消息。在[此页面](../campaigns/create-campaign.md#configure)中了解如何创建营销活动。
+* 在&#x200B;**营销活动**&#x200B;中。创建活动，选择短信作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的短信消息。 在[此页面](../campaigns/create-campaign.md#configure)中了解如何创建营销活动。
 
-Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商）发送文本消息。在创建短信/MMS 消息之前，请使用 Journey Optimizer 配置文本消息的服务提供商。[了解详情](sms-configuration.md)。
+Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商）发送文本消息。在创建短信消息之前，请使用Journey Optimizer配置短信服务提供商。 [了解详情](sms-configuration.md)。
 
->[!IMPORTANT]
+<!--
+>[!IMPORTANT] 
 >
-> 仅当与 **Sinch** 集成时，才支持使用 Adobe Journey Optimizer 发送多媒体消息服务 (MMS)。
-
+> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
+-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
