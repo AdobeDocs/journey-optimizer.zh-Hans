@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 18%
+source-wordcount: '320'
+ht-degree: 17%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 18%
 * 历程字段
 * 配置文件字段
 * 服务事件字段
+
+对于identityMap属性，默认将主标识定义为“primary = true”。
 
 ## debugInfo {#debuginfo-field}
 

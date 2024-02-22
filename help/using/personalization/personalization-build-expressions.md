@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 11%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 11%
 单击+按钮可向个性化表达式添加属性。
 
 通过“+”图标旁边的省略号菜单，可获取每个变量的更多详细信息并将最常用的属性添加到收藏夹。 [了解如何将属性添加到收藏夹](personalization-favorites.md)
+
+>[!NOTE]
+>
+>如果您要定位具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性的受众，则可以利用这些扩充属性个性化您的消息。 [了解如何使用受众扩充属性](../audience/about-audiences.md#enrichment)
 
 此外，您可以定义在字符串类型配置文件属性为空时显示的默认回退文本。 为此，请单击属性旁边的省略号按钮，然后选择 **[!UICONTROL 插入后备文本]**. 编写在配置文件的属性值为空时默认显示的文本，然后单击 **[!UICONTROL 添加]**.
 

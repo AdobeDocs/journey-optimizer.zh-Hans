@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 29%
+source-wordcount: '1521'
+ht-degree: 28%
 
 ---
 
@@ -151,6 +151,7 @@ ht-degree: 29%
 * **数据集** 要扩充，则必须是记录类型（与事件类型相反），并且它们不能是系统数据集，也不能标记为用户档案。 它们必须小于1GB。
 * **扩充支持1:1联接**. 这意味着，如果联接键在扩充数据集上具有多个匹配项，则系统会选取一个匹配项，并将其用于1:1联接。
 * **可以在RTCDP目标中激活受众**，但其扩充属性（如果有）不能。
+* 扩充属性尚未与策略实施服务集成。 因此，您应用于扩充属性的任何数据使用标签都不会在Journey Optimizer营销活动或历程中强制执行。
 
 要配置活动，请执行以下步骤：
 

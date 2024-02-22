@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 以下是不同的区分大小写规则：
 
 * 所有运算符（and、or等） 应该写成小写。 例如， _`<expression1>`和`<expression2>`_ 是有效表达式，但表达式 _`<expression1>`和`<expression2>`_ 不是。
-* 所有函数名称都区分大小写。 例如， _inSegment()_ 有效，但函数 _INSEGMENT()_ 不是。
+* 所有函数名称都区分大小写。 例如， _inAudience()_ 有效，但函数 _INAUDIENCE()_ 不是。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 
 ## 返回的表达式类型{#returned-expression-type}

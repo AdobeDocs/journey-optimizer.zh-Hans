@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 99%
 ## 2024 年 2 月 {#feb-2024}
 
 * 添加了有关如何根据上下文数据将优惠的表示法个性化的信息。 [了解详情](../offers/offer-library/add-representations.md#context-data)
+* 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持JSON格式。 [了解详情](../start/guardrails.md#custom-actions-g)
+* 添加了关于外部数据源中基本身份验证类型的其他信息。 [了解详情](../datasource/external-data-sources.md)
+* 已添加注释来明确区分 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md) 从 [个性化编辑器](../personalization/functions/functions.md).
+* 高级表达式编辑器中可用函数的列表已更新。 [了解详情](../building-journeys/expression/functions.md)
+* “拆分”函数的页面已更新。 [了解详情](../building-journeys/functions/functioninaudience.md)
+* 添加了有关选择加入或选择退出推送通知对应用程序内消息的影响的信息。 [了解详情](../in-app/create-in-app.md)
+* 消息频率规则页面已更新，以反映用户界面中可用的持续时间选项（每周或每月）。 [了解详情](../configuration/frequency-rules.md)
 
 ## 2024 年 1 月 {#jan-2024}
 
@@ -321,7 +328,7 @@ ht-degree: 99%
 
 ## 2021 年 9 月 {#september-2021}
 
-* 以下函数页面已更新：[sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninsegment.md)
+* 以下函数页面已更新：[sethours](../building-journeys/functions/functionsethours.md)、[getListItem](../building-journeys/functions/functiongetlistitem.md)、[inSegment](../building-journeys/functions/functioninaudience.md)
 
 * 添加了以下函数：[filter](../building-journeys/functions/functionfilter.md)、[intersect](../building-journeys/functions/functionintersect.md)、[toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

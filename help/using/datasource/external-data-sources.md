@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 65%
+source-wordcount: '1526'
+ht-degree: 64%
 
 ---
 
@@ -69,7 +69,15 @@ ht-degree: 65%
 
    ![](assets/journey27.png)
 
-1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**， **[!UICONTROL 基本]**， **[!UICONTROL 自定义]** 或 **[!UICONTROL API密钥]**. 有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择：
+1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**， **[!UICONTROL 基本]**， **[!UICONTROL 自定义]** 或 **[!UICONTROL API密钥]**.
+
+   对于基本身份验证模式，您需要填写用户名和密码。
+
+   >[!NOTE]
+   >
+   >执行身份验证调用时， `<username>:<password>` 在base64中编码的字符串将添加到身份验证标头中。
+
+   有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择API密钥身份验证模式：
 
    * **[!UICONTROL 类型]**：“API密钥”
    * **[!UICONTROL 名称]**：“appid”（这是API密钥参数名称）

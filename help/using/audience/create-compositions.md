@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 16%
+source-wordcount: '444'
+ht-degree: 15%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 16%
 
    ![](assets/audiences-alerts.png)
 
-1. 组合已发布。 生成的受众将保存到Adobe Experience Platform中，并准备好在Journey Optimizer营销活动中定位。 [了解如何使用营销活动](../campaigns/get-started-with-campaigns.md)
+1. 组合已发布。 生成的受众将保存到Adobe Experience Platform中，并准备好在Journey Optimizer中定位。 [了解如何在Journey Optimizer中定位受众](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## 访问组合 {#access}
 

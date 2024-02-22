@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 100%
 
 通过受众组合，您可以创建&#x200B;**组合工作流程**，将现有 Adobe Experience Platform 受众合并到可视画布中，并利用各种活动（拆分、排除等）来创建新受众。
 
-完成后，**生成的受众**&#x200B;与现有受众会一起保存到 Adobe Experience Platform 中，并且可以&#x200B;**在营销活动中加以利用**&#x200B;以定位客户。[了解如何使用营销活动](../campaigns/get-started-with-campaigns.md)
+完成后， **生成的受众** 与现有受众一起保存到Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它们来定位客户。 [了解如何在Journey Optimizer中定位受众](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->目前，将组合工作流生成的受众用于历程的功能以 Private Beta 版的形式提供。有关更多信息，请与您的 Adobe 代表联系。
+>目前，不能将来自受众构成和自定义上传的受众和属性用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
 >
->Adobe Journey Optimizer 中的营销活动尚未与策略执行服务集成。因此，不会在 Journey Optimizer 营销活动中强制执行您应用于受众属性的任何数据使用标签。
+>扩充属性尚未与策略实施服务集成。 因此，您应用于扩充属性的任何数据使用标签都不会在Journey Optimizer营销活动或历程中强制执行。
 
 可通过 Adobe Journey Optimizer **[!UICONTROL 受众]**&#x200B;菜单访问受众组合：
 

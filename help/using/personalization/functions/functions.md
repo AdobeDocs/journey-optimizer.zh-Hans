@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,19 @@ ht-degree: 2%
 
 使用 [!DNL Journey Optimizer] 模板化语言，用于对数据执行操作（例如计算、数据格式或转换、条件），并在个性化上下文中处理这些操作。 了解中的个性化语法指南 [此页面](../personalization-syntax.md).
 
+
+
 ➡️ [在此视频中了解如何使用辅助函数](#video)
 
-模板语言可在表达式编辑器的个性化下拉列表中的辅助函数中使用，如下所示：
+在个性化编辑器的个性化下拉列表中提供的辅助函数中，会利用模板语言，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
-在 [!DNL Journey Optimizer] 表达式编辑器和辅助函数分为三类： [函数](#functions-helper)， [辅助函数](#helper-helper) 和 [运算符](#operators-helper).
+>[!NOTE]
+>
+>个性化编辑器中的可用功能和功能与 [历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md).
+
+在 [!DNL Journey Optimizer] 个性化编辑器和辅助函数分为三类： [函数](#functions-helper)， [辅助函数](#helper-helper) 和 [运算符](#operators-helper).
 
 选择类别，以访问子类别和函数。
 

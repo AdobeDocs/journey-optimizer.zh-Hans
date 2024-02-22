@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 4%
+source-wordcount: '954'
+ht-degree: 2%
 
 ---
 
 # 使用 API 触发营销活动 {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="营销活动类型"
->abstract="要使有限的可用性功能无需创建配置文件即可发送消息，请遵循在文档中详述的步骤。"
 
 ## 关于API触发的营销活动 {#about}
 
@@ -79,7 +74,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 激活营销活动后，您需要检索生成的示例cURL请求，并将其用于API中以构建有效负载并触发营销活动。
 
-1. 打开活动，然后从复制并粘贴示例请求 **[!UICONTROL cURL请求]** 部分。
+1. 打开营销活动，然后从复制并粘贴有效负载请求 **[!UICONTROL cURL请求]** 部分。 此有效负载包含消息中使用的所有个性化（用户档案和上下文）变量。 活动开始后，即可使用该功能。
 
    ![](assets/api-triggered-curl.png)
 

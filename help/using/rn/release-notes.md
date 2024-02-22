@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 38f85467256b22a6f05fee8137bc76b0d99c4e6e
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '1140'
+ht-degree: 56%
 
 ---
 
@@ -25,6 +25,102 @@ ht-degree: 95%
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
+
+## 2024 年 2 月发行说明 {#feb-2024}
+
+**发行日期**：2024年2月21日至22日
+
+### 新功能{#feb-features}
+
+此版本引入了下方列出的新功能。
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Web应用程序内消息传递</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。<br/><br/></p>
+<p>有关更多信息，请参阅<a href="../in-app/create-in-app-web.md">详细文档</a>。<br></br></p>
+<img src="assets/do-not-localize/web_inapp.gif">
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>多渠道内容模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。 对于电子邮件，您现在可以选择内容类型，这允许您保存主题行作为电子邮件模板的一部分。 <br/><br/></p>
+<p>有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。<br></br></p>
+<img src="assets/do-not-localize/multi-chan-templates.gif">
+</tr>
+</tbody>
+</table>
+
+
+### 改进 {#feb-improvements}
+
+此版本包含下方列出的改进。
+
+**受众**
+
+* **种子列表**  — 使用时，现在支持变体 **种子列表**. 种子地址接收同一消息的所有变体的副本（例如对内容实验的不同处理）。 [了解详情](../configuration/seed-lists.md)
+
+以前作为测试版提供，但现在，所有用户都可以使用以下改进：
+
+* 您现在可以定位 **通过受众组合创建的受众** 并利用历程中的扩充属性。 [了解详情](../building-journeys/read-audience.md)
+
+* 您现在可以定位 **从CSV文件上传的受众** 历程和营销活动。 [了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* 受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。
+  >* 此 **从CSV文件上传受众** 在首次发布后的几天内正在逐步推出改进。 虽然某些用户可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。
+
+**历程**
+
+* **筛选您的历程**  — 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。 [了解详情](../building-journeys/journey-gs.md#filter)
+* **自定义操作**  — 您现在可以更新 **content-type** 标题。 此新 **content-type** 应引用JSON内容。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
+* **配置** - stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。 [了解详情](../reports/sharing-field-list.md)
+* **用户界面**  — 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](../building-journeys/journey-gs.md#change-properties)
+
+**短信渠道**
+
+* **选择启用/选择禁用关键词**  — 配置短信渠道时，您现在可以自定义 **选择启用和选择禁用关键词** 根据您的喜好选择。 Journey Optimizer会根据这些指定的关键词触发响应。 [了解详情](../sms/sms-configuration.md#create-api)
+
+**营销活动**
+
+* **API触发的营销活动**  — 对激活API触发的营销活动后生成的cURL代码进行了增强。 它现在包含消息中使用的所有个性化（用户档案和上下文）变量。 [了解详情](../campaigns/api-triggered-campaigns.md#execute)
+
+**频率规则**
+
+* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。 当达到频率上限时，频率规则会自动从消息和操作中排除过度请求的用户档案。 [了解详情](../configuration/frequency-rules.md)
+
+<!--**Decision management**
+
+* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
+
+<!--
+**Content templates**
+
+* **Thumbnails** - A **Grid view** is now available for content templates for improved visual access.
+
+   >[!AVAILABILITY]
+   >
+   >This capability is released in Limited Availability (LA) for a small set of customers.
+-->
+
 
 ## 2024 年 1 月发行说明 {#jan-2024}
 
@@ -96,6 +192,7 @@ ht-degree: 95%
 **频率规则**
 
 * **每周和每日频率上限** - 现在，除了可以指定一个月内向客户配置文件发送的最大消息数外，您还可以指定在一周或一天内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/frequency-rules.md#create-new-rule)
+
 
 **决策管理**
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 43%
+source-wordcount: '1087'
+ht-degree: 38%
 
 ---
 
@@ -39,15 +39,11 @@ ht-degree: 43%
 
 ## 在以下位置定位受众： [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-您可以在营销活动和历程中选择使用生成的任何Adobe Experience Platform受众 [区段定义](../audience/creating-a-segment-definition.md).
+您可以在营销活动和历程中选择使用区段定义、CSV文件导入或组合工作流生成的任何受众。
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->目前，受众源自 [受众合成](../audience/get-started-audience-orchestration.md) 只能在营销活动中定位。 此功能作为历程的私有测试版提供。
->
->受众的使用 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} 在营销活动和历程中，目前作为私人测试版提供。
->
->有关更多信息，请与您的 Adobe 代表联系。
+>受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
@@ -62,6 +58,18 @@ ht-degree: 43%
   例如，您可以让所有新的白银客户进入历程并向其发送消息。有关如何使用此活动的更多信息，请参阅[了解如何配置受众鉴别活动](../building-journeys/audience-qualification-events.md)。
 
 * 使用历程中的&#x200B;**条件**&#x200B;活动，根据受众成员资格构建条件。[了解如何在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)。
+
+## 在Journey Optimizer中使用受众扩充属性 {#enrichment}
+
+当定位使用合成工作流或自定义上传（CSV文件）生成的受众时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
+
+* 根据利用目标受众的扩充属性的规则，在历程中创建多个路径。 要实现此目的，请使用定位受众 [读取受众](../building-journeys/read-audience.md) 活动，然后在中创建规则 [条件](../building-journeys/condition-activity.md) 基于受众扩充属性的活动。
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* 通过在表达式编辑器中添加来自目标受众的扩充属性，在历程或营销活动中个性化您的消息。 [了解如何使用表达式编辑器](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## 受众评估方法 {#evaluation-method-in-journey-optimizer}
 

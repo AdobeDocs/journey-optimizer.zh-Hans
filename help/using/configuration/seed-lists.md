@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '936'
 ht-degree: 16%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 16%
 >[!CAUTION]
 >
 >目前，此功能仅适用于电子邮件渠道。
->
->当前不支持变体。 与来自目标受众的每个用户档案一样，种子地址会收到每条消息的单个副本，但并非同一消息的所有变体都会收到（例如，对消息的不同处理） [内容试验](../campaigns/get-started-experiment.md))。
 
 种子地址用于定位不符合既定目标标准的收件人。这样，超出投放范围的收件人可以像任何其他目标收件人一样接收投放。
 
@@ -47,6 +45,10 @@ ht-degree: 16%
 +++
 
 * 使用种子列表的另一个原因是您的邮件列表保护。 如果在邮寄列表中插入种子地址，并且第三方正在使用它，您会注意到这一点，因为种子地址包含的种子地址将收到发送到邮寄列表的投放。
+
+>[!NOTE]
+>
+>支持变体。 种子地址接收同一消息的每个变体的单个副本(例如， [内容试验](../campaigns/get-started-experiment.md))。
 
 ## 访问种子列表 {#access-seed-lists}
 
@@ -128,7 +130,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->发送到种子地址的消息不包括在报告中。
+>发送到种子地址的消息不包含在历程或营销活动报告中。
 
 1. 创建曲面并选取 **[!UICONTROL 电子邮件]** 渠道。 [了解详情](../email/email-settings.md)
 

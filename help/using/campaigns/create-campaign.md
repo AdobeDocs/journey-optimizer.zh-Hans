@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '969'
+ht-degree: 32%
 
 ---
 
@@ -126,9 +126,9 @@ ht-degree: 34%
 
 >[!IMPORTANT]
 >
->目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 以私有测试版的形式提供。 有关更多信息，请与您的 Adobe 代表联系。
+>使用来自的受众和属性 [受众构成](../audience/get-started-audience-orchestration.md) 和 [自定义上传（CSV文件）](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 目前不适用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
 >
->对于API触发的营销活动，需要通过API调用设置受众。 [了解详情](api-triggered-campaigns.md)
+>对于API触发的营销活动，需要通过API调用设置受众。
 
 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选区段中的个人。
 

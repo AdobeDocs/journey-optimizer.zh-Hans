@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 时区，属性，历程，条件，时间，日期，自定义
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ ht-degree: 2%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以选择时区，也可以选择使用用户配置文件中定义的时区。
-
->[!NOTE]
->
->配置文件时区与 **时区** 字段存在于 **偏好设置详细信息** 字段组。
+您可以选择 [固定时区](#fixed-timezone) 或选择使用时区 [在用户配置文件中定义](#timezone-from-profiles).
 
 ## 定义固定时区 {#fixed-timezone}
 
@@ -53,6 +49,10 @@ ht-degree: 2%
 如果为用户档案定义了时区，则历程将检索并使用它。 如果未指定，则使用的时区将是时区字段中定义的时区。
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>配置文件时区与 **时区** 字段存在于 **偏好设置详细信息** 字段组。
 
 ## 在表达式中使用时区 {#timezone-in-expressions}
 

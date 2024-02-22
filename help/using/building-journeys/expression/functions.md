@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 函数，表达式，编辑器，历程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 71%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 71%
 
 | 类别 | 函数 |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
 | 聚合 | [avg](../functions/functionavg.md) |
 | 聚合 | [count](../functions/functioncount.md) |
 | 聚合 | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -67,7 +67,7 @@ ht-degree: 71%
 | 列表 | [getListItem](../functions/functiongetlistitem.md) |
 | 列表 | [in](../functions/functionin.md) |
 | 列表 | [相交](../functions/functionintersect.md) |
-| 列表 | [listSize](../functions/functionlimit.md) |
+| 列表 | [limit](../functions/functionlimit.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
 | 列表 | [sort](../functions/functionsort.md) |
@@ -89,6 +89,7 @@ ht-degree: 71%
 | 字符串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | 字符串 | [replace](../functions/functionreplace.md) |
 | 字符串 | [replaceAll](../functions/functionreplaceall.md) |
+| 字符串 | [split](../functions/functionsplit.md) |
 | 字符串 | [startWith](../functions/functionstartwith.md) |
 | 字符串 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | 字符串 | [substr](../functions/functionsubstr.md) |

@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 | 身份管理 | **[!DNL Manage identity namespaces]**：读取、创建和编辑身份命名空间。</br>**[!DNL View identity namespaces]**：对身份命名空间的只读访问权限。</br>**[!DNL Manage identity settings]**：读取、创建和编辑身份设置。</br>**[!DNL View identity settings]**：对身份设置的只读访问权限。</br>**[!DNL View identity graph]**：对身份图的只读访问。 |
 | Journey Optimizer Library | **[!DNL Manage Library Items]**：添加和删除中保存的表达式 [!DNL Journey Optimizer] 库。</br>**[!DNL Simulate content]**：访问预览和验证的“模拟内容”选项。 |
 | Journey Optimizer规则 | **[!DNL View frequency rules]**：对规则的只读访问权限。</br>**[!DNL Manage frequency rules]**：访问、创建、编辑或删除消息频率规则。 |
-| 历程 | **[!DNL Manage journeys]**：读取、创建、编辑和删除历程。</br>**[!DNL View journeys]**：对历程的只读访问权限。</br>**[!DNL Publish journeys]**：发布历程。</br>**[!DNL Manage journeys events, data sources and actions]**：读取、创建、编辑和删除事件、源或操作。</br>**[!DNL View journeys events, data sources and actions]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</br>**[!DNL View journeys report]**：读取和编辑历程报告。</br> |
+| 历程 | **[!DNL Manage journeys]**：读取、创建、编辑和删除历程。 要访问和管理历程，请将此权限与 **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL View journeys]**：对历程的只读访问权限。</br>**[!DNL Publish journeys]**：发布历程。</br>**[!DNL Manage journeys events, data sources and actions]**：读取、创建、编辑和删除事件、源或操作。</br>**[!DNL View journeys events, data sources and actions]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</br>**[!DNL View journeys report]**：读取和编辑历程报告。</br> |
 | 用户档案管理 | **[!DNL Manage profiles]**：读取、创建、编辑和删除用于客户配置文件的数据集。 对可用配置文件的只读访问权限。</br>**[!DNL View profiles]**：对可用配置文件的只读访问权限。</br>**[!DNL Export audience segments]**：将评估的受众区段导出到数据集。</br>**[!DNL View segments]**：对可用受众的只读访问权限。</br>**[!DNL Evaluate a segment to an audience]**：通过评估区段定义来生成受众的用户档案。</br>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</br>**[!DNL View merge policies]**：对可用合并策略的只读访问权限。 |
 | 查询服务 | **[!DNL Manage queries]**：读取、创建、编辑和删除针对Platform数据的结构化SQL查询。</br>**[!DNL Manage query service integration]**：创建、更新和删除用于访问查询服务的不过期凭据。 |
 | 沙盒管理 | **[!DNL Manage sandboxes]**：读取、创建、编辑和删除沙箱。</br>**[!DNL View sandboxes]**：对属于您组织的沙盒的只读访问权限。</br>**[!DNL Reset sandboxes]**：能够重置沙盒。</br>**[!DNL Export sandboxes]**：导出沙盒的功能。</br>**[!DNL Manage packages]**：读取、创建、编辑和删除资源包。 |

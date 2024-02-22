@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1803'
 ht-degree: 16%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 16%
 
 要通过历程发送消息，需要以下配置：
 
-1. **配置事件**：如果您要在收到事件时统一触发历程，则需要配置事件。 您可以定义预期信息及其处理方式。 此步骤由 **技术用户**. [了解更多信息](../event/about-events.md)。
+1. **配置事件**：如果您要在收到事件时统一触发历程，则需要配置事件。 您可以定义预期信息及其处理方式。 此步骤由 **技术用户**. [了解详情](../event/about-events.md)。
 
    ![](assets/jo-event7bis.png)
 
-1. **创建受众**：您的历程还可以侦听Adobe Experience Platform受众，以将消息批量发送到指定的一组用户档案。 为此，您需要创建受众。 [了解更多信息](../audience/about-audiences.md)。
+1. **创建受众**：您的历程还可以侦听Adobe Experience Platform受众，以将消息批量发送到指定的一组用户档案。 为此，您需要创建受众。 [了解详情](../audience/about-audiences.md)。
 
    ![](assets/segment2.png)
 
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 * 使用 **[!UICONTROL 发布过滤器]** 以选择发布日期或用户。 例如，您可以选择显示昨天发布的最新版实时历程。
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  要根据特定日期范围筛选历程，请选择 **[!UICONTROL 自定义]** 从 **[!UICONTROL 已发布]** 下拉列表。
 
 此外，在“事件”、“数据源”和“操作”配置窗格中， **[!UICONTROL 使用位置]** 字段显示使用该特定事件、字段组或操作的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
 
@@ -130,7 +130,7 @@ ht-degree: 16%
 >title="历程属性"
 >abstract="此部分显示历程属性。默认情况下，只读参数是隐藏的。可用设置取决于历程的状态、您的权限和产品配置。"
 
-单击右上角的铅笔图标可访问历程的属性。
+单击历程名称旁边的铅笔图标以访问其属性。
 
 您可以更改历程的名称、添加描述、允许重新进入、选择开始和结束日期，以及作为管理员用户定义 **[!UICONTROL 超时和错误]** 持续时间。 您还可以将Adobe Experience Platform统一标记分配给旅程。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)
 

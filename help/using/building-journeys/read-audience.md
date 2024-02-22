@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 8%
+source-wordcount: '1427'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 * 作为最佳实践，我们建议您仅在中使用批量受众 **读取受众** 活动。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用 **[受众资格](audience-qualification-events.md)** 活动。
 
-* 目前，受众的使用 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) “入门”作为私人测试版提供。 有关更多信息，请与您的 Adobe 代表联系。
+* 受众 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) 可以在以下位置选择 **读取受众** 活动。 这些受众在中不可用 **受众资格** 活动。
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. 这些功能目前作为 Private Beta 版提供。
+   >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 

@@ -7,35 +7,26 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 10%
 
 ---
 
 # 身份入门 {#identities-gs}
 
-身份是指实体（通常是个人）的独特数据。登录 ID、ECID 或忠诚度 ID 等身份称为已知身份。
+身份是实体特有的数据，通常是现实世界中的对象，例如个人、硬件设备或Web浏览器。 完全限定的标识包含两个元素：
 
-电子邮件地址和电话号码等个人身份信息 (PII) 用于直接识别客户。因此，PII 用于跨系统匹配客户的多个身份。
+* 此 **身份命名空间** 用作与身份相关的上下文的指示器。
+* 此 **标识值** 是一个表示实体的字符串。
 
-在[!DNL Adobe Journey Optimizer]中，跨设备和渠道的&#x200B;**身份**&#x200B;与用户相关联，从而会生成一个[身份图](#id-graph)。关联的身份图用于根据您所有业务接触点之间的交互对体验进行个性化。
+我们来看看电话号码555-555-1234。 在此示例中，字符串“555-555-1234”是 **标识值**，可分类为 **电话** 身份命名空间。
+
+此 **身份** 中的菜单 [!DNL Adobe Journey Optimizer] 使您能够有效地浏览构成数据库中客户的各种标识符。
 
 ![](assets/identities-home.png)
 
-要了解&#x200B;**身份服务**&#x200B;的更多信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}。
+它提供 **身份图**，特定客户的不同身份之间的关系映射，为您提供客户如何跨不同渠道与您的品牌互动的可视化表示形式。 所有客户身份图由Adobe Experience Platform Identity Service集体管理和更新，以响应客户活动。
 
-## 身份命名空间 {#identity-namespaces}
-
-**身份命名空间**&#x200B;是“身份服务”的组件，充当与身份相关的上下文指示器。例如，它们会将`name@email.com`的值区别于电子邮件地址或将`443522`区别于数字 CRM ID。使用身份命名空间需要了解所涉及的多个 Adobe Experience Platform 服务。开始使用命名空间之前，请参阅以下服务的文档：
-
-要了解&#x200B;**身份命名空间**&#x200B;的更多信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}。
-
-## 身份图{#id-graph}
-
-**身份图**&#x200B;是特定客户不同身份之间关系的映射，可直观地展示客户如何跨不同渠道与您的品牌进行交互。Adobe Experience Platform 身份服务几乎可以实时地集体管理和更新所有客户身份图，以响应客户活动。
-
-通过[!DNL Adobe Journey Optimizer]用户界面中的身份图查看器，您可以查看并更好地了解将哪些客户身份拼合在一起，以及如何拼合在一起。查看器允许您拖动图形的不同部分并与之交互，从而检查复杂的身份关系、更高效地进行调试，了解信息的利用方式从而增强透明度并从中受益。
-
-要了解&#x200B;**身份图**&#x200B;的更多信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=zh-Hans){target="_blank"}。
+有关如何使用标识的详细信息，请参见 [Identity Service文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}.

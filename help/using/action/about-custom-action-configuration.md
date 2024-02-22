@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1451'
+ht-degree: 22%
 
 ---
 
@@ -35,12 +35,14 @@ ht-degree: 17%
 
 另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在本节中了解详情 [用例](../building-journeys/collections.md).
 
+仅当使用时，自定义操作才支持JSON格式 [请求](../action/about-custom-action-configuration.md#define-the-message-parameters) 或 [响应负载](../action/action-response.md).
+
 ## 最佳实践{#custom-action-enhancements-best-practices}
 
 在使用自定义操作选择要定位的端点时，请确保：
 
-* 此端点可以使用来自以下位置的配置支持历程的吞吐量： [限制API](../configuration/throttling.md) 或 [API上限](../configuration/capping.md) 来限制它。 请注意，限制配置不能低于200 TPS。 任何目标端点将需要支持至少200个TPS。
-* 此端点需要尽可能短的响应时间。 根据预期吞吐量，高响应时间可能会影响实际吞吐量。
+* 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点都需要支持至少 200 TPS。
+* 此端点的响应时间需要尽可能短。根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
 为所有自定义操作定义了1分钟内300,000次调用的上限。 此外，默认上限按主机和沙盒执行。 例如，在沙盒上，如果您有两个具有相同主机的端点（例如：`https://www.adobe.com/endpoint1` 和 `https://www.adobe.com/endpoint2`），上限将适用于 adobe.com 主机下的所有端点。“endpoint1”和“endpoint2”将共享相同的上限配置，并且如果一个端点达到限制，将对另一个端点产生影响。
 
@@ -117,7 +119,9 @@ ht-degree: 17%
 
 1. 定义标头和查询参数：
 
-   * 在 **[!UICONTROL 标题]** 部分，单击 **[!UICONTROL 添加标题字段]** 定义发送到外部服务的请求消息的HTTP标头。 此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL 字符集]** 默认设置标题字段。 您无法修改或删除这些字段。
+   * 在 **[!UICONTROL 标题]** 部分，单击 **[!UICONTROL 添加标题字段]** 定义发送到外部服务的请求消息的HTTP标头。 此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL 字符集]** 默认设置标题字段。 您无法删除这些字段。 仅 **[!UICONTROL Content-Type]** 可以修改标头。 其值应遵循JSON格式。 以下是默认值：
+
+   ![](assets/content-type-header.png)
 
    * 在 **[!UICONTROL 查询参数]** 部分，单击 **[!UICONTROL 添加查询参数字段]** 以定义要在URL中添加的参数。
 

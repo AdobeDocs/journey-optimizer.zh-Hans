@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1736'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
       + 函数 {#main-functions-journey}
          + [主要函数](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
-            + [inSegment](using/building-journeys/functions/functioninsegment.md)
+            + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + 聚合 {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
@@ -205,7 +205,8 @@ ht-degree: 100%
 + 应用程序内渠道{#in-app}
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
    + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
-   + [创建应用程序内消息](using/in-app/create-in-app.md)
+   + [创建移动应用程序内消息](using/in-app/create-in-app.md)
+   + [创建Web应用程序内消息](using/in-app/create-in-app-web.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
    + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
 + 推送通知渠道{#push}

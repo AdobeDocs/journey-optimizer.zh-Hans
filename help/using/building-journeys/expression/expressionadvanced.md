@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 64%
+source-wordcount: '668'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,12 @@ ht-degree: 64%
 >title="关于高级表达式编辑器"
 >abstract="使用高级表达式编辑器可以在界面的各个屏幕中构建高级表达式。例如，您可以在配置和使用历程时以及在定义数据源条件时构建表达式。"
 
-使用高级表达式编辑器可以在界面的各个屏幕中构建高级表达式。例如，您可以在配置和使用历程以及定义数据源条件时构建表达式。
+使用历程高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时构建表达式。
+
+>[!NOTE]
+>
+>历程高级表达式编辑器中可用的函数和功能与 [个性化编辑器](../../personalization/functions/functions.md).
+
 它还可在您每次需要定义需要特定数据操作的操作参数时使用。您可以利用来自事件的数据或从数据源检索的其他信息。在历程中，显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。
 
 高级表达式编辑器提供一组内置函数和运算符，让您处理值并定义一个专门满足您需求的表达式。高级表达式编辑器还允许您定义外部数据源参数的值、处理映射字段和集合，如体验事件。
