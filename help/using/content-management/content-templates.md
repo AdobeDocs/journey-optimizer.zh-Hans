@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
 
 要访问内容模板列表，请选择 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 从左侧菜单。
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 在当前沙盒中创建的所有模板 — 来自使用进行的历程或营销活动 **[!UICONTROL 另存为模板]** 选项，来自 **[!UICONTROL 内容模板]** 菜单 — 显示。 [了解如何创建模板](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * 要编辑模板内容，请在列表中单击所需项目并选择 **[!UICONTROL 编辑内容]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * 要删除模板，请选择 **[!UICONTROL 更多操作]** 按钮，然后选择 **[!UICONTROL 删除]**.
 
@@ -202,7 +202,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 1. 单击 **[!UICONTROL 模拟内容]** 并选择测试配置文件以检查您的渲染。 [了解详情](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. 您可以发送校样以测试您的内容，并在将其用于历程或营销策划之前，先获得一些内部用户的批准。
 
@@ -210,7 +210,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
    * 在发送校样之前，您必须选择 [电子邮件表面](../configuration/channel-surfaces.md) 将用于测试您的内容。
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
