@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '4729'
+source-wordcount: '4743'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 
 ## 2024 年 2 月 {#feb-2024}
 
+* Journey Optimizer + Workfront集成已添加到集成页面。 [了解详情](../start/ajo-integrations.md)
 * 添加了有关如何根据上下文数据将优惠的表示法个性化的信息。 [了解详情](../offers/offer-library/add-representations.md#context-data)
 * 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持JSON格式。 [了解详情](../start/guardrails.md#custom-actions-g)
 * 添加了关于外部数据源中基本身份验证类型的其他信息。 [了解详情](../datasource/external-data-sources.md)
