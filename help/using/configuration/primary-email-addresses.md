@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="定义要使用的地址"
->abstract="编辑字段，用于确定优先向其发送的配置文件的电子邮件地址或电话号码。"
+>abstract="编辑用于确定用户档案电子邮件地址或电话号码的字段以优先发送。"
 
 定向用户档案时，数据库中可能会提供多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
 
