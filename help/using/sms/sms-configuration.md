@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="用 Journey Optimizer 配置您的短信提供商"
->abstract="在发送文本消息之前，必须将提供程序设置与Journey Optimizer集成。 完成后，您需要创建短信表面。 必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
+>abstract="在发送短信之前，您必须将提供商设置与 Journey Optimizer 集成。完成后，您需要创建一个 SMS 表面。必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信渠道表面"
 
 >[!CONTEXTUALHELP]

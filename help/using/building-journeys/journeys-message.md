@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="消息活动"
->abstract="Journey Optimizer 附带内置消息功能。您只需在历程中添加推送消息、短信、应用程序内或电子邮件消息活动，即可定义设置和内容。 然后将在历程的上下文中执行和发送它。"
+>abstract="Journey Optimizer 附带内置消息功能。只需在历程中添加推送、短信、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。"
 
 [!DNL Journey Optimizer] 附带内置消息功能。 只需在历程中添加推送、短信、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。
 
@@ -153,7 +153,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的AI服务提供支�
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="激活发送时间优化"
->abstract="推送消息默认为打开选项，因为点击不适用于推送消息。 您还可以为“发送于下一个”选项输入一个值，选择限定系统使用的发送时间。"
+>abstract="推送消息默认为打开选项，因为点击不适用于推送消息。您还可以为“发送于下一个”选项输入一个值，选择限定系统使用的发送时间。"
 
 通过选择电子邮件或推送消息的 **发送时间优化** 切换活动参数。
 
