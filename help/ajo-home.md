@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 94%
+source-wordcount: '385'
+ht-degree: 73%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 94%
 
 >[!BEGINTABS]
 
->[!TAB 1 月版已上线！]
+>[!TAB 2月版已上线！]
 
-了解 Adobe Journey Optimizer 24.1 版的新增功能和改进。
+了解 Adobe Journey Optimizer 24.2 版的新增功能和改进。
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 强制性 DMARC 更新]
+>[!TAB Web应用程序内消息传递]
 
-作为执行行业最佳实践的举措之一，Google 和 Yahoo!都要求你拥有 **DMARC记录** ，适用于您用来向其发送电子邮件的任何域，从 **2024年2月1日**. 确保为您已在 Journey Optimizer 中委派给 Adobe 的所有子域设置了 DMARC 记录。
+您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB 用例战术手册]
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-利用 Real-Time CDP 和 Journey Optimizer 中特定于行业的用例战术手册目录，解决您可以使用 Adobe Experience Platform 和 Adobe Journey Optimiser 执行的常见用例。
+>[!TAB 多渠道内容模板]
 
-选择最符合您需求的战术手册后，就可以启用该战术手册以生成支持用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。
+除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。 对于电子邮件，您现在可以选择内容类型，这允许您保存主题行作为电子邮件模板的一部分。
 
-![显示用例战术手册的动画图像](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![图像](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
