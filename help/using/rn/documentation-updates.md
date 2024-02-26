@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
 workflow-type: tm+mt
 source-wordcount: '4778'
 ht-degree: 96%
@@ -30,7 +30,7 @@ ht-degree: 96%
 * “拆分”函数的页面已更新。 [了解详情](../building-journeys/functions/functioninaudience.md)
 * 添加了有关选择加入或选择退出推送通知对应用程序内消息的影响的信息。 [了解详情](../in-app/create-in-app.md)
 * 消息频率规则页面已更新，以反映用户界面中可用的持续时间选项（每周或每月）。 [了解详情](../configuration/frequency-rules.md)
-* 更新了“编辑PTR记录”部分，以阐明无法手动创建PTR记录，以及需要编辑PTR记录以为其分配新子域的事实。 [了解详情](using/configuration/ptr-records.md#edit-ptr-record)
+* 更新了“编辑PTR记录”部分，以阐明无法手动创建PTR记录，以及需要编辑PTR记录以为其分配新子域的事实。 [了解详情](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024 年 1 月 {#jan-2024}
 
