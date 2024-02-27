@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '311'
+ht-degree: 69%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->目前，不能将来自受众构成和自定义上传的受众和属性用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
+>目前，不能将来自受众构成和自定义上传受众的受众和属性用于Healthcare Shield或Privacy and Security Shield。
 >
 >扩充属性尚未与策略实施服务集成。 因此，您应用于扩充属性的任何数据使用标签都不会在Journey Optimizer营销活动或历程中强制执行。
 

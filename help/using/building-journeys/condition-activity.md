@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1484'
 ht-degree: 17%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 17%
 
 这允许您根据数据源中的字段或之前位于历程中的事件定义条件。 了解如何在中使用表达式编辑器 [本节](expression/expressionadvanced.md).
 
-例如，如果您定位的受众具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性，则可以利用这些扩充属性构建条件。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
+例如，如果您定位的受众具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性，则可以利用这些扩充属性构建条件。
 
 使用高级表达式编辑器，您可以设置更高级的条件，以处理集合或使用需要传递参数的数据源。 [了解详情](../datasource/external-data-sources.md)。
 

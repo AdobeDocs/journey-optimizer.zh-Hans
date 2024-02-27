@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->如果您要定位具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性的受众，则可以利用这些扩充属性个性化您的消息。 [了解如何使用受众扩充属性](../audience/about-audiences.md#enrichment)
+>如果您使用使用合成工作流生成的扩充属性定位受众，则可以利用这些扩充属性个性化您的消息。 [了解如何使用受众扩充属性](../audience/about-audiences.md#enrichment)
 
 此外，您可以定义在字符串类型配置文件属性为空时显示的默认回退文本。 为此，请单击属性旁边的省略号按钮，然后选择 **[!UICONTROL 插入后备文本]**. 编写在配置文件的属性值为空时默认显示的文本，然后单击 **[!UICONTROL 添加]**.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 38%
+source-wordcount: '1083'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 38%
 
 >[!AVAILABILITY]
 >
->受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
+>受众构成和自定义上传（CSV文件）受众中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
@@ -61,7 +61,7 @@ ht-degree: 38%
 
 ## 在Journey Optimizer中使用受众扩充属性 {#enrichment}
 
-当定位使用合成工作流或自定义上传（CSV文件）生成的受众时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
+在对使用合成工作流生成的受众进行定位时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
 
 * 根据利用目标受众的扩充属性的规则，在历程中创建多个路径。 要实现此目的，请使用定位受众 [读取受众](../building-journeys/read-audience.md) 活动，然后在中创建规则 [条件](../building-journeys/condition-activity.md) 基于受众扩充属性的活动。
 
