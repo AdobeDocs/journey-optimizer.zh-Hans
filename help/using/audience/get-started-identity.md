@@ -7,7 +7,7 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d9a3482d237c3080c060519dbdde9208c8c0befa
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 10%
@@ -21,7 +21,7 @@ ht-degree: 10%
 * 此 **身份命名空间** 用作与身份相关的上下文的指示器。
 * 此 **标识值** 是一个表示实体的字符串。
 
-我们来看看电话号码555-555-1234。 在此示例中，字符串“555-555-1234”是 **标识值**，可分类为 **电话** 身份命名空间。
+我们来看看电话号码555-555-1234。 在此示例中，字符串“555-555-1234”是 **标识值**，可归类为“Phone” **身份命名空间**.
 
 此 **身份** 中的菜单 [!DNL Adobe Journey Optimizer] 使您能够有效地浏览构成数据库中客户的各种标识符。
 
