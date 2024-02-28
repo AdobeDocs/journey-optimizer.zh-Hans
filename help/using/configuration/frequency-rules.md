@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 10%
+source-wordcount: '1125'
+ht-degree: 7%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="设置规则的频次封顶"
->abstract="指定每个月发送到客户配置文件的最大消息数。频次封顶基于每月的日历周期，并将在每个月的月初重置。"
+>abstract="指定在所选时间范围内发送到客户个人资料的最大消息数。 频率上限将基于所选的日历期间，并且将在相应的时间范围的开头重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
