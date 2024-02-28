@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。向电子邮件提供商/ISP 提供明确的策略，这有助于防止恶意行为者假冒您的域发送电子邮件。实施 DMARC 可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可传递性。
 
-作为执行行业最佳实践的举措之一，Google 和 Yahoo!都需要 **DMARC记录** 用于向其发送电子邮件的任何域。 这一新要求自 **2024 年 2 月 1 日**&#x200B;起生效。[了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hans#dmarc){target="_blank"}
+作为执行行业最佳实践的举措之一，Google 和 Yahoo!都将要求为用于向其发送电子邮件的任何域设置 **DMARC 记录**。这一新要求自 **2024 年 2 月 1 日**&#x200B;起生效。[了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hans#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -46,9 +46,9 @@ ht-degree: 87%
 
   >[!IMPORTANT]
   >
-  >但是，设置的CNAME还需要在托管解决方案中添加一些其他条目。 因此，请确保与 IT 部门进行协作，以便能够执行[本节](dmarc-record.md#implement-dmarc)中详述的更新。
+  >但是，CNAME 设置还需要在托管解决方案中执行其他一些输入操作。因此，请确保与 IT 部门进行协作，以便能够执行[本节](dmarc-record.md#implement-dmarc)中详述的更新。
 
-Google和Yahoo！ 如下所示：
+Google 和 Yahoo! 共享的最新时间表如下：
 
 * Google：
 
@@ -58,7 +58,7 @@ Google和Yahoo！ 如下所示：
 
    * **2024 年 6 月 1 日** – 任何未完全合规的发件人都会被阻止。
 
-* 雅虎！ 尚未提供具体日期，但已表示“执法将从2024年2月开始。 相关工作会逐步展开”。
+* Yahoo!尚未提供具体日期，但表示“将从 2024 年 2 月开始实施该规定。相关工作会逐步展开”。
 
 >[!NOTE]
 >
@@ -68,5 +68,5 @@ Google和Yahoo！ 如下所示：
 
 * 要了解有关 DMARC 的更多信息，请参阅[可传递性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}
 * 有关这些更改的更多建议，请参阅[可传递性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hans){target="_blank"}
-* 阅读 [Google Gmail公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* 阅读 [雅虎！ 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* 阅读 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 阅读 [Yahoo! 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
