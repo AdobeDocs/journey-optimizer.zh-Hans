@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 54%
+ht-degree: 74%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 54%
 
 ## 2024 年 2 月发行说明 {#feb-2024}
 
-**发行日期**：2024年2月21日至22日
+**发行日期**：2024 年 2 月 21-22 日
 
 ### 新功能{#feb-features}
 
@@ -38,13 +38,13 @@ ht-degree: 54%
 <table>
 <thead>
 <tr>
-<th><strong>Web应用程序内消息传递</strong><br/></th>
+<th><strong>Web 应用程序内消息传送</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。<br/><br/></p>
+<p>您现在可以使用新的 Web 应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。此功能使您能够有效地与 Web 访客互动，提升用户交互水平、保留率和转化率。<br/><br/></p>
 <p>有关更多信息，请参阅<a href="../in-app/create-in-app-web.md">详细文档</a>。<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
@@ -75,33 +75,33 @@ ht-degree: 54%
 
 **受众**
 
-* **种子列表**  — 使用时，现在支持变体 **种子列表**. 种子地址接收同一消息的所有变体的副本（例如对内容实验的不同处理）。 [了解详情](../configuration/seed-lists.md)
+* **种子列表** - 现在使用&#x200B;**种子列表**&#x200B;时支持变体。种子地址接收同一消息的所有变体的副本（例如对内容实验的不同处理）。 [了解详情](../configuration/seed-lists.md)
 
-以前作为测试版提供，但现在，所有用户都可以使用以下改进：
+以前作为 Beta 版提供，现在所有用户都可以使用以下改进功能：
 
-* 您现在可以定位 **通过受众组合创建的受众** 并利用历程中的扩充属性。 [了解详情](../building-journeys/read-audience.md)
+* 您现在可以定位&#x200B;**通过受众组合创建的受众**，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
-* 您现在可以定位 **从CSV文件上传的受众** 历程和营销活动。 [了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您现在可以将&#x200B;**从 CSV 文件上传的受众**&#x200B;定位到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* 受众构成和自定义上传（CSV文件）中的受众和属性的使用当前不适用于Healthcare Shield或Privacy and Security Shield。
+  >* 当前，无法将受众组合和自定义上传（CSV 文件）中的受众和属性用于 Healthcare Shield 或 Privacy and Security Shield。
   >* 此 **从CSV文件上传受众** 在首次发布后的几天内正在逐步推出改进。 虽然某些用户可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。
 
 **历程**
 
-* **筛选您的历程**  — 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。 [了解详情](../building-journeys/journey-gs.md#filter)
+* **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。 [了解详情](../building-journeys/journey-gs.md#filter)
 * **自定义操作**  — 您现在可以更新 **content-type** 标题。 此新 **content-type** 应引用JSON内容。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* **配置** - stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。 [了解详情](../reports/sharing-field-list.md)
-* **用户界面**  — 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](../building-journeys/journey-gs.md#change-properties)
+* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。 [了解详情](../reports/sharing-field-list.md)
+* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](../building-journeys/journey-gs.md#change-properties)
 
 **短信渠道**
 
-* **选择启用/选择禁用关键词**  — 配置短信渠道时，您现在可以自定义 **选择启用和选择禁用关键词** 根据您的喜好选择。 Journey Optimizer会根据这些指定的关键词触发响应。 [了解详情](../sms/sms-configuration.md#create-api)
+* **选择启用/选择禁用关键词** - 配置短信渠道时，您现在可以根据自己的喜好，自定义&#x200B;**选择启用和选择禁用关键词**。Journey Optimizer会根据这些指定的关键词触发响应。 [了解详情](../sms/sms-configuration.md#create-api)
 
 **营销活动**
 
-* **API触发的营销活动**  — 对激活API触发的营销活动后生成的cURL代码进行了增强。 它现在包含消息中使用的所有个性化（用户档案和上下文）变量。 [了解详情](../campaigns/api-triggered-campaigns.md#execute)
+* **API 触发的营销活动** - 对激活 API 触发的营销活动后生成的 cURL 代码进行了增强。它现在包含消息中使用的所有个性化（用户档案和上下文）变量。 [了解详情](../campaigns/api-triggered-campaigns.md#execute)
 
 **频率规则**
 
@@ -140,7 +140,7 @@ ht-degree: 54%
 <tr>
 <td>
 <p>Journey Optimizer 现在支持 DMARC 身份验证技术。</p>
-<p>从2024年2月1日开始，Google和Yahoo！ 要求您拥有DMARC记录，以便您向任何域发送电子邮件。 确保您已在 Journey Optimizer 中为您已委派或正在委派给 Adobe 的所有子域设置了 DMARC 记录。</p>
+<p>从 2024 年 2 月 1 日开始，Google 和 Yahoo!都会要求您为用于向它们发送电子邮件的任何域设置 DMARC 记录。确保您已在 Journey Optimizer 中为您已委派或正在委派给 Adobe 的所有子域设置了 DMARC 记录。</p>
 <p>有关更多信息，请参阅<a href="../configuration/dmarc-record-update.md">详细文档</a>。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
