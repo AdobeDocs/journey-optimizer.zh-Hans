@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 关于事件
-description: 了解事件
+title: 使用历程事件
+description: 了解如何使用历程中的事件
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '989'
+ht-degree: 55%
 
 ---
 
-# 关于事件{#about-events}
+# 使用历程事件 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="关于事件"
+>title="历程事件"
 >abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 Journey Optimizer 在历程中将侦听的内容，以编排最佳的后续行动。"
 
 事件配置允许您定义 [!DNL Journey Optimizer] 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用同一个事件。
@@ -64,7 +64,7 @@ ht-degree: 58%
 
 ## 数据周期 {#data-cycle}
 
-事件是 POST API 调用。事件通过流式引入API发送到Adobe Experience Platform。 通过事务性消息传送 API 发送的事件的 URL 目标称为“入口”。事件的有效负载遵循 XDM 格式。
+事件是 POST API 调用。事件通过流式引入API发送到Adobe Experience Platform。 通过事务性消息传递API发送的事件的URL目标称为“入口”。 事件的有效负载遵循 XDM 格式。
 
 有效负载包含流式引入API工作所需的信息（在标题中）以及所需的信息 [!DNL Journey Optimizer] 工作以及在旅程中使用的信息（在正文中，例如放弃购物车的金额）。 流式引入有两种模式，即验证和未验证。有关流式引入 API 的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
 

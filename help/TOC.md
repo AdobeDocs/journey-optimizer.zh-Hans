@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1738'
 ht-degree: 99%
 
 ---
@@ -553,7 +553,7 @@ ht-degree: 99%
          + [API 上限](using/configuration/capping.md)
          + [API 限制](using/configuration/throttling.md)
       + 事件配置{#events-journeys}
-         + [一般原则](using/event/about-events.md)
+         + [使用历程事件](using/event/about-events.md)
          + 配置统一事件{#unitary-events}
             + [统一事件入门](using/event/about-creating.md)
             + [关于 ExperienceEvent Schemas](using/event/experience-event-schema.md)
