@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="测试模式日志"
->abstract="“显示日志”按钮以 JSON 格式显示测试结果。这些结果显示历程中的人数及个人的状态。"
+>abstract="此 **显示日志** 按钮以JSON格式显示测试结果。 这些结果显示历程中的人数及个人的状态。"
 
 此 **[!UICONTROL 显示日志]** 按钮以查看测试结果。 此页面以JSON格式显示历程的当前信息。 使用按钮可复制整个节点。 您需要手动刷新页面以更新历程的测试结果。
 

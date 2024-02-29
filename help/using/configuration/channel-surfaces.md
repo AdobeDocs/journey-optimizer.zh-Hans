@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 9%
+source-wordcount: '1629'
+ht-degree: 8%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="表面"
->abstract="表面是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
+>title="渠道表面"
+>abstract="渠道平面是由系统管理员定义的配置。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
 
 替换为 [!DNL Journey Optimizer]，您可以设置渠道界面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、移动应用程序、短信配置等。
 
