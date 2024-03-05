@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '3668'
+source-wordcount: '3659'
 ht-degree: 31%
 
 ---
@@ -507,8 +507,6 @@ ht-degree: 31%
 * **[!UICONTROL 已排除]**：从定向用户档案中排除且未收到消息的用户用户档案数。
 
 * **[!UICONTROL 已发送]**：发送的短信消息总数。
-
-* **[!UICONTROL 打开次数]**：短信消息的打开次数。
 
 * **[!UICONTROL 点击次数]**：在短信消息中点击内容的次数。
 

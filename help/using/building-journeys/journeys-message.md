@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 19%
+source-wordcount: '1169'
+ht-degree: 17%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="消息活动"
->abstract="Journey Optimizer 附带内置消息功能。只需在历程中添加推送、短信、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。"
+>abstract="Journey Optimizer 附带内置消息功能。只需在历程中添加推送、短信 (SMS/MMS)、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。"
 
-[!DNL Journey Optimizer] 附带内置消息功能。 只需在历程中添加推送、短信、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。
+[!DNL Journey Optimizer] 附带内置消息功能。 您只需在历程中添加推送、短信/彩信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后将在历程的上下文中执行和发送它。
 
 您还可以设置向您发送消息的特定操作：
 
@@ -74,7 +74,7 @@ ht-degree: 19%
    <img alt="验证" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>创建文本消息</strong></a>
+   <a href="../sms/create-sms.md"><strong>创建短信(SMS/MMS)</strong></a>
    </div>
    <p>
    </td>
