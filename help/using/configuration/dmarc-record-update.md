@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。向电子邮件提供商/ISP 提供明确的策略，这有助于防止恶意行为者假冒您的域发送电子邮件。实施 DMARC 可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可传递性。
 
-作为执行行业最佳实践的举措之一，Google 和 Yahoo!都将要求为用于向其发送电子邮件的任何域设置 **DMARC 记录**。这一新要求自 **2024 年 2 月 1 日**&#x200B;起生效。[了解详情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hans#dmarc){target="_blank"}
+作为执行行业最佳实践的举措之一，Google 和 Yahoo!都将要求为用于向其发送电子邮件的任何域设置 **DMARC 记录**。此新要求适用于起始日期 **2024年2月1日**.
 
 >[!CAUTION]
 >
@@ -67,6 +67,7 @@ Google 和 Yahoo! 共享的最新时间表如下：
 **有用链接**
 
 * 要了解有关 DMARC 的更多信息，请参阅[可传递性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}
-* 有关这些更改的更多建议，请参阅[可传递性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hans){target="_blank"}
 * 阅读 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 * 阅读 [Yahoo! 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+
+<!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->
