@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="设置规则的频次封顶"
->abstract="指定在所选时间范围内发送到客户个人资料的最大消息数。 频率上限将基于所选的日历期间，并且将在相应的时间范围的开头重置。"
+>abstract="指定在所选时间范围内发送到客户配置文件的消息的最大数量。频率上限将基于所选日历周期并将在相应时间范围的起始点重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"

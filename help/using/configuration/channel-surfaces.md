@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="渠道表面"
->abstract="渠道平面是由系统管理员定义的配置。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
+>abstract="渠道表面是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
 
 替换为 [!DNL Journey Optimizer]，您可以设置渠道界面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、移动应用程序、短信配置等。
 

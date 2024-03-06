@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用历程事件
+title: 处理历程事件
 description: 了解如何使用历程中的事件
 feature: Journeys, Events
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
-# 使用历程事件 {#about-events}
+# 处理历程事件 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
