@@ -58,7 +58,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="设置规则的频次封顶"
->abstract="指定在所选时间范围内发送到客户配置文件的消息的最大数量。频率上限将基于所选日历周期并将在相应时间范围的起始点重置。"
+>abstract="指定在所选时间范围内发给某个客户配置文件的最大消息数。频率上限将基于所选的日历期间，并将在相应的时间范围开始时重置它。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
