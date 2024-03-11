@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,11 +80,11 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 ## Adobe Workfront {#integration-workfront}
 
-使用Adobe Workfront中的Adobe Journey Optimizer模块创建、读取、更新或删除记录，或执行对Adobe Journey Optimizer API的自定义API调用。
+使用 Adobe Workfront 中的 Adobe Journey Optimizer 模块创建、读取、更新或删除记录，或执行对 Adobe Journey Optimizer API 的自定义 API 调用。
 
-提供了此集成的关键步骤概述 [在这篇博客文章中](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+有关此集成的关键步骤的概述，请参阅[这篇博客文章](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-详细了解Journey Optimizer + Adobe Workfront [在Adobe Workfront文档中](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
+请在 [Adobe Workfront 文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans)中详细了解关于 Journey Optimizer + Adobe Workfront 的信息。{target="_blank"}
 
 ## 自定义渠道 {#integration-custom}
 

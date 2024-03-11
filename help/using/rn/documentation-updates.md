@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 96%
 
 ## 2024 年 2 月 {#feb-2024}
 
-* Journey Optimizer + Workfront集成已添加到集成页面。 [了解详情](../start/ajo-integrations.md)
-* 添加了有关如何根据上下文数据将优惠的表示法个性化的信息。 [了解详情](../offers/offer-library/add-representations.md#context-data)
-* 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持JSON格式。 [了解详情](../start/guardrails.md#custom-actions-g)
-* 添加了关于外部数据源中基本身份验证类型的其他信息。 [了解详情](../datasource/external-data-sources.md)
-* 已添加注释来明确区分 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md) 从 [个性化编辑器](../personalization/functions/functions.md).
-* 高级表达式编辑器中可用函数的列表已更新。 [了解详情](../building-journeys/expression/functions.md)
-* “拆分”函数的页面已更新。 [了解详情](../building-journeys/functions/functioninaudience.md)
-* 添加了有关选择加入或选择退出推送通知对应用程序内消息的影响的信息。 [了解详情](../in-app/create-in-app.md)
-* 消息频率规则页面已更新，以反映用户界面中可用的持续时间选项（每周或每月）。 [了解详情](../configuration/frequency-rules.md)
-* 更新了“编辑PTR记录”部分，以阐明无法手动创建PTR记录，以及需要编辑PTR记录以为其分配新子域的事实。 [了解详情](../configuration/ptr-records.md#edit-ptr-record)
+* Journey Optimizer + Workfront 集成已添加到集成页面。[了解详情](../start/ajo-integrations.md)
+* 添加了有关如何根据上下文数据个性化优惠呈现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
+* 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持 JSON 格式。[了解详情](../start/guardrails.md#custom-actions-g)
+* 添加了关于外部数据源中基本身份验证类型的更多信息。[了解详情](../datasource/external-data-sources.md)
+* 添加了注释来明确区分[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)和[个性化编辑器](../personalization/functions/functions.md)。
+* 更新了高级表达式编辑器中可用函数的列表。[了解详情](../building-journeys/expression/functions.md)
+* 更新了 Split 函数的页面。[了解详情](../building-journeys/functions/functioninaudience.md)
+* 添加了有关选择启用或选择禁用推送通知对应用程序内消息的影响的信息。[了解详情](../in-app/create-in-app.md)
+* 更新了消息频率规则页面，以反映用户界面中可用的持续时间选项（每周或每月）。[了解详情](../configuration/frequency-rules.md)
+* 更新了“编辑 PTR 记录”部分，以阐明无法手动创建 PTR 记录，以及需要编辑 PTR 记录以为其分配新子域的事实。[了解详情](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024 年 1 月 {#jan-2024}
 

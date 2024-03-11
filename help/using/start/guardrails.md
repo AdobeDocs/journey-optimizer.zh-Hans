@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 不允许使用 IP 地址
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
 * 无法移除内置的自定义操作。
-* 仅当使用请求或响应负载时，自定义操作才支持JSON格式。 请参阅[此页](../action/about-custom-action-configuration.md#custom-actions-limitations)。
+* 仅当使用请求或响应负载时，自定义操作才支持 JSON 格式。请参阅[此页](../action/about-custom-action-configuration.md#custom-actions-limitations)。
 * 在使用自定义操作选择要定位的端点时，请确保：
 
    * 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点都需要支持至少 200 TPS。

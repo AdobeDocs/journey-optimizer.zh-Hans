@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 73%
 
 >[!BEGINTABS]
 
->[!TAB 2月版已上线！]
+>[!TAB 2 月版已上线！]
 
 了解 Adobe Journey Optimizer 24.2 版的新增功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Web应用程序内消息传递]
+>[!TAB Web 应用程序内消息传送]
 
-您现在可以使用新的Web应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。 此功能使您能够有效地与Web访客互动，提高用户交互、维系率和转化率。
+您现在可以使用新的 Web 应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。此功能使您能够有效地与 Web 访客互动，提升用户交互水平、保留率和转化率。
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
@@ -36,7 +36,7 @@ ht-degree: 73%
 
 >[!TAB 多渠道内容模板]
 
-除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。 对于电子邮件，您现在可以选择内容类型，这允许您保存主题行作为电子邮件模板的一部分。
+除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。对于电子邮件，您现在可以选择内容类型，这允许您将主题行保存为电子邮件模板的一部分。
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 

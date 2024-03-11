@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。向电子邮件提供商/ISP 提供明确的策略，这有助于防止恶意行为者假冒您的域发送电子邮件。实施 DMARC 可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可传递性。
 
-作为执行行业最佳实践的举措之一，Google 和 Yahoo!都将要求为用于向其发送电子邮件的任何域设置 **DMARC 记录**。此新要求适用于起始日期 **2024年2月1日**.
+作为执行行业最佳实践的举措之一，Google 和 Yahoo!都将要求为用于向其发送电子邮件的任何域设置 **DMARC 记录**。这一新要求自 **2024 年 2 月 1 日**&#x200B;起生效。
 
 >[!CAUTION]
 >
