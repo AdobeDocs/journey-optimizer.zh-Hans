@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 74%
+source-wordcount: '1146'
+ht-degree: 71%
 
 ---
 
@@ -191,8 +191,11 @@ ht-degree: 74%
 
 **频率规则**
 
-* **每周和每日频率上限** - 现在，除了可以指定一个月内向客户配置文件发送的最大消息数外，您还可以指定在一周或一天内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/frequency-rules.md#create-new-rule)
+* **每周频率上限**  — 您现在可以指定每周以及每月发送到客户配置文件的最大消息数。 频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >每日频率上限也可根据需要提供。 请联系您的Adobe代表。
 
 **决策管理**
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1213'
 ht-degree: 10%
 
 ---
@@ -77,23 +77,9 @@ ht-degree: 10%
    >
    >当前仅 **[!UICONTROL 营销]** 类别可用。
 
-   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details.png)
 
-1. 从 **[!UICONTROL 持续时间]** 下拉列表中，选择要应用的上限的时间范围。
-
-   ![](assets/message-rules-capping-duration.png)
-
-   频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
-
-   各期间计数器到期如下：
-
-   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
-
-   * **[!UICONTROL 每周]**：频率上限有效期到星期六23日:59:作为日历周的那一周的59 UTC从星期日开始。 无论规则如何创建，都会过期。 例如，如果规则在星期四创建，则此规则的有效期到星期六23:59:59.
-
-   * **[!UICONTROL 每月]**：频率上限有效期到每月最后一天23点:59:世界协调时59分 例如，1月的每月到期时间为01-31 23:59:世界协调时59分
-
-   &lt;! — 注意：当处理 [批量分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+1. 从 **[!UICONTROL 持续时间]** 下拉列表中，选择要应用的上限的时间范围。 [了解详情](#frequency-cap)
 
 1. 设置规则的上限，即每月或每周可以向单个用户配置文件发送的最大消息数 <!--or day-->  — 根据您在上面的选择。
 
@@ -114,6 +100,34 @@ ht-degree: 10%
 1. 单击 **[!UICONTROL 另存为草稿]** 以确认创建规则。 您的消息将添加到规则列表，其中 **[!UICONTROL 草稿]** 状态。
 
    ![](assets/message-rules-created.png)
+
+### 频率限制 {#frequency-cap}
+
+从 **[!UICONTROL 持续时间]** 下拉列表中，选择是每月还是每周应用上限。
+
+>[!NOTE]
+>
+>每日频率上限也可根据需要提供。 [了解详情](#daily-frequency-cap)
+
+频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
+
+![](assets/message-rules-capping-duration.png)
+
+各期间计数器到期如下：
+
+* **[!UICONTROL 每月]**：频率上限有效期到每月最后一天23点:59:世界协调时59分 例如，1月的每月到期时间为01-31 23:59:世界协调时59分
+
+* **[!UICONTROL 每周]**：频率上限有效期到星期六23日:59:作为日历周的那一周的59 UTC从星期日开始。 无论规则如何创建，都会过期。 例如，如果规则在星期四创建，则此规则的有效期到星期六23:59:59.
+
+### 每日频率上限 {#daily-frequency-cap}
+
+除了每月和每周外，还可按需提供每日频率上限。 有关更多信息，请与您的Adobe代表联系。
+
+每日频率上限在截止日期23之前有效:59:59 UTC时间，并在第二天开始时重置为0。
+
+>[!NOTE]
+>
+>处理以下问题时 [批量分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 在中了解有关受众评估方法的更多信息 [本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## 激活规则 {#activate-rule}
 
