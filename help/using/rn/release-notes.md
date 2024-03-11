@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 71%
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。 对于电子邮件，您现在可以选择内容类型，这允许您保存主题行作为电子邮件模板的一部分。 <br/><br/></p>
+<p>除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。对于电子邮件，您现在可以选择内容类型，这允许您将主题行保存为电子邮件模板的一部分。 <br/><br/></p>
 <p>有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。<br></br></p>
 <img src="assets/do-not-localize/multi-chan-templates.gif">
 </tr>
@@ -75,7 +75,7 @@ ht-degree: 71%
 
 **受众**
 
-* **种子列表** - 现在使用&#x200B;**种子列表**&#x200B;时支持变体。种子地址接收同一消息的所有变体的副本（例如对内容实验的不同处理）。 [了解详情](../configuration/seed-lists.md)
+* **种子列表** - 现在使用&#x200B;**种子列表**&#x200B;时支持变体。种子地址也会收到同一消息的所有变体副本（例如内容实验的不同处理）。[了解详情](../configuration/seed-lists.md)
 
 以前作为 Beta 版提供，现在所有用户都可以使用以下改进功能：
 
@@ -86,26 +86,26 @@ ht-degree: 71%
   >[!AVAILABILITY]
   >
   >* 当前，无法将受众组合和自定义上传（CSV 文件）中的受众和属性用于 Healthcare Shield 或 Privacy and Security Shield。
-  >* 此 **从CSV文件上传受众** 在首次发布后的几天内正在逐步推出改进。 虽然某些用户可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。
+  >* 改进的&#x200B;**从 CSV 文件上传受众**&#x200B;的功能将在最初发布后的几天内逐步推出。虽然某些用户将可以立即获得相应的访问权限，但其他用户可能要等待一些时间才能在自己的环境中访问该功能。
 
 **历程**
 
-* **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。 [了解详情](../building-journeys/journey-gs.md#filter)
-* **自定义操作**  — 您现在可以更新 **content-type** 标题。 此新 **content-type** 应引用JSON内容。 [了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。 [了解详情](../reports/sharing-field-list.md)
-* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](../building-journeys/journey-gs.md#change-properties)
+* **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。[了解详情](../building-journeys/journey-gs.md#filter)
+* **自定义操作** - 您现在可以更新 **content-type** 标头。此新 **content-type** 标头应引用 JSON 内容。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
+* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。[了解详情](../reports/sharing-field-list.md)
+* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](../building-journeys/journey-gs.md#change-properties)
 
 **短信渠道**
 
-* **选择启用/选择禁用关键词** - 配置短信渠道时，您现在可以根据自己的喜好，自定义&#x200B;**选择启用和选择禁用关键词**。Journey Optimizer会根据这些指定的关键词触发响应。 [了解详情](../sms/sms-configuration.md#create-api)
+* **选择启用/选择禁用关键词** - 配置短信渠道时，您现在可以根据自己的喜好，自定义&#x200B;**选择启用和选择禁用关键词**。Journey Optimizer 会根据这些指定的关键词触发响应。[了解详情](../sms/sms-configuration.md#create-api)
 
 **营销活动**
 
-* **API 触发的营销活动** - 对激活 API 触发的营销活动后生成的 cURL 代码进行了增强。它现在包含消息中使用的所有个性化（用户档案和上下文）变量。 [了解详情](../campaigns/api-triggered-campaigns.md#execute)
+* **API 触发的营销活动** - 对激活 API 触发的营销活动后生成的 cURL 代码进行了增强。它现在包含消息中使用的所有个性化（用户档案和上下文）变体。[了解详情](../campaigns/api-triggered-campaigns.md#execute)
 
 **频率规则**
 
-* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。 当达到频率上限时，频率规则会自动从消息和操作中排除过度请求的用户档案。 [了解详情](../configuration/frequency-rules.md)
+* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的用户档案。[了解详情](../configuration/frequency-rules.md)
 
 <!--**Decision management**
 
@@ -156,7 +156,7 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>利用Real-Time CDP和Journey Optimizer中特定于行业的用例行动手册目录，解决您可以使用Adobe Experience Platform和Adobe Journey Optimizer执行的常见用例。</p><p>选择最符合您需求的战术手册后，就可以启用该战术手册以生成支持用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。</p>
+<p>利用 Real-Time CDP 和 Journey Optimizer 中特定于行业的用例战术手册目录，解决您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 执行的常见用例。</p><p>选择最符合您需求的战术手册后，就可以启用该战术手册以生成支持用例所需的资产（如历程、消息、架构或区段），并根据您的架构对其进行自定义以更快地实现价值。</p>
 <p>有关更多信息，请参阅<a href="../start/playbooks.md">详细文档</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
