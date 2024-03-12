@@ -12,16 +12,16 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
-# 中的子域委派 [!DNL Journey Optimizer] {#subdomain-delegation}
+# [!DNL Journey Optimizer] 中的子域委派 {#subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
->title="您委派的子域将显示在此处。"
->abstract="委派您的第一个子域。 委派完成后，将创建PTR记录并启用电子邮件渠道。"
+>title="您委派的子域显示在此处。"
+>abstract="委派您的首个子域。委派完成后，将创建 PTR 记录并启用电子邮件通道。"
 
 为电子邮件促销活动创建子域后，品牌商可以将不同类型的流量（例如营销与公司流量）隔离到特定的IP池中以及特定域中，从而加快IP预热过程并提高整体可投放性。
 
