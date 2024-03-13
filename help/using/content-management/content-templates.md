@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 9%
+source-wordcount: '1425'
+ht-degree: 10%
 
 ---
 
@@ -55,16 +55,6 @@ ht-degree: 9%
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * 要编辑模板内容，请在列表中单击所需项目并选择 **[!UICONTROL 编辑内容]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >编辑或删除模板时，使用此模板创建的活动或历程（包括内容）不会受到影响。
+
+### 将模板显示为缩略图 {#template-thumbnails}
+
+选择 **[!UICONTROL 网格视图]** 模式，将每个模板显示为缩略图。
+
+>[!AVAILABILITY]
+>
+>此功能面向一小部分客户限量发布 (LA)。
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>当前只能为HTML类型的电子邮件内容模板生成正确的缩略图。
+
+更新内容时，您可能需要等待几秒钟，更改才会反映在缩略图中。
 
 ## 创建内容模板 {#create-content-templates}
 

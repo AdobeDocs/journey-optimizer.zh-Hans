@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
 source-wordcount: '4831'
 ht-degree: 99%
@@ -23,6 +23,7 @@ ht-degree: 99%
 
 * 消息频率规则页面已更新，新增了有关每日频率上限的子部分，除了每周或每月上限外，还可应要求提供。 [了解详情](../configuration/frequency-rules.md#daily-frequency-cap)
 * 改进并更新了使用同意策略页面，提供了指向Experience Platform文档的有用链接。 [了解详情](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## 2024 年 2 月 {#feb-2024}
 
