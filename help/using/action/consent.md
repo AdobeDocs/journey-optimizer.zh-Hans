@@ -9,27 +9,33 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 82%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-Adobe Experience Platform 允许您轻松地采用和执行营销策略，尊重客户的同意偏好。同意策略是在 Adobe Experience Platform 中定义的。请参见[此文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy)。
+<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
-在 Journey Optimizer 中，您可以将这些同意策略应用于自定义操作。例如，您可以定义同意策略以排除未同意接收电子邮件、推送或短信通信的客户。
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
->[!NOTE]
+您的数据可能会受到贵组织或法律法规定义的使用限制的约束。 因此，确保您在Journey Optimizer中的数据操作符合 [数据使用策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} 允许您对数据执行。
+
+一种可用的数据使用策略是 **同意政策**. 它们允许您轻松采用和执行营销策略，以尊重客户的同意偏好。 [了解有关策略实施的更多信息](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+
+>[!IMPORTANT]
 >
->同意策略当前仅适用于已购买 Healthcare Shield 加载项的组织。
+>同意策略当前仅适用于已购买Adobe的组织 **Health Shield** 或 **隐私和安全防护板** 附加产品。
 
-在 Journey Optimizer 中，可以在以下几个级别定义同意策略：
+例如，您可以 [创建同意政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"} Experience Platform中，用于排除未同意接收电子邮件、推送或短信通信的客户。
 
-* 在&#x200B;**配置自定义操作**&#x200B;时，您可以定义渠道和营销操作。请参阅此[部分](../action/consent.md#consent-custom-action)。
-* 在添加&#x200B;**历程中的自定义操作**&#x200B;时，您可以定义其他营销操作。请参阅此[部分](../action/consent.md#consent-journey)。
+在Journey Optimizer中，同意在几个级别进行定义。 您可以将同意策略应用于历程自定义操作：
+
+* 时间 **配置自定义操作**，您可以定义渠道和营销操作。 [了解详情](#consent-custom-action)
+* 添加 **历程中的自定义操作**&#x200B;中，您可以定义其他营销操作。 [了解详情](#consent-journey)
 
 ## 重要说明 {#important-notes}
 
