@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 17%
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## 自定义等待{#custom}
 
-此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅此 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
+此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2023年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅此 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@event{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@event{Event.offerOpened.activity.endTime})，事件中的字段格式为2023-08-12T09:46:06Z。
 >
->此 **时区** 应在历程的属性中找到。 因此，目前不可能从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
+>此 **时区** 应在历程的属性中找到。 因此，目前不可能从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2023-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](assets/journey57.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 10%
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 | 标题名称 | 值 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API格式**
@@ -79,8 +79,8 @@ curl -X POST \
     "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
     "@id": "xcore:eligibility-rule:124e0faf5b8ee89b",
     "repo:etag": 1,
-    "repo:createdDate": "2020-10-21T20:13:43.048666Z",
-    "repo:lastModifiedDate": "2020-10-21T20:13:43.048666Z",
+    "repo:createdDate": "2023-10-21T20:13:43.048666Z",
+    "repo:lastModifiedDate": "2023-10-21T20:13:43.048666Z",
     "repo:createdBy": "{CREATED_BY}",
     "repo:lastModifiedBy": "{MODIFIED_BY}",
     "repo:createdByClientId": "{CREATED_CLIENT_ID}",
