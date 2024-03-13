@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: ht
-source-wordcount: '4778'
-ht-degree: 100%
+source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+workflow-type: tm+mt
+source-wordcount: '4831'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+## 2024 年 3 月 {#march-2024}
+
+* 消息频率规则页面已更新，新增了有关每日频率上限的子部分，除了每周或每月上限外，还可应要求提供。 [了解详情](../configuration/frequency-rules.md#daily-frequency-cap)
+* 改进并更新了使用同意策略页面，提供了指向Experience Platform文档的有用链接。 [了解详情](../action/consent.md)
 
 ## 2024 年 2 月 {#feb-2024}
 
