@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '484'
 ht-degree: 19%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 19%
 * **帮助**：帮助。
 
 这些关键字通常会触发来自第三方提供商的自动标准回复。 您可以直接与提供商或通过其文档网站确认此信息。
+
+使用Infobip时，请确保将“转发”操作设置为“拉取”配置。
 
 无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE会被自动识别。 在Adobe Journey Optimizer中实时更新用户档案选择退出状态。
 
