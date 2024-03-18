@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
+source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 26%
+source-wordcount: '311'
+ht-degree: 29%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 26%
 
 **内容模板**
 
-* **缩略图** - A **缩略图视图** 现在可用于内容模板和片段，以改进可视访问。 [了解详情](../content-management/content-templates.md#template-thumbnails)
+* **缩略图** - A **网格视图** 模式现在可用于内容模板，显示缩略图可改善可视访问。 当前仅支持电子邮件HTML模板。 [了解详情](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >此功能面向一小部分客户限量发布 (LA)。
 
 **历程**
 
