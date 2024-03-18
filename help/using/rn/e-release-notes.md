@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
+source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 67%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -38,8 +38,11 @@ ht-degree: 67%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在所有接触点上个性化和测试要交付给客户的体验，如：Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、信息亭、ATM、语音助手、物联网设备等。</p>
-<p>借助基于代码的体验功能，您可以使用简单直观的非可视化编辑器定义入站体验。 它允许您在应用程序或网页的单个位置和更精细的位置插入和编辑特定元素（不管您拥有的应用程序类型如何 ），而不是将修改应用于全部内容。</p><br/><br/></p>
+<p>借助新的基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站资产进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。</p>
+<P>主要功能包括：</p>
+<ul><li> 通用个性化：在所有接触点之间扩展个性化体验，确保有凝聚力且量身定制的用户历程</li>
+<li>&gt;粒度编辑精度：在应用程序或网页内的各个位置编辑特定内容</li>
+<li>通用实施：支持服务器端、基于API或基于SDK的实施方法，以便与开发环境无缝集成。</li></ul></p>
 <p>有关更多信息，请参阅<a href="../code-based/get-started-code-based.md">详细文档</a>。</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
@@ -52,5 +55,12 @@ ht-degree: 67%
 
 **内容模板**
 
-* **缩略图** - **缩略图视图**&#x200B;现在可用于内容模板和片段，以改进可视化访问。
+* **缩略图** - A **缩略图视图** 现在可用于内容模板和片段，以改进可视访问。 [了解详情](../content-management/content-templates.md#template-thumbnails)
 
+**历程**
+
+历程创作生命周期中添加了新的中间状态：
+
+* **发布** 介于两者之间的状态 **草稿** 状态和 **实时** 状态
+* **正在停止** 介于两者之间的状态 **实时** 状态和 **已停止** 状态
+* **激活测试模式** 或 **停用测试模式** 介于以下各项之间的状态： **草稿** 状态和 **草稿（测试）** 状态
