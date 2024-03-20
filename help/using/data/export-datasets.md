@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '864'
 ht-degree: 9%
 
 ---
@@ -67,7 +67,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ## 先决条件 {#prerequisites}
 
-要导出数据集，您需要 [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) 如下所列。 阅读 [访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) 或与产品管理员联系以获取所需的权限。
+要导出数据集，您需要 [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} 或与产品管理员联系以获取所需的权限。
 
 | 类别 | 权限 |
 |--|--|
@@ -75,15 +75,15 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | 数据管理 | 查看数据集 |
 | 目标 | 查看目标 |
 
-## 导出数据集的主要步骤 {#main-steps}
+## 导出数据集的关键步骤 {#main-steps}
 
 将数据集导出到云存储位置的主要步骤如下：
 
 ![](assets/dataset-export-process.png)
 
-有关每个步骤的详细信息，请参阅Adobe Experience Platform文档： [将数据集导出到云存储目标](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
+有关每个步骤的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **设置您的云存储目标**. 如果您尚未这样做，请从目标目录连接到云存储目标。 [了解如何创建新的目标连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **设置您的云存储目标**. 如果您尚未这样做，请从目标目录连接到云存储目标。 了解如何在中创建新的目标连接 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
    >[!NOTE]
    >
-   >如果您使用Adobe Journey Optimizer以及实时客户档案，目标卡片将显示“激活”按钮，根据您启用的权限，允许您导出数据集并激活此目标的受众。
+   >如果您将Adobe Journey Optimizer与实时客户档案一起使用，则目标卡片将显示 **激活** 按钮，允许您导出数据集并激活此目标的受众，具体取决于您启用的权限。
 
 1. **选择数据集** 要导出到所选目标的文件。 [了解有关可用于导出的Journey Optimizer数据集的更多信息](#datasets)
 
@@ -107,4 +107,4 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
    <!--![](assets/dataset-export-review.png)-->
 
-导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证数据集导出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证数据集导出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
