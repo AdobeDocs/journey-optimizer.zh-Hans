@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
+source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -174,6 +174,5 @@ ht-degree: 80%
 | --------- | ----------- | ------- | 
 | 通配符Web | 通配符:web://domain.com/`*`#element | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
 | 通配符Web | 通配符:web://`*`domain.com/`*`#element | 通配符表面 — 表示所有以“domain.com”结尾的域下的每个页面中的单个元素。 |
-
 
 
