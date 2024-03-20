@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 2 月版已上线！]
+>[!TAB 3月版已上线！]
 
-了解 Adobe Journey Optimizer 24.2 版的新增功能和改进。
+了解 Adobe Journey Optimizer 24.3 版的新增功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB 基于代码的体验]
+
+借助新的基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站资产进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Web 应用程序内消息传送]
 
@@ -33,14 +41,6 @@ ht-degree: 100%
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB 多渠道内容模板]
-
-除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。对于电子邮件，您现在可以选择内容类型，这允许您将主题行保存为电子邮件模板的一部分。
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
