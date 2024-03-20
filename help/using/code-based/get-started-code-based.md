@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 88%
 
 ---
 
 # 开始使用基于代码的渠道 {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* **[开始使用基于代码的渠道](get-started-code-based.md)**
-* [基于代码的先决条件](code-based-prerequisites.md)
-* [基于代码的实施示例](code-based-implementation-samples.md)
-* [创建基于代码的体验](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->基于代码的渠道目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+>目前，基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
 [!DNL Journey Optimizer]允许您在所有接触点（如 Web 应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、信息亭、ATM、语音助手、IoT 设备等）上个性化和测试要交付给客户的体验。
 
@@ -39,11 +25,15 @@ ht-degree: 100%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-当您[创建营销活动](../campaigns/create-campaign.md#configure)时，请选择&#x200B;**基于代码的体验（Beta 版）**&#x200B;作为您的操作并定义基本设置。
+>[!CAUTION]
+>
+>当前位置 [!DNL Journey Optimizer] 您只能使用以下方式创建基于代码的体验 **营销活动**.
+
+当您 [创建活动](../campaigns/create-campaign.md#configure)，选择 **基于代码的体验** 作为您的操作并定义基本设置。
 
 >[!NOTE]
 >
->如果您是首次创建 Web 体验，请确保遵循[此部分](code-based-prerequisites.md)中叙述的先决条件。
+>如果这是您首次创建基于代码的体验，请确保遵循中所述的先决条件 [本节](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -74,17 +64,15 @@ ht-degree: 100%
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="验证" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>编辑代码</strong></a>
+<a href="code-based-implementation-samples.md"><strong>实施示例</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ ht-degree: 100%
 * 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主图像位置可以在表面 URI 中进行转译，例如：web://mydomain.com/*#hero_image）。
 
 表面 URI 基本上由多个部分组成：
-1. **类型**：Web、移动应用程序、服务、自助服务终端、tvcd 等
-1. **属性**：域或应用程序捆绑包
-1. **路径**：页面/应用程序活动 ± 页面/应用程序活动上的位置<!--to clarify-->
+1. **类型**：web、ios、android、atm、kiosk、tvcd、service等
+1. **属性**：页面URL或应用程序捆绑包
+1. **容器**：页面/应用程序活动上的位置
 
-下表列出了各种设备的一些表面 URI 定义示例。
+下表列出了各种设备的一些表面URI定义示例。
+
+**Web和移动**
 
 | 类型 | URI | 描述 |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | 表示网站的单个路径和页面。 |
 | Web | web://domain.com/path/page.html#element | 表示特定域的特定页面中的单个元素。 |
 | Web | web://domain.com/*#element | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
-| 桌面 | desktop://com.vendor.bundle | 表示特定的桌面应用程序。 |
-| 桌面 | desktop://com.vendor.bundle#element | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
 | iOS 应用程序 | mobileapp://com.vendor.bundle | 表示适用于单个平台的特定移动应用程序 - 在本例中为 iOS 应用程序。 |
 | iOS 应用程序 | mobileapp://com.vendor.bundle/activity | 表示移动应用程序中的特定活动（视图）。 |
 | iOS 应用程序 | mobileapp://com.vendor.bundle/activity#element | 表示活动中的特定元素，如按钮或其他视图元素。 |
 | Android 应用程序 | mobileapp://com.vendor.bundle | 表示适用于单个平台的特定移动应用程序 - 在本例中为 Android 应用程序。 |
+
+**其他设备类型**
+
+| 类型 | URI | 描述 |
+| --------- | ----------- | ------- | 
+| 桌面 | desktop://com.vendor.bundle | 表示特定的桌面应用程序。 |
+| 桌面 | desktop://com.vendor.bundle#element | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
 | tvOS 应用程序 | tvos://com.vendor.bundle | 表示特定的 tvOS 应用程序。 |
 | TV 应用程序 | tvcd://com.vendor.bundle | 表示特定智能电视或电视连接设备应用程序 - 捆绑 ID。 |
 | 服务 | service://servicename | 表示服务器端进程或其他手动实体。 |
 | 自助服务终端 | kiosk://location/screen | 易于添加的其他潜在表面类型示例。 |
 | ATM | atm://location/screen | 易于添加的其他潜在表面类型示例。 |
+
+**通配符曲面**
+
+| 类型 | URI | 描述 |
+| --------- | ----------- | ------- | 
+| 通配符Web | 通配符:web://domain.com/`*`#element | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
+| 通配符Web | 通配符:web://`*`domain.com/`*`#element | 通配符表面 — 表示所有以“domain.com”结尾的域下的每个页面中的单个元素。 |
+
+
+

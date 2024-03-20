@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1630'
 ht-degree: 9%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >选定IP池位于下时，无法继续创建表面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)关联，且从未与选定子域关联。 [了解详情](#subdomains-and-ip-pools)
+   >选定IP池位于下时，无法继续创建电子邮件表面 [版本](ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)关联，且从未与选定子域关联。 [了解详情](#subdomains-and-ip-pools)
    >
    >将表面另存为草稿，等待IP池具有 **[!UICONTROL 成功]** 恢复表面创建的状态。
 

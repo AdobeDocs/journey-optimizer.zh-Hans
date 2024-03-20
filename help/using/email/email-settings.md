@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 12%
+source-wordcount: '2378'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 12%
 
 要开始创建电子邮件，您需要设置电子邮件渠道界面，以定义消息所需的所有技术参数。 [了解如何创建表面](../configuration/channel-surfaces.md)
 
-在渠道平面配置的专用部分中定义电子邮件设置。
+>[!NOTE]
+>
+>为了维护您的信誉并提高可投放性，请在创建电子邮件表面之前设置用于发送电子邮件的子域。 [了解详情](../configuration/about-subdomain-delegation.md)
+
+在渠道平面配置的专用部分中定义电子邮件设置，如下所述。
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ ht-degree: 12%
 
 ## 子域和IP池 {#subdomains-and-ip-pools}
 
-在 **子域和IP池** 部分，您必须：
+在 **子域和IP池** 部分，按照以下说明填写必填字段。
 
-1. 选择用于发送电子邮件的子域。 [了解详情](../configuration/about-subdomain-delegation.md)
+1. 选择用于发送电子邮件的子域。
+
+   为了维护域的信誉、加快IP预热过程并改进可投放性，将发送子域委派给Adobe。 [了解详情](../configuration/about-subdomain-delegation.md)
 
 1. 选择要与表面关联的IP池。 [了解详情](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-选定IP池位于下时，无法继续创建表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)且从未与选定子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将表面另存为草稿，并在IP池具有 **[!UICONTROL 成功]** 状态。
+   选定IP池位于下时，无法继续创建表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)且从未与选定子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将表面另存为草稿，并在IP池具有 **[!UICONTROL 成功]** 状态。
 
->[!NOTE]
->
->对于非生产环境，Adobe不会创建现成的测试子域，也不会授予对共享发送IP池的访问权限。 您需要 [委派您自己的子域](../configuration/delegate-subdomain.md) 并使用分配给贵组织的池中的IP。
+   >[!NOTE]
+   >
+   >对于非生产环境，Adobe不会创建现成的测试子域，也不会授予对共享发送IP池的访问权限。 您需要 [委派您自己的子域](../configuration/delegate-subdomain.md) 并使用分配给贵组织的池中的IP。
 
-选择IP池后，当鼠标悬停在IP池下拉列表下方显示的IP地址上时，会显示PTR信息。 [了解有关PTR记录的更多信息](../configuration/ptr-records.md)
+1. 选择IP池后，当鼠标悬停在IP池下拉列表下方显示的IP地址上时，会显示PTR信息。 [了解有关PTR记录的更多信息](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->如果未配置PTR记录，请联系您的Adobe代表。
+   >[!NOTE]
+   >
+   >如果未配置PTR记录，请联系您的Adobe代表。
 
 ## 列表 — 取消订阅 {#list-unsubscribe}
 

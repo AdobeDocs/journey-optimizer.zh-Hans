@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 * 如果您使用的是Campaign和Journey Optimizer，请参阅以下部分：
 
-   * [[!DNL Journey Optimizer] 和Campaign Classicv7/Campaign v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] 和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] 和Campaign Standard](../action/acs-action.md)
 
 要在历程中添加消息，请执行以下步骤：

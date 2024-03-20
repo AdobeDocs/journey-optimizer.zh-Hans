@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 12%
+source-wordcount: '430'
+ht-degree: 3%
 
 ---
 
 # 先决条件和护栏 {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* [开始使用基于代码的渠道](get-started-code-based.md)
-* **[基于代码的先决条件](code-based-prerequisites.md)**
-* [基于代码的实施示例](code-based-implementation-samples.md)
-* [创建基于代码的体验](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 能够在中使用基于代码的体验操作 [!DNL Journey Optimizer] 并交付应用程序可以使用的代码内容有效负载，请遵循以下先决条件：
 
@@ -37,9 +23,11 @@ ht-degree: 12%
 
 ## 警告说明 {#caution-notes-web}
 
-* 基于代码的渠道目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
-
 * 当前位置 [!DNL Journey Optimizer] 您只能在中创建基于代码的体验 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>目前，基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
 ## 实施先决条件 {#implementation-prerequisites}
 

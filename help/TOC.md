@@ -5,8 +5,8 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
-workflow-type: ht
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ ht-degree: 100%
       + [电子邮件、应用程序内消息、推送、短信](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
-      + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-classic.md)
+      + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳转](using/building-journeys/jump.md)
       + [更新用户档案](using/building-journeys/update-profiles.md)
    + 构建表达式 {#building-advanced-conditions-journeys}

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1392'
+ht-degree: 83%
 
 ---
 
@@ -25,6 +25,56 @@ ht-degree: 96%
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
+
+## 2024 年 3 月发行说明 {#mar-2024}
+
+**发行日期**：2024年3月19日至20日
+
+### 新功能 {#mar-features}
+
+此版本引入了以下详细介绍的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>基于代码的体验</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>借助新的基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站资产进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。</p>
+<P>主要功能包括：</p>
+<ul><li> 通用个性化：在所有接触点之间扩展个性化体验，确保有凝聚力且量身定制的用户历程</li>
+<li>粒度编辑精度：在应用程序或网页内的各个位置编辑特定内容</li>
+<li>通用实施：支持服务器端、基于API或基于SDK的实施方法，以便与开发环境无缝集成。</li></ul></p>
+<p>有关更多信息，请参阅<a href="../code-based/get-started-code-based.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### 改进 {#mar-improvements}
+
+此版本包含下方列出的改进。
+
+**内容模板**
+
+* **缩略图** - A **网格视图** 模式现在可用于内容模板，显示缩略图可改善可视访问。 当前仅支持电子邮件HTML模板。 [了解详情](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >此功能面向一小部分客户限量发布 (LA)。
+
+**历程**
+
+历程创作生命周期中添加了新的中间状态：
+
+* **发布** 介于两者之间的状态 **草稿** 状态和 **实时** 状态
+* **正在停止** 介于两者之间的状态 **实时** 状态和 **已停止** 状态
+* **激活测试模式** 或 **停用测试模式** 介于以下各项之间的状态： **草稿** 状态和 **草稿（测试）** 状态
+
+当历程处于中间状态时，它是只读的。 [了解详情](../building-journeys/journey-gs.md#filter)
 
 ## 2024 年 2 月发行说明 {#feb-2024}
 

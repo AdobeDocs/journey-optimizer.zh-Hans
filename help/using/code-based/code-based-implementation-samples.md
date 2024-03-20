@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 6%
+source-wordcount: '753'
+ht-degree: 3%
 
 ---
 
 # 基于代码的实施方法示例 {#implementation-samples}
-
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* [开始使用基于代码的渠道](get-started-code-based.md)
-* [基于代码的先决条件](code-based-prerequisites.md)
-* **[基于代码的实施示例](code-based-implementation-samples.md)**
-* [创建基于代码的体验](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 基于代码的体验支持任何类型的客户实施。 在此页上，您可以找到每种实施方法的示例：
 
@@ -35,7 +21,9 @@ ht-degree: 6%
 * [服务器端](#server-side-implementation)
 * [混合](#hybrid-implementation)
 
-您也可以关注 [此链接](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} 查找不同个性化和实验用例的示例实施。 查看并运行这些扩展，以便更好地了解所需的实施步骤以及端到端个性化流程的工作方式。
+>[!IMPORTANT]
+>
+>关注 [此链接](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} 查找不同个性化和实验用例的示例实施。 查看并运行这些扩展，以便更好地了解所需的实施步骤以及端到端个性化流程的工作方式。
 
 ## 客户端实施 {#client-side-implementation}
 
@@ -77,6 +65,38 @@ function sendDisplayEvent(decision) {
               scopeDetails: scopeDetails,
             },
           ],
+        },
+      },
+    },
+  });
+}
+```
+
+1. 对于基于代码的体验营销活动，必须手动发送交互事件以指示用户何时与内容交互。 这可以通过以下方式实现 `sendEvent` 命令。
+
+```javascript
+function sendInteractEvent(label, proposition) {
+  const { id, scope, scopeDetails = {} } = proposition;
+
+  alloy("sendEvent", {
+    
+    xdm: {
+      eventType: "decisioning.propositionInteract",
+      _experience: {
+        decisioning: {
+          propositions: [
+            {
+              id: id,
+              scope: scope,
+              scopeDetails: scopeDetails,
+            },
+          ],
+          propositionEventType: {
+            interact: 1
+          },
+          propositionAction: {
+            label: label
+          },
         },
       },
     },

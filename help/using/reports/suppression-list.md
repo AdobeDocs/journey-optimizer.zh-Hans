@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 12%
+source-wordcount: '828'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 地址将按如下方式添加到禁止显示列表中：
 
-* 全部 **硬退回** 和 **垃圾邮件投诉数** 在出现一次后自动将相应的地址发送到禁止列表。
+* 全部 **硬退回** 和 **垃圾邮件投诉数** 在出现一次后自动将相应的地址发送到禁止列表。 在中了解有关垃圾邮件投诉的更多信息 [本节](#spam-complaints).
 
 * **软退回** 不要立即向禁止列表发送地址，但它们会递增错误计数器。 多个 [重试](../configuration/retries.md) 然后执行，并且当错误计数器达到阈值时，将该地址添加到禁止列表。
 
@@ -81,3 +81,5 @@ A **软退回** <!--or an **ignored** error--> 如果发生次数过多，则在
 在收件人提交垃圾邮件投诉后将其发送给收件人可能会对您的发送信誉产生巨大影响，因为它会通知ISP您可能会发送不需要的电子邮件，并且可能不会收听收件人的意见。
 
 这可能会导致您的IP地址或发送域被阻止，如果这些地址位于禁止列表上，则可以避免这种情况。
+
+某些ISP会提供反馈循环(FBL)，当收到电子邮件的用户选择将其标记为垃圾邮件时，该循环允许自动通知电子邮件发件人。 [了解详情](deliverability.md#feedback-loops)

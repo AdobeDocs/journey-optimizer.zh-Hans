@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ ht-degree: 100%
       <th>快捷键</th>
     </tr>
   </thead>
-  <tr>
-    <td>历程、操作、数据源或事件列表</td>
-    <td>创建历程、操作、数据源或事件</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">历程画布处于草稿状态</td>
     <td>从左侧面板的第一个可用位置从上到下添加活动</td>
@@ -107,23 +102,6 @@ ht-degree: 100%
   <tr>
     <td>放弃更改并关闭配置窗格</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">测试模式下的历程</td>
-    <td>启用或禁用测试模式</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>在基于事件的历程中触发事件</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>在基于受众的历程中触发事件，其中 **[!UICONTROL Single profile at a time]** 选项处于打开状态</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>显示测试日志</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

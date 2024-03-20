@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 限制，函数，表达式，历程
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的列表。 对于listObject，它必须是字段引用。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要考虑的列表。 对于listObject，它必须是字段引用。 |
 | 项目数 | 整数 | 要从给定列表中返回的项目数。 |
 | firstOrLastItems | 布尔 | 此参数是可选的（默认为true）。 true返回第一项。 false返回最后一个项目。 |
 

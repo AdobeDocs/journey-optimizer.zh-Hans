@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 对应于自定义操作警报的I/O事件订阅名称为 **历程自定义操作失败**.
 
-## 读取区段触发器不成功 {#alert-read-audiences}
+## 读取受众触发器不成功 {#alert-read-audiences}
 
 此警报会在以下情况下警告您 **读取受众** 活动在计划的执行时间后10分钟未处理任何配置文件。 此故障可能是由技术问题或受众为空导致的。
 
@@ -68,3 +68,24 @@ ht-degree: 0%
 警报 **读取受众** 在配置文件进入 **读取受众** 节点。
 
 与对应的I/O事件订阅名称 **读取区段触发器不成功** 警报为 **历程读取区段延迟、失败和错误**.
+
+## 故障排除 {#alert-troubleshooting}
+
+疑难解答 **读取受众** 警报，在Experience Platform界面中检查受众计数。
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+疑难解答 **自定义操作** 警报：
+
+* 使用其他历程上的测试模式检查您的自定义操作：
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* 检查您的历程报告以查看操作中的错误原因。
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* 检查您的历程stepEvents以查找有关“failureReason”的更多信息。
+* 检查您的自定义操作配置，并验证身份验证是否仍然正常。 例如，使用Postman执行手动检查。

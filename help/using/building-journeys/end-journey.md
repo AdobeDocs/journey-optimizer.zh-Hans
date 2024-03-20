@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,11 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 * 基于一次性区段的历程，该历程已完成执行。
 * 最后一次发生基于受众的周期性历程后。
 
-手动关闭历程可确保已进入历程的客户能够完成其路径，但新用户无法进入历程。 当历程关闭时（出于上述任何原因），它将具有状态 **[!UICONTROL 已关闭]**. 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。 在默认全局超时30天后，历程将切换到 **已完成** 状态。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
+手动关闭历程可确保已进入历程的客户能够完成其路径，但新用户无法进入历程。 当历程关闭时（出于上述任何原因），它将具有状态 **[!UICONTROL 已关闭]**. 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。
+
+30天后，读取受众历程将切换到 **已完成** 状态。 此行为仅设置为30天（即历程超时默认值），因为有关进入历程的用户档案的所有信息在进入30天后会被删除。 仍在历程中的人员会自动受到影响。 他们在30天超时后退出历程。
+
+请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 
 无法重新启动或删除已关闭的历程版本。 您可以创建新版本或复制该版本。 只能删除已完成的历程。
 
