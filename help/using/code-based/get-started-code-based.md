@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 88%
+source-wordcount: '1138'
+ht-degree: 80%
 
 ---
 
@@ -144,37 +144,31 @@ ht-degree: 88%
 * 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主图像位置可以在表面 URI 中进行转译，例如：web://mydomain.com/*#hero_image）。
 
 表面 URI 基本上由多个部分组成：
-1. **类型**：web、ios、android、atm、kiosk、tvcd、service等
+1. **类型**：web、mobileapp、atm、kiosk、tvcd、service等
 1. **属性**：页面URL或应用程序捆绑包
 1. **容器**：页面/应用程序活动上的位置
 
 下表列出了各种设备的一些表面URI定义示例。
 
-**Web和移动**
+### Web和移动
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | 表示网站的单个路径和页面。 |
-| Web | web://domain.com/path/page.html#element | 表示特定域的特定页面中的单个元素。 |
-| Web | web://domain.com/*#element | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
-| iOS 应用程序 | mobileapp://com.vendor.bundle | 表示适用于单个平台的特定移动应用程序 - 在本例中为 iOS 应用程序。 |
-| iOS 应用程序 | mobileapp://com.vendor.bundle/activity | 表示移动应用程序中的特定活动（视图）。 |
-| iOS 应用程序 | mobileapp://com.vendor.bundle/activity#element | 表示活动中的特定元素，如按钮或其他视图元素。 |
-| Android 应用程序 | mobileapp://com.vendor.bundle | 表示适用于单个平台的特定移动应用程序 - 在本例中为 Android 应用程序。 |
+| Web | web://domain.com/path/page.html#element | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer等。 |
+| iOS 应用程序 | mobileapp://com.vendor.bundle/activity#element | 表示本机应用程序活动中的特定元素，例如按钮或其他视图元素。 |
+| Android 应用程序 | mobileapp://com.vendor.bundle#element | 表示本机应用程序中的特定元素。 |
 
-**其他设备类型**
+### 其他设备类型
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
-| 桌面 | desktop://com.vendor.bundle | 表示特定的桌面应用程序。 |
 | 桌面 | desktop://com.vendor.bundle#element | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
-| tvOS 应用程序 | tvos://com.vendor.bundle | 表示特定的 tvOS 应用程序。 |
-| TV 应用程序 | tvcd://com.vendor.bundle | 表示特定智能电视或电视连接设备应用程序 - 捆绑 ID。 |
-| 服务 | service://servicename | 表示服务器端进程或其他手动实体。 |
-| 自助服务终端 | kiosk://location/screen | 易于添加的其他潜在表面类型示例。 |
-| ATM | atm://location/screen | 易于添加的其他潜在表面类型示例。 |
+| TV 应用程序 | tvcd://com.vendor.bundle#element | 表示智能电视或电视连接设备应用程序中的特定元素 — 捆绑ID。 |
+| 服务 | service://servicename#element | 表示服务器端进程或其他手动实体。 |
+| 自助服务终端 | kiosk://location/screen#element | 易于添加的其他潜在表面类型示例。 |
+| ATM | atm://location/screen#element | 易于添加的其他潜在表面类型示例。 |
 
-**通配符曲面**
+### 通配符曲面
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
