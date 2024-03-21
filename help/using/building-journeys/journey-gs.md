@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 15%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 15%
 >id="ajo_homepage_card2"
 >title="创建历程"
 >abstract="借助 **Adobe Journey Optimizer**，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。"
+
+
 
 ## 先决条件{#start-prerequisites}
 
@@ -111,6 +113,8 @@ ht-degree: 15%
 ## 构建历程{#jo-build}
 
 此步骤由 **商业用户**. 这是创建历程的位置。 结合不同的事件、编排和操作活动，构建多步骤跨渠道方案。
+
+➡️ [在视频中发现此功能](journey.md#video)
 
 以下是通过历程发送消息的主要步骤：
 

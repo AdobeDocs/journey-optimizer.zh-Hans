@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -150,7 +150,7 @@ ht-degree: 80%
 
 下表列出了各种设备的一些表面URI定义示例。
 
-### Web和移动
+**Web和移动**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ ht-degree: 80%
 | iOS 应用程序 | mobileapp://com.vendor.bundle/activity#element | 表示本机应用程序活动中的特定元素，例如按钮或其他视图元素。 |
 | Android 应用程序 | mobileapp://com.vendor.bundle#element | 表示本机应用程序中的特定元素。 |
 
-### 其他设备类型
+**其他设备类型**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ ht-degree: 80%
 | 自助服务终端 | kiosk://location/screen#element | 易于添加的其他潜在表面类型示例。 |
 | ATM | atm://location/screen#element | 易于添加的其他潜在表面类型示例。 |
 
-### 通配符曲面
+**通配符曲面**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
