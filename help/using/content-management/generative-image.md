@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用内容助手生成图像
-description: 内容助理入门
+title: 使用AI助手生成图像
+description: AI助手入门
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 10%
+source-wordcount: '346'
+ht-degree: 3%
 
 ---
 
-# 使用内容助手生成图像 {#image-content-assistant}
+# 使用AI助手生成图像 {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
-* [内容助手入门](gs-generative.md)
-* [使用内容助手生成文本](generative-content.md)
-* **[使用内容助手生成图像](generative-image.md)**
+* [AI助手入门](gs-generative.md)
+* [使用AI助手生成文本](generative-content.md)
+* **[使用AI助手生成图像](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-创建电子邮件或网页并使其个性化后，可使用内容助手将您的内容提升到新的水平。 这款强大的工具可让您轻松个性化并增强内容。
+创建电子邮件或网页并使其个性化后，使用Journey Optimizer AI Assistant将您的内容提升到新的水平。 这款强大的工具可让您轻松个性化并增强内容。
 
-在下面的示例中，了解如何使用内容助手更新和改进您的资源以获得更好的用户体验。 执行以下步骤：
+在以下示例中，了解如何使用AI助手更新和改进您的资产，以获得更好的用户体验。 执行以下步骤：
 
 1. 创建和配置消息后，单击 **[!UICONTROL 创建内容]** 并根据需要进行个性化。
 
-1. 选择要使用内容助手更改的资源。
+1. 选择要使用AI助手更改的资源。
 
 1. 从右侧菜单中，选择 **[!UICONTROL 体验生成]**.
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 1. 添加提示以更好地优化结果，然后单击 **[!UICONTROL 生成]**.
 
-   启用 **[!UICONTROL 使用当前内容进行增强]** 内容助手选项，用于根据消息、营销活动名称和选定受众来个性化新资产。
+   启用 **[!UICONTROL 使用当前内容进行增强]** AI助手选项，用于根据消息、营销活动名称和选定的受众来个性化新资产。
 
    ![](assets/gen-ai-image-2.png)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用内容助手生成内容
-description: 内容助理入门
+title: 使用AI助手生成内容
+description: AI助手入门
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# 使用内容助手生成内容 {#title-content-assistant}
+# 使用AI助手生成内容 {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
-* [内容助手入门](gs-generative.md)
-* **[使用内容助手生成内容](generative-content.md)**
-* [使用内容助手生成图像](generative-image.md)
+* [AI助手入门](gs-generative.md)
+* **[使用AI助手生成内容](generative-content.md)**
+* [使用AI助手生成图像](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-创建消息并个性化消息后，使用内容助手将您的内容提升到新的级别。
+创建消息并对消息进行个性化后，使用Journey Optimizer AI Assistant将您的内容提升到新的水平。
 
-利用内容助手，您可以通过试验不同的内容来优化消息的影响。 每个变体都被视为独特的处理，用于衡量和比较哪些内容有效地生成更多点击次数。
+通过利用AI Assistant，您有机会通过尝试不同内容来优化消息的影响。 每个变体都被视为独特的处理，用于衡量和比较哪些内容有效地生成更多点击次数。
 
 在此特定示例中，了解如何使用内容实验发送吸引人的推送通知。 执行以下步骤：
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 
    * **[!UICONTROL 总结]**：使用此选项可缩短文本并保留基本文本。
 
-   * **[!UICONTROL 详细]**：使用此选项可通过内容助手中的其他创意变体展开您的内容。
+   * **[!UICONTROL 详细]**：使用此选项可通过AI助手中的其他创意变体扩展您的内容。
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
    ![](assets/gen-ai-title-4.png)
 
-1. 在个性化 **[!UICONTROL 正文]** 选择推送通知的 **[!UICONTROL 显示内容助手]**.
+1. 在个性化 **[!UICONTROL 正文]** 选择推送通知的 **[!UICONTROL 显示AI助手]**.
 
    此处，变体列表已可使用您的原始内容。
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
 1. 通过描述要生成的内容来优化内容。
 
-   启用 **[!UICONTROL 使用当前内容进行增强]** 内容助手选项，用于根据消息、营销活动名称和选定受众来个性化新内容。
+   启用 **[!UICONTROL 使用当前内容进行增强]** AI助手选项，用于根据消息、营销活动名称和选定的受众来个性化新内容。
 
 1. 单击 **[!UICONTROL 替换]** 要更改您的内容或选择多个 **[!UICONTROL 变量]** 创建 **[!UICONTROL 处理]** （对于试验），然后单击 **添加X处理**.
 
