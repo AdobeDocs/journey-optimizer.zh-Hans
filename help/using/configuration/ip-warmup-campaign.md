@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 16%
+source-wordcount: '409'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 
 本文档指南包括以下内容：
 
-* [IP预热入门](ip-warmup-gs.md)
+* [开始使用 IP 预热计划](ip-warmup-gs.md)
 * **[创建IP预热活动](ip-warmup-campaign.md)**
 * [创建 IP 预热计划](ip-warmup-plan.md)
 * [执行 IP 预热计划](ip-warmup-execution.md)
