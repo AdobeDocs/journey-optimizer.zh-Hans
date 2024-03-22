@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1001'
 ht-degree: 7%
 
 ---
 
 # 创建基于代码的体验 {#create-code-based}
+
+当前位置 [!DNL Journey Optimizer] 您只能在中创建基于代码的体验 **营销活动**.
+
+中详细介绍了护栏和建议 [此页面](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 7%
 ## 创建基于代码的营销活动 {#create-code-based-campaign}
 
 要通过营销活动开始构建基于代码的体验，请执行以下步骤。
-
->[!CAUTION]
->
->当前位置 [!DNL Journey Optimizer] 您只能使用以下方式创建基于代码的体验 **营销活动**.
 
 1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ ht-degree: 7%
 
 1. 选择&#x200B;**[!UICONTROL 创建]**。
 
-1. 完成创建营销策划的步骤，如营销策划属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
+1. 完成创建营销策划的步骤，如营销策划属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule). 有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
 
 1. 使用表达式编辑器根据需要编辑内容。 [了解详情](#edit-code)
 
@@ -100,7 +96,7 @@ ht-degree: 7%
 >title="预览基于代码的体验"
 >abstract="模拟基于代码的体验将看起来是什么样。"
 
-要显示已修改的基于代码的体验的预览，请执行以下步骤。 有关如何选择测试用户档案和预览内容的详细信息，请参阅  [预览和测试内容页面](../content-management/preview-test.md).
+要显示已修改的基于代码的体验的预览，请执行以下步骤。 有关如何选择测试用户档案和预览内容的详细信息，请参阅 [预览和测试内容页面](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

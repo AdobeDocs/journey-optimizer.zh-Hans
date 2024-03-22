@@ -6,18 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 80%
+source-wordcount: '1121'
+ht-degree: 81%
 
 ---
 
 # 开始使用基于代码的渠道 {#get-sarted-code-based}
-
->[!AVAILABILITY]
->
->目前，基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
 [!DNL Journey Optimizer]允许您在所有接触点（如 Web 应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、信息亭、ATM、语音助手、IoT 设备等）上个性化和测试要交付给客户的体验。
 
@@ -25,15 +21,13 @@ ht-degree: 80%
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
->[!CAUTION]
->
->当前位置 [!DNL Journey Optimizer] 您只能使用以下方式创建基于代码的体验 **营销活动**.
-
-当您 [创建活动](../campaigns/create-campaign.md#configure)，选择 **基于代码的体验** 作为您的操作并定义基本设置。
-
 >[!NOTE]
 >
->如果这是您首次创建基于代码的体验，请确保遵循中所述的先决条件 [本节](code-based-prerequisites.md).
+>* 如果这是您首次创建基于代码的体验，请确保遵循中所述的先决条件 [本节](code-based-prerequisites.md).
+>
+>* 当前位置 [!DNL Journey Optimizer] 您只能使用以下方式创建基于代码的体验 **营销活动**.
+>
+>>* 基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 100%
+source-wordcount: '1740'
+ht-degree: 99%
 
 ---
 
@@ -244,8 +244,8 @@ ht-degree: 100%
       + [创作单页应用程序](using/web/web-spa.md)
 + 基于代码的体验 {#code-based-experience}
    + [开始使用基于代码的渠道](using/code-based/get-started-code-based.md)
-   + [基于代码的先决条件](using/code-based/code-based-prerequisites.md)
-   + [基于代码的实施示例](using/code-based/code-based-implementation-samples.md)
+   + [护栏和先决条件](using/code-based/code-based-prerequisites.md)
+   + [实施方法示例](using/code-based/code-based-implementation-samples.md)
    + [创建基于代码的体验](using/code-based/create-code-based.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)

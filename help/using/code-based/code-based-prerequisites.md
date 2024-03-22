@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
 
 ---
 
-# 先决条件和护栏 {#web-prerequisites}
+# 护栏和先决条件 {#web-prerequisites}
 
 能够在中使用基于代码的体验操作 [!DNL Journey Optimizer] 并交付应用程序可以使用的代码内容有效负载，请遵循以下先决条件：
 
 * 要向应用程序添加修改，您需要具有特定的实施。 [了解详情](#implementation-prerequisites)
 
 * 要正确交付基于代码的体验，请确保您详细定义了Adobe Experience Platform设置 [此处](#delivery-prerequisites).
+
 
 ## 警告说明 {#caution-notes-web}
 
