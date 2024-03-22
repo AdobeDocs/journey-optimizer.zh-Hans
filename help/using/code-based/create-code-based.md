@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1005'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 当前位置 [!DNL Journey Optimizer] 您只能在中创建基于代码的体验 **营销活动**.
 
-中详细介绍了护栏和建议 [此页面](code-based-prerequisites.md).
+有关基于代码的体验的特定护栏和建议详情，请参阅 [此页面](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >

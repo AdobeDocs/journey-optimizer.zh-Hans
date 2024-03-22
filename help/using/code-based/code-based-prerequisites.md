@@ -1,14 +1,14 @@
 ---
-title: 基于代码的体验先决条件
+title: 基于代码的体验护栏和先决条件
 description: 要使用Journey Optimizer基于代码的功能编辑应用程序和网页，请遵循此页面上的先决条件
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 3%
 
 ---
@@ -17,18 +17,16 @@ ht-degree: 3%
 
 能够在中使用基于代码的体验操作 [!DNL Journey Optimizer] 并交付应用程序可以使用的代码内容有效负载，请遵循以下先决条件：
 
-* 要向应用程序添加修改，您需要具有特定的实施。 [了解详情](#implementation-prerequisites)
+* 要向应用程序添加修改，您必须具有特定的实施。 [了解详情](#implementation-prerequisites)
 
 * 要正确交付基于代码的体验，请确保您详细定义了Adobe Experience Platform设置 [此处](#delivery-prerequisites).
 
-
-## 警告说明 {#caution-notes-web}
-
-* 当前位置 [!DNL Journey Optimizer] 您只能在中创建基于代码的体验 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->目前，基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
+>* 基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
+>
+>* 您只能在中创建基于代码的体验 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure
+
 
 ## 实施先决条件 {#implementation-prerequisites}
 
