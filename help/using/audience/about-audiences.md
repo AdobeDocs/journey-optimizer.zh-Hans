@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: eb0ba1cfca10aea7dc0c0f8d1243bb8b7e5c0e0f
 workflow-type: tm+mt
 source-wordcount: '1835'
 ht-degree: 20%
@@ -240,3 +240,4 @@ Adobe Experience Platform中提供了有关自定义上传过程的详细信息 
 此外，受众构成受众中的丰富属性与上次构成运行一样新，过去最长可达24小时。
 
 +++
+
