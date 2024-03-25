@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1651'
 ht-degree: 9%
 
 ---
@@ -49,6 +49,11 @@ ht-degree: 9%
 >title="渠道表面设置"
 >abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道表面，用于定义消息所需的全部技术设置。您必须具有“管理消息预设”权限才能创建、编辑和删除渠道表面。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="选择营销操作"
+>abstract="在表面中选择营销操作，以将同意策略与消息关联。"
+
 要创建渠道表面，请执行以下步骤：
 
 1. 访问 **[!UICONTROL 渠道]** > **[!UICONTROL 品牌化]** > **[!UICONTROL 渠道表面]** 菜单，然后单击 **[!UICONTROL 创建渠道表面]**.
@@ -82,6 +87,19 @@ ht-degree: 9%
    >[!NOTE]
    >
    >有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](../sms/sms-configuration.md).
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. 配置完所有参数后，单击 **[!UICONTROL 提交]** 以确认。 也可以将渠道曲面另存为草稿，并稍后恢复其配置。
 
