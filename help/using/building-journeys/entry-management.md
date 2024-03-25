@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,10 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 有两个选项可用于定期读取受众历程：
 
 * **增量读取** 选项：当具有循环的历程时 **读取受众** 首次执行时，受众中的所有用户档案都会进入历程。 利用此选项，可在首次发生后仅定向自上次执行历程以来进入受众的个人。
+
+  >[!NOTE]
+  >
+  >如果您要定位 [自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer) 在您的历程中，仅当在定期历程中启用此选项时，才会在第一次重复时检索用户档案，因为这些受众是固定的。
 
 * **在重复时强制重入**：利用此选项可让历程中仍存在的所有用户档案在下次执行时自动退出历程。 如果配置文件在此历程中的生命周期可能长于重复频率（例如，如果您使用等待活动），请勿激活此选项以确保配置文件可以完成其历程。
 

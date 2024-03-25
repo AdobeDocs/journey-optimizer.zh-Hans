@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 9%
@@ -56,7 +56,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 | AJO 推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  |
 | AJO表面数据集 | 与Journey Optimizer入站表面架构相关的空数据集 |
 | AoutputForUPSDataset | 包含要写回UPS的所有AO受众成员资格 |
-| Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众构成受众、其属性和扩充数据 |
+| Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 |
 | 决策对象存储库 — 活动 | 在用户界面中又称为“决策” 。 但是，这些是用户创建的对象，它们将所有的构建块放在一起，包括决策逻辑。 例如，对于特定投放位置（位置），应考虑哪些优惠（优惠收藏集），以及要对这些优惠使用什么排名方法。 |
 | 决策对象存储库 — 后备优惠 | 这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 |
 | 决策对象存储库 — 个性化优惠 | 这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 | Ultimate |

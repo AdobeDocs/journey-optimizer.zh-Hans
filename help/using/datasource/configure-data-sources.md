@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 数据，源，配置，字段
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 15%
@@ -17,7 +17,6 @@ ht-degree: 15%
 ---
 
 # 配置数据源 {#configure-data-source}
-
 
 >[!NOTE]
 >

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1463'
 ht-degree: 7%
 
 ---
@@ -99,6 +99,10 @@ ht-degree: 7%
 
    **增量读取** 选项：当具有循环的历程时 **读取受众** 首次执行时，受众中的所有用户档案都会进入历程。 利用此选项，可在第一次发生后仅定向自上次执行历程以来进入受众的个人。
 
+       >[！注意]
+       >
+       >如果您在历程中以[自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索用户档案，因为这些受众已修复。
+   
    **在重复时强制重入**：利用此选项可让历程中仍存在的所有用户档案在下次执行时自动退出历程。 例如，如果您在每日循环历程中等待2天，则通过激活此选项，将始终在下一个历程执行时移动用户档案（因此是在后一天），无论它们是否在下一个运行的受众中。 如果此历程中用户档案的生命周期可能长于重复频率，请勿激活此选项以确保用户档案可以完成其历程。
 
 <!--

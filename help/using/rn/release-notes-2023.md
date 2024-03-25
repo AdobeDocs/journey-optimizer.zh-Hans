@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: ht
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+workflow-type: tm+mt
 source-wordcount: '4398'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -426,7 +426,7 @@ A new option is available in the email surface settings to include email address
 
 **受众**
 
-已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。随着受众组合门户的发布，更新了 Adobe Experience Platform 和 Adobe Journey Optimizer 的系统和文档中“受众”和“区段”的使用说明。
+已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。随着受众构成门户的发布，Adobe Experience Platform和Adobe Journey Optimizer更新了系统和文档中“受众”和“区段”的使用。
 
 * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
 * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。
