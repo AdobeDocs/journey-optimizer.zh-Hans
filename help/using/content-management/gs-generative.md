@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI助手入门
+title: 开始使用 AI 助手
 description: 了解如何访问和使用Journey Optimizer的AI助手
 feature: Content Assistant
 topic: Content Management
@@ -14,16 +14,16 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
-# AI助手入门 {#gs-content-assistant}
+# 开始使用 AI 助手 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="创建电子邮件内容"
->abstract="Adobe历程优化器AI助手为文本和图像提供主动内容变体建议。 这可用于电子邮件、推送、短信和 Web 渠道。这项新功能可用于快速的文本和图像生成。"
+>abstract="Adobe Journey Optimier AI 助手为文本和图像提供主动的内容变体建议。这可用于电子邮件、推送、短信和 Web 渠道。这项新功能可用于快速的文本和图像生成。"
 
 >[!BEGINSHADEBOX]
 

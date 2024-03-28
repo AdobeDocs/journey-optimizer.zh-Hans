@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="选择营销操作"
->abstract="在表面中选择营销操作，以将同意策略与消息关联。"
+>abstract="在界面中选择营销操作，以便将同意策略与消息相关联。"
 
 要创建渠道表面，请执行以下步骤：
 
