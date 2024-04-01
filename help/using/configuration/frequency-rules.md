@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 10%
+source-wordcount: '1219'
+ht-degree: 11%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->每日频率上限也可根据需要提供。 [了解详情](#daily-frequency-cap)
+>还可根据需要使用每日频率上限。 [了解详情](#daily-frequency-cap)
 
 频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
 
@@ -127,7 +127,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->处理以下问题时 [批量分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 在中了解有关受众评估方法的更多信息 [本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>要确保每日频率限定规则的准确性，请使用 [流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 在中了解有关受众评估方法的更多信息 [本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## 激活规则 {#activate-rule}
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
+source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1080'
 ht-degree: 84%
 
 ---
@@ -147,15 +147,15 @@ ht-degree: 84%
 | --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html#element | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer等。 |
 | iOS 应用程序 | mobileapp://com.vendor.bundle/activity#element | 表示本机应用程序活动中的特定元素，例如按钮或其他视图元素。 |
-| Android 应用程序 | mobileapp://com.vendor.bundle#element | 表示本机应用程序中的特定元素。 |
+| Android 应用程序 | mobileapp://com.vendor.bundle/#element | 表示本机应用程序中的特定元素。 |
 
 **其他设备类型**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
-| 桌面 | desktop://com.vendor.bundle#element | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
-| TV 应用程序 | tvcd://com.vendor.bundle#element | 表示智能电视或电视连接设备应用程序中的特定元素 — 捆绑ID。 |
-| 服务 | service://servicename#element | 表示服务器端进程或其他手动实体。 |
+| 桌面 | desktop://com.vendor.bundle/#element | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
+| TV 应用程序 | tvcd://com.vendor.bundle/#element | 表示智能电视或电视连接设备应用程序中的特定元素 — 捆绑ID。 |
+| 服务 | service://servicename/#element | 表示服务器端进程或其他手动实体。 |
 | 自助服务终端 | kiosk://location/screen#element | 易于添加的其他潜在表面类型示例。 |
 | ATM | atm://location/screen#element | 易于添加的其他潜在表面类型示例。 |
 
@@ -163,7 +163,5 @@ ht-degree: 84%
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
-| 通配符Web | 通配符:web://domain.com/`*`#element | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
-| 通配符Web | 通配符:web://`*`domain.com/`*`#element | 通配符表面 — 表示所有以“domain.com”结尾的域下的每个页面中的单个元素。 |
-
-
+| 通配符Web | `wildcard:web://domain.com/*#element` | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
+| 通配符Web | `wildcard:web://*domain.com/*#element` | 通配符表面 — 表示所有以“domain.com”结尾的域下的每个页面中的单个元素。 |
