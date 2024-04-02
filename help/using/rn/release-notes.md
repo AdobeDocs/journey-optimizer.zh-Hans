@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 99%
@@ -49,7 +49,7 @@ ht-degree: 99%
 <li>粒度级编辑精度：在应用程序或 Web 内的各个位置编辑特定内容</li>
 <li>通用实施：支持服务器端、基于 API 或基于 SDK 的实施方法，以便与开发环境无缝集成。</li></ul></p>
 <p>有关更多信息，请参阅<a href="../code-based/get-started-code-based.md">详细文档</a>。</p>
-<img src="assets/do-not-localize/code-based.gif">
+<img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ ht-degree: 99%
 <td>
 <p>除了电子邮件之外，内容模板现在还可用于以下渠道：推送、应用程序内、短信和直邮，每个渠道都具有专用的模板类型。对于电子邮件，您现在可以选择内容类型，这允许您将主题行保存为电子邮件模板的一部分。 <br/><br/></p>
 <p>有关更多信息，请参阅<a href="../content-management/content-templates.md">详细文档</a>。<br></br></p>
-<img src="assets/do-not-localize/multi-chan-templates.gif">
+<img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
 </table>
