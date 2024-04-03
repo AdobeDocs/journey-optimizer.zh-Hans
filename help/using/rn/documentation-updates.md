@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5073'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,25 +21,25 @@ ht-degree: 95%
 
 ## 2024 年 3 月 {#march-2024}
 
-* 添加了“常见问题解答”部分，以解决有关在Journey Optimizer中使用受众构成和自定义上传受众的常见问题。 [了解详情](../audience/about-audiences.md#faq)
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年3月版。 [了解详情](release-notes.md)
-* 用户档案入口管理页面已得到改进。 [了解详情](../building-journeys/entry-management.md)
-* 已将疑难解答信息添加到“警报”页面。 [了解详情](../reports/alerts.md#alert-troubleshooting)
-* 旅程报告页面中添加了有关等待活动的信息。 [了解详情](../reports/sharing-overview.md)
-* 对于处于测试模式的历程，已禁用以下快捷键：
+* 添加了“常见问题解答”部分，以解决有关在 Journey Optimizer 中使用受众构成和自定义上传受众的常见问题。[了解详情](../audience/about-audiences.md#faq)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 3 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 改进了用户档案进入管理页面进行。[了解详情](../building-journeys/entry-management.md)
+* 在“警报”页面中添加了疑难解答信息。[了解详情](../reports/alerts.md#alert-troubleshooting)
+* 在历程报告页面中添加了有关等待活动的信息。[了解详情](../reports/sharing-overview.md)
+* 对于处于测试模式的历程，禁用了以下快捷键：
    * T：用于打开或关闭测试模式的快捷方式。
-   * E：用于触发基于事件的历程中的事件的快捷方式。
-   * P：在基于受众的历程中触发事件的快捷方式，其中一次单个配置文件选项处于打开状态。
+   * E：用于在基于事件的历程中触发事件的快捷方式。
+   * P：在基于受众的历程中触发事件的快捷方式，其中“一次单个用户档案”选项处于打开状态。
    * L：指定用于显示测试日志的快捷方式。
 * 更新了消息频率规则页面，除了每周或每月频率上限外，还可根据需要使用新增的每日频率上限功能。[了解详情](../configuration/frequency-rules.md#daily-frequency-cap)
 * 改进并更新了同意策略页面，提供了指向 Experience Platform 文档的实用链接。[了解详情](../action/consent.md)
-* 添加了新章节，以反映您可以在网格视图模式（有限可用性）下将HTML电子邮件内容模板显示为缩略图这一事实。 [了解详情](../content-management/content-templates.md#template-thumbnails)
-* 在“投放能力”页面中新增了一个部分，以说明反馈循环是什么以及如何利用它们。 [了解详情](../reports/deliverability.md#feedback-loops)
-* 在“创建个性化优惠”部分中添加了注释，以指定优惠及其所有呈现的大小不能超过300 KB。 [了解详情](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* 添加了一个新的部分，介绍了您可以在网格视图模式（限量发布）下将 HTML 电子邮件内容模板显示为缩略图的操作。[了解详情](../content-management/content-templates.md#template-thumbnails)
+* 在“可投放性”页面中新增了一个部分，以说明反馈循环是什么以及如何加以利用。[了解详情](../reports/deliverability.md#feedback-loops)
+* 在“创建个性化优惠”部分中添加了注释，以指定优惠及其所有呈现的大小不能超过 300 KB。[了解详情](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## 2024 年 2 月 {#feb-2024}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年2月版。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 2 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * Journey Optimizer + Workfront 集成已添加到集成页面。[了解详情](../start/ajo-integrations.md)
 * 添加了有关如何根据上下文数据个性化优惠呈现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
 * 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持 JSON 格式。[了解详情](../start/guardrails.md#custom-actions-g)

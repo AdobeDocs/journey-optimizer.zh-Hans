@@ -10,9 +10,9 @@ level: Experienced
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 ## 重要说明 {#important-notes}
 
-* 数据治理仅适用于历程中的自定义操作。不支持Campaign v7/v8和Campaign Standard操作。
+* 数据治理仅适用于历程中的自定义操作。不支持 Campaign v7/v8 和 Campaign Standard 操作。
 * 仅在自定义操作级别设置营销操作（必需或附加）时，治理策略才适用。
 
 ## 定义治理策略 {#governance-policies}

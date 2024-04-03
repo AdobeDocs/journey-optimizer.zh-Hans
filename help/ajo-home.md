@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 >[!BEGINTABS]
 
->[!TAB 3月版已上线！]
+>[!TAB 3 月版本已上线！]
 
 了解 Adobe Journey Optimizer 24.3 版的新增功能和改进。
 
@@ -28,7 +28,7 @@ ht-degree: 84%
 
 >[!TAB 基于代码的体验]
 
-借助新的基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站资产进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。
+借助新的基于代码的体验渠道，Adobe Journey Optimizer 允许您对任何入站属性进行高级个性化和测试，从而向不同的接触点无缝投放定制化体验，如 Web 应用程序、移动应用程序、桌面应用程序、视频游戏机、电视连接设备、智能电视、网亭、ATM、物联网设备等。
 
 ![](using/rn/assets/do-not-localize/code-based.gif)
 

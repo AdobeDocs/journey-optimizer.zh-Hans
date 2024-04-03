@@ -10,9 +10,9 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 87%
     
     To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
 
-在历程级别，您可以将同意策略应用到自定义操作：
+在历程级别，您可以将这些同意策略应用于自定义操作。
 
 * 在&#x200B;**配置自定义操作**&#x200B;时，您可以定义渠道和营销操作。[了解详情](#consent-custom-action)
 * 在添加&#x200B;**历程中的自定义操作**&#x200B;时，您可以定义其他营销操作。[了解详情](#consent-journey)
@@ -87,7 +87,7 @@ Therefore, in this example, any [email](../email/create-email.md) using that sur
 
 ### 重要说明 {#important-notes}
 
-在Journey Optimizer中，同意可以 <!--also -->在自定义操作中利用。 如果要将其与内置消息功能一起使用，您需要使用条件活动来筛选历程中的客户。
+在 Journey Optimizer 中，可以<!--also -->在自定义操作中利用同意策略。如果要将其与内置消息功能一起使用，您需要使用条件活动来筛选历程中的客户。
 
 使用同意管理功能时，会分析两个历程活动：
 
@@ -118,11 +118,11 @@ There are two types of latency regarding the use of consent policies:
 
 配置自定义操作时，可使用两个字段进行同意管理。
 
-使用&#x200B;**渠道**&#x200B;字段，可选择与此自定义操作相关的渠道：**电子邮件**、**短信**&#x200B;或&#x200B;**推送通知**。它会预填充 **必需的营销操作** 字段，其中包含所选渠道的默认营销操作。 如果您选择 **其他**，默认情况下未定义营销操作。
+使用&#x200B;**渠道**&#x200B;字段，可选择与此自定义操作相关的渠道：**电子邮件**、**短信**&#x200B;或&#x200B;**推送通知**。所选渠道的&#x200B;**必需的营销操作**&#x200B;字段会预填充默认营销操作。如选择&#x200B;**其他**，则默认不会定义营销操作。
 
 ![](assets/consent1.png)
 
-使用&#x200B;**必需的营销操作**&#x200B;字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择&#x200B;**电子邮件定位**。在历程中使用时，将检索并利用与该营销操作关联的所有同意策略。 系统会选择默认营销操作，但您可以单击向下箭头，从列表中选择任何可用的营销操作。
+使用&#x200B;**必需的营销操作**&#x200B;字段，可定义与自定义操作相关的营销操作。例如，如果您使用该自定义操作发送电子邮件，则可以选择&#x200B;**电子邮件定位**。在历程中使用时，会检索和利用与该营销操作关联的所有同意策略。系统会选择默认营销操作，但您可以单击向下箭头，从列表中选择任何可用的营销操作。
 
 ![](assets/consent2.png)
 
@@ -153,7 +153,7 @@ There are two types of latency regarding the use of consent policies:
 
 ![](assets/consent4.png)
 
-您可以定义&#x200B;**其他营销操作**&#x200B;以设置自定义操作类型。这允许您定义此历程中自定义操作的用途。除了必需的营销操作（通常特定于渠道）之外，您还可以定义附加营销操作，该操作特定于此历程中的自定义操作。 例如：训练通信、新闻稿、健身通信等。所需的营销操作和附加营销操作均适用。
+您可以定义&#x200B;**其他营销操作**&#x200B;以设置自定义操作类型。这允许您定义此历程中自定义操作的用途。除了必需的营销操作（通常特定于渠道）之外，您还可以定义附加营销操作，该操作特定于此历程中的自定义操作。例如：训练通信、新闻稿、健身通信等。必需的营销操作和附加营销操作都适用。
 
 ![](assets/consent3.png)
 
