@@ -9,11 +9,11 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# 开始使用基于代码的渠道 {#get-sarted-code-based}
+# 基于代码的渠道快速入门 {#get-sarted-code-based}
 
 [!DNL Journey Optimizer]允许您在所有接触点（如 Web 应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、信息亭、ATM、语音助手、IoT 设备等）上个性化和测试要交付给客户的体验。
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->有关基于代码的体验的特定护栏和建议详情，请参阅 [此页面](code-based-prerequisites.md).
+>要详细了解有关基于代码的体验的特定护栏和建议，请参阅[此页面](code-based-prerequisites.md)。
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -135,33 +135,33 @@ ht-degree: 85%
 * 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主图像位置可以在表面 URI 中进行转译，例如：web://mydomain.com/*#hero_image）。
 
 表面 URI 基本上由多个部分组成：
-1. **类型**：web、mobileapp、atm、kiosk、tvcd、service等
-1. **属性**：页面URL或应用程序捆绑包
+1. **类型**：web、mobileapp、atm、kiosk、tvcd、service 等。
+1. **属性**：页面 URL 或应用程序捆绑包
 1. **容器**：页面/应用程序活动上的位置
 
-下表列出了各种设备的一些表面URI定义示例。
+下表列出了各种设备的一些表面 URI 定义示例。
 
-**Web和移动**
+**Web 和移动**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer等。 |
-| iOS 应用程序 | `mobileapp://com.vendor.bundle/activity#element` | 表示本机应用程序活动中的特定元素，例如按钮或其他视图元素。 |
-| Android 应用程序 | `mobileapp://com.vendor.bundle/#element` | 表示本机应用程序中的特定元素。 |
+| Web | `web://domain.com/path/page.html#element` | 表示特定域的特定页面中的单个元素，其中元素可以是标签，如以下示例中的标签：hero_banner、top_nav、menu、footer 等。 |
+| iOS 应用程序 | `mobileapp://com.vendor.bundle/activity#element` | 表示原生应用程序活动中的特定元素，如按钮或其他视图元素。 |
+| Android 应用程序 | `mobileapp://com.vendor.bundle/#element` | 表示原生应用程序中的特定元素。 |
 
 **其他设备类型**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
 | 桌面 | `desktop://com.vendor.bundle/#element` | 表示应用程序中的特定元素，如按钮、菜单、主横幅等。 |
-| TV 应用程序 | `tvcd://com.vendor.bundle/#element` | 表示智能电视或电视连接设备应用程序中的特定元素 — 捆绑ID。 |
+| TV 应用程序 | `tvcd://com.vendor.bundle/#element` | 表示智能电视或电视连接设备应用程序中的特定元素 - 捆绑 ID。 |
 | 服务 | `service://servicename/#element` | 表示服务器端进程或其他手动实体。 |
 | 自助服务终端 | `kiosk://location/screen#element` | 易于添加的其他潜在表面类型示例。 |
 | ATM | `atm://location/screen#element` | 易于添加的其他潜在表面类型示例。 |
 
-**通配符曲面**
+**通配符表面**
 
 | 类型 | URI | 描述 |
 | --------- | ----------- | ------- | 
-| 通配符Web | `wildcard:web://domain.com/*#element` | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
-| 通配符Web | `wildcard:web://*domain.com/*#element` | 通配符表面 — 表示所有以“domain.com”结尾的域下的每个页面中的单个元素。 |
+| 通配符 Web | `wildcard:web://domain.com/*#element` | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
+| 通配符 Web | `wildcard:web://*domain.com/*#element` | 通配符表面 - 表示以“domain.com”结尾的所有域下每个页面中的单个元素。 |

@@ -244,7 +244,7 @@ ht-degree: 99%
       + [监测 Web 活动](using/web/monitor-web-campaigns.md)
       + [创作单页应用程序](using/web/web-spa.md)
 + 基于代码的体验 {#code-based-experience}
-   + [开始使用基于代码的渠道](using/code-based/get-started-code-based.md)
+   + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
    + [护栏和先决条件](using/code-based/code-based-prerequisites.md)
    + [实施方法示例](using/code-based/code-based-implementation-samples.md)
    + [创建基于代码的体验](using/code-based/create-code-based.md)

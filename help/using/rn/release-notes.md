@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 99%
 * **正在停止**&#x200B;状态介于&#x200B;**实时**&#x200B;状态和&#x200B;**已停止**&#x200B;状态
 * **激活测试模式**&#x200B;或&#x200B;**停用测试模式**&#x200B;状态介于&#x200B;**草稿**&#x200B;状态和&#x200B;**草稿（测试）**&#x200B;状态
 
-当历程处于中间状态时，它是只读的。 [了解详情](../building-journeys/journey-gs.md#filter)
+当历程处于中间状态时，只可读取。[了解详情](../building-journeys/journey-gs.md#filter)
 
 ## 2024 年 2 月发行说明 {#feb-2024}
 
