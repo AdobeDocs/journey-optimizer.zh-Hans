@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
-workflow-type: ht
-source-wordcount: '5073'
-ht-degree: 100%
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
+workflow-type: tm+mt
+source-wordcount: '5101'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+## 2024 年 4 月 {#april-2024}
+
+* 在决策管理文档中添加了有关Edge Decisioning API使用频率上限时边缘和中心区域管理的信息。 [了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2024 年 3 月 {#march-2024}
 
