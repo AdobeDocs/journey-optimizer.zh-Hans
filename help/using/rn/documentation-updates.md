@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5101'
+source-wordcount: '5123'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,10 @@ ht-degree: 99%
 
 ## 2024 年 4 月 {#april-2024}
 
+* 详细介绍了应用程序内消息传递的配置步骤。 [了解详情](../in-app/inapp-configuration.md)
+* 文档 [OFFER DECISIONINGAPI](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和 [批量决策API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 已更新。
 * 在决策管理文档中添加了有关Edge Decisioning API使用频率上限时边缘和中心区域管理的信息。 [了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## 2024 年 3 月 {#march-2024}
 
