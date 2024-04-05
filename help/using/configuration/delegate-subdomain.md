@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1816'
 ht-degree: 21%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->默认情况下， [!DNL Journey Optimizer] 许可合同允许您委派最多10个子域。 如果您希望增加此限制，请联系您的Adobe联系人。
+>默认情况下， [!DNL Journey Optimizer] 允许您委派最多10个子域。 但是，根据您的许可合同，您最多可以委派100个子域。 请联系您的Adobe联系人，以了解有关您有权使用的子域数量的更多信息。
 
 您可以完全委派子域，或使用CNAME创建子域以指向特定于Adobe的记录。
 

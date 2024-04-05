@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 21%
+source-wordcount: '894'
+ht-degree: 20%
 
 ---
 
@@ -105,6 +105,10 @@ ht-degree: 21%
 
 要配置新子域，请执行以下步骤。
 
+>[!NOTE]
+>
+>默认情况下， [!DNL Journey Optimizer] 允许您总共委派最多10个子域（包括电子邮件和Web渠道）。 但是，根据您的许可合同，您最多可以委派100个子域。 请联系您的Adobe联系人，以了解有关您有权使用的子域数量的更多信息。
+
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**.
 
 1. 单击 **[!UICONTROL 设置子域]**.
@@ -152,7 +156,6 @@ ht-degree: 21%
 1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它随时可用于创建Web渠道界面。
 
    请注意，该子域将标记为 **[!UICONTROL 失败]** 如果您无法在托管解决方案上创建验证记录。
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

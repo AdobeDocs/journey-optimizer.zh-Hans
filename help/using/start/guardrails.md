@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 无法使用 [!DNL Journey Optimizer] 向电子邮件添加附件。
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送消息。
 
-
 ## 登陆页面护栏 {#lp-guardrails}
 
 * 在单个主页面中只能使用一个&#x200B;**表单**&#x200B;组件。
@@ -46,6 +45,12 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 可以通过支持的 URL 加入 MMS 的媒体文件。请确保单独上传媒体文件。
 * 消息反馈同步当前不适用于 MMS。
 * 同意管理在 MMS 的短信渠道级别运行。
+
+## 子域护栏 {#subdomain-guardrails}
+
+默认情况下， [!DNL Journey Optimizer] 允许您总共委派最多10个子域（包括电子邮件和Web渠道）。
+
+但是，根据您的许可合同，您最多可以委派100个子域。 请联系您的Adobe联系人，以了解有关您有权使用的子域数量的更多信息。
 
 ## 片段护栏 {#fragments-guardrails}
 
