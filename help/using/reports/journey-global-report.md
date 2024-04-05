@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4368'
-ht-degree: 27%
+source-wordcount: '4412'
+ht-degree: 26%
 
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 27%
 ![](assets/journey_performance.png)
 
 此 **[!UICONTROL 历程性能]** 利用小组件，可在目标用户档案浏览您的历程时直观地跟踪其轨迹。
+
+请注意，节点的配置文件计数仅在配置文件完成节点后更新，而不是在输入节点后更新。 例如，用户档案位于 **等待** 只有在达到指定的日期并且配置文件退出节点后，才会计算节点。
 
 ### 历程统计 {#journey-statistics}
 
