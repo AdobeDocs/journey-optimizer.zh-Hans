@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bb7b79286514dcc6931f7ba8dbf2542076d754fe
+source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -127,7 +127,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `@id` | 决策管理生成的UUID，用于标识单个工作负载。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 组织ID。 | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 容器ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 创建决策工作负载请求的时间。 | `1648078924834` |
 | `ode:status` | 工作负载的状态。 | `ode:status: "QUEUED"` |
 
@@ -174,7 +173,6 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 | -------- | ----------- | ------- |
 | `@id` | 决策管理生成的UUID，用于标识单个工作负载。 | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | 组织ID | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | 容器ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | 创建决策工作负载请求的时间。 | `1648076994405` |
 | `ode:status` | 工作负载的状态以“已排队”开始，并更改为“正在处理”、“正在摄取”、“已完成”或“错误”。 | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | 这将显示更多详细信息，例如，如果状态为“PROCESSING”或“INGESTING”，则显示sparkJobId和batchID。 如果状态为“ERROR”，则显示错误详细信息。 |  |
