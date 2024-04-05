@@ -1,19 +1,29 @@
 ---
-title: 应用程序内渠道先决条件
+title: 应用程序内渠道先决条件和配置
 description: 了解如何配置环境以使用Journey Optimizer发送应用程序内消息
 role: Admin
 feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 6%
+source-wordcount: '819'
+ht-degree: 10%
 
 ---
 
-# 应用程序内渠道先决条件 {#inapp-configuration}
+# 先决条件和配置 {#inapp-configuration}
+
+能够在中发送应用程序内消息历程和营销活动 [!DNL Journey Optimizer]中，您需要完成以下配置步骤。
+
+1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. 在Adobe Experience Platform数据收集数据流中启用Adobe Journey Optimizer，并在Adobe Experience Platform中检查默认合并策略，如中所述 [投放先决条件](#delivery-prerequisites) 下。
+1. 在Adobe Experience Platform数据收集中创建并配置应用程序表面，如中所述 [本节](#channel-prerequisites). 必须授予特定权限才能访问 **应用程序表面** Adobe Experience Platform数据收集中的菜单。 在[本视频](#video)中了解详情。
+1. 如果您使用内容实验，请确保遵循中列出的要求 [本节](#experiment-prerequisite).
+
+完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
+
 
 ## 投放先决条件 {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ ht-degree: 6%
 
 ## 操作说明视频{#video}
 
-* 以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
+以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
 
-  +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **相关主题：**
 

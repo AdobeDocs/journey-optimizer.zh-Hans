@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->目前，应用程序内渠道不适用于已购买 Adobe **Health Shield** 和 **Privacy and Security Shield** 附加产品的组织。
+>应用程序内渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
-## 先决条件{#prerequisites-in-app}
-
-在发送应用程序内消息之前，您需要：
-
-* 配置应用程序内渠道。[了解详情](inapp-configuration.md)
-
-* 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="验证" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>配置应用程序内渠道</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="潜在客户" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ ht-degree: 100%
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>访问应用程序内报告</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="验证" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>配置应用程序内渠道</strong></a>
 </div>
 <p>
 </td>
