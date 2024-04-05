@@ -24,7 +24,7 @@ ht-degree: 23%
 
 收藏集限定符也可用于将优惠分组到优惠收藏集中。 请参阅 [创建收藏集](../offer-library/creating-collections.md).
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在视频中了解此功能](#video)
 
 创建的集合限定符列表可在 **[!UICONTROL 组件]** 菜单。
 

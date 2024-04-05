@@ -222,7 +222,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 此 **[!UICONTROL 电子邮件 — 最佳收件人域]** 图表和表格提供了过去24小时内用户档案打开电子邮件最常用域的彻底细分。 这提供了有关用户档案行为的宝贵见解，可帮助您了解首选平台。
 
-### 电子邮件 — 优惠 {#email-offers}
+### 电子邮件 - 优惠 {#email-offers}
 
 >[!NOTE]
 >

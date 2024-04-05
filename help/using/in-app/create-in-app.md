@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 12%
       | 核心跟踪 | 跟踪操作 | 当移动代码API中提供旧版功能时触发 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 称为。 |
       | 核心跟踪 | 跟踪状态 | 当移动代码API中提供旧版功能时触发 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 称为。 |
       | 核心跟踪 | 收集PII | 当移动代码API中提供旧版功能时触发 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 称为。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入后台时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
@@ -157,11 +157,11 @@ ht-degree: 12%
       | 核心跟踪 | 跟踪操作 | 当移动代码API中提供旧版功能时触发 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 称为。 |
       | 核心跟踪 | 跟踪状态 | 当移动代码API中提供旧版功能时触发 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 称为。 |
       | 核心跟踪 | 收集PII | 当移动代码API中提供旧版功能时触发 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 称为。 |
-      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。 |
+      | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序关闭 | 在应用程序关闭时触发。 |
-      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入后台时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
+      | 应用程序生命周期 | 应用程序崩溃 | 当应用程序在关闭前未转入背景时触发。当应用程序在崩溃后启动时会发送该事件。 Adobe Mobile 崩溃报告不实施全局未捕获异常处理程序。 |
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 

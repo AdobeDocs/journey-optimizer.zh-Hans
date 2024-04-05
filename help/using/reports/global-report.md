@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 
 您的信息板现已保存。 您的不同更改将重新应用以供以后使用实时报告。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认构件和构件顺序的选项。
 
-## 导出报告 {#export-reports}
+## 导出您的报告 {#export-reports}
 
 您可以轻松地将不同的报表导出为PDF或CSV格式，以便您共享或打印它们。 导出报告的步骤详见以下选项卡。
 
-➡️ [在视频中发现此功能](#video-csv)
+➡️ [在视频中了解此功能](#video-csv)
 
 
 >[!BEGINTABS]

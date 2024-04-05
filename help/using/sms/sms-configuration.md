@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
 source-wordcount: '1676'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立
 
 >[!CAUTION]
 >
->要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 要了解有关权限的更多信息，请参阅 [此页面](../administration/high-low-permissions.md#administration-permissions).
+>要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 可在[此页面](../administration/high-low-permissions.md#administration-permissions)中详细了解权限。
 >
 
 ## 创建新 API 凭据 {#create-api}

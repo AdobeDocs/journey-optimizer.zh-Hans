@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在管理角色的权限之前，您将首先需要创建策略。 有关详细信息，请参见 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+>在管理角色的权限之前，您将首先需要创建策略。 有关详细信息，请参见 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hans).
 
 **[!UICONTROL 角色]** 是组织内共享相同权限、标签和沙盒的一组用户。 每个用户属于一个 **[!UICONTROL 角色]** 有权使用产品中包含的Adobe应用程序和服务。
 您还可以创建自己的 **[!UICONTROL 角色]** 如果您想微调用户对于界面中特定功能或对象的访问权限。

@@ -12,7 +12,7 @@ exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 68%
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 68%
 * [自定义等待定义](../building-journeys/wait-activity.md#custom)
 * [时区定义](../building-journeys/timezone-management.md)
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在视频中了解此功能](#video)
 
 如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的历程由一个事件组成，后跟一个只使用事件数据的渠道操作活动，则无需配置数据源。
 

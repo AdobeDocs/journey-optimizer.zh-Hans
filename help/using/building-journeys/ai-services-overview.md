@@ -7,10 +7,11 @@ feature: Journeys, Integrations
 role: User
 level: Intermediate
 keywords: 人工，人工智能，智能，旅程，服务
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 20da09e1-0611-4d27-a589-30552011e06c
+source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -29,4 +30,3 @@ ht-degree: 12%
 因此，它们可以用作Journey Optimizer条件（用于做出最佳决策）、操作或区段构建中的任何其他配置文件属性。
 
 ![](assets/customer-ai.png)
-

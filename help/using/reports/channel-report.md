@@ -39,7 +39,7 @@ ht-degree: 27%
 * [Web](#web)
 * [直邮](#direct-mail)
 
-➡️ [在视频中发现此功能](#channel-report-video)
+➡️ [在视频中了解此功能](#channel-report-video)
 
 ## 电子邮件 {#email}
 

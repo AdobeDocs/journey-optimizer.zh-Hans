@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 许可证使用情况仪表板
+title: 许可证用量仪表板
 description: 了解Journey Optimizer许可证使用情况仪表板
 feature: Audiences, Profiles
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 ---
 
-# 许可证使用情况仪表板 {#license-usage}
+# 许可证用量仪表板 {#license-usage}
 
 此 [!DNL Adobe Journey Optimizer] [用户界面](../start/user-interface.md) 提供了一个功能板，用于显示有关您组织的许可证使用情况的重要信息，如在每日快照期间捕获的信息。
 

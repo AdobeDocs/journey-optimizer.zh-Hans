@@ -63,7 +63,7 @@ ht-degree: 7%
 
 1. 如果您要创建 **[!UICONTROL 个性化优化]** AI模型，选择要用于训练AI模型的区段。
 
-   ➡️ [在视频中发现此功能](#video)
+   ➡️ [在视频中了解此功能](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

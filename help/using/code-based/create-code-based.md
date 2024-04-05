@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 当前位置 [!DNL Journey Optimizer] 您只能在中创建基于代码的体验 **营销活动**.
 
-有关基于代码的体验的特定护栏和建议详情，请参阅 [此页面](code-based-prerequisites.md).
+要详细了解有关基于代码的体验的特定护栏和建议，请参阅[此页面](code-based-prerequisites.md)。
 
 ## 创建基于代码的营销活动 {#create-code-based-campaign}
 

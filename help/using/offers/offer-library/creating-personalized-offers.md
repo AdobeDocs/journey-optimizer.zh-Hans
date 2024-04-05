@@ -21,7 +21,7 @@ ht-degree: 10%
 * 如果要添加资格条件：a **决策规则** 列明优惠之呈列条件。 请参阅 [创建决策规则](../offer-library/creating-decision-rules.md).
 * 一个或多个 **收藏集限定符** （以前称为“标记”）来关联选件。 请参阅 [创建收藏集限定符](../offer-library/creating-tags.md).
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在视频中了解此功能](#video)
 
 个性化优惠的列表可在 **[!UICONTROL 选件]** 菜单。
 

@@ -14,7 +14,7 @@ exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 3%
 
 **目录**
 
-* [AI助手入门](gs-generative.md)
+* [AI 助手入门](gs-generative.md)
 * **[使用AI助手生成内容](generative-content.md)**
-* [使用AI助手生成图像](generative-image.md)
+* [使用 AI 助手生成图像](generative-image.md)
 
 >[!ENDSHADEBOX]
 

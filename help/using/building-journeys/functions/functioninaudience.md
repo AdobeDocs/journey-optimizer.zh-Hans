@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: inAudience
+title: 受众内
 description: 了解inAudience中的函数
 feature: Journeys
 role: Data Engineer, Architect
@@ -10,11 +10,11 @@ exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# inAudience {#inAudience}
+# 受众内 {#inAudience}
 
 检查个人是否属于给定受众。
 

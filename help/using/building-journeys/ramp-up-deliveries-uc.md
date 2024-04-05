@@ -24,13 +24,13 @@ ht-degree: 2%
 
 此用例的目的是创建历程以加快电子邮件投放。 要配置此历程，请执行以下步骤：
 
-1. 创建旅程。 [了解更多信息](journey-gs.md)。
+1. 创建旅程。 [了解详情](journey-gs.md)。
 
-1. 添加 **[!UICONTROL 条件]** 历程的活动。 [了解更多信息](condition-activity.md)。
+1. 添加 **[!UICONTROL 条件]** 历程的活动。 [了解详情](condition-activity.md)。
 
 1. 在 **[!UICONTROL 条件]** 活动设置，设置投放的最大收件人数：
 
-   1. 在 **[!UICONTROL 条件]** 活动设置，设置 **[!UICONTROL 类型]** 字段至 **[!UICONTROL 配置文件上限]**. [了解更多信息](condition-activity.md#profile_cap)。
+   1. 在 **[!UICONTROL 条件]** 活动设置，设置 **[!UICONTROL 类型]** 字段至 **[!UICONTROL 配置文件上限]**. [了解详情](condition-activity.md#profile_cap)。
 
    1. 设置 **[!UICONTROL 限制]** 字段为此投放的最大收件人数。
 

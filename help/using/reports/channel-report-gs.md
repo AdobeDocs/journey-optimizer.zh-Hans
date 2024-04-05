@@ -11,7 +11,7 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
    ![](assets/channel_report_4.png)
 
-## 导出报告 {#export-reports}
+## 导出您的报告 {#export-reports}
 
 您可以轻松地将不同的报表导出为PDF或CSV格式，这使您能够共享、处理或打印这些报表。 导出渠道报表的详细步骤可在以下选项卡中找到：
 

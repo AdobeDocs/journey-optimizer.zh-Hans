@@ -22,7 +22,7 @@ ht-degree: 14%
 >id="ajo_code_based_decision"
 >title="决策是什么？"
 >abstract="决策策略利用体验决策引擎根据受众选取最适合投放的内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="关于体验决策"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="关于体验决策"
 
 >[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
 
@@ -56,8 +56,8 @@ ht-degree: 14%
 >id="ajo_code_based_strategy"
 >title="策略是什么？"
 >abstract="选择策略的顺序决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="创建策略"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="评估顺序"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="创建策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="评估顺序"
 
 要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请向基于代码的营销活动添加决策策略。 要实现此目的，请执行以下步骤。
 

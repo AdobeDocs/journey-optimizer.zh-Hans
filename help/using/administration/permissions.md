@@ -125,4 +125,4 @@ ht-degree: 4%
 
 您的 **[!UICONTROL 角色]** 现已创建并配置。 您现在需要将其分配给用户。
 
-有关角色创建与管理的详细信息，请参阅 [Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+有关角色创建与管理的详细信息，请参阅 [Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans).

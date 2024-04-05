@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 处理历程事件
+title: 使用历程事件
 description: 了解如何使用历程中的事件
 feature: Journeys, Events
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 56%
 
 ---
 
-# 处理历程事件 {#about-events}
+# 使用历程事件 {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
@@ -42,7 +42,7 @@ ht-degree: 56%
 
 单一历程（以事件或受众鉴别开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，重新访问用户档案会被暂时阻止 5 分钟。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在视频中了解此功能](#video)
 
 ## 事件ID类型{#event-id-type}
 

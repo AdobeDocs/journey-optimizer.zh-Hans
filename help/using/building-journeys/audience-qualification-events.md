@@ -31,7 +31,7 @@ ht-degree: 24%
 
 此类事件可定位为历程的第一步或后续步骤。
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在视频中了解此功能](#video)
 
 ### 重要说明{#important-notes-segment-qualification}
 

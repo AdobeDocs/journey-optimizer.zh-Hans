@@ -28,7 +28,7 @@ ht-degree: 11%
 >
 >消息频率规则与选择退出管理不同，后者允许用户取消订阅以停止接收来自品牌的通信。 [了解详情](../privacy/opt-out.md#opt-out-management)
 
-➡️ [在视频中发现此功能](#video)
+➡️ [在视频中了解此功能](#video)
 
 ## 访问规则 {#access-rules}
 
