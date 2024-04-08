@@ -11,7 +11,8 @@ keywords: 设置，电子邮件，配置，子域
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
+source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -81,7 +82,7 @@ ht-degree: 0%
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
 1. 定义所有其他项 [电子邮件设置](email-settings.md) 和 [提交](../configuration/channel-surfaces.md#create-channel-surface) 你的表面。
 
@@ -154,7 +155,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
    ![](assets/campaign-view-surface-details.png)
 
-1. 此 **[!UICONTROL 投放设置]** 窗口随即显示。 您可以查看所有表面设置，包括动态子域和个性化标题参数。
+1. 此 **[!UICONTROL 投放设置]** 窗口随即显示。 您可以查看所有表面设置，包括动态子域和个性化的标题参数。
 
    >[!NOTE]
    >
@@ -163,4 +164,3 @@ Now when the email is sent out, this parameter will be automatically appended to
 1. 选择 **[!UICONTROL 展开]** 以显示动态子域的详细信息。
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
-
