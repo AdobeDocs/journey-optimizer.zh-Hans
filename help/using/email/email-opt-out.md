@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 76%
@@ -175,7 +175,7 @@ ht-degree: 76%
 >
 >要在电子邮件标头中显示取消订阅链接，收件人的电子邮件客户端必须支持此功能。
 
-取消订阅地址是相应渠道界面中显示的默认 **[!UICONTROL Mailto（取消订阅）]**&#x200B;地址。[了解详情](../configuration/channel-surfaces.md#list-unsubscribe)。
+取消订阅地址是相应渠道界面中显示的默认 **[!UICONTROL Mailto（取消订阅）]**&#x200B;地址。[了解详情](email-settings.md#list-unsubscribe)
 
 要设置个性化的取消订阅 URL，请在电子邮件内容中插入一键式选择退出链接，然后输入您选择的 URL。[了解详情](#one-click-opt-out)
 
