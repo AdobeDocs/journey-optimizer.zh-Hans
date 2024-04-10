@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!NOTE]
 >
->在中创建未知配置文件 **AJO交互式消息传递配置文件数据集** 数据集，分别位于每个出站渠道（电子邮件、短信和推送）的三个默认命名空间（电子邮件、电话和ECID）中。
+>在中创建未知配置文件 **AJO交互式消息传递配置文件数据集** 数据集，分别位于每个出站渠道（电子邮件、短信和推送）的三个默认命名空间（电子邮件、电话和ECID）中。 但是，如果您使用自定义命名空间，则会使用相同的自定义命名空间创建身份。
 
 ## 操作方法视频 {#video}
 
