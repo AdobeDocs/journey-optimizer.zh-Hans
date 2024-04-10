@@ -8,9 +8,9 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->应用程序内渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
+>应用程序内渠道不适用于已购买 Adobe **Health Shield** 和 **Privacy and Security Shield** 附加产品的组织。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -56,7 +56,7 @@ ht-degree: 77%
 <img alt="验证" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>访问应用程序内报表</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>访问应用程序内报告</strong></a>
 </div>
 <p>
 </td>
