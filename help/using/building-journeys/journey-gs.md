@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 16%
+source-wordcount: '2005'
+ht-degree: 15%
 
 ---
 
@@ -146,6 +146,11 @@ ht-degree: 16%
 >id="ajo_journey_properties"
 >title="历程属性"
 >abstract="此部分显示历程属性。默认情况下，只读参数是隐藏的。可用设置取决于历程的状态、您的权限和产品配置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="历程退出标准"
+>abstract="此部分显示退出标准选项。 您可以为历程创建一个或多个退出标准规则。"
 
 单击历程名称旁边的铅笔图标以访问其属性。
 
