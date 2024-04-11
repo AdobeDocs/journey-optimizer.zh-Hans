@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 81d54c026c52fe78b1b725d67da15505907b8bb9
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1746'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
       + [2022 年发行说明](using/rn/release-notes-2022.md)
       + [2021 年发行说明](using/rn/release-notes-2021.md)
    + [文档更新](using/rn/documentation-updates.md)
+   + [新建历程画布](using/rn/news-canvas.md)
 + 入门{#get-started}
    + [什么是 Journey Optimizer](using/start/get-started.md)
    + 快速入门指南{#quick-start}
@@ -203,10 +204,9 @@ ht-degree: 99%
    + 配置电子邮件渠道 {#configure-email}
       + [电子邮件配置入门](using/email/get-started-email-config.md)
       + [配置电子邮件设置](using/email/email-settings.md)
-      + [配置电子邮件动态子域](using/email/surface-personalization.md)
 + 应用程序内渠道{#in-app}
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
-   + [先决条件和配置](using/in-app/inapp-configuration.md)
+   + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
    + [创建应用程序内消息](using/in-app/create-in-app.md)
    + [创建 Web 应用程序内消息](using/in-app/create-in-app-web.md)
    + [设计应用程序内内容](using/in-app/design-in-app.md)
