@@ -10,8 +10,8 @@ level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 hide: true
 hidefromtoc: true
-exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 8eaab3fc2346af3a7098fdea0501ec457b01bf23
+exl-id: 40cbf07c-8abf-4cb3-8a8e-ef86286b4e6f
+source-git-commit: 3e1e16a1f8a980d5ac6b895e520d6f30b6dbeacb
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 85%
