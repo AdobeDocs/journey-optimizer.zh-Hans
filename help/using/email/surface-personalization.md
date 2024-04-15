@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -32,17 +32,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="个性化不可用"
->abstract="此表面是在没有任何个性化属性的情况下创建的。 如需在需要个性化时解决问题的步骤，请参阅文档。"
+>abstract="这个表面在创建时没有任何个性化属性。如果需要个性化，请参阅文档了解解决问题的步骤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="启用动态子域"
->abstract="创建电子邮件表面时，您可以根据使用表达式编辑器定义的条件设置动态子域。 您最多可以添加50个动态子域。"
+>abstract="创建电子邮件界面时，您可以根据使用表达式编辑器定义的条件设置动态子域。您最多可以添加 50 个动态子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="某些子域可能不可用"
->abstract="由于挂起的反馈循环注册，某些子域当前不可选择。 此过程最多可能需要10个工作日。 完成后，您可以从所有可用的子域中进行选择。"
+>title="某些子域名可能不可用"
+>abstract="由于反馈回路注册尚未完成，某些子域名目前无法选择。此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。"
 
 创建电子邮件界面时，您可以根据特定条件设置动态子域。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >由于挂起，某些子域当前无法选择 [反馈环](../reports/deliverability.md#feedback-loops) 注册。 此过程最多可能需要10个工作日。 完成后，您可以从所有可用的子域中进行选择。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于挂起，某些子域当前无法选择 [反馈环](../reports/deliverability.md#feedback-loops) 注册。 此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

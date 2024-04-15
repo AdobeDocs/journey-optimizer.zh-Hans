@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新的历程界面
+title: 全新历程界面
 feature: Release Notes
 topic: Content Management
-description: 新的历程界面
+description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 新的历程界面 {#new-canvas}
+# 全新历程界面 {#new-canvas}
 
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"

@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
 source-wordcount: '2005'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="历程退出标准"
->abstract="此部分显示退出标准选项。 您可以为历程创建一个或多个退出标准规则。"
+>abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则。"
 
 单击历程名称旁边的铅笔图标以访问其属性。
 
