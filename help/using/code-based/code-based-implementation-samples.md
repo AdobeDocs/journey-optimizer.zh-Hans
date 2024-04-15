@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '783'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,17 @@ ht-degree: 3%
 
 ## 客户端实施 {#client-side-implementation}
 
-如果您有客户端实施，则可以使用以下其中一个AEP客户端SDK：AEP Web SDK或AEP Mobile SDK。 以下步骤描述在示例Web SDK实施中获取由基于代码的体验营销活动在Edge上发布的内容并显示个性化内容的过程。
+如果您有客户端实施，则可以使用以下其中一个AEP客户端SDK：AEP Web SDK或AEP Mobile SDK。
 
-### 工作原理
+* 步骤 [以下](#client-side-how) 在一个示例中描述获取由基于代码的体验营销活动在Edge发布的内容的过程 **Web SDK** 实施和显示个性化内容。
+
+* 使用实施基于代码的渠道的步骤 **移动SDK** 在中介绍 [本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+  >[!NOTE]
+  >
+  >移动使用案例的实施示例适用于 [iOS应用程序](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+
+### 工作原理 — Web SDK {#client-side-how}
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} 将包含在页面中。
 
@@ -48,61 +56,61 @@ ht-degree: 3%
 
 1. 对于基于代码的体验营销活动，必须手动发送显示事件以指示何时显示内容。 这可以通过以下方式实现 `sendEvent` 命令。
 
-```javascript
-function sendDisplayEvent(decision) {
-  const { id, scope, scopeDetails = {} } = decision;
-
-  alloy("sendEvent", {
-
-    xdm: {
-      eventType: "decisioning.propositionDisplay",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendDisplayEvent(decision) {
+     const { id, scope, scopeDetails = {} } = decision;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionDisplay",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+           },
+         },
+       },
+     });
+   }
+   ```
 
 1. 对于基于代码的体验营销活动，必须手动发送交互事件以指示用户何时与内容交互。 这可以通过以下方式实现 `sendEvent` 命令。
 
-```javascript
-function sendInteractEvent(label, proposition) {
-  const { id, scope, scopeDetails = {} } = proposition;
-
-  alloy("sendEvent", {
-    
-    xdm: {
-      eventType: "decisioning.propositionInteract",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-          propositionEventType: {
-            interact: 1
-          },
-          propositionAction: {
-            label: label
-          },
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendInteractEvent(label, proposition) {
+     const { id, scope, scopeDetails = {} } = proposition;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionInteract",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+             propositionEventType: {
+               interact: 1
+             },
+             propositionAction: {
+               label: label
+             },
+           },
+         },
+       },
+     });
+   }
+   ```
 
 ### 主要意见
 
@@ -130,7 +138,9 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
 
 ## 服务器端实施 {#server-side-implementation}
 
-如果您有服务器端实施，则可以使用一个AEP Edge Network API。 以下步骤在示例网页的Edge Network API实施中描述了获取由基于代码的体验营销活动在Edge上发布的内容并显示个性化内容的过程。
+如果您有服务器端实施，则可以使用一个AEP Edge Network API。
+
+以下步骤在示例网页的Edge Network API实施中描述了获取由基于代码的体验营销活动在Edge上发布的内容并显示个性化内容的过程。
 
 ### 工作原理
 
