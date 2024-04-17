@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 子域护栏 {#subdomain-guardrails}
 
-默认情况下， [!DNL Journey Optimizer] 允许您总共委派最多10个子域（包括电子邮件和Web渠道）。
+默认情况下，[!DNL Journey Optimizer] 允许您总共委派最多 10 个子域（包括电子邮件和 Web 渠道）。
 
-但是，根据您的许可合同，您最多可以委派100个子域。 请联系您的Adobe联系人，以了解有关您有权使用的子域数量的更多信息。
+但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
 ## 片段护栏 {#fragments-guardrails}
 
