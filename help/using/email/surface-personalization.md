@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置电子邮件动态子域
-description: 了解如何在电子邮件渠道平面级别配置动态子域
+title: 个性化电子邮件表面设置
+description: 了解如何在电子邮件渠道平面级别为您的设置定义个性化值
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '818'
 ht-degree: 13%
 
 ---
