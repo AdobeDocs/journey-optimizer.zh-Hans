@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1600'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 1. 拖放 **[!UICONTROL IP预热配置]** 用于分配权限的资源。
 
-1. 从 **[!UICONTROL IP预热配置]** 资源下拉列表，选择用户所需的权限。
+1. 从 **[!UICONTROL IP预热配置]** 资源下拉列表，选择用户所需的权限： **[!UICONTROL 查看IP预热计划]**， **[!UICONTROL 管理IP预热计划]**，和/或 **[!UICONTROL 查看IP预热报告]**. 如果需要，您可以一次选择所有这些变量。
 
    ![](assets/ip_permissions_2.png)
 
