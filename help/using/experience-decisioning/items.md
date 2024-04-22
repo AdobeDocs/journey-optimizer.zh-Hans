@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 26%
+source-wordcount: '1039'
+ht-degree: 25%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 26%
    1. 提供名称和描述。
    1. 指定开始日期和结束日期。 在此类日期内，项目仅由决策引擎考虑。
    1. 设置 **[!UICONTROL 优先级]** 与其他项目相比，如果配置文件符合多个项目的条件，则为决策项目。 较高的优先级使该项优先于其他项。
+   1. 此 **标记** 字段用于将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 

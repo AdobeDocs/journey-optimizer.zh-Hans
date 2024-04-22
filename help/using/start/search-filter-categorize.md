@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
@@ -67,6 +67,7 @@ ht-degree: 100%
 * [片段](../content-management/fragments.md)
 * [订阅列表](../landing-pages/subscription-list.md)
 * [登陆页面](../landing-pages/create-lp.md)
+* 
 
 您可以选择现有标记，也可以创建新标记。要实现此目的，请执行以下步骤。
 
