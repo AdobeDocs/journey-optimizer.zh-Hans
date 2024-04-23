@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 63dfe9a27f8a24a1c78968fa60252e16c87abebd
+source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 33%
+source-wordcount: '534'
+ht-degree: 32%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 33%
 <tr>
 <td>
 <p>Experience Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化操作。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。</p>
-<p>这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的集客界面中。</p>
+<p>这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的集客界面中。 Experience Decisioning决策策略仅适用于基于代码的体验营销活动。</p>
 <p>Experience Decisioning当前仅适用于一批组织（限量发布）。 要获得访问权限，请联系您的Adobe代表。</p>
 </td>
 </tr>
