@@ -8,9 +8,9 @@ description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 1%
 
 * A **重新设计的历程画布** 专为现代化UI体验而打造
 * A **实时报告** 历程画布中直接提供的UI
+
+>[!AVAILABILITY]
+>
+>请注意，此功能的推出将是渐进式的。 您可能不会立即看到更改。
 
 ## 历程模型的更新
 
@@ -74,20 +78,28 @@ v1中的所有历程都将保留在v1中。 您仍然可以编辑、测试或发
 
 ## 历程画布中的实时报告
 
-在改进旅程画布设计的同时，我们还将引入 **最近24小时的报表指标** （称为“实时报告”）时，不会将反向链接计算两次。
+在改进旅程画布设计的同时，我们还将引入以下功能： **在每个活动上**，进入该活动的用户档案数以及因错误而退出的用户档案数：
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-借助新模型上的每个实时历程，您将能够查看两种类型的“过去24小时”报表信息：
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* 在 **新建插入**，您将看到：
-   * 已针对受众触发的历程导出的配置文件数。 您将看到上次导出作业中可用的配置文件数以及进行该导出的时间。
-   * 退出历程的用户档案数
-   * 错误百分比
-     ![](assets/new-canvas7.png)
-* **在每个活动中**，您将看到进入该活动的用户档案数以及由于错误而退出的数量：
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 用户界面每分钟自动刷新一次。
 
-请注意，您可能会看到导出用户档案的数量与流经历程的用户档案数量之间的差异。 导出的用户档案计数仅提供有关上次执行导出作业的信息，而进入活动的用户档案数仅包含过去24小时内执行该活动的用户档案。 由于两天之间可能存在数据重叠，因此，这在定期每日历程中尤其可见。
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
