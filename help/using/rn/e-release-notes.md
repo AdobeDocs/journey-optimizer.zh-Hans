@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: f11f935f6c6576af0b7c653a37b3dbf8e061df0d
+source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 32%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 32%
 * 现在，决策管理资源具有新的“管理体验决策”权限。 它允许您管理与体验决策相关的权限。
 * 您现在可以为一个选件添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
 * 您现在可以在Experience Decisioning中为给定决策项目添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
+* 您现在可以使用以下内容创建Experience Decisioning营销活动的自定义报告仪表板 [!DNL Customer Journey Analytics].
 
 **历程**
 
