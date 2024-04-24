@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 32%
@@ -141,10 +141,6 @@ ht-degree: 32%
 
 此版本包含下方列出的改进。
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **受众**
 
 * 您现在可以将受众组合中的受众和属性与Healthcare Shield和Privacy &amp; Security Shield结合使用。
@@ -175,9 +171,6 @@ ht-degree: 32%
 
 从Beta版到路易斯安那州，已改进的地方如下：
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * 现在，您可以在决策规则中使用Adobe Experience Platform中的上下文数据 **上下文数据** 选项卡。
 * 现在，决策管理资源具有新的“管理体验决策”权限。 它允许您管理与体验决策相关的权限。
 * 您现在可以为一个选件添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
