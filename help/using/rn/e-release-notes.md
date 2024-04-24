@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
+source-git-commit: f11f935f6c6576af0b7c653a37b3dbf8e061df0d
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 32%
@@ -175,6 +175,9 @@ ht-degree: 32%
 
 从Beta版到路易斯安那州，已改进的地方如下：
 
+<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
+    * "Items" is now "Catalogs"
+    * "Configuration" is now "Strategy setup"-->
 * 现在，您可以在决策规则中使用Adobe Experience Platform中的上下文数据 **上下文数据** 选项卡。
 * 现在，决策管理资源具有新的“管理体验决策”权限。 它允许您管理与体验决策相关的权限。
 * 您现在可以为一个选件添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
