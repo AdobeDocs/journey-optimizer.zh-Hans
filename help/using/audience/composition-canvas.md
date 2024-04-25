@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 28%
@@ -23,7 +23,7 @@ ht-degree: 28%
 
 >[!ENDSHADEBOX]
 
-受众构成提供了一个可视画布，通过它可创建受众并使用各种活动（拆分、扩充等）。
+受众构成提供了一个可视画布，允许您创建受众并使用各种活动（拆分、扩充等）。
 
 在画布中构建受众的步骤如下：
 

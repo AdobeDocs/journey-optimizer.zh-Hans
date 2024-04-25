@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 69%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="创建组合"
->abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除...）来创建新的受众。"
+>abstract="创建组合工作流以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。"
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 
 >[!ENDSHADEBOX]
 
-通过受众组合，您可以创建&#x200B;**组合工作流程**，将现有 Adobe Experience Platform 受众合并到可视画布中，并利用各种活动（拆分、排除等）来创建新受众。
+利用受众合成，可创建 **组合工作流**，您可以在其中将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
 
 完成后， **生成的受众** 与现有受众一起保存到Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它们来定位客户。 [了解如何在Journey Optimizer中定位受众](../audience/about-audiences.md#segments-in-journey-optimizer)
 
