@@ -8,9 +8,9 @@ description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ v1中的所有历程都将保留在v1中。 您仍然可以编辑、测试或发
 
 ![](assets/new-canvas.png)
 
-但是，如果您&#x200B;**创建新历程** 或 **复制现有的一个**，这将是v2历程。  我们计划继续支持v1历程，直到大多数客户过渡到v2历程。
+但是，当您 **创建新旅程** 或 **复制现有的一个**，这将是v2历程。  我们计划继续支持v1历程，直到大多数客户过渡到v2历程。
 
 新历程模型有一个限制；它将会 **无法将活动从v1历程复制并粘贴到v2，反之亦然**. 如果您希望这样做，我们建议您复制v1历程以将其设置为v2，然后复制您的活动。
 
