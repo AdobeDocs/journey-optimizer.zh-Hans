@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 34%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 34%
 
 **Experience decisioning**
 
-从Beta版到路易斯安那州，已改进的地方如下：
+从Beta版到洛杉矶版，已添加以下改进：
 
 * 现在，您可以在决策规则中使用Adobe Experience Platform中的上下文数据 **上下文数据** 选项卡。
 * 现在，决策管理资源具有新的“管理体验决策”权限。 它允许您管理与体验决策相关的权限。
@@ -174,12 +174,12 @@ ht-degree: 34%
 
 **历程**
 
-* **改进了历程设计器**：
+* **改进了历程设计器**
 
    * 改进的画布UI提供了更直观和更高效的用户体验。
    * 活动更清晰，通过更少的单击即可显示更多有关历程画布的信息。
 
-* **新建实时报告**：现在可通过应用程序实时报告访问历程报告。 这是一个应用程序，为历程执行提供了许多见解。
+* **新建实时报告**：最近24小时的旅程报告现在可直接在历程画布中访问。
 
 **配置**
 
