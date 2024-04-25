@@ -8,21 +8,14 @@ description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
+source-git-commit: 59f41003183e155632124fde294bea575fb0f493
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
 # 欢迎使用改进后的历程设计器 {#new-canvas}
-
->[!CONTEXTUALHELP]
->id="ajo_new_canvas"
->title="新增功能？"
->abstract="新画布"
-
-欢迎使用改进的历程设计器！
 
 我们已经开发了 **简化旅程模型** 旨在改善内部流程。 尽管此新模型是后端改进，但我们的团队利用这个机会添加了对Journey Optimizer用户可见且有益的功能：
 
