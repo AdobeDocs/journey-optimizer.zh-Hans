@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
+source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 32%
+source-wordcount: '513'
+ht-degree: 34%
 
 ---
 
@@ -140,11 +140,6 @@ ht-degree: 32%
 ### 改进 {#e-improvements}
 
 此版本包含下方列出的改进。
-
-**受众**
-
-* 您现在可以将受众组合中的受众和属性与Healthcare Shield和Privacy &amp; Security Shield结合使用。
-* 现在，您可以将自定义上传（CSV文件）与Healthcare Shield和Privacy &amp; Security Shield结合使用。
 
 <!--
 * **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
