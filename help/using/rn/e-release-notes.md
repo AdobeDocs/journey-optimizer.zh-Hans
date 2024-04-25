@@ -6,9 +6,9 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: acd195e669d653b52ba7722e9e01db28a5a7d2b7
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '503'
 ht-degree: 34%
 
 ---
@@ -77,13 +77,13 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
-<th><strong>带有Infobip的多媒体消息服务(MMS)</strong><br/></th>
+<th><strong>多媒体消息服务(MMS) — 所有提供商</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。此功能以前只能在Sinch中使用，现在也可以在Infobip中使用。</p>
+<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于Sinch，现在也适用于Infobip和Twilio。</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 19%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 19%
 
 ## 阻止列表 {#sms-blocklists}
 
-除了Adobe Journey Optimizer列入阻止列表根据选择退出状态停止发送（用于与Twilio或Sinch的直接集成）之外，大多数短信网关提供商还维护一个，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过发送短信 [自定义渠道](../building-journeys/using-custom-actions.md)，您需要向提供商确认。
+除了根据选择退出状态停止Adobe Journey Optimizer列入阻止列表发送（用于与Twilio、Infobip或Sinch的直接集成）之外，大多数短信网关提供商还设有，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过发送短信 [自定义渠道](../building-journeys/using-custom-actions.md)，您需要向提供商确认。
 
 
 ## 短代码 {#short-codes}

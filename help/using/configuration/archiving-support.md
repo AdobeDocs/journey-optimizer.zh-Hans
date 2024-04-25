@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 7%
 
 ---
@@ -28,7 +28,7 @@ HIPAA等法规要求 [!DNL Journey Optimizer] 应提供一种将发送给个人�
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] 自身不支持SMS存档要求。 要获得专门的存档支持，请与您的SMS供应商（Synch或Twilio）合作。
+>[!DNL Journey Optimizer] 自身不支持SMS存档要求。 要获得专门的存档支持，请与您的SMS供应商（ Synch 、 Infobip或Twilio ）合作。
 
 ## 如何使用密件抄送发送电子邮件 {#bcc-email}
 
