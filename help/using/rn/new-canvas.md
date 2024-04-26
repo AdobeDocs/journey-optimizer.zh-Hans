@@ -8,9 +8,9 @@ description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Journey Optimizer现在提供 **简化旅程模型** 旨在改善内部流程。
 
 现在，活动将由具有以下功能的方框表示：
 
-* 第一行表示活动类型，该活动类型通常会被更多情境信息（例如：在读取受众上，它将包含选定受众的名称）覆盖，或者，如果您定义了自定义标签，则会被覆盖。
+* 第一行表示活动类型，该活动类型经常被更多情境信息（在读取受众上，它将包含所选受众的名称）覆盖，或者，如果您定义了自定义标签，则会覆盖该活动类型。
 * 第二行始终表示活动类型。
 
 ![](assets/new-canvas4.png)
