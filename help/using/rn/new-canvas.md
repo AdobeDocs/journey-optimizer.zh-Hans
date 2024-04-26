@@ -8,16 +8,16 @@ description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
+source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
 
 # 欢迎使用改进后的历程设计器 {#new-canvas}
 
-Journey Optimizer现在提供 **简化旅程模型** 旨在改善内部流程。 尽管此新模型是后端改进，但我们的团队利用这个机会添加了对Journey Optimizer用户可见且有益的功能：
+Journey Optimizer现在提供 **简化旅程模型** 旨在改善用户体验和内部流程。 从4月版开始，您可以受益于以下功能：
 
 * A **重新设计的历程画布** 专为现代化UI体验而打造
 * A **实时报告** 历程画布中直接提供的UI
