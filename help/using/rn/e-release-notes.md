@@ -6,10 +6,10 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f133a33237fccacbf800de445c27684de4f42453
+source-git-commit: 4257fafef5d6c6f5f9c7f4af9c9b06510b1e9037
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
@@ -42,22 +42,22 @@ ht-degree: 33%
 </tbody>
 </table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Experience Decisioning — 限量发布</strong><br/></th>
+<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experience Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化操作。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。</p>
-<p>这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的集客界面中。 Experience Decisioning决策策略仅适用于基于代码的体验营销活动。</p>
-<p>Experience Decisioning当前仅适用于一批组织（限量发布）。 要获得访问权限，请联系您的Adobe代表。</p>
+<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
+<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
+<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -85,6 +85,25 @@ ht-degree: 33%
 <td>
 <p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于Sinch，现在也适用于Infobip和Twilio。</p>
 <img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>改进了历程设计人员和实时报表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本附带改进的画布用户界面，可用于执行历程，并提供更直观、高效的用户体验。 活动更清晰，通过更少的单击即可显示更多有关历程画布的信息。</p>
+<img src="assets/new-canvas3.gif"/>
+<p>除了改进的历程画布设计之外，我们还引入了在历程画布中直接查看过去24小时报告量度的功能。 </p>
+<img src="assets/new-canvas6bis.png"/>
+<p>有关更多信息，请参阅<a href="new-canvas.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -156,27 +175,22 @@ ht-degree: 33%
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
 
-**决策管理**
+<!--
+**Decision management** 
 
-* 此 **更改日志** 选项卡允许您查看对优惠或决策所做的所有更改已被删除。 现在，可在中查看与优惠和决策相关的更改 **审核** 菜单。
+* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
-**Experience decisioning**
+**Experience decisionning**
 
-从Beta版到洛杉矶版，已添加以下改进：
+From beta to LA, the following improvements that have been added:
 
-* 现在，您可以在决策规则中使用Adobe Experience Platform中的上下文数据 **上下文数据** 选项卡。
-* 现在，决策管理资源具有新的“管理体验决策”权限。 它允许您管理与体验决策相关的权限。
-* 您现在可以在Experience Decisioning中为给定决策项目添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
-* 您现在可以使用以下内容创建Experience Decisioning营销活动的自定义报告仪表板 [!DNL Customer Journey Analytics].
+* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
+* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
+* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
+* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
+-->
 
-**历程**
 
-* **改进了历程设计器**
-
-   * 改进的画布UI提供了更直观和更高效的用户体验。
-   * 活动更清晰，通过更少的单击即可显示更多有关历程画布的信息。
-
-* **新建实时报告**：最近24小时的旅程报告现在可直接在历程画布中访问。
 
 **配置**
 
