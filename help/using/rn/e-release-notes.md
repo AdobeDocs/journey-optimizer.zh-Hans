@@ -6,10 +6,10 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 34%
+source-wordcount: '478'
+ht-degree: 33%
 
 ---
 
@@ -166,7 +166,6 @@ ht-degree: 34%
 
 * 现在，您可以在决策规则中使用Adobe Experience Platform中的上下文数据 **上下文数据** 选项卡。
 * 现在，决策管理资源具有新的“管理体验决策”权限。 它允许您管理与体验决策相关的权限。
-* 您现在可以为一个选件添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
 * 您现在可以在Experience Decisioning中为给定决策项目添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
 * 您现在可以使用以下内容创建Experience Decisioning营销活动的自定义报告仪表板 [!DNL Customer Journey Analytics].
 
