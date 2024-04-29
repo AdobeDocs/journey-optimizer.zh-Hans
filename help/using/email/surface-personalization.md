@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 13%
 >id="ajo_surface_dynamic_subdomain_list"
 >title="某些子域名可能不可用"
 >abstract="由于反馈回路注册尚未完成，某些子域名目前无法选择。此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
 
 创建电子邮件界面时，您可以根据特定条件设置动态子域。
 
