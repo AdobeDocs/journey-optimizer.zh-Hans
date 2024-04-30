@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 27%
+source-wordcount: '437'
+ht-degree: 23%
 
 ---
 
@@ -43,6 +43,28 @@ ht-degree: 27%
 ## Experience Decisioning关键步骤 {#steps}
 
 使用Experience Decisioning的主要步骤如下：
+
+1. **分配适当的权限**. 决策仅适用于有权访问Experience Decisioning相关项目的用户 **[!UICONTROL 角色]** 例如“决策管理器”。 如果您无法访问决策，则必须扩展您的权限。
+
+   +++了解如何分配决策管理者角色
+
+   1. 在中为用户分配角色 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 选项卡并选择决策管理器。
+
+      ![](assets/decision_permission_1.png)
+
+   1. 从 **[!UICONTROL 用户]** 选项卡，单击 **[!UICONTROL 添加用户]**.
+
+      ![](assets/decision_permission_2.png)
+
+   1. 键入用户名或电子邮件地址，或从列表中选择用户并单击 **[!UICONTROL 保存]**.
+
+      如果之前未创建用户，请参阅 [添加用户文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   随后，您的用户将收到一封重定向到您的实例的电子邮件。
+
++++
 
 1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制决策项目的目录。
 

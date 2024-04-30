@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 74%
 
 ---
 
@@ -46,29 +46,19 @@ ht-degree: 100%
 
 在 Journey Optimizer 中开始创建您的第一个营销活动之前，请查看以下先决条件：
 
-1. **您需要适当的权限**。有权访问营销活动相关&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的用户（例如营销活动管理员、营销活动审批者、营销活动经理和/或营销活动查看者）才能使用营销活动。
+1. **您需要适当的权限**。营销活动仅适用于有权访问与营销活动相关的用户 **[!UICONTROL 产品配置文件]** 如Campaign管理员、Campaign审批者、Campaign经理和/或Campaign查看者。如果您无法访问营销活动，则必须扩展您的权限。
 
-   如果您无法访问营销活动，则必须扩展您的权限。如果您有权访问贵组织的 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}，请执行以下步骤。如果没有，请联系 Journey Optimizer 管理员。
+   +++了解如何分配与活动相关的角色
 
-   +++了解如何分配营销活动权限
+   1. 在中为用户分配角色 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 选项卡，然后选择其中一个相关的内置营销活动 **[!UICONTROL 角色]**：Campaign管理员、Campaign审批者、Campaign经理或Campaign查看者。
 
-   要向您的用户分配对应的&#x200B;**[!UICONTROL 产品配置文件]**：
+   1. 从 **[!UICONTROL 用户]** 选项卡，单击 **[!UICONTROL 添加用户]**.
 
-   1. 在 [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中选择 [!DNL Adobe Experience Platform] 产品。
+   1. 键入用户名或电子邮件地址，或从列表中选择用户并单击 **[!UICONTROL 保存]**.
 
-   1. 浏览到&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;选项卡，选择与内置营销活动相关的其中一个&#x200B;**[!UICONTROL 产品配置文件]**：营销活动管理员、营销活动审批者、营销活动经理或营销活动查看者。
+      如果之前未创建用户，请参阅 [添加用户文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-      有关 Journey Optimizer 营销活动&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;和&#x200B;**[!UICONTROL 权限]**&#x200B;的更多信息，[请参阅此页](../administration/ootb-product-profiles.md)。
-
-      ![](assets/do-not-localize/admin_1.png)
-
-   1. 单击&#x200B;**[!UICONTROL 添加用户]**，向您的用户分配选定的&#x200B;**[!UICONTROL 产品配置文件]**。
-
-      ![](assets/do-not-localize/admin_2.png)
-
-   1. 键入用户的名称、组或电子邮件地址，然后单击&#x200B;**[!UICONTROL 保存]**。
-
-   您的用户现在已可访问&#x200B;**[!UICONTROL 营销活动]**。
+   随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
 +++
 
