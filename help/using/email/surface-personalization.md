@@ -43,7 +43,7 @@ ht-degree: 14%
 >id="ajo_surface_dynamic_subdomain_list"
 >title="某些子域名可能不可用"
 >abstract="由于反馈回路注册尚未完成，某些子域名目前无法选择。此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hans/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
 
 创建电子邮件界面时，您可以根据特定条件设置动态子域。
 
