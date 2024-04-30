@@ -85,7 +85,7 @@ ht-degree: 99%
             + [受众内](using/building-journeys/functions/functioninaudience.md)
          + 聚合 {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
-            + [count](using/building-journeys/functions/functioncount.md)
+            + [计数](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
