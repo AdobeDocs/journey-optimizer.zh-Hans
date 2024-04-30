@@ -8,14 +8,14 @@ description: 全新历程界面
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
+source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
-# 欢迎使用改进后的历程设计器 {#new-canvas}
+# 欢迎使用改进的历程设计器 {#new-canvas}
 
 Journey Optimizer现在提供 **简化旅程模型** 旨在改善用户体验和内部流程。 从4月版开始，您可以受益于以下功能：
 
@@ -71,13 +71,14 @@ Journey Optimizer现在提供 **简化旅程模型** 旨在改善用户体验和
 
 ## 历程画布中的实时报告
 
-在改进旅程画布设计的同时，我们还将引入 **最近24小时的报表指标** （称为“实时报告”）时，不会将反向链接计算两次。
+除了改进的历程画布布局之外，还引入了一个新功能，允许用户从查看实时报告量度 **过去24小时**（称为实时报告）。
+
+对于使用新模型的每个实时历程中的每个活动，您均有权访问：
+
+* 进入此活动的用户档案计数。
+* 因错误退出此活动的用户档案计数。
 
 ![](assets/new-canvas6bis.png)
-
-在新模型上的每个实时历程中，您将能够看到， **在每个活动上**，进入该活动的用户档案数以及因错误而退出的用户档案数：
-
-![](assets/new-canvas8.png)
 
 <!--`
 With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
@@ -90,9 +91,6 @@ With every live journey on the new model, you will be able to see two types of "
 * **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
     ![](assets/new-canvas8.png)
 -->
-
-用户界面每分钟自动刷新一次。
-
 <!--
 Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
 -->
