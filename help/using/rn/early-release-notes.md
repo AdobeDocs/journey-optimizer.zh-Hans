@@ -3,29 +3,24 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 早期发行说明
-feature: Release Notes
-topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-hide: true
-hidefromtoc: true
 source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 69%
+source-wordcount: '315'
+ht-degree: 73%
 
 ---
 
-# 早期发行说明 {#e-release-notes}
+# 早期发行说明 {#early-release-notes}
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
 以下早期发行说明可能会在正式发行日期之前发生更改，恕不另行通知。在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
-## 2024 年 4 月早期发行说明 {#e-2024}
+## 2024 年 4 月早期发行说明 {#early-2024}
 
 **发行日期**：2024年5月2日
 
-### 新功能 {#e-features}
+### 新功能 {#early-features}
 
 此版本引入了下方详述的新功能。
 
@@ -157,7 +152,7 @@ ht-degree: 69%
 </tbody>
 </table-->
 
-### 改进 {#e-improvements}
+### 改进 {#early-improvements}
 
 此版本包含下方列出的改进。
 
@@ -179,9 +174,7 @@ ht-degree: 69%
 -->
 
 <!--
-**Decision management** 
 
-* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.
 
 **Experience decisionning**
 
@@ -193,6 +186,9 @@ From beta to LA, the following improvements that have been added:
 * You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
 -->
 
+**决策管理**
+
+* 通过&#x200B;**更改日志**&#x200B;选项卡，您可以查看对优惠所做的所有更改或已移除的所有决策。现在，可在&#x200B;**审核**&#x200B;菜单中查看与优惠和决策相关的更改。
 
 
 **配置**
