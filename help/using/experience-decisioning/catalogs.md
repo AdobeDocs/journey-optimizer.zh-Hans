@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 在Experience Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到Adobe Experience Platform架构，其中包含可分配给决策项目的所有属性。
 
-目前，所有创建的决策项目都整合到单个“优惠”目录中，该目录可通过访问 **[!UICONTROL 项目]** 菜单。
+目前，所有创建的决策项目都整合到单个“优惠”目录中，该目录可通过访问 **[!UICONTROL 目录]** 菜单。
 
 ![](assets/catalogs-list.png)
 

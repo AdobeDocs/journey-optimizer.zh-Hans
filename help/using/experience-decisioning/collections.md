@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 50%
@@ -47,11 +47,11 @@ ht-degree: 50%
 
 例如，假设您向决策项目的目录架构添加了“类别”自定义属性。 这允许您创建一个集合，该集合包含具有“类别”属性中的“瑜伽”值的所有决策项。
 
-集合列表可从以下位置访问： **[!UICONTROL 项目]** 菜单。
+集合列表可从以下位置访问： **[!UICONTROL 目录]** 菜单。
 
 要创建收藏集，请执行以下步骤：
 
-1. 导航到 **[!UICONTROL 项目]** > **[!UICONTROL 收藏集]** 并单击 **[!UICONTROL 创建收藏集]**.
+1. 导航到 **[!UICONTROL 目录]** > **[!UICONTROL 收藏集]** 并单击 **[!UICONTROL 创建收藏集]**.
 1. 提供收藏集的名称和描述。
 1. 添加一项或多项规则以确定要包含在收藏集中的项目。请按以下步骤执行此操作：
 

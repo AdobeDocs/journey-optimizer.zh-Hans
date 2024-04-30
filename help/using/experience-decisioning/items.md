@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 14%
@@ -38,7 +38,7 @@ ht-degree: 14%
 
 在创建决策项目之前，请确保已创建 **决策规则** 如果您要设置条件以确定决策项可以显示给谁。 [了解如何创建决策规则](rules.md).
 
-要创建决策项目，请导航至 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 项目]**，然后单击 **[!UICONTROL 创建项目]** 然后按照以下部分中详述的步骤操作。
+要创建决策项目，请导航至 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 目录]**，然后单击 **[!UICONTROL 创建项目]** 然后按照以下部分中详述的步骤操作。
 
 ## 定义决策项目的属性 {#attributes}
 

@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 10%
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 您首先需要创建项目，在收藏集中将其分组，设置规则和排名方法。 这些元素将允许您构建选择策略。
 
-1. 导航到 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 项目]** 并创建多个选件项目。 使用受众或规则设置约束，将每个项目限制为仅访问特定用户档案。 [了解详情](items.md)
+1. 导航到 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 目录]** 并创建多个选件项目。 使用受众或规则设置约束，将每个项目限制为仅访问特定用户档案。 [了解详情](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
