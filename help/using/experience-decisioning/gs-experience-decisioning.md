@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 7%
+source-wordcount: '329'
+ht-degree: 27%
 
 ---
 
@@ -33,15 +33,12 @@ ht-degree: 7%
 >[!AVAILABILITY]
 >
 >experience decisioning功能目前仅作为测试版向部分用户提供。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+>
+>决策策略仅适用于基于代码的体验营销活动。
 
-Experience Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化操作。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
+通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的集客界面中。
-
-**限制：**
-
-* 决策策略仅适用于基于代码的体验营销活动。
-* 目前，频率上限在Experience Decisioning中不可用。
+这些决策项通过新的基于代码的体验渠道无缝集成到广泛的入站表面中，现在可以在 Journey Optimizer 营销活动中访问。
 
 ## Experience Decisioning关键步骤 {#steps}
 

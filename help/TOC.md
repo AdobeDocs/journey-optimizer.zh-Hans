@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1753'
 ht-degree: 99%
 
 ---
@@ -507,7 +507,7 @@ ht-degree: 99%
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Experience Decisioning{#experience-decisioning}
    + [开始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-   + 管理您的决策项目{#decision-items}
+   + 管理决策项目 {#decision-items}
       + [配置项目目录](using/experience-decisioning/catalogs.md)
       + [创建决策项目](using/experience-decisioning/items.md)
       + [管理项目集合](using/experience-decisioning/collections.md)
