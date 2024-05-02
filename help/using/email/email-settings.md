@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 11%
+source-wordcount: '2415'
+ht-degree: 10%
 
 ---
 
@@ -42,10 +42,10 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="定义电子邮件类别"
+>title="定义电子邮件类型"
 >abstract="选择使用此表面时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
 
-在 **电子邮件类型** 部分，选择要与表面一起发送的消息类型： **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**.
+在 **电子邮件类型** 部分，为曲面选择消息类型： **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**.
 
 * 选择 **营销** 促销电子邮件，如零售商店的每周促销活动。 这些消息需要用户同意。
 
@@ -53,47 +53,45 @@ ht-degree: 11%
 
 创建消息时，必须选择与为电子邮件选择的类别相匹配的有效渠道平面。
 
-## 子域和IP池 {#subdomains-and-ip-pools}
+## Subdomain {#subdomains}
 
-在 **子域和IP池** 部分，按照以下说明填写必填字段。
+选择用于发送电子邮件的子域。
 
-1. 选择用于发送电子邮件的子域。
-
-   为了维护域的信誉、加快IP预热过程并改进可投放性，将发送子域委派给Adobe。 [了解详情](../configuration/about-subdomain-delegation.md)
+为了维护域的信誉、加快IP预热过程并改进可投放性，将发送子域委派给Adobe。 [了解详情](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. 选择要与表面关联的IP池。 [了解详情](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## IP池详细信息 {#ip-pools}
 
-   选定IP池位于下时，无法继续创建表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)且从未与选定子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将表面另存为草稿，并在IP池具有 **[!UICONTROL 成功]** 状态。
 
-   >[!NOTE]
-   >
-   >对于非生产环境，Adobe不会创建现成的测试子域，也不会授予对共享发送IP池的访问权限。 您需要 [委派您自己的子域](../configuration/delegate-subdomain.md) 并使用分配给贵组织的池中的IP。
+选择要与表面关联的IP池。 [了解详情](../configuration/ip-pools.md)
 
-1. 选择IP池后，当鼠标悬停在IP池下拉列表下方显示的IP地址上时，会显示PTR信息。 [了解有关PTR记录的更多信息](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+选定IP池位于下时，无法继续创建表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)且从未与选定子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将表面另存为草稿，并在IP池具有 **[!UICONTROL 成功]** 状态。
 
-   >[!NOTE]
-   >
-   >如果未配置PTR记录，请联系您的Adobe代表。
+>[!NOTE]
+>
+>对于非生产环境，Adobe不会创建现成的测试子域，也不会授予对共享发送IP池的访问权限。 您需要 [委派您自己的子域](../configuration/delegate-subdomain.md) 并使用分配给贵组织的池中的IP。
 
-## 列表 — 取消订阅 {#list-unsubscribe}
+选择IP池后，当鼠标悬停在IP池下拉列表下方显示的IP地址上时，会显示PTR信息。 [了解有关PTR记录的更多信息](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>如果未配置PTR记录，请联系您的Adobe代表。
+
+## 列表取消订阅 {#list-unsubscribe}
 
 于 [选择子域](#subdomains-and-ip-pools) 从列表中， **[!UICONTROL 启用List-Unsubscribe]** 选项随即显示。
 
-![](assets/preset-list-unsubscribe.png)
-
-默认启用选项。
-
-如果您将其保留为启用，则取消订阅链接将自动包含在电子邮件标头中，例如：
+此选项默认处于启用状态。 如果您将其保留为启用，则取消订阅链接将自动包含在电子邮件标头中，例如：
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果禁用此选项，则电子邮件标头中不会显示取消订阅链接。
+如果禁用此选项，则电子邮件标头中不显示取消订阅链接。
+
+您可以从 **同意级别** 下拉列表。 可特定于渠道或用户档案标识。 基于此设置，当用户使用电子邮件的列表取消订阅标头链接取消订阅时，同意会在Adobe Journey Optimizer中在渠道级别或ID级别更新。
 
 取消订阅链接包含两个元素：
 
@@ -101,7 +99,7 @@ ht-degree: 11%
 
   在 [!DNL Journey Optimizer]，默认使用取消订阅电子邮件地址 **[!UICONTROL Mailto（取消订阅）]** 渠道界面中显示的地址，基于 [所选子域](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * 此 **取消订阅URL**，这是登陆页面的URL，取消订阅后，用户将重定向到该页面。
 
@@ -124,13 +122,9 @@ ht-degree: 11%
 在 **[!UICONTROL 标题参数]** 部分，输入与使用该表面发送的电子邮件类型关联的发件人姓名和电子邮件地址。
 
 * **[!UICONTROL 发件人姓名]**：发件人的名称，如您的品牌名称。
-
 * **[!UICONTROL 发件人电子邮件]**：要用于通信的电子邮件地址。
-
 * **[!UICONTROL 回复（姓名）]**：收件人单击 **回复** 电子邮件客户端软件中的URL按钮。
-
 * **[!UICONTROL 回复（电子邮件）]**：收件人单击 **回复** 电子邮件客户端软件中的URL按钮。 [了解详情](#reply-to-email)
-
 * **[!UICONTROL 错误电子邮件]**：在此地址上接收ISP在投放邮件几天后生成的所有错误（异步退回）。 在此地址上还会收到“不在办公室”通知和质询回复。
 
   如果您希望在未委派给Adobe的特定电子邮件地址上接收休假通知和质询响应，则需要设置 [转发进程](#forward-email). 在这种情况下，请确保您拥有手动或自动化解决方案来处理登陆此收件箱的电子邮件。
