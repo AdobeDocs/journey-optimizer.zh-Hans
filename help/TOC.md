@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [早期发行说明](using/rn/early-release-notes.md)
    + [最新发行说明](using/rn/release-notes.md)
    + 过往发行说明 {#previous-rn-new}
+      + [2024 年发行说明](using/rn/release-notes-2024.md)
       + [2023 年发行说明](using/rn/release-notes-2023.md)
       + [2022 年发行说明](using/rn/release-notes-2022.md)
       + [2021 年发行说明](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 99%
          + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
+         + [使用自定义操作在Experience Platform中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 营销活动{#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 99%
       + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
 + 短信/MMS 渠道{#sms}
    + [文本消息入门](using/sms/get-started-sms.md)
-   + [创建文本消息](using/sms/create-sms.md)
-   + [创建 MMS 消息](using/sms/create-mms.md)
+   + [创建短信 (SMS/MMS)](using/sms/create-sms.md)
    + [检查并发送文本消息](using/sms/send-sms.md)
    + [管理文本消息选择退出](using/sms/sms-opt-out.md)
-   + [配置短信渠道](using/sms/sms-configuration.md)
    + [设置短信子域](using/sms/sms-subdomains.md)
+   + 配置短信/彩信渠道{#configure-sms}
+      + [短信配置入门](using/sms/sms-configuration.md)
+      + [配置Sinch提供程序](using/sms/sms-configuration-sinch.md)
+      + [配置Infobip提供程序](using/sms/sms-configuration-infobip.md)
+      + [配置Twilio提供程序](using/sms/sms-configuration-twilio.md)
+      + [创建短信表面](using/sms/sms-configuration-surface.md)
 + 直邮 {#direct-mail}
    + [直邮入门](using/direct-mail/get-started-direct-mail.md)
    + [创建直邮](using/direct-mail/create-direct-mail.md)

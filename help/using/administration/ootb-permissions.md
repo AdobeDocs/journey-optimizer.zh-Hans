@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 | 数据摄取 | **[!DNL Manage sources]**：读取、创建、编辑和禁用源。</br>**[!DNL View sources]**：对“目录”选项卡中的可用源以及“浏览”选项卡中的已验证源的只读访问权限。 |
 | 数据管理 | **[!DNL Manage datasets]**：读取、创建、编辑和删除数据集。 架构的只读访问权限。</br>**[!DNL View datasets]**：对数据集和架构的只读访问权限。</br>**[!DNL Data monitoring]**：对监控数据集和流的只读访问权限。 |
 | 数据建模 | **[!DNL Manage schemas]**：读取、创建和编辑Experience Data Model (XDM)架构。</br>**[!DNL View schemas]**：对架构的只读访问权限。</br>**[!DNL Manage relationships]**：读取、创建、编辑和删除架构关系。</br>**[!DNL Manage identity metadata]**：读取、创建、编辑和删除架构的身份元数据。 |
-| 决策管理 | **[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</br>**[!DNL View decisions]**：对优惠实体的只读访问权限。</br>**[!DNL Manage offers]**：读取、创建、编辑和删除所有优惠、组件，读取决策和收藏集。</br>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义报表并使用操作功能。</br> |
+| 决策管理 | **[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</br>**[!DNL View decisions]**：对优惠实体的只读访问权限。</br>**[!DNL Manage offers]**：读取、创建、编辑和删除所有优惠、组件，读取决策和收藏集。</br>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义报表并使用操作功能。</br><!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 目标 | **[!DNL Manage destinations]**：读取、创建和删除目标激活流和目标帐户。</br>**[!DNL View destinations]**：对“目录”选项卡中的可用目标和“浏览”选项卡中的经过身份验证的目标进行只读访问。</br>**[!DNL Activate destinations]**：允许用户将受众激活到现有目标。</br>**[!DNL Activate segment without mapping]**：允许用户将受众激活到现有目标，而不显示映射步骤。 用户可以在激活工作流中添加和删除受众，但无法添加或删除映射的属性或身份。</br>**[!DNL Manage and activate dataset destination]**：读取、创建、编辑和禁用数据集导出流程。 还能将数据激活到已创建的活动数据集。</br>**[!DNL Destination authoring]**：使用Adobe Experience Platform Destination SDK的创作目标。 |
 | 身份管理 | **[!DNL Manage identity namespaces]**：读取、创建和编辑身份命名空间。</br>**[!DNL View identity namespaces]**：对身份命名空间的只读访问权限。</br>**[!DNL Manage identity settings]**：读取、创建和编辑身份设置。</br>**[!DNL View identity settings]**：对身份设置的只读访问权限。</br>**[!DNL View identity graph]**：对身份图的只读访问。 |
 | Journey Optimizer Library | **[!DNL Manage Library Items]**：添加和删除中保存的表达式 [!DNL Journey Optimizer] 库。</br>**[!DNL Simulate content]**：访问预览和验证的“模拟内容”选项。 |

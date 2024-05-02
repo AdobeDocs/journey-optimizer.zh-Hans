@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 10%
 
 ---
@@ -197,10 +197,6 @@ ht-degree: 10%
 ## 测试电子邮件内容模板 {#test-template}
 
 您可以测试某些电子邮件模板的呈现，无论是从草稿还是从现有内容创建。 要实现此目的，请执行以下步骤。
-
->[!CAUTION]
->
->当前正在测试的内容模板仅可用于 **[!UICONTROL 电子邮件]** 模板和 **[!UICONTROL HTML]** 类型。
 
 1. 通过以下方式访问内容模板列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 菜单，然后选择任意电子邮件模板。
 

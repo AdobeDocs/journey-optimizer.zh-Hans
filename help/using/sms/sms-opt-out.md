@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '467'
 ht-degree: 19%
 
 ---
@@ -59,14 +59,6 @@ ht-degree: 19%
 字母数字发件人 ID 仅用于单向消息传递，且无法接收入站消息。因此，Adobe Journey Optimizer的短信STOP、START、HELP关键字不适用于Alpha发件人ID。 您必须提供其他说明，例如写信给支持团队、拨打支持电话或发短信给其他电话号码或代码，以允许用户选择退出接收通过字母数字发件人 ID 发送的消息。
 
 ## 视频 {#video-sms}
-
-* 以下视频演示了原生入站关键词支持（START、STOP和UNSTOP）如何用于短信。
-
-+++ 观看视频
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * 以下视频可帮助您了解如何为短信配置双重选择加入。
 

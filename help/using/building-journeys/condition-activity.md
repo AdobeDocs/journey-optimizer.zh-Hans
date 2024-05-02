@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 17%
@@ -154,11 +154,10 @@ ht-degree: 17%
 要在历程条件中使用受众，请执行以下步骤：
 
 1. 打开历程，放置 **[!UICONTROL 条件]** 活动并选择 **数据源条件**.
-   ![](assets/journey47.png)
-
-1. 单击 **[!UICONTROL 添加路径]** 所需的每个额外路径。 对于每个路径，单击 **[!UICONTROL 表达式]** 字段。
 
    ![](assets/segment3.png)
+
+1. 单击 **[!UICONTROL 添加路径]** 所需的每个额外路径。 对于每个路径，单击 **[!UICONTROL 表达式]** 字段。
 
 1. 在左侧，展开 **[!UICONTROL 受众]** 节点。 拖放要用于条件的受众。 默认情况下，受众的条件为true。
 

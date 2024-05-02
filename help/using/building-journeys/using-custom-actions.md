@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 26%
 
 ---
@@ -47,11 +47,11 @@ ht-degree: 26%
 | 字段 | 值 |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| 路径 | `The id of marketingCampaign + '/messages'` |
+| 路径 | `The _id + '/messages'` |
 
 连接的URL具有以下形式：
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 

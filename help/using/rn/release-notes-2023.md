@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ ht-degree: 100%
 
 **短信渠道**
 
-* **选择加入消息**&#x200B;和&#x200B;**帮助消息**&#x200B;这两个新字段已添加到 API 配置屏幕，允许用户自定义针对入站关键词的响应。请注意，这仅适用于 Sinch 短信提供商。[了解详情](../sms/sms-configuration.md#create-api)
+* **选择加入消息**&#x200B;和&#x200B;**帮助消息**&#x200B;这两个新字段已添加到 API 配置屏幕，允许用户自定义针对入站关键词的响应。请注意，这仅适用于 Sinch 短信提供商。[了解详情](../sms/sms-configuration.md)
 
-* 不再在渠道级别进行管理短信选择退出。现在，这是特定于号码的，这意味着如果某些用户档案选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。[了解详情](../sms/sms-configuration.md#message-preset-sms)
+* 不再在渠道级别进行管理短信选择退出。现在，这是特定于号码的，这意味着如果某些用户档案选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。[了解详情](../sms/sms-configuration.md)
 
 **直邮渠道**
 

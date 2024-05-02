@@ -3,7 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 早期发行说明
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+hide: true
+hidefromtoc: true
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 73%
@@ -195,4 +197,3 @@ From beta to LA, the following improvements that have been added:
 
 * 现在，您可以在渠道表面级别选择营销操作。在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
 * 现在，渠道表面可以使用对象级访问控制。
-

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 创建其架构包含 `productListItems` 数组。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   了解有关产品列表项数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   在中了解有关产品列表项数据类型的更多信息 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. 创建从此事件开始的历程。
 1. 添加 **电子邮件** 历程的活动。

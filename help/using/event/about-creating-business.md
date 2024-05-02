@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 13%
+source-wordcount: '1126'
+ht-degree: 12%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
+   >只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
 1. 在 **[!UICONTROL 类型]** 字段，选择 **商业**.
 

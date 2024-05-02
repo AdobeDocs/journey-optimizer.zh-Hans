@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1872'
 ht-degree: 2%
 
 ---
@@ -171,6 +171,9 @@ ht-degree: 2%
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">到十六进制字符串</a></td><td>将任意数字转换为十六进制字符串。</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>将任意这些类型（数字、双精度、整数、长整数、浮点数、短整数、字节、布尔值、字符串）转换为整数。</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">目标百分比</a></td><td>此函数将一个数字转换为百分比。</td>

@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 88%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 3 月版本已上线！]
+>[!TAB 4月版已上线！]
 
 了解 Adobe Journey Optimizer 24.3 版的新增功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 基于代码的体验]
+>[!TAB 新的历程体验]
 
-借助新的基于代码的体验渠道，Adobe Journey Optimizer 允许您对任何入站属性进行高级个性化和测试，从而向不同的接触点无缝投放定制化体验，如 Web 应用程序、移动应用程序、桌面应用程序、视频游戏机、电视连接设备、智能电视、网亭、ATM、物联网设备等。
+此版本附带改进的画布用户界面，可用于执行历程，并提供更直观、高效的用户体验。 活动情况更清晰，通过更少的单击操作即可显示更多有关历程画布的信息。
 
-![](using/rn/assets/do-not-localize/code-based.gif)
+![](using/rn/assets/new-canvas3.gif)
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
 
->[!TAB Web 应用程序内消息传送]
+>[!TAB 适用于所有提供商的MMS]
 
-您现在可以使用新的 Web 应用程序内消息传送功能，通过模式叠加消息直接在网站上显示个性化内容。此功能使您能够有效地与 Web 访客互动，提升用户交互水平、保留率和转化率。
+使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于Sinch，现在也适用于Infobip和Twilio。
 
-![](using/rn/assets/do-not-localize/web_inapp.gif)
+![](using/rn/assets/do-not-localize/mms.gif)
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 

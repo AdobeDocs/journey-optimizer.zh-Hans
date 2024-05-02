@@ -8,8 +8,8 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -96,8 +96,6 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
    >您只能从历程的最新版本创建新版本。
 
 1. 进行修改，单击&#x200B;**[!UICONTROL 发布]**&#x200B;并确认。
-
-   ![](assets/journeyversions3.png)
 
 从历程发布的那一刻起，个人将开始转入历程的最新版本。已进入先前版本的用户将停留在该版本中，直到完成该历程。如果他们稍后重新进入同一历程，则将进入最新版本。
 

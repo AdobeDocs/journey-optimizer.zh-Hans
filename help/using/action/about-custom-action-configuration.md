@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 22%
+source-wordcount: '1450'
+ht-degree: 21%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
+   >只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
 1. 向操作添加描述。 此步骤是可选的。
 1. 使用此操作的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 按钮以显示使用此操作的历程列表。

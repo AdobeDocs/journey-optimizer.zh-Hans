@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 要使用测试模式，请执行以下步骤：
 
-1. 要激活测试模式，请激活 **[!UICONTROL 测试]** 切换，位于右上角。
+1. 要激活测试模式，请单击 **[!UICONTROL 测试模式]** 按钮，位于右上角。
 
    ![](assets/journeytest1.png)
 

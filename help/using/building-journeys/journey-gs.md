@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2004'
 ht-degree: 16%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 16%
 
 根据历程的状态、类型、版本和分配的标记，从筛选历程 **[!UICONTROL 状态和版本筛选器]**.
 
-类型可以是： **[!UICONTROL 单一事件]**， **[!UICONTROL 受众资格]**， **[!UICONTROL 读取受众]**， **[!UICONTROL 业务事件]** 或 **[!UICONTROL 突发]**.
+类型可以是： **[!UICONTROL 单一事件]**， **[!UICONTROL 受众资格]**， **[!UICONTROL 读取受众]** 或 **[!UICONTROL 业务事件]**.
 
 状态可以是：
 

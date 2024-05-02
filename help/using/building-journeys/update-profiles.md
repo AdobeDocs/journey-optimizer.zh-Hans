@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## 建议
 
-* 此 **更新配置文件** 操作只能在以具有命名空间的事件开始的历程中使用。
+* 此 **更新配置文件** 操作只能在具有命名空间的历程中使用。
 * 该操作仅更新现有字段，不创建新配置文件字段。
 * 您不能使用 **更新配置文件** 用于生成体验事件的操作，例如购买。
 * 与任何其他操作一样，您可以定义在发生错误或超时时的替代路径，并且不能将两个操作并行放置。

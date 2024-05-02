@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1644'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 ![](assets/journey59bis.png)
 
-根据历程的状态，您可以使用右上角的按钮对历程执行不同的操作： **[!UICONTROL Publish]**， **[!UICONTROL 复制]**， **[!UICONTROL 删除]**， **[!UICONTROL 历程属性]**， **[!UICONTROL 测试]**. 如果未选择任何活动，则会显示这些按钮。 某些按钮将会根据上下文显示。 激活测试模式时，将显示测试模式日志按钮。
+根据历程的状态，您可以使用右上角的按钮对历程执行不同的操作： **[!UICONTROL Publish]**， **[!UICONTROL 复制]**， **[!UICONTROL 删除]**， **[!UICONTROL 测试模式]**， **[!UICONTROL 管理访问权限]**， **[!UICONTROL 警报]**. 如果未选择任何活动，则会显示这些按钮。 某些按钮将会根据上下文显示。 激活测试模式时，将显示测试模式日志按钮。
 
 ![](assets/journey41.png)
 

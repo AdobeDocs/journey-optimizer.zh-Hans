@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 64%
+source-wordcount: '1531'
+ht-degree: 62%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 64%
 
    >[!NOTE]
    >
-   >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
+   >只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
 1. 向数据源添加描述。此步骤是可选的。
 1. 添加外部服务的 URL。在我们的示例中：_https://api.adobeweather.org/weather_。
@@ -86,7 +86,7 @@ ht-degree: 64%
 
    ![](assets/journey28.png)
 
-1. 通过单击为每个API参数集添加新字段组 **[!UICONTROL 添加新字段组]**. 请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
+1. 通过单击为每个API参数集添加新字段组 **[!UICONTROL 添加新字段组]**. 字段组名称中只允许使用字母数字字符和下划线。 最大长度为30个字符。 在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
 对于“long/lat”参数集，我们创建一个包含以下信息的字段组：
 

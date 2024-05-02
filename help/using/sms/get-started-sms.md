@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -26,10 +26,6 @@ ht-degree: 100%
 * 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择短信作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的短信/彩信消息。在[此页面](../campaigns/create-campaign.md#configure)中了解如何创建营销活动。
 
 Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商）发送文本消息。在创建短信/MMS 消息之前，请使用 Journey Optimizer 配置文本消息的服务提供商。[了解详情](sms-configuration.md)。
-
->[!IMPORTANT]
->
-> 仅当与 **Sinch** 集成时，才支持使用 Adobe Journey Optimizer 发送多媒体消息服务 (MMS)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

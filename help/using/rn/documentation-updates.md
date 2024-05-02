@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: ht
-source-wordcount: '5140'
-ht-degree: 100%
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+workflow-type: tm+mt
+source-wordcount: '5230'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,21 @@ ht-degree: 100%
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
 
+## 2024 年 5 月 {#may-2024}
+
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年4月版。 [了解详情](release-notes.md)
+
+
 ## 2024 年 4 月 {#april-2024}
 
 * 详细介绍了应用程序内消息传递的配置步骤。[了解详情](../in-app/inapp-configuration.md)
 * [优惠决策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和[批量决策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文档已更新。
 * 在决策管理文档中添加了关于通过 Edge Decisioning API 使用频率上限时的边缘和中心区域管理的信息。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 * 添加了关于使用 API 触发的营销活动时通过自定义命名空间创建身份的信息。[了解详情](../campaigns/api-triggered-campaigns.md)
+* 屏幕快照已更新，以反映改进的历程画布。
+* 以下页面中更新了命名约束条件： [配置单一事件](../event/about-creating.md)， [配置业务事件](../event/about-creating-business.md#gs-business-events)， [配置自定义操作](../action/about-custom-action-configuration.md#configuration-steps)， [外部数据源](../datasource/external-data-sources.md)
+* 已添加有关发送时间优化可用性的注释。 [了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* 新增了一个技术用例，介绍如何创建自定义操作以将数据发送到Experience Platform。 [了解详情](../building-journeys/custom-action-aep.md)
 
 ## 2024 年 3 月 {#march-2024}
 
@@ -82,6 +91,7 @@ ht-degree: 100%
 * 更新了事件字段语法。以下语法已弃用 `@(my_event.myfield}` 并替换为 `@event{my_event.myfield}`。[了解详情](../building-journeys/expression/field-references.md)
 * 重新编排了“全局报告”和“实时报告”指南。[了解详情](../reports/campaign-global-report.md)
 
++++ 2023
 
 ## 2023 年 11 月 {#nov-2023}
 
@@ -206,6 +216,8 @@ ht-degree: 100%
 * 添加了有关使用对象数组进行查找的限制的注释。[了解详情](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer] 中增添了关于数据管理的新页面。[了解详情](../data/gs-data.md)
 * 新增的表格中列出了使用 Decisioning API 提供优惠时，响应中可返回的所有代码。[了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++
 
 +++ 2022
 

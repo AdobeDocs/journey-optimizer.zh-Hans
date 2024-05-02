@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 跳转，活动，历程，拆分，拆分
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 9%
+source-wordcount: '842'
+ht-degree: 10%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
 ## 故障排除
 
-发布历程或处于测试模式时，如果出现以下情况，将发生错误：
+如果出现以下情况，将发生错误：
 * 目标历程不再存在
 * 目标历程为草稿、已关闭或已停止
 * 如果目标历程的第一个事件已更改并且映射已损坏

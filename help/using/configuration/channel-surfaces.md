@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1738'
 ht-degree: 10%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 10%
    >
    > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您也可以使用下划线 `_`，点`.` 和连字符 `-` 个字符。
 
+1. 要将自定义或核心数据使用标签分配给表面，您可以选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md).
+
 1. 如果您选择了 **[!UICONTROL 电子邮件]** 渠道，请按照中的说明配置设置 [本节](../email/email-settings.md).
 
    ![](assets/preset-email.png)
@@ -80,7 +82,7 @@ ht-degree: 10%
    >
    >有关如何配置环境以发送推送通知的更多信息，请参阅 [本节](../push/push-gs.md).
 
-1. 对于 **[!UICONTROL 短信]** 渠道，请定义您的设置，如中所述 [本节](../sms/sms-configuration.md#message-preset-sms).
+1. 对于 **[!UICONTROL 短信]** 渠道，请定义您的设置，如中所述 [本节](../sms/sms-configuration.md).
 
    ![](assets/preset-sms.png)
 
@@ -88,18 +90,17 @@ ht-degree: 10%
    >
    >有关如何配置环境以发送短信消息的更多信息，请参阅 [本节](../sms/sms-configuration.md).
 
-<!--
-1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+1. 选择 **[!UICONTROL 营销活动]** 使用此界面将同意策略与消息相关联。 所有与该营销操作相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
 
-    >[!NOTE]
-    >
-    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+   >[!NOTE]
+   >
+   >同意策略当前仅适用于已购买 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
-    ![](assets/surface-marketing-action.png)
+   ![](assets/surface-marketing-action.png)
 
-    >[!NOTE]
-    >
-    >You can only select one marketing action.-->
+   >[!NOTE]
+   >
+   >您只能选择一个营销操作。
 
 1. 配置完所有参数后，单击 **[!UICONTROL 提交]** 以确认。 也可以将渠道曲面另存为草稿，并稍后恢复其配置。
 
