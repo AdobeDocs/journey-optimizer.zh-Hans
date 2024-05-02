@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
@@ -202,7 +202,7 @@ Some edu specific content Content
 
 **示例**
 
-以下示例允许以美元为单位的所有交易产品总计的总和，其中总计大于$100且小于$1000。
+以下示例允许您计算购物车中价格在100和1000之间的产品的总价。
 
 ```sql
 {% let sum = 0%}
