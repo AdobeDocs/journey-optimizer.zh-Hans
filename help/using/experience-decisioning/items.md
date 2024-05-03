@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 14%
 
 要创建决策项目，请导航至 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 目录]**，然后单击 **[!UICONTROL 创建项目]** 然后按照以下部分中详述的步骤操作。
 
-## 定义决策项目的属性 {#attributes}
+## 定义决策项的属性 {#attributes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
@@ -70,7 +70,7 @@ ht-degree: 14%
 
 1. 定义决策项目的属性后，单击 **[!UICONTROL 下一个]**.
 
-## 配置决策项目的资格 {#eligibility}
+## 配置决策项的资格 {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
