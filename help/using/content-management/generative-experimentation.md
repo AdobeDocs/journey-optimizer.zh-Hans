@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-准备好消息并对消息进行个性化后，请使用Journey Optimizer AI助手（包括内容实验功能）提升您的内容。 此工具允许您定义多种交付处理方式（内容各异），以衡量目标受众的表现。
+准备好消息并对其进行个性化后，可使用Adobe Journey Optimizer中的AI助手（包括内容实验功能）提升您的内容。 此工具允许您定义多种交付处理方式（内容各异），以衡量目标受众的表现。
 
 1. 创建活动并使用AI助手生成变体。
 
