@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 016b823161b162cb00e0eae27cd45873752425ba
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 24%
 >id="ajo_admin_subdomain_sms"
 >title="委派 SMS/MMS 子域"
 >abstract="必须配置用于短信的子域，因为需要此子域才能创建短信表面。可使用已委派给 Adobe 的子域或配置新的子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信表面"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="创建短信表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="选择 SMS/MMS 子域"
 >abstract="要可创建短信表面，请确保您以前已配置至少一个短信表面，以供从子域名称列表中选择。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=zh-Hans#message-preset-sms" text="创建短信表面"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="创建短信表面"
 
 要缩短添加到短信/彩信消息的URL，您必须设置将在以下情况下选择的子域 [创建短信表面](sms-configuration.md#message-preset-sms).
 
