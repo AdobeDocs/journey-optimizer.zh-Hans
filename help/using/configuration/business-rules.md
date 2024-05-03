@@ -11,7 +11,8 @@ keywords: 消息，频率，规则，压力
 hide: true
 hidefromtoc: true
 badge: label="Beta 版"
-source-git-commit: c1eef06b0edc4e1bcd1b145f8f822295924b205c
+exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
+source-git-commit: f8d257b04d8682bb16fcccd3fd0ef9d5389a058d
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 10%
@@ -153,7 +154,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 >
 >确保已激活规则集，以便能够在消息中选择它。
 
-### 频率限制 {#frequency-cap}
+### 频率上限 {#frequency-cap}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -294,4 +295,3 @@ In this scenario, an individual profile:
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
 测试频率规则时，建议使用新创建的 [测试配置文件](../audience/creating-test-profiles.md)，因为一旦达到用户档案的频度上限，就无法在下一时段之前重置计数器。 停用规则将允许有上限的用户档案接收消息，但不会移除或删除任何计数器增量。
-
