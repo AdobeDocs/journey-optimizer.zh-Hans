@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
 source-wordcount: '1794'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 96%
             + [受众内](using/building-journeys/functions/functioninaudience.md)
          + 聚合 {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
-            + [计数](using/building-journeys/functions/functioncount.md)
+            + [count](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
@@ -516,7 +516,7 @@ ht-degree: 96%
          + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Experience Decisioning{#experience-decisioning}
    + [开始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
-   + 管理决策项目 {#decision-items}
+   + 管理决策项{#decision-items}
       + [配置项目目录](using/experience-decisioning/catalogs.md)
       + [创建决策项目](using/experience-decisioning/items.md)
       + [管理项目集合](using/experience-decisioning/collections.md)
