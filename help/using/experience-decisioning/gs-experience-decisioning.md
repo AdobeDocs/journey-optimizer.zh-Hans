@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 23%
+source-wordcount: '419'
+ht-degree: 19%
 
 ---
 
 # 开始使用 Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
-
-* **[Experience Decisioning入门](gs-experience-decisioning.md)**
-* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
-* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
-* [创建选择策略](selection-strategies.md)
-* [创建决策策略](create-decision.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>目前，体验决策功能仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。
+>
+>目前，已购买Adobe的客户无法使用该功能 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 
 ## 什么是Experience决策 {#about}
 
->[!AVAILABILITY]
->
->experience decisioning功能目前仅作为测试版向部分用户提供。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
->
->决策策略仅适用于基于代码的体验营销活动。
-
 通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项通过新的基于代码的体验渠道无缝集成到广泛的入站表面中，现在可以在 Journey Optimizer 营销活动中访问。
+这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的集客界面中。 Experience Decisioning决策策略仅适用于基于代码的体验营销活动。
 
 ## Experience Decisioning关键步骤 {#steps}
 
 使用Experience Decisioning的主要步骤如下：
 
-1. **分配适当的权限**. 决策仅适用于有权访问Experience Decisioning相关项目的用户 **[!UICONTROL 角色]** 例如“决策管理器”。 如果您无法访问决策，则必须扩展您的权限。
+1. **分配适当的权限**. Experience Decisioning仅适用于有权访问相关Experience Decisioning的用户 **[!UICONTROL 角色]** 例如“决策管理器”。 如果您无法访问Experience Decisioning，则必须扩展您的权限。
 
    +++了解如何分配决策管理者角色
 
@@ -66,7 +54,7 @@ ht-degree: 23%
 
 +++
 
-1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制决策项目的目录。
+1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制项目目录。
 
 1. **创建决策项目** 以向您的目标受众显示。
 

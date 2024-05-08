@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
-workflow-type: ht
-source-wordcount: '533'
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -61,12 +61,13 @@ ht-degree: 100%
 
 此&#x200B;**[!UICONTROL 标记]**&#x200B;字段允许您定义对象的标记。标记可用于以下对象：
 
-* [历程](../building-journeys/journey-gs.md#change-properties)
 * [营销活动](../campaigns/create-campaign.md#create)
-* [模板](../content-management/content-templates.md)
+* [决策项](../experience-decisioning/items.md)
 * [片段](../content-management/fragments.md)
-* [订阅列表](../landing-pages/subscription-list.md)
+* [历程](../building-journeys/journey-gs.md#change-properties)
 * [登陆页面](../landing-pages/create-lp.md)
+* [订阅列表](../landing-pages/subscription-list.md)
+* [模板](../content-management/content-templates.md)
 
 您可以选择现有标记，也可以创建新标记。要实现此目的，请执行以下步骤。
 

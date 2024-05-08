@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1018'
 ht-degree: 8%
 
 ---
@@ -71,15 +71,14 @@ ht-degree: 8%
 
    您还可以将部分代码内容另存为片段。 [了解如何操作](../content-management/fragments.md#save-as-expression-fragment)
 
-<!--
-1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
+1. 在基于代码的营销活动中，您可以使用Experience Decisioning功能。 选择 **[!UICONTROL 决策]** 图标，然后单击 **[!UICONTROL 创建决策]**. [了解详情](../experience-decisioning/create-decision.md)
 
-    ![](assets/code-based-campaign-create-decision.png)
+   ![](assets/code-based-campaign-create-decision.png)
 
-    >[!NOTE]
-    >
-    >The experience decisioning feature is currently available as a beta to select users only.
--->
+   >[!NOTE]
+   >
+   >experience decisioning功能目前仅作为测试版向部分用户提供。
+
 
 1. 单击 **[!UICONTROL 保存并关闭]** 以确认更改。
 

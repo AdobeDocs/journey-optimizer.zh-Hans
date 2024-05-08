@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 19%
+source-wordcount: '722'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="定义您的选择策略"
->abstract="选择策略是一个可重用的项，它由与资格约束和排名方法关联的收藏集组成，以确定要显示的在决策策略中选择的优惠。"
+>abstract="选择策略是可重复使用的，并且包括与资格限制相关联的集合以及确定在决策策略中被选择时要显示的优惠的排名方法。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="创建决策策略"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 19%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用决策规则"
 
->[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
-
-* [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
-* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
-* **[创建选择策略](selection-strategies.md)**
-* [创建决策策略](create-decision.md)
-
->[!ENDSHADEBOX]
-
-选择策略是可重复使用的项目，包括与资格约束关联的集合以及确定在中选择时显示的优惠的排名方法 [决策策略](create-decision.md).
+选择策略可重复使用，并且包括与资格限制关联的集合以及确定在中选择时显示的优惠的排名方法 [决策策略](create-decision.md).
 
 ## 访问和管理选择策略
 
-1. 转到 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 配置]** > **[!UICONTROL 选择策略]**.
+1. 转到 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 策略设置]** > **[!UICONTROL 选择策略]**.
 
 1. 将列出迄今为止创建的所有选择策略。 过滤器可帮助您根据排名方法检索策略。
 
@@ -77,8 +65,6 @@ ht-degree: 19%
 
 1. 选择 [收藏集](collections.md) 包含要考虑的选件。
 
-1. 选择选件 [收藏集](collections.md) 包含要考虑的选件。
-
 1. 使用 **[!UICONTROL 资格]** 用于限制此选择策略的选件选择的字段。
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ ht-degree: 19%
 
    * 如果要使用特定的计算得分来选择要交付的合格优惠，请选择 [公式](#ranking-formula) 或 [AI模型](#ai-ranking).
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。它现在已准备好用于 [决策](create-decision.md)
+1. 单击&#x200B;**[!UICONTROL 创建]**。它现在已准备好用于 [决策策略](create-decision.md)
 
 ## 选择排名方法 {#select-ranking-method}
 
@@ -113,7 +99,7 @@ ht-degree: 19%
 
 ### 优惠优先级 {#offer-priority}
 
-默认情况下，当多个优惠符合决策中的给定投放位置资格时，具有最高投放位置的项目 **优先级** 将首先交付给客户。
+默认情况下，当多个优惠符合决策策略中的给定投放位置资格时，具有最高投放位置的项目 **优先级** 将首先交付给客户。
 
 ![](assets/item-priority.png)
 

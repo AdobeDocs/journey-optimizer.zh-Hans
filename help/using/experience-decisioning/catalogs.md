@@ -5,28 +5,16 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 # 项目目录 {#catalog}
-
->[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
-
-* [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目： **[配置物料目录](catalogs.md)** - [创建决策项目](items.md) - [管理物料集合](collections.md)
-* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
-* [创建选择策略](selection-strategies.md)
-* [创建决策策略](create-decision.md)
-
->[!ENDSHADEBOX]
 
 在Experience Decisioning中，目录用作组织决策项目的中央容器。 每个目录都链接到Adobe Experience Platform架构，其中包含可分配给决策项目的所有属性。
 
@@ -53,10 +41,9 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >目前，Experience Decisioning专门支持下面列出的数据类型。 在创建决策项时，任何不属于这些数据类型的字段将不可用。
-   >* 字符串
-   >* 布尔值
-   >* 数值
+   >目前，Experience Decisioning专门支持以下数据类型：String、Integer、Boolean、Date、DateTime和Decisioning资产。 在创作决策项或目录时，任何不属于这些数据类型的字段将不可用。
+
+   为具有决策资产属性的属性输入的值是公共url。 大多数情况下，这会指向图像。
 
    有关如何使用Adobe Experience Platform架构的详细信息，请参阅 [XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans).
 

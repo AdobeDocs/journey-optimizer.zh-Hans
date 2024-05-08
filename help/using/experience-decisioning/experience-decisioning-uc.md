@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="有限发布版"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 10%
+source-wordcount: '330'
+ht-degree: 6%
 
 ---
 
 # Experience Decisioning用例 {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
-
-* [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目： [配置物料目录](catalogs.md) -[创建决策项目](items.md) - [管理物料集合](collections.md)
-* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
-* [创建选择策略](selection-strategies.md)
-* [创建决策策略](create-decision.md)
-
->[!ENDSHADEBOX]
 
 在此使用案例中，您定义了两种投放处理，每种处理包含不同的决策策略，以便衡量哪种策略对目标受众的表现最好。
 
@@ -52,11 +40,7 @@ ht-degree: 10%
 
 定义两个投放处理，每个处理包含不同的决策策略。
 
-1. 创建营销策划并选择 **[!UICONTROL 代码库体验(Beta)]** 操作。 [了解详情](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >基于代码的体验功能目前作为测试版提供，仅限部分用户使用。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+1. 创建营销策划并选择 **[!UICONTROL 基于代码的体验]** 操作。 [了解详情](../code-based/create-code-based.md)
 
 1. 在营销活动摘要页面中，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。 [了解详情](../campaigns/content-experiment.md)
 

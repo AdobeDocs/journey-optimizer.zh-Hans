@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 35%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 
@@ -88,8 +88,4 @@ ht-degree: 35%
 
 ## 优惠和决策更改日志 {#changes-logs}
 
-优惠库允许您可视化对优惠或决策所做的所有更改。 为此，请在列表中单击优惠名称或决策名称来打开优惠或决策，然后选择 **[!UICONTROL 更改日志]** 选项卡。
-
-此屏幕中显示所有已完成的更改，还显示执行更改的用户姓名。
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] 允许您可视化对优惠或决策所做的所有更改。 为此，请访问 **[!UICONTROL 审核]** 菜单。 [了解如何审核针对资源的操作](../../privacy/audit-logs.md)

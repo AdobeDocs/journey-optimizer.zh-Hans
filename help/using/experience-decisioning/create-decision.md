@@ -1,18 +1,16 @@
 ---
-title: 创建决策
-description: 了解如何创建决策
+title: 创建决策策略
+description: 了解如何创建决策策略
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
+badge: label="有限发布版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 12%
+source-wordcount: '1481'
+ht-degree: 10%
 
 ---
 
@@ -21,20 +19,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="决策是什么？"
->abstract="决策策略利用体验决策引擎根据受众选取最适合投放的内容。"
+>abstract="决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="关于体验决策"
 
->[!BEGINSHADEBOX “您将在本文档指南中找到什么”]
-
-* [开始使用 Experience Decisioning](gs-experience-decisioning.md)
-* 管理您的决策项目： [配置物料目录](catalogs.md) - [创建决策项目](items.md) - [管理物料集合](collections.md)
-* 配置项目的选择： [创建决策规则](rules.md) - [创建排名方法](ranking.md)
-* [创建选择策略](selection-strategies.md)
-* **[创建决策策略](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 决策策略是优惠的容器，它们利用Experience Decisioning引擎根据受众选择要投放的最佳内容。
+
+决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ ht-degree: 12%
 
 要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请向基于代码的营销活动添加决策策略。 要实现此目的，请执行以下步骤。
 
-1. 创建营销策划并选择 **[!UICONTROL 代码库体验(Beta)]** 操作。 [了解详情](../code-based/create-code-based.md)
+1. 创建营销策划并选择 **[!UICONTROL 基于代码的体验]** 操作。 [了解详情](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >基于代码的体验功能目前作为测试版提供，仅限部分用户使用。
-
-1. 从 [代码编辑器](../code-based/create-code-based.md#edit-code)，选择 **[!UICONTROL 决策]** 图标并单击 **[!UICONTROL 创建决策]**.
+1. 从 [代码编辑器](../code-based/create-code-based.md#edit-code)，选择 **[!UICONTROL 决策策略]** 图标并单击 **[!UICONTROL 添加决策策略]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -109,11 +95,9 @@ ht-degree: 12%
    >
    >回退是可选的。 如果未选择任何回退，并且没有限定策略，则不会显示任何内容。 [!DNL Journey Optimizer].
 
-1. 保存您的选择并单击 **[!UICONTROL 创建]**. 新的决策策略被添加在 **[!UICONTROL 决策]**.
+1. 保存您的选择并单击 **[!UICONTROL 创建]**. 现在，决策策略已创建，您可以在基于代码的体验内容中使用决策属性。 [了解详情](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-现在，决策策略已创建，您可以在基于代码的体验内容中使用决策属性。 [了解详情](#use-decision-policy)
 
 ## 评估顺序 {#evaluation-order}
 
@@ -181,7 +165,7 @@ ht-degree: 12%
 >
 >基于代码的体验可利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
-1. 单击+图标。 将添加与决策策略对应的代码。 现在，您可以在该代码中添加所需的所有决策属性。
+1. 单击 **[!UICONTROL 插入策略]** 按钮。 将添加与决策策略对应的代码。
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -189,19 +173,18 @@ ht-degree: 12%
    >
    >此序列将按您希望返回决策策略的次数重复。 例如，如果您选择在 [创建决策](#add-decision)，则同一序列将重复两次。
 
-1. 单击决策策略。 此时将显示决策属性。
-
-   这些属性存储在 **[!UICONTROL 选件]** 目录的架构。 自定义属性存储在 **`_<imsOrg`>** 文件夹和中的标准属性 **`_experience`** 文件夹。 [了解有关优惠目录架构的更多信息](catalogs.md)
+1. 现在，您可以在该代码中添加所需的所有决策属性。 可用的属性存储在 **[!UICONTROL 选件]** 目录的架构。 自定义属性存储在 **`_<imsOrg`>** 文件夹和中的标准属性 **`_experience`** 文件夹。 [了解有关优惠目录架构的更多信息](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >对于决策策略项目跟踪， `trackingToken`对于决策策略内容，需要添加如下属性：
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 单击每个文件夹以将其展开。 将鼠标光标置于所需位置，然后单击要添加属性旁边的+图标。 您可以向代码添加任意数量的属性。
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. 要导航回决策策略根目录，请单击文件夹图标。
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. 您还可以添加表达式编辑器中可用的任何其他属性，如配置文件属性。
 

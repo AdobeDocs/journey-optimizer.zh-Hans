@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 
 ## 审核日志记录的事件类型 {#events}
 
-下表概述了由审核日志记录的对 Journey Optimizer 资源执行的操作。
+下表概述了审核日志记录的Journey Optimizer资源操作。 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans#category)中提供了审核日志记录的完整操作列表。
 
 >[!NOTE]
 >
->[Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=zh-Hans#category)中提供了审核日志记录的完整操作列表。
+>与相关的审核日志 **决策管理** 仅从可使用下载的CSV文件中可见 **[!UICONTROL 下载日志]** 按钮。
 
 | 资源 | 操作 |
 |-----------|------------------|
