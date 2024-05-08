@@ -20,7 +20,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="创建组合"
->abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除......）来创建新的受众。"
+>abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除等）来创建新的受众。"
 
 >[!BEGINSHADEBOX]
 
