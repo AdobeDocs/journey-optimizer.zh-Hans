@@ -7,7 +7,7 @@ role: User
 level: Experienced
 badge: label="有限发布版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 10%
@@ -20,7 +20,7 @@ ht-degree: 10%
 >id="ajo_code_based_decision"
 >title="决策是什么？"
 >abstract="决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="关于体验决策"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于体验决策"
 
 决策策略是优惠的容器，它们利用Experience Decisioning引擎根据受众选择要投放的最佳内容。
 
@@ -46,8 +46,8 @@ ht-degree: 10%
 >id="ajo_code_based_strategy"
 >title="策略是什么？"
 >abstract="选择策略的顺序决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="创建策略"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=zh-Hans" text="评估顺序"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="创建策略"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="评估顺序"
 
 要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请向基于代码的营销活动添加决策策略。 要实现此目的，请执行以下步骤。
 
