@@ -10,7 +10,8 @@ level: Beginner
 badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 5c4b7cde5514f60f61050837fc9ae325f7bef2e8
+exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 8%
@@ -25,8 +26,8 @@ ht-degree: 8%
 
 * [AI 助手入门](gs-generative.md)
 * [使用 AI 助手生成电子邮件](generative-email.md)
-* [使用 AI 助手生成短信](generative-sms.md)
-* **[使用AI助手生成推送](generative-push.md)**
+* 使用 AI 助手生成短信
+* [使用AI助手生成推送](generative-push.md)
 * [使用AI助手进行内容试验](generative-experimentation.md)
 
 >[!ENDSHADEBOX]

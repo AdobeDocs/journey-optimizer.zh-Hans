@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beta 版" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 34%
 
 **目录**
 
-* **[多语言内容入门](multilingual-gs.md)**
+* 多语言内容入门
 * [使用手动翻译创建多语言内容](multilingual-manual.md)
 * [使用自动翻译创建多语言内容](multilingual-automated.md)
 * [多语言营销活动报告](multilingual-report.md)

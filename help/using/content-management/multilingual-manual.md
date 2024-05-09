@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 多语言内容入门
-description: 了解有关 Journey Optimizer 中的多语言内容的更多信息
+title: 使用手动翻译创建多语言内容
+description: 了解如何在Journey Optimizer中使用手动翻译创建多语言内容
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beta 版" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '665'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 **目录**
 
 * [多语言内容入门](multilingual-gs.md)
-* **[使用手动翻译创建多语言内容](multilingual-manual.md)**
+* 使用手动翻译创建多语言内容
 * [使用自动翻译创建多语言内容](multilingual-automated.md)
 * [多语言营销活动报告](multilingual-report.md)
 

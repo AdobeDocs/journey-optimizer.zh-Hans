@@ -8,7 +8,7 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 * [配置Web应用程序内渠道](configure-in-app-web.md)
 * [创建您的Web应用程序内消息促销活动](create-in-app-web.md)
-* **[设计Web应用程序内内容](#in-app-web-design)**
+* 设计Web应用程序内内容
 
 >[!ENDSHADEBOX]
 

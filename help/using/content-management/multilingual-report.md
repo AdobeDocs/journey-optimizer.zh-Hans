@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 多语言内容入门
+title: 多语言营销活动报告
 description: 详细了解Journey Optimizer中有关多语言内容的报告
 feature: Multilingual Content
 topic: Content Management
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
 badge: label="Beta 版" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 15%
+source-wordcount: '215'
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 * [多语言内容入门](multilingual-gs.md)
 * [使用手动翻译创建多语言内容](multilingual-manual.md)
 * [使用自动翻译创建多语言内容](multilingual-automated.md)
-* **[多语言营销活动报告](multilingual-report.md)**
+* 多语言营销活动报告
 
 >[!ENDSHADEBOX]
 
