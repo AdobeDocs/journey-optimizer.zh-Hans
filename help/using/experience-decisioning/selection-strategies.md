@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="有限发布版"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 15%
@@ -20,14 +20,14 @@ ht-degree: 15%
 >id="ajo_exd_config_strategies"
 >title="定义您的选择策略"
 >abstract="选择策略是可重复使用的，并且包括与资格限制相关联的集合以及确定在决策策略中被选择时要显示的优惠的排名方法。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="创建决策策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合条件的配置文件"
 >abstract="可限制为此选择策略选择优惠。默认情况下，所有配置文件都符合条件，但您可使用受众或规则仅限特定配置文件选择优惠。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="使用决策规则"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用决策规则"
 
 选择策略可重复使用，并且包括与资格限制关联的集合以及确定在中选择时显示的优惠的排名方法 [决策策略](create-decision.md).
 
@@ -89,7 +89,7 @@ ht-degree: 15%
 >id="ajo_exd_strategy_ranking"
 >title="定义如何为优惠排名"
 >abstract="如果有多项优惠符合给定的选择策略，请在创建选择策略时选择将为每个配置文件选择最佳优惠的方法：优先级或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="创建决策策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
 
