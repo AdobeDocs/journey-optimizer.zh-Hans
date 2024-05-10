@@ -47,7 +47,7 @@ ht-degree: 14%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
 >abstract="选择要从当前阶段排除的域。域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. 对于每个阶段，选择要与IP预热计划的此阶段关联的活动。
+1. 对于每个阶段，选择要与IP热备计划的此阶段关联的营销活动。
 
    >[!NOTE]
    >
@@ -90,21 +90,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-      例如，在执行阶段1时，必须 [拆分](#split-phase) 不管怎么说。 因此，您可以排除阶段1中使用的营销活动，以便之前在第1阶段联系的用户档案不包括在第2阶段中。 您还可以从其他IP预热计划中排除营销活动。
+      例如，在执行阶段1时，必须 [拆分](#split-phase) 不管怎么说。 因此，您可以排除阶段1中使用的营销活动，以便之前在第1阶段联系的用户档案不包括在第2阶段中。 您也可以从其他IP热备计划中排除营销活动。
 
-   1. 从 **[!UICONTROL 排除的域组]** 部分中，选择要从该阶段中排除的域。
+   1. 从 **[!UICONTROL 排除的域组]** 部分，选择要从该阶段中排除的域。
 
       >[!NOTE]
       >
-      >域排除需要一个非执行阶段，因此您可能必须 [拆分正在运行的阶段](#split-phase) 以添加排除项。
+      >排除域需要非执行阶段，因此可能必须 [拆分正在运行的阶段](#split-phase) 添加排除项。
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
-      例如，运行IP预热几天后，您意识到您在域(例如Adobe)的ISP信誉不佳，您希望在不停止IP预热计划的情况下解决该问题。 在这种情况下，您可以排除Adobe域组。
+      例如，在运行IP预暖运行几天后，您发现您有一个域的ISP信誉不佳(例如Adobe)，希望在不停止IP预暖计划的情况下解决此问题。 在这种情况下，您可以排除Adobe域组。
 
       >[!NOTE]
       >
-      >您只能排除已添加到中的自定义域组 [IP预热计划模板](ip-warmup-plan.md#prepare-file). 如果不是这种情况，请使用要排除的自定义域组更新模板，然后 [重新上传计划](#re-upload-plan).
+      >您只能排除已添加到 [IP热备计划模板](ip-warmup-plan.md#prepare-file). 如果不是这种情况，请用要排除的自定义域组更新模板，然后 [重新上传计划](#re-upload-plan).
 
 1. 如果需要，您可以使用替换促销活动 **[!UICONTROL 替换营销活动]** 按钮。
 
@@ -215,7 +215,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 要激活运行，请选择 **[!UICONTROL 激活]** 按钮。 然后，您可以每天激活下一个运行。
 
-确保您已计划足够的时间来允许 [受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 将执行。
+确保您已安排足够的时间来允许 [受众评价](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 待执行。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -251,7 +251,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
      >[!NOTE]
      >
-     >每次运行都会创建一个新的受众组合。
+     >每次运行都会创建一个新的受众合成。
      >
      >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
 
@@ -265,9 +265,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 要成功执行IP预热计划，您需要每天监视报告、激活运行并检查其状态。
 
-### 使用“高亮”部分 {#highlights}
+### 使用“高光”部分 {#highlights}
 
-一旦为某个阶段激活了第一次运行， **[!UICONTROL 高亮]** 部分会显示。
+为某个阶段激活第一次运行后， **[!UICONTROL 高光]** 部分将会显示。
 
 它提供了当前运行和即将运行的快速概述。 在此部分中，您还可以编辑和激活下次运行。
 
@@ -287,15 +287,15 @@ IP预热计划本身就是单个位置的整合报告。 您可以检查元素�
 * **[!UICONTROL 实时]**：无论何时激活运行，都会使用 **[!UICONTROL 实时]** 状态。 这意味着系统已接受计划运行的请求，而不是发送已开始。
 * **[!UICONTROL 已完成]**：此运行的营销活动执行已完成。 <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 停止]** 按钮，或者您已启用 **[!UICONTROL 因错误而暂停]** 选项并发生错误。 [了解详情](#define-runs)
-* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止。 如果某个运行失败，您可以计划第二天再次运行。
+* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止。 如果运行失败，您可以安排在下一天再次运行。
 
 ### 使用报告 {#reports}
 
-更一般地说，要衡量计划的影响，您可以使用 [!DNL Journey Optimizer] 营销活动报表。 为此，对于每个已完成的运行，您可以单击 **[!UICONTROL 查看报表]** 按钮。 了解有关营销活动电子邮件的更多信息 [实时报告](../reports/campaign-live-report.md#email-live) 和 [全局报告](../reports/campaign-global-report.md#email-global).
+更一般地说，为了衡量计划的影响，您可以使用 [!DNL Journey Optimizer] 营销活动报告。 为此，对于每个已完成的运行，您可以单击 **[!UICONTROL 查看报告]** 按钮。 通过营销活动电子邮件了解详情 [实时报告](../reports/campaign-live-report.md#email-live) 和 [全局报告](../reports/campaign-global-report.md#email-global).
 
 ![](assets/ip-warmup-plan-reports.png)
 
-您还可以从以下位置访问报告： [营销活动菜单](../campaigns/modify-stop-campaign.md#access) 因为您的计划可能会使用不同的营销活动。
+您也可以从 [“市场活动”菜单](../campaigns/modify-stop-campaign.md#access) 因为您的计划可能会使用不同的营销活动。
 
 ## 管理您的计划 {#manage-plan}
 
@@ -355,7 +355,7 @@ But need to explain in which case you want to modify campaigns, provide examples
 
 ![](assets/ip-warmup-plan-mark-completed.png)
 
-仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已完成]** 或 **[!UICONTROL 草稿]** 状态。 如果运行是 **[!UICONTROL 实时]**&#x200B;时，选项将灰显。
+仅当计划中的所有运行都在 **[!UICONTROL 已完成]** 或 **[!UICONTROL 草稿]** 状态。 如果运行是 **[!UICONTROL 直播]**&#x200B;中，该选项显示为灰色。
 
-中列出了不同的运行状态 [本节](#monitor-plan).
+中列出了不同的运行状态 [本部分](#monitor-plan).
 

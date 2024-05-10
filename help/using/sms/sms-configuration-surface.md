@@ -6,20 +6,21 @@ description: 了解如何使用Journey Optimizer配置短信/彩信界面以发�
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 0d541520-016e-468f-b011-808712847556
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 创建短信/彩信表面 {#message-preset-sms}
+# 创建短信息/彩信表面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
 >abstract="选择使用此表面的短信的类型：营销型的推广短信（需要用户同意）或交易型的非商业短信，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择退出营销短信消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择退出营销短信消息"
 
 配置短信/彩信渠道后，您必须创建一个渠道平面，以便能够从中发送短信和彩信消息 **[!DNL Journey Optimizer]**.
 
@@ -87,4 +88,3 @@ ht-degree: 7%
    ![](assets/preset-active.png)
 
 您现在可以使用Journey Optimizer发送短信。
-

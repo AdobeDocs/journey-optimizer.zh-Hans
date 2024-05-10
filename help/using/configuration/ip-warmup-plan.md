@@ -27,7 +27,7 @@ ht-degree: 8%
 
 * [开始使用 IP 预热计划](ip-warmup-gs.md)
 * [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* **[创建IP预热计划](ip-warmup-plan.md)**
+* **[创建IP热备计划](ip-warmup-plan.md)**
 * [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
@@ -106,11 +106,11 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 >
 >现在，您应该将 **属性** 和 **值** 未接触的单元格。
 
-### “IP预热计划”选项卡 {#ip-warmup-plan-tab}
+### “IP热备计划”选项卡 {#ip-warmup-plan-tab}
 
-* 在此示例中，已准备了跨越17天的计划(称为&#39;**运行**‘)以实现超过100万用户档案的目标数量。
+* 在本例中，我们编写了一个跨越17天的计划(称为“**运行**`)实现超过一百万个配置文件的目标数量。
 
-* 该计划在六年内执行 **阶段**，每个报表包至少包含一个运行。
+* 这项计划要持续到六个月 **阶段**，每个都至少包含一个运行。
 
 * 对于要交付到的域，您可以拥有任意数量的列。 在此示例中，计划分为六个列：
 
@@ -119,7 +119,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
    * 第六纵队， **其他**，包含计划中未明确涵盖的其他域的所有剩余地址。 此列是可选的：如果忽略，电子邮件将只发送到指定的域。
 * 此 **参与天数** 列会显示仅定向在输入的最后一个期间与您的品牌互动的用户档案。
 
-其思想是逐步增加每次运行的目标地址数量，同时减少每个阶段的运行数量。
+其思想是逐步增加每次运行中的目标地址数量，同时减少每个阶段的运行数量。
 
 下面列出了可添加到计划中的现成主域组：
 
@@ -150,7 +150,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 +++Comcast comcast.net
 +++
 
-+++Yahoo aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；yahoo.fi；；yahoo.hr；aol.cz；yahoo.ee；aol.be；aolcom.tr；yahoo.si；；aol.it；；yahoo.es；yahogroups.ca；；aol.kr；yahoo.ie；aol.jp；；aol.nl；yahoo.bg；；aol.se；yahoo.de；；；；aol.dk；；yahoo.nl；；；aol.dk；AOL.k；SK；yahogroups.de yahoo.gr；；yahoo.ro；；yahoo.gr；；aol.in；yahoo.rs；aol.de；aol；；；；yahoo.se；myaol yahoo.pt；；yahoo.pt；；yahogrupper.dk； yahoo.fr；；；aol.ch； yahoo.it；； AOLPOLCKA.pl；；；yahogruppi.it；；yahoo.cl；；；
++++Yahoo aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hu；；aolpoland.pl；aolnorge.no；yahoo.fi；；yahoo.hr；aol.cz；yahoo.ee；aol.be；aolcom.tr；yahoo.si；aol.it；yahoo.es；yao.dk；yahohogroups.ca；；yahoo gr.gr；aol.in yahoo.rs；aol.rs；aol.dk；；yahogruppi.it；；yahoo.cl；；；；；；；
 +++
 
 +++Bigpond bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
@@ -185,9 +185,9 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 ### “自定义域组”选项卡 {#custom-domain-group-tab}
 
-您还可以通过包含自定义域组向计划添加更多列。
+您还可以通过包含自定义域组来为计划添加更多列。
 
-使用 **[!UICONTROL 自定义域组]** 选项卡来定义新域组。 对于每个域，您可以添加它涵盖的所有子域。<!--TBC-->
+使用 **[!UICONTROL 自定义域组]** 选项卡来定义新的域组。 对于每个域，您可以添加它所覆盖的所有子域。<!--TBC-->
 
 例如，如果添加自定义域Luma，则需要包含以下子域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
@@ -195,12 +195,12 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 ### 示例 {#example}
 
-假设您要有两个自定义域组：
+假设您想拥有两个自定义域组：
 
 * 一个仅用于Hotmail域。
 * 一个用于域组Microsoft中的所有其他域（因此不包括所有Hotmail域）。
 
-请注意，所有其他域都将收集到 **[!UICONTROL 其他]** 列。
+请注意，所有其他域将收集到 **[!UICONTROL 其他]** 列。
 
 1. 在 **[!UICONTROL 自定义域组]** 选项卡，创建 **Hotmail** 域组。
 
@@ -255,13 +255,13 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    >[!NOTE]
    >
-   >仅限具有以下属性的计划： **未开始** 状态可删除。
+   >仅限与相关的计划 **未开始** 可以删除状态。
 
    ![](assets/ip-warmup-delete-plan.png)
 
    >[!CAUTION]
    >
-   >选定的IP预热计划将被永久删除。
+   >选定的IP热备计划将被永久删除。
 
 ## 创建 IP 预热计划 {#create-ip-warmup-plan}
 
@@ -269,7 +269,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
 >abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标配置文件数，然后在此处上传它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hans#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
@@ -288,11 +288,11 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 选择 [曲面](channel-surfaces.md) 想要热身。 仅营销表面可供选择。 [了解有关电子邮件类型的更多信息](../email/email-settings.md#email-type)
+1. 选择 [曲面](channel-surfaces.md) 想要热身。 仅营销表面可供选择。 [详细了解电子邮件类型](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >要与IP预热计划关联的营销活动必须使用同一表面。 [了解如何创建IP预热活动](ip-warmup-campaign.md)
+   >您想要与IP热备计划关联的营销活动必须使用相同的界面。 [了解如何创建IP预热活动](ip-warmup-campaign.md)
 
 1. 上载包含IP预热计划的Excel文件。 [了解详情](#prepare-file)
 
@@ -311,6 +311,6 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 已定位]** 列显示每次运行的所有定向配置文件的总和，这意味着来自您定义的每个域组的所有配置文件，包括 **其他** 列（如果有）。
+   >该 **[!UICONTROL 有针对性]** 列显示每次运行所针对的所有概要文件的总和，即所定义的每个域组的所有概要文件，包括 **其他** 列（如果有）。
 
-您现在可以执行IP预热计划了。 [了解详情](ip-warmup-execution.md)
+您现在已准备好执行IP热备计划。 [了解详情](ip-warmup-execution.md)

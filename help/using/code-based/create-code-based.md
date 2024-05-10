@@ -49,7 +49,7 @@ ht-degree: 8%
 >id="ajo_code_based_experience"
 >title="使用表达式编辑器"
 >abstract="插入和编辑要作为此基于代码的体验操作的一部分提供的代码。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="开始使用表达式编辑器"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=zh-Hans" text="开始使用表达式编辑器"
 
 1. 从促销活动版本屏幕中，选择 **[!UICONTROL 编辑代码]**.
 

@@ -22,7 +22,7 @@ ht-degree: 21%
 >id="ajo_use_template"
 >title="从模板构建内容"
 >abstract="要开始创建您的电子邮件内容，请选择现成的模板或自定义的现有模板，后者可以是从头开始创建的模板，也可以是从以前的电子邮件另存为的模板。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="创建内容模板"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html?lang=zh-Hans#create-content-templates" text="创建内容模板"
 
 从 **[!UICONTROL 创建电子邮件]** 屏幕，使用 **[!UICONTROL 选择设计模板]** 部分，以开始从模板构建内容。
 

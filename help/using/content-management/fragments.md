@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_fragment"
 >title="定义您自已的片段"
 >abstract="创建和管理独立的片段，以便可在多个历程和营销活动中重用您的内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="创建片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=zh-Hans#create-fragments" text="创建片段"
 
 片段是可重复使用的组件，可在其中一个或多个电子邮件中引用 [!DNL Journey Optimizer] 营销活动和历程。
 
@@ -170,7 +170,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="选择可视类型"
 >abstract="创建独立的可视片段，以便可在历程或营销活动的电子邮件中或内容模板中重用您的内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="将可视片段添加到电子邮件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=zh-Hans" text="将可视片段添加到电子邮件"
 
 1. [创建片段](#create-from-scratch) 从 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左菜单并选择 **[!UICONTROL 可视片段]** 类型。
 
@@ -200,7 +200,7 @@ ht-degree: 13%
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
 >abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。在使用表达式编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="利用表达式片段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=zh-Hans" text="利用表达式片段"
 
 1. [创建片段](#create-from-scratch) 从 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左菜单并选择 **[!UICONTROL 表达片段]** 类型。
 

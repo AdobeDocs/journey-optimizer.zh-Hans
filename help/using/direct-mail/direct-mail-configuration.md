@@ -36,7 +36,7 @@ ht-degree: 31%
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
 >abstract="创建直邮之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投递直邮。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="创建直邮消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=zh-Hans" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
