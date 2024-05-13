@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1561'
 ht-degree: 13%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 * 可视化片段仅适用于电子邮件渠道
 
-* 表达式片段不适用于Web和应用程序内渠道
+* 表达式片段不适用于应用程序内渠道
 
 ## 访问和管理片段 {#access-manage-fragments}
 
