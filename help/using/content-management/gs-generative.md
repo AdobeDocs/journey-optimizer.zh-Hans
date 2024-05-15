@@ -11,19 +11,32 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 43%
+source-wordcount: '658'
+ht-degree: 54%
 
 ---
 
 # AI 助手入门 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
->id="ajo_content_generation"
->title="创建电子邮件内容"
->abstract="Adobe Journey Optimizer 中的 AI 助手可以主动为文本和图像提供内容变体建议。这可用于电子邮件、推送、短信和 Web 渠道。这项新功能可用于快速的文本和图像生成。"
+>id="ajo_ai_generation_settings"
+>title="AI 助手"
+>abstract="在精心设计并个性化设置投放后，您可使用 AI 助手来增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_context"
+>title="使用AI助手定义上下文"
+>abstract="要将所选内容用作内容生成的输入，请激活 **使用原始内容** 切换。 还可上传品牌资源以将其用作来源。如果不使用所选内容，则必须上传并选择品牌资源。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_start"
+>title="Adobe 生成式 AI 条款"
+>abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。您向此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定的上下文关联，这些特定的上下文可包括您的品牌宣传材料、网站内容、数据、此类数据的架构、模板或其他可信文档，并且不得包含任何个人信息（个人信息包括任何可追溯回具体个人的信息）。您应检查此功能产生的任何输出是否准确，并确保它适合您的用例"
+>additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
 
 >[!BEGINSHADEBOX]
 
