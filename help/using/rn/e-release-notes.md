@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
+source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 31%
+source-wordcount: '836'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,9 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建精细的频率上限规则，并通过规则集将它们应用于不同类型的营销通信。 </p>
+<p>您现在可以创建精细的频率上限规则，并通过规则集将它们应用于不同类型的营销通信。 这项新功能允许您通过设置跨渠道规则来控制受众接收消息的频率，这些规则会自动从消息和操作中排除过度请求的用户档案。</p>
+<p>Business Rules功能目前仅作为公共测试版提供。</p>
+<p>有关更多信息，请参阅<a href="../configuration/business-rules.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -103,16 +105,16 @@ ht-degree: 31%
 
 **Experience Decisioning**
 
-从Beta版到洛杉矶版，已添加以下改进：
+从测试版到此版本，添加了以下改进：
 
-* **Experience Decisioning +基于代码的体验(LA)**：您现在可以利用Experience Decisioning功能在基于代码的营销活动中使用决策项。 注意：基于代码的Experience Channel和Experience Decisioning不适用于已购买AdobeHealthcare Shield和Privacy and Security Shield附加产品的组织。 [了解详情](../code-based/get-started-code-based.md)
-* 您现在可以在决策规则和排名公式中利用Adobe Experience Platform中的上下文数据。 [了解详情](../experience-decisioning/context-data.md)
-* 现在，决策管理资源具有新的“管理体验决策”权限。它允许您管理与体验决策相关的权限。 [了解详情](../experience-decisioning/gs-experience-decisioning.md)
-* 您现在可以在体验决策中对特定决策项添加多个上限规则。这样，您就可以提高对优惠发送方式的控制级别。 [了解详情](../experience-decisioning/items.md#capping)
-* 您现在可以使用以下内容创建Experience Decisioning营销活动的自定义报告仪表板 [!DNL Customer Journey Analytics]. [了解详情](../experience-decisioning/cja-reporting.md)
+* **Experience Decisioning +基于代码的体验(LA)**  — 您现在可以利用Experience Decisioning功能在基于代码的营销活动中使用决策项。 注意：基于代码的Experience Channel和Experience Decisioning不适用于已购买AdobeHealthcare Shield和Privacy and Security Shield附加产品的组织。 [了解详情](../code-based/get-started-code-based.md)
+* **上下文数据**  — 您现在可以在决策规则和排名公式中利用Adobe Experience Platform的上下文数据。 [了解详情](../experience-decisioning/context-data.md)
+* **新建权限**  — 新的“管理体验决策”权限现在可用于决策管理资源。 它允许您管理与体验决策相关的权限。 [了解详情](../experience-decisioning/gs-experience-decisioning.md)
+* **上限规则**  — 您现在可以在Experience Decisioning中为给定决策项目添加多个上限规则。 这样，您就可以提高对优惠发送方式的控制级别。 [了解详情](../experience-decisioning/items.md#capping)
+* **报表**  — 您现在可以使用以下项目创建Experience Decisioning营销活动的自定义报告仪表板 [!DNL Customer Journey Analytics]. [了解详情](../experience-decisioning/cja-reporting.md)
 
 
-**Offer Decisioning**
+**决策管理**
 
 * **多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。
 * **审核** - **更改日志** 选项卡允许您查看对优惠或决策所做的所有更改已被删除。 现在，可在&#x200B;**审核**&#x200B;菜单中查看与优惠和决策相关的更改。
@@ -134,6 +136,6 @@ ht-degree: 31%
 
 **历程**
 
-* **合并策略**  — 现在可以配置合并策略并在历程中使用。
+* **合并策略** （有限可用性） — 历程使用的合并策略现在在整个历程中可见并保持一致。
 * **mTLS支持** - Journey Optimizer API和自定义操作现在支持mTLS协议。
 * **事件中的查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
