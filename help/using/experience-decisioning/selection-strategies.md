@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="定义您的选择策略"
->abstract="选择策略是可重复使用的，并且包括与资格限制相关联的集合以及确定在决策策略中被选择时要显示的优惠的排名方法。"
+>abstract="选择策略是一个可重复的项，它由与资格约束和排名方法关联的收藏集组成，以确定在决策策略中选择时要显示的报价。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 >[!CONTEXTUALHELP]

@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="决策是什么？"
->abstract="决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。"
+>abstract="决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个配置文件选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于体验决策"
 
 决策策略是优惠的容器，它们利用Experience Decisioning引擎根据受众选择要投放的最佳内容。
 
-决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。
+决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个配置文件选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。
 
 >[!NOTE]
 >

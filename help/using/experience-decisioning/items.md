@@ -10,7 +10,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '1746'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
 >id="ajo_exd_items"
 >title="管理决策项"
 >abstract="通过 Journey Optimizer，可创建营销优惠（称为决策项）并将其整理到集中目录和收藏集中。目前，所有创建的决策项都会被合并到一个“优惠”目录中。在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置物料目录"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
 通过 Journey Optimizer，可创建营销优惠（称为决策项）并将其整理到集中目录和收藏集中。它们由旨在精确满足您需求的标准和自定义属性组成。 此外，它们包含配置文件约束，允许您定义决策项目可以显示给谁。
 
@@ -39,7 +39,7 @@ ht-degree: 14%
 >id="ajo_exd_item_custom_attributes"
 >title="定义自定义属性"
 >abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。在决策项的目录架构中创建它们。只有将至少一个自定义属性添加到目录架构，才显示此部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置物料目录"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
 首先定义决策项的标准和自定义属性：
 
