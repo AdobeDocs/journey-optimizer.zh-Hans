@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 34%
+source-wordcount: '764'
+ht-degree: 31%
 
 ---
 
@@ -85,33 +85,17 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
-<th><strong>本地查找的多实体支持 — Beta版</strong><br/></th>
+<th><strong>扩展的个性化数据 — 测试版</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>待定</p>
+<p>现在，您可以在Adobe Experience Platform数据集中查找和获取数据值，并使用这些值在Adobe Journey Optimizer中构建条件。 当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在您的历程条件、自定义操作和消息个性化中可用。</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### 改进 {#e-improvements}
 
@@ -137,7 +121,7 @@ ht-degree: 34%
 **电子邮件渠道**
 
 * **列表取消订阅**  — 继最近的Gmail和Yahoo公告之后，Journey Optimizer对批量发件人支持“post/1-click”List-Unsubscribe选项。
-* **垃圾邮件评分**  — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 使用SpamAssassin，Adobe Journey Optimizer现在可以测试您的电子邮件内容，并为它打分，以指示ISP提供商是否将其视为垃圾邮件。 [了解详情](../content-management/spam-report.md)
+* **垃圾邮件评分** （测试版） — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 使用SpamAssassin，Adobe Journey Optimizer现在可以测试您的电子邮件内容，并为它打分，以指示ISP提供商是否将其视为垃圾邮件。 [了解详情](../content-management/spam-report.md)
 
 
 **受众**
@@ -146,10 +130,10 @@ ht-degree: 34%
 
 **个性化**
 
-* **查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
-* **表达片段**  — 表达式片段现在可用于应用程序内渠道。
+* **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**. [了解详情](../personalization/use-expression-fragments.md)
 
 **历程**
 
 * **合并策略**  — 现在可以配置合并策略并在历程中使用。
 * **mTLS支持** - Journey Optimizer API和自定义操作现在支持mTLS协议。
+* **事件中的查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
