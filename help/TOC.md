@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 96%
@@ -322,7 +322,7 @@ ht-degree: 96%
       + [预览您的内容](using/content-management/preview.md)
       + [发送电子邮件验证](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
-      + [使用垃圾邮件报告](using/content-management/spam-report.md)
+      + [电子邮件垃圾邮件报告](using/content-management/spam-report.md)
 + 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
@@ -518,7 +518,7 @@ ht-degree: 96%
    + Experience Decisioning (LA) {#experience-decisioning}
       + [开始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + 管理决策项{#decision-items}
-         + [配置物料目录](using/experience-decisioning/catalogs.md)
+         + [配置项目目录](using/experience-decisioning/catalogs.md)
          + [创建决策项目](using/experience-decisioning/items.md)
          + [管理物料集合](using/experience-decisioning/collections.md)
       + 配置项目选择 {#selection}
