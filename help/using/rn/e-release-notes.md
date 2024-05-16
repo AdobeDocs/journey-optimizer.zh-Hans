@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 26%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>您现在可以创建精细的频率上限规则，并通过规则集将它们应用于不同类型的营销通信。 这项新功能允许您通过设置跨渠道规则来控制受众接收消息的频率，这些规则会自动从消息和操作中排除过度请求的用户档案。</p>
-<p>Business Rules功能目前仅作为公共测试版提供。</p>
+<p>业务规则功能目前作为公共测试版提供。</p>
 <p>有关更多信息，请参阅<a href="../configuration/business-rules.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>现在，您可以在Adobe Experience Platform数据集中查找和获取数据值，并使用这些值在Adobe Journey Optimizer中构建条件。 当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 您可以为查找指定未启用配置文件的数据集。 启用后，您可以将配置文件属性用作指定数据集的联接键，以检索更多数据来进行个性化。</p>
+<p>此功能目前作为公共测试版提供。</p>
 </td>
 </tr>
 </tbody>
