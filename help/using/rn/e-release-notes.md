@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
+source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 26%
@@ -137,6 +137,6 @@ ht-degree: 26%
 
 **历程**
 
-* **合并策略** （有限可用性） — 历程使用的合并策略现在在整个历程中可见并保持一致。
+* **合并策略** （有限可用性） — 历程使用的合并策略现在在整个历程中可见且一致。
 * **mTLS支持** - Journey Optimizer API和自定义操作现在支持mTLS协议。
 * **事件中的查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
