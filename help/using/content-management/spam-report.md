@@ -8,7 +8,7 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -30,8 +30,7 @@ ht-degree: 0%
 >
 >* 目前，只能对英文内容执行垃圾邮件报告分析。
 >
->* >
->垃圾邮件报告提供了有用信息，不会阻止发送得分不好的消息。
+>* 垃圾邮件报告提供了有用信息，不会阻止发送得分不好的消息。
 
 要访问 **[!UICONTROL 垃圾邮件报告]**，请按照以下步骤操作。
 
