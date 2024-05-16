@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '778'
 ht-degree: 31%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在Adobe Experience Platform数据集中查找和获取数据值，并使用这些值在Adobe Journey Optimizer中构建条件。 当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在您的历程条件、自定义操作和消息个性化中可用。</p>
+<p>现在，您可以在Adobe Experience Platform数据集中查找和获取数据值，并使用这些值在Adobe Journey Optimizer中构建条件。 当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 您可以为查找指定未启用配置文件的数据集。 启用后，您可以将配置文件属性用作指定数据集的联接键，以检索更多数据来进行个性化。</p>
 </td>
 </tr>
 </tbody>
