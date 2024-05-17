@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
+source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 24%
+source-wordcount: '735'
+ht-degree: 27%
 
 ---
 
@@ -84,21 +84,21 @@ ht-degree: 24%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>扩展的个性化数据 — 测试版</strong><br/></th>
+<th><strong>Extended personalization data - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在Adobe Experience Platform数据集中查找和获取数据值，并使用这些值在Adobe Journey Optimizer中构建条件。 当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 您可以为查找指定未启用配置文件的数据集。 启用后，您可以将配置文件属性用作指定数据集的联接键，以检索更多数据来进行个性化。</p>
-<p>此功能目前作为公共测试版提供。</p>
+<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
+<p>This capability is currently available as a public beta.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 ### 改进 {#e-improvements}
 
