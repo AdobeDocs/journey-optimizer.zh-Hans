@@ -6,10 +6,10 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a9254ea7390be02210d770f657b1abb82d9e544
+source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>您现在可以创建精细的频率上限规则，并通过规则集将它们应用于不同类型的营销通信。 这项新功能允许您通过设置跨渠道规则来控制受众接收消息的频率，这些规则会自动从消息和操作中排除过度请求的用户档案。</p>
-<p>业务规则功能目前作为公共测试版提供。</p>
+<p>Business Rules功能目前以Beta版提供。 要加入测试版计划，请联系您的Adobe代表。</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
