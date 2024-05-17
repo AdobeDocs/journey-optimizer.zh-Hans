@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
+source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '736'
 ht-degree: 27%
 
 ---
@@ -104,11 +104,11 @@ ht-degree: 27%
 
 此版本包含下方列出的改进。
 
-**Experience Decisioning**
+**Experience Decisioning** （限量发布）
 
 从测试版到此版本，添加了以下改进：
 
-* **Experience Decisioning +基于代码的体验(LA)**  — 您现在可以利用Experience Decisioning功能在基于代码的营销活动中使用决策项。 注意：基于代码的Experience Channel和Experience Decisioning不适用于已购买AdobeHealthcare Shield和Privacy and Security Shield附加产品的组织。 [了解详情](../code-based/get-started-code-based.md)
+* **Experience Decisioning +基于代码的体验**  — 您现在可以利用Experience Decisioning功能在基于代码的营销活动中使用决策项。 注意：基于代码的Experience Channel和Experience Decisioning不适用于已购买AdobeHealthcare Shield和Privacy and Security Shield附加产品的组织。 [了解详情](../code-based/get-started-code-based.md)
 * **上下文数据**  — 您现在可以在决策规则和排名公式中利用Adobe Experience Platform的上下文数据。 [了解详情](../experience-decisioning/context-data.md)
 * **新建权限**  — 新的“管理体验决策”权限现在可用于决策管理资源。 它允许您管理与体验决策相关的权限。 [了解详情](../experience-decisioning/gs-experience-decisioning.md)
 * **上限规则**  — 您现在可以在Experience Decisioning中为给定决策项目添加多个上限规则。 这样，您就可以提高对优惠发送方式的控制级别。 [了解详情](../experience-decisioning/items.md#capping)
