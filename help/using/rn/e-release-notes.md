@@ -5,13 +5,11 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
+source-git-commit: 1a9254ea7390be02210d770f657b1abb82d9e544
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 27%
+source-wordcount: '708'
+ht-degree: 26%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
-以下早期发行说明可能会在正式发行日期之前发生更改，恕不另行通知。在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
+**在发行日期之前，以下早期发行说明可能会有所变更，恕不另行通知**. 在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
 ## 2024年5月早期发行说明 {#e-2024}
 
@@ -127,10 +125,10 @@ ht-degree: 27%
 * **垃圾邮件评分** （测试版） — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 使用SpamAssassin，Adobe Journey Optimizer现在可以测试您的电子邮件内容，并为它打分，以指示ISP提供商是否将其视为垃圾邮件。
   <!--[Read more](../content-management/spam-report.md)-->
 
+<!--
+**Audiences**
 
-**受众**
-
-* 现在，可以将来自受众构成和自定义上传（CSV文件）的受众和属性用于Healthcare Shield或Privacy and Security Shield。
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **个性化**
 
