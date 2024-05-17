@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 26%
+source-wordcount: '825'
+ht-degree: 24%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>如果您使用全新的IP地址发送电子邮件，现在可以直接从用户界面轻松执行IP预热工作流。 Adobe Journey Optimizer提供了一种标准化的高效方法来预热您的IP地址，该方法遵循最佳实践以实现最佳可投放性。</p>
-<p>有关更多信息，请参阅<a href="../configuration/ip-warmup-gs.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ ht-degree: 26%
 <td>
 <p>您现在可以创建精细的频率上限规则，并通过规则集将它们应用于不同类型的营销通信。 这项新功能允许您通过设置跨渠道规则来控制受众接收消息的频率，这些规则会自动从消息和操作中排除过度请求的用户档案。</p>
 <p>业务规则功能目前作为公共测试版提供。</p>
-<p>有关更多信息，请参阅<a href="../configuration/business-rules.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ ht-degree: 26%
 **电子邮件渠道**
 
 * **列表取消订阅**  — 继最近的Gmail和Yahoo公告之后，Journey Optimizer对批量发件人支持“post/1-click”List-Unsubscribe选项。
-* **垃圾邮件评分** （测试版） — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 使用SpamAssassin，Adobe Journey Optimizer现在可以测试您的电子邮件内容，并为它打分，以指示ISP提供商是否将其视为垃圾邮件。 [了解详情](../content-management/spam-report.md)
+* **垃圾邮件评分** （测试版） — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 使用SpamAssassin，Adobe Journey Optimizer现在可以测试您的电子邮件内容，并为它打分，以指示ISP提供商是否将其视为垃圾邮件。
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **受众**
@@ -133,10 +134,11 @@ ht-degree: 26%
 
 **个性化**
 
-* **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**. [了解详情](../personalization/use-expression-fragments.md)
+* **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **历程**
 
-* **合并策略** （有限可用性） — 历程使用的合并策略现在在整个历程中可见且一致。
-* **mTLS支持** - Journey Optimizer API和自定义操作现在支持mTLS协议。
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **mTLS支持**  — 自定义操作现在支持mTLS身份验证。 自定义操作或历程中无需额外配置即可激活mTLS；当检测到启用了mTLS的端点时，会自动进行此配置。
 * **事件中的查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
