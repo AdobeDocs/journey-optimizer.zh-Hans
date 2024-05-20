@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
          + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
-         + [使用自定义操作在Experience Platform中写入历程事件](using/building-journeys/custom-action-aep.md)
+         + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 营销活动{#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
@@ -230,11 +230,11 @@ ht-degree: 96%
    + [检查并发送文本消息](using/sms/send-sms.md)
    + [管理文本消息选择退出](using/sms/sms-opt-out.md)
    + [设置短信子域](using/sms/sms-subdomains.md)
-   + 配置短信/彩信渠道{#configure-sms}
+   + 配置短信/MMS 渠道{#configure-sms}
       + [短信配置入门](using/sms/sms-configuration.md)
-      + [配置Sinch提供程序](using/sms/sms-configuration-sinch.md)
-      + [配置Infobip提供程序](using/sms/sms-configuration-infobip.md)
-      + [配置Twilio提供程序](using/sms/sms-configuration-twilio.md)
+      + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
+      + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
+      + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
       + [创建短信表面](using/sms/sms-configuration-surface.md)
 + 直邮 {#direct-mail}
    + [直邮入门](using/direct-mail/get-started-direct-mail.md)
@@ -271,12 +271,12 @@ ht-degree: 96%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
-   + 使用AI助手{#ai-assistant}
+   + 使用 AI 助手{#ai-assistant}
       + [AI 助手入门](using/content-management/gs-generative.md)
       + [电子邮件生成](using/content-management/generative-email.md)
       + [推送生成](using/content-management/generative-push.md)
       + [短信生成](using/content-management/generative-sms.md)
-      + [使用AI助手进行内容试验](using/content-management/generative-experimentation.md)
+      + [使用 AI 助手进行内容试验](using/content-management/generative-experimentation.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
@@ -515,19 +515,19 @@ ht-degree: 96%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (LA) {#experience-decisioning}
-      + [开始使用 Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + 体验决策 (LA) {#experience-decisioning}
+      + [体验决策入门](using/experience-decisioning/gs-experience-decisioning.md)
       + 管理决策项{#decision-items}
          + [配置项目目录](using/experience-decisioning/catalogs.md)
-         + [创建决策项目](using/experience-decisioning/items.md)
-         + [管理物料集合](using/experience-decisioning/collections.md)
-      + 配置项目选择 {#selection}
+         + [创建决策项](using/experience-decisioning/items.md)
+         + [管理项目集合](using/experience-decisioning/collections.md)
+      + 配置项目选择{#selection}
          + [创建决策规则](using/experience-decisioning/rules.md)
          + [创建排名方法](using/experience-decisioning/ranking.md)
          + [利用上下文数据](using/experience-decisioning/context-data.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
-      + [在Customer Journey Analytics中报告](using/experience-decisioning/cja-reporting.md)
+      + [客户历程分析中的报告](using/experience-decisioning/cja-reporting.md)
 + 数据管理 {#data-management}
    + [数据管理入门](using/data/gs-data.md)
    + [使用模式](using/data/get-started-schemas.md)

@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 54%
+ht-degree: 96%
 
 ---
 
@@ -45,36 +45,36 @@ ht-degree: 54%
 * AI 助手入门
 * [使用 AI 助手生成电子邮件](generative-email.md)
 * [使用 AI 助手生成短信](generative-sms.md)
-* [使用AI助手生成推送](generative-push.md)
-* [使用AI助手进行内容试验](generative-experimentation.md)
+* [使用 AI 助手进行推送生成](generative-push.md)
+* [使用 AI 助手进行内容试验](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer中的AI助手当前作为测试版仅向选定用户提供。
+>Adobe Journey Optimizer 中的 AI 助手目前仅作为 Beta 版供部分用户使用。
 
-Adobe Journey Optimizer 中的 AI 助手可以主动为文本和图像提供内容变体建议。它可用于电子邮件、推送和短信渠道。 这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
+Adobe Journey Optimizer 中的 AI 助手可以主动为文本和图像提供内容变体建议。这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
 
 使用 Journey Optimizer 中的 AI 助手，尝试使用不同的主标题和图像来优化消息的影响。生成多个变体并构建试验，从而进行比较。利用 Journey Optimizer 内容试验，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../campaigns/content-experiment.md)中详细了解内容试验。
 
 ## 护栏和限制 {#generative-guardrails}
 
-下面列出了在Journey Optimizer中使用AI助手生成电子邮件的一般准则：
+下面列出了在 Journey Optimizer 中使用 AI 助手生成电子邮件的一般准则：
 
-* 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。 使用明确定义的提示以准确解释GenAI模型。 
-* 上传品牌资产以对品牌内容保持准确。 否则，内容基于公开可用的信息。 上传的内容可以具有以下格式：PDF、JPEG、PNG或ZIP文件（具有支持的文件格式）。
-* 上传的品牌资产的最大大小为50MB。 较大的文件或大量的图像可以工作，但处理时间会增加。
-* 最好使用Adobe Campaign创作的电子邮件模板 [内置电子邮件模板](../email/use-email-templates.md)，用于创建电子邮件内容的特定于品牌的模板或自定义模板。 建议使用最多包含8至10张图像的电子邮件模板。
-* 选择变体时，请确保使用向上缩略图、向下缩略图或标记图标报告任何有问题的输出。
-* 您对AI助手的使用受Adobe Experience Cloud创作AI用户指南的约束。 [了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。使用为 GenAI 模型明确定义的提示以准确解释。 
+* 上传品牌资源以提供准确的品牌相关内容。否则，内容基于公开可用的信息。上传的内容可以是以下格式：PDF、JPEG、PNG 或 ZIP 文件（具有支持的文件格式）。
+* 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
+* 使用 Adobe Campaign 创作的电子邮件模板，最好是[内置电子邮件模板](../email/use-email-templates.md)，用于创建电子邮件内容的特定于品牌的模板或自定义模板。建议使用最多包含 8 至 10 张图像的电子邮件模板。
+* 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
+* 您对 AI 助手的使用受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
-以下限制适用于Journey Optimizer中的AI助手：
+以下限制适用于 Journey Optimizer 中的 AI 助手：
 
-* 支持的语言仅是英语。
+* 支持的语言只有英语。
 * 仅适用于电子邮件、推送和短信渠道。
-* GenAI内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
-* 您可以上传多个品牌资产，但只能为特定世代利用一个。
+* GenAI 内容可能并不总是准确的：请分享您的反馈，以便我们的工程师可以优化模型。
+* 您可以上传多个品牌资源，但对于每个具体的生成操作仅可使用一个资源。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '5230'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## 2024 年 5 月 {#may-2024}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年4月版。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 4 月版的所有新增功能和改进。[了解详情](release-notes.md)
 
 
 ## 2024 年 4 月 {#april-2024}
@@ -31,9 +31,9 @@ ht-degree: 98%
 * 在决策管理文档中添加了关于通过 Edge Decisioning API 使用频率上限时的边缘和中心区域管理的信息。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 * 添加了关于使用 API 触发的营销活动时通过自定义命名空间创建身份的信息。[了解详情](../campaigns/api-triggered-campaigns.md)
 * 屏幕快照已更新，以反映改进的历程画布。
-* 以下页面中更新了命名约束条件： [配置单一事件](../event/about-creating.md)， [配置业务事件](../event/about-creating-business.md#gs-business-events)， [配置自定义操作](../action/about-custom-action-configuration.md#configuration-steps)， [外部数据源](../datasource/external-data-sources.md)
-* 已添加有关发送时间优化可用性的注释。 [了解详情](../building-journeys/journeys-message.md#send-time-optimization)
-* 新增了一个技术用例，介绍如何创建自定义操作以将数据发送到Experience Platform。 [了解详情](../building-journeys/custom-action-aep.md)
+* 以下页面中更新了命名约束条件：[配置单一事件](../event/about-creating.md)、[配置业务事件](../event/about-creating-business.md#gs-business-events)、[配置自定义操作](../action/about-custom-action-configuration.md#configuration-steps)、[外部数据源](../datasource/external-data-sources.md)
+* 添加了有关“发送时间优化”可用性的注释。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* 新增了一个技术用例，介绍如何创建自定义操作以将数据发送到 Experience Platform。[了解详情](../building-journeys/custom-action-aep.md)
 
 ## 2024 年 3 月 {#march-2024}
 
