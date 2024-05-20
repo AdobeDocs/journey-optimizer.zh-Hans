@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->这些功能目前以Beta版提供。
+>这些功能目前作为 Beta 版提供。
 
 <!--
 **Spam scoring for emails**
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **历程**
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前以Beta版提供。 [了解详情](../action/action-response.md)。
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为 Beta 版提供。[了解详情](../action/action-response.md)。
 * 推出了一种新型的系统警报。现在，您会在自定义操作失败时收到通知。[了解详情](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 

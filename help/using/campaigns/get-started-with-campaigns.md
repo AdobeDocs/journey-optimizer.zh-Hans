@@ -10,9 +10,9 @@ level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -46,23 +46,23 @@ ht-degree: 74%
 
 在 Journey Optimizer 中开始创建您的第一个营销活动之前，请查看以下先决条件：
 
-1. **您需要适当的权限**。营销活动仅适用于有权访问与营销活动相关的用户 **[!UICONTROL 产品配置文件]** 如Campaign管理员、Campaign审批者、Campaign经理和/或Campaign查看者。如果您无法访问营销活动，则必须扩展您的权限。
+1. **您需要适当的权限**。有权访问营销活动相关&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的用户（例如营销活动管理员、营销活动审批者、营销活动经理和/或营销活动查看者）才能使用营销活动。如果您无法访问营销活动，则必须扩展您的权限。
 
-   +++了解如何分配与活动相关的角色
+   +++了解如何分配营销活动相关角色
 
-   1. 在中为用户分配角色 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 选项卡，然后选择其中一个相关的内置营销活动 **[!UICONTROL 角色]**：Campaign管理员、Campaign审批者、Campaign经理或Campaign查看者。
+   1. 要将角色分配给 [!DNL Permissions] 产品中的用户，请导航至&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后选择一个内置的营销活动&#x200B;**[!UICONTROL 角色]**：营销活动管理员、营销活动审批者、营销活动经理或营销活动查看者。
 
-   1. 从 **[!UICONTROL 用户]** 选项卡，单击 **[!UICONTROL 添加用户]**.
+   1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
-   1. 键入用户名或电子邮件地址，或从列表中选择用户并单击 **[!UICONTROL 保存]**.
+   1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
-      如果之前未创建用户，请参阅 [添加用户文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      如果之前没有创建用户，请参阅[有关添加用户的文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/users)。
 
    随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
 +++
 
-1. **您需要受众**。在创建营销活动之前，需要设置受众。要了解有关受众的更多信息，请参阅[本页面](../audience/about-audiences.md)。
+1. **您需要有受众**。在创建营销活动之前，需要设置受众。要了解有关受众的更多信息，请参阅[本页面](../audience/about-audiences.md)。
 1. **您需要一个渠道表面**。要选择渠道，必须创建并提供相应的渠道表面（即预设）。要了解有关渠道表面的更多信息，请参阅[本页](../configuration/channel-surfaces.md)。
 
 ## 操作方法视频 {#video}

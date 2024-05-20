@@ -10,9 +10,9 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 72%
 
 例如，您可以在 Experience Platform 中[创建同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}，以排除未同意接收电子邮件、推送或短信通信的客户。
 
-* 对于本机出站渠道（电子邮件、推送、短信、直邮），逻辑如下：
+* 对于原生出站渠道（电子邮件、推送、短信、直邮），逻辑如下：
 
-   * 默认情况下，如果用户档案选择不接收来自您的通信，则后续投放中将排除相应的用户档案。
+   * 默认情况下，如果某个用户档案选择不接收来自您的通信，则会在后续投放中排除相应的用户档案。
 
-   * 如果您有Adobe **Health Shield** 或 **隐私和安全防护板**，您可以创建覆盖默认逻辑的自定义同意策略。 例如，您可以将策略定义为仅向所有已选择加入的人员发送电子邮件。 如果没有自定义策略，则应用默认策略。
+   * 如果您有 Adobe **Health Shield** 或 **Privacy and Security Shield**，您可以创建覆盖默认逻辑的自定义同意策略。例如，您可以将策略定义为仅向所有已选择接收通信的人员发送电子邮件。如果没有自定义策略，则应用默认策略。
 
-  要应用自定义策略，您需要在该策略中定义营销操作，并将其与渠道表面关联。 [了解详情](#surface-marketing-actions)
+  要应用自定义策略，您需要在该策略中定义营销操作，并将其与渠道表面关联。[了解详情](#surface-marketing-actions)
 
 在历程级别，您可以将这些同意策略应用于自定义操作。
 
@@ -45,47 +45,47 @@ ht-degree: 72%
 
 在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}处理。
 
-要修改同意字段值，您可以创建自定义同意策略，在该策略中定义营销操作以及执行该操作的条件。 [了解有关营销活动的更多信息](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#marketing-actions){target="_blank"}
+要修改同意字段值，您可以创建自定义同意策略，在该策略中定义营销操作以及执行该操作的条件。[了解有关营销操作的更多信息](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#marketing-actions){target="_blank"}
 
-例如，如果要创建同意策略以仅定向同意接收电子邮件通信的用户档案，请执行以下步骤。
+例如，如果要创建同意策略以仅定位到同意接收电子邮件通信的用户档案，请执行以下步骤。
 
-1. 确保贵组织已购买Adobe **Health Shield** 或 **隐私和安全防护板** 附加产品。 [了解详情](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hans){target="_blank"}
+1. 确保贵组织已购买 Adobe **Health Shield** 或 **Privacy and Security Shield** 附加产品。[了解详情](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hans){target="_blank"}
 
-1. 在Adobe Experience Platform中，创建自定义策略(从 **[!UICONTROL 隐私]** > **[!UICONTROL 策略]** 菜单)。 [了解如何](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+1. 在 Adobe Experience Platform 中，创建自定义策略（从&#x200B;**[!UICONTROL 隐私]** > **[!UICONTROL 策略]**&#x200B;菜单）。[了解如何操作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-policy){target="_blank"}
 
    <!--![](assets/consent-policy-create.png)-->
 
-1. 选择 **[!UICONTROL 同意政策]** 按以下方式键入并配置条件。 [了解如何配置同意政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
+1. 选择&#x200B;**[!UICONTROL 同意政策]**，按以下方式键入并配置条件。[了解如何配置同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
 
-   1. 在 **[!UICONTROL 如果]** 部分，选择 **[!UICONTROL 电子邮件定位]** 默认营销操作。
+   1. 在 **[!UICONTROL If]** 部分，选择&#x200B;**[!UICONTROL 电子邮件定位]**&#x200B;默认营销操作。
 
       <!--![](assets/consent-policy-marketing-action.png)-->
 
       >[!NOTE]
       >
-      >中列出了按Adobe提供的现成核心营销操作 [此表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+      >[此表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-marketing-action){target="_blank"}中列出了 Adobe 提供的现成核心营销操作。
 
-   1. 选择应用营销操作时发生的情况。 在此示例中，选择 **[!UICONTROL 电子邮件营销同意]**.
+   1. 选择应用营销操作时发生的事件。在此示例中，选择&#x200B;**[!UICONTROL 电子邮件营销同意]**。
 
    ![](assets/consent-policy-then.png)
 
-1. 保存并 [启用](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} 此策略。
+1. 保存并[启用](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#enable){target="_blank"}此策略。
 
-1. 在Journey Optimizer中，创建电子邮件表面。 [了解如何操作](../configuration/channel-surfaces.md#create-channel-surface)
+1. 在 Journey Optimizer 中，创建电子邮件表面。[了解如何操作](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. 在电子邮件表面详细信息中，选择 **[!UICONTROL 电子邮件定位]** 营销活动。
+1. 在电子邮件表面详细信息中，选择&#x200B;**[!UICONTROL 电子邮件定位]**&#x200B;营销操作。
 
    ![](assets/surface-marketing-action.png)
 
-系统会自动利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
+将自动利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
 
-因此，在此示例中，任意 [电子邮件](../email/create-email.md) 在营销活动或历程中使用该表面只会发送给同意接收来自您的电子邮件的用户档案。 未同意接收电子邮件通信的用户档案将被排除在外。
+因此，在此示例中，在营销活动或历程中使用该表面的任何[电子邮件](../email/create-email.md)只会被发送给同意接收来自您的电子邮件的用户档案。未同意接收电子邮件通信的用户档案将被排除在外。
 
 ## 通过自定义操作利用同意策略 {#journey-custom-actions}
 
 ### 重要说明 {#important-notes}
 
-在Journey Optimizer中，还可以在自定义操作中利用同意。 如果要将其与内置消息功能一起使用，您需要使用条件活动来筛选历程中的客户。
+在 Journey Optimizer 中，可以在自定义操作中利用同意策略。如果要将其与内置消息功能一起使用，您需要使用条件活动来筛选历程中的客户。
 
 使用同意管理功能时，会分析两个历程活动：
 
