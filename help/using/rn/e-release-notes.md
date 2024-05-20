@@ -6,10 +6,10 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
+source-git-commit: 949d1e021cf46aebf7bf564797d717205e4cf4b8
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 26%
+source-wordcount: '738'
+ht-degree: 25%
 
 ---
 
@@ -140,6 +140,7 @@ ht-degree: 26%
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS支持**  — 自定义操作现在支持mTLS身份验证。 自定义操作或历程中无需额外配置即可激活mTLS；当检测到启用了mTLS的端点时，会自动进行此配置。
 * **事件中的查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
+* **事件配置中的高级表达式编辑器**  — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。
 
 **全球化**
 
