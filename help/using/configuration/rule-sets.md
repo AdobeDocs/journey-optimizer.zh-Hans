@@ -12,9 +12,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1605'
 ht-degree: 8%
 
 ---
@@ -157,8 +157,6 @@ ht-degree: 8%
 您还必须激活规则集才能在营销活动/历程中访问它，并将其应用于消息。
 
 ![](assets/rule-set-activate-set.png)
-
-激活规则集将会影响它在下次执行时应用到的任何消息。 了解如何 [将规则集应用到消息](#apply-rule-set).
 
 >[!NOTE]
 >
