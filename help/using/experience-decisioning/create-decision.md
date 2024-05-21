@@ -190,7 +190,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## 在Customer Journey Analytics中报告 {#cja}
+## 客户历程分析中的报告 {#cja}
 
 如果您正在使用Customer Journey Analytics，则可以利用Experience Decisioning为您的基于代码的营销活动创建自定义报告仪表板。
 
