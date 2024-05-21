@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1541'
 ht-degree: 62%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 62%
 >
 >**此身份验证分为两部分。**
 
-### 要调用以生成访问令牌的端点的定义
+### 要调用以生成访问令牌的端点的定义{#custom-authentication-endpoint}
 
 * 端点：用于生成端点的 URL
 * 端点上 HTTP 请求的方法（GET 或 POST）
@@ -148,7 +148,7 @@ ht-degree: 62%
    * “form”：表示内容类型将为application/x-www-form-urlencoded (charset UTF-8)，并且键值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
    * “json”：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
-### 在操作的HTTP请求中必须插入访问令牌方式的定义
+### 在操作的HTTP请求中必须插入访问令牌方式的定义{#custom-authentication-access-token}
 
 * authorizationType：定义如何在操作的 HTTP 调用中插入生成的访问令牌。可能的值包括：
 
@@ -189,6 +189,10 @@ ht-degree: 62%
 }
 ```
 
+>[!NOTE]
+>
+>Encode64是身份验证有效负载中唯一可用的函数。
+
 您可以更改自定义身份验证数据源的令牌的缓存时间。以下是自定义身份验证有效负载的示例。缓存时间在“cacheDuration”参数中定义。它指定缓存中生成的令牌的保留持续时间。单位可以是毫秒、秒、分钟、小时、天、月、年。
 
 以下是持有者身份验证类型的示例：
@@ -198,7 +202,7 @@ ht-degree: 62%
   "authentication": {
     "type": "customAuthorization",
     "authorizationType": "Bearer",
-    "endpoint": "https://localhost:${port}/epsilon/oauth2/access_token",
+    "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
       "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"

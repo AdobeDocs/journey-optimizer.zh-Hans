@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 22%
+source-wordcount: '540'
+ht-degree: 18%
 
 ---
 
@@ -25,11 +25,24 @@ ht-degree: 22%
 
 此集成适用于Adobe Campaign v7/v8（从7.1版本开始）和Adobe Campaign v8。 通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。
 
-Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。
-
 本中介绍了端到端用例 [部分](../building-journeys/ajo-ac.md).
 
 对于所配置的每个操作，历程设计器面板中都提供了操作活动。 请参阅此[章节](../building-journeys/using-adobe-campaign-v7-v8.md)。
+
+## 访问 {#access}
+
+在请求时，Journey Optimizer实例和Campaign实例之间的连接将在配置时通过Adobe进行设置。 如果您在配置时未请求连接，请联系Adobe Journey Optimizer支持，并提供以下详细信息以请求启用：
+
+从Adobe Journey Optimizer：
+
+* Organization ID (AdobeOrgID)
+* 沙盒
+
+从Adobe Campaign：
+
+* 营销活动URL
+* RT URL
+* Campaign 版本
 
 ## 重要说明 {#important-notes}
 

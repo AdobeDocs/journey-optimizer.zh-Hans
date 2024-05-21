@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 99%
+source-wordcount: '2065'
+ht-degree: 97%
 
 ---
 
@@ -64,6 +64,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 当您发布历程时，我们会自动进行缩放和调整，确保最大吞吐量和稳定性。当您接近达成 100 个实时历程的里程碑时，将在 UI 中收到有关此成就的通知。如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
 * 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
 * 用户档案的历程实例的最大大小为 1MB。在历程执行过程中收集的所有数据都存储在该历程实例中。因此，来自传入事件的数据、从 Adobe Experience Platform 检索的用户档案信息、自定义操作响应等都会存储在历程实例中并影响历程大小。当历程以事件开始时，建议限制该事件负载的最大大小（例如：小于 800 KB），以避免在历程执行过程中完成少数几个活动后就达到该限制。当达到该限制时，用户档案会处于错误状态并被从历程中排除。
+* 除了历程活动中使用的超时之外，还有全局历程超时，此超时未显示在界面中，无法更改。 此全局超时在个人进入历程30天后停止个人进度。 [了解详情](../building-journeys/journey-gs.md#global_timeout)
 
 
 ### 常规操作 {#general-actions-g}

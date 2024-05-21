@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
+source-git-commit: d0fa6d9f3a5d61310e8d072513b199e513a66138
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1582'
 ht-degree: 100%
 
 ---
@@ -17,6 +18,115 @@ ht-degree: 100%
 # 2024 年发行说明 {#release-notes-2024}
 
 本页列出了于 2024 年发布的 [!DNL Journey Optimizer] 功能和改进。
+
+
+## 2024 年 4 月发行说明 {#apr-2024}
+
+**发布日期**：2024 年 5 月 2 日
+
+### 新功能 {#apr-features}
+
+此版本引入了下方详述的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>多媒体消息服务 (MMS) - 所有提供商</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于 Sinch，现在也适用于 Infobip 和 Twilio。</p>
+<img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>改进了历程设计器和实时报告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本具有改进的用于历程的画布用户界面，并提供更直观、高效的用户体验。活动情况更清晰，通过更少的单击操作即可显示更多有关历程画布的信息。</p>
+<img src="assets/new-canvas3.gif"/>
+<p>除了改进的历程画布设计之外，我们还引入了在历程画布中直接查看过去 24 小时的报告指标的功能。 </p>
+<img src="assets/new-canvas6bis.png"/>
+<p><strong>注意</strong>：从 4 月版本开始，这些更改将逐步在所有环境中推出。</p>
+<p>有关更多信息，请参阅<a href="new-canvas.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### 改进 {#apr-improvements}
+
+此版本包含下方列出的改进。
+
+<!--
+* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+-->
+
+
+<!--
+* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+-->
+
+
+<!--
+* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
+-->
+
+**配置**
+
+* 现在，您可以在渠道表面级别选择营销操作。在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。[了解详情](../action/consent.md#surface-marketing-actions)
+* 现在，渠道表面可以使用对象级访问控制。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+* 在渠道表面中启用列表取消订阅时，您现在可以定义同意级别，以符合您管理来自所有其他来源的同意的方式。[了解详情](../email/email-settings.md#list-unsubscribe)
+
+**内容管理**
+
+* 您现在可以模拟所有渠道的内容模板。[了解详情](../content-management/content-templates.md#test-templates)
+
+**个性化**
+
+* 在表达式编辑器中提供了新的 **toInt** 辅助函数。它允许您将任意这些类型（数值、双精度、整数、长整数、浮点数、短整数、字节、布尔值、字符串）转换为整数。[了解详情](../personalization/functions/math.md#to-int)
+
 
 
 ## 2024 年 3 月发行说明 {#mar-2024}

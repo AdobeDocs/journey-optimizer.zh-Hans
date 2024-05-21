@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -69,11 +69,15 @@ ht-degree: 18%
 
 1. 完成创建电子邮件营销活动的步骤，如定义营销活动属性， [受众](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、和 [内容](../email/get-started-email-design.md#key-steps).
 
+   请注意，您需要为IP预热活动选择基于规则的受众。 [了解详情](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
 
 1. [激活](../campaigns/review-activate-campaign.md) 营销活动。 其状态更改为 **[!UICONTROL 实时]**.
+
+   请注意，不应在IP预热计划中使用业务规则。 应用这些规则可能会妨碍达到营销活动所需数量的定向用户档案。
 
    >[!NOTE]
    >

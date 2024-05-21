@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 12%
+source-wordcount: '605'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 12%
 >id="ajo_journey_event_custom"
 >title="单一事件"
 >abstract="事件允许您统一触发历程，向流入历程的个人实时发送消息。对于此类事件，只能添加标签和描述。事件配置由数据工程师执行，不可编辑。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="业务事件"
+>abstract="这些事件允许您使用非配置文件相关事件开始历程。 触发该事件后，您将能够向用户档案的受众发送消息。 对于此类事件，只能添加标签和描述。事件配置由技术用户执行，无法编辑。"
 
 事件允许您统一触发历程，向流入历程的个人实时发送消息。
 

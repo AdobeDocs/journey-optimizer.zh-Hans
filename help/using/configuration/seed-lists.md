@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 16%
 
 ---
@@ -156,4 +156,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->对于历程，电子邮件投放仅在历程首次执行时发送到种子地址。
+>对于定期历程，只要至少一个用户档案到达电子邮件节点，就会在每次历程执行时将电子邮件投放发送到种子地址。

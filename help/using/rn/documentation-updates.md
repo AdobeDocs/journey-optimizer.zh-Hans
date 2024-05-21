@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5230'
-ht-degree: 99%
+source-wordcount: '5290'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,10 @@ ht-degree: 99%
 ## 2024 年 5 月 {#may-2024}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 4 月版的所有新增功能和改进。[了解详情](release-notes.md)
-
+* 关于种子列表的章节已更新有关定期历程。 [了解详情](../configuration/seed-lists.md#use-seed-list)
+* 更新了关于外部数据源的部分。 [了解详情](../datasource/external-data-sources.md#custom-authentication-access-token)
+* 护栏和限制页面中添加了30天的全局历程超时。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+* 有关Adobe Campaign v7/v8集成的章节已更新，其中包含有关配置的信息。 [了解详情](../action/acc-action.md#access)
 
 ## 2024 年 4 月 {#april-2024}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2086'
 ht-degree: 16%
 
 ---
@@ -211,6 +211,21 @@ ht-degree: 16%
 由于30天历程超时，当历程不允许重新进入时，我们无法确保重新进入阻止将工作超过30天。 事实上，当我们删除有关进入旅程30天后进入旅程的人员的所有信息时，我们无法知道该人员是超过30天前进入的。
 
 仅当个人在历程中剩余的时间足以在30天历程超时前完成等待持续时间时，他或她才能进入等待活动。 请参阅[此页](../building-journeys/wait-activity.md)。
+
+### 合并策略 {#merge-policies}
+
+从Adobe Experience Platform检索配置文件数据时，历程使用合并策略。 根据历程类型，使用不同的合并策略：
+
+* 在读取受众或受众资格历程中：使用受众的合并策略
+* 在事件触发的历程中：使用默认合并策略
+
+历程将遵循在整个历程中使用的合并策略。
+
+>[!NOTE]
+>
+>此功能仅在有限可用性(LA)中针对选定客户提供。
+
+要了解有关合并策略的更多信息，请参阅此 [页面](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## 复制历程 {#duplicate-a-journey}
 

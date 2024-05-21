@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 ![](assets/schema15.png)
 
-但是，您不能定义与对象数组内部属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 查找值在历程（条件、自定义操作等）中不可用 和消息个性化。
+您还可以定义与对象数组内部属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。
 
 ![](assets/schema16.png)
 

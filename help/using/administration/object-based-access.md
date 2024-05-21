@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 12%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 12%
 * 静态优惠收藏集
 * 优惠决策
 * 渠道平面
+* IP预热计划
 
 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 
