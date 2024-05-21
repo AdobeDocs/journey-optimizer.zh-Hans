@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
+source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 100%
+source-wordcount: '1358'
+ht-degree: 98%
 
 ---
 
@@ -255,4 +255,47 @@ ht-degree: 100%
 >title="选择您的标记属性"
 >abstract="待确认"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_push_certificate_fcm"
+>title="提供推送证书"
+>abstract="待确认"
 
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_add"
+>title="添加依赖项"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_dependencies_import"
+>title="导入依赖关系"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_android_initialization_code"
+>title="添加初始化代码"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance_android"
+>title="可靠验证"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token_android"
+>title="检索设备标记"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_android_studio"
+>title="从Android Studio启动应用程序"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_load_library"
+>title="异步加载库"
+>abstract="待确认"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_library_code"
+>title="文档的Head标记"
+>abstract="待确认"
