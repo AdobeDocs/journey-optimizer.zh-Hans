@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,19 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 4 月版本已上线！]
+>[!TAB 5月发布已上线！]
 
-了解 Adobe Journey Optimizer 24.3 版的新增功能和改进。
+了解Adobe Journey Optimizer 5月版中的新增功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Experience decisioning]
+
+Experience Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化操作。
+
+![](using/rn/assets/do-not-localize/gif-exd.gif)
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
 
 >[!TAB 新历程体验]
 
@@ -33,14 +41,6 @@ ht-degree: 100%
 ![](using/rn/assets/new-canvas3.gif)
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
-
->[!TAB 适用于所有提供商的 MMS]
-
-使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于 Sinch，现在也适用于 Infobip 和 Twilio。
-
-![](using/rn/assets/do-not-localize/mms.gif)
-
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
