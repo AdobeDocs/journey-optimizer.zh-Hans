@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="使用AI助手定义上下文"
->abstract="要将所选内容用作内容生成的输入，请激活 **使用原始内容** 切换。 还可上传品牌资源以将其用作来源。如果不使用所选内容，则必须上传并选择品牌资源。"
+>title="使用 AI 助手定义上下文"
+>abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**使用原始内容**&#x200B;切换开关。还可上传品牌资源以将其用作来源。如果不使用所选内容，则必须上传并选择品牌资源。"
 
 
 >[!CONTEXTUALHELP]

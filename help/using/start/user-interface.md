@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="移动和Web配置名称"
+>title="移动和网络配置名称"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -212,7 +212,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="使用保障进行验证"
+>title="可靠验证"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -227,12 +227,12 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="检索设备令牌"
+>title="检索设备标记"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="从Xcode启动应用程序"
+>title="从 Xcode 启动应用程序"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
@@ -242,12 +242,12 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
->title="密钥ID"
+>title="密钥 ID"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="团队编号"
+>title="团队 ID"
 >abstract="待确认"
 
 >[!CONTEXTUALHELP]
