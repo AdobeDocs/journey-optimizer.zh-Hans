@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 表达式，编辑器
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Journey Optimizer允许您在表达式编辑器中利用Adobe Experience Platfor
 
 1. 打开表达式编辑器，您可以在每个上下文中定义个性化设置（如消息），该编辑器将可用。 [了解如何使用表达式编辑器](../personalization/personalization-build-expressions.md)
 
-1. 导航到辅助函数列表，然后添加 **多实体** 辅助函数到代码窗格。
+1. 导航到辅助函数列表，然后添加 **datasetLookup** 辅助函数到代码窗格。
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Journey Optimizer允许您在表达式编辑器中利用Adobe Experience Platfor
 
    * **entity.datasetId** 是您正在处理的数据集的ID，
    * **id** 是用作数据集中的主要标识的字段，
+
+     >[!NOTE]
+     >
+     >为此字段输入的值可以是字段ID (*profile.couponValue*)，在历程事件中传递的字段(*context.journey.events.event_ID.couponValue*)或静态值(*couponAbcd*)。 在任何情况下，系统都将使用值，并在数据集中查找以检查它是否与键匹配)。
+
    * **结果** 是一个任意名称，您需要提供它以引用要从数据集中检索的所有字段值。 此值将在您的代码中用于调用每个字段。
 
    +++在哪里检索数据集ID？
