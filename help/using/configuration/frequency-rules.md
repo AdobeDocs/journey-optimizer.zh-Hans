@@ -9,14 +9,24 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+source-git-commit: e80148e9678e71329f8711dd201c7531b4f9aeae
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1229'
 ht-degree: 11%
 
 ---
 
 # 消息频率规则 {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="业务规则"
+>abstract="业务规则描述"
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_rule_sets"
+>title="规则集"
+>abstract="规则集说明"
 
 [!DNL Journey Optimizer] 允许您通过设置跨渠道规则，控制用户接收消息或进入历程的频率，这些规则将自动从消息和操作中排除过度请求的用户档案。
 
@@ -101,7 +111,7 @@ ht-degree: 11%
 
    ![](assets/message-rules-created.png)
 
-### 频率限制 {#frequency-cap}
+### 频率上限 {#frequency-cap}
 
 从 **[!UICONTROL 持续时间]** 下拉列表中，选择是每月还是每周应用上限。
 
