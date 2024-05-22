@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
 workflow-type: tm+mt
 source-wordcount: '1716'
-ht-degree: 21%
+ht-degree: 2%
 
 ---
 
@@ -58,16 +58,16 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
->title="定义和配置您的登陆页面"
->abstract="要创建登陆页面，您需要选择一个预设，然后配置主页面和子页面，最后在发布之前测试您的页面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=zh-Hans#publish-landing-page" text="发布登陆页面"
+>title="定义和配置登陆页面"
+>abstract="要创建登陆页面，您需要选择一个预设，然后配置主页面和子页面，最后在发布页面之前对其进行测试。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="发布登陆页面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
->title="向您的登陆页面分配标签"
->abstract="为了保护敏感的数字资产，您可以使用标签来定义授权，用于管理对登陆页面的数据访问。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=zh-Hans" text="对象级访问控制"
+>title="向登陆页面分配标签"
+>abstract="为了保护敏感的数字资产，您可以定义授权以使用标签管理对登陆页面的数据访问。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="对象级访问控制"
 
 创建登陆页面的主要步骤如下：
 
@@ -110,15 +110,15 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
 >title="定义主页面设置"
->abstract="当用户比如从电子邮件或网站单击您的登陆页面的链接后，将立即向用户显示主页面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hans" text="设计登陆页面内容"
+>abstract="主页面在用户单击指向登陆页面的链接后会立即显示给用户，例如通过电子邮件或网站。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="设计登陆页面内容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="定义登陆页面 URL"
->abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hans" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>title="定义登陆页面URL"
+>abstract="在此部分中，定义唯一的登陆页面URL。 URL的第一部分要求您之前将登陆页面子域设置为您选择的预设的一部分。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 主页面是在用户单击指向登陆页面的链接后立即向用户显示的页面，例如通过电子邮件或网站。
 
@@ -177,17 +177,17 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="定义子页面设置"
->abstract="您最多可以添加 2 个子页。例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hans" text="设计登陆页面内容"
+>abstract="您最多可以添加2个子页面。 例如，您可以创建一个“感谢”页面，在用户提交表单后显示该页面，您还可以定义一个错误页面，如果登陆页面出现问题，将调用该页面。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="设计登陆页面内容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="定义登陆页面 URL"
->abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hans" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>title="定义登陆页面URL"
+>abstract="在此部分中，定义唯一的登陆页面URL。 URL的第一部分要求您之前将登陆页面子域设置为您选择的预设的一部分。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
-您最多可以添加 2 个子页。例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。
+您最多可以添加2个子页面。 例如，您可以创建一个“感谢”页面，在用户提交表单后显示该页面，您还可以定义一个错误页面，如果登陆页面出现问题，将调用该页面。
 
 要定义子页面设置，请执行以下步骤。
 
@@ -214,8 +214,8 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
 >title="预览和测试登陆页面"
->abstract="定义了登陆页面设置和内容之后，您可使用测试配置文件对其进行预览。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=zh-Hans" text="选择测试用户档案"
+>abstract="定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="选择测试用户档案"
 
 定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您已插入 [个性化内容](../personalization/personalize.md)，您将能够使用测试用户档案数据检查此内容在登陆页面中的显示方式。
 
