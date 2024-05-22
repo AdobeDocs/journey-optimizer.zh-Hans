@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1252'
 ht-degree: 6%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 6%
 >id="ajo_business_rules_message_frequency_rules"
 >title="业务规则"
 >abstract="使用业务规则可控制用户收到消息或进入历程的频率，方法是设置跨渠道规则，以自动从消息和操作中排除过度请求的用户档案。"
-
->[!CONTEXTUALHELP]
->id="ajo_business_rules_message_frequency_rules"
->title="业务规则"
->abstract="业务规则描述"
 
 [!DNL Journey Optimizer] 允许您通过设置跨渠道规则，控制用户接收消息或进入历程的频率，这些规则将自动从消息和操作中排除过度请求的用户档案。
 
