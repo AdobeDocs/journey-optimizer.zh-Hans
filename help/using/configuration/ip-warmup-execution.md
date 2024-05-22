@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2487'
-ht-degree: 11%
+source-wordcount: '2513'
+ht-degree: 1%
 
 ---
 
@@ -34,25 +34,25 @@ ht-degree: 11%
 
 一旦您拥有 [创建了IP预热计划](ip-warmup-plan.md) 并上传与可投放性顾问一起准备的文件，您可以定义阶段并在计划中运行。
 
-每个阶段都由若干您为其分配单个营销活动的运行组成。
+每个阶段都包含多次运行，您可以为其分配一个营销活动。
 
 ## 定义阶段 {#define-phases}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择营销活动以从当前阶段排除其受众。这是为了防止以前在其他阶段或其他 IP 预热计划中联系过的配置文件再次成为目标。"
+>abstract="选择营销活动以从当前阶段中排除其受众。 这是为了防止先前从其他阶段或其他IP预热计划联系的用户档案再次成为目标。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
->abstract="选择要从当前阶段排除的域。域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
+>abstract="选择要从当前阶段排除的域。 域排除需要一个未执行的阶段，因此您可能必须拆分正在运行的阶段才能添加排除项。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
 >title="定义计划的阶段"
->abstract="每个阶段都由若干您为其分配单个营销活动的运行组成。"
+>abstract="每个阶段都包含多次运行，您可以为其分配一个营销活动。"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -146,27 +146,27 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_run"
 >title="定义每次运行"
->abstract="为所有阶段定义并激活每次运行。"
+>abstract="定义并激活所有阶段的每次运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
->title="按参与过滤"
->abstract="此列是一个过滤器，它仅针对例如在过去 20 天内与您的品牌有过互动的用户。您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
+>title="根据参与情况过滤"
+>abstract="此列是一个过滤器，仅定向过去20天内与您的品牌互动的用户。 您也可以通过 **编辑运行** 选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="设置时间范围"
->abstract="您可以定义一个时间范围，在此期间，如果分段作业有任何延迟，则可以执行 IP 预热营销活动。"
+>title="设置时间窗口"
+>abstract="您可以定义一个时间范围，在分段作业出现任何延迟时，可以在其中执行IP预热活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="因受众错误取消运行"
->abstract="在为某次运行评估受众后，如果合格的配置文件比作为目标的配置文件少，则选择此选项可取消此次运行。"
+>title="取消运行，但存在受众错误"
+>abstract="如果为运行评估受众后，符合条件的配置文件少于目标配置文件，则选择此选项可取消运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="查看合格的配置文件"
->abstract="此列显示合格的配置文件数。在对受众进行运行评估后，如果定向的用户档案多于符合条件的用户档案，则仍会执行运行，除非 **发生错误时取消已激活的运行** 选项。 如果启用了该选项，则取消该运行。"
+>title="查看符合条件的配置文件"
+>abstract="此列显示符合条件的配置文件的数量。 在对受众进行运行评估后，如果定向的用户档案多于符合条件的用户档案，则仍会执行运行，除非 **发生错误时取消已激活的运行** 选项。 在这种情况下，将取消运行。"
 
 1. 为每次运行选择一个计划，以确保在指定的时间执行它。
 
@@ -238,7 +238,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    * An [受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 为排除的营销活动受众（如果有）创建，且采用以下命名约定： `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * 使用以下命名约定为排除的域组（如果有）创建另一个受众： `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * 使用以下命名约定为排除的旅程受众（如果有）创建另一个受众： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >每次运行都会创建一个新的受众组合。 如果限制为10个，则同时使用已发布的受众组合运行多个营销活动、历程和IP预热计划的用户必须提前计划，以保持在此限制范围内进行并行操作。
      >
      >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
+
+   * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -298,7 +302,7 @@ IP预热计划本身就是单个位置的整合报告。 您可以检查元素�
 * **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 停止]** 按钮，或者您已启用 **[!UICONTROL 发生错误时取消已激活的运行]** 选项并发生错误。 [了解详情](#define-runs)
 * **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止。 如果某个运行失败，您可以计划第二天再次运行。
 
-### 使用报告 {#reports}
+### 使用报表 {#reports}
 
 更一般地说，要衡量计划的影响，您可以使用 [!DNL Journey Optimizer] 营销活动报表。 为此，对于每个已完成的运行，您可以单击 **[!UICONTROL 查看报表]** 按钮。 了解有关营销活动电子邮件的更多信息 [实时报告](../reports/campaign-live-report.md#email-live) 和 [全局报告](../reports/campaign-global-report.md#email-global).
 
