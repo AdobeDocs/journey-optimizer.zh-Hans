@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 98%
+source-wordcount: '1359'
+ht-degree: 91%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 98%
 
   您还可以访问&#x200B;**报告**&#x200B;部分，以便为营销活动试验配置报告。[了解详情](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL 规则]** - 使用此部分可创建跨渠道频率规则，控制用户接收消息或进入历程的频率。[了解详情](../configuration/frequency-rules.md)
+* **[!UICONTROL 业务规则]**  — 使用此部分创建跨渠道业务规则以控制用户接收消息或进入历程的频率。 [了解详情](../configuration/frequency-rules.md)
 
 * **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](../reports/alerts.md)
 
@@ -197,105 +197,105 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="移动和网络配置名称"
->abstract="待确认"
+>title="移动和Web配置名称"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="添加依赖项"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="添加初始化代码"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="可靠验证"
->abstract="待确认"
+>title="使用保障进行验证"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="JavaScript 代码"
->abstract="待确认"
+>title="Javascript代码"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="启动站点并验证"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="检索设备标记"
->abstract="待确认"
+>title="检索设备令牌"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="从 Xcode 启动应用程序"
->abstract="待确认"
+>title="从Xcode启动应用程序"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="提供推送证书"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
->title="密钥 ID"
->abstract="待确认"
+>title="密钥ID"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="团队 ID"
->abstract="待确认"
+>title="团队编号"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
 >title="选择您的标记属性"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="提供推送证书"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="添加依赖项"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="导入依赖关系"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="添加初始化代码"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance_android"
->title="可靠验证"
->abstract="待确认"
+>title="使用保障进行验证"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
->title="检索设备标记"
->abstract="待确认"
+>title="检索设备令牌"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="从Android Studio启动应用程序"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_load_library"
 >title="异步加载库"
->abstract="待确认"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_library_code"
 >title="文档的Head标记"
->abstract="待确认"
+>abstract="TBC"

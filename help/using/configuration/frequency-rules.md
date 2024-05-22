@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 频率规则
+title: 业务规则
 description: 了解如何定义频率规则
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 11%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
-# 消息频率规则 {#frequency-rules}
+# 业务规则 {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="业务规则"
+>abstract="使用业务规则可控制用户收到消息或进入历程的频率，方法是设置跨渠道规则，以自动从消息和操作中排除过度请求的用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,54 +30,52 @@ ht-degree: 11%
 
 [!DNL Journey Optimizer] 允许您通过设置跨渠道规则，控制用户接收消息或进入历程的频率，这些规则将自动从消息和操作中排除过度请求的用户档案。
 
-例如，对于品牌，规则不能每月向客户发送超过4条营销消息。 为此，您可以使用频率规则，该规则将限制每月日历期间根据一个或多个渠道发送的消息数。
+例如，对于品牌，规则不能每月向客户发送超过4条营销消息。 要实现此目的，您可以使用业务规则，该规则将限制每月日历期间根据一个或多个渠道发送的消息数。
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->消息频率规则与选择退出管理不同，后者允许用户取消订阅以停止接收来自品牌的通信。 [了解详情](../privacy/opt-out.md#opt-out-management)
+>业务规则与选择退出管理不同，后者允许用户取消订阅以停止接收来自品牌的通信。 [了解详情](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [在视频中了解此功能](#video)
 
-## 访问规则 {#access-rules}
+## 访问业务规则 {#access-rules}
 
-规则可从以下位置获取： **[!UICONTROL 管理]** > **[!UICONTROL 规则]** 菜单。 将列出所有规则，并按修改日期排序。
-
-使用过滤器图标可按类别、状态和/或渠道进行过滤。 您还可以搜索消息标签。
+业务规则可从以下位置获取： **[!UICONTROL 管理]** > **[!UICONTROL 业务规则]** 菜单。 将列出所有规则，并按修改日期排序。 使用过滤器图标可按类别、状态和/或渠道进行过滤。 您还可以搜索消息标签。
 
 ![](assets/message-rules-filter.png)
 
 ### 权限{#permissions-frequency-rules}
 
-要访问、创建、编辑或删除消息频率规则，您必须拥有 **[!UICONTROL 管理频率规则]** 许可。
+要访问、创建、编辑或删除业务规则，您必须拥有 **[!UICONTROL 管理频率规则]** 许可。
 
 具有的用户 **[!UICONTROL 查看频率规则]** 权限可以查看规则，但不能修改或删除规则。
 
 ![](assets/message-rules-access.png)
 
-可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
+要了解有关权限的更多信息，请参阅 [本节](../administration/high-low-permissions.md).
 
-## 创建规则 {#create-new-rule}
+## 创建业务规则 {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="选择消息规则类别"
->abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
+>abstract="激活应用于消息后，与选定类别匹配的所有业务规则将自动应用于此消息。 当前仅营销类别可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="设置规则的频次封顶"
->abstract="指定在所选时间范围内发给某个客户配置文件的最大消息数。频率上限将基于所选的日历期间，并将在相应的时间范围开始时重置它。"
+>title="为您的业务规则设置上限"
+>abstract="指定在选定的时间范围内发送到客户配置文件的最大消息数。频率上限将基于所选的日历期间，并将在相应时间范围的开始日期重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="定义规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
+>title="定义业务规则应用于的渠道"
+>abstract="选择至少一个渠道。上限适用于多个渠道中的总数。"
 
-要创建新规则，请执行以下步骤。
+要创建新的业务规则，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 消息频率规则]** 列表，然后单击 **[!UICONTROL 创建规则]**.
+1. 访问 **[!UICONTROL 业务规则]** 列表，然后单击 **[!UICONTROL 创建规则]**.
 
    ![](assets/message-rules-create.png)
 
@@ -106,7 +109,7 @@ ht-degree: 11%
 
    ![](assets/message-rules-created.png)
 
-### 频率上限 {#frequency-cap}
+### 频率限制 {#frequency-cap}
 
 从 **[!UICONTROL 持续时间]** 下拉列表中，选择是每月还是每周应用上限。
 
@@ -134,19 +137,19 @@ ht-degree: 11%
 >
 >要确保每日频率限定规则的准确性，请使用 [流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} 推荐。 在中了解有关受众评估方法的更多信息 [本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## 激活规则 {#activate-rule}
+## 激活业务规则 {#activate-rule}
 
-创建后，消息频率规则具有 **[!UICONTROL 草稿]** 状态，尚未影响任何消息。 要启用此功能，请单击规则旁边的省略号并选择 **[!UICONTROL 激活]**.
+创建业务规则时，该业务规则具有 **[!UICONTROL 草稿]** 状态，尚未影响任何消息。 要启用此功能，请单击规则旁边的省略号并选择 **[!UICONTROL 激活]**.
 
 ![](assets/message-rules-activate.png)
 
-激活规则将影响它在下次执行时应用到的任何消息。 了解如何 [将频率规则应用于消息](#apply-frequency-rule).
+激活规则将影响它在下次执行时应用到的任何消息。 了解如何 [将业务规则应用于消息](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >完全激活规则最多可能需要10分钟。 您无需修改消息或重新发布历程，规则即可生效。
 
-要停用消息频率规则，请单击规则旁边的省略号并选择 **[!UICONTROL 取消激活]**.
+要停用业务规则，请单击规则旁边的省略号并选择 **[!UICONTROL 取消激活]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ ht-degree: 11%
 >
 >停用规则不会影响或重置单个配置文件上的任何计数。
 
-## 将频率规则应用于消息 {#apply-frequency-rule}
+## 将业务规则应用于消息 {#apply-frequency-rule}
 
-要向消息应用频率规则，请执行以下步骤。
+要将业务规则应用于消息，请执行以下步骤。
 
 1. 创建时 [历程](../building-journeys/journey-gs.md)，通过选择为规则定义的渠道之一来添加消息。
 
@@ -168,17 +171,17 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >当前仅 **[!UICONTROL 营销]** 类别适用于消息频率规则。
+   >当前仅 **[!UICONTROL 营销]** 类别适用于业务规则。
 
 1. 您可以单击 **[!UICONTROL 频率规则]** 用于在新选项卡中查看“频率规则”屏幕的链接。 [了解详情](#access-rules)
 
-   与所选类别和渠道匹配的所有频率规则将自动应用于此消息。
+   与所选类别和渠道匹配的所有规则将自动应用于此消息。
 
    >[!NOTE]
    >
    >所选类别为的消息 **[!UICONTROL 事务性]** 将不会根据频率规则进行评估。
 
-1. 您可以在中查看从投放中排除的用户档案数 [全局报告](../reports/global-report.md)、和 [实时报告](../reports/live-report.md)，其中频率规则将列为从投放中排除的用户的可能原因。
+1. 您可以在中查看从投放中排除的用户档案数 [全局报告](../reports/global-report.md)、和 [实时报告](../reports/live-report.md)，其中业务规则将列为从投放中排除的用户的可能原因。
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ ht-degree: 11%
 
 ## 示例：合并多个规则 {#frequency-rule-example}
 
-您可以合并多个消息频率规则，如下面的示例所述。
+您可以合并多个业务规则，如下面的示例所述。
 
-1. [创建规则](#create-new-rule) 已调用 *整体营销上限*：
+1. [创建业务规则](#create-new-rule) 已调用 *整体营销上限*：
 
    * 选择所有渠道。
    * 将上限设置为每月12次。
@@ -204,7 +207,7 @@ ht-degree: 11%
 
 1. 保存并 [激活](#activate-rule) 规则。
 
-1. [创建消息](../building-journeys/journeys-message.md) 对于每个要通过通信的渠道，选择 **[!UICONTROL 营销]** 每条消息的类别。 [了解如何应用频率规则](#apply-frequency-rule)
+1. [创建消息](../building-journeys/journeys-message.md) 对于每个要通过通信的渠道，选择 **[!UICONTROL 营销]** 每条消息的类别。 [了解如何应用业务规则](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 >[!NOTE]
 >
->测试频率规则时，建议使用新创建的 [测试配置文件](../audience/creating-test-profiles.md)，因为一旦达到用户档案的频率上限，就不可能在下个月之前重置计数器。 停用规则将允许有上限的用户档案接收消息，但不会移除或删除任何计数器增量。
+>测试业务规则时，建议使用新创建的 [测试配置文件](../audience/creating-test-profiles.md)，因为一旦达到用户档案的频率上限，就不可能在下个月之前重置计数器。 停用规则将允许有上限的用户档案接收消息，但不会移除或删除任何计数器增量。
 
 ## 操作方法视频 {#video}
 
-了解如何创建、激活、测试和报告频率规则。
+了解如何创建、激活、测试和报告业务规则。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
