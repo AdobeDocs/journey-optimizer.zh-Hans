@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 要了解有关Adobe Experience Platform中警报的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hans){target="_blank"}.
 
-在左侧菜单的下方 **管理**，单击 **警报**. 提供了两个针对Journey Optimizer的预配置警报： [历程自定义操作失败](#alert-custom-actions) 警报和 [读取区段触发器不成功](#alert-read-audiences) 警报。 这些警报详见下文。
+在左侧菜单的下方 **管理**，单击 **警报**. 提供了两个针对Journey Optimizer的预配置警报： [历程自定义操作失败](#alert-custom-actions) 警报和 [读取受众触发器不成功](#alert-read-audiences) 警报。 这些警报详见下文。
 
 您可以通过选择 **订阅** 选项来自 **警报** 仪表板。 使用相同的方法取消订阅。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 警报 **读取受众** 在配置文件进入 **读取受众** 节点。
 
-与对应的I/O事件订阅名称 **读取区段触发器不成功** 警报为 **历程读取区段延迟、失败和错误**.
+与对应的I/O事件订阅名称 **读取受众触发器不成功** 警报为 **历程读取受众延迟、失败和错误**.
 
 ## 故障排除 {#alert-troubleshooting}
 
