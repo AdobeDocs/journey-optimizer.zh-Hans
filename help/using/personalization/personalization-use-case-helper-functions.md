@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，帮助程序，用例，个性化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 * 历程中的电子邮件。 [了解详情](../email/create-email.md)
 * 电子邮件的正文。 [了解详情](../email/content-from-scratch.md)。
 
-执行以下步骤：
+请按照以下步骤操作：
 
 1. [创建初始事件和历程](#create-context).
 1. [创建电子邮件](#configure-email).
@@ -199,9 +199,9 @@ ht-degree: 2%
       <table>
          <tbody>
             <tr>
-               <td><b>{{context.journey.events.event_ID.productListItems.name}}</b></td>
-               <td><b>{{context.journey.events.event_ID.productListItems.quantity}}</b></td>
-               <td><b>${{context.journey.events.event_ID.productListItems.priceTotal}}</b></td>
+            <td><b>{{product.name}}</b></td>
+            <td><b>{{product.quantity}}</b></td>
+            <td><b>${{product.priceTotal}}</b></td>
             </tr>
          </tbody>
       </table>
