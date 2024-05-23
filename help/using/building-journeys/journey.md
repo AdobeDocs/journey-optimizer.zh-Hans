@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 技术用例：
 
 * [使用自定义操作动态传递集合](collections.md)
-* [增加投放数量](ramp-up-deliveries-uc.md)
 * [使用外部数据源和自定义操作限制吞吐量](limit-throughput.md)
 
 ## 历程版本{#journey-versions}
