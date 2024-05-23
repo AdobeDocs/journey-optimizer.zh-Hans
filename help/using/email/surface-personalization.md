@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
+badge: label="有限可用性"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 2%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +23,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->此功能目前仅作为测试版提供给选定用户。 <!--To join the beta program, contact Adobe Customer Care.-->
+>电子邮件表面个性化目前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 ## 添加动态子域 {#dynamic-subdomains}
 

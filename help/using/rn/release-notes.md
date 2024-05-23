@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 47%
+source-wordcount: '768'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="新增功能？"
->abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。"
+>abstract="**Adobe Journey Optimizer** 不断提供新功能、现有功能的增强以及错误修复。 会在每月的最后一周将所有更改整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。
 
@@ -50,6 +50,24 @@ ht-degree: 47%
 <p>目前，体验决策功能仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/gs-experience-decisioning.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件表面个性化 — 限量发布</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在创建电子邮件渠道界面时定义动态子域和个性化的标题参数，以提高灵活性和对电子邮件设置的控制。</p>
+<p>电子邮件表面个性化目前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +155,7 @@ ht-degree: 47%
 
   >[!AVAILABILITY]
   >
-  >此功能目前为测试版本，仅供测试版客户使用。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+  >此功能目前为测试版本，仅供测试版客户使用。 要加入测试版计划，请联系您的Adobe代表。
 
 <!--
 **Audiences**
