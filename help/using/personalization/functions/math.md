@@ -6,18 +6,18 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 # 数学函数 {#math}
 
-了解如何在表达式编辑器中使用数学函数。
+了解如何在个性化编辑器中使用数学函数。
 
-## 绝对 {#absolute}
+## Absolute {#absolute}
 
 此 `absolute` 函数用于将数字转换为绝对值。
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 {%= toHexString(158) %}
 ```
 
-## 到Int {#to-int}
+## 到 Int {#to-int}
 
 此 `toInt` 函数用于将任意这些类型(number、double、int、long、float、short、byte、boolean、string)转换为整数。
 
@@ -115,7 +115,7 @@ ht-degree: 6%
 {%= toInt(42.6) %}: integer
 ```
 
-## 目标百分比 {#to-percentage}
+## To Percentage {#to-percentage}
 
 此 `toPercentage` 函数用于将数字转换为百分比。
 
@@ -125,7 +125,7 @@ ht-degree: 6%
 {%= toPercentage(double) %}: string
 ```
 
-## 到Precision {#to-precision}
+## To Precision {#to-precision}
 
 此 `toPrecision` 函数用于将数字转换为所需的精度。
 

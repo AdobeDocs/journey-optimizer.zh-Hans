@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 条件规则是一组规则，用于定义应在消息中显示哪些内容，具体取决于用户档案属性、受众成员资格或上下文事件等各种条件。
 
-条件规则是使用表达式编辑器创建的，如果要在内容中重复使用，可以存储这些规则。 [了解如何将条件规则保存到库](#save)
+条件规则是使用个性化编辑器创建的，如果要在内容中重复使用，可以存储这些规则。 [了解如何将条件规则保存到库](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ ht-degree: 8%
 
 ## 访问条件规则生成器 {#access}
 
-条件规则是从以下位置创建的 **[!UICONTROL 条件]** 表达式编辑器中的菜单，可通过以下方式访问：
+条件规则是从以下位置创建的 **[!UICONTROL 条件]** 个性化编辑器中的菜单，可通过以下方式访问：
 
 * 在Email Designer中，为电子邮件正文中的组件启用动态内容时。 [了解如何将动态内容添加到电子邮件中](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* 在任何您可以使用添加个性化的字段中 [表达式编辑器](personalization-build-expressions.md).
+* 在任何您可以使用添加个性化的字段中 [个性化编辑器](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -43,16 +43,16 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="创建条件"
->abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
+>abstract="组合用户档案属性、上下文事件或受众，以构建定义应在消息中显示哪些内容的规则。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="创建条件"
->abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
+>abstract="组合用户档案属性、上下文事件或受众，以构建定义应在消息中显示哪些内容的规则。"
 
 创建条件规则的步骤如下：
 
-1. 访问 **[!UICONTROL 条件]** 表达式编辑器或电子邮件设计器中的菜单，然后单击 **[!UICONTROL 新建]**.
+1. 访问 **[!UICONTROL 条件]** 个性化编辑器或Email Designer中的菜单，然后单击 **[!UICONTROL 新建]**.
 
 1. 根据需要构建条件规则。 为此，请将左侧菜单中的所需属性拖放并排列到画布中。
 

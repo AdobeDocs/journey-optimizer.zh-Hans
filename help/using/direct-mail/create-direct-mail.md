@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 18%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直邮创建"
->abstract="在计划的营销活动中创建直邮，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
+>abstract="在计划的营销活动中创建直邮消息，并设计直邮提供商向您的客户发送邮件所需的提取文件。"
 
 要创建直邮消息，请创建计划的营销活动，并配置提取文件。 直邮提供商需要此文件向客户发送邮件。
 
@@ -62,12 +62,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="数据字段"
->abstract="添加并配置要在直邮提供商将电子邮件发送到您的客户时所需的提取文件中显示的列和信息。最多可以添加 50 个列。"
+>abstract="添加并配置直邮提供商向您的客户发送邮件所需的提取文件中显示的列和信息。 您最多可以添加50列。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="提取文件格式"
->abstract="对于每个字段，使用表达式编辑器指定一个标签和要显示的信息。<br/><br/>通过<b>排序方式</b>选项，可使用所选字段为提取文件的列排序。"
+>abstract="对于每个字段，使用个性化编辑器指定要显示的标签和信息。 <br/><br/> 此 <b>排序方式</b> 选项允许您使用选定的字段对提取文件的列进行排序。"
 
 1. 配置要在提取文件中显示的列和信息：
 
@@ -75,7 +75,7 @@ ht-degree: 18%
 
    1. 此 **[!UICONTROL 格式化]** 窗格显示在右侧，允许您设置选定的列。 指定 **[!UICONTROL 标签]** 用于列。
 
-   1. 在 **[!UICONTROL 数据]** 字段中，选择要显示的配置文件属性， [表达式编辑器](../personalization/personalization-build-expressions.md).
+   1. 在 **[!UICONTROL 数据]** 字段中，选择要显示的配置文件属性， [个性化编辑器](../personalization/personalization-build-expressions.md).
 
    1. 要使用列对提取文件排序，请选择该列并打开 **[!UICONTROL 排序方式]** 选项。 此 **[!UICONTROL 排序方式]** 图标显示在中的列标签旁边 **[!UICONTROL 数据字段]** 部分。
 
@@ -95,7 +95,7 @@ ht-degree: 18%
 
    1. （可选）启用 **[!UICONTROL 附加时间戳以导出文件名]** 选项。
 
-   1. 有时您可能需要在提取文件的开头或结尾添加信息。要执行此操作，请使用 **[!UICONTROL 注释]** 字段，然后指定是否要以页眉或页脚形式包含注释。
+   1. 有时您可能需要在提取文件的开头或结尾添加信息。 要执行此操作，请使用 **[!UICONTROL 注释]** 字段，然后指定是否要以页眉或页脚形式包含注释。
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 
@@ -105,7 +105,7 @@ ht-degree: 18%
 
    1. 此 **[!UICONTROL 格式化]** 窗格显示在右侧，允许您设置选定的列。 指定 **[!UICONTROL 标签]** 用于列。
 
-   1. 在 **[!UICONTROL 数据]** 字段中，选择要显示的配置文件属性， [表达式编辑器](../personalization/personalization-build-expressions.md).
+   1. 在 **[!UICONTROL 数据]** 字段中，选择要显示的配置文件属性， [个性化编辑器](../personalization/personalization-build-expressions.md).
 
    1. 要使用列对提取文件排序，请选择该列并打开 **[!UICONTROL 排序方式]** 选项。 此 **[!UICONTROL 排序方式]** 图标显示在中的列标签旁边 **[!UICONTROL 数据字段]** 部分。
 

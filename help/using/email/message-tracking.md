@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 跟踪您的邮件
-description: 了解如何添加链接和跟踪已发送邮件
+title: 跟踪您的消息
+description: 了解如何添加链接和跟踪已发送的消息
 feature: Email Design, Monitoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 35%
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 35%
 
 ## 插入链接 {#insert-links}
 
-设计邮件时，可以添加指向内容的链接。
+设计消息时，您可以添加指向内容的链接。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 35%
 
 要在电子邮件内容中插入链接，请执行以下步骤：
 
-1. 选择一个元素，并单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
+1. 选择元素并单击 **[!UICONTROL 插入链接]** 从上下文工具栏中。
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -95,15 +95,15 @@ ht-degree: 35%
 
 您可以使用对链接进行调整 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 右边的窗格。 您可以为链接加下划线，编辑其颜色并选择其目标。
 
-1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
+1. 在 **[!UICONTROL 文本]** 插入了链接的组件，请选择您的链接。
 
 1. 从 **[!UICONTROL 设置]** 选项卡上，选择将怎样通过重定向受众 **[!UICONTROL Target]** 下拉列表：
 
-   * **[!UICONTROL 无]**：单击时在同一框架中打开链接（默认）。
-   * **[!UICONTROL 空白]**：在新窗口或标签页中打开链接。
-   * **[!UICONTROL 自身]**：单击时在同一框架中打开链接。
-   * **[!UICONTROL 父]**：在父框架中打开链接。
-   * **[!UICONTROL 顶部]**：在窗口的整个正文中打开链接。
+   * **[!UICONTROL 无]**：在与单击链接的同一帧中打开链接（默认）。
+   * **[!UICONTROL 空白]**：在新窗口或选项卡中打开链接。
+   * **[!UICONTROL 自身]**：在与单击链接的同一帧中打开链接。
+   * **[!UICONTROL 父级]**：在父框架中打开链接。
+   * **[!UICONTROL 上]**：在窗口正文中打开链接。
 
    ![](assets/link_2.png)
 
@@ -111,7 +111,7 @@ ht-degree: 35%
 
    ![](assets/link_1.png)
 
-1. 要更改链接的颜色，请从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中单击&#x200B;**[!UICONTROL 链接颜色]**。
+1. 要更改链接的颜色，请单击 **[!UICONTROL 链接颜色]** 从 **[!UICONTROL 样式]** 选项卡。
 
    ![](assets/link_3.png)
 
@@ -119,46 +119,46 @@ ht-degree: 35%
 
 ## 链接到镜像页面 {#mirror-page}
 
-镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。其内容与电子邮件的内容相同。
+镜像页是可通过Web浏览器在线访问的HTML页。 其内容与电子邮件的内容相同。
 
 要在电子邮件中添加指向镜像页面的链接，请执行以下操作 [插入链接](#insert-links) 并选择 **[!UICONTROL 镜像页面]** 作为链接类型。
 
 ![](assets/message-tracking-mirror-page.png)
 
-镜像页面是自动创建的。
+镜像页面会自动创建。
 
 >[!IMPORTANT]
 >
->镜像页面链接是自动生成的，并且无法编辑。它们包含渲染原始电子邮件所需的所有加密的个性化数据。因此，使用具有较大值的个性化属性可能会生成冗长的镜像页面 URL，从而导致无法在具有最大 URL 长度限制的 Web 浏览器中访问链接。
+>镜像页面链接是自动生成的，无法编辑。 它们包含呈现原始电子邮件所需的所有加密个性化数据。 因此，使用具有大值的个性化属性可能会生成过长的镜像页面URL，从而阻止链接在URL长度最大化的Web浏览器中工作。
 
-发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
+发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容会显示在他们的默认Web浏览器中。
 
 >[!NOTE]
 >
->在 [验证](../content-management/proofs.md) 发送到测试用户档案，指向镜像页面的链接无效。 它仅在最终邮件中激活。
+>在 [验证](../content-management/proofs.md) 发送到测试用户档案，指向镜像页面的链接无效。 它仅在最终消息中激活。
 
 镜像页面的保留期为60天。 在该延迟之后，镜像页面将不再可用。
 
 ## 管理跟踪 {#manage-tracking}
 
-[电子邮件设计器](content-from-scratch.md)允许您管理跟踪的 URL，例如编辑每个链接的跟踪类型。
+此 [电子邮件设计工具](content-from-scratch.md) 允许您管理跟踪的URL，例如编辑每个链接的跟踪类型。
 
 1. 单击 **[!UICONTROL 链接]** 图标，以显示将跟踪的内容的所有URL的列表。
 
-   此列表提供一个集中式视图，让您能够找到电子邮件内容中的每个 URL。
+   通过此列表，您可以集中查看并找到电子邮件内容中的每个URL。
 
 1. 要编辑链接，请单击相应的铅笔图标。
 
-1. 如果需要，可以修改&#x200B;**[!UICONTROL 跟踪类型]**：
+1. 您可以修改 **[!UICONTROL 跟踪类型]** 如果需要：
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   对于每个跟踪的 URL，可以将跟踪模式设置为下列值之一：
+   对于每个跟踪的URL，您可以将跟踪模式设置为以下值之一：
 
-   * **[!UICONTROL 已跟踪]**：激活对此 URL 的跟踪。
-   * **[!UICONTROL 选择禁用]**：将此 URL 视为选择退出或退订 URL。
-   * **[!UICONTROL 镜像页面]**：将此 URL 视为镜像页面 URL。
-   * **[!UICONTROL 从不]**：从不激活对此 URL 的跟踪。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 已跟踪]**：在此URL上激活跟踪。
+   * **[!UICONTROL 选择禁用]**：将此URL视为选择退出或退订URL。
+   * **[!UICONTROL 镜像页面]**：将此URL视为镜像页面URL。
+   * **[!UICONTROL 从不]**：从不激活此URL的跟踪。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 有关打开次数和点击次数的报告，请参见 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 
@@ -174,7 +174,7 @@ ht-degree: 35%
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. 添加URL跟踪参数，然后从表达式编辑器中选择您选择的配置文件属性。
+1. 添加URL跟踪参数，然后从个性化编辑器中选择您选择的配置文件属性。
 
    ![](assets/message-tracking-perso-parameter.png)
 

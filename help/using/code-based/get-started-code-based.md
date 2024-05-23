@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 86%
 
 ---
 
@@ -73,9 +73,9 @@ ht-degree: 100%
 
 何时使用基于代码的渠道，而不是使用其他 [!DNL Journey Optimizer] 渠道？
 
-* 当您的数字资产无法通过 Web 浏览器或移动应用程序进行访问时，您可以考虑随时使用基于代码的体验，在这些情况下，您最好使用 [!DNL Journey Optimizer] [Web 渠道](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"}。
+* 当您的数字资产无法通过Web浏览器或移动应用程序进行访问时，您可以考虑随时使用基于代码的体验，在这些情况下，您可能可以更好地使用 [!DNL Journey Optimizer] [Web渠道](../web/get-started-web.md){target="_blank"} 或 [!DNL Journey Optimizer] [应用程序内消息传送](../in-app/get-started-in-app.md){target="_blank"} 渠道。
 
-* 如果您的网站无法加载到 [Web 设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}进行 Web 渠道的可视化创作，您可以使用基于代码的渠道来替代 [!DNL Journey Optimizer] Web 渠道。
+* 您可以使用基于代码的渠道作为的替代 [!DNL Journey Optimizer] Web渠道(如果您的网站无法加载到 [Web设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"} 可视编辑器或者 [浏览器扩展](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} 支持Web渠道的可视化创作。
 
 * 如果您具有基于 API 的无头或服务器端实施，还可以使用基于代码的渠道来替代 [!DNL Journey Optimizer] Web 或应用程序内渠道。
 
@@ -85,13 +85,13 @@ ht-degree: 100%
 
 **Web**
 * 使用 [Web 设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"}可视编辑器编辑您的内容。
-* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
+* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 实施和 [Adobe Experience Cloud可视化编辑帮助程序](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 扩展已安装在您的Web浏览器上。 [了解详情](../web/web-prerequisites.md){target="_blank"}
 * 通过 Web 渠道，您可以修改页面上的所有内容，并且有一个预定义列表，可用于进行更改。 [了解详情](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * 它易于设置，快捷方便。
 * 它是以营销人员为中心的。
 
 **基于代码的体验**
-* 使用[表达式编辑器](create-code-based.md#edit-code)编辑内容。
+* 使用编辑内容 [个性化编辑器](create-code-based.md#edit-code).
 * 要使用基于代码的体验，需要对您的实现进行预先开发，以确保您的表面能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些表面发布的内容。[了解详情](#surface-definition)
 * 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须确定表面上需要修改以进行个性化或测试的组件（主页横幅、主页图像、菜单栏等），并与开发团队合作构建处理这些更改所需的实现。
 * 它允许您使用 JSON 代码内容。
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 1. 定义[表面](#surface-definition)，基本上是您要使用该表面在其中添加基于代码的体验并创建营销活动的位置[!DNL Journey Optimizer]。[了解如何操作](create-code-based.md#create-code-based-campaign)
 
-1. 通过使用 [!DNL Journey Optimizer] 表达式编辑器为选定表面指定内容来编写体验。[了解如何操作](create-code-based.md#edit-code)
+1. 通过使用为所选表面指定内容来创作体验 [!DNL Journey Optimizer] 个性化编辑器。 [了解如何操作](create-code-based.md#edit-code)
 
 1. 您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取命名表面的内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。在这种情况下，实施团队负责呈现或解释并处理返回的内容。<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
 >title="定义基于代码的体验表面"
->abstract="基于代码的表面是任何专为用户或系统交互设计的实体，用 URI 唯一地标识它。"
+>abstract="基于代码的界面是为用户或系统交互而设计的任何实体，由URI唯一标识。"
 
 **基于代码的体验表面**&#x200B;是为用户或系统交互设计的任何实体<!--ask Robert to explain further-->，由一个 **URI** 进行唯一标识。
 

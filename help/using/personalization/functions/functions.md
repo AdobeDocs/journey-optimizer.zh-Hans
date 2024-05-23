@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1872'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 2%
 
 ➡️ [在此视频中了解如何使用辅助函数](#video)
 
-在个性化编辑器的个性化下拉列表中提供的辅助函数中，会利用模板语言，如下所示：
+在个性化编辑器的个性化下拉列表中提供的辅助函数中会利用模板语言，如下所示：
 
 ![](../assets/access-helper-functions.png)
 
 >[!NOTE]
 >
->个性化编辑器中的可用功能和功能与 [历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md).
+>个性化编辑器中可用的功能和能力与 [历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md).
 
-在 [!DNL Journey Optimizer] 个性化编辑器和辅助函数分为三类： [函数](#functions-helper)， [辅助函数](#helper-helper) 和 [运算符](#operators-helper).
+在 [!DNL Journey Optimizer] 个性化编辑器、辅助函数分为三类： [函数](#functions-helper)， [辅助函数](#helper-helper) 和 [运算符](#operators-helper).
 
 选择类别，以访问子类别和函数。
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 单击 `...` 图标，以查看函数的说明并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
 
-## 函数{#functions-helper}
+## 功能{#functions-helper}
 
 ### 聚合和数组函数
 
@@ -49,52 +49,52 @@ ht-degree: 2%
         <td><a href="aggregation.md#count">计数</a></td><td>此函数返回给定数组中元素的数量。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">仅计算Null</a></td><td>此函数对列表中的空值进行计数。</td>
+        <td><a href="aggregation.md#count-only-null">Count Only Null</a></td><td>此函数对列表中的空值进行计数。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-with-null">空计数</a></td><td>此函数对列表的所有元素（包括空值）进行计数</td>
+        <td><a href="aggregation.md#count-with-null">Count With Null</a></td><td>此函数对列表的所有元素（包括空值）进行计数</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#distinct">Distinct</a></td><td>此函数从删除了重复值的数组或列表中获取值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">Null非重复计数</a></td><td>此函数对不同值（包括空值）进行计数</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Distinct Count With Null</a></td><td>此函数对不同值（包括空值）进行计数</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">第一个项目</a></td><td>此函数返回数组或列表中的第一项。</td>
+        <td><a href="arrays-list.md#head">First item</a></td><td>此函数返回数组或列表中的第一项。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">数组中的前n个</a></td><td>当根据给定的数值表达式按升序排序时，此函数返回数组中的前“N”项</td>
+        <td><a href="arrays-list.md#first-n">First n in array</a></td><td>当根据给定的数值表达式按升序排序时，此函数返回数组中的前“N”项</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">在</a></td><td>此函数用于确定一个项是否是一个数组或列表的成员</td>
+        <td><a href="arrays-list.md#in">In</a></td><td>此函数用于确定一个项是否是一个数组或列表的成员</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">包括</a></td><td>此函数确定一个数组或列表是否包含给定项</td>
+        <td><a href="arrays-list.md#includes">Includes</a></td><td>此函数确定一个数组或列表是否包含给定项</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">相交</a></td><td>此函数确定两个数组或列表是否至少有一个公共成员</td>
+        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>此函数确定两个数组或列表是否至少有一个公共成员</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">阵列中的最后n个</a></td><td>此函数返回数组中的最后“N”个项（当根据给定的数值表达式按升序排序时）</td>
+        <td><a href="arrays-list.md#last-n">Last n in array</a></td><td>此函数返回数组中的最后“N”个项（当根据给定的数值表达式按升序排序时）</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">最大值</a></td><td>此函数返回数组中所有选定值中的最大值。</td>
+        <td><a href="aggregation.md#max">Maximum</a></td><td>此函数返回数组中所有选定值中的最大值。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">最小值</a></td><td>此函数返回数组中所有选定值中的最小值。</td>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>此函数返回数组中所有选定值中的最小值。</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">不在</a></td><td>此函数确定一个项是否不是一个数组或列表的成员</td>
+        <td><a href="arrays-list.md#notin">Not in</a></td><td>此函数确定一个项是否不是一个数组或列表的成员</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">子集</a></td><td>此函数确定特定数组（数组A）是否是另一个数组（数组B）的子集，即，如果数组A中的所有元素都是数组B的元素</td>
+        <td><a href="arrays-list.md#subset">Subset of</a></td><td>此函数确定特定数组（数组A）是否是另一个数组（数组B）的子集，即，如果数组A中的所有元素都是数组B的元素</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">总和</a></td><td>此函数返回数组中所有选定值的总和</td>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>此函数返回数组中所有选定值的总和</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">超集</a></td><td>此函数确定特定数组（数组A）是否是另一个数组（数组B）的超集，即该数组A是否包含数组B中的所有元素</td>
+    <td><a href="arrays-list.md#superset">Superset of</a></td><td>此函数确定特定数组（数组A）是否是另一个数组（数组B）的超集，即该数组A是否包含数组B中的所有元素</td>
     </tr>
 </table>
 
@@ -102,19 +102,19 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="dates.md#age">年龄</a></td><td>此函数从给定日期检索年龄</td>
+        <td><a href="dates.md#age">Age</a></td><td>此函数从给定日期检索年龄</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">当前时间（以毫秒为单位）</a></td><td>此函数检索当前时间（以纪元毫秒为单位）</td>
+        <td><a href="dates.md#current">Current time in milliseconds</a></td><td>此函数检索当前时间（以纪元毫秒为单位）</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">日期差异</a></td><td>此函数检索两个日期之间的天数差</td>
+        <td><a href="dates.md#date-diff">Date difference</a></td><td>此函数检索两个日期之间的天数差</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">每周的某一日</a></td><td>此函数检索星期几</td>
+        <td><a href="dates.md#day-week">Day of week</a></td><td>此函数检索星期几</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">年中哪天</a></td><td>此函数检索每年的某一天</td>
+        <td><a href="dates.md#day-year">Day of year</a></td><td>此函数检索每年的某一天</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">设置日期格式</a></td><td>此函数设置日期时间值的格式。</td>
@@ -123,16 +123,16 @@ ht-degree: 2%
         <td><a href="dates.md#format-date-locale">支持区域设置的日期格式</a></td><td>此函数将日期时间值格式化为其相应的语言敏感表示形式，即所需的区域设置中。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">设置天数</a></td><td>此函数为给定的日期时间设置月中日（该月中的第几天）</td>
+        <td><a href="dates.md#set-days">Set Days</a></td><td>此函数为给定的日期时间设置月中日（该月中的第几天）</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">设置小时</a></td><td>此函数设置日期时间的小时</td>
+        <td><a href="dates.md#set-hours">Set Hours</a></td><td>此函数设置日期时间的小时</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">到UTC</a></td><td>此函数将日期时间转换为UTC</td>
+        <td><a href="dates.md#to-utc">To UTC</a></td><td>此函数将日期时间转换为UTC</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">一年中的周</a></td><td>此函数返回年中周（该年中的第几周）</td>
+        <td><a href="dates.md#week-of-year">Week of year</a></td><td>此函数返回年中周（该年中的第几周）</td>
     </tr>
 </table>
 </table>
@@ -155,13 +155,13 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">绝对</a></td><td>此函数将任意数字格式化为其区分语言的表示形式。</td>
+        <td><a href="math.md#absolute">Absolute</a></td><td>此函数将任意数字格式化为其区分语言的表示形式。</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">设置数字格式</a></td><td>此函数将任意数字格式化为其区分语言的表示形式。</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">Random</a></td><td>此函数返回一个0到1之间的随机值。</td>
+        <td><a href="math.md#random">Random</a></td><td>此函数返回一个 0 到 1 之间的随机值</td>
     </tr>
     <tr>
         <td><a href="math.md#round-down">Round down</a></td><td>此函数对一个数字进行向下舍入。</td>
@@ -190,10 +190,10 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">不为null</a></td><td>此函数用于确定是否存在对象引用</td>
+        <td><a href="objects.md#isNotNull">不为空</a></td><td>此函数用于确定是否存在对象引用</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">Is null</a></td><td>此函数用于确定对象引用是否不存在</td>
+        <td><a href="objects.md#isNull">为空</a></td><td>此函数用于确定对象引用是否不存在</td>
     </tr>
 </table>
 
@@ -216,10 +216,10 @@ ht-degree: 2%
         <td><a href="string.md#doesNotContain">不包含</a></td><td>此函数用于确定一个字符串是否不包含指定的子字符串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotEndWith">结尾不是</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串结尾。</td>
+        <td><a href="string.md#doesNotEndWith">Does not end with</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串结尾。</td>
     </tr>
     <tr>
-        <td><a href="string.md#doesNotStartWith">开头不是</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串开头。</td>
+        <td><a href="string.md#doesNotStartWith">Does not start with</a></td><td>此函数用于确定一个字符串是否不以指定的子字符串开头。</td>
     </tr>
     <tr>
         <td><a href="string.md#encode64">编码64</a></td><td>此函数用于对字符串进行编码或解码。</td>
@@ -241,58 +241,58 @@ ht-degree: 2%
         <td><a href="string.md#format-currency">设置货币格式</a></td><td>此函数根据在第二个参数中作为字符串传递的区域设置，将任何数字转换为相应的区分语言的货币表示形式</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">获取url主机</a></td><td>此函数用于获取url主机。</td>
+        <td><a href="string.md#get-url-host">Get url host</a></td><td>此函数用于获取 URL 主机。</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">获取URL路径</a></td><td>此函数用于获取url路径。</td>
+        <td><a href="string.md#get-url-path">Get url path</a></td><td>此函数用于获取url路径。</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-protocol">Get url protocol</a></td><td>此函数用于获取url协议。</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">索引：</a></td><td>此函数返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1</td>
+        <td><a href="string.md#index-of">Index Of</a></td><td>此函数返回第二个参数在第一个参数中第一次出现的位置。如果没有匹配项，则返回–1</td>
     </tr>
     <tr>
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>此函数用于检查字符串或表达式是否为空。</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">不为空</a></td><td>如果参数中的字符串不为空，则此函数返回true。</td>
+        <td><a href="string.md#is-not-empty">Is Not Empty</a></td><td>如果参数中的字符串不为空，则此函数返回 true。</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">最后索引：</a></td><td>此函数返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。</td>
+        <td><a href="string.md#last-index-of">Last Index Of</a></td><td>此函数返回第二个参数在第一个参数中最后一次出现的位置。如果没有匹配项，则返回 -1。</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Left trim</a></td><td>此函数去除字符串开头的空格。</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">长度</a></td><td>此函数用于获取字符串或表达式中的字符数。</td>
+        <td><a href="string.md#length">Length</a></td><td>此函数用于获取字符串或表达式中的字符数。</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">点赞</a></td><td>此函数用于确定一个字符串是否与指定的模式匹配</td>
+        <td><a href="string.md#like">喜欢</a></td><td>此函数用于确定一个字符串是否与指定的模式匹配</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">小写</a></td><td>此函数将字符串转换为小写字母。</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">蒙版</a></td><td>此函数用于将字符串的一部分替换为“X”字符。</td>
+        <td><a href="string.md#mask">掩码</a></td><td>此函数用于将字符串的一部分替换为“X”字符。</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">匹配</a></td><td>此函数用于确定一个字符串是否与特定的正则表达式匹配。</td>
+        <td><a href="string.md#matches">Matches</a></td><td>此函数用于确定一个字符串是否与特定的正则表达式匹配。</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>此函数返回输入字符串的md5哈希值。</td>
+        <td><a href="string.md#md5">MD5</a></td><td>此函数返回输入字符串的 md5 哈希值。</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">不等于</a></td><td>此函数用于确定一个字符串是否不等于指定的字符串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">不等于，忽略大小写</a></td><td>此函数比较两个字符串（忽略大小写）。</td>
+        <td><a href="string.md#not-equal-with-ignore-case">Not Equal With Ignore Case</a></td><td>此函数比较两个字符串（忽略大小写）。</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">正则表达式组</a></td><td>此函数用于根据提供的正则表达式提取特定信息</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">替换</a></td><td>此函数将字符串中的给定子字符串替换为另一个子字符串。</td>
+        <td><a href="string.md#replace">更换</a></td><td>此函数将字符串中的给定子字符串替换为另一个子字符串。</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">全部替换</a></td><td>此函数将匹配“target”的文本的所有子字符串替换为指定的文本“replacement”字符串</td>
@@ -313,10 +313,10 @@ ht-degree: 2%
         <td><a href="string.md#string-to-integer">String to integer</a></td><td>此函数将一个字符串值转换为一个整数值。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">字符串到数字</a></td><td>此函数用于将字符串转换为数字。 对于无效的输入，它返回相同的字符串作为输出。</td>
+        <td><a href="string.md#string-to-number">String to number</a></td><td>此函数用于将字符串转换为数字。对于无效的输入，它返回相同字符串作为输出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">子字符串</a></td><td>此函数返回字符串表达式在开始索引和结束索引之间的子字符串。</td>
+        <td><a href="string.md#sub-string">Sub string</a></td><td>此函数返回字符串表达式在开始索引和结束索引之间的子字符串。</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">字首大写</a></td><td>此函数用于将字符串中每个单词的首字母大写。</td>
@@ -325,22 +325,22 @@ ht-degree: 2%
         <td><a href="string.md#to-bool">To Bool</a></td><td>此函数根据类型将一个参数值转换为布尔值。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">To Date Time</a></td><td>此函数用于将字符串转换为日期。 对于无效的输入，它返回纪元日期作为输出。</td>
+        <td><a href="string.md#to-date-time">To Date Time</a></td><td>此函数用于将字符串转换为日期。对于无效的输入，它返回纪元日期作为输出。</td>
     </tr>
     <tr>
         <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>此函数将一个参数值转换为仅日期时间值。 对于无效的输入，它返回纪元日期作为输出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">修剪</a></td><td>此函数去除字符串开头和结尾的空格。</td>
+        <td><a href="string.md#trim">Trim</a></td><td>此函数去除字符串开头和结尾的空格。</td>
     </tr>
     <tr>
-        <td><a href="string.md#upper">大写</a></td><td>此函数将一个字符串转换为大写字母。</td>
+        <td><a href="string.md#upper">Upper case</a></td><td>此函数将一个字符串转换为大写字母。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">Url decode</a></td><td>此函数用于对url编码的字符串进行解码。</td>
+        <td><a href="string.md#url-decode">Url decode</a></td><td>此函数用于对 URL 编码的字符串进行解码。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Url encode</a></td><td>此函数用于对字符串进行url编码。</td>
+        <td><a href="string.md#url-encode">Url encode</a></td><td>此函数用于对一个字符串进行 URL 编码。</td>
     </tr>
 </table>
 
@@ -355,7 +355,7 @@ ht-degree: 2%
         <td><a href="helpers.md#default">默认回退值</a></td><td>此函数用于呈现默认变量</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">每个</a></td><td>此函数用于在数组上迭代</td>
+        <td><a href="helpers.md#each">Each</a></td><td>此函数用于在数组上迭代</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">如果</a></td><td>此函数用于定义条件块 — 如果表达式求值返回true，则呈现块</td>
@@ -367,7 +367,7 @@ ht-degree: 2%
         <td><a href="helpers.md#unless">Unless</a></td><td>此函数用于定义一个条件块 — 如果表达式求值返回false，则会呈现块</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">替换为</a></td><td>此函数用于更改模板部分的求值令牌</td>
+        <td><a href="helpers.md#with">With</a></td><td>此函数用于更改模板部分的求值令牌</td>
     </tr>
 </table>
 
@@ -379,7 +379,7 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">添加</a></td><td>此运算符用于求两个参数表达式的总和</td>
+        <td><a href="arithmetic-functions.md#add">加法</a></td><td>此运算符用于求两个参数表达式的总和</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#divide">除</a></td><td>此运算符用于查找两个参数表达式的商</td>

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，验证，错误，个性化
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 验证机制 {#validation-mechanisms}
 
-在 **表达式编辑器** 屏幕，使用 **验证** 按钮检查您的个性化语法。
+在 **个性化编辑器** 屏幕，使用 **验证** 按钮检查您的个性化语法。
 
 >[!NOTE]
 > 当您单击 **添加** 按钮以关闭编辑器窗口。
@@ -29,7 +29,7 @@ ht-degree: 1%
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> 如果个性化语法无效，则无法关闭表达式编辑器窗口。
+> 如果个性化语法无效，则无法关闭个性化编辑器窗口。
 >
 
 ## 常见错误 {#common-errors}
@@ -80,7 +80,7 @@ No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-验证是在表达式编辑器的个性化内容验证期间执行的。
+验证是在验证个性化编辑器中的个性化内容期间执行的。
 
 <table> 
  <thead> 

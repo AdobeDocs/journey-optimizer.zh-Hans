@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 20%
+source-wordcount: '1855'
+ht-degree: 17%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="选择营销活动受众"
->abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
+>title="选择活动受众"
+>abstract="此列表显示所有可用的Adobe Experience Platform受众。 选择营销活动要定位的受众。 在营销活动中配置的消息将发送给属于所选受众的所有个人。 [了解有关受众的更多信息](../audience/about-audiences.md)"
 
 受众是指一组具有相似行为和/或特征的人员。 要了解有关受众的更多信息，请参阅 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
 
@@ -86,7 +86,7 @@ ht-degree: 20%
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **个性化您的消息** 在历程或营销活动中，通过在表达式编辑器中添加来自目标受众的扩充属性。 [了解如何使用表达式编辑器](../personalization/personalization-build-expressions.md)
+* **个性化您的消息** 在历程或营销活动中，通过在个性化编辑器中添加来自目标受众的扩充属性。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 20%
 
 +++
 
-+++ 批次分段
++++ 批量分段
 
 每24小时评估一次受众的用户档案列表。
 
@@ -120,7 +120,7 @@ ht-degree: 20%
 
 +++ 边缘分段
 
-边缘分段是一种在Adobe Experience Platform中即时评估区段的能力 [在边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+边缘分段是一种在Adobe Experience Platform中即时评估区段的能力 [在边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}，启用同一页面和下一页面个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ ht-degree: 20%
   >
   >对于自定义上传受众，如果在定期历程中启用了“增量读取”，则仅在第一次定期时检索用户档案，因为这些受众已修复。
 
-此外，这些受众可在表达式编辑器中使用，以将历程和营销活动中的消息个性化。 [了解如何使用表达式编辑器](../personalization/personalization-build-expressions.md)
+此外，这些受众可在个性化编辑器中使用，以在历程和营销活动中个性化您的消息。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
 
 +++
 

@@ -1,26 +1,26 @@
 ---
-title: 将呈现添加到优惠
+title: 向优惠添加呈现
 description: 了解如何向优惠添加呈现
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
-# 将呈现添加到优惠 {#add-representations}
+# 向优惠添加呈现 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="呈现"
->abstract="添加呈现以定义您的优惠在消息中显示的位置。优惠的呈现越多，在不同的投放上下文中使用该优惠的机会就越多。"
+>abstract="添加呈现以定义优惠在消息中的显示位置。 优惠具有的表示越多，在不同投放位置上下文中使用该优惠的机会就越多。"
 
-选件可以显示在消息中的不同位置：在带有图像的顶部横幅中、作为段落中的文本或者HTML块中，等等。 优惠的呈现越多，在不同的投放上下文中使用该优惠的机会就越多。
+选件可以显示在消息中的不同位置：在带有图像的顶部横幅中、作为段落中的文本或者HTML块中，等等。 优惠具有的表示越多，在不同投放位置上下文中使用该优惠的机会就越多。
 
 ## 配置优惠的呈现 {#representations}
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
-> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> 使用 [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}，您需要部署 [!DNL Assets Essentials] 并确保用户是的一部分 **Assets Essentials消费者用户** 或/和 **Assets Essentials用户** 产品配置文件。 详细了解 [此页面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. 选择 **[!UICONTROL 资产库]** 选项。
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 1. 浏览资源以选择您选择的图像
 
-1. 单击&#x200B;**[!UICONTROL 选择]**。
+1. 单击 **[!UICONTROL 选择]**.
 
    ![](../assets/offer-select-asset.png)
 
@@ -100,13 +100,13 @@ ht-degree: 8%
 
 要从外部公共位置添加内容，请选择 **[!UICONTROL URL]**，然后输入要添加的内容的URL地址。
 
-您可以使用表达式编辑器个性化URL。 详细了解 [个性化](../../personalization/personalize.md#use-expression-editor).
+您可以使用个性化编辑器个性化URL。 详细了解 [个性化](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 例如，您希望将显示为选件的图像个性化。 你想让喜欢城市度假的用户看到纽约的天际线，想让喜欢海滩度假的用户看到夏威夷的北岸。
 
-使用表达式编辑器，使用合并模式检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+使用个性化编辑器，使用合并模式检索存储在Adobe Experience Platform中的配置文件属性。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ ht-degree: 8%
 
    ![](../assets/offer-text-content.png)
 
-   您可以使用表达式编辑器将内容个性化。 详细了解 [个性化](../../personalization/personalize.md#use-expression-editor).
+   您可以使用个性化编辑器将内容个性化。 详细了解 [个性化](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

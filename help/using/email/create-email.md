@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="创建电子邮件"
->abstract="定义电子邮件主题行，然后打开电子邮件设计器以创建电子邮件的内容。"
+>title="电子邮件创建"
+>abstract="定义电子邮件主题行，然后打开Email Designer以创建电子邮件的内容。"
 
 
 ## 添加电子邮件操作 {#email-action}
@@ -72,14 +72,14 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!ENDTABS]
 
-## 定义电子邮件内容 {#define-email-content}
+## 定义您的电子邮件内容 {#define-email-content}
 
 <!-- update the quarry component with right ID value-->
 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="配置电子邮件内容"
->abstract="创建电子邮件的内容。定义其主题，然后利用电子邮件设计器构建和个性化电子邮件正文。"
+>abstract="创建电子邮件的内容。 定义其主题，然后利用Email Designer构建和个性化电子邮件正文。"
 
 1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置电子邮件内容。 [了解详情](get-started-email-design.md)
 
@@ -89,7 +89,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. 为消息添加主题行。 要使用表达式编辑器配置和个性化主题行，请单击 **[!UICONTROL 打开个性化对话框]** 图标。 [了解详情](../personalization/personalization-build-expressions.md)
+1. 为消息添加主题行。 要使用个性化编辑器配置和个性化主题行，请单击 **[!UICONTROL 打开个性化对话框]** 图标。 [了解详情](../personalization/personalization-build-expressions.md)
 
 1. 单击 **[!UICONTROL 编辑电子邮件正文]** 按钮以访问Email Designer并开始构建内容。 [了解详情](get-started-email-design.md)
 
@@ -169,7 +169,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 
-Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] personalization editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 

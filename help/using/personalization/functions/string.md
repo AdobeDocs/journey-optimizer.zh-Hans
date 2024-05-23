@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
 # 字符串函数 {#string}
 
-了解如何在表达式编辑器中使用字符串函数。
+了解如何在个性化编辑器中使用字符串函数。
 
 ## 驼峰式大小写 {#camelCase}
 
@@ -126,7 +126,7 @@ ht-degree: 6%
 ```
 
 
-## 结尾不是{#doesNotEndWith}
+## Does not end with{#doesNotEndWith}
 
 此 `doesNotEndWith` 函数用于确定一个字符串是否不以指定的子字符串结尾。
 
@@ -150,7 +150,7 @@ ht-degree: 6%
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## 开头不是{#doesNotStartWith}
+## Does not start with{#doesNotStartWith}
 
 此 `doesNotStartWith` 函数用于确定一个字符串是否不以指定的子字符串开头。
 
@@ -291,7 +291,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= formatCurrency(56L,"en_GB") %}
 ```
 
-## 获取url主机 {#get-url-host}
+## Get url host {#get-url-host}
 
 此 `getUrlHost` 函数用于检索URL的主机名。
 
@@ -309,7 +309,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“www.myurl.com”
 
-## 获取URL路径 {#get-url-path}
+## Get url path {#get-url-path}
 
 此 `getUrlPath` 函数用于检索URL的域名之后的路径。
 
@@ -345,7 +345,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“http”
 
-## 索引： {#index-of}
+## Index Of {#index-of}
 
 此 `indexOf` 函数用于返回第二个参数在第一个参数中第一次出现的位置。 如果没有匹配项，则返回–1。
 
@@ -386,7 +386,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## 不为空 {#is-not-empty}
+## Is Not Empty {#is-not-empty}
 
 此 `isNotEmpty` 函数用于确定一个字符串是否不为空。
 
@@ -404,7 +404,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## 最后索引： {#last-index-of}
+## Last Index Of {#last-index-of}
 
 此 `lastIndexOf` 函数用于返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。
 
@@ -437,7 +437,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= leftTrim(string) %}
 ```
 
-## 长度 {#length}
+## Length {#length}
 
 此 `length` 函数用于获取字符串或表达式中的字符数。
 
@@ -455,7 +455,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= length(profile.homeAddress.city) %}
 ```
 
-## 点赞{#like}
+## 喜欢{#like}
 
 此 `like` 函数用于确定一个字符串是否与指定的模式匹配。
 
@@ -496,7 +496,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## 匹配{#matches}
+## Matches{#matches}
 
 此 `matches` 函数用于确定一个字符串是否与特定的正则表达式匹配。 请参阅 [本文档](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) 有关正则表达式中匹配模式的详细信息。
 
@@ -514,7 +514,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## 蒙版 {#mask}
+## 掩码 {#mask}
 
 此 `Mask` 函数可将字符串的一部分替换为“X”字符。
 
@@ -575,7 +575,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 不等于，忽略大小写 {#not-equal-with-ignore-case}
+## Not Equal With Ignore Case {#not-equal-with-ignore-case}
 
 此 `notEqualWithIgnoreCase` 函数用于比较两个字符串，忽略大小写。
 
@@ -622,7 +622,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
-## 替换 {#replace}
+## 更换 {#replace}
 
 此 `replace` 函数用于将字符串中的给定子字符串替换为另一个子字符串。
 
@@ -646,7 +646,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 返回“Hello Mark，这是您每月的新闻稿！”
 
-## 全部替换{#replaceAll}
+## Replace All{#replaceAll}
 
 此 `replaceAll` 函数用于将匹配“regex”表达式的文本的所有子字符串替换为指定的文本“replacement”字符串。 正则表达式对“\”和“+”有特殊处理，所有正则表达式都遵循PQL转义策略。 例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
@@ -733,7 +733,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= string_to_integer(string) %}: int
 ```
 
-## 字符串到数字 {#string-to-number}
+## String to number {#string-to-number}
 
 此 `stringToNumber` 函数用于将字符串转换为数字。 对于无效的输入，它返回相同的字符串作为输出。
 
@@ -743,7 +743,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= stringToNumber(string) %}: double
 ```
 
-## 子字符串 {#sub-string}
+## Sub string {#sub-string}
 
 此 `Count string` 函数用于返回字符串表达式在开始索引和结束索引之间的子字符串。
 **语法**
@@ -800,7 +800,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## 修剪 {#trim}
+## Trim {#trim}
 
 此 **trim** 函数删除字符串开始和结束位置的所有空格。
 

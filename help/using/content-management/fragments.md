@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="定义您自已的片段"
->abstract="创建和管理独立的片段，以便可在多个历程和营销活动中重用您的内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=zh-Hans#create-fragments" text="创建片段"
+>title="定义您自己的片段"
+>abstract="创建和管理独立片段，以使您的内容可在多个历程和营销活动中重复使用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="创建片段"
 
 片段是可重复使用的组件，可在其中一个或多个电子邮件中引用 [!DNL Journey Optimizer] 营销活动和历程。
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->**可视化片段** 可用于 [电子邮件设计工具](../email/get-started-email-design.md)，而 **表达片段** 可通过 [表达式编辑器](../personalization/personalization-build-expressions.md).
+>**可视化片段** 可用于 [电子邮件设计工具](../email/get-started-email-design.md)，而 **表达片段** 可通过 [个性化编辑器](../personalization/personalization-build-expressions.md).
 
 此外，您还可以利用Journey Optimizer **内容REST API** 以管理内容片段。 有关详细信息，请参见 [Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -102,7 +102,7 @@ ht-degree: 13%
 >
 >在编辑片段时，更改将自动传播到该片段使用的所有内容，但中使用的内容除外 **[!UICONTROL 实时]** 历程或营销活动。 您还可以中断来自原始片段的继承。 在中了解详情 [向您的电子邮件添加可视化片段](../email/use-visual-fragments.md#break-inheritance) 和 [利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance) 部分。
 
-### 浏览引用 {#explore-references}
+### 探索引用 {#explore-references}
 
 您可以显示当前使用片段的历程、营销活动和内容模板列表。
 
@@ -169,8 +169,8 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
 >title="选择可视类型"
->abstract="创建独立的可视片段，以便可在历程或营销活动的电子邮件中或内容模板中重用您的内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=zh-Hans" text="将可视片段添加到电子邮件"
+>abstract="创建独立的可视化片段，以使您的内容可在历程或营销活动中的电子邮件或内容模板中重用。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="向您的电子邮件添加可视化片段"
 
 1. [创建片段](#create-from-scratch) 从 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左菜单并选择 **[!UICONTROL 可视片段]** 类型。
 
@@ -199,8 +199,8 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
->abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。在使用表达式编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=zh-Hans" text="利用表达式片段"
+>abstract="创建一个独立的表达式片段，以使您的内容可在多个历程和营销活动中重复使用。 使用个性化编辑器时，您可以利用在当前沙盒上创建的所有表达式片段。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="利用表达式片段"
 
 1. [创建片段](#create-from-scratch) 从 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左菜单并选择 **[!UICONTROL 表达片段]** 类型。
 
@@ -210,9 +210,9 @@ ht-degree: 13%
 
    <!--Expression fragments can be used in any channel.-->
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。表达式编辑器将打开。
+1. 单击 **[!UICONTROL 创建]**. 个性化编辑器将打开。
 
-1. 您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
+1. 您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的个性化编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ ht-degree: 13%
 
 1. 如果需要，单击片段名称旁边的箭头以返回到 **[!UICONTROL 详细信息]** 屏幕并进行编辑。
 
-此片段现在可以在中构建任何内容时使用 [!DNL Journey Optimizer] 表达式编辑器。 [了解如何操作](../personalization/use-expression-fragments.md)
+此片段现在可以在中构建任何内容时使用 [!DNL Journey Optimizer] 个性化编辑器。 [了解如何操作](../personalization/use-expression-fragments.md)
 
 ## 另存为片段 {#save-as-fragment}
 
@@ -244,7 +244,7 @@ ht-degree: 13%
 
    ![](assets/fragment-save-as-screen.png)
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。填写片段详细信息，即名称和描述（如果需要）。
+1. 单击 **[!UICONTROL 创建]**. 填写片段详细信息，即名称和描述（如果需要）。
 
 1. 要为片段分配自定义或核心数据使用标签，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md).
 
@@ -265,13 +265,13 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存为表达式片段"
->abstract="[!DNL Journey Optimizer] 表达式编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于构建个性化内容。"
+>abstract="此 [!DNL Journey Optimizer] 个性化编辑器允许您将内容另存为表达式片段。 然后，可以使用这些表达式来构建个性化内容。"
 
-[!DNL Journey Optimizer] 表达式编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于构建个性化内容。
+此 [!DNL Journey Optimizer] 个性化编辑器允许您将内容另存为表达式片段。 然后，可以使用这些表达式来构建个性化内容。
 
 要将内容另存为表达式片段，请执行以下步骤。
 
-1. 在 [表达式编辑器](../personalization/personalization-build-expressions.md) 界面，构建表达式，然后单击 **[!UICONTROL 另存为片段]**.
+1. 在 [个性化编辑器](../personalization/personalization-build-expressions.md) 界面，构建表达式，然后单击 **[!UICONTROL 另存为片段]**.
 
 1. 在右侧窗格中，输入表达式的名称和说明，以帮助用户更轻松地找到它。
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 2%
@@ -97,7 +97,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 >
 >与启用配置文件的事件不同，在REST API中传递的上下文数据用于一次性通信，而不是针对配置文件进行存储。 创建的配置文件最多包含命名空间详细信息（如果发现缺少该配置文件）。
 
-要在营销策划中使用这些数据，您需要将这些数据传递到API有效负荷中，并使用表达式编辑器将其添加到消息中。 要执行此操作，请使用 `{{context.<contextualAttribute>}}` 语法，其中 `<contextualAttribute>` 应与包含要传递的数据的API有效负载中的变量名称匹配。
+要在营销活动中使用这些数据，您需要将这些数据传递到API有效负荷，并使用个性化编辑器将其添加到消息中。 要执行此操作，请使用 `{{context.<contextualAttribute>}}` 语法，其中 `<contextualAttribute>` 应与包含要传递的数据的API有效负载中的变量名称匹配。
 
 此 `{{context.<contextualAttribute>}}` 语法仅映射到String数据类型。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}处理。
+>在 [!DNL Journey Optimizer]，同意由Experience Platform处理 [同意模式](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}. 默认情况下，同意字段的值为空，并视为同意接收您的通信。载入时，您可以将此默认值修改为列出的可能值之一 [此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}.
 
 ## 实施个性化同意 {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ ht-degree: 100%
 >
 >针对在[数据建模](../offers/ranking/ai-models.md)中使用个人资料数据的同意功能在 [!DNL Journey Optimizer] 中尚不支持。
 
-### 在表达式编辑器中 {#opt-out-expression-editor}
+### 在个性化编辑器中 {#opt-out-expression-editor}
 
-[表达式编辑器](../personalization/personalization-build-expressions.md)本身不会执行任何同意检查或进行强制执行，因为表达式编辑器不涉及消息投放操作。
+此 [个性化编辑器](../personalization/personalization-build-expressions.md) 它本身不执行任何同意检查或执行，因为它不涉及消息的投放。
 
 但是，使用基于权限的访问控制标签可限制将哪些字段用于个性化。此[消息预览](../content-management/preview.md)和[电子邮件渲染服务](../content-management/rendering.md)将屏蔽用敏感信息标识的字段。
 

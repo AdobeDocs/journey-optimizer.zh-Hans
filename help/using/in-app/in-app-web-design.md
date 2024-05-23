@@ -8,10 +8,10 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
 
-## 消息布局 {#message-layout}
+## 消息版面 {#message-layout}
 
 从 **[!UICONTROL 消息布局]** 部分，根据您的消息传送需求从四个不同的布局选项中选择一个。
 
@@ -43,11 +43,11 @@ ht-degree: 7%
 
 * **[!UICONTROL 全屏]**：此类型的布局会覆盖受众设备的整个屏幕。
 
-  此选项支持媒体（图像、视频）、文本和按钮组件。
+  它支持媒体（图像、视频）、文本和按钮组件。
 
 * **[!UICONTROL 模态]**：此布局显示在大型警报样式窗口中，背景中仍可看到您的应用程序。
 
-  此选项支持媒体（图像、视频）、文本和按钮组件。
+  它支持媒体（图像、视频）、文本和按钮组件。
 
 * **[!UICONTROL 横幅]**：此类型的布局显示为本机操作系统警报消息。
 
@@ -65,7 +65,7 @@ ht-degree: 7%
 
 从 **内容** 选项卡上，您可以定义并个性化通知的内容和样式 **关闭** 按钮。 您还可以向应用程序内通知添加媒体，并在此选项卡中添加操作按钮。
 
-### “关闭”按钮 {#close-button}
+### 关闭按钮 {#close-button}
 
 ![](assets/in_app_web_design_2.png)
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用 **[!UICONTROL 个性化]** 图标以添加个性化。 了解有关Adobe Journey Optimizer表达式编辑器中个性化的更多信息 [在此部分中](../personalization/personalize.md).
+使用 **[!UICONTROL 个性化]** 图标以添加个性化。 在Adobe Journey Optimizer个性化编辑器中了解有关个性化的更多信息 [在此部分中](../personalization/personalize.md).
 
 +++更多高级格式选项
 
@@ -118,7 +118,7 @@ ht-degree: 7%
 
 ### 按钮 {#add-buttons}
 
-添加按钮以供用户与应用程序内消息进行交互。
+添加按钮以方便用户与应用程序内消息进行交互。
 
 ![](assets/in_app_web_design_5.png)
 
@@ -150,7 +150,7 @@ ht-degree: 7%
 
 从 **设置** 选项卡，您可以定义消息布局并预览应用程序内消息。 您还可以访问高级格式设置选项。
 
-### 布局 {#layout-options}
+### 版面 {#layout-options}
 
 ![](assets/in_app_web_design_6.png)
 

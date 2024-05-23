@@ -9,18 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、上下文、个性化
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
 # 个性化上下文{#personalization-areas}
 
-所投放消息的内容和显示 [!DNL Journey Optimizer] 可以通过多种不同的方式进行个性化。
-
-在每个带有编辑器图标的字段中，您可以打开个性化编辑器（也称为表达式编辑器）并定义个性化。
+所投放消息的内容和显示 [!DNL Journey Optimizer] 可以通过多种不同的方式进行个性化。 在每个具有编辑器图标的字段中，您可以打开个性化编辑器（也称为个性化编辑器）并定义个性化。
 
 ![](assets/perso_icon.png)
 
@@ -58,7 +56,7 @@ ht-degree: 15%
 
 在中了解有关推送通知配置的更多信息 [本节](../push/push-gs.md).
 
-## 个性化您的优惠 {#personalize-offers}
+## 使优惠个性化 {#personalize-offers}
 
 在将文本类型内容添加到优惠的表示法时，您还可以访问个性化编辑器。
 

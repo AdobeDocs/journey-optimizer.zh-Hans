@@ -5,12 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="有限发布版"
+badge: label="有限可用性"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 2%
 
 ---
 
@@ -18,34 +18,34 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="决策是什么？"
->abstract="决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个配置文件选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于体验决策"
+>title="什么是决策？"
+>abstract="决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于Experience决策"
 
 决策策略是优惠的容器，它们利用Experience Decisioning引擎根据受众选择要投放的最佳内容。
 
-决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个配置文件选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。
+决策策略包含决策引擎选择最佳内容的所有选择逻辑。 决策策略特定于营销活动。 其目标是为每个用户档案选择最佳优惠，而活动创作允许您指示应如何显示选定的决策项，包括要包含在消息中的项目属性。
 
 >[!NOTE]
 >
 >在 [!DNL Journey Optimizer] 用户界面中，决策策略标记为决策<!--but they are decision policies. TBC if this note is needed-->.
 
-## 将决策策略添加到基于代码的营销活动 {#add-decision}
+## 向基于代码的营销活动添加决策策略 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定义要返回的项数"
->abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前表面显示最佳的 2 个合格优惠。"
+>abstract="选择要返回的决策项目数。 例如，如果选择2，则会为当前曲面显示最佳的2个合格选件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="选择回退"
->abstract="在为该决策策略定义的所有选择策略均不合格时，向用户显示回退项。"
+>title="选择后备"
+>abstract="当为该决策策略定义的任何选择策略都不符合条件时，将向用户显示回退项目。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
->title="策略是什么？"
->abstract="选择策略的顺序决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
+>title="什么是策略？"
+>abstract="选择策略的顺序决定了哪个策略将首先被评估。至少需要一个策略。 组合策略中的决策项目将一起被评估。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="创建策略"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="评估顺序"
 
@@ -73,7 +73,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >至少需要一个策略。不能添加超过10个策略。
+   >至少需要一个策略。 不能添加超过10个策略。
 
 1. 从 **[!UICONTROL 添加策略]** 屏幕，您还可以创建策略。 此 **[!UICONTROL 创建选择策略]** 按钮会将您重定向到 **[!UICONTROL Experience decisioning]** > **[!UICONTROL 策略设置]** 菜单。 [了解详情](selection-strategies.md)
 
@@ -159,11 +159,11 @@ ht-degree: 18%
 
 ## 在代码编辑器中使用决策策略 {#use-decision-policy}
 
-创建决策策略后，便可在以下位置使用： [表达式编辑器](../code-based/create-code-based.md#edit-code). 要实现此目的，请执行以下步骤。
+创建决策策略后，便可在以下位置使用： [个性化编辑器](../code-based/create-code-based.md#edit-code). 要实现此目的，请执行以下步骤。
 
 >[!NOTE]
 >
->基于代码的体验可利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
+>基于代码的体验可利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的个性化编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
 1. 单击 **[!UICONTROL 插入策略]** 按钮。 将添加与决策策略对应的代码。
 
@@ -186,7 +186,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. 您还可以添加表达式编辑器中可用的任何其他属性，如配置文件属性。
+1. 您还可以添加个性化编辑器中可用的任何其他属性，例如配置文件属性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，动态，内容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态内容添加到消息中。
 
-可以将动态内容创建到任何字段中，然后可以使用表达式编辑器添加个性化内容。 这包括主题行、链接、推送通知内容或文本类型优惠的表示法。 [了解有关个性化上下文的更多信息](personalization-contexts.md)
+动态内容可以创建到任何字段中，您可以使用个性化编辑器添加个性化。 这包括主题行、链接、推送通知内容或文本类型优惠的表示法。 [了解有关个性化上下文的更多信息](personalization-contexts.md)
 
 此外，您可以在Email Designer中使用条件规则来创建内容组件的多个变体。
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
 在表达式中添加动态内容的步骤如下：
 
-1. 导航到要添加动态内容的字段，然后打开表达式编辑器。
+1. 导航到要添加动态内容的字段，然后打开个性化编辑器。
 
 1. 选择 **[!UICONTROL 条件]** 菜单以显示可用条件规则的列表。 单击规则旁边的+按钮可将其添加到当前表达式中。
 
@@ -46,17 +46,17 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 
    ![](assets/conditions-preview.png)
 
-## 将动态内容添加到电子邮件中 {#emails}
+## 将动态内容添加到电子邮件 {#emails}
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="条件内容"
->abstract="使用条件规则创建内容组件的多个变体。如果在发送消息时不满足任何条件，则将显示默认变体中的内容。"
+>abstract="使用条件规则可创建内容组件的多个变体。 如果在发送消息时未满足任何条件，则将显示默认变体的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
 >title="条件内容"
->abstract="使用保存在库中的条件规则或创建新规则。"
+>abstract="使用保存到库中的条件规则或创建新规则。"
 
 在Email Designer中创建内容组件变体的步骤如下所示：
 

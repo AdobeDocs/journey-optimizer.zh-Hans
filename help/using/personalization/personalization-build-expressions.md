@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 关于表达式编辑器
-description: 了解如何使用表达式编辑器。
+title: 关于个性化编辑器
+description: 了解如何使用个性化编辑器。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
-# 开始使用表达式编辑器 {#build-personalization-expressions}
+# 个性化编辑器入门 {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="关于表达式编辑器"
->abstract="表达式编辑器让您可以选择、排列、自定义和验证所有数据，为自己的内容创建定制的个性化。"
+>title="关于个性化编辑器"
+>abstract="个性化编辑器允许您选择、排列、自定义和验证所有数据，为您的内容创建自定义个性化。"
 
-表达式编辑器是中个性化的核心 [!DNL Journey Optimizer]. 它可在您需要定义个性化的每个上下文中使用，例如电子邮件、推送和选件。
+个性化编辑器是中个性化的核心 [!DNL Journey Optimizer]. 它可在您需要定义个性化的每个上下文中使用，例如电子邮件、推送和选件。
 
-在表达式编辑器界面中，您将选择、排列、自定义和验证所有数据，以创建内容的自定义个性化设置。
+在个性化编辑器界面中，您将选择、排列、自定义和验证所有数据，以创建内容的自定义个性化设置。
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ ht-degree: 10%
 
 ![](assets/attribute-details.png)
 
-在以下示例中，表达式编辑器允许您选择今天生日的用户档案，然后插入对应于今天的特定选件以完成自定义。
+在以下示例中，个性化编辑器允许您选择今天生日的用户档案，然后插入对应于今天的特定选件以完成自定义。
 
 ![](assets/perso_ee2.png)
 
-个性化表达式准备就绪后，需要由表达式编辑器验证该表达式。 有关详细信息，请参阅[此部分](personalization-validation.md)。
+在个性化表达式准备就绪后，需要由个性化编辑器验证该表达式。 有关详细信息，请参阅[此部分](personalization-validation.md)。

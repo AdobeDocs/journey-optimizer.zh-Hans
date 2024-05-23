@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -164,7 +164,7 @@ Journey Optimizer允许您通过向消息中添加个性化字段来个性化消
 
 >[!NOTE]
 >
->在表达式编辑器中，当您编辑个性化的URL时，出于安全原因，将禁用帮助程序功能和受众成员资格。
+>在个性化编辑器中，当您编辑个性化的URL时，出于安全原因，将禁用辅助功能和受众成员资格。
 >
 
 **个性化URL示例**

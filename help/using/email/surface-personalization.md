@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="个性化不可用"
->abstract="这个表面在创建时没有任何个性化属性。如果需要个性化，请参阅文档了解解决问题的步骤。"
+>abstract="此表面是在没有任何个性化属性的情况下创建的。 如需在需要个性化时解决问题的步骤，请参阅文档。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="启用动态子域"
->abstract="创建电子邮件界面时，您可以根据使用表达式编辑器定义的条件设置动态子域。您最多可以添加 50 个动态子域。"
+>abstract="创建电子邮件界面时，您可以根据使用个性化编辑器定义的条件设置动态子域。 您最多可以添加50个动态子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="某些子域名可能不可用"
->abstract="由于反馈回路注册尚未完成，某些子域名目前无法选择。此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
+>title="某些子域可能不可用"
+>abstract="由于挂起的反馈循环注册，某些子域当前不可选择。 此过程最多可能需要10个工作日。 完成后，您可以从所有可用的子域中进行选择。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
 
 创建电子邮件界面时，您可以根据特定条件设置动态子域。
 
@@ -65,7 +65,7 @@ ht-degree: 15%
 
 1. 选择第一个页面旁边的编辑图标 **[!UICONTROL 条件]** 字段。
 
-1. 此 [表达式编辑器](../personalization/personalization-build-expressions.md) 打开。 在此示例中，设置一个条件，如 `Country` 等于 `US`.
+1. 此 [个性化编辑器](../personalization/personalization-build-expressions.md) 打开。 在此示例中，设置一个条件，如 `Country` 等于 `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -73,7 +73,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >由于挂起，某些子域当前无法选择 [反馈环](../reports/deliverability.md#feedback-loops) 注册。 此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于挂起，某些子域当前无法选择 [反馈环](../reports/deliverability.md#feedback-loops) 注册。 此过程最多可能需要10个工作日。 完成后，您可以从所有可用的子域中进行选择。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -118,7 +118,7 @@ ht-degree: 15%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 此 [表达式编辑器](../personalization/personalization-build-expressions.md) 打开。 根据需要定义条件，然后保存更改。
+1. 此 [个性化编辑器](../personalization/personalization-build-expressions.md) 打开。 根据需要定义条件，然后保存更改。
 
    例如，设置条件，如每个收件人都会收到来自其品牌代表的电子邮件。
 
@@ -137,7 +137,7 @@ ht-degree: 15%
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

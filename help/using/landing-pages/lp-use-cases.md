@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '968'
 ht-degree: 12%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果默认为合并方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>如果默认为合并方法 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]** 合并策略为 **[!UICONTROL 数据集优先级]**，确保启用 **[!UICONTROL AJO同意服务数据集]** 并在合并策略中对其进行优先处理。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 
@@ -213,7 +213,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-fields.png)
 
-1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition for the **[!UICONTROL Interaction Type]** and **[!UICONTROL Landing Page ID]** fields. This will be used by the system to identify the events that will trigger your journey.
+1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple personalization editor, define the condition for the **[!UICONTROL Interaction Type]** and **[!UICONTROL Landing Page ID]** fields. This will be used by the system to identify the events that will trigger your journey.
 
     ![](assets/lp_subscription-uc-event-id-condition.png)
 

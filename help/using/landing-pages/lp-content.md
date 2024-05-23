@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用内容组件"
->abstract="内容组件是空的内容占位符，您可用它来创建登陆页面的版面。要定义特定内容使得用户能够进行选择并提交其选择内容，请使用表单组件。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=zh-Hans#add-content-components" text="添加内容组件"
+>abstract="内容组件是空的内容占位符，可用于创建登陆页面的布局。 要定义允许用户选择和提交其选择的特定内容，请使用表单组件。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="添加内容组件"
 
 要设计登陆页面内容，您可以使用与电子邮件相同的组件。 [了解详情](../email/content-components.md#add-content-components)
 
@@ -39,13 +39,13 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="设置表单组件字段"
->abstract="定义您的收件人如何从登陆页面查看和提交他们的选择。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=zh-Hans#lp-form-styles" text="定义登陆页面表单样式"
+>abstract="定义收件人将如何从登陆页面查看和提交所做的选择。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="定义登陆页面表单样式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="单击按钮时会出现的情况"
->abstract="定义在用户提交登陆页面表单时将会出现的情况。"
+>title="单击按钮时发生的情况"
+>abstract="定义用户在提交登陆页面表单时将发生的情况。"
 
 要定义特定内容，以允许用户从登陆页面选择并提交所做的选择，请使用 **[!UICONTROL 表单]** 组件。 要实现此目的，请执行以下步骤。
 
@@ -57,7 +57,7 @@ ht-degree: 10%
    >
    >此 **[!UICONTROL 表单]** 组件只能在同一页面上使用一次。
 
-1. 选择模式。此 **[!UICONTROL 表单内容]** 选项卡显示在右侧面板中，允许您编辑表单的不同字段。
+1. 选择它。 此 **[!UICONTROL 表单内容]** 选项卡显示在右侧面板中，允许您编辑表单的不同字段。
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -172,7 +172,7 @@ ht-degree: 10%
 
 假设您将主页面上的两个复选框链接到两个不同的订阅列表。 如果用户订阅了其中一个，则您希望在提交表单时显示特定消息，具体取决于用户选择的复选框。
 
-要实现此目的，请执行以下步骤：
+为此，请执行以下步骤：
 
 1. 在主页面上，链接 **[!UICONTROL 表单]** 组件添加到相关订阅列表。 [了解详情](#use-form-component)。
 
@@ -188,7 +188,7 @@ ht-degree: 10%
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. 使用表达式编辑器辅助函数添加相关条件。 [了解详情](../personalization/functions/functions.md)
+1. 使用个性化编辑器辅助函数添加相关条件。 [了解详情](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

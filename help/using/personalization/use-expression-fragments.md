@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用表达式片段
-description: 了解如何在中使用表达式片段 [!DNL Journey Optimizer] 表达式编辑器。
+description: 了解如何在中使用表达式片段 [!DNL Journey Optimizer] 个性化编辑器。
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # 利用表达式片段 {#use-expression-fragments}
 
-使用时 **表达式编辑器**，您可以利用已创建或已保存到当前沙盒的所有表达式片段。
+使用时 **个性化编辑器**，您可以利用已创建或已保存到当前沙盒的所有表达式片段。
 
 了解如何在中创建和管理片段 [本节](../content-management/fragments.md).
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 要向内容添加表达式片段，请执行以下步骤。
 
-1. 打开 [表达式编辑器](personalization-build-expressions.md) 并选择 **[!UICONTROL 片段]** 按钮。
+1. 打开 [个性化编辑器](personalization-build-expressions.md) 并选择 **[!UICONTROL 片段]** 按钮。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![](assets/expression-fragment-open.png)
 
-1. 然后，您可以像往常一样使用的所有个性化和创作功能自定义和验证内容。 [表达式编辑器](personalization-build-expressions.md).
+1. 然后，您可以像往常一样使用的所有个性化和创作功能自定义和验证内容。 [个性化编辑器](personalization-build-expressions.md).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ## 中断继承 {#break-inheritance}
 
-向表达式编辑器添加片段ID时，将同步对原始表达式片段所做的更改。
+向个性化编辑器添加片段ID时，将同步对原始表达式片段所做的更改。
 
 但是，您也可以将表达式片段的内容粘贴到编辑器中。 从上下文菜单中，选择 **[!UICONTROL 粘贴片段]** 以插入该内容。
 

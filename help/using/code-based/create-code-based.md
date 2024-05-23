@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 1. 完成创建营销策划的步骤，如营销策划属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule). 有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
 
-1. 使用表达式编辑器根据需要编辑内容。 [了解详情](#edit-code)
+1. 使用个性化编辑器，根据需要编辑您的内容。 [了解详情](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -47,15 +47,15 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="使用表达式编辑器"
->abstract="插入和编辑要作为此基于代码的体验操作的一部分提供的代码。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=zh-Hans" text="开始使用表达式编辑器"
+>title="使用个性化编辑器"
+>abstract="插入并编辑要作为此基于代码的体验操作的一部分交付的代码。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="个性化编辑器入门"
 
 1. 从促销活动版本屏幕中，选择 **[!UICONTROL 编辑代码]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. 此 [表达式编辑器](../personalization/personalization-build-expressions.md) 打开。 它是一个非可视化体验创建界面，允许您创作代码。
+1. 此 [个性化编辑器](../personalization/personalization-build-expressions.md) 打开。 它是一个非可视化体验创建界面，允许您创作代码。
 
 1. 您可以将创作模式从HTML切换到JSON，反之亦然。
 
@@ -65,7 +65,7 @@ ht-degree: 8%
    >
    >更改创作模式将导致当前代码全部丢失，因此，请确保在开始创作之前切换模式。
 
-1. 根据需要输入代码。 您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
+1. 根据需要输入代码。 您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的个性化编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
 1. 您可以根据需要添加HTML或JSON表达式片段。 [了解如何操作](../personalization/use-expression-fragments.md)
 
@@ -89,7 +89,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
 >title="预览基于代码的体验"
->abstract="模拟基于代码的体验将看起来是什么样。"
+>abstract="模拟您的基于代码的体验。"
 
 要显示已修改的基于代码的体验的预览，请执行以下步骤。 有关如何选择测试用户档案和预览内容的详细信息，请参阅 [预览和测试内容页面](../content-management/preview-test.md).
 
@@ -97,7 +97,7 @@ ht-degree: 8%
 >
 >您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何 [创建测试用户档案](../audience/creating-test-profiles.md).
 
-1. 从表达式编辑器或编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
+1. 从个性化编辑器或编辑内容屏幕中，选择 **[!UICONTROL 模拟内容]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

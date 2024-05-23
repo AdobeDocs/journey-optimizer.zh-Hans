@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 为了能够利用Journey Optimizer中的计算属性，您首先需要将它们添加到Journey Optimizer **Experience Platform** 数据源。
 
-Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源旨在从实时客户档案服务中检索档案数据和体验事件数据。
+Adobe Experience Platform数据源定义与Adobe实时客户个人资料的连接。 此数据源旨在从实时客户档案服务中检索档案数据和体验事件数据。
 
 要将计算属性添加到数据源，请执行以下步骤：
 
@@ -70,6 +70,6 @@ Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的�
 
 计算属性在历程优化器中提供了一组通用的功能。 您可以将它们用于各种目的，例如个性化消息内容、创建新受众或根据特定计算属性拆分历程。 例如，您可以通过在Condition活动中添加单个计算属性，根据用户档案在最近三周内的总购买量拆分历程路径。 您还可以通过显示每个用户档案最近查看的项目来个性化电子邮件。
 
-由于计算属性是在配置文件合并架构中创建的配置文件属性字段，因此您可以从中的表达式编辑器访问它们。 **SystemComputedAttribute** 字段组。 从此处，您可以将计算属性添加到表达式中，将它们视为任何其他配置文件属性来执行所需的操作。
+由于计算属性是在您的配置文件合并架构上创建的配置文件属性字段，因此您可以从中的个性化编辑器访问它们。 **SystemComputedAttribute** 字段组。 从此处，您可以将计算属性添加到表达式中，将它们视为任何其他配置文件属性来执行所需的操作。
 
 ![](assets/computed-attributes-ajo.png)

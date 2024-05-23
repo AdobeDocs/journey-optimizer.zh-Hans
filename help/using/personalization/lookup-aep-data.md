@@ -10,7 +10,8 @@ level: Intermediate
 keywords: 表达式，编辑器
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -25,9 +26,9 @@ ht-degree: 0%
 >
 >目前，它仅适用于在您提供给Adobe的非生产沙盒中测试以及为Beta测试请求的数据集。
 
-Journey Optimizer允许您在表达式编辑器中利用Adobe Experience Platform中的数据，以 [使内容个性化](../personalization/personalize.md). 步骤如下：
+Journey Optimizer允许您在个性化编辑器中利用来自Adobe Experience Platform的数据，以 [使内容个性化](../personalization/personalize.md). 步骤如下：
 
-1. 打开表达式编辑器，您可以在每个上下文中定义个性化设置（如消息），该编辑器将可用。 [了解如何使用表达式编辑器](../personalization/personalization-build-expressions.md)
+1. 打开个性化编辑器，您可以在每个上下文中定义个性化设置（如消息）时使用该编辑器。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
 
 1. 导航到辅助函数列表，然后添加 **datasetLookup** 辅助函数到代码窗格。
 

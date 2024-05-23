@@ -5,11 +5,11 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-badge: label="有限发布版"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+badge: label="有限可用性"
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 
 1. 为您的决策定义选择策略。 单击 **[!UICONTROL 添加策略]**.
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。新决策将添加在 **[!UICONTROL 决策]**.
+1. 单击 **[!UICONTROL 创建]**. 新决策将添加在 **[!UICONTROL 决策]**.
 
    ![](assets/decision-code-based-decision-added.png)
 
@@ -58,7 +58,7 @@ ht-degree: 6%
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. 您还可以添加表达式编辑器中可用的任何其他属性，如配置文件属性。
+1. 您还可以添加个性化编辑器中可用的任何其他属性，例如配置文件属性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

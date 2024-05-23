@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建文本消息"
->abstract="要创建短信 (SMS/SMS)，请在历程或营销活动中添加短信操作，然后开始用表达式编辑器使其个性化。"
+>abstract="要创建短信(SMS/MMS)，请在历程或营销策划中添加短信操作，然后开始使用个性化编辑器对其进行个性化。"
 
 您可以使用Adobe Journey Optimizer设计和发送文本(SMS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
@@ -91,17 +91,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定义短信内容"
->abstract="通过使用表达式编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS) 并使其个性化。"
+>abstract="使用个性化编辑器自定义文本消息(SMS/MMS)并将其个性化，以定义内容并合并动态元素。"
 
 要配置短信内容，请执行以下步骤。 有关MMS设置的详情，请参见 [本节](#mms-content).
 
 1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置文本消息内容。
 
-1. 单击 **[!UICONTROL 消息]** 用于打开表达式编辑器的字段。
+1. 单击 **[!UICONTROL 消息]** 字段以打开个性化编辑器。
 
    ![](assets/sms-content.png)
 
-1. 使用表达式编辑器定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。 浏览到以下页面，了解更多关于 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在表达式编辑器中。
+1. 使用个性化编辑器定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。 浏览到以下页面，了解更多关于 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在个性化编辑器中。
 
 1. 定义内容后，您可以在消息中添加跟踪的URL。 为此，请访问 **[!UICONTROL 辅助函数]** 菜单并选择 **[!UICONTROL 辅助函数]**.
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 
    >[!CAUTION]
    >
-   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
+   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 要了解有关权限的更多信息，请参阅 [本节](../administration/high-low-permissions.md).
 
    ![](assets/sms_tracking_1.png)
 
@@ -155,7 +155,7 @@ ht-degree: 10%
 
 执行测试并验证内容后，即可向受众发送短信。 这些步骤详见 [此页面](send-sms.md)
 
-发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
+发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参阅 [本节](../reports/campaign-global-report.md#sms-tab).
 
 **相关主题**
 

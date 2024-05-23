@@ -1,24 +1,24 @@
 ---
-title: 管理 Web 修改
+title: 管理Web修改
 description: 了解如何管理Journey Optimizer网页内容中的修改
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
-# 管理 Web 修改 {#manage-web-modifications}
+# 管理Web修改 {#manage-web-modifications}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="轻松管理所有更改"
->abstract="使用此窗格，您可以浏览和管理您添加到网页的所有调整和样式。"
+>title="轻松管理您的所有更改"
+>abstract="使用此窗格，您可以浏览和管理添加到网页的所有调整和样式。"
 
 您可以轻松管理添加到网页的所有组件、调整和样式。 您还可以直接从专用窗格添加修改。
 
@@ -98,13 +98,13 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="添加自定义代码"
->abstract="HEAD 元素是元数据的容器，置于 HTML 标记与 BODY 标记之间。请仅添加 SCRIPT 和 STYLE 元素。添加 DIV 标记和其他元素可能会导致其余的 HEAD 元素出现在 BODY 中。"
+>abstract="HEAD元素是元数据的容器，它位于HTML标签和BODY标签之间。 仅添加SCRIPT和STYLE元素。 添加DIV标记和其他元素可能会导致其余的HEAD元素出现在BODY中。"
 
 您可以使用添加自定义代码 **[!UICONTROL 页面`<head>`]** 修改类型。
 
 此 `<head>` 元素是元数据（有关数据的数据）的容器，它放置在 `<html>` 标记和 `<body>` 标记之前。 在这种情况下，代码不会等待主体或页面加载事件，而是在页面加载开始时执行。
 
-此 `<head>` 元素通常用于将JavaScript或CSS代码添加到页面顶部。 适用于后续可视化操作的选择器取决于此选项卡中添加的 HTML 元素。
+此 `<head>` 元素通常用于将JavaScript或CSS代码添加到页面顶部。 用于后续可视化操作的选择器取决于此选项卡中添加的HTML元素。
 
 添加 **页面`<head>`** 键入modification ，请按照以下步骤操作。
 
@@ -118,11 +118,11 @@ ht-degree: 11%
    >
    >您只能添加 `<script>` 和 `<style>` 元素到 `<head>` 部分。 正在添加 `<div>` 标记和其他元素可能会导致剩余 `<head>` 要跳入 `<body>`.
 
-1. 单击 **[!UICONTROL 高级编辑选项]** 按钮。 表达式编辑器将打开。
+1. 单击 **[!UICONTROL 高级编辑选项]** 按钮。 个性化编辑器将打开。
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的表达式编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
+   您可以利用 [!DNL Journey Optimizer] 具有所有个性化和创作功能的个性化编辑器。 [了解详情](../personalization/personalization-build-expressions.md)
 
 #### 自定义代码示例 {#custom-code-examples}
 
@@ -169,7 +169,7 @@ ht-degree: 11%
 
 +++ **请勿在自定义代码脚本中执行document.write操作。**
 
-脚本是异步执行的。这通常会导致document.write操作出现在页面上错误的位置。 不建议在自定义代码内创建的脚本中使用document.write。
+脚本是异步执行的。 这通常会导致document.write操作出现在页面上错误的位置。 不建议在自定义代码内创建的脚本中使用document.write。
 
 +++
 

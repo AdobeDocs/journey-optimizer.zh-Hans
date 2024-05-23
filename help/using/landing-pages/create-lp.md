@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 2%
@@ -158,7 +158,7 @@ ht-degree: 2%
 
    ![](assets/lp_expiry-date.png)
 
-1. 在 **[!UICONTROL 其他数据]** 部分，定义一个或多个键及其相应的参数值。 您将能够使用以下工具在主页面和子页面的内容中利用这些键 [表达式编辑器](../personalization/personalization-build-expressions.md). 有关详细信息，请参阅[此部分](lp-content.md#use-form-component#use-additional-data)。
+1. 在 **[!UICONTROL 其他数据]** 部分，定义一个或多个键及其相应的参数值。 您将能够使用以下工具在主页面和子页面的内容中利用这些键 [个性化编辑器](../personalization/personalization-build-expressions.md). 有关详细信息，请参阅[此部分](lp-content.md#use-form-component#use-additional-data)。
 
    ![](assets/lp_create-lp-additional-data.png)
 

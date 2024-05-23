@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 11%
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类型"
->abstract="选择使用此表面时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
+>abstract="选择使用此表面时将发送的电子邮件类型：营销型促销电子邮件（需要用户同意）或事务型非商业电子邮件（也可在特定上下文中发送到未订阅的用户档案）。"
 
 在 **电子邮件类型** 部分，为曲面选择消息类型： **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**.
 
@@ -196,12 +196,12 @@ ht-degree: 11%
 
 如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
 
-## 发送到已禁止的电子邮件地址 {#send-to-suppressed-email-addresses}
+## 发送到禁止显示的电子邮件地址 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="覆盖禁止列表优先级"
->abstract="可决定将交易型消息发送到配置文件，即使这些消息的电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表也是如此。默认禁用此选项。"
+>abstract="您可以决定向用户档案发送事务型消息，即使其电子邮件地址因垃圾邮件投诉而位于Adobe Journey Optimizer禁止列表上也是如此。 默认禁用此选项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hans" text="管理禁止列表"
 
 >[!IMPORTANT]
@@ -231,8 +231,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
->abstract="选择所选的种子列表以自动将特定的内部地址添加到受众。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>abstract="选择您选择的种子列表以自动将特定内部地址添加到受众。 这些种子地址将在投放执行时包含在内，并将收到消息的确切副本，以确保安全。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 中的种子列表 [!DNL Journey Optimizer] 使您能够在投放中自动包含特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)
 
@@ -257,8 +257,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
->abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以调整此默认重试时段以更好地满足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
+>abstract="如果电子邮件投放因临时软退回错误而失败，则重试会持续3.5天（84小时）。 您可以调整此默认重试时段，以更好地满足您的需求。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置 **电子邮件重试参数**.
 
@@ -274,19 +274,19 @@ ht-degree: 11%
 
 在中了解有关重试的更多信息 [本节](../configuration/retries.md).
 
-## URL 跟踪 {#url-tracking}
+## URL跟踪 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定义 URL 跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到在电子邮件内容中提供的 URL。此功能属于可选功能。"
+>title="定义URL跟踪参数"
+>abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的URL。 此功能是可选的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="预览 URL 跟踪参数"
->abstract="查看如何对电子邮件内容中出现的 URL 附加跟踪参数。"
+>title="预览URL跟踪参数"
+>abstract="请查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
 
-您可以使用 **[!UICONTROL URL跟踪参数]** 衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
+您可以使用 **[!UICONTROL URL跟踪参数]** 衡量您跨渠道营销工作的有效性。 此功能是可选的。
 
 此部分中定义的参数将被附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Adobe Analytics或Google Analytics等网站分析工具中捕获这些参数，并创建各种性能报表。
 
@@ -296,11 +296,11 @@ ht-degree: 11%
 
 要配置URL跟踪参数，您可以直接在 **[!UICONTROL 名称]** 和 **[!UICONTROL 值]** 字段。
 
-您还可以编辑每个 **[!UICONTROL 值]** 字段使用的 [表达式编辑器](../personalization/personalization-build-expressions.md). 单击版本图标以打开编辑器。 从该位置，您可以选择可用的上下文属性和/或直接编辑文本。
+您还可以编辑每个 **[!UICONTROL 值]** 字段使用的 [个性化编辑器](../personalization/personalization-build-expressions.md). 单击版本图标以打开编辑器。 从该位置，您可以选择可用的上下文属性和/或直接编辑文本。
 
 ![](assets/preset-url-tracking-editor.png)
 
-可通过表达式编辑器使用以下预定义的值：
+以下预定义值可通过个性化编辑器使用：
 
 * **源操作ID**：添加到历程或营销策划的电子邮件操作的ID。
 
@@ -316,7 +316,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->可以组合键入文本值并使用表达式编辑器中的上下文属性。 每个 **[!UICONTROL 值]** 字段可以包含最多5 KB的字符数。
+>您可以组合键入文本值，并使用个性化编辑器中的上下文属性。 每个 **[!UICONTROL 值]** 字段可以包含最多5 KB的字符数。
 
 <!--You can drag and drop the parameters to reorder them.-->
 

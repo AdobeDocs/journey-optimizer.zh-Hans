@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
@@ -31,18 +31,18 @@ ht-degree: 17%
 
 * [监测 Web 活动](monitor-web-campaigns.md)
 
-## 使用 Web 设计器 {#work-with-web-designer}
+## 使用Web设计器 {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="确认要编辑的 URL"
->abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 表面的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>title="确认要编辑的URL"
+>abstract="确认特定网页的URL，以使用该URL编辑将应用于上面定义的Web表面的内容。 必须使用Adobe Experience Platform Web SDK实施该网页。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="输入 URL 以进行编辑"
->abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>title="输入要编辑的URL"
+>abstract="输入特定网页的URL，以将其用于编辑将应用于符合规则的所有页面的内容。 必须使用Adobe Experience Platform Web SDK实施该网页。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 要开始创作Web营销活动，请执行以下步骤。
@@ -96,7 +96,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
 >title="将组件添加到网页"
->abstract="可将许多组件添加到网页，然后根据需要编辑这些组件。"
+>abstract="您可以将多个组件添加到网页中，并根据需要对其进行编辑。"
 
 1. 从 **[!UICONTROL 组件]** 左侧的窗格中选择一个项目。 您可以将以下组件添加到网页中，并根据需要对其进行编辑：
 
@@ -128,7 +128,7 @@ ht-degree: 17%
 
 ## 添加个性化和优惠
 
-要添加个性化，请选择一个容器，然后从显示的上下文菜单栏中选择个性化图标。 使用表达式编辑器添加更改。 [了解详情](../personalization/personalization-build-expressions.md)
+要添加个性化，请选择一个容器，然后从显示的上下文菜单栏中选择个性化图标。 使用个性化编辑器添加更改。 [了解详情](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
@@ -157,7 +157,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用浏览模式"
->abstract="在此模式下，您可以从要个性化的选定表面导航到确切的页面。"
+>abstract="在此模式下，您可以导航到要个性化的选定表面中的确切页面。"
 
 您可以从默认位置进行交换 **[!UICONTROL 设计]** 模式到 **[!UICONTROL 浏览]** 模式。
 
@@ -177,7 +177,7 @@ ht-degree: 17%
 
 ![](assets/web-designer-device.png)
 
-更改设备大小的功能专为可在各种设备、窗口和屏幕大小上呈现出良好效果的响应式网站而设计。 响应式网站自动调整和适应任意屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
+更改设备大小的功能专为可在各种设备、窗口和屏幕大小上呈现出良好效果的响应式网站而设计。 响应式网站会自动调整和适应任何屏幕大小，包括台式机、笔记本电脑、平板电脑或手机。
 
 >[!CAUTION]
 >
