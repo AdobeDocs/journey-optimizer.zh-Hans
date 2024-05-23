@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5290'
-ht-degree: 98%
+source-wordcount: '5335'
+ht-degree: 97%
 
 ---
 
@@ -21,14 +21,16 @@ ht-degree: 98%
 
 ## 2024 年 5 月 {#may-2024}
 
-* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 4 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年5月版。 [了解详情](release-notes.md)
 * 关于种子列表的章节已更新有关定期历程。 [了解详情](../configuration/seed-lists.md#use-seed-list)
 * 更新了关于外部数据源的部分。 [了解详情](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 护栏和限制页面中添加了30天的全局历程超时。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * 有关Adobe Campaign v7/v8集成的章节已更新，其中包含有关配置的信息。 [了解详情](../action/acc-action.md#access)
+* 文档中用于个性化内容的表达式编辑器已重命名为“个性化编辑器”，以使其与 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md). [了解详情](../personalization/personalization-build-expressions.md)
 
 ## 2024 年 4 月 {#april-2024}
 
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 4 月版的所有新增功能和改进。[了解详情](release-notes.md#apr-2024)
 * 详细介绍了应用程序内消息传递的配置步骤。[了解详情](../in-app/inapp-configuration.md)
 * [优惠决策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和[批量决策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文档已更新。
 * 在决策管理文档中添加了关于通过 Edge Decisioning API 使用频率上限时的边缘和中心区域管理的信息。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -41,7 +43,7 @@ ht-degree: 98%
 ## 2024 年 3 月 {#march-2024}
 
 * 添加了“常见问题解答”部分，以解决有关在 Journey Optimizer 中使用受众构成和自定义上传受众的常见问题。[了解详情](../audience/about-audiences.md#faq)
-* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 3 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 3 月版的所有新增功能和改进。[了解详情](release-notes.md#mar-2024)
 * 改进了用户档案进入管理页面进行。[了解详情](../building-journeys/entry-management.md)
 * 在“警报”页面中添加了疑难解答信息。[了解详情](../reports/alerts.md#alert-troubleshooting)
 * 在历程报告页面中添加了有关等待活动的信息。[了解详情](../reports/sharing-overview.md)
@@ -58,12 +60,12 @@ ht-degree: 98%
 
 ## 2024 年 2 月 {#feb-2024}
 
-* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 2 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 2 月版的所有新增功能和改进。[了解详情](release-notes.md#feb-2024)
 * Journey Optimizer + Workfront 集成已添加到集成页面。[了解详情](../start/ajo-integrations.md)
 * 添加了有关如何根据上下文数据个性化优惠呈现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
 * 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持 JSON 格式。[了解详情](../start/guardrails.md#custom-actions-g)
 * 添加了关于外部数据源中基本身份验证类型的更多信息。[了解详情](../datasource/external-data-sources.md)
-* 添加了注释来明确区分[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)和[个性化编辑器](../personalization/functions/functions.md)。
+* 已添加注释来明确区分 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md) 从 [个性化编辑器](../personalization/functions/functions.md).
 * 更新了高级表达式编辑器中可用函数的列表。[了解详情](../building-journeys/expression/functions.md)
 * 更新了 Split 函数的页面。[了解详情](../building-journeys/functions/functioninaudience.md)
 * 添加了有关选择启用或选择禁用推送通知对应用程序内消息的影响的信息。[了解详情](../in-app/create-in-app.md)
