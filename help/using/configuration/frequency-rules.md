@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1262'
 ht-degree: 6%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="业务规则"
->abstract="使用业务规则可控制用户收到消息或进入历程的频率，方法是设置跨渠道规则，以自动从消息和操作中排除过度请求的用户档案。"
+>abstract="消息频率规则是一种业务规则，用于限制用户在一个或多个渠道上接收消息或进入历程的次数。 这些跨渠道规则会自动从消息和操作中排除过度请求的用户档案。"
 
-[!DNL Journey Optimizer] 允许您通过设置跨渠道规则，控制用户接收消息或进入历程的频率，这些规则将自动从消息和操作中排除过度请求的用户档案。
+[!DNL Journey Optimizer] 可让您控制用户通过一个或多个渠道接收消息或进入历程的频率。 消息频率规则，用于从消息和操作中自动排除过度请求的用户档案。
 
 例如，对于品牌，规则不能每月向客户发送超过4条营销消息。 要实现此目的，您可以使用业务规则，该规则将限制每月日历期间根据一个或多个渠道发送的消息数。
 

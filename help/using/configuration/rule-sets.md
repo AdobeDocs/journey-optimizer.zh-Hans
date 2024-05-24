@@ -12,10 +12,10 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 8%
+source-wordcount: '1593'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集将频率上限应用于不同类型的营销通信。 例如，您可以创建一个规则集以限制 **促销通信** 发送给您的客户，并创建另一个规则集以限制 **快讯** 发送给他们。 规则集目前作为测试版提供，仅供选择用户使用。"
+>abstract="使用规则集将频率上限应用于不同类型的营销通信。 例如，您可以创建一个规则集以限制 **促销通信** 发送给您的客户，并创建另一个规则集以限制 **快讯** 发送给他们。"
 
 >[!AVAILABILITY]
 >
@@ -79,22 +79,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
 >title="选择消息规则类别"
->abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
+>abstract="激活并应用于消息后，与所选类别匹配的所有频率规则将自动应用于此消息。 当前仅营销类别可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="设置规则的频次封顶"
->abstract="指定在所选时间范围内发给某个客户配置文件的最大消息数。频率上限将基于所选的日历期间，并将在相应的时间范围开始时重置它。"
+>title="为规则设置上限"
+>abstract="指定在选定的时间范围内发送到客户配置文件的最大消息数。频率上限将基于所选的日历期间，并将在相应时间范围的开始日期重置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
->title="定义规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
+>title="定义规则适用的渠道"
+>abstract="选择至少一个渠道。上限适用于多个渠道中的总数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="选择消息规则类别"
->abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
+>abstract="激活并应用于消息后，与所选类别匹配的所有频率规则将自动应用于此消息。 当前仅营销类别可用。"
 
 要将规则添加到规则集，请执行以下步骤。
 
