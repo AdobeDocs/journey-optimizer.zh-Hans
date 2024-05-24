@@ -242,7 +242,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
->title="密钥ID"
+>title="密钥 ID"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
