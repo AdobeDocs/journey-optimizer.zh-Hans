@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '828'
+ht-degree: 3%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 您的信息板现已保存。 您的不同更改将重新应用以供以后使用实时报告。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认构件和构件顺序的选项。
 
-## 导出您的报告 {#export-reports}
+## 导出报告 {#export-reports}
 
 您可以轻松地将不同的报表导出为PDF或CSV格式，以便您共享或打印它们。 导出报告的步骤详见以下选项卡。
 
@@ -127,3 +127,220 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_CTR"
+>title="CTR"
+>abstract="CTR小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_clicks"
+>title="点击次数"
+>abstract="点击小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_delivered"
+>title="已送达"
+>abstract="投放的构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_overview"
+>title="Campaign概述"
+>abstract="Campaign概述构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_funnel"
+>title="营销活动漏斗结果"
+>abstract="Campaign漏斗结果构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_tracking_link"
+>title="跟踪的链接标签"
+>abstract="跟踪的链接标签小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_displays"
+>title="显示"
+>abstract="显示构件"
+
+<!--campaign email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivered_click"
+>title="交付和点击趋势"
+>abstract="已交付并点击趋势小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivery_status"
+>title="投放状态"
+>abstract="投放状态构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_sending_statistics"
+>title="发送统计数据"
+>abstract="发送统计构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracking_statistics"
+>title="跟踪统计数据"
+>abstract="跟踪统计构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_domains"
+>title="电子邮件域"
+>abstract="电子邮件域小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link"
+>title="跟踪的链接标签"
+>abstract="跟踪链接标签小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link_urls"
+>title="跟踪的链接URL"
+>abstract="跟踪的链接URL小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_subjects"
+>title="电子邮件主题"
+>abstract="电子邮件主题小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_bounce_reasons"
+>title="退回原因"
+>abstract="退回原因小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_exclude"
+>title="排除原因"
+>abstract="排除原因小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_error"
+>title="错误原因"
+>abstract="错误原因小组件"
+
+
+<!--campaign push-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_sending_statistics"
+>title="发送统计数据"
+>abstract="发送统计构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracking_statistics"
+>title="跟踪统计数据"
+>abstract="跟踪统计构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link"
+>title="跟踪的链接标签"
+>abstract="跟踪链接标签小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link_urls"
+>title="跟踪的链接URL"
+>abstract="跟踪的链接URL小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_bounce_reasons"
+>title="退回原因"
+>abstract="退回原因小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_exclude"
+>title="排除的原因"
+>abstract="排除的原因小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_email_error"
+>title="错误原因"
+>abstract="错误原因小组件"
+
+<!--campaign inapp-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_impression"
+>title="展示和点击趋势"
+>abstract="Impression &amp; Click趋势构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_clicks"
+>title="点击次数"
+>abstract="点击小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_displays"
+>title="显示"
+>abstract="显示构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracking_data"
+>title="跟踪数据"
+>abstract="跟踪数据构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link"
+>title="跟踪的链接标签"
+>abstract="跟踪的链接标签小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link_urls"
+>title="跟踪的链接URL"
+>abstract="跟踪的链接URL小组件"
+
+<!--campaign sms-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivered_click"
+>title="交付和点击趋势"
+>abstract="已交付并点击趋势小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivery_status"
+>title="投放状态"
+>abstract="投放状态构件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link"
+>title="跟踪的链接标签"
+>abstract="跟踪链接标签小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link_urls"
+>title="跟踪的链接URL"
+>abstract="跟踪的链接URL小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_inbound"
+>title="SMS入站消息"
+>abstract="短信入站消息小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_message_type"
+>title="SMS消息类型"
+>abstract="短信消息类型小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_providers"
+>title="短信提供商"
+>abstract="短信提供商小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_bounce"
+>title="退回原因"
+>abstract="退回原因小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_exclude"
+>title="排除原因"
+>abstract="排除原因小组件"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_error"
+>title="错误原因"
+>abstract="错误原因小组件"
