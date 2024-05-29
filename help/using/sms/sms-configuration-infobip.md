@@ -1,27 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置Infobip提供程序
+title: 配置 Infobip 提供程序
 description: 了解如何使用Journey Optimizer和Infobip配置您的环境以发送短信和彩信
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
-# 配置Infobip提供程序 {#sms-configuration-infobip}
+# 配置 Infobip 提供程序 {#sms-configuration-infobip}
 
 要使用Journey Optimizer配置Infobip，请执行以下步骤：
 
 1. 在左边栏中，浏览 **[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]** 并选择 **[!UICONTROL API凭据]** 菜单。 单击 **[!UICONTROL 创建新的API凭据]** 按钮。
 
-   ![](assets/sms_6.png)
-
 1. 配置API凭据，如下所述。
+
+   * **[!UICONTROL SMS供应商]**：Infobip。
 
    * **[!UICONTROL 名称]**：选择API凭据的名称。
 

@@ -1,19 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置Sinch提供程序
+title: 配置 Sinch 提供程序
 description: 了解如何使用Sinch配置您的环境以使用Journey Optimizer发送短信
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 3%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# 配置Sinch提供程序 {#sms-configuration-sinch}
+# 配置 Sinch 提供程序 {#sms-configuration-sinch}
 
 在将Sinch提供程序与Journey Optimizer结合使用时，您可以找到两个不同的选项：
 
@@ -27,9 +28,9 @@ ht-degree: 3%
 
 1. 在左边栏中，浏览 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 并选择 **[!UICONTROL API凭据]** 菜单。 单击 **[!UICONTROL 创建新的API凭据]** 按钮。
 
-   ![](assets/sms_6.png)
-
 1. 配置您的SMS API凭据，如下所述：
+
+   * **[!UICONTROL SMS供应商]**：Sinch。
 
    * **[!UICONTROL 名称]**：选择API凭据的名称。
 
@@ -65,13 +66,16 @@ ht-degree: 3%
 
 1. 在左边栏中，浏览 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 并选择 **[!UICONTROL API凭据]** 菜单。 单击 **[!UICONTROL 创建新的API凭据]** 按钮。
 
-   ![](assets/sms_6.png)
+1. 配置您的MMS API凭据，如下所述：
 
-1. 配置您的SMS API凭据，如下所述：
+   * **[!UICONTROL SMS供应商]**：Sinch MMS.
 
    * **[!UICONTROL 名称]**：选择API凭据的名称。
 
-   * **[!UICONTROL 项目编号]**， **[!UICONTROL 应用程序ID]** 和 **[!UICONTROL api令牌]**：从“对话API”菜单中，您可以在“应用程序”菜单中找到您的凭据。 了解详情，请参阅 [Sinch文档](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+   * **[!UICONTROL 项目编号]**， **[!UICONTROL 应用程序ID]** 和 **[!UICONTROL api令牌]**：请按照以下步骤收集MMS API凭据。
+
+      * 对象 **[!UICONTROL 项目编号]** 和 **[!UICONTROL 应用程序ID]**：访问 **对话API概述** Sinch项目的URL页面。
+      * 对象 **[!UICONTROL api令牌]**：获取 **访问密钥** 为您的Sinch项目生成 **Base64 API令牌** 从您的Sinch项目中移除 **访问密钥**.
 
    * **[!UICONTROL 服务计划ID]** 和 **[!UICONTROL SMS API令牌]**：您的 **[!UICONTROL 服务计划ID]** 和 **[!UICONTROL SMS API令牌]** 位于API页面的SMS选项卡上。
 
