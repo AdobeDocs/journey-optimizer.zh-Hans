@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 92%
 
   您还可以访问&#x200B;**报告**&#x200B;部分，以便为营销活动试验配置报告。[了解详情](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL 业务规则]**  — 使用此部分创建跨渠道业务规则以控制用户接收消息或进入历程的频率。 [了解详情](../configuration/frequency-rules.md)
+* **[!UICONTROL 业务规则]** - 使用此部分可创建跨渠道业务规则，控制用户接收消息或进入历程的频率。[了解详情](../configuration/frequency-rules.md)
 
 * **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](../reports/alerts.md)
 
@@ -197,7 +197,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="移动和Web配置名称"
+>title="移动和 Web 配置名称"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -212,12 +212,12 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="使用保障进行验证"
+>title="使用保证功能进行验证"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Javascript代码"
+>title="JavaScript 代码"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -232,7 +232,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="从Xcode启动应用程序"
+>title="通过 Xcode 启动应用程序"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -247,12 +247,12 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
->title="团队编号"
+>title="团队 ID"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="选择您的标记属性"
+>title="选择标记属性"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -267,12 +267,12 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
->title="导入依赖关系"
+>title="导入依赖项"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
->title="导入依赖关系"
+>title="导入依赖项"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -288,5 +288,5 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
->title="从Android Studio启动应用程序"
+>title="通过 Android Studio 启动应用程序"
 >abstract="TBC"

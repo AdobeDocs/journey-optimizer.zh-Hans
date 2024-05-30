@@ -9,9 +9,9 @@ hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: ae9a315f6c9d2c2408788a7e4b32cdbd516f41d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 40%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改会在每月末整合到[发行说明](release-notes.md)中。
 
-**在发行日期之前，以下早期发行说明可能会有所变更，恕不另行通知**. 在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
+**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
-## 2024年5月早期发行说明 {#e-2024}
+## 2024 年 5 月早期发行说明 {#e-2024}
 
-**发行日期**： 2024年5月21日至22日
+**发布日期**：2024 年 5 月 21 日至 22 日
 
 ### 新功能 {#e-features}
 
@@ -104,15 +104,15 @@ ht-degree: 40%
 
 此版本包含下方列出的改进。
 
-**Experience Decisioning** （限量发布）
+**体验决策**（限量发布）
 
-从测试版到此版本，添加了以下改进：
+从 Beta 版到此版本，做出了以下改进：
 
-* **Experience Decisioning +基于代码的体验**  — 您现在可以利用Experience Decisioning功能在基于代码的营销活动中使用决策项。 注释：基于代码的体验渠道和体验决策不适用于已购买 Adobe Health Shield 和 Privacy and Security Shield 附加产品的组织。[了解详情](../code-based/get-started-code-based.md)
-* **上下文数据**  — 您现在可以在决策规则和排名公式中利用Adobe Experience Platform的上下文数据。 [了解详情](../experience-decisioning/context-data.md)
-* **新建权限**  — 新的“管理体验决策”权限现在可用于决策管理资源。 这允许您管理与体验决策相关的权限。[了解详情](../experience-decisioning/gs-experience-decisioning.md)
-* **上限规则**  — 您现在可以在Experience Decisioning中为给定决策项目添加多个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../experience-decisioning/items.md#capping)
-* **报表**  — 您现在可以使用以下项目创建Experience Decisioning营销活动的自定义报告仪表板 [!DNL Customer Journey Analytics]. [了解详情](../experience-decisioning/cja-reporting.md)
+* **体验决策 + 基于代码的体验** - 您现在可以利用体验决策功能在基于代码的营销活动中使用决策项。注释：基于代码的体验渠道和体验决策不适用于已购买 Adobe Health Shield 和 Privacy and Security Shield 附加产品的组织。[了解详情](../code-based/get-started-code-based.md)
+* **上下文数据** - 现在，您可以在决策规则中利用 Adobe Experience Platform 的上下文数据并对公式排序。[了解详情](../experience-decisioning/context-data.md)
+* **新权限** - 现在，决策管理资源具有新的“管理体验决策”权限。这允许您管理与体验决策相关的权限。[了解详情](../experience-decisioning/gs-experience-decisioning.md)
+* **上限规则** - 您现在可以在体验决策中对特定决策项添加多个上限规则。这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../experience-decisioning/items.md#capping)
+* **报告** - 您现在可以使用 [!DNL Customer Journey Analytics] 创建体验决策营销活动的自定义报告仪表板。[了解详情](../experience-decisioning/cja-reporting.md)
 
 
 <!--**Decision Management**
@@ -127,11 +127,11 @@ ht-degree: 40%
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
-* **垃圾邮件评分** （测试版） — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 使用SpamAssassin，Adobe Journey Optimizer现在可以测试您的电子邮件内容，并为它打分，以指示ISP或邮箱提供商是否将其视为垃圾邮件。 [了解详情](../content-management/spam-report.md)
+* **垃圾邮件评分**（Beta 版）- 您现在可以在专用的垃圾邮件报告中检查您的垃圾邮件内容评分。通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
 
   >[!AVAILABILITY]
   >
-  >此功能目前为测试版本，仅供测试版客户使用。 要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
+  >此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 <!--
 **Audiences**
@@ -145,14 +145,14 @@ ht-degree: 40%
 **历程**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS支持**  — 自定义操作现在支持mTLS身份验证。 自定义操作或历程中无需额外配置即可激活mTLS；当检测到启用了mTLS的端点时，会自动进行此配置。 [了解详情](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **事件中的查找表**  — 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。 查找值将在历程（条件、自定义操作等）中可用 和消息个性化。 [了解详情](../event/experience-event-schema.md#relationships_limitations)
-* **事件配置中的高级表达式编辑器** (LA) — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 此功能以“有限可用”的状态向选定客户发布。 [了解详情](../event/about-creating.md)
-* **合并策略** (LA) -历程使用的合并策略现在在整个历程中可见且一致。 此功能以“有限可用”的状态向选定客户发布。 [了解详情](../building-journeys/journey-gs.md#merge-policies)
+* **mTLS 支持** - 自定义操作现在支持 mTLS 身份验证。无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **事件中的查找表** - 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。可以在历程（条件、自定义操作等）和消息个性化中使用查找值。[了解详情](../event/experience-event-schema.md#relationships_limitations)
+* **事件配置中的高级表达式编辑器**（限量发布版）- 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。“限量发布版”的部分客户可使用此功能。[了解详情](../event/about-creating.md)
+* **合并策略**（限量发布版）- 现在，历程使用的合并策略在整个历程中均可见且一致。“限量发布版”的部分客户可使用此功能。[了解详情](../building-journeys/journey-gs.md#merge-policies)
 
 **全球化**
 
-作为我们持续努力提供统一用户体验的一部分，我们统一了Adobe Experience Cloud产品和应用程序中使用的术语。 这会影响德语术语“Titel”，在与对象名称相关时，该术语会更改为“Label”。 这些更改将在UI和文档中逐步推出。
+为持续努力提供统一的用户体验，我们整合了 Adobe Experience Cloud 产品和应用程序中使用的术语。在与对象名称相关时，德语术语“Titel”更改为“Label”。这些更改将在 UI 和文档中逐步体现。
 
 
 

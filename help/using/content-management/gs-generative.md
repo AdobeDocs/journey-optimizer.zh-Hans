@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
 ht-degree: 100%
 
@@ -23,20 +23,20 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="AI 助手"
->abstract="在精心设计并个性化设置投放后，您可使用 AI 助手来增强您的内容。此功能使您通过描述要生成的东西即可微调内容，从而简化个性化和改善内容的过程。"
+>abstract="完成投放的定制和个性化后，您可以使用 AI 助手增强内容。借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="使用 AI 助手定义上下文"
->abstract="要将所选内容用作内容生成的输入，请激活&#x200B;**使用原始内容**&#x200B;切换开关。还可上传品牌资源以将其用作来源。如果不使用所选内容，则必须上传并选择品牌资源。"
+>abstract="要将所选内容用作内容生成的输入，请打开&#x200B;**使用原始内容**&#x200B;开关。您还可以上传品牌资源，以将其用作源。如果不使用选定内容，则必须上传和选择品牌资源。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe 生成式 AI 条款"
->abstract="您必须同意 Adobe Experience Cloud 生成式 AI 用户准则才能使用此功能。您向此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定的上下文关联，这些特定的上下文可包括您的品牌宣传材料、网站内容、数据、此类数据的架构、模板或其他可信文档，并且不得包含任何个人信息（个人信息包括任何可追溯回具体个人的信息）。您应检查此功能产生的任何输出是否准确，并确保它适合您的用例"
->additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户准则"
+>title="Adobe 生成式 AI 术语"
+>abstract="是否能访问此功能取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。您为此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定上下文绑定，可以包括您的品牌化材料、网站内容、数据、此类数据的架构、模板或其他信任的文档，并且不得包含任何个人信息（个人信息包括可以关联到特定个人的任何内容）。您应该检查此功能的任何输出是否准确，并确保它适合您的用例"
+>additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户指南"
 
 >[!BEGINSHADEBOX]
 

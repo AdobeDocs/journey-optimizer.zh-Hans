@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 88%
 
 >[!BEGINTABS]
 
->[!TAB 5月发布已上线！]
+>[!TAB 5 月版已上线！]
 
-了解Adobe Journey Optimizer 5月版中的新增功能和改进。
+了解 Adobe Journey Optimizer 5 月版的新增功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Experience decisioning]
+>[!TAB 体验决策]
 
-Experience Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化操作。
+通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化流程。
 
 ![](using/rn/assets/do-not-localize/gif-exd.gif)
 
