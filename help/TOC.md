@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -74,8 +74,8 @@ ht-degree: 93%
    + 构建表达式 {#building-advanced-conditions-journeys}
       + [概述](using/building-journeys/expression/expressionadvanced.md)
       + 语法 {#syntax}
-         + [概括性](using/building-journeys/expression/generalities.md)
-         + [条件指令](using/building-journeys/expression/conditional-instruction.md)
+         + [通则](using/building-journeys/expression/generalities.md)
+         + [条件说明](using/building-journeys/expression/conditional-instruction.md)
          + [数据类型](using/building-journeys/expression/data-types.md)
          + [字段引用](using/building-journeys/expression/field-references.md)
          + [集合管理函数](using/building-journeys/expression/collection-management-functions.md)
@@ -91,10 +91,10 @@ ht-degree: 93%
             + [count](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-            + [distinctcount](using/building-journeys/functions/functiondistinctcount.md)
+            + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
             + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
             + [max](using/building-journeys/functions/functionmax.md)
-            + [分钟](using/building-journeys/functions/functionmin.md)
+            + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + 转化 {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
@@ -106,18 +106,18 @@ ht-degree: 93%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + 日期 {#date}
-            + [currentTimeInMillis&#x200B;](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inlastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inlastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inlastYears](using/building-journeys/functions/functioninlastyears.md)
+            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
+            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
+            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
             + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [innexthours](using/building-journeys/functions/functioninnexthours.md)
-            + [innexmonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [innexyears](using/building-journeys/functions/functioninnextyears.md)
-            + [现在](using/building-journeys/functions/functionnow.md)
-            + [nowWithΔ](using/building-journeys/functions/functionnowwithdelta.md)
-            + [sethours](using/building-journeys/functions/functionsethours.md)
+            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
+            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
+            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
+            + [now](using/building-journeys/functions/functionnow.md)
+            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
+            + [setHours](using/building-journeys/functions/functionsethours.md)
             + [setDays](using/building-journeys/functions/functionsetdays.md)
             + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
          + 列表 {#list}
@@ -147,7 +147,7 @@ ht-degree: 93%
             + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
             + [长度](using/building-journeys/functions/functionlength.md)
             + [lower](using/building-journeys/functions/functionlower.md)
-            + [matchregExp](using/building-journeys/functions/functionmatchregexp.md)
+            + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
             + [notequalIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
             + [replace](using/building-journeys/functions/functionreplace.md)
             + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
@@ -290,7 +290,7 @@ ht-degree: 93%
       + [个性化入门](using/personalization/personalize.md)
       + [个性化上下文](using/personalization/personalization-contexts.md)
       + [个性化语法](using/personalization/personalization-syntax.md)
-      + [使用Adobe Experience Platform数据进行个性化](using/personalization/lookup-aep-data.md)
+      + [使用 Adobe Experience Platform 数据进行个性化设置](using/personalization/lookup-aep-data.md)
       + 使用个性化编辑器 {#expression-editor}
          + [关于个性化编辑器](using/personalization/personalization-build-expressions.md)
          + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
@@ -327,7 +327,7 @@ ht-degree: 93%
       + [预览您的内容](using/content-management/preview.md)
       + [发送电子邮件验证](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
-      + [电子邮件垃圾邮件报告](using/content-management/spam-report.md)
+      + [垃圾电子邮件报告](using/content-management/spam-report.md)
 + 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
@@ -428,7 +428,7 @@ ht-degree: 93%
          + [备用数据集](using/offers/export-catalog/export-fallback.md)
       + API 参考 {#api-reference}
          + [快速入门](using/offers/api-reference/getting-started.md)
-         + 使用API创建和管理优惠 {#offers-api}
+         + 使用 API 创建和管理优惠 {#offers-api}
             + 投放位置 {#placements}
                + [列出投放位置](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查找投放位置](using/offers/api-reference/offers-api/placements/lookup.md)

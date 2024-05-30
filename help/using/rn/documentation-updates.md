@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 97%
 ## 2024 年 5 月 {#may-2024}
 
 * 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年5月版。 [了解详情](release-notes.md)
-* 关于种子列表的章节已更新有关定期历程。 [了解详情](../configuration/seed-lists.md#use-seed-list)
-* 更新了关于外部数据源的部分。 [了解详情](../datasource/external-data-sources.md#custom-authentication-access-token)
-* 护栏和限制页面中添加了30天的全局历程超时。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-* 有关Adobe Campaign v7/v8集成的章节已更新，其中包含有关配置的信息。 [了解详情](../action/acc-action.md#access)
+* 种子列表部分中更新了有关定期历程的内容。[了解详情](../configuration/seed-lists.md#use-seed-list)
+* 外部数据源部分已更新。[了解详情](../datasource/external-data-sources.md#custom-authentication-access-token)
+* 护栏和限制页面中添加了 30 天的全局历程超时。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+* 有关 Adobe Campaign v7/v8 集成的部分已更新，其中包含有关配置的信息。[了解详情](../action/acc-action.md#access)
 * 文档中用于个性化内容的表达式编辑器已重命名为“个性化编辑器”，以使其与 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md). [了解详情](../personalization/personalization-build-expressions.md)
 
 ## 2024 年 4 月 {#april-2024}
