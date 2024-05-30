@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 12%
+source-wordcount: '413'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="对象级访问控制"
->abstract="如果应用了任何您无权访问的标签，那么您对此对象的访问权限将被撤销。"
+>abstract="要保持对此对象的访问权限，请仅应用您具有权限的标签。"
 
 对象级访问控制(OLAC)允许您定义管理对所选对象的数据访问的授权：
 

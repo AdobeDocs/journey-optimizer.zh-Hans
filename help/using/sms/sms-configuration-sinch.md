@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 4%
 
 ---
@@ -74,8 +74,8 @@ ht-degree: 4%
 
    * **[!UICONTROL 项目编号]**， **[!UICONTROL 应用程序ID]** 和 **[!UICONTROL api令牌]**：请按照以下步骤收集MMS API凭据。
 
-      * 对象 **[!UICONTROL 项目编号]** 和 **[!UICONTROL 应用程序ID]**：访问 **对话API概述** Sinch项目的URL页面。
-      * 对象 **[!UICONTROL api令牌]**：获取 **访问密钥** 为您的Sinch项目生成 **Base64 API令牌** 从您的Sinch项目中移除 **访问密钥**.
+      * 对象 **[!UICONTROL 项目编号]** 和 **[!UICONTROL 应用程序ID]**：访问 [对话API概述](https://dashboard.sinch.com/convapi/overview) Sinch项目的URL页面。
+      * 对象 **[!UICONTROL api令牌]**：获取 [访问密钥](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) 为您的Sinch项目生成 **Base64 API令牌** 从您的Sinch项目中移除 **访问密钥**.
 
    * **[!UICONTROL 服务计划ID]** 和 **[!UICONTROL SMS API令牌]**：您的 **[!UICONTROL 服务计划ID]** 和 **[!UICONTROL SMS API令牌]** 位于API页面的SMS选项卡上。
 
