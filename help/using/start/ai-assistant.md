@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Adobe Journey Optimizer中使用AI助手
-description: 了解如何在Adobe历程优化器中利用Adobe Experience Platform AI助手。
+title: 使用AI助手
+description: 了解如何利用AI助手
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Journey Optimizer中使用AI助手 {#ai-assistant}
+# 使用AI助手 {#ai-assistant}
 
 AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获取对您特定环境的操作见解。 它在Adobe Experience Cloud的多个产品中可用，包括Adobe Journey Optimizer。
 
@@ -26,7 +27,7 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
-* 概念问题（正式发布）概念问题涉及与Adobe Journey Optimizer各个方面相关的Adobe概念。 概念问题的一些示例包括：
+* 产品知识（正式发布）产品知识问题涉及与Adobe Journey Optimizer各个方面相关的Adobe概念。 产品知识问题的一些示例包括：
 
    * 一个Adobe Journey Optimizer沙盒中可以有多少个实时活动？
    * 如何在Adobe Journey Optimizer中设置营销活动？
@@ -54,4 +55,4 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 使用拇指向上或向下对答案进行评分。
 
-要了解如何使用AI助手，请参阅使用AI助手可以完成的示例目标，并了解AI助手的工作原理，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+要了解如何使用AI助手，请查看可以使用AI助手完成的示例目标，并了解AI助手的工作原理，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
