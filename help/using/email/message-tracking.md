@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -187,3 +187,4 @@ ht-degree: 3%
 >[!NOTE]
 >
 >要验证最终URL，您可以 [发送验证](../content-management/preview-test.md#send-proofs) 并在收到校样后单击电子邮件内容中的链接。 URL应显示跟踪参数。 在上述示例中，最终URL将为： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
