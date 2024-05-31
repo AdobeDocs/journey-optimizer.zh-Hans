@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4461100b19bd84a75f036e300e88c47b9b20db9b
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2035'
 ht-degree: 100%
 
 ---
@@ -277,7 +277,7 @@ ht-degree: 100%
 **内容设计**
 
 * **背景** - 现在，实时预览支持背景图像。[了解详情](../content-management/preview-test.md)
-* **一键式选择退出链接** - 您可以在电子邮件内容中插入新类型的链接：**选择退出**&#x200B;链接让用户只需单击一下即可取消订阅以停止接收您的通信，而不会被重定向到登陆页面以确认选择退出。[了解详情](../privacy/opt-out.md#one-click-opt-out-link)
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
 
 **个性化**
 

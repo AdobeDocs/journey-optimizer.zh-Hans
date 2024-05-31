@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5317'
 ht-degree: 98%
 
 ---
@@ -412,7 +412,6 @@ ht-degree: 98%
 * 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * 更新并重命名了“重试时段”部分，以反映出您现在可以调整消息预设中的电子邮件重试设置。[了解更多信息](../configuration/retries.md#retry-duration)
-* 添加了一个新的部分来介绍如何在电子邮件内容中插入一键式选择退出链接。[了解更多信息](../privacy/opt-out.md#one-click-opt-out-link)
 * 更新了“委派子域”部分，其中包含有关 Adobe 执行的验证过程的更多详细信息。[了解更多信息](../configuration/delegate-subdomain.md#subdomain-validation)
 * 添加了介绍如何手动将电子邮件地址和域添加到禁止列表的部分。[了解更多信息](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问禁止列表](../configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](../configuration/retries.md)部分，以反映新的用户界面。

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '979'
 ht-degree: 12%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 12%
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## 选择退出 {#opt-out}
+## 选择退出登陆页面 {#opt-out}
 
 要使收件人能够取消订阅您的通信，您可以在电子邮件中包含指向选择退出登陆页面的链接。
 
@@ -107,7 +107,7 @@ ht-degree: 12%
 
 ### 配置电子邮件选择退出 {#configure-opt-out}
 
-要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤。
+要使电子邮件的收件人能够通过登陆页面取消订阅您的通信，请执行以下步骤：
 
 1. 创建登陆页面。 [了解详情](create-lp.md)
 
@@ -167,6 +167,12 @@ ht-degree: 12%
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 
+
+
+**另请参阅：**
+
+* [一键式选择退出](../email/email-opt-out.md#one-click-opt-out-link)
+* [电子邮件标头中的选择退出链接](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 
