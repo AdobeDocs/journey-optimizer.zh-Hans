@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 26%
@@ -31,6 +31,7 @@ ht-degree: 26%
 * 启用 **一键式选择退出链接** 用于电子邮件。  [了解如何添加一键式选择退出链接](#one-click-opt-out)
 
 * 插入 **链接到登陆页面**. [了解如何添加选择退出登陆页面](#opt-out-external-lp)
+
 
 ## 一步式选择退出 {#opt-out-one-step}
 
