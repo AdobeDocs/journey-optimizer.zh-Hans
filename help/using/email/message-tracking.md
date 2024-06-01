@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -158,7 +158,7 @@ ht-degree: 3%
    * **[!UICONTROL 已跟踪]**：在此URL上激活跟踪。
    * **[!UICONTROL 选择禁用]**：将此URL视为选择退出或退订URL。
    * **[!UICONTROL 镜像页面]**：将此URL视为镜像页面URL。
-   * **[!UICONTROL 从不]**：从不激活此URL的跟踪。
+   * **[!UICONTROL 从不]**：从不激活此URL的跟踪。 <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 有关打开次数和点击次数的报告，请参见 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
 
