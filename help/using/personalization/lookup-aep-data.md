@@ -11,9 +11,9 @@ keywords: 表达式，编辑器
 hidefromtoc: true
 hide: true
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: d2bebc33b6afde51cef12049cfafc8217c377f9d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >此功能目前仅作为专用测试版提供。
 >
->目前，它仅适用于在您提供给Adobe的非生产沙盒中测试以及为Beta测试请求的数据集。
+>目前，它仅适用于 **电子邮件渠道** 和在您提供给Adobe的非生产沙盒中测试以及为Beta版请求的数据集中测试。
 
 Journey Optimizer允许您在个性化编辑器中利用来自Adobe Experience Platform的数据，以 [使内容个性化](../personalization/personalize.md). 步骤如下：
 
