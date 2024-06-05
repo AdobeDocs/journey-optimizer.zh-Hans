@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 
 ## 事件活动 {#event-activities}
 
-事件是触发个性化历程的原因，例如在线购买。 当某人进入一个旅程时，他们就会作为一个人移动，而没有任何两个人以相同的速度或沿着相同的路径移动。 通过事件开始历程时，会在收到事件时触发历程。 然后，历程中的每个人分别遵循历程中定义的后续步骤。
+个性化历程由事件触发，例如在线购买。 用户档案进入历程后，将作为一个个人进行移动，并且没有两个个人以相同的速度或沿着相同的路径移动。 通过事件开始历程时，会在收到事件时触发历程。 然后，历程中的每个人分别遵循历程中定义的后续步骤。
 
 技术用户配置的事件(请参阅 [此页面](../event/about-events.md))都会显示在屏幕左侧的面板的第一个类别中。 可以使用以下事件活动：
 
@@ -60,7 +60,7 @@ ht-degree: 13%
 
 ![](assets/journey58.png)
 
-这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
+这些活动代表不同的可用通信渠道。 您可以将它们组合在一起，创建跨渠道方案。
 
 如果已配置自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md))。
 
@@ -92,6 +92,6 @@ ht-degree: 13%
 
 ### 添加替代路径
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅 [本节](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)
