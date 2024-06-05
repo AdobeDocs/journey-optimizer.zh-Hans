@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ ht-degree: 98%
 
 * 改进了&#x200B;**快速入门**&#x200B;页面，其中包含不同角色的步骤。[了解更多信息](../start/quick-start.md)
 
-* 现在，专门部分中介绍的所有决策管理功能也适用于利用 Offer Decisioning 应用程序服务的 Adobe Experience Platform 用户。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
+* 现在，专门部分中介绍的所有决策管理功能也适用于利用Offer decisioning应用程序的Adobe Experience Platform用户。 [了解详情](../offers/get-started/starting-offer-decisioning.md)
 
 * 添加了子部分，阐明在应用约束以限制给定投放位置的优惠选择时，使用受众与决策规则之间的差异。[了解更多信息](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
