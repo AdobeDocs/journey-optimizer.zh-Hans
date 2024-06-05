@@ -2,28 +2,28 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 等待活动
-description: 了解等待活动
+description: 了解如何配置等待活动
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 17%
+source-wordcount: '535'
+ht-degree: 6%
 
 ---
 
-# 等待活动{#wait-activity}
+# 等待活动 {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活动"
->abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
+>abstract="如果要在执行路径中的下一个活动之前等待，则可以使用等待活动。 它允许您定义下次活动执行的时间。 有两个可用选项：持续时间和custom。"
 
-如果您希望在执行路径中的下一个活动之前等待，则可以使用 **[!UICONTROL 等待]** 活动。 这让您可以定义执行下一个活动的时刻。可以使用以下选项：
+您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。 可以使用以下选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)
@@ -33,21 +33,21 @@ ht-degree: 17%
 * [Fixed date](#fixed_date) 
 -->
 
-## 关于等待活动{#about_wait}
+## 关于等待活动 {#about_wait}
 
-最长等待时间为29天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)。
+最长等待时间为29天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为10秒。 这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
 
-当在历程中使用多个等待活动时，请务必谨慎，因为全局历程超时为30天，这意味着用户档案在进入历程后，将始终退出历程的最长30天。 请参阅[此页](../building-journeys/journey-gs.md#global_timeout)。
+使用多个时请务必谨慎 **等待** 历程中的活动（全局历程超时为30天），这意味着用户档案始终会在进入历程30天后退出该历程。 请参阅[此页面](../building-journeys/journey-gs.md#global_timeout)以了解详情。
 
-仅当个人在历程中剩余的时间足以在30天历程超时前完成等待持续时间时，他或她才能进入等待活动。 例如，如果添加两个分别设置为20天的等待活动，则系统将检测到第二个等待将在30天超时后结束。 因此，第二次等待将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
+个人可以输入 **等待** 仅当在历程中剩余的时间足以在30天历程超时之前完成等待持续时间时，才会进行活动。 例如，如果添加两个 **等待** 活动设置为20天，则系统检测到第二个 **等待** 活动将在30天超时后结束。 第二个 **等待** 因此，活动将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
 
-最佳做法是不使用等待来阻止重新进入。 请改用 **允许重新进入** 历程属性级别的选项。 请参阅[此页](../building-journeys/journey-gs.md#entrance)。
+不应使用的最佳实践 **等待** 阻止重新进入的活动。 请改用 **允许重新进入** 历程属性级别的选项。 请参阅[此页面](../building-journeys/journey-gs.md#entrance)以了解详情。
 
-## 持续时间等待{#duration}
+## 持续时间等待 {#duration}
 
 选择下一个活动执行前等待的持续时间。 最长持续时间为29天。
 
-![](assets/journey55.png)
+![定义等待持续时间](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -58,19 +58,25 @@ Select the date for the execution of the next activity.
 
 -->
 
-## 自定义等待{#custom}
+## 自定义等待 {#custom}
 
-此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2023年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅此 [页面](expression/expressionadvanced.md). 有关dateTimeOnly格式的详细信息，请参阅此 [页面](expression/data-types.md).
+使用 **自定义** 键入以定义自定义日期，使用基于来自事件或自定义操作响应字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
+
+![使用表达式定义自定义等待](assets/journey57.png)
+
+编辑器中的表达式应提供 `dateTimeOnly` 格式。 请参见[此页面](expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅 [此页面](expression/data-types.md).
+
+最佳实践是使用特定于您用户档案的自定义日期，并避免对所有用户使用相同的日期。 例如，不要定义 `toDateTimeOnly('2024-01-01T01:11:00Z')` 但是 `toDateTimeOnly(@event{Event.productDeliveryDate})` 特定于每个用户档案。 请注意，使用固定日期可能会导致历程执行出现问题。
+
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@event{Event.offerOpened.activity.endTime})，事件中的字段格式为2023-08-12T09:46:06Z。
+>您可以利用 `dateTimeOnly` 表达式或使用函数转换为 `dateTimeOnly`. 例如： `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`，事件中的字段格式为2023-08-12T09:46:06Z。
 >
->此 **时区** 应在历程的属性中找到。 因此，目前不可能从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2023-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
+>此 **时区** 应在历程的属性中找到。 因此，从用户界面中，无法直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2023-08-12T09:46:06.982-05. [了解详情](../building-journeys/timezone-management.md)。
 
-![](assets/journey57.png)
 
-要验证等待活动是否按预期运行，您可以使用步骤事件。 请参阅[此页](../reports/query-examples.md#common-queries)。
+要验证等待活动是否按预期运行，您可以使用步骤事件。 [了解详情](../reports/query-examples.md#common-queries)。
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
