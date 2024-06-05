@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
+source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 要访问AI助手，请单击顶栏上的图标。 AI助手将显示在屏幕的右侧部分。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
+
+
+>[!CAUTION]
+>
+>在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 要了解有关协议的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
