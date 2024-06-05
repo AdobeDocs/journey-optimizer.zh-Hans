@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 6%
+source-wordcount: '545'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 6%
 >title="等待活动"
 >abstract="如果要在执行路径中的下一个活动之前等待，则可以使用等待活动。 它允许您定义下次活动执行的时间。 有两个可用选项：持续时间和custom。"
 
-您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。 可以使用以下选项：
+您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。  最长等待时间为 **29天**.
+
+可以使用以下类型：
 
 * [持续时间](#duration)
 * [自定义](#custom)
@@ -33,19 +35,26 @@ ht-degree: 6%
 * [Fixed date](#fixed_date) 
 -->
 
-## 关于等待活动 {#about_wait}
+## 推荐 {#wait-recommendations}
 
-最长等待时间为29天。 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个等待活动的持续时间。 默认时间为10秒。 这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
+### 多个等待活动 {#multiple-wait-activities}
 
-使用多个时请务必谨慎 **等待** 历程中的活动（全局历程超时为30天），这意味着用户档案始终会在进入历程30天后退出该历程。 请参阅[此页面](../building-journeys/journey-gs.md#global_timeout)以了解详情。
+使用多个 **等待** 历程中的活动，请注意，全局历程超时为30天，这意味着用户档案始终在进入历程后30天内退出该历程。 请参阅[此页面](../building-journeys/journey-gs.md#global_timeout)以了解详情。
 
 个人可以输入 **等待** 仅当在历程中剩余的时间足以在30天历程超时之前完成等待持续时间时，才会进行活动。 例如，如果添加两个 **等待** 活动设置为20天，则系统检测到第二个 **等待** 活动将在30天超时后结束。 第二个 **等待** 因此，活动将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
 
+### 等待并重新进入 {#wait-re-entrance}
+
 不应使用的最佳实践 **等待** 阻止重新进入的活动。 请改用 **允许重新进入** 历程属性级别的选项。 请参阅[此页面](../building-journeys/journey-gs.md#entrance)以了解详情。
+
+### 等待和测试模式 {#wait-test-modd}
+
+在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个报表包 **等待** 活动将持续。 默认时间为10秒。 这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
+
 
 ## 持续时间等待 {#duration}
 
-选择下一个活动执行前等待的持续时间。 最长持续时间为29天。
+选择 **持续时间** type可设置下次活动执行前等待的持续时间。 最长持续时间为 **29天**.
 
 ![定义等待持续时间](assets/journey55.png)
 
@@ -60,7 +69,7 @@ Select the date for the execution of the next activity.
 
 ## 自定义等待 {#custom}
 
-使用 **自定义** 键入以定义自定义日期，使用基于来自事件或自定义操作响应字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
+选择 **自定义** 键入以定义自定义日期，使用基于来自事件或自定义操作响应字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
 
 ![使用表达式定义自定义等待](assets/journey57.png)
 
