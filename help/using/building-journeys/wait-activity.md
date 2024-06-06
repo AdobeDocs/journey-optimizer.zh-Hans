@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 5%
 
 您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。  最长等待时间为 **29天**.
 
-可以使用以下类型：
+您可以设置两种类型 **等待** 活动：
 
-* [持续时间](#duration)
-* [自定义](#custom)
+* 基于固定持续时间的等待。 [了解详情](#duration)
+* 自定义等待，使用函数进行计算。 [了解详情](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ ht-degree: 5%
 
 在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个报表包 **等待** 活动将持续。 默认时间为10秒。 这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
 
+## 配置 {#wait-configuration}
 
-## 持续时间等待 {#duration}
+### 持续时间等待 {#duration}
 
 选择 **持续时间** type可设置下次活动执行前等待的持续时间。 最长持续时间为 **29天**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## 自定义等待 {#custom}
+### 自定义等待 {#custom}
 
-选择 **自定义** 键入以定义自定义日期，使用基于来自事件或自定义操作响应字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
+选择 **自定义** 键入以定义自定义持续时间，可使用基于来自事件或自定义操作响应的字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
 
 ![使用表达式定义自定义等待](assets/journey57.png)
 
