@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 查询、平台、数据、探索
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=zh-Hans){target="_blank"}中了解如何使用查询编辑器。
 
-**另请参阅**
-
-* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
-* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hans){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [查询服务文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
+>* [查询服务概述视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=zh-Hans){target="_blank"}
