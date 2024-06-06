@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
+source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 >[!CAUTION]
 >
->在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 要了解有关协议的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+>在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 要了解有关协议的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
@@ -58,4 +58,4 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 使用拇指向上或向下对答案进行评分。
 
-要了解如何使用AI助手，请查看可以使用AI助手完成的示例目标，并了解AI助手的工作原理，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+要了解如何使用AI助手，请查看可以使用AI助手完成的示例目标，并了解AI助手的工作原理，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
