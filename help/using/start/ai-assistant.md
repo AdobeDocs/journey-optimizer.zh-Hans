@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
-* 产品知识（正式发布）产品知识问题涉及与Adobe Journey Optimizer各个方面相关的Adobe概念。 产品知识问题的一些示例包括：
+* **产品知识** （正式发布）
+
+  产品知识问题涉及与Adobe Journey Optimizer各个方面相关的Adobe概念。 产品知识问题的一些示例包括：
 
    * 一个Adobe Journey Optimizer沙盒中可以有多少个实时活动？
    * 如何在Adobe Journey Optimizer中设置营销活动？
    * 如何创建要在Adobe Journey Optimizer历程中使用的自定义操作？
 
 
-* 历程中的运营洞察（测试版）运营洞察问题与组织沙盒中的历程对象有关。 操作分析问题或提示的一些示例包括：
+* **运营见解** 在旅程中（测试版）
+
+  操作洞察问题与组织沙盒中的历程对象有关。 操作分析问题或提示的一些示例包括：
 
    * 我在Adobe Journey Optimizer有多少实时历程？
    * 给我所有计划历程的列表
@@ -50,11 +54,11 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 要提出问题，请在屏幕底部的字段中输入问题，然后按Enter键。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 检查答案并使用 **显示源** 按钮以获取产品文档的直接链接并了解详情。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 使用拇指向上或向下对答案进行评分。
 
