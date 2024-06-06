@@ -7,10 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -52,11 +50,11 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 要提出问题，请在屏幕底部的字段中输入问题，然后按Enter键。
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="20%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
 
 检查答案并使用 **显示源** 按钮以获取产品文档的直接链接并了解详情。
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="20%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
 
 使用拇指向上或向下对答案进行评分。
 
