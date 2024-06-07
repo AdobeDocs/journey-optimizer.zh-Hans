@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
+source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 6%
 
 您可以设置两种类型 **等待** 活动：
 
-* 基于固定持续时间的等待。 [了解详情](#duration)
-* 自定义等待，使用函数进行计算。 [了解详情](#custom)
+* 基于相对持续时间的等待。 [了解详情](#duration)
+* 自定义日期，使用函数进行计算。 [了解详情](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ### 持续时间等待 {#duration}
 
-选择 **持续时间** type可设置下次活动执行前等待的持续时间。 最长持续时间为 **29天**.
+选择 **持续时间** type设置下次活动执行前等待的相对持续时间。 最长持续时间为 **29天**.
 
 ![定义等待持续时间](assets/journey55.png)
 
@@ -70,7 +70,7 @@ Select the date for the execution of the next activity.
 
 ### 自定义等待 {#custom}
 
-选择 **自定义** 键入以定义自定义持续时间，可使用基于来自事件或自定义操作响应的字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
+选择 **自定义** 键入以定义自定义日期，使用基于来自事件或自定义操作响应字段的高级表达式。 您不能直接定义相对持续时间，例如7天，但您可以根据需要使用函数计算相对持续时间（例如：购买后2天）。
 
 ![使用表达式定义自定义等待](assets/journey57.png)
 
