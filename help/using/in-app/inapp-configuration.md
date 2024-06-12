@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 1. 如果您使用内容实验，请确保遵循中列出的要求 [本节](#experiment-prerequisite).
 
 完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
-
 
 ## 投放先决条件 {#delivery-prerequisites}
 

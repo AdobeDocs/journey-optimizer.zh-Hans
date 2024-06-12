@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -26,7 +26,6 @@ ht-degree: 2%
 >* 基于代码的体验渠道不适用于已购买Adobe的组织 **Health Shield** 和 **隐私和安全防护板** 附加产品。
 >
 >* 您只能在中创建基于代码的体验 **营销活动**. [了解详情](../campaigns/create-campaign.md#configure)。
-
 
 ## 实施先决条件 {#implementation-prerequisites}
 
