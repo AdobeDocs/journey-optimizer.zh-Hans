@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 10%
+source-wordcount: '956'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 要在您的历程和促销活动中发送应用程序内消息，请执行以下操作 [!DNL Journey Optimizer]中，您需要完成以下配置步骤。
 
 1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-必须授予特定权限才能访问 **应用程序表面** Adobe Experience Platform数据收集中的菜单。 在[本视频](#video)中了解详情。
+必须授予特定权限才能访问 **应用程序表面** Adobe Experience Platform数据收集中的菜单。 了解详情，请参阅 [此视频](#video).
 1. 在Adobe Experience Platform数据收集数据流中启用Adobe Journey Optimizer，并在Adobe Experience Platform中检查默认合并策略，如中所述 [投放先决条件](#delivery-prerequisites) 下。
 1. 在Adobe Experience Platform数据收集中创建并配置应用程序表面，如中所述 [本节](#channel-prerequisites).
 1. 如果您使用内容实验，请确保遵循中列出的要求 [本节](#experiment-prerequisite).
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 * 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}，确保您有定义的数据流，例如 **[!UICONTROL Adobe Experience Platform]** 服务Adobe Experience Platform Edge和 **[!UICONTROL Adobe Journey Optimizer]** 选项已启用。
 
-  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans){target="_blank"}
+  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}，确保您有默认的合并策略， **[!UICONTROL Active-On-Edge合并策略]** 选项已启用。 要执行此操作，请在 **[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   此合并策略的使用者为 [!DNL Journey Optimizer] 入站渠道，用于在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
@@ -47,6 +47,12 @@ ht-degree: 10%
   >使用自定义时 **[!UICONTROL 数据集偏好设置]** 合并策略，确保添加 **[!UICONTROL 入站历程]** 指定合并策略中的数据集。
 
   ![](assets/inapp_config_8.png)
+
+* 要对Journey Optimizer移动体验的交付进行故障诊断，您可以使用 **Edge交付** 在中查看 **Adobe Experience Platform Assurance**. 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
+
+  使用 **Edge交付** 插件可帮助您获得所需的洞察信息，以便有效了解入站实施并排除其故障。
+
+  [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 渠道配置先决条件 {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ ht-degree: 10%
 >
 >数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
 
-如果您是 **非** 使用以下预定义的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，确保添加以下字段组： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 这些是必需的 [!DNL Journey Optimizer] 内容试验报告，并跟踪每个用户档案参与哪些试验和处理。
+如果您是 **非** 使用以下预定义的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"} 对于数据集架构： `AEP Web SDK ExperienceEvent` 和 `Consumer Experience Event` (如中的定义 [此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，确保添加以下字段组： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 这些是必需的 [!DNL Journey Optimizer] 内容试验报告，并跟踪每个用户档案参与哪些试验和处理。
 
 >[!NOTE]
 >

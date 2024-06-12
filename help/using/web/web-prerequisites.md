@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 6%
+source-wordcount: '1157'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
   >
   >确保您的AEP Web SDK版本为2.16或更高版本。
 
-* 混合模式 — 您可以使用 [AEP Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hans){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* 混合模式 — 您可以使用 [AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} 以请求在服务器端进行个性化；将响应提供给Adobe Experience Platform Web SDK以呈现修改客户端。 在Adobe Experience Platform中了解详情 [Edge Network服务器API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. 您可以了解有关混合模式的更多信息，并查看中的某些实施示例 [此博客帖子](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ ht-degree: 6%
 
 1. 搜索并导航到 [Adobe Experience Cloud可视化编辑帮助程序](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} 浏览器扩展。
 
-1. 点击&#x200B;**[!UICONTROL 添加至 Chrome]** > **[!UICONTROL 添加扩展。]**
+1. 单击 **[!UICONTROL 添加到Chrome]** > **[!UICONTROL 添加扩展]**.
 
    >[!NOTE]
    >
@@ -93,8 +93,8 @@ ht-degree: 6%
 >某些网站可能无法在中可靠地打开 [!DNL Journey Optimizer] Web设计人员出于以下原因之一：
 >
 > * 网站具有严格的安全策略。
-> * 网站位于 iframe 中。
-> * 外部无法访问客户的 QA 或阶段站点（该站点为内部站点）。
+> * 网站位于iframe中。
+> * 外部无法访问客户的QA或暂存站点（该站点为内部站点）。
 
 ### 网站未加载疑难解答 {#troubleshooting}
 
@@ -116,15 +116,21 @@ ht-degree: 6%
 
 * 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}，确保您有定义的数据流，例如 **[!UICONTROL Adobe Experience Platform]** 服务 **[!UICONTROL Adobe Journey Optimizer]** 选项已启用。
 
-  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hans){target="_blank"}
+  这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}，确保您有一个合并策略，用于 **[!UICONTROL Active-On-Edge合并策略]** 选项已启用。 要执行此操作，请在 **[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   此合并策略的使用者为 [!DNL Journey Optimizer] 入站渠道，用于在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+* 要对Journey Optimizer Web体验的交付进行故障诊断，您可以使用 **Edge交付** 在中查看 **Adobe Experience Platform Assurance**. 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
+
+  使用 **Edge交付** 插件可帮助您获得所需的洞察信息，以便有效了解入站实施并排除其故障。
+
+  [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 内容试验先决条件 {#experiment-prerequisites}
 
@@ -138,7 +144,7 @@ ht-degree: 6%
 >
 >数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
 
-如果您是 **非** 使用以下预定义的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，确保添加以下字段组： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 这些是必需的 [!DNL Journey Optimizer] 内容试验报告，并跟踪每个用户档案参与哪些试验和处理。
+如果您是 **非** 使用以下预定义的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"} 对于数据集架构： `AEP Web SDK ExperienceEvent` 和 `Consumer Experience Event` (如中的定义 [此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，确保添加以下字段组： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 这些是必需的 [!DNL Journey Optimizer] 内容试验报告，并跟踪每个用户档案参与哪些试验和处理。
 
 >[!NOTE]
 >
