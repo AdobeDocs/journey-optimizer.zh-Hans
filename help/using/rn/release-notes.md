@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 88%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2024年6月更新
+## 2024 年 6 月更新
 
-* 您现在可以在Adobe Journey Optimizer中使用Adobe Experience Platform AI助手。 [了解详情](../start/ai-assistant.md)
+* 您现在可以在 Adobe Journey Optimizer 中使用 Adobe Experience Platform AI 助手。[了解详情](../start/ai-assistant.md)
 
 * **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
@@ -62,14 +62,14 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件表面个性化 — 限量发布</strong><br/></th>
+<th><strong>电子邮件表面个性化 - 限量发布</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在创建电子邮件渠道界面时定义动态子域和个性化的标题参数，以提高灵活性和对电子邮件设置的控制。</p>
-<p>电子邮件表面个性化目前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>现在，您可以在创建电子邮件渠道表面时定义动态子域和个性化的标题参数，以提高灵活性和对电子邮件设置的控制。</p>
+<p>目前，电子邮件表面个性化仅面向一部分组织提供（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ ht-degree: 88%
 
   >[!AVAILABILITY]
   >
-  >此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入测试版计划，请联系您的Adobe代表。
+  >此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。
 
 <!--
 **Audiences**
