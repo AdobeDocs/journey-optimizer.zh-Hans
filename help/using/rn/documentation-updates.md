@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5355'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 98%
 
 ## 2024 年 6 月 {#june-2024}
 
-* 有关如何配置 **等待** 历程中的活动已重新组织和改进。 [了解详情](../building-journeys/wait-activity.md)
+* 重新组织和改进了有关如何在历程中配置&#x200B;**等待**&#x200B;活动的页面。[了解详情](../building-journeys/wait-activity.md)
 
 ## 2024 年 5 月 {#may-2024}
 
-* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年5月版。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 种子列表部分中更新了有关定期历程的内容。[了解详情](../configuration/seed-lists.md#use-seed-list)
 * 外部数据源部分已更新。[了解详情](../datasource/external-data-sources.md#custom-authentication-access-token)
 * 护栏和限制页面中添加了 30 天的全局历程超时。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * 有关 Adobe Campaign v7/v8 集成的部分已更新，其中包含有关配置的信息。[了解详情](../action/acc-action.md#access)
-* 文档中用于个性化内容的表达式编辑器已重命名为“个性化编辑器”，以使其与 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md). [了解详情](../personalization/personalization-build-expressions.md)
+* 文档中用于个性化内容的表达式编辑器已重命名为“个性化编辑器”，以将其与[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)区分开来。[了解详情](../personalization/personalization-build-expressions.md)
 
 ## 2024 年 4 月 {#april-2024}
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 * 添加了有关如何根据上下文数据个性化优惠呈现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
 * 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持 JSON 格式。[了解详情](../start/guardrails.md#custom-actions-g)
 * 添加了关于外部数据源中基本身份验证类型的更多信息。[了解详情](../datasource/external-data-sources.md)
-* 已添加注释来明确区分 [历程表达式编辑器](../building-journeys/expression/expressionadvanced.md) 从 [个性化编辑器](../personalization/functions/functions.md).
+* 添加了注释来明确区分[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)和[个性化编辑器](../personalization/functions/functions.md)。
 * 更新了高级表达式编辑器中可用函数的列表。[了解详情](../building-journeys/expression/functions.md)
 * 更新了 Split 函数的页面。[了解详情](../building-journeys/functions/functioninaudience.md)
 * 添加了有关选择启用或选择禁用推送通知对应用程序内消息的影响的信息。[了解详情](../in-app/create-in-app.md)
@@ -395,7 +395,7 @@ ht-degree: 98%
 
 * 改进了&#x200B;**快速入门**&#x200B;页面，其中包含不同角色的步骤。[了解更多信息](../start/quick-start.md)
 
-* 现在，专门部分中介绍的所有决策管理功能也适用于利用Offer decisioning应用程序的Adobe Experience Platform用户。 [了解详情](../offers/get-started/starting-offer-decisioning.md)
+* 现在，专门部分中介绍的所有决策管理功能也适用于利用 Offer Decisioning 应用程序的 Adobe Experience Platform 用户。[了解详情](../offers/get-started/starting-offer-decisioning.md)
 
 * 添加了子部分，阐明在应用约束以限制给定投放位置的优惠选择时，使用受众与决策规则之间的差异。[了解更多信息](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

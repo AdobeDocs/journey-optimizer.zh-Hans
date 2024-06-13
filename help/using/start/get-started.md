@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 >[!MORELIKETHIS]
 >
->* [启动的关键步骤](quick-start.md)
+>* [开始使用的关键步骤](quick-start.md)
 >* [设计历程并发送消息](../building-journeys/journey-gs.md)
 >* [实时报告](../reports/live-report.md)
 >* [Journey Optimizer 安全概述](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

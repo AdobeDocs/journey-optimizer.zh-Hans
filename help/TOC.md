@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    + [搜索、筛选、分类](using/start/search-filter-categorize.md)
    + [辅助功能](using/start/accessibility.md)
    + [用例战术手册](using/start/playbooks.md)
-   + [使用AI助手](using/start/ai-assistant.md)
+   + [使用 AI 助手](using/start/ai-assistant.md)
    + [集成](using/start/ajo-integrations.md)
    + [护栏](using/start/guardrails.md)
    + [最佳实践](using/start/best-practices.md)
@@ -313,7 +313,7 @@ ht-degree: 98%
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
    + [内容模板](using/content-management/content-templates.md)
    + 可重复使用的内容片段 {#fragments}
-      + [开始使用片段](using/content-management/fragments.md)
+      + [片段入门](using/content-management/fragments.md)
       + [创建片段](using/content-management/create-fragments.md)
       + [将现有内容另存为片段](using/content-management/save-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
