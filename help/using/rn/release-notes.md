@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 91%
+source-wordcount: '826'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 91%
 
 ## 2024年6月更新
 
-您现在可以在Adobe Journey Optimizer中使用Adobe Experience Platform AI助手。 [了解详情](../start/ai-assistant.md)
+* 您现在可以在Adobe Journey Optimizer中使用Adobe Experience Platform AI助手。 [了解详情](../start/ai-assistant.md)
+
+* **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 ## 2024 年 5 月发行说明 {#may-2024}
 
@@ -37,7 +39,6 @@ ht-degree: 91%
 ### 新功能 {#e-features}
 
 此版本引入了下方详述的新功能。
-
 
 <table>
 <thead>

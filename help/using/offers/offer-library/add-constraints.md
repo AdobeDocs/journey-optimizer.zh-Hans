@@ -1,39 +1,39 @@
 ---
-title: 将约束添加到优惠
+title: 向优惠添加约束
 description: 了解如何定义优惠的显示条件
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '2617'
-ht-degree: 15%
+source-wordcount: '2636'
+ht-degree: 3%
 
 ---
 
-# 将约束添加到优惠 {#add-constraints}
+# 向优惠添加约束 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
 >title="关于优惠约束"
->abstract="通过约束，您可以指定与其他优惠相比，该优惠如何确定优先级并呈现给用户。"
+>abstract="通过约束，您可以指定与其他选件相比，如何确定选件的优先级并将其呈现给用户。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
 >title="关于优惠约束"
->abstract="通过约束，您可以指定与其他优惠相比，该优惠如何确定优先级并呈现给用户。"
+>abstract="通过约束，您可以指定与其他选件相比，如何确定选件的优先级并将其呈现给用户。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="关于优惠优先级"
->abstract="在此字段中，您可以指定优惠的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的优惠进行排名。"
+>abstract="在此字段中，您可以指定选件的优先级设置。 优先级是一个数字，用于对满足所有约束（如资格、日期和上限）的优惠进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="设置优先级"
->abstract="如果用户有资格获得多个优惠，则优先级有助于定义该优惠相对于其他优惠的优先级。优惠的优先级越高，与其他优惠相比其优先级就越高。"
+>abstract="优先级有助于定义在用户符合多个选件的条件时，选件相对于其他选件的优先级。 选件的优先级越高，与其他选件相比，其优先级越高。"
 
 利用约束，可定义显示优惠的条件。
 
@@ -41,7 +41,7 @@ ht-degree: 15%
 
    ![](../assets/offer-eligibility.png)
 
-1. 定义 **[!UICONTROL 优先级]** 相较于其他选件（如果用户符合多个选件的条件）。 优惠的优先级越高，与其他优惠相比其优先级就越高。
+1. 定义 **[!UICONTROL 优先级]** 相较于其他选件（如果用户符合多个选件的条件）。 选件的优先级越高，与其他选件相比，其优先级越高。
 
    ![](../assets/offer-priority.png)
 
@@ -68,18 +68,18 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定义资格"
->abstract="默认情况下，任何配置文件都有资格获得优惠，但您可以使用受众或决策规则将优惠限制为特定的配置文件。"
+>abstract="默认情况下，任何用户档案都有资格获得优惠，但您可以使用受众或决策规则将优惠限制为特定用户档案。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
 >title="关于优惠资格"
->abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受优惠。"
+>abstract="在此部分中，您可以使用决策规则确定哪些用户符合优惠条件。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="对配置文件的总体估计"
->abstract="当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。"
+>title="配置文件估算总数"
+>abstract="在选择受众或决策规则时，您可以查看有关估算的合格配置文件的信息。"
 
 此 **[!UICONTROL 优惠资格]** 部分允许您将优惠限制为您使用受众或决策规则定义的特定用户档案。
 
@@ -135,32 +135,28 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="关于优惠频次封顶"
->abstract="在此字段中，可指定可呈现优惠的次数。"
+>title="关于优惠上限"
+>abstract="在此字段中，您可以指定选件可以显示的次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="使用频次封顶"
->abstract="为避免过度招揽客户，请使用频次封顶定义可呈现优惠的最大次数。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响频次封顶"
+>title="使用上限"
+>abstract="要避免过度吸引客户，请使用上限来定义可以提供优惠的最大次数。 您最多可以为给定选件创建10个上限规则。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响上限"
 
-上限用作约束，以定义可显示优惠的最大次数。
+上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
-通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
+您最多可以为给定选件添加10个上限规则。 要设置上限规则，请单击 **[!UICONTROL 创建上限]** 按钮，然后按照以下步骤操作：
 
-要设置上限，请执行以下步骤。
-
-1. 确保 **[!UICONTROL 启用上限]** 切换按钮处于选中状态。 默认情况下，将启用上限。
-
-   >[!CAUTION]
-   >
-   >无法对之前创建的选件启用或禁用频率封顶。 为此，您需要创建一个新选件。
+>[!CAUTION]
+>
+>无法对之前创建的选件启用或禁用频率封顶。 为此，您需要创建一个新选件。
 
 1. 定义哪些 **[!UICONTROL 设置事件上限]** 将被考虑以增加计数器。 [了解详情](#capping-event)
 
-1. 设置可显示优惠的次数。 [了解详情](#capping-count)
-
 1. 选择是将上限应用于所有用户还是仅应用于一个配置文件。 [了解详情](#capping-type)
+
+1. 设置可显示优惠的次数。 [了解详情](#capping-count)
 
 1. 设置 **[!UICONTROL 频率]** 以定义重置上限计数的频率。 [了解详情](#frequency-capping)
 
@@ -180,21 +176,21 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
->title="印象"
->abstract="仅入站频道可将印象用作频次封顶事件。"
+>title="展示"
+>abstract="将展示次数用作上限事件仅适用于入站渠道。"
 
-此 **[!UICONTROL 设置事件上限]** 字段允许您定义将考虑哪个事件以增加计数器：
+此 **[!UICONTROL 选择上限事件]** 字段允许您定义将考虑哪个事件以增加计数器：
 
 ![](../assets/offer-capping-event.png)
 
 * **[!UICONTROL 决策事件]** （默认值）：可显示选件的最大次数。
+* **[!UICONTROL 点击次数]**：用户可单击选件的最大次数。
 * **[!UICONTROL 展示]**：选件可向用户显示的最大次数。
 
   >[!NOTE]
   >
   >可将展示次数用作上限事件 **入站渠道** 仅限。
 
-* **[!UICONTROL 点击次数]**：用户可单击选件的最大次数。
 * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送的优惠数量。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用 [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"} 用于构建自定义事件规则的架构。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
@@ -202,8 +198,6 @@ ht-degree: 15%
   在下面的示例中，您要限制结账的数量。
 
    1. 选择 **[!UICONTROL 自定义事件]** ，并使用 **[!UICONTROL 添加自定义事件]** 按钮。
-
-      ![](../assets/offer-capping-custom-event-add.png)
 
    1. 使用 **[!UICONTROL 创建自定义事件规则]** 生成器以选择相关事件。 您可以选择您希望限制选件的任何用户操作。
 
@@ -221,21 +215,9 @@ ht-degree: 15%
 >
 >要确保在上限计数器中跟踪并说明了每个上限事件，请确保用于收集体验事件的架构包含该事件的正确字段组。 [了解详情](../data-collection/schema-requirement.md)
 
-### 上限计数 {#capping-count}
-
-此 **[!UICONTROL 上限计数限制]** 字段，用于指定可显示选件的次数。
-
-![](../assets/offer-capping-times.png)
-
->[!NOTE]
->
->数字必须是大于0的整数。
-
-例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在 **[!UICONTROL 上限计数限制]** 字段中，10次结账后将不再发送任何选件。
-
 ### 上限类型 {#capping-type}
 
-您还可以指定是否希望将上限应用到所有用户或一个特定配置文件：
+您可以指定是否希望将上限应用于所有用户或一个特定配置文件：
 
 ![](../assets/offer-capping-total.png)
 
@@ -247,14 +229,26 @@ ht-degree: 15%
 
   例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次选件且没有对其执行操作，则他们更有可能对下一个最佳选件执行操作。
 
+### 封顶计数 {#capping-count}
+
+此 **[!UICONTROL 上限计数限制]** 字段，用于指定可显示选件的次数。
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>数字必须是大于0的整数。
+
+例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在 **[!UICONTROL 上限计数限制]** 字段中，10次结账后将不再发送任何选件。
+
 ### 频次上限 {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="设置频次封顶"
->abstract="您可以选择每天、每周或每月重置优惠频次封顶计数器。请注意，在启用频次封顶的情况下发布优惠后，您将无法更改已定义的频率。"
+>title="设置上限频率"
+>abstract="您可以选择每日、每周或每月重置优惠上限计数器。 请注意，在启用了频率封顶的情况下发布优惠后，您将无法更改已定义的频率。"
 
-此 **[!UICONTROL 频率]** 部分允许您定义上限计数的重置频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请选择 **[!UICONTROL 每周]** 从相应的下拉列表输入并键入 **2** 在另一个栏位中。
+此 **[!UICONTROL 重置上限频率]** 字段允许您定义重置上限计数的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请选择 **[!UICONTROL 每周]** 从相应的下拉列表输入并键入 **2** 在另一个栏位中。
 
 ![](../assets/offer-capping-frequency.png)
 
@@ -297,8 +291,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="更改日期可能会影响频次封顶"
->abstract="如果此优惠应用了频次封顶，则在更改开始或结束日期时可能会影响该频次封顶。"
+>title="更改日期可能会影响上限"
+>abstract="如果对此选件应用了上限，则在您更改开始或结束日期时可能会受到影响。"
 
 更改优惠日期时必须小心操作，因为如果满足以下条件，这可能会对上限产生影响：
 
