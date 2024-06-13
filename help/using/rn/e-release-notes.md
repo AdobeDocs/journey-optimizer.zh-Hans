@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 24%
 
 ---
 
@@ -169,6 +169,9 @@ ht-degree: 23%
 * 历程全局超时已从30天增加到91天。
 * Adobe Journey Optimizer现在支持隐私删除/访问请求。
 * 您现在可以调整历程清单中的列的大小。
+* **事件配置中的高级表达式编辑器** 现在为GA — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 “限量发布版”的部分客户可使用此功能。[了解详情](../event/about-creating.md)
+* **合并策略** 现在为GA -历程使用的合并策略现在在整个历程中可见且一致。 “限量发布版”的部分客户可使用此功能。[了解详情](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **营销活动**
@@ -183,7 +186,7 @@ ht-degree: 23%
 **短信渠道**
 
 * 您现在可以使用单个API配置为每个沙盒添加唯一的短代码，从而使过程更高效、更简单。
-* 您现在可以修改现有SMS配置。
+  <!--* You can now modify existing SMS configurations.-->
 
 **应用程序内渠道**
 
