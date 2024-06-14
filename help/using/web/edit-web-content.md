@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 2%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
@@ -106,7 +106,6 @@ ht-degree: 2%
    * 标题 — 使用此组件与使用 **[!UICONTROL 文本]** email designer中的组件。 [了解详情](../email/content-components.md#text)
    * 段落 — 使用此组件与使用 **[!UICONTROL 文本]** email designer中的组件。 [了解详情](../email/content-components.md#text)
    * 链接
-   * [优惠决策](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -126,15 +125,11 @@ ht-degree: 2%
 
    ![](assets/web-designer-header-style.png)
 
-## 添加个性化和优惠
+## 添加个性化
 
 要添加个性化，请选择一个容器，然后从显示的上下文菜单栏中选择个性化图标。 使用个性化编辑器添加更改。 [了解详情](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
-
-使用 **[!UICONTROL 优惠决策]** 要插入的组件 [优惠](../offers/get-started/starting-offer-decisioning.md) 放到您的网页中。 此过程与以下情况相同： [将选件添加到电子邮件](../email/add-offers-email.md). 它将利用决策管理选择向客户提供的最佳选件。
-
-![](assets/web-designer-offer.png)
 
 ## 在Web设计器中导航 {#navigate-web-designer}
 
