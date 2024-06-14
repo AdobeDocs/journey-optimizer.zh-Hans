@@ -7,13 +7,13 @@ feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
+source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # 用例：使用自定义操作在Experience Platform中写入历程事件{#custom-action-aep}
 
@@ -36,6 +36,10 @@ ht-degree: 0%
 ```
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
+
+>[!CAUTION]
+>
+>在Adobe Developer Console上创建项目后，请确保授予具有正确权限的开发人员和API访问控制。 在中了解详情 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## 使用HTTP API入口配置源
 
@@ -172,5 +176,3 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 1. 根据您的用例填充历程版本ID、节点ID、节点名称和其他属性。
 
    ![](assets/custom-action-aep-9.png)
-
-
