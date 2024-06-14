@@ -4,14 +4,12 @@ product: journey optimizer
 title: 发行说明
 description: Journey Optimizer 早期发行说明
 feature: Release Notes
-hide: true
-hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
+source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 32%
+source-wordcount: '458'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 32%
 <tr>
 <td>
 <p>如果您使用全新的IP地址发送电子邮件，现在可以直接从用户界面轻松执行IP预热工作流。 Adobe Journey Optimizer提供了一种标准化的高效方法来预热您的IP地址，该方法遵循最佳实践以实现最佳可投放性。</p>
-<p>有关更多信息，请参阅<a href="../configuration/ip-warmup-gs.md">详细文档</a>。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -152,7 +150,7 @@ ht-degree: 32%
 
 **决策管理**
 
-* **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以提高对优惠发送方式的控制级别。 <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -170,7 +168,7 @@ ht-degree: 32%
 * Adobe Journey Optimizer现在支持隐私删除/访问请求以及数据生命周期管理请求。
 * 您现在可以调整历程清单中的列的大小。
 * **事件配置中的高级表达式编辑器** 现在为GA — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 “限量发布版”的部分客户可使用此功能。[了解详情](../event/about-creating.md)
-* **合并策略** 现在为GA -历程使用的合并策略现在在整个历程中可见且一致。 “限量发布版”的部分客户可使用此功能。[了解详情](../building-journeys/journey-gs.md#merge-policies)
+* **合并策略** 现在为GA -历程使用的合并策略现在在整个历程中可见且一致。 此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
