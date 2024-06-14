@@ -5,11 +5,10 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
-exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
+source-git-commit: 1840e32efbea7aaff50c497d6387232a4e02d2c9
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 22%
+source-wordcount: '456'
+ht-degree: 26%
 
 ---
 
@@ -150,7 +149,7 @@ ht-degree: 22%
 
 **决策管理**
 
-* **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以提高对优惠发送方式的控制级别。 <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
