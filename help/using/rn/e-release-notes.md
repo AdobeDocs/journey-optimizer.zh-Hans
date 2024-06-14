@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
+source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '648'
 ht-degree: 24%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 24%
 **历程**
 
 * 历程全局超时已从30天增加到91天。
-* Adobe Journey Optimizer现在支持隐私删除/访问请求。
+* Adobe Journey Optimizer现在支持隐私删除/访问请求以及数据生命周期管理请求。
 * 您现在可以调整历程清单中的列的大小。
 * **事件配置中的高级表达式编辑器** 现在为GA — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 “限量发布版”的部分客户可使用此功能。[了解详情](../event/about-creating.md)
 * **合并策略** 现在为GA -历程使用的合并策略现在在整个历程中可见且一致。 “限量发布版”的部分客户可使用此功能。[了解详情](../building-journeys/journey-gs.md#merge-policies)
