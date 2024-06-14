@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1804eb38c6c0ffd41aedebf612048e7aee90a54c
+source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 24%
+source-wordcount: '470'
+ht-degree: 32%
 
 ---
 
@@ -46,21 +46,21 @@ ht-degree: 24%
 </table>
 
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>内容片段自定义</strong><br/></th>
+<th><strong>Content Fragments customization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在片段中定义特定字段，在将片段添加到营销活动或历程时，可以编辑这些字段。 这允许在使用时调整内容部分，从而提供了用特定于上下文的详细信息覆盖默认值的灵活性。</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 
 <table>
@@ -156,13 +156,13 @@ ht-degree: 24%
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**内容片段**
+<!--**Content fragments**
 
-* 现在可以编辑片段，并且可以将更改传播到使用它们的所有实时历程和营销活动中。
-* 为内容片段引入了新状态： **草稿**， **实时**， **发布**、和 **已存档**.
-* 要在历程或营销策划中使用片段，它现在必须位于 **实时** 状态。 片段创建流程中新增了一个步骤，允许发布片段并可用于历程和营销活动。 请注意，片段发布需要新权限。
-
-  **注意**  — 从 **草稿** 和 **实时** Journey Optimizer 6月版本中引入了状态，在此版本之前创建的所有片段都具有 **草稿** 状态，即使它们用在历程或营销策划中也是如此。 在本节中了解如何更新现有片段。
+* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
+* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
+* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
+   
+   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
 
 **历程**
 
