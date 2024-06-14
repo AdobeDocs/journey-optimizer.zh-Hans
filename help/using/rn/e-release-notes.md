@@ -6,10 +6,10 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 25%
+source-wordcount: '454'
+ht-degree: 22%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 25%
 * 历程全局超时已从30天增加到91天。
 * Adobe Journey Optimizer现在支持隐私删除/访问请求以及数据生命周期管理请求。
 * 您现在可以调整历程清单中的列的大小。
-* **事件配置中的高级表达式编辑器** 现在为GA — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 “限量发布版”的部分客户可使用此功能。[了解详情](../event/about-creating.md)
+* **事件配置中的高级表达式编辑器** 现在为GA — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../event/about-creating.md)-->
 * **合并策略** 现在为GA -历程使用的合并策略现在在整个历程中可见且一致。 此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ ht-degree: 25%
 
 **应用程序内渠道**
 
-* **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**. [了解详情](../personalization/use-expression-fragments.md)
+* **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * 您现在可以使用Edge Delivery插件获取理解入站实施并对其进行故障诊断所需的信息。
