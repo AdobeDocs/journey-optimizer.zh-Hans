@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
+source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 71%
@@ -205,7 +205,11 @@ ht-degree: 71%
 
 * 您现在可以使用Edge Delivery插件获取理解入站实施并对其进行故障诊断所需的信息。
 
+<!--
+**Direct mail channel**
 
+* Direct mail channel is now available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
+-->
 
 ## 2024 年 5 月发行说明 {#may-2024}
 
