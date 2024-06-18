@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
+source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 71%
+source-wordcount: '1321'
+ht-degree: 62%
 
 ---
 
@@ -166,13 +166,17 @@ ht-degree: 71%
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-<!--**Content fragments**
+**内容片段**
 
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
+>[!AVAILABILITY]
+>
+>请注意，这些增强功能将在首次发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。
+
+* 现在可以编辑片段，并且可以将更改传播到使用它们的所有实时历程和营销活动中。
+* 为内容片段引入了新状态： **草稿**， **实时**， **发布**、和 **已存档**.
+* 要在历程或营销策划中使用片段，它现在必须位于 **实时** 状态。 片段创建流程中新增了一个步骤，允许发布片段并可用于历程和营销活动。 请注意，片段发布需要新权限。
+
+  **注意**  — 从 **草稿** 和 **实时** Journey Optimizer 6月版本中引入了状态，在此版本之前创建的所有片段都具有 **草稿** 状态，即使它们用在历程或营销策划中也是如此。 在本节中了解如何更新现有片段。
 
 **历程**
 
