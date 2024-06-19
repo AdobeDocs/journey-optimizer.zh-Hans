@@ -8,70 +8,97 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '968'
+ht-degree: 1%
 
 ---
 
 # 管理片段 {#manage-fragments}
+
+要管理片段，请从访问片段列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左侧菜单。
+
+在当前沙盒中创建的所有片段 —  [从 **[!UICONTROL 片段]** 菜单](#create-fragments)，使用 [另存为片段](#save-as-fragment) 选项 — 将显示。
+
+![](assets/fragment-list-filters.png)
+
+您可以按以下项筛选片段：
+
+* 状态（草稿或实时）
+* 类型（可视化或表达式）
+* 创建或修改日期
+* 状态（已存档或未存档）
+* 标记
+
+您还可以选择显示所有片段，或仅显示当前用户创建或修改的项目。
+
+从 **[!UICONTROL 更多操作]** 按钮进行以下操作：
+
+* 复制片段。
+* 使用 **[!UICONTROL 浏览引用]** 选项，用于查看使用它的历程、营销策划或模板。 [了解详情](#explore-references)
+* 将片段存档。 [了解详情](#archive-fragments)
+* 编辑片段的标记 [了解如何使用统一标记](../start/search-filter-categorize.md#tags).
+
+![](assets/fragment-list-more-actions.png)
+
+## 片段的状态
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新片段状态"
 >abstract="从 **草稿** 和 **实时** Journey Optimizer 6月版本中引入了状态，在此版本之前创建的所有片段均具有“草稿”状态，即使它们在历程或营销活动中使用。 如果您对这些片段进行了任何更改，则需要发布它们以使它们“处于活动状态”，并将更改传播到关联的营销活动和历程。 您还需要创建新历程/营销活动版本并进行发布。 发布需要用户权限。"
 
-要管理片段，请从访问片段列表 **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]** 左侧菜单。
+>[!AVAILABILITY]
+>
+> 请注意，片段状态在Journey Optimizer 6月发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，请注意，片段不需要 **实时** 将在您的历程和营销活动中使用。
 
-![](assets/fragment-list.png)
+片段可以具有多种状态：
 
-在当前沙盒中创建的所有片段 —  [从 **[!UICONTROL 片段]** 菜单](#create-fragments)，使用 [另存为片段](#save-as-fragment) 选项 — 将显示。
+* **[!UICONTROL 草稿]**：片段正在编辑且未获得批准。
 
-您可以按以下项筛选片段：
+* **[!UICONTROL 实时]**：片段已获得批准并处于活动状态。 [了解如何发布片段](../content-management/create-fragments.md#publish)
 
-* 类型： **[!UICONTROL 可视化]** 或 **[!UICONTROL 表达式]**
-* 标记
-* 创建或修改日期
+  在编辑实时片段时，其状态旁边会显示一个特定图标。 单击此图标可打开片段的草稿版本。
 
-您可以选择显示所有片段，或仅显示当前用户创建或修改的项目。
+* **[!UICONTROL 发布]**：片段已获得批准并正在发布。
+* **[!UICONTROL 已存档]**：片段已存档。 [了解如何存档片段](#archive-fragments)
 
-您还可以显示 **[!UICONTROL 已存档]** 片段。 [了解详情](#archive-fragments)
-
-![](assets/fragment-list-filters.png)
-
-从 **[!UICONTROL 更多操作]** 按钮进行以下操作：
-
-* 复制片段。
-
-* 使用 **[!UICONTROL 浏览引用]** 选项，用于查看使用它的历程、营销策划或模板。 [了解详情](#explore-references)
-
-* 将片段存档。 [了解详情](#archive-fragments)
-
-* 编辑片段的 [标记](../start/search-filter-categorize.md#tags).
-
-![](assets/fragment-list-more-actions.png)
+>[!CAUTION]
+>
+>从 **草稿** 和 **实时** Journey Optimizer 6月版本中引入了状态，在此版本之前创建的所有片段均具有“草稿”状态，即使它们在历程或营销活动中使用。 如果您对这些片段进行了任何更改，则需要发布它们以使它们“处于活动状态”，并将更改传播到关联的营销活动和历程。 您还需要创建新历程/营销活动版本并进行发布。 发布需要用户权限。
 
 ## 编辑片段 {#edit-fragments}
 
 要编辑片段，请执行以下步骤。
 
-1. 单击以下位置中的所需项目： **[!UICONTROL 片段]** 列表。
-1. 从片段属性中，您可以 [浏览引用](#explore-references)， [管理其访问权限](../administration/object-based-access.md)，并更新片段详细信息，包括 [标记](../start/search-filter-categorize.md#tags).
+1. 从单击所需的片段 **[!UICONTROL 片段]** 列表。
 
-   ![](../email/assets/fragment-edit-content.png)
+1. 片段属性将打开，并预览其内容。
 
-1. 选择相应的按钮以编辑内容，就像从头开始创建片段时所做的那样。 [了解详情](#create-from-scratch)
+1. 如果正在编辑的片段具有 **实时** 状态，单击 **修改** 按钮以创建片段的草稿版本。 片段的当前版本将继续处于活动状态，直到您发布草稿版本。
 
->[!NOTE]
+1. 对片段进行所需的更改。 要编辑其内容，请单击 **编辑** 按钮后，可编辑您的内容，就像从头开始创建片段时所做的那样。 [了解如何创建片段](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >编辑表达式片段时，您可以删除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化字段，请复制片段以创建新片段。
+
+   您还可以通过选择 **资源管理器引用** 选项。 [了解详情](#explore-references)
+
+   ![](assets/fragment-edit.png)
+
+1. 更改准备就绪后，单击 **Publish** 按钮以使您的修改处于活动状态。
+
+在编辑片段时，更改会自动传播到使用该片段的所有内容，包括实时历程和营销活动，但已中断原始片段继承的内容除外。 了解如何在中中断继承 [向您的电子邮件添加可视化片段](../email/use-visual-fragments.md#break-inheritance) 和 [利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance) 部分。
+
+>[!AVAILABILITY]
 >
->在编辑片段时，更改将自动传播到该片段使用的所有内容，但中使用的内容除外 **[!UICONTROL 实时]** 历程或营销活动。 您还可以中断来自原始片段的继承。 在中了解详情 [向您的电子邮件添加可视化片段](../email/use-visual-fragments.md#break-inheritance) 和 [利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance) 部分。
+>请注意，在Journey Optimizer 6月发布后的几天内，实时历程和营销活动中的片段更改传播正在逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，则您的更改将不会传播到实时历程或营销活动中使用的内容。
 
 ## 探索引用 {#explore-references}
 
-您可以显示当前使用片段的历程、营销活动和内容模板列表。
-
-要执行此操作，请选择 **[!UICONTROL 浏览引用]** 来自 **[!UICONTROL 更多操作]** 菜单或片段属性屏幕中的菜单的操作工具栏。
+您可以显示当前使用片段的历程、营销活动和内容模板列表。 要执行此操作，请选择 **[!UICONTROL 浏览引用]** 来自 **[!UICONTROL 更多操作]** 菜单或片段属性屏幕中的菜单的操作工具栏。
 
 ![](assets/fragment-explore-references.png)
 

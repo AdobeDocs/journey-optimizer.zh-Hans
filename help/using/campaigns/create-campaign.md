@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 33%
+source-wordcount: '925'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 33%
 
 要创建新营销活动，请访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**. 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
-## 选择营销活动类型和渠道 {#campaigntype}
+## 选择营销活动类型 {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ ht-degree: 33%
 >title="营销活动类别"
 >abstract="如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于 API 触发的营销活动，选择是要发送&#x200B;**营销性**&#x200B;消息（需要用户同意的推广消息）还是&#x200B;**交易型**&#x200B;消息（非商业消息，在特定上下文中，也可以发送到未订阅的配置文件）。"
 
-1. 在 **[!UICONTROL 属性]** 部分，指定您希望如何执行活动。 有两种类型的营销活动可用：
+1. 选择要执行的营销活动类型
 
-   * **[!UICONTROL 已计划]**：立即执行营销活动或在指定日期执行。 计划的营销活动旨在发送 **营销** 消息。 它们从用户界面配置和执行。
+   * **[!UICONTROL 计划 — 营销]**：立即执行营销活动或在指定日期执行。 计划的营销活动旨在发送 **营销** 消息。 它们从用户界面配置和执行。
 
-   * **[!UICONTROL API触发]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **营销**，或 **事务性** 消息，即在个人执行操作（密码重置、购物车购买等）后发送的消息。 [了解如何使用API触发活动](api-triggered-campaigns.md)
+   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送 **营销**，或 **事务性** 消息，即在个人执行操作（密码重置、购物车购买等）后发送的消息。 [了解如何使用API触发活动](api-triggered-campaigns.md)
 
-1. 如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于API触发的营销活动，选择是否要发送 **营销** 或 **事务性** 信息。”
-
-1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和渠道平面。
-
-   表面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
-
-   下拉列表中只列出与营销活动类型兼容的渠道表面。
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >如果您正在创建推送通知营销活动，则可以启用 **[!UICONTROL 快速传递模式]**，它是一个Journey Optimizer加载项，允许大批量快速发送推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
+   ![](assets/create-campaign-modal.png)
 
 1. 单击 **[!UICONTROL 创建]** 以创建营销活动。
 
@@ -71,13 +59,41 @@ ht-degree: 33%
 
 1. 要向营销活动分配自定义或核心数据使用标签，请单击 **[!UICONTROL 管理访问权限]** 按钮。 [了解有关对象级访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
+## 定义活动受众 {#audience}
+
+定义营销活动定向的群体，请执行以下步骤：
+
+>[!IMPORTANT]
+>
+>使用来自的受众和属性 [受众构成](../audience/get-started-audience-orchestration.md) 和 [自定义上传（CSV文件）受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 目前不适用于Healthcare Shield或Privacy and Security Shield。
+>
+>对于API触发的营销活动，需要通过API调用设置受众。
+
+1. 在 **受众** 部分，单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [详细了解受众](../audience/about-audiences.md)。
+
+1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选区段中的个人。
+
+   如果属于区段的个人在不同身份中没有所选身份（命名空间），则不会将该营销活动定位到该区段。 [了解关于命名空间的更多信息](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## 创建消息并配置跟踪 {#content}
 
-在 **[!UICONTROL 操作]** 部分，创建要与营销活动一起发送的消息。
+1. 在 **[!UICONTROL 操作]** 部分，选择用于发送消息的渠道和界面。
 
-1. 单击 **[!UICONTROL 编辑内容]** 按钮，然后创建和设计消息内容。
+   表面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
-   在以下页面中了解创建消息内容的详细步骤：
+   下拉列表中只列出与营销活动类型兼容的渠道表面。
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >如果您正在创建推送通知营销活动，则可以启用 **[!UICONTROL 快速传递模式]**，它是一个Journey Optimizer加载项，允许大批量快速发送推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
+
+1. 单击 **[!UICONTROL 编辑内容]** 按钮创建和设计消息。 在以下页面中了解创建消息内容的详细步骤：
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ ht-degree: 33%
 1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪收件人对投放的反应：您可以跟踪点击和/或打开。
 
    执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../reports/campaign-global-report.md)
-
-## 定义受众 {#audience}
-
-单击 **[!UICONTROL 选择受众]** 按钮以显示可用Adobe Experience Platform受众的列表。 [详细了解受众](../audience/about-audiences.md)。
-
->[!IMPORTANT]
->
->使用来自的受众和属性 [受众构成](../audience/get-started-audience-orchestration.md) 和 [自定义上传（CSV文件）受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 目前不适用于Healthcare Shield或Privacy and Security Shield。
->
->对于API触发的营销活动，需要通过API调用设置受众。
-
-在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选区段中的个人。
-
-如果属于区段的个人在不同身份中没有所选身份（命名空间），则不会将该营销活动定位到该区段。 [了解关于命名空间的更多信息](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## 安排营销活动 {#schedule}
 
