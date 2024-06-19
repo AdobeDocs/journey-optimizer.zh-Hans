@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 5%
    * **[!UICONTROL 帐户SID]** 和 **[!UICONTROL 身份验证令牌]**：访问 **帐户信息** “Twilio控制台仪表板”页面的窗格，用于查找您的凭据。
 
    * **[!UICONTROL 消息SID]**：输入分配给Twilio API创建的每条消息的唯一标识符。 了解详情，请参阅 [Twilio文档](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+   * **[!UICONTROL 入站编号]**：添加您的独特入站编号。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号。
 
 1. 单击 **[!UICONTROL 提交]** 完成API凭据配置时。
 

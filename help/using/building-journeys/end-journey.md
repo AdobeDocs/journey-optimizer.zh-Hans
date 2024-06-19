@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 手动关闭历程可确保已进入历程的客户能够完成其路径，但新用户无法进入历程。 当历程关闭时（出于上述任何原因），它将具有状态 **[!UICONTROL 已关闭]**. 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。
 
-30天后，读取受众历程将切换到 **已完成** 状态。 此行为仅设置为30天（即历程超时默认值），因为有关进入历程的用户档案的所有信息在进入30天后会被删除。 仍在历程中的人员会自动受到影响。 他们在30天超时后退出历程。
+91天之后 [默认超时](journey-gs.md#global_timeout)，读取受众历程将切换到 **已完成** 状态。 此行为仅设置为91天(即 [历程超时默认值](journey-gs.md#global_timeout))，因为有关进入历程的用户档案的所有信息在进入91天后都会被删除。 仍在历程中的人员会自动受到影响。 他们在91天超时后退出历程。
 
 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
 

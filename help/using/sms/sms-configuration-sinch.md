@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '584'
+ht-degree: 3%
 
 ---
 
@@ -51,6 +51,8 @@ ht-degree: 4%
    * **[!UICONTROL 双重选择加入关键词]**：输入触发双重选择加入流程的关键字。 如果用户配置文件不存在，则会在确认成功时创建该配置文件。对于多个关键字，请使用逗号分隔的值。 [了解有关短信双重选择加入的更多信息](https://video.tv.adobe.com/v/3427129/?learn=on).
 
    * **[!UICONTROL 双重选择加入消息]**：输入为响应双重选择加入确认而自动发送的自定义响应。
+
+   * **[!UICONTROL 入站编号]**：添加您的独特入站编号。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号。
 
 1. 单击 **[!UICONTROL 提交]** 完成API凭据配置时。
 

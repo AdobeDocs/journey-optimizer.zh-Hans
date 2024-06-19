@@ -7,20 +7,20 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 82c58753b0beb1c6c60b4e1a8188725b3cb83390
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '479'
+ht-degree: 8%
 
 ---
 
-# 创建短信/彩信表面 {#message-preset-sms}
+# 创建短信息/彩信表面 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
->abstract="使用此表面选择文本消息的类型：促销消息的营销型（需要用户同意），或非商业消息的事务型（如密码重置）。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="营销文本消息中的选择退出"
+>abstract="选择使用此表面的短信的类型：营销型的推广短信（需要用户同意）或交易型的非商业短信，如密码重置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择退出营销短信消息"
 
 配置短信/彩信渠道后，您必须创建一个渠道平面，以便能够从中发送短信和彩信消息 **[!DNL Journey Optimizer]**.
 
@@ -67,13 +67,12 @@ ht-degree: 0%
    >
    >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](sms-subdomains.md)
 
-<!--
-1. Enter the **[!UICONTROL Opt-out number]** you want to use for this surface. When profiles opt out from this number, you are still able to send them messages from other numbers you may be using to send out text messages with [!DNL Journey Optimizer].
+1. 输入 **[!UICONTROL 选择退出次数]** 要用于此表面。 当用户档案选择退出此号码时，您仍然可以通过可能用于发送短信的其他号码向他们发送消息 [!DNL Journey Optimizer].
 
-    >[!NOTE]
-    >
-    >In [!DNL Journey Optimizer], opt-out for text messages is no longer managed at the channel level. It is now specific to a number.
--->
+   >[!NOTE]
+   >
+   >在 [!DNL Journey Optimizer]，不再在渠道级别管理短信的选择退出。 现在，它是特定于某个数字的。
+
 1. 配置完所有参数后，单击 **[!UICONTROL 提交]** 以确认。 也可以将渠道曲面另存为草稿，并稍后恢复其配置。
 
    ![](assets/sms-submit-surface.png)

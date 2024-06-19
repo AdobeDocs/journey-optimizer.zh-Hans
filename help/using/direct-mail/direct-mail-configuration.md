@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 31%
+source-wordcount: '1272'
+ht-degree: 22%
 
 ---
 
@@ -58,11 +58,19 @@ ht-degree: 31%
 >title="选择 AWS 区域"
 >abstract="选择要将直邮文件导出到的 AWS 服务器的地理区域。作为常规做法，最好选择离您的直邮提供商位置最近的区域。"
 
+>[!NOTE]
+>
+>目前，支持Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+
 要发送直邮消息， [!DNL Journey Optimizer] 生成包含目标受众数据的文件并将其导出到服务器。
 
 您需要指定服务器详细信息，以便直邮提供商能够访问并使用该文件传递邮件。
 
 要配置文件路由，请执行以下步骤。
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
 
@@ -70,33 +78,89 @@ ht-degree: 31%
 
 1. 为您的配置设置一个名称。
 
-1. 选择 **[!UICONTROL 服务器类型]** 要用于导出直邮文件的文件。
+1. 选择 **Amazon S3** 作为 **[!UICONTROL 服务器类型]** 用于导出直邮文件。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >目前，支持Amazon S3、SFTP和Azure [!DNL Journey Optimizer].
+1. 填写服务器的详细信息和凭据
 
-1. 填写服务器的详细信息和凭据，如服务器地址、访问密钥等。
+   * **AWS存储段名称**：要了解在何处查找您的AWS存储段名称，请参阅 [此页面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **AWS访问密钥**：要了解在何处查找您的AWS访问密钥ID，请参阅 [此页面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. 如果您选择 **[!UICONTROL Amazon S3]**，选择 **[!UICONTROL AWS地区]** 服务器基础架构所在的位置。
+   * **AWS密钥**：要了解在何处查找您的AWS密钥，请参阅 [此页面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **AWS地区**：选择 **[!UICONTROL AWS地区]** 服务器基础架构所在的位置。 AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-   >[!NOTE]
-   >
-   >AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
 
 1. 要加密文件，请将加密密钥复制并粘贴到 **[!UICONTROL PGP/GPG加密密钥]** 字段。
 
 1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
 
-   >[!NOTE]
-   >
-   >您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件布线配置，但在曲面中选取它之前，您将无法选取它 **[!UICONTROL 活动]**.
+   您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件布线配置，但在曲面中选取它之前，您将无法选取它 **[!UICONTROL 活动]**.
+
+>[!TAB SFTP]
+
+1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 为您的配置设置一个名称。
+
+1. 选择SFTP作为 **[!UICONTROL 服务器类型]** 用于导出直邮文件。
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. 填写服务器的详细信息和凭据：
+
+   * **帐户**：用于连接到SFTP服务器的帐户名称。
+
+   * **服务器地址**：SFTP服务器的&#x200B;URL。
+
+   * **端口**：FTP连接端口号。
+
+   * **密码**：&#x200B;用于连接到SFTP服务器的密码。
+
+   ![](assets/file-routing-config-sftp-detail.png)
+
+1. 要加密文件，请将加密密钥复制并粘贴到 **[!UICONTROL PGP/GPG加密密钥]** 字段。
+
+1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
+
+   您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件布线配置，但在曲面中选取它之前，您将无法选取它 **[!UICONTROL 活动]**.
+
+>[!TAB Azure]
+
+1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]** 菜单，然后单击 **[!UICONTROL 创建路由配置]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 为您的配置设置一个名称。
+
+1. 选择Azure **[!UICONTROL 服务器类型]** 用于导出直邮文件。
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. 填写服务器的详细信息和凭据：
+
+   * **Azure连接字符串**：查找您的 **Azure连接字符串**，请参阅 [此页面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     此 **Azure连接字符串** 应遵循以下格式：
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **容器名称**：查找您的 **容器名称**，请参阅 [此页面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     此 **容器名称** 应仅包含容器名称，且不含任何斜杠。 要在容器中指定保存文件的路径，请更新直邮营销活动的文件名以包含所需的路径。
+
+1. 要加密文件，请将加密密钥复制并粘贴到 **[!UICONTROL PGP/GPG加密密钥]** 字段。
+
+1. 选择 **[!UICONTROL 提交]**. 文件路由配置是使用 **[!UICONTROL 活动]** 状态。 它现在已准备好用于 [直邮表面](#direct-mail-surface).
+
+   您还可以选择 **[!UICONTROL 另存为草稿]** 创建文件布线配置，但在曲面中选取它之前，您将无法选取它 **[!UICONTROL 活动]**.
+
+>[!ENDTABS]
 
 ## 创建直邮表面 {#direct-mail-surface}
 

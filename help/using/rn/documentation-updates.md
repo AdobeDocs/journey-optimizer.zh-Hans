@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
-workflow-type: ht
-source-wordcount: '5355'
-ht-degree: 100%
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+workflow-type: tm+mt
+source-wordcount: '5389'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 
 ## 2024 年 6 月 {#june-2024}
 
+* 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年6月版。 [了解详情](release-notes.md)
+* 中添加了有关在历程中使用合并策略的说明 [此页面](../building-journeys/journey-gs.md#merge-policies).
 * 重新组织和改进了有关如何在历程中配置&#x200B;**等待**&#x200B;活动的页面。[了解详情](../building-journeys/wait-activity.md)
 
 ## 2024 年 5 月 {#may-2024}

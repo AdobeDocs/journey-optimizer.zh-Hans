@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '382'
 ht-degree: 5%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 5%
    * **[!UICONTROL 有效期]**：输入以小时为单位的消息有效期。 如果在此时间范围内无法发送消息，系统将再次尝试重新发送消息。 默认有效期设置为48小时。
 
    * **[!UICONTROL 回调数据]**：输入将在通知URL上发送的其他客户端数据。
+
+   * **[!UICONTROL 入站编号]**：添加您的独特入站编号。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号。
 
 1. 单击 **[!UICONTROL 提交]** 完成API凭据配置时。
 

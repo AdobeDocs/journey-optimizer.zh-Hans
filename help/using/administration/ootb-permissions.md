@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '757'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 | 决策管理 | **[!DNL Manage decisions]**：读取、创建、编辑和删除决策实体。</br>**[!DNL Manage offers]**：读取、创建、编辑和删除所有优惠、组件，读取决策和收藏集。</br>**[!DNL Manage ranking strategies]**：读取、创建、编辑和删除自定义报表并使用操作功能。</br>**[!DNL View decisions]**：对优惠实体的只读访问权限。<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | 目标 | **[!DNL Activate destinations]**：允许用户将受众激活到现有目标。</br>**[!DNL Activate segment without mapping]**：允许用户将受众激活到现有目标，而不显示映射步骤。 用户可以在激活工作流中添加和删除受众，但无法添加或删除映射的属性或身份。</br>**[!DNL Destination authoring]**：使用Adobe Experience Platform Destination SDK的创作目标。</br>**[!DNL Manage and activate dataset destination]**：读取、创建、编辑和禁用数据集导出流程。 还能将数据激活到已创建的活动数据集。</br>**[!DNL Manage destinations]**：读取、创建和删除目标激活流和目标帐户。</br>**[!DNL View destinations]**：对“目录”选项卡中的可用目标和“浏览”选项卡中的经过身份验证的目标进行只读访问。 |
 | 身份管理 | **[!DNL Manage identity namespaces]**：读取、创建和编辑身份命名空间。</br>**[!DNL Manage identity settings]**：读取、创建和编辑身份设置。</br>**[!DNL View identity namespaces]**：对身份命名空间的只读访问权限。</br>**[!DNL View identity settings]**：对身份设置的只读访问权限。</br>**[!DNL View identity graph]**：对身份图的只读访问。 |
-| Journey Optimizer Library | **[!DNL Manage Library Items]**：添加和删除中保存的表达式 [!DNL Journey Optimizer] 库。</br>**[!DNL Simulate content]**：访问预览和验证的“模拟内容”选项。 |
+| Journey Optimizer Library | **[!DNL Manage Library Items]**：添加和删除中保存的表达式 [!DNL Journey Optimizer] 库。</br>**[!DNL Simulate content]**：访问预览和验证的“模拟内容”选项。</br>**[!DNL Publish fragments]**：发布片段。 |
 | Journey Optimizer规则 | **[!DNL Manage frequency rules]**：访问、创建、编辑或删除消息频率规则。</br>**[!DNL View frequency rules]**：对规则的只读访问权限。 |
 | 历程 | **[!DNL Manage journeys]**：读取、创建、编辑和删除历程。 要访问和管理历程，请将此权限与 **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**：读取、创建、编辑和删除事件、源或操作。</br>**[!DNL Publish journeys]**：发布历程。</br>**[!DNL View journeys]**：对历程的只读访问权限。</br>**[!DNL View journeys events, data sources and actions]**：对历程事件、历程自定义操作和历程数据源的只读访问权限。</br>**[!DNL View journeys report]**：读取和编辑历程报告。</br> |
 | 用户档案管理 | **[!DNL Evaluate a segment to an audience]**：通过评估区段定义来生成受众的用户档案。</br>**[!DNL Export audience segments]**：将评估的受众区段导出到数据集。</br>**[!DNL Manage merge policies]**：读取、创建、编辑和删除合并策略。</br>**[!DNL Manage profiles]**：读取、创建、编辑和删除用于客户配置文件的数据集。 对可用配置文件的只读访问权限。</br>**[!DNL View merge policies]**：对可用合并策略的只读访问权限。</br>**[!DNL View profiles]**：对可用配置文件的只读访问权限。</br>**[!DNL View segments]**：对可用受众的只读访问权限。 |

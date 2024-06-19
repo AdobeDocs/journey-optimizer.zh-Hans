@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 开始使用片段
+title: 片段入门
 description: 了解如何使用内容片段以在Journey Optimizer营销活动和历程中重用内容
 feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '324'
+ht-degree: 15%
 
 ---
 
-# 开始使用片段 {#fragments}
+# 片段入门 {#fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="定义您自己的片段"
->abstract="创建和管理独立片段，以使您的内容可在多个历程和营销活动中重复使用。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="创建片段"
+>title="定义您自已的片段"
+>abstract="创建和管理独立的片段，以便可在多个历程和营销活动中重用您的内容。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="创建片段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
@@ -46,9 +46,7 @@ ht-degree: 2%
 
 ## 开始前 {#fragment-prerequisites}
 
->[!NOTE]
->
->要创建、编辑和存档片段，您必须具有 **[!DNL Manage library items]** 权限包含在 **[!DNL Content Library Manager]** 产品配置文件。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+要创建、编辑和存档片段，您必须具有 **[!DNL Manage library items]** 权限包含在 **[!DNL Content Library Manager]** 产品配置文件。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，以下限制适用：
 
@@ -62,17 +60,16 @@ ht-degree: 2%
 * **可视化片段** 是预定义的可视化块，您可以使用它在多个电子邮件投放中重用 [电子邮件设计工具](../email/get-started-email-design.md)，或在 [内容模板](../email/use-email-templates.md).
 * **表达式片段** 是预定义的表达式，可从中的专用条目访问 [个性化编辑器](../personalization/personalization-build-expressions.md).
 
-
-所有片段都可从以下位置访问： **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**  左侧菜单。
+所有创建的片段都可从以下位置访问： **[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**  左侧菜单。 [了解如何管理片段](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## 操作方法视频 {#video-fragments}
 
-了解如何在中管理、创作和使用可视化片段 [!DNL Journey Optimizer].
+了解如何管理、创作和使用 **可视化片段** 在 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-了解如何在中管理、创作和使用表达式片段 [!DNL Journey Optimizer].
+了解如何管理、创作和使用 **表达片段** 在 [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

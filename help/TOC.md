@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: ht
-source-wordcount: '1817'
-ht-degree: 100%
+source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+workflow-type: tm+mt
+source-wordcount: '1843'
+ht-degree: 99%
 
 ---
 
@@ -380,6 +380,14 @@ ht-degree: 100%
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
++ 新的报告界面（测试版）{#channel-report}
+   + [新报告界面入门](using/reports/report-gs-cja.md)
+   + [管理您的报告](using/reports/report-cja-manage.md)
+   + [历程报告](using/reports/journey-global-report-cja.md)
+   + [营销活动报告](using/reports/campaign-global-report-cja.md)
+   + [“概述”报表](using/reports/channel-report-cja.md)
+   + [登陆页面报告](using/reports/lp-report-global-cja.md)
+   + [订阅列表报告](using/reports/subscription-report-global-cja.md)
 + 决策 {#decisioning}
    + 决策管理{#offer-decisioning}
       + 决策管理入门 {#get-started-decision}

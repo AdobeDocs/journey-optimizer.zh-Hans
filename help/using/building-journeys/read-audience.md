@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 7%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性读取受众历程在历程执行30天后会变为“已完成”状态。 对于计划的读取受众，此期限为上次执行后的30天。
+>一次性读取受众历程移至 **已完成** 状态91天([默认超时](journey-gs.md#global_timeout))。 对于计划的读取受众，此期限为上次执行后的91天。
 
 ## 测试并发布历程 {#testing-publishing}
 
@@ -178,7 +178,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience2.png)
 
-**Union**
+**并集**
 
 历程允许您创建N个分支，并在分段后将它们连接在一起。
 

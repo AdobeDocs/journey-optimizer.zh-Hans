@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活动"
->abstract="如果要在执行路径中的下一个活动之前等待，则可以使用等待活动。 它允许您定义下次活动执行的时间。 有两个可用选项：持续时间和custom。"
+>abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
 
 您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。  最长等待时间为 **29天**.
 
@@ -35,13 +35,13 @@ ht-degree: 6%
 * [Fixed date](#fixed_date) 
 -->
 
-## 推荐 {#wait-recommendations}
+## 推荐做法 {#wait-recommendations}
 
 ### 多个等待活动 {#multiple-wait-activities}
 
-使用多个 **等待** 历程中的活动，请注意，全局历程超时为30天，这意味着用户档案始终在进入历程后30天内退出该历程。 请参阅[此页面](../building-journeys/journey-gs.md#global_timeout)以了解详情。
+使用多个 **等待** 历程中的活动，请注意 [全局历程超时](journey-gs.md#global_timeout) 为91天，这意味着用户档案始终在进入历程的最长91天后退出历程。 请参阅[此页面](../building-journeys/journey-gs.md#global_timeout)以了解详情。
 
-个人可以输入 **等待** 仅当在历程中剩余的时间足以在30天历程超时之前完成等待持续时间时，才会进行活动。 例如，如果添加两个 **等待** 活动设置为20天，则系统检测到第二个 **等待** 活动将在30天超时后结束。 第二个 **等待** 因此，活动将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
+个人可以输入 **等待** 仅当活动在历程中剩余的时间足以在91天历程超时之前完成等待持续时间时，才会进行此活动。 例如，如果添加两个 **等待** 活动设置为20天，则系统检测到第二个 **等待** 活动将在91天超时后结束。 第二个 **等待** 因此，活动将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
 
 ### 等待并重新进入 {#wait-re-entrance}
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
 ### 等待和测试模式 {#wait-test-modd}
 
-在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个报表包 **等待** 活动将持续。 默认时间为10秒。 这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
+在测试模式下， **[!UICONTROL 测试中的等待时间]** 参数允许您定义每个报表包 **等待** 活动将持续。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
 
 ## 配置 {#wait-configuration}
 

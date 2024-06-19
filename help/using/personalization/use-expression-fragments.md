@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 使用时 **个性化编辑器**，您可以利用已创建或已保存到当前沙盒的所有表达式片段。
 
-了解如何在中创建和管理片段 [本节](../content-management/fragments.md).
+片段是可重复使用的组件，可通过以下方式引用 [!DNL Journey Optimizer] 营销活动和历程。 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合内容。 [了解如何创建和管理片段](../content-management/fragments.md).
 
 ➡️ [在此视频中了解如何管理、创作和使用片段](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ ht-degree: 0%
 
 要向内容添加表达式片段，请执行以下步骤。
 
+>[!NOTE]
+>
+>您最多可以在给定投放中添加30个片段。 片段最多只能嵌套1级。
+
 1. 打开 [个性化编辑器](personalization-build-expressions.md) 并选择 **[!UICONTROL 片段]** 按钮。
+
+   该列表显示了当前沙盒上已创建或另存为片段的所有表达式片段。 它们按创建日期排序：最近添加的表达式片段首先显示在列表中。 [了解详情](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   该列表显示了当前沙盒上已创建或另存为片段的所有表达式片段。 [了解详情](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >片段按创建日期排序：最近添加的表达式片段首先显示在列表中。
-
-1. 您还可以刷新列表。
+   您也可以刷新此列表。
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ ht-degree: 0%
 
    ![](assets/expression-fragment-add.png)
 
-   添加片段ID后，如果您打开相应的表达式片段并 [编辑它](../content-management/fragments.md#edit-fragments) 从界面中，同步更改。 它们会自动传播到所有 **[!UICONTROL 草稿]** 包含该片段ID的历程/营销活动。
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >更改不会传播到中使用的内容。 **[!UICONTROL 实时]** 历程或营销活动。
+   >您可以添加任何 **草稿** 或 **实时** 片段到您的内容。 但是，如果历程或营销活动中正在使用具有草稿状态的片段，您将无法激活该历程或营销活动。 在历程或营销活动发布中，草稿片段将显示错误，您需要批准它们才能发布。
+   >
+   > 请注意，片段状态在Journey Optimizer 6月发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，请注意，片段不需要 **实时** 将在您的历程和营销活动中使用。
 
-1. 单击 **[!UICONTROL 更多操作]** 按钮创建片段。
+1. 添加片段ID后，如果您打开相应的表达式片段并 [编辑它](../content-management/fragments.md#edit-fragments) 从界面中，同步更改。 它们会自动传播到包含该片段ID的所有草稿或实时历程/营销活动。
 
-1. 从打开的上下文菜单中，选择 **[!UICONTROL 查看片段]** 以获取有关该片段的更多信息。 此 **[!UICONTROL 片段ID]** 也会显示，并且可以从此处复制。
+1. 单击 **[!UICONTROL 更多操作]** 按钮创建片段。 从打开的上下文菜单中，选择 **[!UICONTROL 查看片段]** 以获取有关该片段的更多信息。 此 **[!UICONTROL 片段ID]** 也会显示，并且可以从此处复制。
 
    ![](assets/expression-fragment-view.png)
 
