@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1005'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,10 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 1. 在 **[!UICONTROL 受众]** 部分，指定用于识别个人的命名空间。
 
    * 如果您要创建 **事务性**-type营销活动，则需要在API调用中定义目标用户档案。 此 **[!UICONTROL 创建新配置文件]** 选项允许您自动创建数据库中不存在的配置文件。 [了解有关活动执行时用户档案创建的更多信息](#profile-creation)
+
+     >[!NOTE]
+     >
+     >单个API调用最多支持20个唯一收件人。 每个收件人必须具有唯一的用户ID，不允许存在重复的用户ID。 在中了解详情 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * 对象 **营销**-type campaigns，单击 **[!UICONTROL 受众]** 按钮以选择要定位的受众。
 
