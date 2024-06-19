@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d2e53b85638a7ca5defcbe67aff6e19bc029f9a0
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 62%
+ht-degree: 93%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 62%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2024年6月早期发行说明 {#24-6-2024}
+## 2024 年 6 月早期发行说明 {#24-6-2024}
 
 **在发行日期之前，以下早期发行说明可能会有所变更，恕不另行通知**.
 
-**发行日期**：2024年6月18日至19日
+**发行日期**：2024 年 6 月 18 日至 19 日
 
 ### 新功能 {#june-24-features}
 
@@ -40,13 +40,13 @@ ht-degree: 62%
 <table>
 <thead>
 <tr>
-<th><strong>IP预热工作流</strong><br/></th>
+<th><strong>IP 预热工作流</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>如果您使用全新的IP地址发送电子邮件，现在可以直接从用户界面轻松执行IP预热工作流。 Adobe Journey Optimizer提供了一种标准化的高效方法来预热您的IP地址，该方法遵循最佳实践以实现最佳可投放性。</p>
+<p>如果使用全新的 IP 地址发送电子邮件，现在可以直接从用户界面轻松执行 IP 预热工作流。Adobe Journey Optimizer 提供了一种标准化的高效方法来预热 IP 地址，该方法遵循最佳实践以期实现最佳可投放性。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -74,13 +74,13 @@ ht-degree: 62%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Journey Optimizer的人工智能助手</strong><br/></th>
+<th><strong>Adobe Journey Optimizer 中的 AI 助手</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获取对您特定环境的操作见解。 它在Adobe Experience Cloud的多个产品中可用，包括Adobe Journey Optimizer。</p>
+<p>AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。</p>
 <p>有关更多信息，请参阅<a href="../start/ai-assistant.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -162,7 +162,7 @@ ht-degree: 62%
 
 **决策管理**
 
-* **决策管理中的多规则支持**  — 现在，您可以在决策管理中为给定优惠添加最多10个上限规则。 这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* **决策管理中的多规则支持** - 现在，您可以在决策管理中为给定优惠添加最多 10 个上限规则。这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -172,25 +172,25 @@ ht-degree: 62%
 >
 >请注意，这些增强功能将在首次发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。
 
-* 现在可以编辑片段，并且可以将更改传播到使用它们的所有实时历程和营销活动中。
-* 为内容片段引入了新状态： **草稿**， **实时**， **发布**、和 **已存档**.
-* 要在历程或营销策划中使用片段，它现在必须位于 **实时** 状态。 片段创建流程中新增了一个步骤，允许发布片段并可用于历程和营销活动。 请注意，片段发布需要新权限。
+* 现在您可以编辑片段，并且可以将更改同步到使用这些片段的所有实时历程和营销活动中。
+* 为内容片段引入了多个新状态：**草稿**、**实时**、**发布中**&#x200B;和&#x200B;**已存档**。
+* 要在历程或营销活动中使用某个片段，片段必须处于&#x200B;**实时**&#x200B;状态。片段创建流程中新增了一个步骤，通过该步骤可以发布片段并将其用于历程和营销活动。请注意，发布片段需要新权限。
 
-  **注意**  — 从 **草稿** 和 **实时** Journey Optimizer 6月版本中引入了状态，在此版本之前创建的所有片段都具有 **草稿** 状态，即使它们用在历程或营销策划中也是如此。 在本节中了解如何更新现有片段。
+  **注意** - Journey Optimizer 六月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，在此版本之前创建的所有片段均为&#x200B;**草稿**&#x200B;状态，无论片段是否已用于历程或营销活动。要了解如何更新现有片段，请参阅此部分。
 
 **历程**
 
-* 历程全局超时已从30天增加到90天。
-* Adobe Journey Optimizer现在支持隐私删除/访问请求以及数据生命周期管理请求。
-* 您现在可以调整历程清单中的列的大小。
-* **事件配置中的高级表达式编辑器** 现在为GA — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../event/about-creating.md)-->
-* **合并策略** 现在为GA -历程使用的合并策略现在在整个历程中可见且一致。 此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* 历程全局超时期限已从 30 天增加到 90 天。
+* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。
+* 您现在可以调整历程清单中的列大小。
+* **事件配置中的高级表达式编辑器**&#x200B;已正式推出 - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../event/about-creating.md)-->
+* **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
 **营销活动**
 
-* 在Adobe Journey Optimizer中创建营销活动时，您现在可以在新模式中选择营销活动类型（已计划或触发）。
+* 在 Adobe Journey Optimizer 中创建营销活动时，您现在可以在新模式中选择营销活动类型（计划或触发）。
 
 <!--**Email channel**
 
@@ -199,7 +199,7 @@ ht-degree: 62%
 
 **短信渠道**
 
-* 您现在可以使用单个API配置为每个沙盒添加唯一的短代码，从而使过程更高效、更简单。
+* 您现在可以使用单个 API 配置为每个沙盒添加唯一的短代码，从而使工作流程更高效、更简单。
   <!--* You can now modify existing SMS configurations.-->
 
 **应用程序内渠道**
@@ -207,7 +207,7 @@ ht-degree: 62%
 * **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* 您现在可以使用Edge Delivery插件获取理解入站实施并对其进行故障诊断所需的信息。
+* 您现在可以使用 Edge Delivery 增效工具来获取了解和入站实现排除故障所需的信息。
 
 <!--
 **Direct mail channel**
