@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024 年 6 月 {#june-2024}
 
 * 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年6月版。 [了解详情](release-notes.md)
-* 中添加了有关在历程中使用合并策略的说明 [此页面](../building-journeys/journey-gs.md#merge-policies).
+* 中添加了有关在历程中使用合并策略的说明 [此页面](../building-journeys/journey-properties.md#merge-policies).
 * 重新组织和改进了有关如何在历程中配置&#x200B;**等待**&#x200B;活动的页面。[了解详情](../building-journeys/wait-activity.md)
 
 ## 2024 年 5 月 {#may-2024}
@@ -82,7 +82,7 @@ ht-degree: 99%
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 1 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了有关历程大小的护栏。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
-* [在以下部分](../building-journeys/journey-gs.md#global_timeout)中对历程超时管理进行了详细说明。
+* [在以下部分](../building-journeys/journey-properties.md#global_timeout)中对历程超时管理进行了详细说明。
 * Journey Optimizer [文档主页](../../ajo-home.md)页面已重新设计。
 * 添加了有关“更新用户档案”活动的建议。[了解详情](../building-journeys/update-profiles.md)
 * 添加了有关历程中事件活动的超时行为的信息。如果在指定的超时时间内未收到任何事件，且未定义超时路径，个人将继续历程。[了解详情](../building-journeys/general-events.md#events-specific-time)

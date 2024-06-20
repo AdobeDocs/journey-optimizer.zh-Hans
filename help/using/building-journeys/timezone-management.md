@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 时区，属性，历程，条件，时间，日期，自定义
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 时区管理 {#timezone_management}
 
-您可以在中定义时区 [属性](../building-journeys/journey-gs.md#change-properties) 你旅程的一部分。
+您可以在中定义时区 [属性](../building-journeys/journey-properties.md#timezone) 你旅程的一部分。
 
 要访问历程属性，请单击屏幕右上角的铅笔图标。
 

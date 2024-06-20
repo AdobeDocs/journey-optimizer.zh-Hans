@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 每次按历程执行 API 调用时，它都会通过 API 引擎。如果达到API中设置的限制，则会在使用上限API时拒绝调用，或者排队长达6个小时，然后按照在使用限制API时收到的顺序尽快处理调用。
 
-例如，假设您为外部系统定义了每秒 200 次调用的上限或限制规则。在 10 个不同历程中，系统由自定义操作调用。如果一个历程每秒收到 300 个调用，则将使用 200 个可用的位置，并丢弃剩余的 100 个调用或将它们排入队列。由于超出了最大使用率，因此其他 9 个历程将没有任何位置。此粒度有助于避免使外部系统出现过载和崩溃。
+例如，假设您为外部系统定义了每秒200次调用的上限或限制规则。 在 10 个不同历程中，系统由自定义操作调用。如果一个历程每秒收到 300 个调用，则将使用 200 个可用的位置，并丢弃剩余的 100 个调用或将它们排入队列。由于超出了最大使用率，因此其他 9 个历程将没有任何位置。此粒度有助于避免使外部系统出现过载和崩溃。
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ ht-degree: 29%
 
 如果满足上限或限制规则，则应用超时规则。
 
-在每个历程中，您可以定义超时持续时间。 这允许您在调用外部系统时设置最大持续时间。 超时持续时间在历程的属性中配置。 请参见[此页面](../building-journeys/journey-gs.md#timeout_and_error)。
+在每个历程中，您可以定义超时持续时间。 这允许您在调用外部系统时设置最大持续时间。 超时持续时间在历程的属性中配置。 请参见[此页面](../building-journeys/journey-properties.md#timeout_and_error)。
 
 此超时对于所有外部调用（自定义操作和自定义数据源中的外部API调用）都是全局的。 默认情况下，设置为30秒。
 
@@ -102,4 +102,4 @@ ht-degree: 29%
 
 **可在何处配置超时？ 是否存在最大值？**
 
-在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅 [本节](../configuration/external-systems.md#timeout) 和 [此页面](../building-journeys/journey-gs.md#timeout_and_error).
+在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅 [本节](../configuration/external-systems.md#timeout) 和 [此页面](../building-journeys/journey-properties.md#timeout_and_error).

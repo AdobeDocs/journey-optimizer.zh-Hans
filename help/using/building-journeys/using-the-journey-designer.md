@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 ![](assets/journey39.png)
 
-此 **工具栏**，位于画布的右上角，允许您显示/隐藏网格、放大/缩小并下载画布的屏幕快照。 请参阅此[部分](../building-journeys/journey-gs.md#timeout_and_error)。
+此 **工具栏**，位于画布的右上角，允许您显示/隐藏网格、放大/缩小并下载画布的屏幕快照。 请参阅此[部分](../building-journeys/journey-properties.md#timeout_and_error)。
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 您可以为以下历程活动定义在错误或超时情况下的回退操作： **[!UICONTROL 条件]** 和 **[!UICONTROL 操作]**.
 
-要为活动添加回退操作，请选择 **[!UICONTROL 在超时或错误的情况下添加替代路径]** 复选框：在活动后添加其他路径。 超时持续时间由管理员用户在中定义 [历程属性](../building-journeys/journey-gs.md#change-properties). 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
+要为活动添加回退操作，请选择 **[!UICONTROL 在超时或错误的情况下添加替代路径]** 复选框：在活动后添加其他路径。 超时持续时间由管理员用户在中定义 [历程属性](../building-journeys/journey-properties.md). 例如，如果电子邮件发送时间过长或出错，您可以决定发送推送通知。
 
 ![](assets/journey42.png)
 

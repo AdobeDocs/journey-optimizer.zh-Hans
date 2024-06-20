@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 5%
@@ -36,12 +36,12 @@ ht-degree: 5%
 
 * 如果启用了重新进入，则用户档案可以多次进入历程，但只有在完全退出历程的上一个实例后才能进入历程。
 
-* 如果禁用重新进入，则用户档案无法在全局历程超时时间内多次进入同一历程。 请参阅此[部分](../building-journeys/journey-gs.md#global_timeout)。
+* 如果禁用重新进入，则用户档案无法在全局历程超时时间内多次进入同一历程。 请参阅此[部分](../building-journeys/journey-properties.md#global_timeout)。
 
-默认情况下，历程允许重新进入。 当 **允许重新进入** 选项已激活， **重新进入等待期** 字段。 它允许您定义允许用户档案再次进入历程之前的等待时间。 这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为91天([默认超时](journey-gs.md#global_timeout))。
+默认情况下，历程允许重新进入。 当 **允许重新进入** 选项已激活， **重新进入等待期** 字段。 它允许您定义允许用户档案再次进入历程之前的等待时间。 这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为91天([全局超时](journey-properties.md#global_timeout))。
 
 <!--
-When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
 ![](assets/journey-re-entrance.png)

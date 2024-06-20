@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ ht-degree: 60%
 
 **历程**
 
-* 历程的全局超时已延长到91天。 [了解详情](../building-journeys/journey-gs.md#global_timeout)
+* 历程的全局超时已延长到91天。 [了解详情](../building-journeys/journey-properties.md#global_timeout)
 
-  创建的任何新历程都将反映此新超时。 请参阅此 [常见问题解答部分](../building-journeys/journey-gs.md#timeout-faq) 了解更多信息。 请注意，这些更改将在6月份逐步推出。
+  创建的任何新历程都将反映此新超时。 请参阅此 [常见问题解答部分](../building-journeys/journey-properties.md#timeout-faq) 了解更多信息。 请注意，这些更改将在6月份逐步推出。
 
 
 * Adobe Journey Optimizer现在支持隐私删除/访问请求以及数据生命周期管理请求。 [了解详情](../privacy/requests.md)
 * 您现在可以调整历程清单中的列大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。[了解详情](../building-journeys/journey-gs.md#merge-policies)
+* **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。[了解详情](../building-journeys/journey-properties.md#merge-policies)
 
 
 

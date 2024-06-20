@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 14%
 
 ---
@@ -39,13 +39,13 @@ ht-degree: 14%
 
 ### 多个等待活动 {#multiple-wait-activities}
 
-使用多个 **等待** 历程中的活动，请注意 [全局历程超时](journey-gs.md#global_timeout) 为91天，这意味着用户档案始终在进入历程的最长91天后退出历程。 请参阅[此页面](../building-journeys/journey-gs.md#global_timeout)以了解详情。
+使用多个 **等待** 历程中的活动，请注意 [全局超时](journey-properties.md#global_timeout) 对于历程，为91天，这意味着用户档案始终在进入历程后91天内退出该历程。 请参阅[此页面](journey-properties.md#global_timeout)以了解详情。
 
 个人可以输入 **等待** 仅当活动在历程中剩余的时间足以在91天历程超时之前完成等待持续时间时，才会进行此活动。 例如，如果添加两个 **等待** 活动设置为20天，则系统检测到第二个 **等待** 活动将在91天超时后结束。 第二个 **等待** 因此，活动将被忽略，个人将在启动历程之前退出历程。 在该示例中，客户在历程中将总共保留20天。
 
 ### 等待并重新进入 {#wait-re-entrance}
 
-不应使用的最佳实践 **等待** 阻止重新进入的活动。 请改用 **允许重新进入** 历程属性级别的选项。 请参阅[此页面](../building-journeys/journey-gs.md#entrance)以了解详情。
+不应使用的最佳实践 **等待** 阻止重新进入的活动。 请改用 **允许重新进入** 历程属性级别的选项。 请参阅[此页面](../building-journeys/journey-properties.md#entrance)以了解详情。
 
 ### 等待和测试模式 {#wait-test-modd}
 

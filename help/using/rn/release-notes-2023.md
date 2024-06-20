@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: ht
-source-wordcount: '4396'
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
+source-wordcount: '4394'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 100%
 * 现在，您可以定义的最长等待持续时间为 29 天，而不是 30 天。引入此改进是为了防止等待持续时间超过 30 天的历程生命周期。这适用于：
 
    * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
-   * [历程属性](../building-journeys/journey-gs.md#entrance)中的&#x200B;**重入等待期**
+   * [历程属性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重入等待期**
    * [事件活动](../building-journeys/general-events.md#events-specific-time)的超时定义中的&#x200B;**等待**&#x200B;字段
 
 <!--
@@ -200,7 +200,7 @@ ht-degree: 100%
 
 **历程**
 
-* 复制历程时，您现在可以定义历程副本的名称。[了解详情](../building-journeys/journey-gs.md#uplicate-a-journey
+* 复制历程时，您现在可以定义历程副本的名称。[了解详情](../building-journeys/journey-gs.md#duplicate-a-journey)
 
 * 自定义操作响应功能现已普遍可用。这项功能允许您在自定义操作中对 API 调用响应加以利用，并根据这些响应编排历程。此外，添加了[新的上限护栏](../start/guardrails.md#custom-actions-g)以自动限制自定义操作调用。[了解详情](../action/action-response.md)
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-gs.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
 
 * 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 

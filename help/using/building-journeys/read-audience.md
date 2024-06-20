@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1466'
 ht-degree: 7%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性读取受众历程移至 **已完成** 状态91天([默认超时](journey-gs.md#global_timeout))。 对于计划的读取受众，此期限为上次执行后的91天。
+>一次性读取受众历程移至 **已完成** 状态91天([历程全局超时](journey-properties.md#global_timeout))。 对于计划的读取受众，此期限为上次执行后的91天。
 
 ## 测试并发布历程 {#testing-publishing}
 

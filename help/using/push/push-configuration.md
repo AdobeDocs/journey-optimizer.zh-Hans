@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 3%
@@ -98,7 +98,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 1. 选择您之前配置的 **[!UICONTROL 产品配置文件]**.
 
-1. 从 **[!UICONTROL 用户]** 选项卡，单击 **[!UICONTROL 添加用户]**.
+1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
    ![](assets/push_product_6.png)
 
@@ -332,7 +332,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 单击 **[!UICONTROL 创建历程]** 以创建新旅程。
 
-1. 编辑右侧显示的配置窗格中的历程属性。在本节中了解详情 [部分](../building-journeys/journey-gs.md#change-properties).
+1. 编辑右侧显示的配置窗格中的历程属性。在本节中了解详情 [部分](../building-journeys/journey-properties.md).
 
 1. 首先，将上一步中创建的事件从 **[!UICONTROL 活动]** 下拉菜单。
 

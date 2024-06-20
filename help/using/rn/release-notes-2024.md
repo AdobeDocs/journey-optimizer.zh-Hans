@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '2229'
 ht-degree: 100%
@@ -163,7 +163,7 @@ ht-degree: 100%
 * **mTLS 支持** - 自定义操作现在支持 mTLS 身份验证。无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](../action/about-custom-action-configuration.md#mtls-protocol-support)
 * **事件中的查找表** - 现在，当使用对象数组中的属性定义了关系时，您可以利用查找数据集中的数据。可以在历程（条件、自定义操作等）和消息个性化中使用查找值。[了解详情](../event/experience-event-schema.md#relationships_limitations)
 * **事件配置中的高级表达式编辑器**（限量发布版）- 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。“限量发布版”的部分客户可使用此功能。[了解详情](../event/about-creating.md#adv-exp-editor)
-* **合并策略**（限量发布版）- 现在，历程使用的合并策略在整个历程中均可见且一致。“限量发布版”的部分客户可使用此功能。[了解详情](../building-journeys/journey-gs.md#merge-policies)
+* **合并策略**（限量发布版）- 现在，历程使用的合并策略在整个历程中均可见且一致。“限量发布版”的部分客户可使用此功能。[了解详情](../building-journeys/journey-properties.md#merge-policies)
 
 **全球化**
 
@@ -398,7 +398,7 @@ ht-degree: 100%
 * **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。[了解详情](../building-journeys/journey-gs.md#filter)
 * **自定义操作** - 您现在可以更新 **content-type** 标头。此新 **content-type** 标头应引用 JSON 内容。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
 * **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。[了解详情](../reports/sharing-field-list.md)
-* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](../building-journeys/journey-gs.md#change-properties)
+* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](../building-journeys/journey-properties.md)
 
 **短信渠道**
 
