@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2642'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 12%
 >id="ajo_homepage_card2"
 >title="创建历程"
 >abstract="借助 **Adobe Journey Optimizer**，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。"
-
 
 
 ## 先决条件{#start-prerequisites}
@@ -326,6 +325,7 @@ ht-degree: 12%
 
 * 在读取受众或受众资格历程中：使用受众的合并策略
 * 在事件触发的历程中：使用默认合并策略
+* 在业务事件历程中：在以下读取受众活动中使用来自目标受众的合并策略
 
 历程将遵循在整个历程中使用的合并策略。 因此，如果旅程中使用多个受众（例如：在“inAudience”函数中），导致旅程使用的合并策略不一致，则会引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
