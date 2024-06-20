@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 95%
+source-wordcount: '272'
+ht-degree: 94%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 95%
 * [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->IP 预热功能目前仅作为 Beta 版供部分用户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 借助 [!DNL Journey Optimizer]，您可以直接在用户界面中以标准化的高效方式轻松执行 IP 预热工作流程，并遵循最佳实践以实现卓越的可投放性。
 

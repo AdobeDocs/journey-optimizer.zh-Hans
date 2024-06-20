@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1668'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 * 该计划在六年内执行 **阶段**，每个报表包至少包含一个运行。
 
-* 对于要交付到的域，您可以拥有任意数量的列。 在此示例中，计划分为六个列：
+* 您最多可以有6列（域组有5列，而域组有1列）。 **其他** 列)。 在此示例中，计划分为六个列：
 
    * 其中四个对应于 **现成的域组** 在您的计划(Gmail、Microsoft、Yahoo和Orange)中使用。
    * 一个与自定义域组(您需要使用 [自定义域组](#custom-domain-group-tab) 选项卡)。
@@ -188,7 +188,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 使用 **[!UICONTROL 自定义域组]** 选项卡来定义新域组。 对于每个域，您可以添加它涵盖的所有子域。<!--TBC-->
 
-确保每个域对于其域组都是唯一的，并且不会与其他域组重叠。 由于全局域组是自动定义的，因此用户在创建自定义域组时应考虑这一点。
+对于上述计划中使用的域组，请确保每个域对于其域组都是唯一的，并且不与其他域组重叠。 由于全局域组是自动定义的，因此用户在创建自定义域组时应考虑这一点。
 
 例如，如果添加自定义域Luma，则需要包含以下子域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
 
@@ -201,7 +201,7 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 * 一个仅用于Hotmail域。
 * 一个用于域组Microsoft中的所有其他域（因此不包括所有Hotmail域）。
 
-请注意，所有其他域都将收集到 **[!UICONTROL 其他]** 列。
+Hotmail以外的域和域组Microsoft中的域将收集到 **[!UICONTROL 其他]** 列。
 
 1. 在 **[!UICONTROL 自定义域组]** 选项卡，创建 **Hotmail** 域组。
 
@@ -220,10 +220,6 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 1. 创建三列：一列用于 **Hotmail**，一个用于 **Microsoft_X** 一个用于 **其他**.
 
 1. 根据您的需要填写各列。
-
->[!NOTE]
->
->将IP预热计划上传到后 [!DNL Journey Optimizer]，您无需排除Microsoft域组。
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
