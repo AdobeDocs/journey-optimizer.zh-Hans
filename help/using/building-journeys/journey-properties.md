@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 历程，配置，属性
-source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
+source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1568'
 ht-degree: 8%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 8%
 >
 >对于实时历程，此屏幕仅显示发布日期和发布历程的用户名称。
 
-此 **复制技术详细信息** 允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， &#39;lastDeployedAt.
+此 **复制技术详细信息** 允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， `lastDeployedAt`.
 
 
 ## 进入和重新进入 {#entrance}
