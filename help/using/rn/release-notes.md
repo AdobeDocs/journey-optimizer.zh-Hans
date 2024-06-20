@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 60%
+source-wordcount: '771'
+ht-degree: 63%
 
 ---
 
@@ -54,21 +54,22 @@ ht-degree: 60%
 </table-->
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Content Fragments customization</strong><br/></th>
+<th><strong>内容片段自定义</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>您现在可以在片段中定义特定字段，并在将片段添加到营销活动或历程时进行编辑。这允许您在使用时调整内容部分，并且可以灵活地使用特定于上下文的信息覆盖默认值。</p>
+<img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
+<p>有关更多信息，请参阅<a href="../content-management/customizable-fragments.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 
 

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您创建的表达式片段包含多个换行符并将其用于 [短信](../sms/create-sms.md#sms-content) 或 [推送](../push/design-push.md) 内容，将保留换行符。 因此，请务必测试 [短信](../sms/send-sms.md) 或 [推送](../push/send-push.md) 发送之前发送的消息。
+
+## 自定义可编辑字段 {#customize-fields}
+
+如果表达式片段的某些部分已使用变量设置为可编辑，则可以使用特定语法覆盖其默认值。 [了解如何使您的片段可自定义](../content-management/customizable-fragments.md)
+
+要自定义字段，请执行以下步骤：
+
+1. 从将片段插入到您的代码中 **片段** 菜单。
+
+1. 使用 `<fieldId>="<value>"` 语法末尾的代码，用于覆盖变量的默认值。
+
+   在以下示例中，我们将ID为“sports”的变量的值替换为“yoga”值。 只要引用“sport”变量，这就会在片段内容中显示“瑜伽”。
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+以下示例显示了如何在创建电子邮件时将可编辑字段添加到表达式片段并覆盖其值 [本节](../content-management/customizable-fragments.md#example).
 
 ## 中断继承 {#break-inheritance}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -74,6 +74,22 @@ ht-degree: 2%
 1. 如果需要，您可以使用原始片段中断继承。 [了解详情](#break-inheritance)
 
 1. 添加所需数量的片段并 **[!UICONTROL 保存]** 您所做的更改。
+
+## 自定义可编辑字段 {#customize-fields}
+
+如果所选片段的某些部分已变为可编辑，则可以在将片段添加到内容后覆盖其默认值。 [了解如何使您的片段可自定义](../content-management/customizable-fragments.md)
+
+要自定义片段中的可编辑字段，请执行以下步骤：
+
+1. 将片段添加到内容并选择它以打开右侧的属性窗格。
+
+1. 片段中所有可编辑的字段均显示在 **设置** 选项卡，在 **片段** 部分。
+
+   在右侧窗格中选择可编辑字段时，这些字段会在预览窗格中以绿色突出显示，以便轻松识别它们在内容中的位置。
+
+   在以下示例中，图像 **源** 和 **替换文本** 以及“单击此处”按钮进行编辑 **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## 中断继承 {#break-inheritance}
 
