@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1722'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允许重新进入"
->abstract="默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。"
+>abstract="默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** 选项，例如，如果要在人员进入商店时提供一次性礼品。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
 默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。
@@ -107,7 +107,7 @@ ht-degree: 8%
 ### 历程活动超时或错误 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="超时"
 >abstract="定义历程在将其视为超时之前尝试执行操作或验证条件的时间量。"
 
