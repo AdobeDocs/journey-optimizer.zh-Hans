@@ -8,29 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-hide: true
-hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Beta 版" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="有限可用性" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 4%
+source-wordcount: '1331'
+ht-degree: 3%
 
 ---
 
 # 使用自动翻译创建多语言内容 {#multilingual-automated}
 
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [多语言内容入门](multilingual-gs.md)
-* [使用手动翻译创建多语言内容](multilingual-manual.md)
-* 使用自动翻译创建多语言内容
-* [多语言营销活动报告](multilingual-report.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>目前，多语言内容仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 使用自动流程，您只需选择目标语言和语言提供商即可。 然后，您的内容将直接发送到翻译，准备完成后进行最终审阅。
 
@@ -42,7 +33,7 @@ ht-degree: 4%
 
 1. [创建语言设置](#create-language-settings).
 
-1. [创建多语言营销活动](#create-a-multilingual-campaign).
+1. [创建多语言内容](#create-a-multilingual-campaign).
 
 1. [查看您的翻译任务（可选）](#review-translation-project).
 
@@ -50,9 +41,7 @@ ht-degree: 4%
 
 配置语言设置时，如 [创建语言设置](#language-settings) 部分，如果特定区域设置对于多语言内容不可用，您可以使用灵活地创建所需数量的新区域设置， **[!UICONTROL 翻译]** 菜单。
 
-1. 从 **[!UICONTROL 管理]** 菜单，访问 **[!UICONTROL 渠道]**.
-
-   利用翻译菜单，可访问激活的区域设置列表。
+1. 从 **[!UICONTROL 内容管理]** 菜单，访问 **[!UICONTROL 翻译]**.
 
 1. 从 **[!UICONTROL 区域设置词典]** 选项卡，单击 **[!UICONTROL 添加区域设置]**.
 
@@ -68,7 +57,7 @@ ht-degree: 4%
 
 通过指定Target区域设置来启动翻译项目，并指示内容的特定语言或区域。 然后，您可以选择您的翻译提供商。
 
-1. 从 **[!UICONTROL 翻译项目]** 下的菜单 **[!UICONTROL 内容管理]**，单击 **[!UICONTROL 创建项目]**.
+1. 从 **[!UICONTROL 翻译]** 下的菜单 **[!UICONTROL 内容管理]**，单击 **[!UICONTROL 创建项目]** 在 **[!UICONTROL 项目]** 选项卡。
 
    ![](assets/translation_project_1.png)
 
@@ -149,11 +138,11 @@ ht-degree: 4%
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 创建多语言营销活动 {#create-multilingual-campaign}
+## 创建多语言内容 {#create-multilingual-campaign}
 
-在设置翻译项目和语言设置后，您便可以创建营销活动并针对不同的区域设置自定义内容。
+在设置翻译项目和语言设置后，您便可以创建活动或历程，并针对不同的区域设置自定义内容。
 
-1. 首先根据您的要求创建和配置电子邮件、短信或推送通知营销活动。 [了解详情](../campaigns/create-campaign.md)
+1. 首先创建和配置电子邮件、短信或推送通知 [营销活动](../campaigns/create-campaign.md) 或 [历程](../building-journeys/journeys-message.md) 根据您的要求。
 
 1. 创建主要内容后，单击 **[!UICONTROL 保存]** 并返回到campaign配置屏幕。
 
@@ -211,9 +200,7 @@ ht-degree: 4%
 
 1. 检查营销活动是否正确配置，然后单击 **[!UICONTROL 激活]**.
 
-您的营销活动现已激活。 在营销活动中配置的消息将立即发送，或在指定日期发送。 请注意，活动一旦上线，就无法修改。 要重用内容，您可以复制Campaign。
-
-发送后，您可以在促销活动报表中衡量促销活动的影响。
+您现在可以激活营销活动或历程。 发送后，您可以在报表中衡量多语言历程或活动的影响。
 
 ## 管理内部翻译项目 {#manage-ht-project}
 

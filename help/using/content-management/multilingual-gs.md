@@ -8,31 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-hide: true
-hidefromtoc: true
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Beta 版" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="有限可用性" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 37%
+ht-degree: 25%
 
 ---
 
 # 多语言内容入门 {#multilingual-gs}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>目前，多语言内容仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
-**目录**
-
-* 多语言内容入门
-* [使用手动翻译创建多语言内容](multilingual-manual.md)
-* [使用自动翻译创建多语言内容](multilingual-automated.md)
-* [多语言营销活动报告](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-利用多语言功能，您可以轻松地在单个营销活动中创建多种语言的内容。 利用此功能，您可以在编辑活动时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。
+多语言功能使您能够轻松地在单个活动或历程中以多种语言创建内容。 利用此功能，您可以在编辑活动时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。
 
 使用Journey Optimizer，您可以通过两种不同的方法创建多语言内容：
 

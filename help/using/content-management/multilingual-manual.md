@@ -8,31 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-hide: true
-hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-badge: label="Beta 版" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="有限可用性" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 6%
+source-wordcount: '615'
+ht-degree: 4%
 
 ---
 
 # 使用手动翻译创建多语言内容 {#multilingual-manual}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>目前，多语言内容仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
-**目录**
-
-* [多语言内容入门](multilingual-gs.md)
-* 使用手动翻译创建多语言内容
-* [使用自动翻译创建多语言内容](multilingual-automated.md)
-* [多语言营销活动报告](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-使用手动流程，您可以轻松地直接在电子邮件、推送通知或短信营销活动中翻译内容，从而为多语言消息提供精确的控制和自定义选项。 此外，您还可以使用“导入HTML”选项轻松导入预先存在的多语言内容。
+使用手动流程，您可以轻松地直接在电子邮件、推送通知或短信营销活动和历程中翻译内容，从而为多语言消息提供精确的控制和自定义选项。 此外，您还可以使用“导入HTML”选项轻松导入预先存在的多语言内容。
 
 请按照以下步骤使用手动翻译创建多语言内容：
 
@@ -40,15 +31,13 @@ ht-degree: 6%
 
 1. [创建语言设置](#create-language-settings).
 
-1. [创建多语言营销活动](#create-a-multilingual-campaign).
+1. [创建多语言内容](#create-a-multilingual-campaign).
 
 ## 创建区域设置 {#create-locale}
 
 配置语言设置时，如 [创建语言设置](#language-settings) 部分，如果特定区域设置对于多语言内容不可用，您可以使用灵活地创建所需数量的新区域设置， **[!UICONTROL 翻译]** 菜单。
 
-1. 从 **[!UICONTROL 管理]** 菜单，访问 **[!UICONTROL 渠道]**.
-
-   利用翻译菜单，可访问激活的区域设置列表。
+1. 从 **[!UICONTROL 内容管理]** 菜单，访问 **[!UICONTROL 翻译]**.
 
 1. 从 **[!UICONTROL 区域设置词典]** 选项卡，单击 **[!UICONTROL 添加区域设置]**.
 
@@ -104,15 +93,15 @@ ht-degree: 6%
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## 创建多语言营销活动 {#create-multilingual-campaign}
+## 创建多语言内容 {#create-multilingual-campaign}
 
-在设置多语言内容后，您可以制作活动并针对每个所选区域设置自定义内容。
+在设置多语言内容后，您可以制作活动或历程并自定义每个选定区域设置的内容。
 
-1. 首先根据您的要求创建和配置电子邮件、短信或推送通知营销活动。 [了解详情](../campaigns/create-campaign.md)
+1. 首先创建和配置电子邮件、短信或推送通知 [营销活动](../campaigns/create-campaign.md) 或 [历程](../building-journeys/journeys-message.md) 根据您的要求。
 
-1. 导航至 **[!UICONTROL 操作]** 菜单，然后选择 **[!UICONTROL 编辑内容]**.
-
-   ![](assets/multilingual-campaign-1.png)
+   >[!AVAILABILITY]
+   >
+   >我们建议每个历程仅包含一个翻译项目。
 
 1. 创建或导入原始内容，并根据需要对其进行个性化。
 
@@ -148,11 +137,7 @@ ht-degree: 6%
 
    ![](assets/multilingual-campaign-8.png)
 
-1. 检查营销活动是否正确配置，然后单击 **[!UICONTROL 激活]**.
-
-您的营销活动现已激活。 在营销活动中配置的消息将立即发送，或在指定日期发送。 请注意，活动一旦上线，就无法修改。 要重用内容，您可以复制Campaign。
-
-发送后，您可以在促销活动报表中衡量促销活动的影响。
+您现在可以激活营销活动或历程。 发送后，您可以在报表中衡量多语言历程或活动的影响。
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

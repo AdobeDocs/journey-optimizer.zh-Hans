@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta 版" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '191'
+ht-degree: 5%
 
 ---
 
 # 多语言营销活动报告 {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [多语言内容入门](multilingual-gs.md)
-* [使用手动翻译创建多语言内容](multilingual-manual.md)
-* [使用自动翻译创建多语言内容](multilingual-automated.md)
-* 多语言营销活动报告
-
->[!ENDSHADEBOX]
 
 全局报告，可从访问 **所有时间** 选项卡，显示至少两小时前发生的事件，并涵盖选定时间段内的事件。 您可以使用直接从Campaign访问Campaign全局报告 **[!UICONTROL 查看报告]** 按钮。
 
