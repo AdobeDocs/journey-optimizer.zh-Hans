@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eedefbe48e209d6b5aa3ec60527d9e34ced54644
+source-git-commit: b19bc2774a55df656a0652e6a148873787051c93
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 61%
+source-wordcount: '964'
+ht-degree: 58%
 
 ---
 
@@ -106,38 +106,38 @@ ht-degree: 61%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns (Limited Availability)</strong><br/></th>
+<th><strong>历程和营销活动中的多语言消息（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
-<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>现在，您可以在单个活动或历程中轻松创建多种语言的内容。 利用此功能，您可以在编辑活动或历程时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。</p>
+<p>目前，多语言内容仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>历程中的试验（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
-<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Adobe Journey Optimizer已在营销活动中提供，现在支持历程中的试验。 试验是开展在线测试时进行的随机试用，这意味着您将为给定的消息试验接触部分随机选择的用户，并为其他试验或试验组接触另外一组随机选择的用户。公开后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
+<p>历程中的试验当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 
