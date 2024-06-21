@@ -10,7 +10,7 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="有限可用性" type="Informative"
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 25%
@@ -30,6 +30,7 @@ ht-degree: 25%
 * **手动翻译**：直接在Email Designer中翻译内容或导入现有的多语言内容。 [了解详情](multilingual-manual.md)
 
 * **自动翻译**：将内容发送到您的首选语言提供商以进行自动翻译。 [了解详情](multilingual-automated.md)
+
 
 </br>
 
