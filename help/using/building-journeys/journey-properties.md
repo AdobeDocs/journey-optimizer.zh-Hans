@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 历程，配置，属性
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1726'
 ht-degree: 8%
 
 ---
@@ -50,7 +51,23 @@ ht-degree: 8%
 
 ## 进入和重新进入 {#entrance}
 
+### 允许重新进入  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="允许重新进入"
+>abstract="默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
+
 默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。
+
+### 重新进入等待期  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="重新进入等待期"
+>abstract=" 将等待时间设置为允许用户档案在单一历程中再次进入历程。 这样可防止用户在选定的持续时间内重新进入历程。 最长持续时间：29天。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
 当 **允许重新进入** 选项已激活， **重新进入等待期** 字段。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为29天。
 
@@ -70,6 +87,17 @@ ht-degree: 8%
 
 ## 开始和结束日期 {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="开始日期"
+>abstract="选择进入历程可以开始的日期。 如果未指定开始日期，则在发布时自动设置此日期。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="结束日期"
+>abstract="选择历程的结束日期。 达到该日期后，该历程中的用户档案会自动退出该日期，并且新用户档案无法再进入该日期。"
+
 您可以定义 **开始日期**. 如果您尚未指定名称，则将在发布时自动定义它。
 
 您还可以添加 **结束日期**. 这允许用户档案在到期时自动退出。如果未指定结束日期，则配置文件可以保留到 [全局历程超时](#global_timeout) （通常为91天，若使用Healthcare Shield附加产品，缩短为7天）。 唯一的例外是具有以下特征的定期读取受众历程 **在重复时强制重新进入** 激活，在下一次事件的开始日期结束。
@@ -77,6 +105,12 @@ ht-degree: 8%
 ## 超时 {#timeout}
 
 ### 历程活动超时或错误 {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="超时"
+>abstract="定义历程在将其视为超时之前尝试执行操作或验证条件的时间量。"
+
 
 编辑操作或条件活动时，您可以定义替代路径以防出现错误或超时。 如果处理询问第三方系统的活动超出了中定义的超时持续时间 **[!UICONTROL 超时或错误]** 在历程属性的字段中，将选择第二个路径来执行潜在的回退操作。
 
@@ -221,4 +255,3 @@ ht-degree: 8%
 历程将遵循在整个历程中使用的合并策略。 因此，如果旅程中使用多个受众（例如：在“inAudience”函数中），导致旅程使用的合并策略不一致，则会引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
 要了解有关合并策略的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-
