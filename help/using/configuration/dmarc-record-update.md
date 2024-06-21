@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '431'
 ht-degree: 100%
 
 ---
@@ -45,21 +45,20 @@ ht-degree: 100%
 或
    * 在 [!DNL Journey Optimizer]**配置用户界面中，在已委派子域上设置 DMARC**。[了解如何操作](dmarc-record.md#implement-dmarc)
 
-  >[!IMPORTANT]
-  >
-  >但是，CNAME 设置还需要在托管解决方案中执行其他一些输入操作。因此，请确保与 IT 部门进行协作，以便能够执行[本节](dmarc-record.md#implement-dmarc)中详述的更新。
+  但是，CNAME 设置还需要在托管解决方案中执行其他一些输入操作。因此，请确保与 IT 部门进行协作，以便能够执行[本节](dmarc-record.md#implement-dmarc)中详述的更新。
 
-Google 和 Yahoo! 共享的最新时间表如下：
+<!--The most recent timelines shared by Google and Yahoo! are as follows:
 
-* Google：
+* Google:
 
-   * **2024 年 2 月** – 将开始执行临时性的回退，以对不合规的情况提出警告。如果您尚未遵守相关规定，在短暂延迟后，电子邮件仍可正常送达。如果您已完全遵循相关规定，将不会出现临时退回，并且不会受到影响。
+    * **February 2024** – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you will not be affected.
 
-   * **2024 年 4 月** – 将开始阻止不符合 DMARC 要求的发件人。最初只会阻止一部分不合规的电子邮件，随后会逐渐提升阻止的比例。
+    * **April 2024** – Blocks will begin for senders who are not in compliance with DMARC requirement. Only a portion of non-compliant email will be blocked at first, with the percentage blocked increasing over time.
 
-   * **2024 年 6 月 1 日** – 任何未完全合规的发件人都会被阻止。
+    * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
 
-* Yahoo!尚未提供具体日期，但表示“将从 2024 年 2 月开始实施该规定。相关工作会逐步展开”。
+* Yahoo! has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+-->
 
 >[!NOTE]
 >

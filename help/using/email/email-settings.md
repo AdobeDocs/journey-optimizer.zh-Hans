@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2415'
-ht-degree: 1%
+source-wordcount: '2532'
+ht-degree: 10%
 
 ---
 
@@ -26,24 +26,24 @@ ht-degree: 1%
 
 在渠道平面配置的专用部分中定义电子邮件设置，如下所述。
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 系统会选取电子邮件表面配置，以便按照以下逻辑发送通信：
 
-* 对于批处理历程，不适用于在进行电子邮件表面配置之前已启动的批处理执行。 将在下次重复或新执行时提取更改。
+* 对于批处理历程，不适用于在进行电子邮件表面配置之前已启动的批处理执行。 下次重复执行或新执行时会选取更改。
 
 * 对于事务型消息，会在下次通信时立即拾取更改（最多延迟5分钟）。
 
 >[!NOTE]
 >
->更新后的电子邮件表面设置将在使用表面的历程或营销活动中自动提取。
+>更新后的电子邮件表面设置会在使用表面的历程或营销活动中自动提取。
 
 ## 电子邮件类型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类型"
->abstract="选择使用此表面时将发送的电子邮件类型：营销型促销电子邮件（需要用户同意）或事务型非商业电子邮件（也可在特定上下文中发送到未订阅的用户档案）。"
+>abstract="选择使用此表面时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
 
 在 **电子邮件类型** 部分，为曲面选择消息类型： **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**.
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 选择要与表面关联的IP池。 [了解详情](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 选定IP池位于下时，无法继续创建表面 [版本](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL 正在处理]** 状态)且从未与选定子域关联。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将表面另存为草稿，并在IP池具有 **[!UICONTROL 成功]** 状态。
 
@@ -81,41 +81,48 @@ ht-degree: 1%
 >
 >如果未配置PTR记录，请联系您的Adobe代表。
 
-## 列表取消订阅 {#list-unsubscribe}
+## 列表取消订阅标头{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 于 [选择子域](#subdomains-and-ip-pools) 从列表中， **[!UICONTROL 启用List-Unsubscribe]** 选项随即显示。
 
-此选项默认处于启用状态。 如果您将其保留为启用，则取消订阅链接将自动包含在电子邮件标头中，例如：
+默认情况下，启用此选项以在电子邮件标头中包含一键式取消订阅URL，例如：
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果禁用此选项，则电子邮件标头中不显示取消订阅链接。
+如果禁用此选项，则电子邮件标头中不会显示一键式取消订阅URL。
 
-您可以从 **同意级别** 下拉列表。 可特定于渠道或用户档案标识。 基于此设置，当用户使用电子邮件的列表取消订阅标头链接取消订阅时，同意会在Adobe Journey Optimizer中在渠道级别或ID级别更新。
+您可以从 **[!UICONTROL 同意级别]** 下拉列表。 可特定于渠道或用户档案标识。 基于此设置，当用户使用电子邮件标头中的列表取消订阅URL取消订阅时，同意会在Adobe Journey Optimizer中在渠道级别或ID级别更新。
 
-取消订阅链接包含两个元素：
+List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，如下所述），除非取消选中一种或两种功能，否则默认启用这两种功能：
 
-* An **取消订阅电子邮件地址**，则会将所有取消订阅请求发送到。
+* A **Mailto（取消订阅）** 地址，取消订阅请求被路由到以进行自动处理的目标地址。
 
-  在 [!DNL Journey Optimizer]，默认使用取消订阅电子邮件地址 **[!UICONTROL Mailto（取消订阅）]** 渠道界面中显示的地址，基于 [所选子域](#subdomains-and-ip-pools).
+  在Journey Optimizer中，默认使用取消订阅电子邮件地址 **Mailto（取消订阅）** 渠道平面中显示的地址，根据您的 [所选子域](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* 此 **取消订阅URL**，这是登陆页面的URL，取消订阅后，用户将重定向到该页面。
 
-  如果添加 [一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out) 对于使用此界面创建的消息，取消订阅URL将为一键式选择退出链接定义的URL。
+* 此 **一键式取消订阅URL**，默认情况下，根据您在渠道平面设置中设置并配置的子域，该页面是一键式选择我们的URL生成的列表取消订阅标头。
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+<!--
+    >[!AVAILABILITY]
+    >
+    >One-click Unsubscribe URL Header will be available in Adobe Journey Optimizer starting June 3, 2024.
+    >
+-->
 
-  >[!NOTE]
-  >
-  >如果您没有在消息内容中添加一键式选择退出链接，则不会向用户显示登陆页面。
+此 **[!UICONTROL Mailto（取消订阅）]** 功能和 **[!UICONTROL 一键式取消订阅URL]** 功能是可选的。 如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在以下场景中 **[!UICONTROL 选择退出配置]** 选项已切换，并且 **[!UICONTROL 一键式取消订阅URL]** 如果添加 [一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out) 对于使用此界面创建的消息，列表取消订阅标头将选取您在电子邮件正文中插入的一键式选择退出链接，并将其用作一键式取消订阅URL值。
 
-在中详细了解如何添加指向消息的标头取消订阅链接 [本节](../privacy/opt-out.md#unsubscribe-header).
+![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+>[!NOTE]
+>
+>如果您没有在消息内容中添加一键式选择退出链接，并且在“渠道设置”中取消选中默认一键式取消订阅URL，则不会将URL作为“列表取消订阅”标头的一部分传递到电子邮件标头。
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+在中详细了解管理消息中的取消订阅功能 [本节](../email/email-opt-out.md#unsubscribe-header).
 
 ## 标题参数 {#email-header}
 
@@ -196,12 +203,12 @@ ht-degree: 1%
 
 如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
 
-## 发送到禁止显示的电子邮件地址 {#send-to-suppressed-email-addresses}
+## 发送到已禁止的电子邮件地址 {#send-to-suppressed-email-addresses}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="覆盖禁止列表优先级"
->abstract="您可以决定向用户档案发送事务型消息，即使其电子邮件地址因垃圾邮件投诉而位于Adobe Journey Optimizer禁止列表上也是如此。 默认禁用此选项。"
+>abstract="可决定将交易型消息发送到配置文件，即使这些消息的电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表也是如此。默认禁用此选项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hans" text="管理禁止列表"
 
 >[!IMPORTANT]
@@ -231,8 +238,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
->abstract="选择您选择的种子列表以自动将特定内部地址添加到受众。 这些种子地址将在投放执行时包含在内，并将收到消息的确切副本，以确保安全。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
+>abstract="选择所选的种子列表以自动将特定的内部地址添加到受众。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
 
 中的种子列表 [!DNL Journey Optimizer] 使您能够在投放中自动包含特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)
 
@@ -257,8 +264,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
->abstract="如果电子邮件投放因临时软退回错误而失败，则重试会持续3.5天（84小时）。 您可以调整此默认重试时段，以更好地满足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
+>abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以调整此默认重试时段以更好地满足您的需求。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
 
 您可以配置 **电子邮件重试参数**.
 
@@ -274,19 +281,19 @@ ht-degree: 1%
 
 在中了解有关重试的更多信息 [本节](../configuration/retries.md).
 
-## URL跟踪 {#url-tracking}
+## URL 跟踪 {#url-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="定义URL跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到电子邮件内容中存在的URL。 此功能是可选的。"
+>title="定义 URL 跟踪参数"
+>abstract="使用此部分可自动将跟踪参数附加到在电子邮件内容中提供的 URL。此功能属于可选功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="预览URL跟踪参数"
->abstract="请查看如何将跟踪参数附加到电子邮件内容中存在的URL中。"
+>title="预览 URL 跟踪参数"
+>abstract="查看如何对电子邮件内容中出现的 URL 附加跟踪参数。"
 
-您可以使用 **[!UICONTROL URL跟踪参数]** 衡量您跨渠道营销工作的有效性。 此功能是可选的。
+您可以使用 **[!UICONTROL URL跟踪参数]** 衡量您跨渠道营销工作的有效性。 此功能属于可选功能。
 
 此部分中定义的参数将被附加到电子邮件内容中包含的URL的末尾。 然后，您可以在Adobe Analytics或Google Analytics等网站分析工具中捕获这些参数，并创建各种性能报表。
 
