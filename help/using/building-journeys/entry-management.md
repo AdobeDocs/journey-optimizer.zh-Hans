@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、个人资料、定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 5%
 
 # 用户档案入口管理 {#entry-management}
 
-历程分为四种类型：
+用户档案入口管理取决于历程类型。 在Adobe Journey Optimizer中，可以使用以下类型的历程：
 
 * **单一事件** 历程：这些历程从单一事件开始。 收到事件后，关联的配置文件将进入旅程。 [了解详情](#entry-unitary)
 
-* **业务事件** 历程：这些历程以业务事件开始，随后是读取受众。 收到事件后，属于目标受众的用户档案将进入历程。 将为每个用户档案创建一个此历程的实例。 [了解详情](#entry-business)
+* **业务事件** 历程：这些历程以业务事件开始，随后紧跟 **读取受众** 活动。 收到事件后，属于目标受众的用户档案将进入历程。 为每个用户档案创建一个此历程的实例。 [了解详情](#entry-business)
 
-* **读取受众** 历程：这些历程以读取受众开始。 执行历程时，属于目标受众的用户档案进入历程。 将为每个用户档案创建一个此历程的实例。 这些历程可以是循环或一次性历程。 [了解详情](#entry-read-audience)
+* **读取受众** 历程：这些历程以 **读取受众** 活动。 执行历程时，属于目标受众的用户档案进入历程。 为每个用户档案创建一个此历程的实例。 这些历程可以是循环或“一次性”。 [了解详情](#entry-read-audience)
 
 * **受众资格** 历程：这些历程以受众资格事件开始。 这些历程侦听受众中用户档案的进出口。 发生此情况时，关联的配置文件将进入旅程。 [了解详情](#entry-unitary)
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 ## 单一事件和受众资格历程{#entry-unitary}
 
-在单一事件和受众资格历程中，您可以启用或禁用重新进入：
+在 **单一事件** 和 **受众资格** 历程，您可以启用或禁用重新进入：
 
 * 如果启用了重新进入，则用户档案可以多次进入历程，但只有在完全退出历程的上一个实例后才能进入历程。
 
@@ -51,13 +51,13 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## 业务历程{#entry-business}
+## 业务历程 {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-要允许多个业务事件执行，请在 **[!UICONTROL 执行]** 旅程属性的部分。
+在 **业务历程**，要允许多个业务事件执行，请在 **[!UICONTROL 执行]** 旅程属性的部分。
 
 ![](assets/business-entry.png)
 
@@ -67,13 +67,13 @@ Business events follow re-entrance rules in the same way as for unitary events. 
 
 有关更多信息，请参阅此 [部分](../event/about-creating-business.md)
 
-## 读取受众历程{#entry-read-audience}
+## 读取受众历程 {#entry-read-audience}
 
-读取受众历程可以是循环或一次性历程：
+**读取受众** 历程可以是循环或“一次性”：
 
-* 对于非循环历程：用户档案在历程中只输入一次。
+* 对于非定期/“一次性”历程：用户档案在历程中只进入一次。
 
-* 对于定期历程：默认情况下，属于受众的所有用户档案都会在每次定期时进入历程。 必须先完成历程，然后才能在另一个事件中再次进入。
+* 对于定期历程：默认情况下，属于受众的所有用户档案都会在每次定期时进入历程。 必须先完成历程，然后才能在另一个事件中重新进入。
 
 有两个选项可用于定期读取受众历程：
 
@@ -83,7 +83,7 @@ Business events follow re-entrance rules in the same way as for unitary events. 
   >
   >如果您要定位 [自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer) 在您的历程中，仅当在定期历程中启用此选项时，才会在第一次重复时检索用户档案，因为这些受众是固定的。
 
-* **在重复时强制重入**：利用此选项可让历程中仍存在的所有用户档案在下次执行时自动退出历程。 如果配置文件在此历程中的生命周期可能长于重复频率（例如，如果您使用等待活动），请勿激活此选项以确保配置文件可以完成其历程。
+* **在重复时强制重新进入**：利用此选项可让历程中仍存在的所有用户档案在下次执行时自动退出历程。 如果配置文件在此历程中的生命周期可能长于重复频率（例如，如果您使用等待活动），请勿激活此选项以确保配置文件可以完成其历程。
 
 ![](assets/read-audience-options.png)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5371'
+source-wordcount: '5383'
 ht-degree: 99%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 99%
 * 随附的所有新增功能和改进 [!DNL Journey Optimizer] 文档中详细介绍了2024年6月版。 [了解详情](release-notes.md)
 * 中添加了有关在历程中使用合并策略的说明 [此页面](../building-journeys/journey-properties.md#merge-policies).
 * 重新组织和改进了有关如何在历程中配置&#x200B;**等待**&#x200B;活动的页面。[了解详情](../building-journeys/wait-activity.md)
+* 已创建新页面以详细描述历程的属性。 [了解详情](../building-journeys/journey-properties.md)
 
 ## 2024 年 5 月 {#may-2024}
 
@@ -114,7 +115,7 @@ ht-degree: 99%
 ## 2023 年 10 月 {#oct-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 10 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 添加了 GIF 以说明一些关键功能，例如：[内容模板](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[计算属性](../audience/computed-attributes.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[标记](../start/search-filter-categorize.md#tags)、[决策管理优化模型](../offers/ranking/personalized-optimization-model.md)、[API 触发的营销活动](../campaigns/api-triggered-campaigns.md)和[内容试验](../campaigns/content-experiment.md)。
+* 添加了 GIF 以说明一些关键功能，例如：[内容模板](../content-management/content-templates.md)、[片段](../content-management/fragments.md)、[计算属性](../audience/computed-attributes.md)、[直邮](../direct-mail/get-started-direct-mail.md)、[标记](../start/search-filter-categorize.md#tags)、[决策管理优化模型](../offers/ranking/personalized-optimization-model.md)、[API 触发的营销活动](../campaigns/api-triggered-campaigns.md)和[内容试验](../content-management/content-experiment.md)。
 * 架构创建流程已更新，以反映用户界面中的最新更新，伴随着对 Adobe Experience Platform 做出的一些更改。[了解详情](../audience/creating-test-profiles.md)
 * 在护栏和限制页面中添加了决策管理护栏。[了解详情](../start/guardrails.md#decision-management)
 * 更新了标头参数部分，以反映如何处理“外出”通知和质询响应（会在&#x200B;**[!UICONTROL 错误电子邮件]**&#x200B;中收到它们）。[了解详情](../email/email-settings.md#email-header)
