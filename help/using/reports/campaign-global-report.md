@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4806'
 ht-degree: 23%
@@ -72,7 +72,7 @@ ht-degree: 23%
 
 The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
 
-The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../content-management/reporting-configuration.md).
 
 After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
 
@@ -96,13 +96,13 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 此 **[!UICONTROL 试验结果]** 构件详细说明了每个变体的性能。 您可以从中选择处理方法之一，以更改基线 **[!UICONTROL 基线]** 下拉菜单。 最佳处理方式将以星形图标表示。
 
-有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../campaigns/get-started-experiment.md#interpret-results).
+有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../content-management/get-started-experiment.md#interpret-results).
 
 下表显示了以下量度：
 
 * **[!UICONTROL 提升度超过基线]**：衡量给定治疗的转化率相对于基线的改进百分比。
 
-* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
 
 * **[!UICONTROL 独特出站点击次数]**：跨出站渠道的点击总数。
 
@@ -110,7 +110,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 * **[!UICONTROL 独特出站点击次数/配置文件]**：之前创建实验时选择的成功量度的总值除以配置文件数。
 
-此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
+此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../content-management/experiment-calculations.md#confidence-intervals)。
 
 ![](assets/experimentation_report_4.png)
 

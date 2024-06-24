@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 32%
@@ -53,7 +53,7 @@ ht-degree: 32%
 
 1. 在 **[!UICONTROL 属性]** 部分，指定营销策划的名称和描述。
 
-   <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+   <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
 1. 此 **标记** 利用字段，可将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)
 

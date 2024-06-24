@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="推送消息创建"
->abstract="添加推送消息，然后开始使用个性化编辑器对其进行个性化。"
+>abstract="添加您的推送消息，并使用个性化编辑器开始对其进行个性化设置。"
 
 ## 在历程或营销策划中创建推送通知 {#create}
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
    ![](assets/push_create_5.png)
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
 1. 营销活动旨在按特定日期或循环频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
 
@@ -101,7 +101,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="快速传递模式"
->abstract="快速传递模式可让您在推送渠道上向3000万以下的受众规模执行高速消息发送。"
+>abstract="快速传递模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
 
 快速传递模式是 [!DNL Journey Optimizer] 允许通过营销活动以非常快的速度发送大量推送消息的加载项。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建文本消息"
->abstract="要创建短信(SMS/MMS)，请在历程或营销策划中添加短信操作，然后开始使用个性化编辑器对其进行个性化。"
+>abstract="要创建短信 (SMS/SMS)，请在历程或营销活动中添加短信操作，然后开始用个性化编辑器使其个性化。"
 
 您可以使用Adobe Journey Optimizer设计和发送文本(SMS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    ![](assets/sms_create_5.png)
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
 1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪短信消息中的链接点击次数。
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定义短信内容"
->abstract="使用个性化编辑器自定义文本消息(SMS/MMS)并将其个性化，以定义内容并合并动态元素。"
+>abstract="通过使用个性化编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS) 并使其个性化。"
 
 要配置短信内容，请执行以下步骤。 有关MMS设置的详情，请参见 [本节](#mms-content).
 
@@ -109,7 +109,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 要了解有关权限的更多信息，请参阅 [本节](../administration/high-low-permissions.md).
+   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
 
    ![](assets/sms_tracking_1.png)
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
 执行测试并验证内容后，即可向受众发送短信。 这些步骤详见 [此页面](send-sms.md)
 
-发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参阅 [本节](../reports/campaign-global-report.md#sms-tab).
+发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
 
 **相关主题**
 

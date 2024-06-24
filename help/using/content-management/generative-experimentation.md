@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI助手进行内容试验
-description: 使用AI助手进行内容试验
+title: 使用 AI 助手进行内容试验
+description: 使用 AI 助手进行内容试验
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,14 +11,14 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
-# 使用AI助手进行内容试验 {#generative-experimentation}
+# 使用 AI 助手进行内容试验 {#generative-experimentation}
 
 >[!BEGINSHADEBOX]
 
@@ -27,8 +27,8 @@ ht-degree: 10%
 * [AI 助手入门](gs-generative.md)
 * [使用 AI 助手生成电子邮件](generative-email.md)
 * [使用 AI 助手生成短信](generative-sms.md)
-* [使用AI助手生成推送](generative-push.md)
-* 使用AI助手进行内容试验
+* [使用 AI 助手进行推送生成](generative-push.md)
+* 使用 AI 助手进行内容试验
 
 >[!ENDSHADEBOX]
 
@@ -52,11 +52,11 @@ ht-degree: 10%
 
    ![](assets/experiment-genai-3.png)
 
-1. 在“内容试验”窗口中，访问 **[!UICONTROL 试验设置]** 按钮以配置试验。 [了解有关内容试验的更多信息](../campaigns/content-experiment.md)
+1. 在“内容试验”窗口中，访问 **[!UICONTROL 试验设置]** 按钮以配置试验。 [了解有关内容试验的更多信息](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. 当内容试验准备就绪时，您可以从营销活动摘要页面单击 **[!UICONTROL 审查以激活]** 以显示营销活动的摘要。 如果有任何参数不正确或缺失，将显示警报。 [了解详情](../campaigns/content-experiment.md#treatment-experiment)
+1. 当内容试验准备就绪时，您可以从营销活动摘要页面单击 **[!UICONTROL 审查以激活]** 以显示营销活动的摘要。 如果有任何参数不正确或缺失，将显示警报。 [了解详情](../content-management/content-experiment.md#treatment-experiment)
 
 1. 在启动营销活动之前，请仔细检查所有配置是否正确，然后单击 **[!UICONTROL 激活]**.
 

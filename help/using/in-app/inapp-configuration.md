@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -131,7 +131,7 @@ ht-degree: 9%
 
 换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
 
-了解如何在中为内容实验报告添加数据集 [本节](../campaigns/reporting-configuration.md#add-datasets).
+了解如何在中为内容实验报告添加数据集 [本节](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

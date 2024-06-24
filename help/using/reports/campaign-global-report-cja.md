@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta 版" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 2%
@@ -134,7 +135,7 @@ KPI将因您的营销活动中使用的渠道而异。
 
 * **[!UICONTROL 提升]**：衡量给定治疗的转化率相对于基线的改进百分比。
 
-* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ KPI将因您的营销活动中使用的渠道而异。
 ![](assets/cja-experimentation-variants.png)
 
 此 **[!UICONTROL 按集客点击量显示的变量]** 构件详细说明了每个变体的性能。
-有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../campaigns/get-started-experiment.md#interpret-results).
+有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../content-management/get-started-experiment.md#interpret-results).
 
 +++ 了解关于按集客点击量量度划分的变体的更多信息
 
@@ -155,7 +156,7 @@ KPI将因您的营销活动中使用的渠道而异。
 
 * **[!UICONTROL 提升]**：衡量给定治疗的转化率相对于基线的改进百分比。
 
-* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ KPI将因您的营销活动中使用的渠道而异。
 
 ![](assets/cja-experimentation-conversion.png)
 
-此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
+此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../content-management/experiment-calculations.md#confidence-intervals)。
 
 ## 电子邮件 {#email-global}
 
@@ -784,4 +785,3 @@ KPI将因您的营销活动中使用的渠道而异。
 * **[!UICONTROL 独特显示]**：消息的打开次数，不考虑一个用户档案的多个交互。
 
 +++
-

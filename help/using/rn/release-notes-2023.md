@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4394'
 ht-degree: 100%
@@ -513,7 +513,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>现在，Adobe Journey Optimizer 在营销活动中支持试验。试验是开展在线测试时进行的随机试用，这意味着您将为给定的消息试验接触部分随机选择的用户，并为其他试验或试验组接触另外一组随机选择的用户。公开后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<p>有关更多信息，请参阅<a href="../campaigns/content-experiment.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/content-experiment.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

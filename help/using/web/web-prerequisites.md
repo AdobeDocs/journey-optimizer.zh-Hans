@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -137,7 +137,7 @@ ht-degree: 2%
 
 换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
 
-了解如何在中为内容实验报告添加数据集 [本节](../campaigns/reporting-configuration.md#add-datasets).
+了解如何在中为内容实验报告添加数据集 [本节](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

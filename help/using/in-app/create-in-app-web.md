@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 5%
@@ -76,7 +76,7 @@ ht-degree: 5%
 
 1. 在 **[!UICONTROL 操作]** 菜单下，您可以找到之前配置为 **[!UICONTROL 应用程序表面]**. 您可以在此处进行必要更改，或通过单击以更新规则 **[!UICONTROL 编辑规则]**.
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../campaigns/content-experiment.md)
+1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
 1. 单击 **[!UICONTROL 编辑触发器]** 以选择触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
 

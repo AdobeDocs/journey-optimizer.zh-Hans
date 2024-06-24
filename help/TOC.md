@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1848'
 ht-degree: 98%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 98%
    + [创建营销活动](using/campaigns/create-campaign.md)
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
-   + 内容体验{#content-experiment}
-      + [内容体验入门](using/campaigns/get-started-experiment.md)
-      + [创建内容体验](using/campaigns/content-experiment.md)
-      + [配置实验报告](using/campaigns/reporting-configuration.md)
-      + 技术说明 {#technotes}
-         + [了解统计计算](using/campaigns/experiment-calculations.md)
-         + [了解试验报告中的统计计算](using/campaigns/experiment-report-calculations.md)
    + [使用 API 触发活动](using/campaigns/api-triggered-campaigns.md)
 + 电子邮件渠道 {#email}
    + [电子邮件入门](using/email/get-started-email.md)
@@ -283,6 +276,13 @@ ht-degree: 98%
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
+   + 使用内容试验 {#content-experiment}
+      + [内容体验入门](using/content-management/get-started-experiment.md)
+      + [创建内容体验](using/content-management/content-experiment.md)
+      + [配置实验报告](using/content-management/reporting-configuration.md)
+      + 技术说明 {#technotes}
+         + [了解统计计算](using/content-management/experiment-calculations.md)
+         + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
    + 资源/图像{#assets-images}
       + [使用 Experience Manager Assets](using/content-management/assets.md)
       + [使用 Adobe Stock](using/content-management/stock.md)

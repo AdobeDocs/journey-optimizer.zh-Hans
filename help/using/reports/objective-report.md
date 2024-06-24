@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta 版" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ ht-degree: 4%
 
 此 **[!UICONTROL 目标]** 选项卡允许您通过定位一个特定量度来更好地优化投放的报告。
 
-此 **[!UICONTROL 目标]** 列表已链接到 **[!UICONTROL 数据集]** 来定义与系统的连接以便检索附加信息。 内置列表 **[!UICONTROL 目标]** 可用，但您可以通过添加新来添加您自己的 **[!UICONTROL 数据集]**. 有关详细过程，请参阅此 [部分](../campaigns/reporting-configuration.md).
+此 **[!UICONTROL 目标]** 列表已链接到 **[!UICONTROL 数据集]** 来定义与系统的连接以便检索附加信息。 内置列表 **[!UICONTROL 目标]** 可用，但您可以通过添加新来添加您自己的 **[!UICONTROL 数据集]**. 有关详细过程，请参阅此 [部分](../content-management/reporting-configuration.md).
 
 选择完要定位的目标后，两者 **[!UICONTROL 性能概述]** 和 **[!UICONTROL 营销活动目标]** 构件将提供投放性能的详细摘要。
 
@@ -72,7 +72,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 提升度超过基线]**：衡量给定治疗的转化率相对于基线的改进百分比。
 
-* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL 置信度]**：表明给定治疗与基线治疗相同的证据。 [了解详情](../content-management/experiment-calculations.md#understand-confidence)
 
 * **[!UICONTROL 独特出站点击次数]**：跨出站渠道的点击总数。
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 * **[!UICONTROL 独特出站点击次数/配置文件]**：之前创建实验时选择的成功量度的总值除以配置文件数。
 
-此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../campaigns/experiment-calculations.md#confidence-intervals)。
+此 **[!UICONTROL 置信区间]** 图表衡量改进的不确定性。 它详细说明了基线和最佳业绩处理之间的业绩差异百分比。 [了解详情](../content-management/experiment-calculations.md#confidence-intervals)。
 +++
 
-有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../campaigns/get-started-experiment.md#interpret-results).
+有关这些结果以及如何解释这些结果的深入研究，请参阅 [此页面](../content-management/get-started-experiment.md#interpret-results).

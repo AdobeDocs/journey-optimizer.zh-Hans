@@ -5,11 +5,11 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-badge: label="有限可用性"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+badge: label="有限发布版"
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 1. 创建营销策划并选择 **[!UICONTROL 基于代码的体验]** 操作。 [了解详情](../code-based/create-code-based.md)
 
-1. 在营销活动摘要页面中，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。 [了解详情](../campaigns/content-experiment.md)
+1. 在营销活动摘要页面中，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。 [了解详情](../content-management/content-experiment.md)
 
 1. 选择 **[!UICONTROL 决策]** 图标，单击 **[!UICONTROL 创建决策]** 并填写决策详细信息。 [了解详情](create-decision.md)
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 1. 为您的决策定义选择策略。 单击 **[!UICONTROL 添加策略]**.
 
-1. 单击 **[!UICONTROL 创建]**. 新决策将添加在 **[!UICONTROL 决策]**.
+1. 单击&#x200B;**[!UICONTROL 创建]**。新决策将添加在 **[!UICONTROL 决策]**.
 
    ![](assets/decision-code-based-decision-added.png)
 
