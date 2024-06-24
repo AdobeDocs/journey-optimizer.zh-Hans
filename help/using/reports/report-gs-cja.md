@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta 版" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 >
 > 要恢复到Journey Optimizer的传统报表，只需将 **[!UICONTROL 使用新体验]** 选项。
 
-Journey Optimizer报表功能现在与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。
+Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。
 
 * 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL 历程]** 菜单，访问您的旅程，然后单击 **[!UICONTROL 查看报告]** 按钮。
 
@@ -47,4 +48,3 @@ Journey Optimizer报表功能现在与Customer Journey Analytics功能完全集�
 * 要在Journey Optimizer中访问Customer Journey Analytics功能板，只需启用 **[!UICONTROL 使用新体验]** 在报表中进行切换。
 
   ![](assets/cja-option.png)
-
