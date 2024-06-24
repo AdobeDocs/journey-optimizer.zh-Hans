@@ -8,16 +8,22 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 26%
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
 # 历程字段 {#sharing-journey-fields}
 
-此字段组在历程模式中使用（与journeyStepEvent相关）。 它包含以下字段：
+此字段组用于 **历程** 模式(与 **journeyStepEvent**)。 它包含下面列出的字段。
+
+
+>[!NOTE]
+>
+>了解有关历程属性的更多信息 [在此部分中](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## journeyID {#journeyid-field}
 

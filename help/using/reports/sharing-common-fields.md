@@ -8,20 +8,26 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 9%
+source-wordcount: '620'
+ht-degree: 0%
 
 ---
 
 # journeysteps事件常用字段 {#sharing-common-fields}
 
-此字段组将由journeyStepEvent和journeyStepProfileEvent共享。
+以下事件将共享此字段组： **journeyStepEvent** 和 **journeyStepProfileEvent**.
 
 以下是常见的XDM字段 [!DNL Journey Optimizer] 发送至Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
 
 其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件大小。
+
+
+>[!NOTE]
+>
+>了解有关历程属性的更多信息 [在此部分中](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## 入口 {#entrance-field}
 

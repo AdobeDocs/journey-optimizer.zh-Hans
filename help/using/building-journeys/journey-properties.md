@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 7%
 >对于实时历程，此屏幕仅显示发布日期和发布历程的用户名称。
 
 此 **复制技术详细信息** 允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息： `JourneyVersion UID`， `OrgID`， `orgName`， `sandboxName`， `lastDeployedBy`， `lastDeployedAt`.
+
+详细了解与给定用户档案的历程相关的技术字段及其使用方法 [本页内容](expression/journey-properties.md).
 
 
 ## 进入和重新进入 {#entrance}

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 22%
@@ -123,7 +123,7 @@ ht-degree: 22%
 
 ➡️ [在视频中了解此功能](journey.md#video)
 
-以下列出了通过历程发送消息的步骤。
+以下列出了通过历程发送消息的步骤：
 
 1. 从 **浏览** 选项卡，单击 **[!UICONTROL 创建历程]** 以创建新旅程。
 

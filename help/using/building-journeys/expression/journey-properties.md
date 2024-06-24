@@ -8,31 +8,29 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 历程，表达式，编辑器，属性
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
 
 # 历程属性属性 {#journey-properties}
 
-在高级表达式编辑器中，您将找到 **历程属性** 类别，位于事件和数据源类别的下方。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。
-
->[!NOTE]
->
->简单表达式编辑器中也提供历程属性。 请参阅此[章节](../condition-activity.md#about_condition)
+在 [简单表达式编辑器](../condition-activity.md#about_condition)、和 [高级表达式编辑器](../expression/expressionadvanced.md)，位于 **事件** 和 **数据源** 类别时，您可以访问 **历程属性** 类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。
 
 ![](../assets/journey-properties.png)
 
-例如，您将找到有关以下内容的信息：
+它包含有关以下内容的信息：
 
 * 历程版本：历程uid、历程版本uid、实例uid等。
 * 错误：数据提取、操作执行等。
 * 当前步骤、上一个当前步骤等。
 * 已丢弃的配置文件
 
-您可以使用这些字段构建表达式。 在历程执行期间，将直接从历程中检索值。
+  字段列表可用 [在此部分中](#journey-properties-fields).
+
+您可以使用这些字段构建表达式。 在历程执行期间，直接从历程中检索值。
 
 以下是一些用例示例：
 
@@ -56,7 +54,7 @@ ht-degree: 2%
 | | organizationId | 组织标识符 | 品牌组织 |
 | | sandboxName | 沙盒名称 | 沙盒的名称 |
 | 标识 | profileId | 配置文件身份标识符 | 历程中用户档案的标识符 |
-| | namespace | 配置文件身份命名空间 | 历程中配置文件的命名空间（示例：ECID） |
+| | 命名空间 | 配置文件身份命名空间 | 历程中配置文件的命名空间（示例：ECID） |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
 | | currentNodeName | 当前节点名称 | 当前活动的名称（节点） |
 | 上一个节点 | previousNodeId | 上一节点标识符 | 上一个活动（节点）的标识符 |
