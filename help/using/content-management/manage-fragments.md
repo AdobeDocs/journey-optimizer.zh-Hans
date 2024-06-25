@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 17%
+source-wordcount: '1032'
+ht-degree: 16%
 
 ---
 
@@ -69,6 +69,16 @@ ht-degree: 17%
 >由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有“草稿”状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其“生效”，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。发布需要用户权限。
 
 ## 编辑片段 {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="活动中的片段更新"
+>abstract="如果您发布对片段所做的更改，则此营销活动不会更新。 它需要发布新版本，以便可以支持片段更新功能。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="历程中的片段更新"
+>abstract="如果您发布对片段所做的更改，则不会更新此历程。 它需要发布新版本，以便可以支持片段更新功能。"
 
 要编辑片段，请执行以下步骤。
 
