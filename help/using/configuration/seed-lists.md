@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 16%
+source-wordcount: '959'
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->支持变体。 种子地址接收同一消息的每个变体的单个副本(例如， [内容试验](../content-management/get-started-experiment.md))。
+>支持变体，包括多语言和试验变体。 每个种子地址都会收到同一消息的每个变体的单个副本，例如来自 [内容试验](../content-management/get-started-experiment.md). 请注意，不会为条件内容发送单独的种子电子邮件。
 
 ## 访问种子列表 {#access-seed-lists}
 
