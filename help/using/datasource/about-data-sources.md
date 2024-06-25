@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 数据，源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 74%
+source-wordcount: '339'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的更多信息，请参阅此 [部分](../action/action-response.md)
 
 对于每个数据源，您定义要使用字段组检索的信息。字段组是可从数据源检索的字段集。请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
 

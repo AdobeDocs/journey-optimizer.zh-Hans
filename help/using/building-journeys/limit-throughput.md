@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: bf937d9c7198c3a9d31fe93d0cfec6f41df70e28
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '754'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,10 @@ Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源
 * **数据源**：从外部系统收集信息并在旅程上下文中使用它，例如，获取有关个人资料城市的天气信息，并根据该信息制定专用旅程流。
 
 * **自定义操作**：向外部系统发送信息，例如，使用Journey Optimizer的编排功能以及用户档案信息、受众数据和历程上下文通过外部解决方案发送电子邮件。
+
+>[!NOTE]
+>
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的更多信息，请参阅此 [部分](../action/action-response.md)
 
 如果您使用的是外部数据源或自定义操作，则可能需要通过限制历程吞吐量来保护外部系统：单一历程每秒最多5000个实例，受众触发的历程每秒最多20000个实例。
 

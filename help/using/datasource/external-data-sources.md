@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 62%
+source-wordcount: '1549'
+ht-degree: 60%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的更多信息，请参阅此 [部分](../action/action-response.md)
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
