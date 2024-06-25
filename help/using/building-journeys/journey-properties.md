@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ---
 
-# 设置您的历程属性 {#jo-properties}
+# 设置历程属性 {#jo-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
