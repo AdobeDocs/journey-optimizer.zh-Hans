@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
+source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1039'
 ht-degree: 16%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 16%
 >id="ajo_fragment_statuses"
 >title="新的片段状态"
 >abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有“草稿”状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其“生效”，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。发布需要用户权限。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解有关内容片段权限的更多信息"
 
 >[!AVAILABILITY]
 >
