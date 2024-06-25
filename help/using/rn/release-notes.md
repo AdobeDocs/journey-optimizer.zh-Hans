@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## 2024 年 6 月发行说明 {#24-6-2024}
 
-**在发行日期之前，以下早期发行说明可能会有所变更，恕不另行通知**.
+**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**
 
 **发行日期**：2024 年 6 月 18 日至 19 日
 
@@ -77,13 +77,13 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
-<th><strong>使用Customer Journey Analytics进行报告（测试版）</strong><br/></th>
+<th><strong>Customer Journey Analytics 的报告功能（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。</p>
+<p>Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>有关更多信息，请参阅<a href="../reports/report-gs-cja.md">详细文档</a>。</p>
 </td>
@@ -170,7 +170,7 @@ ht-degree: 58%
 
 >[!AVAILABILITY]
 >
->请注意，这些增强功能将在首次发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。
+>请注意，这些增强功能将在首次发布后的几天内逐步推出。虽然某些用户将可以立即获得相应的访问权限，但其他用户可能要等待一些时间才能在自己的环境中访问该功能。
 
 * 现在您可以编辑片段，并且可以将更改同步到使用这些片段的所有实时历程和营销活动中。
 * 为内容片段引入了多个新状态：**草稿**、**实时**、**发布中**&#x200B;和&#x200B;**已存档**。
@@ -178,16 +178,16 @@ ht-degree: 58%
 
   **注意** - Journey Optimizer 六月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，在此版本之前创建的所有片段均为&#x200B;**草稿**&#x200B;状态，无论片段是否已用于历程或营销活动。要了解如何更新现有片段，请参阅此部分。
 
-有关更多信息，请参阅 [内容片段](../content-management/fragments.md) 文档。
+有关更多信息，请参阅[内容片段](../content-management/fragments.md)文档。
 
 **历程**
 
-* 历程的全局超时已延长到91天。 [了解详情](../building-journeys/journey-properties.md#global_timeout)
+* 历程全局超时期限已延长到 91 天。[了解详情](../building-journeys/journey-properties.md#global_timeout)
 
-  创建的任何新历程都将反映此新超时。 请参阅此 [常见问题解答部分](../building-journeys/journey-properties.md#timeout-faq) 了解更多信息。 请注意，这些更改将在6月份逐步推出。
+  创建的任何新历程都将反映此新超时期限。请参阅此[常见问题解答部分](../building-journeys/journey-properties.md#timeout-faq)以了解更多信息。请注意，这些更改将在 6 月份逐步推出。
 
 
-* Adobe Journey Optimizer现在支持隐私删除/访问请求以及数据生命周期管理请求。 [了解详情](../privacy/requests.md)
+* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。[了解详情](../privacy/requests.md)
 * 您现在可以调整历程清单中的列大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。[了解详情](../building-journeys/journey-properties.md#merge-policies)
@@ -196,7 +196,7 @@ ht-degree: 58%
 
 **营销活动**
 
-* 在Adobe Journey Optimizer中创建营销活动时，您现在可以在新模式中选择营销活动类型（已计划或触发）。 [了解详情](../campaigns/create-campaign.md)
+* 在 Adobe Journey Optimizer 中创建营销活动时，您现在可以在新模式中选择营销活动类型（计划或触发）。[了解详情](../campaigns/create-campaign.md)
 
 **电子邮件渠道**
 
@@ -205,9 +205,9 @@ ht-degree: 58%
 
 **短信渠道**
 
-* 您现在可以使用单个API配置为每个沙盒添加唯一的短代码，从而使过程更高效、更简单。 [了解详情](../sms/sms-configuration.md)
+* 您现在可以使用单个 API 配置为每个沙盒添加唯一的短代码，从而使工作流程更高效、更简单。[了解详情](../sms/sms-configuration.md)
 
-* 创建后， **api令牌** 上的字段 **API凭据详细信息** 页面现在已屏蔽。
+* 创建后，**API 凭据详细信息**&#x200B;页面上的 **API 标记**&#x200B;字段现已被掩码处理。
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ ht-degree: 58%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* 您现在可以使用Edge Delivery插件获取理解入站实施并对其进行故障诊断所需的信息。 [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* 您现在可以使用 Edge Delivery 增效工具来获取所需的信息，帮助了解入站实施以及对其进行排除故障。[了解有关 Edge Delivery 视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
 
 
 **直邮渠道**

@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -156,8 +156,8 @@ ht-degree: 92%
 * 历程全局超时期限已从 30 天增加到 91 天。
 * Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。
 * 您现在可以调整历程清单中的列大小。
-* **事件配置中的高级表达式编辑器**&#x200B;已正式推出 - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../event/about-creating.md)-->
-* **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。此功能以“有限可用”的状态向选定客户发布。 <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* **事件配置中的高级表达式编辑器**&#x200B;已正式推出 - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。“限量发布版”的部分客户可使用此功能。<!--[Read more](../event/about-creating.md)-->
+* **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。限量发布版的部分客户可使用此功能。<!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 92%
 
 **应用程序内渠道**
 
-* **表达片段**  — 表达式片段现在可用于 **应用程序内渠道**. <!--[Read more](../personalization/use-expression-fragments.md)-->
+* **表达式片段** - 现在可将表达式片段用于&#x200B;**应用程序内渠道**。<!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
-* 您现在可以使用 Edge Delivery 增效工具来获取了解和入站实现排除故障所需的信息。
+* 您现在可以使用 Edge Delivery 增效工具来获取所需的信息，帮助了解入站实施以及对其进行排除故障。

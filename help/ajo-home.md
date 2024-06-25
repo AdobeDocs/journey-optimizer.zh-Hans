@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 83%
 
 >[!BEGINTABS]
 
->[!TAB 6月版已上线！]
+>[!TAB 6 月版已上线！]
 
 了解 Adobe Journey Optimizer 5 月版的新增功能和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 使用Customer Journey Analytics进行报告（测试版）]
+>[!TAB 使用 Customer Journey Analytics (Beta) 的报告功能]
 
 Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
->[!TAB AI助手]
+>[!TAB AI 助手]
 
-AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获取对您特定环境的操作见解。
+AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 

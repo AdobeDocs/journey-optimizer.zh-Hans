@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
    + [历程入门](using/building-journeys/journey.md)
    + 创建历程{#create-journey}
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
-      + [设置您的历程属性](using/building-journeys/journey-properties.md)
+      + [设置历程属性](using/building-journeys/journey-properties.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [模拟您的历程](using/building-journeys/journey-simulation.md)
@@ -381,12 +381,12 @@ ht-degree: 98%
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新的报告界面（测试版）{#channel-report}
-   + [新报告界面入门](using/reports/report-gs-cja.md)
++ 新的报告界面（Beta 版）{#channel-report}
+   + [新的报告界面入门](using/reports/report-gs-cja.md)
    + [管理您的报告](using/reports/report-cja-manage.md)
    + [历程报告](using/reports/journey-global-report-cja.md)
    + [营销活动报告](using/reports/campaign-global-report-cja.md)
-   + [“概述”报表](using/reports/channel-report-cja.md)
+   + [“概述”报告](using/reports/channel-report-cja.md)
    + [登陆页面报告](using/reports/lp-report-global-cja.md)
    + [订阅列表报告](using/reports/subscription-report-global-cja.md)
 + 决策 {#decisioning}
