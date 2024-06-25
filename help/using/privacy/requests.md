@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -29,39 +29,39 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面
 
 
 
-## 管理可发送到Adobe Journey Optimizer的个人数据隐私请求 {#data-privacy-requests}
+## 管理可发送到 Adobe Journey Optimizer 的个人数据隐私请求 {#data-privacy-requests}
 
-您可以通过两种方式提交单个请求以从Adobe Journey Optimizer访问和删除消费者数据：
+您可以通过两种方式提交个人请求以从 Adobe Journey Optimizer 访问和删除客户数据：
 
-* 通过 **PRIVACY SERVICEUI**. 请参阅文档 [此处](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* 通过 **PRIVACY SERVICEAPI**. 请参阅文档 [此处](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) 和API信息 [此处](https://developer.adobe.com/experience-platform-apis/#_blank).
+* 通过 **Privacy Service UI**。请参阅[此处](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/ui/user-guide#_blank)的文档。
+* 通过 **Privacy Service API**。请参阅[此处](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank)的文档和[此处](https://developer.adobe.com/experience-platform-apis/#_blank)的 API 信息。
 
-该Privacy Service支持两种类型的请求： **数据访问** 和 **数据删除**.
+Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B;**数据删除**。
 
 >[!NOTE]
 >
->本指南仅介绍如何向Adobe Journey Optimizer发出隐私请求。 如果您还计划向Platform数据湖提出隐私请求，请参阅此 [指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy) 以及本教程。 对于Real-time customer profile，请参阅此 [指南](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy) 对于Identity服务，请参阅此 [指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy). 对于删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。 向Adobe Journey Optimizer发出隐私请求不会删除所有这些系统中的数据。
+>本指南仅介绍如何发出 Adobe Journey Optimizer 隐私请求。如果您还计划向 Platform 数据湖发出隐私请求，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/privacy)以及本教程。对于实时客户档案，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy)；对于标识服务，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/privacy)。要删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。向 Adobe Journey Optimizer 发出隐私请求不会从所有这些系统中移除数据。
 
-对象 **访问请求**，从UI中指定“Adobe Journey Optimizer”（或将“CJM”指定为API中的产品代码）。
+对于&#x200B;**访问请求**，请从 UI 中指定“Adobe Journey Optimizer”（或在 API 中将“CJM”指定为产品代码）。
 
-对象 **删除请求**，除了“Adobe Journey Optimizer”请求之外，您还必须向三个上游服务提交删除请求，以阻止Journey Optimizer重新注入已删除的数据。 如果未指定这些上游服务，“Adobe Journey Optimizer”请求将保持为“正在处理”状态，直到创建上游服务的删除请求为止。
+对于&#x200B;**删除请求**，除了“Adobe Journey Optimizer”请求之外，您还必须向三个上游服务提交删除请求，以阻止 Journey Optimizer 重新注入已删除的数据。如果未指定这些上游服务，“Adobe Journey Optimizer”请求将保持为“正在处理”状态，直到上游服务的删除请求已创建。
 
 三种上游服务包括：
 
-* 配置文件（产品代码：“profileService”）
-* AEP数据湖（产品代码：“AdobeCloudPlatform”）
-* 标识（产品代码：“标识”）
+* 用户档案（产品代码：“profileService”）
+* AEP 数据湖（产品代码：“AdobeCloudPlatform”）
+* 标识（产品代码：“identity”）
 
 ## 如何创建访问和删除请求
 
 ### 先决条件
 
-要请求访问和删除Adobe Journey Optimizer的数据，您必须拥有：
+要提出访问和删除 Adobe Journey Optimizer 数据的请求，您必须有：
 
-* IMS组织ID
-* 要执行操作的人员的身份标识符以及对应的命名空间。有关Adobe Journey Optimizer和Experience Platform中的身份命名空间的更多信息，请参阅 [身份命名空间概述](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* IMS 组织 ID
+* 要对其执行操作的人员的身份标识符以及对应的命名空间。有关 Adobe Journey Optimizer 和 Experience Platform 中的标识命名空间的更多信息，请参阅[标识命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)。
 
-### Adobe Journey Optimizer中用于API请求的必填字段值
+### Adobe Journey Optimizer 中用于 API 请求的必填字段值
 
 ```json
 "companyContexts":
@@ -87,13 +87,13 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面
 ```
 
 
-### GDPR访问请求示例：
+### GDPR 访问请求示例：
 
-从UI：
+通过 UI：
 
 ![](assets/accessrequest.png)
 
-通过API：
+通过 API：
 
 ```json
 // JSON Request
@@ -167,13 +167,13 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面
 }
 ```
 
-### GDPR删除请求示例：
+### GDPR 删除请求示例：
 
-从UI：
+通过 UI：
 
 ![](assets/deleterequest.png)
 
-通过API：
+通过 API：
 
 ```json
 // JSON Request
