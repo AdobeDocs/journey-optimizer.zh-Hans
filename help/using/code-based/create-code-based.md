@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 10%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
 >title="使用个性化编辑器"
->abstract="插入并编辑要作为此基于代码的体验操作的一部分交付的代码。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="个性化编辑器入门"
+>abstract="插入和编辑要作为此基于代码的体验操作的一部分提供的代码。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=zh-Hans" text="开始使用个性化编辑器"
 
 1. 从促销活动版本屏幕中，选择 **[!UICONTROL 编辑代码]**.
 
@@ -77,7 +77,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >experience decisioning功能目前仅作为测试版向部分用户提供。
+   >目前，体验决策功能仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。
 
 
 1. 单击 **[!UICONTROL 保存并关闭]** 以确认更改。
@@ -89,7 +89,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
 >title="预览基于代码的体验"
->abstract="模拟您的基于代码的体验。"
+>abstract="模拟基于代码的体验将看起来是什么样。"
 
 要显示已修改的基于代码的体验的预览，请执行以下步骤。 有关如何选择测试用户档案和预览内容的详细信息，请参阅 [预览和测试内容页面](../content-management/preview-test.md).
 
