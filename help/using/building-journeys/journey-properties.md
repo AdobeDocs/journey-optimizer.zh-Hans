@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 8%
@@ -157,7 +157,7 @@ ht-degree: 8%
       <p>进入在TTL扩展启动之前发布的历程的个人资料会发生什么情况？</p>
     </td>
     <td>
-      <p>用户档案的TTL为91天（HIPAA为7天），与最初发布历程的时间一致。</p>
+      <p>用户档案的TTL为30天（HIPAA为7天），与最初发布历程的时间一致。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ ht-degree: 8%
       <p>启动TTL扩展后，已进入历程的用户档案会发生什么情况？</p>
     </td>
     <td>
-      <p>个人资料的TTL将保留为91天（对于HIPAA为7天），与历程的原始发布时间一致。</p>
+      <p>根据历程的原始发布时间，用户档案将保留30天（HIPAA为7天）的TTL。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ ht-degree: 8%
       <p>在TTL扩展启动后重新发布的先前历程版本中的配置文件会发生什么情况？</p>
     </td>
     <td>
-      <p>用户档案的TTL将保持为91天（对于HIPAA为7天），与原始历程版本的发布时间一致。</p>
+      <p>用户档案的TTL将保持为30天（对于HIPAA为7天），与原始历程版本的发布时间一致。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ ht-degree: 8%
       <p>进入在TTL扩展启动之前发布的历程的个人资料会发生什么情况？</p>
     </td>
     <td>
-      <p>该配置文件的TTL为91天（对于HIPAA，为7天），与原始发布时间一致。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
+      <p>该配置文件的TTL为30天（对于HIPAA，为7天），与原始发布时间一致。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ ht-degree: 8%
       <p>启动TTL扩展后，通过历程运行的用户档案会发生什么情况？</p>
     </td>
     <td>
-      <p>个人资料的TTL将保留为91天（对于HIPAA为7天），与历程的原始发布时间一致。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
+      <p>根据历程的原始发布时间，用户档案将保留30天（HIPAA为7天）的TTL。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ ht-degree: 8%
       <p>在发布TTL扩展后重新发布的先前历程版本中，正在运行的配置文件会发生什么情况？</p>
     </td>
     <td>
-      <p>用户档案的TTL将保持为91天（对于HIPPA为7天），与原始历程版本的发布时间一致。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
+      <p>用户档案的TTL将保持为30天（对于HIPPA为7天），与原始历程版本的发布时间一致。 对于强制重新进入的定期历程，TTL将与定期时段匹配。</p>
     </td>
   </tr>
   <tr style="border: 1;">
