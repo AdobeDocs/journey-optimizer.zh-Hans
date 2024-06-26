@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="等待活动"
 >abstract="如果您想在执行路径中的下一个活动之前等待，可以使用等待活动。这让您可以定义执行下一个活动的时刻。有两个选项可用：持续时间和自定义。"
 
-您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。  最长等待时间为 **29天**.
+您可以使用 **[!UICONTROL 等待]** 活动，用于定义执行下一个活动之前的持续时间。  最长等待时间为 **90天**.
 
 您可以设置两种类型 **等待** 活动：
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 ### 持续时间等待 {#duration}
 
-选择 **持续时间** type设置下次活动执行前等待的相对持续时间。 最长持续时间为 **29天**.
+选择 **持续时间** type设置下次活动执行前等待的相对持续时间。 最长持续时间为 **90天**.
 
 ![定义等待持续时间](assets/journey55.png)
 
