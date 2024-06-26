@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="选择可视类型"
 >abstract="创建独立的可视片段，以便可在历程或营销活动的电子邮件中或内容模板中重用您的内容。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=zh-Hans" text="将可视片段添加到电子邮件"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="将可视片段添加到电子邮件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ ht-degree: 13%
 
 ## 设计片段内容 {#content}
 
-配置片段的属性后，电子邮件设计器或个性化编辑器将打开，具体取决于您创建的片段类型。
+配置片段的属性后，会根据您创建的片段类型打开Email Designer或个性化编辑器。
 
 * 对于可视化片段，请根据需要编辑您的内容，就像处理历程或营销活动中的任何电子邮件一样。 [了解详情](../email/get-started-email-design.md)
 
@@ -81,13 +81,13 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->要发布片段，您必须具有 **发布片段** 相关权限。 [了解有关权限的更多信息](../administration/ootb-permissions.md)
+>要发布片段，您必须具有 **Publish片段** 相关权限。 [了解有关权限的更多信息](../administration/ootb-permissions.md)
 
 如果您的片段已准备好上线，您可以预览和发布它以使其可在您的历程和营销活动中使用。 为此，请执行以下步骤：
 
 1. 设计其内容后返回片段创建屏幕，或从片段列表中将其打开。
 
-1. 片段的预览位于 **标记** 字段，用于检查其渲染。 如果您需要进行任何更改，请单击 **编辑** 按钮来打开电子邮件设计器或个性化编辑器，具体取决于片段类型。
+1. 片段的预览位于 **标记** 字段，用于检查其渲染。 如果您需要进行任何更改，请单击 **编辑** 按钮以打开电子邮件Designer或个性化编辑器，具体取决于片段类型。
 
    ![](assets/fragment-preview.png)
 
@@ -99,7 +99,7 @@ ht-degree: 13%
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-片段现在为 **实时**，并在中构建任何内容时变得可用 [!DNL Journey Optimizer] 电子邮件设计工具或个性化编辑器：
+片段现在为 **实时**，并在中构建任何内容时变得可用 [!DNL Journey Optimizer] 向Designer或个性化编辑器发送电子邮件：
 
 * [了解如何使用可视化片段](../email/use-visual-fragments.md)
 * [了解如何使用表达式片段](../personalization/use-expression-fragments.md)
