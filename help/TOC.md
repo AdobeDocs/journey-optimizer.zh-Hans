@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 99%
+source-wordcount: '1865'
+ht-degree: 98%
 
 ---
 
@@ -311,7 +311,12 @@ ht-degree: 99%
       + 个性化用例{#personalization-use-cases}
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
-   + [内容模板](using/content-management/content-templates.md)
+   + 内容模板 {#content-templates}
+      + [内容模板入门](using/content-management/content-templates.md)
+      + [访问和管理模板](using/content-management/access-content-templates.md)
+      + [创建内容模板](using/content-management/create-content-templates.md)
+      + [测试内容模板](using/content-management/test-content-templates.md)
+      + [使用内容模板](using/content-management/use-content-templates.md)
    + 可重复使用的内容片段 {#fragments}
       + [片段入门](using/content-management/fragments.md)
       + [创建片段](using/content-management/create-fragments.md)
