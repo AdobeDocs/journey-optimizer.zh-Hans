@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: 8ca75a149db65ee65bf28fe6c0688ee18488fcec
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 ![](assets/fragment-list-more-actions.png)
 
-## 片段的状态
+## 片段状态
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"

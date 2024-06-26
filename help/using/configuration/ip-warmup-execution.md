@@ -15,7 +15,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
 source-wordcount: '2558'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择营销活动以从当前阶段排除其受众。这可以防止以前联系的用户档案再次被定位；仅排除通过历程接收通信的用户档案。"
+>abstract="选择营销活动以从当前阶段排除其受众。这可以防止之前联系过的个人资料再次成为目标；只有那些通过历程收到过通信的人才会被排除。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
