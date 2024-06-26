@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -39,9 +39,9 @@ ht-degree: 15%
 
 ### 多个等待活动 {#multiple-wait-activities}
 
-使用多个 **等待** 历程中的活动，请注意 [全局超时](journey-properties.md#global_timeout) 对于历程，为90天，这意味着用户档案始终在进入历程后90天内退出。 请参阅[此页面](journey-properties.md#global_timeout)以了解详情。
+使用多个 **等待** 历程中的活动，请注意 [全局超时](journey-properties.md#global_timeout) 对于历程，为91天，这意味着用户档案始终在进入历程后91天内退出该历程。 请参阅[此页面](journey-properties.md#global_timeout)以了解详情。
 
-个人可以输入 **等待** 仅当在历程中剩余的时间足以在90天历程超时之前完成等待持续时间时，才会进行活动。
+个人可以输入 **等待** 仅当活动在历程中剩余的时间足以在91天历程超时之前完成等待持续时间时，才会进行此活动。
 
 ### 等待并重新进入 {#wait-re-entrance}
 
