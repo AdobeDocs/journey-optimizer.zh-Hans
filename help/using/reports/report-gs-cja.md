@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta 版" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 > 要恢复到Journey Optimizer的传统报表，只需将 **[!UICONTROL 使用新体验]** 选项。
 
-Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。
+Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。
 
 * 如果要在历程上下文中定位历程或投放，请从 **[!UICONTROL 历程]** 菜单，访问您的旅程，然后单击 **[!UICONTROL 查看报告]** 按钮。
 
@@ -48,3 +48,9 @@ Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互�
 * 要在Journey Optimizer中访问Customer Journey Analytics功能板，只需启用 **[!UICONTROL 使用新体验]** 在报表中进行切换。
 
   ![](assets/cja-option.png)
+
+## 操作方法视频{#video}
+
+以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
