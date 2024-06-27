@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1873'
 ht-degree: 98%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 98%
       + [模拟您的历程](using/building-journeys/journey-simulation.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
    + 管理您的历程{#manage-journey}
-      + [结束您的历程](using/building-journeys/end-journey.md)
-      + [时区管理](using/building-journeys/timezone-management.md)
       + [用户档案入口管理](using/building-journeys/entry-management.md)
+      + [时区管理](using/building-journeys/timezone-management.md)
+      + [结束您的历程](using/building-journeys/end-journey.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [对历程进行故障排除](using/building-journeys/troubleshooting.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
@@ -73,9 +73,9 @@ ht-degree: 98%
       + [跳转](using/building-journeys/jump.md)
       + [更新用户档案](using/building-journeys/update-profiles.md)
    + 构建表达式 {#building-advanced-conditions-journeys}
-      + [概述](using/building-journeys/expression/expressionadvanced.md)
+      + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
       + 语法 {#syntax}
-         + [通则](using/building-journeys/expression/generalities.md)
+         + [高级表达式编辑器语法](using/building-journeys/expression/generalities.md)
          + [条件说明](using/building-journeys/expression/conditional-instruction.md)
          + [数据类型](using/building-journeys/expression/data-types.md)
          + [字段引用](using/building-journeys/expression/field-references.md)

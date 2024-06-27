@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 语法
-description: 了解高级表达式编辑器
+title: 高级表达式编辑器语法
+description: 了解高级表达式编辑器中使用的语法
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '262'
+ht-degree: 2%
 
 ---
 
 # 高级表达式编辑器语法 {#syntax}
 
-## 括号和表达式优先级{#parentheses-and-expression-priority}
+使用时的语法基础知识 [高级表达式编辑器](expressionadvanced.md) 如下所列。 有关高级表达式编辑器的使用示例，请参见 [此页面](advanced-editor-use-cases.md).
+
+## 括号和表达式优先级 {#parentheses-and-expression-priority}
 
 可使用括号使复杂表达式更易读。 _(&lt;expression>)_ 等同于 _&lt;expression>_. 括号也可用于定义评估顺序和关联性。
 
@@ -30,7 +32,7 @@ ht-degree: 3%
 | `4 + 2 * 10` | <ul><li>“*”的优先级高于“+”：2 * 10的计算→20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括号将更改优先级： (4 + 2)→6计算</li><li> 6 * 10 → 60</li></ul> |
 
-## 区分大小写{#case-sensitivity}
+## 区分大小写 {#case-sensitivity}
 
 以下是不同的区分大小写规则：
 
@@ -38,7 +40,7 @@ ht-degree: 3%
 * 所有函数名称都区分大小写。 例如， _inAudience()_ 有效，但函数 _INAUDIENCE()_ 不是。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 
-## 返回的表达式类型{#returned-expression-type}
+## 返回的表达式类型 {#returned-expression-type}
 
 根据使用上下文，表达式编辑器可以返回不同的值。
 
