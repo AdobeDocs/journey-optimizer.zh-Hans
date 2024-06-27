@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 98%
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新的报告界面（Beta 版）{#channel-report}
++ 新的报告界面(LA){#channel-report}
    + [新的报告界面入门](using/reports/report-gs-cja.md)
    + [管理您的报告](using/reports/report-cja-manage.md)
    + [历程报告](using/reports/journey-global-report-cja.md)

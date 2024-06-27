@@ -7,15 +7,16 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta 版" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+badge: label="有限可用性" type="Informative"
+exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 1%
 
 ---
 
-# “概述”报表 {#channel-report-cja}
+# “概述”报告 {#channel-report-cja}
 
 概述报表可为用户提供环境中所有活动和历程的流量和参与量度的全面摘要。 这些量度经过组合，可显示来自不同渠道（包含各种营销活动和历程）的操作的统一值。
 
@@ -27,7 +28,7 @@ ht-degree: 1%
 * [营销活动](#campaign)
 * [渠道](#channel)
 
-要了解有关Customer Journey Analytics工作区以及如何过滤和分析数据的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+要了解有关Customer Journey AnalyticsWorkspace以及如何过滤和分析数据的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## 高亮 {#highlights}
 

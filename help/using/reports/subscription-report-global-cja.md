@@ -7,10 +7,11 @@ feature: Journeys, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta 版" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="有限可用性" type="Informative"
+exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -88,4 +89,3 @@ ht-degree: 2%
 * **[!UICONTROL 订阅列表添加]**：相关期间的订阅总数。
 
 * **[!UICONTROL 订阅列表已删除]**：相关期间的退订总数。
-

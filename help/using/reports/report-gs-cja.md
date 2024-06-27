@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta 版" type="Informative"
+badge: label="有限可用性" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '373'
 ht-degree: 7%
 
 ---
@@ -51,6 +51,6 @@ Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互�
 
 ## 操作方法视频{#video}
 
-以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
+以下视频介绍了如何在Customer Journey Analytics中使用增强的Journey Optimizer报表。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta 版" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="有限可用性" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -67,7 +68,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 登陆页面转化率]**：与登陆页面进行交互（例如订阅了表单）的人员数量（与访问总数相关）。
 
-## 登陆页面性能 {#lp-performance}
+## 登陆页面绩效 {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
@@ -114,10 +115,3 @@ ht-degree: 2%
 此 **[!UICONTROL 热门点击链接]** 表提供了有关访客如何与投放交互的见解，并突出显示哪些链接获得的受众参与度和关注度最高。
 
 * **[!UICONTROL 登陆页面点击次数]**：在登陆页面中点击内容的次数。
-
-
-
-
-
-
-
