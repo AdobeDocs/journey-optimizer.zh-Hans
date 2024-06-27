@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '460'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 8%
 
 ## 另存为可视化片段 {#save-as-visual-fragment}
 
-要将Email Designer的内容另存为片段，请执行以下步骤：
+要将电子邮件Designer中的内容另存为片段，请执行以下步骤：
 
-1. 在 [电子邮件设计工具](../email/get-started-email-design.md)中，单击屏幕右上方的省略号。
+1. 在 [向Designer发送电子邮件](../email/get-started-email-design.md)中，单击屏幕右上方的省略号。
 
 1. 选择 **[!UICONTROL 另存为片段]** 从下拉菜单中。
 
@@ -50,10 +50,6 @@ ht-degree: 8%
    >对该新片段所做的任何更改都不会传播到它来自的电子邮件或模板。 同样，在该电子邮件或模板中编辑原始内容时，不会修改新片段。
 
 1. 为了能够在您的历程和营销活动中使用片段，您需要让它上线。 [了解如何预览和发布片段](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->片段发布在Journey Optimizer 6月发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，请注意，在您的历程和营销活动中使用片段不需要发布片段。
 
 ## 另存为表达式片段 {#save-as-expression-fragment}
 
@@ -83,7 +79,3 @@ ht-degree: 8%
 1. 片段将添加到 [片段列表](#access-manage-fragments) 使用 **草稿** 状态。 它会变成一个独立的片段，可用作该列表中的任何其他表达式片段。
 
 1. 为了能够在您的历程和营销活动中使用片段，您需要让它上线。 [了解如何预览和发布片段](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->片段发布在Journey Optimizer 6月发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，请注意，在您的历程和营销活动中使用片段不需要发布片段。

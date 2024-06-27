@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 >您最多可以在给定投放中添加30个片段。 片段最多只能嵌套1级。
 
 
-1. 使用打开任何电子邮件或模板内容 [电子邮件设计工具](get-started-email-design.md).
+1. 使用打开任何电子邮件或模板内容 [向Designer发送电子邮件](get-started-email-design.md).
 
 1. 选择 **[!UICONTROL 片段]** 图标。
 
@@ -54,8 +54,6 @@ ht-degree: 2%
    >[!CAUTION]
    >
    >您可以添加任何 **草稿** 或 **实时** 片段到您的内容。 但是，如果历程或营销活动中正在使用具有草稿状态的片段，您将无法激活该历程或营销活动。 在历程或营销活动发布中，草稿片段将显示错误，您需要批准它们才能发布。
-   >
-   > 请注意，片段状态在Journey Optimizer 6月发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，请注意，片段不需要 **实时** 将在您的历程和营销活动中使用。
 
 1. 与任何其他组件一样，您可以在内容中移动片段。
 

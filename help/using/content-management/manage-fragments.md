@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
@@ -49,10 +49,6 @@ ht-degree: 15%
 >title="新的片段状态"
 >abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有“草稿”状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其“生效”，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。发布需要Publish片段用户权限。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解有关内容片段权限的更多信息"
-
->[!AVAILABILITY]
->
-> 请注意，片段状态在Journey Optimizer 6月发布后的几天内逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，请注意，片段不需要 **实时** 将在您的历程和营销活动中使用。
 
 片段可以具有多种状态：
 
@@ -102,10 +98,6 @@ ht-degree: 15%
 1. 更改准备就绪后，单击 **Publish** 按钮以使您的修改处于活动状态。
 
 在编辑片段时，更改会自动传播到使用该片段的所有内容，包括实时历程和营销活动，但已中断原始片段继承的内容除外。 了解如何在中中断继承 [向您的电子邮件添加可视化片段](../email/use-visual-fragments.md#break-inheritance) 和 [利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance) 部分。
-
->[!AVAILABILITY]
->
->请注意，在Journey Optimizer 6月发布后的几天内，实时历程和营销活动中的片段更改传播正在逐步推出。 虽然某些用户将可以立即访问，但其他用户在环境中使用它之前可能会遇到延迟。 如果您的环境中尚未提供此增强功能，则您的更改将不会传播到实时历程或营销活动中使用的内容。
 
 ## 探索引用 {#explore-references}
 
