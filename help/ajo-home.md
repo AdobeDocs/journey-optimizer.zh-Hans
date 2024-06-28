@@ -1,20 +1,20 @@
 ---
 keywords: Journey Optimizer；主页；热门主题
-title: Journey Optimizer 产品文档
+title: Journey Optimizer产品文档
 description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] 文档 {#cjm-documentation}
 
-## 新增功能：
+## 新增功能
 
 概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。要及时了解我们文档的最新更改，请访问[文档更新页面](using/rn/documentation-updates.md)。
 
