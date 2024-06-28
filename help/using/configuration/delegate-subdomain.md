@@ -22,7 +22,7 @@ ht-degree: 0%
 >id="ajo_admin_subdomainname"
 >title="子域委派"
 >abstract="Journey Optimizer 让您可以将子域委派给 Adobe。您可以将子域完全委派给 Adobe，这是推荐的方法。您也可以使用 CNAME 创建子域，将其指向特定于 Adobe 的记录，但这种方法需要您自行维护和管理 DNS 记录。"
->additional-url="https://experienceleague.adobe.com/cn/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="子域配置方法"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="子域配置方法"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
