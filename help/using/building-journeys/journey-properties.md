@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -64,18 +64,18 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允许重新进入"
->abstract="默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** 选项，例如，如果要在人员进入商店时提供一次性礼品。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
+>abstract="默认情况下，允许重入新的历程。例如，如果您想在有人进入商店时提供一次性的礼物，则您可以取消选中&#x200B;**允许重入**&#x200B;选项。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
-默认情况下，新历程允许重新进入。 您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。
+默认情况下，允许重入新的历程。您可以取消选中 **允许重新进入** “一次性”旅程选项，例如，如果您想在某人进入商店时提供一次性礼物。
 
-### 重新进入等待期  {#re-entrance-wait}
+### 重入等待期  {#re-entrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="重新进入等待期"
->abstract=" 将等待时间设置为允许用户档案在单一历程中再次进入历程。 这样可防止用户在选定的持续时间内重新进入历程。 最长持续时间：90天。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
+>title="重入等待期"
+>abstract=" 设置在允许配置文件再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
 当 **允许重新进入** 选项已激活， **重新进入等待期** 字段。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。
 
@@ -97,13 +97,13 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="开始日期"
->abstract="选择进入历程可以开始的日期。 如果未指定开始日期，则在发布时自动设置此日期。"
+>abstract="选择历程开始的日期。如果没有指定开始日期，则会自动设置为发布时间。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="选择历程的结束日期。 达到该日期后，该历程中的用户档案会自动退出该日期，并且新用户档案无法再进入该日期。"
+>abstract="选择历程的结束日期。达到该日期后，该历程中的配置文件会自动将其退出，并且新的无法再次进入。"
 
 您可以定义 **开始日期**. 如果您尚未指定名称，则将在发布时自动定义它。
 

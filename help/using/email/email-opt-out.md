@@ -12,7 +12,7 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 38496b93f073c0e9cb208b0c62e6c4cb8a2d8c03
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 26%
 
 ## 一步式选择退出 {#opt-out-one-step}
 
-### 在电子邮件标头中一键单击取消订阅URL {#unsubscribe-header}
+### 电子邮件标题中的一键取消订阅 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="在电子邮件标头中添加取消订阅URL"
->abstract="启用List-Unsubscribe标头，以便在电子邮件标头中添加取消订阅URL。 要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
+>title="向电子邮件标头添加取消订阅 URL"
+>abstract="启用“列表取消订阅标题”以在电子邮件标头中添加取消订阅。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
 一键式列表取消订阅URL是电子邮件发件人信息旁边显示的取消订阅链接或按钮，收件人只需单击一下即可立即选择退出您的邮件列表。 在Adobe Journey Optimizer中，当 **启用List-Unsubscribe** 选项已切换，默认情况下，电子邮件标头包括邮件和/或URL，收件人可以使用它们取消订阅您的邮件列表。

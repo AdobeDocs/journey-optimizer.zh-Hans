@@ -12,7 +12,7 @@ exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 1%
+ht-degree: 28%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
 >title="时区"
->abstract="选择历程的时区。 使用固定时区时，进入旅程的所有个人都使用相同的时区。"
+>abstract="选择历程的时区。当使用固定时区时，对于所有进入旅程的个人来说都是相同的。"
 
 
 您可以在中定义时区 [属性](../building-journeys/journey-properties.md#timezone) 你旅程的一部分。
@@ -53,11 +53,11 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="使用配置文件时区"
->abstract="选中该框以在等待和条件活动中使用实时配置文件时区。 如果为用户档案定义了时区，则历程将检索并使用它。 如果没有，则时区将是上面时区字段中定义的时区。"
+>abstract="选中该框可在等待和条件活动中使用实时配置文件时区。如果已为配置文件定义了时区，则该历程将会检索并使用该时区。否则，时区将会是上面时区字段中定义的时区。"
 
 如果历程的进入事件具有命名空间，这意味着历程可以访问Adobe Experience Platform的实时客户个人资料服务，则您可能希望使用在个人资料级别定义的时区。 为此，请在中 **属性**，检查 **在等待和条件中使用配置文件时区**. 默认情况下不选中此选项。
 
-如果为用户档案定义了时区，则历程将检索并使用它。 如果未指定，则使用的时区将是时区字段中定义的时区。
+如果已为配置文件定义了时区，则该历程将会检索并使用该时区。如果未指定，则使用的时区将是时区字段中定义的时区。
 
 ![](assets/journey73.png)
 

@@ -11,7 +11,7 @@ exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 18%
 >id="ajo_fragment_statuses"
 >title="新的片段状态"
 >abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有“草稿”状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其“生效”，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。<br/>发布需要 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish片段</a> 用户权限。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解有关内容片段权限的更多信息"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="详细了解内容片段权限"
 
 片段可以具有多种状态：
 
@@ -69,13 +69,13 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
->title="活动中的片段更新"
->abstract="如果您发布对片段所做的更改，则此营销活动不会更新。 它需要发布新版本，以便可以支持片段更新功能。"
+>title="片段更新活动"
+>abstract="如果您发布对相关片段的更改，则此活动将不会更新。它需要发布新版本以便可以支持片段更新功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
 >title="历程中的片段更新"
->abstract="如果您发布对片段所做的更改，则不会更新此历程。 它需要发布新版本，以便可以支持片段更新功能。"
+>abstract="如果您发布对相关片段的更改，则此历程将不会更新。它需要发布新版本以便可以支持片段更新功能。"
 
 要编辑片段，请执行以下步骤。
 

@@ -21,7 +21,7 @@ ht-degree: 14%
 >id="ajo_create_visual_fragment"
 >title="选择可视类型"
 >abstract="创建独立的可视片段，以便可在历程或营销活动的电子邮件中或内容模板中重用您的内容。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="将可视片段添加到电子邮件"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="将可视片段添加到电子邮件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
