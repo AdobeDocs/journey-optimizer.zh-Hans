@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 0454008d81a5aebccbbf75b0ef723fa869589597
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 75%
+source-wordcount: '1062'
+ht-degree: 72%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 75%
 * 为内容片段引入了多个新状态：**草稿**、**实时**、**发布中**&#x200B;和&#x200B;**已存档**。
 * 要在历程或营销活动中使用某个片段，片段必须处于&#x200B;**实时**&#x200B;状态。片段创建流程中新增了一个步骤，通过该步骤可以发布片段并将其用于历程和营销活动。请注意，发布片段需要新权限。
 
-  **注意** - Journey Optimizer 六月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，在此版本之前创建的所有片段均为&#x200B;**草稿**&#x200B;状态，无论片段是否已用于历程或营销活动。要了解如何更新现有片段，请参阅此部分。
+  **注意** - Journey Optimizer 六月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，在此版本之前创建的所有片段均为&#x200B;**草稿**&#x200B;状态，无论片段是否已用于历程或营销活动。如果您对这些片段进行了任何更改，您需要 [发布它们](../content-management/create-fragments.md#publish) 以使它们“实时”并传播更改到关联的营销活动和历程。 您还需要创建新历程/营销活动版本并进行发布。
 
 有关更多信息，请参阅[内容片段](../content-management/fragments.md)文档。
 
