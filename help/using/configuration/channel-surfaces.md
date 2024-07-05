@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
->title="营销操作"
+>title="营销活动"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -45,12 +45,12 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="默认URL"
+>title="默认 URL"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="表面URI"
+>title="URI 表面"
 >abstract="TBC"
 
 替换为 [!DNL Journey Optimizer]，您可以设置渠道界面（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、移动应用程序、短信配置等。
