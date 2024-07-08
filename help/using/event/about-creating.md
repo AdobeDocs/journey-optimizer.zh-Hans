@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1603'
 ht-degree: 12%
 
 ---
@@ -63,15 +63,15 @@ ht-degree: 12%
 
 1. 对于基于规则的事件，请单击 **[!UICONTROL 事件ID条件]** 字段。 使用简单或高级表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
 
-![](assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
-在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件(**[!UICONTROL 城市]** 字段和 **[!UICONTROL 巴黎]** 值)，它会将其传递到历程。
+   在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件(**[!UICONTROL 城市]** 字段和 **[!UICONTROL 巴黎]** 值)，它会将其传递到历程。
 
->[!NOTE]
->
->在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，可以使用“包含”或“等于”。
->
->如果在创建事件后使用新的枚举值修改架构，则需要按照以下步骤将更改应用于现有事件：从事件字段中取消选择枚举字段，确认选择，然后再次选择枚举字段。 此时将显示新的枚举值。
+   >[!NOTE]
+   >
+   >在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，可以使用“包含”或“等于”。
+   >
+   >如果在创建事件后使用新的枚举值修改架构，则需要按照以下步骤将更改应用于现有事件：从事件字段中取消选择枚举字段，确认选择，然后再次选择枚举字段。 此时将显示新的枚举值。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
 
@@ -163,16 +163,12 @@ ht-degree: 12%
 
 ### 高级表达式编辑器 {#adv-exp-editor}
 
-
 定义用户档案标识符时，您可以切换到高级表达式编辑器以创建更复杂的键（例如，两个事件字段的串联）。
 
 ![](assets/journey20.png)
 
 您可以从以下位置访问高级表达式函数 **[!UICONTROL 高级模式]** 按钮。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅此[页面](../building-journeys/expression/expressionadvanced.md)。
 
->[!AVAILABILITY]
->
->高级表达式编辑器仅适用于一组组织(LA)。
 
 ## 预览有效负载 {#preview-the-payload}
 
