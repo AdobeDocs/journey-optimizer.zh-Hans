@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fa4bcf281e9d58f5291a0128d0d33884016f407b
+source-git-commit: 18fca9796e40d43f886ad8d53ef7d1b6b6642aa6
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 69%
+source-wordcount: '1104'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 **最新更新**：2024年7月8日
 
-**历程事件配置中的高级表达式编辑器**  — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 这项改进以前在Limited Availability (LA)中发布，现在可供所有客户使用。 [了解详情](../event/about-creating.md#adv-exp-editor)
+**历程事件配置中的高级表达式编辑器**  — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
 
 
 ## 2024 年 6 月发行说明 {#24-6-2024}
