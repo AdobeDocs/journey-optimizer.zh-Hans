@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1608'
 ht-degree: 12%
 
 ---
@@ -69,13 +69,13 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，可以使用“contains”或“equal to”。
+   >在简单表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字符串类型的字段，可以使用“包含”或“等于”。
    >
-   >如果在创建事件后使用新的枚举值修改方案，则需要按照以下步骤将更改应用于现有事件：从事件字段中取消选择枚举字段，确认选择，然后再次选择枚举字段。 现在将显示新的枚举值。
+   >如果在创建事件后使用新的枚举值修改架构，则需要按照以下步骤将更改应用于现有事件：从事件字段中取消选择枚举字段，确认选择，然后再次选择枚举字段。 此时将显示新的枚举值。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此小节](../event/about-creating.md#select-the-namespace)。
 
-1. 定义配置文件标识：从有效负荷字段中选择一个字段，或定义一个公式以标识与事件关联的人员。 如果您选择命名空间，此键将自动设置（但仍可编辑）。实际上，旅程会选择应该与命名空间对应的密钥（例如，如果选择电子邮件命名空间，则会选择电子邮件密钥）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
+1. 定义用户档案标识符：从有效负荷字段中选择一个字段，或定义一个公式以标识与事件关联的个人。 如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，历程会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。 请参阅[此小节](../event/about-creating.md#define-the-event-key)。
 
    ![](assets/jo-event7.png)
 
@@ -91,23 +91,23 @@ ht-degree: 12%
 
    ![](assets/journey8.png)
 
-   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选择。 不能取消选择它们。 默认情况下，所有必填字段都将被选中，以使行程能够正确接收事件。
+   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选择。 不能取消选择它们。 默认情况下，选择历程正确接收事件所必需的所有字段。
 
    >[!NOTE]
    >
-   >对于系统生成的事件，请确保已将“业务流程”字段组添加到XDM架构。 这将确保您的架构包含要使用的所有必需信息 [!DNL Journey Optimizer].
+   >对于系统生成的事件，请确保已将“编排”字段组添加到XDM架构。 这将确保您的架构包含与配合使用所需的所有信息 [!DNL Journey Optimizer].
 
    ![](assets/journey9.png)
 
-1. 选择您希望从事件中收到的字段。 以下是业务用户在过程中将利用的字段。 它们还必须包含用于识别与事件关联的人员的密钥(请参阅 [本部分](../event/about-creating.md#define-the-event-key))。
+1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 还必须包含用于识别与事件关联的人员的键(请参阅 [本节](../event/about-creating.md#define-the-event-key))。
 
    >[!NOTE]
    >
-   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段列表中，以便 [!DNL Journey Optimizer] 可以标识事件。 推送事件的系统不应生成ID，应使用有效负载预览中提供的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
+   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段的列表中，以便 [!DNL Journey Optimizer] 可以识别事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
 
-1. 选择完所需字段后，单击 **[!UICONTROL 确定]** 或按 **[!UICONTROL 输入]**.
+1. 选择完所需的字段后，单击 **[!UICONTROL 确定]** 或按 **[!UICONTROL 输入]**.
 
-   所选字段的数目将显示在 **[!UICONTROL 字段]** 字段。
+   所选字段的数目显示在 **[!UICONTROL 字段]** 字段。
 
    ![](assets/journey12.png)
 
@@ -122,7 +122,7 @@ ht-degree: 12%
 
 您可以使用其中一个预定义命名空间，也可以使用Identity Namespace Service创建新命名空间。 请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}.
 
-如果选择具有主标识的架构，则 **[!UICONTROL Profiler标识符]** 和 **[!UICONTROL 命名空间]** 字段是预填充的。 如果未定义标识，我们将选择 _identityMap > id_ 作为主键。 然后，您必须选择一个命名空间，并且密钥将被预填充(位于 **[!UICONTROL 命名空间]** 字段)使用 _identitymap > id_.
+如果选择具有主标识的架构，则 **[!UICONTROL Profiler标识符]** 和 **[!UICONTROL 命名空间]** 字段是预填充的。 如果未定义标识，我们将选择 _identityMap > id_ 作为主键。 然后，您必须选择一个命名空间，并且密钥将会预填充(位于 **[!UICONTROL 命名空间]** 字段)，使用 _identityMap > id_.
 
 选择字段时，将标记主要标识字段。
 
@@ -161,9 +161,9 @@ ht-degree: 12%
 当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与命名空间关联(请参阅 [本节](../event/about-creating.md#select-the-namespace))，密钥可用于对Adobe Experience Platform执行查询。 请参阅 [此页面](../building-journeys/about-journey-activities.md#orchestration-activities).
 密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
-### 高级表达式编辑器 {#adv-exp-editor}
+## 高级表达式编辑器 {#adv-exp-editor}
 
-定义配置文件标识符时，可以切换到高级表达式编辑器以创建更复杂的键（例如，事件中两个字段的串联）。
+在定义事件ID条件或用户档案标识符时，您可以切换到高级表达式编辑器以创建更复杂的键（例如，两个事件字段的串联）。
 
 ![](assets/journey20.png)
 
@@ -178,14 +178,14 @@ ht-degree: 12%
 >
 >对于系统生成的事件，在创建事件时，在查看有效负载预览之前，请保存事件并重新打开它。 在有效负载中生成事件ID时需要此步骤。
 
-1. 单击 **[!UICONTROL 查看有效负载]** 图标以预览系统所需的负载。
+1. 单击 **[!UICONTROL 查看有效负荷]** 图标以预览系统所需的有效负载。
 
    ![](assets/journey13.png)
 
-   您会注意到选定的字段已显示。
+   您可以注意到已选择的字段已显示。
 
    ![](assets/journey14.png)
 
-1. 检查预览以验证负载定义。
+1. 检查预览以验证有效负载定义。
 
-1. 然后，您可以与负责发送事件的人员共享负载预览。 此负载可帮助他们设计推送到 [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
+1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到以下位置的事件设置： [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
