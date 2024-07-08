@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 12%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 12%
    >
    >当您选择 **[!UICONTROL 系统生成]** 类型，则只有具有eventID类型字段的架构可用。 当您选择 **[!UICONTROL 基于规则]** 类型，则所有体验事件架构都可用。
 
-1. 对于基于规则的事件，请单击 **[!UICONTROL 事件ID条件]** 字段。 使用 <!--simple or advanced--> 表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
+1. 对于基于规则的事件，请单击 **[!UICONTROL 事件ID条件]** 字段。 使用简单或高级表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
 
 ![](assets/jo-event6.png)
 
