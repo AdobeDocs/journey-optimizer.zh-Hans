@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
+source-git-commit: ca80a7bc1fbf819d27db2d9518832c9345cdaa18
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1610'
 ht-degree: 12%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 以下是配置新事件的首要步骤：
 
-1. 在“管理”菜单部分中，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 活动]** 部分，单击 **[!UICONTROL 管理]**. 将显示事件列表。
+1. 在“管理”菜单部分，浏览 **[!UICONTROL 配置]**、和  **[!UICONTROL 活动]** 部分，单击 **[!UICONTROL 管理]**. 将显示事件列表。
 
    ![](assets/jo-event1.png)
 
