@@ -11,10 +11,10 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '665'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 >
 >Adobe Journey Optimizer 中的 AI 助手目前仅作为 Beta 版供部分用户使用。
 
-Adobe Journey Optimizer 中的 AI 助手可以主动为文本和图像提供内容变体建议。这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
+Adobe Journey Optimizer中的AI助手由Azure OpenAI和Azure Vision提供支持，为文本和图像提供主动内容变体建议。 这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
 
 使用 Journey Optimizer 中的 AI 助手，尝试使用不同的主标题和图像来优化消息的影响。生成多个变体并构建试验，从而进行比较。利用 Journey Optimizer 内容试验，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
 

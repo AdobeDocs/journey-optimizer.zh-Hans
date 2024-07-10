@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="有限可用性" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+badge: label="限量发布版" type="Informative"
+source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '151'
 ht-degree: 25%
 
 ---
@@ -35,3 +35,9 @@ ht-degree: 25%
 </br>
 
 ![](assets/translation_schema.png)
+
+## 操作方法视频 {#video}
+
+了解如何在单个活动或历程中以多种语言创建内容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)
