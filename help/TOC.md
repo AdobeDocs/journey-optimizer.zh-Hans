@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,7 +276,7 @@ ht-degree: 98%
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
-   + 使用内容试验 {#content-experiment}
+   + 使用内容试验{#content-experiment}
       + [内容体验入门](using/content-management/get-started-experiment.md)
       + [创建内容体验](using/content-management/content-experiment.md)
       + [配置实验报告](using/content-management/reporting-configuration.md)
@@ -311,7 +311,7 @@ ht-degree: 98%
       + 个性化用例{#personalization-use-cases}
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
-   + 内容模板 {#content-templates}
+   + 内容模板{#content-templates}
       + [内容模板入门](using/content-management/content-templates.md)
       + [访问和管理模板](using/content-management/access-content-templates.md)
       + [创建内容模板](using/content-management/create-content-templates.md)
@@ -386,7 +386,7 @@ ht-degree: 98%
    + [警报](using/reports/alerts.md)
    + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新的报告界面(LA){#channel-report}
++ 新报告界面 (LA){#channel-report}
    + [新的报告界面入门](using/reports/report-gs-cja.md)
    + [管理您的报告](using/reports/report-cja-manage.md)
    + [历程报告](using/reports/journey-global-report-cja.md)

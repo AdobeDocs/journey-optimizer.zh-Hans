@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1062'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 管理选择退出机制 {#consent}
 
-向收件人提供取消订阅功能以用于停止从品牌接收通信并确保尊重用户的选择，这是法律要求。未能遵守这些法规会为您的品牌带来法律监管风险。 它有助于避免向收件人发送未经请求的通信，这种通信可能会使他们将您的消息标记为垃圾邮件并损害您的声誉。
+向收件人提供取消订阅功能以用于停止从品牌接收通信并确保尊重用户的选择，这是法律要求。未能遵守这些法规会为您的品牌带来法律监管风险。它有助于避免向收件人发送未经请求的通信，这种通信可能会使他们将您的消息标记为垃圾邮件并损害您的声誉。
 
 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hans#regulations){target="_blank"}中进一步了解适用的法规。
 
