@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 70%
+ht-degree: 93%
 
 ---
 
@@ -80,13 +80,13 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>使用Customer Journey Analytics进行报告（限量发布）</strong><br/></th>
+<th><strong>使用 Customer Journey Analytics 的报告功能（限量发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer报告功能提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。</p>
+<p>Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics 的互操作性，在两个平台之间实现了报告标准化，并提高了数据一致性和可靠性。Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>有关更多信息，请参阅<a href="../reports/report-gs-cja.md">详细文档</a>。</p>
 </td>
@@ -115,14 +115,14 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>历程和营销活动中的多语言消息（限量发布）</strong><br/></th>
+<th><strong>历程和营销活动中的多语言消息（限量发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在单个活动或历程中轻松创建多种语言的内容。 利用此功能，您可以在编辑活动或历程时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。</p>
-<p>目前，多语言内容仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>现在，您可以在单个营销活动或历程中轻松创建多种语言的内容。利用此功能，您可以在编辑营销活动或历程时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。</p>
+<p>目前，多语言内容仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的试验（限量发布）</strong><br/></th>
+<th><strong>历程中的试验（限量发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer已在营销活动中提供，现在支持历程中的试验。 试验是开展在线测试时进行的随机试用，这意味着您将为给定的消息试验接触部分随机选择的用户，并为其他试验或试验组接触另外一组随机选择的用户。公开后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
-<p>历程中的试验当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>已经可用于营销活动，Adobe Journey Optimizer 现在支持历程中的试验。试验是开展在线测试时进行的随机试用，这意味着您将为给定的消息试验接触部分随机选择的用户，并为其他试验或试验组接触另外一组随机选择的用户。公开后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
+<p>目前，历程中的试验仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -205,9 +205,9 @@ ht-degree: 70%
 
 #### 电子邮件渠道
 
-* **列表取消订阅**  — 继最近的Gmail和Yahoo公告之后，Journey Optimizer对批量发件人支持“post/1-click”List-Unsubscribe选项。 请参阅以下页面： [电子邮件选择退出管理](../email/email-opt-out.md#unsubscribe-header) 和 [配置电子邮件设置](../email/email-settings.md#list-unsubscribe).
+* **列表取消订阅** - 根据近日 Gmail 和 Yahoo 针对批量发件人发布的公告，Journey Optimizer 现已支持“发布/一键式”列表取消订阅选项。请参阅以下页面：[电子邮件选择退出管理](../email/email-opt-out.md#unsubscribe-header)和[配置电子邮件设置](../email/email-settings.md#list-unsubscribe)。
 
-  **注意**  — 对于任何新的渠道表面，默认情况下会激活列表取消订阅标头选项。 对于现有曲面，默认情况下，取消选中渠道曲面设置中的“一键取消订阅URL”选项。 如果您之前在电子邮件的正文中使用一键式选择退出URL，则此设置仍然有效。 如果选中了渠道界面设置中的一键取消订阅URL，Adobe Journey Optimizer将改用渠道界面设置中默认生成的一键取消订阅URL。
+  **注意** - 对于任何新的渠道表面，默认情况下会激活列表取消订阅标头选项。对于现有表面，渠道表面设置中的“一键取消订阅 URL”选项默认处于取消选中的状态。如果您之前在电子邮件的正文中使用过一键式选择退出 URL，则此设置仍然有效。如果选中了渠道表面设置中的“一键取消订阅 URL”，Adobe Journey Optimizer 将改用渠道表面设置中默认生成的一键取消订阅 URL。
 
 #### 短信渠道
 
@@ -226,4 +226,4 @@ ht-degree: 70%
 
 #### 直邮渠道
 
-* 直邮渠道现在可供所有客户使用。 [了解详情](../direct-mail/get-started-direct-mail.md)
+* 直邮渠道现已面向所有客户提供。[了解详情](../direct-mail/get-started-direct-mail.md)
