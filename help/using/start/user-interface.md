@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -132,9 +132,9 @@ ht-degree: 98%
 
 * **[!UICONTROL 警报]** - 利用该用户界面，可根据 Adobe Experience Platform Observability Insights 显示的量度，查看已接收警报的历史记录。利用此 UI，还可查看、启用和禁用可用的警报规则。[了解详情](../reports/alerts.md)
 
-* **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。浏览此部分以管理您的沙箱。 [了解详情](../administration/sandboxes.md)
+* **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。浏览此部分以管理沙盒。[了解详情](../administration/sandboxes.md)
 
-* **[!UICONTROL 渠道]**  — 使用此部分配置您的渠道，包括子域、表面和可投放性设置。 [了解详情](../configuration/get-started-configuration.md)
+* **[!UICONTROL 渠道]** - 使用此部分配置渠道，包括子域、平面和可投放性设置。[了解详情](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL 标记]** - 使用统一标记，您可以轻松地对历程和营销活动进行分类，以改进列表中的搜索。[了解详情](../start/search-filter-categorize.md#work-with-unified-tags)
 
