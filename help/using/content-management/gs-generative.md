@@ -11,10 +11,10 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
-workflow-type: ht
-source-wordcount: '665'
-ht-degree: 100%
+source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe 生成式 AI 术语"
->abstract="是否能访问此功能取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。您为此功能提供的任何提示、上下文或补充信息或其他输入都必须与特定上下文绑定，可以包括您的品牌化材料、网站内容、数据、此类数据的架构、模板或其他信任的文档，并且不得包含任何个人信息（个人信息包括可以关联到特定个人的任何内容）。您应该检查此功能的任何输出是否准确，并确保它适合您的用例"
+>abstract="是否能访问此功能取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。请检查此功能的任何输出是否正确，并确保它适合您的用例。"
 >additional-url="https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户指南"
 
 >[!BEGINSHADEBOX]
@@ -54,7 +54,7 @@ ht-degree: 100%
 >
 >Adobe Journey Optimizer 中的 AI 助手目前仅作为 Beta 版供部分用户使用。
 
-Adobe Journey Optimizer 中的 AI 助手由 Azure OpenAI 和 Azure Vision 提供支持，为文本和图像提供主动的内容变体建议。这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
+Adobe Journey Optimizer中的AI助手由Azure OpenAI提供支持，为文本和图像提供主动内容变体建议。 这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
 
 使用 Journey Optimizer 中的 AI 助手，尝试使用不同的主标题和图像来优化消息的影响。生成多个变体并构建试验，从而进行比较。利用 Journey Optimizer 内容试验，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
 
