@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="营销活动"
->abstract="创建营销活动，以跨各种渠道向特定受众投放一次性内容。在创建营销活动之前，请确保您已准备好渠道表面（即消息预设）和 Adobe Experience Platform 受众以供使用。"
+>abstract="创建营销活动，以跨各种渠道向特定受众投放一次性内容。在创建营销活动之前，请确保您具有可供使用的渠道界面和Adobe Experience Platform受众。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
