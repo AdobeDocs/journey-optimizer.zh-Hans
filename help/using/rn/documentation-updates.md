@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
-workflow-type: ht
-source-wordcount: '5383'
-ht-degree: 100%
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+workflow-type: tm+mt
+source-wordcount: '5407'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+## 2024 年 7 月 {#july-2024}
+
+* 添加了一个个性化用例，说明如何使用与健康计划和处方相关的信息将电子邮件个性化。 [了解详情](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024 年 6 月 {#june-2024}
 
