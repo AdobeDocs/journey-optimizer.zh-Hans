@@ -9,7 +9,7 @@ exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的决策规则的信息，包括其唯一实例ID和位置 `@id`. 您可以在以后的步骤中使用实例ID来更新或删除决策规则。 您可以使用独特的决策规则 `@id` 在稍后的教程中创建个性化优惠。
+成功的响应返回有关新创建的决策规则的信息，包括其唯一实例ID和位置`@id`。 您可以在以后的步骤中使用实例ID来更新或删除决策规则。 您可以在以后的教程中使用唯一的决策规则`@id`创建个性化优惠。
 
 ```json
 {

@@ -17,36 +17,36 @@ ht-degree: 1%
 
 # 实时报告入门 {#live-report}
 
-使用 **[!UICONTROL 实时报告]** 在内置仪表板中，实时衡量和可视化您的历程和消息的影响和性能。
-数据可在以下位置获取： **[!UICONTROL 实时报告]** 发送投放或从中执行历程后 **[!UICONTROL 最近24小时]** 选项卡。
+使用&#x200B;**[!UICONTROL 实时报告]**在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。
+在发送投放或从**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。
 
-* 如果要在历程上下文中定位历程，请从 **[!UICONTROL 历程]** 菜单，访问您的旅程，然后单击 **[!UICONTROL 查看报告]** 按钮。
+* 如果要在历程上下文中定位历程，请从&#x200B;**[!UICONTROL 历程]**&#x200B;菜单访问您的历程，然后单击&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮。
 
   ![](assets/report_journey.png)
 
-* 如果要定位促销活动，请从 **[!UICONTROL 营销活动]** 菜单，访问您的营销策划，然后单击 **[!UICONTROL 报表]** 按钮。
+* 如果要定位促销活动，请从&#x200B;**[!UICONTROL 促销活动]**&#x200B;菜单访问您的促销活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;按钮。
 
   ![](assets/report_campaign.png)
 
-* 如果要从 **[!UICONTROL 全局报告]** 到 **[!UICONTROL 实时报告]** 对于您的投放，请单击 **[!UICONTROL 最近24小时]** 选项卡切换器中的。
+* 如果要将投放从&#x200B;**[!UICONTROL 全局报告]**&#x200B;切换到&#x200B;**[!UICONTROL 实时报告]**，请从选项卡切换器中单击&#x200B;**[!UICONTROL 最近24小时]**。
 
   ![](assets/report_3.png)
 
-有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅 [此页面](#list-of-components-live).
+有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](#list-of-components-live)。
 
 ## 自定义仪表板 {#modify-dashboard}
 
 可以通过调整小部件的大小或删除小部件来修改每个报表仪表板。 更改构件只会影响当前用户的仪表板。 其他用户将看到自己的功能板或默认设置的功能板。
 
-1. 从 **[!UICONTROL 操作]** 下拉列表中，选择是否要报告历程的一个特定操作。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表中，选择是否要报告历程的一个特定操作。
 
-1. 选择是否要通过切换栏从报表中排除测试事件。 有关测试事件的详细信息，请参阅 [此页面](../building-journeys/testing-the-journey.md).
+1. 选择是否要通过切换栏从报表中排除测试事件。 有关测试事件的详细信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
-   请注意 **[!UICONTROL 排除测试事件]** 选项仅适用于历程报表。
+   请注意，**[!UICONTROL 排除测试事件]**&#x200B;选项仅适用于历程报表。
 
    ![](assets/report_modify_6.png)
 
-1. 要调整小部件的大小或删除小部件，请单击 **[!UICONTROL 修改]**.
+1. 要调整小部件的大小或删除小部件，请单击&#x200B;**[!UICONTROL 修改]**。
 
    ![](assets/report_modify_7.png)
 
@@ -54,17 +54,17 @@ ht-degree: 1%
 
    ![](assets/report_modify_8.png)
 
-1. 单击 **[!UICONTROL 移除]** 以删除任何您不需要的构件。
+1. 单击&#x200B;**[!UICONTROL 删除]**&#x200B;可删除不需要的任何构件。
 
    ![](assets/report_modify_9.png)
 
-1. 如果对小部件的显示顺序和大小满意，请单击 **[!UICONTROL 保存]**.
+1. 如果对显示顺序和小部件的大小满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
 1. 要自定义数据的显示方式，可以从不同的可视化选项（如图形、表格和圆环图）进行切换。
 
    ![](assets/report_modify_11.png)
 
-您的信息板现已保存。 您的不同更改将重新应用以供以后使用实时报告。 如果需要，请使用 **[!UICONTROL 重置]** 用于恢复默认构件和构件顺序的选项。
+您的信息板现已保存。 您的不同更改将重新应用以供以后使用实时报告。 如果需要，请使用&#x200B;**[!UICONTROL 重置]**&#x200B;选项恢复默认小部件和小部件的顺序。
 
 ## 导出您的报告 {#export-reports}
 
@@ -72,9 +72,9 @@ ht-degree: 1%
 
 >[!BEGINTABS]
 
->[!TAB 将报表导出为PDF文件]
+>[!TAB 将报告导出为PDF文件]
 
-1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL PDF文件]**.
+1. 在报表中，单击&#x200B;**[!UICONTROL 导出]**&#x200B;并选择&#x200B;**[!UICONTROL PDF文件]**。
 
    ![](assets/export_6.png)
 
@@ -86,13 +86,13 @@ ht-degree: 1%
 
 您的报表现在可以在PDF文件中查看或共享。
 
->[!TAB 将报表导出为CSV文件]
+>[!TAB 将报告导出为CSV文件]
 
-1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL CSV文件]** 在整体报表级别生成CSV文件。
+1. 在报表中，单击&#x200B;**[!UICONTROL 导出]**&#x200B;并选择&#x200B;**[!UICONTROL CSV文件]**&#x200B;以生成整个报表级别的CSV文件。
 
    ![](assets/export_4.png)
 
-1. 您还可以选择从特定构件导出数据。 单击 **[!UICONTROL 将构件数据导出到CSV]** 在选定小组件旁边。
+1. 您还可以选择从特定构件导出数据。 单击所选构件旁边的&#x200B;**[!UICONTROL 将构件数据导出到CSV]**。
 
    ![](assets/export_5.png)
 

@@ -34,7 +34,7 @@ ht-degree: 11%
 
    ![](assets/push_create_1.png)
 
-1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。 此 **[!UICONTROL 表面]** 默认情况下，字段会使用用户用于该渠道的最后一个表面进行预填充。
+1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。 默认情况下，**[!UICONTROL Surface]**&#x200B;字段已预填充，用户将使用该渠道的最后一个表面。
 
    ![](assets/push_create_2.png)
 
@@ -42,52 +42,52 @@ ht-degree: 11%
    >
    >如果您从历程发送推送通知，则可以利用Adobe Journey Optimizer的发送时间优化功能，根据历史打开率和点击率预测发送消息的最佳时间，从而最大限度地提高参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
 
-   有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md)
+   有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)
 
-1. 在历程配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置推送内容。 [设计推送通知](design-push.md)
+1. 在历程配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置推送内容。 [设计推送通知](design-push.md)
 
 1. 定义消息内容后，您可以使用测试用户档案预览其内容。
 
-1. 推送就绪后，完成配置 [历程](../building-journeys/journey-gs.md) 发送它。
+1. 推送就绪后，完成[历程](../building-journeys/journey-gs.md)的配置以发送它。
 
-   要通过推送打开和/或交互跟踪收件人的行为，请确保在中启用跟踪部分中的专用选项。 [电子邮件活动](../building-journeys/journeys-message.md).
+   要通过推送打开和/或交互跟踪收件人的行为，请确保在[电子邮件活动](../building-journeys/journeys-message.md)中启用了跟踪部分中的专用选项。
 
 >[!TAB 向营销活动添加推送]
 
-1. 创建新的计划或API触发的营销活动，请选择 **[!UICONTROL 推送通知]** 作为您的操作，然后选择 **[!UICONTROL 应用程序表面]** 以使用。 [了解有关推送配置的更多信息](push-configuration.md).
+1. 创建新的计划或API触发的营销活动，选择&#x200B;**[!UICONTROL 推送通知]**&#x200B;作为您的操作，并选择要使用的&#x200B;**[!UICONTROL 应用程序表面]**。 [了解有关推送配置的更多信息](push-configuration.md)。
 
    ![](assets/push_create_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 从 **[!UICONTROL 属性]** 部分，编辑您的营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
+1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，编辑营销活动的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    ![](assets/push_create_4.png)
 
-1. 单击 **[!UICONTROL 选择受众]** 按钮，从可用的Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
-1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/push_create_5.png)
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
+1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 营销活动旨在按特定日期或循环频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
-1. 从 **[!UICONTROL 操作触发器]** 菜单，选择 **[!UICONTROL 频率]** 推送通知的：
+1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择推送通知的&#x200B;**[!UICONTROL 频率]**：
 
    * 一次
    * 每日
    * 每周
    * 每月
 
-1. 在Campaign配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置推送内容。 [设计推送通知](design-push.md)
+1. 在营销活动配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置推送内容。 [设计推送通知](design-push.md)
 
 1. 定义消息内容后，您可以使用测试用户档案预览其内容。
 
-1. 推送就绪后，完成配置 [营销活动](../campaigns/create-campaign.md) 发送它。
+1. 推送就绪后，完成[营销活动](../campaigns/create-campaign.md)的配置以发送它。
 
-   要通过推送打开和/或交互跟踪收件人的行为，请确保在中启用跟踪部分中的专用选项。 [营销活动](../campaigns/create-campaign.md).
+   要通过推送打开和/或交互跟踪收件人的行为，请确保在[营销活动](../campaigns/create-campaign.md)中启用了跟踪部分中的专用选项。
 
 >[!ENDTABS]
 
@@ -103,24 +103,24 @@ ht-degree: 11%
 >title="快速传递模式"
 >abstract="快速传递模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
 
-快速传递模式是 [!DNL Journey Optimizer] 允许通过营销活动以非常快的速度发送大量推送消息的加载项。
+快速传递模式是一个[!DNL Journey Optimizer]加载项，允许通过营销活动以非常快的速度发送大量推送消息。
 
 当消息投放延迟对业务至关重要，并且您想要在手机上发送紧急推送警报（例如，向已安装您的新闻频道应用程序的用户发送突发新闻）时，可使用快速投放。
 
-有关使用快速传递模式时性能的详细信息，请参阅 [Adobe Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
+有关使用快速传递模式时性能的详细信息，请参阅[Adobe Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
 
 ### 先决条件 {#prerequisites}
 
 快速传递消息传送具有以下要求：
 
-* 快速投放可用于 **[!UICONTROL 已计划]** 仅限于营销活动，对于API触发的营销活动不可用，
+* 快速投放仅适用于&#x200B;**[!UICONTROL 计划]**&#x200B;营销活动，不适用于API触发的营销活动。
 * 推送消息中不允许个性化，
 * 目标受众必须包含少于3000万个配置文件，
 * 您最多可以使用快速投放模式同时执行5个营销活动。
 
 ### 激活快速传递模式
 
-1. 创建推送通知营销活动并打开 **[!UICONTROL 快速投放]** 选项。
+1. 创建推送通知营销活动并打开&#x200B;**[!UICONTROL 快速投放]**&#x200B;选项。
 
 ![](assets/create-campaign-burst.png)
 

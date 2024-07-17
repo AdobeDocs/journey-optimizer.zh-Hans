@@ -26,7 +26,7 @@ ht-degree: 3%
 
 ## 重要说明 {#important-notes}
 
-* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html).
+* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 在[Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)中阅读有关事务性消息传递SLA的更多信息。
 
 * Adobe Campaign Standard集成通过操作列表中的专用内置操作进行设置。 需要为每个沙盒配置此设置。
 
@@ -38,15 +38,15 @@ ht-degree: 3%
 
 以下是配置此功能的步骤：
 
-1. 选择 **[!UICONTROL 配置]** 在“管理”菜单部分中。 在  **[!UICONTROL 操作]** 部分，单击 **[!UICONTROL 管理]**. 将显示操作列表。
+1. 在“管理”菜单部分中选择&#x200B;**[!UICONTROL 配置]**。 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 管理]**。 将显示操作列表。
 
-1. 选择内置 **[!UICONTROL AdobeCampaignStandard]** 操作。 操作配置窗格将在屏幕右侧打开。
+1. 选择内置&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](assets/actioncampaign.png)
 
-1. 复制Adobe Campaign Standard实例URL并将其粘贴到 **[!UICONTROL URL]** 字段。
+1. 复制Adobe Campaign Standard实例URL并将其粘贴到&#x200B;**[!UICONTROL URL]**&#x200B;字段中。
 
-1. 单击 **[!UICONTROL 测试实例URL]** 以测试实例的有效性。
+1. 单击&#x200B;**[!UICONTROL 测试实例URL]**&#x200B;以测试实例的有效性。
 
    >[!NOTE]
    >
@@ -58,10 +58,10 @@ ht-degree: 3%
    >
    >与此Adobe Campaign Standard实例关联的组织与Journey Optimizer的组织相同。
 
-设计历程时，以下三个操作将可用： **[!UICONTROL 操作]** 类别： **[!UICONTROL 电子邮件]**， **[!UICONTROL 推送]**， **[!UICONTROL 短信]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-standard.md))。
+设计历程时，**[!UICONTROL 操作]**&#x200B;类别中将提供三个操作： **[!UICONTROL 电子邮件]**、**[!UICONTROL 推送]**、**[!UICONTROL 短信]**(请参阅[使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-standard.md))。
 
 ![](assets/journey58.png)
 
-您可以使用 **反应** 事件，用于对与在同一历程中发送的Campaign Standard消息相关的跟踪数据做出反应。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出反应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出反应。 请参阅 [反应事件](../building-journeys/reaction-events.md).
+您可以使用&#x200B;**反应**&#x200B;事件来响应与在同一历程中发送的Campaign Standard消息相关的跟踪数据。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出反应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出反应。 查看[反应事件](../building-journeys/reaction-events.md)。
 
-如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 请参阅 [关于自定义操作配置](../action/about-custom-action-configuration.md).
+如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 请参阅[关于自定义操作配置](../action/about-custom-action-configuration.md)。

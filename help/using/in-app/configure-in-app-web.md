@@ -18,9 +18,9 @@ ht-degree: 2%
 
 ## 先决条件 {#prerequisites}
 
-* 确保您使用的是最新版本的 **Adobe Experience Platform Web SDK** 扩展。
+* 确保您使用的是适用于您的&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展的最新版本。
 
-* 安装 **Adobe Experience Platform Web SDK** 中的扩展 **标记属性** 并启用 **个性化存储** 选项。
+* 在&#x200B;**标记属性**&#x200B;中安装&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展并启用&#x200B;**Personalization Storage**&#x200B;选项。
 
   此配置对于在客户端上存储事件历史记录至关重要，这是在规则生成器中实施频率规则的先决条件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
@@ -28,85 +28,85 @@ ht-degree: 2%
 
 ## 配置发送数据到平台规则 {#configure-sent-data-trigger}
 
-1. 访问 **Adobe Experience Platform数据收集** 实例并导航到 **标记属性** 已使用 **Adobe Experience Platform Web SDK** 扩展。
+1. 访问您的&#x200B;**Adobe Experience Platform数据收集**&#x200B;实例，并导航到配置了&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展的&#x200B;**标记属性**。
 
-1. 从 **创作** 菜单，选择 **规则** 则 **创建新规则** 或 **添加规则**.
+1. 从&#x200B;**创作**&#x200B;菜单中，选择&#x200B;**规则**，然后选择&#x200B;**创建新规则**&#x200B;或&#x200B;**添加规则**。
 
    ![](assets/configure_web_inapp_2.png)
 
-1. 在 **活动** 部分，单击 **添加** 并按照以下方式对其进行配置：
+1. 在&#x200B;**事件**&#x200B;部分中，单击&#x200B;**添加**&#x200B;并按如下方式进行配置：
 
-   * **扩展名**：核心
+   * **扩展**：核心
 
-   * **事件类型**：Library Loaded (Page Top)。
+   * **事件类型**：已加载库（页面顶部）。
 
    ![](assets/configure_web_inapp_3.png)
 
-1. 单击 **保留更改** 以保存事件配置。
+1. 单击&#x200B;**保留更改**&#x200B;以保存事件配置。
 
-1. 在 **操作** 部分，单击 **添加** 并按照以下方式对其进行配置：
+1. 在&#x200B;**操作**&#x200B;部分中，单击&#x200B;**添加**&#x200B;并按如下方式进行配置：
 
-   * **扩展名**：Adobe Experience Platform Web SDK
+   * **扩展**： Adobe Experience Platform Web SDK
 
    * **操作类型**：发送事件
 
    ![](assets/configure_web_inapp_4.png)
 
-1. 在 **个性化** 部分 **操作** 类型，启用 **呈现可视化个性化决策** 选项。
+1. 在&#x200B;**操作**&#x200B;类型的&#x200B;**Personalization**&#x200B;部分中，启用&#x200B;**呈现可视化个性化决策**&#x200B;选项。
 
    ![](assets/configure_web_inapp_5.png)
 
-1. 在 **决策上下文** 部分，定义 **键** 和 **值** 确定要投放的体验的对。
+1. 在&#x200B;**决策上下文**&#x200B;部分中，定义用于确定要交付的体验的&#x200B;**键**&#x200B;和&#x200B;**值**&#x200B;对。
 
    ![](assets/configure_web_inapp_6.png)
 
-1. 保存您的 **操作** 通过单击 **保留更改**.
+1. 通过单击&#x200B;**保留更改**&#x200B;保存您的&#x200B;**操作**&#x200B;配置。
 
-1. 导航至 **发布流** 菜单。 新建 **库** 或选择现有 **库** 并添加您新创建的 **规则** 敬它。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. 导航到&#x200B;**发布流**&#x200B;菜单。 创建新的&#x200B;**库**&#x200B;或选择现有的&#x200B;**库**，并将新创建的&#x200B;**规则**&#x200B;添加到其中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
 
-1. 来自您的 **库**，选择 **保存并构建到开发环境**.
+1. 从您的&#x200B;**库**&#x200B;中，选择&#x200B;**保存并生成到开发**。
 
    ![](assets/configure_web_inapp_7.png)
 
 ## 配置手动规则 {#configure-manual-trigger}
 
-1. 访问 **Adobe Experience Platform数据收集** 实例并导航到 **标记属性** 已使用 **Adobe Experience Platform Web SDK** 扩展。
+1. 访问您的&#x200B;**Adobe Experience Platform数据收集**&#x200B;实例，并导航到配置了&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展的&#x200B;**标记属性**。
 
-1. 从 **创作** 菜单，选择 **规则** 则 **创建新规则** 或 **添加规则**.
+1. 从&#x200B;**创作**&#x200B;菜单中，选择&#x200B;**规则**，然后选择&#x200B;**创建新规则**&#x200B;或&#x200B;**添加规则**。
 
    ![](assets/configure_web_inapp_8.png)
 
-1. 在 **活动** 部分，单击 **添加** 并按照以下方式对其进行配置：
+1. 在&#x200B;**事件**&#x200B;部分中，单击&#x200B;**添加**&#x200B;并按如下方式进行配置：
 
-   * **扩展名**：核心
+   * **扩展**：核心
 
    * **事件类型**：单击
 
    ![](assets/configure_web_inapp_9.png)
 
-1. 在 **单击配置**，定义 **选择器** 将会被评估。
+1. 在&#x200B;**Click配置**&#x200B;中，定义将评估的&#x200B;**选择器**。
 
    ![](assets/configure_web_inapp_10.png)
 
-1. 单击 **保留更改** 以保存 **事件** 配置。
+1. 单击&#x200B;**保留更改**&#x200B;以保存&#x200B;**事件**&#x200B;配置。
 
-1. 在 **操作** 部分，单击 **添加** 并按照以下方式对其进行配置：
+1. 在&#x200B;**操作**&#x200B;部分中，单击&#x200B;**添加**&#x200B;并按如下方式进行配置：
 
-   * **扩展名**：Adobe Experience Platform Web SDK
+   * **扩展**： Adobe Experience Platform Web SDK
 
    * **操作类型**：评估规则集
 
    ![](assets/configure_web_inapp_11.png)
 
-1. 在 **评估规则集操作** 部分 **操作** 类型，启用 **呈现可视化个性化决策** 选项。
+1. 在&#x200B;**操作**&#x200B;类型的&#x200B;**评估规则集操作**&#x200B;部分中，启用&#x200B;**呈现可视化个性化决策**&#x200B;选项。
 
    ![](assets/configure_web_inapp_13.png)
 
-1. 在 **决策上下文** 部分，定义 **键** 和 **值** 确定要投放的体验的对。
+1. 在&#x200B;**决策上下文**&#x200B;部分中，定义用于确定要交付的体验的&#x200B;**键**&#x200B;和&#x200B;**值**&#x200B;对。
 
-1. 访问 **发布流** 菜单，新建 **库** 或选择现有 **库** 并添加您新创建的 **规则**. [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
+1. 访问&#x200B;**发布流**&#x200B;菜单，创建新的&#x200B;**库**，或选择现有的&#x200B;**库**&#x200B;并添加新创建的&#x200B;**规则**。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en#create-a-library)
 
-1. 来自您的 **库**，选择 **保存并构建到开发环境**.
+1. 从您的&#x200B;**库**&#x200B;中，选择&#x200B;**保存并生成到开发**。
 
    ![](assets/configure_web_inapp_14.png)
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 删除决策规则 {#delete-decision-rule}
 
-有时可能有必要删除(DELETE)决策规则。 DELETE这是通过对 [!DNL Offer Library] API使用 `id` 要删除的决策规则的ID。
+有时可能有必要删除(DELETE)决策规则。 通过使用要删除的决策规则的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

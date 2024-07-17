@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # toDateOnly{#toDateOnly}
 
-将参数转换为dateOnly类型值。 要了解有关数据类型的更多信息，请参阅此 [部分](../expression/data-types.md).
+将参数转换为dateOnly类型值。 要了解有关数据类型的更多信息，请参阅此[部分](../expression/data-types.md)。
 
 ## 类别
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 以“YYYY-MM-DD”形式表示的日期的字符串（XDM格式）。 还支持ISO-8601格式：仅限 **完整日期** 部分已考虑(请参阅 [RFC 3339,5.6节](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | 字符串 |
+| 以“YYYY-MM-DD”形式表示的日期的字符串（XDM格式）。 还支持ISO-8601格式：仅考虑&#x200B;**完整日期**&#x200B;部分（请参阅[RFC 3339，第5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)节） | 字符串 |
 | 日期时间 | dateTime |
 | 不带时区的日期时间 | dateTimeOnly |
 | 纪元的整数值（以毫秒为单位） | 整数 |

@@ -42,7 +42,7 @@ ht-degree: 11%
 `intersect(listDateTimeOnly,listDateTimeOnly)`： listDateTimeOnly
 `intersect(listDateOnly,listDateOnly)`： listDateOnly
 `intersect(listDuration,listDuration)`： listDuration
-`intersect(listBoolean,listBoolean)`：listBoolean
+`intersect(listBoolean,listBoolean)`：列表布尔值
 
 返回列表。
 
@@ -55,7 +55,7 @@ intersect(
 )
 ```
 
-返回 [“体育”、“新闻”]
+返回[&quot;sports&quot;，&quot;news&quot;]
 
 ```json
 intersect(

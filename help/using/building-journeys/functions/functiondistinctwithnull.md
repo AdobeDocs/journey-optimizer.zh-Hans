@@ -18,7 +18,7 @@ ht-degree: 7%
 
 返回给定列表的不同值或对象。 如果列表至少有一个null条目，则返回的列表中将显示一个null条目。
 
-请注意，参数 `<listObject>` 此函数中不受支持。
+请注意，此函数不支持参数`<listObject>`。
 
 ## 类别
 
@@ -72,4 +72,4 @@ ht-degree: 7%
 
 `distinctWithNull([10,2,10,null])`
 
-返回 [10， 2，空]
+返回[10， 2， null]

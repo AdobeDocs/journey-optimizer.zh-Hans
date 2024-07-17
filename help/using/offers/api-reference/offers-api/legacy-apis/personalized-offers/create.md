@@ -9,7 +9,7 @@ exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 8%
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
 
-您可以通过向以下网站发出POST请求来创建个性化优惠： [!DNL Offer Library] API，同时提供容器ID。
+您可以在提供容器ID的同时，通过向[!DNL Offer Library] API发出POST请求来创建个性化优惠。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
@@ -86,7 +86,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的个性化优惠的信息，包括其唯一实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除个性化优惠。
+成功的响应返回有关新创建的个性化优惠的信息，包括其唯一实例ID和投放位置`@id`。 您可以在后续步骤中使用实例ID来更新或删除个性化优惠。
 
 ```json
 {
@@ -104,4 +104,4 @@ curl -X POST \
 
 ## 限制 {#limitations}
 
-移动设备当前不支持优惠呈现和一些优惠限制 [!DNL Experience Edge] 工作流，例如 `Capping`. 此 `Capping` 字段值指定某个选件在所有用户中可以显示的次数。 有关更多详细信息，请参阅 [优惠资格规则和限制文档](../../../../offer-library/creating-personalized-offers.md).
+移动设备[!DNL Experience Edge]工作流当前不支持优惠呈现和某些优惠约束，例如`Capping`。 `Capping`字段值指定选件在所有用户中可以显示的次数。 有关更多详细信息，请参阅[优惠资格规则和约束文档](../../../../offer-library/creating-personalized-offers.md)。

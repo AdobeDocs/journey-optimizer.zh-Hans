@@ -37,7 +37,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->时区ID必须是字符串常量。 它不能是字段引用，也不能是表达式。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
+>时区ID必须是字符串常量。 它不能是字段引用，也不能是表达式。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 签名和返回的类型
 
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 `toDateTime(<integer>)`
 
-返回 **dateTime**.
+返回&#x200B;**日期时间**。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -74,15 +74,15 @@ Return a datetime.
 
 `toDateTime ("2023-08-18T23:17:59.123Z")`
 
-返回2023-08-18T23:17:59.123赫
+返回2023-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
 
-返回2023-08-18T23:17:59.123赫
+返回2023-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-返回2023-06-17T09:03:10.189赫
+返回2023-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

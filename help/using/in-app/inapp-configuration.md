@@ -17,13 +17,13 @@ ht-degree: 9%
 
 ## 配置步骤 {#inapp-steps}
 
-要在您的历程和促销活动中发送应用程序内消息，请执行以下操作 [!DNL Journey Optimizer]中，您需要完成以下配置步骤。
+要在使用[!DNL Journey Optimizer]的历程和营销活动中发送应用程序内消息，您需要完成以下配置步骤。
 
-1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-必须授予特定权限才能访问 **应用程序表面** Adobe Experience Platform数据收集中的菜单。 了解详情，请参阅 [此视频](#video).
-1. 在Adobe Experience Platform数据收集数据流中启用Adobe Journey Optimizer，并在Adobe Experience Platform中检查默认合并策略，如中所述 [投放先决条件](#delivery-prerequisites) 下。
-1. 在Adobe Experience Platform数据收集中创建并配置应用程序表面，如中所述 [本节](#channel-prerequisites).
-1. 如果您使用内容实验，请确保遵循中列出的要求 [本节](#experiment-prerequisite).
+1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
+必须授予特定权限才能访问Adobe Experience Platform数据收集中的**应用程序表面**&#x200B;菜单。 在[此视频](#video)中了解详情。
+1. 在Adobe Experience Platform数据收集数据流中启用Adobe Journey Optimizer，并检查Adobe Experience Platform中的默认合并策略，如下面的[交付先决条件](#delivery-prerequisites)中所述。
+1. 在Adobe Experience Platform数据收集中创建并配置应用程序表面，如[此部分](#channel-prerequisites)中所述。
+1. 如果您使用内容实验，请确保遵循[此部分](#experiment-prerequisite)中列出的要求。
 
 完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
 
@@ -31,87 +31,87 @@ ht-degree: 9%
 
 要正确投放应用程序内消息，必须定义以下设置：
 
-* 在 [Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}，确保您有定义的数据流，例如 **[!UICONTROL Adobe Experience Platform]** 服务Adobe Experience Platform Edge和 **[!UICONTROL Adobe Journey Optimizer]** 选项已启用。
+* 在[Adobe Experience Platform数据收集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hans){target="_blank"}中，确保您已定义数据流，例如在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;服务下，您已启用Adobe Experience Platform Edge和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。
 
   这可确保Adobe Experience Platform Edge正确处理Journey Optimizer入站事件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* 在 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}，确保您有默认的合并策略， **[!UICONTROL Active-On-Edge合并策略]** 选项已启用。 要执行此操作，请在 **[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您已启用默认合并策略&#x200B;**[!UICONTROL Active-On-Edge合并策略]**&#x200B;选项。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]**&#x200B;策略菜单下选择Experience Platform。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-  此合并策略的使用者为 [!DNL Journey Optimizer] 入站渠道，用于在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
+  [!DNL Journey Optimizer]入站渠道使用此合并策略在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
   >[!NOTE]
   >
-  >使用自定义时 **[!UICONTROL 数据集偏好设置]** 合并策略，确保添加 **[!UICONTROL 入站历程]** 指定合并策略中的数据集。
+  >使用自定义&#x200B;**[!UICONTROL 数据集偏好设置]**&#x200B;合并策略时，请确保在指定的合并策略中添加&#x200B;**[!UICONTROL 历程入站]**&#x200B;数据集。
 
   ![](assets/inapp_config_8.png)
 
-* 要对Journey Optimizer移动体验的交付进行故障诊断，您可以使用 **Edge交付** 在中查看 **Adobe Experience Platform Assurance**. 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
+* 要对Journey Optimizer移动体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery保证**&#x200B;中的&#x200B;**Adobe Experience Platform**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
 
-  使用 **Edge交付** 插件可帮助您获得所需的洞察信息，以便有效了解入站实施并排除其故障。
+  使用&#x200B;**Edge Delivery**&#x200B;插件可帮助您获得所需的见解，以便有效了解入站实施并排除其故障。
 
-  [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 渠道配置先决条件 {#channel-prerequisites}
 
-1. 访问 **[!UICONTROL 应用程序表面]** 菜单并单击 **[!UICONTROL 创建应用程序表面]**.
+1. 访问&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建应用程序表面]**。
 
-1. 向添加名称 **[!UICONTROL 应用程序表面]**.
+1. 向&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;添加名称。
 
    ![](assets/inapp_config_2b.png)
 
-1. 从 **[!UICONTROL Apple iOS]** 下拉框中，为Apple iOS配置移动应用程序。
+1. 从&#x200B;**[!UICONTROL Apple iOS]**&#x200B;下拉列表中，为Apple iOS配置移动应用程序。
 
 +++ 了解详情
 
-   1. 键入您的 **[!UICONTROL iOS包ID]**. 请参阅 [Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 有关的详细信息 **捆绑ID**.
+   1. 键入您的&#x200B;**[!UICONTROL iOS捆绑包ID]**。 有关&#x200B;**捆绑ID**&#x200B;的更多信息，请参阅[Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)。
 
-   1. （可选）选择 **[!UICONTROL 沙盒]** 从中发送推送通知的位置。 请注意，选择特定的沙盒需要必要的访问权限。
+   1. （可选）选择要从中发送推送通知的&#x200B;**[!UICONTROL 沙盒]**。 请注意，选择特定的沙盒需要必要的访问权限。
 
-      有关沙盒管理的更多信息，请参阅 [此页面](../administration/sandboxes.md#assign-sandboxes).
+      有关沙盒管理的详细信息，请参阅[此页面](../administration/sandboxes.md#assign-sandboxes)。
 
-   1. 启用 **[!UICONTROL 推送凭据]** 选项，以根据需要拖放您的.p8身份验证密钥文件。
+   1. 启用&#x200B;**[!UICONTROL 推送凭据]**&#x200B;选项，以便根据需要拖放您的.p8身份验证密钥文件。
 
-      您也可以启用 **[!UICONTROL 手动输入推送凭据]** 选项，用于直接复制和粘贴APNs身份验证密钥。
+      您还可以启用&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;选项，以直接复制并粘贴您的APN验证密钥。
 
-   1. 输入您的 **[!UICONTROL 密钥ID]** 和 **[!UICONTROL 团队编号]**.
+   1. 输入您的&#x200B;**[!UICONTROL 密钥ID]**&#x200B;和&#x200B;**[!UICONTROL 团队ID]**。
 
       ![](assets/inapp_config_2.png)
 
 +++
 
-1. 从 **[!UICONTROL Android]** 下拉菜单中，为Android配置移动应用程序。
+1. 从&#x200B;**[!UICONTROL Android]**&#x200B;下拉列表中，为Android配置移动应用程序。
 
 +++ 了解详情
 
-   1. 键入您的 **[!UICONTROL Android包名称]**. 请参阅 [Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 有关的详细信息 **包名称**.
+   1. 键入您的&#x200B;**[!UICONTROL Android包名称]**。 有关&#x200B;**包名称**&#x200B;的更多信息，请参阅[Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)。
 
-   1. （可选）选择 **[!UICONTROL 沙盒]** 从中发送推送通知的位置。 请注意，选择特定的沙盒需要必要的访问权限。
+   1. （可选）选择要从中发送推送通知的&#x200B;**[!UICONTROL 沙盒]**。 请注意，选择特定的沙盒需要必要的访问权限。
 
-      有关沙盒管理的更多信息，请参阅 [此页面](../administration/sandboxes.md#assign-sandboxes).
+      有关沙盒管理的详细信息，请参阅[此页面](../administration/sandboxes.md#assign-sandboxes)。
 
-   1. 启用 **[!UICONTROL 推送凭据]** 选项，以根据需要拖放您的.json私钥文件。
+   1. 启用&#x200B;**[!UICONTROL 推送凭据]**&#x200B;选项，以根据需要拖放您的.json私钥文件。
 
-      您也可以启用 **[!UICONTROL 手动输入推送凭据]** 用于直接复制和粘贴FCM私钥的选项。
+      您还可以启用&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;选项，以直接复制并粘贴您的FCM私钥。
 
       ![](assets/inapp_config_7.png)
 
-1. 单击 **[!UICONTROL 保存]** 当您完成 **[!UICONTROL 应用程序表面]**.
+1. 完成&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;的配置后，单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/inapp_config_3.png)
 
-   您的 **[!UICONTROL 应用程序表面]** 现在，在创建具有应用程序内消息的新促销活动时将可用。 [了解详情](create-in-app.md)
+   现在，在使用应用程序内消息创建新营销活动时，您的&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;将可用。 [了解详情](create-in-app.md)
 
 1. 创建应用程序表面后，您现在需要创建移动资产。
 
-   请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) 以了解详细过程。
+   有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile)。
 
    ![](assets/inapp_config_4.png)
 
 1. 从新创建资产的“扩展”菜单中，安装以下扩展：
 
-   * Adobe Experience Platform边缘网络
+   * Adobe Experience PlatformEdge Network
    * Adobe Journey Optimizer
    * AEP保证
    * 同意
@@ -119,7 +119,7 @@ ht-degree: 9%
    * 移动核心
    * 配置文件
 
-   请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) 以了解详细过程。
+   有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension)。
 
    ![](assets/inapp_config_5.png)
 
@@ -127,17 +127,17 @@ ht-degree: 9%
 
 ## 内容试验先决条件 {#experiment-prerequisites}
 
-要为应用程序内渠道启用内容实验，您需要确保 [数据集](../data/get-started-datasets.md) 在应用程序内实施中使用 [数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} 也包含在您的报表配置中。
+要为应用程序内渠道启用内容实验，您需要确保在应用程序内实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报表配置中。
 
 换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
 
-了解如何在中为内容实验报告添加数据集 [本节](../content-management/reporting-configuration.md#add-datasets).
+在[本节](../content-management/reporting-configuration.md#add-datasets)中了解如何为内容试验报告添加数据集。
 
 >[!NOTE]
 >
->数据集由 [!DNL Journey Optimizer] 并且不影响数据收集或数据摄取。
+>该数据集由[!DNL Journey Optimizer]报表系统以只读方式使用，不影响数据收集或数据摄取。
 
-如果您是 **非** 使用以下预定义的 [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"} 对于数据集架构： `AEP Web SDK ExperienceEvent` 和 `Consumer Experience Event` (如中的定义 [此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"})，确保添加以下字段组： `Experience Event - Proposition Interactions`， `Application Details`， `Commerce Details`、和 `Web Details`. 这些是必需的 [!DNL Journey Optimizer] 内容试验报告，并跟踪每个用户档案参与哪些试验和处理。
+如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event`（如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]内容试验报告需要这些项，因为它们正在跟踪每个配置文件参与哪些试验和处理。
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ ht-degree: 9%
 
 ## 操作方法视频{#video}
 
-以下视频介绍了如何分配 **管理应用程序配置** 访问“应用程序表面”菜单的权限。
+以下视频说明如何分配&#x200B;**管理应用程序配置**&#x200B;权限以访问应用程序表面菜单。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

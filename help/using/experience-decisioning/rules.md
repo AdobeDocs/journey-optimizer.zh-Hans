@@ -31,7 +31,7 @@ ht-degree: 24%
 >
 >除了项目和选择策略级别决策规则之外，您还可以在营销活动级别定义预期受众。 [了解详情](../campaigns/create-campaign.md#audience)
 
-决策规则的列表可在 **[!UICONTROL 策略设置]** 菜单。
+决策规则列表可在&#x200B;**[!UICONTROL 策略设置]**&#x200B;菜单中访问。
 
 ![](assets/decision-rules-list.png)
 
@@ -39,7 +39,7 @@ ht-degree: 24%
 
 要创建决策规则，请执行以下步骤：
 
-1. 导航到 **[!UICONTROL 策略设置]** / **[!UICONTROL 决策规则]** 然后单击 **[!UICONTROL 创建规则]** 按钮。
+1. 导航到&#x200B;**[!UICONTROL 策略设置]** / **[!UICONTROL 决策规则]**，然后单击&#x200B;**[!UICONTROL 创建规则]**&#x200B;按钮。
 
 1. 此时将打开决策规则创建屏幕。 命名规则并提供描述。
 
@@ -49,13 +49,13 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >与Adobe Experience Platform Segmentation服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器具有一些特性。  但是，文档中描述的全球流程对于构建决策规则仍然有效。 [了解如何构建区段定义](../audience/creating-a-segment-definition.md)
+   >与Adobe Experience Platform Segmentation服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器具有一些特性。  但是，文档中描述的全球流程对于构建决策规则仍然有效。 [了解如何生成区段定义](../audience/creating-a-segment-definition.md)
 
-1. 当您在工作区中添加和配置新字段时， **[!UICONTROL 受众属性]** 窗格显示有关属于受众的预计用户档案的信息。 单击 **[!UICONTROL 刷新估计]** 以更新数据。
+1. 在工作区中添加和配置新字段时，**[!UICONTROL 受众属性]**&#x200B;窗格显示有关属于受众的估计配置文件的信息。 单击&#x200B;**[!UICONTROL 刷新估算]**&#x200B;以更新数据。
 
    >[!NOTE]
    >
    >当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。
 
-1. 决策规则就绪后，单击 **[!UICONTROL 保存]**. 创建的规则将显示在列表中，并可用于决策项和选择策略中，以控制将决策项呈现给用户档案。
+1. 决策规则准备就绪后，单击&#x200B;**[!UICONTROL 保存]**。 创建的规则将显示在列表中，并可用于决策项和选择策略中，以控制将决策项呈现给用户档案。
 

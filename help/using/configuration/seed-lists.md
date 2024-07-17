@@ -12,13 +12,13 @@ exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # 使用种子列表 {#seed-lists}
 
-中的种子列表 [!DNL Journey Optimizer] 使您能够在投放中自动包含特定的种子地址。
+[!DNL Journey Optimizer]中的种子列表允许您在投放中自动包含特定的种子地址。
 
 >[!CAUTION]
 >
@@ -48,11 +48,11 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->支持变体，包括多语言和试验变体。 每个种子地址都会收到同一消息的每个变体的单个副本，例如来自 [内容试验](../content-management/get-started-experiment.md). 请注意，不会为条件内容发送单独的种子电子邮件。
+>支持变体，包括多语言和试验变体。 每个种子地址接收同一消息的每个变体的单个副本，例如，来自[内容试验](../content-management/get-started-experiment.md)的不同版本。 请注意，不会为条件内容发送单独的种子电子邮件。
 
 ## 访问种子列表 {#access-seed-lists}
 
-要访问已创建的种子列表，请转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，并选择 **[!UICONTROL 种子列表]**.
+要访问已创建的种子列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择&#x200B;**[!UICONTROL 种子列表]**。
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->要查看、编辑和管理种子列表，您必须具有 **[!UICONTROL 管理种子列表]** 许可。
+>若要查看、编辑和管理种子列表，您必须具有&#x200B;**[!UICONTROL 管理种子列表]**&#x200B;权限。
 
 ![](assets/seed-list-access.png)
 
@@ -69,13 +69,13 @@ ht-degree: 15%
 
 ![](assets/seed-list-filtering.png)
 
-使用 **[!UICONTROL 删除]** 按钮以永久删除条目。
+使用&#x200B;**[!UICONTROL 删除]**&#x200B;按钮永久删除条目。
 
 >[!CAUTION]
 >
->无法删除在活动中使用的种子列表 [营销活动](../campaigns/review-activate-campaign.md) 或 [历程](../building-journeys/publishing-the-journey.md). 您需要取消激活营销活动/历程，或对其进行编辑以使用未选择种子列表的其他表面。 [了解有关使用种子列表的更多信息](#use-seed-list)
+>无法删除活动[营销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publishing-the-journey.md)中使用的种子列表。 您需要取消激活营销活动/历程，或对其进行编辑以使用未选择种子列表的其他表面。 [了解有关使用种子列表的更多信息](#use-seed-list)
 
-您可以单击种子列表名称对其进行编辑。 <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
+您可以单击种子列表名称对其进行编辑。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
 ## 创建种子列表 {#create-seed-list}
 
@@ -92,9 +92,9 @@ ht-degree: 15%
 
 要创建种子列表，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 种子列表]** 菜单。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 种子列表]**&#x200B;菜单。
 
-1. 选择 **[!UICONTROL 创建种子列表]** 按钮。
+1. 选择&#x200B;**[!UICONTROL 创建种子列表]**&#x200B;按钮。
 
    ![](assets/seed-list-create-button.png)
 
@@ -122,7 +122,7 @@ ht-degree: 15%
    >
    >您可以合并两个选项，但种子列表中的地址总数不能超过50个。
 
-1. 单击 **[!UICONTROL 创建]** 以确认。 新创建的种子列表显示在 [种子列表屏幕](#access-seed-lists).
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认。 新创建的种子列表显示在[种子列表屏幕](#access-seed-lists)中。
 
 ## 在营销活动或历程中使用种子列表 {#use-seed-list}
 
@@ -132,9 +132,9 @@ ht-degree: 15%
 >
 >发送到种子地址的消息不包含在历程或营销活动报告中。
 
-1. 创建曲面并选取 **[!UICONTROL 电子邮件]** 渠道。 [了解详情](../email/email-settings.md)
+1. 创建一个表面并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;渠道。 [了解详情](../email/email-settings.md)
 
-1. 选择您选择的种子列表，在 [对应部分](../email/email-settings.md#seed-list).
+1. 在[对应的部分](../email/email-settings.md#seed-list)中选择您选择的种子列表。
 
    >[!NOTE]
    >
@@ -144,13 +144,13 @@ ht-degree: 15%
 
 1. 提交表面。
 
-1. 创建 [营销活动](../campaigns/create-campaign.md) 或 [历程](../building-journeys/journey-gs.md).
+1. 创建[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journey-gs.md)。
 
-1. 选择 **[!UICONTROL 电子邮件]** 操作并选择 [曲面](channel-surfaces.md) 包括与您相关的种子列表。
+1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作，然后选择[表面](channel-surfaces.md)，其中包含与您相关的种子列表。
 
    ![](assets/seed-list-campaign-email.png)
 
-1. 激活您的 [营销活动](../campaigns/review-activate-campaign.md) 或发布您的 [历程](../building-journeys/publishing-the-journey.md).
+1. 激活您的[营销活动](../campaigns/review-activate-campaign.md)或发布您的[历程](../building-journeys/publishing-the-journey.md)。
 
 现在，每次通过该活动或历程向客户发送电子邮件时，所选种子列表上的电子邮件地址也将以与定向收件人相同的条件、时间和内容接收该邮件。
 

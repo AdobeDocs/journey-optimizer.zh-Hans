@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # 创建 Web 体验 {#create-web}
 
-[!DNL Journey Optimizer] 允许您将通过入站Web营销活动向客户提供的Web体验个性化。
+[!DNL Journey Optimizer]允许您通过入站Web营销活动个性化您向客户提供的Web体验。
 
 >[!CAUTION]
 >
@@ -43,7 +43,7 @@ ht-degree: 17%
 
 1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
 
-1. 选择 **[!UICONTROL Web]** 操作。
+1. 选择&#x200B;**[!UICONTROL Web]**&#x200B;操作。
 
 1. 定义Web表面。
 
@@ -51,33 +51,33 @@ ht-degree: 17%
    >
    >Web表面是由要交付内容的URL标识的Web属性。 它可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页进行修改。
 
-   您可以输入 **[!UICONTROL 页面URL]** （如果要仅将更改应用于单个页面）。
+   如果要将更改仅应用于单个页面，则可以输入&#x200B;**[!UICONTROL 页面URL]**。
 
    ![](assets/web-campaign-surface.png)
 
-1. 或者，您可以构建 **[!UICONTROL 页面匹配规则]** 定位多个匹配同一规则的URL — 例如，如果您要将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
+1. 或者，您可以构建一个与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL — 例如，如果您要将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
 
-   要执行此操作，请选择 **[!UICONTROL 页面匹配规则]** 并单击 **[!UICONTROL 创建规则]**.
+   为此，请选择&#x200B;**[!UICONTROL 页面匹配规则]**，然后单击&#x200B;**[!UICONTROL 创建规则]**。
 
    ![](assets/web-campaign-matching-rule.png)
 
-1. 为以下项定义您的标准 **[!UICONTROL 域]** 和 **[!UICONTROL 页面]** 字段。
+1. 为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义您的条件。
 
-   例如，如果您要编辑显示在Luma网站的所有女性产品页面上的元素，请选择 **[!UICONTROL 域]** > **[!UICONTROL 开头为]** > `luma` 和 **[!UICONTROL 页面]** > **[!UICONTROL 包含]** > `women`.
+   例如，如果您要编辑显示在Luma网站的所有女性产品页面上的元素，请选择&#x200B;**[!UICONTROL 域]** > **[!UICONTROL 开头为]** > `luma`和&#x200B;**[!UICONTROL 页面]** > **[!UICONTROL 包含]** > `women`。
 
    ![](assets/web-pages-matching-rule.png)
 
-1. 保存您的更改。该规则显示在 **[!UICONTROL 创建营销活动]** 屏幕。
+1. 保存您的更改。该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. 定义Web表面后，选择 **[!UICONTROL 创建]**.
+1. 定义Web表面后，选择&#x200B;**[!UICONTROL 创建]**。
 
-1. 完成步骤以创建Web营销活动，如营销活动属性， [受众](../audience/about-audiences.md)、和 [计划](../campaigns/create-campaign.md#schedule).
+1. 完成创建Web营销活动的步骤，例如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。
 
    ![](assets/web-campaign-steps.png)
 
-有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
+有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 ## 测试 Web 营销活动 {#test-web-campaign}
 
@@ -86,9 +86,9 @@ ht-degree: 17%
 >title="预览 Web 体验"
 >abstract="模拟您将获得的 Web 体验。"
 
-一旦您 [已创作您的Web体验](edit-web-content.md) 使用Web设计器，您可以使用测试配置文件来预览修改后的网页。 如果插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。
+在使用Web设计器[创作Web体验](edit-web-content.md)后，您可以使用测试配置文件预览修改后的网页。 如果插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。
 
-为此，请单击 **[!UICONTROL 模拟内容]** 从web campaign的“编辑内容”屏幕或web设计器中，添加测试用户档案，以使用测试用户档案数据检查网页。
+为此，请从Web促销活动编辑内容屏幕或Web设计器中单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以使用测试配置文件数据检查网页。
 
 ![](assets/web-designer-preview.png)
 
@@ -96,40 +96,40 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->在复制测试URL时，显示的内容是在中生成内容模拟时所使用的测试用户档案的个性化内容 [!DNL Journey Optimizer].
+>在复制测试URL时，显示的内容是在[!DNL Journey Optimizer]中生成内容模拟时所使用的测试配置文件的个性化内容。
 
-有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
+有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 ## 激活Web活动 {#activate-web-campaign}
 
-定义您的 [Web营销活动设置](#configure-web-campaign) 并且您根据需要使用 [Web设计器](edit-web-content.md#work-with-web-designer)，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
+定义[Web营销活动设置](#configure-web-campaign)并根据需要使用[Web设计器](edit-web-content.md#work-with-web-designer)编辑内容后，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
 
 <!--
 >[!NOTE]
 >
 >You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
-1. 在Web营销活动中，选择 **[!UICONTROL 审查以激活]**.
+1. 从您的Web营销活动中，选择&#x200B;**[!UICONTROL 审阅以激活]**。
 
 1. 检查并编辑内容、属性、界面、受众和计划（如果需要）。
 
-1. 选择 **[!UICONTROL 激活]**.
+1. 选择&#x200B;**[!UICONTROL 激活]**。
 
    ![](assets/web-campaign-activate.png)
 
    >[!NOTE]
    >
-   >单击之后 **[!UICONTROL 激活]**，则网站营销活动更改最多可能需要15分钟才能在网站上实时可用。
+   >单击“**[!UICONTROL 激活]**”后，可能需要长达15分钟时间，网站营销活动更改才能在您的网站上实时可用。
 
-您的Web营销活动会获取 **[!UICONTROL 实时]** 状态，并且现在对选定的受众可见。 营销活动的每个收件人均可使用查看您在网站中添加的修改。 [!DNL Journey Optimizer] Web设计器。
+您的Web营销活动处于&#x200B;**[!UICONTROL 上线]**&#x200B;状态，现在对所选受众可见。 营销活动的每个收件人都可以使用[!DNL Journey Optimizer] Web设计器查看您添加到网站的修改。
 
 >[!NOTE]
 >
->如果您为Web营销活动定义了计划，则它具有 **[!UICONTROL 已计划]** 状态直到达到开始日期和时间。
+>如果您为Web营销活动定义了计划，则在到达开始日期和时间之前，其状态为&#x200B;**[!UICONTROL 已计划]**。
 >
 >如果您激活的Web营销活动与另一个已上线的营销活动影响相同的页面，则所有更改将应用于您的网页。
 
-了解更多有关在中激活营销活动的信息 [本节](../campaigns/review-activate-campaign.md).
+在[此部分](../campaigns/review-activate-campaign.md)中了解关于激活营销活动的更多信息。
 
 ## 停止Web活动 {#stop-web-campaign}
 
@@ -137,7 +137,7 @@ ht-degree: 17%
 
 1. 从列表中选择一个实时营销活动。
 
-1. 从顶部菜单中，选择 **[!UICONTROL 停止营销活动]**.
+1. 从顶部菜单中选择&#x200B;**[!UICONTROL 停止营销活动]**。
 
    ![](assets/web-campaign-stop.png)
 

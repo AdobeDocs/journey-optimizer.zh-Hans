@@ -17,7 +17,7 @@ ht-degree: 2%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过向以下网站发出GET请求来查找特定收藏集： [!DNL Offer Library] 包含收藏集的API `@id` 或请求路径中集合的名称。
+您可以通过向[!DNL Offer Library] API发出GET请求来查找特定收藏集，请求路径中包含收藏集`@id`或收藏集名称。
 
 **API格式**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Mobile demo` |
+| `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Mobile demo` |
 
 **请求**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应将返回投放位置的详细信息，包括有关容器ID、实例ID和唯一收藏集的信息 `@id`.
+成功的响应将返回投放位置的详细信息，包括有关容器ID、实例ID和唯一集合`@id`的信息。
 
 ```json
 {

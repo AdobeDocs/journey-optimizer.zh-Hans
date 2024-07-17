@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 删除收藏集 {#delete-collection}
 
-有时可能有必要删除(DELETE)收藏集。 DELETE这是通过对 [!DNL Offer Library] API使用 `id` 要删除的收藏集的。
+有时可能有必要删除(DELETE)收藏集。 通过使用要删除的集合的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

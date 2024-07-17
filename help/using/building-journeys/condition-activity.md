@@ -25,7 +25,7 @@ ht-degree: 17%
 
 可以使用以下类型的条件：
 
-* [数据源条件](#data_source_condition)
+* [数据Source条件](#data_source_condition)
 * [时间条件](#time_condition)
 * [百分比拆分](#percentage_split)
 * [日期条件](#date_condition)
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地对其进行识别。
 
-单击 **[!UICONTROL 添加路径]** 如果您要定义多个条件。 对于每个条件，都会在活动后的画布中添加一个新路径。
+如果要定义多个条件，请单击&#x200B;**[!UICONTROL 添加路径]**。 对于每个条件，都会在活动后的画布中添加一个新路径。
 
 ![](assets/journey47.png)
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 
 ![](assets/journey48.png)
 
-您可以通过勾选为不符合所定义条件的受众创建其他路径 **[!UICONTROL 显示上述情况以外的其他情况的路径]**. 请注意，此选项在拆分条件中不可用。 请参阅 [百分比拆分](#percentage_split).
+通过选中&#x200B;**[!UICONTROL 显示上述情况以外的其他情况的路径]**，可以为不符合所定义条件的受众创建其他路径。 请注意，此选项在拆分条件中不可用。 请参阅[百分比拆分](#percentage_split)。
 
 利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
@@ -61,20 +61,20 @@ ht-degree: 17%
 
 ![](assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"} 要创建受众，您可以在历程条件中利用它们。 请参阅 [在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment).
+如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在旅程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
 
 
 >[!NOTE]
 >
 >使用简单编辑器无法对时间序列（例如购买列表、过去对消息的点击）执行查询。 为此，您需要使用高级编辑器。 请参阅[此页](expression/expressionadvanced.md)。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。[了解详情](expression/journey-properties.md)
 
-## 数据源条件 {#data_source_condition}
+## 数据Source条件 {#data_source_condition}
 
-这允许您根据数据源中的字段或之前位于历程中的事件定义条件。 了解如何在中使用表达式编辑器 [本节](expression/expressionadvanced.md).
+这允许您根据数据源中的字段或之前位于历程中的事件定义条件。 在[本节](expression/expressionadvanced.md)中了解如何使用表达式编辑器。
 
 例如，如果您定位的受众具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性，则可以利用这些扩充属性构建条件。
 
@@ -100,7 +100,7 @@ ht-degree: 17%
 
 ## 百分比拆分 {#percentage_split}
 
-此选项允许您随机拆分受众，以为每个组定义不同的操作。 定义每个路径的分割数和重新分区。 拆分计算是统计性的，因为系统无法预测将在历程的这个活动中流动的人数。 因此，分割具有非常低的误差容限。 此函数基于Java随机机制（请参阅此） [页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+此选项允许您随机拆分受众，以为每个组定义不同的操作。 定义每个路径的分割数和重新分区。 拆分计算是统计性的，因为系统无法预测将在历程的这个活动中流动的人数。 因此，分割具有非常低的误差容限。 此函数基于Java随机机制（请参阅此[页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
 
 在测试模式下，当达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，可以重新组织拆分分支的位置。 请参见[此页面](../building-journeys/testing-the-journey.md)。
 
@@ -149,20 +149,20 @@ ht-degree: 17%
 
 ## 在条件中使用受众 {#using-a-segment}
 
-本节介绍如何在历程条件中使用受众。 有关受众以及如何构建受众的更多信息，请参阅 [本节](../audience/about-audiences.md).
+本节介绍如何在历程条件中使用受众。 有关受众以及如何构建受众的详细信息，请参阅[此部分](../audience/about-audiences.md)。
 
 要在历程条件中使用受众，请执行以下步骤：
 
-1. 打开历程，放置 **[!UICONTROL 条件]** 活动并选择 **数据源条件**.
+1. 打开历程，删除&#x200B;**[!UICONTROL 条件]**&#x200B;活动并选择&#x200B;**数据Source条件**。
 
    ![](assets/segment3.png)
 
-1. 单击 **[!UICONTROL 添加路径]** 所需的每个额外路径。 对于每个路径，单击 **[!UICONTROL 表达式]** 字段。
+1. 单击&#x200B;**[!UICONTROL 为每个所需的额外路径添加路径]**。 对于每个路径，单击&#x200B;**[!UICONTROL 表达式]**&#x200B;字段。
 
-1. 在左侧，展开 **[!UICONTROL 受众]** 节点。 拖放要用于条件的受众。 默认情况下，受众的条件为true。
+1. 在左侧，展开&#x200B;**[!UICONTROL 受众]**&#x200B;节点。 拖放要用于条件的受众。 默认情况下，受众的条件为true。
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >请注意，只有具有 **已实现** 和 **现有** 受众参与状态将被视为受众的成员。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >请注意，只有具有&#x200B;**已实现**&#x200B;和&#x200B;**现有**&#x200B;受众参与状态的个人才会被视为受众的成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

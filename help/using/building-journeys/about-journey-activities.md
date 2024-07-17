@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 个性化历程由事件触发，例如在线购买。 用户档案进入历程后，将作为一个个人进行移动，并且没有两个个人以相同的速度或沿着相同的路径移动。 通过事件开始历程时，会在收到事件时触发历程。 然后，历程中的每个人分别遵循历程中定义的后续步骤。
 
-技术用户配置的事件(请参阅 [此页面](../event/about-events.md))都会显示在屏幕左侧的面板的第一个类别中。 可以使用以下事件活动：
+技术用户配置的事件（请参阅[此页面](../event/about-events.md)）均显示在屏幕左侧的面板的第一个类别中。 可以使用以下事件活动：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反应](../building-journeys/reaction-events.md)
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 操作是指您希望由于某种类型的触发而发生的操作，例如发送消息。 这是客户体验的历程。
 
-从屏幕左侧的面板，在下方 **[!UICONTROL 活动]** 和 **[!UICONTROL 编排]**，您可以找到 **[!UICONTROL 操作]** 类别。 可以使用以下操作活动：
+从屏幕左侧的调色板，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 编排]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 操作]**&#x200B;类别。 可以使用以下操作活动：
 
 * [电子邮件、短信、推送](../building-journeys/journeys-message.md)
 * [自定义操作](../building-journeys/using-custom-actions.md)
@@ -60,7 +60,7 @@ ht-degree: 8%
 
 ![](assets/journey58.png)
 
-这些活动代表不同的可用通信渠道。 您可以将它们组合在一起，创建跨渠道方案。
+这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
 
 如果已配置自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md))。
 
@@ -68,7 +68,7 @@ ht-degree: 8%
 
 ### 添加标签
 
-大多数活动允许您定义 **[!UICONTROL 标签]**. 这会在名称中添加一个后缀，该后缀将显示在画布的活动下方。 如果您在历程中多次使用同一活动，并且希望更轻松地识别它们，则此功能非常有用。 这样还可以使错误时的调试更容易，并使报告更易于阅读。 您还可以添加可选 **[!UICONTROL 描述]**.
+大多数活动允许您定义&#x200B;**[!UICONTROL 标签]**。 这会在名称中添加一个后缀，该后缀将显示在画布的活动下方。 如果您在历程中多次使用同一活动，并且希望更轻松地识别它们，则此功能非常有用。 这样还可以使错误时的调试更容易，并使报告更易于阅读。 您还可以添加可选的&#x200B;**[!UICONTROL 描述]**。
 
 ![](assets/journey-action-label.png)
 
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 ![](assets/journey-advanced-parameters.png)
 
-为了提高可读性，您可以使用 **[!UICONTROL 隐藏只读字段]** 按钮。
+为了提高可读性，您可以使用&#x200B;**[!UICONTROL 隐藏只读字段]**&#x200B;按钮来隐藏这些参数。
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -92,6 +92,6 @@ ht-degree: 8%
 
 ### 添加替代路径
 
-当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅 [本节](../building-journeys/using-the-journey-designer.md#paths).
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ![](assets/journey42.png)

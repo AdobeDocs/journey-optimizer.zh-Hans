@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # 删除后备优惠 {#delete-fallback-offer}
 
-有时可能有必要删除(DELETE)备用选件。 只能删除您在租户容器中创建的后备优惠。 DELETE这是通过对 [!DNL Offer Library] API使用要删除的回退选件的$id。
+有时可能有必要删除(DELETE)备用选件。 只能删除您在租户容器中创建的后备优惠。 通过使用要删除的备用选件的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

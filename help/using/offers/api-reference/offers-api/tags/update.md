@@ -9,7 +9,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 8%
 
 您可以通过向选件库API发出PATCH请求来修改或更新收藏集限定符（以前称为“标记”）。
 
-有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
+有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](https://jsonpatch.com/)。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **响应**
 
-成功的响应将返回集合限定符的更新详细信息，包括其唯一性 `id`.
+成功的响应返回集合限定符的更新详细信息，包括其唯一的`id`。
 
 ```json
 {

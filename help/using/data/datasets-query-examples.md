@@ -21,18 +21,18 @@ ht-degree: 2%
 在此页面中，您将找到Adobe Journey Optimizer数据集和相关用例的列表：
 
 [电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)
-[消息反馈事件数据集](#message-feedback-event-dataset)
+[邮件反馈事件数据集](#message-feedback-event-dataset)
 [推送跟踪体验事件数据集](#push-tracking-experience-event-dataset)
 [历程步骤事件](#journey-step-event)
 [决策事件数据集](#ode-decisionevents)
-[密件抄送反馈事件数据集](#bcc-feedback-event-dataset)
+[BCC反馈事件数据集](#bcc-feedback-event-dataset)
 [实体数据集](#entity-dataset)
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 
-_界面中的名称：AJO电子邮件跟踪体验事件数据集_
+界面中的&#x200B;_名称：AJO电子邮件跟踪体验事件数据集_
 
 用于从Journey Optimizer中摄取电子邮件跟踪体验事件的系统数据集。
 
@@ -72,7 +72,7 @@ limit 100;
 
 ## 消息反馈事件数据集{#message-feedback-event-dataset}
 
-_界面中的名称： AJO消息反馈事件数据集_
+界面中的&#x200B;_名称： AJO消息反馈事件数据集_
 
 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。
 
@@ -164,13 +164,13 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-其中日期的格式为： `YYYY-MM-DD HH:MM:SS`.
+其中日期的格式为： `YYYY-MM-DD HH:MM:SS`。
 
 标识后，从Journey Optimizer禁止显示列表中删除这些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 ## 推送跟踪体验事件数据集 {#push-tracking-experience-event-dataset}
 
-_界面中的名称： AJO推送跟踪体验事件数据集_
+界面中的&#x200B;_名称： AJO推送跟踪体验事件数据集_
 
 用于从Journey Optimizer中提取推送的移动跟踪体验事件的数据集。
 
@@ -229,7 +229,7 @@ group by
 
 ## 决策事件数据集{#ode-decisionevents}
 
-_界面中的名称： ODE DecisionEvents（系统数据集）_
+界面中的&#x200B;_名称： ODE DecisionEvents （系统数据集）_
 
 用于将优惠建议引入用户的数据集。
 
@@ -291,7 +291,7 @@ select value.marketing.email.val FROM (
 
 ## 密件抄送反馈事件数据集{#bcc-feedback-event-dataset}
 
-_界面中的名称： AJO BCC反馈事件数据集（系统数据集）_
+_界面中的名称： AJO密件抄送反馈事件数据集（系统数据集）_
 
 用于存储密件抄送消息信息的数据集。
 
@@ -334,7 +334,7 @@ WHERE
 
 ## 实体数据集{#entity-dataset}
 
-_界面中的名称： ajo_entity_dataset（系统数据集）_
+界面中的&#x200B;_名称： ajo_entity_dataset （系统数据集）_
 
 用于存储发送给最终用户的消息的实体元数据的数据集。
 
@@ -342,7 +342,7 @@ _界面中的名称： ajo_entity_dataset（系统数据集）_
 
 通过此数据集，可访问营销人员定义的元数据，以便在Journey Optimizer数据集导出到外部工具中用于报表可视化时，获得更好的报表见解。 可使用messageID属性实现这一点，该属性有助于拼接各种数据集（如消息反馈数据集和体验事件跟踪数据集），以获取从用户档案级别发送到跟踪的消息投放详细信息。
 
-**重要说明**
+**重要备注**
 
 * 仅在发布历程或营销策划后创建消息条目。
 
@@ -352,7 +352,7 @@ _界面中的名称： ajo_entity_dataset（系统数据集）_
 >
 >目前，出于未来兼容性原因，实体数据集中的每个消息发布有两个条目。 这不会影响您根据需要跨数据集使用联接查询来获取所需信息的能力。
 
-如果您想在报表中对特定历程发送的电子邮件按照发送它们的操作进行排序。 您可以将消息反馈数据集与实体数据集连接起来。 要使用的字段包括： `_experience.decisioning.propositions.scopeDetails.correlationID` 和 `_id field in entity dataset`.
+如果您想在报表中对特定历程发送的电子邮件按照发送它们的操作进行排序。 您可以将消息反馈数据集与实体数据集连接起来。 要使用的字段为： `_experience.decisioning.propositions.scopeDetails.correlationID`和`_id field in entity dataset`。
 
 以下查询可帮助您获取给定营销活动的关联消息模板：
 

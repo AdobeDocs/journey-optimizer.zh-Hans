@@ -41,7 +41,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的更多信息，请参阅此 [部分](../action/action-response.md)
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
 
 对于每个数据源，您定义要使用字段组检索的信息。字段组是可从数据源检索的字段集。请参阅[此页](../datasource/configure-data-sources.md#define-field-groups)。
 
@@ -49,7 +49,7 @@ ht-degree: 66%
 >
 >数据源不支持架构关系。
 
-有关如何配置Adobe Experience Platform数据源和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此视频 [教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+有关如何配置Adobe Experience Platform Data Source和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 操作方法视频 {#video}
 

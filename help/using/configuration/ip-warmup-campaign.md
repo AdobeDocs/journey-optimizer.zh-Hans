@@ -31,25 +31,25 @@ ht-degree: 17%
 本文档指南包括以下内容：
 
 * [开始使用 IP 预热计划](ip-warmup-gs.md)
-* **[创建IP预热活动](ip-warmup-campaign.md)**
+* **[创建IP预热营销活动](ip-warmup-campaign.md)**
 * [创建 IP 预热计划](ip-warmup-plan.md)
 * [执行 IP 预热计划](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
-在中创建IP预热计划本身之前 [!DNL Journey Optimizer]，您首先需要创建一个或多个专门用于IP预热计划的营销活动<!--through a dedicated option-->.
+在[!DNL Journey Optimizer]中创建IP预热计划本身之前，首先需要创建一个或多个专门用于IP预热计划<!--through a dedicated option-->的营销活动。
 
 要创建IP预热活动，请执行以下步骤。
 
-1. 创建 [电子邮件](../email/email-settings.md) 渠道 [曲面](channel-surfaces.md) 用于您已为预热计划标识的域和IP。
+1. 为域和您已为预热计划标识的IP创建[电子邮件](../email/email-settings.md)渠道[表面](channel-surfaces.md)。
 
    >[!NOTE]
    >
-   >了解如何在中选择要在电子邮件平面中使用的域和IP [本节](../email/email-settings.md#subdomains-and-ip-pools).
+   >在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何选择要用于电子邮件表面的域和IP。
    >
    >与您的可投放性顾问合作，确定要用于IP预热计划的域和IP。<!--TBC-->
 
-1. 创建计划的营销 [营销活动](../campaigns/create-campaign.md) 并选择 [电子邮件](../email/create-email.md#create-email-journey-campaign) 操作。
+1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email-journey-campaign)操作。
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -61,29 +61,29 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 从 **[!UICONTROL 计划]** 部分，选择 **[!UICONTROL IP预热计划激活]**.
+1. 从&#x200B;**[!UICONTROL 计划]**&#x200B;部分中，选择&#x200B;**[!UICONTROL IP预热计划激活]**。
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   营销活动 [计划](../campaigns/create-campaign.md#schedule) 将由与之关联的IP预热计划驱动，这意味着该计划不再在营销策划本身中定义。
+   营销活动[计划](../campaigns/create-campaign.md#schedule)将由与之关联的IP热备计划驱动，这意味着不再在营销活动本身中定义该计划。
 
-1. 完成创建电子邮件营销活动的步骤，如定义营销活动属性， [受众](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、和 [内容](../email/get-started-email-design.md#key-steps).
+1. 完成创建电子邮件营销活动的步骤，如定义营销活动属性、[受众](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->和[内容](../email/get-started-email-design.md#key-steps)。
 
    请注意，您需要为IP预热活动选择基于规则的受众。 [了解详情](../audience/creating-a-segment-definition.md)
 
    >[!NOTE]
    >
-   >有关如何配置营销活动的更多信息，请参阅 [此页面](../campaigns/get-started-with-campaigns.md).
+   >有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
-1. [激活](../campaigns/review-activate-campaign.md) 营销活动。 其状态更改为 **[!UICONTROL 实时]**.
+1. [激活](../campaigns/review-activate-campaign.md)营销活动。 其状态更改为&#x200B;**[!UICONTROL 实时]**。
 
    请注意，不应在IP预热计划中使用业务规则。 应用这些规则可能会妨碍达到营销活动所需数量的定向用户档案。
 
    >[!NOTE]
    >
-   >对于激活了IP预热计划的实时营销活动， **[!UICONTROL 删除]** 按钮在与IP预热计划关联之前可用。 营销活动一旦用于计划，便无法再删除。
+   >对于激活了IP预热计划的实时营销活动，**[!UICONTROL 删除]**&#x200B;按钮可用，直到它与IP预热计划关联为止。 营销活动一旦用于计划，便无法再删除。
 
-1. 营销策划显示在 **[!UICONTROL 营销活动]** 列表。 要轻松检索在当前沙盒上创建的所有IP预热营销活动，您可以在 **[!UICONTROL IP热身]** 营销活动选项。
+1. 该营销活动显示在&#x200B;**[!UICONTROL 营销活动]**&#x200B;列表中。 要轻松检索在当前沙盒上创建的所有IP预热营销活动，您可以对&#x200B;**[!UICONTROL IP预热营销活动]**&#x200B;营销活动选项进行过滤。
 
    ![](assets/ip-warmup-campaign-filter.png)
 
@@ -93,5 +93,5 @@ IP预热活动只能用于一个IP预热计划。 但是，同一IP预热计划�
 
 >[!NOTE]
 >
->在IP预热计划中使用实时营销活动时，在计划之后 [标记为已完成](ip-warmup-execution.md#mark-as-completed)，则该营销活动的状态将更改为 **[!UICONTROL 已停止]**.
+>在IP预热计划中使用实时营销活动时，当计划标记为[已完成](ip-warmup-execution.md#mark-as-completed)后，该营销活动的状态将更改为&#x200B;**[!UICONTROL 已停止]**。
 

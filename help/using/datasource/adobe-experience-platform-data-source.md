@@ -23,7 +23,7 @@ ht-degree: 31%
 >title="Adobe Experience Platform 数据源"
 >abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户配置文件服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用配置文件数据和体验事件数据。"
 
-Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户个人资料的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
+Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户个人资料的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
 要允许与Real-time Customer Profile Service的连接，我们必须使用键来识别人员，并使用命名空间来将键进行上下文化。 因此，仅当历程以包含键和命名空间的事件开始时，才能使用此数据源。 [了解详情](../building-journeys/journey.md)。
 
@@ -41,12 +41,12 @@ Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的�
 
    ![](assets/journey23.png)
 
-1. 单击 **[!UICONTROL 添加新字段组]** 以定义要检索的一系列新字段。 [了解详情](../datasource/configure-data-sources.md#define-field-groups)。
+1. 单击&#x200B;**[!UICONTROL 添加新字段组]**&#x200B;以定义要检索的一系列新字段。 [了解详情](../datasource/configure-data-sources.md#define-field-groups)。
 
    ![](assets/journey24.png)
 
-1. 从中选择架构 **[!UICONTROL 架构]** 下拉菜单。 此字段列出Adobe Experience Platform中可用的配置文件和Experience Events架构。 架构创建不在中执行 [!DNL Journey Optimizer]. 它在Adobe Experience Platform中执行。
+1. 从&#x200B;**[!UICONTROL 架构]**&#x200B;下拉列表中选择架构。 此字段列出Adobe Experience Platform中可用的配置文件和Experience Events架构。 未在[!DNL Journey Optimizer]中执行架构创建。 它在Adobe Experience Platform中执行。
 1. 选择要使用的字段。
-1. 单击 **[!UICONTROL 保存]**.
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-将光标放在字段组的名称上时，您会在右侧看到两个图标。 它们允许您删除和复制字段组。 请注意 **[!UICONTROL 删除]** 仅当字段组未在任何实时或草稿历程中使用时，图标才可用(信息显示在 **[!UICONTROL 使用位置]** 字段)。
+将光标放在字段组的名称上时，您会在右侧看到两个图标。 它们允许您删除和复制字段组。 请注意，仅当字段组未在任何实时或草稿历程中使用（**[!UICONTROL 用于]**&#x200B;字段中显示的信息）时，**[!UICONTROL 删除]**&#x200B;图标才可用。

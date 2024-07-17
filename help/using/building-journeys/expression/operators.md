@@ -38,9 +38,9 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## 重要说明{#important-notes}
 
-* 使用乘法时(`*`)，则两个操作字段必须具有相同的类型，即整数或小数。 示例：
+* 使用乘法(`*`)时，两个操作字段必须具有相同的类型，可以是整数或小数。 示例：
    * 以下示例是正确的： `3.0 * 4.0`
-   * `3 * 4.0` 将导致错误
+   * `3 * 4.0`将导致错误
 
 ## 逻辑  {#logical}
 
@@ -50,7 +50,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是布尔值。
+&lt;expression1>和&lt;expression2>都必须是布尔值。 结果是布尔值。
 
 示例：
 
@@ -64,7 +64,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> or <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是布尔值。
+&lt;expression1>和&lt;expression2>都必须是布尔值。 结果是布尔值。
 
 示例：
 
@@ -78,7 +78,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 not <expression>
 ```
 
-&lt;expression> 必须为布尔型。 结果是布尔值。
+&lt;expression>必须为布尔值。 结果是布尔值。
 
 示例：
 
@@ -126,7 +126,7 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必须为列表。 结果是布尔值。
+&lt;expression>必须为列表。 结果是布尔值。
 
 用于标识列表是否包含至少一个null值。
 
@@ -152,7 +152,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
->对象 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
+>对于&lt;expression1>和&lt;expression2>，没有数据类型控件。
 
 示例：
 
@@ -172,7 +172,7 @@ not 3.15 < 1
 
 >[!NOTE]
 >
-对象 &lt;expression1> 和 &lt;expression2> 没有数据类型控件。
+对于&lt;expression1>和&lt;expression2>，没有数据类型控件。
 
 结果是布尔值。
 
@@ -322,7 +322,7 @@ not 3.15 < 1
 
 结果也是数字。
 
-&lt;expression2> 不得等于0（返回0）。
+&lt;expression2>不能等于0（返回0）。
 
 示例：
 
@@ -434,13 +434,13 @@ not 3.15 < 1
 "the current time is " + (now())
 ```
 
-返回“当前时间为2023-09-23T09:30:06.693盎司
+返回“当前时间为2023-09-23T09:30:06.693Z”
 
 ```json
 (now()) + " is the current time"
 ```
 
-返回“2023-09-23T09”:30:当前时间为06.693Z”
+返回“2023-09-23T09:30:06.693Z是当前时间”
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,22 +464,22 @@ not 3.15 < 1
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-返回 _dateTime_ 2023-12-03T15:30:30Z
+返回&#x200B;_dateTime_ 2023-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-返回 _dateTimeOnly_ 2023-12-03T15:30:30
+返回&#x200B;_dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-返回 _dateTime_ （带UTC时区）从当前时间后一小时
+从当前时间后一小时返回&#x200B;_dateTime_（具有UTC时区）
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-返回 _持续时间_ PT2H
+返回&#x200B;_持续时间_ PT2H

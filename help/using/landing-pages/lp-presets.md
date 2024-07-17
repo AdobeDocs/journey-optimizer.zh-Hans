@@ -22,15 +22,15 @@ ht-degree: 17%
 >title="创建登陆页面预设"
 >abstract="为了构建登陆页面并通过 Journey Optimizer 使用它，您必须创建一个登陆页面预设，在其中包含要使用的子域。"
 
-时间 [创建登陆页面](../landing-pages/create-lp.md#create-a-lp)，则必须选择登陆页面预设，才能构建登陆页面并通过它进行利用 **[!DNL Journey Optimizer]**.
+在[创建登陆页面](../landing-pages/create-lp.md#create-a-lp)时，您必须选择一个登陆页面预设，以便能够构建登陆页面并通过&#x200B;**[!DNL Journey Optimizer]**&#x200B;利用它。
 
 ## 访问登陆页面预设 {#access-lp-presets}
 
 要访问登陆页面预设，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单。
 
-1. 选择 **[!UICONTROL 品牌化]** > **[!UICONTROL 登陆页面预设]**.
+1. 选择&#x200B;**[!UICONTROL 品牌]** > **[!UICONTROL 登陆页面预设]**。
 
    ![](assets/lp_presets-access.png)
 
@@ -46,9 +46,9 @@ ht-degree: 17%
 >
 >要创建预设，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](lp-subdomains.md)
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL 品牌化]** > **[!UICONTROL 登陆页面预设]**.
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 品牌]** > **[!UICONTROL 登陆页面预设]**。
 
-1. 选择 **[!UICONTROL 创建登陆页面预设]**.
+1. 选择&#x200B;**[!UICONTROL 创建登陆页面预设]**。
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -56,7 +56,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您也可以使用下划线 `_`，点`.` 和连字符 `-` 个字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
 1. 从下拉列表中选择一个登陆页面子域。
 
@@ -68,21 +68,21 @@ ht-degree: 17%
 
    此时将显示与所选子域对应的设置。
 
-1. 如果要为跟踪URL选择登陆页面子域，请勾选 **[!UICONTROL 与登陆页面子域相同]** 选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+1. 如果要为跟踪URL选择登陆页面子域，请选中&#x200B;**[!UICONTROL 与登陆页面子域相同]**&#x200B;选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登陆页面URL是“pages.mail.luma.com”，而跟踪URL是“data.mail.luma.com”，则可以选择将“pages.mail.luma.com”用作跟踪子域。
 
-1. 单击 **[!UICONTROL 提交]** 以确认创建登陆页面预设。 <!--You can also save the preset as draft and resume its configuration later on.-->
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认创建登陆页面预设。<!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. 创建登陆页面预设后，该预设将显示在列表中，其中包含 **[!UICONTROL 活动]** 状态。 该页面已准备好用于您的登陆页面。
+1. 创建登陆页面预设后，该预设将显示在状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的列表中。 该页面已准备好用于您的登陆页面。
 
    ![](assets/lp-preset-active-temp.png)
 
-您现在已准备好 [创建登陆页面](../landing-pages/create-lp.md) 在 [!DNL Journey Optimizer].
+您现在可以在[!DNL Journey Optimizer]中[创建登陆页面](../landing-pages/create-lp.md)。
 <!--
 >[!NOTE]
 >

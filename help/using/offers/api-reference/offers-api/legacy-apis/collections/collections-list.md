@@ -17,7 +17,7 @@ ht-degree: 4%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过对以下对象执行单个GET请求，查看容器中所有收藏集的列表 [!DNL Offer Library] API。
+通过执行对[!DNL Offer Library] API的单个GET请求，可查看容器中所有收藏集的列表。
 
 **API格式**
 
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=2` |
 | `{CONTAINER_ID}` | 收藏集所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。 <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
+| `{SCHEMA_FILTER}` | 定义与收藏集关联的架构。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
 | `{QUERY_PARAMS}` | 用于筛选结果的可选查询参数。 | `limit=1` |
 
 **请求**
@@ -55,10 +55,10 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` 具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `demo collection` |
+| `q` | 在选定字段中搜索的可选查询字符串。 查询字符串应当小写，并且可以用双引号括起来，以防止对其进行标记化并对特殊字符进行转义。 字符`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊含义，在查询字符串中出现时应使用反斜杠进行转义。 | `demo collection` |
 | `qop` | 对q查询字符串参数中的值应用AND或OR运算符。 | `AND` / `OR` |
-| `field` | 将搜索限制到的可选字段列表。 此参数可重复，如下所示：field=field1[，字段=字段2，...] 和（路径表达式采用点分隔路径形式，如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 按特定属性对结果进行排序。 添加 `-` 在标题之前(`orderby=-title`)将按标题降序对项目排序(Z-A)。 | `-repo:createdDate` |
+| `field` | 将搜索限制到的可选字段列表。 此参数可重复使用，如：field=field1[，field=field2，...]和（路径表达式采用点分隔路径的形式，如_instance.xdm：name） | `_instance.xdm:name` |
+| `orderBy` | 按特定属性对结果进行排序。 在标题(`orderby=-title`)之前添加`-`将按标题降序对项排序(Z-A)。 | `-repo:createdDate` |
 | `limit` | 限制返回的收藏集数。 | `limit=5` |
 
 **响应**

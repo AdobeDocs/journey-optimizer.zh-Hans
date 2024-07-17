@@ -12,7 +12,7 @@ keywords: 产品、配置文件、沙盒
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -20,109 +20,109 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> 以下详述的每个程序只能通过 **[!UICONTROL 产品]** 或 **[!UICONTROL 系统]** 管理员。
+> 下面详述的每个过程只能由&#x200B;**[!UICONTROL Product]**&#x200B;或&#x200B;**[!UICONTROL System]**&#x200B;管理员执行。
 
-**[!UICONTROL 角色]** 请参阅共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。
+**[!UICONTROL 角色]**&#x200B;是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。
 
-使用 [!DNL Journey Optimizer] 产品，您能够在一系列预先存在的 **[!UICONTROL 角色]**，每个用户具有不同的权限级别，可分配给您的用户。 欲知关于 **[!UICONTROL 角色]**，请参阅此 [页面](ootb-product-profiles.md).
+使用[!DNL Journey Optimizer]产品，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 有关可用的&#x200B;**[!UICONTROL 角色]**&#x200B;的详细信息，请参阅此[页面](ootb-product-profiles.md)。
 
-当用户属于 **[!UICONTROL 角色]**&#x200B;中，授予他们访问产品中包含的Adobe应用程序和服务的权限。
+当用户属于&#x200B;**[!UICONTROL Role]**&#x200B;时，将授予他们访问产品中包含的Adobe应用和服务的权限。
 
-如果预先存在的角色不符合您组织的特定需求，您还可以创建自定义 **[!UICONTROL 角色]** 微调对界面中特定功能或对象的访问。 这样，您就可以确保每个用户只能访问高效执行任务所需的资源和工具。
+如果预先存在的角色不符合您组织的特定需求，您还可以创建自定义&#x200B;**[!UICONTROL 角色]**，以微调对界面中特定功能或对象的访问权限。 这样，您就可以确保每个用户只能访问高效执行任务所需的资源和工具。
 
 ## 分配角色 {#assigning-role}
 
-您可以选择分配现成或自定义的 **[!UICONTROL 角色]** 发送给您的用户。
+您可以选择为用户分配现成或自定义&#x200B;**[!UICONTROL 角色]**。
 
-每个具有已分配权限的现成角色列表都可在以下网站中找到： [内置角色](ootb-product-profiles.md) 部分。
+可以在[内置角色](ootb-product-profiles.md)部分中找到每个具有已分配权限的现成角色的列表。
 
-要分配 **[!UICONTROL 角色]**：
+要分配&#x200B;**[!UICONTROL 角色]**：
 
-1. 在中为用户分配角色 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 选项卡并选择所需的角色。
+1. 要向[!DNL Permissions]产品中的用户分配角色，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后选择所需的角色。
 
    ![](assets/do-not-localize/access_control_2.png)
 
-1. 从 **[!UICONTROL 用户]** 选项卡，单击 **[!UICONTROL 添加用户]**.
+1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. 键入用户名或电子邮件地址，或从列表中选择用户并单击 **[!UICONTROL 保存]**.
+1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果用户之前未在 [!DNL Admin Console]，请参阅 [添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
+   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html)。
 
    ![](assets/do-not-localize/access_control_4.png)
 
 随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-有关用户管理的详细信息，请参阅 [访问控制文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans).
+有关用户管理的详细信息，请参阅[访问控制文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans)。
 
-在访问实例时，您的用户将看到特定视图，具体取决于中分配的权限 **[!UICONTROL 角色]**. 如果用户无权访问某个功能，则会显示以下消息：
+访问实例时，您的用户将看到一个特定视图，具体取决于&#x200B;**[!UICONTROL Role]**&#x200B;中分配的权限。 如果用户无权访问某个功能，则会显示以下消息：
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
 ## 编辑现有角色 {#edit-product-profile}
 
-对于现成或自定义 **[!UICONTROL 角色]**，您可以随时决定添加或删除权限。
+对于现成或自定义&#x200B;**[!UICONTROL 角色]**，您可以随时决定添加或删除权限。
 
-在本例中，我们要添加 **[!UICONTROL 权限]** 与相关 **[!UICONTROL 历程]** 分配给用户查看器的历程的资源 **[!UICONTROL 角色]**. 随后，用户将能够发布历程。
+在此示例中，我们要为分配给历程查看器&#x200B;**[!UICONTROL 历程]**&#x200B;的用户添加与&#x200B;**[!UICONTROL 角色]**&#x200B;资源相关的&#x200B;**[!UICONTROL 权限]**。 随后，用户将能够发布历程。
 
-请注意，如果您修改了现成或自定义的 **[!UICONTROL 角色]**，它将会影响分配给此的每位用户 **[!UICONTROL 角色]**.
+请注意，如果修改现成或自定义&#x200B;**[!UICONTROL 角色]**，它将影响分配给此&#x200B;**[!UICONTROL 角色]**&#x200B;的每个用户。
 
-1. 在中为用户分配角色 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 选项卡并选择所需的角色，此处为历程查看器 **[!UICONTROL 角色]**.
+1. 要向[!DNL Permissions]产品中的用户分配角色，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡并选择所需的角色，此处为历程查看器&#x200B;**[!UICONTROL 角色]**。
    ![](assets/do-not-localize/access_control_5.png)
 
-1. 来自您的 **[!UICONTROL 角色]** 仪表板，单击 **[!UICONTROL 编辑]**.
+1. 在您的&#x200B;**[!UICONTROL 角色]**&#x200B;仪表板中，单击&#x200B;**[!UICONTROL 编辑]**。
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. 此 **[!UICONTROL 资源]** 菜单显示应用于 **[!UICONTROL Experience Cloud — 平台支持的应用程序]** 产品。 拖放资源以分配权限。
+1. **[!UICONTROL 资源]**&#x200B;菜单显示应用于&#x200B;**[!UICONTROL Experience Cloud — 平台支持的应用程序]**&#x200B;产品的资源列表。 拖放资源以分配权限。
 
-   从 **[!UICONTROL 历程]** resource下拉列表，我们在此处选择发布历程 **[!UICONTROL 权限]**.
+   从&#x200B;**[!UICONTROL 历程]**&#x200B;资源下拉列表中，我们在此处选择Publish历程&#x200B;**[!UICONTROL 权限]**。
 
    ![](assets/do-not-localize/access_control_14.png)
 
-1. 如果需要，在 **[!UICONTROL 包含的权限项]**，单击将权限或资源移除到角色旁边的X图标。
+1. 如果需要，在&#x200B;**[!UICONTROL 包含的权限项]**&#x200B;下，单击角色权限或资源旁边的X图标。
 
-1. 完成后，单击 **[!UICONTROL 保存]**.
+1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
-如果需要，您还可以创建具有特定权限的新角色。 有关详细信息，请参见 [创建新角色](#create-product-profile).
+如果需要，您还可以创建具有特定权限的新角色。 有关详细信息，请参阅[创建新角色](#create-product-profile)。
 
 ## 创建新角色 {#create-product-profile}
 
-[!DNL Journey Optimizer] 允许您创建自己的 **[!UICONTROL 角色]** 并为用户分配一组权限和沙箱。 替换为 **[!UICONTROL 角色]**&#x200B;中，您可以授权或拒绝对界面中特定功能或对象的访问。
+[!DNL Journey Optimizer]允许您创建自己的&#x200B;**[!UICONTROL 角色]**，并为用户分配一组权限和沙箱。 使用&#x200B;**[!UICONTROL 角色]**，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}.
+有关如何创建和管理沙箱的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
-在本例中，我们将创建一个名为的角色 **只读历程** 其中，我们将授予历程功能的只读权限。 用户将只能访问和查看历程，而无法访问其他功能，例如 **[!DNL  Decision management]** 在 [!DNL Journey Optimizer].
+在此示例中，我们将创建一个名为&#x200B;**历程只读**&#x200B;的角色，其中我们将授予该历程功能的只读权限。 用户将只能访问和查看历程，而无法访问[!DNL Journey Optimizer]中的其他功能，如&#x200B;**[!DNL  Decision management]**。
 
-创建我们的 **只读历程** **[!UICONTROL 角色]**：
+要创建我们的&#x200B;**历程只读** **[!UICONTROL 角色]**：
 
-1. 在中为用户分配角色 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 选项卡，然后单击 **[!UICONTROL 创建角色]**.
+1. 要向[!DNL Permissions]产品中的用户分配角色，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建角色]**。
 
    ![](assets/do-not-localize/access_control_9.png)
 
-1. 添加 **[!UICONTROL 名称]** 和 **[!UICONTROL 描述]** （对于您的新用户） **[!UICONTROL 角色]**. 然后，单击 **[!UICONTROL 确认]**.
+1. 为您的新&#x200B;**[!UICONTROL 角色]**&#x200B;添加&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。 然后单击&#x200B;**[!UICONTROL 确认]**。
 
    ![](assets/do-not-localize/access_control_10.png)
 
-1. 从 **[!UICONTROL 沙盒]** 从“资源”下拉列表中，选择要分配给您的项目的沙盒 **[!UICONTROL 角色]**. [进一步了解沙盒](sandboxes.md)。
+1. 从&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源下拉列表中，选择要分配给您的&#x200B;**[!UICONTROL 角色]**&#x200B;的沙盒。 [进一步了解沙盒](sandboxes.md)。
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 在不同的资源之间选择，例如 **[!DNL Journeys]**， **[!DNL Segments]** 或 **[!DNL Decision management]** 可用位置 [!DNL Journey Optimizer] 在左侧菜单中列出。
+1. 在左侧菜单中列出的[!DNL Journey Optimizer]中可用的不同资源（如&#x200B;**[!DNL Journeys]**、**[!DNL Segments]**&#x200B;或&#x200B;**[!DNL Decision management]**）之间进行选择。
 
-   在此处，我们选择 **[!UICONTROL 历程]** 资源。
+   在此处，我们选择&#x200B;**[!UICONTROL 历程]**&#x200B;资源。
 
    ![](assets/do-not-localize/access_control_11.png)
 
-1. 从 **[!UICONTROL 历程]** 下拉列表中，选择要分配给您的的权限 **[!UICONTROL 角色]**.
+1. 从&#x200B;**[!UICONTROL 历程]**&#x200B;下拉列表中，选择要分配给您的&#x200B;**[!UICONTROL 角色]**&#x200B;的权限。
 
-   在此我们选择 **[!DNL View journeys]**， **[!DNL View journeys report]**  和 **[!DNL View journeys event, data sources, actions]**.
+   在此，我们选择&#x200B;**[!DNL View journeys]**、**[!DNL View journeys report]**&#x200B;和&#x200B;**[!DNL View journeys event, data sources, actions]**。
 
    ![](assets/do-not-localize/access_control_12.png)
 
-1. 完成后，单击 **[!UICONTROL 保存]**.
+1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
-您的 **[!UICONTROL 角色]** 现已创建并配置。 您现在需要将其分配给用户。
+您的&#x200B;**[!UICONTROL 角色]**&#x200B;现已创建并配置。 您现在需要将其分配给用户。
 
-有关角色创建与管理的详细信息，请参阅 [Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans).
+有关创建和管理角色的更多信息，请参阅[Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans)。

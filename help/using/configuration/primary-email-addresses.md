@@ -30,15 +30,15 @@ ht-degree: 18%
 
 定向用户档案时，数据库中可能会提供多个电子邮件地址或电话号码（专业电子邮件地址、个人电话号码等）。
 
-在这种情况下， [!DNL Journey Optimizer] 用途 **[!UICONTROL 执行字段]** 以确定从配置文件服务中优先使用的电子邮件地址或电话号码。
+在这种情况下，[!DNL Journey Optimizer]使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;来确定要优先从配置文件服务中使用的电子邮件地址或电话号码。
 
-要检查当前默认使用的字段，请访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]** 菜单。
+要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
 ![](assets/primary-address-execution-fields.png)
 
 当前值用于沙盒级别的所有投放。 您可以根据需要更新这些字段。
 
-在大多数情况下，您将全局更改执行字段，并定义一个应用于所有电子邮件或短信消息的值。 <!--[Learn how](#admin-settings)-->
+在大多数情况下，您将全局更改执行字段，并定义一个应用于所有电子邮件或短信消息的值。<!--[Learn how](#admin-settings)-->
 
 <!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
 
@@ -46,9 +46,9 @@ ht-degree: 18%
 
 要在沙盒级别全局更改执行字段，请执行以下步骤。
 
-1. 访问  **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]** 菜单。
+1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
-1. 单击 **[!UICONTROL 编辑]** 以更改默认值。
+1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以更改默认值。
 
    ![](assets/primary-address.png)
 
@@ -60,7 +60,7 @@ ht-degree: 18%
 
    ![](assets/primary-address-select-field.png)
 
-1. 单击 **[!UICONTROL 保存]** 确认您的选择。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;确认您的选择。
 
 执行字段已更新，现在将用作主地址。
 
@@ -70,15 +70,15 @@ ht-degree: 18%
 
 仅对于特定用例，您可以全局覆盖执行字段设置，并在历程级别定义不同的值，尤其是电子邮件渠道的值。
 
-添加 **[!UICONTROL 电子邮件]** 操作更改为 [历程](../email/create-email.md#create-email-journey-campaign)，主电子邮件地址会显示在历程高级参数下。
+将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址显示在历程高级参数下。
 
-在某些特定上下文中，您可以使用覆盖此值 **[!UICONTROL 启用参数覆盖]** 图标（位于页面右侧） **[!UICONTROL 地址]** 字段。
+在某些特定上下文中，您可以使用&#x200B;**[!UICONTROL 地址]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标来覆盖此值。
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，您无需更改电子邮件地址，因为值在中被定义为主地址。 **[!UICONTROL 执行字段]** 是应该使用的变量。
+>仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。
 
 覆盖此值可能很有用，例如：
 

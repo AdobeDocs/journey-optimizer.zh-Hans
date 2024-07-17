@@ -37,7 +37,7 @@ ht-degree: 27%
 
 在配置数据源或操作时，您需要建立与系统的连接，以检索要在历程中使用的其他信息，或者发送消息或 API 调用。
 
-历程 API 支持每秒最多 5000 个事件，但某些外部系统或 API 的吞吐量可能不同。要防止这些系统过载，您可以使用 **上限** 和 **限制** API限制每秒发送的事件数。
+历程 API 支持每秒最多 5000 个事件，但某些外部系统或 API 的吞吐量可能不同。要防止这些系统过载，您可以使用&#x200B;**上限**&#x200B;和&#x200B;**限制** API来限制每秒发送的事件数。
 
 每次按历程执行 API 调用时，它都会通过 API 引擎。如果达到API中设置的限制，则会在使用上限API时拒绝调用，或者排队长达6个小时，然后按照在使用限制API时收到的顺序尽快处理调用。
 
@@ -45,18 +45,18 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->**上限规则** 在沙盒级别为特定的端点（调用的URL）配置，但对该沙盒的所有历程进行全局配置。 上限在数据源和自定义操作中均可用。
+>**在沙盒级别为特定端点（调用的URL）配置上限规则**，但对该沙盒的所有历程是全局的。 上限在数据源和自定义操作中均可用。
 >
 >**限制规则**&#x200B;仅在生产沙盒上针对特定端点配置，但在全局范围内应用于所有沙盒中的所有历程。每个组织只能有一个限制配置。 限制仅适用于自定义操作。
 >
->此 **maxCallsCount** 值必须大于1。
+>**maxCallsCount**&#x200B;值必须大于1。
 
 有关如何使用API的更多信息，请参阅以下章节：
 
 * [API 上限](capping.md)
 * [API 限制](throttling.md)
 
-有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)中提供了API的详细说明
 
 ### 数据源和自定义操作容量 {#capacity}
 
@@ -70,7 +70,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的更多信息，请参阅此 [部分](../action/action-response.md)
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
 
 ## 超时和重试{#timeout}
 
@@ -104,6 +104,6 @@ ht-degree: 27%
 
 对于给定的调用，在第一次调用后最多可以执行三次重试，直到达到超时持续时间结束为止。 无法更改重试次数和每次重试之间的时间。 请参阅[此小节](../configuration/external-systems.md#timeout)。
 
-**可在何处配置超时？ 是否存在最大值？**
+**我可以在何处配置超时？ 是否存在最大值？**
 
-在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅 [本节](../configuration/external-systems.md#timeout) 和 [此页面](../building-journeys/journey-properties.md#timeout_and_error).
+在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅[此部分](../configuration/external-systems.md#timeout)和[此页面](../building-journeys/journey-properties.md#timeout_and_error)。

@@ -27,11 +27,11 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->中列出了使用外部系统时的护栏 [此页面](../configuration/external-systems.md).
+>使用外部系统时的护栏列在[此页面](../configuration/external-systems.md)中。
 
 >[!NOTE]
 >
->由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关响应的更多信息，请参阅此 [部分](../action/action-response.md)
+>由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
@@ -46,7 +46,7 @@ ht-degree: 60%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击 **[!UICONTROL 创建数据源]** 以创建新的外部数据源。
+1. 在数据源列表中，单击&#x200B;**[!UICONTROL 创建数据Source]**&#x200B;以创建新的外部数据源。
 
    ![](assets/journey25.png)
 
@@ -69,37 +69,37 @@ ht-degree: 60%
 
    ![](assets/journey27.png)
 
-1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**， **[!UICONTROL 基本]**， **[!UICONTROL 自定义]** 或 **[!UICONTROL API密钥]**.
+1. 根据外部服务配置配置身份验证： **[!UICONTROL 无身份验证]**、**[!UICONTROL 基本]**、**[!UICONTROL 自定义]**&#x200B;或&#x200B;**[!UICONTROL API密钥]**。
 
    对于基本身份验证模式，您需要填写用户名和密码。
 
    >[!NOTE]
    >
-   >执行身份验证调用时， `<username>:<password>` 在base64中编码的字符串将添加到身份验证标头中。
+   >执行身份验证调用时，在Authentication标头中添加以base64编码的字符串`<username>:<password>`。
 
    有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择API密钥身份验证模式：
 
-   * **[!UICONTROL 类型]**：“API密钥”
+   * **[!UICONTROL 类型]**： &quot;API密钥&quot;
    * **[!UICONTROL 名称]**：“appid”（这是API密钥参数名称）
-   * **[!UICONTROL 值]**：“1234”（这是API密钥的值）
+   * **[!UICONTROL 值]**：“1234”（这是我们API密钥的值）
    * **[!UICONTROL 位置]**：“查询参数”（API密钥位于URL中）
 
    ![](assets/journey28.png)
 
-1. 通过单击为每个API参数集添加新字段组 **[!UICONTROL 添加新字段组]**. 字段组名称中只允许使用字母数字字符和下划线。 最大长度为30个字符。 在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
+1. 通过单击&#x200B;**[!UICONTROL 添加新字段组]**，为每个API参数集添加新字段组。 字段组名称中只允许使用字母数字字符和下划线。 最大长度为30个字符。 在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
 对于“long/lat”参数集，我们创建一个包含以下信息的字段组：
 
-* **[!UICONTROL 使用位置]**：显示使用字段组的旅程数。 您可以单击 **[!UICONTROL 查看历程]** 图标，以显示使用此字段组的旅程列表。
+* **[!UICONTROL 用于]**：显示使用字段组的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL 方法]**：选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
 * **[!UICONTROL 动态值]**：在我们的示例中，输入以逗号分隔的不同参数“long，lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL 响应有效负载]**：在内部单击 **[!UICONTROL 有效负荷]** 字段，并粘贴由调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，您可以单击 **[!UICONTROL 粘贴新的有效负载]** （如果要更改当前传递的有效负载）。
+* **[!UICONTROL 响应有效负载]**：在&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段中单击，并粘贴调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击&#x200B;**[!UICONTROL 粘贴新的有效负载]**。
 
 * **[!UICONTROL 已发送有效负载]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
-如果GET调用需要参数，请在 **[!UICONTROL 动态值]** 字段，并在调用结束时自动添加它们。 如果是 POST 调用，您需要：
+如果GET调用需要参数，请在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
 
-* 在中列出调用时要传递的参数 **[!UICONTROL 动态值]** 字段（在以下示例中：“identifier”）。
+* 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
 * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
   ```
@@ -146,7 +146,7 @@ ht-degree: 60%
 * 标头：键值对将作为标头插入此调用（如果需要）
 * 主体：描述在方法为 POST 时调用的主体。我们支持一个有限的主体结构，在bodyParams（键值对）中定义。 bodyType 描述调用中主体的格式和编码：
    * “form”：表示内容类型将为application/x-www-form-urlencoded (charset UTF-8)，并且键值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
-   * “json”：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
+   * “json”：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为JSON对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
 ### 在操作的HTTP请求中必须插入访问令牌方式的定义{#custom-authentication-access-token}
 

@@ -25,18 +25,18 @@ ht-degree: 30%
 
 TXT记录是一种DNS记录，用于提供有关域的文本信息，外部源可以读取该信息。
 
-为了确保最佳可投放性并成功将电子邮件投放到Gmail地址， [!DNL Journey Optimizer] 允许您向子域添加特殊的Google网站验证TXT记录，以确保其经过验证。
+为了确保电子邮件的最佳传递性并成功投放到Gmail地址，[!DNL Journey Optimizer]允许您向子域添加特殊的Google网站验证TXT记录，以确保对其进行验证。
 
 >[!CAUTION]
 >
-> 仅当子域具有 **[!UICONTROL 成功]** 状态。 有关子域状态的更多信息，请参阅 [本节](about-subdomain-delegation.md#access-delegated-subdomains).
+> 仅当子域处于&#x200B;**[!UICONTROL 成功]**&#x200B;状态时，才能执行此操作。 有关子域状态的详细信息，请参阅[此部分](about-subdomain-delegation.md#access-delegated-subdomains)。
 
 要将Google TXT记录添加到子域，请执行以下步骤：
 
-1. 从打开子域 **[!UICONTROL 渠道]** / **[!UICONTROL 子域]** 菜单。
+1. 从&#x200B;**[!UICONTROL 渠道]** / **[!UICONTROL 子域]**&#x200B;菜单打开子域。
 
-1. 在 **[!UICONTROL Google txt记录]** 部分，输入生成的验证码 [Google工作区](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然后单击 **[!UICONTROL 保存]**.
+1. 在&#x200B;**[!UICONTROL Google txt记录]**&#x200B;部分中，输入从[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->生成的验证代码，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/subdomain-google-txt.png)
 
-1. 添加 TXT 记录后，需要通过 Google 验证该记录。为此，请导航至 [Google工作区](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然后启动验证步骤。
+1. 添加 TXT 记录后，需要通过 Google 验证该记录。为此，请导航到[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然后启动验证步骤。

@@ -41,7 +41,7 @@ ht-degree: 97%
 
    * 启用&#x200B;**密送电子邮件选项**，保存发送给客户的邮件副本。[了解详情](archiving-support.md#enable-bcc)
 
-   * 配置 **业务规则** 以避免过度招徕收件人。 [了解详情](frequency-rules.md)
+   * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](frequency-rules.md)
 
    * 在 Adobe Experience Platform 中存在多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。[了解详情](primary-email-addresses.md)
 

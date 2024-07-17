@@ -15,11 +15,11 @@ ht-degree: 22%
 
 # 辅助函数入门{#functions}
 
-使用 [!DNL Journey Optimizer] 模板化语言，用于对数据执行操作（例如计算、数据格式或转换、条件），并在个性化上下文中处理这些操作。 了解中的个性化语法指南 [此页面](../personalization-syntax.md).
+使用[!DNL Journey Optimizer]模板化语言对数据执行操作，如计算、数据格式或转换、条件，并在个性化上下文中处理这些操作。 在[此页面](../personalization-syntax.md)中了解个性化语法准则。
 
 
 
-➡️ [在此视频中了解如何使用辅助函数](#video)
+➡️[在此视频中了解如何使用辅助函数](#video)
 
 在个性化编辑器的个性化下拉列表中提供的辅助函数中会利用模板语言，如下所示：
 
@@ -27,15 +27,15 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->个性化编辑器中可用的功能和能力与 [历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md).
+>个性化编辑器中的可用功能和功能与[历程高级表达式编辑器](../../building-journeys/expression/expressionadvanced.md)中的可用功能和功能不同。
 
-在 [!DNL Journey Optimizer] 个性化编辑器、辅助函数分为三类： [函数](#functions-helper)， [辅助函数](#helper-helper) 和 [运算符](#operators-helper).
+在[!DNL Journey Optimizer]个性化编辑器中，辅助函数分为三类： [函数](#functions-helper)、[辅助函数](#helper-helper)和[运算符](#operators-helper)。
 
 选择类别，以访问子类别和函数。
 
-通过单击 `>` 图标。 通过单击 `+` 图标：函数会自动添加到个性化屏幕。
+通过单击`>`图标访问子类别。 通过单击`+`图标选择一个函数：该函数会自动添加到个性化屏幕中。
 
-单击 `...` 图标，以查看函数的说明并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
+单击`...`图标可查看函数的说明，并将其添加到收藏夹。 [了解详情](../personalize.md#fav)
 
 ## 功能{#functions-helper}
 
@@ -347,7 +347,7 @@ ht-degree: 22%
 
 ## 辅助程序{#helper-helper}
 
-有关帮助程序的详细信息，请参见 [此页面](helpers.md).
+帮助程序在[此页面](helpers.md)中有详细介绍。
 
 
 <table>

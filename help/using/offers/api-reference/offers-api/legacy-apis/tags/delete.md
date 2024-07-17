@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 删除收藏集限定符 {#delete-tag}
 
-有时可能需要移除(DELETE)收藏集限定符（以前称为“标记”）。 只能删除您在租户容器中创建的收藏集限定符。 DELETE这是通过对 [!DNL Offer Library] API使用要删除的集合限定符的$id。
+有时可能需要移除(DELETE)收藏集限定符（以前称为“标记”）。 只能删除您在租户容器中创建的收藏集限定符。 通过使用要删除的集合限定符的$id对[!DNL Offer Library] API执行DELETE请求来实现此目的。
 
 **API格式**
 

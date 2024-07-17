@@ -9,13 +9,13 @@ exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # 删除决策 {#delete-decision}
 
-有时可能有必要删除(DELETE)决策。 DELETE这是通过对 [!DNL Offer Library] API使用 `id` 要删除的决策。
+有时可能有必要删除(DELETE)决策。 通过使用要删除的决策的`id`对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

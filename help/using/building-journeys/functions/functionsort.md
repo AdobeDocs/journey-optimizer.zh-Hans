@@ -72,11 +72,11 @@ ht-degree: 7%
 
 `sort(["A", "C", "B"], true)`
 
-返回 `["A","B","C"]`.
+返回`["A","B","C"]`。
 
 `sort([1, 3, 2], false)`
 
-返回 `[3, 2, 1]`.
+返回`[3, 2, 1]`。
 
 `sort(@event{my_event.productListItems}, "SKU", true)`
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过向以下网站发出GET请求来查找特定收藏集： [!DNL Offer Library] 包含收藏集的API `id` 在请求路径中。
+您可以通过向[!DNL Offer Library] API发出请求，查找特定收藏集，该API在请求路径中包含收藏集`id`。GET
 
 **API格式**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 
 **响应**
 
-成功的响应将返回收藏集的详细信息，包括有关您的唯一收藏集的信息 `id`.
+成功的响应将返回集合的详细信息，包括有关您的唯一集合`id`的信息。
 
 ```json
 {

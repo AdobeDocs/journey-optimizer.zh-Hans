@@ -9,7 +9,7 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 投放位置是用于展示优惠的容器。 版面有助于确保正确的选件内容显示在消息的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
-您可以通过对执行单个GET请求来查看所有投放的列表 [!DNL Offer Library] API。
+通过执行对[!DNL Offer Library] API的单个GET请求，可查看所有投放的列表。
 
 **API格式**
 
@@ -39,7 +39,7 @@ GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如下所示：属性={PROPERTY_EXPR}[属性(&amp;P)={PROPERTY_EXPR2}...] 或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式采用格式 `[!]field[op]value`，替换为 `op` 在 `[==,!=,<=,>=,<,>,~]`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[!]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 
 **请求**

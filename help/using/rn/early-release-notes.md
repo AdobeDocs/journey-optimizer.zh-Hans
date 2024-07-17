@@ -5,10 +5,11 @@ title: 发行说明
 description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
+source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 73%
 
 ## 2024 年 4 月早期发行说明 {#early-2024}
 
-**发行日期**：2024年5月2日
+**发布日期**：2024 年 5 月 2 日
 
 ### 新功能 {#early-features}
 
@@ -76,13 +77,13 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>多媒体消息服务(MMS) — 所有提供商</strong><br/></th>
+<th><strong>多媒体消息服务 (MMS) - 所有提供商</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于Sinch，现在也适用于Infobip和Twilio。</p>
+<p>使用短信渠道时，您现在可以通过发送多媒体消息服务 (MMS) 消息（支持与客户共享图像、GIF 文件或视频）来增强沟通效果。最初仅适用于 Sinch，现在也适用于 Infobip 和 Twilio。</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>
@@ -92,17 +93,17 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>改进了历程设计人员和实时报表</strong><br/></th>
+<th><strong>改进了历程设计器和实时报告</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此版本附带改进的画布用户界面，可用于执行历程，并提供更直观、高效的用户体验。 活动情况更清晰，通过更少的单击操作即可显示更多有关历程画布的信息。</p>
+<p>此版本具有改进的用于历程的画布用户界面，并提供更直观、高效的用户体验。活动情况更清晰，通过更少的单击操作即可显示更多有关历程画布的信息。</p>
 <img src="assets/new-canvas3.gif"/>
-<p>除了改进的历程画布设计之外，我们还引入了在历程画布中直接查看过去24小时报告量度的功能。 </p>
+<p>除了改进的历程画布设计之外，我们还引入了在历程画布中直接查看过去 24 小时的报告指标的功能。 </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>注意</strong>：从4月版本开始，这些更改将逐步在所有环境中推出。</p>
+<p><strong>注意</strong>：从 4 月版本开始，这些更改将逐步在所有环境中推出。</p>
 <p>有关更多信息，请参阅<a href="new-canvas.md">详细文档</a>。</p>
 </td>
 </tr>

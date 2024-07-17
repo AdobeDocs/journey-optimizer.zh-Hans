@@ -32,7 +32,7 @@ ht-degree: 12%
 
 >[!ENDSHADEBOX]
 
-一旦您拥有 [创建了IP预热计划](ip-warmup-plan.md) 并上传与可投放性顾问一起准备的文件，您可以定义阶段并在计划中运行。
+在您[创建IP预热计划](ip-warmup-plan.md)并上传与可投放性顾问准备的文件后，您可以定义计划中的阶段并运行。
 
 每个阶段都由若干您为其分配单个营销活动的运行组成。
 
@@ -70,7 +70,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!IMPORTANT]
    >
-   >* 仅限具有的促销活动 **[!UICONTROL IP预热计划激活]** 启用的选项可供选择。 [了解详情](#create-ip-warmup-campaign)
+   >* 只有启用了&#x200B;**[!UICONTROL IP预热计划激活]**&#x200B;选项的营销活动才可供选择。 [了解详情](#create-ip-warmup-campaign)
    >
    >* 只有使用与所选IP预热计划相同的表面的营销活动才可供选择。
 
@@ -78,13 +78,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >激活运行后，无法再修改排除项，除非您 [拆分运行](#split-phase) 进入新阶段。
+   >一旦激活运行，除非您[将运行](#split-phase)拆分为新阶段，否则无法再修改排除项。
 
-   1. 从 **[!UICONTROL 排除的域组]** 部分中，选择要从该阶段中排除的域。
+   1. 从&#x200B;**[!UICONTROL 排除的域组]**&#x200B;部分，选择要从该阶段排除的域。
 
       >[!NOTE]
       >
-      >域排除需要一个未执行的阶段，因此您可能需要 [拆分正在运行的阶段](#split-phase) 以添加排除项。
+      >域排除需要一个未执行的阶段，因此您可能需要[拆分正在运行的阶段](#split-phase)以添加排除项。
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
@@ -92,48 +92,48 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >您只能排除已添加到中的自定义域组 [IP预热计划模板](ip-warmup-plan.md#prepare-file). 如果不是这种情况，请使用要排除的自定义域组更新模板，然后 [重新上传计划](#re-upload-plan).
+      >您只能排除已添加到[IP预热计划模板](ip-warmup-plan.md#prepare-file)的自定义域组。 如果不是这种情况，请使用要排除的自定义域组更新模板，然后[重新上载计划](#re-upload-plan)。
 
-   1. 从 **[!UICONTROL 用于排除用户档案的营销活动]** 部分，选择要从当前阶段中排除的受众的营销活动。
+   1. 从用于排除用户档案的&#x200B;**[!UICONTROL 营销活动]**&#x200B;部分中，选择要从当前阶段中排除的受众的营销活动。
 
       ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-      例如，在执行阶段1时，必须 [拆分](#split-phase) 不管怎么说。 因此，您可以排除阶段1中使用的营销活动，以便之前在第1阶段联系的用户档案不包括在第2阶段中。 您还可以从其他IP预热计划中排除营销活动。
+      例如，在执行阶段1时，出于任何原因，您必须[拆分它](#split-phase)。 因此，您可以排除阶段1中使用的营销活动，以便之前在第1阶段联系的用户档案不包括在第2阶段中。 您还可以从其他IP预热计划中排除营销活动。
 
-   1. 从 **[!UICONTROL 用于排除配置文件的历程]** 部分，选择要从当前阶段排除的受众历程。
+   1. 从排除用户档案的&#x200B;**[!UICONTROL 历程]**&#x200B;部分中，选择包含要从当前阶段中排除的受众的历程。
 
 +++ 要使用用于排除用户档案选项的历程，您需要在AJO消息反馈事件和AJO实体记录架构之间建立关系。
 
-      1. 创建自定义 **命名空间** 将用作以下步骤的标识类型。
+      1. 创建将用作以下步骤的标识类型的自定义&#x200B;**命名空间**。
 
-      1. 访问Adobe Experience Platform，从 **架构** 菜单，选择 **AJO实体记录架构** 并设置 **_id** 字段作为主标识，然后选择之前创建的命名空间作为 **身份命名空间**.
+      1. 访问Adobe Experience Platform，从&#x200B;**架构**&#x200B;菜单中，选择&#x200B;**AJO实体记录架构**，并将&#x200B;**_id**&#x200B;字段设置为主标识，然后选择之前创建的命名空间作为&#x200B;**标识命名空间**。
 
-      1. 从 **架构** 菜单，选择 **AJO消息反馈事件架构**，然后导航到 **_messageID** 字段。 选择 **添加关系** 并选择 **AJO实体记录架构** 作为 **引用架构** 以及您之前创建的命名空间 **引用身份命名空间**.
+      1. 从&#x200B;**架构**&#x200B;菜单中，选择&#x200B;**AJO消息反馈事件架构**，并导航到&#x200B;**_messageID**&#x200B;字段。 选择&#x200B;**添加关系**，然后选择&#x200B;**AJO实体记录架构**&#x200B;作为&#x200B;**引用架构**，选择您之前创建的命名空间作为&#x200B;**引用身份命名空间**。
 +++
 
-   1. 在 **[!UICONTROL 以前运行中定向的用户档案]** 部分中，您可以看到始终排除该阶段先前运行的用户档案。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
+   1. 在&#x200B;**[!UICONTROL 以前运行中定向的用户档案]**&#x200B;部分中，您可以看到始终排除该阶段以前运行中的用户档案。 例如，如果在Run #1中，某个用户档案涵盖了被定位的前4800人，则系统将自动确保该用户档案不会在Run #2中收到电子邮件。
 
       >[!NOTE]
       >
       >此分区不可编辑。
 
-1. 如果需要，您可以使用替换促销活动 **[!UICONTROL 替换]** 按钮。 您还可以 **[!UICONTROL 清除]** 使用的所选营销活动 **[!UICONTROL 清除]** 按钮。 此操作不仅会清除营销活动，还会清除其他阶段级别属性，例如域组排除、营销活动、历程排除等。 清除后，您可以立即或稍后选择新的营销策划。
+1. 如果需要，您可以使用&#x200B;**[!UICONTROL 替换]**&#x200B;按钮替换营销活动。 您还可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按钮&#x200B;**[!UICONTROL 清除]**&#x200B;选定的营销活动。 此操作不仅会清除营销活动，还会清除其他阶段级别属性，例如域组排除、营销活动、历程排除等。 清除后，您可以立即或稍后选择新的营销策划。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
    >[!NOTE]
    >
-   >只有在激活该阶段的第一次运行之前，才能执行此操作。 激活运行后，无法替换营销活动，除非您 [拆分运行](#split-phase) 进入新阶段。
+   >只有在激活该阶段的第一次运行之前，才能执行此操作。 一旦激活某个运行，便无法替换该活动，除非您[将该运行](#split-phase)拆分为新阶段。
 
 1. 如果需要，可以添加阶段。 它将在最后一个阶段后添加。
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
-1. 使用 **[!UICONTROL 删除阶段]** 按钮以删除任何不需要的阶段。 仅当某个阶段未执行任何运行时，此操作才可用。 <!--Once a run is executed, deletion is not allowed.-->
+1. 使用&#x200B;**[!UICONTROL 删除阶段]**&#x200B;按钮删除任何不需要的阶段。 仅当某个阶段未执行任何运行时，此操作才可用。<!--Once a run is executed, deletion is not allowed.-->
 
    >[!CAUTION]
    >
-   >无法撤消 **[!UICONTROL 删除阶段]** 操作。
+   >无法撤消&#x200B;**[!UICONTROL 删除阶段]**&#x200B;操作。
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -172,7 +172,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定义一个时间窗口，在IP预热活动出现任何延迟时，可以在该时间窗口执行 [受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. 为此，请单击计划名称左上角的属性图标，然后使用 **[!UICONTROL 重试运行时间]** 下拉列表以选择持续时间 — 最多240分钟（4小时）。
+1. 或者，您可以定义一个时间范围，以在[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}出现任何延迟时执行IP预热活动。 为此，请单击左上角计划名称旁边的“属性”图标，然后使用&#x200B;**[!UICONTROL 重试运行时间]**&#x200B;下拉列表选择持续时间 — 最多240分钟（4小时）。
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >如果未指定时间窗口，则在发送时尝试运行，如果未完成受众评估，则运行将失败。
 
-1. 如果需要，请选择 **[!UICONTROL 编辑运行]** 从更多操作图标。 您可以在此更新每列的地址数。 您还可以更新 **[!UICONTROL 上次参与时间]** 字段以仅定向过去20天内与您的品牌互动的用户。
+1. 如果需要，请从“更多操作”图标中选择&#x200B;**[!UICONTROL 编辑运行]**。 您可以在此更新每列的地址数。 例如，您还可以更新&#x200B;**[!UICONTROL 上次参与]**&#x200B;字段以仅定向过去20天内与您的品牌互动的用户。
 
    >[!NOTE]
    >
@@ -196,35 +196,35 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >如果不想对运行应用任何参与期，请在 **[!UICONTROL 上次参与时间]** 字段。
+   >如果不希望将任何参与期应用于运行，请在&#x200B;**[!UICONTROL 上次参与]**&#x200B;字段中输入0。
 
-1. 选择 **[!UICONTROL 发生错误时取消已激活的运行]** 用于在评估了某个运行的受众后，如果符合条件的配置文件少于目标配置文件，则取消该运行的选项。 在这种情况下，逃跑将会 **[!UICONTROL 失败]** 状态。
+1. 选择&#x200B;**[!UICONTROL 发生错误时取消激活的运行]**&#x200B;选项，以便在评估受众运行后，如果合格的配置文件少于目标配置文件，则取消该运行。 在这种情况下，该运行采用&#x200B;**[!UICONTROL 失败]**&#x200B;状态。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-1. **[!UICONTROL 激活]** 逃跑。 [了解详情](#activate-run)
+1. **[!UICONTROL 激活]**&#x200B;运行。 [了解详情](#activate-run)
 
-1. 此运行的状态将更改为 **[!UICONTROL 实时]**，这意味着系统已接受计划运行的请求。
+1. 此运行的状态将更改为&#x200B;**[!UICONTROL Live]**，这意味着系统已接受计划运行的请求。
 
    >[!NOTE]
    >
-   >中列出了不同的运行状态 [本节](#monitor-plan).
+   >[此部分](#monitor-plan)中列出了不同的运行状态。
 
 1. 如果活动执行尚未开始，您可以取消实时运行。 此操作实际上会取消运行计划 — 它不会停止发送。
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-1. 要复制任何草稿、实时或已完成的运行，请选择 **[!UICONTROL 重复运行]**. 复制时，将出现“编辑运行”菜单，使用户能够调整 **[!UICONTROL 目标配置文件总数]** 和 **[!UICONTROL 发送时间]** 根据需要。
+1. 要复制任何草稿、实时或已完成的运行，请选择&#x200B;**[!UICONTROL 复制运行]**。 复制后，将显示“编辑运行”菜单，使用户能够根据需要调整&#x200B;**[!UICONTROL 目标配置文件总数]**&#x200B;和&#x200B;**[!UICONTROL 发送时间]**。
 
    ![](assets/ip-warmup-duplicate.png)
 
 ## 激活运行 {#activate-run}
 
-要激活运行，请选择 **[!UICONTROL 激活]** 按钮。 然后，您可以每天激活下一个运行。
+要激活运行，请选择&#x200B;**[!UICONTROL 激活]**&#x200B;按钮。 然后，您可以每天激活下一个运行。
 
 当同时运行多个IP预热计划（均针对相同的IP池和域）时，预测潜在的后果至关重要。 例如，如果ISP强制实施每天100封电子邮件的限制，则针对同一域运行多个计划可能会超过此阈值。
 
-确保您已计划足够的时间来允许 [受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} 将执行。
+请确保您计划了足够的时间以允许执行[受众评估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -236,11 +236,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果激活阶段的第一次运行：
 
-   * An [受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} 为排除的营销活动受众（如果有）创建，且采用以下命名约定： `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * 为排除的营销活动受众（如果有）创建[受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}，其命名约定如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion `。
 
-   * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
+   * 使用以下命名约定为排除的域组（如果有）创建受众： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
-   * 使用以下命名约定为排除的旅程受众（如果有）创建另一个受众： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
+   * 为排除的历程受众（如果有）创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
 
   >[!NOTE]
   >
@@ -250,7 +250,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 激活任何运行时：
 
-   * 为最后一个参与过滤器创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+   * 为最后一个参与过滤器创建另一个受众，其命名约定如下： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
 
      >[!NOTE]
      >
@@ -258,7 +258,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >
      >如果后续阶段的最后一个参与过滤器没有变化，则系统不会创建新受众。
 
-   * An [受众构成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"} 创建时与活动将发送到的受众相对应，并具有以下命名约定： `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * 已创建[受众组合](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}，该组合对应于将向其发送营销活动的受众，其命名约定如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
      >[!NOTE]
      >
@@ -266,7 +266,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >
      >在激活下一个迭代时，将清除受众合成（以及因此产生的输出受众）。
 
-   * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * 使用以下命名约定创建输出受众： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -280,7 +280,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 ### 使用“高亮”部分 {#highlights}
 
-一旦为某个阶段激活了第一次运行， **[!UICONTROL 高亮]** 部分会显示。
+为阶段激活第一次运行后，将显示&#x200B;**[!UICONTROL 高亮]**&#x200B;部分。
 
 它提供了当前运行和即将运行的快速概述。 在此部分中，您还可以编辑和激活下次运行。
 
@@ -288,7 +288,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 ### 检查运行状态 {#run-statuses}
 
-IP预热计划本身就是单个位置的整合报告。 您可以检查元素，例如 **[!UICONTROL 实时]** 或 **[!UICONTROL 已完成]** 会针对每个阶段运行，并查看IP预热计划的进展情况。
+IP预热计划本身就是单个位置的整合报告。 您可以检查每个阶段运行的&#x200B;**[!UICONTROL Live]**&#x200B;或&#x200B;**[!UICONTROL Completed]**&#x200B;等元素，并查看IP预热计划的进展情况。
 
 >[!NOTE]
 >
@@ -296,19 +296,19 @@ IP预热计划本身就是单个位置的整合报告。 您可以检查元素�
 
 运行可以具有以下状态：
 
-* **[!UICONTROL 草稿]** ：每当创建运行时，无论是何时 [创建新计划](ip-warmup-plan.md) 或 [添加运行](#define-runs) 在用户界面中，它采用 **[!UICONTROL 草稿]** 状态。
-* **[!UICONTROL 实时]**：无论何时激活运行，都会使用 **[!UICONTROL 实时]** 状态。 这意味着系统已接受计划运行的请求，而不是发送已开始。 在此阶段，您可以通过单击 **[!UICONTROL 查看状态]** 按钮时，单击此按钮。 这样，您就可以跟踪实际符合条件的定向用户档案的数量。
-* **[!UICONTROL 已完成]**：此运行的营销活动执行已完成。 您可以通过单击 **[!UICONTROL 查看报告]** 按钮进行编辑。 使用此选项，您可以跟踪运行的电子邮件投放状态，包括特定于域组的划分，以便增强监控。 请注意，与其关联的Campaign将设置为“已停止”。[了解详情](#reports)
-* **[!UICONTROL 已取消]**： a **[!UICONTROL 实时]** 已使用 **[!UICONTROL 取消]** 按钮。[了解详情](#define-runs)
-* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止，或者您已启用 **[!UICONTROL 发生错误时取消已激活的运行]** 选项并发生错误。 如果某个运行失败，您可以计划第二天再次运行。
+* **[!UICONTROL 草稿]** ：每当创建运行时，在[创建新计划](ip-warmup-plan.md)或从用户界面[添加运行](#define-runs)时，它都会采用&#x200B;**[!UICONTROL 草稿]**&#x200B;状态。
+* **[!UICONTROL 实时]**：无论何时激活运行，它都会处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态。 这意味着系统已接受计划运行的请求，而不是发送已开始。 在此阶段，您可以通过单击表中的&#x200B;**[!UICONTROL 查看状态]**&#x200B;按钮来观察实时运行的状态。 这样，您就可以跟踪实际符合条件的定向用户档案的数量。
+* **[!UICONTROL 已完成]**：此运行的营销活动执行已完成。 您可以通过单击表中的&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮来访问详细的运行报告。 使用此选项，您可以跟踪运行的电子邮件投放状态，包括特定于域组的划分，以便增强监控。 请注意，与其关联的Campaign将设置为“已停止”。[了解详情](#reports)
+* **[!UICONTROL 已取消]**：已使用&#x200B;**[!UICONTROL 取消]**&#x200B;按钮取消了&#x200B;**[!UICONTROL 实时]**&#x200B;运行。[了解详情](#define-runs)
+* **[!UICONTROL 失败]**：系统遇到错误，或用于当前阶段的营销活动已停止，或者您已启用&#x200B;**[!UICONTROL 如果出现错误，请取消激活的运行]**&#x200B;选项，但出现错误。 如果某个运行失败，您可以计划第二天再次运行。
 
 ### 使用报表 {#reports}
 
-更一般地说，要衡量计划的影响，您可以使用 [!DNL Journey Optimizer] 营销活动报表。 为此，对于每个已完成的运行，您可以单击 **[!UICONTROL 查看报表]** 按钮。 了解有关营销活动电子邮件的更多信息 [实时报告](../reports/campaign-live-report.md#email-live) 和 [全局报告](../reports/campaign-global-report.md#email-global).
+一般来说，要衡量计划的影响，您可以使用[!DNL Journey Optimizer]活动报告来检查IP预热活动的效果。 为此，对于每个已完成的运行，您可以单击&#x200B;**[!UICONTROL 查看报表]**&#x200B;按钮。 了解有关营销活动电子邮件[实时报告](../reports/campaign-live-report.md#email-live)和[全局报告](../reports/campaign-global-report.md#email-global)的更多信息。
 
 ![](assets/ip-warmup-plan-reports.png)
 
-您还可以从以下位置访问报告： [营销活动菜单](../campaigns/modify-stop-campaign.md#access) 因为您的计划可能会使用不同的营销活动。
+您还可以从[促销活动菜单](../campaigns/modify-stop-campaign.md#access)访问报告，因为您的计划可能使用不同的促销活动。
 
 
 ## 管理您的计划 {#manage-plan}
@@ -317,7 +317,7 @@ IP预热计划本身就是单个位置的整合报告。 您可以检查元素�
 
 ### 拆分阶段 {#split-phase}
 
-如果要添加从特定运行开始的新阶段，请选择 **[!UICONTROL 拆分运行到新阶段]** “更多操作”图标中的选项。
+如果要添加从特定运行开始的新阶段，请从“更多操作”图标中选择&#x200B;**[!UICONTROL 拆分运行到新阶段]**&#x200B;选项。
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -325,11 +325,11 @@ IP预热计划本身就是单个位置的整合报告。 您可以检查元素�
 
 例如，如果为Run #4选择此选项，则Runs #4 to #8将移动到当前阶段之后的新阶段。
 
-按照以下步骤操作 [以上](#define-phases) 以定义新阶段。
+按照以上[步骤](#define-phases)定义新阶段。
 
-* 您可以使用 **[!UICONTROL 替换]** 或 **[!UICONTROL 清除]** 新阶段的选项。
+* 您可以为该新阶段使用&#x200B;**[!UICONTROL 替换]**&#x200B;或&#x200B;**[!UICONTROL 清除]**&#x200B;选项。
 
-* 您还可以排除上一个营销活动或表现不佳的域。 了解如何在 [本节](#define-phases).
+* 您还可以排除上一个营销活动或表现不佳的域。 在[本节](#define-phases)中了解详情。
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
@@ -345,17 +345,17 @@ But need to explain in which case you want to modify campaigns, provide examples
 
 以前执行的所有运行都将为只读。 新计划显示在第一个计划下。
 
-按照以下步骤操作 [以上](#define-phases) 以从新计划定义阶段。
+按照以上[步骤](#define-phases)从新计划定义阶段。
 
 >[!NOTE]
 >
->IP预热计划的详细信息将根据新上传的文件而更改。 之前执行的运行(无论其是否包含 [状态](#monitor-plan))不会受到影响。
+>IP预热计划的详细信息将根据新上传的文件而更改。 先前执行的运行（无论其[状态](#monitor-plan)如何）不受影响。
 
 让我们举一个例子：
 
 * 在最初的IP预热计划中，阶段2运行了9次。
 
-* 已执行4次运行（无论失败、已完成还是已取消）<!--as long as a run has been attempted, it is an executed run-->)。
+* 已执行4个运行（无论失败、完成还是已取消<!--as long as a run has been attempted, it is an executed run-->）。
 
 * 如果重新上传新计划，则运行前4次的阶段2将进入只读模式。
 
@@ -365,11 +365,11 @@ But need to explain in which case you want to modify campaigns, provide examples
 
 如果您的IP已使用所需的卷进行热处理，或者您的计划执行得不够好，或者您想删除它以创建另一个卷，您可以将其标记为已完成。
 
-要执行此操作，请单击 **[!UICONTROL 更多]** IP预热计划右上角的按钮并选择 **[!UICONTROL 标记为已完成]**.
+为此，请单击IP预热计划右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 标记为已完成]**。
 
 ![](assets/ip-warmup-plan-mark-completed.png)
 
-仅当计划中的所有运行都位于以下位置时，此选项才可用 **[!UICONTROL 已完成]** 或 **[!UICONTROL 草稿]** 状态。 如果运行是 **[!UICONTROL 实时]**&#x200B;时，选项将灰显。
+仅当计划中的所有运行处于&#x200B;**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 草稿]**&#x200B;状态时，此选项才可用。 如果运行是&#x200B;**[!UICONTROL Live]**，则该选项将显示为灰色。
 
-中列出了不同的运行状态 [本节](#monitor-plan).
+[此部分](#monitor-plan)中列出了不同的运行状态。
 

@@ -18,11 +18,11 @@ ht-degree: 35%
 
 # 添加链接和跟踪消息 {#tracking}
 
-使用 [!DNL Journey Optimizer] 向内容添加链接并跟踪发送的消息，以监控收件人的行为。
+使用[!DNL Journey Optimizer]向内容添加链接并跟踪发送的邮件，以监视收件人的行为。
 
 ## 启用跟踪 {#enable-tracking}
 
-您可以在电子邮件级别启用跟踪，方法是选中 **[!UICONTROL 电子邮件打开次数]** 和/或 **[!UICONTROL 单击电子邮件]** 在历程或活动中创建消息时的选项。
+在历程或营销策划中创建邮件时，通过检查&#x200B;**[!UICONTROL 电子邮件打开次数]**&#x200B;和/或&#x200B;**[!UICONTROL 单击电子邮件]**&#x200B;选项，可以在电子邮件级别启用跟踪。
 
 >[!BEGINTABS]
 
@@ -42,7 +42,7 @@ ht-degree: 35%
 
 这将允许您通过以下方式跟踪收件人的行为：
 
-* **[!UICONTROL 电子邮件打开次数]**：已打开的消息。
+* **[!UICONTROL 电子邮件打开次数]**：已打开的邮件。
 * **[!UICONTROL 单击电子邮件]**：单击电子邮件中的链接。
 
 ## 插入链接 {#insert-links}
@@ -51,7 +51,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->时间 [已启用跟踪](#enable-tracking)，则会跟踪消息内容中包含的所有链接。
+>启用[跟踪](#enable-tracking)后，将跟踪消息内容中包含的所有链接。
 
 要在电子邮件内容中插入链接，请执行以下步骤：
 
@@ -69,7 +69,7 @@ ht-degree: 35%
 
    * **[!UICONTROL 外部选择加入/订阅]**：插入链接以接受来自您品牌的通信。
 
-   * **[!UICONTROL 外部选择退出/退订]**：插入链接以取消订阅以停止从您的品牌接收通信。 在[此部分中](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * **[!UICONTROL 外部选择退出/退订]**：插入链接以取消订阅以停止接收来自您品牌的通信。 在[此部分中](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
    * **[!UICONTROL 镜像页面]**：添加链接以在Web浏览器中显示电子邮件内容。 [了解详情](#mirror-page)
 
@@ -77,27 +77,27 @@ ht-degree: 35%
 
    >[!NOTE]
    >
-   >要解释URL， [!DNL Journey Optimizer] 符合URI语法([RFC 3986标准版](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"})，禁用URL中的某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
+   >为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法禁用URL中的某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
 
 1. 您可以个性化自己的链接。[了解详情](../personalization/personalization-syntax.md#perso-urls)
 
 1. 保存更改。
 
-1. 创建链接后，您仍然可以从以下位置修改它： **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 右边的窗格。
+1. 创建链接后，您仍然可以从右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中修改链接。
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
->营销类型的电子邮件必须包含 [选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型消息不需要此字段。 消息类别(**[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]**)在中定义 [渠道表面](../configuration/channel-surfaces.md#email-type) 创建消息时。
+>营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，[渠道表面](../configuration/channel-surfaces.md#email-type)中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）。
 
 ## 调整链接 {#adjust-links}
 
-您可以使用对链接进行调整 **[!UICONTROL 设置]** 和 **[!UICONTROL 样式]** 右边的窗格。 您可以为链接加下划线，编辑其颜色并选择其目标。
+您可以使用右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;窗格调整链接。 您可以为链接加下划线，编辑其颜色并选择其目标。
 
 1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
 
-1. 从 **[!UICONTROL 设置]** 选项卡上，选择将怎样通过重定向受众 **[!UICONTROL Target]** 下拉列表：
+1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡的&#x200B;**[!UICONTROL Target]**&#x200B;下拉列表选择如何重定向受众：
 
    * **[!UICONTROL 无]**：单击时在同一框架中打开链接（默认）。
    * **[!UICONTROL 空白]**：在新窗口或标签页中打开链接。
@@ -107,7 +107,7 @@ ht-degree: 35%
 
    ![](assets/link_2.png)
 
-1. Check **[!UICONTROL 为链接加下划线]** 为链接的标签文本加下划线。
+1. 选中&#x200B;**[!UICONTROL 为链接]**&#x200B;加下划线以对链接的标签文本加下划线。
 
    ![](assets/link_1.png)
 
@@ -121,7 +121,7 @@ ht-degree: 35%
 
 镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。其内容与电子邮件的内容相同。
 
-要在电子邮件中添加指向镜像页面的链接，请执行以下操作 [插入链接](#insert-links) 并选择 **[!UICONTROL 镜像页面]** 作为链接类型。
+要在电子邮件中添加指向镜像页面的链接，请[插入链接](#insert-links)，并选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;作为链接类型。
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -135,7 +135,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->在 [验证](../content-management/proofs.md) 发送到测试用户档案，指向镜像页面的链接无效。 它仅在最终邮件中激活。
+>在发送到测试配置文件的[验证](../content-management/proofs.md)中，指向镜像页面的链接无效。 它仅在最终邮件中激活。
 
 镜像页面的保留期为60天。 在该延迟之后，镜像页面将不再可用。
 
@@ -143,7 +143,7 @@ ht-degree: 35%
 
 [电子邮件设计器](content-from-scratch.md)允许您管理跟踪的 URL，例如编辑每个链接的跟踪类型。
 
-1. 单击 **[!UICONTROL 链接]** 图标，以显示将跟踪的内容的所有URL的列表。
+1. 单击左窗格中的&#x200B;**[!UICONTROL 链接]**&#x200B;图标，以显示要跟踪的内容的所有URL列表。
 
    此列表提供一个集中式视图，让您能够找到电子邮件内容中的每个 URL。
 
@@ -160,17 +160,17 @@ ht-degree: 35%
    * **[!UICONTROL 镜像页面]**：将此 URL 视为镜像页面 URL。
    * **[!UICONTROL 从不]**：从不激活此URL的跟踪。
 
-有关打开次数和点击次数的报告，请参见 [实时报告](../reports/live-report.md) 和 [全局报告](../reports/global-report.md).
+有关打开次数和点击次数的报告可在[实时报告](../reports/live-report.md)和[全局报告](../reports/global-report.md)中获取。
 
 ## 个性化URL跟踪 {#url-tracking}
 
-通常 [URL跟踪](email-settings.md#url-tracking) 在曲面级别进行管理，但不支持配置文件属性。 目前，唯一的方法是 [个性化URL](../personalization/personalization-syntax.md#perso-urls) 在email designer中。
+通常在表面级别管理[URL跟踪](email-settings.md#url-tracking)，但不支持配置文件属性。 当前唯一的方法是在电子邮件设计器中[个性化URL](../personalization/personalization-syntax.md#perso-urls)。
 
 要向链接添加个性化的URL跟踪参数，请执行以下步骤。
 
-1. 选择链接并单击 **[!UICONTROL 插入链接]** 从上下文工具栏中。
+1. 选择一个链接，然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 
-1. 选择个性化图标。 它仅适用于以下类型的链接： **外部链接**， **退订链接** 和 **选择禁用**.
+1. 选择个性化图标。 它仅适用于以下类型的链接：**外部链接**、**退订链接**&#x200B;和&#x200B;**选择退出**。
 
    ![](assets/message-tracking-insert-link-perso.png)
 
@@ -186,4 +186,4 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->要验证最终URL，您可以 [发送验证](../content-management/preview-test.md#send-proofs) 并在收到校样后单击电子邮件内容中的链接。 URL应显示跟踪参数。 在上述示例中，最终URL将为： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>要验证最终URL，您可以[发送校样](../content-management/preview-test.md#send-proofs)，并在收到校样后单击电子邮件内容中的链接。 URL应显示跟踪参数。 在上述示例中，最终URL将为：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

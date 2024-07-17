@@ -165,7 +165,7 @@ json格式：字符串。
 
 序列化格式：ISO-8601扩展偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化该值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化该值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}。
 
 **文本呈现**
 
@@ -194,9 +194,9 @@ json格式：字符串。
 
 序列化格式：ISO-8601扩展偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}。
 
-您还可以传递一个传递epoch值的整数。 [了解更多](https://www.epochconverter.com){_blank}.
+您还可以传递一个传递epoch值的整数。 [阅读更多](https://www.epochconverter.com){_blank}。
 
 时区可以通过偏移或时区代码指定（例如：欧洲/巴黎，Z — 表示UTC）。
 
@@ -258,7 +258,7 @@ json格式：字符串。
 
 序列化格式：要反序列化时区ID，它使用java函数java.time。
 
-Duration.parse：可接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，天数被认为刚好是24小时。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
+Duration.parse：可接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，天数被认为刚好是24小时。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}。
 
 **文本呈现**
 

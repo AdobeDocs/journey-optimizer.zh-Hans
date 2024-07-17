@@ -16,11 +16,11 @@ ht-degree: 3%
 
 # 配置推送通知渠道 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。开始发送推送通知之前 [!DNL Journey Optimizer]中，您需要确保为移动设备应用程序和Adobe Experience Platform中的标记配置了适当配置和集成。 要了解 [!DNL Adobe Journey Optimizer] 中的推送通知数据流，请参阅[此页面](push-gs.md)。
+[!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。在开始通过[!DNL Journey Optimizer]发送推送通知之前，您需要确保移动应用程序和Adobe Experience Platform中的标记已具有配置和集成。 要了解 [!DNL Adobe Journey Optimizer] 中的推送通知数据流，请参阅[此页面](push-gs.md)。
 
 >[!AVAILABILITY]
 >
->新 **移动载入快速入门工作流** 现已推出。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
+>新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
 >
 
 
@@ -39,11 +39,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### 设置权限 {#setup-permissions}
 
-在创建移动应用程序之前，您首先需要确保拥有或分配适用于Adobe Experience Platform中的标记的正确用户权限。 了解详情，请参阅 [标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+在创建移动应用程序之前，您首先需要确保拥有或分配适用于Adobe Experience Platform中的标记的正确用户权限。 请参阅[标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}以了解详情。
 
 >[!CAUTION]
 >
->推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件，或在应用程序开发人员与 **Adobe Journey Optimizer** 管理员。 了解有关 **标记** 中的权限 [本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+>推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件，或在应用程序开发人员和&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}中了解有关&#x200B;**标记**&#x200B;权限的详细信息。
 
 <!--ou need to your have access to perform following roles :
 
@@ -52,21 +52,21 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 * Manage App Configurations
 -->
 
-要分配 **属性** 和 **公司** 权限，请执行以下步骤：
+要分配&#x200B;**属性**&#x200B;和&#x200B;**公司**&#x200B;权限，请执行以下步骤：
 
-1. 访问 **[!DNL Admin Console]**.
+1. 访问&#x200B;**[!DNL Admin Console]**。
 
-1. 从 **[!UICONTROL 产品]** 选项卡，选择 **[!UICONTROL Adobe Experience Platform数据收集]** 卡片。
+1. 从&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Adobe Experience Platform数据收集]**&#x200B;卡。
 
    ![](assets/push_product_1.png)
 
-1. 选择现有 **[!UICONTROL 产品配置文件]** 或使用 **[!UICONTROL 新建配置文件]** 按钮。 了解如何新建 **[!UICONTROL 新建配置文件]** 在 [Admin console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中了解如何创建新的&#x200B;**[!UICONTROL 新配置文件]**。
 
-1. 从 **[!UICONTROL 权限]** 选项卡，选择 **[!UICONTROL 资产权限]**.
+1. 从&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 属性权限]**。
 
    ![](assets/push_product_2.png)
 
-1. 单击 **[!UICONTROL 全部添加]**. 这会将以下权限添加到您的产品配置文件：
+1. 单击&#x200B;**[!UICONTROL 全部添加]**。 这会将以下权限添加到您的产品配置文件：
    * **[!UICONTROL 批准]**
    * **[!UICONTROL 开发]**
    * **[!UICONTROL 管理环境]**
@@ -75,99 +75,99 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
    在Adobe Experience Platform Mobile SDK中安装和发布Adobe Journey Optimizer扩展以及发布应用程序属性时，需要这些权限。
 
-1. 然后，选择 **[!UICONTROL 公司权限]** 在左侧菜单中。
+1. 然后，在左侧菜单中选择&#x200B;**[!UICONTROL 公司权限]**。
 
    ![](assets/push_product_4.png)
 
 1. 添加以下权限：
 
    * **[!UICONTROL 管理应用程序配置]**
-   * **[!UICONTROL 管理资产]**
+   * **[!UICONTROL 管理属性]**
 
-   移动设备应用程序开发人员需要这些权限才能在中设置推送凭据 **Adobe Experience Platform数据收集** 并在中定义推送通知渠道界面（即消息预设） **Adobe Journey Optimizer**.
+   移动设备应用程序开发人员需要这些权限才能在&#x200B;**Adobe Experience Platform数据收集**&#x200B;中设置推送凭据并在&#x200B;**Adobe Journey Optimizer**&#x200B;中定义推送通知渠道界面（即消息预设）。
 
    ![](assets/push_product_5.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-要分配此 **[!UICONTROL 产品配置文件]** 对于用户，请执行以下步骤：
+要将此&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;分配给用户，请执行以下步骤：
 
-1. 访问 **[!DNL Admin Console]**.
+1. 访问&#x200B;**[!DNL Admin Console]**。
 
-1. 从 **[!UICONTROL 产品]** 选项卡，选择 **[!UICONTROL Adobe Experience Platform数据收集]** 卡片。
+1. 从&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL Adobe Experience Platform数据收集]**&#x200B;卡。
 
-1. 选择您之前配置的 **[!UICONTROL 产品配置文件]**.
+1. 选择您之前配置的&#x200B;**[!UICONTROL 产品配置文件]**。
 
 1. 在&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL 添加用户]**。
 
    ![](assets/push_product_6.png)
 
-1. 键入用户名或电子邮件地址，然后选择用户。 然后，单击 **[!UICONTROL 保存]**.
+1. 键入用户名或电子邮件地址，然后选择用户。 然后，单击&#x200B;**[!UICONTROL 保存]**。
 
    >[!NOTE]
    >
-   >如果以前未在Admin Console中创建过该用户，请参阅 [添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   >如果以前未在Admin Console中创建过该用户，请参阅[添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
 
 ### 配置您的应用程序 {#configure-app}
 
-技术设置涉及应用程序开发人员和业务管理员之间的密切合作。 开始发送推送通知之前 [!DNL Journey Optimizer]，您需要定义中的设置 [!DNL Adobe Experience Platform Data Collection] 并将您的移动应用程序与Adobe Experience Platform Mobile SDK集成。
+技术设置涉及应用程序开发人员和业务管理员之间的密切合作。 在使用[!DNL Journey Optimizer]开始发送推送通知之前，您需要在[!DNL Adobe Experience Platform Data Collection]中定义设置，并将移动应用程序与Adobe Experience Platform Mobile SDK集成。
 
 请按照以下链接中详述的实施步骤操作：
 
-* 对象 **Apple iOS**：了解如何在中使用APN注册应用程序 [Apple文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
-* 对象 **Google Android**：了解如何在Android上设置Firebase Cloud Messaging客户端应用程序 [Google文档](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
+* 对于&#x200B;**Apple iOS**：请参阅[Apple文档](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}以了解如何使用APN注册您的应用程序
+* 对于&#x200B;**Google Android**：请参阅[Google文档](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}以了解如何在Android上设置Firebase Cloud Messaging客户端应用程序
 
 ### 将您的移动应用程序与Adobe Experience Platform SDK集成 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK为您的移动设备提供客户端集成API。 关注 [Adobe Experience Platform移动SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} ，以在您的应用程序中设置Adobe Experience Platform Mobile SDK。
+Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您的移动设备提供客户端集成API。 按照[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的说明在您的应用程序中设置Adobe Experience Platform Mobile SDK。
 
-最后，您还应该在中创建和配置移动资产 [!DNL Adobe Experience Platform Data Collection]. 通常，您将为要管理的每个移动应用程序创建一个移动资产。 了解如何在中创建和配置移动资产 [Adobe Experience Platform移动SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+到这为止，您还应该在[!DNL Adobe Experience Platform Data Collection]中创建并配置移动属性。 通常，您将为要管理的每个移动应用程序创建一个移动资产。 请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}以了解如何创建和配置移动属性。
 
 
 ## 步骤1：在Adobe Experience Platform数据收集中添加应用程序推送凭据 {#push-credentials-launch}
 
-在授予正确的用户权限后，您现在需要在中添加移动应用程序推送凭据 [!DNL Adobe Experience Platform Data Collection].
+在授予正确的用户权限后，您现在需要在[!DNL Adobe Experience Platform Data Collection]中添加移动应用程序推送凭据。
 
 需要移动设备应用程序推送凭据注册，才能授权Adobe代表您发送推送通知。 请参阅下面详述的步骤：
 
-1. 从 [!DNL Adobe Experience Platform Data Collection]，选择 **[!UICONTROL 应用程序表面]** 选项卡。
+1. 从[!DNL Adobe Experience Platform Data Collection]中，选择左侧面板中的&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL 创建应用程序表面]** 以创建新配置。
+1. 单击&#x200B;**[!UICONTROL 创建应用程序表面]**&#x200B;以创建新配置。
 
    ![](assets/add-app-config.png)
 
-1. 输入 **[!UICONTROL 名称]** 用于配置。
+1. 输入配置的&#x200B;**[!UICONTROL 名称]**。
 
-1. 从 **[!UICONTROL 移动应用程序配置]**，选择操作系统：
+1. 从&#x200B;**[!UICONTROL 移动设备应用程序配置]**&#x200B;中，选择操作系统：
 
-   * **适用于iOS的**
+   * 用于iOS的&#x200B;****
 
      ![](assets/add-app-config-ios.png)
 
-      1. 输入移动设备应用程序 **捆绑Id** 在 **[!UICONTROL 应用程序ID(iOS捆绑包ID)]** 字段。 应用程序捆绑包ID可在以下位置找到： **常规** 中主要目标的选项卡 **XCode**.
+      1. 在&#x200B;**[!UICONTROL 应用程序ID (iOS捆绑包ID)]**&#x200B;字段中输入移动应用程序&#x200B;**捆绑包ID**。 可以在&#x200B;**XCode**&#x200B;中主目标的&#x200B;**常规**&#x200B;选项卡中找到应用程序捆绑包ID。
 
-      1. 已打开 **[!UICONTROL 推送凭据]** 按钮以添加您的凭据。
+      1. 已打开&#x200B;**[!UICONTROL 推送凭据]**&#x200B;按钮以添加凭据。
 
-      1. 拖放您的.p8 Apple推送通知身份验证密钥文件。 此密钥可以从 **证书**， **标识符** 和 **配置文件** 页面。
+      1. 拖放您的.p8 Apple推送通知身份验证密钥文件。 此密钥可从&#x200B;**证书**、**标识符**&#x200B;和&#x200B;**配置文件**&#x200B;页面获取。
 
-      1. 提供 **密钥ID**. 这是在创建p8身份验证密钥期间分配的10字符串。 它可以在以下位置找到 **键** tab in **证书**， **标识符** 和 **配置文件** 页面。
+      1. 提供&#x200B;**密钥ID**。 这是在创建p8身份验证密钥期间分配的10字符串。 可在&#x200B;**证书**、**标识符**&#x200B;和&#x200B;**配置文件**&#x200B;页面中的&#x200B;**密钥**&#x200B;选项卡下找到它。
 
-      1. 提供 **团队编号**. 这是一个字符串值，可以在“成员资格”选项卡下找到。
+      1. 提供&#x200B;**团队ID**。 这是一个字符串值，可以在“成员资格”选项卡下找到。
 
-   * **适用于Android**
+   * 用于Android的&#x200B;****
 
      ![](assets/add-app-config-android.png)
 
-      1. 提供 **[!UICONTROL 应用程序ID（Android包名称）]**：通常，包名称是您的应用程序中的id `build.gradle` 文件。
+      1. 提供&#x200B;**[!UICONTROL 应用程序ID (Android包名称)]**：包名称通常是您`build.gradle`文件中的应用程序ID。
 
-      1. 已打开 **[!UICONTROL 推送凭据]** 按钮以添加您的凭据。
+      1. 已打开&#x200B;**[!UICONTROL 推送凭据]**&#x200B;按钮以添加凭据。
 
-      1. 拖放FCM推送凭据。 有关如何获取推送凭据的更多详细信息，请参阅 [Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+      1. 拖放FCM推送凭据。 有关如何获取推送凭据的详细信息，请参阅[Google文档](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
 
 
-1. 单击 **[!UICONTROL 保存]** 以创建您的应用程序配置。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建您的应用程序配置。
 
 <!--
 ## Step 2: Set up a mobile property in Adobe Experience Platform Launch {#launch-property}
@@ -189,9 +189,9 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## 步骤2：在移动资产中配置Adobe Journey Optimizer扩展 {#configure-journey-optimizer-extension}
 
-此 **Adobe Journey Optimizer扩展** for Adobe Experience Platform Mobile SDK支持移动应用程序的推送通知，并帮助您收集用户推送令牌并管理与Adobe Experience Platform服务的交互测量。
+适用于Adobe Experience Platform Mobile SDK的&#x200B;**Adobe Journey Optimizer扩展**&#x200B;可为您的移动应用程序提供推送通知，并帮助您收集用户推送令牌和管理与Adobe Experience Platform服务的交互测量。
 
-了解如何在中设置Journey Optimizer扩展 [Adobe Experience Platform移动SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+请参阅[Journey Optimizer Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}以了解如何设置Adobe Experience Platform扩展。
 
 
 <!-- 
@@ -260,53 +260,53 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 步骤3：使用事件测试您的移动应用程序 {#mobile-app-test}
 
-在Adobe Experience Platform和中配置移动应用程序后 [!DNL Adobe Experience Platform Data Collection]，您现在可以在将推送通知发送到用户档案之前对其进行测试。 在此使用案例中，我们创建历程以定位移动应用程序，并设置触发推送通知的事件。
+在Adobe Experience Platform和[!DNL Adobe Experience Platform Data Collection]中配置移动应用程序后，您现在可以在将推送通知发送到用户档案之前对其进行测试。 在此使用案例中，我们创建历程以定位移动应用程序，并设置触发推送通知的事件。
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-为了让此历程正常工作，您需要创建XDM架构。 有关更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
+为了让此历程正常工作，您需要创建XDM架构。 有关详细信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}。
 
-1. 在数据管理菜单部分，单击 **[!UICONTROL 架构]**.
+1. 在“数据管理”菜单部分中，单击&#x200B;**[!UICONTROL 架构]**。
    ![](assets/test_push_1.png)
-1. 单击 **[!UICONTROL 创建架构]**，在右上方，选择 **[!UICONTROL 体验事件]** 并单击 **下一个**.
+1. 单击&#x200B;**[!UICONTROL 创建架构]**，在右上角选择&#x200B;**[!UICONTROL 体验事件]**，然后单击&#x200B;**下一步**。
    ![](assets/test_push_2.png)
-1. 输入架构的名称和说明，然后单击 **完成**.
+1. 输入架构的名称和描述，然后单击&#x200B;**完成**。
    ![](assets/test_push_3.png)
-1. 在 **字段组** 部分，单击左侧 **添加** 并选择 **[!UICONTROL 创建新字段组]**.
+1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择&#x200B;**[!UICONTROL 创建新字段组]**。
 
-1. 输入 **[!UICONTROL 显示名称]** 和 **[!UICONTROL 描述]**. 单击 **[!UICONTROL 添加字段组]** 完成时。 有关如何创建字段组的详细信息，请参阅 [XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}.
+1. 输入&#x200B;**[!UICONTROL 显示名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。 完成后，单击&#x200B;**[!UICONTROL 添加字段组]**。 有关如何创建字段组的详细信息，请参阅[XDM系统文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}。
 
 
    ![](assets/test_push_4.png)
 
-1. 在左侧，选择架构。 在右窗格中，为以下对象启用此架构： **[!UICONTROL 个人资料]**.
+1. 在左侧，选择架构。 在右窗格中，为&#x200B;**[!UICONTROL 配置文件]**&#x200B;启用此架构。
 
    ![](assets/test_push_4b.png)
 
 
-1. 在左侧，选择字段组，然后单击+图标以创建新字段。 在 **[!UICONTROL 字段组属性]**，在右侧键入 **[!UICONTROL 字段名称]**， **[!UICONTROL 显示名称]** 并选择 **[!UICONTROL 字符串]** 作为 **[!UICONTROL 类型]**.
+1. 在左侧，选择字段组，然后单击+图标以创建新字段。 在&#x200B;**[!UICONTROL 字段组属性]**&#x200B;的右侧，键入&#x200B;**[!UICONTROL 字段名称]**、**[!UICONTROL 显示名称]**&#x200B;并选择&#x200B;**[!UICONTROL 字符串]**&#x200B;作为&#x200B;**[!UICONTROL 类型]**。
 
    ![](assets/test_push_5.png)
 
-1. Check **[!UICONTROL 必填]** 并单击 **[!UICONTROL 应用]**.
+1. 选中&#x200B;**[!UICONTROL 必需]**&#x200B;并单击&#x200B;**[!UICONTROL 应用]**。
 
 1. 单击 **[!UICONTROL Save]**。您的架构现已创建并可在事件中使用。
 
 然后，您需要设置一个事件。
 
-1. 从主页左侧菜单的ADMINISTRATION下，选择 **[!UICONTROL 配置]**. 单击 **[!UICONTROL 管理]** 在 **[!UICONTROL 活动]** 部分，以创建新事件。
+1. 从主页左侧菜单的“管理”下，选择&#x200B;**[!UICONTROL 配置]**。 单击&#x200B;**[!UICONTROL 事件]**&#x200B;部分中的&#x200B;**[!UICONTROL 管理]**&#x200B;以创建新事件。
 
-1. 单击 **[!UICONTROL 创建事件]**，事件配置窗格将在屏幕右侧打开。
+1. 单击&#x200B;**[!UICONTROL 创建事件]**，事件配置窗格将在屏幕右侧打开。
 
    ![](assets/test_push_6.png)
 
 1. 输入事件的名称。 您还可以添加描述。
 
-1. 在 **[!UICONTROL 事件ID类型]** 字段，选择 **[!UICONTROL 基于规则]**.
+1. 在&#x200B;**[!UICONTROL 事件ID类型]**&#x200B;字段中，选择&#x200B;**[!UICONTROL 基于规则]**。
 
-1. 在 **[!UICONTROL 参数]**，选择您之前创建的架构。
+1. 在&#x200B;**[!UICONTROL 参数]**&#x200B;中，选择您之前创建的架构。
 
    ![](assets/test_push_7.png)
 
@@ -314,53 +314,53 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 单击 **[!UICONTROL 编辑]** 在 **[!UICONTROL 事件ID条件]** 字段。 拖放您之前添加的字段以定义条件，系统将使用它来识别触发历程的事件。
+1. 在&#x200B;**[!UICONTROL 事件ID条件]**&#x200B;字段中单击&#x200B;**[!UICONTROL 编辑]**。 拖放您之前添加的字段以定义条件，系统将使用它来识别触发历程的事件。
 
    ![](assets/test_push_8.png)
 
-1. 在此示例中键入在测试应用程序中触发推送通知时需要使用的语法 **订单确认**.
+1. 键入在测试应用程序中触发推送通知所需的语法，在此示例中为&#x200B;**订单确认**。
 
    ![](assets/test_push_9.png)
 
-1. 选择 **[!UICONTROL ECID]** 作为您的 **[!UICONTROL 命名空间]**.
+1. 选择&#x200B;**[!UICONTROL ECID]**&#x200B;作为您的&#x200B;**[!UICONTROL 命名空间]**。
 
-1. 单击 **[!UICONTROL 确定]** 则 **[!UICONTROL 保存]**.
+1. 单击&#x200B;**[!UICONTROL 确定]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 您的事件现已创建并可在历程中使用。
 
-1. 在左侧菜单中，单击 **[!UICONTROL 历程]**.
+1. 在左侧菜单中，单击&#x200B;**[!UICONTROL 历程]**。
 
-1. 单击 **[!UICONTROL 创建历程]** 以创建新旅程。
+1. 单击&#x200B;**[!UICONTROL 创建历程]**&#x200B;以创建新旅程。
 
-1. 编辑右侧显示的配置窗格中的历程属性。在本节中了解详情 [部分](../building-journeys/journey-properties.md).
+1. 编辑右侧显示的配置窗格中的历程属性。在此[部分](../building-journeys/journey-properties.md)中了解详情。
 
-1. 首先，将上一步中创建的事件从 **[!UICONTROL 活动]** 下拉菜单。
+1. 首先，从&#x200B;**[!UICONTROL 事件]**&#x200B;下拉列表中拖放前面步骤中创建的事件。
 
    ![](assets/test_push_11.png)
 
-1. 从 **[!UICONTROL 操作]** 下拉列表，拖放 **[!UICONTROL 推送]** 活动加入您的历程。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表中，将&#x200B;**[!UICONTROL 推送]**&#x200B;活动拖放到您的历程。
 
-1. 配置推送通知。 有关如何创建推送通知的更多信息，请参阅此 [页面](create-push.md).
+1. 配置推送通知。 有关如何创建推送通知的更多信息，请参阅此[页面](create-push.md)。
 
-1. 单击 **[!UICONTROL 测试]** 切换以开始测试推送通知，然后单击 **[!UICONTROL 触发事件]**.
+1. 单击&#x200B;**[!UICONTROL 测试]**&#x200B;切换以开始测试推送通知，然后单击&#x200B;**[!UICONTROL 触发事件]**。
 
    ![](assets/test_push_12.png)
 
-1. 在中输入您的ECID **[!UICONTROL 键]** 字段，然后键入 **订单确认** 在第二个字段中。
+1. 在&#x200B;**[!UICONTROL 键]**&#x200B;字段中输入您的ECID，然后在第二个字段中键入&#x200B;**订单确认**。
 
    ![](assets/test_push_13.png)
 
-1. 单击 **[!UICONTROL 发送]**.
+1. 单击&#x200B;**[!UICONTROL 发送]**。
 
 您的事件将会触发，并且您将会收到发送到移动应用程序的推送通知。
 
 ## 步骤4：为推送创建渠道平面{#message-preset}
 
-在中设置您的移动设备应用程序后 [!DNL Adobe Experience Platform Data Collection]，您需要创建一个表面，以便能够从中发送推送通知 **[!DNL Journey Optimizer]**.
+在[!DNL Adobe Experience Platform Data Collection]中设置您的移动应用后，您需要创建一个表面以便能够从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送推送通知。
 
-了解如何在中创建和配置渠道表面 [本节](../configuration/channel-surfaces.md).
+在[本节](../configuration/channel-surfaces.md)中了解如何创建和配置渠道表面。
 
 您现在可以使用Journey Optimizer发送推送通知了。
 
-* 了解如何在中创建推送消息 [此页面](create-push.md).
-* 了解如何在中向历程添加消息 [本节](../building-journeys/journeys-message.md).
+* 了解如何在[此页面](create-push.md)中创建推送消息。
+* 在[本节](../building-journeys/journeys-message.md)中了解如何向历程添加消息。

@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 11%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **响应**
 
-成功的响应会返回有关新创建的集合限定符的信息，包括其唯一的 `id`. 您可以使用 `id` 在后续步骤中更新或删除您的收藏集限定符。 您可以使用唯一的集合限定词 `id` ，以创建收藏集和个性化优惠。
+成功的响应返回有关新创建的集合限定符的信息，包括其唯一的`id`。 您可以在后续步骤中使用`id`来更新或删除您的集合限定符。 在以后的教程中，您可以使用唯一的收藏集限定符`id`创建收藏集和个性化优惠。
 
 ```json
 {

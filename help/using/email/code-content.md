@@ -24,15 +24,15 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
-> 图像来源 [Adobe Experience Manager Assets](../content-management/assets.md) 使用此方法时无法引用。 HTML代码中引用的图像必须存储到公共位置。
+> 使用此方法时，无法引用[Adobe Experience Manager Assets](../content-management/assets.md)中的图像。 HTML代码中引用的图像必须存储到公共位置。
 
-1. 从Email Designer主页中，选择 **[!UICONTROL 自己编写代码]**.
+1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 自己编写代码]**。
 
    ![](assets/code-your-own.png)
 
 1. 输入或粘贴您的原始 HTML 代码。
 
-1. 使用左窗格利用 [!DNL Journey Optimizer] 个性化功能。 [了解详情](../personalization/personalize.md)
+1. 使用左窗格利用[!DNL Journey Optimizer]个性化功能。 [了解详情](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -44,7 +44,7 @@ ht-degree: 68%
    >
    >此操作将在电子邮件设计器中打开选定的模板。您可以在其中完成电子邮件的设计，或使用&#x200B;**[!UICONTROL 切换到代码编辑器]**&#x200B;选项来返回代码编辑器。
 
-1. 单击 **[!UICONTROL 预览]** 按钮以使用测试用户档案检查消息设计和个性化。 [了解详情](../content-management/preview-test.md)
+1. 单击&#x200B;**[!UICONTROL 预览]**&#x200B;按钮以使用测试用户档案检查邮件设计和个性化。 [了解详情](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

@@ -13,7 +13,7 @@ badge: label="限量发布版" type="Informative"
 source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 25%
 
 >[!AVAILABILITY]
 >
->目前，多语言内容仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+>目前，多语言内容仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。
 
 多语言功能使您能够轻松地在单个活动或历程中以多种语言创建内容。 利用此功能，您可以在编辑活动时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。
 
 使用Journey Optimizer，您可以通过两种不同的方法创建多语言内容：
 
-* **手动翻译**：直接在Email Designer中翻译内容或导入现有的多语言内容。 [了解详情](multilingual-manual.md)
+* **手动翻译**：直接在Email Designer中翻译您的内容或导入现有的多语言内容。 [了解详情](multilingual-manual.md)
 
 * **自动翻译**：将内容发送到您的首选语言提供商以进行自动翻译。 [了解详情](multilingual-automated.md)
 

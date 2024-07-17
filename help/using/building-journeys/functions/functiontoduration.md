@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # toDuration {#toDuration}
 
-将参数值转换为持续时间。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
+将参数值转换为持续时间。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 类别
 

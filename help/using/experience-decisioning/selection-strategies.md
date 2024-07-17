@@ -29,11 +29,11 @@ ht-degree: 20%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用决策规则"
 
-选择策略可重复使用，并且包括与资格限制关联的集合以及确定在中选择时显示的优惠的排名方法 [决策策略](create-decision.md).
+选择策略可重复使用，并且包括与资格约束关联的集合以及确定在[决策策略](create-decision.md)中选择时显示的优惠的排名方法。
 
 ## 访问和管理选择策略
 
-1. 转到 **[!UICONTROL Experience Decisioning]** > **[!UICONTROL 策略设置]** > **[!UICONTROL 选择策略]**.
+1. 转到&#x200B;**[!UICONTROL Experience Decisioning]** > **[!UICONTROL 策略设置]** > **[!UICONTROL 选择策略]**。
 
 1. 将列出迄今为止创建的所有选择策略。 过滤器可帮助您根据排名方法检索策略。
 
@@ -49,7 +49,7 @@ ht-degree: 20%
 
 要创建选择策略，请执行以下步骤。
 
-1. 从 **[!UICONTROL 选择策略]** 库存，单击 **[!UICONTROL 创建选择策略]**.
+1. 在&#x200B;**[!UICONTROL 选择策略]**&#x200B;清单中，单击&#x200B;**[!UICONTROL 创建选择策略]**。
 
    ![](assets/strategy-create-button.png)
 
@@ -57,31 +57,31 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >当前仅默认 **[!UICONTROL 选件]** 目录可用。
+   >当前只有默认的&#x200B;**[!UICONTROL 选件]**&#x200B;目录可用。
 
 1. 填写选择策略的详细信息，从名称开始。
 
    ![](assets/strategy-create-screen.png)
 
-1. 选择 [收藏集](collections.md) 包含要考虑的选件。
+1. 选择包含要考虑的选件的[收藏集](collections.md)。
 
-1. 使用 **[!UICONTROL 资格]** 用于限制此选择策略的选件选择的字段。
+1. 使用&#x200B;**[!UICONTROL 资格]**&#x200B;字段限制此选择策略的选件选择。
 
    ![](assets/strategy-create-eligibility.png)
 
-   * 要将优惠选择限制为Experience Platform受众的成员，请选择 **[!UICONTROL 受众]** 并从列表中选择一个受众。 [了解如何使用受众](../audience/about-audiences.md)
+   * 要将优惠选择限制为Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 受众]**，然后从列表中选择受众。 [了解如何使用受众](../audience/about-audiences.md)
 
-   * 如果要为决策规则添加选择约束，请使用 **[!UICONTROL 决策规则]** 选项并选择您选择的规则。 [了解如何创建规则](rules.md)
+   * 如果要为决策规则添加选择约束，请使用&#x200B;**[!UICONTROL 决策规则]**&#x200B;选项并选择所选规则。 [了解如何创建规则](rules.md)
 
 1. 定义要用于为每个用户档案选择最佳选件的排名方法。 [了解详情](#select-ranking-method)
 
    ![](assets/strategy-create-ranking.png)
 
-   * 默认情况下，如果多个选件符合此策略的条件， [优惠优先级](#offer-priority) 方法使用在选件中定义的值。
+   * 默认情况下，如果多个选件符合此策略的条件，则[选件优先级](#offer-priority)方法将使用选件中定义的值。
 
-   * 如果要使用特定的计算得分来选择要交付的合格优惠，请选择 [公式](#ranking-formula) 或 [AI模型](#ai-ranking).
+   * 如果要使用特定的计算得分来选择要投放的合格优惠，请选择[公式](#ranking-formula)或[AI模型](#ai-ranking)。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。它现在已准备好用于 [决策策略](create-decision.md)
+1. 单击&#x200B;**[!UICONTROL 创建]**。现在可在[决策策略](create-decision.md)中使用
 
 ## 选择排名方法 {#select-ranking-method}
 
@@ -99,22 +99,22 @@ ht-degree: 20%
 
 ### 优惠优先级 {#offer-priority}
 
-默认情况下，当多个优惠符合决策策略中的给定投放位置资格时，具有最高投放位置的项目 **优先级** 将首先交付给客户。
+默认情况下，当多个优惠符合决策策略中的给定投放位置条件时，具有最高&#x200B;**优先级**&#x200B;的项目将首先交付给客户。
 
 ![](assets/item-priority.png)
 
-创建时分配优惠的优先级分数 [决策项目](items.md).
+创建[决策项](items.md)时分配优惠的优先级分数。
 
 ### 排名公式 {#ranking-formula}
 
-除了选件优先级之外，Journey Optimizer还允许您创建 **排名公式**. 这些公式决定应首先为给定投放位置显示哪项优惠，而不是考虑优惠的优先级评分。
+除了优惠优先级之外，Journey Optimizer还允许您创建&#x200B;**排名公式**。 这些公式决定应首先为给定投放位置显示哪项优惠，而不是考虑优惠的优先级评分。
 
-例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 了解如何在中创建排名公式 [本节](ranking.md).
+例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 在[本节](ranking.md)中了解如何创建排名公式。
 
 创建后，您可以在选择策略中使用此公式。 使用此选择策略时，如果多个优惠都符合呈现的条件，决策将使用选定的公式计算首先要投放哪个优惠。
 
 ### 人工智能排名 {#ai-ranking}
 
-您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 了解如何在中创建AI模型 [本节](ranking.md).
+您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](ranking.md)中了解如何创建AI模型。
 
 创建AI模型后，您可以在选择策略中使用该模型。 如果多个选件符合条件，则经过训练的模型系统将确定应首先为此选择策略提供哪个选件。

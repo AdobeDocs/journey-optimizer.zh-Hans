@@ -106,7 +106,7 @@ ht-degree: 6%
 
 1. 创建自定义操作。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL 操作参数]** 部分，粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都定义为常量。
+1. 在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都定义为常量。
 
    ![](assets/uc-collection-1.png)
 
@@ -128,7 +128,7 @@ ht-degree: 6%
 
 1. 创建历程并添加您创建的自定义操作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL 操作参数]** 部分，使用高级表达式编辑器定义数组参数（在本例中为“products”）。
+1. 在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，使用高级表达式编辑器定义数组参数（示例中为“products”）。
 
    ![](assets/uc-collection-3.png)
 
@@ -136,7 +136,7 @@ ht-degree: 6%
 
    ![](assets/uc-collection-4.png)
 
-对于数组字段，您还可以使用高级表达式编辑器执行数据操作。 在以下示例中，我们使用 [筛选](functions/functionfilter.md) 和 [相交](functions/functionintersect.md) 函数：
+对于数组字段，您还可以使用高级表达式编辑器执行数据操作。 在以下示例中，我们使用[filter](functions/functionfilter.md)和[intersect](functions/functionintersect.md)函数：
 
 ![](assets/uc-collection-5.png)
 

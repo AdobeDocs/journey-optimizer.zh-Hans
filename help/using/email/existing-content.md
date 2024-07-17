@@ -18,10 +18,10 @@ ht-degree: 33%
 
 # 导入电子邮件内容 {#existing-content}
 
-[!DNL Journey Optimizer] 用于导入现有HTML内容以设计电子邮件。 相关的内容可以是：
+[!DNL Journey Optimizer]允许您导入现有HTML内容来设计电子邮件。 相关的内容可以是：
 
-* An **HTML文件** 合并样式表；
-* A **.zip文件夹** 包括HTML文件、样式表(.css)和图像。
+* 包含合并样式表的&#x200B;**HTML文件**；
+* **.zip文件夹**，包括HTML文件、样式表(.css)和图像。
 
   >[!NOTE]
   >
@@ -29,7 +29,7 @@ ht-degree: 33%
 
 要导入包含 HTML 内容的文件，请执行以下步骤：
 
-1. 从Email Designer主页中，选择 **[!UICONTROL 导入HTML]**.
+1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 导入HTML]**。
 
    ![](assets/import-html_2.png)
 
@@ -37,19 +37,19 @@ ht-degree: 33%
 
    ![](assets/html-imported_2.png)
 
-1. 上传HTML内容后，您的内容将位于 **[!UICONTROL 兼容模式]**.
+1. 上传HTML内容后，您的内容将处于&#x200B;**[!UICONTROL 兼容模式]**。
 
    在此模式下，您只能对文本进行个性化，向内容添加链接或包含资源。
 
-1. 为了能够利用Email Designer内容组件，请访问 **[!UICONTROL HTML转换器]** 选项卡，然后单击 **[!UICONTROL 转换]**.
+1. 若要利用Email Designer内容组件，请访问&#x200B;**[!UICONTROL HTML转换器]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 转换]**。
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > 使用 `<table>` 将标签作为HTML文件中的第一层可能会导致样式丢失，包括顶层标签中的背景和宽度设置。
+   > 在HTML文件中使用`<table>`标记作为第一层可能会导致样式丢失，包括顶层标记中的背景和宽度设置。
 
-1. 现在，您可以根据需要使用Email Designer功能个性化导入的文件 [了解详情](content-from-scratch.md).
+1. 您现在可以根据需要使用Email Designer功能[了解详情](content-from-scratch.md)个性化导入的文件。
 
 ## 操作方法视频 {#video}
 

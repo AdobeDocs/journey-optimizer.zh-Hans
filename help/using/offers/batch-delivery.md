@@ -20,21 +20,21 @@ ht-degree: 3%
 
 为此，您需要在Journey Optimizer中创建一个作业请求，该请求将包含有关要定位的受众和要使用的优惠决策的信息。 然后，受众中每个用户档案的选件内容会放置在Adobe Experience Platform数据集中，可用于自定义批处理工作流。
 
-也可以使用API执行批量交付。 有关详细信息，请参见 [Batch Decisioning API文档](api-reference/offer-delivery-api/batch-decisioning-api.md).
+也可以使用API执行批量交付。 有关详细信息，请参阅[批量决策API文档](api-reference/offer-delivery-api/batch-decisioning-api.md)。
 
 ## 先决条件 {#prerequisites}
 
 在配置作业请求之前，请确保已创建：
 
-* **数据集** 在Adobe Experience Platform中。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 在中了解详情 [数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans).
+* Adobe Experience Platform中的&#x200B;**数据集**。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 请参阅[数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans)以了解详情。
 
-* **受众** 在Adobe Experience Platform中。 应评估并更新受众。 了解如何在中更新受众会员资格评估 [Segmentation Service文档](http://www.adobe.com/go/segmentation-overview-en)
+* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](http://www.adobe.com/go/segmentation-overview-en)以了解如何更新受众成员资格评估
 
   >[!NOTE]
   >
   >批处理作业将使用每天发生一次的配置文件快照运行。 批量决策可限制频率并始终从最新快照加载用户档案。 预计在创建受众后最多等待24小时，然后再尝试批量决策API。
 
-* **决策** 在Adobe Journey Optimizer中。 [了解如何创建决策](offer-activities/create-offer-activities.md)
+* Adobe Journey Optimizer中的&#x200B;**决策**。 [了解如何创建决策](offer-activities/create-offer-activities.md)
 
 <!-- in API doc, remove these info and add ref here-->
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 要创建新的作业请求，请执行以下步骤。
 
-1. 在 **[!UICONTROL 选件]** 菜单，打开 **[!UICONTROL 批量决策]** 选项卡，然后单击 **[!UICONTROL 创建请求]**.
+1. 在&#x200B;**[!UICONTROL 选件]**&#x200B;菜单中，打开&#x200B;**[!UICONTROL 批量决策]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建请求]**。
 
    ![](assets/batch-create.png)
 
@@ -52,24 +52,24 @@ ht-degree: 3%
 
 1. 选择您要用于向受众提供优惠的一个或多个优惠决策范围：
    1. 从列表中选择版面。
-   1. 将显示可用于选定版面的决策。 选择您选择的决策并单击 **[!UICONTROL 添加]**.
+   1. 将显示可用于选定版面的决策。 选择您选择的决策并单击&#x200B;**[!UICONTROL 添加]**。
    1. 重复该操作以添加所需数量的决策范围。
 
    ![](assets/batch-decision.png)
 
-1. 默认情况下，将为每个用户档案返回一个决策范围选件。 您可以使用以下方法调整返回的选件数 **[!UICONTROL 每个配置文件的请求优惠]** 选项。 例如，如果您选择2，则会为选定的决策范围显示最佳的2个优惠。
+1. 默认情况下，将为每个用户档案返回一个决策范围选件。 您可以使用&#x200B;**[!UICONTROL 每个配置文件的请求选件]**&#x200B;选项调整返回的选件数。 例如，如果您选择2，则会为选定的决策范围显示最佳的2个优惠。
 
    >[!NOTE]
    >
    >您最多可以为每个决策范围请求30个优惠。
 
-1. 如果要在数据集中包含选件内容，请切换 **[!UICONTROL 包含内容]** 选项启用。 默认禁用此选项。
+1. 如果要在数据集中包含选件内容，请启用&#x200B;**[!UICONTROL 包含内容]**&#x200B;选项。 默认禁用此选项。
 
-1. 单击 **[!UICONTROL 创建]** 执行作业请求。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以执行作业请求。
 
 ## 监测批处理作业
 
-所有请求的批处理作业都可以从 **[!UICONTROL 批量决策]** 选项卡。 此外，搜索和筛选工具也可用于帮助您优化列表。
+所有请求的批处理作业都可以从&#x200B;**[!UICONTROL 批量决策]**&#x200B;选项卡访问。 此外，搜索和筛选工具也可用于帮助您优化列表。
 
 ![](assets/batch-list.png)
 
@@ -84,13 +84,13 @@ ht-degree: 3%
 1. **[!UICONTROL 已排队]**：作业请求已创建并已进入处理队列。 每个数据集一次最多可以运行5个批处理作业。 具有相同输出数据集的任何其他批处理请求都将添加到队列中。 一旦前一个作业运行完成，系统会选取已排队作业进行处理。
 1. **[!UICONTROL 正在处理]**：正在处理作业请求
 1. **[!UICONTROL 正在摄取]**：已执行作业请求，正在选定数据集中摄取结果数据，
-1. **[!UICONTROL 已完成]**：已执行作业请求，并且结果数据现在存储在所选数据集中。
+1. **[!UICONTROL 已完成]**：作业请求已执行，结果数据现在已存储到所选的数据集中。
 
    >[!NOTE]
    >
    >您可以通过单击作业列表中的作业名称来访问存储作业结果的数据集。
 
-如果在执行作业请求时出错，它将获得 **[!UICONTROL 错误]** 状态。 尝试复制批处理作业以创建新请求。 [了解如何复制批处理作业](#duplicate)
+如果执行作业请求时出错，它将获得&#x200B;**[!UICONTROL 错误]**&#x200B;状态。 尝试复制批处理作业以创建新请求。 [了解如何复制批处理作业](#duplicate)
 
 ### 批处理作业处理时间
 
@@ -118,6 +118,6 @@ ht-degree: 3%
 
 您可以重用现有作业的信息来创建新请求。
 
-为此，请单击复制图标，根据需要编辑作业信息，然后单击 **[!UICONTROL 创建]** 以创建新请求。
+为此，请单击“复制”图标，根据需要编辑作业信息，然后单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建新请求。
 
 ![](assets/batch-duplicate.png)

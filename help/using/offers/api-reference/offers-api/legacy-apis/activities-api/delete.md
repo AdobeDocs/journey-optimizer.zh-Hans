@@ -9,13 +9,13 @@ exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # 删除决策 {#delete-decision}
 
-有时可能有必要删除(DELETE)决策。 只能删除您在租户容器中创建的决策。 DELETE这是通过对 [!DNL Offer Library] API使用要删除的回退选件的$id。
+有时可能有必要删除(DELETE)决策。 只能删除您在租户容器中创建的决策。 通过使用要删除的备用选件的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

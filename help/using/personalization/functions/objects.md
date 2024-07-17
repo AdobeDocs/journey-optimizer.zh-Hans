@@ -9,15 +9,15 @@ exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
 # 对象函数 {#objects}
 
-## Is null{#isNull}
+## 为空{#isNull}
 
-此 `isNull` 函数确定对象引用是否不存在。
+`isNull`函数确定对象引用是否不存在。
 
 **语法**
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 {%= isNull(person.homeAddress) %}
 ```
 
-## 不为null{#isNotNull}
+## 不为空{#isNotNull}
 
-此 `isNotNull` 函数确定是否存在对象引用。
+`isNotNull`函数确定是否存在对象引用。
 
 **语法**
 

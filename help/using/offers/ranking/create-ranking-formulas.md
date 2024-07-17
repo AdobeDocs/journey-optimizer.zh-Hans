@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ## 关于排名公式 {#about-ranking-formulas}
 
-**排名公式** 允许您定义规则，这些规则将确定在给定投放位置应首先显示哪个优惠，而不是考虑优惠的优先级评分。
+**排名公式**&#x200B;允许您定义规则，这些规则将确定在给定投放位置应首先显示哪个优惠，而不是考虑优惠的优先级分数。
 
-排名公式表示为 **PQL语法** 和可以利用配置文件属性、上下文数据和选件属性。 有关如何使用PQL语法的更多信息，请参阅 [专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans).
+排名公式以&#x200B;**PQL语法**&#x200B;表示，可以利用配置文件属性、上下文数据和优惠属性。 有关如何使用PQL语法的更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans)。
 
 创建排名公式后，您可以将其分配给决策中的投放位置。 有关此内容的更多信息，请参阅[在决策中配置优惠选择](../offer-activities/configure-offer-selection.md)。
 
@@ -27,17 +27,17 @@ ht-degree: 3%
 
 要创建排名公式，请执行以下步骤：
 
-1. 访问 **[!UICONTROL 组件]** 菜单，然后选择 **[!UICONTROL 排名]** 选项卡。 此 **[!UICONTROL 公式]** 选项卡默认处于选中状态。 此时将显示之前创建的公式列表。
+1. 访问&#x200B;**[!UICONTROL 组件]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 排名]**&#x200B;选项卡。 默认情况下已选中&#x200B;**[!UICONTROL 公式]**&#x200B;选项卡。 此时将显示之前创建的公式列表。
 
    ![](../assets/rankings-list.png)
 
-1. 单击 **[!UICONTROL 创建排名]** 以创建新的排名公式。
+1. 单击&#x200B;**[!UICONTROL 创建排名]**&#x200B;以创建新的排名公式。
 
    ![](../assets/ranking-create-formula.png)
 
 1. 指定公式名称、说明和公式。
 
-   在本例中，我们希望在实际天气炎热时提高所有具有“hot”属性的选件的优先级。 要执行此操作， **contextData.weather=hot** 在决策调用中传递。
+   在本例中，我们希望在实际天气炎热时提高所有具有“hot”属性的选件的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。
 
    ![](../assets/ranking-syntax.png)
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 1. 单击 **[!UICONTROL Save]**。已创建排名公式，您可以从列表中选择该公式以获取详细信息并编辑或删除它。
 
-   它现在可用于决定排名投放位置中符合条件的优惠(请参阅 [在决策中配置优惠选择](../offer-activities/configure-offer-selection.md))。
+   它现在可用于决策中，为投放位置排名符合条件的优惠（请参阅[在决策中配置优惠选择](../offer-activities/configure-offer-selection.md)）。
 
    ![](../assets/ranking-formula-created.png)
 
@@ -107,7 +107,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### 根据上下文数据提升具有特定优惠属性的优惠
 
-根据决策调用中传递的上下文数据提升某些选件。 例如，如果 `contextData.weather=hot` 在决策调用中传递，所有优惠的优先级 `attribute=hot` 必须提升。
+根据决策调用中传递的上下文数据提升某些选件。 例如，如果在决策调用中传递`contextData.weather=hot`，则必须提升所有带`attribute=hot`的优惠的优先级。
 
 **排名公式：**
 
@@ -118,7 +118,7 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 
 请注意，使用决策API时，上下文数据将添加到请求正文中的配置文件元素，如下面的示例所示。
 
-**请求正文中的片段：**
+**请求正文中的代码片段：**
 
 ```
 "xdm:profiles": [
@@ -145,7 +145,7 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 
 您可以根据客户倾向得分提高选件的得分。
 
-在此示例中，实例租户为 *_salesvelocity* 而配置文件架构包含存储在数组中的一系列得分：
+在此示例中，实例租户是&#x200B;*_salesvelocity*，并且配置文件架构包含存储在数组中的分数范围：
 
 ![](../assets/ranking-example-schema.png)
 
@@ -169,11 +169,11 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 }
 ```
 
-选件将包含 *倾向性类型* 匹配得分中的类别：
+选件将包含&#x200B;*propensityType*&#x200B;的属性，该属性与得分中的类别匹配：
 
 ![](../assets/ranking-example-propensityType.png)
 
-然后，您的排名公式可以将每个优惠的优先级设置为等于客户 *倾向得分* 为了这个 *倾向性类型*. 如果未找到得分，请使用在选件中设置的静态优先级：
+然后，您的排名公式可以将每个优惠的优先级设置为等于该&#x200B;*propensityType*&#x200B;的客户&#x200B;*propensityScore*。 如果未找到得分，请使用在选件中设置的静态优先级：
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

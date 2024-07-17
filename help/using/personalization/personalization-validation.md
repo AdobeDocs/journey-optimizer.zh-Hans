@@ -20,10 +20,10 @@ ht-degree: 2%
 
 ## 验证机制 {#validation-mechanisms}
 
-在 **个性化编辑器** 屏幕，使用 **验证** 按钮检查您的个性化语法。
+在&#x200B;**个性化编辑器**&#x200B;屏幕中，使用&#x200B;**验证**&#x200B;按钮检查您的个性化语法。
 
 >[!NOTE]
-> 当您单击 **添加** 按钮以关闭编辑器窗口。
+> 单击&#x200B;**添加**&#x200B;按钮关闭编辑器窗口时，将自动执行验证。
 >
 
 ![](assets/perso_validation1.png)
@@ -34,11 +34,11 @@ ht-degree: 2%
 
 ## 常见错误 {#common-errors}
 
-* **未找到路径“XYZ”**
+* **找不到“XYZ”路径**
 
 尝试引用架构中未定义的字段时。
 
-在本例中 **名字1** 未定义为配置文件架构中的属性：
+在这种情况下，**firstName1**&#x200B;未定义为配置文件架构中的特性：
 
 ```
 {{profile.person.name.firstName1}}
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 当尝试对字符串而不是数组进行迭代时：
 
-在本例中 **产品** 不是数组：
+在这种情况下，**product**&#x200B;不是数组：
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -56,11 +56,11 @@ ht-degree: 2%
 {{/each}}
 ```
 
-* **把手语法无效。 已找到`‘[XYZ}}’`**
+* **无效的Handlebars语法。 找到`‘[XYZ}}’`**
 
 当使用了无效的Handlebars语法时。
 
-Handlebars表达式周围有 **{{expression}}**
+Handlebars表达式用&#x200B;**{{expression}}**&#x200B;括起来
 
 ```
    {{[profile.person.name.firstName}}
@@ -86,12 +86,12 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  <thead> 
   <tr> 
    <th> 错误标题<br /> </th> 
-   <th> 验证/解决 <br /> </th> 
+   <th> 验证/解析<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>未找到id placementID和类型OfferPlacement的资源 <br/>
+   <td>未找到ID为placementID且类型为OfferPlacement的资源<br/>
 未找到id为activityID且类型为OfferActivity的资源<br/></td> 
    <td>检查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
@@ -113,9 +113,9 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   </tr>
   <tr> 
    <td>选件属性offer-attribute无效。</td> 
-   <td>检查选件drp中引用的选件属性是否有效。 以下是有效的属性： <br/>
-图像：deliveryURL、linkURL<br/>
-文本：内容<br/>
+   <td>检查选件drp中引用的选件属性是否有效。 以下是有效属性： <br/>
+图像： deliveryURL， linkURL<br/>
+文本： content<br/>
 HTML：内容<br/></td> 
   </tr> 
  </tbody> 

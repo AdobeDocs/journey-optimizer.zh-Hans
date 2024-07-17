@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # toString {#toString}
 
-根据类型将参数值转换为字符串值。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
+根据类型将参数值转换为字符串值。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 类别
 

@@ -10,8 +10,8 @@ keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 9%
+source-wordcount: '871'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ## 可用的云存储目标 {#destinations}
 
-您可以将数据集导出到6个云存储目标，可从访问 **[!UICONTROL 目标]** 菜单，在 **[!UICONTROL 目录]** 选项卡。
+您可以在&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡中将数据集导出到6个可从&#x200B;**[!UICONTROL 目标]**&#x200B;菜单访问的云存储目标。
 
 ![](assets/dataset-export-setup.png)
 
@@ -43,17 +43,17 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 | 数据集 | 描述 |
 | ------- | ------- | 
-| AJO BCC反馈事件数据集 | AJO BCC反馈事件数据集 |
+| AJO密件抄送反馈事件数据集 | AJO密件抄送反馈事件数据集 |
 | AJO分类数据集 | 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 |
 | AJO同意服务数据集 | 存储个人资料的同意信息。 |
-| AJO 电子邮件跟踪体验事件数据集 | 用于报告和受众创建的电子邮件渠道的交互日志。  |
-| AJO 实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  |
+| AJO电子邮件跟踪体验事件数据集 | 用于报告和受众创建的电子邮件渠道的交互日志。  |
+| AJO实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  |
 | AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 |
-| AJO交互式消息传递配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
-| AJO 消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。 |
+| AJO交互式消息配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
+| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。 |
 | AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 |
 | AJO推送配置文件数据集 | 存储用户档案的推送令牌。 |
-| AJO 推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  |
+| AJO推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  |
 | AJO表面数据集 | 与Journey Optimizer入站表面架构相关的空数据集 |
 | AoutputForUPSDataset | 包含要写回UPS的所有AO受众成员资格 |
 | Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 |
@@ -67,7 +67,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ## 先决条件 {#prerequisites}
 
-要导出数据集，您需要 [访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} 或与产品管理员联系以获取所需的权限。
+要导出数据集，您需要下面列出的[访问控制权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}。 阅读[访问控制概述](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}或联系您的产品管理员以获取所需的权限。
 
 | 类别 | 权限 |
 |--|--|
@@ -81,30 +81,30 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ![](assets/dataset-export-process.png)
 
-有关每个步骤的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
+有关每个步骤的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。
 
-1. **设置您的云存储目标**. 如果您尚未这样做，请从目标目录连接到云存储目标。 了解如何在中创建新的目标连接 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
+1. **设置您的云存储目标**。 如果您尚未这样做，请从目标目录连接到云存储目标。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}以了解如何创建新的目标连接。
 
    <!--![](assets/dataset-export-setup.png)-->
 
-1. **选择云存储目标** 要导出数据集的位置。 在目标目录中，单击 **[!UICONTROL 导出数据集]** 按钮，并选择要使用的连接。
+1. **选择要导出数据集的云存储目标**。 在目标目录中，单击所需卡片上的&#x200B;**[!UICONTROL 导出数据集]**&#x200B;按钮，然后选择要使用的连接。
 
    <!--![](assets/dataset-export-destination.png)-->
 
    >[!NOTE]
    >
-   >如果您将Adobe Journey Optimizer与实时客户档案一起使用，则目标卡片将显示 **激活** 按钮，允许您导出数据集并激活此目标的受众，具体取决于您启用的权限。
+   >如果您使用Adobe Journey Optimizer以及实时客户档案，目标卡片将显示&#x200B;**激活**&#x200B;按钮，根据您启用的权限，允许您导出数据集并激活此目标的受众。
 
-1. **选择数据集** 要导出到所选目标的文件。 [了解有关可用于导出的Journey Optimizer数据集的更多信息](#datasets)
+1. **选择要导出到选定目标的数据集**。 [了解可用于导出的Journey Optimizer数据集的更多信息](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
-1. **计划导出** 数据集的。 指定导出应何时开始以及开始频率。
+1. **计划数据集的导出**。 指定导出应何时开始以及开始频率。
 
    <!--![](assets/dataset-export-schedule.png)-->
 
-1. **查看并确认导出** 检查配置结束时显示的摘要。
+1. **检查配置结束时显示的摘要，以查看并确认导出**。
 
    <!--![](assets/dataset-export-review.png)-->
 
-导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证数据集导出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
+导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。

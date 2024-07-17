@@ -10,7 +10,7 @@ exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 11%
 |--- |--- |
 | 日期时间 | dateTime |
 | 不考虑时区的日期时间 | dateTimeOnly |
-| 天 | 整数 |
+| 天数 | 整数 |
 
 ## 签名和返回的类型
 

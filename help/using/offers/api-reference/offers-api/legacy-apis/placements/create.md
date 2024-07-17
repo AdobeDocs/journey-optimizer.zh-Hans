@@ -9,19 +9,19 @@ exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # 创建投放位置 {#create-placement}
 
-您可以通过对以下网站发出POST请求来创建投放位置： [!DNL Offer Library] API，同时提供容器ID。
+您可以向[!DNL Offer Library] API发出POST请求，同时提供容器ID来创建投放位置。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回新创建的投放位置的详细信息，包括其唯一的实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除投放位置。 您可以使用独特的版面 `@id` 在后面的教程中，这些教程用于创建决策、决策规则和后备优惠。
+成功的响应返回新创建的版面的详细信息，包括其唯一实例ID和版面`@id`。 您可以在后续步骤中使用实例ID来更新或删除投放位置。 您可以在以后的教程中使用您独特的版面`@id`来创建决策、决策规则和备用优惠。
 
 ```json
 {

@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ➡️ [在视频中了解此功能](#video)
 
-后备优惠列表可在 **[!UICONTROL 选件]** 菜单。
+后备优惠列表可在&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单中访问。
 
 ![](../assets/offers_list.png)
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 >
 >请注意，与个性化优惠不同，后备优惠没有资格规则和限制参数，因为它们作为无条件的最后度假村提供给客户。
 
-1. 单击 **[!UICONTROL 创建选件]**，然后选择 **[!UICONTROL 后备优惠]**.
+1. 单击&#x200B;**[!UICONTROL 创建选件]**，然后选择&#x200B;**[!UICONTROL 后备选件]**。
 
    ![](../assets/create_fallback.png)
 
@@ -37,21 +37,21 @@ ht-degree: 4%
 
    ![](../assets/fallback_details.png)
 
-1. 要将自定义或核心数据使用标签分配给选件，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
+1. 要将自定义或核心数据使用标签分配给选件，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
 
-1. 为后备优惠创建一个或多个呈现。 为此，请从左侧窗格中拖放投放位置，就像创建个性化优惠时一样。 请参阅 [创建个性化优惠](../offer-library/creating-personalized-offers.md).
+1. 为后备优惠创建一个或多个呈现。 为此，请从左侧窗格中拖放投放位置，就像创建个性化优惠时一样。 请参阅[创建个性化优惠](../offer-library/creating-personalized-offers.md)。
 
    ![](../assets/fallback_content.png)
 
-1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户展示您的后备优惠，请单击 **[!UICONTROL 完成]**，然后选择 **[!UICONTROL 保存并批准]**.
+1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”****，然后选择“保存并批准”****。
 
    您还可以将后备优惠另存为草稿，以便稍后进行编辑和批准。
 
    ![](../assets/fallback_review.png)
 
-1. 备用选件会显示在列表中，其中包含 **[!UICONTROL 实时]** 或 **[!UICONTROL 草稿]** 状态，具体取决于您在上一步中是否批准了该活动。
+1. 备用选件显示在状态为&#x200B;**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 草稿]**&#x200B;的列表中，具体取决于您在上一步中是否批准了该选件。
 
-   它现在已准备好交付给客户。 您可以选择它以显示其属性并对其进行编辑。 <!-- no suppression? -->
+   它现在已准备好交付给客户。 您可以选择它以显示其属性并对其进行编辑。<!-- no suppression? -->
 
    ![](../assets/fallback_created.png)
 

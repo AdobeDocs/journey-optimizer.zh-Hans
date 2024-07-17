@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 删除投放位置 {#delete-placement}
 
-有时可能需要删除(DELETE)投放位置。 只能删除您在租户容器中创建的版面。 DELETE这是通过对 [!DNL Offer Library] 使用要删除的投放位置的实例ID的API。
+有时可能需要删除(DELETE)投放位置。 只能删除您在租户容器中创建的版面。 通过使用要删除的投放位置的实例ID向[!DNL Offer Library] API执行DELETE请求来实现此目的。
 
 **API格式**
 

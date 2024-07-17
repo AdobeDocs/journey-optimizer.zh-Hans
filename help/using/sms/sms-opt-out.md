@@ -32,7 +32,7 @@ ht-degree: 19%
 
 默认情况下，Adobe Journey Optimizer会处理短代码、免费和长代码消息的以下标准英语回复消息：
 
-* **选择禁用**：停止、退出、取消、结束、取消订阅、否。
+* **选择退出**：停止、退出、取消、结束、取消订阅、否。
 * **选择加入**：订阅、是、不停止、开始、继续、继续、开始。
 * **帮助**：帮助。
 
@@ -45,7 +45,7 @@ ht-degree: 19%
 
 ## 阻止列表 {#sms-blocklists}
 
-除了根据选择退出状态停止Adobe Journey Optimizer列入阻止列表发送（用于与Twilio、Infobip或Sinch的直接集成）之外，大多数短信网关提供商还设有，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过发送短信 [自定义渠道](../building-journeys/using-custom-actions.md)，您需要向提供商确认。
+除了根据选择退出状态停止Adobe Journey Optimizer列入阻止列表发送（用于与Twilio、Infobip或Sinch的直接集成）之外，大多数短信网关提供商还设有，确保您的短信消息不会发送给选择退出的个人。 如果您使用的是Sinch或Twilio以外的提供商，并通过[自定义渠道](../building-journeys/using-custom-actions.md)发送短信，则需要就此与提供商确认。
 
 
 ## 短代码 {#short-codes}

@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -32,31 +32,31 @@ ht-degree: 20%
 >title="设置 Web 子域"
 >abstract="从委派给 Adobe 的子域的列表中选择一个子域。可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
 
-在创作Web体验时，如果您添加来自 [Adobe Experience Manager Assets](../content-management/assets.md) 库中，您必须设置用于发布此内容的子域。
+在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../content-management/assets.md)库的内容，则必须设置将用于发布此内容的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置另一个子域。 了解有关委派子域以在中进行Adobe的更多信息 [本节](../configuration/delegate-subdomain.md).
+您可以使用已委派给Adobe的子域，也可以配置另一个子域。 在[本节](../configuration/delegate-subdomain.md)中了解将子域委派给Adobe的更多信息。
 
 >[!CAUTION]
 >
 >Web子域配置对所有环境都是通用的。 因此：
 >
->* 要访问和编辑Web子域，您必须具有 **[!UICONTROL 管理Web子域]** 生产沙盒的权限。
+>* 要访问和编辑Web子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理Web子域]**&#x200B;权限。
 >
 > * 对Web子域的任何修改也将影响生产沙箱。
 
-您可以创建多个Web子域，但只能创建 **默认** 将使用子域。 您可以更改默认的Web子域，但一次只能使用一个子域。
+您可以创建多个Web子域，但只会使用&#x200B;**default**&#x200B;子域。 您可以更改默认的Web子域，但一次只能使用一个子域。
 
 ## 访问和管理Web子域 {#access-web-subdomains}
 
-1. 转到 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**. 此时将显示使用当前沙盒设置的所有子域。
+1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**。 此时将显示使用当前沙盒设置的所有子域。
 
    ![](assets/web-access-subdomains.png)
 
-1. 您可以筛选委派每个子域的用户或一个委派状态(**[!UICONTROL 草稿]**， **[!UICONTROL 正在处理]**， **[!UICONTROL 成功]** 或 **[!UICONTROL 失败]**)。
+1. 您可以筛选委派每个子域的用户或其中一个委派状态（**[!UICONTROL 草稿]**、**[!UICONTROL 正在处理]**、**[!UICONTROL 成功]**&#x200B;或&#x200B;**[!UICONTROL 失败]**）。
 
    ![](assets/web-filter-subdomains.png)
 
-1. 此 **[!UICONTROL 默认]** 徽章显示在当前用作默认的子域旁边。 要更改默认子域，请选择 **[!UICONTROL 设置为默认值]** 从 **[!UICONTROL 更多操作]** 按钮来填充所需的子域。
+1. 当前用作默认值的子域旁边显示&#x200B;**[!UICONTROL Default]**&#x200B;徽章。 要更改默认子域，请从所需子域旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮中选择&#x200B;**[!UICONTROL 设置为默认值]**。
 
    ![](assets/web-subdomain-default.png)
 
@@ -68,11 +68,11 @@ ht-degree: 20%
 
 要使用已委派给Adobe的子域，请执行以下步骤。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**.
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**。
 
-1. 单击 **[!UICONTROL 设置子域]**.
+1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 
-1. 选择 **[!UICONTROL 使用委派的子域]** 选项来自 **[!UICONTROL 配置类型]** 部分，并从列表中选择已委派的子域。
+1. 从&#x200B;**[!UICONTROL 配置类型]**&#x200B;部分中选择&#x200B;**[!UICONTROL 使用委派的子域]**&#x200B;选项，然后从列表中选择委派的子域。
 
    ![](assets/web-subdomain-details.png)
 
@@ -88,13 +88,13 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >仅 **默认** 将使用子域。
+   >将只使用&#x200B;**default**&#x200B;子域。
 
-1. 单击 **[!UICONTROL 提交]**. 子域将获取 **[!UICONTROL 成功]** 状态。 它可供您的Web体验使用。
+1. 单击&#x200B;**[!UICONTROL 提交]**。 子域获得&#x200B;**[!UICONTROL 成功]**&#x200B;状态。 它可供您的Web体验使用。
 
    >[!NOTE]
    >
-   >在极少数情况下，子域设置可能会失败。 在这种情况下，您可以删除 **[!UICONTROL 失败]** 子域，以使用清除列表 **[!UICONTROL 删除]** 按钮来自 **[!UICONTROL 更多操作]** 图标。
+   >在极少数情况下，子域设置可能会失败。 在这种情况下，您可以从&#x200B;**[!UICONTROL 更多操作]**&#x200B;图标中删除&#x200B;**[!UICONTROL 失败]**&#x200B;子域以使用&#x200B;**[!UICONTROL 删除]**&#x200B;按钮清理列表。
 
 ## 配置新的子域 {#web-configure-new-subdomain}
 
@@ -107,13 +107,13 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->默认情况下， [!DNL Journey Optimizer] 允许您总共委派最多10个子域（包括电子邮件和Web渠道）。 但是，根据您的许可合同，您最多可以委派100个子域。 请联系您的Adobe联系人，以了解有关您有权使用的子域数量的更多信息。
+>默认情况下，[!DNL Journey Optimizer]允许您总共委派最多10个子域（包括电子邮件和Web渠道）。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
-1. 访问 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** 菜单，然后选择 **[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**.
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**。
 
-1. 单击 **[!UICONTROL 设置子域]**.
+1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 
-1. 选择 **[!UICONTROL 添加您自己的域]** 从 **[!UICONTROL 配置类型]** 部分。
+1. 从&#x200B;**[!UICONTROL 配置类型]**&#x200B;部分中选择&#x200B;**[!UICONTROL 添加您自己的域]**。
 
 1. 指定要委派的子域。
 
@@ -135,11 +135,11 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >仅 **默认** 将使用子域。
+   >将只使用&#x200B;**default**&#x200B;子域。
 
 1. 将显示要放置在DNS服务器上的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
 
-1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“我确认……”框，然后单击 **[!UICONTROL 提交]**.
+1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
 
    ![](assets/web-add-your-own-domain-confirm.png)
 
@@ -147,15 +147,15 @@ ht-degree: 20%
    >
    >配置新的Web子域时，它将始终指向CNAME记录。
 
-1. 提交子域委派后，子域将显示在列表中，其中包含 **[!UICONTROL 正在处理]** 状态。 有关子域状态的更多信息，请参阅 [本节](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. 提交子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
    >在能够使用该子域发送Web消息之前，您必须等待Adobe执行所需的检查，这最多可能需要4小时。
 
-1. 检查成功后，子域将获得 **[!UICONTROL 成功]** 状态。 它随时可用于创建Web渠道界面。
+1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它随时可用于创建Web渠道界面。
 
-   请注意，该子域将标记为 **[!UICONTROL 失败]** 如果您无法在托管解决方案上创建验证记录。
+   请注意，如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

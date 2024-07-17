@@ -25,7 +25,7 @@ ht-degree: 24%
 >title="受众资格事件"
 >abstract="此活动允许您的历程侦听 Adobe Experience Platform 受众中配置文件的进出口，以便使个人进入历程或在历程中前进。"
 
-此活动允许您的旅程侦听Adobe Experience Platform受众中用户档案的进出口，以便使个人进入旅程或在旅程中前进。 有关创建受众的详细信息，请参阅此 [部分](../audience/about-audiences.md).
+此活动允许您的旅程侦听Adobe Experience Platform受众中用户档案的进出口，以便使个人进入旅程或在旅程中前进。 有关创建受众的详细信息，请参阅此[部分](../audience/about-audiences.md)。
 
 假设您拥有“白银客户”受众。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
@@ -35,12 +35,12 @@ ht-degree: 24%
 
 ### 重要说明{#important-notes-segment-qualification}
 
-* 请记住，Adobe Experience Platform受众每天计算一次(**批次** 受众)或实时(**流式传输** 受众(使用Adobe Experience Platform的“高频受众”选项)。
+* 请记住，Adobe Experience Platform受众每天计算一次（**批处理**&#x200B;个受众）或实时计算(**流式处理**&#x200B;个受众，使用Adobe Experience Platform的“高频受众”选项)。
 
    * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
    * 如果受众是批量受众，则新近符合此受众条件的人员可能会在Adobe Experience Platform上执行受众计算时进入历程。
 
-  因此，作为最佳实践，我们建议在中仅使用流受众 **受众资格** 活动。 对于批量用例，请使用 **[读取受众](read-audience.md)** 活动。
+  因此，作为最佳实践，我们建议仅在&#x200B;**受众资格**&#x200B;活动中使用流式受众。 对于批量用例，请使用&#x200B;**[读取受众](read-audience.md)**&#x200B;活动。
 
   >[!NOTE]
   >
@@ -52,13 +52,13 @@ ht-degree: 24%
 
 ### 配置活动{#cnfigure-segment-qualification}
 
-1. 展开 **[!UICONTROL 活动]** 类别并放置 **[!UICONTROL 受众资格]** 活动移入画布。
+1. 展开&#x200B;**[!UICONTROL 事件]**&#x200B;类别并将&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动放入画布中。
 
    ![](assets/segment5.png)
 
-1. 添加 **[!UICONTROL 标签]** 到活动。 此步骤是可选的。
+1. 向活动添加&#x200B;**[!UICONTROL 标签]**。 此步骤是可选的。
 
-1. 单击 **[!UICONTROL 受众]** 字段并选择要利用的受众。
+1. 单击&#x200B;**[!UICONTROL 受众]**&#x200B;字段并选择要利用的受众。
 
    >[!NOTE]
    >
@@ -66,23 +66,23 @@ ht-degree: 24%
 
    ![](assets/segment6.png)
 
-   添加受众后， **[!UICONTROL 复制]** 按钮允许您复制其名称和ID：
+   添加受众后，**[!UICONTROL 复制]**&#x200B;按钮允许您复制其名称和ID：
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
-1. 在 **[!UICONTROL 行为]** 字段中，选择要侦听受众入口、出口还是两者。
+1. 在&#x200B;**[!UICONTROL Behavior]**&#x200B;字段中，选择要侦听受众入口、出口还是两者。
 
    >[!NOTE]
    >
-   >请注意 **[!UICONTROL 输入]** 和 **[!UICONTROL 退出]** 对应于 **已实现** 和 **已退出** Adobe Experience Platform的受众参与状态。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
    >[!NOTE]
    >
-   >您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则它将在 **命名空间** 下拉列表。
+   >您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则该命名空间在&#x200B;**命名空间**&#x200B;下拉列表中不可用。
 
    ![](assets/segment7.png)
 
@@ -92,7 +92,7 @@ ht-degree: 24%
 * 资格时间戳
 * 受众id
 
-在后跟的条件或操作中使用表达式编辑器时 **[!UICONTROL 受众资格]** 活动，则您有权访问 **[!UICONTROL AudienceQualification]** 节点。 您可以选择 **[!UICONTROL 上次资格取得时间]** 和 **[!UICONTROL 状态]** （进入或退出）。
+在遵循&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动的条件或操作中使用表达式编辑器时，您有权访问&#x200B;**[!UICONTROL AudienceQualification]**&#x200B;节点。 您可以选择&#x200B;**[!UICONTROL 上次资格取得时间]**&#x200B;和&#x200B;**[!UICONTROL 状态]**（进入或退出）。
 
 请参阅[条件活动](../building-journeys/condition-activity.md#about_condition)。
 
@@ -102,7 +102,7 @@ ht-degree: 24%
 
 ## 最佳实践 {#best-practices-segments}
 
-此 **[!UICONTROL 受众资格]** 活动允许在Adobe Experience Platform受众中获得资格或被取消资格的个人在历程中立即进入。
+**[!UICONTROL 受众资格]**&#x200B;活动允许在Adobe Experience Platform受众中获得资格或被取消资格的个人在历程中立即进入。
 
 该信息的接收速度很快。所做的测量显示速度为每秒接收 10,000 个事件。因此，您应该确保了解入口峰值可能如何出现、如何避开，以及如何使历程针对此类情况做好准备。
 
@@ -118,19 +118,19 @@ ht-degree: 24%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-有关流式客户细分的更多信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
+有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)。
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
 以下是将有助于避免使历程中利用的系统（数据源、自定义操作、渠道操作活动）过载的一些最佳实践。
 
-请勿在中使用 **[!UICONTROL 受众资格]** 活动，即创建后的立即批量受众。 它将避免第一个计算峰值。请注意，如果您要使用从未计算的受众，则历程画布中将出现黄色警告。
+在&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动中，请勿在创建批处理受众后立即使用该受众。 它将避免第一个计算峰值。请注意，如果您要使用从未计算的受众，则历程画布中将出现黄色警告。
 
 ![](assets/segment-error.png)
 
-为历程中使用的数据源和操作设置上限规则，以避免其过载。 了解详情，请参阅 [Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. 请注意，上限规则不带重试。如果需要重试，则必须通过选中框在历程中使用替代路径 **[!UICONTROL 在超时或错误的情况下添加替代路径]** 在条件或操作中。
+为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，则必须通过选中框&#x200B;**[!UICONTROL 在超时或条件或操作中出错]**&#x200B;的情况下添加替代路径来在历程中使用替代路径。
 
-在生产历程中使用受众之前，请始终首先评估每天符合此受众条件的个人数量。 为此，您可以检查 **[!UICONTROL 受众]** 菜单，打开受众，然后查看 **[!UICONTROL 随时间变化的配置文件]** 图形。
+在生产历程中使用受众之前，请始终首先评估每天符合此受众条件的个人数量。 为此，您可以检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
 ![](assets/segment-overload.png)
 

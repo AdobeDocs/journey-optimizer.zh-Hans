@@ -25,43 +25,43 @@ ht-degree: 7%
 >title="读取受众活动"
 >abstract="利用读取受众活动功能，您可以允许属于 Adobe Experience Platform 受众的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。"
 
-使用 **读取受众** 活动使受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
+使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
-以中创建的“Luma应用程序打开和签出”受众为例 [构建受众](../audience/about-audiences.md) 用例。 通过读取受众活动，您可以让属于此受众的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
+我们以在[构建受众](../audience/about-audiences.md)用例中创建的“Luma应用程序打开和签出”受众为例。 通过读取受众活动，您可以让属于此受众的所有个人进入历程，并使他们流入将利用所有历程功能（条件、计时器、事件、操作）的个性化历程。
 
 ➡️ [在视频中了解此功能](#video)
 
 ## 必读 {#must-read}
 
-* 对于使用 **读取受众** 活动时，可以同时开始的历程数已达到上限。 系统将执行重试，但避免具有超过五个历程(使用 **读取受众**，已计划或“尽快”开始)。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
+* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时开始的历程数存在上限。 系统将重试，但避免同时启动超过5个历程（具有&#x200B;**读取受众**，已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
 
-* 以开始的历程中无法使用体验事件字段组 **读取受众** 活动，和 **[受众资格](audience-qualification-events.md)** 活动或业务事件活动。
+* 体验事件字段组不能用于以&#x200B;**读取受众**&#x200B;活动、**[受众资格](audience-qualification-events.md)**&#x200B;活动或业务事件活动开始的历程。
 
-* 作为最佳实践，我们建议您仅在中使用批量受众 **读取受众** 活动。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用 **[受众资格](audience-qualification-events.md)** 活动。
+* 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 受众 [从CSV文件导入](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) 或源自 [组合工作流](../audience/get-started-audience-orchestration.md) 可以在以下位置选择 **读取受众** 活动。 这些受众在中不可用 **受众资格** 活动。
+* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
 配置读取受众活动的步骤如下：
 
-1. 展开 **[!UICONTROL 编排]** 类别并放置 **[!UICONTROL 读取受众]** 活动移入画布。
+1. 展开&#x200B;**[!UICONTROL 编排]**&#x200B;类别并将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动拖放到画布中。
 
    必须将活动定位为历程的第一步。
 
-1. 添加 **[!UICONTROL 标签]** 到活动（可选）。
+1. 向活动添加&#x200B;**[!UICONTROL 标签]**（可选）。
 
-1. 在 **[!UICONTROL 受众]** 字段中，选择将进入历程的Adobe Experience Platform受众，然后单击 **[!UICONTROL 保存]**. 您可以选择使用以下方式生成的任何Adobe Experience Platform受众 [区段定义](../audience/creating-a-segment-definition.md).
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;字段中，选择将进入历程的Adobe Experience Platform受众，然后单击&#x200B;**[!UICONTROL 保存]**。 您可以选择使用[区段定义](../audience/creating-a-segment-definition.md)生成的任何Adobe Experience Platform受众。
 
    >[!NOTE]
    >
-   >此外，您还可以定位通过创建的Adobe Experience Platform受众 [受众合成](../audience/get-started-audience-orchestration.md) 或 [从CSV文件上传](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+   >此外，您还可以定位使用从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或[创建的Adobe Experience Platform受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
    ![](assets/read-segment-selection.png)
 
-   添加受众后， **[!UICONTROL 复制]** 按钮允许您复制其名称和ID：
+   添加受众后，**[!UICONTROL 复制]**&#x200B;按钮允许您复制其名称和ID：
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
@@ -69,15 +69,15 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >仅具有 **已实现** 和 **现有** 受众参与状态将进入历程。 有关如何评估受众的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >只有具有&#x200B;**已实现**&#x200B;和&#x200B;**现有**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
-1. 在 **[!UICONTROL 命名空间]** 字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace).
+1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
    >[!NOTE]
    >
-   >如果受众的不同身份中没有选定的身份（命名空间），则属于该受众的个人无法进入历程。 您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则它将在 **命名空间** 下拉列表。
+   >如果受众的不同身份中没有选定的身份（命名空间），则属于该受众的个人无法进入历程。 您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则该命名空间在&#x200B;**命名空间**&#x200B;下拉列表中不可用。
 
-1. 设置 **[!UICONTROL 读取率]**. 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参阅此 [页面](../configuration/throttling.md).
+1. 设置&#x200B;**[!UICONTROL 读取率]**。 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参阅此[页面](../configuration/throttling.md)。
 
    此值存储在历程版本有效负载中。 默认值为每秒5,000个配置文件。 您可以将此值从每秒500个配置文件修改为20,000个配置文件。
 
@@ -85,25 +85,25 @@ ht-degree: 7%
    >
    >每个沙盒的整体读取率设置为每秒20,000个配置文件。 因此，在同一沙盒中同时运行的所有读取受众的读取率每秒最多可添加20,000个配置文件。 您无法修改此上限。
 
-1. 此 **[!UICONTROL 读取受众]** 利用活动，可指定受众进入历程的时间。 要执行此操作，请单击 **[!UICONTROL 编辑历程计划]** 链接以访问历程的属性，然后配置 **[!UICONTROL 计划程序类型]** 字段。
+1. **[!UICONTROL 读取受众]**&#x200B;活动允许您指定受众进入历程的时间。 为此，请单击&#x200B;**[!UICONTROL 编辑历程计划]**&#x200B;链接以访问历程的属性，然后配置&#x200B;**[!UICONTROL 计划程序类型]**&#x200B;字段。
 
    ![](assets/read-segment-schedule.png)
 
-   默认情况下，受众会进入历程 **[!UICONTROL 尽快]**. 如果要让受众在特定日期/时间或定期进入历程，请从列表中选择所需的值。
+   默认情况下，受众会尽快&#x200B;**[!UICONTROL 进入历程]**。 如果要让受众在特定日期/时间或定期进入历程，请从列表中选择所需的值。
 
    >[!NOTE]
    >
-   >请注意 **[!UICONTROL 计划]** 部分仅在 **[!UICONTROL 读取受众]** 活动已放入画布中。
+   >请注意，**[!UICONTROL 计划]**&#x200B;部分仅在画布中放入&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动时可用。
 
    ![](assets/read-segment-schedule-list.png)
 
-   **增量读取** 选项：当具有循环的历程时 **读取受众** 首次执行时，受众中的所有用户档案都会进入历程。 利用此选项，可在第一次发生后仅定向自上次执行历程以来进入受众的个人。
+   **增量读取**&#x200B;选项：当具有定期&#x200B;**读取受众**&#x200B;的历程首次执行时，受众中的所有配置文件都会进入该历程。 利用此选项，可在第一次发生后仅定向自上次执行历程以来进入受众的个人。
 
        >[！注意]
        >
-       >如果您在历程中以[自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索用户档案，因为这些受众已修复。
+       >如果您在历程中以[自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索配置文件，因为这些受众已修复。
    
-   **在重复时强制重入**：利用此选项可让历程中仍存在的所有用户档案在下次执行时自动退出历程。 例如，如果您在每日循环历程中等待2天，则通过激活此选项，将始终在下一个历程执行时移动用户档案（因此是在后一天），无论它们是否在下一个运行的受众中。 如果此历程中用户档案的生命周期可能长于重复频率，请勿激活此选项以确保用户档案可以完成其历程。
+   **在重复时强制重入**：此选项允许您使历程中仍存在的所有用户档案在下次执行时自动退出历程。 例如，如果您在每日循环历程中等待2天，则通过激活此选项，将始终在下一个历程执行时移动用户档案（因此是在后一天），无论它们是否在下一个运行的受众中。 如果此历程中用户档案的生命周期可能长于重复频率，请勿激活此选项以确保用户档案可以完成其历程。
 
 <!--
 
@@ -126,23 +126,23 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->一次性读取受众历程移至 **已完成** 状态91天([历程全局超时](journey-properties.md#global_timeout))。 对于计划的读取受众，此期限为上次执行后的91天。
+>一次性读取受众历程在历程执行91天（[历程全局超时](journey-properties.md#global_timeout)）后移至&#x200B;**已完成**&#x200B;状态。 对于计划的读取受众，此期限为上次执行后的91天。
 
 ## 测试并发布历程 {#testing-publishing}
 
-此 **[!UICONTROL 读取受众]** 利用活动，可在单一用户档案上测试历程。
+**[!UICONTROL 读取受众]**&#x200B;活动允许您在单一配置文件上测试历程。
 
 为此，请激活测试模式。
 
 ![](assets/read-segment-test-mode.png)
 
-像往常一样配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md).
+像往常一样配置和运行测试模式。 [了解如何测试历程](testing-the-journey.md)。
 
-测试运行后， **[!UICONTROL 显示日志]** 按钮以查看测试结果。 有关详细信息，请参见 [本节](testing-the-journey.md#viewing_logs)
+测试运行后，**[!UICONTROL 显示日志]**&#x200B;按钮允许您查看测试结果。 有关详细信息，请参阅[此部分](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 
-测试成功后，即可发布历程(请参阅 [发布旅程](publishing-the-journey.md))。 属于受众的个人将在历程属性中指定的日期/时间进入历程 **[!UICONTROL 计划程序]** 部分。
+测试成功后，即可发布历程（请参阅[发布历程](publishing-the-journey.md)）。 属于受众的个人将在历程的属性&#x200B;**[!UICONTROL 调度程序]**&#x200B;部分中指定的日期/时间进入历程。
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 基于受众的历程中的受众定位
 
-基于受众的历程始终以 **读取受众** 活动，用于检索属于Adobe Experience Platform受众的个人。
+基于受众的历程始终以&#x200B;**读取受众**&#x200B;活动开始，以检索属于Adobe Experience Platform受众的个人。
 
 属于受众的受众会被检索一次或定期检索。
 
@@ -158,7 +158,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **区段**
 
-您可以使用条件来执行分段，方法是 **条件** 活动。 例如，您可以让VIP人员采用特定路径，而非VIP人员采用其他路径。
+您可以使用&#x200B;**条件**&#x200B;活动使用条件执行分段。 例如，您可以让VIP人员采用特定路径，而非VIP人员采用其他路径。
 
 分段可以基于：
 
@@ -172,7 +172,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **排除**
 
-相同 **条件** 用于分段的活动（请参阅上文）还允许您排除部分群体。 例如，您可以排除VIP人员，方法是：让这些人员流入分支中，并在其后执行结束步骤。
+用于分段的相同&#x200B;**条件**&#x200B;活动（请参阅上文）还允许您排除部分群体。 例如，您可以排除VIP人员，方法是：让这些人员流入分支中，并在其后执行结束步骤。
 
 此排除可能紧随受众检索之后、出于群体计数目的或随着多步历程而发生。
 

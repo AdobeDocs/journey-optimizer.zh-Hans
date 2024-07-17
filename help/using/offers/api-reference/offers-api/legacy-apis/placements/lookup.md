@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 查找投放位置 {#look-up-placement}
 
-您可以通过向以下网站发出GET请求来查找特定投放位置： [!DNL Offer Library] 包含投放位置的API `@id` 或请求路径中投放位置的名称。
+您可以通过向[!DNL Offer Library] API发出请求（包含投放位置`@id`或请求路径中的投放位置名称）来查找特定GET。
 
 **API格式**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{ENDPOINT_PATH}` | 存储库API的端点路径。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 投放位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | 定义与投放位置关联的架构。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | 用于匹配 `@id` 实体的属性。 字符串完全匹配。 参数 `id` 和 `name` 不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数 `id` 和 `name` 不能一起使用 | `Sales and Promotions Placement` |
+| `id` | 用于匹配实体的`@id`属性的字符串。 字符串完全匹配。 参数`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
+| `name` | 用于匹配实体的xdm：name属性的字符串。 字符串与大小写完全匹配，但可以使用通配符。 参数`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **响应**
 
-成功的响应将返回投放位置的详细信息，包括有关容器ID、实例ID和唯一投放位置的信息 `@id`.
+成功的响应将返回投放位置的详细信息，包括有关容器ID、实例ID和唯一投放位置`@id`的信息。
 
 ```json
 {

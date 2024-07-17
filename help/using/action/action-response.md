@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 创建自定义操作。 请参见[此页面](../action/about-custom-action-configuration.md)。
 
-1. 在 **响应** 字段。
+1. 在&#x200B;**响应**&#x200B;字段中单击。
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -127,15 +127,15 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 添加您的事件和之前创建的忠诚度自定义操作。
 
-1. 在“忠诚度”自定义操作中，将客户ID查询参数映射到配置文件ID。 选中选项 **在超时或错误的情况下添加替代路径**.
+1. 在“忠诚度”自定义操作中，将客户ID查询参数映射到配置文件ID。 选中选项&#x200B;**在超时或错误的情况下添加替代路径**。
 
    ![](assets/action-response10.png)
 
-1. 在第一个分支中，添加一个条件并使用高级编辑器利用 **上下文** 节点。
+1. 在第一个分支中，添加条件并使用高级编辑器利用&#x200B;**Context**&#x200B;节点下的操作响应字段。
 
    ![](assets/action-response6.png)
 
-1. 然后，添加推送，并使用响应字段个性化消息。 在本例中，我们使用忠诚度积分数和客户状态来个性化内容。 操作响应字段位于 **上下文属性** > **Journey Orchestration** > **操作**.
+1. 然后，添加推送，并使用响应字段个性化消息。 在本例中，我们使用忠诚度积分数和客户状态来个性化内容。 操作响应字段在&#x200B;**上下文属性** > **Journey Orchestration** > **操作**&#x200B;下可用。
 
    ![](assets/action-response8.png)
 
@@ -143,8 +143,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
-1. 在超时和错误分支中，添加条件并利用内置 **jo_status_code** 字段。 在我们的示例中，我们使用
-   **http_400** 错误类型。 请参阅[此小节](#error-status)。
+1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**字段。 在我们的示例中，我们使用
+   **http_400**&#x200B;错误类型。 请参阅[此小节](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,26 +158,26 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 测试模式日志 {#test-mode-logs}
 
-您可以通过测试模式访问与自定义操作响应相关的状态日志。 如果您在历程中定义了具有响应的自定义操作，则会看到 **actionsHistory** 部分，用于显示外部端点返回的有效负载（作为来自该自定义操作的响应）。 这在调试方面可能非常有用。
+您可以通过测试模式访问与自定义操作响应相关的状态日志。 如果您在历程中定义了具有响应的自定义操作，您将在这些日志中看到&#x200B;**actionsHistory**&#x200B;部分，其中显示外部端点返回的有效负载（作为来自该自定义操作的响应）。 这在调试方面可能非常有用。
 
 ![](assets/action-response12.png)
 
 ## 错误状态 {#error-status}
 
-此 **jo_status_code** 字段始终可用，即使未定义响应有效负载也是如此。
+**jo_status_code**&#x200B;字段始终可用，即使未定义响应有效负载也是如此。
 
 以下是此字段的可能值：
 
-* http状态代码： http_`<HTTP API call returned code>`，例如http_200或http_400
-* 超时错误： **超时**
-* 上限错误： **上限**
+* http状态代码： http_`<HTTP API call returned code>`，用于实例http_200或http_400
+* 超时错误：**timedout**
+* 上限设置错误： **上限**
 * 内部错误： **内部错误**
 
 如果返回的http代码大于2xx或发生错误，则认为操作调用有误。 在这种情况下，历程会流向专用超时或错误分支。
 
 >[!WARNING]
 >
->只有新创建的自定义操作包括 **jo_status_code** 现成字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
+>只有新创建的自定义操作才包括现成的&#x200B;**jo_status_code**&#x200B;字段。 如果要将其用于现有的自定义操作，则需要更新操作。 例如，您可以更新说明并保存。
 
 ## 表达式语法 {#exp-syntax}
 
@@ -202,7 +202,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-在自定义操作响应中处理收藏集时，您可以依赖 `currentActionField` 要访问当前项目，请执行以下操作：
+在自定义操作响应中处理收藏集时，您可以依赖`currentActionField`来访问当前项：
 
 ```json
 count(
@@ -216,5 +216,5 @@ currentActionField.description == "abc"
 
 有关更多信息，请参阅以下页面：
 
-* [字段引用](../building-journeys/expression/field-references.md).
-* [收藏集管理函数](../building-journeys/expression/collection-management-functions.md)
+* [字段引用](../building-journeys/expression/field-references.md)。
+* [集合管理函数](../building-journeys/expression/collection-management-functions.md)

@@ -9,7 +9,7 @@ exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 ### 和{#and}
 
-此 `and` 函数用于创建逻辑连接。
+`and`函数用于创建逻辑连接。
 
 **语法**
 
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 ### 或{#or}
 
-此 `or` 函数用于创建逻辑分离。
+`or`函数用于创建逻辑分离。
 
 **语法**
 
@@ -82,7 +82,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 等于{#equals}
 
-此 `=` （等于）函数检查一个值或表达式是否等于另一个值或表达式。
+`=` （等于）函数检查一个值或表达式是否等于另一个值或表达式。
 
 **语法**
 
@@ -100,7 +100,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 不等于{#notequal}
 
-此 `!=` （不等于）函数检查一个值或表达式是 **非** 等于另一个值或表达式。
+`!=` （不等于）函数检查一个值或表达式是&#x200B;**不是**&#x200B;等于另一个值或表达式。
 
 **语法**
 
@@ -118,7 +118,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 大于{#greaterthan}
 
-此 `>` （大于）函数用于检查第一个值是否大于第二个值。
+`>` （大于）函数用于检查第一个值是否大于第二个值。
 
 **语法**
 
@@ -136,7 +136,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 大于或等于{#greaterthanorequal}
 
-此 `>=` （大于或等于）函数用于检查第一个值是否大于或等于第二个值。
+`>=` （大于或等于）函数用于检查第一个值是否大于或等于第二个值。
 
 **语法**
 
@@ -154,7 +154,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 小于{#lessthan}
 
-此 `<` （小于）比较函数用于检查第一个值是否小于第二个值。
+`<` （小于）比较函数用于检查第一个值是否小于第二个值。
 
 **语法**
 
@@ -172,7 +172,7 @@ not (homeAddress.countryISO = "CA")
 
 ### 小于或等于{#lessthanorequal}
 
-此 `<=` （小于或等于）比较函数用于检查第一个值是否小于或等于第二个值。
+`<=` （小于或等于）比较函数用于检查第一个值是否小于或等于第二个值。
 
 **语法**
 
@@ -188,4 +188,4 @@ not (homeAddress.countryISO = "CA")
 {%= profile.person.birthYear <= 2000 %}
 ```
 
-**具有数字的操作**
+**具有编号的操作**

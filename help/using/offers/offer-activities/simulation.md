@@ -30,15 +30,15 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此功能模拟单个请求到 [!DNL Decisioning] API。 详细了解 [使用Decisioning API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md).
+>此功能模拟对[!DNL Decisioning] API的单个请求。 了解有关[使用Decisioning API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md)的更多信息。
 
-要访问此功能，请选择 **[!UICONTROL 模拟]** 选项卡 **[!UICONTROL 决策管理]** > **[!UICONTROL 选件]** 菜单。
+要访问此功能，请从&#x200B;**[!UICONTROL 决策管理]** > **[!UICONTROL 优惠]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 模拟]**&#x200B;选项卡。
 
 ![](../assets/offers_simulation-tab.png)
 
 >[!NOTE]
 >
->由于模拟不会生成任何决策事件，因此 [上限](../offer-library/creating-personalized-offers.md#capping) 计数不受影响。
+>由于模拟未生成任何决策事件，因此[上限](../offer-library/creating-personalized-offers.md#capping)计数不受影响。
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -55,19 +55,19 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何 [创建测试用户档案](../../audience/creating-test-profiles.md).
+>您必须具有可用的测试用户档案，以模拟将向他们投放哪些优惠。 了解如何[创建测试配置文件](../../audience/creating-test-profiles.md)。
 
-1. 单击 **[!UICONTROL 管理配置文件]**.
+1. 单击&#x200B;**[!UICONTROL 管理配置文件]**。
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. 选择要用于标识测试配置文件的身份命名空间。 在本例中，我们将使用 **电子邮件** 命名空间。
+1. 选择要用于标识测试配置文件的身份命名空间。 在本例中，我们将使用&#x200B;**电子邮件**&#x200B;命名空间。
 
    >[!NOTE]
    >
-   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 了解有关Adobe Experience Platform身份命名空间的更多信息 [在此部分中](../../audience/get-started-identity.md){target="_blank"}.
+   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间[的更多信息。
 
-1. 输入身份值并单击 **[!UICONTROL 视图]** 以列出可用的配置文件。
+1. 输入身份值并单击&#x200B;**[!UICONTROL 查看]**&#x200B;列出可用的配置文件。
 
    ![](../assets/offers_simulation-add-profile.png)
 
@@ -75,21 +75,21 @@ ht-degree: 12%
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 添加后，所有用户档案都会列在下拉列表中的 **[!UICONTROL 测试配置文件]**. 您可以在保存的测试配置文件之间切换以显示每个选定配置文件的结果。
+1. 添加后，所有配置文件都列在&#x200B;**[!UICONTROL 测试配置文件]**&#x200B;下的下拉列表中。 您可以在保存的测试配置文件之间切换以显示每个选定配置文件的结果。
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
-   >选定的配置文件将仍作为测试配置文件列在 **[!UICONTROL 模拟]** 选项卡，直到使用以下方式删除它们 **[!UICONTROL 管理配置文件]**.
+   >选定的配置文件将保留在&#x200B;**[!UICONTROL Simulation]**&#x200B;选项卡中作为测试配置文件列出，从会话到会话，直到使用&#x200B;**[!UICONTROL 管理配置文件]**&#x200B;将其删除为止。
 
-1. 您可以单击 **[!UICONTROL 配置文件详细信息]** 用于显示所选配置文件数据的链接。
+1. 您可以单击&#x200B;**[!UICONTROL 配置文件详细信息]**&#x200B;链接以显示选定的配置文件数据。
 
 ## 添加决策范围 {#add-decision-scopes}
 
 现在，选择要在测试用户档案上模拟的优惠决策。
 
-1. 选择 **[!UICONTROL 添加决策范围]**.
+1. 选择&#x200B;**[!UICONTROL 添加决策范围]**。
 
    ![](../assets/offers_simulation-add-decision.png)
 
@@ -100,9 +100,9 @@ ht-degree: 12%
 1. 将显示可用的决策。
 
    * 您可以使用搜索字段来优化选择。
-   * 您可以单击 **[!UICONTROL 打开优惠决策]** 用于打开您创建的所有决策的列表的链接。 详细了解 [决策](create-offer-activities.md).
+   * 您可以单击&#x200B;**[!UICONTROL 打开优惠决策]**&#x200B;链接以打开您创建的所有决策的列表。 了解有关[决策](create-offer-activities.md)的更多信息。
 
-   选择您选择的决策并单击 **[!UICONTROL 添加]**.
+   选择您选择的决策并单击&#x200B;**[!UICONTROL 添加]**。
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -128,19 +128,19 @@ ht-degree: 12%
 
 要编辑模拟的默认设置，请执行以下步骤。
 
-1. 单击 **[!UICONTROL 设置]**.
+1. 单击&#x200B;**[!UICONTROL 设置]**。
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 在 **[!UICONTROL 删除重复项]** 部分中，您可以选择允许跨决策和/或投放位置重复优惠。 这意味着可能会为多个决策/投放分配同一优惠。
+1. 在&#x200B;**[!UICONTROL 重复数据删除]**&#x200B;部分中，您可以选择允许跨决策和/或投放位置重复优惠。 这意味着可能会为多个决策/投放分配同一优惠。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >默认情况下，会为模拟启用所有重复数据删除标记，这意味着决策引擎允许重复项，因此可以在多个决策/投放位置提出相同的建议。 了解更多关于 [!DNL Decisioning] 中的API请求属性 [本节](../api-reference/offer-delivery-api/decisioning-api.md).
+   >默认情况下，会为模拟启用所有重复数据删除标记，这意味着决策引擎允许重复项，因此可以在多个决策/投放位置提出相同的建议。 在[本节](../api-reference/offer-delivery-api/decisioning-api.md)中了解有关[!DNL Decisioning] API请求属性的更多信息。
 
-1. 在 **[!UICONTROL 响应格式]** 部分，您可以选择在代码视图中包含元数据。 选中相应的选项，然后选择您选择的元数据。 选择时，它们将显示在请求和响应负载中 **[!UICONTROL 查看代码]**. 在中了解详情 [查看模拟结果](#simulation-results) 部分。
+1. 在&#x200B;**[!UICONTROL 响应格式]**&#x200B;部分中，您可以选择在代码视图中包含元数据。 选中相应的选项，然后选择您选择的元数据。 选择&#x200B;**[!UICONTROL 查看代码]**&#x200B;时，它们将显示在请求和响应负载中。 在[查看模拟结果](#simulation-results)部分了解详情。
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -152,7 +152,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->目前，对于模拟数据，您只能使用 **[!UICONTROL 中心]** API。
+>当前对于模拟数据，只能使用&#x200B;**[!UICONTROL Hub]** API。
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -172,7 +172,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 在添加决策范围并选择测试用户档案后，您可以查看结果。
 
-1. 单击 **[!UICONTROL 查看结果]**.
+1. 单击&#x200B;**[!UICONTROL 查看结果]**。
 
    ![](../assets/offers_simulation-view-results.png)
 
@@ -182,7 +182,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 单击 **[!UICONTROL 查看代码]** 显示请求负载和响应负载。 [了解详情](#view-code)
+1. 单击&#x200B;**[!UICONTROL 查看代码]**&#x200B;以显示请求和响应负载。 [了解详情](#view-code)
 
 1. 从列表中选择另一个用户档案，以显示不同测试用户档案的优惠决策结果。
 
@@ -190,23 +190,23 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
 >[!NOTE]
 >
->每次更改用户档案或更新决策范围时，都需要使用刷新结果 **[!UICONTROL 查看结果]** 按钮。
+>每次更改配置文件或更新决策范围时，都需要使用&#x200B;**[!UICONTROL 查看结果]**&#x200B;按钮刷新结果。
 
 ## 查看代码 {#view-code}
 
-1. 使用 **[!UICONTROL 查看代码]** 按钮以显示请求和响应负载。
+1. 使用&#x200B;**[!UICONTROL 查看代码]**&#x200B;按钮显示请求和响应负载。
 
    ![](../assets/offers_simulation-view-code.png)
 
-   代码视图显示当前用户的开发人员信息。 默认情况下， **[!UICONTROL 响应有效负载]** 将显示。
+   代码视图显示当前用户的开发人员信息。 默认情况下，将显示&#x200B;**[!UICONTROL 响应有效负载]**。
 
    ![](../assets/offers_simulation-request-payload.png)
 
-1. 单击 **[!UICONTROL 响应有效负载]** 或 **[!UICONTROL 请求有效负载]** 以在两个选项卡之间导航。
+1. 单击&#x200B;**[!UICONTROL 响应有效负载]**&#x200B;或&#x200B;**[!UICONTROL 请求有效负载]**&#x200B;在两个选项卡之间导航。
 
    ![](../assets/offers_simulation-response-payload.png)
 
-1. 要在外部使用请求有效负荷，请执行以下操作 [!DNL Journey Optimizer]  — 例如，为进行故障排除，应使用 **[!UICONTROL 复制到剪贴板]** “代码”视图顶部的按钮。
+1. 要在[!DNL Journey Optimizer]之外使用请求有效负载 — 例如，出于疑难解答目的，请使用代码视图顶部的&#x200B;**[!UICONTROL 复制到剪贴板]**&#x200B;按钮复制该有效负载。
 
    ![](../assets/offers_simulation-copy-payload.png)
 
@@ -214,5 +214,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >将请求或响应负载复制到您自己的代码时，请确保替换 {USER_TOKEN} 和 {API_KEY} 的有效值。 了解如何在 [ADOBE EXPERIENCE PLATFORM API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans){target="_blank"} 文档。
+   >将请求或响应负载复制到您自己的代码时，请确保使用有效值替换{USER_TOKEN}和{API_KEY}。 请参阅[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans){target="_blank"}文档以了解如何检索这些值。
 

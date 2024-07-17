@@ -17,7 +17,7 @@ ht-degree: 4%
 
 个性化优惠是基于资格规则和约束的可自定义营销消息。
 
-您可以向以下网站发出GET请求，查找特定的个性化优惠： [!DNL Offer Library] 在请求路径中包含个性化优惠ID的API。
+您可以通过向[!DNL Offer Library] API发出请求来查找特定的个性化优惠，GET路径中包含个性化优惠ID。
 
 **API格式**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **响应**
 
-成功的响应将返回个性化优惠的详细信息，包括有关您的独特个性化优惠的信息 `id`.
+成功的响应将返回个性化优惠的详细信息，包括有关您的独特个性化优惠`id`的信息。
 
 ```json
 {

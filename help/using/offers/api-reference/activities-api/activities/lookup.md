@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查找决策 {#look-up-decision}
 
-您可以通过向以下网站发出GET请求来查找特定决策 [!DNL Offer Library] 包含决策的API `id` 在请求路径中。
+您可以通过向[!DNL Offer Library] API发出请求（请求路径中包含决策`id`）来查找特定GET。
 
 **API格式**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 **响应**
 
-成功的响应将返回决策的详细信息，包括有关您独特决策的信息 `id`.
+成功的响应将返回决策的详细信息，包括与您的唯一决策`id`有关的信息。
 
 ```json
 {

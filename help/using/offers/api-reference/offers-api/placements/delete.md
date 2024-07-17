@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 删除投放位置 {#delete-placement}
 
-有时可能需要删除(DELETE)投放位置。 DELETE这是通过对 [!DNL Offer Library] 使用要删除的投放位置ID的API。
+有时可能需要删除(DELETE)投放位置。 通过使用要删除的投放位置的ID向[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

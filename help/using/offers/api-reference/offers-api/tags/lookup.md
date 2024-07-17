@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **响应**
 
-成功的响应将返回收集限定词的详细信息，包括有关容器ID、实例ID和唯一收集限定词的信息 `@id`.
+成功的响应将返回收集限定符的详细信息，包括有关容器ID、实例ID和唯一收集限定符`@id`的信息。
 
 ```json
 {

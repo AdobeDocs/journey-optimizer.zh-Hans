@@ -23,15 +23,15 @@ ht-degree: 12%
 >title="单一事件"
 >abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。单一事件链接到特定配置文件。它们可以基于规则，也可以由系统生成。"
 
-单一事件链接到特定配置文件。它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件的更多信息 [本节](../event/about-events.md).
+单一事件链接到特定配置文件。它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件[本节](../event/about-events.md)的更多信息。
 
 以下是配置新事件的首要步骤：
 
-1. 在“管理”菜单部分，浏览 **[!UICONTROL 配置]**、和  **[!UICONTROL 活动]** 部分，单击 **[!UICONTROL 管理]**. 将显示事件列表。
+1. 在“管理”菜单部分中浏览到&#x200B;**[!UICONTROL 配置]**，在&#x200B;**[!UICONTROL 事件]**&#x200B;部分中单击&#x200B;**[!UICONTROL 管理]**。 将显示事件列表。
 
    ![](assets/jo-event1.png)
 
-1. 单击 **[!UICONTROL 创建事件]** 以创建新事件。 事件配置窗格将在屏幕右侧打开。
+1. 单击&#x200B;**[!UICONTROL 创建事件]**&#x200B;以创建新事件。 事件配置窗格将在屏幕右侧打开。
 
    ![](assets/jo-event2.png)
 
@@ -43,15 +43,15 @@ ht-degree: 12%
    >
    >只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
-1. 在 **[!UICONTROL 类型]** 字段，选择 **单一**.
+1. 在&#x200B;**[!UICONTROL 类型]**&#x200B;字段中，选择&#x200B;**单一**。
 
    ![](assets/jo-event3bis.png)
 
-1. 在 **[!UICONTROL 事件ID类型]** 字段中，选择要使用的事件ID类型： **基于规则** 或 **系统生成**. 有关事件ID类型的更多信息，请参阅 [本节](../event/about-events.md#event-id-type).
+1. 在&#x200B;**[!UICONTROL 事件ID类型]**&#x200B;字段中，选择要使用的事件ID类型： **基于规则**&#x200B;或&#x200B;**系统生成**。 有关[此部分](../event/about-events.md#event-id-type)中事件ID类型的更多信息。
 
    ![](assets/jo-event4.png)
 
-1. 使用此事件的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 图标，以显示使用此事件的旅程列表。
+1. 使用此事件的历程数显示在&#x200B;**[!UICONTROL 在]**&#x200B;中使用字段中。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;图标以显示使用此事件的历程列表。
 
 1. 定义架构和有效负载字段：在这里，您可以选择历程预期接收的事件信息（通常称为有效负载）。 然后，您便能够在旅程中使用这些信息。请参阅[此小节](../event/about-creating.md#define-the-payload-fields)。
 
@@ -59,13 +59,13 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >当您选择 **[!UICONTROL 系统生成]** 类型，则只有具有eventID类型字段的架构可用。 当您选择 **[!UICONTROL 基于规则]** 类型，则所有体验事件架构都可用。
+   >选择&#x200B;**[!UICONTROL 系统生成的]**&#x200B;类型时，只有具有eventID类型字段的架构可用。 当您选择&#x200B;**[!UICONTROL 基于规则的]**&#x200B;类型时，所有体验事件架构都可用。
 
-1. 对于基于规则的事件，请单击 **[!UICONTROL 事件ID条件]** 字段。 使用简单或高级表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
+1. 对于基于规则的事件，请单击&#x200B;**[!UICONTROL 事件ID条件]**&#x200B;字段中的。 使用简单或高级表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
 
    ![](assets/jo-event6.png)
 
-   在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件(**[!UICONTROL 城市]** 字段和 **[!UICONTROL 巴黎]** 值)，它会将其传递到历程。
+   在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件（**[!UICONTROL 城市]**&#x200B;字段和&#x200B;**[!UICONTROL 巴黎]**&#x200B;值）匹配的事件，它就会将其传递到历程。
 
    >[!NOTE]
    >
@@ -85,9 +85,9 @@ ht-degree: 12%
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
-1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL 字段]** 字段或在 **[!UICONTROL 编辑]** 图标。
+1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
    ![](assets/journey8.png)
 
@@ -95,19 +95,19 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >对于系统生成的事件，请确保已将“编排”字段组添加到XDM架构。 这将确保您的架构包含与配合使用所需的所有信息 [!DNL Journey Optimizer].
+   >对于系统生成的事件，请确保已将“编排”字段组添加到XDM架构。 这将确保您的架构包含使用[!DNL Journey Optimizer]所需的所有信息。
 
    ![](assets/journey9.png)
 
-1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 还必须包含用于识别与事件关联的人员的键(请参阅 [本节](../event/about-creating.md#define-the-event-key))。
+1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 它们还必须包含用于识别与事件关联的人员的键（请参阅[此部分](../event/about-creating.md#define-the-event-key)）。
 
    >[!NOTE]
    >
-   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段的列表中，以便 [!DNL Journey Optimizer] 可以识别事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
+   >对于系统生成的事件，**[!UICONTROL eventID]**&#x200B;字段会自动添加到所选字段列表中，以便[!DNL Journey Optimizer]可以识别该事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此小节](../event/about-creating.md#preview-the-payload)。
 
-1. 选择完所需的字段后，单击 **[!UICONTROL 确定]** 或按 **[!UICONTROL 输入]**.
+1. 选择完所需的字段后，单击&#x200B;**[!UICONTROL 确定]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
-   所选字段的数目显示在 **[!UICONTROL 字段]** 字段。
+   所选字段的数目显示在&#x200B;**[!UICONTROL 字段]**&#x200B;字段中。
 
    ![](assets/journey12.png)
 
@@ -118,11 +118,11 @@ ht-degree: 12%
 >title="身份命名空间"
 >abstract="选择用于标识与事件关联的客户配置文件的键。"
 
-命名空间允许您定义用于识别与事件关联的人员的键类型。 其配置是可选的。 如果您想在历程中检索来自 [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}. 如果您仅使用来自第三方系统的数据（通过自定义数据源），则不需要命名空间定义。
+命名空间允许您定义用于识别与事件关联的人员的键类型。 其配置是可选的。 如果您想在历程中检索来自[实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}的其他信息，则需要此项。 如果您仅使用来自第三方系统的数据（通过自定义数据源），则不需要命名空间定义。
 
-您可以使用其中一个预定义命名空间，也可以使用Identity Namespace Service创建新命名空间。 请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}.
+您可以使用其中一个预定义命名空间，也可以使用Identity Namespace Service创建新命名空间。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}。
 
-如果选择具有主标识的架构，则 **[!UICONTROL Profiler标识符]** 和 **[!UICONTROL 命名空间]** 字段是预填充的。 如果未定义标识，我们将选择 _identityMap > id_ 作为主键。 然后，您必须选择一个命名空间，并且密钥将会预填充(位于 **[!UICONTROL 命名空间]** 字段)，使用 _identityMap > id_.
+如果选择具有主标识的架构，则将预填充&#x200B;**[!UICONTROL Profiler标识符]**&#x200B;和&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段。 如果未定义标识，我们选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择一个命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充密钥（在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段下）。
 
 选择字段时，将标记主要标识字段。
 
@@ -136,15 +136,15 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则它将在 **命名空间** 下拉列表。
+>您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则该命名空间在&#x200B;**命名空间**&#x200B;下拉列表中不可用。
 
 ## 定义用户档案标识符 {#define-the-event-key}
 
 键是字段或字段组合，它是事件有效负载数据的一部分，允许系统识别与事件关联的人员。 例如，键可以是Experience CloudID、CRM ID或电子邮件地址。
 
-要使用存储在Adobe实时客户资料数据库中的数据，事件键必须是您在以下位置定义为用户档案标识的信息： [Real-time Customer Profile Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
+要使用Adobe实时客户资料数据库中存储的数据，事件键必须是您在[实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中定义为个人资料身份的信息。
 
-用户档案标识符允许系统在事件和个人用户档案之间执行协调。 如果选择具有主标识的架构，则 **[!UICONTROL 配置文件标识符]** 和 **[!UICONTROL 命名空间]** 字段是预填充的。 如果未定义标识，则 _identityMap > id_ 是主键。 然后，您必须选择一个命名空间，并且密钥会使用自动预填充 _identityMap > id_.
+用户档案标识符允许系统在事件和个人用户档案之间执行协调。 如果选择具有主标识的架构，则将预填充&#x200B;**[!UICONTROL 配置文件标识符]**&#x200B;和&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段。 如果未定义标识，则&#x200B;_identityMap > id_&#x200B;是主键。 然后，您必须选择一个命名空间，并使用&#x200B;_identityMap > id_&#x200B;自动预填充密钥。
 
 选择字段时，将标记主要标识字段。
 
@@ -152,13 +152,13 @@ ht-degree: 12%
 
 如果您需要使用其他密钥，如CRM ID或电子邮件地址，则需要手动添加该密钥，如下所述：
 
-1. 在 **[!UICONTROL 配置文件标识符]** 字段或铅笔图标上。
+1. 单击&#x200B;**[!UICONTROL 用户档案标识符]**&#x200B;字段内或铅笔图标。
 
    ![](assets/journey16.png)
 
 1. 在有效负载字段列表中选择已选作键的字段。
 
-当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 与命名空间关联(请参阅 [本节](../event/about-creating.md#select-the-namespace))，密钥可用于对Adobe Experience Platform执行查询。 请参阅 [此页面](../building-journeys/about-journey-activities.md#orchestration-activities).
+当接收到事件时，该键的值允许系统识别与该事件相关联的人员。 密钥与命名空间关联（请参阅[此部分](../event/about-creating.md#select-the-namespace)），密钥可用于对Adobe Experience Platform执行查询。 查看[此页面](../building-journeys/about-journey-activities.md#orchestration-activities)。
 密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 ## 高级表达式编辑器 {#adv-exp-editor}
@@ -167,7 +167,7 @@ ht-degree: 12%
 
 ![](assets/journey20.png)
 
-您可以从以下位置访问高级表达式函数 **[!UICONTROL 高级模式]** 按钮。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅此[页面](../building-journeys/expression/expressionadvanced.md)。
+如果要执行其他操作，可以从&#x200B;**[!UICONTROL 高级模式]**&#x200B;按钮访问高级表达式函数。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅此[页面](../building-journeys/expression/expressionadvanced.md)。
 
 
 ## 预览有效负载 {#preview-the-payload}
@@ -178,7 +178,7 @@ ht-degree: 12%
 >
 >对于系统生成的事件，在创建事件时，在查看有效负载预览之前，请保存事件并重新打开它。 在有效负载中生成事件ID时需要此步骤。
 
-1. 单击 **[!UICONTROL 查看有效负荷]** 图标以预览系统所需的有效负载。
+1. 单击&#x200B;**[!UICONTROL 查看有效负载]**&#x200B;图标可预览系统所需的有效负载。
 
    ![](assets/journey13.png)
 
@@ -188,4 +188,4 @@ ht-degree: 12%
 
 1. 检查预览以验证有效负载定义。
 
-1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到以下位置的事件设置： [!DNL Journey Optimizer]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。
+1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到[!DNL Journey Optimizer]的事件的设置。 请参阅[此页](../event/additional-steps-to-send-events-to-journey.md)。

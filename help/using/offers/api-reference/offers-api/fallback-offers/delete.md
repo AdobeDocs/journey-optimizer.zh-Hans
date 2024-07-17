@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # 删除后备优惠 {#delete-fallback-offer}
 
-有时可能有必要删除(DELETE)备用选件。 DELETE这是通过对 [!DNL Offer Library] API使用您要删除的备用选件的ID。
+有时可能有必要删除(DELETE)备用选件。 通过使用要删除的备用DELETE的ID对[!DNL Offer Library] API执行选件请求来做到这一点。
 
 **API格式**
 

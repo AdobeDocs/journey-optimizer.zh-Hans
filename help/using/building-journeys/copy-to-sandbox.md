@@ -42,15 +42,15 @@ ht-degree: 9%
 
 沙盒工具允许您利用包导出和导入跨多个沙盒复制对象。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关特征本身的更多信息，请参阅 [Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
->此功能需要以下权限： **沙盒管理** 功能：管理沙盒（或查看沙盒）和管理包。 [了解详情](../administration/ootb-permissions.md)
+>此功能需要&#x200B;**沙盒管理**&#x200B;功能的以下权限：管理沙盒（或查看沙盒）和管理包。 [了解详情](../administration/ootb-permissions.md)
 
 ## 沙盒工具入门{#sandbox-gs}
 
-可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此 [部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
+可以使用 Journey Optimizer 将整个历程从一个沙盒复制到另一个沙盒。例如，您可以将历程从暂存沙盒环境复制到生产沙盒。 除了历程本身，Journey Optimizer还复制历程依赖的大部分对象：受众、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 >[!CAUTION]
 >
@@ -63,36 +63,36 @@ ht-degree: 9%
 1. 将历程作为包添加到源沙盒中。
 1. 将包导出到目标沙盒。
 
-此外，您还可以利用Journey Optimizer **对象复制服务REST API** 以管理沙盒的对象。 [了解如何使用对象复制服务REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
+此外，您可以利用Journey Optimizer **对象复制服务REST API**&#x200B;来管理沙盒的对象。 [了解如何使用对象复制服务REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 将历程添加为包{#export}
 
 要将历程复制到另一个沙盒，您首先需要将该历程作为包添加到源沙盒中。 执行以下步骤：
 
-1. 在历程管理菜单部分，单击 **[!UICONTROL 历程]**. 将显示历程列表。
+1. 在“历程管理”菜单部分中，单击&#x200B;**[!UICONTROL 历程]**。 将显示历程列表。
 
-1. 搜索要复制的历程，单击 **更多操作** 图标（历程名称旁边的三个圆点）并单击 **添加到包**.
+1. 搜索要复制的历程，单击&#x200B;**更多操作**&#x200B;图标（历程名称旁边的三个圆点），然后单击&#x200B;**添加到包**。
 
    ![](assets/journey-sandbox1.png)
 
-   此 **添加到包** 窗口随即显示。
+   将显示&#x200B;**添加到包**&#x200B;窗口。
 
    ![](assets/journey-sandbox2.png)
 
 1. 选择是要将历程添加到现有包还是创建新包：
 
-   * **现有包**：从下拉菜单中选择资源包。
-   * **创建新资源包**：键入包名称。 您还可以添加描述。
+   * **现有包**：从下拉菜单中选择该包。
+   * **创建新包**：键入包名称。 您还可以添加描述。
 
-1. 在“管理”菜单部分中，单击 **[!UICONTROL 沙盒]**，选择 **包** 选项卡，然后单击要导出的资源包。
+1. 在“管理”菜单部分中，单击&#x200B;**[!UICONTROL 沙盒]**，选择&#x200B;**包**&#x200B;选项卡，然后单击要导出的包。
 
    ![](assets/journey-sandbox3.png)
 
-1. 选择要导出的对象，然后单击 **Publish**
+1. 选择要导出的对象，然后单击&#x200B;**Publish**
 
    ![](assets/journey-sandbox4.png)
 
-   如果发布失败，您可以检查日志以确定失败原因。 打开包，单击 **查看失败的作业**，选择导入作业并单击 **查看导入详细信息**.
+   如果发布失败，您可以检查日志以确定失败原因。 打开包，单击&#x200B;**查看失败的作业**，选择导入作业，然后单击&#x200B;**查看导入详细信息**。
 
    ![](assets/journey-sandbox9.png)
 
@@ -100,11 +100,11 @@ ht-degree: 9%
 
 发布包后，您需要将其导出到目标沙盒。
 
-1. 在源沙盒中，单击 **[!UICONTROL 沙盒]** 菜单，选择 **包** 选项卡，然后单击要导出的资源包旁边的+图标。
+1. 在源沙盒中，单击&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，选择&#x200B;**包**&#x200B;选项卡，然后单击要导出的包旁边的+图标。
 
    ![](assets/journey-sandbox5.png)
 
-1. 选择 **Target沙盒** ，然后单击 **下一个**. 只有您组织内的沙盒可用。
+1. 从下拉字段选择&#x200B;**Target沙盒**，然后单击&#x200B;**下一步**。 只有您组织内的沙盒可用。
 
    ![](assets/journey-sandbox6.png)
 
@@ -112,12 +112,12 @@ ht-degree: 9%
 
    ![](assets/journey-sandbox7.png)
 
-1. 单击 **完成** 按钮，开始将包复制到target沙盒。 复制过程因历程的复杂性以及需要复制的对象数量而异。
+1. 单击右上角的&#x200B;**完成**&#x200B;按钮，开始将包复制到目标沙盒。 复制过程因历程的复杂性以及需要复制的对象数量而异。
 
 1. 单击导入作业以查看复制结果：
 
-   * 单击 **查看导入的对象** 显示每个复制的对象。
-   * 单击 **查看导入详细信息** 检查每个对象的导入结果。
+   * 单击&#x200B;**查看导入的对象**&#x200B;以显示每个已复制的对象。
+   * 单击&#x200B;**查看导入详细信息**&#x200B;以检查每个对象的导入结果。
 
    ![](assets/journey-sandbox8.png)
 

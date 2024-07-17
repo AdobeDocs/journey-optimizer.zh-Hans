@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 3%
+source-wordcount: '786'
+ht-degree: 2%
 
 ---
 
@@ -23,25 +23,25 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->关注 [此链接](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} 查找不同个性化和实验用例的示例实施。 查看并运行这些扩展，以便更好地了解所需的实施步骤以及端到端个性化流程的工作方式。
+>按照[此链接](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}查找不同个性化和试验用例的示例实施。 查看并运行这些扩展，以便更好地了解所需的实施步骤以及端到端个性化流程的工作方式。
 
 ## 客户端实施 {#client-side-implementation}
 
 如果您有客户端实施，则可以使用以下其中一个AEP客户端SDK：AEP Web SDK或AEP Mobile SDK。
 
-* 步骤 [以下](#client-side-how) 在一个示例中描述获取由基于代码的体验营销活动在Edge发布的内容的过程 **Web SDK** 实施和显示个性化内容。
+* 下面的步骤[描述在示例&#x200B;**Web SDK**&#x200B;实现中获取基于代码的体验营销活动在边缘上发布的内容并显示个性化内容的过程。](#client-side-how)
 
-* 使用实施基于代码的渠道的步骤 **移动SDK** 在中介绍 [本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* [本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}中介绍了使用&#x200B;**Mobile SDK**&#x200B;实施基于代码的通道的步骤。
 
   >[!NOTE]
   >
-  >移动使用案例的实施示例适用于 [iOS应用程序](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >移动使用案例的示例实施适用于[iOS应用程序](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}和[Android应用程序](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}。
 
 ### 工作原理 — Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} 将包含在页面中。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此页面中。
 
-1. 您需要使用 `sendEvent` 命令并指定用于获取个性化内容的表面URI。
+1. 您需要使用`sendEvent`命令并指定表面URI以获取个性化内容。
 
    ```javascript
    alloy("sendEvent", {
@@ -52,9 +52,9 @@ ht-degree: 3%
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. 基于代码的体验项目应由实施代码手动应用(使用 [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} 方法)根据决策更新DOM。
+1. 基于代码的体验项应由实现代码（使用[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}方法）手动应用，以根据决策更新DOM。
 
-1. 对于基于代码的体验营销活动，必须手动发送显示事件以指示何时显示内容。 这可以通过以下方式实现 `sendEvent` 命令。
+1. 对于基于代码的体验营销活动，必须手动发送显示事件以指示何时显示内容。 这是通过`sendEvent`命令完成的。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 3%
    }
    ```
 
-1. 对于基于代码的体验营销活动，必须手动发送交互事件以指示用户何时与内容交互。 这可以通过以下方式实现 `sendEvent` 命令。
+1. 对于基于代码的体验营销活动，必须手动发送交互事件以指示用户何时与内容交互。 这是通过`sendEvent`命令完成的。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -118,14 +118,14 @@ ht-degree: 3%
 
 Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web SDK会在请求生命周期中自动处理这些Cookie的存储和发送。
 
-| Cookie | 用途 | 存储者 | 发送者 |
+| Cookie | 目的 | 存储者 | 发送者 |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
 | kndctr_AdobeOrg_identity | 包含用户身份详细信息 | Web SDK | Web SDK |
 | kndctr_AdobeOrg_cluster | 指示应使用哪个体验边缘群集来完成请求 | Web SDK | Web SDK |
 
-**请求投放**
+**请求放置**
 
-需要向Adobe Experience Platform API发出请求才能获取建议并发送显示通知。 在使用客户端实施时，Web SDK在以下情况下发出这些请求： `sendEvent` 命令。
+需要向Adobe Experience Platform API发出请求才能获取建议并发送显示通知。 在使用客户端实施时，Web SDK会在使用`sendEvent`命令时发出这些请求。
 
 | 请求 | 创建者 |
 | ---------------------------------------------- | ----------------------------------- |
@@ -138,14 +138,14 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
 
 ## 服务器端实施 {#server-side-implementation}
 
-如果您有服务器端实施，则可以使用一个AEP Edge Network API。
+如果您有服务器端实施，则可以使用一个AEPEdge NetworkAPI。
 
-以下步骤在示例网页的Edge Network API实施中描述了获取由基于代码的体验营销活动在Edge上发布的内容并显示个性化内容的过程。
+以下步骤在示例网页的Edge NetworkAPI实现中描述了获取由基于代码的体验营销活动在Edge上发布的内容并显示个性化内容的过程。
 
 ### 工作原理
 
-1. 将请求网页，以及浏览器之前存储的以为前缀的任何Cookie `kndctr_` 中包含。
-1. 当从应用程序服务器请求该页面时，会将事件发送到 [交互式数据收集端点](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) 以获取个性化内容。 此示例应用程序使用一些帮助程序方法来简化构建请求并将请求发送到API(请参阅 [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"})。 但要求只是 `POST` 有效负载中包含事件和查询。 上一步骤中的Cookie（如果可用）包含在中的请求中 `meta>state>entries` 数组。
+1. 已请求该网页，并且包含以前由浏览器存储的以`kndctr_`为前缀的所有Cookie。
+1. 从应用服务器请求该页面时，会向[交互式数据收集终结点](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)发送一个事件以获取个性化内容。 此示例应用程序使用一些帮助程序方法来简化生成请求并将请求发送到API（请参阅[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}）。 但请求只是具有包含事件和查询的有效负载的`POST`。 上一步骤中的Cookie（如果可用）包含在`meta>state>entries`数组的请求中。
 
    ```javascript
    fetch(
@@ -282,14 +282,14 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
 
 Cookie用于保留用户标识和群集信息。 在使用服务器端实施时，应用程序服务器必须在请求生命周期内处理这些Cookie的存储和发送。
 
-| Cookie | 用途 | 存储者 | 发送者 |
+| Cookie | 目的 | 存储者 | 发送者 |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
 | kndctr_AdobeOrg_identity | 包含用户身份详细信息 | 应用程序服务器 | 应用程序服务器 |
 | kndctr_AdobeOrg_cluster | 指示应使用哪个体验边缘群集来完成请求 | 应用程序服务器 | 应用程序服务器 |
 
-**请求投放**
+**请求放置**
 
-需要向Adobe Experience Platform API发出请求才能获取建议并发送显示通知。 在使用客户端实施时，Web SDK在以下情况下发出这些请求： `sendEvent` 命令。
+需要向Adobe Experience Platform API发出请求才能获取建议并发送显示通知。 在使用客户端实施时，Web SDK会在使用`sendEvent`命令时发出这些请求。
 
 | 请求 | 创建者 |
 | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -300,9 +300,9 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 
 ![](assets/code-based-server-side-implementation.png)
 
-## 混合实施 {#hybrid-implementation}
+## 混合实现 {#hybrid-implementation}
 
 如果您有混合实施，请查看以下链接。
 
-* Adobe技术博客： [Adobe Experience Platform Web SDK中的混合个性化](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK文档： [使用Web SDK和边缘网络服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Adobe技术博客：Adobe Experience Platform Web SDK中的[Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

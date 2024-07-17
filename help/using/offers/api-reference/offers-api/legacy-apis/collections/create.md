@@ -9,7 +9,7 @@ exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 8%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过对以下对象发出POST请求来创建收藏集： [!DNL Offer Library] API，同时提供容器ID。
+您可以向[!DNL Offer Library] API发出POST请求，同时提供容器ID来创建收藏集。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
@@ -61,7 +61,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的收藏集的信息，包括其唯一实例ID和位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的收藏集。 您可以使用您的独特收藏集 `@id` 在稍后的教程中创建决策。
+成功的响应返回有关新创建的集合的信息，包括其唯一实例ID和位置`@id`。 您可以在后续步骤中使用实例ID来更新或删除您的收藏集。 您可以在以后的教程中使用您唯一的收藏集`@id`创建决策。
 
 ```json
 {

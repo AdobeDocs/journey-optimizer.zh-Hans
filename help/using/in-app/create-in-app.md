@@ -31,21 +31,21 @@ ht-degree: 13%
 
 要在历程中添加应用程序内消息，请执行以下步骤：
 
-1. 打开您的历程，然后拖放 **[!UICONTROL 应用程序内]** 中的活动 **[!UICONTROL 操作]** 面板的部分。
+1. 打开您的历程，然后从面板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**[!UICONTROL 应用程序内]**&#x200B;活动。
 
    当用户档案到达其历程结尾时，显示给他们的任何应用程序内消息都将自动过期。 因此，会在应用程序内活动后自动添加等待活动，以确保计时正确。
 
    ![](assets/in_app_journey_1.png)
 
-1. 输入 **[!UICONTROL 标签]** 和 **[!UICONTROL 描述]** 您的消息。
+1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 选择 [应用程序内表面](inapp-configuration.md) 以使用。
+1. 选择要使用的[应用程序内表面](inapp-configuration.md)。
 
    ![](assets/in_app_journey_2.png)
 
-1. 您现在可以使用开始设计内容 **[!UICONTROL 编辑内容]** 按钮。 [了解详情](design-in-app.md)
+1. 您现在可以使用&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计内容。 [了解详情](design-in-app.md)
 
-1. 单击 **[!UICONTROL 编辑触发器]** 以选择触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
+1. 单击&#x200B;**[!UICONTROL 编辑触发器]**&#x200B;以选择将触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
 
    ![](assets/in_app_journey_4.png)
 
@@ -55,10 +55,10 @@ ht-degree: 13%
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
-      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常是API调用 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) AEP Edge扩展中的。 |
-      | 核心跟踪 | 跟踪操作 | 当移动代码API中提供旧版功能时触发 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 称为。 |
-      | 核心跟踪 | 跟踪状态 | 当移动代码API中提供旧版功能时触发 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 称为。 |
-      | 核心跟踪 | 收集PII | 当移动代码API中提供旧版功能时触发 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 称为。 |
+      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常API会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
+      | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
+      | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
+      | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
       | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
@@ -69,13 +69,13 @@ ht-degree: 13%
 
 +++
 
-   1. 单击 **[!UICONTROL 添加条件]** 如果希望触发器考虑多个事件或标准。
+   1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
-   1. 选择 **[!UICONTROL 或]** 条件（如果要添加更多） **[!UICONTROL 触发器]** 以进一步扩展您的规则。
+   1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
 
       ![](assets/in_app_create_3.png)
 
-   1. 选择 **[!UICONTROL 和]** 条件（如果要添加） **[!UICONTROL 特征]** 并且更好地调整你的规则。
+   1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
       +++查看可用的特征。
 
@@ -103,49 +103,49 @@ ht-degree: 13%
 
       ![](assets/in_app_create_8.png)
 
-   1. 单击 **[!UICONTROL 创建组]** 将触发器组合在一起。
+   1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
 
       ![](assets/in_app_journey_3.png)
 
    1. 选择应用程序内消息处于活动状态时触发的频率：
 
-      * **[!UICONTROL 每次都显示]**：始终显示所选事件时的消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-      * **[!UICONTROL 显示一次]**：仅在中首次选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-      * **[!UICONTROL 显示直至点进]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
+      * **[!UICONTROL 每次都显示]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中发生选定的事件时，始终显示消息。
+      * **[!UICONTROL 显示一次]**：仅在首次在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中出现选定的事件时显示此消息。
+      * **[!UICONTROL 显示直至点进次数]**：在SDK发送交互事件并执行“已点击”操作之前，如果发生&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选定的事件，则显示此消息。
 
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
 1. 应用程序内消息就绪后，完成配置并发布历程以激活它。
 
-有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md).
+有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 向营销活动添加应用程序内消息]
 
 要在营销策划中添加应用程序内消息，请执行以下步骤：
 
-1. 访问 **[!UICONTROL 营销活动]** 菜单，然后单击 **[!UICONTROL 创建营销活动]**.
+1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
-1. 在 **[!UICONTROL 属性]** 部分，选择何时执行营销活动：计划或API触发。 了解中促销活动类型的更多信息 [此页面](../campaigns/create-campaign.md#campaigntype).
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，选择何时执行营销活动：已计划或API触发。 在[此页面](../campaigns/create-campaign.md#campaigntype)中了解有关促销活动类型的更多信息。
 
-1. 在 **[!UICONTROL 操作]** 部分，选择 **[!UICONTROL 应用程序内消息]** 和 **[!UICONTROL 应用程序表面]** 之前已为您的应用程序内消息配置此功能。 然后，单击 **[!UICONTROL 创建]**.
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择之前为您的应用程序内消息配置的&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;和&#x200B;**[!UICONTROL 应用程序表面]**。 然后，单击&#x200B;**[!UICONTROL 创建]**。
 
-   在中了解有关应用程序内配置的更多信息 [此页面](inapp-configuration.md).
+   在[此页面](inapp-configuration.md)中了解有关应用程序内配置的更多信息。
 
    ![](assets/in_app_create_1.png)
 
-1. 从 **[!UICONTROL 属性]** 部分，输入 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]** 描述。
+1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;描述。
 
-1. 要将自定义或核心数据使用标签分配给应用程序内消息，请选择 **[!UICONTROL 管理访问权限]**. [了解详情](../administration/object-based-access.md)。
+1. 要将自定义或核心数据使用标签分配给应用程序内消息，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解详情](../administration/object-based-access.md)。
 
-1. 单击 **[!UICONTROL 选择受众]** 按钮，从可用的Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 
-1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
+1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 单击 **[!UICONTROL 编辑触发器]** 以选择触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
+1. 单击&#x200B;**[!UICONTROL 编辑触发器]**&#x200B;以选择将触发消息的事件和条件。 规则构建器使用户能够指定标准和值，这些标准和值在满足时触发一组操作，如发送应用程序内消息。
 
    1. 如果需要，单击事件下拉列表以更改触发器。
 
@@ -153,10 +153,10 @@ ht-degree: 13%
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
-      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常是API调用 [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) AEP Edge扩展中的。 |
-      | 核心跟踪 | 跟踪操作 | 当移动代码API中提供旧版功能时触发 [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) 称为。 |
-      | 核心跟踪 | 跟踪状态 | 当移动代码API中提供旧版功能时触发 [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) 称为。 |
-      | 核心跟踪 | 收集PII | 当移动代码API中提供旧版功能时触发 [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) 称为。 |
+      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常API会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
+      | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
+      | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
+      | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
       | 应用程序生命周期 | 应用程序启动 | 在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从背景恢复应用程序时也会触发。 |
       | 应用程序生命周期 | 应用程序安装 | 安装或重新安装后，在首次运行时触发。 |
       | 应用程序生命周期 | 应用程序更新 | 升级后或版本号变更后，在首次运行时触发。 |
@@ -167,13 +167,13 @@ ht-degree: 13%
 
 +++
 
-   1. 单击 **[!UICONTROL 添加条件]** 如果希望触发器考虑多个事件或标准。
+   1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
-   1. 选择 **[!UICONTROL 或]** 条件（如果要添加更多） **[!UICONTROL 触发器]** 以进一步扩展您的规则。
+   1. 如果要添加更多&#x200B;**[!UICONTROL 触发器]**，请选择&#x200B;**[!UICONTROL 或]**&#x200B;条件以进一步扩展规则。
 
       ![](assets/in_app_create_3.png)
 
-   1. 选择 **[!UICONTROL 和]** 条件（如果要添加） **[!UICONTROL 特征]** 并且更好地调整你的规则。
+   1. 如果要添加&#x200B;**[!UICONTROL 特征]**&#x200B;并更好地优化规则，请选择&#x200B;**[!UICONTROL 和]**&#x200B;条件。
 
       +++查看可用的特征。
 
@@ -201,22 +201,22 @@ ht-degree: 13%
 
       ![](assets/in_app_create_8.png)
 
-   1. 单击 **[!UICONTROL 创建组]** 将触发器组合在一起。
+   1. 单击“**[!UICONTROL 创建组]**”将触发器组合在一起。
 
 1. 选择应用程序内消息处于活动状态时触发的频率。 可以使用以下选项：
 
-   * **[!UICONTROL Everytime]**：始终显示所选事件时的消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 一次]**：仅在中首次选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 出现下拉列表。
-   * **[!UICONTROL 点进之前]**：当在中选择事件时显示此消息 **[!UICONTROL 移动应用程序触发器]** 在SDK通过“已单击”操作发送交互事件之前，将会出现下拉列表。
-   * **[!UICONTROL X次数]**：此消息显示X次。
+   * **[!UICONTROL Everytime]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选定的事件发生时，始终显示消息。
+   * **[!UICONTROL 一次]**：仅在首次在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中发生选定的事件时显示此消息。
+   * **[!UICONTROL 点进之前]**：在SDK发送交互事件并执行“已点击”操作之前，当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息。
+   * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择所需的 **[!UICONTROL 星期几]** 或 **[!UICONTROL 时间]** 此时将显示应用程序内消息。
+1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
 
-1. 营销活动旨在按特定日期或循环频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
    ![](assets/in-app-schedule.png)
 
-1. 您现在可以使用开始设计内容 **[!UICONTROL 编辑内容]** 按钮。 [了解详情](design-in-app.md)
+1. 您现在可以使用&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计内容。 [了解详情](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 

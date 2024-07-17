@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 函数
+title: 功能
 description: 了解函数
 feature: Journeys
 role: Data Engineer, Architect
@@ -11,11 +11,11 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 70%
+ht-degree: 68%
 
 ---
 
-# 函数 {#functions}
+# 功能 {#functions}
 
 一个函数可以有不同的特征码（一组不同的有序参数）。 函数签名可以有0-N个表达式作为有序参数。
 
@@ -27,7 +27,7 @@ ht-degree: 70%
 
 ## 主要函数
 
-| 类别 | 功能 |
+| 类别 | 函数 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
 | 聚合 | [avg](../functions/functionavg.md) |
@@ -63,11 +63,11 @@ ht-degree: 70%
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 列表 | [筛选](../functions/functionfilter.md) |
+| 列表 | [筛选器](../functions/functionfilter.md) |
 | 列表 | [getListItem](../functions/functiongetlistitem.md) |
 | 列表 | [in](../functions/functionin.md) |
 | 列表 | [相交](../functions/functionintersect.md) |
-| 列表 | [limit](../functions/functionlimit.md) |
+| 列表 | [限制](../functions/functionlimit.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
 | 列表 | [sort](../functions/functionsort.md) |

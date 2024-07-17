@@ -19,23 +19,23 @@ ht-degree: 16%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您没有使用Adobe Journey Optimizer， [单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}.
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您没有使用Adobe Journey Optimizer，[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
-受众构成产生的受众可从 **[!UICONTROL 浏览]** 选项卡 **[!UICONTROL 受众]** 菜单。
+可从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单中的&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡访问由受众组合产生的受众。
 
-此选项卡列出了存储在Adobe Experience Platform中的所有受众。 使用受众组合创建的受众可由以下识别 **[!UICONTROL 受众构成]** 来源。
+此选项卡列出了存储在Adobe Experience Platform中的所有受众。 使用受众组合创建的受众可由&#x200B;**[!UICONTROL 受众组合]**&#x200B;来源识别。
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->有关Adobe Experience Platform中可用的其他受众类型的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans).
+>有关Adobe Experience Platform中可用的其他受众类型的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)。
 
-此 **[!UICONTROL 配置文件计数]** 列提供有关受众中包含的用户档案数的信息。 单击“i”按钮可了解有关计算此信息的日期的详细信息。
+**[!UICONTROL 配置文件计数]**&#x200B;列提供有关受众中包含的配置文件数的信息。 单击“i”按钮可了解有关计算此信息的日期的详细信息。
 
-要将自定义或核心数据使用标签分配给受众，请单击省略号按钮，然后选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLA)的更多信息](../administration/object-based-access.md)
+要将自定义或核心数据使用标签分配给受众，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLA)的更多信息](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

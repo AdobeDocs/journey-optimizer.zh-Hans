@@ -38,19 +38,19 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 * 其中一个直接推广新系列和图像的10%选件。
 * 另一家公司只发布了特别优惠广告，没有提供任何图片，也未指定10%的折扣。
 
-此处的目标是查看收件人是否会根据收到的试验与电子邮件交互。 因此，我们将选择 **[!UICONTROL 电子邮件打开次数]** 作为此内容试验中的主要目标量度。
+此处的目标是查看收件人是否会根据收到的试验与电子邮件交互。 因此，我们将选择&#x200B;**[!UICONTROL 电子邮件打开次数]**&#x200B;作为此内容试验的主要目标量度。
 
 ![](assets/content_experiment.png)
 
 ## 创建您的内容 {#campaign-experiment}
 
-1. 首先创建和配置电子邮件、短信或推送通知 [营销活动](../campaigns/create-campaign.md) 或 [历程](../building-journeys/journeys-message.md) 根据您的要求。
+1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journeys-message.md)。
 
    >[!AVAILABILITY]
    >
    >目前，历程试验仅适用于一批组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
-1. 从 **[!UICONTROL 编辑内容]** 窗口，开始个性化处理A。
+1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口，开始个性化处理A。
 
    对于此处理，我们将直接在主题行中指定特殊选件并添加个性化。
 
@@ -70,27 +70,27 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 >title="成功量度"
 >abstract="成功量度用于跟踪和评估试验中表现最佳的处理方法。在使用数据集之前，请务必针对某些量度设置数据集。"
 
-1. 对消息进行个性化后，在营销活动摘要页面中，单击 **[!UICONTROL 创建试验]** 以开始配置内容体验。
+1. 当消息个性化后，在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。
 
    ![](assets/content_experiment_3.png)
 
-1. 选择 **[!UICONTROL 成功量度]** 要为试验设置。
+1. 选择要为试验设置的&#x200B;**[!UICONTROL 成功量度]**。
 
-   对于此示例，请选择 **[!UICONTROL 电子邮件打开]** 测试用户档案是否打开其电子邮件（如果促销代码在主题行中）。
+   对于此示例，选择&#x200B;**[!UICONTROL 电子邮件打开]**&#x200B;以测试用户档案是否打开其电子邮件（如果促销代码在主题行中）。
 
    ![](assets/content_experiment_11.png)
 
-1. 使用应用程序内或Web渠道设置试验并选择 **[!UICONTROL 入站点击次数]**， **[!UICONTROL 独特入站点击次数]** ， **[!UICONTROL 页面查看次数]** ，或 **[!UICONTROL 独特页面查看次数量度]** ， **[!UICONTROL 单击操作]**  利用下拉列表，可精确跟踪和监控特定页面上的点击次数和查看次数。
+1. 使用应用程序内或Web渠道设置试验，并选择&#x200B;**[!UICONTROL 入站点击数]**、**[!UICONTROL 独特入站点击数]**、**[!UICONTROL 页面查看次数]**&#x200B;或&#x200B;**[!UICONTROL 独特页面查看次数指标]**&#x200B;时，**[!UICONTROL 点击操作]**&#x200B;下拉列表可让您准确地跟踪和监控特定页面上的点击数和查看次数。
 
    ![](assets/content_experiment_20.png)
 
-1. 单击 **[!UICONTROL 添加处理]** 创建所需数量的新治疗。
+1. 单击&#x200B;**[!UICONTROL 添加处理]**&#x200B;可根据需要创建任意数量的新处理。
 
    ![](assets/content_experiment_8.png)
 
-1. 更改 **[!UICONTROL 标题]** 以更好地区分他们。
+1. 更改治疗的&#x200B;**[!UICONTROL Title]**&#x200B;以更好地区分它们。
 
-1. 选择以添加 **[!UICONTROL 保留样本]** 分组到您的投放。 此群组将不会收到来自此营销活动的任何内容。
+1. 选择向您的投放添加&#x200B;**[!UICONTROL 维持]**&#x200B;组。 此群组将不会收到来自此营销活动的任何内容。
 
    打开切换栏将自动获取您群体的10%，您可以根据需要调整此百分比。
 
@@ -100,32 +100,32 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
    ![](assets/content_experiment_12.png)
 
-1. 然后，您可以选择为每个报表包分配精确百分比 **[!UICONTROL 处理]** 或者只需打开 **[!UICONTROL 均匀分布]** 切换栏。
+1. 然后，您可以选择为每个&#x200B;**[!UICONTROL 待遇]**&#x200B;分配精确百分比，或者只需打开&#x200B;**[!UICONTROL 平均分配]**&#x200B;切换栏。
 
    ![](assets/content_experiment_13.png)
 
-1. 单击 **[!UICONTROL 创建]** 设置配置时。
+1. 设置配置后，单击&#x200B;**[!UICONTROL 创建]**。
 
 ## 设计您的待遇 {#treatment-experiment}
 
-1. 从 **[!UICONTROL 编辑内容]** 窗口中，选择您的处理B以更改内容。
+1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口中，选择您的处理B以更改内容。
 
-   在此，我们选择不在 **[!UICONTROL 主题行]**.
+   在此，我们选择不在&#x200B;**[!UICONTROL 主题行]**&#x200B;中指定选件。
 
    ![](assets/content_experiment_18.png)
 
-1. 单击 **[!UICONTROL 编辑电子邮件正文]** 以进一步个性化您的治疗B。
+1. 单击&#x200B;**[!UICONTROL 编辑电子邮件正文]**&#x200B;以进一步个性化您的待遇B。
 
    ![](assets/content_experiment_9.png)
 
-1. 设计处理方式后，单击 **[!UICONTROL 更多操作]** 要访问与处理相关的选项，请执行以下操作： **[!UICONTROL 重命名]**， **[!UICONTROL 复制]** 和 **[!UICONTROL 删除]**.
+1. 设计处理之后，单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;以访问与处理相关的选项： **[!UICONTROL 重命名]**、**[!UICONTROL 复制]**&#x200B;和&#x200B;**[!UICONTROL 删除]**。
 
    ![](assets/content_experiment_7.png)
 
-1. 如果需要，请访问 **[!UICONTROL 试验设置]** 菜单更改您的处理配置。
+1. 如果需要，访问&#x200B;**[!UICONTROL 试验设置]**&#x200B;菜单以更改处理配置。
 
    ![](assets/content_experiment_19.png)
 
-1. 定义消息内容后，单击 **[!UICONTROL 模拟内容]** 按钮来控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../content-management/preview-test.md)
+1. 定义消息内容后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../content-management/preview-test.md)
 
 配置试验后，您可以在报表中跟踪投放的成功情况。 [了解详情](../reports/campaign-global-report.md#experimentation-report)

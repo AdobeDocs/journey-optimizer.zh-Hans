@@ -27,13 +27,13 @@ ht-degree: 56%
 
 >[!CAUTION]
 >
->事件配置为 **必需** 并且必须由 **数据工程师**.
+>事件配置是&#x200B;**必需的**，必须由&#x200B;**数据工程师**&#x200B;执行。
 
 您可以配置两种类型的事件：
 
-* **单一** 事件：这些事件链接到人员。 它与人员的行为相关（例如，某人购买产品、访问商店、退出网站等） 或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这是什么 [!DNL Journey Optimizer] 将在旅程中侦听以编排最佳的后续行动。 单一事件可以是基于规则的，也可以是系统生成的。 要了解如何创建单一事件，请参阅此 [页面](../event/about-creating.md).
+* **单一**&#x200B;事件：这些事件链接到人员。 它与人员的行为相关（例如，某人购买产品、访问商店、退出网站等） 或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这是[!DNL Journey Optimizer]在历程中将侦听的内容，以编排最佳的后续行动。 单一事件可以是基于规则的，也可以是系统生成的。 要了解如何创建单一事件，请参阅此[页面](../event/about-creating.md)。
 
-* **商业** 事件：与单一事件相反，商业事件是指不链接到特定用户档案的事件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 将业务事件拖放到历程中时，会自动添加 **读取受众** 活动结束后。 要了解如何创建商业活动，请参阅此 [页面](../event/about-creating-business.md).
+* **业务**&#x200B;事件：与单一事件不同，业务事件是指未链接到特定用户档案的事件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。 要了解如何创建商业活动，请参阅此[页面](../event/about-creating-business.md)。
 
 
 >[!NOTE]
@@ -54,7 +54,7 @@ ht-degree: 56%
 
   >[!CAUTION]
   >
-  >为基于规则的事件定义上限规则。它将历程可为给定组织处理的合格事件数限制为每秒5000。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和 [Journey Optimizer产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html).
+  >为基于规则的事件定义上限规则。它将历程可为给定组织处理的合格事件数限制为每秒5000。 它对应于Journey Optimizer SLA。 请参阅您的Journey Optimizer许可和[Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html)。
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 
@@ -66,11 +66,11 @@ ht-degree: 56%
 
 事件是 POST API 调用。事件通过流式引入API发送到Adobe Experience Platform。 通过事务性消息传递API发送的事件的URL目标称为“入口”。 事件的有效负载遵循 XDM 格式。
 
-有效负载包含流式引入API工作所需的信息（在标题中）以及所需的信息 [!DNL Journey Optimizer] 工作以及在旅程中使用的信息（在正文中，例如放弃购物车的金额）。 流式引入有两种模式，即验证和未验证。有关流式引入 API 的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
+有效负载包含流式引入API工作所需的信息（在标题中）和[!DNL Journey Optimizer]工作所需的信息以及要在旅程中使用的信息（在正文中，例如放弃购物车的数量）。 流式引入有两种模式，即验证和未验证。有关流式引入 API 的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
 
 事件通过流式引入API到达后，会流入名为Pipeline的内部服务，然后流入Adobe Experience Platform。 如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
 
-对于系统生成的事件，Pipeline会筛选有效负载包含以下内容的事件 [!DNL Journey Optimizer] eventIDs（请参阅下面的事件创建流程）由提供 [!DNL Journey Optimizer] 并包含在事件有效负载中。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
+对于系统生成的事件，Pipeline会筛选有效负载由[!DNL Journey Optimizer]提供并包含在事件有效负载中的事件，这些有效负载包含[!DNL Journey Optimizer]个事件ID（请参阅下面的事件创建流程）。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
 
 ## 操作说明视频 {#video}
 

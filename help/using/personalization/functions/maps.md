@@ -9,7 +9,7 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## Get{#get}
 
-此 `get` 函数用于检索给定键的映射值。
+`get`函数用于检索给定键的映射值。
 
 **语法**
 
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 **示例**
 
-以下操作获取该键的标识映射的值 `example@example.com`.
+以下操作获取键`example@example.com`的标识映射值。
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 ## 键{#keys}
 
-此 `keys` 函数用于检索给定映射的所有键。
+`keys`函数用于检索给定映射的所有键。
 
 **语法**
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 **示例**
 
-以下操作获取映射的所有键 `identityMap`.
+以下操作获取映射`identityMap`的所有键。
 
 ```sql
 {%= keys(identityMap) %}
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 ## 值{#values}
 
-此 `values` 函数用于检索给定映射的所有值。
+`values`函数用于检索给定映射的所有值。
 
 **语法**
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 **示例**
 
-以下操作获取映射的所有值 `identityMap`.
+以下操作获取映射`identityMap`的所有值。
 
 ```sql
 {%= values(identityMap) %}

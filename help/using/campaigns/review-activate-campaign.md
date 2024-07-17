@@ -20,7 +20,7 @@ ht-degree: 7%
 
 配置活动后，您需要先查看其参数和内容，然后再激活它。 为此，请执行以下步骤：
 
-1. 在Campaign配置屏幕中，单击 **[!UICONTROL 审查以激活]** 以显示营销活动的摘要。
+1. 在营销活动配置屏幕中，单击&#x200B;**[!UICONTROL 查看以激活]**&#x200B;以显示营销活动摘要。
 
    利用该摘要，可根据需要修改营销策划，并检查参数是否不正确或缺失。
 
@@ -30,20 +30,20 @@ ht-degree: 7%
 
    ![](assets/create-campaign-alerts.png)
 
-1. 检查营销活动是否正确配置，然后单击 **[!UICONTROL 激活]**.
+1. 检查营销活动是否正确配置，然后单击&#x200B;**[!UICONTROL 激活]**。
 
-1. 营销活动现已激活。 其状态为 **[!UICONTROL 实时]**，或 **[!UICONTROL 已计划]** 如果您输入了开始日期。 [了解有关营销活动状态的更多信息](get-started-with-campaigns.md#statuses).
+1. 营销活动现已激活。 其状态为&#x200B;**[!UICONTROL 实时]**，或者&#x200B;**[!UICONTROL 已计划]**（如果您输入了开始日期）。 [了解有关营销活动状态的更多信息](get-started-with-campaigns.md#statuses)。
 
    在营销活动中配置的消息将立即发送或在指定日期发送。
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 已完成]** 状态会在营销活动3天后自动分配给该活动，如果活动定期执行，则会在营销活动的结束日期分配给该活动。
+   >**[!UICONTROL 已完成]**&#x200B;状态将在营销活动3天后自动分配给该活动，如果活动定期执行，则会在营销活动的结束日期分配。
    >
-   >如果未指定结束日期，则营销活动将保留 **[!UICONTROL 实时]** 状态。 要更改此项，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
+   >如果未指定结束日期，则营销活动将保持&#x200B;**[!UICONTROL 实时]**&#x200B;状态。 要更改此项，您需要手动停止营销活动。 [了解如何停止营销活动](modify-stop-campaign.md)
 
 1. 激活营销策划后，您可以随时通过打开它来检查其信息。 利用该摘要，可获取有关定向的用户档案以及已投放和失败操作数的统计信息。
 
-   您还可以在专用报告中通过单击 **[!UICONTROL 报表]** 按钮。 [了解详情](../reports/campaign-global-report.md)
+   通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，您还可以在专用报告中获取其他统计信息。 [了解详情](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)

@@ -20,53 +20,53 @@ ht-degree: 7%
 
 首先，创建将在您的数据集中使用的架构：
 
-1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]**.
+1. 从&#x200B;**[!UICONTROL 数据管理]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 架构]**。
 
-1. 单击 **[!UICONTROL 创建架构]**，在右上方，选择 **[!UICONTROL 体验事件]** 并单击 **下一个**.
+1. 单击&#x200B;**[!UICONTROL 创建架构]**，在右上角选择&#x200B;**[!UICONTROL 体验事件]**，然后单击&#x200B;**下一步**。
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >在中了解有关XDM架构和字段组的更多信息 [XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+   >在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中了解有关XDM架构和字段组的更多信息。
 
-1. 输入架构的名称和说明，然后单击 **完成**.
+1. 输入架构的名称和描述，然后单击&#x200B;**完成**。
    ![](../assets/ai-ranking-xdm-event-2.png)
 
-1. 从 **[!UICONTROL 字段组]** 部分，选择 **[!UICONTROL 添加]**.
+1. 从左侧的&#x200B;**[!UICONTROL 字段组]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 添加]**。
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. 在 **[!UICONTROL Search]** 字段，键入“proposition interaction”。
+1. 在&#x200B;**[!UICONTROL 搜索]**&#x200B;字段中，键入“建议交互”。
 
-1. 选择 **[!UICONTROL 体验事件 — 建议交互]** 字段组并单击 **[!UICONTROL 添加字段组]**.
+1. 选择&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组，然后单击&#x200B;**[!UICONTROL 添加字段组]**。
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >要在数据集中使用的架构必须具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 否则，您将无法在AI模型中使用它。
+   >将在您的数据集中使用的架构必须具有与其关联的&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组。 否则，您将无法在AI模型中使用它。
 
 1. 保存架构。
 
 >[!NOTE]
 >
->详细了解在中构建架构 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>了解有关在[架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}中构建架构的更多信息。
 
 您现在已准备好使用此架构创建数据集。 为此，请执行以下步骤：
 
-1. 从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 数据集]** 然后转到 **[!UICONTROL 浏览]** 选项卡。
+1. 从&#x200B;**[!UICONTROL 数据管理]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 数据集]**，然后转到&#x200B;**[!UICONTROL 浏览]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL 创建数据集]** 并选择 **[!UICONTROL 从架构创建数据集]**.
+1. 单击&#x200B;**[!UICONTROL 创建数据集]**&#x200B;并选择&#x200B;**[!UICONTROL 从架构创建数据集]**。
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. 从列表中选择您刚刚创建的架构，然后单击 **[!UICONTROL 下一个]**.
+1. 从列表中选择您刚创建的架构，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在中为数据集提供唯一名称 **[!UICONTROL 名称]** 字段并单击 **[!UICONTROL 完成]**.
+1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中提供数据集的唯一名称，然后单击&#x200B;**[!UICONTROL 完成]**。
 
    ![](../assets/ai-ranking-dataset-name.png)
 
 >[!NOTE]
 >
->在以下情况下，现在可以选择此数据集来收集事件数据 [创建AI模型](../ranking/create-ranking-strategies.md).
+>现在可以选择此数据集在[创建AI模型](../ranking/create-ranking-strategies.md)时收集事件数据。

@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找后备优惠 {#look-up-fallback-offers}
 
-您可以通过向以下网站发出GET请求来查找特定的后备优惠： [!DNL Offer Library] 请求路径中包含后备优惠ID的API。
+您可以通过向[!DNL Offer Library] API发出请求来查找特定的备用选件，该API在请求路径中包含备用选件ID。GET
 
 **API格式**
 

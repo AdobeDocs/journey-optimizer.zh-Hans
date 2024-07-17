@@ -19,7 +19,7 @@ ht-degree: 91%
 
 节流API可帮助您创建、配置和监视节流配置，以限制每秒发送的事件数。
 
-本节提供有关如何使用API的全球信息。 有关API的详细说明，请参阅 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/).
+本节提供有关如何使用API的全球信息。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/)中提供了详细的API描述。
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ ht-degree: 91%
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 * `{JO_HOST}`：[!DNL Journey Optimizer]网关 URL
-* `{BASE_PATH}` ：API的入口点。
+* `{BASE_PATH}` ： API的入口点。
 * `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
 在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。

@@ -32,17 +32,17 @@ ht-degree: 63%
 
 ![](assets/canvas-disconnected.png)
 
-在 **[!UICONTROL 测试]** 切换和 **[!UICONTROL Publish]** 按钮时，会显示警告符号。 此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，则可以复制详细信息并将其发送给管理员或支持人员。 请注意，阻止测试的错误和阻止发布的错误是相似的。
+在&#x200B;**[!UICONTROL Test]**&#x200B;切换开关和&#x200B;**[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。 此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，则可以复制详细信息并将其发送给管理员或支持人员。 请注意，阻止测试的错误和阻止发布的错误是相似的。
 
 系统检测到两种问题：错误和警告。错误阻止发布和测试激活。警告指示未阻止测试激活或发布的潜在问题。您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。这将帮助技术支持人员确定问题。
 
-在旁边的符号上可以显示两种不同的颜色 **[!UICONTROL 测试]** 切换和 **[!UICONTROL Publish]** 按钮。 出现错误时，该符号以红色显示。出现警告时，以橙色显示。
+在&#x200B;**[!UICONTROL Test]**&#x200B;切换和&#x200B;**[!UICONTROL Publish]**&#x200B;按钮旁边的符号上可以显示两种不同的颜色。 出现错误时，该符号以红色显示。出现警告时，以橙色显示。
 
 ![](assets/journey75.png)
 
-历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。此 **[!UICONTROL 复制详细信息]** 按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
+历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。**[!UICONTROL 复制详细信息]**&#x200B;按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框 **[!UICONTROL 在超时或错误的情况下添加替代路径]**. 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 检查事件是否正确发送 {#checking-that-events-are-properly-sent}
 
@@ -50,7 +50,7 @@ ht-degree: 63%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} 流摄取API疑难解答。
+事件不会直接从源推送到历程。 事实上，历程依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以了解流摄取API故障排除。
 
 ## 检查人员是否进入历程 {#checking-if-people-enter-the-journey}
 
@@ -85,7 +85,7 @@ ht-degree: 63%
 
 如果人员在历程中以正确的方式流动，但没有收到他们应该收到的消息，您可以检查：
 
-* [!DNL Journey Optimizer] 已正确考虑发送消息的请求。 商业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间对应。 他们还可以检查收到的最新API调用/事件。
-* [!DNL Journey Optimizer] 已成功发送消息。 检查历程报告以确保没有错误。
+* [!DNL Journey Optimizer]已正确考虑发送邮件的请求。 商业用户可以访问应发送的消息，并检查最新执行的时间是否与历程的执行时间对应。 他们还可以检查收到的最新API调用/事件。
+* [!DNL Journey Optimizer]已成功发送消息。 检查历程报告以确保没有错误。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。 如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。

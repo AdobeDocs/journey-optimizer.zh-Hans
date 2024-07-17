@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 9%
 
 集合是基于营销人员定义的预定义条件的优惠的子集，如优惠的类别。
 
-您可以通过对以下对象发出POST请求来创建收藏集： [!DNL Offer Library] API。
+您可以通过向[!DNL Offer Library] API发出POST请求来创建收藏集。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 
 **响应**
 
-成功的响应会返回有关新创建的收藏集的信息，包括其 `id`. 您可以使用 `id` 在后续步骤中更新或删除您的收藏集，或在后续教程中创建决策。
+成功的响应返回有关新创建的收藏集的信息，包括其`id`。 您可以在后续步骤中使用`id`来更新或删除您的收藏集，或在以后的教程中创建决策。
 
 ```json
 {

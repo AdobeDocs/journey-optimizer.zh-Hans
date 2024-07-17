@@ -17,16 +17,16 @@ ht-degree: 0%
 
 # journeysteps事件常用字段 {#sharing-common-fields}
 
-以下事件将共享此字段组： **journeyStepEvent** 和 **journeyStepProfileEvent**.
+此字段组将由以下事件共享： **journeyStepEvent**&#x200B;和&#x200B;**journeyStepProfileEvent**。
 
-以下是常见的XDM字段 [!DNL Journey Optimizer] 发送至Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
+这些是[!DNL Journey Optimizer]发送到Adobe Experience Platform的公共XDM字段。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
 
 其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件大小。
 
 
 >[!NOTE]
 >
->了解有关历程属性的更多信息 [在此部分中](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>在本节](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性[的更多信息。
 
 
 ## 入口 {#entrance-field}

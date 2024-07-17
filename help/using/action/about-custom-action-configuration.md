@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 067c990f7f82594418d59c3b1587a62a04799c09
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="自定义操作"
->abstract="如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、 [Adobe Developer](https://developer.adobe.com)、Firebase等。"
+>abstract="如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。例如，可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com)、Firebase 等。"
 
-如果您使用第三方系统发送消息，或者如果您希望历程将API调用发送到第三方系统，请使用自定义操作配置其与历程的连接。 例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、 [Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
+如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
-自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的 **[!UICONTROL 操作]** 类别。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
+自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
 
 ## 限制{#custom-actions-limitations}
 
-自定义操作具有下列限制 [此页面](../start/guardrails.md).
+自定义操作在[此页面](../start/guardrails.md)中列出了一些限制。
 
-在自定义操作参数中，您可以传递简单的集合以及对象集合。 在中了解有关收藏集限制的更多信息 [此页面](../building-journeys/collections.md#limitations).
+在自定义操作参数中，您可以传递简单的集合以及对象集合。 在[此页面](../building-journeys/collections.md#limitations)中了解有关收藏集限制的更多信息。
 
-另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在本节中了解详情 [用例](../building-journeys/collections.md).
+另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在此[用例](../building-journeys/collections.md)中了解详情。
 
-仅当使用时，自定义操作才支持JSON格式 [请求](../action/about-custom-action-configuration.md#define-the-message-parameters) 或 [响应负载](../action/action-response.md).
+只有在使用[请求](../action/about-custom-action-configuration.md#define-the-message-parameters)或[响应负载](../action/action-response.md)时，自定义操作才支持JSON格式。
 
 ## 最佳实践{#custom-action-enhancements-best-practices}
 
@@ -58,15 +58,15 @@ ht-degree: 13%
 
 在Journey Optimizer中，您可以将数据治理和同意策略应用于自定义操作，以防止将特定字段导出到第三方系统，或排除未同意接收电子邮件、推送或短信通信的客户。 有关更多信息，请参阅以下页面：
 
-* [数据治理](../action/action-privacy.md).
-* [同意](../action/action-privacy.md).
+* [数据管理](../action/action-privacy.md)。
+* [同意](../action/action-privacy.md)。
 
 
 ## 配置步骤 {#configuration-steps}
 
 以下是配置自定义操作所需的主要步骤：
 
-1. 在“管理”菜单部分中，选择 **[!UICONTROL 配置]**. 在  **[!UICONTROL 操作]** 部分，单击 **[!UICONTROL 管理]**. 单击 **[!UICONTROL 创建操作]** 以创建新操作。 操作配置窗格将在屏幕右侧打开。
+1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**。 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 管理]**。 单击&#x200B;**[!UICONTROL 创建操作]**&#x200B;以创建新操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](assets/custom2.png)
 
@@ -77,25 +77,25 @@ ht-degree: 13%
    >只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
 1. 向操作添加描述。 此步骤是可选的。
-1. 使用此操作的旅程数显示在 **[!UICONTROL 使用位置]** 字段。 您可以单击 **[!UICONTROL 查看历程]** 按钮以显示使用此操作的历程列表。
-1. 定义不同的 **[!UICONTROL URL配置]** 参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
-1. 配置 **[!UICONTROL 身份验证]** 部分。 此配置与数据源的配置相同。  请参阅 [本节](../datasource/external-data-sources.md#custom-authentication-mode).
-1. 定义 **[!UICONTROL 操作参数]**. 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL 在]**&#x200B;中使用字段中。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示使用此操作的历程列表。
+1. 定义不同的&#x200B;**[!UICONTROL URL配置]**&#x200B;参数。 请参阅[此页](../action/about-custom-action-configuration.md#url-configuration)。
+1. 配置&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#custom-authentication-mode)。
+1. 定义&#x200B;**[!UICONTROL 操作参数]**。 请参阅[此页](../action/about-custom-action-configuration.md#define-the-message-parameters)。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    自定义操作现已配置完毕，可随时用于您的历程。 请参阅[此页](../building-journeys/about-journey-activities.md#action-activities)。
 
    >[!NOTE]
    >
-   >在历程中使用自定义操作时，大多数参数均为只读。 您只能修改 **[!UICONTROL 名称]**， **[!UICONTROL 描述]**， **[!UICONTROL URL]** 字段和 **[!UICONTROL 身份验证]** 部分。
+   >在历程中使用自定义操作时，大多数参数均为只读。 您只能修改&#x200B;**[!UICONTROL Name]**、**[!UICONTROL Description]**、**[!UICONTROL URL]**&#x200B;字段和&#x200B;**[!UICONTROL 身份验证]**&#x200B;部分。
 
 ## 端点配置 {#url-configuration}
 
-配置自定义操作时，您需要定义以下内容 **[!UICONTROL 端点配置]** 参数：
+配置自定义操作时，您需要定义以下&#x200B;**[!UICONTROL 终结点配置]**&#x200B;参数：
 
 ![](assets/action-response1bis.png){width="70%" align="left"}
 
-1. 在 **[!UICONTROL URL]** 字段，指定外部服务的URL：
+1. 在&#x200B;**[!UICONTROL URL]**&#x200B;字段中，指定外部服务的URL：
 
    * 如果URL是静态的，请在此字段中输入URL。
 
@@ -111,25 +111,25 @@ ht-degree: 13%
    >
    >定义自定义操作时只允许使用默认端口：80用于http，443用于https。
 
-1. 选择呼叫 **[!UICONTROL 方法]**：它可以是以下任一类型 **[!UICONTROL POST]**， **[!UICONTROL GET]** 或 **[!UICONTROL PUT]**.
+1. 选择调用&#x200B;**[!UICONTROL 方法]**：它可以是&#x200B;**[!UICONTROL POST]**、**[!UICONTROL GET]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
 
    >[!NOTE]
    >
-   > 此 **DELETE** 方法不受支持。 如果需要更新现有资源，请选择 **PUT** 方法。
+   > 不支持&#x200B;**DELETE**&#x200B;方法。 如果需要更新现有资源，请选择&#x200B;**PUT**&#x200B;方法。
 
 1. 定义标头和查询参数：
 
-   * 在 **[!UICONTROL 标题]** 部分，单击 **[!UICONTROL 添加标题字段]** 定义发送到外部服务的请求消息的HTTP标头。 此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL 字符集]** 默认设置标题字段。 您无法删除这些字段。 仅 **[!UICONTROL Content-Type]** 可以修改标头。 其值应遵循JSON格式。 以下是默认值：
+   * 在&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加标头字段]**&#x200B;以定义要发送到外部服务的请求消息的HTTP标头。 默认情况下，**[!UICONTROL Content-Type]**&#x200B;和&#x200B;**[!UICONTROL Charset]**&#x200B;标头字段已设置。 您无法删除这些字段。 只能修改&#x200B;**[!UICONTROL Content-Type]**&#x200B;标头。 其值应遵循JSON格式。 以下是默认值：
 
    ![](assets/content-type-header.png)
 
-   * 在 **[!UICONTROL 查询参数]** 部分，单击 **[!UICONTROL 添加查询参数字段]** 以定义要在URL中添加的参数。
+   * 在&#x200B;**[!UICONTROL 查询参数]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加查询参数字段]**&#x200B;以定义要在URL中添加的参数。
 
    ![](assets/journeyurlconfiguration2bis.png)
 
 1. 输入字段的标签或名称。
 
-1. 选择类型： **[!UICONTROL 常量]** 或 **[!UICONTROL 变量]**. 如果您已选择 **[!UICONTROL 常量]**，然后在中输入常量值 **[!UICONTROL 值]** 字段。 如果您已选择 **[!UICONTROL 变量]**，则您将在向历程添加自定义操作时指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+1. 选择类型： **[!UICONTROL 常量]**&#x200B;或&#x200B;**[!UICONTROL 变量]**。 如果已选择&#x200B;**[!UICONTROL 常量]**，请在&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入该常量值。 如果已选择&#x200B;**[!UICONTROL 变量]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -137,19 +137,19 @@ ht-degree: 13%
    >
    >将自定义操作添加到历程后，如果历程处于草稿状态，您仍然可以向历程添加标题或查询参数字段。 如果您不希望配置更改影响历程，请复制自定义操作并将字段添加到新的自定义操作。
    >
-   >将根据字段解析规则验证标头。 了解详情，请参阅 [本文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >将根据字段解析规则验证标头。 请参阅[此文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}以了解详情。
 
 ## mTLS协议支持 {#mtls-protocol-support}
 
 您现在可以使用相互传输层安全性(mTLS)来确保在到Adobe Journey Optimizer自定义操作的出站连接中增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
-自定义操作支持双向TLS (mTLS)身份验证。 自定义操作或历程中无需额外配置即可激活mTLS；当检测到启用了mTLS的端点时，会自动进行此配置。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
 
-1. 在 **[!UICONTROL 请求]** 部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
+1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
-1. 在 **[!UICONTROL 响应]** 部分中，粘贴由调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅 [此页面](../action/action-response.md).
+1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
 
 >[!NOTE]
 >
@@ -165,7 +165,7 @@ ht-degree: 13%
 
 您还可以在指定参数是常量还是变量之间进行选择：
 
-* **常量** 表示参数的值由技术角色在操作配置窗格中定义。 值将在各个历程中始终相同。 此操作不会有所不同，并且营销人员在历程中使用自定义操作时不会看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
-* **变量** 表示参数的值将发生变化。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
+* **常量**&#x200B;表示参数的值由技术角色在操作配置窗格中定义。 值将在各个历程中始终相同。 此操作不会有所不同，并且营销人员在历程中使用自定义操作时不会看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
+* **变量**&#x200B;表示参数的值将发生变化。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
 
 ![](assets/customactionpayloadmessage2.png)

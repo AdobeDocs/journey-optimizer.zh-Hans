@@ -9,21 +9,21 @@ exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 # 更新收藏集 {#update-collection}
 
-您可以通过向以下对象发出PATCH请求来修改或更新收藏集： [!DNL Offer Library] API
+您可以通过向[!DNL Offer Library] API发出PATCH请求来修改或更新收藏集
 
-有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
+有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](https://jsonpatch.com/)。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`， `remove`， `copy` 和 `test`. |
+| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`、`replace`、`remove`、`copy`和`test`。 |
 | `path` | 要更新的参数的路径。 |
 | `value` | 要用于更新参数的新值。 |
 
 **响应**
 
-成功的响应将返回收藏集的更新详细信息，包括其唯一收藏集 `id`.
+成功的响应将返回集合的更新详细信息，包括其唯一的集合`id`。
 
 ```json
 {

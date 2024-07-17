@@ -20,27 +20,27 @@ ht-degree: 2%
 
 # 用例：增加投放数量{#use-case-ramp-up-your-deliveries}
 
-如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，则需要建立您作为发件人的声誉。 否则，您的投放可能会被阻止或移至收件人邮箱的垃圾邮件文件夹。 了解如何在中利用IP预热提高您的电子邮件声誉 [可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans){target="_blank"}.
+如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，则需要建立您作为发件人的声誉。 否则，您的投放可能会被阻止或移至收件人邮箱的垃圾邮件文件夹。 请参阅[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans){target="_blank"}以了解如何利用IP预热提高您的电子邮件信誉。
 
-要预热您的IP，您可以逐渐增加投放的数量。 详细了解 [在Journey Optimizer中优化可投放性](../reports/deliverability.md).
+要预热您的IP，您可以逐渐增加投放的数量。 阅读有关[在Journey Optimizer](../reports/deliverability.md)中优化可投放性的更多信息。
 
 此用例的目的是创建历程以加快电子邮件投放。 要配置此历程，请执行以下步骤：
 
 1. 创建旅程。 [了解详情](journey-gs.md)。
 
-1. 添加 **[!UICONTROL 条件]** 历程的活动。 [了解详情](condition-activity.md)。
+1. 向历程添加&#x200B;**[!UICONTROL 条件]**&#x200B;活动。 [了解详情](condition-activity.md)。
 
-1. 在 **[!UICONTROL 条件]** 活动设置，设置投放的最大收件人数：
+1. 在&#x200B;**[!UICONTROL 条件]**&#x200B;活动设置中，设置投放的最大收件人数：
 
-   1. 在 **[!UICONTROL 条件]** 活动设置，设置 **[!UICONTROL 类型]** 字段至 **[!UICONTROL 配置文件上限]**. [了解详情](condition-activity.md#profile_cap)。
+   1. 在&#x200B;**[!UICONTROL 条件]**&#x200B;活动设置中，将&#x200B;**[!UICONTROL 类型]**&#x200B;字段设置为&#x200B;**[!UICONTROL 配置文件上限]**。 [了解详情](condition-activity.md#profile_cap)。
 
-   1. 设置 **[!UICONTROL 限制]** 字段为此投放的最大收件人数。
+   1. 将&#x200B;**[!UICONTROL Limit]**&#x200B;字段设置为此投放的最大收件人数。
 
    ![](assets/profile-cap-condition.png)
 
    您可以逐渐提高此限制，直至达到订阅者的总数。
 
-1. 添加 **[!UICONTROL 电子邮件]** 操作活动，指向以下路径之后的名义路径 **[!UICONTROL 条件]** 活动。
+1. 在&#x200B;**[!UICONTROL 条件]**&#x200B;活动之后，将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作活动添加到名义路径。
 
    ![](assets/ramp-up-deliveries-message.png)
 

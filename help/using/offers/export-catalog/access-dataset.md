@@ -15,14 +15,14 @@ ht-degree: 11%
 
 # 访问导出的优惠目录 {#access-exported-catalog}
 
-导出的优惠目录可在Adobe Experience Platform中访问 **[!UICONTROL 数据集]** 菜单。 将为选件库的每个对象创建一个数据集。
+可在Adobe Experience Platform **[!UICONTROL 数据集]**&#x200B;菜单中访问导出的优惠目录。 将为选件库的每个对象创建一个数据集。
 
 ![](../assets/datasets-list.png)
 
 单击数据集以访问其详细信息。
 
-此 **[!UICONTROL 预览数据集]** 按钮可让您显示数据集中最近成功的批处理。
+使用&#x200B;**[!UICONTROL 预览数据集]**&#x200B;按钮可显示数据集中最近成功的批处理。
 
 ![](../assets/dataset-activity.png)
 
-有关如何浏览和使用数据集的更多信息，请参阅 [此页面](../../data/get-started-datasets.md).
+有关如何浏览和使用数据集的详细信息，请参阅[此页面](../../data/get-started-datasets.md)。

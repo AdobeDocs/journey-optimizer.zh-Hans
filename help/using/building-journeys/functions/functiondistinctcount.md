@@ -58,4 +58,4 @@ ht-degree: 7%
 
 `distinctCount(@event{my_event.productListItems}, "SKU")`
 
-返回具有不同“SKU”属性值的对象数{}.
+返回具有不同“SKU”属性值{}的对象数。

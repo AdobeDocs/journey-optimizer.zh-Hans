@@ -9,13 +9,13 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
 # 列出决策规则 {#list-decision-rules}
 
-决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。 您可以通过对容器执行单个GET请求，查看容器中现有决策规则的列表。 [!DNL Offer Library] API。
+决策规则是添加到个性化优惠并应用于用户档案以确定资格的约束。 通过执行对[!DNL Offer Library] API的单个GET请求，您可以在容器中查看现有决策规则的列表。
 
 **API格式**
 
@@ -38,7 +38,7 @@ GET /{ENDPOINT_PATH}/offer-rules?{QUERY_PARAMS}
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如下所示：属性={PROPERTY_EXPR}[属性(&amp;P)={PROPERTY_EXPR2}...] 或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式采用格式 `[!]field[op]value`，替换为 `op` 在 `[==,!=,<=,>=,<,>,~]`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[!]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制返回的实体数。 | `limit=5` |
 

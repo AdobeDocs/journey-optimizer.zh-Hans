@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 >abstract="更改将仅应用于所选视图。可使用&#x200B;**浏览**&#x200B;模式发现视图并导航到这些视图。找不到您要找的视图？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-**单页应用程序** (SPA)现在可以在Web设计器可视编辑器中创作。 这允许您选择特定的 **查看次数** 要将网页修改应用于。
+现在可以在Web设计器可视编辑器中创作&#x200B;**单页应用程序** (SPA)。 这允许您选择要将网页修改应用于的特定&#x200B;**视图**。
 
 [在此视频中了解如何创作单页面应用程序](#video)
 
@@ -33,21 +33,21 @@ ht-degree: 17%
 
 ## 在Web SDK实施中定义视图 {#define-views}
 
-可在Adobe中利用XDM视图 [!DNL Journey Optimizer] 使营销人员能够通过Web可视化编辑器在SPA上运行Web个性化和实验营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
+可以在Adobe[!DNL Journey Optimizer]中利用XDM视图，使营销人员能够通过Web可视化编辑器在SPA上运行Web个性化和实验营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
 
-要能够访问和创作中的视图，请执行以下操作 [!DNL Journey Optimizer] 用户界面中，请确保您遵循中列出的步骤 [本节](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+若要能够在[!DNL Journey Optimizer]用户界面中访问和创作视图，请确保按照[本节](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}中列出的步骤操作。
 
 ## 在Web设计器中发现视图 {#discover-views}
 
 在Adobe Experience Platform Web SDK实施中完成SPA设置后，您需要浏览要应用修改的网站的所有视图。 请按照以下步骤操作。
 
-1. [创建Web活动](create-web.md) 并访问 [Web设计器](edit-web-content.md).
+1. [创建Web营销活动](create-web.md)并访问[Web设计器](edit-web-content.md)。
 
    您当前所在的视图将显示在左上方。
 
    ![](assets/web-designer-view-home.png)
 
-1. 交换到 **[!UICONTROL 浏览]** 模式。 [了解详情](../web/edit-web-content.md#browse-mode)
+1. 切换到&#x200B;**[!UICONTROL 浏览]**&#x200B;模式。 [了解详情](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->如果您尚未使用 **[!UICONTROL 浏览]** 模式中，您将无法选择它们来应用您的修改。 [了解详情](#discover-views)
+>如果您尚未使用&#x200B;**[!UICONTROL 浏览]**&#x200B;模式发现视图，则无法选择它们以应用您的修改。 [了解详情](#discover-views)
 
-1. 选择 **[!UICONTROL 修改]** 图标，以在左侧显示相应的窗格。
+1. 选择&#x200B;**[!UICONTROL 修改]**&#x200B;图标以在左侧显示相应的窗格。
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. 选择任何修改并单击 **[!UICONTROL 更多操作]** 按钮。 选择 **[!UICONTROL 应用于更多视图]**.
+1. 选择任何修改并单击其旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。 选择&#x200B;**[!UICONTROL 应用到更多视图]**。
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -77,7 +77,7 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 应用]**。
 
-1. 交换到 **[!UICONTROL 浏览]** 模式，检查修改是否已应用于所需页面。
+1. 切换到&#x200B;**[!UICONTROL 浏览]**&#x200B;模式以检查修改是否应用于所需页面。
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 
 以下视频介绍了如何：
 
-* 使用以下方式发现SPA视图 **[!UICONTROL 浏览]** 模式
+* 使用&#x200B;**[!UICONTROL 浏览]**&#x200B;模式发现SPA视图
 * 在当前视图上进行创作
 * 将网站修改应用于发现的多个视图或所有视图
 * 对修改执行批量操作

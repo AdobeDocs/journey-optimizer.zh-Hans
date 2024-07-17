@@ -11,17 +11,17 @@ exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # 高级表达式编辑器语法 {#syntax}
 
-使用时的语法基础知识 [高级表达式编辑器](expressionadvanced.md) 如下所列。 有关高级表达式编辑器的使用示例，请参见 [此页面](advanced-editor-use-cases.md).
+下面列出了使用[高级表达式编辑器](expressionadvanced.md)时的语法基础知识。 在[此页](advanced-editor-use-cases.md)中提供了高级表达式编辑器的使用示例。
 
 ## 括号和表达式优先级 {#parentheses-and-expression-priority}
 
-可使用括号使复杂表达式更易读。 _(&lt;expression>)_ 等同于 _&lt;expression>_. 括号也可用于定义评估顺序和关联性。
+可使用括号使复杂表达式更易读。 _（&lt;表达式>）_&#x200B;等同于&#x200B;_&lt;表达式>_。 括号也可用于定义评估顺序和关联性。
 
 将按从左到右的顺序计算表达式。 必须应用算术运算符的相关性：乘法和除优先于加法和减法。 为了限定特定的顺序，必须添加括号以分隔操作。 例如：
 
@@ -36,8 +36,8 @@ ht-degree: 2%
 
 以下是不同的区分大小写规则：
 
-* 所有运算符（and、or等） 应该写成小写。 例如， _`<expression1>`和`<expression2>`_ 是有效表达式，但表达式 _`<expression1>`和`<expression2>`_ 不是。
-* 所有函数名称都区分大小写。 例如， _inAudience()_ 有效，但函数 _INAUDIENCE()_ 不是。
+* 所有运算符（and、or等） 应该写成小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
+* 所有函数名称都区分大小写。 例如，_inAudience()_&#x200B;有效，而函数&#x200B;_INAUDIENCE()_&#x200B;无效。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 
 ## 返回的表达式类型 {#returned-expression-type}

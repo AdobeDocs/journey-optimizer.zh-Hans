@@ -10,7 +10,7 @@ exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->要访问计算属性，您需要具有适当的权限(**查看计算属性** 和 **管理计算属性**)。
+>要访问计算属性，您需要具有适当的权限（**查看计算属性**&#x200B;和&#x200B;**管理计算属性**）。
 
 ## 创建计算属性 {#manage}
 
-要创建计算属性，请导航至 **[!UICONTROL 计算属性]** 选项卡 **[!UICONTROL 配置文件]** 菜单的左侧。
+要创建计算属性，请导航到左侧的&#x200B;**[!UICONTROL 配置文件]**&#x200B;菜单中的&#x200B;**[!UICONTROL 计算属性]**&#x200B;选项卡。
 
 在此屏幕中，您可以通过构建规则来构造计算属性，这些规则将事件属性、聚合函数与指定的回顾期间一起组合。 例如，您可以计算过去三个月中进行的购买总数，确定上周未购买的用户档案查看的最新项目，或统计每个用户档案累计的总奖励积分。
 
@@ -38,38 +38,38 @@ ht-degree: 1%
 
 规则准备就绪后，发布计算属性以将其用于其他下游服务，包括Journey Optimizer。
 
-有关如何创建和管理计算属性的详细信息，请参阅 [计算属性文档](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=zh-Hans)
+有关如何创建和管理计算属性的详细信息，请参阅[计算属性文档](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=zh-Hans)
 
 ## 将计算属性添加到Adobe Experience Platform数据源 {#source}
 
-为了能够利用Journey Optimizer中的计算属性，您首先需要将它们添加到Journey Optimizer **Experience Platform** 数据源。
+为了能够利用Journey Optimizer中的计算属性，您首先需要将它们添加到Journey Optimizer **Experience Platform**&#x200B;数据源。
 
-Adobe Experience Platform数据源定义与Adobe实时客户个人资料的连接。 此数据源旨在从实时客户档案服务中检索档案数据和体验事件数据。
+Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源旨在从实时客户档案服务中检索档案数据和体验事件数据。
 
 要将计算属性添加到数据源，请执行以下步骤：
 
-1. 导航至 **[!UICONTROL 配置]** 左侧菜单，然后单击 **[!UICONTROL 数据源]** 卡片。
+1. 导航到&#x200B;**[!UICONTROL 配置]**&#x200B;左侧菜单，然后单击&#x200B;**[!UICONTROL 数据源]**&#x200B;卡。
 
-1. 选择 **[!UICONTROL Experience Platform]** 数据源。
+1. 选择&#x200B;**[!UICONTROL Experience Platform]**&#x200B;数据源。
 
    ![](assets/computed-attributes-add.png)
 
-1. 添加 **[!UICONTROL SystemComputedAttribute]** 包含所有已创建计算属性的字段组。
+1. 添加包含所有已创建的计算属性的&#x200B;**[!UICONTROL SystemComputedAttributes]**&#x200B;字段组。
 
    ![](assets/computed-attributes-fieldgroup.png)
 
 计算属性现在可以在Journey Optimizer中使用。 [了解如何在Journey Optimizer中使用计算属性](#use)
 
-有关如何将字段组添加到Adobe Experience Platform数据源的详细信息，请参阅 [本节](../datasource/adobe-experience-platform-data-source.md).
+有关如何将字段组添加到Adobe Experience Platform数据源的详细信息，请参阅[此部分](../datasource/adobe-experience-platform-data-source.md)。
 
 ## 在Journey Optimizer中使用计算属性 {#use}
 
 >[!NOTE]
 >
->开始之前，请确保已将计算属性添加到Adobe Experience Platform数据源。 [在本节中了解详情](#source).
+>开始之前，请确保已将计算属性添加到Adobe Experience Platform数据源。 [在本节](#source)中了解详情。
 
 计算属性在历程优化器中提供了一组通用的功能。 您可以将它们用于各种目的，例如个性化消息内容、创建新受众或根据特定计算属性拆分历程。 例如，您可以通过在Condition活动中添加单个计算属性，根据用户档案在最近三周内的总购买量拆分历程路径。 您还可以通过显示每个用户档案最近查看的项目来个性化电子邮件。
 
-由于计算属性是在您的配置文件合并架构上创建的配置文件属性字段，因此您可以从中的个性化编辑器访问它们。 **SystemComputedAttribute** 字段组。 从此处，您可以将计算属性添加到表达式中，将它们视为任何其他配置文件属性来执行所需的操作。
+由于计算属性是在您的配置文件合并架构上创建的配置文件属性字段，因此您可以从&#x200B;**SystemComputedAttributes**&#x200B;字段组中的个性化编辑器访问它们。 从此处，您可以将计算属性添加到表达式中，将它们视为任何其他配置文件属性来执行所需的操作。
 
 ![](assets/computed-attributes-ajo.png)

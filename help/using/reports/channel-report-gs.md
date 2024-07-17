@@ -21,35 +21,35 @@ ht-degree: 3%
 
 渠道报表是完全可自定义的，因此您可以调整或删除小组件以创建一个满足您特定需求的功能板。 您还可以将报表数据导出到PDF或CSV文件以供进一步分析。
 
-在本节中了解有关渠道报表可用的不同量度和小组件的更多信息 [页面](channel-report.md).
+在此[页面](channel-report.md)中了解有关渠道报表可用的不同量度和小组件的更多信息。
 
 ## 开始前 {#manage-reports-prereq}
 
-在开始之前，请检查您是否有权访问 **[!UICONTROL 报表]** 菜单。
+开始之前，请检查您是否有权访问&#x200B;**[!UICONTROL 报表]**&#x200B;菜单。
 
-如果您看不到 **[!UICONTROL 报表]** 菜单下，必须扩展您的访问权限以包含 **[!UICONTROL 查看渠道报表]** 许可。 如果您有权访问Adobe Experience Platform，则可以扩展自己的权限 [权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target="_blank"} 为您的组织而设计。 如果没有，请联系您的Adobe Journey Optimizer管理员。
+如果您看不到&#x200B;**[!UICONTROL 报表]**&#x200B;菜单，则必须扩展您的访问权限以包括&#x200B;**[!UICONTROL 查看渠道报表]**&#x200B;权限。 如果您有权访问组织的Adobe Experience Platform [权限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target="_blank"}，则可以扩展自己的权限。 如果没有，请联系您的Adobe Journey Optimizer管理员。
 
 +++了解如何分配报表权限
 
-请注意，此权限包含在以下内置中 **[!UICONTROL 角色]**：Campaign经理、Campaign审批者、Campaign查看者和Campaign管理员。
+请注意，此权限包含在以下内置&#x200B;**[!UICONTROL 角色]**&#x200B;中：营销活动经理、营销活动批准者、营销活动查看者以及营销活动管理员。
 
-要将相应的权限分配给您的 **[!UICONTROL 角色]**：
+要为您的&#x200B;**[!UICONTROL 角色]**&#x200B;分配相应的权限：
 
-1. 从 [!DNL Permissions] 产品，导航到 **[!UICONTROL 角色]** 菜单，然后选择要使用新的更新角色 **[!UICONTROL 查看渠道报表]** 许可。
+1. 从[!DNL Permissions]产品中，导航到&#x200B;**[!UICONTROL 角色]**&#x200B;菜单，然后选择要使用新的&#x200B;**[!UICONTROL 查看渠道报表]**&#x200B;权限更新的角色。
 
-1. 来自您的 **[!UICONTROL 角色]** 仪表板，单击 **[!UICONTROL 编辑]**.
+1. 在您的&#x200B;**[!UICONTROL 角色]**&#x200B;仪表板中，单击&#x200B;**[!UICONTROL 编辑]**。
 
    ![](assets/channel_permission_1.png)
 
-1. 拖放 **[!UICONTROL 报表]** 用于分配权限的资源。
+1. 拖放&#x200B;**[!UICONTROL 报表]**&#x200B;资源以分配权限。
 
-   从 **[!UICONTROL 报表]** 资源下拉列表，选择 **[!UICONTROL 查看渠道报表]** 许可。
+   从&#x200B;**[!UICONTROL 报表]**&#x200B;资源下拉列表中，选择&#x200B;**[!UICONTROL 查看渠道报表]**&#x200B;权限。
 
    ![](assets/channel_permission_2.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-分配给此的用户 **[!UICONTROL 角色]** 现在可以访问 **[!UICONTROL 报表]** 菜单。
+分配到此&#x200B;**[!UICONTROL 角色]**&#x200B;的用户现在可以访问&#x200B;**[!UICONTROL 报告]**&#x200B;菜单。
 
 +++
 
@@ -57,21 +57,21 @@ ht-degree: 3%
 
 要访问和管理渠道报表，请执行以下步骤：
 
-1. 导航至 **[!UICONTROL 报表]** 中的菜单 **[!UICONTROL 历程管理]** 部分。
+1. 导航到&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分中的&#x200B;**[!UICONTROL 报表]**&#x200B;菜单。
 
    ![](assets/channel_report_1.png)
 
-1. 从功能板中选择 **开始** 和 **[!UICONTROL 结束时间]** 以定位特定数据。
+1. 从仪表板中，选择一个&#x200B;**开始**&#x200B;和&#x200B;**[!UICONTROL 结束时间]**&#x200B;以定位特定数据。
 
-1. 从 **[!UICONTROL 操作来源]** 下拉列表中，选择要定位促销活动和/或历程。
+1. 从&#x200B;**[!UICONTROL 从]**&#x200B;执行“操作”下拉列表中，选择是要定位促销活动、历程还是同时定位两者。
 
    ![](assets/channel_report_2.png)
 
-1. 单击 **[!UICONTROL 修改]** 以调整小部件的大小或删除小部件，从而创建满足您特定需求的仪表板。
+1. 单击&#x200B;**[!UICONTROL 修改]**&#x200B;以调整小部件的大小或移除小部件，以创建满足您特定需求的仪表板。
 
    ![](assets/channel_report_3.png)
 
-1. 如果对小部件的显示顺序和大小满意，请单击 **[!UICONTROL 保存]**.
+1. 如果对显示顺序和小部件的大小满意，请单击&#x200B;**[!UICONTROL 保存]**。
 
 1. 根据小组件，您可以选择从表格、条形图或圆环图切换。
 
@@ -85,9 +85,9 @@ ht-degree: 3%
 
 >[!BEGINTABS]
 
->[!TAB 将报表导出为PDF文件]
+>[!TAB 将报告导出为PDF文件]
 
-1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL PDF文件]**.
+1. 在报表中，单击&#x200B;**[!UICONTROL 导出]**&#x200B;并选择&#x200B;**[!UICONTROL PDF文件]**。
 
 1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
 
@@ -97,11 +97,11 @@ ht-degree: 3%
 
 您的报表现在可以在PDF文件中查看或共享。
 
->[!TAB 将报表导出为CSV文件]
+>[!TAB 将报告导出为CSV文件]
 
-1. 在报表中，单击 **[!UICONTROL 导出]** 并选择 **[!UICONTROL CSV文件]** 在整体报表级别生成CSV文件。
+1. 在报表中，单击&#x200B;**[!UICONTROL 导出]**&#x200B;并选择&#x200B;**[!UICONTROL CSV文件]**&#x200B;以生成整个报表级别的CSV文件。
 
-1. 您还可以选择从特定构件导出数据。 单击 **[!UICONTROL 将构件数据导出到CSV]** 在选定小组件旁边。
+1. 您还可以选择从特定构件导出数据。 单击所选构件旁边的&#x200B;**[!UICONTROL 将构件数据导出到CSV]**。
 
 1. 您的文件会自动下载，并位于本地文件中。
 

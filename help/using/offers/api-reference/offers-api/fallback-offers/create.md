@@ -9,19 +9,19 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # 创建后备优惠 {#create-fallback-offer}
 
-您可以通过向以下网站发出POST请求来创建后备优惠： [!DNL Offer Library] API。
+您可以通过向[!DNL Offer Library] API发出POST请求来创建后备优惠。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **响应**
 
-成功的响应会返回有关新创建的后备优惠的信息，包括其唯一的后备优惠 `id`. 您可以使用 `id` 在稍后的步骤中更新或删除您的后备优惠或创建决策（在稍后的教程中）。
+成功的响应返回有关新创建的后备优惠的信息，包括其唯一的后备优惠`id`。 您可以在后续步骤中使用`id`来更新或删除您的后备优惠，或者在稍后的教程中创建决策。
 
 
 ```json

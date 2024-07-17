@@ -18,37 +18,37 @@ ht-degree: 2%
 
 # 创建测试用户档案 {#create-test-profiles}
 
-使用时需要测试用户档案 [测试模式](../building-journeys/testing-the-journey.md) 在历程中，以及 [预览和测试您的内容](../content-management/preview-test.md).
+在历程中使用[测试模式](../building-journeys/testing-the-journey.md)时需要测试配置文件，并且需要[预览和测试您的内容](../content-management/preview-test.md)。
 
 可通过多种方式创建测试用户档案。 您可以在此页详细信息中查找以下内容：
 
-* 翻转 [现有配置文件](#turning-profile-into-test) 放入测试用户档案
+* 将[现有配置文件](#turning-profile-into-test)转换为测试配置文件
 
-* 通过上传测试配置文件创建测试配置文件 [csv文件](#create-test-profiles-csv) 或使用 [API调用](#create-test-profiles-api).
+* 通过上传[csv文件](#create-test-profiles-csv)或使用[API调用](#create-test-profiles-api)创建测试配置文件。
 
-  除了这两种方法之外，Adobe Journey Optimizer还附带特定 [产品内用例](#use-case-1) 以便于创建测试用户档案。
+  除了这两种方法之外，Adobe Journey Optimizer还附带一个特定的[产品内用例](#use-case-1)，以便于创建测试配置文件。
 
-您还可以在现有数据集中上传json文件。 有关详细信息，请参见 [数据引入文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
+您还可以在现有数据集中上传json文件。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
 
-请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 欲了解更多信息，请参见 [Real-time Customer Profile文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
+请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关详细信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
-➡️ [在此视频中了解如何创建测试用户档案](#video)
+➡️[在此视频中了解如何创建测试配置文件](#video)
 
 ## 先决条件 {#test-profile-prerequisites}
 
-为了能够创建用户档案，您首先需要在Adobe中创建架构和数据集 [!DNL Journey Optimizer].
+为了能够创建配置文件，您首先需要在Adobe[!DNL Journey Optimizer]中创建架构和数据集。
 
-至 **创建架构**，请按照以下步骤操作：
+要&#x200B;**创建架构**，请执行以下步骤：
 
-1. 在数据管理菜单部分，单击 **[!UICONTROL 架构]**.
+1. 在“数据管理”菜单部分中，单击&#x200B;**[!UICONTROL 架构]**。
    ![](assets/test-profiles-0.png)
-1. 单击 **[!UICONTROL 创建架构]**，在右上方，选择架构类型，例如 **个人资料** 并单击 **下一个**.
+1. 单击&#x200B;**[!UICONTROL 创建架构]**，在右上角选择架构类型，例如&#x200B;**个人资料**，然后单击&#x200B;**下一步**。
    ![](assets/test-profiles-1.png)
-1. 输入架构的名称，然后单击 **完成**.
+1. 输入架构的名称，然后单击&#x200B;**完成**。
    ![](assets/test-profiles-1-bis.png)
-1. 在 **字段组** 部分，在左侧单击**添加$$并选择适当的字段组。 确保添加 **配置文件测试详细信息** 字段组。
+1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击**添加$$并选择适当的字段组。 确保添加&#x200B;**配置文件测试详细信息**字段组。
    ![](assets/test-profiles-1-ter.png)
-完成后，单击 **[!UICONTROL 添加字段组]**：字段组的列表显示在架构概述屏幕上。
+完成后，单击**[!UICONTROL 添加字段组]**：字段组的列表将显示在架构概述屏幕上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -57,32 +57,32 @@ ht-degree: 2%
 
 1. 在字段列表中，单击要定义为主标识的字段。
    ![](assets/test-profiles-3.png)
-1. 在 **[!UICONTROL 字段属性]** 右窗格，检查 **[!UICONTROL 标识]** 和 **[!UICONTROL 主要身份]** 选项并选择命名空间。 如果您希望主标识是电子邮件地址，请选择 **[!UICONTROL 电子邮件]** 命名空间。 单击&#x200B;**[!UICONTROL 应用]**。
+1. 在&#x200B;**[!UICONTROL 字段属性]**&#x200B;右侧窗格中，检查&#x200B;**[!UICONTROL 标识]**&#x200B;和&#x200B;**[!UICONTROL 主标识]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;命名空间。 单击&#x200B;**[!UICONTROL 应用]**。
    ![](assets/test-profiles-4bis.png)
-1. 选择架构并启用 **[!UICONTROL 个人资料]** 中的选项 **[!UICONTROL 架构属性]** 窗格。
+1. 选择架构并在&#x200B;**[!UICONTROL 架构属性]**&#x200B;窗格中启用&#x200B;**[!UICONTROL 配置文件]**选项。
    ![](assets/test-profiles-5.png)
 1. 单击&#x200B;**保存**。
 
 >[!NOTE]
 >
->有关创建模式的详细信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
+>有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
 
-那你就需要 **创建数据集** 将在其中导入用户档案。 执行以下步骤：
+然后，您需要&#x200B;**创建要在其中导入用户档案的数据集**。 执行以下步骤：
 
-1. 浏览至 **[!UICONTROL 数据集]**，然后单击 **[!UICONTROL 创建数据集]**.
+1. 浏览到&#x200B;**[!UICONTROL 数据集]**，然后单击&#x200B;**[!UICONTROL 创建数据集]**。
    ![](assets/test-profiles-6.png)
-1. 选择 **[!UICONTROL 从架构创建数据集]**.
+1. 选择&#x200B;**[!UICONTROL 从架构]**创建数据集。
    ![](assets/test-profiles-7.png)
-1. 选择之前创建的架构，然后单击 **[!UICONTROL 下一个]**.
+1. 选择之前创建的架构，然后单击&#x200B;**[!UICONTROL 下一步]**。
    ![](assets/test-profiles-8.png)
-1. 选择名称，然后单击 **[!UICONTROL 完成]**.
+1. 选择一个名称，然后单击&#x200B;**[!UICONTROL 完成]**。
    ![](assets/test-profiles-9.png)
-1. 启用 **[!UICONTROL 个人资料]** 选项。
+1. 启用&#x200B;**[!UICONTROL 配置文件]**选项。
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 有关创建数据集的更多信息，请参阅 [目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
+> 有关数据集创建的更多信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
 
 ## 产品内用例{#use-case-1}
 
@@ -94,19 +94,19 @@ ht-degree: 2%
 
 需要以下信息：
 
-1. **身份命名空间**：和 [身份命名空间](../audience/get-started-identity.md) 用于唯一标识测试用户档案。 例如，如果电子邮件用于标识测试用户档案，则标识命名空间 **电子邮件** 应选中。 如果唯一标识符是电话号码，则身份命名空间 **电话** 应选中。
+1. **身份命名空间**： [身份命名空间](../audience/get-started-identity.md)用于唯一标识测试配置文件。 例如，如果电子邮件用于识别测试用户档案，则应选择身份命名空间&#x200B;**Email**。 如果唯一标识符是电话号码，则应选择身份命名空间&#x200B;**电话**。
 
-2. **CSV文件**：逗号分隔的文件，其中包含要创建的测试配置文件列表。 用例需要CSV文件的预定义格式，该文件包含要创建的测试用户档案列表。 文件中的每一行应按正确的顺序包含以下字段，如下所示：
+2. **CSV文件**：包含要创建的测试配置文件列表的逗号分隔文件。 用例需要CSV文件的预定义格式，该文件包含要创建的测试用户档案列表。 文件中的每一行应按正确的顺序包含以下字段，如下所示：
 
-   1. **人员ID**：测试配置文件的唯一标识符。 此字段的值应当反映所选的身份命名空间。 (例如，如果 **电话** 选择作为身份命名空间，此字段的值应为电话号码。 类似的，如果 **电子邮件** （则此字段的值应为电子邮件）
-   1. **电子邮件地址**：测试用户档案电子邮件地址。 (此 **人员ID** 字段和 **电子邮件地址** 字段可能包含相同的值，如果 **电子邮件** 被选为身份命名空间)
+   1. **人员ID**：测试配置文件的唯一标识符。 此字段的值应当反映所选的身份命名空间。 (例如，如果为身份命名空间选择了&#x200B;**电话**，则此字段的值应为电话号码。 同样，如果选择&#x200B;**电子邮件**，则此字段的值应为电子邮件)
+   1. **电子邮件地址**：测试配置文件电子邮件地址。 （如果选择&#x200B;**电子邮件**&#x200B;作为身份命名空间，**人员ID**&#x200B;字段和&#x200B;**电子邮件地址**&#x200B;字段可能包含相同的值）
    1. **名字**：测试配置文件名字。
-   1. **姓氏**：测试用户档案的姓氏。
+   1. **姓氏**：测试配置文件的姓氏。
    1. **城市**：测试配置文件居住城市
    1. **国家/地区**：测试用户档案居住国家/地区
-   1. **性别**：测试用户档案性别。 可用值为 **男**， **女** 和 **未指定**
+   1. **性别**：测试个人资料性别。 可用值为&#x200B;**男**、**女**&#x200B;和&#x200B;**非指定**
 
-选择身份命名空间并根据上述格式提供CSV文件后，单击 **[!UICONTROL 运行]** 按钮。 用例可能需要几分钟才能完成。 一旦用例完成处理和创建测试用户档案，将发送通知以通知用户。
+选择身份命名空间并根据上述格式提供CSV文件后，单击右上角的&#x200B;**[!UICONTROL 运行]**&#x200B;按钮。 用例可能需要几分钟才能完成。 一旦用例完成处理和创建测试用户档案，将发送通知以通知用户。
 
 >[!NOTE]
 >
@@ -116,38 +116,38 @@ ht-degree: 2%
 
 您可以将现有配置文件转换为测试配置文件：您可以使用与创建配置文件相同的方式更新配置文件属性。
 
-一个简单的方法是使用 **[!UICONTROL 更新配置文件]** 历程中的操作活动并更改 **testProfile** 从false到true的布尔字段。
+一个简单的方法是在历程中使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动，并将&#x200B;**testProfile**&#x200B;布尔字段从false更改为true。
 
-您的历程将由 **[!UICONTROL 读取受众]** 和 **[!UICONTROL 更新配置文件]** 活动。 您首先需要创建一个受众，以定向要转换为测试用户档案的用户档案。
+您的历程将由&#x200B;**[!UICONTROL 读取受众]**&#x200B;和&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;活动组成。 您首先需要创建一个受众，以定向要转换为测试用户档案的用户档案。
 
 >[!NOTE]
 >
-> 因为您将更新 **testProfile** 字段，则所选用户档案必须包含此字段。 相关架构必须具有 **配置文件测试详细信息** 字段组。 请参阅[此小节](../audience/creating-test-profiles.md#test-profiles-prerequisites)。
+> 由于您将更新&#x200B;**testProfile**&#x200B;字段，因此所选配置文件必须包含此字段。 相关架构必须具有&#x200B;**配置文件测试详细信息**&#x200B;字段组。 请参阅[此小节](../audience/creating-test-profiles.md#test-profiles-prerequisites)。
 
-1. 浏览至 **受众**，则 **创建受众**，位于右上方。
+1. 浏览至&#x200B;**受众**，然后在右上角&#x200B;**创建受众**。
    ![](assets/test-profiles-22.png)
 1. 定义受众的名称并构建受众：选择字段和值以定向您需要的用户档案。
    ![](assets/test-profiles-23.png)
-1. 单击 **保存** 并检查受众是否正确定向了用户档案。
+1. 单击&#x200B;**保存**并检查受众是否正确定向了用户档案。
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
-   > 受众计算可能需要一些时间。 在中了解关于受众的更多信息 [本节](../audience/about-audiences.md).
+   > 受众计算可能需要一些时间。 在[本节](../audience/about-audiences.md)中了解更多受众。
 
-1. 现在，创建一个新历程并从开始 **[!UICONTROL 读取受众]** 编排活动。
+1. 现在，创建一个新历程并开始一个&#x200B;**[!UICONTROL 读取受众]**&#x200B;编排活动。
 1. 选择之前创建的受众以及您的配置文件使用的命名空间。
    ![](assets/test-profiles-25.png)
-1. 添加 **[!UICONTROL 更新配置文件]** 操作活动。
-1. 选择架构， **testProfile** 字段、数据集并将值设置为 **True**. 要执行此操作，请在 **[!UICONTROL 值]** 字段中，单击 **笔** 图标，选择 **[!UICONTROL 高级模式]** 并输入 **true**.
+1. 添加&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动。
+1. 选择架构、**testProfiles**&#x200B;字段和数据集，并将值设置为&#x200B;**True**。 若要执行此操作，请在&#x200B;**[!UICONTROL VALUE]**&#x200B;字段中，单击右侧的&#x200B;**笔**&#x200B;图标，选择&#x200B;**[!UICONTROL 高级模式]**&#x200B;并输入&#x200B;**true**。
    ![](assets/test-profiles-26.png)
-1. 单击&#x200B;**[!UICONTROL 发布]**。
-1. 在 **[!UICONTROL 受众]** 部分，检查配置文件是否已正确更新。
+1. 单击&#x200B;**[!UICONTROL Publish]**。
+1. 在&#x200B;**[!UICONTROL 受众]**部分中，检查配置文件是否已正确更新。
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > 欲知关于 **[!UICONTROL 更新配置文件]** 活动，请参阅 [本节](../building-journeys/update-profiles.md).
+   > 有关&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;活动的详细信息，请参阅[此部分](../building-journeys/update-profiles.md)。
 
 ## 使用csv文件创建测试配置文件{#create-test-profiles-csv}
 
@@ -159,17 +159,17 @@ ht-degree: 2%
 1. 为每个用户档案添加一行并填写每个字段的值。
    ![](assets/test-profiles-12.png)
 1. 将电子表格另存为csv文件。 确保使用逗号作为分隔符。
-1. 浏览到Adobe Experience Platform **工作流**.
+1. 浏览到Adobe Experience Platform **工作流**。
    ![](assets/test-profiles-14.png)
-1. 选择 **将CSV映射到XDM架构**，然后单击 **Launch**.
+1. 选择&#x200B;**将CSV映射到XDM架构**，然后单击&#x200B;**启动**。
    ![](assets/test-profiles-16.png)
 1. 选择要将用户档案导入到的数据集。 单击&#x200B;**下一步**。
    ![](assets/test-profiles-17.png)
-1. 单击 **选择文件** 并选择csv文件。 上传文件后，单击 **下一个**.
+1. 单击&#x200B;**选择文件**&#x200B;并选择您的csv文件。 上传文件后，单击&#x200B;**下一步**。
    ![](assets/test-profiles-18.png)
-1. 将源csv字段映射到架构字段，然后单击 **完成**.
+1. 将源csv字段映射到架构字段，然后单击&#x200B;**完成**。
    ![](assets/test-profiles-19.png)
-1. 数据导入开始。 状态将从 **正在处理** 到 **成功**. 单击 **预览数据集**，位于右上方。
+1. 数据导入开始。 状态将从&#x200B;**正在处理**&#x200B;移至&#x200B;**成功**。 单击右上方的&#x200B;**预览数据集**。
    ![](assets/test-profiles-20.png)
 1. 检查测试配置文件是否已正确添加。
    ![](assets/test-profiles-21.png)
@@ -177,11 +177,11 @@ ht-degree: 2%
 您的测试用户档案已添加，现在可以在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 有关csv导入的更多信息，请参阅 [数据引入文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
+> 有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
-您还可以通过API调用创建测试用户档案。 了解详情，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}.
+您还可以通过API调用创建测试用户档案。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}以了解详情。
 
 您必须使用包含“配置文件测试详细信息”字段组的配置文件架构。 testProfile标志是此字段组的一部分。
 创建配置文件时，请确保传递值： testProfile = true。

@@ -23,7 +23,7 @@ ht-degree: 20%
 >title="反应事件"
 >abstract="您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。"
 
-在面板中提供的各种事件活动中，您会找到内置的， **[!UICONTROL 反应]** 事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。
+在面板中可用的不同事件活动中，您会找到内置的&#x200B;**[!UICONTROL 反应]**&#x200B;事件。 您可以通过此活动，对在同一历程中与所发送消息相关的跟踪数据做出反应。我们在与 Adobe Experience Platform 共享时实时捕获此信息。
 
 您可以对单击或打开的消息做出反应。
 
@@ -31,16 +31,16 @@ ht-degree: 20%
 
 请注意，仅当之前（电子邮件和推送）存在渠道操作活动时，才可以在画布中使用反应活动。
 
-请参阅 [关于操作活动](../building-journeys/about-journey-activities.md#action-activities).
+请参阅[关于操作活动](../building-journeys/about-journey-activities.md#action-activities)。
 
 ![](assets/journey45.png)
 
 以下是配置反应事件的不同步骤：
 
-1. 添加 **[!UICONTROL 标签]** 来应对这一反应。 此步骤是可选的。
+1. 向反应添加&#x200B;**[!UICONTROL 标签]**。 此步骤是可选的。
 1. 从下拉列表中，选择要做出反应的操作活动。 您可以选择位于路径前面步骤中的任何操作活动。
 1. 根据您选择的操作，选择要做出反应的内容。
-1. 您可以定义事件超时（40秒到29天之间）和超时路径。 这会为未在定义的持续时间内做出反应的个人创建第二个路径。 测试使用反应事件的历程时，测试模式 **[!UICONTROL 等待时间]** 默认值和最小值为40秒。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
+1. 您可以定义事件超时（40秒到29天之间）和超时路径。 这会为未在定义的持续时间内做出反应的个人创建第二个路径。 测试使用反应事件的历程时，测试模式&#x200B;**[!UICONTROL 等待时间]**&#x200B;的默认值和最小值为40秒。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >

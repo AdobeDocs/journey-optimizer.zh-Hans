@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 删除个性化优惠 {#delete-personalized-offer}
 
-有时可能有必要删除(DELETE)个性化优惠。 DELETE这是通过对 [!DNL Offer Library] 使用要删除的个性化优惠的ID的API。
+有时可能有必要删除(DELETE)个性化优惠。 通过使用要删除的个性化优惠的ID向[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

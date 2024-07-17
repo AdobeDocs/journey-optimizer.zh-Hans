@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## 默认回退值{#default-value}
 
-此 `Default Fallback Value` 如果属性为空或null，则使用辅助函数返回默认回退值。 此机制适用于配置文件属性和历程事件。
+如果属性为空或null，则使用`Default Fallback Value`帮助程序返回默认回退值。 此机制适用于配置文件属性和历程事件。
 
 **语法**
 
@@ -25,11 +25,11 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此示例中，值 `there` 在以下情况下显示 `firstName` 此配置文件的属性为空或null。
+在此示例中，如果此配置文件的`firstName`属性为空或null，则显示值`there`。
 
 ## 条件{#if-function}
 
-此 `if` 辅助函数用于定义条件块。
+`if`帮助程序用于定义条件块。
 如果表达式求值返回true，则会呈现块，否则将跳过该块。
 
 **语法**
@@ -39,8 +39,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-遵循 `if` 帮助程序，您可以输入 `else` 语句，指定要在相同条件为false时执行的代码块。
-此 `elseif` 语句将指定一个新条件以测试第一个语句是否返回false。
+在`if`帮助程序之后，您可以输入`else`语句以指定要执行的代码块（如果相同条件为false）。
+`elseif`语句将指定一个新条件来测试第一个语句是否返回false。
 
 
 **格式**
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->要了解有关受众和分段服务的更多信息，请参阅此 [部分](../../audience/about-audiences.md).
+>要了解有关受众和分段服务的更多信息，请参阅此[部分](../../audience/about-audiences.md)。
 
 
 ## Unless{#unless}
 
-此 `unless` 辅助函数用于定义条件块。 因为反对《南方民族报》 `if`  帮助程序，如果表达式求值返回false，则会呈现块。
+`unless`帮助程序用于定义条件块。 通过与`if`帮助程序相对，如果表达式求值返回false，则呈现块。
 
 **语法**
 
@@ -131,11 +131,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## 每个{#each}
+## Each{#each}
 
-此 `each` 辅助函数用于遍历数组。
-辅助函数的语法为 ```{{#each ArrayName}}``` 您的内容 {{/each}}
-我们可以使用关键字引用单个数组项 **此** 在街区里。 可以使用呈现数组元素的索引 {{@index}}.
+`each`辅助函数用于遍历数组。
+辅助函数的语法为```{{#each ArrayName}}``` YourContent {{/each}}
+我们可以在块中使用关键字**this**&#x200B;引用单个数组项。 可以使用{{@index}}呈现数组元素的索引。
 
 **语法**
 
@@ -165,9 +165,9 @@ Some edu specific content Content
 {{/each}}
 ```
 
-## 替换为{#with}
+## With{#with}
 
-此 `with` 辅助函数用于更改模板部分的求值令牌。
+`with`帮助程序用于更改模板部分的评估令牌。
 
 **语法**
 
@@ -177,7 +177,7 @@ Some edu specific content Content
 {{/with}}
 ```
 
-此 `with` 辅助函数也可用于定义快捷键变量。
+`with`辅助函数也可用于定义快捷键变量。
 
 **示例**
 
@@ -192,7 +192,7 @@ Some edu specific content Content
 
 ## Let{#let}
 
-此 `let` 函数允许将表达式存储为变量，以便稍后在查询中使用。
+`let`函数允许将表达式存储为变量，以便稍后在查询中使用。
 
 **语法**
 

@@ -9,32 +9,32 @@ level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
 # 配置数据收集 {#schema-requirements}
 
-要获得有关决策事件以外的事件类型的反馈，您必须为中的每种事件类型设置正确的值 **体验事件** 发送到Adobe Experience Platform中的内容。
+要获得有关决策事件以外的事件类型的反馈，您必须在发送到Adobe Experience Platform的&#x200B;**体验事件**&#x200B;中为每个事件类型设置正确的值。
 
 >[!CAUTION]
 >
->对于每种事件类型，请确保数据集中使用的架构具有 **[!UICONTROL 体验事件 — 建议交互]** 与其关联的字段组。 [了解详情](create-dataset.md)
+>对于每种事件类型，请确保数据集中使用的架构具有与之关联的&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组。 [了解详情](create-dataset.md)
 
 以下是您需要实施到JavaScript代码中的架构要求。
 
 >[!NOTE]
 >
->无需发送决策事件，因为决策管理会自动生成这些事件并将其放入 **[!UICONTROL ODE DecisionEvents]** 数据集<!--to check--> 是自动生成的。
+>无需发送决策事件，因为决策管理会自动生成这些事件，并将其放入自动生成的&#x200B;**[!UICONTROL ODE DecisionEvents]**&#x200B;数据集<!--to check-->中。
 
 ## 跟踪展示 {#track-impressions}
 
 确保事件类型和源如下所示：
 
 **体验事件类型：** `decisioning.propositionDisplay`
-**来源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量摄取
-+++**有效负载示例：**
+**Source：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次摄取
++++**示例有效负载：**
 
 ```
 {
@@ -67,8 +67,8 @@ ht-degree: 2%
 确保事件类型和源如下所示：
 
 **体验事件类型：** `decisioning.propositionInteract`
-**来源：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批量摄取
-+++**有效负载示例：**
+**Source：** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`)或批次摄取
++++**示例有效负载：**
 
 ```
 {
@@ -98,13 +98,13 @@ ht-degree: 2%
 
 ## 跟踪自定义事件 {#track-custom-events}
 
-对于自定义事件，数据集中使用的架构还必须具有 **[!UICONTROL 体验事件 — 建议交互]** 字段组相关联，但对必须用于标记这些事件的体验事件类型没有特定要求。
+对于自定义事件，数据集中使用的架构还必须具有与其关联的&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组，但必须用于标记这些事件的体验事件类型没有特定要求。
 
 >[!NOTE]
 >
->要将您的自定义事件计入 [频率封顶](../offer-library/add-constraints.md#capping)，您需要将体验事件发送到以下两个Edge数据收集端点之一，以将其连接到Adobe Experience Platform端点：
+>要使您的自定义事件计入[频率封顶](../offer-library/add-constraints.md#capping)，您需要将体验事件发送到以下两个Adobe Experience Platform数据收集端点之一，以将其连接到Edge端点：
 >
 >* POST/ee/v2/interact
 >* POST/ee/v2/collect
 >
->如果您使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，则会自动建立连接。
+>如果您使用的是[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，则会自动建立连接。

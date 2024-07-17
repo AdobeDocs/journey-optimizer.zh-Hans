@@ -8,40 +8,40 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
-badge: label="有限可用性"
+badge: label="限量发布版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
 # 个性化电子邮件表面设置 {#surface-personalization}
 
-为了增强对电子邮件设置的灵活性和控制， [!DNL Journey Optimizer] 允许您定义子域和标头的个性化值<!--and URL tracking parameters--> 创建电子邮件界面时。
+为了提高电子邮件设置的灵活性和控制力，[!DNL Journey Optimizer]允许您在创建电子邮件界面时定义子域和标头<!--and URL tracking parameters-->的个性化值。
 
 >[!AVAILABILITY]
 >
->电子邮件表面个性化目前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+>目前，电子邮件表面个性化仅面向一部分组织提供（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
 ## 添加动态子域 {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="个性化不可用"
->abstract="此表面是在没有任何个性化属性的情况下创建的。 如需在需要个性化时解决问题的步骤，请参阅文档。"
+>abstract="这个表面在创建时没有任何个性化属性。如果需要个性化，请参阅文档了解解决问题的步骤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="启用动态子域"
->abstract="创建电子邮件界面时，您可以根据使用个性化编辑器定义的条件设置动态子域。 您最多可以添加50个动态子域。"
+>abstract="创建电子邮件界面时，您可以根据使用个性化编辑器定义的条件设置动态子域。您最多可以添加 50 个动态子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
->title="某些子域可能不可用"
->abstract="由于挂起的反馈循环注册，某些子域当前不可选择。 此过程最多可能需要10个工作日。 完成后，您可以从所有可用的子域中进行选择。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
+>title="某些子域名可能不可用"
+>abstract="由于反馈回路注册尚未完成，某些子域名目前无法选择。此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
 
 创建电子邮件界面时，您可以根据特定条件设置动态子域。
 
@@ -55,23 +55,23 @@ ht-degree: 3%
 
 1. 创建渠道表面。 [了解如何操作](../configuration/channel-surfaces.md)
 
-1. 选择 **[!UICONTROL 电子邮件]** 渠道。
+1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;渠道。
 
-1. 在 **子域** 部分，启用 **[!UICONTROL 动态子域]** 选项。
+1. 在&#x200B;**子域**&#x200B;部分中，启用&#x200B;**[!UICONTROL 动态子域]**&#x200B;选项。
 
    ![](assets/surface-email-dynamic-subdomain.png)
 
-1. 选择第一个页面旁边的编辑图标 **[!UICONTROL 条件]** 字段。
+1. 选择第一个&#x200B;**[!UICONTROL 条件]**&#x200B;字段旁边的“编辑”图标。
 
-1. 此 [个性化编辑器](../personalization/personalization-build-expressions.md) 打开。 在此示例中，设置一个条件，如 `Country` 等于 `US`.
+1. [个性化编辑器](../personalization/personalization-build-expressions.md)打开。 在此示例中，将诸如`Country`等条件设置为`US`。
 
    ![](assets/surface-email-edit-condition.png)
 
-1. 选择要与此条件关联的子域。 [了解有关子域的更多信息](../configuration/about-subdomain-delegation.md)
+1. 选择要与此条件关联的子域。 [了解子域的详细信息](../configuration/about-subdomain-delegation.md)
 
    >[!NOTE]
    >
-   >由于挂起，某些子域当前无法选择 [反馈环](../reports/deliverability.md#feedback-loops) 注册。 此过程最多可能需要10个工作日。 完成后，您可以从所有可用的子域中进行选择。 <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于挂起[反馈循环](../reports/deliverability.md#feedback-loops)注册，某些子域当前不可选择。 此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。<!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -83,31 +83,31 @@ ht-degree: 3%
 
    <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
-1. 定义所有其他项 [电子邮件设置](email-settings.md) 和 [提交](../configuration/channel-surfaces.md#create-channel-surface) 你的表面。
+1. 定义所有其他[电子邮件设置](email-settings.md)和[提交](../configuration/channel-surfaces.md#create-channel-surface)您的表面。
 
 将一个或多个动态子域添加到曲面后，将根据为此曲面解析的动态子域填充以下项目：
 
 * 所有URL（资源URL、镜像页面URL和跟踪URL）
 
-* 此 [取消订阅URL](email-settings.md#list-unsubscribe)
+* [取消订阅URL](email-settings.md#list-unsubscribe)
 
-* 此 **发件人电子邮件** 和 **错误电子邮件** 后缀
+* **来自电子邮件**&#x200B;和&#x200B;**错误电子邮件**&#x200B;后缀
 
 >[!NOTE]
 >
->如果您设置动态子域，然后禁用 **[!UICONTROL 动态子域]** 选项，则会删除所有动态值。 选择子域并提交表面以使更改生效。
+>如果设置动态子域，然后禁用&#x200B;**[!UICONTROL 动态子域]**&#x200B;选项，则将删除所有动态值。 选择子域并提交表面以使更改生效。
 
 ## 个性化您的标题 {#personalize-header}
 
 您还可以对表面中定义的所有标题参数使用个性化。
 
-例如，如果您有多个品牌，则可以创建一个表面，并将个性化的值用于电子邮件标题。 这样，您就可以确保从不同品牌发送的所有电子邮件发送到每位客户，并且提供正确的电子邮件地址和正确地址 **从** 姓名和电子邮件。 同样，当收件人点击 **回复** 按钮时，您希望 **回复** 名称和电子邮件对应于正确用户的正确品牌。
+例如，如果您有多个品牌，则可以创建一个表面，并将个性化的值用于电子邮件标题。 这样，您就可以确保从不同品牌发送的所有电子邮件均使用正确的&#x200B;**发件人**&#x200B;名称和电子邮件发送给每位客户。 同样，当您的收件人在其电子邮件客户端软件中点击&#x200B;**回复**&#x200B;按钮时，您希望&#x200B;**回复**&#x200B;名称和电子邮件对应于正确用户的正确品牌。
 
 要为表面标题参数使用个性化变量，请执行以下步骤。
 
 >[!NOTE]
 >
->您可以个性化所有 **[!UICONTROL 标题参数]** 字段，但 **[!UICONTROL 电子邮件前缀错误]** 字段。
+>您可以个性化所有&#x200B;**[!UICONTROL 标头参数]**&#x200B;字段，但&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;字段除外。
 
 
 1. 像往常一样定义标题参数。 [了解如何操作](email-settings.md#email-header)
@@ -116,19 +116,19 @@ ht-degree: 3%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. 此 [个性化编辑器](../personalization/personalization-build-expressions.md) 打开。 根据需要定义条件，然后保存更改。
+1. [个性化编辑器](../personalization/personalization-build-expressions.md)打开。 根据需要定义条件，然后保存更改。
 
    例如，设置条件，如每个收件人都会收到来自其品牌代表的电子邮件。
 
    >[!NOTE]
    >
-   >您只能选择 **[!UICONTROL 配置文件属性]** 和 **[!UICONTROL 辅助函数]**.
+   >您只能选择&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;和&#x200B;**[!UICONTROL 帮助程序函数]**。
 
 1. 对要添加个性化的每个参数重复上述步骤。
 
 >[!NOTE]
 >
->如果将一个或多个动态子域添加到曲面，则 **发件人电子邮件** 和 **错误电子邮件** 将根据解析的填充后缀 [动态子域](#dynamic-subdomains).
+>如果您向表面添加了一个或多个动态子域，则将基于已解析的[动态子域](#dynamic-subdomains)填充&#x200B;**来自电子邮件**&#x200B;和&#x200B;**错误电子邮件**&#x200B;后缀。
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -146,20 +146,20 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 在营销策划或营销策划中使用具有个性化设置的营销策划表面时，您可以直接在营销策划或营销策划表面中显示表面详细信息。 请按照以下步骤操作。
 
-1. 创建电子邮件 [营销活动](../campaigns/create-campaign.md) 或 [历程](../building-journeys/journey-gs.md).
+1. 创建电子邮件[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journey-gs.md)。
 
-1. 选择 **[!UICONTROL 编辑内容]** 按钮。
+1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
-1. 单击 **[!UICONTROL 查看表面详细信息]** 按钮。
+1. 单击&#x200B;**[!UICONTROL 查看表面详细信息]**&#x200B;按钮。
 
    ![](assets/campaign-view-surface-details.png)
 
-1. 此 **[!UICONTROL 投放设置]** 窗口随即显示。 您可以查看所有表面设置，包括动态子域和个性化的标题参数。
+1. 将显示&#x200B;**[!UICONTROL 投放设置]**&#x200B;窗口。 您可以查看所有表面设置，包括动态子域和个性化的标题参数。
 
    >[!NOTE]
    >
    >此屏幕中的所有信息均为只读。
 
-1. 选择 **[!UICONTROL 展开]** 以显示动态子域的详细信息。
+1. 选择&#x200B;**[!UICONTROL 展开]**&#x200B;以显示动态子域的详细信息。
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)

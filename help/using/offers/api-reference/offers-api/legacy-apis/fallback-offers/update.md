@@ -9,21 +9,21 @@ exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # 更新后备优惠 {#update-fallback-offer}
 
-您可以通过对以下网站发出PATCH请求，修改或更新容器中的后备优惠： [!DNL Offer Library] API。
+您可以通过向[!DNL Offer Library] API发出PATCH请求来修改或更新容器中的后备优惠。
 
-有关JSON补丁程序的更多信息（包括可用的操作），请参阅官方网站上的 [JSON修补程序文档](https://jsonpatch.com/).
+有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](https://jsonpatch.com/)。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -64,13 +64,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | 参数 | 描述 |
 | --------- | ----------- |
-| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`， `replace`、和 `remove`. |
+| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`、`replace`和`remove`。 |
 | `path` | 要更新的参数的路径。 |
 | `value` | 要用于更新参数的新值。 |
 
 **响应**
 
-成功的响应会返回后备优惠的更新详细信息，包括其唯一实例 `id`.
+成功的响应将返回后备优惠的更新详细信息，包括其唯一实例`id`。
 
 ```json
 {

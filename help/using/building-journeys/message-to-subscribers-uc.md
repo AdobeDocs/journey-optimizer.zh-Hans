@@ -20,17 +20,17 @@ ht-degree: 17%
 
 此用例的目的在于创建历程，以向列表的订阅者发送消息。
 
-在此示例中， **[!UICONTROL 同意和偏好设置详细信息]** 字段组来源 [!DNL Adobe Experience Platform] 已使用。 要查找此字段组，请从 **[!UICONTROL 数据管理]** 菜单，选择 **[!UICONTROL 架构]**. 在 **[!UICONTROL 字段组]** 选项卡，在搜索字段中输入字段组的名称。
+在此示例中，使用了[!DNL Adobe Experience Platform]中的&#x200B;**[!UICONTROL 同意和偏好设置详细信息]**&#x200B;字段组。 若要查找此字段组，请从&#x200B;**[!UICONTROL 数据管理]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 架构]**。 在&#x200B;**[!UICONTROL 字段组]**&#x200B;选项卡上，在搜索字段中输入字段组的名称。
 
-![此字段组包括subscriptions元素](assets/consent-and-preference-details-field-group.png)
+![此字段组包含订阅元素](assets/consent-and-preference-details-field-group.png)
 
 要配置此历程，请执行以下步骤：
 
-1. 创建以开始的历程 **[!UICONTROL 读取]** 活动。 [了解详情](journey-gs.md)。
-1. 添加 **[!UICONTROL 电子邮件]** 历程的操作活动。 [了解详情](journeys-message.md)。
-1. 在 **[!UICONTROL 电子邮件参数]** 的部分 **[!UICONTROL 电子邮件]** 活动设置，替换默认电子邮件地址(`PersonalEmail.adress`)的电子邮件中指定订阅者的电子邮件地址：
+1. 创建以&#x200B;**[!UICONTROL 读取]**&#x200B;活动开始的历程。 [了解详情](journey-gs.md)。
+1. 向历程添加&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作活动。 [了解详情](journeys-message.md)。
+1. 在&#x200B;**[!UICONTROL 电子邮件]**&#x200B;活动设置的&#x200B;**[!UICONTROL 电子邮件参数]**&#x200B;部分中，将默认电子邮件地址(`PersonalEmail.adress`)替换为列表订阅者的电子邮件地址：
 
-   1. 单击 **[!UICONTROL 启用参数覆盖]** 图标（位于右侧） **[!UICONTROL 地址]** 字段，然后单击 **[!UICONTROL 编辑]** 图标。
+   1. 单击&#x200B;**[!UICONTROL 地址]**&#x200B;字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -44,18 +44,18 @@ ht-degree: 17%
 
       在此示例中，使用以下函数：
 
-      | 功能 | 描述 | 示例 |
+      | 函数 | 描述 | 示例 |
       | --- | --- | --- |
       | `entry` | 根据选定的命名空间引用映射元素 | 请参阅特定订阅列表 |
       | `firstEntryKey` | 检索映射的第一个条目键 | 检索订阅者的第一个电子邮件地址 |
 
-      在此示例中，将命名订阅列表 `daily-email`. 电子邮件地址在中定义为键 `subscribers` 映射，链接到订阅列表映射。
+      在此示例中，订阅列表名为`daily-email`。 电子邮件地址在`subscribers`映射中定义为键，该映射链接到订阅列表映射。
 
-      详细了解 [对字段的引用](expression/field-references.md) 在表达式中。
+      阅读有关表达式中[对字段](expression/field-references.md)的引用的更多信息。
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. 在 **[!UICONTROL 添加表达式]** 对话框中，单击 **[!UICONTROL 确定]**.
+   1. 在&#x200B;**[!UICONTROL 添加表达式]**&#x200B;对话框中，单击&#x200B;**[!UICONTROL 确定]**。
 
 >[!CAUTION]
 >

@@ -20,11 +20,11 @@ ht-degree: 17%
 
 ## 将页面另存为模板 {#save-as-template}
 
-一旦您设计 [登陆页面内容](lp-content.md)，您可以保存它以供将来重用。 为此，请执行以下步骤。
+设计[登陆页面内容](lp-content.md)后，您可以保存它以供将来重用。 为此，请执行以下步骤。
 
 1. 单击屏幕右上方的省略号。
 
-1. 选择 **[!UICONTROL 另存为内容模板]** 从下拉菜单中。
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL 另存为内容模板]**。
 
    ![](assets/lp_designer-save-template.png)
 
@@ -34,13 +34,13 @@ ht-degree: 17%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-下次创建登陆页面时，您可以使用此模板来构建内容。 了解如何在 [部分](#use-saved-template) 下。
+下次创建登陆页面时，您可以使用此模板来构建内容。 在以下[部分](#use-saved-template)中了解如何操作。
 
 ![](assets/lp_designer-saved-template.png)
 
 ## 使用保存的模板 {#use-saved-template}
 
-1. 打开 [登陆页面内容设计器](design-lp.md). 此时将显示所有以前保存的模板列表。
+1. 打开[登陆页面内容设计器](design-lp.md)。 此时将显示所有以前保存的模板列表。
 
 1. 您可以按&#x200B;**[!UICONTROL 名称]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次创建日期]**&#x200B;对它们进行排序。
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. 单击 **[!UICONTROL 使用此模板]**.
+1. 单击&#x200B;**[!UICONTROL 使用此模板]**。
 
 1. 使用登陆页设计器根据需要编辑您的内容。
 

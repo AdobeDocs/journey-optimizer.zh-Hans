@@ -36,7 +36,7 @@ ht-degree: 86%
 
 ## 访问子域的 PTR 记录 {#access-ptr-records}
 
-一旦您 [委派](delegate-subdomain.md) Adobe的第一个子域 [!DNL Journey Optimizer]，将自动为您的IP创建PTR记录。 您可以从以下位置访问它们 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR记录]** 菜单。
+在您[委派](delegate-subdomain.md)您的第一个子域以在[!DNL Journey Optimizer]中Adobe后，将自动为您的IP创建PTR记录。 您可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL PTR记录]**&#x200B;菜单访问它们。
 
 ![](assets/ptr-records.png)
 
@@ -50,9 +50,9 @@ ht-degree: 86%
 
 ## 编辑 PTR 记录 {#edit-ptr-record}
 
-在 [!DNL Journey Optimizer]中，您无法手动创建PTR记录。 相反，一旦你 [委派](delegate-subdomain.md) 第一个要Adobe的子域会自动为您的IP创建PTR记录。
+在[!DNL Journey Optimizer]中，您无法手动创建PTR记录。 相反，一旦您[将](delegate-subdomain.md)您的第一个子域委派给Adobe，就会自动为您的IP创建PTR记录。
 
-您的每个IP都接收一个PTR记录。 所有PTR记录都具有以下格式：“rxx.subdomain”，其中“subdomain”是您委派的第一个子域 [!DNL Journey Optimizer].
+您的每个IP都接收一个PTR记录。 所有PTR记录都具有以下格式：“rxx.subdomain”，其中“subdomain”是您在[!DNL Journey Optimizer]中委派的第一个子域。
 
 创建其他子域时，需要修改一个或多个PTR记录，并将新子域分配给它们。 要实现此目的，请执行以下步骤。
 

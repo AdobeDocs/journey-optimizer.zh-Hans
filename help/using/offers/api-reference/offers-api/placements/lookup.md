@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找投放位置 {#look-up-placement}
 
-您可以通过向以下网站发出GET请求来查找特定投放位置： [!DNL Offer Library] 包含投放位置的API `id`.
+您可以通过对包含版面`id`的[!DNL Offer Library] API发出GET请求来查找特定版面。
 
 **API格式**
 
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **响应**
 
-成功的响应将返回投放位置的详细信息，包括有关唯一投放位置的信息 `id`.
+成功响应将返回投放位置的详细信息，包括有关唯一投放位置`id`的信息。
 
 ```json
 {

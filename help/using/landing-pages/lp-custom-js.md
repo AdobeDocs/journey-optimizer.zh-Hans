@@ -18,31 +18,31 @@ ht-degree: 2%
 
 # 在登陆页面中使用自定义JavaScript {#lp-custom-js}
 
-您可以使用自定义JavaScript定义登陆页面内容。 例如，如果您需要执行高级样式设置，或者希望将自定义行为添加到登陆页面，则可以构建自己的控件并在中执行这些控件 [!DNL Journey Optimizer].
+您可以使用自定义JavaScript定义登陆页面内容。 例如，如果您需要执行高级样式设置，或者希望将自定义行为添加到登陆页面，则可以构建自己的控件，并在[!DNL Journey Optimizer]中执行这些控件。
 
 ## 将JavaScript代码插入登陆页面
 
 要将自定义JavaScript插入登陆页面内容，您可以执行以下操作：
 
-* 开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 了解如何导入内容 [在此部分中](../email/existing-content.md).
+* 开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 在本节](../email/existing-content.md)中了解如何导入内容[。
 
-* 从头开始或从保存的模板设计登陆页面。 拖放 **[!UICONTROL HTML]** 将内容组件放入画布并显示源代码以将JavaScript添加到组件中。 了解如何在中使用HTML组件 [本节](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 从头开始或从保存的模板设计登陆页面。 将&#x200B;**[!UICONTROL HTML]**&#x200B;内容组件拖放到画布中，并显示将JavaScript添加到该组件的源代码。 在[本节](../email/content-components.md#HTML)中了解如何使用HTML组件。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 将JavaScript代码直接输入或粘贴到内容设计器中。 了解如何为自己的内容编码 [在此部分中](../email/code-content.md).
+* 将JavaScript代码直接输入或粘贴到内容设计器中。 在本节](../email/code-content.md)中了解如何编码您自己的内容[。
 
 >[!NOTE]
 >
->当前，在以下情况下，您无法显示JavaScript正在使用 [预览登陆页面](create-lp.md#test-landing-page).
+>当前，在[预览登陆页面](create-lp.md#test-landing-page)时，无法显示JavaScript正在运行。
 
 要正确显示登陆页面，请使用以下语法，如下节所述。
 
 ## 代码初始化
 
-要初始化JavaScript代码，您必须使用 `lpRuntimeReady` 事件。 成功初始化库后，将触发此事件。 回调将使用 `lpRuntime` 对象以公开库方法和挂接。
+要初始化JavaScript代码，您必须使用`lpRuntimeReady`事件。 成功初始化库后，将触发此事件。 将使用`lpRuntime`对象执行回调，以公开库方法和挂接。
 
-`LpRuntime` 其中，表示“Landing page Runtime”。 此对象是主库标识符。 它会公开挂接、表单提交方法以及在自定义JavaScript中使用的其他实用工具方法。
+`LpRuntime`表示“登陆页面运行时”。 此对象是主库标识符。 这会公开挂钩、表单提交方法以及在自定义JavaScript中使用的其他实用工具方法。
 
 **示例：**
 
@@ -87,7 +87,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 
 >[!NOTE]
 >
->由于表单提交由自定义JavaScript处理，因此需要通过设置全局变量来显式禁用默认提交 `disableDefaultFormSubmission` 到 `true`.
+>由于表单提交由自定义JavaScript处理，因此需要通过将全局变量`disableDefaultFormSubmission`设置为`true`来显式禁用默认提交。
 
 | 名称 | 描述 |
 |--- |--- |
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | 名称 | 描述 |
 |--- |--- |
-| getFormData | 此方法可用于获取 `formData` 以JSON对象的形式提供。 此对象可以传递到 `submitForm` 用于提交表单。 |
+| getFormData | 此方法可用于获取JSON对象形式的`formData`。 此对象可传递给`submitForm`以提交表单。 |
 
 **示例：**
 

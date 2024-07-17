@@ -18,17 +18,17 @@ ht-degree: 7%
 
 ## 访问内容模板 {#access}
 
-要访问内容模板列表，请选择 **[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]** 从左侧菜单。
+要访问内容模板列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]**。
 
 ![](assets/content-template-list.png)
 
-在当前沙盒中创建的所有模板 — 来自使用进行的历程或营销活动 **[!UICONTROL 另存为模板]** 选项，来自 **[!UICONTROL 内容模板]** 菜单 — 显示。 [了解如何创建模板](#create-content-templates)
+显示在当前沙盒上创建的所有模板 — 无论是来自历程还是使用&#x200B;**[!UICONTROL 另存为模板]**&#x200B;选项（从&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单）的营销活动。 [了解如何创建模板](#create-content-templates)
 
 您可以按以下方式排序内容模板：
 * 类型
 * 渠道
 * 创建或修改日期
-* 标记 —  [了解有关标记的更多信息](../start/search-filter-categorize.md#tags)
+* 标记 — [了解有关标记的更多信息](../start/search-filter-categorize.md#tags)
 
 您还可以选择仅显示您自己创建或修改的项目。
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
   ![](assets/content-template-edit.png)
 
-* 要删除模板，请选择 **[!UICONTROL 更多操作]** 按钮，然后选择 **[!UICONTROL 删除]**.
+* 要删除模板，请选择所需模板旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 删除]**。
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ ht-degree: 7%
 
 ## 将模板显示为缩略图 {#template-thumbnails}
 
-选择 **[!UICONTROL 网格视图]** 模式，将每个模板显示为缩略图。
+选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;模式以将每个模板显示为缩略图。
 
 >[!AVAILABILITY]
 >

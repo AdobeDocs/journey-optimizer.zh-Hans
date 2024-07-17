@@ -23,7 +23,7 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >目前，与Adobe Experience Manager的集成仅作为测试版提供给部分用户。
-> 作为测试版用户，请使用 [此表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} 以分享反馈。
+> 作为测试版用户，请使用[此表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享反馈。
 
 借助Adobe Journey Optimizer，您可以通过Adobe Experience Manager站点创建自定义定制消息。 首先，使用Adobe Experience Manager的内容源设计模板，然后将其发送到Adobe Journey Optimizer。 共享后，即可在Adobe Journey Optimizer的电子邮件设计器中访问这些模板，从而简化设计消息并将消息发送到所需受众的过程。
 
@@ -33,13 +33,13 @@ ht-degree: 2%
 
 * **Experience Manager设置**
 
-  此功能适用于 [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=zh-Hans){target="_blank"}.
+  此功能在[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=zh-Hans){target="_blank"}中可用。
 
   作为测试版计划的一部分，Cloud Service配置将由Adobe Experience Manager中的Adobe执行，以连接到Adobe Journey Optimizer。
 
 * **权限**
 
-  要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须具有 **[!DNL Manage Library Items]** 权限包含在 **[!DNL Content Library Manager]** 产品配置文件。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+  要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须在&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Manage Library Items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## 护栏和限制{#aem-templates-limitations}
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 要将Adobe Experience Manager模板导出到Adobe Journey Optimizer，请执行以下步骤：
 
-1. 从Adobe Experience Manager主页中，选择 **[!UICONTROL 出站营销]**.
+1. 从您的Adobe Experience Manager主页中，选择&#x200B;**[!UICONTROL 出站营销]**。
 
    ![](assets/aem-outbound-menu.png)
 
@@ -65,15 +65,15 @@ ht-degree: 2%
 
    ![](assets/aem_ajo_4.png)
 
-1. 选择要导出到Journey Optimizer的模板，然后单击 **[!UICONTROL 发送至]** 从高级菜单中。
+1. 选择要导出到Journey Optimizer的模板，然后单击高级菜单中的&#x200B;**[!UICONTROL 发送至]**。
 
    ![](assets/aem-advanced-menu.png)
 
-1. 输入 **[!UICONTROL 名称]** 并选择目标 **[!UICONTROL 沙盒]**.
+1. 输入内容模板的&#x200B;**[!UICONTROL Name]**&#x200B;并选择目标&#x200B;**[!UICONTROL 沙盒]**。
 
    ![](assets/aem-send-template-settings.png)
 
-1. 在您单击 **[!UICONTROL 发送]** 按钮时，将开始导出过程。 导出完成后，您将在用户界面中看到以下消息：“模板“XX”已成功发送到AJO”。
+1. 单击&#x200B;**[!UICONTROL 发送]**&#x200B;按钮后，将开始导出过程。 导出完成后，您将在用户界面中看到以下消息：“模板“XX”已成功发送到AJO”。
 
 该模板将添加到选定沙盒的Adobe Journey Optimizer内容模板。
 
@@ -81,33 +81,33 @@ ht-degree: 2%
 
 在Journey Optimizer中作为内容模板提供Experience Manager模板后，您可以识别并合并电子邮件的必要内容，包括个性化。
 
-1. 在Journey Optimizer中，从 **[!UICONTROL 内容模板]** 菜单，访问导入的模板。
+1. 在Journey Optimizer中，从&#x200B;**[!UICONTROL Content template]**&#x200B;菜单访问导入的模板。
 
    ![](assets/aem_ajo_1.png)
 
-1. 通过单击 **[!UICONTROL 警报]** 按钮上，您可以快速检查是否缺少任何重要设置。 这将有助于确保消息配置正确并防止任何潜在的错误或问题。
+1. 通过单击&#x200B;**[!UICONTROL 警报]**&#x200B;按钮，您可以快速检查是否缺少任何重要设置。 这将有助于确保消息配置正确并防止任何潜在的错误或问题。
 
    ![](assets/aem_ajo_2.png)
 
-1. 在 **[!UICONTROL 模板属性]** 窗口中，单击 **[!UICONTROL 管理访问权限]** 按钮以将自定义或核心数据使用标签分配给模板。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
+1. 在&#x200B;**[!UICONTROL 模板属性]**&#x200B;窗口中，单击&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮以将自定义或核心数据使用标签分配给模板。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
-1. 要进一步个性化您的Experience Manager模板并将自定义个性化添加到您的内容，请单击 **[!UICONTROL 编辑内容]**. 这样，您就可以轻松地做出更改，并根据特定需求定制模板。 [了解详情](get-started-email-design.md)
+1. 要进一步个性化您的Experience Manager模板并向内容添加自定义个性化设置，请单击&#x200B;**[!UICONTROL 编辑内容]**。 这样，您就可以轻松地做出更改，并根据特定需求定制模板。 [了解详情](get-started-email-design.md)
 
    >[!WARNING]
    >
    > 如果要编辑模板并使其个性化，则只能使用兼容模式。
 
-1. 当内容模板准备就绪时， [测试和验证](../content-management/content-templates.md#test-template).
+1. 内容模板准备就绪后，[测试并验证它](../content-management/content-templates.md#test-template)。
 
-1. 定义内容后，您可以在创建新电子邮件时通过浏览 **[!UICONTROL 已保存模板]** 收藏集。 然后，选择 **[!UICONTROL 使用此模板]**.
+1. 定义内容后，您可以在通过浏览&#x200B;**[!UICONTROL 保存的模板]**&#x200B;收藏集创建新电子邮件时使用该内容。 然后选择&#x200B;**[!UICONTROL 使用此模板]**。
 
    ![](assets/aem_ajo_3.png)
 
-1. 您现在可以编辑和个性化您的内容。 有关如何构建电子邮件内容的更多信息，请参阅此 [页面](content-from-scratch.md).
+1. 您现在可以编辑和个性化您的内容。 有关如何构建电子邮件内容的更多信息，请参阅此[页面](content-from-scratch.md)。
 
    ![](assets/aem_ajo_5.png)
 
-1. 如果您向Experience Manager模板添加了个性化内容，请单击 **[!UICONTROL 模拟内容]** 以使用测试用户档案预览它在消息中的显示方式。
+1. 如果您向Experience Manager模板添加了个性化内容，请单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以使用测试配置文件预览它在邮件中的显示方式。
 
 [了解有关预览和测试用户档案的更多信息](../content-management/preview-test.md)
 
@@ -115,8 +115,8 @@ ht-degree: 2%
 
 1. 在查看消息预览时，任何个性化元素都会自动替换为所选测试用户档案中的相应数据。
 
-   如果需要，可以通过添加其他测试用户档案 **[!UICONTROL 管理测试用户档案]** 按钮。
+   如果需要，可以通过&#x200B;**[!UICONTROL 管理测试配置文件]**&#x200B;按钮添加其他测试配置文件。
 
    ![](assets/aem_ajo_7.png)
 
-当您的电子邮件准备就绪时，完成您的 [历程](../building-journeys/journey-gs.md) 或 [营销活动](../campaigns/create-campaign.md)，并激活它以发送消息。
+当电子邮件准备就绪时，请完成[历程](../building-journeys/journey-gs.md)或[营销活动](../campaigns/create-campaign.md)的配置，并激活它以发送消息。

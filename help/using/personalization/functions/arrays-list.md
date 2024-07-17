@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 仅计算null {#count-only-null}
 
-此 `countOnlyNull` 函数用于计算列表中空值的数量。
+`countOnlyNull`函数用于计算列表中空值的数量。
 
 **语法**
 
@@ -35,9 +35,9 @@ ht-degree: 6%
 
 返回3。
 
-## 空计数 {#count-with-null}
+## Count With Null {#count-with-null}
 
-此 `countWithNull` 函数用于计算列表中的所有元素，包括空值。
+`countWithNull`函数用于对包含null值的列表的所有元素进行计数。
 
 **语法**
 
@@ -55,7 +55,7 @@ ht-degree: 6%
 
 ## Distinct{#distinct}
 
-此 `distinct` 函数用于从删除了重复值的数组或列表中获取值。
+`distinct`函数用于从已删除重复值的数组或列表中获取值。
 
 **语法**
 
@@ -71,9 +71,9 @@ ht-degree: 6%
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Null非重复计数 {#distinct-count-with-null}
+## Distinct Count With Null {#distinct-count-with-null}
 
-此 `distinctCountWithNull` 函数用于计算列表中包含空值的不同值的数量。
+`distinctCountWithNull`函数用于计算列表中包括null值的不同值的数量。
 
 **语法**
 
@@ -89,9 +89,9 @@ ht-degree: 6%
 
 返回3。
 
-## 第一个项目{#head}
+## First item{#head}
 
-此 `head` 函数用于返回数组或列表中的第一项。
+`head`函数用于返回数组或列表中的第一个项。
 
 **语法**
 
@@ -101,15 +101,15 @@ ht-degree: 6%
 
 **示例**
 
-以下操作将返回价格最高的前五个订单中的第一个。 欲知关于 `topN` 函数位于 [第一 `n` 在数组中](#first-n) 部分。
+以下操作将返回价格最高的前五个订单中的第一个。 有关`topN`函数的更多信息，请参见[数组](#first-n)中的第一个`n`。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 第一 `n` 在数组中 {#first-n}
+## 数组中的前`n` {#first-n}
 
-此 `topN` 函数用于返回第一个 `N` 数组中的项（当根据给定的数值表达式按升序排序时）。
+`topN`函数用于返回数组中的前`N`项（当根据给定的数值表达式按升序排序时）。
 
 **语法**
 
@@ -131,9 +131,9 @@ ht-degree: 6%
 {%= topN(orders,price, 5) %}
 ```
 
-## 在{#in}
+## In{#in}
 
-此 `in` 函数用于确定一个项是否是一个数组或列表的成员。
+`in`函数用于确定一个项是数组还是列表的成员。
 
 **语法**
 
@@ -149,9 +149,9 @@ ht-degree: 6%
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## 包括{#includes}
+## Includes{#includes}
 
-此 `includes` 函数用于确定一个数组或列表是否包含给定项。
+`includes`函数用于确定一个数组或列表是否包含给定项。
 
 **语法**
 
@@ -167,9 +167,9 @@ ht-degree: 6%
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## 相交{#intersects}
+## Intersects{#intersects}
 
-此 `intersects` 函数用于确定两个数组或列表是否至少有一个公共成员。
+`intersects`函数用于确定两个数组或列表是否至少有一个公共成员。
 
 **语法**
 
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 最后一个 `n` 在数组中{#last-n}
+## 数组中的最后`n`{#last-n}
 
-此 `bottomN` 函数用于返回最后 `N` 数组中的项（当根据给定的数值表达式按升序排序时）。
+`bottomN`函数用于返回数组中的最后`N`项（当根据给定的数值表达式按升序排序时）。
 
 **语法**
 
@@ -229,13 +229,13 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= bottomN(orders,price, 5) %}
 ```
 
-## 不在{#notin}
+## Not in{#notin}
 
-此 `notIn` 函数用于确定一个项是否不是一个数组或列表的成员。
+`notIn`函数用于确定一个项是否不是一个数组或列表的成员。
 
 >[!NOTE]
 >
->此 `notIn` 函数 *另外* 确保这两个值都不等于null。 因此，结果并不是完全否定 `in` 函数。
+>`notIn`函数&#x200B;*还*&#x200B;确保这两个值都不等于null。 因此，结果不是`in`函数的完全否定。
 
 **语法**
 
@@ -252,9 +252,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 
-## 子集{#subset}
+## Subset of{#subset}
 
-此 `subsetOf` 函数用于确定一个特定数组（数组A）是否是另一个数组（数组B）的子集。 换句话说，数组A中的所有元素都是数组B的元素。
+`subsetOf`函数用于确定一个特定数组（数组A）是否是另一个数组（数组B）的子集。 换句话说，数组A中的所有元素都是数组B的元素。
 
 **语法**
 
@@ -270,9 +270,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## 超集{#superset}
+## Superset of{#superset}
 
-此 `supersetOf` 函数用于确定一个特定数组（数组A）是否是另一个数组（数组B）的超集。 换句话说，该数组A包含数组B中的所有元素。
+`supersetOf`函数用于确定一个特定数组（数组A）是否是另一个数组（数组B）的超集。 换句话说，该数组A包含数组B中的所有元素。
 
 **语法**
 

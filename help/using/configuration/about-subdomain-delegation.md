@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 中的子域委派 [!DNL Journey Optimizer]
+title: ' [!DNL Journey Optimizer]中的子域委派'
 description: 了解如何委派子域
 feature: Subdomains
 topic: Administration
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->无法使用相同的发送域发送消息 [!DNL Adobe Journey Optimizer] 以及从其他产品(如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage].
+>无法使用相同的发送域从[!DNL Adobe Journey Optimizer]和其他产品（如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）发送消息。
 
 ## 为什么要设置子域？ {#why-set-up-subdomains}
 
@@ -48,15 +48,15 @@ ht-degree: 30%
 
 **了解详情**
 
-* 了解如何 [委派子域](delegate-subdomain.md) 直接从界面
-* 了解如何 [添加Google TXT记录](google-txt.md) 子域，以确保将电子邮件成功发送到Gmail地址
-* 了解如何 [访问PTR记录](ptr-records.md) 为子域生成，允许通过发送邮件服务器来验证它们
+* 了解如何直接从界面[委派子域](delegate-subdomain.md)
+* 了解如何[将Google TXT记录](google-txt.md)添加到子域，以确保将电子邮件成功发送到Gmail地址
+* 了解如何[访问为您的子域生成的PTR记录](ptr-records.md)，从而可以通过发送邮件服务器对其进行验证
 
 ## 子域配置方法 {#subdomain-delegation-methods}
 
 子域配置允许您配置域的子部分（技术上称为“DNS区域”）以与Adobe Campaign一起使用。 可用的设置方法包括：
 
-* **将子域完全委派给Adobe** （推荐）：子域已完全委派给Adobe。 Adobe能够控制和维护投放、渲染和跟踪消息所需的DNS的各个方面。 [了解有关完全子域委派的更多信息](delegate-subdomain.md#full-subdomain-delegation)
+* **将子域完全委派给Adobe**（推荐）：将子域完全委派给Adobe。 Adobe能够控制和维护投放、渲染和跟踪消息所需的DNS的各个方面。 [了解有关完全子域委派的更多信息](delegate-subdomain.md#full-subdomain-delegation)
 
 * **CNAME 的使用**：创建子域并使用 CNAME 指向 Adobe 特定的记录。使用此设置，您和Adobe共同负责维护DNS。 [了解有关CNAME子域委派的更多信息](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -79,18 +79,18 @@ ht-degree: 30%
 
 ## 访问委派的子域 {#access-delegated-subdomains}
 
-您委派的所有子域都将显示在 **[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]** 菜单。 筛选器可帮助您优化列表（委派日期、用户或状态）。
+所有委派的子域都显示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]**&#x200B;菜单中。 筛选器可帮助您优化列表（委派日期、用户或状态）。
 
 ![](assets/subdomain-list.png)
 
-此 **[!UICONTROL 状态]** 列提供了有关子域委派过程的信息：
+**[!UICONTROL 状态]**&#x200B;列提供了有关子域委派过程的信息：
 
 * **[!UICONTROL 草稿]**：子域委派已另存为草稿。 单击子域名以继续执行委派过程，
-* **[!UICONTROL 正在处理]**：子域在可以使用之前将进行多次配置检查，
-* **[!UICONTROL 成功]**：子域已成功通过检查，可用于投放消息，
-* **[!UICONTROL 失败]**：提交子域委派后，一项或多项检查失败。
+* **[!UICONTROL 正在处理]**：子域正在经历多次配置检查，然后才能使用，
+* **[!UICONTROL 成功]**：子域已成功通过检查，可用于传递消息，
+* **[!UICONTROL 失败]**：提交子域委派后，一个或多个检查失败。
 
-要访问子域的详细信息，请使用 **[!UICONTROL 成功]** 状态，从列表中将其打开。
+要访问有关状态为&#x200B;**[!UICONTROL 成功]**&#x200B;的子域的详细信息，请从列表中打开它。
 
 ![](assets/subdomain-delegated.png)
 
@@ -98,7 +98,7 @@ ht-degree: 30%
 
 * 检索在委派过程中配置的子域名（只读），以及生成的URL（资源、镜像页面、跟踪URL），
 
-* 将Google网站验证TXT记录添加到子域，以确保对其进行验证(请参阅 [将Google TXT记录添加到子域](google-txt.md))。
+* 将Google网站验证TXT记录添加到子域，以确保其经过验证(请参阅[将Google TXT记录添加到子域](google-txt.md))。
 
 
 >[!CAUTION]

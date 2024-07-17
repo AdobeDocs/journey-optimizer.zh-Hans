@@ -40,24 +40,24 @@ ht-degree: 22%
 
    ![](assets/experiment-genai-1.png)
 
-1. 浏览生成的页面 **[!UICONTROL 变体]** 并单击 **[!UICONTROL 预览]** 以查看所选变体的全屏版本。
+1. 浏览生成的&#x200B;**[!UICONTROL 变体]**&#x200B;并单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
 
    ![](assets/experiment-genai-2.png)
 
-1. 选择 **[!UICONTROL 启用试验]** 以开始创建 **[!UICONTROL 处理]** 用于您的试验。
+1. 选择&#x200B;**[!UICONTROL 启用试验]**&#x200B;开始为您的试验创建&#x200B;**[!UICONTROL 处理]**。
 
 1. 选择要包含在试验中的变体。
 
-1. 单击 **添加X处理**.
+1. 单击&#x200B;**添加X处理**。
 
    ![](assets/experiment-genai-3.png)
 
-1. 在“内容试验”窗口中，访问 **[!UICONTROL 试验设置]** 按钮以配置试验。 [了解有关内容试验的更多信息](../content-management/content-experiment.md)
+1. 从“内容试验”窗口中，访问&#x200B;**[!UICONTROL 试验设置]**&#x200B;按钮以配置试验。 [了解有关内容试验的更多信息](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. 当内容试验准备就绪时，您可以从营销活动摘要页面单击 **[!UICONTROL 审查以激活]** 以显示营销活动的摘要。 如果有任何参数不正确或缺失，将显示警报。 [了解详情](../content-management/content-experiment.md#treatment-experiment)
+1. 内容试验准备就绪后，从营销活动摘要页面中，您可以单击&#x200B;**[!UICONTROL 查看以激活]**&#x200B;以显示营销活动摘要。 如果有任何参数不正确或缺失，将显示警报。 [了解详情](../content-management/content-experiment.md#treatment-experiment)
 
-1. 在启动营销活动之前，请仔细检查所有配置是否正确，然后单击 **[!UICONTROL 激活]**.
+1. 在启动营销活动之前，请仔细检查所有配置是否正确，然后单击&#x200B;**[!UICONTROL 激活]**。
 
 成功配置和个性化营销活动后，您可以在营销活动报告中跟踪您的营销活动。 [了解详情](../reports/campaign-global-report.md)

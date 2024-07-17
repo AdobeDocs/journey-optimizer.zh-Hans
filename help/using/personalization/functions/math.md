@@ -19,7 +19,7 @@ ht-degree: 11%
 
 ## Absolute {#absolute}
 
-此 `absolute` 函数用于将数字转换为绝对值。
+`absolute`函数用于将数字转换为绝对值。
 
 **语法**
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 ## 格式数字 {#format-number}
 
-此 `formatNumber` 函数用于将任何数字格式化为其区分语言的表示形式。
+`formatNumber`函数用于将任何数字格式化为其区分语言的表示形式。
 
 它接受一个数字和一个表示区域设置的字符串，并返回所需区域设置中数字的格式化字符串。
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-您可以使用格式和有效区域设置，如中所述 [oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) 和 [支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+您可以使用[Oracle文档](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)和[支持的区域设置](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}中概述的格式设置和有效区域设置
 
 **示例**
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
 ## Random {#random}
 
-此 `random` 函数用于返回0到1之间的随机值。
+`random`函数用于返回0到1之间的随机值。
 
 **语法**
 
@@ -61,7 +61,7 @@ ht-degree: 11%
 
 ## Round down {#round-down}
 
-此 `roundDown` 函数用于对数字进行向下舍入。
+`roundDown`函数用于对数字进行向下舍入。
 
 **语法**
 
@@ -71,7 +71,7 @@ ht-degree: 11%
 
 ## Round Up {#round-up}
 
-此 `Count only null` 函数用于对数字进行向上四舍五入。
+`Count only null`函数用于对数字进行向上四舍五入。
 
 **语法**
 
@@ -81,7 +81,7 @@ ht-degree: 11%
 
 ## 到十六进制字符串 {#to-hex-string}
 
-此 `toHexString` 函数将任意数字转换为十六进制字符串。
+`toHexString`函数将任意数字转换为十六进制字符串。
 
 **语法**
 
@@ -99,7 +99,7 @@ ht-degree: 11%
 
 ## 到 Int {#to-int}
 
-此 `toInt` 函数用于将任意这些类型(number、double、int、long、float、short、byte、boolean、string)转换为整数。
+`toInt`函数用于将任意这些类型（数字、双精度、整数、长整数、浮点数、短整数、字节、布尔值、字符串）转换为整数。
 
 **语法**
 
@@ -117,7 +117,7 @@ ht-degree: 11%
 
 ## To Percentage {#to-percentage}
 
-此 `toPercentage` 函数用于将数字转换为百分比。
+`toPercentage`函数用于将数字转换为百分比。
 
 **语法**
 
@@ -127,7 +127,7 @@ ht-degree: 11%
 
 ## To Precision {#to-precision}
 
-此 `toPrecision` 函数用于将数字转换为所需的精度。
+`toPrecision`函数用于将数字转换为所需的精度。
 
 **语法**
 
@@ -137,7 +137,7 @@ ht-degree: 11%
 
 ## 目标字符串 {#to-string}
 
-此 **toString** 函数将任意数字转换为字符串表示形式。
+**toString**&#x200B;函数将任意数字转换为字符串表示形式。
 
 **语法**
 

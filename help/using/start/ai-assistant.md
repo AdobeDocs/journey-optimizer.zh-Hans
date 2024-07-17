@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI助手
+title: 使用 AI 助手
 description: 了解如何利用AI助手
 feature: Overview
 topic: Content Management
@@ -11,13 +11,13 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# 使用AI助手 {#ai-assistant}
+# 使用 AI 助手 {#ai-assistant}
 
-AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，并获取对您特定环境的操作见解。 它在Adobe Experience Cloud的多个产品中可用，包括Adobe Journey Optimizer。
+AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
 
 要访问AI助手，请单击顶栏上的图标。 AI助手将显示在屏幕的右侧部分。
 
@@ -26,7 +26,7 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
 >[!CAUTION]
 >
->在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 要了解有关协议的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}中了解有关协议的更多信息。
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
@@ -39,7 +39,7 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
    * 如何创建要在Adobe Journey Optimizer历程中使用的自定义操作？
 
 
-* **运营见解** 在旅程中（测试版）
+* 历程(Beta)中的&#x200B;**运营分析**
 
   操作洞察问题与组织沙盒中的历程对象有关。 操作分析问题或提示的一些示例包括：
 
@@ -49,17 +49,17 @@ AI Assistant是一项用户界面功能，可用于导航和了解Adobe概念，
 
   >[!NOTE]
   >
-  >您有权向AI Assistant操作分析提问的唯一一个Adobe Journey Optimizer对象是 **历程**. 它将只包含您当前所在沙盒的数据。
+  >您有权向AI Assistant操作分析提问的唯一一个Adobe Journey Optimizer对象是&#x200B;**历程**。 它将只包含您当前所在沙盒的数据。
 
 
 要提出问题，请在屏幕底部的字段中输入问题，然后按Enter键。
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
-检查答案并使用 **显示源** 按钮以获取产品文档的直接链接并了解详情。
+检查答案并使用&#x200B;**显示源**&#x200B;按钮获取产品文档的直接链接并了解更多信息。
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 使用拇指向上或向下对答案进行评分。
 
-要了解如何使用AI助手，请查看可以使用AI助手完成的示例目标，并了解AI助手的工作原理，请参阅 [Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+要了解如何使用AI助手，请查看可以使用AI助手实现的示例目标，并了解AI助手的工作原理，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}。

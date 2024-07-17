@@ -10,7 +10,7 @@ exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
 source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 >
 >[!DNL Customer Managed Keys] 功能目前仅适用于已购买 [Healthcare Shield 或 Privacy &amp; Security Shield](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hans) 附加产品的组织。
 
-通过 Adobe Journey Optimizer，[Health Shield](https://www.adobe.com/cn/trust/compliance/hipaa-ready.html) 和 Privacy &amp; Security Shield 客户可以利用 Azure 客户托管密钥 (CMK) 并将其应用于数据。
+通过 Adobe Journey Optimizer，[Health Shield](https://www.adobe.com/trust/compliance/hipaa-ready.html) 和 Privacy &amp; Security Shield 客户可以利用 Azure 客户托管密钥 (CMK) 并将其应用于数据。
 
 Journey Optimizer 的设置过程包括两个部分，利用 Adobe Experience Platform 和 Customer Journey Analytics (CJA) 技术：
 
-* 请按照 [Adobe Experience Platform 中的客户托管密钥](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html?lang=zh-Hans)文档中列出的步骤进行操作。
+* 请按照 [Adobe Experience Platform 中的客户托管密钥](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html)文档中列出的步骤进行操作。
 * 请按照 [Customer Journey Analytics 中的客户托管密钥](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html?lang=zh-Hans)文档中列出的步骤进行操作。
 
   即使您尚未购买 Customer Journey Analytics (CJA)，也必须完成此设置过程，因为背景会使用 CJA 的某些组件。

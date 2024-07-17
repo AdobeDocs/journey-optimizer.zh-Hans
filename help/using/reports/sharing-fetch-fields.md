@@ -11,7 +11,7 @@ exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 * http
 * 上限
 * 超时
-* error
+* 错误
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
@@ -77,7 +77,7 @@ ht-degree: 6%
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-系统提供的错误代码 [!DNL Journey Optimizer] 正在查询。 例如，它可以是404、500等。
+系统[!DNL Journey Optimizer]提供的错误代码正在查询。 例如，它可以是404、500等。
 
 类型：字符串
 

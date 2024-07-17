@@ -14,19 +14,19 @@ ht-degree: 3%
 ---
 
 
-# 使用交付优惠 [!DNL Batch Decisioning] API {#deliver-offers-batch}
+# 使用[!DNL Batch Decisioning] API提供优惠 {#deliver-offers-batch}
 
-此 [!DNL Batch Decisioning] API允许组织在一次调用中对给定受众中的所有用户档案使用决策功能。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批量工作流。
+[!DNL Batch Decisioning] API允许组织在一次调用中对给定受众中的所有配置文件使用决策功能。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批量工作流。
 
-使用 [!DNL Batch Decisioning] API之后，您可以在数据集中填充用于决策范围的Adobe Experience Platform受众中所有用户档案的最佳选件。 例如，组织可能希望运行 [!DNL Batch Decisioning] 以便他们向消息投放供应商发送选件。 这些选件随后将用作发送出去、以批量消息方式发送给相同用户受众的内容。
+使用[!DNL Batch Decisioning] API，您可以在决策范围内使用Adobe Experience Platform受众中所有配置文件的最佳选件填充数据集。 例如，组织可能希望运行[!DNL Batch Decisioning]，以便向消息传递供应商发送优惠。 这些选件随后将用作发送出去、以批量消息方式发送给相同用户受众的内容。
 
 为此，本组织将：
 
-* 运行 [!DNL Batch Decisioning] API，其中包含两个请求：
+* 运行[!DNL Batch Decisioning] API，其中包含两个请求：
 
-   1. A **批量POST请求** 启动工作负载以批处理选件选择。
+   1. **批处理POST请求**，用于启动工作负载以批处理选件选择。
 
-   2. A **批量GET请求** 获取批处理工作负载状态。
+   2. **批处理GET请求**&#x200B;以获取批处理工作负载状态。
 
 * 将数据集导出到消息投放供应商API。
 
@@ -34,10 +34,10 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->也可以使用Journey Optimizer界面执行批量决策。 有关更多信息，请参阅 [本节](../../batch-delivery.md)，其中提供了在使用批量决策时要考虑的全局先决条件和限制的信息。
+>也可以使用Journey Optimizer界面执行批量决策。 有关详细信息，请参阅[此部分](../../batch-delivery.md)，其中提供了在使用批量决策时要考虑的全局先决条件和限制的信息。
 
 * **每个数据集运行的批处理作业数**：每个数据集一次最多可以运行五个批处理作业。 具有相同输出数据集的任何其他批处理请求都将添加到队列中。 一旦前一个作业运行完成，系统会选取已排队作业进行处理。
-* **频率封顶**：批处理每天运行一次的配置文件快照。 此 [!DNL Batch Decisioning] API会限制频率并始终从最新快照加载配置文件。
+* **频率上限**：批处理每天运行一次的配置文件快照。 [!DNL Batch Decisioning] API限制频率并始终从最新快照加载配置文件。
 
 ## 快速入门 {#getting-started}
 
@@ -45,23 +45,23 @@ ht-degree: 3%
 
 ### 准备决策 {#prepare-decision}
 
-要准备一个或多个决策，请确保已创建数据集、受众和决策。 有关这些先决条件的详情，请参见 [本节](../../batch-delivery.md).
+要准备一个或多个决策，请确保已创建数据集、受众和决策。 [本节](../../batch-delivery.md)中详细介绍了这些先决条件。
 
 ### API要求 {#api-requirements}
 
-全部 [!DNL Batch Decisioning] 除了中提到的标头外，请求还需要以下标头 [Decision Management API开发人员指南](../getting-started.md)：
+除了[决策管理API开发人员指南](../getting-started.md)中引用的标头之外，所有[!DNL Batch Decisioning]请求还都需要以下标头：
 
-* `Content-Type`：`application/json`
+* `Content-Type`： `application/json`
 * `x-request-id`：标识请求的唯一字符串。
 * `x-sandbox-name`：沙盒名称。
 
 ## 启动批处理 {#start-a-batch-process}
 
-POST要启动工作负载以批量处理决策，请向 `/workloads/decisions` 端点。
+要启动工作负载以批处理决策，请向`/workloads/decisions`端点发出POST请求。
 
 >[!NOTE]
 >
->有关批处理作业处理时间的详细信息，请参阅 [本节](../../batch-delivery.md).
+>有关批处理作业处理时间的详细信息，请参阅[此部分](../../batch-delivery.md)。
 
 **API格式**
 
@@ -104,13 +104,13 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:segmentIds` | 该值是一个包含受众唯一标识符的数组。 它只能包含一个值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | 可写入决策事件的输出数据集。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | 包含 `placementId` 和 `activityId` |  |
+| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包装器 |  |
 | `xdm:activityId` | 决策的唯一标识符。 | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一投放位置标识符。 | `xcore:offer-placement:1410c4117306488a` |
 | `xdm:itemCount` | 这是一个可选字段，显示决策范围请求的选项等项目的数量。 默认情况下，API会为每个范围返回一个选项，但您可以通过指定此字段来明确要求提供更多选项。 每个范围可以请求至少1个和最多30个选项。 | `1` |
-| `xdm:includeContent` | 这是一个可选字段，它是 `false` 默认情况下。 如果 `true`时，选件内容包含在数据集的决策事件中。 | `false` |
+| `xdm:includeContent` | 这是可选字段，默认情况下为`false`。 如果`true`，则优惠内容包含在数据集的决策事件中。 | `false` |
 
-请参阅 [决策管理文档](../../get-started/starting-offer-decisioning.md) 有关主要概念和属性的概述。
+有关主要概念和属性的概述，请参阅[决策管理文档](../../get-started/starting-offer-decisioning.md)。
 
 **响应**
 
@@ -132,7 +132,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 检索有关批次决策的信息 {#retrieve-information-on-a-batch-decision}
 
-GET要检索有关特定决策的信息，请向 `/workloads/decisions` 端点，同时为您的决策提供相应的工作负载ID值。
+要检索有关特定决策的信息，请向`/workloads/decisions`端点发出GET请求，同时为您的决策提供相应的工作负载ID值。
 
 **API格式**
 
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[！DNL]检查工作负荷状态和提供的选件 [!DNL Batch Decisioning]] API。 欲了解更多信息，请参见 [决策管理概述](../../get-started/starting-offer-decisioning.md).
+通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理](../../get-started/starting-offer-decisioning.md)上的[概述。

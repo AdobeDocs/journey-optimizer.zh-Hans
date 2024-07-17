@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # 历程字段 {#sharing-journey-fields}
 
-此字段组用于 **历程** 模式(与 **journeyStepEvent**)。 它包含下面列出的字段。
+此字段组用于&#x200B;**journey**&#x200B;架构（与&#x200B;**journeyStepEvent**&#x200B;相关）。 它包含下面列出的字段。
 
 
 >[!NOTE]
 >
->了解有关历程属性的更多信息 [在此部分中](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>在本节](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性[的更多信息。
 
 
 ## journeyID {#journeyid-field}
@@ -51,6 +51,6 @@ ht-degree: 10%
 
 ## 版本 {#version-field}
 
-版本，表示为 `major`.`minor`
+版本，表示为`major`.`minor`
 
 类型：字符串

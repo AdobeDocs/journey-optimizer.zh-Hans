@@ -9,19 +9,19 @@ exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 # 创建后备优惠 {#create-fallback-offer}
 
-您可以通过向以下网站发出POST请求来创建后备优惠： [!DNL Offer Library] API，同时提供容器ID。
+您可以创建后备优惠，方法是在提供容器ID的同时，向[!DNL Offer Library] API发出POST请求。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **响应**
 
-成功的响应会返回有关新创建的后备优惠的信息，包括其唯一的实例ID和投放位置 `@id`. 您可以在后续步骤中使用实例ID来更新或删除您的后备优惠。 您可以使用独特的后备优惠 `@id` 在稍后的教程中创建决策。
+成功的响应返回有关新创建的后备优惠的信息，包括其唯一实例ID和投放位置`@id`。 您可以在后续步骤中使用实例ID来更新或删除您的后备优惠。 您可以在稍后的教程中使用您唯一的后备优惠`@id`创建决策。
 
 
 ```json

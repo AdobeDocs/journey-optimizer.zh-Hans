@@ -23,19 +23,19 @@ ht-degree: 16%
 
 要选择测试用户档案，请执行以下步骤：
 
-1. 从消息的编辑内容屏幕或Email Designer中，单击 **[!UICONTROL 模拟内容]** 按钮。
+1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
-1. 单击 **[!UICONTROL 管理测试用户档案]** 按钮，然后单击 **[!UICONTROL 身份命名空间]** 选择图标。 [了解有关Adobe Experience Platform身份命名空间的更多信息](../audience/get-started-identity.md).
+1. 单击&#x200B;**[!UICONTROL 管理测试配置文件]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 标识命名空间]**&#x200B;选择图标以选择要用于标识测试配置文件的命名空间。 [了解有关Adobe Experience Platform标识命名空间的更多信息](../audience/get-started-identity.md)。
 
-   在以下示例中，我们使用 **电子邮件** 命名空间。
+   在以下示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。
 
    ![](../email/assets/previewselect-namespace.png)
 
-1. 使用搜索字段查找命名空间，将其选中并单击 **[!UICONTROL 选择]**
+1. 使用搜索字段查找命名空间，选择它并单击&#x200B;**[!UICONTROL 选择]**
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. 在 **[!UICONTROL 标识值]** 字段中，输入用于标识测试用户档案的值（此处为电子邮件地址），然后单击 **[!UICONTROL 添加配置文件]**.
+1. 在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入值（此处为电子邮件地址）以标识测试配置文件，然后单击&#x200B;**[!UICONTROL 添加配置文件]**。
 
    <!--![](assets/preview-identity-value.png)-->
 

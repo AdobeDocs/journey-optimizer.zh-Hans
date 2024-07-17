@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 11%
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **响应**
 
-成功的响应会返回有关新创建的决策规则的信息 `id`. 您可以使用 `id` 在后续步骤中更新或删除您的决策规则，或在以后的教程中使用它来创建决策、决策规则和后备优惠。
+成功的响应返回有关新创建的决策规则`id`的信息。 您可以在后续步骤中使用`id`来更新或删除决策规则，或者在稍后的教程中使用它来创建决策、决策规则和后备优惠。
 
 ```json
 {

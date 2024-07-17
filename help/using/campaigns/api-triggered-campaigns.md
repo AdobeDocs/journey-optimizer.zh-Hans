@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 关于API触发的营销活动 {#about}
 
-替换为 [!DNL Journey Optimizer]，您可以创建营销策划，然后使用根据用户触发器从外部系统调用它们。 [交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). 这允许您满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
+通过[!DNL Journey Optimizer]，您可以使用[交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)创建营销活动，然后基于用户触发器从外部系统调用它们。 这允许您满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
 
 为此，您首先需要在Journey Optimizer中创建一个API触发的营销活动，然后通过API调用启动其执行。
 
@@ -38,17 +38,17 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 ### 配置和激活营销活动 {#create-activate}
 
-要创建API触发的营销活动，请执行以下步骤。 有关如何创建营销活动的详细信息，请参阅 [本节](create-campaign.md).
+要创建API触发的营销活动，请执行以下步骤。 有关如何创建营销活动的详细信息，请参阅[此部分](create-campaign.md)。
 
-1. 使用创建新营销活动 **[!UICONTROL API触发]** 类型。
+1. 使用&#x200B;**[!UICONTROL API触发的]**&#x200B;类型创建新营销活动。
 
-1. 选择 **[!UICONTROL 营销]** 或 **[!UICONTROL 事务性]** 类别，具体取决于您要发送的通信类型。
+1. 根据要发送的通信类型，选择&#x200B;**[!UICONTROL 营销]**&#x200B;或&#x200B;**[!UICONTROL 事务型]**&#x200B;类别。
 
-1. 选择一个受支持的渠道和关联的渠道表面来用于发送消息，然后单击 **[!UICONTROL 创建]**.
+1. 选择一个受支持的渠道和关联的渠道表面来发送您的消息，然后单击“**[!UICONTROL 创建]**”。
 
    ![](assets/api-triggered-type.png)
 
-1. 指定营销活动的标题和描述，然后单击 **[!UICONTROL 编辑内容]** 以配置要发送的消息。
+1. 指定营销活动的标题和描述，然后单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;以配置要发送的消息。
 
    >[!NOTE]
    >
@@ -56,21 +56,21 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
    >
    >在内容中使用大量或繁重的上下文数据可能会影响性能。
 
-1. 在 **[!UICONTROL 受众]** 部分，指定用于识别个人的命名空间。
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中，指定要用于识别个人的命名空间。
 
-   * 如果您要创建 **事务性**-type营销活动，则需要在API调用中定义目标用户档案。 此 **[!UICONTROL 创建新配置文件]** 选项允许您自动创建数据库中不存在的配置文件。 [了解有关活动执行时用户档案创建的更多信息](#profile-creation)
+   * 如果要创建&#x200B;**事务型**&#x200B;营销活动，则需要在API调用中定义定向的用户档案。 通过&#x200B;**[!UICONTROL 创建新配置文件]**&#x200B;选项，可自动创建数据库中不存在的配置文件。 [了解有关活动执行时创建用户档案的更多信息](#profile-creation)
 
      >[!NOTE]
      >
-     >单个API调用最多支持20个唯一收件人。 每个收件人必须具有唯一的用户ID，不允许存在重复的用户ID。 在中了解详情 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+     >单个API调用最多支持20个唯一收件人。 每个收件人必须具有唯一的用户ID，不允许存在重复的用户ID。 请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}以了解详情
 
-   * 对象 **营销**-type campaigns，单击 **[!UICONTROL 受众]** 按钮以选择要定位的受众。
+   * 对于&#x200B;**营销**&#x200B;类型的营销活动，单击&#x200B;**[!UICONTROL 受众]**&#x200B;按钮以选择要定位的受众。
 
 1. 配置营销活动的开始和结束日期。
 
    如果您为营销活动配置特定的开始和/或结束日期，则它不会在这些日期之外执行，并且如果营销活动由API触发，则API调用将失败。
 
-1. 单击 **[!UICONTROL 审查以激活]** 检查营销活动是否正确配置，然后激活它。
+1. 单击&#x200B;**[!UICONTROL 查看以激活]**&#x200B;以检查营销活动是否正确配置，然后激活它。
 
 现在，您可以从API执行营销活动了。 [了解详情](#execute)
 
@@ -78,14 +78,14 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 激活营销活动后，您需要检索生成的示例cURL请求，并将其用于API中以构建有效负载并触发营销活动。
 
-1. 打开营销活动，然后从复制并粘贴有效负载请求 **[!UICONTROL cURL请求]** 部分。 此有效负载包含消息中使用的所有个性化（用户档案和上下文）变量。 活动开始后，即可使用该功能。
+1. 打开营销活动，然后从&#x200B;**[!UICONTROL cURL请求]**&#x200B;部分复制并粘贴有效负载请求。 此有效负载包含消息中使用的所有个性化（用户档案和上下文）变量。 活动开始后，即可使用该功能。
 
    ![](assets/api-triggered-curl.png)
 
-1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 欲了解更多信息，请参见 [交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 有关详细信息，请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)。
 
 
-   中还提供了API调用示例 [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)中还提供了API调用示例。
 
    >[!NOTE]
    >
@@ -101,9 +101,9 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 >
 >与启用配置文件的事件不同，在REST API中传递的上下文数据用于一次性通信，而不是针对配置文件进行存储。 创建的配置文件最多包含命名空间详细信息（如果发现缺少该配置文件）。
 
-要在营销活动中使用这些数据，您需要将这些数据传递到API有效负荷，并使用个性化编辑器将其添加到消息中。 要执行此操作，请使用 `{{context.<contextualAttribute>}}` 语法，其中 `<contextualAttribute>` 应与包含要传递的数据的API有效负载中的变量名称匹配。
+要在营销活动中使用这些数据，您需要将这些数据传递到API有效负荷，并使用个性化编辑器将其添加到消息中。 为此，请使用`{{context.<contextualAttribute>}}`语法，其中`<contextualAttribute>`应与包含要传递的数据的API有效负载中的变量名称匹配。
 
-此 `{{context.<contextualAttribute>}}` 语法仅映射到String数据类型。
+`{{context.<contextualAttribute>}}`语法仅映射到String数据类型。
 
 ![](assets/api-triggered-context.png)
 
@@ -112,9 +112,9 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 >
 >传递到请求的上下文属性不能超过50kb，并且始终被视为字符串类型。
 >
->此 `context.system` 语法限制为仅供Adobe内部使用，并且不得用于传递上下文属性。
+>`context.system`语法被限制为仅Adobe内部使用，并且不应用于传递上下文属性。
 
-请注意，目前没有上下文属性可用于左边栏菜单。 必须在个性化表达式中直接键入属性，并且不执行任何检查 [!DNL Journey Optimizer].
+请注意，目前没有上下文属性可用于左边栏菜单。 属性必须直接在个性化表达式中键入，[!DNL Journey Optimizer]不执行任何检查。
 
 ## 活动执行时创建用户档案 {#profile-creation}
 
@@ -124,15 +124,15 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!IMPORTANT]
 >
->在事务型消息中，此功能是为提供的 **创建非常小的卷配置文件** 在大量事务性发送用例中，大量用户档案已存在于platform中。
+>在事务型消息中，此功能用于在大容量事务型发送用例中创建&#x200B;**小容量用户档案**，其中大量的用户档案已存在于Platform中。
 
-要在活动执行时激活用户档案创建，请切换 **[!UICONTROL 创建新配置文件]** 中的选项 **[!UICONTROL 受众]** 部分。 如果禁用此选项，则任何发送都将拒绝未知配置文件，并且API调用将失败。
+要在营销活动执行时激活用户档案创建，请在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中将&#x200B;**[!UICONTROL 创建新用户档案]**&#x200B;选项切换为on。 如果禁用此选项，则任何发送都将拒绝未知配置文件，并且API调用将失败。
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!NOTE]
 >
->在中创建未知配置文件 **AJO交互式消息传递配置文件数据集** 数据集，分别位于每个出站渠道（电子邮件、短信和推送）的三个默认命名空间（电子邮件、电话和ECID）中。 但是，如果您使用自定义命名空间，则会使用相同的自定义命名空间创建身份。
+>在&#x200B;**AJO交互式消息传递配置文件数据集**&#x200B;数据集中，为每个出站渠道（电子邮件、短信和推送）分别在三个默认命名空间（电子邮件、电话和ECID）中创建未知配置文件。 但是，如果您使用自定义命名空间，则会使用相同的自定义命名空间创建身份。
 
 ## 操作方法视频 {#video}
 

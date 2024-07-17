@@ -9,19 +9,19 @@ exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # 更新决策规则 {#update-decision-rule}
 
-您可以通过向以下网站发出POST请求来创建后备优惠： [!DNL Offer Library] API，同时提供容器ID。
+您可以创建后备优惠，方法是在提供容器ID的同时，向[!DNL Offer Library] API发出POST请求。
 
 ## 接受和内容类型标头 {#accept-and-content-type-headers}
 
-下表显示了包含 *Content-Type* 和 *Accept* 请求标头中的字段：
+下表显示了请求标头中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;字段的有效值：
 
-| 标题名称 | 值 |
+| 标头名称 | 值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **响应**
 
-成功的响应会返回决策规则的更新详细信息，包括其唯一实例ID和决策规则 `@id`.
+成功的响应将返回决策规则的更新详细信息，包括其唯一实例ID和决策规则`@id`。
 
 
 ```json

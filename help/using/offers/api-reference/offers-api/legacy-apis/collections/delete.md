@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 删除收藏集 {#delete-collection}
 
-有时可能有必要删除(DELETE)收藏集。 只能删除您在租户容器中创建的收藏集。 DELETE这是通过对 [!DNL Offer Library] 使用要删除的收藏集的$id的API。
+有时可能有必要删除(DELETE)收藏集。 只能删除您在租户容器中创建的收藏集。 通过使用要删除的集合的$id对[!DNL Offer Library] API执行DELETE请求来做到这一点。
 
 **API格式**
 

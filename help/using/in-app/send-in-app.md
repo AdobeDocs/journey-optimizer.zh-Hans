@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 12%
 
 为此，请执行以下步骤：
 
-1. 单击 **[!UICONTROL 在设备上预览]**.
+1. 单击&#x200B;**[!UICONTROL 在设备]**&#x200B;上预览。
 
    ![](assets/in_app_create_6.png)
 
-1. 从 **[!UICONTROL 连接到设备]** 窗口，单击 **[!UICONTROL 开始]**.
+1. 在&#x200B;**[!UICONTROL 连接到设备]**&#x200B;窗口中，单击&#x200B;**[!UICONTROL 启动]**。
 
-1. 输入 **[!UICONTROL 基本URL]** ，然后单击 **[!UICONTROL 下一个]**.
+1. 输入应用程序的&#x200B;**[!UICONTROL 基本URL]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/in_app_create_7.png)
 
@@ -40,9 +40,9 @@ ht-degree: 12%
 
 定义应用程序内消息后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-为此，请单击 **[!UICONTROL 模拟内容]** 然后，添加测试用户档案，使用测试用户档案数据检查消息。
+为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试用户档案以使用测试用户档案数据检查您的消息。
 
-有关如何选择测试用户档案和预览内容的详细信息，请参阅 [内容管理](../content-management/preview-test.md) 部分。
+有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 ## 查看并激活应用程序内通知{#in-app-review}
 
@@ -50,13 +50,13 @@ ht-degree: 12%
 
 为此，请执行以下步骤：
 
-1. 使用 **[!UICONTROL 审查以激活]** 按钮以显示消息的摘要。
+1. 使用&#x200B;**[!UICONTROL 查看以激活]**&#x200B;按钮显示消息的摘要。
 
    利用该摘要，可根据需要修改营销策划，并检查参数是否不正确或缺失。
 
    ![](assets/in_app_create_5.png)
 
-1. 检查营销活动是否正确配置，然后单击 **[!UICONTROL 激活]**.
+1. 检查营销活动是否正确配置，然后单击&#x200B;**[!UICONTROL 激活]**。
 
 您的营销活动现已激活。 在营销活动中配置的应用程序内通知将立即发送，或者在指定日期发送。
 

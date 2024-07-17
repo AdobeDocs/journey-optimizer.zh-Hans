@@ -17,13 +17,13 @@ ht-degree: 10%
 
 在创建选件之前，请确保已创建：
 
-* A **投放** 将在其中显示选件。 请参阅 [创建投放位置](../offer-library/creating-placements.md)
-* 如果要添加资格条件：a **决策规则** 列明优惠之呈列条件。 请参阅 [创建决策规则](../offer-library/creating-decision-rules.md).
-* 一个或多个 **收藏集限定符** （以前称为“标记”）来关联选件。 请参阅 [创建收藏集限定符](../offer-library/creating-tags.md).
+* 将在其中显示优惠的&#x200B;**投放位置**。 查看[创建版面](../offer-library/creating-placements.md)
+* 如果要添加资格条件： **决策规则**，该规则将定义优惠的呈现条件。 请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
+* 要与优惠关联的一个或多个&#x200B;**收藏集限定符**（以前称为“标记”）。 请参阅[创建集合限定符](../offer-library/creating-tags.md)。
 
 ➡️ [在视频中了解此功能](#video)
 
-个性化优惠的列表可在 **[!UICONTROL 选件]** 菜单。
+可在&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单中访问个性化优惠列表。
 
 ![](../assets/offers_list.png)
 
@@ -39,9 +39,9 @@ ht-degree: 10%
 >title="优惠属性"
 >abstract="借助优惠属性，可将键值对与优惠相关联，作报告和分析用途。"
 
-创建 **选件**，请按照以下步骤操作：
+要创建&#x200B;**选件**，请执行以下步骤：
 
-1. 单击 **[!UICONTROL 创建选件]**，然后选择 **[!UICONTROL 个性化优惠]**.
+1. 单击&#x200B;**[!UICONTROL 创建优惠]**，然后选择&#x200B;**[!UICONTROL 个性化优惠]**。
 
    ![](../assets/create_offer.png)
 
@@ -57,11 +57,11 @@ ht-degree: 10%
    >
    >更新开始/结束日期可能会影响上限。 [了解详情](add-constraints.md#capping-change-date)
 
-1. 您还可以关联一个或多个现有的 **[!UICONTROL 收藏集限定符]** 添加到选件，使您能够更轻松地搜索和组织选件库。 [了解详情](creating-tags.md)。
+1. 您还可以将一个或多个现有的&#x200B;**[!UICONTROL 收藏集限定符]**&#x200B;关联到选件，使您能够更轻松地搜索和组织选件库。 [了解详情](creating-tags.md)。
 
-1. 此 **[!UICONTROL 优惠属性]** 部分允许您将键值对与选件相关联，以便进行报告和分析。
+1. **[!UICONTROL 选件属性]**&#x200B;部分允许您关联键值对和选件，以便进行报告和分析。
 
-1. 要将自定义或核心数据使用标签分配给选件，请选择 **[!UICONTROL 管理访问权限]**. [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
+1. 要将自定义或核心数据使用标签分配给选件，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -77,7 +77,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
+   >在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
    >
    >请注意，当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，资格规则要求当前天气为≥80度。
 
@@ -91,19 +91,19 @@ ht-degree: 10%
 
 1. 确保一切配置正确。
 
-1. 您可以显示有关预计的合格用户档案的信息。 单击 **[!UICONTROL 刷新]** 以更新数据。
+1. 您可以显示有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
    ![](../assets/offer-summary-estimate.png)
 
-1. 当您的选件已准备好呈现给用户时，请单击 **[!UICONTROL 完成]**.
+1. 当您的选件已准备好呈现给用户时，请单击&#x200B;**[!UICONTROL 完成]**。
 
-1. 选择 **[!UICONTROL 保存并批准]**.
+1. 选择&#x200B;**[!UICONTROL 保存并批准]**。
 
    ![](../assets/offer_review.png)
 
    您还可以将优惠另存为草稿，以便稍后进行编辑和批准。
 
-选件会显示在列表中，其中包含 **[!UICONTROL 已批准]** 或 **[!UICONTROL 草稿]** 状态，具体取决于您在上一步中是否批准了该活动。
+该选件显示在状态为&#x200B;**[!UICONTROL 已批准]**&#x200B;或&#x200B;**[!UICONTROL 草稿]**&#x200B;的列表中，具体取决于您在上一步中是否批准了该选件。
 
 现在已准备好交付给用户。
 
@@ -111,32 +111,32 @@ ht-degree: 10%
 
 ## 管理优惠 {#offer-list}
 
-从选件列表中，您可以选择要显示其属性的选件。 您还可以编辑和更改其状态(**草稿**， **已批准**， **已存档**)、复制选件或删除选件。
+从选件列表中，您可以选择要显示其属性的选件。 您还可以编辑选件、更改其状态（**草稿**、**已批准**、**已存档**）、复制选件或删除选件。
 
 ![](../assets/offer_created.png)
 
-选择 **[!UICONTROL 编辑]** 按钮以返回选件版本模式，您可以在该模式中修改选件的 [详细信息](#create-offer)， [呈现](#representations)，并编辑 [合格规则和约束](#eligibility).
+选择&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮以返回优惠版本模式，在该模式下，您可以修改优惠的[详细信息](#create-offer)、[呈现](#representations)，以及编辑[资格规则和约束](#eligibility)。
 
-选择批准的选件，然后单击 **[!UICONTROL 撤消审批]** 要将优惠状态设回，请执行以下操作 **[!UICONTROL 草稿]**.
+选择已批准的优惠并单击&#x200B;**[!UICONTROL 撤消批准]**&#x200B;以将优惠状态设置回&#x200B;**[!UICONTROL 草稿]**。
 
-若要再次将状态设置为 **[!UICONTROL 已批准]**，选择现在显示的相应按钮。
+若要再次将状态设置为&#x200B;**[!UICONTROL 已批准]**，请选择现在显示的相应按钮。
 
 ![](../assets/offer_approve.png)
 
-此 **[!UICONTROL 更多操作]** 按钮将启用下面所述的操作。
+使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮可启用下述操作。
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL 复制]**：创建具有相同属性、表示法、资格规则和约束的优惠。 默认情况下，新选件具有 **[!UICONTROL 草稿]** 状态。
+* **[!UICONTROL 复制]**：创建具有相同属性、呈现、资格规则和约束的优惠。 默认情况下，新选件具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态。
 * **[!UICONTROL 删除]**：从列表中删除选件。
 
   >[!CAUTION]
   >
-  >将无法再访问选件及其内容。 此操作无法撤销。
+  >将无法再访问选件及其内容。 此操作无法撤消。
   >
   >如果选件用在收藏集或决策中，则无法删除该选件。 必须先从任何对象中删除选件。
 
-* **[!UICONTROL 存档]**：将选件状态设置为 **[!UICONTROL 已存档]**. 该选件仍可从列表中获得，但无法将其状态恢复为 **[!UICONTROL 草稿]** 或 **[!UICONTROL 已批准]**. 您只能复制或删除它。
+* **[!UICONTROL 存档]**：将选件状态设置为&#x200B;**[!UICONTROL 已存档]**。 该优惠仍然可以从列表中获得，但您不能将其状态设置回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已批准]**。 您只能复制或删除它。
 
 您还可以通过选择相应的复选框来同时删除或更改多个选件的状态。
 
@@ -150,7 +150,7 @@ ht-degree: 10%
 
 ![](../assets/offer_click-name.png)
 
-这使您可以访问该选件的详细信息。 选择 **[!UICONTROL 更改日志]** 按Tab键至 [监控所有更改](../get-started/user-interface.md#monitoring-changes) 已发出该优惠的电子邮件。
+这使您可以访问该选件的详细信息。 选择&#x200B;**[!UICONTROL 更改日志]**&#x200B;选项卡以[监视已对选件所做的所有更改](../get-started/user-interface.md#monitoring-changes)。
 
 ![](../assets/offer_information.png)
 

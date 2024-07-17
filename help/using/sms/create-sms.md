@@ -37,7 +37,7 @@ ht-degree: 10%
 
 >[!TAB 向历程添加短信]
 
-1. 打开您的历程，然后从拖放短信活动 **操作** 面板的部分。
+1. 打开您的历程，然后从面板的&#x200B;**操作**&#x200B;部分拖放短信活动。
 
    ![](assets/sms_create_1.png)
 
@@ -45,44 +45,44 @@ ht-degree: 10%
 
    ![](assets/sms_create_2.png)
 
-   有关如何配置旅程的更多信息，请参阅 [此页面](../building-journeys/journey-gs.md)
+   有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)
 
-   此 **[!UICONTROL 表面]** 默认情况下，字段会使用用户用于该渠道的最后一个表面进行预填充。
+   默认情况下，**[!UICONTROL Surface]**&#x200B;字段已预填充，用户将使用该渠道的最后一个表面。
 
-您现在可以从以下网址开始设计短信消息的内容 **[!UICONTROL 编辑内容]** 按钮，如下所述。
+您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计短信消息的内容，如下所述。
 
 >[!TAB 向营销活动添加短信]
 
-1. 创建新的计划或API触发的营销活动，请选择 **[!UICONTROL 短信]** 作为您的操作，然后选择 **[!UICONTROL 应用程序表面]** 以使用。 在中了解有关短信配置的更多信息 [此页面](sms-configuration.md).
+1. 创建新的计划或API触发的营销活动，选择&#x200B;**[!UICONTROL SMS]**&#x200B;作为您的操作，并选择要使用的&#x200B;**[!UICONTROL 应用程序表面]**。 在[此页面](sms-configuration.md)中了解有关短信配置的更多信息。
 
    ![](assets/sms_create_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 从 **[!UICONTROL 属性]** 部分，编辑您的营销活动的 **[!UICONTROL 标题]** 和 **[!UICONTROL 描述]**.
+1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，编辑营销活动的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    ![](assets/sms_create_4.png)
 
-1. 单击 **[!UICONTROL 选择受众]** 按钮，从可用的Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
+1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
-1. 在 **[!UICONTROL 身份命名空间]** 字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
    ![](assets/sms_create_5.png)
 
-1. 单击 **[!UICONTROL 创建试验]** 开始配置内容实验并创建处理方式以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
+1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
-1. 在 **[!UICONTROL 操作跟踪]** 部分，指定是否要跟踪短信消息中的链接点击次数。
+1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪短信消息中的链接点击次数。
 
-1. 营销活动旨在按特定日期或循环频率执行。 了解如何配置 **[!UICONTROL 计划]** 中的促销活动 [本节](../campaigns/create-campaign.md#schedule).
+1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
-1. 从 **[!UICONTROL 操作触发器]** 菜单，选择 **[!UICONTROL 频率]** 短信消息的：
+1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择短信消息的&#x200B;**[!UICONTROL 频率]**：
 
    * 一次
    * 每日
    * 每周
    * 月
 
-您现在可以从以下网址开始设计短信的内容： **[!UICONTROL 编辑内容]** 按钮，如下所述。
+您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计文本消息的内容，如下所述。
 
 >[!ENDTABS]
 
@@ -93,33 +93,33 @@ ht-degree: 10%
 >title="定义短信内容"
 >abstract="通过使用个性化编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS) 并使其个性化。"
 
-要配置短信内容，请执行以下步骤。 有关MMS设置的详情，请参见 [本节](#mms-content).
+要配置短信内容，请执行以下步骤。 有关MMS的设置详情，请参阅[此部分](#mms-content)。
 
-1. 在历程或营销策划配置屏幕中，单击 **[!UICONTROL 编辑内容]** 按钮以配置文本消息内容。
+1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置文本消息内容。
 
-1. 单击 **[!UICONTROL 消息]** 字段以打开个性化编辑器。
+1. 单击&#x200B;**[!UICONTROL 消息]**&#x200B;字段以打开个性化编辑器。
 
    ![](assets/sms-content.png)
 
-1. 使用个性化编辑器定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。 浏览到以下页面，了解更多关于 [个性化](../personalization/personalize.md) 和 [动态内容](../personalization/get-started-dynamic-content.md) 在个性化编辑器中。
+1. 使用个性化编辑器定义内容、添加个性化和动态内容。 您可以使用任何属性，例如配置文件名称或城市。 您还可以定义条件规则。 浏览到以下页面，了解有关个性化编辑器中的[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
 
-1. 定义内容后，您可以在消息中添加跟踪的URL。 为此，请访问 **[!UICONTROL 辅助函数]** 菜单并选择 **[!UICONTROL 辅助函数]**.
+1. 定义内容后，您可以在消息中添加跟踪的URL。 为此，请访问&#x200B;**[!UICONTROL 帮助程序功能]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 帮助程序]**。
 
    请注意，要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的表面。 [了解详情](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > 要访问和编辑短信子域，您必须拥有 **[!UICONTROL 管理短信子域]** 生产沙盒的权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
+   > 要访问和编辑SMS子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理SMS子域]**&#x200B;权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
 
    ![](assets/sms_tracking_1.png)
 
-1. 在 **[!UICONTROL 辅助函数]** 菜单，单击 **[!UICONTROL URL函数]** 然后选择 **[!UICONTROL 添加URL]**.
+1. 在&#x200B;**[!UICONTROL 帮助程序函数]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL URL函数]**，然后选择&#x200B;**[!UICONTROL 添加URL]**。
 
    ![](assets/sms_tracking_2.png)
 
-1. 在 `originalUrl` 字段中，粘贴要缩短的URL并单击 **[!UICONTROL 保存]**.
+1. 在`originalUrl`字段中，粘贴要缩短的URL并单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您现在可以测试和检查消息内容，如中所述 [本节](#sms-mms-test).
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
 
 ## 定义彩信内容{#mms-content}
 
@@ -127,33 +127,33 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->* MMS渠道具有下列限制 [此页面](../start/guardrails.md#sms-guardrails).
+>* [此页面](../start/guardrails.md#sms-guardrails)中列出了MMS渠道的一些限制。
 
 要创建MMS内容，请执行以下步骤：
 
-1. 创建短信，如所述 [本节](#create-sms-journey-campaign).
+1. 按照[此部分](#create-sms-journey-campaign)中的说明创建短信。
 
-1. 编辑您的短信内容，如中所述 [本节](#sms-content).
+1. 编辑你的短信内容，如[此部分](#sms-content)中所述。
 
 1. 启用MMS选项以将媒体添加到短信内容。
 
    ![](assets/sms_create_6.png)
 
-1. 添加 **[!UICONTROL 标题]** 到您的媒体上。
+1. 向媒体添加&#x200B;**[!UICONTROL 标题]**。
 
-1. 在中输入媒体的URL **[!UICONTROL 媒体]** 字段。
+1. 在&#x200B;**[!UICONTROL 媒体]**&#x200B;字段中输入媒体的URL。
 
    ![](assets/sms_create_7.png)
 
-1. 单击 **[!UICONTROL 保存]** 并在预览中查看您的消息。 您现在可以测试和检查消息内容，如下所述。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查消息内容，如下所述。
 
 ## 测试和发送消息 {#sms-mms-test}
 
-使用 **[!UICONTROL 模拟内容]** 按钮以预览短信内容、缩短的URL和个性化内容。
+使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的文本消息内容、缩短的URL和个性化内容。
 
 ![](assets/sms-content-preview.png)
 
-执行测试并验证内容后，即可向受众发送短信。 这些步骤详见 [此页面](send-sms.md)
+执行测试并验证内容后，即可向受众发送短信。 这些步骤在[此页面](send-sms.md)中详述
 
 发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#sms-tab)。
 

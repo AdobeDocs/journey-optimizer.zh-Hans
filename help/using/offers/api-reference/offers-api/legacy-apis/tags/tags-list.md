@@ -17,9 +17,9 @@ ht-degree: 5%
 
 收藏集限定符（以前称为“标记”）允许您更好地对优惠进行组织和排序。 例如，您可以使用“黑色星期五”收藏集限定符来标记“黑色星期五”选件。 然后，您可以使用选件库中的搜索功能轻松找到具有此收藏集限定符的所有选件。
 
-收藏集限定符也可用于将优惠分组为收藏集。 有关更多信息，请参阅以下教程： [创建收藏集](../../../../offer-library/creating-collections.md).
+收藏集限定符也可用于将优惠分组为收藏集。 有关详细信息，请参阅有关[创建收藏集](../../../../offer-library/creating-collections.md)的教程。
 
-您可以通过对以下对象执行单个GET请求，查看所有集合限定符的列表 [!DNL Offer Library] API。
+您可以通过对[!DNL Offer Library] API执行单个GET请求来查看所有收藏集限定符的列表。
 
 **API格式**
 
@@ -56,7 +56,7 @@ curl -X GET \
 
 | 参数 | 描述 | 示例 |
 | --------- | ----------- | ------- |
-| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如下所示：属性={PROPERTY_EXPR}[属性(&amp;P)={PROPERTY_EXPR2}...] 或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式采用格式 `[!]field[op]value`，替换为 `op` 在 `[==,!=,<=,>=,<,>,~]`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 可选的属性过滤器： <ul><li>这些属性按AND操作进行分组。</li><li>参数可以重复，如：属性={PROPERTY_EXPR}[&amp;属性={PROPERTY_EXPR2}...]或属性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>属性表达式的格式为`[!]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中包含`op`，支持正则表达式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 按特定属性对结果进行排序。 在名称前添加 — (orderby=-name)将按名称以降序对项目排序(Z-A)。 路径表达式采用点分隔路径的形式。 此参数可重复，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制返回的实体数。 | `limit=5` |
 

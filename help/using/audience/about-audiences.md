@@ -12,7 +12,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="选择活动受众"
->abstract="此列表显示所有可用的Adobe Experience Platform受众。 选择营销活动要定位的受众。 在营销活动中配置的消息将发送给属于所选受众的所有个人。 [了解有关受众的更多信息](../audience/about-audiences.md)"
+>title="选择营销活动受众"
+>abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
 
-受众是指一组具有相似行为和/或特征的人员。 要了解有关受众的更多信息，请参阅 [Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}.
+受众是指一组具有相似行为和/或特征的人员。 在[Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}中了解有关受众的更多信息。
 
-[!DNL Journey Optimizer] 允许您直接从构建Adobe Experience Platform受众 **[!UICONTROL 受众]** 菜单，并将它们用于您的历程或营销活动。
+[!DNL Journey Optimizer]允许您直接从&#x200B;**[!UICONTROL 受众]**&#x200B;菜单构建Adobe Experience Platform受众，并将它们用于您的历程或营销活动。
 
 可以使用不同方法生成受众：
 
-* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 [了解如何构建区段定义](creating-a-segment-definition.md)
-* **自定义上传**：使用CSV文件导入受众。 了解如何在Adobe Experience Platform中导入受众 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
-* **受众构成**：创建组合工作流以将现有Adobe Experience Platform受众合并到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
+* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 [了解如何生成区段定义](creating-a-segment-definition.md)
+* **自定义上传**：使用CSV文件导入受众。 请参阅Adobe Experience Platform [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}以了解如何导入受众。
+* **受众组合**：创建组合工作流以将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
 
-## 在以下位置定位受众： [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## 在[!DNL Journey Optimizer]中定位受众 {#segments-in-journey-optimizer}
 
 您可以在营销活动和历程中选择使用区段定义、自定义上传或组合工作流生成的任何受众。
 
@@ -50,11 +50,11 @@ ht-degree: 17%
 
 * 为&#x200B;**营销活动**&#x200B;选择受众，消息将发送给属于所选受众的所有个人。[了解如何定义营销活动的受众](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* 使用 **读取受众** 历程中的编排活动，旨在使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。通过此活动，您可以使所有白银客户进入历程，并向其发送一系列个性化消息。[了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
+* 在历程中使用&#x200B;**读取受众**&#x200B;编排活动，使受众中的所有个人进入历程并接收历程中包含的消息。 假设您拥有“白银客户”受众。通过此活动，您可以使所有白银客户进入历程，并向其发送一系列个性化消息。[了解如何配置读取受众活动](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
 
 * 使用历程中的&#x200B;**条件**&#x200B;活动，根据受众成员资格构建条件。[了解如何在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)。
 
-* 使用 **受众资格** 历程中的事件活动，旨在根据Adobe Experience Platform受众进入和退出，让个人进入历程或在该历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。有关如何使用此活动的更多信息，请参阅[了解如何配置受众鉴别活动](../building-journeys/audience-qualification-events.md)。
+* 在历程中使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在此历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。有关如何使用此活动的更多信息，请参阅[了解如何配置受众鉴别活动](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >
@@ -64,7 +64,7 @@ ht-degree: 17%
 
 在对使用合成工作流生成的受众进行定位时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
 
-要在历程中使用扩充属性，请确保将它们添加到“ExperiencePlatform”数据源中的字段组。
+要在历程中使用扩充属性，请确保将它们添加到“ExperiencePlatform”数据Source中的字段组。
 
 +++ 了解如何将扩充属性添加到字段组
 
@@ -82,11 +82,11 @@ ht-degree: 17%
 
 将扩充属性添加到字段组后，您可以在Journey Optimizer中的不同位置利用它们：
 
-* **在历程中创建多个路径** 基于利用目标受众的扩充属性的规则。 要实现此目的，请使用定位受众 [读取受众](../building-journeys/read-audience.md) 活动，然后在中创建规则 [条件](../building-journeys/condition-activity.md) 基于受众扩充属性的活动。
+* **根据利用目标受众的扩充属性的规则，在历程中创建多个路径**。 为此，请使用[读取受众](../building-journeys/read-audience.md)活动定位受众，然后根据受众的扩充属性在[条件](../building-journeys/condition-activity.md)活动中创建规则。
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **个性化您的消息** 在历程或营销活动中，通过在个性化编辑器中添加来自目标受众的扩充属性。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
+* 通过在个性化编辑器中添加来自目标受众的扩充属性，在历程或营销活动中&#x200B;**个性化您的消息**。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 17%
 
 +++
 
-+++ 批量分段
++++ 批次分段
 
 每24小时评估一次受众的用户档案列表。
 
@@ -120,7 +120,7 @@ ht-degree: 17%
 
 +++ 边缘分段
 
-边缘分段是一种在Adobe Experience Platform中即时评估区段的能力 [在边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}，启用同一页面和下一页面个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+Edge分段功能能够在Adobe Experience Platform的边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}上即时评估[中的区段，从而启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -142,21 +142,21 @@ ht-degree: 17%
 
 ### 使用流式客户细分的事件使用情况 {#streaming-segmentation-events-guardrails}
 
-流式分段对于高价值用例的实时个性化很有用。 但是，选择正确的策略很重要 [事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} 用作分段标准。
+流式分段对于高价值用例的实时个性化很有用。 但是，选择正确的[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}用作分段条件很重要。
 
 因此，要获得流式分段的最佳性能，请避免使用以下事件：
 
-* **消息已打开** 交互类型事件
+* **消息已打开**&#x200B;交互类型事件
 
-  在构建受众时，使用 **消息已打开** 交互事件变得不可靠，因为它们不是用户活动的实际指示器，可能会对分段性能产生负面影响。 请参阅以了解原因 [Adobe博客帖子](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. 因此，Adobe建议不要使用 **消息已打开** 使用流式分段处理交互事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。
+  在构建受众时，使用&#x200B;**消息已打开**&#x200B;交互事件变得不可靠，因为它们不是用户活动的实际指示器，可能会对分段性能产生负面影响。 在此[Adobe博客文章](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}中了解原因。 因此，Adobe建议不要将&#x200B;**Message Open**&#x200B;交互事件与流式分段一起使用。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。
 
-* **消息已发送** 反馈状态事件
+* **已发送消息**&#x200B;反馈状态事件
 
-  此 **消息已发送** 反馈事件通常用于在发送电子邮件之前检查频率或禁止显示。 Adobe建议避免使用它，因为它会给性能带来压力，并可能导致系统性能下降。 因此，对于频率或抑制逻辑，请使用业务规则而不是 **消息已发送** 反馈活动。 请注意，个人用户档案的每日频率上限将很快可用，以补充业务规则现有的每月频率。
+  发送电子邮件前，**已发送的邮件**&#x200B;反馈事件通常用于检查频率或禁止显示。 Adobe建议避免使用它，因为它会给性能带来压力，并可能导致系统性能下降。 因此，对于频率或抑制逻辑，请使用业务规则而不是&#x200B;**已发送的消息**&#x200B;反馈事件。 请注意，个人用户档案的每日频率上限将很快可用，以补充业务规则现有的每月频率。
 
 >[!NOTE]
 >
->您可以使用 **消息已打开** 和 **消息已发送** 批量分段中的事件没有任何性能问题。
+>可以在批处理分段中使用&#x200B;**已打开邮件**&#x200B;和&#x200B;**已发送邮件**&#x200B;事件，而不考虑性能。
 
 
 ## 受众构成和自定义上传常见问题解答 {#faq}
@@ -165,11 +165,11 @@ ht-degree: 17%
 
 +++ 在Journey Optimizer中，可在何处使用受众构成和自定义上传的受众？
 
-可以从营销活动和历程中定位受众构成和自定义上传的受众。 [了解如何在中定位受众 [!DNL Journey Optimizer]](#segments-in-journey-optimizer)
+可以从营销活动和历程中定位受众构成和自定义上传的受众。 [了解如何在 [!DNL Journey Optimizer]](#segments-in-journey-optimizer)中定位受众
 
-* 在 **营销活动**，则单击“选择受众”按钮后，受众选取器中会显示这些受众。
+* 在&#x200B;**营销活动**&#x200B;中，单击“选择受众”按钮后，受众选取器中会显示这些受众。
 
-* 在 **历程**，您可以在受众选择期间在“读取受众”活动中使用这些受众，并在用于受众成员资格检查的“条件”活动中使用这些受众。 但是，由于其批次性质，这些受众不会出现在“受众资格”活动中。
+* 在&#x200B;**历程**&#x200B;中，您可以在受众选择期间在“读取受众”活动中使用这些受众，也可以在用于受众成员资格检查的“条件”活动中使用这些受众。 但是，由于其批次性质，这些受众不会出现在“受众资格”活动中。
 
   >[!NOTE]
   >
@@ -183,7 +183,7 @@ ht-degree: 17%
 
 扩充属性是额外的上下文属性，特定于受众。 它们与用户档案无关，通常用于个性化目的。
 
-扩充属性通过 [扩充](composition-canvas.md#enrich) 受众构成中或通过自定义上传过程进行的活动。
+扩充属性通过受众构成中的[扩充](composition-canvas.md#enrich)活动或通过自定义上传过程链接到受众。
 
 +++
 
@@ -203,14 +203,14 @@ ht-degree: 17%
 
 +++ 如何在历程中启用扩充属性？
 
-要在历程中使用扩充属性，请确保将它们添加到“ExperiencePlatform”数据源中的字段组。 有关如何将扩充属性添加到字段组的信息，请参阅 [本节](#enrichment)
+要在历程中使用扩充属性，请确保将它们添加到“ExperiencePlatform”数据Source中的字段组。 有关如何向字段组添加扩充属性的信息，请参阅[此部分](#enrichment)
 
 +++
 
 +++ 从受众构成或自定义上传发布受众多久之后才能在Journey Optimizer中使用它？
 
-* 受众来自 **受众构成** 每天执行，因此您可能需要等待最多24小时才能在Journey Optimizer中使用它们。
-* 受众来自 **自定义上传** 在发布后约2小时可在Journey Optimizer中使用。
+* **受众合成**&#x200B;中的受众每天都会执行，因此您可能需要等待最多24小时才能在Journey Optimizer中使用它们。
+* 来自&#x200B;**自定义上传**&#x200B;的受众在发布后约2小时可在Journey Optimizer中使用。
 
 +++
 
@@ -224,7 +224,7 @@ ht-degree: 17%
 
 在自定义上传过程中，指定要用作身份的CSV属性及其映射到的配置文件身份。 这会在受众数据和用户档案之间建立链接。 如果CSV文件包含未在配置文件中找到的标识值，则会使用该标识值创建新配置文件。
 
-Adobe Experience Platform中提供了有关自定义上传过程的详细信息 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+Adobe Experience Platform [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}中提供了有关自定义上传过程的详细信息。
 
 +++
 

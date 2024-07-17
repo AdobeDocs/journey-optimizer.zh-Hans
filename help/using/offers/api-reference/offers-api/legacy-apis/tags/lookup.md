@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查找集合限定符 {#look-up-tag}
 
-您可以通过对以下网站发出GET请求来查找特定的收藏集限定符（以前称为“标记”）： [!DNL Offer Library] 包含集合限定符的API `id` 在请求路径中。
+GET您可以通过向[!DNL Offer Library] API发出请求（请求路径中包含集合限定符`id`）来查找特定的集合限定符（以前称为“标记”）。
 
 **API格式**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **响应**
 
-成功的响应将返回收集限定词的详细信息，包括有关唯一收集限定词的信息 `id`.
+成功的响应将返回集合限定符的详细信息，包括有关唯一集合限定符`id`的信息。
 
 ```json
 {
