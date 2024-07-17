@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 31%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 **以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
-## 2024 年 6 月早期发行说明 {#e-2024}
+## 2024 年 7 月早期发行说明 {#e-2024}
 
-**发行日期**：2024 年 6 月 18 日至 19 日
+**发行日期**： 2024年7月30日至31日
 
 ### 新功能 {#e-features}
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>IP 预热工作流</strong><br/></th>
+<th><strong>IP预热工作流(GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -46,34 +46,17 @@ ht-degree: 100%
 </table>
 
 
-<!--<table>
-<thead>
-<tr>
-<th><strong>Content Fragments customization</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define specific fields in a fragment that can be edited when the fragment is added to a campaign or journey. This allows for the adjustment of content portions at the time of use, providing flexibility to override default values with context-specific details.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Journey Optimizer 中的 AI 助手</strong><br/></th>
+<th><strong>与任何提供商的短信渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。</p>
-<p>有关更多信息，请参阅<a href="../start/ai-assistant.md">详细文档</a>。</p>
+<p>除了默认短信提供商Sinch、Infobip和Twilio之外，您现在还可以在Journey Optimizer中配置其他短信提供商。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -81,39 +64,44 @@ ht-degree: 100%
 
 
 
-
-
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns  (Limited Availability)</strong><br/></th>
+<th><strong>Marketo Engage自定义操作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
+<p>您现在可以将Adobe Journey Optimizer与Adobe Marketo Engage集成以构建您的B2B用例。 在历程中，新的自定义操作允许您将数据摄取到Marketo。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>改进了渠道配置</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
+<p>已增强当前渠道表面功能，以实现跨所有渠道的一致方法。 您现在可以为任何渠道定义、管理和重用这些配置。</p>
+<p><ul>
+<li>渠道表面现在重命名为<strong>渠道配置</strong></li>
+<li>从渠道配置清单中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的Web、应用程序内消息传送或基于代码的体验</li>
+<li>对象级访问控制(OLAC)现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
+<li>对于某些渠道，您可以创建针对多个平台的渠道配置。 以下示例是应用程序内消息传递渠道配置，可定位网页、iOS应用程序和Android应用程序。</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table-->
-
+</table>
 
 
 <!--table>
@@ -136,48 +124,24 @@ ht-degree: 100%
 
 此版本包含下方列出的改进。
 
-
-**决策管理**
-
-* **决策管理中的多规则支持** - 现在，您可以在决策管理中为给定优惠添加最多 10 个上限规则。这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
-
-<!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
-
-<!--**Content fragments**
-
-* Fragments can now be edited, and changes can be propagated across all live journeys and campaigns where they are used.
-* New statuses for content fragments have been introduced: **Draft**, **Live**, **Publishing**, and **Archived**. 
-* To use a fragment in a journey or campaign, it must now be in the **Live** status. A new step has been added to the fragment creation process, allowing the fragment to be published and made available for use in journeys and campaigns. Note that fragment publishing requires a new permission.
-   
-   **CAUTION** - Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. Learn how to update your existing fragments in this section.-->
-
 **历程**
 
-* 历程全局超时期限已从 30 天增加到 91 天。
-* Adobe Journey Optimizer 现在支持隐私删除/访问请求，以及数据生命周期管理请求。
-* 您现在可以调整历程清单中的列大小。
-* **事件配置中的高级表达式编辑器**&#x200B;已正式推出 - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。“限量发布版”的部分客户可使用此功能。<!--[Read more](../event/about-creating.md)-->
-* **合并策略**&#x200B;已正式推出 - 现在，历程使用的合并策略在整个历程中均可见且一致。限量发布版的部分客户可使用此功能。<!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
+* （可用性： 7月8日）现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
 
-
-
-**营销活动**
-
-* 在 Adobe Journey Optimizer 中创建营销活动时，您现在可以在新模式中选择营销活动类型（计划或触发）。
-
-<!--**Email channel**
-
-* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
-
+* `event-id`条件现在在测试模式下自动填充。
 
 **短信渠道**
 
-* 您现在可以使用单个 API 配置为每个沙盒添加唯一的短代码，从而使工作流程更高效、更简单。
-  <!--* You can now modify existing SMS configurations.-->
+* 您现在可以修改现有SMS配置。
 
 **应用程序内渠道**
 
-* **表达式片段** - 现在可将表达式片段用于&#x200B;**应用程序内渠道**。<!--[Read more](../personalization/use-expression-fragments.md)-->
+* 表达式片段现在可用于应用程序内渠道。
 
+**推送渠道**
 
-* 您现在可以使用 Edge Delivery 增效工具来获取所需的信息，帮助了解入站实施以及对其进行排除故障。
+* 您现在可以在Adobe Journey Optimizer渠道配置设置中添加移动应用程序推送凭据。 不再需要在Adobe Experience Platform数据收集中创建应用程序表面。
+
+**受众**
+
+* 现在，可以将来自受众构成和自定义上传（CSV文件）的受众和属性用于Healthcare Shield或Privacy and Security Shield。
