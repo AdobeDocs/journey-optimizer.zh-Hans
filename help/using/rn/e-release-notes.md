@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 31%
+source-wordcount: '446'
+ht-degree: 32%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 31%
 
 * （可用性： 7月8日）现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
 
-* `event-id`条件现在在测试模式下自动填充。
+<!--* The `event-id` condition is now automatically filled during test mode. -->
 
 **短信渠道**
 
