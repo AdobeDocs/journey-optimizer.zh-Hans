@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1cbc5512fe23db22eca4fe1a2cb512a154b01844
+source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 32%
+source-wordcount: '321'
+ht-degree: 45%
 
 ---
 
@@ -81,27 +81,27 @@ ht-degree: 32%
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>改进了渠道配置</strong><br/></th>
+<th><strong>Improved channel configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>已增强当前渠道表面功能，以实现跨所有渠道的一致方法。 您现在可以为任何渠道定义、管理和重用这些配置。</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
 <p><ul>
-<li>渠道表面现在重命名为<strong>渠道配置</strong></li>
-<li>从渠道配置清单中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的Web、应用程序内消息传送或基于代码的体验</li>
-<li>对象级访问控制(OLAC)现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
-<li>对于某些渠道，您可以创建针对多个平台的渠道配置。 以下示例是应用程序内消息传递渠道配置，可定位网页、iOS应用程序和Android应用程序。</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
@@ -144,4 +144,4 @@ ht-degree: 32%
 
 **受众**
 
-* 现在，可以将来自受众构成和自定义上传（CSV文件）的受众和属性用于Healthcare Shield或Privacy and Security Shield。
+* 现在，可以将受众构成和自定义上传（CSV文件）中的受众和属性用于Healthcare Shield和Privacy &amp; Security Shield插件。
