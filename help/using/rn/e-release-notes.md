@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
+source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 46%
+source-wordcount: '281'
+ht-degree: 51%
 
 ---
 
@@ -138,10 +138,10 @@ ht-degree: 46%
 
 * 表达式片段现在可用于应用程序内渠道。
 
-**推送渠道**
-
-* 您现在可以在Adobe Journey Optimizer渠道配置设置中添加移动应用程序推送凭据。 不再需要在Adobe Experience Platform数据收集中创建应用程序表面。
-
 **受众**
 
 * 现在，可以将“自定义上传”中的受众（CSV文件）用于Privacy and Security Shield。
+<!--
+**Push channel**
+
+* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.-->
