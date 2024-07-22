@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
+source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 45%
+source-wordcount: '313'
+ht-degree: 46%
 
 ---
 
@@ -144,4 +144,4 @@ ht-degree: 45%
 
 **受众**
 
-* 现在，可以将受众构成和自定义上传（CSV文件）中的受众和属性用于Healthcare Shield和Privacy &amp; Security Shield插件。
+* 现在，可以将“自定义上传”中的受众（CSV文件）用于Privacy and Security Shield。
