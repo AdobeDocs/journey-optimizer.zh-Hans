@@ -10,8 +10,8 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 ## 2024 年 7 月早期发行说明 {#e-2024}
 
-**发行日期**： 2024年7月30日至31日
+**发布日期**：2024 年 7 月 30 日至 31 日
 
 ### 新功能 {#e-features}
 
@@ -32,7 +32,7 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>IP预热工作流(GA)</strong><br/></th>
+<th><strong>IP 预热工作流 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -49,13 +49,13 @@ ht-degree: 60%
 <table>
 <thead>
 <tr>
-<th><strong>与任何提供商的短信渠道(Beta)</strong><br/></th>
+<th><strong>任何提供商的短信渠道（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>除了默认短信提供商Sinch、Infobip和Twilio之外，您现在还可以在Journey Optimizer中配置其他短信提供商。</p>
+<p>除了默认短信提供商 Sinch、Infobip 和 Twilio 之外，您现在还可以在 Journey Optimizer 中配置其他短信提供商。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 60%
 
 **历程**
 
-* （可用性： 7月8日）现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
+* （上市时间：7 月 8 日）您现在可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -132,11 +132,11 @@ ht-degree: 60%
 
 **应用程序内渠道**
 
-* 表达式片段现在可用于应用程序内渠道。
+* 表达式片段不适用于应用程序内渠道。
 
 **受众**
 
-* 现在，可以将“自定义上传”中的受众（CSV文件）用于Privacy and Security Shield。
+* 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield。
 <!--
 **Push channel**
 
