@@ -117,7 +117,7 @@ ht-degree: 21%
 >id="ajo_lp_access_settings"
 >title="定义登陆页面 URL"
 >abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="配置登陆页面子域"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="配置登陆页面子域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
 
 主页面是在用户单击指向登陆页面的链接后立即向用户显示的页面，例如通过电子邮件或网站。
