@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
+source-git-commit: bb7806cea0b485fd53055d8e596513cfbc592620
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '303'
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>IP 预热工作流 (GA)</strong><br/></th>
+<th><strong>IP 预热工作流</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -57,6 +57,23 @@ ht-degree: 0%
 <td>
 <p>除了默认短信提供商 Sinch、Infobip 和 Twilio 之外，您现在还可以在 Journey Optimizer 中配置其他短信提供商。</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>联合受众构成（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>联合受众组合现在可在Adobe Journey Optimizer中使用。 它使企业能够组合数据，以便更好地在各种用例中使用。 通过这种新方法，作为Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer用户，您可以直接从现有数据仓库联合数据集，以在一个系统中扩充Adobe Experience Platform受众和属性。</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
