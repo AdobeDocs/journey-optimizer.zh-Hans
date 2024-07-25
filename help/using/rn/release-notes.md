@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
+source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 91%
 
 ---
 
@@ -26,12 +26,76 @@ ht-degree: 100%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2024 年 7 月更新 {#24-7-2024}
 
-**最新更新日期**：2024 年 7 月 8 日
+## 2024 年 7 月早期发行说明 {#27-4-2024}
 
-**历程事件配置中的高级表达式编辑器** - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
+**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
+**发布日期**：2024 年 7 月 30 日至 31 日
+
+### 新功能 {#27-4-features}
+
+此版本引入了下方详述的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>IP 预热工作流</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>如果使用全新的 IP 地址发送电子邮件，现在可以直接从用户界面轻松执行 IP 预热工作流。Adobe Journey Optimizer 提供了一种标准化的高效方法来预热 IP 地址，该方法遵循最佳实践以期实现最佳可投放性。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>任何提供商的短信渠道（Beta 版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了默认短信提供商 Sinch、Infobip 和 Twilio 之外，您现在还可以在 Journey Optimizer 中配置其他短信提供商。</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>联合受众构成（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>联合受众组合现在可在Adobe Journey Optimizer中使用。 它使企业能够组合数据，以便更好地在各种用例中使用。 通过这种新方法，作为Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer用户，您可以直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#27-4-improvements}
+
+此版本包含下方列出的改进。
+
+**历程**
+
+* （可用性日期： 7月8日）**历程事件配置中的高级表达式编辑器** — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
+
+**受众**
+
+* 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield。
 
 ## 2024 年 6 月发行说明 {#24-6-2024}
 
