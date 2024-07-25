@@ -6,9 +6,9 @@ description: Journey Optimizer 早期发行说明
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 469fb402ef44ea363a8ca55e3bd4299845e0b95d
+source-git-commit: f24f4526d4b324df8da56013f0e41c11e1268ca8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 77%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>联合受众组合现在可在Adobe Journey Optimizer中使用。 它使企业能够组合数据，以便更好地在各种用例中使用。 通过这种新方法，作为Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer用户，您可以直接从现有数据仓库联合数据集，以在一个系统中扩充Adobe Experience Platform受众和属性。</p>
+<p>联合受众组合现在可在Adobe Journey Optimizer中使用。 它使企业能够组合数据，以便更好地在各种用例中使用。 通过这种新方法，作为Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer用户，您可以直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。</p>
 <!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
 </td>
 </tr>
