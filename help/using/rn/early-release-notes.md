@@ -6,7 +6,7 @@ description: Journey Optimizer 早期发行说明
 hide: true
 hidefromtoc: true
 exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
-source-git-commit: 3a0e0bb7fd958441cf6b07f70a255a16c7692724
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -198,3 +198,4 @@ From beta to LA, the following improvements that have been added:
 
 * 现在，您可以在渠道表面级别选择营销操作。在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
 * 现在，渠道表面可以使用对象级访问控制。
+
