@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b93c9f7262c5b5530699bb2843f2a8d8dd97a839
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1274'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 90%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 
-## 2024 年 7 月早期发行说明 {#27-4-2024}
+## 2024 年 7 月发行说明 {#27-4-2024}
 
 **以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发布日期，链接、屏幕和更新文档将发布在此页面中。
 
@@ -94,9 +94,9 @@ ht-degree: 90%
 
 * （可用性日期： 7月8日）**历程事件配置中的高级表达式编辑器** — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
 
-**受众**
+<!--**Audiences**
 
-* 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield。
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## 2024 年 6 月发行说明 {#24-6-2024}
 
