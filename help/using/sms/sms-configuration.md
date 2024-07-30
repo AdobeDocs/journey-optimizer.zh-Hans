@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a08a28d7bfe912ff545ca559bd04b70642fe2ab5
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '345'
 ht-degree: 37%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 37%
 1. 将提供程序设置与Journey Optimizer集成：
    * [带有Sinch](sms-configuration-sinch.md)
    * [使用Infobip](sms-configuration-infobip.md)
-   * [与Twilio](sms-configuration-twilio.md)
+   * [使用自定义提供商](sms-configuration-custom.md)
 1. [创建短信表面](sms-configuration-surface.md)
 
 这些步骤必须由Adobe Journey Optimizer [系统管理员](../start/path/administrator.md)执行。
