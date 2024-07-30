@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b93c9f7262c5b5530699bb2843f2a8d8dd97a839
+source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 90%
+source-wordcount: '1244'
+ht-degree: 91%
 
 ---
 
@@ -26,10 +26,7 @@ ht-degree: 90%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-
 ## 2024 年 7 月发行说明 {#27-4-2024}
-
-**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发布日期，链接、屏幕和更新文档将发布在此页面中。
 
 **发布日期**：2024 年 7 月 30 日至 31 日
 
