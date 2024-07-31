@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 5%
@@ -105,6 +105,7 @@ ht-degree: 5%
       |---|---|---|
       | 平台 | XDM事件类型 | 当满足指定的事件类型时触发。 |
       | 平台 | XDM值 | 当满足指定的XDM值时触发。 |
+
 +++
 
       ![](assets/in_app_web_surface_9.png)
