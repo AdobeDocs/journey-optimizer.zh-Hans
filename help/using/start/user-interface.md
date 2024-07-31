@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ ht-degree: 100%
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="通过 Android Studio 启动应用程序"
 >abstract="TBC"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="优先级"
+>abstract="为活动分配从0到100的优先级分数。 数字越大，表示优先级越高。 当两个营销活动使用同一表面时，Journey Optimizer将选择具有最高优先级分数的营销活动。 如果促销活动具有相同的得分，则将选择最近修改的促销活动。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="优先级"
+>abstract="“为历程分配从0到100的优先级分数。 数字越大，表示优先级越高。 当两个旅程使用同一表面时，Journey Optimizer将选择具有最高优先级分数的旅程。 如果历程具有相同的得分，则将选择最近修改的历程。"
