@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -296,9 +296,9 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="优先级"
->abstract="为活动分配从0到100的优先级分数。 数字越大，表示优先级越高。 当两个营销活动使用同一表面时，Journey Optimizer将选择具有最高优先级分数的营销活动。 如果促销活动具有相同的得分，则将选择最近修改的促销活动。"
+>abstract="为营销活动分配优先级等级，范围从 0 到 100。数字越大，表示优先级越高。当两个营销活动使用同一表面时，Journey Optimizer 将选择具有最高优先级等级的营销活动。如果营销活动优先级相同，则将选择最近修改的营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="优先级"
->abstract="为历程分配从0到100的优先级分数。 数字越大，表示优先级越高。 当两个旅程使用同一表面时，Journey Optimizer将选择具有最高优先级分数的旅程。 如果历程具有相同的得分，则将选择最近修改的历程。"
+>abstract="为历程分配优先级，范围从 0 到 100。数字越大，表示优先级越高。当两个历程使用同一表面时，Journey Optimizer 将选择具有最高优先级的历程。如果历程优先级相同，则将选择最近修改的历程。"

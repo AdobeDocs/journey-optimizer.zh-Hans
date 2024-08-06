@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="上传品牌资产"
->abstract="使用上传品牌资产菜单，您可以添加任何包含可为AI助手提供其他上下文的内容的品牌资产，或选择之前上传的资产。 此选项确保人工智能助理能够获取所有必要材料，以加强其功能和相关性。"
+>title="上传品牌资源"
+>abstract="使用“上传品牌资源”菜单，您可以添加任何可为 AI 助手提供其他上下文的内容的品牌资源，或选择之前上传的资源。此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
 
 
 >[!CONTEXTUALHELP]
