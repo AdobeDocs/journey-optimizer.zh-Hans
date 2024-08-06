@@ -7,9 +7,9 @@ topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -76,8 +76,8 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>联合受众组合现在可在Adobe Journey Optimizer中使用。 它使企业能够组合数据，以便更好地在各种用例中使用。 通过这种新方法，作为Adobe Real-time Customer Data Platform和/或Adobe Journey Optimizer用户，您可以直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">详细文档</a>。</p>
+<p>现在可在 Adobe Journey Optimizer 中使用联合受众构成。它允许企业组合数据，以便在各种用例中更好地利用数据。通过这种新方法，作为 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 用户，您可以直接从现有数据仓库联合数据集，以便在一个系统中丰富 Adobe Experience Platform 受众和属性。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home"  target="_blank">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ ht-degree: 91%
 
 **历程**
 
-* （可用性日期： 7月8日）**历程事件配置中的高级表达式编辑器** — 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件ID条件中使用函数。 [了解详情](../event/about-creating.md#adv-exp-editor)
+* （发布日期：7 月 8 日）**历程事件配置中的高级表达式编辑器** - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
 
 <!--**Audiences**
 
