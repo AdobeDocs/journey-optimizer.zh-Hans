@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: ht
-source-wordcount: '5407'
-ht-degree: 100%
+source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+workflow-type: tm+mt
+source-wordcount: '5447'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,13 @@ ht-degree: 100%
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
 
+## 2024 年 8 月 {#aug-2024}
+
+* 更新了决策管理的性能护栏，以提及具有/不具有Edge分段的Decisioning API投放吞吐量。 [了解详情](../start/guardrails.md#decision-management)
+
 ## 2024 年 7 月 {#july-2024}
 
+* 文档中详细介绍了[!DNL Journey Optimizer] 2024年7月版本的所有新增功能和改进。 [了解详情](release-notes.md)
 * 添加了一个个性化用例，说明如何使用与健康计划和处方相关的信息将电子邮件个性化。[了解详情](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024 年 6 月 {#june-2024}
