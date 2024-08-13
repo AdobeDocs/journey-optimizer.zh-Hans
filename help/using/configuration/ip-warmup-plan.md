@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 8%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
 # 创建 IP 预热计划 {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* [开始使用 IP 预热计划](ip-warmup-gs.md)
-* [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* **[创建IP预热计划](ip-warmup-plan.md)**
-* [执行 IP 预热计划](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 创建了一个或多个[IP预热活动](ip-warmup-campaign.md)，并启用了专用表面和相应的选项后，即可开始创建IP预热计划。
 
@@ -112,11 +98,12 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 * 此计划通过六个&#x200B;**阶段**&#x200B;执行，每个阶段至少包含一个运行。
 
-* 您最多可以有6列（5列用于域组，1列用于&#x200B;**其他**&#x200B;列）。 在此示例中，计划分为六个列：
+* 您最多可以有6列（4列用于域组，一个用于&#x200B;**其他**&#x200B;列，一个用于&#x200B;**参与天数**&#x200B;列）。 在此示例中，计划分为六个列：
 
-   * 其中四个对应于要在计划中使用的&#x200B;**现成的域组**(Gmail、Microsoft、Yahoo和Orange)。
+   * 其中三个对应于要在您的计划中使用的&#x200B;**现成的域组**(Gmail、Microsoft和Orange)。
    * 一个与自定义域组（需要使用[自定义域组](#custom-domain-group-tab)选项卡添加）相对应。
-   * 第六列&#x200B;**Others**&#x200B;包含计划中未明确涵盖的其他域的所有剩余地址。 此列是可选的：如果忽略，电子邮件将只发送到指定的域。
+   * 第五列&#x200B;**Others**&#x200B;包含计划中未明确涵盖的其他域的所有剩余地址。 此列是可选的：如果忽略，电子邮件将只发送到指定的域。
+   * 最后一列&#x200B;**参与天数**&#x200B;允许您指定应跟踪或评估参与的天数。
 
 其思想是逐步增加每次运行的目标地址数量，同时减少每个阶段的运行数量。
 

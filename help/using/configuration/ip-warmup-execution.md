@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 12%
+source-wordcount: '2530'
+ht-degree: 11%
 
 ---
 
 # 执行 IP 预热计划 {#ip-warmup-running}
-
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* [开始使用 IP 预热计划](ip-warmup-gs.md)
-* [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* [创建 IP 预热计划](ip-warmup-plan.md)
-* **[执行IP预热计划](ip-warmup-execution.md)**
-
->[!ENDSHADEBOX]
 
 在您[创建IP预热计划](ip-warmup-plan.md)并上传与可投放性顾问准备的文件后，您可以定义计划中的阶段并运行。
 

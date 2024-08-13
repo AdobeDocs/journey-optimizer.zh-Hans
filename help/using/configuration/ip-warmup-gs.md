@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP，可投放性
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 94%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # 开始使用 IP 预热计划 {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* **[开始使用 IP 预热](ip-warmup-gs.md)**
-* [创建 IP 预热营销活动](ip-warmup-campaign.md)
-* [创建 IP 预热计划](ip-warmup-plan.md)
-* [执行 IP 预热计划](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-借助 [!DNL Journey Optimizer]，您可以直接在用户界面中以标准化的高效方式轻松执行 IP 预热工作流程，并遵循最佳实践以实现卓越的可投放性。
-
-➡️[在此视频中了解如何创建和执行IP预热计划](#video)
-
->[!CAUTION]
->
->此功能仅适用于电子邮件渠道。
-
-使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
+使用[!DNL Journey Optimizer]，您可以按照最佳可投放性最佳实践，以标准化且高效的方式直接从用户界面执行IP预热工作流。 使用新平台发送电子邮件时，互联网服务提供商 (ISP) 会怀疑无法识别的 IP 地址。如果突然发送大量电子邮件，ISP 通常会将其标记为垃圾邮件。
 
 要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->在[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans)中了解更多有关利用 IP 预热提高电子邮件声誉的信息。
+>只能在生产类型的沙盒上启用此功能。
+>
+>此插件不适用于已购买Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加产品的组织。
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ Benefits
 
 1. 为计划的每个阶段选择一个营销活动并相应地激活运行。[了解详情](ip-warmup-execution.md)
 
-## 操作方法视频 {#video}
+<!--Old UI
+## How-to video {#video}
 
-了解如何创建和执行 IP 预热计划。
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>在[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hans)中了解有关利用IP预热提高电子邮件信誉的更多信息。

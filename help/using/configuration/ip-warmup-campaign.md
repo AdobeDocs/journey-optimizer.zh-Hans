@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
-hide: true
-hidefromtoc: true
-badge: label="Beta 版"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 17%
+source-wordcount: '423'
+ht-degree: 12%
 
 ---
 
@@ -26,17 +23,6 @@ ht-degree: 17%
 >title="激活 IP 预热计划选项"
 >abstract="选择此选项后，可以在 IP 预热计划中使用营销活动。然后将由与其关联的 IP 预热计划推动营销活动计划。"
 
->[!BEGINSHADEBOX]
-
-本文档指南包括以下内容：
-
-* [开始使用 IP 预热计划](ip-warmup-gs.md)
-* **[创建IP预热营销活动](ip-warmup-campaign.md)**
-* [创建 IP 预热计划](ip-warmup-plan.md)
-* [执行 IP 预热计划](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
 在[!DNL Journey Optimizer]中创建IP预热计划本身之前，首先需要创建一个或多个专门用于IP预热计划<!--through a dedicated option-->的营销活动。
 
 要创建IP预热活动，请执行以下步骤。
@@ -45,9 +31,9 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何选择要用于电子邮件表面的域和IP。
+   >* 在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何选择要用于电子邮件表面的域和IP。
    >
-   >与您的可投放性顾问合作，确定要用于IP预热计划的域和IP。<!--TBC-->
+   >* 与您的可投放性顾问合作，确定要用于IP预热计划的域和IP。<!--TBC-->
 
 1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email-journey-campaign)操作。
 
@@ -71,17 +57,13 @@ ht-degree: 17%
 
    请注意，您需要为IP预热活动选择基于规则的受众。 [了解详情](../audience/creating-a-segment-definition.md)
 
-   >[!NOTE]
-   >
-   >有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
+   有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 1. [激活](../campaigns/review-activate-campaign.md)营销活动。 其状态更改为&#x200B;**[!UICONTROL 实时]**。
 
    请注意，不应在IP预热计划中使用业务规则。 应用这些规则可能会妨碍达到营销活动所需数量的定向用户档案。
 
-   >[!NOTE]
-   >
-   >对于激活了IP预热计划的实时营销活动，**[!UICONTROL 删除]**&#x200B;按钮可用，直到它与IP预热计划关联为止。 营销活动一旦用于计划，便无法再删除。
+   对于激活了IP预热计划的实时营销活动，**[!UICONTROL 删除]**&#x200B;按钮可用，直到它与IP预热计划关联为止。 营销活动一旦用于计划，便无法再删除。
 
 1. 该营销活动显示在&#x200B;**[!UICONTROL 营销活动]**&#x200B;列表中。 要轻松检索在当前沙盒上创建的所有IP预热营销活动，您可以对&#x200B;**[!UICONTROL IP预热营销活动]**&#x200B;营销活动选项进行过滤。
 
