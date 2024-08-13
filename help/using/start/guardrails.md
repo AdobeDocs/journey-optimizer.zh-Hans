@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dcf1edb654639d41472d1e1ca263020df9fb63ec
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+workflow-type: tm+mt
+source-wordcount: '2078'
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 | API | 每秒决策数 |
 |---------|----------|
 | Decisioning API 请求 | 每秒 500 |
-| Edge Decisioning API 请求 | 每秒 1500 |
+| Edge Decisioning API请求与Edge分段 | 每秒 1500 |
+| Edge Decisioning API请求不使用Edge分段 | 每秒 5000 |
 
 ### 限制 {#offers-limitations}
 
