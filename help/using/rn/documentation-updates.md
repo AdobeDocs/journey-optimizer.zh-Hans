@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
 workflow-type: tm+mt
-source-wordcount: '5447'
+source-wordcount: '5454'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 99%
 ## 2024 年 8 月 {#aug-2024}
 
 * 更新了决策管理的性能护栏，以提及具有/不具有Edge分段的Decisioning API投放吞吐量。 [了解详情](../start/guardrails.md#decision-management)
+* 历程护栏已更新。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+
 
 ## 2024 年 7 月 {#july-2024}
 
