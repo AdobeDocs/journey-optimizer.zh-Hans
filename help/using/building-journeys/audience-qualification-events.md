@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1091'
 ht-degree: 24%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 24%
 
 ### 重要说明{#important-notes-segment-qualification}
 
-* 请记住，Adobe Experience Platform受众每天计算一次（**批处理**&#x200B;个受众）或实时计算(**流式处理**&#x200B;个受众，使用Adobe Experience Platform的“高频受众”选项)。
+* 请记住，Adobe Experience Platform受众每天计算一次（**批次**&#x200B;受众），或使用Adobe Experience Platform的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
 
    * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
    * 如果受众是批量受众，则新近符合此受众条件的人员可能会在Adobe Experience Platform上执行受众计算时进入历程。
@@ -51,6 +51,8 @@ ht-degree: 24%
 * 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
 
 ### 配置活动{#cnfigure-segment-qualification}
+
+要配置&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动，请执行以下步骤：
 
 1. 展开&#x200B;**[!UICONTROL 事件]**&#x200B;类别并将&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动放入画布中。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1478'
 ht-degree: 7%
 
 ---
@@ -40,6 +40,9 @@ ht-degree: 7%
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
 * 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+
+[此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
+
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 

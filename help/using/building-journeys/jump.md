@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 跳转，活动，历程，拆分，拆分
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 10%
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 在目标历程中，**[!UICONTROL 跳转]**&#x200B;活动在内部触发的第一个事件将生成历程中的各个流程。
 
-## 生命周期
+## 生命周期 {#jump-lifecycle}
 
 假设您已将历程A中的&#x200B;**[!UICONTROL 跳转]**&#x200B;活动添加到历程B。历程A是&#x200B;**起源历程**&#x200B;和历程B，即&#x200B;**目标历程**。
 以下是执行过程的不同步骤：
@@ -52,9 +52,9 @@ ht-degree: 10%
 >
 >历程B也可以通过外部事件触发。
 
-## 最佳实践和限制
+## 最佳实践和限制 {#jump-limitations}
 
-### 创作
+### 创作 {#jump-limitations-authoring}
 
 * **[!UICONTROL 跳转]**&#x200B;活动仅在使用命名空间的历程中可用。
 * 您只能跳转到使用与起源历程相同的命名空间的历程。
@@ -65,12 +65,12 @@ ht-degree: 10%
 * 目标历程还可以包含所需数量的跳转&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。
 * 不支持循环模式。 无法将两个或更多历程链接在一起，这会产生无限循环。 **[!UICONTROL 跳转]**&#x200B;活动配置屏幕阻止您执行此操作。
 
-### 执行
+### 执行 {#jump-limitations-exec}
 
 * 执行&#x200B;**[!UICONTROL 跳转]**&#x200B;活动时，将触发目标历程的最新版本。
 * 像往常一样，同一个历程中只能出现一次独特个人。 因此，如果从起源历程推送的个人已在目标历程中，则该个人将不会进入目标历程。 **[!UICONTROL 跳转]**&#x200B;活动不会报告任何错误，因为这是正常行为。
 
-## 配置跳转活动
+## 配置跳转活动 {#jump-configure}
 
 1. 设计您的&#x200B;**起源历程**。
 
@@ -110,7 +110,7 @@ ht-degree: 10%
 
 ![](assets/jump7.png)
 
-## 故障排除
+## 故障排除 {#jump-troubleshoot}
 
 如果出现以下情况，将发生错误：
 * 目标历程不再存在
