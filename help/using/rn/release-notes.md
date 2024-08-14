@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 98%
@@ -96,9 +96,7 @@ ht-degree: 98%
 
 * （发布日期：7 月 8 日）**历程事件配置中的高级表达式编辑器** - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
 
-<!--**Audiences**
 
-* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## 2024 年 6 月发行说明 {#24-6-2024}
 
