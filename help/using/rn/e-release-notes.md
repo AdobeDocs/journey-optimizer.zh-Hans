@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 26%
+source-wordcount: '633'
+ht-degree: 33%
 
 ---
 
@@ -28,21 +28,6 @@ ht-degree: 26%
 ### 新功能 {#e-features}
 
 此版本引入了下方详述的新功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>Marketo Engage自定义操作</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将 Adobe Journey Optimizer 与 Adobe Marketo Engage 集成以构建您的 B2B 用例。在历程中，新的自定义操作允许您将数据摄取到 Marketo。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
+<th><strong>Marketo Engage自定义操作</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将 Adobe Journey Optimizer 与 Adobe Marketo Engage 集成以构建您的 B2B 用例。在历程中，新的自定义操作允许您将数据摄取到 Marketo。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>内容片段中的变量</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ ht-degree: 26%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>IP 预热工作流</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>发布日期： 8月13日</p>
+<p>如果使用全新的 IP 地址发送电子邮件，现在可以直接从用户界面轻松执行 IP 预热工作流。Adobe Journey Optimizer 提供了一种标准化的高效方法来预热 IP 地址，该方法遵循最佳实践以期实现最佳可投放性。</p>
+<p>有关更多信息，请参阅<a href="../configuration/ip-warmup-gs.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>

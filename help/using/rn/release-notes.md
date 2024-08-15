@@ -4,12 +4,12 @@ product: journey optimizer
 title: 发行说明
 feature: Release Notes
 topic: Content Management
-description: Journey Optimizer 发行说明
+description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 98%
+source-wordcount: '1830'
+ht-degree: 74%
 
 ---
 
@@ -26,9 +26,104 @@ ht-degree: 98%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 8月更新 {#24-8-2024}
+## 2024 年 8 月早期发行说明 {#e-2024}
 
-8月发布了以下更改：
+**发行日期**： 2024年8月20日至21日
+
+>[!CAUTION]
+>
+>**在发行日期**&#x200B;之前，下面的早期发行说明可能会有所更改，恕不另行通知。 链接、屏幕和更新文档在发布日期发布。
+>
+
+### 新功能 {#e-features}
+
+此版本引入了下方详述的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>引导式渠道设置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过引导式渠道设置，您可以在统一体验中自动设置移动渠道的步骤，从而更快地开始使用Journey Optimizer。 这种设置便于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够立即开始创建营销活动和历程。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>内容卡片</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>内容卡是Adobe Journey Optimizer中新增的数字消息传送功能，可直接在移动应用程序和网站上提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持久的非侵入式更新，以增强用户交互和体验。</p>
+<p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度并确保查看重要消息而不会中断用户历程。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>改进了渠道配置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>已增强当前渠道表面功能，以实现跨所有渠道的一致方法。 您现在可以为任何渠道定义、管理和重用这些配置。</p>
+<p><ul>
+<li>渠道表面现在重命名为<strong>渠道配置</strong></li>
+<li>从渠道配置清单中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的Web、应用程序内消息传送或基于代码的体验</li>
+<li>对象级访问控制(OLAC)现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
+<li>对于某些渠道，您可以创建针对多个平台的渠道配置。 以下示例是应用程序内消息传递渠道配置，可定位网页、iOS应用程序和Android应用程序。</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Marketo Engage自定义操作</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以将 Adobe Journey Optimizer 与 Adobe Marketo Engage 集成以构建您的 B2B 用例。在历程中，新的自定义操作允许您将数据摄取到 Marketo。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>内容片段中的变量</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>片段现在可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。 您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
+
+
+### 改进 {#e-improvements}
+
+此版本具有下面列出的改进。
+
+**历程**
+
+* 在&#x200B;**Condition**&#x200B;活动中，默认情况下，时间条件现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/condition-activity.md#time_condition)
+* 现在，在构建历程时，警报将显示在下拉列表中，以便与活动警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以轻松地将缩放值重置为100%。
+
+**受众**
+
+* 现在，可以将自定义上传的受众（CSV文件）用于Privacy and Security Shield加载项。
+* 在定位自定义上传（CSV文件）受众时，您现在可以在营销活动和历程中使用文件中的属性。 这些属性在个性化编辑器和历程高级表达式编辑器中可用，用于个性化消息。
 
 ## 2024 年 7 月发行说明 {#24-7-2024}
 
@@ -96,8 +207,6 @@ ht-degree: 98%
 
 * （发布日期：7 月 8 日）**历程事件配置中的高级表达式编辑器** - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## 2024 年 6 月发行说明 {#24-6-2024}
 
 **发行日期**：2024 年 6 月 18 日至 19 日
@@ -105,23 +214,6 @@ ht-degree: 98%
 ### 新功能 {#june-24-features}
 
 此版本引入了下方详述的新功能。
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ ht-degree: 98%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ ht-degree: 98%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
