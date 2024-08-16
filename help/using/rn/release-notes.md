@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 470a1a999eeedd94a20bc1b0a49b0f0bce472a1c
+source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '888'
 ht-degree: 46%
 
 ---
@@ -79,10 +79,10 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>已增强当前渠道表面功能，以实现跨所有渠道的一致方法。 您现在可以为任何渠道定义、管理和重用这些配置。</p>
+<p>已增强当前渠道表面功能，以实现跨所有渠道的一致方法。 您现在可以为任何渠道定义、管理和重用这些配置，包括Web、应用程序内消息传送或基于代码的体验。</p>
 <p><ul>
 <li>渠道表面现在重命名为<strong>渠道配置</strong></li>
-<li>从渠道配置清单中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的Web、应用程序内消息传送或基于代码的体验</li>
+<li>您可以附加一个或多个营销操作以强制执行同意和数据治理策略</li>
 <li>对象级访问控制(OLAC)现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
 <li>对于某些渠道，您可以创建针对多个平台的渠道配置。 以下示例是应用程序内消息传递渠道配置，可定位网页、iOS应用程序和Android应用程序。</li>
 </ul></p>
@@ -91,7 +91,6 @@ ht-degree: 46%
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
