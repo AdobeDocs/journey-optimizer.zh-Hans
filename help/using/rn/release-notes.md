@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a326d0869f5d195c4a2b4be930e981c11a15afd9
+source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '892'
 ht-degree: 46%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>引导式渠道设置让您能够在一个统一的体验中自动进行渠道设置，从而加快Journey Optimizer快速入门的过程。 这一新的引导式设置简化了快速渠道配置，确保所有必要的资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使营销、产品和数据工程团队能够快速从营销活动和历程创建开始。</p>
+<p>“引导式渠道设置”让您能够在一个统一的体验中自动化和验证渠道设置，从而加快Journey Optimizer快速入门的过程。 这一新的引导式设置简化了快速渠道配置，确保所有必要的资源都能够在Experience Platform、Journey Optimizer和数据收集中随时安装并使用。 这使营销、产品和数据工程团队能够快速从营销活动和历程创建开始。</p>
 </td>
 </tr>
 </tbody>
