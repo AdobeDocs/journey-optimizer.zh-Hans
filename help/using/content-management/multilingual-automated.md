@@ -10,9 +10,9 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限量发布版" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1326'
 ht-degree: 4%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 4%
 
    * **[!UICONTROL 正在进行翻译]**：您的服务提供商正在处理翻译。
 
-     如果在配置&#x200B;**语言设置**&#x200B;时选择了&#x200B;**内部翻译**，则可以在翻译项目中直接翻译内容。 [了解详情](#manage-ht-project)
+     如果在配置&#x200B;**语言设置**&#x200B;时选择了&#x200B;**内包**，则可以在翻译项目中直接翻译内容。 [了解详情](#manage-ht-project)
 
    * **[!UICONTROL 准备好审查]**：审查过程已准备就绪，允许您访问翻译并拒绝或批准翻译。
 
@@ -203,11 +203,11 @@ ht-degree: 4%
 
 您现在可以激活营销活动或历程。 发送后，您可以在报表中衡量多语言历程或活动的影响。
 
-## 管理内部翻译项目 {#manage-ht-project}
+## 管理内源翻译项目 {#manage-ht-project}
 
-如果在配置语言设置时选择了内部翻译，则可以在翻译项目中直接翻译内容。
+如果在配置语言设置时选择了内包，则可以在翻译项目中直接翻译内容。
 
-1. 从您的&#x200B;**[!UICONTROL 翻译项目]**，访问&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 内部翻译]**。
+1. 从您的&#x200B;**[!UICONTROL 翻译项目]**，访问&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 内源]**。
 
    ![](assets/inhouse-translation-1.png)
 
