@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -608,7 +608,7 @@ ht-degree: 99%
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
          + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
-         + [与Marketo Engage集成](using/action/marketo-engage.md)
+         + [与 Marketo Engage 集成](using/action/marketo-engage.md)
    + [源](using/start/get-started-sources.md)
 + 访问控制{#access-control}
    + 访问控制概述{#privacy}

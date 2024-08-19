@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2239'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 自定义操作 {#custom-actions-g}
 
-* 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须通过定义适当的读取率（使用自定义操作时为5000个配置文件/秒），在基于受众的历程中考虑这一点。 如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
+* 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5000 个用户档案/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
 * 自定义操作 URL 不支持动态参数。
 * 支持 POST、PUT 和 GET 调用方法
 * 查询参数或标头的名称不得以“.”或“$”开始
@@ -95,7 +95,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 仅当使用请求或响应负载时，自定义操作才支持 JSON 格式。请参阅[此页](../action/about-custom-action-configuration.md#custom-actions-limitations)。
 * 在使用自定义操作选择要定位的端点时，请确保：
 
-   * 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点必须支持至少200个TPS。
+   * 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点都必须支持至少 200 TPS。
    * 此端点的响应时间需要尽可能短。根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
 ### 事件 {#events-g}
@@ -103,7 +103,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众鉴别活动结合使用。
 * 单一历程（以事件或受众鉴别开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，重新访问用户档案会被暂时阻止 5 分钟。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
-* Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件无法用于触发历程。对于无法获取流式传输的事件的用例，必须基于这些事件构建受众，然后改用&#x200B;**读取受众**&#x200B;活动。 从技术上讲，可以使用受众资格，但不建议使用，因为它可能会根据所使用的操作导致下游挑战。
+* Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件无法用于触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众鉴别，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 
 ### 数据源 {#data-sources-g}
@@ -129,7 +129,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 更新用户档案 {#update-profile-g}
 
-特定护栏适用于&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;活动。 它们列在[此页面](../building-journeys/update-profiles.md)中。
+特定护栏适用于&#x200B;**[!UICONTROL 更新用户档案]**&#x200B;活动。请参见[此页面](../building-journeys/update-profiles.md)中所列。
 
 
 ### 读取受众 {#read-segment-g}
@@ -138,22 +138,22 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
 * 对于使用“读取受众”活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（读取受众、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
-* 读取受众活动不能与Adobe Campaign活动一起使用。
-* 读取受众活动只能用作历程中的第一个活动，即业务活动活动后的第一个活动。
-* 历程只能有一个读取受众活动。
+* “读取受众”活动不能与 Adobe Campaign 活动一起使用。
+* “读取受众”活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
+* 历程只能有一个“读取受众”活动。
 * 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用“读取受众”活动的建议。
 
 
 ### 受众鉴别 {#audience-qualif-g}
 
-以下护栏适用于&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动：
+以下护栏适用于&#x200B;**[!UICONTROL 受众鉴别]**&#x200B;活动：
 
-* 受众资格活动不能用于Adobe Campaign活动。
+* “受众鉴别”活动不能与 Adobe Campaign 活动一起使用。
 
 
 ### 表达式编辑器 {#expression-editor}
 
-* 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众，并在历程中使用非受众条件。
+* 以读取受众、受众鉴别或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众并在历程中使用受众内条件。
 
 
 ### 应用程序内活动 {#in-app-activity-limitations}
@@ -162,9 +162,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 个性化只能包含个人资料属性。
 
-* 应用程序内活动不能与Adobe Campaign活动一起使用。
+* 应用程序内活动不能与 Adobe Campaign 活动一起使用。
 
-* 应用程序内显示与历程生命周期绑定，这意味着当具有相应个人资料的受众的历程结束时，该历程中的所有应用程序内消息将不再会显示给该受众。因此，无法直接从历程活动停止应用程序内消息。相反，您必须结束整个历程以停止向用户档案显示应用程序内消息。
+* 应用程序内显示与历程生命周期绑定，这意味着当具有相应个人资料的受众的历程结束时，该历程中的所有应用程序内消息将不再会显示给该受众。因此，无法直接从历程活动停止应用程序内消息。相反，您必须结束整个历程以停止向具有相关用户档案的受众显示应用程序内消息。
 
 * 在测试模式下，应用程序内显示取决于历程的有效期。要防止历程在测试期间过早结束，请调整&#x200B;**[!UICONTROL 等待]**&#x200B;活动的&#x200B;**[!UICONTROL 等待时间]**&#x200B;值。
 
@@ -180,13 +180,13 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 跳转活动 {#jump-g}
 
-特定护栏适用于&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。 它们列在[此页面](../building-journeys/jump.md#jump-limitations)中。
+特定护栏适用于&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。请参见[此页面](../building-journeys/jump.md#jump-limitations)中所列。
 
-### 营销活动 {#ac-g}
+### Campaign 活动 {#ac-g}
 
-以下护栏适用于&#x200B;**[!UICONTROL Campaign v7/v8]**&#x200B;和&#x200B;**[!UICONTROL Campaign Standard]**&#x200B;活动：
+以下护栏适用于 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活动：
 
-* Adobe Campaign活动不能与读取受众或受众资格活动一起使用。
+* Adobe Campaign 活动不能与“读取受众”或“受众鉴别”活动一起使用。
 * 这些活动不能与应用程序内活动一起使用。
 
 ## 决策管理护栏 {#decision-management}
@@ -198,8 +198,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 | API | 每秒决策数 |
 |---------|----------|
 | Decisioning API 请求 | 每秒 500 |
-| Edge Decisioning API请求与Edge分段 | 每秒 1500 |
-| Edge Decisioning API请求不使用Edge分段 | 每秒 5000 |
+| Edge Decisioning API 请求使用 Edge 分段 | 每秒 1500 |
+| Edge Decisioning API 请求不使用 Edge 分段 | 每秒 5000 |
 
 ### 限制 {#offers-limitations}
 
