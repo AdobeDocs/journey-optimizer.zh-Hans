@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: marketo、marketo engage集成
-source-git-commit: 6a49f4b2e0220b1c875b42f70dcb44f3405c6ad2
+source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -37,17 +37,17 @@ ht-degree: 0%
 * 在“操作”列表中，单击“创建操作”。 在此处阅读有关自定义操作创建的更多信息（+链接）
 * 输入名称和描述，然后选择Adobe Marketo Engage作为操作类型
 
-![](assets/engage-customaction-creation.png)
+![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
 * 单击&#x200B;**请求**&#x200B;和&#x200B;**响应**&#x200B;有效负载的“编辑有效负载”。
 * 对于这两种情况，请撰写有效负载并将其粘贴到专用弹出窗口中。
 
-![](assets/engage-customaction-payload.png)
+![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * Inspect并配置有效负载值
 注意：若要动态传递值，请为每个字段将**常量**&#x200B;更改为&#x200B;**变量**。
 
-![](assets/engage-customaction-payload-fields.png)
+![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 * 在字段配置窗口中单击&#x200B;**保存**，然后单击自定义操作的&#x200B;**保存**。
 
@@ -114,5 +114,5 @@ ht-degree: 0%
 * 将自定义操作拖动到历程画布上。 （请参阅如何使用自定义操作/链接）
 * 在Request参数中，使用您在有效负载中配置的动态值单击每个参数的编辑。
 
-![](assets/engage-use-canvas.png)
+![](assets/engage-use-canvas.png){width="70%" align="left"}
 
