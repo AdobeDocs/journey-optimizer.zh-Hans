@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 33%
+ht-degree: 57%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 33%
 
 ## 2024 年 8 月早期发行说明 {#e-2024}
 
-**发行日期**： 2024年8月20日至21日
+**发布日期**：2024 年 8 月 20 日 - 21 日
 
 ### 新功能 {#e-features}
 
@@ -70,12 +70,12 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>已增强当前渠道表面功能，以实现跨所有渠道的一致方法。 您现在可以为任何渠道定义、管理和重用这些配置。</p>
+<p>增强了当前渠道表面功能，从而跨所有渠道采用一致的方式。您现在可以为任何渠道定义、管理和重用这些配置。</p>
 <p><ul>
 <li>渠道表面现在重命名为<strong>渠道配置</strong></li>
-<li>从渠道配置清单中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的Web、应用程序内消息传送或基于代码的体验</li>
-<li>对象级访问控制(OLAC)现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
-<li>对于某些渠道，您可以创建针对多个平台的渠道配置。 以下示例是应用程序内消息传递渠道配置，可定位网页、iOS应用程序和Android应用程序。</li>
+<li>从渠道配置库中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的 Web、应用程序内消息传送或基于代码的体验</li>
+<li>对象级访问控制 (OLAC) 现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
+<li>对于某些渠道，您可以创建针对多个平台的渠道配置。以下示例是应用程序内消息传递渠道配置，可针对网页、iOS 应用程序和 Android 应用程序。</li>
 </ul></p>
 <p>有关更多信息，请参阅<a href="../configuration/ip-warmup-gs.md">详细文档</a>。</p>
 </td>
@@ -125,7 +125,7 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>发布日期： 8月13日</p>
+<p>发布日期：8 月 13 日</p>
 <p>如果使用全新的 IP 地址发送电子邮件，现在可以直接从用户界面轻松执行 IP 预热工作流。Adobe Journey Optimizer 提供了一种标准化的高效方法来预热 IP 地址，该方法遵循最佳实践以期实现最佳可投放性。</p>
 <p>有关更多信息，请参阅<a href="../configuration/ip-warmup-gs.md">详细文档</a>。</p>
 </td>
@@ -155,7 +155,7 @@ ht-degree: 33%
 
 **历程**
 
-* 在&#x200B;**Condition**&#x200B;活动中，默认情况下，时间条件现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/condition-activity.md#time_condition)
+* 现在，在&#x200B;**条件**&#x200B;活动中，时间条件默认按小时设置，从 00:00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
 * 现在，在构建历程时，警报将显示在下拉列表中，以便与活动警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以轻松地将缩放值重置为100%。
 

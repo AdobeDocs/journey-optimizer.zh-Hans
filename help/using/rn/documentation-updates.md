@@ -21,13 +21,13 @@ ht-degree: 99%
 
 ## 2024 年 8 月 {#aug-2024}
 
-* 更新了决策管理的性能护栏，以提及具有/不具有Edge分段的Decisioning API投放吞吐量。 [了解详情](../start/guardrails.md#decision-management)
+* 更新了决策管理的性能护栏，涉及使用/不使用 Edge 分段的 Decisioning API 投放吞吐量。[了解详情](../start/guardrails.md#decision-management)
 * 历程护栏已更新。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024 年 7 月 {#july-2024}
 
-* 文档中详细介绍了[!DNL Journey Optimizer] 2024年7月版本的所有新增功能和改进。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了一个个性化用例，说明如何使用与健康计划和处方相关的信息将电子邮件个性化。[了解详情](../personalization/perso-uc-plan-prescriptions.md)
 
 ## 2024 年 6 月 {#june-2024}
