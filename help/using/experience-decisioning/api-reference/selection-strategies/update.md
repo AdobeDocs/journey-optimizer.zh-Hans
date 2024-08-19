@@ -1,12 +1,14 @@
 ---
 title: 更新选择策略
+description: 选择策略包括与约束关联的集合以及确定优惠的排名方法。
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 7%
 您可以通过向选件库API发出PATCH请求来修改或更新选择策略。
 
 有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
-
-**接受和内容类型标头**
-
-下表显示了组成请求标头中Content-Type字段的有效值：
-
-| 标头名称 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 

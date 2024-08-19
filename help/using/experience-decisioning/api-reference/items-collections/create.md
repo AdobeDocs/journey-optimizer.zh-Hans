@@ -5,10 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 7%
 # 创建项目集合 {#create-decision-items}
 
 您可以通过向选件库API发出POST请求来创建项目收藏集。
-
-**接受和内容类型标头**
-
-下表显示了组成请求标头中Content-Type字段的有效值：
-
-| 标头名称 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 

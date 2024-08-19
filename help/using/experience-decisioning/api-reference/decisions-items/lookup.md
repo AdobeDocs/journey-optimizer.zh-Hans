@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 6%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查找决策项 {#lookup-decision-items}
 
-您可以通过对优惠库API发出请求（请求路径中包含ID）来查找特定GET项目。
+要通过向优惠库API发出请求（请求路径中包含ID）来查找特定决策项目，请执行以下操作：GET
 
 **API格式**
 

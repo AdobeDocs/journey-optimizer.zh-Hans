@@ -1,14 +1,14 @@
 ---
 title: 创建决策项
-description: 决策项目是营销优惠，您可以创建这些优惠并将其组织到收藏集和目录中。
+description: 了解如何使用优惠库API创建决策项目。
 feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 7%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 7%
 # 创建决策项 {#create-decision-items}
 
 您可以通过向优惠库API发出POST请求来创建决策项目。
-
-**接受和内容类型标头**
-
-下表显示了组成请求标头中Content-Type字段的有效值：
-
-| 标头名称 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 
@@ -68,7 +60,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-items' \
         }
     },
     "_<imsOrg>": {
-        "some_field": "some value"
+        "foo": "bar"
     }
 }'
 ```

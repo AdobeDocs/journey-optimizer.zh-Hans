@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9add1b2a5f6941773416daea2366f58851a6028a
-workflow-type: ht
-source-wordcount: '1889'
-ht-degree: 100%
+source-git-commit: f0a131313eb96ef50b5a27011d67e59eb730b108
+workflow-type: tm+mt
+source-wordcount: '1942'
+ht-degree: 97%
 
 ---
 
@@ -538,6 +538,25 @@ ht-degree: 100%
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + 体验决策 (LA) {#experience-decisioning}
       + [体验决策入门](using/experience-decisioning/gs-experience-decisioning.md)
+      + [API 参考]{#api-reference}
+         + [决策项]{#decision-items}
+            + [创建决策项](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [决策项列表](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [删除决策项目](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [查找决策项](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [更新决策项](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
+         + [个项目集合]{#items-collections}
+            + [创建物料集合](/help/using/experience-decisioning/api-reference/items-collections/create.md)
+            + [删除项目收藏集](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [项目收藏集列表](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [查找项集合](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [更新物料集合](/help/using/experience-decisioning/api-reference/items-collections/update.md)
+         + [选择策略]{#selection-strategies}
+            + [创建选择策略](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [删除选择策略](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [查找选择策略](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [选择策略列表](/help/using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [更新选择策略](/help/using/experience-decisioning/api-reference/selection-strategies/update.md)
       + 管理决策项{#decision-items}
          + [配置项目目录](using/experience-decisioning/catalogs.md)
          + [创建决策项](using/experience-decisioning/items.md)

@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '112'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 删除决策项目 {#delete-decision-item}
 
-有时可能有必要删除(DELETE)决策项目。 通过使用要删除的决策项目的ID对选件库API执行DELETE请求来做到这一点。
+要删除决策项目，请使用要删除的决策项目的ID对优惠库API执行DELETE请求。
 
 **API格式**
 

@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '137'
 ht-degree: 5%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 5%
 您可以通过向PATCH库API发出优惠请求来修改或更新决策项目。
 
 有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
-
-**接受和内容类型标头**
-
-下表显示了组成请求标头中Content-Type字段的有效值：
-
-| 标头名称 | 值 |
-| ----------- | ----- |
-| Content-Type | `application/json` |
 
 **API格式**
 
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | 要用于更新参数的新值。 |
 | `path` | 要更新的参数的路径。 |
-| `op` | 用于定义更新连接所需的操作的操作调用。 操作包括： `add`、`replace`、`remove`、`copy`和`test`。 |
+| `op` | 要执行的操作的类型。 操作包括： `add`、`replace`、`remove`、`copy`和`test`。 |
 
 **响应**
 
-成功的响应会返回新创建的决策项目的详细信息，包括ID。 您可以在后续步骤中使用ID来更新或删除决策项。
+成功的响应将返回更新项目的详细信息，包括ID。 您可以在后续步骤中使用ID来更新或删除决策项。
 
 ```json
 {
