@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fe963b43f08a99e000a916571f5b04a4a96c845
+source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 59%
+source-wordcount: '604'
+ht-degree: 70%
 
 ---
 
@@ -39,58 +39,57 @@ ht-degree: 59%
 
 此版本引入了下方详述的新功能。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>引导式渠道设置</strong><br/></th>
+<th><strong>Guided Channel Setup</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>“引导式渠道设置”让您能够在一个统一的体验中自动化和验证渠道设置，从而加快Journey Optimizer快速入门的过程。 这一新的引导式设置简化了快速渠道配置，确保所有必要的资源都能够在Experience Platform、Journey Optimizer和数据收集中随时安装并使用。 这使营销、产品和数据工程团队能够快速从营销活动和历程创建开始。</p>
+<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>内容卡片</strong><br/></th>
+<th><strong>Content Cards</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>内容卡是Adobe Journey Optimizer中新增的数字消息传送功能，可直接在移动应用程序和网站上提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持久的非侵入式更新，以增强用户交互和体验。</p>
-<p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度并确保查看重要消息而不会中断用户历程。</p>
+<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>改进了渠道配置</strong><br/></th>
+<th><strong>Improved Channel Configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>增强了当前渠道表面功能，从而跨所有渠道采用一致的方式。您现在可以为任何渠道定义、管理和重用这些配置，包括Web、应用程序内消息传送或基于代码的体验。</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels, including Web, In-app messaging, or Code-based experience.</p>
 <p><ul>
-<li>渠道表面现在重命名为<strong>渠道配置</strong></li>
-<li>您可以附加一个或多个营销操作以强制执行同意和数据治理策略</li>
-<li>对象级访问控制 (OLAC) 现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
-<li>对于某些渠道，您可以创建针对多个平台的渠道配置。以下示例是应用程序内消息传递渠道配置，可针对网页、iOS 应用程序和 Android 应用程序。</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>You can attach one or multiple marketing actions to enforce consent and data governance policies</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -148,7 +147,7 @@ ht-degree: 59%
 
 **历程**
 
-* 现在，在&#x200B;**条件**&#x200B;活动中，时间条件默认按小时设置，从 00:00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
+<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
 * 现在，在构建历程时，警报将显示在下拉列表中，以便与活动警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以轻松地将缩放值重置为100%。
 
