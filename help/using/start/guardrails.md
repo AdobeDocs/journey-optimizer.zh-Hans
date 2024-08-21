@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
-workflow-type: ht
-source-wordcount: '2239'
-ht-degree: 100%
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
+source-wordcount: '2295'
+ht-degree: 97%
 
 ---
 
@@ -44,6 +44,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 可以通过支持的 URL 加入 MMS 的媒体文件。请确保单独上传媒体文件。
 * 消息反馈同步当前不适用于 MMS。
 * 同意管理在 MMS 的短信渠道级别运行。
+
+### Web渠道护栏 {#web-guardrails}
+
+[!DNL Journey Optimizer] Web营销活动针对其他渠道上以前未参与的新用户档案。 这将增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+
 
 ## 子域护栏 {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 应用程序内消息内容的大小限制为 2Mb。包含大图像可能会妨碍发布流程。
 
-## 受众护栏 {#audience}
 
-* 您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
 ### 跳转活动 {#jump-g}
 
@@ -188,6 +191,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * Adobe Campaign 活动不能与“读取受众”或“受众鉴别”活动一起使用。
 * 这些活动不能与应用程序内活动一起使用。
+
+## 受众护栏 {#audience}
+
+您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
 ## 决策管理护栏 {#decision-management}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3683'
-ht-degree: 27%
+source-wordcount: '3728'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 27%
 >id="ajo_channel_level_report"
 >title="渠道级报告"
 >abstract="渠道报告全面概述所有渠道上的流量和参与量度。报告分为不同的构件，详细说明营销活动和历程的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+
+>[!AVAILABILITY]
+>
+>当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 >[!IMPORTANT]
 >

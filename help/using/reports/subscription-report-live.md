@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 20%
+source-wordcount: '316'
+ht-degree: 17%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 20%
 >id="ajo_subscription_live_report"
 >title="订阅实时报告"
 >abstract="使用订阅实时报告，您可以实时衡量和可视化订阅者的活动（仅限过去 24 小时）。报告分为不同的构件，详细说明了订阅和取消订阅情况。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+
+>[!AVAILABILITY]
+>
+>当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，全局报告重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 

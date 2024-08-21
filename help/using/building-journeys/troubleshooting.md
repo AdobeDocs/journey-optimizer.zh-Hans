@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 63%
+source-wordcount: '957'
+ht-degree: 53%
 
 ---
 
@@ -24,25 +24,37 @@ ht-degree: 63%
 
 测试和发布历程之前，请验证所有活动均已正确配置。如果系统仍检测到错误，则无法执行测试或发布。
 
-出现错误时，画布上的活动本身会显示警告符号。将光标放在感叹号上以显示错误消息。如果单击活动，您将看到带警告的错误行。例如，如果必填字段为空，则会显示错误。
 
-![](assets/journey63.png)
+### 活动中的错误 {#activity-errors}
 
-例如，在画布中，当两个活动断开连接时，系统将显示一条警告消息。
+出现错误时，画布上的活动本身会显示警告符号。将光标放在感叹号上以显示错误消息。如果单击活动，您将看到带警告的错误行。例如：
 
-![](assets/canvas-disconnected.png)
+* 如果必填字段为空，则会显示错误
 
-在&#x200B;**[!UICONTROL Test]**&#x200B;切换开关和&#x200B;**[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。 此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，则可以复制详细信息并将其发送给管理员或支持人员。 请注意，阻止测试的错误和阻止发布的错误是相似的。
+  ![](assets/journey63.png)
 
-系统检测到两种问题：错误和警告。错误阻止发布和测试激活。警告指示未阻止测试激活或发布的潜在问题。您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。这将帮助技术支持人员确定问题。
+* 在画布中，当两个活动断开连接时，会显示警告
 
-在&#x200B;**[!UICONTROL Test]**&#x200B;切换和&#x200B;**[!UICONTROL Publish]**&#x200B;按钮旁边的符号上可以显示两种不同的颜色。 出现错误时，该符号以红色显示。出现警告时，以橙色显示。
+  ![](assets/canvas-disconnected.png)
 
-![](assets/journey75.png)
+### 历程中的错误 {#canvas-errors}
 
-历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。**[!UICONTROL 复制详细信息]**&#x200B;按钮可复制有关历程的技术信息，供支持团队用于进行故障排除。
+画布上方的&#x200B;**[!UICONTROL 警报]**&#x200B;按钮上也显示错误。 此按钮让您看到系统检测到的错误，这些错误会阻止测试模式激活或历程发布。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
+系统检测到两种问题：**错误**&#x200B;和&#x200B;**警告**。 错误阻止发布和测试激活。警告指示未阻止测试激活或发布的潜在问题。您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。这有助于确定问题。
+
+![](assets/journey-error-and-warning.png)
+
+<!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
+
+历程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在历程中的出现顺序从左到右列出。在警报列表的底部，**[!UICONTROL 复制详细信息]**&#x200B;按钮允许您复制有关历程的技术信息，这些信息对解决问题很有用。
+
+### 添加替代路径 {#canvas-add-path}
+
+您可以为以下历程活动定义一个发生错误时的回退操作： **[!UICONTROL 条件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。
+
+当操作或条件中发生错误时，个人历程将停止。使其得以继续的唯一方法是解决问题。 为避免中断历程，您还可以选中选项&#x200B;**[!UICONTROL 在活动属性中出现超时或错误时添加替代路径]**。 有关详细信息，请参阅[此部分](../building-journeys/using-the-journey-designer.md#paths)。
+
 
 ## 检查事件是否正确发送 {#checking-that-events-are-properly-sent}
 

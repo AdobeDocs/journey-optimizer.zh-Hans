@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '640'
 ht-degree: 3%
 
 ---
 
 # 开始使用渠道报告 {#channel-report-gs}
+
+>[!AVAILABILITY]
+>
+>当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 渠道报表是一个功能强大的工具，可将流量和参与量度的全面概述纳入每个渠道的统一报表中，并包含所有营销活动和历程的所有操作。 该可视化图表分为不同的构件，每个构件都提供营销活动或历程表现的特定视图。
 

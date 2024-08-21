@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # 组件列表 {#list-of-components-live}
+
+>[!AVAILABILITY]
+>
+>当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 下表列出了报表中使用的量度及其定义，具体取决于投放类型。
 

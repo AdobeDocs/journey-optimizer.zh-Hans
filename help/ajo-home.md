@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 10f11728653c8bed8a768f6d7d106ccfa47eb7e1
-workflow-type: ht
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 7 月版已上线！]
+>[!TAB 8月版本已上线！]
 
-了解 Adobe Journey Optimizer 7 月版的新增功能和改进。
+了解Adobe Journey Optimizer 8月版本中的新增功能和改进。
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md#24-7-2024)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB 使用 Customer Journey Analytics (Beta) 的报告功能]
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 19%
+source-wordcount: '308'
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 19%
 >id="ajo_subscription_global_report"
 >title="订阅全局报告"
 >abstract="使用订阅全局报告，您可以衡量并可视化订阅者在选定时段内的活动。报告分为不同的构件，详细说明了订阅和取消订阅情况。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+
+>[!AVAILABILITY]
+>
+>当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '713'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,12 @@ ht-degree: 2%
 1. 如果需要，您可以使用原始片段中断继承。 [了解详情](#break-inheritance)
 
 1. 添加所需数量的片段，然后&#x200B;**[!UICONTROL 保存]**&#x200B;您的更改。
+
+## 使用隐式变量 {#implicit-variables-in-fragments}
+
+隐式变量增强了现有片段功能，以提高内容重用和脚本用例的效率。 片段可以使用输入变量并创建可在营销活动和历程内容中使用的输出变量。
+
+了解如何在[本节](../personalization/use-expression-fragments.md#implicit-variables)中使用隐式变量。
 
 ## 自定义可编辑字段 {#customize-fields}
 

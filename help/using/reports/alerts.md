@@ -8,14 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # 警报入门 {#alerts}
+
+在构建历程和营销活动时，使用&#x200B;**警报**&#x200B;按钮在执行或发布之前检查和解决错误。 在[此页面](../building-journeys/troubleshooting.md)中了解如何对您的历程进行故障排除。 在[此页面](../campaigns/review-activate-campaign.md)中了解如何查看营销活动。
+
+您还可以订阅Adobe Journey Optimizer系统警报，如本页所述。
 
 ## 访问和订阅警报 {#alerting-capabilities}
 
@@ -88,5 +92,5 @@ ht-degree: 0%
   ![](assets/alert-troubleshooting-3.png)
 
 * 检查您的历程stepEvents以查找有关“failureReason”的更多信息。
-* 检查您的自定义操作配置，并验证身份验证是否仍然正常。 使用Postman执行手动检查，
-例如。
+
+* 检查您的自定义操作配置，并验证身份验证是否仍然正常。 例如，使用Postman执行手动检查。

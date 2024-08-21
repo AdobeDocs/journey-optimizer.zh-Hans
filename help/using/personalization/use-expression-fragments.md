@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、库、个性化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,39 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您创建的表达式片段包含多个换行符，并在[短信](../sms/create-sms.md#sms-content)或[推送](../push/design-push.md)内容中使用它，则将保留换行符。 因此，请确保在发送您的[短信](../sms/send-sms.md)或[推送](../push/send-push.md)消息之前对其进行测试。
+
+## 使用隐式变量 {#implicit-variables}
+
+隐式变量增强了现有片段功能，以提高内容重用和脚本用例的效率。 片段可以使用输入变量并创建可在营销活动和历程内容中使用的输出变量。
+
+例如，此功能可用于根据当前营销活动或历程初始化电子邮件的跟踪参数，并将这些参数用于添加到电子邮件内容的个性化链接。
+
+可以使用以下用例：
+
+1. 在片段中使用输入变量
+
+   当在营销活动/历程操作内容中使用片段时，它能够在片段之外利用声明的变量。 示例如下：
+
+   ![](../personalization/assets/variable-in-a-fragment.png)
+
+   我们可以看到，以上在营销活动内容中声明了`utm_content`变量。 当使用片段&#x200B;**主页块**&#x200B;时，将显示一个链接，其中将附加`utm_content`参数值。 最终结果为： `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`。
+
+1. 使用片段中的输出变量
+
+   在片段中计算或定义的变量可在您的内容中使用。 在以下示例中，片段&#x200B;**F1**&#x200B;声明了一组变量：
+
+   ![](../personalization/assets/personalize-with-variables.png)
+
+   在电子邮件内容中，我们可以进行以下个性化设置：
+
+   ![](../personalization/assets/use-fragment-variable.png)
+
+   片段F1初始化以下变量： `utm_campaign`和`utm_content`。 然后，消息内容中的链接将会附加这些参数。 最终结果为： `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`。
+
+>[!NOTE]
+>
+>在运行时，系统会扩展片段中的内容，然后从上到下解释个性化代码。 请记住，可以实现更复杂的用例。 例如，您可以有一个片段F1将变量传递给位于下方的另一个片段F2。 您还可以让可视片段F1将变量传递给嵌套表达式片段F2。
+
 
 ## 自定义可编辑字段 {#customize-fields}
 

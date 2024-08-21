@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1493'
 ht-degree: 17%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 17%
 
 ## 数据Source条件 {#data_source_condition}
 
-这允许您根据数据源中的字段或之前位于历程中的事件定义条件。 在[本节](expression/expressionadvanced.md)中了解如何使用表达式编辑器。
+使用&#x200B;**[!UICONTROL Data Source条件]**&#x200B;根据数据源中的字段或以前位于历程中的事件定义条件。 此类型的条件是使用表达式编辑器定义的。 在[本节](expression/expressionadvanced.md)中了解如何使用表达式编辑器。
 
 例如，如果您定位的受众具有使用构成工作流或自定义上传（CSV文件）生成的扩充属性，则可以利用这些扩充属性构建条件。
 
@@ -82,13 +82,15 @@ ht-degree: 17%
 
 ![](assets/journey50.png)
 
-## 时间条件{#time_condition}
+## 时间条件 {#time_condition}
 
-这样，您就可以根据一天中的小时和/或星期来执行不同的操作。 例如，您可以决定在白天发送推送通知，在工作日夜间发送电子邮件。
+使用&#x200B;**[!UICONTROL 时间条件]**&#x200B;根据一天中的小时和/或星期执行不同的操作。 例如，您可以决定在白天发送推送通知，在工作日夜间发送电子邮件。
 
 >[!NOTE]
 >
->时区并非特定于条件，而是在历程属性中的历程级别定义的。 请参见[此页面](../building-journeys/timezone-management.md)。
+>* 时区并非特定于条件，而是在历程属性中的历程级别定义的。 请参阅[此页面](../building-journeys/timezone-management.md)以了解详情。
+>
+>* 默认情况下，**[!UICONTROL 时间条件]**&#x200B;按小时设置，从00:00到12:00。
 
 ![](assets/journey51.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >为了能够查看仪表板，您必须被授予[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}权限。
+
+对于[!DNL Adobe Journey Optimizer]，您可以检查此仪表板中&#x200B;**可启用的用户档案**&#x200B;的数量。 可启用的用户档案是代表个人的信息记录，并在用户档案服务中显示。 这些记录是您在过去12个月内尝试使用Journey Optimizer的创作、决策、交付、实验或编排功能接触的用户档案。
 
 请参阅Adobe Experience Platform文档以了解详情：
 

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 57%
+source-wordcount: '325'
+ht-degree: 61%
 
 ---
 
@@ -28,77 +28,6 @@ ht-degree: 57%
 ### 新功能 {#e-features}
 
 此版本引入了下方详述的新功能。
-
-
-<table>
-<thead>
-<tr>
-<th><strong>引导式渠道设置</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>通过引导式渠道设置，您可以在统一体验中自动设置移动渠道的步骤，从而更快地开始使用Journey Optimizer。 这种设置便于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够立即开始创建营销活动和历程。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>内容卡片</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>内容卡是Adobe Journey Optimizer中新增的数字消息传送功能，可直接在移动应用程序和网站上提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持久的非侵入式更新，以增强用户交互和体验。</p>
-<p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度并确保查看重要消息而不会中断用户历程。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>改进了渠道配置</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>增强了当前渠道表面功能，从而跨所有渠道采用一致的方式。您现在可以为任何渠道定义、管理和重用这些配置。</p>
-<p><ul>
-<li>渠道表面现在重命名为<strong>渠道配置</strong></li>
-<li>从渠道配置库中，您现在可以为所有渠道创建可重复使用的渠道配置，包括现在的 Web、应用程序内消息传送或基于代码的体验</li>
-<li>对象级访问控制 (OLAC) 现在可用于每个渠道配置，允许您决定允许哪些用户创建或使用特定配置</li>
-<li>对于某些渠道，您可以创建针对多个平台的渠道配置。以下示例是应用程序内消息传递渠道配置，可针对网页、iOS 应用程序和 Android 应用程序。</li>
-</ul></p>
-<p>有关更多信息，请参阅<a href="../configuration/ip-warmup-gs.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Marketo Engage自定义操作</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将 Adobe Journey Optimizer 与 Adobe Marketo Engage 集成以构建您的 B2B 用例。在历程中，新的自定义操作允许您将数据摄取到 Marketo。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -163,6 +92,7 @@ ht-degree: 57%
 
 * 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield。
 * 在定位自定义上传（CSV文件）受众时，您现在可以在营销活动和历程中使用文件中的属性。 这些属性在个性化编辑器和历程高级表达式编辑器中可用，用于个性化消息。
+
 
 <!--
 **Push channel**

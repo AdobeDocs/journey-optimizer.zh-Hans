@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 51924e403741829f068675eaa94ccbd63cc2b206
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '3170'
+source-wordcount: '3352'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,58 @@ ht-degree: 100%
 # 2024 年发行说明 {#release-notes-2024}
 
 本页列出了于 2024 年发布的 [!DNL Journey Optimizer] 功能和改进。
+
+
+## 2024 年 7 月发行说明 {#24-7-2024}
+
+**发布日期**：2024 年 7 月 30 日至 31 日
+
+### 新功能 {#27-4-features}
+
+此版本引入了下方列出的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>任何提供商的短信渠道（Beta 版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了默认短信提供商 Sinch、Infobip 和 Twilio 之外，您现在还可以在 Journey Optimizer 中配置其他短信提供商。</p>
+<img src="assets/do-not-localize/byo_sms.gif"/>
+<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>联合受众构成（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在可在 Adobe Journey Optimizer 中使用联合受众构成。它允许企业组合数据，以便在各种用例中更好地利用数据。通过这种新方法，作为 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 用户，您可以直接从现有数据仓库联合数据集，以便在一个系统中丰富 Adobe Experience Platform 受众和属性。</p>
+<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home"  target="_blank">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进 {#27-4-improvements}
+
+此版本包含下方列出的改进。
+
+**历程**
+
+* （发布日期：7 月 8 日）**历程事件配置中的高级表达式编辑器** - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
+
+
 
 ## 2024 年 6 月发行说明 {#24-6-2024}
 

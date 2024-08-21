@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 10%
+source-wordcount: '578'
+ht-degree: 9%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 10%
 >id="ajo_landing_page_global_report"
 >title="登陆页面全局报告"
 >abstract="登陆页面全局报告让您可以衡量您的登陆页面在选定时段内产生的影响。报告分为不同的构件，详细说明您的登陆页面中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+
+>[!AVAILABILITY]
+>
+>当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 

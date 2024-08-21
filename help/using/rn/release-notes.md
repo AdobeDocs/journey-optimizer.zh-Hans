@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d971d857a480868f5ef502f3a3f2c209afc93cca
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 70%
+source-wordcount: '482'
+ht-degree: 53%
 
 ---
 
@@ -26,16 +26,18 @@ ht-degree: 70%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 2024 年 8 月早期发行说明 {#e-2024}
+## 2024 年 8 月发行说明 {#8-2024}
 
 **发布日期**：2024 年 8 月 20 日 - 21 日
 
+<!--
 >[!CAUTION]
 >
->**在发行日期**&#x200B;之前，下面的早期发行说明可能会有所更改，恕不另行通知。 链接、屏幕和更新文档在发布日期发布。
+>**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
 >
+-->
 
-### 新功能 {#e-features}
+### 新功能 {#8-features}
 
 此版本引入了下方详述的新功能。
 
@@ -57,14 +59,16 @@ ht-degree: 70%
 <!--table>
 <thead>
 <tr>
-<th><strong>Content Cards</strong><br/></th>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content card is a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
 <p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -86,6 +90,7 @@ ht-degree: 70%
 <li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
 <li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,6 +106,7 @@ ht-degree: 70%
 <tr>
 <td>
 <p>您现在可以将 Adobe Journey Optimizer 与 Adobe Marketo Engage 集成以构建您的 B2B 用例。在历程中，新的自定义操作允许您将数据摄取到 Marketo。</p>
+<p>有关更多信息，请参阅<a href="../action/marketo-engage.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +122,8 @@ ht-degree: 70%
 <tbody>
 <tr>
 <td>
-<p>片段现在可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。 您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
+<p>片段全局变量可增强现有片段功能，以提高内容重用和脚本用例的效率。 片段现在可以使用输入变量并创建可在营销活动和历程内容中使用的输出变量。 片段可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。 您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
+<p>有关更多信息，请参阅<a href="../personalization/use-expression-fragments.md">详细文档</a>。</p>
 </p>
 </td>
 </tr>
@@ -141,67 +148,31 @@ ht-degree: 70%
 </table>
 
 
-### 改进 {#e-improvements}
+### 改进 {#8-improvements}
 
 此版本具有下面列出的改进。
 
 **历程**
 
-<!--* In the **Condition** activity, by default, the Time condition is now set by hour, from 00:00 to 12:00. [Read more](../building-journeys/condition-activity.md#time_condition)-->
-* 现在，在构建历程时，警报将显示在下拉列表中，以便与活动警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以轻松地将缩放值重置为100%。
+* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/condition-activity.md#time_condition)
+* 现在，在构建历程时，将显示来自&#x200B;**警报**&#x200B;按钮的警报，以便与其他警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以更轻松地重置缩放值。
 
-**受众**
+<!--**Audiences and Profiles**-->
 
-* 现在，可以将自定义上传的受众（CSV文件）用于Privacy and Security Shield加载项。
-* 在定位自定义上传（CSV文件）受众时，您现在可以在营销活动和历程中使用文件中的属性。 这些属性在个性化编辑器和历程高级表达式编辑器中可用，用于个性化消息。
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
+<!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The License usage dashboard now shows the count of Engageable Profiles. [Read more](../audience/license-usage.md)-->
 
-## 2024 年 7 月发行说明 {#24-7-2024}
 
-**发布日期**：2024 年 7 月 30 日至 31 日
+**推送渠道**
 
-### 新功能 {#27-4-features}
+* 您现在可以在Adobe Journey Optimizer渠道配置设置中添加移动应用程序推送凭据。 不再需要在Adobe Experience Platform数据收集中创建应用程序表面。
 
-此版本引入了下方列出的新功能。
+### 其他更改 {#changes}
 
-<table>
-<thead>
-<tr>
-<th><strong>任何提供商的短信渠道（Beta 版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>除了默认短信提供商 Sinch、Infobip 和 Twilio 之外，您现在还可以在 Journey Optimizer 中配置其他短信提供商。</p>
-<img src="assets/do-not-localize/byo_sms.gif"/>
-<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+**报告**
 
-<table>
-<thead>
-<tr>
-<th><strong>联合受众构成（限量发布）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在可在 Adobe Journey Optimizer 中使用联合受众构成。它允许企业组合数据，以便在各种用例中更好地利用数据。通过这种新方法，作为 Adobe Real-Time Customer Data Platform 和/或 Adobe Journey Optimizer 用户，您可以直接从现有数据仓库联合数据集，以便在一个系统中丰富 Adobe Experience Platform 受众和属性。</p>
-<p>有关更多信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home"  target="_blank">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
+* 当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。
 
-### 改进 {#27-4-improvements}
-
-此版本包含下方列出的改进。
-
-**历程**
-
-* （发布日期：7 月 8 日）**历程事件配置中的高级表达式编辑器** - 现在，您可以在配置事件时利用高级表达式编辑器，从而定义更复杂的表达式或在事件 ID 条件中使用函数。[了解详情](../event/about-creating.md#adv-exp-editor)
-
+[开始使用Journey Optimizer新的报表界面](../reports/report-gs-cja.md)

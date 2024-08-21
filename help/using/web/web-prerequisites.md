@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 2%
 
 ## 实施先决条件 {#implementation-prerequisites}
 
-当前支持两种类型的实施，以便能够在Web资产上创作和交付Web渠道营销活动：
+支持两种类型的实施，以便能够在Web资产上创作和交付Web渠道营销活动：
 
 * 仅客户端 — 若要向网站添加修改，需要在网站上实施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}。
 
   >[!NOTE]
   >
-  >确保您的AEP Web SDK版本为2.16或更高版本。
+  >确保您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}为2.16或更高版本。
 
 * 混合模式 — 您可以使用[AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}来请求在服务器端进行个性化；响应将提供给Adobe Experience Platform Web SDK以渲染客户端所做的修改。 请参阅Adobe Experience Platform [Edge Network服务器API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}以了解详情。 您可以在[此博客文章](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到有关混合模式的详细信息并查看一些实施示例。
 

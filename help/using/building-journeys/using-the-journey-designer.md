@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 在操作活动中，使用自定义操作通过第三方系统发送消息。 [了解有关自定义操作的更多信息](about-journey-activities.md#action-activities)。
 
-## 添加替代路径{#paths}
+## 添加替代路径 {#paths}
 
 您可以为以下历程活动定义在出错或超时时的回退操作： **[!UICONTROL 条件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。
 
