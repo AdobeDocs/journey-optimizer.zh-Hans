@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 97%
+source-wordcount: '1949'
+ht-degree: 96%
 
 ---
 
@@ -200,8 +200,8 @@ ht-degree: 97%
    + [管理电子邮件选择退出](using/email/email-opt-out.md)
    + 配置电子邮件渠道 {#configure-email}
       + [电子邮件配置入门](using/email/get-started-email-config.md)
-      + [配置电子邮件设置](using/email/email-settings.md)
-      + [个性化电子邮件表面设置](using/email/surface-personalization.md)
+      + [配置电子邮件配置设置](using/email/email-settings.md)
+      + [个性化电子邮件配置](using/email/surface-personalization.md)
 + 应用程序内渠道{#in-app}
    + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
    + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 97%
       + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
       + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
       + [配置自定义提供程序（Beta 版）](using/sms/sms-configuration-custom.md)
-      + [创建短信表面](using/sms/sms-configuration-surface.md)
+      + [创建短信配置](using/sms/sms-configuration-surface.md)
 + 直邮 {#direct-mail}
    + [直邮入门](using/direct-mail/get-started-direct-mail.md)
    + [创建直邮](using/direct-mail/create-direct-mail.md)
@@ -581,7 +581,7 @@ ht-degree: 97%
    + [查询](using/data/get-started-queries.md)
 + 配置 {#configuration}
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
-   + [设置渠道表面](using/configuration/channel-surfaces.md)
+   + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
