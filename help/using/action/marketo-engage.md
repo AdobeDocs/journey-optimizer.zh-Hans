@@ -1,24 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 与Marketo Engage集成
+title: 与 Marketo Engage 集成
 description: 了解如何使用Marketo Engage操作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: marketo、marketo engage集成
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
 
-# 与Marketo Engage集成 {#integrating-with-marketo-engage}
+# 与 Marketo Engage 集成 {#integrating-with-marketo-engage}
 
 开始与Marketo Engage无缝数据集成的历程。 Journey Optimizer中的此特定自定义操作支持摄取两种关键数据类型：
 
@@ -28,13 +26,13 @@ ht-degree: 0%
 ## 先决条件 {#prerequisites}
 
 * Marketo Engage的客户实例必须已启用IMS。
-* Marketo Engage实例和AEP/AJO实例必须位于同一IMS组织中。+link
-* 必须向客户设置MktoSync：摄取服务访问权限（在此处添加注释+链接）
+* Marketo Engage实例和AEP/AJO实例必须位于同一IMS组织中。
+* 必须为客户设置&#x200B;**MktoSync：摄取服务访问**
 
 ## 配置操作 {#configure-marketo-action}
 
 * 导航到管理>配置>操作，然后单击管理
-* 在“操作”列表中，单击“创建操作”。 在此处阅读有关自定义操作创建的更多信息（+链接）
+* 在“操作”列表中，单击“创建操作”。 阅读有关[自定义操作](../building-journeys/using-custom-actions.md){target="_blank"}的更多信息。
 * 输入名称和描述，然后选择Adobe Marketo Engage作为操作类型
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ ht-degree: 0%
 
 ## 使用操作 {#engage-using}
 
-* 将自定义操作拖动到历程画布上。 （请参阅如何使用自定义操作/链接）
-* 在Request参数中，使用您在有效负载中配置的动态值单击每个参数的编辑。
+* 将自定义操作拖动到历程画布上。
+* 在&#x200B;**请求参数**&#x200B;部分中，单击编辑以在有效负载中配置每个具有动态值的参数。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
