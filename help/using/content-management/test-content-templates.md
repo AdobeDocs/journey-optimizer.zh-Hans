@@ -7,7 +7,8 @@ feature: Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 6%
@@ -30,7 +31,7 @@ ht-degree: 6%
 
    * 为此，请单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮，然后按照[此部分](../content-management/proofs.md)中描述的步骤操作。
 
-   * 在发送校样之前，必须选择将用于测试内容的[电子邮件表面](../configuration/channel-surfaces.md)。
+   * 在发送校样之前，必须选择将用于测试内容的[电子邮件配置](../configuration/channel-surfaces.md)。
 
      ![](assets/content-template-stimulate-proof-surface.png)
 

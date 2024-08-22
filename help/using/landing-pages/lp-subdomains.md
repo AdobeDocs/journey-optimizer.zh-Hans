@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登陆、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 23%
 
 ---
@@ -50,9 +50,7 @@ ht-degree: 23%
 
 要使用已委派给Adobe的子域，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 电子邮件配置]** > **[!UICONTROL 登陆页子域]**。
-
-   ![](assets/lp_access-subdomains.png)
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 登陆页面设置]** > **[!UICONTROL 登陆页面子域]**。
 
 1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 
@@ -105,7 +103,7 @@ ht-degree: 23%
 
 要配置新子域，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 电子邮件配置]** > **[!UICONTROL 登陆页子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 登陆页面设置]** > **[!UICONTROL 登陆页面子域]**。
 
 1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 

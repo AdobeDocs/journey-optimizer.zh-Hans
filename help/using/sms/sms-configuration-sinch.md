@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 要配置您的Sinch提供商以使用Journey Optimizer发送短信消息和彩信，请执行以下步骤：
 
-1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
+1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** `>` **[!UICONTROL SMS设置]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
 
 1. 配置您的SMS API凭据，如下所述：
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
-创建和配置API凭据后，现在需要为SMS消息创建渠道平面。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，现在需要为SMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
 
 ## Sinch MMS API凭据 {#sinch-mms}
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 要配置Sinch MMS以使用Journey Optimizer发送MMS，请执行以下步骤：
 
-1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
+1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** `>` **[!UICONTROL SMS设置]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。 单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
 
 1. 配置您的MMS API凭据，如下所述：
 
@@ -83,4 +83,4 @@ ht-degree: 3%
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
-创建和配置API凭据后，现在需要为MMS消息创建渠道平面。 [了解详情](sms-configuration-surface.md)
+创建和配置API凭据后，现在需要为MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)

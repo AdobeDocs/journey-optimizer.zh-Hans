@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -285,7 +285,7 @@ ht-degree: 100%
 **电子邮件配置**
 
 * **允许列表** - 现在，可以通过 API 调用在非生产沙盒上启用和禁用允许列表。[了解详情](../configuration/allow-list.md#enable-allow-list)
-* **导航** - 禁止列表，之前可在&#x200B;**管理 > 渠道 > 电子邮件配置 > 常规**&#x200B;菜单下访问，已移至新的&#x200B;**禁止列表**&#x200B;子菜单，该菜单集合了所有相关功能，访问起来更加轻松。[了解详情](../configuration/manage-suppression-list.md#access-suppression-list)
+* **导航** — 禁止列表（可在&#x200B;**管理>渠道>电子邮件设置>常规**&#x200B;菜单下访问）已移至新的&#x200B;**禁止列表**&#x200B;子菜单，该菜单集合了所有相关功能，访问起来更加轻松。 [了解详情](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **决策管理**
 

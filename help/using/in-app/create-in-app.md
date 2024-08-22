@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 13%
+source-wordcount: '2009'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 13%
 
 1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 选择要使用的[应用程序内表面](inapp-configuration.md)。
+1. 选择要使用的[应用程序内配置](inapp-configuration.md#channel-prerequisites)。
 
    ![](assets/in_app_journey_2.png)
 
@@ -125,13 +125,11 @@ ht-degree: 13%
 
 1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，选择何时执行营销活动：已计划或API触发。 在[此页面](../campaigns/create-campaign.md#campaigntype)中了解有关促销活动类型的更多信息。
+1. 选择要执行的营销活动类型
 
-1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择之前为您的应用程序内消息配置的&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;和&#x200B;**[!UICONTROL 应用程序表面]**。 然后，单击&#x200B;**[!UICONTROL 创建]**。
+   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
 
-   在[此页面](inapp-configuration.md)中了解有关应用程序内配置的更多信息。
-
-   ![](assets/in_app_create_1.png)
+   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。
 
 1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;描述。
 
@@ -142,6 +140,12 @@ ht-degree: 13%
    ![](assets/in_app_create_2.png)
 
 1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
+
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 应用程序内消息]**，然后选择或创建新配置。
+
+   在[此页面](inapp-configuration.md)中了解有关应用程序内配置的更多信息。
+
+   ![](assets/in_app_create_1.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 

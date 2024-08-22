@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 10%
+source-wordcount: '1016'
+ht-degree: 9%
 
 ---
 
@@ -41,33 +41,37 @@ ht-degree: 10%
 
    ![](assets/sms_create_1.png)
 
-1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。
+1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。
 
    ![](assets/sms_create_2.png)
 
    有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)
 
-   默认情况下，**[!UICONTROL Surface]**&#x200B;字段已预填充，用户将使用该渠道的最后一个表面。
+   默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。
 
 您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮开始设计短信消息的内容，如下所述。
 
 >[!TAB 向营销活动添加短信]
 
-1. 创建新的计划或API触发的营销活动，选择&#x200B;**[!UICONTROL SMS]**&#x200B;作为您的操作，并选择要使用的&#x200B;**[!UICONTROL 应用程序表面]**。 在[此页面](sms-configuration.md)中了解有关短信配置的更多信息。
+1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
-   ![](assets/sms_create_3.png)
+1. 选择要执行的营销活动类型
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
+
+   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。
 
 1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，编辑营销活动的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
-
-   ![](assets/sms_create_4.png)
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
-   ![](assets/sms_create_5.png)
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 短信]**，然后选择或创建新配置。
+
+   在[此页面](sms-configuration.md)中了解有关短信配置的更多信息。
+
+   ![](assets/sms_create_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
@@ -105,7 +109,7 @@ ht-degree: 10%
 
 1. 定义内容后，您可以在消息中添加跟踪的URL。 为此，请访问&#x200B;**[!UICONTROL 帮助程序功能]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 帮助程序]**。
 
-   请注意，要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的表面。 [了解详情](sms-subdomains.md)
+   请注意，要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的配置。 [了解详情](sms-subdomains.md)
 
    >[!CAUTION]
    >

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 10%
+source-wordcount: '1083'
+ht-degree: 9%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 10%
 
 要通过营销活动开始构建基于代码的体验，请执行以下步骤。
 
-1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
+1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 [了解详情](../campaigns/create-campaign.md)
+
+1. 选择要执行的营销活动类型
+
+   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
+
+   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。
+
+1. 完成步骤以创建营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。 有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 1. 选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。
 
-1. 输入基于代码的体验平面。 [了解详情](#surface-definition)
+1. 选择或创建基于代码的体验配置。 [了解详情](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >确保在基于代码的营销活动中使用的表面URI与您自己的实施中使用的表面URI相匹配。 否则，将不会交付更改。
-
-1. 选择&#x200B;**[!UICONTROL 创建]**。
-
-1. 完成步骤以创建营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。 有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 1. 使用个性化编辑器，根据需要编辑您的内容。 [了解详情](#edit-code)
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以确认更改。
 
-现在，开发人员执行API或SDK调用以获取所选表面的内容后，更改将立即应用于您的网页或应用程序。
+现在，一旦您的开发人员进行API或SDK调用以获取渠道配置中定义的表面的内容，更改就会应用于您的网页或应用程序。
 
 ## 测试基于代码的营销活动 {#test-code-based-campaign}
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 
    ![](assets/code-based-campaign-review.png)
 
-1. 检查并编辑内容、属性、界面、受众和计划（如果需要）。
+1. 检查并编辑内容、属性、配置、受众和计划（如果需要）。
 
 1. 选择&#x200B;**[!UICONTROL 激活]**。
 

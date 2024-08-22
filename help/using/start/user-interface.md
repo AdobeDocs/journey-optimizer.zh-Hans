@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
-workflow-type: ht
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 沙盒]** - Adobe Experience Platform 提供了可将单个实例划分为多个单独的虚拟环境的沙盒，以帮助开发和改进数字体验应用程序。浏览此部分以管理沙盒。[了解详情](../administration/sandboxes.md)
 
-* **[!UICONTROL 渠道]** - 使用此部分配置渠道，包括子域、平面和可投放性设置。[了解详情](../configuration/get-started-configuration.md)
+* **[!UICONTROL 渠道]** — 使用此部分配置您的渠道，包括子域、配置和可投放性设置。 [了解详情](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL 标记]** - 使用统一标记，您可以轻松地对历程和营销活动进行分类，以改进列表中的搜索。[了解详情](../start/search-filter-categorize.md#work-with-unified-tags)
 

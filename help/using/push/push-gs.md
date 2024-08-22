@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 1. 使用Apple的APN和Google FCM推送消息服务注册品牌移动应用程序(Android或iOS)
 1. 消息服务生成推送令牌，该令牌是[!DNL Adobe Journey Optimizer]将用于通过推送通知定位特定设备的标识符。
 1. 之前生成的推送令牌将传递到Adobe Experience Platform并与Real-time Customer Profile同步；此操作通过OOTB完成，并且易于集成客户端SDK
-1. 推送消息是在[!DNL Adobe Journey Optimizer]中创作，推送消息是针对渠道表面（即消息预设）创建的
+1. 推送消息是在[!DNL Adobe Journey Optimizer]中创作的，推送消息是根据渠道配置（即消息预设）创建的
 1. 推送消息可能包含在历程的编排画布中
 1. 在历程发布后，根据历程条件的客户配置文件将获得接收推送通知的资格，推送消息有效负载将在此步骤中个性化
 1. 将个性化推送负载转发到内部推送消息投放服务

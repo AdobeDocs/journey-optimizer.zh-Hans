@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 ## 访问允许列表 {#access-allowed-list}
 
-要访问允许的电子邮件地址和域的详细列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择&#x200B;**[!UICONTROL 允许列表]**。
+要访问允许的电子邮件地址和域的详细列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]**，然后选择&#x200B;**[!UICONTROL 允许列表]**。
 
 ![](assets/allow-list-access.png)
 

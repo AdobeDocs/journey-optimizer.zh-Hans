@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '869'
 ht-degree: 9%
 
 ---
@@ -19,10 +19,9 @@ ht-degree: 9%
 
 要在使用[!DNL Journey Optimizer]的历程和营销活动中发送应用程序内消息，您需要完成以下配置步骤。
 
-1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解更多](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
-必须授予特定权限才能访问Adobe Experience Platform数据收集中的**应用程序表面**&#x200B;菜单。 在[此视频](#video)中了解详情。
+1. 在开始之前，请确保您对 Journey Optimizer 营销活动拥有适当的权限，即使您计划在历程中仅使用应用程序内消息。仍需要拥有营销活动权限。[了解详情](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)。
 1. 在Adobe Experience Platform数据收集数据流中启用Adobe Journey Optimizer，并检查Adobe Experience Platform中的默认合并策略，如下面的[交付先决条件](#delivery-prerequisites)中所述。
-1. 在Adobe Experience Platform数据收集中创建并配置应用程序表面，如[此部分](#channel-prerequisites)中所述。
+1. 在“管理”>“渠道”>“渠道配置”中创建应用程序内消息渠道配置，如[此部分](#channel-prerequisites)所述。
 1. 如果您使用内容实验，请确保遵循[此部分](#experiment-prerequisite)中列出的要求。
 
 完成后，您可以创建、配置并发送您的第一条应用程序内消息。在[此部分](create-in-app.md)中了解如何实现这一点。
@@ -53,77 +52,62 @@ ht-degree: 9%
 
   [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
 
-## 渠道配置先决条件 {#channel-prerequisites}
+## 创建应用程序内配置 {#channel-prerequisites}
 
-1. 访问&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建应用程序表面]**。
+1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 
-1. 向&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;添加名称。
+   ![](assets/inapp_config_1.png)
 
-   ![](assets/inapp_config_2b.png)
+1. 输入配置的名称和说明（可选），然后选择要配置的渠道。
 
-1. 从&#x200B;**[!UICONTROL Apple iOS]**&#x200B;下拉列表中，为Apple iOS配置移动应用程序。
+   >[!NOTE]
+   >
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
-+++ 了解详情
+1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 
-   1. 键入您的&#x200B;**[!UICONTROL iOS捆绑包ID]**。 有关&#x200B;**捆绑ID**&#x200B;的更多信息，请参阅[Apple文档](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids)。
+1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
 
-   1. （可选）选择要从中发送推送通知的&#x200B;**[!UICONTROL 沙盒]**。 请注意，选择特定的沙盒需要必要的访问权限。
+1. 选择&#x200B;**应用程序内消息传送**&#x200B;渠道。
 
-      有关沙盒管理的详细信息，请参阅[此页面](../administration/sandboxes.md#assign-sandboxes)。
+   ![](assets/inapp_config_9.png)
 
-   1. 启用&#x200B;**[!UICONTROL 推送凭据]**&#x200B;选项，以便根据需要拖放您的.p8身份验证密钥文件。
+1. 选择要应用应用程序内消息的平台。
 
-      您还可以启用&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;选项，以直接复制并粘贴您的APN验证密钥。
+   ![](assets/inapp_config_10.png)
 
-   1. 输入您的&#x200B;**[!UICONTROL 密钥ID]**&#x200B;和&#x200B;**[!UICONTROL 团队ID]**。
+1. 对于Web：
 
-      ![](assets/inapp_config_2.png)
+   * 您可以输入&#x200B;**[!UICONTROL 页面URL]**&#x200B;以将更改应用于特定页面。
+
+   * 您可以创建一个规则来定位遵循相同模式的多个URL。
+
++++ 如何构建页面匹配规则。
+
+      1. 选择&#x200B;**[!UICONTROL 页面匹配规则]**&#x200B;作为应用程序配置，并输入您的&#x200B;**[!UICONTROL 页面URL]**。
+
+      1. 在&#x200B;**[!UICONTROL 编辑配置规则]**&#x200B;窗口中，为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义条件。
+      1. 从“条件”下拉列表中，进一步将您的条件个性化。
+
+         例如，在本例中，要编辑显示在Luma网站所有销售产品页面上的元素，请选择域>开头为> Luma和页面>包含>销售。
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 如果需要，单击&#x200B;**[!UICONTROL 添加其他页面规则]**&#x200B;以创建其他规则。
+
+      1. 选择&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+
+      1. 保存您的更改。该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
 
 +++
 
-1. 从&#x200B;**[!UICONTROL Android]**&#x200B;下拉列表中，为Android配置移动应用程序。
+1. 对于iOS和Android：
 
-+++ 了解详情
+   * 输入您的&#x200B;**[!UICONTROL 应用程序ID]**。
 
-   1. 键入您的&#x200B;**[!UICONTROL Android包名称]**。 有关&#x200B;**包名称**&#x200B;的更多信息，请参阅[Android文档](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores)。
+1. 提交更改。
 
-   1. （可选）选择要从中发送推送通知的&#x200B;**[!UICONTROL 沙盒]**。 请注意，选择特定的沙盒需要必要的访问权限。
-
-      有关沙盒管理的详细信息，请参阅[此页面](../administration/sandboxes.md#assign-sandboxes)。
-
-   1. 启用&#x200B;**[!UICONTROL 推送凭据]**&#x200B;选项，以根据需要拖放您的.json私钥文件。
-
-      您还可以启用&#x200B;**[!UICONTROL 手动输入推送凭据]**&#x200B;选项，以直接复制并粘贴您的FCM私钥。
-
-      ![](assets/inapp_config_7.png)
-
-1. 完成&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;的配置后，单击&#x200B;**[!UICONTROL 保存]**。
-
-   ![](assets/inapp_config_3.png)
-
-   现在，在使用应用程序内消息创建新营销活动时，您的&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;将可用。 [了解详情](create-in-app.md)
-
-1. 创建应用程序表面后，您现在需要创建移动资产。
-
-   有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile)。
-
-   ![](assets/inapp_config_4.png)
-
-1. 从新创建资产的“扩展”菜单中，安装以下扩展：
-
-   * Adobe Experience PlatformEdge Network
-   * Adobe Journey Optimizer
-   * AEP保证
-   * 同意
-   * 标识
-   * 移动核心
-   * 配置文件
-
-   有关详细过程，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension)。
-
-   ![](assets/inapp_config_5.png)
-
-应用程序内渠道现已配置。 您可以开始向用户发送应用程序内消息。
+现在，您可以在创建应用程序内消息时选择配置。
 
 ## 内容试验先决条件 {#experiment-prerequisites}
 
@@ -142,13 +126,6 @@ ht-degree: 9%
 >[!NOTE]
 >
 >添加这些字段组不会影响正常数据收集。 它仅适用于正在运行试验的页面，而所有其他跟踪保持不变。
-
-## 操作方法视频{#video}
-
-以下视频说明如何分配&#x200B;**管理应用程序配置**&#x200B;权限以访问应用程序表面菜单。
-
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
-
 
 **相关主题：**
 

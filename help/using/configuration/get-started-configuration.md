@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
    * 对于&#x200B;**短信**&#x200B;渠道，您需要配置实例以发送短信，包括将提供商设置与[!DNL Journey Optimizer]集成。[了解详情](../sms/sms-configuration.md)
 
-1. 完成后，您必须创建&#x200B;**渠道平面**，配置投放消息所需的所有技术参数。[了解详情](channel-surfaces.md)
+1. 完成后，您必须创建&#x200B;**通道配置**&#x200B;以配置传递消息所需的所有技术参数。 [了解详情](channel-surfaces.md)
 
 1. 您还可以：
 

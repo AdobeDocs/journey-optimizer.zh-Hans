@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5454'
 ht-degree: 99%
@@ -205,7 +205,7 @@ ht-degree: 99%
 * 添加了“如果对历程消息中使用的优惠决策进行了更改，则需要取消发布历程并重新发布该历程”的注释。[了解详情](../building-journeys/publishing-the-journey.md)
 * 在决策管理&#x200B;**事件上限**&#x200B;部分中对如何确保上限计数器中正确计入事件进行了说明。[了解详情](../offers/offer-library/add-constraints.md#capping-event)
 * 在&#x200B;**更改执行地址**&#x200B;页面中添加了新的部分。该部分说明了可以在历程高级参数中全局设置覆盖执行字段，但电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
-* 现在，**URL 跟踪**&#x200B;部分提供所有上下文属性的列表和描述，这些属性可用于在电子邮件渠道表面中设置 URL 跟踪。[了解详情](../email/email-settings.md#url-tracking)
+* **URL跟踪**&#x200B;部分现在提供可为电子邮件渠道配置中的URL跟踪设置的所有上下文属性的列表和描述。 [了解详情](../email/email-settings.md#url-tracking)
 
 ## 2023 年 3 月 {#march-2023}
 
@@ -296,7 +296,7 @@ ht-degree: 99%
 ## 2022 年 7 月 {#july-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 对&#x200B;**设置渠道平面**&#x200B;部分进行了修正和更新，添加了描述如何配置短信渠道的页面的链接。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+* 对&#x200B;**设置渠道配置**&#x200B;部分进行了澄清和更新，添加了描述如何配置短信渠道的页面的链接。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
 * 在历程属性中，**配置文件时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 * 在&#x200B;**等待**&#x200B;活动中，**固定日期**&#x200B;选项不再可用。[了解详情](../building-journeys/wait-activity.md)
 * 添加了有关&#x200B;**读取受众**&#x200B;活动中&#x200B;**增量读取**&#x200B;选项的更多信息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

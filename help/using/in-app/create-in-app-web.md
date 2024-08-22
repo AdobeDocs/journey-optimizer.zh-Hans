@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 5%
+source-wordcount: '634'
+ht-degree: 7%
 
 ---
 
@@ -24,43 +24,19 @@ ht-degree: 5%
 
 * 自定义触发器。 Web应用程序内消息传送支持两种类型的触发器：将数据发送到平台和手动触发器。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* 创建您的Web应用程序内配置。 [了解详情](inapp-configuration.md)
+
 ## 创建您的Web应用程序内消息促销活动 {#create-inapp-web-campaign}
 
 1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，选择何时执行营销活动：已计划或API触发。 在[此页面](../campaigns/create-campaign.md#campaigntype)中了解有关促销活动类型的更多信息。
+1. 选择您的活动执行类型：已计划或API触发。 在[此页面](../campaigns/create-campaign.md#campaigntype)中了解有关促销活动类型的更多信息。
 
-1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 应用程序内消息]**。 从&#x200B;**[!UICONTROL 发送至]**&#x200B;下拉列表中，选择Web。
+1. 从&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 应用程序内消息]**。
 
    ![](assets/in_app_web_surface_1.png)
 
-1. 定义应用程序表面。 进行更改有两个选项：
-
-   * 您可以输入&#x200B;**[!UICONTROL 页面URL]**&#x200B;以将更改应用于特定页面。
-
-   * 您可以创建一个规则来定位遵循相同模式的多个URL。
-
-+++ 如何构建页面匹配规则。
-
-      1. 选择&#x200B;**[!UICONTROL 页面匹配规则]**&#x200B;作为应用程序表面。
-      1. 单击&#x200B;**[!UICONTROL 创建规则]**。
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. 在&#x200B;**[!UICONTROL 编辑表面规则]**&#x200B;窗口中，为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义条件。
-      1. 从“条件”下拉列表中，进一步将您的条件个性化。
-
-         例如，在本例中，要编辑显示在Luma网站所有销售产品页面上的元素，请选择域>开头为> Luma和页面>包含>销售。
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. 保存您的更改。该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. 选择并配置应用表面后，单击&#x200B;**[!UICONTROL 创建]**。
+1. 选择或创建您的应用程序配置。 [了解详情](inapp-configuration.md#channel-prerequisites)
 
 ## 定义您的Web应用程序内消息促销活动 {#configure-inapp}
 
@@ -74,7 +50,7 @@ ht-degree: 5%
 
 1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
-1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;菜单中，您可以找到以前配置为&#x200B;**[!UICONTROL 应用程序表面]**&#x200B;的设置。 您可以在此处进行必要更改，或单击&#x200B;**[!UICONTROL 编辑规则]**&#x200B;来更新规则。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;菜单中，您可以找到以前配置为&#x200B;**[!UICONTROL 应用程序配置]**&#x200B;的设置。 您可以在此处进行必要更改，或单击&#x200B;**[!UICONTROL 编辑规则]**&#x200B;来更新规则。
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 

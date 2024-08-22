@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、池、组、子域、可投放性
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 11%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 要创建IP池，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP池]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建IP池]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL IP池]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建IP池]**。
 
    ![](assets/ip-pool-create.png)
 
@@ -74,17 +74,13 @@ ht-degree: 11%
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-此时将创建IP池，并显示在列表中。 您可以选择它以访问其属性并显示关联的渠道界面（即消息预设）。 有关如何将渠道表面与IP池关联的更多信息，请参阅[此部分](channel-surfaces.md)。
-
-![](assets/ip-pool-created.png)
+此时将创建IP池，并显示在列表中。 您可以选择它以访问其属性并显示关联的渠道配置（即消息预设）。 有关如何将通道配置与IP池关联的更多信息，请参阅[此部分](channel-surfaces.md)。
 
 ## 编辑IP池 {#edit-ip-pool}
 
 要编辑IP池，请执行以下步骤。
 
 1. 从列表中，单击IP池名称以将其打开。
-
-   ![](assets/ip-pool-list.png)
 
 1. 根据需要编辑其属性。 您可以修改说明，以及添加或删除IP地址。
 
@@ -100,14 +96,14 @@ ht-degree: 11%
 
 1. 保存更改。
 
-更新会立即生效或异步生效，具体取决于与[渠道表面](channel-surfaces.md)关联的IP池是否为：
+更新会立即生效或异步生效，具体取决于与[通道配置](channel-surfaces.md)关联的IP池是否为：
 
-* 如果IP池是&#x200B;**不是**&#x200B;与任何渠道表面相关联，则更新是即时的（**[!UICONTROL 成功]**&#x200B;状态）。
-* 如果IP池&#x200B;**与通道表面关联**，则更新最多可能需要3个小时（**[!UICONTROL 正在处理]**&#x200B;状态）。
+* 如果IP池是&#x200B;**不是**&#x200B;与任何通道配置相关联，则更新是即时的（**[!UICONTROL 成功]**&#x200B;状态）。
+* 如果IP池&#x200B;**与通道配置关联**，则更新最多可能需要3个小时（**[!UICONTROL 正在处理]**&#x200B;状态）。
 
 >[!NOTE]
 >
->在[创建渠道表面](channel-surfaces.md#create-channel-surface)时，如果您选择的IP池处于编辑状态（**[!UICONTROL 正在处理]**&#x200B;状态）且从未与为该表面选择的子域关联，则无法继续创建表面。 [了解详情](channel-surfaces.md#subdomains-and-ip-pools)
+>在[创建通道配置](channel-surfaces.md#create-channel-surface)时，如果您选择的IP池处于编辑状态（**[!UICONTROL 正在处理]**&#x200B;状态）且从未与为该配置选择的子域关联，则无法继续创建配置。 [了解详情](channel-surfaces.md#subdomains-and-ip-pools)
 
 要检查IP池更新状态，请单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 最近更新]**。
 
@@ -119,5 +115,5 @@ ht-degree: 11%
 >* 几分钟后才会被单一消息占用，
 >* 直到下一次批处理时该IP池才能在批处理消息中生效。
 
-您还可以使用&#x200B;**[!UICONTROL 删除]**&#x200B;按钮删除IP池。 请注意，您无法删除已关联到渠道表面的IP池。
+您还可以使用&#x200B;**[!UICONTROL 删除]**&#x200B;按钮删除IP池。 请注意，您无法删除已与通道配置关联的IP池。
 

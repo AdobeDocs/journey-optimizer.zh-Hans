@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '912'
 ht-degree: 9%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 9%
 >id="ajo_message_email"
 >title="创建电子邮件"
 >abstract="定义电子邮件主题行，然后打开电子邮件设计器以创建电子邮件的内容。"
-
 
 ## 添加电子邮件操作 {#email-action}
 
@@ -36,11 +35,11 @@ ht-degree: 9%
 
 1. 提供有关消息的基本信息（标签、描述、类别）。
 
-1. 选择要使用的[电子邮件表面](email-settings.md)。
+1. 选择或创建[电子邮件配置](email-settings.md)。
 
    ![](assets/email_journey.png)
 
-   默认情况下，该字段会预填充为用户用于该渠道的最后一个表面。
+   默认情况下，该字段会预填充用户用于该渠道的最后一个配置。
 
 >[!NOTE]
 >
@@ -52,15 +51,15 @@ ht-degree: 9%
 
 1. 创建新的计划活动或API触发的活动，并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;作为您的操作。
 
-1. 选择要使用的[电子邮件表面](email-settings.md)。
-
-   ![](assets/email_campaign.png)
-
-1. 单击&#x200B;**[!UICONTROL 创建]**。
-
 1. 完成这些步骤以创建电子邮件营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。
 
    ![](assets/email_campaign_steps.png)
+
+1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作。
+
+1. 选择或创建电子邮件配置。 [了解详情](email-settings.md)
+
+   ![](assets/email_campaign.png)
 
 <!--
 From the **[!UICONTROL Action]** section, specify if you want to track how your recipients react to your delivery: you can track email opens, and/or clicks on links and buttons in your email.
@@ -85,7 +84,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   在&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕的&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，**[!UICONTROL 发件人姓名]**、**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 密件抄送]**&#x200B;字段是在您选择的电子邮件表面中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
+   在&#x200B;**[!UICONTROL 编辑内容]**&#x200B;屏幕的&#x200B;**[!UICONTROL 标头]**&#x200B;部分中，**[!UICONTROL 发件人姓名]**、**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 密件抄送]**&#x200B;字段是在您选择的电子邮件配置中配置的。 [了解详情](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -123,7 +122,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
      >[!NOTE]
      >
-     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在[渠道表面](email-settings.md#email-type)级别和[从历程或营销活动创建消息](#create-email-journey-campaign)时定义。
+     >营销类型电子邮件必须包含选择退出链接，这对于事务型邮件不是必需的。消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）在[渠道配置](email-settings.md#email-type)级别和[从历程或营销活动创建消息](#create-email-journey-campaign)时定义。
 
    * **[!UICONTROL HTML的文本版本为空]**：请不要忘记定义电子邮件正文的文本版本，因为在HTML内容无法显示时将使用该文本版本。 在[本节](text-version-email.md)中了解如何创建文本版本。
 
@@ -139,7 +138,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 邮件的电子邮件版本为空]**：当尚未配置电子邮件内容时，将显示此错误。 在[本节](get-started-email-design.md)中了解如何设计电子邮件内容。
 
-   * **[!UICONTROL 表面不存在]**：如果所选表面在创建消息后被删除，则无法使用消息。 如果出现此错误，请在消息&#x200B;**[!UICONTROL 属性]**&#x200B;中选择另一个表面。 在[本节](../configuration/channel-surfaces.md)中了解有关渠道表面的详细信息。
+   * **[!UICONTROL 配置不存在]**：如果在创建消息后删除了您选择的配置，则无法使用消息。 如果出现此错误，请在消息&#x200B;**[!UICONTROL 属性]**&#x200B;中选择其他配置。 在[本节](../configuration/channel-surfaces.md)中了解有关渠道配置的更多信息。
 
 >[!CAUTION]
 >

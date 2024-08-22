@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 电子邮件、配置、表面、子域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 100%
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. 创建渠道表面并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;渠道。[了解详情](../configuration/channel-surfaces.md)
+1. 创建渠道配置并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;渠道。 [了解详情](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. 在每个电子邮件渠道表面中，配置发送电子邮件所需的所有技术参数。[了解详情](email-settings.md)
+1. 在每个电子邮件渠道配置中，配置投放电子邮件所需的所有技术参数。 [了解详情](email-settings.md)
 
-   * 在这里，您可以选择要用于发送电子邮件的子域，以及要与表面关联的 IP 池。[了解详情](email-settings.md#subdomains-and-ip-pools)
+   * 在这里，您可以选择要用于发送电子邮件的子域和要与配置关联的IP池。 [了解详情](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

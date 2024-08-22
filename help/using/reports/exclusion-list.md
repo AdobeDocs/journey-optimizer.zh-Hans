@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -35,22 +35,22 @@ ht-degree: 9%
 | DomainNotAllowed | 050106 | 电子邮件 | 启用允许列表并将目标电子邮件的域从允许列表中排除时，会生成排除事件。 |
 | EmailNoSubscriberIdFoundInProfile | 050025 | 电子邮件 | 在订阅电子邮件的配置文件中找不到subscriberId时，会生成排除事件。 |
 | EmailNoAddressFoundInProfile | 050020 | 电子邮件 | 在执行地址中找不到电子邮件地址时，会生成排除事件。 |
-| EmailNoAddressDefinedInPreset | 050021 | 电子邮件 | 如果未在表面中定义执行地址，则会生成排除事件。 |
+| EmailNoAddressDefinedInPreset | 050021 | 电子邮件 | 如果未在配置中定义执行地址，则会生成排除事件。 |
 | EmailNoVariantDefined | 050026 | 电子邮件 | 当电子邮件中未定义变体时，会生成排除事件。 |
 | EmailNoMessageFoundForTreatment | 050027 | 电子邮件 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | EmailFormatAddress | 050024 | 电子邮件 | 当电子邮件包含格式错误的地址时，会生成排除事件。 |
 | InAppNoVariantDefined | 050041 | 应用程序内 | 如果没有为InApp消息定义变体，则会生成排除事件。 |
 | InAppNoMessageFoundForTreatment | 050042 | 应用程序内 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | PushNoTokenFoundInProfile | 050030 | 推送 | 当配置文件没有推送令牌时，会生成排除事件。 |
-| PushNoValidTokenFoundForApps | 050031 | 推送 | 在表面中未找到目标应用程序的有效令牌时，会生成排除事件。 |
+| PushNoValidTokenFoundForApps | 050031 | 推送 | 当在配置中未找到目标应用程序的有效令牌时，会生成排除事件。 |
 | PushFormatProfile | 050034 | 推送 | 当配置文件中的pushNotificationDetails格式不正确时，会生成排除事件。 |
 | PushNoConsent | 050111 | 推送 | 当用户选择退出营销推送通知时，将生成排除事件。 |
-| PushNoApplicationDefinedInPreset | 050033 | 推送 | 当表面不包含任何要定位的应用程序时，会生成排除事件。 |
+| PushNoApplicationDefinedInPreset | 050033 | 推送 | 当配置不包含任何要定位的应用程序时，会生成排除事件。 |
 | PushNoVariantDefined | 050035 | 推送 | 未定义变体时，会生成排除事件。 |
 | PushNoMessageFoundForTreatment | 050036 | 推送 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | SMSNoConsent | 050104 | 短信 | 当用户选择退出营销短信时，会生成排除事件。 |
-| SMSFromNumberNotDefinedInPreset | 050152 | 短信 | 未在表面中定义“FromNumber”时，将生成排除事件。 |
-| SMSNoToNumberDefinedInProfile | 050153 | 短信 | 未在表面中定义“ToNumber”时，将生成排除事件。 |
+| SMSFromNumberNotDefinedInPreset | 050152 | 短信 | 配置中未定义“FromNumber”时，将生成排除事件。 |
+| SMSNoToNumberDefinedInProfile | 050153 | 短信 | 配置中未定义“ToNumber”时，将生成排除事件。 |
 | SMSNoVariantDefined | 050154 | 短信 | 未定义变体时，会生成排除事件。 |
 | SMSNoMessageFoundForTreatment | 050155 | 短信 | 为消息启用试验且未找到符合条件的处理消息时，会生成排除事件。 |
 | WebNoVariantDefined | 050041 | Web | 如果没有为Web消息定义变体，则会生成排除事件。 |

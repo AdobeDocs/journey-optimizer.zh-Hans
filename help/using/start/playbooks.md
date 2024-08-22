@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 61bd9ce680c56b0eb8737804fb013dbad430f1cc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >* 创建沙盒
 >* 配置用户权限
->* 为电子邮件、推送和短信通知配置 Journey Optimizer 渠道表面
+>* 为电子邮件、推送和短信通知配置Journey Optimizer渠道配置
 
 用例战术手册是预定义的工作流程，用于处理您可以使用 Adobe Experience Platform 和 Journey Optimizer 执行的常见用例。
 

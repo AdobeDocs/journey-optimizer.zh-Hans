@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 7%
@@ -37,7 +37,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 消息的推送版本为空]**：在缺少推送通知正文或标题时显示此错误。 在[本节](create-push.md)中了解如何定义推送通知内容。
 
-   * **[!UICONTROL 表面不存在]**：如果所选表面在创建消息后被删除，则无法使用消息。 如果出现此错误，请在消息&#x200B;**[!UICONTROL 属性]**&#x200B;中选择另一个表面。 在[本节](../configuration/channel-surfaces.md)中了解有关渠道表面的详细信息。
+   * **[!UICONTROL 配置不存在]**：如果在创建消息后删除了您选择的配置，则无法使用消息。 如果出现此错误，请在消息&#x200B;**[!UICONTROL 属性]**&#x200B;中选择其他配置。 在[本节](../configuration/channel-surfaces.md)中了解有关渠道配置的更多信息。
 
    * **[!UICONTROL 推送iOS/Android有效负载已超出4KB的限制]**：推送通知大小不能超过4KB。 要遵守此限制，请尝试减少使用图像或表情符号。 在[本节](../push/create-push.md)中了解如何管理推送通知内容。
 

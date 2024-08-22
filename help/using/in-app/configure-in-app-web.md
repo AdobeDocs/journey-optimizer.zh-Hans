@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
@@ -110,3 +110,49 @@ ht-degree: 2%
 
    ![](assets/configure_web_inapp_14.png)
 
+## 创建应用程序内Web配置 {#in-app-config}
+
+1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
+
+   ![](assets/in-app-web-config-1.png)
+
+1. 输入配置的名称和说明（可选），然后选择要配置的渠道。
+
+   >[!NOTE]
+   >
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+
+1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
+
+1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
+
+1. 选择&#x200B;**应用程序内消息传送**&#x200B;渠道。
+
+1. 定义应用程序配置。 进行更改有两个选项：
+
+   * 您可以输入&#x200B;**[!UICONTROL 页面URL]**&#x200B;以将更改应用于特定页面。
+
+   * 您可以创建一个规则来定位遵循相同模式的多个URL。
+
++++ 如何构建页面匹配规则。
+
+      1. 选择&#x200B;**[!UICONTROL 页面匹配规则]**&#x200B;作为应用程序配置，并输入您的&#x200B;**[!UICONTROL 页面URL]**。
+
+      1. 在&#x200B;**[!UICONTROL 编辑配置规则]**&#x200B;窗口中，为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义条件。
+      1. 从“条件”下拉列表中，进一步将您的条件个性化。
+
+         例如，在本例中，要编辑显示在Luma网站所有销售产品页面上的元素，请选择域>开头为> Luma和页面>包含>销售。
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. 如果需要，单击&#x200B;**[!UICONTROL 添加其他页面规则]**&#x200B;以创建其他规则。
+
+      1. 选择&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+
+      1. 保存您的更改。该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
+
++++
+
+1. 提交应用程序内Web配置。
+
+您现在可以在营销活动中[创建Web应用程序内](../in-app/create-in-app-web.md)。

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 重试，退回，软退回，优化器，错误
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 9%
@@ -50,7 +50,7 @@ ht-degree: 9%
 
 如果默认值5不符合您的需要，您可以按照以下步骤修改错误阈值。
 
-1. 转到&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 禁止显示列表]**。
+1. 转到&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 禁止显示列表]**。
 
 1. 选择&#x200B;**[!UICONTROL 编辑禁止显示规则]**&#x200B;按钮。
 
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 默认情况下，从将邮件添加到电子邮件队列起，将执行重试&#x200B;**3.5天**（或&#x200B;**84小时**）。
 
-但是，为了确保不再需要时重试尝试，您可以在创建或编辑应用于电子邮件渠道的[渠道表面](channel-surfaces.md)（即消息预设）时根据需要更改此设置。
+但是，为了确保不再需要时重试尝试，您可以在创建或编辑应用于电子邮件渠道的[渠道配置](channel-surfaces.md)（即消息预设）时根据需要更改此设置。
 
 例如，对于与密码重置相关的事务性电子邮件，如果其中包含仅在一天内有效的链接，您可以将重试期限设置为24小时。 同样，对于午夜促销，您可能希望定义6小时的重试时段。
 
@@ -80,5 +80,5 @@ ht-degree: 9%
 >
 >重试时间不能超过84小时。 营销电子邮件的最小重试期限为6小时，事务电子邮件的最小重试期限为10分钟。
 
-了解在[本节](../email/email-settings.md#email-retry)中创建渠道表面时如何调整电子邮件重试参数。
+了解在[本节](../email/email-settings.md#email-retry)中创建渠道配置时如何调整电子邮件重试参数。
 

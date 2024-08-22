@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '3352'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。</p>
-<p>这些决策项通过新的基于代码的体验渠道无缝集成到广泛的入站表面中，现在可以在 Journey Optimizer 营销活动中访问。体验决策的决策策略仅适用于基于代码的体验营销活动。</p>
+<p>这些决策项目通过新的基于代码的体验渠道(现在可在Journey Optimizer促销活动中访问)无缝集成到广泛的入站配置中。 体验决策的决策策略仅适用于基于代码的体验营销活动。</p>
 <p>目前，体验决策功能仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/gs-experience-decisioning.md">详细文档</a>。</p>
@@ -278,14 +278,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>电子邮件表面个性化 - 限量发布</strong><br/></th>
+<th><strong>电子邮件配置个性化 — 限量发布</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在创建电子邮件渠道表面时定义动态子域和个性化的标题参数，以提高灵活性和对电子邮件设置的控制。</p>
-<p>目前，电子邮件表面个性化仅面向一部分组织提供（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>现在，您可以在创建电子邮件渠道配置时定义动态子域和个性化的标题参数，以提高灵活性和对电子邮件设置的控制。</p>
+<p>电子邮件配置个性化当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -468,7 +468,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel configurations, for increased flexibility and control over your email settings.</p>
 </td>
 </tr>
 </tbody>
@@ -484,7 +484,7 @@ ht-degree: 100%
 
 
 <!--
-* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+* **DULE for AJO channel configuration**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel configuration through marketing actions.
 -->
 
 
@@ -494,9 +494,9 @@ ht-degree: 100%
 
 **配置**
 
-* 现在，您可以在渠道表面级别选择营销操作。在表面中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。[了解详情](../action/consent.md#surface-marketing-actions)
-* 现在，渠道表面可以使用对象级访问控制。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
-* 在渠道表面中启用列表取消订阅时，您现在可以定义同意级别，以符合您管理来自所有其他来源的同意的方式。[了解详情](../email/email-settings.md#list-unsubscribe)
+* 您现在可以在渠道配置级别选择营销操作。 在配置中使用时，将利用与该营销操作关联的所有同意策略，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
+* 现在可对通道配置使用对象级访问控制。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+* 在渠道配置中启用列表取消订阅时，您现在可以定义同意级别，以符合您管理来自所有其他来源的同意的方式。 [了解详情](../email/email-settings.md#list-unsubscribe)
 
 **内容管理**
 

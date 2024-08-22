@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -48,7 +48,7 @@ ht-degree: 24%
 
 ## 访问和管理Web子域 {#access-web-subdomains}
 
-1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**。 此时将显示使用当前沙盒设置的所有子域。
+1. 转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web设置]** > **[!UICONTROL Web子域]**。 此时将显示使用当前沙盒设置的所有子域。
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,7 +68,7 @@ ht-degree: 24%
 
 要使用已委派给Adobe的子域，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web设置]** > **[!UICONTROL Web子域]**。
 
 1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 
@@ -109,7 +109,7 @@ ht-degree: 24%
 >
 >默认情况下，[!DNL Journey Optimizer]允许您总共委派最多10个子域（包括电子邮件和Web渠道）。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web配置]** > **[!UICONTROL Web子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL Web设置]** > **[!UICONTROL Web子域]**。
 
 1. 单击&#x200B;**[!UICONTROL 设置子域]**。
 
@@ -153,7 +153,7 @@ ht-degree: 24%
    >
    >在能够使用该子域发送Web消息之前，您必须等待Adobe执行所需的检查，这最多可能需要4小时。
 
-1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它随时可用于创建Web渠道界面。
+1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它可用于创建Web渠道配置。
 
    请注意，如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
 

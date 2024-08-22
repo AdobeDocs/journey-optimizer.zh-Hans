@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -32,7 +32,7 @@ ht-degree: 22%
 
 ## 访问禁止显示列表 {#access-suppression-list}
 
-要访问排除的电子邮件地址和域的详细列表，请浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，并选择&#x200B;**[!UICONTROL 禁止显示列表]**。
+要访问排除的电子邮件地址和域的详细列表，请浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]**，然后选择&#x200B;**[!UICONTROL 禁止显示列表]**。
 
 
 ![](assets/suppression-list-access.png)
@@ -66,8 +66,6 @@ ht-degree: 22%
 * **手动**：手动错误已手动添加到禁止显示列表。 [了解详情](#add-addresses-and-domains)
 
 对于列出的每个电子邮件地址，您还可以检查&#x200B;**[!UICONTROL Type]**（电子邮件或域）、**[!UICONTROL Reason]**&#x200B;是否将其排除、添加者以及将其添加到禁止显示列表的日期/时间。
-
-![](assets/suppression-list.png)
 
 投放失败的可能原因包括：
 
@@ -230,8 +228,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 确定受影响的电子邮件地址后，请筛选隐藏列表以显示它们。 例如，如果&#x200B;**test.com**&#x200B;域上的ISP中断发生在2022年11月11日至2022年11月13日，请过滤该时间范围内添加到禁止列表的地址，如下所示：
 
-![](assets/remove-from-supp-list.png)
-
 然后，可以使用&#x200B;**[!UICONTROL 删除]**&#x200B;按钮从禁止显示列表中删除隔离的电子邮件地址。
 
 ## 下载禁止列表 {#download-suppression-list}
@@ -250,8 +246,6 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
    ![](assets/suppression-list-download-csv.png)
 
 1. 等待文件生成。
-
-   ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >

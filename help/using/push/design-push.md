@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -39,7 +39,7 @@ ht-degree: 17%
 
 ![](assets/title-body-push.png)
 
-* 要打开应用程序，请选择&#x200B;**[!UICONTROL 打开应用程序]**&#x200B;选项。 与通知关联的应用程序在[渠道表面](../configuration/channel-surfaces.md)中定义（即消息预设）。
+* 要打开应用程序，请选择&#x200B;**[!UICONTROL 打开应用程序]**&#x200B;选项。 与通知关联的应用程序在[渠道配置](../configuration/channel-surfaces.md)（即消息预设）中定义。
 * 要将用户重定向到应用程序中的特定内容，请选择&#x200B;**[!UICONTROL 深层链接]**&#x200B;选项。  特定内容可以是特定视图、页面的特定部分或特定选项卡。 选择该选项后，在相关字段中输入深层链接。
 * 要将用户重定向到外部URL，请使用&#x200B;**[!UICONTROL Web URL]**&#x200B;选项。 选择该选项后，在相关字段中输入URL。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 16%
@@ -52,7 +52,7 @@ ht-degree: 16%
 
 ## 访问种子列表 {#access-seed-lists}
 
-要访问已创建的种子列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]**，然后选择&#x200B;**[!UICONTROL 种子列表]**。
+要访问已创建的种子列表，请转到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]**，然后选择&#x200B;**[!UICONTROL 种子列表]**。
 
 <!--
 >[!CAUTION]
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->无法删除活动[营销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publishing-the-journey.md)中使用的种子列表。 您需要取消激活营销活动/历程，或对其进行编辑以使用未选择种子列表的其他表面。 [了解有关使用种子列表的更多信息](#use-seed-list)
+>无法删除活动[营销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publishing-the-journey.md)中使用的种子列表。 您需要取消激活营销活动/历程，或编辑该营销活动，以使用未选择种子列表的其他配置。 [了解有关使用种子列表的更多信息](#use-seed-list)
 
 您可以单击种子列表名称对其进行编辑。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ ht-degree: 16%
 
 要创建种子列表，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件配置]** > **[!UICONTROL 种子列表]**&#x200B;菜单。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 种子列表]**&#x200B;菜单。
 
 1. 选择&#x200B;**[!UICONTROL 创建种子列表]**&#x200B;按钮。
 
@@ -132,7 +132,7 @@ ht-degree: 16%
 >
 >发送到种子地址的消息不包含在历程或营销活动报告中。
 
-1. 创建一个表面并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;渠道。 [了解详情](../email/email-settings.md)
+1. 创建配置并选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;渠道。 [了解详情](../email/email-settings.md)
 
 1. 在[对应的部分](../email/email-settings.md#seed-list)中选择您选择的种子列表。
 
@@ -142,11 +142,11 @@ ht-degree: 16%
 
    ![](assets/seed-list-surface.png)
 
-1. 提交表面。
+1. 提交配置。
 
 1. 创建[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journey-gs.md)。
 
-1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作，然后选择[表面](channel-surfaces.md)，其中包含与您相关的种子列表。
+1. 选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作，然后选择[配置](channel-surfaces.md)，其中包含与您相关的种子列表。
 
    ![](assets/seed-list-campaign-email.png)
 

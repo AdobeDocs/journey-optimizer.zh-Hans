@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="有限发布版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 1d8ea66425b21ec831542bb36bb283c23760e94f
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 32%
@@ -27,6 +27,7 @@ ht-degree: 32%
 通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
 这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 体验决策的决策策略仅适用于基于代码的体验营销活动。
+
 
 ## Experience Decisioning关键步骤 {#steps}
 

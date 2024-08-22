@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 1%
@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >**[!UICONTROL 实时]**&#x200B;或&#x200B;**[!UICONTROL 已计划]**&#x200B;状态旁边的“打开草稿版本”图标指示营销活动的新版本已创建且尚未激活。 [了解详情](modify-stop-campaign.md#modify)。
 
-当您的某个营销策划中发生错误时，该营销策划的状态旁边会显示一个警告图标。 单击该图标以显示有关警报的信息。 这些警报可能会在各种情况下发生，例如营销活动消息未发布或所选表面不正确时。
+当您的某个营销策划中发生错误时，该营销策划的状态旁边会显示一个警告图标。 单击该图标以显示有关警报的信息。 这些警报可能会在各种情况下发生，例如营销活动消息未发布或所选配置不正确时。
 
 ![](assets/campaign-alerts.png)
 

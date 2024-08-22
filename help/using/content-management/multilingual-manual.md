@@ -10,9 +10,9 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="限量发布版" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '617'
 ht-degree: 6%
 
 ---
@@ -53,11 +53,11 @@ ht-degree: 6%
 
 在此部分中，您可以设置管理多语言内容的主要语言及其关联的区域设置。 您还可以选择要用于查找与配置文件语言相关的信息的属性
 
-1. 从&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL 渠道]**。
+1. 从&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]**。
 
 1. 在&#x200B;**[!UICONTROL 语言设置]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 创建语言设置]**。
 
-   ![](assets/multilingual-settings-1.png)
+   ![](assets/language_settings_1.png)
 
 1. 键入&#x200B;**[!UICONTROL 语言设置]**&#x200B;的名称。
 
@@ -86,7 +86,7 @@ ht-degree: 6%
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以创建您的&#x200B;**[!UICONTROL 语言设置]**。
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.

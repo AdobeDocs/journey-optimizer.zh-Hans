@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 10%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 11%
 
    ![](assets/push_create_1.png)
 
-1. 提供有关消息的基本信息（标签、描述、类别），然后选择要使用的消息界面。 默认情况下，**[!UICONTROL Surface]**&#x200B;字段已预填充，用户将使用该渠道的最后一个表面。
+1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。
 
    ![](assets/push_create_2.png)
 
@@ -54,21 +54,25 @@ ht-degree: 11%
 
 >[!TAB 向营销活动添加推送]
 
-1. 创建新的计划或API触发的营销活动，选择&#x200B;**[!UICONTROL 推送通知]**&#x200B;作为您的操作，并选择要使用的&#x200B;**[!UICONTROL 应用程序表面]**。 [了解有关推送配置的更多信息](push-configuration.md)。
+1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
-   ![](assets/push_create_3.png)
+1. 选择要执行的营销活动类型
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。
+   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
+
+   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。
 
 1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;部分，编辑营销活动的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
-
-   ![](assets/push_create_4.png)
 
 1. 单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮，从可用Adobe Experience Platform受众列表中定义要定位的受众。 [了解详情](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选受众中的个人。 [了解详情](../event/about-creating.md#select-the-namespace)。
 
-   ![](assets/push_create_5.png)
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 推送通知]**，然后选择或创建新配置。
+
+   在[此页面](push-configuration.md)中了解有关推送配置的更多信息。
+
+   ![](assets/push_create_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
@@ -122,7 +126,7 @@ ht-degree: 11%
 
 1. 创建推送通知营销活动并打开&#x200B;**[!UICONTROL 快速投放]**&#x200B;选项。
 
-![](assets/create-campaign-burst.png)
+   ![](assets/create-campaign-burst.png)
 
 1. 配置消息内容并选择要定向的受众。 [了解如何创建营销活动](#create)
 

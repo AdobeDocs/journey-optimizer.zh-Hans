@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 95%
 
    * 如果您有 Adobe **Health Shield** 或 **Privacy and Security Shield**，您可以创建覆盖默认逻辑的自定义同意策略。例如，您可以将策略定义为仅向所有已选择接收通信的人员发送电子邮件。如果没有自定义策略，则应用默认策略。
 
-  要应用自定义策略，您需要在该策略中定义营销操作，并将其与渠道表面关联。[了解详情](#surface-marketing-actions)
+  要应用自定义策略，您需要在该策略中定义营销操作，并将其与渠道配置关联。 [了解详情](#surface-marketing-actions)
 
 在历程级别，您可以将这些同意策略应用于自定义操作。
 
 * 在&#x200B;**配置自定义操作**&#x200B;时，您可以定义渠道和营销操作。[了解详情](#consent-custom-action)
 * 在添加&#x200B;**历程中的自定义操作**&#x200B;时，您可以定义其他营销操作。[了解详情](#consent-journey)
 
-## 通过渠道表面利用同意策略 {#surface-marketing-actions}
+## 通过渠道配置利用同意策略 {#surface-marketing-actions}
 
 在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。载入时，您可将此默认值修改为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一。
 
@@ -73,13 +73,13 @@ ht-degree: 95%
 
 1. 在 Journey Optimizer 中，创建电子邮件表面。[了解如何操作](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. 在电子邮件表面详细信息中，选择&#x200B;**[!UICONTROL 电子邮件定位]**&#x200B;营销操作。
+1. 在电子邮件配置详细信息中，选择&#x200B;**[!UICONTROL 电子邮件定位]**&#x200B;营销操作。
 
    ![](assets/surface-marketing-action.png)
 
 将自动利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
 
-因此，在此示例中，在营销活动或历程中使用该表面的任何[电子邮件](../email/create-email.md)只会被发送给同意接收来自您的电子邮件的用户档案。未同意接收电子邮件通信的用户档案将被排除在外。
+因此，在本例中，在营销活动或历程中使用该配置的任何[电子邮件](../email/create-email.md)仅发送给同意接收来自您的电子邮件的用户档案。 未同意接收电子邮件通信的用户档案将被排除在外。
 
 ## 通过自定义操作利用同意策略 {#journey-custom-actions}
 

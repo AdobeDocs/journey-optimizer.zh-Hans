@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 35%
@@ -89,7 +89,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，[渠道表面](../configuration/channel-surfaces.md#email-type)中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）。
+>营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，[渠道配置](../configuration/channel-surfaces.md#email-type)中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）。
 
 ## 调整链接 {#adjust-links}
 
@@ -164,7 +164,7 @@ ht-degree: 35%
 
 ## 个性化URL跟踪 {#url-tracking}
 
-通常在表面级别管理[URL跟踪](email-settings.md#url-tracking)，但不支持配置文件属性。 当前唯一的方法是在电子邮件设计器中[个性化URL](../personalization/personalization-syntax.md#perso-urls)。
+通常在配置级别管理[URL跟踪](email-settings.md#url-tracking)，但不支持配置文件属性。 当前唯一的方法是在电子邮件设计器中[个性化URL](../personalization/personalization-syntax.md#perso-urls)。
 
 要向链接添加个性化的URL跟踪参数，请执行以下步骤。
 

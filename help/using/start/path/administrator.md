@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 首次访问 [!DNL Journey Optimizer] 时，系统会为您预置一个生产沙盒，并根据您的合同分配特定数量的 IP。
 
-要创建您的历程并发送消息，请访问&#x200B;**管理**&#x200B;菜单。浏览&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单以配置消息和渠道界面（即消息预设）。
+要创建您的历程并发送消息，请访问&#x200B;**管理**&#x200B;菜单。浏览&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单以配置消息和渠道配置（即消息预设）。
 
 >[!NOTE]
 >作为&#x200B;**系统管理员**，如果在 [!DNL Journey Optimizer] 中看不到&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在 [Admin Console](https://adminconsole.adobe.com/){target="_blank"} 中更新您的权限。在[本页](../../administration/permissions.md#edit-product-profile)了解如何更新产品配置文件。
@@ -50,11 +50,11 @@ ht-degree: 100%
 
 请遵循以下步骤：
 
-1. **配置消息和渠道**：定义界面，调整和自定义电子邮件、短信和推送消息设置
+1. **配置消息和渠道**：定义配置，调整和自定义电子邮件、短信和推送消息设置
 
    * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定义&#x200B;**推送通知设置**。[了解详情](../../push/push-gs.md)
 
-   * 创建&#x200B;**渠道界面**（即消息预设），以配置电子邮件、短信和推送通知所需的所有技术参数。[了解详情](../../configuration/channel-surfaces.md)
+   * 创建&#x200B;**渠道配置**（即消息预设）以配置电子邮件、短信和推送通知所需的所有技术参数。 [了解详情](../../configuration/channel-surfaces.md)
 
    * 配置&#x200B;**短信渠道**&#x200B;以配置短信所需的所有技术参数。[了解详情](../../sms/sms-configuration.md)
 

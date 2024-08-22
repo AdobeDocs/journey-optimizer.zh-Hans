@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1820'
 ht-degree: 23%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 23%
 
 要将新子域完全委派给Adobe，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
    ![](assets/subdomain-delegate.png)
 
@@ -137,7 +137,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 要使用CNAME设置子域，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
 1. 选择&#x200B;**[!UICONTROL CNAME设置]**&#x200B;方法。
 

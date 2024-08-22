@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1355'
 ht-degree: 12%
 
 ---
@@ -82,7 +82,7 @@ SPF和DKIM均用于将电子邮件与域相关联，并共同验证电子邮件�
 
 要确保为您在[!DNL Journey Optimizer]中委派的所有子域设置了DMARC记录，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
 1. 对于每个委派的子域，请检查&#x200B;**[!UICONTROL DMARC记录]**&#x200B;列。 如果没有找到给定子域的记录，则会显示警报。
 

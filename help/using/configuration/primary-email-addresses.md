@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '433'
 ht-degree: 18%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 18%
 
 在这种情况下，[!DNL Journey Optimizer]使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;来确定要优先从配置文件服务中使用的电子邮件地址或电话号码。
 
-要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
+要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,7 +46,7 @@ ht-degree: 18%
 
 要在沙盒级别全局更改执行字段，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
+1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
 1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以更改默认值。
 

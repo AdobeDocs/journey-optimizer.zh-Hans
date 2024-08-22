@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->在创建新营销活动之前，请确保您具有可供使用的表面渠道（即消息预设）和Adobe Experience Platform受众。 请参阅以下部分以了解详情：
+>在创建新营销活动之前，请确保您具有可供使用的渠道配置（即消息平面）和Adobe Experience Platform受众。 请参阅以下部分以了解详情：
 >
->* [创建渠道界面](../configuration/channel-surfaces.md)
+>* [创建渠道配置](../configuration/channel-surfaces.md)
 >* [开始使用受众](../audience/about-audiences.md)
 
 要创建新营销活动，请访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ ht-degree: 32%
 
 ## 创建消息并配置跟踪 {#content}
 
-1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择要用于发送消息的渠道和表面。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择或创建新配置。
 
-   表面是由[系统管理员](../start/path/administrator.md)定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
+   配置由[系统管理员](../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
-   下拉列表中只列出与营销活动类型兼容的渠道表面。
+   下拉列表中只列出与营销活动类型兼容的渠道配置。
 
    ![](assets/create-campaign-action.png)
 

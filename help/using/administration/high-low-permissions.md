@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级别，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 0%
@@ -360,7 +360,7 @@ ht-degree: 0%
 
 +++
 
-* **[!DNL Manage messages presets]**&#x200B;高级权限允许用户在沙盒级别跨渠道读取、创建、编辑和删除渠道表面。
+* **[!DNL Manage messages presets]**&#x200B;高级权限允许用户在沙盒级别跨渠道读取、创建、编辑和删除渠道配置。
 
 +++ 它包括以下低级权限：
 
@@ -478,9 +478,9 @@ ht-degree: 0%
 +++
 
 <!--
-### [!DNL View channel surface] permission {#view-channel-surface}
+### [!DNL View channel configuration] permission {#view-channel-surface}
 
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
   +++ It includes the following low-level permissions:  
 
 * messages_presets.read
