@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 6%
+source-wordcount: '1669'
+ht-degree: 5%
 
 ---
 
 # 创建 IP 预热计划 {#ip-warmup}
 
-创建了一个或多个[IP预热活动](ip-warmup-campaign.md)，并启用了专用表面和相应的选项后，即可开始创建IP预热计划。
+创建了一个或多个[IP预热活动](ip-warmup-campaign.md)并启用了专用配置和相应选项后，即可开始创建IP预热计划。
 
 要访问、创建、编辑和删除IP预热计划，您必须具有&#x200B;**[!UICONTROL 可投放性顾问]**&#x200B;角色或IP预热计划相关权限。
 
@@ -238,7 +238,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 ## 访问和管理IP预热计划 {#manage-ip-warmup-plans}
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP预热计划]**&#x200B;菜单。 此时将显示迄今为止创建的所有IP预热计划。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL IP预热计划]**&#x200B;菜单。 此时将显示迄今为止创建的所有IP预热计划。
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="选择营销表面"
->abstract="您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同表面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道表面"
+>title="选择营销配置"
+>abstract="您必须选择与活动中所选要与IP预热计划关联的配置相同的配置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道配置"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
 
 要创建IP预热计划，请执行以下步骤。
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL IP预热计划]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建IP预热计划]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]**> **[!UICONTROL IP预热计划]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建IP预热计划]**。
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. 选择要预热的[表面](channel-surfaces.md)。 仅营销表面可供选择。 [了解有关电子邮件类型的更多信息](../email/email-settings.md#email-type)
+1. 选择要预热的[配置](channel-surfaces.md)。 仅营销配置可供选择。 [了解有关电子邮件类型的更多信息](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >要与IP预热计划关联的营销活动必须使用同一表面。 [了解如何创建IP预热活动](ip-warmup-campaign.md)
+   >要与IP预热计划关联的营销活动必须使用相同的配置。 [了解如何创建IP预热活动](ip-warmup-campaign.md)
 
 1. 上载包含IP预热计划的Excel文件。 [了解详情](#prepare-file)
 

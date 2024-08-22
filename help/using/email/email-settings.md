@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置电子邮件设置
-description: 了解如何在渠道平面级别配置电子邮件设置
+description: 了解如何在渠道配置级别配置电子邮件设置
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 10%
+source-wordcount: '2530'
+ht-degree: 9%
 
 ---
 
 # 配置电子邮件设置 {#email-settings}
 
-要开始创建电子邮件，您需要设置电子邮件渠道界面，以定义消息所需的所有技术参数。 [了解如何创建表面](../configuration/channel-surfaces.md)
+要开始创建电子邮件，您需要设置电子邮件渠道配置，以定义消息所需的所有技术参数。 [了解如何创建配置](../configuration/channel-surfaces.md)
 
 >[!NOTE]
 >
->为了维护您的信誉并提高可投放性，请在创建电子邮件表面之前设置用于发送电子邮件的子域。 [了解详情](../configuration/about-subdomain-delegation.md)
+>为了维护您的信誉并提高可投放性，请在创建电子邮件配置之前设置您将用于发送电子邮件的子域。 [了解详情](../configuration/about-subdomain-delegation.md)
 
-在渠道平面配置的专用部分中定义电子邮件设置，如下所述。
+在渠道配置的专用部分中定义电子邮件设置，如下所述。
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-系统会选取电子邮件表面配置，以便按照以下逻辑发送通信：
+系统会选取电子邮件配置，以便按照以下逻辑发送通信：
 
 * 对于批处理历程，不适用于在进行电子邮件表面配置之前已启动的批处理执行。 下次重复执行或新执行时会选取更改。
 
@@ -36,22 +36,22 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->更新后的电子邮件表面设置会在使用表面的历程或营销活动中自动提取。
+>更新的电子邮件配置设置会在使用配置的历程或营销活动中自动提取。
 
 ## 电子邮件类型 {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类型"
->abstract="选择使用此表面时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
+>abstract="选择使用此配置时将发送的电子邮件类型：营销型促销电子邮件（需要用户同意）或事务型非商业电子邮件（也可在特定上下文中发送到未订阅的用户档案）。"
 
-在&#x200B;**电子邮件类型**&#x200B;部分中，为表面选择消息类型： **[!UICONTROL 营销]**&#x200B;或&#x200B;**[!UICONTROL 事务性]**。
+在&#x200B;**电子邮件类型**&#x200B;部分中，为配置选择消息类型： **[!UICONTROL 营销型]**&#x200B;或&#x200B;**[!UICONTROL 事务型]**。
 
 * 为促销电子邮件选择&#x200B;**营销**，如零售商店的每周促销活动。 这些消息需要用户同意。
 
 * 为非商业电子邮件选择&#x200B;**事务型**，例如订单确认、密码重置通知或投放信息。 这些电子邮件可以发送给从营销通信中&#x200B;**取消订阅**&#x200B;的用户档案。 这些消息只能在特定上下文中发送。
 
-创建消息时，必须选择与为电子邮件选择的类别相匹配的有效渠道平面。
+创建消息时，必须选择与为电子邮件选择的类别相匹配的有效渠道配置。
 
 ## Subdomain {#subdomains}
 
@@ -65,11 +65,11 @@ ht-degree: 10%
 ## IP池详细信息 {#ip-pools}
 
 
-选择要与表面关联的IP池。 [了解详情](../configuration/ip-pools.md)
+选择要与配置关联的IP池。 [了解详情](../configuration/ip-pools.md)
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-当选定的IP池处于[版本](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 正在处理]**&#x200B;状态）下且从未与选定的子域关联时，您无法继续创建表面。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将表面另存为草稿，并在IP池的状态为&#x200B;**[!UICONTROL 成功]**&#x200B;后重试。
+当选定的IP池处于[版本](../configuration/ip-pools.md#edit-ip-pool) （**[!UICONTROL 正在处理]**&#x200B;状态）下且从未与选定的子域关联时，您无法继续创建配置。 否则，仍将使用IP池/子域关联的最旧版本。 如果是这种情况，请将配置另存为草稿，并在IP池的状态为&#x200B;**[!UICONTROL 成功]**&#x200B;后重试。
 
 >[!NOTE]
 >
@@ -100,12 +100,12 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 * **Mailto（取消订阅）**&#x200B;地址，这是将取消订阅请求路由到以进行自动处理的目标地址。
 
-  在Journey Optimizer中，取消订阅电子邮件地址是渠道界面中显示的默认&#x200B;**Mailto（取消订阅）**&#x200B;地址，基于您的[所选子域](#subdomains-and-ip-pools)。
+  在Journey Optimizer中，取消订阅电子邮件地址是渠道配置中显示的默认&#x200B;**Mailto（取消订阅）**&#x200B;地址，基于您的[所选子域](#subdomains-and-ip-pools)。
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* **一键式取消订阅URL**，默认情况下是根据您在“渠道平面设置”中设置并配置的子域一键式选择我们的URL生成的列表取消订阅标头。
+* **一键式取消订阅URL**，默认情况下是根据您在渠道配置设置中设置并配置的子域一键式选择我们的URL生成的列表取消订阅标头。
 
 <!--
     >[!AVAILABILITY]
@@ -114,19 +114,19 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
     >
 -->
 
-**[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能是可选的。 如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在启用了&#x200B;**[!UICONTROL 选择退出配置]**&#x200B;选项且取消选中&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能的方案中，如果您向使用此表面创建的邮件添加[一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out)，则列表取消订阅标头将选取您在电子邮件正文中插入的一键式选择退出链接，并将其用作一键式取消订阅URL值。
+**[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能是可选的。 如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在启用了&#x200B;**[!UICONTROL 选择退出配置]**&#x200B;选项且取消选中&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能的方案中，如果您向使用此配置创建的邮件添加[一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out)，则列表取消订阅标头将选取您在电子邮件正文中插入的一键式选择退出链接，并将其用作一键式取消订阅URL值。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->如果您没有在消息内容中添加一键式选择退出链接，并且在“渠道设置”中取消选中默认一键式取消订阅URL，则不会将URL作为“列表取消订阅”标头的一部分传递到电子邮件标头。
+>如果您没有在消息内容中添加一键式选择退出链接，并且“渠道配置设置”中默认的一键式取消订阅URL未选中，则任何URL都不会作为列表取消订阅标头的一部分传递到电子邮件标头。
 
 在[本节](../email/email-opt-out.md#unsubscribe-header)中了解更多有关管理消息中的取消订阅功能的信息。
 
 ## 标题参数 {#email-header}
 
-在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入与使用该表面发送的电子邮件类型关联的发件人名称和电子邮件地址。
+在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入与使用该配置发送的电子邮件类型关联的发件人名称和电子邮件地址。
 
 * **[!UICONTROL 发件人姓名]**：发件人的姓名，如您的品牌名称。
 * **[!UICONTROL 发件人电子邮件]**：要用于通信的电子邮件地址。
@@ -154,15 +154,15 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 为确保正确管理回复，请遵循以下建议：
 
-* 确保专用收件箱有足够的接收能力，可接收使用电子邮件界面发送的所有回复电子邮件。 如果收件箱返回退件，则可能无法收到客户的某些回复。
+* 确保专用收件箱有足够的接收容量，可接收使用电子邮件配置发送的所有回复电子邮件。 如果收件箱返回退件，则可能无法收到客户的某些回复。
 
 * 处理回复时必须牢记隐私和合规义务，因为它们可能包含个人身份信息(PII)。
 
 * 请勿在回复收件箱中将邮件标记为垃圾邮件，因为这将影响发送到此地址的所有其他回复。
 
-此外，在定义&#x200B;**[!UICONTROL 回复（电子邮件）]**&#x200B;地址时，请确保使用具有有效MX记录配置的子域，否则电子邮件表面处理将失败。
+此外，在定义&#x200B;**[!UICONTROL 回复（电子邮件）]**&#x200B;地址时，请确保使用具有有效MX记录配置的子域，否则电子邮件配置处理将失败。
 
-如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
+如果您在提交电子邮件配置时遇到错误，则表示没有为输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
 
 >[!NOTE]
 >
@@ -180,12 +180,12 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 * 您选择的转发电子邮件地址。 请注意，转发电子邮件地址域不能与委派给Adobe的任何子域匹配。
 * 您的沙盒名称。
-* 要为其使用转发电子邮件地址的表面名称或子域。
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
+* 将为其使用转发电子邮件地址的配置名称或子域。
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
 
 >[!NOTE]
 >
->每个子域只能有一个转发电子邮件地址。 因此，如果多个表面使用相同的子域，则必须对所有表面使用相同的转发电子邮件地址。
+>每个子域只能有一个转发电子邮件地址。 因此，如果多个配置使用相同的子域，则必须对所有配置使用相同的转发电子邮件地址。
 
 转发电子邮件地址由Adobe设置。 这可能需要3到4天时间。
 
@@ -195,13 +195,13 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 您可以将[!DNL Journey Optimizer]所发送的电子邮件的相同副本（或密件副本）发送到密件抄送收件箱，这些邮件将存储于其中以供合规性或存档之用。
 
-为此，请在渠道表面级别启用&#x200B;**[!UICONTROL 密件抄送电子邮件]**&#x200B;可选功能。 [了解详情](../configuration/archiving-support.md#bcc-email)
+为此，请在渠道配置级别启用&#x200B;**[!UICONTROL 密件抄送电子邮件]**&#x200B;可选功能。 [了解详情](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-此外，在定义&#x200B;**[!UICONTROL 密件抄送电子邮件]**&#x200B;地址时，请确保使用具有有效MX记录配置的子域，否则电子邮件表面处理将失败。
+此外，在定义&#x200B;**[!UICONTROL 密件抄送电子邮件]**&#x200B;地址时，请确保使用具有有效MX记录配置的子域，否则电子邮件配置处理将失败。
 
-如果您在提交电子邮件界面时遇到错误，则表示没有为所输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
+如果您在提交电子邮件配置时遇到错误，则表示没有为输入地址的子域配置MX记录。 请与您的管理员联系以配置相应的MX记录，或使用另一个具有有效MX记录配置的地址。
 
 ## 发送到已禁止的电子邮件地址 {#send-to-suppressed-email-addresses}
 
@@ -231,7 +231,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 作为可投放性最佳实践，此选项默认处于禁用状态，以确保不联系已选择退出的客户。 但是，您可以更改此默认选项，这样您便可以向客户发送事务型消息。
 
-启用此选项后，尽管客户将您的营销电子邮件标记为垃圾邮件，但这些客户将能够使用当前表面接收您的事务型消息。 始终确保根据可投放性最佳实践管理选择退出偏好设置。
+启用此选项后，尽管客户将您的营销电子邮件标记为垃圾邮件，但这些客户将能够使用当前配置接收您的事务型消息。 始终确保根据可投放性最佳实践管理选择退出偏好设置。
 
 ## 种子列表 {#seed-list}
 
@@ -255,7 +255,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 >
 >一次只能选择一个种子列表。
 
-在营销活动或历程中使用当前表面时，投放执行时间将包含所选种子列表上的电子邮件地址，这意味着他们将收到投放的副本以进行保证。
+在营销活动或历程中使用当前配置时，投放执行时间将包含所选种子列表上的电子邮件地址，这意味着他们将收到投放的副本以进行保证。
 
 在[本节](../configuration/seed-lists.md#use-seed-list)中了解如何在营销活动或历程中使用种子列表。
 
@@ -339,4 +339,4 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 >[!NOTE]
 >
->您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数，但这在平面级别是不可能的。 使用电子邮件设计器创作消息时，需要执行此操作。 [了解详情](message-tracking.md#url-tracking)
+>您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数，但这在配置级别是不可能的。 使用电子邮件设计器创作消息时，需要执行此操作。 [了解详情](message-tracking.md#url-tracking)

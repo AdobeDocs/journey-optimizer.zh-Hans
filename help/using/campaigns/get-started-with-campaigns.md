@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
-workflow-type: ht
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="营销活动"
->abstract="创建营销活动，以跨各种渠道向特定受众投放一次性内容。在创建营销活动之前，请确保您已准备好渠道表面和 Adobe Experience Platform 受众以供使用。"
+>abstract="创建营销活动，以跨各种渠道向特定受众投放一次性内容。在创建营销活动之前，请确保您拥有可供使用的渠道配置和Adobe Experience Platform受众。"
 
 使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作将按顺序执行。借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 +++
 
 1. **您需要有受众**。在创建营销活动之前，需要设置受众。要了解有关受众的更多信息，请参阅[本页面](../audience/about-audiences.md)。
-1. **您需要一个渠道表面**。要选择渠道，必须创建并提供相应的渠道表面（即预设）。要了解有关渠道表面的更多信息，请参阅[本页](../configuration/channel-surfaces.md)。
+1. **您需要通道配置**。 要能够选择渠道，您必须已创建并提供相应的渠道配置（即预设）。 在此页面](../configuration/channel-surfaces.md)中了解有关渠道配置[的更多信息。
 
 ## 操作方法视频 {#video}
 

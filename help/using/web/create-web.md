@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 17%
+source-wordcount: '747'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定义 Web 表面"
->abstract="Web 表面可以匹配单个页面 URL 或多个页面，这让您可以在一个或多个网页上传递内容修改。"
+>title="定义Web配置"
+>abstract="Web配置可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页提交内容修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
@@ -41,39 +41,20 @@ ht-degree: 17%
 >
 >如果您是首次创建 Web 体验，请确保遵循[此部分](web-prerequisites.md)中叙述的先决条件。
 
-1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
+1. 访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。[了解详情](../campaigns/create-campaign.md)
+
+
+1. 选择要执行的营销活动类型
+
+   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
+
+   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。
+
+1. 完成创建Web营销活动的步骤，例如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。
 
 1. 选择&#x200B;**[!UICONTROL Web]**&#x200B;操作。
 
-1. 定义Web表面。
-
-   >[!NOTE]
-   >
-   >Web表面是由要交付内容的URL标识的Web属性。 它可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页进行修改。
-
-   如果要将更改仅应用于单个页面，则可以输入&#x200B;**[!UICONTROL 页面URL]**。
-
-   ![](assets/web-campaign-surface.png)
-
-1. 或者，您可以构建一个与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL — 例如，如果您要将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
-
-   为此，请选择&#x200B;**[!UICONTROL 页面匹配规则]**，然后单击&#x200B;**[!UICONTROL 创建规则]**。
-
-   ![](assets/web-campaign-matching-rule.png)
-
-1. 为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义您的条件。
-
-   例如，如果您要编辑显示在Luma网站的所有女性产品页面上的元素，请选择&#x200B;**[!UICONTROL 域]** > **[!UICONTROL 开头为]** > `luma`和&#x200B;**[!UICONTROL 页面]** > **[!UICONTROL 包含]** > `women`。
-
-   ![](assets/web-pages-matching-rule.png)
-
-1. 保存您的更改。该规则显示在&#x200B;**[!UICONTROL 创建营销活动]**&#x200B;屏幕中。
-
-   ![](assets/web-pages-matching-rule-example.png)
-
-1. 定义Web表面后，选择&#x200B;**[!UICONTROL 创建]**。
-
-1. 完成创建Web营销活动的步骤，例如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。
+1. 选择或创建新配置。 [了解有关Web配置的更多信息](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +92,7 @@ ht-degree: 17%
 
 1. 从您的Web营销活动中，选择&#x200B;**[!UICONTROL 审阅以激活]**。
 
-1. 检查并编辑内容、属性、界面、受众和计划（如果需要）。
+1. 检查并编辑内容、属性、配置、受众和计划（如果需要）。
 
 1. 选择&#x200B;**[!UICONTROL 激活]**。
 

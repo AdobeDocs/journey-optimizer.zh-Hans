@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 22%
+source-wordcount: '1384'
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
    >
    >要创建文件路由配置，您需要具有&#x200B;**[!DNL Manage file routing]**&#x200B;内置权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)。
 
-1. 将引用文件路由配置的[直邮表面](#direct-mail-surface)。 如果尚未配置任何文件路由选项，您将无法创建直邮表面。
+1. 将引用文件路由配置的[直邮配置](#direct-mail-configuration)。 如果尚未配置任何文件路由选项，您将无法创建直邮配置。
 
 ## 配置文件路由 {#file-routing-configuration}
 
@@ -72,7 +72,7 @@ ht-degree: 22%
 
 >[!TAB Amazon S3]
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 直邮设置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -96,13 +96,13 @@ ht-degree: 22%
 
 1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 
-1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮表面](#direct-mail-surface)中使用它。
+1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
-   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但在它处于&#x200B;**[!UICONTROL 活动]**&#x200B;状态之前无法在表面中选择它。
+   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
 
 >[!TAB SFTP]
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 直邮设置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -126,13 +126,13 @@ ht-degree: 22%
 
 1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 
-1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮表面](#direct-mail-surface)中使用它。
+1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
-   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但在它处于&#x200B;**[!UICONTROL 活动]**&#x200B;状态之前无法在表面中选择它。
+   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
 
 >[!TAB Azure]
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 文件路由配置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 直邮设置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -156,18 +156,18 @@ ht-degree: 22%
 
 1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 
-1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮表面](#direct-mail-surface)中使用它。
+1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
-   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但在它处于&#x200B;**[!UICONTROL 活动]**&#x200B;状态之前无法在表面中选择它。
+   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
 
 >[!ENDTABS]
 
-## 创建直邮表面 {#direct-mail-surface}
+## 创建直邮配置 {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
->abstract="直邮表面包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
+>abstract="直邮配置包含用于设置文件格式的设置，该文件包含目标受众数据，将由邮件提供商使用。 您还必须选择文件路由配置来定义文件的导出位置。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=zh-Hans#file-routing-configuration" text="配置文件路由"
 
 <!--
@@ -181,17 +181,29 @@ ht-degree: 22%
 >title="定义文件拆分阈值"
 >abstract="您必须为包含受众数据的每个文件设置最大记录数。您可以选择 1 到 200,000 之间的任意记录数。达到指定阈值后，将创建另一个文件用于其余的记录。"
 
-为了能够通过[!DNL Journey Optimizer]传递直邮，您需要创建一个渠道平面来定义将由邮件提供商使用的文件格式设置。
+为了能够通过[!DNL Journey Optimizer]传递直邮，您需要创建通道配置以定义将由邮件提供商使用的文件格式设置。
 
-直邮表面还必须包括文件路由配置，该配置定义了将导出直邮文件的服务器。
+直邮配置还必须包括文件路由配置，该配置定义将导出直邮文件的服务器。
 
-1. 创建渠道表面。 [了解详情](../configuration/channel-surfaces.md)
+1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**。 单击&#x200B;**[!UICONTROL 创建渠道配置]**&#x200B;按钮。 [了解详情](../configuration/channel-surfaces.md)
+
+   ![](assets/direct-mail-config-1.png)
+
+1. 输入配置的名称和说明（可选），然后选择要配置的渠道。
+
+   >[!NOTE]
+   >
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+
+1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 
 1. 选择&#x200B;**[!UICONTROL 直邮]**&#x200B;渠道。
 
-   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
+   ![](assets/direct-mail-config-2.png)
 
-1. 在渠道平面配置的专用部分中定义直邮设置。
+1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
+
+1. 在渠道配置的专用部分中定义直邮设置。
 
    ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
@@ -207,13 +219,13 @@ ht-degree: 22%
 
    >[!CAUTION]
    >
-   >如果尚未配置任何文件路由选项，您将无法创建直邮表面。 [了解详情](#file-routing-configuration)
+   >如果尚未配置任何文件路由选项，您将无法创建直邮配置。 [了解详情](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. 提交直邮表面。
+1. 提交直邮配置。
 
 您现在可以在营销活动中[创建直邮消息](../direct-mail/create-direct-mail.md)。 营销活动开始后，包含目标受众数据的文件将自动导出到您定义的服务器。 然后，直邮提供商将能够检索该文件并继续直邮投放。
 

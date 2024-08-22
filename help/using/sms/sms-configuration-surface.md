@@ -1,36 +1,36 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置短信表面
-description: 了解如何使用Journey Optimizer配置短信/彩信界面以发送短信
+title: 配置短信配置
+description: 了解如何配置短信/彩信配置以使用Journey Optimizer发送短信
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 080928d14a9d6ec116286386748b77a6a25e76f8
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 10%
+source-wordcount: '421'
+ht-degree: 2%
 
 ---
 
-# 创建短信息/彩信表面 {#message-preset-sms}
+# 创建短信/彩信配置 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
->abstract="选择使用此表面的短信的类型：营销型的推广短信（需要用户同意）或交易型的非商业短信，如密码重置。"
+>abstract="使用此配置选择文本消息的类型：营销消息用于促销消息，需要用户同意；事务型消息用于非商业消息，如密码重置。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择退出营销短信消息"
 
-配置短信/彩信渠道后，您必须创建一个渠道平面，以便能够从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送短信和彩信消息。
+配置短信/彩信渠道后，您必须创建渠道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送短信和彩信消息。
 
-要创建渠道表面，请执行以下步骤：
+要创建渠道配置，请执行以下步骤：
 
-1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL 品牌化]** > **[!UICONTROL 渠道平面]**。 单击&#x200B;**[!UICONTROL 创建渠道表面]**&#x200B;按钮。
+1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**。 单击&#x200B;**[!UICONTROL 创建渠道配置]**&#x200B;按钮。
 
    ![](assets/preset-create.png)
 
-1. 输入表面的名称和描述（可选），然后选择短信渠道。
+1. 输入配置的名称和描述（可选），然后选择短信渠道。
 
    ![](assets/sms-create-surface.png)
 
@@ -42,18 +42,18 @@ ht-degree: 10%
 
    ![](assets/sms-surface-settings.png)
 
-   首先，选择将与表面一起发送的&#x200B;**[!UICONTROL SMS类型]**： **[!UICONTROL 事务型]**&#x200B;或&#x200B;**[!UICONTROL 营销型]**。
+   首先，选择将随配置发送的&#x200B;**[!UICONTROL 短信类型]**： **[!UICONTROL 事务型]**&#x200B;或&#x200B;**[!UICONTROL 营销型]**。
 
    * 为促销文本消息选择&#x200B;**营销**：这些消息需要用户同意。
    * 为非商业消息（例如订单确认、密码重置通知或投放信息）选择&#x200B;**事务型**。
 
-   创建SMS/MMS时，必须选择与为消息选择的类别匹配的有效渠道平面。
+   创建短信/彩信时，您必须选择与为消息选择的类别匹配的有效渠道配置。
 
    >[!CAUTION]
    >
    >**事务型**&#x200B;消息可发送给取消订阅营销通信的用户档案。 这些消息只能在特定上下文中发送。
 
-1. 选择要与表面关联的&#x200B;**[!UICONTROL 短信配置]**。
+1. 选择要与配置关联的&#x200B;**[!UICONTROL 短信配置]**。
 
    有关如何配置环境以发送短信消息的更多信息，请参阅[此章节](#create-api)。
 
@@ -67,17 +67,17 @@ ht-degree: 10%
    >
    >要能够选择子域，请确保您之前已配置至少一个SMS/MMS子域。 [了解如何操作](sms-subdomains.md)
 
-1. 配置所有参数后，单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。 也可以将渠道曲面另存为草稿，并稍后恢复其配置。
+1. 配置所有参数后，单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。 您还可以将渠道配置另存为草稿，并稍后恢复其配置。
 
    ![](assets/sms-submit-surface.png)
 
-1. 创建渠道表面后，它将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。
+1. 创建渠道配置后，它将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。
 
    >[!NOTE]
    >
    >如果检查不成功，请在[本节](#monitor-channel-surfaces)中进一步了解可能的失败原因。
 
-1. 检查成功后，渠道表面将获得&#x200B;**[!UICONTROL 活动]**&#x200B;状态。 它随时可用于投放消息。
+1. 检查成功后，通道配置将获得&#x200B;**[!UICONTROL 活动]**&#x200B;状态。 它随时可用于投放消息。
 
    ![](assets/preset-active.png)
 

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="有限发布版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定义要返回的项数"
->abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前表面显示最佳的 2 个合格优惠。"
+>abstract="选择要返回的决策项数。例如，如果选择2，则会为当前配置显示最佳的2个符合条件的优惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -65,7 +65,7 @@ ht-degree: 18%
 
    ![](assets/decision-code-based-details.png)
 
-1. 选择要返回的项目数。 例如，如果选择2，则会为当前曲面显示最佳的2个合格选件。 单击&#x200B;**[!UICONTROL 下一步]**
+1. 选择要返回的项目数。 例如，如果选择2，则会为当前配置显示最佳的2个符合条件的优惠。 单击&#x200B;**[!UICONTROL 下一步]**
 
 1. 使用&#x200B;**[!UICONTROL 添加策略]**&#x200B;按钮定义决策策略的选择策略。 每个策略包括与资格限制关联的优惠收藏集以及确定要显示的优惠的排名方法。 [了解详情](selection-strategies.md)
 
