@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1721'
 ht-degree: 2%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 2%
 > * 在创建渠道配置之前，您必须执行[电子邮件配置](../email/get-started-email-config.md)、[推送配置](../push/push-configuration.md)、[短信配置](../sms/sms-configuration.md)、[应用程序内配置](../in-app/inapp-configuration.md)、[基于代码的配置](../code-based/code-based-configuration.md)、[Web配置](../web/web-configuration.md)和[直邮配置](../direct-mail/direct-mail-configuration.md)步骤。
 
 配置渠道配置后，您将能够在从历程或营销策划创建消息时选择它们。
+
+您还可以使用引导式渠道设置在一个统一的体验中自动完成和验证渠道设置，从而加快Journey Optimizer快速入门过程。 [了解详情](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
