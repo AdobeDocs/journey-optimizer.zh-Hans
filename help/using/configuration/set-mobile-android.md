@@ -10,10 +10,10 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '1042'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="添加初始化代码"
->abstract="TBC"
+>abstract="将初始化代码集成到应用程序的&#x200B;**onCreate()**&#x200B;方法中。 此方法在首次创建应用程序时执行，以确保代码在初始设置阶段运行。 在此正确地放置代码对于确保在执行任何后续操作之前正确配置和初始化应用程序至关重要。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ ht-degree: 4%
 
 ## 设置应用程序内渠道 {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="选择标记属性"
+>title="Choose your tag property"
 >abstract="TBC"
+-->
 
 应用程序内渠道无需其他设置。 要验证您的配置是否正确，可以使用“保证”功能轻松发送测试消息。 这将即时反馈系统是否准备好有效投放应用程序内消息。
 
@@ -229,7 +231,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="通过 Xcode 启动应用程序"
->abstract="TBC"
+>abstract="要获取推送令牌，请先使用Xcode启动应用程序。 应用程序启动后，请重新启动该应用程序，以确保验证过程完成。 然后，Adobe将提供您的推送令牌作为验证结果的一部分。 此令牌对于启用推送通知至关重要，一旦成功验证设置，将立即显示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"

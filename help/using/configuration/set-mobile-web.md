@@ -10,10 +10,10 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript 代码"
->abstract="TBC"
+>abstract="`<head>`标记包含在网页主内容之前加载的基本元数据和资源。 将代码置于此部分可确保代码尽早正确初始化和执行，从而允许您的网页高效地加载和运行。 通过将代码添加到`<head>`部分，可帮助增强网站的结构、性能和整体用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="启动站点并验证"
->abstract="TBC"
+>abstract="成功实施代码并在您的网站上正式启用后，请提供您的基本URL。 如果需要，您可以在稍后阶段返回此页面，重新验证并确认设置是否按预期运行。"
 
 这种设置便于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够立即开始创建营销活动和历程。
 

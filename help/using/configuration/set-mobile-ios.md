@@ -10,9 +10,9 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="添加初始化代码"
->abstract="TBC"
+>abstract="要正确初始化应用程序，请将提供的初始化代码插入到AppDelegate文件的&#x200B;**didFinishLaunchingWithOptions**&#x200B;方法中。 这样可以确保在应用程序启动过程中在适当的时间运行该应用程序。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
