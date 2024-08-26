@@ -11,7 +11,7 @@ exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 11%
 
    >[!CAUTION]
    >
-   >只能选取彼此相邻的部分。 您不能选择空的结构或其他片段。
+   >您只能选择彼此相邻的部分。您不能选择空的结构或其他片段。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;并填写片段名称和描述（如果需要）。
 

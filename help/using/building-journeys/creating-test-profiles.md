@@ -12,7 +12,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1328'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
-您还可以通过API调用创建测试用户档案。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}以了解详情。
+您还可以通过API调用创建测试用户档案。 在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中了解详情。
 
 您必须使用包含“配置文件测试详细信息”字段组的配置文件架构。 testProfile标志是此字段组的一部分。
 创建配置文件时，请确保传递值： testProfile = true。

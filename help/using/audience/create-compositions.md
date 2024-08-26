@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 所有创建的合成都可以从&#x200B;**[!UICONTROL 合成]**&#x200B;选项卡访问。 您可以使用列表中的省略号按钮随时复制或删除现有合成。
 
-合成可以具有多种状态：
+构成可以有多种状态：
 
 * **[!UICONTROL 草稿]**：构成正在进行中，尚未发布。
 * **[!UICONTROL 已发布]**：构成已发布，生成的受众已保存并可使用。

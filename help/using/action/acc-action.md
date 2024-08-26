@@ -46,7 +46,7 @@ ht-degree: 18%
 
 ## 重要说明 {#important-notes}
 
-* 消息不受限制。 根据当前的Campaign SLA，系统将每5分钟可发送的消息数量限制为4000条。 因此，Journey Optimizer只应在单一用例（单个事件，而不是受众）中使用。
+* 消息不受限制。 根据当前的Campaign SLA，系统会将每5分钟可发送超过4000条消息的数量限制在4000条以上。 因此，Journey Optimizer只应在单一用例（单个事件，而不是受众）中使用。
 
 * 您需要在要使用的每个模板的画布上配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
 

@@ -6,13 +6,13 @@ description: 了解如何访问和管理内容模板
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 7%
 
 ---
-
 
 # 访问和管理内容模板 {#access-manage-templates}
 

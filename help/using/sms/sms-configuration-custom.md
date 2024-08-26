@@ -9,11 +9,11 @@ level: Intermediate
 source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# 配置自定义提供商(Beta) {#sms-configuration-custom}
+# 配置自定义提供程序（Beta 版） {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >

@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 >abstract="创建和管理独立的片段，以便可在多个历程和营销活动中重用您的内容。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="创建片段"
 
-片段是可重复使用的组件，可以在[!DNL Journey Optimizer]营销活动和历程中的一个或多个电子邮件中引用。 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。
+片段是可重复使用的组件，可以在[!DNL Journey Optimizer]营销活动和历程中的一个或多个电子邮件中引用。 此功能用于预构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组装消息内容。
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
@@ -45,7 +45,7 @@ ht-degree: 11%
 
 ## 可视化和表达式片段 {#visual-expression}
 
-提供了两种类型的片段：
+有两种类型的片段可用：
 
 * **可视化片段**&#x200B;是预定义的可视化块，您可以使用[电子邮件Designer](../email/get-started-email-design.md)在多个电子邮件投放中重用，或在[内容模板](../email/use-email-templates.md)中重用。
 * **表达式片段**&#x200B;是预定义的表达式，可从[个性化编辑器](../personalization/personalization-build-expressions.md)中的专用条目中使用。
