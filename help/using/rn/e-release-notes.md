@@ -10,8 +10,8 @@ hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>片段现在可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。 您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
+<p>片段现在可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
 </p>
 </td>
 </tr>
@@ -85,13 +85,13 @@ ht-degree: 61%
 **历程**
 
 * 现在，在&#x200B;**条件**&#x200B;活动中，时间条件默认按小时设置，从 00:00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
-* 现在，在构建历程时，警报将显示在下拉列表中，以便与活动警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以轻松地将缩放值重置为100%。
+* 在构建历程时，警报现在会显示在下拉列表中，以与活动警报保持一致并带来一致的用户体验。[了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地将缩放值重置为 100%。
 
 **受众**
 
 * 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield。
-* 在定位自定义上传（CSV文件）受众时，您现在可以在营销活动和历程中使用文件中的属性。 这些属性在个性化编辑器和历程高级表达式编辑器中可用，用于个性化消息。
+* 在定位自定义上传（CSV 文件）受众时，您现在可以在营销活动和历程中使用文件中的属性。这些属性在个性化编辑器中可用，用于个性化您的消息和旅程高级表达式编辑器。
 
 
 <!--

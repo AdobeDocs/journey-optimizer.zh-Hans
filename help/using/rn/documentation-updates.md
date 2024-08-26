@@ -22,7 +22,7 @@ ht-degree: 99%
 ## 2024 年 8 月 {#aug-2024}
 
 * 更新了决策管理的性能护栏，涉及使用/不使用 Edge 分段的 Decisioning API 投放吞吐量。[了解详情](../start/guardrails.md#decision-management)
-* 历程护栏已更新。 [了解详情](../start/guardrails.md#journeys-guardrails-journeys)
+* 历程护栏已更新。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 
 
 ## 2024 年 7 月 {#july-2024}

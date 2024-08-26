@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 57%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 57%
 <table>
 <thead>
 <tr>
-<th><strong>Marketo Engage自定义操作</strong><br/></th>
+<th><strong>Marketo Engage 自定义操作</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -152,7 +152,7 @@ ht-degree: 57%
 
 ### 改进 {#8-improvements}
 
-此版本具有下面列出的改进。
+此版本包含下方列出的改进。
 
 **历程**
 
