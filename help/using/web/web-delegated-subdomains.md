@@ -20,7 +20,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="委派 Web 子域"
->abstract="您将设置您的子域以供 Web 渠道使用。可使用已委派给 Adobe 的子域或配置另一子域。"
+>abstract="您将设置您的子域以供网页渠道使用。可使用已委派给 Adobe 的子域或配置另一子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"

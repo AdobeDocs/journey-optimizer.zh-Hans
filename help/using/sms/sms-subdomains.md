@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="委派 SMS/MMS 子域"
->abstract="由于您需要此子域创建短信配置，因此必须配置用于短信的子域。 可使用已委派给 Adobe 的子域或配置新的子域。"
+>abstract="必须配置用于短信的子域，因为需要此子域才能创建短信配置。可使用已委派给 Adobe 的子域或配置新的子域。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="创建短信表面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
 >title="选择 SMS/MMS 子域"
->abstract="要创建短信配置，请确保您之前已配置至少一个要从子域名列表中选取的短信子域。"
+>abstract="为了能够创建短信配置，请确保您之前已至少配置了一个短信子域，以便从子域名称列表中选择。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="创建短信表面"
 
 若要能够缩短添加到SMS/MMS消息的URL，您必须设置在[创建SMS配置](sms-configuration.md#message-preset-sms)时将选择的子域。
@@ -96,7 +96,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要配置新的短信子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，将它粘贴到您的域托管解决方案中以生成匹配的 DNS 记录。检查成功后，子域即可用于创建短信配置。"
+>abstract="要配置新的短信子域，您需要复制在 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，将它粘贴到您的域托管解决方案中以生成匹配的 DNS 记录。检查成功后，该子域即可用于创建短信配置。"
 
 要配置新子域，请执行以下步骤。
 

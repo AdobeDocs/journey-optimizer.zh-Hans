@@ -33,7 +33,7 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除域组"
 >abstract="选择要从当前阶段排除的域。域排除需要非执行阶段，因此，您可能必须拆分正在运行的阶段才能添加排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hans#split-phase" text="拆分阶段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="拆分阶段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"

@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 39%
+ht-degree: 55%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
 >title="应用程序 ID"
->abstract="提供应用程序ID，以便在应用程序的操作环境中进行准确的识别和配置，从而确保无缝集成和功能。"
+>abstract="提供应用程序 ID，以便在应用程序的运行环境中进行准确识别和配置，确保能够无缝集成并使用相关功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="页面上的位置"
->abstract="“应用程序内的位置”或“路径”字段可指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构中的特定部分或页面。"
+>abstract="应用程序字段内的位置或路径指定了您希望用户访问的应用程序内的确切目标。这可能是应用程序导航结构深处的特定部分或页面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="URI 表面"
->abstract="表面URI用作指向应用程序内不同的用户界面元素或组件的精确标识符。"
+>abstract="表面 URI 可作为指向应用程序内不同用户界面元素或组件的精确标识符。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="默认创作和预览URL"
->abstract="此字段可确保规则生成或匹配的页面具有指定的URL，这对于有效创建和预览内容至关重要。"
+>title="默认创作和预览 URL"
+>abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
 ## 创建渠道配置 {#reatte-code-based-configuration}
 
@@ -88,7 +88,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
 >title="定义基于代码的体验配置"
->abstract="基于代码的配置定义应用程序内的路径和位置，由应用程序实施中的URI唯一标识，内容将交付并用于此处。"
+>abstract="基于代码的配置定义了应用程序内部的路径和位置，由应用程序实施中的 URI 唯一标识，而内容则会在该路径和位置传送和使用。"
 
 **基于代码的体验表面**&#x200B;是为用户或系统交互而设计的任何实体，它由URI唯一标识。 该界面在应用程序实施中指定，它应该对应于基于代码的体验渠道配置中构成的一个界面。
 

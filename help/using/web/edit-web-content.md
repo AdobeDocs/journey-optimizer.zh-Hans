@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="确认要编辑的 URL"
->abstract="确认特定网页的URL，以使用该URL编辑将应用于上面定义的Web配置的内容。 网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 配置的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用浏览模式"
->abstract="在此模式下，您可以导航到要个性化的选定配置的确切页面。"
+>abstract="在此模式下，您可以从要个性化的选定配置导航到确切的页面。"
 
 您可以使用专用按钮将默认&#x200B;**[!UICONTROL 设计]**&#x200B;模式交换为&#x200B;**[!UICONTROL 浏览]**&#x200B;模式。
 

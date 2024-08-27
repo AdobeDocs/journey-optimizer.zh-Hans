@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2530'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类型"
->abstract="选择使用此配置时将发送的电子邮件类型：营销型促销电子邮件（需要用户同意）或事务型非商业电子邮件（也可在特定上下文中发送到未订阅的用户档案）。"
+>abstract="选择使用此配置时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
 
 在&#x200B;**电子邮件类型**&#x200B;部分中，为配置选择消息类型： **[!UICONTROL 营销型]**&#x200B;或&#x200B;**[!UICONTROL 事务型]**。
 
@@ -239,7 +239,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
 >abstract="选择所选的种子列表以自动将特定的内部地址添加到受众。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 [!DNL Journey Optimizer]中的种子列表允许您在投放中自动包含特定的电子邮件种子地址。 [了解详情](../configuration/seed-lists.md)
 
@@ -265,7 +265,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
 >abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以调整此默认重试时段以更好地满足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hans" text="关于重试"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html#" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
 

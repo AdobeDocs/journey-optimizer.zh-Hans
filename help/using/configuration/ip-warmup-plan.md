@@ -12,7 +12,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1669'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -267,12 +267,12 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
 >abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标配置文件数，然后在此处上传它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hans#prepare-file" text="准备 IP 预热计划文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="选择营销配置"
->abstract="您必须选择与活动中所选要与IP预热计划关联的配置相同的配置。"
+>abstract="您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同配置。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道配置"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
 

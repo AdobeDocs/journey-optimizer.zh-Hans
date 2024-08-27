@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
->title="定义Web配置"
->abstract="Web配置可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页提交内容修改。"
+>title="定义 Web 配置"
+>abstract="Web 配置可以匹配单个页面 URL 或多个页面，这让您可以在一个或多个网页上传递内容修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

@@ -10,7 +10,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定义要返回的项数"
->abstract="选择要返回的决策项数。例如，如果选择2，则会为当前配置显示最佳的2个符合条件的优惠。"
+>abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前配置显示最佳的 2 个合格优惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"

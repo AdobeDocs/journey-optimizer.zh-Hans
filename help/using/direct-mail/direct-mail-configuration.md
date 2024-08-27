@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 19%
 >id="ajo_dm_file_routing_details"
 >title="定义文件路由配置"
 >abstract="创建直邮之后，将生成包含目标受众数据的文件并将其导出到服务器。您需要指定服务器详细信息，以便直邮提供商访问并使用该文件来投递直邮。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=zh-Hans" text="创建直邮消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html#" text="创建直邮消息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -167,8 +167,8 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
->abstract="直邮配置包含用于设置文件格式的设置，该文件包含目标受众数据，将由邮件提供商使用。 您还必须选择文件路由配置来定义文件的导出位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=zh-Hans#file-routing-configuration" text="配置文件路由"
+>abstract="直邮配置包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="配置文件路由"
 
 <!--
 >[!CONTEXTUALHELP]

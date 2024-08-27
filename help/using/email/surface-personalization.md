@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="个性化不可用"
->abstract="此配置是在没有任何个性化属性的情况下创建的。 如果需要个性化，请参阅文档了解解决问题的步骤。"
+>abstract="这个配置在创建时没有任何个性化属性。如果需要个性化，请参阅文档了解解决问题的步骤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="启用动态子域"
->abstract="创建电子邮件配置时，您可以根据使用个性化编辑器定义的条件设置动态子域。 您最多可以添加 50 个动态子域。"
+>abstract="创建电子邮件配置时，您可以根据使用个性化编辑器定义的条件设置动态子域。您最多可以添加 50 个动态子域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"

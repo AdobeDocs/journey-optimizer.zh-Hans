@@ -1,6 +1,6 @@
 ---
 title: Web渠道配置
-description: 创建Web渠道配置
+description: 创建网页渠道配置
 feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
@@ -8,21 +8,21 @@ level: Experienced
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
-# 创建Web渠道配置 {#web-configuration}
+# 创建网页渠道配置 {#web-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_page_rule"
 >title="页面匹配规则"
->abstract="要高效地管理和定位一组共享相同标准的URL，请创建一个页面匹配规则。 此规则使您能够将多个URL整合到一个指南中，从而简化跨这些页面的一致设置和操作的应用。"
+>abstract="为了有效管理和定位一组具有相同标准的 URL，请创建一个页面匹配规则。通过使用此规则，您可以将多个 URL 合并到一条准则下，从而简化在这些页面上应用一致的设置和操作的流程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="默认创作和预览URL"
->abstract="此字段可确保规则生成或匹配的页面具有指定的URL，这对于有效创建和预览内容至关重要。"
+>title="默认创作和预览 URL"
+>abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
 Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页进行修改。
 

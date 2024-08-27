@@ -105,7 +105,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-custom"
 >title="为推送通知配置自定义数据。"
->abstract="根据移动应用程序配置，将自定义变量添加到负载。"
+>abstract="根据移动设备应用程序配置，将自定义变量添加到负载。"
 
 在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，您可以将自定义变量添加到有效负载中，具体取决于您的移动应用程序配置。 有关如何在Adobe Experience Platform和AdobeLaunch中设置推送通知的更多信息，请参阅[此部分](push-gs.md)
 

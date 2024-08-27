@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
 source-wordcount: '1721'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="渠道配置"
->abstract="通道配置是由系统管理员定义的配置。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。"
+>abstract="渠道配置是由系统管理员定义的配置。它包含用于发送消息的所有技术参数，如标头参数、子域、移动设备应用程序等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
->title="营销活动"
->abstract="选择营销操作，以使用此设置将同意策略链接到消息。 所有与营销活动相关的同意政策将用于尊重客户的偏好。"
+>title="营销操作"
+>abstract="选择营销操作，将同意政策链接到使用该设置的消息。所有与营销操作相关的同意政策都会用于满足您的客户的偏好。"
 
 通过[!DNL Journey Optimizer]，您可以设置渠道配置（即消息预设），以定义消息所需的所有技术参数：电子邮件类型、发件人电子邮件和姓名、移动应用、短信配置等。
 
@@ -49,17 +49,17 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="渠道配置设置"
->abstract="设置渠道配置时，选择它适用于的渠道，并定义发送所需的所有技术参数，例如电子邮件类型、发件人姓名、移动应用程序、短信配置等。"
+>abstract="设置渠道配置时，选择它适用的渠道，并定义在您发送电子邮件时需要的所有技术参数，例如电子邮件类型、发件人姓名、移动设备应用程序、短信配置等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="渠道配置设置"
->abstract="为了能够创建操作（例如来自历程或营销策划的电子邮件），您必须首先创建渠道配置，以定义消息所需的所有技术设置。 您必须具有管理消息预设权限才能创建、编辑和删除渠道配置。"
+>abstract="为了能够从历程或营销活动创建诸如发送电子邮件等操作，您必须首先创建一个渠道配置，用于定义消息所需的全部技术设置。您必须具有“管理消息预设”权限才能创建、编辑和删除渠道配置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
 >title="选择营销操作"
->abstract="在配置中选择营销操作，以将同意策略与消息关联。"
+>abstract="在配置中选择营销操作，以便将同意策略与消息相关联。"
 
 要创建渠道配置，请执行以下步骤：
 
