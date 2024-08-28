@@ -10,10 +10,10 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 8%
+source-wordcount: '261'
+ht-degree: 25%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用保证功能进行验证"
->abstract="通过Assurance确保移动应用程序数据收集和用户体验的质量。 此工具提供了全面的分析、验证和优化。 此外，您可以直接连接应用程序以验证准确的SDK集成。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="请参阅保证文档"
+>abstract="Adobe Experience Platform保障将嵌入到此工作流中，以帮助您检查SDK实施，并模拟和验证应用程序事件。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
 
-这种设置便于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够立即开始创建营销活动和历程。
+这种设置便于快速配置营销渠道，确保所有所需资源在 Experience Platform、Journey Optimizer 和数据收集中随时可用。这使您的营销团队能够立即开始创建营销活动和历程。
 
 为有效实施这一目标，至关重要的是，组织内有权力和技术能力修改网站或移动代码的成员应监督设置。
 

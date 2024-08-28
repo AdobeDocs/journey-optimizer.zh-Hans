@@ -10,9 +10,9 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '934'
 ht-degree: 3%
 
 ---
@@ -29,34 +29,6 @@ ht-degree: 3%
 此Android设置简化了营销渠道的快速配置，确保所有必要的资源都可在Experience Platform、Journey Optimizer和数据收集应用程序中轻松访问。 这使您的营销团队能够迅速开始创建活动和历程。
 
 ## 创建新的Android设置 {#new-setup-android}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="添加初始化代码"
->abstract="将初始化代码集成到应用程序的&#x200B;**onCreate()**&#x200B;方法中。 此方法在首次创建应用程序时执行，以确保代码在初始设置阶段运行。 在此正确地放置代码对于确保在执行任何后续操作之前正确配置和初始化应用程序至关重要。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="添加依赖项"
->abstract="您需要使用应用程序的Gradle文件将以下库添加到项目中：Core、Assurance、Edge、Edge Identity和Messaging。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="导入依赖项"
->abstract="在应用程序的应用程序类中，导入以下包：Mobile Core、Assurance、Edge、Edge Identity和Messaging。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="请参阅数据收集文档"
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="Retrieve the device token"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="Launch the application from Android Studio"
->abstract="TBC"
--->
 
 1. 在Journey Optimizer主页上，从&#x200B;**[!UICONTROL 设置移动和Web渠道]**&#x200B;信息卡中单击&#x200B;**[!UICONTROL 开始]**。
 

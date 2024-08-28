@@ -10,10 +10,10 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '479'
+ht-degree: 11%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript 代码"
->abstract="`<head>`标记包含在网页主内容之前加载的基本元数据和资源。 将代码置于此部分可确保代码尽早正确初始化和执行，从而允许您的网页高效地加载和运行。 通过将代码添加到`<head>`部分，可帮助增强网站的结构、性能和整体用户体验。"
+>abstract="此 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 标记包含在网页主内容之前加载的基本元数据和资源。 将代码置于此部分可确保代码尽早正确初始化和执行，从而允许您的网页高效地加载和运行。 通过将代码添加到 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 部分，您可以帮助增强站点的结构、性能和整体用户体验。"
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="启动站点并验证"
->abstract="成功实施代码并在您的网站上正式启用后，请提供您的基本URL。 如果需要，您可以在稍后阶段返回此页面，重新验证并确认设置是否按预期运行。"
-
-这种设置便于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够立即开始创建营销活动和历程。
+这种设置便于快速配置营销渠道，确保所有所需资源在 Experience Platform、Journey Optimizer 和数据收集中随时可用。这使您的营销团队能够立即开始创建营销活动和历程。
 
 ## 创建新的Web设置 {#new-setup}
 

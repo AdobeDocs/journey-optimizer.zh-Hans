@@ -10,10 +10,10 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 3%
+source-wordcount: '958'
+ht-degree: 2%
 
 ---
 
@@ -29,23 +29,6 @@ ht-degree: 3%
 此iOS设置简化了营销渠道的快速配置，使所有基本资源都可以在Experience Platform、Journey Optimizer和数据收集应用程序中随时使用。 这允许您的营销团队快速开始创建活动和历程。
 
 ## 创建新的iOS设置 {#new-setup-ios}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="添加依赖项"
->abstract="在Xcode中，添加保障包以检查、验证、模拟和验证应用程序中的数据收集和体验。 此外，还可添加AEP消息以向Adobe Experience Platform发送推送通知令牌和点进反馈。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#swift-package-manager" text="请参阅数据收集文档"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="添加初始化代码"
->abstract="要正确初始化应用程序，请将提供的初始化代码插入到AppDelegate文件的&#x200B;**didFinishLaunchingWithOptions**&#x200B;方法中。 这样可以确保在应用程序启动过程中在适当的时间运行该应用程序。"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="导入依赖项"
->abstract="在应用程序的&#x200B;**AppDelegate**&#x200B;类中，导入以下依赖项：AEPCore、AEPAssurance、AEPEdge、AEPEdgeIdentity和AEPMessaging。"
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="请参阅数据收集文档"
 
 1. 在Journey Optimizer主页上，从&#x200B;**[!UICONTROL 设置移动和Web渠道]**&#x200B;信息卡中单击&#x200B;**[!UICONTROL 开始]**。
 
