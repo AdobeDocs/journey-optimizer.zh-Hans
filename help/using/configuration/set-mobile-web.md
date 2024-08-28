@@ -10,9 +10,9 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
+source-git-commit: 7a1f337e2bc257d8f0fa9bda17abdaff92a86de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '481'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript 代码"
->abstract="此 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 标记包含在网页主内容之前加载的基本元数据和资源。 将代码置于此部分可确保代码尽早正确初始化和执行，从而允许您的网页高效地加载和运行。 通过将代码添加到 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 部分，您可以帮助增强站点的结构、性能和整体用户体验。"
+>abstract="head标记包含在网页主内容之前加载的基本元数据和资源。 将代码置于此部分可确保代码尽早正确初始化和执行，从而允许您的网页高效地加载和运行。 通过向标题部分添加代码，可帮助增强网站的结构、性能和整体用户体验。"
 
 这种设置便于快速配置营销渠道，确保所有所需资源在 Experience Platform、Journey Optimizer 和数据收集中随时可用。这使您的营销团队能够立即开始创建营销活动和历程。
 
