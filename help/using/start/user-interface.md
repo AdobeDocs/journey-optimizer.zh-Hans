@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1376'
 ht-degree: 98%
 
 ---
@@ -194,3 +194,14 @@ ht-degree: 98%
 * 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
   ![](assets/select-language.png)
 
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="优先级"
+>abstract="为历程分配优先级，范围从 0 到 100。数字越大，表示优先级越高。当两个历程使用同一表面时，Journey Optimizer 将选择具有最高优先级的历程。如果历程优先级相同，则将选择最近修改的历程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="优先级"
+>abstract="为营销活动分配优先级等级，范围从 0 到 100。数字越大，表示优先级越高。当两个营销活动使用同一表面时，Journey Optimizer 将选择具有最高优先级等级的营销活动。如果营销活动优先级相同，则将选择最近修改的营销活动。"
