@@ -11,10 +11,10 @@ badge: label="Beta 版" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer 中的 AI 助手由 Azure OpenAI 提供支持，为文�
 * 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
 * 使用 Adobe Campaign 创作的电子邮件模板，最好是[内置电子邮件模板](../email/use-email-templates.md)，用于创建电子邮件内容的特定于品牌的模板或自定义模板。建议使用最多包含 8 至 10 张图像的电子邮件模板。
 * 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
-* 您对 AI 助手的使用受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* 您对 AI 助手的使用受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 以下限制适用于 Journey Optimizer 中的 AI 助手：
 

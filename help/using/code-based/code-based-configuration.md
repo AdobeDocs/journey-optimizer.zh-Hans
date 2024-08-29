@@ -5,10 +5,10 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,16 @@ ht-degree: 55%
 >id="ajo_admin_default_mobile_url"
 >title="默认创作和预览 URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="默认创作和预览 URL"
+>abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="预览URL"
+>abstract="此字段对于在应用程序中直接在设备上启用内容的模拟和预览至关重要。"
 
 ## 创建渠道配置 {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ ht-degree: 55%
 
    * 输入您的&#x200B;**[!UICONTROL 应用程序ID]**&#x200B;和应用程序&#x200B;]**中的位置或路径**[!UICONTROL 。
 
+     ![](assets/code_config_3.png)
+
 1. 如果您的实施不适用于Web、iOS或Android，或者您需要定位特定URI，请选择“其他”作为平台。 当选择多个平台或添加多个URI时，内容将交付到所有选定的页面或应用程序。
 
    * 输入&#x200B;**[!UICONTROL 表面URI]**。
@@ -75,6 +87,35 @@ ht-degree: 55%
    >[!CAUTION]
    >
    >确保在基于代码的营销活动中使用的表面URI与您自己的实施中使用的表面URI相匹配。 否则，将不会交付更改。
+
+1. 填写&#x200B;**[!UICONTROL 预览URL]**&#x200B;字段以启用设备上预览。 此URL通知预览服务在触发预览时要使用的特定URL。
+
+   * 对于Web：
+
+      * 如果输入了单页URL，则将使用该URL进行预览。
+      * 如果选择了页面匹配规则，则必须输入用于在浏览器中预览体验的默认预览URL。
+
+   * 对于移动平台(iOS/Android)：
+
+      * 预览URL是应用程序开发人员在您的应用程序中配置的深层链接。 这可确保在应用程序中（而不是在移动Web浏览器中）打开任何与深层链接方案匹配的URL。 请联系您的应用程序开发人员，以获取为您的应用程序配置的深层链接方案。
+
++++  以下资源可帮助您为应用程序实施配置深层链接
+
+      * 对于Android：
+
+         * [创建与应用程序上下文的深层链接](https://developer.android.com/training/app-links/deep-linking)
+
+      * 对于iOS：
+
+         * [为您的应用程序定义自定义 URL 方案](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [在您的应用程序中支持通用链接](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 1. 选择该特定位置的应用程序所需的格式。 在营销活动和历程中创作基于代码的体验时，将使用此功能。
 
