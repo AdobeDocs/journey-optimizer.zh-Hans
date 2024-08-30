@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 97%
+source-wordcount: '1963'
+ht-degree: 98%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 97%
    + 配置 Web 渠道{#configure-web-channel}
       + [Web 渠道先决条件](using/web/web-prerequisites.md)
       + [配置 Web 子域](using/web/web-delegated-subdomains.md)
-      + [创建Web渠道配置](using/web/web-configuration.md)
+      + [创建网页渠道配置](using/web/web-configuration.md)
    + [创建 Web 体验](using/web/create-web.md)
    + 编写 Web 页面{#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
@@ -583,10 +583,8 @@ ht-degree: 97%
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置{#guided-setup}
-      + [引导式渠道设置入门](using/configuration/set-mobile-config.md)
-      + [设置Android移动渠道](using/configuration/set-mobile-android.md)
-      + [设置iOS移动渠道](using/configuration/set-mobile-ios.md)
-      + [设置Web渠道](using/configuration/set-mobile-web.md)
+      + [开始使用引导式频道设置](using/configuration/set-mobile-config.md)
+      + [创建渠道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
