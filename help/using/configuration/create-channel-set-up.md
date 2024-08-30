@@ -10,9 +10,9 @@ level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 39%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript 代码"
->abstract="此 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 标记包含在网页主内容之前加载的基本元数据和资源。 将代码放在此部分可确保其正确初始化并尽早执行，从而使您的网页能够高效加载和运行。通过将代码添加到 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> 部分，您可以帮助增强站点的结构、性能和整体用户体验。"
+>abstract="head标记包含在网页主内容之前加载的基本元数据和资源。 将代码放在此部分可确保其正确初始化并尽早执行，从而使您的网页能够高效加载和运行。通过向标题部分添加代码，可帮助增强网站的结构、性能和整体用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
