@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
+source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 59%
+source-wordcount: '840'
+ht-degree: 55%
 
 ---
 
@@ -26,6 +26,26 @@ ht-degree: 59%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
+## 9月更新 {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>引导式渠道设置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>“引导式渠道设置”让您能够在一个统一的体验中自动化和验证渠道设置，从而加快Journey Optimizer快速入门的过程。 这一新的引导式设置简化了快速渠道配置，确保所有必要的资源都能够在Experience Platform、Journey Optimizer和数据收集中随时安装并使用。 这使营销、产品和数据工程团队能够快速从营销活动和历程创建开始。</p>
+<p>有关更多信息，请参阅<a href="../configuration/set-mobile-config.md">详细文档</a>。</p>
+</br>
+<img src="assets/do-not-localize/guided-setup.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2024 年 8 月发行说明 {#8-2024}
 
 **发布日期**：2024 年 8 月 20 日 - 21 日
@@ -41,37 +61,19 @@ ht-degree: 59%
 
 此版本引入了下方详述的新功能。
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Guided Channel Setup</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
-<p>For more information, refer to the <a href="../configuration/set-mobile-config.md">detailed documentation</a>.</p>
-</br>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+<th><strong>内容卡（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+<p>内容卡是Adobe Journey Optimizer中一项新的数字消息传送功能，可直接在移动应用程序和网站上提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。</p>
+<p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度，并确保会看到重要消息而不会中断用户历程。</p>
 </br>
-<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>内容卡当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
