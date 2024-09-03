@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1412'
+ht-degree: 96%
 
 ---
 
@@ -196,6 +196,8 @@ ht-degree: 98%
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="优先级"
@@ -205,3 +207,33 @@ ht-degree: 98%
 >id="ajo_campaigns_campaign_priority"
 >title="优先级"
 >abstract="为营销活动分配优先级等级，范围从 0 到 100。数字越大，表示优先级越高。当两个营销活动使用同一表面时，Journey Optimizer 将选择具有最高优先级等级的营销活动。如果营销活动优先级相同，则将选择最近修改的营销活动。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="营销活动中的冲突查看器"
+>abstract="营销活动中的冲突查看器"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="历程中的受众查看器"
+>abstract="历程中的受众查看器"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="对象类型"
+>abstract="对象类型"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="将规则集应用于历程"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="将规则集应用于营销活动"
+>abstract="待定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="优先级因素"
+>abstract="待定"
