@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 17%
@@ -48,6 +48,7 @@ ht-degree: 17%
    * 移动推送消息
 
    * Web基本
+
 
 请注意，对于要设置的每个平台，都需要创建单独的配置。 这是因为每个应用程序都需要唯一的渠道配置，这样可以灵活地决定您想要用于每个平台的渠道。
 

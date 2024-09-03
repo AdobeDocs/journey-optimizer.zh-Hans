@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 39%
@@ -51,6 +51,7 @@ ht-degree: 39%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="团队 ID"
 >abstract="团队 ID 是用于识别您的团队的字符串值，位于您的开发者帐户中的 **会员资格** 选项卡下。"
+
 
 这种设置简化了营销渠道的快速配置，使所有基本资源都可以在Experience Platform、Journey Optimizer和数据收集应用程序中随时使用。 这允许您的营销团队快速开始创建活动和历程。
 
