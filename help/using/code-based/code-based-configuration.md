@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 48%
@@ -78,7 +79,7 @@ ht-degree: 48%
 
    * 输入您的&#x200B;**[!UICONTROL 应用程序ID]**&#x200B;和应用程序&#x200B;]**中的位置或路径**[!UICONTROL 。
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. 如果您的实施不适用于Web、iOS或Android，或者您需要定位特定URI，请选择“其他”作为平台。 当选择多个平台或添加多个URI时，内容将交付到所有选定的页面或应用程序。
 
@@ -174,4 +175,3 @@ ht-degree: 48%
 | --------- | ----------- | ------- | 
 | 通配符 Web | `wildcard:web://domain.com/*#element` | 通配符表面 - 表示特定域下每个页面中的单个元素。 |
 | 通配符 Web | `wildcard:web://*domain.com/*#element` | 通配符表面 - 表示以“domain.com”结尾的所有域下每个页面中的单个元素。 |
-
