@@ -5,10 +5,11 @@ feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -81,15 +82,46 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
 * **路径**
 
-  | | | |
-  |-|-|-|
-  | 运算符  | 描述  | 示例  |
-  | 等于  | 路径完全匹配。  |    |
-  | 开头为  | 匹配以输入的字符串开头的所有路径（包括子路径）。  |    |
-  | 结束于  | 匹配以输入的字符串结尾的所有路径（包括子路径）。  |    |
-  | 任何  | 匹配所有路径 — 在定位一个或多个域下的所有路径时很有用。  |    |
-  | 通配符匹配  | “通配符匹配”运算符允许用户在路径中定义内部通配符，如&quot;/products/*/detail&quot;。  路径**组件中的通配符*匹配任意字符序列，直到遇到第一个/字符。  /*/匹配任意字符序列（包括子路径）  | 例如：“通配符匹配： /products/*/detail”，匹配所有路径，如：  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   例如：“Matches： /prod*/detail，匹配所有路径，如：  example.com/products/detail  example.com/production/detail   不匹配以下路径：  example.com/products/yoga/detail  |
-  | 包含  | “contains”将转换为通配符（如“mystring”），并匹配包含此字符序列的所有路径。  | 例如：“Contains： product”，匹配包含字符串产品的所有路径，如：example.com/products、example.com/yoga/perfproduct、example.com/surf/productdescription、example.com/home/product/page  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>操作员</th>
+        <th><strong>描述</th>
+        <th><strong>示例</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>等于</td>
+        <td>路径完全匹配。 </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>开始于</td>
+        <td>匹配以输入的字符串开头的所有路径（包括子路径）。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>结束于</td>
+        <td>匹配以输入的字符串结尾的所有路径（包括子路径）。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>任何</td>
+        <td>匹配所有路径 — 在定位一个或多个域下的所有路径时很有用。</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>通配符匹配</td>
+        <td>“通配符匹配”运算符允许用户在路径中定义内部通配符，如“/products/*/detail”。  路径**组件中的通配符*匹配任意字符序列，直到遇到第一个/字符。  /*/匹配任意字符序列（包括子路径）</td>
+        <td>例如：“通配符匹配：/products/*/detail”，匹配所有路径，如： <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>例如：“Matches： /prod*/detail， matches all paths like：  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  不匹配以下路径： <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>Contains</td>
+        <td>“contains”将转换为通配符（如“mystring”），并匹配包含此字符序列的所有路径。</td>
+        <td>例如：“Contains： product”，匹配包含字符串product的所有路径，如： <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 如果您的用例无法使用一条规则建模，那么您可以选择添加多个页面规则，并且您可以在它们之间使用“Or”或“Exclude”运算符。 当与定义的规则匹配的某个页面不应作为目标时，“Exclude”非常有用：例如，包含“product”的所有“example.com”页面，不包括以下页面： `https://example.com/blogs/productinfo`。

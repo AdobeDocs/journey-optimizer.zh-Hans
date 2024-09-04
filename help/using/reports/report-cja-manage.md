@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## 从报表数据创建受众 {#create-audience}
+
+>[!IMPORTANT]
+>
+>每个组织仅限发布25个受众。 此外，用户每小时最多可发布5个受众，每天最多可发布20个受众
 
 现在，您可以选择表中的特定数据并直接从这些选择创建受众，从而简化和简化受众创建过程。
 
