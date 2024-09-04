@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 11%
@@ -114,12 +114,12 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
     <tr>
         <td>通配符匹配</td>
         <td>“通配符匹配”运算符允许用户在路径中定义内部通配符，如“/products/*/detail”。  路径**组件中的通配符*匹配任意字符序列，直到遇到第一个/字符。  /*/匹配任意字符序列（包括子路径）</td>
-        <td>例如：“通配符匹配：/products/*/detail”，匹配所有路径，如： <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>例如：“Matches： /prod*/detail， matches all paths like：  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  不匹配以下路径： <ul>example.com/products/yoga/detail</ul></td>
+        <td>例如：“通配符匹配：/products/*/detail”，匹配所有路径，如： <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>例如：“Matches： /prod*/detail， matches all paths like： <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>不匹配以下路径： <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>Contains</td>
         <td>“contains”将转换为通配符（如“mystring”），并匹配包含此字符序列的所有路径。</td>
-        <td>例如：“Contains： product”，匹配包含字符串product的所有路径，如： <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+        <td>例如：“Contains： product”，匹配包含字符串product的所有路径，如： <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
