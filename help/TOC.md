@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -583,7 +583,7 @@ ht-degree: 98%
    + [Journey Optimizer 配置入门](using/configuration/get-started-configuration.md)
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置{#guided-setup}
-      + [开始使用引导式频道设置](using/configuration/set-mobile-config.md)
+      + [引导式渠道设置入门](using/configuration/set-mobile-config.md)
       + [创建渠道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)

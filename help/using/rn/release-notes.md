@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 902458ec78df9a885b144bf19425c7865c208c28
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>增强了当前渠道表面功能，从而跨所有渠道采用一致的方式。您现在可以为任何渠道定义、管理和重用这些配置，包括Web、应用程序内消息传送或基于代码的体验。</p>
+<p>增强了当前渠道表面功能，从而跨所有渠道采用一致的方式。您现在可以为任何渠道定义、管理和重用这些配置，包括 Web、应用程序内消息或基于代码的体验。</p>
 <p><ul>
 <li>渠道表面现在重命名为<strong>渠道配置</strong></li>
 <li>您可以附加一个或多个营销操作以强制执行同意和数据治理策略</li>
@@ -127,7 +127,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>片段全局变量可增强现有片段功能，以提高内容重用和脚本用例的效率。 片段现在可以使用输入变量并创建可在营销活动和历程内容中使用的输出变量。 片段可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。 您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
+<p>片段全局变量增强了现有的片段功能，以提高内容可重用性和脚本用例的效率。片段现在可以使用输入变量并创建可用于营销活动和历程内容的输出变量。片段可以在<a href="../personalization/use-expression-fragments.md">表达式片段</a>和<a href="../email/use-visual-fragments.md">可视化片段</a>中使用输入变量。您可以使用这些变量在营销活动和历程中个性化消息内容和参数。</p>
 <p>有关更多信息，请参阅<a href="../personalization/use-expression-fragments.md">详细文档</a>。</p>
 </p>
 </td>
@@ -158,9 +158,9 @@ ht-degree: 54%
 
 **历程**
 
-* 在&#x200B;**条件**&#x200B;活动中，默认情况下，**[!UICONTROL 时间条件]**&#x200B;现在按小时设置，从00:00到12:00。 [了解详情](../building-journeys/condition-activity.md#time_condition)
-* 现在，在构建历程时，将显示来自&#x200B;**警报**&#x200B;按钮的警报，以便与其他警报保持一致，并提供一致的用户体验。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
-* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，您现在可以更轻松地重置缩放值。
+* 在&#x200B;**条件**&#x200B;活动中，**[!UICONTROL 时间条件]**&#x200B;默认按小时设置，从 00:00 到 12:00。[了解详情](../building-journeys/condition-activity.md#time_condition)
+* 在构建您的历程时，警报现在从&#x200B;**警报**&#x200B;按钮显示，以与其他警报保持一致并带来一致的用户体验。[了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 历程工具栏中的缩放选项已得到改进：缩放百分比现在可见，并且可以轻松地重置缩放值。
 
 <!--**Audiences and Profiles**-->
 
@@ -170,15 +170,15 @@ ht-degree: 54%
 
 **推送渠道**
 
-* 您现在可以在Adobe Journey Optimizer渠道配置设置中添加移动应用程序推送凭据。 不再需要在Adobe Experience Platform数据收集中创建应用程序表面。
+* 您现在可以在 Adobe Journey Optimizer 渠道配置设置中添加您的移动应用程序推送凭据。不再需要在 Adobe Experience Platform 数据收集中创建应用程序表面。
 
 ### 其他更改 {#changes}
 
 **报告**
 
-* 当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。
+* 当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
 
-[开始使用Journey Optimizer新的报表界面](../reports/report-gs-cja.md)
+[Journey Optimizer 的新报告界面入门](../reports/report-gs-cja.md)
 
 * 新报告体验中添加了新用例：
 
