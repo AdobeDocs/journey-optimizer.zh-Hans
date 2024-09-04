@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 82%
 **基于代码的体验**
 
 * 使用[个性化编辑器](create-code-based.md#edit-code)编辑内容。
-* 基于代码的体验需要以前在实施中的开发工作，以确保您的应用程序可以解释和交付[!DNL Journey Optimizer]在这些位置发布的边缘内容。 [了解详情](code-based-configuration.md#surface-definition)
-* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须确定表面上需要修改，然后与开发团队合作构建处理这些更改所需的实施。
+* 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-configuration.md#surface-definition)
+* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须确定表面上需要修改以进行个性化或测试的组件（主页横幅、主页图像、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用 JSON 代码内容。
 * 它是以开发人员为中心的。
 
@@ -109,12 +109,12 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->当前，与配置关联的内容只能是HTML或JSON。<!--WILL COME LATER: text, image or another format depending on the application-->
+>当前，与配置关联的内容只能是 HTML 或 JSON。<!--WILL COME LATER: text, image or another format depending on the application-->
 
 实施基于代码的营销活动的主要步骤如下：
 
-1. 在应用程序实施中定义一个[表面](code-based-configuration.md#surface-definition)，这基本上是您要添加基于代码的体验的位置，然后创建引用该位置的基于代码的体验渠道配置，然后使用此配置在[!DNL Journey Optimizer]中创建营销活动。 [了解如何操作](create-code-based.md#create-code-based-campaign)
+1. 在您的应用程序实施中定义一个[表面](code-based-configuration.md#surface-definition)，它基本上是您想要添加基于代码的体验的位置，然后创建引用该位置的基于代码的体验渠道配置，然后使用此配置在 [!DNL Journey Optimizer] 中创建一个营销活动。[了解如何操作](create-code-based.md#create-code-based-campaign)
 
-1. 通过使用[!DNL Journey Optimizer]个性化编辑器为所选配置指定内容来撰写体验。 [了解如何操作](create-code-based.md#edit-code)
+1. 通过使用 [!DNL Journey Optimizer] 个性化编辑器为选定配置指定内容来编制体验。[了解如何操作](create-code-based.md#edit-code)
 
 1. 您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取命名表面的内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。在这种情况下，实施团队负责呈现或解释并处理返回的内容。<!--TBC with Robert - should link to a new section with API/SDK call samples-->

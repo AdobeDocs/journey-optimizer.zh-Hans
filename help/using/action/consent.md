@@ -10,15 +10,15 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-贵组织或法律法规可能会对您的数据设置使用限制。因此，确保您在Journey Optimizer中的数据操作符合[数据使用策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。 这些策略是Adobe Experience Platform规则，用于定义允许对数据执行的[营销操作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#marketing-actions){target="_blank"}。
+贵组织或法律法规可能会对您的数据设置使用限制。因此，确保您在 Journey Optimizer 中的数据操作符合[数据使用政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。这些策略是 Adobe Experience Platform 规则，定义了您可以对数据执行哪些[营销操作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#marketing-actions){target="_blank"}。
 
 一种可用的数据使用策略是&#x200B;**同意政策**。它们允许您轻松地采用和执行营销策略，尊重客户的同意偏好。[了解有关策略实施的更多信息](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html?lang=zh-Hans){target="_blank"}
 
@@ -34,7 +34,7 @@ ht-degree: 90%
 
    * 如果您有 Adobe **Health Shield** 或 **Privacy and Security Shield**，您可以创建覆盖默认逻辑的自定义同意策略。例如，您可以将策略定义为仅向所有已选择接收通信的人员发送电子邮件。如果没有自定义策略，则应用默认策略。
 
-  要应用自定义策略，您需要在该策略中定义营销操作，并将其与渠道配置关联。 [了解详情](#surface-marketing-actions)
+  要应用自定义策略，您需要在该策略中定义营销操作，并将其与渠道配置关联。[了解详情](#surface-marketing-actions)
 
 在历程级别，您可以将这些同意策略应用于自定义操作。
 
@@ -63,7 +63,7 @@ ht-degree: 90%
 
       >[!NOTE]
       >
-      >[此表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions){target="_blank"}中列出了Adobe提供的现成核心营销操作。 [此部分](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-marketing-action){target="_blank"}列出了创建自定义营销操作的步骤。
+      >[此表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions){target="_blank"}中列出了 Adobe 提供的现成核心营销操作。[此部分](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-marketing-action){target="_blank"}中列出了创建自定义营销操作的步骤。
 
    1. 选择应用营销操作时发生的事件。在此示例中，选择&#x200B;**[!UICONTROL 电子邮件营销同意]**。
 
@@ -79,7 +79,7 @@ ht-degree: 90%
 
 将自动利用与该营销操作关联的所有同意策略，以尊重客户的偏好。
 
-因此，在本例中，在营销活动或历程中使用该配置的任何[电子邮件](../email/create-email.md)仅发送给同意接收来自您的电子邮件的用户档案。 未同意接收电子邮件通信的用户档案将被排除在外。
+因此，在此示例中，在营销活动或历程中使用该配置的任何[电子邮件](../email/create-email.md)只会被发送给同意接收来自您的电子邮件的用户档案。未同意接收电子邮件通信的用户档案将被排除在外。
 
 ## 通过自定义操作利用同意策略 {#journey-custom-actions}
 

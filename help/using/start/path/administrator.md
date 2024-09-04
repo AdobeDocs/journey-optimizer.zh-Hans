@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 93%
 
    * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定义&#x200B;**推送通知设置**。[了解详情](../../push/push-gs.md)
 
-   * 创建&#x200B;**渠道配置**（即消息预设）以配置电子邮件、短信和推送通知所需的所有技术参数。 [了解详情](../../configuration/channel-surfaces.md)
+   * 创建&#x200B;**渠道配置**（即消息预设），以配置电子邮件、短信和推送通知所需的所有技术参数。[了解详情](../../configuration/channel-surfaces.md)
 
    * 配置&#x200B;**短信渠道**&#x200B;以配置短信所需的所有技术参数。[了解详情](../../sms/sms-configuration.md)
 

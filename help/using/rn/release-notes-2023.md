@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -616,7 +616,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **短信渠道**
 
-* 在配置短信渠道配置时，已将Infobip添加为供应商提供商。 [了解详情](../sms/sms-configuration.md)
+* 在配置短信渠道配置时，Infobip 已添加为供应商提供商。[了解详情](../sms/sms-configuration.md)
 * Twilio - API 凭据设置现在包括添加消息服务 SID 的功能，以便与您的 Twilio 帐户无缝集成。[了解详情](../sms/sms-configuration.md)
 
 **应用程序内渠道**
@@ -1012,7 +1012,7 @@ Note that each widget can be resized and deleted as needed.
 
 * 现在，创建或编辑 **IP 池**&#x200B;时，将鼠标悬停在选定的 IP 地址上，关联的 PTR 记录会显示在 IP 列表中。[了解详情](../configuration/ip-pools.md#create-ip-pool)
 
-* 在通道配置中选择IP池后，将鼠标悬停在IP地址上时，PTR记录信息现在可见。 [了解详情](../email/email-settings.md#subdomains-and-ip-pools)
+* 现在，在渠道配置中选择了 IP 池后，将鼠标悬停在 IP 地址上时，可以看到 PTR 记录信息。[了解详情](../email/email-settings.md#subdomains-and-ip-pools)
 
 * 用于编辑 [PTR 记录](../configuration/ptr-records.md#edit-ptr-record)和[执行字段](../configuration/primary-email-addresses.md)的用户界面已更新。
 

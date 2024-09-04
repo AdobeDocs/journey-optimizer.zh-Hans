@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -217,8 +217,8 @@ ht-degree: 98%
 **管理**
 
 * 激活或停用允许列表时，现在会显示新的警告，详细说明每个操作的影响。[了解详情](../configuration/allow-list.md#enable-allow-list)
-* 更新了用于创建渠道配置、创建IP池、管理禁止列表和允许列表以及配置短信渠道的用户界面。
-* 现在，为给定子域创建第一个渠道配置时，处理时间将需要10分钟到10天，而使用该子域的后续表面最多只需3小时。 [了解详情](../configuration/channel-surfaces.md#create-channel-surface)
+* 更新了用于创建渠道配置、创建 IP 池、管理禁止列表和允许列表以及配置短信渠道的用户界面。
+* 现在，为给定子域创建第一个渠道配置时，处理时间需要 10 分钟到 10 天，而使用该子域的后续界面的处理时间最多只需 3 小时。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
 * 更新了用于创建登陆页面预设和登陆页面子域的用户界面。[了解详情](../landing-pages/lp-subdomains.md)
 
 **审核控制**
@@ -399,7 +399,7 @@ ht-degree: 98%
 
 **消息**
 
-* 消息预设现在为&#x200B;**渠道配置**。 [了解详情](../configuration/channel-surfaces.md)
+* 消息预设现已改为&#x200B;**渠道配置**。[了解详情](../configuration/channel-surfaces.md)
 
 **管理**
 

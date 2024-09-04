@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 消息反馈同步当前不适用于 MMS。
 * 同意管理在 MMS 的短信渠道级别运行。
 
-### Web渠道护栏 {#web-guardrails}
+### Web 渠道护栏 {#web-guardrails}
 
-[!DNL Journey Optimizer] Web营销活动针对其他渠道上以前未参与的新用户档案。 这将增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新用户档案。这将增加您的可参与用户档案的总数，如果超出您购买的可参与用户档案的合同数量，则可能会产生成本影响。[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
 
 ## 子域护栏 {#subdomain-guardrails}
