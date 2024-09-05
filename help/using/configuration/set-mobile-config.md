@@ -12,11 +12,11 @@ exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
-# 开始使用引导式频道设置 {#set-mobile-config}
+# 引导式渠道设置入门 {#set-mobile-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
@@ -26,8 +26,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="使用保证功能进行验证"
->abstract="Adobe Experience Platform保障将嵌入到此工作流中，以帮助您检查SDK实施，并模拟和验证应用程序事件。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
+>abstract="Adobe Experience Platform Assurance 被嵌入到此工作流程中，以帮助您检查 SDK 实施，并模拟和验证应用程序事件。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
 这种设置便于快速配置营销渠道，确保所有所需资源在 Experience Platform、Journey Optimizer 和数据收集中随时可用。这使您的营销团队能够开始创建营销活动和历程。
 

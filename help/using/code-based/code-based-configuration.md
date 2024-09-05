@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 48%
+ht-degree: 50%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="预览URL"
->abstract="此字段对于在应用程序中直接在设备上启用内容的模拟和预览至关重要。"
+>title="预览 URL"
+>abstract="此字段对于在您的应用程序中直接在设备上启用内容的模拟和预览至关重要。"
 
 ## 创建渠道配置 {#reatte-code-based-configuration}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建渠道设置
+title: 创建一个频道设置
 description: 了解如何创建渠道设置
 feature: Surface, Channel Configuration
 topic: Administration
@@ -11,16 +11,16 @@ keywords: 通道，表面，技术，参数，优化器
 source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
-# 创建渠道设置 {#set-mobile-ios}
+# 创建一个频道设置 {#set-mobile-ios}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="JavaScript 代码"
->abstract="head标记包含在网页主内容之前加载的基本元数据和资源。 将代码放在此部分可确保其正确初始化并尽早执行，从而使您的网页能够高效加载和运行。通过向标题部分添加代码，可帮助增强网站的结构、性能和整体用户体验。"
+>abstract="头部标记包含在您的网页主要内容之前加载的基本元数据和资源。将代码放在此部分可确保其正确初始化并尽早执行，从而使您的网页能够高效加载和运行。通过在头部添加代码，您可以帮助提高网站的结构、性能和整体用户体验。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
