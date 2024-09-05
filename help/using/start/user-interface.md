@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
+source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1471'
+ht-degree: 94%
 
 ---
 
@@ -237,3 +237,45 @@ ht-degree: 0%
 >id="ajo_rule_set_prioritization"
 >title="优先级因素"
 >abstract="待定"
+
+<!--CONTENT LOCKING-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="治理"
+>abstract="治理"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="模式"
+>abstract="模式"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="启用内容添加"
+>abstract="启用内容添加"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="结构中的内容锁定"
+>abstract="结构中的内容锁定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="在组件中使用特定锁定"
+>abstract="在组件中使用特定锁定"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="突出显示可编辑区域"
+>abstract="突出显示可编辑区域"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="已启用治理"
+>abstract="内容锁定已激活，可能会阻止您进行修改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="只读"
+>abstract="此内容为只读内容，无法修改。"
