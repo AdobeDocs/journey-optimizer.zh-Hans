@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 通道，表面，技术，参数，优化器
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1737'
 ht-degree: 12%
 
 ---
@@ -271,10 +271,9 @@ ht-degree: 12%
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## 操作方法视频{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+了解什么是渠道配置以及如何在Adobe Journey Optimizer中使用它们。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
