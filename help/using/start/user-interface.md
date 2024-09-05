@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
+source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 94%
+source-wordcount: '1479'
+ht-degree: 93%
 
 ---
 
@@ -279,3 +279,10 @@ ht-degree: 94%
 >id="ajo_email_locking_read_only"
 >title="只读"
 >abstract="此内容为只读内容，无法修改。"
+
+<!--GOVERNANCE POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_data_governance_policy_violation"
+>title="数据治理策略违规"
+>abstract="数据治理策略违规"
