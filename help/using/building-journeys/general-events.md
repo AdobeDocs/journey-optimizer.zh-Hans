@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 自定义、常规、事件、历程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '603'
 ht-degree: 21%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 21%
 
 1. 从事件属性激活&#x200B;**[!UICONTROL 定义事件超时]**&#x200B;选项。
 
-1. 指定历程将等待事件的时间量。 最长持续时间为29天。
+1. 指定历程将等待事件的时间量。 最长持续时间为&#x200B;**90天**。
 
-1. 如果在指定的超时内未收到任何事件时要将个人发送到超时路径中，请启用&#x200B;**[!UICONTROL 设置超时路径]**&#x200B;选项。 如果未启用此选项，则到达超时后个人将继续历程。 我们建议您始终启用&#x200B;**设置超时路径**&#x200B;选项。
+1. 如果在指定的超时时间内未收到任何事件，则最佳实践是将个人发送到超时路径中。 为此，启用&#x200B;**[!UICONTROL 设置超时路径]**&#x200B;选项。 在这种情况下，一旦达到超时，个人将继续该历程。 我们建议您始终启用&#x200B;**[!UICONTROL 设置超时路径]**&#x200B;选项。
 
    ![](assets/event-timeout.png)
 
