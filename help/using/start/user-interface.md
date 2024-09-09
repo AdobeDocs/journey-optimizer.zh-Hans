@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
+source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 93%
+source-wordcount: '1520'
+ht-degree: 91%
 
 ---
 
@@ -286,3 +286,45 @@ ht-degree: 93%
 >id="ajo_data_governance_policy_violation"
 >title="数据治理策略违规"
 >abstract="数据治理策略违规"
+
+<!--APPROVAL POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="审批策略"
+>abstract="审批策略"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="请求审批"
+>abstract="请求审批（两个单独的ID？）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="请求更改"
+>abstract="请求更改（两个单独的ID？）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_edit_disabled
+>title="编辑已禁用"
+>abstract="编辑已禁用（营销活动）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_edit_disabled
+>title="编辑已禁用"
+>abstract="编辑已禁用（历程）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_approval_status"
+>title="审批状态"
+>abstract="审批状态（两个单独的ID？）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_approve"
+>title="审批"
+>abstract="批准（营销活动）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_approve"
+>title="审批"
+>abstract="批准（历程）"
