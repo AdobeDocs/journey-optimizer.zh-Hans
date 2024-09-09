@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b729bcddda9258fa72999654c094b63fad1be628
+source-git-commit: 9c6e4647b1c3f0b39ebfaa1711c5c87d0c7168e5
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 91%
@@ -310,7 +310,7 @@ ht-degree: 91%
 >abstract="编辑已禁用（营销活动）"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_edit_disabled
+>id="ajo_journey_edit_disabled"
 >title="编辑已禁用"
 >abstract="编辑已禁用（历程）"
 
