@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1963'
+ht-degree: 100%
 
 ---
 
@@ -584,7 +584,7 @@ ht-degree: 0%
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置{#guided-setup}
       + [引导式渠道设置入门](using/configuration/set-mobile-config.md)
-      + [创建渠道设置](using/configuration/create-channel-set-up.md)
+      + [创建一个频道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
