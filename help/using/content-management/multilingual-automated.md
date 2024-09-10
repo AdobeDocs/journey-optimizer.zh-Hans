@@ -10,14 +10,24 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限量发布版" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 4%
+source-wordcount: '1617'
+ht-degree: 3%
 
 ---
 
 # 使用自动翻译创建多语言内容 {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="添加提供程序"
+>abstract="根据需要添加翻译提供商和区域设置。 这使您能够管理哪些提供商和区域设置对您的项目有效，从而让您能够灵活地根据当前需求和项目范围调整资源和目标受众。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="编辑提供程序"
+>abstract="修改现有翻译提供商并根据需要添加区域设置。 通过此功能，您可以控制哪些提供商和区域设置对您的项目有效，从而让您能够灵活地根据当前需求和项目目标调整资源并定位特定受众。"
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ ht-degree: 4%
 
 ## 创建区域设置 {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="添加区域设置"
+>abstract="配置语言首选项时，您可以选择创建其他区域设置（如果所需的区域设置不适用于多语言内容）。"
+
 在配置语言设置时（如[创建语言设置](#language-settings)部分中所述），如果多语言内容没有特定的区域设置，则可以灵活地使用&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单创建所需数量的新区域设置。
 
 1. 从&#x200B;**[!UICONTROL 内容管理]**&#x200B;菜单，访问&#x200B;**[!UICONTROL 翻译]**。
@@ -54,6 +69,16 @@ ht-degree: 4%
    ![](assets/locale_2.png)
 
 ## 创建翻译项目 {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="创建项目"
+>abstract="要开始创建多语言内容，请确定目标区域设置，为受众选择适当的语言或区域方言，以开始翻译项目。 之后，请选择符合项目需求的翻译提供商。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="编辑项目"
+>abstract="更新您的翻译项目以纳入其他区域设置，从而使您能够扩展内容以覆盖更广泛的受众。"
 
 通过指定Target区域设置来启动翻译项目，并指示内容的特定语言或区域。 然后，您可以选择您的翻译提供商。
 
@@ -205,6 +230,11 @@ ht-degree: 4%
 
 ## 管理内源翻译项目 {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="内部源翻译项目"
+>abstract="通过内部翻译项目，您可以直接在翻译项目中管理和执行翻译，从而简化流程并保持对翻译质量和一致性的更大控制。"
+
 如果在配置语言设置时选择了内包，则可以在翻译项目中直接翻译内容。
 
 1. 从您的&#x200B;**[!UICONTROL 翻译项目]**，访问&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 内源]**。
@@ -222,6 +252,16 @@ ht-degree: 4%
 1. 如果准备发布已翻译文本，请单击&#x200B;**[!UICONTROL 完成]**。
 
 ## 查看您的翻译项目 {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="查看您的翻译项目"
+>abstract="一旦您选择的翻译提供商完成翻译，您就可以直接在Journey Optimizer中查看结果。 这使您能够评估翻译的准确性和质量，确保在最终确定翻译之前它符合您的期望和项目要求。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="预览翻译项目"
+>abstract="“预览”窗口允许您查看翻译的内容在各种语言中的显示方式。 此功能可帮助您检查渲染，并确保内容在所有选定语言中正确有效地显示。"
 
 如果您在您的&#x200B;**[!UICONTROL 翻译项目]**&#x200B;中选择了&#x200B;**[!UICONTROL 启用审阅工作流]**，则在所选翻译提供商完成之后，您可以在Journey Optimizer中直接审阅该翻译。
 
