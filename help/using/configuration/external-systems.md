@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 27%
+source-wordcount: '1343'
+ht-degree: 28%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 27%
 
 **如何配置上限或限制规则？ 是否存在默认规则？**
 
-默认情况下，没有上限或限制规则。 使用上限或限制API，在特定端点（调用的URL）的沙盒级别定义规则。 请参阅[此小节](../configuration/external-systems.md#capping)。
+要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5000 个用户档案/秒）。如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。
 
 **执行多少次重试？ 我可以更改重试次数或定义重试之间的最短等待时间吗？**
 
