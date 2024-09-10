@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
+source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,16 @@ ht-degree: 0%
 <p>“引导式渠道设置”让您能够在一个统一的体验中自动化并验证渠道设置，从而加快开始使用 Journey Optimizer 的过程。这一新的引导式设置简化了快速渠道配置，确保能够在 Experience Platform、Journey Optimizer 和数据收集中随时安装并使用所有必要的资源。这使营销、产品和数据工程团队能够快速开始创建营销活动和历程。</p>
 <p>有关更多信息，请参阅<a href="../configuration/set-mobile-config.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
+<p>发布日期： 9月3日</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+**历程**
+
+（可用性日期： 9月10日）**重试功能** — 现在，在检索导出作业时，默认情况下对受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）应用重试。 如果在创建导出作业期间发生错误，将每10mn重试一次，最长为1小时。 之后，我们将它视为失败。 因此，这些类型的历程可以在计划时间后最多1小时执行。 [了解详情](../building-journeys/read-audience.md#retries)
 
 ## 2024 年 8 月发行说明 {#8-2024}
 
