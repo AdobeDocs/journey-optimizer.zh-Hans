@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 7%
+source-wordcount: '1635'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 ➡️ [在视频中了解此功能](#video)
 
-## 必读 {#must-read}
+## 护栏和最佳实践 {#must-read}
 
 * 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时开始的历程数存在上限。 系统将重试，但避免同时启动超过5个历程（具有&#x200B;**读取受众**，已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
 
@@ -40,6 +40,7 @@ ht-degree: 7%
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
 * 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+
 
 [此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
 
@@ -192,6 +193,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 合并后，您可以通过执行分段或排除来再次拆分受众。
 
 ![](assets/read-segment-audience3.png)
+
+
+## 重试 {#read-audience-retry}
+
+默认情况下，在检索导出作业时对受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）应用重试。 如果在创建导出作业期间发生错误，将每10mn重试一次，最长为1小时。 之后，我们将它视为失败。 因此，这些类型的历程可以在计划时间后最多1小时执行。
+
+捕获了失败的&#x200B;**读取受众**&#x200B;触发器并将其显示在&#x200B;**警报**&#x200B;中。 如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则&#x200B;**读取受众警报**&#x200B;会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。 [了解详情](../reports/alerts.md#alert-read-audiences)
 
 ## 操作方法视频 {#video}
 

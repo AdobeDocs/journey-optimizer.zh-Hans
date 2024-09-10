@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 读取受众触发器不成功 {#alert-read-audiences}
 
-如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则此警报会警告您。 此故障可能是由技术问题或受众为空导致的。
+如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则此警报会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。
 
 ![](assets/alerts1.png)
 
