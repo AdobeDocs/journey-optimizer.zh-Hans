@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+workflow-type: tm+mt
+source-wordcount: '1965'
+ht-degree: 99%
 
 ---
 
@@ -173,7 +173,15 @@ ht-degree: 100%
    + [创建营销活动](using/campaigns/create-campaign.md)
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
-   + [使用 API 触发活动](using/campaigns/api-triggered-campaigns.md)
+   + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
++ 测试您的投放{#test}
+   + 预览和测试内容{#preview-test}
+      + [预览和测试入门](using/content-management/preview-test.md)
+      + [选择测试用户档案](using/content-management/test-profiles.md)
+      + [预览您的内容](using/content-management/preview.md)
+      + [发送电子邮件验证](using/content-management/proofs.md)
+      + [测试电子邮件呈现](using/content-management/rendering.md)
+      + [垃圾电子邮件报告](using/content-management/spam-report.md)
 + 电子邮件渠道 {#email}
    + [电子邮件入门](using/email/get-started-email.md)
    + [创建电子邮件](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 100%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-   + 预览和测试您的内容{#preview-test}
-      + [预览和测试入门](using/content-management/preview-test.md)
-      + [选择测试用户档案](using/content-management/test-profiles.md)
-      + [预览您的内容](using/content-management/preview.md)
-      + [发送电子邮件验证](using/content-management/proofs.md)
-      + [测试电子邮件呈现](using/content-management/rendering.md)
-      + [垃圾电子邮件报告](using/content-management/spam-report.md)
 + 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
