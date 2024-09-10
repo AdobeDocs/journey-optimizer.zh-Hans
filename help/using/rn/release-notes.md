@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a94d00a599a7dc87127802ceae91a552a0157ef
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 85%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 9月更新 {#9-2024}
+## 9 月更新 {#9-2024}
 
 <table>
 <thead>
@@ -37,7 +37,7 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>“引导式渠道设置”让您能够在一个统一的体验中自动化和验证渠道设置，从而加快Journey Optimizer快速入门的过程。 这一新的引导式设置简化了快速渠道配置，确保所有必要的资源都能够在Experience Platform、Journey Optimizer和数据收集中随时安装并使用。 这使营销、产品和数据工程团队能够快速从营销活动和历程创建开始。</p>
+<p>“引导式渠道设置”让您能够在一个统一的体验中自动化并验证渠道设置，从而加快开始使用 Journey Optimizer 的过程。这一新的引导式设置简化了快速渠道配置，确保能够在 Experience Platform、Journey Optimizer 和数据收集中随时安装并使用所有必要的资源。这使营销、产品和数据工程团队能够快速开始创建营销活动和历程。</p>
 <p>有关更多信息，请参阅<a href="../configuration/set-mobile-config.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 </br>
@@ -183,8 +183,8 @@ ht-degree: 85%
 
 * 新报告体验中添加了新用例：
 
-   * 直接在报表中创建自定义计算指标。
-   * 从报表数据创建受众。
-   * 使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL Dimension]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;轻松创建表和可视化图表。
+   * 直接在报告中创建自定义计算指标。
+   * 从报告数据创建受众。
+   * 使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL 维度]**&#x200B;和&#x200B;**[!UICONTROL 指标]**&#x200B;轻松创建表和可视化内容。
 
   有关更多信息，请参阅[详细文档](../reports/report-cja-manage.md)。

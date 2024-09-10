@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6268aafbec0aa21a7c8881514227cdb41674791a
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -215,8 +215,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
->title="历程中的受众查看器"
->abstract="历程中的受众查看器"
+>title="历程中的冲突查看器"
+>abstract="历程中的冲突查看器"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_object_type"
@@ -235,7 +235,7 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"
->title="优先级因素"
+>title="优先级中的因素"
 >abstract="待定"
 
 <!--CONTENT LOCKING-->
