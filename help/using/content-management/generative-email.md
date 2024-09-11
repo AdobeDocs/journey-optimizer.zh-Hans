@@ -1,64 +1,50 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 AI 助手生成电子邮件
-description: 开始使用AI助手生成电子邮件内容和资源
+title: 使用Journey Optimizer中的AI助手生成电子邮件 — 内容加速器
+description: 在Journey Optimizer中使用AI助手开始生成电子邮件内容和资源以加速内容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta 版" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 24561293e744c048dd3f895360a487c8598b0765
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 4%
+source-wordcount: '1609'
+ht-degree: 1%
 
 ---
 
-# 使用 AI 助手生成电子邮件 {#generative-email}
+# 使用Journey Optimizer中的AI助手生成电子邮件 — 内容加速器 {#generative-email}
 
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [AI 助手入门](gs-generative.md)
-* 使用 AI 助手生成电子邮件
-* [使用 AI 助手生成短信](generative-sms.md)
-* [使用 AI 助手进行推送生成](generative-push.md)
-* [使用 AI 助手进行内容试验](generative-experimentation.md)
-
->[!ENDSHADEBOX]
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
+></br>
+>
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
 
-在精心编制和自定义电子邮件后，利用Journey Optimizer中的AI助手在创作AI的推动下提升您的内容。
+在构建和自定义电子邮件后，利用Journey Optimizer中由创作AI提供支持的AI助手进行内容加速，以提升您的内容。
 
-使用AI Assistant通过精心制作完整的电子邮件、量身定制的文本片段和自定义的图像（可直接与受众交谈）、促进参与和互动，来增强营销活动的有效性。
+使用Journey Optimizer中的AI Assistant for Content Acceleration通过打造完整的电子邮件、量身定制的文本片段和自定义的图像（可直接与受众交谈）、促进参与和互动，从而增强促销活动的有效性。
 
-浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手。
+浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手进行内容加速。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完整电子邮件]
 
-在以下示例中，我们将利用AI助手来优化现有电子邮件模板。
+在以下示例中，我们将利用内容加速的AI助手来优化现有电子邮件模板。
 
 1. 创建和配置电子邮件营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
    有关如何配置电子邮件促销活动的详细信息，请参阅[此页面](../campaigns/create-campaign.md)。
 
-1. 根据需要个性化您的电子邮件，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
+1. 根据需要个性化您的布局，并访问&#x200B;**[!UICONTROL AI助手]**&#x200B;菜单。
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据营销活动内容、名称和所选受众来个性化新内容。
-
-   您的提示必须始终与当前内容绑定。
+1. 为用于内容加速的AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -68,17 +54,28 @@ ht-degree: 4%
 
 1. 您可以将&#x200B;**[!UICONTROL 主题行]**&#x200B;和&#x200B;**[!UICONTROL 预编译标头]**&#x200B;选项切换为将它们包含在变量生成中。
 
-1. 单击&#x200B;**[!UICONTROL 上载品牌资产]**&#x200B;可添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上载的上下文。
-
-   ![](assets/full-email-3.png){zoomable="yes"}
-
-1. 使用不同的选项定制提示：
+1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
-   * **[!UICONTROL 语言]**：选择您希望生成内容的语言。
    * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
 
    ![](assets/full-email-4.png){zoomable="yes"}
+
+1. 选择您的&#x200B;**[!UICONTROL 图像设置]**：
+
+   * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
+   * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
+   * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
+   * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
+   * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
+
+   ![](assets/full-email-6.png){zoomable="yes"}
+
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+
+   ![](assets/full-email-3.png){zoomable="yes"}
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -90,6 +87,8 @@ ht-degree: 4%
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
 
+   您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
+
    ![](assets/full-email-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
@@ -100,9 +99,9 @@ ht-degree: 4%
 
 定义内容、受众和计划后，便可以准备电子邮件营销活动。 [了解详情](../campaigns/review-activate-campaign.md)
 
->[!TAB 文本生成]
+>[!TAB 纯文本生成]
 
-在以下示例中，我们将利用AI助手来增强电子邮件的内容。
+在以下示例中，我们将利用内容加速的AI助手来增强电子邮件的内容。
 
 1. 创建和配置电子邮件营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -112,9 +111,7 @@ ht-degree: 4%
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据营销活动内容、名称和所选受众来个性化新内容。
-
-   您的提示必须始终与当前内容绑定。
+1. 为用于内容加速的AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -122,18 +119,19 @@ ht-degree: 4%
 
    ![](assets/text-genai-2.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 上载品牌资产]**&#x200B;可添加任何包含可为AI助手提供其他上下文的内容的品牌资产。
+1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
-
-1. 使用不同的选项定制提示：
-
-   * **[!UICONTROL 通信策略]**：为生成的文本选择所需的通信方法。
-   * **[!UICONTROL 语言]**：选择变体内容的语言。
-   * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
-   * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
+   * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
+   * **[!UICONTROL 音调]**：您电子邮件的音调应该引起您的听众的共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
+   * **文本长度**：使用滑块选择所需文本长度。
 
    ![](assets/text-genai-4.png){zoomable="yes"}
+
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
+
+   ![](assets/text-genai-3.png){zoomable="yes"}
 
 1. 提示就绪后，单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -151,6 +149,8 @@ ht-degree: 4%
 
    * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
 
+   您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
+
    ![](assets/text-genai-5.png){zoomable="yes"}
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
@@ -161,25 +161,21 @@ ht-degree: 4%
 
 定义内容、受众和计划后，便可以准备电子邮件营销活动。 [了解详情](../campaigns/review-activate-campaign.md)
 
->[!TAB 图像生成]
+>[!TAB 仅生成图像]
 
-在下面的示例中，了解如何利用AI Assistant优化和改进资源，确保获得对用户更友好的体验。
+在下面的示例中，了解如何利用AI内容加速助手来优化和改进资源，确保获得对用户更友好的体验。
 
 1. 创建和配置电子邮件营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
    有关如何配置电子邮件促销活动的详细信息，请参阅[此页面](../email/create-email.md)。
 
-1. 填写营销活动的&#x200B;**[!UICONTROL 基本详细信息]**。 完成后，单击&#x200B;**[!UICONTROL 编辑电子邮件内容]**。
-
-1. 选择要使用AI助手更改的资源。
+1. 选择要使用用于内容加速的AI助手更改的资产。
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
-
-   您的提示必须始终与当前内容绑定。
+1. 为内容加速的AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -187,17 +183,20 @@ ht-degree: 4%
 
    ![](assets/image-genai-2.png){zoomable="yes"}
 
-1. 单击&#x200B;**[!UICONTROL 上载品牌资产]**&#x200B;可添加任何包含可为AI助手提供其他上下文的内容的品牌资产。
-
-1. 使用不同的选项定制提示：
+1. 使用&#x200B;**[!UICONTROL 图像设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 宽高比]**：这决定了资源的宽度和高度。 您可以选择常用比率，如16:9、4:3、3:2或1:1，也可以输入自定义大小。
-   * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
    * **[!UICONTROL 内容类型]**：这将对可视化元素的性质进行分类，区分不同的可视化表示形式，如照片、图形或艺术品。
+   * **[!UICONTROL 视觉强度]**：您可以通过调整图像的强度来控制其影响。 较低的设置(2)将产生更柔和、更克制的外观，而较高的设置(10)将使图像更生动、视觉更强大。
+   * **[!UICONTROL 颜色和色调]**：图像内颜色的总体外观及其传达的情绪或气氛。
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
    ![](assets/image-genai-4.png){zoomable="yes"}
+
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+
+   以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
 1. 如果对提示配置满意，请单击&#x200B;**[!UICONTROL 生成]**。
 
@@ -205,11 +204,7 @@ ht-degree: 4%
 
    单击&#x200B;**[!UICONTROL 预览]**&#x200B;以查看所选变体的全屏版本。
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
-
-1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 显示类似项]**。
-
-   ![](assets/image-genai-6.png){zoomable="yes"}
+1. 如果要查看与此变体相关的图像，请选择&#x200B;**[!UICONTROL 生成类似项]**。
 
 1. 找到相应的内容后，单击&#x200B;**[!UICONTROL 选择]**。
 
@@ -221,8 +216,9 @@ ht-degree: 4%
 
 >[!ENDTABS]
 
+
 ## 操作方法视频 {#video}
 
-了解如何使用AI助手生成完整电子邮件、文本或图像。
+了解如何使用Journey Optimizer中的AI Assistant for Content Acceleration生成完整电子邮件、文本或图像。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
+>[!VIDEO](https://video.tv.adobe.com/v/3433552)

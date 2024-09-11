@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5fd0ad50a39fbb57a2dd11ddb84f1d5b2598bcea
+source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 90%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -27,6 +27,24 @@ ht-degree: 90%
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
 ## 9 月更新 {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>历程优化器中的AI助手 — 内容加速器 </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>创建消息并对其进行个性化后，在Journey Optimizer中使用AI助手进行内容加速以将内容提升到新的水平。 您现在可以使用AI助手通过尝试不同的主标题和图像来优化消息的影响。 每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>使用<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，亲身体验亲身体验并充分了解其功能。</a></p>
+<p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/ai-content.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

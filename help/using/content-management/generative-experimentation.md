@@ -1,40 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 AI 助手进行内容试验
-description: 使用 AI 助手进行内容试验
+title: 在Journey Optimizer — 内容加速器中使用AI助手进行内容试验
+description: 在Journey Optimizer中使用用于内容加速的AI助手进行内容试验
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta 版" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d331c475f2460facf33ed275131f0c2e9517e27c
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 22%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
-# 使用 AI 助手进行内容试验 {#generative-experimentation}
+# 在Journey Optimizer — 内容加速器中使用AI助手进行内容试验 {#generative-experimentation}
 
->[!BEGINSHADEBOX]
+>[!IMPORTANT]
+>
+>在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
+></br>
+>
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
 
-**目录**
+准备好消息并对消息进行个性化后，请使用Adobe Journey Optimizer中的AI助手进行内容加速，其中包括内容试验功能，以提升您的内容。 此工具允许您定义多种交付处理方式（内容各异），以衡量目标受众的表现。
 
-* [AI 助手入门](gs-generative.md)
-* [使用 AI 助手生成电子邮件](generative-email.md)
-* [使用 AI 助手生成短信](generative-sms.md)
-* [使用 AI 助手进行推送生成](generative-push.md)
-* 使用 AI 助手进行内容试验
-
->[!ENDSHADEBOX]
-
-准备好消息并对其进行个性化后，可使用Adobe Journey Optimizer中的AI助手（包括内容实验功能）提升您的内容。 此工具允许您定义多种交付处理方式（内容各异），以衡量目标受众的表现。
-
-1. 创建活动并使用AI助手生成变体。
+1. 创建活动并使用内容加速的AI助手生成变体。
 
    在本例中，我们生成了包含促销代码的订阅确认电子邮件。
 
@@ -48,7 +40,7 @@ ht-degree: 22%
 
 1. 选择要包含在试验中的变体。
 
-1. 单击&#x200B;**添加X处理**。
+1. 单击&#x200B;**添加到试验**。
 
    ![](assets/experiment-genai-3.png)
 

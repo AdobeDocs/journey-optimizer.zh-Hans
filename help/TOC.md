@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
+source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1971'
 ht-degree: 99%
 
 ---
@@ -281,7 +281,9 @@ ht-degree: 99%
       + [电子邮件生成](using/content-management/generative-email.md)
       + [推送生成](using/content-management/generative-push.md)
       + [短信生成](using/content-management/generative-sms.md)
+      + [Web生成](using/content-management/generative-web.md)
       + [使用 AI 助手进行内容试验](using/content-management/generative-experimentation.md)
+      + [AI助手用例](using/content-management/generative-uc.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
