@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 633d2f423301680a7aff83b748a08a6f1a1bbf16
+source-git-commit: b3e683e503f1784d61f6de4f0d866fc965515c1c
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '924'
 ht-degree: 83%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>历程优化器中的AI助手 — 内容加速器 </strong><br/></th>
+<th><strong>AI助手 — 内容加速器 </strong><br/></th>
 </tr>
 </thead>
 <tbody>
