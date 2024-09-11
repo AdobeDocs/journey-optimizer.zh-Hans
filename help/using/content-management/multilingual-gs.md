@@ -10,7 +10,7 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限量发布版" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -58,7 +58,9 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
    ![](assets/multi-troubleshoot.png)
 
-1. 您的管理员需要导航到左侧边栏中的&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单。 系统将自动启用翻译功能。
+1. 您的管理员需要导航到左侧边栏中的&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单。
+
+   系统将自动启用翻译功能。
 
 1. 成功启用该功能后，您将能够访问&#x200B;**[!UICONTROL 翻译]**&#x200B;页面，以及&#x200B;**[!UICONTROL 项目]**、**[!UICONTROL 提供商]**&#x200B;和&#x200B;**[!UICONTROL 区域设置]**&#x200B;选项卡。
 
