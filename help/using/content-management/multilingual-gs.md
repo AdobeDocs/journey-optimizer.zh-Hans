@@ -10,7 +10,7 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限量发布版" type="Informative"
-source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 12%
@@ -39,7 +39,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
->title="翻译错误
+>title="翻译错误"
 >abstract="如果您无法访问翻译页面，这可能是由于未启用翻译功能所致。 要解决此问题，您需要确保您的组织和沙盒管理员激活翻译功能。"
 
 Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于Adobe Journey Optimizer提供第三方翻译服务（机器翻译或人工翻译）。
