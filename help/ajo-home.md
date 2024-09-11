@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0bf1b65787eaf4d66964430bf89488fe4f930bfc
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 90%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 90%
 
 >[!BEGINTABS]
 
->历程优化器中的[!TAB AI助手 — 内容加速器]
+>[!TAB AI助手 — 内容加速器]
 
-通过我们的实时功能预览体验动手操作，旨在让您亲身体验其功能并充分了解其功能。
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
+使用我们的[AI Assistant - Content Accelerator](../help/using/content-management/gs-generative.md)实时功能预览，尽情体验亲身体验，该预览旨在让您亲身体验其功能并充分了解其功能。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 使用 Customer Journey Analytics (Beta) 的报告功能]
 
