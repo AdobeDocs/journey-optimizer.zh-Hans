@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 24561293e744c048dd3f895360a487c8598b0765
+source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
-# 使用Journey Optimizer中的AI助手进行推送生成 — 内容加速器  {#generative-push}
+# 使用AI Assistant进行推送生成 — 内容加速器  {#generative-push}
 
 >[!IMPORTANT]
 >

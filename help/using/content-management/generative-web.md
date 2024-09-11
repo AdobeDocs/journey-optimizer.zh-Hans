@@ -7,14 +7,14 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f188566fb68ba369085ed03649899648858b894b
+source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
 
-# 使用Journey Optimizer中的AI助手生成网页 — 内容加速器 {#generative-web}
+# 使用AI Assistant生成网页 — 内容加速器 {#generative-web}
 
 >[!IMPORTANT]
 >
