@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: 17b05590d1518b5cc6aa33a45619c96d6bd4a78e
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1979'
 ht-degree: 98%
 
 ---
@@ -278,11 +278,11 @@ ht-degree: 98%
 + 内容管理{#content-management}
    + 使用 AI 助手{#ai-assistant}
       + [AI Assistant — 内容加速器入门](using/content-management/gs-generative.md)
-      + [电子邮件生成](using/content-management/generative-email.md)
-      + [推送生成](using/content-management/generative-push.md)
-      + [短信生成](using/content-management/generative-sms.md)
-      + [Web生成](using/content-management/generative-web.md)
-      + [使用 AI 助手进行内容试验](using/content-management/generative-experimentation.md)
+      + [使用人工智能生成电子邮件](using/content-management/generative-email.md)
+      + [使用AI进行推送生成](using/content-management/generative-push.md)
+      + [使用人工智能生成短信](using/content-management/generative-sms.md)
+      + [使用人工智能进行Web生成](using/content-management/generative-web.md)
+      + [使用AI进行内容试验](using/content-management/generative-experimentation.md)
       + [AI助手用例](using/content-management/generative-uc.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
