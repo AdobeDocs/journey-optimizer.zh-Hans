@@ -25,7 +25,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criteria"
->title="历程退出条件"
+>title="旅程退出标准"
 >abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则。"
 
 
