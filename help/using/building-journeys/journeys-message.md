@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 17%
 
 ---
@@ -40,7 +40,9 @@ ht-degree: 17%
 
 1. 从调色板的&#x200B;**操作**&#x200B;部分，将&#x200B;**电子邮件**、**应用程序内**、**短信**&#x200B;或&#x200B;**推送**&#x200B;活动拖放到画布中。
 
-1. 配置您的活动。 在以下页面中了解创建消息内容的详细步骤：
+1. 配置您的活动。
+
+   在以下页面中了解创建消息内容的详细步骤：
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ ht-degree: 17%
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>每个入站消息活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## 更新实时内容{#update-live-content}
 
