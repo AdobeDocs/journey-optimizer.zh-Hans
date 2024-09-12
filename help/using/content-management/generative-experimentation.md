@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer — 内容加速器中使用AI助手进行内容试验
+title: 在Journey Optimizer内容加速器中使用AI助手进行内容试验
 description: 在Journey Optimizer中使用用于内容加速的AI助手进行内容试验
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 5798d4850ef9f8f2bc6761a9468fe6120460c524
+source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 4%
 
 ---
 
-# 使用AI Assistant — 内容加速器进行内容试验 {#generative-experimentation}
+# 使用AI Assistant内容加速器进行内容试验 {#generative-experimentation}
 
 >[!IMPORTANT]
 >
