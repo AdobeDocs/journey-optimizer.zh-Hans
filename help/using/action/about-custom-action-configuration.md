@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
+source-git-commit: b86a459681cda66596e0658b9f703185821aceea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1552'
+ht-degree: 21%
 
 ---
 
@@ -141,11 +141,13 @@ ht-degree: 0%
 
 ## mTLS协议支持 {#mtls-protocol-support}
 
-您现在可以使用相互传输层安全性(mTLS)来确保在到Adobe Journey Optimizer自定义操作的出站连接中增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
+您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
 自定义操作支持双向TLS (mTLS)身份验证。 无需在自定义操作或历程中执行额外配置即可激活 mTLS；当检测到启用了 mTLS 的端点时，会自动执行配置。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定义有效负载参数 {#define-the-message-parameters}
+
+您可以定义有效负载参数，如下所示：
 
 1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
 
@@ -157,11 +159,15 @@ ht-degree: 0%
 >
 >有效负载示例不能包含null值。 有效负载中的字段名称不能包含“。” 字符。 不能以“$”字符开头。
 
-您将能够定义参数类型（例如：字符串、整数等）。
-
-您还可以在指定参数是常量还是变量之间进行选择：
-
-* **常量**&#x200B;表示参数的值由技术角色在操作配置窗格中定义。 值将在各个历程中始终相同。 此操作不会有所不同，并且营销人员在历程中使用自定义操作时不会看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，切换常量/变量右侧的字段是传递的值。
-* **变量**&#x200B;表示参数的值将发生变化。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定在何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
-
 ![](assets/customactionpayloadmessage2.png)
+
+在字段配置中，您必须：
+
+* 选择参数类型，例如：字符串、整数等。
+
+* 定义常量或变量参数：
+
+   * **常量**&#x200B;表示参数的值由技术角色在操作配置窗格中定义。 值将在各个历程中始终相同。 此操作不会发生改变，且营销人员在历程中使用自定义操作时无法看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，常量值将设置为切换常量/变量右侧的字段。
+
+   * **变量**&#x200B;表示参数的值将发生变化。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定从何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
+
