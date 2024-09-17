@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
+source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 17%
@@ -24,7 +24,7 @@ ht-degree: 17%
 >abstract="此部分显示历程属性。默认情况下，只读参数是隐藏的。可用设置取决于历程的状态、您的权限和产品配置。"
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criteria"
+>id="ajo_journey_exit_criterias"
 >title="旅程退出标准"
 >abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则。"
 
