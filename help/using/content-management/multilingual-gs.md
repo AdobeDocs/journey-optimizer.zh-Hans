@@ -13,7 +13,7 @@ badge: label="限量发布版" type="Informative"
 source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 12%
+ht-degree: 22%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="翻译错误"
->abstract="如果您无法访问翻译页面，这可能是由于未启用翻译功能所致。 要解决此问题，您需要确保您的组织和沙盒管理员激活翻译功能。"
+>abstract="如果您无法访问翻译页面，这可能是因为未启用翻译功能。要解决此问题，您需要确保您的组织和沙盒管理员激活了翻译功能。"
 
 Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于Adobe Journey Optimizer提供第三方翻译服务（机器翻译或人工翻译）。
 

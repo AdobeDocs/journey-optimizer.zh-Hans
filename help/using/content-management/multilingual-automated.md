@@ -13,7 +13,7 @@ badge: label="限量发布版" type="Informative"
 source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
 source-wordcount: '1617'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
->title="添加提供程序"
->abstract="根据需要添加翻译提供商和区域设置。 这使您能够管理哪些提供商和区域设置对您的项目有效，从而让您能够灵活地根据当前需求和项目范围调整资源和目标受众。"
+>title="添加提供商"
+>abstract="根据需要添加翻译提供商和语言环境。这有助于您管理哪些提供商和语言环境对您的项目有效，以便您可以根据当前需求和项目范围灵活地调整资源和目标受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
->title="编辑提供程序"
->abstract="修改现有翻译提供商并根据需要添加区域设置。 通过此功能，您可以控制哪些提供商和区域设置对您的项目有效，从而让您能够灵活地根据当前需求和项目目标调整资源并定位特定受众。"
+>title="编辑提供商"
+>abstract="修改现有的翻译提供商并根据需要添加语言环境。您使用此功能可以控制哪些提供商和语言环境对您的项目有效，使您能够根据当前需求和项目目标灵活地调整资源并瞄准特定受众。"
 
 >[!AVAILABILITY]
 >
@@ -47,12 +47,12 @@ ht-degree: 3%
 
 1. [审阅您的翻译任务（可选）](#review-translation-project)。
 
-## 创建区域设置 {#create-locale}
+## 创建语言环境 {#create-locale}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"
->title="添加区域设置"
->abstract="配置语言首选项时，您可以选择创建其他区域设置（如果所需的区域设置不适用于多语言内容）。"
+>title="添加语言环境"
+>abstract="配置语言偏好设置时，如果您的多语言内容没有所需的语言环境，您可以选择创建其他语言环境。"
 
 在配置语言设置时（如[创建语言设置](#language-settings)部分中所述），如果多语言内容没有特定的区域设置，则可以灵活地使用&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单创建所需数量的新区域设置。
 
@@ -73,12 +73,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="创建项目"
->abstract="要开始创建多语言内容，请确定目标区域设置，为受众选择适当的语言或区域方言，以开始翻译项目。 之后，请选择符合项目需求的翻译提供商。"
+>abstract="要开始创建多语言内容，请通过确定目标语言环境、为您的受众选择合适的语言或方言来启动您的翻译项目。之后，选择符合您项目需求的翻译提供商。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
 >title="编辑项目"
->abstract="更新您的翻译项目以纳入其他区域设置，从而使您能够扩展内容以覆盖更广泛的受众。"
+>abstract="更新您的翻译项目，以纳入更多语言环境，从而让您能够扩展内容并覆盖更广泛的受众。"
 
 通过指定Target区域设置来启动翻译项目，并指示内容的特定语言或区域。 然后，您可以选择您的翻译提供商。
 
@@ -228,12 +228,12 @@ ht-degree: 3%
 
 您现在可以激活营销活动或历程。 发送后，您可以在报表中衡量多语言历程或活动的影响。
 
-## 管理内源翻译项目 {#manage-ht-project}
+## 管理内部承包翻译项目 {#manage-ht-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="内部源翻译项目"
->abstract="通过内部翻译项目，您可以直接在翻译项目中管理和执行翻译，从而简化流程并保持对翻译质量和一致性的更大控制。"
+>title="内部承包翻译项目"
+>abstract="内部承包翻译项目允许您直接在翻译项目中管理和执行翻译，从而简化流程并更好地控制翻译质量和一致性。"
 
 如果在配置语言设置时选择了内包，则可以在翻译项目中直接翻译内容。
 
@@ -251,17 +251,17 @@ ht-degree: 3%
 
 1. 如果准备发布已翻译文本，请单击&#x200B;**[!UICONTROL 完成]**。
 
-## 查看您的翻译项目 {#review-translation-project}
+## 审查您的翻译项目 {#review-translation-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
->title="查看您的翻译项目"
->abstract="一旦您选择的翻译提供商完成翻译，您就可以直接在Journey Optimizer中查看结果。 这使您能够评估翻译的准确性和质量，确保在最终确定翻译之前它符合您的期望和项目要求。"
+>title="审查您的翻译项目"
+>abstract="在您选择的翻译提供商完成翻译后，您就可以直接在 Journey Optimizer 中查看结果。这有助于您评估翻译的准确性和质量，确保在最终定稿之前，它符合您的期望和项目要求。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
->title="预览翻译项目"
->abstract="“预览”窗口允许您查看翻译的内容在各种语言中的显示方式。 此功能可帮助您检查渲染，并确保内容在所有选定语言中正确有效地显示。"
+>title="预览您的翻译项目"
+>abstract="通过预览窗口可以查看翻译内容在每种语言中的显示方式。此功能可帮助您检查渲染效果，并确保相关内容在所有选定的语言中正确有效地显示。"
 
 如果您在您的&#x200B;**[!UICONTROL 翻译项目]**&#x200B;中选择了&#x200B;**[!UICONTROL 启用审阅工作流]**，则在所选翻译提供商完成之后，您可以在Journey Optimizer中直接审阅该翻译。
 
