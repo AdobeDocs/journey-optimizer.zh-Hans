@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2d4667d9d2297004905d77f2a8f03fd6758f90f
+source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 41%
 
 ---
@@ -187,9 +187,9 @@ ht-degree: 41%
 
 **API**
 
-* [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)现在为交互式文档。 直接从文档页面浏览API端点，以立即获得反馈并加快技术实施。
+* [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面浏览API端点，以立即获得反馈并加快技术实施。
 
-  现在，所有API引用页面都具有&#x200B;**尝试**&#x200B;功能，可用于直接在文档网站页面上测试API调用。 [获取所需的身份验证凭据](/help/landing/api-authentication.md)并开始使用功能来浏览API端点。
+  现在，所有API引用页面都具有&#x200B;**尝试**&#x200B;功能，可用于直接在文档网站页面上测试API调用。 [获取所需的身份验证凭据](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}并开始使用功能来浏览API端点。
 
   使用此新功能来探索对API端点的请求和响应，以立即获得反馈并加快您的技术实施。
 
@@ -198,5 +198,5 @@ ht-degree: 41%
   >请注意，通过在文档页面上使用交互式API功能，您将对端点进行真正的API调用。 在试用生产沙盒时，请牢记这一点。
 
 
-* **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)
+* **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
