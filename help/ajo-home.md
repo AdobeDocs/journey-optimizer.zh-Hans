@@ -24,7 +24,7 @@ ht-degree: 90%
 
 ✨亲自体验我们的[AI Assistant Content Accelerator](../help/using/content-management/gs-generative.md)实时功能预览，旨在让您亲身体验其功能并充分了解其功能。
 
-[![了解详情](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解详情](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 使用 Customer Journey Analytics (Beta) 的报告功能]
 

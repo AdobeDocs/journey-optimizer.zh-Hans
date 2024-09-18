@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
->title="优先顺序展望"
->abstract="优先顺序展望"
+>title="优先级展望"
+>abstract="优先级展望"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -298,8 +298,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="数据治理策略违规"
->abstract="数据治理策略违规"
+>title="数据治理政策违反"
+>abstract="数据治理政策违反"
 
 <!--APPROVAL POLICIES-->
 
@@ -336,12 +336,12 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_approve"
 >title="审批"
->abstract="批准（营销活动）"
+>abstract="审批（营销活动）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_approve"
 >title="审批"
->abstract="批准（历程）"
+>abstract="审批（历程）"
 
 <!--Multilingual-->
 
@@ -352,8 +352,8 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
->title="回退首选项"
->abstract="回退首选项"
+>title="后备首选项"
+>abstract="后备首选项"
 
 <!-- ExD in email-->
 

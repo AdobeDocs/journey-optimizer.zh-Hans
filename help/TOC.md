@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -291,7 +291,7 @@ ht-degree: 96%
       + [使用人工智能生成短信](using/content-management/generative-sms.md)
       + [使用人工智能进行Web生成](using/content-management/generative-web.md)
       + [使用AI进行内容试验](using/content-management/generative-experimentation.md)
-      + [AI助手用例](using/content-management/generative-uc.md)
+      + [AI 助手用例](using/content-management/generative-uc.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)

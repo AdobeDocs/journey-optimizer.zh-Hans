@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
 
@@ -36,17 +36,17 @@ ht-degree: 80%
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant内容加速器 </strong><br/></th>
+<th><strong>AI 助手内容加速器 </strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>创建消息并对其进行个性化后，在Journey Optimizer中使用AI助手进行内容加速以将内容提升到新的水平。 您现在可以使用AI助手通过尝试不同的主标题和图像来优化消息的影响。 每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
-<p>使用<a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>，亲身体验亲身体验并充分了解其功能。</a></p>
+<p>创建邮件并对其进行个性化设置后，您可以使用 Journey Optimizer for Content Acceleration 中的 AI 助手将您的内容提升到新的水平。您现在可以使用 AI 助手，通过尝试不同的主标题和图像来优化邮件的影响。每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。</a>。</p>
 <p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>发布日期： 9月12日</p>
+<p>发布日期：9 月 12 日</p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ ht-degree: 80%
 <p>“引导式渠道设置”让您能够在一个统一的体验中自动化并验证渠道设置，从而加快开始使用 Journey Optimizer 的过程。这一新的引导式设置简化了快速渠道配置，确保能够在 Experience Platform、Journey Optimizer 和数据收集中随时安装并使用所有必要的资源。这使营销、产品和数据工程团队能够快速开始创建营销活动和历程。</p>
 <p>有关更多信息，请参阅<a href="../configuration/set-mobile-config.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>发布日期： 9月3日</p>
+<p>发布日期：9 月 3 日</p>
 </br>
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 80%
 
 **历程**
 
-（可用性日期： 9月10日）**重试功能** — 现在，在检索导出作业时，默认情况下对受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）应用重试。 如果在创建导出作业期间发生错误，将每10mn重试一次，最长为1小时。 之后，我们将它视为失败。 因此，这些类型的历程可以在计划时间后最多1小时执行。 [了解详情](../building-journeys/read-audience.md#retries)
+（发布日期：9 月 10 日）**重试功能** - 现在，在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
 
 
 
