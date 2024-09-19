@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 99%
+source-wordcount: '1591'
+ht-degree: 95%
 
 ---
 
@@ -299,7 +299,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="数据治理政策违反"
->abstract="数据治理政策违反"
+>abstract="如果系统在历程/营销策划或自定义操作中识别出受限字段，则会显示一条错误消息，阻止您发布该字段。 使用此对话框中的数据族谱图，了解在激活历程或营销活动之前，需要做出哪些其他配置更改。"
 
 <!--APPROVAL POLICIES-->
 
