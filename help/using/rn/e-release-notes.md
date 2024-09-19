@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 49%
+source-wordcount: '956'
+ht-degree: 50%
 
 ---
 
@@ -193,6 +193,7 @@ ht-degree: 49%
 **电子邮件渠道**
 
 * **密件抄送邮件头** — 已为所有电子邮件添加了新邮件头。 此标头的值对于已发送的每封电子邮件及其对应的密件抄送电子邮件副本都是唯一的。 此标头还存储在消息和密件抄送反馈数据集中，允许协调密件抄送副本和相应的已发送电子邮件信息。
+* **垃圾邮件评分** (GA) — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
 
 **短信渠道**
 
