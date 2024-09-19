@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 41%
+source-wordcount: '907'
+ht-degree: 49%
 
 ---
 
@@ -29,23 +29,21 @@ ht-degree: 41%
 
 此版本引入了下方详述的新功能。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>适用于移动设备应用程序和网站的内容卡</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>内容卡是Adobe Journey Optimizer中一项新的数字消息传送功能，可直接在移动应用程序和网站上提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。</p>
-<p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度，并确保会看到重要消息而不会中断用户历程。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ ht-degree: 41%
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>历程中基于代码的体验</strong><br/></th>
+<th><strong>历程中的全局退出标准</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>借助基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站属性进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。 现在，历程画布中提供了基于代码的体验渠道。</p>
-<p>有关更多信息，请参阅<a href="../code-based/get-started-code-based.md">详细文档</a>。</p>
+<p>您现在可以为历程定义和组合退出标准规则。</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ ht-degree: 41%
 **受众**
 
 * 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield 插件。
-* 在定位自定义上传（CSV 文件）受众时，您现在可以在营销活动和历程中使用文件中的属性。这些属性在个性化编辑器中可用，用于个性化您的消息和旅程高级表达式编辑器。
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * （可用日期： 9月17日）**许可证使用情况** — 许可证使用情况仪表板现在显示可参与的用户档案，而不是可参与的受众。 [了解详情](../audience/license-usage.md)
 
 **数据管理**
 
 * 除了历程中的自定义操作之外，您现在还可以将数据治理策略应用于Journey Optimizer渠道。 此增强功能通过直接在渠道配置中应用营销操作，帮助防止在通信中使用敏感字段。
 
+<!--
+**Frequency and priority management**
 
-**频率和优先级管理**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **按促销活动或历程设置频率上限** — 您现在可以创建频率规则以应用于您的历程，从而允许您限制每日、每周或每月的历程数，并控制同时运行的并行历程数。
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **优先级得分** — 您现在可以为营销活动或历程分配从0到100的优先级得分。 数字越大，表示优先级越高。如果两个营销活动或历程使用同一个表面，Journey Optimizer将选择具有最高优先级分数的营销活动或历程。 如果促销活动具有相同的得分，则将选择最近修改的促销活动。 优先级得分适用于营销活动中的所有入站渠道，以及历程中的应用程序内渠道。
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **查看冲突** — 现在，在历程和营销活动中新增了&#x200B;**查看冲突**&#x200B;按钮，可让您在可能与其他历程或营销活动（如开始日期、目标受众或所选渠道配置）重叠时检查。
 
 **历程**
-
-* **全局退出标准** — 您现在可以为历程定义和组合退出标准规则。
 
 * **实时历程的最大数量** -Journey Optimizer现在在生产沙盒上具有500个实时历程的护栏，而不是100个。 实时历程的数量在历程画布中可见。
 
@@ -195,7 +208,7 @@ ht-degree: 41%
 
   >[!CAUTION]
   >
-  >请注意，通过在文档页面上使用交互式API功能，您将对端点进行真正的API调用。 在试用生产沙盒时，请牢记这一点。
+  >请注意，通过使用文档页面上的交互式 API 功能，您正在对端点进行真正的 API 调用。在试验生产沙盒时请记住这一点。
 
 
 * **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
