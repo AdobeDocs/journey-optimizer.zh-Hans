@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7d77bcbd401f7af68f644ded25d61f0921c03be
+source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 97%
+source-wordcount: '1588'
+ht-degree: 65%
 
 ---
 
@@ -26,12 +26,103 @@ ht-degree: 97%
 
 ![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
 
-## 9 月更新 {#9-2024}
+## 2024 年 9 月早期发行说明 {#24-9-rn}
 
->[!IMPORTANT]
+
+>[!CAUTION]
 >
->当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
-> [开始使用Journey Optimizer新的报表界面](../reports/report-gs-cja.md)
+>**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;链接、屏幕和更新文档在发布日期发布。
+>
+
+**发行日期**： 2024年9月24日至25日
+
+### 新功能 {#24-9-features}
+
+此版本引入了下方详述的新功能。
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>历程和营销活动中的批准</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，通过审批策略，您可以在Journey Optimizer中设置审批流程，从而允许营销团队确保活动及历程在投入使用之前由相应的利益相关者审查和签署。</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件内容锁定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止无意中编辑或删除，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的全局退出标准</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在历程级别定义退出标准。 通过添加退出条件，您可以让用户档案在事件发生后（例如：购买）或符合受众资格时立即退出历程。 这将阻止用户从历程中获得任何进一步的通信。</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
+
 
 <table>
 <thead>
@@ -71,26 +162,75 @@ ht-degree: 97%
 </tbody>
 </table>
 
+>[!IMPORTANT]
+>
+>当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
+> [开始使用Journey Optimizer新的报表界面](../reports/report-gs-cja.md)
+
+
+### 改进 {#24-9-improvements}
+
+此版本包含下方列出的改进。
+
 **受众**
 
-（可用日期： 9月17日）**许可证使用情况** — 许可证使用情况仪表板现在显示可参与的用户档案，而不是可参与的受众。 [了解详情](../audience/license-usage.md)
+* 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield 插件。
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+* （可用日期： 9月17日）**许可证使用情况** — 许可证使用情况仪表板现在显示可参与的用户档案，而不是可参与的受众。 [了解详情](../audience/license-usage.md)
+
+**数据管理**
+
+* 除了历程中的自定义操作之外，您现在还可以将数据治理策略应用于Journey Optimizer渠道。 此增强功能通过直接在渠道配置中应用营销操作，帮助防止在通信中使用敏感字段。
+
+<!--
+**Frequency and priority management**
+
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
+
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
+
 
 **历程**
 
-（发布日期：9 月 10 日）**重试功能** - 现在，在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
+* **实时历程的最大数量** -Journey Optimizer现在在生产沙盒上具有500个实时历程的护栏，而不是100个。 实时历程的数量在历程画布中可见。
 
+* **实时报告增强功能** — 实时报告提供过去24小时内历程性能的分析。 我们通过添加新量度（错误地输入、退出、丢弃的用户档案和用户档案）来增强此功能，以便您直接从历程画布更深入地了解用户行为和性能。
+
+* 自定义操作中的&#x200B;**参数** — 自定义操作现在支持NULL和可选参数。
+
+* （可用性日期： 9月10日）**读取受众上的自动重试** — 现在，在检索导出作业时，默认情况下对受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）应用重试。 如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
+
+**电子邮件渠道**
+
+* **密件抄送邮件头** — 已为所有电子邮件添加了新邮件头。 此标头的值对于已发送的每封电子邮件及其对应的密件抄送电子邮件副本都是唯一的。 此标头还存储在消息和密件抄送反馈数据集中，允许协调密件抄送副本和相应的已发送电子邮件信息。
+* **垃圾邮件评分** (GA) — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
+
+**短信渠道**
+
+* 您现在可以修改现有短信配置
+
+**API**
+
+* [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面浏览API端点，以立即获得反馈并加快技术实施。
+
+  现在，所有API引用页面都具有&#x200B;**尝试**&#x200B;功能，可用于直接在文档网站页面上测试API调用。 [获取所需的身份验证凭据](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}并开始使用功能来浏览API端点。
+
+  使用此新功能来探索对API端点的请求和响应，以立即获得反馈并加快您的技术实施。
+
+  >[!CAUTION]
+  >
+  >请注意，通过使用文档页面上的交互式 API 功能，您正在对端点进行真正的 API 调用。在试验生产沙盒时请记住这一点。
+
+
+* **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 
 ## 2024 年 8 月发行说明 {#8-2024}
 
 **发布日期**：2024 年 8 月 20 日 - 21 日
-
-<!--
->[!CAUTION]
->
->**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
->
--->
 
 ### 新功能 {#8-features}
 
