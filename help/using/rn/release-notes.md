@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
+source-git-commit: 88e85f79cc55899f8b803c37f660971751353e30
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -174,8 +174,8 @@ ht-degree: 65%
 
 **受众**
 
-* 现在，可以将自定义上传内容（CSV 文件）中的受众用于 Privacy and Security Shield 插件。
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
+* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * （可用日期： 9月17日）**许可证使用情况** — 许可证使用情况仪表板现在显示可参与的用户档案，而不是可参与的受众。 [了解详情](../audience/license-usage.md)
 
 **数据管理**
@@ -210,9 +210,12 @@ ht-degree: 65%
 
 **短信渠道**
 
-* 您现在可以修改现有短信配置
+* **编辑API凭据** — 您现在可以编辑SMS API凭据中的设置，包括对选择启用/禁用关键字和回复的更新。
+* 您现在可以修改现有 SMS 配置。
 
 **API**
+
+* **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面浏览API端点，以立即获得反馈并加快技术实施。
 
@@ -223,9 +226,6 @@ ht-degree: 65%
   >[!CAUTION]
   >
   >请注意，通过使用文档页面上的交互式 API 功能，您正在对端点进行真正的 API 调用。在试验生产沙盒时请记住这一点。
-
-
-* **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 
 ## 2024 年 8 月发行说明 {#8-2024}
