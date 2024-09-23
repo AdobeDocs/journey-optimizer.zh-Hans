@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 80%
+source-wordcount: '1558'
+ht-degree: 89%
 
 ---
 
@@ -197,26 +197,6 @@ ht-degree: 80%
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="优先级"
->abstract="为历程分配优先级，范围从 0 到 100。数字越大，表示优先级越高。此处插入的优先级值由此历程中包含的任何入站操作（例如应用程序内操作）继承。 对于在其他营销活动或历程中使用同一集客表面的情况，将向收件人显示具有最高优先级分数的集客操作。 如果多个历程或营销活动具有相同的得分，则选择最近修改的元素。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="优先级"
->abstract="为营销活动分配优先级等级，范围从 0 到 100。数字越大，表示优先级越高。对于在其他营销活动或历程中使用同一集客表面（例如应用程序内）的情况，将向收件人显示具有最高优先级分数的集客操作。 如果多个历程或营销活动具有相同的得分，则选择最近修改的元素。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="营销活动中的冲突查看器"
->abstract="此工具可帮助您确定与其他历程、营销策划或表面的重叠。 如果您希望识别受众、开始和结束日期、渠道配置、渠道或规则集上的重叠，则可以在此处查看潜在冲突。 "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="历程中的冲突查看器"
->abstract="此工具可帮助您确定与其他历程、营销策划或表面的重叠。 如果您希望识别受众、开始和结束日期、渠道配置、渠道或规则集上的重叠，则可以在此处查看潜在冲突。 "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
