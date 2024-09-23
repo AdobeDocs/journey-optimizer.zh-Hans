@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -114,6 +114,6 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
 >title="关于自动等待节点"
->abstract="在此活动后自动添加&#x200B;**等待**&#x200B;活动。 它设置为3天。 您可以将其删除或根据需要进行配置。"
+>abstract="此活动后会自动添加一个&#x200B;**等待**&#x200B;活动。其设置为 3 天。您可以根据需要移除它或者对其进行配置。"
 
 每个入站消息活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 当用户档案到达历程终点时，入站消息会自动结束，因此我们假定您希望用户至少在3天内看到该消息。 您可以删除此&#x200B;**等待**&#x200B;活动，或者根据需要更改其配置。
