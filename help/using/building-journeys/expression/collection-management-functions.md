@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -236,10 +236,14 @@ _`<listExpression>`.at(`<index>`)_
 
 **其他示例**
 
+此表达式根据SKU值返回产品名称。 这些产品的列表包含在事件列表中，条件为事件ID。
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+此表达式检索商业事件的产品列表中最后一个产品的名称，其中事件类型为“productListAdds”，总价大于或等于150。
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
