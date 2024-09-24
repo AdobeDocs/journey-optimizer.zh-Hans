@@ -10,14 +10,19 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="限量发布版" type="Informative"
-source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
+source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 22%
+source-wordcount: '449'
+ht-degree: 21%
 
 ---
 
 # 多语言内容入门 {#multilingual-gs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_homepage"
+>title="翻译"
+>abstract="利用多语言功能，可在单个营销活动或历程中轻松创建多种语言的内容。 通过翻译页面，您可以设置项目、选择翻译提供商或管理特定于区域设置的词典"
 
 >[!AVAILABILITY]
 >
