@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
