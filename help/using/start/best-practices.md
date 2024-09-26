@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 3%
@@ -48,7 +48,12 @@ Adobe Journey Optimizer利用Identity Service来合并用户档案并个性化�
 
 * Journey Optimizer在旅程画布中包含50个活动的护栏。 此护栏旨在帮助提高可读性、QA和疑难解答。 当您将活动数量限制在10个以内时，历程中的活动数量将显示在历程画布的左上部分。
 
-* 当您发布历程时，Journey Optimizer会自动进行扩展和调整，以确保最大吞吐量和稳定性。 当您在沙盒中一次接近500个实时历程的里程碑时，您将看到此成就的界面中显示一个橙色叠加和警告标记。 如果您看到此通知，并且需要将每次的历程扩展到多于 500 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
+* 当您发布历程时，Journey Optimizer会自动进行扩展和调整，以确保最大吞吐量和稳定性。 当您在沙盒中一次接近100个实时历程的里程碑时，您将看到此成就的界面中显示一个橙色叠加和警告标记。 如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
+
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
 
 您可以采用许多最佳实践，帮助您保持在护栏内并高效使用系统。
 
