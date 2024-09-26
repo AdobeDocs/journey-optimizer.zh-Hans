@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用示例输入数据测试内容
-description: 了解如何使用示例输入预览电子邮件内容并发送校样。
+description: 了解如何使用示例输入数据预览电子邮件内容并发送校样。
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta 版"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ ht-degree: 0%
 * 当前体验中不提供以下功能：收件箱呈现、垃圾邮件报告、多语言内容和内容体验。 若要使用这些功能，请从内容中选择&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以访问上一个用户界面。
 * 当前仅支持配置文件属性。 如果在内容中使用上下文属性进行个性化，您将无法使用这些属性测试内容。
 * 为变量输入数据时仅支持以下数据类型：数字（整数和小数）、字符串、布尔和日期类型。 任何其他数据类型将显示错误。
-
-
-不是来自acrite
 
 ## 添加变体 {#profiles}
 
