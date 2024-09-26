@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式、语法、运算符、编辑器、历程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,10 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 * 使用乘法(`*`)时，两个操作字段必须具有相同的类型，可以是整数或小数。 示例：
    * 以下示例是正确的： `3.0 * 4.0`
    * `3 * 4.0`将导致错误
+
+* 使用`+`运算符时，表达式需要在括号之间进行封装。 示例：
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正确
+   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`将导致错误
 
 ## 逻辑  {#logical}
 
