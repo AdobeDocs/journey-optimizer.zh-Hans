@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '3728'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
 >title="电子邮件 - 跟踪总数统计数据"
->abstract="“电子邮件 - 跟踪总数统计数据”KPI 提供有关电子邮件的配置文件活动的数据。"
+>abstract="“电子邮件 - 跟踪总数统计数据”KPI 提供有关电子邮件的轮廓活动的数据。"
 
 ![](assets/channel_email_total_tracking.png)
 
@@ -143,7 +143,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
 >title="电子邮件 - 一段时间内的跟踪统计数据"
->abstract="“电子邮件 - 一段时间内的跟踪统计数据”图表提供有关您的电子邮件的配置文件活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
+>abstract="“电子邮件 - 一段时间内的跟踪统计数据”图表提供有关您的电子邮件的轮廓活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 ![](assets/channel_email_tracking_overtime.png)
 
@@ -201,7 +201,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/channel_email_excluded.png)
 
@@ -323,7 +323,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
 >title="推送通知 - 跟踪总数统计数据"
->abstract="“推送通知 - 跟踪总数统计数据”提供有关推送通知的配置文件活动的数据。"
+>abstract="“推送通知 - 跟踪总数统计数据”提供有关推送通知的轮廓活动的数据。"
 
 **[!UICONTROL 推送通知 — 跟踪统计信息总数]**&#x200B;构件提供与推送通知关联的用户档案活动的详细快照，提供有关参与和推送通知有效性的基本见解。
 
@@ -367,7 +367,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
 >title="推送通知 - 一段时间内的跟踪统计数据"
->abstract="“推送通知 - 一段时间内的跟踪统计数据”图表提供有关推送通知的配置文件活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
+>abstract="“推送通知 - 一段时间内的跟踪统计数据”图表提供有关推送通知的轮廓活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 **[!UICONTROL 推送通知 — 随时间变化的跟踪统计信息]**&#x200B;图形提供与推送通知相关的配置文件活动的详细概述。 此图形表示法以每小时、每天、每周或每月为单位细分数据，从而提供收件人参与度在不同时间间隔内演变情况的宝贵见解。
 
@@ -384,7 +384,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/channel_push_excluded.png)
 
@@ -408,7 +408,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
 >title="按平台列出的跟踪统计数据"
->abstract="“按平台列出的跟踪统计数据”图表根据配置文件的操作系统提供有关推送通知的配置文件活动的数据。"
+>abstract="“按平台列出的跟踪统计数据”图表根据轮廓的操作系统提供有关推送通知的轮廓活动的数据。"
 
 **[!UICONTROL 推送通知 — 按平台跟踪]**&#x200B;图形和表格根据用户档案的操作系统详细列出了推送通知的收件人活动。
 
@@ -467,7 +467,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
 >title="短信 - 跟踪总数统计数据"
->abstract="“短信 - 跟踪总数统计数据”提供有关短信的配置文件活动的数据。"
+>abstract="“短信 - 跟踪总数统计数据”提供有关短信的轮廓活动的数据。"
 
 ![](assets/channel_sms_tracking.png)
 
@@ -501,7 +501,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
 >title="短信 - 一段时间内的跟踪统计数据"
->abstract="“短信 - 一段时间内的跟踪统计数据”图表提供有关短信的配置文件活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
+>abstract="“短信 - 一段时间内的跟踪统计数据”图表提供有关短信的轮廓活动的数据，该数据按每小时、每天、每周或每月进行了细分。"
 
 ![](assets/channel_sms_tracking_overtime.png)
 
@@ -514,7 +514,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/channel_sms_excluded.png)
 
@@ -578,7 +578,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/channel_direct_excluded.png)
 

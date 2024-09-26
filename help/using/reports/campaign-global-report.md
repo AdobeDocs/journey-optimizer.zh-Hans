@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '4851'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 全局报告可从&#x200B;**所有时间**&#x200B;选项卡访问，显示至少两小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
@@ -53,7 +53,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="营销活动的统计数据"
->abstract="“营销活动的统计数据”构件详述与您的营销活动相关的主要信息，如“进入的配置文件”和“已交付操作”。"
+>abstract="“营销活动的统计数据”构件详述与您的营销活动相关的主要信息，如“进入的轮廓”和“已交付操作”。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -88,7 +88,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="成功量度"
->abstract="您之前在创建试验时选择的成功量度的总值，除以配置文件数。"
+>abstract="您之前在创建试验时选择的成功量度的总值，除以轮廓数。"
 
 ![](assets/experimentation_report_3.png)
 
@@ -168,7 +168,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
 >title="电子邮件 - 跟踪统计数据"
->abstract="“电子邮件 - 跟踪统计数据”表提供有关电子邮件的配置文件活动的数据。"
+>abstract="“电子邮件 - 跟踪统计数据”表提供有关电子邮件的轮廓活动的数据。"
 
 ![](assets/campaign_email_tracking.png)
 
@@ -264,7 +264,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="电子邮件 - 排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_email_excluded.png)
 
@@ -533,7 +533,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="推送通知 – 跟踪统计数据"
->abstract="“推送跟踪统计数据”提供有关推送通知的配置文件活动的数据。"
+>abstract="“推送跟踪统计数据”提供有关推送通知的轮廓活动的数据。"
 
 ![](assets/campaign_push_tracking.png)
 
@@ -610,7 +610,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="推送通知 - 排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_push_excluded.png)
 
@@ -623,7 +623,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="推送通知 - 按平台细分"
->abstract="“推送通知 - 按平台细分”图形和表格提供了基于配置文件操作系统的推送通知成功情况的细分。"
+>abstract="“推送通知 - 按平台细分”图形和表格提供了基于轮廓操作系统的推送通知成功情况的细分。"
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -734,7 +734,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="短信 - 排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_sms_excluded.png)
 
@@ -872,7 +872,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
 >title="直邮 - 排除的原因"
->abstract="“直邮排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“直邮排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_direct_excluded.png)
 

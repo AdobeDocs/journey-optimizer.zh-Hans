@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '3529'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，全局报告重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
@@ -99,7 +99,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_statistics"
 >title="电子邮件 - 统计数据"
->abstract="“电子邮件 - 统计数据”表提供有关过去 24 小时内电子邮件的配置文件活动的数据。"
+>abstract="“电子邮件 - 统计数据”表提供有关过去 24 小时内电子邮件的轮廓活动的数据。"
 
 ![](assets/campaign_email_live_statistics.png)
 
@@ -207,7 +207,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
 >title="电子邮件 - 排除的原因"
->abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_email_live_excluded.png)
 
@@ -375,7 +375,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
 >title="推送通知 - 排除的原因"
->abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 **[!UICONTROL 排除的原因]**&#x200B;图形和表显示了阻止从目标配置文件中排除的用户配置文件在最近24小时内接收推送通知的不同原因。
 
@@ -485,7 +485,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
 >title="短信 - 排除的原因"
->abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_live_sms_excluded.png)
 
@@ -596,7 +596,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
 >title="直邮 - 排除的原因"
->abstract="“直邮排除的原因”图表说明导致过去 24 小时内从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“直邮排除的原因”图表说明导致过去 24 小时内从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/campaign_live_directmail_excluded.png)
 

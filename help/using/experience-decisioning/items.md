@@ -33,7 +33,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
 >title="定义决策项的优先级"
->abstract="如果一个配置文件符合多项的条件，则可通过优先级比较此决策项与其他决策项。较高的优先级使该项优先于其他项。"
+>abstract="如果一个轮廓符合多项的条件，则可通过优先级比较此决策项与其他决策项。较高的优先级使该项优先于其他项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
@@ -63,7 +63,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="添加受众或决策规则"
->abstract="默认情况下，所有配置文件都有资格接收决策项，但您可使用受众或规则仅限特定配置文件可接收该项。"
+>abstract="默认情况下，所有轮廓都有资格接收决策项，但您可使用受众或规则仅限特定轮廓可接收该项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用决策规则"
 

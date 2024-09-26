@@ -25,7 +25,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
->title="旅程退出标准"
+>title="历程退出标准"
 >abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则。"
 
 
@@ -74,7 +74,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重入等待期"
->abstract=" 设置在允许配置文件再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
+>abstract=" 设置在允许轮廓再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
 激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。
@@ -103,7 +103,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="选择历程的结束日期。达到该日期后，该历程中的配置文件会自动将其退出，并且新的无法再次进入。"
+>abstract="选择历程的结束日期。达到该日期后，该历程中的轮廓会自动将其退出，并且新的无法再次进入。"
 
 您可以定义&#x200B;**开始日期**。 如果您尚未指定名称，则将在发布时自动定义它。
 

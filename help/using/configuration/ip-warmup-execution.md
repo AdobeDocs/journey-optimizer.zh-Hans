@@ -147,12 +147,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
 >title="因受众错误取消运行"
->abstract="在为某次运行评估受众后，如果合格的配置文件比作为目标的配置文件少，则选择此选项可取消此次运行。"
+>abstract="在为某次运行评估受众后，如果合格的轮廓比作为目标的轮廓少，则选择此选项可取消此次运行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="查看合格的配置文件"
->abstract="此列显示合格的配置文件数。为某次运行评估受众后，如果作为目标的配置文件比合格的配置文件多，则除非启用了&#x200B;**因错误取消已激活的运行**&#x200B;选项，否则仍执行该运行。如果启用了该选项，则取消该运行。"
+>title="查看合格的轮廓"
+>abstract="此列显示合格的轮廓数。为某次运行评估受众后，如果作为目标的轮廓比合格的轮廓多，则除非启用了&#x200B;**因错误取消已激活的运行**&#x200B;选项，否则仍执行该运行。如果启用了该选项，则取消该运行。"
 
 1. 为每次运行选择一个计划，以确保在指定的时间执行它。
 

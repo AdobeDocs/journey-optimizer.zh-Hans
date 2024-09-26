@@ -266,7 +266,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
->abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标配置文件数，然后在此处上传它。"
+>abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标轮廓数，然后在此处上传它。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]

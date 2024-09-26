@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 更新配置文件
+title: 更新轮廓
 description: 了解如何在历程中使用更新用户档案活动
 feature: Journeys, Profiles, Activities
 topic: Content Management
@@ -16,12 +16,12 @@ ht-degree: 6%
 
 ---
 
-# 更新配置文件 {#update-profile}
+# 更新轮廓 {#update-profile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
->title="更新配置文件活动"
->abstract="更新配置文件操作活动让您可以使用来自事件、数据源的信息或使用特定值，更新现有 Adobe Experience Platform 配置文件。"
+>title="更新轮廓活动"
+>abstract="更新轮廓操作活动让您可以使用来自事件、数据源的信息或使用特定值，更新现有 Adobe Experience Platform 轮廓。"
 
 使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动，使用来自事件、数据源的信息或使用特定值更新现有Adobe Experience Platform配置文件。
 

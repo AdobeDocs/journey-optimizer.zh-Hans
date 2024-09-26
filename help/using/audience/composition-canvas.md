@@ -81,12 +81,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="受众活动"
->abstract="“受众活动”让您可以在组合中包括属于现有受众的配置文件。"
+>abstract="“受众活动”让您可以在组合中包括属于现有受众的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="合并类型"
->abstract="指定应如何合并所选受众的配置文件。"
+>abstract="指定应如何合并所选受众的轮廓。"
 
 **[!UICONTROL 受众]**&#x200B;活动允许您在构成中包含属于现有受众的其他配置文件。
 
@@ -97,12 +97,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除类型"
->abstract="使用“排除受众类型”排除属于现有受众的配置文件。“使用属性类型排除”让您可以根据特定属性来排除配置文件。"
+>abstract="使用“排除受众类型”排除属于现有受众的轮廓。“使用属性类型排除”让您可以根据特定属性来排除轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活动"
->abstract="“排除活动”让您可以通过选择现有受众或使用规则，从组合中排除配置文件。"
+>abstract="“排除活动”让您可以通过选择现有受众或使用规则，从组合中排除轮廓。"
 
 **[!UICONTROL 排除]**&#x200B;活动允许您从组合中排除用户档案。 提供了两种类型的排除项：
 
@@ -170,12 +170,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活动"
->abstract="“排名活动”允许您根据特定属性对配置文件进行排名并将它们包含在组合中。例如，包含忠诚度积分最高的 50 个配置文件。"
+>abstract="“排名活动”允许您根据特定属性对轮廓进行排名并将它们包含在组合中。例如，包含忠诚度积分最高的 50 个轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
->title="添加配置文件限制"
->abstract="打开此选项以指定要包含在组合中的配置文件最大数量。"
+>title="添加轮廓限制"
+>abstract="打开此选项以指定要包含在组合中的轮廓最大数量。"
 
 **[!UICONTROL 排名]**&#x200B;活动允许您根据特定属性对配置文件进行排名，并将其包含在合成中。 例如，您可以包含50个用户档案，其中具有最高的会员积分。
 
@@ -204,12 +204,12 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="拆分类型"
->abstract="使用“百分比拆分类型”可将配置文件随机拆分到多个路径中。“属性拆分类型”让您可以根据特定属性来拆分配置文件。"
+>abstract="使用“百分比拆分类型”可将轮廓随机拆分到多个路径中。“属性拆分类型”让您可以根据特定属性来拆分轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
->title="其他配置文件"
->abstract="打开此选项可以创建一个附加路径，其中包含与其他路径中指定的任意条件都不匹配的剩余配置文件。"
+>title="其他轮廓"
+>abstract="打开此选项可以创建一个附加路径，其中包含与其他路径中指定的任意条件都不匹配的剩余轮廓。"
 
 **[!UICONTROL 拆分]**&#x200B;活动允许您将合成划分为多个路径。
 

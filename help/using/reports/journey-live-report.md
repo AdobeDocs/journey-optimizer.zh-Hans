@@ -24,7 +24,7 @@ ht-degree: 30%
 
 >[!AVAILABILITY]
 >
->当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，全局报告重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
@@ -53,7 +53,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="历程表现"
->abstract="“历程表现”构件使您能够直观地跟踪目标配置文件在过去 24 小时内在您的历程中的进展情况。"
+>abstract="“历程表现”构件使您能够直观地跟踪目标轮廓在过去 24 小时内在您的历程中的进展情况。"
 
 ![](assets/journey_live_performance.png)
 
@@ -206,7 +206,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="电子邮件 - 统计数据"
->abstract="“电子邮件 - 统计数据”表提供有关过去 24 小时内电子邮件的配置文件活动的数据。"
+>abstract="“电子邮件 - 统计数据”表提供有关过去 24 小时内电子邮件的轮廓活动的数据。"
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -308,7 +308,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="电子邮件 - 排除的原因"
->abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -485,7 +485,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="推送通知 - 排除的原因"
->abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -570,7 +570,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="短信 - 排除的原因"
->abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明过去 24 小时内导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/journey_live_sms_excluded.png)
 

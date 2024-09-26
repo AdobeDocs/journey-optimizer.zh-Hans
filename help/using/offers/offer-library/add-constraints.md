@@ -68,7 +68,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定义资格"
->abstract="默认情况下，任何配置文件都有资格获得优惠，但您可以使用受众或决策规则将优惠限制为特定的配置文件。"
+>abstract="默认情况下，任何轮廓都有资格获得优惠，但您可以使用受众或决策规则将优惠限制为特定的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -78,8 +78,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="对配置文件的总体估计"
->abstract="当您选择受众或决策规则时，可以看到有关估计符合资格的配置文件的信息。"
+>title="对轮廓的总体估计"
+>abstract="当您选择受众或决策规则时，可以看到有关估计符合资格的轮廓的信息。"
 
 **[!UICONTROL 优惠资格]**&#x200B;部分允许您将优惠限制为您使用受众或决策规则定义的特定用户档案。
 

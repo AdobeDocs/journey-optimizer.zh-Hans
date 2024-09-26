@@ -43,7 +43,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="定义电子邮件类型"
->abstract="选择使用此配置时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的配置文件。"
+>abstract="选择使用此配置时将发送的电子邮件类型：营销性的促销电子邮件，此时需要用户同意；或者交易型的非商业电子邮件，此时在特定上下文中，也可以发送到未订阅的轮廓。"
 
 在&#x200B;**电子邮件类型**&#x200B;部分中，为配置选择消息类型： **[!UICONTROL 营销型]**&#x200B;或&#x200B;**[!UICONTROL 事务型]**。
 
@@ -208,7 +208,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
 >title="覆盖禁止列表优先级"
->abstract="可决定将交易型消息发送到配置文件，即使这些消息的电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表也是如此。默认禁用此选项。"
+>abstract="可决定将交易型消息发送到轮廓，即使这些消息的电子邮件地址因垃圾邮件投诉而被列入 Adobe Journey Optimizer 禁止列表也是如此。默认禁用此选项。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hans" text="管理禁止列表"
 
 >[!IMPORTANT]

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="将规则集应用于历程"
->abstract="应用规则集以根据频率上限规则将此历程排除到部分受众。"
+>abstract="应用规则集，根据频率上限规则将此历程排除在部分受众之外。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="优先级展望"
->abstract=" 如果在此指定的时间段内计划了较高优先级的历程，则将禁止客户进入此历程。 对于希望以先到者输入历程的情况，基于先服务，我们建议选择每日前瞻时段，并确保当天任何其他历程的优先级分数低于历程的优先级分数。 为历程提供100的优先级得分也可确保输入历程。"
+>abstract=" 如果在此指定的时间段内安排了具有更高优先级的历程，则会禁止客户进入此历程。对于您希望以先到先入的方式进入历程的情况，我们建议您选择每日展望期，并确保当天任何其他历程的优先级得分低于该历程的优先级得分。为历程提供 100 分的优先级分数也能确保该进入该历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
@@ -279,7 +279,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="数据治理政策违反"
->abstract="如果系统在历程/营销策划或自定义操作中识别出受限字段，则会显示一条错误消息，阻止您发布该字段。 使用此对话框中的数据族谱图，了解在激活历程或营销活动之前，需要做出哪些其他配置更改。"
+>abstract="如果系统在历程/营销活动或自定义操作中识别出受限字段，则会显示错误，导致您无法发布它。使用此对话框中的数据沿袭图来了解在激活历程或营销活动之前需要更改其他哪些配置。"
 
 <!--APPROVAL POLICIES-->
 

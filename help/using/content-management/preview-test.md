@@ -17,7 +17,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="检查您的内容的渲染方式"
->abstract="定义内容后可使用测试配置文件预览它，并根据所使用的渠道检查渲染是否正确。"
+>abstract="定义内容后可使用测试轮廓预览它，并根据所使用的渠道检查渲染是否正确。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"

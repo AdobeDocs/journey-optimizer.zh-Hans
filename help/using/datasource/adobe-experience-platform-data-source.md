@@ -21,9 +21,9 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 数据源"
->abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户配置文件服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用配置文件数据和体验事件数据。"
+>abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户轮廓服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用轮廓数据和体验事件数据。"
 
-Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户个人资料的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
+Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Adobe实时客户个人资料的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
 要允许与Real-time Customer Profile Service的连接，我们必须使用键来识别人员，并使用命名空间来将键进行上下文化。 因此，仅当历程以包含键和命名空间的事件开始时，才能使用此数据源。 [了解详情](../building-journeys/journey.md)。
 

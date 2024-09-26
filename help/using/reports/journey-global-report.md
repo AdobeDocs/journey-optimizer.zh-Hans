@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '4457'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
@@ -53,7 +53,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="历程表现"
->abstract="“历程表现”构件使您能够直观地跟踪目标配置文件在您的历程中的进展路径。"
+>abstract="“历程表现”构件使您能够直观地跟踪目标轮廓在您的历程中的进展路径。"
 
 ![](assets/journey_performance.png)
 
@@ -161,7 +161,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="同意政策"
->abstract="“同意政策”表格和图形显示从自定义操作中的每项策略中排除的配置文件的数量。其中清楚地展示了每项同意政策对配置文件排除情况的影响。"
+>abstract="“同意政策”表格和图形显示从自定义操作中的每项策略中排除的轮廓的数量。其中清楚地展示了每项同意政策对轮廓排除情况的影响。"
 
 ![](assets/journey_consent.png)
 
@@ -217,7 +217,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
 >title="电子邮件 - 跟踪统计数据"
->abstract="“电子邮件 - 跟踪统计数据”表提供有关电子邮件的配置文件活动的数据。"
+>abstract="“电子邮件 - 跟踪统计数据”表提供有关电子邮件的轮廓活动的数据。"
 
 ![](assets/journey_email_tracking.png)
 
@@ -307,7 +307,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="电子邮件 - 排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/journey_email_excluded.png)
 
@@ -499,7 +499,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
 >title="推送通知 – 跟踪统计数据"
->abstract="“推送跟踪统计数据”提供有关推送通知的配置文件活动的数据。"
+>abstract="“推送跟踪统计数据”提供有关推送通知的轮廓活动的数据。"
 
 **[!UICONTROL 推送 — 跟踪统计数据]**&#x200B;小组件提供与推送通知关联的配置文件活动的详细快照，提供有关参与和推送通知有效性的基本见解。
 
@@ -554,7 +554,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="推送通知 - 排除的原因"
->abstract="“排除的原因”图表说明了阻止被排除在目标受众之外的用户配置文件接收消息的各种因素。"
+>abstract="“排除的原因”图表说明了阻止被排除在目标受众之外的用户轮廓接收消息的各种因素。"
 
 ![](assets/journey_push_excluded.png)
 
@@ -567,7 +567,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
 >title="推送通知 - 按平台细分"
->abstract="“推送通知 - 按平台细分”图形和表格提供了基于配置文件操作系统的推送通知成功情况的细分。"
+>abstract="“推送通知 - 按平台细分”图形和表格提供了基于轮廓操作系统的推送通知成功情况的细分。"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -687,7 +687,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="短信 - 排除的原因"
->abstract="“排除的原因”图表说明导致从目标受众中排除用户配置文件，从而收不到消息的各种因素。"
+>abstract="“排除的原因”图表说明导致从目标受众中排除用户轮廓，从而收不到消息的各种因素。"
 
 ![](assets/journey_sms_excluded.png)
 

@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模拟优惠决策"
->abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些优惠投放到某个测试配置文件。这样测试和细化您的优惠的各个版本即可不影响目标收件人。"
+>abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些优惠投放到某个测试轮廓。这样测试和细化您的优惠的各个版本即可不影响目标收件人。"
 
 ## 关于模拟 {#about-simulation}
 
@@ -48,8 +48,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
->title="添加测试配置文件"
->abstract="您可通过选择标识命名空间以及对应的身份值来添加测试配置文件。您必须拥有已经可用的测试配置文件才能将它们用于模拟。"
+>title="添加测试轮廓"
+>abstract="您可通过选择标识命名空间以及对应的身份值来添加测试轮廓。您必须拥有已经可用的测试轮廓才能将它们用于模拟。"
 
 首先，您需要选择将用于模拟的测试用户档案。
 

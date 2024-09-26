@@ -21,7 +21,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="业务规则"
->abstract="消息频率规则是一种业务规则，用于限制用户通过一个或多个渠道接收消息或进入历程的次数。这些跨渠道规则会自动从消息和操作中排除过度请求的配置文件。"
+>abstract="消息频率规则是一种业务规则，用于限制用户通过一个或多个渠道接收消息或进入历程的次数。这些跨渠道规则会自动从消息和操作中排除过度请求的轮廓。"
 
 [!DNL Journey Optimizer]允许您控制用户通过一个或多个渠道接收消息或进入历程的频率。 消息频率规则，用于从消息和操作中自动排除过度请求的用户档案。
 
@@ -61,7 +61,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="设置业务规则的频率上限"
->abstract="指定在所选时间范围内发给某个客户配置文件的最大消息数。频率上限将基于所选的日历期间，并将在相应的时间范围开始时重置它。"
+>abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频率上限将基于所选的日历期间，并将在相应的时间范围开始时重置它。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"

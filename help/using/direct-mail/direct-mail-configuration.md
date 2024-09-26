@@ -30,7 +30,7 @@ ht-degree: 21%
 
 1. 将引用文件路由配置的[直邮配置](#direct-mail-configuration)。 如果尚未配置任何文件路由选项，您将无法创建直邮配置。
 
-## 配置文件路由 {#file-routing-configuration}
+## 轮廓路由 {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
@@ -168,7 +168,7 @@ ht-degree: 21%
 >id="ajo_dm_surface_settings"
 >title="定义直邮设置"
 >abstract="直邮配置包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="配置文件路由"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="轮廓路由"
 
 <!--
 >[!CONTEXTUALHELP]

@@ -43,12 +43,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="创建条件"
->abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
+>abstract="结合轮廓属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="创建条件"
->abstract="结合配置文件属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
+>abstract="结合轮廓属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
 
 创建条件规则的步骤如下：
 
