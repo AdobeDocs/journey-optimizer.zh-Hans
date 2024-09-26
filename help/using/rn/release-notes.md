@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 1e4bff3e69cd70fd1f6e13cb582de4700bddd6d1
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 68%
@@ -223,7 +223,7 @@ ht-degree: 68%
 
 * 已发送电子邮件和密件抄送中的&#x200B;**邮件头** — 已为所有电子邮件添加了新邮件头。 此标头的值对于已发送的每封电子邮件及其对应的密件抄送电子邮件副本都是唯一的。 此标头还存储在消息和密件抄送反馈数据集中，允许协调密件抄送副本和相应的已发送电子邮件信息。 [了解详情](../configuration/archiving-support.md#bcc-header)
 
-* **垃圾邮件评分** (GA) — 您现在可以在专用的垃圾邮件报告中检查您的内容垃圾邮件评分。 通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
+* **垃圾邮件评分** (GA) — 您现在可以在专用的&#x200B;**垃圾邮件报告**&#x200B;中检查您的内容垃圾邮件评分。 通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
 
 **短信渠道**
 
