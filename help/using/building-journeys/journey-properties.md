@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 17%
+source-wordcount: '1983'
+ht-degree: 13%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 17%
 >id="ajo_journey_properties"
 >title="历程属性"
 >abstract="此部分显示历程属性。默认情况下，只读参数是隐藏的。可用设置取决于历程的状态、您的权限和产品配置。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="历程退出标准"
->abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则。"
-
 
 ## 访问历程的属性 {#access-properties}
 
@@ -53,27 +47,27 @@ ht-degree: 17%
 在本页](expression/journey-properties.md)中了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 
-## 进入和重新进入 {#entrance}
+## 入口和重入 {#entrance}
 
 用户档案进入模式在历程级别的右配置窗格中定义。 下文介绍了相关设置。
 
-用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)中了解有关用户档案进入和重入管理的更多信息。
+用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)中了解有关用户档案进入和重新进入管理的更多信息。
 
-### 允许重新进入  {#allow-re-entrance}
+### 允许重新进入  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允许重新进入"
->abstract="默认情况下，允许重入新的历程。例如，如果您想在有人进入商店时提供一次性的礼物，则您可以取消选中&#x200B;**允许重入**&#x200B;选项。"
+>abstract="默认情况下，新历程允许重新进入。 例如，如果要在某人进入商店时提供一次性礼品，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
-默认情况下，允许重入新的历程。对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果您想要在某人进入商店时提供一次性礼品。
+默认情况下，新历程允许重新进入。 对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
 
-### 重入等待期  {#re-entrance-wait}
+### 重新进入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_re-entrance_wait"
->title="重入等待期"
+>id="ajo_journey_properties_reentrance_wait"
+>title="重新进入等待期"
 >abstract=" 设置在允许轮廓再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
@@ -107,7 +101,7 @@ ht-degree: 17%
 
 您可以定义&#x200B;**开始日期**。 如果您尚未指定名称，则将在发布时自动定义它。
 
-您还可以添加&#x200B;**结束日期**。 这允许用户档案在到期时自动退出。如果未指定结束日期，则配置文件可以保留到[全局历程超时](#global_timeout)（通常为91天）为止。 唯一的例外是循环读取受众历程，激活了&#x200B;**在循环**&#x200B;时强制重新进入，该历程在下一次发生的开始日期结束。
+您还可以添加&#x200B;**结束日期**。 这允许用户档案在到期时自动退出。如果未指定结束日期，则配置文件可以保留到[全局历程超时](#global_timeout)（通常为91天）为止。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
 ## 超时 {#timeout}
 
@@ -258,3 +252,55 @@ ht-degree: 17%
 历程将遵循在整个历程中使用的合并策略。 因此，如果旅程中使用多个受众（例如：在“inAudience”函数中），导致旅程使用的合并策略不一致，则会引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
 要了解有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+
+
+## 退出条件 {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="历程退出标准"
+>abstract="此部分显示退出标准选项。您可以为历程创建一个或多个退出标准规则。"
+
+### 描述
+
+通常，营销人员会希望在历程中不再满足历程目的时删除配置文件。 这将通过与目标管理密切相关的&#x200B;**全局退出标准**&#x200B;来实现。
+
+**示例用例：**
+
+营销人员具有包含一系列通信的促销历程。 每一次通信都旨在促使客户进行购买。 一旦完成购买，客户就不应收到系列中的其余消息。 通过定义退出标准，将从历程中删除购买过的任何用户档案。
+
+### 配置和使用情况
+
+退出标准在历程级别设置。 一个历程可以有多个退出条件。 设置多个退出标准后，将使用OR逻辑从上到下进行评估。 因此，如果您具有退出标准n°1和退出标准n°2，则评估值为n°1 **或** n°2。 将在历程的每个步骤中评估标准。
+
+要&#x200B;**创建**&#x200B;退出条件：
+
+* 单击右边栏中的以下图标![](assets/exitcriteria_icon.png){width="40%" align="left"}。
+* 单击&#x200B;**添加退出条件**&#x200B;按钮。
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* 您可以添加多个退出条件。
+* 输入&#x200B;**标签**，然后选择退出标准是基于事件还是基于受众。
+
+### 基于事件的退出条件
+
+仅选择单一事件。
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### 基于受众的退出标准
+
+选择受众。
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+注意：使用受众的退出标准可能需要最多10分钟才能正常运行。
+
+### 限制和限制
+
+* 退出条件在草稿状态下定义
+* 事件和基于事件的退出标准之间的历程命名空间一致性
+
+
+

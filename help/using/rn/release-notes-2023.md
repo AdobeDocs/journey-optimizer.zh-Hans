@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+workflow-type: tm+mt
 source-wordcount: '4394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 * 现在，您可以定义的最长等待持续时间为 29 天，而不是 30 天。引入此改进是为了防止等待持续时间超过 30 天的历程生命周期。这适用于：
 
    * [等待活动](../building-journeys/wait-activity.md)中的&#x200B;**时间量**&#x200B;字段
-   * [历程属性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重入等待期**
+   * [历程属性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新进入等待期**
    * [事件活动](../building-journeys/general-events.md#events-specific-time)的超时定义中的&#x200B;**等待**&#x200B;字段
 
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
+* **重新进入等待时段**&#x200B;字段已添加到历程属性。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
 
 * 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
