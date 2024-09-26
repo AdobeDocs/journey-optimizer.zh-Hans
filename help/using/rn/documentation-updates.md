@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+workflow-type: tm+mt
 source-wordcount: '5454'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 100%
 ## 2023 年 7 月 {#july-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 对等待活动文档页面进行了改进，其中包含与全局超时和重新进入使用情况相关的更多信息和最佳实践。[了解详情](../building-journeys/wait-activity.md)
+* 等待活动文档页面已得到改进，其中包含与全局超时和重入使用相关的其他信息和最佳实践。 [了解详情](../building-journeys/wait-activity.md)
 * 对进入管理页面进行了改进。[了解详情](../building-journeys/entry-management.md)
 * 在读取受众活动文档中添加了有关限制速率的更多信息。[了解详情](../building-journeys/read-audience.md)
 * 添加了有关重试的其他信息。[了解详情](../start/guardrails.md#general-actions-g)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
-workflow-type: ht
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
+workflow-type: tm+mt
 source-wordcount: '2361'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -67,6 +67,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有益于可读性、进行 QA 检查和故障排除。
 * 当您发布历程时，我们会自动进行缩放和调整，确保最大吞吐量和稳定性。当您接近达成 100 个实时历程的里程碑时，将在 UI 中收到有关此成就的通知。如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
+  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 在历程中使用受众资格时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的用户档案。
 * 用户档案的历程实例的最大大小为 1MB。在历程执行过程中收集的所有数据都存储在该历程实例中。因此，来自传入事件的数据、从 Adobe Experience Platform 检索的用户档案信息、自定义操作响应等都会存储在历程实例中并影响历程大小。当历程以事件开始时，建议限制该事件负载的最大大小（例如：小于 800 KB），以避免在历程执行过程中完成少数几个活动后就达到该限制。当达到该限制时，用户档案会处于错误状态并被从历程中排除。
 * 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。此全局超时会在个人进入历程 91 天后停止个人进度。[了解详情](../building-journeys/journey-properties.md#global_timeout)
@@ -77,7 +78,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。对 HTTP 401、403 和 404 以外的所有 HTTP 错误执行重试。
 * 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
-* 同一历程中不能同时存在多个用户档案。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
+* 同一历程中不能同时存在多个用户档案。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。 [了解详情](../building-journeys/end-journey.md)
 
 ### 历程版本 {#journey-versions-g}
 
@@ -107,7 +108,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众鉴别活动结合使用。
-* 单一历程（以事件或受众鉴别开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，重新访问用户档案会被暂时阻止 5 分钟。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
+* 单一历程（以事件或受众鉴别开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，重新进入用户档案会被暂时阻止5分钟。 例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
 * Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件无法用于触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众鉴别，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 

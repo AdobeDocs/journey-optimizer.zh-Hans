@@ -4,12 +4,11 @@ description: 了解如何使用电子邮件垃圾邮件报告。
 feature: Preview
 role: User
 level: Beginner
-badge: label="Beta 版"
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
+source-git-commit: 9d95c3cf5c7f9a0da98654795370f40e84611dc9
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 24%
+source-wordcount: '365'
+ht-degree: 17%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 >abstract="垃圾邮件报告可让您检查电子邮件内容垃圾邮件评分。此分数表明 ISP 或邮箱提供商是否会将您的邮件视为垃圾邮件。分数越低越好。如果您的电子邮件内容分数高于 2，您应该考虑修复导致测试失败的问题。"
 
 您可以在专用的垃圾邮件报告中检查您的电子邮件内容垃圾邮件评分。 使用[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}，Adobe Journey Optimizer可以测试您的电子邮件内容并为其打分，以指示ISP或邮箱提供商是否将其视为垃圾邮件。
-
->[!AVAILABILITY]
->
->此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。
 
 在编辑或预览电子邮件内容时，**[!UICONTROL 垃圾邮件报告]**&#x200B;按钮会提供评分和建议以提高列出的每个项目的分数。
 
@@ -49,6 +44,11 @@ ht-degree: 24%
 1. 检查每个项目的得分和描述。
 
    分数越低越好。如果得分高于5，则会显示警告：表示某些邮件在收到时可能被阻止或标记为垃圾邮件。 最佳实践为分数小于2。
+
+   >[!NOTE]
+   >
+   >垃圾邮件分数是通过[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}派生的，规则不归Adobe所有。 有关这些规则的更多详细信息，请参阅SpamAssassin文档。
+   >
 
 1. 根据该得分，如果您认为某些元素可以改进，请在[电子邮件Designer](../email/content-from-scratch.md)中编辑您的内容并进行必要的更新。
 

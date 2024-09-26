@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '4252'
+source-wordcount: '4623'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 2%
 * [推送通知](#push-notification)
 * [直邮](#direct-mail)
 * [Web](#web)
+* [内容信息卡](#content-card)
 
 要了解有关Customer Journey AnalyticsWorkspace以及如何筛选和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
@@ -784,5 +785,73 @@ KPI将因您的营销活动中使用的渠道而异。
 * **[!UICONTROL 显示]**：消息的打开次数。
 
 * **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
+
++++
+
+## 内容信息卡 {#content-card}
+
+### 显示和单击趋势 {#display-click}
+
+![](assets/content-card-report-1.png)
+
+**[!UICONTROL 显示和单击趋势]**&#x200B;图形可帮助您了解消息的整体影响范围以及与消息相关的独特用户档案的数量。
+
++++ 了解有关“显示和点击”量度的更多信息
+
+* **[!UICONTROL 点击次数]**：内容卡中内容的点击次数。
+
+* **[!UICONTROL 显示]**：消息的打开次数。
+
+* **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
+
++++
+
+### 跟踪数据 {#tracking-data}
+
+![](assets/content-card-report-2.png)
+
+**[!UICONTROL 跟踪数据]**&#x200B;表提供了与您的内容卡绑定的配置文件活动的详细快照，提供了有关参与和内容卡效果的基本见解。
+
++++ 了解有关跟踪数据量度的更多信息
+
+* **[!UICONTROL 人员]**：符合内容卡目标配置文件资格的用户配置文件数。
+
+* **[!UICONTROL 点进率(CTR)]**：与内容卡交互的用户百分比。
+
+* **[!UICONTROL 点击次数]**：内容卡中内容的点击次数。
+
+* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
+
+* **[!UICONTROL 显示]**：消息的打开次数。
+
+* **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
+
++++
+
+### 跟踪的标签 {#tracked-labels}
+
+**[!UICONTROL 跟踪的标签]**&#x200B;表提供了内容卡中链接标签的全面概述，突出显示生成最高访客流量的标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
+
++++ 了解有关跟踪的标签量度的更多信息
+
+* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
+
+* **[!UICONTROL 点击次数]**：内容卡片中被点击的次数。
+
+* **[!UICONTROL 显示]**：消息的打开次数。
+
+* **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
+
++++
+
+### 跟踪关联 URL {#tracked-link-url}
+
+**[!UICONTROL 跟踪的链接URL]**&#x200B;表提供了内容卡中吸引最高访客流量的URL的全面概述。 这使您能够识别最受欢迎的链接并排定其优先级，从而加深您对内容卡中特定内容的用户档案参与情况的了解。
+
++++ 了解有关跟踪的链接URL量度的更多信息
+
+* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
+
+* **[!UICONTROL 点击次数]**：内容卡片中被点击的次数。
 
 +++

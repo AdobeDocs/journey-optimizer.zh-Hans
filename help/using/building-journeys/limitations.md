@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 

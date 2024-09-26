@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1127'
 ht-degree: 9%
 
 ---
@@ -113,6 +113,10 @@ ht-degree: 9%
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
 ## 激活基于代码的营销活动 {#activate-code-based-campaign}
+
+>[!IMPORTANT]
+>
+>从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
 
 定义基于代码的营销活动并根据需要使用[基于代码的编辑器](#edit-code)编辑内容后，您可以查看和激活该营销活动。 请按照以下步骤操作。
 

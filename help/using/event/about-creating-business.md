@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 12%
@@ -52,7 +52,7 @@ ht-degree: 12%
 
 **当历程正在进行时，接收业务事件时的行为是什么？**
 
-商业活动遵循的重新进入规则与单一活动遵循的规则相同。 如果历程允许重新进入，将处理下一个业务事件。
+业务事件遵循的重新进入规则与单一事件的方式相同。 如果历程允许重新进入，则将处理下一个业务事件。
 
 **避免过度加载具体化受众的护栏是什么？**
 

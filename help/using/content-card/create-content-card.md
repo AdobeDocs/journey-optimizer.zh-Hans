@@ -4,34 +4,14 @@ description: 了解如何在Journey Optimizer中创作内容卡片并编辑其�
 topic: Content Management
 role: User
 level: Beginner
-badge: label="限量发布版" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 11%
+source-wordcount: '919'
+ht-degree: 10%
 
 ---
 
 # 创建内容卡片 {#create-content-card}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-* [内容卡片入门](get-started-content-card.md)
-* [内容卡先决条件](content-card-configuration-prereq.md)
-* [在Journey Optimizer中配置内容卡渠道](content-card-configuration.md)
-* **创建内容卡**
-* [设计内容卡片](design-content-card.md)
-* [内容卡报表](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->内容卡当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 >[!BEGINTABS]
 

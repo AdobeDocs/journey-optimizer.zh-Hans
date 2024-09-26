@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 27%
+source-wordcount: '980'
+ht-degree: 25%
 
 ---
 
@@ -128,3 +128,9 @@ ht-degree: 27%
 要取消存档片段，请筛选&#x200B;**[!UICONTROL 已存档]**&#x200B;项目，然后从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 取消存档]**。 现在可以再次从片段列表中访问，并可用于任何电子邮件或模板。
 
 ![](assets/fragment-list-unarchive.png)
+
+## 将片段导出到另一个沙盒 {#export}
+
+Journey Optimizer允许您将片段从一个沙盒复制到另一个沙盒。 例如，您可以将片段从暂存沙盒环境复制到生产沙盒。
+
+复制过程通过源沙盒和目标沙盒之间的&#x200B;**包导出和导入**&#x200B;进行。 有关如何导出对象并将其导入目标沙盒的详细信息，请参阅此部分： [将对象复制到另一个沙盒](../configuration/copy-objects-to-sandbox.md)

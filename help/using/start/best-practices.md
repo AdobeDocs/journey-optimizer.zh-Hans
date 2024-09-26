@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 3%
@@ -50,9 +50,14 @@ Adobe Journey Optimizer利用Identity Service来合并用户档案并个性化�
 
 * 当您发布历程时，Journey Optimizer会自动进行扩展和调整，以确保最大吞吐量和稳定性。 当您在沙盒中一次接近100个实时历程的里程碑时，您将看到此成就的界面中显示一个橙色叠加和警告标记。 如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 您可以采用许多最佳实践，帮助您保持在护栏内并高效使用系统。
 
-* 如果您接近实时历程的限制，可以采取的第一个步骤是转到&#x200B;**历程**&#x200B;下的&#x200B;**概述**&#x200B;选项卡，以查看过去24小时内活动的历程（具有活动配置文件的历程）的数量。 您可以在此部分中检查进入和退出历程的用户档案数，以确定这一点。
+* 如果您即将达到实时历程的限制，您可以采取的第一步是转到&#x200B;**历程**&#x200B;下的&#x200B;**概述**&#x200B;选项卡，以查看过去24小时内有多少具有活动用户档案的历程处于活动状态。 您可以在此部分中检查进入和退出历程的用户档案数，以确定这一点。
 
   ![](assets/journey-guardrails2.png)
 

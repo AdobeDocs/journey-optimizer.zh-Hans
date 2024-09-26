@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a7234350c0ca66d033bbbd77c1b14063147468cf
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 24%
@@ -28,11 +28,11 @@ ht-degree: 24%
 
 要通过历程发送消息，需要以下配置：
 
-1. **配置事件**：如果要在收到事件时统一触发历程，则需要配置事件。 您可以定义预期信息及其处理方式。 此步骤由&#x200B;**技术用户**&#x200B;执行。 [了解详情](../event/about-events.md)。
+1. **配置事件**：如果要在收到事件时统一触发历程，则需要配置事件。 您可以定义预期信息及其处理方式。 此步骤由&#x200B;**技术用户**&#x200B;执行。 [了解更多信息](../event/about-events.md)。
 
    ![](assets/jo-event7bis.png)
 
-1. **创建受众**：您的历程还可以侦听Adobe Experience Platform受众，以便向一组指定的用户档案批量发送消息。 为此，您需要创建受众。 [了解详情](../audience/about-audiences.md)。
+1. **创建受众**：您的历程还可以侦听Adobe Experience Platform受众，以便向一组指定的用户档案批量发送消息。 为此，您需要创建受众。 [了解更多信息](../audience/about-audiences.md)。
 
    ![](assets/segment2.png)
 

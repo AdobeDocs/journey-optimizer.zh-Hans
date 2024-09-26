@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 2%
+source-wordcount: '459'
+ht-degree: 3%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 2%
 文件内容准备好发送后，关闭模拟屏幕，然后单击&#x200B;**[!UICONTROL 查看以激活]**&#x200B;按钮。
 
 ## 验证并激活直邮营销活动 {#dm-validate}
+
+>[!IMPORTANT]
+>
+>从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
 
 在激活直邮营销活动之前，请确保正确配置了营销活动和提取文件。 要实现此目的，请检查编辑器上部分中的警报。 其中一些是简单的警告，但其他警告可能会阻止您发送消息。 可能会发生两种类型的警报：警告和错误。
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 7%
+source-wordcount: '1337'
+ht-degree: 6%
 
 ---
 
@@ -119,9 +119,9 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 历程和消息报表中没有此类密件抄送报告。 但是，信息存储在名为&#x200B;**[!UICONTROL AJO密件抄送反馈事件数据集]**&#x200B;的系统数据集上。 您可以对此数据集运行查询，以查找用于调试的有用信息，例如。
 
-您可以通过用户界面访问此数据集。 选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**&#x200B;并从筛选器启用&#x200B;**[!UICONTROL 显示系统数据集]**&#x200B;切换开关以显示系统生成的数据集。 在[本节](../data/get-started-datasets.md#access-datasets)中了解有关如何访问数据集的更多信息。
+若要通过用户界面访问此数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解有关如何访问数据集的更多信息。
 
-![](assets/preset-bcc-dataset.png)
+<!--![](assets/preset-bcc-dataset.png)-->
 
 若要对此数据集运行查询，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 
@@ -223,3 +223,65 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
+
+### 使用邮件标头协调密件抄送副本和已发送电子邮件信息 {#bcc-header}
+
+例如，当电子邮件密送副本在外部系统上存档时，您可以使用消息中包含的标头检索相应已发送电子邮件的信息。
+
+现在，每封电子邮件都包含一个名为`x-message-profile-id`的标头。 每个用户档案的此标头的值各不相同：对于每个已发送的电子邮件及其相应的密件抄送电子邮件副本，它是唯一的。
+
+`x-message-profile-id`标头还存储在以下系统数据集中：[AJO消息反馈事件数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)（已发送电子邮件）和[AJO密件抄送反馈事件数据集](#bcc-reporting)（密件抄送副本）。 您可以查询这些数据集以协调密件抄送副本和相应的实际电子邮件。
+
+* 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解有关如何访问数据集的更多信息。
+
+* 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
+
+以下是一些示例查询，您可以运行这些查询来检索与密件抄送副本对应的信息。
+
+**查询1**
+
+要将密件抄送事件与实际电子邮件的相应反馈事件与促销活动操作详细信息拼合，请执行以下操作：
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignID AS CampaignID,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignActionID AS CampaignActionID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```
+
+**查询2**
+
+要将BCC事件与实际电子邮件的相应反馈事件与历程操作详细信息拼合，请执行以下操作：
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionInstanceID AS JourneyVersionInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```

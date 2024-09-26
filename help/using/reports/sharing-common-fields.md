@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -218,5 +218,17 @@ ht-degree: 0%
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 如果实例是从批处理实例触发的，则为单一分支ID。
+
+类型：字符串
+
+## exitCriteriaID
+
+exitCriteria的ID
+
+类型：字符串
+
+## exitCriteriaName
+
+exitCriteria的名称
 
 类型：字符串

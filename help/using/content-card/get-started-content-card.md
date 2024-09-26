@@ -4,34 +4,14 @@ description: 了解Journey Optimizer中的内容卡片
 topic: Content Management
 role: User
 level: Beginner
-badge: label="限量发布版" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 41%
+source-wordcount: '104'
+ht-degree: 49%
 
 ---
 
 # 内容卡片入门 {#get-started-content-card}
-
->[!BEGINSHADEBOX]
-
-**目录**
-
-* **开始使用内容卡**
-* [内容卡先决条件](content-card-configuration-prereq.md)
-* [在Journey Optimizer中配置内容卡渠道](content-card-configuration.md)
-* [创建内容卡片](create-content-card.md)
-* [设计内容卡片](design-content-card.md)
-* [内容卡报表](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->内容卡当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 内容卡是Adobe Journey Optimizer中一项新的数字消息传送功能，可直接在移动应用程序和网站上提供个性化且引人入胜的内容。 与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。
 

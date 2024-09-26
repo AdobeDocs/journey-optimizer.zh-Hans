@@ -10,9 +10,9 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="限量发布版" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '661'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 1. [创建多语言内容](#create-a-multilingual-campaign)。
 
-## 创建区域设置 {#create-locale}
+## 创建语言环境 {#create-locale}
 
 在配置语言设置时（如[创建语言设置](#language-settings)部分中所述），如果多语言内容没有特定的区域设置，则可以灵活地使用&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单创建所需数量的新区域设置。
 
@@ -139,6 +139,10 @@ ht-degree: 6%
    ![](assets/multilingual-campaign-8.png)
 
 您现在可以激活营销活动或历程。 发送后，您可以在报表中衡量多语言历程或活动的影响。
+
+>[!IMPORTANT]
+>
+>从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# 用例：使用自定义操作在Experience Platform中写入历程事件{#custom-action-aep}
+# 用例：使用自定义操作在Experience Platform中写入历程事件 {#custom-action-aep}
 
 此用例说明了如何使用自定义操作和经过身份验证的调用，从历程将自定义事件写入Adobe Experience Platform。
 
-## 配置IO项目
+## 配置IO项目 {#custom-action-aep-IO}
 
 1. 在Adobe Developer Console中，单击&#x200B;**项目**&#x200B;并打开您的IO项目。
 
@@ -94,7 +94,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## 配置自定义操作
+## 配置自定义操作 {#custom-action-config}
+
+在[此页面](../action/about-custom-action-configuration.md)中详细描述了自定义操作配置。
+
+对于此示例，请按照以下步骤操作：
 
 1. 打开Adobe Journey Optimizer，然后单击左侧菜单中&#x200B;**管理**&#x200B;下的&#x200B;**配置**。 在&#x200B;**操作**&#x200B;下，单击&#x200B;**管理**，然后单击&#x200B;**创建操作**。
 
@@ -106,7 +110,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### 设置身份验证
+### 设置身份验证 {#custom-action-aep-authentication}
 
 1. 使用以下有效负载选择&#x200B;**Type**&#x200B;作为&#x200B;**Custom**。
 
@@ -140,7 +144,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-8.png)
 
-### 设置有效负载
+### 设置有效负载 {#custom-action-aep-payload}
 
 1. 在&#x200B;**请求**&#x200B;和&#x200B;**响应**&#x200B;字段中，粘贴以前使用的源连接中的有效负载。
 
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. 将动态填充的字段的字段配置从&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。 保存自定义操作。
+1. 将动态填充的字段的字段配置从&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
+
+1. 保存自定义操作。
 
 ## 历程
 

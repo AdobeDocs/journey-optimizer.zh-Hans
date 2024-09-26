@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 96%
+source-wordcount: '2042'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [模拟您的历程](using/building-journeys/journey-simulation.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
+      + [历程中的实时报告](using/building-journeys/report-journey.md)
    + 管理您的历程{#manage-journey}
       + [用户档案入口管理](using/building-journeys/entry-management.md)
       + [时区管理](using/building-journeys/timezone-management.md)
@@ -174,7 +175,7 @@ ht-degree: 96%
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-+ 测试您的投放{#test}
++ 测试和批准{#test}
    + [冲突管理和优先处理](using/test-approve/conflict-prioritization.md)
    + 预览和测试内容{#preview-test}
       + [使用示例输入数据测试内容](using/test-approve/simulate-sample-input.md)
@@ -184,6 +185,11 @@ ht-degree: 96%
       + [发送电子邮件验证](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
+   + 批准历程和营销活动{#approve}
+      + [审批入门](using/test-approve/gs-approval.md)
+      + [创建和管理审批策略](using/test-approve/approval-policies.md)
+      + [请求审批](using/test-approve/request-approval.md)
+      + [批准请求](using/test-approve/review-approve-request.md)
 + 电子邮件渠道 {#email}
    + [电子邮件入门](using/email/get-started-email.md)
    + [创建电子邮件](using/email/create-email.md)
@@ -264,14 +270,13 @@ ht-degree: 96%
    + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
    + [实施方法示例](using/code-based/code-based-implementation-samples.md)
    + [创建基于代码的体验](using/code-based/create-code-based.md)
-+ 内容卡(LA){#content-card}
++ 内容卡片{#content-card}
    + [内容卡片入门](using/content-card/get-started-content-card.md)
    + 配置内容卡渠道{#configure}
       + [内容卡先决条件](using/content-card/content-card-configuration-prereq.md)
       + [在Journey Optimizer中配置内容卡渠道](using/content-card/content-card-configuration.md)
    + [创建内容卡片](using/content-card/create-content-card.md)
    + [设计内容卡片](using/content-card/design-content-card.md)
-   + [内容卡报表](using/content-card/content-card-report.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -647,6 +652,7 @@ ht-degree: 96%
          + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
          + [与 Marketo Engage 集成](using/action/marketo-engage.md)
    + [源](using/start/get-started-sources.md)
+   + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
 + 访问控制{#access-control}
    + 访问控制概述{#privacy}
       + [用户管理入门](using/administration/permissions-overview.md)

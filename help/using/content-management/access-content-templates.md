@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
 
@@ -63,3 +63,9 @@ ht-degree: 7%
 >当前只能为HTML类型的电子邮件内容模板生成正确的缩略图。
 
 更新内容时，您可能需要等待几秒钟，更改才会反映在缩略图中。
+
+## 将内容模板导出到另一个沙盒 {#export}
+
+利用Journey Optimizer，可将内容模板从一个沙盒复制到另一个沙盒。 例如，您可以将模板从暂存沙盒环境复制到生产沙盒。
+
+复制过程通过源沙盒和目标沙盒之间的&#x200B;**包导出和导入**&#x200B;进行。 有关如何导出对象并将其导入目标沙盒的详细信息，请参阅此部分： [将对象复制到另一个沙盒](../configuration/copy-objects-to-sandbox.md)

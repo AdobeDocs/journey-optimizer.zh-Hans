@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '791'
 ht-degree: 18%
 
 ---
@@ -82,6 +82,10 @@ ht-degree: 18%
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 ## 激活Web活动 {#activate-web-campaign}
+
+>[!IMPORTANT]
+>
+>从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
 
 定义[Web营销活动设置](#configure-web-campaign)并根据需要使用[Web设计器](edit-web-content.md#work-with-web-designer)编辑内容后，您可以查看和激活您的Web营销活动。 请按照以下步骤操作。
 
