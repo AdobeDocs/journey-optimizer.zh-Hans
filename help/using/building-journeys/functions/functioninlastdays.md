@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastDays，函数，表达式，历程
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: e0a942f4dc84b41882b3c12dd47f5931a8a34a2b
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 18%
+source-wordcount: '46'
+ht-degree: 19%
 
 ---
 
 # inLastDays {#inLastDays}
 
-如果给定的日期或日期时间介于现在和现在之间 — 增量天，则返回true。
+如果给定的dateTime介于现在和现在之间 — 增量天，则返回true。
 
 ## 类别
 
