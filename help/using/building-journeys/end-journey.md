@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 * 人员到达路径的最后一个活动。
 * 该人员到达&#x200B;**条件**&#x200B;活动（或具有条件的&#x200B;**等待**&#x200B;活动）并且不匹配任何条件。
 
-如果允许重新进入，人员可以重新进入历程。 查看[此页面](../building-journeys/journey-properties.md#entrance)
+然后，如果允许重新进入，人员可以重新进入历程。 查看[此页面](../building-journeys/journey-properties.md#entrance)
 
 要终止实时历程，我们建议您将其关闭。 然后，将阻止新客户进入历程。 已进入历程的客户能够体验到结束为止。 请参阅[此部分](../building-journeys/journey.md#close-journey)
 

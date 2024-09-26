@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 5%
@@ -73,7 +73,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 * 对于非定期/“一次性”历程：用户档案在历程中只进入一次。
 
-* 对于定期历程：默认情况下，属于受众的所有用户档案都会在每次定期时进入历程。 必须先完成历程，然后才能在另一个事件中重新进入。
+* 对于定期历程：默认情况下，属于受众的所有用户档案都会在每次定期时进入历程。 必须先完成历程，然后才能在另一个事件中再次进入。
 
 有两个选项可用于定期读取受众历程：
 

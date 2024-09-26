@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 2%
@@ -429,7 +429,7 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-在定义的周期内，查询将返回每天进入历程的用户档案数。 如果通过多个身份输入用户档案，则将被计算两次。 如果启用了重新进入，并且用户档案计数在不同日期重新进入历程，则可能会在不同日期之间重复。
+在定义的周期内，查询将返回每天进入历程的用户档案数。 如果通过多个身份输入用户档案，则将被计算两次。 如果启用了重新进入，并且是在不同日期重新进入历程，则用户档案计数可能会在不同日期重复。
 
 ## 与读取受众相关的查询 {#read-segment-queries}
 
