@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 12%
@@ -66,7 +66,7 @@ ht-degree: 12%
 ### 重新进入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
+>id="ajo_journey_properties_re-entrance_wait"
 >title="重新进入等待期"
 >abstract="设置在允许轮廓再次进入单一历程之前的等待时间。这样可防止用户在选定的持续时间内重新进入历程。 最长持续时间：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
