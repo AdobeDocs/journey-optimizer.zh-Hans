@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP，可投放性
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 71%
+source-wordcount: '246'
+ht-degree: 73%
 
 ---
 
@@ -22,15 +22,11 @@ ht-degree: 71%
 
 要避免被标记为垃圾邮件，您可以使用 IP 预热计划功能逐步增加发送量。此新选项位于&#x200B;**[!UICONTROL 管理]**&#x200B;菜单，允许您以统一的方式更轻松地执行此操作，而不是创建复杂的每日历程。
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️[在此视频中了解如何创建和执行IP预热计划](#video)
 
 >[!AVAILABILITY]
 >
 >只能在生产类型的沙盒上启用此功能。
->
->此插件不适用于已购买Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加产品的组织。
-
-
 
 <!--
 Benefits
