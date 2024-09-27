@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1504'
 ht-degree: 100%
 
 ---
@@ -273,13 +273,6 @@ ht-degree: 100%
 >id="ajo_email_locking_read_only"
 >title="只读"
 >abstract="此内容为只读内容，无法修改。"
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="数据治理政策违反"
->abstract="如果系统在历程/营销活动或自定义操作中识别出受限字段，则会显示错误，导致您无法发布它。使用此对话框中的数据沿袭图来了解在激活历程或营销活动之前需要更改其他哪些配置。"
 
 <!--APPROVAL POLICIES-->
 
