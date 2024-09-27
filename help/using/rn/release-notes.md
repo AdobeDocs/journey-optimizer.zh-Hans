@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: c4101f03862a8bd7fd531c80e6ecc62932aa94c6
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 52%
@@ -246,4 +246,4 @@ ht-degree: 52%
 
 **配置**
 
-* IP预热计划 — 此功能现在可供所有客户使用，包括已购买Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加产品的组织。 [了解详情](../configuration/ip-warmup-gs.md)
+* **IP预热计划** — 此功能现在可供所有客户使用，包括已购买Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加产品的组织。 [了解详情](../configuration/ip-warmup-gs.md)
