@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,10 @@ ht-degree: 1%
 
 ## 运行示例 {#run-sample}
 
-前提条件：您需要安装节点和npm。 [请参阅此文档](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>[!PREREQUISITES]
+>
+>您需要安装node和npm。 [请参阅此文档](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 
 1. 为HTTPS设置本地SSL证书。 这些示例需要本地签名的SSL证书来通过HTTPS提供内容：
 
