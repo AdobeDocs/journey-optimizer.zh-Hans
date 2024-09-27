@@ -11,7 +11,7 @@ keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 33%
@@ -90,7 +90,7 @@ ht-degree: 33%
 
 如果系统识别了受限字段，则会显示一条错误消息，阻止您发布历程或营销策划。 [了解如何检测治理策略违规](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *历程和营销活动的策略违规分析步骤*
 
@@ -126,7 +126,7 @@ ht-degree: 33%
 
 如果在操作参数中检测到标记为&#x200B;_ePHI1_&#x200B;的字段之一（我们示例中的“血液类型”字段），则会显示错误，导致您无法发布历程。 [了解如何检测治理策略违规](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *历程自定义操作的策略违规分析步骤*
 
