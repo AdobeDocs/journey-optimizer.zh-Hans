@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1c22985b32e6441791740e779b6acc44639301eb
+source-git-commit: d1f9b9ef52727877a43b8c09cb38c8b634261584
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2049'
 ht-degree: 95%
 
 ---
@@ -275,6 +275,7 @@ ht-degree: 95%
    + 配置内容卡渠道{#configure}
       + [内容卡先决条件](using/content-card/content-card-configuration-prereq.md)
       + [在Journey Optimizer中配置内容卡渠道](using/content-card/content-card-configuration.md)
+      + [在Web SDK中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
    + [创建内容卡片](using/content-card/create-content-card.md)
    + [设计内容卡片](using/content-card/design-content-card.md)
 + 登陆页面{#landing-pages}
