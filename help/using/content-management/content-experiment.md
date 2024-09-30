@@ -20,7 +20,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
->title="内容体验"
+>title="内容试验"
 >abstract="您可以选择改变消息内容、主题或发件人，以便定义多种处理方法并确定最适合您受众的组合。"
 
 >[!NOTE]
