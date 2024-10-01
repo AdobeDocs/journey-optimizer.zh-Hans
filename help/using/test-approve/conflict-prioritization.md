@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Beta 版"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 26%
 
 ---
@@ -53,7 +53,7 @@ Journey Optimizer允许您检查与其他历程或营销活动重叠的可能性
 
    >[!NOTE]
    >
-   >一旦分配了以下任何设置，**[!UICONTROL 查看潜在冲突]**&#x200B;按钮即可选择：**[!UICONTROL 开始/结束日期]**、**[!UICONTROL 受众]**、**[!UICONTROL 渠道]**、**[!UICONTROL 渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 规则集]**。
+   >一旦分配了以下任何设置，**[!UICONTROL 查看潜在冲突]**&#x200B;按钮即可供您选择：**[!UICONTROL 开始/结束日期]**、**[!UICONTROL 受众]**、**[!UICONTROL 渠道]**、**[!UICONTROL 渠道配置]**&#x200B;和&#x200B;**[!UICONTROL 规则集]**。 确保在分配这些设置后选择&#x200B;**[!UICONTROL 保存]**，因为保存更改之前，按钮不可选。
 
 1. 将打开&#x200B;**[!UICONTROL 潜在冲突]**&#x200B;窗口，允许您可视化与当前历程/营销活动重叠的所有元素。
 
@@ -91,7 +91,7 @@ Journey Optimizer允许您为历程或营销活动分配优先级分数。 当�
 
 >[!NOTE]
 >
->入站渠道（Web渠道、应用程序内渠道和基于代码的渠道）的优先级得分可用。 在历程中，优先级得分仅适用于&#x200B;**应用程序内**&#x200B;渠道。
+>入站渠道（Web渠道、应用程序内渠道和基于代码的渠道）的优先级得分可用。 在历程中，优先级得分仅适用于&#x200B;**应用程序内**&#x200B;和&#x200B;**基于代码的**&#x200B;渠道。
 
 分配优先级得分对于入站通信（如Web、移动设备和应用程序内）至关重要。 如果您有多个使用相同渠道配置的营销活动（例如，网页顶部的横幅），则可能会出现问题，因为可以尽可能只显示来自一个营销活动的内容。 优先级分数是您插入首选项的位置，当收件人可能有资格参与多个营销活动时，应显示哪个营销活动。
 
@@ -99,4 +99,4 @@ Journey Optimizer允许您为历程或营销活动分配优先级分数。 当�
 
 ![](assets/priority-score.png)
 
-如果两个营销活动具有相同的优先级分数，则会显示最近激活的营销活动。
+如果两个营销活动具有相同的优先级分数，则会显示最近激活最低的营销活动。
