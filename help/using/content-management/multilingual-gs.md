@@ -13,7 +13,7 @@ badge: label="限量发布版" type="Informative"
 source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="翻译"
->abstract="利用多语言功能，可在单个营销活动或历程中轻松创建多种语言的内容。 通过翻译页面，您可以设置项目、选择翻译提供商或管理特定于区域设置的词典"
+>abstract="多语言功能允许您在单个营销活动或历程中轻松创建多种语言的内容。通过翻译页面，您可以设置项目、选择翻译提供商或管理特定语言环境的词典"
 
 >[!AVAILABILITY]
 >

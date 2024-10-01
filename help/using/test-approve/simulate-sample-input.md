@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用示例输入数据测试内容
+title: 使用示例输入数据测试您的内容
 description: 了解如何使用示例输入数据预览电子邮件内容并发送校样。
 feature: Overview, Get Started
 topic: Content Management
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# 使用示例输入数据测试内容 {#custom-profiles}
+# 使用示例输入数据测试您的内容 {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用样本输入进行模拟"
->abstract="在此屏幕中，您可以测试电子邮件内容的不同变体，方法是通过CSV模板（下载CSV）提供个性化字段的值或手动输入值。"
+>abstract="在此屏幕中，您可以通过 CSV 模板（下载 CSV）为个性化字段提供值或手动输入值来测试电子邮件内容的不同变体。"
 
 >[!AVAILABILITY]
 >
