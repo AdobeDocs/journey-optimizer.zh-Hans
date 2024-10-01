@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 14%
+source-wordcount: '365'
+ht-degree: 16%
 
 ---
 
@@ -42,9 +42,18 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
 ## 先决条件 {#prerequisites}
 
-* 如果您&#x200B;**没有**&#x200B;自己的Customer Journey Analytics，或者如果您拥有该帐户但&#x200B;**没有**&#x200B;访问任何Customer Journey Analytics产品配置文件的权限，则权限在Journey Optimizer中进行管理。 在这种情况下，您只需要&#x200B;**[!UICONTROL 查看渠道报表]**&#x200B;权限或相关角色。 [了解有关Journey Optimizer权限的更多信息](../administration/permissions.md)
-* 如果您拥有Customer Journey Analytics并且有权访问Customer Journey Analytics产品配置文件，则标准Customer Journey Analytics权限适用。 Customer Journey Analytics管理员负责维护适当的用户访问权限。 [了解有关Customer Journey Analytics权限的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+* 如果您&#x200B;**没有**&#x200B;自己的Customer Journey Analytics，或者如果您拥有该帐户但&#x200B;**没有**&#x200B;访问任何Customer Journey Analytics产品配置文件的权限，则权限在Journey Optimizer中进行管理。 在这种情况下，您将需要：
+
+   * **[!UICONTROL 查看渠道报表]**&#x200B;权限或相关角色。 [了解详情](../administration/permissions.md)
+
+* 如果您&#x200B;**拥有** Customer Journey Analytics并有权访问Customer Journey Analytics产品配置文件，您将需要：
+
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+
+   * **[!UICONTROL 管理Adobe Journey Optimizer的用户档案]**&#x200B;权限。 [了解详情](../administration/permissions.md)
+
 * 需要使用以下设置配置您的Customer Journey Analytics数据视图： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+
 * 要在Journey Optimizer中访问Customer Journey Analytics仪表板，只需在报表中启用&#x200B;**[!UICONTROL 使用新Experience]**&#x200B;切换开关。
 
   ![](assets/cja-option.png)
