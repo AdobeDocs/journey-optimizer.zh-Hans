@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1068'
 ht-degree: 16%
 
 ---
 
 # 编辑Web内容 {#edit-web-content}
 
-将Web操作](create-web.md#create-web-campaign)添加到营销活动后，即可使用Web设计器编辑网站的内容。[
+将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
 
 [在此视频中了解如何创作Web营销活动](#video)
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 * [管理修改](manage-web-modifications.md)
 
-* [监测 Web 活动](monitor-web-campaigns.md)
+* [监测 Web 活动](monitor-web-experiences.md)
 
 ## 使用 Web 设计器 {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ ht-degree: 16%
 >abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-要开始创作Web营销活动，请执行以下步骤。
+要开始创作Web体验，请执行以下步骤。
 
-1. 从[营销活动](create-web.md#create-web-campaign)的&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 编辑内容]**。<!--change screen with rule-->
+1. 从历程中的营销活动或Web体验活动的&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 编辑内容]**。<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

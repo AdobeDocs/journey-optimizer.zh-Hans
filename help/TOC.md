@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [条件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [读取受众](using/building-journeys/read-audience.md)
-      + [电子邮件、应用程序内消息、推送、短信](using/building-journeys/journeys-message.md)
+      + [内置渠道操作](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -262,7 +262,7 @@ ht-degree: 98%
    + 编写 Web 页面{#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
-      + [监测 Web 活动](using/web/monitor-web-campaigns.md)
+      + [监控您的Web体验](using/web/monitor-web-experiences.md)
       + [创作单页应用程序](using/web/web-spa.md)
 + 基于代码的体验 {#code-based-experience}
    + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)

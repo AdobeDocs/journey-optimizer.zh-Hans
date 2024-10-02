@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 13%
+source-wordcount: '577'
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 从屏幕左侧的调色板，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 编排]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 操作]**&#x200B;类别。 可以使用以下操作活动：
 
-* [电子邮件、短信、推送](../building-journeys/journeys-message.md)
+* [内置渠道操作](../building-journeys/journeys-message.md)
 * [自定义操作](../building-journeys/using-custom-actions.md)
 * [跳转](../building-journeys/jump.md)
 
@@ -62,7 +62,16 @@ ht-degree: 13%
 
 这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
 
-如果已配置自定义操作，则它们也会显示在此处。 [了解详情](../building-journeys/using-custom-actions.md))。
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
+
+您还可以设置向您发送消息的特定操作：
+
+* 如果您使用第三方系统来发送消息，则可以创建特定的自定义操作。 [了解详情](../action/action.md)
+
+* 如果您使用的是Campaign和Journey Optimizer，请参阅以下部分：
+
+   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
 
 ## 最佳实践 {#best-practices}
 
