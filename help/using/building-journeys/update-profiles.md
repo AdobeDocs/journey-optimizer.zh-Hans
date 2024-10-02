@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 个人资料，更新，历程，活动
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '628'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 使用&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动，使用来自事件、数据源的信息或使用特定值更新现有Adobe Experience Platform配置文件。
 
-## 推荐做法
+## 重要概念 {#key-concepts}
 
 * **更新配置文件**&#x200B;操作只能在具有命名空间的历程中使用。
 * 该操作仅更新现有字段，不创建新配置文件字段。
@@ -34,11 +34,12 @@ ht-degree: 6%
 * 发送到Adobe Experience Platform的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由之前放置的&#x200B;**更新用户档案**&#x200B;操作更新的“字段1”，则不应期望该操作中会更新“字段1”。
 * **更新配置文件**&#x200B;活动不支持定义为枚举的XDM字段。
 * **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，而不更新数据湖。
-* 在&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;活动中选择数据集时，建议使用未被数据摄取流定位的数据集。 由于&#x200B;**更新配置文件**&#x200B;更新仅存储在[配置文件存储区](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中，因此存在用数据摄取流覆盖此类更改的风险。
 
-  此外，**更新配置文件**&#x200B;活动配置不需要标识命名空间。 因此，请确保所选数据集使用的身份命名空间与启动历程的操作所使用的命名空间相同，因为这些更新将使用此命名空间。 所选数据集也可以使用身份映射。 如果未能选择具有正确命名空间的数据集或使用标识映射的数据集，则会导致&#x200B;**更新配置文件**&#x200B;活动失败。
+## 数据集选择 {#dataset-selection}
 
+**更新配置文件**&#x200B;活动需要专用数据集来存储更新。 由于此活动仅更新配置文件存储（而不是Datalake），因此所有更新都应保存在专门为&#x200B;**更新配置文件**&#x200B;操作指定的启用配置文件的数据集中。 使用用于批处理或流式摄取的数据集将导致新载入的数据覆盖&#x200B;**更新配置文件**&#x200B;操作所做的更改。
 
+此外，**更新配置文件**&#x200B;活动配置不需要标识命名空间。 因此，请确保所选数据集使用启动历程的操作所使用的相同&#x200B;**身份命名空间**，因为它是这些更新将使用的命名空间。 所选数据集也可以使用身份映射。 如果未能选择具有正确命名空间或使用标识映射的数据集，将导致更新配置文件活动失败。
 
 ## 使用用户档案更新
 
