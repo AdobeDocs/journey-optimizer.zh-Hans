@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Content Accelerator中的AI Assistant入门
-description: 了解如何在Journey Optimizer Content Accelerator中访问和使用AI Assistant
+title: Journey Optimizer 内容加速器中的 AI 助手入门
+description: 了解如何访问和使用 Journey Optimizer 内容加速器中的 AI 助手
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 开始使用 AI 助手内容加速器 {#gs-content-assistant}
+# AI 助手内容加速器入门 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!INFO]
 >
->使用[我们的实时功能预览](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}，亲身体验亲身体验各种功能，让您亲身体验各种功能并充分了解其功能。
+>通过[我们的实时功能预览](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。
 
 
 由 Microsoft Azure OpenAI 和 Adobe Firefly 提供支持的 Adobe Journey Optimizer for Content Acceleration 中的 AI 助手为文本和图像提供了主动的内容变体建议。这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
