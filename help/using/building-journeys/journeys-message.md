@@ -1,98 +1,137 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在历程中添加消息
-description: 了解如何在历程中添加消息
+title: 将内置渠道操作添加到历程
+description: 了解如何将内置渠道操作添加到历程
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 历程，消息，推送，短信，电子邮件，应用程序内
+keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 17%
+source-wordcount: '1268'
+ht-degree: 14%
 
 ---
 
-# 发送电子邮件、应用程序内消息、推送消息和短信 {#add-a-message-in-a-journey}
+# 使用内置渠道操作 {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="消息活动"
->abstract="Journey Optimizer 附带内置消息功能。只需在历程中添加推送、短信 (SMS/MMS)、应用程序内消息或电子邮件活动并定义设置和内容即可。然后将在历程的上下文中执行和发送它。"
+>title="内置渠道操作"
+>abstract="Journey Optimizer附带内置渠道操作功能。 您只需将出站(电子邮件、短信(SMS/MMS)、推送)或入站（应用程序内、Web、基于代码的体验、内容卡片）活动添加到历程中，并定义设置和内容即可。 然后将在历程的上下文中执行和发送它。"
 
-[!DNL Journey Optimizer]附带内置消息功能。 您只需在历程中添加推送、短信/彩信、应用程序内或电子邮件消息活动，并定义设置和内容即可。 然后将在历程的上下文中执行和发送它。
+[!DNL Journey Optimizer]附带内置渠道操作功能。 您只需将出站(电子邮件、短信(SMS/MMS)、推送)或入站（应用程序内、Web、基于代码的体验、内容卡片）活动添加到历程中，并定义设置和内容即可。 然后将在历程的上下文中执行和发送它。
 
-您还可以设置向您发送消息的特定操作：
+>[!NOTE]
+>
+>您还可以设置特定操作以向您发送消息。 [了解详情](#recommendation)
 
-* 如果您使用第三方系统来发送消息，则可以创建自定义操作。 在此[部分](../action/action.md)中了解详情。
+要将内置渠道操作添加到历程，请执行以下步骤。
+
+1. 通过[事件](general-events.md)或[读取受众](read-audience.md)活动开始您的历程。
+
+1. 从调色板的&#x200B;**操作**&#x200B;部分，将出站（**电子邮件**、**推送**、**短信**）或入站（**应用程序内**、**Web**、**基于代码的体验**、**内容卡**）活动拖放到画布中。
+
+   ![](assets/journey-web-activity.png)
+
+1. 配置您的活动。
+
+   * 了解创建消息内容的详细步骤，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="不频繁" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>创建推送通知<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="验证" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>创建短信(SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * 了解创建集客操作的详细步骤，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>创建应用程序内消息</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>创建Web体验</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="潜在客户" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>创建内容卡</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="不频繁" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>创建基于代码的体验<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+     >[!NOTE]
+     >
+     >每个入站消息活动都具有3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
+
+## 推荐 {#recommendation}
+
+[!DNL Journey Optimizer]附带内置消息功能。 但是，通过自定义操作，您可以配置第三方系统的连接以发送消息或API调用。
+
+* 如果您使用第三方系统来发送消息，则可以创建自定义操作。 [了解详情](../action/action.md)
 
 * 如果您使用的是Campaign和Journey Optimizer，请参阅以下部分：
 
    * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
 
-要在历程中添加消息，请执行以下步骤：
-
-1. 通过[事件](general-events.md)或[读取受众](read-audience.md)活动开始您的历程。
-
-1. 从调色板的&#x200B;**操作**&#x200B;部分，将&#x200B;**电子邮件**、**应用程序内**、**短信**&#x200B;或&#x200B;**推送**&#x200B;活动拖放到画布中。
-
-1. 配置您的活动。
-
-   在以下页面中了解创建消息内容的详细步骤：
-
-   <table style="table-layout:fixed">
-   <tr style="border: 0;">
-   <td>
-   <a href="../email/create-email.md">
-   <img alt="潜在客户" src="../assets/do-not-localize/email.jpg">
-   </a>
-   <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../in-app/create-in-app.md">
-   <img alt="潜在客户" src="../assets/do-not-localize/in-app.jpg">
-   </a>
-   <div><a href="../in-app/create-in-app.md"><strong>创建应用程序内消息</strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../push/create-push.md">
-   <img alt="不频繁" src="../assets/do-not-localize/push.jpg">
-   </a>
-   <div>
-   <a href="../push/create-push.md"><strong>创建推送通知<strong></a>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../sms/create-sms.md">
-   <img alt="验证" src="../assets/do-not-localize/sms.jpg">
-   </a>
-   <div>
-   <a href="../sms/create-sms.md"><strong>创建短信(SMS/MMS)</strong></a>
-   </div>
-   <p>
-   </td>
-   </tr>
-   </table>
-
->[!NOTE]
->
->每个入站消息活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
->
-
 ## 更新实时内容{#update-live-content}
 
-您可以在实时历程中更新消息的内容（电子邮件、应用程序内、推送、短信）。
+您可以在实时历程中更新内置渠道操作的内容。
 
-为此，请打开您的实时历程，选择消息活动，然后单击&#x200B;**编辑内容**。
+为此，请打开您的实时历程，选择渠道活动，然后单击&#x200B;**编辑内容**。
 
 ![](assets/add-a-message2.png)
 
@@ -114,10 +153,12 @@ ht-degree: 17%
 >[!NOTE]
 >
 >默认情况下，此功能未启用。 请联系您的Adobe代表以将其激活。
+>
+>发送时间优化功能仅适用于电子邮件和推送渠道。
 
 ### 关于发送时间优化 {#about-send-time}
 
-Adobe Journey Optimizer的发送时间优化功能由Adobe的AI服务提供支持，可以根据历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，从而最大化参与度。 使用我们的机器学习模型安排每个用户的个性化发送时间，以增加消息的打开率和点击率。
+Adobe Journey Optimizer的发送时间优化功能由Adobe的AI服务提供支持，可根据历史打开率和点击率，预测发送&#x200B;**电子邮件**&#x200B;或&#x200B;**推送消息**&#x200B;的最佳时间，从而最大限度地提高参与度。 使用我们的机器学习模型安排每个用户的个性化发送时间，以增加消息的打开率和点击率。
 
 发送时间优化模型会摄取您的Adobe Journey Optimizer数据，并查看用户级别的打开率（适用于电子邮件和推送）和点击率（适用于电子邮件），以确定客户何时最有可能参与您的消息传送。 发送时间优化需要至少一个月的消息跟踪数据才能提出明智的建议。 对于每个用户，系统将使用以下得分自动选择最佳时间：
 
