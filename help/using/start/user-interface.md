@@ -206,7 +206,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="将规则集应用于历程"
->abstract="应用规则集，根据频率上限规则将此历程排除在部分受众之外。"
+>abstract="应用规则集，根据频率上限规则将此历程排除到部分受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -216,7 +216,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="优先级展望"
->abstract=" 如果在此指定的时间段内安排了具有更高优先级的历程，则会禁止客户进入此历程。对于您希望以先到先入的方式进入历程的情况，我们建议您选择每日展望期，并确保当天任何其他历程的优先级得分低于该历程的优先级得分。为历程提供 100 分的优先级分数也能确保该进入该历程。"
+>abstract=" 如果在此指定的时段内安排了较高优先级的历程，则将禁止客户进入此历程。对于希望按先后顺序进入历程的情况，我们建议选择“每日”展望时段，并确保当天任何其他历程的优先级分数低于该历程的优先级分数。向历程提供 100 分的优先级也可确保进入该历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"

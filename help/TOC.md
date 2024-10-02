@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
 source-wordcount: '2055'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -176,9 +176,9 @@ ht-degree: 95%
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
 + 测试和批准{#test}
-   + [冲突管理和优先处理](using/test-approve/conflict-prioritization.md)
+   + [冲突管理和优先级](using/test-approve/conflict-prioritization.md)
    + 预览和测试内容{#preview-test}
-      + [使用示例输入数据测试内容](using/test-approve/simulate-sample-input.md)
+      + [使用示例输入数据测试您的内容](using/test-approve/simulate-sample-input.md)
       + [预览和测试入门](using/content-management/preview-test.md)
       + [选择测试用户档案](using/content-management/test-profiles.md)
       + [预览您的内容](using/content-management/preview.md)
@@ -272,9 +272,9 @@ ht-degree: 95%
    + [创建基于代码的体验](using/code-based/create-code-based.md)
 + 内容卡片{#content-card}
    + [内容卡片入门](using/content-card/get-started-content-card.md)
-   + 配置内容卡渠道{#configure}
-      + [内容卡先决条件](using/content-card/content-card-configuration-prereq.md)
-      + [在Journey Optimizer中配置内容卡渠道](using/content-card/content-card-configuration.md)
+   + 配置内容卡片渠道{#configure}
+      + [内容卡片先决条件](using/content-card/content-card-configuration-prereq.md)
+      + [在 Journey Optimizer 中配置内容卡片渠道](using/content-card/content-card-configuration.md)
       + [在Web SDK中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
    + [创建内容卡片](using/content-card/create-content-card.md)
    + [设计内容卡片](using/content-card/design-content-card.md)
@@ -293,12 +293,12 @@ ht-degree: 95%
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
    + 使用 AI 助手{#ai-assistant}
-      + [开始使用 AI 助手内容加速器](using/content-management/gs-generative.md)
-      + [使用人工智能生成电子邮件](using/content-management/generative-email.md)
-      + [使用AI进行推送生成](using/content-management/generative-push.md)
-      + [使用人工智能生成短信](using/content-management/generative-sms.md)
-      + [使用人工智能进行Web生成](using/content-management/generative-web.md)
-      + [使用AI进行内容试验](using/content-management/generative-experimentation.md)
+      + [AI 助手内容加速器入门](using/content-management/gs-generative.md)
+      + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
+      + [使用 AI 生成推送内容](using/content-management/generative-push.md)
+      + [使用 AI 生成短信](using/content-management/generative-sms.md)
+      + [使用 AI 生成 Web 内容](using/content-management/generative-web.md)
+      + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)

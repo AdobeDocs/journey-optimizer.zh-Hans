@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 52%
+ht-degree: 81%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 52%
 >
 -->
 
-**发行日期**： 2024年9月24日至26日
+**发行日期**：2024 年 9 月 24-26 日
 
 ### 新功能 {#24-9-features}
 
@@ -68,7 +68,7 @@ ht-degree: 52%
 <tbody>
 <tr>
 <td>
-<p>现在，通过审批策略，您可以在Journey Optimizer中设置审批流程，从而允许营销团队确保活动及历程在投入使用之前由相应的利益相关者审查和签署。</p>
+<p>现在，通过审批策略，您可以在 Journey Optimizer 中设置审批流程，从而使营销团队可以确保营销活动及历程在投入使用之前由相应的负责人审查和签署。</p>
 <p>批准策略当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../test-approve/gs-approval.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
@@ -103,7 +103,7 @@ ht-degree: 52%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在历程级别定义退出标准。 通过添加退出条件，您可以让用户档案在事件发生后（例如：购买）或符合受众资格时立即退出历程。 这将阻止用户从历程中获得任何进一步的通信。</p>
+<p>现在，您可以在历程级别定义退出标准。通过添加退出条件，您可以在事件发生后（例如：购买）或符合受众的条件时，让用户档案立即退出历程。这将阻止用户从历程收到任何进一步的通信。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-properties.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -192,7 +192,7 @@ ht-degree: 52%
 **受众**
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* （可用日期： 9月17日）**许可证使用情况** — 许可证使用情况仪表板现在显示可参与的用户档案，而不是可参与的受众。 [了解详情](../audience/license-usage.md)
+* （发布日期：9 月 17 日）**许可证使用情况** - 许可证使用情况仪表板现在显示符合资格的用户档案，而不是符合资格的受众。[了解详情](../audience/license-usage.md)
 
 **内容管理**
 
@@ -214,32 +214,32 @@ ht-degree: 52%
 
 <!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **实时报告增强功能** — 实时报告提供过去24小时内历程性能的分析。 我们通过添加新量度（错误地输入、退出、丢弃的用户档案和用户档案）来增强此功能，以便您直接从历程画布更深入地了解用户行为和性能。 [了解详情](../building-journeys/report-journey.md)
+* **实时报告增强功能** - 实时报告可提供有关过去 24 小时内的历程绩效的深入见解。我们通过添加新量度（错误地输入、退出、丢弃的用户档案和用户档案）来增强此功能，以便您直接从历程画布更深入地了解用户行为和性能。 [了解详情](../building-journeys/report-journey.md)
 
 <!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
-* （可用性日期： 9月10日）**读取受众上的自动重试** — 现在，在检索导出作业时，默认情况下对受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）应用重试。 如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
+* （发布日期：9 月 10 日）**自动重试读取受众** - 现在，在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
 
 **电子邮件渠道**
 
-* 已发送电子邮件和密件抄送中的&#x200B;**邮件头** — 已为所有电子邮件添加了新邮件头。 此标头的值对于已发送的每封电子邮件及其对应的密件抄送电子邮件副本都是唯一的。 此标头还存储在消息和密件抄送反馈数据集中，允许协调密件抄送副本和相应的已发送电子邮件信息。 [了解详情](../configuration/archiving-support.md#bcc-header)
+* 已发送电子邮件和密件抄送中的&#x200B;**邮件头** — 已为所有电子邮件添加了新邮件头。 对于已发送的每封电子邮件及其对应的密件抄送电子邮件副本来说，此标头值都是唯一的。此标头还存储在消息和密件抄送反馈数据集中，允许协调密件抄送副本和相应的已发送电子邮件信息。 [了解详情](../configuration/archiving-support.md#bcc-header)
 
 * **垃圾邮件评分** (GA) — 您现在可以在专用的&#x200B;**垃圾邮件报告**&#x200B;中检查您的内容垃圾邮件评分。 通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
 
 **短信渠道**
 
-* **编辑API凭据** — 您现在可以编辑SMS API凭据中的设置，包括对选择启用/禁用关键字和回复的更新。
+* **编辑 API 凭据** - 您现在可以编辑短信 API 凭据中的设置，包括更新选择启用/禁用关键字和回复。
 
 **API**
 
-* **营销活动模拟API** — 使用此API触发营销活动的验证作业。 发送Campaign验证是一个异步过程，该API将返回一个proofJobId，可用于检查验证的状态。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **营销活动模拟 API** - 使用此 API 触发营销活动的验证作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* （发布日期： 9月10日）[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面浏览API端点，以立即获得反馈并加快技术实施。
+* （发布日期： 9月10日）[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面探索 API 端点，以获得即时反馈并加快您的技术实施。
 
 
-  现在，所有API引用页面都具有&#x200B;**尝试**&#x200B;功能，可用于直接在文档网站页面上测试API调用。 [获取所需的身份验证凭据](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}并开始使用功能来浏览API端点。
+  所有 API 参考页面现在都有 **Try it（试试看）**&#x200B;功能，您可以使用它直接在文档网站页面上测试 API 调用。[获取所需的身份验证凭据](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}并开始使用该功能探索 API 端点。
 
-  使用此新功能来探索对API端点的请求和响应，以立即获得反馈并加快您的技术实施。
+  使用此新功能来探索 API 端点的请求和响应，以获得即时反馈并加快您的技术实施。
 
   >[!CAUTION]
   >
