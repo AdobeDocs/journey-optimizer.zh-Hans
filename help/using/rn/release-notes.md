@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 72%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 74%
 <p>借助基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站属性进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。 现在，历程画布中提供了基于代码的体验渠道。</p>
 <p>有关更多信息，请参阅<a href="../code-based/create-code-based.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>可用日期：10月1日</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ ht-degree: 74%
 <p>借助Web渠道，Adobe Journey Optimizer允许您通过入站Web历程为客户提供Web体验，并使之个性化。 Web渠道现在可在历程画布中使用。</p>
 <p>有关更多信息，请参阅<a href="../web/create-web.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>可用日期：10月1日</p>
 </tr>
 </tbody>
 </table>
+
+
+**历程改进**
+
+* （可用性日期： 10月3日）自定义操作中的&#x200B;**参数** — 自定义操作中现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## 2024 年 9 月发行说明 {#24-9-rn}
 
@@ -256,7 +265,6 @@ ht-degree: 74%
 
 * **实时报告增强功能** - 实时报告可提供有关过去 24 小时内的历程绩效的深入见解。我们通过添加新量度（错误地输入、退出、丢弃的用户档案和用户档案）来增强此功能，以便您直接从历程画布更深入地了解用户行为和性能。 [了解详情](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * （发布日期：9 月 10 日）**自动重试读取受众** - 现在，在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
 

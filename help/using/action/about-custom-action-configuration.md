@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 21%
+source-wordcount: '1671'
+ht-degree: 20%
 
 ---
 
@@ -149,7 +149,9 @@ ht-degree: 21%
 
 您可以定义有效负载参数，如下所示：
 
-1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。<!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
+1. 在&#x200B;**[!UICONTROL 请求]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。 此字段为可选字段，仅适用于POST和PUT调用方法。
+
+   启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，发送int、字符串等数组。 中为Null的值不完全受支持。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
 1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
 
@@ -170,9 +172,9 @@ ht-degree: 21%
 
    * **常量**&#x200B;表示参数的值由技术角色在操作配置窗格中定义。 值将在各个历程中始终相同。 此操作不会发生改变，且营销人员在历程中使用自定义操作时无法看到它。 例如，它可能是第三方系统期望的ID。 在这种情况下，常量值将设置为切换常量/变量右侧的字段。
 
-   * **变量**&#x200B;表示参数的值将发生变化。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定从何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
+   * **变量**&#x200B;表示参数的值可以改变。 在历程中使用此自定义操作的营销人员可以自由传递他们想要的值，或指定从何处检索此参数的值(例如，从事件、Adobe Experience Platform等)。 在这种情况下，切换常量/变量右侧的字段是营销人员将在历程中看到的用于命名此参数的标签。
 
-<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+  对于可选参数，启用行末的&#x200B;**[!UICONTROL Is optional]**&#x200B;选项。 通过选中此选项，您可以将参数标记为非必需，并让历程参与者在历程中创作该自定义操作时选择是否填写参数。
 
 >[!NOTE]
 >
