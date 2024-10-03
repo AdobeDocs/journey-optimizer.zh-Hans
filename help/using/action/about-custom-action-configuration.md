@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
+source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1670'
 ht-degree: 20%
 
 ---
@@ -153,13 +153,13 @@ ht-degree: 20%
 
    启用&#x200B;**[!UICONTROL 允许NULL值]**&#x200B;选项以在外部调用中保留Null值。 请注意，发送int、字符串等数组。 中为Null的值不完全受支持。 例如，即使选中了此选项，以下整数数组`[1, null, 2, 3]`也会作为`[1, 2, 3]`发送。 此外，如果此类数组为null，则会作为空数组发送。
 
-1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
+   ![](assets/null-values.png)
 
-![](assets/action-response2bis.png){width="70%" align="left"}
+1. 在&#x200B;**[!UICONTROL 响应]**&#x200B;部分中，粘贴调用返回的有效负载示例。 此字段是可选字段，可用于所有调用方法。 有关如何在自定义操作中利用API调用响应的详细信息，请参阅[此页面](../action/action-response.md)。
 
 >[!NOTE]
 >
->有效负载中的字段名称不能包含“。” 字符。 不能以“$”字符开头。
+>有效负载中的字段名称不能包含点`.`字符，也不能以`$`字符开头。
 >
 
 ![](assets/customactionpayloadmessage2.png)
