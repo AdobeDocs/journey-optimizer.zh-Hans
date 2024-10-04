@@ -5,9 +5,9 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9688a0303726d706106ba7c89157529e02ecbfca
+source-git-commit: b29179518dec9a4c034e6dd21972aa2145839739
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '391'
 ht-degree: 91%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 >[!BEGINTABS]
 
->[!TAB 9月版]
+>[!TAB 2024年9月版]
 
 9月版本现已上线，包括移动应用程序和网站的内容卡、历程和营销活动(LA)中的审批策略、历程中的全局退出标准等。
 
