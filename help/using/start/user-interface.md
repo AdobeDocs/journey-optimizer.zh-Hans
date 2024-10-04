@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 100%
@@ -60,7 +60,7 @@ ht-degree: 100%
 * **[!UICONTROL 登陆页面]** - 创建、设计、测试和发布登陆页面：将用户链接发送到在线表单，用户可以在其中选择加入或选择退出接收通信，或订阅特定服务。[了解详情](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL 决策管理] {#left-nav-offers}
+### [!UICONTROL 决策管理] {#left-nav-decision}
 
 通过此部分创建优惠和组件。
 
