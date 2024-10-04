@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4540'
 ht-degree: 2%
 
 ---
@@ -844,14 +844,3 @@ KPI将因您的营销活动中使用的渠道而异。
 
 +++
 
-### 跟踪关联 URL {#tracked-link-url}
-
-**[!UICONTROL 跟踪的链接URL]**&#x200B;表提供了内容卡中吸引最高访客流量的URL的全面概述。 这使您能够识别最受欢迎的链接并排定其优先级，从而加深您对内容卡中特定内容的用户档案参与情况的了解。
-
-+++ 了解有关跟踪的链接URL量度的更多信息
-
-* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
-
-* **[!UICONTROL 点击次数]**：内容卡片中被点击的次数。
-
-+++

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4184'
+source-wordcount: '4802'
 ht-degree: 2%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 2%
 * [应用程序内](#in-app-global)
 * [Web](#web-cja)
 * [直邮](#direct-mail-cja)
+* [基于代码](#code-based)
+* [内容信息卡](#content-card)
 
 要了解有关Customer Journey AnalyticsWorkspace以及如何筛选和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
@@ -641,16 +643,15 @@ ht-degree: 2%
 
 ![](assets/cja-web-displays.png)
 
-**[!UICONTROL 显示]**&#x200B;图形可帮助您了解消息的整体影响范围以及与消息交互的唯一用户档案的数量。
+**[!UICONTROL 显示]**&#x200B;图形可帮助您了解基于代码的体验已打开的总体影响范围以及与其交互的唯一配置文件的数量。
 
 +++ 了解有关显示量度的更多信息
 
-* **[!UICONTROL 显示]**：消息的打开次数。
+* **[!UICONTROL 显示]**：基于代码的体验的打开次数。
 
-* **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
+* **[!UICONTROL 唯一显示]**：基于代码的体验的打开次数，一个配置文件的多个交互未考虑在内。
 
 +++
-
 
 ### 跟踪数据 {#track-data-web}
 
@@ -761,3 +762,119 @@ ht-degree: 2%
 **[!UICONTROL 排除原因]**&#x200B;表直观地描述了导致从目标受众中排除用户配置文件，从而阻止他们接收直邮消息的各种因素。
 
 有关排除原因的完整列表，请参阅[此页面](exclusion-list.md)。
+
+## 基于代码的体验
+
+### 显示并点击 {#impressions-code}
+
+![](assets/code-based-display.png)
+
+**[!UICONTROL 显示和点击]**&#x200B;图形显示配置文件与您的基于代码的体验的互动情况的详细分析，提供有关配置文件与您的内容如何互动的宝贵见解。
+
++++ 了解有关“展示次数”和“点击次数”量度的更多信息
+
+* **[!UICONTROL 唯一点击次数]**：点击您体验中内容的用户档案数。
+
+* **[!UICONTROL 点击次数]**：内容在体验中的点击次数。
+
+* **[!UICONTROL 显示]**：体验被打开的次数。
+
+* **[!UICONTROL 独特显示]**：体验打开的次数，一个配置文件的多个交互未考虑在内。
+
++++
+
+### 跟踪数据 {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+**[!UICONTROL 跟踪数据]**&#x200B;表提供与您的基于代码的体验绑定的配置文件活动的详细快照，提供有关参与和体验效果的基本见解。
+
++++ 了解有关跟踪数据量度的更多信息
+
+* **[!UICONTROL 人员]**：符合体验目标配置文件资格的用户配置文件数。
+
+* **[!UICONTROL 点进率(CTR)]**：与您的体验交互的用户百分比。
+
+* **[!UICONTROL 点击次数]**：内容在体验中的点击次数。
+
+* **[!UICONTROL 唯一点击次数]**：点击您体验中内容的用户档案数。
+
+* **[!UICONTROL 显示]**：您的体验被打开的次数。
+
+* **[!UICONTROL 独特显示]**：您的体验被打开的次数，一个配置文件的多个交互未考虑在内。
+
++++
+
+### 跟踪关联标签 {#track-link-code}
+
+**[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了基于代码的体验中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
+
++++ 了解有关跟踪链接标签量度的更多信息
+
+* **[!UICONTROL 唯一点击次数]**：点击了您的基于代码的体验中的内容的用户档案数。
+
+* **[!UICONTROL 点击次数]**：在基于代码的体验中点击内容的次数。
+
+* **[!UICONTROL 显示]**：体验被打开的次数。
+
+* **[!UICONTROL 独特显示]**：体验打开的次数，一个配置文件的多个交互未考虑在内。
+
++++
+
+## 内容信息卡 {#content-card}
+
+### 显示并点击 {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+**[!UICONTROL 显示和点击]**&#x200B;图形显示配置文件与内容卡参与情况的详细分析，从而提供配置文件与内容交互方式的宝贵见解。
+
++++ 了解有关显示和点击量度的更多信息
+
+* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
+
+* **[!UICONTROL 点击次数]**：内容卡片中被点击的次数。
+
+* **[!UICONTROL 显示]**：内容卡被打开的次数。
+
+* **[!UICONTROL 独特显示]**：内容卡被打开的次数，一个配置文件的多个交互未考虑在内。
+
++++
+
+### 跟踪数据 {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+**[!UICONTROL 跟踪数据]**&#x200B;表提供了与您的内容卡绑定的配置文件活动的详细快照，提供了有关参与和体验效果的基本见解。
+
++++ 了解有关跟踪数据量度的更多信息
+
+* **[!UICONTROL 人员]**：符合内容卡目标配置文件资格的用户配置文件数。
+
+* **[!UICONTROL 点进率(CTR)]**：与您的内容卡交互的用户百分比。
+
+* **[!UICONTROL 点击次数]**：内容卡片中被点击的次数。
+
+* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
+
+* **[!UICONTROL 显示]**：内容卡被打开的次数。
+
+* **[!UICONTROL 独特显示区]**：内容卡被打开的次数，一个配置文件的多个交互未考虑在内。
+
++++
+
+### 跟踪关联标签 {#track-link-content}
+
+**[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了内容卡中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
+
++++ 了解有关跟踪链接标签量度的更多信息
+
+* **[!UICONTROL 唯一点击次数]**：点击内容卡中内容的配置文件数。
+
+* **[!UICONTROL 点击次数]**：内容卡片中被点击的次数。
+
+* **[!UICONTROL 显示]**：内容卡被打开的次数。
+
+* **[!UICONTROL 独特显示]**：内容卡被打开的次数，一个配置文件的多个交互未考虑在内。
+
++++
