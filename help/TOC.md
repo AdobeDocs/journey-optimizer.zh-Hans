@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 97%
 
 ---
@@ -307,7 +307,6 @@ ht-degree: 97%
    + 使用内容试验{#content-experiment}
       + [内容体验入门](using/content-management/get-started-experiment.md)
       + [创建内容体验](using/content-management/content-experiment.md)
-      + [配置实验报告](using/content-management/reporting-configuration.md)
       + 技术说明 {#technotes}
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
@@ -411,6 +410,7 @@ ht-degree: 97%
    + [排除原因](using/reports/exclusion-list.md)
 + 新报告界面 (LA){#channel-report}
    + [新的报告界面入门](using/reports/report-gs-cja.md)
+   + [报告和试验先决条件](using/reports/reporting-configuration.md)
    + [管理您的报告](using/reports/report-cja-manage.md)
    + [历程报告](using/reports/journey-global-report-cja.md)
    + [营销活动报告](using/reports/campaign-global-report-cja.md)

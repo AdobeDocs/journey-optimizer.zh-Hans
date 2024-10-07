@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->每个组织仅限发布25个受众。 此外，用户每小时最多可发布5个受众，每天最多可发布20个受众
+>每个组织仅限发布25个受众。 此外，用户每小时最多可发布5个受众，每天最多可发布20个受众。
+> 一次性受众的生命周期为48小时。 因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
 
 现在，您可以选择表中的特定数据并直接从这些选择创建受众，从而简化和简化受众创建过程。
 

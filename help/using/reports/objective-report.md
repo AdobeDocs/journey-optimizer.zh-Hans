@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta 版" type="Informative"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ ht-degree: 4%
 
 **[!UICONTROL 目标]**&#x200B;选项卡允许您通过定位一个特定量度来更好地优化投放的报告。
 
-列出的&#x200B;**[!UICONTROL 目标]**&#x200B;链接到&#x200B;**[!UICONTROL 数据集]**，这些数据集定义了到系统的连接，以便检索其他信息。 内置&#x200B;**[!UICONTROL 目标]**&#x200B;的列表可用，但您可以通过添加新的&#x200B;**[!UICONTROL 数据集]**&#x200B;来添加您自己的目标。 有关详细过程，请参阅此[部分](../content-management/reporting-configuration.md)。
+列出的&#x200B;**[!UICONTROL 目标]**&#x200B;链接到&#x200B;**[!UICONTROL 数据集]**，这些数据集定义了到系统的连接，以便检索其他信息。 内置&#x200B;**[!UICONTROL 目标]**&#x200B;的列表可用，但您可以通过添加新的&#x200B;**[!UICONTROL 数据集]**&#x200B;来添加您自己的目标。 有关详细过程，请参阅此[部分](../reports/reporting-configuration.md)。
 
 选择目标后，两个&#x200B;**[!UICONTROL 性能概述]**&#x200B;和&#x200B;**[!UICONTROL 营销活动目标]**&#x200B;构件将提供传递性能的详细摘要。
 

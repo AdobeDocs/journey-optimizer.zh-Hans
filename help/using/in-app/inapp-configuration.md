@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '867'
 ht-degree: 9%
 
 ---
@@ -109,19 +109,21 @@ ht-degree: 9%
 
 现在，您可以在创建应用程序内消息时选择配置。
 
-## 内容试验先决条件 {#experiment-prerequisites}
-
-要为应用程序内渠道启用内容实验，您需要确保在应用程序内实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报表配置中。
-
-换句话说，在配置试验报告时，如果添加的数据集不在Web数据流中，则Web数据将不会显示在内容试验报告中。
-
-在[本节](../content-management/reporting-configuration.md#add-datasets)中了解如何为内容试验报告添加数据集。
+## 报告先决条件 {#experiment-prerequisites}
 
 >[!NOTE]
 >
 >该数据集由[!DNL Journey Optimizer]报表系统以只读方式使用，不影响数据收集或数据摄取。
 
+要为应用程序内渠道启用报表，您需要确保应用程序内实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报表配置中。
+
+换言之，在配置报表时，如果添加的数据集不在应用程序数据流中，则应用程序数据将不会显示在报表中。
+
+在[本节](../reports/reporting-configuration.md#add-datasets)中了解如何添加用于报告的数据集。
+
 如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event`（如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]内容试验报告需要这些项，因为它们正在跟踪每个配置文件参与哪些试验和处理。
+
+[了解有关报告配置的更多信息](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >

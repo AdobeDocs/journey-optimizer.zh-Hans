@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 100%
+source-wordcount: '1507'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 配置]** - 使用此菜单来配置要在历程中使用的[事件](../event/about-events.md)、[数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)。
 
-  您还可以访问&#x200B;**报告**&#x200B;部分，以便为营销活动试验配置报告。[了解详情](../content-management/reporting-configuration.md)
+  您还可以访问&#x200B;**报表**&#x200B;部分以配置营销活动试验和Web/移动设备的报表。 [了解详情](../reports/reporting-configuration.md)
 
 * **[!UICONTROL 业务规则]** - 使用此部分可创建跨渠道业务规则，控制用户接收消息或进入历程的频率。[了解详情](../configuration/frequency-rules.md)
 

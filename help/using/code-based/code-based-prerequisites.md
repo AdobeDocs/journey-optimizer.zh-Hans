@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '580'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 3%
 
   [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
 
-## 内容试验先决条件 {#experiment-prerequisites}
+## 报告先决条件 {#experiment-prerequisites}
 
-要为基于代码的渠道启用内容实验，您需要确保在应用程序实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报表配置中。
+要为基于代码的渠道启用报告，您需要确保在应用程序实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报告配置中。
 
-换言之，在配置实验报告时，如果添加的数据集不在应用程序数据流中，则应用程序数据将不会显示在内容实验报告中。
+换言之，在配置报表时，如果添加的数据集不在应用程序数据流中，则应用程序数据将不会显示在报表中。
 
-在[本节](../content-management/reporting-configuration.md#add-datasets)中了解如何为内容试验报告添加数据集。
+在[本节](../reports/reporting-configuration.md#add-datasets)中了解如何添加用于报告的数据集。
 
 >[!NOTE]
 >
