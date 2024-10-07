@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 72%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 72%
 
 ## 2024年10月更新 {#24-10-rn}
 
+### 新功能 {#24-10-features}
+
 下面列出了Adobe Journey Optimizer中可用的最新功能。
 
 <table>
@@ -39,6 +41,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
+<p>可用日期：10月1日</p>
 <p>借助基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站属性进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。 现在，历程画布中提供了基于代码的体验渠道。</p>
 <p>有关更多信息，请参阅<a href="../code-based/create-code-based.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
+<p>可用日期：10月1日</p>
 <p>借助Web渠道，Adobe Journey Optimizer允许您通过入站Web历程为客户提供Web体验，并使之个性化。 Web渠道现在可在历程画布中使用。</p>
 <p>有关更多信息，请参阅<a href="../web/create-web.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ ht-degree: 72%
 </tbody>
 </table>
 
+### 改进 {#24-10-improvements}
 
-**历程改进**
+**历程**
 
 * （可用性日期： 10月3日）自定义操作中的&#x200B;**参数** — 自定义操作中现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
