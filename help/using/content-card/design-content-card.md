@@ -4,10 +4,10 @@ description: 了解如何设计内容卡内容
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 2%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -39,17 +39,19 @@ ht-degree: 2%
 
 ![](assets/content-card-design-2.png)
 
-+++更多高级格式选项
-
-如果&#x200B;**[!UICONTROL 高级格式模式]**&#x200B;已打开，则可以选择&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**：
-
-* **[!UICONTROL 字体]**
-* **[!UICONTROL Pt大小]**
-* **[!UICONTROL 字体颜色]**
-* **[!UICONTROL 对齐方式]**
-+++
-
 如果要进一步定制消息，请使用&#x200B;**[!UICONTROL Personalization]**&#x200B;图标添加个性化元素。 有关如何使用个性化功能的详细说明，请参阅[此章节](../personalization/personalize.md)。
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
++++
+-->
 
 ### 媒体 {#add-media}
 
@@ -59,11 +61,13 @@ ht-degree: 2%
 
 要包含媒体，请键入要使用的媒体的URL，或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标以从Assets库中存储的资源中进行选择。 [了解有关资产管理的更多信息](../content-management/assets.md)。
 
-+++更多高级格式选项
+<!--
++++More options with advanced formatting
 
-如果&#x200B;**[!UICONTROL 高级格式模式]**&#x200B;已打开，您可以在&#x200B;**[!UICONTROL 深色模式媒体URL]**&#x200B;字段中添加用于屏幕阅读应用程序的&#x200B;**[!UICONTROL 替换文本]**&#x200B;和另一个资产。
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### 按钮 {#add-buttons}
 
@@ -79,16 +83,18 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL Target]**&#x200B;字段中，输入用户在与按钮交互后将定向到的Web URL或深层链接。
 
-+++更多高级格式选项
+<!--
++++More options with advanced formatting
 
-如果&#x200B;**[!UICONTROL 高级格式模式]**&#x200B;已打开，则可以选择&#x200B;**[!UICONTROL 按钮]**：
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
-* **[!UICONTROL 字体]**
-* **[!UICONTROL Pt大小]**
-* **[!UICONTROL 字体颜色]**
-* **[!UICONTROL 对齐方式]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### 单击行为
 
