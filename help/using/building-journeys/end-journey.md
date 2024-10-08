@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 重新进入、历程、结束、直播、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 1%
+source-wordcount: '689'
+ht-degree: 2%
 
 ---
 
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 旅程可能由于以下原因而关闭：
 
 * 历程已通过&#x200B;**[!UICONTROL 关闭新入口]**&#x200B;按钮手动关闭。
-* 基于一次性区段的历程，该历程已完成执行。
+* 基于单次区段的历程，该历程已完成执行并达到91天的全局超时。
 * 最后一次发生基于受众的周期性历程后。
 
-手动关闭历程可确保已进入历程的客户能够完成其路径，但新用户无法进入历程。 当历程关闭时（由于上述任何原因），其状态为&#x200B;**[!UICONTROL 已关闭]**。 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。
+手动关闭历程可确保已进入历程的客户能够完成其路径，但新用户无法进入历程。 当历程关闭时（由于上述任何原因），其状态为&#x200B;**[!UICONTROL 已关闭]**。 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。 在默认全局超时91天后，历程将切换到“已完成”状态。 请参阅[此小节](journey-properties.md#timeout)。
 
 在91天[全局超时](journey-properties.md#timeout)后，读取受众历程将切换到&#x200B;**已完成**&#x200B;状态。 此行为仅设置为91天（即[历程全局超时值](journey-properties.md#global_timeout)），因为有关进入历程的用户档案的所有信息在进入91天后都将被删除。 仍在历程中的人员会自动受到影响。 他们在91天超时后退出历程。
 
