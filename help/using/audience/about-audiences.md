@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 20%
+source-wordcount: '2272'
+ht-degree: 17%
 
 ---
 
@@ -67,25 +67,15 @@ ht-degree: 20%
 
 ## 使用受众扩充属性 {#enrichment}
 
-在对使用合成工作流生成的受众进行定位时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
+当定位使用合成工作流或自定义（CSV文件）受众生成的受众时，您可以利用这些受众的扩充属性来构建您的历程并个性化您的消息。
 
-要在历程中使用扩充属性，请确保将它们添加到“ExperiencePlatform”数据Source中的字段组。
+>[!NOTE]
+>
+>在2024年10月1日之前通过CSV文件自定义上传创建的受众不符合个性化条件。 要使用这些受众中的属性并充分利用此功能，请重新创建并重新上传在此日期之前导入的任何外部CSV受众。
+>
+>同意策略不支持扩充属性。 因此，任何同意策略规则都应仅基于在配置文件中找到的属性。
 
-+++ 了解如何将扩充属性添加到字段组
-
-1. 导航到“管理”>“配置”>“数据源”。
-1. 选择“Experience Platform”并创建或编辑字段组。
-1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
-1. 保存更改。
-
-有关数据源的详细信息，请参阅以下部分：
-
-* [使用Adobe Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)
-* [配置数据源](../datasource/configure-data-sources.md)
-
-+++
-
-将扩充属性添加到字段组后，您可以在Journey Optimizer中的不同位置利用它们：
+您可以使用受众的扩充属性执行以下操作：
 
 * **根据利用目标受众的扩充属性的规则，在历程中创建多个路径**。 为此，请使用[读取受众](../building-journeys/read-audience.md)活动定位受众，然后根据受众的扩充属性在[条件](../building-journeys/condition-activity.md)活动中创建规则。
 
@@ -95,9 +85,41 @@ ht-degree: 20%
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->自定义上传扩充属性尚不可在Journey Optimizer中使用。
+>要使用通过组合工作流创建的受众中的扩充属性，请确保将这些属性添加到“ExperiencePlatform”数据Source中的字段组。
+>
++++ 了解如何将扩充属性添加到字段组>
+>
+1. 导航到“管理”>“配置”>“数据源”。
+1. 选择“Experience Platform”并创建或编辑字段组。
+2. 在架构选择器中，选择相应的架构。 架构的名称将采用以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
+1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
+1. 保存更改。
+1. 将扩充属性添加到字段组后，您可以在Journey Optimizer中在上面列出的位置利用它们。
+>
+有关数据源的详细信息，请参阅以下部分：
+>
+* [使用Adobe Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)
+* [配置数据源](../datasource/configure-data-sources.md)
+>
++++
+
+## 自定义上传（CSV文件）受众 {#csv}
+
+本节提供了在使用自定义上传（CSV文件）受众时要记住的关键信息：
+
+* **对CSV受众的预览和验证支持：**&#x200B;当前，使用CSV上传创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
+
+* **快速激活和身份拼接延迟：** Adobe Experience Platform架构会延迟身份拼接，以使自定义上传受众可立即在Journey Optimizer中激活，这将产生以下影响：
+
+   * 受众可在摄取完成后立即在Journey Optimizer中使用。 虽然该值通常在一小时内，但受制于一些可变因素。
+   * 激活的记录数可能与身份拼接后的用户档案数不同。
+   * CSV文件中的每条记录都将激活，包括任何重复项。 在下次UPS配置文件导出期间，这些记录将进行身份拼接。
+
+* **通过CSV上传定向新配置文件：**&#x200B;当CSV记录与UPS配置文件之间未找到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此Journey Optimizer中通常使用的定向字段（例如personalEmail.address、mobilePhone.number）为空，因此无法用于定向。
+
+  要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这将确保在CSV上传期间选择作为标识的属性将是用于在Journey Optimizer中定位的属性。
 
 ## 受众评估方法 {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->确保使用正确的事件作为流式分段标准。 [了解详情](#streaming-segmentation-events-guardrails)
+确保使用正确的事件作为流式分段标准。 [了解详情](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -161,7 +183,7 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 
 >[!NOTE]
 >
->可以在批处理分段中使用&#x200B;**已打开邮件**&#x200B;和&#x200B;**已发送邮件**&#x200B;事件，而不考虑性能。
+可以在批处理分段中使用&#x200B;**已打开邮件**&#x200B;和&#x200B;**已发送邮件**&#x200B;事件，而不考虑性能。
 
 
 ## 受众构成和自定义上传常见问题解答 {#faq}
@@ -178,7 +200,7 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 
   >[!NOTE]
   >
-  >对于自定义上传受众，如果在定期历程中启用了“增量读取”，则仅在第一次定期时检索用户档案，因为这些受众已修复。
+  对于自定义上传受众，如果在定期历程中启用了“增量读取”，则仅在第一次定期时检索用户档案，因为这些受众已修复。
 
 此外，这些受众可在个性化编辑器中使用，以在历程和营销活动中个性化您的消息。 [了解如何使用个性化编辑器](../personalization/personalization-build-expressions.md)
 
@@ -200,15 +222,11 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 * 自定义操作属性(历程)
 * 消息个性化(历程和营销活动)
 
->[!AVAILABILITY]
->
->自定义上传扩充属性尚不可在Journey Optimizer中使用。
-
 +++
 
 +++ 如何在历程中启用扩充属性？
 
-要在历程中使用扩充属性，请确保将它们添加到“ExperiencePlatform”数据Source中的字段组。 有关如何向字段组添加扩充属性的信息，请参阅[此部分](#enrichment)
+要使用通过组合工作流创建的受众中的扩充属性，请确保将这些属性添加到“ExperiencePlatform”数据Source中的字段组。 有关如何向字段组添加扩充属性的信息，请参阅[此部分](#enrichment)
 
 +++
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 72%
+source-wordcount: '1305'
+ht-degree: 70%
 
 ---
 
@@ -74,7 +74,9 @@ ht-degree: 72%
 
 * （可用性日期： 10月3日）自定义操作中的&#x200B;**参数** — 自定义操作中现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
+**受众**
 
+* 定位CSV文件受众时，您现在可以在个性化编辑器以及历程和营销活动规则构建器中使用来自文件的属性。 [了解详情](../audience/about-audiences.md)
 
 ## 2024 年 9 月发行说明 {#24-9-rn}
 
@@ -281,7 +283,7 @@ ht-degree: 72%
 
 **API**
 
-* **营销活动模拟 API** - 使用此 API 触发营销活动的验证作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **营销活动模拟 API** - 使用此 API 触发营销活动的校对作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
 * （发布日期： 9月10日）[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面探索 API 端点，以获得即时反馈并加快您的技术实施。
 
