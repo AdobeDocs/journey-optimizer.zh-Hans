@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -77,6 +77,8 @@ ht-degree: 70%
 **受众**
 
 * 定位CSV文件受众时，您现在可以在个性化编辑器以及历程和营销活动规则构建器中使用来自文件的属性。 [了解详情](../audience/about-audiences.md)
+
+* 现在，可以将自定义上传（CSV文件）中的受众和属性用于Healthcare Shield或Privacy and Security Shield。
 
 ## 2024 年 9 月发行说明 {#24-9-rn}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 31%
 
 >[!IMPORTANT]
 >
->来自[受众组合](../audience/get-started-audience-orchestration.md)和[自定义上传（CSV文件）受众](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)的受众和属性当前不可用于Healthcare Shield或Privacy and Security Shield。
+>来自[受众合成](../audience/get-started-audience-orchestration.md)的受众和属性当前不可用于Healthcare Shield或Privacy and Security Shield。
 >
 >对于API触发的营销活动，需要通过API调用设置受众。
 
