@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -35,15 +35,24 @@ ht-degree: 100%
 
 ![](assets/ajo-system-datasets.png)
 
+>[!NOTE]
+>
+>从2024年11月1日开始，将对Journey Optimizer系统生成的数据集强制执行生存时间(TTL)护栏，如下所示：
+>
+>* 90天配置文件存储中的数据
+>* 数据湖中的数据为13个月
+>
+>此外，到那时，流式分段将不再支持使用跟踪和反馈数据集中的发送和开放事件。
+
+
+
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
 下面列出了 Adobe Journey Optimizer 的系统数据集。
 
-
 >[!CAUTION]
 >
 > 系统数据集&#x200B;**不得修改**。每次产品更新都会自动还原任何更改。
->
 
 **报告**
 
