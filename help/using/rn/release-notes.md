@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 72%
@@ -154,7 +154,7 @@ ht-degree: 72%
 <tr>
 <td>
 <p>现在，您可以在历程级别定义退出标准。通过添加退出条件，您可以在事件发生后（例如：购买）或符合受众的条件时，让用户档案立即退出历程。这将阻止用户从历程收到任何进一步的通信。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/journey-properties.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-properties.md#exit-criteria">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

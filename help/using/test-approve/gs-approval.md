@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="限量发布版" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 18%
@@ -85,6 +85,6 @@ Journey Optimizer允许您设置审批流程，以便营销团队确保活动及
 
 ## 监控审批请求 {#monitor}
 
-您可以监控为给定历程或营销活动提交的所有批准和更改请求。 为此，请单击位于历程画布或营销策划审核屏幕右上角的&#x200B;**[!UICONTROL 显示审核记录]**&#x200B;按钮。
+您可以监控为给定历程或营销活动提交的所有批准和更改请求。 为此，请单击位于历程画布或营销策划审核屏幕右上角的&#x200B;**[!UICONTROL 显示审核记录]**&#x200B;图标。
 
 ![](assets/monitor-requests.png)
