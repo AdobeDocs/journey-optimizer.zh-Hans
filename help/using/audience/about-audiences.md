@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
 source-wordcount: '2272'
 ht-degree: 17%
@@ -93,7 +93,7 @@ ht-degree: 17%
 >
 1. 导航到“管理”>“配置”>“数据源”。
 1. 选择“Experience Platform”并创建或编辑字段组。
-2. 在架构选择器中，选择相应的架构。 架构的名称将采用以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
+1. 在架构选择器中，选择相应的架构。 架构的名称将采用以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
 1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
 1. 保存更改。
 1. 将扩充属性添加到字段组后，您可以在Journey Optimizer中在上面列出的位置利用它们。
