@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1333'
+ht-degree: 69%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 * （可用性日期： 10月3日）自定义操作中的&#x200B;**参数** — 自定义操作中现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**受众**
+**受众** — 可用日期： 10月8日
 
 * 定位CSV文件受众时，您现在可以在个性化编辑器以及历程和营销活动规则构建器中使用来自文件的属性。 [了解详情](../audience/about-audiences.md)
 
