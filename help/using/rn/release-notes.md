@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 69%
+source-wordcount: '1331'
+ht-degree: 67%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 69%
 
 ### 新功能 {#24-10-features}
 
-下面列出了Adobe Journey Optimizer中可用的最新功能。
+下面列出了Adobe Journey Optimizer中可用的新功能。
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>可用日期：10月1日</p>
 <p>借助基于代码的体验渠道，Adobe Journey Optimizer允许您对任何入站属性进行高级个性化和测试，从而无缝交付跨不同接触点的定制体验，如Web应用程序、移动应用程序、桌面应用程序、视频控制台、电视连接设备、智能电视、网亭、ATM、物联网设备等。 现在，历程画布中提供了基于代码的体验渠道。</p>
 <p>有关更多信息，请参阅<a href="../code-based/create-code-based.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>可用日期：10月1日</p>
+<p>可用日期：2024年10月1日</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>可用日期：10月1日</p>
 <p>借助Web渠道，Adobe Journey Optimizer允许您通过入站Web历程为客户提供Web体验，并使之个性化。 Web渠道现在可在历程画布中使用。</p>
 <p>有关更多信息，请参阅<a href="../web/create-web.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>可用日期：10月1日</p>
+<p>可用日期：2024年10月1日</p>
 </tr>
 </tbody>
 </table>
 
 ### 改进 {#24-10-improvements}
 
-**历程**
+**历程** — 可用日期：2024年10月3日
 
-* （可用性日期： 10月3日）自定义操作中的&#x200B;**参数** — 自定义操作中现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* 自定义操作中的&#x200B;**参数** — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**受众** — 可用日期： 10月8日
+**受众** — 发布日期：2024年10月8日
 
 * 定位CSV文件受众时，您现在可以在个性化编辑器以及历程和营销活动规则构建器中使用来自文件的属性。 [了解详情](../audience/about-audiences.md)
 
 * 现在，可以将自定义上传（CSV文件）中的受众和属性用于Healthcare Shield或Privacy and Security Shield。
 
-## 2024 年 9 月发行说明 {#24-9-rn}
+## 2024年9月版 {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ ht-degree: 69%
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ ht-degree: 69%
 <p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。</a>。</p>
 <p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>发布日期：9 月 12 日</p>
+<p>发布日期： 2024年9月12日</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ ht-degree: 69%
 <p>“引导式渠道设置”让您能够在一个统一的体验中自动化并验证渠道设置，从而加快开始使用 Journey Optimizer 的过程。这一新的引导式设置简化了快速渠道配置，确保能够在 Experience Platform、Journey Optimizer 和数据收集中随时安装并使用所有必要的资源。这使营销、产品和数据工程团队能够快速开始创建营销活动和历程。</p>
 <p>有关更多信息，请参阅<a href="../configuration/set-mobile-config.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>发布日期：9 月 3 日</p>
+<p>发布日期： 2024年9月3日</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ ht-degree: 69%
 
 此版本包含下方列出的改进。
 
-**受众**
+**受众** — 发布日期：2024年9月17日
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* （发布日期：9 月 17 日）**许可证使用情况** - 许可证使用情况仪表板现在显示符合资格的用户档案，而不是符合资格的受众。[了解详情](../audience/license-usage.md)
+* **许可证使用情况** — 许可证使用情况仪表板现在显示可参与的用户档案，而不是可参与的受众。 [了解详情](../audience/license-usage.md)
 
 **内容管理**
 
