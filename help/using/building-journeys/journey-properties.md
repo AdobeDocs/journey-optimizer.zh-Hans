@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 14%
@@ -298,6 +298,4 @@ ht-degree: 14%
 
 * 退出条件仅在草稿状态下定义
 * 事件和基于事件的退出标准之间的历程命名空间一致性
-
-
 

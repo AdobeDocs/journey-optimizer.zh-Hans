@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5454'
-ht-degree: 99%
+source-wordcount: '5555'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,18 @@ ht-degree: 99%
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
 
+## 2024 年 9 月 {#sept-2024}
+
+* 文档中详细介绍了[!DNL Journey Optimizer] 2024年9月版本的所有新增功能和改进。 [了解详情](release-notes.md)
+* 添加了有关历程重试管理的部分。 [了解详情](../building-journeys/read-audience.md#read-audience-retry)
+* 更新了有关自定义操作上限/限制规则的常见问题解答，以提及默认的上限规则。 [了解详情](../configuration/external-systems.md#faq)
+* “控制”访问部分已更新，其中包含与AI Assistant内容生成器相关的权限。 [了解详情](../administration/high-low-permissions.md#ai-permission)
+* 添加了有关AI助理内容生成器过滤器电子邮件生成的视频。 [了解详情](../content-management/generative-email.md#video)
+
+
 ## 2024 年 8 月 {#aug-2024}
 
+* 文档中详细介绍了[!DNL Journey Optimizer] 2024年8月版本的所有新增功能和改进。 [了解详情](release-notes.md)
 * 更新了决策管理的性能护栏，涉及使用/不使用 Edge 分段的 Decisioning API 投放吞吐量。[了解详情](../start/guardrails.md#decision-management)
 * 历程护栏已更新。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 
@@ -162,7 +172,7 @@ ht-degree: 99%
 * Offer Decisioning **导出数据集**&#x200B;现在默认处于启用状态。已移除有关旧版行为的注释。[了解详情](../offers/export-catalog/get-started-export.md)
 * 重命名了实时报告和全局报告中的多个&#x200B;**营销活动报告量度**。[了解详情](../reports/campaign-global-report.md)
 * 添加了关于 Web 渠道内容试验先决条件的新内容。 [了解详情](../web/web-prerequisites.md#experiment-prerequisites)
-* 在&#x200B;**使用内容模板**&#x200B;页面上添加了一项警告，以指明当前在测试电子邮件内容模板时不支持跟踪。 要测试跟踪，您必须在电子邮件中使用内容模板并发送验证。 [了解详情](../content-management/content-templates.md#test-template)
+* 在&#x200B;**使用内容模板**&#x200B;页面上添加了一项警告，以指明当前在测试电子邮件内容模板时不支持跟踪。 要测试跟踪，您必须在电子邮件中使用内容模板并发送校样。 [了解详情](../content-management/content-templates.md#test-template)
 * **创建和发布登陆页面**&#x200B;部分中添加了多项警告，以指明您仅通过将创建页面时定义的 URL（即使已发布）复制粘贴到 Web 浏览器无法访问登陆页面。 不过，您可以使用预览功能对其进行测试。[了解详情](../landing-pages/create-lp.md)
 * 新增了新章节，介绍如何针对直邮渠道进行&#x200B;**同意管理**。[了解详情](../direct-mail/test-send-direct-mail.md)
 
