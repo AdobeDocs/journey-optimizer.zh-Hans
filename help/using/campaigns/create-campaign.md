@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '858'
+ht-degree: 27%
 
 ---
 
@@ -33,11 +33,6 @@ ht-degree: 0%
 >id="ajo_campaigns_campaign_type"
 >title="营销活动类型"
 >abstract="立即执行或在指定日期执行&#x200B;**计划的营销活动**，其旨在发送市场营销类型的消息。使用 API 调用执行 **API 触发的**&#x200B;活动。它们旨在发送营销性消息（需要用户同意的推广消息）或交易型消息（非商业消息，在特定上下文中，也可以发送到未订阅的轮廓）。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="营销活动类别"
->abstract="如果正在创建计划的营销活动，则将自动选择&#x200B;**市场营销**&#x200B;类型。对于 API 触发的营销活动，选择是要发送&#x200B;**营销性**&#x200B;消息（需要用户同意的推广消息）还是&#x200B;**交易型**&#x200B;消息（非商业消息，在特定上下文中，也可以发送到未订阅的轮廓）。"
 
 1. 选择要执行的营销活动类型
 

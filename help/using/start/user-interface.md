@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1505'
 ht-degree: 98%
 
 ---
@@ -214,16 +214,14 @@ ht-degree: 98%
 >abstract="规则类型"
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="规则上限"
+>abstract="规则上限"
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="优先级展望"
 >abstract=" 如果在此指定的时段内安排了较高优先级的历程，则将禁止客户进入此历程。对于希望按先后顺序进入历程的情况，我们建议选择“每日”展望时段，并确保当天任何其他历程的优先级分数低于该历程的优先级分数。向历程提供 100 分的优先级也可确保进入该历程。"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_capping_rule"
->title="将规则集应用于营销活动"
->abstract="待定"
-
-<!--TO REMOVE?-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_prioritization"

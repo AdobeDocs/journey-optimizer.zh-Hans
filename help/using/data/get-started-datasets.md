@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 93%
@@ -43,8 +43,6 @@ ht-degree: 93%
 >* 数据湖中的数据为13个月
 >
 >此外，到那时，流式分段将不再支持使用跟踪和反馈数据集中的发送和开放事件。
-
-
 
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
