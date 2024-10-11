@@ -105,7 +105,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="执行的操作和错误"
->abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该构件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的见解。"
+>abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该构件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -157,7 +157,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="事件"
->abstract="“事件”构件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细见解的摘要数据、图形和表格。"
+>abstract="“事件”构件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细洞察的摘要数据、图形和表格。"
 
 ![](assets/journey_live_events.png)
 
@@ -168,7 +168,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="按来源列出的事件"
->abstract="“按来源列出的事件”表格和图形提供了过去 24 小时内事件成功接收情况的视图。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的见解。"
+>abstract="“按来源列出的事件”表格和图形提供了过去 24 小时内事件成功接收情况的视图。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的洞察。"
 
 ![](assets/journey_events_origin.png)
 
@@ -243,7 +243,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="电子邮件 - 各日期的效果"
->abstract="“电子邮件 - 各日期的效果”图表显示过去 24 小时内有关已发送的电子邮件的全面数据，其中提供针对是否已送达和退回次数等关键量度的见解，从而可详细地分析电子邮件发送过程。"
+>abstract="“电子邮件 - 各日期的效果”图表显示过去 24 小时内有关已发送的电子邮件的全面数据，其中提供针对是否已送达和退回次数等关键量度的洞察，从而可详细地分析电子邮件发送过程。"
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -321,7 +321,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="电子邮件 - 最佳收件人域"
->abstract="“电子邮件 - 最佳收件人域”图表详细地细分过去 24 小时内收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵见解。"
+>abstract="“电子邮件 - 最佳收件人域”图表详细地细分过去 24 小时内收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵洞察。"
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -593,7 +593,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本见解。"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
 
 ![](assets/journey_live_inapp_performance.png)
 

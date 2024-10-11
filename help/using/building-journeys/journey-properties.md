@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -53,22 +53,22 @@ ht-degree: 14%
 
 用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)中了解有关用户档案进入和重新进入管理的更多信息。
 
-### 允许重新进入  {#allow-reentrance}
+### 允许重入  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="允许重新进入"
->abstract="默认情况下，新历程允许重新进入。 例如，如果要在某人进入商店时提供一次性礼品，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项。"
+>title="允许重入"
+>abstract="默认情况下，允许重入新的历程。例如，如果您想在有人进入商店时提供一次性的礼物，则您可以取消选中&#x200B;**允许重入**&#x200B;选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
-默认情况下，新历程允许重新进入。 对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
+默认情况下，允许重入新的历程。对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
 
-### 重新进入等待期  {#reentrance-wait}
+### 重入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="重新进入等待期"
->abstract="设置在允许轮廓再次进入单一历程之前的等待时间。这样可防止用户在选定的持续时间内重新进入历程。 最长持续时间：90 天。"
+>title="重入等待期"
+>abstract="设置在允许轮廓再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
 
 激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。

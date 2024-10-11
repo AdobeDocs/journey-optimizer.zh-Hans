@@ -61,7 +61,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="设置业务规则的频率上限"
->abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频率上限将基于所选的日历期间，并将在相应的时间范围开始时重置它。"
+>abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频率上限将基于所选的日程表期间，并将在相应的时间范围开始时重置它。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"

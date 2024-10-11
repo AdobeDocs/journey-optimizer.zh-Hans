@@ -199,7 +199,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="电子邮件 - 发送效果"
->abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的见解，从而可详细地分析电子邮件送达过程。"
+>abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的洞察，从而可详细地分析电子邮件送达过程。"
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -277,7 +277,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="按域列出的已发送和已送达邮件"
->abstract="按域列出的已发送和已送达邮件表格和图形提供了按域分类的电子邮件细分，可提供对电子邮件通信整体性能的深入见解。"
+>abstract="按域列出的已发送和已送达邮件表格和图形提供了按域分类的电子邮件细分，可提供对电子邮件通信整体性能的深入洞察。"
 
 ![](assets/campaign_email_sent_domains.png)
 
@@ -334,7 +334,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
 >title="按域列出的退回原因"
->abstract="按域列出的退回原因图形和表格包含域级别的细分，提供了对临时和永久错误的综合见解。此详细分析为您提供有关退回邮件背后具体原因的宝贵信息。"
+>abstract="按域列出的退回原因图形和表格包含域级别的细分，提供了对临时和永久错误的综合洞察。此详细分析为您提供有关退回邮件背后具体原因的宝贵信息。"
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
@@ -364,7 +364,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
 >title="电子邮件 - 最佳收件人域"
->abstract="“电子邮件 - 最佳收件人域”图表详细地细分收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵见解。"
+>abstract="“电子邮件 - 最佳收件人域”图表详细地细分收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵洞察。"
 
 ![](assets/campaign_email_best_recipient.png)
 
@@ -441,7 +441,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本见解。"
+>abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本洞察。"
 
 ![](assets/campaign_inapp_performance.png)
 
@@ -756,7 +756,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本见解。"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本洞察。"
 
 ![](assets/campaign_sms_clicks.png)
 

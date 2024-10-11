@@ -165,7 +165,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="电子邮件 - 各日期的效果"
->abstract="“电子邮件 - 各日期的效果”图表显示过去 24 小时内有关已发送的电子邮件的全面数据，其中提供针对是否已送达和退回次数等关键量度的见解，从而可详细地分析电子邮件发送过程。"
+>abstract="“电子邮件 - 各日期的效果”图表显示过去 24 小时内有关已发送的电子邮件的全面数据，其中提供针对是否已送达和退回次数等关键量度的洞察，从而可详细地分析电子邮件发送过程。"
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -220,7 +220,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
 >title="电子邮件 - 最佳收件人域"
->abstract="“电子邮件 - 最佳收件人域”图表详细地细分过去 24 小时内收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵见解。"
+>abstract="“电子邮件 - 最佳收件人域”图表详细地细分过去 24 小时内收件人最常用于打开电子邮件的域，并提供针对收件人行为的宝贵洞察。"
 
 ![](assets/campaign_email_live_recipient.png)
 
@@ -253,7 +253,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本见解。"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
 
 **[!UICONTROL 应用程序内性能]** KPI可提供过去24小时内用户档案与应用程序内消息互动情况的基本见解，从而提供评估应用程序内营销活动效果和影响的基本量度。
 

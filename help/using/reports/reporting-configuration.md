@@ -21,7 +21,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="设置报表数据集"
->abstract="通过报告配置，可检索将在营销活动报告中使用的其他指标。该操作必须由技术用户执行。"
+>abstract="通过报告配置，可检索将在营销活动报告中使用的其他量度。该操作必须由技术用户执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"

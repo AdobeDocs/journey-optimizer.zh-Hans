@@ -128,7 +128,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
 >title="按来源列出的事件"
->abstract="“按来源列出的事件”表格和图形提供了成功接收事件的情况。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的见解。"
+>abstract="“按来源列出的事件”表格和图形提供了成功接收事件的情况。这些视觉表示内容有助于准确识别有效接收的事件，从而为您的历程中每个事件的表现和影响提供有价值的洞察。"
 
 ![](assets/journey_events_origin.png)
 
@@ -139,7 +139,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="按事件显示接收的事件"
->abstract="“按事件显示接收的事件”图型有助于识别和分析您的历程中有效执行的特定事件，从而提供有关单个事件的表现和成功率的宝贵见解。"
+>abstract="“按事件显示接收的事件”图型有助于识别和分析您的历程中有效执行的特定事件，从而提供有关单个事件的表现和成功率的宝贵洞察。"
 
 ![](assets/journey_event_received.png)
 
@@ -250,7 +250,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="电子邮件 - 发送效果"
->abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的见解，从而可详细地分析电子邮件送达过程。"
+>abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的洞察，从而可详细地分析电子邮件送达过程。"
 
 ![](assets/journey_email_performance.png)
 
@@ -273,7 +273,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="电子邮件 - 退回类别和原因"
->abstract="“电子邮件 - 退回类别和原因”构件汇总了有关退回邮件的数据，提供了对导致电子邮件退回的具体原因和类别的深入见解"
+>abstract="“电子邮件 - 退回类别和原因”构件汇总了有关退回邮件的数据，提供了对导致电子邮件退回的具体原因和类别的深入洞察"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -320,7 +320,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="按域列出的已发送和已送达邮件"
->abstract="按域列出的已发送和已送达邮件表格和图形提供了按域分类的电子邮件细分，可提供对电子邮件通信整体性能的深入见解。"
+>abstract="按域列出的已发送和已送达邮件表格和图形提供了按域分类的电子邮件细分，可提供对电子邮件通信整体性能的深入洞察。"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -377,7 +377,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="按域列出的退回原因"
->abstract="“按域列出的退回原因”图形和表格包含域级别的细分，提供了对临时和永久错误的综合见解。此详细分析为您提供有关退回邮件背后具体原因的宝贵信息。"
+>abstract="“按域列出的退回原因”图形和表格包含域级别的细分，提供了对临时和永久错误的综合洞察。此详细分析为您提供有关退回邮件背后具体原因的宝贵信息。"
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
@@ -700,7 +700,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本见解。"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本洞察。"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -715,7 +715,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本见解。"
+>abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本洞察。"
 
 ![](assets/journey_inapp_performance.png)
 
