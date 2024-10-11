@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 61%
 
 ---
 
@@ -71,6 +71,16 @@ ht-degree: 67%
 **历程** — 可用日期：2024年10月3日
 
 * 自定义操作中的&#x200B;**参数** — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**数据治理和同意策略** — 发布日期：2024年10月7日
+
+* **数据治理策略**&#x200B;强制实施现在在Journey Optimizer中的所有渠道中进行。 对于在Adobe Experience Platform中创建了策略的客户，这些策略将应用于营销操作，作为渠道配置设置的一部分。 使用配置创建内容时，系统会检查所有个性化字段是否存在任何数据管理违规。 如果发现违规，将无法发布历程或营销活动。 [了解详情](../action/action-privacy.md)
+
+* **自定义同意政策**&#x200B;现在适用于所有Journey Optimizer渠道。 在发送消息或投放入站体验之前执行时，系统会检查用户是否同意在接收的内容中使用个性化字段。 如果未给予同意，则不会显示体验。 [了解详情](../action/consent.md)
+
+  >[!NOTE]
+  >
+  >目前，同意策略仅适用于已购买 Adobe **Healthcare Shield** 或 **Privacy and Security Shield** 附加产品的组织。
 
 **受众** — 发布日期：2024年10月8日
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2049'
 ht-degree: 97%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 97%
       + [预览和测试入门](using/content-management/preview-test.md)
       + [选择测试用户档案](using/content-management/test-profiles.md)
       + [预览您的内容](using/content-management/preview.md)
-      + [发送电子邮件验证](using/content-management/proofs.md)
+      + [发送电子邮件校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
    + 批准历程和营销活动{#approve}
@@ -672,7 +672,5 @@ ht-degree: 97%
    + 管理同意 {#consent}
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
-      + [使用同意策略](using/action/consent-restricted.md)
-   + [数据治理](using/action/action-privacy.md)
-   + [数据治理](using/action/action-privacy-restricted.md)
+   + [数据管理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)
