@@ -254,7 +254,7 @@ ht-degree: 16%
 要了解有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
 
-## 退出条件 {#exit-criteria}
+## 退出标准 {#exit-criteria}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
