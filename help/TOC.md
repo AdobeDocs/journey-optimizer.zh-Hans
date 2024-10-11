@@ -603,7 +603,7 @@ ht-degree: 97%
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置{#guided-setup}
       + [引导式渠道设置入门](using/configuration/set-mobile-config.md)
-      + [创建一个频道设置](using/configuration/create-channel-set-up.md)
+      + [创建一个渠道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
