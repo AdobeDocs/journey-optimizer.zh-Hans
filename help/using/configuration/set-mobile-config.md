@@ -25,7 +25,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="使用保证功能进行验证"
+>title="使用 Assurance 进行验证"
 >abstract="Adobe Experience Platform Assurance 被嵌入到此工作流程中，以帮助您检查 SDK 实施，并模拟和验证应用程序事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
