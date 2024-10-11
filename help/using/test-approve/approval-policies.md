@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="限量发布版" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 ## 创建审批策略 {#create-policies}
 
-1. 从&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，依次访问&#x200B;**[!UICONTROL 权限]**&#x200B;和&#x200B;**[!UICONTROL 策略]**。
+1. 从Journey Optimizer的&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，依次访问&#x200B;**[!UICONTROL 权限]**&#x200B;和&#x200B;**[!UICONTROL 策略]**。
 
    ![](assets/policy_create_1.png)
 
