@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 61%
+source-wordcount: '1496'
+ht-degree: 60%
 
 ---
 
@@ -20,17 +20,15 @@ ht-degree: 61%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。
-
-[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
-
-![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。所有更改将在每个月的最后一周汇总在这些发行说明中。 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
 ## 2024年10月更新 {#24-10-rn}
 
-### 新功能 {#24-10-features}
+即将发行的&#x200B;**发行日期**： 2024年10月28日至30日
 
-下面列出了Adobe Journey Optimizer中可用的新功能。
+下面列出的[功能](#24-10-features)和[改进](#24-10-improvements)已于本月发布。
+
+### 新功能 {#24-10-features}
 
 <table>
 <thead>
@@ -279,3 +277,6 @@ ht-degree: 61%
 **配置**
 
 * **IP预热计划** — 此功能现在可供所有客户使用，包括已购买Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加产品的组织。 [了解详情](../configuration/ip-warmup-gs.md)
+
+
+![新闻稿](../assets/do-not-localize/nl-icon.png) 立即注册订阅 [Adobe Journey Optimizer 季度新闻稿](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}，每个季度都能在收件箱中直接接收最新产品更新、精彩故事、用例、提示及更多内容。
