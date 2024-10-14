@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1531'
 ht-degree: 30%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 30%
 
 1. 如果您的实现不适用于Web、iOS或Android，或者需要定位特定的URI，请选择&#x200B;**[!UICONTROL Other]**&#x200B;作为平台。
 
-1. 输入&#x200B;**[!UICONTROL 表面URI]**。 [了解详情](#surface-definition)
+1. 输入&#x200B;**[!UICONTROL 表面URI]**。 表面URI是一个唯一标识符，对应于您要交付体验的实体。 [了解详情](#surface-definition)
 
    ![](assets/code_config_5.png)
 
@@ -174,7 +174,7 @@ ht-degree: 30%
    >
    >添加多个URI时，内容将传递到列出的所有组件。
 
-## 什么是表面URI？ {#surface-definition}
+## 什么是表面？ {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
