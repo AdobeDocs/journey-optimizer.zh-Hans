@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2266'
+ht-degree: 17%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 可以使用不同方法生成受众：
 
 * **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 [了解如何生成区段定义](creating-a-segment-definition.md)
-* **自定义上传**：使用CSV文件导入受众。 请参阅Adobe Experience Platform [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}以了解如何导入受众。
+* **自定义上传**：使用CSV文件导入受众。 请参阅Adobe Experience Platform [Segmentation Service文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}以了解如何导入受众。
 * **受众组合**：创建组合工作流以将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
 * **联合受众构成**：直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。 请阅读有关[联合受众组合](https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home)的指南。
 

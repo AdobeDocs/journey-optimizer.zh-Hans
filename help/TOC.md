@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 1e46321de543196277613889c438dc6756e45652
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2073'
 ht-degree: 96%
 
 ---
@@ -428,6 +428,7 @@ ht-degree: 96%
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
          + [用户界面](using/offers/get-started/user-interface.md)
          + [创建和管理优惠的关键步骤](using/offers/offer-library/key-steps.md)
+         + [利用自定义上传受众进行决策](using/offers/custom-upload-decisioning.md)
          + [用例：在电子邮件中插入优惠](using/offers/offers-e2e.md)
       + 创建组件{#create-components}
          + [创建投放位置](using/offers/offer-library/creating-placements.md)
