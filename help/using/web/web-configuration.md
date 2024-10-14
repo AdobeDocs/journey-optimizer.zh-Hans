@@ -6,26 +6,20 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 11%
+source-wordcount: '935'
+ht-degree: 10%
 
 ---
 
-# 创建网页渠道配置 {#web-configuration}
+# 配置Web体验 {#web-configuration}
 
->[!CONTEXTUALHELP]
->id="ajo_admin_page_rule"
->title="页面匹配规则"
->abstract="为了有效管理和定位一组具有相同标准的 URL，请创建一个页面匹配规则。通过使用此规则，您可以将多个 URL 合并到一条准则下，从而简化在这些页面上应用一致的设置和操作的流程。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_default_url"
->title="默认创作和预览 URL"
->abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
+## 创建Web渠道配置 {#create-web-configuration}
 
 Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个页面URL或多个页面，从而允许您跨一个或多个网页进行修改。
+
+要创建Web渠道配置，请执行以下步骤。
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 
@@ -37,7 +31,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
    >
    > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
-1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
+1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
 1. 选择&#x200B;**Web**&#x200B;渠道。
 
@@ -45,29 +39,57 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
 1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
 
-1. 如果要将更改仅应用于单个页面，则可以输入&#x200B;**[!UICONTROL 页面URL]**。
+1. 在&#x200B;**[!UICONTROL Web设置]**&#x200B;部分中，选择以下选项之一：
 
-1. 或者，您可以构建一个与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL — 例如，如果您要将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
+   * **[!UICONTROL 单页]** — 如果要将更改仅应用于单个页面，请输入&#x200B;**[!UICONTROL 页面URL]**。
 
-   为此，请选择&#x200B;**[!UICONTROL 页面匹配规则]**。
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个页面匹配规则，并输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](#web-page-matching-rule)
 
-1. 为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义您的条件。
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
+
+当在营销活动或历程中使用Web渠道时，您现在可以选择此配置。
+
+## 构建页面匹配规则 {#web-page-matching-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="构建页面匹配规则"
+>abstract="为了有效管理和定位一组具有相同标准的 URL，请创建一个页面匹配规则。通过使用此规则，您可以将多个 URL 合并到一条准则下，从而简化在这些页面上应用一致的设置和操作的流程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="为内容创作和预览定义URL"
+>abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
+
+创建Web或[基于代码的体验](../code-based/get-started-code-based.md)配置时，您可以生成与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 因此，您可以一次性将相同的内容更改应用于多个页面。
+
+例如，您可能希望将更改应用于整个网站的主页横幅，或添加一个显示在网站所有产品页面上的顶部图像。
+
+1. 配置[Web](#web-configuration)或[基于代码的体验](../code-based/code-based-configuration.md)时，请选择&#x200B;**[!UICONTROL 页面匹配规则]**。
+
+1. 为&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 页面]**&#x200B;字段定义您的条件。 检查[此节](#available-operators)中可用的运算符。
 
    例如，如果您要编辑显示在Luma网站的所有女性产品页面上的元素，请选择&#x200B;**[!UICONTROL 域]** > **[!UICONTROL 开头为]** > `luma`和&#x200B;**[!UICONTROL 页面]** > **[!UICONTROL 包含]** > `women`。
 
    ![](assets/web_config_3.png)
 
-1. 如果您创建了&#x200B;**[!UICONTROL 页面匹配规则]**，则需要输入&#x200B;**默认**&#x200B;创作和预览URL。 此步骤可确保规则生成或匹配的页面具有用于内容创建和预览的指定URL。 在以下](#web-page-matching-rule)的[部分中了解有关页面匹配规则的更多信息。
+1. 如果您的用例无法使用一条规则建模，则可以选择添加多条规则。 单击&#x200B;**[!UICONTROL 添加其他页面规则]**&#x200B;并重复上述步骤。
 
-1. 保存更改。
+   >[!NOTE]
+   >
+   >您最多可以添加10个规则。
 
-在营销活动或历程中使用Web渠道时，您现在可以选择配置。
+1. 在不同的规则之间可以使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;运算符。
 
-## 页面匹配规则 {#web-page-matching-rule}
+   当与定义的规则匹配的某个页面不应被定位时，**[!UICONTROL 排除]**&#x200B;非常有用。 例如，您可以定位包含`product`的所有`luma.com`页面，但以下页面除外： `https://luma.com/blogs/productinfo`。
 
-在创建与多个页面匹配以便同时跨多个页面应用相同内容更改的规则时，您可以在&#x200B;**域**&#x200B;和&#x200B;**路径**&#x200B;部分使用不同的运算符来构建所需的规则。 请检查下面可用的运算符。
+   ![](assets/web_config_4.png)
 
-用于构建页面匹配规则的可用运算符：
+1. 输入&#x200B;**[!UICONTROL 默认创作和预览URL]**。 此步骤可确保规则生成或匹配的页面具有用于内容创建和预览的指定URL。
+
+### 用于构建页面匹配规则的可用运算符 {#available-operators}
+
+在创建与多个页面](#web-page-matching-rule)匹配的[规则时，您可以在&#x200B;**[!UICONTROL 域]**&#x200B;和&#x200B;**[!UICONTROL 路径]**&#x200B;部分中使用不同的运算符来构建所需的规则。 下面列出了可用的运算符。
 
 * **域**
 
@@ -123,5 +145,3 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
     </tr>
     </tbody>
 </table>
-
-如果您的用例无法使用一条规则建模，那么您可以选择添加多个页面规则，并且您可以在它们之间使用“Or”或“Exclude”运算符。 当与定义的规则匹配的某个页面不应作为目标时，“Exclude”非常有用：例如，包含“product”的所有“example.com”页面，不包括以下页面： `https://example.com/blogs/productinfo`。

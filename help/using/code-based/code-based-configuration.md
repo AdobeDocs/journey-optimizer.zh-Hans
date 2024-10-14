@@ -6,48 +6,37 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 50%
+source-wordcount: '1514'
+ht-degree: 30%
 
 ---
 
 # 配置基于代码的体验 {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_app_id"
->title="应用程序 ID"
->abstract="提供应用程序 ID，以便在应用程序的运行环境中进行准确识别和配置，确保能够无缝集成并使用相关功能。"
+>id="ajo_code_based_surface"
+>title="定义基于代码的体验配置"
+>abstract="基于代码的配置定义了应用程序内部的路径和位置，由应用程序实施中的 URI 唯一标识，而内容则会在该路径和位置传送和使用。"
+
+在[构建体验](create-code-based.md)之前，您需要创建基于代码的体验配置，在其中定义内容在应用程序中的交付和使用位置。
+
+基于代码的体验配置必须引用表面，它基本上是您要呈现更改的位置。 根据所选平台，您需要输入位置/路径或完整表面URI。 [了解详情](#surface-definition)
+
+## 创建基于代码的体验配置 {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="页面上的位置"
->abstract="应用程序字段内的位置或路径指定了您希望用户访问的应用程序内的确切目标。这可能是应用程序导航结构深处的特定部分或页面。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_surface_uri"
->title="URI 表面"
->abstract="表面 URI 可作为指向应用程序内不同用户界面元素或组件的精确标识符。"
+>title="输入特定位置"
+>abstract="此字段指定页面或您希望用户访问的应用程序内的确切目标。 这可能是导航结构中的特定部分或页面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="默认创作和预览 URL"
+>title="为内容创建和预览定义URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
->[!CONTEXTUALHELP]
->id="ajo_admin_default_web_url"
->title="默认创作和预览 URL"
->abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_mobile_url_preview"
->title="预览 URL"
->abstract="此字段对于在您的应用程序中直接在设备上启用内容的模拟和预览至关重要。"
-
-## 创建渠道配置 {#reatte-code-based-configuration}
-
-要创建渠道配置，请执行以下步骤：
+要创建基于代码的体验渠道配置，请执行以下步骤：
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 
@@ -59,7 +48,7 @@ ht-degree: 50%
    >
    > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
 
-1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
+1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
 1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 [了解详情](../action/consent.md#surface-marketing-actions)
 
@@ -67,50 +56,97 @@ ht-degree: 50%
 
    ![](assets/code_config_2.png)
 
-1. 选择要应用代码库体验的平台。
+1. 选择要应用代码库体验的平台：
 
-1. 对于Web：
+   * [Web](#web)
+   * [iOS和/或Android](#mobile)
+   * [其他](#other)
 
-   * 指定&#x200B;**[!UICONTROL 页面URL]**&#x200B;以独占地应用对单个页面的更改。
-
-   * 或者，创建与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与指定规则匹配的URL。 例如，这可用于在网站中通用应用更改，例如在所有页面中更新主页横幅，或添加要在每个产品页面上显示的顶部图像。 [了解详情](../web/web-configuration.md)
-
-1. 对于iOS和Android：
-
-   * 输入您的&#x200B;**[!UICONTROL 应用程序ID]**&#x200B;和应用程序&#x200B;]**中的位置或路径**[!UICONTROL 。
-
-     ![](assets/code_config_3.png){width="500"}
-
-1. 如果您的实施不适用于Web、iOS或Android，或者您需要定位特定URI，请选择“其他”作为平台。 当选择多个平台或添加多个URI时，内容将交付到所有选定的页面或应用程序。
-
-   * 输入&#x200B;**[!UICONTROL 表面URI]**。
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >确保在基于代码的营销活动中使用的表面URI与您自己的实施中使用的表面URI相匹配。 否则，将不会交付更改。
+   >您可以选择多个平台。 当选择多个平台时，内容将交付到所有选定的页面或应用程序。
 
-1. 填写&#x200B;**[!UICONTROL 预览URL]**&#x200B;字段以启用设备上预览。 此URL通知预览服务在触发预览时要使用的特定URL。
+1. 为此特定位置选择应用程序所需的格式。 在营销活动和历程中创作基于代码的体验时，将使用此功能。
 
-   * 对于Web：
+   ![](assets/code_config_4.png)
 
-      * 如果输入了单页URL，则将使用该URL进行预览。
-      * 如果选择了页面匹配规则，则必须输入用于在浏览器中预览体验的默认预览URL。
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以保存更改。
 
-   * 对于移动平台(iOS/Android)：
+当在营销活动和历程中[创建基于代码的体验](create-code-based.md)时，您现在可以选择此配置。
 
-      * 预览URL是应用程序开发人员在您的应用程序中配置的深层链接。 这可确保在应用程序中（而不是在移动Web浏览器中）打开任何与深层链接方案匹配的URL。 请联系您的应用程序开发人员，以获取为您的应用程序配置的深层链接方案。
+>[!NOTE]
+>
+>您的应用程序实施团队负责发出显式API或SDK调用，以获取选定基于代码的体验配置中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
+
+### Web平台 {#web}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="为内容创作和预览定义URL"
+>abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
+
+要为Web平台定义基于代码的体验配置设置，请执行以下步骤。
+
+1. 选择以下选项之一：
+
+   * **[!UICONTROL 单页]** — 如果要将更改仅应用于单个页面，请输入&#x200B;**[!UICONTROL 页面URL]**。
+
+     ![](assets/code_config_single_page.png)
+
+   * **[!UICONTROL 页面匹配规则]** — 若要定位多个匹配同一规则的URL，请构建一个或多个规则。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
+
+     <!--This could be used to apply changes universally across a website, such as updating a hero banner across all pages or adding a top image to display on every product page.-->
+
+     例如，如果您要编辑显示在Luma网站的所有女性产品页面上的元素，请选择&#x200B;**[!UICONTROL 域]** > **[!UICONTROL 开头为]** > `luma`和&#x200B;**[!UICONTROL 页面]** > **[!UICONTROL 包含]** > `women`。
+
+     ![](assets/code_config_matching_rules.png)
+
+1. 以下内容适用于预览URL：
+
+   * 如果输入了单页URL，则该URL将用于预览 — 无需输入其他URL。
+   * 如果选择了与规则](../web/web-configuration.md#web-page-matching-rule)匹配的[页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。
+
+     ![](assets/code_config_matching_rules_preview.png)
+
+1. **[!UICONTROL 页面]**&#x200B;上的位置字段指定了您希望用户访问的网站内的确切目标。 这可能是站点导航结构中的特定部分或页面。
+
+   ![](assets/code_config_location_on_page.png)
+
+### 移动平台(iOS和Android) {#mobile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="提供您的应用程序ID"
+>abstract="输入应用程序ID，以在应用程序的操作环境中进行准确的标识和配置，从而确保无缝集成和功能。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="输入用于预览内容的URL"
+>abstract="此字段对于在您的应用程序中直接在设备上启用内容的模拟和预览至关重要。"
+
+要为移动平台定义基于代码的体验配置设置，请执行以下步骤。
+
+1. 输入您的&#x200B;**[!UICONTROL 应用程序ID]**。 这允许在应用程序的操作环境中进行准确的识别和配置，并确保无缝集成和功能。
+
+1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 这可能是应用程序导航结构深处的特定部分或页面。
+
+   ![](assets/code_config_3.png){width="500"}
+
+1. 填写&#x200B;**[!UICONTROL 预览URL]**&#x200B;字段以启用设备上预览。 此URL通知预览服务触发预览<!--on device. Learn more-->时要使用的特定URL。
+
+   预览URL是应用程序开发人员在您的应用程序中配置的深层链接。 这可确保在应用程序中（而不是在移动Web浏览器中）打开任何与深层链接方案匹配的URL。 请联系您的应用程序开发人员，以获取为您的应用程序配置的深层链接方案。
 
 +++  以下资源可帮助您为应用程序实施配置深层链接
 
-      * 对于Android：
+   * 对于Android：
 
-         * [创建与应用程序上下文的深层链接](https://developer.android.com/training/app-links/deep-linking)
+      * [创建与应用程序上下文的深层链接](https://developer.android.com/training/app-links/deep-linking)
 
-      * 对于iOS：
+   * 对于iOS：
 
-         * [为您的应用程序定义自定义 URL 方案](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [为您的应用程序定义自定义 URL 方案](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-         * [在您的应用程序中支持通用链接](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+      * [在您的应用程序中支持通用链接](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
 +++
 
@@ -118,25 +154,37 @@ ht-degree: 50%
    >
    >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
-1. 选择该特定位置的应用程序所需的格式。 在营销活动和历程中创作基于代码的体验时，将使用此功能。
+### 其他平台 {#other}
 
-1. 提交更改。
+要为其他平台（如视频控制台、电视连接设备、智能电视、网亭、ATM、语音助手、物联网设备等）定义基于代码的体验配置设置，请执行以下步骤。
 
-在创建基于代码的体验时，您现在可以选择配置。
+1. 如果您的实现不适用于Web、iOS或Android，或者需要定位特定的URI，请选择&#x200B;**[!UICONTROL Other]**&#x200B;作为平台。
 
+1. 输入&#x200B;**[!UICONTROL 表面URI]**。 [了解详情](#surface-definition)
 
-## 什么是表面？ {#surface-definition}
+   ![](assets/code_config_5.png)
+
+   >[!CAUTION]
+   >
+   >确保输入的表面URI与您自己的实施中使用的表面URI相匹配。 否则，将无法交付更改。
+
+1. **[!UICONTROL 如果需要，添加其他表面URI]**。 您最多可以添加10个URI。
+
+   >[!NOTE]
+   >
+   >添加多个URI时，内容将传递到列出的所有组件。
+
+## 什么是表面URI？ {#surface-definition}
 
 >[!CONTEXTUALHELP]
->id="ajo_code_based_surface"
->title="定义基于代码的体验配置"
->abstract="基于代码的配置定义了应用程序内部的路径和位置，由应用程序实施中的 URI 唯一标识，而内容则会在该路径和位置传送和使用。"
+>id="ajo_admin_surface_uri"
+>title="为组件添加表面URI"
+>abstract="如果您的实施不适用于Web、iOS或Android，或者如果您需要定位特定的URI，请输入表面URI，它是定向到要向其提供体验的实体的唯一标识符。 确保输入的表面URI与您自己的实施中使用的表面URI相匹配。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
 
-**基于代码的体验表面**&#x200B;是为用户或系统交互而设计的任何实体，它由URI唯一标识。 该界面在应用程序实施中指定，它应该对应于基于代码的体验渠道配置中构成的一个界面。
+基于代码的体验&#x200B;**surface**&#x200B;是为用户或系统交互而设计的任何实体，它由&#x200B;**URI**&#x200B;唯一标识。 曲面在应用程序实施中指定，必须与基于代码的体验渠道配置中引用的曲面匹配。
 
-创建基于代码的体验渠道配置时 — 对于Web、iOS和Android平台，您需要输入路径和位置来构成表面，而如果平台是“其他”，则需要输入完整的URI，如下例所示。
-
-换句话说，可以将表面视为具有实体（接触点）的任何层级层次结构中的容器。<!--good idea to illustrate how it can be seen, but to clarify-->
+在任何层级的容器中，表面都可以被视为存在实体（接触点）的容器。
 
 * 可以是网页、移动设备应用程序、桌面应用程序，以及大型实体中的特定内容位置（例如 `div`）或非标准显示模式（例如，自助服务终端或桌面应用程序横幅）。<!--In retail, a kiosk is a digital display or small structure that businesses often place in high-traffic areas to engage customers.-->
 
@@ -144,7 +192,14 @@ ht-degree: 50%
 
 * 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主图像位置可以在表面 URI 中进行转译，例如：web://mydomain.com/*#hero_image）。
 
-表面 URI 基本上由多个部分组成：
+创建基于代码的体验渠道配置时，您有两种方式可根据所选平台指定表面：
+
+* 对于&#x200B;**[!UICONTROL Web]**、**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!UICONTROL Android]**&#x200B;平台，您需要输入&#x200B;**位置或路径**&#x200B;来构成表面。
+
+* 如果平台是&#x200B;**[!UICONTROL Other]**，则需要输入完整的&#x200B;**表面URI**，如下面的示例所示。
+
+表面URI用作指向应用程序内不同的用户界面元素或组件的精确标识符。 表面URI基本上由多个部分组成：
+
 1. **类型**：web、mobileapp、atm、kiosk、tvcd、service 等。
 1. **属性**：页面 URL 或应用程序捆绑包
 1. **容器**：页面/应用程序活动上的位置
