@@ -1,15 +1,15 @@
 ---
 title: 冲突管理和优先级
-description: 了解如何xxxx。
+description: 了解如何利用Journey Optimizer冲突和优先级工具。
 role: User
 level: Beginner
 badge: label="有限发布版"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 3438a5edceacab13c7241e18454d84228579ebc4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 6%
+source-wordcount: '351'
+ht-degree: 5%
 
 ---
 
