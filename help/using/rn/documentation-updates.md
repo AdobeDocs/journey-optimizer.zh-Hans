@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5610'
-ht-degree: 97%
+source-wordcount: '5626'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,10 @@ ht-degree: 97%
 
 ## 2024 年 10 月 {#oct-2024}
 
-* 改进了配置基于代码的体验页面，使过程更清晰，包括解释什么是表面URI的部分。 [了解详情](../code-based/code-based-configuration.md)
+* **配置基于代码的体验**&#x200B;页面已得到改进，使过程更清晰，包括说明什么是表面URI的部分。 [了解详情](../code-based/code-based-configuration.md)
+* **创建Web渠道配置**&#x200B;页面已更新，以阐明创建页面匹配规则时的步骤，该规则也适用于基于代码的体验配置。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
+* 添加了有关系统生成数据集的即将到来的生存时间(TTL)护栏的说明。 [了解详情](../data/get-started-datasets.md)
 
-* 更新了创建Web渠道配置页面，以明确创建页面匹配规则时的步骤，该规则也适用于基于代码的体验配置。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
 
 ## 2024 年 9 月 {#sept-2024}
 
@@ -31,7 +32,7 @@ ht-degree: 97%
 * 添加了有关历程重试管理的部分。 [了解详情](../building-journeys/read-audience.md#read-audience-retry)
 * 更新了有关自定义操作上限/限制规则的常见问题解答，以提及默认的上限规则。 [了解详情](../configuration/external-systems.md#faq)
 * “控制”访问部分已更新，其中包含与AI Assistant内容生成器相关的权限。 [了解详情](../administration/high-low-permissions.md#ai-permission)
-* 添加了有关AI助理内容生成器过滤器电子邮件生成的视频。 [了解详情](../content-management/generative-email.md#video)
+* 添加了有关用于生成电子邮件的AI助理内容生成器的视频。 [了解详情](../content-management/generative-email.md#video)
 
 
 ## 2024 年 8 月 {#aug-2024}
