@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 9%
+source-wordcount: '1729'
+ht-degree: 7%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 9%
 
    您还可以将部分代码内容另存为片段。 [了解如何操作](../content-management/fragments.md#save-as-expression-fragment)
 
-1. 通过基于代码的体验，您可以使用Experience Decisioning功能。 从左栏中选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。 [了解详情](../experience-decisioning/create-decision.md) <!--UI labels TBC + TBC for journeys (visible in UI so probably confirmed) -->
+1. 通过基于代码的体验，您可以使用Experience Decisioning功能。 从左栏中选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。 [了解详情](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 >title="预览基于代码的体验"
 >abstract="模拟基于代码的体验将看起来是什么样。"
 
-要显示已修改的基于代码的体验的预览，请执行以下步骤。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[预览和测试内容页面](../content-management/preview-test.md)。
+要显示已修改的基于代码的体验的预览，请执行以下步骤。
 
 >[!CAUTION]
 >
@@ -145,12 +145,75 @@ ht-degree: 9%
 
 1. 此时将显示已修改的基于代码的体验预览。
 
-<!--
-    ![](assets/code-based-designer-preview.png)
+有关如何选择测试用户档案和预览内容的详细信息，请参阅[此部分](../content-management/preview.md)。
 
-    You can also open it in the default browser, or copy the test URI to paste it in any browser. This allows you to share the link with your team and stakeholders who will be able to preview the new web experience in any browser before the campaign goes live.
+### 在设备上预览 {#preview-on-device}
 
-    When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device"
+>title="在实际设备上预览基于代码的体验"
+>abstract="在浏览器或移动设备上预览个性化体验，以了解它们在实际设备上的外观。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_web"
+>title="在设备上预览基于代码的Web体验"
+>abstract="扫描二维码或复制链接以在设备上预览。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_mobile"
+>title="在设备上预览基于代码的移动体验"
+>abstract="扫描二维码或复制链接以在设备上预览。 连接后，输入设备上的针脚。 每次更新预览链接时，您可能需要重新启动应用程序才能看到所做的更改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_code_based_preview_device_refresh"
+>title="刷新预览链接以反映当前视图"
+>abstract="设备上预览将显示自您创建或刷新预览链接时起的内容。 如果您已修改内容或选择不同的测试配置文件或待遇，请刷新预览以使其反映当前视图。"
+
+为网页或移动应用程序构建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化体验，以了解这些体验在实际设备上的外观。
+
+>[!WARNING]
+>
+>使用[决策策略](../experience-decisioning/create-decision.md)或[个性化](../personalization/personalization-build-expressions.md)上下文属性时，设备上预览不可用。
+
+1. 在&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕中，单击&#x200B;**[!UICONTROL 打开预览选项]**&#x200B;按钮。 预览选项取决于[基于代码的配置](code-based-configuration.md#create-code-based-configuration)中选择的平台。
+
+1. 如果您在基于代码的配置中使用[Web平台](code-based-configuration.md#web)，则会使用为当前渠道配置输入的URL预填充&#x200B;**[!UICONTROL 设备预览URL]**&#x200B;只读字段。
+
+   ![](assets/preview-on-device-web.png)
+
+   您可以：
+
+   * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并将链接粘贴到浏览器选项卡中。 您还可以与团队和利益相关者共享链接，利益相关者可以在更改生效之前在任何浏览器中预览新体验。
+
+   * 单击&#x200B;**[!UICONTROL 在新标签页中打开]**&#x200B;以在当前浏览器中打开链接。
+
+   * 使用移动设备扫描二维码以在移动设备浏览器中打开预览链接。
+
+1. 如果您在基于代码的配置中使用[Mobile Platforms](code-based-configuration.md#mobile) (iOS / Android)，则&#x200B;**[!UICONTROL Deeplink]**&#x200B;只读字段会使用在所选平台的渠道配置中输入的&#x200B;**[!UICONTROL 预览URL]**&#x200B;值预填充。
+
+   在&#x200B;**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!DNL Android]**&#x200B;选项卡之间切换以预览您所选平台的体验。
+
+   ![](assets/preview-on-device-mobile.png)
+
+   您可以：
+
+   * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
+
+   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
+
+     >[!NOTE]
+     >
+     >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
+
+1. 为选定的测试配置文件生成预览链接，如果您在历程或营销活动中使用[内容试验](../content-management/content-experiment.md)，则为选定的处理生成预览链接。
+
+   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+
+   ![](assets/preview-on-device-refresh.png)-->
+
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+
+   当选择不同的测试用户档案或治疗时，预览链接会发生变化，以使您可拥有每个测试用户档案和/或治疗的链接，并比较体验。
 
 ## 让基于代码的体验上线 {#code-based-experience-live}
 
@@ -168,7 +231,7 @@ ht-degree: 9%
 >
 >如果多个基于代码的历程或营销活动更新了内容的相同元素，则优先级最高的历程/营销活动优先。
 
-一旦您的基于代码的历程或营销活动上线，您的应用程序实施团队将负责进行显式API或SDK调用，以获取选定[基于代码的体验配置](code-based-configuration.md)中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
+一旦您的基于代码的历程或营销活动上线，您的应用程序实施团队将负责发出显式API或SDK调用，以获取选定[基于代码的体验配置](code-based-configuration.md)中定义的表面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
 ### Publish基于代码的历程 {#publish-code-based-journey}
 

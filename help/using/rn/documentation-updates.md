@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5626'
+source-wordcount: '5667'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 96%
 * **创建Web渠道配置**&#x200B;页面已更新，以阐明创建页面匹配规则时的步骤，该规则也适用于基于代码的体验配置。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
 * 添加了有关系统生成数据集的即将到来的生存时间(TTL)护栏的说明。 [了解详情](../data/get-started-datasets.md)
 
+
+* 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。 [了解详情](../code-based/create-code-based.md#preview-on-device)
 
 ## 2024 年 9 月 {#sept-2024}
 

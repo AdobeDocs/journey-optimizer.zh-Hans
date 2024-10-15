@@ -5,14 +5,16 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '196'
+ht-degree: 5%
 
 ---
 
-# 预览您的内容 {#preview}
+# 检查您的内容 {#preview}
+
+<!--## Preview your content {#preview-content}-->
 
 选择[测试用户档案](test-profiles.md)后，您可以预览您的内容。 按照下面的步骤进行操作：
 
@@ -37,3 +39,8 @@ ht-degree: 7%
    ![](../email/assets/preview-test-profile.png)
 
 1. 选择其他测试用户档案以预览您电子邮件中每种消息变体的情况。
+
+>[!NOTE]
+>
+>创建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化内容，以便进行实际模拟。 [了解详情](../code-based/create-code-based.md#preview-on-device)
+
