@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
+source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 6%
+source-wordcount: '1155'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,10 @@ ht-degree: 6%
 
 * 为了正确交付Web体验，请确保在[此处](#delivery-prerequisites)定义详细的Adobe Experience Platform设置。
 
-## 警告说明 {#caution-notes-web}
-
-* [!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新用户档案。这将增加您的可参与用户档案的总数，如果超出您购买的可参与用户档案的合同数量，则可能会产生成本影响。[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新用户档案。这会增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
+>
 
 ## 实施先决条件 {#implementation-prerequisites}
 
