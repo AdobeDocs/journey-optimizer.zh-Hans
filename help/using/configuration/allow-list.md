@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 16%
@@ -140,7 +140,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 原因]**&#x200B;字段中允许包含32到126之间的所有ASCII字符。 可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
+   >**[!UICONTROL 原因]**&#x200B;字段中允许包含32到126之间的所有ASCII字符。 可在[此页面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
