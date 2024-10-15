@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 * 要向网站添加修改，您需要具有特定的实施。 [了解详情](#implementation-prerequisites)
 
-* 要访问[!DNL Journey Optimizer] Web设计器，您必须安装特定的Google Chrome浏览器扩展。 [了解详情](#visual-authoring-prerequesites)
+* 要访问[!DNL Journey Optimizer] Web设计器，您必须安装特定的Google Chrome浏览器扩展。 [了解详情](#visual-authoring-prerequisites)
 
 * 为了正确交付Web体验，请确保在[此处](#delivery-prerequisites)定义详细的Adobe Experience Platform设置。
 
