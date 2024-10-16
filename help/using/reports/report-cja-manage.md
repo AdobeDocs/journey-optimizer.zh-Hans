@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -72,51 +72,51 @@ ht-degree: 1%
 
 >[!ENDTABS]
 
-<!--
-## Schedule exports {#schedule-export}
 
-The **Schedule export** lets you automate the delivery of up to 10 reports at weekly, monthly or yearly intervals. You can also easily manage your scheduled reports, with options to update, edit, cancel, or delete any of your scheduled exports.
+## 计划导出 {#schedule-export}
 
-1. From your report, click **[!UICONTROL Share]** and select **[!UICONTROL Schedule export]**.
+通过&#x200B;**计划导出**，您可以每周、每月或每年自动投放最多10个报告。 您还可以通过更新、编辑、取消或删除任何计划导出的选项轻松管理计划报表。
+
+1. 在报表中，单击&#x200B;**[!UICONTROL 共享]**&#x200B;并选择&#x200B;**[!UICONTROL 计划导出]**。
 
    ![](assets/export-schedule-1.png)
 
-1. Choose your **[!UICONTROL File type]** between CSV and PDF.
+1. 在CSV和PDF之间选择您的&#x200B;**[!UICONTROL 文件类型]**。
 
-1. If needed, you can add a **[!UICONTROL Description]** to your export.
+1. 如果需要，您可以向导出添加&#x200B;**[!UICONTROL 描述]**。
 
-1. Enter the name of the recipients who will receive this automated delivery.
+1. 输入将接收此自动投放的收件人的名称。
 
    ![](assets/export-schedule-2.png)
 
-1. Choose the **[!UICONTROL Frequency]**.
+1. 选择&#x200B;**[!UICONTROL 频率]**。
 
-1. Based on the selected frequency, provide the relevant scheduling details, such as:
+1. 根据选定的频率，提供相关的计划详细信息，例如：
 
-   * Start and end dates
-   
-   * Interval (e.g., every few weeks)
+   * 开始和结束日期
 
-   * Specific day of the week
-   
-   * Week within the month
+   * 间隔（例如，每几周）
 
-   * Day within the month
-   
-   * Month of the year
+   * 一周中的特定日期
 
-1. Click **[!UICONTROL Send on schedule]**.
+   * 一个月中的周
 
-1. To edit previously created scheduled export, click **[!UICONTROL Share]** and select **[!UICONTROL Manage schedules]**.
+   * 一个月中的日
+
+   * 月份
+
+1. 单击&#x200B;**[!UICONTROL 按计划]**&#x200B;发送。
+
+1. 要编辑以前创建的计划导出，请单击&#x200B;**[!UICONTROL 共享]**，然后选择&#x200B;**[!UICONTROL 管理计划]**。
 
    ![](assets/export-schedule-3.png)
 
-1. From the list of scheduled exports, choose the one you want to update and make the necessary changes.
+1. 从计划导出列表中，选择要更新的导出并进行必要的更改。
 
-1. To delete a scheduled report, select one from the managed schedules list and click **[!UICONTROL Delete]**.
+1. 要删除计划报表，请从托管计划列表中选择一个计划，然后单击&#x200B;**[!UICONTROL 删除]**。
 
    ![](assets/export-schedule-4.png)
--->
+
 
 ## 创建简单量度 {#create-simple-metric}
 
