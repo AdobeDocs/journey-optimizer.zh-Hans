@@ -10,10 +10,10 @@ level: Experienced
 keywords: 设置，电子邮件，配置，子域
 badge: label="限量发布版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '792'
+ht-degree: 10%
 
 ---
 
@@ -36,12 +36,6 @@ ht-degree: 14%
 >id="ajo_surface_dynamic_subdomain"
 >title="启用动态子域"
 >abstract="创建电子邮件配置时，您可以根据使用个性化编辑器定义的条件设置动态子域。您最多可以添加 50 个动态子域。"
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="某些子域名可能不可用"
->abstract="由于反馈回路注册尚未完成，某些子域名目前无法选择。此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="子域委派入门"
 
 创建电子邮件配置时，您可以根据特定条件设置动态子域。
 

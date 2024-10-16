@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 允许列表，列表，安全，配置
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1145'
 ht-degree: 16%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 16%
 >
 >在邮件发送过程中排除状态为&#x200B;**[!UICONTROL 不允许]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报告**&#x200B;会显示这些用户档案在历程中移动（[读取受众](../building-journeys/read-audience.md)和[消息活动](../building-journeys/journeys-message.md)），但&#x200B;**电子邮件报告**&#x200B;不会将它们包含在&#x200B;**[!UICONTROL 已发送]**&#x200B;指标中，因为在发送电子邮件之前已将它们过滤掉。
 >
->了解有关[实时报告](../reports/live-report.md)和[全局报告](../reports/global-report.md)的更多信息。
+>了解有关[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)的更多信息。
 
 当允许列表为[已停用](#deactivate-allow-list)时，您从当前沙盒发送的所有电子邮件都会发送给所有收件人（前提是它们不在禁止列表上），包括真实的客户地址。
 
