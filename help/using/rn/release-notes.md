@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b5528c50a04de73a0af3d7ea2ba21fd562a88e1a
+source-git-commit: ac2e0eb18e21c79ba44a76eb6bd1258eccaaa10c
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -63,6 +63,12 @@ ht-degree: 60%
 </tr>
 </tbody>
 </table>
+
+>[!IMPORTANT]
+>
+>目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
+>
+> [了解如何开始使用Journey Optimizer的新报表界面](../reports/report-gs-cja.md)
 
 ### 改进 {#24-10-improvements}
 
@@ -207,12 +213,6 @@ ht-degree: 60%
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
->
-> [了解如何开始使用Journey Optimizer的新报表界面](../reports/report-gs-cja.md)
 
 
 ### 改进 {#24-9-improvements}
