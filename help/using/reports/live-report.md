@@ -8,33 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 实时报告入门 {#live-report}
 
->[!AVAILABILITY]
->
->当前的报告体验将从10月版起停用。 在此日期之后，新的报告体验将成为标准。 我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
-
 使用&#x200B;**[!UICONTROL 实时报告]**在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。
 在发送投放或从**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。
 
-* 如果要在历程上下文中定位历程，请从&#x200B;**[!UICONTROL 历程]**&#x200B;菜单访问您的历程，然后单击&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮。
+* 如果要在历程上下文中定位历程，请从&#x200B;**[!UICONTROL 历程]**&#x200B;菜单访问历程的&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 查看过去24小时报告]**&#x200B;按钮。
 
   ![](assets/report_journey.png)
 
-* 如果要定位促销活动，请从&#x200B;**[!UICONTROL 促销活动]**&#x200B;菜单访问您的促销活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;按钮。
+* 如果要定位促销活动，请从&#x200B;**[!UICONTROL 促销活动]**&#x200B;菜单中访问您的促销活动，然后单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 查看最近24小时报告]**。
 
   ![](assets/report_campaign.png)
-
-* 如果要将投放从&#x200B;**[!UICONTROL 全局报告]**&#x200B;切换到&#x200B;**[!UICONTROL 实时报告]**，请从选项卡切换器中单击&#x200B;**[!UICONTROL 最近24小时]**。
-
-  ![](assets/report_3.png)
 
 有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](#list-of-components-live)。
 
@@ -96,7 +88,7 @@ ht-degree: 1%
 
    ![](assets/export_4.png)
 
-1. 您还可以选择从特定构件导出数据。 单击所选构件旁边的&#x200B;**[!UICONTROL 将构件数据导出到CSV]**。
+1. 您还可以选择从特定构件导出数据。 单击所选小组件旁边的&#x200B;**[!UICONTROL 下载CSV文件]**。
 
    ![](assets/export_5.png)
 

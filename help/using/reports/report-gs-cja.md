@@ -2,17 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 报告新UI
-description: 开始使用报告新界面
+description: CJA报告入门
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限量发布版" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +29,7 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
   ![](assets/gs-cja-report-3.png)
 
-* 如果要定位促销活动，请从&#x200B;**[!UICONTROL 促销活动]**&#x200B;菜单访问您的促销活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;按钮。
+* 如果要定位促销活动，请从&#x200B;**[!UICONTROL 促销活动]**&#x200B;菜单中访问您的促销活动，然后单击&#x200B;**[!UICONTROL 报表]**&#x200B;按钮，然后&#x200B;**[!UICONTROL 查看所有时间报表]**。
 
   从现有营销活动的列表中，您还可以从所选营销活动的高级菜单中选择&#x200B;**[!UICONTROL 报告]**。 [了解有关营销活动报告的更多信息](campaign-global-report-cja.md)
 
@@ -39,10 +38,6 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 * 如果要定位环境中所有营销活动和历程的量度，请导航到&#x200B;**[!UICONTROL 历程管理]**&#x200B;部分中的&#x200B;**[!UICONTROL 报表]**&#x200B;菜单，以访问&#x200B;**概述**&#x200B;报表。 [了解有关概述报告的更多信息](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
-
->[!NOTE]
->
-> 要恢复到Journey Optimizer的传统报表，只需切换&#x200B;**[!UICONTROL 使用新体验]**&#x200B;选项。
 
 ## 先决条件 {#prerequisites}
 
@@ -57,10 +52,6 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
    * **[!UICONTROL 管理Adobe Journey Optimizer的用户档案]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
 * 需要使用以下设置配置您的Customer Journey Analytics数据视图： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* 要在Journey Optimizer中访问Customer Journey Analytics仪表板，只需在报表中启用&#x200B;**[!UICONTROL 使用新Experience]**&#x200B;切换开关。
-
-  ![](assets/cja-option.png)
 
 ## 操作方法视频{#video}
 
