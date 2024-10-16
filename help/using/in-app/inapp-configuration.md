@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 9%
@@ -134,5 +134,5 @@ ht-degree: 9%
 * [创建应用程序内消息](create-in-app.md)
 * [创建营销活动](../campaigns/create-campaign.md)
 * [设计应用程序内消息](design-in-app.md)
-* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
+* [应用程序内报告](../reports/campaign-global-report-cja-inapp.md)
 

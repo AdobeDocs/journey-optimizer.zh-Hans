@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 6%
@@ -48,6 +48,6 @@ ht-degree: 6%
 
 1. 激活营销策划后，您可以随时通过打开它来检查其信息。 利用该摘要，可获取有关定向的用户档案以及已投放和失败操作数的统计信息。
 
-   通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，您还可以在专用报告中获取其他统计信息。 [了解详情](../reports/campaign-global-report.md)
+   通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，您还可以在专用报告中获取其他统计信息。 [了解详情](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)

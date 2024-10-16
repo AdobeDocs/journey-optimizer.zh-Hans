@@ -8,23 +8,24 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '418'
 ht-degree: 6%
 
 ---
 
-# 使用[!DNL Customer Journey Analytics] {#cja-ajo}
-
+# 手动配置[!DNL Customer Journey Analytics] {#cja-ajo}
 
 [!DNL Journey Optimizer]与[!DNL Customer Journey Analytics]的集成通过自动报告分发和自定义数据可视化提供了所有历程的整体视图。
+
+以下部分概述了如何手动利用Journey Optimizer生成的数据在Customer Journey Analytics中进行深入分析。 请注意，此集成可自动设置。 [了解详情](report-gs-cja.md)
 
 ![](assets/cja.png)
 
 在[!DNL Journey Optimizer]中创建您的历程后，您可以将客户数据导入到[!DNL Customer Journey Analytics]以启动报告并了解客户与您的历程每次交互的影响。
 
-➡️[发现Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
+➡️[发现Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 6%
@@ -59,7 +59,7 @@ ht-degree: 6%
 **相关主题**
 
 * [配置推送渠道](push-configuration.md)
-* [推送通知报告](../reports/journey-global-report.md#push-global)
+* [推送通知报告](../reports/journey-global-report-cja-push.md)
 * [创建推送通知](create-push.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 * [在营销活动中添加消息](../campaigns/create-campaign.md)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '3529'
+source-wordcount: '3485'
 ht-degree: 27%
 
 ---
@@ -22,11 +22,7 @@ ht-degree: 27%
 >title="营销活动实时报告"
 >abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明您营销活动中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
 
->[!AVAILABILITY]
->
->当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
-
-实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，全局报告重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
+实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，Customer Journey Analytics报表重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
 使用&#x200B;**[!UICONTROL 实时视图]**&#x200B;按钮可直接从营销活动访问营销活动实时报告。
 
@@ -610,4 +606,4 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * [创建营销活动](../campaigns/create-campaign.md)
 * [创建API触发的营销活动](../campaigns/api-triggered-campaigns.md)
 * [修改或停止营销活动](../campaigns/modify-stop-campaign.md)
-* [营销活动全局报告](campaign-global-report.md)
+* [营销活动报告](campaign-global-report-cja.md)

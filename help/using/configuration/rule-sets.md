@@ -12,9 +12,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1595'
 ht-degree: 12%
 
 ---
@@ -230,7 +230,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. 您可以在[全局报告](../reports/global-report.md)和[实时报告](../reports/live-report.md)中查看从投放中排除的用户档案数，其中频率规则将列为用户被排除投放的可能原因。
+1. 您可以在[Customer Journey Analytics报告](../reports/report-gs-cja.md)和[实时报告](../reports/live-report.md)中查看从投放中排除的用户档案数，其中频率规则将列为用户被排除投放的可能原因。
 
 >[!NOTE]
 >

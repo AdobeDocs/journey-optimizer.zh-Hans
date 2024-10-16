@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2530'
+source-wordcount: '2532'
 ht-degree: 11%
 
 ---
@@ -290,7 +290,7 @@ IP预热计划本身就是单个位置的整合报告。 您可以检查每个�
 
 ### 使用报表 {#reports}
 
-一般来说，要衡量计划的影响，您可以使用[!DNL Journey Optimizer]活动报告来检查IP预热活动的效果。 为此，对于每个已完成的运行，您可以单击&#x200B;**[!UICONTROL 查看报表]**&#x200B;按钮。 了解有关营销活动电子邮件[实时报告](../reports/campaign-live-report.md#email-live)和[全局报告](../reports/campaign-global-report.md#email-global)的更多信息。
+一般来说，要衡量计划的影响，您可以使用[!DNL Journey Optimizer]活动报告来检查IP预热活动的效果。 为此，对于每个已完成的运行，您可以单击&#x200B;**[!UICONTROL 查看报表]**&#x200B;按钮。 了解有关营销活动电子邮件[实时报告](../reports/campaign-live-report.md#email-live)和[Customer Journey Analytics报告](../reports/campaign-global-report-cja-email.md)的更多信息。
 
 ![](assets/ip-warmup-plan-reports.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 13%
+source-wordcount: '734'
+ht-degree: 12%
 
 ---
 
@@ -45,10 +45,6 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 ## 创建您的内容 {#campaign-experiment}
 
 1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journeys-message.md)。
-
-   >[!AVAILABILITY]
-   >
-   >目前，历程试验仅适用于一批组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口，开始个性化处理A。
 
@@ -128,4 +124,4 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
 1. 定义消息内容后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../content-management/preview-test.md)
 
-配置试验后，您可以在报表中跟踪投放的成功情况。 [了解详情](../reports/campaign-global-report.md#experimentation-report)
+配置试验后，您可以在报表中跟踪投放的成功情况。 [了解详情](../reports/campaign-global-report-cja-experimentation.md)

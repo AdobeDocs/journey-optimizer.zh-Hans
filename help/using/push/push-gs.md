@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 1. 将个性化推送负载转发到内部推送消息投放服务
 1. 然后，此内部服务将验证与消息关联的应用程序的凭据，并
 1. 将消息发送到Apple和Google消息服务以进行最终投放
-1. 记录来自消息服务的反馈，并记录错误和成功以在历程实时和全局报告中报告
+1. 记录来自消息服务的反馈，并记录错误和成功以在历程实时和Customer Journey Analytics报告中报告
 1. 推送通知将发送到最终用户设备
 1. 最终用户推送通知交互通过SDK集成从最终用户客户端作为体验事件发送
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 **相关主题**
 
 * [配置推送渠道](push-configuration.md)
-* [推送通知报告](../reports/journey-global-report.md#push-global)
+* [推送通知报告](../reports/journey-global-report-cja-push.md)
 * [创建推送通知](create-push.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 * [在营销活动中添加消息](../campaigns/create-campaign.md)

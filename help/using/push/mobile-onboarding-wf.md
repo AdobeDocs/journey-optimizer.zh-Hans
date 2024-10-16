@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta 版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 * 简单的四步工作流程和用户界面。
 * 提供基本设置，以便在几分钟内开始通过[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集移动事件数据。
-* 能够利用[Adobe Experience Platform保证](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}测试和验证基本移动推送事件。
+* 能够测试和验证利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}的基本移动推送事件。
 * 自动创建和配置所有必需的数据收集和Journey Optimizer资源。
 * 在产品指导和工具提示中。
 * 如果需要，为更高级的实施提供自然过渡。
@@ -75,5 +75,5 @@ ht-degree: 9%
 * [推送通知入门](get-started-push.md)
 * [推送通知数据流和组件](push-gs.md)
 * [配置推送渠道](push-configuration.md)
-* [推送通知报告](../reports/journey-global-report.md#push-global)
+* [推送通知报告](../reports/journey-global-report-cja-push.md#push-global)
 * [创建推送通知](create-push.md)

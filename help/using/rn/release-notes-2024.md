@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3842'
 ht-degree: 95%
@@ -816,7 +816,7 @@ ht-degree: 95%
 
 **报告**
 
-* **新的基于域的细分构件** - 添加了新构件，用于增强营销活动和历程报告。**按域列出的退回原因**、**按域列出的已发送和已投放数**、**按域列出的打开数和点击数**&#x200B;以及&#x200B;**按域列出的退回和错误**&#x200B;构件可在域级别提供关键电子邮件投放和跟踪指标的详细细分。[了解详情](../reports/channel-report.md)
+* **新的基于域的细分构件** - 添加了新构件，用于增强营销活动和历程报告。**按域列出的退回原因**、**按域列出的已发送和已投放数**、**按域列出的打开数和点击数**&#x200B;以及&#x200B;**按域列出的退回和错误**&#x200B;构件可在域级别提供关键电子邮件投放和跟踪指标的详细细分。[了解详情](../reports/channel-report-cja.md)
 
 **短信渠道**
 

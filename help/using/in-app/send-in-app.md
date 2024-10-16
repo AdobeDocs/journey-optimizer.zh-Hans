@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 12%
@@ -64,11 +64,11 @@ ht-degree: 12%
 
 您的营销活动现已激活。 在营销活动中配置的应用程序内通知将立即发送，或者在指定日期发送。
 
-发送后，您可以在促销活动或历程报表中衡量应用程序内消息的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report.md#inapp-report)。
+发送后，您可以在促销活动或历程报表中衡量应用程序内消息的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report-cja-inapp.md)。
 
 **相关主题：**
 
 * [创建应用程序内消息](create-in-app.md)
 * [设计应用程序内消息](design-in-app.md)
-* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
+* [应用程序内报告](../reports/campaign-global-report-cja-inapp.md)
 * [应用程序内配置](inapp-configuration.md)

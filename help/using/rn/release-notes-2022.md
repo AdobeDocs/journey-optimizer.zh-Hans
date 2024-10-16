@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 99%
@@ -306,9 +306,9 @@ ht-degree: 99%
 
 **报告**
 
-* 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的用户档案。[了解详情](../reports/journey-global-report.md#journey-global)
+* 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的用户档案。[了解详情](../reports/journey-global-report-cja.md#journey-global)
 
-  要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md)。
+  要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/report-gs-cja.md)。
 
 **管理**
 
@@ -771,7 +771,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **报告**
 
 * 现在，可以根据投放的状态对其进行筛选：
-   * 在消息执行列表中，您现在可以从投放列表中排除验证。
+   * 在消息执行列表中，您现在可以从投放列表中排除校样。
    * 在实时/全局报告中，您可以选择排除测试事件。
 
 * 您现在可以访问有关发送时间优化数据的报告：立即向其发送消息的人数，以及通过 1 小时优化、2 小时优化向其发送消息的人数，等等。

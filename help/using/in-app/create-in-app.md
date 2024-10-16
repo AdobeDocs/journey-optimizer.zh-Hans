@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -256,5 +256,5 @@ ht-degree: 12%
 
 * [设计应用程序内消息](design-in-app.md)
 * [测试并发送应用程序内消息](send-in-app.md)
-* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
+* [应用程序内报告](../reports/campaign-global-report-cja-inapp.md)
 * [应用程序内配置](inapp-configuration.md)

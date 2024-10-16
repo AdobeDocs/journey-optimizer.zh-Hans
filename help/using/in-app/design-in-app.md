@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -243,7 +243,7 @@ ht-degree: 28%
 **相关主题：**
 
 * [创建应用程序内消息](create-in-app.md)
-* [应用程序内报告](../reports/campaign-global-report.md#inapp-report)
+* [应用程序内报告](../reports/campaign-global-report-cja-inapp.md)
 * [应用程序内配置](inapp-configuration.md)
 
 ## 操作方法视频{#video}

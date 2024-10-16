@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1715'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 ![](assets/lp_access-list-filter.png)
 
-从该列表中，您可以访问已发布项目的[登陆页面实时报告](../reports/lp-report-live.md)或[登陆页面全局报告](../reports/lp-report-global.md)。
+从该列表中，您可以访问已发布项目的[登陆页面实时报告](../reports/lp-report-live.md)或[登陆页面报告](../reports/lp-report-global-cja.md)。
 
 您还可以删除、复制和取消发布登陆页面。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 14%
@@ -190,7 +190,7 @@ Adobe Journey Optimizer的发送时间优化功能由Adobe的AI服务提供支�
 
 +++有哪些报表可用？
 
-访问您的旅程，单击右上方的&#x200B;**查看报告**&#x200B;按钮，然后选择左侧的&#x200B;**历程**&#x200B;选项卡。 [了解详情](../reports/journey-global-report.md)
+访问您的旅程，单击右上方的&#x200B;**查看报告**&#x200B;按钮，然后选择左侧的&#x200B;**历程**&#x200B;选项卡。 [了解详情](../reports/journey-global-report-cja.md)
 
 +++
 

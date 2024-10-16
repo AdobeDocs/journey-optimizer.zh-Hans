@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -48,4 +48,4 @@ ht-degree: 100%
 
    请参阅[本节](../../building-journeys/journey-gs.md)，了解如何设计和执行历程
 
-1. **监测消息和历程**。为确保消息成功执行、发送和投放，[!DNL Journey Optimizer] 提供了用于监测当前已发布和触发的消息的功能。请参阅[本节](../../reports/global-report.md)，了解如何检测性能表现。
+1. **监测消息和历程**。为确保消息成功执行、发送和投放，[!DNL Journey Optimizer] 提供了用于监测当前已发布和触发的消息的功能。请参阅[本节](../../reports/report-gs-cja.md)，了解如何检测性能表现。

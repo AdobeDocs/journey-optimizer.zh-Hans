@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 4%
 
 1. 在启动营销活动之前，请仔细检查所有配置是否正确，然后单击&#x200B;**[!UICONTROL 激活]**。
 
-成功配置和个性化营销活动后，您可以在营销活动报告中跟踪您的营销活动。 [了解详情](../reports/campaign-global-report.md)
+成功配置和个性化营销活动后，您可以在营销活动报告中跟踪您的营销活动。 [了解详情](../reports/campaign-global-report-cja.md)

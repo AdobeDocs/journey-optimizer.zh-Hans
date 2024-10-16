@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 27%
@@ -129,7 +129,7 @@ ht-degree: 27%
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪收件人对投放的反应：您可以跟踪点击次数和/或打开次数。
 
-   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../reports/campaign-global-report.md)
+   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../reports/campaign-global-report-cja.md)
 
 ## 安排营销活动 {#schedule}
 

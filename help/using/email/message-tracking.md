@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1055'
 ht-degree: 35%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 35%
    * **[!UICONTROL 镜像页面]**：将此 URL 视为镜像页面 URL。
    * **[!UICONTROL 从不]**：从不激活此URL的跟踪。
 
-有关打开次数和点击次数的报告可在[实时报告](../reports/live-report.md)和[全局报告](../reports/global-report.md)中获取。
+有关打开次数和点击次数的报表可在[实时报表](../reports/live-report.md)和[Customer Journey Analytics报表](../reports/report-gs-cja.md)中获取。
 
 ## 个性化URL跟踪 {#url-tracking}
 

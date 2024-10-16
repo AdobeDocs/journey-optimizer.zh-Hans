@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4377'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 98%
 <p>渠道报告功能为分析师和营销人员在渠道级别提供了流量和参与量度的全面概述。</p>
 <p>要访问<b>报告</b>菜单，您必须拥有<b>查看渠道报告</b>权限。</p>
 <img src="assets/channel-reports.png"/>
-<p>有关更多信息，请参阅<a href="../reports/channel-report.md">详细文档</a>和<a href="../reports/channel-report.md#channel-report-video">教程视频</a>。</p>
+<p>有关更多信息，请参阅<a href="../reports/channel-report-cja.md">详细文档</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ ht-degree: 98%
 
 **报告**
 
-* 您现在可以将 Journey Optimizer 报告导出为 CSV 文件。有关详细信息，请参阅[详细文档](../reports/global-report.md#export-reports)和[操作方法视频](../reports/global-report.md#video-csv)。
+* 您现在可以将 Journey Optimizer 报告导出为 CSV 文件。有关更多信息，请参阅[详细文档](../reports/report-gs-cja.md)。
 
 **资源**
 
@@ -531,7 +531,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/campaign-global-report-cja.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -722,7 +722,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **报告**
 
-* 您现在可以将 Journey Optimizer 报表导出为 PDF。[了解详情](../reports/global-report.md#export-reports)
+* 您现在可以将 Journey Optimizer 报表导出为 PDF。[了解详情](../reports/report-gs-cja.md)
 
 **内容设计器**
 
@@ -824,7 +824,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 报表小组件功能已得到改进，允许自定义用户查看其数据的方式。通过这项改进，用户现在可以在多个可视化选项（包括图形、表格和圆环图）之间进行选择。
 
-  要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/global-report.md#modify-dashboard)。
+  要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/report-gs-cja.md)。
 
 ## 2023年2月版 {#feb-2023}
 

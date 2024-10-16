@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
-workflow-type: ht
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 <td>
 <p>报告中提供了新量度：电子邮件和推送消息的“目标受众”和“排除受众”在实时报告和全局报告中均可见。</br> 如需访问最新量度，请注意，您必须为每个渠道和报告类型重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅<a href="../reports/live-report.md">详细文档。</a></p>
 <p>消息执行列表中的新列会显示每个消息执行的目标用户档案数。 </p>
-<p>有关更多信息，请参阅<a href="../reports/global-report.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../reports/report-gs-cja.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -351,8 +351,8 @@ ht-degree: 100%
 **预览和测试**
 
 * 标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-your-messages)
-* 验证的测试电子邮件数量现在限制为 10 封。
-* 允许用作验证中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
+* 校样的测试电子邮件数量现在限制为 10 封。
+* 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
 
 **个性化表达式编辑器**
 

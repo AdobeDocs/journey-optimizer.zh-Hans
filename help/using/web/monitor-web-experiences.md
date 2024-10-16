@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '288'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 ## 检查Web报告 {#check-web-reports}
 
-在Web体验上线后，您可以检查[历程报告](../reports/journey-global-report-cja.md#web-cja)和[促销活动报告](../reports/campaign-global-report-cja.md#web)的&#x200B;**[!UICONTROL Web]**&#x200B;选项卡，以比较展示次数、点击率和与网页的互动次数等元素。
+在Web体验上线后，您可以检查[历程报告](../reports/journey-global-report-cja-web.md)和[促销活动报告](../reports/campaign-global-report-cja-web.md)的&#x200B;**[!UICONTROL Web]**&#x200B;选项卡，以比较展示次数、点击率和与网页的互动次数等元素。
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report.md#web-tab).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 要进一步改进Web体验监控，您还可以跟踪网站任何特定元素的点击次数。 这样，您就可以在Web报表中显示对该元素的点击次数。 [了解如何操作](#use-click-tracing)
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Web设计器允许您选择网站的任何元素并跟踪对该元素的点击。
 
-此信息对于改善网站用户的体验非常有用。 例如，如果[Web报表](../reports/campaign-global-report.md#web-tab)显示有许多用户单击了一个实际上不可点击的元素，则您可能希望添加指向该元素的链接。
+此信息对于改善网站用户的体验非常有用。 例如，如果[Web报表](../reports/campaign-global-report-cja-web.md)显示有许多用户单击了一个实际上不可点击的元素，则您可能希望添加指向该元素的链接。
 
 1. 在页面中选择元素，然后从上下文菜单中选择&#x200B;**[!UICONTROL 单击跟踪元素]**。
 
@@ -49,4 +49,4 @@ Web设计器允许您选择网站的任何元素并跟踪对该元素的点击�
 
 1. 要删除某个元素的点击跟踪，请选择相应的删除图标。
 
-一旦您的营销活动开始，您就可以检查营销活动网站[实时报告](../reports/campaign-live-report.md#web-tab)和[全局报告](../reports/campaign-global-report.md#web-tab)中每个元素的点击次数。
+一旦您的营销活动开始，您就可以检查营销活动网站[实时报告](../reports/campaign-live-report.md#web-tab)和[Customer Journey Analytics报告](../reports/campaign-global-report-cja-web.md)中每个元素的点击次数。

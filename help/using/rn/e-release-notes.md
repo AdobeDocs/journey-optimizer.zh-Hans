@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
-workflow-type: ht
-source-wordcount: '1008'
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+workflow-type: tm+mt
+source-wordcount: '963'
 ht-degree: 100%
 
 ---
@@ -151,12 +151,6 @@ ht-degree: 100%
 </tbody>
 </table>
 
->[!IMPORTANT]
->
->当前的报告体验将从 10 月版起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
-> [Journey Optimizer 的新报告界面入门](../reports/report-gs-cja.md)
-
-
 ### 改进 {#e-improvements}
 
 此版本包含下方列出的改进。
@@ -214,5 +208,5 @@ ht-degree: 100%
   >请注意，通过使用文档页面上的交互式 API 功能，您正在对端点进行真正的 API 调用。在试验生产沙盒时请记住这一点。
 
 
-* **营销活动模拟 API** - 使用此 API 触发营销活动的验证作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+* **营销活动模拟 API** - 使用此 API 触发营销活动的校对作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
