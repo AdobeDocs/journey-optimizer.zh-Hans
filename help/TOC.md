@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 96%
+source-wordcount: '2136'
+ht-degree: 93%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 96%
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
-   + 全局报告 {#global-report}
-      + [全局报告入门](using/reports/global-report.md)
-      + [组件列表](using/reports/global-report-components.md)
-      + [历程全局报告](using/reports/journey-global-report.md)
-      + [营销活动全局报告](using/reports/campaign-global-report.md)
-      + [目标报告](using/reports/objective-report.md)
-      + [登陆页面全局报告](using/reports/lp-report-global.md)
-      + [订阅列表全局报告](using/reports/subscription-report-global.md)
-   + 渠道报告{#channel-report}
-      + [开始使用渠道报告](using/reports/channel-report-gs.md)
-      + [渠道报告](using/reports/channel-report.md)
+   + Customer Journey Analytics报告{#channel-report}
+      + [Customer Journey Analytics报告入门](using/reports/report-gs-cja.md)
+      + [手动配置Customer Journey Analytics](using/reports/cja-ajo.md)
+      + [管理您的报告](using/reports/report-cja-manage.md)
+      + [报告和试验先决条件](using/reports/reporting-configuration.md)
+      + 营销活动报告{#reporting}
+         + [营销活动报告](using/reports/campaign-global-report-cja.md)
+         + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
+         + [内容卡营销活动报告](using/reports/campaign-global-report-cja-content.md)
+         + [直邮营销活动报告](using/reports/campaign-global-report-cja-direct.md)
+         + [电子邮件营销活动报告](using/reports/campaign-global-report-cja-email.md)
+         + [试验性营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
+         + [应用程序内营销活动报告](using/reports/campaign-global-report-cja-inapp.md)
+         + [推送通知营销活动报告](using/reports/campaign-global-report-cja-push.md)
+         + [短信营销活动报告](using/reports/campaign-global-report-cja-sms.md)
+         + [Web营销活动报告](using/reports/campaign-global-report-cja-web.md)
+      + 历程报告{#reporting}
+         + [历程报告](using/reports/journey-global-report-cja.md)
+         + [基于代码的历程报告](using/reports/journey-global-report-cja-code.md)
+         + [内容卡历程报告](using/reports/journey-global-report-cja-content.md)
+         + [直邮历程报告](using/reports/journey-global-report-cja-direct.md)
+         + [通过电子邮件发送历程报告](using/reports/journey-global-report-cja-email.md)
+         + [应用程序内历程报告](using/reports/journey-global-report-cja-inapp.md)
+         + [推送历程报告](using/reports/journey-global-report-cja-push.md)
+         + [短信历程报告](using/reports/journey-global-report-cja-sms.md)
+         + [Web历程报告](using/reports/journey-global-report-cja-web.md)
+      + [“概述”报告](using/reports/channel-report-cja.md)
+      + [登陆页面报告](using/reports/lp-report-global-cja.md)
+      + [订阅列表报告](using/reports/subscription-report-global-cja.md)
+   + 以前的报告信息板{#reports}
+      + 全局报告 {#global-report}
+         + [全局报告入门](using/reports/global-report.md)
+         + [组件列表](using/reports/global-report-components.md)
+         + [历程全局报告](using/reports/journey-global-report.md)
+         + [营销活动全局报告](using/reports/campaign-global-report.md)
+         + [目标报告](using/reports/objective-report.md)
+         + [登陆页面全局报告](using/reports/lp-report-global.md)
+         + [订阅列表全局报告](using/reports/subscription-report-global.md)
+      + 渠道报告{#channel-report}
+         + [开始使用渠道报告](using/reports/channel-report-gs.md)
+         + [渠道报告](using/reports/channel-report.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 96%
       + [了解禁止列表](using/reports/suppression-list.md)
       + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + [警报](using/reports/alerts.md)
-   + [使用 Customer Journey Analytics](using/reports/cja-ajo.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ 新报告界面 (LA){#channel-report}
-   + [新的报告界面入门](using/reports/report-gs-cja.md)
-   + [报告和试验先决条件](using/reports/reporting-configuration.md)
-   + [管理您的报告](using/reports/report-cja-manage.md)
-   + [历程报告](using/reports/journey-global-report-cja.md)
-   + [营销活动报告](using/reports/campaign-global-report-cja.md)
-   + [“概述”报告](using/reports/channel-report-cja.md)
-   + [登陆页面报告](using/reports/lp-report-global-cja.md)
-   + [订阅列表报告](using/reports/subscription-report-global-cja.md)
 + 决策 {#decisioning}
    + 决策管理{#offer-decisioning}
       + 决策管理入门 {#get-started-decision}
