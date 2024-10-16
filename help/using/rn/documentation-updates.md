@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5667'
+source-wordcount: '5672'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,8 @@ ht-degree: 96%
 * **配置基于代码的体验**&#x200B;页面已得到改进，使过程更清晰，包括说明什么是表面URI的部分。 [了解详情](../code-based/code-based-configuration.md)
 * **创建Web渠道配置**&#x200B;页面已更新，以阐明创建页面匹配规则时的步骤，该规则也适用于基于代码的体验配置。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
 * 添加了有关系统生成数据集的即将到来的生存时间(TTL)护栏的说明。 [了解详情](../data/get-started-datasets.md)
-
-
 * 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。 [了解详情](../code-based/create-code-based.md#preview-on-device)
+* 新增了有关如何利用自定义上传受众进行决策的页面。 [了解详情](../offers/custom-upload-decisioning.md)
 
 ## 2024 年 9 月 {#sept-2024}
 
@@ -131,7 +130,6 @@ ht-degree: 96%
 * 更新了 `toString` 函数中的&#x200B;**持续时间**&#x200B;参数。[了解详情](../building-journeys/functions/functiontostring.md)
 * 对于某些外部数据源用例，建议使用自定义操作。
 * 更新了事件字段语法。以下语法已弃用 `@(my_event.myfield}` 并替换为 `@event{my_event.myfield}`。[了解详情](../building-journeys/expression/field-references.md)
-* 重新编排了“全局报告”和“实时报告”指南。[了解详情](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +177,7 @@ ht-degree: 96%
 * 更新了关于历程中的&#x200B;**身份验证缓存管理**&#x200B;的注释，以详细说明不会在不同历程之间共享令牌。[了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
 * 更新了关于历程&#x200B;**条目管理**&#x200B;的页面，对行为进行了说明。[了解详情](../building-journeys/entry-management.md)
 * Offer Decisioning **导出数据集**&#x200B;现在默认处于启用状态。已移除有关旧版行为的注释。[了解详情](../offers/export-catalog/get-started-export.md)
-* 重命名了实时报告和全局报告中的多个&#x200B;**营销活动报告量度**。[了解详情](../reports/campaign-global-report.md)
+* 重命名了实时报告和全局报告中的多个&#x200B;**营销活动报告量度**。[了解详情](../reports/campaign-live-report.md)
 * 添加了关于 Web 渠道内容试验先决条件的新内容。 [了解详情](../web/web-prerequisites.md#experiment-prerequisites)
 * 在&#x200B;**使用内容模板**&#x200B;页面上添加了一项警告，以指明当前在测试电子邮件内容模板时不支持跟踪。 要测试跟踪，您必须在电子邮件中使用内容模板并发送校样。 [了解详情](../content-management/content-templates.md#test-template)
 * **创建和发布登陆页面**&#x200B;部分中添加了多项警告，以指明您仅通过将创建页面时定义的 URL（即使已发布）复制粘贴到 Web 浏览器无法访问登陆页面。 不过，您可以使用预览功能对其进行测试。[了解详情](../landing-pages/create-lp.md)
@@ -297,9 +295,9 @@ ht-degree: 96%
 * 更新了与 [toDateOnly](../building-journeys/functions/functiontodateonly.md) 和 [toString](../building-journeys/functions/functiontostring.md) 函数相关的页面。
 * 添加了有关时间条件参数的详细信息。[了解详情](../building-journeys/condition-activity.md#time_condition)
 * 添加了有关内置数据集的信息。[了解详情](../data/get-started-datasets.md#access-datasets)
-* 改进并重组了“全局报告”和“实时报告”章节。[了解详情](../reports/global-report.md)
+* 改进并重组了“全局报告”和“实时报告”章节。[了解详情](../reports/report-gs-cja.md)
 * 添加了 Adobe Journey Optimizer 中可用的所有报表量度的列表。
-  [了解详情](../reports/global-report.md#email-and-sms-metrics)
+  [了解详情](../reports/report-gs-cja.md#email-and-sms-metrics)
 * “密件抄送电子邮件”部分已移至新的“存档支持”页面。[了解详情](../configuration/archiving-support.md)
 
 ## 2022 年 8 月 {#august-2022}
@@ -444,7 +442,7 @@ ht-degree: 96%
 * 更新了使用动态 URL 路径和动态标头进行自定义操作的配置过程。[了解更多信息](../action/about-custom-action-configuration.md#url-configuration)
 * 添加了关于辅助功能和快捷键的部分。[了解详情](../start/user-interface.md#accessibility)
 * 添加了有关受众评估方法的部分。[了解详情](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/global-report.md)
+* 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/report-gs-cja.md)
 * 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../configuration/allow-list.md#reporting)
 * 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/channel-surfaces.md#monitor-channel-surfaces)
