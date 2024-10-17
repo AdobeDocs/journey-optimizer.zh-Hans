@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4552'
+ht-degree: 24%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 0%
 有关Adobe Journey Optimizer中可用的每个量度的详细列表，请参阅[此页面](global-report.md#list-of-components-global.md)
 
 ## “营销活动”选项卡 {#campaign-global}
+
+>[!NOTE]
+>
+>试验报表只能在Customer Journey Analytics报表中访问。 [了解详情](campaign-global-report-cja-experimentation.md)
 
 ### 投放 {#delivery-global}
 

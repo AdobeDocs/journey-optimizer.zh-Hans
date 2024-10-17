@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ac2e0eb18e21c79ba44a76eb6bd1258eccaaa10c
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1603'
+ht-degree: 57%
 
 ---
 
@@ -29,6 +29,24 @@ ht-degree: 0%
 下面列出的[功能](#24-10-features)和[改进](#24-10-improvements)已于本月发布。
 
 ### 新功能 {#24-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Customer Journey Analytics报告（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer报告功能现已正式推出(GA)，并提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。</p>
+<p>在正式发布后，引入了四个新功能：创建简单量度、创建和发布受众、使用Insight Builder提出临时问题以及安排报表自动通过电子邮件发送给关键收件人。</p>
+<p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/ajo-cja.gif">
+<p>可用日期：2024年10月1日</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
