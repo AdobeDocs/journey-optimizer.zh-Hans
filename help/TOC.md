@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 93%
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-+ 测试和批准{#test}
++ 测试和审批{#test}
    + [冲突管理和优先级](using/test-approve/conflict-prioritization.md)
    + 冲突管理和优先顺序{#conflict-prioritization}
       + [冲突管理和优先顺序入门](using/test-approve/gs-conflict-prioritization.md)
@@ -190,11 +190,11 @@ ht-degree: 93%
       + [发送电子邮件校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
-   + 批准历程和营销活动{#approve}
+   + 审批历程和营销活动{#approve}
       + [审批入门](using/test-approve/gs-approval.md)
       + [创建和管理审批策略](using/test-approve/approval-policies.md)
       + [请求审批](using/test-approve/request-approval.md)
-      + [批准请求](using/test-approve/review-approve-request.md)
+      + [审批请求](using/test-approve/review-approve-request.md)
 + 电子邮件渠道 {#email}
    + [电子邮件入门](using/email/get-started-email.md)
    + [创建电子邮件](using/email/create-email.md)
@@ -267,7 +267,7 @@ ht-degree: 93%
    + 编写 Web 页面{#author-web-pages}
       + [编辑网页内容](using/web/edit-web-content.md)
       + [管理修改](using/web/manage-web-modifications.md)
-      + [监控您的Web体验](using/web/monitor-web-experiences.md)
+      + [监测 Web 体验](using/web/monitor-web-experiences.md)
       + [创作单页应用程序](using/web/web-spa.md)
 + 基于代码的体验 {#code-based-experience}
    + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
@@ -275,12 +275,12 @@ ht-degree: 93%
    + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
    + [实施方法示例](using/code-based/code-based-implementation-samples.md)
    + [创建基于代码的体验](using/code-based/create-code-based.md)
-+ 内容卡片{#content-card}
-   + [内容卡片入门](using/content-card/get-started-content-card.md)
++ 内容卡{#content-card}
+   + [内容卡入门](using/content-card/get-started-content-card.md)
    + 配置内容卡片渠道{#configure}
       + [内容卡片先决条件](using/content-card/content-card-configuration-prereq.md)
       + [在 Journey Optimizer 中配置内容卡片渠道](using/content-card/content-card-configuration.md)
-      + [在Web SDK中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
+      + [在 Web SDK 中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
    + [创建内容卡片](using/content-card/create-content-card.md)
    + [设计内容卡片](using/content-card/design-content-card.md)
 + 登陆页面{#landing-pages}
@@ -629,7 +629,7 @@ ht-degree: 93%
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置{#guided-setup}
       + [引导式渠道设置入门](using/configuration/set-mobile-config.md)
-      + [创建一个渠道设置](using/configuration/create-channel-set-up.md)
+      + [创建渠道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
@@ -698,5 +698,5 @@ ht-degree: 93%
    + 管理同意 {#consent}
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
-   + [数据管理](using/action/action-privacy.md)
+   + [数据治理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)

@@ -11,8 +11,8 @@ hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '3598'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 99%
 **历程**
 
 * 现在，**实体数据集**&#x200B;是 Adobe Journey Optimizer 中包含的现成可用的数据集。此查询数据集包含元数据，可用于丰富跟踪和反馈数据集信息。这有助于您使用更易理解的数据来改进报表和查询。[了解详情](../data/datasets-query-examples.md#entity-dataset)
-* 向单一历程（以事件或受众鉴别开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，重新进入用户档案会被暂时阻止5分钟。 [了解详情](../start/guardrails.md#events-g)
+* 向单一历程（以事件或受众鉴别开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，会暂时阻止用户档案重新进入 5 分钟。[了解详情](../start/guardrails.md#events-g)
 
 **管理**
 

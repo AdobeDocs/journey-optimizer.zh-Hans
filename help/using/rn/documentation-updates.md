@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5672'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 96%
 
 ## 2024 年 9 月 {#sept-2024}
 
-* 文档中详细介绍了[!DNL Journey Optimizer] 2024年9月版本的所有新增功能和改进。 [了解详情](release-notes.md)
-* 添加了有关历程重试管理的部分。 [了解详情](../building-journeys/read-audience.md#read-audience-retry)
-* 更新了有关自定义操作上限/限制规则的常见问题解答，以提及默认的上限规则。 [了解详情](../configuration/external-systems.md#faq)
-* “控制”访问部分已更新，其中包含与AI Assistant内容生成器相关的权限。 [了解详情](../administration/high-low-permissions.md#ai-permission)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 9 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* 添加了关于历程重试管理的部分。[了解详情](../building-journeys/read-audience.md#read-audience-retry)
+* 更新了有关自定义操作上限/限制规则的常见问题解答，并介绍了默认的上限规则。[了解详情](../configuration/external-systems.md#faq)
+* 更新了控制访问权限部分，其中包含与 AI 助手内容生成器相关的权限。[了解详情](../administration/high-low-permissions.md#ai-permission)
 * 添加了有关用于生成电子邮件的AI助理内容生成器的视频。 [了解详情](../content-management/generative-email.md#video)
 
 
 ## 2024 年 8 月 {#aug-2024}
 
-* 文档中详细介绍了[!DNL Journey Optimizer] 2024年8月版本的所有新增功能和改进。 [了解详情](release-notes.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 8 月版本的所有新增功能和改进。[了解详情](release-notes.md)
 * 更新了决策管理的性能护栏，涉及使用/不使用 Edge 分段的 Decisioning API 投放吞吐量。[了解详情](../start/guardrails.md#decision-management)
 * 历程护栏已更新。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 
@@ -186,7 +186,7 @@ ht-degree: 96%
 ## 2023 年 7 月 {#july-2023}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 等待活动文档页面已得到改进，其中包含与全局超时和重入使用相关的其他信息和最佳实践。 [了解详情](../building-journeys/wait-activity.md)
+* 对等待活动文档页面进行了改进，其中包含与全局超时和重新进入使用情况相关的更多信息和最佳实践。[了解详情](../building-journeys/wait-activity.md)
 * 对进入管理页面进行了改进。[了解详情](../building-journeys/entry-management.md)
 * 在读取受众活动文档中添加了有关限制速率的更多信息。[了解详情](../building-journeys/read-audience.md)
 * 添加了有关重试的其他信息。[了解详情](../start/guardrails.md#general-actions-g)

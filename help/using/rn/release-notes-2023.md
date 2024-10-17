@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4377'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 本页列出了于 2023 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
 
-## 2023年10月版 {#oct-rn-2023}
+## 2023 年 10 月版 {#oct-rn-2023}
 
 ### 新功能{#oct-2023-features}
 
@@ -101,7 +101,7 @@ ht-degree: 98%
 
 
 
-## 2023年9月版 {#sept-rn-2023}
+## 2023 年 9 月版 {#sept-rn-2023}
 
 ### 新功能{#sept-2023-features}
 
@@ -233,7 +233,7 @@ ht-degree: 98%
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## ’23年8月版 {#aug-rn-2023}
+## 2023 年 8 月版 {#aug-rn-2023}
 
 ### 新功能{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023年7月版 {#july-rn-2023}
+## 2023 年 7 月版 {#july-rn-2023}
 
 ### 新功能{#july-2023-features}
 
@@ -446,7 +446,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## 2023年6月版 {#june-rn-2023}
+## 2023 年 6 月版 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## 2023年5月版 {#may-rn-2023}
+## 2023 年 5 月版 {#may-rn-2023}
 
 ### 新功能{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 应用程序内消息 – 修复了营销活动计划与消息频率设置冲突的问题。
 
 
-## 2023年4月版 {#apr-rn-2023}
+## 2023 年 4 月版 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## 2023年3月版 {#mar-2023}
+## 2023 年 3 月版 {#mar-2023}
 
 ### 新功能{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/report-gs-cja.md)。
 
-## 2023年2月版 {#feb-2023}
+## 2023 年 2 月版 {#feb-2023}
 
 ### 新功能{#feb-2023-features}
 
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待时段**&#x200B;字段已添加到历程属性。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
 
 * 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 
-## 2023年1月版 {#jan-2023-release}
+## 2023 年 1 月版 {#jan-2023-release}
 
 ### 新功能{#jan-2023-features}
 
