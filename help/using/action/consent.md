@@ -9,34 +9,34 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-贵组织或法律法规可能会对您的数据设置使用限制。因此，确保您在 Journey Optimizer 中的数据操作符合[数据使用政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。这些策略是Adobe Experience Platform规则，用于定义允许您对数据执行哪些营销操作。
+贵组织或法律法规可能会对您的数据设置使用限制。因此，确保您在 Journey Optimizer 中的数据操作符合[数据使用政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。这些策略是 Adobe Experience Platform 规则，定义了您可以对数据执行哪些营销操作。
 
-默认情况下，如果用户档案选择不接收来自您的通信，则后续投放中将排除相应的用户档案。 您可以创建覆盖此默认逻辑的&#x200B;**同意策略**。 例如，您可以在Experience Platform中创建同意策略以排除尚未同意接收给定渠道的通信的客户。 如果没有自定义策略，则应用默认策略。
+默认情况下，如果某个用户档案选择不接收来自您的通信，则会在后续投放中排除相应的用户档案。您可以创建覆盖此默认逻辑的&#x200B;**同意策略**。例如，您可以在 Experience Platform 中创建同意策略，以排除未同意接收特定渠道通信的客户。如果没有自定义策略，则应用默认策略。
 
 >[!IMPORTANT]
 >
 >目前，同意策略仅适用于已购买 Adobe **Healthcare Shield** 或 **Privacy and Security Shield** 附加产品的组织。
 
-应用同意政策的主要步骤如下：
+应用同意策略的主要步骤如下：
 
-1. 在Adobe Experience Platform中创建同意策略以及相关营销操作。 [了解如何创建同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
+1. 在 Adobe Experience Platform 中创建同意策略以及关联营销操作。[了解如何创建同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
 
-2. 使用渠道配置或历程自定义操作在Adobe Journey Optimizer中应用同意策略。
+2. 使用渠道配置或历程自定义操作，在 Adobe Journey Optimizer 中应用同意策略。
 
-   * 创建具有关联营销操作的渠道配置。 使用渠道配置创建通信时，它将继承已关联的营销操作，并应用在Adobe Experience Platform中定义的相应同意策略。 [了解如何通过渠道配置利用同意策略](#surface-marketing-actions)
+   * 创建具有关联营销操作的渠道配置。使用渠道配置创建通信时，它将继承已关联的营销操作，并应用在 Adobe Experience Platform 中定义的相应同意策略。[了解如何通过渠道配置使用同意策略](#surface-marketing-actions)
 
    * 在历程级别，您可以：
 
-      * 配置渠道时，将渠道和营销操作关联到自定义操作。 [了解如何在配置自定义操作时利用同意策略](#consent-custom-action)
-      * 在历程中添加自定义操作时，定义其他营销操作。 [了解如何在历程中添加自定义操作时利用同意策略](#consent-journey)
+      * 配置渠道时，将渠道和营销操作关联到自定义操作。[了解如何在配置自定义操作时使用同意策略](#consent-custom-action)
+      * 在历程中添加自定义操作时，定义其他营销操作。[了解如何在历程中添加自定义操作时使用同意策略](#consent-journey)
 
 ## 通过渠道配置利用同意策略 {#surface-marketing-actions}
 
@@ -104,11 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### 配置自定义操作时利用同意策略{#consent-custom-action}
+### 配置自定义操作时使用同意策略{#consent-custom-action}
 
 配置自定义操作时，可使用两个字段进行同意管理。
 
-**渠道**&#x200B;字段允许您选择与此自定义操作相关的渠道。 所选渠道的&#x200B;**必需的营销操作**&#x200B;字段会预填充默认营销操作。如选择&#x200B;**其他**，则默认不会定义营销操作。
+通过&#x200B;**渠道**&#x200B;字段，您可以选择与此自定义操作相关的渠道。所选渠道的&#x200B;**必需的营销操作**&#x200B;字段会预填充默认营销操作。如选择&#x200B;**其他**，则默认不会定义营销操作。
 
 ![](assets/consent1.png)
 
@@ -120,7 +120,7 @@ There are two types of latency regarding the use of consent policies:
 
 有关配置自定义操作的其他步骤，请参见[此部分](../action/about-custom-action-configuration.md#consent-management)。
 
-### 在历程中添加自定义操作时利用同意策略 {#consent-journey}
+### 在历程中添加自定义操作时使用同意策略 {#consent-journey}
 
 在历程中添加自定义操作时，有多个选项可用于管理同意。单击&#x200B;**显示只读字段**&#x200B;以显示所有参数。
 
