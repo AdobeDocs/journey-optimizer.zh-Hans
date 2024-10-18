@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 
-## 通过历程或营销活动添加Web体验 {#create-web-experience}
+## 通过历程和营销活动添加 Web 体验 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -97,7 +97,7 @@ ht-degree: 12%
 
 >[!ENDTABS]
 
-## 测试Web体验 {#test-web-experience}
+## 测试 Web 体验 {#test-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
