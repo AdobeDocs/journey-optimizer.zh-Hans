@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 如果您有客户端实施，则可以使用以下其中一个AEP客户端SDK：AEP Web SDK或AEP Mobile SDK。
 
-* 下面的步骤[描述在示例&#x200B;**Web SDK**&#x200B;实现中获取基于代码的体验营销活动在边缘上发布的内容并显示个性化内容的过程。](#client-side-how)
+* 下面的步骤[描述在示例&#x200B;**Web SDK**&#x200B;实施中，获取基于代码的体验历程和营销活动在边缘上发布的内容并显示个性化内容的过程。](#client-side-how)
 
 * [本教程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}中介绍了使用&#x200B;**Mobile SDK**&#x200B;实施基于代码的通道的步骤。
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 1. 基于代码的体验项应由实现代码（使用[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}方法）手动应用，以根据决策更新DOM。
 
-1. 对于基于代码的体验营销活动，必须手动发送显示事件以指示何时显示内容。 这是通过`sendEvent`命令完成的。
+1. 对于基于代码的体验历程和营销活动，必须手动发送显示事件以指示何时显示内容。 这是通过`sendEvent`命令完成的。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ ht-degree: 2%
    }
    ```
 
-1. 对于基于代码的体验营销活动，必须手动发送交互事件以指示用户何时与内容交互。 这是通过`sendEvent`命令完成的。
+1. 对于基于代码的体验历程和营销活动，必须手动发送交互事件以指示用户何时与内容交互。 这是通过`sendEvent`命令完成的。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
 
 如果您有服务器端实施，则可以使用一个AEPEdge NetworkAPI。
 
-以下步骤在示例网页的Edge NetworkAPI实现中描述了获取由基于代码的体验营销活动在Edge上发布的内容并显示个性化内容的过程。
+以下步骤在一个网页的示例Edge NetworkAPI实现中描述了获取由基于代码的体验历程和营销活动在Edge上发布的内容并显示个性化内容的过程。
 
 ### 工作原理
 
@@ -226,8 +226,9 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
    ).then((res) => res.json());
    ```
 
-1. 从响应中读取基于代码的体验营销活动中的JSON体验，并在生成HTML响应时使用。
-1. 对于基于代码的体验营销活动，必须在实施中手动发送显示事件，以指示何时显示营销活动内容。 在此示例中，通知在请求生命周期期间在服务器端发送。
+1. 从响应中读取基于代码的体验历程和营销活动中的JSON体验，并在生成HTML响应时使用。
+
+1. 对于基于代码的体验历程和营销活动，必须在实施中手动发送显示事件，以指示何时显示历程或营销活动内容。 在此示例中，通知在请求生命周期期间在服务器端发送。
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {

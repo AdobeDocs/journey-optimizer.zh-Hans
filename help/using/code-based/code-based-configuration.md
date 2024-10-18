@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 30%
+source-wordcount: '1558'
+ht-degree: 28%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="输入特定位置"
->abstract="此字段指定页面或您希望用户访问的应用程序内的确切目标。 这可能是导航结构中的特定部分或页面。"
+>title="指示页面或应用程序中的特定位置"
+>abstract="此字段指定页面内或您希望用户访问的应用程序内的确切目标。 它可以是网页中的特定部分，也可以是应用程序导航结构中的深层页面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ ht-degree: 30%
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. **[!UICONTROL 页面]**&#x200B;上的位置字段指定了您希望用户访问的网站内的确切目标。 这可能是站点导航结构中的特定部分或页面。
+1. **[!UICONTROL 页面]**&#x200B;上的位置字段指定了您希望用户访问的页面内的确切目标。 它可以是网站导航结构中的某个页面上的特定部分，例如“hero-banner”或“product-rail”。
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ ht-degree: 30%
 
 1. 输入您的&#x200B;**[!UICONTROL 应用程序ID]**。 这允许在应用程序的操作环境中进行准确的识别和配置，并确保无缝集成和功能。
 
-1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 这可能是应用程序导航结构深处的特定部分或页面。
+1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
 
    ![](assets/code_config_3.png){width="500"}
 
