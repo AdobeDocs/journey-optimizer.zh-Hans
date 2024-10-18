@@ -5,19 +5,19 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 5%
 
 ---
 
-
 # 更新决策项 {#update-decision-items}
 
 您可以通过向PATCH库API发出优惠请求来修改或更新决策项目。
 
-有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
+有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](https://jsonpatch.com/)。
 
 **API格式**
 

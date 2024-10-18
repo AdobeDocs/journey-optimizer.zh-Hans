@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 28%
@@ -130,7 +130,7 @@ ht-degree: 28%
 
 1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. 填写&#x200B;**[!UICONTROL 预览URL]**&#x200B;字段以启用设备上预览。 此URL通知预览服务在设备上触发预览时要使用的特定URL。 [了解详情](../code-based/create-code-based.md#preview-on-device)
 

@@ -5,7 +5,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 * Adobe Experience Platform中的&#x200B;**数据集**。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 请参阅[数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans)以了解详情。
 
-* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](http://www.adobe.com/go/segmentation-overview-en)以了解如何更新受众成员资格评估
+* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en)以了解如何更新受众成员资格评估
 
   >[!NOTE]
   >

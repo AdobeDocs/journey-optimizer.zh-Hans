@@ -5,19 +5,19 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
+exl-id: a2b7779d-8c2e-4ff9-8cc3-90846f100c98
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 5%
 
 ---
 
-
 # 更新项目集合 {#update-item-collection}
 
 您可以通过向选件库API发出PATCH请求来修改或更新项目收藏集。
 
-有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](http://jsonpatch.com/)。
+有关JSON修补程序的更多信息（包括可用的操作），请参阅官方的[JSON修补程序文档](https://jsonpatch.com/)。
 
 **API格式**
 
