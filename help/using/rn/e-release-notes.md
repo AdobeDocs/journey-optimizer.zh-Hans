@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 47%
+source-wordcount: '1672'
+ht-degree: 46%
 
 ---
 
@@ -100,26 +100,6 @@ ht-degree: 47%
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Mobile Ink与Adobe Journey Optimizer集成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以将Mobile Ink Da Vinci与Adobe Journey Optimizer集成在一起。 通过此新集成，您可以： </p>
-<p><ul><li>利用Mobile Ink的Da Vinci产品中的强大功能，为批量营销活动汇编和个性化电子邮件变体</li>
-<li>使用Da Vinci进行创作，使用AJO进行优化和交付，加快Journey Optimizer客户的从业人员工作流程</li>
-<li>使用Adobe数据优化Da Vinci模型。</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ ht-degree: 47%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>已更新报告体验（正式发布）</strong><br/>自2024年10月16日起可用<br/></th>
+<th><strong>Mobile Ink与Adobe Journey Optimizer集成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>您现在可以将Mobile Ink Da Vinci与Adobe Journey Optimizer集成在一起。 通过此新集成，您可以： </p>
+<p><ul><li>利用Mobile Ink的Da Vinci产品中的强大功能，为批量营销活动汇编和个性化电子邮件变体</li>
+<li>使用Da Vinci进行创作，使用AJO进行优化和交付，加快Journey Optimizer客户的从业人员工作流程</li>
+<li>使用Adobe数据优化Da Vinci模型。</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>更新的报告体验（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>自2024年10月16日起提供</p>
 <p>Journey Optimizer报告功能现已正式推出(GA)，并提高了与Customer Journey Analytics功能的互操作性，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。</p>
 <p>在正式发布后，引入了四个新功能：创建简单量度、创建和发布受众、使用Insight Builder提出临时问题以及安排报表自动通过电子邮件发送给关键收件人。</p>
 <p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>重要信息：当前报告体验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 <a href="../reports/report-gs-cja.md">了解如何开始使用 Journey Optimizer 的新报告界面</a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
+<p>自2024年10月1日起提供</p>
 <p>借助基于代码的体验渠道，Adobe Journey Optimizer 允许您对任何入站属性进行高级个性化和测试，从而向不同的接触点无缝投放定制化体验，如 Web 应用程序、移动应用程序、桌面应用程序、视频游戏机、电视连接设备、智能电视、网亭、ATM、物联网设备等。现在，历程画布中提供了基于代码的体验渠道。</p>
 <p>有关更多信息，请参阅<a href="../code-based/create-code-based.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>发布日期：2024 年 10 月 1 日</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ ht-degree: 47%
 <tbody>
 <tr>
 <td>
+<p>自2024年10月1日起提供</p>
 <p>借助 Web 渠道，Adobe Journey Optimizer 允许您通过入站 Web 历程为客户提供个性化 Web 体验。现在，可在历程画布中使用 Web 渠道。</p>
 <p>有关更多信息，请参阅<a href="../web/create-web.md">详细文档</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>发布日期：2024 年 10 月 1 日</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。
->
-> [了解如何开始使用 Journey Optimizer 的新报告界面](../reports/report-gs-cja.md)
-
 
 ### 改进 {#e-improvements}
 
@@ -270,11 +262,11 @@ ht-degree: 47%
    * 配置文件存储中的数据为90天
    * 数据湖中的数据为13个月
 
-此外，到那时，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。 我们建议暂时不要使用这些事件进行流式客户细分，现在我们将完全禁用它们。
+  此外，到那时，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。 我们建议暂时不要使用这些事件进行流式客户细分，现在我们将完全禁用它们。
 
-* 此更改仅限制在流分段中使用发送/打开事件；点击事件仍可以在流分段中使用。 此外，发送/打开事件仍可用于批处理客户细分。
-* 仍会收集跟踪数据。 此更改不会影响跟踪。 您仍然可以跟踪电子邮件发送的目标以及单击了电子邮件的用户。
-* 历程中的反应事件不受此更改的影响。
+   * 此更改仅限制在流分段中使用发送/打开事件；点击事件仍可以在流分段中使用。 此外，发送/打开事件仍可用于批处理客户细分。
+   * 仍会收集跟踪数据。 此更改不会影响跟踪。 您仍然可以跟踪电子邮件发送的目标以及单击了电子邮件的用户。
+   * 历程中的反应事件不受此更改的影响。
 
 * **自定义操作中的参数**（可用日期：2024年10月3日） — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
