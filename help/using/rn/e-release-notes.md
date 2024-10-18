@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 95%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>创建邮件并对其进行个性化设置后，您可以使用 Journey Optimizer for Content Acceleration 中的 AI 助手将您的内容提升到新的水平。您现在可以使用 AI 助手，通过尝试不同的主标题和图像来优化邮件的影响。每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>创建消息并个性化消息后，使用Journey Optimizer中的AI助手内容加速器将您的内容提升到新的级别。 您现在可以使用AI Assistant通过尝试不同的主标题和图像来优化消息的影响。 每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
 <p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。</a>。</p>
 <p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>

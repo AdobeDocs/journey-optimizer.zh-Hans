@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: a3a0a1515823995e16865bfee9757f995b97c821
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 2%
 
 | 功能 | 权限 |
 |-|-|
-| AI 助手 | **[!DNL Generate content]**：访问Journey Optimizer中的AI助手以加速内容。 |
+| AI 助手 | **[!DNL Generate content]**：访问Journey Optimizer中的AI Assistant内容加速器。 |
 | 营销活动 | **[!DNL Manage campaigns]**：读取、创建、编辑和删除营销活动。 </br>**[!DNL Publish campaigns]**：发布营销活动的权限。</br>**[!DNL View campaigns]**：对营销活动的只读访问权限。 </br>**[!DNL View campaigns report]**：读取和编辑营销活动报告。 |
 | 渠道配置 | **[!DNL Export suppression list]**：访问将禁止列表导出为CSV文件的权限。</br>**[!DNL Manage alerts]**：为营销活动、消息和授权启用/禁用警报。</br> **[!DNL Manage file routing]**：读取、创建、编辑和删除文件路由配置。</br> **[!DNL Manage IP pools]**：读取、创建、编辑和删除ip池。 </br>**[!DNL Manage landing page settings]**：读取、创建、编辑和删除登陆页面设置。</br> **[!DNL Manage messages general settings]**：读取、创建、编辑和删除邮件常规设置。</br>**[!DNL Manage messages presets]**：读取、创建、编辑和删除内容品牌。</br>**[!DNL Manage PTR records]**：读取和编辑PTR记录。 </br>**[!DNL Manage SMS settings]**：读取、创建、编辑和删除短信设置。</br>**[!DNL Manage SMS subdomains]**：读取、创建、编辑和删除SMS子域。</br> **[!DNL Manage Seedlist]**：读取、创建、编辑和删除种子列表。</br> **[!DNL Manage subdomains delegation]**：读取、创建、编辑和删除子域委派。 </br>**[!DNL Manage suppression rules]**：访问读取、创建、编辑和删除禁止显示规则。</br> **[!DNL View channel surfaces]**：对渠道表面的只读访问权限。</br>**[!DNL View file routing]**：对文件路由配置的只读访问权限。</br>**[!DNL View messages general settings]**：对邮件常规设置的只读访问权限。</br> **[!DNL View messages presets]**：对消息预设的只读访问权限。</br> **[!DNL View PTR records]**：对PTR记录的只读访问权限。</br>**[!DNL View suppression list]**：读取和导出本地禁止显示列表。 |
 | 仪表板 | **[!DNL View license usage dashboards]**：对[许可证使用情况仪表板](../audience/license-usage.md)的只读访问权限。 </br>**[!DNL Manage custom dashboards]**：允许您创建新仪表板或编辑现有仪表板。</br>**[!DNL Manage standard dashboards]**：允许您创建自定义构件，并通过构件库编辑构件架构。</br>**[!DNL View custom dashboards]**：对用户定义仪表板的只读访问权限。</br>**[!DNL View standard dashboards]**：对Profiles、Destinations和Audiences功能板的只读访问权限。 |
 | 数据收集 | **[!DNL Manage datastream]**：读取、创建和编辑数据流。</br>**[!DNL View datastream]**：对数据流的只读访问权限。 |
-| 数据管理 | **[!DNL Manage usage labels]**：读取、创建、编辑和删除标签。</br>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</br>**[!DNL View data usage policies]**：属于您组织的数据使用策略的只读访问权限。</br>**[!DNL View user activity log]**：只读访问权限，可查看所记录的Platform活动审核日志。 |
+| 数据治理 | **[!DNL Manage usage labels]**：读取、创建、编辑和删除标签。</br>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</br>**[!DNL View data usage policies]**：属于您组织的数据使用策略的只读访问权限。</br>**[!DNL View user activity log]**：只读访问权限，可查看所记录的Platform活动审核日志。 |
 | 数据卫生 | **[!DNL Manage data hygiene]**：读取、创建、编辑和删除数据保健。</br>**[!DNL View data hygiene]**：数据卫生的只读访问权限。 |
 | 数据摄取 | **[!DNL Manage sources]**：读取、创建、编辑和禁用源。</br>**[!DNL View sources]**：“目录”选项卡中可用源的只读访问权限，以及“浏览”选项卡中经过身份验证的源的只读访问权限。 |
 | 数据管理 | **[!DNL Data monitoring]**：对监控数据集和流的只读访问权限。</br>**[!DNL Manage datasets]**：读取、创建、编辑和删除数据集。 架构的只读访问权限。</br>**[!DNL View datasets]**：对数据集和架构的只读访问权限。 |

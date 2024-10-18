@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用 AI 助手生成短信
-description: 在Journey Optimizer中使用AI助手开始生成短信内容以进行内容加速
+description: 在Journey Optimizer中使用AI助手内容加速器生成短信内容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 5%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 4%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI Assistant内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
 
-根据受众的偏好对短信消息进行精心设计和定制后，可以在Journey Optimizer中提升与AI助理的通信，以实现Content Acceleration。
+根据受众的偏好对短信消息进行精心设计和定制后，可以在Journey Optimizer中提升与AI助手内容加速器的通信。
 
 此资源提供了有见地的建议，可优化您的内容，帮助您的消息引起共鸣并促进最大程度的参与。
 
-浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手进行内容加速。
+浏览以下选项卡，了解如何使用Journey Optimizer中的AI Assistant内容加速器。
 
 >[!BEGINTABS]
 
@@ -105,7 +105,7 @@ ht-degree: 4%
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. 为内容加速的AI助手启用&#x200B;**[!UICONTROL 使用引用内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用引用内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 

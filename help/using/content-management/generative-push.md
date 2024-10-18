@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer中使用AI助手进行推送生成，以加速内容
-description: 在Journey Optimizer中使用AI助手开始生成推送内容以加速内容
+title: 在Journey Optimizer中使用AI Assistant Content Accelerator进行推送生成
+description: 在Journey Optimizer中使用AI Assistant内容加速器开始生成推送内容
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1487'
+ht-degree: 3%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 2%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI Assistant内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
 
-创建消息并对消息进行个性化后，在Journey Optimizer中使用AI助手进行内容加速，将推送通知内容提升到新的水平。
+创建消息并对消息进行个性化后，在Journey Optimizer中使用AI助手内容加速器将推送通知内容提升到新的水平。
 
-浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手进行内容加速。
+浏览以下选项卡，了解如何使用Journey Optimizer中的AI Assistant内容加速器。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完全推送]
 
-在此特定示例中，了解如何使用Journey Optimizer中的AI助手发送引人入胜的推送通知以进行内容加速。
+在此特定示例中，了解如何使用Journey Optimizer中的AI Assistant内容加速器发送引人入胜的推送通知。
 
 执行以下步骤：
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. 为用于内容加速的AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化。
+1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 >[!TAB 纯文本生成]
 
-在此特定示例中，了解如何在Journey Optimizer中使用AI助手针对特定内容进行内容加速。 执行以下步骤：
+在此特定示例中，了解如何将Journey Optimizer中的AI助手内容加速器用于特定内容。 执行以下步骤：
 
 1. 创建和配置推送通知营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -119,7 +119,7 @@ ht-degree: 2%
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. 为内容加速的AI助手启用&#x200B;**[!UICONTROL 使用引用内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用引用内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -179,7 +179,7 @@ ht-degree: 2%
 
    ![](assets/push-gen-img.png){zoomable="yes"}
 
-1. 为内容加速的AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
+1. 为AI助手内容加速器启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 

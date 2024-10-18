@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用Journey Optimizer Content Accelerator中的AI助手生成电子邮件
-description: 在Journey Optimizer中使用AI助手开始生成电子邮件内容和资源以加速内容
+description: 在Journey Optimizer中使用AI Assistant内容加速器生成电子邮件内容和资源
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 1%
+source-wordcount: '1593'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 1%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI Assistant内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
 
-在构建和自定义电子邮件后，利用Journey Optimizer中由创作AI提供支持的AI助手进行内容加速，以提升您的内容。
+在构建和自定义电子邮件后，利用Journey Optimizer中由创作AI提供支持的AI助理内容加速器的强大功能提升您的内容。
 
-使用Journey Optimizer中的AI Assistant for Content Acceleration通过打造完整的电子邮件、量身定制的文本片段和自定义的图像（可直接与受众交谈）、促进参与和互动，从而增强促销活动的有效性。
+使用Journey Optimizer中的AI助理内容加速器，通过精心制作完整的电子邮件、量身定制的文本片段和自定义的图像（可直接与受众交谈），提高参与度和交互能力，从而增强营销活动的有效性。
 
-浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手进行内容加速。
+浏览以下选项卡，了解如何使用Journey Optimizer中的AI Assistant内容加速器。
 
 >[!BEGINTABS]
 
 >[!TAB 生成完整电子邮件]
 
-在以下示例中，我们将利用内容加速的AI助手来优化现有电子邮件模板。
+在以下示例中，我们将利用AI Assistant内容加速器来优化现有电子邮件模板。
 
 1. 创建和配置电子邮件营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. 为用于内容加速的AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 >[!TAB 纯文本生成]
 
-在以下示例中，我们将利用内容加速的AI助手来增强电子邮件的内容。
+在以下示例中，我们将利用AI助理内容加速器来增强电子邮件的内容。
 
 1. 创建和配置电子邮件营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. 为用于内容加速的AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -163,19 +163,19 @@ ht-degree: 1%
 
 >[!TAB 仅生成图像]
 
-在下面的示例中，了解如何利用AI内容加速助手来优化和改进资源，确保获得对用户更友好的体验。
+在下面的示例中，了解如何利用AI Assistant内容加速器优化和改进资源，确保获得对用户更友好的体验。
 
 1. 创建和配置电子邮件营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
    有关如何配置电子邮件促销活动的详细信息，请参阅[此页面](../email/create-email.md)。
 
-1. 选择要使用用于内容加速的AI助手更改的资产。
+1. 选择要使用AI Assistant内容加速器更改的资产。
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL AI助手]**。
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. 为内容加速的AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
+1. 为AI助手内容加速器启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -219,6 +219,6 @@ ht-degree: 1%
 
 ## 操作方法视频 {#video}
 
-了解如何使用Journey Optimizer中的AI Assistant for Content Acceleration生成完整电子邮件、文本或图像。
+了解如何使用Journey Optimizer中的AI助手内容加速器生成完整电子邮件、文本或图像。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)

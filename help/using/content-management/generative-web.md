@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用AI助手生成网页
-description: 在Journey Optimizer中使用AI助手开始生成网页内容和资源以加速内容。
+description: 在Journey Optimizer中使用AI Assistant内容加速器开始生成网页内容和资源。
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 1%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 1%
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手进行内容加速。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI Assistant内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
 
-创建并个性化您的网页后，使用由创作AI提供支持的Journey Optimizer内容加速的AI助手将您的内容提升到新的水平。
+创建并个性化您的网页后，请使用由创作AI提供支持的Journey Optimizer中的AI Assistant内容加速器将您的内容提升到新的水平。
 
-Journey Optimizer中用于Content Acceleration的AI助手可以通过建议更可能引起受众共鸣的其他内容来帮助您优化投放的影响。
+Journey Optimizer中的AI助手内容加速器可以建议您提供更可能引起受众共鸣的其他内容，从而帮助您优化投放的影响。
 
 >[!BEGINTABS]
 
@@ -39,7 +39,7 @@ Journey Optimizer中用于Content Acceleration的AI助手可以通过建议更�
 
    ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-1. 为用于内容加速的AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI Assistant内容加速器启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
@@ -87,19 +87,19 @@ Journey Optimizer中用于Content Acceleration的AI助手可以通过建议更�
 
 >[!TAB 网页图像生成]
 
-在下面的示例中，了解如何利用Journey Optimizer中的AI助手进行内容加速，以优化和改进您的资源，从而确保获得对用户更友好的体验。
+在下面的示例中，了解如何利用Journey Optimizer中的AI助手内容加速器来优化和改进资源，确保获得对用户更友好的体验。
 
 1. 创建和配置网页后，单击&#x200B;**[!UICONTROL 编辑网页]**。
 
    有关如何配置网页的详细信息，请参阅[此页面](../web/create-web.md)。
 
-1. 选择要使用用于内容加速的AI助手更改的资产。
+1. 选择要使用AI Assistant内容加速器更改的资产。
 
 1. 从右侧菜单中选择&#x200B;**[!UICONTROL 显示AI助手]**。
 
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-1. 为内容加速的AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
+1. 为AI助手内容加速器启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
