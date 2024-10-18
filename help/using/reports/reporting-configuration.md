@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: f7a0feb38b902b14c402f631cb5c77c1e329886e
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '585'
 ht-degree: 29%
 
 ---
@@ -77,6 +77,10 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 -->
 
 ## 添加数据集 {#add-datasets}
+
+>[!NOTE]
+>
+>任何新创建的数据集将仅在Customer Journey Analytics报表中可用。
 
 1. 从&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 配置]**。 在&#x200B;**[!UICONTROL 报表]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 管理]**。
 
