@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Customer Journey Analytics报表
-description: CJA报告入门
+title: 更新的报告体验
+description: 开始使用更新的报告体验
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: a64cfe6a474864df02e18fdb772974d73ec58cc5
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 15%
 
 ---
 
-# Customer Journey Analytics报告入门 {#channel-report-gs-cja}
+# 开始使用更新的报告体验 {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >
