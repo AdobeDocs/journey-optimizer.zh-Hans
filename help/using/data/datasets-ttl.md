@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 关于新的生存时间(TTL)护栏
-description: 新的生存时间(TTL)护栏Adobe Journey Optimizer
+title: 关于生存时间(TTL)和流式分段更改
+description: Adobe Journey Optimizer中的生存时间和流分段更改
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 5%
 
 ---
 
 
-# 生存时间(TTL)和流式分段更新 {#ttl-guardrail}
+# 生存时间和流分段更改 {#ttl-guardrail}
 
 ## 存留时间(TTL)护栏 {#ttl}
 
@@ -49,7 +49,7 @@ CJA中的数据与Experience Platform保持同步。 因此，由于TTL而删除
 
 ## 流式分段更新 {#segmentation-update}
 
-此外，从11月1日起，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。 有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
+此外，从11月1日起，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。  有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
 
 
 **常见问题解答**
