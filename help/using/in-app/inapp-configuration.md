@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '866'
 ht-degree: 9%
 
 ---
@@ -121,13 +121,13 @@ ht-degree: 9%
 
 在[本节](../reports/reporting-configuration.md#add-datasets)中了解如何添加用于报告的数据集。
 
-如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event`（如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]内容试验报告需要这些项，因为它们正在跟踪每个配置文件参与哪些试验和处理。
+如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event`（如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]报表需要这些变量，因为它们正在跟踪每个配置文件参与哪些营销活动和历程。
 
 [了解有关报告配置的更多信息](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->添加这些字段组不会影响正常数据收集。 它仅适用于正在运行试验的页面，而所有其他跟踪保持不变。
+>添加这些字段组不会影响正常数据收集。 它仅适用于运行促销活动或历程的页面，而不会涉及所有其他跟踪
 
 **相关主题：**
 

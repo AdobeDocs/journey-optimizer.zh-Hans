@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: c5308cfdb237fcf563886db1dfca257d23bb4449
+source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1183'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 3%
 * 要访问[!DNL Journey Optimizer] Web设计器，您必须安装特定的Google Chrome浏览器扩展。 [了解详情](#visual-authoring-prerequisites)
 
 * 为了正确交付Web体验，请确保在[此处](#delivery-prerequisites)定义详细的Adobe Experience Platform设置。
+
+* 要启用Web渠道报表，您需要确保在Web实施数据流中使用的数据集也包含在报表配置中。 [了解详情](#experiment-prerequisites)
 
 >[!IMPORTANT]
 >
@@ -138,13 +140,13 @@ ht-degree: 3%
 >
 >该数据集由[!DNL Journey Optimizer]报表系统以只读方式使用，不影响数据收集或数据摄取。
 
-如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event`（如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]内容试验报告需要这些项，因为它们正在跟踪每个配置文件参与哪些试验和处理。
+如果您&#x200B;**不是**，正在为数据集架构使用以下预定义的[字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event`（如[此页面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}中定义），请确保添加以下字段组： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]报表需要这些变量，因为它们正在跟踪每个配置文件参与哪些营销活动和历程。
 
 [了解有关报告配置的更多信息](../reports/reporting-configuration.md)
 
 >[!NOTE]
 >
->添加这些字段组不会影响正常数据收集。 它仅适用于正在运行试验的页面，而所有其他跟踪保持不变。
+>添加这些字段组不会影响正常数据收集。 它仅适用于运行促销活动或历程的页面，而不会涉及所有其他跟踪。
 
 ## 资产的品牌域 {#branded-domains-for-assets}
 
