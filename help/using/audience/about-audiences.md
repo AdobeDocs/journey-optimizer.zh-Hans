@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2279'
 ht-degree: 17%
 
 ---
@@ -45,11 +45,12 @@ ht-degree: 17%
 
 ## 在[!DNL Journey Optimizer]中定位受众 {#segments-in-journey-optimizer}
 
-您可以在营销活动和历程中选择使用区段定义、自定义上传或组合工作流生成的任何受众。
+您可以在营销活动和历程中选择使用区段定义、自定义上传、组合工作流或联合受众组合生成的任何受众。
 
 >[!AVAILABILITY]
 >
->受众构成中的受众和属性当前不能用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
+>
+受众构成中的受众和属性当前不能用于Healthcare Shield或Privacy and Security Shield。 [了解如何在Journey Optimizer中使用受众扩充属性](../audience/about-audiences.md#enrichment)
 
 您可通过不同方式在 **[!DNL Journey Optimizer]** 中利用受众：
 
@@ -63,11 +64,11 @@ ht-degree: 17%
 
   >[!NOTE]
   >
-  >由于使用组合工作流和自定义上传创建的受众具有批次性质，因此无法在“受众资格”活动中定位这些受众。 此活动中只能利用使用区段定义创建的受众。
+  >由于使用组合工作流、自定义上传或联合受众组合创建的受众的批量性质，无法在“受众资格”活动中定位这些受众。 此活动中只能利用使用区段定义创建的受众。
 
 ## 使用受众扩充属性 {#enrichment}
 
-当定位使用合成工作流或自定义（CSV文件）受众生成的受众时，您可以利用这些受众的扩充属性来构建您的历程并个性化您的消息。
+当定位使用构成工作流、自定义（CSV文件）受众或联合受众构成生成的受众时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ ht-degree: 17%
 >
 +++
 
-## 自定义上传（CSV文件）受众 {#csv}
+## 自定义上传和联合受众组合受众 {#csv}
 
-本节提供了在使用自定义上传（CSV文件）受众时要记住的关键信息：
+本节提供了在使用自定义上传（CSV文件）和联合受众合成受众时要记住的关键信息：
 
-* **对CSV受众的预览和验证支持：**&#x200B;当前，使用CSV上传创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
+* **预览和验证支持：**&#x200B;当前，使用CSV上传或联合受众组合创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
 
-* **快速激活和身份拼接延迟：** Adobe Experience Platform架构会延迟身份拼接，以使自定义上传受众可立即在Journey Optimizer中激活，这将产生以下影响：
+* **快速激活和身份拼接延迟：** Adobe Experience Platform架构会延迟身份拼接，以使自定义上传和联合受众构成受众可立即在Journey Optimizer中激活，这将产生以下影响：
 
    * 受众可在摄取完成后立即在Journey Optimizer中使用。 虽然该值通常在一小时内，但受制于一些可变因素。
    * 激活的记录数可能与身份拼接后的用户档案数不同。
-   * CSV文件中的每条记录都将激活，包括任何重复项。 在下次UPS配置文件导出期间，这些记录将进行身份拼接。
+   * 受众中的每个记录都将激活，包括任何重复项。 在下次UPS配置文件导出期间，这些记录将进行身份拼接。
 
-* **通过CSV上传定向新配置文件：**&#x200B;当CSV记录与UPS配置文件之间未找到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此Journey Optimizer中通常使用的定向字段（例如personalEmail.address、mobilePhone.number）为空，因此无法用于定向。
+* **定向新配置文件：**&#x200B;当记录与UPS配置文件之间找不到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此Journey Optimizer中通常使用的定向字段（例如personalEmail.address、mobilePhone.number）为空，因此无法用于定向。
 
-  要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这将确保在CSV上传期间选择作为标识的属性将是用于在Journey Optimizer中定位的属性。
+  要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这将确保在创建受众时选择作为标识的属性将与Journey Optimizer中用于定位的属性相同。
 
 ## 受众评估方法 {#evaluation-method-in-journey-optimizer}
 
