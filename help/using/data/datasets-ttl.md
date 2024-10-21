@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -49,8 +49,7 @@ CJA中的数据与Experience Platform保持同步。 因此，由于TTL而删除
 
 ## 流式分段更新 {#segmentation-update}
 
-此外，从11月1日起，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。  有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
-
+此外，从11月1日起，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。  有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。 此更改将应用于当时的所有客户沙盒和组织。
 
 **常见问题解答**
 
