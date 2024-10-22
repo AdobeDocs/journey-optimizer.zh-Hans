@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 3ab4e6a7ff6c7e0ec97ee2021eb8b38e321b138c
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1657'
 ht-degree: 90%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 90%
 <p>现在，通过审批策略，您可以在 Journey Optimizer 中设置审批流程，从而使营销团队可以确保营销活动及历程在投入使用之前由相应的负责人审查和签署。</p>
 <p>有关更多信息，请参阅<a href="../test-approve/gs-approval.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
+<p>发布日期：2024 年 10 月 21 日</p>
 </td>
 </tr>
 </tbody>
