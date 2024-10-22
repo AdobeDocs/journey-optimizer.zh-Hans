@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '383'
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
+> 如果您的营销活动受批准政策的约束，则需要请求批准才能发送推送通知。 [了解详情](../test-approve/gs-approval.md)
 
 当推送消息准备就绪时，请完成[历程](../building-journeys/journey-gs.md)或[营销活动](../campaigns/create-campaign.md)的配置以发送该消息。
 

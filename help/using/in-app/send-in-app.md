@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 12%
+source-wordcount: '389'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
+> 如果您的营销活动受批准政策的约束，则需要请求批准才能发送应用程序内通知。 [了解详情](../test-approve/gs-approval.md)
 
 创建应用程序内消息、定义其内容并进行个性化后，您可以查看和激活该消息。
 

@@ -4,20 +4,15 @@ description: 了解如何审阅和批准发布历程和营销活动的请求。
 role: User
 level: Beginner
 feature: Approval
-badge: label="限量发布版" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
 
 # 审阅和批准请求 {#approve-requests}
-
->[!AVAILABILITY]
->
-> 批准策略当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 如果审批策略适用于历程或营销策划，则需要提交审批才能发布。 为此，历程/营销策划创建者向审批策略中定义的审批者发送请求，历程/营销策划获得&#x200B;**[!UICONTROL 审核中]**&#x200B;状态。
 
@@ -51,3 +46,7 @@ ht-degree: 2%
 ![](assets/request-changes.png)
 
 发送请求后，Journey/Campaign创建者会通过电子邮件和Journey Optimizer警报收到通知。 营销活动将返回到“草稿”状态。 集成更改后，历程/营销活动创建者可以重新提交它以供审批。
+
+>[!NOTE]
+>
+> 如果您未通过电子邮件收到批准通知，则需要在Experience Cloud配置文件中更新订阅偏好设置。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/account-preferences)

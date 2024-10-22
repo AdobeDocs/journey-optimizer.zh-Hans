@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 营销活动，审阅，验证，激活，激活，优化器
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 6%
+source-wordcount: '279'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
+> 如果您的营销活动受批准政策的约束，则需要请求批准才能发送营销活动。 [了解详情](../test-approve/gs-approval.md)
 
 配置活动后，您需要先查看其参数和内容，然后再激活它。 为此，请执行以下步骤：
 

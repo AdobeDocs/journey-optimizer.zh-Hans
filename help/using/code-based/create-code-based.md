@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1714'
 ht-degree: 7%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
+> 如果您的营销活动受批准政策的约束，则需要请求批准才能激活基于代码的体验。 [了解详情](../test-approve/gs-approval.md)
 
 定义基于代码的体验并根据需要使用[基于代码的编辑器](#edit-code)编辑内容后，您可以激活历程或营销活动以使更改对受众可见。
 

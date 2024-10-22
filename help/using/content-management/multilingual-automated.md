@@ -10,9 +10,9 @@ level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="限量发布版" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1644'
 ht-degree: 21%
 
 ---
@@ -228,7 +228,7 @@ ht-degree: 21%
 
    >[!IMPORTANT]
    >
-   >从9月版开始，您可以通过新的营销活动和历程激活体验管理整个审批流程，确保营销活动和历程在正式启用之前由相应的利益相关者彻底审查和批准。 此功能在“有限可用”中可用。 [了解详情](../test-approve/gs-approval.md)
+   > 如果您的营销活动受批准政策的约束，则需要请求批准才能发送多语言营销活动。 [了解详情](../test-approve/gs-approval.md)
 
 您现在可以激活营销活动或历程。 发送后，您可以在报表中衡量多语言历程或活动的影响。
 

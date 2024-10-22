@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '269'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 5%
 如果停止历程，历程将永久停止。 将永久停止所有流入历程的人员，历程将停止允许新进入。 如果您需要再次使用历程，则需要复制并发布它。
 
 1. 在发布历程之前，请验证其是否有效以及是否没有错误。 您将无法发布包含错误的历程。 请参阅[此部分](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)。 此外，建议在发布之前测试您的历程。 请参阅[此页](../building-journeys/testing-the-journey.md)。
+
 1. 要发布历程，请单击右上角下拉菜单中的&#x200B;**[!UICONTROL Publish]**&#x200B;选项。
+
+   >[!NOTE]
+   >
+   > 如果您的历程受审批策略的约束，则需要请求审批才能发布您的历程。 [了解详情](../test-approve/gs-approval.md)
+
 
    ![](assets/journeyuc1_18.png)
 

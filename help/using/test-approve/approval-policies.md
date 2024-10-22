@@ -4,20 +4,19 @@ description: 了解如何创建和管理审批策略。
 role: User
 level: Beginner
 feature: Approval
-badge: label="限量发布版" type="Informative"
-source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
 # 创建和管理审批策略 {#approval-policies}
 
->[!AVAILABILITY]
+>[!NOTE]
 >
-> 批准策略当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+>要创建批准策略，您必须在Adobe Experience Platform中拥有系统管理员或产品管理员权限。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略的复杂程度可能有所不同，从仅要求所有营销活动由特定用户或团队审核，到根据营销活动的创建者建立标准。
 

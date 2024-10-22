@@ -4,20 +4,15 @@ description: 了解如何在发布历程和营销活动之前请求审批。
 role: User
 level: Beginner
 feature: Approval
-badge: label="限量发布版" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
 # 请求审批 {#request-approval}
-
->[!AVAILABILITY]
->
-> 批准策略当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 如果您的组织启用了审批工作流功能，您将注意到创建营销策划和创建历程工作流中分别不再提供&#x200B;**[!UICONTROL 激活]**&#x200B;和&#x200B;**[!UICONTROL Publish]**&#x200B;按钮。 这些按钮已被&#x200B;**[!UICONTROL 请求审批]**&#x200B;按钮替换。
 
