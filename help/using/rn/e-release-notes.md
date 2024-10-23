@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1885'
 ht-degree: 40%
 
 ---
@@ -309,5 +309,6 @@ ht-degree: 40%
 
 * 现在可以将自定义上传（CSV 文件）中的受众和属性与 Healthcare Shield 或 Privacy and Security Shield 一起使用。
 
+**基于代码的渠道**
 
-
+编辑基于代码的体验营销活动时，可供选择的模板现在会根据预先选择的渠道配置，将范围限定为HTML或JSON。
