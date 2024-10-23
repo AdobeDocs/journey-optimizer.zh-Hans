@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
+source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 43%
+source-wordcount: '1854'
+ht-degree: 40%
 
 ---
 
@@ -111,6 +111,26 @@ ht-degree: 43%
 <td>
 <p>已经可用于营销活动，Adobe Journey Optimizer 现在支持历程中的试验。试验是开展在线测试时进行的随机试用，这意味着您将为给定的消息试验接触部分随机选择的用户，并为其他试验或试验组接触另外一组随机选择的用户。公开后，您可以衡量感兴趣的结果指标，如电子邮件打开次数、订阅次数或购买次数。</p>
 <p>以前可供一组组织(LA)使用，现在所有用户(GA)都可以使用历程中的试验。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Decisioning（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning以前可用于一组组织(LA)，现在称为Experience Decisioning，可供所有用户(GA)使用。 它通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。 这些决策项目通过基于代码的体验渠道无缝集成到广泛的集客界面中。</p>
+
+<p>目前，Decisioning不适用于已购买AdobeHealthcare Shield和Privacy and Security Shield附加产品的客户。</p>
+
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -245,11 +265,6 @@ ht-degree: 43%
 >[!AVAILABILITY]
 >
 >冲突和优先级管理功能以“有限可用性”提供给选定的客户组。 请注意，这些功能将在未来逐步向更多用户推出。 如果您有兴趣被添加到此功能的轮候表，请与您的客户团队联系。
-
-**决策管理**
-
-* **审核** - **更改日志**&#x200B;选项卡允许您查看对优惠或决策所做的所有更改已被删除。 现在，可在&#x200B;**审核**&#x200B;菜单中查看与优惠和决策相关的更改。
-
 
 **配置**
 
