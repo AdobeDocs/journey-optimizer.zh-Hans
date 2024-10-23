@@ -10,11 +10,11 @@ level: Intermediate
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# 试验性营销活动报告 {#campaign-global-report-cja-experimentation}
+# 实验营销活动报告 {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"

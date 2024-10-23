@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -151,23 +151,23 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device"
->title="在实际设备上预览基于代码的体验"
->abstract="在浏览器或移动设备上预览个性化体验，以了解它们在实际设备上的外观。"
+>title="在真实设备上预览基于代码的体验"
+>abstract="在您的浏览器或移动设备上预览您的个性化体验，看看它们在真实设备上的显示效果。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
->title="在设备上预览基于代码的Web体验"
->abstract="扫描二维码或复制链接以在设备上预览。"
+>title="在设备上预览基于代码的 Web 体验"
+>abstract="扫描二维码或复制链接即可在设备上预览。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
->title="在设备上预览基于代码的移动体验"
->abstract="扫描二维码或复制链接以在设备上预览。 连接后，输入设备上的针脚。 每次更新预览链接时，您可能需要重新启动应用程序才能看到所做的更改。"
+>title="在移动设备上预览基于代码的体验"
+>abstract="扫描二维码或复制链接即可在设备上预览。连接后，在设备上输入密码。每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
 >title="刷新预览链接以反映当前视图"
->abstract="设备上预览将显示自您创建或刷新预览链接时起的内容。 如果您已修改内容或选择不同的测试配置文件或待遇，请刷新预览以使其反映当前视图。"
+>abstract="设备上的预览将显示您创建或刷新预览链接时的内容。如果您修改了内容或选择了不同的测试轮廓或处理，请刷新预览以使其反映当前视图。"
 
 为网页或移动应用程序构建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化体验，以了解这些体验在实际设备上的外观。
 

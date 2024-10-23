@@ -58,7 +58,7 @@ Web配置是由要交付内容的URL标识的Web属性。 它可以匹配单个�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="为内容创作和预览定义URL"
+>title="定义内容创作和预览的 URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
 创建Web或[基于代码的体验](../code-based/get-started-code-based.md)配置时，您可以生成与规则&#x200B;]**匹配的**[!UICONTROL &#x200B;页面，以定位多个与同一规则匹配的URL。 因此，您可以一次性将相同的内容更改应用于多个页面。

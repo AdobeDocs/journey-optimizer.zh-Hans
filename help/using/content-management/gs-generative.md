@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 72%
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizer中的AI Assistant内容加速器"
->abstract="完成投放的定制和个性化后，您可以使用Journey Optimizer中的AI Assistant内容加速器来增强内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
+>title="Journey Optimizer 中 的 AI 助手内容加速器"
+>abstract="在精心设计并个性化您的交付后，您可使用 Journey Optimizer 中的 AI 助手内容加速器来增强您的内容。借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上传品牌资源"
->abstract="使用上传品牌资产菜单，您可以添加任何品牌资产，这些品牌资产包含可为Journey Optimizer中的AI助手内容加速器提供其他上下文的内容，或者选择之前上传的资产。 此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
+>abstract="通过“上传品牌资源”菜单，您可以添加任何包含内容的品牌资源，这些内容可以为 Journey Optimizer 内容加速器中的 AI 助手提供额外上下文信息，或者选择之前上传的资源。此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

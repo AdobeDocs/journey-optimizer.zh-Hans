@@ -9,7 +9,7 @@ exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 28%
+ht-degree: 40%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 28%
 
 基于代码的体验配置必须引用表面，它基本上是您要呈现更改的位置。 根据所选平台，您需要输入位置/路径或完整表面URI。 [了解详情](#surface-definition)
 
-## 创建基于代码的体验配置 {#create-code-based-configuration}
+## 创建一个基于代码的体验配置 {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="指示页面或应用程序中的特定位置"
->abstract="此字段指定页面内或您希望用户访问的应用程序内的确切目标。 它可以是网页中的特定部分，也可以是应用程序导航结构中的深层页面。"
+>title="指明页面或应用程序里的具体位置"
+>abstract="此字段指定了您希望用户访问的页面或应用程序内的确切目标。它可以是网页内的特定部分，也可以是应用程序导航结构深处的页面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="为内容创建和预览定义URL"
+>title="定义内容创建和预览的 URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
 要创建基于代码的体验渠道配置，请执行以下步骤：
@@ -78,11 +78,11 @@ ht-degree: 28%
 >
 >您的应用程序实施团队负责发出显式API或SDK调用，以获取选定基于代码的体验配置中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
-### Web平台 {#web}
+### 网络平台 {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
->title="为内容创作和预览定义URL"
+>title="定义内容创作和预览的 URL"
 >abstract="该字段可确保该规则生成或匹配的页面具有指定的 URL，这对于有效地创建和预览内容至关重要。"
 
 要为Web平台定义基于代码的体验配置设置，请执行以下步骤。
@@ -112,16 +112,16 @@ ht-degree: 28%
 
    ![](assets/code_config_location_on_page.png)
 
-### 移动平台(iOS和Android) {#mobile}
+### 移动设备平台（iOS 和 Android） {#mobile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="提供您的应用程序ID"
->abstract="输入应用程序ID，以在应用程序的操作环境中进行准确的标识和配置，从而确保无缝集成和功能。"
+>title="提供你的应用程序 ID"
+>abstract="输入应用程序 ID，以便在应用程序的运行环境中进行准确识别和配置，确保无缝集成和功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="输入用于预览内容的URL"
+>title="输入预览内容的 URL"
 >abstract="此字段对于在您的应用程序中直接在设备上启用内容的模拟和预览至关重要。"
 
 要为移动平台定义基于代码的体验配置设置，请执行以下步骤。
@@ -178,9 +178,9 @@ ht-degree: 28%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="为组件添加表面URI"
->abstract="如果您的实施不适用于Web、iOS或Android，或者如果您需要定位特定的URI，请输入表面URI，它是定向到要向其提供体验的实体的唯一标识符。 确保输入的表面URI与您自己的实施中使用的表面URI相匹配。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
+>title="为你的组件添加表面 URI"
+>abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要定位特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/code-based-experience/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
 
 基于代码的体验&#x200B;**surface**&#x200B;是为用户或系统交互而设计的任何实体，它由&#x200B;**URI**&#x200B;唯一标识。 曲面在应用程序实施中指定，必须与基于代码的体验渠道配置中引用的曲面匹配。
 
