@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ab4e6a7ff6c7e0ec97ee2021eb8b38e321b138c
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 90%
+source-wordcount: '1717'
+ht-degree: 87%
 
 ---
 
@@ -127,6 +127,10 @@ ht-degree: 90%
 * 定位 CSV 文件受众时，您现在可以在个性化编辑器以及历程和营销活动规则构建器中使用来自文件的属性。[了解详情](../audience/about-audiences.md)
 
 * 现在可以将自定义上传（CSV 文件）中的受众和属性与 Healthcare Shield 或 Privacy and Security Shield 一起使用。
+
+**决策** — 发布日期：2024年10月8日
+
+当使用决策（以前称为Experience Decisioning）将决策策略添加到基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项目。 此外，您现在可以选择多个备用选件。 这可保证返回一定数量的决策项目。 [了解详情](../experience-decisioning/create-decision.md)
 
 ## 2024 年 9 月版 {#24-9-rn}
 

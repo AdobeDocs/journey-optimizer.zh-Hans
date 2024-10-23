@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="有限发布版"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 5ffa0937bd9f23f29c8f02d2951cccac73d75f1b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 18%
+source-wordcount: '1794'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 18%
 >[!NOTE]
 >
 >在[!DNL Journey Optimizer]用户界面中，决策策略标记为决策<!--but they are decision policies. TBC if this note is needed-->。
+
+将决策策略用于基于代码的营销活动的主要步骤如下：
+
+1. [在基于代码的营销活动中创建决策策略](#add-decision)
+1. [将决策策略用于基于代码的营销活动](#use-decision-policy)
+1. [创建自定义Customer Journey Analytics报告仪表板](#cja)
 
 ## 将决策策略添加到基于代码的营销活动 {#add-decision}
 
@@ -51,6 +57,8 @@ ht-degree: 18%
 
 要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请向基于代码的营销活动添加决策策略。 要实现此目的，请执行以下步骤。
 
+### 创建决策策略 {#add}
+
 1. 创建营销活动并选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。 [了解详情](../code-based/create-code-based.md)
 
 1. 从[代码编辑器](../code-based/create-code-based.md#edit-code)中，选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。
@@ -63,50 +71,45 @@ ht-degree: 18%
    >
    >当前只有默认的&#x200B;**[!UICONTROL 选件]**&#x200B;目录可用。
 
+1. 选择要返回的项目数。 例如，如果选择2，则会为当前配置显示最佳的2个符合条件的优惠。 单击&#x200B;**[!UICONTROL 下一步]**。
+
    ![](assets/decision-code-based-details.png)
 
-1. 选择要返回的项目数。 例如，如果选择2，则会为当前配置显示最佳的2个符合条件的优惠。 单击&#x200B;**[!UICONTROL 下一步]**
+### 选择项目和选择策略 {#select}
 
-1. 使用&#x200B;**[!UICONTROL 添加策略]**&#x200B;按钮定义决策策略的选择策略。 每个策略包括与资格限制关联的优惠收藏集以及确定要显示的优惠的排名方法。 [了解详情](selection-strategies.md)
+**[!UICONTROL 策略序列]**&#x200B;部分允许您选择要与决策策略一起呈现的决策项和选择策略。
 
-   ![](assets/decision-code-based-strategies.png)
+1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮，然后选择要包含在策略中的对象类型：
 
-   >[!NOTE]
-   >
-   >至少需要一个策略。不能添加超过10个策略。
+   * **[!UICONTROL 选择策略]**：添加一个或多个选择策略。 决策策略利用与资格约束和排名方法关联的集合来确定要显示的项目。 您可以选择现有的选择策略，也可以使用&#x200B;**[!UICONTROL 创建选择策略]**&#x200B;按钮创建新选择策略。[了解如何创建选择策略](selection-strategies.md)
 
-1. 在&#x200B;**[!UICONTROL 添加策略]**&#x200B;屏幕中，您还可以创建策略。 **[!UICONTROL 创建选择策略]**&#x200B;按钮会将您重定向到&#x200B;**[!UICONTROL Experience Decisioning]** > **[!UICONTROL 策略设置]**&#x200B;菜单。 [了解详情](selection-strategies.md)
+   * **[!UICONTROL 决策项]**：添加单个决策项以呈现，而无需通过选择策略运行。 一次只能选择一个决策项目。 将应用为物料设置的任何资格约束。
 
-   ![](assets/decision-code-based-add-strategy.png)
-
-1. 添加多个策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个策略，以此类推。 [了解详情](#evaluation-order)
-
-   要更改默认顺序，您可以拖放策略和/或组以根据需要重新排序。
-
-   ![](assets/decision-code-based-strategy-groups.png)
-
-1. 添加后备。 如果上述选择策略均不合格，则会向用户显示回退项目。
-
-   ![](assets/decision-code-based-strategy-fallback.png)
-
-   您可以从列表中选择任何项目，这将显示在当前沙盒中创建的所有决策项目。 如果没有符合条件的选择策略，则无论应用于所选项目<!--nor frequency capping when available - TO CLARIFY-->的日期和资格限制如何，都会向用户显示回退。
+   ![](assets/decision-code-based-strategy-sequence.png)
 
    >[!NOTE]
    >
-   >回退是可选的。 如果未选择任何回退，并且没有限定策略，则[!DNL Journey Optimizer]将不显示任何内容。
+   >至少需要一个决策项目或策略。 不能添加超过10个策略。
 
-1. 保存您的选择，然后单击&#x200B;**[!UICONTROL 创建]**。 现在，决策策略已创建，您可以在基于代码的体验内容中使用决策属性。 [了解详情](#use-decision-policy)
+1. 添加多个决策项目和/或策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个对象，依此类推。     要更改默认序列，您可以拖放对象和/或组以根据需要重新排序。 [了解有关决策策略评估顺序的更多信息](#evaluation-order)
 
-   ![](assets/decision-code-based-decision-added.png)
+### 在决策策略中管理评估顺序 {#evaluation-order}
 
-## 评估顺序 {#evaluation-order}
+将决策项和选择策略添加到策略中后，您可以安排它们的顺序以确定它们的评估顺序，并将选择策略组合在一起以一起评估它们。
 
-如上所述，策略包括集合、排名方法和资格约束。
+每个对象或对象组左侧的数字表示用于计算项和策略的&#x200B;**顺序顺序**。 要在序列中移动选择策略（或一组策略）的位置，请将其拖放到另一个位置。
 
-您可以：
+>[!NOTE]
+>
+>在序列中只能拖放选择策略。 要更改决策项的位置，您需要删除决策项，并在添加之前要评估的其他项后使用&#x200B;**[!UICONTROL 添加]**&#x200B;按钮重新添加它。
 
-* 设置要评估的策略的顺序顺序，
-* 合并多个策略，以便一起评估而不是分别评估。
+![](assets/decision-code-based-strategy-groups.png)
+
+您还可以&#x200B;**将**&#x200B;多个选择策略组合到组中，以便一起评估而不是分别评估。 为此，请单击选择策略下的&#x200B;**`+`**&#x200B;按钮以将其与另一个策略组合。 您还可以将选择策略拖放到另一个策略上，以将这两个策略分组到一个组中。
+
+>[!NOTE]
+>
+>决策项目不能与其他项目或选择策略一起分组。
 
 多个策略及其分组决定了策略的优先级和合格优惠的排名。 第一种策略具有最高优先级，同一组内组合策略具有相同的优先级。
 
@@ -159,6 +162,22 @@ ht-degree: 18%
 排名后的选件现在如下所示：选件5 、选件3、选件4、选件2、选件1、选件6。
 
 +++
+
+### 添加后备优惠 {#fallback}
+
+选择决策项目和/或选择策略后，您可以添加备用优惠，如果上述项目或选择策略均不合格，则会向用户显示备用优惠。
+
+![](assets/decision-code-based-strategy-fallback.png)
+
+您可以从列表中选择任何项目，这将显示在当前沙盒中创建的所有决策项目。 如果没有符合条件的选择策略，则无论应用于所选项目<!--nor frequency capping when available - TO CLARIFY-->的日期和资格限制如何，都会向用户显示回退。
+
+>[!NOTE]
+>
+>回退是可选的。 如果未选择任何回退，并且没有限定策略，则[!DNL Journey Optimizer]将不显示任何内容。 您可以合计决策策略所请求的项目数。 这样可确保在用例需要时返回特定数量的项目。
+
+当您的决策策略准备就绪时，保存该策略并单击&#x200B;**[!UICONTROL 创建]**。 现在，决策策略已创建，您可以在基于代码的体验内容中使用决策属性。 [了解详情](#use-decision-policy)
+
+![](assets/decision-code-based-decision-added.png)
 
 ## 在代码编辑器中使用决策策略 {#use-decision-policy}
 
