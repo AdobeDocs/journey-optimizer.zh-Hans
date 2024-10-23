@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: 972d517ec2a5779f8c3196b40f1418b9c207d791
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2147'
 ht-degree: 94%
 
 ---
@@ -195,94 +195,96 @@ ht-degree: 94%
       + [创建和管理审批策略](using/test-approve/approval-policies.md)
       + [请求审批](using/test-approve/request-approval.md)
       + [审批请求](using/test-approve/review-approve-request.md)
-+ 电子邮件渠道 {#email}
-   + [电子邮件入门](using/email/get-started-email.md)
-   + [创建电子邮件](using/email/create-email.md)
-   + 设计电子邮件内容 {#design-email}
-      + [电子邮件设计入门](using/email/get-started-email-design.md)
-      + 开始创建内容 {#start-creating-content}
-         + [从头开始设计内容](using/email/content-from-scratch.md)
-         + [导入内容](using/email/existing-content.md)
-         + [对您自己的内容进行编码](using/email/code-content.md)
-         + [使用电子邮件模板](using/email/use-email-templates.md)
-      + 设计内容 {#add-content}
-         + [使用内容组件](using/email/content-components.md)
-         + [利用可视化片段](using/email/use-visual-fragments.md)
-         + [添加链接和跟踪消息](using/email/message-tracking.md)
-         + [插入个性化优惠](using/email/add-offers-email.md)
-         + [生成文本版本](using/email/text-version-email.md)
-         + [添加邮件引文](using/email/preheader.md)
-      + 编辑样式 {#edit-style}
-         + [电子邮件样式入门](using/email/get-started-email-style.md)
-         + [编辑背景设置](using/email/backgrounds.md)
-         + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
-         + [添加内联样式属性](using/email/inline-styling.md)
-   + [使用 Experience Manager 模板](using/email/aem-templates.md)
-   + [管理电子邮件选择退出](using/email/email-opt-out.md)
-   + 配置电子邮件渠道 {#configure-email}
-      + [电子邮件配置入门](using/email/get-started-email-config.md)
-      + [配置电子邮件配置设置](using/email/email-settings.md)
-      + [个性化电子邮件配置](using/email/surface-personalization.md)
-+ 应用程序内渠道{#in-app}
-   + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
-   + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
-   + [创建移动应用程序内消息](using/in-app/create-in-app.md)
-   + [创建Web应用程序内消息](using/in-app/create-in-app-web.md)
-   + [设计应用程序内内容](using/in-app/design-in-app.md)
-   + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
-+ 推送通知渠道{#push}
-   + [推送通知入门](using/push/get-started-push.md)
-   + [创建推送通知](using/push/create-push.md)
-   + [设计推送通知](using/push/design-push.md)
-   + [检查并发送推送通知](using/push/send-push.md)
-   + 配置推送通知{#push-config}
-      + [推送通知数据流](using/push/push-gs.md)
-      + [配置推送通知渠道](using/push/push-configuration.md)
-      + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
-+ 短信/MMS 渠道{#sms}
-   + [文本消息入门](using/sms/get-started-sms.md)
-   + [创建短信 (SMS/MMS)](using/sms/create-sms.md)
-   + [检查并发送文本消息](using/sms/send-sms.md)
-   + [管理文本消息选择退出](using/sms/sms-opt-out.md)
-   + [设置短信子域](using/sms/sms-subdomains.md)
-   + 配置短信/MMS 渠道{#configure-sms}
-      + [短信配置入门](using/sms/sms-configuration.md)
-      + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
-      + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
-      + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
-      + [配置自定义提供程序（Beta 版）](using/sms/sms-configuration-custom.md)
-      + [创建短信配置](using/sms/sms-configuration-surface.md)
-+ 直邮 {#direct-mail}
-   + [直邮入门](using/direct-mail/get-started-direct-mail.md)
-   + [创建直邮](using/direct-mail/create-direct-mail.md)
-   + [检查并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
-   + [配置直邮](using/direct-mail/direct-mail-configuration.md)
-+ Web 渠道 {#web}
-   + [开始使用 Web 渠道](using/web/get-started-web.md)
-   + 配置 Web 渠道{#configure-web-channel}
-      + [Web 渠道先决条件](using/web/web-prerequisites.md)
-      + [配置 Web 子域](using/web/web-delegated-subdomains.md)
-      + [创建网页渠道配置](using/web/web-configuration.md)
-   + [创建 Web 体验](using/web/create-web.md)
-   + 编写 Web 页面{#author-web-pages}
-      + [编辑网页内容](using/web/edit-web-content.md)
-      + [管理修改](using/web/manage-web-modifications.md)
-      + [监测 Web 体验](using/web/monitor-web-experiences.md)
-      + [创作单页应用程序](using/web/web-spa.md)
-+ 基于代码的体验 {#code-based-experience}
-   + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
-   + [护栏和先决条件](using/code-based/code-based-prerequisites.md)
-   + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
-   + [实施方法示例](using/code-based/code-based-implementation-samples.md)
-   + [创建基于代码的体验](using/code-based/create-code-based.md)
-+ 内容卡{#content-card}
-   + [内容卡入门](using/content-card/get-started-content-card.md)
-   + 配置内容卡片渠道{#configure}
-      + [内容卡片先决条件](using/content-card/content-card-configuration-prereq.md)
-      + [在 Journey Optimizer 中配置内容卡片渠道](using/content-card/content-card-configuration.md)
-      + [在 Web SDK 中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
-   + [创建内容卡片](using/content-card/create-content-card.md)
-   + [设计内容卡片](using/content-card/design-content-card.md)
++ 通信渠道 {#communication-channels}
+   + [通信渠道入门](using/channels/gs-channels.md)
+   + 电子邮件渠道 {#email}
+      + [电子邮件入门](using/email/get-started-email.md)
+      + [创建电子邮件](using/email/create-email.md)
+      + 设计电子邮件内容 {#design-email}
+         + [电子邮件设计入门](using/email/get-started-email-design.md)
+         + 开始创建内容 {#start-creating-content}
+            + [从头开始设计内容](using/email/content-from-scratch.md)
+            + [导入内容](using/email/existing-content.md)
+            + [对您自己的内容进行编码](using/email/code-content.md)
+            + [使用电子邮件模板](using/email/use-email-templates.md)
+         + 设计内容 {#add-content}
+            + [使用内容组件](using/email/content-components.md)
+            + [利用可视化片段](using/email/use-visual-fragments.md)
+            + [添加链接和跟踪消息](using/email/message-tracking.md)
+            + [插入个性化优惠](using/email/add-offers-email.md)
+            + [生成文本版本](using/email/text-version-email.md)
+            + [添加邮件引文](using/email/preheader.md)
+         + 编辑样式 {#edit-style}
+            + [电子邮件样式入门](using/email/get-started-email-style.md)
+            + [编辑背景设置](using/email/backgrounds.md)
+            + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
+            + [添加内联样式属性](using/email/inline-styling.md)
+      + [使用 Experience Manager 模板](using/email/aem-templates.md)
+      + [管理电子邮件选择退出](using/email/email-opt-out.md)
+      + 配置电子邮件渠道 {#configure-email}
+         + [电子邮件配置入门](using/email/get-started-email-config.md)
+         + [配置电子邮件配置设置](using/email/email-settings.md)
+         + [个性化电子邮件配置](using/email/surface-personalization.md)
+   + 应用程序内渠道{#in-app}
+      + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
+      + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
+      + [创建移动应用程序内消息](using/in-app/create-in-app.md)
+      + [创建Web应用程序内消息](using/in-app/create-in-app-web.md)
+      + [设计应用程序内内容](using/in-app/design-in-app.md)
+      + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
+   + 推送通知渠道{#push}
+      + [推送通知入门](using/push/get-started-push.md)
+      + [创建推送通知](using/push/create-push.md)
+      + [设计推送通知](using/push/design-push.md)
+      + [检查并发送推送通知](using/push/send-push.md)
+      + 配置推送通知{#push-config}
+         + [推送通知数据流](using/push/push-gs.md)
+         + [配置推送通知渠道](using/push/push-configuration.md)
+         + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
+   + 短信/MMS 渠道{#sms}
+      + [文本消息入门](using/sms/get-started-sms.md)
+      + [创建短信 (SMS/MMS)](using/sms/create-sms.md)
+      + [检查并发送文本消息](using/sms/send-sms.md)
+      + [管理文本消息选择退出](using/sms/sms-opt-out.md)
+      + [设置短信子域](using/sms/sms-subdomains.md)
+      + 配置短信/MMS 渠道{#configure-sms}
+         + [短信配置入门](using/sms/sms-configuration.md)
+         + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
+         + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
+         + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
+         + [配置自定义提供程序（Beta 版）](using/sms/sms-configuration-custom.md)
+         + [创建短信配置](using/sms/sms-configuration-surface.md)
+   + 直邮 {#direct-mail}
+      + [直邮入门](using/direct-mail/get-started-direct-mail.md)
+      + [创建直邮](using/direct-mail/create-direct-mail.md)
+      + [检查并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
+      + [配置直邮](using/direct-mail/direct-mail-configuration.md)
+   + Web 渠道 {#web}
+      + [开始使用 Web 渠道](using/web/get-started-web.md)
+      + 配置 Web 渠道{#configure-web-channel}
+         + [Web 渠道先决条件](using/web/web-prerequisites.md)
+         + [配置 Web 子域](using/web/web-delegated-subdomains.md)
+         + [创建网页渠道配置](using/web/web-configuration.md)
+      + [创建 Web 体验](using/web/create-web.md)
+      + 编写 Web 页面{#author-web-pages}
+         + [编辑网页内容](using/web/edit-web-content.md)
+         + [管理修改](using/web/manage-web-modifications.md)
+         + [监测 Web 体验](using/web/monitor-web-experiences.md)
+         + [创作单页应用程序](using/web/web-spa.md)
+   + 基于代码的体验 {#code-based-experience}
+      + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
+      + [护栏和先决条件](using/code-based/code-based-prerequisites.md)
+      + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
+      + [实施方法示例](using/code-based/code-based-implementation-samples.md)
+      + [创建基于代码的体验](using/code-based/create-code-based.md)
+   + 内容卡{#content-card}
+      + [内容卡入门](using/content-card/get-started-content-card.md)
+      + 配置内容卡片渠道{#configure}
+         + [内容卡片先决条件](using/content-card/content-card-configuration-prereq.md)
+         + [在 Journey Optimizer 中配置内容卡片渠道](using/content-card/content-card-configuration.md)
+         + [在 Web SDK 中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
+      + [创建内容卡片](using/content-card/create-content-card.md)
+      + [设计内容卡片](using/content-card/design-content-card.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -395,7 +397,7 @@ ht-degree: 94%
          + [内容卡营销活动报告](using/reports/campaign-global-report-cja-content.md)
          + [直邮营销活动报告](using/reports/campaign-global-report-cja-direct.md)
          + [电子邮件营销活动报告](using/reports/campaign-global-report-cja-email.md)
-         + [试验性营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
+         + [实验营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
          + [应用程序内营销活动报告](using/reports/campaign-global-report-cja-inapp.md)
          + [推送通知营销活动报告](using/reports/campaign-global-report-cja-push.md)
          + [短信营销活动报告](using/reports/campaign-global-report-cja-sms.md)
@@ -701,3 +703,4 @@ ht-degree: 94%
       + [使用同意策略](using/action/consent.md)
    + [数据治理](using/action/action-privacy.md)
    + [设置和管理客户托管密钥](using/privacy/cmk.md)
+
