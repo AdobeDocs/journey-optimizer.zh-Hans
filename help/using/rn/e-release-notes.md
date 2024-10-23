@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0e8c9927f7516abf1927606fd8236b8506b54c96
+source-git-commit: 826d9a26753dee7aae609344e0a72268658285c6
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1793'
 ht-degree: 43%
 
 ---
@@ -273,6 +273,10 @@ ht-degree: 43%
    * 历程中的反应事件不受此更改的影响。
 
 * **自定义操作中的参数**（可用日期：2024年10月3日） — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+**报告**
+
+* **Experience Decisioning报告**&#x200B;现已可用，可提供关于访客如何与您的体验进行交互的基本见解。
 
 **数据治理和同意策略** - 发布日期：2024 年 10 月 7 日
 
