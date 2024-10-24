@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c9943f9b8dbd7668bf520c9e3e7a26251d6d3f0b
+source-git-commit: ff18cda7556240b9770639edca42ea9321d00d7a
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3066'
 ht-degree: 55%
 
 ---
@@ -211,7 +211,7 @@ ht-degree: 55%
 <tr>
 <td>
 <p>现在，您可以在单个营销活动或历程中轻松创建多种语言的内容。利用此功能，您可以在编辑营销活动或历程时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。</p>
-<p>在正式发布后，现在可以跨所有渠道访问多语言内容。 </p>
+<p>以前，多语言消息仅提供给一组组织(LA)，但现在所有用户均可使用多语言消息(GA)。</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
