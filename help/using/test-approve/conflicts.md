@@ -6,10 +6,10 @@ level: Beginner
 badge: label="有限发布版"
 hide: true
 hidefromtoc: true
-source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 3%
 * **渠道**：是否计划在同一个时间范围内进行其他通信？如果是，有多少通信？
 * **上限规则集**：我将对哪些类型的历程设置上限，并且这些历程中存在重叠？
 * **渠道配置**：是否有其他历程或营销活动正在使用同一历程或营销活动中使用的任何渠道配置可能会阻止向最终用户显示历程或营销活动？
+
+➡️ [在视频中了解此功能](#video)
 
 ## Journey Optimizer如何检测冲突 {#detection}
 
@@ -86,3 +88,7 @@ ht-degree: 3%
 * 设置入站操作的&#x200B;**优先级**&#x200B;以确保向客户显示最重要的操作。
 
 利用这些功能，您可以确保营销工作保持一致，并在沟通策略中保持适当的平衡。
+
+## 操作方法视频 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)

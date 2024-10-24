@@ -6,10 +6,10 @@ level: Beginner
 badge: label="有限发布版"
 hide: true
 hidefromtoc: true
-source-git-commit: fd644d4d4a92eb0e0770c1d04fe8e7cd90f3ebae
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 2%
 * **并发上限**&#x200B;限制可同时注册用户档案的历程数。
 
 这两种类型的历程上限都利用优先级得分来仲裁条目。
+
+➡️ [在视频中了解此功能](#video)
 
 ## 创建历程上限规则 {#create-rule}
 
@@ -115,3 +117,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >如果立即激活历程，则系统可能需要长达15分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少15分钟之后开始。
+
+## 操作方法视频 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

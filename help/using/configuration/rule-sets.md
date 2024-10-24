@@ -12,9 +12,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d458cf01c9d14682deb080083ab8bb468b3b4fd7
+source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1968'
 ht-degree: 10%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 10%
 除了限制用户跨一个或多个渠道接收消息的次数全局业务规则之外，规则集还允许您&#x200B;**将多个规则分组到规则集中**&#x200B;并将它们应用于您选择的营销活动。 这提高了粒度，以便根据通信类型控制用户接收消息的频率。
 
 例如，您可以创建一个规则集以限制发送给客户的&#x200B;**促销通信**&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;**新闻稿**&#x200B;的数量。 根据要创建的促销活动类型，您可以选择应用促销通信或新闻稿规则集。
+
+➡️ [在视频中了解此功能](#video)
 
 ### 全局和自定义规则集 {#global-custom}
 
@@ -313,3 +315,7 @@ In this scenario, an individual profile:
 >如果立即激活历程，则系统可能需要长达15分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少15分钟之后开始。
 
 +++
+
+## 操作方法视频 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
