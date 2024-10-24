@@ -12,7 +12,7 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0eedadee1e8c1d4642d8602d48bcc9a49a0a2e53
+source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
 workflow-type: tm+mt
 source-wordcount: '1968'
 ht-degree: 10%
@@ -56,9 +56,7 @@ ht-degree: 10%
 
 ### 渠道和历程上限规则 {#domain}
 
-创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。
-
-这是通过在创建规则集时为规则集选择渠道或历程域来完成的。 [了解如何创建规则集]
+创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。  这是通过在创建规则集时为规则集选择渠道或历程域来完成的。 [了解如何创建规则集](#create)
 
 * **渠道**&#x200B;域：对通信渠道应用上限规则。 例如，每天发送的电子邮件或短信通信不得超过1个。
 * **历程**&#x200B;域：将条目和并发上限规则应用于旅程。 例如，请勿将用户档案同时输入多个历程。
