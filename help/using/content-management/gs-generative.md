@@ -29,8 +29,8 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Adobe 生成式 AI 术语"
->abstract="是否能访问此功能取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
+>title="Adobe 生成式 AI 条款"
+>abstract="此功能的访问取决于您是否同意遵守 Adobe Experience Cloud 生成式 AI 用户指南。请检查此功能产生的任何输出是否准确，并确保它适合您的用例。"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成式 AI 用户指南"
 
 >[!INFO]
