@@ -10,20 +10,16 @@ level: Experienced
 keywords: 设置，电子邮件，配置，子域
 badge: label="限量发布版"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 10%
+source-wordcount: '1057'
+ht-degree: 7%
 
 ---
 
 # 个性化电子邮件配置设置 {#surface-personalization}
 
 为了提高电子邮件设置的灵活性和控制力，[!DNL Journey Optimizer]允许您在创建电子邮件配置时定义子域和标头<!--and URL tracking parameters-->的个性化值。
-
->[!AVAILABILITY]
->
->电子邮件配置个性化当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 ## 添加动态子域 {#dynamic-subdomains}
 
@@ -110,13 +106,19 @@ ht-degree: 10%
 
    ![](assets/surface-email-personalize-header.png)
 
-1. [个性化编辑器](../personalization/personalization-build-expressions.md)打开。 根据需要定义条件，然后保存更改。
+1. [个性化编辑器](../personalization/personalization-build-expressions.md)打开。 根据需要定义条件并保存更改。
 
-   例如，设置条件，如每个收件人都会收到来自其品牌代表的电子邮件。
+   <!--For example, set a condition such as each recipient receives an email from their own brand representative.-->
 
    >[!NOTE]
    >
    >您只能选择&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;和&#x200B;**[!UICONTROL 帮助程序函数]**。
+
+   假设您要动态处理代表销售助理发送的电子邮件，其中销售助理是从事件或活动上下文参数中检索的。 例如：
+
+   * 在[历程](../building-journeys/journey-gs.md)中，当购买事件链接到特定商店的销售助理时，可以使用销售助理参数（从事件属性中获取）对电子邮件标头（发件人姓名、发件人电子邮件、回复地址）进行个性化。
+
+   * 在由销售助理从外部发起的[API触发的营销活动](../campaigns/api-triggered-campaigns.md)中，可以代表销售助理发送触发的电子邮件，并从营销活动上下文参数中获取标题个性化值。
 
 1. 对要添加个性化的每个参数重复上述步骤。
 
@@ -138,7 +140,7 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 查看配置详细信息 {#view-surface-details}
 
-当在营销活动或配置中将配置与个性化设置结合使用时，您可以直接在营销活动或配置中显示配置详细信息。 请按照以下步骤操作。
+在营销活动或历程中使用具有个性化设置的配置时，您可以直接在营销活动或历程中显示配置详细信息。 请按照以下步骤操作。
 
 1. 创建电子邮件[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journey-gs.md)。
 
@@ -157,3 +159,33 @@ Now when the email is sent out, this parameter will be automatically appended to
 1. 选择&#x200B;**[!UICONTROL 展开]**&#x200B;以显示动态子域的详细信息。
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
+
+## 检查您的配置 {#check-configuration}
+
+在营销活动或历程中使用个性化配置时，您可以预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。 请按照以下步骤操作。
+
+1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。 [了解详情](../content-management/preview.md)
+
+1. 选择[测试配置文件](../content-management/test-profiles.md)。
+
+1. 如果显示错误，请单击&#x200B;**[!UICONTROL 查看配置详细信息]**&#x200B;按钮。
+
+   ![](assets/campaign-simulate-config-error.png)
+
+1. 检查&#x200B;**[!UICONTROL 投放设置]**&#x200B;屏幕以了解错误详细信息。
+
+   ![](assets/campaign-simulate-config-details.png)
+
+可能的错误可能如下所示：
+
+* 未解析选定测试配置文件的&#x200B;**子域**。 例如，您的配置使用了多个对应于不同国家/地区的发送子域，但所选配置文件没有为`Country`属性定义值，或者该属性设置为`France`，但此值未与该配置中的任何子域关联。
+
+* 选定的配置文件没有与一个或多个&#x200B;**标头参数**&#x200B;关联的值。
+
+出现上述任何错误时，都不会向选定的测试用户档案发送电子邮件。
+
+为避免此类错误，请确保您定义的标头参数将个性化属性与大多数用户档案的值结合使用。 缺少值可能会影响您的电子邮件可投放性。
+
+>[!NOTE]
+>
+>在[本节](../reports/deliverability.md)中了解关于可投放性的更多信息

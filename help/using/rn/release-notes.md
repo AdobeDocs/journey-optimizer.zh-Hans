@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 55%
+source-wordcount: '3162'
+ht-degree: 54%
 
 ---
 
@@ -51,6 +51,25 @@ ht-degree: 55%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>电子邮件配置个性化（正式发布） </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>为了增强对电子邮件设置的灵活性和控制，您可以在创建电子邮件渠道配置时定义动态子域和个性化标头参数。
+</p>
+<p>以前，电子邮件配置个性化可用于一组组织(LA)，现在所有用户均可使用(GA)。</p>
+<p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/surface-perso.gif"/>
+<p>发布日期：2024 年 10 月 23 日</p>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -342,7 +361,10 @@ ht-degree: 55%
 
 * 现在可以将自定义上传（CSV 文件）中的受众和属性与 Healthcare Shield 或 Privacy and Security Shield 一起使用。
 
-**基于代码的渠道**
+**配置** — 可用日期：2024年10月23日
+
+* 在营销活动或历程中使用个性化配置时，您现在可以预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。 [了解详情](../email/surface-personalization.md#check-configuration)
+  **基于代码的渠道**
 
 * 内容模板现已可用。 您可以从开发人员构建的内容模板开始，加快基于代码的体验的创作速度。 通过使用内容模板，营销人员可以只修改某些值或字段，而不是构成整个HTML或JSON内容有效负载。
 

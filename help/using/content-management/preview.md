@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 <!--## Preview your content {#preview-content}-->
 
-选择[测试用户档案](test-profiles.md)后，您可以预览您的内容。 按照下面的步骤进行操作：
+定义[测试用户档案](test-profiles.md)后，您可以预览内容。 按照下面的步骤进行操作：
 
 1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 
@@ -42,5 +42,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->创建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化内容，以便进行实际模拟。 [了解详情](../code-based/create-code-based.md#preview-on-device)
+>如果在配置详细信息中发现错误，请单击&#x200B;**[!UICONTROL 查看配置详细信息]**&#x200B;按钮。 [了解详情](../email/surface-personalization.md#check-configuration)
+
+创建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化内容，以便进行实际模拟。 [了解详情](../code-based/create-code-based.md#preview-on-device)
 
