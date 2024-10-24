@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
+source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 39%
+source-wordcount: '1937'
+ht-degree: 38%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>在Journey Optimizer中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不知所措。 Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。</p><p><ul><li><b>历程频率上限</b>：您现在可以创建应用于历程的规则集，从而限制每日、每周或每月的历程数，并控制同时运行的并行历程数。</li>
+<p>在Journey Optimizer中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不知所措。 Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。</p><p><ul><li><b>历程频率上限</b>：您现在可以创建要应用于历程的规则集，从而允许您限制个人资料每日、每周或每月的历程次数，并控制同时运行的并行历程次数。</li>
 <li><b>优先级得分</b>：您现在可以为营销活动或历程分配从0到100的优先级得分。 数字越大，表示优先级越高。当两个营销活动或历程操作使用相同的渠道配置时，Journey Optimizer将选择具有最高优先级分数的营销活动或历程操作。 如果促销活动具有相同的得分，则将选择最近修改得最低的促销活动。</li>
 <li><b>查看潜在冲突</b>：现在，通过历程和营销活动中的新“查看潜在冲突”按钮，可识别与其他历程或营销活动的重叠，例如开始日期、目标受众或所选渠道配置。</li>
 <li><b>历程仲裁</b>：此新功能使您能够优先考虑客户最重要的历程。 您可以创建一个规则，以阻止客户进入具有较低优先级的即将到来的历程。</li></ul></p>
@@ -144,7 +144,7 @@ ht-degree: 39%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的试验（正式发布）</strong><br/></th>
+<th><strong>历程中的内容试验（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,13 @@ ht-degree: 39%
 * 您可以为短信活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
 * 当关键字无法识别时，您可以创建和投放默认短信消息。
 
-**历程**
+<!--**Journeys**-->
 
-* **历程中的路径实验** — 通过历程路径实验，您现在可以定义和跟踪历程路径的关键量度，从而允许您衡量活动的影响并更清楚地了解您的绩效。
+<!--* **Path experiment in journeys** - With the journey path experiment, you can now define and track key metrics for your journey paths, allowing you to measure the impact of your activities and to provide clearer insights into your performance. -->
 
-* **实时历程的最大数量** - 现在，Journey Optimizer 在生产沙盒上具有 500 个实时历程的护栏，而不是 100 个。实时历程的数量在历程画布中可见。<!-- DOCAC-10977-->
+&lt;!—* **最大实时历程数** -Journey Optimizer现在在生产沙盒上具有500个实时历程的护栏，而不是100个。 实时历程的数量在历程画布中可见。<!-- DOCAC-10977-->
+
+**数据集**
 
 * **生存时间护栏** — 从2024年11月1日开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
 
