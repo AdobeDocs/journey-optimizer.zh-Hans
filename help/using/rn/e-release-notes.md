@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
+source-git-commit: afe642177f690cdf873f838ec81044b7f8a7172e
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 40%
+source-wordcount: '1971'
+ht-degree: 39%
 
 ---
 
@@ -78,6 +78,24 @@ ht-degree: 40%
 <p>现在，您可以在创建电子邮件渠道配置时定义动态子域和个性化的标题参数，以提高灵活性和对电子邮件设置的控制。</p><p>通过在营销活动或历程中使用个性化配置，您可以预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。</p>
 <p>以前，电子邮件配置个性化可用于一组组织(LA)，现在所有用户均可使用(GA)。</p>
 <p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>使用示例输入数据测试您的内容(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程优化器现在允许您测试电子邮件内容的各种变体，方法是预览该内容并使用从CSV文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。</p>
+<p>此功能当前以Beta版提供。</p>
+<!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
