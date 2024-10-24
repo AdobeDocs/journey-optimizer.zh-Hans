@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a2219bf7791bc5c598228af883d0507180628abf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 0%
 
 ---
 
@@ -82,6 +82,12 @@ ht-degree: 1%
 * 调整&#x200B;**[!UICONTROL 百分比值]**&#x200B;以确定不同历程路径之间的流量分配。
 * 自定义您的&#x200B;**[!UICONTROL 箭头设置]**&#x200B;以包含标签、条件或选择干净显示。
 * 启用&#x200B;**[!UICONTROL 显示流失]**&#x200B;选项以在画布上直接可视化退出历程的用户档案。
+
+使用&#x200B;**[!UICONTROL 节点类型]**&#x200B;筛选时应用以下规则：
+
+* 在节点上创建区段时，它仍将包含历程早期阶段的节点，即使这些节点已通过&#x200B;**[!UICONTROL 节点类型]**&#x200B;过滤器排除。
+
+* 如果历程早期阶段的节点已通过&#x200B;**[!UICONTROL 节点类型]**&#x200B;过滤器排除，则无法创建通过箭头形成的区段。 在这种情况下，将在这些箭头上禁用右键单击功能。
 
 ## 操作表现 {#action-performance}
 
