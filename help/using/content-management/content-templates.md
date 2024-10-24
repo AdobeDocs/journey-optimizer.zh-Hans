@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,15 +26,19 @@ ht-degree: 7%
 
 例如，公司内的用户仅负责内容，因此无法访问营销活动或历程。 但是，此用户可创建一个电子邮件模板，贵组织的营销人员可以将该模板作为起点选择用于所有电子邮件。
 
-您还可以使用API创建和管理内容模板。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
+您可以为电子邮件、推送、应用程序内、短信和直邮渠道创建内容模板。
+
+>[!AVAILABILITY]
+>
+>当前内容模板不适用于Web渠道。
+
+要创建、编辑和删除内容模板，您必须具有&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Manage library items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️[在此视频中了解如何创建和使用模板](#video-templates)
 
->[!CAUTION]
+>[!NOTE]
 >
->当前内容模板不适用于Web渠道。
->
->要创建、编辑和删除内容模板，您必须具有&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Manage library items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+>您还可以使用API创建和管理内容模板。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
 
 ## 操作方法视频 {#video-templates}
 
