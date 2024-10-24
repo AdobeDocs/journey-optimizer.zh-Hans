@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2f56a072f7ae6ee2dfa65597cf5597b63dacdbe3
+source-git-commit: 08754b850f26c95f3c09ab5277e4f2ea156d2da7
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1942'
 ht-degree: 38%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 38%
 <tr>
 <td>
 <p>现在，您可以在单个营销活动或历程中轻松创建多种语言的内容。利用此功能，您可以在编辑营销活动或历程时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。</p>
-<p>以前，多语言消息仅提供给一组组织(LA)，但现在所有用户均可使用多语言消息(GA)。</p>
+<p>在正式发布后，现在可以跨所有渠道访问多语言内容。 </p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -293,7 +293,10 @@ ht-degree: 38%
 已引入短信增强功能来改进消息传送功能：
 
 * 您可以为短信活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
+
 * 当关键字无法识别时，您可以创建和投放默认短信消息。
+
+* 您现在可以编辑或删除SMS API渠道配置。
 
 <!--**Journeys**-->
 
