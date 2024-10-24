@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff18cda7556240b9770639edca42ea9321d00d7a
+source-git-commit: acc3d61b571f577187503157b78de1d27ce5e1ee
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 55%
@@ -44,8 +44,8 @@ ht-degree: 55%
 <tr>
 <td>
 <p>Journey Optimizer 现在允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>-->
+<img src="assets/do-not-localize/ai-content.gif">
 </td>
 </tr>
 </tbody>
