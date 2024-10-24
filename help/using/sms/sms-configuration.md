@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f715fb9135c446d569a4384ce73e9e92c72cb9ff
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 37%
@@ -30,7 +30,7 @@ ht-degree: 37%
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 配置 SMS/MMS 供应商"
 >abstract="在发送短信 (SMS/MMS) 之前，您必须将提供商设置与 Journey Optimizer 集成。完成后，您需要创建一个 SMS/MMS 配置。必须由 Adobe Journey Optimizer 系统管理员执行这些步骤。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/communication-channels/sms/configure-sms/sms-configuration-surface" text="创建短信渠道配置"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
