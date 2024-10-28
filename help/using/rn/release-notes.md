@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3104'
 ht-degree: 56%
 
 ---
@@ -117,8 +117,8 @@ ht-degree: 56%
 <tbody>
 <tr>
 <td>
-<p>历程优化器现在允许您测试电子邮件内容的各种变体，方法是预览该内容并使用从CSV文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。</p>
-<p>此功能当前以Beta版提供。</p>
+<p>历程优化器现在允许您测试电子邮件内容的各种变体，方法是预览内容并使用从文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。</p>
+<p>此功能目前以公共测试版的形式向所有客户提供。</p>
 <!--<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
