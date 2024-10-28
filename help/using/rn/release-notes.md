@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2ea81c13e25f1b5a3808bd956a588794f460a521
+source-git-commit: bfd0c7c976146c0cccdb51a720c27653b3e5a7b4
 workflow-type: tm+mt
 source-wordcount: '3104'
 ht-degree: 56%
@@ -343,7 +343,8 @@ ht-degree: 56%
 **配置** — 可用日期：2024年10月23日
 
 * 在营销活动或历程中使用个性化配置时，您现在可以预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。 [了解详情](../email/surface-personalization.md#check-configuration)
-  **基于代码的渠道**
+
+**基于代码的渠道**
 
 * 内容模板现已可用。 您可以从开发人员构建的内容模板开始，加快基于代码的体验的创作速度。 通过使用内容模板，营销人员可以只修改某些值或字段，而不是构成整个HTML或JSON内容有效负载。
 
