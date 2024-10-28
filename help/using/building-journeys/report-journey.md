@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
+source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 对于您的实时历程，您有权访问：
 
-* **[!UICONTROL 已输入的用户档案]**：已进入此活动的个人总数。
+* **[!UICONTROL 输入的配置文件]**：退出历程的个人总数（包括错误）。
 * **[!UICONTROL 已退出分析]**：由于退出条件而退出该活动的个人总数。
 * **[!UICONTROL 有错误的配置文件]**：历程中遇到错误的个人总数。
 * **[!UICONTROL 丢弃的用户档案]**：由于以下原因之一从历程丢弃的个人总数：
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 对于每个实时历程中的每项活动，您均有权访问：
 
-* **[!UICONTROL 已输入的用户档案]**：已进入此活动的个人总数。
-* **[!UICONTROL 已退出配置文件]**：由于退出条件而退出该活动的个人总数。
+* **[!UICONTROL 已输入]**：进入此活动的个人总数。
+* **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
