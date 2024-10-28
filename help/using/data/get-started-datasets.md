@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '848'
 ht-degree: 95%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->从2024年11月1日开始，将对Journey Optimizer系统生成的数据集强制执行生存时间(TTL)护栏。 此外，到那时，流式分段将不再支持使用跟踪和反馈数据集中的发送和开放事件。 [了解详情](datasets-ttl.md)
+>从2024年11月1日开始，流式分段将不再支持使用来自Journey Optimizer跟踪和反馈数据集的发送和打开事件。 此外，从2025年2月开始，将在Journey Optimizer系统生成的数据集中推出生存时间(TTL)护栏。 [了解详情](datasets-ttl.md)
 
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 

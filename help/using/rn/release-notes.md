@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7ae8a92be62f6b699a6b222ee5440540fbacffaa
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '3096'
+source-wordcount: '3101'
 ht-degree: 56%
 
 ---
@@ -309,14 +309,14 @@ ht-degree: 56%
 
 **数据集**
 
-* **生存时间护栏** — 从2024年11月1日开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
+* **发送和打开事件** — 从2024年11月1日开始，流式分段将不再支持使用Journey Optimizer跟踪和反馈数据集的发送和打开事件。 此更改将应用于所有客户沙盒和组织。 [了解详情](../data/datasets-ttl.md#segmentation-update)
+
+* **数据集生存时间(TTL)** — 从2025年2月开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
 
    * 配置文件存储中的数据为 90 天
    * 数据湖中的数据为 13 个月
 
-  此更改将在第二阶段随后推广到现有的客户沙箱。
-
-  此外，从11月1日开始，流式分段将不再支持使用跟踪和反馈数据集中的发送和开放事件。 此更改将应用于当时的所有客户沙盒和组织。 [了解详情](../data/datasets-ttl.md)
+  此更改将在后续阶段中推出到现有客户沙盒。 [了解详情](../data/datasets-ttl.md#ttl)
 
 * **自定义操作中的参数**（可用日期：2024年10月3日） — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 

@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、个人资料
-source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
+source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 5%
 
 ---
@@ -17,39 +17,9 @@ ht-degree: 5%
 
 # 生存时间和流分段更改 {#ttl-guardrail}
 
-## 存留时间(TTL)护栏 {#ttl}
-
-从2024年11月1日开始，将在&#x200B;**新沙盒和新组织**&#x200B;中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
-
-* 配置文件存储中的数据为 90 天
-* 数据湖中的数据为 13 个月
-
-此更改将在以后的阶段中随后转出到&#x200B;**现有客户沙盒**。
-
-**常见问题解答**
-
-+++ 此更改将仅适用于生产沙盒，还是也适用于开发沙盒？
-
-此更改将应用于所有沙盒类型。
-
-+++
-
-
-+++ 对于配置文件存储中的90天TTL，配置文件本身是否会受到影响？
-
-在90天后丢弃配置文件中系统生成的数据集数据，而不是丢弃配置文件本身。
-
-+++
-
-+++ 如果系统生成的数据集数据被推送到Customer Journey Analytics(CJA)，CJA中的数据是否也会受到TTL的影响？
-
-CJA中的数据与Experience Platform保持同步。 因此，由于TTL而删除系统生成的数据集数据也会影响CJA中的数据。
-
-+++
-
 ## 流式分段更新 {#segmentation-update}
 
-此外，从11月1日起，流式分段将不再支持使用跟踪和反馈数据集中的发送和反馈事件。  有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。 此更改将应用于当时的所有客户沙盒和组织。
+从2024年11月1日开始，流式分段将不再支持使用来自Journey Optimizer跟踪和反馈数据集的发送和打开事件。 此更改将应用于所有客户沙盒和组织。 有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
 
 **常见问题解答**
 
@@ -82,5 +52,40 @@ CJA中的数据与Experience Platform保持同步。 因此，由于TTL而删除
 +++ 此更改将仅适用于生产沙盒，还是也适用于开发沙盒？
 
 此更改将应用于所有沙盒类型。
+
++++
+
++++ 由发送事件产生的反馈事件是否也受此更改的影响？
+
+此更改也适用于因发送导致的排除事件和退回/延迟事件。
+
++++
+
+## 分阶段生存时间(TTL)更新 {#ttl}
+
+从2025年2月开始，将在&#x200B;**新沙盒和新组织**&#x200B;中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
+
+* 配置文件存储中的数据为 90 天
+* 数据湖中的数据为 13 个月
+
+此更改将在后续阶段中转出到&#x200B;**现有客户沙盒**。
+
+**常见问题解答**
+
++++ 此更改将仅适用于生产沙盒，还是也适用于开发沙盒？
+
+此更改将应用于所有沙盒类型。
+
++++
+
++++ 对于配置文件存储中的90天TTL，配置文件本身是否会受到影响？
+
+在90天后丢弃配置文件中系统生成的数据集数据，而不是丢弃配置文件本身。
+
++++
+
++++ 如果系统生成的数据集数据被推送到Customer Journey Analytics(CJA)，CJA中的数据是否也会受到TTL的影响？
+
+CJA中的数据与Experience Platform保持同步。 因此，由于TTL而删除系统生成的数据集数据也会影响CJA中的数据。
 
 +++
