@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 3235d53b09d140e61a9e83f6b07ce8351f0fa245
+source-git-commit: c1bbd1c8dae6de4b1fac416fd4b7c0b7be7a07ca
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 86%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!BEGINTABS]
 
->[!TAB 2024 年 9 月版]
+>[!TAB 2024年10月版]
 
-9 月版本现已上线，包括移动应用程序和网站的内容卡、历程和营销活动中的审批策略 (LA)、历程中的全局退出标准等。
+10月版现已上线，包括电子邮件内容锁定、冲突和优先级管理(LA)、与可移动墨迹集成。 以前在有限可用性(LA)中，现在所有人都可以使用以下功能：电子邮件配置个性化、审批策略、历程中的内容实验、改进的报告体验。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -38,11 +38,11 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB 内容片段]
+>[!TAB 历程中的Web体验]
 
-现在您可以编辑片段，并且可以将更改同步到使用这些片段的所有实时历程和营销活动中。
+借助 Web 渠道，Adobe Journey Optimizer 允许您通过入站 Web 历程为客户提供个性化 Web 体验。现在，可在历程画布中使用 Web 渠道。
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 
@@ -121,5 +121,5 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 </td>
 </tr></table>
 
-<table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>了解最新信息并提升您的 Adobe Journey Optimizer 体验！</b><br/>订阅我们的季度新闻稿。获取专属的最新产品更新、引人入胜的故事、真实使用案例、颇有帮助的提示等。所有这些信息每季度都会直接发送到您的收件箱。<a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">立即注册！</a></td></tr></table>
+<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
