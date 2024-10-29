@@ -6,21 +6,45 @@ description: 了解如何在电子邮件模板中锁定内容。
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 7%
 
 ---
 
-
 # 锁定电子邮件模板中的内容 {#lock-content-email-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="治理"
+>abstract="打开管理以通过锁定整个模板或特定结构和组件来锁定模板中的内容。 这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="模式"
+>abstract="为模板选择所需的锁定模式。 **内容锁定**&#x200B;允许您锁定模板中的特定内容部分。 **只读**&#x200B;允许您锁定模板的整个内容，以防止任何修改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="启用内容添加"
+>abstract="启用此选项以进一步定义用户与模板的交互方式。 选择&#x200B;**允许结构和内容添加**，以允许用户在现有结构之间添加结构，并在可编辑的结构中添加内容组件或片段。 **仅允许内容添加**&#x200B;允许用户在可编辑的结构中添加内容组件或片段，但无法添加或复制结构。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="已启用治理"
+>abstract="内容锁定已激活，可能会阻止您进行修改。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="只读"
+>abstract="此内容为只读内容，无法修改。"
 
 Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。
 
 >[!AVAILABILITY]
 >
->有权创建内容模板的用户可以启用锁定。
+>具有创建内容模板权限的用户可以启用内容锁定。
 
 可在&#x200B;**结构**&#x200B;级别或&#x200B;**组件**&#x200B;级别应用内容锁定。 以下是锁定模板中的内容时在结构和组件级别应用的主要原则。
 
@@ -72,6 +96,11 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 ### 锁定结构 {#lock-structures}
 
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="结构中的内容锁定"
+>abstract="要锁定模板中的结构，请从&#x200B;**锁定类型**&#x200B;下拉列表中选择&#x200B;**锁定**。 默认情况下，用户无法删除锁定的结构。 您可以通过启用&#x200B;**[!UICONTROL 允许删除]**&#x200B;选项来覆盖此限制。"
+
 要在模板中锁定结构，请执行以下操作：
 
 1. 选择要锁定的结构。
@@ -95,6 +124,11 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
    ![](assets/template-lock-editable-component.png)
 
 ### 锁定组件 {#lock-components}
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="在组件中使用特定锁定"
+>abstract="若要锁定模板中的组件，请打开&#x200B;**使用特定锁定**&#x200B;选项。 从&#x200B;**[!UICONTROL 锁定类型]**&#x200B;下拉列表中，选择首选锁定选项： **仅可编辑的内容锁定**&#x200B;允许您锁定组件的样式，但允许编辑内容，而&#x200B;**锁定**&#x200B;将完全锁定组件的内容和样式。"
 
 要在结构内锁定特定组件，请执行以下操作：
 
@@ -122,6 +156,11 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 ![](assets/template-lock-navigation.png)
 
 ## 将模板用于锁定的内容 {#use}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="突出显示可编辑区域"
+>abstract="根据应用于模板的锁定类型，可以对模板结构和组件执行不同的操作。 要快速识别模板中的所有可编辑区域，请打开&#x200B;**[!UICONTROL 突出显示可编辑区域]**&#x200B;选项。"
 
 使用包含锁定内容的模板时，右侧窗格中会显示&#x200B;**[!UICONTROL 启用管理]**&#x200B;消息。
 

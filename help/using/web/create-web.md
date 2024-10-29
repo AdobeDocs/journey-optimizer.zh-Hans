@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 [!DNL Journey Optimizer]允许您通过入站历程或营销活动为客户提供Web体验，并使之个性化。
 
-## 通过历程和营销活动添加 Web 体验 {#create-web-experience}
+## 通过历程或营销活动定义Web体验 {#create-web-experience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
@@ -29,7 +29,7 @@ ht-degree: 13%
 >title="构建页面匹配规则"
 >abstract="一条页面匹配规则即可针对多个匹配同一规则的 URL - 例如，如果要将更改应用于跨越整个网站的主图横幅或添加在网站的所有产品页面上显示的置顶图像。"
 
-要通过营销活动或历程开始构建Web体验，请执行以下步骤。
+要通过营销活动或旅程开始构建Web体验，请执行以下步骤。
 
 >[!NOTE]
 >
@@ -59,11 +59,11 @@ ht-degree: 13%
 
    ![](assets/web-activity-configuration.png)
 
-1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮，然后使用Web设计器根据需要编辑您的内容。 [了解详情](edit-web-content.md)
+1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮并根据需要编辑您的内容。 [了解详情](#edit-web-content)
 
-1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
+1. 如有必要，请通过拖放其他操作或事件来完成您的旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-1. Web体验准备就绪后，完成配置并发布历程以激活它。 [了解详情](../building-journeys/publishing-the-journey.md)
+1. 准备好Web体验后，完成配置并发布您的旅程以激活它。 [了解详情](../building-journeys/publishing-the-journey.md)
 
 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
@@ -71,13 +71,13 @@ ht-degree: 13%
 
 要通过营销活动开始构建Web体验，请执行以下步骤。
 
-1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
+1. 创建市场活动。 [了解详情](../campaigns/create-campaign.md)
 
-1. 选择要执行的营销活动类型
+1. 选择要执行的市场活动类型
 
-   * **已计划 — 营销**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送营销消息。 它们从用户界面配置和执行。
+   * **已计划 — 营销**：立即或在指定日期执行市场活动。 计划的活动旨在发送营销信息。 这些步骤通过用户界面进行配置和执行。
 
-   * **API触发 — 营销/事务性**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。 [了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
+   * **API触发 — Marketing/Transactional**：使用API调用执行营销活动。 API触发的营销活动旨在发送营销或事务型消息，即，在个人执行操作（密码重置、购物车购买等）之后发送的消息。 [了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
 
 1. 完成创建Web营销活动的步骤，例如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。
 
@@ -87,7 +87,7 @@ ht-degree: 13%
 
    ![](assets/web-campaign-steps.png)
 
-1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以使用Web设计器根据需要编辑您的内容。 [了解详情](edit-web-content.md)
+1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮根据需要编辑您的内容。 [了解详情](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -97,6 +97,41 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
+## 编辑Web内容 {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_surface"
+>title="确认要编辑的 URL"
+>abstract="确认特定网页的 URL，用于编辑将应用到上面定义的 Web 配置的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_edit_rule"
+>title="输入 URL 以进行编辑"
+>abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
+
+将Web操作](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：[
+
+* [Web设计器](web-visual-editor.md)，用于使用可视编辑器创作您的体验；
+* 或[非可视编辑器](web-non-visual-editor.md)。
+
+要开始创作Web体验，请执行以下步骤。
+
+1. 从营销活动的&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡或历程中的&#x200B;**[!UICONTROL Web]**&#x200B;活动，选择&#x200B;**[!UICONTROL 编辑内容]**。
+
+   ![](assets/web-campaign-edit-content.png)
+
+1. 将显示版本屏幕。 您可以：
+
+   * 单击&#x200B;**[!UICONTROL 编辑网页]**&#x200B;按钮开始使用Web设计器创作内容以获得可视化体验。 [了解详情](web-visual-editor.md)
+
+     ![](assets/web-campaign-edit-web-page.png)
+
+   * 取消选择&#x200B;**[!UICONTROL 可视编辑器]**&#x200B;选项以改用非可视编辑模式，然后单击&#x200B;**[!UICONTROL 添加修改]**&#x200B;以开始编辑您的Web内容而不加载可视编辑器。 [了解详情](web-non-visual-editor.md)
+
+     ![](assets/web-campaign-add-modification.png)
+
 ## 测试 Web 体验 {#test-web-experience}
 
 >[!CONTEXTUALHELP]
@@ -104,27 +139,27 @@ ht-degree: 13%
 >title="预览 Web 体验"
 >abstract="模拟您将获得的 Web 体验。"
 
-在使用Web设计器[创作Web体验](edit-web-content.md)后，您可以使用测试配置文件预览修改后的网页。 如果插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。
+在使用Web设计器[创作Web体验](web-visual-editor.md)后，您可以使用测试配置文件预览修改后的网页。 如果插入个性化内容，则可以使用测试配置文件数据检查此内容的显示方式。
 
 为此，请在历程或营销活动编辑内容屏幕中单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以使用测试配置文件数据检查网页。
 
 ![](assets/web-designer-preview.png)
 
-您还可以在默认浏览器中打开它，或复制测试URL以将其粘贴到任何浏览器中。 这样，您就可以与团队和利益相关者共享链接，这些利益相关者将能够在营销活动上线之前在任何浏览器中预览新的Web体验。
+也可以在默认浏览器中打开它，或复制测试URL以将其粘贴到任何浏览器中。 这样，您就可以与团队和利益相关者共享链接，这些利益相关者将能够在活动上线之前，在任何浏览器中预览新的Web体验。
 
 >[!NOTE]
 >
->在复制测试URL时，显示的内容是在[!DNL Journey Optimizer]中生成内容模拟时所使用的测试配置文件的个性化内容。
+>在复制测试URL时，显示的内容是在[!DNL Journey Optimizer]中生成内容模拟时针对所使用的测试配置文件而个性化的内容。
 
-有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+有关如何选择测试配置文件和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
-## 让您的Web体验上线 {#web-experience-live}
+## 让您的Web体验成为实时体验 {#web-experience-live}
 
 >[!IMPORTANT]
 >
-> 如果您的营销活动受批准政策的约束，则需要请求批准才能激活您的Web体验。 [了解详情](../test-approve/gs-approval.md)
+> 如果您的营销活动受审批政策的约束，则需要请求审批才能激活Web体验。 [了解详情](../test-approve/gs-approval.md)
 
-定义Web体验并根据需要使用[Web设计器](edit-web-content.md#work-with-web-designer)编辑内容后，您可以激活历程或营销活动以使更改对受众可见。
+定义Web体验并根据需要编辑内容后，您可以激活历程或营销活动，以使更改对受众可见。
 
 您还可以在上线之前预览Web体验内容。 [了解详情](#test-web-experience)
 
@@ -148,19 +183,19 @@ ht-degree: 13%
    >
    >在[本节](../building-journeys/publishing-the-journey.md)中了解有关发布历程的更多信息。
 
-您的Web历程处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在为只读。 历程的每个收件人都可以看到您添加到网站的修改。
+您的Web旅程处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在是只读的。 您旅程中的每个接收者都可以看到您添加到网站中的修改。
 
 >[!NOTE]
 >
->单击&#x200B;**[!UICONTROL Publish]**&#x200B;后，最多可能需要15分钟才能将更改内容实时发布到您的网站上。
+>在单击&#x200B;**[!UICONTROL Publish]**&#x200B;后，可能最多需要15分钟才能在网站上实时提供所做的更改。
 
 ### 激活Web活动 {#activate-web-campaign}
 
-定义Web营销活动设置并根据需要使用[Web设计器](edit-web-content.md#work-with-web-designer)编辑内容后，您可以查看和激活Web营销活动。 请按照以下步骤操作。
+定义Web营销活动设置并根据需要编辑内容后，即可查看和激活Web营销活动。 请按照以下步骤操作。
 
 1. 从您的Web营销活动中，选择&#x200B;**[!UICONTROL 审阅以激活]**。
 
-1. 检查并编辑内容、属性、配置、受众和计划（如果需要）。
+1. 根据需要检查并编辑内容、属性、配置、受众和日程安排。
 
 1. 选择&#x200B;**[!UICONTROL 激活]**。
 
@@ -168,15 +203,17 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >在[此部分](../campaigns/review-activate-campaign.md)中了解关于激活营销活动的更多信息。
+   >详细了解如何在[此分区](../campaigns/review-activate-campaign.md)中激活营销活动。
 
-您的Web营销活动处于&#x200B;**[!UICONTROL 上线]**&#x200B;状态，现在对所选受众可见。 营销活动的每个收件人都可以看到您在网站中添加的修改。
+您的Web营销活动处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在选定的受众可以看到。 营销活动的每位接收者都可以看到您添加到网站中的修改。
 
 >[!NOTE]
 >
->单击“**[!UICONTROL 激活]**”后，可能需要长达15分钟时间，网站营销活动更改才能在您的网站上实时可用。
+>单击“**[!UICONTROL 激活]**”后，最多可能需要15分钟才能在网站上实时提供Web营销活动更改。
 >
 >如果您为Web营销活动定义了计划，则在到达开始日期和时间之前，其状态为&#x200B;**[!UICONTROL 已计划]**。
+
+一旦您的体验上线，您就可以监控Web历程和营销活动。 [了解详情](monitor-web-experiences.md)
 
 ## 停止Web历程或营销活动 {#stop-web-experience}
 
@@ -202,6 +239,6 @@ ht-degree: 13%
 
 ## 操作方法视频{#video}
 
-以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
+以下视频显示了如何创建Web营销活动、配置其属性、审阅和发布它。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
