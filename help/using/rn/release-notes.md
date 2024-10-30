@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 2fb8113f4ae85b661a3ea967327e6a0b532fc48f
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 48%
+source-wordcount: '1428'
+ht-degree: 47%
 
 ---
 
@@ -283,6 +283,8 @@ ht-degree: 48%
 * 当关键字无法识别时，您可以创建和投放默认短信消息。
 
 * 您现在可以编辑或删除SMS API渠道配置。
+
+在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS配置文档中了解有关这些改进的更多信息。
 
 <!--**Journeys**-->
 
