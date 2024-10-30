@@ -5,7 +5,7 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
+source-git-commit: d51e28261908018824bcf65180534ced836b3765
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    单击修改旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 信息]**&#x200B;以显示其详细信息。 如果需要，您还可以&#x200B;**[!UICONTROL 删除修改]**。
 
-   ![](assets/web-non-visual-editor-ex-more.png)
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 此外，您还可以选择网站的任何元素并跟踪对该元素的点击。 要启用点击跟踪并定义要跟踪的操作，请单击左边栏上的第二个图标，如下所示：
 
-   ![](assets/web-campaign-click.png)
+   ![](assets/web-campaign-click.png){width="50%" align="left"}
 
    使用&#x200B;**添加组件**&#x200B;按钮选择要跟踪的新操作。 在[本节](monitor-web-experiences.md#use-click-tracking)中了解有关点击跟踪用法的更多信息。
 
