@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 62bc99bcd4bd3174ffc93c3ae604f901fa0f1570
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 49%
+source-wordcount: '1812'
+ht-degree: 41%
 
 ---
 
@@ -83,26 +83,26 @@ ht-degree: 49%
 </table>
 
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Conflict and priority management (Limited Availability)</strong><br/></th>
+<th><strong>冲突和优先级管理（有限可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization.</p><p><ul><li><b>Journey frequency capping</b>: You can now create rule sets to apply to your journeys, allowing you to limit the number of journeys for a profile per day, week, or month, as well as control the number of concurrent journeys running simultaneously.</li>
-<li><b>Priority score</b>: You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journey actions use the same channel configuration, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was least recently modified will be chosen.</li>
-<li><b>View potential conflicts</b>: A new "View potential conflicts" button in journeys and campaigns now allows you to identify overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.</li>
-<li><b>Journey Arbitration</b>: This new capability enables you to prioritize the most important journeys for your customers. You can create a rule to suppress entry into a lower priority journey when a customer qualifies for an upcoming journey of higher priority.</li>
-<li><b>Frequency capping by communication type: </b>With rule sets, you can now set granular rules by communication type (e.g., Sales, Promotional) to prevent overloading customers with similar messages. You can control frequency across multiple channels, automatically excluding over-solicited profiles to ensure a better customer experience.</li></ul>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
-<p>Conflict and priority management capabilities are available in Limited Availability to a select group of customers. Please note that these features will be gradually rolled out to more users in the future. Reach out to your account team if interested in being added to the waitlist for these features.</p>
+<p>在Journey Optimizer中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不知所措。 Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。</p><p><ul><li><b>历程频率上限</b>：您现在可以创建要应用于历程的规则集，从而允许您限制个人资料每日、每周或每月的历程次数，并控制同时运行的并行历程次数。</li>
+<li><b>优先级得分</b>：您现在可以为营销活动或历程分配从0到100的优先级得分。 数字越大，表示优先级越高。当两个营销活动或历程操作使用相同的渠道配置时，Journey Optimizer将选择具有最高优先级分数的营销活动或历程操作。 如果促销活动具有相同的得分，则将选择最近修改得最低的促销活动。</li>
+<li><b>查看潜在冲突</b>：现在，通过历程和营销活动中的新“查看潜在冲突”按钮，可识别与其他历程或营销活动的重叠，例如开始日期、目标受众或所选渠道配置。</li>
+<li><b>历程仲裁</b>：此新功能使您能够优先考虑客户最重要的历程。 您可以创建一个规则，以阻止客户进入具有较低优先级的即将到来的历程。</li>
+<li><b>按通信类型设置频率上限： </b>通过规则集，您现在可以按通信类型（例如，销售、促销）设置粒度规则，以防止对类似消息的客户造成过载。 您可以跨多个渠道控制频率，自动排除过度请求的用户档案，以确保获得更好的客户体验。</li></ul>
+<p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p>
+<p>冲突和优先级管理功能以“有限可用性”提供给选定的客户组。 请注意，这些功能将在未来逐步向更多用户推出。 如果您有兴趣被添加到这些功能的轮候表中，请与您的客户团队联系。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 
 <table>
