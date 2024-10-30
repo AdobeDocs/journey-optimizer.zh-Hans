@@ -1,19 +1,19 @@
 ---
-title: Experience Decisioning用例
+title: Decisioning用例
 description: 了解如何使用基于代码的渠道的实验创建决策
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="有限发布版"
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 6%
+source-wordcount: '327'
+ht-degree: 7%
 
 ---
 
-# Experience Decisioning用例 {#experience-decisioning-uc}
+# Decisioning用例 {#experience-decisioning-uc}
 
 在此使用案例中，您定义了两种投放处理，每种处理包含不同的决策策略，以便衡量哪种策略对目标受众的表现最好。
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 您首先需要创建项目，在收藏集中将其分组，设置规则和排名方法。 这些元素将允许您构建选择策略。
 
-1. 导航到&#x200B;**[!UICONTROL Experience Decisioning]** > **[!UICONTROL 目录]**&#x200B;并创建多个选件项。 使用受众或规则设置约束，将每个项目限制为仅访问特定用户档案。 [了解详情](items.md)
+1. 导航到&#x200B;**[!UICONTROL 决策]** > **[!UICONTROL 目录]**&#x200B;并创建多个选件项。 使用受众或规则设置约束，将每个项目限制为仅访问特定用户档案。 [了解详情](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

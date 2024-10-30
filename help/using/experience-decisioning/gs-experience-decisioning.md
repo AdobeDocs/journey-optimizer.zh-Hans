@@ -1,39 +1,39 @@
 ---
-title: 体验决策入门
-description: 了解有关Experience Decisioning的更多信息
+title: 开始使用Decisioning
+description: 了解有关Decisioning的更多信息
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 badge: label="有限发布版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 19%
 
 ---
 
-# 体验决策入门 {#get-started-experience-decisioning}
+# 开始使用Decisioning {#get-started-experience-decisioning}
 
 >[!AVAILABILITY]
 >
->目前，体验决策功能仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。
+>Decisioning当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 >
 >目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;和&#x200B;**Privacy and Security Shield**&#x200B;附加产品的客户。
 
-## 什么是Experience决策 {#about}
+## 什么是决策 {#about}
 
-通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
+Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 体验决策的决策策略仅适用于基于代码的体验营销活动。
+这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 决策决策策略仅在基于代码的体验营销活动中可用。
 
 
-## Experience Decisioning关键步骤 {#steps}
+## 决策关键步骤 {#steps}
 
-使用Experience Decisioning的主要步骤如下：
+使用Decisioning的主要步骤如下：
 
-1. **分配适当的权限**。 Experience Decisioning仅适用于有权访问与Experience Decisioning相关的&#x200B;**[!UICONTROL 角色]**&#x200B;的用户，例如决策管理员。 如果您无法访问Experience Decisioning，则必须扩展您的权限。
+1. **分配适当的权限**。 决策仅适用于具有决策相关&#x200B;**[!UICONTROL 角色]**&#x200B;访问权限的用户，例如决策管理员。 如果您无法访问Decisioning，则必须扩展您的权限。
 
    +++了解如何分配决策管理者角色
 

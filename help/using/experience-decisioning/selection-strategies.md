@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 badge: label="有限发布版"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 21%
 
 ---
@@ -31,23 +31,23 @@ ht-degree: 21%
 
 选择策略可重复使用，并且包括与资格约束关联的集合以及确定在[决策策略](create-decision.md)中选择时显示的优惠的排名方法。
 
-## 访问和管理选择策略
+## Access and manage selection strategies
 
-1. 转到&#x200B;**[!UICONTROL Experience Decisioning]** > **[!UICONTROL 策略设置]** > **[!UICONTROL 选择策略]**。
+1. ************
 
-1. 将列出迄今为止创建的所有选择策略。 过滤器可帮助您根据排名方法检索策略。
+1. All the selection strategies created so far are listed. Filters are available to help you retrieve strategies according to the ranking method.
 
    ![](assets/strategy-list-filters.png)
 
-1. 单击选择策略名称对其进行编辑。
+1. Click a selection strategy name to edit it.
 
-1. 此外，还会显示针对每个策略选择的集合、排名方法和资格。 您可以单击每个收藏集名称旁边的图标以直接编辑收藏集。
+1. The collection, ranking method and eligibility selected for each strategy are also displayed. You can click the icon next to each collection name to directly edit a collection.
 
    ![](assets/strategy-list-edit-collection.png)
 
-## 创建选择策略
+## Create a selection strategy
 
-要创建选择策略，请执行以下步骤。
+To create a selection strategy, follow the steps below.
 
 1. 在&#x200B;**[!UICONTROL 选择策略]**&#x200B;清单中，单击&#x200B;**[!UICONTROL 创建选择策略]**。
 
@@ -59,21 +59,21 @@ ht-degree: 21%
    >
    >当前只有默认的&#x200B;**[!UICONTROL 选件]**&#x200B;目录可用。
 
-1. 填写选择策略的详细信息，从名称开始。
+1. Fill in the details for your selection strategy, starting by the name.
 
    ![](assets/strategy-create-screen.png)
 
-1. 选择包含要考虑的选件的[收藏集](collections.md)。
+1. [](collections.md)
 
-1. 使用&#x200B;**[!UICONTROL 资格]**&#x200B;字段限制此选择策略的选件选择。
+1. ****
 
    ![](assets/strategy-create-eligibility.png)
 
-   * 要将优惠选择限制为Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 受众]**，然后从列表中选择受众。 [了解如何使用受众](../audience/about-audiences.md)
+   * ****[了解如何使用受众](../audience/about-audiences.md)
 
-   * 如果要为决策规则添加选择约束，请使用&#x200B;**[!UICONTROL 决策规则]**&#x200B;选项并选择所选规则。 [了解如何创建规则](rules.md)
+   * ****[](rules.md)
 
-1. 定义要用于为每个用户档案选择最佳选件的排名方法。 [了解详情](#select-ranking-method)
+1. Define the ranking method you want to use to select the best offer for each profile. [了解详情](#select-ranking-method)
 
    ![](assets/strategy-create-ranking.png)
 
@@ -91,7 +91,7 @@ ht-degree: 21%
 >abstract="如果多个选件符合给定选择策略的条件，请在创建选择策略时，选择将为每个轮廓选择最佳选件的方法：优先级或排名公式。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
-如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
+If several offers are eligible for a given selection strategy, you can choose the method that will select the best offer for each profile when creating a selection strategy. You can rank offers by:
 
 * [优惠优先级](#offer-priority)
 * [公式](#ranking-formula)
@@ -103,7 +103,7 @@ ht-degree: 21%
 
 ![](assets/item-priority.png)
 
-创建[决策项](items.md)时分配优惠的优先级分数。
+[](items.md)
 
 ### 排名公式 {#ranking-formula}
 
@@ -111,10 +111,10 @@ ht-degree: 21%
 
 例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 在[本节](ranking.md)中了解如何创建排名公式。
 
-创建后，您可以在选择策略中使用此公式。 使用此选择策略时，如果多个优惠都符合呈现的条件，决策将使用选定的公式计算首先要投放哪个优惠。
+Once created, you can use this formula in a selection strategy. If multiple offers are eligible to be presented when using this selection strategy, the decision will use the selected formula to calculate which offer to deliver first.
 
 ### 人工智能排名 {#ai-ranking}
 
-您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](ranking.md)中了解如何创建AI模型。
+You can also use a trained model system that automatically ranks offers to display for a given profile by selecting an AI model. [](ranking.md)
 
-创建AI模型后，您可以在选择策略中使用该模型。 如果多个选件符合条件，则经过训练的模型系统将确定应首先为此选择策略提供哪个选件。
+Once an AI model has been created, you can use it in a selection strategy. If multiple offers are eligible, the trained model system will determine which offer should be presented first for this selection strategy.
