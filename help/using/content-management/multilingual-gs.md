@@ -9,11 +9,10 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="限量发布版" type="Informative"
-source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 28%
+source-wordcount: '487'
+ht-degree: 22%
 
 ---
 
@@ -24,9 +23,10 @@ ht-degree: 28%
 >title="翻译"
 >abstract="多语言功能允许您在单个营销活动或历程中轻松创建多种语言的内容。通过翻译页面，您可以设置项目、选择翻译提供商或管理特定语言环境的词典"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->目前，多语言内容仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。
+>要开始创建多语言内容，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**权限。
+>对于自动流程，用户还需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的更多信息](../administration/permissions.md)
 
 多语言功能使您能够轻松地在单个活动或历程中以多种语言创建内容。 利用此功能，您可以在编辑活动时切换语言，简化整个编辑过程，并提高有效管理多语言内容的能力。
 
@@ -55,7 +55,9 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 有关翻译的任何问题或协助请求，请与适用的翻译提供商联系。
 
-如果您无法访问翻译页面，则需要启用翻译功能。
+要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+
+如果您无法访问翻译页面，则需要启用翻译功能并获得&#x200B;**[!UICONTROL 翻译服务]**&#x200B;相关权限。 [了解详情](../administration/ootb-permissions.md)
 
 +++ 了解如何启用翻译功能
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 94%
+source-wordcount: '2163'
+ht-degree: 93%
 
 ---
 
@@ -177,11 +177,11 @@ ht-degree: 94%
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
 + 测试和审批{#test}
    + [冲突管理和优先级](using/test-approve/conflict-prioritization.md)
-   + {#conflict-prioritization}
-      + [Get started with conflict management &amp; prioritization](using/test-approve/gs-conflict-prioritization.md)
-      + [Identify potential conflicts](using/test-approve/conflicts.md)
-      + [Assign priority scores](using/test-approve/priority-scores.md)
-      + [Journey capping &amp; arbitration](using/test-approve/journey-capping.md)
+   + 冲突管理和优先顺序{#conflict-prioritization}
+      + [冲突管理和优先顺序入门](using/test-approve/gs-conflict-prioritization.md)
+      + [识别潜在冲突](using/test-approve/conflicts.md)
+      + [分配优先级分数](using/test-approve/priority-scores.md)
+      + [历程上限和仲裁](using/test-approve/journey-capping.md)
    + 预览和测试内容{#preview-test}
       + [使用示例输入数据测试您的内容](using/test-approve/simulate-sample-input.md)
       + [预览和测试入门](using/content-management/preview-test.md)
@@ -228,8 +228,8 @@ ht-degree: 94%
    + 应用程序内渠道{#in-app}
       + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
-      + [Create a mobile In-app message](using/in-app/create-in-app.md)
-      + [Create a web In-app message](using/in-app/create-in-app-web.md)
+      + [创建移动应用程序内消息](using/in-app/create-in-app.md)
+      + [创建Web应用程序内消息](using/in-app/create-in-app-web.md)
       + [设计应用程序内内容](using/in-app/design-in-app.md)
       + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
    + 推送通知渠道{#push}
@@ -268,7 +268,7 @@ ht-degree: 94%
       + [创建 Web 体验](using/web/create-web.md)
       + 编写 Web 页面{#author-web-pages}
          + [使用 Web 设计器](using/web/web-visual-editor.md)
-         + [Use the non-visual editor](using/web/web-non-visual-editor.md)
+         + [使用非可视编辑器](using/web/web-non-visual-editor.md)
          + [管理修改](using/web/manage-web-modifications.md)
          + [监测 Web 体验](using/web/monitor-web-experiences.md)
          + [创作单页应用程序](using/web/web-spa.md)
@@ -300,7 +300,7 @@ ht-degree: 94%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
-   + {#ai-assistant}
+   + 使用AI助手{#ai-assistant}
       + [AI 助手内容加速器入门](using/content-management/gs-generative.md)
       + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
       + [使用 AI 生成推送内容](using/content-management/generative-push.md)
@@ -310,6 +310,8 @@ ht-degree: 94%
       + [AI 助手用例](using/content-management/generative-uc.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
+      + [创建区域设置](using/content-management/multilingual-locale.md)
+      + [创建语言提供程序](using/content-management/multilingual-provider.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
    + 使用内容试验{#content-experiment}
@@ -351,7 +353,7 @@ ht-degree: 94%
       + [内容模板入门](using/content-management/content-templates.md)
       + [访问和管理模板](using/content-management/access-content-templates.md)
       + [创建内容模板](using/content-management/create-content-templates.md)
-      + [Lock content in email templates](using/content-management/content-locking.md)
+      + [锁定电子邮件模板中的内容](using/content-management/content-locking.md)
       + [测试内容模板](using/content-management/test-content-templates.md)
       + [使用内容模板](using/content-management/use-content-templates.md)
    + 可重复使用的内容片段 {#fragments}
@@ -388,36 +390,36 @@ ht-degree: 94%
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
-   + {#channel-report}
-      + [Get started with the updated reporting experience](using/reports/report-gs-cja.md)
-      + [Manually configure Customer Journey Analytics](using/reports/cja-ajo.md)
+   + 已更新报告体验{#channel-report}
+      + [开始使用更新的报告体验](using/reports/report-gs-cja.md)
+      + [手动配置Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
       + [报告和试验先决条件](using/reports/reporting-configuration.md)
-      + {#reporting}
+      + 营销活动报告{#reporting}
          + [营销活动报告](using/reports/campaign-global-report-cja.md)
-         + [Code-based campaign report](using/reports/campaign-global-report-cja-code.md)
-         + [Content card campaign report](using/reports/campaign-global-report-cja-content.md)
+         + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
+         + [内容卡营销活动报告](using/reports/campaign-global-report-cja-content.md)
          + [直邮营销活动报告](using/reports/campaign-global-report-cja-direct.md)
          + [电子邮件营销活动报告](using/reports/campaign-global-report-cja-email.md)
          + [实验营销活动报告](using/reports/campaign-global-report-cja-experimentation.md)
-         + [In-app campaign report](using/reports/campaign-global-report-cja-inapp.md)
-         + [Push notification campaign report](using/reports/campaign-global-report-cja-push.md)
+         + [应用程序内营销活动报告](using/reports/campaign-global-report-cja-inapp.md)
+         + [推送通知营销活动报告](using/reports/campaign-global-report-cja-push.md)
          + [短信营销活动报告](using/reports/campaign-global-report-cja-sms.md)
-         + [Web campaign report](using/reports/campaign-global-report-cja-web.md)
-      + {#reporting}
+         + [Web营销活动报告](using/reports/campaign-global-report-cja-web.md)
+      + 历程报告{#reporting}
          + [历程报告](using/reports/journey-global-report-cja.md)
-         + [Code-based journey report](using/reports/journey-global-report-cja-code.md)
-         + [Content card journey report](using/reports/journey-global-report-cja-content.md)
-         + [Direct mail journey report](using/reports/journey-global-report-cja-direct.md)
-         + [Email journey report](using/reports/journey-global-report-cja-email.md)
-         + [In-app journey report](using/reports/journey-global-report-cja-inapp.md)
-         + [Push journey report](using/reports/journey-global-report-cja-push.md)
-         + [SMS journey report](using/reports/journey-global-report-cja-sms.md)
-         + [Web journey report](using/reports/journey-global-report-cja-web.md)
+         + [基于代码的历程报告](using/reports/journey-global-report-cja-code.md)
+         + [内容卡历程报告](using/reports/journey-global-report-cja-content.md)
+         + [直邮历程报告](using/reports/journey-global-report-cja-direct.md)
+         + [通过电子邮件发送历程报告](using/reports/journey-global-report-cja-email.md)
+         + [应用程序内历程报告](using/reports/journey-global-report-cja-inapp.md)
+         + [推送历程报告](using/reports/journey-global-report-cja-push.md)
+         + [短信历程报告](using/reports/journey-global-report-cja-sms.md)
+         + [Web历程报告](using/reports/journey-global-report-cja-web.md)
       + [“概述”报告](using/reports/channel-report-cja.md)
       + [登陆页面报告](using/reports/lp-report-global-cja.md)
       + [订阅列表报告](using/reports/subscription-report-global-cja.md)
-   + {#reports}
+   + 以前的报告体验{#reports}
       + 全局报告 {#global-report}
          + [全局报告入门](using/reports/global-report.md)
          + [组件列表](using/reports/global-report-components.md)
@@ -446,13 +448,13 @@ ht-degree: 94%
       + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + [警报](using/reports/alerts.md)
    + [排除原因](using/reports/exclusion-list.md)
-+ {#decisioning}
++ 决策功能{#decisioning}
    + 决策管理{#offer-decisioning}
       + 决策管理入门 {#get-started-decision}
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
          + [用户界面](using/offers/get-started/user-interface.md)
          + [创建和管理优惠的关键步骤](using/offers/offer-library/key-steps.md)
-         + [Leverage Custom upload audiences for decisioning](using/offers/custom-upload-decisioning.md)
+         + [利用自定义上传受众进行决策](using/offers/custom-upload-decisioning.md)
          + [用例：在电子邮件中插入优惠](using/offers/offers-e2e.md)
       + 创建组件{#create-components}
          + [创建投放位置](using/offers/offer-library/creating-placements.md)
@@ -587,8 +589,8 @@ ht-degree: 94%
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + {#experience-decisioning}
-      + [Get started with Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + 决策(LA) {#experience-decisioning}
+      + [开始使用Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
       + API 参考{#api-reference}
          + 决策项{#decision-items}
             + [创建决策项](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -624,7 +626,7 @@ ht-degree: 94%
    + [使用模式](using/data/get-started-schemas.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
-      + [Time-to-live and streaming segmentation updates](using/data/datasets-ttl.md)
+      + [存留期和流式分段更新](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
