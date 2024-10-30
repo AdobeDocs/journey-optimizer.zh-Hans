@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '730'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,15 @@ ht-degree: 3%
 
    * **[!UICONTROL 入站号码]**：添加您的唯一入站号码或短代码。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号或短代码。
 
+   * **[!UICONTROL 自定义入站关键字]**：为特定操作（例如，折扣、优惠、注册）定义唯一关键字。 这些关键字将作为属性捕获并存储在配置文件中，使您能够触发历程中的流区段鉴别并提供自定义响应或操作。
+
+   * **[!UICONTROL 默认入站回复消息]**：输入在最终用户发送与定义的任何关键字都不匹配的入站SMS时发送的默认回复。
+
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击bin图标以删除您的API凭据。
+
+1. 要修改现有凭据，请找到所需的API凭据，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要更改。
 
 创建和配置API凭据后，现在需要为SMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
 
@@ -82,5 +90,9 @@ ht-degree: 3%
    * **[!UICONTROL 服务计划ID]**&#x200B;和&#x200B;**[!UICONTROL SMS API令牌]**：您的&#x200B;**[!UICONTROL 服务计划ID]**&#x200B;和&#x200B;**[!UICONTROL SMS API令牌]**&#x200B;位于API页面的SMS选项卡上。
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击bin图标以删除您的API凭据。
+
+1. 要修改现有凭据，请找到所需的API凭据，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要更改。
 
 创建和配置API凭据后，现在需要为MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)

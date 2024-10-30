@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 83%
@@ -75,7 +75,7 @@ ht-degree: 83%
 
 * 当您的数字资产无法通过 Web 浏览器或移动应用程序进行访问时，您可以考虑随时使用基于代码的体验，在这些情况下，您最好使用 [!DNL Journey Optimizer] [Web 渠道](../web/get-started-web.md){target="_blank"}或 [!DNL Journey Optimizer] [应用程序内消息传递](../in-app/get-started-in-app.md){target="_blank"}渠道。
 
-* 如果您的网站无法加载到 [Web 设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"}可视化编辑器中，或者您无法使用[浏览器扩展](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}进行 Web 渠道的可视化创作，则可以使用基于代码的渠道作为 [!DNL Journey Optimizer] Web 渠道的替代方案。
+* 如果您的网站无法加载到 [Web 设计器](../web/web-visual-editor.md){target="_blank"}可视化编辑器中，或者您无法使用[浏览器扩展](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"}进行 Web 渠道的可视化创作，则可以使用基于代码的渠道作为 [!DNL Journey Optimizer] Web 渠道的替代方案。
 
 * 如果您具有基于 API 的无头或服务器端实施，还可以使用基于代码的渠道来替代 [!DNL Journey Optimizer] Web 或应用程序内渠道。
 
@@ -85,9 +85,9 @@ ht-degree: 83%
 
 **Web**
 
-* 使用 [Web 设计器](../web/edit-web-content.md#work-with-web-designer){target="_blank"}可视编辑器编辑您的内容。
+* 使用 [Web 设计器](../web/web-visual-editor.md){target="_blank"}可视编辑器编辑您的内容。
 * 您需要在 Web 浏览器上安装 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 实施和 [Adobe Experience Cloud 可视化编辑帮助程序](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}扩展。[了解详情](../web/web-prerequisites.md){target="_blank"}
-* 通过 Web 渠道，您可以修改页面上的所有内容，并且有一个预定义列表，可用于进行更改。 [了解详情](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
+* 通过 Web 渠道，您可以修改页面上的所有内容，并且有一个预定义列表，可用于进行更改。 [了解详情](../web/web-visual-editor.md){target="_blank"}
 * 它易于设置，快捷方便。
 * 它是以营销人员为中心的。
 

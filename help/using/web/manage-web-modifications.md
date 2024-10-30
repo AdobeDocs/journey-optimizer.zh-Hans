@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 8%
 
 ---
@@ -36,17 +36,19 @@ ht-degree: 8%
 
    >[!CAUTION]
    >
-   >在删除操作时请务必谨慎，因为此操作可能影响后续操作。
+   >删除操作时请小心，因为此操作可能会影响后续操作。
+
+1. 如果您正在创作[单页应用程序](web-spa.md)，则可以将任何修改应用于其他视图。 [了解详情](web-spa.md#apply-modifications-views)
 
 1. 要同时删除多个修改，请单击&#x200B;**[!UICONTROL 修改]**&#x200B;窗格顶部的&#x200B;**[!UICONTROL 选择]**&#x200B;按钮，检查您选择的修改，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标。
 
    ![](assets/web-designer-modifications-select-delete.png)
 
-1. 使用&#x200B;**[!UICONTROL 修改]**&#x200B;窗格顶部的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮一次删除所有修改。
+1. 使用“**[!UICONTROL 修改]**”窗格顶部的“**[!UICONTROL 更多操作]**”按钮一次删除所有修改。
 
    ![](assets/web-designer-delete-modifications.png)
 
-1. 您还可以仅删除无效的修改，即由其他更改覆盖的更改。 例如，如果修改文本的颜色，然后删除该文本，则颜色修改将变得无效，因为该文本已不存在。
+1. 您也可以仅删除无效的修改，即被其他更改覆盖的更改。 例如，如果修改文本的颜色，然后删除该文本，则颜色修改将变得无效，因为该文本已不存在。
 
 1. 您可以使用屏幕右上角的&#x200B;**[!UICONTROL 撤消/重做]**&#x200B;按钮取消和重做操作。
 
@@ -56,7 +58,7 @@ ht-degree: 8%
 
 ## 从专用窗格中添加修改 {#add-modifications}
 
-使用Web设计器编辑页面时，您可以直接从&#x200B;**[!UICONTROL 修改]**&#x200B;窗格向内容添加新更改，而无需从Web设计器界面中选择组件并进行编辑。 请按照以下步骤操作。
+使用Web设计器编辑页面时，您可以直接从&#x200B;**[!UICONTROL 修改]**&#x200B;窗格向内容添加新的更改，而无需选择组件并从Web设计器界面进行编辑。 请按照以下步骤操作。
 
 1. 在&#x200B;**[!UICONTROL 修改]**&#x200B;窗格中，单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
 
@@ -89,7 +91,7 @@ ht-degree: 8%
 
    * **[!UICONTROL 设置内容]**：指定进入&#x200B;**[!UICONTROL CSS元素选择器]**&#x200B;字段标识的元素的内容。
 
-   * **[!UICONTROL 设置属性]**：指定要与当前CSS选择器关联的属性，以便该选择器也可以由此属性标识。 为此，请在&#x200B;**[!UICONTROL 属性名称]**&#x200B;字段中输入名称，并在&#x200B;**[!UICONTROL 内容]**&#x200B;字段中输入值。 如果属性已存在，则更新值；否则，将添加具有指定名称和值的新属性。
+   * **[!UICONTROL 设置属性]**：指定要与当前CSS选择器关联的属性，以便此选择器之后也可以由此属性标识。 为此，请在&#x200B;**[!UICONTROL 属性名称]**&#x200B;字段中输入名称，并在&#x200B;**[!UICONTROL 内容]**&#x200B;字段中输入值。 如果该属性已存在，则更新该值；否则，将使用指定的名称和值添加新属性。
 
      ![](assets/web-designer-add-modification-css-attribute.png)
 
@@ -102,7 +104,7 @@ ht-degree: 8%
 
 您可以使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型添加自定义代码。
 
-`<head>`元素是元数据（有关数据的数据）的容器，它位于`<html>`标记和`<body>`标记之间。 在这种情况下，代码不会等待主体或页面加载事件，而是在页面加载开始时执行。
+`<head>`元素是元数据（有关数据的数据）的容器，它位于`<html>`标记和`<body>`标记之间。 在这种情况下，代码不会等待正文或页面加载事件 — 它将在页面加载开始时执行。
 
 `<head>`元素通常用于将JavaScript或CSS代码添加到页面顶部。 用于后续可视化操作的选择器取决于此选项卡中添加的HTML元素。
 
@@ -118,15 +120,15 @@ ht-degree: 8%
    >
    >您只能将`<script>`和`<style>`元素添加到`<head>`部分。 添加`<div>`标记和其他元素可能会导致其余的`<head>`元素出现在`<body>`中。
 
-1. 单击&#x200B;**[!UICONTROL 高级编辑选项]**&#x200B;按钮。 个性化编辑器将打开。
+1. 单击&#x200B;**[!UICONTROL 高级编辑选项]**&#x200B;按钮。 此时将打开个性化编辑器。
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   您可以利用[!DNL Journey Optimizer]个性化编辑器及其所有个性化和创作功能。 [了解详情](../personalization/personalization-build-expressions.md)
+   您可以将[!DNL Journey Optimizer]个性化编辑器与其所有个性化和创作功能配合使用。 [了解详情](../personalization/personalization-build-expressions.md)
 
 #### 自定义代码示例 {#custom-code-examples}
 
-您可以使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型来：
+您可以使用&#x200B;**[!UICONTROL 页`<head>`]**&#x200B;修改类型执行以下操作：
 
 * 使用JavaScript内联或链接到外部JavaScript文件。
 
@@ -181,6 +183,6 @@ ht-degree: 8%
 
 +++ **对于影响同一URL的两个营销活动使用**[!UICONTROL &#x200B;页面&#x200B;`<head>`]**修改类型时，请务必小心。**
 
-如果您对两个影响同一URL的营销活动使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型，则JavaScript会从这两个营销活动注入到页面中。 [!DNL Journey Optimizer]自动确定已交付内容的顺序。 确保代码与放置无关。 由您来确保代码中没有冲突。
+如果您对两个影响同一URL的营销活动使用&#x200B;**[!UICONTROL 页面`<head>`]**&#x200B;修改类型，则JavaScript会从这两个营销活动注入到页面中。 [!DNL Journey Optimizer]自动确定所交付内容的顺序。 确保代码不依赖于位置。 由您来确保代码中没有冲突。
 
 +++

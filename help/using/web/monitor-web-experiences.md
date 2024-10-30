@@ -1,19 +1,19 @@
 ---
-title: 监测 Web 活动
-description: 了解如何在Journey Optimizer中监测Web活动
+title: 监测 Web 体验
+description: 了解如何在Journey Optimizer中监控Web体验
 feature: Web Channel, Reporting
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
 
 ---
 
-# 监测 Web 活动 {#monitor-web-experiences}
+# 监测 Web 体验 {#monitor-web-experiences}
 
 ## 检查Web报告 {#check-web-reports}
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 要进一步改进Web体验监控，您还可以跟踪网站任何特定元素的点击次数。 这样，您就可以在Web报表中显示对该元素的点击次数。 [了解如何操作](#use-click-tracing)
 
-## 使用点击跟踪 {#use-click-tracing}
+## 使用点击跟踪 {#use-click-tracking}
 
 Web设计器允许您选择网站的任何元素并跟踪对该元素的点击。
 

@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 5%
+source-wordcount: '485'
+ht-degree: 4%
 
 ---
 
@@ -54,6 +54,14 @@ ht-degree: 5%
 
    * **[!UICONTROL 入站编号]**：添加您的独特入站编号。 这允许您在不同沙盒中使用相同的API凭据，每个沙盒具有自己的入站编号。
 
+   * **[!UICONTROL 自定义入站关键字]**：为特定操作（例如，折扣、优惠、注册）定义唯一关键字。 这些关键字将作为属性捕获并存储在配置文件中，使您能够触发历程中的流区段鉴别并提供自定义响应或操作。
+
+   * **[!UICONTROL 默认入站回复消息]**：输入在最终用户发送与定义的任何关键字都不匹配的入站SMS时发送的默认回复。
+
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击bin图标以删除您的API凭据。
+
+1. 要修改现有凭据，请找到所需的API凭据，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要更改。
 
 创建和配置API凭据后，现在需要为SMS和MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)

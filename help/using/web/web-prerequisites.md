@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -80,7 +80,7 @@ ht-degree: 3%
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-现在，当在[!DNL Journey Optimizer] [Web设计器](edit-web-content.md#work-with-web-designer)中打开网站以进行创作时，会自动启用Adobe Experience Cloud可视化编辑帮助程序。
+现在，当在[!DNL Journey Optimizer] [Web设计器](web-visual-editor.md)中打开网站以进行创作时，会自动启用Adobe Experience Cloud可视化编辑帮助程序。
 
 该扩展没有任何条件设置，并且会自动处理所有设置，包括SameSite Cookie设置。
 
@@ -122,7 +122,7 @@ ht-degree: 3%
 
   ![](assets/web-aep-merge-policy.png)
 
-* 要对Journey Optimizer Web体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery保证**&#x200B;中的&#x200B;**Adobe Experience Platform**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
+* 要对Journey Optimizer Web体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery**&#x200B;中的&#x200B;**Adobe Experience Platform Assurance**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
 
   使用&#x200B;**Edge Delivery**&#x200B;插件可帮助您获得所需的见解，以便有效了解入站实施并排除其故障。
 

@@ -8,16 +8,191 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '4776'
+ht-degree: 99%
 
 ---
 
 # 2024 年版发行说明 {#release-notes-2024}
 
 本页列出了于 2024 年发布的 [!DNL Journey Optimizer] 功能和改进。
+
+## 2024 年 9 月版 {#24-9-rn}
+
+<!--
+>[!CAUTION]
+>
+>**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
+>
+-->
+
+**发行日期**：2024 年 9 月 24-26 日
+
+### 新功能 {#24-9-features}
+
+此版本引入了下方详述的新功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>适用于移动设备应用程序和网站的内容卡</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>内容卡是 Adobe Journey Optimizer 中新增的数字消息传送功能，可直接在移动应用和网站内提供个性化且引人入胜的内容。与传统推送通知不同，内容卡无缝集成到用户界面中，提供持续性的非侵入式更新，以增强用户交互和体验。</p>
+<p>此功能允许营销人员向用户展示相关的富媒体内容，从而提高参与度，并确保会看到重要消息而不会中断用户历程。</p>
+<p>有关更多信息，请参阅<a href="../content-card/get-started-content-card.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/content-card.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程和营销活动中的审批 (LA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，通过审批策略，您可以在 Journey Optimizer 中设置审批流程，从而使营销团队可以确保营销活动及历程在投入使用之前由相应的负责人审查和签署。</p>
+<p>目前，审批策略仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../test-approve/gs-approval.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/approval.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Email Content Locking</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer now allows you to lock content in email templates, either by locking the entire template or specific structures and component. This allows you to prevent unintentional edits or deletions, giving you greater control over template customization, and improving the efficiency and reliability of your email campaigns.</p>
+<p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的全局退出标准</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在历程级别定义退出标准。通过添加退出条件，您可以在事件发生后（例如：购买）或符合受众的条件时，让用户档案立即退出历程。这将阻止用户从历程收到任何进一步的通信。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-properties.md#exit-criteria">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI 助手内容加速器 </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>创建并个性化您的消息后，使用Journey Optimizer中的AI Assistant Content Accelerator将您的内容提升到一个新的水平。 现在，您可以使用AI Assistant尝试不同的主标题和图像，以优化消息的效果。 每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/ai-content.gif"/>
+<p>发布日期：2024 年 9 月 12 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>引导式渠道设置</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>“引导式渠道设置”让您能够在一个统一的体验中自动化并验证渠道设置，从而加快开始使用 Journey Optimizer 的过程。这一新的引导式设置简化了快速渠道配置，确保能够在 Experience Platform、Journey Optimizer 和数据收集中随时安装并使用所有必要的资源。这使营销、产品和数据工程团队能够快速开始创建营销活动和历程。</p>
+<p>有关更多信息，请参阅<a href="../configuration/set-mobile-config.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/guided-setup.gif"/>
+<p>发布日期：2024 年 9 月 3 日</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改进 {#24-9-improvements}
+
+此版本包含下方列出的改进。
+
+**受众** - 发布日期：2024 年 9 月 17 日
+
+**许可证使用情况** - 许可证使用情况仪表板现在显示“符合资格的用户档案”，而不是“符合资格的受众”。[了解详情](../audience/license-usage.md)
+
+**内容管理**
+
+您现在可以在沙盒中导出内容模板和片段。[了解详情](../configuration/copy-objects-to-sandbox.md)
+
+**历程**
+
+* **实时报告增强功能** - 实时报告可提供有关过去 24 小时内的历程绩效的深入见解。我们添加了新量度（已进入、已退出、已丢弃的用户档案和出错的用户档案）以增强此功能，以便您能直接从历程画布更深入地了解用户行为和表现。[了解详情](../building-journeys/report-journey.md)
+
+
+* （发布日期：9 月 10 日）**自动重试读取受众** - 现在，在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。[了解详情](../building-journeys/read-audience.md#retries)
+
+**电子邮件渠道**
+
+* **已发送的电子邮件和密件抄送中的邮件标头** - 已为所有电子邮件添加了新邮件标头。对于已发送的每封电子邮件及其对应的密件抄送电子邮件副本来说，此标头值都是唯一的。此外，此标头存储在消息和密件抄送反馈数据集中，允许协调密件抄送副本和相应的已发送电子邮件信息。[了解详情](../configuration/archiving-support.md#bcc-header)
+
+* **垃圾邮件评分** (GA) - 您现在可以在专用的&#x200B;**垃圾邮件报告**&#x200B;中检查您的垃圾邮件内容评分。通过 SpamAssassin，Adobe Journey Optimizer 现在可以测试您的电子邮件内容并为其评分，以检测 ISP 或邮箱提供商是否将其视为垃圾邮件。[了解详情](../content-management/spam-report.md)
+
+**短信渠道**
+
+* **编辑 API 凭据** - 您现在可以编辑短信 API 凭据中的设置，包括更新选择启用/禁用关键字和回复。
+
+**API**
+
+* **营销活动模拟 API** - 使用此 API 触发营销活动的校对作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
+
+* （发布日期：9 月 10 日）[Adobe Journey Optimizer API 文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在具备交互功能。直接从文档页面探索 API 端点，以获得即时反馈并加快您的技术实施。
+
+
+  所有 API 参考页面现在都有 **Try it（试试看）**&#x200B;功能，您可以使用它直接在文档网站页面上测试 API 调用。[获取所需的身份验证凭据](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}并开始使用该功能探索 API 端点。
+
+  使用此新功能来探索 API 端点的请求和响应，以获得即时反馈并加快您的技术实施。
+
+  >[!CAUTION]
+  >
+  >请注意，通过使用文档页面上的交互式 API 功能，您正在对端点进行真正的 API 调用。在试验生产沙盒时请记住这一点。
+
+**配置**
+
+* **IP 预热计划** - 此功能现在可供所有客户使用，包括已购买 Adobe **Healthcare Shield** 或 **Privacy and Security Shield** 附加产品的组织。[了解详情](../configuration/ip-warmup-gs.md)
+
+<!--
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.-->
+
 
 
 ## 2024 年 8 月版 {#8-2024}

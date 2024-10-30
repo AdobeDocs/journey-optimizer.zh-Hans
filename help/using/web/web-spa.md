@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -41,13 +41,13 @@ ht-degree: 16%
 
 在Adobe Experience Platform Web SDK实施中完成SPA设置后，您需要浏览要应用修改的网站的所有视图。 请按照以下步骤操作。
 
-1. [创建Web营销活动](create-web.md)并访问[Web设计器](edit-web-content.md)。
+1. [创建Web历程或营销活动](create-web.md)并访问[Web设计器](web-visual-editor.md)。
 
    您当前所在的视图将显示在左上方。
 
    ![](assets/web-designer-view-home.png)
 
-1. 切换到&#x200B;**[!UICONTROL 浏览]**&#x200B;模式。 [了解详情](../web/edit-web-content.md#browse-mode)
+1. 切换到&#x200B;**[!UICONTROL 浏览]**&#x200B;模式。 [了解详情](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 

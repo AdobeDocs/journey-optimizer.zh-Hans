@@ -6,9 +6,10 @@ description: 了解如何配置您的环境，以通过自定义提供商使用J
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
+exl-id: fd713864-96b9-4687-91bd-84e3533273ff
+source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '283'
 ht-degree: 3%
 
 ---
@@ -50,6 +51,10 @@ ht-degree: 3%
      确保有效负载包括`{{toNumber}}`、`{{fromNumber}}`、`{{message}}`。
 
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击bin图标以删除您的API凭据。
+
+1. 要修改现有凭据，请找到所需的API凭据，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要更改。
 
 创建和配置API凭据后，现在需要为SMS消息创建渠道平面。 [了解详情](sms-configuration-surface.md)
 

@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -71,3 +71,91 @@ ht-degree: 2%
 * **[!UICONTROL 独特显示]**：体验打开的次数，一个配置文件的多个交互未考虑在内。
 
 +++
+
+## 决策KPI {#decisioning-kpis}
+
+![](assets/cja-decisioning-kpis.png)
+
+**决策KPI**&#x200B;提供关于访客与您的体验的参与度的关键洞察，包括以下量度：
+
+* **[!UICONTROL 项目总数]**：在指定时间段内属于个性化体验或决策流程的个人项目总数。
+
+* **[!UICONTROL 总显示次数]**：
+
+* **[!UICONTROL 总点击次数]**：用户在指定时间段内点击项、链接、产品或其他交互元素的总次数。
+
+* **[!UICONTROL 回退率]**：未限定选择策略的实例百分比，导致显示通用选项或不太具体的选项。
+
+## 参与漏斗 {#engagement-funnel}
+
+![](assets/cja-engagement-funnel.png)
+
+**[!UICONTROL 参与漏斗]**&#x200B;表通过评估漏斗的每个阶段驱动用户交互的有效性来监控个性化体验的性能。
+
+* **[!UICONTROL 显示]**：向不同接触点的用户显示或展示个性化体验的总次数。
+
+* **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
+
+## 按点进率显示的热门决策项目 {#top-decision}
+
+![](assets/cja-top-decisions-ctr.png)
+
+按CTR ]**列出的**[!UICONTROL &#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+
+* **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
+
+## 按选择策略划分的参与漏斗 {#engagement-funnel-selection}
+
+![](assets/cja-engagement-funnel-selection.png)
+
+**[!UICONTROL 按选择策略划分的参与漏斗]**&#x200B;表可帮助您监视和分析不同的选择策略如何有效地吸引具有个性化体验的用户。
+
+* **[!UICONTROL 显示]**：向不同接触点的用户显示或展示个性化体验的总次数。
+
+* **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
+
+## 决策项目绩效 {#decision-items-performance}
+
+![](assets/cja-decisioning-item-performance.png)
+
+**[!UICONTROL 决策项目性能]**&#x200B;表评估每个项目在吸引用户并推动所需操作（如购买、点击或其他响应）方面的性能。
+
+* **[!UICONTROL 显示]**：向不同接触点的用户显示或展示个性化体验的总次数。
+
+* **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
+
+## 排名策略 {#ranking-strategy}
+
+>[!NOTE]
+>
+>**[!UICONTROL 排名策略]**&#x200B;表仅在将AI模型合并到营销活动中时可用。 [了解详情](../experience-decisioning/ranking.md)
+
+![](assets/cja-decision-ranking-strategy.png)
+
+**[!UICONTROL 排名策略]**&#x200B;表提供了对比较两种流量类型的个性化体验中AI驱动排名模型性能的分析：
+
+* **模型驱动**：用户接收由AI模型排名的内容，该排名针对相关性和参与度进行了优化。
+
+* **维持**：用户看到内容的通用版本，作为控制组衡量AI模型的有效性。
+
+显示的关键量度包括：
+
+* **[!UICONTROL 显示]**：向不同接触点的用户显示或展示个性化体验的总次数。
+
+* **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
+
+* **[!UICONTROL 转化率]**：导致用户操作（例如点击）的显示百分比，指示模型成功吸引用户。
+
+## 维持和模型驱动流量的转化率 {#conversion-rate}
+
+>[!NOTE]
+>
+>仅当将AI模型合并到营销活动中时，维持&#x200B;**[!UICONTROL 转化率和模型驱动流量]**&#x200B;图才可用。 [了解详情](../experience-decisioning/ranking.md)
+
+![](assets/cja-decisioning-conversion.png)
+
+保持和模型驱动流量的&#x200B;**[!UICONTROL 转化率]**&#x200B;图表显示两种类型流量随时间变化的转化率：
+
+* **模型驱动**：用户接收由AI模型排名的内容，该排名针对相关性和参与度进行了优化。
+
+* **维持**：用户看到内容的通用版本，作为控制组衡量AI模型的有效性。
