@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 8%
+source-wordcount: '571'
+ht-degree: 9%
 
 ---
 
@@ -56,18 +56,18 @@ ht-degree: 8%
 
 1. 根据需要构建条件规则。 为此，请将左侧菜单中的所需属性拖放并排列到画布中。
 
-将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅[此文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)。
+   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅[此文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)。
 
-    ![](assets/conditions-create.png)
-    
-    属性组织为三个选项卡：
-    
-    * **[!UICONTROL 配置文件]**：
-    * **[!UICONTROL 受众]**列出了所有受众属性（即状态、版本等） 对于[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)，
-    * **[!UICONTROL XDM个人配置文件]**列出了与Adobe Experience Platform中定义的[体验数据模型(XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)关联的所有配置文件属性。
-    * **[!UICONTROL 上下文]**：在历程中使用消息时，可通过此选项卡使用上下文历程字段。
-    * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)。
-中创建的区段定义生成的所有受众
+   ![](assets/conditions-create.png)
+
+   属性分为三个选项卡：
+
+   * **[!UICONTROL 配置文件]**：
+      * **[!UICONTROL 受众]**&#x200B;列出了所有受众属性（即状态、版本等） 对于[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)，
+      * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)关联的所有配置文件属性。
+   * **[!UICONTROL 上下文]**：在历程中使用消息时，可通过此选项卡使用上下文历程字段。
+   * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)中创建的区段定义生成的所有受众。
+
 1. 条件规则准备就绪后，可将其添加到消息以创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
 
    您还可以保存规则以便进一步重复使用。 [了解如何保存条件](#save)
