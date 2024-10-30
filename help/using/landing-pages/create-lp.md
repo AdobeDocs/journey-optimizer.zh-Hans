@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1705'
 ht-degree: 21%
 
 ---
@@ -60,8 +60,6 @@ ht-degree: 21%
 >id="ajo_lp_create"
 >title="定义和配置您的登陆页面"
 >abstract="要创建登陆页面，您需要选择一个预设，然后配置主页面和子页面，最后在发布之前测试您的页面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="发布登陆页面"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
