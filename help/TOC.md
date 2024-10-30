@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2161'
 ht-degree: 93%
 
 ---
@@ -175,13 +175,12 @@ ht-degree: 93%
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
++ 冲突管理和优先顺序{#conflict-prioritization}
+   + [冲突管理和优先顺序入门](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
+   + [分配优先级分数](using/conflict-prioritization/priority-scores.md)
+   + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
 + 测试和审批{#test}
-   + [冲突管理和优先级](using/test-approve/conflict-prioritization.md)
-   + 冲突管理和优先顺序{#conflict-prioritization}
-      + [冲突管理和优先顺序入门](using/test-approve/gs-conflict-prioritization.md)
-      + [识别潜在冲突](using/test-approve/conflicts.md)
-      + [分配优先级分数](using/test-approve/priority-scores.md)
-      + [历程上限和仲裁](using/test-approve/journey-capping.md)
    + 预览和测试内容{#preview-test}
       + [使用示例输入数据测试您的内容](using/test-approve/simulate-sample-input.md)
       + [预览和测试入门](using/content-management/preview-test.md)
@@ -658,7 +657,7 @@ ht-degree: 93%
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置业务规则](using/configuration/frequency-rules.md)
-   + [使用规则集](using/configuration/rule-sets.md)
+   + [使用规则集(LA)](using/configuration/rule-sets.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成{#external-systems}

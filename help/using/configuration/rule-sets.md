@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用规则集
+title: 使用规则集(LA)
 description: 了解如何创建和应用规则集
 feature: Rules
 topic: Content Management
@@ -12,9 +12,9 @@ badge: label="Beta 版"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 87e2308b2d6a9aeb3cbc0ef4bb28ea7aeb3b869a
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: '1988'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->规则集当前仅作为测试版提供给选定用户。 请联系您的Adobe代表以将其纳入Beta。
+>规则集当前以有限可用性提供给选定的客户组。 请注意，此功能将在未来逐步向更多用户推出。 如果您有兴趣加入轮候表，请联系您的客户团队。
 
 ## 规则集入门 {#gs}
 
@@ -167,7 +167,7 @@ ht-degree: 10%
    * **[!UICONTROL 历程进入次数上限]**：限制配置文件在给定时间段内进入历程的条目数。
    * **[!UICONTROL 历程并发上限]**：限制可同时注册用户档案的历程数。
 
-1. 有关如何配置旅程上限规则的详细信息，请参阅[历程上限和仲裁](../test-approve/journey-capping.md)部分。
+1. 有关如何配置旅程上限规则的详细信息，请参阅[历程上限和仲裁](../conflict-prioritization/journey-capping.md)部分。
 
 +++
 
@@ -306,7 +306,7 @@ In this scenario, an individual profile:
 
 要将上限规则应用于历程，请访问历程并打开其属性。 在&#x200B;**[!UICONTROL 上限规则]**&#x200B;下拉列表中，选择相关的规则集。
 
-![](../test-approve/assets/journey-capping-apply.png)
+![](../conflict-prioritization//assets/journey-capping-apply.png)
 
 >[!IMPORTANT]
 >

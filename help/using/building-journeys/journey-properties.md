@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 16%
+source-wordcount: '2233'
+ht-degree: 18%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 16%
 * 在历程活动中定义[超时持续时间](#timeout)（仅适用于管理员用户），
 * 选择历程和配置文件[时区](#timezone)
 * 将Adobe Experience Platform统一标记分配给您的历程，以轻松对其进行分类并改进营销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
+* 使用[冲突管理工具](#conflict)监视冲突并设置历程优先级。
 
 ![](assets/journey32.png)
 
@@ -45,7 +46,6 @@ ht-degree: 16%
 **复制技术详细信息**&#x200B;允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 已复制以下信息：`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
 在本页](expression/journey-properties.md)中了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
-
 
 ## 入口和重入 {#entrance}
 
@@ -299,3 +299,14 @@ ht-degree: 16%
 * 退出条件仅在草稿状态下定义
 * 事件和基于事件的退出标准之间的历程命名空间一致性
 
+## 冲突管理 {#conflict}
+
+历程属性中的&#x200B;**[!UICONTROL 冲突管理]**&#x200B;部分允许您监视冲突并区分历程的优先级。 您可以：
+
+* 应用&#x200B;**规则集**&#x200B;以根据上限规则将此历程排除到部分受众。 [了解如何使用规则集](../configuration/rule-sets.md)
+
+* 为历程分配&#x200B;**优先级得分**，范围为0到100。 数字越大，表示优先级越高。此处插入的优先级值由此历程中包含的任何入站操作（例如应用程序内）继承。[了解如何使用优先级得分](../conflict-prioritization/priority-scores.md)
+
+  对于在其他营销活动或历程中使用相同入站渠道配置的情况，系统会向收件人显示优先级分数最高的入站操作。如果多个历程或营销活动具有相同的分数，则会选择最近修改的元素。
+
+* **查看与其他历程、营销活动或渠道配置的冲突**。 如果您希望识别受众、开始和结束日期、渠道配置、渠道或规则集上的重叠，则可以在此处查看潜在冲突。 [了解如何识别历程中的潜在冲突](../conflict-prioritization/conflicts.md)
