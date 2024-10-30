@@ -5,9 +5,9 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
+source-git-commit: 23ce5d1f2bafcb3ef37e2351efb8edc6da1ce805
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,14 @@ ht-degree: 0%
 
    ![](assets/web-non-visual-editor.png)
 
-1. 选择修改类型：
+1. 在下拉列表中，选择修改类型。
+
+   有两种类型可用。 它们有不同的选择。 有关更多详细信息，请参阅下面的链接：
 
    * **[!UICONTROL CSS选择器]** - [了解更多](manage-web-modifications.md#css-selector)
-   * **[!UICONTROL 页面`<Head>`]** - [了解更多](manage-web-modifications.md#page-head)
+   * **[!UICONTROL 页面`<head>`]** - [了解更多](manage-web-modifications.md#page-head)
 
-1. 单击&#x200B;**[!UICONTROL 高级编辑选项]**&#x200B;按钮。 个性化编辑器将打开。
+1. 单击&#x200B;**[!UICONTROL 添加个性化]**&#x200B;按钮。 个性化编辑器将打开。
 
    您可以利用[!DNL Journey Optimizer]个性化编辑器及其所有个性化和创作功能。 [了解详情](../personalization/personalization-build-expressions.md)
 
@@ -47,7 +49,7 @@ ht-degree: 0%
 
 1. 您的第一次修改显示在&#x200B;**[!UICONTROL 修改]**&#x200B;窗格的顶部。
 
-   单击修改旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 信息]**&#x200B;以显示其详细信息。 您还可以&#x200B;**[!UICONTROL 编辑]**&#x200B;或&#x200B;**[!UICONTROL 删除]**&#x200B;修改。
+   单击修改旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 信息]**&#x200B;以显示其详细信息。 如果需要，您还可以&#x200B;**[!UICONTROL 删除修改]**。
 
    ![](assets/web-non-visual-editor-ex-more.png)
 
@@ -55,19 +57,18 @@ ht-degree: 0%
    >
    >**[!UICONTROL 修改]**&#x200B;窗格与使用[Web设计器](web-visual-editor.md)时相同。 您可以对其执行的所有操作在[此部分](manage-web-modifications.md#use-modifications-pane)中都有详细说明。
 
-1. 单击&#x200B;**[!UICONTROL 修改]**&#x200B;窗格顶部的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮以&#x200B;**[!UICONTROL 添加修改]**，并重复上述步骤。 [了解详情](manage-web-modifications.md#add-modifications)
-
-   ![](assets/web-non-visual-editor-more.png)
-
-1. 选择屏幕左上方的箭头以返回历程或营销策划版屏幕。 您可以查看当前更改数量并添加更多修改。
-
-   ![](assets/web-campaign-modifications.png)
-
-   如果需要，您还可以切换到Web设计器。 您的所有修改都将被保留。
+1. 单击&#x200B;**[!UICONTROL 修改]**&#x200B;窗格顶部的&#x200B;**[!UICONTROL 添加]**&#x200B;按钮以添加其他修改，并重复上述步骤。
 
 
-1. 您可以选择网站的任何元素并跟踪对该元素的点击。 要启用点击跟踪并定义要跟踪的操作，请单击左边栏上的第二个图标，如下所示：
+1. 此外，您还可以选择网站的任何元素并跟踪对该元素的点击。 要启用点击跟踪并定义要跟踪的操作，请单击左边栏上的第二个图标，如下所示：
 
    ![](assets/web-campaign-click.png)
 
    使用&#x200B;**添加组件**&#x200B;按钮选择要跟踪的新操作。 在[本节](monitor-web-experiences.md#use-click-tracking)中了解有关点击跟踪用法的更多信息。
+
+
+1. 单击屏幕左上方的箭头以浏览回历程或营销策划版屏幕。 您可以查看当前更改数量并添加更多修改。
+
+   ![](assets/web-campaign-modifications.png)
+
+   如果需要，您还可以切换到Web设计器。 您的所有修改都将被保留。
