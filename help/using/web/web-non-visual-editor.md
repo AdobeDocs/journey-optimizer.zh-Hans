@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 6f517ca209ae992f8daf3b285ccabebac100081b
+source-git-commit: 59fae238326186092a29d4a451655efabaabb4b2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 1%
    如果需要，您还可以切换到Web设计器。 您的所有修改都将被保留。
 
 
-1. 您可以启用点击跟踪，然后从左边栏上的第二个图标定义要跟踪的操作，如下所示：
+1. 您可以选择网站的任何元素并跟踪对该元素的点击。 要启用点击跟踪并定义要跟踪的操作，请单击左边栏上的第二个图标，如下所示：
 
    ![](assets/web-campaign-click.png)
 
-   单击&#x200B;**添加组件**&#x200B;按钮以选择要跟踪的新操作。
+   使用&#x200B;**添加组件**&#x200B;按钮选择要跟踪的新操作。 在[本节](monitor-web-experiences.md#use-click-tracking)中了解有关点击跟踪用法的更多信息。
