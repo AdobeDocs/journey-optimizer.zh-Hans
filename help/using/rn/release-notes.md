@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 850aacd1873a63b6ff2010f097655244b9dea027
+source-git-commit: 4de613f38865a3b4f177ce809e1e051f9211e86e
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 39%
@@ -280,7 +280,7 @@ ht-degree: 39%
 
 **短信渠道**
 
-* 您现在可以编辑或删除SMS API渠道配置。
+* 您现在可以编辑或删除SMS API渠道配置。 [了解详情](../sms/sms-configuration.md)
 
 * 已引入以下增强功能，以通过Infobip和Sinch改善您的短信消息传送功能：
 
@@ -317,7 +317,7 @@ ht-degree: 39%
 
 **报告**
 
-* **Experience Decisioning报告**&#x200B;现已可用，可提供关于访客如何与您的体验进行交互的基本见解。 [了解详情](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **决策报告**&#x200B;现已可用，可提供关于访客如何与您的体验进行交互的基本见解。 [了解详情](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **数据治理和同意策略** - 发布日期：2024 年 10 月 7 日
 
@@ -347,4 +347,4 @@ ht-degree: 39%
 
 <!--* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) users can now choose custom models to optimize on when setting up an AI model in Decisioning (formerly known as Experience Decisioning). This allows you, for example, to optimize on a custom "purchases" table rather than defined constraints such as clickthrough rate."-->
 
-* 在使用Experience Decisioning将决策策略添加到基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项目。 此外，您现在可以选择多个备用选件。 这可保证返回一定数量的决策项目。 [了解详情](../experience-decisioning/create-decision.md)
+* 将决策策略添加到具有决策功能的基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项目。 此外，您现在可以选择多个备用选件。 这可保证返回一定数量的决策项目。 [了解详情](../experience-decisioning/create-decision.md)
