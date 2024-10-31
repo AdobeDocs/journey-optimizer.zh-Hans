@@ -6,9 +6,9 @@ description: 了解如何在电子邮件模板中锁定内容。
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 38aaa3005e72a8300cef0e28a6fecd9f5d06c1f1
+source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1269'
 ht-degree: 7%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 7%
 
 Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->具有创建内容模板权限的用户可以启用内容锁定。
+>内容锁定是作者适用的编辑器级别功能，并不保证在通过API导入或创建内容时不会编辑内容。
 
 可在&#x200B;**结构**&#x200B;级别或&#x200B;**组件**&#x200B;级别应用内容锁定。 以下是锁定模板中的内容时在结构和组件级别应用的主要原则。
 
@@ -59,6 +59,10 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
    * 可以将各个内容组件锁定在该结构内。
    * 默认情况下，如果组件已锁定，或者选择了“仅可编辑的内容锁定”，则无法删除组件。 您可以通过启用“允许删除”选项来覆盖此限制。
+
+>[!AVAILABILITY]
+>
+>具有创建内容模板权限的用户可以启用内容锁定。
 
 ## 锁定电子邮件模板 {#define}
 
