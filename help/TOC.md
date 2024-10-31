@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 93%
@@ -182,12 +182,12 @@ ht-degree: 93%
    + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
 + 测试和审批{#test}
    + 预览和测试内容{#preview-test}
-      + [使用示例输入数据测试您的内容](using/test-approve/simulate-sample-input.md)
       + [预览和测试入门](using/content-management/preview-test.md)
       + [选择测试用户档案](using/content-management/test-profiles.md)
       + [预览您的内容](using/content-management/preview.md)
       + [发送电子邮件校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
+      + [使用示例输入数据测试内容(Beta)](using/test-approve/simulate-sample-input.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
    + 审批历程和营销活动{#approve}
       + [审批入门](using/test-approve/gs-approval.md)
