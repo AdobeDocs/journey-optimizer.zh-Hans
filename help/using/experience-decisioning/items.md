@@ -1,6 +1,6 @@
 ---
 title: 决策项
-description: Learn how to work with decision items
+description: 了解如何使用决策项
 feature: Experience Decisioning
 topic: Integrations
 role: User
@@ -41,12 +41,12 @@ ht-degree: 15%
 >abstract="自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。在决策项的目录架构中创建它们。只有将至少一个自定义属性添加到目录架构，才显示此部分。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
-Start by defining the decision item&#39;s standard and custom attributes :
+首先定义决策项的标准和自定义属性：
 
 ![](assets/item-attributes.png)
 
-1. Provide a name and a description.
-1. Specify start and end dates. The item will only be considered by the decisioning engine within these dates.
+1. 提供名称和描述。
+1. 指定开始日期和结束日期。 在此类日期内，项目仅由决策引擎考虑。
 1. 设置决策项的&#x200B;**[!UICONTROL 优先级]**（如果配置文件符合多个项的条件）。 较高的优先级使该项优先于其他项。
 1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
@@ -71,11 +71,11 @@ Start by defining the decision item&#39;s standard and custom attributes :
 
 +++使用受众与决策规则
 
-Basically, the output of an audience is a list of profiles, whereas a decision rule is a function executed on demand against a single profile during the decisioning process.
+基本上，受众的输出是一个用户档案列表，而决策规则是在决策过程中根据请求对单个用户档案执行的函数。
 
-* **** However, Offer Management does not recompute the audience, which may not be up-to-date when presenting the offer.
+* **受众**：一方面，受众是一组Adobe Experience Platform配置文件，它们根据配置文件属性和体验事件与特定逻辑匹配。 但是，选件管理不会重新计算受众，它在呈现选件时可能不是最新的。
 
-* **** Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
+* **决策规则**：另一方面，决策规则基于Adobe Experience Platform中的可用数据，并确定可向谁显示优惠。 在给定投放位置的优惠或决策中选择优惠后，每次做出决策时都会执行规则，从而确保每个用户档案都获得最新和最佳优惠。
 
 +++
 
@@ -91,9 +91,9 @@ Basically, the output of an audience is a list of profiles, whereas a decision r
 >
 >当规则参数包含不在配置文件中的数据（如上下文数据）时，配置文件估计不可用。 例如，资格规则要求当前天气为≥80度。
 
-## Set capping rules {#capping}
+## 设置上限规则 {#capping}
 
-Capping is used as a constraint to define the maximum number of times an offer can be presented. 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
+上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。 您最多可以为给定决策项创建10个上限。
 
 ![](assets/item-capping.png)
 
@@ -106,10 +106,10 @@ Capping is used as a constraint to define the maximum number of times an offer c
 
 1. 定义将考虑哪个&#x200B;**[!UICONTROL 上限事件]**&#x200B;以增加计数器。
 
-   * ****
-   * ****
-   * ****
-   * ****&#x200B;例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
+   * **[!UICONTROL 决策事件]**（默认值）：可显示优惠的最大次数。
+   * **[!UICONTROL 展示]** （仅限入站渠道）：可以向用户显示优惠的最大次数。
+   * **[!UICONTROL 点击次数]**：用户可以点击决策项的最大次数。
+   * **[!UICONTROL 自定义事件]**：您可以定义一个自定义事件，用于限制发送该项的次数。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Capping is used as a constraint to define the maximum number of times an offer c
 
 1. 在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中，根据所选上限类型，指定可为所有用户或每个用户档案显示选件的次数。 数字必须是大于0的整数。
 
-   For example, you defined a custom capping event such as the number of checkouts is taken into account. 如果您在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中输入10，则结账10次后将不再发送任何选件。
+   例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中输入10，则结账10次后将不再发送任何选件。
 
 1. 在&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;下拉列表中，设置重置上限计数器的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
 
@@ -135,13 +135,13 @@ Capping is used as a constraint to define the maximum number of times an offer c
    >
    >发布决策项目后，您将无法更改为该频率选择的时间段（每月、每周或每日）。 如果项目具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态并且之前从未发布并启用了频率封顶，您仍可以编辑频率封顶。
 
-1. **** You can create up to 10 rules for a single decision item. ****
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认创建上限规则。 您最多可以为单个决策项目创建10个规则。 为此，请单击&#x200B;**[!UICONTROL 创建上限]**&#x200B;按钮并重复上述步骤。
 
    ![](assets/item-capping-rules.png)
 
-1. ****
+1. 定义决策项的资格和上限规则后，单击&#x200B;**[!UICONTROL 下一步]**&#x200B;以查看并保存该项。
 
-1. ****&#x200B;当它准备好呈现给配置文件时，单击省略号按钮并选择&#x200B;**[!UICONTROL 批准]**。
+1. 决策项目现在显示在列表中，状态为&#x200B;**[!UICONTROL 草稿]**。 当它准备好呈现给配置文件时，单击省略号按钮并选择&#x200B;**[!UICONTROL 批准]**。
 
    ![](assets/item-approve.png)
 
@@ -163,6 +163,6 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >删除后，无法再访问决策项目及其内容。 此操作无法撤消。 如果决策项用在收藏集或决策中，则无法删除该决策项。 You must remove the decision item from any objects first.
+  >删除后，无法再访问决策项目及其内容。 此操作无法撤消。 如果决策项用在收藏集或决策中，则无法删除该决策项。 必须先从任何对象中删除决策项。
 
-* ********&#x200B;该决策项仍然可以从列表中获得，但您不能将其状态设置回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已批准]**。 You can only duplicate or delete it.
+* **[!UICONTROL 存档]**：将决策项状态设置为&#x200B;**[!UICONTROL 已存档]**。 该决策项仍然可以从列表中获得，但您不能将其状态设置回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已批准]**。 您只能复制或删除它。

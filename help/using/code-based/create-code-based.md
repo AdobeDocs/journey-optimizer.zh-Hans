@@ -51,23 +51,23 @@ ht-degree: 14%
 
    您还可以使用现有内容模板作为代码内容的基础。 请注意，根据预先选择的渠道配置，可供选择的模板将范围限定为HTML或JSON。 [了解如何使用内容模板](../content-management/use-content-templates.md)
 
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [了解详情](../building-journeys/about-journey-activities.md)
+1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
-1. Once your code-base experience is ready, finalize the configuration and publish your journey to activate it. [了解详情](../building-journeys/publishing-the-journey.md)
+1. 一旦您的代码库体验准备就绪，即可完成配置并发布历程以激活它。 [了解详情](../building-journeys/publishing-the-journey.md)
 
-[](../building-journeys/journey-gs.md)
+有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
 >[!TAB 创建基于代码的体验活动]
 
-****
+要通过营销活动开始构建&#x200B;**基于代码的体验**，请执行以下步骤。
 
-1. Create a campaign. [了解详情](../campaigns/create-campaign.md)
+1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
 
-1. Select the type of campaign that you want to execute
+1. 选择要执行的营销活动类型
 
-   * ******** They are configured and executed from the user interface.
+   * **[!UICONTROL 已计划 — 营销]**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送&#x200B;**营销**&#x200B;消息。 它们从用户界面配置和执行。
 
-   * **** API触发的营销活动旨在发送&#x200B;**营销**&#x200B;或&#x200B;**事务性**&#x200B;消息，即，在个人执行的操作（密码重置、购物车购买等）之后发送的消息。 [](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送&#x200B;**营销**&#x200B;或&#x200B;**事务性**&#x200B;消息，即，在个人执行的操作（密码重置、购物车购买等）之后发送的消息。 [了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
 
 1. 完成步骤以创建营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。 有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
@@ -77,13 +77,13 @@ ht-degree: 14%
 
    ![](assets/code-based-campaign-surface.png)
 
-1. Edit your content as desired using the personalization editor. [了解详情](#edit-code)
+1. 使用个性化编辑器，根据需要编辑您的内容。 [了解详情](#edit-code)
 
-   You can also use an existing content template as a basis for your code content. Note that the templates available to choose are scoped to either HTML or JSON based on the channel configuration that has been chosen beforehand. [](../content-management/use-content-templates.md)
+   您还可以使用现有内容模板作为代码内容的基础。 请注意，根据预先选择的渠道配置，可供选择的模板将范围限定为HTML或JSON。 [了解如何使用内容模板](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-[](../campaigns/get-started-with-campaigns.md)
+有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
 >[!ENDTABS]
 
@@ -113,15 +113,15 @@ ht-degree: 14%
 
 1. 您可以根据需要添加HTML或JSON表达式片段。 [了解如何操作](../personalization/use-expression-fragments.md)
 
-   You can also save part of your code content as fragment. [了解如何操作](../content-management/fragments.md#save-as-expression-fragment)
+   您还可以将部分代码内容另存为片段。 [了解如何操作](../content-management/fragments.md#save-as-expression-fragment)
 
-1. With code-based experiences, you can use the Decisioning feature. ********[了解详情](../experience-decisioning/create-decision.md)
+1. 通过基于代码的体验，您可以使用“决策”功能。 从左栏中选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。 [了解详情](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
    >[!NOTE]
    >
-   >Decisioning is currently only available for a set of organizations (Limited Availability). 要获得访问权限，请与 Adobe 代表联系。
+   >Decisioning当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以确认更改。
@@ -173,33 +173,33 @@ ht-degree: 14%
 >title="刷新预览链接以反映当前视图"
 >abstract="设备上的预览将显示您创建或刷新预览链接时的内容。如果您修改了内容或选择了不同的测试轮廓或处理，请刷新预览以使其反映当前视图。"
 
-When building code-based experiences for web pages or mobile apps, you can preview your personalized experiences right on your browser or on your mobile devices, in order to see how these experiences look on real devices.
+为网页或移动应用程序构建基于代码的体验时，您可以直接在浏览器或移动设备上预览个性化体验，以了解这些体验在实际设备上的外观。
 
 >[!WARNING]
 >
->[](../experience-decisioning/create-decision.md)[](../personalization/personalization-build-expressions.md)
+>使用[决策策略](../experience-decisioning/create-decision.md)或[个性化](../personalization/personalization-build-expressions.md)上下文属性时，设备上预览不可用。
 
-1. ********[](code-based-configuration.md#create-code-based-configuration)
+1. 在&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕中，单击&#x200B;**[!UICONTROL 打开预览选项]**&#x200B;按钮。 预览选项取决于[基于代码的配置](code-based-configuration.md#create-code-based-configuration)中选择的平台。
 
-1. [](code-based-configuration.md#web)****
+1. 如果您在基于代码的配置中使用[Web平台](code-based-configuration.md#web)，则会使用为当前渠道配置输入的URL预填充&#x200B;**[!UICONTROL 设备预览URL]**&#x200B;只读字段。
 
    ![](assets/preview-on-device-web.png)
 
-   You can either:
+   您可以：
 
-   * **** You can also share the link with your team and stakeholders, who can preview the new experience in any browser before the changes go live.
+   * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并将链接粘贴到浏览器选项卡中。 您还可以与团队和利益相关者共享链接，利益相关者可以在更改生效之前在任何浏览器中预览新体验。
 
-   * ****
+   * 单击&#x200B;**[!UICONTROL 在新标签页中打开]**&#x200B;以在当前浏览器中打开链接。
 
-   * Scan the QR code with your mobile device to open the preview link on a mobile browser.
+   * 使用移动设备扫描二维码以在移动设备浏览器中打开预览链接。
 
-1. [](code-based-configuration.md#mobile)********
+1. 如果您在基于代码的配置中使用[Mobile Platforms](code-based-configuration.md#mobile) (iOS / Android)，则&#x200B;**[!UICONTROL Deeplink]**&#x200B;只读字段会使用在所选平台的渠道配置中输入的&#x200B;**[!UICONTROL 预览URL]**&#x200B;值预填充。
 
-   ******[!DNL Android]**
+   在&#x200B;**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!DNL Android]**&#x200B;选项卡之间切换以预览您所选平台的体验。
 
    ![](assets/preview-on-device-mobile.png)
 
-   You can either:
+   您可以：
 
    * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
 
@@ -209,7 +209,7 @@ When building code-based experiences for web pages or mobile apps, you can previ
      >
      >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
 
-1. [](../content-management/content-experiment.md)
+1. 为选定的测试配置文件生成预览链接，如果您在历程或营销活动中使用[内容试验](../content-management/content-experiment.md)，则为选定的处理生成预览链接。
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
@@ -217,25 +217,25 @@ When building code-based experiences for web pages or mobile apps, you can previ
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   When updating the content, or selecting a different test profile or treatment, the preview link is automatically refreshed. You can copy the link into different browser tabs, and compare the experiences.
+   更新内容或选择其他测试用户档案或治疗时，预览链接会自动刷新。 您可以将链接复制到不同的浏览器选项卡中，并比较体验。
 
-## Make your code-based experience live {#code-based-experience-live}
+## 让基于代码的体验上线 {#code-based-experience-live}
 
 >[!IMPORTANT]
 >
-> If your campaign is subject to an approval policy, you will need to request approval in order to be able to activate your code-based experiences. [了解详情](../test-approve/gs-approval.md)
+> 如果您的营销活动受批准政策的约束，则需要请求批准才能激活基于代码的体验。 [了解详情](../test-approve/gs-approval.md)
 
-[](#edit-code)
+定义基于代码的体验并根据需要使用[基于代码的编辑器](#edit-code)编辑内容后，您可以激活历程或营销活动以使更改对受众可见。
 
-You can also preview your code-based experience content before making it live. [了解详情](#test-code-based-experience)
+您还可以在基于代码的体验内容上线之前对其进行预览。 [了解详情](#test-code-based-experience)
 
 >[!NOTE]
 >
->If you activate a code-based journey/campaign impacting the same pages as another journey or campaign which is already live, all the changes will be applied to your content.
+>如果您激活基于代码的历程/营销活动，影响的页面与另一个已上线的历程或营销活动相同，则所有更改将应用于您的内容。
 >
->If multiple code-based journeys or campaigns update the same element(s) of your content, the highest priority journey/campaign takes precedence.
+>如果多个基于代码的历程或营销活动更新了内容的相同元素，则优先级最高的历程/营销活动优先。
 
-[](code-based-configuration.md)[](code-based-implementation-samples.md)
+一旦您的基于代码的历程或营销活动上线，您的应用程序实施团队将负责发出显式API或SDK调用，以获取选定[基于代码的体验配置](code-based-configuration.md)中定义的表面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
 ### Publish基于代码的历程 {#publish-code-based-journey}
 
@@ -251,19 +251,19 @@ You can also preview your code-based experience content before making it live. [
    >
    >在[本节](../building-journeys/publishing-the-journey.md)中了解有关发布历程的更多信息。
 
-**** Each recipient of your journey can see your modifications.
+您的基于代码的历程处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在对所选受众可见。 历程的每个收件人都可以看到您的修改。
 
 >[!NOTE]
 >
->****
+>单击&#x200B;**[!UICONTROL Publish]**&#x200B;后，最多可能需要15分钟才能使更改生效。
 
-### Activate a code-based campaign {#activate-code-based-campaign}
+### 激活基于代码的营销活动 {#activate-code-based-campaign}
 
-1. ****
+1. 从基于代码的营销活动中，选择&#x200B;**[!UICONTROL 审阅以激活]**。
 
    ![](assets/code-based-campaign-review.png)
 
-1. Check and edit if needed the content, properties, configuration, audience and schedule.
+1. 检查并编辑内容、属性、配置、受众和计划（如果需要）。
 
 1. 选择&#x200B;**[!UICONTROL 激活]**。
 
