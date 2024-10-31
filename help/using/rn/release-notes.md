@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
+source-git-commit: ab6289ff4b1a9302adb94d9cdf150210eece3a27
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 39%
@@ -98,7 +98,10 @@ ht-degree: 39%
 <li><b>历程仲裁</b>：此新功能使您能够优先考虑客户最重要的历程。 您可以创建一个规则，以阻止客户进入具有较低优先级的即将到来的历程。</li>
 <li><b>按通信类型设置频率上限： </b>通过规则集，您现在可以按通信类型（例如，销售、促销）设置粒度规则，以防止对类似消息的客户造成过载。 您可以跨多个渠道控制频率，自动排除过度请求的用户档案，以确保获得更好的客户体验。</li></ul>
 
+<img src="assets/do-not-localize/gif-conflict.gif">
+
 <p>冲突和优先级管理功能以“有限可用性”提供给选定的客户组。 请注意，这些功能将在未来逐步向更多用户推出。 如果您有兴趣被添加到这些功能的轮候表中，请与您的客户团队联系。</p>
+
 </td>
 </tr>
 </tbody>
