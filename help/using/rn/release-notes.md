@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7f7edaa8d3bb917e7020bb79eb72f7807cf46622
+source-git-commit: 96ae7baf50f262aac86f86ecb04cc98b57968c28
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 39%
@@ -308,7 +308,7 @@ ht-degree: 39%
 
   此更改将在后续阶段中推出到现有客户沙盒。 [了解详情](../data/datasets-ttl.md#ttl)
 
-* **自定义操作中的参数**（可用日期：2024年10月3日） — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* 自定义操作中的&#x200B;**参数** — 可用日期：2024年10月3日 — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **报告**
 
