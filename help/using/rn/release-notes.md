@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 35b0304df8bdb885ca494b561cb6a0eaa5e96545
+source-git-commit: 7f7edaa8d3bb917e7020bb79eb72f7807cf46622
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1910'
 ht-degree: 39%
 
 ---
@@ -275,15 +275,16 @@ ht-degree: 39%
 
 **短信渠道**
 
-已引入短信增强功能来改进消息传送功能：
-
-* 您可以为短信活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
-
-* 当关键字无法识别时，您可以创建和投放默认短信消息。
-
 * 您现在可以编辑或删除SMS API渠道配置。
 
-在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS配置文档中了解有关这些改进的更多信息。
+* 已引入以下增强功能，以通过Infobip和Sinch改善您的短信消息传送功能：
+
+   * 您可以为短信活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
+
+   * 当关键字无法识别时，您可以创建和投放默认短信消息。
+
+  在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS配置文档中了解有关这些改进的更多信息。
+
 
 <!--**Journeys**-->
 
