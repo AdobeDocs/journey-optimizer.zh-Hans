@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7fdde15f7c491fd9a3b1fef898f018ba9954cde
+source-git-commit: 94ac5fda2d10beb1fd016f41aa298a82694043c3
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 41%
+source-wordcount: '1904'
+ht-degree: 39%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 41%
 <tbody>
 <tr>
 <td>
-<p>在Journey Optimizer中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不知所措。 Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。 <p>有关更多信息，请参阅<a href="../email/surface-personalization.md">详细文档</a>。</p></p><p><ul><li><b>历程频率上限</b>：您现在可以创建要应用于历程的规则集，从而允许您限制个人资料每日、每周或每月的历程次数，并控制同时运行的并行历程次数。</li>
+<p>在Journey Optimizer中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不知所措。 Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。 <p>有关更多信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p></p><p><ul><li><b>历程频率上限</b>：您现在可以创建要应用于历程的规则集，从而允许您限制个人资料每日、每周或每月的历程次数，并控制同时运行的并行历程次数。</li>
 <li><b>优先级得分</b>：您现在可以为营销活动或历程分配从0到100的优先级得分。 数字越大，表示优先级越高。当两个营销活动或历程操作使用相同的渠道配置时，Journey Optimizer将选择具有最高优先级分数的营销活动或历程操作。 如果促销活动具有相同的得分，则将选择最近修改得最低的促销活动。</li>
 <li><b>查看潜在冲突</b>：现在，通过历程和营销活动中的新“查看潜在冲突”按钮，可识别与其他历程或营销活动的重叠，例如开始日期、目标受众或所选渠道配置。</li>
 <li><b>历程仲裁</b>：此新功能使您能够优先考虑客户最重要的历程。 您可以创建一个规则，以阻止客户进入具有较低优先级的即将到来的历程。</li>
@@ -233,25 +233,24 @@ ht-degree: 41%
 </tbody>
 </table>
 
-
-<!--The following capabilities are available to all customers in public beta:
-
 <table>
 <thead>
 <tr>
-<th><strong>Test your content using sample input data (Beta)</strong><br/></th>
+<th><strong>使用示例输入数据测试您的内容(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey optimizer now allows you to test different variants of your email content by previewing it and sending proofs using sample input data uploaded from a file or added manually. All the profiles attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
-<p>This capability is currently available to all customers as a public beta.</p>
-<p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p>
+<p>历程优化器现在允许您测试内容的各种变体，方法是：预览内容并使用从文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。</p>
+<p>此功能目前以公开测试版的形式向所有客户提供，可用于电子邮件、短信和推送通知渠道。</p>
+<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+
+<!--The following capabilities are available to all customers in public beta:
 
 <!--<table>
 <thead>
