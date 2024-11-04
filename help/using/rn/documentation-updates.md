@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d83339f8b6e02e6035b759b6b52bd18ea9a626e3
 workflow-type: tm+mt
 source-wordcount: '5707'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 * 文档中详细介绍了[!DNL Journey Optimizer] 2024年10月版的所有新增功能和改进。 [了解详情](release-notes.md)
 * [!DNL Journey Optimizer]中可用的所有通信渠道现在都分组到文档的专用部分中。 [了解详情](../channels/gs-channels.md)
-* **配置基于代码的体验**&#x200B;页面已得到改进，使过程更清晰，包括说明什么是表面URI的部分。 [了解详情](../code-based/code-based-configuration.md)
-* **创建Web渠道配置**&#x200B;页面已更新，以阐明创建页面匹配规则时的步骤，该规则也适用于基于代码的体验配置。 [了解详情](../web/web-configuration.md#web-page-matching-rule)
-* 添加了有关系统生成数据集的即将到来的生存时间(TTL)护栏的说明。 [了解详情](../data/get-started-datasets.md)
-* 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。 [了解详情](../code-based/create-code-based.md#preview-on-device)
-* 新增了有关如何利用自定义上传受众进行决策的页面。 [了解详情](../offers/custom-upload-decisioning.md)
+* **配置基于代码的体验**&#x200B;页面已得到改进，流程更加清晰，包括说明什么是表面 URI 的部分。[了解详情](../code-based/code-based-configuration.md)
+* **创建网页渠道配置**&#x200B;页面已更新，介绍了创建页面匹配规则时的步骤，这些步骤也适用于基于代码的体验配置。[了解详情](../web/web-configuration.md#web-page-matching-rule)
+* 添加了关于即将推出的系统生成数据集的生存时间 (TTL) 护栏的说明。[了解详情](../data/get-started-datasets.md)
+* 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。[了解详情](../code-based/create-code-based.md#preview-on-device)
+* 添加了有关如何利用自定义上传受众进行决策的新页面。[了解详情](../offers/custom-upload-decisioning.md)
 
 ## 2024 年 9 月 {#sept-2024}
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 * 添加了关于历程重试管理的部分。[了解详情](../building-journeys/read-audience.md#read-audience-retry)
 * 更新了有关自定义操作上限/限制规则的常见问题解答，并介绍了默认的上限规则。[了解详情](../configuration/external-systems.md#faq)
 * 更新了控制访问权限部分，其中包含与 AI 助手内容生成器相关的权限。[了解详情](../administration/high-low-permissions.md#ai-permission)
-* 添加了有关用于生成电子邮件的AI助理内容生成器的视频。 [了解详情](../content-management/generative-email.md#video)
+* 添加了有关使用 AI 助手内容生成器生成电子邮件的视频。[了解详情](../content-management/generative-email.md#video)
 
 
 ## 2024 年 8 月 {#aug-2024}

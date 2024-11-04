@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
 workflow-type: tm+mt
 source-wordcount: '2161'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -175,8 +175,8 @@ ht-degree: 93%
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-+ 冲突管理和优先顺序{#conflict-prioritization}
-   + [冲突管理和优先顺序入门](using/conflict-prioritization/gs-conflict-prioritization.md)
++ 冲突管理和优先级{#conflict-prioritization}
+   + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
    + [分配优先级分数](using/conflict-prioritization/priority-scores.md)
    + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
@@ -228,7 +228,7 @@ ht-degree: 93%
       + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
       + [创建移动应用程序内消息](using/in-app/create-in-app.md)
-      + [创建Web应用程序内消息](using/in-app/create-in-app-web.md)
+      + [创建 Web 应用程序内消息](using/in-app/create-in-app-web.md)
       + [设计应用程序内内容](using/in-app/design-in-app.md)
       + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
    + 推送通知渠道{#push}
@@ -299,7 +299,7 @@ ht-degree: 93%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
-   + 使用AI助手{#ai-assistant}
+   + 使用 AI 助手{#ai-assistant}
       + [AI 助手内容加速器入门](using/content-management/gs-generative.md)
       + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
       + [使用 AI 生成推送内容](using/content-management/generative-push.md)
@@ -389,9 +389,9 @@ ht-degree: 93%
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
-   + 已更新报告体验{#channel-report}
-      + [开始使用更新的报告体验](using/reports/report-gs-cja.md)
-      + [手动配置Customer Journey Analytics](using/reports/cja-ajo.md)
+   + 更新的报告体验{#channel-report}
+      + [更新的报告体验入门](using/reports/report-gs-cja.md)
+      + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
       + [报告和试验先决条件](using/reports/reporting-configuration.md)
       + 营销活动报告{#reporting}
@@ -404,17 +404,17 @@ ht-degree: 93%
          + [应用程序内营销活动报告](using/reports/campaign-global-report-cja-inapp.md)
          + [推送通知营销活动报告](using/reports/campaign-global-report-cja-push.md)
          + [短信营销活动报告](using/reports/campaign-global-report-cja-sms.md)
-         + [Web营销活动报告](using/reports/campaign-global-report-cja-web.md)
+         + [Web 营销活动报告](using/reports/campaign-global-report-cja-web.md)
       + 历程报告{#reporting}
          + [历程报告](using/reports/journey-global-report-cja.md)
          + [基于代码的历程报告](using/reports/journey-global-report-cja-code.md)
          + [内容卡历程报告](using/reports/journey-global-report-cja-content.md)
          + [直邮历程报告](using/reports/journey-global-report-cja-direct.md)
-         + [通过电子邮件发送历程报告](using/reports/journey-global-report-cja-email.md)
+         + [电子邮件历程报告](using/reports/journey-global-report-cja-email.md)
          + [应用程序内历程报告](using/reports/journey-global-report-cja-inapp.md)
          + [推送历程报告](using/reports/journey-global-report-cja-push.md)
          + [短信历程报告](using/reports/journey-global-report-cja-sms.md)
-         + [Web历程报告](using/reports/journey-global-report-cja-web.md)
+         + [Web 历程报告](using/reports/journey-global-report-cja-web.md)
       + [“概述”报告](using/reports/channel-report-cja.md)
       + [登陆页面报告](using/reports/lp-report-global-cja.md)
       + [订阅列表报告](using/reports/subscription-report-global-cja.md)
@@ -625,7 +625,7 @@ ht-degree: 93%
    + [使用模式](using/data/get-started-schemas.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
-      + [存留期和流式分段更新](using/data/datasets-ttl.md)
+      + [生存时间和流式分段更新](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)

@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 83%
+ht-degree: 94%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 83%
 
 * 使用[个性化编辑器](create-code-based.md#edit-code)编辑内容。
 * 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-configuration.md#surface-definition)
-* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须确定表面上需要修改以进行个性化或测试的组件（主页横幅、主页图像、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
+* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，务必要确定应用程序上需要修改以进行个性化或测试的组件（主页横幅、主页图像、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用 JSON 代码内容。
 * 它是以开发人员为中心的。
 
@@ -103,20 +103,20 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->此功能适合开发人员和/或经验丰富的用户。具有某些代码编写技能的营销人员可以使用此功能，但前提是渠道配置和初始设置由开发团队处理。
+>此功能适合开发人员和/或经验丰富的用户。具有一定代码编写技能的营销人员可以使用此功能，前提是开发团队处理渠道配置和初始设置。
 
-要使用 [!DNL Journey Optimizer] 基于代码的体验功能编辑您的内容，需要检测您的页面或应用程序。为此，必须预先声明要插入或替换内容的特定单个位置（称为“[曲面](code-based-configuration.md#surface-definition)”）。
+要使用 [!DNL Journey Optimizer] 基于代码的体验功能编辑您的内容，需要为您的页面或应用程序配置工具。为此，您必须在要插入或替换内容的位置预先声明特定的单个位置（称为“[表面](code-based-configuration.md#surface-definition)”）。
 
 >[!NOTE]
 >
->当前，与配置关联的内容只能是HTML或JSON。
+>当前，与配置关联的内容只能是 HTML 或 JSON。
 
 实施基于代码的营销活动的主要步骤如下：
 
-1. 在应用程序实施中定义[surface](code-based-configuration.md#surface-definition)，这基本上是您要添加基于代码的体验的位置，然后创建引用该位置的基于代码的体验渠道配置。 [了解如何操作](code-based-configuration.md#create-code-based-configuration)
+1. 在您的应用程序实施中定义一个[表面](code-based-configuration.md#surface-definition)，它基本上是您想要添加基于代码的体验的位置，然后创建引用该位置的基于代码的体验渠道配置。[了解如何操作](code-based-configuration.md#create-code-based-configuration)
 
-1. 使用此配置在[!DNL Journey Optimizer]中创建历程或营销活动。 [了解如何操作](create-code-based.md#create-code-based-campaign)
+1. 使用此配置在 [!DNL Journey Optimizer] 中创建历程或营销活动。[了解如何操作](create-code-based.md#create-code-based-campaign)
 
 1. 通过使用 [!DNL Journey Optimizer] 个性化编辑器为选定配置指定内容来编制体验。[了解如何操作](create-code-based.md#edit-code)
 
-1. 您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取命名表面的内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。在这种情况下，实施团队负责呈现或以其他方式解释并处理返回的内容。 [了解详情](code-based-implementation-samples.md)
+1. 您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取命名表面的内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。在这种情况下，实施团队负责呈现或解释并处理返回的内容。[了解详情](code-based-implementation-samples.md)
