@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用示例输入数据测试您的内容(Beta)
-description: 了解如何使用示例输入数据预览内容并发送电子邮件校样。
-feature: Overview, Get Started
+description: 了解如何使用CSV或JSON文件中的示例输入数据或手动添加的数据预览内容并发送电子邮件校样。
+feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta 版"
-source-git-commit: 53efa1af8089b7cec9c94f4a17295a544c3ab4d1
+source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >此功能目前以公共测试版的形式向所有客户提供。
 
-通过历程优化器，您可以通过预览内容并使用从文件上传或手动添加的示例输入数据发送校样来测试内容的各种变体。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。
+历程优化器允许您测试各种内容变体，方法是预览内容并使用从CSV或JSON文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。
 
 >[!NOTE]
 >
