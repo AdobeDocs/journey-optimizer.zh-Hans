@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 badge: label="有限发布版"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 018ff365780c5064afd94c8f842ca0498fe06065
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 27%
+source-wordcount: '558'
+ht-degree: 15%
 
 ---
 
@@ -46,6 +46,31 @@ ht-degree: 27%
    * [排名公式](../offers/ranking/create-ranking-formulas.md)
    * [AI 模型](../offers/ranking/ai-models.md)
 
++++ 正在自定义[!DNL Customer Journey Analytics]量度上优化模型
+
+>[!NOTE]
+>
+>此功能仅适用于具有管理员权限的[!DNL Customer Journey Analytics]客户。
+>
+>在开始之前，请确保已将Journey Optimizer与Customer Journey Analytics集成，以便将Journey Optimizer数据集导出到默认数据视图中。 [了解如何在 [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)中利用 [!DNL Journey Optmizer] 数据
+
+个性化优化模型是一种AI模型，可让您定义业务目标，并利用客户数据训练面向业务的模型以提供个性化优惠并最大化KPI。 有关如何创建个性化AI模型的详细信息，请参阅[决策管理文档](../offers/ranking/personalized-optimization-model.md)。
+
+默认情况下，个性化优化模型使用&#x200B;**优惠点击次数**&#x200B;作为优化量度。 如果您正在使用[!DNL Customer Journey Analytics]，[!DNL Decisioning]允许您利用自己的自定义量度来优化您的模型。
+
+为此，请访问个性化AI模型创建屏幕并展开&#x200B;**[!UICONTROL 转化事件]**&#x200B;下拉列表。 默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都会显示在列表中。 选择要优化模型的量度，然后照常完成AI模型创建。
+
+![](assets/ai-ranking-custom-metrics.png)
+
+>[!NOTE]
+>
+>默认情况下，[!DNL Customer Journey Analytics]中的量度使用“最后接触”归因模型，该模型将100%的点数分配给转化前最近发生的接触点。
+>
+>虽然可以修改归因模型，但并非所有的归因模型都适合用于人工智能模型优化。 我们建议仔细选择与您的优化目标一致的归因模型，以确保模型准确性和性能。
+>
+>有关可用归因模型及其使用指南的更多详细信息，请参阅[[!DNL Customer Journey Analytics] 文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+
++++
 
 ## 在公式中利用决策项目属性 {#items}
 
