@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 10%
+source-wordcount: '804'
+ht-degree: 11%
 
 ---
 
@@ -38,6 +38,16 @@ ht-degree: 10%
 >id="ajo_decisioning_offer_attributes"
 >title="优惠属性"
 >abstract="借助优惠属性，可将键值对与优惠相关联，作报告和分析用途。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_personalized"
+>title="个性化优惠"
+>abstract="个性化优惠是基于合格规则和约束的可定制消息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="备用选件"
+>abstract="当最终用户不符合任何个性化优惠的资格时，后备优惠是显示的默认优惠。"
 
 要创建&#x200B;**选件**，请执行以下步骤：
 

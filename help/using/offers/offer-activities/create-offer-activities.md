@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2511'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 1%
 
 ## 创建决策 {#create-activity}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_details"
+>title="优惠决策详细信息"
+>abstract="指定决策的名称，并根据需要定义开始和结束日期和时间。 要将自定义或核心数据使用标签分配给决策，请选择&#x200B;**[!UICONTROL 管理访问权限]**。"
+
 1. 访问决策列表，然后单击&#x200B;**[!UICONTROL 创建决策]**。
 
 1. 指定决策的名称。
@@ -43,6 +48,21 @@ ht-degree: 1%
 1. 要将自定义或核心数据使用标签分配给决策，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../../administration/object-based-access.md)
 
 ## 定义决策范围 {#add-decision-scopes}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_scopes"
+>title="决策范围"
+>abstract="为优惠决策配置一个或多个范围，以确定要显示的优惠。 这是通过为此投放位置选择投放位置和关联的评估标准来完成的。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_placement"
+>title="版面"
+>abstract="选择将提供优惠的投放位置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_evaluation"
+>title="评估标准"
+>abstract="评估标准包括与资格约束关联的优惠收藏集以及确定要在投放位置中显示的优惠的排名方法。 评估标准的顺序决定了将首先评估哪个集合。 至少需要一个评估标准。"
 
 1. 从下拉列表中选择一个版面。 它将被添加到您决策中的第一个决策范围。
 
@@ -285,6 +305,11 @@ ht-degree: 1%
 +++
 
 ## 添加后备优惠 {#add-fallback}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_fallback"
+>title="添加回拨优惠"
+>abstract="定义决策范围后，定义作为最后手段向不符合优惠资格规则和限制的客户提供的备用优惠。"
 
 定义决策范围后，定义作为最后手段向不符合优惠资格规则和限制的客户提供的备用优惠。
 

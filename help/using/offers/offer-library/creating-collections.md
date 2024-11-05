@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 8%
+source-wordcount: '463'
+ht-degree: 7%
 
 ---
 
@@ -19,6 +19,26 @@ ht-degree: 8%
 >id="ajo_decisioning_decision_collection"
 >title="关于优惠收藏集"
 >abstract="借助优惠收藏集，可通过将优惠重新分组为所选的类别而整理您的优惠。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic"
+>title="动态收藏集"
+>abstract="使用收藏集限定符动态限定收藏集的优惠。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static"
+>title="静态收藏集"
+>abstract="使用状态、收藏集限定符、日期和渠道等条件手动选择优惠并将其分组在一起。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_static_select"
+>title="静态收藏集预览"
+>abstract="静态收藏集通过手动选择要包含在收藏集中的单个优惠来构建。 只能通过手动将更多选件添加到收藏集来更新收藏集。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_collection_dynamic_select"
+>title="动态收藏集预览"
+>abstract="动态收藏集根据收藏集限定符收集优惠。 这些收藏集会自动更新。 例如，如果使用“sports”收藏集限定符创建新选件，则会自动将其添加到相应的收藏集。"
 
 收藏集允许您通过将优惠重组到您选择的类别来整理优惠。 例如，您可以创建一个“sport”收藏集，其中仅包含与体育相关的选件。
 

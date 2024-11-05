@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 12%
+source-wordcount: '630'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,16 @@ ht-degree: 12%
 >id="ajo_decisioning_placement"
 >title="版面"
 >abstract="投放位置是用于展示优惠的容器。它有助于确保正确的优惠内容显示在消息中的正确位置。从“组件”菜单创建投放位置。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_request"
+>title="请求设置"
+>abstract="启用&#x200B;**[!UICONTROL 允许跨版面存在重复项]**&#x200B;选项，使系统考虑为多个版面提供相同的选件。 使用&#x200B;**[!UICONTROL 请求选件]**&#x200B;字段调整返回的选件数。 例如，如果您选择2，则会为选定的决策范围显示最佳的2个优惠。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement_response"
+>title="响应格式"
+>abstract="通过&#x200B;**[!UICONTROL 包含内容]**&#x200B;和&#x200B;**[!UICONTROL 包含元数据]**&#x200B;选项，可以指定是否应在API响应中返回选件的内容和元数据。 您可以仅包含所有元数据或特定字段。 默认情况下，“包含元数据”值设置为true。"
 
 版面有助于确保正确的选件内容显示在消息的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
@@ -46,7 +56,6 @@ ht-degree: 12%
    * **[!UICONTROL 描述]**：投放位置的描述（可选）。
 
    ![](../assets/offers_placement_creation_properties.png)
-
 
 1. **[!UICONTROL 请求设置]**&#x200B;和&#x200B;**[!UICONTROL 响应格式]**&#x200B;部分提供了其他参数：
 
