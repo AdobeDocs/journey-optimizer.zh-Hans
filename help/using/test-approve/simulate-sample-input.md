@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用示例输入数据测试您的内容(Beta)
+title: 使用示例输入数据测试您的内容（Beta 版）
 description: 了解如何使用CSV或JSON文件中的示例输入数据或手动添加的数据预览内容并发送电子邮件校样。
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -11,12 +11,12 @@ badge: label="Beta 版"
 source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# 使用示例输入数据测试您的内容(Beta) {#custom-profiles}
+# 使用示例输入数据测试您的内容（Beta 版） {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >此功能目前以公共测试版的形式向所有客户提供。
 
-历程优化器允许您测试各种内容变体，方法是预览内容并使用从CSV或JSON文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。
+历程优化器允许您测试各种内容变体，方法是预览内容并使用从CSV或JSON文件上传或手动添加的示例输入数据发送校样。 系统会自动检测内容中用于个性化的所有用户档案属性，可使用这些属性进行测试以创建多个变体。
 
 >[!NOTE]
 >
