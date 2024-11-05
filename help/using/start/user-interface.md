@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1305'
 ht-degree: 99%
 
 ---
@@ -196,39 +196,7 @@ ht-degree: 99%
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
-<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
 
->[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="对象类型"
->abstract="对象类型"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="将规则集应用于历程"
->abstract="应用规则集，根据频率上限规则将此历程排除到部分受众。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="规则类型"
->abstract="规则类型"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="规则上限"
->abstract="规则上限"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="优先级展望"
->abstract=" 如果在此指定的时段内安排了较高优先级的历程，则将禁止客户进入此历程。对于希望按先后顺序进入历程的情况，我们建议选择“每日”展望时段，并确保当天任何其他历程的优先级分数低于该历程的优先级分数。向历程提供 100 分的优先级也可确保进入该历程。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="优先级中的因素"
->abstract="待定"
-
-<!--TO REMOVE?-->
 
 <!--CONTENT LOCKING-->
 

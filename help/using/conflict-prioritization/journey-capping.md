@@ -4,19 +4,34 @@ description: 了解如何为历程创建上限规则以及如何仲裁历程条�
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: '864'
+ht-degree: 19%
 
 ---
 
 
 # 历程上限和仲裁 {#journey-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="将规则集应用于历程"
+>abstract="应用规则集，根据频率上限规则将此历程排除到部分受众。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="优先级展望"
+>abstract=" 如果在此指定的时段内安排了较高优先级的历程，则将禁止客户进入此历程。对于希望按先后顺序进入历程的情况，我们建议选择“每日”展望时段，并确保当天任何其他历程的优先级分数低于该历程的优先级分数。向历程提供 100 分的优先级也可确保进入该历程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="优先级中的因素"
+>abstract="待定"
+
 >[!AVAILABILITY]
 >
->冲突和优先级划分功能目前以有限可用性提供给选定的客户组。 请注意，这些功能将在未来逐步向更多用户推出。 如果您有兴趣被添加到这些功能的轮候表中，请与您的客户团队联系。
+>冲突和优先级划分功能目前以有限可用性提供给选定的客户组。 请注意，未来将会逐步面向更多用户推出这些功能。如果有兴趣加入这些功能的试用候选名单，请联系您的客户团队。
 
 历程上限可帮助您限制配置文件可注册的历程数，防止通信过载。 在Journey Optimizer中，您可以设置两种类型的上限规则：
 
