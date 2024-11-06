@@ -20,7 +20,7 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
->title="使用样本输入进行模拟"
+>title="使用示例输入进行模拟"
 >abstract="在此屏幕中，您可以通过CSV或JSON模板提供个性化字段值，或手动输入值，来测试内容的不同变体。"
 
 >[!AVAILABILITY]
