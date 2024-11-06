@@ -4,9 +4,9 @@ description: 了解如何识别历程和营销活动中的潜在冲突。
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '817'
 ht-degree: 7%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 7%
 * **渠道**：是否计划在同一个时间范围内进行其他通信？如果是，有多少通信？
 * **上限规则集**：我将对哪些类型的历程设置上限，并且这些历程中存在重叠？
 * **渠道配置**：是否有其他历程或营销活动正在使用同一历程或营销活动中使用的任何渠道配置可能会阻止向最终用户显示历程或营销活动？
+
+>[!NOTE]
+>
+>在营销活动中，优先级得分仅适用于Web、应用程序内和基于代码的入站渠道。
 
 ➡️ [在视频中了解此功能](#video)
 

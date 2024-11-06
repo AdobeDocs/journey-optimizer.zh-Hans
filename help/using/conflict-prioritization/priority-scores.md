@@ -4,10 +4,10 @@ description: 了解如何为历程和营销活动分配优先级分数。
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 8b1ae663accf6b6c049dc7cc2a427811369a42bc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Journey Optimizer允许您为历程或营销活动分配优先级分数。 当�
 
 >[!NOTE]
 >
->入站渠道（Web渠道、应用程序内渠道和基于代码的渠道）的优先级得分可用。 在历程中，优先级得分仅适用于&#x200B;**应用程序内**&#x200B;和&#x200B;**基于代码的**&#x200B;渠道。
+>在营销活动中，优先级得分仅适用于Web、应用程序内和基于代码的入站渠道。
 
 ➡️ [在视频中了解此功能](#video)
 
