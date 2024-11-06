@@ -4,30 +4,15 @@ description: 了解如何为历程创建上限规则以及如何仲裁历程条�
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 19%
+source-wordcount: '903'
+ht-degree: 18%
 
 ---
 
 
 # 历程上限和仲裁 {#journey-capping}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_capping_rule"
->title="将规则集应用于历程"
->abstract="应用规则集，根据频率上限规则将此历程排除到部分受众。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_concurrency_prioritization"
->title="优先级展望"
->abstract=" 如果在此指定的时段内安排了较高优先级的历程，则将禁止客户进入此历程。对于希望按先后顺序进入历程的情况，我们建议选择“每日”展望时段，并确保当天任何其他历程的优先级分数低于该历程的优先级分数。向历程提供 100 分的优先级也可确保进入该历程。"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_prioritization"
->title="优先级中的因素"
->abstract="待定"
 
 >[!AVAILABILITY]
 >
@@ -43,6 +28,16 @@ ht-degree: 19%
 ➡️ [在视频中了解此功能](#video)
 
 ## 创建历程上限规则 {#create-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_concurrency_prioritization"
+>title="优先级展望"
+>abstract=" 如果在此指定的时段内安排了较高优先级的历程，则将禁止客户进入此历程。对于希望按先后顺序进入历程的情况，我们建议选择“每日”展望时段，并确保当天任何其他历程的优先级分数低于该历程的优先级分数。向历程提供 100 分的优先级也可确保进入该历程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_type"
+>title="规则类型"
+>abstract="指定规则的上限类型。 **[!UICONTROL 历程条目上限]**&#x200B;限制配置文件在给定时间段内进入历程的条目数，而&#x200B;**[!UICONTROL 历程并发上限]**&#x200B;限制配置文件可同时注册的历程数。"
 
 要创建历程上限规则，请执行以下步骤：
 
@@ -109,6 +104,11 @@ ht-degree: 19%
    ![](assets/journey-capping-activate-rule-set.png)
 
 ## 将上限规则应用于历程 {#apply-capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_capping_rule"
+>title="将规则集应用于历程"
+>abstract="应用规则集，根据频率上限规则将此历程排除到部分受众。"
 
 要将上限规则应用于历程，请访问历程并打开其属性。 在&#x200B;**[!UICONTROL 上限规则]**&#x200B;下拉列表中，选择相关的规则集。 一旦激活历程，规则集中定义的上限规则将生效。
 

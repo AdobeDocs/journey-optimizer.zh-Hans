@@ -10,34 +10,19 @@ level: Intermediate
 keywords: 消息，频率，规则，压力
 badge: label="有限发布版"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
-source-wordcount: '1936'
-ht-degree: 11%
+source-wordcount: '1950'
+ht-degree: 6%
 
 ---
 
 # 使用规则集 {#rule-sets}
 
 >[!CONTEXTUALHELP]
->id="ajo_rule_set_domain"
->title="对象类型"
->abstract="对象类型"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_type"
->title="规则类型"
->abstract="规则类型"
-
->[!CONTEXTUALHELP]
->id="ajo_rule_set_rule_capping"
->title="规则上限"
->abstract="规则上限"
-
->[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集对不同类型的营销通信应用频率限制。例如，您可以创建一个规则集来限制发送给客户的&#x200B;**促销通信**&#x200B;数量，并创建另一个规则集来限制发送给客户的&#x200B;**新闻通讯**&#x200B;数量。"
+>abstract="使用规则集对不同类型的营销通信应用频率限制。您还可以创建规则集，以根据频率上限规则将历程排除到部分受众。"
 
 >[!AVAILABILITY]
 >
@@ -65,7 +50,12 @@ ht-degree: 11%
 
 ### 渠道和历程上限规则 {#domain}
 
-创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。  这是通过在创建规则集时为规则集选择渠道或历程域来完成的。 [了解如何创建规则集](#create)
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_domain"
+>title="规则集域"
+>abstract="创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。"
+
+创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。 这是通过在创建规则集时为规则集选择渠道或历程域来完成的。 [了解如何创建规则集](#create)
 
 * **渠道**&#x200B;域：对通信渠道应用上限规则。 例如，每天发送的电子邮件或短信通信不得超过1个。
 * **历程**&#x200B;域：将条目和并发上限规则应用于旅程。 例如，请勿将用户档案同时输入多个历程。
@@ -101,10 +91,11 @@ ht-degree: 11%
 >title="选择消息规则类别"
 >abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
 
->[!CONTEXTUALHELP]
+<!--NOT USED?
+[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="设置规则的频次封顶"
->abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频率上限将基于所选的日程表期间，并将在相应的时间范围开始时重置它。"
+>title="Set the capping for your rule"
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -115,6 +106,11 @@ ht-degree: 11%
 >id="ajo_rule_sets_duration"
 >title="选择消息规则类别"
 >abstract="在规则激活并应用到一条消息时，与所选类别匹配的所有频率规则将自动应用于该消息。目前只有营销类别可用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_rule_capping"
+>title="规则上限"
+>abstract="为规则设置上限。 根据规则集域和规则类型字段中的选择，此字段可以定义发送到用户档案的最大消息数，或者用户档案可以输入或同时注册的最大历程数。"
 
 要将规则添加到规则集，请访问该规则集并单击&#x200B;**[!UICONTROL 添加规则]**。
 
