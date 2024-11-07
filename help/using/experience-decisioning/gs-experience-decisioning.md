@@ -5,26 +5,19 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-badge: label="有限发布版"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 24%
 
 ---
 
 # 开始使用Decisioning {#get-started-experience-decisioning}
 
->[!AVAILABILITY]
->
->Decisioning当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
->
->目前，此功能不适用于已购买Adobe **Healthcare Shield**&#x200B;和&#x200B;**Privacy and Security Shield**&#x200B;附加产品的客户。
-
 ## 什么是决策 {#about}
 
-Decisioning通过提供称为“决策项目”的集中营销优惠目录和复杂的决策引擎，简化了个性化。 此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
+通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
 这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 决策决策策略仅在基于代码的体验营销活动中可用。
 

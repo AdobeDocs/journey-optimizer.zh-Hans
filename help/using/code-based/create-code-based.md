@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1783'
 ht-degree: 14%
 
 ---
@@ -118,11 +118,6 @@ ht-degree: 14%
 1. 通过基于代码的体验，您可以使用“决策”功能。 从左栏中选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。 [了解详情](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
-
-   >[!NOTE]
-   >
-   >Decisioning当前仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
-
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以确认更改。
 
