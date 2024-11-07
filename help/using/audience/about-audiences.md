@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
+source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2049'
+ht-degree: 19%
 
 ---
 
@@ -35,13 +35,18 @@ ht-degree: 0%
 可以使用不同方法生成受众：
 
 * **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 [了解如何生成区段定义](creating-a-segment-definition.md)
+
 * **自定义上传**：使用CSV文件导入受众。 请参阅Adobe Experience Platform [Segmentation Service文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}以了解如何导入受众。
+
 * **受众组合**：创建组合工作流以将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
+
 * **联合受众构成**：直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。 请阅读有关[联合受众组合](https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home)的指南。
 
   >[!AVAILABILITY]
   >
   >联合受众构成目前仅对一部分组织提供（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
+
+有关[!DNL Journey Optimizer]中使用自定义上传和联合受众组合受众的更多信息，请参阅[此章节](custom-upload-fac.md)。
 
 ## 在[!DNL Journey Optimizer]中定位受众 {#segments-in-journey-optimizer}
 
@@ -104,22 +109,6 @@ ht-degree: 0%
 * [配置数据源](../datasource/configure-data-sources.md)
 >
 +++
-
-## 自定义上传和联合受众组合受众 {#csv}
-
-本节提供了在使用自定义上传（CSV文件）和联合受众合成受众时要记住的关键信息：
-
-* **预览和验证支持：**&#x200B;当前，使用CSV上传或联合受众组合创建的受众不支持预览和验证。 在规划营销活动时，请牢记这一点。
-
-* **快速激活和身份拼接延迟：** Adobe Experience Platform架构会延迟身份拼接，以使自定义上传和联合受众构成受众可立即在Journey Optimizer中激活，这将产生以下影响：
-
-   * 受众可在摄取完成后立即在Journey Optimizer中使用。 虽然该值通常在一小时内，但受制于一些可变因素。
-   * 激活的记录数可能与身份拼接后的用户档案数不同。
-   * 受众中的每个记录都将激活，包括任何重复项。 在下次UPS配置文件导出期间，这些记录将进行身份拼接。
-
-* **定向新配置文件：**&#x200B;当记录与UPS配置文件之间找不到匹配项时，将创建一个新的空配置文件。 此配置文件链接到存储在数据湖中的扩充属性。 由于此新配置文件为空，因此Journey Optimizer中通常使用的定向字段（例如personalEmail.address、mobilePhone.number）为空，因此无法用于定向。
-
-  要解决此问题，您可以在渠道配置中将“执行字段”（或“执行地址”，具体取决于渠道）指定为“identityMap”。 这将确保在创建受众时选择作为标识的属性将与Journey Optimizer中用于定位的属性相同。
 
 ## 受众评估方法 {#evaluation-method-in-journey-optimizer}
 
@@ -184,7 +173,6 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 >[!NOTE]
 >
 可以在批处理分段中使用&#x200B;**已打开邮件**&#x200B;和&#x200B;**已发送邮件**&#x200B;事件，而不考虑性能。
-
 
 ## 受众构成和自定义上传常见问题解答 {#faq}
 
@@ -264,3 +252,8 @@ Adobe Experience Platform [分段服务文档](https://experienceleague.adobe.co
 
 +++
 
+## 操作方法视频 {#video}
+
+了解 Journey Optimizer 中统一的客户轮廓和受众。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432671?quality=12)
