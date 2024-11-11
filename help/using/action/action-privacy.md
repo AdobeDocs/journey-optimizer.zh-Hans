@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
->title="数据治理政策违反"
+>title="数据治理策略违规"
 >abstract="如果系统在历程/营销活动或自定义操作中识别出受限字段，则会显示一条错误消息，阻止您发布它。使用此对话框中的数据谱系图，了解在激活历程或营销活动之前，需要做出哪些其他配置更改。"
 
 ## 数据治理策略入门 {#gs}
 
-通过其[数据使用标签和执行(DULE)管理](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hans){target="_blank"}框架，Adobe Experience Platform允许您通过&#x200B;**为字段设置标签**&#x200B;并为每个渠道创建&#x200B;**营销操作**，跨渠道管理和执行数据治理策略。
+通过其[数据使用标签和执行 (DULE) 治理](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=zh-Hans){target="_blank"}框架，Adobe Experience Platform 允许您通过&#x200B;**为字段设置标签**&#x200B;并为每个渠道创建&#x200B;**营销操作**，跨渠道管理和执行数据治理策略。
 
 定义标签和营销操作后，您可以创建将这两个元素联系起来的&#x200B;**数据治理策略**。例如，您可以设置一个策略，将“ePHI”标签与“电子邮件定位”营销操作相关联，从而确保标记为“ePHI”的字段不会用于个性化电子邮件。[了解如何创建数据治理策略](#governance-policies)
 
