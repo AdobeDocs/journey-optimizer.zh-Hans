@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2375ea3e8fb100642dee07e9c46640d47e393b44
+source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
@@ -250,3 +250,18 @@ ht-degree: 100%
 >id="ajo_email_enable_experience_decisioning"
 >title="启用决策"
 >abstract="启用决策"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="从目录中选择决策属性"
+>abstract="决策属性存储在目录的架构中。 从所选目录中选择要在此使用的属性。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="决策策略"
+>abstract="决策策略允许您从决策引擎中选择最佳项目并交付给每个受众。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_attribute"
+>title="版面"
+>abstract="版面"
