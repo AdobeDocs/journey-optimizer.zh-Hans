@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: 40f46fd815a567934f886dd086102d830dea5ade
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 20%
+source-wordcount: '2053'
+ht-degree: 19%
 
 ---
 
@@ -31,6 +31,11 @@ ht-degree: 20%
 >[!IMPORTANT]
 >
 >对于自动流，用户需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的更多信息](../administration/permissions.md)
+
+>[!AVAILABILITY]
+>
+> 自动流量暂时不适用于EMEA地区的用户。
+
 
 使用自动流程，您只需选择目标语言和语言提供商即可。 然后，您的内容将直接发送到翻译，准备完成后进行最终审阅。
 
