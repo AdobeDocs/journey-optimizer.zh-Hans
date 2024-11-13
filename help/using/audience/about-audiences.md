@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 26d311802236a1f9e8f6273c1291bcb54138aad2
+source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2032'
 ht-degree: 19%
 
 ---
@@ -218,10 +218,9 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 
 +++
 
-+++ 从受众构成或自定义上传发布受众多久之后才能在Journey Optimizer中使用它？
++++ 从受众构成中发布受众多久之后才能在Journey Optimizer中使用它？
 
-* **受众合成**&#x200B;中的受众每天都会执行，因此您可能需要等待最多24小时才能在Journey Optimizer中使用它们。
-* 来自&#x200B;**自定义上传**&#x200B;的受众在发布后约2小时可在Journey Optimizer中使用。
+**受众合成**&#x200B;中的受众每天都会执行，因此您可能需要等待最多24小时才能在Journey Optimizer中使用它们。
 
 +++
 
