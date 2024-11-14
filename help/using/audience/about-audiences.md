@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3951201f24f5277774f192944ca479e8354c13bc
+source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2011'
 ht-degree: 19%
 
 ---
@@ -41,10 +41,6 @@ ht-degree: 19%
 * **受众组合**：创建组合工作流以将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。 [受众组合入门](get-started-audience-orchestration.md)
 
 * **联合受众构成**：直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。 请阅读有关[联合受众组合](https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home)的指南。
-
-  >[!AVAILABILITY]
-  >
-  >联合受众构成目前仅对一部分组织提供（限量发布）。有关更多信息，请与您的 Adobe 代表联系。
 
 有关[!DNL Journey Optimizer]中使用自定义上传和联合受众组合受众的更多信息，请参阅[此章节](custom-upload-fac.md)。
 
