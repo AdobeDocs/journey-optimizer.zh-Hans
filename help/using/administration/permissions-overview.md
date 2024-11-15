@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
+source-git-commit: c2f68054cb0c378b188797a2b3aa4fb2841b7384
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '149'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,10 @@ ht-degree: 3%
 
 ![](assets/do-not-localize/permissions_2.png)
 
-## 操作方法视频{#video}
+<!--
+## How-to video{#video}
 
-进一步了解Adobe Journey Optimizer中的访问控制系统和自定义配置文件。 了解如何管理角色和权限以及如何添加和管理用户。
+Learn more about access control system and custom proles in Adobe Journey Optimizer. Learn how to manage roles and permissions and how to add and manage users.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
+-->
