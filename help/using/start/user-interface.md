@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: d9fde8bfc7fd3ab3139c4212e2fef490dd9a8cce
+source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 96%
+source-wordcount: '1374'
+ht-degree: 95%
 
 ---
 
@@ -252,16 +252,16 @@ ht-degree: 96%
 >abstract="启用决策"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
+>id="ajo_exd_decision_attribute"
 >title="从目录中选择决策属性"
 >abstract="决策属性存储在目录的架构中。 从所选目录中选择要在此使用的属性。"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_placements"
+>id="ajo_exd_decision_policy"
 >title="决策策略"
 >abstract="决策策略允许您从决策引擎中选择最佳项目并交付给每个受众。"
 
 >[!CONTEXTUALHELP]
->id="ajo_exd_decision_attribute"
+>id="ajo_exd_placements"
 >title="版面"
->abstract="版面"
+>abstract="投放位置确定决策引擎返回的项目在消息中的显示位置。 您可以在报表中的不同投放位置跟踪其性能。"
