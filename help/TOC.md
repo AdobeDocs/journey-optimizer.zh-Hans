@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 98%
+source-wordcount: '2163'
+ht-degree: 97%
 
 ---
 
@@ -480,7 +480,7 @@ ht-degree: 98%
          + [利用上下文数据](using/experience-decisioning/context-data.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
-      + [客户历程分析中的报告](using/experience-decisioning/cja-reporting.md)
+      + [决策报告](using/experience-decisioning/cja-reporting.md)
    + 决策管理{#offer-decisioning}
       + 决策管理入门 {#get-started-decision}
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)

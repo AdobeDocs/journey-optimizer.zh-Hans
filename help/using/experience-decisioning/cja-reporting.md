@@ -1,20 +1,31 @@
 ---
-title: 客户历程分析中的报告
-description: 了解如何在Customer Journey Analytics中执行报表
+title: 决策报告
+description: 了解如何报告决策。
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 badge: label="有限发布版"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 841a114610bfee743f5ebb349e3eef6312de0f7b
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
-# 客户历程分析中的报告 {#cja}
+
+# 决策报告 {#decisioning-report}
+
+## 基于代码的营销活动报表 {#campaigns}
+
+一旦基于代码的体验正式上线，您即可访问专用报告，以作为全面功能板监控关键绩效指标(KPI)，从而提供与您的活动关联的基本量度分析。
+
+其中包括与决策项目性能以及用户如何与其交互相关的详细信息。 [了解如何使用基于代码的体验报表](../reports/campaign-global-report-cja-code.md)
+
+![](../reports/assets/cja-decisioning-item-performance.png)
+
+## 客户历程分析中的报告 {#cja}
 
 如果您正在使用Customer Journey Analytics，则可以利用Decisioning为您的基于代码的营销活动创建自定义报告仪表板。
 
