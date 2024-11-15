@@ -18,10 +18,10 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="管理决策项"
->abstract="通过 Journey Optimizer，可创建营销优惠（称为决策项）并将其整理到集中目录和收藏集中。目前，所有创建的决策项都会被合并到一个“优惠”目录中。在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
+>abstract="通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和集合中。目前，所有创建的决策项都会被合并到一个“产品建议”目录中。在此屏幕中，您还可以使用&#x200B;**编辑架构**&#x200B;按钮访问该目录的架构，并为您的决策项创建自定义属性。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html" text="配置项目目录"
 
-通过 Journey Optimizer，可创建营销优惠（称为决策项）并将其整理到集中目录和收藏集中。它们由旨在精确满足您需求的标准和自定义属性组成。 此外，它们包含配置文件约束，允许您定义决策项目可以显示给谁。
+通过 Journey Optimizer，可创建营销产品建议（称为决策项）并将其整理到集中目录和集合中。它们由旨在精确满足您需求的标准和自定义属性组成。 此外，它们包含配置文件约束，允许您定义决策项目可以显示给谁。
 
 在创建决策项之前，如果要设置条件以确定决策项可以显示给谁，请确保已创建了&#x200B;**决策规则**。 [了解如何创建决策规则](rules.md)。
 

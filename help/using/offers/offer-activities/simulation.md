@@ -17,8 +17,8 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
->title="模拟优惠决策"
->abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些优惠投放到某个测试轮廓。这样测试和细化您的优惠的各个版本即可不影响目标收件人。"
+>title="模拟产品建议决策"
+>abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些产品建议投放到某个测试轮廓。这样测试和细化您的产品建议的各个版本即可不影响目标收件人。"
 
 ## 关于模拟 {#about-simulation}
 
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-这样测试和细化您的优惠的各个版本即可不影响目标收件人。
+这样测试和细化您的产品建议的各个版本即可不影响目标收件人。
 
 >[!NOTE]
 >

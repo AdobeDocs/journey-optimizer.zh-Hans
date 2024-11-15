@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta 版"
-source-git-commit: 678a2fbce1b4048aad6a2214bb41ec3722db2b2d
+exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
-
 
 # 使用示例输入数据测试您的内容（Beta 版） {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用示例输入进行模拟"
->abstract="在此屏幕中，您可以通过CSV或JSON模板提供个性化字段值，或手动输入值，来测试内容的不同变体。"
+>abstract="在此屏幕中，您可以通过 CSV 或 JSON 模板为个性化字段提供值或手动输入值来测试您的内容的不同变体。"
 
 >[!AVAILABILITY]
 >

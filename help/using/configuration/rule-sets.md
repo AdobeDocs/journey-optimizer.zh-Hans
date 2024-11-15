@@ -13,7 +13,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集对不同类型的营销通信应用频率限制。您还可以创建规则集，以根据频率上限规则将历程排除到部分受众。"
+>abstract="使用规则集对不同类型的营销通信应用频率限制。您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
 
 >[!AVAILABILITY]
 >
@@ -53,7 +53,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="规则集域"
->abstract="创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。"
+>abstract="创建规则集时，您需要指定规则集中的规则是否会强制执行特定于通信渠道或历程的上限规则。"
 
 创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。 这是通过在创建规则集时为规则集选择渠道或历程域来完成的。 [了解如何创建规则集](#create)
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="规则上限"
->abstract="为规则设置上限。 根据规则集域和规则类型字段中的选择，此字段可以定义发送到用户档案的最大消息数，或者用户档案可以输入或同时注册的最大历程数。"
+>abstract="设置规则的频率上限。根据规则集域和“规则类型”字段中的选择，该字段可以定义可以发送到轮廓的最大消息数，或者轮廓可以同时进入或注册的最大历程数。"
 
 要将规则添加到规则集，请访问该规则集并单击&#x200B;**[!UICONTROL 添加规则]**。
 

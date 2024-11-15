@@ -1,5 +1,5 @@
 ---
-title: 将约束添加到优惠
+title: 将约束添加到产品建议
 description: 了解如何定义优惠的显示条件
 feature: Decision Management
 topic: Integrations
@@ -13,27 +13,27 @@ ht-degree: 16%
 
 ---
 
-# 将约束添加到优惠 {#add-constraints}
+# 将约束添加到产品建议 {#add-constraints}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
->title="关于优惠约束"
->abstract="通过约束，您可以指定与其他优惠相比，该优惠如何确定优先级并呈现给用户。"
+>title="关于产品建议约束"
+>abstract="通过约束，您可以指定与其他产品建议相比，该产品建议如何确定优先级并呈现给用户。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
->title="关于优惠约束"
->abstract="通过约束，您可以指定与其他优惠相比，该优惠如何确定优先级并呈现给用户。"
+>title="关于产品建议约束"
+>abstract="通过约束，您可以指定与其他产品建议相比，该产品建议如何确定优先级并呈现给用户。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="关于优惠优先级"
->abstract="在此字段中，您可以指定优惠的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的优惠进行排名。"
+>title="关于产品建议优先级"
+>abstract="在此字段中，您可以指定产品建议的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的产品建议进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="设置优先级"
->abstract="如果用户有资格获得多个优惠，则优先级有助于定义该优惠相对于其他优惠的优先级。优惠的优先级越高，与其他优惠相比其优先级就越高。"
+>abstract="如果用户有资格获得多个产品建议，则优先级有助于定义该产品建议相对于其他产品建议的优先级。产品建议的优先级越高，与其他产品建议相比其优先级就越高。"
 
 利用约束，可定义显示优惠的条件。
 
@@ -41,7 +41,7 @@ ht-degree: 16%
 
    ![](../assets/offer-eligibility.png)
 
-1. 如果用户符合多个选件的条件，则定义与其他选件相比的选件&#x200B;**[!UICONTROL 优先级]**。 优惠的优先级越高，与其他优惠相比其优先级就越高。
+1. 如果用户符合多个选件的条件，则定义与其他选件相比的选件&#x200B;**[!UICONTROL 优先级]**。 产品建议的优先级越高，与其他产品建议相比其优先级就越高。
 
    ![](../assets/offer-priority.png)
 
@@ -68,12 +68,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="定义资格"
->abstract="默认情况下，任何轮廓都有资格获得优惠，但您可以使用受众或决策规则将优惠限制为特定的轮廓。"
+>abstract="默认情况下，任何轮廓都有资格获得产品建议，但您可以使用受众或决策规则将产品建议限制为特定的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="关于优惠资格"
->abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受优惠。"
+>title="关于产品建议资格"
+>abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
 
 >[!CONTEXTUALHELP]
@@ -135,13 +135,13 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="关于优惠频次封顶"
->abstract="在此字段中，可指定可呈现优惠的次数。"
+>title="关于产品建议频次封顶"
+>abstract="在此字段中，可指定可呈现产品建议的次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="使用频次封顶"
->abstract="为避免过度招揽客户，请使用频次封顶定义可呈现优惠的最大次数。您最多可以为给定优惠创建 10 条上限规则。"
+>abstract="为避免过度招揽客户，请使用频次封顶定义可呈现产品建议的最大次数。您最多可以为给定产品建议创建 10 条上限规则。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响频次封顶"
 
 上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
@@ -246,7 +246,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="设置频次封顶"
->abstract="您可以选择每天、每周或每月重置优惠频次封顶计数器。请注意，在启用频次封顶的情况下发布优惠后，您将无法更改已定义的频率。"
+>abstract="您可以选择每天、每周或每月重置产品建议频次封顶计数器。请注意，在启用频次封顶的情况下发布产品建议后，您将无法更改已定义的频率。"
 
 **[!UICONTROL 重置上限频率]**&#x200B;字段允许您定义重置上限计数的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
 
@@ -292,7 +292,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="更改日期可能会影响频次封顶"
->abstract="如果此优惠应用了频次封顶，则在更改开始或结束日期时可能会影响该频次封顶。"
+>abstract="如果此产品建议应用了频次封顶，则在更改开始或结束日期时可能会影响该频次封顶。"
 
 更改优惠日期时必须小心操作，因为如果满足以下条件，这可能会对上限产生影响：
 

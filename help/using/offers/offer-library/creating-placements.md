@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 11%
+ht-degree: 31%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="版面"
->abstract="投放位置是用于展示优惠的容器。它有助于确保正确的优惠内容显示在消息中的正确位置。从“组件”菜单创建投放位置。"
+>abstract="投放位置是用于展示产品建议的容器。它有助于确保正确的产品建议内容显示在消息中的正确位置。从“组件”菜单创建投放位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
 >title="请求设置"
->abstract="启用&#x200B;**[!UICONTROL 允许跨版面存在重复项]**&#x200B;选项，使系统考虑为多个版面提供相同的选件。 使用&#x200B;**[!UICONTROL 请求选件]**&#x200B;字段调整返回的选件数。 例如，如果您选择2，则会为选定的决策范围显示最佳的2个优惠。"
+>abstract="启用&#x200B;**[!UICONTROL 允许在多个投放位置中出现重复内容]**&#x200B;选项，以便系统在多个投放位置中考虑相同的产品建议。使用&#x200B;**[!UICONTROL 请求产品建议]**&#x200B;字段来调整返回的产品建议数量。例如，如果您选择 2，则在所选决策范围内将显示最佳的 2 个产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"
 >title="响应格式"
->abstract="通过&#x200B;**[!UICONTROL 包含内容]**&#x200B;和&#x200B;**[!UICONTROL 包含元数据]**&#x200B;选项，可以指定是否应在API响应中返回选件的内容和元数据。 您可以仅包含所有元数据或特定字段。 默认情况下，“包含元数据”值设置为true。"
+>abstract="**[!UICONTROL 包含内容]**&#x200B;和&#x200B;**[!UICONTROL 包含元数据]**&#x200B;选项允许您指定是否应在 API 响应中返回产品建议的内容和元数据。您可以包含所有元数据或仅包含特定字段。默认情况下，“包含元数据”值设置为 true。"
 
 版面有助于确保正确的选件内容显示在消息的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
 
@@ -63,9 +63,9 @@ ht-degree: 11%
 
      如果此选项被设置为false，则决策请求中的任何投放位置都将继承“false”设置。
 
-   * **[!UICONTROL 请求优惠]**：默认情况下，为每个配置文件返回一个决策范围优惠。 您可以使用此选项调整返回的选件数。 例如，如果您选择2，则会为选定的决策范围显示最佳的2个优惠。
+   * **[!UICONTROL 请求优惠]**：默认情况下，为每个配置文件返回一个决策范围优惠。 您可以使用此选项调整返回的选件数。 例如，如果您选择 2，则在所选决策范围内将显示最佳的 2 个产品建议。
 
-   * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**：指定API响应中是否应返回选件的内容和元数据。 您可以仅包含所有元数据或特定字段。 默认情况下，“包含元数据”值设置为true。
+   * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**：指定API响应中是否应返回选件的内容和元数据。 您可以包含所有元数据或仅包含特定字段。默认情况下，“包含元数据”值设置为 true。
 
    如果您使用[Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以将这些参数直接设置为您的API请求。 但是，在用户界面中配置它们可以帮助您节省时间，因为您不必在每个API请求中传递它们。 请注意，如果您在用户界面和API请求中配置参数，则API请求中的值将优先于界面中的值。
 

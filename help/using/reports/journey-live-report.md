@@ -62,7 +62,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="历程统计数据"
->abstract="“历程统计”关键绩效指标 (KPI) 作为一种综合仪表板，可提供过去 24 小时内与您的历程相关的基本量度的深入分析。"
+>abstract="“历程统计”关键绩效量度 (KPI) 作为一种综合仪表板，可提供过去 24 小时内与您的历程相关的基本量度的深入分析。"
 
 ![](assets/journey_live_statistics.png)
 
@@ -323,12 +323,12 @@ ht-degree: 30%
 
 **[!UICONTROL 电子邮件 — 最佳收件人域]**&#x200B;图形和表提供了过去24小时内用户档案最常用于打开您的电子邮件的域的详细细目。 这提供了有关用户档案行为的宝贵见解，可帮助您了解首选平台。
 
-### 电子邮件 - 优惠 {#email-offers}
+### 电子邮件 - 产品建议 {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
->title="电子邮件 - 优惠"
->abstract="“优惠统计”和“优惠详细统计”构件提供了过去 24 小时内对优惠绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
+>title="电子邮件 - 产品建议"
+>abstract="“产品建议统计”和“产品建议详细统计”构件提供了过去 24 小时内对产品建议绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
 
 ![](assets/journey_live_inapp_performance.png)
 

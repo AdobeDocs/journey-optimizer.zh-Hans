@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '4457'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 >[!AVAILABILITY]
 >
->目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。[开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 全局报告可从“所有时间”选项卡访问，它显示至少两个小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
@@ -66,7 +66,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="历程统计"
->abstract="“历程统计”关键绩效指标 (KPI) 作为一种综合仪表板，可提供与您的历程相关的基本量度的深入分析。"
+>abstract="“历程统计”关键绩效量度 (KPI) 作为一种综合仪表板，可提供与您的历程相关的基本量度的深入分析。"
 
 ![](assets/journey_statistics.png)
 
@@ -339,7 +339,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="按域列出的打开和点击数"
->abstract="按域列出的打开和点击数图形和表格提供了域级别的详细细分，全面展示了受众如何与您的电子邮件互动。"
+>abstract="按域列出的打开和点击数图形和表格提供了域级别的详细细分，全面展示了受众如何与您的电子邮件参与。"
 
 ![](assets/journey_email_open_domains.png)
 
@@ -422,12 +422,12 @@ ht-degree: 26%
 
 +++
 
-### 电子邮件 - 优惠 {#email-offers}
+### 电子邮件 - 产品建议 {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
->title="电子邮件 - 优惠"
->abstract="“优惠统计”和“优惠详细统计”构件提供了对优惠绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
+>title="电子邮件 - 产品建议"
+>abstract="“产品建议统计”和“产品建议详细统计”构件提供了对产品建议绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -629,7 +629,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="短信 - 跟踪统计数据"
->abstract="“短信 - 跟踪统计数据”构件全面概述了有关访问者与 URL 交互的基本信息。"
+>abstract="“短信 - 跟踪统计数据”构件全面概述了有关访客与 URL 交互的基本信息。"
 
 ![](assets/journey_sms_tracking.png)
 
@@ -700,7 +700,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本洞察。"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 参与的基本洞察。"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -715,7 +715,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本洞察。"
+>abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息参与的基本洞察。"
 
 ![](assets/journey_inapp_performance.png)
 

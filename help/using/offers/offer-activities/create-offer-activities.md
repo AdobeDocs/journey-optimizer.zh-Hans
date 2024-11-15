@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 1%
 在创建决策之前，请确保已在优惠库中创建了以下组件：
 
 * [投放位置](../offer-library/creating-placements.md)
-* [收藏集](../offer-library/creating-collections.md)
+* [集合](../offer-library/creating-collections.md)
 * [个性化优惠](../offer-library/creating-personalized-offers.md)
 * [后备优惠](../offer-library/creating-fallback-offers.md)
 
-## 创建决策 {#create-activity}
+## 做出决策 {#create-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="优惠决策详细信息"
->abstract="指定决策的名称，并根据需要定义开始和结束日期和时间。 要将自定义或核心数据使用标签分配给决策，请选择&#x200B;**[!UICONTROL 管理访问权限]**。"
+>title="产品建议决策详细信息"
+>abstract="指定决策的名称，并定义开始和结束日期和时间（如果需要）。要为决策分配自定义或核心数据使用标签，请选择&#x200B;**[!UICONTROL 管理访问权限]**。"
 
 1. 访问决策列表，然后单击&#x200B;**[!UICONTROL 创建决策]**。
 
@@ -52,17 +52,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="决策范围"
->abstract="为优惠决策配置一个或多个范围，以确定要显示的优惠。 这是通过为此投放位置选择投放位置和关联的评估标准来完成的。"
+>abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。这是通过选择一个投放位置以及与该投放位置相关的评估标准来完成的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="版面"
->abstract="选择将提供优惠的投放位置。"
+>abstract="选择将提供产品建议的投放位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="评估标准"
->abstract="评估标准包括与资格约束关联的优惠收藏集以及确定要在投放位置中显示的优惠的排名方法。 评估标准的顺序决定了将首先评估哪个集合。 至少需要一个评估标准。"
+>abstract="评估标准包括与资格约束相关的产品建议集合，以及确定要在投放位置显示的产品建议的排名方法。评估标准的顺序决定首先评估哪个集合。至少需要一个评估标准。"
 
 1. 从下拉列表中选择一个版面。 它将被添加到您决策中的第一个决策范围。
 
@@ -304,14 +304,14 @@ ht-degree: 1%
 
 +++
 
-## 添加后备优惠 {#add-fallback}
+## 添加后备产品建议 {#add-fallback}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="添加回拨优惠"
->abstract="定义决策范围后，定义作为最后手段向不符合优惠资格规则和限制的客户提供的备用优惠。"
+>title="添加后备产品建议"
+>abstract="在定义决策范围后，就要确定一个后备产品建议，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。"
 
-定义决策范围后，定义作为最后手段向不符合优惠资格规则和限制的客户提供的备用优惠。
+在定义决策范围后，就要确定一个后备产品建议，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。
 
 为此，请从决策中定义的版面的可用后备优惠列表中选择该优惠，然后单击&#x200B;**[!UICONTROL 下一步]**。
 

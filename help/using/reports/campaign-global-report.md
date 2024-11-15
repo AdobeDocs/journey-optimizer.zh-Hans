@@ -24,7 +24,7 @@ ht-degree: 24%
 
 >[!AVAILABILITY]
 >
->目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。[开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 全局报告可从&#x200B;**所有时间**&#x200B;选项卡访问，显示至少两小时前发生的事件，并涵盖选定时间段内的事件。 相比之下，实时报表侧重于过去24小时内发生的事件，距事件发生的最小时间间隔为2分钟。
 
@@ -320,7 +320,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
 >title="按域列出的打开和点击数"
->abstract="按域列出的打开和点击数图形和表格提供了域级别的详细细分，全面展示了受众如何与您的电子邮件互动。"
+>abstract="按域列出的打开和点击数图形和表格提供了域级别的详细细分，全面展示了受众如何与您的电子邮件参与。"
 
 ![](assets/campaign_email_open_domains.png)
 
@@ -413,7 +413,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 
 +++
 
-### 电子邮件 - 优惠 {#email-offers}
+### 电子邮件 - 产品建议 {#email-offers}
 
 ![](assets/campaign_email_offers.png)
 
@@ -446,7 +446,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息互动的基本洞察。"
+>abstract="“应用程序内性能”KPI 提供针对访客与应用程序内消息参与的基本洞察。"
 
 ![](assets/campaign_inapp_performance.png)
 
@@ -688,7 +688,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
 >title="短信 - 跟踪统计数据"
->abstract="“短信 - 跟踪统计数据”构件全面概述了有关访问者与 URL 交互的基本信息。"
+>abstract="“短信 - 跟踪统计数据”构件全面概述了有关访客与 URL 交互的基本信息。"
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -761,7 +761,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 互动的基本洞察。"
+>abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 参与的基本洞察。"
 
 ![](assets/campaign_sms_clicks.png)
 
@@ -776,7 +776,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
 >title="Web 性能"
->abstract="“Web 性能”KPI 提供有关访客与 Web 体验的互动的全面信息。"
+>abstract="“Web 性能”KPI 提供有关访客与 Web 体验的参与的全面信息。"
 
 ![](assets/campaign_web_performance.png)
 
@@ -818,7 +818,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_interactions"
 >title="按元素列出的交互"
->abstract="“按元素列出的交互”表提供有关访客与网页上不同元素进行互动的关键信息。"
+>abstract="“按元素列出的交互”表提供有关访客与网页上不同元素进行参与的关键信息。"
 
 ![](assets/campaign_web_interactions.png)
 

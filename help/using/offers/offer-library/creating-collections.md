@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 7%
+ht-degree: 31%
 
 ---
 
@@ -17,28 +17,28 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
->title="关于优惠收藏集"
->abstract="借助优惠收藏集，可通过将优惠重新分组为所选的类别而整理您的优惠。"
+>title="关于产品建议集合"
+>abstract="借助产品建议集合，可通过将产品建议重新分组为所选的类别而整理您的产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"
->title="动态收藏集"
->abstract="使用收藏集限定符动态限定收藏集的优惠。"
+>title="动态集合"
+>abstract="使用集合限定符来动态地限定集合中的产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static"
->title="静态收藏集"
->abstract="使用状态、收藏集限定符、日期和渠道等条件手动选择优惠并将其分组在一起。"
+>title="静态集合"
+>abstract="使用状态、集合限定符、日期和渠道等条件手动选择产品建议并进行分组。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
->title="静态收藏集预览"
->abstract="静态收藏集通过手动选择要包含在收藏集中的单个优惠来构建。 只能通过手动将更多选件添加到收藏集来更新收藏集。"
+>title="静态集合预览"
+>abstract="静态集合是通过手动选择要纳入集合中的单个产品建议来构建的。只能通过手动添加更多产品建议来更新集合。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"
->title="动态收藏集预览"
->abstract="动态收藏集根据收藏集限定符收集优惠。 这些收藏集会自动更新。 例如，如果使用“sports”收藏集限定符创建新选件，则会自动将其添加到相应的收藏集。"
+>title="动态集合预览"
+>abstract="动态集合根据集合限定符来收集产品建议。这些集合会自动更新。例如，如果使用“体育”集合限定符创建了新的产品建议，则它会自动添加到相应的集合中。"
 
 收藏集允许您通过将优惠重组到您选择的类别来整理优惠。 例如，您可以创建一个“sport”收藏集，其中仅包含与体育相关的选件。
 
@@ -50,9 +50,9 @@ ht-degree: 7%
 
 您可以创建两种类型的收藏集：
 
-* **动态集合**&#x200B;是基于集合限定符（以前称为“标记”）的优惠集合。 这些收藏集会自动更新。 例如，如果使用选定的收藏集限定符创建新选件，则会自动将其添加到收藏集。
+* **动态集合**&#x200B;是基于集合限定符（以前称为“标记”）的优惠集合。 这些集合会自动更新。例如，如果使用选定的收藏集限定符创建新选件，则会自动将其添加到收藏集。
 
-* **静态收藏集**&#x200B;是通过手动选择要包含在收藏集中的单个优惠而构建的收藏集。 只能通过手动将更多选件添加到收藏集来更新收藏集。
+* **静态收藏集**&#x200B;是通过手动选择要包含在收藏集中的单个优惠而构建的收藏集。 只能通过手动添加更多产品建议来更新集合。
 
 要创建收藏集，请执行以下步骤：
 

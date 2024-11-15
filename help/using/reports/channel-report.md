@@ -24,7 +24,7 @@ ht-degree: 27%
 
 >[!AVAILABILITY]
 >
->目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。[开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 >[!IMPORTANT]
 >
@@ -252,7 +252,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
 >title="按域列出的打开和点击数"
->abstract="“按域列出的打开和点击数”图表按域细分地呈现访客与电子邮件的互动。"
+>abstract="“按域列出的打开和点击数”图表按域细分地呈现访客与电子邮件的参与。"
 
 ![](assets/channel_email_open_domains.png)
 

@@ -137,7 +137,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="按参与过滤"
->abstract="此列是一个过滤器，它仅针对例如在过去 20 天内与您的品牌有过互动的用户。您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
+>abstract="此列是一个过滤器，它仅针对例如在过去 20 天内与您的品牌有过参与的用户。您还可以通过&#x200B;**编辑运行**&#x200B;选项更改此设置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"

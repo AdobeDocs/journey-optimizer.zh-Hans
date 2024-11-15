@@ -116,7 +116,7 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="提供你的应用程序 ID"
+>title="提供您的应用程序 ID"
 >abstract="输入应用程序 ID，以便在应用程序的运行环境中进行准确识别和配置，确保无缝集成和功能。"
 
 >[!CONTEXTUALHELP]
@@ -178,7 +178,7 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
->title="为你的组件添加表面 URI"
+>title="为您的组件添加表面 URI"
 >abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要定位特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
 

@@ -222,7 +222,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 电子邮件 — 最佳收件人域]**&#x200B;图和表提供了过去24小时内用户档案打开电子邮件最常用域的彻底细分。 这提供了有关用户档案行为的宝贵见解，可帮助您了解首选平台。
 
-### 电子邮件 - 优惠 {#email-offers}
+### 电子邮件 - 产品建议 {#email-offers}
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的互动的基本洞察。"
+>abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
 
 **[!UICONTROL 应用程序内性能]** KPI可提供过去24小时内用户档案与应用程序内消息互动情况的基本见解，从而提供评估应用程序内营销活动效果和影响的基本量度。
 
@@ -507,7 +507,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
 >title="Web 性能"
->abstract="“Web 性能”KPI 提供有关过去 24 小时内访客与 Web 体验的互动的全面信息。"
+>abstract="“Web 性能”KPI 提供有关过去 24 小时内访客与 Web 体验的参与的全面信息。"
 
 ![](assets/campaign_live_web_performance.png)
 
@@ -545,7 +545,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_interactions"
 >title="按元素列出的交互"
->abstract="“按元素列出的交互”表提供有关过去 24 小时内访客与网页上不同元素进行互动的关键信息。"
+>abstract="“按元素列出的交互”表提供有关过去 24 小时内访客与网页上不同元素进行参与的关键信息。"
 
 **[!UICONTROL 按元素列出的交互]**&#x200B;表提供了有关访客在过去24小时内与网页上各种元素的参与情况的全面信息，提供了有关用户交互和偏好设置的宝贵见解。
 

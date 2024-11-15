@@ -18,13 +18,13 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="定义您的选择策略"
->abstract="选择策略是一个可重复的项，它由与资格约束和排名方法关联的收藏集组成，以确定在决策策略中选择时要显示的报价。"
+>abstract="选择策略是一个可重复的项，它由与资格约束和排名方法关联的集合组成，以确定在决策策略中选择时要显示的报价。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合条件的轮廓"
->abstract="可限制为此选择策略选择优惠。默认情况下，所有轮廓都符合条件，但您可以使用受众或规则将选件选择限制为仅特定轮廓。"
+>abstract="可限制为此选择策略选择产品建议。默认情况下，所有轮廓都符合条件，但您可以使用受众或规则将选件选择限制为仅特定轮廓。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用决策规则"
 
@@ -86,7 +86,7 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
->title="定义如何为优惠排名"
+>title="定义如何为产品建议排名"
 >abstract="如果多个选件符合给定选择策略的条件，请在创建选择策略时，选择将为每个轮廓选择最佳选件的方法：优先级或排名公式。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 

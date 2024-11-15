@@ -40,7 +40,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定义要返回的项数"
->abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前配置显示最佳的 2 个合格优惠。"
+>abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前配置显示最佳的 2 个合格产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"

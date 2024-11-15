@@ -4,13 +4,13 @@ description: 了解如何为历程创建上限规则以及如何仲裁历程条�
 role: User
 level: Beginner
 badge: label="有限发布版"
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
-
 
 # 历程上限和仲裁 {#journey-capping}
 
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 ➡️ [在视频中了解此功能](#video)
 
-## 创建历程上限规则 {#create-rule}
+## 创建历程频率上限规则 {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -37,7 +37,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="规则类型"
->abstract="指定规则的上限类型。 **[!UICONTROL 历程条目上限]**&#x200B;限制配置文件在给定时间段内进入历程的条目数，而&#x200B;**[!UICONTROL 历程并发上限]**&#x200B;限制配置文件可同时注册的历程数。"
+>abstract="指定规则的频率上限类型。**[!UICONTROL 历程入口上限]**&#x200B;限制轮廓在给定时间段内进入历程的次数，同时&#x200B;**[!UICONTROL 历程并发上限]**&#x200B;限制了一个轮廓可以同时注册的行程数量。"
 
 要创建历程上限规则，请执行以下步骤：
 
@@ -103,7 +103,7 @@ ht-degree: 18%
 
    ![](assets/journey-capping-activate-rule-set.png)
 
-## 将上限规则应用于历程 {#apply-capping}
+## 将频率上限规则应用于历程 {#apply-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"

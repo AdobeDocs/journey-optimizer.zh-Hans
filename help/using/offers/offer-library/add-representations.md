@@ -1,5 +1,5 @@
 ---
-title: 将呈现添加到优惠
+title: 将呈现添加到产品建议
 description: 了解如何向优惠添加呈现
 feature: Decision Management
 topic: Integrations
@@ -13,14 +13,14 @@ ht-degree: 7%
 
 ---
 
-# 将呈现添加到优惠 {#add-representations}
+# 将呈现添加到产品建议 {#add-representations}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="呈现"
->abstract="添加呈现以定义您的优惠在消息中显示的位置。优惠的呈现越多，在不同的投放上下文中使用该优惠的机会就越多。"
+>abstract="添加呈现以定义您的产品建议在消息中显示的位置。产品建议的呈现越多，在不同的投放上下文中使用该产品建议的机会就越多。"
 
-选件可以显示在消息中的不同位置：在带有图像的顶部横幅中、作为段落中的文本或者HTML块中，等等。 优惠的呈现越多，在不同的投放上下文中使用该优惠的机会就越多。
+选件可以显示在消息中的不同位置：在带有图像的顶部横幅中、作为段落中的文本或者HTML块中，等等。 产品建议的呈现越多，在不同的投放上下文中使用该产品建议的机会就越多。
 
 ## 配置优惠的呈现 {#representations}
 

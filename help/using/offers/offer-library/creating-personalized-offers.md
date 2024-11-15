@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -31,23 +31,23 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="关于优惠属性"
->abstract="借助优惠属性，可将键值对与优惠相关联，作报告和分析用途。"
+>title="关于产品建议属性"
+>abstract="借助产品建议属性，可将键值对与产品建议相关联，作报告和分析用途。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="优惠属性"
->abstract="借助优惠属性，可将键值对与优惠相关联，作报告和分析用途。"
+>title="产品建议属性"
+>abstract="借助产品建议属性，可将键值对与产品建议相关联，作报告和分析用途。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
->title="个性化优惠"
->abstract="个性化优惠是基于合格规则和约束的可定制消息。"
+>title="个性化产品建议"
+>abstract="个性化产品建议是基于合格规则和约束的可定制消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="备用选件"
->abstract="当最终用户不符合任何个性化优惠的资格时，后备优惠是显示的默认优惠。"
+>abstract="后备产品建议是当最终用户没有资格获得任何个性化产品建议时显示的默认产品建议。"
 
 要创建&#x200B;**选件**，请执行以下步骤：
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 
    ![](../assets/offer_manage-access.png)
 
-1. 添加呈现以定义您的优惠在消息中显示的位置。[了解详情](add-representations.md)
+1. 添加呈现以定义您的产品建议在消息中显示的位置。[了解详情](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
