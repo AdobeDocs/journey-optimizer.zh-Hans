@@ -5,22 +5,22 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: 3fb9e6cd61e73e9ddf1971f6aa8e15c8b82b8445
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '342'
 ht-degree: 6%
 
 ---
 
 # Decisioning用例 {#experience-decisioning-uc}
 
-在此使用案例中，您定义了两种投放处理，每种处理包含不同的决策策略，以便衡量哪种策略对目标受众的表现最好。
+在此使用案例中，您将创建一个营销活动，在该活动中定义两个投放处理，每个处理都包含不同的决策策略，以衡量哪个策略对目标受众的表现最好。
 
-## 创建项目和策略
+## 创建决策项和选择策略
 
 您首先需要创建项目，在收藏集中将其分组，设置规则和排名方法。 这些元素将允许您构建选择策略。
 
-1. 导航到&#x200B;**[!UICONTROL 决策]** > **[!UICONTROL 目录]**&#x200B;并创建多个选件项。 使用受众或规则设置约束，将每个项目限制为仅访问特定用户档案。 [了解详情](items.md)
+1. 导航到&#x200B;**[!UICONTROL 决策]** > **[!UICONTROL 目录]**&#x200B;并创建多个决策项。 使用受众或规则设置约束，将每个项目限制为仅访问特定用户档案。 [了解详情](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->
@@ -37,11 +37,11 @@ ht-degree: 6%
 
 要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请向基于代码的营销活动添加决策策略。
 
-定义两个投放处理，每个处理包含不同的决策策略。
+<!--Define two delivery treatments each containing a different decision policy.-->
 
-1. 创建营销活动并选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。 [了解详情](../code-based/create-code-based.md)
+1. 创建营销活动，然后选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。 [了解详情](../code-based/create-code-based.md)
 
-1. 在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。 [了解详情](../content-management/content-experiment.md)
+1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口，开始个性化处理A。
 
 1. 选择&#x200B;**[!UICONTROL 决策]**&#x200B;图标，单击&#x200B;**[!UICONTROL 创建决策]**&#x200B;并填写决策详细信息。 [了解详情](create-decision.md)
 
@@ -61,7 +61,9 @@ ht-degree: 6%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-1. 构建处理B并重复上述步骤以创建另一个决策。
+1. 在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。 [了解详情](../content-management/content-experiment.md)
+
+1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口中，选择您的处理B以更改内容，并重复上述步骤以创建另一个决策。
 
 1. 保存您的内容。
 
