@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9c5dd4a8de32ccc037d6c8d57667ce3a5f455535
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '5724'
+source-wordcount: '5736'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 * 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。[了解详情](../code-based/create-code-based.md#preview-on-device)
 * 添加了有关如何利用自定义上传受众进行决策的新页面。[了解详情](../offers/custom-upload-decisioning.md)
 * 添加了新页面，以介绍Journey Optimizer中可用的决策功能。 [了解详情](../experience-decisioning/gs-decision.md)
+* 决策文档中添加了护栏和限制。 [了解详情](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}
 

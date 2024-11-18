@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 24%
+source-wordcount: '548'
+ht-degree: 17%
 
 ---
 
@@ -20,6 +20,26 @@ ht-degree: 24%
 通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
 这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 决策决策策略仅在基于代码的体验营销活动中可用。
+
+## 护栏和限制 {#guardrails}
+
+要确保优化使用决策，请牢记以下护栏和限制：
+
+### 常规护栏 {#general}
+
+* **优惠项目**：每个项目集合最多可包含500个优惠项目。
+* **自定义属性**：决策项最多可包含100个自定义属性。
+* **每个策略的选择策略和手动项目**：决策策略支持最多10个选择策略和手动项目组合。
+
+### 资格规则 {#eligibility}
+
+* **嵌套级别**：嵌套深度限制为30个级别。 这是通过计数PQL字符串中的`)`个右括号来测量的。
+* **规则字符串大小**：对于UTF-8编码字符，规则字符串的大小最多可达15KB。 这相当于15,000个ASCII字符（每个1字节），或3,750-7,500个非ASCII字符（每个2-4字节）。
+
+### 排名公式 {#ranking}
+
+* **嵌套级别**：嵌套深度限制为30个级别。 这是通过计数PQL字符串中的`)`个右括号来测量的。
+* **公式字符串大小**：对于UTF-8编码字符，规则字符串的大小最多可达8KB。 到8,000个ASCII字符（每个1字节），或2,000-4,000个非ASCII字符（每个2-4字节）。
 
 ## 决策关键步骤 {#steps}
 
