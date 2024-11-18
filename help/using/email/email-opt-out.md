@@ -35,7 +35,7 @@ ht-degree: 28%
 
 ## 一步式选择退出 {#opt-out-one-step}
 
-### 电子邮件标题中的一键取消订阅 URL {#unsubscribe-header}
+### 电子邮件标头中的一键取消订阅 URL {#unsubscribe-header}
 
 <!--Do not modify - Legal Review Done -->
 

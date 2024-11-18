@@ -100,12 +100,12 @@ ht-degree: 10%
 * [配置推送渠道](push-gs.md)
 * [在历程中添加消息](../building-journeys/journeys-message.md)
 
-## 快速传递模式 {#rapid-delivery}
+## 快速投放模式 {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="快速传递模式"
->abstract="快速传递模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
+>title="快速投放模式"
+>abstract="快速投放模式让您可以在推送渠道上，在不超过 3000 万的受众规模下执行高速消息发送。"
 
 快速传递模式是一个[!DNL Journey Optimizer]加载项，允许通过营销活动以非常快的速度发送大量推送消息。
 

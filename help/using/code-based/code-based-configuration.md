@@ -78,7 +78,7 @@ ht-degree: 40%
 >
 >您的应用程序实施团队负责发出显式API或SDK调用，以获取选定基于代码的体验配置中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
-### 网络平台 {#web}
+### Web 平台 {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"

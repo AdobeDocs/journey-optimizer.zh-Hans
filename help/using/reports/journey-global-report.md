@@ -250,7 +250,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="电子邮件 - 发送效果"
->abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的洞察，从而可详细地分析电子邮件送达过程。"
+>abstract="“电子邮件 - 发送效果”图表呈现有关已发送的电子邮件的全面数据，其中提供对是否送达和退回次数等关键量度的洞察，从而可详细地分析电子邮件投放过程。"
 
 ![](assets/journey_email_performance.png)
 
