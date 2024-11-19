@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3598'
+ht-degree: 100%
 
 ---
 
@@ -449,7 +449,6 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 电子邮件设计器集成插件为客户提供一种简单的方式来导航、许可和保存图像，用于消息创作。使用</br>全新的<b>查找类似 Stock 照片</b>选项，您可查找与图像的内容、颜色以及合成匹配的照片库。 </p>
-<!--img src="assets/do-not-localize/stock-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../content-management/stock.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -466,7 +465,6 @@ ht-degree: 0%
 <tr>
 <td>
 <p>现在，您可以使用电子邮件密送功能存储由 Adobe Journey Optimizer 发送的电子邮件。在电子邮件预设中启用此选项，以便发送的每封电子邮件都会密送至您的密送电子邮件地址。</p>
-<!--img src="assets/do-not-localize/bcc-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../configuration/archiving-support.md#bcc-email">详细文档</a>。</p>
 </td>
 </tr>
@@ -547,7 +545,6 @@ ht-degree: 0%
 <tr>
 <td>
 <p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的用户档案。</p>
-<!--img src="assets/do-not-localize/frequency-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../configuration/frequency-rules.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -564,7 +561,6 @@ ht-degree: 0%
 <tr>
 <td>
 <p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定用户档案显示优惠排名。</p>
-<!--img src="assets/do-not-localize/optimization.gif"/-->
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">详细文档</a>。</p>
 </td>
 </tr>
@@ -598,7 +594,6 @@ ht-degree: 0%
 <tr>
 <td>
 <p>您现在可以监测用户对 Adobe Journey Optimizer 资源执行的操作。</p>
-<!--img src="assets/do-not-localize/audit-rn.gif"/-->
 <p>有关更多信息，请参阅<a href="../privacy/audit-logs.md">详细文档</a>。</p>
 </td>
 </tr>
