@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1760'
 ht-degree: 6%
 
 ---
@@ -92,108 +92,108 @@ IP预热是一项活动，包括逐渐增加从您的IP和域发送到主要Inte
 
 ![](assets/ip-warmup-sample-file.png)
 
-### “IP预热计划”选项卡 {#ip-warmup-plan-tab}
+### “预热计划”选项卡 {#ip-warmup-plan-tab}
 
-* 在此示例中，已准备了一个跨越17天（称为“**运行**”）的计划，以实现超过100万个配置文件的目标卷。
+要创建IP预热计划，请在第一个选项卡中填写提供计划所需数据。
+
+* 在上面的示例中，已准备了一个跨越17天（称为“**运行**”）的计划，以实现超过100万个配置文件的目标卷。
 
 * 此计划通过六个&#x200B;**阶段**&#x200B;执行，每个阶段至少包含一个运行。
 
 * 您最多可以有6列（4列用于域组，一个用于&#x200B;**其他**&#x200B;列，一个用于&#x200B;**参与天数**&#x200B;列）。 在此示例中，计划分为六个列：
 
-   * 其中三个对应于要在您的计划中使用的&#x200B;**现成的域组**(Gmail、Microsoft和Orange)。
-   * 一个与自定义域组（需要使用[自定义域组](#custom-domain-group-tab)选项卡添加）相对应。
+   * 其中三个对应于要在您的计划(Gmail、Yahoo和Microsoft)中使用的&#x200B;**现成的域组**。 现成的域组都列在[OOTB域组](#ootb-domain-groups-tab)选项卡中。
+   * 一列对应于自定义域组（您需要使用[自定义域组](#custom-domain-group-tab)选项卡添加该组）。
    * 第五列&#x200B;**Others**&#x200B;包含计划中未明确涵盖的其他域的所有剩余地址。 此列是可选的：如果忽略，电子邮件将只发送到指定的域。
    * 最后一列&#x200B;**参与天数**&#x200B;允许您指定应跟踪或评估参与的天数。
 
 其思想是逐步增加每次运行的目标地址数量，同时减少每个阶段的运行数量。
 
-下面列出了可添加到计划中的现成主域组：
+### “自定义域组”选项卡 {#custom-domain-group-tab}
 
-<!--
-* Gmail
-* Adobe
-* WP
-* Comcast
-* Yahoo
-* Bigpond
-* Orange
-* Softbank
-* Docomo
-* United Internet
-* Microsoft
-* KDDI
-* Italia Online
-* La Poste
-* Apple
--->
+您还可以通过包含自定义域组向计划添加更多列。
+
+使用&#x200B;**[!UICONTROL 自定义域组]**&#x200B;选项卡定义新的域组。 对于每个域，您可以添加它涵盖的所有子域。
+
+>[!IMPORTANT]
+>
+>确保每个域对于其域组都是唯一的，并且不与其他域组或[现成的域组](#ootb-domain-groups-tab)重叠。
+
+例如，如果添加自定义域Roadrunner，则需要包含以下子域，如以下示例中的：roadrunner.com、nc.rr.com、tampabay.rr.com、rochester.rr.com等。
+
+![](assets/ip-warmup-sample-file-custom.png)
+
+>[!NOTE]
+>
+>如果您不需要自定义域，请将&#x200B;**[!UICONTROL 自定义域组]**&#x200B;选项卡留空。
+
+### “OOTB域组”选项卡 {#ootb-domain-groups-tab}
+
+IP预热计划模板的&#x200B;**OOTB域组**&#x200B;选项卡包含您可以添加到计划中的所有现成主域组。
+
+![](assets/ip-warmup-sample-file-ootb.png)
+
+>[!NOTE]
+>
+>如果此选项卡中未列出域组，则需要在相应的选项卡中创建自定义域组。 [了解详情](#custom-domain-group-tab)
+
+现成的主域组也如下所列：
 
 +++ Gmail
 gmail.com；google.com；googlemail.com；googlemail.co.uk
-+++
-
-+++WP
-wp.pl；o2.pl
-+++
-
-+++Comcast
-comcast.net
-+++
-
-+++Yahoo
-aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；；yahoo.fi；；aolcom.tr；yahoo.si；aol.it；aol；it；yahoo.es；yahoo.dk；yahoogroups.ca；；aol.kr；yahoo.ie；aol.jp；；yahoo.lt aol.nl； yahoo.bg；；aol.se；；yahoo.de；；；yahoo.nl；；；；Yahol.se； myaol.jp； myaol.jp yahoo.pt；；yahoogrupper.dk； yahoo.fr；；aol.pl；；aol.ch； yahoo.it；；aolpolcka.pl；；ahogruppi.it；；yahoo.cl；；；yahoo.be；；；aol.tw；；；；；；aol.ru；；；yahoo.lv；aolpolska.pl；aol.at；yahoo.pl
-+++
-
-+++大池塘
-bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
-+++
-
-+++橙色
-voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
-+++
-
-+++软银
-c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp；r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；；
-+++
-
-+++多科莫
-docomo.ne.jp
-+++
-
-+++联合互联网
-gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
 +++
 
 +++Microsoft
 hotmail.com.tr；live.de；live.ru；live.nl；windowslive.com；live.jp；mts.net；xbox.com；hotmail.fr；hotmail.cl；hotmail.jp；live.cl；live.at；live.com.au；hotmail.co.th；live.hk；hotmail.com.au；hotmail.com；live.com.my hotmail.co.kr outlook.com.br hotmail.co.il live.co.kr live.co.uk live.com.mx hotmail.co.uk live.com.sg msn.com hotmail.co.jp live.co.za live.com.pt outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar；live.ie；；hotmail.dk；live.no；live.dk；hotmail.it；live.se；live.be；；live.in；hotmail.se；；hotmail.ch；；hotmail.gmail r；live.it；；hotmail.ca；；live.ca；hotmail.de
 +++
 
-+++KDDI
-au.com；ezweb.ne.jp；uqmobile.jp
-+++
-
-+++意大利在线
-inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
-+++
-
-+++拉波斯特
-laposte.net
++++Yahoo
+aol.fi；games.com；cs.com；yahoo.com.in；y7mail.com；yahoo.co.uk；yahoo.hu；yahoo.co.hu；yahoo.cn；yahoogroups.com.sg；yahoogroups.com.au；aol.es；yahoo.com.au yahoo.com.vn aol.co.nz yahoo.com.br yahoo.ne.jp ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua；yahoo.ca；aol.hk；；aolpoland.pl；aolnorge.no；；yahoo.fi；；aolcom.tr；yahoo.si；aol.it；aol；it；yahoo.es；yahoo.dk；yahoogroups.ca；；aol.kr；yahoo.ie；aol.jp；；yahoo.lt aol.nl； yahoo.bg；；aol.se；；yahoo.de；；；yahoo.nl；；；；Yahol.se； myaol.jp； myaol.jp yahoo.pt；；yahoogrupper.dk； yahoo.fr；；aol.pl；；aol.ch； yahoo.it；；aolpolcka.pl；；ahogruppi.it；；yahoo.cl；；；yahoo.be；；；aol.tw；；；；；；aol.ru；；；yahoo.lv；aolpolska.pl；aol.at；yahoo.pl
 +++
 
 +++Apple
 mac.com；icloud.com；apple.com；me.com
 +++
 
-### “自定义域组”选项卡 {#custom-domain-group-tab}
++++Comcast
+comcast.net
++++
 
-您还可以通过包含自定义域组向计划添加更多列。
++++橙色
+voila.com；francetelecom.com；orange.com；orange.fr；wanadoo.fr；voila.fr
++++
 
-使用&#x200B;**[!UICONTROL 自定义域组]**&#x200B;选项卡定义新的域组。 对于每个域，您可以添加它覆盖的所有子域。<!--TBC-->
++++拉波斯特
+laposte.net
++++
 
-对于上述计划中使用的域组，请确保每个域对于其域组都是唯一的，并且不与其他域组重叠。 由于全局域组是自动定义的，因此用户在创建自定义域组时应考虑这一点。
++++意大利在线
+inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
++++
 
-例如，如果添加自定义域Luma，则需要包含以下子域：luma.com、luma.co.uk、luma.it、luma.fr、luma.de等。
++++WP
+wp.pl；o2.pl
++++
 
-![](assets/ip-warmup-sample-file-custom.png)
++++联合互联网
+gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
++++
+
++++大池塘
+bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
++++
+
++++多科莫
+docomo.ne.jp
++++
+
++++软银
+c.vodafone.ne.jp；jp-h.ne.jp；k.vodafone.ne.jp；jp-d.ne.jp；jp-c.ne.jp；t.vodafone.ne.jp；h.vodafone.ne.jp；r.vodafone.ne.jp；q.vodafone.ne.jp jp-t.ne.jp jp-q.ne.jp s.vodafone.ne.jp jp-s.ne.jp jp-r.ne.jp jp-k.ne.jp n.vodafone.ne.jp d.vodafone.ne.jp softbank.ne.jp jp-n.ne.jp；；；；；；；；；；
++++
+
++++KDDI
+au.com；ezweb.ne.jp；uqmobile.jp
++++
 
 ### 示例 {#example}
 
@@ -208,13 +208,13 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 1. 在同一行中添加所有Hotmail域。
 
-   您可以[复制并粘贴[IP预热计划选项卡](#ip-warmup-plan-tab)部分中列出的所有Hotmail域](#copy-paste)。
+   您可以[复制并粘贴[OOTB域组选项卡](#ootb-domain-groups-tab)部分中列出的所有Hotmail域](#copy-paste)。
 
 1. 添加另一行。
 
 1. 创建&#x200B;**Microsoft_X**&#x200B;域组。
 
-1. 在同一行中添加所有非Hotmail的Microsoft域。 同样，您也可以从上述列表中复制并粘贴它们。 [了解详情](#copy-paste)
+1. 在同一行中添加所有非Hotmail的Microsoft域。 同样，您可从上述列表中[复制并粘贴](#copy-paste)它们。
 
 1. 返回&#x200B;**[!UICONTROL IP预热计划]**&#x200B;选项卡。
 
@@ -226,7 +226,7 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 
 ### 复制粘贴默认域 {#copy-paste}
 
-例如，如果您要创建包含所有Hotmail域的自定义域组，则可以从上面提供的[中的默认列表复制并粘贴域](#ip-warmup-plan-tab)。
+例如，如果您要创建包含所有Hotmail域的自定义域组，则可以从[IP预热计划模板](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB域组**&#x200B;选项卡或以上[提供的列表](#ip-warmup-plan-tab)复制并粘贴域。
 
 然后使用Excel转换工具将文本转换为列：
 

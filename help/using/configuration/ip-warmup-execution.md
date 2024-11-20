@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2628'
 ht-degree: 11%
 
 ---
@@ -103,7 +103,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >此分区不可编辑。
 
-1. 如果需要，您可以使用&#x200B;**[!UICONTROL 替换]**&#x200B;按钮替换营销活动。 您还可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按钮&#x200B;**[!UICONTROL 清除]**&#x200B;选定的营销活动。 此操作不仅会清除营销活动，还会清除其他阶段级别属性，例如域组排除、营销活动、历程排除等。 清除后，您可以立即或稍后选择新的营销策划。
+1. 如果需要，您可以使用&#x200B;**[!UICONTROL 替换]**&#x200B;按钮替换营销活动。 您还可以使用&#x200B;**[!UICONTROL 清除]**&#x200B;按钮&#x200B;**[!UICONTROL 清除]**&#x200B;选定的营销活动。 此操作不仅会清除营销活动，还会清除其他阶段级别属性(域组不包括、营销活动、历程排除等)。 清除后，您可以立即或稍后选择新的营销策划。
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -187,6 +187,12 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. 选择&#x200B;**[!UICONTROL 发生错误时取消激活的运行]**&#x200B;选项，以便在评估受众运行后，如果合格的配置文件少于目标配置文件，则取消该运行。 在这种情况下，该运行采用&#x200B;**[!UICONTROL 失败]**&#x200B;状态。
 
    ![](assets/ip-warmup-plan-pause.png)
+
+   如果符合条件的用户档案数与目标用户档案数不匹配（例如，运行时目标用户档案数是1500个Gmail地址，但只有700个Gmail用户档案符合条件）：
+
+   * 如果启用了该选项，则运行将失败。 然后，您可以选择在下一次运行时定位较少的配置文件，或选择[将运行](#split-phase)拆分为新阶段，并为新阶段选择新的营销活动以再次定位相同的配置文件。
+
+   * 如果未启用该选项，则会执行运行，但只定向可用的配置文件数。
 
 1. **[!UICONTROL 激活]**&#x200B;运行。 [了解详情](#activate-run)
 
