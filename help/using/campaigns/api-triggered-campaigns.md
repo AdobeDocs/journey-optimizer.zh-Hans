@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 关于API触发的营销活动 {#about}
 
-通过[!DNL Journey Optimizer]，您可以使用[交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)创建营销活动，然后基于用户触发器从外部系统调用它们。 这允许您满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
+通过[!DNL Journey Optimizer]，您可以使用[交互式消息执行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)创建营销活动，然后基于用户触发器从外部系统执行这些营销活动。 这允许您满足各种营销和事务性消息传递需求，如密码重置、OTP令牌等。
 
 为此，您首先需要在Journey Optimizer中创建一个API触发的营销活动，然后通过API调用启动其执行。
 

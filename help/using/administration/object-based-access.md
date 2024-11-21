@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >title="访问管理标签"
 >abstract="您可以根据访问标签限制对此营销活动的访问。 要添加访问限制，请浏览至此页顶部的&#x200B;**管理访问**&#x200B;按钮。 确保仅选择您具有权限的标签。"
 
-对象级访问控制(OLAC)允许您定义管理对所选对象的数据访问的授权：
+对象级访问控制(OLAC)功能允许您定义管理对所选对象的数据访问的授权：
 
 * 历程
 * Campaign
@@ -35,8 +35,6 @@ ht-degree: 6%
 * 优惠决策
 * 渠道配置
 * IP预热计划
-
-利用标准化标签，可根据受众的治理和访问控制策略对受众进行分类。 例如，可以使用受众标签来阻止品牌通过网站广告来定位特定受众的成员。
 
 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 

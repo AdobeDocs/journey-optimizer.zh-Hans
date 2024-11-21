@@ -9,16 +9,16 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，属性，授权，数据，访问，敏感，资产
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 基于属性的访问控制 {#attribute-based-access}
 
-通过基于属性的访问控制(ABAC)，可定义用于管理特定团队或用户组的数据访问的授权。 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
+通过基于属性的访问控制(ABAC)功能，可定义用于管理特定团队或用户组的数据访问的授权。 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 
 在Adobe Journey Optimizer中，ABAC允许您保护数据并授予特定字段元素的特定访问权限，这些元素包括体验数据模型(XDM)架构、配置文件属性和受众。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在管理角色的权限之前，您将首先需要创建策略。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hans)。
+>在管理角色的权限之前，您将首先需要创建策略。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html#)。
 
 **[!UICONTROL 角色]**&#x200B;是组织内共享相同权限、标签和沙盒的一组用户。 属于&#x200B;**[!UICONTROL Role]**的每个用户都有资格使用产品中包含的Adobe应用程序和服务。
 如果您希望调整用户对界面中特定功能或对象的访问权限，您还可以创建自己的**[!UICONTROL 角色]**。
