@@ -1,12 +1,12 @@
 ---
 title: 创建决策策略
 description: 了解如何创建决策策略
-feature: Experience Decisioning
+feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 14%
