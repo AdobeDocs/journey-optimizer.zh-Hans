@@ -9,14 +9,16 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 27%
+source-wordcount: '995'
+ht-degree: 19%
 
 ---
 
 # 创建营销活动 {#create-campaign}
+
+要创建新营销活动，请访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
 >[!NOTE]
 >
@@ -24,8 +26,6 @@ ht-degree: 27%
 >
 >* [创建渠道配置](../configuration/channel-surfaces.md)
 >* [开始使用受众](../audience/about-audiences.md)
-
-要创建新营销活动，请访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
 
 ## 选择营销活动类型 {#campaigntype}
 
@@ -46,37 +46,44 @@ ht-degree: 27%
 
 ## 定义营销活动属性 {#create}
 
-1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，指定营销活动的名称和描述。
+1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，输入营销策划的名称和描述。
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)
+1. 使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-1. 要向营销活动分配自定义或核心数据使用标签，请单击&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。 [了解有关对象级访问控制(OLA)的更多信息](../administration/object-based-access.md)
+1. 您可以根据访问标签限制对此营销活动的访问。 要添加访问限制，请浏览至此页顶部的&#x200B;**[!UICONTROL 管理访问]**&#x200B;按钮。 确保仅选择您具有权限的标签。 [了解有关对象级访问控制的更多信息](../administration/object-based-access.md)。
 
 ## 定义活动受众 {#audience}
 
-定义营销活动定向的群体，请执行以下步骤：
+受众是指一组具有相似行为和/或特征的人员。 要定义营销活动定向的群体，请执行以下步骤：
 
->[!IMPORTANT]
->
->来自[受众合成](../audience/get-started-audience-orchestration.md)的受众和属性当前不可用于Healthcare Shield或Privacy and Security Shield。
->
->对于API触发的营销活动，需要通过API调用设置受众。
+1. 在&#x200B;**受众**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以显示可用Adobe Experience Platform受众列表。 在[本节](../audience/about-audiences.md)中了解有关受众的更多信息。
 
-1. 在&#x200B;**受众**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以显示可用Adobe Experience Platform受众列表。 [详细了解受众](../audience/about-audiences.md)。
+1. 在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型或使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}中列出了标准身份命名空间。
 
-1. 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;字段中，选择要使用的命名空间，以便识别所选区段中的个人。
-
-   如果属于区段的个人在不同身份中没有所选身份（命名空间），则不会将该营销活动定位到该区段。 [了解关于命名空间的更多信息](../event/about-creating.md#select-the-namespace)
+   每个营销活动只允许一个标识类型。 如果属于区段的个人在不同的身份中没有选定的身份类型，则无法将该群体作为目标。
 
    ![](assets/create-campaign-namespace.png)
 
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hans){target="_blank"}中了解有关身份类型和命名空间的更多信息。
+
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+>[!IMPORTANT]
+>
+>* 来自[受众合成](../audience/get-started-audience-orchestration.md)的受众和属性当前不可用于Healthcare Shield或Privacy and Security Shield。
+>
+>* 对于API触发的营销活动，需要通过API调用设置受众。
+
 
 ## 创建消息并配置跟踪 {#content}
 
-1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择或创建新配置。
+1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择渠道。
+
+   可用渠道的列表取决于您的许可模式。 对于API触发的事务型营销活动，只有电子邮件、短信和推送通知渠道可用。
+
+1. 选择渠道配置。
 
    配置由[系统管理员](../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解详情](../configuration/channel-surfaces.md)。
 
@@ -121,11 +128,11 @@ ht-degree: 27%
     </tr>
     </table>
 
-1. 定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试包含测试用户档案的内容。 [了解详情](../content-management/preview-test.md)。
-
-1. 单击箭头以返回营销策划创建屏幕。
+   定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试包含测试用户档案的内容。 [了解详情](../content-management/preview-test.md)。要浏览回促销活动创建屏幕，请单击向左箭头。
 
    ![](assets/create-campaign-design.png)
+
+1. 在&#x200B;**[!UICONTROL 内容试验]**&#x200B;部分中，您可以使用&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮来测试哪些内容效果更好。 [此部分](../content-management/content-experiment.md)中详细介绍了内容试验功能。
 
 1. 在&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中，指定是否要跟踪收件人对投放的反应：您可以跟踪点击次数和/或打开次数。
 
@@ -136,7 +143,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即终止。不过，可灵活地设置特定日期和时间以发送消息。此外，还可为定期营销活动或 API 触发的营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送一次消息后立即结束。 您可以灵活地为要发送的消息设置特定的日期和时间。 此外，还可为定期营销活动或 API 触发的营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -161,4 +168,4 @@ ht-degree: 27%
 
 ![](assets/create-campaign-schedule.png)
 
-活动准备就绪后，即可进行审查和发布。 [了解详情](review-activate-campaign.md)
+营销活动准备就绪后，即可进行审查和激活。 [了解详情](review-activate-campaign.md)
