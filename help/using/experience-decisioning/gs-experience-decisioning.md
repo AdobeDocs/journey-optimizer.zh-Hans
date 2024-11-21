@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
+source-git-commit: 6b0735f619379e01e87012ba4300c0ec41334fd4
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 17%
+source-wordcount: '609'
+ht-degree: 15%
 
 ---
 
@@ -69,14 +69,28 @@ ht-degree: 17%
 
 1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制项目目录。
 
+   ➡️[了解如何配置项目目录](catalogs.md)
+
 1. **创建决策项**&#x200B;以向您的目标受众显示。
+
+   ➡️[了解如何创建决策项](items.md) （[API文档](api-reference/decisions-items/create.md)）
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
+   ➡️[了解如何管理项目集合](collections.md) （[API文档](api-reference/items-collections/create.md)）
+
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
+
+   ➡️[了解如何创建决策规则](rules.md)
 
 1. **实施排名方法**：创建排名方法并在决策策略中应用这些方法以确定选择决策项的优先级顺序。
 
+   ➡️[了解如何创建排名方法](ranking.md)
+
 1. **创建选择策略**：构建选择策略，该策略利用收藏集、决策规则和排名方法来识别适合显示到用户档案的决策项目。
 
-1. **将决策策略嵌入到基于代码的营销活动中**：决策策略将多个选择策略相结合，以确定向目标受众显示的合格决策项。
+   ➡️[了解如何创建选择策略](selection-strategies.md) （[API文档](api-reference/selection-strategies/create.md)）
+
+1. **创建决策策略并将其嵌入基于代码的营销活动**：决策策略将多个选择策略相结合，以确定要向目标受众显示的合格决策项。
+
+   ➡️[了解如何使用决策策略](create-decision.md)
