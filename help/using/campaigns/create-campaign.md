@@ -9,23 +9,18 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: d39d46ad5376bb8418331f788e4287e21e4322a4
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 18%
+source-wordcount: '1221'
+ht-degree: 17%
 
 ---
 
 # 创建营销活动 {#create-campaign}
 
-要创建新营销活动，请访问&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 您还可以复制现有的实时营销活动以创建新营销活动。 [了解详情](modify-stop-campaign.md#duplicate)
+要创建新营销活动，请浏览至左边栏上的&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 您还可以复制现有的实时营销活动以创建新营销活动。 [了解如何操作](modify-stop-campaign.md#duplicate)。
 
->[!NOTE]
->
->在创建新营销活动之前，请确保您具有可供使用的渠道配置（即消息平面）和Adobe Experience Platform受众。 请参阅以下部分以了解详情：
->
->* [创建渠道配置](../configuration/channel-surfaces.md)
->* [开始使用受众](../audience/about-audiences.md)
+开始之前，请在[此页面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)中阅读促销活动先决条件。
 
 ## 选择营销活动类型 {#campaigntype}
 
@@ -82,10 +77,9 @@ ht-degree: 18%
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 
+## 选择渠道 {#channel}
 
-## 创建消息并配置跟踪 {#content}
-
-您现在可以定义消息的内容。 按照下面的步骤进行操作：
+您现在可以选择渠道及其配置。 按照下面的步骤进行操作：
 
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择通信渠道。
 
@@ -103,42 +97,40 @@ ht-degree: 18%
    >
    >如果您正在创建推送通知营销活动，则可以启用&#x200B;**[!UICONTROL 快速传递模式]**，这是Journey Optimizer的一个加载项，允许以非常快的速度大量发送推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
 
-1. 单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮创建和设计您的消息。 在以下页面中了解创建消息内容的详细步骤：
+## 编辑内容 {#content}
 
-   <table style="table-layout:fixed">
-    <tr style="border: 0;">
-    <td>
-    <a href="../email/create-email.md">
-    <img alt="潜在客户" src="../assets/do-not-localize/email.jpg">
-    </a>
-    <div><a href="../email/create-email.md"><strong>创建电子邮件</strong>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../push/create-push.md">
-      <img alt="不频繁" src="../assets/do-not-localize/push.jpg">
-    </a>
-    <div>
-    <a href="../push/create-push.md"><strong>创建推送通知</strong></a>
-    </div>
-    <p>
-    </td>
-    <td>
-    <a href="../sms/create-sms.md">
-      <img alt="验证" src="../assets/do-not-localize/sms.jpg">
-    </a>
-    <div>
-    <a href="../sms/create-sms.md"><strong>创建短信消息</strong></a>
-    </div>
-    <p>
-    </td>
-    </tr>
-    </table>
+您现在可以从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮定义消息的内容。 内容创建过程取决于您选择的渠道。
 
-   定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试包含测试用户档案的内容。 [了解详情](../content-management/preview-test.md)。要浏览回促销活动创建屏幕，请单击向左箭头。
+在以下页面中了解创建消息内容的详细步骤：
 
-   ![](assets/create-campaign-design.png)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/create-email.md"><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/create-email.md"><strong>电子邮件</strong></a></div></td>
+<td><a href="../sms/create-sms.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/create-sms.md"><strong>短信</strong></a></div></td>
+<td><a href="../push/create-push.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/create-push.md"><strong>推送通知</strong></a></div></td>
+<td><a href="../direct-mail/create-direct-mail.md"><img alt="直邮" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/create-direct-mail.md"><strong>直邮</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/create-in-app.md"><img alt="应用程序内" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/create-in-app.md"><strong>应用程序内</strong></a></div></td>
+<td><a href="../web/create-web.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/create-web.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/create-code-based.md"><img alt="基于代码的体验" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/create-code-based.md"><strong>基于代码的体验</strong></a></div></td>
+<td><a href="../content-card/create-content-card.md"><img alt="内容卡片" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/create-content-card.md"><strong>内容卡</strong></a></div></td>
+</tr></table>
+
+定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试包含测试用户档案的内容。 [了解详情](../content-management/preview-test.md)。要浏览回促销活动创建屏幕，请单击向左箭头。
+
+![](assets/create-campaign-design.png)
+
+除了消息内容本身之外，您还可以配置以下设置：
 
 1. （可选）在&#x200B;**[!UICONTROL 内容试验]**&#x200B;部分中，可以使用&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮来测试哪些内容效果更好。 [此部分](../content-management/content-experiment.md)中详细介绍了内容试验功能。
 
