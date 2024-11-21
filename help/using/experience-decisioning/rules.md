@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 24%
+source-wordcount: '448'
+ht-degree: 20%
 
 ---
 
@@ -58,3 +58,6 @@ ht-degree: 24%
 
 1. 决策规则准备就绪后，单击&#x200B;**[!UICONTROL 保存]**。 创建的规则将显示在列表中，并可用于决策项和选择策略中，以控制将决策项呈现给用户档案。
 
+   >[!NOTE]
+   >
+   >资格规则中的嵌套深度限制为30个级别。 这是通过计数PQL字符串中的`)`个右括号来测量的。 对于UTF-8编码字符，规则字符串的大小最多可达15KB。 这相当于15,000个ASCII字符（每个1字节），或3,750-7,500个非ASCII字符（每个2-4字节）。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)

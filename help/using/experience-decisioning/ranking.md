@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 15%
+source-wordcount: '639'
+ht-degree: 13%
 
 ---
 
@@ -44,6 +44,12 @@ ht-degree: 15%
 
    * [排名公式](../offers/ranking/create-ranking-formulas.md)
    * [AI 模型](../offers/ranking/ai-models.md)
+
+   >[!NOTE]
+   >
+   >排名公式中的嵌套深度限制为30级。 这是通过计数PQL字符串中的`)`个右括号来测量的。 规则字符串的大小最多可达8KB，适用于UTF-8编码字符。 这相当于8,000个ASCII字符（每个1字节），或2,000-4,000个非ASCII字符（每个2-4字节）。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)
+
+决策策略支持最多10个选择策略和决策项目组合。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)
 
 +++ 正在自定义[!DNL Customer Journey Analytics]量度上优化模型
 

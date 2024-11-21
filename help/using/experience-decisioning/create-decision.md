@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1791'
 ht-degree: 14%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >至少需要一个决策项目或策略。 不能添加超过10个策略。
+   >决策策略支持最多10个选择策略和决策项目组合。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)
 
-1. 添加多个决策项目和/或策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个对象，依此类推。     要更改默认序列，您可以拖放对象和/或组以根据需要重新排序。 [了解有关决策策略评估顺序的更多信息](#evaluation-order)
+1. 添加多个决策项目和/或策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个对象，依此类推。 要更改默认序列，您可以拖放对象和/或组以根据需要重新排序。 [了解有关决策策略评估顺序的更多信息](#evaluation-order)
 
 ### 在决策策略中管理评估顺序 {#evaluation-order}
 

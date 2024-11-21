@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 50%
+source-wordcount: '384'
+ht-degree: 48%
 
 ---
 
@@ -50,3 +50,7 @@ ht-degree: 50%
    ![](assets/collection-create.png)
 
 1. 定义集合规则后，单击&#x200B;**[!UICONTROL 创建]**。 收藏集现在显示在列表中。
+
+>[!NOTE]
+>
+>每个项目收藏集最多可包含500个选件项目。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)

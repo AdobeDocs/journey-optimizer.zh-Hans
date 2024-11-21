@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 05ce9083d9f45332c718adc9d01ec3410ca84050
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '549'
 ht-degree: 17%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 17%
 
 * **优惠项目**：每个项目集合最多可包含500个优惠项目。
 * **自定义属性**：决策项最多可包含100个自定义属性。
-* **每个策略的选择策略和手动项目**：决策策略支持最多10个选择策略和手动项目组合。
+* **每个策略的选择策略和决策项**：决策策略支持最多10个合并的选择策略和决策项。
 
 ### 资格规则 {#eligibility}
 
@@ -39,7 +39,7 @@ ht-degree: 17%
 ### 排名公式 {#ranking}
 
 * **嵌套级别**：嵌套深度限制为30个级别。 这是通过计数PQL字符串中的`)`个右括号来测量的。
-* **公式字符串大小**：对于UTF-8编码字符，规则字符串的大小最多可达8KB。 到8,000个ASCII字符（每个1字节），或2,000-4,000个非ASCII字符（每个2-4字节）。
+* **公式字符串大小**：对于UTF-8编码字符，规则字符串的大小最多可达8KB。 这相当于8,000个ASCII字符（每个1字节），或2,000-4,000个非ASCII字符（每个2-4字节）。
 
 ## 决策关键步骤 {#steps}
 

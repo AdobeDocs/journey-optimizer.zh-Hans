@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 22eae783ec2a7db2209b2a12b78b286e4f97ee1b
+source-git-commit: c179d81e664fea2b03bf734cafaf287709fa10a0
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,8 @@ ht-degree: 0%
 
    有关如何使用Adobe Experience Platform架构的详细信息，请参阅[XDM System文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
 
-1. 添加所需的自定义属性后，保存架构。 现在，新字段在项目决策创建屏幕的&#x200B;**[!UICONTROL 自定义属性]**&#x200B;部分中可用。
+1. 添加所需的自定义属性后，保存架构。 现在，新字段在决策项创建屏幕的&#x200B;**[!UICONTROL 自定义属性]**&#x200B;部分中可用。
+
+>[!NOTE]
+>
+>决策项最多可包含100个自定义属性。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)
