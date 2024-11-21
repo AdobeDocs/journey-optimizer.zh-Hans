@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
+source-git-commit: c9efdf634831822e670257f6ee738310081a96fb
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 96%
 
 ---
 
@@ -34,10 +34,11 @@ ht-degree: 100%
 
 ➡️ [通过这些视频了解有关决策管理的更多信息](#video)
 
+## 必读 {#must-read}
 
->[!NOTE]
->
->如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} 用户并使用 **Offer Decisioning** 应用程序，则本节中介绍的所有决策管理功能也适合您。
+* 目前，决策管理不支持以下功能：对象级访问控制、字段级访问控制和同意策略实施服务。 如果要使用其中任何一项，请考虑使用Journey Optimizer [决策](../../experience-decisioning/gs-experience-decisioning.md)功能。
+
+* 如果您是 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} 用户并使用 **Offer Decisioning** 应用程序，则本节中介绍的所有决策管理功能也适合您。
 
 ## 关于优惠和决策 {#about-offers-and-decisions}
 
