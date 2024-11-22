@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: a5eacd7a746b2f17804062b23aee3146db0434c9
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 28%
+source-wordcount: '438'
+ht-degree: 24%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 28%
 
 * **测试用户档案**
 
-  使用测试用户档案来预览内容，发送电子邮件校样并检查电子邮件渲染。 如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。
+  使用测试用户档案来预览内容，发送电子邮件校样并检查电子邮件渲染。 如果您添加了个性化字段，则可以使用测试用户档案数据检查这些字段的显示方式。 有关更多信息，请参阅以下章节：
 
   ➡️[选择测试配置文件](test-profiles.md)
 
@@ -56,7 +56,7 @@ ht-degree: 28%
 
   ➡️[检查电子邮件渲染](rendering.md)
 
-  ➡️[在此视频中了解如何预览和验证电子邮件](#video-preview)
+  ➡️[预览和验证您的电子邮件（视频）](#video-preview)
 
 * **示例输入数据**
 
