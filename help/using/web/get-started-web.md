@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 81%
 
 如果您已经使用出站渠道（如电子邮件、短信或推送通知），则现在可以利用入站 Web 渠道来提供跨所有渠道的真正个性化体验。
 
-创建历程或营销策划后，选择&#x200B;**Web**&#x200B;作为您的操作并定义基本设置。 有关如何配置历程/营销活动的更多信息，请参阅此[页面](create-web.md#create-web-experience)。
+创建历程或营销活动后，选择 **Web** 作为操作并定义基本设置。有关如何配置历程/营销活动的更多信息，请参阅此[页面](create-web.md#create-web-experience)。
 
 >[!NOTE]
 >

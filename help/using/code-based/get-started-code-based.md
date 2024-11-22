@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 94%
 
 * 使用[个性化编辑器](create-code-based.md#edit-code)编辑内容。
 * 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-configuration.md#surface-definition)
-* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，务必要确定应用程序上需要修改以进行个性化或测试的组件（主页横幅、主页图像、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
+* 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须要确定应用程序上的需要修改以进行个性化或测试的组件（主页横幅、主图、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用 JSON 代码内容。
 * 它是以开发人员为中心的。
 

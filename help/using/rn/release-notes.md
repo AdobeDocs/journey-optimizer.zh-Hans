@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 97b6041d4b8523b11b13dd78cd8b241a6410f1bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2103'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 ### 新功能 {#24-10-features}
 
-此版本新增了以下详细介绍的功能：
+此版本引入了下方详述的新功能：
 
 <table>
 <thead>
@@ -119,14 +119,14 @@ ht-degree: 78%
 <td>
 <p>您现在可以将 Mobile Ink Da Vinci 与 Adobe Journey Optimizer 集成。通过此新集成，您可以： </p>
 <p><ul><li>利用 Mobile Ink Da Vinci 产品中的强大功能，为批量营销活动编写并个性化电子邮件变体</li>
-<li>使用Da Vinci进行创作，使用Adobe Journey Optimizer进行优化和交付，加快Journey Optimizer客户的从业人员工作流程</li>
+<li>使用 Da Vinci 进行创作，使用 Adobe Journey Optimizer 进行优化和投放，加快 Journey Optimizer 客户的从业人员工作流程</li>
 <li>使用 Adobe 数据优化 Da Vinci 模型。</li></ul></p>
-<p>有关详细信息，请参阅<a href="https://movableink.com/adobe-and-movable-ink">可移动墨迹达芬奇文档</a>。</p>
+<p>有关详细信息，请参阅 <a href="https://movableink.com/adobe-and-movable-ink">Movable Ink Da Vinci 文档</a>。</p>
 </tr>
 </tbody>
 </table>
 
-以前对一组组织(LA)可用，现在所有用户(GA)都可以使用以下功能：
+以下功能此前面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)：
 
 <table>
 <thead>
@@ -227,10 +227,10 @@ ht-degree: 78%
 <tr>
 <td>
 <p>Journey Optimizer 报告功能现已正式发布 (GA)，改善了与客户历程分析的互操作性，可在两个平台之间实现报告标准化，并提高了数据一致性和可靠性。Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。</p>
-<p>在正式发布版中引入了四个新功能：创建简单量度、创建和发布受众、使用Insight Builder提出临时问题以及安排报表自动通过电子邮件发送给关键收件人。</p>
+<p>在正式发布后，引入了四个新功能：创建简单量度、创建和发布受众、使用洞察生成器提出临时问题以及将报告通过电子邮件自动发送给关键收件人。</p>
 <p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>重要：目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。<a href="../reports/report-gs-cja.md">了解如何开始使用 Journey Optimizer 的新报告界面</a></p>
+<p>重要说明：当前的报告体验将从 2025 年 1 月起停用。在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。<a href="../reports/report-gs-cja.md">了解如何开始使用 Journey Optimizer 的新报告界面</a></p>
 <p>自 2024 年 10 月 16 日起发布</p>
 </tr>
 </tbody>
@@ -247,8 +247,8 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>历程优化器现在允许您测试内容的各种变体，方法是：预览内容并使用从文件上传或手动添加的示例输入数据发送电子邮件校样。 系统会自动检测内容中用于个性化的所有用户档案属性，可使用这些属性进行测试以创建多个变体。</p>
-<p>此功能目前以公开测试版的形式向所有客户提供，可用于电子邮件、短信和推送通知渠道。</p>
+<p>Journey Optimizer 现在允许您测试内容的多种变体，方法是预览内容并使用从文件上传或手动添加的示例输入数据发送电子邮件验证。系统会自动检测内容中用于个性化的所有用户档案属性，可使用这些属性进行测试以创建多个变体。</p>
+<p>此功能目前以公开 Beta 版的形式面向所有客户提供，可用于电子邮件、短信和推送通知渠道。</p>
 <p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
@@ -260,13 +260,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Platform数据进行个性化(Beta)</strong><br/></th>
+<th><strong>使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在个性化编辑器中利用Adobe Experience Platform中的数据来对内容进行个性化。 为此，必须首先通过API调用启用查找个性化所需的数据集。 完成后，您可以使用他们的数据将您的内容个性化到[!DNL Journey Optimizer]中。</p>
+<p>在个性化编辑器中利用 Adobe Experience Platform 中的数据来对内容进行个性化。为此，必须首先通过 API 调用启用查找个性化所需的数据集。完成后，可以使用其数据对您的内容进行个性化并将它们引入到 [!DNL Journey Optimizer] 中。</p>
 <p>此功能目前为公开 Beta 版，可供所有客户使用。</p>
 <p>有关更多信息，请参阅<a href="../personalization/lookup-aep-data.md">详细文档</a>。</p>
 </td>
@@ -280,15 +280,15 @@ ht-degree: 78%
 
 **短信渠道**
 
-* 您现在可以编辑或删除SMS API渠道配置。 [了解详情](../sms/sms-configuration.md)
+* 您现在可以编辑或删除短信 API 渠道配置。[了解详情](../sms/sms-configuration.md)
 
-* 已引入以下增强功能，以通过Infobip和Sinch改善您的短信消息传送功能：
+* 已引入以下增强功能，从而使用 Infobip 和 Sinch 改善您的短信消息传递功能：
 
    * 您可以为短信营销活动和历程定义和管理唯一的关键字，从而实现更加个性化和高效的通信。
 
    * 当关键字无法识别时，您可以创建和投放默认短信消息。
 
-  在[Infobip](../sms/sms-configuration-infobip.md)和[Sinch](../sms/sms-configuration-sinch.md)的SMS配置文档中了解有关这些改进的更多信息。
+  要了解有关这些改进的更多信息，请参阅 [Infobip](../sms/sms-configuration-infobip.md) 和 [Sinch](../sms/sms-configuration-sinch.md) 的短信配置文档。
 
 
 <!--**Journeys**-->
@@ -299,7 +299,7 @@ ht-degree: 78%
 
 **Web 渠道**
 
-* **Web设计器的非可视化编辑模式** — 作为Journey Optimizer Web设计器的替代方法，您现在可以使用非可视化编辑器向您的网站添加修改。 它允许您手动输入更改，而无需在可视编辑器中打开页面。 如果您无法安装浏览器扩展(如Adobe Experience Cloud可视化帮助程序)，这种非可视化编辑模式非常有用，在Web设计器中加载页面时需要使用该工具。 [了解详情](../web/web-non-visual-editor.md)
+* **Web 设计器的非可视化编辑模式** - 作为 Journey Optimizer Web 设计器的替代工具，您现在可以使用非可视化编辑器向网站添加修改内容。这允许您手动进行更改，而无需在可视化编辑器中打开页面。在 Web 设计器中加载页面时，如果您无法安装所需的 Adobe Experience Cloud 可视化帮助程序等浏览器扩展，这种非可视化编辑模式将很有帮助。[了解详情](../web/web-non-visual-editor.md)
 
 
 **数据集**
@@ -313,15 +313,15 @@ ht-degree: 78%
 
   此更改将在后续阶段推广到现有的客户沙盒。[了解详情](../data/datasets-ttl.md#ttl)
 
-* 自定义操作中的&#x200B;**参数** — 可用日期：2024年10月3日 — 自定义操作现在支持NULL和可选参数。 [了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **自定义操作中的参数** - 发布日期：2024 年 10 月 3 日 - 自定义操作现在支持 NULL 和可选参数。[了解详情](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
 **报告**
 
-* **决策报告**&#x200B;现已可用，可提供关于访客如何与您的体验进行交互的基本见解。 [了解详情](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **决策报告**&#x200B;现已可用，可提供关于访客如何与体验进行交互的基本洞察。[了解详情](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **数据治理和同意策略** - 发布日期：2024 年 10 月 7 日
 
-* 现在，Journey Optimizer 中的所有渠道都会实施&#x200B;**数据治理策略**。对于在Adobe Experience Platform中创建了策略的客户，这些策略将应用于营销操作，作为渠道配置设置的一部分。 使用配置创建内容时，系统会检查所有个性化字段是否存在任何数据治理违规。如果发现违规，将无法发布历程或营销活动。[了解详情](../action/action-privacy.md)
+* 现在，Journey Optimizer 中的所有渠道都会实施&#x200B;**数据治理策略**。对于在 Adobe Experience Platform 中创建了策略的客户，这些策略将作为渠道配置设置的一部分应用于营销操作。使用配置创建内容时，系统会检查所有个性化字段是否存在任何数据治理违规。如果发现违规，将无法发布历程或营销活动。[了解详情](../action/action-privacy.md)
 
 * **自定义同意政策**&#x200B;现在适用于所有 Journey Optimizer 渠道。在发送消息或投放入站体验之前执行时，系统会检查用户是否同意在接收的内容中使用个性化字段。如果未获得同意，则不会显示体验。[了解详情](../action/consent.md)
 
@@ -341,10 +341,10 @@ ht-degree: 78%
 
 **基于代码的渠道**
 
-* 内容模板现已可用。您可以从开发人员构建的内容模板开始，加快基于代码的体验的创作速度。通过使用内容模板，营销人员可以只修改某些值或字段，而不是构成整个HTML或JSON内容有效负载。 [了解详情](../content-management/content-templates.md)
+* 内容模板现已可用。您可以从开发人员构建的内容模板开始，加快基于代码的体验的创作速度。通过使用内容模板，营销人员可以只修改某些值或字段，而无需构建整个 HTML 或 JSON 内容负载。[了解详情](../content-management/content-templates.md)
 
 **决策**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 用户现在可以在决策（以前称为体验决策）中设置 AI 模型时选择用于进行优化的自定义模型。例如，这允许您在自定义“购买”表上进行优化，而不是使用定义的约束（如点击率）。 [了解详情](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 用户现在可以在决策（以前称为体验决策）中设置 AI 模型时选择用于进行优化的自定义模型。例如，这允许您在自定义“购买”表格上进行优化，而不是使用定义的约束（如点击率）。[了解详情](../experience-decisioning/ranking.md)
 
-* 将决策策略添加到具有决策功能的基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项目。 此外，您现在可以选择多个后备优惠。这可保证返回一定数量的决策项。[了解详情](../experience-decisioning/create-decision.md)
+* 当使用决策功能将决策策略添加到基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项。此外，您现在可以选择多个后备优惠。这可保证返回一定数量的决策项。[了解详情](../experience-decisioning/create-decision.md)

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 61447b6400b65e29a9187790e74be47b09764c4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -292,7 +292,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->以下增强功能仅适用于Sinch和Infobip提供程序。
+>以下增强功能仅适用于 Sinch 和 Infobip 提供程序。
 
 增强了短信功能来改进消息传送功能：
 
@@ -323,7 +323,7 @@ ht-degree: 98%
 
 **报告**
 
-* **决策报告**&#x200B;现已可用，可提供关于访客如何与您的体验进行交互的基本见解。
+* **决策报告**&#x200B;现已可用，可提供关于访客如何与体验进行交互的基本洞察。
 
 **数据治理和同意策略** - 发布日期：2024 年 10 月 7 日
 
