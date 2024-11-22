@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2ca6659319482db09efd86ded418b151a022442c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 97%
       + [预览您的内容](using/content-management/preview.md)
       + [发送电子邮件校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
-      + [使用示例输入数据测试内容(Beta)](using/test-approve/simulate-sample-input.md)
+      + [使用示例输入数据测试内容（Beta 版）](using/test-approve/simulate-sample-input.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
    + 审批历程和营销活动{#approve}
       + [审批入门](using/test-approve/gs-approval.md)
@@ -267,7 +267,7 @@ ht-degree: 97%
       + [创建 Web 体验](using/web/create-web.md)
       + 编写 Web 页面{#author-web-pages}
          + [使用 Web 设计器](using/web/web-visual-editor.md)
-         + [使用非可视编辑器](using/web/web-non-visual-editor.md)
+         + [使用非可视化编辑器](using/web/web-non-visual-editor.md)
          + [管理修改](using/web/manage-web-modifications.md)
          + [监测 Web 体验](using/web/monitor-web-experiences.md)
          + [创作单页应用程序](using/web/web-spa.md)
@@ -309,7 +309,7 @@ ht-degree: 97%
       + [AI 助手用例](using/content-management/generative-uc.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
-      + [创建区域设置](using/content-management/multilingual-locale.md)
+      + [创建区域](using/content-management/multilingual-locale.md)
       + [创建语言提供程序](using/content-management/multilingual-provider.md)
       + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
       + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
@@ -326,7 +326,7 @@ ht-degree: 97%
       + [个性化入门](using/personalization/personalize.md)
       + [个性化上下文](using/personalization/personalization-contexts.md)
       + [个性化语法](using/personalization/personalization-syntax.md)
-      + [使用Adobe Experience Platform数据进行个性化(Beta)](using/personalization/lookup-aep-data.md)
+      + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/lookup-aep-data.md)
       + 使用个性化编辑器 {#expression-editor}
          + [关于个性化编辑器](using/personalization/personalization-build-expressions.md)
          + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
@@ -368,7 +368,7 @@ ht-degree: 97%
 + 受众、用户档案和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
-      + [自定义上传(CSV)和联合受众合成](using/audience/custom-upload-fac.md)
+      + [自定义上传 (CSV) 和联合受众合成](using/audience/custom-upload-fac.md)
       + [生成区段定义](using/audience/creating-a-segment-definition.md)
       + 组合受众{#audience-orchestration}
          + [受众组合入门](using/audience/get-started-audience-orchestration.md)
@@ -451,7 +451,7 @@ ht-degree: 97%
 + 决策功能{#decisioning}
    + [决策功能入门](using/experience-decisioning/gs-decision.md)
    + 决策 {#experience-decisioning}
-      + [开始使用Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+      + [决策入门](using/experience-decisioning/gs-experience-decisioning.md)
       + API 参考{#api-reference}
          + 决策项{#decision-items}
             + [创建决策项](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -659,7 +659,7 @@ ht-degree: 97%
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置业务规则](using/configuration/frequency-rules.md)
-   + [使用规则集(LA)](using/configuration/rule-sets.md)
+   + [使用规则集 (LA)](using/configuration/rule-sets.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成{#external-systems}

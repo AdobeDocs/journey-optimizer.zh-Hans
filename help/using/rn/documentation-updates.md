@@ -21,8 +21,8 @@ ht-degree: 99%
 
 ## 2024 年 10 月 {#oct-2024}
 
-* 文档中详细介绍了[!DNL Journey Optimizer] 2024年10月版的所有新增功能和改进。 [了解详情](release-notes.md)
-* [!DNL Journey Optimizer]中可用的所有通信渠道现在都分组到文档的专用部分中。 [了解详情](../channels/gs-channels.md)
+* 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 10 月版的所有新增功能和改进。[了解详情](release-notes.md)
+* [!DNL Journey Optimizer] 中可用的所有通信渠道现在都集中到文档的一个专门部分中。[了解详情](../channels/gs-channels.md)
 * **配置基于代码的体验**&#x200B;页面已得到改进，流程更加清晰，包括说明什么是表面 URI 的部分。[了解详情](../code-based/code-based-configuration.md)
 * **创建网页渠道配置**&#x200B;页面已更新，介绍了创建页面匹配规则时的步骤，这些步骤也适用于基于代码的体验配置。[了解详情](../web/web-configuration.md#web-page-matching-rule)
 * 添加了关于即将推出的系统生成数据集的生存时间 (TTL) 护栏的说明。[了解详情](../data/get-started-datasets.md)
