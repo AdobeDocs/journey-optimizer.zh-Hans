@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 6%
+source-wordcount: '216'
+ht-degree: 5%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->当前在测试电子邮件内容模板时不支持跟踪，这意味着跟踪事件、UTM参数和登陆页面链接将在从模板发送的验证中无效。 若要测试跟踪，[在电子邮件中使用内容模板](../email/use-email-templates.md)并[发送校样](../content-management/preview-test.md#send-proofs)。
+>当前在测试电子邮件内容模板时不支持跟踪，这意味着跟踪事件、UTM参数和登陆页面链接将在从模板发送的验证中无效。 要测试跟踪，请[在电子邮件中使用内容模板](../email/use-email-templates.md)，并使用测试用户档案、从CSV/JSON文件上传的样本输入数据或手动添加的数据发送校样。 [了解如何预览和测试您的内容](../content-management/preview-test.md)

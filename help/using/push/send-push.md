@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 7%
+source-wordcount: '393'
+ht-degree: 6%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 7%
 
 ## 预览推送通知 {#preview-push}
 
-定义消息内容后，您可以使用测试用户档案预览其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 如果插入个性化内容，则可以检查此内容在消息中的显示方式。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
-为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件。 然后，您可以选择预览内容的设备类型： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
+为此，请单击&#x200B;**[!UICONTROL 模拟内容]**。 然后，您可以选择预览内容的设备类型： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
 
 ![](assets/push_preview_3.png)
 
-有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+有关如何预览和测试内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 ## 验证推送通知 {#push-validate}
 

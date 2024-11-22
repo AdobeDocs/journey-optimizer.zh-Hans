@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 10%
+source-wordcount: '801'
+ht-degree: 9%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 1. 在历程配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置推送内容。 [设计推送通知](design-push.md)
 
-1. 定义消息内容后，您可以使用测试用户档案预览其内容。
+1. 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。
 
 1. 推送就绪后，完成[历程](../building-journeys/journey-gs.md)的配置以发送它。
 
@@ -87,7 +87,7 @@ ht-degree: 10%
 
 1. 在营销活动配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置推送内容。 [设计推送通知](design-push.md)
 
-1. 定义消息内容后，您可以使用测试用户档案预览其内容。
+1. 定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。
 
 1. 推送就绪后，完成[营销活动](../campaigns/create-campaign.md)的配置以发送它。
 

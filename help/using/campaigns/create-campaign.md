@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: becd2d8bdb93abbe21a24c3767179b4e90c01523
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1235'
 ht-degree: 17%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 17%
 <div align="center"><a href="../content-card/create-content-card.md"><strong>内容卡</strong></a></div></td>
 </tr></table>
 
-定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览和测试包含测试用户档案的内容。 [了解详情](../content-management/preview-test.md)。要浏览回促销活动创建屏幕，请单击向左箭头。
+定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，使用从CSV/JSON文件上传或手动添加的测试配置文件或示例输入数据预览和测试内容。 [了解详情](../content-management/preview-test.md)。要浏览回促销活动创建屏幕，请单击向左箭头。
 
 ![](assets/create-campaign-design.png)
 

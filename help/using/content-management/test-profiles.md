@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '274'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 16%
 >abstract="使用测试轮廓预览和测试您的内容。如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。"
 
 在预览或测试内容之前，您首先需要选择测试用户档案，这些是与定义的定位标准不匹配的附加收件人。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)
+
+>[!NOTE]
+>
+>除了测试用户档案之外，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
 要选择测试用户档案，请执行以下步骤：
 

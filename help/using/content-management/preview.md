@@ -5,18 +5,24 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: 87cba1d13af7a80cfe3b37a7b79e5fdd95ee5521
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 6%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
-# 检查您的内容 {#preview}
+# 使用测试配置文件预览内容 {#preview}
 
 <!--## Preview your content {#preview-content}-->
 
-定义[测试用户档案](test-profiles.md)后，您可以预览内容。 按照下面的步骤进行操作：
+定义[测试用户档案](test-profiles.md)后，您可以预览内容。
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+
+要使用测试用户档案预览内容，请执行以下步骤：
 
 1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
 

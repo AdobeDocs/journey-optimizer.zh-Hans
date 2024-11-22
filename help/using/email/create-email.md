@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '956'
 ht-degree: 9%
 
 ---
@@ -147,6 +147,10 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ## 检查并发送电子邮件
 
 定义消息内容后，您可以使用测试用户档案进行预览、发送校样并控制它在常用桌面、移动和基于Web的客户端中的呈现。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+
+>[!NOTE]
+>
+>除了测试用户档案之外，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
 为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试用户档案以使用测试用户档案数据检查您的消息。
 

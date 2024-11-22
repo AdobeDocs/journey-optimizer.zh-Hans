@@ -1,22 +1,26 @@
 ---
-title: 发送电子邮件验证
+title: 发送电子邮件校样
 description: 了解如何发送电子邮件校样。
 feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 17%
 
 ---
 
-# 发送电子邮件验证 {#send-proofs}
+# 发送电子邮件校样 {#send-proofs}
 
-利用校样这种特定的消息，可在将消息发送给主受众之前对消息进行测试。 校样的收件人负责批准消息：呈现、内容、个性化设置、配置。
+利用校样这种特定的消息，可在将消息发送给主要受众之前对消息进行测试。校样的收件人负责审阅消息：呈现效果、内容、个性化设置和配置。
 
-选择[测试用户档案](test-profiles.md)后，即可发送校样。
+>[!NOTE]
+>
+>[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+
+要在选择[测试用户档案](test-profiles.md)后发送电子邮件校样，请执行以下步骤：
 
 1. 在&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕中，单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 

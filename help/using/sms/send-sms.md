@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '299'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 ## 预览您的短信 {#preview-sms}
 
-定义消息内容后，您可以使用测试用户档案预览其内容。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
+定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 如果插入个性化内容，则可以检查此内容在消息中的显示方式。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
-为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试用户档案以使用测试用户档案数据检查您的消息。
+为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后使用测试用户档案数据检查您的消息。
 
 ![](assets/sms_preview_2.png)
 
-有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+有关如何预览和测试内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 ## 验证您的内容 {#sms-validate}
 

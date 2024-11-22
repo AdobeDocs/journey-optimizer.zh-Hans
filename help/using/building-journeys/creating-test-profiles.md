@@ -9,16 +9,20 @@ role: User, Data Engineer
 level: Intermediate
 keywords: 测试用户档案，测试，测试，历程
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 3%
+source-wordcount: '1367'
+ht-degree: 2%
 
 ---
 
 # 创建测试用户档案 {#create-test-profiles}
 
 在历程中使用[测试模式](../building-journeys/testing-the-journey.md)时需要测试配置文件，并且需要[预览和测试您的内容](../content-management/preview-test.md)。
+
+>[!NOTE]
+>
+>[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
 可通过多种方式创建测试用户档案。 您可以在此页详细信息中查找以下内容：
 

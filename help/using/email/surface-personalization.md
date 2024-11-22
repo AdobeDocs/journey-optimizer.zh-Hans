@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 7%
+source-wordcount: '1112'
+ht-degree: 6%
 
 ---
 
@@ -161,7 +161,13 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 ## 检查您的配置 {#check-configuration}
 
-在营销活动或历程中使用个性化配置时，您可以预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。 请按照以下步骤操作。
+在营销活动或历程中使用个性化配置时，您可以使用测试用户档案预览电子邮件内容，以检查您定义的动态设置是否存在潜在错误。 请按照以下步骤操作。
+
+>[!NOTE]
+>
+>除了测试用户档案之外，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+
+要使用测试用户档案预览内容，请执行以下步骤：
 
 1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。 [了解详情](../content-management/preview.md)
 
