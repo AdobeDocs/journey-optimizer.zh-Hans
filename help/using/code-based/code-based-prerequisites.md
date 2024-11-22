@@ -6,20 +6,24 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '640'
 ht-degree: 2%
 
 ---
 
-# 护栏和先决条件 {#web-prerequisites}
+# 护栏和先决条件 {#code-based-prerequisites}
 
 要在[!DNL Journey Optimizer]中使用基于代码的体验操作并交付应用程序可以使用的代码内容有效负载，请遵循以下先决条件：
 
 * 要向应用程序添加修改，您必须具有特定的实施。 [了解详情](#implementation-prerequisites)
 
 * 为了正确交付基于代码的体验，请确保在[此处](#delivery-prerequisites)详细定义Adobe Experience Platform设置。
+
+* 要使数据显示在基于代码的体验报表中，请确保遵循以下[报告先决条件](#reporting-prerequisites)。
+
+* 创建基于[代码的体验渠道配置](code-based-configuration.md)时，请确保输入的字符串/路径或表面URI与您自己的实施中声明的字符串/路径或表面URI匹配。 这可确保将内容交付到指定应用程序或页面内的所需位置。 否则，将无法交付更改。 [了解详情](code-based-surface.md)
 
 ## 实施先决条件 {#implementation-prerequisites}
 
@@ -49,13 +53,13 @@ ht-degree: 2%
 
   ![](../web/assets/web-aep-merge-policy.png)
 
-* 要对Journey Optimizer Web体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery保证**&#x200B;中的&#x200B;**Adobe Experience Platform**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
+* 要对Journey Optimizer Web体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery**&#x200B;中的&#x200B;**Adobe Experience Platform Assurance**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
 
   使用&#x200B;**Edge Delivery**&#x200B;插件可帮助您获得所需的见解，以便有效了解入站实施并排除其故障。
 
   [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
 
-## 报告先决条件 {#experiment-prerequisites}
+## 报告先决条件 {#reporting-prerequisites}
 
 要为基于代码的渠道启用报告，您需要确保在应用程序实施[数据流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[数据集](../data/get-started-datasets.md)也包含在报告配置中。
 
