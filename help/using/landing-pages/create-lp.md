@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 13f07c2c6af38661ad6d58b2f1505c8199c0cc0b
+source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -30,29 +30,33 @@ ht-degree: 21%
 
 ## 访问登陆页面 {#access-landing-pages}
 
-要访问登陆页面列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 历程管理]** > **[!UICONTROL 登陆页面]**。
+要访问登陆页面列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL 登陆页面]**&#x200B;列表显示所有创建的项目。 您可以根据它们的状态或修改日期筛选它们。
+**[!UICONTROL 登陆页面]**&#x200B;列表显示所有创建的项目。 您可以根据它们的状态、修改日期或标记筛选它们。
 
 ![](assets/lp_access-list-filter.png)
 
-从该列表中，您可以访问已发布项目的[登陆页面实时报告](../reports/lp-report-live.md)或[登陆页面报告](../reports/lp-report-global-cja.md)。
-
-您还可以删除、复制和取消发布登陆页面。
-
->[!CAUTION]
->
->如果取消发布消息中引用的登陆页面，则将断开指向登陆页面的链接，并显示错误页面。
-
-单击登陆页面旁边的三个圆点，以选择所需的操作。
+从该列表中，您可以访问许多操作。 单击登陆页面旁边的三个圆点，以选择所需的操作：
 
 ![](assets/lp_access-list-actions.png)
 
->[!NOTE]
->
->您无法删除[已发布](#publish-landing-page)登陆页面。 要删除它，必须先取消发布它。
+* 对于已发布的项目，您可以访问[登陆页面报告](../reports/lp-report-global-cja.md)或[最近24小时实时报告](../reports/lp-report-live.md)。
+
+* 您可以删除或复制登陆页面。
+
+  >[!NOTE]
+  >
+  >您无法删除[已发布](#publish-landing-page)登陆页面。 要删除它，必须先取消发布它。
+
+* 您可以取消发布已发布的登陆页面。
+
+  >[!CAUTION]
+  >
+  >如果取消发布消息中引用的登陆页面，则将断开指向登陆页面的链接，并显示错误页面。
+
+* 您还可以编辑登陆页面的关联[标记](../start/search-filter-categorize.md#tags)。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -279,11 +283,6 @@ ht-degree: 21%
 
 **Errors**:
 
-* 
-
->[!CAUTION]
->
-> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## 发布登陆页面 {#publish-landing-page}
