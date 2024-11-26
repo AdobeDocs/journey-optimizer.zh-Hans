@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2589'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="排除营销活动受众"
->abstract="选择营销活动以从当前阶段排除其受众。这可以防止之前联系过的个人资料再次成为目标；只有那些通过历程收到过通信的人才会被排除。"
+>abstract="选择营销活动以从当前阶段排除其受众。这可以防止之前联系过的轮廓再次成为目标；只有那些通过历程收到过通信的人才会被排除。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -184,13 +184,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >如果不希望将任何参与期应用于运行，请在&#x200B;**[!UICONTROL 上次参与]**&#x200B;字段中输入0。
 
-1. 选择&#x200B;**[!UICONTROL 发生错误时取消激活的运行]**&#x200B;选项，以便在评估受众运行后，如果合格的配置文件少于目标配置文件，则取消该运行。 在这种情况下，该运行采用&#x200B;**[!UICONTROL 失败]**&#x200B;状态。
+1. 选择&#x200B;**[!UICONTROL 发生错误时取消激活的运行]**&#x200B;选项，以便在评估受众运行后，如果合格的配置文件少于目标配置文件，则取消该运行。
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   如果符合条件的用户档案数与目标用户档案数不匹配（例如，运行时目标用户档案数是1500个Gmail地址，但只有700个Gmail用户档案符合条件）：
+   如果符合条件的用户档案数与目标用户档案数不匹配（例如，运行时目标用户档案数是1500个Gmail地址，但只有700个Gmail符合条件的用户档案）：
 
-   * 如果启用了该选项，则运行将失败。 然后，您可以选择在下一次运行时定位较少的配置文件，或选择[将运行](#split-phase)拆分为新阶段，并为新阶段选择新的营销活动以再次定位相同的配置文件。
+   * 如果启用该选项，则运行将失败，并且运行将采用&#x200B;**[!UICONTROL 失败]**&#x200B;状态。<!--You can then either choose to target less profiles in the next run, or to [split the run](#split-phase) to a new phase and select a new campaign for the new phase to target the same profiles again.-->
 
    * 如果未启用该选项，则会执行运行，但只定向可用的配置文件数。
 
