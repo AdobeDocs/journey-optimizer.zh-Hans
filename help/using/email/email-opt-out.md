@@ -42,7 +42,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="向电子邮件标头添加取消订阅 URL"
->abstract="启用“列表取消订阅标题”以在电子邮件标头中添加取消订阅。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
+>abstract="启用“取消订阅列表标头”以在电子邮件标头中添加取消订阅。要设置取消订阅 URL，请在电子邮件内容中插入一个一键式选择退出链接。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#one-click-opt-out" text="一键式选择退出"
 
 一键式列表取消订阅URL是电子邮件发件人信息旁边显示的取消订阅链接或按钮，收件人只需单击一下即可立即选择退出您的邮件列表。 在Adobe Journey Optimizer中，当打开&#x200B;**启用List-Unsubscribe**&#x200B;选项时，电子邮件标头将同时包含邮件和/或URL，默认情况下，收件人可以使用这些URL取消订阅您的邮件列表。
@@ -101,7 +101,7 @@ ht-degree: 28%
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL 渠道]**：选择退出适用于将来发送到当前渠道的用户档案目标（即电子邮件地址）的消息。如果多个目标与一个用户档案关联，则选择退出适用于该渠道的用户档案中的所有目标（即电子邮件地址）。
+   * **[!UICONTROL 渠道]**：选择退出适用于将来发送到当前渠道的轮廓目标（即电子邮件地址）的消息。如果多个目标与一个轮廓关联，则选择退出适用于该渠道的轮廓中的所有目标（即电子邮件地址）。
    * **[!UICONTROL 标识]**：选择退出适用于在将来发送给当前消息所使用的特定目标（即电子邮件地址）的消息。
    * **[!UICONTROL 订阅]**：选择退出适用于与特定订阅列表关联的将来发送的消息。仅在当前消息与订阅列表关联时，才能选择此选项。
 
@@ -135,7 +135,7 @@ ht-degree: 28%
 查询参数：
 
 * **params**：包含加密后的有效负载
-* **pid**：加密后的用户档案 ID
+* **pid**：加密后的轮廓 ID
 
 以上三个参数将包含在发送给您的收件人的第三方登陆页面 URL 中：
 
@@ -207,7 +207,7 @@ ht-degree: 28%
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
-1. 要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
+1. 要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该轮廓。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
 
    ![](assets/opt-out-profile-choice.png)
 
