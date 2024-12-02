@@ -1,11 +1,12 @@
 ---
 title: 内容卡配置
 description: 内容卡渠道配置
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 47%
@@ -96,4 +97,3 @@ ht-degree: 47%
 1. 提交更改。
 
 现在，您可以在创建内容卡体验时选择配置。
-

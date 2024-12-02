@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 17%
 
 1. （可选）使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-1. （可选）您可以根据访问标签限制对此营销活动的访问。 要添加访问限制，请浏览至此页顶部的&#x200B;**[!UICONTROL 管理访问]**&#x200B;按钮。 确保仅选择您具有权限的标签。 [了解有关对象级访问控制的更多信息](../administration/object-based-access.md)。
+1. （可选）您可以根据访问标签限制对此营销活动的访问。 要对访问权限添加限制，请浏览页面顶部的&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。确保仅选择您具有权限的标签。 [了解有关对象级访问控制的更多信息](../administration/object-based-access.md)。
 
 ## 定义活动受众 {#audience}
 
@@ -60,7 +60,6 @@ ht-degree: 17%
 >* 来自[受众合成](../audience/get-started-audience-orchestration.md)的受众和属性当前不可用于Healthcare Shield或Privacy and Security Shield。
 >
 >* 对于API触发的营销活动，必须通过API调用设置受众。
-
 
 要定义计划营销活动所定向的群体，请执行以下步骤：
 
@@ -143,7 +142,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="营销活动计划"
->abstract="默认情况下，营销活动在手动激活时开始，并在发送一次消息后立即结束。 您可以灵活地为要发送的消息设置特定的日期和时间。 此外，还可为定期营销活动或 API 触发的营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
+>abstract="默认情况下，营销活动在手动激活时开始，并在发送消息一次后立即结束。您可以灵活地设置特定日期和时间以发送消息。此外，还可为定期营销活动或 API 触发的营销活动指定结束日期。在操作触发器中，您还可以配置消息发送频率以满足您的偏好。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

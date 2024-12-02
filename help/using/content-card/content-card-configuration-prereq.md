@@ -1,11 +1,12 @@
 ---
 title: 内容卡配置
 description: 内容卡渠道先决条件
-feature: Channel Configuration
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+exl-id: df92e319-1e42-486f-b688-595964a762c9
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -39,7 +40,7 @@ ht-degree: 5%
 
 * **疑难解答**
 
-  使用&#x200B;**Edge Delivery保证**&#x200B;中的&#x200B;**Adobe Experience Platform**&#x200B;视图对移动体验进行故障诊断。 它可以检查请求、验证边缘调用以及检查配置文件数据。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
+  使用&#x200B;**Edge Delivery**&#x200B;中的&#x200B;**Adobe Experience Platform Assurance**&#x200B;视图对移动体验进行故障诊断。 它可以检查请求、验证边缘调用以及检查配置文件数据。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
 
 * **内容实验**
 

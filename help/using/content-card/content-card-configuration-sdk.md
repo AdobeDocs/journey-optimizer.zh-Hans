@@ -1,18 +1,19 @@
 ---
 title: 内容卡配置Web SDK
-description: 在Web SDK中配置内容卡支持
-feature: Channel Configuration
+description: 在 Web SDK 中配置内容卡支持
+feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
+exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
+source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 在Web SDK中配置内容卡支持 {#content-card-configuration-sdk}
+# 在 Web SDK 中配置内容卡支持 {#content-card-configuration-sdk}
 
 此示例展示了如何使用Adobe Experience Platform从Adobe Journey Optimizer (AJO)中检索内容卡片。 通过使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，可以在客户端完全获取和呈现个性化内容。
 
