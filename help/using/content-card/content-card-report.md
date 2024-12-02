@@ -1,28 +1,28 @@
 ---
 title: 内容卡报告
 description: 了解如何使用内容卡报表中的数据
-feature: Reporting
+feature: Reporting, Content Cards
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# 内容卡报表 {#content-card-report}
+# 内容卡片报告 {#content-card-report}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
-* [内容卡片入门](get-started-content-card.md)
-* [内容卡先决条件](content-card-configuration-prereq.md)
-* [在Journey Optimizer中配置内容卡渠道](content-card-configuration.md)
+* [内容卡入门](get-started-content-card.md)
+* [内容卡片先决条件](content-card-configuration-prereq.md)
+* [在 Journey Optimizer 中配置内容卡片渠道](content-card-configuration.md)
 * [创建内容卡片](create-content-card.md)
 * [设计内容卡片](design-content-card.md)
 * **内容卡报告**
