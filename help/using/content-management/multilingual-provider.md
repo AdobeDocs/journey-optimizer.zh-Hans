@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
-source-git-commit: c858d16ec520418148fb28ad2ecec0d3a6377ba9
+exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
+source-git-commit: e2024a9418374bed224db7d701d1a7642121f293
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '186'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +34,10 @@ Adobe Journey Optimizer与第三方翻译提供商集成，这些提供商独立
 
 1. 从&#x200B;**[!UICONTROL 提供程序]**&#x200B;下拉列表中选择所需的提供程序。
 
+   >[!NOTE]
+   >
+   >要将提供商添加到列表，您可以要求提供商按照[本文档](https://developer.adobe.com/gcs/partner/)中详述的说明完成其入门流程。
+
    ![](assets/provider_2.png)
 
 1. 如果使用Microsoft Translator作为提供程序，请输入您的&#x200B;**[!UICONTROL 订阅密钥]**&#x200B;和&#x200B;**[!UICONTROL 终结点URL]**。
@@ -44,4 +49,3 @@ Adobe Journey Optimizer与第三方翻译提供商集成，这些提供商独立
    ![](assets/provider_4.png)
 
 1. 完成配置后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以完成设置。
-
