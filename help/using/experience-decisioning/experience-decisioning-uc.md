@@ -7,16 +7,25 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+exl-id: 09770df2-c514-4217-a71b-e31c248df543
+source-git-commit: 196caffc918ef4f8fd97c2eb2c790ae4583aa311
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 6%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
 # Decisioning用例 {#experience-decisioning-uc}
 
+您不确定特定的排名公式是否比预先分配的选件优先级表现更好。
+
 在此使用案例中，您将创建一个营销活动，在该活动中定义两个投放处理，每个处理都包含不同的决策策略，以衡量哪个策略对目标受众的表现最好。
+
+设置试验，以便：
+
+* 第一种处理包含一种优先选择策略作为排名方法。
+* 第二种处理包含不同的选择策略，其公式为排名方法。
+
 
 ## 创建决策项和选择策略
 
@@ -68,5 +77,3 @@ ht-degree: 6%
 1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口中，选择您的处理B以更改内容，并重复上述步骤以创建另一个决策。
 
 1. 保存您的内容。
-
-
