@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 99%
 * 添加了关于即将推出的系统生成数据集的生存时间 (TTL) 护栏的说明。[了解详情](../data/get-started-datasets.md)
 * 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。[了解详情](../code-based/test-code-based.md#preview-on-device)
 * 添加了有关如何利用自定义上传受众进行决策的新页面。[了解详情](../offers/custom-upload-decisioning.md)
-* 添加了新页面，以介绍Journey Optimizer中可用的决策功能。 [了解详情](../experience-decisioning/gs-decision.md)
-* 决策文档中添加了护栏和限制。 [了解详情](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* 添加了介绍 Journey Optimizer 中的决策功能的新页面。[了解详情](../experience-decisioning/gs-decision.md)
+* 决策文档中添加了有关护栏和限制的内容。[了解详情](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}
 
@@ -84,13 +84,13 @@ ht-degree: 99%
 
 * 添加了“常见问题解答”部分，以解决有关在 Journey Optimizer 中使用受众构成和自定义上传受众的常见问题。[了解详情](../audience/about-audiences.md#faq)
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 3 月版的所有新增功能和改进。[了解详情](release-notes.md#mar-2024)
-* 改进了用户档案进入管理页面进行。[了解详情](../building-journeys/entry-management.md)
+* 改进了轮廓进入管理页面进行。[了解详情](../building-journeys/entry-management.md)
 * 在“警报”页面中添加了疑难解答信息。[了解详情](../reports/alerts.md#alert-troubleshooting)
 * 在历程报告页面中添加了有关等待活动的信息。[了解详情](../reports/sharing-overview.md)
 * 对于处于测试模式的历程，禁用了以下快捷键：
    * T：用于打开或关闭测试模式的快捷方式。
    * E：用于在基于事件的历程中触发事件的快捷方式。
-   * P：在基于受众的历程中触发事件的快捷方式，其中“一次单个用户档案”选项处于打开状态。
+   * P：在基于受众的历程中触发事件的快捷方式，其中“一次单个轮廓”选项处于打开状态。
    * L：指定用于显示测试日志的快捷方式。
 * 更新了消息频率规则页面，除了每周或每月频率上限外，还可根据需要使用新增的每日频率上限功能。[了解详情](../configuration/frequency-rules.md#daily-frequency-cap)
 * 改进并更新了同意策略页面，提供了指向 Experience Platform 文档的实用链接。[了解详情](../action/consent.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
 * 添加了有关历程大小的护栏。[了解详情](../start/guardrails.md#journeys-guardrails-journeys)
 * [在以下部分](../building-journeys/journey-properties.md#global_timeout)中对历程超时管理进行了详细说明。
 * Journey Optimizer [文档主页](../../ajo-home.md)页面已重新设计。
-* 添加了有关“更新用户档案”活动的建议。[了解详情](../building-journeys/update-profiles.md)
+* 添加了有关“更新轮廓”活动的建议。[了解详情](../building-journeys/update-profiles.md)
 * 添加了有关历程中事件活动的超时行为的信息。如果在指定的超时时间内未收到任何事件，且未定义超时路径，个人将继续历程。[了解详情](../building-journeys/general-events.md#events-specific-time)
 * 更新了应用程序内渠道配置先决条件，其中包含有关使用自定义数据集首选项合并策略的注释。[了解详情](../in-app/inapp-configuration.md)
 * 添加了有关如何在自定义操作响应中处理集合的更多详细信息。[了解详情](../action/action-response.md#exp-syntax)。
@@ -168,7 +168,7 @@ ht-degree: 99%
   <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * 添加了有关发送时间优化的“常见问题解答”部分。[了解详情](../building-journeys/journeys-message.md#faq-send-time)
-* 添加了有关受众资格活动的注释。最多可能需要 10 分钟才能生效并侦听进入或退出受众的用户档案。[了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* 添加了有关受众资格活动的注释。最多可能需要 10 分钟才能生效并侦听进入或退出受众的轮廓。[了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 决策管理文档中添加了创建决策规则时要注意的限制条件列表。[了解详情](../offers/offer-library/creating-decision-rules.md)
 * 更新了访问控制文档的链接。[了解详情](../administration/permissions.md)
 * 更新了应用程序内渠道先决条件，其中包含 Adobe Experience Platform 数据收集详细信息。[了解详情](../in-app/inapp-configuration.md)
@@ -194,7 +194,7 @@ ht-degree: 99%
 * 对进入管理页面进行了改进。[了解详情](../building-journeys/entry-management.md)
 * 在读取受众活动文档中添加了有关限制速率的更多信息。[了解详情](../building-journeys/read-audience.md)
 * 添加了有关重试的其他信息。[了解详情](../start/guardrails.md#general-actions-g)
-* **实施个性化同意**&#x200B;部分中更新了描述如何在营销活动中手动强制执行个性化同意的内容：可使用区段规则生成器创建包含选择退出用户档案的受众，或将拆分活动添加到组合工作流程。[了解详情](../privacy/opt-out.md#opt-out-expression-editor)
+* **实施个性化同意**&#x200B;部分中更新了描述如何在营销活动中手动强制执行个性化同意的内容：可使用区段规则生成器创建包含选择退出轮廓的受众，或将拆分活动添加到组合工作流程。[了解详情](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## 2023 年 6 月 {#june-2023}
 
@@ -210,7 +210,7 @@ ht-degree: 99%
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了说明如何设置子域的新页面，在您提供给客户的 Web 体验中，子域将用于发布来自 Adobe Experience Manager Assets Essentials 的内容。[了解详情](../web/web-delegated-subdomains.md)
 * 添加了说明如何在电子邮件设计器中向 URL 添加个性化跟踪参数的新部分。[了解详情](../email/message-tracking.md#url-tracking)
-* 添加了介绍如何确保遵循客户选择不使用其个人资料数据进行个性化的意愿的新部分。[了解详情](../privacy/opt-out.md#opt-out-personalization)
+* 添加了介绍如何确保遵循客户选择不使用其轮廓数据进行个性化的意愿的新部分。[了解详情](../privacy/opt-out.md#opt-out-personalization)
 * 添加了关于在电子邮件内容 URL 中使用特殊国际字符的注释。[了解详情](../email/message-tracking.md#insert-links)
 * 添加了测试和发布登陆页面所需的权限。[了解详情](../landing-pages/create-lp.md)
 * 添加了有关在“决策管理”频率封顶中考虑您的自定义事件所需的 Adobe Experience Platform 端点的注释。[了解详情](../offers/data-collection/schema-requirement.md#track-custom-events)
@@ -238,7 +238,7 @@ ht-degree: 99%
 * 为具有增量读取的读取受众历程添加了护栏。您无法创建新版本，您需要复制历程。[了解详情](../start/guardrails.md#journey-versions-g)
 * 更新了关于如何限制吞吐量的用例，其中包含有关限制功能的信息。 [了解详情](../building-journeys/limit-throughput.md)
 * 添加了注释，以说明响应有效负载定义中不支持标量数组。[了解详情](../datasource/external-data-sources.md)
-* 更新了有关用户档案上限条件的部分。[了解详情](../building-journeys/condition-activity.md#profile_cap)
+* 更新了有关轮廓上限条件的部分。[了解详情](../building-journeys/condition-activity.md#profile_cap)
 
 ## 2023 年 2 月 {#feb-2023}
 
@@ -318,10 +318,10 @@ ht-degree: 99%
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 7 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 对&#x200B;**设置渠道配置**&#x200B;部分进行了修正和更新，添加了描述如何配置短信渠道的页面的链接。[了解详情](../configuration/channel-surfaces.md#create-channel-surface)
-* 在历程属性中，**配置文件时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 在历程属性中，**轮廓时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 * 在&#x200B;**等待**&#x200B;活动中，**固定日期**&#x200B;选项不再可用。[了解详情](../building-journeys/wait-activity.md)
 * 添加了有关&#x200B;**读取受众**&#x200B;活动中&#x200B;**增量读取**&#x200B;选项的更多信息。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* 添加了关于&#x200B;**用户档案上限**&#x200B;条件类型的建议。[了解详情](../building-journeys/condition-activity.md#profile_cap)
+* 添加了关于&#x200B;**轮廓上限**&#x200B;条件类型的建议。[了解详情](../building-journeys/condition-activity.md#profile_cap)
 * 添加了对业务事件的限制。[了解详情](../start/guardrails.md#events-g)
 
 ## 2022 年 6 月 {#june-2022}
@@ -366,7 +366,7 @@ ht-degree: 99%
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 3 月版的所有新增功能和改进。[了解更多信息](release-notes.md)
 * 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/ranking/auto-optimization-model.md)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/ranking/ai-models.md)
-* 测试用户档案创建页面已移至&#x200B;**受众、用户档案和身份**&#x200B;部分。[了解更多信息](../audience/creating-test-profiles.md)
+* 测试轮廓创建页面已移至&#x200B;**受众、轮廓和身份**&#x200B;部分。[了解更多信息](../audience/creating-test-profiles.md)
 * 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。[了解更多信息](../building-journeys/expression/field-references.md#default-value)
 * **创建个性化优惠**&#x200B;章节已重新组织，提高了可读性。[了解更多信息](../offers/offer-library/creating-personalized-offers.md)
 * 添加了新的章节以描述更改优惠开始和/或结束日期可能对此优惠的频率上限产生的影响。[了解更多信息](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -446,7 +446,7 @@ ht-degree: 99%
 * 更新了使用动态 URL 路径和动态标头进行自定义操作的配置过程。[了解更多信息](../action/about-custom-action-configuration.md#url-configuration)
 * 添加了关于辅助功能和快捷键的部分。[了解详情](../start/user-interface.md#accessibility)
 * 添加了有关受众评估方法的部分。[了解详情](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的用户档案。[了解更多信息](../reports/report-gs-cja.md)
+* 在“禁止列表”、“允许列表”和“电子邮件全局/实时”报表部分添加了注释，以说明会从“电子邮件报表发送”量度中排除状态为“禁止显示”和“不允许显示”的轮廓。[了解更多信息](../reports/report-gs-cja.md)
 * 添加了新的一节来介绍如何检索由于不在允许列表中而未发送的电子邮件地址或域。[了解更多信息](../configuration/allow-list.md#reporting)
 * 更新了“启用允许列表”部分。[了解详情](../configuration/allow-list.md#enable-allow-list)
 * 更新了“监控消息预设”部分，其中包含可能的预设创建失败原因以及有关此类错误的详细信息。[了解更多信息](../configuration/channel-surfaces.md#monitor-channel-surfaces)

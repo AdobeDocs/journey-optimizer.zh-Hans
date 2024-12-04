@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 **历程**
 
-* **强制定期重入**&#x200B;选项已添加到定期读取受众计划参数中。利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。停用此选项后，用户档案必须先完成历程，然后才能在另一个事件中再次进入。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **强制定期重入**&#x200B;选项已添加到定期读取受众计划参数中。利用此选项，可让历程中仍存在的所有轮廓在下次执行时自动退出该历程。停用此选项后，轮廓必须先完成历程，然后才能在另一个事件中再次进入。[了解详情](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **管理**
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>作为 Journey Optimizer 用户，您现在可以通过用户界面访问系统警报，在历程工作异常时获得通知。您可以查看可用的警报并订阅它们。如果读取受众活动在定义的时间范围内未处理任何配置文件，则此版本中提供的第一个警报将会警告您。解锁此工作流后，将会有更多内容。</p>
+<p>作为 Journey Optimizer 用户，您现在可以通过用户界面访问系统警报，在历程工作异常时获得通知。您可以查看可用的警报并订阅它们。如果读取受众活动在定义的时间范围内未处理任何轮廓，则此版本中提供的第一个警报将会警告您。解锁此工作流后，将会有更多内容。</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -306,7 +306,7 @@ ht-degree: 100%
 
 **报告**
 
-* 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的用户档案。[了解详情](../reports/journey-global-report-cja.md#journey-global)
+* 历程全局报告中现在提供同意策略表和图表。利用这些小组件，可跟踪在自定义操作中从策略排除的轮廓。[了解详情](../reports/journey-global-report-cja.md#journey-global)
 
   要访问最新的小组件，请注意，您必须重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅[详细文档](../reports/report-gs-cja.md)。
 
@@ -395,7 +395,7 @@ ht-degree: 100%
 * **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅[文档](../building-journeys/end-journey.md)和[功能视频](https://video.tv.adobe.com/v/345376){target="_blank"}。
 
 
-*  默认情况下，历程属性中的&#x200B;**配置文件时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+*  默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **消息**
 
@@ -544,7 +544,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的用户档案。</p>
+<p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的轮廓。</p>
 <p>有关更多信息，请参阅<a href="../configuration/frequency-rules.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -560,7 +560,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定用户档案显示优惠排名。</p>
+<p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定轮廓显示优惠排名。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">详细文档</a>。</p>
 </td>
 </tr>
@@ -620,7 +620,7 @@ ht-degree: 100%
 
 **管理**
 
-* **许可证使用情况仪表板更新** – 现在，[!DNL Adobe Journey Optimizer] 用户界面中提供的“许可证使用情况”仪表板可反映&#x200B;**已授予许可**&#x200B;平均用户配置文件丰富度。您可在此量度呈现中看到一个下拉信息，这意味着现在可以正确报告许可证限制。[了解详情](../audience/license-usage.md)
+* **许可证使用情况仪表板更新** – 现在，[!DNL Adobe Journey Optimizer] 用户界面中提供的“许可证使用情况”仪表板可反映&#x200B;**已授予许可**&#x200B;平均用户轮廓丰富度。您可在此量度呈现中看到一个下拉信息，这意味着现在可以正确报告许可证限制。[了解详情](../audience/license-usage.md)
 
 
 ## 2022 年 4 月版 {#april-2022-release}
@@ -631,7 +631,7 @@ ht-degree: 100%
 
 * **选择启用/选择禁用复选框的新选项** - 您现在可以在订阅登陆页面中为选择启用/选择禁用插入一个复选框。用户需要选中复选框来表示同意（选择启用），取消选中该复选框以取消同意（选择禁用）。[了解详情](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **预填登陆页面字段** - 现在，允许用户使用用户档案信息预填登陆页面字段。[了解详情](../landing-pages/create-lp.md#configure-primary-page)
+* **预填登陆页面字段** - 现在，允许用户使用轮廓信息预填登陆页面字段。[了解详情](../landing-pages/create-lp.md#configure-primary-page)
 
 **决策管理**
 
@@ -667,13 +667,13 @@ ht-degree: 100%
 
 **历程**
 
-* 为了避免统一用户档案架构中出现不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。如有需要，您可以启用它。[了解详情](../reports/sharing-overview.md)
+* 为了避免统一轮廓架构中出现不必要的字段，默认情况下将不再为轮廓启用历程步骤事件架构。如有需要，您可以启用它。[了解详情](../reports/sharing-overview.md)
 * 与导出作业相关的新步骤事件现在由 Journey Optimizer 发送至 Adobe Experience Platform。文档中添加了查询示例。[了解详情](../reports/query-examples.md)
 
 **决策管理**
 
-* 现在，您可以指定是将优惠上限应用到所有用户还是某个特定用户档案，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
-* 通过“批量决策 API”，各类组织可以在一次调用中对特定受众中的所有用户档案使用决策管理功能。受众中每个用户档案的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 现在，您可以指定是将优惠上限应用到所有用户还是某个特定轮廓，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* 通过“批量决策 API”，各类组织可以在一次调用中对特定受众中的所有轮廓使用决策管理功能。受众中每个轮廓的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -784,13 +784,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>历程 - 使用用户档案上限条件优化 IP 增加</strong><br/></th>
+<th><strong>历程 - 使用轮廓上限条件优化 IP 增加</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>配置历程中的<strong>条件</strong>活动时，您现在可以定义用户档案上限。此新条件类型允许您为历程路径设置最大用户档案数。达到此限制后，输入的用户档案会采用替代路径。 这样，您就可以增加投放的数量（IP 增加）。例如，您可能希望通过拆分执行来提升域上的投放数量：第 1 天发送 1000 条消息，第 2 天发送 2000 条等。</p>
+<p>配置历程中的<strong>条件</strong>活动时，您现在可以定义轮廓上限。此新条件类型允许您为历程路径设置最大轮廓数。达到此限制后，输入的轮廓会采用替代路径。 这样，您就可以增加投放的数量（IP 增加）。例如，您可能希望通过拆分执行来提升域上的投放数量：第 1 天发送 1000 条消息，第 2 天发送 2000 条等。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#profile_cap">详细文档</a>。</p>
 </td>
 </tr>
@@ -823,7 +823,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 * 现在，当您更新已发布的消息中直接或间接引用的优惠、后备优惠、优惠收藏集或优惠决策时，更新会自动反映在相应的消息中，而无需重新发布。[了解详情](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 在模拟将针对给定测试用户档案提供哪些优惠时，您现在可以修改默认的模拟设置，并查看与模拟对应的代码，这些代码可用于进行故障诊断。[了解详情](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 在模拟将针对给定测试轮廓提供哪些优惠时，您现在可以修改默认的模拟设置，并查看与模拟对应的代码，这些代码可用于进行故障诊断。[了解详情](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 

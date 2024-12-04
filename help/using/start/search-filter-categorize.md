@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 82%
 >title="标记"
 >abstract="利用此字段，您可以将 Adobe Experience Platform 统一标记分配给您的营销活动。这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。"
 
-使用Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hans)，您可以轻松对Journey Optimizer对象进行分类，以改进列表中的搜索。
+使用 Adobe Experience Platform [统一标记](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hans)，您可以轻松地对 Journey Optimizer 对象进行分类，以改进列表中的搜索。
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 
-在Journey Optimizer中为受众添加有意义的标签可让您稍后过滤和搜索以更轻松地查找受众。 标记还可用于在相关的、可搜索的文件夹中组织受众，创建个性化选件和体验，以及在体验决策规则中使用。
+在 Journey Optimizer 中为受众添加有意义的标签，这可让您稍后更轻松地进行筛选和搜索以查找受众。标记还可用于在可搜索的相关文件夹中组织受众，创建个性化优惠和体验，以及用在体验决策规则中。
 
 ### 向对象添加标记 {#add-tags}
 
@@ -80,7 +80,7 @@ ht-degree: 82%
    >
    > 标记不区分大小写。
 
-1. 如果您要搜索的标记不可用，请单击&#x200B;**[!UICONTROL 创建“”]**&#x200B;以定义一个新标记 — 该标记将自动添加到当前对象中，并可用于所有其他对象。
+1. 如果您要搜索的标记不可用，请单击&#x200B;**[!UICONTROL 创建]**，定义新标记。该标记会被自动添加到当前对象中，并可用于所有其他对象。
 
    ![](assets/tags4.png)
 

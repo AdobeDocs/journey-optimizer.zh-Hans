@@ -8,32 +8,32 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 13cbb0877326b772c3750bd3339e21eee5c3f323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # 系统管理员入门指南 {#get-started-sys-admins}
 
-在开始使用 [!DNL Adobe Journey Optimizer] 之前，需要执行多个步骤来准备环境。您必须执行这些步骤，以便[数据工程师](data-engineer.md)和[历程实践者](marketer.md)可以开始使用[!DNL Adobe Journey Optimizer]。
+在开始使用 [!DNL Adobe Journey Optimizer] 之前，需要执行多个步骤来准备环境。您必须执行这些步骤，以便[数据工程师](data-engineer.md)和[历程实践者](marketer.md)可以开始使用 [!DNL Adobe Journey Optimizer]。
 
-作为&#x200B;**系统管理员**，您需要&#x200B;**了解角色并分配权限**&#x200B;以进行沙盒管理和渠道配置。 您还需要设置沙盒，并为可用角色管理沙盒。 然后，您便能够将团队成员分配给角色。
+作为&#x200B;**系统管理员**，您需要&#x200B;**了解角色和权限分配**，以便进行沙盒管理和渠道配置。您还需要设置沙盒，并管理可用角色的沙盒。然后，您便能够将团队成员分配到角色。
 
-这些功能可以由有权访问权限产品的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;管理。 [了解有关权限的详细信息](../../administration/permissions.md){target="_blank"}。
+这些功能可以由有权访问权限产品的&#x200B;**[!UICONTROL 产品管理员]**&#x200B;管理。[了解有关权限的更多信息](../../administration/permissions.md){target="_blank"}。
 
 在以下页面中了解访问管理：
 
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。**沙盒**&#x200B;在 [!DNL Journey Optimizer] 中创建。在[沙盒](../../administration/sandboxes.md)部分了解详情。
 
    >[!NOTE]
-   >作为&#x200B;**系统管理员**，如果您在[!DNL Journey Optimizer]中看不到&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，则需要更新您的权限。 了解如何在[此页面](../../administration/permissions.md#edit-product-profile)中更新您的角色。
+   >作为&#x200B;**系统管理员**，如果 [!DNL Journey Optimizer] 中未显示&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，则需要更新您的权限。要了解如何更新角色，请参阅[此页面](../../administration/permissions.md#edit-product-profile)。
 
-1. **了解角色**。 角色是一组单一的权利，允许用户访问界面中的特定功能或对象。 在[现成角色](../../administration/ootb-product-profiles.md)部分了解详情。
+1. **了解角色**。角色是一组单一的权利，允许用户访问界面中的特定功能或对象。请参阅[开箱即用的角色](../../administration/ootb-product-profiles.md)部分，了解更多信息。
 
-1. **为角色（包括**&#x200B;沙盒&#x200B;**）设置权限**，并通过将团队成员分配给不同的角色来授予他们访问权限。 权限是单一的权利，允许您定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。 每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
+1. 为角色&#x200B;**设置权限**（包括&#x200B;**沙盒**），并通过向团队成员分配不同的角色来向其授予访问权限。权限是单一的权利，可用于定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。每个权限都集中在功能（例如历程或优惠）下，代表 [!DNL Journey Optimizer] 中的不同功能或对象。在[权限级别](../../administration/high-low-permissions.md)部分了解详情。
 
-此外，您必须将需要访问Assets Essentials的用户添加到&#x200B;**Assets Essentials使用者用户**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;角色。 [请参阅 Assets Essentials 文档以了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"}。
+此外，还必须将需要访问 Assets Essentials 的用户添加到 **Assets Essentials Consumer Users** 或/和 **Assets Essentials Users** 角色。[请参阅 Assets Essentials 文档以了解详情](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"}。
 
 >[!NOTE]
 >对于在 2022 年 1 月 6 日之前购买的 Journey Optimizer 产品，您必须为组织部署 [!DNL Adobe Experience Manager Assets Essentials]。在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hans){target="_blank"} 部分中了解详情。
@@ -43,7 +43,7 @@ ht-degree: 68%
 要创建您的历程并发送消息，请访问&#x200B;**管理**&#x200B;菜单。浏览&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单以配置消息和渠道配置（即消息预设）。
 
 >[!NOTE]
->作为&#x200B;**系统管理员**，如果您在[!DNL Journey Optimizer]中看不到&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在[权限](../../administration/permissions.md){target="_blank"}产品中更新您的权限。
+>作为&#x200B;**系统管理员**，如果 [!DNL Journey Optimizer] 中未显示&#x200B;**[!UICONTROL 渠道]**&#x200B;菜单，请在[权限](../../administration/permissions.md){target="_blank"}产品中更新您的权限。
 >
 
 请遵循以下步骤：

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 ### [!UICONTROL 客户] {#left-nav-customers}
 
-通过此部分管理受众和个人资料数据。
+通过此部分管理受众和轮廓数据。
 
 * **[!UICONTROL 受众]** - 创建和管理 Experience Platform 受众，并将其用于历程。[了解详情](../audience/about-audiences.md)
 
@@ -140,13 +140,13 @@ ht-degree: 100%
 
 ## 产品内用例 {#in-product-uc}
 
-在 [!DNL Adobe Journey Optimizer] 主页中，产品用例提供了快速输入信息，便于创建测试个人资料或您的第一个客户历程。
+在 [!DNL Adobe Journey Optimizer] 主页中，产品用例提供了快速输入信息，便于创建测试轮廓或您的第一个客户历程。
 
 ![](assets/use-cases-home.png)
 
 可用用例包括：
 
-* **创建测试用户档案**，以使用我们的 CSV 模板创建测试用户档案，测试个性化消息和历程。[在此页面中](../audience/creating-test-profiles.md#use-case-1)了解如何实施此用例。
+* **创建测试轮廓**，以使用我们的 CSV 模板创建测试轮廓，测试个性化消息和历程。[在此页面中](../audience/creating-test-profiles.md#use-case-1)了解如何实施此用例。
 * **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
 * **向新客户发送电子邮件**，可以轻松发送最多两封电子邮件来欢迎新注册的客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）

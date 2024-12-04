@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -77,18 +77,18 @@ ht-degree: 66%
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
-* 如果您具有基于API、Headless或服务器端实施，则可以使用基于代码的渠道替代[!DNL Journey Optimizer] Web或应用程序内渠道。
+* 如果您具有基于 API 的无头或服务器端实施，则可以使用基于代码的渠道来替代 [!DNL Journey Optimizer] Web 或应用程序内渠道。
 
-* 如果您希望修改本机应用程序中的内容而不是显示模式、弹出窗口或叠加图，则还可以利用本机移动设备应用程序上的基于代码的渠道作为应用程序内渠道的替代方法。
+* 如果您希望修改原生应用程序中的内容而不是显示模式、弹出窗口或叠加图，则还可以利用原生移动应用程序上基于代码的渠道作为应用程序内渠道的替代方法。
 
 ### 基于代码的渠道与 Web 渠道对比 {#code-based-vs-web}
 
-要执行 Web 用例，您可以使用 Web 渠道或基于代码的体验，但其中一种体验可能比其他体验更合适，具体取决于您的环境。 下面列出了主要区别，以便您能够明智地决定使用什么内容以及何时使用。
+要执行 Web 用例，您可以使用 Web 渠道或基于代码的体验，但其中一种体验可能比其他体验更合适，具体取决于您的环境。 下面列出了主要区别，以便您能够就何时使用哪种渠道做出明智的决策。
 
 **Web**
 
-* 使用[Web设计器](../web/web-visual-editor.md){target="_blank"}可视编辑器或Web [非可视编辑器](../web/web-non-visual-editor.md)编辑您的内容。
-* 您需要[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} — 客户端实现。
+* 使用 [Web 设计器](../web/web-visual-editor.md){target="_blank"}可视编辑器或 Web [非可视编辑器](../web/web-non-visual-editor.md)编辑您的内容。
+* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 客户端实施。
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 通过 Web 渠道，您可以修改页面上的所有内容，并且有一个预定义列表，可用于进行更改。 [了解详情](../web/web-visual-editor.md){target="_blank"}
 * 它易于设置，快捷方便。
@@ -97,7 +97,7 @@ ht-degree: 66%
 **基于代码的体验**
 
 * 使用[个性化编辑器](create-code-based.md#edit-code)编辑内容。
-* 您需要[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} — 客户端实现或[AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} — 服务器端实现。
+* 您需要 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"} 客户端实施或 [AEP Edge Network 服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"} 服务器端实施。
 * 要使用基于代码的体验，需要对您的实施进行预先开发，以确保您的应用程序能够解释和交付由 [!DNL Journey Optimizer] 在边缘上为这些地点发布的内容。[了解详情](code-based-surface.md)
 * 它需要更多的规划，而且只能更改开发人员指定的内容。 因此，必须要确定应用程序上的需要修改以进行个性化或测试的组件（主页横幅、主图、菜单栏等），并与开发团队合作构建处理这些更改所需的实施。
 * 它允许您使用 JSON 代码内容。
@@ -115,27 +115,27 @@ ht-degree: 66%
 >
 >当前，与配置关联的内容只能是 HTML 或 JSON。
 
-创建和交付基于代码的体验的关键步骤如下。
+创建和投放基于代码的体验的主要步骤如下。
 
-1. 确保遵循特定于渠道的先决条件。 [了解详情](code-based-prerequisites.md)
+1. 确保遵循特定于渠道的先决条件。[了解详情](code-based-prerequisites.md)
 
 1. 在应用程序实施中定义[表面](code-based-surface.md#surface-definition)，这基本上就是要添加体验的位置。
 
-1. 创建引用该位置的基于代码的渠道配置。 [了解如何操作](code-based-configuration.md#create-code-based-configuration)
+1. 创建引用该位置的基于代码的渠道配置。[了解如何操作](code-based-configuration.md#create-code-based-configuration)
 
 1. 使用此配置在 [!DNL Journey Optimizer] 中创建历程或营销活动。[了解如何操作](create-code-based.md#create-code-based-campaign)
 
 1. 通过使用 [!DNL Journey Optimizer] 个性化编辑器为选定配置指定内容来编制体验。[了解如何操作](create-code-based.md#edit-code)
 
-1. 测试您的基于代码的体验。 [了解如何操作](test-code-based.md)
+1. 测试基于代码的体验。[了解如何操作](test-code-based.md)
 
-1. Publish它。 [了解如何操作](publish-code-based.md)
+1. 进行发布。[了解如何操作](publish-code-based.md)
 
-1. 一旦基于代码的体验历程或营销活动上线，必须为表面请求内容的应用程序或页面实施就位，才能检索和显示内容。
+1. 基于代码的体验历程或营销活动上线后，请求表面内容的应用程序或页面实施必须到位，以便检索和显示内容。
 
    >[!INFO]
    >
-   >要确保这一点，应用程序实施团队会进行显式API或SDK调用，以获取在基于代码的配置中定义的表面(例如“横幅文本”或“Recommendations任务栏1”)或应用程序中与UI无关的决策点（例如“搜索算法参数”）的内容。<!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [了解详情](code-based-implementation-samples.md)
+   >要确保这一点，您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取基于代码的配置中定义的表面内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。<!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [了解详情](code-based-implementation-samples.md)
 
 
 

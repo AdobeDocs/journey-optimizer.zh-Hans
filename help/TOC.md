@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2188'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [历程中的实时报告](using/building-journeys/report-journey.md)
    + 管理您的历程{#manage-journey}
-      + [用户档案入口管理](using/building-journeys/entry-management.md)
+      + [轮廓入口管理](using/building-journeys/entry-management.md)
       + [时区管理](using/building-journeys/timezone-management.md)
       + [结束您的历程](using/building-journeys/end-journey.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
@@ -71,7 +71,7 @@ ht-degree: 98%
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳转](using/building-journeys/jump.md)
-      + [更新用户档案](using/building-journeys/update-profiles.md)
+      + [更新轮廓](using/building-journeys/update-profiles.md)
    + 构建表达式 {#building-advanced-conditions-journeys}
       + [使用高级表达式编辑器](using/building-journeys/expression/expressionadvanced.md)
       + 语法 {#syntax}
@@ -183,7 +183,7 @@ ht-degree: 98%
 + 测试和审批{#test}
    + 预览和测试内容{#preview-test}
       + [预览和测试入门](using/content-management/preview-test.md)
-      + [选择测试用户档案](using/content-management/test-profiles.md)
+      + [选择测试轮廓](using/content-management/test-profiles.md)
       + [预览您的内容](using/content-management/preview.md)
       + [发送电子邮件校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
@@ -275,11 +275,11 @@ ht-degree: 98%
       + [基于代码的渠道快速入门](using/code-based/get-started-code-based.md)
       + 配置基于代码的渠道{#configure-code-based-channel}
          + [护栏和先决条件](using/code-based/code-based-prerequisites.md)
-         + [基于代码的体验平面](using/code-based/code-based-surface.md)
+         + [基于代码的体验表面](using/code-based/code-based-surface.md)
          + [实施方法示例](using/code-based/code-based-implementation-samples.md)
          + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
       + 创建基于代码的体验{#create-code-based-experiences}
-         + [构建和撰写基于代码的体验](using/code-based/create-code-based.md)
+         + [构建和编写基于代码的体验](using/code-based/create-code-based.md)
          + [测试基于代码的体验](using/code-based/test-code-based.md)
          + [管理基于代码的体验](using/code-based/publish-code-based.md)
    + 内容卡{#content-card}
@@ -370,7 +370,7 @@ ht-degree: 98%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-+ 受众、用户档案和身份{#audiences-profiles-identities}
++ 受众、轮廓和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + [自定义上传 (CSV) 和联合受众合成](using/audience/custom-upload-fac.md)
@@ -381,9 +381,9 @@ ht-degree: 98%
          + [使用组合画布](using/audience/composition-canvas.md)
          + [访问和管理受众](using/audience/access-audiences.md)
       + [联合受众构成](https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home)
-   + 用户档案{#profiles}
-      + [开始使用用户档案](using/audience/get-started-profiles.md)
-      + [创建测试用户档案](using/audience/creating-test-profiles.md)
+   + 轮廓{#profiles}
+      + [开始使用轮廓](using/audience/get-started-profiles.md)
+      + [创建测试轮廓](using/audience/creating-test-profiles.md)
       + [使用计算属性](using/audience/computed-attributes.md)
    + [标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
@@ -487,7 +487,7 @@ ht-degree: 98%
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
-      + [Decisioning用例](using/experience-decisioning/experience-decisioning-uc.md)
+      + [决策用例](using/experience-decisioning/experience-decisioning-uc.md)
    + 决策管理{#offer-decisioning}
       + 决策管理入门 {#get-started-decision}
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)

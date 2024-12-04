@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 89%
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **测试和验证**。定义内容后，您可以使用测试用户档案或从CSV / JSON文件上传的示例输入数据，或手动添加来预览其内容。
+1. **测试和验证**。定义内容后，您可以使用测试用户档案、从 CSV/JSON 文件上传的示例输入数据或手动添加来预览其内容。
 
-   如果插入[个性化内容](../../personalization/personalize.md)，您将能够检查此内容在消息中的显示方式。 此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../content-management/preview-test.md)了解如何测试和验证消息。
+   如果插入[个性化内容](../../personalization/personalize.md)，您可以查看此内容在消息中的显示方式。此外，您还可以将您的 **Litmus** 帐户用于 [!DNL Journey Optimizer]，以即时预览您的&#x200B;**电子邮件在主流电子邮件客户端中的渲染方式**。这样，即可确保您的电子邮件内容在各种收件箱中都具有美观的显示效果且正常工作。[在此部分中](../../content-management/preview-test.md)了解如何测试和验证消息。
 
 1. **设计客户历程**，以提供个性化的情境式体验。[!DNL Journey Optimizer] 使您可以利用存储在事件或数据源中的上下文数据，生成实时编排用例。设计由以下功能提供支持的分步式高级方案：
 

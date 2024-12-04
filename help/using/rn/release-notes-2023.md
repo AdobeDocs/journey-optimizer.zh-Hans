@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到配置文件属性中，以增强基于行为的分段、个性化和激活。借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客配置文件目标或 Journey Optimizer 中进行使用。<br/><br/>
+<p>计算属性使您可以通过直观的用户界面轻松地将事件数据汇总到轮廓属性中，以增强基于行为的分段、个性化和激活。借助此功能，您可以以自助方式创建计算属性，管理这些属性，并在分段、实时客轮廓目标或 Journey Optimizer 中进行使用。<br/><br/>
 此外，计算属性简化了分段和历程工作流，帮助您完美投放相关体验。有关更多信息，请参阅<a href="../audience/computed-attributes.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
@@ -209,13 +209,13 @@ ht-degree: 100%
 
 **电子邮件渠道**
 
-* 利用电子邮件表面配置中的新选项，可选择向用户档案发送事务型消息，即使其电子邮件地址在 Adobe [!DNL Journey Optimizer] 禁止列表中。[了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 利用电子邮件表面配置中的新选项，可选择向轮廓发送事务型消息，即使其电子邮件地址在 Adobe [!DNL Journey Optimizer] 禁止列表中。[了解详情](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **短信渠道**
 
 * **选择加入消息**&#x200B;和&#x200B;**帮助消息**&#x200B;这两个新字段已添加到 API 配置屏幕，允许用户自定义针对入站关键词的响应。请注意，这仅适用于 Sinch 短信提供商。[了解详情](../sms/sms-configuration.md)
 
-* 不再在渠道级别进行管理短信选择退出。现在，这是特定于号码的，这意味着如果某些用户档案选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。[了解详情](../sms/sms-configuration.md)
+* 不再在渠道级别进行管理短信选择退出。现在，这是特定于号码的，这意味着如果某些轮廓选择退出给定的号码或短代码，您仍然能够通过您可能用于发送短信消息的其他在用号码向其发送消息。新增一个选项，使您可以选择要用于特定表面的&#x200B;**选择退出号码**。[了解详情](../sms/sms-configuration.md)
 
 **直邮渠道**
 
@@ -265,7 +265,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标个人资料完全相同的消息。 使用此功能可监控发出的通信，并确保所有显示格式、URL、图像和链接均正确无误。</p>
+<p>您现在可以在 Journey Optimizer 中创建和管理种子列表。种子列表包含内部地址，这些地址可以添加到实际受众，并在投放执行时收到与目标轮廓完全相同的消息。 使用此功能可监控发出的通信，并确保所有显示格式、URL、图像和链接均正确无误。</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>有关更多信息，请参阅<a href="../configuration/seed-lists.md">详细文档</a>。</p>
 </td>
@@ -353,7 +353,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>您现在可以在营销活动中添加直邮消息。直邮是一种离线渠道，允许您生成直邮服务提供商向客户发送邮件所需的文件并进行个性化。</p>
-<p>在准备直邮投放时，Journey Optimizer 会生成一个文件，其中包含了所有定向的用户档案和选定的联系信息（例如邮政地址）。然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。</p>
+<p>在准备直邮投放时，Journey Optimizer 会生成一个文件，其中包含了所有定向的轮廓和选定的联系信息（例如邮政地址）。然后，您可以将此文件发送给直邮提供商，由其负责发送纸质信函。</p>
 <p>目前，直邮渠道不适用于已购买 Adobe Healthcare Shield 附加产品的组织。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>有关更多信息，请参阅<a href="../direct-mail/get-started-direct-mail.md">详细文档</a>。</p>
@@ -605,7 +605,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，“受众”将取代“区段”，这体现出了这种创建和管理受众的新方式。
 
-  “受众”一词在指代一组向其发送消息的目标个人资料时，对于部分语言，其含义在所有数字体验产品中是统一的：
+  “受众”一词在指代一组向其发送消息的目标轮廓时，对于部分语言，其含义在所有数字体验产品中是统一的：
 
    * 德语：Zielgruppe
    * 巴西葡萄牙语：público-alvo
@@ -817,7 +817,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **个性化**
 
-* 现在，您可以在“表达式编辑器”中包含基于字符串的个人资料属性的默认回退文本。如果选定的属性未返回任何结果，则将显示这些值。[了解详情](../personalization/personalization-build-expressions.md#add)
+* 现在，您可以在“表达式编辑器”中包含基于字符串的轮廓属性的默认回退文本。如果选定的属性未返回任何结果，则将显示这些值。[了解详情](../personalization/personalization-build-expressions.md#add)
 
 **报告**
 
@@ -921,9 +921,9 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
 
-* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许用户档案在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
+* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许轮廓在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
 <!--
 
