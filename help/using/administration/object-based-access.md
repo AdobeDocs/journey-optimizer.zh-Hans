@@ -11,8 +11,8 @@ keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '460'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="访问管理标签"
->abstract="您可以根据访问标签限制对此营销活动的访问。 要添加访问限制，请浏览至此页顶部的&#x200B;**管理访问**&#x200B;按钮。 确保仅选择您具有权限的标签。"
+>abstract="您可以根据访问标签限制对此营销活动的访问。要对访问权限添加限制，请浏览页面顶部的&#x200B;**管理访问权限**&#x200B;按钮。确保仅选择您有权限的标签。"
 
 对象级访问控制(OLAC)功能允许您定义管理对所选对象的数据访问的授权：
 

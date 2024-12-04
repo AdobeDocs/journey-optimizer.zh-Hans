@@ -5,14 +5,15 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: e9181c333fb9188cdfcee3fd96c1d3bb94b8dd75
+exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
+source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
-# 基于代码的体验平面 {#code-based-surface}
+# 基于代码的体验表面 {#code-based-surface}
 
 ## 什么是表面？ {#surface-definition}
 
@@ -20,7 +21,7 @@ ht-degree: 52%
 >id="ajo_admin_surface_uri"
 >title="为您的组件添加表面 URI"
 >abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要定位特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
 
 基于代码的体验&#x200B;**surface**&#x200B;是为用户或系统交互而设计的任何实体，由[URI](#surface-uri)唯一标识。 该表面在[应用程序实现](code-based-prerequisites.md#implementation-prerequisites)中指定，并且必须匹配在基于[代码的体验渠道配置](code-based-configuration.md)中引用的表面。
 
@@ -72,7 +73,7 @@ ht-degree: 52%
 在[!DNL Journey Optimizer]中，基于代码的体验渠道支持两种类型的客户实施：
 
 * 基于您网站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}，或基于您移动应用程序的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}；
-* 使用[AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}的服务器端或混合服务器。
+* 使用[AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}的服务器端或混合服务器。
 
 >[!NOTE]
 >
