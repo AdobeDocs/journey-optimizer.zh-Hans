@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用Adobe Experience Platform数据进行个性化(Beta)
+title: 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）
 description: 了解如何使用Adobe Experience Platform数据进行个性化。
 feature: Personalization, Rules
 topic: Personalization
@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: cb7842209e03c579904979480304e543a6b50f50
+source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 2%
 
 ---
 
-# 使用Adobe Experience Platform数据进行个性化(Beta) {#aep-data}
+# 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版） {#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >为了使用此功能，您必须首先接受贵组织的测试版条款，在个性化编辑器中添加新的“datasetLookup”帮助程序函数时会显示这些条款。
 
-Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platform中的数据来[个性化您的内容](../personalization/personalize.md)。 为此，必须首先通过API调用启用查找个性化所需的数据集，如下所述。 完成后，您可以使用他们的数据将您的内容个性化到[!DNL Journey Optimizer]中。
+Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platform中的数据来[个性化您的内容](../personalization/personalize.md)。 为此，必须首先通过API调用启用查找个性化所需的数据集，如下所述。 完成后，可以使用其数据对您的内容进行个性化并将它们引入到 [!DNL Journey Optimizer] 中。
 
 ## Beta限制和准则 {#guidelines}
 
@@ -40,7 +40,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
 ### 使用[!DNL Adobe Experience Platform]数据的Personalization {#perso}
 
-* **支持的渠道**：目前，此功能仅适用于电子邮件、短信、推送和直邮渠道。
+* **支持的渠道**：目前，此功能仅可用于电子邮件、短信和直邮渠道中。
 * **数据使用标签和强制执行**&#x200B;目前未对启用查找的数据集强制执行。
 * **表达式片段**：此时不能将数据集查找个性化置于表达式片段中。
 
@@ -73,6 +73,17 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * 可从开发人员控制台检索&#x200B;**API密钥**。
 * **IMS组织ID**&#x200B;是您的Adobe IMS组织。
 * **沙盒名称**&#x200B;是数据集所在的沙盒名称（即prod、dev等）。
+
+>[!NOTE]
+>
+>如果在尝试通过API调用启用数据集时遇到以下错误，请尝试从开发人员控制台项目中移除Adobe Journey Optimizer API，然后重新添加它们。
+>
+>```
+>
+>"error_code": "403003", 
+>"message": "Api Key is invalid"
+>
+>```
 
 ## 利用数据集进行个性化 {#leverage}
 
