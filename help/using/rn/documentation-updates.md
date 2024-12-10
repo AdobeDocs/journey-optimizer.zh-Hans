@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
-source-wordcount: '5736'
-ht-degree: 100%
+source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
+workflow-type: tm+mt
+source-wordcount: '5767'
+ht-degree: 99%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+## 2024 年 12 月 {#nov-2024}
+
+* 添加了注释，以帮助排除使用Adobe Experience Platform数据启用API调用以进行个性化数据集时的潜在错误消息。 [了解详情](../personalization/lookup-aep-data.md)
 
 ## 2024 年 10 月 {#oct-2024}
 
