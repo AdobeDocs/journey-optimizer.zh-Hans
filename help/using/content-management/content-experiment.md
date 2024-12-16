@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '729'
 ht-degree: 12%
 
 ---
@@ -44,7 +44,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
 ## 创建您的内容 {#campaign-experiment}
 
-1. 首先根据您的要求创建和配置电子邮件、短信或推送通知[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journeys-message.md)。
+1. 首先根据您的要求创建和配置您的[营销活动](../campaigns/create-campaign.md)或[历程](../building-journeys/journeys-message.md)。
 
 1. 从&#x200B;**[!UICONTROL 编辑内容]**&#x200B;窗口，开始个性化处理A。
 
