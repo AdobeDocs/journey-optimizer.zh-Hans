@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
-workflow-type: ht
-source-wordcount: '2188'
-ht-degree: 100%
+source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+workflow-type: tm+mt
+source-wordcount: '2193'
+ht-degree: 99%
 
 ---
 
@@ -304,6 +304,7 @@ ht-degree: 100%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
+   + [Adobe Experience Manager内容片段](using/content-management/aem-fragments.md)
    + 使用 AI 助手{#ai-assistant}
       + [AI 助手内容加速器入门](using/content-management/gs-generative.md)
       + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
@@ -370,7 +371,7 @@ ht-degree: 100%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-+ 受众、轮廓和身份{#audiences-profiles-identities}
++ 受众、轮廓和身份标识{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + [自定义上传 (CSV) 和联合受众合成](using/audience/custom-upload-fac.md)
@@ -385,7 +386,7 @@ ht-degree: 100%
       + [开始使用轮廓](using/audience/get-started-profiles.md)
       + [创建测试轮廓](using/audience/creating-test-profiles.md)
       + [使用计算属性](using/audience/computed-attributes.md)
-   + [标识](using/audience/get-started-identity.md)
+   + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
@@ -445,7 +446,7 @@ ht-degree: 100%
          + [常用字段](using/reports/sharing-common-fields.md)
          + [操作执行字段](using/reports/sharing-execution-fields.md)
          + [数据提取字段](using/reports/sharing-fetch-fields.md)
-         + [标识字段](using/reports/sharing-identity-fields.md)
+         + [身份标识字段](using/reports/sharing-identity-fields.md)
       + [查询示例](using/reports/query-examples.md)
    + 可投放性{#deliverability}
       + [可投放性入门](using/reports/deliverability.md)
