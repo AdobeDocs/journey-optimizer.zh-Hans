@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: cb7e2e209872176c67020add47242f95a7304c6c
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 28%
+source-wordcount: '1312'
+ht-degree: 26%
 
 ---
 
@@ -97,16 +97,15 @@ ht-degree: 28%
 
    您可以个性化自己的链接。在[本节](../personalization/personalization-syntax.md)中了解更多关于个性化 URL 的信息。
 
-1. 选择您要应用选择退出的层级：渠道、身份或订阅。
+1. 选择您要应用选择退出的层级：渠道、身份标识或订阅。
 
    ![](assets/message-tracking-opt-out-level.png)
 
    * **[!UICONTROL 渠道]**：选择退出适用于将来发送到当前渠道的轮廓目标（即电子邮件地址）的消息。如果多个目标与一个轮廓关联，则选择退出适用于该渠道的轮廓中的所有目标（即电子邮件地址）。
-   * **[!UICONTROL 标识]**：选择退出适用于在将来发送给当前消息所使用的特定目标（即电子邮件地址）的消息。
-   * **[!UICONTROL 订阅]**：选择退出适用于与特定订阅列表关联的将来发送的消息。仅在当前消息与订阅列表关联时，才能选择此选项。
+   * **[!UICONTROL 身份标识]**：选择退出适用于在将来发送给当前消息所使用的特定目标（即电子邮件地址）的消息。
+     <!--* **[!UICONTROL Subscription]**: The opt-out applies to future messages associated with a specific subscription list. This option can only be selected if the current message is associated with a subscription list.-->
 
 1. 保存更改。
-
 
 
 ## 两步式选择退出 {#opt-out-external-lp}
@@ -207,7 +206,7 @@ ht-degree: 28%
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
 
-1. 要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该轮廓。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
+1. 要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
 
    ![](assets/opt-out-profile-choice.png)
 
