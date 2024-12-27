@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2024 年 12 月 {#nov-2024}
 
-* 添加了注释，以帮助排除使用Adobe Experience Platform数据启用API调用以进行个性化数据集时的潜在错误消息。 [了解详情](../personalization/lookup-aep-data.md)
+* 添加了一个注释，在使用 Adobe Experience Platform 数据进行 API 调用以允许将数据集用于个性化时，这有助于解决可能出现的错误消息。[了解详情](../personalization/lookup-aep-data.md)
 
 ## 2024 年 10 月 {#oct-2024}
 
@@ -78,7 +78,7 @@ ht-degree: 99%
 * 详细介绍了应用程序内消息传递的配置步骤。[了解详情](../in-app/inapp-configuration.md)
 * [优惠决策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和[批量决策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文档已更新。
 * 在决策管理文档中添加了关于通过 Edge Decisioning API 使用频率上限时的边缘和中心区域管理的信息。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
-* 添加了关于使用 API 触发的营销活动时通过自定义命名空间创建身份的信息。[了解详情](../campaigns/api-triggered-campaigns.md)
+* 添加了关于使用 API 触发的营销活动时通过自定义命名空间创建身份标识的信息。[了解详情](../campaigns/api-triggered-campaigns.md)
 * 屏幕快照已更新，以反映改进的历程画布。
 * 以下页面中更新了命名约束条件：[配置单一事件](../event/about-creating.md)、[配置业务事件](../event/about-creating-business.md#gs-business-events)、[配置自定义操作](../action/about-custom-action-configuration.md#configuration-steps)、[外部数据源](../datasource/external-data-sources.md)
 * 添加了有关“发送时间优化”可用性的注释。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
@@ -258,7 +258,7 @@ ht-degree: 99%
 * 在上限文档中添加了有关自定义身份验证端点的信息。[了解详情](../configuration/external-systems.md)
 * 在外部数据源部分中添加了新的自定义身份验证示例。[了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
 * 添加了有关事件触发历程数据收集核心服务 (DCCS) 的注释。[了解详情](../start/guardrails.md#events-g)
-* 在[读取受众](../building-journeys/read-audience.md)、[受众资格](../building-journeys/audience-qualification-events.md)和[事件创建](../event/about-creating.md)部分中添加了有关身份命名空间检索的注释。
+* 在[读取受众](../building-journeys/read-audience.md)、[受众资格](../building-journeys/audience-qualification-events.md)和[事件创建](../event/about-creating.md)部分中添加了有关身份标识命名空间检索的注释。
 * 现在，[!DNL Journey Optimizer] 中的辅助功能被分组到了专用页面中。[了解详情](../start/accessibility.md)
 * 在高级表达式编辑器文档的“运算符”部分中更新了示例。[了解详情](../building-journeys/expression/operators.md)
 * 添加了有关使用对象数组进行查找的限制的注释。[了解详情](../event/experience-event-schema.md#relationships_limitations)
@@ -370,7 +370,7 @@ ht-degree: 99%
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 3 月版的所有新增功能和改进。[了解更多信息](release-notes.md)
 * 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/ranking/auto-optimization-model.md)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/ranking/ai-models.md)
-* 测试轮廓创建页面已移至&#x200B;**受众、轮廓和身份**&#x200B;部分。[了解更多信息](../audience/creating-test-profiles.md)
+* 测试轮廓创建页面已移至&#x200B;**受众、轮廓和身份标识**&#x200B;部分。[了解更多信息](../audience/creating-test-profiles.md)
 * 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。[了解更多信息](../building-journeys/expression/field-references.md#default-value)
 * **创建个性化优惠**&#x200B;章节已重新组织，提高了可读性。[了解更多信息](../offers/offer-library/creating-personalized-offers.md)
 * 添加了新的章节以描述更改优惠开始和/或结束日期可能对此优惠的频率上限产生的影响。[了解更多信息](../offers/offer-library/add-constraints.md#capping-change-date)

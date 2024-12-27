@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ ht-degree: 99%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
-   + [Adobe Experience Manager内容片段](using/content-management/aem-fragments.md)
+   + [Adobe Experience Manager 内容片段](using/content-management/aem-fragments.md)
    + 使用 AI 助手{#ai-assistant}
       + [AI 助手内容加速器入门](using/content-management/gs-generative.md)
       + [使用 AI 生成电子邮件](using/content-management/generative-email.md)

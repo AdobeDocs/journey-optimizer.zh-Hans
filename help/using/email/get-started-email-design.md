@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 79%
 
 有关电子邮件设计的最佳实践，请参阅下表：
 
-| 建议 | 谨慎使用 | 不推荐 |
+| 推荐 | 谨慎使用 | 不推荐 |
 |-|-|-|
-| <ul><li>结构为<b>基于表的静态布局</b></li> <li><b>HTML表和嵌套表</b>以保持布局一致性</li> <li><b>模板宽度</b>介于600px和800px之间 </li> <li>用于样式的<b>简单、内联CSS</b> </li> <li><b>Web安全字体</b>以实现通用兼容性</li> | <ul><li><b>背景图像</b>可能未出现在某些电子邮件平台上。</li><li><b>自定义Web字体</b>缺少通用支持。</li><li><b>宽布局</b>在较小的屏幕上显示效果不佳。</li><li><b>图像映射</b>提供有限的功能。</li><li><b>嵌入的CSS</b>有时在电子邮件投放期间被删除。</li> | <ul><li>电子邮件环境中通常不支持<b>JavaScript</b>。</li> <li> 在大多数平台上阻止了<b>`<iframe>`</b>标记。 </li> <li><b>Flash</b>已过期，不再受支持。</li> <li><b>嵌入的音频</b>经常无法播放。</li> <li><b>嵌入式视频</b>与许多电子邮件平台不兼容。</li> <li> <b>Forms</b>无法在电子邮件中工作。</li> <li> `<div>`分层可能会导致渲染问题。</li> |
+| <ul><li>用于结构的<b>基于表的静态布局</b></li> <li>用于保持布局一致性的 <b>HTML 表和嵌套表</b></li> <li>介于 600px 和 800px 之间的<b>模板宽度</b> </li> <li>用于设置样式的<b>简单内联 CSS</b> </li> <li>用于实现通用兼容性的 <b>Web 安全字体</b></li> | <ul><li>某些电子邮件平台可能不显示<b>背景图像</b>。</li><li><b>自定义 Web 字体</b>缺少通用支持。</li><li><b>宽布局</b>在较小的屏幕上显示效果不佳。</li><li><b>图像映射</b>提供有限的功能。</li><li><b>嵌入式 CSS</b> 在电子邮件投放期间有时会被删除。</li> | <ul><li>电子邮件环境中通常不支持 <b>JavaScript</b>。</li> <li> 大多数平台会阻止 <b>`<iframe>`</b> 标记。 </li> <li><b>Flash</b> 已过期，不再受支持。</li> <li><b>嵌入式音频</b>经常无法播放。</li> <li><b>嵌入式视频</b>与许多电子邮件平台不兼容。</li> <li> <b>表单</b>无法在电子邮件中运行。</li> <li> `<div>` 分层可能会导致渲染问题。</li> |
 
 ## 创建电子邮件内容的关键步骤 {#key-steps}
 
