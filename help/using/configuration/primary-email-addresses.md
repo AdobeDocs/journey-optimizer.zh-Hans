@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '484'
+ht-degree: 16%
 
 ---
 
@@ -66,7 +66,15 @@ ht-degree: 18%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 覆盖历程参数中的值 {#journey-parameters}
+## 覆盖默认值 {#override-default-execution-address}
+
+### 在电子邮件配置中
+
+定义电子邮件渠道配置时，您可以更改在沙盒级别设置的默认执行字段。 [了解详情](../email/email-settings.md#execution-address)
+
+在配置级别定义执行地址后，执行地址将用作主地址，并覆盖沙盒级别的常规设置。
+
+### 在历程参数中 {#journey-parameters}
 
 仅对于特定用例，您可以全局覆盖执行字段设置，并在历程级别定义不同的值，尤其是电子邮件渠道的值。
 
@@ -84,3 +92,4 @@ ht-degree: 18%
 
 * 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，会向您发送电子邮件。
 * 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
+

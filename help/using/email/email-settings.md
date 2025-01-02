@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 10%
+source-wordcount: '2687'
+ht-degree: 11%
 
 ---
 
@@ -340,3 +340,26 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 >[!NOTE]
 >
 >您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数，但这在配置级别是不可能的。 使用电子邮件设计器创作消息时，需要执行此操作。 [了解详情](message-tracking.md#url-tracking)
+
+## 执行地址 {#execution-address}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="定义要使用的地址"
+>abstract="当数据库中有多个电子邮件地址或电话号码（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。"
+
+定向用户档案时，数据库中可能会提供多个电子邮件地址（专业电子邮件地址、个人电子邮件地址等）。
+
+在这种情况下，[!DNL Journey Optimizer]在沙盒级别使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中指定的地址来确定要优先从配置文件服务中使用的电子邮件地址。 [了解详情](../configuration/primary-email-addresses.md)
+
+>[!NOTE]
+>
+>要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
+
+但是，您可以在电子邮件渠道配置级别更改此默认执行字段。
+
+为此，请编辑&#x200B;**[!UICONTROL 投放地址]**&#x200B;字段并从可用电子邮件类型XDM字段列表中选择一个项目。
+
+![](assets/email-config-delivery-address.png)
+
+执行字段已更新，然后用作主地址。 它覆盖沙盒级别的常规设置。

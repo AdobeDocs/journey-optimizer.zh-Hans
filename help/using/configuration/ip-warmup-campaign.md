@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: cf946f8d59728a743b3c4b571c07fc70e3c6cf87
+source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '437'
 ht-degree: 12%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 12%
 
 要创建IP预热活动，请执行以下步骤。
 
-1. 为域和您已为预热计划标识的IP创建[电子邮件](../email/email-settings.md)渠道[配置](channel-surfaces.md)。
+1. 为域以及您为预热计划标识的IP创建电子邮件渠道[配置](channel-surfaces.md)。
+
+   与您的可投放性顾问合作，确定要使用的域和IP。 在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何在电子邮件配置中选择它们。
 
    >[!NOTE]
    >
-   >* 在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何选择要用于电子邮件配置的域和IP。
-   >
-   >* 与您的可投放性顾问合作，确定要用于IP预热计划的域和IP。<!--TBC-->
+   >即使更改电子邮件配置中的[执行地址](../email/email-settings.md#execution-address)，仍会使用在沙盒级别设置的默认字段。 [了解详情](primary-email-addresses.md)
 
 1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email-journey-campaign)操作。
 
