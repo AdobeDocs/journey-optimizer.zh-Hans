@@ -66,7 +66,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="定义业务规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
+>abstract="请至少选择一个渠道。对所有渠道的总计数应用频率上限。"
 
 要创建新的业务规则，请执行以下步骤。
 

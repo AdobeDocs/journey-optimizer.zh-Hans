@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用规则集(LA)
+title: 使用规则集 (LA)
 description: 了解如何创建和应用规则集
 feature: Rules
 topic: Content Management
@@ -100,7 +100,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="定义规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
+>abstract="请至少选择一个渠道。对所有渠道的总计数应用频率上限。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"

@@ -28,7 +28,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="关于产品建议优先级"
->abstract="在此字段中，您可以指定产品建议的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频次封顶）的产品建议进行排名。"
+>abstract="在此字段中，您可以指定产品建议的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频率上限）的产品建议进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
@@ -135,14 +135,14 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="关于产品建议频次封顶"
+>title="关于产品建议频率上限"
 >abstract="在此字段中，可指定可呈现产品建议的次数。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="使用频次封顶"
->abstract="为避免过度招揽客户，请使用频次封顶定义可呈现产品建议的最大次数。您最多可以为给定产品建议创建 10 条上限规则。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响频次封顶"
+>title="使用频率上限"
+>abstract="为避免过度招揽客户，请使用频率上限定义可呈现产品建议的最大次数。您最多可以为给定产品建议创建 10 条上限规则。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响频率上限"
 
 上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
@@ -177,7 +177,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="印象"
->abstract="仅入站频道可将印象用作频次封顶事件。"
+>abstract="仅入站频道可将印象用作频率上限事件。"
 
 **[!UICONTROL Choose capping event]**&#x200B;字段允许您定义将考虑哪个事件以增加计数器：
 
@@ -245,8 +245,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="设置频次封顶"
->abstract="您可以选择每天、每周或每月重置产品建议频次封顶计数器。请注意，在启用频次封顶的情况下发布产品建议后，您将无法更改已定义的频率。"
+>title="设置频率上限"
+>abstract="您可以选择每天、每周或每月重置产品建议频率上限计数器。请注意，在启用频率上限的情况下发布产品建议后，您将无法更改已定义的频率。"
 
 **[!UICONTROL 重置上限频率]**&#x200B;字段允许您定义重置上限计数的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
 
@@ -291,8 +291,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="更改日期可能会影响频次封顶"
->abstract="如果此产品建议应用了频次封顶，则在更改开始或结束日期时可能会影响该频次封顶。"
+>title="更改日期可能会影响频率上限"
+>abstract="如果此产品建议应用了频率上限，则在更改开始或结束日期时可能会影响该频率上限。"
 
 更改优惠日期时必须小心操作，因为如果满足以下条件，这可能会对上限产生影响：
 

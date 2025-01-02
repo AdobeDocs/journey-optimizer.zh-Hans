@@ -111,11 +111,11 @@ ht-degree: 10%
 
    ![](assets/journey12.png)
 
-## 选择标识类型 {#select-the-namespace}
+## 选择身份标识类型 {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"
->title="标识类型"
+>title="身份标识类型"
 >abstract="选择用于标识与事件关联的客户轮廓的键。"
 
 身份类型（以前称为“namespace”）允许您定义用于识别与事件关联的人员的键类型。 其配置是可选的。 如果您想在历程中检索来自[实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}的其他信息，则需要此项。 如果您仅使用来自第三方系统的数据（通过自定义数据源），则不需要标识类型定义。

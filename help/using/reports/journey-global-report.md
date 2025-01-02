@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="历程全局报告"
->abstract="历程全局报告让您可以衡量您的历程在选定时段内产生的影响。报告分为不同的构件，详细说明历程中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+>abstract="历程全局报告让您可以衡量您的历程在选定时段内产生的影响。报告分为不同的小组件，详细说明历程中的成功和错误。可通过调整小组件大小或删除小组件而修改每个报告仪表板。"
 
 >[!AVAILABILITY]
 >
@@ -53,7 +53,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="历程表现"
->abstract="“历程表现”构件使您能够直观地跟踪目标轮廓在您的历程中的进展路径。"
+>abstract="“历程表现”小组件使您能够直观地跟踪目标轮廓在您的历程中的进展路径。"
 
 ![](assets/journey_performance.png)
 
@@ -87,7 +87,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="操作表现"
->abstract="“操作表现”构件显示了启动操作时发生的最成功的操作。"
+>abstract="“操作表现”小组件显示了启动操作时发生的最成功的操作。"
 
 ![](assets/journey_action_performance.png)
 
@@ -273,7 +273,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="电子邮件 - 退回类别和原因"
->abstract="“电子邮件 - 退回类别和原因”构件汇总了有关退回邮件的数据，提供了对导致电子邮件退回的具体原因和类别的深入洞察"
+>abstract="“电子邮件 - 退回类别和原因”小组件汇总了有关退回邮件的数据，提供了对导致电子邮件退回的具体原因和类别的深入洞察"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -399,7 +399,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title=" 电子邮件 - 优化 "
->abstract="“发送时间优化”以及“已优化”和“未优化”构件提供了有关您的消息的详细信息，并突出显示它们是否已优化。"
+>abstract="“发送时间优化”以及“已优化”和“未优化”小组件提供了有关您的消息的详细信息，并突出显示它们是否已优化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -427,7 +427,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="电子邮件 - 产品建议"
->abstract="“产品建议统计”和“产品建议详细统计”构件提供了对产品建议绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
+>abstract="“产品建议统计”和“产品建议详细统计”小组件提供了对产品建议绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -629,7 +629,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="短信 - 跟踪统计数据"
->abstract="“短信 - 跟踪统计数据”构件全面概述了有关访客与 URL 交互的基本信息。"
+>abstract="“短信 - 跟踪统计数据”小组件全面概述了有关访客与 URL 交互的基本信息。"
 
 ![](assets/journey_sms_tracking.png)
 
@@ -644,7 +644,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="短信 - 各日期的效果"
->abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关消息的关键信息。"
+>abstract="“短信 - 各日期的效果”小组件以图形表示形式提供有关消息的关键信息。"
 
 ![](assets/journey_sms_performance.png)
 
@@ -700,7 +700,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 参与的基本洞察。"
+>abstract="“短信 - 按链接显示的点击次数”小组件提供有关访客与消息中的 URL 参与的基本洞察。"
 
 ![](assets/journey_sms_clicks.png)
 

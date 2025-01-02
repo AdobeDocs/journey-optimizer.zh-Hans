@@ -20,7 +20,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="为您的组件添加表面 URI"
->abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要定位特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
+>abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要锁定特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
 
 基于代码的体验&#x200B;**surface**&#x200B;是为用户或系统交互而设计的任何实体，由[URI](#surface-uri)唯一标识。 该表面在[应用程序实现](code-based-prerequisites.md#implementation-prerequisites)中指定，并且必须匹配在基于[代码的体验渠道配置](code-based-configuration.md)中引用的表面。
@@ -83,7 +83,7 @@ ht-degree: 53%
 
 这些表面URI的构成和处理取决于实施方法：
 
-* **Web/Mobile SDK**：您的Web/Mobile开发人员需要将这些粒度位置定义为简单字符串，因为Web/Mobile SDK能够基于当前URL/应用程序ID和位置字符串自动撰写表面URI。
+* **Web/移动SDK**：您的Web/移动开发人员需要将这些粒度位置定义为简单字符串，因为Web/移动SDK能够基于当前URL/应用程序ID和位置字符串自动构建表面URI。
 
 * **Edge NetworkAPI**：应用程序/页面开发人员必须定义包含完整路径和使用内容的位置的完整表面URI，因为此类型的实现需要完整URI。
 

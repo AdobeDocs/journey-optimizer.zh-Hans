@@ -20,7 +20,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="历程实时报告"
->abstract="使用历程实时报告，您可以实时衡量和可视化历程的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明历程中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+>abstract="使用历程实时报告，您可以实时衡量和可视化历程的影响和绩效（仅限过去 24 小时）。报告分为不同的小组件，详细说明历程中的成功和错误。可通过调整小组件大小或删除小组件而修改每个报告仪表板。"
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，Customer Journey Analytics报表重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
@@ -49,7 +49,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="历程表现"
->abstract="“历程表现”构件使您能够直观地跟踪目标轮廓在过去 24 小时内在您的历程中的进展情况。"
+>abstract="“历程表现”小组件使您能够直观地跟踪目标轮廓在过去 24 小时内在您的历程中的进展情况。"
 
 ![](assets/journey_live_performance.png)
 
@@ -82,7 +82,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="过去 24 小时内执行的操作"
->abstract="“过去 24 小时内执行的操作”构件提供了最近性能的快照，展示了过去 24 小时内执行的操作的有效性。"
+>abstract="“过去 24 小时内执行的操作”小组件提供了最近性能的快照，展示了过去 24 小时内执行的操作的有效性。"
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -101,7 +101,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="执行的操作和错误"
->abstract="“执行的操作和错误”构件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该构件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
+>abstract="“执行的操作和错误”小组件显示过去 24 小时内最成功的操作以及触发操作期间发生的任何错误。该小组件提供了成功执行和遇到的错误的全面概述，为您最近的操作表现提供了宝贵的洞察。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -142,7 +142,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="过去 24 小时内执行的事件"
->abstract="“过去 24 小时内执行的事件”构件有助于确定哪些事件在过去 24 小时内成功执行。 "
+>abstract="“过去 24 小时内执行的事件”小组件有助于确定哪些事件在过去 24 小时内成功执行。 "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -153,7 +153,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="事件"
->abstract="“事件”构件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细洞察的摘要数据、图形和表格。"
+>abstract="“事件”小组件提供了哪些事件已成功执行的全面视图，并提供了过去 24 小时内详细洞察的摘要数据、图形和表格。"
 
 ![](assets/journey_live_events.png)
 
@@ -328,7 +328,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="电子邮件 - 产品建议"
->abstract="“产品建议统计”和“产品建议详细统计”构件提供了过去 24 小时内对产品建议绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
+>abstract="“产品建议统计”和“产品建议详细统计”小组件提供了过去 24 小时内对产品建议绩效的全面洞察，提供了其随时间产生影响的详细分析，并提供了详细的统计数据，以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -351,7 +351,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title=" 电子邮件 - 优化 "
->abstract="“发送时间优化”以及“已优化”和“未优化”构件提供了过去 24 小时内有关您的消息的详细信息，并突出显示它们是否已优化。"
+>abstract="“发送时间优化”以及“已优化”和“未优化”小组件提供了过去 24 小时内有关您的消息的详细信息，并突出显示它们是否已优化。"
 
 ![](assets/journey_email_sto.png)
 
@@ -523,7 +523,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="短信 - 各日期的效果"
->abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关过去 24 小时内消息的关键信息。"
+>abstract="“短信 - 各日期的效果”小组件以图形表示形式提供有关过去 24 小时内消息的关键信息。"
 
 ![](assets/journey_live_sms_performance.png)
 

@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 28%
+ht-degree: 30%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 >[!AVAILABILITY]
 >
->目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。[开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 >[!NOTE]
 >
@@ -136,94 +136,94 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_ctr"
 >title="CTR"
->abstract="CTR 构件"
+>abstract="CTR 小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_clicks"
 >title="点击次数"
->abstract="点击构件"
+>abstract="点击小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_delivered"
 >title="已送达"
->abstract="已交付构件"
+>abstract="已交付小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
 >title="Campaign 概述"
->abstract="活动概述构件"
+>abstract="活动概述小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
 >title="Campaign 漏斗结果"
->abstract="Campaign 漏斗结果构件"
+>abstract="Campaign 漏斗结果小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_tracking_link"
 >title="跟踪关联标签"
->abstract="跟踪关联标签构件"
+>abstract="跟踪关联标签小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_displays"
 >title="显示数"
->abstract="显示构件"
+>abstract="显示小组件"
 
 <!--campaign email-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
 >title="已投放和点击趋势"
->abstract="已投放和点击趋势构件"
+>abstract="已投放和点击趋势小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivery_status"
 >title="投放状态"
->abstract="投放状态构件"
+>abstract="投放状态小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_sending_statistics"
 >title="发送统计数据"
->abstract="跟踪统计数据构件"
+>abstract="跟踪统计数据小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracking_statistics"
 >title="跟踪统计数据"
->abstract="跟踪统计数据构件"
+>abstract="跟踪统计数据小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_domains"
 >title="电子邮件域"
->abstract="电子邮件域名构件"
+>abstract="电子邮件域名小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
 >title="跟踪关联标签"
->abstract="跟踪关联标签构件"
+>abstract="跟踪关联标签小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
 >title="跟踪关联 URL"
->abstract="跟踪关联 URL 构件"
+>abstract="跟踪关联 URL 小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
 >title="电子邮件主题"
->abstract="电子邮件主题构件"
+>abstract="电子邮件主题小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_bounce_reasons"
 >title="退回原因"
->abstract="退回原因构件"
+>abstract="退回原因小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_exclude"
 >title="排除原因"
->abstract="排除原因构件"
+>abstract="排除原因小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
 >title="错误原因"
->abstract="错误原因构件"
+>abstract="错误原因小组件"
 
 
 <!--campaign push-->
@@ -231,37 +231,37 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_sending_statistics"
 >title="发送统计数据"
->abstract="跟踪统计数据构件"
+>abstract="跟踪统计数据小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracking_statistics"
 >title="跟踪统计数据"
->abstract="跟踪统计数据构件"
+>abstract="跟踪统计数据小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
 >title="跟踪关联标签"
->abstract="跟踪关联标签构件"
+>abstract="跟踪关联标签小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
 >title="跟踪关联 URL"
->abstract="跟踪关联 URL 构件"
+>abstract="跟踪关联 URL 小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
 >title="退回原因"
->abstract="退回原因构件"
+>abstract="退回原因小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_exclude"
 >title="排除的原因"
->abstract="排除原因构件"
+>abstract="排除原因小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
 >title="错误原因"
->abstract="错误原因构件"
+>abstract="错误原因小组件"
 
 <!--campaign inapp-->
 
@@ -269,32 +269,32 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_impression"
 >title="印象和点击趋势"
->abstract="印象和点击趋势构件"
+>abstract="印象和点击趋势小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_clicks"
 >title="点击次数"
->abstract="点击构件"
+>abstract="点击小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_displays"
 >title="显示数"
->abstract="显示构件"
+>abstract="显示小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracking_data"
 >title="跟踪数据"
->abstract="追踪数据构件"
+>abstract="追踪数据小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link"
 >title="跟踪关联标签"
->abstract="跟踪关联标签构件"
+>abstract="跟踪关联标签小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link_urls"
 >title="跟踪关联 URL"
->abstract="跟踪关联 URL 构件"
+>abstract="跟踪关联 URL 小组件"
 
 <!--campaign sms-->
 
@@ -302,49 +302,49 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
 >title="已投放和点击趋势"
->abstract="已投放和点击趋势构件"
+>abstract="已投放和点击趋势小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivery_status"
 >title="投放状态"
->abstract="投放状态构件"
+>abstract="投放状态小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
 >title="跟踪关联标签"
->abstract="跟踪关联标签构件"
+>abstract="跟踪关联标签小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
 >title="跟踪关联 URL"
->abstract="跟踪关联 URL 构件"
+>abstract="跟踪关联 URL 小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_inbound"
 >title="SMS 入站消息"
->abstract="SMS 入站消息构件"
+>abstract="SMS 入站消息小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_message_type"
 >title="SMS 消息类型"
->abstract="SMS 消息类型构件"
+>abstract="SMS 消息类型小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_providers"
 >title="SMS 提供者"
->abstract="SMS 提供者构件"
+>abstract="SMS 提供者小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_bounce"
 >title="退回原因"
->abstract="退回原因构件"
+>abstract="退回原因小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_exclude"
 >title="排除原因"
->abstract="排除原因构件"
+>abstract="排除原因小组件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"
 >title="错误原因"
->abstract="错误原因构件"
+>abstract="错误原因小组件"

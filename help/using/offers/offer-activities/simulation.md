@@ -44,12 +44,12 @@ ht-degree: 12%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 选择测试用户档案 {#select-test-profiles}
+## 选择测试轮廓 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="添加测试轮廓"
->abstract="您可通过选择标识命名空间以及对应的身份值来添加测试轮廓。您必须拥有已经可用的测试轮廓才能将它们用于模拟。"
+>abstract="您可通过选择身份标识命名空间以及对应的身份标识值来添加测试轮廓。您必须拥有已经可用的测试轮廓才能将它们用于模拟。"
 
 首先，您需要选择将用于模拟的测试用户档案。
 

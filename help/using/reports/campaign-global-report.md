@@ -20,7 +20,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="营销活动全局报告"
->abstract="营销活动全局报告可以衡量您的营销活动在选定时段内产生的影响。报告分为不同的构件，详细说明您营销活动中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
+>abstract="营销活动全局报告可以衡量您的营销活动在选定时段内产生的影响。报告分为不同的小组件，详细说明您营销活动中的成功和错误。可通过调整小组件大小或删除小组件而修改每个报告仪表板。"
 
 >[!AVAILABILITY]
 >
@@ -57,7 +57,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_delivery_global"
 >title="营销活动的统计数据"
->abstract="“营销活动的统计数据”构件详述与您的营销活动相关的主要信息，如“进入的轮廓”和“已交付操作”。"
+>abstract="“营销活动的统计数据”小组件详述与您的营销活动相关的主要信息，如“进入的轮廓”和“已交付操作”。"
 
 ![](assets/campaign_report_global_1.png)
 
@@ -688,7 +688,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
 >title="短信 - 跟踪统计数据"
->abstract="“短信 - 跟踪统计数据”构件全面概述了有关访客与 URL 交互的基本信息。"
+>abstract="“短信 - 跟踪统计数据”小组件全面概述了有关访客与 URL 交互的基本信息。"
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -707,7 +707,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="短信 - 各日期的效果"
->abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关消息的关键信息。"
+>abstract="“短信 - 各日期的效果”小组件以图形表示形式提供有关消息的关键信息。"
 
 ![](assets/campaign_sms_performance.png)
 
@@ -761,7 +761,7 @@ The last widget provides data related to the **[!UICONTROL Success metric]** you
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="短信 - 按链接显示的点击次数"
->abstract="“短信 - 按链接显示的点击次数”构件提供有关访客与消息中的 URL 参与的基本洞察。"
+>abstract="“短信 - 按链接显示的点击次数”小组件提供有关访客与消息中的 URL 参与的基本洞察。"
 
 ![](assets/campaign_sms_clicks.png)
 
