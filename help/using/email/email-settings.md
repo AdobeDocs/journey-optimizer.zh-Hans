@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
+source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
 workflow-type: tm+mt
-source-wordcount: '2716'
-ht-degree: 11%
+source-wordcount: '2737'
+ht-degree: 10%
 
 ---
 
@@ -351,8 +351,8 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="定义要使用的地址"
->abstract="当数据库中有多个电子邮件地址或电话号码（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。"
+>title="覆盖要使用的默认执行地址"
+>abstract="当有多个电子邮件地址（个人、专业人员等）在数据库中可用时，您可以选择优先发送哪个电子邮件地址。 主地址在沙盒级别定义，但您可以在此处覆盖此特定电子邮件配置的默认设置。"
 
 定向用户档案时，数据库中可能会提供多个电子邮件地址（专业电子邮件地址、个人电子邮件地址等）。
 
