@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f5f8855f23200253a2cb8fca3e01ca7d5b31f274
+source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2724'
 ht-degree: 10%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 10%
 
 为了维护域的信誉、加快IP预热过程并改进可投放性，将发送子域委派给Adobe。 [了解详情](../configuration/about-subdomain-delegation.md)
 
-
 ## IP池详细信息 {#ip-pools}
-
 
 选择要与配置关联的IP池。 [了解详情](../configuration/ip-pools.md)
 
@@ -83,10 +81,9 @@ ht-degree: 10%
 >
 >如果未配置PTR记录，请联系您的Adobe代表。
 
-## 列表取消订阅标头{#list-unsubscribe}
+## 列表取消订阅{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
-
 
 从列表中[选择子域](#subdomains-and-ip-pools)后，将显示&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项。
 
@@ -94,20 +91,23 @@ ht-degree: 10%
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-如果禁用此选项，则电子邮件标头中不会显示一键式取消订阅URL。
+>[!NOTE]
+>
+>如果禁用此选项，则电子邮件标头中不会显示一键式取消订阅URL。
 
 您可以从&#x200B;**[!UICONTROL 同意级别]**&#x200B;下拉列表中选择同意级别。 可特定于渠道或用户档案标识。 基于此设置，当用户使用电子邮件标头中的列表取消订阅URL取消订阅时，同意会在Adobe Journey Optimizer中在渠道级别或ID级别更新。
 
-List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，如下所述），除非取消选中一种或两种功能，否则默认启用这两种功能：
+List unsubscribe标头提供了两项功能，除非取消选中一项或两项功能，否则默认情况下将启用这两项功能：
+
+![](assets/surface-list-unsubscribe-mailto.png){width="80%"}
+
+<!--![](assets/surface-list-unsubscribe.png){width="80%"}-->
 
 * **Mailto（取消订阅）**&#x200B;地址，这是将取消订阅请求路由到以进行自动处理的目标地址。
 
   在Journey Optimizer中，取消订阅电子邮件地址是渠道配置中显示的默认&#x200B;**Mailto（取消订阅）**&#x200B;地址，基于您的[所选子域](#subdomains-and-ip-pools)。
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
-
-
-* **一键式取消订阅URL**，默认情况下是根据您在渠道配置设置中设置并配置的子域一键式选择我们的URL生成的列表取消订阅标头。
+* **一键式取消订阅URL**，根据您在渠道配置设置中设置并配置的子域，它默认为一键式选择退出URL生成的列表取消订阅标头。
 
 <!--
     >[!AVAILABILITY]
@@ -116,15 +116,19 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
     >
 -->
 
-**[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能是可选的。 如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在启用了&#x200B;**[!UICONTROL 选择退出配置]**&#x200B;选项且取消选中&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能的方案中，如果您向使用此配置创建的邮件添加[一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out)，则列表取消订阅标头将选取您在电子邮件正文中插入的一键式选择退出链接，并将其用作一键式取消订阅URL值。
+**[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能是可选的。
+
+如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在启用了&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项且取消选中&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能的情况下，如果为使用此配置创建的邮件添加[一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out)，则List unsubscribe标头将选取您已插入到电子邮件正文中的一键式选择退出链接，并将其用作一键式取消订阅URL值。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->如果您没有在消息内容中添加一键式选择退出链接，并且“渠道配置设置”中默认的一键式取消订阅URL未选中，则任何URL都不会作为列表取消订阅标头的一部分传递到电子邮件标头。
+>如果您没有在消息内容中添加一键式选择退出链接，并且在渠道配置设置中取消选中默认一键式取消订阅URL，则不会将URL作为列表取消订阅标头的一部分传递到电子邮件标头。
 
 在[本节](../email/email-opt-out.md#unsubscribe-header)中了解更多有关管理消息中的取消订阅功能的信息。
+
+<!--![](assets/surface-list-unsubscribe-custom.png){width="80%"}-->
 
 ## 标题参数 {#email-header}
 
@@ -146,7 +150,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 >
 >**[!UICONTROL 发件人电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 错误电子邮件]**&#x200B;地址必须使用当前选定的[委派的子域](../configuration/about-subdomain-delegation.md)。 例如，如果委派的子域是&#x200B;*marketing.luma.com*，则可以使用&#x200B;*contact@marketing.luma.com*&#x200B;和&#x200B;*error@marketing.luma.com*。
 
-![](assets/preset-header.png)
+![](assets/preset-header.png){width="80%"}
 
 >[!NOTE]
 >
@@ -255,7 +259,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 在&#x200B;**[!UICONTROL 种子列表]**&#x200B;部分中选择与您相关的列表。 在[本节](../configuration/seed-lists.md#create-seed-list)中了解如何创建种子列表。
 
-![](../configuration/assets/seed-list-surface.png)
+![](../configuration/assets/seed-list-surface.png){width="80%"}
 
 >[!NOTE]
 >
@@ -305,7 +309,7 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 
 您可使用&#x200B;**[!UICONTROL 添加新参数]**&#x200B;按钮添加最多10个跟踪参数。
 
-![](assets/preset-url-tracking.png)
+![](assets/preset-url-tracking.png){width="80%"}
 
 要配置URL跟踪参数，可以直接在&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段中输入所需的值。
 
