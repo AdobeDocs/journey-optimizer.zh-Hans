@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >即使更改电子邮件配置中的[执行地址](../email/email-settings.md#execution-address)，仍会使用在沙盒级别设置的默认字段。 [了解详情](primary-email-addresses.md)
+   >对于IP预热活动，即使您更改电子邮件配置中的[执行地址](../email/email-settings.md#execution-address)，仍会使用在沙盒级别设置的默认字段。 [了解详情](primary-email-addresses.md)
 
 1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email-journey-campaign)操作。
 

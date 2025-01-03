@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 16%
 
 ---
@@ -66,17 +66,17 @@ ht-degree: 16%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 覆盖默认值 {#override-default-execution-address}
+## 覆盖默认执行字段 {#override-default-execution-address}
+
+对于特定用例，您可以全局覆盖执行字段设置，并在电子邮件配置级别或历程级别定义不同的值。
 
 ### 在电子邮件配置中
 
-定义电子邮件渠道配置时，您可以更改在沙盒级别设置的默认执行字段。 [了解详情](../email/email-settings.md#execution-address)
+定义电子邮件渠道配置时，可以在[常规设置](#admin-settings)中更改默认执行字段集。 [了解详情](../email/email-settings.md#execution-address)
 
-在配置级别定义执行地址后，执行地址将用作主地址，并覆盖沙盒级别的常规设置。
+在电子邮件配置中定义执行地址后，执行地址将用作主地址，并覆盖沙盒级别的常规设置。
 
 ### 在历程参数中 {#journey-parameters}
-
-仅对于特定用例，您可以全局覆盖执行字段设置，并在历程级别定义不同的值，尤其是电子邮件渠道的值。
 
 将&#x200B;**[!UICONTROL 电子邮件]**&#x200B;操作添加到[历程](../email/create-email.md#create-email-journey-campaign)时，主要电子邮件地址显示在历程高级参数下。
 
