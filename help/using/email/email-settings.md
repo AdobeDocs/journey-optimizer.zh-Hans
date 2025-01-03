@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 953adc90278a984ca8b73576274ec73fe98c08a1
+source-git-commit: 8d6ac8b3d201baf8115d92b35639d5d6e22b9b2d
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2716'
 ht-degree: 11%
 
 ---
@@ -57,9 +57,11 @@ ht-degree: 11%
 
 选择用于发送电子邮件的子域。
 
-为了维护域的信誉、加快IP预热过程并改进可投放性，将发送子域委派给Adobe。 [了解详情](../configuration/about-subdomain-delegation.md)
+>[!NOTE]
+>
+>为了增强对电子邮件设置的控制，您可以定义动态子域。 [了解详情](../email/surface-personalization.md#dynamic-subdomains)
 
-<!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+为了维护域的信誉、加快IP预热过程并改进可投放性，将发送子域委派给Adobe。 [了解详情](../configuration/about-subdomain-delegation.md)
 
 
 ## IP池详细信息 {#ip-pools}
@@ -127,6 +129,10 @@ List Unsubscribe Header提供两种功能（Mailto和一键式取消订阅URL，
 ## 标题参数 {#email-header}
 
 在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入与使用该配置发送的电子邮件类型关联的发件人名称和电子邮件地址。
+
+>[!NOTE]
+>
+>为了加强对电子邮件设置的控制，您可以个性化标头参数。 [了解详情](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL 发件人姓名]**：发件人的姓名，如您的品牌名称。
 * **[!UICONTROL 发件人电子邮件]**：要用于通信的电子邮件地址。
