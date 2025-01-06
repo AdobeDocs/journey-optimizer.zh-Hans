@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: 1b48cb825eb1f3110a27389d1e780cb1d7e80fad
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2045'
 ht-degree: 20%
 
 ---
@@ -164,7 +164,9 @@ ht-degree: 20%
    >
    >仅应用程序内和内容卡渠道需要这些先决条件。
 
-   1. 在Adobe Experience Platform数据收集中，访问&#x200B;**[!UICONTROL 规则]**&#x200B;菜单并创建新规则。 有关如何创建规则的详细信息，请参阅[!DNL Adobe Experience Platform] [数据收集文档](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. 在Adobe Experience Platform数据收集中，访问您的标记属性。
+
+   1. 访问&#x200B;**[!UICONTROL 规则]**&#x200B;菜单并创建新规则。 有关如何创建规则的详细信息，请参阅[!DNL Adobe Experience Platform] [数据收集文档](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. 在规则的&#x200B;**[!UICONTROL IF]**&#x200B;部分中，添加如下配置的事件：
 

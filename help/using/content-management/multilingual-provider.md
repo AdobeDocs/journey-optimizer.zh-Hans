@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: e2b35cfb2cdaf0dac002ff74a11b2fe98206cd6f
+source-git-commit: 3d9fc6480719cf46a3485914c57a883451f2a058
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,8 @@ Adobe Journey Optimizer与第三方翻译提供商集成，这些提供商独立
    ![](assets/provider_2.png)
 
 1. 如果使用Microsoft Translator作为提供程序，请输入您的&#x200B;**[!UICONTROL 订阅密钥]**&#x200B;和&#x200B;**[!UICONTROL 终结点URL]**。
+
+   单击&#x200B;**[!UICONTROL 验证凭据]**&#x200B;以测试您的连接。
 
    ![](assets/provider_3.png)
 
