@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 1a3e09c87b3edeedd1b7558314cf413ea0b2c9d9
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 2%
@@ -47,7 +47,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**在特定时间内，特定历程的每个节点上发生了多少错误**
+**特定历程的每个节点在特定时间内发生了多少错误**
 
 _数据湖查询_
 
@@ -59,12 +59,12 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
 AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
   )
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
@@ -237,7 +237,7 @@ WHERE
 
 **如何检查serviceEvent的详细信息**
 
-历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与活动（事件、操作等）相关 历程中的用户档案。 serviceEvents存储在同一数据集中，它们指示额外的调试信息，例如体验事件放弃的原因。
+历程步骤事件数据集包含所有stepEvents和serviceEvents。 stepEvents在报告中使用，因为它们与历程中用户档案的活动（事件、操作等）相关。 serviceEvents存储在同一数据集中，它们指示额外的调试信息，例如体验事件放弃的原因。
 
 以下是检查serviceEvent详细信息的查询示例：
 
