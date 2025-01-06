@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fb14db58f9facac87e83a85e8f163ea31732a374
+source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2735'
 ht-degree: 10%
 
 ---
@@ -366,7 +366,7 @@ List unsubscribe标头提供了两项功能，除非取消选中一项或两项�
 >
 >要检查当前默认使用的字段，请访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 执行字段]**&#x200B;菜单。
 
-但是，您可以在电子邮件渠道配置级别更改此默认执行字段。
+但是，您可以在电子邮件渠道配置级别更改此默认执行字段。 然后，您可以将此设置应用于特定营销活动或历程。
 
 为此，请编辑&#x200B;**[!UICONTROL 投放地址]**&#x200B;字段并从可用电子邮件类型XDM字段列表中选择一个项目。
 
