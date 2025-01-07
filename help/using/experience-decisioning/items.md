@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 15%
@@ -47,11 +47,12 @@ ht-degree: 15%
 1. 提供名称和描述。
 1. 指定开始日期和结束日期。 在此类日期内，项目仅由决策引擎考虑。
 1. 设置决策项的&#x200B;**[!UICONTROL 优先级]**（如果配置文件符合多个项的条件）。 较高的优先级使该项优先于其他项。
-1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
    >[!NOTE]
    >
    >优先级是integer数据类型。 整数数据类型的所有属性都应包含整数值（无小数）。
+
+1. **标记**&#x200B;字段允许您将Adobe Experience Platform统一标记分配给决策项目。 这使您能够轻松分类这些分类并改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
 
 1. 指定自定义属性（可选）。 自定义属性是根据您的需求定制的特定属性，您可以将其分配给决策项。它们在决策项的目录架构中定义。 [了解如何使用目录](catalogs.md)
 
