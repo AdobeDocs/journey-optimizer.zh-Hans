@@ -5,20 +5,22 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 17%
+source-wordcount: '309'
+ht-degree: 16%
 
 ---
 
 # 发送电子邮件校样 {#send-proofs}
 
+>[!PREREQUISITES]
+>
+>要发送校样，用户必须拥有与电子邮件关联的特定资源、营销活动或历程的&#x200B;**批准和发布**&#x200B;权限。 [了解有关权限的更多信息](../administration/ootb-permissions.md)
+
 利用校样这种特定的消息，可在将消息发送给主要受众之前对消息进行测试。校样的收件人负责审阅消息：呈现效果、内容、个性化设置和配置。
 
->[!NOTE]
->
->[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+请注意，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
 要在选择[测试用户档案](test-profiles.md)后发送电子邮件校样，请执行以下步骤：
 
