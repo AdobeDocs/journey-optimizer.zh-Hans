@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 7da07ebb5fd2ded0f86ee1ca8fc355e422f01502
+source-git-commit: ff17e7609eb6504632d35671a4bd2aa11a613372
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 5%
 
 ---
@@ -19,16 +19,12 @@ ht-degree: 5%
 
 此用例展示了将Decisioning用于基于[!DNL Journey Optimizer]代码的渠道所需的所有步骤。
 
-<!--In this use case, you create a campaign where you define two delivery treatments - each containing a different decision policy in order to measure which one performs best for your target audience.-->
-
-在此使用案例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。
+在此示例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。
 
 要测量哪个对象对目标受众的效果最佳，请使用[内容实验](../content-management/content-experiment.md)创建一个营销活动，其中定义了两种投放处理：
 
-<!--Set up the experiment such that:-->
-
-* 第一种处理包含一种优先选择策略作为排名方法。
-* 第二种处理包含不同的选择策略，其公式为排名方法。
+* 第一个处理使用优先级作为排名方法。
+* 第二种处理方式是使用公式，即排名方法。
 
 ## 创建选择策略
 
@@ -36,7 +32,7 @@ ht-degree: 5%
 
 ### 创建第一个选择策略
 
-在第一个选择策略中，选择优先级作为排名方法。 请按照以下步骤操作。
+要构建优先级为排名方法的第一个选择策略，请执行以下步骤。
 
 1. 创建决策项。 [了解如何操作](items.md)
 
@@ -60,19 +56,17 @@ ht-degree: 5%
 
 1. 创建[选择策略](selection-strategies.md#create-selection-strategy)并选择包含要考虑的选件的[收藏集](collections.md)。
 
-1. [选择排名方法](#select-ranking-method)，用于为每个配置文件选择最佳选件。
-
-   在这种情况下，选择&#x200B;**[!UICONTROL 优惠优先级]**：如果多个优惠符合此策略的条件，则决策引擎将在优惠中使用设置为&#x200B;**[!UICONTROL 优先级]**&#x200B;的值。 [了解详情](selection-strategies.md#offer-priority)
+1. [选择排名方法](#select-ranking-method)，用于为每个配置文件选择最佳选件。 在这种情况下，选择&#x200B;**[!UICONTROL 优惠优先级]**：如果多个优惠符合此策略的条件，则决策引擎将在优惠中使用设置为&#x200B;**[!UICONTROL 优先级]**&#x200B;的值。 [了解详情](selection-strategies.md#offer-priority)
 
    ![](assets/exd-uc-strategy-priority.png)
 
 ### 创建第二个选择策略
 
-在第二个选择策略中，选择一个公式作为排名方法。 请按照以下步骤操作。
+要构建第二个选择策略，并选择公式作为排名方法，请执行以下步骤。
 
 1. 创建决策项。 [了解如何操作](items.md)
 
-<!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
+   <!--1. Set the same **[!UICONTROL Priority]** as for the first decision item. TBC?-->
 
 1. 设置决策项目的资格：
 
@@ -86,9 +80,7 @@ ht-degree: 5%
 
 1. 创建[选择策略](selection-strategies.md#create-selection-strategy)并选择包含要考虑的选件的[收藏集](collections.md)。
 
-1. [选择要用于为每个配置文件选择最佳选件的排名方法](#select-ranking-method)。
-
-   在这种情况下，选择&#x200B;**[!UICONTROL 公式]**&#x200B;以使用特定的计算得分来选择要投放的合格优惠。 [了解详情](selection-strategies.md#ranking-formula)
+1. [选择要用于为每个配置文件选择最佳选件的排名方法](#select-ranking-method)。 在这种情况下，选择&#x200B;**[!UICONTROL 公式]**&#x200B;以使用特定的计算分数来确定要投放的合格优惠。 [了解详情](selection-strategies.md#ranking-formula)
 
    ![](assets/exd-uc-strategy-formula.png)
 
@@ -106,7 +98,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-create-experiment.png)
 
-1. 单击&#x200B;**[!UICONTROL 编辑内容]**。
+1. 从营销活动摘要页面中，选择或创建基于代码的配置，然后单击&#x200B;**[!UICONTROL 编辑内容]**。
+
+   ![](assets/exd-uc-edit-cbe-content.png)
 
 <!--1. Sart personalizing **Treatment A** by clicking **[!UICONTROL Create]**.
 
