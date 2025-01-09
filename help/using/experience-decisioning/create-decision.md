@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1798'
 ht-degree: 14%
 
 ---
@@ -60,9 +60,15 @@ ht-degree: 14%
 
 1. 创建营销活动并选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。 [了解详情](../code-based/create-code-based.md)
 
-1. 从[代码编辑器](../code-based/create-code-based.md#edit-code)中，选择&#x200B;**[!UICONTROL 决策策略]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。
+1. 从[代码编辑器](../code-based/create-code-based.md#edit-code)中，选择&#x200B;**[!UICONTROL 决策策略]**，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。
 
    ![](assets/decision-code-based-create.png)
+
+1. 默认情况下，创建新策略。
+
+   >[!NOTE]
+   >
+   >您还可以选择选择现有策略。
 
 1. 填写决策策略的详细信息：添加名称并选择目录。
 
@@ -78,9 +84,11 @@ ht-degree: 14%
 
 **[!UICONTROL 策略序列]**&#x200B;部分允许您选择要与决策策略一起呈现的决策项和选择策略。
 
-1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮，然后选择要包含在策略中的对象类型：
+1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮。
 
-   * **[!UICONTROL 选择策略]**：添加一个或多个选择策略。 决策策略利用与资格约束和排名方法关联的集合来确定要显示的项目。 您可以选择现有的选择策略，也可以使用&#x200B;**[!UICONTROL 创建选择策略]**&#x200B;按钮创建新选择策略。[了解如何创建选择策略](selection-strategies.md)
+1. 选择要包含在策略中的对象类型：
+
+   * **[!UICONTROL 选择策略]**：添加一个或多个选择策略。 决策策略利用与资格约束和排名方法关联的集合来确定要显示的项目。 您可以选择现有的选择策略，也可以使用&#x200B;**[!UICONTROL 创建选择策略]**&#x200B;按钮创建新选择策略。 [了解如何创建选择策略](selection-strategies.md)
 
    * **[!UICONTROL 决策项]**：添加单个决策项以呈现，而无需通过选择策略运行。 一次只能选择一个决策项目。 将应用为物料设置的任何资格约束。
 
@@ -90,7 +98,9 @@ ht-degree: 14%
    >
    >决策策略支持最多10个选择策略和决策项目组合。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)
 
-1. 添加多个决策项目和/或策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个对象，依此类推。 要更改默认序列，您可以拖放对象和/或组以根据需要重新排序。 [了解有关决策策略评估顺序的更多信息](#evaluation-order)
+1. 添加多个决策项目和/或策略时，将按特定顺序评估它们。 将首先评估添加到序列中的第一个对象，依此类推。
+
+   要更改默认顺序，您可以拖放对象和/或组以根据需要重新排序。 [了解详情](#evaluation-order)
 
 ### 在决策策略中管理评估顺序 {#evaluation-order}
 
@@ -174,7 +184,7 @@ ht-degree: 14%
 >
 >回退是可选的。 如果未选择任何回退，并且没有限定策略，则[!DNL Journey Optimizer]将不显示任何内容。 您可以合计决策策略所请求的项目数。 这样可确保在用例需要时返回特定数量的项目。
 
-当您的决策策略准备就绪时，保存该策略并单击&#x200B;**[!UICONTROL 创建]**。 现在，决策策略已创建，您可以在基于代码的体验内容中使用决策属性。 [了解详情](#use-decision-policy)
+决策策略就绪后，保存该策略并单击&#x200B;**[!UICONTROL 创建]**。 现在，决策策略已创建，您可以在基于代码的体验内容中使用决策属性。 [了解详情](#use-decision-policy)
 
 ![](assets/decision-code-based-decision-added.png)
 
