@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
 workflow-type: tm+mt
 source-wordcount: '2735'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -356,7 +356,7 @@ List unsubscribe标头提供了两项功能，除非取消选中一项或两项�
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="覆盖要使用的默认执行地址"
->abstract="当有多个电子邮件地址（个人、专业人员等）在数据库中可用时，您可以选择优先发送哪个电子邮件地址。 主地址在沙盒级别定义，但您可以在此处覆盖此特定电子邮件配置的默认设置。"
+>abstract="当数据库中有多个电子邮件地址（个人、职业等）时，您可以选择优先向哪个电子邮件地址或电话号码发送。主要地址在沙盒级别定义，但您可以在此处覆盖此特定电子邮件设定的默认设置。"
 
 定向用户档案时，数据库中可能会提供多个电子邮件地址（专业电子邮件地址、个人电子邮件地址等）。
 
