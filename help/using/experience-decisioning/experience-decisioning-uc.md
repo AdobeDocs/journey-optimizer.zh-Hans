@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 
 ---
@@ -19,12 +19,10 @@ ht-degree: 5%
 
 此用例展示了将Decisioning用于基于[!DNL Journey Optimizer]代码的渠道所需的所有步骤。
 
-在此示例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。
-
-要测量哪个对象对目标受众的效果最佳，请使用[内容实验](../content-management/content-experiment.md)创建一个营销活动，其中定义了两种投放处理：
+在此示例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。 要测量哪个选项对目标受众的效果最佳，可使用[内容实验](../content-management/content-experiment.md)创建营销活动，其中定义了两种投放处理：
 
 * 第一个处理使用优先级作为排名方法。
-* 第二种处理方式是使用公式，即排名方法。
+* 第二种处理方法使用公式作为排名方法。
 
 ## 创建选择策略
 
@@ -34,7 +32,7 @@ ht-degree: 5%
 >
 >您还可以创建单个决策项目，而无需运行选择策略。 将为每个项目设置的优先级将适用。
 
-### 创建第一个选择策略
+### 使用优先级创建策略
 
 要构建优先级为排名方法的第一个选择策略，请执行以下步骤。
 
@@ -64,7 +62,7 @@ ht-degree: 5%
 
    ![](assets/exd-uc-strategy-priority.png){width="80%"}
 
-### 创建第二个选择策略
+### 使用公式创建另一个策略
 
 要构建第二个选择策略，并选择公式作为排名方法，请执行以下步骤。
 
