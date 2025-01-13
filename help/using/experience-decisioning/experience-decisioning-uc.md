@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: aa0791b7ca3eb4c39f700fbe23937b5529f44376
+source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 5%
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 1. 将决策项的&#x200B;**[!UICONTROL Priority]**&#x200B;设置为与其他项相比。 如果配置文件符合多个项目的条件，则较高的优先级会授予该项目优先于其他项目的权限。
 
-   ![](assets/exd-uc-item-priority.png){width="80%"}
+   ![](assets/exd-uc-item-priority.png){width="90%"}
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 1. [选择排名方法](#select-ranking-method)，用于为每个配置文件选择最佳选件。 在这种情况下，选择&#x200B;**[!UICONTROL 优惠优先级]**：如果多个优惠符合此策略的条件，则决策引擎将在优惠中使用设置为&#x200B;**[!UICONTROL 优先级]**&#x200B;的值。 [了解详情](selection-strategies.md#offer-priority)
 
-   ![](assets/exd-uc-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-strategy-priority.png){width="90%"}
 
 ### 使用公式创建另一个策略
 
@@ -84,7 +84,7 @@ ht-degree: 5%
 
 1. [选择要用于为每个配置文件选择最佳选件的排名方法](#select-ranking-method)。 在这种情况下，选择&#x200B;**[!UICONTROL 公式]**&#x200B;以使用特定的计算分数来确定要投放的合格优惠。 [了解详情](selection-strategies.md#ranking-formula)
 
-   ![](assets/exd-uc-strategy-formula.png)
+   ![](assets/exd-uc-strategy-formula.png){width="90%"}
 
 ## 构建基于代码的体验营销活动
 
@@ -98,19 +98,19 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。 [了解详情](../content-management/content-experiment.md)
 
-   ![](assets/exd-uc-create-experiment.png){width="80%"}
+   ![](assets/exd-uc-create-experiment.png){width="90%"}
 
 1. 从营销活动摘要页面中，选择基于代码的配置，然后单击&#x200B;**[!UICONTROL 编辑内容]**。
 
-   ![](assets/exd-uc-edit-cbe-content.png){width="80%"}
+   ![](assets/exd-uc-edit-cbe-content.png){width="90%"}
 
 1. 在内容版本窗口中，要开始个性化&#x200B;**处理A**，请单击&#x200B;**[!UICONTROL 编辑代码]**。
 
-   ![](assets/exd-uc-experiment-treatment-a.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-a.png){width="90%"}
 
 1. 从[代码编辑器](../code-based/create-code-based.md#edit-code)中，选择&#x200B;**[!UICONTROL 决策策略]**，单击&#x200B;**[!UICONTROL 添加决策策略]**&#x200B;并填写决策详细信息。 [了解详情](create-decision.md#add)
 
-   ![](assets/decision-code-based-create.png)
+   ![](assets/decision-code-based-create.png){width="90%"}
 
 1. 在&#x200B;**[!UICONTROL 策略序列]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 选择策略]**。 [了解详情](create-decision.md#select)
 
@@ -122,19 +122,19 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 选择您创建的第一个策略。
 
-   ![](assets/exd-uc-experiment-strategy-priority.png){width="80%"}
+   ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
 1. 保存更改并单击&#x200B;**[!UICONTROL 创建]**。 新决策已添加到&#x200B;**[!UICONTROL 决策策略]**&#x200B;下。
 
 1. 单击&#x200B;**[!UICONTROL 插入策略]**&#x200B;按钮。 将添加与决策策略对应的代码。 然后，将您需要的所有属性（包括配置文件属性）添加到代码。 [了解详情](create-decision.md#use-decision-policy)
 
-   ![](assets/exd-uc-experiment-insert-policy.png){width="80%"}
+   ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
 1. 保存更改。
 
 1. 返回内容编辑窗口，选择+按钮以添加&#x200B;**处理B**，选择它并单击&#x200B;**[!UICONTROL 编辑代码]**。
 
-   ![](assets/exd-uc-experiment-treatment-b.png){width="80%"}
+   ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
 1. 重复上述步骤以创建另一个决策策略并选择您创建的第二个选择策略。<!--Do you need to create exactly the same content to compare only the ranking method?-->
 
