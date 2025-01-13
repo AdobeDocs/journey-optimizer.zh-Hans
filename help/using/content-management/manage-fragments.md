@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 25%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 25%
 
    >[!NOTE]
    >
-   >编辑表达式片段时，您可以删除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化字段，请复制片段以创建新片段。
+   >编辑片段时，您可以移除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化字段，请复制片段以创建新片段。
 
    您还可以通过选择&#x200B;**资源管理器引用**&#x200B;选项来检查当前正在使用片段的历程、营销活动和内容模板的列表。 [了解详情](#explore-references)
 
