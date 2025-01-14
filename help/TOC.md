@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
-workflow-type: ht
-source-wordcount: '2193'
-ht-degree: 100%
+source-git-commit: a9efa676242b1e3453033c77f1f5afb9da931a3d
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
@@ -396,8 +396,8 @@ ht-degree: 100%
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
-   + 更新的报告体验{#channel-report}
-      + [更新的报告体验入门](using/reports/report-gs-cja.md)
+   + 所有时间报告{#channel-report}
+      + [开始使用所有时间报告](using/reports/report-gs-cja.md)
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
       + [报告和试验先决条件](using/reports/reporting-configuration.md)
@@ -425,18 +425,6 @@ ht-degree: 100%
       + [“概述”报告](using/reports/channel-report-cja.md)
       + [登陆页面报告](using/reports/lp-report-global-cja.md)
       + [订阅列表报告](using/reports/subscription-report-global-cja.md)
-   + 以前的报告体验{#reports}
-      + 全局报告 {#global-report}
-         + [全局报告入门](using/reports/global-report.md)
-         + [组件列表](using/reports/global-report-components.md)
-         + [历程全局报告](using/reports/journey-global-report.md)
-         + [营销活动全局报告](using/reports/campaign-global-report.md)
-         + [目标报告](using/reports/objective-report.md)
-         + [登陆页面全局报告](using/reports/lp-report-global.md)
-         + [订阅列表全局报告](using/reports/subscription-report-global.md)
-      + 渠道报告{#channel-report}
-         + [开始使用渠道报告](using/reports/channel-report-gs.md)
-         + [渠道报告](using/reports/channel-report.md)
    + 历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
