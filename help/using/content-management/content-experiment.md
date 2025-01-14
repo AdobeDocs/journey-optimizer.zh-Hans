@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 84cb51a3fdb01fab0b23289993bbcdd30c68cd01
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 12%
@@ -76,7 +76,7 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 
    ![](assets/content_experiment_11.png)
 
-1. 使用应用程序内或Web渠道设置试验，并选择&#x200B;**[!UICONTROL 入站点击数]**、**[!UICONTROL 独特入站点击数]**、**[!UICONTROL 页面查看次数]**&#x200B;或&#x200B;**[!UICONTROL 独特页面查看次数指标]**&#x200B;时，**[!UICONTROL 点击操作]**&#x200B;下拉列表可让您准确地跟踪和监控特定页面上的点击数和查看次数。
+1. 使用应用程序内或Web渠道设置试验，并选择&#x200B;**[!UICONTROL 入站点击数]**、**[!UICONTROL 独特入站点击数]**、**[!UICONTROL 页面查看次数]**&#x200B;或&#x200B;**[!UICONTROL 独特页面查看次数指标]**&#x200B;时，**[!UICONTROL 点击操作]**&#x200B;下拉列表可让您准确地跟踪和监视特定页面上的点击数和查看次数。
 
    ![](assets/content_experiment_20.png)
 

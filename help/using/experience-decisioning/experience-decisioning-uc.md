@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: fbe07345079c6e8cf5ae081094fbc8c25f6d0e57
+source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '789'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 创建营销活动，然后选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。 [了解详情](../code-based/create-code-based.md)
 
-1. 在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以开始配置内容试验。 [了解详情](../content-management/content-experiment.md)
+1. 在营销活动摘要页面中，单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;以配置内容试验。 [了解如何操作](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 
@@ -140,4 +140,6 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 保存更改并[发布基于代码的体验营销活动](../code-based/publish-code-based.md)。
 
-您可以使用[试验性营销活动报告](../reports/campaign-global-report-cja-experimentation.md)和[决策报告](cja-reporting.md)来跟踪营销活动的执行情况。<!--TBC how to check which treatment performs best-->
+运行试验后，使用[试验性促销活动报告](../reports/campaign-global-report-cja-experimentation.md)跟踪促销活动处理的执行情况。<!-- and [report on decisioning](cja-reporting.md).-->您随后可以解释实验结果。 [了解如何操作](../content-management/get-started-experiment.md#interpret-results)
+
+如果试验结果为定论，您可以将具有最佳表现排名的待遇推送到所有客户。 或者，您也可以使用选择策略创建新的营销活动，其中复制表现最佳的排名方法。
