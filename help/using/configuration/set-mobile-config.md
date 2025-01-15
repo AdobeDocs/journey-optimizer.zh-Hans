@@ -10,7 +10,7 @@ level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="使用保证功能进行验证"
+>title="使用 Assurance 进行验证"
 >abstract="Adobe Experience Platform Assurance 被嵌入到此工作流程中，以帮助您检查 SDK 实施，并模拟和验证应用程序事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概述"
 
@@ -92,7 +92,7 @@ ht-degree: 100%
             <li>管理用户档案：读取、创建、编辑和删除用户档案</li>
             <li>读取数据集：对数据集拥有只读访问权限</li>
             <li>读取架构：对架构拥有只读访问权限</li>
-            <li>读取标识命名空间：对标识命名空间拥有只读访问权限</li>
+            <li>读取身份标识命名空间：对身份标识命名空间拥有只读访问权限</li>
           </ul>
         </td>
       </tr>
@@ -165,7 +165,7 @@ ht-degree: 100%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意（已启用默认同意策略）</li>
-  <li>标识（使用默认 ECID，使用默认拼合规则）</li>
+  <li>身份标识（使用默认 ECID，使用默认拼合规则）</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -260,7 +260,7 @@ ht-degree: 100%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意（已启用默认同意策略）</li>
-  <li>标识（使用默认 ECID，使用默认拼合规则）</li>
+  <li>身份标识（使用默认 ECID，使用默认拼合规则）</li>
   <li>Mobile Core</li>
   </ul>
   </td>
@@ -355,7 +355,7 @@ ht-degree: 100%
   <li>Adobe Journey Optimizer</li>
   <li>AEP Assurance</li>
   <li>同意（已启用默认同意策略）</li>
-  <li>标识（使用默认 ECID，使用默认拼合规则）</li>
+  <li>身份标识（使用默认 ECID，使用默认拼合规则）</li>
   <li>Mobile Core</li>
   </ul>
   </td>
