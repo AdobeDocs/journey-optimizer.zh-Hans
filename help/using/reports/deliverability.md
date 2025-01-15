@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
+source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 6%
+source-wordcount: '1045'
+ht-degree: 8%
 
 ---
 
@@ -55,11 +55,14 @@ ISP通常具有将收到的消息报告为垃圾邮件的显着方法。 这就�
 
 ## 使用监控工具 {#monitoring-tools}
 
-使用[!DNL Journey Optimizer]提供的功能监视您的可投放性。
+使用[!DNL Journey Optimizer]提供的报告功能监视您的可投放性。
 
-消息列表的&#x200B;**[!UICONTROL 执行]**&#x200B;选项卡允许您通过一组实时指标检查投放的执行情况。 除其他事项外，此选项卡将显示：
+利用营销活动和历程报告，可通过一组实时指标检查投放的执行情况。 除其他内容外，它们还显示：
+
 * 成功执行、发送和投放的消息数。
 * 已打开的邮件数和已点击的邮件/链接数。
+
+了解有关[实时报告](../reports/live-report.md)和[所有时间报告](../reports/report-gs-cja.md)的更多信息
 
 ## 调整消息内容 {#adapt-message-content}
 
@@ -76,6 +79,12 @@ ISP通常具有将收到的消息报告为垃圾邮件的显着方法。 这就�
 ## 建立您作为发件人的声誉 {#reputation}
 
 如果您最近已移至其他电子邮件服务提供商、IP地址或电子邮件域或子域，则需要建立您作为发件人的声誉。 否则，您的投放可能会被阻止或移至收件人邮箱的垃圾邮件文件夹。
+
+使用全新IP地址发送电子邮件时，现在可以直接从用户界面轻松执行IP预热工作流。
+
+Adobe Journey Optimizer 提供了一种标准化的高效方法来预热 IP 地址，该方法遵循最佳实践以期实现最佳可投放性。
+
+[了解有关IP预热计划的更多信息](../configuration/ip-warmup-gs.md)
 
 <!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
