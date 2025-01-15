@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建渠道设置
+title: 创建一个渠道设置
 description: 了解如何创建渠道设置
 feature: Surface, Channel Configuration
 topic: Administration
@@ -10,13 +10,13 @@ level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
 source-git-commit: 24a178839e29dccffde683a958ccc74da4180a73
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
 ---
 
-# 创建渠道设置 {#set-mobile-ios}
+# 创建一个渠道设置 {#set-mobile-ios}
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="提供推送证书"
->abstract="拖放您的.json 专用密钥文件。该文件包含您的应用程序与服务器之间的安全集成和通信所需的身份验证信息。"
+>abstract="拖放您的 .json 专用密钥文件。该文件包含您的应用程序与服务器之间的安全集成和通信所需的身份验证信息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
@@ -46,12 +46,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="密钥 ID"
->abstract="密钥 ID 是在创建 p8 身份验证密钥期间分配的 10 个字符的字符串，可以在开发者帐户的“证书、标识符和轮廓”页面的 **密钥** 选项卡下找到。"
+>abstract="密钥 ID 是在创建 p8 身份验证密钥期间分配的 10 个字符的字符串，可以在开发者帐户的“证书、标识符和轮廓”页面的&#x200B;**密钥**&#x200B;选项卡下找到。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="团队 ID"
->abstract="团队 ID 是用于识别您的团队的字符串值，位于您的开发者帐户中的 **会员资格** 选项卡下。"
+>abstract="团队 ID 是用于识别您的团队的字符串值，位于您的开发者帐户中的&#x200B;**会员资格**&#x200B;选项卡下。"
 
 
 这种设置简化了营销渠道的快速配置，使所有基本资源都在 Experience Platform、Journey Optimizer 和数据收集应用程序中随时可用。这允许您的营销团队快速开始创建营销活动和历程。
