@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b3d1d02605ff5e759c665847efad2d78bef6a1cf
+source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # 管理您的报告 {#channel-cja-manage}
 
 ## 在Customer Journey Analytics中分析 {#analyze}
+
+>[!AVAILABILITY]
+>
+> 具有[!DNL Customer Journey Analytics]许可证的用户只能使用&#x200B;**在CJA中分析**&#x200B;功能。
 
 ![](assets/cja-analyze.png)
 
@@ -211,3 +215,47 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 您现在可以继续将新创建的受众与历程或营销活动结合使用。
 
+## 管理模板 {#cja-template}
+
+>[!AVAILABILITY]
+>
+> **模板**&#x200B;功能分阶段逐步推出，全面正式发布计划于1月底之前推出，仅对拥有[!DNL Customer Journey Analytics]许可证的用户可用。
+
+您现在可以选择利用Customer Journey Analytics模板来增强Journey Optimizer报表。 [了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+
+访问报告时，您可以从&#x200B;**[!UICONTROL 选择模板]**&#x200B;下拉菜单中选择两种模板类型：
+
+* Adobe提供的默认模板
+* 客户生成的模板
+
+![](assets/cja_template_5.png)
+
+如果未创建模板，则您的报表界面中不会出现&#x200B;**[!UICONTROL 选择模板]**&#x200B;下拉列表。
+
+要创建模板，请执行以下步骤：
+
+1. 在[!DNL Customer Journey Analytics]中，导航到&#x200B;**[!UICONTROL Workspace]**&#x200B;菜单并选择&#x200B;**[!UICONTROL Adobe模板]**。 [了解有关可用模板的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+
+1. 浏览可用的预建模板并单击&#x200B;**[!UICONTROL 使用模板]**&#x200B;以选择一个。
+
+   ![](assets/cja_template_1.png)
+
+1. 调整您的报告以满足您的需求。 请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+
+1. 自定义模板完成后，访问&#x200B;**[!UICONTROL 项目]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 另存为模板]**。
+
+   ![](assets/cja_template_2.png)
+
+1. 为您的模板提供必需的详细信息。 有关详细信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)。
+
+   >[!IMPORTANT]
+   >
+   > 确保在&#x200B;**[!UICONTROL 用例]**&#x200B;下选择&#x200B;**Journey Optimizer**，并指定相应的&#x200B;**Journey Optimizer活动类型**&#x200B;和&#x200B;**活动**。 这使您的报表能够显示在Journey Optimizer中。
+
+   ![](assets/cja_template_3.png)
+
+1. 在[!DNL Journey Optimizer]中，从您的报表访问您的报表，并从&#x200B;**[!UICONTROL 选择模板]**&#x200B;下拉列表中选择之前创建的模板。
+
+   ![](assets/cja_template_4.png)
+
+要直接从历程优化器报告中创建模板，只需访问您的活动或历程报告，选择&#x200B;**[!UICONTROL 在CJA中分析]**，并按照上述步骤自定义默认模板。
