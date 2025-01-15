@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1042'
 ht-degree: 9%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 9%
 
    请注意，要使用URL缩短功能，您必须首先配置子域，然后该子域将链接到您的配置。 [了解详情](sms-subdomains.md)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    > 要访问和编辑SMS子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理SMS子域]**&#x200B;权限。 可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
 
@@ -123,6 +123,10 @@ ht-degree: 9%
 
 1. 在`originalUrl`字段中，粘贴要缩短的URL并单击&#x200B;**[!UICONTROL 保存]**。
 
+   >[!CAUTION]
+   >
+   > 短URL的生命周期设置为15天。 在此时段之后，这些短URL将不再可访问，并且将显示消息：`404 short-code not found`。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](#sms-mms-test)中所详述。
 
 ## 定义彩信内容{#mms-content}
@@ -131,7 +135,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->* [此页面](../start/guardrails.md#sms-guardrails)中列出了MMS渠道的一些限制。
+> [此页面](../start/guardrails.md#sms-guardrails)中列出了MMS渠道的一些限制。
 
 要创建MMS内容，请执行以下步骤：
 
