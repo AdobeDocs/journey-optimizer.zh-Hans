@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 5%
 
 ---
@@ -140,6 +140,6 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 保存更改并[发布基于代码的体验营销活动](../code-based/publish-code-based.md)。
 
-运行试验后，使用[试验性促销活动报告](../reports/campaign-global-report-cja-experimentation.md)跟踪促销活动处理的执行情况。<!-- and [report on decisioning](cja-reporting.md).-->您随后可以解释实验结果。 [了解如何操作](../content-management/get-started-experiment.md#interpret-results)
+运行试验后，通过[试验性促销活动报告](../reports/campaign-global-report-cja-experimentation.md)跟踪您的促销活动处理执行情况。<!-- and [report on decisioning](cja-reporting.md).-->您随后可以解释实验结果。 [了解如何操作](../content-management/get-started-experiment.md#interpret-results)
 
-如果试验结果为定论，您可以将具有最佳表现排名的待遇推送到所有客户。 或者，您也可以使用选择策略创建新的营销活动，其中复制表现最佳的排名方法。
+如果结果具有决定性，您可以将具有最佳绩效排名的待遇推送到所有客户。 或者，您也可以使用选择策略创建新的营销活动，其中复制表现最佳的排名方法。
