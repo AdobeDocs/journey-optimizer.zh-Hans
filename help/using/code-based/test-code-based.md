@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
+source-git-commit: c402a8ab41eb588eae47463fd0217693853d8ca7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 26%
+source-wordcount: '707'
+ht-degree: 24%
 
 ---
 
@@ -95,6 +96,14 @@ ht-degree: 26%
      >
      >**Adobe Experience Platform Assurance**&#x200B;是Adobe Experience Cloud的一个产品，可帮助您检查、校对、模拟和验证在移动应用程序中收集数据或提供体验的方式。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/home){target="_blank"}
 
+1. 如果您在基于代码的配置中使用任何[其他平台](code-based-configuration.md#other)，请从下拉列表中选择要预览的[表面URI](code-based-surface.md#surface-uri)。
+
+   ![](assets/preview-on-device-other.png)
+
+   * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮以将链接粘贴到浏览器选项卡中，或与您的团队和利益相关者共享该链接。
+
+   * 如果您在配置中添加了多个URI（最多10个），则可以选择任意一个URI进行预览。
+
 1. 为选定的测试配置文件生成预览链接，如果您在历程或营销活动中使用[内容试验](../content-management/content-experiment.md)，则为选定的处理生成预览链接。
 
    <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
@@ -103,7 +112,4 @@ ht-degree: 26%
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   >[!TIP]
-   >
-   >更新内容或选择其他测试用户档案或治疗时，预览链接会自动刷新。 您可以将链接复制到不同的浏览器选项卡中，并比较体验。
-
+   更新内容或选择其他测试用户档案或治疗时，预览链接会自动刷新。 您可以将链接复制到不同的浏览器选项卡中，并比较体验。
