@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: bab4cd8065830e36fd6188d3ebf0bd62a63947f3
+source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '744'
 ht-degree: 3%
 
 ---
@@ -102,13 +102,14 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | 属性 | 描述 | 示例 |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | 该值是一个包含受众唯一标识符的数组。 它只能包含一个值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:activityId` | 决策的唯一标识符。 |
 | `xdm:dataSetId` | 可写入决策事件的输出数据集。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包装器 |  |
-| `xdm:activityId` | 决策的唯一标识符。 | `xcore:offer-activity:1410cdcda196707b` |
-| `xdm:placementId` | 唯一投放位置标识符。 | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:itemCount` | 这是一个可选字段，显示决策范围请求的选项等项目的数量。 默认情况下，API会为每个范围返回一个选项，但您可以通过指定此字段来明确要求提供更多选项。 每个范围可以请求至少1个和最多30个选项。 | `1` |
+| `xdm:enrichedAudience` | 如果要定位CSV受众，请添加此参数并将其设置为“true” | `true` |
 | `xdm:includeContent` | 这是可选字段，默认情况下为`false`。 如果`true`，则优惠内容包含在数据集的决策事件中。 | `false` |
+| `xdm:itemCount` | 这是一个可选字段，显示决策范围请求的选项等项目的数量。 默认情况下，API会为每个范围返回一个选项，但您可以通过指定此字段来明确要求提供更多选项。 每个范围可以请求至少1个和最多30个选项。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:placementId` | 唯一投放位置标识符。 | `xcore:offer-placement:1410c4117306488a` |
+| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包装器 |
+| `xdm:segmentIds` | 该值是一个包含受众唯一标识符的数组。 它只能包含一个值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 有关主要概念和属性的概述，请参阅[决策管理文档](../../get-started/starting-offer-decisioning.md)。
 
