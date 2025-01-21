@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: d9b64dd5bc1553583da23a24aadf4d15d0b6874f
+source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '817'
 ht-degree: 5%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 此用例展示了将Decisioning用于基于[!DNL Journey Optimizer]代码的渠道所需的所有步骤。
 
-在此示例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。 要测量哪个选项对目标受众的效果最佳，可使用[内容实验](../content-management/content-experiment.md)创建营销活动，其中定义了两种投放处理：
+在此示例中，您不确定特定排名公式的性能是否优于预先分配的选件优先级。 要测量哪个对象对目标受众的效果最佳，可使用[内容实验](../content-management/content-experiment.md)创建营销活动，其中定义了两种投放处理：
 
-* 第一个处理使用优先级作为排名方法。
-* 第二种处理方法使用公式作为排名方法。
+* 第一个处理使用&#x200B;**优先级**&#x200B;作为排名方法。
+* 第二个处理使用&#x200B;**公式**&#x200B;作为排名方法。
 
 ## 创建选择策略
 
@@ -120,7 +120,7 @@ Define two delivery treatments each containing a different decision policy.-->
    >
    >您还可以选择&#x200B;**[!UICONTROL 决策项]**&#x200B;来添加单个项，而无需通过选择策略运行。 将为每个项目设置的优先级将适用。
 
-1. 选择您创建的第一个策略。
+1. 选择您创建的第一个策略 — 将优先级用作排名方法的策略。
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
@@ -136,10 +136,17 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-treatment-b.png){width="90%"}
 
-1. 重复上述步骤以创建另一个决策策略并选择您创建的第二个选择策略。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+1. 重复上述步骤5和6以创建另一个决策策略，然后选择您创建的第二个选择策略 — 使用公式作为排名方法的策略。<!--Do you need to create exactly the same content to compare only the ranking method?-->
+
+   ![](assets/exd-uc-experiment-strategy-formula.png){width="90%"}
+
+1. 根据需要编辑决策策略（请参阅上面的步骤8和9）。
 
 1. 保存更改并[发布基于代码的体验营销活动](../code-based/publish-code-based.md)。
 
 运行试验后，通过[试验性促销活动报告](../reports/campaign-global-report-cja-experimentation.md)跟踪您的促销活动处理执行情况。<!-- and [report on decisioning](cja-reporting.md).-->您随后可以解释实验结果。 [了解如何操作](../content-management/get-started-experiment.md#interpret-results)
 
-如果结果具有决定性，您可以将具有最佳绩效排名的待遇推送到所有客户。 或者，您也可以使用选择策略创建新的营销活动，其中复制表现最佳的排名方法。
+如果结果具有结论性：
+
+* 您可以将具有最佳表现排名的待遇推送到所有客户。
+* 或者，您也可以使用选择策略创建新的营销活动，其中复制表现最佳的排名方法。
