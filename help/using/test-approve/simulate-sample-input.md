@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta 版"
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: e6e7890d2ff1fc91155da14e1e6c1cde01f25447
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '933'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 >
 >此功能目前以公共测试版的形式向所有客户提供。
 
-历程优化器允许您测试各种内容变体，方法是预览内容并使用从CSV或JSON文件上传或手动添加的示例输入数据发送校样。 系统会自动检测内容中用于个性化的所有用户档案属性，可使用这些属性进行测试以创建多个变体。
+历程优化器允许您测试各种内容变体，方法是预览内容并使用从CSV或JSON文件上传或手动添加的示例输入数据发送校样。 系统会自动检测您的内容中用于个性化的所有配置文件属性，这些属性可用于您的测试以创建多个变体。 变体是指内容的一个版本，该版本的属性具有不同的值。
 
 >[!NOTE]
 >
@@ -66,13 +66,29 @@ ht-degree: 9%
 要从文件添加变体，请执行以下步骤：
 
 1. 单击&#x200B;**[!UICONTROL 下载示例]**&#x200B;链接以检索文件模板，然后选择要使用的文件格式（CSV、JSON或JSONLINES）。
-
 1. 单击&#x200B;**[!UICONTROL 下载]**，然后将模板存储到所需位置。
-
 1. 打开文件，然后填写模板以满足您的需求。 该模板包含用于内容中用于个性化的每个配置文件属性的列。
 
-1. 当文件准备就绪时，单击&#x200B;**[!UICONTROL 上载输入数据]**&#x200B;以加载该数据以测试您的内容。
+   +++文件示例
 
+   ```
+   {
+   "profile": {
+       "attributes": {
+       "person": {
+           "name": {
+               "lastName": "Doe",
+               "firstName": "John"
+               }
+           }
+       }
+   }
+   }
+   ```
+
++++
+
+1. 当文件准备就绪时，单击&#x200B;**[!UICONTROL 上载输入数据]**&#x200B;以加载该数据以测试您的内容。
 1. 上传文件后，会在左窗格中为文件中的每一行添加一个框。 每个框都包含内容中用于个性化的所有配置文件属性。 您现在可以使用变体在右侧窗格中预览您的内容并发送校样。
 
    ![](assets/simulate-custom-variants.png)
@@ -95,9 +111,13 @@ ht-degree: 9%
 
 要使用任一变体预览内容，请选择相关的框以使用为此变体输入的信息更新右侧部分中的内容预览。
 
-您可以使用右上角的省略号按钮并选择&#x200B;**[!UICONTROL 删除]**&#x200B;随时删除变体。 要编辑变体的信息，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**。
+在下面的示例中，我们为电子邮件主题行添加了两个变体：
 
-![](assets/simulate-custom-boxes.png)
+| 变量1选择 | 变量2选择 |
+|----------|-------------|
+| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+
+您可以使用右上角的省略号按钮并选择&#x200B;**[!UICONTROL 删除]**&#x200B;随时删除变体。 要编辑变体的信息，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
 ## 发送校样 {#proofs}
 
