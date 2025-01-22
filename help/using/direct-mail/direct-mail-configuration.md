@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1411'
 ht-degree: 21%
 
 ---
@@ -124,6 +124,10 @@ ht-degree: 21%
 
    ![](assets/file-routing-config-sftp-detail.png)
 
+   >[!NOTE]
+   >
+   >要指定服务器上保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
+
 1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 
 1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
@@ -152,7 +156,7 @@ ht-degree: 21%
 
    * **容器名称**：若要查找您的&#x200B;**容器名称**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
 
-     **容器名称**&#x200B;应只包含容器名称，而不包含任何斜杠。 要在容器中指定保存文件的路径，请更新直邮营销活动的文件名以包含所需的路径。
+     **容器名称**&#x200B;应只包含容器名称，而不包含任何斜杠。 要在容器中指定保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
 
 1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 

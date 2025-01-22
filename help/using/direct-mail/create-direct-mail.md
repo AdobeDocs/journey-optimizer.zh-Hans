@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 16%
+source-wordcount: '747'
+ht-degree: 18%
 
 ---
 
@@ -75,23 +75,17 @@ ht-degree: 16%
 >title="提取文件格式"
 >abstract="对于每个字段，使用个性化编辑器指定一个标签和要显示的信息。<br/><br/>通过<b>排序方式</b>选项，可使用所选字段为提取文件的列排序。"
 
-1. 配置要在提取文件中显示的列和信息：
-
-   1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮以创建新列。
-
-   1. **[!UICONTROL 格式化]**&#x200B;窗格显示在右侧，允许您设置所选列。 为列指定&#x200B;**[!UICONTROL 标签]**。
-
-   1. 在&#x200B;**[!UICONTROL 数据]**&#x200B;字段中，使用[个性化编辑器](../personalization/personalization-build-expressions.md)选择要显示的配置文件属性。
-
-   1. 要使用列对提取文件排序，请选择该列并打开&#x200B;**[!UICONTROL 排序方式]**&#x200B;选项。 **[!UICONTROL 排序依据]**&#x200B;图标显示在&#x200B;**[!UICONTROL 数据字段]**&#x200B;部分中的列标签旁边。
-
 直邮提供商需要使用提取文件向客户发送邮件。 要定义提取文件配置，请执行以下步骤：
 
 1. 在Campaign配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置提取文件内容。
 
 1. 调整提取文件属性：
 
-   1. 为提取文件指定所需的&#x200B;**[!UICONTROL 文件名]**。
+   1. 在&#x200B;**[!UICONTROL 文件名]**&#x200B;字段中，指定提取文件的名称。
+
+      >[!NOTE]
+      >
+      >默认情况下，文件将写入根目录。 **[!UICONTROL Filename]**&#x200B;字段接受格式“/your/path/here/Filename.csv”，其中指定的路径是所选服务器上的目标目录。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 如果要向指定的文件名添加自动时间戳，请启用&#x200B;**[!UICONTROL 附加时间戳以导出文件名]**&#x200B;选项。
 
@@ -116,3 +110,4 @@ ht-degree: 16%
       要更改列的位置，请将其拖放到&#x200B;**[!UICONTROL 数据字段]**&#x200B;节中的所需位置。 要删除列，请选择该列，然后单击&#x200B;**[!UICONTROL 格式化]**&#x200B;窗格中的&#x200B;**[!UICONTROL 删除]**&#x200B;按钮。
 
 您现在可以测试直邮消息并将其发送给受众。 [了解如何测试和发送直邮邮件](test-send-direct-mail.md)
+
