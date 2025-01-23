@@ -25,10 +25,10 @@ ht-degree: 8%
 
 在创建决策之前，请确保已在优惠库中创建了以下组件：
 
-* [投放位置](../offer-library/creating-placements.md)
+* [放置环境](../offer-library/creating-placements.md)
 * [集合](../offer-library/creating-collections.md)
-* [个性化优惠](../offer-library/creating-personalized-offers.md)
-* [后备优惠](../offer-library/creating-fallback-offers.md)
+* [个性化产品建议](../offer-library/creating-personalized-offers.md)
+* [后备产品建议](../offer-library/creating-fallback-offers.md)
 
 ## 做出决策 {#create-activity}
 
@@ -52,17 +52,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="决策范围"
->abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。这是通过选择一个投放位置以及与该投放位置相关的评估标准来完成的。"
+>abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。这是通过选择一个放置环境以及与该放置环境相关的评估标准来完成的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
->title="版面"
->abstract="选择将提供产品建议的投放位置。"
+>title="投放"
+>abstract="选择将提供产品建议的放置环境。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="评估标准"
->abstract="评估标准包括与资格约束相关的产品建议集合，以及确定要在投放位置显示的产品建议的排名方法。评估标准的顺序决定首先评估哪个集合。至少需要一个评估标准。"
+>abstract="评估标准包括与资格约束相关的产品建议集合，以及确定要在放置环境显示的产品建议的排名方法。评估标准的顺序决定首先评估哪个集合。至少需要一个评估标准。"
 
 1. 从下拉列表中选择一个版面。 它将被添加到您决策中的第一个决策范围。
 

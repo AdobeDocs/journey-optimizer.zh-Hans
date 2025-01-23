@@ -1,5 +1,5 @@
 ---
-title: 创建投放位置
+title: 创建放置环境
 description: 了解如何为您的优惠创建投放位置
 feature: Decision Management
 topic: Integrations
@@ -13,24 +13,24 @@ ht-degree: 31%
 
 ---
 
-# 创建投放位置 {#create-placements}
+# 创建放置环境 {#create-placements}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="版面"
->abstract="投放位置是用于展示产品建议的容器。它有助于确保正确的产品建议内容显示在消息中的正确位置。从“组件”菜单创建投放位置。"
+>title="投放"
+>abstract="放置环境是用于展示产品建议的容器。它有助于确保正确的产品建议内容显示在消息中的正确位置。从“组件”菜单创建放置环境。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_request"
 >title="请求设置"
->abstract="启用&#x200B;**[!UICONTROL 允许在多个投放位置中出现重复内容]**&#x200B;选项，以便系统在多个投放位置中考虑相同的产品建议。使用&#x200B;**[!UICONTROL 请求产品建议]**&#x200B;字段来调整返回的产品建议数量。例如，如果您选择 2，则在所选决策范围内将显示最佳的 2 个产品建议。"
+>abstract="启用&#x200B;**[!UICONTROL 允许在多个放置环境中出现重复内容]**&#x200B;选项，以便系统在多个放置环境中考虑相同的产品建议。使用&#x200B;**[!UICONTROL 请求产品建议]**&#x200B;字段来调整返回的产品建议数量。例如，如果您选择 2，则在所选决策范围内将显示最佳的 2 个产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement_response"
 >title="响应格式"
 >abstract="**[!UICONTROL 包含内容]**&#x200B;和&#x200B;**[!UICONTROL 包含元数据]**&#x200B;选项允许您指定是否应在 API 响应中返回产品建议的内容和元数据。您可以包含所有元数据或仅包含特定字段。默认情况下，“包含元数据”值设置为 true。"
 
-版面有助于确保正确的选件内容显示在消息的正确位置。 向选件添加内容时，将要求您选择可以显示该内容的版面。
+版面有助于确保正确的选件内容显示在消息的正确位置。 向产品建议添加内容时，将要求您选择可以显示该内容的版面。
 
 ➡️[在此视频中了解如何创建投放位置](#video)
 

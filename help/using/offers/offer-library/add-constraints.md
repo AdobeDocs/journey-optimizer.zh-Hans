@@ -28,7 +28,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="关于产品建议优先级"
->abstract="在此字段中，您可以指定产品建议的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和频率上限）的产品建议进行排名。"
+>abstract="在此字段中，您可以指定产品建议的优先级设置。优先级是一个数字，用于对满足所有约束（例如资格、日期和上限）的产品建议进行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
@@ -164,7 +164,7 @@ ht-degree: 16%
 
 1. 保存并批准优惠后，如果根据您定义的标准和时间范围在此字段中显示了您指定的次数，则将停止投放优惠。
 
-在准备电子邮件时会计算建议使用选件的次数。 例如，如果您准备发送一封包含大量选件的电子邮件，则无论是否发送了这封电子邮件，这些数量都将计入您的最大上限。
+在准备电子邮件时会计算建议使用选件的次数。 例如，如果您准备发送一封包含大量产品建议的电子邮件，则无论是否发送了这封电子邮件，这些数量都将计入您的最大上限。
 
 <!--If an email delivery is deleted or if the preparation is done again before being sent, the capping value for the offer is automatically updated.-->
 
@@ -292,7 +292,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="更改日期可能会影响频率上限"
->abstract="如果此产品建议应用了频率上限，则在更改开始或结束日期时可能会影响该频率上限。"
+>abstract="如果此产品建议具有上限，则在更改开始或结束日期时可能会影响该上限。"
 
 更改优惠日期时必须小心操作，因为如果满足以下条件，这可能会对上限产生影响：
 

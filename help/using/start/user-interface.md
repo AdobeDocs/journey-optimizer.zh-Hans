@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 594bb029c7d8b711fe60697c5c2e06d9943189fa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 100%
 
@@ -62,11 +62,11 @@ ht-degree: 100%
 
 ### [!UICONTROL 决策管理] {#left-nav-decision}
 
-通过此部分创建优惠和组件。
+通过此部分创建产品建议和组件。
 
-* **[!UICONTROL 优惠]** - 通过此菜单访问近期的源和数据集。使用此部分可创建新优惠。[了解详情](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL 产品建议]** - 通过此菜单访问近期的源和数据集。使用此部分可创建新产品建议。[了解详情](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL 组件]** - 创建投放位置、规则和标记。[了解详情](../offers/offer-library/key-steps.md)
+* **[!UICONTROL 组件]** - 创建放置环境、规则和标记。[了解详情](../offers/offer-library/key-steps.md)
 
 ### [!UICONTROL 内容管理] {#left-nav-content}
 

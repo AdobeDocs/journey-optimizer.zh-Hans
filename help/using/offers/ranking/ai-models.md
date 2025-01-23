@@ -31,7 +31,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
 >title="选择模型类型"
->abstract="选择您要创建的 AI 模型类型：**自动优化**&#x200B;可以根据过去的性能表现优化选件，而&#x200B;**个性化优化**&#x200B;则可以根据受众和选件性能来对选件进行优化和个性化。"
+>abstract="选择您要创建的 AI 模型类型：**自动优化**&#x200B;可以根据过去的性能表现优化产品建议，而&#x200B;**个性化优化**&#x200B;则可以根据受众和产品建议性能来对产品建议进行优化和个性化。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="创建 AI 模型"
 
 [!DNL Journey Optimizer]中提供了两种类型的AI模型：
