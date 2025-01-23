@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a9f0b42acb19f0b28340f11dada19f5b6524c66
+source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2804'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,11 @@ ht-degree: 11%
 ## 列表取消订阅{#list-unsubscribe}
 
 <!--Do not modify - Legal Review Done -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_unsubscribe_custom"
+>title="向电子邮件标头添加取消订阅 URL"
+>abstract="如果您在Adobe之外管理同意，请选择&#x200B;**客户管理的**&#x200B;选项，以输入自定义取消订阅电子邮件地址和您自己的一键式取消订阅URL。 在这种情况下，请注意Adobe未存储任何取消订阅信息。 客户同意信息的所有者负责管理其同意数据并将其推送回Journey Optimizer。"
 
 从列表中[选择子域](#subdomains-and-ip-pools)后，将显示&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项。
 
