@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2172'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 97%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
-## 2025年1月更新 {#25-01-rn}
+## 2025 年 1 月更新 {#25-01-rn}
 
 <table>
 <thead>
 <tr>
-<th><strong>Customer Journey Analytics模板</strong><br/></th>
+<th><strong>客户历程分析模板</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以选择利用Customer Journey Analytics模板来增强Journey Optimizer报表。 这项新功能允许您通过根据分析需求定制的预设计模板来简化报告流程。
+<p>您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。通过这项新功能，您可以通过根据分析需求定制的预设计模板来简化报告流程。
 </p>
 <p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md#cja-template">详细文档</a>。</p>
-<p> <b>模板</b>功能将分阶段逐步推出，计划在1月底之前全面正式发布</p>
+<p> <b>模板</b>功能将分阶段逐步推出，计划在 1 月底之前全面正式发布</p>
 </tr>
 </tbody>
 </table>

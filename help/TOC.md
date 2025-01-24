@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供�
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: abdfa7fa107e8be5d395c634057c38a512a4a03d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [反应](using/building-journeys/reaction-events.md)
-      + [受众鉴别](using/building-journeys/audience-qualification-events.md)
+      + [受众资格筛选](using/building-journeys/audience-qualification-events.md)
       + [条件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [读取受众](using/building-journeys/read-audience.md)
@@ -396,8 +396,8 @@ ht-degree: 99%
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
-   + 所有时间报告{#channel-report}
-      + [开始使用所有时间报告](using/reports/report-gs-cja.md)
+   + 全时段报告{#channel-report}
+      + [全时段报告入门](using/reports/report-gs-cja.md)
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
       + [报告和试验先决条件](using/reports/reporting-configuration.md)
@@ -632,7 +632,7 @@ ht-degree: 99%
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置{#guided-setup}
       + [引导式渠道设置入门](using/configuration/set-mobile-config.md)
-      + [创建渠道设置](using/configuration/create-channel-set-up.md)
+      + [创建一个渠道设置](using/configuration/create-channel-set-up.md)
    + 委派电子邮件子域 {#delegate-subdomains}
       + [子域委派入门](using/configuration/about-subdomain-delegation.md)
       + [委派子域](using/configuration/delegate-subdomain.md)
