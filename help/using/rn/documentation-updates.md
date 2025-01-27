@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+source-git-commit: 2258a305f1d3b477b728ce50b882ac226f3e4342
 workflow-type: tm+mt
 source-wordcount: '5888'
 ht-degree: 97%
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 * **标头参数**&#x200B;部分已更新，以反映用户界面中的新标签和更改。 [了解详情](../email/email-settings.md#email-header)
 
-* **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件人电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。 如果未指定转发电子邮件，则将丢弃这些电子邮件。 [了解详情](../email/email-settings.md##forward-email)
+* **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件人电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。 如果未指定转发电子邮件，则将丢弃这些电子邮件。 [了解详情](../email/email-settings.md#forward-email)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
