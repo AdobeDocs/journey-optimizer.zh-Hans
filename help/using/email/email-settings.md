@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 397bc830f1f4991d19142c6eccf68e929a4ac0ea
+source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2801'
 ht-degree: 11%
 
 ---
@@ -83,12 +83,12 @@ ht-degree: 11%
 
 ## 列表取消订阅{#list-unsubscribe}
 
-<!--Do not modify - Legal Review Done -->
-
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="向电子邮件标头添加取消订阅 URL"
+>title="输入自定义列表取消订阅端点"
 >abstract="如果您在Adobe之外管理同意，请选择&#x200B;**客户管理的**&#x200B;选项，以输入自定义取消订阅电子邮件地址和您自己的一键式取消订阅URL。 在这种情况下，请注意Adobe未存储任何取消订阅信息。 客户同意信息的所有者负责管理其同意数据并将其推送回Journey Optimizer。"
+
+<!--Do not modify - Legal Review Done -->
 
 从列表中[选择子域](#subdomains-and-ip-pools)后，将显示&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项。
 
@@ -123,13 +123,13 @@ List unsubscribe标头提供了两项功能，除非取消选中一项或两项�
 
 **[!UICONTROL Mailto（取消订阅）]**&#x200B;功能和&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能是可选的。
 
-如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在启用了&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项且取消选中&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能的情况下，如果为使用此配置创建的邮件添加[一键式选择退出链接](../privacy/opt-out.md#one-click-opt-out)，则List unsubscribe标头将选取您已插入到电子邮件正文中的一键式选择退出链接，并将其用作一键式取消订阅URL值。
+如果您不想使用默认生成的一键式取消订阅URL，则可以取消选中该功能。 在启用了&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项且取消选中&#x200B;**[!UICONTROL 一键式取消订阅URL]**&#x200B;功能的情况下，如果为使用此配置创建的邮件添加[一键式选择退出链接](../email/email-opt-out.md#one-click-opt-out)，则List unsubscribe标头将选取您已插入到电子邮件正文中的一键式选择退出链接，并将其用作一键式取消订阅URL值。
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->如果您没有在消息内容中添加一键式选择退出链接，并且在渠道配置设置中取消选中默认一键式取消订阅URL，则不会将URL作为列表取消订阅标头的一部分传递到电子邮件标头。
+>如果您没有在消息内容中添加一键式选择退出链接，并且在渠道配置设置中取消选中默认的&#x200B;**[!UICONTROL 一键式取消订阅URL]**，则不会将URL作为列表取消订阅标头的一部分传递到电子邮件标头。
 
 在[本节](../email/email-opt-out.md#unsubscribe-header)中了解更多有关管理消息中的取消订阅功能的信息。
 
