@@ -8,16 +8,28 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d0419710c12bd7726bc161069b9c2ebff986826a
-workflow-type: ht
-source-wordcount: '5767'
-ht-degree: 100%
+source-git-commit: 1365e84642d08d2e196f350530a39eaf93cdcb5f
+workflow-type: tm+mt
+source-wordcount: '5888'
+ht-degree: 97%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+## 2025 年 1 月 {#jan-2025}
+
+* 已添加有关电子邮件配置中&#x200B;**[!UICONTROL 执行地址]**&#x200B;选项的新部分。 主地址在沙盒级别定义，但可以覆盖特定电子邮件配置的默认设置。 [了解详情](../email/email-settings.md#execution-address)
+
+* **可投放性入门**&#x200B;页面已更新，可以直接从用户界面创建IP预热工作流。 [了解详情](../reports/deliverability.md#reputation)
+
+* **标头参数**&#x200B;部分已更新，以反映用户界面中的新标签和更改。 [了解详情](../email/email-settings.md#email-header)
+
+* **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件人电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。 如果未指定转发电子邮件，则将丢弃这些电子邮件。 [了解详情](../email/email-settings.md##forward-email)
+
+<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
 ## 2024 年 12 月 {#nov-2024}
 
@@ -30,7 +42,7 @@ ht-degree: 100%
 * **配置基于代码的体验**&#x200B;页面已得到改进，流程更加清晰，包括说明什么是表面 URI 的部分。[了解详情](../code-based/code-based-configuration.md)
 * **创建网页渠道配置**&#x200B;页面已更新，介绍了创建页面匹配规则时的步骤，这些步骤也适用于基于代码的体验配置。[了解详情](../web/web-configuration.md#web-page-matching-rule)
 * 添加了关于即将推出的系统生成数据集的生存时间 (TTL) 护栏的说明。[了解详情](../data/get-started-datasets.md)
-* 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用“在设备上预览”选项，在浏览器或移动设备上预览基于代码的个性化体验。[了解详情](../code-based/test-code-based.md#preview-on-device)
+* 添加了新章节，介绍在模拟历程或营销活动中的内容时，如何使用&#x200B;**在设备上预览**&#x200B;选项，在浏览器或移动设备上预览基于代码的个性化体验。 [了解详情](../code-based/test-code-based.md#preview-on-device)
 * 添加了有关如何利用自定义上传受众进行决策的新页面。[了解详情](../offers/custom-upload-decisioning.md)
 * 添加了介绍 Journey Optimizer 中的决策功能的新页面。[了解详情](../experience-decisioning/gs-decision.md)
 * 决策文档中添加了有关护栏和限制的内容。[了解详情](../experience-decisioning/gs-experience-decisioning.md#guardrails)
@@ -76,7 +88,7 @@ ht-degree: 100%
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 4 月版的所有新增功能和改进。[了解详情](release-notes.md#apr-2024)
 * 详细介绍了应用程序内消息传递的配置步骤。[了解详情](../in-app/inapp-configuration.md)
-* [优惠决策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和[批量决策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文档已更新。
+* [产品建议决策 API](../offers/api-reference/offer-delivery-api/decisioning-api.md) 和[批量决策 API](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) 文档已更新。
 * 在决策管理文档中添加了关于通过 Edge Decisioning API 使用频率上限时的边缘和中心区域管理的信息。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 * 添加了关于使用 API 触发的营销活动时通过自定义命名空间创建身份标识的信息。[了解详情](../campaigns/api-triggered-campaigns.md)
 * 屏幕快照已更新，以反映改进的历程画布。
@@ -100,13 +112,13 @@ ht-degree: 100%
 * 改进并更新了同意策略页面，提供了指向 Experience Platform 文档的实用链接。[了解详情](../action/consent.md)
 * 添加了一个新的部分，介绍了您可以在网格视图模式（限量发布）下将 HTML 电子邮件内容模板显示为缩略图的操作。[了解详情](../content-management/content-templates.md#template-thumbnails)
 * 在“可投放性”页面中新增了一个部分，以说明反馈循环是什么以及如何加以利用。[了解详情](../reports/deliverability.md#feedback-loops)
-* 在“创建个性化优惠”部分中添加了注释，以指定优惠及其所有呈现的大小不能超过 300 KB。[了解详情](../offers/offer-library/creating-personalized-offers.md#create-offer)
+* 在“创建个性化产品建议”部分中添加了注释，以指定产品建议及其所有呈现的大小不能超过 300 KB。[了解详情](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## 2024 年 2 月 {#feb-2024}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 2 月版的所有新增功能和改进。[了解详情](release-notes.md#feb-2024)
 * Journey Optimizer + Workfront 集成已添加到集成页面。[了解详情](../start/ajo-integrations.md)
-* 添加了有关如何根据上下文数据个性化优惠呈现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
+* 添加了有关如何根据情境数据个性化产品建议的展现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
 * 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持 JSON 格式。[了解详情](../start/guardrails.md#custom-actions-g)
 * 添加了关于外部数据源中基本身份验证类型的更多信息。[了解详情](../datasource/external-data-sources.md)
 * 添加了注释来明确区分[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)和[个性化编辑器](../personalization/functions/functions.md)。
@@ -130,7 +142,7 @@ ht-degree: 100%
 * 已从审核日志的可用资源列表中删除对 AJO 消息资源的过时引用。对历程中的消息进行更新时，将会创建&#x200B;**历程**&#x200B;日志。[了解详情](../privacy/audit-logs.md)
 * 添加了关于使用&#x200B;**读取受众**&#x200B;活动的其他建议。[了解详情](../building-journeys/read-audience.md#must-read)
 * 改进了 Adobe Experience Platform 受众入门页面，其中列出了一系列受众生成方法。[阅读更多内容](../audience/about-audiences.md)
-* 添加了使用自定义操作选择定位端点的最佳实践。[了解详情](../action/about-custom-action-configuration.md)
+* 添加了使用自定义操作选择锁定端点的最佳实践。[了解详情](../action/about-custom-action-configuration.md)
 * 添加了用于通知用户无法使用 API 从外部系统触发事件的注释。[了解详情](../building-journeys/testing-the-journey.md#important-notes)
 * 将有关 **currentActionField** 函数的信息添加到了[集合管理函数](../building-journeys/expression/collection-management-functions.md)列表。将使用该函数的表达式示例添加到了[在自定义操作中使用 API 调用响应](../action/action-response.md)页面。
 * 更新了有关缓存持续时间的自定义身份验证文档。[阅读更多内容] (../datasource/external-data-sources.md)
@@ -157,7 +169,7 @@ ht-degree: 100%
 * 更新了标头参数部分，以反映如何处理“外出”通知和质询响应（会在&#x200B;**[!UICONTROL 错误电子邮件]**&#x200B;中收到它们）。[了解详情](../email/email-settings.md#email-header)
 * 新增了有关如何预览和测试内容的部分。[了解详情](../content-management/preview-test.md)
 * “实施单页应用程序”页面已移至 Adobe Experience Platform Web SDK 文档。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hans){target="_blank"}
-* 更新了“上限”部分，以反映与决策管理界面中优惠上限相关的标签更改。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* 更新了“上限”部分，以反映与决策管理界面中产品建议上限相关的标签更改。[了解详情](../offers/offer-library/add-constraints.md#capping)
 * 添加了将动态内容添加到电子邮件中的相关介绍，其中包含有关如何删除变体的详细信息。[了解详情](../personalization/dynamic-content.md#emails)
 * 更新了上限和限制配置的示例。[了解详情](../configuration/external-systems.md)
 * 从外部数据源部分中移除了有关标量数组的限制。[了解详情](../datasource/external-data-sources.md)
@@ -172,7 +184,7 @@ ht-degree: 100%
   <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * 添加了有关发送时间优化的“常见问题解答”部分。[了解详情](../building-journeys/journeys-message.md#faq-send-time)
-* 添加了有关受众资格活动的注释。最多可能需要 10 分钟才能生效并侦听进入或退出受众的轮廓。[了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
+* 添加了有关受众资格筛选活动的注释。最多可能需要 10 分钟才能生效并侦听进入或退出受众的轮廓。[了解详情](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * 决策管理文档中添加了创建决策规则时要注意的限制条件列表。[了解详情](../offers/offer-library/creating-decision-rules.md)
 * 更新了访问控制文档的链接。[了解详情](../administration/permissions.md)
 * 更新了应用程序内渠道先决条件，其中包含 Adobe Experience Platform 数据收集详细信息。[了解详情](../in-app/inapp-configuration.md)
@@ -227,7 +239,7 @@ ht-degree: 100%
 * 添加了注释，以说明您不能对时间序列执行查询。[了解详情](../building-journeys/condition-activity.md)
 * Adobe Experience Manager Assets Essentials 和 Adobe Stock 已添加到多解决方案集成页面。[了解详情](../start/ajo-integrations.md)
 * 关于不支持多级电子邮件子域的警告已移除，因为现在可为这些子域提供支持。[了解详情](../configuration/delegate-subdomain.md)
-* 添加了“如果对历程消息中使用的优惠决策进行了更改，则需要取消发布历程并重新发布该历程”的注释。[了解详情](../building-journeys/publishing-the-journey.md)
+* 添加了“如果对历程消息中使用的产品建议决策进行了更改，则需要取消发布历程并重新发布该历程”的注释。[了解详情](../building-journeys/publishing-the-journey.md)
 * 在决策管理&#x200B;**事件上限**&#x200B;部分中对如何确保上限计数器中正确计入事件进行了说明。[了解详情](../offers/offer-library/add-constraints.md#capping-event)
 * 在&#x200B;**更改执行地址**&#x200B;页面中添加了新的部分。该部分说明了可以在历程高级参数中全局设置覆盖执行字段，但电子邮件地址覆盖仅应用于特定用例。大多数情况下，应使用&#x200B;**执行字段**&#x200B;中定义为主地址的值。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
 * 现在，**URL 跟踪**&#x200B;部分提供所有上下文属性的列表和描述，这些属性可用于在电子邮件渠道配置中设置 URL 跟踪。[了解详情](../email/email-settings.md#url-tracking)
@@ -237,7 +249,7 @@ ht-degree: 100%
 * 现已提供 Journey Optimizer 架构词典。您可以找到每个架构的字段和属性的完整列表。[了解详情](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2023 年 3 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了在历程中启用 Adobe Analytics 事件的步骤。[了解详情](../event/about-analytics.md)
-* 决策管理指南中新增了有关如何在 Adobe Experience Platform 中收集 Offer Decisioning 反馈的章节，包括显示哪些优惠以及用户如何与其进行交互。[了解详情](../offers/data-collection/data-collection.md)
+* 决策管理指南中新增了有关如何在 Adobe Experience Platform 中收集 Offer Decisioning 反馈的章节，包括显示哪些产品建议以及用户如何与其进行交互。[了解详情](../offers/data-collection/data-collection.md)
 * **创建决策**&#x200B;部分添加了一个新的小节，解释按顺序或同时评估标准之间的差异。[了解详情](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 * 为具有增量读取的读取受众历程添加了护栏。您无法创建新版本，您需要复制历程。[了解详情](../start/guardrails.md#journey-versions-g)
 * 更新了关于如何限制吞吐量的用例，其中包含有关限制功能的信息。 [了解详情](../building-journeys/limit-throughput.md)
@@ -258,12 +270,12 @@ ht-degree: 100%
 * 在上限文档中添加了有关自定义身份验证端点的信息。[了解详情](../configuration/external-systems.md)
 * 在外部数据源部分中添加了新的自定义身份验证示例。[了解详情](../datasource/external-data-sources.md#custom-authentication-mode)
 * 添加了有关事件触发历程数据收集核心服务 (DCCS) 的注释。[了解详情](../start/guardrails.md#events-g)
-* 在[读取受众](../building-journeys/read-audience.md)、[受众资格](../building-journeys/audience-qualification-events.md)和[事件创建](../event/about-creating.md)部分中添加了有关身份标识命名空间检索的注释。
+* 在[读取受众](../building-journeys/read-audience.md)、[受众资格筛选](../building-journeys/audience-qualification-events.md)和[事件创建](../event/about-creating.md)部分中添加了有关身份标识命名空间检索的注释。
 * 现在，[!DNL Journey Optimizer] 中的辅助功能被分组到了专用页面中。[了解详情](../start/accessibility.md)
 * 在高级表达式编辑器文档的“运算符”部分中更新了示例。[了解详情](../building-journeys/expression/operators.md)
 * 添加了有关使用对象数组进行查找的限制的注释。[了解详情](../event/experience-event-schema.md#relationships_limitations)
 * [!DNL Journey Optimizer] 中增添了关于数据管理的新页面。[了解详情](../data/gs-data.md)
-* 新增的表格中列出了使用 Decisioning API 提供优惠时，响应中可返回的所有代码。[了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+* 新增的表格中列出了使用 Decisioning API 提供产品建议时，响应中可返回的所有代码。[了解详情](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 +++
 
@@ -333,7 +345,7 @@ ht-degree: 100%
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 6 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 文档中新增了有关隐私请求的章节。[了解详情](../privacy/requests.md)
 * 文档中新增了有关资源审核日志的章节。[了解详情](../privacy/audit-logs.md)
-* 文档中新增了有关如何将来自 Adobe Experience Cloud 资产库的 HTML 或 JSON 内容添加到优惠呈现的章节。[了解详情](../offers/offer-library/add-representations.md#html-json)
+* 文档中新增了有关如何将来自 Adobe Experience Cloud 资产库的 HTML 或 JSON 内容添加到产品建议展现方案的章节。[了解详情](../offers/offer-library/add-representations.md#html-json)
 * 在历程生命周期中添加了新页面。[了解更多信息](../building-journeys/journey.md#journey-versions)
 * 更新了等待活动页面。[了解更多信息](../building-journeys/wait-activity.md)
 * 添加了包含查询示例的 Adobe Journey Optimizer 数据集列表。[了解更多信息](../data/datasets-query-examples.md)
@@ -341,12 +353,12 @@ ht-degree: 100%
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
 * “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
-* Batch Decisioning API 已添加到可用 API 列表中，以提供个性化优惠。[了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* Batch Decisioning API 已添加到可用 API 列表中，以提供个性化产品建议。[了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 5 月版的所有新增功能和改进。[了解详情](release-notes.md)
-* 添加了与[受众鉴别](../reports/query-examples.md#segment-qualification-queries)和[事件](../reports/query-examples.md#event-based-queries)相关的新查询示例。
+* 添加了与[受众资格筛选](../reports/query-examples.md#segment-qualification-queries)和[事件](../reports/query-examples.md#event-based-queries)相关的新查询示例。
 * 电子邮件设计部分现对新的内置模板进行了介绍，在开始制作内容时可以利用这些模板。更新了相关屏幕截图。[了解更多信息](../email/get-started-email-design.md)
 * 在 Journey Optimizer 文档主页中更新了关键资源的链接。
 * 更新了登陆页面和订阅报告的屏幕截图。[了解更多信息](../reports/live-report.md)
@@ -372,8 +384,8 @@ ht-degree: 100%
 * 在 **Offer Decisioning** 部分添加了一个关于 AI 模型快速入门的新页面，包括对[自动优化模型](../offers/ranking/auto-optimization-model.md)、使用的算法以及更多技术细节的全面描述。[了解更多信息](../offers/ranking/ai-models.md)
 * 测试轮廓创建页面已移至&#x200B;**受众、轮廓和身份标识**&#x200B;部分。[了解更多信息](../audience/creating-test-profiles.md)
 * 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。[了解更多信息](../building-journeys/expression/field-references.md#default-value)
-* **创建个性化优惠**&#x200B;章节已重新组织，提高了可读性。[了解更多信息](../offers/offer-library/creating-personalized-offers.md)
-* 添加了新的章节以描述更改优惠开始和/或结束日期可能对此优惠的频率上限产生的影响。[了解更多信息](../offers/offer-library/add-constraints.md#capping-change-date)
+* **创建个性化产品建议**&#x200B;章节已重新组织，提高了可读性。[了解更多信息](../offers/offer-library/creating-personalized-offers.md)
+* 添加了新的章节以描述更改产品建议开始和/或结束日期可能对此产品建议的频率上限产生的影响。[了解更多信息](../offers/offer-library/add-constraints.md#capping-change-date)
 * 更新了&#x200B;**更改主要电子邮件地址**&#x200B;章节以反映用户界面的更改。[了解更多信息](../configuration/primary-email-addresses.md)
 
 ## 2022 年 2 月 {#feb-2022}
@@ -409,7 +421,7 @@ ht-degree: 100%
 * 新增&#x200B;**编辑消息预设**&#x200B;部分。 [了解更多信息](../configuration/channel-surfaces.md#edit-channel-surface)
 * 新增&#x200B;**编辑 PTR 记录**&#x200B;部分。 [了解更多信息](../configuration/ptr-records.md#edit-ptr-record)
 * 新增&#x200B;**停用消息预设**&#x200B;部分。 [了解更多信息](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
-* **决策管理 API 开发人员指南**&#x200B;添加了有关移动 [!DNL Experience Edge] 工作流不支持的优惠约束条件的新限制。[了解更多信息](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* **决策管理 API 开发人员指南**&#x200B;添加了有关移动 [!DNL Experience Edge] 工作流不支持的产品建议约束条件的新限制。[了解更多信息](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * 新增&#x200B;**创建模拟**&#x200B;部分。 [了解更多信息](../offers/offer-activities/simulation.md)
 * 更新了&#x200B;**添加决策范围**&#x200B;部分。 [了解更多信息](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * 更新了&#x200B;**定义呈现的内容**&#x200B;部分，包括新增的有关如何定义和个性化自定义文本的[子部分](../offers/offer-library/creating-personalized-offers.md#custom-text)。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#content)
@@ -436,7 +448,7 @@ ht-degree: 100%
 
 * 现在，专门部分中介绍的所有决策管理功能也适用于利用 Offer Decisioning 应用程序的 Adobe Experience Platform 用户。[了解详情](../offers/get-started/starting-offer-decisioning.md)
 
-* 添加了子部分，阐明在应用约束以限制给定投放位置的优惠选择时，使用受众与决策规则之间的差异。[了解更多信息](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* 添加了子部分，阐明在应用约束以限制给定放置环境的产品建议选择时，使用受众与决策规则之间的差异。[了解更多信息](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * 添加了具体的排名公式示例，以便说明一些实际用例。[了解更多信息](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -458,7 +470,7 @@ ht-degree: 100%
 * 更新了“委派子域”部分，其中包含有关 Adobe 执行的验证过程的更多详细信息。[了解更多信息](../configuration/delegate-subdomain.md#subdomain-validation)
 * 添加了介绍如何手动将电子邮件地址和域添加到禁止列表的部分。[了解更多信息](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * 更新了[访问禁止列表](../configuration/manage-suppression-list.md#access-suppression-list)部分和[重试](../configuration/retries.md)部分，以反映新的用户界面。
-* 已记录在创建优惠时添加和配置呈现的新流程。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#representations)
+* 已记录在创建产品建议时添加和配置呈现的新流程。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ## 2021 年 7 月 {#july-2021}
 
@@ -470,13 +482,13 @@ ht-degree: 100%
 * 优化了主页图像
 * 对“消息跟踪”部分进行了移动和改进，并将其重命名为“添加链接和跟踪消息”。[了解更多信息](../email/message-tracking.md)
 * 在镜像页面上添加了子部分。[了解更多信息](../email/message-tracking.md#mirror-page)
-* 在文档和屏幕中，将“优惠活动”重命名为“决策”，将“决策”重命名为“决策范围”。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
+* 在文档和屏幕中，将“产品建议活动”重命名为“决策”，将“决策”重命名为“决策范围”。[了解更多信息](../offers/get-started/starting-offer-decisioning.md)
 * 新用例：[使用辅助函数个性化消息](../personalization/personalization-use-case-helper-functions.md)
 * 更新了读取受众文档，以反映实体化区段的影响。[了解更多信息](../building-journeys/read-audience.md)
 * 更新了历程限制。[了解更多信息](../start/guardrails.md)
-* 更新了决策中的配置优惠选择部分。[了解更多信息](../offers/offer-activities/configure-offer-selection.md)
-* 添加了警告，指出目前不支持基于事件的优惠。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#eligibility)
+* 更新了决策中的配置产品建议选择部分。[了解更多信息](../offers/offer-activities/configure-offer-selection.md)
+* 添加了警告，指出目前不支持基于事件的产品建议。[了解更多信息](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * 加入了有关“决策管理”功能中新增的&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡的说明内容。[了解更多信息](../offers/get-started/user-interface.md#overview)
-* 添加了新章节，以说明优惠和决策列表中可用的操作：[优惠列表](../offers/offer-library/creating-personalized-offers.md#offer-list) 和 [决策列表](../offers/offer-activities/create-offer-activities.md#decision-list)。
+* 添加了新章节，以说明产品建议和决策列表中可用的操作：[产品建议列表](../offers/offer-library/creating-personalized-offers.md#offer-list) 和 [决策列表](../offers/offer-activities/create-offer-activities.md#decision-list)。
 
 +++
