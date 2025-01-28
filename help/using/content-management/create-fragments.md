@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](#save-as-fragment)
 
-保存后，您的片段即可用于历程、营销策划或模板。 在历程和营销活动中构建任何内容时，您可以使用此片段。 请参阅[添加可视化片段](../email/use-visual-fragments.md)和[利用表达式片段](../personalization/use-expression-fragments.md)
+保存后，您的片段即可用于历程、营销策划或模板。 在历程和营销活动中构建任何内容时，您可以使用此片段。 请参阅[添加可视片段](../email/use-visual-fragments.md)和[利用表达式片段](../personalization/use-expression-fragments.md)。
 
 要创建片段，请执行以下步骤。
 
@@ -49,7 +49,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >目前，可视化片段仅可用于&#x200B;**电子邮件**&#x200B;渠道。
+   >当前，可视化片段仅可用于&#x200B;**电子邮件**&#x200B;渠道。
 
 1. 如果要创建表达式片段，请选择要使用的代码类型：**[!UICONTROL HTML]**、**[!UICONTROL JSON]**&#x200B;或&#x200B;**[!UICONTROL 文本]**。
 
@@ -71,7 +71,7 @@ ht-degree: 14%
 
   ![](assets/fragment-expression-editor.png)
 
-内容就绪后，单击&#x200B;**保存**&#x200B;按钮。 已创建片段并将其添加到状态为&#x200B;**草稿**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
+内容就绪后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;按钮。 已创建片段并将其添加到状态为&#x200B;**[!UICONTROL 草稿]**&#x200B;的片段列表。 您可以预览并发布它，使其在历程和营销活动中可用。
 
 ## 预览和发布片段 {#publish}
 
@@ -79,23 +79,23 @@ ht-degree: 14%
 >
 >要发布片段，您必须具有[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
 
-如果您的片段已准备好上线，您可以预览和发布它以使其可在您的历程和营销活动中使用。 为此，请执行以下步骤：
+如果您的片段已准备好上线，您可以预览和发布它以使其可在您的历程和营销活动中使用。 要实现此目的，请执行以下步骤。
 
 1. 设计其内容后返回片段创建屏幕，或从片段列表中将其打开。
 
-1. 片段预览位于&#x200B;**标记**&#x200B;字段下，允许检查其渲染。 如果需要执行任何更改，请单击屏幕上方的&#x200B;**编辑**&#x200B;按钮，以打开电子邮件Designer或个性化编辑器，具体取决于片段类型。
+1. 片段预览位于&#x200B;**[!UICONTROL 标记]**&#x200B;字段下，允许检查其渲染。 如果需要执行任何更改，请单击屏幕上方的&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，以打开电子邮件Designer或个性化编辑器，具体取决于片段类型。
 
    ![](assets/fragment-preview.png)
 
-1. 单击右上角的&#x200B;**Publish**&#x200B;按钮发布片段。
+1. 单击右上角的&#x200B;**[!UICONTROL Publish]**&#x200B;按钮发布片段。
 
-   如果片段在实时历程或营销策划中使用，将打开消息以通知您。 单击&#x200B;**查看更多**&#x200B;链接可访问引用它的历程和/或营销活动列表。 [了解如何浏览片段的引用](../content-management/manage-fragments.md#explore-references)
-
-   单击&#x200B;**确认**&#x200B;以发布片段，并在使用该片段的实时历程/营销活动中更新它。
+1. 如果片段在实时历程或营销策划中使用，将打开一条消息通知您。 单击&#x200B;**[!UICONTROL 查看更多]**&#x200B;链接可访问引用它的历程和/或营销活动列表。 [了解如何浏览片段的引用](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-片段现在为&#x200B;**实时**，并在[!DNL Journey Optimizer]电子邮件Designer或个性化编辑器中构建任何内容时可用：
+   单击&#x200B;**[!UICONTROL 确认]**&#x200B;以发布片段，并在使用该片段的实时历程/营销活动中更新它。
+
+片段现在为&#x200B;**[!UICONTROL 实时]**，在[!DNL Journey Optimizer] Email Designer或个性化编辑器中构建任何内容时都可用。
 
 * [了解如何使用可视化片段](../email/use-visual-fragments.md)
 * [了解如何使用表达式片段](../personalization/use-expression-fragments.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: d93ef15df4a25e7a6d6fab3df1f9838a0c3d31df
+source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 25%
+source-wordcount: '1062'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,12 @@ ht-degree: 25%
 
 通过每个片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您可以：
 
+<!--* Add to package
+* Open draft version-->
 * 复制片段。
 * 使用&#x200B;**[!UICONTROL 浏览引用]**&#x200B;选项可查看使用它的历程、营销活动或模板。 [了解详情](#explore-references)
 * 将片段存档。 [了解详情](#archive-fragments)
-* 编辑片段的标记[了解如何使用统一标记](../start/search-filter-categorize.md#tags)。
+* 编辑片段的标记。 [了解如何使用统一标记](../start/search-filter-categorize.md#tags)
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,7 +49,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段状态"
->abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有“草稿”状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其“生效”，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。<br/>发布需要<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">发布片段</a>用户权限。"
+>abstract="由于&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态已在Journey Optimizer 6月版本中引入，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们在历程或营销活动中使用也是如此。 如果您对这些片段进行了任何更改，则需要发布它们以使它们&#x200B;**处于活动状态**，并将更改传播到关联的营销活动和历程。 您还需要创建一个新的历程/活动版本并发布它。<br/>发布需要<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">发布片段</a>用户权限。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="详细了解内容片段权限"
 
 片段可以具有多种状态：
@@ -63,7 +65,7 @@ ht-degree: 25%
 
 >[!CAUTION]
 >
->由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有“草稿”状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其“生效”，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。发布需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
+>由于&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态已在Journey Optimizer 6月版本中引入，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们在历程或营销活动中使用也是如此。 如果您对这些片段进行了任何更改，则需要发布它们以使它们&#x200B;**处于活动状态**，并将更改传播到关联的营销活动和历程。 您还需要创建一个新的历程/活动版本并发布它。发布需要[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
 
 ## 编辑片段 {#edit-fragments}
 
@@ -83,21 +85,47 @@ ht-degree: 25%
 
 1. 片段属性将打开，并预览其内容。
 
-1. 如果正在编辑的片段具有&#x200B;**实时**&#x200B;状态，请单击&#x200B;**修改**&#x200B;按钮以创建片段的草稿版本。 片段的当前版本将继续处于活动状态，直到您发布草稿版本。
-
-1. 对片段进行所需的更改。 要编辑其内容，请单击&#x200B;**编辑**&#x200B;按钮，然后编辑您的内容，就像从头开始创建片段时所做的那样。 [了解如何创建片段](#create-from-scratch)
+1. 如果正在编辑的片段具有&#x200B;**[!UICONTROL 实时]**&#x200B;状态，请单击&#x200B;**[!UICONTROL 修改]**&#x200B;按钮以创建片段的草稿版本。
 
    >[!NOTE]
    >
-   >编辑片段时，您可以移除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化字段，请复制片段以创建新片段。
+   >片段的当前版本将继续处于活动状态，直到您发布草稿版本。
 
-   您还可以通过选择&#x200B;**资源管理器引用**&#x200B;选项来检查当前正在使用片段的历程、营销活动和内容模板的列表。 [了解详情](#explore-references)
+1. 对片段进行所需的更改。 要编辑其内容，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮并更新您的内容，就像从头开始创建片段时所做的那样。 [了解如何创建片段](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >编辑已发布的片段时，您可以移除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化属性，必须复制片段。 [了解详情](#adding-new-attributes)
+
+1. 您还可以通过选择&#x200B;**资源管理器引用**&#x200B;选项来检查当前正在使用片段的历程、营销活动和内容模板的列表。 [了解详情](#explore-references)
 
    ![](assets/fragment-edit.png)
 
 1. 更改准备就绪后，单击&#x200B;**Publish**&#x200B;按钮以使修改生效。
 
-在编辑片段时，更改会自动传播到使用该片段的所有内容，包括实时历程和营销活动，但已中断原始片段继承的内容除外。 了解如何在[将可视化片段添加到您的电子邮件](../email/use-visual-fragments.md#break-inheritance)和[利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance)部分中中断继承。
+在编辑片段时，更改会自动传播到该片段的所有内容，包括实时历程和营销活动，但您中断了原始片段的继承的内容除外。
+
+>[!NOTE]
+>
+>了解如何在[将可视化片段添加到您的电子邮件](../email/use-visual-fragments.md#break-inheritance)和[利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance)部分中中断继承。
+
+## 向实时片段添加新属性 {#adding-new-attributes}
+
+>[!WARNING]
+>
+>不支持向实时片段添加新属性。
+
+发布片段后，将为引用该片段的所有营销活动和历程锁定个性化或上下文属性集。
+
+要将其他属性合并到活动片段，请执行以下步骤。
+
+1. 复制现有片段。
+
+1. 将所需的属性添加到复制的草稿版本。
+
+1. Publish新版本。
+
+1. 更新任何营销活动或历程，以引用添加了新属性的更新片段。
 
 ## 探索引用 {#explore-references}
 
