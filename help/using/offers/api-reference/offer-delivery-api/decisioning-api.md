@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 8c7fca7789931fbae6ac5d4821bc051ff9eb0923
+source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 3%
@@ -65,8 +65,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 -d '{
     "xdm:propositionRequests": [
         {
-            "xdm:activityId": "xcore:offer-activity:15ded04b1786ea27",
-            "xdm:placementId": "xcore:offer-placement:15d9bc01d35e1238"
+            "xdm:activityId": "dps:offer-activity:15ded04b1786ea27",
+            "xdm:placementId": "dps:offer-placement:15d9bc01d35e1238"
         }
     ],
     "xdm:profiles": [
@@ -105,8 +105,8 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 属性 | 描述 | 示例 |
 | -------- | ----------- | ------- |
 | `xdm:propositionRequests` | 此对象包含投放位置和决策标识符。 |
-| `xdm:propositionRequests.xdm:placementId` | 唯一投放位置标识符。 | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | 唯一决策标识符。 | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests.xdm:placementId` | 唯一投放位置标识符。 | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | 唯一决策标识符。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要返回的优惠数量。 最大数量为30。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | 此对象保存有关为其请求决策的用户档案的信息。 对于API请求，这将包含一个配置文件。 |
 | `xdm:profiles.xdm:identityMap` | 此对象根据标识的命名空间集成代码保留一组最终用户标识。 身份映射可以携带每个命名空间的多个身份。 有关命名空间的更多信息，请参阅[此页面](../../../audience/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
@@ -132,22 +132,22 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
   "xdm:propositions": [
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0456",
+        "xdm:id": "dps:placement:ffed0456",
         "repo:etag": 1
       },
       "xdm:options": [
         {
-          "xdm:id": "xcore:personalized-option:ccc0111",
+          "xdm:id": "dps:personalized-option:ccc0111",
           "repo:etag": 3,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>some html</html>"
         },
         {
-          "xdm:id": "xcore:personalized-option:ccc0222",
+          "xdm:id": "dps:personalized-option:ccc0222",
           "repo:etag": 5,
           "@type": "https://ns.adobe.com/experience/decisioning/content-component-html-template",
           "xdm:content": "<html>hello, world</html>",
@@ -157,15 +157,15 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
     },
     {
       "xdm:activity": {
-        "xdm:id": "xcore:activity:ffed0123",
+        "xdm:id": "dps:activity:ffed0123",
         "repo:etag": 4
       },
       "xdm:placement": {
-        "xdm:id": "xcore:placement:ffed0789",
+        "xdm:id": "dps:placement:ffed0789",
         "repo:etag": 2
       },
       "xdm:fallback": {
-        "xdm:id": "xcore:fallback:ccc0222",
+        "xdm:id": "dps:fallback:ccc0222",
         "repo:etag": 5,
         "@type": "https://ns.adobe.com/experience/decisioning/content-component-imagelink",
         "dc:format": "image/png",
@@ -182,13 +182,13 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | 与XDM DecisionEvent关联的优惠实体的唯一标识符。 | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
 | `xdm:propositions` | 此对象包含单个决策建议。 可以为决策返回多个选项。 如果未找到任何选项，则会返回该决策的备用选件。 单个决策建议始终包含`options`属性或`fallback`属性。 如果存在，`options`属性不能为空。 |
-| `xdm:propositions.xdm:activity` | 此对象包含决策的唯一标识符。 | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | 此对象包含优惠投放位置的唯一标识符。 | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | 此对象包含单个选项，其中包括其唯一标识符。 如果存在，则此对象不能为空。 | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:activity` | 此对象包含决策的唯一标识符。 | `"xdm:id": "dps:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | 此对象包含优惠投放位置的唯一标识符。 | `"xdm:id": "dps:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | 此对象包含单个选项，其中包括其唯一标识符。 如果存在，则此对象不能为空。 | `xdm:id": "dps:personalized-option:ccc0111` |
 | `xdm:propositions.xdm:options.@type` | 定义组件的类型。 `@type`充当客户端的处理协定。 组装体验时，编辑器将查找具有特定类型的元件。 | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
 | `xdm:propositions.xdm:content` | 响应内容的格式。 | 响应内容可以是： `text`、`html block`或`image link` |
 | `xdm:score` | 作为与选项或决策关联的排名函数的结果而计算的选项分数。 如果排名过程中涉及排名函数来确定优惠的分数，则API将返回此字段。 | `"xdm:score": 45.65` |
-| `xdm:propositions.xdm:fallback` | 此对象包含单个备用选件，包括其唯一标识符。 | `"xdm:id": "xcore:fallback:ccc0222"` |
+| `xdm:propositions.xdm:fallback` | 此对象包含单个备用选件，包括其唯一标识符。 | `"xdm:id": "dps:fallback:ccc0222"` |
 | `xdm:propositions.xdm:fallback.dc:format` | 资源的物理或数字表现形式。 通常，格式应包含资源的媒体类型。 该格式可用于确定显示或操作该资源所需的软件、硬件或其他设备。 建议从受控词汇表中选择一个值，例如，定义计算机媒体格式的[Internet媒体类型](https://www.iana.org/assignments/media-types/)的列表。 | `"dc:format": "image/png"`或`"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 用于从内容交付网络或服务端点读取资源的可选URL。 此URL用于从用户代理公开访问资产。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 创建决策响应消息的时间。 以纪元时间表示。 | `"ode:createDate": 1566497582038` |
