@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 129863516a4b027906d1ed809148053ffd1df22e
+source-git-commit: f415209a7a62c8b7936abdb474b1b5b70c788973
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 3%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 3%
 您可以通过向[!DNL Decisioning] API发出POST请求来创建和提供优惠。
 
 本教程需要对各种API有一定的了解，尤其是有关决策管理的知识。 有关详细信息，请参阅[决策管理API开发人员指南](../getting-started.md)。 此外，本教程还要求您提供唯一的版面ID和决策ID值。 如果您尚未获得这些值，请参阅[创建版面](../offers-api/placements/create.md)和[创建决策](../activities-api/activities/create.md)的教程。
-
-➡️[在视频中发现此功能](#video)
 
 ## 必需的标头 {#required-headers}
 
