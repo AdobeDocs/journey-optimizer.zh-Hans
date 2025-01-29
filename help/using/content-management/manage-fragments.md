@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c32f1e86eb803a0a4b25111d07989872b33a3bed
+source-git-commit: abbc5c77545f30ac2d70d718f605acd30f7e7830
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 11%
+source-wordcount: '1075'
+ht-degree: 12%
 
 ---
 
@@ -81,27 +81,31 @@ ht-degree: 11%
 
 要编辑片段，请执行以下步骤。
 
-1. 从&#x200B;**[!UICONTROL 片段]**&#x200B;列表中单击所需的片段。
+1. 从&#x200B;**[!UICONTROL 片段]**&#x200B;列表中单击所需的片段。 片段属性屏幕打开，并预览其内容。
 
-1. 片段属性将打开，并预览其内容。
+1. 您可以通过选择&#x200B;**[!UICONTROL 浏览引用]**&#x200B;选项来检查当前正在使用片段的历程、营销活动和内容模板的列表。 [了解详情](#explore-references)
+
+   ![](assets/fragment-edit-references.png)
 
 1. 如果正在编辑的片段具有&#x200B;**[!UICONTROL 实时]**&#x200B;状态，请单击&#x200B;**[!UICONTROL 修改]**&#x200B;按钮以创建片段的草稿版本。
 
+   <!--![](assets/fragment-live-modify.png)-->
+
    >[!NOTE]
    >
-   >片段的当前版本将继续处于活动状态，直到您发布草稿版本。
+   >片段的当前版本将继续处于活动状态，直到您发布新的更新版本。
 
-1. 对片段进行所需的更改。 要编辑其内容，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮并更新您的内容，就像从头开始创建片段时所做的那样。 [了解如何创建片段](#create-from-scratch)
+1. 对片段进行所需的更改。
+
+1. 要修改内容，请单击&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮并更新您的内容，就像从头开始创建片段时所做的那样。 [了解如何创建片段](#create-from-scratch)
+
+   ![](assets/fragment-edit.png)
 
    >[!NOTE]
    >
    >编辑已发布的片段时，您可以移除任何个性化字段，但无法向片段内容添加新个性化字段。 如果要添加个性化属性，必须复制片段。 [了解详情](#adding-new-attributes)
 
-1. 您还可以通过选择&#x200B;**资源管理器引用**&#x200B;选项来检查当前正在使用片段的历程、营销活动和内容模板的列表。 [了解详情](#explore-references)
-
-   ![](assets/fragment-edit.png)
-
-1. 更改准备就绪后，单击&#x200B;**Publish**&#x200B;按钮以使修改生效。
+1. 准备好更改后，保存它们并单击&#x200B;**Publish**&#x200B;按钮以使修改生效。
 
 在编辑片段时，更改会自动传播到该片段的所有内容，包括实时历程和营销活动，但您中断了原始片段的继承的内容除外。
 
@@ -113,17 +117,19 @@ ht-degree: 11%
 
 >[!WARNING]
 >
->不支持向实时片段添加新属性。
+>不支持向实时片段添加新的[个性化属性](../personalization/personalization-build-expressions.md)。
 
 发布片段后，将为引用该片段的所有营销活动和历程锁定个性化或上下文属性集。
 
 要将其他属性合并到活动片段，请执行以下步骤。
 
-1. 复制现有片段。
+1. 使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮复制现有片段。
 
-1. 将所需的属性添加到复制的草稿版本。
+   ![](assets/fragment-list-more-actions.png)
 
-1. Publish新版本。
+1. [将所需的新属性](../personalization/personalization-build-expressions.md#add)添加到重复的草稿版本。
+
+1. Publish新版本。 [了解如何操作](create-fragments.md#publish)
 
 1. 更新任何营销活动或历程，以引用添加了新属性的更新片段。
 
