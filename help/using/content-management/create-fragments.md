@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ab4ee37d09ba8f91d886d54d5fbbe1b631690dda
+source-git-commit: 5951428b9317af9c1e40fac64f0d18c6c80c15b0
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '631'
 ht-degree: 13%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 13%
 >title="选择可视类型"
 >abstract="创建独立的可视片段，以便可在历程或营销活动的电子邮件中或内容模板中重用您的内容。"
 
-&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments&quot; text=&quot;将可视化片段添加到您的电子邮件&quot;—>
+<!-- additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments" text="Add visual fragments to your emails"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
 >abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。在使用个性化编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
 
-&lt;!—>additional-url=&quot;https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments&quot; text=&quot;利用表达式片段&quot;—>
+<!-- additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](#save-as-fragment)
 
