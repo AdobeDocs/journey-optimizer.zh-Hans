@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 下面列出了使用 Adobe Journey Optimizer 中的 AI 助手内容加速器生成电子邮件的一般准则：
 
-* 生成的内容的质量在很大程度上受您定义的营销目标/提示的影响。使用为 GenAI 模型明确定义的提示以准确解释。 
+* 生成的内容的质量强烈受您定义的营销目标/提示的影响。 使用为 GenAI 模型明确定义的提示以准确解释。 
 * 上传品牌资源以提供准确的品牌相关内容。否则，内容基于公开可用的信息。上传的内容可以是以下格式：PDF、JPEG、PNG 或 ZIP 文件（具有支持的文件格式）。
 * 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
 * 通过 Adobe Journey Optimizer 中的 AI 助手内容加速器，使用特定于品牌或自定义的模板创建电子邮件内容。建议使用最多包含 8 至 10 张图像的电子邮件模板。
