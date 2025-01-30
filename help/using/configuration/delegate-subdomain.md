@@ -48,7 +48,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="生成匹配的 DNS 记录"
->abstract="要将新的子域完全委派给 Adobe，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。要使用 CNAME 委派子域，您还需要复制粘贴 SSL CDN URL 验证记录。检查成功后，子域就可以用来传递消息了。"
+>abstract="要将新的子域完全委派给 Adobe，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。要使用 CNAME 委派子域，您还需要复制粘贴 SSL CDN URL 验证记录。检查成功后，子域就可以用来投放消息了。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 子域委派"
 
 [!DNL Journey Optimizer]允许您完全委派子域以直接从产品界面Adobe。 通过这样做，Adobe将能够控制并维护发送、渲染和跟踪电子邮件营销活动所需的DNS的各个方面，从而作为托管服务来发送消息。
@@ -81,7 +81,7 @@ ht-degree: 23%
 
    ![](assets/subdomain-submit.png)
 
-1. 设置DMARC记录。 如果子域具有现有的DMARC记录，并且它由[!DNL Journey Optimizer]获取，则您可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
+1. 设置DMARC记录。 如果子域现有DMARC记录，并且它由[!DNL Journey Optimizer]获取，则您可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 
@@ -118,7 +118,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
 >title="生成匹配的 DNS 和验证记录"
->abstract="要使用 CNAME 委派子域，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息和 SSL CDN URL 验证记录，复制粘贴到您的托管平台中。检查成功后，子域就可以用来传递消息了。"
+>abstract="要使用 CNAME 委派子域，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息和 SSL CDN URL 验证记录，复制粘贴到您的托管平台中。检查成功后，子域就可以用来投放消息了。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
@@ -157,7 +157,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
    ![](assets/subdomain-create-dns-confirm.png)
 
-1. 设置DMARC记录。 如果子域具有现有的DMARC记录，并且它由[!DNL Journey Optimizer]获取，则您可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
+1. 设置DMARC记录。 如果子域现有DMARC记录，并且它由[!DNL Journey Optimizer]获取，则您可以使用相同的值或根据需要更改它们。 如果不添加任何值，将使用默认值。 [了解详情](dmarc-record.md)
 
    ![](assets/dmarc-record-found.png)
 

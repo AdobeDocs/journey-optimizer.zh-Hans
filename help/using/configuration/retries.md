@@ -46,7 +46,7 @@ ht-degree: 9%
 >id="ajo_admin_suppression_list_bounces"
 >title="更新重试阈值"
 >abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html#" text="了解禁止列表"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解禁止列表"
 
 如果默认值5不符合您的需要，您可以按照以下步骤修改错误阈值。
 

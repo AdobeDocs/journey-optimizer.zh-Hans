@@ -29,7 +29,7 @@ ht-degree: 16%
 
 视图可定义为整个网站或网站上的一组可视化元素，例如主页、整个产品网站或所有结账页面上的投放首选项框架。
 
-需要一次性开发人员设置才能定义Adobe Experience Platform Web SDK实施中的视图。 这使您能够在SPA上创建并运行Adobe Journey Optimizer Web营销活动。
+在Adobe Experience Platform Web SDK实施中定义视图需要一次性开发人员设置。 这使您能够在SPA上创建并运行Adobe Journey Optimizer Web营销活动。
 
 ## 在Web SDK实施中定义视图 {#define-views}
 

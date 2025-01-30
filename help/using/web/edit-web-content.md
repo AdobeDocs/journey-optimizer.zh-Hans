@@ -1,5 +1,5 @@
 ---
-title: 编辑Web内容
+title: 编辑 Web 内容
 description: 了解如何在Journey Optimizer中创作网页并编辑其内容
 feature: Web Channel
 topic: Content Management
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ---
 
-# 编辑Web内容 {#edit-web-content}
+# 编辑 Web 内容 {#edit-web-content}
 
 将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
 
@@ -61,7 +61,7 @@ ht-degree: 16%
 
    >[!CAUTION]
    >
-   >网页必须包含[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}。 [了解详情](web-prerequisites.md#implementation-prerequisites)
+   >该网页必须包含[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}。 [了解详情](web-prerequisites.md#implementation-prerequisites)
 
 1. 单击&#x200B;**[!UICONTROL 编辑网页]**&#x200B;开始创作。 此时将显示Web设计器。
 

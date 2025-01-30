@@ -5,13 +5,13 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 7cf58ae33c0b3e6d6b9ce19aa71ba105db40c602
+exl-id: 98e99978-8538-40b4-92ac-7184864017eb
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
 
 ---
-
 
 # 使用 Web 设计器 {#work-with-web-designer}
 

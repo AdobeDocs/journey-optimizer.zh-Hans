@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
 workflow-type: tm+mt
 source-wordcount: '2854'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="输入自定义列表取消订阅端点"
->abstract="如果您在Adobe之外管理同意，请选择&#x200B;**客户管理的**&#x200B;选项，以输入自定义取消订阅电子邮件地址和您自己的一键式取消订阅URL。 在这种情况下，请注意Adobe未存储任何取消订阅信息。 客户同意信息的所有者负责管理其同意数据并将其推送回Journey Optimizer。"
+>abstract="如果您在 Adobe 之外管理同意，请选择&#x200B;**客户管理**&#x200B;选项，以输入自定义取消订阅电子邮件地址和您自己的一键取消订阅 URL。在这种情况下，请注意 Adobe 不会存储任何取消订阅信息。您的客户同意信息的所有者负责管理他们的同意数据，并将其推送回 Journey Optimizer。"
 
 <!--Do not modify - Legal Review Done -->
 
@@ -287,7 +287,7 @@ List unsubscribe标头提供了两项功能，除非取消选中一项或两项�
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
 >abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以调整此默认重试时段以更好地满足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html#" text="关于重试"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
 
