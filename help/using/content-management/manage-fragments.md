@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 11%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 11%
 通过每个片段旁边的&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您可以：
 
 * 将其添加到资源包以供导出。 [了解详情](#export)
-* 如果片段是实时的，请打开草稿版本以编辑它。 [了解详情](#edit-fragments)
+* 如果正在编辑实时片段，请打开此片段的草稿版本。 [了解详情](#edit-fragments)
 * 复制片段。
 * 使用&#x200B;**[!UICONTROL 浏览引用]**&#x200B;选项可查看使用它的历程、营销活动或模板。 [了解详情](#explore-references)
 * 将片段存档。 [了解详情](#archive-fragments)

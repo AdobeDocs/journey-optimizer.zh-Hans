@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 15%
 
 1. 设计其内容后返回片段创建屏幕，或从片段列表中将其打开。
 
-1. 片段预览位于&#x200B;**[!UICONTROL 标记]**&#x200B;字段下，允许检查其渲染。 如果需要执行任何更改，请单击屏幕上方的&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，以打开电子邮件Designer或个性化编辑器，具体取决于片段类型。
+1. 片段预览位于&#x200B;**[!UICONTROL 标记]**&#x200B;字段下，允许检查其渲染。 如果需要执行任何更改，请单击屏幕上方的&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮以打开电子邮件Designer或个性化编辑器，具体取决于片段类型。 [了解详情](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
