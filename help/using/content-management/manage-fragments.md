@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 69aa2eb79ac5a86c8cc5e27951d3b4edd2a5d8bf
+source-git-commit: fd9cea04711dcf57afb0d44ade7a1643e4649b46
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 11%
 
 ---
 
 # 管理片段 {#manage-fragments}
+
+## 访问片段 {#access-fragments}
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
@@ -111,7 +113,7 @@ ht-degree: 11%
 >
 >了解如何在[将可视化片段添加到您的电子邮件](../email/use-visual-fragments.md#break-inheritance)和[利用表达式片段](../personalization/use-expression-fragments.md#break-inheritance)部分中中断继承。
 
-## 向实时片段添加新属性 {#adding-new-attributes}
+### 向实时片段添加新属性 {#adding-new-attributes}
 
 >[!WARNING]
 >
