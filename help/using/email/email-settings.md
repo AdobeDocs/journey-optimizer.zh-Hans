@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: dfe59dc0533fca394ee197193ad4558568c4c11c
+source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
-source-wordcount: '2854'
-ht-degree: 13%
+source-wordcount: '2834'
+ht-degree: 11%
 
 ---
 
@@ -85,8 +85,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
->title="输入自定义列表取消订阅端点"
->abstract="如果您在 Adobe 之外管理同意，请选择&#x200B;**客户管理**&#x200B;选项，以输入自定义取消订阅电子邮件地址和您自己的一键取消订阅 URL。在这种情况下，请注意 Adobe 不会存储任何取消订阅信息。您的客户同意信息的所有者负责管理他们的同意数据，并将其推送回 Journey Optimizer。"
+>title="定义如何管理取消订阅数据"
+>abstract="**托管Adobe**：同意数据由您在Adobe系统中管理。<br>**客户托管**：同意数据由您在外部系统中管理，除非您启动，否则不会在Adobe系统中更新任何同意数据的同步。"
 
 <!--Do not modify - Legal Review Done -->
 
