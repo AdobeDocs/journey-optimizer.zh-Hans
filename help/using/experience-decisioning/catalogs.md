@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 5a64190203563d66309c897fe3ee806a74e8bfc9
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 0%
 目前，所有创建的决策项都整合到单个“优惠”目录中，该目录可通过&#x200B;**[!UICONTROL 目录]**&#x200B;菜单访问。
 
 ![](assets/catalogs-list.png)
+
+## 护栏和限制
+
+为了确保最佳性能和一致性，Decisioning强制实施以下护栏和限制：
+
+* **支持的数据类型**
+
+  目前，Decisioning专门支持以下数据类型：String、Integer、Boolean、Date、DateTime、Decisioning Asset和Object。 在创作决策项或目录时，任何不属于这些数据类型的字段将不可用。
+
+
+* **自定义属性限制**
+
+  每个决策项最多可包含100个自定义属性。
+
+* **嵌套限制**
+
+  最多支持四个级别的嵌套。 最后一个级别不支持图像。
+
+## 访问和编辑目录的架构
 
 要访问存储决策项目属性的目录架构，请执行以下步骤：
 
@@ -38,16 +57,14 @@ ht-degree: 0%
 
 1. 填写所添加属性的必需字段，然后单击&#x200B;**[!UICONTROL 应用]**。
 
-   >[!CAUTION]
-   >
-   >目前，Decisioning专门支持以下数据类型：String、Integer、Boolean、Date、DateTime和Decisioning Asset。 在创作决策项或目录时，任何不属于这些数据类型的字段将不可用。
-
    为具有决策资产属性的属性输入的值是公共url。 大多数情况下，这会指向图像。
 
    有关如何使用Adobe Experience Platform架构的详细信息，请参阅[XDM System文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
 
 1. 添加所需的自定义属性后，保存架构。 现在，新字段在决策项创建屏幕的&#x200B;**[!UICONTROL 自定义属性]**&#x200B;部分中可用。
 
->[!NOTE]
->
->决策项最多可包含100个自定义属性。 [了解有关Decisioning护栏和限制的更多信息](gs-experience-decisioning.md#guardrails)
+
+   下面的示例显示了一个项目创建屏幕，该屏幕具有自定义属性，如在架构中定义的对象。
+
+   ![](assets/custom-attributes.png)
+

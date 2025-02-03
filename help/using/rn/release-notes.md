@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
-workflow-type: ht
-source-wordcount: '2172'
-ht-degree: 100%
+source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 99%
 
 ---
 
@@ -40,6 +40,14 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+### 改进 {#25-01-improvements}
+
+此版本包含下方列出的改进。
+
+**决策**
+
+* 现在，在编辑项目目录的架构时，决策支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
 
 ## 2024 年 10 月版本 {#24-10-rn}
 
@@ -211,7 +219,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>决策在以前称为体验决策且仅面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)，包括已购买 Adobe Healthcare Shield 或 Privacy and Security Shield 附加产品的组织。</p><p>通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。这些决策项通过基于代码的体验渠道无缝集成到广泛的入站表面中。</p>
+<p>决策在以前称为体验决策且仅面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)，包括已购买 Adobe Healthcare Shield 或 Privacy and Security Shield 附加产品的组织。</p><p>通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。这些决策项通过基于代码的体验渠道无缝集成到广泛的入站表面中。</p>
 <p>有关更多信息，请参阅<a href="../experience-decisioning/gs-experience-decisioning.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -366,4 +374,4 @@ ht-degree: 100%
 
 * [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 用户现在可以在决策（以前称为体验决策）中设置 AI 模型时选择用于进行优化的自定义模型。例如，这允许您在自定义“购买”表格上进行优化，而不是使用定义的约束（如点击率）。[了解详情](../experience-decisioning/ranking.md)
 
-* 当使用决策功能将决策策略添加到基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项。此外，您现在可以选择多个后备优惠。这可保证返回一定数量的决策项。[了解详情](../experience-decisioning/create-decision.md)
+* 当使用决策功能将决策策略添加到基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项。此外，您现在可以选择多个后备产品建议。这可保证返回一定数量的决策项。[了解详情](../experience-decisioning/create-decision.md)
