@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
+source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -90,7 +90,7 @@ ht-degree: 41%
    * **[!UICONTROL 值]**：“1234”（这是我们API密钥的值）
    * **[!UICONTROL 位置]**：“查询参数”（API密钥位于URL中）
 
-   ![](assets/journey28.png)
+     ![](assets/journey28.png)
 
 1. 通过单击&#x200B;**[!UICONTROL 添加新字段组]**，为每个API参数集添加新字段组。 字段组名称中只允许使用字母数字字符和下划线。 最大长度为30个字符。 在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
 
