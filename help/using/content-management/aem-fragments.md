@@ -8,14 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50b36446ff0e9f4aec9f28056c3c30cc2df3f530
+exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
+source-git-commit: 098fbf3bdc13cb916804c30a77b72944f0902046
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager内容片段 {#aem-fragments}
+# Adobe Experience Manager 内容片段 {#aem-fragments}
 
 通过将Adobe Experience Manager与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer电子邮件内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
 
@@ -66,16 +67,9 @@ ht-degree: 1%
 
 1. 从可用列表中选择一个&#x200B;**[!UICONTROL 内容片段]**&#x200B;以导入到您的Journey Optimizer内容中。
 
-   >[!IMPORTANT]
-   >
-   >只能使用已发布的&#x200B;**[!UICONTROL 内容片段]**。
-
 1. 单击&#x200B;**[!UICONTROL 显示筛选器]**&#x200B;以优化您的内容片段列表。
 
-   内容片段选择器包括预配置的过滤器：
-
-   * **[!UICONTROL 状态]**：已发布，已修改
-   * **[!UICONTROL 标记]**：根据您的Journey Optimizer环境（组织ID和沙盒）自动定义
+   默认情况下，内容片段过滤器预设为仅显示批准的内容。
 
    ![](assets/aem_campaign_4.png)
 
@@ -83,11 +77,12 @@ ht-degree: 1%
 
    ![](assets/aem_campaign_5.png)
 
-1. 从&#x200B;**[!UICONTROL 内容片段]**&#x200B;中选择要添加到内容的所需字段。
+1. 从&#x200B;**[!UICONTROL 内容片段]**&#x200B;中选择要添加到内容的所需字段。 您可以添加内容或复制其值。
+
+   请注意，如果您选择复制该值，则将来对&#x200B;**[!UICONTROL 内容片段]**&#x200B;进行的任何更新将不会反映在您的营销活动或历程中。
 
    ![](assets/aem_campaign_6.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;并在预览中查看您的消息。 您现在可以测试和检查您的邮件内容，如[此部分](preview.md)中所详述。
 
 执行测试并验证内容后，即可使用[促销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publishing-the-journey.md)向受众发送电子邮件。
-
