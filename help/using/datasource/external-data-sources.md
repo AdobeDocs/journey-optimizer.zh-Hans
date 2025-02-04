@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
+source-git-commit: 8faeaea48e2f6e32cb3d66d0bd1fe53c33b08e65
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 41%
+source-wordcount: '1595'
+ht-degree: 40%
 
 ---
 
@@ -102,21 +102,19 @@ ht-degree: 41%
 * **[!UICONTROL 响应有效负载]**：在&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段中单击，并粘贴调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击&#x200B;**[!UICONTROL 粘贴新的有效负载]**。
 * **[!UICONTROL 已发送有效负载]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
-  如果GET调用需要参数，请在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
+如果GET调用需要参数，请在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
 
-   * 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
-   * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
+* 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
+* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
-     ```json
-     {"id":{"param":"identifier"}}
-     ```
+  ```json
+  {"id":{"param":"identifier"}}
+  ```
 
-     ![](assets/journey29.png)
+  ![](assets/journey29.png)
 
 
-1. 单击&#x200B;**[!UICONTROL 保存]**。
-
-数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
+保存更改后，数据源即配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。 如果温度高于 30°C，您可以决定发送特定通信。
 
 ## 自定义身份验证模式 {#custom-authentication-mode}
 
