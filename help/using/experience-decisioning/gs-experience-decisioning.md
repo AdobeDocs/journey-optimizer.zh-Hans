@@ -1,23 +1,28 @@
 ---
-title: 开始使用Decisioning
+title: 决策入门
 description: 了解有关Decisioning的更多信息
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 15%
+source-wordcount: '642'
+ht-degree: 16%
 
 ---
 
-# 开始使用Decisioning {#get-started-experience-decisioning}
+# 决策入门 {#get-started-experience-decisioning}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_enable_experience_decisioning"
+>title="什么是决策？"
+>abstract="Decisioning是除决策管理之外的新工具，用于从决策引擎中选择最佳项目并交付给每个人。 要使用它，需要进行额外的设置。"
 
 ## 什么是决策 {#about}
 
-通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
+通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
 这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 决策决策策略仅在基于代码的体验营销活动中可用。
 
