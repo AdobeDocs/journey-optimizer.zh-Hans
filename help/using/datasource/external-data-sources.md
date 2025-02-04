@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0dc8f4700a9ffe9073aecfda1b3ad31e0d30610e
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 49%
+source-wordcount: '1593'
+ht-degree: 41%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 49%
 >title="外部数据源"
 >abstract="外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。"
 
+## 使用外部数据源 {#gs-ext-data-sources}
+
 外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
 >[!NOTE]
 >
->使用外部系统时的护栏列在[此页面](../configuration/external-systems.md)中。
-
->[!NOTE]
+>* 使用外部系统时的护栏列在[此页面](../configuration/external-systems.md)中。
 >
->由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
+>* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
@@ -43,6 +43,9 @@ ht-degree: 49%
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
 该调用由一个主 URL (_https://api.adobeweather.org/weather_)、两个参数集（“city”表示城市，“lat/long”表示纬度和经度）和 API 密钥 (appid) 组成。
+
+
+## 创建和配置外部数据源 {#create-ext-data-sources}
 
 以下是创建和配置新外部数据源的主要步骤：
 
@@ -75,9 +78,12 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >执行身份验证调用时，在Authentication标头中添加以base64编码的字符串`<username>:<password>`。
+   >* 执行身份验证调用时，在Authentication标头中添加以base64编码的字符串`<username>:<password>`。
+   >
+   >* Adobe Journey Optimizer会自动加密在自定义操作中定义的密钥。 每个组织的加密密钥都在一个与其组织绑定的专用保险库中受到安全管理。 当凭据显示在界面中时，默认情况下它们会被掩盖，以防止意外泄露。
 
-   有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。在我们的示例中，我们选择API密钥身份验证模式：
+
+   有关自定义身份验证模式的详细信息，请参阅[此部分](../datasource/external-data-sources.md#custom-authentication-mode)。 在我们的示例中，我们选择API密钥身份验证模式，如下所示：
 
    * **[!UICONTROL 类型]**： &quot;API密钥&quot;
    * **[!UICONTROL 名称]**：“appid”（这是API密钥参数名称）
@@ -108,28 +114,28 @@ ht-degree: 49%
 
 ![](assets/journey29.png)
 
-单击&#x200B;**[!UICONTROL 保存]**。
+1. 单击&#x200B;**[!UICONTROL 保存]**。
 
 数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
 
-## 自定义身份验证模式{#custom-authentication-mode}
+## 自定义身份验证模式 {#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="关于自定义身份验证"
 >abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。操作执行分为两步。首先，执行对端点的调用以生成访问令牌。然后，访问令牌将插入操作的 HTTP 请求中。"
 
-此身份验证模式用于复杂的身份验证，通常用于调用 OAuth2 等 API 封装协议，以检索要插入到操作的实际 HTTP 请求中的访问令牌。
+自定义身份验证模式用于复杂身份验证，通常用于调用OAuth2等API封装协议，以检索要插入到操作的实际HTTP请求中的访问令牌。
 
-配置自定义身份验证时，可以单击以下按钮检查自定义身份验证有效负载是否正确配置。
+配置自定义身份验证时，请使用&#x200B;**[!UICONTROL 单击以检查身份验证]**&#x200B;按钮来控制自定义身份验证有效负载是否已正确配置。
 
 ![](assets/journey29-bis.png)
 
-如果测试成功，按钮将变为绿色。
+测试成功后，按钮将变为绿色。
 
 ![](assets/journey29-ter.png)
 
-通过此身份验证，操作执行分为两步：
+在此身份验证模式下，操作执行分为两步：
 
 1. 调用端点以生成访问令牌。
 1. 通过以正确的方式插入访问令牌以调用 REST API。
