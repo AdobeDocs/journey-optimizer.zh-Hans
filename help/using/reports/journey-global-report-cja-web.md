@@ -7,14 +7,21 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 7591a07b-1680-4081-a745-192755d35371
+source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '576'
 ht-degree: 2%
 
 ---
 
-# Web历程报告 {#journey-global-report}
+# Web 历程报告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+您的历程报告可能同时显示多个历程中的信息，因为用户一次可以涉及多个历程。 因此，如果为参与同时活动历程的用户触发入站通信（应用程序内、Web和基于代码），则这些通信可能会显示在多个历程中，这可能会导致数据重叠。
+
+>[!ENDSHADEBOX]
 
 ## 展示和点击趋势 {#impressions-web}
 
@@ -115,4 +122,3 @@ ht-degree: 2%
 * **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
 
 +++
-
