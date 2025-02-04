@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3fae8e27dd043762ba4e5e2705300798298fc613
+source-git-commit: 962366b6e7eb959d24411a5b383678a5a183ad75
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 41%
@@ -100,19 +100,19 @@ ht-degree: 41%
 * **[!UICONTROL 方法]**：选择POST或GET方法。 在我们的示例中，我们选择 GET 方法。
 * **[!UICONTROL 动态值]**：在我们的示例中，输入以逗号分隔的不同参数“long，lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。[了解详情](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 响应有效负载]**：在&#x200B;**[!UICONTROL 有效负载]**&#x200B;字段中单击，并粘贴调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击&#x200B;**[!UICONTROL 粘贴新的有效负载]**。
-
 * **[!UICONTROL 已发送有效负载]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
-如果GET调用需要参数，请在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
+  如果GET调用需要参数，请在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
 
-* 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
-* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
+   * 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
+   * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+     ```json
+     {"id":{"param":"identifier"}}
+     ```
 
-![](assets/journey29.png)
+     ![](assets/journey29.png)
+
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
