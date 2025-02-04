@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 22%
+source-wordcount: '2390'
+ht-degree: 27%
 
 ---
 
@@ -102,19 +102,67 @@ ht-degree: 22%
 
 <table>
     <tr>
-        <td><a href="dates.md#age">Age</a></td><td>此函数从给定日期检索年龄</td>
+        <td><a href="dates.md#add-days">添加天数</a></td><td>此函数按指定的天数调整给定日期，使用正值递增，使用负值递减。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Current time in milliseconds</a></td><td>此函数检索当前时间（以纪元毫秒为单位）</td>
+        <td><a href="dates.md#add-hours">添加小时数</a></td><td>此函数按指定的小时数调整给定日期，使用正值递增，使用负值递减。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">Date difference</a></td><td>此函数检索两个日期之间的天数差</td>
+        <td><a href="dates.md#add-minutes">添加分钟</a></td><td>此函数按指定的分钟数调整给定日期，使用正值递增，使用负值递减。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">Day of week</a></td><td>此函数检索星期几</td>
+        <td><a href="dates.md#add-months">添加月份</a></td><td>此函数按指定的月数调整给定日期，使用正值递增，使用负值递减。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Day of year</a></td><td>此函数检索每年的某一天</td>
+        <td><a href="dates.md#add-seconds">添加秒数</a></td><td>此函数按指定的秒数调整给定日期，使用正值递增，使用负值递减。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#add-years">添加年份</a></td><td>此函数按指定的年数调整给定日期，使用正值递增，使用负值递减。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age">Age</a></td><td>此函数从给定日期检索年龄。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-days">年龄（以天为单位）</a></td><td>此函数计算给定日期的年龄（以天为单位），即给定日期与当前日期之间经过的天数，对于未来日期为负值，对于过去日期为正值。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#age-months">年龄（以月为单位）</a></td><td>此函数计算给定日期的年龄（以月为单位），即给定日期与当前日期之间经过的月数（对于未来日期为负，对于过去日期为正）。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#compare-dates">比较日期</a></td><td>此函数将第一个输入日期与另一个输入日期进行比较。如果日期1 等于日期2，则返回 0；如果日期1 早于日期2，则返回 -1；如果日期1 晚于日期2，则返回 1。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#convert-zoned-date-time">转换分区日期时间</a></td><td>此函数将日期时间转换为给定时区。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Current time in milliseconds</a></td><td>此函数检索当前时间（以纪元毫秒为单位）。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Date difference</a></td><td>此函数检索两个日期之间的天数差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-month">每月的第几日</a></td><td>此函数返回代表月份的天数。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Day of week</a></td><td>此函数检索星期几。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Day of year</a></td><td>此函数检索年中日（该年的第几天）。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-seconds">秒数差</a></td><td>此函数返回两个日期之间的秒数差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-hours">提取小时数</a></td><td>此函数从给定的时间戳中提取小时数组件。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-minutes">提取分钟数</a></td><td>此函数从给定的时间戳中提取分钟数组件。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-months">提取月数</a></td><td>此函数从给定的时间戳中提取月数组件。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#extract-seconds">提取秒数</a></td><td>此函数从给定的时间戳中提取秒数组件。</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">设置日期格式</a></td><td>此函数设置日期时间值的格式。</td>
@@ -123,16 +171,47 @@ ht-degree: 22%
         <td><a href="dates.md#format-date-locale">支持区域设置的日期格式</a></td><td>此函数将日期时间值格式化为其相应的语言敏感表示形式，即所需的区域设置中。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Set Days</a></td><td>此函数为给定的日期时间设置月中日（该月中的第几天）</td>
+        <td><a href="dates.md#get-current-zoned-date-time">获取 CurrentZonedDateTime</a></td><td>此函数返回当前日期和时间以及时区信息。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Set Hours</a></td><td>此函数设置日期时间的小时</td>
+        <td><a href="dates.md#hours-difference">小时数差</a></td><td>此函数以小时数返回两个日期之间的差值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">To UTC</a></td><td>此函数将日期时间转换为UTC</td>
+        <td><a href="dates.md#diff-minutes">分钟数差</a></td><td>此函数返回两个日期之间的分钟数差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#months-difference">月数差</a></td><td>此函数按月返回两个日期之间的差值。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Set Days</a></td><td>此函数为给定的日期时间设置月中日（该月中的第几天）。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Set Hours</a></td><td>此函数设置日期时间的小时。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-date-time">To Date Time</a></td><td>此函数将字符串转换为日期。 对于无效的输入，它返回纪元日期作为输出。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">To UTC</a></td><td>此函数将日期时间转换为 UTC。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-day">截断到一天的开始</a></td><td>此函数修改给定的日期时间，将其设置为一天的开始时间（00:00）。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-quarter">截断到一季度的开始</a></td><td>此函数在00:00将日期时间截断为其季度的第一天（例如，1月1日、4月1日、7月1日、10月1日）。
+</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-week">截断到一周的开始</a></td><td>此函数修改给定的日期时间，将其设置为一周的开始时间（星期一 00:00）。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#truncate-year">截断到一年的开始</a></td><td>此函数修改给定的日期时间，将其截断到一年的第一天（1 月 1 日），时间为 00:00。</td>
     </tr>
     <tr>
         <td><a href="dates.md#week-of-year">Week of year</a></td><td>此函数返回年中周（该年中的第几周）</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#diff-years">年数差异</a></td><td>此函数返回两个日期之间的年数差。</td>
     </tr>
 </table>
 </table>
@@ -331,7 +410,7 @@ ht-degree: 22%
         <td><a href="string.md#to-date-time-only">To Date Time only</a></td><td>此函数将一个参数值转换为仅日期时间值。 对于无效的输入，它返回纪元日期作为输出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Trim</a></td><td>此函数去除字符串开头和结尾的空格。</td>
+        <td><a href="string.md#trim">修剪</a></td><td>此函数去除字符串开头和结尾的空格。</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Upper case</a></td><td>此函数将一个字符串转换为大写字母。</td>
@@ -402,7 +481,7 @@ ht-degree: 22%
 
 <table>
     <tr>
-        <td><a href="operators.md#and">和</a></td><td>此运算符创建逻辑连接</td>
+        <td><a href="operators.md#and">与</a></td><td>此运算符创建逻辑连接</td>
     </tr>
     <tr>
         <td><a href="operators.md#or">或</a></td><td>此运算符创建逻辑分离</td>

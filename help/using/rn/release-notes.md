@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 99%
+source-wordcount: '2212'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 99%
 **决策**
 
 * 现在，在编辑项目目录的架构时，决策支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
+
+**个性化**
+
+* 新的日期/时间辅助函数可在个性化编辑器中使用。 [了解详情](../personalization/functions/dates.md)
 
 ## 2024 年 10 月版本 {#24-10-rn}
 
