@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 87a9baf1ee042bb4386fdc2bd631637e3cc9859e
+source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。 [了解详情](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)有关Apple iOS隐私更改对电子邮件营销的影响。
+由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。 [了解更多](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)有关Apple iOS隐私更改对电子邮件营销的影响。
 
 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
 
