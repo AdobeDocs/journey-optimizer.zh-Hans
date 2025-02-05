@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
-source-wordcount: '2421'
-ht-degree: 95%
+source-wordcount: '2476'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +38,15 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 无法使用 [!DNL Journey Optimizer] 向电子邮件添加附件。
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送消息。
 
+## 数据集护栏 {#datasets-guardrails}
+
+从2025年2月开始，将在&#x200B;**新沙盒和新组织**&#x200B;中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
+
+* 配置文件存储中的数据为 90 天
+* 数据湖中的数据为 13 个月
+
+有关这些护栏的更多详细信息，请参阅[常见问题解答部分](../data/datasets-ttl.md#ttl)。
+
 ## 登陆页面护栏 {#lp-guardrails}
 
 * 在单个主页面中只能使用一个&#x200B;**表单**&#x200B;组件。
@@ -54,7 +63,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 ### Web 渠道护栏 {#web-guardrails}
 
 [!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这将增加您的可参与轮廓的总数，如果超出您购买的可参与轮廓的合同数量，则可能会产生成本影响。[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
-
 
 ## 子域护栏 {#subdomain-guardrails}
 

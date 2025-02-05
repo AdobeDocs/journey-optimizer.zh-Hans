@@ -6,20 +6,20 @@ description: Adobe Journey Optimizer中的生存时间和流分段更改
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: 平台、数据湖、创建、湖、数据集、个人资料
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+keywords: 平台、数据湖、创建、湖、数据集、轮廓
+exl-id: 08633a79-5601-4e36-b8cf-080234956d99
+source-git-commit: ccb4cc944271fb197e7aee87f57b51c28cb3565f
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
-
 
 # 生存时间和流分段更改 {#ttl-guardrail}
 
 ## 流式分段更新 {#segmentation-update}
 
-从2024年11月1日开始，流式分段将不再支持使用来自Journey Optimizer跟踪和反馈数据集的发送和打开事件。 此更改将应用于所有客户沙盒和组织。 有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
+自 2024 年 11 月 1 日起，流式分段将不再支持在 Journey Optimizer 跟踪和反馈数据集中使用发送和打开事件。此更改将适用于所有客户沙盒和组织。有关过去不建议采用这种做法的原因的信息，请参阅[此处](../audience/about-audiences.md#streaming-segmentation-events-guardrails)。
 
 **常见问题解答**
 
@@ -41,13 +41,11 @@ ht-degree: 5%
 
 +++
 
-
 +++ 反应事件是否受此更改的影响？
 
 历程中的反应事件不受此更改的影响。
 
 +++
-
 
 +++ 此更改将仅适用于生产沙盒，还是也适用于开发沙盒？
 
