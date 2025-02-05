@@ -7,7 +7,7 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 12449430f48153ebe3fbb30b782f51de4b11d4ef
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 要创建计算属性，请导航到左侧的&#x200B;**[!UICONTROL 配置文件]**&#x200B;菜单中的&#x200B;**[!UICONTROL 计算属性]**&#x200B;选项卡。
 
-在此屏幕中，您可以通过构建规则来构造计算属性，这些规则将事件属性、聚合函数与指定的回顾期间一起组合。 例如，您可以计算过去三个月中进行的购买总数，确定上周未购买的用户档案查看的最新项目，或统计每个用户档案累计的总奖励积分。
+在此屏幕中，您可以通过构建规则来构建计算属性，这些规则将事件属性、聚合函数与指定的回顾期间结合使用。 例如，您可以计算过去三个月中进行的购买总数，确定上周未购买的用户档案查看的最新项目，或统计每个用户档案累计的总奖励积分。
 
 ![](assets/computed-attributes.png)
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 为了能够利用Journey Optimizer中的计算属性，您首先需要将它们添加到Journey Optimizer **Experience Platform**&#x200B;数据源。
 
-Adobe Experience Platform 数据源定义与 Adobe 实时客户配置文件的连接。此数据源旨在从实时客户档案服务中检索档案数据和体验事件数据。
+Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源旨在从实时客户档案服务中检索档案数据和体验事件数据。
 
 要将计算属性添加到数据源，请执行以下步骤：
 
