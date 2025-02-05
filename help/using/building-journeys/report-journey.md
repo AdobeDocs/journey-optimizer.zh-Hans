@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Publish历程
+title: 发布历程
 description: 了解如何报告您的历程
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 9b4ff0325d099252a5785aa13cfe0f1fe42acac6
+exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
+source-git-commit: b604ab6d94f414b96378f15986edbcf92cee77dc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '312'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 对于您的实时历程，您有权访问：
 
-* **[!UICONTROL 输入的配置文件]**：退出历程的个人总数（包括错误）。
-* **[!UICONTROL 已退出分析]**：由于退出条件而退出该活动的个人总数。
+* **[!UICONTROL 输入的配置文件]**：进入历程的个人总数。
+* **[!UICONTROL 退出配置文件]**：退出历程的个人总数（包括错误）。
 * **[!UICONTROL 有错误的配置文件]**：历程中遇到错误的个人总数。
 * **[!UICONTROL 丢弃的用户档案]**：由于以下原因之一从历程丢弃的个人总数：
 
