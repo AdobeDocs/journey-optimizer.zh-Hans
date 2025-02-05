@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a98312d9ac5a457bfd6789bf79ad80a24d894a0b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 19%
+source-wordcount: '2162'
+ht-degree: 18%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 19%
 
 * 使用历程中的&#x200B;**条件**&#x200B;活动，根据受众成员资格构建条件。[了解如何在条件中使用受众](../building-journeys/condition-activity.md#using-a-segment)。
 
-* 在历程中使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在此历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。有关如何使用此活动的更多信息，请参阅[了解如何配置受众鉴别活动](../building-journeys/audience-qualification-events.md)。
+* 在历程中使用&#x200B;**受众资格**&#x200B;事件活动，根据Adobe Experience Platform受众进入和退出，让个人进入历程或在此历程中前进。 例如，您可以让所有新的白银客户进入历程并向其发送消息。有关如何使用此活动的更多信息，请参阅[了解如何配置受众资格筛选活动](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >
@@ -126,7 +126,7 @@ ht-degree: 19%
 
 每24小时评估一次受众的用户档案列表。
 
-批量分段是流式分段的替代方法，是通过区段定义一次性处理所有用户档案数据的过程。这会创建受众的快照，可保存和导出以供使用。但是，与流式分段不同，批量分段不会持续实时更新受众列表，并且在下一次批量处理之前，批量处理流程之后输入的新数据不会反映在受众中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+批量分段是流式分段的替代方法，是通过区段定义一次性处理所有轮廓数据的过程。这会创建受众的快照，可保存和导出以供使用。但是，与流式分段不同，批量分段不会持续实时更新受众列表，并且在下一次批量处理之前，批量处理流程之后输入的新数据不会反映在受众中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
@@ -148,13 +148,30 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 >
 >If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.-->
 
-首次定义受众后，在符合条件时，用户档案会被添加到受众。
+首次定义受众后，在符合条件时，轮廓会被添加到受众。
 
 从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
 
+### [!BADGE 有限可用性]{type=Informative}灵活的受众评估（有限可用性） {#flexible}
+
+>[!AVAILABILITY]
+>
+灵活的受众评估仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+Adobe Experience Platform Audience Portal允许您根据需要对所选受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。
+
+通过灵活的受众评估，您可以：
+
+1. 根据最新数据创建新的区段。
+1. 实时评估受众以确保准确性。 要实现此目的，请选择要评估的受众，然后选择“评估受众”，前提是受众符合特定标准（例如，基于人员的分段服务来源）。
+1. 在Adobe Journey Optimizer中使用评估的受众
+用于精确定位的营销活动或历程。
+
+您一次最多可以评估20个受众，不符合条件的受众将被自动排除。 有关详细信息，请参阅[受众门户文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
+
 ### 使用流式客户细分的事件使用情况 {#streaming-segmentation-events-guardrails}
 
-流式分段对于高价值用例的实时个性化很有用。 但是，选择正确的[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}用作分段条件很重要。
+流式分段对于高价值用例的实时个性化很有用。 但是，选择正确的[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events)很重要{target="_blank"}
 
 因此，要获得流式分段的最佳性能，请避免使用以下事件：
 

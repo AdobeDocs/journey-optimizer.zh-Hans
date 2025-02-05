@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: a2e09052ef5cb38ca34cd8faa476ca750ea1965f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 * **操作**&#x200B;被启用或禁用。
 * 可以从开发人员控制台检索&#x200B;**访问令牌**。
 * 可从开发人员控制台检索&#x200B;**API密钥**。
-* **IMS组织ID**&#x200B;是您的Adobe IMS组织。
+* **IMS组织ID**&#x200B;是您的Adobe组织。
 * **沙盒名称**&#x200B;是数据集所在的沙盒名称（即prod、dev等）。
 
 >[!NOTE]

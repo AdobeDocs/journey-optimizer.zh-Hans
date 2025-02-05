@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 41717213cb75185476f054bd076e67f942be0f1c
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B
 
 >[!NOTE]
 >
->本指南仅介绍如何发出 Adobe Journey Optimizer 隐私请求。如果您还计划向 Platform 数据湖发出隐私请求，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/privacy)以及本教程。对于实时客户档案，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy)；对于标识服务，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/privacy)。要删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。向 Adobe Journey Optimizer 发出隐私请求不会从所有这些系统中移除数据。
+>本指南仅介绍如何发出 Adobe Journey Optimizer 隐私请求。如果您还计划向 Platform 数据湖发出隐私请求，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/privacy)以及本教程。对于实时客户轮廓，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy)；对于身份标识服务，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/privacy)。要删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。向 Adobe Journey Optimizer 发出隐私请求不会从所有这些系统中移除数据。
 
 对于&#x200B;**访问请求**，请从 UI 中指定“Adobe Journey Optimizer”（或在 API 中将“CJM”指定为产品代码）。
 
@@ -58,7 +58,7 @@ Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B
 
 要提出访问和删除 Adobe Journey Optimizer 数据的请求，您必须有：
 
-* IMS 组织 ID
+* Adobe的组织ID
 * 要对其执行操作的人员的身份标识符以及对应的命名空间。有关 Adobe Journey Optimizer 和 Experience Platform 中的标识命名空间的更多信息，请参阅[标识命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)。
 
 ### Adobe Journey Optimizer 中用于 API 请求的必填字段值
@@ -66,7 +66,7 @@ Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B
 ```json
 "companyContexts":
     "namespace": imsOrgID
-    "value": <Your IMS Org ID Value>
+    "value": <Your Adobe Organization ID Value>
 
 "users":
     "action": either access or delete

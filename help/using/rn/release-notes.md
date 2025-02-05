@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
+source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 98%
+source-wordcount: '2278'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,22 @@ ht-degree: 98%
 </p>
 <p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md#cja-template">详细文档</a>。</p>
 <p> <b>模板</b>功能将分阶段逐步推出，计划在 1 月底之前全面正式发布</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>灵活的受众评估（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>灵活的受众评估允许您按需为选定的受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。</p>
+<p>有关更多信息，请参阅<a href="../audience/about-audiences.md#flexible">详细文档</a>。</p>
+<p> 灵活的受众评估仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </tr>
 </tbody>
 </table>
@@ -272,7 +288,7 @@ ht-degree: 98%
 <table>
 <thead>
 <tr>
-<th><strong>使用示例输入数据测试您的内容（Beta 版）</strong><br/></th>
+<th><strong>使用範例輸入資料來測試內容 (測試版)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

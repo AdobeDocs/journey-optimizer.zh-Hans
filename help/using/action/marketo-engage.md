@@ -8,13 +8,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
-source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
+exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
+source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 4%
 
 ---
-
 
 # 与 Marketo Engage 集成 {#integrating-with-marketo-engage}
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 ## 先决条件 {#prerequisites}
 
 * Marketo Engage的客户实例必须已启用IMS。
-* Marketo Engage实例和AEP/AJO实例必须位于同一IMS组织中。
+* Marketo Engage实例和Adobe Experience Platform/Journey Optimizer实例必须位于同一个组织中。
 * 必须为客户设置&#x200B;**MktoSync：摄取服务访问**
 
 ## 配置操作 {#configure-marketo-action}
@@ -113,4 +113,3 @@ ht-degree: 4%
 * 在&#x200B;**请求参数**&#x200B;部分中，单击编辑以在有效负载中配置每个具有动态值的参数。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
-
