@@ -8,15 +8,15 @@ role: User
 level: Intermediate
 keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
 
 
-# 用户档案入口管理 {#entry-management}
+# 轮廓入口管理 {#entry-management}
 
 用户档案入口管理取决于历程类型。 在Adobe Journey Optimizer中，可以使用以下类型的历程：
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 * **受众资格**&#x200B;历程：这些历程以受众资格事件开始。 这些历程侦听受众中用户档案的进出口。 发生此情况时，关联的配置文件将进入旅程。 [了解详情](#entry-unitary)
 
-在所有历程类型中，同一历程中无法同时存在多个用户档案。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键CRMID=3224）放置在同一历程的不同位置。
+在所有历程类型中，同一历程中无法同时存在多个用户档案。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
 
 ## 单一事件和受众资格历程{#entry-unitary}
 
