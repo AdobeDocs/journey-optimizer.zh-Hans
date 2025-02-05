@@ -8,20 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 98%
+source-wordcount: '2421'
+ht-degree: 95%
 
 ---
 
 # 护栏和限制 {#limitations}
 
+下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
+
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 在开始之前，您还需要了解针对Real-time Customer Profile数据](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}的[防护。
 
-下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
+
+>[!NOTE]
+>
+>在极少数情况下，特定区域的临时中断可能会导致从历程中排除有效用户档案，或导致错误标记为退回的邮件。 恢复服务后，重新检查历程日志，验证同意配置文件字段，并根据需要重新发布历程。 在ISP中断的情况下，请参阅[本节](../configuration/manage-suppression-list.md#remove-from-suppression-list)以了解如何从禁止显示列表中删除配置文件。
+>
 
 ## 支持的浏览器 {#browsers}
 

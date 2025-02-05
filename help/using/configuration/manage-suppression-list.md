@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -207,7 +207,7 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-## 从禁止显示列表中删除地址{#remove-from-suppression-list}
+## 从禁止显示列表中删除地址 {#remove-from-suppression-list}
 
 您可以手动更新禁止显示列表。 从隔离中删除电子邮件地址是一项敏感操作，可能会影响您的IP信誉和投放率。 请务必谨慎操作。
 
