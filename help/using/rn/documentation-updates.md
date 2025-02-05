@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
 workflow-type: tm+mt
-source-wordcount: '5907'
-ht-degree: 97%
+source-wordcount: '5938'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 97%
 * **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件人电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。 如果未指定转发电子邮件，则将丢弃这些电子邮件。 [了解详情](../email/email-settings.md#forward-email)
 
 * 传递到API触发的营销活动请求的最大上下文属性大小已更新为200 kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
+
+* **管理片段**&#x200B;页面已添加新部分，以说明如何向实时片段添加新属性。 整个页面也得到了改进。 [了解详情](../content-management/manage-fragments.md#adding-new-attributes)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
