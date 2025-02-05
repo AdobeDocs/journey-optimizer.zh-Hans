@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b6c2b6370c5a68937ebcafcbe70c4a240bc14536
+source-git-commit: 34ecb4b7f30741d88fa69007e1c236eb731dc06c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 19%
+source-wordcount: '1324'
+ht-degree: 18%
 
 ---
 
@@ -150,11 +150,14 @@ ht-degree: 19%
 >title="关于发送时间优化"
 >abstract="Adobe Journey Optimizer 的发送时间优化功能由 Adobe 的 AI 服务提供支持，可以预测发送电子邮件或推送消息的最佳时间，从而根据历史打开率和点击率最大限度地提高参与度。"
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->默认情况下，此功能未启用。 请联系您的Adobe代表以将其激活。
+>* 发送时间优化默认未启用。 请联系您的Adobe代表以将其激活。
 >
->发送时间优化功能仅适用于电子邮件和推送渠道。
+>* 建议使用至少1,000个包含最新消息传递数据的用户档案进行初始发送时间优化培训和评分。
+>
+>* 发送时间优化仅适用于&#x200B;**电子邮件**&#x200B;和&#x200B;**推送通知**&#x200B;渠道。
+
 
 ### 关于发送时间优化 {#about-send-time}
 
