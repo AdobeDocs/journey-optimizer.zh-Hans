@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -110,7 +110,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 
 >[!IMPORTANT]
 >
->传递到请求的上下文属性不能超过50kb，并且始终被视为字符串类型。
+>传递到请求的上下文属性不能超过200kb，并且始终被视为字符串类型。
 >
 >`context.system`语法被限制为仅Adobe内部使用，并且不应用于传递上下文属性。
 
