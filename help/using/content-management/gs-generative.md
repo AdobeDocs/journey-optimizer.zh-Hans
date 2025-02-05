@@ -25,7 +25,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上传品牌资源"
->abstract="通过“上传品牌资源”菜单，您可以添加任何包含内容的品牌资源，这些内容可以为 Journey Optimizer 内容加速器中的 AI 助手提供额外上下文信息，或者选择之前上传的资源。此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
+>abstract="通过“上传品牌资源”菜单，您可以添加任何包含内容的品牌资源，这些内容可以为 Journey Optimizer 的 AI 助手内容加速器中提供额外上下文信息，或者选择之前上传的资源。此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

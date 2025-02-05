@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用示例输入数据测试您的内容（Beta 版）
+title: 使用範例輸入資料來測試內容 (測試版)
 description: 了解如何使用CSV或JSON文件中的示例输入数据或手动添加的数据预览内容并发送电子邮件校样。
 feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 ---
 
-# 使用示例输入数据测试您的内容（Beta 版） {#custom-profiles}
+# 使用範例輸入資料來測試內容 (測試版) {#custom-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
