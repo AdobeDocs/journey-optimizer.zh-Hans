@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b4075b722ba07f003b9658b5f399896ce0e85b9a
+source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
-source-wordcount: '5938'
+source-wordcount: '5954'
 ht-degree: 96%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 96%
 * 传递到API触发的营销活动请求的最大上下文属性大小已更新为200 kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 
 * **管理片段**&#x200B;页面已添加新部分，以说明如何向实时片段添加新属性。 整个页面也得到了改进。 [了解详情](../content-management/manage-fragments.md#adding-new-attributes)
+
+* “护栏和限制”部分已添加到冲突管理和优先级设置工具文档。 [了解详情](../conflict-prioritization/gs-conflict-prioritization.md)
 
 <!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
 
