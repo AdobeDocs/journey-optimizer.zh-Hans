@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: dbe312f332031391c49a973f323994f860e354e3
 workflow-type: tm+mt
 source-wordcount: '5954'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 96%
 
 ## 2025 年 1 月 {#jan-2025}
 
-* 已添加有关电子邮件配置中&#x200B;**[!UICONTROL 执行地址]**&#x200B;选项的新部分。 主地址在沙盒级别定义，但可以覆盖特定电子邮件配置的默认设置。 [了解详情](../email/email-settings.md#execution-address)
+* 新添加了一个有关电子邮件配置中的&#x200B;**[!UICONTROL 执行地址]**&#x200B;选项的部分。主地址是在沙盒级别定义的，但对于特定电子邮件配置，可以覆盖默认设置。[了解详情](../email/email-settings.md#execution-address)
 
-* **可投放性入门**&#x200B;页面已更新，可以直接从用户界面创建IP预热工作流。 [了解详情](../reports/deliverability.md#reputation)
+* **可投放性入门**&#x200B;页面已更新，可以直接从用户界面创建 IP 预热工作流。[了解详情](../reports/deliverability.md#reputation)
 
-* **标头参数**&#x200B;部分已更新，以反映用户界面中的新标签和更改。 [了解详情](../email/email-settings.md#email-header)
+* **标头参数**&#x200B;部分已更新，以反映用户界面中的新标签和更改。[了解详情](../email/email-settings.md#email-header)
 
-* **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件人电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。 如果未指定转发电子邮件，则将丢弃这些电子邮件。 [了解详情](../email/email-settings.md#forward-email)
+* **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。如果未指定转发电子邮件，则将丢弃这些电子邮件。[了解详情](../email/email-settings.md#forward-email)
 
 * 传递到API触发的营销活动请求的最大上下文属性大小已更新为200 kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 * **配置基于代码的体验**&#x200B;页面已得到改进，流程更加清晰，包括说明什么是表面 URI 的部分。[了解详情](../code-based/code-based-configuration.md)
 * **创建网页渠道配置**&#x200B;页面已更新，介绍了创建页面匹配规则时的步骤，这些步骤也适用于基于代码的体验配置。[了解详情](../web/web-configuration.md#web-page-matching-rule)
 * 添加了关于即将推出的系统生成数据集的生存时间 (TTL) 护栏的说明。[了解详情](../data/get-started-datasets.md)
-* 添加了新章节，介绍在模拟历程或营销活动中的内容时，如何使用&#x200B;**在设备上预览**&#x200B;选项，在浏览器或移动设备上预览基于代码的个性化体验。 [了解详情](../code-based/test-code-based.md#preview-on-device)
+* 新增了一个部分，介绍如何在模拟历程或营销活动中的内容时，使用&#x200B;**在设备上预览**&#x200B;选项，在浏览器或移动设备上预览基于代码的个性化体验。[了解详情](../code-based/test-code-based.md#preview-on-device)
 * 添加了有关如何利用自定义上传受众进行决策的新页面。[了解详情](../offers/custom-upload-decisioning.md)
 * 添加了介绍 Journey Optimizer 中的决策功能的新页面。[了解详情](../experience-decisioning/gs-decision.md)
 * 决策文档中添加了有关护栏和限制的内容。[了解详情](../experience-decisioning/gs-experience-decisioning.md#guardrails)

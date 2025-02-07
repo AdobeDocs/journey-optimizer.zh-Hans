@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 5b16e3a89a9a39723a2443345c4e8180a490112e
 workflow-type: tm+mt
 source-wordcount: '2476'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
-在开始之前，您还需要了解针对Real-time Customer Profile数据](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}的[防护。
+在开始之前，您还需要了解[针对实时客户配置文件数据的防护](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}。
 
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
 * 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
-* Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部Journey Optimizer数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。 对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
+* Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 
 ### 数据源 {#data-sources-g}
