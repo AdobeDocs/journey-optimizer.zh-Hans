@@ -7,11 +7,10 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: a48fe20dcd06771c41164ecb1ea6df9d83a9a96c
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2160'
 ht-degree: 18%
 
 ---
@@ -152,7 +151,7 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 
 从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
 
-### [!BADGE 有限可用性]{type=Informative}灵活的受众评估（有限可用性） {#flexible}
+### [!BADGE 有限发布版 ]{type=Informative} 灵活的受众评估 {#flexible}
 
 >[!AVAILABILITY]
 >
