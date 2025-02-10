@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: a0e9800c5909369845f2a243e8967f7037c808d8
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 100%
 </tr></table>
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
+
+➡️[本节](experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容实验来比较决策与基于代码的体验渠道之间的差异。
 
 ## 何时使用基于代码的渠道或其他渠道 {#code-based-vs-other-channels}
 
@@ -136,6 +138,4 @@ ht-degree: 100%
    >[!INFO]
    >
    >要确保这一点，您的应用程序实施团队会进行显式 API 或 SDK 调用，以获取基于代码的配置中定义的表面内容（例如“横幅文本”或“推荐托盘 1”），或应用程序中与 UI 无关的决策点（例如“搜索算法参数”）。<!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [了解详情](code-based-implementation-samples.md)
-
-
 
