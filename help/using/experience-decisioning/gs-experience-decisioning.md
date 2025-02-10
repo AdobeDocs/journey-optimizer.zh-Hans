@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '668'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,13 @@ ht-degree: 16%
 
 通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。 决策决策策略仅在基于代码的体验营销活动中可用。
+这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。
+
+>[!IMPORTANT]
+>
+>决策决策策略仅在基于代码的体验营销活动中可用。
+
+➡️[此部分](experience-decisioning-uc.md)中介绍了一个端到端用例，其中说明了如何通过基于代码的体验渠道创建决策并在内容实验中使用这些决策。
 
 ## 护栏和限制 {#guardrails}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dbe312f332031391c49a973f323994f860e354e3
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5981'
 ht-degree: 98%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 * “护栏和限制”部分已添加到冲突管理和优先级设置工具文档。 [了解详情](../conflict-prioritization/gs-conflict-prioritization.md)
 
-<!--* A new use case has been added to present all the steps needed to use Decisioning with the [!DNL Journey Optimizer] code-based channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)-->
+* 已添加新的端到端用例，以通过基于[!DNL Journey Optimizer]代码的体验渠道提供在内容实验中使用Decisioning所需的所有步骤。 [了解详情](../experience-decisioning/experience-decisioning-uc.md)
 
 ## 2024 年 12 月 {#nov-2024}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 98b7a5493a4e325328ab349c405af423b3836807
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '748'
 ht-degree: 12%
 
 ---
@@ -41,6 +41,8 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 此处的目标是查看收件人是否会根据收到的试验与电子邮件交互。 因此，我们将选择&#x200B;**[!UICONTROL 电子邮件打开次数]**&#x200B;作为此内容试验的主要目标量度。
 
 ![](assets/content_experiment.png)
+
+➡了️解如何在[此用例](experience-decisioning-uc.md)中使用内容实验将决策与基于代码的体验渠道进行比较。
 
 ## 创建您的内容 {#campaign-experiment}
 
@@ -125,3 +127,4 @@ Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种
 1. 定义消息内容后，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮以控制投放的呈现，并使用测试用户档案检查个性化设置。 [了解详情](../content-management/preview-test.md)
 
 配置试验后，您可以在报表中跟踪投放的成功情况。 [了解详情](../reports/campaign-global-report-cja-experimentation.md)
+

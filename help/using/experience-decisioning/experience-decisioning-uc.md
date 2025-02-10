@@ -1,21 +1,19 @@
 ---
 title: 决策用例
-description: 了解如何使用基于代码的渠道的实验创建决策
+description: 了解如何通过基于代码的体验渠道创建决策并将其用于内容实验
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: bb66785f0b699d0ccf6cced035e64f206b104293
+source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 5%
+source-wordcount: '828'
+ht-degree: 4%
 
 ---
 
-# 决策用例 {#experience-decisioning-uc}
+# 在基于代码的体验中使用Decisioning进行内容试验 {#experience-decisioning-uc}
 
 此用例展示了将Decisioning用于基于[!DNL Journey Optimizer]代码的渠道所需的所有步骤。
 
