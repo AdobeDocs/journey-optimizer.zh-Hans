@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 98%
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 试验是指于在线测试的背景下进行一组随机试验，这意味着一些随机选择的用户会接触到某个消息的给定变体，而另一组随机选择的用户则会接触到另一个变体。发送消息后，您可以对感兴趣的结果进行量度，例如电子邮件打开数或点击数。
 
-➡️[本节](experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容实验来比较决策与基于代码的体验渠道之间的差异。
+➡️[本节](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容实验来比较决策与基于代码的体验渠道之间的差异。
 
 ## 为什么要运行试验？
 
