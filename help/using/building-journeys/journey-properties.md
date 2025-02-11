@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7632b144625a02810796d7afc858fcb5809d9220
+source-git-commit: 2ce069f92e11fa9246736a4b71dfd66391d8b06c
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2232'
 ht-degree: 18%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 18%
 >id="ajo_journey_properties_entrance"
 >title="允许重入"
 >abstract="默认情况下，允许重入新的历程。例如，如果您想在有人进入商店时提供一次性的礼物，则您可以取消选中&#x200B;**允许重入**&#x200B;选项。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
 
 默认情况下，允许重入新的历程。对于“一次性”历程，您可以取消选中&#x200B;**允许重新进入**&#x200B;选项，例如，如果要在人员进入商店时提供一次性礼品。
 
@@ -69,9 +69,9 @@ ht-degree: 18%
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重入等待期"
 >abstract="设置在允许轮廓再次进入单一历程之前的等待时间。这可以防止用户在选定的持续时间内重新进入历程。最长持续时间：90 天。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="用户档案入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="轮廓入口管理"
 
-激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。
+激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。
 
 
 ## 管理访问权限 {#manage-access}
@@ -101,7 +101,7 @@ ht-degree: 18%
 
 您可以定义&#x200B;**开始日期**。 如果您尚未指定名称，则将在发布时自动定义它。
 
-您还可以添加&#x200B;**结束日期**。 这允许用户档案在到期时自动退出。如果未指定结束日期，则配置文件可以保留到[全局历程超时](#global_timeout)（通常为91天）为止。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
+您还可以添加&#x200B;**结束日期**。 这允许轮廓在到期时自动退出。如果未指定结束日期，则配置文件可以保留到[全局历程超时](#global_timeout)（通常为91天）为止。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
 ## 超时 {#timeout}
 
@@ -273,7 +273,7 @@ ht-degree: 18%
 
 ### 配置和使用情况 {#exit-criteria-config}
 
-退出标准在历程级别设置。 一个历程可以有多个退出条件。 当您设置了多个退出标准时，将使用`OR`逻辑从上到下进行评估。 因此，如果您具有退出标准A和退出标准B，则将评估为&#x200B;**或** B。将在历程的每个步骤中评估标准。
+退出标准在历程级别设置。 一个历程可以有多个退出条件。 如果您设置了多个退出条件，则使用`OR`逻辑从上到下进行评估。 因此，如果您具有退出标准A和退出标准B，则评估为&#x200B;**或** B。将在历程的每个步骤中评估标准。
 
 要&#x200B;**创建**&#x200B;退出条件，请执行以下步骤：
 
@@ -285,8 +285,8 @@ ht-degree: 18%
    ![](assets/exitcriteria.png){width="40%" align="left"}
 1. 输入&#x200B;**标签**&#x200B;并选择您的退出标准是基于&#x200B;**事件**&#x200B;还是&#x200B;**受众**。
 
-* 对于基于事件的退出条件，请仅选取单一事件。
-* 对于基于受众的退出标准，请选择一个受众。 注意：使用受众的退出标准可能需要长达10分钟才能生效。
+对于基于事件的退出条件，请仅选取单一事件。
+对于基于受众的退出标准，请选择一个受众。 注意：使用受众的退出标准可能需要长达10分钟才能生效。
 
 您可以添加多个退出条件。
 
