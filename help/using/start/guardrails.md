@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3860916a899b3f1bc0f7563f776cdf8356aee0a9
+source-git-commit: 2bc4dba1353b1d19b1bae0b7718fbbc9e9f37147
 workflow-type: tm+mt
 source-wordcount: '2505'
 ht-degree: 94%
@@ -80,8 +80,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 ### 一般历程护栏 {#journeys-guardrails-journeys}
 
 * 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有益于可读性、进行 QA 检查和故障排除。
-* Journey Optimizer支持每秒5,000个入站旅程事件的峰值。
-* 事件触发的历程可能最多需要5分钟来处理历程中的第一个操作。
 * 当您发布历程时，我们会自动进行缩放和调整，确保最大吞吐量和稳定性。当您接近达成 100 个实时历程的里程碑时，将在 UI 中收到有关此成就的通知。如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
   <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 在历程中使用受众资格筛选时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的轮廓。
@@ -120,8 +118,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
    * 可以使用 [API 限制](../configuration/throttling.md) 或 [API 上限](../configuration/capping.md)的配置对此端点进行限制，从而支持历程的吞吐量。请注意，限制配置不能低于 200 TPS。任何目标端点都必须支持至少 200 TPS。
    * 此端点的响应时间需要尽可能短。根据预期吞吐量，高响应时间可能会影响实际吞吐量。
 
-### 事件 {#events-g}
+### 活动 {#events-g}
 
+* Journey Optimizer支持每秒5,000个入站旅程事件的峰值。
+* 事件触发的历程可能最多需要5分钟来处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
 * 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
