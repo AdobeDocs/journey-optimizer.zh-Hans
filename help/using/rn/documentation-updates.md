@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
-source-wordcount: '5981'
+source-wordcount: '6014'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 98%
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+
+## 2025 年 2 月 {#feb-2025}
+
+* **[!UICONTROL 发送时间优化]**&#x200B;的文档及其相关常见问题解答已更新、改进并移至新的专用页面。 [了解详情](../building-journeys/send-time-optimization.md)
+* 为历程事件添加了新护栏。 [了解详情](../start/guardrails.md#events-g)
 
 ## 2025 年 1 月 {#jan-2025}
 
@@ -99,7 +105,7 @@ ht-degree: 98%
 * 添加了关于使用 API 触发的营销活动时通过自定义命名空间创建身份标识的信息。[了解详情](../campaigns/api-triggered-campaigns.md)
 * 屏幕快照已更新，以反映改进的历程画布。
 * 以下页面中更新了命名约束条件：[配置单一事件](../event/about-creating.md)、[配置业务事件](../event/about-creating-business.md#gs-business-events)、[配置自定义操作](../action/about-custom-action-configuration.md#configuration-steps)、[外部数据源](../datasource/external-data-sources.md)
-* 添加了有关“发送时间优化”可用性的注释。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* 添加了有关“发送时间优化”可用性的注释。[了解详情](../building-journeys/send-time-optimization.md)
 * 新增了一个技术用例，介绍如何创建自定义操作以将数据发送到 Experience Platform。[了解详情](../building-journeys/custom-action-aep.md)
 
 ## 2024 年 3 月 {#march-2024}
@@ -358,7 +364,7 @@ ht-degree: 98%
 * 允许列表页面已移至配置部分。[了解更多信息](../configuration/allow-list.md)
 * 更新了禁止列表页面，以澄清某些信息，包括在禁止原因字段中允许包含 32 到 126 之间的所有 ASCII 字符的事实。[了解更多信息](../configuration/manage-suppression-list.md)
 * 添加了用于决策管理的护栏和静态限制的链接。[了解更多信息](../start/guardrails.md)
-* “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../building-journeys/journeys-message.md#send-time-optimization)
+* “发送时间优化”功能现已面向所有客户提供。Beta 版内容已删除。[了解详情](../building-journeys/send-time-optimization.md)
 * Batch Decisioning API 已添加到可用 API 列表中，以提供个性化产品建议。[了解更多信息](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## 2022 年 5 月 {#may-2022}

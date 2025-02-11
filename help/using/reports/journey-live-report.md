@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '3705'
 ht-degree: 30%
@@ -357,7 +357,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->仅当为您的投放激活发送时间优化选项时，**[!UICONTROL 发送时间优化]**&#x200B;和&#x200B;**[!UICONTROL 优化与未优化]**&#x200B;构件才可用。 有关发送时间优化的更多信息，请参阅[此页面](../building-journeys/journeys-message.md#send-time-optimization)。
+>仅当为您的投放激活发送时间优化选项时，**[!UICONTROL 发送时间优化]**&#x200B;和&#x200B;**[!UICONTROL 优化与未优化]**&#x200B;构件才可用。 有关发送时间优化的更多信息，请参阅[此页面](../building-journeys/send-time-optimization.md)。
 
 **[!UICONTROL 发送时间优化]**&#x200B;和&#x200B;**[!UICONTROL 已优化与未优化]**&#x200B;构件根据发送方法（已优化或正常）详细列出您的电子邮件是否成功。
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -47,13 +47,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>决策管理 - 优惠模拟</strong><br/></th>
+<th><strong>决策管理 - 产品建议模拟</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在 Journey Optimizer UI 中针对给定的投放位置模拟将哪些优惠投放到测试用户档案。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理并排除潜在问题。</p>
+<p>现在，您可以在 Journey Optimizer UI 中针对给定的放置环境模拟将哪些产品建议投放到测试轮廓。这允许您在将决策逻辑（包括资格限制和排名算法）投入生产之前轻松验证这些逻辑。此功能允许非技术和技术用户快速测试决策管理并排除潜在问题。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/simulation.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -63,13 +63,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>决策管理 - 对优惠进行个性化设置</strong><br/></th>
+<th><strong>决策管理 - 对产品建议进行个性化设置</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以使用 Adobe Experience Platform 用户档案属性和受众，使用在整个 Journey Optimizer UI 中都相同的表达式编辑器组件来对您的优惠内容进行个性化设置。 </p>
+<p>您现在可以使用 Adobe Experience Platform 轮廓属性和受众，使用在整个 Journey Optimizer UI 中都相同的表达式编辑器组件来对您的产品建议内容进行个性化设置。 </p>
 <p>有关更多信息，请参阅<a href="../offers/offer-library/creating-personalized-offers.md#custom-text">详细文档</a>。</p>
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 * **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。此功能可与订阅列表一起使用。例如，您现在可以从受众获取订阅列表中的电子邮件地址。[在此示例中了解更多信息](../building-journeys/message-to-subscribers-uc.md)
 
-* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与用户档案导出作业相关的[新字段](../reports/sharing-field-list.md#serviceevents)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
+* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与轮廓导出作业相关的[新字段](../reports/sharing-field-list.md#serviceevents)。为了实现更好的用户体验，现在按不同的类别组织步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../reports/sharing-legacy-fields.md) 类别中仍然可用。
 * **辅助功能** - 在历程中实施了辅助功能改进。
 * **集合** - 现在支持包含子对象的对象数组。[了解更多信息](../building-journeys/collections.md)
 * **列表** - 历程、事件、操作、数据源的列表屏幕已得到改进。
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* **评估排序** - 通过新的、经改进的决策创建流程，您不仅可以更顺畅地在决策对象之间导航，而且还可以完全控制决策引擎评估优惠集合的方式。这包括对哪些集进行合并或单独评估，以及应按什么顺序评估集合。[了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **评估排序** - 通过新的、经改进的决策创建流程，您不仅可以更顺畅地在决策对象之间导航，而且还可以完全控制决策引擎评估产品建议集合的方式。这包括对哪些集进行合并或单独评估，以及应按什么顺序评估集合。[了解详情](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### 修复
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>报告中提供了新量度：电子邮件和推送消息的“目标受众”和“排除受众”在实时报告和全局报告中均可见。</br> 如需访问最新量度，请注意，您必须为每个渠道和报告类型重置不同的报告仪表板。有关仪表板自定义的更多信息，请参阅<a href="../reports/live-report.md">详细文档。</a></p>
-<p>消息执行列表中的新列会显示每个消息执行的目标用户档案数。 </p>
+<p>消息执行列表中的新列会显示每个消息执行的目标轮廓数。 </p>
 <p>有关更多信息，请参阅<a href="../reports/report-gs-cja.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -186,7 +186,7 @@ ht-degree: 100%
 <td>
 <p>使用 Adobe Journey Optimizer，在适合的时间自动向您接洽的每个客户发送推送或电子邮件。由 Adobe 的 AI 服务提供支持的发送时间优化功能可根据现成可用的历史打开率和点击率，预测发送电子邮件或推送消息的最佳时间，以最大化参与度。</p>
 <p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 客户关怀团队。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/journeys-message.md#send-time-optimization">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/send-time-optimization.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于用户档案属性。在 Adobe Journey Optimizer 中，您现在可以向消息内容中的 URL 添加个性化设置。URL 个性化可应用于文本和图像，并使用用户档案数据或上下文数据。</p>
+<p>个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。在 Adobe Journey Optimizer 中，您现在可以向消息内容中的 URL 添加个性化设置。URL 个性化可应用于文本和图像，并使用轮廓数据或上下文数据。</p>
 <p>有关更多信息，请参阅<a href="../personalization/personalization-syntax.md#perso-urls">详细文档</a>。</p>
 </td>
 </tr>
@@ -280,7 +280,7 @@ ht-degree: 100%
 
 **个性化**
 
-* **表达式编辑器** - 现在，您可以在定义个性化设置时轻松添加回退值：当用户档案的个性化字段为空时，将显示回退值。[了解详情](../personalization/functions/helpers.md)
+* **表达式编辑器** - 现在，您可以在定义个性化设置时轻松添加回退值：当轮廓的个性化字段为空时，将显示回退值。[了解详情](../personalization/functions/helpers.md)
 
 **电子邮件配置**
 
@@ -289,7 +289,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* 已更新在创建优惠时添加和配置呈现的方法，以改善用户体验。特别是，现在仅当您为呈现定义图像类型的内容时，才会显示资源库。[了解详情](../offers/offer-library/creating-personalized-offers.md#representations)
+* 已更新在创建产品建议时添加和配置呈现的方法，以改善用户体验。特别是，现在仅当您为呈现定义图像类型的内容时，才会显示资源库。[了解详情](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修复
 
@@ -350,7 +350,7 @@ ht-degree: 100%
 
 **预览和测试**
 
-* 标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-your-messages)
+* 身份标识和命名空间现在显示于&#x200B;**[!UICONTROL 预览]**&#x200B;屏幕中。[了解更多信息](../content-management/preview-test.md#preview-your-messages)
 * 校样的测试电子邮件数量现在限制为 10 封。
 * 允许用作校样中的&#x200B;**主题行前缀**&#x200B;的字符现在有限。[了解更多信息](../content-management/preview-test.md#send-proofs)
 
@@ -363,6 +363,6 @@ ht-degree: 100%
 * 修复了导致批量电子邮件投放出现重复消息投放的问题。
 * 现在，当重试期限结束后未执行电子邮件发送时，将相应地生成事件。
 * 修复了 PTR 记录屏幕中缺少 IP 信息的问题。
-* 现在，在表达式编辑器中实现了优惠边栏的本地化。
+* 现在，在表达式编辑器中实现了产品建议边栏的本地化。
 * 修复了信息弹出窗口中间距不正确的问题。
 * 修复了在上传包含不支持的 `background-image` 属性的 HTML 文件时，电子邮件设计器内部样式表中出现的问题。

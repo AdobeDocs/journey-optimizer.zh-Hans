@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建，电子邮件，开始，历程，营销活动
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->您可以使用发送时间优化选项根据历史打开率和点击率预测发送消息的最佳时间，以最大化参与度。 [了解如何使用发送时间优化](../building-journeys/journeys-message.md#send-time-optimization)
+>您可以使用发送时间优化选项根据历史打开率和点击率预测发送消息的最佳时间，以最大化参与度。 [了解如何使用发送时间优化](../building-journeys/send-time-optimization.md)
 
 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
@@ -94,13 +94,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. 如果您在营销活动中，还可以单击&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮，以使用显示的弹出窗口以纯HTML编码您自己的内容。
+1. 如果您在营销活动中，还可以单击&#x200B;**[!UICONTROL 代码编辑器]**&#x200B;按钮，以使用显示的弹出窗口在普通HTML中编码您自己的内容。
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >如果您已通过Email Designer创建或导入内容，则此内容将显示为HTML。
+   >如果您已通过Email Designer创建或导入内容，则此内容将显示在HTML中。
 
 ## 检查警报 {#check-email-alerts}
 
