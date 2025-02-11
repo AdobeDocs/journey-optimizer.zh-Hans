@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d2c6cca9fa71f6920a934176abf7bfd12142a9d
+source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
 workflow-type: tm+mt
 source-wordcount: '2278'
 ht-degree: 96%
@@ -51,6 +51,7 @@ ht-degree: 96%
 <tr>
 <td>
 <p>灵活的受众评估允许您按需为选定的受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
 <p>有关更多信息，请参阅<a href="../audience/about-audiences.md#flexible">详细文档</a>。</p>
 <p> 灵活的受众评估仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </tr>

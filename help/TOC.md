@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a54f298b5d2a053c8e50874477a72ff656a37abc
-workflow-type: ht
-source-wordcount: '2154'
-ht-degree: 100%
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+workflow-type: tm+mt
+source-wordcount: '2143'
+ht-degree: 99%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 100%
       + [预览您的内容](using/content-management/preview.md)
       + [发送电子邮件校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
-      + [使用示例输入数据测试内容（Beta 版）](using/test-approve/simulate-sample-input.md)
+      + [使用範例輸入資料來測試內容 (測試版)](using/test-approve/simulate-sample-input.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
    + 审批历程和营销活动{#approve}
       + [审批入门](using/test-approve/gs-approval.md)
@@ -374,14 +374,13 @@ ht-degree: 100%
 + 受众、轮廓和身份标识{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
-      + [自定义上传 (CSV) 和联合受众合成](using/audience/custom-upload-fac.md)
-      + [生成区段定义](using/audience/creating-a-segment-definition.md)
-      + 组合受众{#audience-orchestration}
-         + [受众组合入门](using/audience/get-started-audience-orchestration.md)
-         + [创建组合工作流](using/audience/create-compositions.md)
-         + [使用组合画布](using/audience/composition-canvas.md)
-         + [访问和管理受众](using/audience/access-audiences.md)
-      + [联合受众构成](https://experienceleague.adobe.com/zh-hans/docs/federated-audience-composition/using/home)
+      + 创建受众 {#create}
+         + [区段定义](using/audience/creating-a-segment-definition.md)
+         + [受众组合](using/audience/get-started-audience-orchestration.md)
+         + [自定义上传](using/audience/custom-upload.md)
+         + [联合受众构成（限量发布）](using/audience/federated-audience-composition.md)
+      + [营销活动和历程中的受众激活](using/audience/target-audiences.md)
+      + [利用扩充属性](using/audience/enrichment-attributes.md)
    + 轮廓{#profiles}
       + [开始使用轮廓](using/audience/get-started-profiles.md)
       + [创建测试轮廓](using/audience/creating-test-profiles.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 管理历程和营销活动中的取消订阅 {#opt-out-ajo}
 
-在从历程或活动发送消息时，必须始终确保客户可以取消订阅未来的通信。取消订阅后，用户档案将自动从未来营销消息的受众中删除。
+在从历程或活动发送消息时，必须始终确保客户可以取消订阅未来的通信。取消订阅后，轮廓将自动从未来营销消息的受众中删除。
 
 虽然 **[!DNL Journey Optimizer]** 提供了在电子邮件和短信消息中管理选择退出的方法，但推送通知不需要您采取任何操作，因为收件人可以通过其设备自行取消订阅。例如，在下载或使用应用程序时，用户可以选择停止发送通知。同样，他们可以通过移动操作系统更改通知设置。
 
@@ -63,23 +63,23 @@ ht-degree: 100%
 
 ### 在决策管理中 {#opt-out-decision-management}
 
-使用优惠时，个性化首选项不会自动实施[决策范围](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)（在[决策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 请求或 [Edge 决策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 请求中所使用的）。在这种情况下，您需要手动强制执行个性化同意。要实现此目的，请执行以下步骤。
+使用产品建议时，个性化首选项不会自动实施[决策范围](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)（在[决策](../offers/api-reference/offer-delivery-api/decisioning-api.md) API 请求或 [Edge 决策](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API 请求中所使用的）。在这种情况下，您需要手动强制执行个性化同意。要实现此目的，请执行以下步骤。
 
 >[!NOTE]
 >
 >[!DNL Journey Optimizer] 创建的渠道中使用的决策范围满足其所属历程或营销活动的这一要求。
 
-1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/access-audiences.md)，并使用用户档案属性，例如&#x200B;**[!UICONTROL 个性化内容=是（选择启用）]**，定位同意个性化的用户。
+1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/about-audiences.md)，并使用轮廓属性，例如&#x200B;**[!UICONTROL 个性化内容=是（选择启用）]**，锁定同意个性化的用户。
 
    ![](assets/perso-consent-od-audience.png)
 
-1. 创建[决策](../offers/offer-activities/create-offer-activities.md)时添加决策范围，并根据受众为包含个性化优惠的每个评估标准集合定义资格条件约束。
+1. 创建[决策](../offers/offer-activities/create-offer-activities.md)时添加决策范围，并根据受众为包含个性化产品建议的每个评估标准集合定义资格条件约束。
 
    ![](assets/perso-consent-od-audience-decision.png)
 
-1. 创建不包括个性化内容的[后备优惠](../offers/offer-library/creating-fallback-offers.md)。
+1. 创建不包括个性化内容的[后备产品建议](../offers/offer-library/creating-fallback-offers.md)。
 
-1. 将非个性化后备优惠[分配](../offers/offer-activities/create-offer-activities.md#add-fallback)到决策。
+1. 将非个性化后备产品建议[分配](../offers/offer-activities/create-offer-activities.md#add-fallback)到决策。
 
    ![](assets/perso-consent-od-audience-fallback.png)
 
@@ -87,13 +87,13 @@ ht-degree: 100%
 
 如果用户：
 
-* 同意进行个性化，决策范围将确定适用于该个人资料的最佳优惠。
+* 同意进行个性化，决策范围将确定适用于该轮廓的最佳产品建议。
 
-* 不同意进行个性化，则相应的个人资料将不符合评估标准中任何优惠的条件，因此将收到非个性化的后备优惠。
+* 不同意进行个性化，则相应的轮廓将不符合评估标准中任何产品建议的条件，因此将收到非个性化的后备产品建议。
 
 >[!NOTE]
 >
->针对在[数据建模](../offers/ranking/ai-models.md)中使用个人资料数据的同意功能在 [!DNL Journey Optimizer] 中尚不支持。
+>针对在[数据建模](../offers/ranking/ai-models.md)中使用轮廓数据的同意功能在 [!DNL Journey Optimizer] 中尚不支持。
 
 ### 在个性化编辑器中 {#opt-out-expression-editor}
 
@@ -107,9 +107,9 @@ ht-degree: 100%
 
 在 [!DNL Journey Optimizer] 营销活动中，同意政策的实施如下所示：
 
-* 您可以在创建受众时包含同意策略定义，以确保为营销活动选择的受众已&#x200B;**筛选掉不符合同意条件的用户档案**。
+* 您可以在创建受众时包含同意策略定义，以确保为营销活动选择的受众已&#x200B;**筛选掉不符合同意条件的轮廓**。
 
-* [!DNL Journey Optimizer] 将在渠道级别执行一般同意检查，以&#x200B;**确保用户档案已选择同意**&#x200B;接收特定渠道上的营销通信。
+* [!DNL Journey Optimizer] 将在渠道级别执行一般同意检查，以&#x200B;**确保轮廓已选择同意**&#x200B;接收特定渠道上的营销通信。
 
   >[!NOTE]
   >
@@ -119,31 +119,31 @@ ht-degree: 100%
 
 ### 使用区段规则生成器
 
-您可以使用区段规则生成器创建包含选择退出用户档案的受众。
+您可以使用区段规则生成器创建包含选择退出轮廓的受众。
 
-1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/access-audiences.md)。
+1. 使用[分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans){target="_blank"}创建 [Adobe Experience Platform 受众](../audience/about-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
-1. 选择用户档案属性，例如&#x200B;**[!UICONTROL 个性化内容 = 否（选择退出）]**，排除未同意个性化的用户。
+1. 选择轮廓属性，例如&#x200B;**[!UICONTROL 个性化内容 = 否（选择退出）]**，排除未同意个性化的用户。
 
    ![](assets/perso-consent-audience-no.png)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-您现在可以使用此受众从营销活动中筛选出未同意个性化的用户档案。
+您现在可以使用此受众从营销活动中筛选出未同意个性化的轮廓。
 
 ### 在组合工作流中使用拆分活动
 
 您还可以通过将拆分活动添加到组合工作流来向受众添加个性化同意检查。
 
-1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建组合工作流的更多信息](../audience/create-compositions.md)
+1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建组合工作流的更多信息](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
 1. 使用右侧的专用按钮添加初始受众。
 
-1. 单击 **+** 图标并选择&#x200B;**[!UICONTROL 拆分]**&#x200B;活动，创建拆分受众。[了解有关拆分活动的更多信息](../audience/composition-canvas.md#split)
+1. 单击&#x200B;**+**&#x200B;图标并选择&#x200B;**[!UICONTROL 拆分]**&#x200B;活动以创建拆分受众。
 
    ![](assets/perso-consent-audience-split.png)
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
-1. 单击&#x200B;**[!UICONTROL 属性]**&#x200B;字段旁边的铅笔图标，调出&#x200B;**[!UICONTROL 选择用户档案属性]**&#x200B;窗口。
+1. 单击&#x200B;**[!UICONTROL 属性]**&#x200B;字段旁边的铅笔图标，调出&#x200B;**[!UICONTROL 选择轮廓属性]**&#x200B;窗口。
 
 1. 搜索个性化同意属性 (`profile.consents.personalize.content.val`)，然后将其选中。
 
@@ -165,13 +165,13 @@ ht-degree: 100%
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. 您可以为其他选项值创建单独的路径。您还可以选择删除其余路径并打开&#x200B;**[!UICONTROL 其他用户档案]**，以包括没有`n`选项值的所有其他用户档案。
+1. 您可以为其他选项值创建单独的路径。您还可以选择删除其余路径并打开&#x200B;**[!UICONTROL 其他轮廓]**，以包括没有`n`选项值的所有其他轮廓。
 
 1. 完成后，在每个路径中单击&#x200B;**[!UICONTROL 保存受众]**，将工作流结果保存到新受众中。对于每条路径，都会将一个受众保存到 Adobe Experience Platform 中。
 
 1. 完成后，发布组合工作流。
 
-您现在可以使用此受众从营销活动中筛选出未同意个性化的用户档案。
+您现在可以使用此受众从营销活动中筛选出未同意个性化的轮廓。
 
 >[!NOTE]
 >
