@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -26,11 +26,11 @@ ht-degree: 3%
 
 ## 重要说明 {#important-notes}
 
-* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 在[Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)中阅读有关事务性消息传递SLA的更多信息。
+* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 在[Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html){target="_blank"}中阅读有关事务性消息传递SLA的更多信息。
 
 * Adobe Campaign Standard集成通过操作列表中的专用内置操作进行设置。 需要为每个沙盒配置此设置。
 
-* Campaign Standard操作不能与“受众”资格或“读取受众”活动一起使用。
+* Campaign Standard操作不能用于“受众”资格或“读取受众”活动。
 
 * 历程不能同时使用消息和Campaign Standard操作。
 
@@ -62,6 +62,6 @@ ht-degree: 3%
 
 ![](assets/journey58.png)
 
-您可以使用&#x200B;**反应**&#x200B;事件来响应与在同一历程中发送的Campaign Standard消息相关的跟踪数据。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出反应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出反应。 查看[反应事件](../building-journeys/reaction-events.md)。
+您可以使用&#x200B;**反应**&#x200B;事件对与在同一历程中发送的Campaign Standard消息相关的跟踪数据做出反应。 对于推送通知，您可以对点击、发送或失败的消息做出反应。 对于短信消息，您可以对已发送或失败的消息做出反应。 对于电子邮件，您可以对点击、发送、打开或失败的消息做出反应。 查看[反应事件](../building-journeys/reaction-events.md)。
 
 如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 请参阅[关于自定义操作配置](../action/about-custom-action-configuration.md)。
