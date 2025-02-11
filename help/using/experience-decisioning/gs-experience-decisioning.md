@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
->title="什么是决策？"
->abstract="Decisioning是除决策管理之外的新工具，用于从决策引擎中选择最佳项目并交付给每个人。 要使用它，需要进行额外的设置。"
+>title="决策是什么？"
+>abstract="决策是除了决策管理以外的一个新工具，它从决策引擎中挑选出最好的一项并传递给每个人。需要额外进行设置才能使用它。"
 
 ## 什么是决策 {#about}
 

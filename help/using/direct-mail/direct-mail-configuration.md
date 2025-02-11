@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="为文件选择服务器类型"
->abstract="选择要用于导出直邮文件的服务器类型：Amazon S3、SFTP或Azure。"
+>abstract="选择您在导出以下直邮文件时要使用的服务器类型：Amazon S3、SFTP 或 Azure。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
@@ -197,7 +197,7 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 

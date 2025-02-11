@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: a1bdbc741a96325d71562b8f5ce5279096689cf0
 workflow-type: tm+mt
 source-wordcount: '2834'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_unsubscribe_custom"
 >title="定义如何管理取消订阅数据"
->abstract="**托管Adobe**：同意数据由您在Adobe系统中管理。<br>**客户托管**：同意数据由您在外部系统中管理，除非您启动，否则不会在Adobe系统中更新任何同意数据的同步。"
+>abstract="**Adobe 管理**：同意数据由您在 Adobe 系统内管理。<br>**客户管理**：同意数据由您在外部系统中管理，除非由您启动，否则 Adobe 系统中不会更新同意数据的同步。"
 
 <!--Do not modify - Legal Review Done -->
 
