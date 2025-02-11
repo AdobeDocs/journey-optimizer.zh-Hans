@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fcad0d71b6de9ae7e21b201fb954e712b2028526
+source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 9%
@@ -91,7 +91,7 @@ ht-degree: 9%
 >
 >* 在测试模式下触发事件时，将生成一个实际事件，这意味着该事件还将点击侦听此事件的其他历程。
 >
->*确保测试模式中的每个事件均按正确顺序在配置的等待时段内触发。 例如，如果等待60秒，则必须仅在该60秒等待过后、超时限制过期之前触发第二个事件。
+>* 请确保在测试模式下每个事件均按正确顺序在配置的等待窗口内触发。 例如，如果等待60秒，则必须仅在该60秒等待过后、超时限制过期之前触发第二个事件。
 >
 
 作为先决条件，您必须知道哪些配置文件在Adobe Experience Platform中标记为测试配置文件。 事实上，测试模式仅在历程中允许这些用户档案，并且事件必须包含ID。 预期ID取决于事件配置。 例如，它可以是ECID或电子邮件地址。 需要将此键的值添加到&#x200B;**配置文件标识符**&#x200B;字段中。
@@ -166,5 +166,5 @@ ht-degree: 9%
 
 当使用测试模式触发事件时，将自动使用源名称生成数据集。
 
-测试模式会自动创建体验事件并将其发送到Adobe Experience Platform。 此Experience Event的源名称为“Journey Orchestration测试事件”。
+测试模式会自动创建体验事件并将其发送到Adobe Experience Platform。 此体验事件的源名称是“Journey Orchestration测试事件”。
 
