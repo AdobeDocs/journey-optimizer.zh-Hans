@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c17f1ef543948f74e95efab66dfeabf97af4519
+source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2270'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 96%
 <p>您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。通过这项新功能，您可以通过根据分析需求定制的预设计模板来简化报告流程。
 </p>
 <p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md#cja-template">详细文档</a>。</p>
-<p> <b>模板</b>功能将分阶段逐步推出，计划在 1 月底之前全面正式发布</p>
+<p>可用日期：2025年1月15日起</p>
 </tr>
 </tbody>
 </table>
@@ -54,6 +54,7 @@ ht-degree: 96%
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>有关更多信息，请参阅<a href="../audience/about-audiences.md#flexible">详细文档</a>。</p>
 <p> 灵活的受众评估仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>可用日期：2025年1月28日</p>
 </tr>
 </tbody>
 </table>
