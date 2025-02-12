@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '6024'
-ht-degree: 98%
+source-wordcount: '6051'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,8 @@ ht-degree: 98%
 * “护栏和限制”部分已添加到冲突管理和优先级设置工具文档。 [了解详情](../conflict-prioritization/gs-conflict-prioritization.md)
 
 * 已添加新的端到端用例，以通过基于[!DNL Journey Optimizer]代码的体验渠道提供在内容实验中使用Decisioning所需的所有步骤。 [了解详情](../experience-decisioning/experience-decisioning-uc.md)
+
+* 为了提高可读性，**配置电子邮件设置**&#x200B;页面已划分为多个子页面，包括专用于[列表取消订阅](../email/list-unsubscribe.md)、[标头参数](../email/header-parameters.md)和[URL跟踪](../email/url-tracking.md)的新独立页面。
 
 ## 2024 年 12 月 {#nov-2024}
 
