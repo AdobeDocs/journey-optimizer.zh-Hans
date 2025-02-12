@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 307655ebfb161ab5023430be801c46b378326ccd
+source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1471'
 ht-degree: 96%
 
 ---
@@ -182,16 +182,6 @@ ht-degree: 96%
 要了解有关重试的更多信息，请参阅[此部分](../configuration/retries.md)。
 
 ## URL 跟踪 {#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="定义 URL 跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到在电子邮件内容中提供的 URL。此功能属于可选功能。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_url_preview"
->title="预览 URL 跟踪参数"
->abstract="查看如何对电子邮件内容中出现的 URL 附加跟踪参数。"
 
 您可以使用 **[!UICONTROL URL 跟踪参数]**&#x200B;来衡量跨渠道营销工作的有效性。[了解详情](url-tracking.md)
 
