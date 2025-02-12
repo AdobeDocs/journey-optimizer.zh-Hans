@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
+source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->您还可以设置自定义操作以向您发送消息。 [了解详情](#recommendation)
+>您还可以设置自定义操作，以在[!DNL Journey Optimizer]中发送消息。 [了解详情](#recommendation)
 
 ## 在历程中添加消息  {#add-msg-in-journey}
 
