@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
+source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '491'
+ht-degree: 18%
 
 ---
 
@@ -23,23 +23,30 @@ ht-degree: 27%
 >title="内置渠道操作"
 >abstract="Journey Optimizer 附带内置操作功能。您只需在历程中添加出站（电子邮件、短信（SMS/MMS）、推送）或入站（应用程序内、网页、基于代码的体验、信息卡）活动，并定义设置和内容。然后将在历程的上下文中执行和发送它。"
 
-[!DNL Journey Optimizer]附带内置渠道操作功能。 您只需在历程中添加出站（电子邮件、短信（SMS/MMS）、推送）或入站（应用程序内、网页、基于代码的体验、信息卡）活动，并定义设置和内容。然后将在历程的上下文中执行和发送它。
+[!DNL Journey Optimizer]具有内置渠道操作功能，用于发送消息：当用户档案进入此活动时，会向其发送消息。
+
+要在历程中添加内置渠道操作，请拖放渠道活动，并定义其设置和内容。 然后将在历程的上下文中执行和发送它。
 
 >[!NOTE]
 >
->您还可以设置特定操作以向您发送消息。 [了解详情](#recommendation)
+>您还可以设置自定义操作以向您发送消息。 [了解详情](#recommendation)
+
+## 在历程中添加消息  {#add-msg-in-journey}
+
+通过内置渠道操作，可配置出站或入站消息。 支持的入站渠道包括电子邮件、短信(SMS/MMS)、推送通知。 支持的出站渠道包括应用程序内、Web、基于代码的体验、内容卡片。
 
 要将内置渠道操作添加到历程，请执行以下步骤。
 
 1. 通过[事件](general-events.md)或[读取受众](read-audience.md)活动开始您的历程。
 
-1. 从调色板的&#x200B;**操作**&#x200B;部分，将出站（**电子邮件**、**推送**、**短信**）或入站（**应用程序内**、**Web**、**基于代码的体验**、**内容卡**）活动拖放到画布中。
+1. 从调色板的&#x200B;**操作**&#x200B;部分，将渠道活动拖放到画布中。
 
    ![](assets/journey-web-activity.png)
 
-1. 配置您的活动。
 
-   * 了解创建消息内容的详细步骤，如下所示：
+1. 配置您的活动。 详细配置指南可在以下链接中找到。
+
+   * 了解创建叫客操作的详细步骤，如下所示：
 
      <table style="table-layout:fixed">
       <tr style="border: 0;">
