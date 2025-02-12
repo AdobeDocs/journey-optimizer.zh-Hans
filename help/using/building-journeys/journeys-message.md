@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: 56a1ef1ba256d1aac3593d8a61e67bdc42c17d32
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '444'
 ht-degree: 27%
 
 ---
@@ -72,6 +72,10 @@ ht-degree: 27%
       </tr>
       </table>
 
+     >[!NOTE]
+     >
+     >对于电子邮件和推送通知，您可以启用发送时间优化。 [了解详情](send-time-optimization.md)
+
    * 了解创建集客操作的详细步骤，如下所示：
 
      <table style="table-layout:fixed">
@@ -114,20 +118,10 @@ ht-degree: 27%
 
      >[!NOTE]
      >
-     >每个入站消息活动都具有3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
+     >每个入站消息活动都具有3天&#x200B;**等待**&#x200B;活动。 [了解详情](wait-activity.md#auto-wait-node)
 
-## 推荐 {#recommendation}
 
-[!DNL Journey Optimizer]附带内置消息功能。 但是，通过自定义操作，您可以配置第三方系统的连接以发送消息或API调用。
-
-* 如果您使用第三方系统来发送消息，则可以创建自定义操作。 [了解详情](../action/action.md)
-
-* 如果您使用的是Campaign和Journey Optimizer，请参阅以下部分：
-
-   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
-
-## 更新实时内容{#update-live-content}
+## 更新实时内容 {#update-live-content}
 
 您可以在实时历程中更新内置渠道操作的内容。
 
@@ -137,8 +131,19 @@ ht-degree: 27%
 
 但是，您无法更改个性化中使用的属性，无论这些属性是配置文件属性还是上下文数据（来自事件或历程属性）。
 
-如果修改了上下文数据，将显示以下错误消息：ERR_AUTHORING_JOURNEYVERSION_201
+如果您修改了上下文数据，则会显示以下错误消息： `ERR_AUTHORING_JOURNEYVERSION_201`
 
-如果修改了配置文件属性，将显示以下错误消息：ERR_AUTHORING_JOURNEYVERSION_202
+如果您修改了配置文件属性，将显示以下错误消息： `ERR_AUTHORING_JOURNEYVERSION_202`
 
 请注意，对于应用程序内活动，可以在历程实时期间对内容进行任何更改，但无法修改应用程序内触发器。
+
+## 通过自定义操作发送 {#recommendation}
+
+您可以使用自定义操作配置第三方系统的连接，以发送消息或API调用，而不是使用内置的消息功能。
+
+* 如果您使用第三方系统来发送消息，则可以创建自定义操作。 [了解详情](../action/action.md)
+
+* 如果您在使用Adobe Campaign，请参阅以下章节：
+
+   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer]和Campaign Standard](../action/acs-action.md)
