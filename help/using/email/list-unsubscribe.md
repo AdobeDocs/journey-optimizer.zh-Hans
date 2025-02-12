@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 38%
@@ -76,7 +76,7 @@ List unsubscribe标头提供两个选项，除非取消选中其中一个或两�
 >
 >如果您使用&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，则Adobe不会存储任何取消订阅或同意数据。 使用&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，组织将选择使用外部系统，并将负责在此类外部系统中管理其同意数据。 外部系统与[!DNL Journey Optimizer]之间没有自动同步同意数据。 任何同意数据的同步都必须由组织作为数据传输启动，以便将同意数据推送回[!DNL Journey Optimizer]。该同意数据源自外部系统，用于更新[!DNL Journey Optimizer]中的用户同意数据。
 
-## 配置解密API {#configure-decrypt-api}
+### 配置解密API {#configure-decrypt-api}
 
 选择&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项后，如果您输入自定义端点并在营销活动或历程中使用它们，则当您的收件人单击“取消订阅”链接时，[!DNL Journey Optimizer]会将一些特定于配置文件默认参数的附加到同意更新事件<!--sent to the custom endpoint -->。
 
