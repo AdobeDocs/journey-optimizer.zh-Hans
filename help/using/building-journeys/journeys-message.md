@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4c1908ad8022ff811537aa25be95db66a55882b4
+source-git-commit: 76b97c513a78def54a520279c178fb24002040b7
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '493'
 ht-degree: 18%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 18%
 
 ## 在历程中添加消息  {#add-msg-in-journey}
 
-通过内置渠道操作，可配置出站或入站消息。 支持的入站渠道包括电子邮件、短信(SMS/MMS)、推送通知。 支持的出站渠道包括应用程序内、Web、基于代码的体验、内容卡片。
+通过内置渠道操作，可配置出站或入站消息。 支持的入站渠道包括电子邮件、短信(SMS/MMS)和推送通知。 支持的出站渠道包括应用程序内、Web、基于代码的体验和内容卡片。
 
 要将内置渠道操作添加到历程，请执行以下步骤。
 
@@ -79,10 +79,6 @@ ht-degree: 18%
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >对于电子邮件和推送通知，您可以启用发送时间优化。 [了解详情](send-time-optimization.md)
-
    * 了解创建集客操作的详细步骤，如下所示：
 
      <table style="table-layout:fixed">
@@ -123,9 +119,12 @@ ht-degree: 18%
       </tr>
       </table>
 
-     >[!NOTE]
-     >
-     >每个入站消息活动都具有3天&#x200B;**等待**&#x200B;活动。 [了解详情](wait-activity.md#auto-wait-node)
+>[!NOTE]
+>
+>* 每个入站消息活动都具有3天&#x200B;**等待**&#x200B;活动。 [了解详情](wait-activity.md#auto-wait-node)
+>
+>* 对于电子邮件和推送通知，您可以启用发送时间优化。 [了解详情](send-time-optimization.md)
+
 
 
 ## 更新实时内容 {#update-live-content}
