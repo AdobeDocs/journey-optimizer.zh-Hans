@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 设置移动和 Web 渠道
 description: 了解如何配置和监测移动渠道和 Web 渠道
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 7a5bed3f4ee16c1a42289779fc53148bf6ab39e8
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%

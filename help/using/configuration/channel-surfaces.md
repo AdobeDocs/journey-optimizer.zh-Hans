@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 设置渠道配置
 description: 了解如何配置和监控渠道配置
-feature: Surface, Channel Configuration
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-keywords: 通道，表面，技术，参数，优化器
+keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1737'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 
@@ -108,7 +108,7 @@ ht-degree: 12%
    > * 对于&#x200B;**非生产沙盒**，或者如果所选子域已在另一个批准的渠道配置中&#x200B;**使用**，则流程最多只需&#x200B;**3小时**。
 
 
-   这些检查包括由Adobe团队执行的配置和技术测试：
+   这些检查包括Adobe团队执行的配置和技术测试：
 
    * SPF验证
    * DKIM验证
@@ -147,7 +147,7 @@ ht-degree: 12%
 
 * **SPF验证失败**： SPF （发件人策略框架）是一种电子邮件身份验证协议，它允许指定可从给定子域发送电子邮件的授权IP。 SPF验证失败意味着SPF记录中的IP地址与用于向邮箱提供商发送电子邮件的IP地址不匹配。
 
-* **DKIM验证失败**： DKIM (DomainKeys Identified Mail)允许收件人服务器验证所接收的邮件是否由关联域的真实发件人发送，以及原始邮件的内容是否在其发送过程中未发生更改。 DKIM验证失败意味着接收邮件服务器无法验证消息内容的真实性及其与发送域的关联：
+* **DKIM验证失败**： DKIM (DomainKeys Identified Mail)允许收件人服务器验证接收到的邮件是由相关域的正版发件人发送的，并且原始邮件的内容在发送过程中未发生更改。 DKIM验证失败意味着接收邮件服务器无法验证消息内容的真实性及其与发送域的关联：
 
 * **MX记录验证失败**： MX (Mail eXchange)记录验证失败表示未正确配置负责代表给定子域接收入站电子邮件的邮件服务器。
 
@@ -274,6 +274,6 @@ ht-degree: 12%
 
 ## 操作方法视频{#video-presets}
 
-了解什么是渠道配置以及如何在Adobe Journey Optimizer中使用它们。
+了解什么是渠道配置以及如何在 Adobe Journey Optimizer 中使用它们。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 电子邮件选择退出管理
 description: 了解如何通过电子邮件管理选择退出
-feature: Email Design, Privacy
+feature: Email Design, Consent Management
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 26%
