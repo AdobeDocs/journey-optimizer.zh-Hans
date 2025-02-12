@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 994eac32591f4ca352d310bc06057bd20ea03886
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2148'
 ht-degree: 99%
 
 ---
@@ -225,6 +225,7 @@ ht-degree: 99%
          + [电子邮件配置入门](using/email/get-started-email-config.md)
          + [配置电子邮件配置设置](using/email/email-settings.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
+         + [启用列表取消订阅](using/email/list-unsubscribe.md)
    + 应用程序内渠道{#in-app}
       + [应用程序内渠道入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)

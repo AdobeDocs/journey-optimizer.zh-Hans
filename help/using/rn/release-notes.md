@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fc6a552700a52c5f513299ab861750263aeda98a
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 96%
+source-wordcount: '2346'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,25 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
-## 2025 年 1 月更新 {#25-01-rn}
+## 2025年最新更新 {#25-01-rn}
+
+### 2月改进 {#25-02-improvements}
+
+2月份的更新提供了以下改进。
+
+**电子邮件配置** — 发布日期：2025年2月10日
+
+* 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键式取消订阅URL，作为电子邮件渠道配置设置的一部分。 [阅读更多](../email/list-unsubscribe.md#custom-managed)
+
+  ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
+
+  >[!AVAILABILITY]
+  >
+  >此功能面向一小部分客户限量发布 (LA)。
+
+### 新功能 {#25-01-features}
+
+1月发布的新功能详述如下。
 
 <table>
 <thead>
@@ -59,9 +77,9 @@ ht-degree: 96%
 </tbody>
 </table>
 
-### 改进 {#25-01-improvements}
+### 1月改进 {#25-01-improvements}
 
-此版本包含下方列出的改进。
+下面列出了今年1月发布的改进功能。
 
 **决策**
 

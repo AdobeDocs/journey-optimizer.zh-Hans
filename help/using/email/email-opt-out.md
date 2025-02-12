@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 8559fce278974dcf18ba038996fd65b9f72400f4
+source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 27%
+source-wordcount: '1313'
+ht-degree: 26%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 27%
 
 使用[!DNL Adobe Journey Optimizer]，您可以在电子邮件标题中使用自动生成的一键式取消订阅URL和邮件地址配置[电子邮件配置设置](email-settings.md#list-unsubscribe)，或者在电子邮件正文中包含一键式选择退出URL。
 
-当收件人单击一键式选择退出链接时，将相应地处理收件人的取消订阅请求。
+当收件人单击一键式选择退出链接时，将相应地处理该收件人的取消订阅请求。
 
 ### 电子邮件标头中的一键取消订阅 URL {#unsubscribe-header}
 
@@ -145,7 +145,7 @@ ht-degree: 27%
 * **params**：包含加密后的有效负载
 * **pid**：加密后的轮廓 ID
 
-以上三个参数将包含在发送给您的收件人的第三方登陆页面 URL 中：
+这两个参数将包含在发送给您的收件人的第三方登陆页面URL中：
 
 ![](assets/opt-out-parameters.png)
 
