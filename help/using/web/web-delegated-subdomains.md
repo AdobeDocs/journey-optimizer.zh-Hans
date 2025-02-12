@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -32,9 +32,9 @@ ht-degree: 24%
 >title="设置 Web 子域"
 >abstract="从委派给 Adobe 的子域的列表中选择一个子域。可将此 Web 子域设置为默认子域，但一次只能使用一个默认子域。"
 
-在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../content-management/assets.md)库的内容，则必须设置将用于发布此内容的子域。
+在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../integrations/assets.md)库的内容，则必须设置将用于发布此内容的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置另一个子域。 在[本节](../configuration/delegate-subdomain.md)中了解将子域委派给Adobe的更多信息。
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解将子域委派到Adobe的更多信息。
 
 >[!CAUTION]
 >
@@ -151,7 +151,7 @@ ht-degree: 24%
 
    >[!NOTE]
    >
-   >在能够使用该子域发送Web消息之前，您必须等待Adobe执行所需的检查，这最多可能需要4小时。
+   >在能够使用该子域发送Web消息之前，您必须等待Adobe执行所需的检查，最多可能需要4小时。
 
 1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它可用于创建Web渠道配置。
 

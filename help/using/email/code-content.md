@@ -7,9 +7,9 @@ feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate, Experienced
-keywords: 代码、HTML、编辑器
+keywords: 代码，HTML，编辑器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 68%
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
-> 使用此方法时，无法引用[Adobe Experience Manager Assets](../content-management/assets.md)中的图像。 HTML代码中引用的图像必须存储到公共位置。
+> 使用此方法时，无法引用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 在HTML代码中引用的图像必须存储在公共位置。
 
 1. 从电子邮件Designer主页中，选择&#x200B;**[!UICONTROL 自己编写代码]**。
 

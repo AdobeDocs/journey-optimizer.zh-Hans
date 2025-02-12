@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 57a309956ebe2997dce3fe0eb1b6bb70b911da5e
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
-* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../content-management/assets.md)
+* 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
-* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../content-management/stock.md)
+* 查找 **Adobe Stock 照片**&#x200B;以构建内容并改进电子邮件设计。[了解详情](../integrations/stock.md)
 
 * 根据客户的轮廓属性创建个性化的动态消息以增强客户体验。详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 在“电子邮件设计器”主页上，从以下选项中选择设计电子邮件的方式：
 
-   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../content-management/assets.md) 中的图像，**从头开始设计电子邮件**。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
+   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../integrations/assets.md) 中的图像，**从头开始设计电子邮件**。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
 
    * 在电子邮件设计器中直接&#x200B;**编码或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 

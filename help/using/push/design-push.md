@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 17%
@@ -60,7 +60,7 @@ ht-degree: 17%
 
 * 使用&#x200B;**[!UICONTROL 添加媒体]**&#x200B;按钮在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中选择资产。
 
-  了解如何在[此页面](../content-management/assets.md)中使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
+  了解如何在[此页面](../integrations/assets.md)中使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
 
 * 或者在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体的URL。 在这种情况下，您可以在URL中添加个性化设置。
 
@@ -107,7 +107,7 @@ ht-degree: 17%
 >title="为推送通知配置自定义数据。"
 >abstract="根据移动设备应用程序配置，将自定义变量添加到负载。"
 
-在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，您可以将自定义变量添加到有效负载中，具体取决于您的移动应用程序配置。 有关如何在Adobe Experience Platform和AdobeLaunch中设置推送通知的更多信息，请参阅[此部分](push-gs.md)
+在&#x200B;**[!UICONTROL 自定义数据]**&#x200B;部分中，您可以将自定义变量添加到有效负载中，具体取决于您的移动应用程序配置。 有关如何在Adobe Experience Platform和Adobe Launch中设置推送通知的更多信息，请参阅[此部分](push-gs.md)
 
 ## 高级选项 {#advanced-options-push}
 

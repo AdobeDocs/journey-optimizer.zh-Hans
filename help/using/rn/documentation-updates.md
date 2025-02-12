@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6b75f1f1916a20c1ad66f5b89ec706e5b8b6844b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '6024'
 ht-degree: 98%
@@ -130,7 +130,7 @@ ht-degree: 98%
 ## 2024 年 2 月 {#feb-2024}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 2 月版的所有新增功能和改进。[了解详情](release-notes.md#feb-2024)
-* Journey Optimizer + Workfront 集成已添加到集成页面。[了解详情](../start/ajo-integrations.md)
+* Journey Optimizer + Workfront 集成已添加到集成页面。[了解详情](../integrations/ajo-integrations.md)
 * 添加了有关如何根据情境数据个性化产品建议的展现的信息。[了解详情](../offers/offer-library/add-representations.md#context-data)
 * 更新了护栏页面，添加了有关自定义操作的说明，这些操作仅在使用请求或响应负载时支持 JSON 格式。[了解详情](../start/guardrails.md#custom-actions-g)
 * 添加了关于外部数据源中基本身份验证类型的更多信息。[了解详情](../datasource/external-data-sources.md)
@@ -250,7 +250,7 @@ ht-degree: 98%
 * 添加了注释来说明无法删除内置操作。[了解详情](../start/guardrails.md#custom-actions-g)
 * 添加了有关 serviceEvents 的信息以及查询示例以检查 serviceEvent 的详细信息。[了解详情](../reports/query-examples.md#common-queries)
 * 添加了注释，以说明您不能对时间序列执行查询。[了解详情](../building-journeys/condition-activity.md)
-* Adobe Experience Manager Assets Essentials 和 Adobe Stock 已添加到多解决方案集成页面。[了解详情](../start/ajo-integrations.md)
+* Adobe Experience Manager Assets Essentials 和 Adobe Stock 已添加到多解决方案集成页面。[了解详情](../integrations/ajo-integrations.md)
 * 关于不支持多级电子邮件子域的警告已移除，因为现在可为这些子域提供支持。[了解详情](../configuration/delegate-subdomain.md)
 * 添加了“如果对历程消息中使用的产品建议决策进行了更改，则需要取消发布历程并重新发布该历程”的注释。[了解详情](../building-journeys/publishing-the-journey.md)
 * 在决策管理&#x200B;**事件上限**&#x200B;部分中对如何确保上限计数器中正确计入事件进行了说明。[了解详情](../offers/offer-library/add-constraints.md#capping-event)
@@ -306,7 +306,7 @@ ht-degree: 98%
 
 ## 2022 年 11 月 {#november-2022}
 
-* 添加了有关 Journey Optimizer 集成的新页面。[了解详情](../start/ajo-integrations.md)
+* 添加了有关 Journey Optimizer 集成的新页面。[了解详情](../integrations/ajo-integrations.md)
 * 添加了有关镜像页面 URL 长度的建议。[了解详情](../email/message-tracking.md)
 * 在电子邮件设置配置中新增了有关回复电子邮件地址的子部分，其中包括确保正确进行回复管理的建议。[了解详情](../email/email-settings.md#reply-to-email)
 * 添加了有关如何在实时历程中修改消息内容的部分。 [了解详情](../building-journeys/journeys-message.md#update-live-content)

@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 **历程**
 
 * 现在，**实体数据集**&#x200B;是 Adobe Journey Optimizer 中包含的现成可用的数据集。此查询数据集包含元数据，可用于丰富跟踪和反馈数据集信息。这有助于您使用更易理解的数据来改进报表和查询。[了解详情](../data/datasets-query-examples.md#entity-dataset)
-* 向单一历程（以事件或受众鉴别开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，会暂时阻止用户档案重新进入 5 分钟。[了解详情](../start/guardrails.md#events-g)
+* 向单一历程（以事件或受众资格筛选开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，会暂时阻止用户档案重新进入 5 分钟。[了解详情](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -240,7 +240,7 @@ ht-degree: 100%
 ### 其他更改{#sept-2022-other}
 
 * 历程突发模式已被 Campaign 快速投放模式取代。[了解详情](../push/create-push.md#rapid-delivery)
-* 为了提高性能，从读取受众、受众鉴别或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
+* 为了提高性能，从读取受众、受众资格筛选或业务事件活动开始的历程中，无法再使用体验事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。[了解详情](../start/guardrails.md#expression-editor)
 * 已移除计划读取受众历程的 1 小时限制。这些历程现在可以毫不延迟地执行。
 
 
@@ -373,13 +373,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>在决策中自动使用表现最好的优惠（限量发布）</strong><br/></th>
+<th><strong>在决策中自动使用表现最好的产品建议（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现可在决策管理中使用个性化优化模型系统。利用这种新型模型可根据受众和优惠表现对优惠进行优化和个性化设置。</p>
+<p>现可在决策管理中使用个性化优化模型系统。利用这种新型模型可根据受众和产品建议表现对产品建议进行优化和个性化设置。</p>
 <p>目前，个性化优化 AI 模型的使用仅限于选定的用户，但将在未来的版本中部署到所有环境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
@@ -413,7 +413,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* **受众规模** - 现在，在创建决策规则、选择受众或规则以设置优惠资格，或将受众或规则添加到决策范围时，用户界面中会显示新的受众规模估算组件。
+* **受众规模** - 现在，在创建决策规则、选择受众或规则以设置产品建议资格，或将受众或规则添加到决策范围时，用户界面中会显示新的受众规模估算组件。
 
 
 ## 2022 年 6 月版 {#june-2022-release}
@@ -449,7 +449,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Stock 和 Adobe Journey Optimizer 电子邮件设计器集成插件为客户提供一种简单的方式来导航、许可和保存图像，用于消息创作。使用</br>全新的<b>查找类似 Stock 照片</b>选项，您可查找与图像的内容、颜色以及合成匹配的照片库。 </p>
-<p>有关更多信息，请参阅<a href="../content-management/stock.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../integrations/stock.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -498,7 +498,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以重新创建从 Journey Optimizer 沙盒到另一个沙盒的体验，例如从非生产沙盒到生产沙盒。此新功能可将整个历程（包括历程赖以正常运行的任何对象）从一个环境复制到另一个环境。除了历程之外，您还可以复制其他组件，如优惠、消息、模式、数据集、数据源、事件和操作。</p>
+<p>现在，您可以重新创建从 Journey Optimizer 沙盒到另一个沙盒的体验，例如从非生产沙盒到生产沙盒。此新功能可将整个历程（包括历程赖以正常运行的任何对象）从一个环境复制到另一个环境。除了历程之外，您还可以复制其他组件，如产品建议、消息、架构、数据集、数据源、事件和操作。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/copy-to-sandbox.md">详细文档</a>。
 </td>
 </tr>
@@ -512,7 +512,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* **HTML 和 JSON 文件支持** – 现在，您可将外部 HTML 和 JSON 文件从 Adobe Experience Cloud 资产库拖放到优惠呈现内容中。[了解详情](../offers/offer-library/add-representations.md#html-json)
+* **HTML 和 JSON 文件支持** – 现在，您可将外部 HTML 和 JSON 文件从 Adobe Experience Cloud 资产库拖放到产品建议展现方案内容中。[了解详情](../offers/offer-library/add-representations.md#html-json)
 
 
 **电子邮件**
@@ -560,7 +560,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定轮廓显示优惠排名。</p>
+<p>现在，您可以在决策管理中使用经过培训的模型系统。 此新功能可为给定轮廓显示产品建议排名。</p>
 <p>有关更多信息，请参阅<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">详细文档</a>。</p>
 </td>
 </tr>
@@ -635,7 +635,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* **Edge 上的 Decisioning API** - Edge Decisioning API 可以投放和呈现在决策管理中管理的个性化优惠。您可以使用决策管理用户界面 (UI) 或 API 创建优惠和其他相关对象。[了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge 上的 Decisioning API** - Edge Decisioning API 可以投放和呈现在决策管理中管理的个性化产品建议。您可以使用决策管理用户界面 (UI) 或 API 创建产品建议和其他相关对象。[了解详情](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -672,8 +672,8 @@ ht-degree: 100%
 
 **决策管理**
 
-* 现在，您可以指定是将优惠上限应用到所有用户还是某个特定轮廓，是应用到所有投放位置还是具体的投放位置。[了解详情](../offers/offer-library/add-constraints.md#capping)
-* 通过“批量决策 API”，各类组织可以在一次调用中对特定受众中的所有轮廓使用决策管理功能。受众中每个轮廓的优惠内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 现在，您可以指定是将产品建议上限应用到所有用户还是某个特定轮廓，是应用到所有放置环境还是具体的放置环境。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* 通过“批量决策 API”，各类组织可以在一次调用中对特定受众中的所有轮廓使用决策管理功能。受众中每个轮廓的产品建议内容会放置在 AEP 数据集中，可用于自定义批量工作流。[了解详情](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
@@ -817,13 +817,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **历程**
 
-* Journey Optimizer 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans)。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为身份标识字段。[了解详情](../reports/sharing-overview.md#integration-cja)
 
 **决策管理**
 
-* 现在，当您更新已发布的消息中直接或间接引用的优惠、后备优惠、优惠收藏集或优惠决策时，更新会自动反映在相应的消息中，而无需重新发布。[了解详情](../offers/offers-e2e.md#insert-decision-in-email)
+* 现在，当您更新已发布的消息中直接或间接引用的产品建议、后备产品建议、产品建议集合或产品建议决策时，更新会自动反映在相应的消息中，而无需重新发布。[了解详情](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 在模拟将针对给定测试轮廓提供哪些优惠时，您现在可以修改默认的模拟设置，并查看与模拟对应的代码，这些代码可用于进行故障诊断。[了解详情](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 在模拟将针对给定测试轮廓提供哪些产品建议时，您现在可以修改默认的模拟设置，并查看与模拟对应的代码，这些代码可用于进行故障诊断。[了解详情](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 

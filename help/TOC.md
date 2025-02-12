@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d782c668b412cebeacd1289c79bbf86ec710786b
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 99%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 99%
    + [辅助功能](using/start/accessibility.md)
    + [用例战术手册](using/start/playbooks.md)
    + [使用 AI 助手](using/start/ai-assistant.md)
-   + [集成](using/start/ajo-integrations.md)
    + [护栏](using/start/guardrails.md)
    + [最佳实践](using/start/best-practices.md)
 + 历程 {#orchestrate-journeys}
@@ -219,7 +218,6 @@ ht-degree: 99%
             + [编辑背景设置](using/email/backgrounds.md)
             + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
             + [添加内联样式属性](using/email/inline-styling.md)
-      + [使用 Experience Manager 模板](using/email/aem-templates.md)
       + [管理电子邮件选择退出](using/email/email-opt-out.md)
       + 配置电子邮件渠道 {#configure-email}
          + [电子邮件配置入门](using/email/get-started-email-config.md)
@@ -326,9 +324,6 @@ ht-degree: 99%
       + 技术说明 {#technotes}
          + [了解统计计算](using/content-management/experiment-calculations.md)
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
-   + 资源/图像{#assets-images}
-      + [使用 Experience Manager Assets](using/content-management/assets.md)
-      + [使用 Adobe Stock](using/content-management/stock.md)
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
       + [个性化上下文](using/personalization/personalization-contexts.md)
@@ -372,7 +367,6 @@ ht-degree: 99%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-   + [Adobe Experience Manager 内容片段](using/content-management/aem-fragments.md)
 + 受众、轮廓和身份标识{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
@@ -389,6 +383,13 @@ ht-degree: 99%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
++ 集成{#assets-images}
+   + [与其他解决方案集成](using/integrations/ajo-integrations.md)
+   + [使用 Experience Manager Assets](using/integrations/assets.md)
+   + [使用 Adobe Stock](using/integrations/stock.md)
+   + [使用Experience Manager模板](using/integrations/aem-templates.md)
+   + [使用Experience Manager内容片段](using/integrations/aem-fragments.md)
+   + [使用Dynamic Media](using/integrations/aem-dynamic.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)

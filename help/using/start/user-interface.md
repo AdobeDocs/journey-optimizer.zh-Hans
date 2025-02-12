@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cb6b73db76c710dd8e736e710f5eb758337be696
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 100%
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 通过此部分创建和管理内容。
 
-* **[!UICONTROL 资源]** - [!DNL Adobe Experience Manager Assets] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../content-management/assets.md)
+* **[!UICONTROL 资源]** - [!DNL Adobe Experience Manager Assets] 是一个集中式资源存储库，您可以使用它填充消息。[了解详情](../integrations/assets.md)
 
 * **[!UICONTROL 内容模板]** - 为了加快并改进设计过程，创建独立模板以轻松地在 Journey Optimizer 营销活动和历程中重复使用自定义内容。[了解详情](../content-management/content-templates.md)
 

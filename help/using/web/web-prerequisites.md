@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新用户档案。这会增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
+>[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这会增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。 [Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。 您可以在[许可证使用情况仪表板](../audience/license-usage.md)中检查可参与的配置文件数。
 >
 
 ## 实施先决条件 {#implementation-prerequisites}
@@ -40,7 +40,7 @@ ht-degree: 3%
   >
   >确保您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}为2.16或更高版本。
 
-* 混合模式 — 您可以使用[AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}来请求在服务器端进行个性化；响应将提供给Adobe Experience Platform Web SDK以渲染客户端所做的修改。 请参阅Adobe Experience Platform [Edge Network服务器API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}以了解详情。 您可以在[此博客文章](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到有关混合模式的详细信息并查看一些实施示例。
+* 混合模式 — 您可以使用[AEP Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}来请求在服务器端进行个性化；响应将提供给Adobe Experience Platform Web SDK以渲染客户端所做的修改。 请参阅Adobe Experience Platform [Edge Network服务器API文档](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}以了解详情。 您可以在[此博客文章](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到有关混合模式的详细信息并查看一些实施示例。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 ### 网站未加载疑难解答 {#troubleshooting}
 
-在使用Adobe[!DNL Journey Optimizer] Web设计器时，如果尝试加载无法加载的网站，则会显示一条消息，建议您安装[可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper)。
+在使用Adobe [!DNL Journey Optimizer] Web设计器时，如果尝试加载无法加载的网站，则会显示一条消息，建议您安装[可视化编辑帮助程序浏览器扩展](#install-visual-editing-helper)。
 
 1. 确保已正确安装可视化编辑帮助程序浏览器扩展。
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. 尝试首先在新浏览器选项卡中登录并导航到所需的页面，然后复制URL并尝试在[!DNL Journey Optimizer] Web设计器中打开它。
 
-2. 如果您仍然无法在[!DNL Journey Optimizer] Web设计器中加载您的网站，请联系Adobe客户关怀部门以报告此问题，并确保指定失败的URL。
+2. 如果您仍然无法在[!DNL Journey Optimizer] Web设计器加载您的网站，请联系Adobe客户关怀部门以报告此问题，并确保指定失败的URL。
 
 ## 投放先决条件 {#delivery-prerequisites}
 
@@ -116,7 +116,7 @@ ht-degree: 3%
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您有一个启用了&#x200B;**[!UICONTROL Edge上的Active-On合并策略]**&#x200B;选项的合并策略。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]**&#x200B;策略菜单下选择Experience Platform。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您有一个启用了&#x200B;**[!UICONTROL Edge上的Active-On合并策略]**&#x200B;选项的合并策略。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下选择一个策略。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   [!DNL Journey Optimizer]入站渠道使用此合并策略在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
@@ -150,4 +150,4 @@ ht-degree: 3%
 
 ## 资产的品牌域 {#branded-domains-for-assets}
 
-在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../content-management/assets.md)库的内容，则必须设置将用于发布此内容的子域。 [了解详情](web-delegated-subdomains.md)
+在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../integrations/assets.md)库的内容，则必须设置将用于发布此内容的子域。 [了解详情](web-delegated-subdomains.md)

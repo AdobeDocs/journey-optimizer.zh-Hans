@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 28%
@@ -58,7 +58,7 @@ ht-degree: 28%
 
   您只能向消息添加&#x200B;**[!UICONTROL 标头]**&#x200B;和&#x200B;**[!UICONTROL 正文]**。
 
-* **[!UICONTROL 自定义]**：自定义消息模式允许您直接导入和编辑预配置的HTML消息之一。
+* **[!UICONTROL 自定义]**：自定义消息模式允许您直接导入和编辑预先配置的HTML消息之一。
 
    * 选择&#x200B;**[!UICONTROL 撰写]**&#x200B;以输入或粘贴原始HTML代码。
 
@@ -104,7 +104,7 @@ ht-degree: 28%
 
 ![](assets/in_app_web_design_3.png)
 
-键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../content-management/assets.md)。
+键入您的媒体URL或单击&#x200B;**[!UICONTROL 选择Assets]**&#x200B;图标，直接将存储在Assets库中的资源添加到应用程序内消息中。 [了解有关资产管理的更多信息](../integrations/assets.md)。
 您还可以为屏幕阅读应用程序添加**[!UICONTROL 替换文本]**。
 
 +++更多高级格式选项

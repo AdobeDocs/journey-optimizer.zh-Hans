@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 内容，编辑器，电子邮件，开始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 54%
@@ -92,7 +92,7 @@ ht-degree: 54%
 
    ![](assets/email_designer_structure_component.png)
 
-1. 您可以从&#x200B;**[!UICONTROL 资产选取器]**&#x200B;中直接选择存储在&#x200B;**[!UICONTROL Assets库]**&#x200B;中的资产。 [了解有关资产管理的更多信息](../content-management/assets.md)
+1. 您可以从&#x200B;**[!UICONTROL 资产选取器]**&#x200B;中直接选择存储在&#x200B;**[!UICONTROL Assets库]**&#x200B;中的资产。 [了解有关资产管理的更多信息](../integrations/assets.md)
 
    双击包含资产的文件夹。 将它们拖放到结构组件中。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 组件，电子邮件设计器，编辑器，电子邮件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 52%
 
 ## 文本 {#text}
 
-使用&#x200B;**[!UICONTROL 文本]**&#x200B;组件将文本插入电子邮件中，并使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡。
+使用&#x200B;**[!UICONTROL Text]**&#x200B;组件将文本插入电子邮件，并使用&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡调整样式（边框、大小、填充等）。
 
 ![](assets/email_designer_text_component.png)
 
@@ -121,7 +121,7 @@ ht-degree: 52%
    * **字体大小**：选择文本的字体大小（以像素为单位）。
    * **[!UICONTROL 更改字体颜色]**：选择字体颜色。
    * **[!UICONTROL 插入链接]**：向内容添加任何类型的链接。
-   * **[!UICONTROL 编辑图像]**：将图像或资源添加到文本组件。 [了解有关资产管理的更多信息](../content-management/assets.md)
+   * **[!UICONTROL 编辑图像]**：将图像或资源添加到文本组件。 [了解有关资产管理的更多信息](../integrations/assets.md)
    * **[!UICONTROL 更改字体颜色]**：选择字体颜色。
    * **[!UICONTROL 添加个性化]**：添加个性化字段以自定义配置文件数据的内容。 [详细了解内容个性化](../personalization/personalize.md)
    * **[!UICONTROL 显示源代码]**：显示文本的源代码。不能修改。
@@ -173,7 +173,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   > 为了确保您的链接保持活动状态并避免任何过期问题，我们建议使用AdobeAssets而不是依赖图像的源URL。
+   > 为了确保您的链接保持活动状态并避免任何过期问题，我们建议使用Adobe Assets而不是依赖图像的源URL。
 
 1. 您还可以使用&#x200B;**[!UICONTROL 查找Adobe Stock照片]**&#x200B;选项直接在Adobe Stock中搜索。
 
@@ -184,7 +184,7 @@ ht-degree: 52%
 
    ![](assets/email_designer_10.png)
 
-1. 您还可以选择&#x200B;**[!UICONTROL 查找类似的Stock照片]**。 [了解详情](../content-management/stock.md)
+1. 您还可以选择&#x200B;**[!UICONTROL 查找类似的Stock照片]**。 [了解详情](../integrations/stock.md)
 
 1. 在&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中，调整其他样式属性，如边距、边框等。 或者从&#x200B;**[!UICONTROL 组件设置]**&#x200B;窗格中添加链接，以将受众重定向到其他内容。
 

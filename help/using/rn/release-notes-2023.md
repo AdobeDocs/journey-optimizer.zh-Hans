@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4acb6777994c9f4252d106fe8e9e5405e73c9349
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -65,8 +65,8 @@ ht-degree: 100%
 
 **受众**
 
-* 您现在可以将从 CSV 文件上传的受众定位到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 您现在可以定位通过受众组合创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
+* 您现在可以将从 CSV 文件上传的受众锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您现在可以锁定通过受众组合创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 **决策管理**
 
-* 更新了与决策管理界面中的优惠上限相关的多个标签。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* 更新了与决策管理界面中的产品建议上限相关的多个标签。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 
 
@@ -227,7 +227,7 @@ ht-degree: 100%
 
 **资源**
 
-* 新增一个“资源”的新选项，您可以借以在 Journey Optimizer 中选择资源的存储库。 如果您拥有此解决方案，则可以选择 Assets Essentials 存储库或 Assets as a Cloud Service 存储库。 [了解详情](../content-management/assets.md)
+* 新增一个“资源”的新选项，您可以借以在 Journey Optimizer 中选择资源的存储库。 如果您拥有此解决方案，则可以选择 Assets Essentials 存储库或 Assets as a Cloud Service 存储库。 [了解详情](../integrations/assets.md)
 
 <!--**Decision management**
 
@@ -334,7 +334,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众组合到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来定位客户。</p>
+<p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众组合到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来锁定客户。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
 <p>受众组合与新的 Adobe Experience Platform“受众”菜单完全集成，该菜单可作为受众的集中式门户。您现在可以使用包含新仪表板（带有区段趋势和区段重叠功能）的浏览页面来寻获新见解并探索用于折叠和标记的组织工具。此体验中嵌入了用于标准化受众标签的管理控制以及受众生命周期管理功能，可管理激活工作流程。凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>。</p></p>
@@ -584,7 +584,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。利用这种新型模型可根据受众和优惠表现对优惠进行优化和个性化设置。</p>
+<p>个性化优化 AI 排名模型现在通常可在决策管理中使用。利用这种新型模型可根据受众和产品建议表现对产品建议进行优化和个性化设置。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>有关更多信息，请参阅<a href="../offers/ranking/personalized-optimization-model.md">详细文档</a>。</p>
 </td>
@@ -637,7 +637,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **决策管理**
 
-* 如果优惠为&#x200B;**[!UICONTROL 草稿]**&#x200B;状态且之前从未在启用频率封顶的情况下发布，您现在可以编辑频率封顶。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
+* 如果产品建议为&#x200B;**[!UICONTROL 草稿]**&#x200B;状态且之前从未在启用频率封顶的情况下发布，您现在可以编辑频率封顶。[了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **个性化**
 
@@ -758,7 +758,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重新定位这些客户。</p>
+<p>借助短信点击跟踪功能，您可以监控缩短 URL 的效果，识别点击者，并利用此数据在后续营销活动中重新锁定这些客户。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>有关更多信息，请参阅<a href="../sms/create-sms.md#sms-content">详细文档</a>。</p>
 </td>
@@ -809,11 +809,11 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   请注意，尽管术语“标记”不再用于“决策管理”用户界面中，但仍然在后端服务中使用，例如 API 和数据集。
 
-* 您现在可以每日、每周或每月重置优惠上限计数器。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* 您现在可以每日、每周或每月重置产品建议上限计数器。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 * 您还可以选择应查看哪个 Adobe Experience Platform 事件来设置 Offer Decisioning 上限。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
-* 投放位置创建屏幕中添加了更多参数。通过这些参数，您可以控制是否能在多个投放位置中复制某个优惠，并指定是否应将该优惠的内容和元数据包含在 API 响应中。[了解详情](../offers/offer-library/creating-placements.md)
+* 放置环境创建屏幕中添加了更多参数。通过这些参数，您可以控制是否能在多个放置环境中复制某个产品建议，并指定是否应将该产品建议的内容和元数据包含在 API 响应中。[了解详情](../offers/offer-library/creating-placements.md)
 
 **个性化**
 
@@ -921,7 +921,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。[了解详情](../building-journeys/journey-properties.md#entrance)
 
 * 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。对于&#x200B;**读取受众**&#x200B;历程，您现在可以添加结束日期。这允许轮廓在到期时自动退出。[了解详情](../building-journeys/journey-gs.md#dates)
 
@@ -949,9 +949,9 @@ Note that each widget can be resized and deleted as needed.
 
 **决策管理**
 
-* **投放位置** - 投放位置创建屏幕中添加了更多参数。通过这些参数，您可以控制是否能在多个投放位置中复制某个优惠，并指定是否应将该优惠的内容和元数据包含在 API 响应中。[了解详情](../offers/offer-library/creating-placements.md)
+* **放置环境** - 放置环境创建屏幕中添加了更多参数。通过这些参数，您可以控制是否能在多个放置环境中复制某个产品建议，并指定是否应将该产品建议的内容和元数据包含在 API 响应中。[了解详情](../offers/offer-library/creating-placements.md)
 
-* **URL 个性化** - 现在，在将 URL 作为内容添加到优惠呈现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
+* **URL 个性化** - 现在，在将 URL 作为内容添加到产品建议的展现中时，您可以使用表达式编辑器对这些 URL 进行个性化设置。[了解详情](../offers/offer-library/add-representations.md)
 
 ## 2023 年 1 月版 {#jan-2023-release}
 
@@ -997,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 
 **历程**
 
-* 在历程中添加&#x200B;**受众鉴别**&#x200B;或&#x200B;**读取受众**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅[受众鉴别](../building-journeys/audience-qualification-events.md#about-segment-qualification)和[读取受众](../building-journeys/read-audience.md#configuring-segment-trigger-activity)部分。
+* 在历程中添加&#x200B;**受众资格筛选**&#x200B;或&#x200B;**读取受众**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅[受众资格筛选](../building-journeys/audience-qualification-events.md#about-segment-qualification)和[读取受众](../building-journeys/read-audience.md#configuring-segment-trigger-activity)部分。
 
 * 在历程画布中，工具栏中新增了一个按钮，用于下载历程的屏幕截图。
 

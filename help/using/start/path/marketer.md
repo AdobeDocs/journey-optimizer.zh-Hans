@@ -7,8 +7,8 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 # 营销人员入门指南 {#get-started-marketers}
 
-作为&#x200B;**营销人员**&#x200B;或&#x200B;**历程实践者**，您负责创建优惠和历程以及设计内容。[系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
+作为&#x200B;**营销人员**&#x200B;或&#x200B;**历程实践者**，您负责创建产品建议和历程以及设计内容。[系统管理员](administrator.md)和[数据工程师](data-engineer.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 
-请参阅以下部分，以设置第一个历程、添加优惠与资源并发送消息：
+请参阅以下部分，以设置第一个历程、添加产品建议与资源并发送消息：
 
 1. **创建受众**。Journey Optimizer 允许通过区段定义直接从&#x200B;**受众**&#x200B;菜单创建受众，并将其用于历程。要了解有关受众的更多信息，请参阅[本页面](../../audience/about-audiences.md)。[在此示例中](../../audience/creating-a-segment-definition.md)了解如何构建区段定义。
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
    ![](../assets/perso_ee2.png)
 
-1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../content-management/assets.md)了解详情。
+1. **创建和管理资源**。[!DNL Adobe Experience Manager Assets] 提供了单一集中式资源存储库，您可以使用它来填充消息。[在此部分中](../../integrations/assets.md)了解详情。
 
-1. **添加优惠**。使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的优惠定位至您的受众。[在此部分中](../../offers/get-started/starting-offer-decisioning.md)了解有关决策管理的更多信息。
+1. **添加产品建议**。使用 [!DNL Journey Optimizer] 可在适当的时候将优质的产品和体验提供给所有接触点上的客户。设计完成后，将个性化的产品建议锁定至您的受众。[在此部分中](../../offers/get-started/starting-offer-decisioning.md)了解有关决策管理的更多信息。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 

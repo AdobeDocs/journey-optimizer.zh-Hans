@@ -5,8 +5,8 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a1502d2fa13508650cb9353e53ab3a43de650c27
-workflow-type: ht
+source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -96,11 +96,11 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>内容管理</strong><br/><a href="using/content-management/assets.md">资源/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a>和<a href="using/personalization/dynamic-content.md">动态</a>内容 - <a href="using/content-management/preview-test.md">测试和预览内容</a>
+      <strong>内容管理</strong><br/><a href="using/integrations/assets.md">资源/图像</a> - <a href="using/personalization/personalize.md">个性化</a> - <a href="using/content-management/content-templates.md">可重用</a>和<a href="using/personalization/dynamic-content.md">动态</a>内容 - <a href="using/content-management/preview-test.md">测试和预览内容</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>用户档案和受众</strong><br/><a href="using/audience/about-audiences.md">受众</a> - <a href="using/audience/get-started-profiles.md">用户档案</a> - <a href="using/audience/get-started-identity.md">身份</a> - <a href="using/audience/license-usage.md">许可证使用情况</a> - <a href="using/privacy/get-started-privacy.md">隐私管理</a>
+      <strong>轮廓和受众</strong><br/><a href="using/audience/about-audiences.md">受众</a> - <a href="using/audience/get-started-profiles.md">轮廓</a> - <a href="using/audience/get-started-identity.md">身份标识</a> - <a href="using/audience/license-usage.md">许可证使用情况</a> - <a href="using/privacy/get-started-privacy.md">隐私管理</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
