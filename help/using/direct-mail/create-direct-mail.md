@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直邮、消息、营销活动
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 88f8a5e3e7314992cdb5835b9676b78127f20960
+source-git-commit: 6bcfbc835a61aa326d4ee548722a6ad6e2942ea2
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 18%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 18%
 
       >[!NOTE]
       >
-      >默认情况下，文件将写入根目录。 **[!UICONTROL Filename]**&#x200B;字段接受格式“/your/path/here/Filename.csv”，其中指定的路径是所选服务器上的目标目录。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
+      >默认情况下，该文件将写入服务器上的根目录中。 **[!UICONTROL Filename]**&#x200B;字段也接受格式“/your/path/here/Filename.csv”，其中指定的路径是所选服务器上的目标目录。<!--TBC if for SFTP and Azure only, or for all servers including S3-->
 
    1. 如果要向指定的文件名添加自动时间戳，请启用&#x200B;**[!UICONTROL 附加时间戳以导出文件名]**&#x200B;选项。
 
