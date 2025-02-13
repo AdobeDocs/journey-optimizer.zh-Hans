@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在Journey Optimizer内容加速器中使用AI助手进行内容试验
-description: 在Journey Optimizer中使用AI助理内容加速器进行内容试验
+title: 在Journey Optimizer中使用AI助手进行内容试验
+description: 在Journey Optimizer中使用AI助手进行内容试验
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 8%
+source-wordcount: '255'
+ht-degree: 11%
 
 ---
 
-# 使用AI Assistant内容加速器进行内容试验 {#generative-experimentation}
+# 使用 AI 助手进行内容试验{#generative-experimentation}
 
 >[!IMPORTANT]
 >
 >在开始使用此功能之前，请阅读相关的[护栏和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
->您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI Assistant内容加速器。 有关更多信息，请与您的 Adobe 代表联系。
+>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-准备好消息并对其进行个性化后，在Adobe Journey Optimizer中使用AI助手内容加速器提升您的内容，该加速器包括内容实验功能。 此工具允许您定义多种交付处理方式（内容各异），以衡量目标受众的表现。
+准备好消息并对其进行个性化后，可使用Adobe Journey Optimizer中的AI助手（包括内容实验功能）提升您的内容。 此工具允许您定义多种交付处理方式（内容各异），以衡量目标受众的表现。
 
-1. 创建活动并使用AI Assistant内容加速器生成变体。
+1. 创建活动并使用AI助手生成变体。
 
    在本例中，我们生成了包含促销代码的订阅确认电子邮件。
 

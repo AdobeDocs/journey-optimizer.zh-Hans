@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer 内容加速器中的 AI 助手入门
-description: 了解如何访问和使用 Journey Optimizer 内容加速器中的 AI 助手
+title: Journey Optimizer中的AI助手入门
+description: 了解如何在Journey Optimizer中访问和使用AI助手
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 2de3766c9fea36422c017ccaab3eb0a2501c6740
-workflow-type: ht
-source-wordcount: '874'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 75%
 
 ---
 
-# AI 助手内容加速器入门 {#gs-content-assistant}
+# AI 助手入门 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizer 中的 AI 助手内容加速器"
->abstract="在精心设计并个性化您的投放后，您可使用 Journey Optimizer 中的 AI 助手内容加速器来增强您的内容。借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
+>title="Journey Optimizer的人工智能助手"
+>abstract="完成投放的定制和个性化后，您可以使用Journey Optimizer中的AI助手来增强内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上传品牌资源"
->abstract="通过“上传品牌资源”菜单，您可以添加任何包含内容的品牌资源，这些内容可以为 Journey Optimizer 内容加速器中的 AI 助手提供额外上下文信息，或者选择之前上传的资源。此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
+>abstract="使用上传品牌资产菜单，可添加任何包含可为Journey Optimizer中的AI助手提供其他上下文的内容的品牌资产，或选择之前上传的资产。 此选项确保 AI 助手能够获取所有必要材料，以加强其功能和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -38,20 +38,20 @@ ht-degree: 100%
 >通过[我们的实时功能预览](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。
 
 
-由 Microsoft Azure OpenAI 和 Adobe Firefly 提供支持的 Adobe Journey Optimizer 中的 AI 助手内容加速器可为文本和图像提供主动的内容变体建议。这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
+Adobe Journey Optimizer中的AI助手由Microsoft Azure OpenAI和Adobe Firefly提供支持，为文本和图像提供主动内容变体建议。 这可用于电子邮件、推送和短信渠道。这项新功能可用于快速的文本和图像生成。通过 Adobe Firefly 管理图像生成。
 
-使用 Adobe Journey Optimizer 中的 AI 助手内容加速器，尝试使用不同的主标题和图像来优化消息的影响力。生成多个变体并构建试验，从而进行比较。利用 Journey Optimizer 内容试验，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
+使用Adobe Journey Optimizer中的AI Assistant，通过尝试不同的主标题和图像来优化消息的影响。 生成多个变体并构建试验，从而进行比较。利用 Journey Optimizer 内容试验，您可以定义多种消息处理方式，以衡量哪种方式最适合您的目标受众。您可以选择更改投放内容或主题。消息受众将随机分配给每个处理方式，以确定在指定的量度下哪个处理效果最佳。在[此部分](../content-management/content-experiment.md)中详细了解内容试验。
 
 >[!IMPORTANT]
 >
 >* 在开始使用此功能之前，请阅读相关的[护栏和限制](#generative-guardrails)。
 >
 >
->* 您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能使用 Adobe Journey Optimizer 中的 AI 助手内容加速器。有关更多信息，请与您的 Adobe 代表联系。
+>* 您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-## 访问 AI 助手内容加速器 {#generative-access}
+## 访问AI助手 {#generative-access}
 
-要访问 Adobe Journey Optimizer 中的 AI 助手内容加速器，需要向用户授予&#x200B;**生成内容**&#x200B;权限。[了解详情](../administration/permissions.md)
+要访问Adobe Journey Optimizer中的AI助手功能，需要向用户授予&#x200B;**生成内容**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
 +++  了解如何分配与内容生成相关的权限
 
@@ -79,17 +79,17 @@ ht-degree: 100%
 
 ## 护栏和限制 {#generative-guardrails}
 
-下面列出了使用 Adobe Journey Optimizer 中的 AI 助手内容加速器生成电子邮件的一般准则：
+下面列出了在Adobe Journey Optimizer中使用AI助手生成电子邮件的一般准则：
 
 * 生成内容的质量在很大程度上受您定义的营销目标/提示的影响。使用为 GenAI 模型明确定义的提示以准确解释。 
 * 上传品牌资源以提供准确的品牌相关内容。否则，内容基于公开可用的信息。上传的内容可以是以下格式：PDF、JPEG、PNG 或 ZIP 文件（具有支持的文件格式）。
 * 上传的品牌资源的最大大小为 50 MB。可以上传较大的文件或大量的图像，但处理时间会增加。
-* 通过 Adobe Journey Optimizer 中的 AI 助手内容加速器，使用特定于品牌或自定义的模板创建电子邮件内容。建议使用最多包含 8 至 10 张图像的电子邮件模板。
+* 使用特定于品牌或自定义的模板，在Adobe Journey Optimizer中使用AI助手创建电子邮件内容。 建议使用最多包含 8 至 10 张图像的电子邮件模板。
 * 选择变体时，请确保使用拇指竖起、拇指朝下或标记图标报告任何有问题的输出。
 * 使用 AI 助手受 Adobe Experience Cloud 生成式 AI 用户指南的约束。[了解详情](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * 作为 Adobe 致力于促进媒体创作中生成式 AI 工具使用透明度的工作的一部分，Adobe 将在下载或导出包含 Firefly 生成资源的内容或项目时应用内容凭证。[了解详情](https://helpx.adobe.com/cn/firefly/using/content-credentials.html)
 
-以下限制适用于 Adobe Journey Optimizer 中的 AI 助手内容加速器：
+以下限制适用于Adobe Journey Optimizer中的AI助手：
 
 * 支持的语言只有英语。非英文输入内容可能会产生不一致或错误的结果。非英文答复引起的问题目前不予处理或改进。
 * 仅适用于电子邮件、推送、Web 和短信渠道。

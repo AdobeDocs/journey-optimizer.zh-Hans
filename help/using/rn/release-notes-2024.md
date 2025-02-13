@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: e3ebbb021b7336fa859deb19d4e5786a4f4fdf30
-workflow-type: ht
-source-wordcount: '4776'
-ht-degree: 100%
+source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+workflow-type: tm+mt
+source-wordcount: '4772'
+ht-degree: 99%
 
 ---
 
@@ -106,13 +106,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI 助手内容加速器 </strong><br/></th>
+<th><strong>AI 助手</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>创建消息并对其进行个性化设置后，您可以使用 Journey Optimizer 中的 AI 助手内容加速器将您的内容提升到新的水平。您现在可以使用 AI 助手，通过尝试不同的主标题和图像来优化消息的影响力。每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>创建消息并进行个性化后，使用Journey Optimizer中的AI助手将您的内容提升到新的级别。 您现在可以使用 AI 助手，通过尝试不同的主标题和图像来优化消息的影响力。每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
 <p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。</a>。</p>
 <p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -488,7 +488,7 @@ ht-degree: 100%
 
 #### 决策管理
 
-* **决策管理中的多规则支持** - 现在，您可以在决策管理中为给定优惠添加最多 10 个上限规则。这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
+* **决策管理中的多规则支持** - 现在，您可以在决策管理中为给定产品建议添加最多 10 个上限规则。这样，您就可以增强对产品建议发送方式的控制级别。[了解详情](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -567,7 +567,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>通过提供称为“决策项”的集中式营销优惠目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。</p>
+<p>通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，体验决策简化了个性化操作。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。</p>
 <p>这些决策项通过新的基于代码的体验渠道无缝集成到广泛的入站配置中，现在可以在 Journey Optimizer 营销活动中访问。体验决策的决策策略仅适用于基于代码的体验营销活动。</p>
 <p>目前，体验决策功能仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
@@ -655,7 +655,7 @@ ht-degree: 100%
 * **体验决策 + 基于代码的体验** - 您现在可以利用体验决策功能在基于代码的营销活动中使用决策项。注释：基于代码的体验渠道和体验决策不适用于已购买 Adobe Health Shield 和 Privacy and Security Shield 附加产品的组织。[了解详情](../code-based/get-started-code-based.md)
 * **上下文数据** - 现在，您可以在决策规则中利用 Adobe Experience Platform 的上下文数据并对公式排序。[了解详情](../experience-decisioning/context-data.md)
 * **新权限** - 现在，决策管理资源具有新的“管理体验决策”权限。这允许您管理与体验决策相关的权限。[了解详情](../experience-decisioning/gs-experience-decisioning.md)
-* **上限规则** - 您现在可以在体验决策中对特定决策项添加多个上限规则。这样，您就可以增强对优惠发送方式的控制级别。[了解详情](../experience-decisioning/items.md#capping)
+* **上限规则** - 您现在可以在体验决策中对特定决策项添加多个上限规则。这样，您就可以增强对产品建议发送方式的控制级别。[了解详情](../experience-decisioning/items.md#capping)
 * **报告** - 您现在可以使用 [!DNL Customer Journey Analytics] 创建体验决策营销活动的自定义报告仪表板。[了解详情](../experience-decisioning/cja-reporting.md)
 
 
@@ -911,9 +911,9 @@ ht-degree: 100%
 
 以前作为 Beta 版提供，现在所有用户都可以使用以下改进功能：
 
-* 您现在可以定位&#x200B;**通过受众组合创建的受众**，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
+* 您现在可以锁定&#x200B;**通过受众组合创建的受众**，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
-* 您现在可以将&#x200B;**从 CSV 文件上传的受众**&#x200B;定位到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您现在可以将&#x200B;**从 CSV 文件上传的受众**&#x200B;锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
@@ -924,7 +924,7 @@ ht-degree: 100%
 
 * **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。[了解详情](../building-journeys/journey-gs.md#filter)
 * **自定义操作** - 您现在可以更新 **content-type** 标头。此新 **content-type** 标头应引用 JSON 内容。[了解详情](../action/about-custom-action-configuration.md#url-configuration)
-* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。[了解详情](../reports/sharing-field-list.md)
+* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主身份标识被定义为“primary = true”。[了解详情](../reports/sharing-field-list.md)
 * **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](../building-journeys/journey-properties.md)
 
 **短信渠道**
@@ -933,11 +933,11 @@ ht-degree: 100%
 
 **营销活动**
 
-* **API 触发的营销活动** - 对激活 API 触发的营销活动后生成的 cURL 代码进行了增强。它现在包含消息中使用的所有个性化（用户档案和上下文）变体。[了解详情](../campaigns/api-triggered-campaigns.md#execute)
+* **API 触发的营销活动** - 对激活 API 触发的营销活动后生成的 cURL 代码进行了增强。它现在包含消息中使用的所有个性化（轮廓和上下文）变体。[了解详情](../campaigns/api-triggered-campaigns.md#execute)
 
 **频率规则**
 
-* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的用户档案。[了解详情](../configuration/frequency-rules.md)
+* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的轮廓。[了解详情](../configuration/frequency-rules.md)
 
 <!--**Decision management**
 
@@ -991,11 +991,11 @@ ht-degree: 100%
 
 **报告**
 
-* **新的基于域的细分构件** - 添加了新构件，用于增强营销活动和历程报告。**按域列出的退回原因**、**按域列出的已发送和已投放数**、**按域列出的打开数和点击数**&#x200B;以及&#x200B;**按域列出的退回和错误**&#x200B;构件可在域级别提供关键电子邮件投放和跟踪指标的详细细分。[了解详情](../reports/channel-report-cja.md)
+* **新的基于域的细分小组件** - 添加了新小组件，用于增强营销活动和历程报告。**按域列出的退回原因**、**按域列出的已发送和已投放数**、**按域列出的打开数和点击数**&#x200B;以及&#x200B;**按域列出的退回和错误**&#x200B;小组件可在域级别提供关键电子邮件投放和跟踪指标的详细细分。[了解详情](../reports/channel-report-cja.md)
 
 **短信渠道**
 
-* **双重选择加入** - 短信的双重选择加入工作流程可确保用户在从其设备发起请求时，明确选择加入以接收消息。用户通过发送入站短信消息启动同意流程。确认同意后，将发送后续消息，请求进行最终验证。如果用户配置文件不存在，则会在确认成功时创建该配置文件。[了解详情](../sms/sms-configuration.md)
+* **双重选择加入** - 短信的双重选择加入工作流程可确保用户在从其设备发起请求时，明确选择加入以接收消息。用户通过发送入站短信消息启动同意流程。确认同意后，将发送后续消息，请求进行最终验证。如果用户轮廓不存在，则会在确认成功时创建该轮廓。[了解详情](../sms/sms-configuration.md)
 
   请注意，此功能适用于 Sinch 和 Infobip 短信提供商。
 
@@ -1005,7 +1005,7 @@ ht-degree: 100%
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **读取受众** - 现在，**读取受众**&#x200B;活动依赖于批量区段的配置文件快照数据集，该数据集仅在计划的每日批量作业运行后每天生成一次，因此数据将刷新到上一次每日批量作业。[了解详情](../building-journeys/read-audience.md)
+* **读取受众** - 现在，**读取受众**&#x200B;活动依赖于批量区段的轮廓快照数据集，该数据集仅在计划的每日批量作业运行后每天生成一次，因此数据将刷新到上一次每日批量作业。[了解详情](../building-journeys/read-audience.md)
 
 * **字段组** - 此版本修复了在某些情况下阻止保存字段组的问题。
 
@@ -1013,7 +1013,7 @@ ht-degree: 100%
 
 **频率规则**
 
-* **每周频率上限** - 现在，除了可以指定一个月内向某个客户的用户档案发送的最大消息数外，您还可以指定在一周内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/frequency-rules.md#create-new-rule)
+* **每周频率上限** - 现在，除了可以指定一个月内向某个客户的轮廓发送的最大消息数外，您还可以指定在一周内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/frequency-rules.md#create-new-rule)
 
   >[!NOTE]
   >
