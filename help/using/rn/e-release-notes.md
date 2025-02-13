@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
+source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 26%
+source-wordcount: '676'
+ht-degree: 25%
 
 ---
 
@@ -104,6 +104,8 @@ ht-degree: 26%
 
 2月更新随附以下改进。
 
+* **历程** — 您现在可以通过从管理用户界面发送API调用来测试历程自定义操作。 这项新功能可帮助您排查自定义操作问题。
+
 * **数据集生存时间(TTL)** — 从本月开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
 
    * 配置文件存储中的数据为 90 天
@@ -114,6 +116,12 @@ ht-degree: 26%
 * **行动手册** — 您现在可以在Journey Optimizer中创建和发布自己的用例行动手册。
 
 * **直邮** - DLZ （DAta登录区）现在支持作为直邮配置中文件路由的服务器类型。
+
+**个性化**
+
+* 个性化编辑器已增强，并新增了自动完成、搜索和筛选选项等功能。 您还可以显示或隐藏已弃用的属性。
+
+* 可用日期： 2025年1月29日 — 个性化编辑器中提供新的日期/时间辅助函数。 [了解详情](../personalization/functions/dates.md)
 
 **电子邮件配置** — 发布日期：2025年2月12日
 
@@ -128,7 +136,3 @@ ht-degree: 26%
 **决策** — 发布日期：2025年1月28日
 
 * 现在，在编辑项目目录的架构时，决策支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
-
-**Personalization** — 发布日期：2025年1月29日
-
-* 新的日期/时间辅助函数可在个性化编辑器中使用。 [了解详情](../personalization/functions/dates.md)
