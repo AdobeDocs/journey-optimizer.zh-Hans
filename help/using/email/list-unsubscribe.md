@@ -1,17 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置电子邮件设置
-description: 了解如何在渠道配置级别配置列表取消订阅
+title: 配置列表取消订阅
+description: 了解如何在设置渠道配置时，在电子邮件的标题中包含一键式取消订阅URL
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
-source-git-commit: 8e299b90f601cd931940a64e691e186894d4012e
+exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
+source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 38%
+source-wordcount: '779'
+ht-degree: 37%
 
 ---
 
