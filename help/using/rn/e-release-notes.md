@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6d072ed9b0312ee06efa9fdfaafd0fff913e6276
+source-git-commit: e1192f6540ee3317a0e03100dedb7780708f7bec
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 26%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 **以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
-## ’25年2月提前发行 {#25-02-rn}
+## 2025年2月早期发行说明 {#25-02-rn}
 
 ### 新功能 {#25-02-features}
 
