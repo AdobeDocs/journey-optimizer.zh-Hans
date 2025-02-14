@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 22%
+source-wordcount: '981'
+ht-degree: 20%
 
 ---
 
@@ -78,9 +78,14 @@ ht-degree: 22%
 
 流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人资料数据发生变化时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->确保使用正确的事件作为流式分段标准。 [了解详情](#streaming-segmentation-events-guardrails)
+>自2024年11月1日起，流式分段不再支持使用Journey Optimizer跟踪和反馈数据集中的&#x200B;**发送**&#x200B;和&#x200B;**打开**&#x200B;事件。
+>* 此更改适用于所有客户沙盒和组织。
+>* 仅发送和打开事件受到影响：点击次数和其他跟踪事件仍可用于流式分段。
+>* 此更改仅适用于流式客户细分。 发送和打开事件仍可以在批处理区段中使用，但如果包含在流区段中，则将批处理评估它们。 此外，发送事件导致的排除事件和退回/延迟事件也会受此更改的影响。
+>* 不影响跟踪数据收集。 将继续像往常一样收集“发送”和“打开”事件。
+>* 历程中的反应事件不受此更改的影响。
 
 +++
 

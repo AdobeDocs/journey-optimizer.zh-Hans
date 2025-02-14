@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2157'
 ht-degree: 97%
 
 ---
@@ -626,7 +626,7 @@ ht-degree: 97%
    + [使用架构](using/data/get-started-schemas.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
-      + [生存时间和流式分段更新](using/data/datasets-ttl.md)
+      + [数据集生存时间(TTL)护栏](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
