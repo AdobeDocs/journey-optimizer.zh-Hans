@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
+source-git-commit: f371f2181b5a4b302e3cb1f47c85d470a58b9f90
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 25%
+source-wordcount: '637'
+ht-degree: 26%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 25%
 
   此更改将在后续阶段中推出到现有客户沙盒。
 
-* **行动手册** — 您现在可以在Journey Optimizer中创建和发布自己的用例行动手册。
+<!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
 * **直邮** - DLZ （DAta登录区）现在支持作为直邮配置中文件路由的服务器类型。
 
