@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
+source-git-commit: c226e8458aecdd32ed14c3529d19d845cf9d946b
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 21%
 
 ---
@@ -49,22 +49,6 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>短信的多区域支持</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以通过覆盖投放、反馈、入站和回调URL来管理来自多区域端点的短信消息投放。 为了支持此功能，已在API凭据配置中添加了新字段覆盖URL 。 此更改仅适用于Sinch提供程序。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>使用AI助手生成登陆页面</strong><br/></th>
 </tr>
 </thead>
@@ -72,8 +56,8 @@ ht-degree: 21%
 <tr>
 <td>
 <p>您现在可以借助AI助手为登陆页面制作引人注目的内容，包括全页设计、个性化文本和自定义可视化图表。</p>
-<!--img src="assets/do-not-localize/ai-lp.gif">
-<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/ai-lp.gif">
+<!--p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -90,7 +74,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>您现在可以设置自己的品牌指南来定义品牌的视觉和语言标识。 请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。</p>
-<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../content-management/brands.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -158,6 +142,8 @@ ht-degree: 21%
 
 * **直邮** — 现在支持在直邮渠道配置中进行文件路由的新服务器类型“数据登录区”。
 
+**短信** — 您现在可以通过覆盖投放、反馈、入站和回调URL来管理来自多区域端点的短信消息投放。 为了支持此功能，已在API凭据配置中添加了新字段覆盖URL 。 此更改仅适用于Sinch提供程序。 [了解详情](../sms/sms-configuration-sinch.md)
+
 **个性化**
 
 <!--
@@ -174,3 +160,4 @@ ht-degree: 21%
 **决策** — 发布日期：2025年1月28日
 
 * 现在，在编辑项目目录的架构时，决策支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
+
