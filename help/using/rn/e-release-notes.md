@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 99f4dc8dc7ba3c6acb886e4a37ba36d9b187c68b
+source-git-commit: 39e52d7e552859137c9e179f48319ed508caabb5
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '652'
 ht-degree: 25%
 
 ---
@@ -119,7 +119,8 @@ ht-degree: 25%
 
 **个性化**
 
-* 个性化编辑器已增强，并新增了自动完成、搜索和筛选选项等功能。 您还可以显示或隐藏已弃用的属性。
+<!--
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 * 可用日期： 2025年1月29日 — 个性化编辑器中提供新的日期/时间辅助函数。 [了解详情](../personalization/functions/dates.md)
 
