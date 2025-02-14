@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
+source-git-commit: 382327f7816340696d8645f04e5079eb56fe07a3
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '715'
 ht-degree: 21%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>AI助手现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<p>您现在可以借助AI助手为登陆页面制作引人注目的内容，包括全页设计、个性化文本和自定义可视化图表。</p>
 <!--img src="assets/do-not-localize/ai-lp.gif">
 <p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
 </td>
