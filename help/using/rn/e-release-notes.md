@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ac5f7362cd0184b7207b0f175d83c5c60921e7e
+source-git-commit: 4e405fe395c8432ed22d64887631b222df83a3e9
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 24%
+source-wordcount: '711'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 <table>
 <thead>
 <tr>
-<th><strong>业务规则</strong><br/></th>
+<th><strong>创建和管理业务规则</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -62,24 +62,41 @@ ht-degree: 24%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>客户历程分析模板</strong><br/></th>
+<th><strong>使用AI助手生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。通过这项新功能，您可以通过根据分析需求定制的预设计模板来简化报告流程。
-</p>
-<img src="assets/do-not-localize/cja-templates.gif">
-<p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md#cja-template">详细文档</a>。</p>
-<p>可用日期：2025年1月15日起</p>
+<p>AI助手现在可用于登陆页面投放，使您能够生成文本、图像或完整的页面布局。</p>
+<!--img src="assets/do-not-localize/ai-lp.gif">
+<p>For more information on AI Assistant, refer to the <a href="../email/generative-lp.md">detailed documentation</a>.</p-->
+</td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌指南（测试版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以设置自己的品牌指南来定义品牌的视觉和语言标识。 请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 <table>
 <thead>
@@ -100,11 +117,33 @@ ht-degree: 24%
 </table>
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>客户历程分析模板</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。通过这项新功能，您可以通过根据分析需求定制的预设计模板来简化报告流程。
+</p>
+<img src="assets/do-not-localize/cja-templates.gif">
+<p>有关更多信息，请参阅<a href="../reports/report-cja-manage.md#cja-template">详细文档</a>。</p>
+<p>可用日期：2025年1月15日起</p>
+</tr>
+</tbody>
+</table>
+
+
+
+
 ### 改进 {#25-02-improvements}
 
 2月更新随附以下改进。
 
-* **历程** — 您现在可以通过从管理用户界面发送API调用来测试历程自定义操作。 这项新功能可帮助您排查自定义操作问题。
+* **历程** — 您现在可以通过从管理部分发送API调用来测试自定义操作。 此新功能可帮助您在历程中使用自定义操作之前和之后对其进行故障排除。
 
 * **数据集生存时间(TTL)** — 从本月开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
 
