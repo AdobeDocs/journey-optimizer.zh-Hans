@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 417d9f1787aced7d41a7374576d3abcc4dd98c1b
+source-git-commit: ce2c5e26ae4d17898f50f890c146ccfafc93a7c2
 workflow-type: tm+mt
 source-wordcount: '2760'
 ht-degree: 79%
@@ -136,7 +136,7 @@ ht-degree: 79%
 
   此更改将在后续阶段中推出到现有客户沙盒。
 
-  有关此更新的详细信息，请参阅[此专用常见问题解答](../data/datasets-ttl.md#frequently-asked-questions)。
+  在[专用常见问题解答](../data/datasets-ttl.md#frequently-asked-questions)中了解有关此更新的更多信息。
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
