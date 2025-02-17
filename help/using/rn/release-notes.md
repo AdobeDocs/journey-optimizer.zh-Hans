@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ce2c5e26ae4d17898f50f890c146ccfafc93a7c2
+source-git-commit: 501a0ad799b91c41785da44d37cc8bd5d9976740
 workflow-type: tm+mt
-source-wordcount: '2760'
+source-wordcount: '2755'
 ht-degree: 79%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 79%
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **电子邮件配置**（发布日期：2025年2月12日） — 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键式取消订阅URL，作为电子邮件渠道配置设置的一部分。 [阅读更多](../email/list-unsubscribe.md#custom-managed)
+* **电子邮件配置** — 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键取消订阅URL，作为电子邮件渠道配置设置的一部分。 [阅读更多](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
