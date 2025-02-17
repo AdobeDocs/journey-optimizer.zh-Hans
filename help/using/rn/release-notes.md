@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: befad89c8f50c92751e5e0995e73df8427a193b3
+source-git-commit: 9b7e7a908f7f38570d35d8727a42cbcc216a1387
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 78%
+source-wordcount: '2795'
+ht-degree: 77%
 
 ---
 
@@ -127,48 +127,41 @@ ht-degree: 78%
 
 2月更新随附以下改进。
 
-* **历程** — 您现在可以通过从管理部分发送API调用来测试自定义操作。 此新功能可帮助您在历程中使用自定义操作之前和之后对其进行故障排除。
+**历程** — 您现在可以通过从管理部分发送API调用来测试自定义操作。 此新功能可帮助您在历程中使用自定义操作之前或之后对其进行故障排除。
 
-* **数据集生存时间(TTL)** — 从本月开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
+**数据集生存时间(TTL)** — 从本月开始，将在新沙盒和新组织中向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏，如下所示：
 
-   * 配置文件存储中的数据为 90 天
-   * 数据湖中的数据为 13 个月
-
-  此更改将在后续阶段中推出到现有客户沙盒。
-
-  有关此更新的详细信息，请参阅[此专用常见问题解答](../data/datasets-ttl.md#frequently-asked-questions)。
+个人资料存储中的数据为    * 90天
+    * 13个月数据湖中的数据为
+    
+    此更改将在后续阶段中推出到现有客户沙盒。
+    
+    有关此更新的详细信息，请参阅[此专用常见问题解答](../data/datasets-ttl.md#frequently-asked-questions)。
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
-* **直邮** — 现在支持在直邮渠道配置中进行文件路由的新服务器类型“数据登录区”。
+**直邮** — 现在支持在直邮渠道配置中进行文件路由的新服务器类型“数据登录区”。
 
 **短信** — 您现在可以通过覆盖投放、反馈、入站和回调URL来管理来自多区域端点的短信消息投放。 为了支持此功能，已在API凭据配置中添加了新字段覆盖URL 。 此更改仅适用于Sinch提供程序。 [了解详情](../sms/sms-configuration-sinch.md)
 
-**个性化**
+**Personalization**（推出日期：2025年1月29日） — 新的日期/时间帮助程序功能可在个性化编辑器中使用。 [了解详情](../personalization/functions/dates.md)
+
 
 <!--
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
-* 可用日期： 2025年1月29日 — 个性化编辑器中提供新的日期/时间辅助函数。 [了解详情](../personalization/functions/dates.md)
 
-
-**电子邮件配置** — 发布日期：2025年2月12日
+**电子邮件配置**（发布日期：2025年2月12日）
 
 * 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键式取消订阅URL，作为电子邮件渠道配置设置的一部分。 [阅读更多](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-  >[!AVAILABILITY]
-  >
-  >此功能面向一小部分客户限量发布 (LA)。
-
 * 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键式取消订阅URL，作为电子邮件渠道配置设置的一部分。 [阅读更多](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-**决策** — 发布日期：2025年1月28日
-
-* 现在，在编辑项目目录的架构时，决策支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
+**Decisioning**（可用日期：2025年1月28日） — 现在，在编辑项目目录的架构时，Decisioning支持“对象”数据类型。 [了解详情](../experience-decisioning/catalogs.md)
 
 
 ## 2024 年 10 月版本 {#24-10-rn}
