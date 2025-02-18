@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 77a3980b2c18f14d6b7cf0461541d0b9721dab84
+source-git-commit: f25fb5ef7eb8febbe9f94f67aa16b0d8e725bbf9
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '764'
 ht-degree: 22%
 
 ---
@@ -74,13 +74,13 @@ ht-degree: 22%
 <table>
 <thead>
 <tr>
-<th><strong>AI助手(Beta)的品牌指南</strong><br/></th>
+<th><strong>带有AI助手(Beta)的品牌</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以设置自己的品牌指南来定义品牌的视觉和语言标识。 </p>
+<p>您现在可以设置自己的品牌来定义品牌的视觉和语言标识。 </p>
 <p>此功能作为私有测试版发布给有限的一组客户。 它将在未来版本中逐步向所有客户提供。</p>
 <p>有关更多信息，请参阅<a href="../content-management/brands.md">详细文档</a>。</p>
 </td>
