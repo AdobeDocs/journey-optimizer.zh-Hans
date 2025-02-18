@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP 、池、可投放性
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 84cbaebc9c274f620ee707cb0d9320673ae24b71
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 12%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 12%
 
    与您的可投放性顾问合作，确定要使用的域和IP。 在[本节](../email/email-settings.md#subdomains-and-ip-pools)中了解如何在电子邮件配置中选择它们。
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >对于IP预热活动，即使您更改电子邮件配置中的[执行地址](../email/email-settings.md#execution-address)，仍会使用在沙盒级别设置的默认字段。 [了解详情](primary-email-addresses.md)
+   >在IP预热计划[启动](ip-warmup-execution.md)后不要编辑电子邮件渠道配置。
 
 1. 创建计划的营销[营销活动](../campaigns/create-campaign.md)并选择[电子邮件](../email/create-email.md#create-email-journey-campaign)操作。
 

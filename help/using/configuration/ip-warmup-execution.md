@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、组、子域、可投放性
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 88dff9f42636a81b54b7050da3542f839c14164e
+source-git-commit: 0c128feac32baff14f1b71aed688e3bde4c67d35
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2634'
 ht-degree: 11%
 
 ---
@@ -79,6 +79,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >[!NOTE]
       >
       >您只能排除已添加到[IP预热计划模板](ip-warmup-plan.md#prepare-file)的自定义域组。 如果不是这种情况，请使用要排除的自定义域组更新模板，然后[重新上载计划](#re-upload-plan)。
+
+      >[!CAUTION]
+      >
+      >在IP预热计划运行后，如果更新用于IP预热营销活动的电子邮件渠道[配置](channel-surfaces.md)中的[执行地址](../email/email-settings.md#execution-address)，域排除可能会失败。 在IP预热计划启动后，请勿编辑电子邮件渠道配置。
 
    1. 从用于排除用户档案的&#x200B;**[!UICONTROL 营销活动]**&#x200B;部分中，选择要从当前阶段中排除的受众的营销活动。
 

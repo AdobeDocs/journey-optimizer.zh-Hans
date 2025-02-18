@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer 中的数据入门
+title: Journey Optimizer中的数据管理入门
 description: 了解如何在 Journey Optimizer 中处理数据
 feature: Journeys
 topic: Content Management
@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 数据, 管理, 平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 开始在 [!DNL Journey Optimizer] 中进行数据管理 {#about-data}
+# 数据管理入门 {#about-data}
 
 定义任何客户体验解决方案的强度和成功度的关键是最终客户数据的丰富性和覆盖范围；对于任何特定的客户而言，这些数据都是不容侵犯且极具价值的。现在，技术选择在本质上内置了对数据管理能力的严格评估。
 

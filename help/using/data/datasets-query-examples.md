@@ -9,24 +9,24 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
 
-# 数据集用例 {#tracking-datasets}
+# 查询示例 {#query-examples}
 
 在此页面中，您将找到Adobe Journey Optimizer数据集和相关用例的列表：
 
-[电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)
-[邮件反馈事件数据集](#message-feedback-event-dataset)
-[推送跟踪体验事件数据集](#push-tracking-experience-event-dataset)
-[历程步骤事件](#journey-step-event)
-[决策事件数据集](#ode-decisionevents)
-[BCC反馈事件数据集](#bcc-feedback-event-dataset)
-[实体数据集](#entity-dataset)
+* [电子邮件跟踪体验事件数据集](#email-tracking-experience-event-dataset)
+* [消息反馈事件数据集](#message-feedback-event-dataset)
+* [推送跟踪体验事件数据集](#push-tracking-experience-event-dataset)
+* [历程步骤事件](#journey-step-event)
+* [决策事件数据集](#ode-decisionevents)
+* [密件抄送反馈事件数据集](#bcc-feedback-event-dataset)
+* [实体数据集](#entity-dataset)
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
@@ -192,7 +192,7 @@ _内部名称：历程步骤事件（系统数据集）_
 
 用于在历程中引入步骤事件的数据集。
 
-相关架构是用于Journey Orchestration的历程步骤事件架构。
+相关架构是Journey Orchestration的“历程步骤事件”架构。
 
 此查询按操作标签显示给定历程的操作成功计数细分：
 

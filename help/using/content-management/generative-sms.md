@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 5%
+source-wordcount: '1000'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 5%
 
    ![](assets/sms-genai-1.png){zoomable="yes"}
 
+1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
+
+   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
+
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
@@ -55,7 +59,7 @@ ht-degree: 5%
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择所需的通信方法。
-   * **[!UICONTROL 语言]**：选择变体内容的语言。
+   * **[!UICONTROL 语言]**：西班牙语、意大利语、瑞典语和挪威语语言选项已作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
    * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
    * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 
@@ -107,6 +111,10 @@ ht-degree: 5%
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用引用内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
+1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
+
+   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
+
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
@@ -116,7 +124,7 @@ ht-degree: 5%
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择所需的通信方法。
-   * **[!UICONTROL 语言]**：选择变体内容的语言。
+   * **[!UICONTROL 语言]**：西班牙语、意大利语、瑞典语和挪威语语言选项已作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
    * **[!UICONTROL 色调]**：确保文本适合您的受众和用途。
    * **[!UICONTROL 长度]**：使用范围滑块选择内容的长度。
 

@@ -4,17 +4,18 @@ product: journey optimizer
 title: 配置您的自定义提供商
 description: 了解如何配置您的环境，以通过自定义提供商使用Journey Optimizer发送短信
 feature: SMS, Channel Configuration
+badge: label="Beta 版" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# 配置自定义提供程序（Beta 版） {#sms-configuration-custom}
+# 配置自定义提供商 {#sms-configuration-custom}
 
 >[!AVAILABILITY]
 >
@@ -22,7 +23,7 @@ ht-degree: 3%
 >
 >请注意，此Beta不支持用于选择启用/选择禁用同意管理和投放报告的入站消息。
 
-要在Journey Optimizer中使用无法按Adobe立即使用的自定义提供商发送消息（例如，Sinch、Infobip、Twilio），请执行以下步骤：
+要在Journey Optimizer中使用Adobe无法立即提供的自定义提供商（例如Sinch、Infobip、Twilio）发送消息，请执行以下步骤：
 
 1. 在左边栏中，浏览到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;并选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单。
 

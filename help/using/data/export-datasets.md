@@ -6,11 +6,11 @@ description: 了解如何使用Adobe Experience Platform云存储目标导出数
 feature: Datasets
 role: User
 level: Beginner
-keywords: 平台、数据湖、创建、湖、数据集、个人资料
+keywords: 平台、数据湖、创建、湖、数据集、轮廓
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 6%
 
 ---
@@ -27,43 +27,15 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
 
 ![](assets/dataset-export-setup.png)
 
-
 有关每个目标的详细信息，请参阅Adobe Experience Platform文档：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html)
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html)
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html)
-* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html)
-* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [数据登陆区](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google云存储](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
-## 可用于导出的数据集 {#datasets}
-
-从下表了解您可以导出哪些Journey Optimizer数据集。
-
-| 数据集 | 描述 |
-| ------- | ------- | 
-| AJO密件抄送反馈事件数据集 | AJO密件抄送反馈事件数据集 |
-| AJO分类数据集 | 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 |
-| AJO同意服务数据集 | 存储个人资料的同意信息。 |
-| AJO电子邮件跟踪体验事件数据集 | 用于报告和受众创建的电子邮件渠道的交互日志。  |
-| AJO实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  |
-| AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 |
-| AJO交互式消息配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
-| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。 |
-| AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 |
-| AJO推送配置文件数据集 | 存储用户档案的推送令牌。 |
-| AJO推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  |
-| AJO表面数据集 | 与Journey Optimizer入站表面架构相关的空数据集 |
-| AoutputForUPSDataset | 包含要写回UPS的所有AO受众成员资格 |
-| Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 |
-| 决策对象存储库 — 活动 | 在用户界面中又称为“决策” 。 但是，这些是用户创建的对象，它们将所有的构建块放在一起，包括决策逻辑。 例如，对于特定投放位置（位置），应考虑哪些优惠（优惠收藏集），以及要对这些优惠使用什么排名方法。 |
-| 决策对象存储库 — 后备优惠 | 这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 |
-| 决策对象存储库 — 个性化优惠 | 这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 | Ultimate |
-| 决策对象存储库 — 投放位置 | 这是一个对象存储库，其中定义了需要显示选件的位置。 |
-| 历程步骤事件 | 捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 |
-| 历程 | 元数据数据集存储历程中每个步骤的信息 |
-| ODE DecisionEvents - prod decisioning | 无论我们何时根据请求做出决策，我们都会将其计为决策事件 |
 
 ## 先决条件 {#prerequisites}
 
@@ -108,3 +80,31 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
    <!--![](assets/dataset-export-review.png)-->
 
 导出完成后，数据集的内容将根据您配置的计划存储在云存储位置。 [了解如何验证成功的数据集导出](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
+
+## 可用于导出的数据集 {#datasets}
+
+从下表了解您可以导出哪些Journey Optimizer数据集。
+
+| 数据集 | 描述 |
+| ------- | ------- | 
+| AJO密件抄送反馈事件数据集 | AJO密件抄送反馈事件数据集 |
+| AJO分类数据集 | 用于从Journey Optimizer中摄取电子邮件和推送应用程序反馈事件的数据集。 通过SDK创建。 |
+| AJO同意服务数据集 | 存储个人资料的同意信息。 |
+| AJO电子邮件跟踪体验事件数据集 | 用于报告和受众创建的电子邮件渠道的交互日志。  |
+| AJO实体数据集 | 用于存储发送给最终用户的消息的实体元数据的数据集。  |
+| AJO入站活动事件数据集 | 用于交付和交互事件的Journey Optimizer Web和应用程序内渠道的数据集。 |
+| AJO交互式消息配置文件数据集 | 存储为支持API触发的营销活动而创建的用户档案 |
+| AJO消息反馈事件数据集 | 消息投放日志。 有关从 Journey Optimizer 执行用于报告和创建受众的所有消息投放的信息。此数据集中还记录了电子邮件 ISP 退回的反馈。 |
+| AJO配置文件计数器扩展 | 保存包含counter_value和expiryDate的对象的映射，以counter_id作为键值 |
+| AJO推送配置文件数据集 | 存储用户档案的推送令牌。 |
+| AJO推送跟踪体验事件数据集 | 用于报表和受众创建的推送渠道的交互日志。  |
+| AJO表面数据集 | 与Journey Optimizer入站表面架构相关的空数据集 |
+| AoutputForUPSDataset | 包含要写回UPS的所有AO受众成员资格 |
+| Audience Orchestration配置文件数据集 | 由受众组合受众的受众组合生成。 包含所有受众组合受众、其属性和扩充数据 |
+| 决策对象存储库 — 活动 | 在用户界面中又称为“决策” 。 但是，这些是用户创建的对象，它们将所有的构建块放在一起，包括决策逻辑。 例如，对于特定投放位置（位置），应考虑哪些优惠（优惠收藏集），以及要对这些优惠使用什么排名方法。 |
+| 决策对象存储库 — 后备优惠 | 这是用户创建的其他类型选件的存储库。 具体来说，如果他们没有查看个性化优惠的资格并且需要查看某些内容，那么他们至少将会看到后备优惠。 此数据集包含此类选件的属性 |
+| 决策对象存储库 — 个性化优惠 | 这是用户创建的选件类型的存储库。 因此，此数据集包含有关此类选件的属性 |
+| 决策对象存储库 — 投放位置 | 这是一个对象存储库，其中定义了需要显示选件的位置。 |
+| 历程步骤事件 | 捕获从Journey Optimizer生成的要由报表等服务使用的所有历程步骤体验事件。 |
+| 历程 | 元数据数据集存储历程中每个步骤的信息 |
+| ODE DecisionEvents - prod decisioning | 无论我们何时根据请求做出决策，我们都会将其计为决策事件 |

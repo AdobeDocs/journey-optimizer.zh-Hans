@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 8b0dc1ba58c856cc3a0864e408415c87e10801cf
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 92%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 92%
 
 >[!BEGINTABS]
 
->[!TAB 2024 年 10 月版本]
+>[!TAB  2025年2月版]
 
-10 月版现已上线，其中包括电子邮件内容锁定、与 Mobile Ink 的集成、历程中基于代码的体验和 Web 体验。以下功能此前在限量发布版 (LA) 中可用，现在所有人都可以使用：电子邮件配置个性化、审批策略、内容试验、改进的报告体验、多语言内容等。
+2月版现已上线！ 查看发行说明以了解新增功能和改进功能。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 

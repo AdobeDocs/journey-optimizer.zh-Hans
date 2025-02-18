@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 业务规则
-description: 了解如何定义频率规则
+title: 配置业务规则
+description: 了解如何定义业务频率规则
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1267'
 ht-degree: 14%
 
 ---
 
-# 业务规则 {#frequency-rules}
+# 配置业务规则 {#frequency-rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -124,7 +124,7 @@ ht-degree: 14%
 
 ### 每日频率上限 {#daily-frequency-cap}
 
-除了每月和每周外，还可按需提供每日频率上限。 有关更多信息，请与您的Adobe代表联系。
+除了每月和每周外，还可按需提供每日频率上限。 有关更多信息，请联系您的Adobe代表。
 
 每日频率上限在23:59:59 UTC之前的一天有效，并在第二天开始时重置为0。
 
@@ -176,7 +176,7 @@ ht-degree: 14%
    >
    >不会根据频率规则评估选定类别为&#x200B;**[!UICONTROL 事务型]**&#x200B;的消息。
 
-1. 您可以在[Customer Journey Analytics报表](../reports/report-gs-cja.md)和[实时报表](../reports/live-report.md)中查看从投放中排除的用户档案数，在这些报表中，业务规则将列为从投放中排除的用户的可能原因。
+1. 您可以在[Customer Journey Analytics报告](../reports/report-gs-cja.md)和[实时报告](../reports/live-report.md)中查看从投放中排除的用户档案数，在这些报告中，业务规则将列为从投放中排除的用户的可能原因。
 
 >[!NOTE]
 >

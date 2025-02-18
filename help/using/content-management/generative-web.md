@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '1080'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
 
+1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
+
+   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
+
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 
    如果您在制作提示时寻求帮助，请访问&#x200B;**[!UICONTROL 提示库]**，该库提供了多种提示想法来改进促销活动。
@@ -51,6 +55,7 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
 1. 使用&#x200B;**[!UICONTROL 文本设置]**&#x200B;选项定制提示：
 
    * **[!UICONTROL 通信策略]**：为生成的文本选择最合适的通信样式。
+   * **[!UICONTROL 语言]**：西班牙语、意大利语、瑞典语和挪威语语言选项已作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
    * **[!UICONTROL 音调]**：网页的音调应该会对您的受众产生共鸣。 无论您是要提供信息、好玩还是具有说服力，AI Assistant都可以相应地调整消息。
    * **文本长度**：使用滑块选择所需文本长度。
 
@@ -101,6 +106,10 @@ Journey Optimizer中的AI Assistant可以通过建议更可能引起受众共鸣
    ![](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. 为AI助手启用&#x200B;**[!UICONTROL 引用样式]**&#x200B;选项，以便根据引用内容对新内容进行个性化设置。 您还可以上传图像以将上下文添加到变体。
+
+1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
+
+   请注意，品牌功能作为专用测试版发布，并将在未来版本中逐步向所有客户提供。
 
 1. 通过描述要在&#x200B;**[!UICONTROL 提示]**&#x200B;字段中生成的内容，优化内容。
 

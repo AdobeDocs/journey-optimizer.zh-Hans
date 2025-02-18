@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 数据集入门
-description: 了解如何在 Adobe Journey Optimizer 中使用 Adobe Experience Platform 数据集
+description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform数据集
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: 平台、数据湖、创建、湖、数据集、个人资料
+keywords: 平台、数据湖、创建、湖、数据集、轮廓
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f9fdb738210c5450376bdbf86b44d385cd740fd0
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ![](assets/datasets-home.png)
 
-将数据添加到 [!DNL Adobe Experience Platform] 是构建个人资料的基础。然后，您便能够在 [!DNL Adobe Journey Optimizer] 中利用个人资料。首先定义架构，使用 ETL 工具准备数据并使其标准化，然后根据架构创建数据集。
+将数据添加到 [!DNL Adobe Experience Platform] 是构建轮廓的基础。然后，您便能够在 [!DNL Adobe Journey Optimizer] 中利用轮廓。首先定义架构，使用 ETL 工具准备数据并使其标准化，然后根据架构创建数据集。
 
 选择&#x200B;**浏览**&#x200B;选项卡，显示贵组织的所有可用数据集的列表。会显示每个列出数据集的详细信息，包括其名称、数据集所遵循的架构以及最近摄取运行的状态。
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->从2024年11月1日开始，流式分段将不再支持使用来自Journey Optimizer跟踪和反馈数据集的发送和打开事件。 此外，从2025年2月开始，将在Journey Optimizer系统生成的数据集中推出生存时间(TTL)护栏。 [了解详情](datasets-ttl.md)
+>自 2024 年 11 月 1 日起，流式分段将不再支持在 Journey Optimizer 跟踪和反馈数据集中使用发送和打开事件。此外，从 2025 年 2 月开始，将会推出用于 Journey Optimizer 系统生成的数据集的生存时间 (TTL) 护栏。[了解详情](datasets-ttl.md)
 
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
 **同意**
 
-* _同意服务数据集_：存储个人资料的同意信息。
+* _同意服务数据集_：存储轮廓的同意信息。
 
 **智能服务**
 
@@ -97,7 +97,7 @@ ht-degree: 95%
 
 ## 示例和用例{#uc-datasets}
 
-在[此端到端示例](../audience/creating-test-profiles.md)中，了解如何在 Adobe Journey Optimizer 中创建架构、数据集和摄取数据以添加到“测试”个人资料
+在[此端到端示例](../audience/creating-test-profiles.md)中，了解如何在 Adobe Journey Optimizer 中创建架构、数据集和摄取数据以添加到“测试”轮廓
 
 在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中，了解有关数据集创建的更多信息。
 

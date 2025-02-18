@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2167'
 ht-degree: 97%
 
 ---
@@ -313,7 +313,9 @@ ht-degree: 97%
       + [使用 AI 生成短信](using/content-management/generative-sms.md)
       + [使用 AI 生成 Web 内容](using/content-management/generative-web.md)
       + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
+      + [使用AI的登陆页面](using/content-management/generative-lp.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
+      + [创建和管理品牌(Beta)](using/content-management/brands.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [创建区域](using/content-management/multilingual-locale.md)
@@ -376,7 +378,7 @@ ht-degree: 97%
          + [区段定义](using/audience/creating-a-segment-definition.md)
          + [受众组合](using/audience/get-started-audience-orchestration.md)
          + [自定义上传](using/audience/custom-upload.md)
-         + [联合受众构成（限量发布）](using/audience/federated-audience-composition.md)
+         + [联合受众构成](using/audience/federated-audience-composition.md)
       + [营销活动和历程中的受众激活](using/audience/target-audiences.md)
       + [利用扩充属性](using/audience/enrichment-attributes.md)
    + 轮廓{#profiles}
@@ -658,7 +660,7 @@ ht-degree: 97%
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置业务规则](using/configuration/frequency-rules.md)
-   + [使用规则集 (LA)](using/configuration/rule-sets.md)
+   + [使用规则集](using/configuration/rule-sets.md)
    + 配置历程{#configure-journeys}
       + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成{#external-systems}
@@ -681,6 +683,7 @@ ht-degree: 97%
       + 操作配置{#action-journeys}
          + [关于操作](using/action/action.md)
          + [配置操作](using/action/about-custom-action-configuration.md)
+         + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
          + [在自定义操作中使用 API 调用响应](using/action/action-response.md)

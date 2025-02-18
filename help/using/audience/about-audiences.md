@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 22%
@@ -30,14 +30,16 @@ ht-degree: 22%
 
 受众是指具有相似行为和/或特征的人群。 它们使用Adobe Experience Platform Segmentation Service在Adobe Experience Platform上集中配置和维护，并可在Journey Optimizer中轻松访问，以便在您的旅程和营销活动中激活。
 
-Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众，从而加强营销工作。 在与Adobe Real-time Customer Data Platform结合使用时，Journey Optimizer可让您栈叠受众以实现更复杂的分段，并与其他Adobe Experience Cloud解决方案双向共享受众。
+Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众，从而加强营销工作。 在与Adobe Real-Time Customer Data Platform结合使用时，Journey Optimizer可让您栈叠受众以实现更复杂的分段，并与其他Adobe Experience Cloud解决方案双向共享受众。
 
 实时数据流或批量上传时，数据集更新和Journey Optimizer会实时动态地将个人移入和移出受众和历程。
 
 >[!BEGINSHADEBOX]
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
+
 * [分段服务UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]

@@ -1,18 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用规则集 (LA)
+title: 使用规则集
 description: 了解如何创建和应用规则集
 feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
-badge: label="有限发布版"
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 4ab4b48ba87c73552a15c9815877517934029d57
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1933'
 ht-degree: 12%
 
 ---
@@ -23,10 +22,6 @@ ht-degree: 12%
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
 >abstract="使用规则集对不同类型的营销通信应用频率限制。您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
-
->[!AVAILABILITY]
->
->规则集当前以有限可用性提供给选定的客户组。 请注意，此功能将在未来逐步向更多用户推出。 如果您有兴趣加入轮候表，请联系您的客户团队。
 
 ## 规则集入门 {#gs}
 
@@ -68,7 +63,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您最多可以创建3个自定义规则集。
+>您最多可以创建3个渠道域的本地规则集和5个历程域的本地规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -127,6 +122,10 @@ ht-degree: 12%
 1. 从&#x200B;**[!UICONTROL 持续时间]**&#x200B;下拉列表中，选择是每月、每周还是每日应用上限。 频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
 
    ![](assets/rule-set-capping-duration.png)
+
+   >[!AVAILABILITY]
+   >
+   >“每日”持续时间仅按需提供。 要获取访问权限，请联系Adobe代表以获取访问权限。
 
    各期间计数器到期如下：
 
@@ -193,7 +192,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->完全激活规则或规则集最多可能需要10分钟。 您无需修改消息或重新发布历程，规则即可生效。
+>完全激活规则或规则集最多可能需要20分钟。 您无需修改消息或重新发布历程，规则即可生效。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 

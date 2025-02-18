@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 架构入门
-description: 了解如何在 Adobe Journey Optimizer 中使用 Adobe Experience Platform 架构
+description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform架构
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 架构、平台、数据、结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。
 
-在本[文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}中了解如何构建架构
+在[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}中了解如何构建架构。
 
 [!DNL Adobe Journey Optimizer] 用户界面中的&#x200B;**架构**&#x200B;工作区允许您管理 Experience Data Model (XDM) 资源，包括架构、类别、架构字段组和数据类型。您可以查看和浏览由 Adobe 提供的核心资源，并为贵组织创建自定义资源和架构。
 
@@ -31,9 +31,9 @@ ht-degree: 100%
 
 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans){target="_blank"}中了解如何使用“架构”用户界面
 
-有关使用“架构编辑器”创建架构的分步文档，请参阅[本页](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}
+[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}提供了使用架构编辑器创建架构的分步文档。
 
-要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}，查看每个架构的字段和属性的完整列表。
 
 
 ## 操作方法视频{#video-schema}
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [创建架构、数据集并摄取数据，以在 Journey Optimizer 中添加测试用户档案](../audience/creating-test-profiles.md)
+>* [创建架构、数据集并摄取数据，以在 Journey Optimizer 中添加测试轮廓](../audience/creating-test-profiles.md)
 >* [XDM 系统概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}
 >* [数据建模的最佳实践](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hans){target="_blank"}
 >* [使用“架构注册表 API”创建架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hans){target="_blank"}

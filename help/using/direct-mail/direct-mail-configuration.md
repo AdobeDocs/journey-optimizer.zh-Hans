@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 179d0f8571bf2e4d4ea1c5ad8ab498de9e7b5550
+source-git-commit: b134fe166402e4ae49cd96fc09a19e14beb13523
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 21%
+source-wordcount: '1529'
+ht-degree: 19%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 21%
 
 1. 为您的配置设置一个名称。
 
-1. 选择用于导出直邮文件的Azure **[!UICONTROL 服务器类型]**。
+1. 选择Azure作为用于导出直邮文件的&#x200B;**[!UICONTROL 服务器类型]**。
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
@@ -163,6 +163,28 @@ ht-degree: 21%
 1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
    您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
+
+>[!TAB 数据登陆区]
+
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 直邮设置]** > **[!UICONTROL 文件路由]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建路由配置]**。
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. 为您的配置设置一个名称。
+
+1. 选择数据登录区域作为&#x200B;**[!UICONTROL 服务器类型]**&#x200B;用于导出直邮文件。
+
+   ![](assets/file-routing-config-type-dlz.png){width="800" align="center"}
+
+1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。<!--To find it, ...-->
+
+   ![](assets/file-routing-config-dlz-detail.png)
+
+1. 选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
+
+   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
+
+在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登录区的更多信息。
 
 >[!ENDTABS]
 

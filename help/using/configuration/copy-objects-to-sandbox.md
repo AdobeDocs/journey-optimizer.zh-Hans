@@ -8,17 +8,17 @@ topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
+source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1070'
 ht-degree: 4%
 
 ---
 
+# 将对象导出到另一个沙盒 {#copy-to-sandbox}
 
-# 将Journey Optimizer对象复制到另一个沙盒 {#copy-to-sandbox}
-
-沙盒工具允许您利用包导出和导入，跨多个沙盒复制对象，如历程、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
+您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
 本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
@@ -88,13 +88,13 @@ Journey Optimizer允许将历程、内容模板和片段导出到另一个沙盒
 >
 >对于历程导出，除了历程本身之外，Journey Optimizer还复制了历程所依赖的大多数对象：受众、架构、事件和操作。 有关历程导出的更多详细信息，请参阅[此部分](../building-journeys/copy-to-sandbox.md)。
 
-## Publish要导出的包 {#publish}
+## 发布要导出的资源包 {#publish}
 
 准备好导出包后，请按照以下步骤发布包：
 
 1. 导航到&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 沙盒]**&#x200B;菜单，选择&#x200B;**包**&#x200B;选项卡。
 
-1. 打开要导出的包，选择要导出的对象，然后单击&#x200B;**Publish**。
+1. 打开要导出的包，选择要导出的对象，然后单击&#x200B;**发布**。
 
    在本例中，我们要导出历程、内容模板和片段。
 

@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="有限发布版"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '920'
 ht-degree: 23%
 
 ---
@@ -70,6 +70,10 @@ ht-degree: 23%
 
       1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;字段中，设置配置文件可以输入的最大历程数。
       1. 在&#x200B;**[!UICONTROL 持续时间]**&#x200B;字段中，定义要考虑的时间段。 请注意，持续时间基于UTC时区。 例如，每日上限将在UTC午夜重置。
+
+     >[!AVAILABILITY]
+     >
+     >“每日”持续时间仅按需提供。 要获取访问权限，请联系Adobe代表以获取访问权限。
 
      在本例中，我们希望限制用户档案在一个月内输入超过“5”个历程。
 

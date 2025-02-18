@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 5%
 
 ---
@@ -48,19 +48,19 @@ ht-degree: 5%
 >
 >编辑或删除模板时，使用此模板创建的活动或历程（包括内容）不会受到影响。
 
-## 将模板显示为缩略图 {#template-thumbnails}
+## [!BADGE 有限可用性]{type=Informational}将模板显示为缩略图 {#template-thumbnails}
 
 选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;模式以将每个模板显示为缩略图。
 
 >[!AVAILABILITY]
 >
->此功能面向一小部分客户限量发布 (LA)。
+此功能面向一小部分客户限量发布 (LA)。
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
->当前只能为HTML类型的电子邮件内容模板生成正确的缩略图。
+当前只能为HTML类型生成正确的缩略图 email 内容模板。
 
 更新内容时，您可能需要等待几秒钟，更改才会反映在缩略图中。
 

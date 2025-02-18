@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '765'
 ht-degree: 97%
 
 ---
@@ -64,10 +64,6 @@ ht-degree: 97%
 >id="ajo_email_config_unsubscribe_custom"
 >title="定义如何管理取消订阅数据"
 >abstract="**Adobe 管理**：同意数据由您在 Adobe 系统内管理。<br>**客户管理**：同意数据由您在外部系统中管理，除非由您启动，否则 Adobe 系统中不会更新同意数据的同步。"
-
->[!AVAILABILITY]
->
->此功能面向一小部分客户限量发布 (LA)。
 
 如果您在 Adobe 之外管理同意，请选择&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项，以输入自定义取消订阅电子邮件地址和您自己的一键取消订阅 URL。
 

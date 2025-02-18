@@ -3,20 +3,21 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）
 description: 了解如何使用Adobe Experience Platform数据进行个性化。
+badge: label="Beta 版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
 
 ---
 
-# 使用 Adobe Experience Platform 数据进行个性化设置（Beta 版） {#aep-data}
+# 使用 Adobe Experience Platform 数据进行个性化设置{#aep-data}
 
 >[!AVAILABILITY]
 >
