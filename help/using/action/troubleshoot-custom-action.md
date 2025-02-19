@@ -9,9 +9,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
-source-git-commit: d7ef9cb8b74781d5c711bd2958070767735a3b24
+source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -48,11 +48,9 @@ ht-degree: 2%
 
 要测试自定义操作，请执行以下步骤：
 
-1. 导航到&#x200B;**自定义操作**&#x200B;配置屏幕，然后选择自定义操作。
-1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;按钮。
-
-在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
-
+1. 导航到&#x200B;**操作**&#x200B;配置屏幕，然后选择自定义操作。
+1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**按钮。
+   在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
 1. 在弹出窗口中，允许您指定请求参数：
 
    * 如果&#x200B;**自定义操作方法为GET**，则无需任何有效负载。
