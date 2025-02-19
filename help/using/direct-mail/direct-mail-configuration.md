@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 0510811c2777fc8483b4220cc5a9f023dd5bf2c6
+source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 20%
@@ -158,9 +158,9 @@ ht-degree: 20%
 
 >[!ENDTABS]
 
-5. 填写服务器类型的详细信息后，选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
+填写服务器类型的详细信息后，选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
-   您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
+您还可以选择&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;来创建文件路由配置，但只有在配置为&#x200B;**[!UICONTROL 活动]**&#x200B;后，您才能在配置中选择它。
 
 ## 创建直邮配置 {#direct-mail-surface}
 
