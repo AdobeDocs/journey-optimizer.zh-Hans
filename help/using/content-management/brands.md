@@ -7,10 +7,10 @@ badge: label="Beta 版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b1ccacd30acb886e06a3305f0c7046d85f558357
+source-git-commit: 288f44de1f92e808aa038020f247a720fefb6b1f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 22%
+source-wordcount: '389'
+ht-degree: 24%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 22%
 
 品牌指南是一组详细的规则和标准，用于建立品牌的视觉和语言标识。 它们用作参考，以在所有营销和通信平台上保持一致的品牌代表性。
 
-在[!DNL Journey Optimizer]中，您现在可以选择手动输入和组织品牌详细信息或上传品牌准则文档以进行自动信息提取。
+<!--Upload feature currently behind feature flag--
+
+In [!DNL Journey Optimizer], you now have the option to manually input and organize your brand details or upload brand guideline documents for automatic information extraction.-->
 
 ## 访问品牌 {#generative-access}
 
@@ -36,7 +38,7 @@ ht-degree: 22%
 
 1. 添加&#x200B;**AI助手**&#x200B;资源，然后从下拉菜单中选择&#x200B;**托管品牌套件**&#x200B;或&#x200B;**[!UICONTROL 启用Ai助手]**。
 
-   请注意，**[!UICONTROL 启用Ai助手]**&#x200B;权限仅提供对“品牌”菜单的只读访问权限。
+   请注意，**[!UICONTROL 启用Ai助手]**&#x200B;权限仅提供对&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单的只读访问权限。
 
    ![](assets/brands-permission.png){zoomable="yes"}
 
@@ -54,7 +56,11 @@ ht-degree: 22%
 
 ## 创建您的品牌 {#create-brand-kit}
 
-要创建和管理品牌指南，您可以自己输入详细信息，也可以上传品牌指南文档以自动提取信息：
+要创建和管理您的品牌指南，请执行以下步骤。
+
+<!--Upload feature currently behind feature flag--
+
+To create and manage your Brand guideline, you can either enter the details yourself, or upload your brand guidelines document to have the information extracted automatically:-->
 
 1. 在&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 创建品牌]**。
 
@@ -64,9 +70,7 @@ ht-degree: 22%
 
    ![](assets/brands-2-temp.png)
 
-<!--
-
-[Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)]
+<!--Upload feature currently behind feature flag so hidden from doc - should be available again by EOM (Feb)--
 
 1. Drag and drop or select your file to upload your brand guidelines and extract automatically relevant brand information. Click **[!UICONTROL Create brand]**.
 
@@ -78,19 +82,23 @@ ht-degree: 22%
 
 -->
 
-1. 在&#x200B;**[!UICONTROL 写入样式]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加准则或排除项。 您还可以添加示例。
+1. 在&#x200B;**[!UICONTROL 写入样式]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加准则或排除项，包括示例。
 
    ![](assets/brands-3.png)
 
 1. 在&#x200B;**[!UICONTROL 可视内容]**&#x200B;选项卡中，单击![](assets/do-not-localize/Smock_Add_18_N.svg)以添加其他准则或排除项。
 
-1. 要添加图像示例，请单击&#x200B;**[!UICONTROL 选择图像]**。 您还可以添加显示不正确用法的图像作为排除示例。
+1. 要添加显示正确用法的图像，请选择&#x200B;**[!UICONTROL 示例]**&#x200B;并单击&#x200B;**[!UICONTROL 选择图像]**。 您还可以添加显示不正确用法的图像作为排除示例。
 
    ![](assets/brands-4.png)
 
-1. 配置完毕后，单击&#x200B;**[!UICONTROL 保存]**，然后单击&#x200B;**[!UICONTROL 发布]**，以便在AI助手中提供“品牌”指南。
+1. 配置完毕后，单击&#x200B;**[!UICONTROL 保存]**，然后单击&#x200B;**[!UICONTROL 发布]**，以便在AI助手中提供您的品牌指南。
 
-1. 要对已发布的品牌进行修改，请单击&#x200B;**[!UICONTROL 编辑品牌]**。 请注意，这会在编辑模式下创建一个临时副本，并在发布后替换实时版本。
+1. 要对已发布的品牌进行修改，请单击&#x200B;**[!UICONTROL 编辑品牌]**。
+
+   >[!NOTE]
+   >
+   >这会在编辑模式下创建一个临时副本，并在发布后替换实时版本。
 
    ![](assets/brands-8.png)
 
@@ -105,6 +113,6 @@ ht-degree: 22%
 
    ![](assets/brands-6.png)
 
-现在，您可以从AI助手菜单的“品牌”下拉菜单访问您的品牌指南，从而生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](gs-generative.md)
+现在，可从AI助手菜单中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉菜单访问您的品牌指南，使其生成符合您规范的内容和资产。 [了解有关AI助手的详细信息](gs-generative.md)
 
 ![](assets/brands-7.png)
