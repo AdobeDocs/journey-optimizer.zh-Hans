@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 93%
+source-wordcount: '2305'
+ht-degree: 91%
 
 ---
 
@@ -75,6 +75,17 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
 
+## 受众护栏 {#audience}
+
+您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
+
+## 决策和决策管理护栏 {#decisioning}
+
+有关使用决策或决策管理时要牢记的护栏和限制，请参阅以下决策和决策管理部分：
+
+* [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
+* [决策管理护栏和限制](../offers/decision-management-guardrails.md)
+
 ## 历程护栏 {#journeys-guardrails}
 
 ### 一般历程护栏 {#journeys-guardrails-journeys}
@@ -85,7 +96,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 在历程中使用受众资格筛选时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的轮廓。
 * 轮廓的历程实例的最大大小为 1MB。在历程执行过程中收集的所有数据都存储在该历程实例中。因此，来自传入事件的数据、从 Adobe Experience Platform 检索的轮廓信息、自定义操作响应等都会存储在历程实例中并影响历程大小。当历程以事件开始时，建议限制该事件负载的最大大小（例如：小于 800 KB），以避免在历程执行过程中完成少数几个活动后就达到该限制。当达到该限制时，轮廓会处于错误状态并被从历程中排除。
 * 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。此全局超时会在个人进入历程 91 天后停止个人进度。[了解详情](../building-journeys/journey-properties.md#global_timeout)
-
 
 ### 常规操作 {#general-actions-g}
 
@@ -127,7 +137,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
 * Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
-
 ### 数据源 {#data-sources-g}
 
 * 可在客户历程中利用外部数据源，以实时查找外部数据。这些源必须可通过 REST API 使用，支持 JSON，并能够处理大量请求。
@@ -153,7 +162,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 特定护栏适用于&#x200B;**[!UICONTROL 更新轮廓]**&#x200B;活动。请参见[此页面](../building-journeys/update-profiles.md)中所列。
 
-
 ### 读取受众 {#read-segment-g}
 
 以下护栏适用于&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动：
@@ -166,18 +174,15 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用&#x200B;**读取受众**&#x200B;活动的建议。
 * 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
 
-
 ### 受众资格筛选 {#audience-qualif-g}
 
 以下护栏适用于&#x200B;**[!UICONTROL 受众资格筛选]**&#x200B;活动：
 
 * “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
 
-
 ### 表达式编辑器 {#expression-editor}
 
 * 以读取受众、受众资格筛选或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众并在历程中使用受众内条件。
-
 
 ### 应用程序内活动 {#in-app-activity-limitations}
 
@@ -197,8 +202,6 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * 应用程序内消息内容的大小限制为 2Mb。包含大图像可能会妨碍发布流程。
 
-
-
 ### 跳转活动 {#jump-g}
 
 特定护栏适用于&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。请参见[此页面](../building-journeys/jump.md#jump-limitations)中所列。
@@ -209,37 +212,3 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
 * 这些活动不能与应用程序内活动一起使用。
-
-## 受众护栏 {#audience}
-
-您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
-
-## 决策管理护栏 {#decision-management}
-
-### 性能护栏 {#performance-guardrails}
-
-投放吞吐量对应于决策管理应用程序服务在指定时间段内可以投放的决策响应数。下表显示了每秒的决策数。
-
-| API | 每秒决策数 |
-|---------|----------|
-| Decisioning API 请求 | 每秒 500 |
-| Edge Decisioning API 请求使用 Edge 分段 | 每秒 1,500 |
-| Edge Decisioning API 请求不使用 Edge 分段 | 每秒 5,000 |
-
-### 限制 {#offers-limitations}
-
-下面列出了决策管理的限制。
-
-* **批准的个性化产品建议 + 后备产品建议** - 批准的个性化产品建议和批准的后备产品建议加起来最多 10,000 个。
-* **决策** - 最多 10,000 个决策。
-* **实时决策** - Offer Decisioning 应用程序服务支持最多 1,000 个实时决策。
-* **每个响应返回的产品建议数** - 在请求中的所有决策范围内，Offer Decisioning 支持每个请求最多返回 100 个产品建议。
-* **收藏集** - 最多 10,000 个收藏集。
-* **每个决策的收藏集数** - 每个决策最多 30 个收藏集。
-* **决策规则 + 排名函数** 决策规则和排名函数加起来最多 10,000 个。
-* **放置环境** - 最多 1,000 个放置环境。
-* **每个决策的放置环境数** - 每个决策最多 30 个放置环境。
-* **每个决策的排名方法** - Offer Decisioning 应用程序服务支持为每个决策设置最多 30 个排名函数。
-* **AI 排名模型** - Offer Decisioning 应用程序服务支持最多 5 个 AI 排名模型。
-* **每个产品建议或收藏集的收藏集限定符数** - 在任意单个个性化产品建议或单个收藏集中，Offer Decisioning 应用程序服务支持最多 20 个收藏集限定符。
-* **收藏集限定符总数** - Offer Decisioning 应用程序服务支持最多 1,000 个收藏集限定符。

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2174'
 ht-degree: 97%
 
 ---
@@ -452,6 +452,7 @@ ht-degree: 97%
    + [决策功能入门](using/experience-decisioning/gs-decision.md)
    + 决策 {#experience-decisioning}
       + [决策入门](using/experience-decisioning/gs-experience-decisioning.md)
+      + [决策护栏和限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 参考{#api-reference}
          + 决策项{#decision-items}
             + [创建决策项](using/experience-decisioning/api-reference/decisions-items/create.md)
@@ -486,6 +487,7 @@ ht-degree: 97%
    + 决策管理{#offer-decisioning}
       + 决策管理入门 {#get-started-decision}
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
+         + [决策管理护栏和限制](using/offers/decision-management-guardrails.md)
          + [用户界面](using/offers/get-started/user-interface.md)
          + [创建和管理产品建议的关键步骤](using/offers/offer-library/key-steps.md)
          + [利用自定义上传受众进行决策](using/offers/custom-upload-decisioning.md)
