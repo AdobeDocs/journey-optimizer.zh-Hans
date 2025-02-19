@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 97%
+source-wordcount: '2191'
+ht-degree: 96%
 
 ---
 
@@ -521,6 +521,10 @@ ht-degree: 97%
          + [数据收集入门](using/offers/data-collection/data-collection.md)
          + [创建数据集以收集事件](using/offers/data-collection/create-dataset.md)
          + [配置事件捕获](using/offers/data-collection/schema-requirement.md)
+      + 利用上下文数据{#context-data}
+         + [上下文数据入门](using/offers/context-data.md)
+         + [上下文数据和Edge Decisioning请求](using/offers/context-data-edge.md)
+         + [上下文数据和决策请求](using/offers/context-data-decisioning.md)
       + 创建决策管理报表 {#create-reports}
          + [使用决策管理事件](using/offers/reports/get-started-events.md)
          + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '6064'
-ht-degree: 96%
+source-wordcount: '6117'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 96%
 * 在决策和决策管理部分中添加了护栏和限制。
    * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
    * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
+* 在决策管理文档中添加了有关上下文数据的新章节。 它提供了有关如何在决策引擎中利用上下文数据的信息，例如，设计一个决策规则，要求在发出决策请求时当前天气为≥80度。 [了解详情](../offers/context-data.md)
 
 ## 2025 年 1 月 {#jan-2025}
 

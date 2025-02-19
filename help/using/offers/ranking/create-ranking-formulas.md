@@ -5,11 +5,12 @@ feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
+mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 3%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 排名公式以&#x200B;**PQL语法**&#x200B;表示，可以利用配置文件属性、上下文数据和优惠属性。 有关如何使用PQL语法的更多信息，请参阅[专用文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hans)。
 
-创建排名公式后，您可以将其分配给决策中的投放位置。 有关此内容的更多信息，请参阅[在决策中配置优惠选择](../offer-activities/configure-offer-selection.md)。
+创建排名公式后，您可以将其分配给决策中的投放位置。 有关此内容的更多信息，请参阅[在决策中配置产品建议选择](../offer-activities/configure-offer-selection.md)。
 
 ## 创建排名公式 {#create-ranking-formula}
 
@@ -37,7 +38,7 @@ ht-degree: 3%
 
 1. 指定公式名称、说明和公式。
 
-   在本例中，我们希望在实际天气炎热时提高所有具有“hot”属性的选件的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。
+   在本例中，我们希望在实际天气炎热时提高所有具有“hot”属性的选件的优先级。 为此，在决策调用中传递了&#x200B;**contextData.weather=hot**。 [了解如何使用上下文数据](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
@@ -105,42 +106,6 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### 根据上下文数据提升具有特定优惠属性的优惠
-
-根据决策调用中传递的上下文数据提升某些选件。 例如，如果在决策调用中传递`contextData.weather=hot`，则必须提升所有带`attribute=hot`的优惠的优先级。
-
-**排名公式：**
-
-```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
-```
-
-请注意，使用决策API时，上下文数据将添加到请求正文中的配置文件元素，如下面的示例所示。
-
-**请求正文中的代码片段：**
-
-```
-"xdm:profiles": [
-{
-    "xdm:identityMap": {
-        "crmid": [
-            {
-            "xdm:id": "CRMID1"
-            }
-        ]
-    },
-    "xdm:contextData": [
-        {
-            "@type":"_xdm.context.additionalParameters;version=1",
-            "xdm:data":{
-                "xdm:weather":"hot"
-            }
-        }
-    ]
- }],
-```
-
 ### 根据客户购买所提供产品的倾向提升优惠内容
 
 您可以根据客户倾向得分提高选件的得分。
@@ -169,14 +134,100 @@ and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;ver
 }
 ```
 
-选件将包含&#x200B;*propensityType*&#x200B;的属性，该属性与得分中的类别匹配：
+### 根据上下文数据提升优惠 {#context-data}
 
-![](../assets/ranking-example-propensityType.png)
+[!DNL Journey Optimizer]允许您根据调用中传递的上下文数据提升某些选件。 例如，如果传递了`contextData.weather=hot`，则必须提升所有带`attribute=hot`的选件的优先级。 有关如何使用&#x200B;**Edge Decisioning**&#x200B;和&#x200B;**Decisioning** API传递上下文数据的详细信息，请参阅[此部分](../context-data.md)
 
-然后，您的排名公式可以将每个优惠的优先级设置为等于该&#x200B;*propensityType*&#x200B;的客户&#x200B;*propensityScore*。 如果未找到得分，请使用在选件中设置的静态优先级：
+请注意，在使用&#x200B;**Decisioning** API时，上下文数据将添加到请求正文中的配置文件元素，如下面的示例所示。
 
 ```
-let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
-in if(score.isNotNull(), score, offer.rank.priority)
+"xdm:profiles": [
+{
+    "xdm:identityMap": {
+        "crmid": [
+            {
+            "xdm:id": "CRMID1"
+            }
+        ]
+    },
+    "xdm:contextData": [
+        {
+            "@type":"_xdm.context.additionalParameters;version=1",
+            "xdm:data":{
+                "xdm:weather":"hot"
+            }
+        }
+    ]
+    
+}],
 ```
+
+以下示例说明了如何在排名公式中使用上下文数据来提高优惠的优先级。 展开每个部分以获取有关排名公式语法的详细信息。
+
+>[!NOTE]
+>
+>在Edge Decisioning API示例中，将`<OrgID>`替换为您的组织租户ID。
+
++++如果上下文数据中的渠道与客户首选的渠道匹配，则将优惠优先级提高10
+
+>[!BEGINTABS]
+
+>[!TAB 决策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.channel.isNotNull() and @{_xdm.context.additionalParameters;version=1}.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.channel.isNotNull() and xEvent.<OrgID>.channel.equals(_abcMobile.preferredChannel), offer.rank.priority + 10, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++如果在调用中传递“contextData.weather=hot”，则提升具有“attribute=hot”的所有选件的优先级。
+
+>[!BEGINTABS]
+
+>[!TAB 决策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.get("weather")=xEvent.<OrgID>.weather, offer.rank.priority + 5, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++Content Origin Boost
+
+>[!BEGINTABS]
+
+>[!TAB 决策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.contentorigin.isNotNull() and offer.characteristics.contentorigin=@{_xdm.context.additionalParameters;version=1}.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.contentorigin.isNotNull() and offer.characteristics.contentorigin=xEvent.<OrgID>.contentorigin, offer.rank.priority * 100, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++
+
++++天气提速
+
+>[!BEGINTABS]
+
+>[!TAB 决策API]
+
+`if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull() and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!TAB Edge Decisioning API]
+
+`if (xEvent.<OrgID>.weather.isNotNull() and offer.characteristics.weather=xEvent.<OrgID>.weather, offer.rank.priority * offer.characteristics.scoringBoost, offer.rank.priority)`
+
+>[!ENDTABS]
+
++++

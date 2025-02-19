@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '767'
 ht-degree: 7%
 
 ---
@@ -88,11 +88,11 @@ ht-degree: 7%
 
 ### 添加HTML或JSON文件 {#html-json}
 
-如果所选版面为HTML类型，则还可以添加来自[Adobe Experience CloudHTML库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的内容(Content)或JSON内容。
+如果所选版面为HTML类型，您还可以添加来自[HTML资源库](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的Adobe Experience Cloud或JSON内容。
 
-例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}中创建了一个HTML电子邮件模板，并要将它用于您的选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
+例如，您在[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}中创建了一个HTML电子邮件模板，并想要将该文件用于选件内容。 您只需将模板上传到&#x200B;**资源库**&#x200B;中，以便能够在优惠的呈现中重复使用它，而无需创建新文件。
 
-要在呈现中重用您的内容，请按照[此部分](#images)中的说明浏览&#x200B;**资源库**&#x200B;并选择您选择的HTML或JSON文件。
+要在呈现中重用您的内容，请按照[此部分](#images)中的说明浏览&#x200B;**资源库**，并选择您选择的HTML或JSON文件。
 
 ![](../assets/offer-browse-asset-library-json.png)
 
@@ -140,7 +140,7 @@ ht-degree: 7%
 
 在[Edge decisioning](../api-reference/offer-delivery-api/edge-decisioning-api.md)调用中传递上下文数据时，您可以利用这些数据动态地对呈现进行个性化。 例如，您可以根据实时因素（如决策时的当前天气条件）定制优惠的表示方式。
 
-为此，请使用`profile.timeSeriesEvents.`命名空间将上下文数据变量直接合并到呈现内容中。
+要在优惠呈现中使用上下文数据，请使用`profile.timeSeriesEvents.`命名空间将上下文数据变量直接合并到呈现内容中。
 
 下面是一个语法示例，用于根据用户的操作系统对优惠的表示进行个性化：
 
