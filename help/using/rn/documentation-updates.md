@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e8f2d9fd360438f692a5cf79359d3a64c1220be
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
-source-wordcount: '6051'
-ht-degree: 97%
+source-wordcount: '6045'
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 97%
    * E：用于在基于事件的历程中触发事件的快捷方式。
    * P：在基于受众的历程中触发事件的快捷方式，其中“一次单个轮廓”选项处于打开状态。
    * L：指定用于显示测试日志的快捷方式。
-* 更新了消息频率规则页面，除了每周或每月频率上限外，还可根据需要使用新增的每日频率上限功能。[了解详情](../configuration/frequency-rules.md#daily-frequency-cap)
+* 消息频率规则页面已更新，新增了有关每日频率上限的子部分，除了每周或每月上限外，还可应要求提供。
 * 改进并更新了同意策略页面，提供了指向 Experience Platform 文档的实用链接。[了解详情](../action/consent.md)
 * 添加了一个新的部分，介绍了您可以在网格视图模式（限量发布）下将 HTML 电子邮件内容模板显示为缩略图的操作。[了解详情](../content-management/content-templates.md#template-thumbnails)
 * 在“可投放性”页面中新增了一个部分，以说明反馈循环是什么以及如何加以利用。[了解详情](../reports/deliverability.md#feedback-loops)
@@ -140,7 +140,7 @@ ht-degree: 97%
 * 更新了高级表达式编辑器中可用函数的列表。[了解详情](../building-journeys/expression/functions.md)
 * 更新了 Split 函数的页面。[了解详情](../building-journeys/functions/functioninaudience.md)
 * 添加了有关选择启用或选择禁用推送通知对应用程序内消息的影响的信息。[了解详情](../in-app/create-in-app.md)
-* 更新了消息频率规则页面，以反映用户界面中可用的持续时间选项（每周或每月）。[了解详情](../configuration/frequency-rules.md)
+* 消息频率规则页面已更新，以反映用户界面中可用的持续时间选项（每周或每月）。
 * 更新了“编辑 PTR 记录”部分，以阐明无法手动创建 PTR 记录，以及需要编辑 PTR 记录以为其分配新子域的事实。[了解详情](../configuration/ptr-records.md#edit-ptr-record)
 
 ## 2024 年 1 月 {#jan-2024}
@@ -338,7 +338,7 @@ ht-degree: 97%
 ## 2022 年 8 月 {#august-2022}
 
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2022 年 8 月版本的所有新增功能和改进。[了解详情](release-notes.md)
-* “频度规则”部分已更新，以反映新的内联消息传递流程。[了解详情](../configuration/frequency-rules.md#apply-frequency-rule)
+* 频率规则部分已更新，以反映新的内联消息传递流程。
 * 现在，要获取有关如何配置订阅和创建登陆页面的视频，请参阅登陆页面部分的快速入门。 [了解详情](../landing-pages/get-started-lp.md#video)
 * 添加了对使用“读取受众”活动的历程的限制。[了解详情](../building-journeys/read-audience.md)
 * 表达式编辑器运算符页面已得到改进。[了解详情](../building-journeys/expression/operators.md)

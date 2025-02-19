@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 93%
@@ -41,7 +41,7 @@ ht-degree: 93%
 
    * 启用&#x200B;**密送电子邮件选项**，保存发送给客户的邮件副本。[了解详情](archiving-support.md#enable-bcc)
 
-   * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](frequency-rules.md)
+   * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](../configuration/rule-sets.md)
 
    * 在 Adobe Experience Platform 中存在多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。[了解详情](primary-email-addresses.md)
 

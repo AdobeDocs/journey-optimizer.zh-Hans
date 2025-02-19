@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的轮廓。</p>
-<p>有关更多信息，请参阅<a href="../configuration/frequency-rules.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../configuration/rule-sets.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
