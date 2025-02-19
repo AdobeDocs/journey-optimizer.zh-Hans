@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 850b78afc8f833e503b6ebe2ca5e8b47a0e8ff7a
+source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 20%
+source-wordcount: '1311'
+ht-degree: 21%
 
 ---
 
@@ -84,79 +84,67 @@ ht-degree: 20%
 
 >[!TAB Amazon S3]
 
-如果您选择&#x200B;**[!UICONTROL Amazon S3]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**：
+如果您选择&#x200B;**[!UICONTROL Amazon S3]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，请填写服务器的详细信息和凭据：
 
-1. 填写服务器的详细信息和凭据
+* **AWS bucket名称**：若要了解在何处查找您的AWS bucket名称，请参阅[此页面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
 
-   * **AWS bucket名称**：若要了解在何处查找您的AWS bucket名称，请参阅[此页面](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)。
+* **AWS访问密钥**：若要了解在何处查找您的AWS访问密钥ID，请参阅[此页面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)。
 
-   * **AWS访问密钥**：若要了解在何处查找您的AWS访问密钥ID，请参阅[此页面](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)。
+* **AWS密钥**：若要了解在何处查找您的AWS密钥，请参阅[此页面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
 
-   * **AWS密钥**：若要了解在何处查找您的AWS密钥，请参阅[此页面](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)。
+* **AWS区域**：选择服务器基础结构将位于的&#x200B;**[!UICONTROL AWS区域]**。 AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
 
-   * **AWS区域**：选择服务器基础结构将位于的&#x200B;**[!UICONTROL AWS区域]**。 AWS区域是AWS用来托管其云基础架构的地理区域。 通常，最好选择距离直邮提供商所在位置最近的区域。
-
-   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
+![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
-如果您选择&#x200B;**[!UICONTROL SFTP]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**：
+如果您选择&#x200B;**[!UICONTROL SFTP]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，请填写服务器的详细信息和凭据：
 
-1. 填写服务器的详细信息和凭据：
+* **帐户**：用于连接到SFTP服务器的帐户名称。
 
-   * **帐户**：用于连接到SFTP服务器的帐户名称。
+* **服务器地址**： &#x200B;SFTP服务器的URL。
 
-   * **服务器地址**： &#x200B;SFTP服务器的URL。
+* **端口**： FTP连接端口号。
 
-   * **端口**： FTP连接端口号。
+* **密码**：&#x200B;用于连接到SFTP服务器的密码。
 
-   * **密码**：&#x200B;用于连接到SFTP服务器的密码。
+![](assets/file-routing-config-sftp-detail.png)
 
-   ![](assets/file-routing-config-sftp-detail.png)
-
-   >[!NOTE]
-   >
-   >要指定服务器上保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
-
-1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
+>[!NOTE]
+>
+>要指定服务器上保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
 
 >[!TAB Azure]
 
-如果您选择&#x200B;**[!UICONTROL Azure]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**：
+如果您选择&#x200B;**[!UICONTROL Azure]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，请填写服务器的详细信息和凭据：
 
-1. 填写服务器的详细信息和凭据：
+* **Azure连接字符串**：若要查找您的&#x200B;**Azure连接字符串**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)。
 
-   * **Azure连接字符串**：若要查找您的&#x200B;**Azure连接字符串**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account)。
+  **Azure连接字符串**&#x200B;应遵循以下格式：
 
-     **Azure连接字符串**&#x200B;应遵循以下格式：
+  `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+* **容器名称**：若要查找您的&#x200B;**容器名称**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
 
-   * **容器名称**：若要查找您的&#x200B;**容器名称**，请参阅[此页面](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal)。
+  **容器名称**&#x200B;应只包含容器名称，而不包含任何斜杠。
 
-     **容器名称**&#x200B;应只包含容器名称，而不包含任何斜杠。
+  >[!NOTE]
+  >
+  >要在容器中指定保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
 
-     >[!NOTE]
-     >
-     >要在容器中指定保存文件的路径，请更新直邮营销活动的&#x200B;**[!UICONTROL 文件名]**&#x200B;字段以包含所需路径。 [了解详情](create-direct-mail.md#extraction-file)
-
-     ![](assets/file-routing-config-azure-detail.png)
-
-1. 若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
+  ![](assets/file-routing-config-azure-detail.png)
 
 >[!TAB 数据登陆区]
 
 如果您选择&#x200B;**[!UICONTROL 数据登陆区域]**&#x200B;作为&#x200B;**[!UICONTROL 服务器类型]**，则无需特定详细信息。
-
-若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 
 ![](assets/file-routing-config-dlz-detail.png)
 
 [!DNL Adobe Experience Platform]的所有客户都为每个沙盒配置了一个数据登陆区域容器。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中了解有关数据登陆区的更多信息。
 
 >[!ENDTABS]
+
+若要加密文件，请在&#x200B;**[!UICONTROL PGP/GPG加密密钥]**&#x200B;字段中复制并粘贴您的加密密钥。
 
 填写服务器类型的详细信息后，选择&#x200B;**[!UICONTROL 提交]**。 已创建状态为&#x200B;**[!UICONTROL 活动]**&#x200B;的文件路由配置。 现在可以在[直邮配置](#direct-mail-surface)中使用它。
 
