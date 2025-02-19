@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建测试用户档案
+title: 创建测试轮廓
 description: 了解如何创建测试用户档案
 feature: Profiles, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e798d413a4962bb037ff3cae595bcd87f4121e4f
 workflow-type: tm+mt
 source-wordcount: '1323'
 ht-degree: 3%
 
 ---
 
-# 创建测试用户档案 {#create-test-profiles}
+# 创建测试轮廓 {#create-test-profiles}
 
 在历程中使用[测试模式](../building-journeys/testing-the-journey.md)时需要测试配置文件，并且需要[预览和测试您的内容](../content-management/preview-test.md)。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 先决条件 {#test-profile-prerequisites}
 
-为了能够创建配置文件，您首先需要在Adobe[!DNL Journey Optimizer]中创建架构和数据集。
+为了能够创建配置文件，您首先需要在Adobe [!DNL Journey Optimizer]中创建架构和数据集。
 
 要&#x200B;**创建架构**，请执行以下步骤：
 
@@ -140,7 +140,7 @@ ht-degree: 3%
 1. 添加&#x200B;**[!UICONTROL 更新配置文件]**&#x200B;操作活动。
 1. 选择架构、**testProfiles**&#x200B;字段和数据集，并将值设置为&#x200B;**True**。 若要执行此操作，请在&#x200B;**[!UICONTROL VALUE]**&#x200B;字段中，单击右侧的&#x200B;**笔**&#x200B;图标，选择&#x200B;**[!UICONTROL 高级模式]**&#x200B;并输入&#x200B;**true**。
    ![](assets/test-profiles-26.png)
-1. 单击&#x200B;**[!UICONTROL Publish]**。
+1. 单击&#x200B;**[!UICONTROL 发布]**。
 1. 在&#x200B;**[!UICONTROL 受众]**部分中，检查配置文件是否已正确更新。
    ![](assets/test-profiles-28.png)
 
@@ -174,9 +174,12 @@ ht-degree: 3%
    ![](assets/test-profiles-21.png)
 
 您的测试用户档案已添加，现在可以在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
+
+
 >[!NOTE]
 >
 > 有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
+
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
