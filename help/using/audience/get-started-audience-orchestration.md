@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: ef7ae0a6ad1f582f91e53fd93dabffa39036a584
+source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 53%
+source-wordcount: '1030'
+ht-degree: 52%
 
 ---
 
@@ -97,13 +97,6 @@ ht-degree: 53%
 >title="其他轮廓"
 >abstract="打开此选项可以创建一个附加路径，其中包含与其他路径中指定的任意条件都不匹配的剩余轮廓。"
 
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="发布受众"
->abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
->
-[!BEGINSHADEBOX]
-
 此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您仅是 Real-time Customer Profile 客户并且没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
@@ -172,11 +165,6 @@ ht-degree: 53%
 >**受众合成**&#x200B;中的受众每天都会执行，因此您可能需要等待最多24小时才能在Journey Optimizer中使用它们。 受众构成受众中的丰富属性与上次构成运行一样新，过去最长可达24小时。
 
 ## 访问组合 {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_ao_publish"
->title="发布受众"
->abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
 
 所有创建的合成都可以从&#x200B;**[!UICONTROL 合成]**&#x200B;选项卡访问。 您可以使用列表中的省略号按钮随时复制或删除现有合成。
 
