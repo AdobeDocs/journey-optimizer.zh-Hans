@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: 102ea61835144b274c018b28881cacdb5ebba1fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 96%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️[本节](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容实验来比较决策与基于代码的体验渠道之间的差异。
+➡️[本节](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容试验来比较决策与基于代码的体验渠道。
 
 ## 何时使用基于代码的渠道或其他渠道 {#code-based-vs-other-channels}
 

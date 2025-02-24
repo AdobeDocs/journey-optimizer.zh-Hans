@@ -10,9 +10,9 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ ht-degree: 96%
 
 ## 列表取消订阅 {#list-unsubscribe}
 
-从列表中选择子域后，将显示&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项。 默认情况下处于启用状态。
+从列表中选择子域后，将显示&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项。默认情况下，它处于启用状态。
 
-利用该功能，您可以在电子邮件标头中包含一键式取消订阅URL。 [了解详情](list-unsubscribe.md)
+利用该功能，您可以在电子邮件标头中包含一键式取消订阅 URL。[了解详情](list-unsubscribe.md)
 
 ## 标头参数 {#email-header}
 
-在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入与使用该配置发送的电子邮件类型关联的发件人名称和电子邮件地址。 [了解详情](header-parameters.md)
+在&#x200B;**[!UICONTROL 标头参数]**&#x200B;部分中，输入与使用该配置发送的电子邮件类型关联的发件人名称和电子邮件地址。[了解详情](header-parameters.md)
 
 ## 密件抄送电子邮件 {#bcc-email}
 

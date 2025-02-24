@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B
 
 要提出访问和删除 Adobe Journey Optimizer 数据的请求，您必须有：
 
-* Adobe的组织ID
+* Adobe 组织 ID
 * 要对其执行操作的人员的身份标识符以及对应的命名空间。有关 Adobe Journey Optimizer 和 Experience Platform 中的标识命名空间的更多信息，请参阅[标识命名空间概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces)。
 
 ### Adobe Journey Optimizer 中用于 API 请求的必填字段值
