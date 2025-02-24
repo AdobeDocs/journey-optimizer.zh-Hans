@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '2191'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -391,9 +391,9 @@ ht-degree: 96%
    + [与其他解决方案集成](using/integrations/ajo-integrations.md)
    + [使用 Experience Manager Assets](using/integrations/assets.md)
    + [使用 Adobe Stock](using/integrations/stock.md)
-   + [使用Experience Manager模板](using/integrations/aem-templates.md)
-   + [使用Experience Manager内容片段](using/integrations/aem-fragments.md)
-   + [使用Dynamic Media](using/integrations/aem-dynamic.md)
+   + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
+   + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
+   + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
 + 跟踪和监测 {#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)

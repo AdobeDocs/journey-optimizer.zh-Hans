@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
 workflow-type: tm+mt
 source-wordcount: '2305'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->在极少数情况下，特定区域的临时中断可能会导致从历程中排除有效用户档案，或导致错误标记为退回的邮件。 恢复服务后，重新检查历程日志，验证同意配置文件字段，并根据需要重新发布历程。 在ISP中断的情况下，请参阅[本节](../configuration/manage-suppression-list.md#remove-from-suppression-list)以了解如何从禁止显示列表中删除配置文件。
+>在极少数情况下，特定区域的临时故障可能会导致从历程中排除有效的用户档案，或导致邮件被错误标记为退回。恢复服务后，重新检查历程日志，验证同意用户档案字段，并根据需要重新发布历程。如果 ISP 中断，请参阅[本部分](../configuration/manage-suppression-list.md#remove-from-suppression-list)，了解如何从禁止列表中移除用户档案。
 >
 
 ## 支持的浏览器 {#browsers}
@@ -115,7 +115,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 自定义操作 {#custom-actions-g}
 
-* 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5,000 个轮廓/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
+* 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5,000 个用户档案/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
 * 自定义操作 URL 不支持动态参数。
 * 支持 POST、PUT 和 GET 调用方法
 * 查询参数或标头的名称不得以“.”或“$”开始
@@ -130,8 +130,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 活动 {#events-g}
 
-* Journey Optimizer支持每秒5,000个入站旅程事件的峰值。
-* 事件触发的历程可能最多需要5分钟来处理历程中的第一个操作。
+* Journey Optimizer 支持的的峰值流量可达每秒 5,000 个入站历程。
+* 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
 * 业务事件无法与单一事件或受众资格筛选活动结合使用。
 * 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。

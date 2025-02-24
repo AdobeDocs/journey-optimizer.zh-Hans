@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -114,11 +114,11 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>灵活的受众评估允许您按需为选定的受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。</p>
+<p>通过灵活的受众评估，您可以按需为选定的受众运行分段作业，确保始终掌握最新的受众数据，然后再将受众作为 Journey Optimizer 历程和营销活动目标。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>有关更多信息，请参阅<a href="../audience/creating-a-segment-definition.md#flexible">详细文档</a>。</p>
 <p>此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p>可用日期：2025年1月28日</p>
+<p>发布日期：2025 年 1 月 28 日</p>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ ht-degree: 22%
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **电子邮件配置** — 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键取消订阅URL，作为电子邮件渠道配置设置的一部分。 [阅读更多](../email/list-unsubscribe.md#custom-managed)
+* **电子邮件配置** — 如果您在Adobe之外管理同意，则现在可以设置自定义取消订阅电子邮件地址和自定义一键取消订阅URL，作为电子邮件渠道配置设置的一部分。[了解详情](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

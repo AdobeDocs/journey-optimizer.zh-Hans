@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
 workflow-type: tm+mt
 source-wordcount: '6117'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 95%
 
 ## 2025 年 2 月 {#feb-2025}
 
-* **[!UICONTROL 发送时间优化]**&#x200B;的文档及其相关常见问题解答已更新、改进并移至新的专用页面。 [了解详情](../building-journeys/send-time-optimization.md)
-* 为历程事件添加了新护栏。 [了解详情](../start/guardrails.md#events-g)
-* 重组了内置渠道操作页面。 [了解详情](../building-journeys/journeys-message.md)
+* 更新并改进了&#x200B;**[!UICONTROL 发送时间优化]**&#x200B;的文档及其相关常见问题解答，且已将它们移至新的专门页面。[了解详情](../building-journeys/send-time-optimization.md)
+* 为历程事件添加了新护栏。[了解详情](../start/guardrails.md#events-g)
+* 重组了内置渠道操作页面。[了解详情](../building-journeys/journeys-message.md)
 * 在决策和决策管理部分中添加了护栏和限制。
    * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
    * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
@@ -40,15 +40,15 @@ ht-degree: 95%
 
 * **转发电子邮件**&#x200B;部分已更新，以指定将所有发送到&#x200B;**发件电子邮件**&#x200B;地址的电子邮件转发到转发电子邮件地址。如果未指定转发电子邮件，则将丢弃这些电子邮件。[了解详情](../email/email-settings.md#forward-email)
 
-* 传递到API触发的营销活动请求的最大上下文属性大小已更新为200 kb。 [了解详情](../campaigns/api-triggered-campaigns.md#contextual)
+* 传递到 API 触发营销活动请求的最大上下文属性大小已更新为 200 kb。[了解详情](../campaigns/api-triggered-campaigns.md#contextual)
 
-* **管理片段**&#x200B;页面已添加新部分，以说明如何向实时片段添加新属性。 整个页面也得到了改进。 [了解详情](../content-management/manage-fragments.md#adding-new-attributes)
+* **管理片段**&#x200B;页面中添加了新部分，以说明如何向实时片段添加新属性。此外，对整个页面进行了改进。[了解详情](../content-management/manage-fragments.md#adding-new-attributes)
 
-* “护栏和限制”部分已添加到冲突管理和优先级设置工具文档。 [了解详情](../conflict-prioritization/gs-conflict-prioritization.md)
+* 冲突管理和优先级设置工具文档中添加了“护栏和限制”部分。[了解详情](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* 已添加新的端到端用例，以通过基于[!DNL Journey Optimizer]代码的体验渠道提供在内容实验中使用Decisioning所需的所有步骤。 [了解详情](../experience-decisioning/experience-decisioning-uc.md)
+* 添加了新的端到端用例，展示通过 [!DNL Journey Optimizer] 基于代码的体验渠道在内容试验中使用决策功能所需的所有步骤。[了解详情](../experience-decisioning/experience-decisioning-uc.md)
 
-* 为了提高可读性，**配置电子邮件设置**&#x200B;页面已划分为多个子页面，包括专用于[列表取消订阅](../email/list-unsubscribe.md)、[标头参数](../email/header-parameters.md)和[URL跟踪](../email/url-tracking.md)的新独立页面。
+* 为了提高可读性，**配置电子邮件设置**&#x200B;页面已划分为多个子页面，包括专门介绍[列表取消订阅](../email/list-unsubscribe.md)、[标头参数](../email/header-parameters.md)和 [URL 跟踪](../email/url-tracking.md)的新独立页面。
 
 ## 2024 年 12 月 {#nov-2024}
 

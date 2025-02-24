@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 配置列表取消订阅
-description: 了解如何在设置渠道配置时，在电子邮件的标题中包含一键式取消订阅URL
+description: 了解如何在设置渠道配置时将一键式取消订阅 URL 包含在电子邮件标头中
 feature: Email, Surface
 topic: Administration
 role: Admin
@@ -11,8 +11,8 @@ keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b3655506dff97756a59a63d5b8f0c358dc7c7510
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -108,7 +108,7 @@ GET 调用如下：
 
 +++ Mailto（取消订阅）
 
-使用 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，单击“取消订阅”链接会向特定的取消订阅地址发送预填电子邮件。
+使用 **[!UICONTROL Mailto（取消订阅）]**&#x200B;选项，单击“取消订阅”链接会向指定的取消订阅地址发送预填电子邮件。
 
 GET 调用如下。
 
