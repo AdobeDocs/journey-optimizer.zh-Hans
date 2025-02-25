@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 24%
@@ -50,7 +50,7 @@ ht-degree: 24%
 
 * 在历程中使用受众资格筛选时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的轮廓。
 
-### 配置活动{#cnfigure-segment-qualification}
+### 配置活动 {#configure-segment-qualification}
 
 要配置&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动，请执行以下步骤：
 

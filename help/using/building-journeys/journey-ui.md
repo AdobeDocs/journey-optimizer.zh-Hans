@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 29%
+source-wordcount: '1124'
+ht-degree: 26%
 
 ---
 
@@ -64,11 +64,19 @@ ht-degree: 29%
 
 ## 历程类型 {#journey-types}
 
-类型可以是： **[!UICONTROL 单一事件]**、**[!UICONTROL 受众资格]**、**[!UICONTROL 读取受众]**&#x200B;或&#x200B;**[!UICONTROL 商业事件]**。
+历程的类型取决于该历程中使用的活动。 它可以是：
+
+* **[!UICONTROL 单一事件]** — 单一事件历程链接到特定个人资料。 事件与个人的行为或与个人相关的事情有关（例如，某人达到10,000个忠诚点数）。 [了解详情](../event/about-events.md)。
+* **[!UICONTROL 商业活动]**。 业务事件历程从非用户档案相关事件开始。 事件配置由技术用户执行，无法编辑。 [了解详情](../event/about-events.md)。
+* **[!UICONTROL 受众资格]** — 受众资格历程监听Adobe Experience Platform受众中用户档案的进出口，以使个人进入历程或在历程中前进。 [了解详情](audience-qualification-events.md)。
+* **[!UICONTROL 读取受众]** — 在读取受众历程中，受众中的所有个人都进入历程并接收历程中包含的消息。  [了解详情](read-audience.md)。
+
+
+在[此页面](entry-management.md)中了解有关历程类型和关联条目管理的更多信息。
 
 ## 历程状态 {#journey-statuses}
 
-历程状态可以是：
+历程状态取决于其生命周期。 它可以是：
 
 * **已关闭**：历程已使用&#x200B;**关闭新入口**&#x200B;按钮关闭。 历程停止让新个人进入历程。 已处于历程中的人员可以正常完成历程。
 * **草稿**：历程处于第一阶段。 它尚未发布。

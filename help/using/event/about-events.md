@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '986'
 ht-degree: 52%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="历程事件"
->abstract="事件与个人相关联。它与一个人的行为（例如，一个人购买了产品、访问了商店、退出了网站等）或与一个人相关的某件事（例如，一个人达到了 10,000 个忠诚度积分）有关。这就是 Journey Optimizer 在历程中将侦听的内容，以编排最佳的后续行动。"
+>abstract="事件与个人相关联。它与一个人的行为（例如，一个人购买了产品、访问了商店、退出了网站等）或与一个人相关的某件事（例如，一个人达到了 10,000 个忠诚度积分）有关。Journey Optimizer在旅程中侦听单一事件，以编排最佳的后续行动。"
 
-事件配置允许您定义 [!DNL Journey Optimizer] 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用同一个事件。
+事件配置允许您定义[!DNL Journey Optimizer]作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用同一个事件。
 
 >[!CAUTION]
 >
@@ -60,7 +60,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部Journey Optimizer数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。 对于无法获取流式处理事件的用例，请根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格，但根据所使用的操作，可能会导致下游挑战。 此数据不一定需要转至实时轮廓。如果要在单独的历程中使用事件进行分段或查找，我们建议您为轮廓启用数据集。
+>Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。对于无法获取流式处理事件的用例，请根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格，但根据所使用的操作，可能会导致下游挑战。 此数据不一定需要转至实时轮廓。如果要在单独的历程中使用事件进行分段或查找，我们建议您为轮廓启用数据集。
 
 ## 数据周期 {#data-cycle}
 
