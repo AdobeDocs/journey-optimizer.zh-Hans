@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,12 @@ You can also create audience-based campaigns to send messages.-->
 
 * **智能化决策和个性化** - 品牌厂商可以应用集中化的决策，并采用人工智能和机器学习技术来对客户体验的整个过程进行预测性分析，从而更轻松地实现决策的自动化和大规模的体验优化。决策功能支持通过 [!DNL Adobe Journey Optimizer] 对跨渠道的产品建议进行规模化的集中管理。
 
+
+>[!NOTE]
+>
+> 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系您的Adobe客户成功经理或Adobe代表。
+
+
 ## 架构 {#architecture}
 
 在下图中，了解 [!DNL Adobe Journey Optimizer] 的基本架构、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之间的关系。
@@ -63,7 +69,7 @@ You can also create audience-based campaigns to send messages.-->
 >[!NOTE]
 >
 > Adobe Experience Cloud 一般隐私准则和程序适用于 [!DNL Journey Optimizer]。[进一步了解 Adobe Experience Cloud 隐私](https://www.adobe.com/cn/privacy/experience-cloud.html)。
-> 在开始之前，您还需要了解](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans)针对 Real-time Customer Profile 数据的防护。[
+>
 
 
 >[!MORELIKETHIS]

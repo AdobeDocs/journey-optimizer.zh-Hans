@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1361'
+ht-degree: 97%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 100%
 
 浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide)。{target="_blank"}
 
-用户界面中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何问题，请联系 Adobe 客户成功经理。
 
 >[!NOTE]
 >
->本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
+>* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系您的Adobe客户成功经理或Adobe代表。
+>
+>* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
+>
 
 ## 左侧导航栏 {#left-nav}
 
