@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 341c5c6a1a451819737797bfa70a8625f900388d
+source-git-commit: 27c448948b4bcee97f8bbba1a7144bfef796905f
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 93%
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
-### 基于代码的渠道护栏 {#code-based-guardrails}
+## 基于代码的渠道护栏 {#code-based-guardrails}
 
 要在[!DNL Journey Optimizer]中使用基于代码的体验操作，并交付应用程序可以使用的代码内容有效负载，请按照[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件操作。
 
