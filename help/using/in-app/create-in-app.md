@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -55,7 +55,7 @@ ht-degree: 12%
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
-      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常API会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
+      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 API通常会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
@@ -96,8 +96,8 @@ ht-degree: 12%
       | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
       | 应用程序生命周期 | 时间 | 当满足指定的时间时触发。 |
       | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
-      | Places | 上次进入的POI | 由Places SDK触发，具体取决于客户上次输入的目标点(POI)。 |
-      | Places | 上次退出的POI | 由Places SDK触发，具体取决于您的客户上次退出兴趣点(POI)。 |
+      | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
+      | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
 +++
 
@@ -111,7 +111,7 @@ ht-degree: 12%
 
       * **[!UICONTROL 每次都显示]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中发生选定的事件时，始终显示消息。
       * **[!UICONTROL 显示一次]**：仅在首次在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中出现选定的事件时显示此消息。
-      * **[!UICONTROL 显示直至点进次数]**：在SDK发送交互事件并执行“已点击”操作之前，如果发生&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选定的事件，则显示此消息。
+      * **[!UICONTROL 显示直至点进次数]**：在SDK发送交互事件并执行“已点击”操作之前，出现在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件时显示此消息。
 
 1. 如有必要，请通过拖放其他操作或事件来完成旅程流程。 [了解详情](../building-journeys/about-journey-activities.md)
 
@@ -157,7 +157,7 @@ ht-degree: 12%
 
       | 包 | 触发器 | 定义 |
       |---|---|---|
-      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 通常API会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
+      | 将数据发送到Platform | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 API通常会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
       | 核心跟踪 | 跟踪操作 | 在调用移动设备代码API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的旧版功能时触发。 |
       | 核心跟踪 | 跟踪状态 | 在调用移动设备代码API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的旧版功能时触发。 |
       | 核心跟踪 | 收集PII | 在调用移动设备代码API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的旧版功能时触发。 |
@@ -198,8 +198,8 @@ ht-degree: 12%
       | 应用程序生命周期 | 启动次数 | 当满足指定的启动次数时触发。 |
       | 应用程序生命周期 | 时间 | 当满足指定的时间时触发。 |
       | Places | 当前POI | 在您的客户进入指定的目标点(POI)时，由Places SDK触发。 |
-      | Places | 上次进入的POI | 由Places SDK触发，具体取决于客户上次输入的目标点(POI)。 |
-      | Places | 上次退出的POI | 由Places SDK触发，具体取决于您的客户上次退出兴趣点(POI)。 |
+      | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
+      | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
 +++
 
@@ -211,7 +211,7 @@ ht-degree: 12%
 
    * **[!UICONTROL Everytime]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选定的事件发生时，始终显示消息。
    * **[!UICONTROL 一次]**：仅在首次在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中发生选定的事件时显示此消息。
-   * **[!UICONTROL 点进之前]**：在SDK发送交互事件并执行“已点击”操作之前，当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息。
+   * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
 1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
@@ -240,7 +240,7 @@ ht-degree: 12%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
 +++
 
@@ -248,7 +248,7 @@ ht-degree: 12%
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
 +++
 
