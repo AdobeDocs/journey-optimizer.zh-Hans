@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
+source-git-commit: 3984009b7bf78673fa46481e26d75fae1bb007ea
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 26%
@@ -28,11 +28,11 @@ ht-degree: 26%
 >title="历程"
 >abstract="设计客户历程以营造个性化的上下文体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
 
-构建多步骤客户历程，实时启动跨渠道交互、优惠和消息序列。 此方法确保客户根据其行为和相关业务信号在最佳时刻参与。
+Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 [此页面](journey-ui.md)中详细介绍了历程用户界面。
 
 ![历程画布示例](assets/journey38.png)
 
-Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 [此页面](journey-ui.md)中详细介绍了历程用户界面。
+构建多步骤客户历程，实时启动跨渠道交互、优惠和消息序列。 此方法确保客户根据其行为和相关业务信号在最佳时刻参与。
 
 此页面详细介绍了创建历程的主要步骤。 其简化如下：
 
