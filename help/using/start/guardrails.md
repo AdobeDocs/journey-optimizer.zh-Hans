@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 95%
+source-wordcount: '2333'
+ht-degree: 94%
 
 ---
 
@@ -64,6 +64,10 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 [!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这将增加您的可参与轮廓的总数，如果超出您购买的可参与轮廓的合同数量，则可能会产生成本影响。[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
+### 基于代码的渠道护栏 {#code-based-guardrails}
+
+要在[!DNL Journey Optimizer]中使用基于代码的体验操作，并交付应用程序可以使用的代码内容有效负载，请按照[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件操作。
+
 ## 子域护栏 {#subdomain-guardrails}
 
 默认情况下，[!DNL Journey Optimizer] 允许您总共委派最多 10 个子域（包括电子邮件和 Web 渠道）。
@@ -85,6 +89,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
 * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
+
 
 ## 历程护栏 {#journeys-guardrails}
 

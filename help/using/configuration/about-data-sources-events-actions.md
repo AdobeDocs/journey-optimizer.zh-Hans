@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 配置，历程，功能板，数据源，事件，操作
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 65%
+source-wordcount: '408'
+ht-degree: 62%
 
 ---
 
-# 配置历程 {#configure-journeys}
+# 配置数据源、事件和操作 {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -45,7 +45,7 @@ Journey Optimizer消息功能内置：您只需将渠道操作活动添加到历
 
 在定义[事件有效负载](../event/about-creating.md#define-the-payload-fields)、[字段组有效负载](../datasource/configure-data-sources.md#define-field-groups)以及在[表达式编辑器](../building-journeys/expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在处理“eVars”和通用字段时，这个描述符特别有用。您可以通过 API 调用配置友好型名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans){target="_blank"}。
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。它在使用“eVars”和通用字段时特别有用。 您可以通过 API 调用配置友好型名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans){target="_blank"}。
 
 ![](assets/xdm-from-descriptors.png)
 

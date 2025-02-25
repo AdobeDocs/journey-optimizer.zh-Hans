@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 86%
+source-wordcount: '842'
+ht-degree: 85%
 
 ---
 
-# PTR 记录 {#ptr-records}
+# 创建和编辑PTR记录 {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 ## 访问子域的 PTR 记录 {#access-ptr-records}
 
-在您[委派](delegate-subdomain.md)您的第一个子域以在[!DNL Journey Optimizer]中Adobe后，将自动为您的IP创建PTR记录。 您可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL PTR记录]**&#x200B;菜单访问它们。
+在您[将](delegate-subdomain.md)的第一个子域委派给[!DNL Journey Optimizer]中的Adobe后，将自动为您的IP创建PTR记录。 您可以从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL PTR记录]**&#x200B;菜单访问它们。
 
 ![](assets/ptr-records.png)
 
@@ -50,7 +50,7 @@ ht-degree: 86%
 
 ## 编辑 PTR 记录 {#edit-ptr-record}
 
-在[!DNL Journey Optimizer]中，您无法手动创建PTR记录。 相反，一旦您[将](delegate-subdomain.md)您的第一个子域委派给Adobe，就会自动为您的IP创建PTR记录。
+在[!DNL Journey Optimizer]中，您无法手动创建PTR记录。 相反，一旦您[将您的第一个子域委派](delegate-subdomain.md)到Adobe，就会自动为您的IP创建PTR记录。
 
 您的每个IP都接收一个PTR记录。 所有PTR记录都具有以下格式：“rxx.subdomain”，其中“subdomain”是您在[!DNL Journey Optimizer]中委派的第一个子域。
 

@@ -1,15 +1,15 @@
 ---
-title: 创建优惠的关键步骤
-description: 探索创建选件所需的关键步骤
+title: 创建产品建议的关键步骤
+description: 探索创建产品建议所需的关键步骤
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 6a416ccbf658d128feb417ac2ab9ac79a0951a5a
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '325'
+ht-degree: 5%
 
 ---
 

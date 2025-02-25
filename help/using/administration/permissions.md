@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
-source-git-commit: be372f8f80d304067748d539fb8e210df6280721
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 7%
+source-wordcount: '739'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 使用[!DNL Journey Optimizer]产品，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 有关可用的&#x200B;**[!UICONTROL 角色]**&#x200B;的详细信息，请参阅此[页面](ootb-product-profiles.md)。
 
-当用户属于&#x200B;**[!UICONTROL Role]**&#x200B;时，将授予他们访问产品中包含的Adobe应用和服务的权限。
+当用户属于&#x200B;**[!UICONTROL Role]**&#x200B;时，将授予他们访问产品中包含的Adobe应用程序和服务的权限。
 
 如果预先存在的角色不符合您组织的特定需求，您还可以创建自定义&#x200B;**[!UICONTROL 角色]**，以微调对界面中特定功能或对象的访问权限。 这样，您就可以确保每个用户只能访问高效执行任务所需的资源和工具。
 
@@ -75,9 +75,9 @@ ht-degree: 7%
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. **[!UICONTROL 资源]**&#x200B;菜单显示应用于&#x200B;**[!UICONTROL Experience Cloud — 平台支持的应用程序]**&#x200B;产品的资源列表。 拖放资源以分配权限。
+1. **[!UICONTROL 资源]**&#x200B;菜单显示应用于&#x200B;**[!UICONTROL Experience Cloud - Platform支持的应用程序]**&#x200B;产品的资源列表。 拖放资源以分配权限。
 
-   从&#x200B;**[!UICONTROL 历程]**&#x200B;资源下拉列表中，我们在此处选择Publish历程&#x200B;**[!UICONTROL 权限]**。
+   从&#x200B;**[!UICONTROL 历程]**&#x200B;资源下拉列表中，我们在此处选择发布历程&#x200B;**[!UICONTROL 权限]**。
 
    ![](assets/do-not-localize/access_control_14.png)
 
@@ -125,4 +125,4 @@ ht-degree: 7%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;现已创建并配置。 您现在需要将其分配给用户。
 
-有关创建和管理角色的更多信息，请参阅[Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans)。
+有关创建和管理角色的更多信息，请参阅[Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html)。

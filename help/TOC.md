@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 97%
+source-wordcount: '2168'
+ht-degree: 92%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 97%
    + 短信/MMS 渠道{#sms}
       + [文本消息入门](using/sms/get-started-sms.md)
       + [创建短信 (SMS/MMS)](using/sms/create-sms.md)
-      + [检查并发送文本消息](using/sms/send-sms.md)
+      + [检查并发送短信](using/sms/send-sms.md)
       + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
       + 配置短信/MMS 渠道{#configure-sms}
@@ -282,7 +282,7 @@ ht-degree: 97%
          + [实施方法示例](using/code-based/code-based-implementation-samples.md)
          + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
       + 创建基于代码的体验{#create-code-based-experiences}
-         + [构建和编写基于代码的体验](using/code-based/create-code-based.md)
+         + [构建和撰写基于代码的体验](using/code-based/create-code-based.md)
          + [测试基于代码的体验](using/code-based/test-code-based.md)
          + [管理基于代码的体验](using/code-based/publish-code-based.md)
    + 内容卡{#content-card}
@@ -372,7 +372,7 @@ ht-degree: 97%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-+ 受众、轮廓和身份标识{#audiences-profiles-identities}
++ 受众、个人资料和身份{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + 创建受众 {#create}
@@ -395,7 +395,7 @@ ht-degree: 97%
    + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
    + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
-+ 跟踪和监测 {#reporting}
++ 跟踪和监视{#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
       + [组件列表](using/reports/live-report-components.md)
@@ -490,7 +490,7 @@ ht-degree: 97%
          + [关于决策管理](using/offers/get-started/starting-offer-decisioning.md)
          + [决策管理护栏和限制](using/offers/decision-management-guardrails.md)
          + [用户界面](using/offers/get-started/user-interface.md)
-         + [创建和管理产品建议的关键步骤](using/offers/offer-library/key-steps.md)
+         + [创建和管理优惠的关键步骤](using/offers/offer-library/key-steps.md)
          + [利用自定义上传受众进行决策](using/offers/custom-upload-decisioning.md)
          + [用例：在电子邮件中插入产品建议](using/offers/offers-e2e.md)
       + 创建组件{#create-components}
@@ -506,14 +506,14 @@ ht-degree: 97%
             + [自动优化模型](using/offers/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/offers/ranking/personalized-optimization-model.md)
             + [创建 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-      + 创建和管理产品建议 {#managing-offers-in-the-offer-library}
+      + 创建和管理优惠{#managing-offers-in-the-offer-library}
          + 配置产品建议 {#configure-offers}
             + [创建个性化产品建议](using/offers/offer-library/creating-personalized-offers.md)
             + [添加呈现](using/offers/offer-library/add-representations.md)
             + [添加约束](using/offers/offer-library/add-constraints.md)
          + [创建后备产品建议](using/offers/offer-library/creating-fallback-offers.md)
          + [创建收藏集](using/offers/offer-library/creating-collections.md)
-      + 创建和管理决策 {#create-manage-activities}
+      + 创建和管理决策{#create-manage-activities}
          + [创建决策](using/offers/offer-activities/create-offer-activities.md)
          + [在决策中配置产品建议选择](using/offers/offer-activities/configure-offer-selection.md)
          + [创建模拟](using/offers/offer-activities/simulation.md)
@@ -538,7 +538,7 @@ ht-degree: 97%
          + [备用数据集](using/offers/export-catalog/export-fallback.md)
       + API 参考 {#api-reference}
          + [快速入门](using/offers/api-reference/getting-started.md)
-         + 使用 API 创建和管理产品建议 {#offers-api}
+         + 使用API创建和管理优惠{#offers-api}
             + 放置环境 {#placements}
                + [列出放置环境](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查找放置环境](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -651,7 +651,7 @@ ht-degree: 97%
       + [委派子域](using/configuration/delegate-subdomain.md)
       + [设置 DMARC 记录](using/configuration/dmarc-record.md)
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
-      + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
+      + [访问和编辑PTR记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
    + 实施 IP 预热计划{#implement-ip-warmup-plan}
       + [开始使用 IP 预热计划](using/configuration/ip-warmup-gs.md)
@@ -668,8 +668,8 @@ ht-degree: 97%
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置业务规则](using/configuration/frequency-rules.md)
    + [使用规则集](using/configuration/rule-sets.md)
-   + 配置历程{#configure-journeys}
-      + [关于数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
+   + 配置历程 {#configure-journeys}
+      + [配置数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
       + 与外部系统集成{#external-systems}
          + [历程与外部系统的集成](using/configuration/external-systems.md)
          + [API 上限](using/configuration/capping.md)
@@ -716,4 +716,4 @@ ht-degree: 97%
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
    + [数据治理](using/action/action-privacy.md)
-   + [设置和管理客户托管密钥](using/privacy/cmk.md)
+   + [设置和管理客户管理的密钥](using/privacy/cmk.md)
