@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 33%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 33%
 # 历程入门{#jo-general-principle}
 
 Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道编排多步骤1:1历程所需的一切。 这包括直观的拖放画布，以编排历程的每个步骤，定义目标受众，并包括目标受众成员将根据行为、上下文数据和业务事件看到的跨渠道消息、选件和内容。
-
-我们首先定义启动客户历程的操作或事件，然后定义客户操作、事件、
-或上下文数据将无缝地指导他们进入下一个最佳步骤。 此过程从定义启动的操作或事件开始
-历程，然后定义接触点，客户操作、事件或上下文数据可无缝地引导他们进入下一个最佳步骤。
 
 使用[!DNL Journey Optimizer]使用存储在事件或数据源中的上下文数据构建实时编排用例。 您可以设计具有以下功能的多步高级方案：
 
@@ -33,10 +29,6 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 * 使用&#x200B;**内置操作**&#x200B;发送在 [!DNL Journey Optimizer] 中设计的消息；或者，如果您使用第三方系统，可以创建&#x200B;**自定义操作**&#x200B;来发送消息。
 
 * 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取受众活动、添加条件和发送个性化消息。
-
->[!NOTE]
->
->可在[此页面](../start/guardrails.md)中找到有关历程护栏和限制的详细信息。
 
 在[此页面](journey-gs.md)中了解如何创建和设计您的第一个历程。
 
@@ -53,6 +45,10 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 * [向订阅者发送消息](message-to-subscribers-uc.md)
 * [使用自定义操作动态传递集合](collections.md)
 * [使用外部数据源和自定义操作限制吞吐量](limit-throughput.md)
+
+>[!NOTE]
+>
+>可在[此页面](../start/guardrails.md)中找到有关历程护栏和限制的详细信息。
 
 ## 操作方法视频 {#video}
 
