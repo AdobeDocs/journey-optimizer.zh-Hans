@@ -5,7 +5,7 @@ role: User
 level: Beginner
 badge: label="有限发布版"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6e2a2505f1ffb7ff00f5e24763152b759073869d
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 23%
@@ -120,7 +120,7 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->如果立即激活历程，则系统可能需要长达15分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少15分钟之后开始。
+>如果立即激活历程，则系统可能需要长达20分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少20分钟之后开始。
 
 一旦旅程处于活动状态，如果规则集导致在&#x200B;**[!UICONTROL 历程排除项]**&#x200B;表中从旅程中排除任何内容，则可以签入旅程报告。 [了解如何使用历程报告](../reports/journey-global-report-cja.md)
 

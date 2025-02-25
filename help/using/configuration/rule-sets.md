@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
+source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -311,7 +311,7 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->如果立即激活历程，则系统可能需要长达15分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少15分钟之后开始。
+>如果立即激活历程，则系统可能需要长达20分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少20分钟之后开始。
 
 +++
 
