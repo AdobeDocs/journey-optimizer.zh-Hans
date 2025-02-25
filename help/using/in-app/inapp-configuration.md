@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: 应用程序内、消息、配置、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5f261b4c097023557f95831635f2be141dfc5bc8
+source-git-commit: ca296c9aa3705985a1fafcb64ec0f3fbe2fe84fa
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '921'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 9%
 
   ![](assets/inapp_config_6.png)
 
-* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您已启用默认合并策略&#x200B;**[!UICONTROL Active-On-Edge合并策略]**&#x200B;选项。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]**&#x200B;策略菜单下选择Experience Platform。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中，确保您已启用默认合并策略&#x200B;**[!UICONTROL Active-On-Edge合并策略]**&#x200B;选项。 为此，请在&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]** > **[!UICONTROL 合并策略]** Experience Platform菜单下选择一个策略。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   [!DNL Journey Optimizer]入站渠道使用此合并策略在边缘上正确激活和发布入站营销活动。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}
 
@@ -46,13 +46,14 @@ ht-degree: 9%
 
   ![](assets/inapp_config_8.png)
 
-* 要对Journey Optimizer移动体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery保证**&#x200B;中的&#x200B;**Adobe Experience Platform**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
+* 要对Journey Optimizer移动体验的交付进行故障诊断，您可以使用&#x200B;**Edge Delivery**&#x200B;中的&#x200B;**Adobe Experience Platform Assurance**&#x200B;视图。 利用此插件，您可以详细检查请求调用，验证预期的边缘调用是否按预期发生，并检查配置文件数据，包括身份映射、区段成员资格和同意设置。 此外，您还可以查看请求符合条件的活动，并识别未符合条件的活动。
 
   使用&#x200B;**Edge Delivery**&#x200B;插件可帮助您获得所需的见解，以便有效了解入站实施并排除其故障。
 
   [了解有关Edge Delivery视图的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/view/edge-delivery)
 
 ## 创建应用程序内配置 {#channel-prerequisites}
+
 
 1. 访问&#x200B;**[!UICONTROL 渠道]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 渠道配置]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建渠道配置]**。
 
@@ -62,7 +63,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 
@@ -72,7 +73,11 @@ ht-degree: 9%
 
    ![](assets/inapp_config_9.png)
 
-1. 选择要应用应用程序内消息的平台。
+1. 选择要定义设置的平台。 这样，您就可以为每个平台指定目标应用程序，并确保跨多个平台的一致内容交付。
+
+   >[!NOTE]
+   >
+   >对于iOS和Android平台，交付仅基于应用程序ID。 如果两个应用共享相同的应用ID，则无论在&#x200B;**[!UICONTROL 渠道配置]**&#x200B;中选择了什么平台，都将向两个应用交付内容。
 
    ![](assets/inapp_config_10.png)
 
