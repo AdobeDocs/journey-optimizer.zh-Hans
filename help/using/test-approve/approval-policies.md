@@ -4,15 +4,27 @@ description: 了解如何创建和管理审批策略。
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
+source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
-
 # 创建和管理审批策略 {#approval-policies}
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="请求审批"
+>abstract="请求审批"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="请求更改"
+>abstract="请求更改"
+
 
 >[!NOTE]
 >
@@ -21,6 +33,13 @@ ht-degree: 3%
 批准策略允许管理员为历程和营销活动建立验证流程。 此系统概述了特定条件，这些条件决定了历程或活动是否需要批准。 这些策略的复杂程度可能有所不同，从仅要求所有营销活动由特定用户或团队审核，到根据营销活动的创建者建立标准。
 
 ## 创建审批策略 {#create-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="新建审批策略"
+>abstract="在此屏幕中，输入名称并选择审批策略的上下文，然后构建条件以确定谁可以启动审批请求以及谁可以验证审批请求。"
+
+要创建批准策略，请执行以下步骤：
 
 1. 从Journey Optimizer的&#x200B;**[!UICONTROL 管理]**&#x200B;菜单中，依次访问&#x200B;**[!UICONTROL 权限]**&#x200B;和&#x200B;**[!UICONTROL 策略]**。
 
@@ -34,9 +53,11 @@ ht-degree: 3%
 
    ![](assets/policy_create_2.png)
 
-您现在可以优化条件以指定谁将启动审批请求以及谁将验证审批请求。
+您现在可以优化条件以指定谁可以启动审批请求以及谁可以验证审批请求。
 
 ## 设置审批策略的条件 {#conditions}
+
+要定义与审批策略关联的条件，请执行以下步骤：
 
 1. 访问您的&#x200B;**[!UICONTROL 审批策略]**。
 
@@ -133,4 +154,3 @@ ht-degree: 3%
 1. 从&#x200B;**[!UICONTROL 策略]**&#x200B;菜单中，打开高级选项，以根据需要编辑&#x200B;**[!UICONTROL 3}、**[!UICONTROL &#x200B;停用&#x200B;]**或**[!UICONTROL &#x200B;复制&#x200B;]**策略。]**
 
    ![](assets/policy_activate_2.png)
-
