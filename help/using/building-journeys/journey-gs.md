@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
+source-git-commit: 59bdddbf959505140be7a070dafe3e67aaae691b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '761'
 ht-degree: 26%
 
 ---
@@ -112,4 +112,6 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 在此[部分](../reports/live-report.md)中了解有关历程报告的更多信息。
 
-请注意，您可以复制现有历程或创建新版本的历程。 在[此页面](journey-ui.md)中了解详情
+>[!NOTE]
+>
+>如果需要修改为&#x200B;**实时**&#x200B;历程，请[创建历程的新版本](journey-ui.md#journey-versions)。
