@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: e9964494fa38a9e693eeb6c8bdfd6dd3d21262e0
+source-git-commit: d3ec39dc08b23f315914be57a617c921903fead8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 38%
 
 ---
@@ -31,6 +31,8 @@ Journey Optimizer历程设计器提供了营销人员和历程从业者跨渠道
 * 使用&#x200B;**历程设计器**，构建分步式用例：轻松地拖放进入事件或读取受众活动、添加条件和发送个性化消息。
 
 在[此页面](journey-gs.md)中了解如何创建和设计您的第一个历程。
+
+➡️[在视频中发现Journey Optimizer](#video)
 
 ## 用例{#uc-journey}
 
