@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: 6ba6f697060db83e2703bc0ac7cccbbccf816437
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 12%
@@ -258,7 +258,7 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. 在激活营销活动之前，请确保将其计划在将来的至少10分钟后执行。
+1. 在激活营销活动之前，请确保将其计划在将来的至少20分钟后执行。
 
    这样就有足够的时间在配置文件上为您选择的业务规则填充计数器值。 如果立即激活营销活动，规则集计数器值将不会填充在收件人的用户档案中，并且消息将不会计入其自定义规则集的频率上限规则中。
 
