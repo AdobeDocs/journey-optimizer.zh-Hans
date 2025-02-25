@@ -1,19 +1,19 @@
 ---
-title: 创建个性化优惠
+title: 创建个性化产品建议
 description: 了解如何创建、配置和管理优惠
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b4bd7290fca3221798ce677bdbfb2281e34cec37
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '817'
 ht-degree: 14%
 
 ---
 
-# 创建个性化优惠 {#create-personalized-offers}
+# 创建个性化产品建议 {#create-personalized-offers}
 
 在创建选件之前，请确保已创建：
 
@@ -27,7 +27,13 @@ ht-degree: 14%
 
 ![](../assets/offers_list.png)
 
-## 创建选件 {#create-offer}
+## 创建产品建议 {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_details"
+>title="优惠详细信息"
+>abstract="填写优惠的名称及其开始和结束日期。
+Outside of these dates, the offer won't be selected by the Decisioning engine."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -46,7 +52,7 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
->title="备用选件"
+>title="备用产品建议"
 >abstract="后备产品建议是当最终用户没有资格获得任何个性化产品建议时显示的默认产品建议。"
 
 要创建&#x200B;**选件**，请执行以下步骤：
