@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 66f8943093670b3310a600a77adcd8123bb213ff
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 9%
+source-wordcount: '1671'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 >title="测试您的历程"
 >abstract="在发布历程之前，使用测试轮廓来测试历程。这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。"
 
-在发布历程之前，使用测试轮廓来测试历程。此模式允许您运行历程测试并使用测试配置文件识别问题。
+构建历程后，您可以在发布之前对其进行测试。 Journey Optimizer提供“测试模式”，当测试用户档案在旅程中移动时查看测试用户档案，并在激活之前检测潜在错误。 通过运行快速测试，您可以检查历程是否正确运行，以便您能够放心地发布它们。
 
 只有测试配置文件才能进入处于测试模式的历程。 您可以创建新的测试用户档案，也可以将现有用户档案转换为测试用户档案。 在[本节](../audience/creating-test-profiles.md)中了解有关测试配置文件的更多信息。
 

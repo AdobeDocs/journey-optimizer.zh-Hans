@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 设计，画布，历程，界面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -59,13 +59,15 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 ![](assets/journey59bis.png)
 
-根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL Publish]**、**[!UICONTROL 复制]**、**[!UICONTROL 删除]**、**[!UICONTROL 测试模式]**、**[!UICONTROL 管理访问]**、**[!UICONTROL 警报]**。 如果未选择任何活动，则会显示这些按钮。 某些按钮将会根据上下文显示。 激活测试模式时，将显示测试模式日志按钮。
+根据历程的状态，您可以使用右上角提供的按钮对历程执行不同的操作： **[!UICONTROL 发布]**、**[!UICONTROL 复制]**、**[!UICONTROL 删除]**、**[!UICONTROL 测试模式]**、**[!UICONTROL 管理访问]**、**[!UICONTROL 警报]**。 如果未选择任何活动，则会显示这些按钮。 某些按钮将会根据上下文显示。 激活测试模式时，将显示测试模式日志按钮。
 
 ![](assets/journey41.png)
 
 ## 开始您的历程 {#start-your-journey}
 
-设计历程时，您想问的第一个问题是用户档案将如何进入历程。 有两种可能性：
+设计历程时，您想问的第一个问题是用户档案将如何进入历程。
+
+有两种可能性：
 
 1. **从事件开始**：当历程设置为侦听事件时，个人将实时统一进入历程&#x200B;****。 您的历程中包含的消息将发送给当前流入历程的人员。 [了解有关事件的更多信息](../event/about-events.md)
 

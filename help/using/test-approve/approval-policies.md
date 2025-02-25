@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: decd8e222a1cd2f8767a1b88b0af03aa209a741e
+source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 5%
+source-wordcount: '509'
+ht-degree: 4%
 
 ---
 
@@ -140,6 +140,8 @@ ht-degree: 5%
 您现在可以激活审批策略以应用它。
 
 ## 激活和管理审批策略 {#activate-policies}
+
+要应用审批策略，您必须激活它。 要执行此操作，请执行以下步骤：
 
 1. 访问您的&#x200B;**[!UICONTROL 审批策略]**。
 
