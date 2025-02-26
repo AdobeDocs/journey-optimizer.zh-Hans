@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -46,7 +46,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
@@ -76,7 +76,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->您的应用程序实施团队负责发出显式API或SDK调用，以获取选定基于代码的体验配置中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
+>您的应用程序实施团队负责发出显式API或SDK调用，以获取选定基于代码的体验配置中定义曲面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
 ### Web 平台 {#web}
 
