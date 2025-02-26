@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
+source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -38,7 +38,9 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 ![历程创建步骤：创建、设计、测试和发布](assets/journey-creation-process.png)
 
 
-构建多步骤客户历程可实时启动跨渠道的交互、优惠和消息序列。 此方法确保客户根据其行为和相关业务信号在最佳时刻参与。 可基于行为、上下文数据和业务事件定义Target受众。 先决条件取决于您的用例以及您正在构建的历程[类型](entry-management.md#types-of-journeys)。 在开始设计历程之前，请检查相关配置步骤是否已完成：
+构建多步骤客户历程可实时启动跨渠道的交互、优惠和消息序列。 此方法确保客户根据其行为和相关业务信号在最佳时刻参与。 可基于行为、上下文数据和业务事件定义Target受众。 先决条件取决于您的用例以及您正在构建的历程[类型](entry-management.md#types-of-journeys)。
+
+在开始构建历程之前，请检查相关配置步骤是否已完成：
 
 * 如果要在收到事件时统一触发历程，则需要&#x200B;**配置事件**。 您可以定义预期信息及其处理方式。 [了解更多信息](../event/about-events.md)。
 
