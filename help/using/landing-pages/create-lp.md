@@ -9,24 +9,20 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 20%
+source-wordcount: '1723'
+ht-degree: 21%
 
 ---
 
 # 创建和发布登陆页面 {#create-lp}
 
->[!CAUTION]
->
->若要能够测试和发布登陆页面，您必须具有&#x200B;**[!UICONTROL Publish Messages]**&#x200B;权限。
-
 要将您的客户定向到他们单击特定链接时要显示的已定义网页，请在[!DNL Journey Optimizer]中创建登陆页面，配置主页面和任何子页面，测试并发布它。
 
->[!CAUTION]
->
->您不能仅通过将[创建页面](#create-landing-page)时定义的URL复制粘贴到Web浏览器中来访问登陆页面，即使该URL已发布也是如此。 相反，您可以使用预览函数对其进行测试，如[此部分](#test-landing-page)中所述。
+创建登陆页面的主要步骤如下：
+
+![](assets/lp-creation-process.png)
 
 ## 访问登陆页面 {#access-landing-pages}
 
@@ -34,29 +30,28 @@ ht-degree: 20%
 
 ![](assets/lp_access-list.png)
 
-**[!UICONTROL 登陆页面]**&#x200B;列表显示所有创建的项目。 您可以根据它们的状态、修改日期或标记筛选它们。
+**[!UICONTROL 登陆页面]**&#x200B;列表显示所有现有的登陆页面。 您可以根据它们的状态、修改日期或标记筛选它们。
 
 ![](assets/lp_access-list-filter.png)
 
-从该列表中，您可以访问许多操作。 单击登陆页面旁边的三个圆点，以选择所需的操作：
+从该列表中，您还可以访问复制、删除、取消发布登陆页面或访问登陆页面报表。 为此，请单击登陆页面旁边的三个圆点，然后选择所需的操作：
 
 ![](assets/lp_access-list-actions.png)
 
-* 对于已发布的项目，您可以访问[登陆页面报告](../reports/lp-report-global-cja.md)或[最近24小时实时报告](../reports/lp-report-live.md)。
 
-* 您可以删除或复制登陆页面。
+您可以：
 
-  >[!NOTE]
-  >
-  >您无法删除[已发布](#publish-landing-page)登陆页面。 要删除它，必须先取消发布它。
+* 访问以下&#x200B;**报告**，适用于已发布的登陆页面：[登陆页面报告](../reports/lp-report-global-cja.md)和[最近24小时实时报告](../reports/lp-report-live.md)。
 
-* 您可以取消发布已发布的登陆页面。
+* **删除**&#x200B;或&#x200B;**复制**&#x200B;登陆页面。 您无法删除[已发布](#publish-landing-page)登陆页面。 要删除它，您必须先&#x200B;**取消发布**。
+
+* **取消发布**&#x200B;登陆页面。
 
   >[!CAUTION]
   >
-  >如果取消发布消息中引用的登陆页面，则将断开指向登陆页面的链接，并显示错误页面。
+  >如果取消发布消息中引用的登陆页面，则指向该登陆页面的链接将断开，并且如果用户尝试访问登陆页面，将收到错误页面。
 
-* 您还可以编辑登陆页面的关联[标记](../start/search-filter-categorize.md#tags)。
+* 编辑登陆页面的关联[标记](../start/search-filter-categorize.md#tags)。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -71,9 +66,11 @@ ht-degree: 20%
 >abstract="为了保护敏感的数字资产，您可以使用标签来定义授权，用于管理对登陆页面的数据访问。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="对象级访问控制"
 
-创建登陆页面的主要步骤如下：
 
-![](assets/lp-creation-process.png)
+要创建登陆页面，您必须选择一个预设，然后配置主页面和子页面，最后在发布页面之前对其进行测试。 这些步骤详述如下：
+
+
+1. 从左侧菜单浏览到&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。
 
 1. 从登陆页面列表中，单击&#x200B;**[!UICONTROL 创建登陆页面]**。
 
@@ -223,7 +220,7 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->若要能够测试登陆页面，您必须具有&#x200B;**[!UICONTROL Publish Messages]**&#x200B;权限。
+>要能够测试登陆页面，您必须具有&#x200B;**[!UICONTROL 发布消息]**&#x200B;权限。
 >
 >您必须具有可用的测试用户档案，才能预览消息并发送校样。 了解如何[创建测试配置文件](../audience/creating-test-profiles.md)。
 
@@ -289,7 +286,8 @@ ht-degree: 20%
 
 >[!CAUTION]
 >
->要发布登陆页面，您必须具有&#x200B;**[!UICONTROL Publish Messages]**&#x200B;权限。
+>要发布登陆页面，用户必须具有&#x200B;**[!UICONTROL 发布消息]**&#x200B;权限。
+
 
 准备登陆页面后，即可发布该页面，以供在消息中使用。
 
