@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，列表，订阅，服务
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 0000d5e4a11c316340382ea9b68f8252f109cb61
+source-git-commit: c66fe22f0cf81cf8e14592df1433739735afbe43
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '673'
 ht-degree: 7%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 7%
 
 ## 监测您的订阅列表 {#monitor-subscription-lists}
 
-您可以通过专用报告监控订阅列表的影响。 您可以访问：
+您可以通过专用报告监控订阅列表的影响。 您可以访问两种类型的报表：
 
 * 订阅列表实时报告
 
