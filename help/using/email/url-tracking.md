@@ -8,13 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
-source-git-commit: ad70e369dac61dc3ea261e7931c0b58e46c23dda
+exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
+source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 84%
+source-wordcount: '402'
+ht-degree: 83%
 
 ---
-
 
 # URL 跟踪 {#url-tracking}
 
@@ -28,11 +28,7 @@ ht-degree: 84%
 >title="预览 URL 跟踪参数"
 >abstract="查看如何对电子邮件内容中出现的 URL 附加跟踪参数。"
 
-在配置新的[电子邮件渠道配置](email-settings.md)时，您可以定义&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;以衡量跨渠道营销工作的有效性。
-
->[!NOTE]
->
->此功能属于可选功能。
+在配置新的[电子邮件渠道配置](email-settings.md)时，您可以定义&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;以衡量跨渠道营销工作的有效性。 激活此功能是可选的。
 
 相应部分中定义的参数将被附加到电子邮件内容中包含的URL的末尾。 然后，您可以在 Adobe Analytics 或 Google Analytics 等网站分析工具中捕获这些参数，并创建各种绩效报告。
 
