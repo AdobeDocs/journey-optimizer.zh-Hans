@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 26%
+source-wordcount: '412'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 26%
 >title="自定义操作"
 >abstract="通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。"
 
-通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
+使用自定义操作启用与第三方系统的连接，以发送消息或API调用。 可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
+
+在[此部分](../action/action.md)中了解自定义操作的详细信息。
+
+了解如何在[此页面](../action/about-custom-action-configuration.md)中创建和配置自定义操作。
 
 ## 同意和数据治理 {#privacy}
 
@@ -67,6 +71,3 @@ ht-degree: 26%
 
 在&#x200B;**[!UICONTROL 操作参数]**&#x200B;部分中，您将看到定义为&#x200B;_&quot;变量&quot;_&#x200B;的消息参数。 对于这些参数，您可以定义从何处获取此信息（例如：事件、数据源）、手动传递值或针对高级用例使用高级表达式编辑器。 高级用例可以是数据操作和其他功能使用。 请参阅此[页面](expression/expressionadvanced.md)。
 
-**相关主题**
-
-[配置操作](../action/about-custom-action-configuration.md)
