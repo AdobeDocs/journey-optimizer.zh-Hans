@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 8535040fd3fe1622d4358a762f92bd93f5694cfa
+source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
@@ -94,7 +94,7 @@ ht-degree: 8%
 
    此约束可以通过使用&#x200B;**决策规则**&#x200B;或一个或多个&#x200B;**Adobe Experience Platform受众**&#x200B;来应用。 [此部分](../offer-library/add-constraints.md#segments-vs-decision-rules)中详细介绍了这两项。
 
-   * 要将优惠选择限制为Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 受众]**，然后单击&#x200B;**[!UICONTROL 添加受众]**。
+   * 要将选件选择限制为Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 受众]**，然后单击&#x200B;**[!UICONTROL 添加受众]**。
 
      ![](../assets/activity_constraint_segment.png)
 
@@ -220,7 +220,7 @@ ht-degree: 8%
 
 **如果复制关闭**
 
-将多个决策范围添加到决策时，如果投放位置中不允许重复，则会按请求中决策范围的顺序顺序选择符合条件的优惠。
+在向决策添加多个决策范围时，如果不允许跨投放位置重复，则会按请求中的决策范围的顺序依次选择符合条件的优惠。
 
 >[!NOTE]
 >
@@ -264,7 +264,7 @@ ht-degree: 8%
 
 **如果重复位于**
 
-当允许跨所有投放位置重复时，可以在不同的投放位置中多次提议相同的选件。 如果启用，系统将考虑为多个投放位置使用相同的选件。 [了解有关重复参数的更多信息](../offer-library/creating-placements.md)
+当允许在所有版面中进行重复时，可以在不同的版面中多次提议相同的选件。 如果启用，系统将考虑为多个投放位置使用相同的选件。 [了解有关重复参数的更多信息](../offer-library/creating-placements.md)
 
 让我们看一下与上述相同的示例，其中您添加了两个决策范围，例如：
 
