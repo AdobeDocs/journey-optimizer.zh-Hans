@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 内容，实验，多个，受众，处理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 824926a3448acc57ed10074a92cc283cb8bbb658
+source-git-commit: c1dc65616219520a72416a62399f7c2dbca7ca77
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 12%
+source-wordcount: '746'
+ht-degree: 9%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="内容试验"
->abstract="您可以选择改变消息内容、主题或发件人，以便定义多种处理方法并确定最适合您受众的组合。"
+>abstract="您可以选择更改消息内容或主题，以定义多种处理方式并确定适用于受众的最佳组合。"
 
 >[!NOTE]
 >
 >在开始内容试验之前，请确保为自定义数据集设置了报表配置。 有关详细信息，请参阅[此部分](../reports/reporting-configuration.md)。
 
-Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种投放处理对目标受众的效果最佳。 您可以选择更改投放内容、主题或发件人。 感兴趣的受众被随机分配给每个处理，以确定哪个处理在指定的量度方面效果最佳。
+Journey Optimizer内容实验允许您定义多种投放处理，以衡量哪种投放处理对目标受众的效果最佳。 您可以选择更改投放内容或主题。 感兴趣的受众被随机分配给每个处理，以确定哪个处理在指定的量度方面效果最佳。
 
 ![](../rn/assets/do-not-localize/experiment.gif)
 
