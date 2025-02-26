@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 关于数据源
-description: 了解如何配置数据源
+title: 数据源入门
+description: 了解如何开始使用数据源
 feature: Journeys, Data Sources
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 数据，源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 57%
+source-wordcount: '344'
+ht-degree: 52%
 
 ---
 
-# 关于数据源 {#about-data-sources}
+# 数据源入门 {#about-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

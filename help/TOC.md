@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 05dc60a4eb33be91ba9cc7b4897fa1f28b5557b6
+source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2175'
 ht-degree: 92%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 92%
          + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
-         + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
+         + [在Experience Platform中使用自定义操作编写历程事件](using/building-journeys/custom-action-aep.md)
 + 营销活动{#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
@@ -683,17 +683,17 @@ ht-degree: 92%
          + [配置业务事件](using/event/about-creating-business.md)
          + [用于发送事件的其他步骤](using/event/additional-steps-to-send-events-to-journey.md)
       + 数据源配置{#data-source-journeys}
-         + [关于数据源](using/datasource/about-data-sources.md)
+         + [数据源入门](using/datasource/about-data-sources.md)
          + [配置数据源](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform 数据源](using/datasource/adobe-experience-platform-data-source.md)
          + [外部数据源](using/datasource/external-data-sources.md)
       + 操作配置{#action-journeys}
-         + [关于操作](using/action/action.md)
-         + [配置操作](using/action/about-custom-action-configuration.md)
+         + [自定义操作入门](using/action/action.md)
+         + [配置自定义操作](using/action/about-custom-action-configuration.md)
          + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
+         + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
-         + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
          + [与 Marketo Engage 集成](using/action/marketo-engage.md)
    + [源](using/start/get-started-sources.md)
    + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
