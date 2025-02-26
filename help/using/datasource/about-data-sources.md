@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 数据，源，历程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 66%
+ht-degree: 57%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 66%
 
 数据源有两种类型：
 
-* 预配置的 Adobe Experience Platform 数据源，它定义与实时客户资料服务的连接。这是一种内置数据源。请参阅[此页](../datasource/adobe-experience-platform-data-source.md)。
-* 外部数据源，它允许您定义与外部系统的连接。这些是您可以创建的数据源。请参阅[此页](../datasource/external-data-sources.md)。
+* 预配置的&#x200B;**Adobe Experience Platform数据源，它定义与实时客户资料服务的连接。**&#x200B;这是一种内置数据源。请参阅[此页](../datasource/adobe-experience-platform-data-source.md)。
+* 允许您定义与外部系统连接的&#x200B;**外部**&#x200B;数据源。 这些是您可以创建的数据源。请参阅[此页](../datasource/external-data-sources.md)。
 
 >[!NOTE]
 >
