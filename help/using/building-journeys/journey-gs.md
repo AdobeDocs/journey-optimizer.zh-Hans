@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 7adee85117a3aad1a347f9f0808b0f32531dc548
+source-git-commit: 93dab17fc74396887e3b68051be777645e02709f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 25%
@@ -42,19 +42,19 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 * 如果要在收到事件时统一触发历程，则需要&#x200B;**配置事件**。 您可以定义预期信息及其处理方式。 [了解更多信息](../event/about-events.md)。
 
-  ![](assets/jo-event7bis.png)
+<!--   ![](assets/jo-event7bis.png)  -->
 
 * 您的历程还可以侦听Adobe Experience Platform受众，以将消息批量发送到指定的一组用户档案。 为此，您需要&#x200B;**创建受众**。 [了解更多信息](../audience/about-audiences.md)。
 
-  ![](assets/segment2.png)
+<!--   ![](assets/segment2.png)  -->
 
 * 您可以定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 此连接依赖于&#x200B;**数据源**。 [了解详情](../datasource/about-data-sources.md)
 
-  ![](assets/jo-datasource.png)
+<!--   ![](assets/jo-datasource.png)  -->
 
 * Journey Optimizer附带[内置消息](../building-journeys/journeys-message.md)功能。 如果您使用第三方系统来发送消息，则可以&#x200B;**创建自定义操作**。 在此[部分](../action/action.md)中了解详情。
 
-  ![](assets/custom2.png)
+<!--    ![](assets/custom2.png)  -->
 
 
 作为数据工程师，有关配置历程（包括数据源、事件和操作）的步骤详情，请参见[此部分](../configuration/about-data-sources-events-actions.md)。

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1692'
 ht-degree: 19%
 
 ---
@@ -139,7 +139,13 @@ ht-degree: 19%
    >
    >将根据字段解析规则验证标头。 请参阅[此文档](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}以了解详情。
 
-## mTLS协议支持 {#mtls-protocol-support}
+## 传输安全层 {#tls}
+
+### TLS协议支持 {#tls-protocol-support}
+
+默认情况下，Adobe Journey Optimizer支持对自定义操作使用TLS 1.3。 如果客户端也支持TLS 1.3，则通过TLS 1.3进行通信。否则，TLS协商过程可能会回退到TLS 1.2。
+
+### mTLS协议支持 {#mtls-protocol-support}
 
 您可以使用相互传输层安全性(mTLS)来确保与Adobe Journey Optimizer自定义操作的出站连接中的增强安全性。 mTLS是一种用于相互身份验证的端到端安全方法，可确保共享信息的双方在数据共享之前都是声称的身份。 与TLS相比，mTLS还包括一个附加步骤，在该步骤中，服务器还会请求客户端的证书并在其末尾验证它。
 
