@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78664bdc8f68aa4cb1ac49719bf738a0727ace7c
+source-git-commit: 573e16c969dd0211513252e98194f18d88396c20
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2175'
 ht-degree: 92%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 92%
       + [审批请求](using/test-approve/review-approve-request.md)
 + 通信渠道 {#channels}
    + [通信渠道入门](using/channels/gs-channels.md)
-   + [通信渠道入门](using/channels/gs-channels-2.md)
    + 电子邮件渠道 {#email}
       + [电子邮件入门](using/email/get-started-email.md)
       + [创建电子邮件](using/email/create-email.md)
