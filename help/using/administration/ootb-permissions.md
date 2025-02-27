@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 | 仪表板 | **[!DNL View license usage dashboards]**：对[许可证使用情况仪表板](../audience/license-usage.md)的只读访问权限。 </br>**[!DNL Manage custom dashboards]**：允许您创建新仪表板或编辑现有仪表板。</br>**[!DNL Manage standard dashboards]**：允许您创建自定义构件，并通过构件库编辑构件架构。</br>**[!DNL View custom dashboards]**：对用户定义仪表板的只读访问权限。</br>**[!DNL View standard dashboards]**：对Profiles、Destinations和Audiences功能板的只读访问权限。 |
 | 数据收集 | **[!DNL Manage datastream]**：读取、创建和编辑数据流。</br>**[!DNL View datastream]**：对数据流的只读访问权限。 |
 | 数据治理 | **[!DNL Manage usage labels]**：读取、创建、编辑和删除标签。</br>**[!DNL Manage data usage policies]**：读取、创建、编辑和删除数据使用策略。</br>**[!DNL View data usage policies]**：属于您组织的数据使用策略的只读访问权限。</br>**[!DNL View user activity log]**：只读访问权限，可查看所记录的Platform活动审核日志。 |
-| 数据卫生 | **[!DNL Manage data hygiene]**：读取、创建、编辑和删除数据保健。</br>**[!DNL View data hygiene]**：数据卫生的只读访问权限。 |
+| 数据生命周期 | **[!DNL Manage data lifecycle]**：读取、创建、编辑和删除数据生命周期。</br>**[!DNL View data lifecycle]**：数据生命周期的只读访问。 |
 | 数据摄取 | **[!DNL Manage sources]**：读取、创建、编辑和禁用源。</br>**[!DNL View sources]**：“目录”选项卡中可用源的只读访问权限，以及“浏览”选项卡中经过身份验证的源的只读访问权限。 |
 | 数据管理 | **[!DNL Data monitoring]**：对监控数据集和流的只读访问权限。</br>**[!DNL Manage datasets]**：读取、创建、编辑和删除数据集。 架构的只读访问权限。</br>**[!DNL View datasets]**：对数据集和架构的只读访问权限。 |
 | 数据建模 | **[!DNL Manage identity metadata]**：读取、创建、编辑和删除架构的标识元数据。</br> **[!DNL Manage relationships]**：读取、创建、编辑和删除架构关系。</br>**[!DNL Manage schemas]**：读取、创建和编辑Experience Data Model (XDM)架构。</br>**[!DNL View schemas]**：对架构的只读访问权限。 |

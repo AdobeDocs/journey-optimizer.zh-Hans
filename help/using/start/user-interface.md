@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa1b26900ca4cf56a3ad95429320d1f5e9c920ed
+source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 97%
 
 * **[!UICONTROL 审核]** - 浏览到此部分，查看活动日志。[了解详情](../privacy/audit-logs.md)
 
-* **[!UICONTROL 数据卫生]** - 此部分允许您配置和计划数据卫生操作，确保正确维护记录。[了解详情](../privacy/data-hygiene.md)
+* **[!UICONTROL 数据生命周期]** — 此部分允许您配置和计划数据生命周期操作，确保您的记录得到正确维护。 [了解详情](../privacy/data-hygiene.md)
 
 ### [!UICONTROL 管理] {#left-nav-admin}
 
