@@ -1,19 +1,19 @@
 ---
-title: 基于代码的体验护栏和先决条件
+title: 基于代码的体验先决条件
 description: 要使用Journey Optimizer基于代码的功能编辑应用程序和网页，请遵循此页面上的先决条件
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
-# 护栏和先决条件 {#code-based-prerequisites}
+# 基于代码的体验先决条件 {#code-based-prerequisites}
 
 要在[!DNL Journey Optimizer]中使用基于代码的体验操作并交付应用程序可以使用的代码内容有效负载，请遵循以下先决条件：
 

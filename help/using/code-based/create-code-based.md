@@ -6,18 +6,16 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 10%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
 # 创建基于代码的体验 {#create-code-based}
 
 在[!DNL Journey Optimizer]中，您可以在历程或营销策划中创建基于代码的体验。
-
-要详细了解有关基于代码的体验的特定护栏和建议，请参阅[此页面](code-based-prerequisites.md)。
 
 ## 通过历程或营销活动添加基于代码的体验 {#create-code-based-experience}
 
