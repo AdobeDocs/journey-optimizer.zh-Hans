@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
 * **支持的渠道**：目前，此功能仅可用于电子邮件、短信和直邮渠道中。
 * **数据使用标签和强制执行**&#x200B;目前未对启用查找的数据集强制执行。
-* **表达式片段**：此时不能将数据集查找个性化置于表达式片段中。
+* **片段**：此时不能将数据集查找个性化放置在表达式或可视化片段中。
 
 ## 启用数据集进行数据查找 {#enable}
 
