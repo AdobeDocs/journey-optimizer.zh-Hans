@@ -9,13 +9,13 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
-source-git-commit: d6501c8cc7e3293bd6a057d8e74654bced7dae75
+exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
+source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '580'
 ht-degree: 2%
 
 ---
-
 
 # 自定义操作疑难解答 {#troubleshoot-a-custom-action}
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 * **基本身份验证：**&#x200B;用户必须提供&#x200B;*密码*。
 * **API密钥身份验证：**&#x200B;用户必须输入API密钥&#x200B;*值*。
-* **自定义身份验证：**&#x200B;用户必须在请求&#x200B;*bodyParam*&#x200B;中提供身份验证参数。 在此情况下添加了两个要完成的部分：**身份验证请求**&#x200B;和&#x200B;**身份验证响应**。
+* **自定义身份验证：**&#x200B;用户必须在请求&#x200B;*bodyParam*&#x200B;中提供身份验证参数。 在此情况下添加了两个部分： **身份验证请求**&#x200B;和&#x200B;**身份验证响应**。
 
 ## 主要优点 {#troubleshoot-custom-action-benefits}
 
@@ -94,4 +94,3 @@ ht-degree: 2%
 * 请求方法(GET与POST)以及相应的有效负载。
 * 在自定义操作中定义的API端点和标头。
 * 使用响应数据识别潜在的错误配置。
-
