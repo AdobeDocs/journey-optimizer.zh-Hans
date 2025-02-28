@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: bf18b629c23f9ef48d53b0042d466ba7c1f57c78
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 4%
 
 1. 在源沙盒中添加要作为包导出的对象。
 1. 将包导出到目标沙盒。
-
-此外，您可以利用Journey Optimizer **对象复制服务REST API**&#x200B;来管理沙盒的对象。 [了解如何使用对象复制服务REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## 导出的对象和最佳实践 {#objects}
 
