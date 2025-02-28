@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 24e6d2baf3470df402550a031d26ba33887f4fb9
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 26%
+source-wordcount: '621'
+ht-degree: 25%
 
 ---
 
@@ -153,6 +153,10 @@ ht-degree: 26%
 1. 删除，使用 forceDelete 参数
 
 用例n°5： **更新已部署的上限配置**
+
+>[!NOTE]
+>
+>如果更新已部署的配置，则必须重新部署。
 
 1. list
 1. get
