@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 26%
+source-wordcount: '501'
+ht-degree: 25%
 
 ---
 
@@ -85,3 +85,4 @@ ht-degree: 26%
 1. **创建决策策略并将其嵌入基于代码的营销活动**：决策策略将多个选择策略相结合，以确定要向目标受众显示的合格决策项。
 
    ➡️[了解如何使用决策策略](create-decision.md)
+➡️要通过基于代码的渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作
