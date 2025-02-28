@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: f930fd23431d826ba7efc72035811f0023fcf4d1
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="为文件选择服务器类型"
->abstract="选择要用于导出直邮文件的服务器类型：Amazon S3、SFTP、Azure或数据登陆区。"
+>abstract="选择您在导出以下直邮文件时要使用的服务器类型：Amazon S3、SFTP、Azure 或数据登陆区。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
