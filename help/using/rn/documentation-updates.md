@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a35b8005592aa84dc9a3ac674129064d012e3a56
+source-git-commit: c5873b9ec8cf8302e3af0598245facf571513925
 workflow-type: tm+mt
-source-wordcount: '6153'
+source-wordcount: '6164'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 97%
 
 ## 2025 年 2 月 {#feb-2025}
 
+* 更新了使用Campaign历程时的活动护栏。 [了解详情](../start/guardrails.md#ac-g)
 * 详细介绍了创建第一个历程的步骤，并添加了文档部分的链接。 [了解详情](../building-journeys/journey-gs.md)
 * 现在提供了新页面，以详细了解历程仪表板和筛选用户界面。 [了解详情](../building-journeys/journey-ui.md)
 * 更新并改进了&#x200B;**[!UICONTROL 发送时间优化]**&#x200B;的文档及其相关常见问题解答，且已将它们移至新的专门页面。[了解详情](../building-journeys/send-time-optimization.md)
