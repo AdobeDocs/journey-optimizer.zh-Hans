@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 6%
+source-wordcount: '1633'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 护栏和最佳实践 {#must-read}
 
-* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时开始的历程数存在上限。 系统将重试，但避免同时启动超过5个历程（具有&#x200B;**读取受众**，已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
+* 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但避免同时启动超过5个历程（具有&#x200B;**读取受众**，已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
 
 * 体验事件字段组不能用于以&#x200B;**读取受众**&#x200B;活动、**[受众资格](audience-qualification-events.md)**&#x200B;活动或业务事件活动开始的历程。
 
@@ -73,7 +73,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;和&#x200B;**现有**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
@@ -162,7 +162,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **区段**
 
-您可以使用&#x200B;**条件**&#x200B;活动使用条件执行分段。 例如，您可以让VIP人员采用特定路径，而非VIP人员采用其他路径。
+您可以使用&#x200B;**条件**&#x200B;活动使用条件执行分段。 例如，您可以让VIP人员采用特定的路径，而非VIP人员采用其他路径。
 
 分段可以基于：
 
@@ -188,7 +188,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 因此，您可以使两个受众返回同一个体验。
 
-例如，在旅程中完成十天的其他体验后，VIP和非VIP客户可以返回同一路径。
+例如，在旅程中的十天中完成其他体验后，VIP和非VIP客户可以返回到同一路径。
 
 合并后，您可以通过执行分段或排除来再次拆分受众。
 
@@ -197,7 +197,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 重试 {#read-audience-retry}
 
-默认情况下，在检索导出作业时对受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）应用重试。 如果在创建导出作业期间发生错误，将每10mn重试一次，最长为1小时。 之后，我们将它视为失败。 因此，这些类型的历程可以在计划时间后最多1小时执行。
+在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
 
 捕获了失败的&#x200B;**读取受众**&#x200B;触发器并将其显示在&#x200B;**警报**&#x200B;中。 如果&#x200B;**读取受众**&#x200B;活动在计划执行时间后的10分钟内未处理任何配置文件，则&#x200B;**读取受众警报**&#x200B;会警告您。 此故障可能是由技术问题或受众为空导致的。 如果这种失败是由技术问题引起的，请注意，根据问题的类型，重试仍然可能发生（例如：如果导出作业创建失败，我们将每10mn重试一次，最长为1h）。 [了解详情](../reports/alerts.md#alert-read-audiences)
 
