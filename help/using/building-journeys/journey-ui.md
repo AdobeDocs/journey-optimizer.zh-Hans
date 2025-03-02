@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 26%
@@ -68,7 +68,7 @@ ht-degree: 26%
 
 * **[!UICONTROL 单一事件]** — 单一事件历程链接到特定个人资料。 事件与个人的行为或与个人相关的事情有关（例如，某人达到10,000个忠诚点数）。 [了解详情](../event/about-events.md)。
 * **[!UICONTROL 商业活动]**。 业务事件历程从非用户档案相关事件开始。 事件配置由技术用户执行，无法编辑。 [了解详情](../event/about-events.md)。
-* **[!UICONTROL 受众资格]** — 受众资格历程监听Adobe Experience Platform受众中用户档案的进出口，以使个人进入历程或在历程中前进。 [了解详情](audience-qualification-events.md)。
+* **[!UICONTROL 受众资格]** — 受众资格历程将监听Adobe Experience Platform受众中用户档案的进出口，以便使个人进入历程或在历程中前进。 [了解详情](audience-qualification-events.md)。
 * **[!UICONTROL 读取受众]** — 在读取受众历程中，受众中的所有个人都进入历程并接收历程中包含的消息。  [了解详情](read-audience.md)。
 
 

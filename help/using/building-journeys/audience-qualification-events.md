@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 受众资格事件
-description: 了解受众资格事件
+description: 了解如何使用及配置受众资格事件
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 24%
+source-wordcount: '1212'
+ht-degree: 17%
 
 ---
 
@@ -33,7 +33,11 @@ ht-degree: 24%
 
 ➡️ [在视频中了解此功能](#video)
 
-### 重要说明{#important-notes-segment-qualification}
+### 重要说明 {#important-notes-segment-qualification}
+
+* 受众资格历程主要设计用于流受众：此组合将保证更好的实时体验。 我们强烈建议您在受众资格活动中仅使用&#x200B;**流式受众**。
+
+  但是，如果要在流式受众或受众资格历程的批量受众中使用基于批量摄取的属性，请考虑受众评估/激活的时间范围 — 在完成分段作业后&#x200B;**2小时**&#x200B;左右的&#x200B;**受众资格**&#x200B;活动中应准备好使用使用使用使用使用使用批量摄取的属性的批量受众或流式受众(此作业每天在Adobe组织管理员定义的时间运行一次)。
 
 * 请记住，Adobe Experience Platform受众每天计算一次（**批次**&#x200B;受众），或使用Adobe Experience Platform的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
 
@@ -46,9 +50,12 @@ ht-degree: 24%
   >
   >由于使用组合工作流和自定义上传创建的受众具有批次性质，因此无法在“受众资格”活动中定位这些受众。 此活动中只能利用使用区段定义创建的受众。
 
-* 以读取受众、受众资格或业务事件活动开始的历程中，无法使用体验事件字段组。
+* 以&#x200B;**读取受众**、**受众资格**&#x200B;或&#x200B;**业务事件**&#x200B;活动开始的历程中，无法使用体验事件字段组。
 
-* 在历程中使用受众资格筛选时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的轮廓。
+* 在历程中使用&#x200B;**受众资格**&#x200B;活动时，该活动可能最多需要10分钟才能激活，并侦听进入或退出受众的用户档案。
+
+
+另请参阅下面的[受众资格最佳实践](#best-practices-segments)。
 
 ### 配置活动 {#configure-segment-qualification}
 
@@ -100,7 +107,7 @@ ht-degree: 24%
 
 ![](assets/segment8.png)
 
-包括受众资格活动的新历程将在您发布十分钟后开始运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待10分钟才能使用此历程。
+包含&#x200B;**受众资格**&#x200B;事件的新历程将在您发布十分钟后开始运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待10分钟才能使用此历程。
 
 ## 最佳实践 {#best-practices-segments}
 
@@ -108,13 +115,13 @@ ht-degree: 24%
 
 该信息的接收速度很快。所做的测量显示速度为每秒接收 10,000 个事件。因此，您应该确保了解入口峰值可能如何出现、如何避开，以及如何使历程针对此类情况做好准备。
 
-### 批量受众{#batch-speed-segment-qualification}
+### 批量受众 {#batch-speed-segment-qualification}
 
-在对批量受众使用受众资格时，请注意，在每日计算时将出现入口峰值。 峰值的大小将取决于每天进入（或退出）受众的个人数量。
+在对批量受众使用“受众资格”时，请注意，在每日计算时将出现入口峰值。 峰值的大小将取决于每天进入（或退出）受众的个人数量。
 
 此外，如果在历程中新建并立即使用批量受众，则第一批计算可能会使大量个人进入历程。
 
-### 流式处理受众{#streamed-speed-segment-qualification}
+### 流式处理受众 {#streamed-speed-segment-qualification}
 
 在对流式传输的受众使用受众资格时，由于持续评估受众，入口/出口出现大量峰值的风险较小。 但是，如果受众定义导致大量客户同时获得资格，则也可能会出现峰值。
 
@@ -122,7 +129,7 @@ ht-degree: 24%
 
 有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)。
 
-### 如何避免过载{#overloads-speed-segment-qualification}
+### 如何避免过载 {#overloads-speed-segment-qualification}
 
 以下是将有助于避免使历程中利用的系统（数据源、自定义操作、渠道操作活动）过载的一些最佳实践。
 
@@ -138,6 +145,6 @@ ht-degree: 24%
 
 ## 操作方法视频 {#video}
 
-了解受众资格筛选历程的适用用例。了解如何使用受众资格筛选构建历程以及可以应用的最佳做法。
+通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
