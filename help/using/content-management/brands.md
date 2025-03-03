@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 24%
+source-wordcount: '445'
+ht-degree: 21%
 
 ---
 
 # 创建和管理您的品牌 {#brands}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_overview"
+>title="品牌"
+>abstract="创建和自定义您自己的品牌，以定义您独特的视觉和口头特征，同时更轻松地生成与品牌风格和声音相匹配的内容。"
 
 >[!AVAILABILITY]
 >
@@ -56,6 +61,11 @@ In [!DNL Journey Optimizer], you now have the option to manually input and organ
 +++
 
 ## 创建您的品牌 {#create-brand-kit}
+
+>[!CONTEXTUALHELP]
+>id="ajo_brands_create"
+>title="创建您的品牌"
+>abstract="输入品牌名称并上传品牌指南文件。 该工具会自动提取关键详细信息，从而更轻松地维护您的品牌标识。"
 
 要创建和管理您的品牌指南，请执行以下步骤。
 
