@@ -3,26 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 自定义操作疑难解答
 description: 了解如何对自定义操作进行故障诊断
-badge: label="有限发布版"
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4cedc368d630c0932782ac031fdd904e9b003fa0
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
 # 自定义操作疑难解答 {#troubleshoot-a-custom-action}
-
->[!AVAILABILITY]
->
->此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
->
 
 您可以通过从Journey Optimizer用户界面的“管理”部分发送API调用来测试自定义操作。 此功能可帮助您在历程中使用自定义操作之前或之后对其进行故障诊断。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
 workflow-type: tm+mt
-source-wordcount: '6180'
+source-wordcount: '6193'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 96%
 ## 2025 年 3 月 {#mar-2025}
 
 * 更新了有关“受众资格”事件的页面，提供了新的推荐。 [了解详情](../building-journeys/audience-qualification-events.md)
+* 现在，所有客户都可以使用自定义操作故障排除功能(GA)。 [了解详情](../action/troubleshoot-custom-action.md)
 
 ## 2025 年 2 月 {#feb-2025}
 
