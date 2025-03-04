@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: c0698c949622dbd9b4d97eaefedb67ff9f557347
+source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -96,6 +96,8 @@ ht-degree: 52%
 >id="ajo_ao_split_otherprofiles_text"
 >title="其他轮廓"
 >abstract="打开此选项可以创建一个附加路径，其中包含与其他路径中指定的任意条件都不匹配的剩余轮廓。"
+
+>[!BEGINSHADEBOX]
 
 此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您仅是 Real-time Customer Profile 客户并且没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
 
