@@ -8,19 +8,30 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 88d15684f13b234bcb00227bd609ca387070952a
+source-git-commit: 7e354b5235aa6a6378ebc3d13a2c99017064379f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 21%
+source-wordcount: '497'
+ht-degree: 19%
 
 ---
 
 # 创建和管理您的品牌 {#brands}
 
 >[!CONTEXTUALHELP]
->id="ajo_brands_overview"
->title="品牌"
+>id="ajo_brand_overview"
+>title="品牌入门"
 >abstract="创建和自定义您自己的品牌，以定义您独特的视觉和口头特征，同时更轻松地生成与品牌风格和声音相匹配的内容。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_ai_menu"
+>title="选择您的品牌"
+>abstract="选择您的品牌以确保所有AI生成的内容都根据您品牌的规范和准则进行定制。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_score"
+>title="品牌一致性分数"
+>abstract="您的品牌一致性得分衡量AI生成的内容遵守品牌准则的程度，确保颜色、字体、徽标、图像和书写风格的一致性。"
+
 
 >[!AVAILABILITY]
 >
