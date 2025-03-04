@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 96f6fe5d1a941a904ecddf66e9b4a51802e5d00b
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -121,7 +121,7 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 
 >[!AVAILABILITY]
 >
-灵活的受众评估仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+灵活的受众评估目前仅面向一部分组织提供（限量发布）。要获得访问权限，请与 Adobe 代表联系。
 
 Adobe Experience Platform Audience Portal允许您根据需要对所选受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。
 
@@ -129,8 +129,7 @@ Adobe Experience Platform Audience Portal允许您根据需要对所选受众运
 
 1. 根据最新数据创建新的区段。
 1. 实时评估受众以确保准确性。 要实现此目的，请选择要评估的受众，然后选择“评估受众”，前提是受众符合特定标准（例如，基于人员的分段服务来源）。
-1. 在Adobe Journey Optimizer中使用评估的受众
-用于精确定位的营销活动或历程。
+1. 在Adobe Journey Optimizer营销活动或历程中使用评估后的受众进行精确定位。
 
 您一次最多可以评估20个受众，不符合条件的受众将被自动排除。 有关详细信息，请参阅[受众门户文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
 
