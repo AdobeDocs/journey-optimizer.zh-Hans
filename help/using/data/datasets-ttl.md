@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、数据湖、创建、湖、数据集、轮廓
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7aaaa566ec9e5a1cf50e067d7c3836bfc305b909
+source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 14%
+source-wordcount: '655'
+ht-degree: 12%
 
 ---
 
@@ -46,13 +46,6 @@ ht-degree: 14%
 | 决策对象存储库 — 投放位置 | 13 个月 | 不适用 |
 | 决策对象存储库 — 活动 | 13 个月 | 不适用 |
 | ODE DecisionEvents - prod decisioning | 13 个月 | 不适用 |
-| AJO同意服务数据集 | 不适用 | 90 天 |
-| AJO交互式消息配置文件数据集 | 不适用 | 90 天 |
-| AJO配置文件计数器扩展 | 不适用 | 90 天 |
-| AJO推送配置文件数据集 | 不适用 | 90 天 |
-| AJO可参与用户档案数据集 | 不适用 | 90 天 |
-
-
 
 ## 常见问题 {#faq}
 
