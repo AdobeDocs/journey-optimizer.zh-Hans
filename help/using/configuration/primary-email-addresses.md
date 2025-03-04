@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，执行，电子邮件，目标，用户档案，优化器
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 462928883ae22998f8c16dcbe6f37f062487c5ad
+source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -70,6 +70,11 @@ ht-degree: 16%
 
 对于特定用例，您可以全局覆盖执行字段设置，并在电子邮件配置级别或历程级别定义不同的值。
 
+覆盖此值可能很有用，例如：
+
+* 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，会向您发送电子邮件。
+* 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
+
 ### 在电子邮件配置中
 
 定义电子邮件渠道配置时，可以在[常规设置](#admin-settings)中更改默认执行字段集。 [了解详情](../email/email-settings.md#execution-address)
@@ -88,8 +93,4 @@ ht-degree: 16%
 >
 >仅应针对特定用例使用电子邮件地址覆盖。大多数情况下，无需更改电子邮件地址，应使用&#x200B;**[!UICONTROL 执行字段]**&#x200B;中定义为主地址的值。
 
-覆盖此值可能很有用，例如：
-
-* 测试电子邮件。您可以添加自己的电子邮件地址：发布历程后，会向您发送电子邮件。
-* 向列表的订阅者发送电子邮件。 在[此用例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
