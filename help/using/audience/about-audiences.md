@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,13 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 可以使用不同方法生成受众：
 
-* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 [了解如何生成区段定义](creating-a-segment-definition.md)
+* **区段定义**：使用Adobe Experience Platform分段服务创建新的受众定义。 受众从区段定义生成，并根据其评估类型在不同的时间刷新。
+
+   * 流式分段：随着新数据流入实时更新受众，确保基于用户活动的持续相关性。
+   * 批量分段：受众每24小时刷新一次，以固定间隔捕获用户档案快照。
+   * Edge分段：在边缘即时评估受众，以实现实时个性化。
+
+[了解如何生成区段定义](creating-a-segment-definition.md)
 
 * **自定义上传**：使用CSV文件导入受众。 [了解如何创建自定义上传受众](custom-upload.md)
 
