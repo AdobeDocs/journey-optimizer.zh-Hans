@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '746'
 ht-degree: 27%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>自定义操作疑难解答（限量发布）</strong><br/></th>
+<th><strong>自定义操作疑难解答</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,7 +100,7 @@ ht-degree: 27%
 <td>
 <p>您现在可以通过直接从Adobe Journey Optimizer发出实际API调用来验证自定义操作配置。 </p>
 <p>有关更多信息，请参阅<a href="../action/troubleshoot-custom-action.md">详细文档</a>。</p>
-<p> 此功能仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
 </tr>
 </tbody>
