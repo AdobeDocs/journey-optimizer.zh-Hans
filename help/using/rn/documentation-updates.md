@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '6193'
+source-wordcount: '6222'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 96%
 
 ## 2025 年 2 月 {#feb-2025}
 
+* “读取受众”活动护栏已更新，以指定历程中只能使用一个活动，并且只能针对一个受众。 [了解详情](../building-journeys/read-audience.md)
 * 更新了使用Campaign历程时的活动护栏。 [了解详情](../start/guardrails.md#ac-g)
 * 详细介绍了创建第一个历程的步骤，并添加了文档部分的链接。 [了解详情](../building-journeys/journey-gs.md)
 * 现在提供了新页面，以详细了解历程仪表板和筛选用户界面。 [了解详情](../building-journeys/journey-ui.md)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 12%
+source-wordcount: '1687'
+ht-degree: 11%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 12%
 ➡️ [在视频中了解此功能](#video)
 
 ## 护栏和最佳实践 {#must-read}
+
+* 历程中只能使用一个&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动，并且它必须是画布中的第一个活动。
+
+* **[!UICONTROL 读取受众]**&#x200B;活动只能针对一个受众。 如果需要多个受众，请考虑将这些受众合并到单个受众中，然后再使用。 [了解如何使用组合工作流组合受众](../audience/get-started-audience-orchestration.md)
 
 * 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但避免同时启动超过5个历程（具有&#x200B;**读取受众**，已计划或“尽快”开始）。 最佳实践是将其分散到不同的时间，例如相隔5到10分钟。
 
