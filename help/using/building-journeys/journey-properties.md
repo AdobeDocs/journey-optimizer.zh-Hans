@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3331fd2ca9277bb634e3df0dd2e5a262bef459d7
+source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2259'
 ht-degree: 18%
 
 ---
@@ -279,14 +279,14 @@ ht-degree: 18%
 
 1. 打开您的历程。
 
-1. 单击位于历程画布右上角的&#x200B;**[!UICONTROL 显示退出标准]**图标。
-   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
-1. 单击&#x200B;**[!UICONTROL 添加退出条件]**按钮。
-   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. 单击位于历程画布右上角的![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 显示退出标准]**&#x200B;图标。
+
+1. 选择&#x200B;**[!UICONTROL 添加退出条件]**。
+
 1. 输入&#x200B;**标签**&#x200B;并选择您的退出标准是基于&#x200B;**事件**&#x200B;还是&#x200B;**受众**。
 
-* 对于基于事件的退出条件（例如下载应用程序或向购物车添加产品），请仅选择单一事件。
-* 对于基于受众的退出标准，例如检查客户在过去24小时内是否购买的受众，请选择一个受众。 注意：使用受众的退出标准可能需要长达10分钟才能生效。
+   * 对于基于事件的退出条件（例如下载应用程序或向购物车添加产品），请仅选择单一事件。
+   * 对于基于受众的退出标准，例如检查客户在过去24小时内是否购买的受众，请选择一个受众。 注意：使用受众的退出标准可能需要长达10分钟才能生效。
 
 您可以添加多个退出条件。
 
