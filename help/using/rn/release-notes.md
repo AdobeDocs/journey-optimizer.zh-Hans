@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6480bb7e35d92ba1771b3e5c01310ee93a8c77b1
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 27%
+source-wordcount: '863'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,20 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中，进一步了解这些更改。
 
+## 2025年3月更新 {#25-03-rn}
+
+**Personalization编辑器增强功能**
+
+Journey Optimizer个性化编辑器已更新，新增了以下功能：
+* **更新了代码编辑器设计** — 更简洁的现代界面，提高了可用性和焦点。
+* **搜索和替换** — 添加了在编辑器中快速查找和替换内容的功能。
+* **撤消和重做支持** — 允许您轻松还原或重新应用更改。
+* **可自定义的字体大小** — 允许调整编辑器的字体大小，以提高可读性。
+* **内联JSON验证** — 为JSON内容提供实时客户端验证以加快错误检测。
+* **配置文件和上下文属性的自动完成** — 提供智能建议以简化内容创建。
+* **增强的语法突出显示** — 通过使代码结构在视觉上更加明显来提高可读性。
+
+有关更多信息，请参阅[详细文档](../personalization/personalization-build-expressions.md)。
 
 ## 2025年2月发行说明 {#25-02-rn}
 

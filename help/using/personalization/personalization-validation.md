@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，验证，错误，个性化
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ff6619925a36d2687922d1b631d1cabbcb98167e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -24,13 +24,11 @@ ht-degree: 2%
 
 >[!NOTE]
 > 单击&#x200B;**添加**&#x200B;按钮关闭编辑器窗口时，将自动执行验证。
->
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > 如果个性化语法无效，则无法关闭个性化编辑器窗口。
->
 
 ## 常见错误 {#common-errors}
 
