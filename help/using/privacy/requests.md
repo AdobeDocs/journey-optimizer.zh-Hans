@@ -7,9 +7,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: 95d02900fb9686466fa6b20c90e1c425567db145
+source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 45%
 
 ---
@@ -69,7 +69,7 @@ Privacy Service支持两种类型的请求：**数据访问**&#x200B;和&#x200B;
 
 >[!IMPORTANT]
 >
->在提交隐私请求时，请确保指定“[!DNL '**Adobe Journey Optimizer**]”作为目标产品名称，并指定与需要访问或删除的配置文件数据关联的所有身份命名空间&#x200B;**（例如“电子邮件”、“ECID”或“忠诚度ID”）。**&#x200B;特别是，对于删除请求，如果您未明确包含产品名称和所有适用的命名空间，则数据将保留在[!DNL Adobe Journey Optimizer]中。
+>在提交隐私请求时，请确保指定“[!DNL '**Adobe Journey Optimizer**]”作为目标产品名称，并指定与需要访问或删除的配置文件数据关联的所有身份命名空间&#x200B;**（例如“电子邮件”、“ECID”或“忠诚度ID”）。**&#x200B;特别是对于删除请求，如果您未明确包含产品名称和所有适用的命名空间，则不会从[!DNL Adobe Journey Optimizer]中删除数据。
 
 ### Journey Optimizer中用于API请求的必填字段值
 
