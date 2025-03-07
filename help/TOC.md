@@ -407,7 +407,7 @@ ht-degree: 91%
       + [全时段报告入门](using/reports/report-gs-cja.md)
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
-      + [报告和试验先决条件](using/reports/reporting-configuration.md)
+      + [报告和实验先决条件](using/reports/reporting-configuration.md)
       + 营销活动报告{#reporting}
          + [营销活动报告](using/reports/campaign-global-report-cja.md)
          + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
@@ -690,7 +690,7 @@ ht-degree: 91%
          + [Adobe Experience Platform 数据源](using/datasource/adobe-experience-platform-data-source.md)
          + [外部数据源](using/datasource/external-data-sources.md)
       + 操作配置{#action-journeys}
-         + [自定义操作入门](using/action/action.md)
+         + [开始使用自定义操作](using/action/action.md)
          + [配置自定义操作](using/action/about-custom-action-configuration.md)
          + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
          + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
