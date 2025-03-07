@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: c1ca6175e504dff5e89aaddc2105d150992a8b28
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1277'
 ht-degree: 21%
 
 ---
@@ -166,6 +166,10 @@ ht-degree: 21%
 ![](assets/create-campaign-schedule.png)
 
 对于电子邮件、短信和推送通知营销活动，您可以定义营销活动消息的发送频率。 为此，请在营销活动创建屏幕中使用&#x200B;**[!UICONTROL 操作触发器]**&#x200B;选项来指定是否应每天、每周或每月执行营销活动。
+
+>[!NOTE]
+>
+>在[!DNL Adobe Journey Optimizer]中计划营销活动时，请确保您的开始日期/时间与所需的首次投放一致。 对于定期活动，如果已超过初始计划时间，则活动将根据定期规则滚动到下一个可用时间段。
 
 ## 其他设置 {#settings}
 
