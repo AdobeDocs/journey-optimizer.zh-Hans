@@ -5,13 +5,13 @@ feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 5e907e12958055f0a4f75fe99103218288c758fa
+exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
+source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
 
 ---
-
 
 # 使用基于代码的体验渠道交付优惠 {#deliver}
 
@@ -26,3 +26,4 @@ ht-degree: 0%
 有关不同实施方法的详细信息，请参阅基于代码的渠道指南。 在本指南中，您将了解有关每个实施方法的详细信息，以及不同个性化和实验用例的示例实施。
 
 ➡️[了解有关基于代码的实现方法的更多信息](../../code-based/code-based-implementation-samples.md)
+
