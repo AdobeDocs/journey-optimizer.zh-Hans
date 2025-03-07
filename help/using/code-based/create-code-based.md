@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 045fc6f140c9128adebc2513317c4007ed71cafa
+source-git-commit: 5d51554d9d18f517e1ca3a3d02592a45f341110c
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 9%
+source-wordcount: '624'
+ht-degree: 10%
 
 ---
 
@@ -61,11 +61,7 @@ ht-degree: 9%
 
 1. 创建营销策划。 [了解详情](../campaigns/create-campaign.md)
 
-1. 选择要执行的营销活动类型
-
-   * **[!UICONTROL 已计划 — 营销]**：立即或在指定日期执行营销活动。 计划的营销活动旨在发送&#x200B;**营销**&#x200B;消息。 它们从用户界面配置和执行。
-
-   * **[!UICONTROL API触发 — 营销/事务性]**：使用API调用执行营销活动。 API触发的营销活动旨在发送&#x200B;**营销**&#x200B;或&#x200B;**事务性**&#x200B;消息，即，在个人执行的操作（密码重置、购物车购买等）之后发送的消息。 [了解如何使用API触发营销活动](../campaigns/api-triggered-campaigns.md)
+1. 选择&#x200B;**计划 — 营销**&#x200B;营销活动类型。
 
 1. 完成步骤以创建营销活动，如营销活动属性、[受众](../audience/about-audiences.md)和[计划](../campaigns/create-campaign.md#schedule)。 有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
