@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 890d3925a418c117451864558be92030a3a0f87f
+source-git-commit: 9ea7f2c76cc09949bb4467d5b9b2c19550f9975e
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 23%
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 在[构建体验](create-code-based.md)之前，您需要创建基于代码的体验配置，在其中定义内容在应用程序中的交付和使用位置。
 
-基于代码的体验配置必须引用表面，它基本上是您要呈现更改的位置。 根据所选平台，您需要输入位置/路径或完整表面URI。 [了解详情](#surface-definition)
+基于代码的体验配置必须引用表面，它基本上是您要呈现更改的位置。 根据所选平台，您需要输入位置/路径或完整表面URI。 [了解详情](code-based-surface.md)
 
 ## 创建一个基于代码的体验配置 {#create-code-based-configuration}
 
