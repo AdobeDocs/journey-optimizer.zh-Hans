@@ -20,7 +20,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="创建规则"
->abstract="通过构建规则创建方法，可使用 Adobe Experience Platform Audience Segmentation Service 创建新的受众定义。"
+>abstract="通过生成规则创建方法，可使用 Adobe Experience Platform Audience Segmentation Service 创建新的受众定义。"
 
 ## 创建区段定义 {#create}
 

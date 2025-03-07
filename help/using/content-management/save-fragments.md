@@ -56,9 +56,9 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存为表达式片段"
->abstract="[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于构建个性化内容。"
+>abstract="[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于生成个性化内容。"
 
-[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于构建个性化内容。
+[!DNL Journey Optimizer]个性化编辑器可让您将内容另存为表达式片段。之后，这些表达式可用于生成个性化内容。
 
 要将内容另存为表达式片段，请执行以下步骤。
 

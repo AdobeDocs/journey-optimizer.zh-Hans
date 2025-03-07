@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 创建您的第一个历程
-description: 使用 Adobe Journey Optimizer 构建您的首个历程的关键步骤
+description: 使用 Adobe Journey Optimizer 生成您的首个历程的关键步骤
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -21,12 +21,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="创建历程"
->abstract="借助 **Adobe Journey Optimizer**，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。"
+>abstract="借助 **Adobe Journey Optimizer**，可以利用存储在事件或数据源中的上下文数据生成实时编排用例。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="历程"
->abstract="设计客户历程以营造个性化的上下文体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据构建实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
+>abstract="设计客户历程以营造个性化的上下文体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据生成实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
 
 Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 [此页面](journey-ui.md)中详细介绍了历程用户界面。
 

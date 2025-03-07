@@ -26,7 +26,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="构建页面匹配规则"
+>title="生成页面匹配规则"
 >abstract="一条页面匹配规则即可针对多个匹配同一规则的 URL - 例如，如果要将更改应用于跨越整个网站的主图横幅或添加在网站的所有产品页面上显示的置顶图像。"
 
 要通过营销活动或历程开始构建Web体验，请执行以下步骤。
@@ -169,13 +169,13 @@ ht-degree: 18%
 >
 >如果多个历程或营销策划更新了网站的相同元素，则优先级最高的历程/营销策划优先。
 
-### Publish网络历程 {#activate-web-journey}
+### 发布Web历程 {#activate-web-journey}
 
 要在历程中让您的Web体验处于实时状态，请执行以下步骤。
 
 1. 验证您的历程是否有效并且没有错误。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. 在历程中，选择位于右上角的下拉菜单中的&#x200B;**[!UICONTROL Publish]**&#x200B;选项。
+1. 在历程中，选择位于右上角的下拉菜单中的&#x200B;**[!UICONTROL 发布]**&#x200B;选项。
 
    ![](assets/web-journey-publish.png)
 
@@ -187,7 +187,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->单击&#x200B;**[!UICONTROL Publish]**&#x200B;后，最多可能需要15分钟才能将更改内容实时发布到您的网站上。
+>单击&#x200B;**[!UICONTROL 发布]**&#x200B;后，最多可能需要15分钟时间才能将更改实时发布到您的网站上。
 
 ### 激活Web活动 {#activate-web-campaign}
 

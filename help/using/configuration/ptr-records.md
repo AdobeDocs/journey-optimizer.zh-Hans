@@ -12,11 +12,11 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-# 创建和编辑PTR记录 {#ptr-records}
+# 创建和编辑 PTR 记录 {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"

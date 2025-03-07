@@ -16,7 +16,7 @@ ht-degree: 29%
 
 ---
 
-# 报告和试验先决条件 {#reporting-configuration}
+# 报告和实验先决条件 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

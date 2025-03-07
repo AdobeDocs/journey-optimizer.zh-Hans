@@ -43,12 +43,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="创建条件"
->abstract="结合轮廓属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
+>abstract="结合轮廓属性、上下文事件或受众来生成规则，以定义应在消息中显示哪些内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="创建条件"
->abstract="结合轮廓属性、上下文事件或受众来构建规则，以定义应在消息中显示哪些内容。"
+>abstract="结合轮廓属性、上下文事件或受众来生成规则，以定义应在消息中显示哪些内容。"
 
 创建条件规则的步骤如下：
 
@@ -63,7 +63,7 @@ ht-degree: 9%
    属性分为三个选项卡：
 
    * **[!UICONTROL 配置文件]**：
-      * **[!UICONTROL 受众]**&#x200B;列出了所有受众属性（即状态、版本等） 对于[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)，
+      * **[!UICONTROL 受众]**&#x200B;列出了[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)的所有受众属性（即状态、版本等），
       * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)关联的所有配置文件属性。
    * **[!UICONTROL 上下文]**：在历程中使用消息时，可通过此选项卡使用上下文历程字段。
    * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)中创建的区段定义生成的所有受众。

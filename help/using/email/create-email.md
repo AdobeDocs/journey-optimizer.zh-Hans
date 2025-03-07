@@ -78,7 +78,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="配置电子邮件内容"
->abstract="创建电子邮件的内容。定义其主题，然后利用电子邮件设计器构建和个性化电子邮件正文。"
+>abstract="创建电子邮件的内容。定义其主题，然后利用电子邮件设计器生成和个性化电子邮件正文。"
 
 1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置电子邮件内容。 [了解详情](get-started-email-design.md)
 

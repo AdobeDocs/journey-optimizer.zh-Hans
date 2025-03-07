@@ -33,7 +33,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_static_select"
 >title="静态集合预览"
->abstract="静态集合是通过手动选择要纳入集合中的单个产品建议来构建的。只能通过手动添加更多产品建议来更新集合。"
+>abstract="静态集合是通过手动选择要纳入集合中的单个产品建议来生成的。只能通过手动添加更多产品建议来更新集合。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic_select"

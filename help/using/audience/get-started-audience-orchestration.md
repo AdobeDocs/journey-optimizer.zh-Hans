@@ -19,18 +19,18 @@ ht-degree: 52%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
->title="创建组合"
->abstract="创建一个组合工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除等）来创建新的受众。"
+>title="创建构成"
+>abstract="创建一个构成工作流程，将现有的 Adobe Experience Platform 受众组合到一个可视画布中，并利用各种活动（拆分、排除等）来创建新的受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
 >title="发布受众"
->abstract="发布您的组合以将生成的受众保存到 Adobe Experience Platform 中。"
+>abstract="发布您的构成，将生成的受众保存到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
 >title="受众活动"
->abstract="“受众活动”让您可以在组合中包括属于现有受众的轮廓。"
+>abstract="受众活动让您可以在构成中包括属于现有受众的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
@@ -45,7 +45,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="排除活动"
->abstract="“排除活动”让您可以通过选择现有受众或使用规则，从组合中排除轮廓。"
+>abstract="排除活动让您可以通过选择现有受众或使用规则，从构成中排除轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -65,17 +65,17 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="扩充属性"
->abstract="从扩充数据集中选择一个或多个属性以关联到受众。组合在发布之后，这些属性就会与受众相关联，并且可以在 Journey Optimizer 营销活动中用来提供个性化的投放。"
+>abstract="从扩充数据集中选择一个或多个属性以关联到受众。构成在发布之后，这些属性就会与受众相关联，并且可以在 Journey Optimizer 营销活动中用来提供个性化的投放。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活动"
->abstract="“排名活动”允许您根据特定属性对轮廓进行排名并将它们包含在组合中。例如，包含忠诚度积分最高的 50 个轮廓。"
+>abstract="排名活动允许您根据特定属性对轮廓进行排名并将它们包含在构成中。例如，包含忠诚度积分最高的 50 个轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="添加轮廓限制"
->abstract="打开此选项以指定要包含在组合中的轮廓最大数量。"
+>abstract="打开此选项以指定要包含在构成中的轮廓最大数量。"
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -85,7 +85,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="拆分活动"
->abstract="“拆分活动”让您可以将组合拆分成多个路径。在发布组合时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。"
+>abstract="拆分活动让您可以将构成拆分成多个路径。在发布构成时，一个受众将在 Adobe Experience Platform 针对每个路径进行保存。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"

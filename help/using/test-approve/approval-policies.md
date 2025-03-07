@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
->title="新建审批策略"
->abstract="在此屏幕中，输入名称并选择审批策略的上下文，然后构建条件以确定谁可以启动审批请求以及谁可以验证审批请求。"
+>title="新的审批策略"
+>abstract="在此屏幕中，输入名称并选择审批策略的上下文，然后生成条件，确定谁可以启动审批请求，以及谁可以验证审批请求。"
 
 要创建批准策略，请执行以下步骤：
 

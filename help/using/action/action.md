@@ -12,18 +12,18 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 28%
+ht-degree: 51%
 
 ---
 
-# 自定义操作入门 {#about_actions}
+# 开始使用自定义操作 {#about_actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="自定义操作"
->abstract="行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件或您在业务中使用的任何其他数字互动方式。"
+>abstract="操作是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件，或您在业务中使用的任何其他数字参与方式。"
 
-行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件或您在业务中使用的任何其他数字互动方式。
+操作是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件，或您在业务中使用的任何其他数字参与方式。
 
 
 ➡️ [在视频中了解此功能](#video)
