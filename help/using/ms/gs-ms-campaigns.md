@@ -5,9 +5,9 @@ title: 多步骤营销活动入门
 description: 了解如何从多步营销活动开始
 hide: true
 hidefromtoc: true
-source-git-commit: a0bdab445a53521be621ce4ace390f83964a0c79
+source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '419'
 ht-degree: 25%
 
 ---
@@ -21,17 +21,12 @@ ht-degree: 25%
 
 **目录**
 
-* 多步骤营销活动入门
-* [关键原则](gs-campaign-creation.md)
-* [护栏和限制](guardrails.md)
-* [创建营销活动](create-ms-campaign.md)
-* [安排活动](orchestrate-activities.md)
-* [配置Campaign设置](ms-campaign-settings.md)
-* [启动和监控活动](start-monitor-campaigns.md)
-* [多步骤营销活动中的事件变量](event-variables.md)
-* 使用多步骤营销活动
-   * [活动入门](activities/about-activities.md)
-   * 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [调度程序](activities/scheduler.md) - [R拆分](activities/split.md) - [测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
+* [关键原则](gs-campaign-creation.md) - [护栏和限制](guardrails.md)
+* [创建营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md)
+* [开始和监控活动](start-monitor-campaigns.md)
+* [事件变量](event-variables.md)
+* [开始使用活动](activities/about-activities.md) - [编排活动](orchestrate-activities.md)
+* 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [调度程序](activities/scheduler.md) - [R拆分](activities/split.md) - [测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
