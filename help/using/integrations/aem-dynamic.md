@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 3a10f8440515bd569f9def6d15ac74d57427c1cf
+source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 通过用您选择的新文本替换现有文本叠加，轻松自定义任何动态媒体，并允许无缝更新和个性化。
 
-例如，使用试验功能，您可以通过为每种处理使用不同的文本替换现有文本叠加图，从而更新它们，确保在打开用户档案的消息时为每个用户档案自定义文本。
+例如，使用试验功能，您可以通过为每种处理使用不同的文本替换现有文本覆盖来更新，确保在用户档案打开其消息时为每个用户档案自定义文本。
 
 ![](assets/dynamic-media-layout-1.png)
 
@@ -95,6 +95,72 @@ ht-degree: 2%
 您的内容现在包括更新的文本叠加。
 
 ![](assets/dynamic-media-layout-3.png)
+
+## 添加和管理Dynamic media模板
+
+在Journey Optimizer中轻松添加Dynamic Media模板，并随时更新媒体内容。 您现在可以将个性化字段合并到媒体中，从而允许您在Journey Optimizer中创建更多自定义且引人入胜的内容。
+
+了解有关[Dynamic media模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)的更多信息。
+
+### 带有图像组件
+
+您可以使用图像组件将动态模板直接插入内容：
+
+1. 打开您的营销活动或历程并访问您的内容。
+
+1. 将&#x200B;**图像组件**&#x200B;拖放到布局中。
+
+   有关图像组件的详细信息，请参阅[此页面](../email/content-components.md)。
+
+   ![](assets/dynamic-media-template-1.png)
+
+1. 浏览AEM资源并选择要添加到内容中的Dynamic media模板。
+
+   ![](assets/dynamic-media-template-2.png)
+
+1. 在&#x200B;**图像设置**&#x200B;中，导航以访问Dynamic Media模板的参数。
+
+   可用字段取决于在Adobe Experience Manager中创建[模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters)期间添加的参数。
+
+   ![](assets/dynamic-media-template-3.png)
+
+1. 填写不同的字段并使用个性化编辑器添加个性化内容。 您可以使用任何属性（如配置文件名称、城市或其他相关详细信息）来创建更自定义的体验。
+
+   在[此页面](../personalization/personalize.md)中了解有关个性化的更多信息。
+
+   ![](assets/do-not-localize/dynamic_media_template.gif)
+
+1. 条件内容可应用于Dynamic Media组件以生成内容的不同变体。 [了解详情](../personalization/dynamic-content.md)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+执行测试并验证内容后，即可向受众发送消息。
+
+### 带有HTML组件
+
+您可以使用HTML组件将动态模板直接插入内容：
+
+1. 打开您的营销活动或历程并访问您的内容。
+
+1. 将&#x200B;**HTML组件**&#x200B;拖放到布局中。
+
+   ![](assets/dynamic-media-template-4.png)
+
+1. 选择&#x200B;**[!UICONTROL 显示源代码]**。
+
+   ![](assets/dynamic-media-template-5.png)
+
+1. 从&#x200B;**[!UICONTROL 编辑HTML]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL Assets]**，然后&#x200B;**[!UICONTROL 打开资源选择器]**。
+
+   您还只需复制并粘贴资产URL即可。
+
+1. 根据需要调整图像文本参数以匹配您的资产要求。
+
+   ![](assets/do-not-localize/dynamic_media_template_html.gif)
+
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+
+执行测试并验证内容后，即可向受众发送消息。
 
 <!--
 ## Personalization with Text Overlay
