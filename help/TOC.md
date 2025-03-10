@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ff31c69255e6d4e0762a57430f112c92f34191c3
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 96%
+source-wordcount: '2266'
+ht-degree: 95%
 
 ---
 
@@ -359,15 +359,11 @@ ht-degree: 96%
          + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
-      + [个性化上下文](using/personalization/personalization-contexts.md)
+      + [添加个性化内容](using/personalization/personalization-build-expressions.md)
       + [个性化语法](using/personalization/personalization-syntax.md)
-      + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/lookup-aep-data.md)
-      + 使用个性化编辑器 {#expression-editor}
-         + [关于个性化编辑器](using/personalization/personalization-build-expressions.md)
-         + [将属性添加到收藏夹](using/personalization/personalization-favorites.md)
-         + [使用表达式片段](using/personalization/use-expression-fragments.md)
-         + [个性化验证](using/personalization/personalization-validation.md)
-      + 辅助函数{#functions}
+      + [重用表达式片段](using/personalization/use-expression-fragments.md)
+      + [使用Adobe Experience Platform数据进行个性化(Beta)](using/personalization/lookup-aep-data.md)
+      + 辅助函数列表{#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
          + [算术函数](using/personalization/functions/arithmetic-functions.md)

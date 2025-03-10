@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 155ae8ef14e5482d94e54b15962afa09aa6826fc
+source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 27%
@@ -16,8 +16,6 @@ ht-degree: 27%
 # 辅助函数入门{#functions}
 
 使用[!DNL Journey Optimizer]模板化语言对数据执行操作，如计算、数据格式或转换、条件，并在个性化上下文中处理这些操作。 在[此页面](../personalization-syntax.md)中了解个性化语法准则。
-
-
 
 ➡️[在此视频中了解如何使用辅助函数](#video)
 
