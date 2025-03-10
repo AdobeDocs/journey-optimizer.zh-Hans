@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 34%
+source-wordcount: '1193'
+ht-degree: 31%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 34%
 
 ## 启用跟踪 {#enable-tracking}
 
-在历程或营销策划中创建邮件时，通过检查&#x200B;**[!UICONTROL 电子邮件打开次数]**&#x200B;和/或&#x200B;**[!UICONTROL 单击电子邮件]**&#x200B;选项，可以在电子邮件级别启用跟踪。
+在历程或营销策划中创建邮件时，通过检查&#x200B;**[!UICONTROL 电子邮件打开次数]**&#x200B;和/或&#x200B;**[!UICONTROL 单击电子邮件]**&#x200B;选项，可以在电子邮件级别启用跟踪，如以下选项卡所示：
 
 >[!BEGINTABS]
 
@@ -40,38 +40,34 @@ ht-degree: 34%
 >
 >默认情况下，这两个选项都处于启用状态。
 
-这将允许您通过以下方式跟踪收件人的行为：
+启用后，这些选项会跟踪消息的收件人的行为：
 
-* **[!UICONTROL 电子邮件打开次数]**：已打开的邮件。
-* **[!UICONTROL 单击电子邮件]**：单击电子邮件中的链接。
+* **[!UICONTROL 电子邮件打开次数]**&#x200B;度量检查已打开的邮件数。
+* **[!UICONTROL 点击电子邮件]**&#x200B;量度计算电子邮件中链接的点击次数。
 
 ## 插入链接 {#insert-links}
 
-设计邮件时，可以添加指向内容的链接。
-
->[!NOTE]
->
->启用[跟踪](#enable-tracking)后，将跟踪消息内容中包含的所有链接。
+启用[跟踪](#enable-tracking)后，将跟踪消息内容中包含的所有链接。
 
 要在电子邮件内容中插入链接，请执行以下步骤：
 
-1. 选择一个元素，并单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
+1. 选择一个元素（文本或图像），然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 
    ![](assets/message-tracking-insert-link.png)
 
 1. 选择要创建的链接类型：
 
-   * **[!UICONTROL 外部链接]**：插入指向外部URL的链接。
+   * 选择&#x200B;**[!UICONTROL 外部链接]**&#x200B;以插入指向外部URL的链接。
 
-   * **[!UICONTROL 登陆页面]**：插入指向登陆页面的链接。 [了解详情](../landing-pages/get-started-lp.md)
+   * 选择&#x200B;**[!UICONTROL 登陆页面]**&#x200B;以插入指向登陆页面的链接。 [了解详情](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL 一键选择退出]**：插入链接以使用户能够快速取消订阅您的通信，而无需确认选择退出。 [了解详情](email-opt-out.md#one-click-opt-out)。
+   * 选择&#x200B;**[!UICONTROL 单击退出]**&#x200B;可插入链接，使用户无需确认退出即可快速取消订阅您的通信。 [了解详情](email-opt-out.md#one-click-opt-out)。
 
-   * **[!UICONTROL 外部选择加入/订阅]**：插入链接以接受来自您品牌的通信。
+   * 选择&#x200B;**[!UICONTROL 外部选择加入/订阅]**&#x200B;以插入链接以接受来自您品牌的通信。
 
-   * **[!UICONTROL 外部选择退出/退订]**：插入链接以取消订阅以停止接收来自您品牌的通信。 在[此部分中](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * 选择&#x200B;**[!UICONTROL 外部选择退出/退订]**&#x200B;插入链接以取消订阅以停止接收来自您品牌的通信。 在[此部分中](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
-   * **[!UICONTROL 镜像页面]**：添加链接以在Web浏览器中显示电子邮件内容。 [了解详情](#mirror-page)
+   * 选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;以添加指向电子邮件镜像页面的链接。 [了解详情](#mirror-page)
 
 1. 在相应字段中输入所需的URL，或选择登陆页面，然后定义链接设置和样式。 [了解详情](#adjust-links)
 
@@ -91,13 +87,40 @@ ht-degree: 34%
 >
 >营销类型电子邮件必须包含[选择退出链接](../privacy/opt-out.md#opt-out-management)，事务型邮件不需要该链接。 创建消息时，[渠道配置](../configuration/channel-surfaces.md#email-type)中定义了消息类别（**[!UICONTROL Marketing]**&#x200B;或&#x200B;**[!UICONTROL Transactional]**）。
 
-## 调整链接 {#adjust-links}
 
-您可以使用右侧的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;窗格调整链接。 您可以为链接加下划线，编辑其颜色并选择其目标。
+## 链接到镜像页面 {#mirror-page}
+
+镜像页面是电子邮件的在线版本。 添加指向镜像页面的链接是一种电子邮件营销良好实践。 例如，如果用户尝试在收件箱中查看电子邮件时遇到渲染问题或损坏的图像，则可以浏览到电子邮件的镜像页面。此外，建议提供在线版本以方便访问或鼓励社交共享。
+
+Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
+
+要在电子邮件中添加指向镜像页面的链接，请[插入链接](#insert-links)，并选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;作为链接类型。
+
+![](assets/message-tracking-mirror-page.png)
+
+镜像页面会自动创建。 发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
+
+镜像页面的保留期为&#x200B;**60天**。 在此延迟之后，镜像页面将不再可用。
+
+>[!CAUTION]
+>
+>* 镜像页面链接是自动生成的，并且无法编辑。它们包含渲染原始电子邮件所需的所有加密的个性化数据。因此，使用具有较大值的个性化属性可能会生成冗长的镜像页面 URL，从而导致无法在具有最大 URL 长度限制的 Web 浏览器中访问链接。
+>
+>* 在发送到测试配置文件的[验证](../content-management/proofs.md)中，指向镜像页面的链接无效。 它仅在最终消息中处于活动状态。
+
+## 自定义链接外观和目标 {#adjust-links}
+
+您可以调整链接，例如为其加下划线、更改其颜色或选择其目标。  这些更改在内容编辑器右侧部分的&#x200B;**[!UICONTROL 设置]**&#x200B;和&#x200B;**[!UICONTROL 样式]**&#x200B;窗格中设置。
+
+### 目标 {#link-target}
+
+**target**&#x200B;属性用于控制链接页面的打开位置。 在锚点标记中添加目标属性可以指定链接是在新选项卡、同一选项卡还是其他框架中打开。
+
+要定义链接的目标，请执行以下步骤：
 
 1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
 
-1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡的&#x200B;**[!UICONTROL Target]**&#x200B;下拉列表选择如何重定向受众：
+1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，选择链接在&#x200B;**[!UICONTROL 目标]**&#x200B;下拉列表中的打开位置：
 
    * **[!UICONTROL 无]**：单击时在同一框架中打开链接（默认）。
    * **[!UICONTROL 空白]**：在新窗口或标签页中打开链接。
@@ -107,37 +130,21 @@ ht-degree: 34%
 
    ![](assets/link_2.png)
 
-1. 选中&#x200B;**[!UICONTROL 为链接]**&#x200B;加下划线以对链接的标签文本加下划线。
-
-   ![](assets/link_1.png)
-
-1. 要更改链接的颜色，请从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中单击&#x200B;**[!UICONTROL 链接颜色]**。
-
-   ![](assets/link_3.png)
-
 1. 保存更改。
 
-## 链接到镜像页面 {#mirror-page}
 
-镜像页面是可通过 Web 浏览器在线访问的 HTML 页面。其内容与电子邮件的内容相同。
+### 为链接加下划线 {#link-underline}
 
-要在电子邮件中添加指向镜像页面的链接，请[插入链接](#insert-links)，并选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;作为链接类型。
+选中&#x200B;**[!UICONTROL 为链接]**&#x200B;加下划线选项可为链接的标签加下划线。
 
-![](assets/message-tracking-mirror-page.png)
+![](assets/link_1.png)
 
-镜像页面是自动创建的。
+### 链接颜色 {#link-color}
 
->[!IMPORTANT]
->
->镜像页面链接是自动生成的，并且无法编辑。它们包含渲染原始电子邮件所需的所有加密的个性化数据。因此，使用具有较大值的个性化属性可能会生成冗长的镜像页面 URL，从而导致无法在具有最大 URL 长度限制的 Web 浏览器中访问链接。
+要更改链接的颜色，请从&#x200B;**[!UICONTROL 样式]**&#x200B;选项卡中单击&#x200B;**[!UICONTROL 链接颜色]**。
 
-发送电子邮件后，当收件人单击镜像页面链接时，电子邮件的内容将显示在他们的默认 Web 浏览器中。
+![](assets/link_3.png)
 
->[!NOTE]
->
->在发送到测试配置文件的[验证](../content-management/proofs.md)中，指向镜像页面的链接无效。 它仅在最终邮件中激活。
-
-镜像页面的保留期为60天。 在该延迟之后，镜像页面将不再可用。
 
 ## 管理跟踪 {#manage-tracking}
 
