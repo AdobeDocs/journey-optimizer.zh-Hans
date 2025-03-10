@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
   ➡️ [检查电子邮件渲染情况](rendering.md)
 
-  ➡️[预览和验证您的电子邮件（视频）](#video-preview)
+  ➡️ [预览和验证电子邮件（视频）](#video-preview)
 
 * **示例输入数据**
 

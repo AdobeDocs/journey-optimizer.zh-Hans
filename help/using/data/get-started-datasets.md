@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 数据集入门
-description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform数据集
+description: 了解如何在 Adobe Journey Optimizer 中使用 Adobe Experience Platform 数据集
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: 平台、数据湖、创建、湖、数据集、轮廓
+keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

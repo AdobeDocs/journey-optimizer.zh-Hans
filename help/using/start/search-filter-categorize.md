@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 ## 搜索 {#unified-search}
 
-在Adobe Journey Optimizer界面中，使用顶部中央位置的Adobe Experience Cloud统一搜索功能在沙盒中查找资源、历程、数据集等。
+在 Adobe Journey Optimizer 界面，使用顶部中央位置的 Adobe Experience Cloud 统一搜索功能在沙盒中查找资产、历程和数据集等等。
 
 开始输入内容以显示排名靠前的结果。与输入的关键词有关的帮助文章也会显示在结果中。
 
@@ -33,7 +33,7 @@ ht-degree: 87%
 
 在大多数列表中，可使用搜索栏查找特定项目并定义筛选条件。
 
-单击列表左上角的筛选图标即可访问过滤器。通过过滤器菜单，您可以根据不同的条件筛选显示的元素：您可以选择仅显示特定类型或状态的元素、您创建的元素或最近30天内修改的元素。 选项因上下文不同而异。
+单击列表左上角的筛选图标即可访问过滤器。利用筛选菜单，可根据不同的条件筛选显示的元素：您可以选择仅显示特定类型或状态的元素、您创建的元素或最近 30 天内修改的元素。选项因上下文不同而异。
 
 此外，您还可以使用统一标记来根据分配给对象的标记筛选列表。目前，标记可用于历程和营销活动。[了解如何使用标记](#tags)
 

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 架构入门
-description: 了解如何在Adobe Journey Optimizer中使用Adobe Experience Platform架构
+description: 了解如何在 Adobe Journey Optimizer 中使用 Adobe Experience Platform 架构
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: 架构、平台、数据、结构
+keywords: 架构, 平台, 数据, 结构
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 78%
 
 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans){target="_blank"}中了解如何使用“架构”用户界面
 
-[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}提供了使用架构编辑器创建架构的分步文档。
+有关使用“架构编辑器”创建架构的分步文档，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hans){target="_blank"}。
 
-请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}，查看每个架构的字段和属性的完整列表。
+请参阅 [Journey Optimizer 架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}，查看每个架构的字段和属性的完整列表。
 
 
 ## 操作方法视频{#video-schema}

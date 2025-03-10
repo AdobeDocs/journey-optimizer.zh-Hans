@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer中的数据管理入门
+title: Journey Optimizer 中的数据管理入门
 description: 了解如何在 Journey Optimizer 中处理数据
 feature: Journeys
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 数据, 管理, 平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 95%
 
 您可以利用 [!DNL Journey Optimizer] 的数据灵活性，来满足与数据保留、存档或删除相关的特定要求：
 
-* **数据提取/导出**：您可以随时通过数据访问 API 启动源数据提取，不会有任何负担或延迟。此[数据访问 API](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-access/api){target="_blank"} 为用户提供 RESTful 接口，该接口侧重于在 [!DNL Adobe Experience Platform] 中摄取的数据集的可发现性和可访问性。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **数据提取/导出**：您可以随时通过数据访问 API 启动源数据提取，不会有任何负担或延迟。此[数据访问 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=zh-Hans){target="_blank"} 为用户提供 RESTful 接口，该接口侧重于在 [!DNL Adobe Experience Platform] 中摄取的数据集的可发现性和可访问性。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   请注意，无法通过上述 API 或目标方法提取历程或营销活动中使用的内容。
 
@@ -77,7 +77,7 @@ ht-degree: 95%
 
 * **清除和归档机制**：可以在 [!DNL Adobe Journey Optimizer] 中自由定义和自动清除数据和存档以实现数据保留策略的自动化。可以为不同的数据实体定义不同的过期策略。还可以定义导出机制，以便在清除或存档过期数据之前自动导出该数据。
 
-  数据生命周期工作区允许您创建和监控各种数据生命周期任务，包括删除使用者身份和计划数据集过期。 此工作区随 Security &amp; Privacy Shield 和 Healthcare Shield 提供。请参阅[此页面](../privacy/data-hygiene.md)以了解详情。
+  “数据生命周期”工作区允许您创建和监视各种数据生命周期任务，包括删除消费者身份标识和计划数据集过期。此工作区随 Security &amp; Privacy Shield 和 Healthcare Shield 提供。请参阅[此页面](../privacy/data-hygiene.md)以了解详情。
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
