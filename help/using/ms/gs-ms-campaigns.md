@@ -5,13 +5,13 @@ title: 多步骤营销活动入门
 description: 了解如何从多步营销活动开始
 hide: true
 hidefromtoc: true
-source-git-commit: f8c7d2a21f87f558e3bf8ee3da7a46abda97326b
+exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
+source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 25%
 
 ---
-
 
 # 多步骤营销活动入门 {#ms-camp}
 
@@ -31,7 +31,7 @@ ht-degree: 25%
 >[!ENDSHADEBOX]
 
 
-## 什么是多步骤营销活动？
+## 什么是多步营销活动？
 
 跨渠道营销对于任何寻求有效接触客户的企业来说至关重要。Adobe Journey Optimizer提供了一个全面的图形环境，允许您设计复杂的流程，以帮助您轻松管理营销活动。 通过多步骤营销活动，您可以编排所有流程和任务，提高营销活动各个方面的速度和规模，从创建区段、准备消息到投放。 此外，您可以通过一个易于使用的界面来使渠道同步，以进行营销活动编排。
 
