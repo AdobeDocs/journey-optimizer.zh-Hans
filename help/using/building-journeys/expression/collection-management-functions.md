@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
+source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 1%
