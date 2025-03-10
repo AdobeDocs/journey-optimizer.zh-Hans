@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 8d477f724b9bddcfd05df62ea236ebbaa25bc549
+source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 要了解有关Adobe Experience Manager as a Cloud Service中Dynamic Media的更多信息，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)。
 
-## 添加和管理Dynamic Media
+## 添加和管理Dynamic Media {#dynamic-media}
 
 通过将Adobe Experience Manager as a Cloud Service中的Dynamic Media直接插入您的Journey Optimizer内容，可针对任何屏幕或浏览器增强和优化您的内容。  然后，您可以调整大小、裁切、增强并根据需要进行其他调整。
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 您的内容现在包括Dynamic Media。 您在Experience Manager中所做的任何更新都将自动显示在Journey Optimizer中。
 
-## 个性化设置文本叠加
+## 个性化设置文本叠加 {#text-overlay}
 
 通过用您选择的新文本替换现有文本叠加，轻松自定义任何动态媒体，并允许无缝更新和个性化。
 
@@ -96,13 +96,13 @@ ht-degree: 1%
 
 ![](assets/dynamic-media-layout-3.png)
 
-## 添加和管理Dynamic media模板
+## 添加和管理Dynamic media模板 {#dynamic-media-template}
 
 在Journey Optimizer中轻松添加Dynamic Media模板，并随时更新媒体内容。 您现在可以将个性化字段合并到媒体中，从而允许您在Journey Optimizer中创建更多自定义且引人入胜的内容。
 
 了解有关[Dynamic media模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)的更多信息。
 
-### 带有图像组件
+### 带有图像组件 {#image-component}
 
 您可以使用图像组件将动态模板直接插入内容：
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 执行测试并验证内容后，即可向受众发送消息。
 
-### 带有HTML组件
+### 带有HTML组件 {#html-component}
 
 您可以使用HTML组件将动态模板直接插入内容：
 
