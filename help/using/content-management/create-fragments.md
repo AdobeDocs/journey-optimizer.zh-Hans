@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 730e3da767ba54973ea886057262fe0210b46dd2
+source-git-commit: 167d42f51bd76d42118b340fe6a1f41962ef9c51
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '635'
 ht-degree: 15%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 15%
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
 >abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。在使用个性化编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="利用表达式片段"
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments" text="Leverage expression fragments"-->
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](#save-as-fragment)
 
@@ -77,7 +78,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->要发布片段，您必须具有[Publish片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
+>要发布片段，您必须具有[发布片段](../administration/ootb-product-profiles.md#content-library-manager)用户权限。
 
 如果您的片段已准备好上线，您可以预览和发布它以使其可在您的历程和营销活动中使用。 要实现此目的，请执行以下步骤。
 
@@ -87,7 +88,7 @@ ht-degree: 15%
 
    ![](assets/fragment-preview.png)
 
-1. 单击右上角的&#x200B;**[!UICONTROL Publish]**&#x200B;按钮发布片段。
+1. 单击右上角的&#x200B;**[!UICONTROL 发布]**&#x200B;按钮发布片段。
 
 1. 如果片段在实时历程或营销策划中使用，将打开一条消息通知您。 单击&#x200B;**[!UICONTROL 查看更多]**&#x200B;链接可访问引用它的历程和/或营销活动列表。 [了解如何浏览片段的引用](../content-management/manage-fragments.md#explore-references)
 
