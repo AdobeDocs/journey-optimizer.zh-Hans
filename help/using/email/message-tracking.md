@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 85bc9308402eaf2f13df0ca8d340b96769fc777e
+source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1198'
 ht-degree: 31%
 
 ---
@@ -120,7 +120,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 1. 在插入链接的&#x200B;**[!UICONTROL 文本]**&#x200B;组件中，选择您的链接。
 
-1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，选择链接在&#x200B;**[!UICONTROL 目标]**&#x200B;下拉列表中的打开位置：
+1. 从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中，在&#x200B;**[!UICONTROL Target]**&#x200B;下拉列表中选择链接打开的位置。 可能的值如下所示：
 
    * **[!UICONTROL 无]**：单击时在同一框架中打开链接（默认）。
    * **[!UICONTROL 空白]**：在新窗口或标签页中打开链接。
