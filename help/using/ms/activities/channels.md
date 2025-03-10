@@ -1,0 +1,117 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 使用渠道活动
+description: 了解如何添加渠道活动
+hide: true
+hidefromtoc: true
+source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 48%
+
+---
+
+# 渠道活动 {#channel}
+
+通过Adobe Journey Optimizer，您可以跨入站和出站渠道自动执行营销活动。 您可以将渠道活动合并到多步骤营销活动画布中，以创建跨渠道多步骤营销活动，从而根据客户行为和数据触发操作。 [此页面](../../channels/gs-channels.md)中列出了支持的渠道。
+
+例如，您可以创建一个欢迎电子邮件促销活动，其中包含跨不同渠道的一系列消息，例如电子邮件、短信、推送和直邮。 您还可以在客户完成购买后发送跟进电子邮件，或者通过短信向客户发送个性化的生日消息。
+
+通过使用渠道活动，您可以创建全面、个性化的营销活动，通过多个接触点吸引客户并推动转化。
+
+## 先决条件 {#channel-activity-prereq}
+
+开始使用相关活动构建多步营销活动：
+
+* 在插入渠道活动之前，必须定义受众。 受众是投放的主要目标：接收消息的用户档案。
+
+* 要发送循环投放，请使用&#x200B;**调度程序**&#x200B;活动启动多步骤活动。 您还可以对一次性投放使用&#x200B;**调度程序**&#x200B;活动来设置该投放的联系日期。 还可以在投放设置中设置该联系日期。 请参阅[此小节](scheduler.md)。
+
+## 配置“渠道”活动 {#create-a-delivery-in-a-workflow}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_email"
+>title="”电子邮件“活动"
+>abstract="电子邮件活动有助于在工作流程中发送电子邮件，允许一次性和重复发送消息。它可用于自动将电子邮件发送到在同一工作流程中计算的目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_sms"
+>title="”短信“活动"
+>abstract="短信活动有助于在工作流程中发送短信，允许一次性和重复发送消息。它可用于自动将短信发送到在同一工作流程中计算的目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push_ios"
+>title="”推送 iOS“ 活动"
+>abstract="推送 iOS 活动简化作为工作流的一部分发送 iOS 推送通知的过程。可一次性和重复传送消息，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push_android"
+>title="”推送 Android“ 活动"
+>abstract="推送 Android 活动简化作为工作流的一部分发送 Android 推送通知的过程。可一次性和重复传送消息，自动将 Android 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_directmail"
+>title="”直邮“活动"
+>abstract="直邮活动有助于在工作流中直接发送邮件，允许一次性和重复发送消息。该功能可以自动生成直邮提供商所需的提取文件。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+
+要在多步骤活动环境中设置投放，请执行以下步骤：
+
+1. 添加渠道活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知(Android)]**、**[!UICONTROL 推送通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
+
+1. 选择&#x200B;**投放类型**：单次或循环。
+
+   * **单次投放**&#x200B;是一次性投放，只发送一次，例如，黑色星期五的电子邮件。
+   * 根据在[调度程序活动](scheduler.md)中定义的执行频率，多次发送&#x200B;**循环投放**。 每次运行多步骤营销活动时，都会重新计算受众，并将投放内容发送到更新的受众，其中包含更新的内容。 例如，这可以是每周新闻稿或定期生日电子邮件。
+
+1. 选择投放&#x200B;**模板**。模板是专用于渠道的预配置的投放设置。每个渠道都有一个内置模板，默认情况下会预填充。
+
+   ![](../assets/delivery-activity-in-wf.png)
+
+   您可以从渠道活动配置左窗格中选择模板。 如果之前选择的受众与渠道不兼容，则您无法选择模板。要解决此问题，请更新&#x200B;**构建受众**&#x200B;活动以选择具有正确目标映射的受众。
+
+1. 单击&#x200B;**创建投放**。然后，您可以使用与创建独立投放相同的方式定义消息设置和内容。 您还可以测试和模拟内容。
+
+1. 导航回工作流。 如果要继续工作流，请切换&#x200B;**生成叫客过渡**&#x200B;选项以在渠道活动后添加过渡。
+
+1. 单击&#x200B;**开始**&#x200B;以启动多步骤营销活动。
+
+   默认情况下，启动多步骤活动会触发消息准备阶段，而不会立即发送消息。
+
+1. 打开您的渠道活动，通过&#x200B;**查看和发送**&#x200B;按钮确认发送。
+
+1. 在投放仪表板中，单击&#x200B;**发送**。
+
+## 示例 {#cross-channel-workflow-sample}
+
+这是一个具有分段和两次投放的跨渠道多步骤营销活动示例。 该多步营销活动面向所有居住在巴黎并对咖啡机感兴趣的客户。 在这些人群中，会向普通客户发送一封电子邮件，而向 VIP 客户发送一条短信。
+
+![](../assets/workflow-channel-example.png)
+
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
+
+how to add and configure the activity
+
+example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
+
+-->
+
+您还可以创建循环的多步骤营销活动，于每月第一天晚上8点向所有居住在巴黎的客户发送个性化短信。
+
+![](../assets/workflow-channel-example2.png)
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.
+Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
+
+-->
+
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
