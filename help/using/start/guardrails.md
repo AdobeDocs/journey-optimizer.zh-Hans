@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
 workflow-type: tm+mt
 source-wordcount: '2346'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -35,12 +35,12 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 数据集护栏 {#datasets-guardrails}
 
-自2025年2月起，在&#x200B;**新沙盒和新组织**&#x200B;中的Journey Optimizer系统生成的数据集中推出生存时间(TTL)护栏，如下所示：
+从 2025 年 2 月起，已在&#x200B;**新沙盒和新组织**&#x200B;中推出用于 Journey Optimizer 系统生成的数据集的生存时间 (TTL) 护栏，如下所示：
 
-* 90天配置文件存储中的数据，
-* 对于数据湖中的数据，为13个月。
+* 配置文件存储中的数据为 90 天，
+* 数据湖中的数据为 13 个月。
 
-此更改将在后续阶段中转出到&#x200B;**现有客户沙盒**。 [了解有关数据集生存时间(TTL)护栏的更多信息](../data/datasets-ttl.md)
+此更改将在后续阶段推广到&#x200B;**现有的客户沙盒**。[了解有关数据集生存时间(TTL)护栏的更多信息](../data/datasets-ttl.md)
 
 ## 渠道护栏 {#channel-guardrails}
 
@@ -57,13 +57,13 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### Web 渠道护栏 {#web-guardrails}
 
-[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这将增加您的可参与用户档案总数，如果超出您购买的可参与用户档案的合同数量，则可能会带来成本影响。
+[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这将增加符合资格的用户档案总数，如果超出您购买的符合资格的用户档案的合同数量，则可能会产生成本影响。
 
 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
 ### 基于代码的渠道护栏 {#code-based-guardrails}
 
-要在[!DNL Journey Optimizer]中使用基于代码的体验操作，并交付应用程序可以使用的代码内容有效负载，请按照[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件操作。
+要在 [!DNL Journey Optimizer] 中使用基于代码的体验操作，并交付应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
 
 ## 登陆页面护栏 {#lp-guardrails}
 
@@ -87,9 +87,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
-## 决策和决策管理护栏 {#decisioning-guardrails}
+## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 
-有关使用决策或决策管理时要牢记的护栏和限制，请参阅以下决策和决策管理部分：
+有关使用 Decisioning 或决策管理时要牢记的护栏和限制，请参阅以下 Decisioning 和决策管理部分：
 
 * [决策护栏和限制](../experience-decisioning/decisioning-guardrails.md)
 * [决策管理护栏和限制](../offers/decision-management-guardrails.md)
@@ -220,4 +220,4 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 以下护栏适用于 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活动：
 
 * Adobe Campaign 活动不能与“读取受众”或“受众资格筛选”活动一起使用。
-* 促销活动不能与其他渠道活动一起使用：信息卡、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。
+* 营销活动不能与其他渠道活动一起使用：卡片、基于代码的体验、电子邮件、推送、短信、应用程序内消息、Web。

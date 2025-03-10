@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 90%
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [历程中的实时报告](using/building-journeys/report-journey.md)
    + 管理您的历程{#manage-journey}
-      + [浏览和筛选您的历程](using/building-journeys/journey-ui.md)
+      + [浏览和筛选历程](using/building-journeys/journey-ui.md)
       + [轮廓入口管理](using/building-journeys/entry-management.md)
       + [时区管理](using/building-journeys/timezone-management.md)
       + [发送时间优化](using/building-journeys/send-time-optimization.md)
@@ -169,7 +169,7 @@ ht-degree: 90%
          + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
-         + [在Experience Platform中使用自定义操作编写历程事件](using/building-journeys/custom-action-aep.md)
+         + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 多步骤营销活动{#ms-campaigns}
    + [多步骤营销活动入门](using/ms/gs-ms-campaigns.md)
    + 创建您的第一个多步骤营销活动{#create-ms-campaign}
@@ -245,7 +245,7 @@ ht-degree: 90%
          + 编辑样式 {#edit-style}
             + [电子邮件样式入门](using/email/get-started-email-style.md)
             + [编辑背景设置](using/email/backgrounds.md)
-            + [调整垂直对齐和填充](using/email/alignment-and-padding.md)
+            + [调整垂直对齐方式和间距](using/email/alignment-and-padding.md)
             + [添加内联样式属性](using/email/inline-styling.md)
       + [管理电子邮件选择退出](using/email/email-opt-out.md)
       + 配置电子邮件渠道 {#configure-email}
@@ -261,12 +261,12 @@ ht-degree: 90%
       + [创建移动应用程序内消息](using/in-app/create-in-app.md)
       + [创建 Web 应用程序内消息](using/in-app/create-in-app-web.md)
       + [设计应用程序内内容](using/in-app/design-in-app.md)
-      + [检查并发送应用程序内通知](using/in-app/send-in-app.md)
+      + [检查和发送应用程序内通知](using/in-app/send-in-app.md)
    + 推送通知渠道{#push}
       + [推送通知入门](using/push/get-started-push.md)
       + [创建推送通知](using/push/create-push.md)
       + [设计推送通知](using/push/design-push.md)
-      + [检查并发送推送通知](using/push/send-push.md)
+      + [检查和发送推送通知](using/push/send-push.md)
       + 配置推送通知{#push-config}
          + [推送通知数据流](using/push/push-gs.md)
          + [配置推送通知渠道](using/push/push-configuration.md)
@@ -274,7 +274,7 @@ ht-degree: 90%
    + 短信/MMS 渠道{#sms}
       + [文本消息入门](using/sms/get-started-sms.md)
       + [创建短信 (SMS/MMS)](using/sms/create-sms.md)
-      + [检查并发送短信](using/sms/send-sms.md)
+      + [检查和发送文本消息](using/sms/send-sms.md)
       + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
       + 配置短信/MMS 渠道{#configure-sms}
@@ -287,7 +287,7 @@ ht-degree: 90%
    + 直邮 {#direct-mail}
       + [直邮入门](using/direct-mail/get-started-direct-mail.md)
       + [创建直邮](using/direct-mail/create-direct-mail.md)
-      + [检查并发送直邮消息](using/direct-mail/test-send-direct-mail.md)
+      + [检查和发送直邮消息](using/direct-mail/test-send-direct-mail.md)
       + [配置直邮](using/direct-mail/direct-mail-configuration.md)
    + Web 渠道 {#web}
       + [开始使用 Web 渠道](using/web/get-started-web.md)
@@ -310,7 +310,7 @@ ht-degree: 90%
          + [实施方法示例](using/code-based/code-based-implementation-samples.md)
          + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
       + 创建基于代码的体验{#create-code-based-experiences}
-         + [构建和撰写基于代码的体验](using/code-based/create-code-based.md)
+         + [构建和编写基于代码的体验](using/code-based/create-code-based.md)
          + [测试基于代码的体验](using/code-based/test-code-based.md)
          + [管理基于代码的体验](using/code-based/publish-code-based.md)
    + 内容卡{#content-card}
@@ -342,9 +342,9 @@ ht-degree: 90%
       + [使用 AI 生成短信](using/content-management/generative-sms.md)
       + [使用 AI 生成 Web 内容](using/content-management/generative-web.md)
       + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
-      + [使用AI的登陆页面](using/content-management/generative-lp.md)
+      + [使用 AI 的登陆页面](using/content-management/generative-lp.md)
       + [AI 助手用例](using/content-management/generative-uc.md)
-      + [创建和管理品牌(Beta)](using/content-management/brands.md)
+      + [创建和管理品牌（Beta 版）](using/content-management/brands.md)
    + 使用多语言内容{#content-multilingual}
       + [多语言内容入门](using/content-management/multilingual-gs.md)
       + [创建区域](using/content-management/multilingual-locale.md)
@@ -373,7 +373,7 @@ ht-degree: 90%
          + [算术函数](using/personalization/functions/arithmetic-functions.md)
          + [数组和列表函数](using/personalization/functions/arrays-list.md)
          + [日期函数](using/personalization/functions/dates.md)
-         + [布尔和比较函数](using/personalization/functions/operators.md)
+         + [布尔值和比较函数](using/personalization/functions/operators.md)
          + [辅助程序](using/personalization/functions/helpers.md)
          + [映射函数](using/personalization/functions/maps.md)
          + [数学函数](using/personalization/functions/math.md)
@@ -400,7 +400,7 @@ ht-degree: 90%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
-+ 受众、个人资料和身份{#audiences-profiles-identities}
++ 受众、用户档案和身份标识{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + 创建受众 {#create}
@@ -423,7 +423,7 @@ ht-degree: 90%
    + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
    + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
-+ 跟踪和监视{#reporting}
++ 跟踪和监测{#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
       + [组件列表](using/reports/live-report-components.md)
@@ -435,7 +435,7 @@ ht-degree: 90%
       + [全时段报告入门](using/reports/report-gs-cja.md)
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
-      + [报告和实验先决条件](using/reports/reporting-configuration.md)
+      + [报告和试验先决条件](using/reports/reporting-configuration.md)
       + 营销活动报告{#reporting}
          + [营销活动报告](using/reports/campaign-global-report-cja.md)
          + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
@@ -554,8 +554,8 @@ ht-degree: 90%
          + [配置事件捕获](using/offers/data-collection/schema-requirement.md)
       + 利用上下文数据{#context-data}
          + [上下文数据入门](using/offers/context-data.md)
-         + [上下文数据和Edge Decisioning请求](using/offers/context-data-edge.md)
-         + [上下文数据和决策请求](using/offers/context-data-decisioning.md)
+         + [上下文数据和 Edge Decisioning 请求](using/offers/context-data-edge.md)
+         + [上下文数据和 Decisioning 请求](using/offers/context-data-decisioning.md)
       + 创建决策管理报表 {#create-reports}
          + [使用决策管理事件](using/offers/reports/get-started-events.md)
          + [访问事件 XDM 字段](using/offers/reports/xdm-fields.md)
@@ -568,7 +568,7 @@ ht-degree: 90%
          + [备用数据集](using/offers/export-catalog/export-fallback.md)
       + API 参考 {#api-reference}
          + [快速入门](using/offers/api-reference/getting-started.md)
-         + 使用API创建和管理优惠{#offers-api}
+         + 使用 API 创建和管理优惠{#offers-api}
             + 放置环境 {#placements}
                + [列出放置环境](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查找放置环境](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -665,7 +665,7 @@ ht-degree: 90%
    + [使用架构](using/data/get-started-schemas.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集入门](using/data/get-started-datasets.md)
-      + [数据集生存时间(TTL)护栏](using/data/datasets-ttl.md)
+      + [数据集生存时间 (TTL) 护栏](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
@@ -681,7 +681,7 @@ ht-degree: 90%
       + [委派子域](using/configuration/delegate-subdomain.md)
       + [设置 DMARC 记录](using/configuration/dmarc-record.md)
       + [添加 Google TXT 记录](using/configuration/google-txt.md)
-      + [访问和编辑PTR记录](using/configuration/ptr-records.md)
+      + [访问和编辑 PTR 记录](using/configuration/ptr-records.md)
       + [创建 IP 池](using/configuration/ip-pools.md)
    + 实施 IP 预热计划{#implement-ip-warmup-plan}
       + [开始使用 IP 预热计划](using/configuration/ip-warmup-gs.md)
@@ -718,9 +718,9 @@ ht-degree: 90%
          + [Adobe Experience Platform 数据源](using/datasource/adobe-experience-platform-data-source.md)
          + [外部数据源](using/datasource/external-data-sources.md)
       + 操作配置{#action-journeys}
-         + [开始使用自定义操作](using/action/action.md)
+         + [自定义操作入门](using/action/action.md)
          + [配置自定义操作](using/action/about-custom-action-configuration.md)
-         + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
+         + [自定义操作故障排除](using/action/troubleshoot-custom-action.md)
          + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
          + [与 Adobe Campaign Standard 集成](using/action/acs-action.md)
          + [与 Adobe Campaign v7/v8 集成](using/action/acc-action.md)
@@ -746,4 +746,4 @@ ht-degree: 90%
       + [管理选择退出机制](using/privacy/opt-out.md)
       + [使用同意策略](using/action/consent.md)
    + [数据治理](using/action/action-privacy.md)
-   + [设置和管理客户管理的密钥](using/privacy/cmk.md)
+   + [设置和管理客户托管密钥](using/privacy/cmk.md)

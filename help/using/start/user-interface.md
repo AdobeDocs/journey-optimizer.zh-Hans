@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 3e9392d65bc4a5cbbb95ed27350c6de56edcbf18
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系您的Adobe客户成功经理或Adobe代表。
+>* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
 >* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
 >
@@ -122,7 +122,7 @@ ht-degree: 95%
 
 * **[!UICONTROL 审核]** - 浏览到此部分，查看活动日志。[了解详情](../privacy/audit-logs.md)
 
-* **[!UICONTROL 数据生命周期]** — 此部分允许您配置和计划数据生命周期操作，确保您的记录得到正确维护。 [了解详情](../privacy/data-hygiene.md)
+* **[!UICONTROL 数据生命周期]** - 此部分允许您配置和计划数据生命周期操作，确保正确维护记录。[了解详情](../privacy/data-hygiene.md)
 
 ### [!UICONTROL 管理] {#left-nav-admin}
 
