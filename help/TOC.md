@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfc0774468710a7b8791c9b2a6c70397a90443fa
+source-git-commit: 170dd966ae9fe9721a92bdebccd76305ad6fa1dc
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 91%
+source-wordcount: '2251'
+ht-degree: 90%
 
 ---
 
@@ -170,7 +170,35 @@ ht-degree: 91%
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
          + [在Experience Platform中使用自定义操作编写历程事件](using/building-journeys/custom-action-aep.md)
-+ 营销活动{#campaigns}
++ 多步骤营销活动{#ms-campaigns}
+   + [多步骤营销活动入门](using/ms/gs-ms-campaigns.md)
+   + 创建您的第一个多步骤营销活动{#create-ms-campaign}
+      + [关键原则](using/ms/gs-campaign-creation.md)
+      + [护栏和限制](using/ms/guardrails.md)
+      + [创建营销活动](using/ms/create-ms-campaign.md)
+      + [安排活动](using/ms/orchestrate-activities.md)
+      + [配置Campaign设置](using/ms/ms-campaign-settings.md)
+      + [启动和监控活动](using/ms/start-monitor-campaigns.md)
+      + [多步骤营销活动中的事件变量](using/ms/event-variables.md)
+   + 多步骤营销活动{#design-campaigns}
+      + [关于多步骤营销活动活动](using/ms/activities/about-activities.md)
+      + [And-join](using/ms/activities/and-join.md)
+      + [构建受众](using/ms/activities/build-audience.md)
+      + [更改维度](using/ms/activities/change-dimension.md)
+      + [合并](using/ms/activities/combine.md)
+      + [重复数据删除](using/ms/activities/deduplication.md)
+      + [渠道操作](using/ms/activities/channels.md)
+      + [扩充](using/ms/activities/enrichment.md)
+      + [分叉](using/ms/activities/fork.md)
+      + [加载文件](using/ms/activities/load-file.md)
+      + [协调](using/ms/activities/reconciliation.md)
+      + [保存受众](using/ms/activities/save-audience.md)
+      + [调度程序](using/ms/activities/scheduler.md)
+      + [拆分](using/ms/activities/split.md)
+      + [测试](using/ms/activities/test.md)
+      + [更新数据](using/ms/activities/update-data.md)
+      + [等待](using/ms/activities/wait.md)
++ 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
