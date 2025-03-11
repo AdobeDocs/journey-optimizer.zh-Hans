@@ -6,7 +6,7 @@ description: 了解如何从多步营销活动开始
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 18%
@@ -19,8 +19,7 @@ ht-degree: 18%
 
 **目录**
 
-* 多步骤营销活动入门
-* [关键原则](gs-campaign-creation.md)
+* 多步骤营销活动入门 — [关键原则](gs-campaign-creation.md)
 * 配置： [使用架构](ms-schemas.md) - [使用事件变量](event-variables.md)
 * 开始使用： [创建编排的营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md) - [开始和监视您的营销活动](start-monitor-campaigns.md) - [活动入门](activities/about-activities.md) - [编排活动](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [调度程序](activities/scheduler.md) - [R拆分](activities/split.md) - [测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
