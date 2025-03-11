@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: a6a601477e29e558bf4f4e9416187b2db3e15942
+source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 资产选择器现在支持Dynamic Media，允许您在Journey Optimizer中无缝选择和使用批准的Dynamic Media演绎版。 对Adobe Experience Manager中的资源所做的更改会立即反映在Journey Optimizer内容中，从而确保始终使用最新版本，而无需手动更新。
 
-要了解有关Adobe Experience Manager as a Cloud Service中Dynamic Media的更多信息，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media)。
+要了解有关Adobe Experience Manager as a Cloud Service中Dynamic Media的更多信息，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 
 ## 添加和管理Dynamic Media {#dynamic-media}
 

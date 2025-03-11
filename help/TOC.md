@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
+source-git-commit: 62d8da17a806713b1e77d8e7e494106dbb825c8b
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 95%
@@ -419,7 +419,7 @@ ht-degree: 95%
    + [使用 Experience Manager Assets](using/integrations/assets.md)
    + [使用 Adobe Stock](using/integrations/stock.md)
    + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
-   + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
+   + [使用Experience Manager内容片段](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
 + 跟踪和监测{#reporting}
    + 实时报告 {#live-report}
