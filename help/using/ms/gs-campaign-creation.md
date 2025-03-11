@@ -6,20 +6,21 @@ description: 了解使用Adobe Journey Optimizer执行多步营销活动的主�
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
+source-git-commit: 326a0a47c859f475d9036c6142b057a5b59b0ae9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 27%
+source-wordcount: '464'
+ht-degree: 24%
 
 ---
 
 # 编排的营销活动的主要原则 {#ms-campaign-creation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_targeting_workflow_list"
+>title="多步营销活动"
+>abstract="在此屏幕中，您可以访问多步骤营销活动的完整列表，检查其当前状态、上次/下次执行日期，并创建新的多步骤营销活动。"
+
 借助Adobe Journey Optimizer，您可以将多步营销活动构建到可视画布中，以设计跨渠道流程，例如分段、营销活动执行、文件处理。
-
-## 构建查询
-
-## Personalization准则
 
 ## 多步营销活动包含哪些内容？ {#gs-ms-campaign-inside}
 
@@ -43,7 +44,23 @@ ht-degree: 27%
 
 ![](assets/workflow-creation-process.png){zoomable="yes"}
 
-## 状态和生命周期
+## 访问多步骤活动
+
+在&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单中，浏览到“多步”选项卡以访问多步营销活动的完整列表。
+
+列表中的每个多步骤营销活动都显示有关其当前[状态](#status)、上次执行或修改该营销活动的时间，以及下一个计划执行日期和时间的信息。
+
+可以通过单击列表右上角的&#x200B;**[!UICONTROL 为自定义版面配置列]**&#x200B;图标来自定义显示的列。这样，您就可以向列表中添加其他信息，例如每个多步骤营销活动出错的最后一个活动，或应用的定位维度。
+
+此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选多步骤营销活动，以仅显示属于某个营销活动的营销活动，或显示在特定日期范围内处理的营销活动。
+
+要复制或删除多步骤营销活动，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 复制]**&#x200B;或&#x200B;**[!UICONTROL 删除]**。
+
+>[!NOTE]
+>
+>当多步营销活动正在进行时，您可以复制它，但无法删除它。
+
+## 状态和生命周期 {#status}
 
 营销活动可以具有多种状态：
 
@@ -53,3 +70,7 @@ ht-degree: 27%
 * **[!UICONTROL 已暂停]**：多步骤营销活动已暂停。
 * **[!UICONTROL 错误]**：多步骤营销活动遇到错误。 打开多步骤营销活动并访问日志和任务，以识别错误并加以解决。
 
+
+## 构建查询
+
+## Personalization准则
