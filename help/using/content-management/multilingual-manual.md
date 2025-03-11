@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d63b12c9c7d3b16309661ffbe20baf8a9c140945
+source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >对于手动流程，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**&#x200B;权限。
 
-使用手动流程，您可以轻松地直接在营销活动和历程中翻译内容，并为多语言消息提供精确的控制和自定义选项。 此外，您还可以使用“导入HTML”选项轻松导入预先存在的多语言内容。
+使用手动流程，您可以轻松地直接在营销活动和历程中翻译内容，并为多语言消息提供精确的控制和自定义选项。 此外，您还可以使用导入HTML选项轻松导入预先存在的多语言内容。
 
 请按照以下步骤使用手动翻译创建多语言内容：
 
@@ -30,9 +30,9 @@ ht-degree: 2%
 
 1. [添加区域设置（可选）](multilingual-locale.md)
 
-1. [创建语言设置](#create-language-settings)
+1. [创建语言设置](#language-settings)
 
-1. [创建多语言内容](#create-a-multilingual-campaign)
+1. [创建多语言内容](#create-multilingual-campaign)
 
 ## 创建语言设置 {#language-settings}
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 1. 选择与此设置关联的&#x200B;**[!UICONTROL 区域设置]**。 您最多可以添加50个区域设置。
 
-   如果缺少&#x200B;**[!UICONTROL 区域设置]**，您可以预先从&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单或通过API手动创建它。 请参阅[创建新区域设置](#create-locale)。
+   如果缺少&#x200B;**[!UICONTROL 区域设置]**，您可以预先从&#x200B;**[!UICONTROL 翻译]**&#x200B;菜单或通过API手动创建它。 请参阅[创建新区域设置](multilingual-locale.md)。
 
    ![](assets/multilingual-settings-2.png)
 
@@ -155,7 +155,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. 单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;并选择您之前创建的&#x200B;**[!UICONTROL 语言设置]**。 [了解详情](#create-language-settings)
+1. 单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;并选择您之前创建的&#x200B;**[!UICONTROL 语言设置]**。 [了解详情](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
