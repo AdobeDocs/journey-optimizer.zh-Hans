@@ -1,18 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 多步骤营销活动事件变量
+title: 在多步营销活动中使用事件变量
 description: 了解如何在多步营销活动中利用事件变量
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: f86dd262-0209-42f6-a180-736f1de98d78
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# 多步骤营销活动事件变量 {#event-variables}
+# 使用事件变量 {#event-variables}
 
 某些多步骤营销活动允许您在表达式编辑器中编辑脚本以执行特定操作，例如检索来自先前活动的数据、构建条件或根据事件变量计算文件名。
 

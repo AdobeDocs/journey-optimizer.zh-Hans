@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 78c1464ccddec75e4827cbb1877d8fab5ac08b90
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2270'
 ht-degree: 95%
 
 ---
@@ -172,14 +172,17 @@ ht-degree: 95%
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 多步骤营销活动{#ms-campaigns}
    + [多步骤营销活动入门](using/ms/gs-ms-campaigns.md)
+   + [关键原则](using/ms/gs-campaign-creation.md)
+   + [护栏和限制](using/ms/guardrails.md)
+   + 配置 {#ms-config}
+      + [架构](using/ms/ms-schemas.md)
+      + [使用事件变量](using/ms/event-variables.md)
    + 创建您的第一个多步骤营销活动{#create-ms-campaign}
-      + [关键原则](using/ms/gs-campaign-creation.md)
-      + [护栏和限制](using/ms/guardrails.md)
-      + [创建营销活动](using/ms/create-ms-campaign.md)
+      + [创建编排的营销活动](using/ms/create-ms-campaign.md)
       + [安排活动](using/ms/orchestrate-activities.md)
       + [配置Campaign设置](using/ms/ms-campaign-settings.md)
       + [启动和监控活动](using/ms/start-monitor-campaigns.md)
-      + [多步骤营销活动中的事件变量](using/ms/event-variables.md)
+      + [管理个性化](using/ms/ms-personalization.md)
    + 多步骤营销活动{#design-campaigns}
       + [关于多步骤营销活动活动](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)

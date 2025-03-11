@@ -5,21 +5,31 @@ title: 使用Journey Optimizer创建多步营销活动
 description: 了解如何使用Adobe Journey Optimizer创建多步营销活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 1%
 
 ---
 
-
-# 创建多步营销活动 {#create-first-campaign}
+# 创建编排的营销活动 {#create-first-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_creation_workflow"
 >title="多步骤活动列表"
 >abstract="**多步骤**&#x200B;选项卡列出了所有多步骤营销活动。 单击多步骤营销活动的名称以对其进行编辑。 使用&#x200B;**创建多步骤营销活动**&#x200B;按钮添加新的多步骤营销活动。"
 
+## 先决条件
+
+### 权限
+
+### 设置
+
+新管理员设置>架构、执行字段和合并策略概述。 [了解详情](ms-schemas.md)
+
+
+## 创建步骤
 
 要创建多步骤营销活动，请执行以下步骤：
 

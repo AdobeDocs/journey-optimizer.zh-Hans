@@ -6,30 +6,28 @@ description: 了解如何从多步营销活动开始
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 040635e03fe4fa0542eeddbc0a2b87c6c838d339
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 25%
+source-wordcount: '404'
+ht-degree: 18%
 
 ---
 
 # 多步骤营销活动入门 {#ms-camp}
 
-多步骤营销活动通过引入由品牌发起的强大批量营销活动功能来增强Adobe Journey Optimizer，使您能够通过高级分段策略规划和编排跨渠道营销活动。
-
 >[!BEGINSHADEBOX]
 
 **目录**
 
+* 多步骤营销活动入门
 * [关键原则](gs-campaign-creation.md) - [护栏和限制](guardrails.md)
-* [创建营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md)
-* [开始和监控活动](start-monitor-campaigns.md)
-* [事件变量](event-variables.md)
-* [开始使用活动](activities/about-activities.md) - [编排活动](orchestrate-activities.md)
+* 配置： [使用架构](ms-schemas.md) - [使用事件变量](event-variables.md)
+* 开始使用： [创建编排的营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md) - [开始和监视您的营销活动](start-monitor-campaigns.md) - [活动入门](activities/about-activities.md) - [编排活动](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [调度程序](activities/scheduler.md) - [R拆分](activities/split.md) - [测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
 
 >[!ENDSHADEBOX]
 
+多步骤营销活动通过引入由品牌发起的强大批量营销活动功能来增强Adobe Journey Optimizer，使您能够通过高级分段策略规划和编排跨渠道营销活动。
 
 ## 什么是多步营销活动？
 
@@ -41,12 +39,10 @@ ht-degree: 25%
 
 利用全面的图形环境，您可以设计分段、活动执行、文件处理等流程。 多步骤活动还可以涉及用户，为他们分配任务或让他们批准已执行的任务，这样可以更轻松地管理团队的工作并确保正确完成所有工作。
 
-以下是有关如何在Adobe Journey Optimizer中使用多步营销活动的一些示例：
 
-* 启动面向不活跃客户的后续营销活动，
-* 向服务的所有新订阅者发送欢迎电子邮件，
-* 根据客户的忠诚度计划状态或兴趣点个性化跨渠道投放。
+## 历程编排和活动编排
 
+历程与促销活动 — 说明差异、用例和最佳实践
 
 ## 让我们深入探究
 

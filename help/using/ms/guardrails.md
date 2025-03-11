@@ -5,10 +5,11 @@ title: 使用Journey Optimizer创建多步营销活动
 description: 了解如何使用Journey Optimizer构建多步营销活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8c80010f-e432-48ea-87cf-af635932d26b
+source-git-commit: 271c4739a5537a99da981913606bc9eb099b5139
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 12%
 >title="多步营销活动"
 >abstract="在此屏幕中，您可以访问多步骤营销活动的完整列表，检查其当前状态、上次/下次执行日期，并创建新的多步骤营销活动。"
 
-**[!UICONTROL 营销活动]**&#x200B;菜单，浏览到“多步”选项卡以访问多步营销活动的完整列表。
+在&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单中，浏览到“多步”选项卡以访问多步营销活动的完整列表。
 
 
 列表中的每个多步骤营销活动都显示有关其当前[状态](#status)、上次执行或修改该营销活动的时间，以及下一个计划执行日期和时间的信息。
@@ -33,16 +34,6 @@ ht-degree: 12%
 >[!NOTE]
 >
 >您可以复制正在进行的多步营销活动，但无法删除它。
-
-## 工作流的状态 {#status}
-
-工作流可以具有多种状态：
-
-* **[!UICONTROL 草稿]**：已创建并保存多步骤营销活动。
-* **[!UICONTROL 进行中]**：多步骤营销活动当前正在运行。
-* **[!UICONTROL 已完成]**：多步骤营销活动执行已完成。
-* **[!UICONTROL 已暂停]**：多步骤营销活动已暂停。
-* **[!UICONTROL 错误]**：多步骤营销活动遇到错误。 打开多步骤营销活动并访问日志和任务，以识别错误并加以解决。
 
 
 ## 多步骤活动模板 {#templates}
