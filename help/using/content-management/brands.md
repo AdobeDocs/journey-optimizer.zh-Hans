@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 12dc96bb08f03865c82382baac276f46bc42baeb
+source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 15%
+source-wordcount: '640'
+ht-degree: 16%
 
 ---
 
@@ -37,10 +37,34 @@ ht-degree: 15%
 >title="品牌一致性分数"
 >abstract="您的品牌一致性得分衡量内容遵守品牌准则的程度，确保颜色、字体、徽标、图像和书写风格的一致性。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_brand_colors"
+>title="颜色分数"
+>abstract="颜色分数"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_fonts"
+>title="字体分数"
+>abstract="字体分数"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_logos"
+>title="Logos分数"
+>abstract="Logos分数"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_imagery"
+>title="图像得分"
+>abstract="图像得分"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_writing_style"
+>title="书写样式分数"
+>abstract="书写样式分数"
 
 >[!AVAILABILITY]
 >
->此功能作为专用测试版发布。 它将在未来版本中逐步向所有客户提供。
+>此功能作为专用测试版发布。 在未来版本中，将逐步向所有客户提供。
 
 品牌指南是一组详细的规则和标准，用于建立品牌的视觉和语言标识。 它们用作参考，以在所有营销和通信平台上保持一致的品牌代表性。
 
