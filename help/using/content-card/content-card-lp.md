@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff7a378fb18c72e7fdcff3c6052dcc428f240c9
+source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/">
-<img alt="Fetch" src="../assets/do-not-localize/fetch.jpeg">
+<img alt="Fetch" src="assets/do-not-localize/fetch.jpeg">
 </a>
 <div><a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/"><strong>获取并显示内容卡</strong>
 </div>
@@ -32,7 +32,7 @@ ht-degree: 7%
 </td>
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/">
-<img alt="自定义" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="自定义" src="assets/do-not-localize/customize.jpeg">
 </a>
 <div>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/"><strong>自定义内容卡</strong></a>
@@ -40,7 +40,7 @@ ht-degree: 7%
 <p></td>
 <td>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/">
-<img alt="聆听" src="../assets/do-not-localize/customize.jpeg">
+<img alt="聆听" src="assets/do-not-localize/listen.jpeg">
 </a>
 <div>
 <a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/"><strong>收听内容卡事件</strong></a>
