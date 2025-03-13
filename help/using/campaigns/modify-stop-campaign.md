@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '598'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 1%
 此外，您可以复制实时营销活动（执行一次或定期执行）以创建新营销活动，并存档已完成或停止的营销活动。
 
 ## 访问活动 {#access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="“活动表”和“时间线”视图"
+>abstract="营销活动表格和时间线视图"
 
 可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。
 

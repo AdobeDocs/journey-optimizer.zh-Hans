@@ -9,19 +9,23 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1134'
 ht-degree: 26%
 
 ---
 
-# 浏览和筛选您的历程 {#browse-journeys}
+# 浏览和筛选历程 {#browse-journeys}
 
 ## 历程仪表板 {#dashboard-jo}
 
-在“历程管理”菜单部分中，单击&#x200B;**[!UICONTROL 历程]**。 两个选项卡可用：**[!UICONTROL 概述]**&#x200B;和&#x200B;**[!UICONTROL 浏览]**。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_view"
+>title="历程表格和时间线视图"
+>abstract="历程表格和时间线视图"
 
+在“历程管理”菜单部分中，单击&#x200B;**[!UICONTROL 历程]**。 两个选项卡可用：**[!UICONTROL 概述]**&#x200B;和&#x200B;**[!UICONTROL 浏览]**。
 
 * **[!UICONTROL 概述]**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。
 
@@ -35,7 +39,6 @@ ht-degree: 26%
   >[!NOTE]
   >
   >此仪表板会考虑过去24小时内具有流量的历程。 只显示您有权访问的历程。 指标每30分钟刷新一次，并且仅在有新数据可用时刷新。
-
 
 * **[!UICONTROL 浏览]**&#x200B;选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。
 
