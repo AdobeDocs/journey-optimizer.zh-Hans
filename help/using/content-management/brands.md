@@ -11,31 +11,31 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 16%
+ht-degree: 38%
 
 ---
 
-# 创建和管理您的品牌 {#brands}
+# 创建和管理品牌 {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"
->title="品牌入门"
->abstract="创建和自定义您自己的品牌，以定义您独特的视觉和口头特征，同时更轻松地生成与品牌风格和声音相匹配的内容。"
+>title="开始使用品牌"
+>abstract="创建并定制您自己的品牌，以塑造您独特的视觉和语言形象，同时更轻松地创作出符合您品牌风格和声音的内容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_ai_menu"
 >title="选择您的品牌"
->abstract="选择您的品牌以确保所有AI生成的内容都根据您品牌的规范和准则进行定制。"
+>abstract="选择您的品牌，以确保所有 AI 生成的内容都符合您品牌的规范和指导方针。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score_overview"
 >title="品牌选择"
->abstract="选择您的品牌以确保您的内容按照其特定的准则、标准和身份进行精心制作，同时保持一致性和品牌完整性。"
+>abstract="选择您的品牌，以确保您的内容制作符合其特定的指导方针、标准和身份，从而保持一致性和品牌完整性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="品牌一致性分数"
->abstract="您的品牌一致性得分衡量内容遵守品牌准则的程度，确保颜色、字体、徽标、图像和书写风格的一致性。"
+>title="品牌一致性得分"
+>abstract="您的品牌一致性得分衡量的是您的内容遵循品牌指导方针的程度，确保颜色、字体、徽标、图像和写作风格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -103,7 +103,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_brands_create"
 >title="创建您的品牌"
->abstract="输入品牌名称并上传品牌指南文件。 该工具会自动提取关键详细信息，从而更轻松地维护您的品牌标识。"
+>abstract="输入您的品牌名称并上传您的品牌指导方针文件。该工具会自动提取关键细节，使维护品牌身份更加容易。"
 
 要创建和管理品牌指南，您可以自己输入详细信息，也可以上传品牌指南文档以自动提取信息：
 
