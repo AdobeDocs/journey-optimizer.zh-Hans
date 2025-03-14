@@ -5,16 +5,15 @@ topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 163a4cc533b5c24e762b2be95a1f2c7dea0eea96
+exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
+source-git-commit: 0351f0ffafe73245582453ab35742951bb42af7c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
-# 在 Web SDK 中配置内容卡支持 {#content-card-lp}
+# 在Mobile SDK中配置内容卡支持 {#content-card-lp}
 
 可以使用Adobe Experience Platform Mobile SDK从Adobe Journey Optimizer获取内容卡并在移动应用程序中渲染，该SDK支持移动应用程序中的端到端参与。 消息传送SDK提供简单易用的API来检索在Adobe Journey Optimizer中创建的内容卡片，并为这些卡片构建本机移动视图，这些视图可供您的应用程序轻松使用或进行自定义以匹配您的应用程序主题。 它还自动跟踪所有应用程序用户与所显示内容卡片的交互，以确保准确报告Journey Optimizer上的促销活动。
 
@@ -48,4 +47,3 @@ ht-degree: 7%
 <p>
 </td>
 </tr></table>
-
