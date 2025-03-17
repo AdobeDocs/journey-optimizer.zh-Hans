@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 2f8c59a3c07dfc772cb62efe5665189d7a176d6f
+source-git-commit: 5af58cd9efc465b30386fad5dc6cd073626c3aed
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1682'
 ht-degree: 21%
 
 ---
@@ -157,9 +157,9 @@ ht-degree: 21%
 
    ![](assets/lp_expiry-date.png)
 
-1. 在&#x200B;**[!UICONTROL 其他数据]**&#x200B;部分中，定义一个或多个键及其相应的参数值。 您将能够使用[个性化编辑器](../personalization/personalization-build-expressions.md)在主页面和子页面的内容中利用这些密钥。 有关详细信息，请参阅[此部分](lp-content.md#use-form-component#use-additional-data)。
+<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-form-component#use-additional-data).
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)-->
 
 1. 如果您在[设计主页面](design-lp.md)时选择了一个或多个订阅列表，则它们将显示在&#x200B;**[!UICONTROL 订阅列表]**&#x200B;部分中。
 
