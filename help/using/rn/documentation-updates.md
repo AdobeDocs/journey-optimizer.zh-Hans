@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4407961654a1d55bf20d8091447dc2f1ef703ea3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 99%
 
 ## 2025 年 3 月 {#mar-2025}
 
-* 更新了有关“受众资格”事件的页面，提供了新的推荐。 [了解详情](../building-journeys/audience-qualification-events.md)
-* 现在，所有客户都可以使用自定义操作故障排除功能(GA)。 [了解详情](../action/troubleshoot-custom-action.md)
+* 更新了“受众资格”事件的相关页面，提供了新的建议。[了解详情](../building-journeys/audience-qualification-events.md)
+* 现在，所有客户都可以使用自定义操作故障排除功能 (GA)。[了解详情](../action/troubleshoot-custom-action.md)
 
 ## 2025 年 2 月 {#feb-2025}
 
-* “读取受众”活动护栏已更新，以指定历程中只能使用一个活动，并且只能针对一个受众。 [了解详情](../building-journeys/read-audience.md)
+* 更新了“读取受众”活动护栏，指明历程中只能使用一个活动，并且只能针对一个受众。[了解详情](../building-journeys/read-audience.md)
 * 更新了使用 Campaign 活动时的历程护栏。[了解详情](../start/guardrails.md#ac-g)
 * 详细介绍了创建第一个历程的步骤，并添加了文档部分的链接。[了解详情](../building-journeys/journey-gs.md)
 * 现在提供了新页面，详细介绍了历程仪表板和筛选用户界面。[了解详情](../building-journeys/journey-ui.md)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2346'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 配置文件存储中的数据为 90 天，
 * 数据湖中的数据为 13 个月。
 
-此更改将在后续阶段推广到&#x200B;**现有的客户沙盒**。[了解有关数据集生存时间(TTL)护栏的更多信息](../data/datasets-ttl.md)
+此更改将在后续阶段推广到&#x200B;**现有的客户沙盒**。[了解有关数据集生存时间 (TTL) 护栏的更多信息](../data/datasets-ttl.md)
 
 ## 渠道护栏 {#channel-guardrails}
 

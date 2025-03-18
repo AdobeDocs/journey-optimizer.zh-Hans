@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b400b48d6f0429b05be523d4c2f520c383eef514
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -22,24 +22,24 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和用户界面
 
 ![](assets/requests.png)
 
-有关Privacy Service以及如何创建和管理隐私请求的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
+有关 Privacy Service 以及如何创建和管理隐私请求的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hans){target="_blank"}。
 
 <!--* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 * [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)-->
 
-## 管理可发送到Adobe Journey Optimizer的个人数据隐私请求 {#data-privacy-requests}
+## 管理可发送到 Adobe Journey Optimizer 的个人数据隐私请求 {#data-privacy-requests}
 
 您可以通过两种方式提交个人请求以从 Adobe Journey Optimizer 访问和删除客户数据：
 
 * 通过 **Privacy Service UI**。[了解详情](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hans){target="_blank"}
-* 通过 **Privacy Service API**。[了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+* 通过 **Privacy Service API**。[了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
-Privacy Service支持两种类型的请求：**数据访问**&#x200B;和&#x200B;**数据删除**。
+Privacy Service 支持两种类型的请求：**数据访问**&#x200B;和&#x200B;**数据删除**。
 
-对于&#x200B;**访问请求**，从UI中指定“**Adobe Journey Optimizer**”（或将“**CJM**”作为API中的产品代码）。
+对于&#x200B;**访问请求**，请从 UI 中指定“**Adobe Journey Optimizer**”（或在 API 中将“**CJM**”指定为产品代码）。
 
-对于&#x200B;**删除请求**，除了&quot;**Adobe Journey Optimizer**&quot;请求之外，您还必须向&#x200B;**三个上游服务**&#x200B;提交删除请求，以阻止Journey Optimizer重新注入已删除的数据。 如果未指定这些上游服务，“Adobe Journey Optimizer”请求将保持为“正在处理”状态，直到上游服务的删除请求已创建。
+对于&#x200B;**删除请求**，除了“**Adobe Journey Optimizer**”请求之外，您还必须向&#x200B;**三个上游服务**&#x200B;提交删除请求，以阻止 Journey Optimizer 重新注入已删除的数据。如果未指定这些上游服务，“Adobe Journey Optimizer”请求将保持为“正在处理”状态，直到上游服务的删除请求已创建。
 
 三种上游服务包括：
 
@@ -49,14 +49,14 @@ Privacy Service支持两种类型的请求：**数据访问**&#x200B;和&#x200B;
 
 >[!NOTE]
 >
->本指南仅介绍如何为[!UICONTROL Adobe Journey Optimizer]发出隐私请求。
+>本指南仅介绍如何发出 [!UICONTROL Adobe Journey Optimizer] 隐私请求。
 >
->* 如果您还计划提出Platform Data Lake的隐私请求，请参阅本[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/privacy)以及本教程。
+>* 如果您还计划向 Platform 数据湖发出隐私请求，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/privacy)以及本教程。
 >
 >* 有关实时客户个人资料，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/privacy)。
->* 有关身份服务，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/privacy)。
+>* 有关标识服务，请参阅此[指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/privacy)。
 >
->对于删除和访问请求，您需要调用这些单独的系统以确保每个系统都处理了这些请求。 向[!DNL Adobe Journey Optimizer]发出隐私请求不会从所有这些系统中删除数据。
+>要删除和访问请求，您需要调用这些单独的系统，以确保每个系统都处理了这些请求。向 [!DNL Adobe Journey Optimizer] 发出隐私请求不会从所有这些系统中移除数据。
 
 ## 创建访问和删除请求
 
@@ -69,9 +69,9 @@ Privacy Service支持两种类型的请求：**数据访问**&#x200B;和&#x200B;
 
 >[!IMPORTANT]
 >
->在提交隐私请求时，请确保指定“[!DNL '**Adobe Journey Optimizer**]”作为目标产品名称，并指定与需要访问或删除的配置文件数据关联的所有身份命名空间&#x200B;**（例如“电子邮件”、“ECID”或“忠诚度ID”）。**&#x200B;特别是对于删除请求，如果您未明确包含产品名称和所有适用的命名空间，则不会从[!DNL Adobe Journey Optimizer]中删除数据。
+>在提交隐私请求时，请确保将“[!DNL '**Adobe Journey Optimizer**]”指定为目标产品名称，并指定与需要访问或移除的配置文件数据关联的&#x200B;**所有标识命名空间**（例如“电子邮件”、“ECID”或“忠诚度 ID”）。特别是对于删除请求，如果您未明确包含产品名称和所有适用的命名空间，则不会从 [!DNL Adobe Journey Optimizer] 中移除数据。
 
-### Journey Optimizer中用于API请求的必填字段值
+### Journey Optimizer 中用于 API 请求的必填字段值
 
 ```json
 "companyContexts":
@@ -97,7 +97,7 @@ Privacy Service支持两种类型的请求：**数据访问**&#x200B;和&#x200B;
 ```
 
 
-### GDPR访问请求示例：
+### GDPR 访问请求示例：
 
 通过 UI：
 
@@ -177,7 +177,7 @@ Privacy Service支持两种类型的请求：**数据访问**&#x200B;和&#x200B;
 }
 ```
 
-### GDPR删除请求示例：
+### GDPR 删除请求示例：
 
 通过 UI：
 
