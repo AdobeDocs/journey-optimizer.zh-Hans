@@ -1,14 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用渠道活动
-description: 了解如何添加渠道活动
+title: 在多步营销活动中添加渠道活动
+description: 了解如何在多步营销活动中添加渠道活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
+source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 48%
+source-wordcount: '899'
+ht-degree: 18%
 
 ---
 
@@ -28,32 +29,32 @@ ht-degree: 48%
 
 * 要发送循环投放，请使用&#x200B;**调度程序**&#x200B;活动启动多步骤活动。 您还可以对一次性投放使用&#x200B;**调度程序**&#x200B;活动来设置该投放的联系日期。 还可以在投放设置中设置该联系日期。 请参阅[此小节](scheduler.md)。
 
-## 配置“渠道”活动 {#create-a-delivery-in-a-workflow}
+## 配置渠道活动 {#create-a-delivery-in-a-workflow}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="”电子邮件“活动"
->abstract="电子邮件活动有助于在工作流程中发送电子邮件，允许一次性和重复发送消息。它可用于自动将电子邮件发送到在同一工作流程中计算的目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="利用电子邮件活动，可在多步营销活动中发送一次性消息和定期消息的电子邮件。 它可用于自动执行向在同一多步骤营销活动中计算的目标发送电子邮件的过程。 您可以将渠道活动合并到多步骤活动画布中，以创建跨渠道活动，从而根据客户行为和数据触发操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="”短信“活动"
->abstract="短信活动有助于在工作流程中发送短信，允许一次性和重复发送消息。它可用于自动将短信发送到在同一工作流程中计算的目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="利用短信活动，可在多步营销活动中发送一次性消息和定期消息的短信。 它有助于自动执行向在同一多步骤营销活动中计算的目标发送短信的过程。 您可以将渠道活动合并到多步骤活动画布中，以创建跨渠道活动，从而根据客户行为和数据触发操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="”推送 iOS“ 活动"
->abstract="推送 iOS 活动简化作为工作流的一部分发送 iOS 推送通知的过程。可一次性和重复传送消息，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="推送iOS活动允许您在多步骤营销策划中发送iOS推送通知。 它允许同时交付一次性活动和循环多步骤活动，在同一工作流中自动将iOS推送通知发送到预定义目标。 可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="”推送 Android“ 活动"
->abstract="推送 Android 活动简化作为工作流的一部分发送 Android 推送通知的过程。可一次性和重复传送消息，自动将 Android 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="推送Android活动可让您在多步骤营销策划中发送Android推送通知。 利用此功能，可投放一次性消息和定期消息，在同一多步骤营销活动中自动将Android推送通知发送到预定义目标。 您可以将渠道活动合并到多步骤活动画布中，以创建跨渠道活动，从而根据客户行为和数据触发操作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="”直邮“活动"
->abstract="直邮活动有助于在工作流中直接发送邮件，允许一次性和重复发送消息。该功能可以自动生成直邮提供商所需的提取文件。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>abstract="直邮活动有助于在多步营销活动中发送一次性消息和定期消息的直邮。 该功能可以自动生成直邮提供商所需的提取文件。您可以将渠道活动合并到多步骤活动画布中，以创建跨渠道活动，从而根据客户行为和数据触发操作。"
 
 要在多步骤活动环境中设置投放，请执行以下步骤：
 
