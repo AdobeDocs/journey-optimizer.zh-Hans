@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
 workflow-type: tm+mt
 source-wordcount: '2279'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -170,20 +170,20 @@ ht-degree: 94%
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
-+ 多步骤营销活动{#ms-campaigns}
++ 多步骤营销活动 {#ms-campaigns}
    + [多步骤营销活动入门](using/ms/gs-ms-campaigns.md)
    + [关键原则](using/ms/gs-campaign-creation.md)
    + 配置 {#ms-config}
       + [架构](using/ms/ms-schemas.md)
       + [使用事件变量](using/ms/event-variables.md)
-   + 创建您的第一个多步骤营销活动{#create-ms-campaign}
+   + 创建您的第一个多步骤营销活动 {#create-ms-campaign}
       + [创建编排的营销活动](using/ms/create-ms-campaign.md)
-      + [安排活动](using/ms/orchestrate-activities.md)
-      + [配置Campaign设置](using/ms/ms-campaign-settings.md)
-      + [启动和监控活动](using/ms/start-monitor-campaigns.md)
+      + [编排活动](using/ms/orchestrate-activities.md)
+      + [配置营销活动设置](using/ms/ms-campaign-settings.md)
+      + [启动和监测营销活动](using/ms/start-monitor-campaigns.md)
       + [管理个性化](using/ms/ms-personalization.md)
-   + 多步骤营销活动{#design-campaigns}
-      + [关于多步骤营销活动活动](using/ms/activities/about-activities.md)
+   + 多步骤营销活动 {#design-campaigns}
+      + [关于多步骤营销活动](using/ms/activities/about-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [构建受众](using/ms/activities/build-audience.md)
       + [更改维度](using/ms/activities/change-dimension.md)
@@ -338,7 +338,7 @@ ht-degree: 94%
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
 + 内容管理{#content-management}
-   + 用于生成内容的AI助手{#ai-assistant}
+   + 用于内容生成的 AI 助手{#ai-assistant}
       + [AI 助手入门](using/content-management/gs-generative.md)
       + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
       + [使用 AI 生成推送内容](using/content-management/generative-push.md)
@@ -364,9 +364,9 @@ ht-degree: 94%
       + [个性化入门](using/personalization/personalize.md)
       + [添加个性化内容](using/personalization/personalization-build-expressions.md)
       + [个性化语法](using/personalization/personalization-syntax.md)
-      + [重用表达式片段](using/personalization/use-expression-fragments.md)
-      + [使用Adobe Experience Platform数据进行个性化(Beta)](using/personalization/lookup-aep-data.md)
-      + 辅助函数列表{#functions}
+      + [重复使用表达式片段](using/personalization/use-expression-fragments.md)
+      + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/lookup-aep-data.md)
+      + 辅助函数列表 {#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
          + [算术函数](using/personalization/functions/arithmetic-functions.md)
@@ -513,7 +513,7 @@ ht-degree: 94%
                + [查找资格规则](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [资格规则列表](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [更新资格规则](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [使用基于代码的体验渠道交付优惠](using/experience-decisioning/api-reference/deliver.md)
+         + [使用基于代码的体验渠道提供优惠](using/experience-decisioning/api-reference/deliver.md)
       + 管理决策项{#decision-items}
          + [配置项目目录](using/experience-decisioning/catalogs.md)
          + [创建决策项](using/experience-decisioning/items.md)
