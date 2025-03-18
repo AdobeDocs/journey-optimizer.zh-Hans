@@ -48,12 +48,12 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
 >title="在设备上预览基于代码的 Web 体验"
->abstract="扫描二维码或复制链接即可在设备上预览。"
+>abstract="扫描二维码或复制链接以在设备上预览。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
 >title="在移动设备上预览基于代码的体验"
->abstract="扫描二维码或复制链接即可在设备上预览。连接后，在设备上输入密码。每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
+>abstract="扫描二维码或复制链接以在设备上预览。连接后，在设备上输入 PIN 码。每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
