@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 47b8308030ca73b3383938a4be025e332265540e
+source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 5%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 5%
 
 ## 可在何处添加个性化
 
-您可以使用![添加个性化图标](assets/do-not-localize/add-perso-icon.svg)图标在每个字段中的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中添加个性化。
+您可以使用![添加个性化图标](assets/do-not-localize/add-perso-icon.svg)图标在每个字段中的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中添加个性化。 展开以下部分，了解更多详细信息。
 
-### 消息
++++消息
 
 在邮件中，可以在邮件的不同位置添加个性化，如&#x200B;**[!UICONTROL 主题行]**&#x200B;字段。
 
@@ -42,28 +42,32 @@ ht-degree: 5%
 
 还可以在内容的其他部分中添加它。 例如，对于[推送通知](../push/push-gs.md)，可在&#x200B;**标题**、**正文**、**自定义声音**、**徽章**&#x200B;和&#x200B;**自定义数据**&#x200B;字段中添加个性化设置。
 
-### 电子邮件设计工具
++++
+
++++向Designer发送电子邮件
 
 在[电子邮件Designer](../email/get-started-email-design.md)中编辑电子邮件内容时，您可以使用上下文工具栏中的图标在文本块和URL中添加个性化设置。
 
 ![](assets/perso_insert.png)
 
-### 产品建议
++++
+
++++选件
 
 在&#x200B;**优惠的表示形式**&#x200B;中使用文本类型内容时，您可以添加个性化。 [了解如何创建个性化优惠](../offers/offer-library/creating-personalized-offers.md)
 
-### URL
++++
+
++++URLs
 
 Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 URL 可将收件人引导至网站的特定页面，或引导至个性化的微型网站，具体取决于轮廓属性。URL个性化可用于以下类型的链接： **外部链接**、**退订链接**&#x200B;和&#x200B;**选择退出**。
 
-+++请参阅个性化URL示例
+个性化URL示例：
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
 * `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
 * `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
-
-+++
 
 ![](assets/perso-url.png){width="50%"}
 
@@ -73,9 +77,11 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >
 >url内使用的个性化令牌不支持空格。
 
++++
+
 ## Personalization源 {#sources}
 
-屏幕左侧显示一个域选择器，允许您选择个性化的源。 可用源包括：
+导航窗格允许您选择个性化的源。 可用源包括：
 
 * **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构关联的所有引用。
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
@@ -93,9 +99,9 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >title="自动完成"
 >abstract="切换此选项可让系统在您键入时自动建议并完成代码。 此功能仅适用于HTML和文本格式，并且支持配置文件和上下文属性。 如果通过切换禁用，则编辑器将提供本机HTML代码自动完成。"
 
-中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到左侧导航窗格中，然后单击`+`按钮以将其添加到表达式中。
+中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到导航窗格中，然后单击`+`按钮以将其添加到表达式中。
 
-`+`图标旁边的省略号菜单允许您获取每个属性的更多详细信息，并将最常用的属性添加到收藏夹。 添加到收藏夹的属性可从左侧导航窗格中的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;菜单访问。
+`+`图标旁边的省略号菜单允许您获取每个属性的更多详细信息，并将最常用的属性添加到收藏夹。 添加到收藏夹的属性可从导航窗格中的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;菜单访问。
 
 此外，您可以定义在字符串类型配置文件属性为空时显示的默认回退文本。 为此，请单击属性旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 插入后备文本]**。 写入配置文件属性值为空时默认显示的文本，然后单击&#x200B;**[!UICONTROL 添加]**。
 
