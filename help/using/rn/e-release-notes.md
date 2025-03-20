@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1badd589ee3722b28e9a404a9ffbe53eb0ae7c69
+source-git-commit: 636c1f6e03017f166da70707d03835feceab1a00
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 58%
+source-wordcount: '659'
+ht-degree: 41%
 
 ---
 
@@ -50,6 +50,48 @@ ht-degree: 58%
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程的日历视图（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>日历视图现在允许您可视化所有历程激活。 此功能作为有限可用性发布给选定的客户组。<p>
+<p>此更改仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>与Dynamic Media集成（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic Media资源现在可直接在Journey Optimizer中访问和使用。 通过此集成，您可以：
+<ul>
+<li>通过实时更新集中管理资源</li>
+<li>立即修改资源设置，如宽度和高度</li>
+<li>使用带有文本叠加图的图像个性化您的内容</li>
+<li>通过更新内容和添加个性化字段自定义Dynamic Media模板</li>
+</ul>
+<p>
+<p>此集成仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 <table>
@@ -103,3 +145,25 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 ![视频显示Personalization编辑器中的新功能](assets/do-not-localize/personalization-editor.gif)
 
 有关更多信息，请参阅[详细文档](../personalization/personalization-build-expressions.md)。
+
+
+**营销活动**
+
+* 在营销活动列表中，选择营销活动现在会打开一个显示其详细信息的窗格。
+* 您现在可以将营销活动从一个沙盒复制到另一个沙盒。
+
+**个性化**
+
+个性化编辑器中新增了“药丸”按钮。 启用后，配置文件和上下文属性将显示为Pills，从而提高代码的可读性。
+
+**审批**
+
+现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行过滤。
+
+**渠道配置**
+
+您现在可以将Adobe Experience Platform统一标记分配给渠道配置。 这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。
+
+**可投放性**
+
+您现在可以通过从父端管理的DMARC来委派子域。
