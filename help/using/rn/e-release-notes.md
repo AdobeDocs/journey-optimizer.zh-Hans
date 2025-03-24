@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c4961af2653e8135c72dd57997131c56f54b24a5
+source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 38%
+source-wordcount: '738'
+ht-degree: 37%
 
 ---
 
@@ -171,3 +171,7 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 **业务规则**
 
 现在，您可以在历程和营销活动中通过批量分段使用每日频率上限。 要确保每日频率上限规则的准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+
+**内容管理**
+
+为了轻松地管理片段和内容模板，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。
