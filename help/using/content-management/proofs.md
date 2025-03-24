@@ -5,24 +5,25 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: 83da97926138c867ea2dacca6e5cf5e40c926eda
+source-git-commit: 80935cc31ef88a322c2dd555fc8998935c6e5621
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 16%
+source-wordcount: '325'
+ht-degree: 15%
 
 ---
 
 # 发送电子邮件校样 {#send-proofs}
 
->[!PREREQUISITES]
->
->要发送校样，用户必须拥有与电子邮件关联的特定资源、营销活动或历程的&#x200B;**批准和发布**&#x200B;权限。 [了解有关权限的更多信息](../administration/ootb-permissions.md)
-
 利用校样这种特定的消息，可在将消息发送给主要受众之前对消息进行测试。校样的收件人负责审阅消息：呈现效果、内容、个性化设置和配置。
 
 请注意，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
-要在选择[测试用户档案](test-profiles.md)后发送电子邮件校样，请执行以下步骤：
+>[!PREREQUISITES]
+>
+>要发送校样，您必须对与电子邮件关联的特定资源（营销活动或历程）具有&#x200B;**批准和发布**&#x200B;权限。 此外，要在历程中发送验证，还需要&#x200B;**发布历程**&#x200B;权限。 [了解有关权限的详细信息](../administration/ootb-permissions.md)。
+
+
+若要发送电子邮件校样，必须首先选择[测试用户档案](test-profiles.md)。 然后，执行以下步骤：
 
 1. 在&#x200B;**[!UICONTROL 模拟]**&#x200B;屏幕中，单击&#x200B;**[!UICONTROL 发送校样]**&#x200B;按钮。
 
