@@ -5,7 +5,7 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -30,17 +30,19 @@ ht-degree: 90%
 
 您还可以将电子邮件消息的测试投放发送给特定收件人或订阅者，以进行测试和验证，并查看它们在常用桌面设备、移动设备和 Web 客户端中的渲染情况。
 
+可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。
+
+![](../email/assets/email-preview-button.png)
+
+请注意，您需要在产品配置文件中&#x200B;**[!DNL Content Library Manager]**&#x200B;包含权限&#x200B;**[!DNL Manage Simulate Content]**。[了解详情](../administration/ootb-product-profiles.md#content-library-manager)。
+
+
 >[!CAUTION]
 >
 >* 预览消息或发送验证时，仅显示用户档案个性化数据。只能在历程上下文中测试基于上下文数据（如事件信息）的个性化。要了解如何测试个性化，请参阅[此用例](../personalization/personalization-use-case.md)。
 >
 >* 在模拟或呈现包含多个条件变体的电子邮件的验证时，Journey Optimizer可能需要更多的处理时间。 如果您遇到超时或错误消息，请考虑减少变体的总数或简化条件规则。 在[此页面](../personalization/dynamic-content.md)中了解有关条件内容的更多信息。
 
-可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮来执行所有这些操作，您可以从消息的编辑内容屏幕访问该按钮，或从电子邮件和 Web 渠道的电子邮件和 Web 设计器访问该按钮。
-
-![](../email/assets/email-preview-button.png)
-
-请注意，您需要在产品配置文件中&#x200B;**[!DNL Content Library Manager]**&#x200B;包含权限&#x200B;**[!DNL Manage Simulate Content]**。[了解详情](../administration/ootb-product-profiles.md#content-library-manager)。
 
 ## 使用测试用户档案或样本输入数据进行测试 {#methods}
 
