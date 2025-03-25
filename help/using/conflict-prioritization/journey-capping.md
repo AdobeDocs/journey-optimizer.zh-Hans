@@ -5,10 +5,10 @@ role: User
 level: Beginner
 badge: label="有限发布版"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 4c1c0b17b6dc1d5b2e35cb9f250c82f0d5d31faa
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 23%
+source-wordcount: '944'
+ht-degree: 24%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 23%
 
      >[!AVAILABILITY]
      >
-     >“每日”持续时间仅按需提供。 要获取访问权限，请联系Adobe代表以获取访问权限。
+     >“每日”持续时间仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
      在本例中，我们希望限制用户档案在一个月内输入超过“5”个历程。
 
