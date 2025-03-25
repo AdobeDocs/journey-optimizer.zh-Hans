@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 62%
+source-wordcount: '1441'
+ht-degree: 61%
 
 ---
 
@@ -160,13 +160,11 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行过滤。
 
-**渠道配置**
+**配置**
 
-您现在可以将Adobe Experience Platform统一标记分配给渠道配置。 这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。
+* 您现在可以将Adobe Experience Platform统一标记分配给渠道配置。 这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。
 
-**可投放性**
-
-您现在可以通过从父端管理的DMARC来委派子域。
+* 在Journey Optimizer中设置或编辑电子邮件子域时，如果您在父域中拥有相关记录，那么您现在可以选择自己管理相关的DMARC记录。
 
 **业务规则**
 
