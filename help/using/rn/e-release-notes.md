@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: 80376fda31f1e24ed3443e6ae1c5bde7ca700311
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 37%
+source-wordcount: '768'
+ht-degree: 36%
 
 ---
 
@@ -45,6 +45,22 @@ ht-degree: 37%
 <tr>
 <td>
 <p>Adobe Journey Optimizer中的Adobe Express集成允许您在内容创建期间直接使用Adobe Express的编辑工具，使您能够调整大小、删除背景、裁剪以及将资源转换为JPEG或PNG。<p>
+<!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程指标</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>通过历程指标，您可以在对业务最重要的各项指标中衡量活动的影响，并更清楚地了解您的业绩。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
