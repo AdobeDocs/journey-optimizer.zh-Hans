@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 666ad2af2b6a2206e6c43b2f56cbacb5c164b152
+source-git-commit: d023eaba1205ea8bfb402b195bfd341dae4f59d3
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1410'
 ht-degree: 64%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 64%
 <ul>
 <li>通过实时更新集中管理资源</li>
 <li>立即修改资源设置，如宽度和高度</li>
-<li>使用带有文本叠加图的图像个性化您的内容</li>
 <li>通过更新内容和添加个性化字段自定义Dynamic Media模板</li>
 </ul>
 <p>
@@ -135,6 +134,7 @@ ht-degree: 64%
 **Personalization编辑器**（可用日期： 3月12日）
 
 Journey Optimizer 个性化编辑器已更新，新增了以下功能：
+
 * **更新的代码编辑器设计** – 更简洁的现代界面，改善了可用性和重点内容的显示。
 * **搜索和替换** – 添加了在编辑器中快速查找和替换内容的功能。
 * **支持撤销和重做** – 允许您轻松还原或重新应用更改。
@@ -174,7 +174,7 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **内容管理**
 
-为了轻松地管理片段和内容模板，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。
+为了轻松地管理片段和内容模板，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 这项改进仅适用于一系列组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 
 ## 2025 年 2 月发行说明 {#25-02-rn}
