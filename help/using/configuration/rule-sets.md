@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2013'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 ### 全局和自定义规则集 {#global-custom}
 
-首次从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 业务规则(Beta)]**&#x200B;菜单访问规则集时，默认规则集已预创建并处于活动状态： **全局默认规则集**。
+首次从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 业务规则]**&#x200B;菜单访问规则集时，默认规则集已预先创建并处于活动状态： **全局默认规则集**。
 
 此规则集包含全局规则，您可以应用这些规则来控制用户通过一个或多个渠道接收消息的频率，类似于当前业务规则的操作方式。 此规则集中定义的所有规则都适用于所有选定的渠道，无论通信是从历程还是营销活动发送。 [了解如何使用业务规则](../configuration/rule-sets.md)
 
@@ -55,6 +55,10 @@ ht-degree: 12%
 * **渠道**&#x200B;域：对通信渠道应用上限规则。 例如，每天发送的电子邮件或短信通信不得超过1个。
 * **历程**&#x200B;域：将条目和并发上限规则应用于旅程。 例如，请勿将用户档案同时输入多个历程。
 
+>[!AVAILABILITY]
+>
+>虽然&#x200B;**渠道**&#x200B;域规则集对所有用户都可用，但&#x200B;**历程**&#x200B;域规则集仅对有限的用户集可用（有限可用性）。 要获得访问权限，请与 Adobe 代表联系。
+
 ## 创建您的第一个自定义规则集 {#create-rule-set}
 
 ### 创建规则集并选择其域 {#create}
@@ -62,6 +66,8 @@ ht-degree: 12%
 要创建规则集，请执行以下步骤。
 
 >[!NOTE]
+>
+>要创建规则集，您需要具有`Manage Messages Presets`权限。 [了解有关用户管理的更多信息](../administration/permissions-overview.md)
 >
 >您最多可以创建3个渠道域的本地规则集和5个历程域的本地规则集。
 
@@ -74,6 +80,10 @@ ht-degree: 12%
 1. 选择规则集的域。 域允许您指定规则集是否包含特定于通信渠道或历程的上限规则。 [了解有关渠道和历程上限规则的更多信息](#domain)
 
    ![](assets/rule-sets-create.png)
+
+   >[!AVAILABILITY]
+   >
+   >虽然&#x200B;**渠道**&#x200B;域规则集对所有用户都可用，但&#x200B;**历程**&#x200B;域规则集仅对有限的用户集可用（有限可用性）。 要获得访问权限，请与 Adobe 代表联系。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -208,7 +218,7 @@ ht-degree: 12%
 
 ## 访问和管理规则集 {#access-rule-sets}
 
-所有创建的规则集都显示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 业务规则(Beta)]**&#x200B;菜单中。 它们按上次修改日期排序。
+所有创建的规则集都显示在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 业务规则]**&#x200B;菜单中。 它们按上次修改日期排序。
 
 ![](assets/rule-sets-list.png)
 

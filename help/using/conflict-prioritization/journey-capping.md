@@ -5,9 +5,9 @@ role: User
 level: Beginner
 badge: label="有限发布版"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 53d319454d47260c44a457ed547a4f3c6b33592c
+source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '941'
 ht-degree: 23%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 23%
 
 这两种类型的历程上限都利用优先级得分来仲裁条目。
 
+>[!AVAILABILITY]
+>
+>**历程**&#x200B;域规则集仅对有限的用户集可用（有限可用性）。 要获得访问权限，请与 Adobe 代表联系。
+
 ➡️ [在视频中了解此功能](#video)
 
 ## 创建历程频率上限规则 {#create-rule}
@@ -41,7 +45,7 @@ ht-degree: 23%
 
 要创建历程上限规则，请执行以下步骤：
 
-1. 导航到&#x200B;**[!UICONTROL 业务规则(Beta)]**&#x200B;菜单以访问规则集清单。
+1. 导航到&#x200B;**[!UICONTROL 业务规则]**&#x200B;菜单以访问规则集清单。
 
 1. 选择要添加上限规则的规则集，或创建新规则集：
 
