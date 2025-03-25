@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
+source-git-commit: 5e4d122c38c89055419102d54b3e749f1b8f925e
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '2030'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,15 @@ ht-degree: 12%
 例如，您可以创建一个规则集以限制发送给客户的&#x200B;**促销通信**&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;**新闻稿**&#x200B;的数量。 根据要创建的促销活动类型，您可以选择应用促销通信或新闻稿规则集。
 
 ➡️ [在视频中了解此功能](#video)
+
+### 权限 {#permissions-frequency-rules}
+
+要使用业务规则，您需要以下权限：
+
+* **[!UICONTROL 查看频率规则]**：访问和查看业务规则。
+* **[!UICONTROL 管理频率规则]**：创建、编辑或删除业务规则。
+
+可在[此部分](../administration/high-low-permissions.md)中详细了解权限。
 
 ### 全局和自定义规则集 {#global-custom}
 
@@ -66,8 +75,6 @@ ht-degree: 12%
 要创建规则集，请执行以下步骤。
 
 >[!NOTE]
->
->要创建规则集，您需要具有`Manage Messages Presets`权限。 [了解有关用户管理的更多信息](../administration/permissions-overview.md)
 >
 >您最多可以创建3个渠道域的本地规则集和5个历程域的本地规则集。
 
@@ -237,16 +244,6 @@ ht-degree: 12%
 * 删除规则
 
 ![](assets/rule-set-example-rules.png)
-
-<!--### Permissions{#permissions-frequency-rules}
-
-To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
-
-Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
-
-![](assets/message-rules-access.png)
-
-Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
 
 ## 将规则集应用于消息或历程 {#apply-frequency-rule}
 
