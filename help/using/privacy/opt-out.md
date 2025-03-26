@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。载入时，您可将此默认值修改为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一。
+>在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在上线时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
 
 ## 实施个性化同意 {#opt-out-personalization}
 
