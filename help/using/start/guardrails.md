@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 7475debd0e6b751725e5b5d7c2efa4b8b9e01a15
-workflow-type: ht
-source-wordcount: '2346'
-ht-degree: 100%
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+workflow-type: tm+mt
+source-wordcount: '2471'
+ht-degree: 93%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 100%
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
 在开始之前，您还需要了解[针对实时客户配置文件数据的防护](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}。
-
-
->[!NOTE]
->
->在极少数情况下，特定区域的临时故障可能会导致从历程中排除有效的用户档案，或导致邮件被错误标记为退回。恢复服务后，重新检查历程日志，验证同意用户档案字段，并根据需要重新发布历程。如果 ISP 中断，请参阅[本部分](../configuration/manage-suppression-list.md#remove-from-suppression-list)，了解如何从禁止列表中移除用户档案。
->
 
 ## 支持的浏览器 {#browsers}
 
@@ -44,12 +38,21 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 渠道护栏 {#channel-guardrails}
 
+>[!NOTE]
+>
+>在极少数情况下，特定区域的临时故障可能会导致从历程中排除有效的用户档案，或导致邮件被错误标记为退回。恢复服务后，重新检查历程日志，验证同意用户档案字段，并根据需要重新发布历程。如果 ISP 中断，请参阅[本部分](../configuration/manage-suppression-list.md#remove-from-suppression-list)，了解如何从禁止列表中移除用户档案。
+>
+
 ### 电子邮件护栏 {#message-guardrails}
+
+以下护栏适用于[电子邮件渠道](../email/get-started-email.md)：
 
 * 无法使用 [!DNL Journey Optimizer] 向电子邮件添加附件。
 * 无法使用相同的发送域从 [!DNL Adobe Journey Optimizer] 和其他产品（例如 [!DNL Adobe Campaign] 或 [!DNL Adobe Marketo Engage]）发送消息。
 
 ### 短信护栏 {#sms-guardrails}
+
+以下护栏适用于[短信渠道](../sms/get-started-sms.md)：
 
 * 可以通过支持的 URL 加入 MMS 的媒体文件。请确保单独上传媒体文件。
 * 消息反馈同步当前不适用于 MMS。
@@ -57,7 +60,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### Web 渠道护栏 {#web-guardrails}
 
-[!DNL Journey Optimizer] Web 营销活动针对的是以前在其他渠道上没有联系过的新轮廓。这将增加符合资格的用户档案总数，如果超出您购买的符合资格的用户档案的合同数量，则可能会产生成本影响。
+[!DNL Journey Optimizer] [Web营销活动](../web/get-started-web.md)针对其他渠道中以前未参与过的新用户档案。 这将增加符合资格的用户档案总数，如果超出您购买的符合资格的用户档案的合同数量，则可能会产生成本影响。
 
 [Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
@@ -66,6 +69,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 要在 [!DNL Journey Optimizer] 中使用基于代码的体验操作，并交付应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
 
 ## 登陆页面护栏 {#lp-guardrails}
+
+以下护栏适用于[登陆页面](../landing-pages/get-started-lp.md)：
 
 * 在单个主页面中只能使用一个&#x200B;**表单**&#x200B;组件。
 * 无法在子页面中使用&#x200B;**表单**&#x200B;组件。
@@ -78,7 +83,11 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
+在[此页面](../configuration/delegate-subdomain.md)中了解有关域委派的更多信息。
+
 ## 片段护栏 {#fragments-guardrails}
+
+以下护栏适用于[片段](../content-management/fragments.md)：
 
 * 可视化片段仅适用于电子邮件渠道。
 * 表达式片段不适用于应用程序内渠道。
@@ -86,6 +95,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 ## 受众护栏 {#audience}
 
 您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
+
+在[此页面](../audience/get-started-audience-orchestration.md)中了解有关受众构图的更多信息。
 
 ## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 
@@ -108,12 +119,16 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 常规操作 {#general-actions-g}
 
+以下护栏适用于历程中的[操作](../building-journeys/about-journey-activities.md)：
+
 * 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。对 HTTP 401、403 和 404 以外的所有 HTTP 错误执行重试。
 * 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
 * 同一历程中不能同时存在多个轮廓。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
 
 ### 历程版本 {#journey-versions-g}
+
+以下护栏适用于[历程版本](../start/user-interface.md)：
 
 * v1 中以事件活动开始的历程，在后续版本中无法以事件之外的其他内容开始。无法从&#x200B;**受众资格筛选**&#x200B;事件开始历程。
 * v1 中从&#x200B;**受众资格筛选**&#x200B;活动开始的历程在后续版本中必须始终从&#x200B;**受众资格筛选**&#x200B;开始。
@@ -123,6 +138,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 您无法创建具有增量读取的读取受众历程的新版本。您必须复制历程。
 
 ### 自定义操作 {#custom-actions-g}
+
+以下护栏适用于历程中的[自定义操作](../action/action.md)：
 
 * 为所有自定义操作、每个主机和每个沙盒定义了 1 分钟内 300,000 次调用的上限。请参见[此页面](../action/about-custom-action-configuration.md)。此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5,000 个用户档案/秒）。如果需要，您可以通过我们的“上限/限制 API”定义较大的上限或限制来覆盖此设置。请参阅[此页](../configuration/external-systems.md)。
 * 自定义操作 URL 不支持动态参数。
@@ -139,6 +156,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 活动 {#events-g}
 
+以下护栏适用于您的历程中的[事件](../event/about-events.md)：
+
 * Journey Optimizer 支持的的峰值流量可达每秒 5,000 个入站历程。
 * 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
 * 对于系统生成的事件，必须先在 Journey Optimizer 中配置用于启动客户历程的流数据，才能获取唯一的编排 ID。此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。此限制不适用于基于规则的事件。
@@ -147,6 +166,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * Journey Optimizer 要求将事件流式传输到数据收集核心服务 (DCCS) 才能触发历程。无法使用批量摄取的事件或来自内部 Journey Optimizer 数据集（消息反馈、电子邮件跟踪等）的事件来触发历程。对于无法获取流式处理事件的用例，您必须根据这些事件构建一个受众，然后使用&#x200B;**读取受众**&#x200B;活动。从技术上讲，可以使用受众资格筛选，但不建议这么做，因为这可能会导致下游挑战，具体取决于所使用的操作。
 
 ### 数据源 {#data-sources-g}
+
+以下护栏适用于历程中的[数据源](../datasource/about-data-sources.md)：
 
 * 可在客户历程中利用外部数据源，以实时查找外部数据。这些源必须可通过 REST API 使用，支持 JSON，并能够处理大量请求。
 * URL 和 API 不支持 Adobe 内部地址 (`.adobe.*`)。
@@ -173,7 +194,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 读取受众 {#read-segment-g}
 
-以下护栏适用于&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动：
+以下护栏适用于[读取受众](../building-journeys/read-audience.md)历程活动：
 
 * 流式处理受众始终会保持更新，但在检索时间中不会考虑批量区段。它们每天仅在每日批量评估时间中进行评估。
 * 对于使用&#x200B;**读取受众**&#x200B;活动的历程，可以同时启动的历程数具有上限。系统将重试，但请不要同时启动超过 5 个历程（**读取受众**、计划或“尽快”开始），可以将其分散到不同的时间，例如间隔 5 到 10 分钟。
@@ -183,17 +204,21 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用&#x200B;**读取受众**&#x200B;活动的建议。
 * 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
 
-### 受众资格筛选 {#audience-qualif-g}
+### 受众资格 {#audience-qualif-g}
 
-以下护栏适用于&#x200B;**[!UICONTROL 受众资格筛选]**&#x200B;活动：
+以下护栏适用于[受众资格](../building-journeys/audience-qualification-events.md)历程活动：
 
 * “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
 
 ### 表达式编辑器 {#expression-editor}
 
+以下护栏适用于[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)：
+
 * 以读取受众、受众资格筛选或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众并在历程中使用受众内条件。
 
 ### 应用程序内活动 {#in-app-activity-limitations}
+
+以下护栏适用于&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;操作。 在[此页面](../in-app/create-in-app.md)中了解有关应用程序内消息的更多信息。
 
 * 此功能目前不适用于医疗保健客户。
 

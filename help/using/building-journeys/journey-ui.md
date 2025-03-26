@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 26%
+source-wordcount: '1150'
+ht-degree: 27%
 
 ---
 
@@ -126,6 +126,9 @@ ht-degree: 26%
 当您发布新版本的历程时，先前版本会自动结束并切换到&#x200B;**已关闭**&#x200B;状态。无法再进入该历程。即使您停止了最新版本，先前版本仍会保持关闭状态。
 
 
+>[!NOTE]
+>
+>特定护栏和限制适用于历程的版本控制。 请参阅[此页面](../start/guardrails.md#journey-versions-journey-versions-g)以了解详情。
 
 ## 复制历程 {#duplicate-a-journey}
 
