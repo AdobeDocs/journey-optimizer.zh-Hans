@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e29586f24f6ef84869a277ae6121d83f962405f7
+source-git-commit: 20d41af0829946300cffb5ff8585923b99a12a4b
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1336'
 ht-degree: 64%
 
 ---
@@ -166,6 +166,8 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 **审批**
 
 现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行过滤。
+
+有关更多信息，请参阅[详细文档](../test-approve/approval-policies.md)。
 
 **配置**
 
