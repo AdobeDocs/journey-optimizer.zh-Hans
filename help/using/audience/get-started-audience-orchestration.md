@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 1ff33c3da5236cb4a89a893f83476867a2ecddd3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 52%
@@ -110,9 +110,9 @@ ht-degree: 52%
 
 >[!IMPORTANT]
 >
->受众构成中的受众和属性当前不能用于Healthcare Shield或Privacy and Security Shield。
+>* 受众构成中的受众和属性当前不能用于Healthcare Shield或Privacy and Security Shield。
 >
->扩充属性尚未与策略实施服务集成。 因此，您应用于扩充属性的任何数据使用标签都不会在Journey Optimizer营销活动或历程中强制执行。
+>* 扩充属性尚未与策略实施服务集成。 因此，您应用于扩充属性的任何数据使用标签都不会在Journey Optimizer营销活动或历程中强制执行。
 
 可通过 Adobe Journey Optimizer **[!UICONTROL 受众]**&#x200B;菜单访问受众组合：
 

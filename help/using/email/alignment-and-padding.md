@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 垂直对齐，电子邮件编辑器，填充
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 
-# 调整垂直对齐和填充 {#alignment-and-padding}
+# 调整垂直对齐方式和间距 {#alignment-and-padding}
 
 在本例中，我们将调整由三列组成的结构组件内的填充和垂直对齐。
 
@@ -41,3 +41,7 @@ ht-degree: 14%
 1. 以类似的方式继续调整其他列的对齐方式和内边距。
 
 1. 保存更改。
+
+>[!TIP]
+>
+>在Android设备上为Gmail设计电子邮件内容时，请确保图像和分隔符使用列边距，而不是较大的固定边距。 Android上的Gmail经常错误地呈现过大的图像和边距，导致布局溢出或分隔线减少。 使用较小的图像宽度或依靠基于列的填充来实现一致的显示。

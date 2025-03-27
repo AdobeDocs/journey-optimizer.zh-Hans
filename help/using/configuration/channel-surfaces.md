@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1800'
 ht-degree: 13%
 
 ---
@@ -271,6 +271,19 @@ ht-degree: 13%
 
 ![](assets/preset-activate.png)
 
+## 将标记添加到渠道配置 {#channel-config-tags}
+
+1. 访问渠道配置列表。
+
+1. 对于您选择的活动配置，请单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮。
+
+1. 单击&#x200B;**[!UICONTROL 编辑标记]**。
+
+1. 从列表中选择Adobe Experience Platform标记可对渠道配置进行分类，以改进搜索。 [了解如何使用统一标记](../start/search-filter-categorize.md#tags)
+
+   ![](assets/config-edit-tags.png)
+
+1. 将标记分配给渠道配置后，您可以[在标记上筛选](../start/search-filter-categorize.md#filter-on-tags)。
 
 ## 操作方法视频{#video-presets}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 0eeb9f6aa6276b99a4d38efc2d371ebdb58c141d
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 8%
+source-wordcount: '1138'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 为了优化[!DNL Journey Optimizer]体验的可投放性，我们建议使用本节中列出的最佳实践。 可投放性问题通常与Internet服务提供商(ISP)和邮件服务器管理员实施的垃圾邮件防护有关。
 
-有关什么是可投放性的更深入探讨，以及有关关键可投放性术语、概念和方法的更多信息，请参阅[Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans){target="_blank"}。
+有关什么是可投放性的更深入探讨，并了解关于关键可投放性术语、概念和方法，请参阅[Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans){target="_blank"}。
 
 ## 降低投诉率 {#reduce-complaint-rate}
 
@@ -171,3 +171,13 @@ Adobe Journey Optimizer 提供了一种标准化的高效方法来预热 IP 地�
 * Ziggo
 
 Adobe会定期审核这些FBL，以确保添加最新的可用FBL。
+
+## 使用SMTP中继 {#smtp-relay}
+
+[!DNL Journey Optimizer]使用Adobe拥有的邮件传输代理(MTA)和IP将您的电子邮件传递给Internet服务提供商(ISP)。 但是，在某些情况下，您可能希望通过自己的MTA和IP来路由最终电子邮件投放，或者在向收件人发送电子邮件之前对电子邮件执行最终验证。
+
+在这种情况下，您可以选择将电子邮件中继到由您的组织托管的SMTP服务器，而不是直接从Journey Optimizer发送到ISP。
+
+>[!AVAILABILITY]
+>
+>SMTP中继容量可按需使用 — 请联系您的Adobe代表。

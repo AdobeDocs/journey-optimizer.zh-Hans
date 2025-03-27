@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 43cf43c6ba92d64836222ce872054b5dec6d11fe
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2298'
 ht-degree: 18%
 
 ---
@@ -243,16 +243,19 @@ ht-degree: 18%
 
 ## 合并策略 {#merge-policies}
 
-从Adobe Experience Platform检索配置文件数据时，历程使用合并策略。 根据历程类型，使用不同的合并策略：
+从Adobe Experience Platform检索配置文件数据时，Adobe Journey Optimizer使用合并策略。 根据历程类型，使用不同的合并策略：
 
 * 在读取受众或受众资格历程中：使用受众的合并策略
 * 在单一事件历程中：使用默认合并策略
 * 在业务事件历程中：在以下读取受众活动中使用来自目标受众的合并策略
 
-历程将遵循在整个历程中使用的合并策略。 因此，如果旅程中使用多个受众（例如：在“inAudience”函数中），导致旅程使用的合并策略不一致，则会引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
+Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因此，如果旅程中使用多个受众（例如：在“inAudience”函数中），导致旅程使用的合并策略不一致，则会引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
 要了解有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
+>[!NOTE]
+>
+>更新受众合并策略时，必须重新发布（或复制）引用该受众的任何活动历程。 更改合并策略会有效地创建当前历程无法访问的“新”受众，从而确保数据一致性。
 
 ## 退出标准 {#exit-criteria}
 

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac9c3687100da33149e6d237b35ffbf6d22afac3
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 99%
+source-wordcount: '2314'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 99%
    + 创建历程{#create-journey}
       + [创建您的第一个历程](using/building-journeys/journey-gs.md)
       + [设置历程属性](using/building-journeys/journey-properties.md)
+      + [配置和跟踪您的历程量度](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [模拟您的历程](using/building-journeys/journey-simulation.md)
@@ -324,6 +325,11 @@ ht-degree: 99%
          + [在 Web SDK 中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
       + [创建内容卡片](using/content-card/create-content-card.md)
       + [设计内容卡片](using/content-card/design-content-card.md)
+   + WhatsApp{#whatsapp}
+      + [开始使用WhatsApp消息](using/whatsapp/get-started-whatsapp.md)
+      + [在Journey Optimizer中配置WhatsApp渠道](using/whatsapp/whatsapp-configuration.md)
+      + [创建WhatsApp消息](using/whatsapp/create-whatsapp.md)
+      + [检查并发送您的WhatsApp消息](using/whatsapp/send-whatsapp.md)
 + 登陆页面{#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
@@ -419,9 +425,11 @@ ht-degree: 99%
    + [与其他解决方案集成](using/integrations/ajo-integrations.md)
    + [使用 Experience Manager Assets](using/integrations/assets.md)
    + [使用 Adobe Stock](using/integrations/stock.md)
+   + [使用Adobe Express](using/integrations/express.md)
    + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
    + [使用Experience Manager内容片段](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
+   + [使用GenStudio](using/integrations/genstudio.md)
 + 跟踪和监测{#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)

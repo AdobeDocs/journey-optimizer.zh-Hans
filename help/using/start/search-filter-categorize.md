@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: cbd121dda4093fdea6f6bded02e8ae3e188e827d
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 99%
 
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 100%
 * [登陆页面](../landing-pages/create-lp.md)
 * [订阅列表](../landing-pages/subscription-list.md)
 * [模板](../content-management/content-templates.md)
+* [渠道配置](../configuration/channel-surfaces.md#channel-config-tags)
 
 您可以选择现有标记，也可以创建新标记。要实现此目的，请执行以下步骤。
 
