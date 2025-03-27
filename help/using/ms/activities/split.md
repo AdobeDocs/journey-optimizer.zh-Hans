@@ -5,10 +5,11 @@ title: 使用拆分活动
 description: 了解如何在多步营销活动中使用拆分活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 
@@ -16,31 +17,31 @@ ht-degree: 76%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split"
->title="“拆分”活动"
+>title="拆分活动"
 >abstract="通过&#x200B;**拆分**&#x200B;活动，可根据不同的选择标准（如筛选规则或群体大小）将传入的群体分为多个子集。"
 
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，通过它可根据不同的选择标准（如筛选规则或群体大小）将集客群体分为多个子集。
 
-## 配置“拆分”活动 {#split-configuration}
+## 配置拆分活动 {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="拆分活动的区段"
->abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始多步骤营销活动之前，请确保已使用箭头按钮按适合您的需要的顺序对子集排序。"
+>abstract="添加所需数量的子集以划分传入的群体。<br/></br>执行&#x200B;**拆分**&#x200B;活动时，将群体按将其添加到活动的顺序划分为不同的子集。在开始多步骤营销活动之前，请确保您已使用箭头按钮按照符合您需求的顺序为子集排序。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
->title="“拆分”活动筛选条件"
+>title="拆分活动筛选条件"
 >abstract="要将筛选条件应用于子集，请单击&#x200B;**[!UICONTROL 创建筛选条件]**&#x200B;并使用查询建模器配置所需的筛选规则。例如，包括其电子邮件地址位于数据库中的传入群体的轮廓。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
->title="“拆分”活动限制"
+>title="拆分活动限制"
 >abstract="要限制子集选择的轮廓数，请打开&#x200B;**[!UICONTROL 启用限制]**&#x200B;选项，并指定要包括的群体的数量或百分比。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_sorting"
->title="“拆分”活动排序"
+>title="拆分活动排序"
 >abstract="在为子集设置群体限制时，您可以根据特定的轮廓属性按升序或降序顺序对所选轮廓进行排名。为此，请打开&#x200B;**启用排序**&#x200B;选项。例如，您可以限制子集以仅包含购买金额最高的前 50 个轮廓。"
 
 >[!CONTEXTUALHELP]

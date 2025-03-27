@@ -5,10 +5,11 @@ title: 使用扩充活动
 description: 了解如何使用扩充活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 30%
+ht-degree: 37%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
->title="“扩充”活动"
+>title="扩充活动"
 >abstract="通过&#x200B;**扩充**&#x200B;活动，可利用来自数据库的其他信息增强目标数据。通常在分段活动之后的工作流中使用它。"
 
 
@@ -49,12 +50,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择要用于扩充多步营销活动的数据。 可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择要使用的数据来扩充您的多步骤营销活动。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
->title="“扩充”活动"
->abstract="将扩充数据添加到多步骤活动后，便可在扩充活动后添加的活动中使用，以根据客户的行为、偏好和需求将客户划分为不同的组，或创建更可能引起目标受众共鸣的个性化营销消息和营销活动。"
+>title="扩充活动"
+>abstract="在将扩充数据添加到多步骤营销活动中后，可以在扩充活动后添加的活动中使用它，以根据客户的行为、偏好和需求来将客户分成不同的组，或者创建更可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
 1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。
 
@@ -73,7 +74,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_simplejoin"
 >title="链接定义"
->abstract="在工作表数据和Adobe Journey Optimizer之间创建链接。 例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其轮廓中更新此信息。"
+>abstract="在工作表数据和 Adobe Journey Optimizer 之间创建链接。例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其轮廓中更新此信息。"
 
 **[!UICONTROL 链接定义]**&#x200B;部分允许您在工作表数据和Adobe Journey Optimizer之间创建链接。 例如，如果您从包含收件人的帐号、国家/地区和电子邮件的文件中加载数据，则必须创建一个指向该国家/地区表的链接，以便在其轮廓中更新此信息。
 
@@ -108,9 +109,9 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_reconciliation"
 >title="协调"
->abstract="**扩充**&#x200B;活动可用于协调来自Journey Optimizer架构的数据与来自其他架构的数据，或协调来自临时架构的数据，例如使用加载文件活动上载的数据。 这种类型的链接定义了对唯一记录的协调。Journey Optimizer通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。"
+>abstract="**扩充**&#x200B;活动可用于协调来自 Journey Optimizer 架构的数据与来自另一个架构的数据，或来自临时架构的数据（例如使用“加载”文件活动上传的数据）。这种类型的链接定义了对唯一记录的协调。Journey Optimizer 通过在目标表中添加外键来创建与目标表的链接，以存储对唯一记录的引用。"
 
-**扩充**&#x200B;活动可用于协调来自 Campaign 数据库架构的数据与来自另一个架构的数据，或来自临时架构的数据（例如使用“加载”文件活动上传的数据）。这种类型的链接定义了对唯一记录的协调。Journey Optimizer通过在目标表中添加用于存储唯一记录引用的外键来创建指向该表的链接。
+**扩充**&#x200B;活动可用于协调来自 Campaign 数据库架构的数据与来自另一个架构的数据，或来自临时架构的数据（例如使用“加载”文件活动上传的数据）。这种类型的链接定义了对唯一记录的协调。Journey Optimizer 通过在目标表中添加外键来创建与目标表的链接，以存储对唯一记录的引用。
 
 例如，您可以使用此选项将上传文件中指定的轮廓的国家/地区与 Campaign 数据库专用表中可用的国家/地区之一进行协调。
 
@@ -268,4 +269,3 @@ ht-degree: 30%
 * 添加了第二个&#x200B;**扩充**&#x200B;活动，以便使用来自&#x200B;**加载文件**&#x200B;活动的购买数据扩充多步骤活动表中的数据。 这样，我们便可以在进一步的活动中使用这些数据，例如，将发送给客户的消息与他们的购买信息个性化。
 
   ![](../assets/enrichment-uc-link-data.png)
-

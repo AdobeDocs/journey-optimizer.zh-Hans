@@ -5,15 +5,15 @@ title: 使用多步骤营销活动
 description: 了解如何多步营销活动活动
 hide: true
 hidefromtoc: true
-source-git-commit: 658d82820d3f307481c44a142c38727f777fd879
+exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
-
-# 关于多步骤营销活动活动 {#ms-campaign-activities}
+# 关于多步骤营销活动 {#ms-campaign-activities}
 
 多步骤营销活动分为三类。 根据具体情况，可用的活动可能会有所不同。
 
@@ -54,7 +54,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="结束活动"
->abstract="**结束**&#x200B;活动允许您以图形方式标记多步骤营销活动的结束。 此活动没有功能影响，因此是可选的。"
+>abstract="您可以使用&#x200B;**结束**&#x200B;活动，以图形方式标记多步骤营销活动的终点。此活动没有功能影响，因此是可选的。"
 
 以下活动特定于组织和执行多步骤营销活动。 这些活动的主要任务是协调其他活动：
 

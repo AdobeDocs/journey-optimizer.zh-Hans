@@ -5,10 +5,11 @@ title: 使用构建受众活动
 description: 了解如何在多步营销活动中使用构建受众活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 45%
+ht-degree: 64%
 
 ---
 
@@ -16,10 +17,10 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
->title="“构建受众”活动"
->abstract="利用&#x200B;**构建受众**&#x200B;活动，可定义将进入多步骤营销活动的受众。 在多步骤营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**构建受众**&#x200B;活动中定义。"
+>title="构建受众活动"
+>abstract="您可以使用&#x200B;**构建受众**&#x200B;活动，定义将进入多步骤营销活动的受众。在多步骤营销活动的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**构建受众**&#x200B;活动中定义的。"
 
-**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。利用此活动，可定义将进入多步营销活动的受众。 在多步骤营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**构建受众**&#x200B;活动中定义。
+**生成受众**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。利用此活动，可定义将进入多步营销活动的受众。 在多步骤营销活动的上下文中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**构建受众**&#x200B;活动中定义的。
 
 要定义受众群体，您可以：
 
@@ -34,7 +35,7 @@ ht-degree: 45%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 配置“构建受众”活动 {#build-audience-configuration}
+## 配置构建受众活动 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience_audienceselector"

@@ -9,7 +9,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3ecb1691cc8a1c429d9bd9919b06ddc5a316eff7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="多步营销活动"
->abstract="在此屏幕中，您可以访问多步骤营销活动的完整列表，检查其当前状态、上次/下次执行日期，并创建新的多步骤营销活动。"
+>title="多步骤营销活动"
+>abstract="在此屏幕中可访问多步骤营销活动的完整列表，查看其当前状态、上次/下次执行日期，并创建新的多步骤营销活动。"
 
 借助Adobe Journey Optimizer，您可以将多步营销活动构建到可视画布中，以设计跨渠道流程，例如分段、营销活动执行、文件处理。
 

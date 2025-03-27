@@ -5,7 +5,8 @@ title: 使用组合活动
 description: 了解如何使用组合活动
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 86%
@@ -16,7 +17,7 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine"
->title="”合并“活动"
+>title="合并活动"
 >abstract="通过&#x200B;**合并**&#x200B;活动，可对集客群体执行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。"
 
 **合并**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
@@ -29,7 +30,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **交集**&#x200B;可仅在活动中保留不同集客群体的共有元素。
 * **差集**&#x200B;可根据特定条件从一个群体中排除某些元素。
 
-## 配置“合并”活动 {#combine-configuration}
+## 配置合并活动 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_intersection_merging_options"
@@ -60,7 +61,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_reconciliation"
->title="“协调”选项"
+>title="协调选项"
 >abstract="选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项。默认情况下，**键**&#x200B;选项处于激活状态，这意味着当来自不同入站过渡的元素具有相同的键时，该活动仅会保留一个元素。使用&#x200B;**选择列**&#x200B;选项定义应用数据协调的列的列表。"
 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**合并**。 为此，您需要选择&#x200B;**协调类型**&#x200B;以定义如何处理重复项：
@@ -85,7 +86,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_exclusion_options"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标选择维度。为此，请单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标市场选择维度。为此，请单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_sets"
@@ -95,7 +96,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_exclusion"
 >title="差集规则"
->abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标选择维度。为此，请单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
+>abstract="必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标市场选择维度。为此，请单击“差集规则”部分中的“添加规则”，并指定维度更改条件。数据协调是通过属性或联接来执行的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_complement"
@@ -105,7 +106,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 在&#x200B;**合并**&#x200B;活动中，您可以配置&#x200B;**排除项**。 为此，您需要执行以下额外步骤：
 
 1. 在&#x200B;**要加入的集合**&#x200B;部分中，从集客过渡中选择&#x200B;**主要设置**。这是排除了元素的集合。其他集合用于匹配从主要设置中排除之前的元素。
-1. 必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标选择维度。为此，请单击&#x200B;**差集规则**&#x200B;部分中的&#x200B;**添加规则**，并指定维度更改条件。数据协调是通过属性或联接来执行的。
+1. 必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的目标市场选择维度。为此，请单击&#x200B;**差集规则**&#x200B;部分中的&#x200B;**添加规则**，并指定维度更改条件。数据协调是通过属性或联接来执行的。
 1. 如果您想处理剩余的人群，可以选中&#x200B;**生成补集**&#x200B;选项。请参阅[交集](#intersection)部分。
 
 ## 示例{#combine-examples}

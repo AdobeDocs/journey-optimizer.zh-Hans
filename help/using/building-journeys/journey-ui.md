@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="历程表格和时间线视图"
->abstract="历程表格和时间线视图"
+>title="历程表和时间线视图"
+>abstract="历程表和时间线视图"
 
 在“历程管理”菜单部分中，单击&#x200B;**[!UICONTROL 历程]**。 两个选项卡可用：**[!UICONTROL 概述]**&#x200B;和&#x200B;**[!UICONTROL 浏览]**。
 

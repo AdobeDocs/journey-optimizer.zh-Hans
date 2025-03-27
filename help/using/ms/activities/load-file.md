@@ -5,10 +5,11 @@ title: 使用加载文件活动
 description: 了解如何在多步营销活动中使用加载文件活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: ae0dc980-2361-4c3b-a68e-ae0bb5dc0a26
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile"
->title="”加载文件“活动"
+>title="加载文件活动"
 >abstract=" **加载文件**&#x200B;活动是一项&#x200B;**数据管理**&#x200B;活动。使用此活动可以处理存储在外部文件中的数据。轮廓和数据不会添加到数据库中，但输入文件中的所有字段均可用于个性化，或更新轮廓或任何其他表。 "
 
 >[!CONTEXTUALHELP]
@@ -52,13 +53,13 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_formatting"
->title="”加载文件“活动的格式设置"
+>title="加载文件活动的格式设置"
 >abstract="在&#x200B;**格式化**&#x200B;部分，指定文件的格式化方式，以确保正确导入数据。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_valueremapping"
->title="“加载文件”活动的值重新映射"
->abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含“True”/“False”值，则可以通过添加映射来自动用“0”/“1”字符替换这些值。"
+>title="加载文件活动的值重新映射"
+>abstract="使用此选项可以将已加载文件中的特定值与新值进行映射。例如，如果列中包含 “True”/“False” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。"
 
 按照以下步骤配置用于定义预期文件结构的样例文件：
 
@@ -84,7 +85,7 @@ ht-degree: 38%
    * **[!UICONTROL 分隔符]**（日期、时间、整数和数字数据类型）*：指定要用作分隔符的字符。
    * **[!UICONTROL 允许NULL]**：指定如何管理列中的空值。
    * **[!UICONTROL 处理]**&#x200B;时出错（字符串数据类型）：指定其中一行出错时的行为。
-   * **[!UICONTROL 值重新映射]**：此选项允许您使用新值映射特定值。 例如，如果列中包含“True”/“False”值，则可以通过添加映射来自动用“0”/“1”字符替换这些值。
+   * **[!UICONTROL 值重新映射]**：此选项允许您使用新值映射特定值。 例如，如果列中包含 “True”/“False” 值，则可以通过添加映射来自动用 “0”/“1” 字符替换这些值。
 
 +++
 
@@ -94,7 +95,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetfile"
->title="“加载文件”活动的目标文件"
+>title="加载文件活动的目标文件"
 >abstract="在&#x200B;**[!UICONTROL 目标文件]**&#x200B;部分，指定如何检索要上传到服务器的文件。"
 
 >[!CONTEXTUALHELP]
@@ -105,7 +106,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_targetdb"
 >title="目标数据库"
->abstract="如果您正在访问已设置的&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，则在将该活动配置为将文件上载到外部数据库时，可以使用额外的&#x200B;**[!UICONTROL 目标数据库]**&#x200B;部分。"
+>abstract="如果您访问的是已设置的&#x200B;**[!UICONTROL 加载文件]**&#x200B;活动，并且已将该活动配置为将文件上传到外部数据库，则还会有额外的&#x200B;**[!UICONTROL 目标数据库]**&#x200B;部分可用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_command"
@@ -138,13 +139,13 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_rejectmgt"
->title="”加载文件“活动的拒绝管理"
+>title="加载文件活动的拒绝管理"
 >abstract="在&#x200B;**拒绝管理**&#x200B;部分，指定在出现错误时该活动应如何表现。您可以定义允许的最大错误数，并切换&#x200B;**[!UICONTROL 将拒绝的内容保留在文件中]**&#x200B;选项，以在服务器上下载包含导入期间发生的错误的文件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_loadfile_delete"
 >title="导入后删除文件"
->abstract="切换&#x200B;**”导入后删除文件“**，可在导入文件后从服务器中删除原始文件。"
+>abstract="切换&#x200B;**导入后删除文件**，可在导入文件后从服务器中删除原始文件。"
 
 
 1. 在&#x200B;**拒绝管理**&#x200B;部分中，指定活动在发生错误时的行为方式：

@@ -5,10 +5,11 @@ title: 使用协调活动
 description: 了解如何在多步骤营销活动中使用协调活动
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -16,8 +17,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
->title="”协调“活动"
->abstract="**协调**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，它允许您定义Adobe Journey Optimizer与工作表中数据之间的链接。"
+>title="协调活动"
+>abstract="**协调**&#x200B;活动是一项&#x200B;**目标市场选择**&#x200B;活动，可用于定义 Adobe Journey Optimizer 与工作表中数据之间的关联。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -43,12 +44,12 @@ ht-degree: 36%
 >[!NOTE]
 >协调操作意味着链接维度的数据已在数据库中。  例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
 
-## 配置”协调“活动 {#reconciliation-configuration}
+## 配置协调活动 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
->title="目标选择维度"
->abstract="选择新的目标选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的目标选择维度。"
+>title="目标市场选择维度"
+>abstract="选择新的目标市场选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的目标市场选择维度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
@@ -58,9 +59,9 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
->title="选择目标选择维度"
->abstract="选择要协调的入站数据的目标选择维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目标选择维度"
+>title="选择目标市场选择维度"
+>abstract="选择要协调的入站数据的目标市场选择维度。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目标市场选择维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
@@ -76,7 +77,7 @@ ht-degree: 36%
 
 1. 将&#x200B;**协调**&#x200B;活动添加到您的多步骤营销活动中。
 
-1. 选择新的目标选择维度。通过维度，您可以定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。
+1. 选择新的目标市场选择维度。通过维度，您可以定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。
 
 1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 
@@ -121,4 +122,3 @@ ht-degree: 36%
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
 * [保存受众](save-audience.md)活动，以根据这些更新创建新受众。 如果不需要创建或更新特定受众，您还可以使用&#x200B;**结束**&#x200B;活动替换&#x200B;**保存受众**&#x200B;活动。 无论在何种情况下，运行多步骤营销活动时，都会更新收件人配置文件。
-

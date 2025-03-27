@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: d80f9309cfff4307b1b37ce44b037730a374d4a2
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="品牌一致性得分"
->abstract="您的品牌一致性得分衡量的是您的内容遵循品牌指导方针的程度，确保颜色、字体、徽标、图像和写作风格的一致性。"
+>title="品牌一致性分数"
+>abstract="您的品牌一致性分数衡量的是您的内容遵循品牌指导方针的程度，确保颜色、字体、徽标、图像和写作风格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
@@ -49,18 +49,18 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_logos"
->title="Logos分数"
->abstract="Logos分数"
+>title="徽标分数"
+>abstract="徽标分数"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="图像得分"
->abstract="图像得分"
+>title="图像分数"
+>abstract="图像分数"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="书写样式分数"
->abstract="书写样式分数"
+>title="写作风格分数"
+>abstract="写作风格分数"
 
 >[!AVAILABILITY]
 >

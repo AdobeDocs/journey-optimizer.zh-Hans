@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 9%
 >id="ajo_code_based_experience"
 >title="使用个性化编辑器"
 >abstract="插入和编辑要作为此基于代码的体验操作的一部分提供的代码。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 1. 从历程活动或营销活动版本屏幕中，选择&#x200B;**[!UICONTROL 编辑代码]**。
 

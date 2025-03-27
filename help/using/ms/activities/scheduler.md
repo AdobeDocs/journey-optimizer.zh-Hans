@@ -5,10 +5,11 @@ title: 使用调度程序活动
 description: 了解如何在多步骤活动中使用调度程序活动
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: da77a0bf-7b17-40fc-b2cb-2f0940152e64
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 20%
+ht-degree: 27%
 
 ---
 
@@ -17,11 +18,11 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="“调度程序”活动"
->abstract="**调度程序**&#x200B;活动允许您在多步骤活动启动时进行调度。 应将此活动视为已安排的一次开始。它只能用作多步营销活动的第一个活动。"
+>title="调度程序活动"
+>abstract="您可以使用&#x200B;**调度程序**&#x200B;活动，安排多步骤营销活动何时开始。应将此活动视为已安排的一次开始。只能将它用作多步骤营销活动的第一个活动。"
 
 
-**调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时开始多步骤营销活动。 应将此活动视为已安排的一次开始。它只能用作多步营销活动的第一个活动。
+**调度程序**&#x200B;活动是&#x200B;**流控制**&#x200B;活动。 它允许您安排何时开始多步骤营销活动。 应将此活动视为已安排的一次开始。只能将它用作多步骤营销活动的第一个活动。
 
 ## 最佳实践{#scheduler-best-practices}
 
@@ -29,7 +30,7 @@ ht-degree: 20%
 * 如果要在多步骤营销活动中发送一次性投放，可以添加调度程序活动并将其设置为运行&#x200B;**一次**。 您还可以在投放设置中定义&#x200B;**计划**。
 * 如果要在多步骤活动中发送定期投放，则需要使用&#x200B;**调度程序**&#x200B;活动并设置执行频率。 循环投放活动不允许您定义计划。
 
-## 配置”调度程序“活动 {#scheduler-configuration}
+## 配置调度程序活动 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"

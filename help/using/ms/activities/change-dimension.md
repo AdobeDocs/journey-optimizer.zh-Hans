@@ -5,7 +5,8 @@ title: 使用更改维度活动
 description: 了解如何使用更改维度活动
 hide: true
 hidefromtoc: true
-source-git-commit: 00f843300a9cfe798ea4d3a92fbe89ba80e70bc5
+exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 22%
@@ -21,8 +22,8 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_change_dimension"
->title="“更改维度”活动"
->abstract="通过此活动，可在构建受众时更改目标选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
+>title="更改维度活动"
+>abstract="通过此活动，可在构建受众时更改目标市场选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
 
 **更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建多步营销活动时更改定向维度。 它根据数据模板和输入维度移动轴。
 

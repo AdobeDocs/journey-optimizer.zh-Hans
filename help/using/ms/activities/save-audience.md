@@ -5,10 +5,11 @@ title: 使用保存受众活动
 description: 了解如何在多步营销活动中使用分支活动
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 84e34d21-dca1-4203-8539-f2b20e461936
+source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="保存受众"
->abstract="使用此活动可更新现有受众，或从多步营销活动中上游计算的群体创建新受众。 创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
+>abstract="使用此活动更新现有受众或从多步骤营销活动中计算出的上游人群中创建新受众。创建的受众被添加到受众的列表，并可通过&#x200B;**受众**&#x200B;菜单找到这些受众。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_saveaudience_outbound"

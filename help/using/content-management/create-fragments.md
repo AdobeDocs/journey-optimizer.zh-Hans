@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 15%
 >id="ajo_create_expression_fragment"
 >title="选择表达式类型"
 >abstract="创建独立的表达式片段，以便可在多个历程和营销活动中重用您的内容。在使用个性化编辑器时，可利用已在当前沙盒上创建的所有表达式片段。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用个性化编辑器"
 
 可以从左侧菜单&#x200B;**[!UICONTROL 片段]**&#x200B;从头开始创建片段。 此外，在设计内容时，您还可以将现有内容的一部分另存为片段。 [了解如何操作](#save-as-fragment)
 

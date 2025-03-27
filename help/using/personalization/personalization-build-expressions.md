@@ -13,7 +13,7 @@ exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -97,7 +97,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自动完成"
->abstract="切换此选项可让系统在您键入时自动建议并完成代码。 此功能仅适用于HTML和文本格式，并且支持配置文件和上下文属性。 如果通过切换禁用，则编辑器将提供本机HTML代码自动完成。"
+>abstract="切换该选项可让系统在您键入时自动建议并完成代码。此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
 
 中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到导航窗格中，然后单击`+`按钮以将其添加到表达式中。
 
@@ -121,7 +121,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 
 1. **[!UICONTROL 查找]** / **[!UICONTROL 查找并替换]**：搜索表达式并自动替换部分代码。
 1. **[!UICONTROL 撤消]** / **[!UICONTROL 重做]**：撤消/重做上一个操作。
-1. **[!UICONTROL 自动完成]**：在您键入时自动建议并完成代码。 此功能仅适用于HTML和文本格式，并且支持配置文件和上下文属性。 如果通过切换禁用，则编辑器将提供本机HTML代码自动完成。
+1. **[!UICONTROL 自动完成]**：在您键入时自动建议并完成代码。 此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
