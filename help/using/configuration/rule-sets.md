@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
+source-git-commit: 173d73996a676be4ebcad471f396b5f5256b80a5
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 12%
+source-wordcount: '2045'
+ht-degree: 13%
 
 ---
 
@@ -153,10 +153,8 @@ ht-degree: 12%
    * **[!UICONTROL 每日]**：每日频率上限在23:59:59 UTC之前的该天有效，并在第二天开始时重置为0。
 
      >[!CAUTION]
-     >
-     >为确保每日频率上限规则的准确性，必须使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
-     >
-     >您还需要确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+     > 
+     >要确保每日频率上限规则的准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
 
    请注意，一旦传递通信，配置文件计数器值将更新。 当您发送大量通信时，请注意这一点，因为吞吐量可能导致收件人收到电子邮件时间达到通信启动后的几分钟甚至几小时（如果您同时发送数百万条通信）。
 
