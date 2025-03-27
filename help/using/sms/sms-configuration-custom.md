@@ -8,14 +8,34 @@ badge: label="Beta 版" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: f41426bd41078b98a26c32ce259a848ab49d724c
+source-git-commit: 201d7d367540f7b36f27ca4a09b6f0ce12e3e22f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
 # 配置自定义提供商 {#sms-configuration-custom}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_url"
+>title="提供程序URL"
+>abstract="指定您计划连接的外部API的URL。 此URL用作访问API特性和功能的端点。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_auth_type"
+>title="身份验证类型"
+>abstract="指定访问API所需的身份验证方法，例如OAuth或持有者令牌。 这可确保与外部服务的安全且经过授权的通信。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_header_parameters"
+>title="标头参数"
+>abstract="指定其他标头的标签、类型和值，以启用正确的身份验证、内容格式化和有效的API通信。 "
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_provider_payload"
+>title="提供程序有效负载"
+>abstract="提供请求有效负载，确保发送正确的数据用于处理和生成响应。"
 
 >[!AVAILABILITY]
 >
