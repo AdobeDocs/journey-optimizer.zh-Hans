@@ -4,10 +4,10 @@ product: journey optimizer
 title: GenStudio与Journey Optimizer的集成入门
 description: 了解如何在Journey Optimizer中使用GenStudio
 feature: Content Assistant, Integrations
-topic: Content Management, Generative AI
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b24e50f698567e1f45318d942dff87febba179c9
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
