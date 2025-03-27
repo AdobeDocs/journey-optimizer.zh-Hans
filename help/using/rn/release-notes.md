@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1776d9fa7352fc41d52f685c0a402e60bced348d
+source-git-commit: e10ffbbe553495b1f9d7a2aeafc3d10e54561389
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 61%
+source-wordcount: '1389'
+ht-degree: 64%
 
 ---
 
@@ -146,15 +146,6 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 ![视频显示Personalization编辑器中的新功能](assets/do-not-localize/personalization-editor.gif)
 
 有关更多信息，请参阅[详细文档](../personalization/personalization-build-expressions.md)。
-
-**营销活动**
-
-* 在营销活动列表中，选择营销活动现在会打开一个显示其详细信息的窗格。
-* 您现在可以将营销活动从一个沙盒复制到另一个沙盒。
-
-**个性化**
-
-个性化编辑器中新增了“药丸”按钮。 启用后，配置文件和上下文属性将显示为Pills，从而提高代码的可读性。
 
 **审批**
 
