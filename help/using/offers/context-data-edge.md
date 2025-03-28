@@ -1,27 +1,27 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: 上下文数据和Edge Decisioning请求
+title: 上下文数据和 Edge Decisioning 请求
 description: 了解如何在Edge Decisioning请求中传递上下文数据。
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-
-# 上下文数据和Edge Decisioning请求 {#edge}
+# 上下文数据和 Edge Decisioning 请求 {#edge}
 
 本节指导您在Edge Decisioning请求中传递上下文数据，并在资格规则中使用这些数据。 我们将探索一个端到端用例，以演示如何根据客户使用的设备类型提供个性化优惠。
 
 此用例涉及几个关键步骤：
 
 1. [设置先决条件](#prerequisites)：确保已完成所有必要步骤以在您的请求中传递上下文数据。
-1. [在资格规则中使用上下文数据](#rule)：创建根据用户的设备类型确定要显示的选件的规则。
+1. [在资格规则中使用上下文数据](#rules)：创建根据用户的设备类型确定要显示的选件的规则。
 1. [设计特定于设备的选件](#offers)：为每个设备类型创建量身定制的选件，并将其链接到相应的规则。
 1. [创建优惠收藏集](#collection)：将所有优惠分组到一个静态收藏集中。
 1. [配置决策](#decision) ：创建一个新决策，该决策利用优惠决策引擎根据用户的设备类型挑选要呈现给用户的最佳优惠。
@@ -149,33 +149,33 @@ ht-degree: 0%
 
 ```
 {
-	"events": [{
-		"xdm": {
-			"identityMap": {
-				"customerId": [{
-					"id": "0000158216",
-					"authenticatedState": "authenticated",
-					"primary": true
-				}]
-			},
-			"_experienceplatform": {
-				"identity": {
-					"core": {
-						"customerId": "0000158216"
-					}
-				},
+    "events": [{
+        "xdm": {
+            "identityMap": {
+                "customerId": [{
+                    "id": "0000158216",
+                    "authenticatedState": "authenticated",
+                    "primary": true
+                }]
+            },
+            "_experienceplatform": {
+                "identity": {
+                    "core": {
+                        "customerId": "0000158216"
+                    }
+                },
                 "offerContextData" : {
                     "language" : "NL",
                     "deviceType" : "iphone"
                 }
-			}
-		}
-	}],
-	"query": {
-		"personalization": {
-			"decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
-		}
-	}
+            }
+        }
+    }],
+    "query": {
+        "personalization": {
+            "decisionScopes": ["eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE3M2I1MGM5Mjg0ZGQ4NzkiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTZhMzQxZWQ4ZDYyMzc2MSJ9"]
+        }
+    }
 }
 ```
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 16%
+source-wordcount: '2719'
+ht-degree: 15%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 16%
 
 * 选择总共&#x200B;**[!UICONTROL 个]**&#x200B;以定义可在组合目标受众中建议多少次选件，即在所有用户中建议多少次。
 
-  例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
+  例如，如果您是具有“TV doorbuster deal”的电子产品retailer，则希望在所有配置文件中仅返回200次选件。
 
 * 选择&#x200B;**[!UICONTROL 每个配置文件]**&#x200B;以定义可向同一用户建议优惠的次数。
 
@@ -258,9 +258,9 @@ ht-degree: 16%
 >
 >发布优惠后，您将无法更改为该频率选择的时间段（每月、每周或每日）。 如果选件具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态并且之前从未发布并启用了频率封顶，则您仍可以编辑频率封顶。
 
-+++ **必读：频率上限和Edge Decisioning API**
++++ **必读：频率上限和决策管理API**
 
-频率上限计数器将在3秒内完成更新并在Edge Decisioning API决策中可用。
+频率上限计数器已更新，并且在3秒内即可在[Edge Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge)决策中使用。
 
 每个中心区域与一个或多个边缘区域相关联。 频率限定规则从每个中心区域生成并导出到其关联的边缘区域。 每当使用Edge Decisioning API做出决策时，系统都会强制实施同一边缘区域中可用的规则：
 
@@ -269,7 +269,17 @@ ht-degree: 16%
 
 例如，我们将贵组织的中心区域视为&#x200B;*NLD2*，而您正在发送来自欧洲（*IRL1*&#x200B;边缘区域）的决策请求。 在这种情况下，决策请求将递增用户档案的计数器，因为规则在（爱尔兰） *IRL1*&#x200B;区域可用。 但是，如果决策请求来自像日本这样的区域(*JPN3*)，该区域不是与（荷兰） *NLD2*&#x200B;中心区域绑定的边缘区域，则不会创建任何计数器，也不会实施频率上限规则。
 
+>[!NOTE]
+>
+>当计数器从Edge传播到Hub或从Hub传播到Edge区域时，可能会延迟几分钟。
+
 有关哪些中心和边缘区域与您的组织关联的更多信息，请联系您的Adobe代表。
+
+对于其他API，频率上限计数器将进行如下更新：
+
+* 在[决策API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#decisioning)决策中，频率上限计数器可能会延迟几分钟更新，具体取决于流量。
+
+* 在[Batch Decisioning API](../api-reference/offer-delivery-api/batch-decisioning-api.md)决策中，使用频率上限计数器保持固定的快照。 只要使用相同的快照，计数器将保持不变。
 
 +++
 

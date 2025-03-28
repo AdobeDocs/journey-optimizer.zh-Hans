@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 21%
 
    ![](assets/strategy-create-eligibility.png)
 
-   * 要将优惠选择限制为Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 受众]**，然后从列表中选择受众。 [了解如何使用受众](../audience/about-audiences.md)
+   * 要将选件的选择限制为Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 受众]**，然后从列表中选择一个受众。 [了解如何使用受众](../audience/about-audiences.md)
 
    * 如果要为决策规则添加选择约束，请使用&#x200B;**[!UICONTROL 决策规则]**&#x200B;选项并选择所选规则。 [了解如何创建规则](rules.md)
 
@@ -114,6 +114,11 @@ ht-degree: 21%
 
 ### 人工智能排名 {#ai-ranking}
 
-您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](ranking.md)中了解如何创建AI模型。
+您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](../offers/ranking/ai-models.md)中了解如何创建AI模型。
 
 创建AI模型后，您可以在选择策略中使用该模型。 如果多个选件符合条件，则经过训练的模型系统将确定应首先为此选择策略提供哪个选件。
+
+>[!NOTE]
+>
+>当前，[提升测量](../offers/ranking/auto-optimization-model.md#lift)报告仅可用于[个性化优化](../offers/ranking/personalized-optimization-model.md) AI模型。
+
