@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
+source-git-commit: 1e35c2ea2b0a6c8edd5b870311bb32b4b4b58e9a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 5%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 5%
 
 ## 先决条件 {#prerequisites}
 
-在使用历程量度之前，必须添加包含`Commerce Details` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}的数据集。
+在使用历程量度之前，必须添加包含`Commerce Details`、`Web`和`Mobile` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}的数据集。
 
 ## 可用量度 {#metrics}
 
