@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 29%
+source-wordcount: '991'
+ht-degree: 24%
 
 ---
 
@@ -32,12 +32,19 @@ ht-degree: 29%
 
 * 插入指向登陆页面&#x200B;**的**&#x200B;链接。 [了解如何添加选择退出登陆页面](#opt-out-external-lp)
 
+当收件人单击选择退出链接时，将相应地处理其取消订阅请求。
+
+要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解详情。
+
+![](assets/opt-out-profile-choice.png)
+
+>[!NOTE]
+>
+>有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能在配置文件级别反映。 留出一些时间让系统更新。
 
 ## 一步式选择退出 {#opt-out-one-step}
 
 使用[!DNL Adobe Journey Optimizer]，您可以在电子邮件标题中使用自动生成的一键式取消订阅URL和邮件地址配置[电子邮件配置设置](email-settings.md#list-unsubscribe)，或者在电子邮件正文中包含一键式选择退出URL。
-
-当收件人单击一键式选择退出链接时，将相应地处理该收件人的取消订阅请求。
 
 ### 电子邮件标头中的一键取消订阅 URL {#unsubscribe-header}
 
@@ -170,10 +177,4 @@ ht-degree: 29%
    ![](assets/opt-out-confirmation-example.png)
 
    因此，除非再次订阅，否则这个用户将不会收到来自您的品牌的通信。
-
-1. 要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
-
-   ![](assets/opt-out-profile-choice.png)
-
-   在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL 否]**。
 

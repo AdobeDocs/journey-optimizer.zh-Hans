@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 51%
+source-wordcount: '1371'
+ht-degree: 48%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 51%
 >
 >在下面的[此部分](#enable-list-unsubscribe)中了解如何管理退订设置。
 
-在这两种情况下，收件人的相应配置文件都会立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中更新。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。 相应的配置文件将立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中更新。
 
 >[!NOTE]
 >
->在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在上线时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
+>有时，由于下游数据处理的原因，取消订阅事件可能需要更长的时间才能在配置文件级别反映。 留出一些时间让系统更新。
 
 ## 启用列表取消订阅 {#enable-list-unsubscribe}
 
@@ -89,7 +89,13 @@ ht-degree: 51%
 
    * 如果您没有在消息内容中添加一键式选择退出链接，并且在渠道配置设置中取消选中默认的&#x200B;**[!UICONTROL 一键式取消订阅 URL]**，则不会将 URL 作为列表取消订阅标头的一部分传递到电子邮件标头。
 
-要了解有关在消息中管理取消订阅功能的更多信息，请参阅[此部分](../email/email-opt-out.md#unsubscribe-header)。
+  >[!NOTE]
+  >
+  >要了解有关在消息中管理取消订阅功能的更多信息，请参阅[此部分](../email/email-opt-out.md#unsubscribe-header)。
+
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在上线时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
+
+目前，[!DNL Journey Optimizer]未将特定标记附加到由列表取消订阅功能触发的取消订阅事件。 如果您需要区分列表取消订阅点击与其他取消订阅操作，则必须在外部实施自定义标记，或利用外部登陆页面进行跟踪。
 
 ## 从外部管理取消订阅数据 {#custom-managed}
 
