@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 19%
@@ -81,6 +81,7 @@ ht-degree: 19%
 >[!IMPORTANT]
 >
 >自2024年11月1日起，流式分段不再支持使用Journey Optimizer跟踪和反馈数据集中的&#x200B;**发送**&#x200B;和&#x200B;**打开**&#x200B;事件。
+>
 >* 此更改适用于所有客户沙盒和组织。
 >* 仅发送和打开事件受到影响：点击次数和其他跟踪事件仍可用于流式分段。
 >* 此更改仅适用于流式客户细分。 发送和打开事件仍可以在批处理区段中使用，但如果包含在流区段中，则将批处理评估它们。 此外，发送事件导致的排除事件和退回/延迟事件也会受此更改的影响。

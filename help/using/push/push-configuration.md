@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 3%
+source-wordcount: '1839'
+ht-degree: 5%
 
 ---
 
@@ -20,22 +20,10 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能快速配置Mobile SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
+>新的&#x200B;**移动入门快速入门工作流**&#x200B;现已可用。 使用此新产品功能可快速配置移动SDK以开始收集和验证移动事件数据，并发送移动推送通知。 此功能可作为公共测试版通过数据收集主页访问。 [了解详情](mobile-onboarding-wf.md)
 >
 
-
-## 开始前 {#before-starting}
-
-<!--
-### Check provisioning
-
-Your Adobe Experience Platform account must be provisioned to contain following schemas and datasets for push notification data flow to function correctly:
-
-| Schema <br>Dataset                                                                       | Group of fields                                                                                                                                                                         | Operation                                                |
-| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| CJM Push Profile Schema <br>CJM Push Profile Dataset                                     | Push Notification Details<br>Adobe CJM ExperienceEvent - Message Profile Details<br>Adobe CJM ExperienceEvent - Message Execution Details<br>Application Details<br>Environment Details | Register Push Token                                      |
-| CJM Push Tracking Experience Event Schema<br>CJM Push Tracking Experience Event Dataset | Push Notification Tracking                                                                                                                                                              | Track interactions and provide data for the reporting UI |
--->
+## 开始前 {#start-push}
 
 ### 设置权限 {#setup-permissions}
 
@@ -71,7 +59,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    * **[!UICONTROL 开发]**
    * **[!UICONTROL 管理环境]**
    * **[!UICONTROL 管理扩展]**
-   * **[!UICONTROL Publish]**
+   * **[!UICONTROL 发布]**
 
    在Adobe Experience Platform Mobile SDK中安装和发布Adobe Journey Optimizer扩展以及发布应用程序属性时，需要这些权限。
 
@@ -109,6 +97,25 @@ Your Adobe Experience Platform account must be provisioned to contain following 
    >如果以前未在Admin Console中创建过该用户，请参阅[添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
+
+
+### 检查您的数据集 {#push-datasets}
+
+以下架构和数据集在推送通知渠道中可用：
+
+| 架构<br>数据集 | 字段组 | 操作 |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| CJM推送配置文件架构<br>CJM推送配置文件数据集 | 推送通知详细信息<br>Adobe CJM ExperienceEvent — 消息配置文件详细信息<br>Adobe CJM ExperienceEvent — 消息执行详细信息<br>应用程序详细信息<br>环境详细信息 | 注册推送令牌 |
+| CJM推送跟踪体验事件架构<br>CJM推送跟踪体验事件数据集 | 推送通知跟踪 | 跟踪交互并为报表UI提供数据 |
+
+
+>[!NOTE]
+>
+>将推送跟踪事件摄取到CJM推送跟踪体验事件数据集后，即使部分数据摄取成功，也可能会发生一些故障。 如果映射中的某些字段在传入事件中不存在，则会发生这种情况：系统记录警告，但不阻止摄取数据的有效部分。 这些警告在批次状态中显示为“失败”，但反映部分摄取成功。
+>
+>要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+
+
 
 ### 配置您的应用程序 {#configure-app}
 
@@ -199,7 +206,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
@@ -222,7 +229,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 适用于Adobe Experience Platform Mobile SDK的&#x200B;**Adobe Journey Optimizer扩展**&#x200B;可为您的移动应用程序提供推送通知，并帮助您收集用户推送令牌和管理与Adobe Experience Platform服务的交互测量。
 
-请参阅[Journey Optimizer Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}以了解如何设置Adobe Experience Platform扩展。
+请参阅[Adobe Experience Platform Mobile Journey Optimizer文档](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}以了解如何设置SDK扩展。
 
 
 <!-- 
