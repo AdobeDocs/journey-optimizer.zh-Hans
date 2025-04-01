@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 1e494c6e0b3dd45a5bef372b43c25928a2932355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 36%
 **以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;在发行当日，会在[发行说明](release-notes.md)中发布链接、屏幕和更新文档。
 
 
-## 2025年3月早期发行说明 {#25-3-rn}
+## 2025 年 3 月早期发行说明 {#25-3-rn}
 
 
 **以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;链接、屏幕和更新文档在发布日期发布。
@@ -38,13 +38,13 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>与Adobe Express集成</strong><br/></th>
+<th><strong>与 Adobe Express 集成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer中的Adobe Express集成允许您在内容创建期间直接使用Adobe Express的编辑工具，使您能够调整大小、删除背景、裁剪以及将资源转换为JPEG或PNG。<p>
+<p>Adobe Journey Optimizer 中的 Adobe Express 集成允许您在内容创建过程中直接使用 Adobe Express 的编辑工具，从而能够调整大小、移除背景、裁剪资源以及将资源转换为 JPEG 或 PNG。<p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 36%
 <tbody>
 <tr>
 <td>
-<p>通过历程指标，您可以在对业务最重要的各项指标中衡量活动的影响，并更清楚地了解您的业绩。</p>
+<p>通过历程指标，您可以根据对业务最重要的各项指标衡量活动的影响，更清楚地掌握绩效表现。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -70,14 +70,14 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>历程的日历视图（限量发布）</strong><br/></th>
+<th><strong>历程的日历视图（有限发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>日历视图现在允许您可视化所有历程激活。 此功能作为有限可用性发布给选定的客户组。<p>
-<p>此更改仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>日历视图现在允许您可视化所有历程激活。此功能作为有限发布版发布，面向部分客户提供。<p>
+<p>此更改仅面向一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -87,21 +87,21 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>与Dynamic Media集成（限量发布）</strong><br/></th>
+<th><strong>与 Dynamic Media 集成（有限发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media资源现在可直接在Journey Optimizer中访问和使用。 通过此集成，您可以：
+<p>Dynamic Media 资源现可直接在 Journey Optimizer 中使用和访问。通过此集成，您可以：
 <ul>
 <li>通过实时更新集中管理资源</li>
-<li>立即修改资源设置，如宽度和高度</li>
-<li>使用带有文本叠加图的图像个性化您的内容</li>
-<li>通过更新内容和添加个性化字段自定义Dynamic Media模板</li>
+<li>即时修改宽度和高度等资源设置</li>
+<li>使用带有文本叠加的图像实现内容个性化</li>
+<li>通过更新内容和添加个性化字段自定义 Dynamic Media 模板</li>
 </ul>
 <p>
-<p>此集成仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此集成仅面向一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -113,14 +113,14 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>与Adobe GenStudio集成（限量发布）</strong><br/></th>
+<th><strong>与 Adobe GenStudio 集成（有限发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>为了提高营销效率并维护品牌一致性，您现在可以将GenStudio for Performance Marketing体验与Journey Optimizer无缝集成。 这使您能够利用GenStudio的AI功能内容创建以及Journey Optimizer的高级编排功能。<p>
-<p>目前，Journey Optimizer中的GenStudio集成不可用于Healthcare Shield或Privacy and Security Shield （限量发布）。</p>
+<p>为了提高营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Journey Optimizer 无缝集成。这使您能够利用 GenStudio 的 AI 驱动的内容创建以及 Journey Optimizer 的高级编排功能。<p>
+<p>目前，Journey Optimizer 中的 GenStudio 集成不可用于 Healthcare Shield 或 Privacy and Security Shield（有限发布版）。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -130,13 +130,13 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
-<th><strong>LINE渠道（限量发布）</strong><br/></th>
+<th><strong>LINE 渠道（有限发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer已扩展其跨渠道功能，包括对LINE渠道的支持。 通过此增强功能，您可以创建、编辑和预览LINE体验，从而进行更加个性化且富有吸引力的交互。 借助LINE，您可以与更多客户建立联系、发送相关内容并提高参与度。<p>
+<p>Adobe Journey Optimizer 已扩展其跨渠道功能，包括对 LINE 渠道的支持。通过此增强功能，您可以创建、编辑和预览 LINE 体验，从而实现更加个性化且富有吸引力的交互。借助 LINE，您可以与更多客户建立联系，发送相关内容并提高参与度。<p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <!--p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p-->
 </td>
@@ -146,7 +146,7 @@ ht-degree: 36%
 
 ### 改进 {#25-03-improv}
 
-**Personalization编辑器**（可用日期： 3月12日）
+**个性化编辑器**（发布日期：3 月 12 日）
 
 Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
@@ -158,36 +158,36 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 * **自动填写用户档案和上下文属性** – 提供智能建议以简化内容创建。
 * **增强的语法突出显示** – 使代码结构在视觉上更加明显，从而提高可读性。
 
-![视频显示Personalization编辑器中的新功能](assets/do-not-localize/personalization-editor.gif)
+![展示个性化编辑器中的新增功能的视频](assets/do-not-localize/personalization-editor.gif)
 
 有关更多信息，请参阅[详细文档](../personalization/personalization-build-expressions.md)。
 
 
 **营销活动**
 
-* 在营销活动列表中，选择营销活动现在会打开一个显示其详细信息的窗格。
+* 现在，在营销活动列表中，选择营销活动会打开显示其详细信息的窗格。
 * 您现在可以将营销活动从一个沙盒复制到另一个沙盒。
 
 **个性化**
 
-个性化编辑器中新增了“药丸”按钮。 启用后，配置文件和上下文属性将显示为Pills，从而提高代码的可读性。
+个性化编辑器中新增了一个“药丸”按钮。启用后，配置文件和上下文属性将显示为“药丸”，从而提高代码的可读性。
 
 **审批**
 
-现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行过滤。
+现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行筛选。
 
 **渠道配置**
 
-您现在可以将Adobe Experience Platform统一标记分配给渠道配置。 这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。
+您现在可以为渠道配置分配 Adobe Experience Platform 统一标记。这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。
 
 **可投放性**
 
-您现在可以通过从父端管理的DMARC来委派子域。
+您现在可以委派子域，并从父端管理 DMARC。
 
 **业务规则**
 
-您现在可以在具有&#x200B;**批次**&#x200B;分段的历程和营销活动中使用每日频率上限。 要确保每日频率上限规则的准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+现在，您可以在使用&#x200B;**批量**&#x200B;分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform Identity Service 指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
 **内容管理**
 
-为了轻松地管理片段和内容模板，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。
+为了轻松地管理片段和内容模板，您现在可以使用文件夹将它们更高效地组织为结构化层级体系。
