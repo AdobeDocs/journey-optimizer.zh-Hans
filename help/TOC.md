@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2318'
 ht-degree: 97%
 
 ---
@@ -434,13 +434,14 @@ ht-degree: 97%
 + 跟踪和监测{#reporting}
    + 实时报告 {#live-report}
       + [实时报告入门](using/reports/live-report.md)
-      + [组件列表](using/reports/live-report-components.md)
+      + [量度列表](using/reports/live-report-components.md)
       + [历程实时报告](using/reports/journey-live-report.md)
       + [营销活动实时报告](using/reports/campaign-live-report.md)
       + [登陆页面实时报告](using/reports/lp-report-live.md)
       + [订阅列表实时报告](using/reports/subscription-report-live.md)
    + 全时段报告{#channel-report}
       + [全时段报告入门](using/reports/report-gs-cja.md)
+      + [量度列表](using/reports/global-report-components-cja.md)
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
       + [报告和试验先决条件](using/reports/reporting-configuration.md)

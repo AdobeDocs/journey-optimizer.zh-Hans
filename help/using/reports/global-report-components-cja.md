@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 组件列表
-description: 了解如何使用全局报告中的数据
+description: 了解如何使用报告中的数据
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
