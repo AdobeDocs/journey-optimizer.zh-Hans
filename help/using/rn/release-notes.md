@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 41%
+source-wordcount: '564'
+ht-degree: 45%
 
 ---
 
@@ -30,24 +30,24 @@ ht-degree: 41%
 
 此版本包含的新功能详述如下。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>与Adobe Express集成（限量发布）</strong><br/></th>
+<th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer中的Adobe Express集成允许您在内容创建期间直接使用Adobe Express的编辑工具，使您能够调整大小、删除背景、裁剪以及将资源转换为JPEG或PNG。<p>
-<p>Adobe Journey Optimizer中的Adobe Express集成当前仅适用于一批组织（限量发布）。 它不能部署为用于Healthcare Shield或Privacy and Security Shield。</p>
-<p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
+<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
+<p>Adobe Express integration in Adobe Journey Optimizer is currently only available for a set of organizations (Limited Availability). It cannot be deployed for use with Healthcare Shield or Privacy and Security Shield.</p>
+<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>
 </br>
 <img src="assets/do-not-localize/express_resize.gif"/>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
