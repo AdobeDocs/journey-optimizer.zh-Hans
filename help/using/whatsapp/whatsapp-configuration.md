@@ -9,9 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '461'
 ht-degree: 4%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 4%
 
 1. 配置API凭据，如下所述：
 
-   * **API令牌**： https://developers.facebook.com/docs/facebook-login/guides/access-tokens/
+   * **API令牌**：输入您的API令牌。 请参阅[元文档](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)以了解详情
    * **业务帐户ID**：输入与业务组合相关的唯一编号。 请参阅[元文档](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)以了解详情。
 
    ![](assets/whatsapp-api.png)
@@ -88,7 +89,7 @@ ht-degree: 4%
 
 1. 选择&#x200B;**[!UICONTROL 营销操作]**&#x200B;以使用此配置将同意策略关联到消息。 所有与营销活动相关的同意政策均可利用，以尊重客户的偏好。 了解详情
 
-1. 选择之前创建的&#x200B;**[!UICONTROL WhatsApp配置]**。
+1. 选择之前创建的&#x200B;**[!UICONTROL WhatsApp API配置]**。
 
    ![](assets/whatsapp-config-3.png)
 

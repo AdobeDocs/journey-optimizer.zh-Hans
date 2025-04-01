@@ -10,9 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '613'
 ht-degree: 3%
 
 ---
@@ -31,8 +32,6 @@ ht-degree: 3%
 >[!ENDSHADEBOX]
 
 借助Adobe Journey Optimizer，您可以在WhatsApp上设计和发送吸引人的消息。 只需将WhatsApp操作添加到您的历程或营销策划中，并制作消息内容，如下所述。 Adobe Journey Optimizer还允许您在发送WhatsApp消息之前对其进行测试，确保完美呈现、准确个性化以及所有设置的正确配置。
-
->[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
 
 ## 添加WhatsApp消息 {#create-whatsapp-journey-campaign}
 
@@ -76,7 +75,7 @@ ht-degree: 3%
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
-1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择短信消息的&#x200B;**[!UICONTROL 频率]**：
+1. 从&#x200B;**[!UICONTROL 操作触发器]**&#x200B;菜单中，选择WhatsApp消息的&#x200B;**[!UICONTROL 频率]**：
 
    * 一次
    * 每日
@@ -89,9 +88,13 @@ ht-degree: 3%
 
 ## 定义WhatsApp内容{#whatsapp-content}
 
->[!IMPORTANT]
->
->在Journey Optimizer中设计WhatsApp消息之前，您首先需要在Meta中创建模板。 [了解详情](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+>[!BEGINSHADEBOX]
+
+在Journey Optimizer中设计WhatsApp消息之前，您首先需要在Meta中创建和设计模板。 Journey Optimizer仅支持出站消息元素。 [了解详情](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+
+请注意，您的WhatsApp模板必须先获得Meta的批准，然后才能在Journey Optimizer中使用。 此过程通常需要几个小时，但可能最多需要24小时。 [了解详情](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+
+>[!ENDSHADEBOX]
 
 1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮配置WhatsApp消息内容。
 

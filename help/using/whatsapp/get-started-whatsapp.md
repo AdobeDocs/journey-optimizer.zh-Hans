@@ -10,10 +10,11 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
+source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 17%
+source-wordcount: '293'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +43,22 @@ ht-degree: 17%
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
-## 限制 {#limitations}
+## 先决条件 {#prereq}
+
+将WhatsApp与Journey Optimizer集成需要满足以下条件：
+
+* 元业务经理帐户
+* WhatsApp商业帐户
+* WhatsApp电话号码
+
+在继续集成之前，您还需要了解以下信息：
+
+* [WhatsApp内容规则](https://www.whatsapp.com/legal/messaging-guidelines)
+* [符合元策略](https://www.whatsapp.com/legal)
+* [24小时对话限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [已批准的元模板](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+
+## Beta限制 {#limitations}
 
 此测试版中不包含以下功能：
 
@@ -51,3 +67,13 @@ ht-degree: 17%
 * **选择加入/选择退出关键词**：用户在此阶段将无法选择使用特定关键词订阅或取消订阅。
 
 * **响应消息**：此版本不支持自动或预定义的响应消息。
+
+## 操作方法视频 {#video}
+
+以下视频演示了如何使用Whatsapp操作创建历程。
+
++++ 观看视频
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451621?learn=on)
+
++++
