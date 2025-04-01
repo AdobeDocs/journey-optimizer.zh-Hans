@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 3%
@@ -17,6 +18,8 @@ ht-degree: 3%
 # 短信营销活动报告 {#campaign-global-report-cja-sms}
 
 ## 已交付与点击趋势 {#delivered-click-sms}
+
+![](assets/cja-campaign-sms-delivered.png)
 
 **[!UICONTROL 已投放与点击趋势]**&#x200B;图显示您的个人资料与电子邮件交互情况的详细分析，提供了关于个人资料与内容交互情况的宝贵见解。
 
@@ -29,6 +32,8 @@ ht-degree: 3%
 +++
 
 ## 投放状态 {#delivery-status-sms}
+
+![](assets/cja-campaign-sms-status.png)
 
 **[!UICONTROL 投放状态]**&#x200B;表提供与短信营销活动相关的配置文件活动的详细帐户。 这包括有关投放的量度、点击量和其他相关参与指标，从而全面了解用户档案与短信内容的交互方式。
 

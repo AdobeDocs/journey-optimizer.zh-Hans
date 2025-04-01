@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1059'
 ht-degree: 2%
 
 ---
@@ -65,15 +65,15 @@ ht-degree: 2%
 
 +++ 了解有关发送统计量度的更多信息
 
-* **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
-
 * **[!UICONTROL 目标]**：发送过程中处理的电子邮件总数。
 
 * **[!UICONTROL 发送]**：您的电子邮件的发送总数。
 
 * **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的邮件总数相关。
 
-* **[!UICONTROL 跳出次数]**：在发送进程和自动返回处理期间累计的错误总数与已发送消息的总数之比。
+* **[!UICONTROL 唯一已投放]**：成功收到至少一封电子邮件的用户档案数。
+
+* **[!UICONTROL 出站渠道的跳出次数]**：发送进程和自动返回处理期间累计的错误总数与已发送消息的总数之比。
 
 * **[!UICONTROL 出站错误]**：发送过程中发生的阻止将错误发送到配置文件的错误总数。
 
@@ -97,19 +97,20 @@ ht-degree: 2%
 
 * **[!UICONTROL 唯一点击次数]**：点击电子邮件中内容的用户档案数。
 
-* **[!UICONTROL 电子邮件打开次数]**：您的电子邮件在历程中打开的次数。
+* **[!UICONTROL 电子邮件打开次数]**：您的电子邮件在营销活动中打开的次数。
 
-* **[!UICONTROL 独特电子邮件打开次数]**：已打开电子邮件的百分比。
+* **[!UICONTROL 独特电子邮件打开次数]**：打开电子邮件的用户档案数。
 
 * **[!UICONTROL 垃圾邮件投诉次数]**：将邮件声明为垃圾邮件或垃圾邮件的次数。
 
 * **[!UICONTROL 取消订阅]**：取消订阅链接的点击次数。
 
+* **[!UICONTROL 独特电子邮件取消订阅次数]**：取消订阅您电子邮件的用户档案数。
 +++
 
 ## 电子邮件域 {#email-domains}
 
-![](assets/cja-journey-email-domain.png)
+![](assets/cja-email-email-domains.png)
 
 **[!UICONTROL 电子邮件域]**&#x200B;表提供了按域分类的电子邮件的深入细分，提供了对电子邮件历程性能指标的广泛分析。 通过这种全面的分析，您可以了解不同域在响应电子邮件内容时的行为。
 
@@ -126,6 +127,9 @@ ht-degree: 2%
 * **[!UICONTROL 出站渠道的跳出次数]**：发送进程和自动返回处理期间累计的错误总数与已发送电子邮件的总数相关。
 
 * **[!UICONTROL 出站错误]**：发送过程中发生的阻止将错误发送到配置文件的错误总数。
+
+* **[!UICONTROL 出站排除]**： Adobe Journey Optimizer已排除的用户档案数。
+
 +++
 
 ## 跟踪关联标签 {#track-link-label}
@@ -154,31 +158,33 @@ ht-degree: 2%
 
 * **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
 
-* **[!UICONTROL 显示]**：消息的打开次数。
-
-* **[!UICONTROL 独特显示]**：消息的打开次数，一个用户档案的多个交互未考虑在内。
-
 +++
+
 
 ## 电子邮件主题 {#email-subject}
 
-![](assets/cja-journey-email-subjects.png)
+![](assets/cja-email-subject.png)
 
 **[!UICONTROL 电子邮件主题]**&#x200B;表全面概述了吸引最多访客流量的电子邮件主题。 此资源提供了有关受众参与动态的有价值见解。
 
 +++ 了解有关电子邮件主题量度的更多信息
 
-* **[!UICONTROL 人员]**：有资格作为电子邮件目标配置文件的用户配置文件数。
+* **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的电子邮件总数相关。
 
+* **[!UICONTROL 唯一已投放]**：成功收到至少一封电子邮件的不同用户档案数，确保不计入重复项。
 +++
 
 ## 退回原因 {#email-bounce-reasons}
+
+![](assets/cja-journey-email-bounce.png)
 
 **[!UICONTROL 退回原因]**&#x200B;表编译与退回邮件相关的可用数据，提供关于电子邮件退回具体原因的详细见解。
 
 有关退回的详细信息，请参阅[禁止显示列表](../reports/suppression-list.md)页面。
 
 ## 排除的原因 {#email-excluded}
+
+![](assets/cja-journey-email-excluded.png)
 
 **[!UICONTROL 排除的原因]**&#x200B;表提供了导致从目标受众中排除用户个人资料导致未收到该消息的各种因素的综合视图。
 

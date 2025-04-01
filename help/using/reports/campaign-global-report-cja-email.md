@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 32f34b6e2a5cd3eda6de9177c5a4b5c2be7b8058
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1056'
 ht-degree: 2%
 
 ---
@@ -65,13 +65,13 @@ ht-degree: 2%
 
 +++ 了解有关发送统计量度的更多信息
 
-* **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
-
 * **[!UICONTROL 目标]**：发送过程中处理的电子邮件总数。
 
 * **[!UICONTROL 发送]**：您的电子邮件的发送总数。
 
 * **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的邮件总数相关。
+
+* **[!UICONTROL 唯一已投放]**：成功收到至少一封电子邮件的用户档案数。
 
 * **[!UICONTROL 出站渠道的跳出次数]**：发送进程和自动返回处理期间累计的错误总数与已发送消息的总数之比。
 
@@ -99,12 +99,13 @@ ht-degree: 2%
 
 * **[!UICONTROL 电子邮件打开次数]**：您的电子邮件在营销活动中打开的次数。
 
-* **[!UICONTROL 独特电子邮件打开次数]**：已打开电子邮件的百分比。
+* **[!UICONTROL 独特电子邮件打开次数]**：打开电子邮件的用户档案数。
 
 * **[!UICONTROL 垃圾邮件投诉次数]**：将邮件声明为垃圾邮件或垃圾邮件的次数。
 
 * **[!UICONTROL 取消订阅]**：取消订阅链接的点击次数。
 
+* **[!UICONTROL 独特电子邮件取消订阅次数]**：取消订阅您电子邮件的用户档案数。
 +++
 
 ## 电子邮件域 {#email-domains}
@@ -119,13 +120,12 @@ ht-degree: 2%
 
 * **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的电子邮件总数相关。
 
-* **[!UICONTROL 电子邮件打开次数]**：您的电子邮件在营销活动中打开的次数。
-
-* **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
-
 * **[!UICONTROL 出站渠道的跳出次数]**：发送进程和自动返回处理期间累计的错误总数与已发送电子邮件的总数相关。
 
 * **[!UICONTROL 出站错误]**：发送过程中发生的阻止将错误发送到配置文件的错误总数。
+
+* **[!UICONTROL 出站排除]**： Adobe Journey Optimizer已排除的用户档案数。
+
 +++
 
 ## 跟踪关联标签 {#track-link-label}
@@ -154,10 +154,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 点击次数]**：内容在电子邮件中的点击次数。
 
-* **[!UICONTROL 显示]**：电子邮件的打开次数。
-
-* **[!UICONTROL 独特显示]**：电子邮件被打开的次数，一个用户档案的多个交互未考虑在内。
-
 +++
 
 ## 电子邮件主题 {#email-subjects}
@@ -168,8 +164,9 @@ ht-degree: 2%
 
 +++ 了解有关电子邮件主题量度的更多信息
 
-* **[!UICONTROL 人员]**：有资格作为电子邮件目标配置文件的用户配置文件数。
+* **[!UICONTROL 已投放]**：成功发送的电子邮件数与已发送的电子邮件总数相关。
 
+* **[!UICONTROL 唯一已投放]**：成功收到至少一封电子邮件的不同用户档案数，确保不计入重复项。
 +++
 
 ## 排除的原因 {#excluded-reasons}

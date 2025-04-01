@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '540'
 ht-degree: 2%
 
 ---
 
 # 应用程序内营销活动报告 {#campaign-global-report-cja-inapp}
 
-## 展示和点击趋势 {#impression-click-trend}
+## 显示和单击趋势 {#impression-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
@@ -34,6 +34,8 @@ ht-degree: 2%
 
 ## 点击次数 {#clicks-inapp}
 
+![](assets/cja-campaign-inapp-clicks.png)
+
 **[!UICONTROL 点击量]**&#x200B;图形显示应用程序内点击量度，同时显示内容点击总数和点击内容的独特配置文件数。
 
 +++ 了解有关点击量度的更多信息
@@ -46,6 +48,8 @@ ht-degree: 2%
 
 ## 显示 {#display-inapp}
 
+![](assets/cja-campaign-inapp-displays.png)
+
 **[!UICONTROL 显示]**&#x200B;图形可帮助您了解消息的整体影响范围以及与消息交互的唯一用户档案的数量。
 
 +++ 了解有关显示量度的更多信息
@@ -57,6 +61,8 @@ ht-degree: 2%
 +++
 
 ## 跟踪数据 {#tracking-data-inapp}
+
+![](assets/cja-campaign-inapp-tracking-data.png)
 
 **[!UICONTROL 跟踪数据]**&#x200B;表提供了与应用程序内消息关联的配置文件活动的详细快照，提供了有关参与和应用程序内消息有效性方面的基本见解。
 
@@ -78,11 +84,11 @@ ht-degree: 2%
 
 * **[!UICONTROL 发送]**：应用程序内消息的发送总数。
 
-<!--
-* **[!UICONTROL Inbound triggered]**: 
+* **[!UICONTROL 入站触发]**：用户交互或预定义事件触发应用程序内消息的次数。
 
-* **[!UICONTROL Inbound dismisses]**: 
--->
+* **[!UICONTROL 入站消除]**：用户在不与应用程序内消息交互的情况下消除该消息的次数。
+
+
 +++
 
 ## 跟踪关联标签 {#track-link-label-inapp}

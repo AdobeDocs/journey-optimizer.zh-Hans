@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 0%
+source-wordcount: '887'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![](assets/gs-cja-report-3.png)
 
-要了解有关Customer Journey AnalyticsWorkspace以及如何筛选和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 历程概述 {#journey-global}
 
@@ -43,8 +43,6 @@ ht-degree: 0%
 
 * **[!UICONTROL 历程退出]**：退出历程的个人总数。
 
-* **[!UICONTROL 历程失败]**：未成功执行的单个历程总数。
-
 +++
 
 ### 历程统计信息 {#journey-stats}
@@ -54,6 +52,8 @@ ht-degree: 0%
 **[!UICONTROL 历程统计数据]**&#x200B;表提供了有关历程的关键数据的详细摘要。 其中包括关键量度，如失败次数和成功进入次数，为您的电子邮件和历程的性能和影响提供有价值的见解。
 
 +++ 了解有关历程统计量度的更多信息
+
+* **[!UICONTROL 历程排除]**：由于预定义的标准或禁止显示规则而从历程中排除的个人总数。
 
 * **[!UICONTROL 历程参与度]**：接收通过历程发送的消息的独特个人的总数，代表到达历程中指定操作点的不同用户档案。
 
@@ -70,6 +70,16 @@ ht-degree: 0%
 * **[!UICONTROL 独特历程失败]**：未成功执行的单个历程总数，未考虑一个配置文件的多个交互。
 
 +++
+
+## 历程排除 {#journey-exclusion}
+
+**[!UICONTROL 历程排除项]**&#x200B;表提供了导致排除用户配置文件的各种因素的综合视图。
+
+## 操作错误 {#action-error}
+
+![](assets/cja-journey-action-error.png)
+
+**[!UICONTROL 操作错误]**&#x200B;构件详细列出了历程操作所发生的不同错误。
 
 ## 历程画布 {#journey-canvas}
 
@@ -106,9 +116,11 @@ ht-degree: 0%
 
 +++ 了解有关操作概述量度的更多信息
 
-* **[!UICONTROL 人员]**：有资格作为操作目标配置文件的用户配置文件数。
+* **[!UICONTROL 节点进入]**：进入历程中特定节点的个人总数。
 
-* **[!UICONTROL 点击最低速率]**：与操作交互的用户百分比。
+* **[!UICONTROL 历程失败]**：未成功执行的单个历程总数。
+
+* **[!UICONTROL 点进率]**：与操作交互的用户百分比。
 
 * **[!UICONTROL 点击次数]**：在操作中点击内容的次数。
 
