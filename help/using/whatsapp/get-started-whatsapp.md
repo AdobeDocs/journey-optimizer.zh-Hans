@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
+source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 13%
@@ -69,6 +69,7 @@ ht-degree: 13%
 * **响应消息**：此版本不支持自动或预定义的响应消息。
 
 ## 操作方法视频 {#video}
+
 
 以下视频演示了如何使用WhatsApp操作创建历程。
 
