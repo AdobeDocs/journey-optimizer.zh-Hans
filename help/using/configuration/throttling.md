@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '880'
+ht-degree: 62%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 91%
 >
 >当达到 API 中设置的限制时，后续事件将排队等待 6 小时。无法修改此值。
 
-## API 限制说明 {#description}
+## 限制API描述和Postman收藏集 {#description}
+
+下表列出了用于限制API的可用命令。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)中提供了请求示例、参数和响应格式的详细信息。
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
@@ -41,6 +43,15 @@ ht-degree: 91%
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | 更新限制配置 |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 检索限制配置 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 删除限制配置 |
+
+此外，[此处](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)还提供了一个Postman收藏集，帮助您进行测试配置。
+
+此集合已设置为共享通过&#x200B;__[Postman控制台的集成](https://console.adobe.io/integrations) >尝试使用>下载Adobe I/O生成的Postman变量集合__，这将生成一个具有选定集成值的Postman环境文件。
+
+下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
+* `{JO_HOST}` ： [!DNL Journey Optimizer]网关URL。
+* `{BASE_PATH}` ： API的入口点。
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
 ## 限制配置{#configuration}
 
@@ -134,57 +145,6 @@ ht-degree: 91%
     "requestId": "A7ezT8JhOQT4WIAf1Fv7K2wCDA8281qM"
 }
 ```
-
-## 用例 {#uc}
-
-为帮助您进行测试和配置，可点击[此处](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)获取 Postman 集合。
-
-此“Postman 集合”已设置为通过 __[Adobe I/O 控制台的集成](https://console.adobe.io/integrations) > 试用 > 为 Postman 下载__&#x200B;共享 Postman 变量集合，它会使用选定的集成值生成 Postman 环境文件。
-
-下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
-* `{JO_HOST}`：[!DNL Journey Optimizer]网关 URL
-* `{BASE_PATH}` ： API的入口点。
-* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
-
-在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
-
-用例 1：**创建和部署新的限制配置**
-
-1. list
-1. create
-1. candeploy
-1. deploy
-
-用例 2：**更新并部署尚未部署的限制配置**
-
-1. list
-1. get
-1. update
-1. candeploy
-1. deploy
-
-用例 3：**取消部署和删除已部署的限制配置**
-
-1. list
-1. undeploy
-1. delete
-
-用例 4：**删除已部署的限制配置**
-
-在仅一个 API 调用中，您可以使用 forceDelete 参数取消部署和删除配置。
-
-1. list
-1. 删除，使用 forceDelete 参数
-
-用例 5：**更新已部署的限制配置**
-
->[!NOTE]
->
->在更新之前，无需取消部署配置
-
-1. list
-1. get
-1. update
 
 ## 运行时级别的配置生命周期 {#config}
 
@@ -338,3 +298,67 @@ ht-degree: 91%
     }
 }
 ```
+
+## 用例 {#uc}
+
+本节列出了在[!DNL Journey Optimizer]中管理限制配置的关键用例，以及实施用例所需的相关API命令。
+
+有关每个API命令的详细信息，请参见[API描述和Postman集合](#description)。
+
++++创建和部署新限制配置
+
+要使用的API调用：
+
+1. **`list`** — 检索现有配置。
+1. **`create`** — 创建新配置。
+1. **`candeploy`** — 检查配置是否可以部署。
+1. **`deploy`** — 部署配置。
+
++++
+
++++更新和部署限制配置（尚未部署）
+
+要使用的API调用：
+
+1. **`list`** — 检索现有配置。
+1. **`get`** — 获取特定配置的详细信息。
+1. **`update`** — 修改配置。
+1. **`candeploy`** — 检查部署资格。
+1. **`deploy`** — 部署配置。
+
++++
+
++++取消部署和删除已部署的限制配置
+
+要使用的API调用：
+
+1. **`list`** — 检索现有配置。
+1. **`undeploy`** — 取消部署配置。
+1. **`delete`** — 删除配置。
+
++++
+
++++删除已部署的限制配置
+
+在仅一个API调用中，您可以使用`forceDelete`参数取消部署和删除配置。
+
+要使用的API调用：
+
+1. **`list`** — 检索现有配置。
+1. **`delete`（带`forceDelete`参数）** — 强制在单个步骤中删除已部署的配置。
+
++++
+
++++更新已部署的限制配置
+
+>[!NOTE]
+>
+>在更新之前，无需取消部署配置
+
+要使用的API调用：
+
+1. **`list`** — 检索现有配置。
+1. **`get`** — 获取特定配置的详细信息。
+1. **`update`** — 修改配置。
+
++++
