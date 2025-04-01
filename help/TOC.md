@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
 workflow-type: tm+mt
 source-wordcount: '2318'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 97%
       + 配置内容卡片渠道{#configure}
          + [内容卡片先决条件](using/content-card/content-card-configuration-prereq.md)
          + [在 Journey Optimizer 中配置内容卡片渠道](using/content-card/content-card-configuration.md)
-         + [在Mobile SDK中配置内容卡支持](using/content-card/content-card-lp.md)
+         + [在 Mobile SDK 中配置内容卡支持](using/content-card/content-card-lp.md)
          + [在 Web SDK 中配置内容卡支持](using/content-card/content-card-configuration-sdk.md)
       + [创建内容卡片](using/content-card/create-content-card.md)
       + [设计内容卡片](using/content-card/design-content-card.md)
@@ -428,7 +428,7 @@ ht-degree: 97%
    + [使用 Adobe Stock](using/integrations/stock.md)
    + [使用Adobe Express](using/integrations/express.md)
    + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
-   + [使用Experience Manager内容片段](using/integrations/aem-fragments.md)
+   + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
    + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
    + [使用GenStudio](using/integrations/genstudio.md)
 + 跟踪和监测{#reporting}
@@ -492,7 +492,7 @@ ht-degree: 97%
       + [决策入门](using/experience-decisioning/gs-experience-decisioning.md)
       + [决策护栏和限制](using/experience-decisioning/decisioning-guardrails.md)
       + API 参考{#api-reference}
-         + 创建和管理优惠项目{#create-manage}
+         + 创建和管理优惠项{#create-manage}
             + 决策项{#decision-items}
                + [创建决策项](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [决策项列表](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)

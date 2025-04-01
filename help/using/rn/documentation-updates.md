@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b441c1edaf50104ae63f4cd9f14f3c268dee02dd
 workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 80%
 
 * 更新了“受众资格”事件的相关页面，提供了新的建议。[了解详情](../building-journeys/audience-qualification-events.md)
 * 现在，所有客户都可以使用自定义操作故障排除功能 (GA)。[了解详情](../action/troubleshoot-custom-action.md)
-* 数据卫生现在是产品用户界面中的数据生命周期。 更新了文档以反映此更改。 [了解详情](../privacy/data-hygiene.md)
-* 文档中新增了缺失的登陆页面内置权限。 [了解详情](../administration/ootb-permissions.md)
-* 已添加有关计划循环营销活动的注释。 [了解详情](../campaigns/create-campaign.md)
-* 更新并重新组织了有关在电子邮件中插入链接和启用跟踪的部分。 [了解详情](../email/message-tracking.md)
-* Adobe Journey Optimizer中有关个性化功能的部分已重新组织和改进。 [了解详情](../personalization/personalize.md)
-* 更新了用于列出个性化优惠的决策管理API，新增了在响应中缺少多个个性化优惠时执行分页的示例。 [了解详情](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* 在产品用户界面中，“数据卫生”已更名为“数据生命周期”。更新了文档以反映此更改。[了解详情](../privacy/data-hygiene.md)
+* 文档中新增了有关缺失的登陆页面内置权限的内容。[了解详情](../administration/ootb-permissions.md)
+* 添加了有关安排定期营销活动的注释。[了解详情](../campaigns/create-campaign.md)
+* 更新并重新组织了有关在电子邮件中插入链接和启用跟踪的部分。[了解详情](../email/message-tracking.md)
+* 重新组织并改进了有关 Adobe Journey Optimizer 中的个性化功能的部分。[了解详情](../personalization/personalize.md)
+* 更新了用于列出个性化优惠的决策管理 API，新增了响应中缺少多项个性化优惠时执行分页的示例。[了解详情](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 为了提高清晰度，已创建一个新页面，以收集有关列表取消订阅功能的所有信息。 [了解详情](../email/list-unsubscribe.md)
 * 频率上限部分已更新，其中包含关于如何在Edge Decisioning API和批量决策API之外更新频率上限计数器的信息。 [了解详情](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025 年 2 月 {#feb-2025}
 
-* 读取受众活动护栏已更新，以指定历程中只能使用一个活动，并且只能面向一个受众。 [了解详情](../building-journeys/read-audience.md)
-* 更新了使用Adobe Campaign历程时的活动护栏。 [了解详情](../start/guardrails.md#ac-g)
+* 更新了“读取受众”活动护栏，明确规定历程中只能使用一种活动，并且只能针对一个受众。[了解详情](../building-journeys/read-audience.md)
+* 更新了使用 Adobe Campaign 活动时的历程护栏。[了解详情](../start/guardrails.md#ac-g)
 * 详细介绍了创建第一个历程的步骤，并添加了文档部分的链接。[了解详情](../building-journeys/journey-gs.md)
 * 现在提供了新页面，详细介绍了历程仪表板和筛选用户界面。[了解详情](../building-journeys/journey-ui.md)
 * 更新并改进了&#x200B;**[!UICONTROL 发送时间优化]**&#x200B;的文档及其相关常见问题解答，且已将它们移至新的专门页面。[了解详情](../building-journeys/send-time-optimization.md)

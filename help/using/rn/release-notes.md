@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 45%
+ht-degree: 85%
 
 ---
 
@@ -87,20 +87,20 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>与Dynamic Media集成（限量发布）</strong><br/></th>
+<th><strong>与 Dynamic Media 集成（有限发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media资源现在可直接在Journey Optimizer中访问和使用。 通过此集成，您可以：
+<p>Dynamic Media 资源现可直接在 Journey Optimizer 中使用和访问。通过此集成，您可以：
 <ul>
 <li>通过实时更新集中管理资源</li>
-<li>立即修改资源设置，如宽度和高度</li>
-<li>通过更新内容和添加个性化字段自定义Dynamic Media模板</li>
+<li>即时修改宽度和高度等资源设置</li>
+<li>通过更新内容和添加个性化字段自定义 Dynamic Media 模板</li>
 </ul>
 <p>
-<p>此集成仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>此集成仅面向一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -112,14 +112,14 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>与Adobe GenStudio集成（限量发布）</strong><br/></th>
+<th><strong>与 Adobe GenStudio 集成（有限发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>为了提高营销效率并维护品牌一致性，您现在可以将GenStudio for Performance Marketing体验与Journey Optimizer无缝集成。 这使您能够利用GenStudio的AI功能内容创建以及Journey Optimizer的高级编排功能。<p>
-<p>目前，Journey Optimizer中的GenStudio集成不可用于Healthcare Shield或Privacy and Security Shield （限量发布）。</p>
+<p>为了提高营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Journey Optimizer 无缝集成。这使您能够利用 GenStudio 的 AI 驱动的内容创建以及 Journey Optimizer 的高级编排功能。<p>
+<p>目前，Journey Optimizer 中的 GenStudio 集成不可用于 Healthcare Shield 或 Privacy and Security Shield（有限发布版）。</p>
 <p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
@@ -148,7 +148,7 @@ ht-degree: 45%
 
 ### 改进 {#25-03-improv}
 
-**Personalization编辑器**（可用日期： 3月12日）
+**个性化编辑器**（发布日期：3 月 12 日）
 
 Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 * **更新的代码编辑器设计** – 更简洁的现代界面，改善了可用性和重点内容的显示。
@@ -159,25 +159,25 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 * **自动填写用户档案和上下文属性** – 提供智能建议以简化内容创建。
 * **增强的语法突出显示** – 使代码结构在视觉上更加明显，从而提高可读性。
 
-![视频显示Personalization编辑器中的新功能](assets/do-not-localize/personalization-editor.gif)
+![展示个性化编辑器中的新增功能的视频](assets/do-not-localize/personalization-editor.gif)
 
 有关更多信息，请参阅[详细文档](../personalization/personalization-build-expressions.md)。
 
 **审批**
 
-现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行过滤。
+现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行筛选。
 
 有关更多信息，请参阅[详细文档](../test-approve/approval-policies.md)。
 
 **配置**
 
-* 您现在可以将Adobe Experience Platform统一标记分配给渠道配置。 这使您能够轻松地对它们进行分类，并改进所有列表中的搜索和导航。 [了解详情](../configuration/channel-surfaces.md#channel-config-tags)
+* 您现在可以为渠道配置分配 Adobe Experience Platform 统一标记。这使您能够轻松地对它们进行分类，并改进所有列表中的搜索和导航。 [了解详情](../configuration/channel-surfaces.md#channel-config-tags)
 
 * 在Journey Optimizer中设置或编辑电子邮件子域时，如果您在父域中拥有相关记录，那么您现在可以选择自己管理相关的DMARC记录。 [了解详情](../configuration/dmarc-record.md#set-up-dmarc)
 
 **业务规则**
 
-现在，您可以在历程和营销活动中通过批量分段使用每日频率上限。 要确保每日频率上限规则的准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在[Platform Identity Service指南](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform Identity Service 指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
 请注意，规则集中的每日频率上限仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
