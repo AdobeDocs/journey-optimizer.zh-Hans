@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: a40907925c7f8c783a3baf9673009a54f433b960
+source-git-commit: 514e9072ba2154bdb5d587ed91111f1b3941f6d1
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -106,3 +106,4 @@ ht-degree: 4%
 1. 检查成功后，通道配置将获得&#x200B;**[!UICONTROL 活动]**&#x200B;状态。 它随时可用于投放消息。
 
 您现在可以使用Journey Optimizer发送WhatsApp消息了。
+
