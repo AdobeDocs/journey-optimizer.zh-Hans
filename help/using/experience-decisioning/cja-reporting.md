@@ -7,7 +7,7 @@ role: User
 level: Experienced
 badge: label="有限发布版"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: bfc16476f525328b2b8451bfdd57b6b2027db916
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 基于代码的营销活动报表 {#campaigns}
 
-一旦基于代码的体验正式上线，您即可访问专用报告，以作为全面功能板监控关键绩效指标(KPI)，从而提供与您的活动关联的基本量度分析。
+一旦基于代码的体验正式上线，您就可以访问专用报告，以监控关键绩效指标(KPI)（作为一个全面的功能板），从而提供与您的活动关联的基本量度分析。
 
 其中包括与决策项目性能以及用户如何与其交互相关的详细信息。 [了解如何使用基于代码的体验报表](../reports/campaign-global-report-cja-code.md)
 

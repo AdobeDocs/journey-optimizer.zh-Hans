@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 3abaa58fa4fa3baae5c7072bdc112de4a5e9119a
+source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 15%
+source-wordcount: '1761'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 决策策略是优惠的容器，它们利用决策引擎根据受众选择要投放的最佳内容。
 
-决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个轮廓选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。
+<!--Decision policies contain all of the selection logic for the decisioning engine to pick the best content. Decision policies are campaign specific. -->其目标是为每个用户档案选择最佳优惠，而营销活动/历程创作允许您指示应如何显示选定的决策项目，包括要包含在消息中的项目属性。
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 将决策策略用于基于代码的营销活动的主要步骤如下：
 
-1. [在基于代码的营销活动中创建决策策略](#add-decision)
-1. [将决策策略用于基于代码的营销活动](#use-decision-policy)
-1. [创建自定义Customer Journey Analytics报告仪表板](#cja)
+1. [将决策策略添加到基于代码的体验](#add-decision)
+1. [使用决策策略](#use-decision-policy)
+1. [创建自定义Customer Journey Analytics报表仪表板](cja-reporting.md)
 
-## 将决策策略添加到基于代码的营销活动 {#add-decision}
+## 将决策策略添加到基于代码的体验 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -54,7 +54,7 @@ ht-degree: 15%
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="创建策略"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="评估顺序"
 
-要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请向基于代码的营销活动添加决策策略。 要实现此目的，请执行以下步骤。
+要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请将决策策略添加到基于代码的活动或历程。 要实现此目的，请执行以下步骤。
 
 ### 创建决策策略 {#add}
 
@@ -221,3 +221,33 @@ ht-degree: 15%
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
+1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以确认更改。
+
+## 测试和发布基于代码的体验 {#test-and-publish}
+
+请按照以下步骤完成基于代码的体验，并启用所做的更改。
+
+1. 在发布之前，显示基于代码的体验预览以对其进行测试。
+
+   >[!CAUTION]
+   >
+   >目前，在使用决策的基于[代码的体验](../code-based/create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。
+
+   要测试决策，您可以将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
+
+   ```
+   {
+   "data": {
+       "__adobe": {
+       "ajo":
+   {         "dryRun": true       }
+       }
+   }
+   }
+   ```
+
+1. 查看并发布基于代码的体验营销活动或历程。 [了解如何操作](../code-based/publish-code-based.md)
+
+   现在，一旦您的开发人员进行API或SDK调用以获取渠道配置中定义的表面的内容，更改就会应用于您的网页或应用程序。
+
+1. 要查看决策的执行情况，您现在可以创建自定义[Customer Journey Analytics报告仪表板](cja-reporting.md)。
