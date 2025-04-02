@@ -6,9 +6,10 @@ description: 了解如何在电子邮件模板中锁定内容。
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 9bb2b287f6f470f817a7f7dd89346bbe2aa7d090
+exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1285'
 ht-degree: 32%
 
 ---
@@ -63,6 +64,8 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 >[!AVAILABILITY]
 >
 >具有创建内容模板权限的用户可以启用内容锁定。
+
+➡️ [在视频中了解此功能](#video)
 
 ## 锁定电子邮件模板 {#define}
 
@@ -189,3 +192,9 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 | 无法删除的锁定结构 | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | 具有锁定样式且无法删除的组件。 用户只能修改内容。 | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | 锁定结构中的可编辑组件。 | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+
+## 操作方法视频 {#video}
+
+了解如何在电子邮件模板中锁定内容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

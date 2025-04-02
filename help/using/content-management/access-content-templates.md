@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 5ce76bd61a61e1ed5e896f8da224fc20fba74b53
+source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: '626'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,16 @@ ht-degree: 5%
 
 显示在当前沙盒上创建的所有模板 — 无论是来自历程还是使用&#x200B;**[!UICONTROL 另存为模板]**&#x200B;选项（从&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单）的营销活动。 [了解如何创建模板](#create-content-templates)
 
+利用左侧的窗格，可将内容模板整理到文件夹中。 默认情况下，将显示所有模板。 选择文件夹时，仅显示选定文件夹中包含的模板和文件夹。 [了解详情](#folders)
+
+>[!NOTE]
+>
+>内容模板文件夹仅对一组组织可用（限量发布），并将逐步向更多用户推出。
+
+![](assets/content-template-list-folders.png)
+
+要查找特定项目，请在搜索字段中开始键入名称。 选择[文件夹](#folders)时，搜索将应用于该文件夹<!--(not nested items)-->层次结构第一级中的所有内容模板或文件夹。
+
 您可以按以下方式排序内容模板：
 * 类型
 * 渠道
@@ -33,6 +43,44 @@ ht-degree: 5%
 您还可以选择仅显示您自己创建或修改的项目。
 
 ![](assets/content-template-list-filters.png)
+
+## 使用文件夹管理内容模板 {#folders}
+
+>[!AVAILABILITY]
+>
+>内容模板文件夹仅对一组组织可用（限量发布），并将逐步向更多用户推出。
+
+要轻松导航您的内容模板，您可以使用文件夹来更有效地将其组织到结构化层次结构中。 这使您能够根据组织需求对项目进行分类和管理。
+
+![](assets/content-template-folders.png)
+
+1. 单击“**[!UICONTROL 所有内容模板]**”按钮可显示之前创建的所有项目，而不进行文件夹分组。
+
+1. 单击&#x200B;**[!UICONTROL 根]**&#x200B;文件夹以显示创建的所有文件夹。
+
+   >[!NOTE]
+   >
+   >如果尚未创建文件夹，则会显示所有内容模板。
+
+1. 单击&#x200B;**[!UICONTROL 根]**&#x200B;文件夹中的任意文件夹以显示其内容。
+
+1. 单击&#x200B;**[!UICONTROL 根]**&#x200B;文件夹或任何其他文件夹后，将显示&#x200B;**[!DNL Create folder]**&#x200B;按钮。 选择它。
+
+   ![](assets/content-template-create-folder.png)
+
+1. 键入新文件夹的名称，然后单击&#x200B;**[!UICONTROL 保存]**。 新文件夹显示在&#x200B;**[!UICONTROL 根]**&#x200B;文件夹的内容模板列表顶部，或显示在当前选定的文件夹内。
+
+1. 您可以单击&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮以重命名或删除文件夹。
+
+   ![](assets/content-template-folder-more-actions.png)
+
+1. 使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您还可以将内容模板移动到其他现有文件夹。
+
+   ![](assets/content-template-folder-moved.png)
+
+1. 现在，您可以导航到之前创建的文件夹。 您[从此处](create-content-templates.md)创建的每个新内容模板都将保存到当前文件夹中。
+
+   ![](assets/content-template-folder-create.png)
 
 ## 编辑和删除内容模板 {#edit}
 
