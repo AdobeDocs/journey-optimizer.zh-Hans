@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: a82c9e2d999b28ed97374f3a3804e11d4acd7983
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1756'
 ht-degree: 10%
 
 ---
@@ -227,27 +227,26 @@ ht-degree: 10%
 
 请按照以下步骤完成基于代码的体验，并启用所做的更改。
 
-1. 在发布之前，显示基于代码的体验预览以对其进行测试。
-
-   >[!CAUTION]
-   >
-   >目前，在使用决策的基于[代码的体验](../code-based/create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。
-
-   要测试决策，您可以将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
-
-   ```
-   {
-   "data": {
-       "__adobe": {
-       "ajo":
-   {         "dryRun": true       }
-       }
-   }
-   }
-   ```
-
 1. 查看并发布基于代码的体验营销活动或历程。 [了解如何操作](../code-based/publish-code-based.md)
 
    现在，一旦您的开发人员进行API或SDK调用以获取渠道配置中定义的表面的内容，更改就会应用于您的网页或应用程序。
 
+1. 目前，在使用决策的基于[代码的体验](../code-based/create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。
+
+   作为解决方法，您可以在发布营销活动后测试决策，方法是将`dryRun`标志添加到客户端实施中的XDM事件`data`块中：
+
+   ```
+   {
+       "data": {
+           "__adobe": {
+               "ajo": {
+                   "dryRun": true
+               }
+           }
+       }
+   }
+   ```
+
 1. 要查看决策的执行情况，您现在可以创建自定义[Customer Journey Analytics报告仪表板](cja-reporting.md)。
+
+
