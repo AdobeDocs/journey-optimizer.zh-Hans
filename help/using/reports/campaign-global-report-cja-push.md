@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 3%
+source-wordcount: '519'
+ht-degree: 4%
 
 ---
 
 # 推送通知营销活动报告 {#campaign-global-report-cja-push}
+
+>[!BEGINSHADEBOX]
+
+您可以访问推送通知促销活动报告，方法是单击促销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 发送统计信息 {#sending-statistics-push}
 

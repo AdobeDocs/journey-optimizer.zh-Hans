@@ -8,14 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '663'
 ht-degree: 3%
 
 ---
 
 # 短信营销活动报告 {#campaign-global-report-cja-sms}
+
+>[!BEGINSHADEBOX]
+
+您可以通过单击营销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**&#x200B;来访问短信营销活动报告。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 已交付与点击趋势 {#delivered-click-sms}
 

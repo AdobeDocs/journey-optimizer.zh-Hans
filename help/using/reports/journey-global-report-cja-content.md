@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 2%
+source-wordcount: '345'
+ht-degree: 3%
 
 ---
 
 # 内容卡历程报告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+您可以通过单击历程中的&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮访问内容卡历程报告。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 显示并点击 {#displays-content-card}
 

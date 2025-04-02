@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2fe9fb915e4aaf13458e46d5eeb177862416907d
+exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 2%
 
 ---
 
 # 基于代码的营销活动报告 {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+您可以通过单击营销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**&#x200B;来访问基于代码的营销活动报告。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 显示并点击 {#impressions-code}
 

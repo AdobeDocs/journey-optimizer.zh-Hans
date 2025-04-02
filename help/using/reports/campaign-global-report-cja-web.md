@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 39441fe9-5cdc-4787-9267-798de80e3af2
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 2%
+source-wordcount: '538'
+ht-degree: 3%
 
 ---
 
-# Web营销活动报告 {#campaign-global-report-cja-web}
+# Web 营销活动报告 {#campaign-global-report-cja-web}
+
+>[!BEGINSHADEBOX]
+
+您可以访问您的Web营销活动报告，方法是单击营销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 展示和点击趋势 {#impressions-web}
 

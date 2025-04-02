@@ -8,20 +8,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1079'
 ht-degree: 2%
 
 ---
 
 # 电子邮件营销活动报告 {#campaign-global-report-cja-email}
 
+>[!INFO]
+>
+>由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。
+> [了解有关Apple iOS隐私更改对电子邮件营销的影响的更多信息](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)。
+> 
+> 我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
+
+
 >[!BEGINSHADEBOX]
 
-由于Apple为其本机邮件应用程序引入了新的隐私保护功能（包括邮件隐私保护），发件人将无法再使用跟踪像素来收集有关已启用Apple邮件隐私保护的用户档案的数据。 因此，Adobe Journey Optimizer使用跟踪像素跟踪电子邮件打开次数的功能可能会受到影响。 [了解更多](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)有关Apple iOS隐私更改对电子邮件营销的影响。
+您可以访问电子邮件促销活动报告，方法是单击促销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**。 [了解详情](report-gs-cja.md)
 
-我们建议将重点放在点击量和转化量度上，而不是放在打开率上，以获取更准确的见解。
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 

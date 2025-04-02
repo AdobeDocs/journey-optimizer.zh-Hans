@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: b9dbda18b2e997d6c3acc9763cbb0088abbece1b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 * [营销活动](#campaign)
 * [渠道](#channel)
 
-要了解有关Customer Journey AnalyticsWorkspace以及如何筛选和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics Workspace以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 高亮 {#highlights}
 
@@ -87,7 +87,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 
+* **[!UICONTROL 点进率(CTR)]**：邮件中的点进百分比。
+
 * **[!UICONTROL 发送]**：每个营销活动的发送总数。
+
+* **[!UICONTROL 已投放]**：已成功发送的邮件数。
 
 * **[!UICONTROL 显示]**：消息的打开次数。
 
@@ -107,9 +111,9 @@ ht-degree: 1%
 
 * **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 
-* **[!UICONTROL 点进率]**：邮件中的点进百分比。
+* **[!UICONTROL 点进率(CTR)]**：邮件中的点进百分比。
 
-* **[!UICONTROL 发送]**：每个营销活动的发送总数。
+* **[!UICONTROL 已投放]**：已成功发送的邮件数。
 
 * **[!UICONTROL 显示]**：消息的打开次数。
 

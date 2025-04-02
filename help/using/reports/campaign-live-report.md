@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3492'
 ht-degree: 27%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 27%
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，Customer Journey Analytics报表重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
-使用&#x200B;**[!UICONTROL 实时视图]**&#x200B;按钮可直接从营销活动访问营销活动实时报告。
+您可以通过单击&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看过去24小时报告]**，直接从营销活动访问活动实时报告。
 
 营销活动&#x200B;**[!UICONTROL 实时报告]**&#x200B;页面将显示以下选项卡：
 

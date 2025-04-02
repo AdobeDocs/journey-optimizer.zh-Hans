@@ -7,14 +7,23 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
 
 # 直邮营销活动报告 {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+您可以访问直邮营销活动报告，方法是单击营销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 发送统计信息 {#sending-statistics-directmail}
 

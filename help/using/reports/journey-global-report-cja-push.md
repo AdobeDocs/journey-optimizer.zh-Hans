@@ -7,14 +7,23 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '542'
 ht-degree: 3%
 
 ---
 
 # 推送通知历程报告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+您可以通过单击历程中的&#x200B;**[!UICONTROL 查看报告]**&#x200B;按钮来访问推送通知历程报告。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
+
+>[!ENDSHADEBOX]
 
 ## 发送统计信息 {#sending-statistics-push}
 
@@ -56,9 +65,7 @@ ht-degree: 3%
 
 * **[!UICONTROL 唯一点击次数]**：点击推送通知中内容的用户档案数。
 
-<!--
-* **[!UICONTROL Push custom actions]**: 
--->
+* **[!UICONTROL 推送自定义操作]**：用户档案响应推送通知而采取的自定义操作数。
 +++
 
 ## 跟踪关联标签 {#track-link-label-push}

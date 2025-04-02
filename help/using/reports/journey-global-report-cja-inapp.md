@@ -8,28 +8,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
 
 # 应用程序内历程报告 {#journey-global-report}
 
+>[!INFO]
+>
+>您的历程报告可能同时显示多个历程中的信息，因为用户一次可以涉及多个历程。 因此，如果为参与同时活动历程的用户触发入站通信（应用程序内、Web和基于代码），则这些通信可能会显示在多个历程中，这可能会导致数据重叠。
+
 >[!BEGINSHADEBOX]
 
-您的历程报告可能同时显示多个历程中的信息，因为用户一次可以涉及多个历程。 因此，如果为参与同时活动历程的用户触发入站通信（应用程序内、Web和基于代码），则这些通信可能会显示在多个历程中，这可能会导致数据重叠。
+您可以通过单击历程中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮访问应用程序内历程报告。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
 
-## 展示和点击趋势 {#impression-click-trend}
+## 显示和单击趋势 {#display-click-trend}
 
 ![](assets/cja-inapp-impressions-click.png)
 
-**[!UICONTROL 展示和点击趋势]**&#x200B;图显示个人资料与应用程序内消息互动的详细分析，提供有关个人资料与内容互动方式的宝贵见解。
+**[!UICONTROL 显示和单击趋势]**&#x200B;图形显示配置文件与应用程序内消息的参与情况的详细分析，提供有关配置文件与内容如何交互的宝贵见解。
 
-+++ 了解有关“展示次数”和“点击次数”趋势量度的更多信息
++++ 了解有关“显示和单击趋势”量度的更多信息
 
 * **[!UICONTROL 点击次数]**：应用程序内消息中内容的点击次数。
 

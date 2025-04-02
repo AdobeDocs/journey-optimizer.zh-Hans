@@ -9,14 +9,22 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 8feb2e74f4ca3321ba4c96204cbdd2343a4ba92b
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 2%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
 # 应用程序内营销活动报告 {#campaign-global-report-cja-inapp}
+
+>[!BEGINSHADEBOX]
+
+您可以访问应用程序内营销活动报告，方法是单击营销活动中的&#x200B;**[!UICONTROL 报告]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 查看所有时间报告]**。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access.png)
+
+>[!ENDSHADEBOX]
 
 ## 显示和单击趋势 {#impression-click-trend}
 

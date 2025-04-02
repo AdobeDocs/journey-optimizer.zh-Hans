@@ -8,18 +8,24 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 673e86ccd07c7afdf0b87859434145f16f7b7d26
+source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '385'
+ht-degree: 3%
 
 ---
 
 # 基于代码的历程报告 {#journey-global-report}
 
+>[!INFO]
+>
+> 您的历程报告可能同时显示多个历程中的信息，因为用户一次可以涉及多个历程。 因此，如果为参与同时活动历程的用户触发入站通信（应用程序内、Web和基于代码），则这些通信可能会显示在多个历程中，这可能会导致数据重叠。
+
 >[!BEGINSHADEBOX]
 
-您的历程报告可能同时显示多个历程中的信息，因为用户一次可以涉及多个历程。 因此，如果为参与同时活动历程的用户触发入站通信（应用程序内、Web和基于代码），则这些通信可能会显示在多个历程中，这可能会导致数据重叠。
+您可以通过单击历程中的&#x200B;**[!UICONTROL 查看报表]**&#x200B;按钮访问基于代码的历程报表。 [了解详情](report-gs-cja.md)
+
+![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
 
