@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: ea016af2dc08321bcf2e5110538031f66c888b90
+source-git-commit: 5849d1d52f3b1b075e804efbd3473d83cbac9fbe
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '787'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/cja-lp.png)
 
-要了解有关Customer Journey Analytics工作区以及如何筛选和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
+要了解有关Customer Journey Analytics工作区以及如何过滤和分析数据的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 登陆页面转化率 {#lp-conversion}
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 登陆页面查看次数]**：来自历程和外部源的登陆页面访问总数，包括一个用户档案的多次访问。
 
-* **[!UICONTROL 登陆页面转化率]**：与登陆页面进行交互（例如订阅了表单）的人数，与访问总数相关。
+* **[!UICONTROL 登陆页面转换]**：与登陆页面进行交互（例如订阅了表单）的人员数，与访问总数相关。
 
 ## 登陆页面绩效 {#lp-performance}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 独特登陆页面查看次数]**：访问过您的登陆页面的人员数量，不考虑一个用户档案的多次访问。
 
-* **[!UICONTROL 独特登陆页面转化率]**：与登陆页面交互的人数，未考虑一个用户档案的多次交互。
+* **[!UICONTROL 独特登陆页面转化]**：与登陆页面交互的人数，未考虑一个用户档案的多次交互。
 
 * **[!UICONTROL 登陆页面查看次数]**：来自历程和外部源的登陆页面访问总数，包括一个用户档案的多次访问。
 
