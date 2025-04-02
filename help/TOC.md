@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25122d6770750e6ae58d3dd8a890547a068a484e
+source-git-commit: 8675df765f2b45ac101d814777a5013e996db4c6
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 98%
@@ -422,7 +422,7 @@ ht-degree: 98%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
-+ 集成{#assets-images}
++ 集成{#integrations}
    + [与其他解决方案集成](using/integrations/ajo-integrations.md)
    + [使用 Experience Manager Assets](using/integrations/assets.md)
    + [使用 Adobe Stock](using/integrations/stock.md)
