@@ -5,16 +5,25 @@ title: 使用Adobe Journey Optimizer启动和监控多步营销活动
 description: 了解如何使用Adobe Journey Optimizer启动和监控多步营销活动
 hide: true
 hidefromtoc: true
-source-git-commit: f73d847c1d335260a0198e844d237a652e346729
+exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
+source-git-commit: 70864a3e14a748562518c699513184e0f63c1139
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
-# 启动和监控多步骤活动 {#start-monitor}
+# 开始并监控编排的营销活动 {#start-monitor}
 
-创建工作流并设计要在画布中执行的任务后，即可启动工作流并监控其执行情况。
+<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">您的浏览器不支持音频元素。</audio>
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_publication"
+>title="发布精心策划的营销活动"
+>abstract="要启动营销策划，您必须发布它。 确保在发布之前清除所有警告。"
+
+
+创建经过编排的任务并设计好要在画布中执行的任务后，您就可以发布它并监控其执行方式。
 
 ## 启动多步营销活动 {#start}
 
