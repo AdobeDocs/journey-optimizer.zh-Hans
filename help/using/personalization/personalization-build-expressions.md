@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4240f64cd7b6473f589d2324a2ebf87e2c60d394
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 11%
+source-wordcount: '1436'
+ht-degree: 10%
 
 ---
 
@@ -99,9 +99,15 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >title="自动完成"
 >abstract="切换该选项可让系统在您键入时自动建议并完成代码。此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
 
-中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到导航窗格中，然后单击`+`按钮以将其添加到表达式中。
+中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到属性窗格中，然后单击`+`按钮以将其添加到表达式中。
+
+![](assets/personalization-add-attribute.png)
 
 `+`图标旁边的省略号菜单允许您获取每个属性的更多详细信息，并将最常用的属性添加到收藏夹。 添加到收藏夹的属性可从导航窗格中的&#x200B;**[!UICONTROL 收藏夹]**&#x200B;菜单访问。
+
+>[!NOTE]
+>
+>默认情况下，属性窗格仅显示填充的属性。 要显示所有属性，请选择位于搜索字段上方的![](assets/do-not-localize/settings-icon.svg)按钮，然后切换&#x200B;**[!UICONTROL 仅显示填充的属性]**&#x200B;选项。
 
 此外，您可以定义在字符串类型配置文件属性为空时显示的默认回退文本。 为此，请单击属性旁边的省略号按钮，然后选择&#x200B;**[!UICONTROL 插入后备文本]**。 写入配置文件属性值为空时默认显示的文本，然后单击&#x200B;**[!UICONTROL 添加]**。
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 79%
+source-wordcount: '647'
+ht-degree: 75%
 
 ---
 
@@ -22,10 +22,13 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
-
 ## 2025年4月更新
 
 ### 改进 {#25-04-improv}
+
+**个性化**
+
+默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。 要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充的属性]**&#x200B;选项。 [了解详情](../personalization/personalization-build-expressions.md)
 
 **内容管理**
 
