@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1171888c277e58f45590cc17cb01885bd385b740
+source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 75%
+source-wordcount: '699'
+ht-degree: 70%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 75%
 ## 2025年4月更新
 
 ### 改进 {#25-04-improv}
+
+**沙盒工具**
+
+您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。 活动会与所有与用户档案、受众、模式、内联消息和依赖对象相关的项目一起复制。 某些项目不会被复制，例如决策项目、数据使用标签和语言设置。 [了解详情](../configuration/copy-objects-to-sandbox.md)
 
 **个性化**
 
