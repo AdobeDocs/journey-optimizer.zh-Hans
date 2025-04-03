@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 24%
@@ -40,7 +40,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->目前，无法使用[Decisioning](../experience-decisioning/gs-experience-decisioning.md)从基于代码的体验营销活动或历程的用户界面模拟内容。 [此部分](../experience-decisioning/create-decision.md)中提供了解决方法。
+>目前，无法使用[Decisioning](../experience-decisioning/gs-experience-decisioning.md)从基于代码的体验营销活动或历程的用户界面模拟内容。 [此部分](../experience-decisioning/create-decision.md#test-and-publish)中提供了解决方法。
 
 
 ## 在设备上预览 {#preview-on-device}
