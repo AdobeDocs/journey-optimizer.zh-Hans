@@ -11,16 +11,16 @@ exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: e5edb719c4ff30385242700217c9c4c07ff28373
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# GenStudio集成入门 {#gs-genstudio}
+# 开始使用 GenStudio 集成 {#gs-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
->title="使用通过GenStudio构建的模板"
->abstract="通过与Adobe GenStudio for Performance Marketing的无缝集成，您可以轻松导入通过Adobe AI技术增强的GenStudio模板。"
+>title="使用 GenStudio 构建的模板"
+>abstract="得益于与 Adobe GenStudio for Performance Marketing 的无缝集成，您可以轻松导入使用 Adobe AI 技术优化的 GenStudio 模板。"
 
 >[!AVAILABILITY]
 >

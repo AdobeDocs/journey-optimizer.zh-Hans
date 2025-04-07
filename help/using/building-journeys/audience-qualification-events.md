@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 17%
@@ -18,12 +18,12 @@ ht-degree: 17%
 
 # 受众资格事件 {#segment-qualification}
 
-## 关于受众资格筛选事件{#about-segment-qualification}
-
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="受众资格筛选事件"
 >abstract="此活动允许您的历程侦听轮廓是否符合 Adobe Experience Platform 受众资格，以便使个人进入历程或在历程中前进。"
+
+## 关于受众资格筛选事件{#about-segment-qualification}
 
 此活动允许您的旅程侦听Adobe Experience Platform受众中用户档案的进出口，以便使个人进入旅程或在旅程中前进。 有关创建受众的详细信息，请参阅此[部分](../audience/about-audiences.md)。
 
