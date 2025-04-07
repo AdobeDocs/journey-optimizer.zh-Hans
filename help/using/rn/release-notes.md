@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: 88c938199412e38a08b4c94f283cb4d4e09ded2f
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '702'
 ht-degree: 70%
 
 ---
@@ -34,11 +34,9 @@ ht-degree: 70%
 
 默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。 要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充的属性]**&#x200B;选项。 [了解详情](../personalization/personalization-build-expressions.md)
 
-**内容管理**
+**内容管理** — 发布日期：2025年4月2日
 
-为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。
-
-在[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分了解详情。
+为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 在[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分了解详情。
 
 >[!AVAILABILITY]
 >
