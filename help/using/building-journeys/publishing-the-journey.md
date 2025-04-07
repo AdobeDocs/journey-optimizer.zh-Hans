@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 3a1e00ecc74ccca5cba0e15ac642eeb7ddb40ae0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 1. 在发布历程之前，请验证其是否有效以及是否没有错误。 您将无法发布包含错误的历程。
 
-   * 在[此页面](testing-the-journey.md)中了解如何测试您的历程。
+   * 了解如何在[此页面](testing-the-journey.md)上测试您的历程。
    * 在[本节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中了解如何解决您的旅程错误。
 
 1. 要发布历程，请单击右上角下拉菜单中的&#x200B;**[!UICONTROL 发布]**&#x200B;选项。

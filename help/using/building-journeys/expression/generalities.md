@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 高级表达式编辑器语法 {#syntax}
 
-下面列出了使用[高级表达式编辑器](expressionadvanced.md)时的语法基础知识。 在[此页](advanced-editor-use-cases.md)中提供了高级表达式编辑器的使用示例。
+下面列出了使用[高级表达式编辑器](expressionadvanced.md)时的语法基础知识。 在[此页](advanced-editor-use-cases.md)上提供了高级表达式编辑器的使用示例。
 
 ## 括号和表达式优先级 {#parentheses-and-expression-priority}
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 以下是不同的区分大小写规则：
 
-* 所有运算符（and、or等） 应该写成小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
+* 所有运算符（和、或等）都应小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
 * 所有函数名称都区分大小写。 例如，_inAudience()_&#x200B;有效，而函数&#x200B;_INAUDIENCE()_&#x200B;无效。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 

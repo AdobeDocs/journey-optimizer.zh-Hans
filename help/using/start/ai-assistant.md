@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 1004a1919e1e043a42d389395030dd85e5a94062
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 14%
@@ -26,7 +26,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CAUTION]
 >
->在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}中了解有关协议的更多信息。
+>在使用AI助手之前，您必须同意Adobe Experience Cloud创作AI用户准则。 在[此页面](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}上了解有关协议的更多信息。
 
 在Adobe Journey Optimizer中，您可以访问以下用例：
 
@@ -41,7 +41,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 * 历程(Beta)中的&#x200B;**运营分析**
 
-  操作洞察问题与组织沙盒中的历程对象有关。 操作分析问题或提示的一些示例包括：
+  insight操作问题与组织沙盒中的旅程对象有关。 insight操作问题或提示的一些示例包括：
 
    * 我在Adobe Journey Optimizer有多少实时历程？
    * 给我所有计划历程的列表

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 选择退出、电子邮件、链接、取消订阅
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 564dcb691d61a2f48694d208644847d7bb65d664
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 
 要在电子邮件内容中插入退订链接，您可以：
 
-* 在电子邮件标头中添加一键式取消订阅URL。 渠道配置级别的&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项为电子邮件标头添加了选择退出链接。 [在电子邮件标头中了解有关选择退出的更多信息](#unsubscribe-header)
+* 在电子邮件标头中添加一键式取消订阅URL。 渠道配置级别的&#x200B;**[!UICONTROL 启用List-Unsubscribe]**&#x200B;选项为电子邮件标头添加了选择退出链接。 [了解有关电子邮件标头中选择退出的更多信息](#unsubscribe-header)
 
 * 为您的电子邮件启用&#x200B;**一键式选择退出链接**。  [了解如何添加一键式选择退出链接](#one-click-opt-out)
 
@@ -67,7 +67,7 @@ ht-degree: 24%
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   您可以个性化自己的链接。在[本节](../personalization/personalization-syntax.md)中了解更多关于个性化 URL 的信息。
+   您可以个性化自己的链接。在[本节](../personalization/personalization-syntax.md)中了解更多关于个性化URL的信息。
 
 1. 选择您要应用选择退出的方式：在渠道或身份级别。
 
@@ -91,7 +91,7 @@ ht-degree: 24%
 
 要设置两步式选择退出机制，您必须创建自己的退订登陆页面。 第一个登陆页面将从您的消息中链接，并且必须包含行动号召按钮。 用户单击按钮时，将显示确认消息。
 
-在[此页面](../landing-pages/lp-use-cases.md#opt-out)中了解如何在Adobe Journey Optimizer中创建登陆页面以管理退订。
+了解如何在Adobe Journey Optimizer中创建登陆页面以管理[此页面](../landing-pages/lp-use-cases.md#opt-out)上的取消订阅。
 
 您还可以使用外部登陆页面。 在这种情况下，请配置API以在收件人取消订阅时将信息发送到Adobe Journey Optimizer。
 

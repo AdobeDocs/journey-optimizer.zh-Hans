@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2af3cef357bf68091d9b8b5d2750e73a290bc682
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 19%
 
 如果您要使用第三方系统发送消息，或者如果希望历程将 API 调用发送到第三方系统，请使用自定义操作配置第三方系统与历程的连接。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
-自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。 请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
+自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。 在[此页面](../building-journeys/about-journey-activities.md#action-activities)上了解详情。
 
 ## 限制{#custom-actions-limitations}
 
-自定义操作在[此页面](../start/guardrails.md)中列出了一些限制。
+自定义操作在[此页面](../start/guardrails.md)上列出了一些限制。
 
-在自定义操作参数中，您可以传递简单的集合以及对象集合。 在[此页面](../building-journeys/collections.md#limitations)中了解有关收藏集限制的更多信息。
+在自定义操作参数中，您可以传递简单的集合以及对象集合。 在[此页面](../building-journeys/collections.md#limitations)上了解有关收藏集限制的更多信息。
 
 另请注意，自定义操作参数具有预期格式（例如：字符串、小数等）。 必须注意遵守这些预期格式。 在此[用例](../building-journeys/collections.md)中了解详情。
 

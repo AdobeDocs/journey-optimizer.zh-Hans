@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 18%
@@ -45,13 +45,13 @@ ht-degree: 18%
 
 **复制技术详细信息**&#x200B;允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 已复制以下信息：`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-在本页](expression/journey-properties.md)中了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
 用户档案进入模式在历程级别的右配置窗格中定义。 下文介绍了相关设置。
 
-用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)中了解有关用户档案进入和重新进入管理的更多信息。
+用户档案入口管理取决于历程类型。 在[此页面](entry-management.md)上了解有关用户档案进入和重新进入管理的更多信息。
 
 ### 允许重入  {#allow-reentrance}
 

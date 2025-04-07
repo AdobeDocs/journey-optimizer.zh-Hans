@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 14%
@@ -94,7 +94,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->* 时区并非特定于条件，而是在历程属性中的历程级别定义的。 请参阅[此页面](../building-journeys/timezone-management.md)以了解详情。
+>* 时区并非特定于条件，而是在历程属性中的历程级别定义的。 在[此页面](../building-journeys/timezone-management.md)上了解详情。
 >
 >* 默认情况下，**[!UICONTROL 时间条件]**&#x200B;按小时设置，从00:00到12:00。
 

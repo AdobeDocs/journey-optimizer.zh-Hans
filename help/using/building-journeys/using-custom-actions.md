@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: 操作，自定义， API，历程，配置，服务
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 8b96c9d4698dc58abdc5ae0261db92b0ce708597
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 20%
@@ -27,7 +27,7 @@ ht-degree: 20%
 
 在[此部分](../action/action.md)中了解自定义操作的详细信息。
 
-了解如何在[此页面](../action/about-custom-action-configuration.md)中创建和配置自定义操作。
+了解如何在[此页面](../action/about-custom-action-configuration.md)上创建和配置自定义操作。
 
 ## 同意和数据治理 {#privacy}
 

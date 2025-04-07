@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级别，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 5cfae89416219fac54d310d9fa3f40fdfdd8878e
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 每个角色均由允许用户访问不同功能的权限组成。
 它们可以分为两种类型：
 
-* **高级权限**：表示可以分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的不同权限，如&#x200B;**[!DNL Publish journeys]**&#x200B;和&#x200B;**[!DNL Manage subdomains delegation]**。 高级权限包括低级权限。 [此页面](ootb-permissions.md)中详细说明了高级权限。
+* **高级权限**：表示可以分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的不同权限，如&#x200B;**[!DNL Publish journeys]**&#x200B;和&#x200B;**[!DNL Manage subdomains delegation]**。 高级权限包括低级权限。 详细介绍了[此页面](ootb-permissions.md)的高级权限。
 
 * **低级权限**：表示来自高级别权限的不同权限。
 

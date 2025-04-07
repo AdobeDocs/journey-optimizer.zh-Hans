@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da27bb78de305c0d80737aaf7423cd62962732da
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 12%
@@ -143,7 +143,7 @@ ht-degree: 12%
 
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 应用程序内消息]**，然后选择或创建新配置。
 
-   在[此页面](inapp-configuration.md)中了解有关应用程序内配置的更多信息。
+   在[此页面](inapp-configuration.md)上了解有关应用程序内配置的更多信息。
 
    ![](assets/in_app_create_1.png)
 

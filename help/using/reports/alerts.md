@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 警报入门 {#alerts}
 
-在构建历程和营销活动时，使用&#x200B;**警报**&#x200B;按钮在执行或发布之前检查和解决错误。 在[此页面](../building-journeys/troubleshooting.md)中了解如何对您的历程进行故障排除。 在[此页面](../campaigns/review-activate-campaign.md)中了解如何查看营销活动。
+在构建历程和营销活动时，使用&#x200B;**警报**&#x200B;按钮在执行或发布之前检查和解决错误。 在[此页面](../building-journeys/troubleshooting.md)上了解如何对您的历程进行故障排除。 在[此页面](../campaigns/review-activate-campaign.md)上了解如何查看营销活动。
 
 您还可以订阅Adobe Journey Optimizer系统警报，如本页所述。
 

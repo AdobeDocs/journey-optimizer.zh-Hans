@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。 [开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
+>目前的报告经验将于2025年1月停用。 在此日期之后，新的报告体验将成为标准。我们建议您熟悉新特性和功能，以确保顺利过渡。[开始使用Journey Optimizer的新报告界面。](report-gs-cja.md)
 
 渠道报表是一个功能强大的工具，可将流量和参与量度的全面概述纳入每个渠道的统一报表中，并包含所有营销活动和历程的所有操作。 该可视化图表分为不同的构件，每个构件都提供营销活动或历程表现的特定视图。
 
 渠道报表是完全可自定义的，因此您可以调整或删除小组件以创建一个满足您特定需求的功能板。 您还可以将报表数据导出到PDF或CSV文件以供进一步分析。
 
-在此[页面](channel-report.md)中了解有关渠道报表可用的不同量度和小组件的更多信息。
+在[此页面](channel-report.md)上了解有关渠道报表可用的不同量度和小组件的更多信息。
 
 ## 开始前 {#manage-reports-prereq}
 
@@ -85,17 +85,17 @@ ht-degree: 4%
 
 ## 导出您的报告 {#export-reports}
 
-您可以轻松地将不同的报表导出为PDF或CSV格式，这使您能够共享、处理或打印这些报表。 导出渠道报表的详细步骤可在以下选项卡中找到：
+您可以轻松地将不同的报表导出为PDF或CSV格式，这允许您共享、处理或打印这些报表。 导出渠道报表的详细步骤可在以下选项卡中找到：
 
 >[!BEGINTABS]
 
->[!TAB 将报告导出为PDF文件]
+>[!TAB 将报表导出为PDF文件]
 
 1. 在报表中，单击&#x200B;**[!UICONTROL 导出]**&#x200B;并选择&#x200B;**[!UICONTROL PDF文件]**。
 
 1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
 
-1. 选择打印报表或将报表另存为PDF。
+1. 选择将报表打印或另存为PDF。
 
 1. 找到要保存文件的文件夹，根据需要重命名它，然后单击“保存”。
 

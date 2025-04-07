@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用自定义操作在AEP中写入历程事件
-description: 使用自定义操作在AEP中写入历程事件
+title: 在AEP中使用自定义操作编写历程事件
+description: 在AEP中使用自定义操作编写历程事件
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# 用例：使用自定义操作在Experience Platform中写入历程事件 {#custom-action-aep}
+# 用例：在Experience Platform中使用自定义操作编写历程事件 {#custom-action-aep}
 
 此用例说明了如何使用自定义操作和经过身份验证的调用，从历程将自定义事件写入Adobe Experience Platform。
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## 配置自定义操作 {#custom-action-config}
 
-在[此页面](../action/about-custom-action-configuration.md)中详细描述了自定义操作配置。
+自定义操作配置在[此页面](../action/about-custom-action-configuration.md)中有详细说明。
 
 对于此示例，请按照以下步骤操作：
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25ca0dd72622ef15db3edeedfd16b91d392127d4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 9%
@@ -69,7 +69,7 @@ ht-degree: 9%
 
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL 短信]**，然后选择或创建新配置。
 
-   在[此页面](sms-configuration.md)中了解有关短信配置的更多信息。
+   在[此页面](sms-configuration.md)上了解有关短信配置的更多信息。
 
    ![](assets/sms_create_3.png)
 
@@ -135,7 +135,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> [此页面](../start/guardrails.md#sms-guardrails)中列出了MMS渠道的一些限制。
+> [此页面](../start/guardrails.md#sms-guardrails)上列出了MMS渠道的一些限制。
 
 要创建MMS内容，请执行以下步骤：
 
@@ -161,7 +161,7 @@ ht-degree: 9%
 
 ![](assets/sms-content-preview.png)
 
-执行测试并验证内容后，即可向受众发送短信。 这些步骤在[此页面](send-sms.md)中详述
+执行测试并验证内容后，即可向受众发送短信。 这些步骤在[此页面](send-sms.md)上详述
 
 发送后，您可以在促销活动或历程报表中测量短信的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report-cja-sms.md)。
 

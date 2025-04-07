@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 营销活动， API触发， REST，优化器，消息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 280238fb3f41cef08c4e5a8720839aff5b767cf5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 2%
@@ -85,7 +85,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 1. 将此cURL请求用到API中以构建有效负载并触发营销活动。 有关详细信息，请参阅[交互式消息执行API文档](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)。
 
 
-   [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)中还提供了API调用示例。
+   [此页面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)上也提供了API调用示例。
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ API触发的营销活动的可用渠道包括电子邮件、短信和推送消�
 >
 >传递到请求的上下文属性不能超过200kb，并且始终被视为字符串类型。
 >
->`context.system`语法被限制为仅Adobe内部使用，并且不应用于传递上下文属性。
+>`context.system`语法限制为仅供Adobe内部使用，不应用于传递上下文属性。
 
 请注意，目前没有上下文属性可用于左边栏菜单。 属性必须直接在个性化表达式中键入，[!DNL Journey Optimizer]不执行任何检查。
 

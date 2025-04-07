@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: 内容，实验，统计，计算
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 实验使用[高级统计方法](../content-management/assets/confidence_sequence_technical_details.pdf)计算&#x200B;**置信序列**&#x200B;和&#x200B;**置信度**，这允许您根据需要运行实验并持续监视结果。
 
-本文介绍了试验的工作原理，并直观地介绍了Adobe的&#x200B;**随时有效置信序列**。
+本文介绍了试验的工作原理，并直观地介绍了Adobe的&#x200B;**随时有效的置信序列**。
 
-对于专家用户，技术详细信息和参考资料在[此页面](../content-management/assets/confidence_sequence_technical_details.pdf)中详述。
+对于专家用户，技术详细信息和参考资料在[此页面](../content-management/assets/confidence_sequence_technical_details.pdf)上详述。
 
 ## 统计测试和控制错误 {#statistical-testing}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **置信序列**&#x200B;将实验焦点转移到估计而不是假设检验，即专注于精确估计治疗之间的手段差异，而不是是否拒绝基于统计显着性阈值的空假设。
 
-但是，以与`p-values`或&#x200B;**置信度**&#x200B;与&#x200B;**置信区间**&#x200B;之间的关系类似的方式来看，**置信序列**&#x200B;与任何时间有效的`p-values`或任何时间有效的置信度之间也存在着关系。 鉴于置信度等量的熟悉性，Adobe在其报表中同时提供&#x200B;**置信序列**&#x200B;和随时有效的置信度。
+但是，以与`p-values`或&#x200B;**置信度**&#x200B;与&#x200B;**置信区间**&#x200B;之间的关系类似的方式来看，**置信序列**&#x200B;与任何时间有效的`p-values`或任何时间有效的置信度之间也存在着关系。 考虑到置信度等量的熟悉程度，Adobe在其报表中同时提供&#x200B;**置信序列**&#x200B;和随时有效的置信度。
 
 **置信序列**&#x200B;的理论基础来自对随机变量（称为马丁格勒）序列的研究。 下面是专家阅读的一些主要结果，但实践者的经验很清楚：
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ![](assets/experimentation_report_2.png)
 
-每次查看试验报告时，Adobe都会分析到目前为止在试验中积累的数据，并将在至少一个治疗的随时有效置信度超过95%阈值时宣布试验具有“结论性”。
+每次查看试验报告时，Adobe都会分析到目前为止在试验中积累的数据，并将在至少一个治疗的随时有效置信度超过95%阈值时宣布某个试验具有“结论性”。
 
 此时，报表屏幕顶部将突出显示执行效果最佳的处理（基于转化率或配置文件标准化量度值），并在表格报表中以星号指示。 在此确定时，只考虑置信度大于95%以及基准值的处理。
 

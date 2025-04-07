@@ -11,7 +11,7 @@ keywords: 发布，历程，实时，有效性，检查
 hide: true
 hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 48ef8d42057ffe51c27221c2176192d4e637fb96
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 5%
@@ -78,7 +78,7 @@ ht-degree: 5%
 
 1. 从您的&#x200B;**[!UICONTROL 历程]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 创建历程]**。
 
-1. 编辑历程的配置窗格以定义历程的名称并设置其属性。 在[此页面](../building-journeys/journey-properties.md)中了解如何设置历程的属性。
+1. 编辑历程的配置窗格以定义历程的名称并设置其属性。 了解如何在[此页面](../building-journeys/journey-properties.md)上设置历程的属性。
 
 1. 选择您的&#x200B;**[!UICONTROL 历程指标]**，用于衡量历程的有效性。
 

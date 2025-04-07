@@ -7,10 +7,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] 允许您创建历程并向目标受众发送消息。开始使用 [!DNL Journey Optimizer] 发送推送通知之前，您需要确保移动应用程序、[!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 上的配置和集成工作都已完成。要了解 [!DNL Adobe Journey Optimizer] 中的推送通知数据流，请参阅[此页面](../../push/push-gs.md)。
 
-有关配置推送通知渠道和测试移动应用程序集成的详细步骤，请参阅[此页面](../../push/push-configuration.md)。
+有关配置推送通知渠道和测试移动应用集成的步骤详情，请参阅[此页面](../../push/push-configuration.md)。
 
 ## 使用 API {#work-apis}
 

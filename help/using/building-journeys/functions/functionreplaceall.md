@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: replaceAll，函数，表达式，历程
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%
@@ -48,4 +48,4 @@ ht-degree: 10%
 
 返回“Hexxo Worxd”。
 
-由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅[此页面](../functions/functionreplace.md#example_2)中的示例。
+由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅[此页面](../functions/functionreplace.md#example_2)上的示例。

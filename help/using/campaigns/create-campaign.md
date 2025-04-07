@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 创建，优化器，营销活动，界面，消息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 6acfe14469a74216b196e4d5ee059839aea32226
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 21%
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 要创建新营销活动，请浏览至左边栏上的&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。 您还可以复制现有的实时营销活动以创建新营销活动。 [了解如何操作](modify-stop-campaign.md#duplicate)。
 
-开始之前，请在[此页面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)中阅读促销活动先决条件。
+开始之前，请在[此页面](get-started-with-campaigns.md#before-starting-campaign-prerequisites)上阅读促销活动先决条件。
 
 ## 选择营销活动类型 {#campaigntype}
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 1. （可选）使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-1. （可选）您可以根据访问标签限制对此营销活动的访问。 要对访问权限添加限制，请浏览页面顶部的&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。确保仅选择您具有权限的标签。 [了解有关对象级访问控制的更多信息](../administration/object-based-access.md)。
+1. （可选）您可以根据访问标签限制对此营销活动的访问。 要对访问权限添加限制，请浏览页面顶部的&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。确保仅选择您具有权限的标签。 [了解有关对象级访问控制的详细信息](../administration/object-based-access.md)。
 
 ## 定义活动受众 {#audience}
 
@@ -65,7 +65,7 @@ ht-degree: 21%
 
 1. 在&#x200B;**受众**&#x200B;部分中，单击&#x200B;**[!UICONTROL 选择受众]**&#x200B;按钮以显示可用Adobe Experience Platform受众列表。 在[本节](../audience/about-audiences.md)中了解有关受众的更多信息。
 
-1. 在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}中列出了标准身份命名空间。
+1. 在&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段中，选择要用于标识选定受众中个人的密钥类型。 您可以使用现有的身份类型，也可以使用Adobe Experience Platform Identity服务创建新身份类型。 [此页面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}上列出了标准身份命名空间。
 
    每个营销活动只允许一个标识类型。 如果属于区段的个人在不同的身份中没有选定的身份类型，则无法将该群体作为目标。
 

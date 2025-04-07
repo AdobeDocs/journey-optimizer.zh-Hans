@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 配置文件存储中的数据为 90 天，
 * 数据湖中的数据为 13 个月。
 
-此更改将在后续阶段推广到&#x200B;**现有的客户沙盒**。[了解有关数据集生存时间 (TTL) 护栏的更多信息](../data/datasets-ttl.md)
+此更改将在后续阶段推广到&#x200B;**现有的客户沙盒**。[了解有关数据集生存时间(TTL)护栏的更多信息](../data/datasets-ttl.md)
 
 ## 渠道护栏 {#channel-guardrails}
 
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 基于代码的渠道护栏 {#code-based-guardrails}
 
-要在 [!DNL Journey Optimizer] 中使用基于代码的体验操作，并交付应用程序可以使用的代码内容负载，请遵守[此页面](../code-based/code-based-prerequisites.md)中详述的先决条件。
+要在[!DNL Journey Optimizer]中使用基于代码的体验操作，并交付应用程序可以使用的代码内容有效负载，请按照[此页面](../code-based/code-based-prerequisites.md)上详述的先决条件操作。
 
 ## 登陆页面护栏 {#lp-guardrails}
 
@@ -83,7 +83,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
-在[此页面](../configuration/delegate-subdomain.md)中了解有关域委派的更多信息。
+在[此页面](../configuration/delegate-subdomain.md)上了解有关域委派的更多信息。
 
 ## 片段护栏 {#fragments-guardrails}
 
@@ -96,7 +96,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 您最多可以在给定沙盒中发布 10 个受众组合。如果您已达到此阈值，则需要删除组合以释放空间，然后才能发布新组合。
 
-在[此页面](../audience/get-started-audience-orchestration.md)中了解有关受众构图的更多信息。
+在[此页面](../audience/get-started-audience-orchestration.md)上了解有关受众构图的更多信息。
 
 ## Decisioning 和决策管理护栏 {#decisioning-guardrails}
 
@@ -122,7 +122,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 以下护栏适用于历程中的[操作](../building-journeys/about-journey-activities.md)：
 
 * 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。对 HTTP 401、403 和 404 以外的所有 HTTP 错误执行重试。
-* 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
+* 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。 在[此页面](../building-journeys/reaction-events.md)上了解详情。 如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
 * 同一历程中不能同时存在多个轮廓。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
 
@@ -190,7 +190,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 更新轮廓 {#update-profile-g}
 
-特定护栏适用于&#x200B;**[!UICONTROL 更新轮廓]**&#x200B;活动。请参见[此页面](../building-journeys/update-profiles.md)中所列。
+特定护栏适用于&#x200B;**[!UICONTROL 更新轮廓]**&#x200B;活动。它们列在[此页面](../building-journeys/update-profiles.md)上。
 
 ### 读取受众 {#read-segment-g}
 
@@ -201,7 +201,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * **读取受众**&#x200B;活动不能与 Adobe Campaign 活动一起使用。
 * **读取受众**&#x200B;活动只能用作历程中的第一个活动，即业务事件活动后的第一个活动。
 * 历程只能有一个&#x200B;**读取受众**&#x200B;活动。
-* 另请参阅[此页面](../building-journeys/read-audience.md)中有关如何使用&#x200B;**读取受众**&#x200B;活动的建议。
+* 另请参阅有关如何在[此页面](../building-journeys/read-audience.md)上使用&#x200B;**读取受众**&#x200B;活动的建议。
 * 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
 
 ### 受众资格 {#audience-qualif-g}
@@ -218,7 +218,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 应用程序内活动 {#in-app-activity-limitations}
 
-以下护栏适用于&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;操作。 在[此页面](../in-app/create-in-app.md)中了解有关应用程序内消息的更多信息。
+以下护栏适用于&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;操作。 在[此页面](../in-app/create-in-app.md)上了解有关应用程序内消息的更多信息。
 
 * 此功能目前不适用于医疗保健客户。
 
@@ -238,7 +238,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 跳转活动 {#jump-g}
 
-特定护栏适用于&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。请参见[此页面](../building-journeys/jump.md#jump-limitations)中所列。
+特定护栏适用于&#x200B;**[!UICONTROL 跳转]**&#x200B;活动。它们列在[此页面](../building-journeys/jump.md#jump-limitations)上。
 
 ### Campaign 活动 {#ac-g}
 

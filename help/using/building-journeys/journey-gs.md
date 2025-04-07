@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 5f48c3df14768e699e174e5a3539438e9b774e1a
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 25%
 >title="历程"
 >abstract="设计客户历程以营造个性化的上下文体验。通过 Journey Optimizer，可用存储在事件或数据源中的上下文数据生成实时编排用例。**概述**&#x200B;选项卡显示一个仪表板，其中包含与您的历程相关的关键量度。**浏览**&#x200B;选项卡显示现有历程的列表。"
 
-Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 [此页面](journey-ui.md)中详细介绍了历程用户界面。
+Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展营销推广和一对一客户互动时能够让这两项工作协调一致。利用用户界面，可轻松地将活动从面板拖放到画布中以构建历程。 此历程用户界面在[此页面](journey-ui.md)中有详细介绍。
 
 ![历程画布示例](assets/journey38.png)
 
 
-此页面详细介绍了创建历程的主要步骤。 其简化如下：
+此页面上详细描述了创建历程的主要步骤。 其简化如下：
 
 ![历程创建步骤：创建、设计、测试和发布](assets/journey-creation-process.png)
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 >[!NOTE]
 >
->可在[此页面](../start/guardrails.md)中找到有关历程护栏和限制的详细信息。
+>在[此页面](../start/guardrails.md)上详细介绍了历程护栏和限制
 
 ## 创建历程 {#jo-build}
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer 包含全渠道编排画布，使营销人员在开展�
 
 1. 单击&#x200B;**[!UICONTROL 创建历程]**&#x200B;按钮以创建新旅程。
 
-1. 编辑历程的配置窗格以定义历程的名称并设置其属性。 在[此页面](journey-properties.md)中了解如何设置历程的属性。
+1. 编辑历程的配置窗格以定义历程的名称并设置其属性。 了解如何在[此页面](journey-properties.md)上设置历程的属性。
 
    ![](assets/jo-properties.png)
 

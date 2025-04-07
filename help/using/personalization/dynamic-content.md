@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，动态，内容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 98cc28a942626576666a3f0f3cc8ee7b50c2354c
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
    >
    >* 条件内容将按照变体的显示顺序根据关联的规则进行评估。 如果不满足其他条件，则始终显示默认变体。
    >
-   >* 在模拟或呈现包含多个条件变体的电子邮件的验证时，Journey Optimizer可能需要更多的处理时间。 如果您遇到超时或错误消息，请考虑减少变体的总数或简化条件规则。 在[此页面](../content-management/preview-test.md)中了解有关测试内容的更多信息。
+   >* 模拟或呈现包含多个条件变体的电子邮件校样时，Journey Optimizer 可能需要更长的处理时间。如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。在[此页面](../content-management/preview-test.md)上了解有关测试内容的更多信息。
 
 
 1. 要删除变体，请单击所需变体旁边的“更多操作”图标，然后选择&#x200B;**[!UICONTROL 删除]**。

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1595'
 ht-degree: 40%
@@ -29,7 +29,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->* 使用外部系统时的护栏列在[此页面](../configuration/external-systems.md)中。
+>* [此页面](../configuration/external-systems.md)上列出了使用外部系统时的护栏。
 >
 >* 由于现在支持响应，因此您应该对外部数据源用例使用自定义操作而不是数据源。 有关回应的详细信息，请参阅此[部分](../action/action-response.md)
 
@@ -148,7 +148,7 @@ ht-degree: 40%
 * `endpoint`：用于生成终结点的URL
 * 终结点（`GET`或`POST`）上的HTTP请求方法
 * `headers`：键值对将作为标头插入此调用（如果需要）
-* `body`：描述调用正文(如果方法POST)。 我们支持一个有限的主体结构，在bodyParams（键值对）中定义。 bodyType 描述调用中主体的格式和编码：
+* `body`：描述方法为POST时的调用正文。 我们支持一个有限的主体结构，在bodyParams（键值对）中定义。 bodyType 描述调用中主体的格式和编码：
    * `form`：表示内容类型将为application/x-www-form-urlencoded (charset UTF-8)，并且键值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
    * `json`：表示内容类型将为application/json (charset UTF-8)，并且键值对将序列化为json对象，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 

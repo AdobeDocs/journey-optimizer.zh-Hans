@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: 故障排除，故障排除，历程，检查，错误
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: e47c95ac8981356bcfb742105cbf1faa5d53c189
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
 # 对历程进行故障排除 {#troubleshooting}
 
-在此部分中，了解如何在测试或发布之前对历程进行故障排除。 当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。在[此页面](../building-journeys/testing-the-journey.md)中了解有关测试模式的更多信息。
+在此部分中，了解如何在测试或发布之前对历程进行故障排除。 当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。在[此页面](../building-journeys/testing-the-journey.md)上了解有关测试模式的更多信息。
 
-作为管理员，您还可以通过直接从用户界面进行实际API调用来测试自定义操作配置。 请参阅[此页面](../action/troubleshoot-custom-action.md)以了解详情。
+作为管理员，您还可以通过直接从用户界面进行实际API调用来测试自定义操作配置。 在[此页面](../action/troubleshoot-custom-action.md)上了解详情。
 
 ## 测试之前检查错误 {#checking-for-errors-before-testing}
 

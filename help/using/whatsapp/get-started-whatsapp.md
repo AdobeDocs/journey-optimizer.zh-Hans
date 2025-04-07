@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 13%
 
 您现在可以直接通过Journey Optimizer发送WhatsApp消息。 此功能允许将WhatsApp无缝集成到历程和营销活动中，加强与收件人的沟通和参与。
 
-* 在&#x200B;**历程**&#x200B;中。创建历程、添加&#x200B;**WhatsApp**&#x200B;活动并定义基本设置，然后浏览到&#x200B;**[!UICONTROL 操作： WhatsApp]**&#x200B;右侧窗格以创建WhatsApp消息的内容。 在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
+* 在&#x200B;**历程**&#x200B;中。创建历程、添加&#x200B;**WhatsApp**&#x200B;活动并定义基本设置，然后浏览到&#x200B;**[!UICONTROL 操作： WhatsApp]**&#x200B;右侧窗格以创建WhatsApp消息的内容。 了解如何在[此页面](../building-journeys/journey-gs.md)上创建历程。
 
-* 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择&#x200B;**WhatsApp**&#x200B;作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的WhatsApp消息。 在[此页面](../campaigns/create-campaign.md#configure)中了解如何创建营销活动。
+* 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择&#x200B;**WhatsApp**&#x200B;作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的WhatsApp消息。 了解如何在[此页面](../campaigns/create-campaign.md#configure)上创建营销活动。
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 数据, 管理, 平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 * **清除和归档机制**：可以在 [!DNL Adobe Journey Optimizer] 中自由定义和自动清除数据和存档以实现数据保留策略的自动化。可以为不同的数据实体定义不同的过期策略。还可以定义导出机制，以便在清除或存档过期数据之前自动导出该数据。
 
-  “数据生命周期”工作区允许您创建和监视各种数据生命周期任务，包括删除消费者身份标识和计划数据集过期。此工作区随 Security &amp; Privacy Shield 和 Healthcare Shield 提供。请参阅[此页面](../privacy/data-hygiene.md)以了解详情。
+  “数据生命周期”工作区允许您创建和监视各种数据生命周期任务，包括删除消费者身份标识和计划数据集过期。此工作区随 Security &amp; Privacy Shield 和 Healthcare Shield 提供。在[此页面](../privacy/data-hygiene.md)上了解详情。
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

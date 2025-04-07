@@ -6,7 +6,7 @@ description: 了解如何在多步营销活动中添加渠道活动
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 040c8387c73f9d867840225ddff6cf940cc96ac5
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 48%
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 # 渠道活动 {#channel}
 
-通过Adobe Journey Optimizer，您可以跨入站和出站渠道自动执行营销活动。 您可以将渠道活动合并到多步骤营销活动画布中，以创建跨渠道多步骤营销活动，从而根据客户行为和数据触发操作。 [此页面](../../channels/gs-channels.md)中列出了支持的渠道。
+通过Adobe Journey Optimizer，您可以跨入站和出站渠道自动执行营销活动。 您可以将渠道活动合并到多步骤营销活动画布中，以创建跨渠道多步骤营销活动，从而根据客户行为和数据触发操作。 [此页面](../../channels/gs-channels.md)上列出了支持的渠道。
 
 例如，您可以创建一个欢迎电子邮件促销活动，其中包含跨不同渠道的一系列消息，例如电子邮件、短信、推送和直邮。 您还可以在客户完成购买后发送跟进电子邮件，或者通过短信向客户发送个性化的生日消息。
 

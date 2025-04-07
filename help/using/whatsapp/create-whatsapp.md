@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 87931614150d6f764f565f683f83db4f63d88ee0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '809'
 ht-degree: 3%
 
 ---
@@ -32,6 +32,35 @@ ht-degree: 3%
 >[!ENDSHADEBOX]
 
 借助Adobe Journey Optimizer，您可以在WhatsApp上设计和发送吸引人的消息。 只需将WhatsApp操作添加到您的历程或营销策划中，并制作消息内容，如下所述。 Adobe Journey Optimizer还允许您在发送WhatsApp消息之前对其进行测试，确保完美呈现、准确个性化以及所有设置的正确配置。
+
+请注意，Journey Optimizer仅支持出站消息元素。
+
++++ 了解有关支持的消息元素和行动号召的更多信息
+
+WhatsApp支持以下消息类型：
+
+| 消息功能 | 描述 |
+|-|-|
+| 标头 | 显示在消息正文上方的可选文本。 |
+| 文本 | 通过参数支持动态内容。 |
+| 图像(JPEG、PNG) | 必须是8位RGB或RGBA格式，且大小必须小于5 MB。 |
+| 视频 | 必须为3GPP或MP4，小于16 MB，并通过URL托管。 |
+| 音频 | 仅适用于响应消息。 必须是AAC、AMR、MP3、MP4音频或OGG格式，托管在URL上，并且小于16 MB。 |
+| 文档 | 必须小于100 MB，在URL上托管，并且采用以下格式之一： .txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx或.pdf。 |
+| 正文文本 | 通过参数支持动态内容。 |
+| 页脚文本 | 通过参数支持动态内容。 |
+
+以下行动号召选项适用于您的WhatsApp消息：
+
+| 行动号召 | 描述 |
+|-|-|
+| 呼叫电话号码 | 仅在消息模板中可用。 限制为一个按钮。 |
+| 自定义快速回复按钮 | 最多支持三个按钮。 |
+| 营销选择退出按钮 | 不会自动更新订阅状态。 |
+| 优惠券代码消息模板 | 仅在消息模板中可用。 |
+| CTA响应消息 | 允许在响应消息中包含行动号召按钮。 |
+
++++
 
 ## 添加WhatsApp消息 {#create-whatsapp-journey-campaign}
 
@@ -67,7 +96,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL WhatsApp]**，然后选择或创建新配置。
 
-   在[此页面](whatsapp-configuration.md)中了解有关WhatsApp配置的更多信息。
+   在[此页面](whatsapp-configuration.md)上了解有关WhatsApp配置的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
@@ -90,7 +119,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-在Journey Optimizer中设计WhatsApp消息之前，您首先需要在Meta中创建和设计模板。 Journey Optimizer仅支持出站消息元素。 [了解详情](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+在Journey Optimizer中设计WhatsApp消息之前，您首先需要在Meta中创建和设计模板。 [了解详情](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
 请注意，您的WhatsApp模板必须先获得Meta的批准，然后才能在Journey Optimizer中使用。 此过程通常需要几个小时，但可能最多需要24小时。 [了解详情](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
@@ -120,7 +149,7 @@ ht-degree: 3%
 
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
 
-执行测试并验证内容后，您可以向受众发送WhatsApp消息。 这些步骤在[此页面](send-whatsapp.md)中详述
+执行测试并验证内容后，您可以向受众发送WhatsApp消息。 这些步骤在[此页面](send-whatsapp.md)上详述
 
 
 <!--
@@ -144,7 +173,7 @@ ht-degree: 3%
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!TAB Response message]
 
@@ -158,7 +187,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
-Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed in [this page](send-whatsapp.md)
+Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
 >[!ENDTABS]
 -->

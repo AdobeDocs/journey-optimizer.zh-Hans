@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 1a4c452adeb6bca876d5c108065e0219353a2540
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 17%
@@ -60,7 +60,7 @@ ht-degree: 17%
 
 * 使用&#x200B;**[!UICONTROL 添加媒体]**&#x200B;按钮在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中选择资产。
 
-  了解如何在[此页面](../integrations/assets.md)中使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
+  了解如何在[此页面](../integrations/assets.md)上使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
 
 * 或者在&#x200B;**[!UICONTROL 添加媒体]**&#x200B;字段中输入媒体的URL。 在这种情况下，您可以在URL中添加个性化设置。
 

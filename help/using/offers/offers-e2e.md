@@ -1,12 +1,12 @@
 ---
 title: 在电子邮件中使用个性化优惠
-description: 探索一个端到端示例，其中显示配置选件和在电子邮件中使用它们所需的所有步骤。
+description: 探索一个端到端示例，其中显示配置产品建议和在电子邮件中使用它们所需的所有步骤。
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 1. 在创建选件之前，[定义您的组件](#define-components)
 
-   * 创建投放位置
+   * 创建放置环境
    * 创建决策规则
    * 创建收藏集限定符（以前称为“标记”）
    * 创建排名（可选）
@@ -37,7 +37,7 @@ ht-degree: 4%
       * 为每个选件添加规则
       * 定义每个优惠的优先级
 
-1. [创建后备优惠](#create-fallback)
+1. [创建后备产品建议](#create-fallback)
 
 1. [创建收藏集](#create-collection)以包含您创建的个性化优惠
 
@@ -126,7 +126,7 @@ ht-degree: 4%
    >
    >选件可以显示在消息中的不同位置，从而创造更多机会在不同的投放位置上下文中使用选件。
 
-   在[本节](../../using/offers/offer-library/creating-personalized-offers.md#representations)中了解关于呈现的更多信息。
+   在[本节](../../using/offers/offer-library/creating-personalized-offers.md#representations)中了解有关呈现的详细信息。
 
 1. 为前两个投放位置选择适当的图像。 为&#x200B;*非数字式 — 文本*&#x200B;位置输入自定义文本。
 
@@ -153,7 +153,7 @@ ht-degree: 4%
 
 [此部分](../../using/offers/offer-library/creating-personalized-offers.md)中介绍了创建和配置优惠的详细步骤。
 
-## 创建后备优惠 {#create-fallback}
+## 创建后备产品建议 {#create-fallback}
 
 1. 创建后备优惠。
 
@@ -223,6 +223,6 @@ ht-degree: 4%
 
 ## 在电子邮件中插入决策 {#insert-decision-in-email}
 
-现在，您的决策已上线，您可以将其插入到电子邮件中。 为此，请按照[此页面](../../using/email/add-offers-email.md)中详述的步骤操作。
+现在，您的决策已上线，您可以将其插入到电子邮件中。 为此，请按照[此页面](../../using/email/add-offers-email.md)上详述的步骤操作。
 
 ![](assets/offers-e2e-offers-displayed.png)

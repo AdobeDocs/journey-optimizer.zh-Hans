@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 41448cfa8efc4a7b74b0a490f02e53efdbc0a2e7
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 * **[!UICONTROL 读取受众]** — 在读取受众历程中，受众中的所有个人都进入历程并接收历程中包含的消息。  [了解详情](read-audience.md)。
 
 
-在[此页面](entry-management.md)中了解有关历程类型和关联条目管理的更多信息。
+在[此页面](entry-management.md)上了解有关历程类型和关联条目管理的更多信息。
 
 ## 历程状态 {#journey-statuses}
 
@@ -128,7 +128,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->特定护栏和限制适用于历程的版本控制。 请参阅[此页面](../start/guardrails.md#journey-versions-journey-versions-g)以了解详情。
+>特定护栏和限制适用于历程的版本控制。 在[此页面](../start/guardrails.md#journey-versions-journey-versions-g)上了解详情。
 
 ## 复制历程 {#duplicate-a-journey}
 

@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Adobe使用渐近置信序列，对于平均估计值为`μ`的单个变量，�
 
 ## 置信度 {#confidence}
 
-Adobe所用的置信度是一种“随时有效”的置信度，它是通过对平均处理效果的置信序列进行逆变换获得的。
+Adobe使用的置信度是一种“随时有效”的置信度，它通过对平均治疗效果的置信序列进行逆运算来获得。
 
 更准确地说，在针对两个变量之间的均值差异的两个样本&#x200B;*t*&#x200B;测试中，此测试的&#x200B;*p* — 值与均值差异的置信区间之间有一个1:1映射。 通过类比，通过对平均处理效果估计器的（随时有效的）置信序列求逆，可以获得随时有效的&#x200B;*p* — 值：
 

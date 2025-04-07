@@ -8,7 +8,7 @@ level: Beginner
 keywords: 应用程序内、消息、创建、入门
 hide: true
 hidefromtoc: true
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 7%
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 **[!UICONTROL 高级格式]**&#x200B;切换可激活其他选项以自定义体验。
 
-创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
+创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 在[此页面](send-in-app.md)上了解详情。
 
 ## 消息布局 {#message-layout}
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
   您只能向消息添加&#x200B;**[!UICONTROL 标头]**&#x200B;和&#x200B;**[!UICONTROL 正文]**。
 
-* **[!UICONTROL 自定义]**：自定义消息模式允许您直接导入和编辑预配置的HTML消息之一。
+* **[!UICONTROL 自定义]**：自定义消息模式允许您直接导入和编辑预先配置的HTML消息之一。
 
    * 选择&#x200B;**[!UICONTROL 撰写]**&#x200B;以输入或粘贴原始HTML代码。
 

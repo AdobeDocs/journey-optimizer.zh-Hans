@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、设计、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 28%
 
 **[!UICONTROL 高级格式]**&#x200B;切换可激活其他选项以自定义体验。
 
-创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 请参阅[此页面](send-in-app.md)以了解详情。
+创建应用程序内消息，并定义其内容并对其进行个性化后，即可查看和激活该消息。 然后，将根据营销活动计划发送通知。 在[此页面](send-in-app.md)上了解详情。
 
 ## 消息布局 {#message-layout}
 

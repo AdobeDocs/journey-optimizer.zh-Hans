@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 55cc584e2dfcfb9de8784069c7d635a8e4e47929
-workflow-type: ht
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >* 预览消息或发送验证时，仅显示用户档案个性化数据。只能在历程上下文中测试基于上下文数据（如事件信息）的个性化。要了解如何测试个性化，请参阅[此用例](../personalization/personalization-use-case.md)。
 >
->* 模拟或呈现包含多个条件变体的电子邮件校样时，Journey Optimizer 可能需要更长的处理时间。如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。在[此页面](../personalization/dynamic-content.md)中详细了解条件内容。
+>* 模拟或呈现包含多个条件变体的电子邮件校样时，Journey Optimizer 可能需要更长的处理时间。如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。在[此页面](../personalization/dynamic-content.md)上了解有关条件内容的更多信息。
 
 
 ## 使用测试用户档案或样本输入数据进行测试 {#methods}

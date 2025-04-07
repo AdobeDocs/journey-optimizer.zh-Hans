@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件、历程、业务、配置
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 12%
 * 触发业务事件后，将延迟一段时间以将受众导出15分钟到1小时。
 * 测试业务事件时，必须传递事件参数和将进入测试历程的测试用户档案的标识符。 此外，在测试基于业务事件的历程时，您只能触发单个用户档案进入。 请参阅[此部分](../building-journeys/testing-the-journey.md#test-business)。 在测试模式下，没有“代码视图”模式可用。
 * 如果新的业务事件到达，当前正在历程中的个人会发生什么情况？ 它的行为与当新循环发生时个人仍处于循环历程中的情况相同。 他们的道路已经结束。 因此，营销人员必须注意避免在预计业务事件频繁时构建过长的历程。
-* 业务事件无法与单一事件或受众鉴别活动结合使用。
+* 业务事件无法与单一事件或受众资格筛选活动结合使用。
 
 ## 多个业务事件 {#multiple-business-events}
 
@@ -106,11 +106,11 @@ ht-degree: 12%
 
    ![](assets/journey7-business.png)
 
-   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页面](../event/additional-steps-to-send-events-to-journey.md)以了解详情。
+   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。在[此页面](../event/additional-steps-to-send-events-to-journey.md)上了解详情。
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
