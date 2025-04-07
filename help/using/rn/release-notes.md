@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b7148ebeedf8bfce8d244f676fe96172ea8904e0
+source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 69%
+source-wordcount: '758'
+ht-degree: 65%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 69%
 ## 2025年4月更新
 
 ### 改进 {#25-04-improv}
+
+**电子邮件设计工具**
+
+为了增强Journey Optimizer中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`<html>`元素中的`<title>`元素和`lang`属性。 除了电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中的&#x200B;**[!UICONTROL Preheader]**&#x200B;字段外，您还可以定义这些设置。 [了解详情](../email/email-metadata.md)
 
 **沙盒工具** — 可用日期： 2025年4月3日
 
