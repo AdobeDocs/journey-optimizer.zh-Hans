@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 17%
@@ -106,7 +106,7 @@ ht-degree: 17%
 >id="ajo_fragment_statuses"
 >title="新的片段状态"
 >abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。<br/>发布需要<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">发布片段</a>用户权限。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="详细了解内容片段权限"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="了解有关内容片段权限的更多信息"
 
 片段可以具有多种状态：
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: c60ad071d41c9b322e9a6b9285a044321df536cc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 19%
@@ -26,7 +26,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="选择营销活动受众"
->abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[详细了解受众](../audience/about-audiences.md)。"
+>abstract="此列表显示所有可用的 Adobe Experience Platform 受众。选择营销活动的目标受众。营销活动中配置的消息将发送到属于所选受众的所有个人。[了解有关受众的详细信息](../audience/about-audiences.md)"
 
 受众是指具有相似行为和/或特征的人群。 它们使用Adobe Experience Platform Segmentation Service在Adobe Experience Platform上集中配置和维护，并可在Journey Optimizer中轻松访问，以便在您的旅程和营销活动中激活。
 
