@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0533051314530b90a19e3b170d94f7761927053e
+source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1100'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Journey Optimizer允许将历程、内容模板和片段导出到另一个沙盒
 
 * 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
 
-### 营销活动(#campaigns)
+### 营销活动 {#campaigns}
 
 活动会与所有与用户档案、受众、模式、内联消息和依赖对象相关的项目一起复制。
 
