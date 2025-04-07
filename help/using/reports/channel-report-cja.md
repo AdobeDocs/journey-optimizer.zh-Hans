@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 **[!UICONTROL 亮点]** KPI用作综合仪表板，提供环境中所有营销活动和历程的关键量度详细细目，使您能够快速评估绩效并识别需要改进的方面。
 
-+++ 详细了解重点量度
++++ 进一步了解重点量度
 
 * **[!UICONTROL 历程参与度]**：接收通过历程发送的消息的独特个人的总数，代表到达历程中指定操作点的不同用户档案。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 通过单击此表中所列任何历程的名称，您可以轻松单独浏览每个历程，并在新选项卡中立即访问其综合报告。
 
-+++ 了解有关历程指标的更多信息
++++ 了解有关历程量度的更多信息
 
 * **[!UICONTROL 历程进入者]**：到达历程进入事件的个人总数。
 

@@ -11,10 +11,10 @@ keywords: 资产，集成
 hide: true
 hidefromtoc: true
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 6ce4bc2874b90b7ff9634fc56d8a0f89a8bead31
+source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻松访问Adobe Express强大的编辑工具。 通过这种集成，您可以调整图像大小、删除背景、裁剪可视化图表并将资源转换为JPEG或PNG，而无需在解决方案之间切换。
 
-要了解有关 Adobe Express 的更多信息，请参阅[此文档](https://helpx.adobe.com/cn/express/user-guide.html)。
+要了解有关Adobe Express的更多信息，请参阅[此文档](https://helpx.adobe.com/cn/express/user-guide.html)。
 
 要访问&#x200B;**[!DNL Adobe Express]**&#x200B;菜单，请从Email designer访问您的&#x200B;**图像设置**，然后单击&#x200B;**[!UICONTROL 在Adobe Express中编辑]**。
 
