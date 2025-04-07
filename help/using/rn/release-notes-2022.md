@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
-workflow-type: ht
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+workflow-type: tm+mt
 source-wordcount: '3598'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 100%
 
 **审核控制**
 
-* 借助 Journey Optimizer，您可以识别用户在系统中对各种服务和功能（如营销活动、历程、消息、登陆页面等）执行的操作。审核日志资源现在包括对各种其他操作所做的更改，并会在活动发生时自动进行记录。请参阅[此页面](../privacy/audit-logs.md)以了解详情。
+* 借助 Journey Optimizer，您可以识别用户在系统中对各种服务和功能（如营销活动、历程、消息、登陆页面等）执行的操作。审核日志资源现在包括对各种其他操作所做的更改，并会在活动发生时自动进行记录。在此页面](../privacy/audit-logs.md)上了解更多[。
 
 **存档支持**
 

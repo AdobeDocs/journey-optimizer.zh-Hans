@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 1465b110812beba8b58c7dc2e01a65189f984c27
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 >
 >[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
 
-可通过多种方式创建测试用户档案。 您可以在此页详细信息中查找以下内容：
+可通过多种方式创建测试用户档案。 您可以在此页面中查找以下详细信息：
 
 * 将[现有配置文件](#turning-profile-into-test)转换为测试配置文件
 
@@ -137,7 +137,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > 受众计算可能需要一些时间。 在[本节](../audience/about-audiences.md)中了解更多受众。
+   > 受众计算可能需要一些时间。 在[此章节](../audience/about-audiences.md)中详细了解受众。
 
 1. 现在，创建一个新历程并开始一个&#x200B;**[!UICONTROL 读取受众]**&#x200B;编排活动。
 1. 选择之前创建的受众以及您的配置文件使用的命名空间。

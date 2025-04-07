@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 信息卡的创作结构提供了基于表单的创作体验，为营销人员提供了可用于由开发人员呈现的基本输入。
 
-定义内容并对其进行个性化后，即可对其进行查看和激活。 将根据设定的计划发送您的营销活动。 [请参阅此页面](../campaigns/review-activate-campaign.md)以了解详情。
+定义内容并对其进行个性化后，即可对其进行查看和激活。 将根据设定的计划发送您的营销活动。 [在此页面中了解详情](../campaigns/review-activate-campaign.md)。
 
 ## “内容”选项卡 {#content-tab}
 
