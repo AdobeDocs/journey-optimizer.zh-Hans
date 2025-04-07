@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 7%
@@ -56,7 +56,7 @@ ht-degree: 7%
 
    ![](assets/surface-email-edit-condition.png)
 
-1. 选择要与此条件关联的子域。 [了解子域的详细信息](../configuration/about-subdomain-delegation.md)
+1. 选择要与此条件关联的子域。 [了解有关子域的更多信息](../configuration/about-subdomain-delegation.md)
 
    >[!NOTE]
    >
@@ -193,4 +193,4 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 >[!NOTE]
 >
->在[本节](../reports/deliverability.md)中了解关于可投放性的更多信息
+>在[本节](../reports/deliverability.md)中了解有关可投放性的更多信息

@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 11%
@@ -50,7 +51,7 @@ ht-degree: 11%
 **[!UICONTROL 入站点击变量]**构件详细介绍了每个变量的性能。
 有关这些结果的深入了解及其解释方法，请参阅[此页面](../content-management/get-started-experiment.md#interpret-results)。
 
-+++ 了解关于按集客点击量量度划分的变体的更多信息
++++ 详细了解按集客点击量量度划分的变量
 
 * **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 

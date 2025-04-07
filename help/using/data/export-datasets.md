@@ -6,9 +6,9 @@ description: 了解如何使用Adobe Experience Platform云存储目标导出数
 feature: Datasets
 role: User
 level: Beginner
-keywords: 平台、数据湖、创建、湖、数据集、轮廓
+keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 6%
@@ -67,7 +67,7 @@ Journey Optimizer允许您与云存储位置建立实时连接，以导出数据
    >
    >如果您使用Adobe Journey Optimizer以及实时客户档案，目标卡片将显示&#x200B;**激活**&#x200B;按钮，根据您启用的权限，允许您导出数据集并激活此目标的受众。
 
-1. **选择要导出到选定目标的数据集**。 [了解可用于导出的Journey Optimizer数据集的更多信息](#datasets)
+1. **选择要导出到选定目标的数据集**。 [了解有关可用于导出的Journey Optimizer数据集的更多信息](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

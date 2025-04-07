@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 0fd6c054b9b4df9e3ed900c610e0d1186e479750
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 51%
 
   >[!NOTE]
   >
-  >要了解有关在消息中管理取消订阅功能的更多信息，请参阅[此部分](../email/email-opt-out.md#unsubscribe-header)。
+  >在[本节](../email/email-opt-out.md#unsubscribe-header)中了解有关管理消息中取消订阅功能的更多信息。
 
 在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在上线时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 11%
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 为了控制收件箱所有者接收的电子邮件并确保他们仅接收他们想要的邮件，Internet服务提供商(ISP)和商业垃圾邮件过滤器拥有各自的算法，以根据电子邮件发件人使用的IP地址和发送域来跟踪他们的整体信誉。
 
-如果您不接受他们的反馈（如垃圾邮件投诉、退回等） 考虑到这一点，他们会贬低你的声誉。 禁止列表可帮助您接受ISP的反馈。
+如果不考虑他们的反馈（如垃圾邮件投诉、退回等），他们会对您的信誉进行评级。 禁止列表可帮助您接受ISP的反馈。
 
 电子邮件地址被禁止的收件人会自动从消息投放中排除。 这样可加快投放速度，因为错误率对投放速度有显著的影响。
 
@@ -47,13 +47,13 @@ ht-degree: 11%
 
 * 您也可以&#x200B;[**手动**&#x200B;将地址或域](../configuration/manage-suppression-list.md#add-addresses-and-domains)添加到禁止显示列表。
 
-在[本节](#delivery-failures)中了解更多有关硬退回和软退回的信息。
+在[本节](#delivery-failures)中了解有关硬退回和软退回的详细信息。
 
 >[!NOTE]
 >
 >无法向禁止列表发送取消订阅的用户地址，因为他们未接收来自[!DNL Journey Optimizer]的电子邮件。 他们的选择在Experience Platform级别处理。 了解有关[选择退出](../privacy/opt-out.md)的更多信息。
 
-对于每个地址，被抑制的基本原因和抑制类别（软、硬等） 将在禁止显示列表中显示。 在[本节](../configuration/manage-suppression-list.md)中了解有关访问和管理禁止显示列表的详细信息。
+对于每个地址，抑制的基本原因和抑制类别（软、硬等）都显示在抑制列表中。 在[本节](../configuration/manage-suppression-list.md)中了解有关访问和管理禁止显示列表的详细信息。
 
 >[!NOTE]
 >

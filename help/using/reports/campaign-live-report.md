@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '3492'
 ht-degree: 27%
@@ -48,7 +48,7 @@ ht-degree: 27%
 
 **[!UICONTROL 营销活动的统计数据]** KPI用作综合仪表板，提供与您的营销活动相关的过去24小时关键量度的详细细目。 这包括基本信息（如用户档案数量和已交付的操作），从而可全面了解营销活动的绩效和参与情况。
 
-+++ 了解有关Campaign统计量度的更多信息
++++ 进一步了解Campaign的统计指标
 
 * **[!UICONTROL 受众]**：目标用户档案的数量。
 
@@ -230,7 +230,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 优惠统计数据]**&#x200B;和&#x200B;**[!UICONTROL 一段时间内的优惠统计数据]**&#x200B;小组件可衡量优惠的成功情况以及对目标受众的影响。 它会使用KPI详细描述与消息相关的主要信息。
 
-+++ 了解有关电子邮件 — 优惠指标的更多信息
++++ 了解有关电子邮件 — 优惠量度的更多信息
 
 * **[!UICONTROL 已发送优惠]**：优惠的发送总数。
 
@@ -302,7 +302,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 推送通知发送性能]**&#x200B;图提供了与过去24小时内发送的推送通知相关的数据的全面概述。 它提供对基本量度（如投放和跳出）的见解，从而允许详细检查推送通知发送流程。
 
-+++ 了解有关推送通知 — 发送性能指标的更多信息
++++ 了解有关推送通知 — 发送性能量度的更多信息
 
 * **[!UICONTROL 已投放]**：已成功发送的邮件数。
 
@@ -395,7 +395,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 推送通知 — 按平台]**&#x200B;划分图表和表提供了过去24小时内推送通知成功的详细分析，并根据用户档案的操作系统提供了见解。 此划分可让您更好地了解推送通知在不同平台上的执行情况。
 
-+++ 了解有关推送通知 — 按平台量度划分的更多信息
++++ 详细了解推送通知 — 按平台量度细分
 
 * **[!UICONTROL 目标]**：分析期间处理的消息总数。
 
@@ -428,7 +428,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL SMS — 统计数据]**&#x200B;表提供过去24小时内与您的SMS消息相关的基本数据的简要摘要，包括关键量度，例如定向消息数和成功投放消息数。
 
-+++ 了解有关短信 — 统计量度的更多信息
++++ 了解有关短信的更多信息 — 统计量度
 
 * **[!UICONTROL 执行时间]**：定期短信消息每次执行的开始时间。 要仅定向一个或多个定期短信，请从&#x200B;**[!UICONTROL 执行时间]**&#x200B;下拉列表中选择它。
 
@@ -457,7 +457,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 按日期划分的短信性能]**&#x200B;构件详细概述了与消息相关的关键信息，这些信息通过图形显示，提供了过去24小时性能趋势的见解。
 
-+++ 了解有关短信的更多信息 — 按日期列出的绩效指标
++++ 了解有关短信的更多信息 — 按日期列出的性能量度
 
 * **[!UICONTROL 已发送]**：发送总数。
 

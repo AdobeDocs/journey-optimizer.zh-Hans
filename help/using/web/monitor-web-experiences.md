@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 在Web体验上线后，您可以检查[历程报告](../reports/journey-global-report-cja-web.md)和[促销活动报告](../reports/campaign-global-report-cja-web.md)的&#x200B;**[!UICONTROL Web]**&#x200B;选项卡，以比较展示次数、点击率和与网页的互动次数等元素。
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 要进一步改进Web体验监控，您还可以跟踪网站任何特定元素的点击次数。 这样，您就可以在Web报表中显示对该元素的点击次数。 [了解如何操作](#use-click-tracing)
 

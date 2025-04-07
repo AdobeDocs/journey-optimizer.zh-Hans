@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 **[!UICONTROL 发送统计数据]**&#x200B;表提供了有关推送通知促销活动的基本数据的全面摘要。 它详细说明了关键量度，例如目标受众规模以及成功投放的推送通知数量，为您的推送通知的有效性和影响范围提供了有价值的见解。
 
-+++ 了解有关发送统计量度的更多信息
++++ 了解有关发送统计信息量度的更多信息
 
 * **[!UICONTROL 目标]**：分析期间处理的推送通知总数。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 **[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了推送通知中链接标签的全面概述，突出显示生成最高访客流量的链接标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
-+++ 了解有关跟踪链接标签量度的更多信息
++++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 唯一点击次数]**：点击推送通知中内容的用户档案数。
 

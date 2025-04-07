@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 18%
@@ -203,7 +203,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >在[此部分](../campaigns/review-activate-campaign.md)中了解关于激活营销活动的更多信息。
+   >在[此部分](../campaigns/review-activate-campaign.md)中了解有关激活营销活动的更多信息。
 
 您的Web营销活动处于&#x200B;**[!UICONTROL 上线]**&#x200B;状态，现在对所选受众可见。 营销活动的每个收件人都可以看到您在网站中添加的修改。
 

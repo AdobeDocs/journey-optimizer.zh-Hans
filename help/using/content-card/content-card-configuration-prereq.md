@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform数据收集**
 
-  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**选项。 这可确保Journey Optimizer事件由Adobe Experience PlatformEdge Network处理。
+  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
 将**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**

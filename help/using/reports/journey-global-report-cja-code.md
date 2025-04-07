@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 **[!UICONTROL 显示和点击]**&#x200B;图形显示配置文件与您的基于代码的体验的互动情况的详细分析，提供有关配置文件与您的内容如何互动的宝贵见解。
 
-+++ 了解有关“展示次数”和“点击次数”量度的更多信息
++++ 进一步了解“展示次数”和“点击次数”量度
 
 * **[!UICONTROL 唯一点击次数]**：点击您体验中内容的用户档案数。
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 
 **[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了基于代码的体验中链接标签的全面概述，突出显示生成最高访客流量的那些标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
-+++ 了解有关跟踪链接标签量度的更多信息
++++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 唯一点击次数]**：点击了您的基于代码的体验中的内容的用户档案数。
 

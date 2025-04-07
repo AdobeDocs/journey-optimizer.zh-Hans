@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 8%
@@ -148,7 +148,7 @@ ht-degree: 8%
    >
    >* 如果[AI模型](../ranking/ai-models.md)用在评估标准组中，则该组中的所有评估标准都必须使用AI排名方法，并且它们必须使用相同的特定AI模型。
    >
-   >* 只有一个评估标准组可以使用AI模型。 决策范围内的任何其他组必须使用其他排名方法（优先级或公式）。 [了解有关排名方法的更多信息](../offer-activities/configure-offer-selection.md)
+   >* 只有一个评估标准组可以使用AI模型。 决策范围内的任何其他组必须使用其他排名方法（优先级或公式）。 [了解有关排名方法的详细信息](../offer-activities/configure-offer-selection.md)
 
 1. 要在此决策中为优惠添加其他版面，请使用&#x200B;**[!UICONTROL 新范围]**&#x200B;按钮。 对每个决策范围重复上述步骤。
 

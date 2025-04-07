@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 3%
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 **[!UICONTROL 已投放与点击趋势]**&#x200B;图显示您的个人资料与电子邮件交互情况的详细分析，提供了关于个人资料与内容交互情况的宝贵见解。
 
-+++ 了解更多有关已交付与点击趋势量度的信息
++++ 了解有关已交付与点击趋势量度的更多信息
 
 * **[!UICONTROL 已投放]**：成功发送的短信消息数与短信消息总数相关。
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
 **[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了短信消息中链接标签的全面概述，突出显示生成最高访客流量的链接标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
-+++ 了解有关跟踪链接标签量度的更多信息
++++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 唯一点击次数]**：点击短信消息中内容的用户档案数。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 ## 先决条件 {#prerequisites}
 
-* 确保您使用的是适用于您的&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展的最新版本。
+* 确保您使用的是您的&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展的最新版本。
 
-* 在&#x200B;**标记属性**&#x200B;中安装&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展并启用&#x200B;**Personalization Storage**&#x200B;选项。
+* 在&#x200B;**标记属性**&#x200B;中安装&#x200B;**Adobe Experience Platform Web SDK**&#x200B;扩展并启用&#x200B;**Personalization存储**&#x200B;选项。
 
   此配置对于在客户端上存储事件历史记录至关重要，这是在规则生成器中实施频率规则的先决条件。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线`_`、点`.`和连字符`-`字符。
+   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
 
 1. 要为配置分配自定义或核心数据使用标签，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1818'
 ht-degree: 23%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 23%
 >abstract="要将新的子域完全委派给 Adobe，您需要将 Journey Optimizer 界面中显示的 Adobe 名称服务器信息，复制粘贴到您的域托管解决方案中，以生成匹配的 DNS 记录。要使用 CNAME 委派子域，您还需要复制粘贴 SSL CDN URL 验证记录。检查成功后，子域就可以用来投放消息了。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME 子域委派"
 
-[!DNL Journey Optimizer]允许您完全委派子域以直接从产品界面Adobe。 通过这样做，Adobe将能够控制并维护发送、渲染和跟踪电子邮件营销活动所需的DNS的各个方面，从而作为托管服务来发送消息。
+[!DNL Journey Optimizer]允许您直接从产品界面将子域完全委派给Adobe。 这样，Adobe将能够控制并维护发送、渲染和跟踪电子邮件营销活动所需的DNS的各个方面，从而作为托管服务来发送消息。
 
 您可以依靠Adobe来维护所需的DNS基础架构，以满足电子邮件营销发送域的行业标准可投放性要求，同时继续维护和控制内部电子邮件域的DNS。
 
@@ -95,7 +95,7 @@ ht-degree: 23%
 
    ![](assets/subdomain-processing.png)
 
-   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，这最多可能需要3个小时。 有关详细信息，请参阅[此部分](#subdomain-validation)。
+   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，最多可能需要3小时。 有关详细信息，请参阅[此部分](#subdomain-validation)。
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ ht-degree: 23%
    >
    >如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
 
-将子域委派给[!DNL Journey Optimizer]中的Adobe后，将自动创建PTR记录并与该子域关联。 [了解详情](ptr-records.md)
+在[!DNL Journey Optimizer]中将子域委派给Adobe后，将自动创建PTR记录并与该子域关联。 [了解详情](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -173,7 +173,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
    >
    >任何丢失的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
 
-1. Adobe生成SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
+1. Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
 
    <!--![](assets/subdomain-cdn-url-validation.png)-->
 
@@ -203,7 +203,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 >
 >这些步骤由Adobe执行，最多可能需要3小时。
 
-1. **预验证**：Adobe检查子域是否已委派给AdobeDNS（NS记录、SOA记录、区域设置、所有权记录）。 如果预验证步骤失败，则会返回错误及相应原因，否则Adobe会继续执行下一步。
+1. **预验证**：Adobe检查子域是否已委派给Adobe DNS（NS记录、SOA记录、区域设置、所有权记录）。 如果预验证步骤失败，则会返回一个错误及相应原因，否则Adobe会继续执行下一步。
 
 1. **为域**&#x200B;配置DNS：
 
@@ -219,11 +219,11 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 1. **创建CDN域**：如果域为email.example.com，则CDN域将为cdn.email.example.com。
 
-1. **创建并附加CDN SSL证书**：Adobe为CDN域创建CDN证书并将证书附加到CDN域。
+1. **创建并附加CDN SSL证书**： Adobe为CDN域创建CDN证书并将证书附加到CDN域。
 
-1. **创建转发DNS**：如果这是您委托的第一个子域，则Adobe将创建创建PTR记录所需的转发DNS — 每个IP都创建一个。
+1. **创建转发DNS**：如果这是您委派的第一个子域，Adobe将创建创建PTR记录所需的转发DNS — 每个IP各一个。
 
-1. **创建PTR记录**： ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。 Gmail还建议为每个IP设置PTR记录。 仅当您首次委派子域时，Adobe才会创建PTR记录，每个IP代表一个，所有IP都指向该子域。 例如，如果IP是&#x200B;*192.1.2.1*，子域是&#x200B;*email.example.com*，则PTR记录将为：*192.1.2.1 PTR r1.email.example.com*。 您可以稍后更新PTR记录以指向新的委派域。 [了解有关PTR记录的更多信息](ptr-records.md)
+1. **创建PTR记录**： ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。 Gmail还建议为每个IP设置PTR记录。 仅当您首次委派子域时，Adobe才会创建PTR记录，每个IP对应一个记录，所有IP都指向该子域。 例如，如果IP是&#x200B;*192.1.2.1*，子域是&#x200B;*email.example.com*，则PTR记录将为： *192.1.2.1PTR r1.email.example.com*。 您可以稍后更新PTR记录以指向新的委派域。 [了解有关PTR记录的更多信息](ptr-records.md)
 
 ## 操作方法视频{#video}
 

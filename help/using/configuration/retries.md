@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 重试，退回，软退回，优化器，错误
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->了解有关[投放失败类型](../reports/suppression-list.md#delivery-failures)部分中的错误类型的更多信息。
+>详细了解[投放失败类型](../reports/suppression-list.md#delivery-failures)部分中的错误类型。
 
 在默认配置中，阈值设置为5错误。
 
@@ -64,7 +64,7 @@ ht-degree: 9%
 
    >[!CAUTION]
    >
-   >任何大于10的值都可能导致可投放性信誉问题，以及ISP的IP限制或列入阻止列表。 [了解关于可投放性的更多信息](../reports/deliverability.md)
+   >任何大于10的值都可能导致可投放性信誉问题，以及ISP的IP限制或列入阻止列表。 [了解有关可投放性的更多信息](../reports/deliverability.md)
 
 ## 重试时段 {#retry-duration}
 

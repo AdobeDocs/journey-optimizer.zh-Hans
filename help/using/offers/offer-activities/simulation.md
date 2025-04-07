@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 12%
@@ -30,7 +30,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此功能模拟对[!DNL Decisioning] API的单个请求。 了解有关[使用Decisioning API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md)的更多信息。
+>此功能模拟对[!DNL Decisioning] API的单个请求。 详细了解[使用Decisioning API提供优惠](../api-reference/offer-delivery-api/decisioning-api.md)。
 
 要访问此功能，请从&#x200B;**[!UICONTROL 决策管理]** > **[!UICONTROL 优惠]**&#x200B;菜单中选择&#x200B;**[!UICONTROL 模拟]**&#x200B;选项卡。
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. 为了简化设置过程，会自动创建必要的资源来帮助您开始。这包括创建新的&#x200B;**[!UICONTROL 移动标记属性]**&#x200B;和安装扩展。
 
-[了解有关自动生成资源的更多信息](set-mobile-config.md#auto-create-resources)
+[了解有关自动生成的资源的更多信息](set-mobile-config.md#auto-create-resources)
 
 1. 资源生成完成后，按照用户界面中的说明设置并验证 SDK 和渠道。
 

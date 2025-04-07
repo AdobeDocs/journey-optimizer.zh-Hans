@@ -1,15 +1,15 @@
 ---
 title: 快速入门
-description: 了解如何开始使用优惠库 API，使用决策引擎执行关键操作。
+description: 了解如何开始使用产品建议库 API，使用决策引擎执行关键操作。
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 本开发人员指南提供了帮助您开始使用 [!DNL Offer Library] API 的步骤。此外，该指南提供了使用决策引擎执行关键操作的示例 API 调用。
 
-➡️ [通过本视频进一步了解决策管理的组件](#video)
+➡️[在此视频中了解有关决策管理组件的更多信息](#video)
 
 ## 先决条件 {#prerequisites}
 

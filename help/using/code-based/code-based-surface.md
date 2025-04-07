@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: f247ef3c3cd7d1d270893ae6bf88fadf3932d05e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 53%
@@ -73,7 +73,7 @@ ht-degree: 53%
 在[!DNL Journey Optimizer]中，基于代码的体验渠道支持两种类型的客户实施：
 
 * 基于您网站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans){target="_blank"}，或基于您移动应用程序的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}；
-* 使用[AEPEdge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}的服务器端或混合服务器。
+* 使用[AEP Edge Network服务器API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans){target="_blank"}的服务器端或混合服务器。
 
 >[!NOTE]
 >
@@ -85,10 +85,10 @@ ht-degree: 53%
 
 * **Web/移动SDK**：您的Web/移动开发人员需要将这些粒度位置定义为简单字符串，因为Web/移动SDK能够基于当前URL/应用程序ID和位置字符串自动构建表面URI。
 
-* **Edge NetworkAPI**：应用程序/页面开发人员必须定义包含完整路径和使用内容的位置的完整表面URI，因为此类型的实现需要完整URI。
+* **Edge Network API**：应用程序/页面开发人员必须定义包含完整路径和使用内容的位置的完整表面URI，因为此类型的实施需要完整URI。
 
 这就是为什么在创建基于[代码的体验渠道配置](code-based-configuration.md)时，您有两种方式可根据所选平台指定表面：
 
-* 对于&#x200B;**[!UICONTROL Web]**、**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!UICONTROL Android]**&#x200B;平台，您需要输入&#x200B;**URL/应用程序ID**&#x200B;和&#x200B;**位置或路径**&#x200B;来构成表面。 了解有关为[Web](code-based-configuration.md#web)和[移动设备](code-based-configuration.md#mobile)平台配置基于代码的体验的更多信息
+* 对于&#x200B;**[!UICONTROL Web]**、**[!UICONTROL iOS]**&#x200B;和&#x200B;**[!UICONTROL Android]**&#x200B;平台，您需要输入&#x200B;**URL/应用程序ID**&#x200B;和&#x200B;**位置或路径**&#x200B;来构成表面。 了解有关为[Web](code-based-configuration.md#web)和[移动设备](code-based-configuration.md#mobile)平台配置基于代码的体验的详细信息
 
-* 如果平台是&#x200B;**[!UICONTROL Other]**，则需要输入完整的&#x200B;**表面URI**，如上面的示例[所示](#surface-uri)。 了解有关为[其他](code-based-configuration.md#other)平台配置基于代码的体验的更多信息
+* 如果平台是&#x200B;**[!UICONTROL Other]**，则需要输入完整的&#x200B;**表面URI**，如上面的示例[所示](#surface-uri)。 了解有关为[其他](code-based-configuration.md#other)平台配置基于代码的体验的详细信息

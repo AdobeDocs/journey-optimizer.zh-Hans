@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 优惠、决策、电子邮件、个性化、决策
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    您可以选择其他测试用户档案来预览消息每个变体的电子邮件内容。 消息内容中现在会显示与选定测试用户档案（现在为男性）对应的选件。
 
-在[此部分](#preview-your-messages)中了解查看邮件预览的详细步骤。
+在[本节](#preview-your-messages)中了解有关查看邮件预览的详细步骤。
 
 ## 操作方法视频{#video-offers}
 

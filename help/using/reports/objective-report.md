@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta 版" type="Informative"
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 请注意，定义最佳业绩者可能需要一些时间，它将由此图标![](assets/experimentation_report_1.png)表示。
 
-+++了解有关试验报告中可用的不同量度和小组件的更多信息。
++++了解有关试验报表中可用的不同量度和小组件的更多信息。
 
 **[!UICONTROL 实验结果]**&#x200B;构件详细说明了每个变体的性能。 您可以更改基线，方法是从&#x200B;**[!UICONTROL 基线]**&#x200B;下拉列表中选择一种处理。 最佳处理方式将以星形图标表示。
 

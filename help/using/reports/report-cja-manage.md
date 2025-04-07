@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 4eef896bd139cfb4acb4b817527dee67e246082d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 1%
 
 ![](assets/cja-analyze.png)
 
-利用所有报告中提供的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;功能，使用您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;许可证增强您的数据分析体验。
+利用所有报表中提供的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;功能，通过&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;许可证增强您的数据分析体验。
 
-此功能强大的选项可将您无缝重定向到您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;环境，使您能够对报告进行广泛个性化。 您可以使用专门的Customer Journey Analytics指标丰富您的构件，将您的见解提升到全新的水平。
+此功能强大的选项可将您无缝重定向到您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;环境，使您能够对报告进行广泛个性化。 您可以使用专门的Customer Journey Analytics量度扩充构件，将您的洞察提升到新的水平。
 
 [了解有关Customer Journey Analytics界面的详细信息。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    如果在报表级别生成文件，则它包含每个小组件的详细信息，包括其标题和数据。
 
->[!TAB 将报告导出为PDF文件]
+>[!TAB 将报表导出为PDF文件]
 
 1. 在报表中，单击&#x200B;**[!UICONTROL 共享]**&#x200B;并选择&#x200B;**[!UICONTROL 下载PDF]**。
 
@@ -157,7 +157,7 @@ ht-degree: 1%
 
 ## 使用探索性分析探索数据 {#exploratory}
 
-使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL Dimension]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;轻松创建表和可视化图表。 此工具简化了数据探索，允许您轻松自动自定义和分析信息。 请参阅[此文档](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)以了解详情。
+使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL 维度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;轻松创建表格和可视化图表。 此工具简化了数据探索，允许您轻松自动自定义和分析信息。 请参阅[此文档](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)以了解详情。
 
 1. 首先，访问您要使用探索性分析的报表。
 
@@ -173,13 +173,13 @@ ht-degree: 1%
 
 1. 使用&#x200B;**[!UICONTROL 添加细分]**&#x200B;或&#x200B;**[!UICONTROL 添加量度]**&#x200B;选项以包含其他维度，从而允许更详细的数据细分。
 
-   请注意，您最多只能添加三个&#x200B;**[!UICONTROL Dimension]**、**[!UICONTROL 量度]**&#x200B;和&#x200B;**[!UICONTROL 区段]**。
+   请注意，您最多只能添加三个&#x200B;**[!UICONTROL 维度]**、**[!UICONTROL 量度]**&#x200B;和&#x200B;**[!UICONTROL 区段]**。
 
 您现在可以使用自定义表格和可视化工具分析数据。
 
 <!--## Create a down-funnel metric {#down-funnel}
 
-1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 
 1. On the canvas editor, select the option to "add a metric".
 
@@ -221,7 +221,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >
 > **模板**&#x200B;功能分阶段逐步推出，全面正式发布计划于1月底之前推出，仅对拥有[!DNL Customer Journey Analytics]许可证的用户可用。
 
-您现在可以选择利用Customer Journey Analytics模板来增强Journey Optimizer报表。 [了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。[了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 访问报告时，您可以从&#x200B;**[!UICONTROL 选择模板]**&#x200B;下拉菜单中选择两种模板类型：
 
@@ -258,4 +258,4 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    ![](assets/cja_template_4.png)
 
-要直接从历程优化器报告中创建模板，只需访问您的活动或历程报告，选择&#x200B;**[!UICONTROL 在CJA中分析]**，并按照上述步骤自定义默认模板。
+要直接从历程优化器报告中创建模板，只需访问您的促销活动或历程报告，选择&#x200B;**[!UICONTROL 在CJA中分析]**，并按照上述步骤自定义默认模板。

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 存档，消息， HIPAA，密件抄送，电子邮件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 6%
@@ -41,7 +41,7 @@ HIPAA等法规要求[!DNL Journey Optimizer]应提供一种将发送给个人的
 
 ### 启用密件抄送电子邮件 {#enable-bcc}
 
-要启用&#x200B;**[!UICONTROL 密件抄送电子邮件]**&#x200B;选项，请在[渠道配置](channel-surfaces.md)的专用字段中输入您选择的电子邮件地址（即消息预设）。 除了在委派给Adobe的子域上定义的电子邮件地址之外，您可以按正确的格式指定任何外部地址。 例如，如果您已将&#x200B;*marketing.luma.com*&#x200B;子域委派给Adobe，则禁止使用&#x200B;*abc@marketing.luma.com*&#x200B;等任何地址。
+要启用&#x200B;**[!UICONTROL 密件抄送电子邮件]**&#x200B;选项，请在[渠道配置](channel-surfaces.md)的专用字段中输入您选择的电子邮件地址（即消息预设）。 除了在委派给Adobe的子域上定义的电子邮件地址之外，您可以按正确格式指定任何外部地址。 例如，如果您已将&#x200B;*marketing.luma.com*&#x200B;子域委派给Adobe，则禁止使用&#x200B;*abc@marketing.luma.com*&#x200B;等任何地址。
 
 >[!CAUTION]
 >
@@ -67,7 +67,7 @@ HIPAA等法规要求[!DNL Journey Optimizer]应提供一种将发送给个人的
 
 但是，将拾取密件抄送地址以按照[此处](../email/email-settings.md)描述的逻辑发送通信。
 
-### Recommendations和限制 {#bcc-recommendations-limitations}
+### 建议和限制 {#bcc-recommendations-limitations}
 
 * 为确保您的隐私合规性，密件抄送电子邮件必须由能够安全存储个人身份信息(PII)的归档系统处理。
 
@@ -119,7 +119,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 历程和消息报表中没有此类密件抄送报告。 但是，信息存储在名为&#x200B;**[!UICONTROL AJO密件抄送反馈事件数据集]**&#x200B;的系统数据集上。 您可以对此数据集运行查询，以查找用于调试的有用信息，例如。
 
-若要通过用户界面访问此数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解有关如何访问数据集的更多信息。
+若要通过用户界面访问此数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
@@ -232,7 +232,7 @@ GDPR等法规规定，数据主体应能够随时修改其同意书。 由于您
 
 `x-message-profile-id`标头还存储在以下系统数据集中：[AJO消息反馈事件数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)（已发送电子邮件）和[AJO密件抄送反馈事件数据集](#bcc-reporting)（密件抄送副本）。 您可以查询这些数据集以协调密件抄送副本和相应的实际电子邮件。
 
-* 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解有关如何访问数据集的更多信息。
+* 若要通过用户界面访问这些数据集，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据集]** > **[!UICONTROL 浏览]**。 在[本节](../data/get-started-datasets.md#access-datasets)中了解关于如何访问数据集的更多信息。
 
 * 使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查询编辑器。 若要访问它，请选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 查询]**，然后单击&#x200B;**[!UICONTROL 创建查询]**。 [了解详情](../data/get-started-queries.md)
 

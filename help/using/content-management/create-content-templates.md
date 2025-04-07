@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: c7ecfdbc9c97c49c77f3c4fb8bcb1656e04819a8
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 15%
@@ -110,7 +110,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >当前渠道和类型会自动填充，且无法编辑。 对于从[电子邮件Designer](../email/get-started-email-design.md)创建的电子邮件HTML，**[!UICONTROL 模板]**&#x200B;类型是自动选择的。
+   >当前渠道和类型会自动填充，且无法编辑。 对于从[电子邮件Designer](../email/get-started-email-design.md)创建的电子邮件模板，自动选择&#x200B;**[!UICONTROL HTML]**&#x200B;类型。
 
 1. 从&#x200B;**标记**&#x200B;字段中选择或创建Adobe Experience Platform标记以对您的模板进行分类。 [了解详情](../start/search-filter-categorize.md#tags)
 

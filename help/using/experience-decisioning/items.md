@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 83ad828a4d342bba10284cdd20d22eb325e3e1f7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 15%
@@ -79,7 +79,7 @@ ht-degree: 15%
 
 +++
 
-* 要将决策项的呈现方式限制为一个或多个Adobe Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 属于一个或多个受众的访客]**&#x200B;选项，然后从左窗格中添加一个或多个受众，并使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合这些受众。 [了解有关受众的更多信息](../audience/about-audiences.md)。
+* 要将决策项的呈现方式限制为一个或多个Adobe Experience Platform受众的成员，请选择&#x200B;**[!UICONTROL 属于一个或多个受众的访客]**&#x200B;选项，然后从左窗格中添加一个或多个受众，并使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;逻辑运算符组合这些受众。 [了解有关受众的详细信息](../audience/about-audiences.md)。
 
 * 要将特定决策规则关联到决策项，请选择&#x200B;**[!UICONTROL 按规则]**，然后将所需规则从左侧窗格拖到中心区域。 [了解有关决策规则的更多信息](rules.md)。
 
@@ -119,7 +119,7 @@ ht-degree: 15%
 
 1. 选择上限类型：
 
-   * 选择总计&#x200B;**[!UICONTROL 个]**&#x200B;以定义可在组合目标受众中建议多少次该项目，即在所有用户中。 例如，如果您是一家具有“TV doorbuster deal”的电子零售商，则希望在所有配置文件中仅返回200次选件。
+   * 选择总计&#x200B;**[!UICONTROL 个]**&#x200B;以定义可在组合目标受众中建议多少次该项目，即在所有用户中。 例如，如果您是具有“TV doorbuster deal”的电子产品retailer，则希望在所有配置文件中仅返回200次选件。
 
    * 选择&#x200B;**[!UICONTROL 每个配置文件]**&#x200B;以定义可以向同一用户建议选件的次数。 例如，如果您是一家提供“白金信用卡”优惠的银行，您不希望每个用户档案显示此优惠超过5次。 实际上，您相信，如果用户查看了5次选件且没有对其执行操作，则他们更有可能对下一个最佳选件执行操作。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 **[!UICONTROL 发送统计数据]**&#x200B;表为您提供直邮历程的性能分析。 查看关键量度，如定向收件人数和成功投放件数，帮助您衡量邮件的影响范围和有效性。
 
-+++ 了解有关发送统计量度的更多信息
++++ 了解有关发送统计信息量度的更多信息
 
 * **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 

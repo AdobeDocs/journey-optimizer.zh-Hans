@@ -1,19 +1,19 @@
 ---
-title: 优惠投放 API 入门
-description: 了解可用于提供个性化优惠的API的更多信息。
+title: 产品建议投放 API 入门
+description: 详细了解可用于提供个性化优惠的API。
 feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
 
 ---
 
-# 优惠投放 API 入门 {#about-decisioning-apis}
+# 产品建议投放 API 入门 {#about-decisioning-apis}
 
 您可以使用&#x200B;**Decisioning**&#x200B;或&#x200B;**Edge Decisioning** API来提供优惠。 此外，**批量决策** API允许您在一次调用中向给定受众中的所有配置文件提供优惠。 受众中每个用户档案的选件内容都放在Adobe Experience Platform数据集中，可用于自定义批量工作流。
 

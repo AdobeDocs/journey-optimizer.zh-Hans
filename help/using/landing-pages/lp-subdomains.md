@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登陆、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 23%
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 要[创建登陆页面预设](lp-presets.md)，您必须设置将用于登陆页面的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置另一个子域。 在[本节](../configuration/delegate-subdomain.md)中了解将子域委派给Adobe的更多信息。
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 
 >[!CAUTION]
 >
@@ -76,7 +76,7 @@ ht-degree: 23%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   请注意，您不能使用同一父域的多个已委派子域。 例如，如果已将“marketing1.yourcompany.com”委派给登陆页面的Adobe，则您将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多级别子域，您可以继续使用“marketing1.yourcompany.com”的子域（如“email.marketing1.yourcompany.com”）或其他父域。
+   请注意，您不能使用同一父域的多个已委派子域。 例如，如果已经为您的登陆页面将“marketing1.yourcompany.com”委派给Adobe，则将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多级别子域，您可以继续使用“marketing1.yourcompany.com”的子域（如“email.marketing1.yourcompany.com”）或其他父域。
 
    >[!CAUTION]
    >

@@ -1,19 +1,19 @@
 ---
-title: 创建后备优惠
+title: 创建后备产品建议
 description: 了解如何创建后备优惠以向不符合任何优惠条件的客户显示
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
 
 ---
 
-# 创建后备优惠 {#create-fallback-offers}
+# 创建后备产品建议 {#create-fallback-offers}
 
 如果客户不符合其他优惠的条件，则会将后备优惠发送给客户。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
 

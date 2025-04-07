@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2719'
 ht-degree: 15%
@@ -85,7 +85,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->在[本节](#segments-vs-decision-rules)中了解使用&#x200B;**受众**&#x200B;与&#x200B;**决策规则**&#x200B;的更多信息。
+>在[此部分](#segments-vs-decision-rules)中了解有关使用&#x200B;**受众**&#x200B;与&#x200B;**决策规则**&#x200B;的更多信息。
 
 * 默认情况下，**[!UICONTROL 所有访客]**&#x200B;选项处于选中状态，这意味着任何配置文件都可以呈现选件。
 
@@ -123,7 +123,7 @@ ht-degree: 15%
 
   一方面，受众是一组Adobe Experience Platform配置文件，它们根据配置文件属性和体验事件匹配特定逻辑。 但是，选件管理不会重新计算受众，它在呈现选件时可能不是最新的。
 
-  在[本节](../../audience/about-audiences.md)中了解更多受众。
+  在[此章节](../../audience/about-audiences.md)中详细了解受众。
 
 * **决策规则**
 

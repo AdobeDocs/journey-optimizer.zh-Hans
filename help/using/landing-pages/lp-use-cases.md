@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Publish](create-lp.md#publish)登陆页面。
+1. [发布](create-lp.md#publish)登陆页面。
 
 1. 在[历程](../building-journeys/journey.md)中，添加&#x200B;**电子邮件**&#x200B;活动以将流量引导至注册登陆页面。
 
@@ -141,7 +141,7 @@ ht-degree: 12%
    >
    >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
-1. Publish并运行旅程。 [了解详情](../building-journeys/journey.md)。
+1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
 
 1. 收到消息后，如果收件人单击电子邮件中的取消订阅链接，则会显示您的登陆页面。
 
@@ -153,7 +153,7 @@ ht-degree: 12%
 
    * 配置文件数据已更新，除非再次订阅，否则将不会收到您品牌的通信。
 
-要检查相应用户档案的选择是否已更新，请转到 Experience Platform，并通过选择身份命名空间和相应的身份值访问该用户档案。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
+要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
 
 ![](assets/lp_opt-out-profile-choice.png)
 

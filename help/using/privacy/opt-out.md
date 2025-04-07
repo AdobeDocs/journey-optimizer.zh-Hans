@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a36f3dd1b58b2c40a99d9c2820427f710aa87660
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->要了解有关对象级访问控制 (OLAC) 的更多信息，请访问[此部分](../administration/object-based-access.md)。
+>在[本节](../administration/object-based-access.md)中了解有关对象级访问控制(OLAC)的更多信息。
 
 在 [!DNL Journey Optimizer] 营销活动中，同意政策的实施如下所示：
 
@@ -137,7 +137,7 @@ ht-degree: 97%
 
 您还可以通过将拆分活动添加到组合工作流来向受众添加个性化同意检查。
 
-1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建组合工作流的更多信息](../audience/get-started-audience-orchestration.md)
+1. 使用&#x200B;**[!UICONTROL 组合受众]**&#x200B;选项创建受众。[了解有关创建合成工作流的详细信息](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

@@ -7,7 +7,7 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 88e7140183700da0283fa00d89f6fff2c71c138f
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 23%
@@ -56,7 +56,7 @@ ht-degree: 23%
    >* **展示事件** （显示的优惠）
    >* **转化事件** （通过电子邮件或Web导致点击的选件）。
    >
-   >使用提供的Web SDK或Mobile SDK自动捕获这些事件。 有关此内容的更多信息，请参阅[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)。
+   >这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中进一步了解此信息。
 
 1. 选择收集转化和印象事件的数据集。 了解如何在[此部分](../data-collection/create-dataset.md)中创建此类数据集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

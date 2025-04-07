@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域, PTR, 记录, DNS, 域, 邮件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 86%
 >
 >此[更新处理](#processing)最多可能需要 3 小时。
 
-要检查 PTR 记录更新详细信息，请单击其旁边的图标。在[本节](#ptr-record-update-statuses)中了解与不同图标相关的状态的更多信息。
+要检查 PTR 记录更新详细信息，请单击其旁边的图标。在[此部分](#ptr-record-update-statuses)中了解与不同图标关联的状态的更多信息。
 
 ![](assets/ptr-record-recent-update.png)
 

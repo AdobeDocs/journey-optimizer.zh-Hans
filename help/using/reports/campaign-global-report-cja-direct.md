@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 **[!UICONTROL 发送统计数据]**&#x200B;表提供了有关直邮营销活动的基本数据的全面摘要。 它详细说明了关键量度，例如目标受众规模以及成功投放的直邮数量，为您的直邮消息的有效性和影响范围提供了宝贵的见解。
 
-+++ 了解有关发送统计量度的更多信息
++++ 了解有关发送统计信息量度的更多信息
 
 * **[!UICONTROL 人员]**：符合消息目标用户档案资格的用户档案数。
 

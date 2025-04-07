@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 23%
 
 若要能够缩短添加到SMS/MMS消息的URL，您必须设置在[创建SMS配置](sms-configuration.md#message-preset-sms)时将选择的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解将子域委派到Adobe的更多信息。
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 
 >[!CAUTION]
 >

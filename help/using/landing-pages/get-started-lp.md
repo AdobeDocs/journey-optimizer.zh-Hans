@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陆、登陆页面、开始、入门
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] 允许您创建和设计登陆页面，以将用户定向到在线表单，在该表单中，用户可以选择启用或选择禁用接收通信，或订阅特定服务（如新闻稿）。
 
-➡️ [在此视频中了解有关配置订阅和创建登陆页面的更多信息](#video)
+➡️[在此视频中了解有关配置订阅和创建登陆页面的更多信息](#video)
 
 * 利用 [!DNL Journey Optimizer] 内容设计功能可轻松构建&#x200B;**响应式登陆页面**。
 * 快捷、实时地设置&#x200B;**选择启用和选择禁用流程**。

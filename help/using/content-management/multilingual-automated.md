@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 入门、开始、内容、试验
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: eea6cbaf29f3558f85b462d3dd3750d7f716bbcc
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -30,7 +30,7 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->对于自动流，用户需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的更多信息](../administration/permissions.md)
+>对于自动流，用户需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的详细信息](../administration/permissions.md)
 
 使用自动流程，您只需选择目标语言和语言提供商即可。 然后，您的内容将直接发送到翻译，准备完成后进行最终审阅。
 
@@ -254,7 +254,7 @@ ht-degree: 20%
 
    * **[!UICONTROL 正在进行翻译]**：您的服务提供商正在处理翻译。
 
-     如果在配置&#x200B;**语言设置**&#x200B;时选择了&#x200B;**内包**，则可以在翻译项目中直接翻译内容。 [了解详情](#manage-ht-project)
+     如果在配置&#x200B;**语言设置**&#x200B;时选择了&#x200B;**Insourcing**，则可以在翻译项目中直接翻译内容。 [了解详情](#manage-ht-project)
 
    * **[!UICONTROL 准备好审查]**：审查过程已准备就绪，允许您访问翻译并拒绝或批准翻译。
 
@@ -295,9 +295,9 @@ ht-degree: 20%
 >title="内部承包翻译项目"
 >abstract="内部承包翻译项目允许您直接在翻译项目中管理和执行翻译，从而简化流程并更好地控制翻译质量和一致性。"
 
-如果在配置语言设置时选择了内包，则可以在翻译项目中直接翻译内容。
+如果在配置语言设置时选择了Insourcing，则可以在翻译项目中直接翻译内容。
 
-1. 从您的&#x200B;**[!UICONTROL 翻译项目]**，访问&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 内源]**。
+1. 从您的&#x200B;**[!UICONTROL 翻译项目]**，访问&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单并选择&#x200B;**[!UICONTROL Insourcing]**。
 
    ![](assets/inhouse-translation-1.png)
 
@@ -325,7 +325,7 @@ ht-degree: 20%
 
 如果您在您的&#x200B;**[!UICONTROL 翻译项目]**&#x200B;中选择了&#x200B;**[!UICONTROL 启用审阅工作流]**，则在所选翻译提供商完成之后，您可以在Journey Optimizer中直接审阅该翻译。
 
-请注意，如果禁用此选项，则当提供商完成翻译后，翻译任务状态将自动设置为&#x200B;**[!UICONTROL 已审核]**，允许您单击&#x200B;**[!UICONTROL Publish]**&#x200B;快速继续。
+请注意，如果禁用此选项，则当您的提供商完成翻译后，翻译任务状态将自动设置为&#x200B;**[!UICONTROL 已审核]**，允许您通过单击&#x200B;**[!UICONTROL 发布]**&#x200B;快速继续。
 
 1. 在服务提供商的翻译完成后，您可以从&#x200B;**[!UICONTROL 翻译项目]**&#x200B;或直接从&#x200B;**[!UICONTROL 营销活动]**&#x200B;访问翻译以供审阅。
 
@@ -361,7 +361,7 @@ ht-degree: 20%
 
 1. 将&#x200B;**[!UICONTROL 翻译项目]**&#x200B;状态设置为“已审核”后，即可将其发送到营销活动。
 
-   从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL Publish]**。
+   从&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 发布]**。
 
    ![](assets/translation_review_7.png)
 

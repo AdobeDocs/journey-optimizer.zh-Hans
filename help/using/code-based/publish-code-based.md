@@ -1,11 +1,12 @@
 ---
-title: Publish和管理基于代码的体验
+title: 发布和管理基于代码的体验
 description: 了解如何在Journey Optimizer中发布和停止基于代码的体验
 feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -30,15 +31,15 @@ ht-degree: 1%
 >
 >如果多个基于代码的历程或营销活动更新了内容的相同元素，则优先级最高的历程/营销活动优先。
 
-一旦您的基于代码的历程或营销活动上线，您的应用程序实施团队将负责发出显式API或SDK调用，以获取选定[基于代码的体验配置](code-based-configuration.md)中定义的表面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
+一旦您的基于代码的历程或营销活动上线，您的应用程序实施团队将负责发出显式API或SDK调用，以获取选定[基于代码的体验配置](code-based-configuration.md)中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
-### Publish基于代码的历程 {#publish-code-based-journey}
+### 发布基于代码的历程 {#publish-code-based-journey}
 
 要在历程中实时提供基于代码的体验，请执行以下步骤。
 
 1. 验证您的历程是否有效并且没有错误。 [了解详情](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 
-1. 在历程中，选择位于右上角的下拉菜单中的&#x200B;**[!UICONTROL Publish]**&#x200B;选项。
+1. 在历程中，选择位于右上角的下拉菜单中的&#x200B;**[!UICONTROL 发布]**&#x200B;选项。
 
    ![](assets/code-based-journey-publish.png)
 
@@ -50,7 +51,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->单击&#x200B;**[!UICONTROL Publish]**&#x200B;后，最多可能需要15分钟才能使更改生效。
+>单击&#x200B;**[!UICONTROL 发布]**&#x200B;后，最多可能需要15分钟才能使更改上线。
 
 ### 激活基于代码的营销活动 {#activate-code-based-campaign}
 
@@ -66,7 +67,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在[此部分](../campaigns/review-activate-campaign.md)中了解关于激活营销活动的更多信息。
+   >在[此部分](../campaigns/review-activate-campaign.md)中了解有关激活营销活动的更多信息。
 
 您的基于代码的营销活动处于&#x200B;**[!UICONTROL 实时]**&#x200B;状态，现在对所选受众可见。 营销活动的每个收件人都可以看到您向内容添加的修改。
 
@@ -112,9 +113,9 @@ Global reports display events that occurred at least two hours ago and cover eve
 
 ### Code-based live report {#live-report-code-based}
 
-From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more on live report](../reports/campaign-live-report.md)
+From your campaign **[!UICONTROL Live report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages. [Learn more about live report](../reports/campaign-live-report.md)
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your code-based experiences, such as:
 
@@ -129,7 +130,7 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 
 ### Code-based global report {#global-report-code-based}
 
-Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more on global report](../reports/campaign-global-report-cja.md)
+Code-based campaign global report can be accessed directly from your journey or campaign with the **[!UICONTROL View report]** button. [Learn more about global report](../reports/campaign-global-report-cja.md)
 
 From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based experience]** tab details the main information relative to your apps or web pages.
 
@@ -137,7 +138,7 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Code-based 
 
 Add image TBC
 
-+++Learn more on the different metrics and widgets available for the Code-based experience report.
++++Learn more about the different metrics and widgets available for the Code-based experience report.
 
 The **[!UICONTROL Code-based experience performance]** KPIs detail the main information relative to your visitors' engagement with your experiences, such as:
 
@@ -153,4 +154,3 @@ TBC: The **[!UICONTROL Interactions by element]** table details the main informa
 +++
 
 -->
-

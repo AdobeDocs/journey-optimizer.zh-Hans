@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 47b549f3e1e220b7e8f0c82d9a1f9ecfd5dd2340
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 登陆页面&#x200B;**[!UICONTROL 实时报告]**&#x200B;被分为多个小部件，其中详细说明了投放的成功和错误。 如果需要，可以调整每个小部件的大小并将其删除。 有关详细信息，请参阅此[部分](live-report.md)。
 
-+++了解更多可用于登陆页面实时报告的不同量度和构件。
++++进一步了解可用于登陆页面实时报告的不同量度和小组件。
 
 **[!UICONTROL 登陆页面效果]**&#x200B;构件通过KPI详细列出了过去24小时内与您的消息相关的主要信息：
 

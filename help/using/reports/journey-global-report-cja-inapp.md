@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: 7d1b89ca851442d2a67dda1e5c08d50d74d44028
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 2%
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 **[!UICONTROL 跟踪的链接标签]**&#x200B;表提供了应用程序内消息中链接标签的全面概述，突出显示生成最高访客流量的链接标签。 此功能使您能够识别最受欢迎的链接并确定其优先级。
 
-+++ 了解有关跟踪链接标签量度的更多信息
++++ 了解有关跟踪的链接标签量度的更多信息
 
 * **[!UICONTROL 唯一点击次数]**：点击应用程序内消息中内容的用户档案数。
 

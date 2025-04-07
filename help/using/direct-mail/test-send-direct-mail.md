@@ -1,5 +1,5 @@
 ---
-title: 检查并发送直邮消息
+title: 检查和发送直邮消息
 description: 了解如何在Journey Optimizer中检查和发送直邮消息
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 检查并发送直邮消息 {#direct-mail-test-send}
+# 检查和发送直邮消息 {#direct-mail-test-send}
 
 ## 预览提取文件 {#preview-dm}
 
@@ -54,6 +54,6 @@ ht-degree: 3%
 
 若要再次启用它，必须将配置文件属性更改回`consents.marketing.postalMail.val` ： `y`。
 
-要管理配置文件的属性，请转到Experience Platform，然后通过选择身份命名空间和相应的身份值来访问配置文件。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
+要管理配置文件的属性，请转到Experience Platform，并通过选择身份命名空间和相应的身份值访问配置文件。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
 
 在[本节](../privacy/opt-out.md)中了解有关在Journey Optimizer中管理选择退出的更多信息。

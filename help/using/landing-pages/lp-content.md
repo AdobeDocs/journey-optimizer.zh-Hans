@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，页面，表单，组件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: bcccc7b385f031fba2c2b57ec62cae127eda8466
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 9%
@@ -81,7 +81,7 @@ ht-degree: 9%
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL 订阅列表]**：如果配置文件选中此复选框，则必须选择将更新的订阅列表。 了解有关[订阅列表](subscription-list.md)的更多信息。
+   * **[!UICONTROL 订阅列表]**：如果配置文件选中此复选框，则必须选择将更新的订阅列表。 了解有关[订阅列表](subscription-list.md)的详细信息。
 
      <!--![](assets/lp_designer-form-subs-list.png)-->
 

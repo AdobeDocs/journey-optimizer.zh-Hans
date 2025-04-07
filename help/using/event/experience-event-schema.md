@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 >[!NOTE]
 >
->在[架构文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-CN)中了解有关Experience Platform关系的更多信息。
+>在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-CN)中了解有关架构关系的更多信息。
 
 在Journey Optimizer中，您可以利用链接表中的所有字段：
 
@@ -87,7 +87,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 ![](assets/schema15.png)
 
-您还可以定义与对象数组内部属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 可以在历程（条件、自定义操作等）和和消息个性化。
+您还可以定义与对象数组内部属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 查找值将在历程（条件、自定义操作等）和消息个性化中可用。
 
 ![](assets/schema16.png)
 

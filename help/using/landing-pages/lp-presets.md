@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 19%

@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: 配置，试验，报表，优化器
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 29%
 
 ---
 
-# 报告和实验先决条件 {#reporting-configuration}
+# 报告和试验先决条件 {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -104,7 +104,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}中了解关于数据集的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh_Hans){target="_blank"}中了解有关数据集的更多信息。
 
 1. 从&#x200B;**[!UICONTROL 配置文件ID]**&#x200B;下拉列表中，选择将用于标识报告中每个配置文件的数据集字段属性。
 
@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}中了解关于命名空间的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=zh-Hans){target="_blank"}中了解有关命名空间的更多信息。
 
 1. 保存您所做的更改，以将选定的数据集添加到报表配置列表。
 

@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 24%
@@ -34,7 +34,7 @@ ht-degree: 24%
 
 在创作Web体验时，如果添加来自[Adobe Experience Manager Assets](../integrations/assets.md)库的内容，则必须设置将用于发布此内容的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解将子域委派到Adobe的更多信息。
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 
 >[!CAUTION]
 >

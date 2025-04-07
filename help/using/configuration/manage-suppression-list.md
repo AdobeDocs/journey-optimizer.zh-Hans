@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 禁止，列表，退回，电子邮件，优化器，隔离
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d108d449786d9c3aa3e95aefc1bca07292cd690d
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 22%
@@ -22,7 +22,7 @@ ht-degree: 22%
 
 此类电子邮件地址会自动收集到Journey Optimizer **禁止显示列表**&#x200B;中。 禁止显示列表包含要从受众中排除的地址和域。 它在一个客户端环境中收集所有邮件中禁止显示的电子邮件地址和域，这意味着特定于与沙盒ID关联的组织ID。
 
-在[本节](../reports/suppression-list.md)中了解有关禁止列表概念和使用情况的更多信息。
+在[本节](../reports/suppression-list.md)中了解有关禁止列表概念及用法的更多信息。
 
 >[!NOTE]
 >

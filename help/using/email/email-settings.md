@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: abb837b6af232e23bbbc6a1f1b2607dbc2ee2679
-workflow-type: ht
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >
 >对于非生产环境，Adobe 不会创建现成的测试子域，也不会授予对共享发送 IP 池的访问权限。您需要[委派自己的子域](../configuration/delegate-subdomain.md)并使用分配给贵组织的池中的 IP。
 
-选择 IP 池后，当鼠标悬停在 IP 池下拉列表下方显示的 IP 地址上时，会显示 PTR 信息。[了解有关 PTR 记录的更多信息](../configuration/ptr-records.md)
+选择 IP 池后，当鼠标悬停在 IP 池下拉列表下方显示的 IP 地址上时，会显示 PTR 信息。[了解有关PTR记录的更多信息](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ ht-degree: 100%
 * 对于事务性电子邮件，最小重试时段为 10 分钟。
 * 这两种电子邮件类型的最大重试时段为 84 小时（或 5040 分钟）。
 
-要了解有关重试的更多信息，请参阅[此部分](../configuration/retries.md)。
+在[本节](../configuration/retries.md)中了解有关重试的详细信息。
 
 ## URL 跟踪 {#url-tracking}
 

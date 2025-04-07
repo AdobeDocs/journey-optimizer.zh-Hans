@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 渠道, 表面, 技术, 参数, optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 13%
@@ -219,7 +219,7 @@ ht-degree: 13%
 >
 >如果只编辑&#x200B;**[!UICONTROL 描述]**、**[!UICONTROL 电子邮件类型]**&#x200B;和/或&#x200B;**[!UICONTROL 电子邮件重试参数]**&#x200B;字段，则更新是即时进行的。
 
-处理时间最长可能需要&#x200B;**3小时**。 在[此部分](#create-channel-surface)中了解验证周期内执行的检查的详细信息。
+处理时间最长可能需要&#x200B;**3小时**。 在[本节](#create-channel-surface)中了解有关验证周期期间执行的检查的详细信息。
 
 如果您编辑已处于活动状态的配置：
 
@@ -243,7 +243,7 @@ ht-degree: 13%
 
 如果验证过程失败，仍将使用旧版配置。
 
-在[本节](#monitor-channel-surfaces)中了解更多可能的失败原因。
+在[本节](#monitor-channel-surfaces)中进一步了解可能的失败原因。
 
 更新失败时，配置将再次变为可编辑。 您可以单击其名称并更新需要修复的设置。
 
@@ -253,7 +253,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->处理更新时，无法取消激活渠道配置。 您必须等待更新成功或失败。 了解有关[编辑渠道配置](#edit-channel-surface)和[更新状态](#update-statuses)的更多信息。
+>处理更新时，无法取消激活渠道配置。 您必须等待更新成功或失败。 了解有关[编辑渠道配置](#edit-channel-surface)和[更新状态](#update-statuses)的详细信息。
 
 1. 访问渠道配置列表。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 13%
@@ -57,7 +57,7 @@ ht-degree: 13%
 >
 >此功能仅适用于具有管理员权限的[!DNL Customer Journey Analytics]客户。
 >
->在开始之前，请确保已将Journey Optimizer与Customer Journey Analytics集成，以便将Journey Optimizer数据集导出到默认数据视图中。 [了解如何在 [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)中利用 [!DNL Journey Optmizer] 数据
+>在开始之前，请确保已将Journey Optimizer与Customer Journey Analytics集成，以便将Journey Optimizer数据集导出到默认数据视图。 [了解如何在 [!DNL Customer Journey Analytics]](../reports/cja-ajo.md)中利用 [!DNL Journey Optmizer] 数据
 
 个性化优化模型是一种AI模型，可让您定义业务目标，并利用客户数据训练面向业务的模型以提供个性化优惠并最大化KPI。 有关如何创建个性化AI模型的详细信息，请参阅[决策管理文档](../offers/ranking/personalized-optimization-model.md)。
 

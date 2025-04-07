@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b77cac6ba9984139f7fd5cb761759cafb26ccc48
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 31%
 
    * 选择&#x200B;**[!UICONTROL 外部选择加入/订阅]**&#x200B;以插入链接以接受来自您品牌的通信。
 
-   * 选择&#x200B;**[!UICONTROL 外部选择退出/退订]**&#x200B;插入链接以取消订阅以停止接收来自您品牌的通信。 在[此部分中](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
+   * 选择&#x200B;**[!UICONTROL 外部选择退出/退订]**&#x200B;插入链接以取消订阅以停止接收来自您品牌的通信。 在[本节](email-opt-out.md#opt-out-management)中了解有关选择退出管理的更多信息。
 
    * 选择&#x200B;**[!UICONTROL 镜像页面]**&#x200B;以添加指向电子邮件镜像页面的链接。 [了解详情](#mirror-page)
 

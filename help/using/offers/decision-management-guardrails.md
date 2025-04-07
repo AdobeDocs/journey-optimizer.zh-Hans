@@ -1,16 +1,16 @@
 ---
 title: 决策管理护栏和限制
-description: 了解有关决策管理护栏和限制的更多信息。
+description: 详细了解决策管理护栏和限制。
 feature: Decisioning
 role: User
 level: Intermediate
-source-git-commit: b6c31528784c0c8576e3200e7611a6b6cd43d7a7
+exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
-
 
 # 决策管理护栏和限制 {#decision-management-guardrails}
 

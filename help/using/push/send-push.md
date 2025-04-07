@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# 检查并发送推送通知 {#send-push}
+# 检查和发送推送通知 {#send-push}
 
 ## 预览推送通知 {#preview-push}
 
