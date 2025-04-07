@@ -9,19 +9,25 @@ role: User
 level: Intermediate
 keywords: 活动、条件、画布、历程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 8a4315940595113441a5f5fb51a3c6573c79cff3
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1541'
+ht-degree: 14%
 
 ---
 
-# 条件活动{#condition-activity}
+# 条件活动 {#condition-activity}
+
+## 添加条件活动 {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="条件活动"
->abstract="此活动允许您定义个人在历程中的流动方式。根据不同的标准，将会创建多条路径。您还可以创建在出现超时或错误时的替代路径。"
+>abstract="通过&#x200B;**条件**&#x200B;活动，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，从而确保无缝体验。"
+
+通过&#x200B;**条件**&#x200B;活动，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，从而确保无缝体验。
+
+![](assets/journey49.png)
 
 可以使用以下类型的条件：
 
@@ -31,9 +37,9 @@ ht-degree: 17%
 * [日期条件](#date_condition)
 * [配置文件上限](#profile_cap)
 
-![](assets/journey49.png)
+您还可以在历程条件中使用受众。 [了解详情](#using-a-segment)
 
-## 关于条件活动 {#about_condition}
+## 添加和管理条件路径 {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
@@ -48,7 +54,7 @@ ht-degree: 17%
 
 请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将仅执行第一个符合条件的路径。 这意味着，可以通过将路径置于彼此上方或下方来更改路径的优先级。
 
-例如，我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，VIP)通过此步骤，那么即使此人也有资格获得第二条路径，也会选择第一条路径，因为第一条路径是“以上”路径。 要更改此优先级，请以其他垂直顺序移动您的活动。
+让我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，VIP)通过此步骤，那么即使此人也有资格获得第二条路径，也会选择第一条路径，因为第一条路径是“以上”路径。 要更改此优先级，请以其他垂直顺序移动您的活动。
 
 ![](assets/journey48.png)
 
@@ -102,7 +108,7 @@ ht-degree: 17%
 
 ## 百分比拆分 {#percentage_split}
 
-此选项允许您随机拆分受众，以为每个组定义不同的操作。 定义每个路径的分割数和重新分区。 拆分计算是统计性的，因为系统无法预测将在历程的这个活动中流动的人数。 因此，分割具有非常低的误差容限。 此函数基于Java随机机制（请参阅此[页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
+此选项允许您随机拆分受众，以为每个组定义不同的操作。 定义每个路径的分割数和重新分区。 拆分计算是统计性的，因为系统无法预测将在历程的这个活动中流动的人数。 因此，分割具有非常低的误差容限。 此函数基于Java随机机制（请参阅此[页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}）。
 
 在测试模式下，当达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，可以重新组织拆分分支的位置。 请参见[此页面](../building-journeys/testing-the-journey.md)。
 
