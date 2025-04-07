@@ -6,21 +6,21 @@ description: ' [!DNL Adobe Journey Optimizer]中的数据集生存时间护栏'
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-keywords: 平台、数据湖、创建、湖、数据集、轮廓
+keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 0e164877044430509fc7b2f2bf3ca2eda8e7497b
+source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 12%
+source-wordcount: '672'
+ht-degree: 18%
 
 ---
 
-# 数据集生存时间(TTL)护栏 {#ttl-guardrail}
+# 数据集生存时间 (TTL) 护栏 {#ttl-guardrail}
 
-自2025年2月起，在&#x200B;**新沙盒和新组织**&#x200B;中的Journey Optimizer系统生成的数据集中推出生存时间(TTL)护栏，如下所示：
+从 2025 年 2 月起，已在&#x200B;**新沙盒和新组织**&#x200B;中推出用于 Journey Optimizer 系统生成的数据集的生存时间 (TTL) 护栏，如下所示：
 
-* 90天配置文件存储中的数据，
-* 对于数据湖中的数据，为13个月。
+* 配置文件存储中的数据为 90 天，
+* 数据湖中的数据为 13 个月。
 
 此更改将在后续阶段中转出到&#x200B;**现有客户沙盒**。
 
@@ -63,7 +63,7 @@ ht-degree: 12%
 
 +++
 
-+++如果系统生成的数据集数据被推送到[!DNL Customer Journey Analytics] (CJA)，CJA中的数据是否也会受到TTL的影响？
++++如果将系统生成的数据集数据推送到[!DNL Customer Journey Analytics] (CJA)，CJA中的数据是否也会受TTL的影响？
 
 [!DNL Customer Journey Analytics]中的数据与Experience Platform保持同步。 因此，因系统生成的数据集数据的TTL而删除数据也将影响[!DNL Customer Journey Analytics]中的数据。
 
@@ -81,7 +81,7 @@ ht-degree: 12%
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？
 
-当前不支持TTL扩展。 具有Real-Time CDP权限的客户可以通过目标导出数据，以更长时间保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
 
 +++
 
