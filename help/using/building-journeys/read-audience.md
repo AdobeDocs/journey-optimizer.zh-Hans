@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1786'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,41 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="读取受众活动"
 >abstract="利用读取受众活动功能，您可以允许属于 Adobe Experience Platform 受众的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="开始日期/时间"
+>abstract="定义要触发此历程的日期和时间。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="重复直到"
+>abstract="定义定期的结束日期。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="重复间隔"
+>abstract="定义循环调度程序的频率。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="增量读取"
+>abstract="仅允许自上次读取后的新配置文件进入历程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="强制重入"
+>abstract="在读取每个受众之前删除所有历程参与者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="将历程运行与受众导出同步"
+>abstract="启用此选项可在有新的受众导出可用时触发历程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="将历程运行与受众导出同步"
+>abstract="指定历程将等待的持续时间，以确保有新的受众导出可用。"
 
 使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
@@ -46,7 +81,7 @@ ht-degree: 11%
 * 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 
-[此页面](../start/guardrails.md#read-segment-g)上列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
+[此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
 
 
 ## 配置活动 {#configuring-segment-trigger-activity}
