@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 受众组合入门
-description: 了解受众组合的更多信息
+description: 了解有关受众构图的更多信息
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
