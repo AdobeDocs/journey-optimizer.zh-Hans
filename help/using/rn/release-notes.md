@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 63%
+source-wordcount: '761'
+ht-degree: 61%
 
 ---
 
@@ -20,31 +20,33 @@ ht-degree: 63%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
 
 ## 2025年4月更新
 
 ### 改进 {#25-04-improv}
 
-**电子邮件设计工具**
 
-为了增强Journey Optimizer中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`<html>`元素中的`<title>`元素和`lang`属性。 除了电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中的&#x200B;**[!UICONTROL Preheader]**&#x200B;字段外，您还可以定义这些设置。 [了解详情](../email/email-metadata.md)
+* **沙盒工具** — 可用日期： 2025年4月3日
 
-**沙盒工具** — 可用日期： 2025年4月3日
+  您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。 活动会与所有与用户档案、受众、模式、内联消息和依赖对象相关的项目一起复制。 某些项目不会被复制，例如决策项目、数据使用标签和语言设置。 [了解详情](../configuration/copy-objects-to-sandbox.md)
 
-您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。 活动会与所有与用户档案、受众、模式、内联消息和依赖对象相关的项目一起复制。 某些项目不会被复制，例如决策项目、数据使用标签和语言设置。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+* **Personalization** — 发布日期：2025年4月2日
 
-**Personalization** — 发布日期：2025年4月2日
+  默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。 要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充的属性]**&#x200B;选项。 [了解详情](../personalization/personalization-build-expressions.md)
 
-默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。 要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充的属性]**&#x200B;选项。 [了解详情](../personalization/personalization-build-expressions.md)
+* **内容管理** — 发布日期：2025年4月2日
 
-**内容管理** — 发布日期：2025年4月2日
+  为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 在[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分了解详情。
 
-为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 在[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分了解详情。
+  >[!AVAILABILITY]
+  >
+  >这项改进仅适用于一系列组织（限量发布）。
 
->[!AVAILABILITY]
->
->这项改进仅适用于一系列组织（限量发布）。
+* **向Designer发送电子邮件** — 发布日期：2025年4月1日
+
+  为了增强Journey Optimizer中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`<html>`元素中的`<title>`元素和`lang`属性。 除了电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中的&#x200B;**[!UICONTROL Preheader]**&#x200B;字段外，您还可以定义这些设置。 [了解详情](../email/email-metadata.md)
+
 
 ## 2025年3月发行说明 {#25-3-rn}
 
