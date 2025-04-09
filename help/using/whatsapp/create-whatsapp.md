@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '768'
 ht-degree: 3%
 
 ---
@@ -50,15 +50,12 @@ WhatsApp支持以下消息类型：
 | 正文文本 | 通过参数支持动态内容。 |
 | 页脚文本 | 通过参数支持动态内容。 |
 
-以下行动号召选项适用于您的WhatsApp消息：
+以下call-to-action选项适用于您的WhatsApp消息：
 
 | 行动号召 | 描述 |
 |-|-|
-| 呼叫电话号码 | 仅在消息模板中可用。 限制为一个按钮。 |
-| 自定义快速回复按钮 | 最多支持三个按钮。 |
-| 营销选择退出按钮 | 不会自动更新订阅状态。 |
-| 优惠券代码消息模板 | 仅在消息模板中可用。 |
-| CTA响应消息 | 允许在响应消息中包含行动号召按钮。 |
+| 访问网站 | 仅允许一个按钮，并包含变量参数。 |
+
 
 +++
 
@@ -97,6 +94,8 @@ WhatsApp支持以下消息类型：
 1. 在&#x200B;**[!UICONTROL 操作]**&#x200B;部分中，选择&#x200B;**[!UICONTROL WhatsApp]**，然后选择或创建新配置。
 
    在[此页面](whatsapp-configuration.md)上了解有关WhatsApp配置的更多信息。
+
+   ![](assets/whatsapp-campaign-1.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;开始配置内容试验并创建处理以测量其性能并为目标受众确定最佳选项。 [了解详情](../content-management/content-experiment.md)
 
@@ -139,13 +138,19 @@ WhatsApp支持以下消息类型：
 
    [了解有关模板类别的更多信息](https://developers.facebook.com/docs/whatsapp/updates-to-pricing/new-template-guidelines/#template-category-guidelines)
 
+   ![](assets/whatsapp-design-1.png)
+
 1. 从&#x200B;**WhatsApp模板**&#x200B;下拉列表中，选择您之前在Meta中创建的模板。
 
    [了解有关如何创建Whatsapp模板的更多信息](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
+   ![](assets/whatsapp-design-2.png)
+
 1. 使用个性化编辑器向模板中添加个性化。 您可以使用任何属性，例如配置文件名称或城市。
 
    浏览以下页面，了解有关[个性化](../personalization/personalize.md)的更多信息。
+
+   ![](assets/whatsapp-design-3.png)
 
 1. 使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览您的WhatsApp消息内容、缩短的URL和个性化内容。 [了解详情](send-whatsapp.md)
 
