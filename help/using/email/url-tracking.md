@@ -21,7 +21,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="定义 URL 跟踪参数"
->abstract="使用此部分可自动将跟踪参数附加到在电子邮件内容中提供的 URL。此功能属于可选功能。"
+>abstract="使用此部分可自动向电子邮件内容中的 URL 附加跟踪参数。此功能属于可选功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"

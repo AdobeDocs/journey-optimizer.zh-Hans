@@ -138,7 +138,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
->abstract="选择所选的种子列表以自动将特定的内部地址添加到受众。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
+>abstract="选择种子列表，以自动向受众添加特定的内部地址。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 通过 [!DNL Journey Optimizer] 中的种子列表，您可以自动在投放中纳入特定的电子邮件种子地址。[了解详情](../configuration/seed-lists.md)
@@ -164,7 +164,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="调整重试时段"
->abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以调整此默认重试时段以更好地满足您的需求。"
+>abstract="当电子邮件投放由于临时软退回错误失败时，将重试 3.5 天（84 小时）。您可以根据需要调整此默认重试时段。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="关于重试"
 
 您可以配置&#x200B;**电子邮件重试参数**。
