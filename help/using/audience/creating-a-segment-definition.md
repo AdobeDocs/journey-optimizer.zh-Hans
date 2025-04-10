@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: ec3f4b69e510d477d65fedb126cec50e15a3f072
+source-git-commit: 9fcf0e07edad27ab1eac3c29b26888fd99e26751
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 19%
+source-wordcount: '1017'
+ht-degree: 17%
 
 ---
 
@@ -120,11 +120,7 @@ Edge分段功能能够在Adobe Experience Platform的边缘](https://experiencel
 
 首次定义受众后，用户档案将在符合条件时添加到受众。 从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
 
-## [!BADGE 有限发布版 ]{type=Informative} 灵活的受众评估 {#flexible}
-
->[!AVAILABILITY]
->
-灵活的受众评估目前仅面向一部分组织提供（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+## 灵活的受众评估 {#flexible}
 
 Adobe Experience Platform Audience Portal允许您根据需要对所选受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。
 
