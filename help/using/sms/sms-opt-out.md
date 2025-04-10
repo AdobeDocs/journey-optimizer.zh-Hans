@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 18%
+source-wordcount: '568'
+ht-degree: 16%
 
 ---
 
@@ -43,6 +43,12 @@ ht-degree: 18%
 无需执行任何步骤，即可确保短信选择退出功能在Adobe Journey Optimizer中正常工作，因为关键词响应STOP、UNSTOP、START、QUIT、CANCEL、END和UNSUBSCRIBE会被自动识别。 在Adobe Journey Optimizer中实时更新用户档案选择退出状态。
 
 请注意，如果客户对文本消息响应STOP，则提供商会阻止该特定发送者ID（短代码或长数字）中的所有后续SMS，包括事务型消息。 要确保事务性短信的投放不会出现中断，请使用之前未选择退出的单独发件人ID。
+
+
+>[!NOTE]
+>
+>如果您计划使用双向短信（使用STOP、QUIT等回复），请确保您首先至少发送了一次单向短信，以建立电话号码与用户档案的映射。 提供程序凭据过期或配置错误将阻止入站关键词更新用户配置文件，从而导致选择退出记录丢失或延迟。
+
 
 ## 阻止列表 {#sms-blocklists}
 
