@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
+source-git-commit: aa5170ec5d195ec22684d748cd3520dfa8400fed
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 75%
+source-wordcount: '823'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 75%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)中了解有关这些更改的详细信息。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
 
 ## 2025 年 4 月更新
 
@@ -152,6 +152,22 @@ ht-degree: 75%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>灵活的受众评估(GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前，灵活的受众评估可用于一组组织(LA)，现在所有用户均可使用(GA)。 利用此功能，可按需为选定受众运行分段作业，从而确保在将受众定位到Journey Optimizer历程和营销活动之前，您始终拥有最新的受众数据。</p>
+<img src="assets/do-not-localize/flexible-audience.gif">
+<p>有关更多信息，请参阅<a href="../audience/creating-a-segment-definition.md#flexible">详细文档</a>。</p>
+</tr>
+</tbody>
+</table>
+</table>
 
 <!--table>
 <thead>
@@ -202,7 +218,7 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **业务规则**
 
-现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority)中了解有关命名空间优先级的更多信息
+现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
 
 请注意，规则集中的每日频次上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
 
