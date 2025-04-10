@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '1361'
-ht-degree: 100%
+source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 100%
 
 要访问 [!DNL Adobe Journey Optimizer]，请使用 Adobe ID 连接到 [Adobe Experience Cloud](https://experience.adobe.com)，然后选择 [!DNL Journey Optimizer]。
 
-浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide)。{target="_blank"}
+浏览用户界面时的主要概念与 Adobe Experience Platform 中是类似的。如需更多详细信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=zh-Hans#adobe-experience-platform-ui-guide){target="_blank"}。
 
 
 >[!NOTE]
 >
->* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可方案](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
+>* 环境中可用的组件和功能取决于您的[权限](../administration/permissions.md)和[许可包](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何问题，请联系 Adobe 客户成功经理或 Adobe 代表。
 >
 >* 本文档经常更新，以反映产品用户界面的最新更改。但是，某些屏幕截图可能与用户界面略有不同。
 >
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 查询]** - 使用 Adobe Experience Platform Query Service 编写和执行查询，查看先前执行的查询，以及访问由您组织内的用户保存的查询。[了解详情](../data/get-started-queries.md)
 
-* **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target="_blank"}中了解更多信息
+* **[!UICONTROL 监测]** - 使用此菜单可监测 Adobe Experience Platform 用户界面中的数据摄取。请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=zh-Hans){target="_blank"}以了解详情
 
 ### [!UICONTROL 连接] {#left-nav-connections}
 
@@ -248,3 +248,10 @@ ht-degree: 100%
 >id="ajo_exd_placements"
 >title="投放"
 >abstract="投放决定了决策引擎返回的项目在消息中出现的位置。您可以在报告中跟踪其在不同展示投放的性能。"
+
+<!-- Journey Dry Run - DOCAC-12459-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run"
+>title="练习您的旅程"
+>abstract="设计历程后，执行试运行以确认其功能并确保步骤正确无误。 此发布模式允许您烟雾测试历程，而无需向任何用户档案发送通信。"
