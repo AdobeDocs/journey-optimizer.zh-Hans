@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
+source-git-commit: 4a60b9f8c754e161ca156c7644d7241adb9bfc1f
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 63%
+source-wordcount: '692'
+ht-degree: 60%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->条件可以在简单或高级表达式编辑器中定义。它们始终返回布尔类型。
+>* 条件可以在简单或高级表达式编辑器中定义。它们始终返回布尔类型。
 >
->操作参数可以通过选择字段或通过高级表达式编辑器来定义。他们根据表达式返回特定数据类型。
+>* 操作参数可以通过选择字段或通过高级表达式编辑器来定义。他们根据表达式返回特定数据类型。
 
 您可以通过不同方式访问高级表达式编辑器：
 
@@ -83,6 +83,12 @@ ht-degree: 63%
 语法验证机制检查代码的完整性。错误显示在编辑器顶部。
 
 ![](../assets/journey69.png)
+
+
+>[!TIP]
+>
+>在高级表达式编辑器中创建条件时，请确保表达式不包含隐藏或不可打印的字符。 此外，使用单行表达式以避免分析错误。
+
 
 **使用高级表达式编辑器构建条件时需要参数**
 
