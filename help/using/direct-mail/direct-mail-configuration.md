@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 23%
+source-wordcount: '1344'
+ht-degree: 22%
 
 ---
 
@@ -24,11 +24,14 @@ ht-degree: 23%
 
 1. [文件路由配置](#file-routing-configuration)，用于指定导出文件的服务器并在必要时加密文件。
 
-   >[!CAUTION]
-   >
-   >要创建文件路由配置，您需要具有&#x200B;**[!DNL Manage file routing]**&#x200B;内置权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. [将引用文件路由配置的直邮配置](#direct-mail-configuration)。 如果尚未配置任何文件路由选项，您将无法创建直邮配置。
+
+
+>[!CAUTION]
+>
+>* 要创建文件路由配置，您需要具有&#x200B;**[!DNL Manage file routing]**&#x200B;内置权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+>
+>* 直邮文件仅在导出时生成；系统不会无限期存储较旧的导出。 对于更长或永久的备份，请配置文件路由选项（SFTP或云存储）。
 
 ## 轮廓路由 {#file-routing-configuration}
 

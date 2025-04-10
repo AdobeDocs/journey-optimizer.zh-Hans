@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 当直邮营销活动就绪时，单击&#x200B;**[!UICONTROL 激活]**&#x200B;按钮。 活动启动时，将自动生成提取文件并将其导出到[文件路由配置](../direct-mail/direct-mail-configuration.md)中指定的服务器。
 
-发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关报告的更多信息，请参阅此章节。
+发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关直邮报告的详细信息，请参阅[此章节](../reports/campaign-global-report-cja-direct.md)。
 
 ## 管理直邮的同意 {#dm-consent-management}
 
