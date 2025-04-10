@@ -8,17 +8,15 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
-hide: true
-hidefromtoc: true
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# 配置和跟踪您的历程量度 {#success-metrics}
+# 配置和跟踪历程指标 {#success-metrics}
 
 使用历程量度，您可以通过根据预定义量度跟踪活动的表现来有效衡量活动的影响。
 通过跟踪这些指标，您可以查看历程的执行情况，确定需要改进的方面，并做出明智的决策以提高客户参与。
