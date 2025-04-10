@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '2471'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 91%
 
 下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
 
-[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
-在开始之前，您还需要了解[针对实时客户配置文件数据的防护](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}。
+在开始之前，您还需要了解针对Real-time Customer Profile数据](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}的[防护。
 
 ## 支持的浏览器 {#browsers}
 
@@ -60,9 +60,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### Web 渠道护栏 {#web-guardrails}
 
-[!DNL Journey Optimizer] [Web营销活动](../web/get-started-web.md)针对其他渠道中以前未参与过的新用户档案。 这将增加符合资格的用户档案总数，如果超出您购买的符合资格的用户档案的合同数量，则可能会产生成本影响。
+[!DNL Journey Optimizer] [Web 营销活动](../web/get-started-web.md)针对的是以前在其他渠道上没有联系过的新用户档案。这将增加符合资格的用户档案总数，如果超出您购买的符合资格的用户档案的合同数量，则可能会产生成本影响。
 
-[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+[Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
 ### 基于代码的渠道护栏 {#code-based-guardrails}
 
@@ -70,7 +70,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ## 登陆页面护栏 {#lp-guardrails}
 
-以下护栏适用于[登陆页面](../landing-pages/get-started-lp.md)：
+以下护栏适用于[登录页面](../landing-pages/get-started-lp.md)：
 
 * 在单个主页面中只能使用一个&#x200B;**表单**&#x200B;组件。
 * 无法在子页面中使用&#x200B;**表单**&#x200B;组件。
@@ -156,7 +156,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 活动 {#events-g}
 
-以下护栏适用于您的历程中的[事件](../event/about-events.md)：
+以下护栏适用于历程中的[事件](../event/about-events.md)：
 
 * Journey Optimizer 支持的的峰值流量可达每秒 5,000 个入站历程。
 * 事件触发的历程可能最多需要 5 分钟才能处理历程中的第一个操作。
@@ -204,9 +204,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 另请参阅有关如何在[此页面](../building-journeys/read-audience.md)上使用&#x200B;**读取受众**&#x200B;活动的建议。
 * 在检索导出作业时，重试操作会被默认应用于受众触发的历程（从&#x200B;**读取受众**&#x200B;或&#x200B;**业务事件**&#x200B;开始）。如果在创建导出作业期间发生错误，则每 10 分钟重试一次，最多 1 小时。之后，我们将它视为失败。因此，这些类型的历程可以在预定时间之后 1 小时内执行。
 
-### 受众资格 {#audience-qualif-g}
+### 受众资格筛选 {#audience-qualif-g}
 
-以下护栏适用于[受众资格](../building-journeys/audience-qualification-events.md)历程活动：
+以下护栏适用于[受众资格筛选](../building-journeys/audience-qualification-events.md)历程活动：
 
 * “受众资格筛选”活动不能与 Adobe Campaign 活动一起使用。
 
@@ -218,7 +218,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### 应用程序内活动 {#in-app-activity-limitations}
 
-以下护栏适用于&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;操作。 在[此页面](../in-app/create-in-app.md)上了解有关应用程序内消息的更多信息。
+以下护栏适用于&#x200B;**[!UICONTROL 应用程序内消息]**&#x200B;操作。在[此页面](../in-app/create-in-app.md)上了解有关应用程序内消息的更多信息。
 
 * 此功能目前不适用于医疗保健客户。
 

@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 315cd1df52018497c24da29d1b899c9662bfa576
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 61%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)中了解有关这些更改的详细信息。
 
-## 2025年4月更新
+## 2025 年 4 月更新
 
 ### 改进 {#25-04-improv}
 
@@ -37,18 +37,18 @@ ht-degree: 61%
 
 * **内容管理** — 发布日期：2025年4月2日
 
-  为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 在[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分了解详情。
+  为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 要了解更多信息，请参阅[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分。
 
   >[!AVAILABILITY]
   >
-  >这项改进仅适用于一系列组织（限量发布）。
+  >此改进仅面向一部分组织（有限发布版）。
 
 * **向Designer发送电子邮件** — 发布日期：2025年4月1日
 
   为了增强Journey Optimizer中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`<html>`元素中的`<title>`元素和`lang`属性。 除了电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中的&#x200B;**[!UICONTROL Preheader]**&#x200B;字段外，您还可以定义这些设置。 [了解详情](../email/email-metadata.md)
 
 
-## 2025年3月发行说明 {#25-3-rn}
+## 2025 年 3 月发行说明 {#25-3-rn}
 
 
 ### 新功能 {#25-03-features}
@@ -196,15 +196,15 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **配置**
 
-* 您现在可以为渠道配置分配 Adobe Experience Platform 统一标记。这使您能够轻松地对它们进行分类，并改进所有列表中的搜索和导航。 [了解详情](../configuration/channel-surfaces.md#channel-config-tags)
+* 您现在可以为渠道配置分配 Adobe Experience Platform 统一标记。这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。[了解详情](../configuration/channel-surfaces.md#channel-config-tags)
 
-* 在Journey Optimizer中设置或编辑电子邮件子域时，如果您在父域中拥有相关记录，那么您现在可以选择自己管理相关的DMARC记录。 [了解详情](../configuration/dmarc-record.md#set-up-dmarc)
+* 在 Journey Optimizer 中设置或编辑电子邮件子域时，如果在父域中拥有相关记录，那么您现在可以选择自己管理相关的 DMARC 记录。[了解详情](../configuration/dmarc-record.md#set-up-dmarc)
 
 **业务规则**
 
-现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority)中了解有关命名空间优先级的更多信息
 
-请注意，规则集中的每日频率上限仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+请注意，规则集中的每日频次上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
 
 有关业务规则的更多信息，请参阅[详细文档](../configuration/rule-sets.md)。
 
