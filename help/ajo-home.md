@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 94%
 
 >[!BEGINTABS]
 
->[!TAB  2025年3月版]
+>[!TAB 2025 年 3 月版]
 
-3月版现已上线！ 查看发行说明，了解新增功能、更改和改进功能。
+3 月版已上线！查看发行说明，了解新增功能、变化和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
