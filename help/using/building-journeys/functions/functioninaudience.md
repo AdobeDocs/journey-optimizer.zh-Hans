@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inAudience，函数，表达式，历程
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 85a8d0713f87a8b3505a2294402156ba6598c8bb
+source-git-commit: 6e733e94e492fb46014e140b90e2aa47d64d584f
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 6%
+source-wordcount: '231'
+ht-degree: 5%
 
 ---
 
@@ -64,3 +64,8 @@ Adobe Experience Platform
 说明：
 
 如果历程实例中的个人是名为“50岁以上的男性”的Adobe Experience Platform受众的一部分，则函数将返回&#x200B;**[!UICONTROL true]**，否则返回&#x200B;**[!UICONTROL false]**。
+
+
+>[!CAUTION]
+>
+>更改现有受众的名称不会自动更新历程表达式中对该受众的任何引用。 如果条件节点使用inAudience(&#39;oldAudienceName&#39;)，则必须手动编辑表达式以使用新名称。 否则，将导致历程条件中断。
