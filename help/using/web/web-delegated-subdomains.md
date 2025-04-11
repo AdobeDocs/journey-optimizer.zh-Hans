@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子域、配置
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 24%
+source-wordcount: '1076'
+ht-degree: 20%
 
 ---
 
@@ -161,3 +161,37 @@ ht-degree: 24%
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 -->
+
+## 取消委派子域 {#undelegate-subdomain}
+
+如果要取消委派Web子域，请联系您的Adobe代表。
+
+但是，在与Adobe联系之前，您需要在用户界面中执行多个步骤。
+
+>[!NOTE]
+>
+>您只能取消委派状态为&#x200B;**[!UICONTROL 成功]**&#x200B;的子域。 可以从用户界面中删除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失败]**&#x200B;状态的子域。
+
+首先，在[!DNL Journey Optimizer]中执行以下步骤：
+
+1. 取消激活与子域关联的所有渠道配置。 [了解如何操作](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+<!--
+1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+
+1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/modify-stop-campaign.md#stop)
+
+1. 停止与子域关联的活动历程。 [了解如何操作](../building-journeys/end-journey.md#stop-journey)
+
+1. 如果Web子域是[新委派的子域](#web-configure-new-subdomain)，请删除与该子域关联的DNS条目。
+
+完成后，联系Adobe代表，告知您要取消委派的子域。
+
+Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
+
+>[!CAUTION]
+>
+>取消委派子域后：
+>
+>   * 您无法重新激活使用该子域的渠道配置。
+>   * 您不能通过用户界面再次委派确切的子域。 如果您希望这样做，请联系您的Adobe代表。

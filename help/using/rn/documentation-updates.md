@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 92%
+source-wordcount: '1087'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 * 在`inAudience`函数部分中添加了关于重命名受众时的影响和最佳实践的警告说明。 [了解详情](../building-journeys/functions/functioninaudience.md)
 * 添加了有关使用双向短信时的本机关键字用法的建议。 [了解详情](../sms/sms-opt-out.md)
 * 更新了历程测试页面，添加了有关需要在使用的事件中包含身份命名空间的说明。 [了解详情](../building-journeys/testing-the-journey.md)
-
+* 目前，您无法通过[!UICONTROL Journey Optimizer]用户界面取消委派子域 — 必须联系Adobe代表。 电子邮件、登陆页、短信和Web子域部分已更新此信息和在联系Adobe之前要执行的步骤。 [了解详情](../configuration/delegate-subdomain.md#undelegate-subdomain)
 
 ## 2025 年 3 月 {#mar-2025}
 

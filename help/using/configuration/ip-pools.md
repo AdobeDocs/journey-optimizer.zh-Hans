@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、池、组、子域、可投放性
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 11%
@@ -68,7 +68,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->如果没有为IP配置PTR记录，则无法选择该IP。 请联系您的Adobe代表以配置该IP的PTR记录。
+>如果没有为IP配置PTR记录，则无法选择该IP。 请联系您的Adobe代表以配置该IP的PTR记录。<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 创建IP池后，将鼠标悬停在IP池下拉列表下方显示的IP地址上时，会显示PTR信息。
 

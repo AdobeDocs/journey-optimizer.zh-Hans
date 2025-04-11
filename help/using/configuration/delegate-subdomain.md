@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 23%
+source-wordcount: '2039'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 23%
 >
 >子域配置对所有环境通用。 因此，对子域的任何修改也会影响生产沙箱。
 
-## 完全子域委派 {#full-subdomain-delegation}
+## 将子域完全委派给Adobe {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -113,7 +113,7 @@ ht-degree: 23%
 >
 >[!DNL Journey Optimizer]当前不支持并行执行子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，您将收到一条错误消息。
 
-## CNAME 子域设置 {#cname-subdomain-delegation}
+## 使用CNAME设置子域 {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -224,6 +224,47 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 1. **创建转发DNS**：如果这是您委派的第一个子域，Adobe将创建创建PTR记录所需的转发DNS — 每个IP各一个。
 
 1. **创建PTR记录**： ISP需要PTR记录（也称为反向DNS记录），以便它们不会将电子邮件标记为垃圾邮件。 Gmail还建议为每个IP设置PTR记录。 仅当您首次委派子域时，Adobe才会创建PTR记录，每个IP对应一个记录，所有IP都指向该子域。 例如，如果IP是&#x200B;*192.1.2.1*，子域是&#x200B;*email.example.com*，则PTR记录将为： *192.1.2.1PTR r1.email.example.com*。 您可以稍后更新PTR记录以指向新的委派域。 [了解有关PTR记录的更多信息](ptr-records.md)
+
+## 取消委派子域 {#undelegate-subdomain}
+
+如果要取消委派子域，请联系您的Adobe代表。
+
+但是，在与Adobe联系之前，您需要在用户界面中执行多个步骤。
+
+>[!NOTE]
+>
+>您只能取消委派状态为&#x200B;**[!UICONTROL 成功]**&#x200B;的子域。 可以从用户界面中删除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失败]**&#x200B;状态的子域。
+
+首先，在[!DNL Journey Optimizer]中执行以下步骤：
+
+1. 取消激活与子域关联的所有渠道配置。 [了解如何操作](../configuration/channel-surfaces.md#deactivate-a-surface)
+
+1. 取消委派与此子域关联的任何登陆页面子域、短信子域和Web子域。
+
+   >[!NOTE]
+   >
+   >您需要为每个[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-subdomain)或[Web子域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出专用请求。
+
+1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/modify-stop-campaign.md#stop)
+
+1. 停止与子域关联的活动历程。 [了解如何操作](../building-journeys/end-journey.md#stop-journey)
+
+1. 将链接到子域的[PTR记录](ptr-records.md#edit-ptr-record)指向另一个子域。
+
+   >[!NOTE]
+   >
+   >如果这是唯一委派的子域，则可以跳过此步骤。
+
+完成后，联系Adobe代表，告知您要取消委派的子域。
+
+Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
+
+>[!CAUTION]
+>
+>取消委派子域后：
+>
+>   * 您无法重新激活使用该子域的渠道配置。
+>   * 您不能通过用户界面再次委派确切的子域。 如果您希望这样做，请联系您的Adobe代表。
 
 ## 操作方法视频{#video}
 
