@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8a820441ccd8e36280eb001f7912860f7727b7b4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # 应用程序内营销活动报告 {#campaign-global-report-cja-inapp}
+
+>[!IMPORTANT]
+>
+>在报告应用程序内营销活动和历程之前，请确保遵循[此页面](../in-app/inapp-configuration.md#experiment-prerequisites)上提供的报告先决条件。
 
 >[!BEGINSHADEBOX]
 
