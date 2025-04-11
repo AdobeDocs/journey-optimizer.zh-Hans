@@ -8,16 +8,26 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: e8e3b002bf614e49c6ef098b6f2475d65bb47112
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 92%
 
 ---
 
 # 文档更新 {#latest-updates}
 
 此页面列出了 [!DNL Journey Optimizer] 文档中的所有更新。
+
+
+## 2025 年 4 月 {#apr-2025}
+
+* 在直邮配置页面上添加了有关输出文件临时存储的说明。 [了解详情](../direct-mail/direct-mail-configuration.md)
+* 在历程高级表达式编辑器部分中添加了有关条件格式准则的提示。 [了解详情](../building-journeys/expression/expressionadvanced.md)
+* 在`inAudience`函数部分中添加了关于重命名受众时的影响和最佳实践的警告说明。 [了解详情](../building-journeys/functions/functioninaudience.md)
+* 添加了有关使用双向短信时的本机关键字用法的建议。 [了解详情](../sms/sms-opt-out.md)
+* 更新了历程测试页面，添加了有关需要在使用的事件中包含身份命名空间的说明。 [了解详情](../building-journeys/testing-the-journey.md)
+
 
 ## 2025 年 3 月 {#mar-2025}
 
