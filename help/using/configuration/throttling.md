@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: ecb479f0875cfe1865a60667da6e2f84fad5044a
+source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 62%
+source-wordcount: '1014'
+ht-degree: 49%
 
 ---
 
@@ -21,13 +21,14 @@ ht-degree: 62%
 
 本节提供有关如何使用API的全球信息。 [Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/)中提供了详细的API描述。
 
->[!IMPORTANT]
->
->目前，仅允许为每个组织使用一个配置。必须在生产沙盒上定义配置（通过标头中的 x-sandbox-name 提供）。
->
->配置会在组织级别应用。
->
->当达到 API 中设置的限制时，后续事件将排队等待 6 小时。无法修改此值。
+## 必读
+
+* **每个组织一个配置：**&#x200B;当前每个组织只允许一个配置。 必须在生产沙盒上定义配置（通过标头中的`x-sandbox-name`提供）。
+* **组织级别的应用程序：**&#x200B;在组织级别应用了配置。
+* **API限制处理：**&#x200B;当达到API中设置的限制时，其他事件将排队等候最多6小时。 无法修改此值。
+* **`maxHttpConnections`参数：**“maxHttpConnections”参数是可选参数，在Capping API中可用，仅允许您限制Journey Optimizer将打开到外部系统的连接数。 [了解如何使用上限API](../configuration/capping.md)
+
+  如果要限制连接数，但同时限制这些外部调用，则可以在同一端点上配置两个配置，一个限制和一个限制。 两个配置可以针对一个端点共存。 要为节流端点设置“maxHttpConnections”，请使用节流API设置节流阈值，并使用上限API设置“maxHttpConnections”。 在调用上限API时，您可以将上限阈值设置为高于限制阈值的值，以便该上限规则实际上永远不会起作用。
 
 ## 限制API描述和Postman收藏集 {#description}
 
