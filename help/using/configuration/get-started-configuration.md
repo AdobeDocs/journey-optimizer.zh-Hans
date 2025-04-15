@@ -1,39 +1,58 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Journey Optimizer] 配置入门'
-description: 了解有关 [!DNL Journey Optimizer] 配置的更多信息
+title: 开始使用 [!DNL Journey Optimizer] 渠道配置
+description: 了解有关 [!DNL Journey Optimizer] 渠道配置的更多信息
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 配置、进行配置、消息、渠道、沙盒、Optimizer
-source-git-commit: 40bef9a05fef1433773a73d546752e84f81b7366
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 93%
+source-wordcount: '244'
+ht-degree: 48%
 
 ---
 
 
-# [!DNL Journey Optimizer]配置入门 {#start-optimizer-configuration}
+# 渠道配置入门 {#start-optimizer-configuration}
 
 首次访问 [!DNL Journey Optimizer] 时，系统会为您预置一个生产沙盒，并根据合同分配特定数量的 IP。
 
-要创建历程和发送消息，您需要完成以下配置步骤。
 
-## 配置消息和渠道
+要能够发送消息，您需要完成下面列出的配置步骤：
 
-1. 要创建和发送消息，您需要根据渠道执行特定配置。
+1. 作为[Adobe Journey Optimizer系统管理员](../start/path/administrator.md)，定义您的渠道配置。 请在以下页面中了解如何设置这些配置：
 
-   * 对于&#x200B;**电子邮件**&#x200B;渠道，您需要将子域委派到 Adobe 并创建 IP 池，以将 IP 地址分组到一起。[了解详情](../email/get-started-email-config.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../email/get-started-email-config.md"><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png"></a>
+<div align="center"><a href="../email/get-started-email-config.md"><strong>电子邮件</strong></a></div></td>
+<td><a href="../sms/sms-configuration.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../sms/sms-configuration.md"><strong>短信</strong></a></div></td>
+<td><a href="../push/push-configuration.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><a href="../push/push-configuration.md"><strong>推送通知</strong></a></div></td>
+<td><a href="../direct-mail/direct-mail-configuration.md"><img alt="直邮" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>直邮</strong></a></div></td>
+</tr></table>
 
-   * 对于&#x200B;**推送**&#x200B;渠道，您需要在[!DNL Adobe Experience Platform]和[!DNL Adobe Experience Platform Launch]中定义推送通知设置。[了解详情](../push/push-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="../in-app/inapp-configuration.mdd"><img alt="应用程序内" src="../channels/assets/do-not-localize/inapp.jpg"></a>
+<div align="center"><a href="../in-app/inapp-configuration.md"><strong>应用程序内</strong></a></div></td>
+<td><a href="../web/web-configuration.md"><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></a>
+<div align="center"><a href="../web/web-configuration.md"><strong>Web</strong></a></div></td>
+<td><a href="../code-based/code-based-configuration.md"><img alt="基于代码的体验" src="../channels/assets/do-not-localize/code.png"></a>
+<div align="center"><a href="../code-based/code-based-configuration.md"><strong>基于代码的体验</strong></a></div></td>
+<td><a href="../content-card/content-card-configuration-prereq.md"><img alt="内容卡片" src="../channels/assets/do-not-localize/cards.png"></a>
+<div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>内容卡</strong></a></div></td>
+</tr></table>
 
-   * 对于&#x200B;**短信**&#x200B;渠道，您需要配置实例以发送短信，包括将提供商设置与[!DNL Journey Optimizer]集成。[了解详情](../sms/sms-configuration.md)
+>[!NOTE]
+>
+>对于移动渠道，[引导式渠道设置](set-mobile-config.md)有助于快速配置营销渠道，确保所有所需资源在Experience Platform、Journey Optimizer和数据收集中随时可用。 这使您的营销团队能够开始创建营销活动和历程。
 
-1. 完成后，您必须创建&#x200B;**通道配置**&#x200B;以配置传递消息所需的所有技术参数。 [了解详情](channel-surfaces.md)
+1. 完成后，您必须创建&#x200B;**通道配置**&#x200B;以配置传递消息所需的所有技术参数。 [了解有关渠道配置的更多信息](channel-surfaces.md)
 
 1. 您还可以：
 
@@ -44,21 +63,3 @@ ht-degree: 93%
    * 配置&#x200B;**业务规则**&#x200B;以避免过度向收件人发送请求。 [了解详情](../configuration/rule-sets.md)
 
    * 在 Adobe Experience Platform 中存在多个地址/号码时，确定要优先用于收件人的电子邮件地址和/或电话号码。[了解详情](primary-email-addresses.md)
-
-<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
-
->[!NOTE]
->
->这些步骤必须由 [Adobe Journey Optimizer 系统管理员](../start/path/administrator.md)执行。
-
-## 配置历程
-
-要构建历程，您需要配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。[了解详情](about-data-sources-events-actions.md)
-
-![](assets/admin-menu.png)
-
-* **数据源**&#x200B;配置允许您定义与系统的连接，以检索将在历程中使用的其他信息。[了解详情](../datasource/about-data-sources.md)
-
-* **事件**&#x200B;允许您统一触发历程，向流入历程的个人实时发送消息。在事件配置中，您可以配置历程中的预期事件。传入事件的数据按照 Adobe 体验数据模型 (XDM) 进行标准化。事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。[了解详情](../event/about-events.md)
-
-* [!DNL Journey Optimizer]附带内置消息功能，允许您设计和发送内容。如果您使用第三方系统来发送消息，请创建&#x200B;**自定义操作**。[了解详情](../action/action.md)

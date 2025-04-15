@@ -6,9 +6,9 @@ description: 了解如何使用 [!DNL Adobe Journey Optimizer] 通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: ac71350cd344845582e09fa039fb796e9408b048
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -17,39 +17,29 @@ ht-degree: 2%
 
 在当今充满活力的营销形势下，通过各种平台有效地吸引受众对于建立持久的关系和推动参与至关重要。 本节全面概述了[!DNL Adobe Journey Optimizer]中可用的通信渠道，帮助您了解如何在营销策略中有效利用每个渠道。
 
-## 入站和出站渠道 {#inbound-outbound}
-
-了解入站和出站渠道之间的差异对于优化通信策略至关重要：
-
-* 入站渠道：这些渠道允许客户启动交互。 示例包括应用程序内消息传送和基于Web的交互，在这些交互中，用户可以根据自己的术语参与内容。
-
-* 出站渠道：此类渠道涉及在不进行事先交互的情况下向客户发送消息。 例如，电子邮件营销活动和推送通知，您可以在此类活动中主动联系受众。
-
-有效利用这两种渠道可以增强客户体验并促进参与。
-
 ## 可用渠道 {#channels}
 
-Adobe Journey Optimizer提供了多种通信渠道来有效地吸引受众。 以下是您可以利用的渠道列表：
+Adobe Journey Optimizer提供了各种沟通渠道来有效地与您的受众互动。 您可以合并出站和入站频道。
 
-* 出站渠道
+* **出站频道** — 这些涉及在不事先进行交互的情况下向客户发送消息。 例如，电子邮件营销活动和推送通知，您可以主动联系受众。 在[!DNL Adobe Journey Optimizer]中，支持的出站通道为：
 
-   * **电子邮件**：将个性化邮件直接发送到客户的收件箱。
-   * **短信/彩信**：发送短信以联系其移动设备上的用户。
-   * **推送通知**：让用户在设备上即时收到通知，从而推动即时操作。
+   * **电子邮件**：将个性化消息直接发送到客户的收件箱。
+   * **短信/彩信**：发送短信到其移动设备上的用户。
+   * **推送通知**：通过设备上的即时通知吸引用户，从而推动即时操作。
    * **直邮**：利用实体邮件创建与受众的有形连接。
 
-* 入站渠道
+* **入站渠道** — 这些渠道允许客户启动交互。 示例包括应用程序内消息传送和基于Web的交互，在这些交互中，用户可以根据自己的术语参与内容。 在[!DNL Adobe Journey Optimizer]中，支持的入站渠道包括：
 
    * **应用程序内**：与移动或Web应用程序中的用户通信，以增强其体验。
-   * **Web**：使用基于Web的消息传递与浏览您网站的用户进行交互。
-   * **基于代码的体验**：通过编码实现自定义体验，以获取独特的参与机会。
-   * **内容卡**：直接在您的应用程序或网站中共享动态内容，以告知用户并吸引用户参与。
+   * **Web**：使用基于Web的消息与浏览您站点的用户进行交互。
+   * **基于代码的体验**：通过编码实现自定义体验，以获得独特的参与机会。
+   * **内容卡**：直接在您的应用程序或网站中共享动态内容，让用户了解最新信息并参与其中。
 
-## 在历程和营销活动中利用渠道 {#leverage}
+## 在旅程和活动中利用渠道 {#leverage}
 
 在Adobe Journey Optimizer中，您可以在两种主要上下文中利用通信渠道：
 
-* **历程**：创建跨越多个接触点的无缝客户体验。 根据用户行为和偏好自动进行交互，确保及时进行相关的通信以指导用户完成与您的品牌之间的历程。
+* **旅程**：在多个接触点之间创建无缝的客户体验。 根据用户行为和偏好自动进行交互，确保及时且相关的通信指导用户完成其与您的品牌的关系之旅。
 * **营销活动**：部署利用给定渠道实现目标的特定营销活动。 无论是在推广新产品还是推动季节性销售，营销活动都使您能够针对受众制定有针对性的消息传递策略。
 
 让我们开始吧！ 单击以下渠道以深入了解每个渠道，并了解如何在您的营销策略中有效利用它们。
@@ -72,6 +62,6 @@ Adobe Journey Optimizer提供了多种通信渠道来有效地吸引受众。 �
 <div align="center"><a href="../web/get-started-web.md"><strong>Web</strong></a></div></td>
 <td><a href="../code-based/get-started-code-based.md"><img alt="基于代码的体验" src="assets/do-not-localize/code.png"></a>
 <div align="center"><a href="../code-based/get-started-code-based.md"><strong>基于代码的体验</strong></a></div></td>
-<td><a href="../content-card/get-started-content-card.md"><img alt="内容卡片" src="assets/do-not-localize/cards.png"></a>
+<td><a href="../content-card/get-started-content-card.md"><img alt="内容卡" src="assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/get-started-content-card.md"><strong>内容卡</strong></a></div></td>
 </tr></table>

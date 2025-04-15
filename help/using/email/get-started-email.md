@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 电子邮件、开始、创建、预览
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -68,6 +68,43 @@ ht-degree: 100%
 </a>
 <div>
 <a href="email-settings.md"><strong>配置电子邮件渠道</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="../content-management/generative-email.md">
+<img alt="AI 助手" src="../assets/do-not-localize/email-generate.jpg">
+</a>
+<div><a href="../content-management/generative-email.md"><strong>AI Assistant for Content Generation</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="../content-management/fragments.md">
+<img alt="内容片段" src="../assets/do-not-localize/patterns.jpg">
+</a>
+<div>
+<a href="../content-management/fragments.md"><strong>Use email content fragments</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalize.md">
+<img alt="个性化您的内容" src="../assets/do-not-localize/personalize.jpg">
+</a>
+<div>
+<a href="../personalization/personalize.md"><strong>Personalize your email content</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../integrations/assets.md">
+<img alt="Combine your solutions" src="../assets/do-not-localize/colors.jpeg">
+</a>
+<div>
+<a href="../integrations/assets.md"><strong>Combine Adobe apps and solutions</strong></a>
 </div>
 <p>
 </td>
