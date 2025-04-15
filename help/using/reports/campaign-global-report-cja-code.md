@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '852'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 2%
 
 * **模型驱动**：用户接收由AI模型排名的内容，该排名针对相关性和参与度进行了优化。
 
-* **维持**：用户看到内容的通用版本，作为控制组衡量AI模型的有效性。
+* **维持**：用户在模型探索阶段收到随机提供的内容。
 
 显示的关键量度包括：
 
@@ -167,4 +167,4 @@ ht-degree: 2%
 
 * **模型驱动**：用户接收由AI模型排名的内容，该排名针对相关性和参与度进行了优化。
 
-* **维持**：用户看到内容的通用版本，作为控制组衡量AI模型的有效性。
+* **维持**：用户在模型探索阶段收到随机提供的内容。
