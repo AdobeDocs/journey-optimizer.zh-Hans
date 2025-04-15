@@ -5,11 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-badge: label="有限发布版"
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: baf3a8dba9e83e3b82390bd2ab0725b9fc844138
+source-git-commit: 4c0605d6ccff5cd62ef7aeb04e0610342d7cc3d5
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 5%
 
 ---
