@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384ec210fa5414966257b26d1d8b2b87ce962d76
+source-git-commit: f15962bf68c7ea5087e0def33888b06f52d580cd
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 95%
+source-wordcount: '1423'
+ht-degree: 94%
 
 ---
 
@@ -255,3 +255,12 @@ ht-degree: 95%
 >id="ajo_journey_dry_run"
 >title="练习您的旅程"
 >abstract="设计历程后，执行试运行以确认其功能并确保步骤正确无误。 此发布模式允许您烟雾测试历程，而无需向任何用户档案发送通信。"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="Define a Decision policy"
+>abstract="A Decision policy allows you to pick the best items from decision engine and deliver them to the right audience."
