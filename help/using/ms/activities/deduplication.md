@@ -6,7 +6,7 @@ description: 了解如何使用重复数据删除活动
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 53%
@@ -43,7 +43,7 @@ ht-degree: 53%
 
 ![](../assets/workflow-deduplication.png)
 
-1. 将&#x200B;**重复数据删除**&#x200B;活动添加到您的多步骤营销活动。
+1. 将&#x200B;**重复数据删除**&#x200B;活动添加到您的编排营销活动中。
 
 1. 在&#x200B;**用于识别重复项的字段**&#x200B;部分中，单击&#x200B;**添加属性&#x200B;**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。栏位的顺序可让您指定首要处理的条件。
 

@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在多步营销活动中使用等待活动
-description: 了解如何在多步营销活动中使用等待活动
+title: 在编排的活动中使用等待活动
+description: 了解如何在编排的活动中使用等待活动
 hide: true
 hidefromtoc: true
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 77%
@@ -26,7 +26,7 @@ ht-degree: 77%
 
 请按照以下步骤操作，配置&#x200B;**等待**&#x200B;活动：
 
-1. 将&#x200B;**等待**&#x200B;活动添加到您的多步骤营销活动中。
+1. 将&#x200B;**等待**&#x200B;活动添加到您的编排营销活动中。
 
 1. 指定集客过渡和叫客过渡之间等待的&#x200B;**持续时间**。
 

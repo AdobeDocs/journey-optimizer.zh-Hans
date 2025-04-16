@@ -2,11 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用分支活动
-description: 了解如何在多步营销活动中使用分支活动
+description: 了解如何在编排的活动中使用分支活动
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 83%
@@ -34,7 +34,7 @@ ht-degree: 83%
 
 ![](../assets/workflow-fork.png)
 
-1. 将&#x200B;**分支**&#x200B;活动添加到您的多步骤营销活动。
+1. 将&#x200B;**分支**&#x200B;活动添加到您的编排营销活动中。
 1. 单击&#x200B;**添加过渡**&#x200B;以添加新的叫客过渡。默认情况下会定义两个过渡。
 1. 请为每个过渡添加标签。
 

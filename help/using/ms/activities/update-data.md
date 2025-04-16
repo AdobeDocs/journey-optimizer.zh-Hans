@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在多步营销活动中使用更新数据活动
+title: 在编排的活动中使用更新数据活动
 description: 了解如何使用更新数据活动
 hide: true
 hidefromtoc: true
-source-git-commit: dfa6c6e11db10f3e843035d32e322b212361548c
+exl-id: 68e7c929-5f07-4d5a-9831-690e071947f8
+source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 13%
@@ -32,7 +33,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## 配置更新数据活动{#update-data-configuration}
 
-要配置&#x200B;**更新数据**&#x200B;活动，请从将该活动添加到多步骤营销活动并定义标签开始。
+要配置&#x200B;**更新数据**&#x200B;活动，请从将该活动添加到您的编排活动并定义标签开始。
 
 ![](../assets/workflow-update-data.png)
 
@@ -77,6 +78,6 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 后两个选项允许您执行特定操作：
 
-* **生成叫客过渡**：创建将在执行结束时激活的叫客过渡。 更新通常表示定向多步营销活动结束，因此默认不会激活选项。
+* **生成叫客过渡**：创建将在执行结束时激活的叫客过渡。 更新通常表示定位编排的营销活动已结束，因此默认情况下不激活此选项。
 
-* **为拒绝生成叫客过渡**：创建一个叫客过渡，其中包含更新后未正确处理的记录（例如，如果存在重复项）。 更新通常会标记定向多步骤营销活动的结尾，因此默认情况下不激活此选项。
+* **为拒绝生成叫客过渡**：创建一个叫客过渡，其中包含更新后未正确处理的记录（例如，如果存在重复项）。 更新通常标记定向编排的营销活动的结尾，因此默认情况下不激活选项。
