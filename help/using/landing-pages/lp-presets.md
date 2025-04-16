@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登录，登陆页面，配置，环境，子域，预设
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 19%
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
 
@@ -22,11 +22,15 @@ ht-degree: 19%
 >title="创建登陆页面预设"
 >abstract="为了生成登陆页面并通过 Journey Optimizer 使用它，您必须创建一个登陆页面预设，在其中包含要使用的子域。"
 
-在[创建登陆页面](../landing-pages/create-lp.md#create-a-lp)时，您必须选择一个登陆页面预设，以便能够构建登陆页面并通过&#x200B;**[!DNL Journey Optimizer]**&#x200B;利用它。
+## 登陆页面预设入门 {#gs-lp-presets}
+
+在[创建登陆页面](../landing-pages/create-lp.md#create-a-lp)时，您必须选择一个登陆页面预设，以便能够构建登陆页面并通过&#x200B;**[!DNL Journey Optimizer]**&#x200B;利用它。 预设包含用于基于此预设的登陆页面的子域。
+
+在创建预设之前，请确保您之前已配置至少一个登陆页面子域。 [了解如何创建登陆页面子域](lp-subdomains.md)。
 
 ## 访问登陆页面预设 {#access-lp-presets}
 
-要访问登陆页面预设，请执行以下步骤。
+要访问登陆页面预设，请执行以下步骤：
 
 1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单。
 
@@ -40,13 +44,9 @@ ht-degree: 19%
 
 ## 创建登陆页面预设 {#lp-create-preset}
 
-要创建登陆页面预设，请执行以下步骤。
+要创建登陆页面预设，请执行以下步骤：
 
->[!NOTE]
->
->要创建预设，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](lp-subdomains.md)
-
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 登陆页面设置]** > **[!UICONTROL 登陆页面预设]**。
+1. 浏览&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]**&#x200B;菜单，然后选择&#x200B;**[!UICONTROL 登陆页面设置]** > **[!UICONTROL 登陆页面预设]**。
 
 1. 选择&#x200B;**[!UICONTROL 创建登陆页面预设]**。
 
@@ -54,21 +54,17 @@ ht-degree: 19%
 
 1. 输入预设的名称和描述。
 
-   >[!NOTE]
-   >
-   > 名称必须以字母(A-Z)开头。 它只能包含字母数字字符。 您还可以使用下划线 `_`、点 `.` 和连字符 `-` 符号。
+   名称必须以字母(A-Z)开头，并且只包含字母数字字符、下划线`_`、点`.`和连字符`-`字符。
 
 1. 从下拉列表中选择一个登陆页面子域。
 
    ![](assets/lp_preset-subdomain.png)
 
-   >[!NOTE]
-   >
-   >要能够选择子域，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](#lp-subdomains)
+   要能够选择子域，请确保您之前已配置至少一个登陆页面子域。 [了解如何操作](#lp-subdomains)
 
    此时将显示与所选子域对应的设置。
 
-1. 如果要为跟踪URL选择登陆页面子域，请选中&#x200B;**[!UICONTROL 与登陆页面子域相同]**&#x200B;选项。 [了解有关跟踪的更多信息](../email/message-tracking.md)
+1. 通过选中&#x200B;**[!UICONTROL 与登陆页面子域]**&#x200B;相同选项，可以为跟踪URL选择登陆页面子域。 [了解有关跟踪的更多信息](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

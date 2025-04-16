@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2009'
 ht-degree: 20%
 
 ---
@@ -29,19 +29,21 @@ ht-degree: 20%
 >title="子域委派"
 >abstract="要开始发送电子邮件，您需要将子域委派给 Adobe。委派完成后，将为您配置 DNS 记录、收件箱、发件人、回复地址和退回地址。"
 
+## 电子邮件子域入门 {#gs-delegate-subdomain}
+
 域名委派是一种方法，它允许域名（技术上称为DNS区域）的所有者将其细分（技术上称为DNS区域下的细分）委派给另一个实体。 基本上，作为客户，如果您处理“example.com”区域，您可以将子区域“marketing.example.com”委派给Adobe。 了解有关[子域委派](about-subdomain-delegation.md)的更多信息
 
->[!NOTE]
->
->默认情况下，[!DNL Journey Optimizer]允许您委派最多10个子域。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
+默认情况下，[!DNL Journey Optimizer]允许您最多委派&#x200B;**10个子域**。 但是，根据您的许可合同，您最多可以委派 100 个子域。请联系您的 Adobe 联系人，以进一步了解您有权使用的子域数量。
 
-您可以完全委派子域，或使用CNAME创建子域以指向特定于Adobe的记录。
+您可以完全委托子域，或使用CNAME创建子域以指向Adobe特定的记录。
+
+建议使用完全子域委派。 了解有关[子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods)之间差异的详细信息。
+
+子域配置&#x200B;**对所有环境通用**。 因此，对子域的任何修改也会影响生产沙盒。
 
 >[!CAUTION]
 >
->建议使用完全子域委派方法。 详细了解[子域配置方法](about-subdomain-delegation.md#subdomain-delegation-methods)之间的差异。
->
->子域配置对所有环境通用。 因此，对子域的任何修改也会影响生产沙箱。
+>[!DNL Journey Optimizer]不支持并行提交子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，则会收到一条错误消息。
 
 ## 将子域完全委派给Adobe {#full-subdomain-delegation}
 
@@ -87,31 +89,24 @@ ht-degree: 20%
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
-   >[!NOTE]
-   >
-   >您可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录并稍后提交子域配置。 然后，您可以通过从子域列表中打开子域委派来恢复子域委派。
+   您可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录并稍后提交子域配置。 然后，您可以通过从子域列表中打开子域委派来恢复子域委派。
 
-1. 子域显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](about-subdomain-delegation.md#access-delegated-subdomains)。
+1. 子域显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的更多信息，请参阅[此部分](about-subdomain-delegation.md#access-delegated-subdomains)。
 
    ![](assets/subdomain-processing.png)
 
-   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，最多可能需要3小时。 有关详细信息，请参阅[此部分](#subdomain-validation)。
+   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，这最多可能需要3个小时。 有关详细信息，请参阅[此部分](#subdomain-validation)。
 
    >[!NOTE]
    >
-   >任何丢失的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
+   >任何缺少的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
 
-1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它随时可用于投放消息。
+1. 检查成功后，子域将获得&#x200B;**[!UICONTROL 成功]**&#x200B;状态。 它随时可用于投放消息。
 
-   >[!NOTE]
-   >
-   >如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
+   如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
 
 在[!DNL Journey Optimizer]中将子域委派给Adobe后，将自动创建PTR记录并与该子域关联。 [了解详情](ptr-records.md)
 
->[!CAUTION]
->
->[!DNL Journey Optimizer]当前不支持并行执行子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，您将收到一条错误消息。
 
 ## 使用CNAME设置子域 {#cname-subdomain-delegation}
 
@@ -131,13 +126,13 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 >[!CAUTION]
 >
->如果贵组织的策略限制完全子域委派方法，则建议使用CNAME方法。 此方法要求您自行维护和管理DNS记录。 Adobe将无法协助更改、维护或管理通过CNAME方法配置的子域的DNS。
+>如果贵组织的策略限制完全子域委派方法，则建议使用CNAME方法。 此方法要求您自行维护和管理DNS记录。 Adobe将无法帮助更改、维护或管理通过CNAME方法配置的子域的DNS。
 
-➡️[在此视频中了解如何使用CNAME创建子域以指向特定于Adobe的记录](#video)
+➡️[了解如何在此视频中使用CNAME创建子域以指向Adobe特定的记录](#video)
 
 要使用CNAME设置子域，请执行以下步骤：
 
-1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 渠道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
+1. 访问&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 通道]** > **[!UICONTROL 电子邮件设置]** > **[!UICONTROL 子域]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 设置子域]**。
 
 1. 选择&#x200B;**[!UICONTROL CNAME设置]**&#x200B;方法。
 
@@ -147,7 +142,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
    >[!CAUTION]
    >
-   >不允许将无效子域委派给Adobe。 确保输入贵组织拥有的有效子域，如marketing.yourcompany.com。
+   >不得将无效子域委派给Adobe。 请确保输入贵组织&#x200B;**拥有的**&#x200B;的有效子域，如marketing.yourcompany.com。
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -163,15 +158,13 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 1. 单击&#x200B;**[!UICONTROL 继续]**。
 
-   >[!NOTE]
-   >
-   >稍后可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录。 然后，在此阶段，您可以通过从子域列表中打开子域委派来恢复子域委派。
+   稍后可以使用&#x200B;**[!UICONTROL 另存为草稿]**&#x200B;按钮创建记录。 然后，您可以在此阶段通过从子域列表中打开子域委托来恢复子域委派。
 
-1. 请等待，直到Adobe验证在您的托管解决方案上生成的记录没有错误。 此过程最多可能需要2分钟。
+1. 等待至Adobe验证是否在您的托管解决方案上生成了无错误的记录。 此过程可能需要2分钟。
 
    >[!NOTE]
    >
-   >任何丢失的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
+   >任何缺少的记录（即尚未在您的托管解决方案上创建的记录）都将被列出。
 
 1. Adobe生成一个SSL CDN URL验证记录。 将此验证记录复制到您的托管平台。 如果您已在托管解决方案上正确创建此记录，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -185,23 +178,16 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 1. 一旦检查成功<!--i.e Adobe validates the record you created and installs it-->，子域将获得&#x200B;**[!UICONTROL 成功]**&#x200B;状态。 它随时可用于投放消息。
 
-   >[!NOTE]
-   >
-   >如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
+   如果您无法在托管解决方案上创建验证记录，则子域将标记为&#x200B;**[!UICONTROL 失败]**。
 
 在验证记录并安装证书后，Adobe会自动为CNAME子域创建PTR记录。 [了解详情](ptr-records.md)
 
->[!CAUTION]
->
->[!DNL Journey Optimizer]当前不支持并行执行子域。 如果尝试在子域处于&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态时提交子域以进行委派，您将收到一条错误消息。
 
 ## 子域验证 {#subdomain-validation}
 
 将执行以下检查和操作，直到验证子域并可用于发送消息为止。
 
->[!NOTE]
->
->这些步骤由Adobe执行，最多可能需要3小时。
+这些步骤由Adobe执行，可能需要&#x200B;**最多3个小时**。
 
 1. **预验证**：Adobe检查子域是否已委派给Adobe DNS（NS记录、SOA记录、区域设置、所有权记录）。 如果预验证步骤失败，则会返回一个错误及相应原因，否则Adobe会继续执行下一步。
 
@@ -241,9 +227,7 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 1. 取消委派与此子域关联的任何登陆页面子域、短信子域和Web子域。
 
-   >[!NOTE]
-   >
-   >您需要为每个[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-subdomain)或[Web子域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出专用请求。
+   您需要为每个[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-subdomain)或[Web子域](../web/web-delegated-subdomains.md#undelegate-subdomain)提出专用请求。
 
 1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/modify-stop-campaign.md#stop)
 
@@ -251,19 +235,17 @@ CNAME子域设置允许您创建子域，并使用CNAME指向Adobe特定的记�
 
 1. 将链接到子域的[PTR记录](ptr-records.md#edit-ptr-record)指向另一个子域。
 
-   >[!NOTE]
-   >
-   >如果这是唯一委派的子域，则可以跳过此步骤。
+   如果这是唯一委派的子域，则可以跳过此步骤。
 
-完成后，联系Adobe代表，告知您要取消委派的子域。
+完成后，请联系您的Adobe代表，询问您要取消委派的子域。
 
-Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
+在Adobe处理您的请求后，未委派的域不再显示在子域清单页面上。
 
 >[!CAUTION]
 >
->取消委派子域后：
+>取消委派子域之后：
 >
->   * 您无法重新激活使用该子域的渠道配置。
+>   * 您无法重新激活使用该子域的通道配置。
 >   * 您不能通过用户界面再次委派确切的子域。 如果您希望这样做，请联系您的Adobe代表。
 
 ## 操作方法视频{#video}
