@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 86%
+source-wordcount: '1162'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 86%
 
 ## 2025 年 4 月 {#apr-2025}
 
+* 配置章节现在分为三章：[渠道配置](../configuration/get-started-configuration.md)、[历程配置](../configuration/about-data-sources-events-actions.md)和[连接您的系统](../configuration/ajo-apis.md)。
+* 添加了有关在历程表达式和条件中使用体验事件的警告说明。 [了解详情](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* 现在，已为[电子邮件](../configuration/delegate-subdomain.md#undelegate-subdomain)、[短信](../sms/sms-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)、[Web体验](../web/web-delegated-subdomains.md#undelegate-a-subdomain-undelegate-subdomain)和[登陆页面](../landing-pages/lp-subdomains.md#undelegate-subdomain)详细说明了取消委派子域的步骤。
 * 在直邮配置页面上添加了有关输出文件临时存储的说明。 [了解详情](../direct-mail/direct-mail-configuration.md)
 * 在历程高级表达式编辑器部分中添加了有关条件格式准则的提示。 [了解详情](../building-journeys/expression/expressionadvanced.md)
 * 在`inAudience`函数部分中添加了关于重命名受众时的影响和最佳实践的警告说明。 [了解详情](../building-journeys/functions/functioninaudience.md)

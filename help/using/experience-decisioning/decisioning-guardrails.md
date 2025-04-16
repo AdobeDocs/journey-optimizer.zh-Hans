@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 17%
@@ -22,8 +22,8 @@ ht-degree: 17%
 
 | 护栏 | 限制 |
 | ------- | ------- |
-| 利用Edge分段功能的基于代码的体验API请求和决策策略 | 1500 |
-| 具有决策策略的基于代码的体验API请求不利用Edge分段 | 5000 |
+| 使用Edge分段功能的基于代码的体验API请求，其中包含决策策略 | 1500 |
+| 具有不使用Edge分段的决策策略的基于代码的体验API请求 | 5000 |
 
 ## 物料集合
 

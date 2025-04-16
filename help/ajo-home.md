@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 新增功能
 
-概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。要及时了解我们文档的最新更改，请访问[文档更新页面](using/rn/documentation-updates.md)。
+概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。请访问[文档更新页面](using/rn/documentation-updates.md)，以便及时了解产品文档中的最新更改。
 
 >[!BEGINTABS]
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 历程，集成，标准，营销活动， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -53,7 +53,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->在将用户档案的事务型模板用于电子邮件时，Adobe Campaign Standard会自动处理退订机制。 要实施此操作，您可以在[事务性电子邮件模板](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)中轻松包含&#x200B;**[!UICONTROL 退订链接]**&#x200B;内容块。 但是，如果您使用基于事件的模板(rtEvent)，则必须在消息中合并一个链接，以将收件人的电子邮件作为URL参数传递，并将他们定向到退订登陆页面。 必须创建此登陆页面，并确保将收件人取消订阅的决策有效地传输到Adobe。
+>将用户档案的事务型模板用于电子邮件时，Adobe Campaign Standard会自动处理退订机制。 要实施此操作，您可以在[事务性电子邮件模板](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)中轻松包含&#x200B;**[!UICONTROL 退订链接]**&#x200B;内容块。 但是，如果您使用基于事件的模板(rtEvent)，则必须在消息中合并一个链接，以将收件人的电子邮件作为URL参数传递，并将他们定向到退订登陆页面。 必须创建此登陆页面，并确保将收件人取消订阅的决策有效传输到Adobe。
 
 首先，您需要选择事务型消息传递模板。
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 
 ## 推送 {#section_im3_hvf_nhb}
 
-在使用推送活动之前，需要在Campaign Standard的同时配置您的移动应用程序，以发送推送通知。 使用此[文章](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)为移动设备执行必要的实施步骤。
+在使用推送活动之前，需要配置您的移动设备应用程序以及Campaign Standard以发送推送通知。 使用此[文章](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)为移动设备执行必要的实施步骤。
 
 首先，您需要从下拉列表中选择移动设备应用程序和事务型消息。
 

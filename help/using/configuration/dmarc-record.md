@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
