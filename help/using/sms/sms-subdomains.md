@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 20%
@@ -34,7 +34,7 @@ ht-degree: 20%
 >abstract="为了能够创建短信配置，请确保您之前已至少配置了一个短信子域，以便从子域名称列表中选择。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="创建短信配置"
 
-# 短信子域入门 {#gs-sms-mms-subdomains}
+## 短信子域入门 {#gs-sms-mms-subdomains}
 
 若要能够缩短添加到SMS/MMS消息的URL，您必须设置在[创建SMS配置](sms-configuration.md#message-preset-sms)时将选择的子域。
 
