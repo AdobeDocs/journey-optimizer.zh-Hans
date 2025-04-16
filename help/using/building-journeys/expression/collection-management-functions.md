@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 0d6b0cad90dbeded671a79732a6f101289568f81
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,13 @@ ht-degree: 1%
 例如，在所有应用程序用户中，您可以使用IOS 13(布尔表达式“IOS 13==使用的应用程序”)获取这些用户。 此函数的结果是包含与布尔表达式匹配项目的过滤列表（例如：应用程序用户1、应用程序用户34、应用程序用户432）。
 
 在数据Source条件活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL 所有]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）组合。 有关详细信息，请参阅[数据Source条件活动](../condition-activity.md#data_source_condition)。
+
+
+## 示例
+
+>[!CAUTION]
+>
+>支持在历程表达式/条件中使用体验事件，但不建议这样做。 如果您的用例需要使用体验事件，请考虑替代方法，如[计算属性](../../audience/computed-attributes.md)，或者使用事件创建区段并将该区段合并到[`inAudience`表达式中](../../building-journeys/functions/functioninaudience.md)。
 
 **示例1：**
 

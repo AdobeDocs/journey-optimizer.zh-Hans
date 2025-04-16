@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 773f5430242901a08c1609f3229f21d5d4e100ea
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,18 @@ ht-degree: 1%
 
 高级表达式编辑器可用于创建条件，以允许您在历程中筛选用户。 通过这些条件，可按时间、日期、位置、持续时间或操作（例如购买或放弃购物车）定位用户，以便在历程中重新定位他们。
 
->[!NOTE]
+>[!CAUTION]
 >
->事件以@开头，数据源以#开头。
+>支持在历程表达式/条件中使用体验事件，但不建议这样做。 如果您的用例需要使用体验事件，请考虑替代方法，如[计算属性](../../audience/computed-attributes.md)，或者使用事件创建区段并将该区段合并到[`inAudience`表达式中](../../building-journeys/functions/functioninaudience.md)。
+
 
 ## 基于体验事件构建条件
 
 高级表达式编辑器必须对时间序列执行查询，例如消息的购买或过去点击列表。 无法使用简单编辑器执行此类查询。
+
+>[!NOTE]
+>
+>事件以@开头，数据源以#开头。
 
 体验事件作为收藏集从Adobe Experience Platform中按反时间顺序进行检索，因此：
 
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **此表达式将查找过去7天内为该用户指定的所有事件：**
 
