@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer 构建于 Adobe Experience Platform 之上，以原生方式连接到 [Adobe Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。此内置数据源已预配置，旨在检索和使用 Real-time Customer Profile 中的数据（例如，检查进入历程的人员是否为客户）。该数据源允许您使用轮廓数据和体验事件数据。[了解详情](../datasource/adobe-experience-platform-data-source.md)。
+> Adobe Journey Optimizer构建于Adobe Experience Platform之上，原生连接到[Adobe实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。 此内置数据源已预配置，旨在检索和使用 Real-time Customer Profile 中的数据（例如，检查进入历程的人员是否为客户）。该数据源允许您使用轮廓数据和体验事件数据。[了解详情](../datasource/adobe-experience-platform-data-source.md)。
 >
 
 ## 了解 Adobe Customer Journey Analytics {#integration-cja}
@@ -82,13 +82,13 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 使用 Adobe Workfront 中的 Adobe Journey Optimizer 模块创建、读取、更新或删除记录，或执行对 Adobe Journey Optimizer API 的自定义 API 调用。
 
-有关此集成的关键步骤的概述，请参阅[这篇博客文章](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
+此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-请在 [Adobe Workfront 文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans)中详细了解关于 Journey Optimizer + Adobe Workfront 的信息。{target="_blank"}
+在Journey Optimizer文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront [的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 
-如果您使用第三方系统发送消息，或者如果您希望历程将 API 调用发送到第三方系统，请使用自定义操作连接到您的历程。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等。
+如果您使用第三方系统发送消息，或者如果您希望历程将 API 调用发送到第三方系统，请使用自定义操作连接到您的历程。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
 自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。在[此页面](../building-journeys/about-journey-activities.md#action-activities)上了解详情。
 

@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙盒，虚拟，环境，组织，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 59%
+ht-degree: 52%
 
 ---
 
@@ -20,11 +20,9 @@ ht-degree: 59%
 
 ## 使用沙盒 {#using-sandbox}
 
-[!DNL Journey Optimizer] 允许您将实例分区为称为沙盒的分隔虚拟环境。
-沙盒通过权限中的角色进行分配。 [了解如何分配沙盒](permissions.md#create-product-profile)。
+[!DNL Journey Optimizer]允许您将实例分区为称为沙箱的分隔虚拟环境。 沙盒通过权限中的角色进行分配。 [了解如何分配沙盒](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer] 反映为给定组织创建的 Adobe Experience Platform 沙盒。
-可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
+[!DNL Journey Optimizer]反映为给定组织创建的Adobe Experience Platform沙箱。 可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。[在沙盒用户指南中了解详情](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
 您可以在屏幕右上角组织名称旁边找到沙盒切换器控件。 要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。
 

@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: analytics，集成， web sdk，平台
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->此部分仅适用于需要使用Adobe Analytics或Web SDK数据的基于规则的事件和客户。
+>本节仅适用于需要使用Adobe Analytics或Web SDK数据的基于规则的事件和客户。
 > 
 >如果您使用的是Adobe Customer Journey Analytics，请参阅[此页面](../reports/cja-ajo.md)。
 >
@@ -80,7 +80,7 @@ ht-degree: 5%
 
 1. 在确认环境已就绪后，您可以在历程中使用Adobe Analytics数据。
 
-## 使用Adobe Analytics或Web SDK数据创建包含事件的历程 {#event-analytics}
+## 使用Adobe Analytics或Web SDK数据创建包含事件的旅程 {#event-analytics}
 
 您现在可以基于要在历程中使用的Adobe Analytics或Adobe Experience Platform Web SDK数据创建事件。
 
