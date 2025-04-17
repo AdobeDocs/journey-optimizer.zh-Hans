@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1752'
 ht-degree: 15%
 
 ---
@@ -163,6 +163,10 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >删除后，无法再访问决策项目及其内容。 此操作无法撤消。 如果决策项用在收藏集或决策中，则无法删除该决策项。 必须先从任何对象中删除决策项。
+  >删除后，无法再访问决策项目及其内容。 此操作无法撤消。
+
+  如果批准的选件项目用在收藏集或决策中，则无法删除这些项目。 要删除它们，请将它们的状态更改为“草稿”。 为此，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 撤消批准]**。
+
+  ![](assets/item-undo.png)
 
 * **[!UICONTROL 存档]**：将决策项状态设置为&#x200B;**[!UICONTROL 已存档]**。 该决策项仍然可以从列表中获得，但您不能将其状态设置回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已批准]**。 您只能复制或删除它。
