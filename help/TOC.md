@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2335'
 ht-degree: 89%
 
 ---
@@ -738,7 +738,7 @@ ht-degree: 89%
       + [配置自定义操作](using/action/about-custom-action-configuration.md)
       + [自定义操作故障排除](using/action/troubleshoot-custom-action.md)
       + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
-+ 连接您的系统{#connect-systems}
++ 连接您的系统和环境 {#connect-systems}
    + [使用Journey Optimizer API](using/configuration/ajo-apis.md)
    + 将您的历程与外部系统集成 {#external-systems}
       + [与外部系统的历程集成](using/configuration/external-systems.md)
@@ -748,8 +748,10 @@ ht-degree: 89%
       + [历程与Campaign Standard集成](using/action/acs-action.md)
       + [与Campaign v7/v8的历程集成](using/action/acc-action.md)
       + [历程与Marketo Engage集成](using/action/marketo-engage.md)
+   + 沙盒管理 {#sandbox}
+      + [使用和分配沙箱](using/administration/sandboxes.md)
+      + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
    + [配置源连接器](using/start/get-started-sources.md)
-   + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
 + 访问控制 {#access-control}
    + 访问控制概述 {#privacy}
       + [用户管理入门](using/administration/permissions-overview.md)
@@ -759,7 +761,6 @@ ht-degree: 89%
    + [管理用户和角色](using/administration/permissions.md)
    + [基于属性的访问控制](using/administration/attribute-based-access.md)
    + [对象级访问控制](using/administration/object-based-access.md)
-   + [沙盒管理](using/administration/sandboxes.md)
 + 隐私 {#privacy}
    + [隐私入门](using/privacy/get-started-privacy.md)
    + [隐私请求](using/privacy/requests.md)

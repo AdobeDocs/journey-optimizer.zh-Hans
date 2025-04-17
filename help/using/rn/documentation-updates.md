@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
+source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 80%
+source-wordcount: '1251'
+ht-degree: 77%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 80%
 * 目前，您无法通过[!UICONTROL Journey Optimizer]用户界面取消委派子域 — 必须联系Adobe代表。 电子邮件、登陆页、短信和Web子域部分已更新此信息和在联系Adobe之前要执行的步骤。 [了解详情](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 添加了有关历程上限API中可选`maxHttpConnections`参数的说明，包括有关如何将其与同一端点的限制配置一起使用的指南。 [了解详情](../configuration/throttling.md)
 * 在Experience Decisioning部分中添加了指南，说明如果批准的优惠项目用在收藏集或决策中，则无法删除这些项目。 包括使用&#x200B;**[!UICONTROL 撤消批准]**&#x200B;选项将其状态更改为“草稿”的步骤。 [了解详情](../experience-decisioning/items.md#manage)
+* 有关沙盒的信息已分组到新的“沙盒管理”部分。 此新部分提供了有关如何使用和分配沙盒以及如何使用包导出和导入功能在多个沙盒中复制对象（如历程、内容模板或片段）的信息。 [了解详情](../administration/sandboxes.md)
 
 ## 2025 年 3 月 {#mar-2025}
 
