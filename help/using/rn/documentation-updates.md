@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: a2d23466d62b3b1df6f8024e3f68414b18bf0b88
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 83%
+source-wordcount: '1202'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 83%
 * 更新了历程测试页面，添加了有关需要在使用的事件中包含身份命名空间的说明。 [了解详情](../building-journeys/testing-the-journey.md)
 * 目前，您无法通过[!UICONTROL Journey Optimizer]用户界面取消委派子域 — 必须联系Adobe代表。 电子邮件、登陆页、短信和Web子域部分已更新此信息和在联系Adobe之前要执行的步骤。 [了解详情](../configuration/delegate-subdomain.md#undelegate-subdomain)
 * 添加了有关历程上限API中可选`maxHttpConnections`参数的说明，包括有关如何将其与同一端点的限制配置一起使用的指南。 [了解详情](../configuration/throttling.md)
+* 在Experience Decisioning部分中添加了指南，说明如果批准的优惠项目用在收藏集或决策中，则无法删除这些项目。 包括使用&#x200B;**[!UICONTROL 撤消批准]**&#x200B;选项将其状态更改为“草稿”的步骤。 [了解详情](../experience-decisioning/items.md#manage)
 
 ## 2025 年 3 月 {#mar-2025}
 
