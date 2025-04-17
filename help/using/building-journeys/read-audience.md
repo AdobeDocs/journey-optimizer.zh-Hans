@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -28,22 +28,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="开始日期/时间"
->abstract="定义要触发此历程的日期和时间。"
+>abstract="定义您想要触发此历程的日期和时间。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="重复直到"
->abstract="定义定期的结束日期。"
+>abstract="定义定期事件的结束日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
->title="重复间隔"
->abstract="定义循环调度程序的频率。"
+>title="重复每一次"
+>abstract="定义定期调度程序的频率。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="增量读取"
->abstract="仅允许自上次读取后的新配置文件进入历程。"
+>abstract="仅允许自上次读取后的新轮廓进入历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
@@ -53,12 +53,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="将历程运行与受众导出同步"
->abstract="启用此选项可在有新的受众导出可用时触发历程。"
+>abstract="一旦有新的受众导出可用，请切换此选项以触发历程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="将历程运行与受众导出同步"
->abstract="指定历程将等待的持续时间，以确保有新的受众导出可用。"
+>abstract="指定历程等待的持续时间，以确保有最新的受众导出可用。"
 
 使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 

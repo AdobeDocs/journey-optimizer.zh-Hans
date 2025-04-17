@@ -12,7 +12,7 @@ exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="进一步了解强制的DMARC更新"
+>title="详细了解强制 DMARC 更新"
 >abstract="自 **2024 年 2 月 1 日**&#x200B;起，作为执行行业最佳实践的举措之一，Google 和 Yahoo 都会要求您用于向它们发送电子邮件的任何域都必须有 **DMARC 记录**。<br>因此，您必须确保为您在 Journey Optimizer 中委托给 Adobe 的所有子域设置 DMARC 记录。"
 
 基于域的消息身份验证、报告和符合性 (DMARC) 是一种电子邮件身份验证方法，允许域所有者保护其域免遭未经授权使用。向电子邮件提供商/ISP 提供明确的策略，这有助于防止恶意行为者假冒您的域发送电子邮件。实施 DMARC 可降低合法电子邮件被标记为垃圾邮件或拒绝的风险，并改进电子邮件可传递性。
@@ -66,8 +66,8 @@ ht-degree: 98%
 
 **有用链接**
 
-* 要了解有关 DMARC 的更多信息，请参阅[可传递性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}
-* 阅读 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 在[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}中了解有关DMARC的更多信息
+* 阅读[Google Gmail公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 * 阅读 [Yahoo! 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

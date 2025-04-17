@@ -12,20 +12,20 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '1541'
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
 # 条件活动 {#condition-activity}
 
-## 添加条件活动 {#add-condition-activity}
+## 添加一个条件活动 {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="条件活动"
->abstract="通过&#x200B;**条件**&#x200B;活动，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，从而确保无缝体验。"
+>abstract="您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。"
 
-通过&#x200B;**条件**&#x200B;活动，您可以根据特定条件创建多个路径，以定义个人如何在您的历程中前进。 您还可以配置备用路径来处理超时或错误，从而确保无缝体验。
+您可以使用&#x200B;**条件**&#x200B;活动根据特定条件创建多条路径，以定义个人在您的历程中的进展情况。您还可以配置备用路径来处理超时或错误，以确保获得无缝的体验。
 
 ![](assets/journey49.png)
 
@@ -67,7 +67,7 @@ ht-degree: 14%
 
 ![](assets/journey64.png)
 
-如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在旅程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
+如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}创建受众，则可以在历程条件中利用它们。 请参阅[在条件](../building-journeys/condition-activity.md#using-a-segment)中使用受众。
 
 
 >[!NOTE]

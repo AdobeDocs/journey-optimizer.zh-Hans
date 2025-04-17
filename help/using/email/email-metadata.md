@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 向电子邮件内容添加元数据
+title: 将元数据添加到您的电子邮件内容
 description: 了解如何使用Journey Optimizer中的元数据提高电子邮件内容的可读性和可访问性
 feature: Email Design
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
-# 向电子邮件内容添加元数据 {#email-metadata}
+# 将元数据添加到您的电子邮件内容 {#email-metadata}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

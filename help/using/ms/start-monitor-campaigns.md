@@ -9,11 +9,11 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 开始并监控编排的营销活动 {#start-monitor}
+# 启动和监测精心策划的营销活动 {#start-monitor}
 
 <!--
 <audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="发布精心策划的营销活动"
->abstract="要启动营销策划，您必须发布它。 确保在发布之前清除所有警告。"
+>abstract="要开始您的营销活动，您必须发布它。确保在发布之前清除所有警告。"
 
 
 创建经过编排的任务并设计好要在画布中执行的任务后，您就可以发布它并监控其执行方式。
