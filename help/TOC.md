@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 31e88f02ed2569357a31552db717225d7f37a1eb
+source-git-commit: 270dac97dce9e12795f5c99e2da3cbf6a5afd876
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2330'
 ht-degree: 89%
 
 ---
@@ -739,14 +739,14 @@ ht-degree: 89%
       + [自定义操作故障排除](using/action/troubleshoot-custom-action.md)
       + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
 + 连接您的系统{#connect-systems}
-   + [ADOBE JOURNEY OPTIMIZER API](using/configuration/ajo-apis.md)
-   + 使用历程API {#external-systems}
-      + [历程与外部系统的集成](using/configuration/external-systems.md)
+   + [使用Journey Optimizer API](using/configuration/ajo-apis.md)
+   + 将您的历程与外部系统集成 {#external-systems}
+      + [与外部系统的历程集成](using/configuration/external-systems.md)
       + [API 上限](using/configuration/capping.md)
       + [API 限制](using/configuration/throttling.md)
    + 与Adobe解决方案一起发送 {#adobe-solutions}
-      + [历程与Adobe Campaign Standard集成](using/action/acs-action.md)
-      + [历程与Adobe Campaign v7/v8集成](using/action/acc-action.md)
+      + [历程与Campaign Standard集成](using/action/acs-action.md)
+      + [与Campaign v7/v8的历程集成](using/action/acc-action.md)
       + [历程与Marketo Engage集成](using/action/marketo-engage.md)
    + [配置源连接器](using/start/get-started-sources.md)
    + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
