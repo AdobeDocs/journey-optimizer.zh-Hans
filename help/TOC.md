@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8998e4c6c1eca4e0cd6c0336df781eb6628b118d
+source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2342'
 ht-degree: 89%
 
 ---
@@ -177,13 +177,14 @@ ht-degree: 89%
    + [关键原则](using/ms/gs-campaign-creation.md)
    + 配置 {#ms-config}
       + [配置步骤](using/ms/gs-campaign-config.md)
-      + [架构](using/ms/ms-schemas.md)
+      + [创建关系架构](using/ms/ms-schemas.md)
       + [使用事件变量](using/ms/event-variables.md)
    + 创建您的第一个编排的营销活动 {#create-ms-campaign}
       + [创建编排的营销活动](using/ms/create-ms-campaign.md)
       + [编排活动](using/ms/orchestrate-activities.md)
       + [配置营销活动设置](using/ms/ms-campaign-settings.md)
-      + [启动和监测营销活动](using/ms/start-monitor-campaigns.md)
+      + [计划和开始您的活动](using/ms/start-monitor-campaigns.md)
+      + [编排的活动报表](using/ms/reporting-campaigns.md)
       + [管理个性化](using/ms/ms-personalization.md)
    + 编排的营销活动 {#design-campaigns}
       + [关于编排的营销活动](using/ms/activities/about-activities.md)
