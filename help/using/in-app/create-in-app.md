@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 应用程序内、消息、创建、入门
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2056'
 ht-degree: 12%
 
 ---
@@ -118,6 +118,10 @@ ht-degree: 12%
 1. 应用程序内消息就绪后，完成配置并发布历程以激活它。
 
 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
+
+>[!NOTE]
+>
+>如果要在发送推送通知后不久显示应用程序内消息，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
 
 >[!TAB 向营销活动添加应用程序内消息]
 

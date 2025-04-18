@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,9 +47,13 @@ ht-degree: 16%
 
 不使用&#x200B;**等待**&#x200B;活动阻止重新进入的最佳实践。 请改用历程属性级别的&#x200B;**允许重入**&#x200B;选项。 在[此页面](../building-journeys/journey-properties.md#entrance)上了解详情。
 
-### 等待和测试模式 {#wait-test-modd}
+### 等待和测试模式 {#wait-test-mode}
 
 在测试模式下，**[!UICONTROL 测试中的等待时间]**&#x200B;参数允许您定义每个&#x200B;**等待**&#x200B;活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 在[此页面](../building-journeys/testing-the-journey.md)上了解详情。
+
+### 等待和移动渠道 {#wait-mobile-channels}
+
+如果要在发送[推送通知](../push/get-started-push.md)后不久显示[应用程序内消息](../in-app/create-in-app.md)，请使用&#x200B;**等待**&#x200B;活动以允许传播应用程序内消息有效负荷时间。 通常建议等待5-15分钟，但具体时间会因有效负载复杂性和个性化需求而异。
 
 ## 配置 {#wait-configuration}
 
