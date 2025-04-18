@@ -6,17 +6,16 @@ description: 了解如何使用Adobe Journey Optimizer计划和开始编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '1102'
+ht-degree: 9%
 
 ---
 
 # 计划和开始编排的营销活动 {#start-monitor}
 
-<!--
-<audio controls><source src="../ms/assets/do-not-localize/sound.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio> -->
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -25,9 +24,80 @@ ht-degree: 3%
 
 创建经过编排的任务并设计好要在画布中执行的任务后，您就可以发布它并监控其执行方式。
 
+## 计划选项
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="调度程序活动"
+>abstract="利用活动&#x200B;**调度程序**，可安排何时启动编排的活动。 应将此活动视为已安排的一次开始。它只能用作编排的营销活动的第一个活动。"
+
+作为营销活动经理，您可以将营销活动计划为在特定时间自动启动，从而为营销通信提供精确的时间和准确的定位数据。
+
+### 最佳实践 {#scheduler-best-practices}
+
+* 请勿将编排好的营销活动安排为每15分钟运行一次以上，因为它可能会影响整体系统性能，并在数据库中创建块。
+* 如果要在编排的营销活动中发送一次性消息，可将其设置为运行&#x200B;**一次**。
+* 如果要在编排的活动中发送定期消息，则需要使用&#x200B;**计划**&#x200B;选项并设置执行频率。 循环投放活动不允许您定义计划。
+
+### 配置活动计划 {#scheduler-configuration}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="调度程序有效期"
+>abstract="可定义调度程序的有效期。它可为永久（默认），也可一直有效至特定日期。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="调度程序选项"
+>abstract="定义调度程序的频率。可在特定时刻执行它、每天、每周或每月执行它一次或多次。"
+
+![包含每月选项的计划程序屏幕](assets/scheduler-screen.png)
+
+按照以下步骤配置&#x200B;**编排的活动计划**：
+
+1. 在编排的活动画布顶部选择&#x200B;**尽快**&#x200B;按钮。
+
+1. 配置&#x200B;**执行频率**：
+
+   * **一次**：编排的活动只执行一次。
+
+   * **每日**：编排的活动在特定时间执行，每天执行一次。
+
+   * **一天数次：**&#x200B;编排的活动每天定期执行多次。 您可以设置在特定时间执行或定期执行。
+
+   * **每周**：在指定的时间执行编排的营销活动，每周执行一次或多次。
+
+   * **每月**：在指定的时间执行编排的营销活动，每月执行一次或多次。 您可以选择需要执行编排的活动的月份。 您还可以设置在月份的指定周日期（如每月的第二个星期二）执行。
+
+     ![包含每日执行示例的计划程序屏幕](assets/scheduler-daily-sample.png){width="50%" align="left"}
+
+1. 根据所选频率定义执行详情。详情字段根据使用的频率（时间、重复频率、指定天数等）而有所不同。
+
+1. 单击&#x200B;**预览启动时间**&#x200B;以检查您的编排活动接下来十次执行的计划。
+
+1. 定义计划程序的有效期：
+
+   * **永久（永不过期）**：根据指定的频率执行编排的营销活动，对时间范围或迭代次数没有任何限制。
+
+   * **有效期**：按照指定的频率执行编排的营销活动，直到达到特定日期为止。 您需要指定开始日期和结束日期。
+
+1. 选择&#x200B;**确认**&#x200B;以保存您的设置。 执行频率显示在编排的活动画布上方。
+
+>[!TIP]
+>
+>如果要立即启动编排的营销活动，请尽快保留&#x200B;**默认值**。
+
+## 示例 {#scheduler-example}
+
+在下方的示例中，将活动配置为从2025年10月1日至2026年1月1日，编排的活动每天在早上9点和12点运行两次。
+
+![调度程序配置为在早上9点和12点每天运行两次活动](assets/scheduler-sample.png){width="50%" align="left"}
+
+
 ## 启动编排的营销活动 {#start}
 
-要启动编排的营销活动，请导航到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单的&#x200B;**[!UICONTROL 多步骤]**&#x200B;选项卡，选择要启动的营销活动，然后单击画布右上角的&#x200B;**[!UICONTROL 开始]**&#x200B;按钮。
+要启动编排的营销活动，请导航到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单的&#x200B;**[!UICONTROL 编排]**&#x200B;选项卡，选择要启动的营销活动，然后单击画布右上角的&#x200B;**[!UICONTROL 播放]**&#x200B;按钮。
 
 运行编排的活动后，画布中的每个活动都会按顺序执行，直到达到编排的活动结束为止。
 
