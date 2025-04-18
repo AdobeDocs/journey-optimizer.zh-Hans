@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '2337'
-ht-degree: 89%
+source-wordcount: '2342'
+ht-degree: 88%
 
 ---
 
@@ -182,6 +182,7 @@ ht-degree: 89%
       + [创建编排的营销活动](using/ms/create-ms-campaign.md)
       + [编排活动](using/ms/orchestrate-activities.md)
       + [配置营销活动设置](using/ms/ms-campaign-settings.md)
+      + [测试和验证报文](using/ms/ms-proofs.md)
       + [计划和开始您的活动](using/ms/start-monitor-campaigns.md)
       + [编排的活动报表](using/ms/reporting-campaigns.md)
       + [管理个性化](using/ms/ms-personalization.md)

@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 26%
+source-wordcount: '332'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 26%
 >title="更改维度活动"
 >abstract="通过此活动，可在构建受众时更改目标市场选择维度。它根据数据模板和输入维度移动轴。例如，您可以从“合同”维度切换到“客户”维度。"
 
-**更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建编排的营销活动时更改定向维度。 它根据数据模板和输入维度移动轴。
+作为营销人员，您可以在编排的营销活动中将定向维度从一个实体切换到另一个关联的实体，并根据不同的数据集优化受众定位，例如，从分析用户更改为定向其特定操作或预订。
+
+要执行此操作，请使用&#x200B;**更改维度**&#x200B;定位活动。 利用此活动，可在构建编排的营销活动时更改定向维度。 它根据数据模板和输入维度移动轴。
 
 例如，您可以将编排营销活动的目标维度从“用户档案”切换为“合同”，以便向目标合同所有者发送消息。
 
@@ -41,7 +43,7 @@ ht-degree: 26%
 
 1. 将&#x200B;**更改维度**&#x200B;活动添加到您的编排的营销活动中。
 
-   ![](assets/change-dimension.png)
+   ![](../assets/change-dimension.png)
 
 1. 定义&#x200B;**新目标维度**。 在维度更改期间，将保留所有记录。
 
@@ -53,4 +55,4 @@ ht-degree: 26%
 
 然后，我们使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动将编排的活动定向维度切换为“收件人”。 这样，我们便能够定位匹配查询的收件人。
 
-![](assets/change-dimension-example.png)
+![](../assets/change-dimension-example.png)

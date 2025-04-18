@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 17%
+source-wordcount: '535'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 17%
    * [配置营销活动设置](ms-campaign-settings.md)
    * [活动入门](activities/about-activities.md)
    * [编排活动](orchestrate-activities.md)
-* [个性化](ms-personalization.md)
+* [个性化您的邮件](ms-personalization.md)*
+* [生成查询](ms-query-modeler.md)
 * [测试和验证报文](ms-proofs.md)
 * [计划和开始您的营销活动](start-monitor-campaigns.md)
 * 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [Split测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
