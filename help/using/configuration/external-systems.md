@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: aec3d79ad07ec6904e55afd6fc61ba9b4f403fc8
+source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1374'
 ht-degree: 28%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 28%
 
 本页介绍Journey Optimizer在集成外部系统时提供的各种护栏以及最佳实践：如何使用上限API优化外部系统的保护、如何配置历程超时以及重试的工作方式。
 
-借助 Journey Optimizer，您可以通过自定义数据源和自定义操作配置与外部系统的连接。例如，您可以使用来自外部预订系统的数据扩充您的历程，或使用第三方系统(如Epsilon或Facebook)发送消息。
+借助 Journey Optimizer，您可以通过自定义数据源和自定义操作配置与外部系统的连接。例如，您可以使用来自外部预订系统的数据扩充您的历程，或使用第三方系统（如Epsilon或Facebook）发送消息。
 
 在集成外部系统时，可能会遇到几个问题：系统可能变慢、停止响应，或者可能无法处理较大的卷。 Journey Optimizer提供了多个护栏以保护您的系统免受过载。
 
@@ -29,7 +29,11 @@ ht-degree: 28%
 
 1. 应用上限或限制规则：如果达到最大速率，剩余呼叫将被丢弃或排队。
 
-2. 超时并重试：如果达到上限或限制规则，Journey Optimizer将尝试执行调用，直到达到超时持续时间结束。
+1. 超时并重试：如果达到上限或限制规则，Journey Optimizer将尝试执行调用，直到达到超时持续时间结束。
+
+>[!TIP]
+>
+>我们建议在外部API的令牌有效期与Journey Optimizer [`cacheDuration`设置](../datasource/external-data-sources.md#custom-authentication-access-token)之间至少保留一分钟的缓冲区，特别是在工作负载较重的情况下，以避免过期不匹配和401错误。
 
 ## API上限和限制 {#capping}
 
@@ -98,7 +102,7 @@ ht-degree: 28%
 
 **如何配置上限或限制规则？ 是否存在默认规则？**
 
-要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5,000 个轮廓/秒）。如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。
+要创建上限或限制规则，请参阅[此部分](../configuration/external-systems.md#capping)。 默认情况下，没有限制规则，但为所有自定义操作、每个主机和每个沙盒定义了1分钟以上300,000次调用的上限限制。 此限制是根据客户使用情况设置的，用于保护自定义操作所针对的外部端点。您必须在基于受众的历程中考虑这一点，相应地定义适当的读取率（使用自定义操作时为 5,000 个用户档案/秒）。如果需要，您可以通过我们的上限/限制API定义更大的上限或限制来覆盖此设置。
 
 **执行多少次重试？ 我可以更改重试次数或定义重试之间的最短等待时间吗？**
 
