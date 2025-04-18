@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1040'
 ht-degree: 7%
 
 ---
@@ -104,6 +104,4 @@ ht-degree: 7%
 
 * **[!UICONTROL 连续错误]**：在&#x200B;**[!UICONTROL 如果出现错误]**&#x200B;字段中选择&#x200B;**[!UICONTROL 忽略]**&#x200B;值时，此字段将变为可用。 您可以指定在流程停止前可忽略的错误的数量。一旦达到此数量，编排的营销活动状态将更改为&#x200B;**[!UICONTROL 失败]**。 如果此字段的值为0，则无论错误数量如何，编排的营销活动都不会停止。
 
-## 初始化脚本 {#initialization-script}
 
-**初始化脚本**&#x200B;允许您初始化变量或修改活动属性。 单击&#x200B;**编辑代码**&#x200B;按钮并键入要执行的代码片段。 执行编排的活动时，将调用脚本。 请参阅与[事件变量](event-variables.md)相关的部分。

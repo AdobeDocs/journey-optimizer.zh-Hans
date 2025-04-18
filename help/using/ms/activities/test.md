@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 16%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 1. 默认情况下，**[!UICONTROL Test]**&#x200B;活动提供简单的布尔测试。 如果满足“True”过渡中定义的条件，则将激活此过渡。 否则，将激活默认的“False”过渡。
 
-1. 要配置与过渡关联的条件，请单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标。 使用表达式编辑器定义激活此过渡所需的规则。 您还可以利用事件变量、条件和日期/时间函数。 [了解如何使用事件变量和表达式编辑器](../event-variables.md)
+1. 要配置与过渡关联的条件，请单击&#x200B;**[!UICONTROL 打开个性化对话框]**&#x200B;图标。 使用表达式编辑器定义激活此过渡所需的规则。 您还可以利用事件变量、条件和日期/时间函数。
 
    此外，您可以修改&#x200B;**[!UICONTROL 标签]**&#x200B;字段，以便在编排的活动画布上个性化过渡名称。
 
