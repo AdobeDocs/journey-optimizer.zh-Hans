@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 7243da6ecab9bce2afeb86a35d35b7bc94d4d196
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 18%
+source-wordcount: '678'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 18%
 * 配置文件存储中的数据为 90 天，
 * 数据湖中的数据为 13 个月。
 
-此更改将在后续阶段中转出到&#x200B;**现有客户沙盒**。
+此更改将在后续阶段转出到&#x200B;**现有客户沙盒**。
 
 ## 受影响的数据集 {#datasets}
 
@@ -75,13 +75,13 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank}
+>存储在用户档案中的数据受总数据量权利文件的约束。 因此，因TTL扩展而导致配置文件上任何数据存储增加都将计入总数据卷权利中。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客户能否增加数据湖中[!DNL Journey Optimizer]系统数据集数据的TTL？
 
-当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank}
+当前不支持TTL扩展。 客户可以通过目标导出数据，以更长时间地保留数据。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，拥有&#x200B;**[!DNL Data Distiller]**&#x200B;权利的客户可以创建派生的数据集以将数据存储在没有TTL的数据湖中。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 

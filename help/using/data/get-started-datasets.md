@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+workflow-type: tm+mt
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->自 2024 年 11 月 1 日起，流式分段将不再支持在 Journey Optimizer 跟踪和反馈数据集中使用发送和打开事件。此外，从 2025 年 2 月开始，将会推出用于 Journey Optimizer 系统生成的数据集的生存时间 (TTL) 护栏。[了解详情](datasets-ttl.md)
+>从2024年11月1日开始，流式分段不再支持使用Journey Optimizer跟踪和反馈数据集中的发送和打开事件。 此外，截至2025年2月，正在向Journey Optimizer系统生成的数据集推出生存时间(TTL)护栏。 [了解详情](datasets-ttl.md)
 
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 * _发送-时间优化得分/参与度得分_：历程 AI 的输出分数。
 
-要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+要查看每个架构的字段和属性的完整列表，请参阅[Journey Optimizer架构词典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
 
 ## 预览数据集{#preview-datasets}
 
@@ -93,19 +93,19 @@ ht-degree: 100%
 
 [!DNL Adobe Experience Platform Data Governance]允许您管理客户数据，并确保符合适用于数据使用的法规、限制和策略。它在 Experience Platform 的各个层面中发挥着关键作用，包括编目、数据谱系、数据使用标签、数据使用策略以及控制营销活动数据的使用。
 
-在[数据治理文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=zh-Hant){target="_blank"}中，了解数据治理和数据使用标签的更多信息。
+在[数据管理文档](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=zh-Hant){target="_blank"}中了解有关数据管理和数据使用标签的更多信息
 
 ## 示例和用例{#uc-datasets}
 
 在[此端到端示例](../audience/creating-test-profiles.md)中，了解如何在 Adobe Journey Optimizer 中创建架构、数据集和摄取数据以添加到“测试”轮廓
 
-在 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中，了解有关数据集创建的更多信息。
+在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans){target="_blank"}中了解有关数据集创建的更多信息。
 
-在[数据摄取概述文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}中，了解如何使用数据集 UI。
+在[数据摄取概述文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}中了解如何使用数据集UI。
 
 点击[此处](../data/datasets-query-examples.md)获取包含查询示例的用例列表。
 
 >[!MORELIKETHIS]
 >
 >* [流式摄取概述](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans){target="_blank"}
->* [将数据摄取到 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans){target="_blank"}
+>* [将数据摄取到Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans){target="_blank"}
