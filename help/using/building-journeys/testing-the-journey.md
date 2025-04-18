@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1ee75284f3c5f0c7870e8bd8779d4daf9879aa40
+source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 8%
 * 为优化性能并防止使用过时资源，所有处于测试模式且一周内未触发的历程都将切换回&#x200B;**草稿**&#x200B;状态。
 * 测试模式触发的事件存储在专用数据集中。 这些数据集的标签如下： `JOtestmode - <schema of your event>`
 * 测试包含多个事件的历程时，必须按顺序触发每个事件。 太早（在第一个等待节点完成之前）或太晚（在配置的超时之后）发送事件将放弃该事件并将配置文件发送到超时路径。 通过在定义的窗口中发送有效负载，始终确认对事件有效负载字段的任何引用保持有效
-
+* 确保历程配置的选择[开始和结束日期/时间](journey-properties.md#dates)窗口包含启动测试模式时的当前时间。 否则，触发的测试事件将以静默方式丢弃。
 
 <!--
 * Fields from related entities are hidden from the test mode.
