@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用更改维度活动
 description: 了解如何使用更改维度活动
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: f0213f1270e9821b61a5dc396e39f5707f8f4b42
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 22%
+source-wordcount: '288'
+ht-degree: 26%
 
 ---
 
@@ -27,11 +28,12 @@ ht-degree: 22%
 
 **更改维度**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可在构建编排的营销活动时更改定向维度。 它根据数据模板和输入维度移动轴。
 
-例如，您可以将编排的营销活动的定向维度从“收件人”切换为“订阅者应用程序”，以便向定向收件人发送推送通知。
+例如，您可以将编排营销活动的目标维度从“用户档案”切换为“合同”，以便向目标合同所有者发送消息。
 
+<!--
 >[!IMPORTANT]
 >
->请注意，不应将&#x200B;**[!UICONTROL 更改维度]**&#x200B;和&#x200B;**[!UICONTROL 更改数据源]**&#x200B;活动添加到一行中。 如果需要连续使用这两个活动，请确保在它们之间包含&#x200B;**[!UICONTROL 扩充]**&#x200B;活动。 这可以确保正确执行并防止潜在的冲突或错误。
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
 
 ## 配置更改维度活动 {#configure}
 
@@ -39,9 +41,9 @@ ht-degree: 22%
 
 1. 将&#x200B;**更改维度**&#x200B;活动添加到您的编排的营销活动中。
 
-   ![](../assets/workflow-change-dimension.png)
+   ![](assets/change-dimension.png)
 
-1. 定义&#x200B;**新目标维度**。 在维度更改期间，将保留所有记录。 其他选项尚不可用。
+1. 定义&#x200B;**新目标维度**。 在维度更改期间，将保留所有记录。
 
 1. 执行编排的活动以查看结果。 比较更改维度活动之前和之后表中的数据，并比较编排的活动表的结构。
 
@@ -51,4 +53,4 @@ ht-degree: 22%
 
 然后，我们使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动将编排的活动定向维度切换为“收件人”。 这样，我们便能够定位匹配查询的收件人。
 
-![](../assets/workflow-change-dimension-example.png)
+![](assets/change-dimension-example.png)
