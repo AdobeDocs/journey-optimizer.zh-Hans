@@ -6,9 +6,9 @@ description: 了解如何使用Adobe Journey Optimizer计划和开始编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 9%
 
 ---
@@ -127,9 +127,15 @@ ht-degree: 9%
 
 ## 监测日志和任务 {#logs-tasks}
 
-监测工作流日志和任务是分析编排的活动并确保其正常运行的关键步骤。 可从操作工具栏中提供的&#x200B;**[!UICONTROL 日志]**&#x200B;图标以及每个活动的属性窗格中访问它们。
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_logs"
+>title="日志和任务"
+>abstract="**日志和任务**&#x200B;屏幕提供了编排的活动执行的历史记录，记录了所有用户操作和遇到的错误。"
 
-**[!UICONTROL 日志和任务]**菜单提供编排的活动执行的历史记录，记录所有用户操作和遇到的错误。
+监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 可从操作工具栏中提供的&#x200B;**[!UICONTROL 日志]**&#x200B;图标以及每个活动的属性窗格中访问它们。
+
+**[!UICONTROL 日志和任务]**&#x200B;菜单提供编排的活动执行的历史记录，记录所有用户操作和遇到的错误。
+
 ![](assets/workflow-logs.png){zoomable="yes"}
 
 提供了两种类型的信息：
