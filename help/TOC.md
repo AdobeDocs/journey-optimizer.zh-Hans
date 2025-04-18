@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2339'
 ht-degree: 89%
 
 ---
@@ -172,10 +172,12 @@ ht-degree: 89%
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
-+ 精心策划的营销活动 {#ms-campaigns}
++ 精心策划的营销活动 {#orchestrated-campaigns}
    + [开始使用编排的营销活动](using/ms/gs-ms-campaigns.md)
+   + [配置步骤](using/ms/gs-campaign-config.md)
    + [关键原则](using/ms/gs-campaign-creation.md)
    + 配置 {#ms-config}
+      + [配置步骤](using/ms/gs-campaign-config.md)
       + [架构](using/ms/ms-schemas.md)
       + [使用事件变量](using/ms/event-variables.md)
    + 创建您的第一个编排的营销活动 {#create-ms-campaign}

@@ -6,10 +6,10 @@ description: 了解如何从编排的活动开始
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: c41d7e7543f3254479f63d4e104f471192e63632
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: '527'
+ht-degree: 14%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 18%
 **目录**
 
 * 开始使用编排的营销活动 — [关键原则](gs-campaign-creation.md)
-* 配置： [使用架构](ms-schemas.md) - [使用事件变量](event-variables.md)
-* 开始使用： [创建编排的营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md) - [开始和监视您的营销活动](start-monitor-campaigns.md) - [活动入门](activities/about-activities.md) - [编排活动](orchestrate-activities.md) - [Personalization](ms-personalization.md)
+* 配置： [配置编排的营销活动](gs-campaign-config.md) - [使用架构](ms-schemas.md) - [使用事件变量](event-variables.md)
+* 开始使用： [创建编排的营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md) - [计划和开始您的营销活动](start-monitor-campaigns.md) - [活动入门](activities/about-activities.md) - [编排活动](orchestrate-activities.md) - [Personalization](ms-personalization.md)
 * 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [调度程序](activities/scheduler.md) - [R拆分](activities/split.md) - [测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
 
 >[!ENDSHADEBOX]
@@ -41,8 +41,11 @@ ht-degree: 18%
 
 ## 历程编排和活动编排
 
-历程与促销活动 — 说明差异、用例和最佳实践
+Campaign Orchestration是用于大规模设计、发送和跟踪品牌通信的领先模块。 它通过将用户档案和非用户档案实体相结合，支持将营销消息自动分发给目标受众，利用现有数据区段实现有效的个性化。 Campaign Orchestration非常适合于活动驱动的外联活动，它可确保一致、高效的消息交付（通常提前计划），以提高客户参与度并支持关键营销目标。
 
+Campaign Orchestration通过启用Adobe Journey Optimizer中的多实体来重新定义受众分段，并方便了基于特定状态、事件、合同或预订等的定向消息传递。 由于您可以将通信发送到用户档案以外的实体，或者对任何实体创建查询，因此您可以获得整体视图并捕获大量见解以构建受众。
+
+Campaign Orchestration通过强化数据驱动型决策，利用多个源实现动态扩充的数据集。
 
 
 ## 让我们深入探究
@@ -55,7 +58,7 @@ ht-degree: 18%
 <img alt="访问和管理工作流" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="gs-campaign-creation.md"><strong>关键原则</strong></a>
+<a href="gs-campaign-creation.md"><strong>配置步骤</strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +66,7 @@ ht-degree: 18%
 <a href="create-ms-campaign.md">
 <img alt="潜在客户" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-ms-campaign.md"><strong>创建多步营销活动</strong>
+<div><a href="create-ms-campaign.md"><strong>创建编排的营销活动</strong>
 </div>
 <p>
 </td>
