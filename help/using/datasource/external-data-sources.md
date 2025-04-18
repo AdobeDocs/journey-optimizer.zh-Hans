@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 2a2abe3e663f8c9ff24c804eae53d44988960838
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 40%
+source-wordcount: '1626'
+ht-degree: 39%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 40%
 
 该调用由一个主 URL (_https://api.adobeweather.org/weather_)、两个参数集（“city”表示城市，“lat/long”表示纬度和经度）和 API 密钥 (appid) 组成。
 
+>[!TIP]
+>
+>我们建议在外部API的令牌有效期与Journey Optimizer [`cacheDuration`设置](#custom-authentication-access-token)之间至少保留一分钟的缓冲区，特别是在工作负载较重的情况下，以避免过期不匹配和401错误。
 
 ## 创建和配置外部数据源 {#create-ext-data-sources}
 
@@ -59,9 +62,7 @@ ht-degree: 40%
 
 1. 输入数据源的名称。
 
-   >[!NOTE]
-   >
-   >只允许使用字母数字字符和下划线。 最大长度为30个字符。
+只允许使用字母数字字符和下划线。 最大长度为30个字符。
 
 1. 向数据源添加描述。此步骤是可选的。
 1. 添加外部服务的 URL。在我们的示例中：_https://api.adobeweather.org/weather_。
