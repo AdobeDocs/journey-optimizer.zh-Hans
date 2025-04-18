@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 23%
+source-wordcount: '445'
+ht-degree: 24%
 
 ---
 
@@ -62,6 +62,5 @@ ht-degree: 23%
 * [And-join](and-join.md)：同步编排营销活动的多个执行分支。
 * **结束**：以图形方式标记编排营销活动的结束。 此活动对功能没有影响，因此是可选的
 * [分支](fork.md)：创建叫客过渡以同时启动多个活动。
-* [计划程序](scheduler.md)：计划何时启动编排的营销活动。
 * [测试](test.md)：根据指定的条件启用转换。
 * [等待](wait.md)：暂时暂停执行编排的营销活动的一部分。
