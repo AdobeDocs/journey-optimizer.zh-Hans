@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 为了优化[!DNL Journey Optimizer]体验的可投放性，我们建议使用本节中列出的最佳实践。 可投放性问题通常与Internet服务提供商(ISP)和邮件服务器管理员实施的垃圾邮件防护有关。
 
-有关什么是可投放性的更深入探讨，并了解关于关键可投放性术语、概念和方法，请参阅[Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans){target="_blank"}。
+有关什么是可投放性的更深入了解以及关键可投放性术语、概念和方法，请参阅[Adobe可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=zh-Hans){target="_blank"}。
 
 ## 降低投诉率 {#reduce-complaint-rate}
 

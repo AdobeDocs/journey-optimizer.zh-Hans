@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 5af420f5ba312949e475c772e56c60a0368a4796
+source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## 历程类型 {#types-of-journeys}
 
-在Adobe Journey Optimizer中，可以使用以下类型的历程：
+借助Adobe Journey Optimizer，您可以创建以下类型的历程：
 
 * **单一事件**&#x200B;历程：这些历程以单一事件开始。 收到事件后，关联的配置文件将进入旅程。 [了解详情](#entry-unitary)
 
