@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94de60c33c7cf1d8956294aebb91d7533534088f
+source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 16%
@@ -30,7 +30,7 @@ ht-degree: 16%
    * [配置营销活动设置](ms-campaign-settings.md)
    * [活动入门](activities/about-activities.md)
    * [编排活动](orchestrate-activities.md)
-* [个性化您的邮件](ms-personalization.md)*
+* [个性化您的消息](ms-personalization.md)
 * [生成查询](ms-query-modeler.md)
 * [测试和验证报文](ms-proofs.md)
 * [计划和开始您的营销活动](start-monitor-campaigns.md)
