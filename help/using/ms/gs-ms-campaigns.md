@@ -3,13 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 开始使用编排的营销活动
 description: 了解如何从编排的活动开始
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 94ec0430995c26d6c0eaa68f523675997ed0a327
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 14%
+source-wordcount: '531'
+ht-degree: 17%
 
 ---
 
@@ -19,12 +20,21 @@ ht-degree: 14%
 
 **目录**
 
-* 开始使用编排的营销活动 — [关键原则](gs-campaign-creation.md)
-* 配置： [配置编排的营销活动](gs-campaign-config.md) - [使用架构](ms-schemas.md) - [使用事件变量](event-variables.md)
-* 开始使用： [创建编排的营销活动](create-ms-campaign.md) - [配置营销活动设置](ms-campaign-settings.md) - [活动入门](activities/about-activities.md) - [编排活动](orchestrate-activities.md) - [Personalization](ms-personalization.md)
-* 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [调度程序](activities/scheduler.md) - [R拆分](activities/split.md) - [测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
+* 开始使用编排的营销活动
+* 配置
+   * [配置编排的营销活动](gs-campaign-config.md)
+   * [创建关系架构](ms-schemas.md)
+* 创建您的第一个编排的营销活动
+   * [关键原则](gs-campaign-creation.md)
+   * [创建编排的营销活动](create-ms-campaign.md)
+   * [配置营销活动设置](ms-campaign-settings.md)
+   * [活动入门](activities/about-activities.md)
+   * [编排活动](orchestrate-activities.md)
+* [个性化](ms-personalization.md)
+* [测试和验证报文](ms-proofs.md)
 * [计划和开始您的营销活动](start-monitor-campaigns.md)
-* [监控和报告](reporting-campaigns.md)
+* 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [Split测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
+* [报告](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 

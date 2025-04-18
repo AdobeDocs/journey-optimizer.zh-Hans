@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d7cab6b6841c2122d901f55c3162f0549ad5ff
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2337'
 ht-degree: 89%
 
 ---
@@ -174,12 +174,11 @@ ht-degree: 89%
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [开始使用编排的营销活动](using/ms/gs-ms-campaigns.md)
-   + [关键原则](using/ms/gs-campaign-creation.md)
    + 配置 {#ms-config}
       + [配置步骤](using/ms/gs-campaign-config.md)
       + [创建关系架构](using/ms/ms-schemas.md)
-      + [使用事件变量](using/ms/event-variables.md)
    + 创建您的第一个编排的营销活动 {#create-ms-campaign}
+      + [关键原则](using/ms/gs-campaign-creation.md)
       + [创建编排的营销活动](using/ms/create-ms-campaign.md)
       + [编排活动](using/ms/orchestrate-activities.md)
       + [配置营销活动设置](using/ms/ms-campaign-settings.md)
@@ -199,7 +198,6 @@ ht-degree: 89%
       + [加载文件](using/ms/activities/load-file.md)
       + [协调](using/ms/activities/reconciliation.md)
       + [保存受众](using/ms/activities/save-audience.md)
-      + [调度程序](using/ms/activities/scheduler.md)
       + [拆分](using/ms/activities/split.md)
       + [测试](using/ms/activities/test.md)
       + [更新数据](using/ms/activities/update-data.md)

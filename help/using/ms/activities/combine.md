@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用组合活动
 description: 了解如何使用组合活动
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 323472ef9d6203cbbadc44ceb17ddcc7f6207323
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1045'
 ht-degree: 86%
 
 ---

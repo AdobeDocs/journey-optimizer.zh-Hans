@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用Adobe Journey Optimizer创建编排的营销活动
 description: 了解如何使用Adobe Journey Optimizer构建编排的营销活动
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---

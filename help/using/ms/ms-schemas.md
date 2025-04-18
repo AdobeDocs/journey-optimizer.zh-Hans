@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 为编排的活动创建关系架构
 description: 了解如何为您的编排的活动创建和管理关系架构
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: c26cf974525ac6f7de0b93a5e50e85a111b2a475
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '73'
 ht-degree: 61%
 
 ---

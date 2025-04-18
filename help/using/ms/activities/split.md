@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 使用拆分活动
 description: 了解如何在编排的活动中使用拆分活动
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3d380d2d02eb7043aebcffd00bb2092e7341b0d5
+source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '999'
 ht-degree: 76%
 
 ---
