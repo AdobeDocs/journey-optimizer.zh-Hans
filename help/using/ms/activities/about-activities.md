@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
+source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 26%
+source-wordcount: '394'
+ht-degree: 27%
 
 ---
 
@@ -20,15 +20,17 @@ ht-degree: 26%
 
 以下各章节详细介绍了所有活动：
 
-* [定位和数据管理活动](#targeting)
+* [定位活动](#targeting)
 * [渠道活动](#channel)
 * [流量控制活动](#flow-control)
 
-![](../assets/workflow-activities.png)
+![画布中可用的活动列表](../assets/workflow-activities.png){width="70%" align="left"}
 
 ## 定位活动 {#targeting}
 
 这些活动特定于定位。 利用这些活动，您可以通过定义受众并使用交集、并集或差集操作来拆分或合并这些受众，从而构建一个或多个目标。
+
+![定位活动列表](../assets/targeting-activities.png){width="50%" align="left"}
 
 * [构建受众](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
 * [更改维度](change-dimension.md)：在构建编排的营销活动时更改定向维度。
@@ -36,12 +38,11 @@ ht-degree: 26%
 * [重复数据删除](deduplication.md)：删除集客活动结果中的重复项。
 * [扩充](enrichment.md)：定义要在编排的营销活动中处理的附加数据。 通过此活动，您可以应用集客过渡并配置活动以使用附加数据填写输出过渡。
 * [协调](reconciliation.md)：定义Journey Optimizer数据中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
-* [保存受众](save-audience.md)：更新现有受众，或从编排的营销活动中上游计算的群体中创建新受众。
 * [拆分](split.md)：将传入的群体划分到多个子集中。
 
 ## 渠道活动 {#channel}
 
-通过Adobe Journey Optimizer，您可以跨多个渠道自动执行营销活动。 您可以将渠道活动合并到画布中，以创建跨渠道编排的营销活动，从而根据客户行为触发操作。 以下&#x200B;**渠道**&#x200B;活动可用：电子邮件、短信、Android和iOS推送通知。 [了解如何在编排的活动上下文中设置投放](channels.md)。
+通过Adobe Journey Optimizer，您可以跨多个渠道自动执行营销活动。 您可以将渠道活动合并到画布中，以创建跨渠道编排的营销活动，从而根据客户行为触发操作。 以下&#x200B;**渠道**&#x200B;活动可用：电子邮件、短信、Android和iOS推送通知。 [了解如何在编排的活动上下文中创建渠道操作](channels.md)。
 
 ## 流量控制活动 {#flow-control}
 
@@ -49,6 +50,9 @@ ht-degree: 26%
 >id="ajo_orchestration_end"
 >title="结束活动"
 >abstract="**End**&#x200B;活动允许您以图形方式标记编排营销活动的结尾。 此活动无功能性影响，因此为可选活动。"
+
+![流控制活动列表](../assets/flow-control-activities.png){width="50%" align="left"}
+
 
 以下活动特定于组织和执行编排的营销活动。 这些活动的主要任务是协调其他活动：
 
