@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 27%
@@ -24,13 +24,13 @@ ht-degree: 27%
 * [渠道活动](#channel)
 * [流量控制活动](#flow-control)
 
-![画布中可用的活动列表](../assets/workflow-activities.png){width="70%" align="left"}
+![画布中可用的活动列表](../assets/workflow-activities.png){width="80%" align="left"}
 
 ## 定位活动 {#targeting}
 
 这些活动特定于定位。 利用这些活动，您可以通过定义受众并使用交集、并集或差集操作来拆分或合并这些受众，从而构建一个或多个目标。
 
-![定位活动列表](../assets/targeting-activities.png){width="50%" align="left"}
+![定位活动列表](../assets/targeting-activities.png){width="40%" align="left"}
 
 * [构建受众](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
 * [更改维度](change-dimension.md)：在构建编排的营销活动时更改定向维度。
@@ -51,7 +51,7 @@ ht-degree: 27%
 >title="结束活动"
 >abstract="**End**&#x200B;活动允许您以图形方式标记编排营销活动的结尾。 此活动无功能性影响，因此为可选活动。"
 
-![流控制活动列表](../assets/flow-control-activities.png){width="50%" align="left"}
+![流控制活动列表](../assets/flow-control-activities.png){width="30%" align="left"}
 
 
 以下活动特定于组织和执行编排的营销活动。 这些活动的主要任务是协调其他活动：
