@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 48a1ef9a48cecddf340031fcbbec4fe574cb2839
+source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
 workflow-type: tm+mt
-source-wordcount: '1786'
-ht-degree: 16%
+source-wordcount: '1783'
+ht-degree: 14%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="将历程运行与受众导出同步"
->abstract="一旦有新的受众导出可用，请切换此选项以触发历程。"
+>title="批量受众评估后触发"
+>abstract="启用此选项可在重新评估批处理受众后触发历程执行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="将历程运行与受众导出同步"
->abstract="指定历程等待的持续时间，以确保有最新的受众导出可用。"
+>title="新受众评估的等待时间"
+>abstract="指定历程将等待批量受众进行全新评估的持续时间。"
 
 使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
