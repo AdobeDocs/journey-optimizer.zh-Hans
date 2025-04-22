@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -20,22 +20,19 @@ ht-degree: 17%
 
 **目录**
 
-* 开始使用编排的营销活动
-* 配置
-   * [配置编排的营销活动](gs-campaign-config.md)
-   * [创建关系架构](ms-schemas.md)
-* 创建您的第一个编排的营销活动
-   * [关键原则](gs-campaign-creation.md)
-   * [创建编排的营销活动](create-ms-campaign.md)
-   * [配置营销活动设置](ms-campaign-settings.md)
-   * [活动入门](activities/about-activities.md)
-   * [编排活动](orchestrate-activities.md)
+* 配置： [配置编排的营销活动](gs-campaign-config.md)
+* 配置： [创建关系架构](ms-schemas.md)
+* 创建您的第一个编排的营销活动： [关键原则](gs-campaign-creation.md)
+* [创建编排的营销活动](create-ms-campaign.md)
+* [配置营销活动设置](ms-campaign-settings.md)
 * [个性化您的消息](ms-personalization.md)
 * [生成查询](ms-query-modeler.md)
 * [测试和验证报文](ms-proofs.md)
 * [计划和开始您的营销活动](start-monitor-campaigns.md)
-* 活动列表： [And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [测试](activities/test.md) - [等待](activities/wait.md)
-* [报告](reporting-campaigns.md)
+* 活动： [开始使用活动](activities/about-activities.md)
+* [编排活动](orchestrate-activities.md)
+* [And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - &lt;！—[测试](activities/test.md) —> [等待](activities/wait.md)
+* 监控： [报告](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
 
