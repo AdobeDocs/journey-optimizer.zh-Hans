@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 77%
+source-wordcount: '1249'
+ht-degree: 75%
 
 ---
 
@@ -103,8 +103,8 @@ ht-degree: 77%
 * 文档中详细介绍了 [!DNL Journey Optimizer] 2024 年 9 月版的所有新增功能和改进。[了解详情](release-notes.md)
 * 添加了关于历程重试管理的部分。[了解详情](../building-journeys/read-audience.md#read-audience-retry)
 * 更新了有关自定义操作上限/限制规则的常见问题解答，并介绍了默认的上限规则。[了解详情](../configuration/external-systems.md#faq)
-* 更新了控制访问权限部分，其中包含与 AI 助手内容生成器相关的权限。[了解详情](../administration/high-low-permissions.md#ai-permission)
-* 添加了有关使用 AI 助手内容生成器生成电子邮件的视频。[了解详情](../content-management/generative-email.md#video)
+* “控制访问”部分已更新，其中包含与AI Assistant内容生成器相关的权限。 [了解详情](../administration/high-low-permissions.md#ai-permission)
+* 添加了有关用于生成电子邮件的AI助理内容生成器的视频。 [了解详情](../content-management/generative-email.md#video)
 
 <!--
 

@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 3%
+source-wordcount: '1608'
+ht-degree: 2%
 
 ---
 
-# 使用 AI 助手进行推送生成 {#generative-push}
+# 使用AI助手生成推送 {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,9 @@ ht-degree: 3%
 >
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-创建消息并对消息进行个性化后，使用Journey Optimizer中的AI助手将推送通知内容提升到新的水平。
+创建消息并对消息进行个性化后，在Journey Optimizer中使用AI助手将推送通知内容提升到新的水平。
 
-浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手。
+浏览以下选项卡，了解如何在Journey Optimizer中使用AI助手。
 
 >[!BEGINTABS]
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
    ![](assets/push-genai-full-1.png){zoomable="yes"}
 
-1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项，以根据所选内容对新内容进行个性化设置。
+1. 为AI助手启用&#x200B;**[!UICONTROL 使用原始内容]**&#x200B;选项以根据所选内容对新内容进行个性化。
 
 1. 选择您的&#x200B;**[!UICONTROL 品牌]**&#x200B;以确保AI生成的内容与您的品牌规格一致。 [了解有关Brands的更多信息](brands.md)。
 
@@ -80,7 +80,7 @@ ht-degree: 3%
 
    ![](assets/push-genai-full-5.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 改写]**： AI助手可以通过不同方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 >[!TAB 纯文本生成]
 
-在此特定示例中，了解如何将Journey Optimizer中的AI助手用于特定内容。 执行以下步骤：
+在此特定示例中，了解如何在Journey Optimizer中使用AI助手获取特定内容。 执行以下步骤：
 
 1. 创建和配置推送通知营销活动后，单击&#x200B;**[!UICONTROL 编辑内容]**。
 
@@ -145,7 +145,7 @@ ht-degree: 3%
 
    ![](assets/push-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
@@ -157,11 +157,11 @@ ht-degree: 3%
 
    * **[!UICONTROL 阐述]**：AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
 
-   * **[!UICONTROL 摘要]**：过长的信息可能会使收件人过载。 使用AI Assistant将要点整合为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+   * **[!UICONTROL 摘要]**：过长的信息可能会使收件人过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
 
    * **[!UICONTROL 重述]**：AI助手可以通过不同的方式重述您的消息，使您的写作保持新鲜，并吸引各种受众。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -209,7 +209,7 @@ ht-degree: 3%
    * **[!UICONTROL 照明]**：这是指图像中的闪电，它塑造了大气层，突出了特定的元素。
    * **[!UICONTROL 合成]**：这指的是图像框架中元素的排列
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 

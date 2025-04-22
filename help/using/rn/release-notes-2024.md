@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '6785'
+source-wordcount: '6783'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>创建消息并对其进行个性化设置后，您可以使用 Journey Optimizer 中的 AI 助手将您的内容提升到新的水平。您现在可以使用 AI 助手，通过尝试不同的主标题和图像来优化消息的影响力。每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
+<p>创建消息并进行个性化后，使用Journey Optimizer中的AI助手将您的内容提升到新的级别。 您现在可以使用AI Assistant通过尝试不同的主标题和图像来优化消息的影响。 每个变体都是作为独特的处理方式进行管理，以衡量和比较哪个标题可以有效生成更多点击次数。</p>
 <p>通过<a href="https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator">我们的实时功能预览</a>获得亲身体验，该预览旨在让您亲自探索其功能并充分了解其能力。</a>。</p>
 <p>有关更多信息，请参阅<a href="../content-management/gs-generative.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -504,7 +504,7 @@ ht-degree: 99%
 
 * **营销活动模拟 API** - 使用此 API 触发营销活动的校对作业。发送营销活动验证是一个异步过程，该 API 将返回一个 proofJobId，可用于检查验证的状态。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* （发布日期：9 月 10 日）[Adobe Journey Optimizer API 文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在具备交互功能。直接从文档页面探索 API 端点，以获得即时反馈并加快您的技术实施。
+* （发布日期： 9月10日）[Adobe Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}现在为交互式文档。 直接从文档页面探索 API 端点，以获得即时反馈并加快您的技术实施。
 
 
   所有 API 参考页面现在都有 **Try it（试试看）**&#x200B;功能，您可以使用它直接在文档网站页面上测试 API 调用。[获取所需的身份验证凭据](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}并开始使用该功能探索 API 端点。
@@ -1081,7 +1081,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Once you have created and personalized your message, take your content to the next level with the AI Assistant. You can now use the AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>Once you have created and personalized your message, take your content to the next level with AI Assistant. You can now use AI Assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
 </td>
 </tr>
 </tbody>

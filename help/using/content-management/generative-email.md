@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: d2c008ab9b63df5b7a0ded317a97a4d26d2319e3
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1701'
 ht-degree: 2%
 
 ---
 
-# 使用 AI 助手生成电子邮件  {#generative-email}
+# 使用AI助手生成电子邮件  {#generative-email}
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ ht-degree: 2%
 >
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，然后才能在Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-在精心编制和自定义电子邮件后，利用Journey Optimizer中的AI助手在创作AI的推动下提升您的内容。
+在精心编制和自定义电子邮件后，利用Journey Optimizer中的AI助手（由创作AI提供支持）提升您的内容。
 
-使用Journey Optimizer中的AI助手，通过精心制作完整的电子邮件、量身定制的文本片段和自定义的图像（可直接与受众交谈），增强参与度和互动，从而增强营销活动的有效性。
+使用Journey Optimizer中的AI Assistant，通过精心制作完整的电子邮件、量身定制的文本片段和自定义的图像（可直接与受众交谈）、促进参与和互动，来增强营销活动的有效性。
 
-浏览以下选项卡，了解如何使用Journey Optimizer中的AI助手。
+浏览以下选项卡，了解如何在Journey Optimizer中使用AI助手。
 
 >[!BEGINTABS]
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
    ![](assets/full-email-6.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 改写]**： AI助手可以通过不同方式改写您的消息，使您的写作保持新鲜，并吸引各种受众。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -137,7 +137,7 @@ ht-degree: 2%
 
    ![](assets/text-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 
@@ -153,11 +153,11 @@ ht-degree: 2%
 
    * **[!UICONTROL 阐述]**：AI助手可以帮助您展开特定主题，提供其他详细信息以便更好地了解和参与。
 
-   * **[!UICONTROL 摘要]**：过长的信息可能会使电子邮件收件人过载。 使用AI Assistant将要点整合为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
+   * **[!UICONTROL 摘要]**：过长的信息可能会使电子邮件收件人过载。 使用AI Assistant将关键点浓缩为清晰、简洁的摘要，以吸引注意并鼓励他们进一步阅读。
 
    * **[!UICONTROL 重述]**：AI助手可以通过不同的方式重述您的消息，使您的写作保持新鲜，并吸引各种受众。
 
-   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保更广大的受众拥有清晰易懂的语言。
+   * **[!UICONTROL 使用更简单的语言]**：利用AI Assistant简化您的语言，确保为更广泛的受众提供清晰易懂的语言。
 
    您还可以更改文本的&#x200B;**[!UICONTROL 音调]**&#x200B;和&#x200B;**[!UICONTROL 通信策略]**。
 
@@ -208,7 +208,7 @@ ht-degree: 2%
 
    ![](assets/image-genai-4.png){zoomable="yes"}
 
-1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可为AI助手提供其他上下文的内容或选择以前上传的内容。
+1. 从&#x200B;**[!UICONTROL 品牌资产]**&#x200B;菜单中，单击&#x200B;**[!UICONTROL 上传品牌资产]**&#x200B;以添加任何品牌资产，这些品牌资产包含可以提供其他上下文AI助手的内容或选择以前上传的内容。
 
    以前上传的文件在&#x200B;**[!UICONTROL 已上传的品牌资产]**&#x200B;下拉菜单中可用。 只需切换您想要包含到层代中的资产。
 

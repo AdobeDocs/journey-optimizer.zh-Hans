@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: e80554570d62d1ddb52516366be55711387c5d19
+exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
+source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 89%
+source-wordcount: '674'
+ht-degree: 94%
 
 ---
 
@@ -39,8 +40,8 @@ ht-degree: 89%
 <p>您现在可以使用规则集创建业务规则。规则集是一组规则，可帮助您限制在营销活动和跨渠道历程操作中发送的消息，并控制进入历程的用户档案。<p>
 <p><ul><li>创建渠道规则集，以限制跨一个或多个渠道发送的消息数。将它们应用于营销活动或历程操作，以实施规则集中定义的规则。通过渠道规则集，您可以根据通信类型应用上限规则。例如，设置规则集以限制“促销消息”，并为“新闻稿”设置另一个规则。根据发送的通信类型，在营销活动或历程操作中应用相应的规则集。</li>
 <li> 创建历程规则集以控制用户档案进入历程的情况。限制用户档案在给定时间段内进入历程的频率或同一用户档案可同时参与的历程数。在历程级别应用这些限制，以确保进行正确的进入管理。</li></ul></p>
-<p>以前，业务规则可用于一组组织(LA)，现在则可用于所有用户(GA)。 历程域业务规则仍仅对有限的一组组织(LA)可用。</p>
-<p>有关更多信息，请参阅<a href="../configuration/rule-sets.md">详细文档</a>。</p>
+<p>业务规则以前面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)。历程域业务规则仍然是仅面向一部分组织 (LA) 提供。</p>
+<p>有关更多信息，请参阅<a href="../configuration/rule-sets.md">详情文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -49,15 +50,15 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>使用 AI 助手生成登陆页</strong><br/></th>
+<th><strong>使用AI助手生成登陆页面</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以借助 AI 助手为登陆页面制作具有吸引力的内容，包括全页设计、个性化文本和自定义视觉效果。</p>
+<p>您现在可以借助AI Assistant为登陆页面制作引人注目的内容，包括全页设计、个性化文本和自定义可视化图表。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>有关更多信息，请参阅<a href="../content-management/generative-lp.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../content-management/generative-lp.md">详情文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -67,7 +68,7 @@ ht-degree: 89%
 <table>
 <thead>
 <tr>
-<th><strong>使用 AI 助手的品牌（Beta 版）</strong><br/></th>
+<th><strong>带有AI助手的Brands (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,7 +91,7 @@ ht-degree: 89%
 <tbody>
 <tr>
 <td>
-<p>您现在可以通过直接从Adobe Journey Optimizer发出实际API调用来验证自定义操作配置。 此新功能可帮助您在历程中使用自定义操作之前或之后对其进行故障排除。 </p>
+<p>您现在可以直接从 Adobe Journey Optimizer 进行实际 API 调用，以验证自定义操作配置。此项新增功能可帮助您在历程中使用自定义操作之前或之后对其进行故障排除。 </p>
 <p>有关更多信息，请参阅<a href="../action/troubleshoot-custom-action.md">详细文档</a>。</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -149,4 +150,3 @@ ht-degree: 89%
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
 * **Decisioning**（发布日期：2025 年 1 月 28 日）- 在编辑项目目录的架构时，Decisioning 现在支持“对象”数据类型。[了解详情](../experience-decisioning/catalogs.md)
-
