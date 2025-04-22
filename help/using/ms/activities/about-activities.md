@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '401'
+ht-degree: 26%
 
 ---
 
@@ -38,12 +38,6 @@ ht-degree: 25%
 * [协调](reconciliation.md)：定义Journey Optimizer数据中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
 * [保存受众](save-audience.md)：更新现有受众，或从编排的营销活动中上游计算的群体中创建新受众。
 * [拆分](split.md)：将传入的群体划分到多个子集中。
-
-## 数据管理活动 {#data}
-
-这些活动专门用于操纵和丰富人口数据。
-
-* [加载文件](load-file.md)：使用存储在外部文件中的配置文件和数据。
 
 ## 渠道活动 {#channel}
 

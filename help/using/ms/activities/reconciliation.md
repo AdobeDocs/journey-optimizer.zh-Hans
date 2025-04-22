@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
+source-git-commit: a6b293a5eb1358f692d53c9611b794cf8f7fc753
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 39%
+source-wordcount: '560'
+ht-degree: 44%
 
 ---
 
@@ -93,33 +93,3 @@ ht-degree: 39%
 1. 您可以使用&#x200B;**创建筛选器**&#x200B;按钮筛选要协调的数据。 这使您可以使用查询建模器创建自定义条件。
 
 默认情况下，未协调的数据将保留在叫客过渡中，并可在工作表中供将来使用。 要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。
-
-## 示例 {#reconciliation-example}
-
-下方的示例演示了一个经过编排的营销活动，该营销活动直接从包含新客户的导入文件创建用户档案受众。 该工作流由以下活动组成：
-
-编排的活动设计如下：
-
-![](../assets/workflow-reconciliation-sample-1.0.png)
-
-
-它是通过以下活动构建的：
-
-* [加载文件](load-file.md)活动，上传包含从外部工具提取之轮廓数据的文件。
-
-  例如：
-
-  ```
-  lastname;firstname;email;birthdate;
-  JACKMAN;Megan;megan.jackman@testmail.com;07/08/1975;
-  PHILLIPS;Edward;phillips@testmail.com;09/03/1986;
-  WEAVER;Justin;justin_w@testmail.com;11/15/1990;
-  MARTIN;Babe;babeth_martin@testmail.net;11/25/1964;
-  REESE;Richard;rreese@testmail.com;02/08/1987;
-  ```
-
-* 使用&#x200B;**电子邮件**&#x200B;和&#x200B;**出生日期**&#x200B;字段作为协调条件，将传入数据标识为用户档案的&#x200B;**协调**&#x200B;活动。
-
-  ![](../assets/workflow-reconciliation-sample-1.1.png)
-
-* [保存受众](save-audience.md)活动，以根据这些更新创建新受众。 如果不需要创建或更新特定受众，您还可以使用&#x200B;**结束**&#x200B;活动替换&#x200B;**保存受众**&#x200B;活动。 无论在何时，运行编排的活动时，都会更新收件人用户档案。
