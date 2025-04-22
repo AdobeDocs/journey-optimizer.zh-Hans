@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 733b08dff82f0d6f0f62d2e7644aeee493a69503
+source-git-commit: b620d479548791df97912b143e7dbe7557ab4acc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '389'
 ht-degree: 27%
 
 ---
@@ -53,11 +53,12 @@ ht-degree: 27%
 
 ![流控制活动列表](../assets/flow-control-activities.png){width="30%" align="left"}
 
-
 以下活动特定于组织和执行编排的营销活动。 这些活动的主要任务是协调其他活动：
 
 * [And-join](and-join.md)：同步编排营销活动的多个执行分支。
-* **结束**：以图形方式标记编排营销活动的结束。 此活动对功能没有影响，因此是可选的
 * [分支](fork.md)：创建叫客过渡以同时启动多个活动。
-* [测试](test.md)：根据指定的条件启用转换。
+  <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 * [等待](wait.md)：暂时暂停执行编排的营销活动的一部分。
+
+>[!NOTE]
+>**End**&#x200B;活动以图形方式标记编排营销活动的结尾。 此活动对功能没有影响，因此是可选的
