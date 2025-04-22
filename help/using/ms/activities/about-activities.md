@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 960c7ab18cdca6e34c06f2dc6672aefdb5340ef0
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 24%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 24%
 这些活动专门用于操纵和丰富人口数据。
 
 * [加载文件](load-file.md)：使用存储在外部文件中的配置文件和数据。
-* [更新数据](update-data.md)：对数据库中的字段执行批量更新。 您可以通过多个选项将数据更新个性化。
 
 ## 渠道活动 {#channel}
 

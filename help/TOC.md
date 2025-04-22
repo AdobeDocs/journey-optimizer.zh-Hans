@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2342'
 ht-degree: 88%
 
 ---
@@ -202,7 +202,6 @@ ht-degree: 88%
       + [保存受众](using/ms/activities/save-audience.md)
       + [拆分](using/ms/activities/split.md)
       + [测试](using/ms/activities/test.md)
-      + [更新数据](using/ms/activities/update-data.md)
       + [等待](using/ms/activities/wait.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)

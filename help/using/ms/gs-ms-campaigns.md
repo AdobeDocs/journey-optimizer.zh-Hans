@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 75a5a1dc7c6b411e44147250ab58a0eabf651207
+source-git-commit: d75e1fdda85c2e29c53fbabf4d33efeb48a786ab
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '533'
 ht-degree: 16%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 16%
 * [生成查询](ms-query-modeler.md)
 * [测试和验证报文](ms-proofs.md)
 * [计划和开始您的营销活动](start-monitor-campaigns.md)
-* 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [Split测试](activities/test.md) - [更新数据](activities/update-data.md) - [等待](activities/wait.md)
+* 活动列表： [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [加载文件](activities/load-file.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [Split测试](activities/test.md) - [等待](activities/wait.md)
 * [报告](reporting-campaigns.md)
 
 >[!ENDSHADEBOX]
