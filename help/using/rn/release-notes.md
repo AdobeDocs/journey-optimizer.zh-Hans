@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 66%
+source-wordcount: '944'
+ht-degree: 63%
 
 ---
 
@@ -40,6 +40,25 @@ ht-degree: 66%
 <p>发布日期： 2025年4月9日</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalization编辑器 — 通过实践学习</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>个性化游乐场现已可用，您可以在其中试验个性化表达式。 它允许您浏览示例模板和负载，以帮助您开始并尝试自己的个性化表达式。</p>
+<p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详情文档</a>。</p>
+<p>发布日期： 2025年4月24日</p>
+</br>
+<img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
 </tbody>
