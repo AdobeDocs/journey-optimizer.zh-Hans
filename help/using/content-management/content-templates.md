@@ -8,15 +8,19 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 2a666364144cf320a9ed20741da7d6f5d22b0d96
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '236'
+ht-degree: 6%
 
 ---
 
 
 # 内容模板入门 {#content-templates}
+
+>[!NOTE]
+>
+>从2025年3月开始，弃用HTML类型内容模板。 您仍然可以使用之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。
 
 为了加快并改进设计过程，您可以创建独立的模板以轻松地在[!DNL Journey Optimizer]营销活动和历程中重用自定义内容。
 

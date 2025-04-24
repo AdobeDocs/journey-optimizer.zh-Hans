@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,10 @@ ht-degree: 3%
 您还可以选择仅显示您自己创建或修改的项目。
 
 ![](assets/content-template-list-filters.png)
+
+>[!NOTE]
+>
+>从2025年3月开始，弃用HTML类型内容模板。 您仍然可以访问之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。
 
 ## 使用文件夹管理内容模板 {#folders}
 
@@ -96,19 +100,19 @@ ht-degree: 3%
 >
 >编辑或删除模板时，使用此模板创建的活动或历程（包括内容）不会受到影响。
 
-## [!BADGE 有限可用性]{type=Informational}将模板显示为缩略图 {#template-thumbnails}
+## [!BADGE 有限可用性]{type=Informative}将模板显示为缩略图 {#template-thumbnails}
 
 选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;模式以将每个模板显示为缩略图。
 
 >[!AVAILABILITY]
 >
-此功能面向一小部分客户限量发布 (LA)。
+>此功能面向一小部分客户限量发布 (LA)。
 
 ![](assets/content-template-grid-view.png)
 
 >[!NOTE]
 >
-当前只能为HTML类型生成正确的缩略图 email 内容模板。
+>当前只能为HTML类型的电子邮件内容模板生成正确的缩略图。
 
 更新内容时，您可能需要等待几秒钟，更改才会反映在缩略图中。
 

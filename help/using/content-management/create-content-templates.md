@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 15%
+source-wordcount: '633'
+ht-degree: 16%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 15%
 
 ## 从头开始制定模板 {#create-template-from-scratch}
 
+>[!NOTE]
+>
+>从2025年3月开始，弃用HTML类型内容模板。 您仍然可以使用之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。
+
 要从头开始创建内容模板，请执行以下步骤。
 
 1. 通过&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 内容模板]**&#x200B;左侧菜单访问内容模板列表。
@@ -51,14 +55,6 @@ ht-degree: 15%
    >[!NOTE]
    >
    >目前，除Web渠道外，所有渠道均可用。
-
-1. 为所选渠道选择&#x200B;**[!UICONTROL 类型]**。
-
-   ![](assets/content-template-type.png)
-
-   * 对于&#x200B;**[!UICONTROL 电子邮件]**，如果您选择&#x200B;**[!UICONTROL 内容]**，则可以将[主题行](../email/create-email.md#define-email-content)定义为模板的一部分。 如果选择&#x200B;**[!UICONTROL HTML]**，则只能定义电子邮件正文的内容。
-
-   * 对于&#x200B;**[!UICONTROL SMS]**、**[!UICONTROL 推送]**、**[!UICONTROL 应用程序内]**&#x200B;和&#x200B;**[!UICONTROL 直邮]**，只有默认类型可用于当前渠道。 您仍需要选择它。
 
 1. 从&#x200B;**[!UICONTROL 标记]**&#x200B;字段中选择或创建Adobe Experience Platform标记以对您的模板进行分类，从而改进搜索。 [了解详情](../start/search-filter-categorize.md#tags)
 
@@ -75,7 +71,7 @@ ht-degree: 15%
    * [定义直邮内容](../direct-mail/create-direct-mail.md)
    * [定义应用程序内内容](../in-app/design-in-app.md)
 
-1. 如果您正在创建类型为&#x200B;**[!UICONTROL HTML]**&#x200B;的&#x200B;**[!UICONTROL 电子邮件]**&#x200B;模板，则可以测试您的内容。 [了解如何操作](#test-template)
+1. 您可以测试您的内容。 [了解如何操作](#test-template)
 
 1. 模板准备就绪后，单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -110,7 +106,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >当前渠道和类型会自动填充，且无法编辑。 对于从[电子邮件Designer](../email/get-started-email-design.md)创建的电子邮件模板，自动选择&#x200B;**[!UICONTROL HTML]**&#x200B;类型。
+   >当前渠道会自动填充，且无法编辑。
 
 1. 从&#x200B;**标记**&#x200B;字段中选择或创建Adobe Experience Platform标记以对您的模板进行分类。 [了解详情](../start/search-filter-categorize.md#tags)
 

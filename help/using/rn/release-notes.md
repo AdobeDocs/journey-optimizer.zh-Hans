@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 08b9c2daa61a13de2d0f1ce6174c80a16459b8b1
+source-git-commit: a487355df0229a1e94375025eae0babc9405f087
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 69%
+source-wordcount: '894'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中，进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
 
 ## 2025 年 4 月更新
 
@@ -36,7 +36,7 @@ ht-degree: 69%
 <tr>
 <td>
 <p>历程指标现已可用，可让您在业务的各个关键指标上衡量活动的影响，并更清楚地了解您的绩效。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/success-metrics.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/success-metrics.md">详情文档</a>。</p>
 <p>发布日期： 2025年4月9日</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
@@ -165,7 +165,7 @@ ht-degree: 69%
 <td>
 <p>为了提高营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Journey Optimizer 无缝集成。这使您能够利用 GenStudio 的 AI 驱动的内容创建以及 Journey Optimizer 的高级编排功能。<p>
 <p>目前，Journey Optimizer 中的 GenStudio 集成不可用于 Healthcare Shield 或 Privacy and Security Shield（有限发布版）。</p>
-<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详情文档</a>。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
 </tr>
@@ -243,6 +243,11 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 请注意，规则集中的每日频次上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
 
 有关业务规则的更多信息，请参阅[详细文档](../configuration/rule-sets.md)。
+
+**内容模板**
+
+现已弃用HTML类型内容模板。 请注意，您仍然可以使用之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。 [了解有关内容模板的更多信息](../content-management/content-templates.md)
+
 
 <!--**Deliverability**
 
