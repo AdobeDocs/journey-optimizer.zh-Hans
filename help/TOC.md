@@ -254,7 +254,7 @@ ht-degree: 88%
       + 配置电子邮件渠道 {#configure-email}
          + [电子邮件配置入门](using/email/get-started-email-config.md)
          + [定义电子邮件配置设置](using/email/email-settings.md)
-         + [启用列表取消订阅](using/email/list-unsubscribe.md)
+         + [启用取消列表订阅](using/email/list-unsubscribe.md)
          + [标头参数](using/email/header-parameters.md)
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)

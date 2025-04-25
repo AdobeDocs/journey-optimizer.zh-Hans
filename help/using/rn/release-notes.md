@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 63%
+ht-degree: 90%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>历程指标现已可用，可让您在业务的各个关键指标上衡量活动的影响，并更清楚地了解您的绩效。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/success-metrics.md">详情文档</a>。</p>
-<p>发布日期： 2025年4月9日</p>
+<p>通过历程指标，您可以根据业务的各项关键量度衡量活动的影响，更清楚地掌握绩效表现。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/success-metrics.md">详细文档</a>。</p>
+<p>发布日期：2025 年 4 月 9 日</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 </td>
@@ -55,7 +55,7 @@ ht-degree: 63%
 <tr>
 <td>
 <p>个性化游乐场现已可用，您可以在其中试验个性化表达式。 它允许您浏览示例模板和负载，以帮助您开始并尝试自己的个性化表达式。</p>
-<p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详情文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详细文档</a>。</p>
 <p>发布日期： 2025年4月24日</p>
 </br>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -66,25 +66,25 @@ ht-degree: 63%
 
 ### 改进 {#25-04-improv}
 
-* **沙盒工具** — 可用日期： 2025年4月3日
+* **沙盒工具** - 发布日期：2025 年 4 月 3 日
 
-  您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。 活动会与所有与用户档案、受众、模式、内联消息和依赖对象相关的项目一起复制。 某些项目不会被复制，例如决策项目、数据使用标签和语言设置。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+  您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。某些项目不会被复制，例如决策项目、数据使用标签和语言设置。[了解详情](../configuration/copy-objects-to-sandbox.md)
 
-* **Personalization** — 发布日期：2025年4月2日
+* **个性化** - 发布日期：2025 年 4 月 2 日
 
-  默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。 要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充的属性]**&#x200B;选项。 [了解详情](../personalization/personalization-build-expressions.md)
+  默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充属性]**&#x200B;选项。[了解详情](../personalization/personalization-build-expressions.md)
 
-* **内容管理** — 发布日期：2025年4月2日
+* **内容管理** - 发布日期：2025 年 4 月 2 日
 
-  为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更有效地组织到结构化层次结构中。 要了解更多信息，请参阅[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分。
+  为了轻松地管理内容模板和片段，您现在可以使用文件夹将它们更高效地组织为结构化层级结构。要了解更多信息，请参阅[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分。
 
   >[!AVAILABILITY]
   >
   >此改进仅面向一部分组织（有限发布版）。
 
-* **向Designer发送电子邮件** — 发布日期：2025年4月1日
+* **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
 
-  为了增强Journey Optimizer中的辅助功能，Email Designer中现在提供了两个新字段：它们对应于电子邮件内容`<html>`元素中的`<title>`元素和`lang`属性。 除了电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中的&#x200B;**[!UICONTROL Preheader]**&#x200B;字段外，您还可以定义这些设置。 [了解详情](../email/email-metadata.md)
+  为了增强 Journey Optimizer 中的辅助功能，电子邮件设计器中现在提供两个新的字段：它们对应电子邮件内容的 `<html>` 元素中的 `<title>` 元素和 `lang` 属性。除了在&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段中，您还可以在电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中定义这些设置。[了解详情](../email/email-metadata.md)
 
 
 ## 2025 年 3 月发行说明 {#25-3-rn}
@@ -184,7 +184,7 @@ ht-degree: 63%
 <td>
 <p>为了提高营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Journey Optimizer 无缝集成。这使您能够利用 GenStudio 的 AI 驱动的内容创建以及 Journey Optimizer 的高级编排功能。<p>
 <p>目前，Journey Optimizer 中的 GenStudio 集成不可用于 Healthcare Shield 或 Privacy and Security Shield（有限发布版）。</p>
-<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详情文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
 </tr>
@@ -194,13 +194,13 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>灵活的受众评估(GA)</strong><br/></th>
+<th><strong>灵活的受众评估 (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前，灵活的受众评估可用于一组组织(LA)，现在所有用户均可使用(GA)。 利用此功能，可按需为选定受众运行分段作业，从而确保在将受众定位到Journey Optimizer历程和营销活动之前，您始终拥有最新的受众数据。</p>
+<p>以前，灵活的受众评估面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)。通过该功能，您可以按需为选定的受众运行分段作业，确保始终掌握最新的受众数据，然后再将受众作为 Journey Optimizer 历程和营销活动目标。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>有关更多信息，请参阅<a href="../audience/creating-a-segment-definition.md#flexible">详细文档</a>。</p>
 </tr>

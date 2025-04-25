@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -253,8 +253,8 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="练习您的旅程"
->abstract="设计历程后，执行试运行以确认其功能并确保步骤正确无误。 此发布模式允许您烟雾测试历程，而无需向任何用户档案发送通信。"
+>title="空运行历程"
+>abstract="设计历程后，执行空运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
 
 
@@ -263,4 +263,4 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="定义决策策略"
->abstract="决策策略允许您从决策引擎中选择最佳项目并将其交付给适当的受众。"
+>abstract="决策策略允许您从决策引擎中挑选最佳项目，并将其推送给合适的受众。"
