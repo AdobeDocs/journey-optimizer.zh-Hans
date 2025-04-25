@@ -10,9 +10,9 @@ level: Experienced
 keywords: 子域, 域, 邮件, dmarc, 记录
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 96%
 
 **有用链接**
 
-* 在[可投放性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}中了解有关DMARC的更多信息
-* 阅读[Google Gmail公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 要了解有关 DMARC 的更多信息，请参阅[可传递性最佳实践指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hans#about){target="_blank"}
+* 阅读 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 * 阅读 [Yahoo! 公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

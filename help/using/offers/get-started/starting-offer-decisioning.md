@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 * 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的产品建议来改进工作流程，而无需创建多个投放或活动，
 * 控制产品建议在营销活动和客户中显示的次数。
 
-➡️[在这些视频中了解有关决策管理的更多信息](#video)
+➡️ [通过这些视频了解有关决策管理的更多信息](#video)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ ht-degree: 97%
 
 使用 [Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/managing/user-guide.html){target="_blank"} 管理访问和使用决策功能的权限。
 
-要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;并为用户分配相应的权限。在[本节](../../administration/permissions.md)中了解有关管理[!DNL Journey Optimizer]用户和权限的详细信息。
+要授予对决策管理功能的访问权限，您需要创建&#x200B;**[!UICONTROL 产品轮廓]**&#x200B;并为用户分配相应的权限。在[此部分](../../administration/permissions.md)中了解关于管理 [!DNL Journey Optimizer] 用户和权限的更多信息。
 
 [本节](../../administration/high-low-permissions.md#decisions-permissions)中列出了特定于决策管理的权限。
 

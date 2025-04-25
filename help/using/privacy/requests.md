@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 隐私请求
-description: 了解有关隐私请求和Privacy Service的更多信息。
+description: 了解有关隐私请求和 Privacy Service 的更多信息。
 feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

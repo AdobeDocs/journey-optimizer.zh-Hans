@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 1. **创建沙盒**&#x200B;以将实例分割为单独的独立虚拟环境。**沙盒**&#x200B;在 [!DNL Journey Optimizer] 中创建。在[沙盒](../../administration/sandboxes.md)部分了解详情。
 
    >[!NOTE]
-   >作为&#x200B;**系统管理员**，如果 [!DNL Journey Optimizer] 中未显示&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，则需要更新您的权限。了解如何在[此页面](../../administration/permissions.md#edit-product-profile)上更新您的角色。
+   >作为&#x200B;**系统管理员**，如果 [!DNL Journey Optimizer] 中未显示&#x200B;**[!UICONTROL 沙盒]**&#x200B;菜单，则需要更新您的权限。要了解如何更新角色，请参阅[此页面](../../administration/permissions.md#edit-product-profile)。
 
 1. **了解角色**。角色是一组单一的权利，允许用户访问界面中的特定功能或对象。请参阅[开箱即用的角色](../../administration/ootb-product-profiles.md)部分，了解更多信息。
 
@@ -74,4 +74,4 @@ ht-degree: 97%
 
    * 借助[允许列表](../../configuration/allow-list.md)，可指定单独的电子邮件地址或域，这些地址或域将是唯一有权接收您从特定沙盒发送的电子邮件的收件人或域。这样可以防止您在测试环境中意外地向实际的客户地址发送电子邮件。了解如何[启用允许列表](../../configuration/allow-list.md)。
 
-   在此页面](../../reports/deliverability.md)上了解有关[!DNL Adobe Journey Optimizer] [中可投放性管理的更多信息。
+   在[!DNL Adobe Journey Optimizer][此页面](../../reports/deliverability.md)中了解有关可投放性管理的更多信息。

@@ -10,15 +10,15 @@ level: Experienced
 keywords: 策略、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 使用同意策略 {#consent-management}
 
-贵组织或法律法规可能会对您的数据设置使用限制。因此，确保Journey Optimizer中的数据操作符合[数据使用策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。 这些策略是 Adobe Experience Platform 规则，定义了您可以对数据执行哪些营销操作。
+贵组织或法律法规可能会对您的数据设置使用限制。因此，确保您在 Journey Optimizer 中的数据操作符合[数据使用政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans){target="_blank"}非常重要。这些策略是 Adobe Experience Platform 规则，定义了您可以对数据执行哪些营销操作。
 
 默认情况下，如果某个用户档案选择不接收来自您的通信，则会在后续投放中排除相应的用户档案。您可以创建覆盖此默认逻辑的&#x200B;**同意策略**。例如，您可以在 Experience Platform 中创建同意策略，以排除未同意接收特定渠道通信的客户。如果没有自定义策略，则应用默认策略。
 
@@ -41,7 +41,7 @@ ht-degree: 92%
 
 ## 通过渠道配置利用同意策略 {#surface-marketing-actions}
 
-在[!DNL Journey Optimizer]中，同意由Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。 默认情况下，同意字段的值为空，并视为同意接收您的通信。载入时，您可以将此默认值修改为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一。
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。载入时，您可将此默认值修改为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一。
 
 要修改同意字段值，您可以创建自定义同意策略，在该策略中定义营销操作以及执行该操作的条件。[了解有关营销操作的更多信息](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#marketing-actions){target="_blank"}
 
@@ -53,7 +53,7 @@ ht-degree: 92%
 
    <!--![](assets/consent-policy-create.png)-->
 
-1. 选择&#x200B;**[!UICONTROL 同意政策]**，按以下方式键入并配置条件。[了解如何配置同意政策](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
+1. 选择&#x200B;**[!UICONTROL 同意政策]**，按以下方式键入并配置条件。[了解如何配置同意策略](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#consent-policy){target="_blank"}
 
    1. 在 **[!UICONTROL If]** 部分，选择&#x200B;**[!UICONTROL 电子邮件定位]**&#x200B;默认营销操作。
 
@@ -61,7 +61,7 @@ ht-degree: 92%
 
       >[!NOTE]
       >
-      >[此表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions){target="_blank"}中列出了Adobe提供的现成核心营销操作。 [此部分](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-marketing-action){target="_blank"}列出了创建自定义营销操作的步骤。
+      >[此表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hans#core-actions){target="_blank"}中列出了 Adobe 提供的现成核心营销操作。[此部分](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hans#create-marketing-action){target="_blank"}中列出了创建自定义营销操作的步骤。
 
    1. 选择应用营销操作时发生的事件。在此示例中，选择&#x200B;**[!UICONTROL 电子邮件营销同意]**。
 

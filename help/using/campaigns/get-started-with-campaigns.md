@@ -10,9 +10,9 @@ level: Beginner
 keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 96%
 
 +++
 
-1. **您需要有受众**。在创建营销活动之前，需要设置受众。在此页面](../audience/about-audiences.md)上了解有关受众[的更多信息。
-1. **您需要一个渠道配置**。要选择渠道，必须创建并提供相应的渠道配置（即预设）。在此页面](../configuration/channel-surfaces.md)上了解有关渠道配置[的更多信息。
+1. **您需要有受众**。在创建营销活动之前，需要设置受众。要了解有关受众的更多信息，请参阅[此页面](../audience/about-audiences.md)。
+1. **您需要一个渠道配置**。要选择渠道，必须创建并提供相应的渠道配置（即预设）。要了解有关渠道配置的更多信息，请参阅[此页面](../configuration/channel-surfaces.md)。
 
 ## 操作方法视频 {#video}
 

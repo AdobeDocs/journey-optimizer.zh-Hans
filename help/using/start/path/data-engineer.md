@@ -8,9 +8,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 作为 **Adobe Journey Optimizer 数据工程师**，需要准备和维护客户轮廓数据以支持通过 [!DNL Journey Optimizer] 编排的体验，使用架构对客户和业务数据进行建模，并为摄取数据配置源连接器。[系统管理员](administrator.md)向您授予访问权限并准备好环境后，您即可开始使用 [!DNL Adobe Journey Optimizer]。
 
 
-在此页面上了解如何&#x200B;**识别数据并创建架构和数据集**&#x200B;以将您的数据导入Adobe Experience Platform。
+在此页面中了解如何&#x200B;**识别数据并创建架构和数据集**，以将您的数据导入 Adobe Experience Platform。
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ ht-degree: 89%
 
 以下各部分中详细介绍了为轮廓和测试轮廓创建身份标识命名空间和启用数据集的步骤：
 
-1. **创建身份标识命名空间**。在 Adobe [!DNL Journey Optimizer] 中，跨设备和渠道的&#x200B;**身份标识**&#x200B;与用户相关联，从而会生成一个身份标识图。关联的身份标识图用于根据您所有业务接触点之间的交互对体验进行个性化。在此页面](../../audience/get-started-identity.md)上了解有关身份和身份命名空间[的详细信息。
+1. **创建身份标识命名空间**。在 Adobe [!DNL Journey Optimizer] 中，跨设备和渠道的&#x200B;**身份标识**&#x200B;与用户相关联，从而会生成一个身份标识图。关联的身份标识图用于根据您所有业务接触点之间的交互对体验进行个性化。要了解有关身份标识和身份标识命名空间的更多信息，请参阅[此页面](../../audience/get-started-identity.md)。
 
-1. **创建架构**&#x200B;并为轮廓启用。架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。在此页面](../../data/get-started-schemas.md)上了解有关架构[的更多信息。
+1. **创建架构**&#x200B;并为轮廓启用。架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。要了解有关架构的更多信息，请参阅[此页面](../../data/get-started-schemas.md)。
 
-1. **创建数据集**&#x200B;并为轮廓启用。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。数据集还包含描述其存储的数据的各方面特性的元数据。创建数据集后，您可以将其映射到现有架构并向其中添加数据。在此页面](../../data/get-started-datasets.md)上了解有关数据集[的更多信息。
+1. **创建数据集**&#x200B;并为轮廓启用。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。数据集还包含描述其存储的数据的各方面特性的元数据。创建数据集后，您可以将其映射到现有架构并向其中添加数据。要了解有关数据集的更多信息，请参阅[此页面](../../data/get-started-datasets.md)。
 
-1. **配置源连接器**。Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用 Platform 服务来构建、标记和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。在本页](../get-started-sources.md)上了解有关Source连接器[的更多信息。
+1. **配置源连接器**。Adobe Journey Optimzer 允许从外部源摄取数据，同时让您能够使用 Platform 服务来构建、标记和增强传入数据。您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。要了解有关源连接器的更多信息，请参阅[此页面](../get-started-sources.md)。
 
-1. **创建测试轮廓**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试轮廓，并在发送之前[预览和测试消息](../../content-management/preview-test.md)。创建测试用户档案的步骤在此页](../../audience/creating-test-profiles.md)上详述[。
+1. **创建测试轮廓**。当在历程中使用[测试模式](../../building-journeys/testing-the-journey.md)时，需要测试轮廓，并在发送之前[预览和测试消息](../../content-management/preview-test.md)。[本页面](../../audience/creating-test-profiles.md)中详细说明了创建测试轮廓的步骤。
 
 
 此外，要在历程中发送消息，您必须配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。[在此部分中](../../configuration/about-data-sources-events-actions.md)了解详情。

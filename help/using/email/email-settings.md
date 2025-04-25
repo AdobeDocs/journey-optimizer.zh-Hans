@@ -10,9 +10,9 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,15 @@ ht-degree: 99%
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-电子邮件配置将根据以下逻辑用于发送通信：
+系统会选取电子邮件配置，以便按照以下逻辑发送通信：
 
-* 对于批次历程，不适用于在进行电子邮件表面配置完成之前已启动的批次执行。
-更改将在重复执行或新的执行中生效。
+* 对于批次历程，不适用于在进行电子邮件表面配置之前已启动的批处理执行。在下次进行重复执行或新执行时，会提取更改。
 
-
-* 对于事务性消息，更改将在下次通信中立即生效（最多延迟五分钟）。
-
+* 对于事务性消息，会在下次通信时立即提取更改（最多延迟 5 分钟）。
 
 >[!NOTE]
 >
->更新的电子邮件配置设置会自动应用到使用该配置的历程或营销活动中。
+>在使用配置的历程或营销活动中，将自动提取更新的电子邮件配置设置。
 
 ## 电子邮件类型 {#email-type}
 
@@ -52,7 +49,7 @@ ht-degree: 99%
 
 * 为促销电子邮件选择&#x200B;**营销**，如零售商店的每周促销活动。这些消息需要用户同意。
 
-* 为非商业电子邮件选择&#x200B;**事务性**，例如订单确认、密码重置通知或投放信息。可以将这些电子邮件发送到&#x200B;**取消订阅**&#x200B;营销通信的轮廓。这些消息只能在特定上下文中发送。
+* 为非商业电子邮件选择&#x200B;**事务性**，例如订单确认、密码重置通知或投放信息。可以将这些电子邮件发送到&#x200B;**取消订阅**&#x200B;营销通信的用户档案。这些消息只能在特定上下文中发送。
 
 创建消息时，必须选择与电子邮件所选类别相匹配的有效渠道配置。
 
@@ -64,7 +61,7 @@ ht-degree: 99%
 >
 >为了增强对电子邮件设置的控制，您可以定义动态子域。[了解详情](../email/surface-personalization.md#dynamic-subdomains)
 
-为了维护域的信誉、加快 IP 预热过程并改进可投放性，请将您的发送子域委派给 Adobe。[了解详情](../configuration/about-subdomain-delegation.md)
+为了维护域的信誉、加快 IP 预热过程并改进可投放性，将用于发送的子域委派给 Adobe。[了解详情](../configuration/about-subdomain-delegation.md)
 
 ## IP 池详细信息 {#ip-pools}
 
@@ -78,17 +75,17 @@ ht-degree: 99%
 >
 >对于非生产环境，Adobe 不会创建现成的测试子域，也不会授予对共享发送 IP 池的访问权限。您需要[委派自己的子域](../configuration/delegate-subdomain.md)并使用分配给贵组织的池中的 IP。
 
-选择 IP 池后，当鼠标悬停在 IP 池下拉列表下方显示的 IP 地址上时，会显示 PTR 信息。[了解有关PTR记录的更多信息](../configuration/ptr-records.md)
+选择 IP 池后，当鼠标悬停在 IP 池下拉列表下方显示的 IP 地址上时，会显示 PTR 信息。[了解有关 PTR 记录的更多信息](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
 >如果未配置 PTR 记录，请联系您的 Adobe 代表。
 
-## 取消列表订阅 {#list-unsubscribe}
+## 列表取消订阅 {#list-unsubscribe}
 
-从列表中选择子域后，将显示&#x200B;**[!UICONTROL 启用取消列表订阅]**&#x200B;选项。默认情况下，它处于启用状态。
+从列表中选择子域后，将显示&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项。默认情况下，它处于启用状态。
 
-利用该功能，您可以在电子邮件标头中包含一键取消订阅 URL。[了解详情](list-unsubscribe.md)
+利用该功能，您可以在电子邮件标头中包含一键式取消订阅 URL。[了解详情](list-unsubscribe.md)
 
 ## 标头参数 {#email-header}
 
@@ -182,7 +179,7 @@ ht-degree: 99%
 * 对于事务性电子邮件，最小重试时段为 10 分钟。
 * 这两种电子邮件类型的最大重试时段为 84 小时（或 5040 分钟）。
 
-在[本节](../configuration/retries.md)中了解有关重试的详细信息。
+要了解有关重试的更多信息，请参阅[此部分](../configuration/retries.md)。
 
 ## URL 跟踪 {#url-tracking}
 
