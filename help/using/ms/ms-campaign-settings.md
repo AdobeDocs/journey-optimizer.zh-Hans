@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 配置编排的活动设置
+title: 配置协同营销活动设置
 description: 了解如何使用Adobe Journey Optimizer配置编排的活动设置
 badge: label="Alpha"
 hide: true
@@ -10,16 +10,16 @@ exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
 source-git-commit: 3d33d0bdbaf5b56a68d4ea708ce023c6aaae4811
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 7%
+ht-degree: 28%
 
 ---
 
-# 配置编排的活动设置 {#workflow-settings}
+# 配置协同营销活动设置 {#workflow-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_creation_properties"
->title="编排的活动属性"
->abstract="在此屏幕中，选择要用于创建编排的活动的模板并指定标签。 展开&#x200B;**其他选项**&#x200B;部分以配置更多设置，例如编排的活动内部名称、其文件夹、时区和主管组。 强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
+>title="协同营销活动属性"
+>abstract="在此屏幕中，选择要用于创建协同营销活动的模板并指定标签。展开&#x200B;**其他选项**&#x200B;部分以配置更多设置，例如协同营销活动内部名称、其文件夹、时区和主管组。强烈建议选择一个主管组，以便如果出错，可提醒操作员。"
 
 在画布中创建编排的活动或编排编排的活动活动时，您可以访问与编排的活动相关的高级设置。 例如，您可以为编排的活动设置特定时区，管理编排的活动在出错时的行为方式，或管理应清除编排的活动历史记录的延迟。
 
@@ -27,12 +27,12 @@ ht-degree: 7%
 
 ![](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
-## 编排的活动属性 {#properties}
+## 协同营销活动属性 {#properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_properties"
->title="编排的活动属性"
->abstract="本节提供通用的编排营销活动属性，在创建编排营销活动时也可以访问这些属性。 您可以选择用于创建编排的营销策划的模板并指定标签。 展开其他选项部分以配置特定设置，例如存储文件夹或时区的编排营销活动。"
+>title="协同营销活动属性"
+>abstract="此部分提供了创建协同营销活动时也可访问的通用协同营销活动属性。您可以选择要用于创建协同营销活动的模板并指定标签。展开“其他选项”部分以配置特定设置，例如协同营销活动存储文件夹或时区。"
 
 **[!UICONTROL 属性]**&#x200B;部分提供了通用设置，可在创建编排的活动时配置这些设置。 要访问现有编排营销活动的属性，请单击编排营销活动画布上方操作栏中可用的&#x200B;**[!UICONTROL 设置]**&#x200B;按钮。
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_segmentation"
 >title="分段设置"
->abstract="在此部分中，您可以选择定向维度来定向编排的营销活动中的用户档案，并选择在两个执行之间保留工作流结果。 此选项应仅用于测试目的，不得在生产编排的活动中启用。"
+>abstract="在此部分中，您可以选择协同营销活动中目标轮廓的目标市场选择维度，并选择保留两次执行之间的工作流结果。此选项只应用于测试目的，且不得在生产环境中的协同营销活动内启用。"
 
 * **[!UICONTROL 定向维度]**：选择要用于定向用户档案的定向维度：收件人、合同受益人、操作员、订阅者等。
 
@@ -72,7 +72,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_execution"
 >title="执行设置"
->abstract="在此部分中，您可以配置与工作流执行相关的设置，例如保留编排的活动历史记录的天数。"
+>abstract="在此部分中，您可以配置与多步骤营销活动执行相关的设置，例如协同营销活动历史记录的保留天数。"
 
 * **[!UICONTROL 历史记录（以天为单位）]**：指定必须清除历史记录的天数。 历史记录包含与编排的活动相关的元素：日志、任务、事件（链接到编排的活动操作的技术对象）。 现成可用的编排活动模板的默认值为30天。 清除历史记录由数据库清理技术编排的活动执行，默认情况下，每天都会执行该活动
 
@@ -94,7 +94,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_workflow_settings_error"
 >title="错误管理设置"
->abstract="在此部分中，您可以定义编排的活动应如何管理其执行过程中的错误。 您可以选择暂停流程、忽略特定数量的错误或停止编排的活动执行。"
+>abstract="在此部分中，您可以定义协同营销活动在执行期间应如何管理错误。您可以选择暂停流程、忽略一定数量的错误或停止协同营销活动执行。"
 
 * **[!UICONTROL 错误管理]**：此字段允许您定义在编排的营销活动任务出现错误时要执行的操作。 有三种可能的选项：
 

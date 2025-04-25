@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="精心策划的营销活动"
->abstract="在此屏幕中，您可以访问编排的营销活动的完整列表，检查其当前状态、上次/下次执行日期，以及创建新的编排的营销活动。"
+>title="协同营销活动"
+>abstract="在此屏幕中可访问协同营销活动的完整列表，查看其当前状态、上次/下次执行日期，并创建新的协同营销活动。"
 
 借助Adobe Journey Optimizer，您可以将编排的营销活动构建到可视画布中，以设计跨渠道流程，如分段、营销活动执行、文件处理。
 

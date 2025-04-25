@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="调度程序活动"
->abstract="利用活动&#x200B;**调度程序**，可安排何时启动编排的活动。 应将此活动视为已安排的一次开始。它只能用作编排的营销活动的第一个活动。"
+>abstract="利用活动&#x200B;**调度程序**，可安排何时启动编排的活动。 应将此活动视为已安排的一次开始。只能将它用作协同营销活动的第一个活动。"
 
 作为营销活动经理，您可以将营销活动计划为在特定时间自动启动，从而为营销通信提供精确的时间和准确的定位数据。
 

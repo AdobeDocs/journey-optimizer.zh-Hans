@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '2050'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="扩充数据"
->abstract="选择用于扩充编排营销活动的数据。 可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
+>abstract="选择要使用的数据来扩充您的协同营销活动。可选择两种类型的扩充数据：目标维度中的单个扩充属性或收藏集链接（即在各表之间具有 1-N 基数的链接）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="扩充活动"
->abstract="将扩充数据添加到编排的营销活动后，便可在扩充活动后添加的活动中使用，以根据客户的行为、偏好和需求将客户划分为不同的组，或创建更可能引起目标受众共鸣的个性化营销消息和营销活动。"
+>abstract="将扩充数据添加到协同营销活动中后，可以在扩充活动后添加的活动中使用这些数据，以根据客户的行为、偏好和需求来将客户分成不同的组，或者创建更可能让目标受众产生共鸣的个性化营销邮件和营销活动。"
 
 1. 单击&#x200B;**添加扩充数据**&#x200B;并选择要用于扩充数据的属性。
 

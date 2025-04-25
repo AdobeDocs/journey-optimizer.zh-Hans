@@ -10,7 +10,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: bdc584c1aae0c735d81dfc95e11f96f755bea26a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 65%
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="AND-join 活动"
->abstract="**And-join**&#x200B;活动允许您同步编排营销活动的多个执行分支。 一旦完成所有之前的活动，即会触发该活动。这允许您在继续执行编排的活动之前，确保已完成某些活动。"
+>abstract="您可以使用 **And-join** 活动，同步协同营销活动的多个执行分支。一旦完成所有之前的活动，即会触发该活动。这样在继续执行协同营销活动之前，就可以确保某些活动已经完成。"
 
 **AND-连接**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它允许您同步编排营销活动的多个执行分支。
 
