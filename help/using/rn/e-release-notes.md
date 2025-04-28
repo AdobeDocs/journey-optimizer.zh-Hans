@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b79ab63dfefde9df1b4991ed3a81f1d61bc4bb96
+source-git-commit: b7549bb2ec9e3af4c08def9d46cde0b574df3d3a
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 12%
+source-wordcount: '918'
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express集成（拉美）</strong><br/></th>
+<th><strong>Adobe Express集成（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在与Adobe Express集成，使用户能够将其创意资源与journey orchestration无缝连接。 此集成简化了跨营销活动设计和部署个性化内容的过程。 此功能当前处于“有限可用”状态。</p>
+<p>Adobe Journey Optimizer现在与Adobe Express集成，使您能够将创意资源与journey orchestration无缝连接。 此集成简化了跨营销活动设计和部署个性化内容的过程。 此功能当前处于“有限可用”状态。</p>
 </td>
 </tr>
 </tbody>
@@ -52,13 +52,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>促销活动和历程库存(LA)的日历视图</strong><br/></th>
+<th><strong>Campaign和历程清单的日历视图（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的日历视图现在可用于营销活动和历程激活。 此功能可提供计划活动的可视化表示形式，允许用户更有效地查看和管理其活动和历程。 选择日历项目会打开一个包含详细信息的右边栏。 此功能当前处于“有限可用”状态。</p>
+<p>新的日历视图现在可用于营销活动和历程激活。 此功能可提供计划活动的可视化表示形式，让您能够更有效地查看和管理营销活动和历程。 选择日历项目会打开一个包含详细信息的右边栏。 此功能当前处于“有限可用”状态。</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>Experience League现在提供一个交互式的Personalization游乐场。 此功能允许用户在Adobe Journey Optimizer中探索和实践个性化功能。 用户可以编写个性化代码，使用示例负载进行测试，并模拟真实场景以增强其学习体验。</p>
+<p>Experience League现在提供一个交互式的Personalization游乐场。 此功能允许您在Adobe Journey Optimizer中探索和实践个性化功能。 您可以编写个性化代码，使用示例负载进行测试，并模拟真实场景以增强您的学习体验。</p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +97,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>在批量受众评估(LA)后触发历程执行</strong><br/></th>
+<th><strong>在批量分段完成后触发每日历程运行（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，用户可以指定一个时间窗口，以等待在读取受众节点中对批次受众进行新的评估。 如果评估在窗口中完成，则会触发历程；否则，将跳过历程。 此功能解决了批量分段作业中的延迟问题，当前处于“有限可用性”状态。</p>
+<p>对于每日计划的历程，新增选项可让您定义长达6小时的时间范围，以等待批次分段作业中的受众数据，确保历程使用最新数据运行或者如果未准备就绪则跳过。 批量受众评估后触发选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
 </td>
 </tr>
 </tbody>
@@ -112,13 +112,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>下一代校对(GA)</strong><br/></th>
+<th><strong>模拟内容变体（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新一代校对功能现已正式可用。 此增强功能支持上下文属性、多语言内容、试验以及内容模板，从而提供更强健、更灵活的验证体验。</p>
+<p>以前在测试版中提供，现在内容变体模拟已正式提供(GA)。 它允许您使用从CSV或JSON文件上传或手动添加的示例输入数据预览内容的不同变体。 系统会自动检测内容中用于个性化的所有属性，这些属性可用于测试以创建多个变体。</p>
 </td>
 </tr>
 </tbody>
@@ -127,13 +127,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>自带短信提供商(GA)</strong><br/></th>
+<th><strong>自备短信提供商（正式发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在支持自定义短信提供商，允许用户集成其首选短信服务，以增强通信灵活性。</p>
+<p>Adobe Journey Optimizer现在支持自定义短信提供商，允许您集成首选短信服务，以增强通信灵活性。</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ ht-degree: 12%
 
 - **移除扩充属性的限制**
 
-  现在，具有医疗保健和隐私防护的客户可以在Adobe Journey Optimizer渠道中使用受众组合扩充属性，从而增强数据使用功能。
+  现在，可以将受众组合中的受众和属性用于Healthcare Shield或Privacy and Security Shield。
 
 **电子邮件渠道**
 
@@ -234,13 +234,13 @@ ht-degree: 12%
 
 - **[带有主题的Beta]电子邮件编辑器改进**
 
-  新的测试版功能向电子邮件编辑器引入了主题，允许营销人员定义可重复使用的样式，并使用预配置的模块更快地构建电子邮件。
+  新的测试版功能向电子邮件编辑器引入了主题，允许您定义可重复使用的样式，并使用预配置的模块更快地构建电子邮件。
 
 **沙盒工具**
 
 - **决策沙盒副本**
 
-  现在可以在沙盒之间复制决策对象，从而简化测试和部署工作流。 文档中将会添加一个专用于Decisioning对象的子部分。
+  现在可以在沙盒之间复制决策对象，从而简化测试和部署工作流。
 
 - 自定义操作的&#x200B;**沙盒工具**
 
@@ -254,11 +254,11 @@ ht-degree: 12%
 
 - **Personalization编辑器 — Pills激活**
 
-  个性化编辑器中的新按钮允许用户打开或关闭药丸。 此功能可去除编辑器中的噪声，并可更轻松地编辑Dynamic Media图像参数和配置文件属性。
+  个性化编辑器中新增了一个“药丸”按钮。启用后，配置文件和上下文属性将显示为“药丸”，从而提高代码的可读性。
 
 - **Personalization — 可观察的架构**
 
-  个性化编辑器中添加了可观察的架构支持，支持对基于架构的属性的动态更新。
+  默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用设置按钮关闭仅显示填充的属性选项。
 
 - **新系统上下文变量**
 
@@ -270,7 +270,7 @@ ht-degree: 12%
 
 - **AI模型 — 统一排名 — 新公式生成器**
 
-  营销人员现在可以使用新的公式生成器调整Adobe Decisioning AI模型的实时分数。 此功能可集中对优先级和模型得分进行排名调整。
+  您现在可以使用新的公式生成器调整Adobe Decisioning AI模型的实时分数。 此功能可集中对优先级和模型得分进行排名调整。
 
 **导航**
 
@@ -296,6 +296,6 @@ ht-degree: 12%
 
 **行动手册**
 
-- **[Beta]创建您自己的行动手册**
+- **创建您自己的行动手册(Beta)**
 
-  用户现在可以在Adobe Journey Optimizer中创建自己的行动手册，从而在旅程规划中实现更好的自定义和灵活性。
+  您现在可以在Adobe Journey Optimizer中创建自己的行动手册，从而在旅程规划中实现更好的自定义和灵活性。
