@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f64d497b304e513fa439a9bc4f1c9c0a58b2224
+source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 16%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>Campaign和历程清单的日历视图（限量发布）</strong><br/></th>
+<th><strong>营销活动和历程清单的日历视图（限量发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -217,7 +217,7 @@ ht-degree: 16%
 
 **受众**
 
-- **移除扩充属性的限制**
+- **移除受众组合扩充属性的限制**
 
   现在，可以将受众组合中的受众和属性用于Healthcare Shield或Privacy and Security Shield。
 
@@ -247,11 +247,11 @@ ht-degree: 16%
 
 **个性化**
 
-- **Personalization编辑器 — Pills激活**
+- **药片激活**
 
   个性化编辑器中新增了一个“药丸”按钮。启用后，配置文件和上下文属性将显示为“药丸”，从而提高代码的可读性。
 
-- **Personalization — 可观察的架构**
+- **属性窗格中已填充的属性**
 
   默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用设置按钮关闭仅显示填充的属性选项。
 
@@ -275,7 +275,7 @@ ht-degree: 16%
 
   为了轻松管理您的登陆页面，您现在还可以使用文件夹来将登陆页面更有效地组织到简化的层次结构中。
 
-- 营销活动列表中的&#x200B;**右边栏**
+- **营销活动列表中的右边栏**
 
   营销活动列表中已添加右边栏，在选择营销活动时提供详细信息。
 
