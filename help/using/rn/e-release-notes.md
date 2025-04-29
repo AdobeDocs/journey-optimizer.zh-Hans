@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6fbae788495ac97fae1a511a99e773eba718e11a
+source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '972'
 ht-degree: 16%
 
 ---
@@ -119,6 +119,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>以前在测试版中提供，现在内容变体模拟已正式提供(GA)。 它允许您使用从CSV或JSON文件上传或手动添加的示例输入数据预览内容的不同变体。 系统会自动检测内容中用于个性化的所有属性，这些属性可用于测试以创建多个变体。</p>
+<p>在正式发布版本中，该功能现在包括对多语言内容和内容实验的支持，使您能够测试不同语言和治疗方法之间的变体。 此外，它现在支持上下文属性（以及用户档案属性），从而允许进行更加动态和情境化的内容测试。</p>
 </td>
 </tr>
 </tbody>
@@ -215,11 +216,11 @@ ht-degree: 16%
 
 ### 改进 {#25-04-improv}
 
-**受众**
+<!--**Audiences**
 
-- **移除受众组合扩充属性的限制**
+- **Remove limitation for Audience Composition enrichment attributes** 
 
-  现在，可以将受众组合中的受众和属性用于Healthcare Shield或Privacy and Security Shield。
+  The use of audiences and attributes from audience composition is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **电子邮件渠道**
 
