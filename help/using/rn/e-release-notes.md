@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00aa5d5283bae43949df133a48700aa91b3a8c7f
+source-git-commit: da76f1ba5717083791e894a545428b5ac71e7715
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 16%
@@ -89,6 +89,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>Experience League现在提供一个交互式的Personalization游乐场。 此功能允许您在Adobe Journey Optimizer中探索和实践个性化功能。 您可以编写个性化代码，使用示例负载进行测试，并模拟真实场景以增强您的学习体验。</p>
+<img src="assets/do-not-localize/templating-playground.gif">
 </td>
 </tr>
 </tbody>
