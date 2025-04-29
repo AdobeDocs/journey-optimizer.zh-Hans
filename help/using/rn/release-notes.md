@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 52%
@@ -240,11 +240,11 @@ ht-degree: 52%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-- 自定义操作的&#x200B;**沙盒工具**
+* 自定义操作的&#x200B;**沙盒工具**
 
   自定义操作现在包含在可以使用沙盒工具功能复制的Adobe Journey Optimizer对象列表中，从而简化测试和部署。 [了解详情](../configuration/copy-objects-to-sandbox.md)
 
-- **营销活动的沙盒工具** — 可用日期： 2025年4月3日
+* **营销活动的沙盒工具** — 可用日期： 2025年4月3日
 
   您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。某些项目不会被复制，例如决策项目、数据使用标签和语言设置。[了解详情](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -254,12 +254,12 @@ ht-degree: 52%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
-- **属性窗格中已填充的属性** — 可用日期： 2025年4月2日
+* **属性窗格中已填充的属性** — 可用日期： 2025年4月2日
 
   默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充属性]**&#x200B;选项。[了解详情](../personalization/personalization-build-expressions.md)
 
 
-- **新的上下文属性**
+* **新的上下文属性**
 
   新的上下文属性&#x200B;**消息配置文件ID**&#x200B;现在可以从个性化编辑器中选择。 这是一种消息导向属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。 例如，此唯一标识符可用作URL跟踪参数，以区分收件人打开或单击的每个链接。
 
