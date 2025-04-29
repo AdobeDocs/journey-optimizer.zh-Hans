@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: d7ebba4144eeb5b29e9e6fa21afde06a7e520e07
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 25%
+source-wordcount: '660'
+ht-degree: 22%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 25%
 ## 受众激活延迟 {#activation}
 
 受众可在摄取完成后立即在Journey Optimizer中使用。 虽然该值通常在一小时内，但受制于一些可变因素。 合成产生的受众应在发布后24小时内可用。
+
+对于批量分段作业产生的受众，激活可能会由于批量摄取可变性而延迟。 对于安排在每天的读取受众历程，您可以在历程属性中定义一个时间窗口，以确保在历程执行之前有新的受众数据可用。 如果分段作业未在定义的时间范围内完成，则将跳过历程，直到下一次出现该历程。 [了解如何计划读取受众历程](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 批量受众评估后触发]**&#x200B;选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
 ## 自定义上传和联合受众构成
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 90%
+source-wordcount: '713'
+ht-degree: 52%
 
 ---
 
@@ -20,11 +20,167 @@ ht-degree: 90%
 >title="新增功能？"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在[Adobe Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中了解有关这些更改的详细信息。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2025 年 4 月更新
 
-### 新功能 {#25-04-feature}
+## 2025年4月发行说明 {#25-4-rn}
+
+
+**发行日期**： 2025年4月29日至30日
+
+
+### 新功能 {#25-04-features}
+
+此版本包含的新功能详述如下。
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Express集成（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在与Adobe Express集成，使您能够将创意资源与journey orchestration无缝连接。 此集成简化了跨营销活动设计和部署个性化内容的过程。 </p>
+<p>此功能当前处于“有限可用”状态。</p>
+<img src="assets/do-not-localize/express_resize.gif">
+<p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
+<img src="assets/do-not-localize/calendar.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager as a Cloud Service集成（正式发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer与Adobe Experience Manager as a Cloud Service之间集成的正式发布。 此集成实现了个性化客户历程的无缝内容来源和管理。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalization编辑器 — 通过实践学习</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>个性化游乐场现已可用，您可以在其中试验个性化表达式。 它允许您浏览示例模板和负载，以帮助您开始并尝试自己的个性化表达式。</p>
+<p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详细文档</a>。</p>
+<p>发布日期： 2025年4月24日</p>
+<img src="assets/do-not-localize/templating-playground.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>在批量分段完成后触发每日历程运行（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>对于每日计划的历程，新增选项可让您定义长达6小时的时间范围，以等待批次分段作业中的受众数据，确保历程使用最新数据运行或者如果未准备就绪则跳过。 批量受众评估后触发选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Simulate content variations (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
+<p>With the General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
+<img src="assets/do-not-localize/variants.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌一致性分数(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和准则保持一致。</p>
+<p>有关更多信息，请参阅<a href="../content-management/brands-score.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Line channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.</p>
+<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Custom SMS provider (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports custom SMS providers, allowing you to integrate your preferred SMS services for enhanced communication flexibility.</p>
+<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+</tr>
+</tbody>
+</table-->
+
 
 <table>
 <thead>
@@ -45,34 +201,69 @@ ht-degree: 90%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Personalization编辑器 — 通过实践学习</strong><br/></th>
+<th><strong>Decisioning - New ranking formula builder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>个性化游乐场现已可用，您可以在其中试验个性化表达式。 它允许您浏览示例模板和负载，以帮助您开始并尝试自己的个性化表达式。</p>
-<p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详细文档</a>。</p>
-<p>发布日期： 2025年4月24日</p>
-</br>
-<img src="assets/do-not-localize/templating-playground.gif"/>
+<p>You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Ranking formulas allow you to define rules that will determine which decision items should be presented first, rather than taking into account the priority scores.  </p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 ### 改进 {#25-04-improv}
 
-* **沙盒工具** - 发布日期：2025 年 4 月 3 日
+**电子邮件渠道**
 
-  您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。某些项目不会被复制，例如决策项目、数据使用标签和语言设置。[了解详情](../configuration/copy-objects-to-sandbox.md)
+<!--* **Personalized URL tracking**
 
-* **个性化** - 发布日期：2025 年 4 月 2 日
+  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+
+* **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
+
+  为了增强 Journey Optimizer 中的辅助功能，电子邮件设计器中现在提供两个新的字段：它们对应电子邮件内容的 `<html>` 元素中的 `<title>` 元素和 `lang` 属性。除了在&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段中，您还可以在电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中定义这些设置。[了解详情](../email/email-metadata.md)
+
+<!--- **Email designer themes** (Beta) - Availability date: May 5, 2025
+
+  You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams. -->
+
+**沙盒工具**
+
+<!--- **Decisioning sandbox copy**
+
+  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
+
+- 自定义操作的&#x200B;**沙盒工具**
+
+  自定义操作现在包含在可以使用沙盒工具功能复制的Adobe Journey Optimizer对象列表中，从而简化测试和部署。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+
+- **营销活动的沙盒工具** — 可用日期： 2025年4月3日
+
+  您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。某些项目不会被复制，例如决策项目、数据使用标签和语言设置。[了解详情](../configuration/copy-objects-to-sandbox.md#custom-actions)
+
+**个性化**
+
+<!--- **Pills activation**  
+
+  A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
+
+- **属性窗格中已填充的属性** — 可用日期： 2025年4月2日
 
   默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充属性]**&#x200B;选项。[了解详情](../personalization/personalization-build-expressions.md)
+
+
+- **新的上下文属性**
+
+  新的上下文属性&#x200B;**消息配置文件ID**&#x200B;现在可以从个性化编辑器中选择。 这是一种消息导向属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。 例如，此唯一标识符可用作URL跟踪参数，以区分收件人打开或单击的每个链接。
+
+**导航**
 
 * **内容管理** - 发布日期：2025 年 4 月 2 日
 
@@ -82,194 +273,24 @@ ht-degree: 90%
   >
   >此改进仅面向一部分组织（有限发布版）。
 
-* **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
+<!--- **Folders for content templates and fragments** - Availability date: May 5, 2025
 
-  为了增强 Journey Optimizer 中的辅助功能，电子邮件设计器中现在提供两个新的字段：它们对应电子邮件内容的 `<html>` 元素中的 `<title>` 元素和 `lang` 属性。除了在&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段中，您还可以在电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中定义这些设置。[了解详情](../email/email-metadata.md)
+  Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
 
+- **Folders for landing pages** - Availability date: May 5, 2025
 
-## 2025 年 3 月发行说明 {#25-3-rn}
+  To easily manage your landing pages, you can now also use folders to organize them more effectively into a streamlined hierarchy.  -->
 
+<!--- **Right rail in campaigns list**  
 
-### 新功能 {#25-03-features}
+  A right rail has been added to the campaigns list, providing detailed information when a campaign is selected.-->
 
-此版本包含的新功能详述如下。
+<!--**Playbooks**
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Adobe Express integration in Adobe Journey Optimizer lets you use Adobe Express's editing tools directly during content creation, enabling you to resize, remove backgrounds, crop, and convert assets to JPEG or PNG.<p>
-<p>Adobe Express integration in Adobe Journey Optimizer is currently only available for a set of organizations (Limited Availability). It cannot be deployed for use with Healthcare Shield or Privacy and Security Shield.</p>
-<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>
-</br>
-<img src="assets/do-not-localize/express_resize.gif"/>
-</td>
-</tr>
-</tbody>
-</table-->
+- **Create your own playbooks (Beta)**
+  
+  You can now create your own playbooks in Adobe Journey Optimizer, enabling greater customization and flexibility in journey planning.-->
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Journey metrics</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey metrics are now available, allowing you to measure the impact of your activities across the key metrics of your business and to provide clearer insights into your performance.</p>
-<p>For more information, refer to the <a href="../building-journeys/success-metrics.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/success-metric.gif"/>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
-<p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>与 Dynamic Media 集成（有限发布版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dynamic Media 资源现可直接在 Journey Optimizer 中使用和访问。通过此集成，您可以：
-<ul>
-<li>通过实时更新集中管理资源</li>
-<li>即时修改宽度和高度等资源设置</li>
-<li>通过更新内容和添加个性化字段自定义 Dynamic Media 模板</li>
-</ul>
-<p>
-<p>此集成仅面向一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<table>
-<thead>
-<tr>
-<th><strong>与 Adobe GenStudio 集成（有限发布版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>为了提高营销效率并保持品牌一致性，您现在可以将 GenStudio for Performance Marketing 体验与 Journey Optimizer 无缝集成。这使您能够利用 GenStudio 的 AI 驱动的内容创建以及 Journey Optimizer 的高级编排功能。<p>
-<p>目前，Journey Optimizer 中的 GenStudio 集成不可用于 Healthcare Shield 或 Privacy and Security Shield（有限发布版）。</p>
-<p>有关更多信息，请参阅<a href="../integrations/genstudio.md">详细文档</a>。</p>
-<img src="assets/do-not-localize/genstudio.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>灵活的受众评估 (GA)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>以前，灵活的受众评估面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)。通过该功能，您可以按需为选定的受众运行分段作业，确保始终掌握最新的受众数据，然后再将受众作为 Journey Optimizer 历程和营销活动目标。</p>
-<img src="assets/do-not-localize/flexible-audience.gif">
-<p>有关更多信息，请参阅<a href="../audience/creating-a-segment-definition.md#flexible">详细文档</a>。</p>
-</tr>
-</tbody>
-</table>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>LINE channel (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-### 改进 {#25-03-improv}
-
-**个性化编辑器**（发布日期：3 月 12 日）
-
-Journey Optimizer 个性化编辑器已更新，新增了以下功能：
-* **更新的代码编辑器设计** – 更简洁的现代界面，改善了可用性和重点内容的显示。
-* **搜索和替换** – 添加了在编辑器中快速查找和替换内容的功能。
-* **支持撤销和重做** – 允许您轻松还原或重新应用更改。
-* **可自定义字体大小** – 允许调整编辑器的字体大小，以提高可读性。
-* **内联 JSON 验证** – 为 JSON 内容提供实时客户端验证以加快错误检测。
-* **自动填写用户档案和上下文属性** – 提供智能建议以简化内容创建。
-* **增强的语法突出显示** – 使代码结构在视觉上更加明显，从而提高可读性。
-
-![展示个性化编辑器中的新增功能的视频](assets/do-not-localize/personalization-editor.gif)
-
-有关更多信息，请参阅[详细文档](../personalization/personalization-build-expressions.md)。
-
-**审批**
-
-现在，在定义审批策略的条件时，您可以选择按标记和/或对象类别进行筛选。
-
-有关更多信息，请参阅[详细文档](../test-approve/approval-policies.md)。
-
-**配置**
-
-* 您现在可以为渠道配置分配 Adobe Experience Platform 统一标记。这让您能够轻松对其进行分类，并改进所有列表中的搜索和导航。[了解详情](../configuration/channel-surfaces.md#channel-config-tags)
-
-* 在 Journey Optimizer 中设置或编辑电子邮件子域时，如果在父域中拥有相关记录，那么您现在可以选择自己管理相关的 DMARC 记录。[了解详情](../configuration/dmarc-record.md#set-up-dmarc)
-
-**业务规则**
-
-现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
-
-请注意，规则集中的每日频次上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
-
-有关业务规则的更多信息，请参阅[详细文档](../configuration/rule-sets.md)。
-
-**内容模板**
-
-现已弃用HTML类型内容模板。 请注意，您仍然可以使用之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。 [了解有关内容模板的更多信息](../content-management/content-templates.md)
-
-
-<!--**Deliverability**
-
-You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
 
 

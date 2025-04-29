@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 重新进入，历程，用户档案，定期
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 6%
 
 ---
 
@@ -79,19 +79,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 * 对于定期历程：默认情况下，属于受众的所有用户档案都会在每次定期时进入历程。 必须先完成历程，然后才能在另一个事件中再次进入。
 
-有两个选项可用于定期读取受众历程：
-
-* **增量读取**&#x200B;选项：当具有定期&#x200B;**读取受众**&#x200B;的历程首次执行时，受众中的所有配置文件都会进入该历程。 利用此选项，可在首次发生后仅定向自上次执行历程以来进入受众的个人。
-
-  >[!NOTE]
-  >
-  >如果您在历程中以[自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索配置文件，因为这些受众已修复。
-
-* **在重复时强制重入**：此选项允许您使历程中仍存在的所有用户档案在下次执行时自动退出它。 如果配置文件在此历程中的生命周期可能长于重复频率（例如，如果您使用等待活动），请勿激活此选项以确保配置文件可以完成其历程。
-
-![](assets/read-audience-options.png)
-
-有关详细信息，请参阅此[部分](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+有几个选项可用于定期读取受众历程。 有关更多信息，请参阅[在历程中使用受众](../building-journeys/read-audience.md)部分。
 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 

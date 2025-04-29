@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 18%
+source-wordcount: '2344'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,6 @@ ht-degree: 18%
 
 激活&#x200B;**允许重新进入**&#x200B;选项时，将显示&#x200B;**重新进入等待期**&#x200B;字段。 使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或受众资格筛选开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。最长持续时间为90天。
 
-
 ## 管理访问权限 {#manage-access}
 
 要将自定义或核心数据使用标签分配给历程，请单击&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
@@ -130,7 +129,6 @@ ht-degree: 18%
 由于91天的历程超时，当历程不允许重新进入时，我们无法确保重新进入阻止将工作超过91天。 事实上，当我们删除有关进入旅程91天后进入旅程的人员的所有信息时，我们无法知道该人员是超过91天前进入的。
 
 仅当个人在历程中剩余的时间足以在91天历程超时之前完成等待持续时间时，他或她才能进入等待活动。 请参阅[此页](../building-journeys/wait-activity.md)。
-
 
 #### 存留时间(TTL)和数据保留常见问题解答 {#timeout-faq}
 
@@ -301,6 +299,10 @@ Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因�
 
 * 退出条件仅在草稿状态下定义
 * 事件和基于事件的退出标准之间的历程命名空间一致性
+
+## 历程计划 {#schedule}
+
+**[!UICONTROL 计划]**&#x200B;部分仅在画布中放置&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动时可用。 它允许您定义历程应运行的特定日期/时间和频率。 [了解如何计划读取受众历程](../building-journeys/read-audience.md)
 
 ## 冲突管理 {#conflict}
 

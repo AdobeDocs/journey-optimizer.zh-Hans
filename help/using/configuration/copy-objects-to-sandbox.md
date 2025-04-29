@@ -9,16 +9,16 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: ead10229b82aa8cb2e638ac9c26539de766f3497
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1212'
 ht-degree: 4%
 
 ---
 
 # 将对象导出到另一个沙盒 {#copy-to-sandbox}
 
-您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
+您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
 本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 导出的对象和最佳实践 {#objects}
 
-Journey Optimizer允许将历程、内容模板和片段导出到另一个沙盒。 以下部分提供了每种对象类型的信息和最佳实践。
+Journey Optimizer允许将历程、自定义操作、内容模板和片段导出到另一个沙盒。 以下部分提供了每种对象类型的信息和最佳实践。
 
 ### 一般最佳实践 {#global}
 
@@ -43,13 +43,21 @@ Journey Optimizer允许将历程、内容模板和片段导出到另一个沙盒
 
 ### 历程 {#journeys}
 
-* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
+* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
 * 目标沙盒中复制的对象是唯一的，不存在覆盖现有元素的风险。 历程和历程中的任何消息都会以草稿模式引入。 这允许您在目标沙盒上发布之前执行彻底验证。
 
 * 复制过程仅复制有关历程的元数据和该历程中的对象。 在此过程中不会复制任何用户档案或数据集数据。
+
+### 自定义操作 {#custom-actions}
+
+* 导出自定义操作时，会复制URL配置和有效负载参数。 但是，出于安全原因，身份验证参数不会复制，而是将替换为“在此处插入密码”。 常量请求标头和查询参数值也将被替换为“INSERT SECRET HERE”。
+
+  这包括特殊用途的自定义操作([!DNL Adobe Campaign Standard]、[!DNL Campaign Classic]、[!DNL Marketo Engage])。
+
+* 将历程复制到另一个沙盒时，如果您在导入过程中为自定义操作选择“使用现有”，则您选择的现有自定义操作必须与源自定义操作相同（即，相同的配置、参数等）。 否则，新历程副本将具有无法在画布中解决的错误。
 
 ### 营销活动 {#campaigns}
 

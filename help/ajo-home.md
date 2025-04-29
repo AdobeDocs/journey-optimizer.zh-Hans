@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 94%
+source-wordcount: '335'
+ht-degree: 85%
 
 ---
 
@@ -16,21 +16,27 @@ ht-degree: 94%
 
 ## 新增功能
 
-概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。请访问[文档更新页面](using/rn/documentation-updates.md)，以便及时了解产品文档中的最新更改。
+概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。访问[文档更新页面](using/rn/documentation-updates.md)以随时了解产品文档中的最新更改。
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 3 月版]
+>[!TAB 2025年4月版]
 
-3 月版已上线！查看发行说明，了解新增功能、变化和改进。
+4月版现已上线！ 查看发行说明，了解新增功能、变化和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Adobe Express集成]
+
+adobe Journey Optimizer现在与Adobe Express集成，使您能够无缝地将创意资源与journey orchestration连接起来。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI 助手]
 
 ✨ 通过我们的 [AI 助手](../help/using/content-management/gs-generative.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其特性并充分了解其功能。
 
-[![了解详情](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 使用 CJA 进行报告]
 
@@ -38,11 +44,6 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
 
->[!TAB 历程中的 Web 体验]
-
-借助 Web 渠道，Adobe Journey Optimizer 允许您通过入站 Web 历程为客户提供个性化 Web 体验。现在，可在历程画布中使用 Web 渠道。
-
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/web/create-web.md)
 
 >[!ENDTABS]
 

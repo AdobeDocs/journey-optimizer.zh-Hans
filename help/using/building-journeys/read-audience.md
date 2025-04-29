@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: ca51c88c122cce23364b86a1da8900d0d5b37aaf
+source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 14%
+source-wordcount: '2195'
+ht-degree: 11%
 
 ---
 
 # 在历程中使用受众 {#segment-trigger-activity}
 
-## 添加“读取受众”活动 {#about-segment-trigger-actvitiy}
+## 关于读取受众活动 {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
@@ -58,7 +58,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="新受众评估的等待时间"
->abstract="指定历程将等待批量受众进行全新评估的持续时间。"
+>abstract="指定历程将等待批量受众进行全新评估的持续时间。 等待时间限制为整数值，可以以分钟或小时指定，并且必须介于1到6小时之间。"
 
 使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
@@ -80,13 +80,13 @@ ht-degree: 14%
 
 * 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
-
 [此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
-
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
-配置读取受众活动的步骤如下：
+配置读取受众活动的步骤如下。
+
+### 添加读取受众活动并选择受众
 
 1. 展开&#x200B;**[!UICONTROL 编排]**&#x200B;类别并将&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动拖放到画布中。
 
@@ -120,33 +120,78 @@ ht-degree: 14%
    >
    >如果受众的不同身份中没有选定的身份（命名空间），则属于该受众的个人无法进入历程。 您只能选择基于人员的身份命名空间。 如果您为查找表定义了命名空间（例如：产品查找的ProductID命名空间），则该命名空间在&#x200B;**命名空间**&#x200B;下拉列表中不可用。
 
-1. 设置&#x200B;**[!UICONTROL 读取率]**。 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参阅此[页面](../configuration/throttling.md)。
+### 管理历程中的用户档案条目
 
-   此值存储在历程版本有效负载中。 默认值为每秒5,000个配置文件。 您可以将此值从每秒500个配置文件修改为20,000个配置文件。
+设置&#x200B;**[!UICONTROL 读取率]**。 这是每秒可以进入历程的配置文件的最大数量。 此比率仅适用于此活动，不适用于历程中的其他活动。 例如，如果您想对自定义操作定义限制速率，则需要使用限制API。 请参阅此[页面](../configuration/throttling.md)。
 
-   >[!NOTE]
-   >
-   >每个沙盒的整体读取率设置为每秒20,000个配置文件。 因此，在同一沙盒中同时运行的所有读取受众的读取率每秒最多可添加20,000个配置文件。 您无法修改此上限。
+此值存储在历程版本有效负载中。 默认值为每秒5,000个配置文件。 您可以将此值从每秒500个配置文件修改为20,000个配置文件。
 
-1. **[!UICONTROL 读取受众]**&#x200B;活动允许您指定受众进入历程的时间。 为此，请单击&#x200B;**[!UICONTROL 编辑历程计划]**&#x200B;链接以访问历程的属性，然后配置&#x200B;**[!UICONTROL 计划程序类型]**&#x200B;字段。
+>[!NOTE]
+>
+>每个沙盒的整体读取率设置为每秒20,000个配置文件。 因此，在同一沙盒中同时运行的所有读取受众的读取率每秒最多可添加20,000个配置文件。 您无法修改此上限。
+
+### 计划历程 {#schedule}
+
+默认情况下，历程配置为运行一次。 要定义历程应运行的特定日期/时间和频率，请执行以下步骤。
+
+>[!NOTE]
+>
+>一次性读取受众历程在历程执行91天（[历程全局超时](journey-properties.md#global_timeout)）后移至&#x200B;**已完成**&#x200B;状态。 对于计划的读取受众，此期限为上次执行后的91天。
+
+1. 在&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动属性中，个人助理选择&#x200B;**[!UICONTROL 编辑历程计划]**。
 
    ![](assets/read-segment-schedule.png)
 
-   默认情况下，受众会尽快&#x200B;**[!UICONTROL 进入历程]**。 如果要让受众在特定日期/时间或定期进入历程，请从列表中选择所需的值。
-
-   >[!NOTE]
-   >
-   >请注意，**[!UICONTROL 计划]**&#x200B;部分仅在画布中放入&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动时可用。
+1. 旅程的属性随即显示。 在&#x200B;**[!UICONTROL 计划程序类型]**&#x200B;下拉列表中，选择您希望历程运行的频率。
 
    ![](assets/read-segment-schedule-list.png)
 
-   **增量读取**&#x200B;选项：当具有定期&#x200B;**读取受众**&#x200B;的历程首次执行时，受众中的所有配置文件都会进入该历程。 利用此选项，可在第一次发生后仅定向自上次执行历程以来进入受众的个人。
+对于定期历程，提供特定选项以帮助您管理将用户档案输入历程。 展开以下部分，了解有关每个选项的更多信息。
 
-       >[！注意]
-       >
-       >如果您在历程中以[自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索配置文件，因为这些受众已修复。
-   
-   **在重复时强制重入**：此选项允许您使历程中仍存在的所有用户档案在下次执行时自动退出历程。 例如，如果您在每日循环历程中等待2天，则通过激活此选项，将始终在下一个历程执行时移动用户档案（因此是在后一天），无论它们是否在下一个运行的受众中。 如果此历程中用户档案的生命周期可能长于重复频率，请勿激活此选项以确保用户档案可以完成其历程。
+![](assets/read-audience-options.png)
+
++++**[!UICONTROL 增量读取]**
+
+当具有定期&#x200B;**读取受众**&#x200B;的历程首次执行时，受众中的所有用户档案都进入该历程。
+
+利用此选项，可在第一次发生后仅定向自上次执行历程以来进入受众的个人。
+
+>[!NOTE]
+>
+>如果您在历程中以[自定义上传受众](../audience/about-audiences.md#segments-in-journey-optimizer)为目标，则只有在循环历程中启用此选项时，才会在第一次循环时检索配置文件，因为这些受众已修复。
+
++++
+
++++**[!UICONTROL 在重复时强制重入]**
+
+利用此选项，可让历程中仍存在的所有用户档案在下次执行时自动退出该历程。
+
+例如，如果您在每日循环历程中等待2天，则通过激活此选项，将始终在下一个历程执行时移动用户档案（因此是在后一天），无论它们是否在下一个运行的受众中。
+
+如果此历程中用户档案的生命周期可能长于重复频率，请勿激活此选项以确保用户档案可以完成其历程。
+
++++
+
++++在批量受众评估后触发&#x200B;****（可用性限制）
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 批量受众评估后触发]**&#x200B;选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
+对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过该旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
+
+例如，如果旅程安排在每日下午6点，则可以指定在旅程运行之前等待的分钟数或小时数。 当旅程在下午6点唤醒时，它会检查是否有新受众，这意味着受众比上一个旅程执行中使用的受众新。 在指定的时间范围内，将在检测到新受众后立即执行历程。 但是，如果未检测到新受众，则将跳过当天的历程执行。
+
+增量读取历程的&#x200B;**回顾期**
+
+当选择批量受众评估&#x200B;]**后的**[!UICONTROL &#x200B;触发器时，[!DNL Journey Optimizer]将查找新的受众评估。 对于回顾期间的起点，系统使用上一次成功执行历程的时间，即使该时间发生在24小时之前。 这对于增量读取旅程（通常具有24小时的回溯时段）非常重要。
+
+每日增量读取历程示例：
+
+* 激活“批量受众评估后触发”：如果自增量用户档案进入历程以来已经过了三天，则在查找增量用户档案时，回顾期间将延长三天。
+* 不激活“批量受众评估后触发”：如果自增量用户档案进入历程以来已经过了三天，则在查找增量用户档案时，回顾期间将仅返回24小时。
+
++++
 
 <!--
 
@@ -166,10 +211,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 **Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
 
 -->
-
->[!NOTE]
->
->一次性读取受众历程在历程执行91天（[历程全局超时](journey-properties.md#global_timeout)）后移至&#x200B;**已完成**&#x200B;状态。 对于计划的读取受众，此期限为上次执行后的91天。
 
 ## 测试并发布历程 {#testing-publishing}
 
@@ -213,6 +254,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ![](assets/read-segment-audience1.png)
 
+>[!NOTE]
+>
+>在将“每日”调度程序类型与&#x200B;**[!UICONTROL 读取受众]**&#x200B;活动结合使用时，您可以为历程定义一个等待新受众数据的时间范围。 这可以确保准确定位，并防止批量分段作业延迟导致的问题。 [了解如何计划历程](#schedule)
+>
+>**[!UICONTROL 批量受众评估后触发]**&#x200B;选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
+
 **排除**
 
 用于分段的相同&#x200B;**条件**&#x200B;活动（请参阅上文）还允许您排除部分群体。 例如，您可以排除VIP人员，方法是：让这些人员流入分支中，并在其后执行结束步骤。
@@ -223,16 +270,11 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 **并集**
 
-历程允许您创建N个分支，并在分段后将它们连接在一起。
+历程允许您创建N个分支，并在分段后将它们连接在一起。 因此，您可以使两个受众返回同一个体验。
 
-因此，您可以使两个受众返回同一个体验。
-
-例如，在旅程中的十天中完成其他体验后，VIP和非VIP客户可以返回到同一路径。
-
-合并后，您可以通过执行分段或排除来再次拆分受众。
+例如，在旅程中的十天中完成其他体验后，VIP和非VIP客户可以返回到同一路径。 合并后，您可以通过执行分段或排除来再次拆分受众。
 
 ![](assets/read-segment-audience3.png)
-
 
 ## 重试 {#read-audience-retry}
 
