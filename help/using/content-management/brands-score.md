@@ -1,12 +1,11 @@
 ---
 title: 品牌一致性
 description: 了解如何使用品牌得分创建、验证和管理品牌内内容。
-feature: Content Management
 badge: label="Beta 版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 5a30f898dda1297b7d754af431d9d1803c0b48b8
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 11%
