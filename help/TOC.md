@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97beaa01e33a5297815b43651019629fc9637f9a
+source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
 workflow-type: tm+mt
-source-wordcount: '2336'
-ht-degree: 88%
+source-wordcount: '2358'
+ht-degree: 87%
 
 ---
 
@@ -330,6 +330,11 @@ ht-degree: 88%
       + [在 Journey Optimizer 中配置 WhatsApp 渠道](using/whatsapp/whatsapp-configuration.md)
       + [创建 WhatsApp 消息](using/whatsapp/create-whatsapp.md)
       + [检查并发送 WhatsApp 消息](using/whatsapp/send-whatsapp.md)
+   + LINE {#line}
+      + [LINE渠道入门](using/line/get-started-line.md)
+      + [在Journey Optimizer中配置LINE渠道](using/line/line-configuration.md)
+      + [创建LINE消息](using/line/create-line.md)
+      + [检查并发送您的LINE消息](using/line/send-line.md)
 + 登陆页面 {#landing-pages}
    + [登陆页面入门](using/landing-pages/get-started-lp.md)
    + [创建登陆页面](using/landing-pages/create-lp.md)
