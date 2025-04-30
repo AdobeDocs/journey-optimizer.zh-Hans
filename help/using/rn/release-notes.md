@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d87dde2cbc172affa17610b28e092a0da0d7d38f
+source-git-commit: 50fb18210bd589f551efdaf161844251b5bef758
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 53%
+source-wordcount: '824'
+ht-degree: 51%
 
 ---
 
@@ -25,62 +25,11 @@ ht-degree: 53%
 
 ## 2025年4月发行说明 {#25-4-rn}
 
-
 **发行日期**： 2025年4月29日至30日
-
 
 ### 新功能 {#25-04-features}
 
-此版本包含的新功能详述如下。
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Express集成（限量发布）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer现在与Adobe Express集成，使您能够将创意资源与journey orchestration无缝连接。 此集成简化了跨营销活动设计和部署个性化内容的过程。 </p>
-<p>此功能当前处于“有限可用”状态。</p>
-<img src="assets/do-not-localize/express_resize.gif">
-<p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
-<img src="assets/do-not-localize/calendar.gif">
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager as a Cloud Service集成（正式发布）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer与Adobe Experience Manager as a Cloud Service之间集成的正式发布。 此集成实现了个性化客户历程的无缝内容来源和管理。</p>
-</td>
-</tr>
-</tbody>
-</table>
+下面列出了此版本随附的新功能。
 
 <table>
 <thead>
@@ -100,19 +49,17 @@ ht-degree: 53%
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong>在批量分段完成后触发每日历程运行（限量发布）</strong><br/></th>
+<th><strong>Adobe Experience Manager as a Cloud Service集成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>对于每日计划的历程，新增选项可让您定义长达6小时的时间范围，以等待批次分段作业中的受众数据，确保历程使用最新数据运行或者如果未准备就绪则跳过。 批量受众评估后触发选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>Adobe Journey Optimizer与Adobe Experience Manager as a Cloud Service之间的集成现已正式发布(GA)。 此集成实现了个性化客户历程的无缝内容来源和管理。</p>
+<p>有关更多信息，请参阅<a href="../integrations/aem-templates.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -134,22 +81,6 @@ ht-degree: 53%
 </tr>
 </tbody>
 </table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>品牌一致性分数(Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和准则保持一致。</p>
-<p>有关更多信息，请参阅<a href="../content-management/brands-score.md">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -194,10 +125,95 @@ ht-degree: 53%
 <tr>
 <td>
 <p>通过历程指标，您可以根据业务的各项关键量度衡量活动的影响，更清楚地掌握绩效表现。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/success-metrics.md">详细文档</a>。</p>
-<p>发布日期：2025 年 4 月 9 日</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
+<p>有关更多信息，请参阅<a href="../building-journeys/success-metrics.md">详细文档</a>。</p>
+<p>发布日期：2025 年 4 月 9 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A new calendar view is now available for campaigns and journey activations. This feature provides a visual representation of scheduled activities, allowing you to view and manage your campaigns and journeys more effectively. Selecting a calendar item opens a right rail with detailed information. This feature is currently in Limited Availability.</p>
+<img src="assets/do-not-localize/calendar.gif">
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Express集成（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer现在与Adobe Express集成，使您能够将创意资源与journey orchestration无缝连接。 此集成简化了跨营销活动设计和部署个性化内容的过程。 </p>
+<p>此集成仅适用于一组组织（限量发布）。 要获取访问权限，请联系您的Adobe代表</p>
+<img src="assets/do-not-localize/express_resize.gif">
+<p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在批量分段完成后触发每日历程运行（限量发布）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>对于每日计划的历程，新增选项可让您定义长达6小时的时间范围，以等待批次分段作业中的受众数据，确保历程使用最新数据运行或者如果未准备就绪则跳过。 批量受众评估后触发选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams.</p>
+<p>For more information, refer to the <a href="../content-management/brands-score.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>品牌一致性分数(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和准则保持一致。 此功能在Beta中可用。</p>
+<p>有关更多信息，请参阅<a href="../content-management/brands-score.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -222,19 +238,6 @@ ht-degree: 53%
 
 ### 改进 {#25-04-improv}
 
-**电子邮件渠道**
-
-<!--* **Personalized URL tracking**
-
-  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
-
-* **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
-
-  为了增强 Journey Optimizer 中的辅助功能，电子邮件设计器中现在提供两个新的字段：它们对应电子邮件内容的 `<html>` 元素中的 `<title>` 元素和 `lang` 属性。除了在&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段中，您还可以在电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中定义这些设置。[了解详情](../email/email-metadata.md)
-
-<!--- **Email designer themes** (Beta) - Availability date: May 5, 2025
-
-  You can now quickly apply pre-approved styling themes to your email content to ensure brand consistency across all emails, speed up your campaign creation process and independently produce hight-quality emails while reducing dependency on design teams. -->
 
 **沙盒工具**
 
@@ -256,14 +259,25 @@ ht-degree: 53%
 
   A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
+* **新的上下文属性**
+
+  新的上下文属性&#x200B;**消息配置文件ID**&#x200B;现在可以从个性化编辑器中选择。 这是一种消息导向属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。 例如，此唯一标识符可用作URL跟踪参数，以区分收件人打开或单击的每个链接。
+
 * **属性窗格中已填充的属性** — 可用日期： 2025年4月2日
 
   默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充属性]**&#x200B;选项。[了解详情](../personalization/personalization-build-expressions.md)
 
+**电子邮件渠道**
 
-* **新的上下文属性**
+<!--* **Personalized URL tracking**
 
-  新的上下文属性&#x200B;**消息配置文件ID**&#x200B;现在可以从个性化编辑器中选择。 这是一种消息导向属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。 例如，此唯一标识符可用作URL跟踪参数，以区分收件人打开或单击的每个链接。
+  For increased flexibility and control over your email settings, you can now personalize all your URL tracking parameters at once at the email channel configuration level, instead of doing it in the Email designer for each link in your content. -->
+
+* **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
+
+  为了增强 Journey Optimizer 中的辅助功能，电子邮件设计器中现在提供两个新的字段：它们对应电子邮件内容的 `<html>` 元素中的 `<title>` 元素和 `lang` 属性。除了在&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段中，您还可以在电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中定义这些设置。[了解详情](../email/email-metadata.md)
+
+
 
 **导航**
 
