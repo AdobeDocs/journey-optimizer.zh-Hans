@@ -7,18 +7,20 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+source-git-commit: fe10df5e855c627fb4beaf2a56403b5845cb84c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 18%
+source-wordcount: '186'
+ht-degree: 15%
 
 ---
 
 # LINE入门 {#get-started-line}
 
 使用[!DNL Journey Optimizer]在客户的LINE应用程序上向其发送LINE消息。 您可以在LINE编辑器中创建、个性化和预览消息。
+
+>[!AVAILABILITY]
+>
+>已应请求为Adobe Journey Optimizer客户启用LINE渠道。 请联系Adobe客户关怀部门或您的Adobe代表，为您的组织激活该功能。
 
 LINE消息可以在历程或营销活动中创建和发送：
 
