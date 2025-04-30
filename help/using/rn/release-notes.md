@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5ddf00b1a39c66b29ffb967389fb069a9648e83
+source-git-commit: d87dde2cbc172affa17610b28e092a0da0d7d38f
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 52%
+source-wordcount: '797'
+ht-degree: 53%
 
 ---
 
@@ -151,20 +151,22 @@ ht-degree: 52%
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Line channel</strong><br/></th>
+<th><strong>LINE渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.</p>
-<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+<p>Adobe Journey Optimizer 已扩展其跨渠道功能，包括对 LINE 渠道的支持。通过此增强功能，您可以创建、编辑和预览 LINE 体验，从而实现更加个性化且富有吸引力的交互。借助 LINE，您可以与更多客户建立联系，发送相关内容并提高参与度。</p>
+<p>已应请求为Adobe Journey Optimizer客户启用LINE渠道。 请联系Adobe客户关怀部门或您的Adobe代表，为您的组织激活该功能。</p>
+<p>有关更多信息，请参阅<a href="../line/get-started-line.md">详细文档</a>。</p></td>
 </tr>
 </tbody>
-</table-->
+</table>
+
 
 <!--table>
 <thead>

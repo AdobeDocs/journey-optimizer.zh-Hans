@@ -6,10 +6,9 @@ description: 了解如何在Journey Optimizer中创建LINE消息
 feature: Line
 topic: Content Management
 role: User
-hide: true
-hidefromtoc: true
 level: Beginner
-source-git-commit: 6820f57ca4f8734eb746d1bdb2eae8829f37d520
+exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
+source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -94,4 +93,3 @@ ht-degree: 4%
 执行测试并验证内容后，您可以向受众发送LINE消息。 这些步骤在[此页面](send-line.md)中详述
 
 发送后，您可以在促销活动或历程报表中测量LINE的影响。 有关报告的更多信息，请参考[此章节](../reports/campaign-global-report-cja.md)。
-
