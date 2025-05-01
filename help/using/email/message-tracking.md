@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1200'
 ht-degree: 30%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法禁用URL中的某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
+   >为了解释URL，[!DNL Journey Optimizer]遵循URI语法（[RFC 3986标准](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），该语法在URL中禁用某些特殊国际字符。 在尝试发送验证或电子邮件时，如果系统返回了涉及添加到内容的URL的错误，则可以通过URL对字符串进行编码作为解决方法。
 
 1. 您可以个性化自己的链接。[了解详情](../personalization/personalization-syntax.md#perso-urls)
 
@@ -171,9 +171,9 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 ## 个性化URL跟踪 {#url-tracking}
 
-通常在配置级别管理[URL跟踪](email-settings.md#url-tracking)，但不支持配置文件属性。 当前唯一的方法是在电子邮件设计器中[个性化URL](../personalization/personalization-syntax.md#perso-urls)。
+[URL跟踪](email-settings.md#url-tracking)在配置级别进行管理，并应用于消息内容中包含的所有URL。
 
-要向链接添加个性化的URL跟踪参数，请执行以下步骤。
+您还可以在电子邮件设计器中[个性化各个URL](../personalization/personalization-syntax.md#perso-urls)。 要将个性化的URL跟踪参数添加到内容中的单个链接，请执行以下步骤。
 
 1. 选择一个链接，然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 

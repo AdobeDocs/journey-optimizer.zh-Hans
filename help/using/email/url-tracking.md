@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 5f7e9556a27fb12618f8da35da5427de3a0867dc
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 83%
+source-wordcount: '380'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="定义 URL 跟踪参数"
->abstract="使用此部分可自动向电子邮件内容中的 URL 附加跟踪参数。此功能属于可选功能。"
+>abstract="使用此部分可自动向电子邮件内容中的 URL 附加跟踪参数。此功能为可选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
@@ -74,4 +74,4 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->您还可以向电子邮件内容中的链接添加动态个性化跟踪参数，但这在配置级别不可能实现。使用电子邮件设计器创作消息时，需要执行此操作。[了解详情](message-tracking.md#url-tracking)
+>您还可以向电子邮件内容中存在的链接添加动态个性化跟踪参数。 [了解详情](surface-personalization.md#personalize-url-tracking)

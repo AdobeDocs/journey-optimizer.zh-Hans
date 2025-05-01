@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 7%
+source-wordcount: '1170'
+ht-degree: 6%
 
 ---
 
@@ -98,7 +98,6 @@ ht-degree: 7%
 >
 >您可以个性化所有&#x200B;**[!UICONTROL 标头参数]**&#x200B;字段，但&#x200B;**[!UICONTROL 错误电子邮件前缀]**&#x200B;字段除外。
 
-
 1. 像往常一样定义标题参数。 [了解如何操作](email-settings.md#email-header)
 
 1. 对于每个字段，选择编辑图标。
@@ -125,17 +124,19 @@ ht-degree: 7%
 >
 >如果您将一个或多个动态子域添加到配置，则将基于已解析的[动态子域](#dynamic-subdomains)填充&#x200B;**来自电子邮件**&#x200B;和&#x200B;**错误电子邮件**&#x200B;后缀。
 
-<!--
-## Use personalized URL tracking {#personalize-url-tracking}
+## 使用个性化的URL跟踪 {#personalize-url-tracking}
 
-To use personalized URL tracking prameters, follow the steps below.
+要使用个性化的URL跟踪参数，请执行以下步骤。
 
-1. Select the profile attribute of your choice from the personalization editor.
+1. 转到电子邮件渠道配置的&#x200B;**[!UICONTROL URL跟踪参数]**&#x200B;部分。
 
-1. Repeat the steps above for each tracking parameter you want to personalize.
+1. 单击每个字段旁边的编辑图标。 除了上下文属性之外，您还可以选择配置文件属性。
 
-Now when the email is sent out, this parameter will be automatically appended to the end of the URL. You can then capture this parameter in web analytics tools or in performance reports.
--->
+1. 从[个性化编辑器](../personalization/personalization-build-expressions.md)中选择您选择的配置文件属性。
+
+1. 对要个性化的每个跟踪参数重复上述步骤。
+
+现在，在发送电子邮件时，个性化参数将自动附加到URL的末尾。 然后，您可以在网站分析工具或性能报表中捕获此参数。
 
 ## 查看配置详细信息 {#view-surface-details}
 
