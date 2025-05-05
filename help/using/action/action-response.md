@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每个输入自定义操作的配置文件都将触发调用。 即使响应始终相同，历程仍会为每个配置文件执行一个调用。
 
-1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**字段。 在我们的示例中，我们使用
+1. 在超时和错误分支中，添加条件并利用内置&#x200B;**jo_status_code**&#x200B;字段。 在我们的示例中，我们使用
    **http_400**&#x200B;错误类型。 请参阅[此小节](#error-status)。
 
    ```

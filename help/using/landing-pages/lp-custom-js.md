@@ -24,13 +24,13 @@ ht-degree: 2%
 
 要将自定义JavaScript插入登陆页面内容，您可以执行以下操作：
 
-* 开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 在本节](../email/existing-content.md)中了解如何导入内容[。
+* 开始创建内容时导入现有HTML内容，然后选择包含自定义JavaScript代码的文件。 在本节[&#128279;](../email/existing-content.md)中了解如何导入内容。
 
 * 从头开始或从保存的模板设计登陆页面。 将&#x200B;**[!UICONTROL HTML]**&#x200B;内容组件拖放到画布中，并显示将JavaScript添加到该组件的源代码。 在[本节](../email/content-components.md#HTML)中了解如何使用HTML组件。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 将JavaScript代码直接输入或粘贴到内容设计器中。 在本节](../email/code-content.md)中了解如何编码您自己的内容[。
+* 将JavaScript代码直接输入或粘贴到内容设计器中。 在本节[&#128279;](../email/code-content.md)中了解如何编码您自己的内容。
 
 >[!NOTE]
 >

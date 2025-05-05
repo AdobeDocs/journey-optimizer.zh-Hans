@@ -65,7 +65,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间[的更多信息。
+   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节[&#128279;](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间的更多信息。
 
 1. 输入身份值并单击&#x200B;**[!UICONTROL 查看]**&#x200B;列出可用的配置文件。
 

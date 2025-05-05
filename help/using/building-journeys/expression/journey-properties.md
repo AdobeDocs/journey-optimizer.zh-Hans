@@ -28,7 +28,7 @@ ht-degree: 2%
 * 当前步骤、上一个当前步骤等。
 * 已丢弃的配置文件
 
-  字段列表在此部分](#journey-properties-fields)中可用[。
+  字段列表在此部分[&#128279;](#journey-properties-fields)中可用。
 
 您可以使用这些字段构建表达式。 在历程执行期间，直接从历程中检索值。
 

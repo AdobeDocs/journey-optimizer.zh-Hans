@@ -19,8 +19,8 @@ ht-degree: 5%
 
 * **Adobe Experience Platform数据收集**
 
-  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
-将**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  [创建数据流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)并[添加Experience Platform服务](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep)。 启用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;选项。 这可确保Journey Optimizer事件由Adobe Experience Platform Edge Network处理。
+将&#x200B;**Experience Event - Proposition Interaction**&#x200B;字段组添加到您的数据集以将此数据包含在您的报表中。 [了解有关数据流的更多信息](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * **Adobe Experience Platform**
 

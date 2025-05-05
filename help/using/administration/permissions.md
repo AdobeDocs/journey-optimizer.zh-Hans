@@ -93,7 +93,7 @@ ht-degree: 6%
 
 有关如何创建和管理沙箱的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
-在此示例中，我们将创建一个名为&#x200B;**历程只读**&#x200B;的角色，其中我们将授予该历程功能的只读权限。 用户将只能访问和查看历程，而无法访问[!DNL Journey Optimizer]中的其他功能，如&#x200B;**[!DNL  Decision management]**。
+在此示例中，我们将创建一个名为&#x200B;**历程只读**&#x200B;的角色，其中我们将授予该历程功能的只读权限。 用户将只能访问和查看历程，而无法访问[!DNL Journey Optimizer]中的其他功能，如&#x200B;**[!DNL &#x200B; Decision management]**。
 
 要创建我们的&#x200B;**历程只读** **[!UICONTROL 角色]**：
 

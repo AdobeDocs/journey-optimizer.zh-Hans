@@ -180,4 +180,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理](../../get-started/starting-offer-decisioning.md)上的[概述。
+通过遵循此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[&#128279;](../../get-started/starting-offer-decisioning.md)上的概述。

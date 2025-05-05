@@ -102,7 +102,7 @@ ht-degree: 5%
    * **[!UICONTROL 名称]**：个性化设置&#x200B;**[!UICONTROL 事件]**&#x200B;的名称。
    * **[!UICONTROL 类型]**：选择&#x200B;**[!UICONTROL 单一]**&#x200B;类型。 [了解详情](../event/about-events.md)
    * **[!UICONTROL 事件ID类型]**：选择基于&#x200B;**[!UICONTROL 规则的]**&#x200B;事件ID类型。 [了解详情](../event/about-events.md#event-id-type)
-   * **[!UICONTROL 架构]**：选择在](#leverage-analytics-data)之前创建的Analytics或WebSDK架构[。
+   * **[!UICONTROL 架构]**：选择在[&#128279;](#leverage-analytics-data)之前创建的Analytics或WebSDK架构。
    * **[!UICONTROL 字段]**：选择有效负载字段。 [了解详情](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL 事件ID条件]**：定义条件以识别将触发历程的事件。
 

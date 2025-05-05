@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >在此示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。 在本节](../audience/get-started-identity.md)中了解有关Adobe Experience Platform身份命名空间[的更多信息。
+      >在此示例中，我们使用&#x200B;**电子邮件**&#x200B;命名空间。 在本节[&#128279;](../audience/get-started-identity.md)中了解有关Adobe Experience Platform身份命名空间的更多信息。
 
    1. 在&#x200B;**[!UICONTROL 标识值]**&#x200B;字段中，输入用于标识测试配置文件的值。 在此示例中，输入测试用户档案的电子邮件地址。
 

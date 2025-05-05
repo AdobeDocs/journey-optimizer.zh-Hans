@@ -22,7 +22,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->在本节](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性[的更多信息。
+>在本节[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性的更多信息。
 
 
 ## journeyID {#journeyid-field}

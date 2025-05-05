@@ -199,7 +199,7 @@ ht-degree: 20%
 
       * 单击&#x200B;**[!UICONTROL Keep changes]**&#x200B;按钮确认并保存您的规则。
 
-+++
+   +++
 
 1. 拖放区域设置以对其进行重新排序并在列表中管理其优先级。
 
@@ -345,7 +345,7 @@ ht-degree: 20%
 
    ![](assets/translation_review_4.png)
 
-1. 您还可以选择直接&#x200B;**[!UICONTROL 拒绝所有]**&#x200B;或批准所有&#x200B;]**。**[!UICONTROL 
+1. 您还可以选择直接&#x200B;**[!UICONTROL 拒绝所有]**&#x200B;或批准所有&#x200B;**。**
 
    选择&#x200B;**[!UICONTROL 全部拒绝]**&#x200B;时，添加评论并单击&#x200B;**[!UICONTROL 拒绝]**。
 

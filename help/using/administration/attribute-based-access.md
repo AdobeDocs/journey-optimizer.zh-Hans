@@ -40,8 +40,8 @@ ht-degree: 0%
 >
 >在管理角色的权限之前，您将首先需要创建策略。 有关详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}。
 
-**[!UICONTROL 角色]**&#x200B;是组织内共享相同权限、标签和沙盒的一组用户。 属于&#x200B;**[!UICONTROL Role]**的每个用户都有资格使用产品中包含的Adobe应用程序和服务。
-如果您希望调整用户对界面中特定功能或对象的访问权限，您还可以创建自己的**[!UICONTROL 角色]**。
+**[!UICONTROL 角色]**&#x200B;是组织内共享相同权限、标签和沙盒的一组用户。 属于&#x200B;**[!UICONTROL Role]**&#x200B;的每个用户都有资格使用产品中包含的Adobe应用程序和服务。
+如果您希望调整用户对界面中特定功能或对象的访问权限，您还可以创建自己的&#x200B;**[!UICONTROL 角色]**。
 
 现在，我们要向选定的用户授予对&#x200B;**国籍**&#x200B;字段（标记为C2）的访问权限。 为此，我们需要创建一个具有一组特定用户的新&#x200B;**[!UICONTROL 角色]**，并授予他们标签C2，以便他们在&#x200B;**[!UICONTROL 历程]**&#x200B;中使用&#x200B;**国籍**&#x200B;详细信息。
 
@@ -87,8 +87,8 @@ ht-degree: 0%
 >
 >不正确的标签使用可能会中断对人员的访问并触发策略违规。
 
-**[!UICONTROL 标签]**可用于使用基于属性的访问控制分配特定功能区域。
-在此示例中，我们要限制对**国籍**&#x200B;字段的访问。 此字段仅对具有其&#x200B;**[!UICONTROL 角色]**&#x200B;对应的&#x200B;**[!UICONTROL 标签]**&#x200B;的用户可访问。
+**[!UICONTROL 标签]**&#x200B;可用于使用基于属性的访问控制分配特定功能区域。
+在此示例中，我们要限制对&#x200B;**国籍**&#x200B;字段的访问。 此字段仅对具有其&#x200B;**[!UICONTROL 角色]**&#x200B;对应的&#x200B;**[!UICONTROL 标签]**&#x200B;的用户可访问。
 
 请注意，您还可以将&#x200B;**[!UICONTROL 标签]**&#x200B;添加到&#x200B;**[!UICONTROL 架构]**、**[!UICONTROL 数据集]**&#x200B;和&#x200B;**[!UICONTROL 受众]**。
 
@@ -111,14 +111,14 @@ ht-degree: 0%
 1. 如果需要，进一步个性化您的架构，然后启用它。 有关如何启用架构的详细步骤，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}。
 
 架构的字段现在将仅可见，并且现在只能由属于具有C2标签的角色集的用户使用。
-通过将**[!UICONTROL 标签]**&#x200B;应用于您的&#x200B;**[!UICONTROL 字段名称]**，请注意&#x200B;**[!UICONTROL 标签]**&#x200B;将自动应用于每个创建的架构中的&#x200B;**国籍**&#x200B;字段。
+通过将&#x200B;**[!UICONTROL 标签]**&#x200B;应用于您的&#x200B;**[!UICONTROL 字段名称]**，请注意&#x200B;**[!UICONTROL 标签]**&#x200B;将自动应用于每个创建的架构中的&#x200B;**国籍**&#x200B;字段。
 
 ![](assets/label_5.png)
 
 ## 访问Adobe Journey Optimizer中带有标签的对象 {#attribute-access-ajo}
 
-在新架构中标记我们的&#x200B;**国籍**字段名和新角色后，我们现在可以在Adobe Journey Optimizer中看到此限制的影响。
-例如，第一个有权访问标记为C2的对象的用户X将创建一个历程，其条件针对受限的**[!UICONTROL 字段名]**。 第二个用户Y无权访问标记为C2的对象，则需要发布该历程。
+在新架构中标记我们的&#x200B;**国籍**&#x200B;字段名和新角色后，我们现在可以在Adobe Journey Optimizer中看到此限制的影响。
+例如，第一个有权访问标记为C2的对象的用户X将创建一个历程，其条件针对受限的&#x200B;**[!UICONTROL 字段名]**。 第二个用户Y无权访问标记为C2的对象，则需要发布该历程。
 
 1. 从Adobe Journey Optimizer中，您首先需要使用新架构配置&#x200B;**[!UICONTROL 数据源]**。
 

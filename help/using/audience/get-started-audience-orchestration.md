@@ -105,7 +105,7 @@ ht-degree: 51%
 
 受众组合允许您创建&#x200B;**组合工作流**，您可以在其中将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
 
-完成后，生成的&#x200B;**受众**将与现有受众一起保存到Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
+完成后，生成的&#x200B;**受众**&#x200B;将与现有受众一起保存到Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

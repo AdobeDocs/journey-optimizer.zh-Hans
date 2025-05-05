@@ -67,7 +67,7 @@ ht-degree: 12%
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
-+++
+      +++
 
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
@@ -99,7 +99,7 @@ ht-degree: 12%
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -173,7 +173,7 @@ ht-degree: 12%
       | Places | 输入POI | 在您的客户进入您配置的目标点(POI)时，由Places SDK触发。 |
       | Places | 退出POI | 在您的客户退出您配置的目标点(POI)时，由Places SDK触发。 |
 
-+++
+      +++
 
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
@@ -205,7 +205,7 @@ ht-degree: 12%
       | Places | 上次进入的POI | 根据您客户上次进入的目标点(POI)，由Places SDK触发。 |
       | Places | 上次退出的POI | 根据您的客户上次退出兴趣点(POI)，由Places SDK触发。 |
 
-+++
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -218,7 +218,7 @@ ht-degree: 12%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
+1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 
@@ -238,7 +238,7 @@ ht-degree: 12%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-+++
+  +++
 
 * 以下视频介绍了如何配置和分析A/B测试应用程序内消息的内容实验。
 
@@ -246,7 +246,7 @@ ht-degree: 12%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-+++
+  +++
 
 * 以下视频介绍如何在历程中创建应用程序内消息以及如何测试和发布历程。
 
@@ -254,7 +254,7 @@ ht-degree: 12%
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-+++
+  +++
 
 **相关主题：**
 

@@ -65,7 +65,7 @@ ht-degree: 7%
       | 平台 | 将数据发送到Platform | 在移动设备应用程序发出边缘体验事件以将数据发送到Adobe Experience Platform时触发。 API通常会从AEP Edge扩展调用[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
       | 手动 | 手动触发器 | 两个关联的数据元素：键，是定义数据集的常量（例如，性别、颜色、价格）；值，是属于数据集的变量（例如，男性/女性、绿色、100）。 |
 
-+++
+      +++
 
    1. 如果希望触发器考虑多个事件或条件，请单击&#x200B;**[!UICONTROL 添加条件]**。
 
@@ -82,7 +82,7 @@ ht-degree: 7%
       | 平台 | XDM事件类型 | 当满足指定的事件类型时触发。 |
       | 平台 | XDM值 | 当满足指定的XDM值时触发。 |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 
@@ -95,7 +95,7 @@ ht-degree: 7%
    * **[!UICONTROL 点进之前]**：当在&#x200B;**[!UICONTROL 移动设备应用程序触发器]**&#x200B;下拉列表中选择的事件发生时，显示此消息，直到SDK发送了一个交互事件，并且执行了“已点击”操作。
    * **[!UICONTROL X次]**：显示此消息X次。
 
-1. 如果需要，请选择在一周中哪一天&#x200B;]**或哪一天**[!UICONTROL &#x200B;时间&#x200B;]**显示应用程序内消息。**[!UICONTROL 
+1. 如果需要，请选择在一周中哪一天&#x200B;**或哪一天**&#x200B;[!UICONTROL &#x200B;时间&#x200B;]&#x200B;**显示应用程序内消息。**
 
 1. 营销活动旨在按特定日期或循环频率执行。 在[本节](../campaigns/create-campaign.md#schedule)中了解如何配置促销活动的&#x200B;**[!UICONTROL 计划]**。
 

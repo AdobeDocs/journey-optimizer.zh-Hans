@@ -145,7 +145,7 @@ ht-degree: 1%
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

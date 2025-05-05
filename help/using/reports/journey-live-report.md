@@ -135,7 +135,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_error_type.png)
 
-按操作&#x200B;]**列出的**[!UICONTROL &#x200B;错误类型表和图形提供了过去24小时内每次执行操作所发生的错误的全面概述。
+按操作&#x200B;**列出的**&#x200B;错误类型表和图形提供了过去24小时内每次执行操作所发生的错误的全面概述。
 
 ### 过去 24 小时内执行的事件 {#event-executed-24hours}
 
@@ -346,7 +346,7 @@ ht-degree: 30%
 
 +++
 
-###  电子邮件 - 优化  {#email-sto}
+### 电子邮件 - 优化  {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
