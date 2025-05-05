@@ -141,7 +141,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="添加种子列表"
->abstract="选择种子列表，以自动向受众添加特定的内部地址。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便让人放心。"
+>abstract="选择种子列表，以自动向受众添加特定的内部地址。在投放执行时将纳入这些种子地址，并且这些种子地址将收到与消息完全一致的副本，以便核查。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 通过 [!DNL Journey Optimizer] 中的种子列表，您可以自动在投放中纳入特定的电子邮件种子地址。[了解详情](../configuration/seed-lists.md)

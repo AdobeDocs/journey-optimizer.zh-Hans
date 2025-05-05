@@ -11,21 +11,21 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 76%
+ht-degree: 85%
 
 ---
 
-# AI助手入门 {#gs-content-assistant}
+# 开始使用 AI 助手 {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Journey Optimizer 中的 AI 助手"
->abstract="完成投放的定制和个性化后，您可以使用Journey Optimizer中的AI助手来增强内容。 借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
+>abstract="在精心设计并个性化您的投放后，您可使用 Journey Optimizer 中的 AI 助手来增强您的内容。借助此功能，您可以描述要生成的内容来进行微调，从而简化个性化和内容改进的过程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上传品牌资源"
->abstract="使用上传品牌资产菜单，可添加任何包含可在Journey Optimizer中为AI助手提供其他上下文的内容的品牌资产，或选择之前上传的资产。 此选项确保AI助理能够获取所有必要材料，以增强其功能和相关性。"
+>abstract="通过“上传品牌资源”菜单，您可以添加任何包含内容的品牌资源，这些内容可以为 Journey Optimizer 中的 AI 助手提供额外的上下文信息，您也可以选择之前上传的资源。此选项确保 AI 助手能够获取所有必要材料，以增强其功能和相关性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

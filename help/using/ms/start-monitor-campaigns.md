@@ -9,11 +9,11 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
-# 计划和开始编排的营销活动 {#start-monitor}
+# 计划并开始您精心策划的营销活动 {#start-monitor}
 
 
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="调度程序活动"
->abstract="利用活动&#x200B;**调度程序**，可安排何时启动编排的活动。 应将此活动视为已安排的一次开始。只能将它用作协同营销活动的第一个活动。"
+>abstract="您可以使用营销活动&#x200B;**调度程序**&#x200B;来计划协同营销活动何时开始。应将此活动视为已安排的一次开始。只能将它用作协同营销活动的第一个活动。"
 
 作为营销活动经理，您可以将营销活动计划为在特定时间自动启动，从而为营销通信提供精确的时间和准确的定位数据。
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 * 如果要在编排的营销活动中发送一次性消息，可将其设置为运行&#x200B;**一次**。
 * 如果要在编排的活动中发送定期消息，则需要使用&#x200B;**计划**&#x200B;选项并设置执行频率。 循环投放活动不允许您定义计划。
 
-### 配置活动计划 {#scheduler-configuration}
+### 配置营销活动计划 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
