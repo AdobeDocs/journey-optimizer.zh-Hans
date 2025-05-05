@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 活动，历程，读取，受众，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
 workflow-type: tm+mt
 source-wordcount: '2195'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -24,41 +24,6 @@ ht-degree: 11%
 >id="ajo_journey_read_segment"
 >title="读取受众活动"
 >abstract="利用读取受众活动功能，您可以允许属于 Adobe Experience Platform 受众的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_start_date"
->title="开始日期/时间"
->abstract="定义您想要触发此历程的日期和时间。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_until"
->title="重复直到"
->abstract="定义定期事件的结束日期。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_repeat_every"
->title="重复每一次"
->abstract="定义定期调度程序的频率。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_incremental_read"
->title="增量读取"
->abstract="仅允许自上次读取后的新轮廓进入历程。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="强制重入"
->abstract="在读取每个受众之前删除所有历程参与者。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="批量受众评估后触发"
->abstract="启用此选项可在重新评估批处理受众后触发历程执行。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="新受众评估的等待时间"
->abstract="指定历程将等待批量受众进行全新评估的持续时间。 等待时间限制为整数值，可以以分钟或小时指定，并且必须介于1到6小时之间。"
 
 使用&#x200B;**读取受众**&#x200B;活动让受众的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。
 
@@ -131,6 +96,41 @@ ht-degree: 11%
 >每个沙盒的整体读取率设置为每秒20,000个配置文件。 因此，在同一沙盒中同时运行的所有读取受众的读取率每秒最多可添加20,000个配置文件。 您无法修改此上限。
 
 ### 计划历程 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_start_date"
+>title="开始日期/时间"
+>abstract="定义您想要触发此历程的日期和时间。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_until"
+>title="重复直到"
+>abstract="定义定期事件的结束日期。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_repeat_every"
+>title="重复每一次"
+>abstract="定义定期调度程序的频率。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_incremental_read"
+>title="增量读取"
+>abstract="仅允许自上次读取后的新轮廓进入历程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_force_reentrance"
+>title="强制重入"
+>abstract="在读取每个受众之前删除所有历程参与者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience"
+>title="批量受众评估后触发"
+>abstract="对批量受众进行新的评估后，请切换启用此选项以触发历程执行。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
+>title="进行新的受众评估的等待时间"
+>abstract="指定历程将等待批量受众进行全新评估的持续时间。 等待时间限制为整数值，可以以分钟或小时指定，并且必须介于1到6小时之间。"
 
 默认情况下，历程配置为运行一次。 要定义历程应运行的特定日期/时间和频率，请执行以下步骤。
 
