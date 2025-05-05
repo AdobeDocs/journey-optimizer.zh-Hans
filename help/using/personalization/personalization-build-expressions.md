@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1458'
 ht-degree: 10%
 
 ---
@@ -79,11 +79,17 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 
 +++
 
++++电子邮件配置
+
+创建电子邮件渠道配置时，您可以为子域、标题和URL跟踪参数定义个性化值。 [了解详情](../email/surface-personalization.md)
+
++++
+
 ## Personalization源 {#sources}
 
 导航窗格允许您选择个性化的源。 可用源包括：
 
-* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构关联的所有引用。
+* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构关联的所有引用。
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有优惠。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。
 * **[!UICONTROL 上下文属性]** ：在历程或营销活动中使用渠道操作活动（电子邮件、推送、短信）时，与事件和属性相关的上下文属性可用于个性化。 [此部分](personalization-use-case.md)中介绍了利用上下文属性的个性化示例。
@@ -187,7 +193,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 {{/each}}
 ```
 
-* **无效的Handlebars语法。 找到`‘[XYZ}}’`**
+* **无效的Handlebars语法。 找到`'[XYZ}}'`**
 
 当使用了无效的Handlebars语法时。
 
