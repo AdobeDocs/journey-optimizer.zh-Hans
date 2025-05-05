@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: c0e8d80cac202fb463aa95b4a536146679e6567f
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
 
 # 个性化电子邮件配置设置 {#surface-personalization}
 
-为了提高电子邮件设置的灵活性和控制力，[!DNL Journey Optimizer]允许您在创建电子邮件配置时定义子域和标头<!--and URL tracking parameters-->的个性化值。
+为了提高对电子邮件设置的灵活性和控制，[!DNL Journey Optimizer]允许您在创建电子邮件配置时定义子域、标题和URL跟踪参数的个性化值。
 
 ## 添加动态子域 {#dynamic-subdomains}
 
