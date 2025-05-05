@@ -54,4 +54,4 @@ ht-degree: 33%
 
 了解Adobe Experience Platform如何组合和更新实时客户配置文件，以及如何访问和使用这些配置文件。
 
->[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31672?quality=12&captions=chi_hans)

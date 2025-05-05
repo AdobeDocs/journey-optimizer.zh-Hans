@@ -46,4 +46,4 @@ Journey Optimizer允许您为历程或营销活动分配优先级分数。 当�
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445011?quality=12&captions=chi_hans)

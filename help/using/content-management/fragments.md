@@ -62,4 +62,4 @@ ht-degree: 13%
 
 了解如何在[!DNL Journey Optimizer]中管理、创作和使用&#x200B;**表达式片段**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438928/?quality=12&captions=chi_hans)

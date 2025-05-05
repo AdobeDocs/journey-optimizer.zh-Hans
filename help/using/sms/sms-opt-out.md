@@ -71,6 +71,6 @@ ht-degree: 16%
 
 +++ 观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440290/?learn=on&captions=chi_hans)
 
 +++

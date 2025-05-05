@@ -197,4 +197,4 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451617?quality=12&captions=chi_hans)

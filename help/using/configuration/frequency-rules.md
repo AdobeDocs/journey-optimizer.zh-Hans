@@ -239,4 +239,4 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 了解如何创建、激活、测试和报告业务规则。
 
->[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411120?quality=12&captions=chi_hans)

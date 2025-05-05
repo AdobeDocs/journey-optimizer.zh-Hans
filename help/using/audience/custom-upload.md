@@ -31,4 +31,4 @@ Adobe Experience Platform受众门户允许您使用CSV文件导入受众。
 
 了解如何在视频中以CSV格式上传受众：
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423354?quality=12&captions=chi_hans)

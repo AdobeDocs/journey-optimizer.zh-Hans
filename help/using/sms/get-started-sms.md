@@ -70,7 +70,7 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3422699?learn=on&captions=chi_hans)
 
 +++
 
@@ -79,6 +79,6 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3430378?quality=12&learn=on&captions=chi_hans)
 
 +++

@@ -44,4 +44,4 @@ ht-degree: 23%
 
 ## 操作方法视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341362?quality=12&captions=chi_hans)

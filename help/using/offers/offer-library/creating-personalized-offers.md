@@ -171,4 +171,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341341?quality=12&captions=chi_hans)
