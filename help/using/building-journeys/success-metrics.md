@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 发布历程
-description: 了解如何报告您选择的历程量度
+description: 了解如何报告历程量度
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d28341dd39ec3ab838a5fbb3ae49539b8776c60b
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 7%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
-# 配置和跟踪历程指标 {#success-metrics}
+# 配置和跟踪您的历程量度 {#success-metrics}
 
-使用历程量度，您可以通过根据预定义量度跟踪活动的表现来有效衡量活动的影响。
-通过跟踪这些指标，您可以查看历程的执行情况，确定需要改进的方面，并做出明智的决策以提高客户参与。
+通过历程量度清楚地了解客户历程的有效性。 利用此功能，您可以根据定义的KPI跟踪性能、揭示对有效内容的洞察以及确定优化区域。 通过实时衡量影响，您可以推动持续改进并做出有数据根据的决策，从而提高客户参与度。
 
 ## 先决条件 {#prerequisites}
 
@@ -70,7 +69,7 @@ ht-degree: 7%
 
   了解有关[归因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
 
-## 分配您的历程指标 {#assign}
+## 分配您的历程量度 {#assign}
 
 要开始跟踪历程量度，请执行以下步骤：
 

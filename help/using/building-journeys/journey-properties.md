@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，配置，属性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '2344'
-ht-degree: 17%
+source-wordcount: '2395'
+ht-degree: 13%
 
 ---
 
@@ -27,17 +27,20 @@ ht-degree: 17%
 
 历程的属性集中在右边栏中。 默认情况下，创建新历程时会显示此部分。 对于现有历程，单击历程名称旁边的铅笔图标以将其打开。
 
-在此部分中，您可以定义旅程的名称、添加描述以及：
+在此部分中，定义历程的名称、添加描述并设置历程全局属性。
 
-* 管理[进入和重新进入](#entrance)，
-* 选择开始和结束[日期](#dates)，
-* 管理[对数据的访问](#manage-access)，
-* 在历程活动中定义[超时持续时间](#timeout)（仅适用于管理员用户），
-* 选择历程和配置文件[时区](#timezone)
+您可以：
+
 * 将Adobe Experience Platform统一标记分配给您的历程，以轻松对其进行分类并改进营销活动列表中的搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)
-* 使用[冲突管理工具](#conflict)监视冲突并设置历程优先级。
+* 选择您的历程量度。 [了解如何配置和跟踪您的历程量度](success-metrics.md)
+* 管理[进入和重新进入](#entrance)。 用户档案入口管理取决于历程类型。 详细信息可在[此页面](entry-management.md)上找到
+* 管理[对数据的访问](#manage-access)
+* 选择历程和配置文件[时区](#timezone)
+* 选择自定义[开始和结束日期](#dates)
+* 在历程活动中定义[超时持续时间](#timeout)（仅适用于管理员用户）
+* 使用[冲突管理工具](#conflict)监视冲突并设置历程优先级
 
-![](assets/journey32.png)
+![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,46 +78,46 @@ ht-degree: 17%
 
 ## 管理访问权限 {#manage-access}
 
-要将自定义或核心数据使用标签分配给历程，请单击&#x200B;**[!UICONTROL 管理访问权限]**&#x200B;按钮。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
+您可以根据访问标签限制对历程的访问。
 
-![](assets/journeys-manage-access.png)
+要为历程分配自定义数据使用标签，请单击&#x200B;**[!UICONTROL 管理访问标签]**&#x200B;图标并选择一个或多个标签。
+
+[了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)
 
 ## 历程和配置文件时区 {#timezone}
 
 时区在历程级别定义。 您可以输入固定时区，或使用Adobe Experience Platform配置文件定义历程时区。 如果在Adobe Experience Platform配置文件中定义了时区，则可以在旅程中检索该时区。
 
-有关时区管理的详细信息，请参阅[此页面](../building-journeys/timezone-management.md)。
+[了解有关时区管理的更多信息](../building-journeys/timezone-management.md)
 
 ## 开始和结束日期 {#dates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="开始日期"
->abstract="选择历程开始的日期。如果没有指定开始日期，则会自动设置为发布时间。"
-
+>abstract="选择用户档案可以开始进入历程的日期。 如果未设置开始日期，则默认使用历程的发布日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="选择历程的结束日期。达到该日期后，该历程中的轮廓会自动将其退出，并且新的无法再次进入。"
+>abstract="设置历程结束的日期。 在此日期，活动用户档案将自动退出历程，不允许新条目。"
 
-您可以定义&#x200B;**开始日期**。 如果您尚未指定名称，则将在发布时自动定义它。
+默认情况下，用户档案可在发布后立即进入您的历程，并可一直保留，直到达到[全局历程超时](#global_timeout)。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
-您还可以添加&#x200B;**结束日期**。 这允许轮廓在到期时自动退出。如果未指定结束日期，则配置文件可以保留到[全局历程超时](#global_timeout)（通常为91天）为止。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
+如果需要，您可以定义自定义&#x200B;**开始日期**&#x200B;和&#x200B;**结束日期**。 这允许用户档案在特定日期进入您的历程，并在到达结束日期时自动退出。
 
 ## 超时 {#timeout}
 
-### 历程活动超时或错误 {#timeout_and_error}
+### 历程活动超时 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="超时"
->abstract="定义历程在将其视为超时之前尝试执行操作或验证条件的时间量。"
-
+>title="超时或错误"
+>abstract="指定在将历程视为超时之前，历程应尝试执行操作或评估条件的时长。 建议值为1至30秒。"
 
 编辑操作或条件活动时，您可以定义替代路径以防出现错误或超时。 如果处理询问第三方系统的活动超过了历程属性的&#x200B;**[!UICONTROL 超时或错误]**&#x200B;字段中定义的超时持续时间，将选择第二个路径以执行潜在的回退操作。
 
-授权值介于1和30秒之间。
+建议值为1至30秒。
 
 如果历程对时间敏感（例如：对人员的实时位置做出反应），我们建议您定义一个非常短的&#x200B;**[!UICONTROL 超时或错误]**&#x200B;值，因为您的操作延迟的时间不能超过几秒。 如果您的旅程不太时效性，则可以使用较长的值，为调用的系统留出更多时间来发送有效响应。
 

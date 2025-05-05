@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: 对象，级别，访问，控制，标签， olac，授权
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: fbcd5ae83c024d672d608d5f5aefc6a4252ec8c0
+source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 15%
+source-wordcount: '472'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="访问管理标签"
->abstract="您可以根据访问标签限制对此营销活动的访问。要对访问权限添加限制，请浏览页面顶部的&#x200B;**管理访问权限**&#x200B;按钮。确保仅选择您有权限的标签。"
+>abstract="您可以根据访问标签限制对对象的访问。 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。 **确保仅选择您具有权限的标签。**"
+
+您可以根据访问标签限制对对象的访问。 其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 
 对象级访问控制(OLAC)功能允许您定义管理对所选对象的数据访问的授权：
 
@@ -36,7 +38,6 @@ ht-degree: 15%
 * 渠道配置
 * IP预热计划
 
-其目的是保护敏感的数字资产，使其免遭未经授权的用户的侵害，从而进一步保护个人数据。
 
 ## 先决条件 {#prereq-labels}
 
@@ -52,7 +53,7 @@ ht-degree: 15%
 
 使用标签为用户提供访问权限，以及实施数据治理和同意策略。 这些治理标签可能会影响下游消费。
 
-您可以在[!DNL Permissions]产品中创建标签。 有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}。
+您可以在[!DNL Permissions]产品中创建标签。 有关详细信息，请参见[此页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}。
 
 您也可以直接在Journey Optimizer中创建&#x200B;**[!UICONTROL 标签]**。 要创建标签，请执行以下步骤：
 
