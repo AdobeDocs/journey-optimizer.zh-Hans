@@ -43,7 +43,7 @@ ht-degree: 12%
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 [此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
 
@@ -63,7 +63,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >此外，您还可以定位使用从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或创建的Adobe Experience Platform受众。
+   >此外，您还可以定位使用从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或创建的Adobe Experience Platform受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -77,7 +77,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 

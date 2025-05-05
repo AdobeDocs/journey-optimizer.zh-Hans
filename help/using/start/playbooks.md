@@ -61,4 +61,4 @@ ht-degree: 69%
 
 您可以使用AI帮助或手动输入定义元数据，关联技术资产（如架构、区段），并在不同IMS组织之间共享行动手册。
 
-有关如何创建和共享行动手册的更多信息，请参阅用例行动手册文档： [使用AI助手创作和共享您自己的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}。
+有关如何创建和共享行动手册的更多信息，请参阅用例行动手册文档： [使用AI助手创作和共享您自己的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hans#sharing-playbooks-sandboxes){target="_blank"}。

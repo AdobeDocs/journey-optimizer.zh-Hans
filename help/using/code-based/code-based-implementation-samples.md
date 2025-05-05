@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ### 工作原理 — Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此页面中。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}已包含在此页面中。
 
 1. 您需要使用`sendEvent`命令并指定[表面URI](code-based-surface.md)<!--( or location/path)-->来获取个性化内容。
 
@@ -145,7 +145,7 @@ Cookie用于保留用户标识和群集信息。 使用客户端实施时，Web 
 ### 工作原理
 
 1. 已请求该网页，并且包含以前由浏览器存储的以`kndctr_`为前缀的所有Cookie。
-1. 从应用服务器请求该页面时，会向[交互式数据收集终结点](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)发送一个事件以获取个性化内容。 此示例应用程序使用一些帮助程序方法来简化生成请求并将请求发送到API（请参阅[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}）。 但请求只是具有包含事件和查询的有效负载的`POST`。 上一步骤中的Cookie（如果可用）包含在`meta>state>entries`数组的请求中。
+1. 从应用服务器请求该页面时，会向[交互式数据收集终结点](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hans)发送一个事件以获取个性化内容。 此示例应用程序使用一些帮助程序方法来简化生成请求并将请求发送到API（请参阅[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}）。 但请求只是具有包含事件和查询的有效负载的`POST`。 上一步骤中的Cookie（如果可用）包含在`meta>state>entries`数组的请求中。
 
    ```javascript
    fetch(
@@ -306,4 +306,4 @@ Cookie用于保留用户标识和群集信息。 在使用服务器端实施时�
 如果您有混合实施，请查看以下链接。
 
 * Adobe技术博客：Adobe Experience Platform Web SDK中的[Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK文档：[使用Web SDK和Edge Network服务器API的混合个性化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hans){target="_blank"}

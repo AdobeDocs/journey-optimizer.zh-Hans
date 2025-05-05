@@ -61,7 +61,7 @@ ht-degree: 5%
 
 ![](assets/ajo-aa_4.png)
 
-请参阅[Adobe Analytics文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"}和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}以了解有关Adobe Experience Platform源连接器的更多信息。
+请参阅[Adobe Analytics文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans){target="_blank"}和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans){target="_blank"}以了解有关Adobe Experience Platform源连接器的更多信息。
 
 ## 激活此配置 {#activate-analytics-data}
 

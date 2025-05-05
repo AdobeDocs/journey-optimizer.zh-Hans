@@ -25,12 +25,12 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->为了能够查看仪表板，您必须被授予[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}权限。
+>为了能够查看仪表板，您必须被授予[查看许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=zh-Hans#available-permissions){target="_blank"}权限。
 
 对于[!DNL Adobe Journey Optimizer]，您可以检查此仪表板中&#x200B;**可启用的用户档案**&#x200B;的数量。 可启用的用户档案是代表个人的信息记录，并在用户档案服务中显示。 这些记录是您在过去12个月内尝试使用Journey Optimizer的创作、决策、交付、实验或编排功能接触的用户档案。
 
 请参阅Adobe Experience Platform文档以了解详情：
 
-* [许可证使用情况仪表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [许可证使用情况仪表板概述](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans){target="_blank"}
+* [浏览许可证使用情况仪表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hans#%E5%8F%AF%E7%94%A8%E9%87%8F%E5%BA%A6){target="_blank"}

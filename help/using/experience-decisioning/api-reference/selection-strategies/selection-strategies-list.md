@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 列表选择策略 {#list-selection-strategies}
 
-选择策略包括与资格约束关联的集合和排名方法，以确定在[决策策略](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)中选择时要显示的优惠。
+选择策略包括与资格约束关联的集合和排名方法，以确定在[决策策略](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)中选择时要显示的优惠。
 
 您可以通过对选件库API执行单个GET请求来查看所有选择策略的列表。
 

@@ -31,7 +31,7 @@ ht-degree: 5%
 * 已实现：实体符合区段定义的条件。
 * 退出：实体正在退出区段定义。
 
-只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众的成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results)。
+只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才会被视为受众的成员。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results)。
 
 `inAudience('audienceName') == true`表示您具有输入状态的segmentMembership。
 

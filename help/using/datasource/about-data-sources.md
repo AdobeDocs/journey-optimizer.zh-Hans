@@ -49,7 +49,7 @@ ht-degree: 52%
 >
 >数据源不支持架构关系。
 
-有关如何配置Adobe Experience Platform Data Source和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
+有关如何配置Adobe Experience Platform Data Source和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hans){target="_blank"}。
 
 ## 操作方法视频 {#video}
 

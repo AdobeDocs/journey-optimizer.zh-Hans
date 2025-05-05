@@ -36,7 +36,7 @@ ht-degree: 33%
 >
 >* [Real-time Customer Profile 文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
 >* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
->* [&#x200B;数据引入文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 配置文件仪表板
 

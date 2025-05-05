@@ -20,7 +20,7 @@ ht-degree: 2%
 
 通过将Adobe Experience Manager与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer电子邮件内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
 
-要了解有关AEM内容片段的更多信息，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)。
+要了解有关AEM内容片段的更多信息，请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)。
 
 ## 限制 {#limitations}
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ## 添加AEM内容片段 {#aem-add}
 
-创建并个性化您的[AEM内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)后，您现在可以将其导入历程优化器促销活动或历程。
+创建并个性化您的[AEM内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)后，您现在可以将其导入历程优化器促销活动或历程。
 
 1. 使用电子邮件操作创建[Campaign](../email/create-email.md)或[历程](../email/create-email.md)后，访问电子邮件设计器以配置电子邮件内容。 [了解详情](../email/get-started-email-design.md)
 

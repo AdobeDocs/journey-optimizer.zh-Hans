@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 创建其架构包含`productListItems`数组的事件。
 1. 将此数组中的所有字段定义为此事件的有效负荷字段。
 
-   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中了解有关产品列表项数据类型的更多信息。
+   在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hans){target="_blank"}中了解有关产品列表项数据类型的更多信息。
 
 1. 创建从此事件开始的历程。
 1. 向历程添加&#x200B;**电子邮件**&#x200B;活动。
@@ -105,7 +105,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      在[AdobeExperience Plaform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中了解有关人员名称数据类型的更多信息。
+      在[AdobeExperience Plaform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hans){target="_blank"}中了解有关人员名称数据类型的更多信息。
 
 1. 单击&#x200B;**[!UICONTROL 验证]**，然后单击&#x200B;**[!UICONTROL 保存]**。
 

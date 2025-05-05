@@ -267,14 +267,14 @@ Hotmail之外的域和域组Microsoft中的域将被收集到&#x200B;**[!UICONTR
 >id="ajo_admin_ip_warmup_upload"
 >title="指定 IP 预热计划"
 >abstract="为 Excel 模板填入将为您的计划提供的所有数据，例如 IP 预热阶段和目标轮廓数，然后在此处上传它。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="准备 IP 预热计划文件"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hans#prepare-file" text="准备 IP 预热计划文件"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="选择营销配置"
 >abstract="您必须选择在要与您的 IP 预热计划关联的营销活动中选择的相同配置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="设置渠道配置"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="创建 IP 预热营销活动"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="设置渠道配置"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=zh-Hans" text="创建 IP 预热营销活动"
 
 要创建IP预热计划，请执行以下步骤。
 

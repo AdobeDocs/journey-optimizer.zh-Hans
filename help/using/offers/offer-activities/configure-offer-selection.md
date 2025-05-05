@@ -60,7 +60,7 @@ ht-degree: 6%
 
 ## 人工智能排名 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](../ranking/create-ranking-strategies.md)中了解如何创建AI模型。
 

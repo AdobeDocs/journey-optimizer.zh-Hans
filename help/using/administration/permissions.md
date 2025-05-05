@@ -48,7 +48,7 @@ ht-degree: 6%
 
 1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html)。
+   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hans)。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -125,4 +125,4 @@ ht-degree: 6%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;现已创建并配置。 您现在需要将其分配给用户。
 
-有关创建和管理角色的更多信息，请参阅[Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html)。
+有关创建和管理角色的更多信息，请参阅[Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans)。

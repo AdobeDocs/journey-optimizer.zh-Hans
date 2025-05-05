@@ -33,7 +33,7 @@ ht-degree: 0%
 * 与任何其他操作一样，您可以定义在发生错误或超时时的替代路径，并且不能将两个操作并行放置。
 * 发送到Adobe Experience Platform的更新请求是立即的/在一秒内。 通常需要几秒钟的时间，但有时需要更长时间，无法保证。 因此，例如，如果某个操作正在使用由之前放置的&#x200B;**更新用户档案**&#x200B;操作更新的“字段1”，则不应期望该操作中会更新“字段1”。
 * **更新配置文件**&#x200B;活动不支持定义为枚举或建议值的XDM字段。
-* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，而不更新数据湖。
+* **[!UICONTROL 更新配置文件]**&#x200B;活动仅更新[配置文件存储](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans#profile-data-store){target="_blank"}，而不更新数据湖。
 
 ## 数据集选择 {#dataset-selection}
 

@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中对其进行优先排序。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中对其进行优先排序。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 

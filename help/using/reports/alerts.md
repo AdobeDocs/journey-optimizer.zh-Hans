@@ -37,9 +37,9 @@ ht-degree: 0%
 
 ![](assets/alert-subscribe.png)
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}订阅警报。 警报规则将整理到不同的订阅包中。 下文详细介绍了与特定Journey Optimizer警报对应的事件订阅。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}订阅警报。 警报规则将整理到不同的订阅包中。 下文详细介绍了与特定Journey Optimizer警报对应的事件订阅。
 
-如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送和/或直接在用户界面的右上角的Journey Optimizer通知中心内发送。 默认情况下，仅启用应用程序内警报。 要启用电子邮件警报，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}。
+如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送和/或直接在用户界面的右上角的Journey Optimizer通知中心内发送。 默认情况下，仅启用应用程序内警报。 要启用电子邮件警报，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}。
 
 警报解决后，订阅者会收到“已解决”通知。
 

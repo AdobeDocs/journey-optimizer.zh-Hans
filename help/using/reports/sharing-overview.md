@@ -69,6 +69,6 @@ ht-degree: 3%
 
 * [!DNL Customer Journey Analytics]摄取“历程步骤事件”数据集。
 * 关联的“Journey Orchestration的历程步骤事件架构”中的&#x200B;**profileID**&#x200B;字段被定义为标识字段。 在[!DNL Customer Journey Analytics]中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
+* 要在[!DNL Customer Journey Analytics]中使用此数据集，对于跨渠道历程分析，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans){target="_blank"}。
 
 ➡️[使用Customer Journey Analytics](cja-ajo.md){target="_blank"}

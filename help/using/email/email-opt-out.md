@@ -34,7 +34,7 @@ ht-degree: 23%
 
 当收件人单击选择退出链接时，将相应地处理其取消订阅请求。
 
-要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解详情。
+要检查相应用户档案的选择是否已更新，请转到Experience Platform并[浏览到该用户档案](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，您可以看到&#x200B;**[!UICONTROL 选择]**&#x200B;的值已更改为&#x200B;**[!UICONTROL no]**。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解详情。
 
 ![](assets/opt-out-profile-choice.png)
 

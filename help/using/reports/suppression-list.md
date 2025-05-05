@@ -59,7 +59,7 @@ ht-degree: 11%
 >
 >在邮件发送过程中排除状态为&#x200B;**[!UICONTROL Suppressed]**&#x200B;的用户档案。 因此，虽然&#x200B;**历程报告**&#x200B;会显示这些用户档案在历程中移动（[读取受众](../building-journeys/read-audience.md)和[消息活动](../building-journeys/journeys-message.md)），但&#x200B;**电子邮件报告**&#x200B;不会将它们包含在&#x200B;**[!UICONTROL 已发送]**&#x200B;指标中，因为在发送电子邮件之前已将它们过滤掉。
 >
->了解有关[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)的更多信息。 若要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}。
+>了解有关[实时报告](../reports/live-report.md)和[Customer Journey Analytics报告](../reports/report-gs-cja.md)的更多信息。 若要了解所有排除案例的原因，您可以使用[Adobe Experience Platform查询服务](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hans){target="_blank"}。
 
 ### 投放失败 {#delivery-failures}
 

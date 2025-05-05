@@ -52,7 +52,7 @@ Adobe Journey Optimizer目前与翻译提供商集成，这些提供商独立于
 
 对于多语言内容，必须定义以下设置：
 
-* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 要使用Journey Optimizer中的翻译功能，您需要将API分配给相应的角色。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 要开始创建多语言内容，需要向用户授予&#x200B;**[!UICONTROL 管理语言设置]**&#x200B;权限。 对于自动流，用户还需要与&#x200B;**[!UICONTROL 翻译服务]**&#x200B;功能相关的权限。 [了解有关权限的详细信息](../administration/permissions.md)
 
