@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
+source-git-commit: 5873d3dfde3ff7e7e2ac94c7d9b62aa1245c707b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '929'
+ht-degree: 45%
 
 ---
 
@@ -226,6 +226,7 @@ ht-degree: 0%
 <td>
 <p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和准则保持一致。 此功能在Beta中可用。</p>
 <p>有关更多信息，请参阅<a href="../content-management/brands-score.md">详细文档</a>。</p>
+<img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
 </tbody>
