@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07b1ccfc0dec2a44db7607b294ab10b41e963658
+source-git-commit: 55717a2063a61c3eda62d0e09a0c67656c3e3bb1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 47%
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
-  个性化编辑器中新增了一个“药丸”按钮。启用后，配置文件和上下文属性将显示为Pills，从而提高代码的可读性。 [了解详情](../personalization/personalization-build-expressions.md#options)
+  个性化编辑器中已添加新的“Pipels”按钮。 启用后，配置文件和上下文属性将显示为Pills，从而提高代码的可读性。 [了解详情](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
