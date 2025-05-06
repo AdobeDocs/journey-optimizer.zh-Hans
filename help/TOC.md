@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 87%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 87%
       + [在Journey Optimizer中配置LINE渠道](using/line/line-configuration.md)
       + [创建LINE消息](using/line/create-line.md)
       + [检查并发送您的LINE消息](using/line/send-line.md)
-+ 登陆页面 {#landing-pages}
-   + [登陆页面入门](using/landing-pages/get-started-lp.md)
-   + [创建登陆页面](using/landing-pages/create-lp.md)
-   + 设计内容 {#landing-pages-design}
-      + [关于登陆页面设计](using/landing-pages/design-lp.md)
-      + [创建登陆页面内容](using/landing-pages/lp-content.md)
-      + [创建模板](using/landing-pages/lp-templates.md)
-      + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
-   + [创建订阅列表](using/landing-pages/subscription-list.md)
-   + [通过用例学习](using/landing-pages/lp-use-cases.md)
-   + 配置登陆页面 {#lp-configuration}
++ 内容管理  {#content-management}
+   + 登陆页面 {#landing-pages}
+      + [登陆页面入门](using/landing-pages/get-started-lp.md)
+      + [创建登陆页面](using/landing-pages/create-lp.md)
+      + 设计内容 {#landing-pages-design}
+         + [关于登陆页面设计](using/landing-pages/design-lp.md)
+         + [创建登陆页面内容](using/landing-pages/lp-content.md)
+         + [创建模板](using/landing-pages/lp-templates.md)
+         + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
+      + [创建订阅列表](using/landing-pages/subscription-list.md)
+      + [通过用例学习](using/landing-pages/lp-use-cases.md)
+      + 配置登陆页面 {#lp-configuration}
       + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
       + [定义登陆页面预设](using/landing-pages/lp-presets.md)
-+ 内容管理  {#content-management}
-   + 用于内容生成的 AI 助手{#ai-assistant}
-      + [开始使用 AI 助手](using/content-management/gs-generative.md)
-      + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
-      + [使用 AI 生成推送内容](using/content-management/generative-push.md)
-      + [使用 AI 生成短信](using/content-management/generative-sms.md)
-      + [使用 AI 生成 Web 内容](using/content-management/generative-web.md)
-      + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
-      + [使用 AI 的登陆页面](using/content-management/generative-lp.md)
-      + [AI 助手用例](using/content-management/generative-uc.md)
-      + 品牌（测试版）{#brands}
-         + [创建和管理您的品牌](using/content-management/brands.md)
-         + [评估您的品牌一致性分数](using/content-management/brands-score.md)
-   + 使用多语言内容{#content-multilingual}
-      + [多语言内容入门](using/content-management/multilingual-gs.md)
-      + [创建区域](using/content-management/multilingual-locale.md)
-      + [创建语言提供程序](using/content-management/multilingual-provider.md)
-      + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
-      + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
-   + 使用内容试验 {#content-experiment}
-      + [内容体验入门](using/content-management/get-started-experiment.md)
-      + [创建内容体验](using/content-management/content-experiment.md)
-      + 技术说明 {#technotes}
-         + [了解统计计算](using/content-management/experiment-calculations.md)
-         + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
    + 个性化 {#personalization}
       + [个性化入门](using/personalization/personalize.md)
       + [添加个性化内容](using/personalization/personalization-build-expressions.md)
@@ -412,12 +388,36 @@ ht-degree: 87%
       + [动态内容入门](using/personalization/get-started-dynamic-content.md)
       + [创建条件规则](using/personalization/create-conditions.md)
       + [创建动态内容](using/personalization/dynamic-content.md)
+   + 用于内容生成的 AI 助手{#ai-assistant}
+      + [开始使用 AI 助手](using/content-management/gs-generative.md)
+      + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
+      + [使用 AI 生成推送内容](using/content-management/generative-push.md)
+      + [使用 AI 生成短信](using/content-management/generative-sms.md)
+      + [使用 AI 生成 Web 内容](using/content-management/generative-web.md)
+      + [使用 AI 进行内容试验](using/content-management/generative-experimentation.md)
+      + [使用 AI 的登陆页面](using/content-management/generative-lp.md)
+      + [AI 助手用例](using/content-management/generative-uc.md)
+      + 品牌（测试版）{#brands}
+         + [创建和管理您的品牌](using/content-management/brands.md)
+         + [评估您的品牌一致性分数](using/content-management/brands-score.md)
+   + 多语言内容{#content-multilingual}
+      + [多语言内容入门](using/content-management/multilingual-gs.md)
+      + [创建区域](using/content-management/multilingual-locale.md)
+      + [创建语言提供程序](using/content-management/multilingual-provider.md)
+      + [使用手动翻译创建多语言内容](using/content-management/multilingual-manual.md)
+      + [使用自动翻译创建多语言内容](using/content-management/multilingual-automated.md)
+   + 内容试验 {#content-experiment}
+      + [内容体验入门](using/content-management/get-started-experiment.md)
+      + [创建内容体验](using/content-management/content-experiment.md)
+      + 技术说明 {#technotes}
+         + [了解统计计算](using/content-management/experiment-calculations.md)
+         + [了解试验报告中的统计计算](using/content-management/experiment-report-calculations.md)
 + 受众、用户档案和标识{#audiences-profiles-identities}
    + 受众 {#audiences}
       + [受众入门](using/audience/about-audiences.md)
       + 创建受众 {#create}
          + [区段定义](using/audience/creating-a-segment-definition.md)
-         + [受众组合](using/audience/get-started-audience-orchestration.md)
+         + [受众构成](using/audience/get-started-audience-orchestration.md)
          + [自定义上传](using/audience/custom-upload.md)
          + [联合受众构成](using/audience/federated-audience-composition.md)
       + [营销活动和历程中的受众激活](using/audience/target-audiences.md)
