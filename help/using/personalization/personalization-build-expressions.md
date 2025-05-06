@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 表达式，编辑器，关于，开始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6ffa9d9125f941febbc894e75dcb1a202e1e9cc0
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1510'
 ht-degree: 10%
 
 ---
@@ -89,7 +89,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 
 导航窗格允许您选择个性化的源。 可用源包括：
 
-* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构关联的所有引用。
+* **[!UICONTROL 配置文件属性]** ：列出与[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构关联的所有引用。
 * **[!UICONTROL 受众]** ：列出在Adobe Experience Platform分段服务中创建的所有受众。 有关分段的更多信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}。
 * **[!UICONTROL 优惠决策]** ：列出与特定投放位置关联的所有优惠。 选择投放位置，然后在您的内容中插入选件。 有关如何管理优惠的完整文档，请参阅[此部分](../offers/get-started/starting-offer-decisioning.md)。
 * **[!UICONTROL 上下文属性]** ：在历程或营销活动中使用渠道操作活动（电子邮件、推送、短信）时，与事件和属性相关的上下文属性可用于个性化。 [此部分](personalization-use-case.md)中介绍了利用上下文属性的个性化示例。
@@ -105,7 +105,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 >title="自动完成"
 >abstract="切换该选项可让系统在您键入时自动建议并完成代码。此功能仅适用于 HTML 和文本格式，并支持轮廓和上下文属性。如果通过切换禁用，编辑器将提供原生 HTML 代码自动完成。"
 
-中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到属性窗格中，然后单击`+`按钮以将其添加到表达式中。
+中央工作区是您构建个性化语法的位置。 若要使用属性来个性化您的消息，请将其定位到左侧导航窗格中，然后单击`+`按钮以将其添加到表达式中。
 
 ![](assets/personalization-add-attribute.png)
 
@@ -123,7 +123,7 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
 
 ![](assets/perso_ee2.png)
 
-## 表达式编辑工具
+## 表达式编辑选项 {#options}
 
 中央工作区提供了各种工具来帮助您编写个性化表达式。
 
@@ -146,6 +146,13 @@ Journey Optimizer还允许您个性化消息中的&#x200B;**URL**。  个性化 
    * **On** — 以编辑器的宽度换行。
    * **自动换行列** — 当行字符达到80个字符时换行。
    * **绑定** — 以编辑器宽度或80个字符（以较小者为准）换行。
+1. **[!UICONTROL Picks]**：将属性显示为紧凑的“Picks”，通过隐藏长属性路径来提高可读性。 单击属性以显示其完整路径。
+
+   >[!NOTE]
+   >
+   >药丸展示将在接下来的30天内逐步推广到所有环境。
+   >
+   >此选项仅适用于配置文件属性、上下文属性和Dynamic Media。
 
 在导航窗格中，提供其他功能以帮助您构建个性化表达式。
 
