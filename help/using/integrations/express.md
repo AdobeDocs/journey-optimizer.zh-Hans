@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: '517'
+ht-degree: 7%
 
 ---
 
@@ -34,6 +34,25 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 要访问&#x200B;**[!DNL Adobe Express]**&#x200B;菜单，请从Email designer访问您的&#x200B;**图像设置**，然后单击&#x200B;**[!UICONTROL 在Adobe Express中编辑]**。
 
 ![](assets/express_1.png)
+
+## Adobe Express企业许可证 {#licence}
+
+没有Adobe Express Enterprise许可证的用户可以访问以下部分中详述的功能。
+
+借助企业许可证，用户可获得对Adobe Express编辑器的完全访问权限，从而可通过调整颜色、亮度、锐度、对比度、尺寸和其他设置来修改图像。
+
+![](assets/express-licence.png)
+
++++用户可用的使用案例以及Adobe Express的企业许可证
+
+* [删除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [删除对象](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [擦除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [插入对象](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+
++++
 
 ## 调整图像大小 {#resize}
 
