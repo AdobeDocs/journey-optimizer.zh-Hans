@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 2025 年版发行说明
+title: 2025 年发行说明
 description: Journey Optimizer 2025 年发行说明
 feature: Release Notes
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 2025 年版发行说明 {#release-notes-2025}
+# 2025 年发行说明 {#release-notes-2025}
 
 本页列出了于 2025 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
@@ -188,7 +188,7 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **业务规则**
 
-现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
 请注意，规则集中的每日频次上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
 
@@ -196,7 +196,7 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **内容模板**
 
-现已弃用HTML类型内容模板。 请注意，您仍然可以使用之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。 [了解有关内容模板的更多信息](../content-management/content-templates.md)
+HTML 类型内容模板现已弃用。请注意，您仍然可以使用之前在 [!DNL Journey Optimizer] 中创建的现有 HTML 内容模板。[了解有关内容模板的更多信息](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -237,13 +237,13 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>使用AI助手生成登陆页面</strong><br/></th>
+<th><strong>使用 AI 助手生成登陆页</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以借助AI Assistant为登陆页面制作引人注目的内容，包括全页设计、个性化文本和自定义可视化图表。</p>
+<p>您现在可以借助 AI 助手为登陆页面制作具有吸引力的内容，包括全页设计、个性化文本和自定义视觉效果。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>有关更多信息，请参阅<a href="../content-management/generative-lp.md">详细文档</a>。</p>
 </td>
@@ -255,14 +255,14 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>带有AI助手的Brands (Beta)</strong><br/></th>
+<th><strong>使用 AI 助手的品牌 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您现在可以设置自己的品牌，来定义品牌的视觉效果和语言标识。 </p>
-<p>此功能作为 Private Beta 版发布，面向部分客户提供。在未来版本中，将逐步向所有客户提供。</p>
+<p>此功能作为 Private Beta 版发布，面向部分客户提供。在未来版本中，其将逐步向所有客户提供。</p>
 <p>有关更多信息，请参阅<a href="../content-management/brands.md">详细文档</a>。</p>
 </td>
 </tr>

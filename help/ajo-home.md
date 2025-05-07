@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 85%
 
 ## 新增功能
 
-概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。访问[文档更新页面](using/rn/documentation-updates.md)以随时了解产品文档中的最新更改。
+概要了解 Journey Optimizer 产品和文档中的最新增强功能！有关功能、改进和修复的完整列表，请查看详细的[发行说明](using/rn/release-notes.md)。访问[文档更新页面](using/rn/documentation-updates.md)，随时了解产品文档中的最新更改。
 
 >[!BEGINTABS]
 
->[!TAB 2025年4月版]
+>[!TAB 2025 年 4 月版]
 
-4月版现已上线！ 查看发行说明，了解新增功能、变化和改进。
+4 月版已上线！查看发行说明，了解新增功能、变化和改进。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Adobe Express集成]
+>[!TAB Adobe Express 集成]
 
-adobe Journey Optimizer现在与Adobe Express集成，使您能够无缝地将创意资源与journey orchestration连接起来。
+Adobe Journey Optimizer 现在与 Adobe Express 集成，您可以无缝地将创意资产与 Journey Orchestration 相连接。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
@@ -36,7 +36,7 @@ adobe Journey Optimizer现在与Adobe Express集成，使您能够无缝地将�
 
 ✨ 通过我们的 [AI 助手](../help/using/content-management/gs-generative.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其特性并充分了解其功能。
 
-[![了解更多](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![了解详情](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 使用 CJA 进行报告]
 
