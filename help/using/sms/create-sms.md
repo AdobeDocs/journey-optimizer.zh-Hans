@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建文本消息"
->abstract="要创建短信 (SMS/SMS)，请在历程或营销活动中添加短信操作，然后开始用个性化编辑器使其个性化。"
+>abstract="要创建文本消息 (SMS/MMS)，请在历程或营销活动中添加短信操作，然后开始用个性化编辑器使其个性化。"
 
 您可以使用Adobe Journey Optimizer设计和发送文本(SMS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
