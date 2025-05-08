@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 74%
+source-wordcount: '1015'
+ht-degree: 72%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 74%
 
   ![](assets/do-not-localize/formula-builder.gif)
 
+
+* 登陆页面的&#x200B;**文件夹** — 可用日期： 2025年5月7日
+
+  为了轻松管理您的登陆页面，您现在还可以使用文件夹来将登陆页面更有效地组织到简化的层次结构中。  [了解详情](../landing-pages/manage-lp.md)
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
@@ -319,9 +323,7 @@ ht-degree: 74%
 
   Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
 
-- **Folders for landing pages** - Availability date: May 5, 2025
 
-  To easily manage your landing pages, you can now also use folders to organize them more effectively into a streamlined hierarchy.  -->
 
 <!--- **Right rail in campaigns list**  
 

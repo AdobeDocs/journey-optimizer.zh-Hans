@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登录，登陆页面，创建，发布
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 21%
+source-wordcount: '1524'
+ht-degree: 23%
 
 ---
 
@@ -23,35 +23,6 @@ ht-degree: 21%
 创建登陆页面的主要步骤如下：
 
 ![](assets/lp-creation-process.png)
-
-## 访问登陆页面 {#access-landing-pages}
-
-要访问登陆页面列表，请从左侧菜单中选择&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 登陆页面]**。
-
-![](assets/lp_access-list.png)
-
-**[!UICONTROL 登陆页面]**&#x200B;列表显示所有现有的登陆页面。 您可以根据它们的状态、修改日期或标记筛选它们。
-
-![](assets/lp_access-list-filter.png)
-
-从该列表中，您还可以访问复制、删除、取消发布登陆页面或访问登陆页面报表。 为此，请单击登陆页面旁边的三个圆点，然后选择所需的操作：
-
-![](assets/lp_access-list-actions.png)
-
-
-您可以：
-
-* 访问以下&#x200B;**报告**，适用于已发布的登陆页面：[登陆页面报告](../reports/lp-report-global-cja.md)和[最近24小时实时报告](../reports/lp-report-live.md)。
-
-* **删除**&#x200B;或&#x200B;**复制**&#x200B;登陆页面。 您无法删除[已发布](#publish-landing-page)登陆页面。 要删除它，您必须先&#x200B;**取消发布**。
-
-* **取消发布**&#x200B;登陆页面。
-
-  >[!CAUTION]
-  >
-  >如果取消发布消息中引用的登陆页面，则指向该登陆页面的链接将断开，并且如果用户尝试访问登陆页面，将收到错误页面。
-
-* 编辑登陆页面的关联[标记](../start/search-filter-categorize.md#tags)。
 
 ## 创建登陆页面 {#create-landing-page}
 
@@ -64,7 +35,7 @@ ht-degree: 21%
 >id="ajo_lp_access_management_labels"
 >title="向您的登陆页面分配标签"
 >abstract="为了保护敏感的数字资产，您可以使用标签来定义授权，用于管理对登陆页面的数据访问。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=zh-Hans" text="对象级访问控制"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="对象级访问控制"
 
 
 要创建登陆页面，您必须选择一个预设，然后配置主页面和子页面，最后在发布页面之前对其进行测试。 这些步骤详述如下：
@@ -110,14 +81,14 @@ ht-degree: 21%
 >id="ajo_lp_primary_page"
 >title="定义主页面设置"
 >abstract="当用户比如从电子邮件或网站单击您的登陆页面的链接后，将立即向用户显示主页面。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hans" text="设计登陆页面内容"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="设计登陆页面内容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="定义登陆页面 URL"
 >abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 主页面是在用户单击指向登陆页面的链接后立即向用户显示的页面，例如通过电子邮件或网站。
 
@@ -183,8 +154,8 @@ ht-degree: 21%
 >id="ajo_lp_access_settings-subpage"
 >title="定义登陆页面 URL"
 >abstract="在此部分中，定义一个唯一的登陆页面 URL。URL 的第一部分需要您以前设置的登陆页面子域，这应该包括在您选择的预设中。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hans" text="配置登陆页面子域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="配置登陆页面子域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 您最多可以添加 2 个子页。例如，您可以创建一个“谢谢”页面，该页面在用户提交表单后显示，您还可以定义一个错误页面，在登陆页面出现问题时调用该页面。
 
@@ -214,7 +185,7 @@ ht-degree: 21%
 >id="ac_preview_lp_profiles"
 >title="预览和测试登陆页面"
 >abstract="定义了登陆页面设置和内容之后，您可使用测试轮廓对其进行预览。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=zh-Hans" text="选择测试轮廓"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="选择测试轮廓"
 
 定义登陆页面设置和内容后，您可以使用测试配置文件进行预览。 如果您插入[个性化内容](../personalization/personalize.md)，则可以使用测试配置文件数据检查此内容在登陆页面中的显示方式。
 
