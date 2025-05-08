@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 25%
+source-wordcount: '546'
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 25%
 
 通过提供称为“决策项”的集中式营销产品建议目录和复杂的决策引擎，决策简化了个性化流程。此引擎利用规则和排名标准来选择最相关的决策项并将其呈现给每个人。
 
-这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。
+这些决策项目通过[新的基于代码的体验渠道](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/code-based-experience/get-started-code-based)无缝集成到广泛的集客界面中，该渠道现在可在Journey Optimizer营销活动中访问。
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ ht-degree: 25%
 
    随后，您的用户将收到一封重定向到您的实例的电子邮件。
 
-   +++
++++
 
 1. **配置自定义属性**：通过在目录架构中设置自定义属性，根据特定要求定制项目目录。
 
@@ -64,25 +64,27 @@ ht-degree: 25%
 
 1. **创建决策项**&#x200B;以向您的目标受众显示。
 
-   ➡️[了解如何创建决策项](items.md) （[API文档](api-reference/decisions-items/create.md)）
+   ➡️[了解如何在用户界面（和[API文档](api-reference/decisions-items/create.md)）中创建决策项](items.md)
 
 1. **使用收藏集组织**：使用收藏集根据基于属性的规则对决策项进行分类。 将集合纳入您的选择策略，以确定应考虑的决策项目集合。
 
-   ➡️[了解如何管理项目集合](collections.md) （[API文档](api-reference/items-collections/create.md)）
+   ➡️[了解如何在用户界面（和[API文档](api-reference/items-collections/create.md)）中管理项目集合](collections.md)
 
 1. **创建决策规则**：决策项和/或选择策略中使用决策规则来确定可以将决策项显示给谁。
 
    ➡️[了解如何创建决策规则](rules.md)
 
-1. **实施排名方法**：创建排名方法并在决策策略中应用这些方法以确定选择决策项的优先级顺序。
+1. **实施排名方法**：创建排名方法并在选择策略中应用它们以确定选择决策项的优先级顺序。
 
    ➡️[了解如何创建排名方法](ranking.md)
 
 1. **创建选择策略**：构建选择策略，该策略利用收藏集、决策规则和排名方法来识别适合显示到用户档案的决策项目。
 
-   ➡️[了解如何创建选择策略](selection-strategies.md) （[API文档](api-reference/selection-strategies/create.md)）
+   ➡️[了解如何在用户界面的用户界面](selection-strategies.md)（以及[API文档](api-reference/selection-strategies/create.md)）中创建选择策略
 
 1. **创建决策策略并将其嵌入基于代码的营销活动**：决策策略将多个选择策略相结合，以确定要向目标受众显示的合格决策项。
 
    ➡️[了解如何使用决策策略](create-decision.md)
-➡️要通过基于代码的渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作
+➡️要通过基于代码的体验渠道成功投放优惠，请按照[此部分](../code-based/code-based-implementation-samples.md)中的实施步骤操作。
+
+[此部分](experience-decisioning-uc.md)中介绍了一个完整的端到端用例，其中说明了如何在基于代码的体验中使用决策。

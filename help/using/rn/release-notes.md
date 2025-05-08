@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 46%
+source-wordcount: '985'
+ht-degree: 74%
 
 ---
 
@@ -17,12 +17,21 @@ ht-degree: 46%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="新增功能？"
+>title="新增功能"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2025年5月更新 {#25-5-rn}
+
+* **决策 — 新AI公式生成器** — 发布日期： 2025年5月7日
+
+  您现在可以在新改进的界面中定义和组合标准，从而创建特定的决策排名公式。利用排名公式，您可以定义规则来确定应首先显示哪个决策项，而不是考虑优先级分数。
+
+  有关详细信息，请参阅[详细文档](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
@@ -32,9 +41,9 @@ ht-degree: 46%
   >
   >该功能将在接下来的30天内逐步推广到所有环境。
 
-## 2025年4月发行说明 {#25-4-rn}
+## 2025 年 4 月发行说明 {#25-4-rn}
 
-**发行日期**： 2025年4月29日至30日
+**发布日期**：2025 年 4 月 29-30 日
 
 ### 新功能 {#25-04-features}
 
@@ -43,15 +52,15 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>Personalization编辑器 — 通过实践学习</strong><br/></th>
+<th><strong>个性化编辑器 - 通过实践学习</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>个性化游乐场现已可用，您可以在其中试验个性化表达式。 它允许您浏览示例模板和负载，以帮助您开始并尝试自己的个性化表达式。</p>
+<p>个性化操练场现已发布，您可以在其中试验个性化表达式。通过该功能，您可以浏览示例模板和负载，有助于您创建并尝试自己的个性化表达式。</p>
 <p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详细文档</a>。</p>
-<p>发布日期： 2025年4月24日</p>
+<p>发布日期：2025 年 4 月 24 日</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
 </td>
 </tr>
@@ -164,13 +173,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express集成（限量发布）</strong><br/></th>
+<th><strong>Adobe Express 集成（有限发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer现在与Adobe Express集成，使您能够将创意资源与journey orchestration无缝连接。 此集成简化了跨营销活动设计和部署个性化内容的过程。 </p>
+<p>Adobe Journey Optimizer 现在与 Adobe Express 集成，使您能够将创意资产与 Journey Orchestration 无缝连接。此集成简化了跨营销活动设计和部署个性化内容的流程。 </p>
 <p>此集成目前不适用于Healthcare Shield或Privacy and Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
@@ -182,13 +191,13 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>在批量分段完成后触发每日历程运行（限量发布）</strong><br/></th>
+<th><strong>在批量分段完成后触发每日历程运行（有限发布）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>对于每日计划的历程，新增选项可让您定义长达6小时的时间范围，以等待批次分段作业中的受众数据，确保历程使用最新数据运行或者如果未准备就绪则跳过。 批量受众评估后触发选项仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。</p>
+<p>对于每日计划的历程，新增选项可让您定义最长 6 小时的时间范围，以等待批量分段作业中的受众数据，确保使用最新数据运行历程或者如果未准备就绪则跳过历程。批量受众评估后触发选项仅面向一部分组织提供（有限发布）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
-<th><strong>品牌一致性分数(Beta)</strong><br/></th>
+<th><strong>品牌一致性得分 (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -264,11 +273,11 @@ ht-degree: 46%
 
   Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
-* 自定义操作的&#x200B;**沙盒工具**
+* **自定义操作的沙盒工具**
 
-  自定义操作现在包含在可以使用沙盒工具功能复制的Adobe Journey Optimizer对象列表中，从而简化测试和部署。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+  自定义操作现在包含在 Adobe Journey Optimizer 对象列表中，可以使用沙盒工具功能复制这些对象，从而简化测试和部署。[了解详情](../configuration/copy-objects-to-sandbox.md)
 
-* **营销活动的沙盒工具** — 可用日期： 2025年4月3日
+* **营销活动的沙盒工具** - 发布日期：2025 年 4 月 3 日
 
   您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。某些项目不会被复制，例如决策项目、数据使用标签和语言设置。[了解详情](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -276,9 +285,9 @@ ht-degree: 46%
 
 * **新的上下文属性**
 
-  新的上下文属性&#x200B;**消息配置文件ID**&#x200B;现在可以从个性化编辑器中选择。 这是一种消息导向属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。 例如，此唯一标识符可用作URL跟踪参数，以区分收件人打开或单击的每个链接。
+  现在可以从个性化编辑器中选择新的上下文属性&#x200B;**消息轮廓 ID**。这是一个消息导向的属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。例如，此唯一标识符可用作 URL 跟踪参数，以区分收件人打开或单击的每个链接。
 
-* **属性窗格中已填充的属性** — 可用日期： 2025年4月2日
+* **属性窗格中的已填充属性** - 发布日期：2025 年 4 月 2 日
 
   默认情况下，个性化编辑器中的属性窗格现在仅显示填充的属性。要查看所有属性，请使用“设置”按钮关闭&#x200B;**[!UICONTROL 仅显示填充属性]**&#x200B;选项。[了解详情](../personalization/personalization-build-expressions.md)
 

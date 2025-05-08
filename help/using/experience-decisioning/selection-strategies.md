@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 20%
@@ -19,14 +19,14 @@ ht-degree: 20%
 >id="ajo_exd_config_strategies"
 >title="定义您的选择策略"
 >abstract="选择策略是一个可重复的项，它由与资格约束和排名方法关联的集合组成，以确定在决策策略中选择时要显示的报价。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hans" text="创建决策策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="限制符合条件的轮廓"
 >abstract="可限制为此选择策略选择产品建议。默认情况下，所有轮廓都符合条件，但您可以使用受众或规则将产品建议选择限制为仅特定轮廓。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=zh-Hans" text="使用受众"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=zh-Hans" text="使用决策规则"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="使用受众"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="使用决策规则"
 
 选择策略可重复使用，并且包括与资格约束关联的集合以及确定在[决策策略](create-decision.md)中选择时显示的优惠的排名方法。
 
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="定义如何为产品建议排名"
 >abstract="如果多个产品建议符合给定选择策略的条件，请在创建选择策略时，选择将为每个轮廓选择最佳产品建议的方法：优先级或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hans" text="创建决策策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
 
@@ -108,7 +108,7 @@ ht-degree: 20%
 
 除了优惠优先级之外，Journey Optimizer还允许您创建&#x200B;**排名公式**。 这些公式决定应首先为给定投放位置显示哪项优惠，而不是考虑优惠的优先级评分。
 
-例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 在[本节](ranking.md)中了解如何创建排名公式。
+例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 在[本节](exd-ranking-formulas.md)中了解如何创建排名公式。
 
 创建后，您可以在选择策略中使用此公式。 使用此选择策略时，如果多个优惠都符合呈现的条件，决策将使用选定的公式计算首先要投放哪个优惠。
 

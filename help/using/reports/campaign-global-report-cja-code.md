@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,9 @@ ht-degree: 2%
 
 +++
 
-## 决策KPI {#decisioning-kpis}
+## 决策报告 {#decisioning-reporting}
+
+### 决策KPI {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 回退率]**：未限定选择策略的实例百分比，导致显示通用选项或不太具体的选项。
 
-## 参与漏斗 {#engagement-funnel}
+### 参与漏斗 {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,15 +107,15 @@ ht-degree: 2%
 
 * **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
 
-## 按点进率显示的热门决策项目 {#top-decision}
+### 按点进率显示的热门决策项目 {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
-按CTR **列出的**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+按CTR ]**列出的**[!UICONTROL &#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
-## 按选择策略划分的参与漏斗 {#engagement-funnel-selection}
+### 按选择策略划分的参与漏斗 {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
 
-## 决策项目绩效 {#decision-items-performance}
+### 决策项目绩效 {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 点击次数]**：用户点击向其显示的个性化体验的总次数。
 
-## 排名策略 {#ranking-strategy}
+### 排名策略 {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 转化率]**：导致用户操作（例如点击）的显示百分比，指示模型成功吸引用户。
 
-## 维持和模型驱动流量的转化率 {#conversion-rate}
+### 维持和模型驱动流量的转化率 {#conversion-rate}
 
 >[!NOTE]
 >
@@ -168,3 +170,7 @@ ht-degree: 2%
 * **模型驱动**：用户接收由AI模型排名的内容，该排名针对相关性和参与度进行了优化。
 
 * **维持**：用户在模型探索阶段收到随机提供的内容。
+
+>[!CAUTION]
+>
+>使用合并到[排名公式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)中的AI模型时，转化率报表中不会反映数据。
