@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登陆、登陆页面、子域、配置
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 19%
@@ -26,23 +26,23 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="委派登陆页面子域"
 >abstract="您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。您必须配置子域以用于登陆页面，因为您需要此子域才能创建登陆页面预设。 您可以使用已委派的子域来 Adobe 或配置新的子域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="创建登陆页面预设"
 >abstract="要想创建登陆页面预设，请确保您之前至少配置了一个登陆页面子域，可以从子域名称列表中选择。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hans#lp-create-preset" text="创建登陆页面预设"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="创建登陆页面预设"
 
-## Get started with landing page subdomains {#gs-lp-subdomains}
+## 登陆页面子域入门 {#gs-lp-subdomains}
 
-为能[创建登陆页面预设](lp-presets.md)，您必须设置将用于登陆页面的子域。
+要[创建登陆页面预设](lp-presets.md)，您必须设置将用于登陆页面的子域。
 
-您可以使用已委派给Adobe的子域，也可以配置另一个子域。 在[此部分](../configuration/delegate-subdomain.md)中了解有关将子域委托给Adobe的更多信息。
+您可以使用已委派给Adobe的子域，也可以配置其他子域。 在[本节](../configuration/delegate-subdomain.md)中了解有关将子域委派到Adobe的更多信息。
 
-登陆页面子域配置&#x200B;**对所有环境通用**。 因此：
+登陆页面子域配置是&#x200B;**所有环境通用的配置**。 因此：
 
-* 要访问和编辑登陆页面子域，您必须对生产沙箱具有&#x200B;**[!UICONTROL 管理登陆页面子域]**&#x200B;权限。
+* 要访问和编辑登陆页面子域，您必须对生产沙盒具有&#x200B;**[!UICONTROL 管理登陆页面子域]**&#x200B;权限。
 
 * 对登陆页面子域的任何修改也会影响生产沙箱。
 
@@ -72,11 +72,11 @@ ht-degree: 19%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   请注意，您不能使用同一父域的多个已委派子域。 例如，如果已经为您的登陆页面将“marketing1.yourcompany.com”委派给Adobe，则将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多层子域，您可以继续使用“marketing1.yourcompany.com”的子域（例如“email.marketing1.yourcompany.com”）或不同的父域。
+   请注意，您不能使用同一父域的多个已委派子域。 例如，如果已经为您的登陆页面将“marketing1.yourcompany.com”委派给Adobe，则将无法使用“marketing2.yourcompany.com”。 但是，登陆页面支持多级别子域，您可以继续使用“marketing1.yourcompany.com”的子域（如“email.marketing1.yourcompany.com”）或其他父域。
 
    >[!CAUTION]
    >
-   >如果您选择使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派给Adobe的域，则必须在您的托管平台上创建DNS记录。 要生成DNS记录，该过程与配置新登陆页面子域时的过程相同。 在[本节](#lp-configure-new-subdomain)中了解详情。
+   >如果您选择使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派给Adobe的域，则必须在您的托管平台上创建DNS记录。 要生成DNS记录，此过程与配置新登陆页面子域时的过程相同。 在[本节](#lp-configure-new-subdomain)中了解详情。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**。
 
@@ -84,9 +84,9 @@ ht-degree: 19%
 
    ![](assets/lp_subdomain-processing.png)
 
-   在能够使用该子域发送消息之前，您必须等待Adobe执行所需的检查，这可能需要&#x200B;**4小时**。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   在能够使用该子域发送邮件之前，您必须等待Adobe执行所需的检查，这可能需要&#x200B;**最多4个小时**。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. 检查成功后，子域将获得&#x200B;**[!UICONTROL 成功]**&#x200B;状态。 您已准备好使用它创建登陆页面预设。
+1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它可用于创建登陆页面预设。
 
 ## 配置新的子域 {#lp-configure-new-subdomain}
 
@@ -119,15 +119,15 @@ ht-degree: 19%
 
 1. 将显示要放置在DNS服务器上的记录。 复制此记录或下载CSV文件，然后导航到您的域托管解决方案以生成匹配的DNS记录。
 
-1. 确保已在您的域托管解决方案中生成DNS记录。 如果所有内容都正确配置，请选中“我确认……”复选框，然后单击“**[!UICONTROL 提交]**”。
+1. 确保已将DNS记录生成到域托管解决方案中。 如果一切配置正确，请选中“我确认……”框，然后单击&#x200B;**[!UICONTROL 提交]**。
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   配置新的登陆页面子域时，它始终指向CNAME记录。
+   配置新登陆页面子域时，它始终指向CNAME记录。
 
-1. 提交子域委派后，子域将在列表中显示为&#x200B;**[!UICONTROL 正在处理]**&#x200B;状态。 有关子域状态的详细信息，请参阅[此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)。<!--Same statuses?-->
+1. 提交子域委派后，子域将显示在状态为&#x200B;**[!UICONTROL 正在处理]**&#x200B;的列表中。 有关子域状态的详细信息，请参阅[此部分](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   在能够将该子域用于登陆页面之前，您必须等待Adobe执行所需的检查，这可能需要&#x200B;**4小时**。<!--Learn more in [this section](#subdomain-validation).-->
+   在能够将该子域用于登陆页面之前，您必须等待Adobe执行所需的检查，这可能需要&#x200B;**最多4个小时**。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. 检查成功后，子域将获得&#x200B;**[!UICONTROL Success]**&#x200B;状态。 它可用于创建登陆页面预设。
 
@@ -137,7 +137,7 @@ ht-degree: 19%
 
 如果要取消委派登陆页面子域，请联系您的Adobe代表。
 
-但是，在联系Adobe之前，您需要在用户界面中执行多个步骤。
+但是，在与Adobe联系之前，您需要在用户界面中执行多个步骤。
 
 >[!NOTE]
 >
@@ -157,9 +157,9 @@ ht-degree: 19%
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
 -->
 
-完成后，请联系您的Adobe代表，询问您要取消委派的子域。
+完成后，联系Adobe代表，告知您要取消委派的子域。
 
-在Adobe处理您的请求后，未委派的域不再显示在子域清单页面上。
+Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 
 >[!CAUTION]
 >
