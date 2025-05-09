@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 19%
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
-显示在当前沙盒上创建的所有片段 — 使用[另存为片段](#save-as-fragment)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单[&#128279;](#create-fragments)中创建的。
+显示在当前沙盒上创建的所有片段 — 使用[另存为片段](#save-as-fragment)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单](#create-fragments)中创建的[。
 
 利用左侧的窗格，可将片段整理到文件夹中。 默认情况下，将显示所有片段。 选择文件夹时，仅显示选定文件夹中包含的片段和文件夹。 [了解详情](#folders)
 
@@ -94,7 +94,7 @@ ht-degree: 19%
 
 1. 使用&#x200B;**[!UICONTROL 更多操作]**&#x200B;按钮，您还可以将片段移动到另一个现有文件夹。
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. 现在，您可以导航到之前创建的文件夹。 您[从此处](create-fragments.md)创建的每个新片段都保存到当前文件夹中。
 
