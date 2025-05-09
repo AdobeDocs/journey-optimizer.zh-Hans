@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 10%
+source-wordcount: '1777'
+ht-degree: 11%
 
 ---
 
@@ -246,6 +246,10 @@ ht-degree: 10%
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >将`dryRun`标志添加到请求中将会阻止捕获反馈以用于报表和频率计数器添加到中。
 
 1. 要查看决策的执行情况，您现在可以创建自定义[Customer Journey Analytics报告仪表板](cja-reporting.md)。
 
