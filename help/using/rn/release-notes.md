@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8c08461b82aea5680c3fa9631f5361b78daafe6
+source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 72%
+source-wordcount: '1022'
+ht-degree: 69%
 
 ---
 
@@ -24,18 +24,17 @@ ht-degree: 72%
 
 ## 2025年5月更新 {#25-5-rn}
 
+* 登陆页面的&#x200B;**文件夹** — 可用日期： 2025年5月9日
+
+  为了轻松管理您的登陆页面，您现在可以使用文件夹将它们更有效地组织到简化的层次结构中。  [了解详情](../landing-pages/manage-lp.md)
+
 * **决策 — 新AI公式生成器** — 发布日期： 2025年5月7日
 
-  您现在可以在新改进的界面中定义和组合标准，从而创建特定的决策排名公式。利用排名公式，您可以定义规则来确定应首先显示哪个决策项，而不是考虑优先级分数。
+  您现在可以在新改进的界面中定义和组合标准，从而创建特定的决策排名公式。您可以定义自定义排名公式，这些公式通过引导式界面将AI模型分数、选件优先级、配置文件属性、选件属性和上下文信号组合在一起，而不是仅依赖静态选件优先级。
 
   有关详细信息，请参阅[详细文档](../experience-decisioning/exd-ranking-formulas.md)
 
   ![](assets/do-not-localize/formula-builder.gif)
-
-
-* 登陆页面的&#x200B;**文件夹** — 可用日期： 2025年5月7日
-
-  为了轻松管理您的登陆页面，您现在还可以使用文件夹来将登陆页面更有效地组织到简化的层次结构中。  [了解详情](../landing-pages/manage-lp.md)
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
