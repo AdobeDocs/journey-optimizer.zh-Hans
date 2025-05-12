@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 69%
+source-wordcount: '955'
+ht-degree: 72%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 69%
 >title="新增功能"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025年5月更新 {#25-5-rn}
 
 * 登陆页面的&#x200B;**文件夹** — 可用日期： 2025年5月9日
 
   为了轻松管理您的登陆页面，您现在可以使用文件夹将它们更有效地组织到简化的层次结构中。  [了解详情](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
 
-* **决策 — 新AI公式生成器** — 发布日期： 2025年5月7日
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
 
-  您现在可以在新改进的界面中定义和组合标准，从而创建特定的决策排名公式。您可以定义自定义排名公式，这些公式通过引导式界面将AI模型分数、选件优先级、配置文件属性、选件属性和上下文信号组合在一起，而不是仅依赖静态选件优先级。
-
-  有关详细信息，请参阅[详细文档](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 

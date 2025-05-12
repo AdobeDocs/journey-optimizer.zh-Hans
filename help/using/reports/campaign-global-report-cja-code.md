@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 2%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-按CTR **列出的**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+按CTR ]**列出的**[!UICONTROL &#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
@@ -170,7 +170,7 @@ ht-degree: 2%
 * **模型驱动**：用户接收由AI模型排名的内容，该排名针对相关性和参与度进行了优化。
 
 * **维持**：用户在模型探索阶段收到随机提供的内容。
-
+<!--
 >[!CAUTION]
 >
->使用合并到[排名公式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)中的AI模型时，转化率报表中不会反映数据。
+>When using an AI model incorporated into a [ranking formula](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula), data are not reflected in the Conversion rate report.-->
