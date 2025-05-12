@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -19,22 +19,22 @@ ht-degree: 0%
 
 在基于代码的体验中使用Decisioning时，请考虑在下面所述的情况下向您的客户端实施添加以下标记。
 
-## 使用决策测试基于代码的体验
+## 使用决策测试基于代码的体验 {#code-based-test-decisions}
 
 目前，在使用决策的基于[代码的体验](create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。
 
 作为解决方法，您可以在发布营销活动后测试决策，方法是将`dryRun`标志添加到客户端实施中的XDM事件`data`块中：
 
     “
-    &lbrace;
-    ”数据“： &lbrace;
-    ”__adobe”： &lbrace;
-    &quot;ajo”： &lbrace;
+    {
+    ”数据“： {
+    ”__adobe”： {
+    &quot;ajo”： {
     &quot;dryRun”： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     “
 ”
 >[!CAUTION]
