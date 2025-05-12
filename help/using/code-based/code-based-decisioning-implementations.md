@@ -26,15 +26,15 @@ ht-degree: 0%
 作为解决方法，您可以在发布营销活动后测试决策，方法是将`dryRun`标志添加到客户端实施中的XDM事件`data`块中：
 
     “
-    {
-    ”数据“： {
-    ”__adobe”： {
-    &quot;ajo”： {
+    &lbrace;
+    ”数据“： &lbrace;
+    ”__adobe”： &lbrace;
+    &quot;ajo”： &lbrace;
     &quot;dryRun”： true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     “
 ”
 >[!CAUTION]
