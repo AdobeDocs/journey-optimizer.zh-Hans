@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 11%
+source-wordcount: '1718'
+ht-degree: 12%
 
 ---
 
@@ -223,34 +223,14 @@ ht-degree: 11%
 
 1. 单击&#x200B;**[!UICONTROL 保存并关闭]**&#x200B;以确认更改。
 
-## 测试和发布基于代码的体验 {#test-and-publish}
-
-请按照以下步骤完成基于代码的体验，并启用所做的更改。
-
 1. 查看并发布基于代码的体验营销活动或历程。 [了解如何操作](../code-based/publish-code-based.md)
 
    现在，一旦您的开发人员进行API或SDK调用以获取渠道配置中定义的表面的内容，更改就会应用于您的网页或应用程序。
 
-1. 目前，在使用决策的基于[代码的体验](../code-based/create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。
-
-   作为解决方法，您可以在发布营销活动后测试决策，方法是将`dryRun`标志添加到客户端实施中的XDM事件`data`块中：
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >将`dryRun`标志添加到请求中将会阻止捕获反馈以用于报表和频率计数器添加到中。
+   >目前，在使用决策的基于[代码的体验](../code-based/create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。 [此部分](../code-based/code-based-decisioning-implementations.md)中提供了解决方法。
 
-1. 要查看决策的执行情况，您现在可以创建自定义[Customer Journey Analytics报告仪表板](cja-reporting.md)。
+1. 要查看决策的执行情况，您可以创建自定义[Customer Journey Analytics报告仪表板](cja-reporting.md)。
 
 
