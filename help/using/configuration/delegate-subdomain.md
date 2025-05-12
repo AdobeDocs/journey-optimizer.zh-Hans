@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子域、委派、域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 229f335f4a5880bd310fe2d522ab6b3d3160d72b
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 21%
@@ -248,8 +248,8 @@ Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
 >   * 您无法重新激活使用该子域的渠道配置。
 >   * 您不能通过用户界面再次委派确切的子域。 如果您希望这样做，请联系您的Adobe代表。
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 了解如何使用 CNAME 创建子域以指向特定于 Adobe 的记录。
 
->[!VIDEO](https://video.tv.adobe.com/v/342228?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
