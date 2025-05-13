@@ -1,44 +1,65 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 开始使用编排的营销活动
+title: 编排的营销活动入门
 description: 了解如何从编排的活动开始
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 21%
 
 ---
 
-# 开始使用编排的营销活动 {#ms-camp}
+# 编排的营销活动入门 {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**目录**
++++目录
 
-* 配置： [配置编排的营销活动](gs-campaign-config.md)
-* 配置： [创建关系架构](ms-schemas.md)
-* 创建您的第一个编排的营销活动： [关键原则](gs-campaign-creation.md)
+欢迎
+
+* 编排的营销活动入门
+* [关键原则](gs-campaign-creation.md)
+* [创建协调营销活动的步骤](gs-campaign-steps.md)
+
+
+配置步骤
+
+* [创建相关架构](ms-schemas.md)
+
+创建步骤
+
 * [创建编排的营销活动](create-ms-campaign.md)
 * [配置营销活动设置](ms-campaign-settings.md)
-* [个性化您的消息](ms-personalization.md)
-* [生成查询](ms-query-modeler.md)
-* [测试和验证报文](ms-proofs.md)
 * [计划和开始您的营销活动](start-monitor-campaigns.md)
-* 活动： [开始使用活动](activities/about-activities.md)
+* [生成查询](ms-query-modeler.md)
+
+活动
+
+* [活动入门](activities/about-activities.md)
 * [编排活动](orchestrate-activities.md)
-* [And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [渠道操作](activities/channels.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - &lt;！—[测试](activities/test.md) —> [等待](activities/wait.md)
-* 监控： [报告](reporting-campaigns.md)
+* [并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [合并](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - <!--[Test](activities/test.md) --> [等待](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-编排的营销活动通过引入由品牌发起的强大批量营销活动功能来增强Adobe Journey Optimizer，使您能够通过高级分段策略规划和编排跨渠道营销活动。
+消息
+
+* [渠道操作](activities/channels.md)
+* [个性化您的消息](ms-personalization.md)
+* [测试和验证报文](ms-proofs.md)
+
+报告和监控
+
+* [报告](reporting-campaigns.md)
+
++++
+
 
 ## 什么是精心策划的营销活动？
+
+编排的营销活动通过引入由品牌发起的强大批量营销活动功能来增强Adobe Journey Optimizer，使您能够通过高级分段策略规划和编排跨渠道营销活动。
 
 跨渠道营销对于任何寻求有效接触客户的企业来说至关重要。Adobe Journey Optimizer提供了一个全面的图形环境，允许您设计复杂的流程，以帮助您轻松管理营销活动。 通过编排的营销活动，您可以编排所有流程和任务，提高营销活动各个方面的速度和规模，从创建区段、准备消息到投放。 此外，您可以通过一个易于使用的界面来使渠道同步，以进行营销活动编排。
 

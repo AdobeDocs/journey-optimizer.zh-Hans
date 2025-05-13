@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 86%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
 
 >[!TAB Adobe Express 集成]
 
-Adobe Journey Optimizer 现在与 Adobe Express 集成，您可以无缝地将创意资产与 Journey Orchestration 相连接。
+Adobe Journey Optimizer现在与Adobe Express集成，使您能够将创意资源与journey orchestration无缝连接。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI 助手]
 
-✨ 通过我们的 [AI 助手](../help/using/content-management/gs-generative.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其特性并充分了解其功能。
+✨使用我们的[AI Assistant](../help/using/content-management/gs-generative.md)实时功能预览体验亲身体验，旨在让您亲身体验其功能并充分了解其功能。
 
 [![了解详情](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

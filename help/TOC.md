@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d70ffcb1fb3469084dda302a4b29d22df7fe9ea
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '2374'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -174,33 +174,35 @@ ht-degree: 99%
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 编排的营销活动 {#orchestrated-campaigns}
    + [编排的营销活动入门](using/ms/gs-ms-campaigns.md)
-   + 配置 {#ms-config}
-      + [配置步骤](using/ms/gs-campaign-config.md)
+   + [关键原则](using/ms/gs-campaign-creation.md)
+   + [创建协调营销活动的步骤](using/ms/gs-campaign-steps.md)
+   + 配置步骤 {#ms-config}
       + [创建相关架构](using/ms/ms-schemas.md)
-   + 创建首个编排的营销活动 {#create-ms-campaign}
-      + [关键原则](using/ms/gs-campaign-creation.md)
+   + 创建步骤{#create-ms-campaign}
       + [创建编排的营销活动](using/ms/create-ms-campaign.md)
-      + [编排活动](using/ms/orchestrate-activities.md)
       + [配置营销活动设置](using/ms/ms-campaign-settings.md)
+      + [计划和开始您的营销活动](using/ms/start-monitor-campaigns.md)
       + [版本查询](using/ms/ms-query-modeler.md)
-      + [测试和验证消息](using/ms/ms-proofs.md)
-      + [计划和开始营销活动](using/ms/start-monitor-campaigns.md)
-      + [编排的营销活动报告](using/ms/reporting-campaigns.md)
-      + [管理个性化](using/ms/ms-personalization.md)
-   + 编排的营销活动 {#design-campaigns}
-      + [关于编排的营销活动](using/ms/activities/about-activities.md)
+   + 活动 {#design-campaigns}
+      + [活动入门](using/ms/activities/about-activities.md)
+      + [编排活动](using/ms/orchestrate-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [构建受众](using/ms/activities/build-audience.md)
       + [更改维度](using/ms/activities/change-dimension.md)
       + [合并](using/ms/activities/combine.md)
       + [重复数据删除](using/ms/activities/deduplication.md)
-      + [渠道操作](using/ms/activities/channels.md)
       + [扩充](using/ms/activities/enrichment.md)
       + [分叉](using/ms/activities/fork.md)
       + [协调](using/ms/activities/reconciliation.md)
       + [拆分](using/ms/activities/split.md)
       + [测试](using/ms/activities/test.md)
       + [等待](using/ms/activities/wait.md)
+   + 消息 {#messages}
+      + [渠道操作](using/ms/activities/channels.md)
+      + [个性化您的内容](using/ms/ms-personalization.md)
+      + [测试和验证消息](using/ms/ms-proofs.md)
+   + 报告和监控 {#report}
+      + [报告](using/ms/reporting-campaigns.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)

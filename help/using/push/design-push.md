@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 17%
+source-wordcount: '1361'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="个性化推送通知。"
->abstract="要撰写消息，请在“标题”和“正文”字段中输入内容。要包含个性化令牌，请打开个性化对话框。"
+>abstract="若要撰写邮件，请在&#x200B;**标题**&#x200B;和&#x200B;**正文**&#x200B;字段中输入内容。 要包含个性化令牌，请打开个性化对话框。"
 
 若要撰写邮件，请单击&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 正文]**&#x200B;字段。 使用个性化编辑器定义内容、个性化数据和添加动态内容。 在个性化编辑器中了解有关[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)的更多信息。
 
@@ -71,7 +71,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="添加按钮以供用户与推送通知进行交互。"
->abstract="通过此部分，可将行动号召按钮添加到消息。对于 iOS，指定通知类别标识符。对于 Android，可为每个按钮加入自定义文本和目标。"
+>abstract="从此部分，将call-to-action按钮添加到您的消息中。 对于Apple iOS，请指定通知类别标识符。 对于Google Android，您可以为每个按钮包含自定义文本和目标。"
 
 通过向推送内容添加按钮来创建可操作通知。
 
