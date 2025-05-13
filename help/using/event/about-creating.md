@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1679'
 ht-degree: 10%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 10%
 >id="ajo_journey_event_unitary"
 >title="单一事件"
 >abstract="事件配置让您可以定义 Journey Optimizer 将作为事件接收的信息。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。单一事件链接到特定轮廓。它们可以基于规则，也可以由系统生成。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="使用补充标识符"
+>abstract="补充标识符是辅助标识符，为执行历程提供额外的上下文。 要定义标识符，请选择要用作补充标识符的字段，然后选择要与其关联的命名空间。"
 
 单一事件链接到特定轮廓。它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件[本节](../event/about-events.md)的更多信息。
 
@@ -85,7 +90,7 @@ ht-degree: 10%
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
@@ -140,9 +145,9 @@ ht-degree: 10%
 
 ## 定义用户档案标识符 {#define-the-event-key}
 
-键是字段或字段组合，它是事件有效负载数据的一部分，允许系统识别与事件关联的人员。 例如，键可以是Experience CloudID、CRM ID或电子邮件地址。
+键是字段或字段组合，它是事件有效负载数据的一部分，允许系统识别与事件关联的人员。 例如，键可以是Experience Cloud ID、CRM ID或电子邮件地址。
 
-要使用Adobe实时客户资料数据库中存储的数据，事件键必须是您在[实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中定义为个人资料身份的信息。
+要使用存储在Adobe实时客户个人资料数据库中的数据，事件键必须是您在[实时客户个人资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}中定义为个人资料身份的信息。
 
 用户档案标识符允许系统在事件和个人用户档案之间执行协调。 如果选择具有主标识的架构，则将预填充&#x200B;**[!UICONTROL 配置文件标识符]**&#x200B;和&#x200B;**[!UICONTROL 标识类型]**&#x200B;字段。 如果未定义标识，则&#x200B;_identityMap > id_&#x200B;是主键。 然后，您必须选择一个标识类型，并使用&#x200B;_identityMap > id_&#x200B;自动预填该键。
 
