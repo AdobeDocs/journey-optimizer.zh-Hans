@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -18,8 +16,6 @@ ht-degree: 0%
 # 使用AI公式生成器 {#create-ranking-formulas}
 
 **排名公式**&#x200B;允许您定义规则，这些规则将确定应首先显示哪个选件，而不是考虑优先级分数。
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 要创建这些规则，**[!UICONTROL Adobe Journey Optimizer]**&#x200B;中的AI公式生成器在优惠的排名方面提供了更大的灵活性和控制力。 您现在可以定义自定义排名公式，这些公式通过引导式界面将AI模型分数、优惠优先级、配置文件属性、优惠属性和上下文信号组合在一起，而不是仅依赖静态优惠优先级。
 
@@ -84,8 +80,6 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. （可选）您可以指定其他元素以将标准的匹配条件细化为true。
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -118,7 +112,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ### 排名公式示例
 
-请参考下面的示例：<!--To be checked by PM-->
+请看下面的示例：
 
 ![](assets/ranking-formula-example.png){width="80%"}
 

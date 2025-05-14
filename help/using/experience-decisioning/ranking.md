@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 5%
@@ -37,8 +37,7 @@ ht-degree: 5%
 
    有关如何创建排名公式和AI模型的详细信息，请参阅决策管理文档：
 
-   <!--* [Ranking formulas](exd-ranking-formulas.md)-->
-   * [排名公式](../offers/ranking/create-ranking-formulas.md)
+   * [排名公式](exd-ranking-formulas.md)
    * [AI 模型](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -59,7 +58,7 @@ ht-degree: 5%
 
 默认情况下，个性化优化模型使用&#x200B;**优惠点击次数**&#x200B;作为优化量度。 如果您正在使用[!DNL Customer Journey Analytics]，[!DNL Decisioning]允许您利用自己的自定义量度来优化您的模型。
 
-为此，请访问个性化AI模型创建屏幕并展开&#x200B;**[!UICONTROL 转化事件]**&#x200B;下拉列表。 默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都会显示在列表中。 选择要优化模型的量度，然后照常完成AI模型创建。
+为此，请访问个性化AI模型创建屏幕并展开&#x200B;**[!UICONTROL 转化事件]**&#x200B;下拉列表。 默认[!DNL Customer Journey Analytics] [数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}中的所有量度都会显示在列表中。 选择要优化模型的量度，然后照常完成AI模型创建。
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -69,7 +68,7 @@ ht-degree: 5%
 >
 >虽然可以修改归因模型，但并非所有的归因模型都适合用于人工智能模型优化。 我们建议仔细选择与您的优化目标一致的归因模型，以确保模型准确性和性能。
 >
->有关可用归因模型及其使用指南的更多详细信息，请参阅[[!DNL Customer Journey Analytics] 文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+>有关可用归因模型及其使用指南的更多详细信息，请参阅[[!DNL Customer Journey Analytics] 文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
 +++
 
