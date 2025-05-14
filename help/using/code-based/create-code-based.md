@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 7658448ad902e2d2d2ef73ee7f71ea2cdda8d497
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 10%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >由于&#x200B;**基于代码的体验**&#x200B;是入站消息活动，因此它附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
+   >由于&#x200B;**基于代码的体验**&#x200B;是入站体验活动，因此它附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -79,7 +79,7 @@ ht-degree: 10%
 
 有关如何配置营销活动的详细信息，请参阅[此页面](../campaigns/get-started-with-campaigns.md)。
 
-➡️[在此视频中了解如何创建基于代码的体验营销活动](#video)
+➡️ [在此视频中了解如何创建基于代码的体验营销活动](#video)
 
 >[!ENDTABS]
 
@@ -119,8 +119,8 @@ ht-degree: 10%
 
 现在，一旦您的开发人员进行API或SDK调用以获取渠道配置中定义的表面的内容，更改就会应用于您的网页或应用程序。
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

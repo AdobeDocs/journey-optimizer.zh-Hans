@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，消息，推送，短信，电子邮件，应用程序内， Web，内容卡，基于代码的体验
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 18%
+source-wordcount: '496'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="内置渠道操作"
->abstract="Journey Optimizer 附带内置操作功能。您只需在历程中添加出站（电子邮件、短信（SMS/MMS）、推送）或入站（应用程序内、网页、基于代码的体验、信息卡）活动，并定义设置和内容。然后将在历程的上下文中执行和发送它。"
+>abstract="Journey Optimizer 附带内置操作功能。您只需将消息(电子邮件、短信(SMS/MMS)、推送)或入站体验（应用程序内、Web、基于代码的体验、内容卡片）活动添加到历程中，并定义设置和内容。 然后将在历程的上下文中执行和发送它。"
 
 [!DNL Journey Optimizer]具有内置渠道操作功能，用于发送消息：当用户档案进入此活动时，会向其发送消息。
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->* 每个入站消息活动都具有3天&#x200B;**等待**&#x200B;活动。 [了解详情](wait-activity.md#auto-wait-node)
+>* 每个入站体验活动都附带3天&#x200B;**等待**&#x200B;活动。 [了解详情](wait-activity.md#auto-wait-node)
 >
 >* 对于电子邮件和推送通知，您可以启用发送时间优化。 [了解详情](send-time-optimization.md)
 

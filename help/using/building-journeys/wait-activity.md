@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 等待，活动，历程，下一个，画布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 15%
 
 ### 多个等待活动 {#multiple-wait-activities}
 
-在历程中使用多个&#x200B;**等待**&#x200B;活动时，请注意，历程的[全局超时](journey-properties.md#global_timeout)为91天，这意味着用户档案始终在进入历程后91天内退出该历程。 在[此页面](journey-properties.md#global_timeout)上了解详情。
+在历程中使用多个&#x200B;**等待**&#x200B;活动时，请注意，历程的[全局超时](journey-properties.md#global_timeout)为91天，这意味着用户档案始终在进入历程后91天内退出该历程。 请参阅[此页面](journey-properties.md#global_timeout)以了解详情。
 
 仅当个人在历程中剩余的时间足以在91天历程超时之前完成等待持续时间时，个人才能进入&#x200B;**等待**&#x200B;活动。
 
 ### 等待并重新进入 {#wait-reentrance}
 
-不使用&#x200B;**等待**&#x200B;活动阻止重新进入的最佳实践。 请改用历程属性级别的&#x200B;**允许重入**&#x200B;选项。 在[此页面](../building-journeys/journey-properties.md#entrance)上了解详情。
+不使用&#x200B;**等待**&#x200B;活动阻止重新进入的最佳实践。 请改用历程属性级别的&#x200B;**允许重入**&#x200B;选项。 请参阅[此页面](../building-journeys/journey-properties.md#entrance)以了解详情。
 
 ### 等待和测试模式 {#wait-test-mode}
 
-在测试模式下，**[!UICONTROL 测试中的等待时间]**&#x200B;参数允许您定义每个&#x200B;**等待**&#x200B;活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 在[此页面](../building-journeys/testing-the-journey.md)上了解详情。
+在测试模式下，**[!UICONTROL 测试中的等待时间]**&#x200B;参数允许您定义每个&#x200B;**等待**&#x200B;活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)以了解详情。
 
 ### 等待和移动渠道 {#wait-mobile-channels}
 
@@ -100,4 +100,4 @@ Select the date for the execution of the next activity.
 >title="关于自动等待节点"
 >abstract="此活动后会自动添加一个&#x200B;**等待**&#x200B;活动。其设置为 3 天。您可以根据需要移除它或者对其进行配置。"
 
-每个入站消息活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 当用户档案到达历程终点时，入站消息会自动结束，因此我们假定您希望用户至少在3天内看到该消息。 您可以删除此&#x200B;**等待**&#x200B;活动，或者根据需要更改其配置。
+每个入站体验活动（应用程序内消息、基于代码的体验或卡片）都包含3天&#x200B;**等待**&#x200B;活动。 当用户档案到达历程终点时，入站消息会自动结束，因此我们假定您希望用户至少在3天内看到该消息。 您可以删除此&#x200B;**等待**&#x200B;活动，或者根据需要更改其配置。

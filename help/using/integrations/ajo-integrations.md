@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 621f9bcb32d108490e7674778ce40385938af18e
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '766'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 您可以使用 Customer Journey Analytics 对 Journey Optimizer 生成的数据执行高级分析。
 
-Journey Optimizer 将数据存储在 Adobe Experience Platform 中，借助 Customer Journey Analytics，可通过自动报告分发和自定义数据可视化，全面了解您的所有历程、活动和产品建议。
+Journey Optimizer将数据存储在Adobe Experience Platform中，借助Customer Journey Analytics，可通过自动报告分发和自定义数据可视化，全面了解您的所有历程、营销活动和选件。
 
 在 Journey Optimizer 中创建您的历程后，Customer Journey Analytics 可以从平台中摄取数据以生成报告，了解客户与您的历程每次交互的影响。
 
@@ -84,13 +84,13 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront 的更多信息。
+在Journey Optimizer文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront [的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 
 如果您使用第三方系统发送消息，或者如果您希望历程将 API 调用发送到第三方系统，请使用自定义操作连接到您的历程。例如，您可以通过自定义操作连接到以下系统：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
-自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。在[此页面](../building-journeys/about-journey-activities.md#action-activities)上了解详情。
+自定义操作是由技术用户定义并提供给营销人员的附加操作。配置完毕后，它们会显示在历程的左侧面板的&#x200B;**[!UICONTROL 操作]**&#x200B;类别中。请参阅[此页面](../building-journeys/about-journey-activities.md#action-activities)以了解详情。
 
 详细了解[自定义操作](../action/about-custom-action-configuration.md)。
 
