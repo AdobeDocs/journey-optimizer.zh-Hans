@@ -218,4 +218,4 @@ The following video is intended to support your understanding of the components 
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理](../../../offers/get-started/starting-offer-decisioning.md)上的[概述。
+通过遵循此API指南，您已使用[!DNL Decisions] API创建和交付选件。 有关详细信息，请参阅决策管理[&#128279;](../../../offers/get-started/starting-offer-decisioning.md)上的概述。
