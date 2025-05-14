@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 3%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 3%
 
 * 运行[!DNL Batch Decisioning] API，其中包含两个请求：
 
-   1. **批处理POST请求**，用于启动工作负载以批处理选件选择。
+   1. **批处理POST请求**，用于启动工作负载以批量处理选件选择。
 
    2. **批处理GET请求**&#x200B;以获取批处理工作负载状态。
 
 * 将数据集导出到消息投放供应商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hans) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 除了[决策管理API开发人员指南](../getting-started.md)中引用的标头之外，所有[!DNL Batch Decisioning]请求还都需要以下标头：
 
-* `Content-Type`： `application/json`
+* `Content-Type`: `application/json`
 * `x-request-id`：标识请求的唯一字符串。
 * `x-sandbox-name`：沙盒名称。
 
 ## 启动批处理 {#start-a-batch-process}
 
-要启动工作负载以批处理决策，请向`/workloads/decisions`端点发出POST请求。
+要启动工作负载以批量处理决策，请对`/workloads/decisions`端点发出POST请求。
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | 决策的唯一标识符。 |
 | `xdm:dataSetId` | 可写入决策事件的输出数据集。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | 如果要定位CSV受众，请添加此参数并将其设置为“true” | `true` |
 | `xdm:includeContent` | 这是可选字段，默认情况下为`false`。 如果`true`，则优惠内容包含在数据集的决策事件中。 | `false` |
 | `xdm:itemCount` | 这是一个可选字段，显示决策范围请求的选项等项目的数量。 默认情况下，API会为每个范围返回一个选项，但您可以通过指定此字段来明确要求提供更多选项。 每个范围可以请求至少1个和最多30个选项。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一投放位置标识符。 | `xcore:offer-placement:1410c4117306488a` |
@@ -180,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 后续步骤 {#next-steps}
 
-通过遵循此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理[&#128279;](../../get-started/starting-offer-decisioning.md)上的概述。
+通过遵循此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API检查工作负荷状态和已交付的选件。 有关详细信息，请参阅决策管理](../../get-started/starting-offer-decisioning.md)上的[概述。
