@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 13%
 
 ---
@@ -27,16 +27,16 @@ ht-degree: 13%
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️[了解如何在这些视频中管理、创作和使用片段](#video-fragments)
+➡️ [了解如何在这些视频中管理、创作和使用片段](#video-fragments)
 
 要充分利用片段，请执行以下操作：
 
-* **创建您自己的片段**：从头开始创建可视化或表达式片段，或者通过将内容另存为片段来创建可视化或表达式片段。 [了解如何创建片段](#create-fragments)。 此外，您还可以利用Journey Optimizer **Content REST API**&#x200B;管理内容片段。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
+* **创建您自己的片段**：从头开始创建可视化或表达式片段，或者通过将内容另存为片段来创建可视化或表达式片段。 [了解如何创建片段](create-fragments.md)。 此外，您还可以利用Journey Optimizer **Content REST API**&#x200B;管理内容片段。 有关详细信息，请参阅[Journey Optimizer API文档](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
 * **重复使用您的片段：**&#x200B;根据需要多次在内容中使用它们。 请参阅[添加可视化片段](../email/use-visual-fragments.md)和[利用表达式片段](../personalization/use-expression-fragments.md)
 
 ## 开始前 {#fragment-prerequisites}
 
-要创建、编辑、存档和发布片段，您需要具有&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[Publish片段]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
+要创建、编辑、存档和发布片段，您需要具有&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[发布片段]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，以下限制适用：
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 ![](assets/fragment-list.png)
 
-## 操作方法视频 {#video-fragments}
+## 操作说明视频 {#video-fragments}
 
 了解如何在[!DNL Journey Optimizer]中管理、创作和使用&#x200B;**可视化片段**。
 
@@ -62,4 +62,4 @@ ht-degree: 13%
 
 了解如何在[!DNL Journey Optimizer]中管理、创作和使用&#x200B;**表达式片段**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438928/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

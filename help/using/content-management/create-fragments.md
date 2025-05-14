@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 16%
+source-wordcount: '700'
+ht-degree: 14%
 
 ---
 
@@ -66,6 +66,14 @@ ht-degree: 16%
 * 对于可视化片段，请根据需要编辑您的内容，就像处理历程或营销活动中的任何电子邮件一样。 [了解详情](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  要快速应用符合您的品牌和设计的特定样式，您可以将[主题](../email/apply-email-themes.md)应用于片段。
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >片段在主题模式和经典模式之间不交叉兼容。 要在要应用主题的内容中使用片段，必须在主题模式下创建此片段。 [了解有关主题的更多信息](../email/apply-email-themes.md)
 
 * 对于表达式片段，利用[!DNL Journey Optimizer]个性化编辑器及其所有个性化和创作功能来构建片段内容。 [了解详情](../personalization/personalization-build-expressions.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '661'
 ht-degree: 16%
 
 ---
@@ -80,6 +80,10 @@ ht-degree: 16%
    ![](assets/content-template-back.png)
 
 此模板现在可以在[!DNL Journey Optimizer]中构建任何内容时使用。 [了解如何操作](#use-content-templates)
+
+>[!NOTE]
+>
+>创建电子邮件内容模板时，要快速应用符合您的品牌和设计的特定样式，可以将主题应用于内容。 [了解详情](../email/apply-email-themes.md)
 
 ## 将内容另存为内容模板 {#save-as-template}
 
