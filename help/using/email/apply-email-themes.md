@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 增强的电子邮件创作体验
 description: 了解如何使用可重用主题和模块简化电子邮件创建，确保活动中的设计一致性和效率。
-feature: Email Theme Management, Modules
-topic: Email Design
-role: Marketer
-level: Intermediate
+feature: Email Design
+topic: Content Management
+role: User
+level: Beginner, Intermediate
 keywords: 电子邮件主题，模块，可重用性，品牌一致性，电子邮件设计，自定义CSS，移动优化
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: d550765b378bfa2fdf0638da01c297792e0876ef
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
