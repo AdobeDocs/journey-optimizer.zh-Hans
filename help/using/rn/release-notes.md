@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1135'
 ht-degree: 65%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 65%
 >title="新增功能"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025年5月更新 {#25-5-rn}
 
@@ -318,9 +318,7 @@ ht-degree: 65%
 
 **用例行动手册**
 
-* **行动手册创作和共享（私人测试版）** — 您现在可以创建、管理和共享您自己的用例行动手册。 此功能当前仅作为专用测试版提供给一组组织。 要获得访问权限，请与 Adobe 代表联系。
-
-所有客户均作为公共测试版。 [了解详情](../start/playbooks.md)
+* **行动手册创作和共享（私人测试版）** — 您现在可以创建、管理和共享您自己的用例行动手册。 此功能当前仅作为专用测试版提供给一组组织。 要获取访问权限，请联系您的Adobe代表。 [了解详情](../start/playbooks.md)
 
 **导航**
 

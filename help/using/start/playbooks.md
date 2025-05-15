@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: 7bb46f33d877d0a1976e8d74b88a5cccb81c1d4e
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '499'
 ht-degree: 69%
 
 ---
@@ -51,14 +51,14 @@ ht-degree: 69%
 
 此外，您可以将战术手册资产导入其他沙盒中。假如您已设置自己的架构、字段和字段组，这样做可以使生成的资产与现有资产保持一致，并确保其与数据兼容。用例行动手册文档中详细介绍了这些步骤：[将行动手册生成的资源发布到其他沙盒](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=zh-Hans){target="_blank"}。
 
-## 创建您自己的行动手册(Beta) {#create}
+## 创建您自己的行动手册（私人测试版） {#create}
 
 >[!AVAILABILITY]
 >
->用例行动手册创建目前作为公共测试版提供给所有客户。
+>用例行动手册创建当前仅作为专用测试版提供给一组组织。 要获得访问权限，请与 Adobe 代表联系。
 
 除了利用预定义的行动手册之外，您还可以在Adobe Experience Platform中创建并共享您自己的行动手册。
 
 您可以使用AI帮助或手动输入定义元数据，关联技术资产（如架构、区段），并在不同IMS组织之间共享行动手册。
 
-有关如何创建和共享行动手册的更多信息，请参阅用例行动手册文档： [使用AI助手创作和共享您自己的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hans#sharing-playbooks-sandboxes){target="_blank"}。
+有关如何创建和共享行动手册的更多信息，请参阅用例行动手册文档： [使用AI助手创作和共享您自己的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"}。
