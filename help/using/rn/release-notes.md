@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 68%
+source-wordcount: '1011'
+ht-degree: 69%
 
 ---
 
@@ -20,29 +20,21 @@ ht-degree: 68%
 >title="新增功能"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025年5月更新 {#25-5-rn}
-
-* Designer (Beta)电子邮件中的&#x200B;**主题** — 发布日期： 2025年5月14日
-
-  您现在可以快速将预批准的样式主题应用于电子邮件内容，以确保所有电子邮件中的品牌一致性、加快活动创建流程并独立生成高质量电子邮件，同时减少对设计团队的依赖。 [了解详情](../email/apply-email-themes.md)
-
-  >[!AVAILABILITY]
-  >
-  >此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。
-
-  ![](assets/do-not-localize/themes.gif)
-
-* **决策 — 新AI公式生成器** — 发布日期： 2025年5月14日
-
-  您现在可以在新改进的界面中定义和组合标准，从而创建特定的决策排名公式。您可以定义自定义排名公式，这些公式通过引导式界面将AI模型分数、选件优先级、配置文件属性、选件属性和上下文信号组合在一起，而不是仅依赖静态选件优先级。 [了解详情](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
 
 * 登陆页面的&#x200B;**文件夹** — 可用日期： 2025年5月9日
 
   为了轻松管理您的登陆页面，您现在可以使用文件夹将它们更有效地组织到简化的层次结构中。  [了解详情](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
+
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
@@ -51,6 +43,10 @@ ht-degree: 68%
   >[!AVAILABILITY]
   >
   >该功能将在接下来的30天内逐步推广到所有环境。
+
+* **沙盒副本的新营销活动对象支持** <!-- - Availability date: -->
+
+  使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。 [了解详情](../configuration/copy-objects-to-sandbox.md)
 
 ## 2025 年 4 月发行说明 {#25-4-rn}
 
@@ -314,7 +310,9 @@ ht-degree: 68%
 
 **用例行动手册**
 
-* **行动手册创作和共享(Beta)** — 您现在可以创建、管理和共享您自己的用例行动手册。 此功能目前以公共测试版的形式向所有客户提供。 [了解详情](../start/playbooks.md)
+* **行动手册创作和共享（私人测试版）** — 您现在可以创建、管理和共享您自己的用例行动手册。 此功能当前仅作为专用测试版提供给一组组织。 要获得访问权限，请与 Adobe 代表联系。
+
+所有客户均作为公共测试版。 [了解详情](../start/playbooks.md)
 
 **导航**
 
