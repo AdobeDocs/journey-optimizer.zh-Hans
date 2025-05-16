@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1375'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans)。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 ### 历程 {#journeys}
 
-* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects)。
+* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
@@ -81,6 +81,18 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 * 导出内容模板有时会导致片段重复。 例如，如果两个模板共享同一片段并在不同的包中复制，则两个模板都需要在目标沙盒中重用同一片段。 为避免重复，请在导入过程中选择“使用现有”选项。 [了解如何导入包](#import)
 
 * 为进一步避免重复，建议导出单个包中的内容模板。 这可确保系统高效地管理重复数据删除。
+
+### 决策 {#decisioning}
+
+* 在复制决策对象之前，以下对象必须存在于目标沙盒中：
+
+   * 在决策对象间使用的配置文件属性，
+   * 自定义选件属性的字段组，
+   * 用于跨规则、排名或上限的上下文属性的数据流架构。
+
+* 当前不支持使用AI模型排名公式的沙盒复制。
+
+* 在复制决策实体时，请确保在&#x200B;**之前复制决策项**&#x200B;任何其他对象。 例如，如果您先复制一个收藏集，而新沙盒中没有选件，则该新收藏集将保留为空。
 
 ### 片段 {#fragments}
 

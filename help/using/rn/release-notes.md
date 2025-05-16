@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 65%
+source-wordcount: '1157'
+ht-degree: 64%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 65%
 >title="新增功能"
 >abstract="**Adobe Journey Optimizer** 不断地提供新功能、对现有功能的增强和错误修复。会在每月的最后一周将所有更改整合到发行说明中。"
 
-[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
+[!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}中进一步了解这些更改。
 
 ## 2025年5月更新 {#25-5-rn}
 
@@ -52,9 +52,15 @@ ht-degree: 65%
   >
   >该功能将在接下来的30天内逐步推广到所有环境。
 
-* **沙盒副本支持新Campaign对象** — 可用日期： 2025年5月15日
+* **新对象支持沙盒副本**
 
-  使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+   * **营销活动** — 发布日期：2025年5月15日
+
+     使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+
+   * **决策** — 发布日期：2025年5月16日
+
+     现在可以在沙盒之间复制决策对象，从而简化测试和部署工作流。 [了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## 2025 年 4 月发行说明 {#25-4-rn}
 
@@ -283,10 +289,6 @@ ht-degree: 65%
 除了现有的验证发送功能外，还可通过新API预览营销活动。 [了解更多信息](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
 
 **沙盒工具**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **自定义操作的沙盒工具**
 
