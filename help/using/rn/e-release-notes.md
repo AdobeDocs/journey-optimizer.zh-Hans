@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7347adf8b40942408042c8b09572beed67425899
+source-git-commit: d069fb775cc8cf561c5d7b9ef87b9c8d9f5ba0e7
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 23%
@@ -206,8 +206,8 @@ ht-degree: 23%
 <tr>
 <td>
 <p>Journey Optimizer现在允许您在默认选项之外配置其他短信提供商：Sinch、Infobip和Twilio。 通过自定义短信提供商配置，您可以直接集成第三方提供商，利用动态消息传递的高级有效负荷自定义，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
-<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p></td>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
+<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p></td>
 </td>
 </tr>
 </tbody>
