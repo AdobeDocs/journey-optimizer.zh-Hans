@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3f22c2cd744cb9016f48a5df46c0c903ccce617d
+source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 24%
+source-wordcount: '1554'
+ht-degree: 22%
 
 ---
 
@@ -229,6 +229,24 @@ ht-degree: 24%
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>事件触发的历程的补充ID</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用用户档案ID以及其他标识符（如订单ID、订阅ID或处方ID）触发历程，从而允许同一用户档案同时多次处于同一历程中。 这支持类似同时管理多个订单或订阅这样的场景，其中每个实例都遵循其自身的历程路径。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ### 改进 {#25-05-improv}
 
 下面列出了此版本中的改进。
@@ -250,12 +268,11 @@ ht-degree: 24%
 * **决策 — 利用Adobe Experience Platform数据集**\
   Journey Optimizer现在允许您在以下Decisioning对象中利用Adobe Experience Platform数据集：资格规则、排名公式和上限规则。
 
-* 模板和片段中的&#x200B;**文件夹（正式发布）**\
-  文件夹以前面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)，以便管理其内容模板和片段。通过文件夹，您可以更轻松、更高效地将内容模板和片段组织到结构化层级中。
+* 模板和片段中的&#x200B;**文件夹**\
+  通过文件夹，您可以更轻松、更有效地将内容模板和片段组织到结构化层次结构中。 以前，文件夹可用于一组组织(LA)，现在所有用户(GA)都可以管理其内容模板和片段。
 
 * **沙盒副本的新营销活动对象支持** <!-- - Availability date: -->
-
-  使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。 [了解详情](../configuration/copy-objects-to-sandbox.md)
+使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。 [了解详情](../configuration/copy-objects-to-sandbox.md)
 
 * Web渠道中支持&#x200B;**“重定向到URL”**\
   现在，通过Journey Optimizer Web渠道可将访客重定向到另一个现有URL，而不是在可视编辑器中创作新的变体。 此功能可用于运行比较两个完全不同的页面的实验，而不是只更改页面中的几个元素。
@@ -272,11 +289,12 @@ ht-degree: 24%
 * **决策规则的决策项属性支持**\
   您现在可以利用决策项目属性来创建决策规则。
 
-* **多个历程重新进入**\
-  您现在可以使用用户档案ID以及其他标识符（如订单ID、订阅ID或处方ID）触发历程，从而允许同一用户档案同时多次处于同一历程中。 这支持类似同时管理多个订单或订阅这样的场景，其中每个实例都遵循其自身的历程路径。
 
 * **子域 — “无委派”方法**\
   除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：无委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。
 
 * 在Personalization中&#x200B;**支持自定义数据源**\
   您现在可以构建查询并从外部源(即，未存储在Adobe Experience Platform中)获取数据，以在Journey Optimizer的入站和出站表面中使用它们进行个性化和历程编排。
+
+* **直邮 — SSH支持**\
+  除了具有密码身份验证类型的现有SFTP之外，您现在还可以将直邮文件导出到具有SSH密钥身份验证的SFTP服务器。
