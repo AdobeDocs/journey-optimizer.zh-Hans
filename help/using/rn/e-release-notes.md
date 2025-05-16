@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 22%
+source-wordcount: '1513'
+ht-degree: 23%
 
 ---
 
@@ -292,9 +292,6 @@ ht-degree: 22%
 
 * **子域 — “无委派”方法**\
   除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：无委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。
-
-* 在Personalization中&#x200B;**支持自定义数据源**\
-  您现在可以构建查询并从外部源(即，未存储在Adobe Experience Platform中)获取数据，以在Journey Optimizer的入站和出站表面中使用它们进行个性化和历程编排。
 
 * **直邮 — SSH支持**\
   除了具有密码身份验证类型的现有SFTP之外，您现在还可以将直邮文件导出到具有SSH密钥身份验证的SFTP服务器。
