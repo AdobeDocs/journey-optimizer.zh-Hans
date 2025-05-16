@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
+source-git-commit: 7347adf8b40942408042c8b09572beed67425899
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1485'
 ht-degree: 23%
 
 ---
@@ -216,22 +216,6 @@ ht-degree: 23%
 <table>
 <thead>
 <tr>
-<th><strong>历程中的内容决策</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以通过历程画布中的专用决策操作将选件添加到历程，并在自定义操作中使用它们。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th><strong>事件触发的历程的补充ID</strong><br/></th>
 </tr>
 </thead>
@@ -290,8 +274,8 @@ ht-degree: 23%
   您现在可以利用决策项目属性来创建决策规则。
 
 
-* **子域 — “无委派”方法**\
-  除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：无委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。
+* **子域 — “自定义委派”方法**\
+  除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：自定义委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。
 
 * **直邮 — SSH支持**\
   除了具有密码身份验证类型的现有SFTP之外，您现在还可以将直邮文件导出到具有SSH密钥身份验证的SFTP服务器。
