@@ -43,7 +43,7 @@ ht-degree: 15%
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 [此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
 
@@ -63,7 +63,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >此外，您还可以定位使用从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或[创建的Adobe Experience Platform受众。
+   >此外，您还可以定位使用从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或创建的Adobe Experience Platform受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -172,7 +172,7 @@ ht-degree: 15%
 
 +++
 
-+++在批量受众评估后触发&#x200B;****（可用性限制）
++++在批量受众评估后触发&#x200B;**&#x200B;**（可用性限制）
 
 >[!AVAILABILITY]
 >
@@ -184,7 +184,7 @@ ht-degree: 15%
 
 增量读取历程的&#x200B;**回顾期**
 
-当选择批量受众评估&#x200B;]**后的**[!UICONTROL &#x200B;触发器时，[!DNL Journey Optimizer]将查找新的受众评估。 对于回顾期间的起点，系统使用上一次成功执行历程的时间，即使该时间发生在24小时之前。 这对于增量读取旅程（通常具有24小时的回溯时段）非常重要。
+当选择批量受众评估&#x200B;**后的**&#x200B;触发器时，[!DNL Journey Optimizer]将查找新的受众评估。 对于回顾期间的起点，系统使用上一次成功执行历程的时间，即使该时间发生在24小时之前。 这对于增量读取旅程（通常具有24小时的回溯时段）非常重要。
 
 每日增量读取历程示例：
 
