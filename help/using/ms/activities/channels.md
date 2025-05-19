@@ -50,7 +50,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="推送 Android 活动"
->abstract="推送 Android 活动让您可以作为多步骤营销活动的一部分发送 Android 推送通知。可一次性和重复传送消息，自动将 Android 推送通知发送到同一多步骤营销活动中的预定义目标。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>abstract="推送 Android 活动让您可以作为多步骤营销活动的一部分发送 Android 推送通知。可一次性和重复投放，自动将 Android 推送通知发送到同一多步骤营销活动中的预定义目标。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"

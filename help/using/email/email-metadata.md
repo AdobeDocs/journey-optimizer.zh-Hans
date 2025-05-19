@@ -12,7 +12,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="定义预标题"
+>title="定义邮件引文"
 >abstract="邮件引文是简短的摘要文本，在从电子邮件客户端查看电子邮件时，这段内容显示在主题行之后。在许多情况下，它提供了电子邮件的简短摘要，通常只有一个句子。"
 
 在设计电子邮件时，为了提高可读性和可访问性，您可以为内容定义其他元属性。 [!DNL Journey Optimizer] [电子邮件Designer](get-started-email-design.md)允许您指定以下元素：

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '462'
 ht-degree: 31%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
->title="关于产品建议集合"
->abstract="借助产品建议集合，可通过将产品建议重新分组为所选的类别而整理您的产品建议。"
+>title="关于优惠收藏集"
+>abstract="借助优惠收藏集，可通过将产品建议重新分组为所选的类别而整理您的产品建议。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_collection_dynamic"
@@ -42,7 +42,7 @@ ht-degree: 31%
 
 收藏集允许您通过将优惠重组到您选择的类别来整理优惠。 例如，您可以创建一个“sport”收藏集，其中仅包含与体育相关的选件。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 可在&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单中访问优惠收藏集列表。
 
@@ -86,8 +86,8 @@ ht-degree: 31%
 
    ![](../assets/collection_created.png)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346685?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 决策是优惠的容器，它们将利用优惠决策引擎，以便根据投放目标来选择应投放的最合适的优惠。
 
-➡️[在此视频中了解如何创建优惠活动](#video)
+➡️ [在此视频中了解如何创建优惠活动](#video)
 
 可在&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单>**[!UICONTROL 决策]**&#x200B;选项卡中访问决策列表。 过滤器可帮助您根据其状态或开始和结束日期检索决策。
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 在创建决策之前，请确保已在优惠库中创建了以下组件：
 
 * [放置环境](../offer-library/creating-placements.md)
-* [集合](../offer-library/creating-collections.md)
+* [收藏集](../offer-library/creating-collections.md)
 * [个性化产品建议](../offer-library/creating-personalized-offers.md)
 * [后备产品建议](../offer-library/creating-fallback-offers.md)
 
@@ -52,17 +52,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="决策范围"
->abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。这是通过选择一个放置环境以及与该放置环境相关的评估标准来完成的。"
+>abstract="为产品建议决策配置一个或多个范围来确定要显示的产品建议。这是通过选择一个投放位置以及与该投放位置相关的评估标准来完成的。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="投放"
->abstract="选择将提供产品建议的放置环境。"
+>abstract="选择将提供产品建议的投放位置。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="评估标准"
->abstract="评估标准包括与资格约束相关的产品建议集合，以及确定要在放置环境显示的产品建议的排名方法。评估标准的顺序决定首先评估哪个集合。至少需要一个评估标准。"
+>abstract="评估标准包括与资格约束相关的优惠收藏集，以及确定要在投放位置显示的产品建议的排名方法。评估标准的序列决定首先评估哪个集合。至少需要一个评估标准。"
 
 1. 从下拉列表中选择一个版面。 它将被添加到您决策中的第一个决策范围。
 
@@ -304,14 +304,14 @@ ht-degree: 8%
 
 +++
 
-## 添加后备产品建议 {#add-fallback}
+## 添加后备优惠 {#add-fallback}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="添加后备产品建议"
->abstract="在定义决策范围后，就要确定一个后备产品建议，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。"
+>title="添加后备优惠"
+>abstract="在定义决策范围后，就要确定一个后备优惠，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。"
 
-在定义决策范围后，就要确定一个后备产品建议，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。
+在定义决策范围后，就要确定一个后备优惠，作为对那些不符合产品建议合格规则和约束的客户使用的最后方案。
 
 为此，请从决策中定义的版面的可用后备优惠列表中选择该优惠，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
@@ -396,10 +396,10 @@ ht-degree: 8%
 
 ![](../assets/decision_information.png)
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

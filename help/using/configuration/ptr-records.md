@@ -21,7 +21,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="子域的 PTR 记录"
->abstract="指针记录 (PTR) 是一种 DNS 记录，它提供链接到 IP 地址的域名，帮助接收邮件服务器验证发件人的 IP 地址。您只有在与送达率专家进行讨论并充分考虑后，才能编辑 PTR 记录。"
+>abstract="指针记录 (PTR) 是一种 DNS 记录，它提供链接到 IP 地址的域名，帮助接收邮件服务器验证发件人的 IP 地址。您只有在与供应能力专家进行讨论并充分考虑后，才能编辑 PTR 记录。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"

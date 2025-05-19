@@ -7,8 +7,8 @@ badge: label="有限发布版"
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 0a6fa748aca04f544954089d2dfdd8e9a3afdd97
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 24%
+source-wordcount: '943'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 >[!AVAILABILITY]
 >
->冲突和优先级划分功能目前以有限可用性提供给选定的客户组。 请注意，未来将会逐步面向更多用户推出这些功能。如果有兴趣加入这些功能的试用候选名单，请联系您的客户团队。
+>冲突和优先级功能目前面向部分客户有限发布。请注意，未来将会逐步面向更多用户推出这些功能。如果有兴趣加入这些功能的试用候选名单，请联系您的客户团队。
 
 历程上限可帮助您限制配置文件可注册的历程数，防止通信过载。 在Journey Optimizer中，您可以设置两种类型的上限规则：
 
@@ -29,9 +29,9 @@ ht-degree: 24%
 >
 >**历程**&#x200B;域规则集仅对有限的用户集可用（有限可用性）。 要获得访问权限，请与 Adobe 代表联系。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
-## 创建历程频率上限规则 {#create-rule}
+## 创建历程频次封顶规则 {#create-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
@@ -41,7 +41,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
 >title="规则类型"
->abstract="指定规则的频率上限类型。**[!UICONTROL 历程入口上限]**&#x200B;限制轮廓在给定时间段内进入历程的次数，同时&#x200B;**[!UICONTROL 历程并发上限]**&#x200B;限制了一个轮廓可以同时注册的行程数量。"
+>abstract="指定规则的频次封顶类型。**[!UICONTROL 历程入口上限]**&#x200B;限制轮廓在给定时间段内进入历程的次数，同时&#x200B;**[!UICONTROL 历程并发上限]**&#x200B;限制了一个轮廓可以同时注册的行程数量。"
 
 要创建历程上限规则，请执行以下步骤：
 
@@ -89,7 +89,7 @@ ht-degree: 24%
      >
      >在本例中，如果营销人员已输入4个历程，并且本月有另一个具有较高优先级的计划历程，则将禁止客户进入较低优先级的历程。
 
-     +++
++++
 
      +++配置历程并发上限规则
 
@@ -101,7 +101,7 @@ ht-degree: 24%
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-     +++
++++
 
 1. 当上限规则准备好应用于历程时，单击其名称旁边的省略号按钮以激活它。
 
@@ -111,7 +111,7 @@ ht-degree: 24%
 
    ![](assets/journey-capping-activate-rule-set.png)
 
-## 将频率上限规则应用于历程 {#apply-capping}
+## 将频次封顶规则应用于历程 {#apply-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
@@ -130,6 +130,6 @@ ht-degree: 24%
 
 ![](assets/journey-report.png)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447625?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

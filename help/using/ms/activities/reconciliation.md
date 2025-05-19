@@ -49,25 +49,25 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
->title="目标市场选择维度"
->abstract="选择新的目标市场选择维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的目标市场选择维度。"
+>title="定位维度"
+>abstract="选择新的定位维度。通过维度可以定义目标群体：收件人、应用程序订阅者、运营商、订阅者等。默认情况下会选择当前的定位维度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="协调规则"
->abstract="选择用于重复数据删除的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
+>abstract="选择用于删除重复项的协调规则。若要使用属性，请选择&#x200B;**简单属性**&#x200B;选项，然后选择源字段和目标字段。若要使用查询建模器创建您自己的协调条件，请选择&#x200B;**高级协调条件**&#x200B;选项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/query-database/query-modeler-overview" text="使用查询建模器"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
->title="选择目标市场选择维度"
->abstract="选择要协调的入站数据的目标市场选择维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="目标市场选择维度"
+>title="选择定位维度"
+>abstract="选择要协调的入站数据的定位维度。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
 >title="保留未协调数据"
->abstract="默认情况下，未调节的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
+>abstract="默认情况下，未协调的数据保留在出站过渡中，并可在工作表中使用。要删除未协调的数据，请停用&#x200B;**保留未协调的数据**&#x200B;选项。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_attribute"
@@ -78,7 +78,7 @@ ht-degree: 44%
 
 1. 将&#x200B;**协调**&#x200B;活动添加到您的编排的活动中。
 
-1. 选择新的目标市场选择维度。通过维度，您可以定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。
+1. 选择新的定位维度。通过维度，您可以定义目标群体：收件人、应用程序订阅者、操作员、订阅者等。
 
 1. 选择要用于协调的字段。 您可以使用一个或多个协调标准。
 

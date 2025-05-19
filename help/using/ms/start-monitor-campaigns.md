@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: cc89e09df989ad4bdfe1ecb855bc2a6eedea9676
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="调度程序活动"
->abstract="您可以使用营销活动&#x200B;**调度程序**&#x200B;来安排精心策划的营销活动何时开始。应将此活动视为已安排的一次开始。只能将它用作协同营销活动的第一个活动。"
+>abstract="您可以使用营销活动&#x200B;**调度程序**&#x200B;来计划精心策划的营销活动何时开始。应将此活动视为已计划的一次开始。只能将它用作协同营销活动的第一个活动。"
 
 作为营销活动经理，您可以将营销活动计划为在特定时间自动启动，从而为营销通信提供精确的时间和准确的定位数据。
 
@@ -130,7 +130,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="日志和任务"
->abstract="**日志和任务**&#x200B;屏幕提供了编排的活动执行的历史记录，记录了所有用户操作和遇到的错误。"
+>abstract="**日志和任务**&#x200B;屏幕提供了精心策划的营销活动执行的历史记录，记录了所有用户操作和遇到的错误。"
 
 监测日志和任务是分析编排的营销活动并确保其正常运行的关键步骤。 可从操作工具栏中提供的&#x200B;**[!UICONTROL 日志]**&#x200B;图标以及每个活动的属性窗格中访问它们。
 

@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # 编辑 Web 内容 {#edit-web-content}
 
-将Web体验[&#128279;](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。
+将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
 
 [在此视频中了解如何创作Web营销活动](#video)
 
@@ -180,8 +180,8 @@ ht-degree: 16%
 >
 >当前，[!DNL Journey Optimizer]不支持特定于设备大小的页面更改。 这意味着，例如，如果您具有一个单独的移动网站并具有单独的网站结构，则您应该针对不同营销活动中的移动网站进行更改。
 
-## 操作方法视频{#video}
+## 操作说明视频{#video}
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

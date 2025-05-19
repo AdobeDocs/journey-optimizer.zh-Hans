@@ -21,7 +21,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
 >title="Adobe Express 集成"
->abstract="通过 Adobe Express 集成开始个性化您的资产。此功能允许您调整图像大小、移除背景、裁剪视觉效果以及将资产转换为 JPEG 或 PNG。"
+>abstract="通过 Adobe Express 集成开始个性化您的资产。此功能允许您调整图像大小、移除背景、裁切视觉效果以及将资产转换为 JPEG 或 PNG。"
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 +++用户可用的使用案例以及Adobe Express的企业许可证
 
-* [删除背景](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/remove-background.html)
-* [删除对象](https://helpx.adobe.com/cn/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [擦除](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/eraser.html)
-* [插入对象](https://helpx.adobe.com/cn/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [裁切](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [效果](https://helpx.adobe.com/cn/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [删除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [删除对象](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [擦除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [插入对象](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 

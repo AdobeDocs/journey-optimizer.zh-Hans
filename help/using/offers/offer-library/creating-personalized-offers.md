@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 18%
 * 如果要添加资格条件： **决策规则**，该规则将定义优惠的呈现条件。 请参阅[创建决策规则](../offer-library/creating-decision-rules.md)。
 * 要与优惠关联的一个或多个&#x200B;**收藏集限定符**（以前称为“标记”）。 请参阅[创建集合限定符](../offer-library/creating-tags.md)。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 可在&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单中访问个性化优惠列表。
 
@@ -46,13 +46,13 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
->title="个性化产品建议"
->abstract="个性化产品建议是基于合格规则和约束的可定制消息。"
+>title="个性化优惠"
+>abstract="个性化优惠是基于合格规则和约束的可定制消息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="备用产品建议"
->abstract="后备产品建议是当最终用户没有资格获得任何个性化产品建议时显示的默认产品建议。"
+>abstract="后备优惠是当最终用户没有资格获得任何个性化优惠时显示的默认产品建议。"
 
 要创建&#x200B;**选件**，请执行以下步骤：
 
@@ -171,4 +171,4 @@ ht-degree: 18%
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341341?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

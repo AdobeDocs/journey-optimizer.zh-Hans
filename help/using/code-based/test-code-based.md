@@ -53,12 +53,12 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_web"
 >title="在设备上预览基于代码的 Web 体验"
->abstract="扫描二维码或复制链接以在设备上预览。"
+>abstract="扫描 QR 代码或复制链接以在设备上预览。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
 >title="在移动设备上预览基于代码的体验"
->abstract="扫描二维码或复制链接以在设备上预览。连接后，在设备上输入 PIN 码。每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
+>abstract="扫描 QR 代码或复制链接以在设备上预览。连接后，在设备上输入 PIN 码。每次更新预览链接时，您可能需要重新启动应用程序才能看到更改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
@@ -95,7 +95,7 @@ ht-degree: 24%
 
    * 选择&#x200B;**[!UICONTROL 复制链接]**&#x200B;按钮并与您的团队和利益相关者共享该链接，这些利益相关者可以在更改生效之前在任何移动设备浏览器中预览新体验。
 
-   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
+   * 使用移动设备扫描二维码以直接在移动设备应用程序中打开预览链接。 您必须在设备上输入PIN才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}会话。
 
      >[!NOTE]
      >

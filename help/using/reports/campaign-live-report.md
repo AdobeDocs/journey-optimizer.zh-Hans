@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="营销活动实时报告"
->abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。报告分为不同的小组件，详细说明您营销活动中的成功和错误。可通过调整小组件大小或删除小组件而修改每个报告仪表板。"
+>abstract="使用营销活动实时报告，您可以实时衡量和可视化营销活动的影响和绩效（仅限过去 24 小时）。报告分为不同的构件，详细说明您营销活动中的成功和错误。可通过调整构件大小或删除构件而修改每个报告仪表板。"
 
 实时报告可从“最近24小时”选项卡访问，它显示过去24小时内发生的事件，最小时间间隔为距事件发生两分钟。 相比之下，Customer Journey Analytics报表重点关注至少两小时前发生的事件，并涵盖选定时间段内的事件。
 
@@ -196,7 +196,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_email_live_error.png)
 
-**[!UICONTROL 错误原因]**&#x200B;图形和表提供对过去24小时内发送过程中发生的特定错误的洞察。 此信息对于了解错误的性质和频率非常有用。
+**[!UICONTROL 错误原因]**&#x200B;图形和表为过去24小时内发送过程中发生的特定错误提供了insight。 此信息对于了解错误的性质和频率非常有用。
 
 ### 排除的原因 {#email-exclude-reasons}
 
@@ -249,7 +249,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="应用程序内性能"
->abstract="“应用程序内性能”KPI 提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
+>abstract="“应用程序内性能”关键绩效指标提供有关过去 24 小时内访客与应用程序内消息的参与的基本洞察。"
 
 **[!UICONTROL 应用程序内性能]** KPI可提供过去24小时内用户档案与应用程序内消息互动情况的基本见解，从而提供评估应用程序内营销活动效果和影响的基本量度。
 
@@ -386,12 +386,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 错误原因]**&#x200B;表和图形使您能够识别推送通知发送过程中在过去24小时内发生的特定错误，从而为您提供在此过程中遇到的任何问题的详细见解。
 
-### 推送通知 - 按平台细分 {#push-breakdown-platform}
+### 推送通知 - 按 Platform 细分 {#push-breakdown-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
->title="推送通知 - 按平台细分"
->abstract="“按平台细分”图表根据收件人的操作系统提供细分过去 24 小时内推送通知的成功情况。"
+>title="推送通知 - 按 Platform 细分"
+>abstract="“按 Platform 细分”图表根据收件人的操作系统提供细分过去 24 小时内推送通知的成功情况。"
 
 **[!UICONTROL 推送通知 — 按平台]**&#x200B;划分图表和表提供了过去24小时内推送通知成功的详细分析，并根据用户档案的操作系统提供了见解。 此划分可让您更好地了解推送通知在不同平台上的执行情况。
 
@@ -451,7 +451,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_performance"
 >title="短信 - 各日期的效果"
->abstract="“短信 - 各日期的效果”小组件以图形表示形式提供有关过去 24 小时内消息的关键信息。"
+>abstract="“短信 - 各日期的效果”构件以图形表示形式提供有关过去 24 小时内消息的关键信息。"
 
 ![](assets/campaign_live_sms_performance_date.png)
 
@@ -507,7 +507,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
 >title="Web 性能"
->abstract="“Web 性能”KPI 提供有关过去 24 小时内访客与 Web 体验的参与的全面信息。"
+>abstract="“Web 性能”关键绩效指标提供有关过去 24 小时内访客与 Web 体验的参与的全面信息。"
 
 ![](assets/campaign_live_web_performance.png)
 

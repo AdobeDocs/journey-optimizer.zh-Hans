@@ -11,8 +11,8 @@ keywords: 入门、开始、内容、试验
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 99%
+source-wordcount: '2002'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 试验是指于在线测试的背景下进行一组随机试验，这意味着一些随机选择的用户会接触到某个消息的给定变体，而另一组随机选择的用户则会接触到另一个变体。发送消息后，您可以对感兴趣的结果进行量度，例如电子邮件打开数或点击数。
 
-➡️[本节](../experience-decisioning/experience-decisioning-uc.md)中介绍了一个端到端用例，说明如何使用内容试验来比较决策与基于代码的体验渠道。
+➡️本节[中介绍了一个端到端用例，说明如何使用内容实验将决策与基于代码的体验渠道进行比较。](../experience-decisioning/experience-decisioning-uc.md)
 
 ## 为什么要运行试验？
 
@@ -92,7 +92,7 @@ ht-degree: 99%
 +++按照正确的受众规模或在足够长的时间内运行测试
 
 如果运行测试的时间过长，则不同试验组之间能够检测到的目标量度差异会较小。 但是，如果目标量度的基线值较小，则需要较大的样本量。
-试验中必须包含的用户数量取决于您希望检测到的效果大小、目标量度的变化程度或分布，以及您对假阳性和假阴性错误的容忍度。在经典试验中，您可以使用[样本量计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hans){_blank} 来确定必须运行的测试时长。
+试验中必须包含的用户数量取决于您希望检测到的效果大小、目标量度的变化程度或分布，以及您对假阳性和假阴性错误的容忍度。在经典实验中，您可以使用[样本大小计算器](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hans){_blank}来确定测试必须运行多久。
 +++
 
 +++了解统计不确定性
@@ -110,8 +110,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="摘要小组件"
->abstract="“摘要”小组件提供实验结果的概述，包括结果是否具有结论性。它提供了一种简便快速的方法来了解实验的结果。"
+>title="摘要构件"
+>abstract="“摘要”构件提供实验结果的概述，包括结果是否具有结论性。它提供了一种简便快速的方法来了解实验的结果。"
 
 ![](assets/experimentation_report_3.png)
 

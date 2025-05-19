@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '883'
 ht-degree: 12%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模拟产品建议决策"
->abstract="通过模拟，可模拟对于某个给定的放置环境，将哪些产品建议投放到某个测试轮廓。这样测试和细化您的产品建议的各个版本即可不影响目标收件人。"
+>abstract="通过模拟，可模拟对于某个给定的投放位置，将哪些产品建议投放到某个测试轮廓。这样测试和细化您的产品建议的各个版本即可不影响目标收件人。"
 
 ## 关于模拟 {#about-simulation}
 
@@ -65,7 +65,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节[&#128279;](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间的更多信息。
+   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间[的更多信息。
 
 1. 输入身份值并单击&#x200B;**[!UICONTROL 查看]**&#x200B;列出可用的配置文件。
 

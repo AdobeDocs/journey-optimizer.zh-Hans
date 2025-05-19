@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 受众组合入门
+title: 受众构成入门
 description: 了解有关受众构图的更多信息
 feature: Audiences, Profiles
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 ---
 
-# 受众组合入门 {#get-start-audience-composition}
+# 受众构成入门 {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -60,7 +60,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="扩充标准"
->abstract="选择要用作源数据集（即受众）与扩充数据集之间的合并关键项的字段。"
+>abstract="选择要用作源数据集（即受众）与扩充数据集之间的协调关键项的字段。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
@@ -99,13 +99,13 @@ ht-degree: 51%
 
 >[!BEGINSHADEBOX]
 
-此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众组合的详细信息。如果您仅是 Real-time Customer Profile 客户并且没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
+此文档提供了有关如何在 Adobe Journey Optimizer 中使用受众构成的详细信息。如果您仅是 Real-time Customer Profile 客户并且没有使用 Adobe Journey Optimizer，请[单击此处](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hans){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 受众组合允许您创建&#x200B;**组合工作流**，您可以在其中将现有Adobe Experience Platform受众组合到可视画布中，并利用各种活动（拆分、排除……）来创建新受众。
 
-完成后，生成的&#x200B;**受众**&#x200B;将与现有受众一起保存到Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
+完成后，生成的&#x200B;**受众**将与现有受众一起保存到Adobe Experience Platform中，可以在Journey Optimizer营销活动和历程中利用它来定位客户。 了解如何在Journey Optimizer中定位受众
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -114,7 +114,7 @@ ht-degree: 51%
 >
 >* 扩充属性尚未与策略实施服务集成。 因此，您应用于扩充属性的任何数据使用标签都不会在Journey Optimizer营销活动或历程中强制执行。
 
-可通过 Adobe Journey Optimizer **[!UICONTROL 受众]**&#x200B;菜单访问受众组合：
+可通过 Adobe Journey Optimizer **[!UICONTROL 受众]**&#x200B;菜单访问受众构成：
 
 ![](assets/audiences-browse.png)
 
@@ -122,7 +122,7 @@ ht-degree: 51%
 
 * **[!UICONTROL 浏览]**&#x200B;选项卡列出了存储到 Adobe Experience Platform 中的所有现有受众。
 
-* 通过&#x200B;**[!UICONTROL 组合]**&#x200B;选项卡，您可以创建组合工作流程，并在其中合并和排列受众以创建新受众。
+* 通过&#x200B;**[!UICONTROL 构成]**&#x200B;选项卡，您可以创建构成工作流程，并在其中合并和排列受众以创建新受众。
 
 ## 创建合成工作流 {#create}
 
@@ -146,7 +146,7 @@ ht-degree: 51%
 
    ![](assets/audiences-properties.png)
 
-1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 保存]**&#x200B;活动之间添加所需数量的活动，以配置合成。 有关如何创建合成的详细信息，请参阅[受众合成文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-composition)。
+1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;和&#x200B;**[!UICONTROL 保存]**&#x200B;活动之间添加所需数量的活动，以配置合成。 有关如何创建合成的详细信息，请参阅[受众合成文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)。
 
    ![](assets/audiences-publish.png)
 
@@ -166,7 +166,7 @@ ht-degree: 51%
 >
 >**受众合成**&#x200B;中的受众每天都会执行，因此您可能需要等待最多24小时才能在Journey Optimizer中使用它们。 受众构成受众中的丰富属性与上次构成运行一样新，过去最长可达24小时。
 
-## 访问组合 {#access}
+## 访问构成 {#access}
 
 所有创建的合成都可以从&#x200B;**[!UICONTROL 合成]**&#x200B;选项卡访问。 您可以使用列表中的省略号按钮随时复制或删除现有合成。
 
@@ -179,4 +179,4 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 有关详细信息，请参阅Adobe Experience Platform [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans#delete-audience-compositions)
+>受众合成当前未与沙盒重置功能集成。 在启动沙盒重置之前，您需要手动删除合成，以确保正确清理关联的受众数据。 有关详细信息，请参阅Adobe Experience Platform [沙盒文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)

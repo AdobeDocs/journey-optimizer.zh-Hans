@@ -11,7 +11,7 @@ keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2044'
 ht-degree: 14%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集对不同类型的营销通信应用频率限制。您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
+>abstract="使用规则集对不同类型的营销通信应用频次封顶。您还可以根据频次封顶规则创建规则集，以将历程排除在部分受众之外。"
 
 ## 规则集入门 {#gs}
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 例如，您可以创建一个规则集以限制发送给客户的&#x200B;**促销通信**&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;**新闻稿**&#x200B;的数量。 根据要创建的促销活动类型，您可以选择应用促销通信或新闻稿规则集。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ### 权限 {#permissions-frequency-rules}
 
@@ -52,12 +52,12 @@ ht-degree: 14%
 
 ![](assets/rule-sets-default.png)
 
-### 渠道和历程上限规则 {#domain}
+### 渠道和历程频次封顶规则 {#domain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
 >title="规则集域"
->abstract="创建规则集时，您需要指定规则集中的规则是否会强制执行特定于通信渠道或历程的上限规则。"
+>abstract="创建规则集时，您需要指定规则集中的规则是否会强制执行特定于通信渠道或历程的频次封顶规则。"
 
 创建规则集时，您需要指定规则集中的规则是否将强制实施特定于通信渠道或历程的上限规则。 这是通过在创建规则集时为规则集选择渠道或历程域来完成的。 [了解如何创建规则集](#create)
 
@@ -112,7 +112,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="定义规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频率上限。"
+>abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -122,7 +122,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="规则上限"
->abstract="设置规则的频率上限。根据规则集域和“规则类型”字段中的选择，该字段可以定义可以发送到轮廓的最大消息数，或者轮廓可以同时进入或注册的最大历程数。"
+>abstract="设置规则的频次封顶。根据规则集域和“规则类型”字段中的选择，该字段可以定义可以发送到轮廓的最大消息数，或者轮廓可以同时进入或注册的最大历程数。"
 
 要将规则添加到规则集，请访问该规则集并单击&#x200B;**[!UICONTROL 添加规则]**。
 
@@ -154,7 +154,7 @@ ht-degree: 14%
 
      >[!CAUTION]
      > 
-     >要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在[Platform Identity Service指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中了解有关命名空间优先级的更多信息
+     >要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
    请注意，一旦传递通信，配置文件计数器值将更新。 当您发送大量通信时，请注意这一点，因为吞吐量可能导致收件人收到电子邮件时间达到通信启动后的几分钟甚至几小时（如果您同时发送数百万条通信）。
 
@@ -322,6 +322,6 @@ In this scenario, an individual profile:
 
 +++
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

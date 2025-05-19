@@ -40,7 +40,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="定义要返回的项数"
->abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前配置显示最佳的 2 个合格的产品建议。"
+>abstract="选择要返回的决策项数。例如，如果选择 2，则将为当前配置显示最佳的 2 个合格优惠。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -50,7 +50,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
 >title="策略是什么？"
->abstract="选择策略的顺序决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
+>abstract="选择策略的序列决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="创建策略"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="评估顺序"
 

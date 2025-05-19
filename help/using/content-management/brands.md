@@ -11,7 +11,7 @@ exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 16%
+ht-degree: 23%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->此功能作为专用测试版发布。 在未来版本中，将逐步向所有客户提供。
+>此功能已作为 Private Beta 发布。在未来版本中，其将逐步向所有客户提供。
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 品牌指南是一组详细的规则和标准，用于建立品牌的视觉和语言标识。 它们用作参考，以在所有营销和通信平台上保持一致的品牌代表性。
@@ -183,8 +183,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="写入样式对齐分数"
->abstract="写作样式部分定义了语言、格式和结构的标准，以确保内容清晰、一致。 一致性分数（从高到低）显示您的内容遵循这些准则的程度，并突出显示需要改进的方面。"
+>title="写作风格一致性得分"
+>abstract="写作风格部分定义了语言、格式和结构的标准，以确保内容清晰、一致。一致性得分从高到低，显示您的内容遵循这些指南的程度，并突出显示需要改进的领域。"
 
 **[!UICONTROL 书写样式]**&#x200B;部分概述了书写内容的标准，详细说明了如何使用语言、格式和结构来保持所有材料的清晰度、一致性和一致性。
 
@@ -289,8 +289,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
->title="视觉内容对齐方式分数"
->abstract="可视内容对齐度分数表示您的内容与配置的品牌指南的匹配程度。 得分从高到低，它有助于您一目了然地评估一致性。 探索不同的类别，找出需要改进的方面，并查明可能脱离品牌的要素。"
+>title="视觉内容一致性得分"
+>abstract="视觉内容一致性得分表明您的内容与配置的品牌指南的匹配程度。从高到低进行评分，可以帮助您一目了然地评估一致性。浏览不同的类别以确定需要改进的领域，并找出可能不符合品牌的元素。"
 
 **[!UICONTROL 可视化内容]**&#x200B;部分定义了图像和设计的标准，详细说明了保持统一和一致的品牌外观所需的规范。
 

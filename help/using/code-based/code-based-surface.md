@@ -21,7 +21,7 @@ ht-degree: 53%
 >id="ajo_admin_surface_uri"
 >title="为您的组件添加表面 URI"
 >abstract="如果您的实施不是针对 Web、iOS 或 Android，或者您需要锁定特定的 URI，请输入表面 URI，它是指向您想要提供体验的实体的唯一标识符。确保输入的表面 URI 与您自己的实现中使用的 URI 相匹配。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="为其他平台创建基于代码的体验配置"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="为其他 Platform 创建基于代码的体验配置"
 
 基于代码的体验&#x200B;**surface**&#x200B;是为用户或系统交互而设计的任何实体，由[URI](#surface-uri)唯一标识。 该表面在[应用程序实现](code-based-prerequisites.md#implementation-prerequisites)中指定，并且必须匹配在基于[代码的体验渠道配置](code-based-configuration.md)中引用的表面。
 

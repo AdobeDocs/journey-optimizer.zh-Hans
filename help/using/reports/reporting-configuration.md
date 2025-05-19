@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="选择数据集"
->abstract="您只能选择一个事件类型的数据集，该数据集必须至少包含一个支持的字段组：应用程序详细信息、商务详细信息、Web 详细信息。"
+>abstract="您只能选择一个事件类型的数据集，该数据集必须至少包含一个支持的字段组：应用程序详细信息、Commerce 详细信息、Web 详细信息。"
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 29%
 
 ## 先决条件
 
-必须先创建该数据集，然后才能将数据集添加到报表配置。 在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#create){target="_blank"}中了解更多信息。
+必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}以了解详情。
 
 * 您只能添加事件类型数据集。
 
@@ -62,7 +62,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中了解有关XDM架构和字段组的更多信息。
+>在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中了解有关XDM架构和字段组的更多信息。
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}

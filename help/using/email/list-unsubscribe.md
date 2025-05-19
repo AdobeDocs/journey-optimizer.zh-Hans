@@ -54,7 +54,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="向您的电子邮件添加取消订阅 URL"
->abstract="启用此选项以向电子邮件标头自动添加取消订阅 URL。您也可以在电子邮件内容中插入一键式选择退出链接，在消息中设置取消订阅 URL。"
+>abstract="启用此选项以向电子邮件标头自动添加取消订阅 URL。您也可以在电子邮件内容中插入一键式选择禁用链接，在消息中设置取消订阅 URL。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="在电子邮件内容中设置一键式选择退出"
 
 启用&#x200B;**[!UICONTROL 启用列表取消订阅]**&#x200B;选项后，如果收件人的电子邮件客户端支持此功能，那么电子邮件标头将默认同时包含 Mailto 和/或 URL，收件人可以使用这两种选项取消订阅邮件列表。

@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3cbda018a1380e13ba3670563240238367517353
 workflow-type: tm+mt
 source-wordcount: '2395'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 13%
 
 **复制技术详细信息**&#x200B;允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 已复制以下信息：`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
+在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
 
 ## 入口和重入 {#entrance}
 
@@ -95,12 +95,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="开始日期"
->abstract="选择用户档案可以开始进入历程的日期。 如果未设置开始日期，则默认使用历程的发布日期。"
+>abstract="选择轮廓可以开始进入历程的日期。如果没有设置开始日期，则默认为历程的发布日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="结束日期"
->abstract="设置历程结束的日期。 在此日期，活动用户档案将自动退出历程，不允许新条目。"
+>abstract="设置历程结束的日期。在此日期，主要轮廓将自动退出历程，并且不允许任何新的进入。"
 
 默认情况下，用户档案可在发布后立即进入您的历程，并可一直保留，直到达到[全局历程超时](#global_timeout)。 唯一的例外是循环读取受众历程，激活了&#x200B;**在重复时强制重入**，该历程在下一次发生事件的开始日期结束。
 
@@ -113,11 +113,11 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="超时或错误"
->abstract="指定在将历程视为超时之前，历程应尝试执行操作或评估条件的时长。 建议值为1至30秒。"
+>abstract="指定历程可以尝试执行某个操作或评估某个条件多长时间，这个时间过去后即视为超时。建议值介于 1 至 30 秒之间。"
 
 编辑操作或条件活动时，您可以定义替代路径以防出现错误或超时。 如果处理询问第三方系统的活动超过了历程属性的&#x200B;**[!UICONTROL 超时或错误]**&#x200B;字段中定义的超时持续时间，将选择第二个路径以执行潜在的回退操作。
 
-建议值为1至30秒。
+建议值介于 1 至 30 秒之间。
 
 如果历程对时间敏感（例如：对人员的实时位置做出反应），我们建议您定义一个非常短的&#x200B;**[!UICONTROL 超时或错误]**&#x200B;值，因为您的操作延迟的时间不能超过几秒。 如果您的旅程不太时效性，则可以使用较长的值，为调用的系统留出更多时间来发送有效响应。
 
@@ -137,7 +137,7 @@ ht-degree: 13%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;**&#x200B;**
+单一历程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -252,7 +252,7 @@ ht-degree: 13%
 
 Adobe Journey Optimizer会应用在整个历程中使用的合并策略。 因此，如果在历程中使用多个受众（例如使用[`inAudience`函数](functions/functioninaudience.md)中的），这将导致与历程使用的合并策略不一致，从而引发错误并阻止发布。 但是，如果在消息个性化中使用不一致的受众，则不会触发警报，即使存在不一致也是如此。 因此，强烈建议在消息个性化中使用此受众时，检查与受众关联的合并策略。
 
-要了解有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+要了解有关合并策略的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
 >[!NOTE]
 >

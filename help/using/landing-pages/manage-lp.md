@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 登陆、登陆页面
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -57,8 +58,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="将登陆页面整理到文件夹中"
->abstract="使用文件夹根据您的组织需求对登陆页面进行分类和管理。"
+>title="将您的登陆页面整理到文件夹中"
+>abstract="根据您的组织需求，使用文件夹对登陆页面进行分类和管理。"
 
 要轻松导航登陆页面，您可以使用文件夹更高效地将其组织到结构化层次结构中。 这使您能够根据组织需求对项目进行分类和管理。
 

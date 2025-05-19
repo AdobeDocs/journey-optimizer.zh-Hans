@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="设置 IP 池"
->abstract="IP 池收集您子域的 IP 地址以提高电子邮件的送达率。"
+>abstract="IP 池收集您子域的 IP 地址以提高电子邮件的供应能力。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="设置 IP 池"
->abstract="使用 Journey Optimizer，您可以创建 IP 池，将子域的 IP 地址分组在一起。这可以显著提高您的电子邮件送达率，因为这样做可以防止一个子域的声誉影响您的其他子域。"
+>abstract="使用 Journey Optimizer，您可以创建 IP 池，将子域的 IP 地址分组在一起。这可以显著提高您的电子邮件供应能力，因为这样做可以防止一个子域的声誉影响您的其他子域。"
 
 ## 关于IP池 {#about-ip-pools}
 
@@ -62,7 +62,7 @@ ht-degree: 11%
    >
    >列表中提供了为您的实例配置的所有IP地址。
 
-选择IP时，您可以从列表中看到与IP相关联的PTR记录。 这样，您可以在创建IP池时验证每个IP的品牌信息，例如，选择具有相同品牌信息的IP。 [了解有关PTR记录的更多信息](ptr-records.md)
+选择IP时，您可以从列表中看到与IP相关联的PTR记录。 这样，您可以在创建IP池时验证每个IP的品牌信息，例如，选择具有相同品牌信息的IP。 [了解有关 PTR 记录的更多信息](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 

@@ -24,7 +24,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
 >title="删除重复项活动"
->abstract="删除&#x200B;**重复项活动可让您删除**&#x200B;入站活动结果中的重复项。主要在目标选择活动之后且在允许使用目标数据的活动之前使用。"
+>abstract="删除&#x200B;**重复项活动可让您删除**&#x200B;入站活动结果中的重复项。主要在定位活动之后且在允许使用目标数据的活动之前使用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_complement"
@@ -33,7 +33,7 @@ ht-degree: 53%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_settings"
->title="重复数据删除设置"
+>title="删除重复项设置"
 >abstract="要删除传入数据中的重复项，请在以下字段中定义删除重复项方法。默认情况下，只会保留一条记录。您还应该根据表达式或属性选择删除重复项模式。默认情况下，要避免重复的记录是随机选择的。"
 
 **重复数据删除**&#x200B;活动是&#x200B;**定位**&#x200B;活动。 利用此活动，可删除集客活动结果中的重复项，例如收件人列表中重复的用户档案。 **重复数据删除**&#x200B;活动通常用在定向活动之后，以及允许使用定向数据的活动之前。

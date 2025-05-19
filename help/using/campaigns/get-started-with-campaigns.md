@@ -11,7 +11,7 @@ keywords: 营销活动、操作方法、入门、optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ![](assets/create-campaign-process.png)
 
-➡️ [在视频中发现此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 开始前 {#campaign-prerequisites}
 
@@ -68,4 +68,4 @@ ht-degree: 100%
 
 了解如何创建您的第一个营销活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412401?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

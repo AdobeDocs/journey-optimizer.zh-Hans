@@ -9,35 +9,35 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 11%
+ht-degree: 24%
 
 ---
 
-# 品牌协调(Beta){#brands-score}
+# 品牌一致性 (Beta){#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
 >title="品牌一致性得分"
->abstract="您的品牌协调得分衡量您的内容遵守品牌准则的程度，确保颜色、字体、徽标、图像和书写风格的一致性。"
+>abstract="您的品牌一致性得分衡量的是您的内容遵循品牌指导方针的程度，确保颜色、字体、徽标、图像和写作风格的一致性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"
->title="颜色分数"
->abstract="颜色分数"
+>title="颜色得分"
+>abstract="颜色得分"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_fonts"
->title="字体分数"
->abstract="字体分数"
+>title="字体得分"
+>abstract="字体得分"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_logos"
->title="徽标分数"
->abstract="徽标分数"
+>title="徽标得分"
+>abstract="徽标得分"
 
 >[!AVAILABILITY]
 >
->此功能作为专用测试版发布。 在未来版本中，将逐步向所有客户提供。
+>此功能已作为 Private Beta 发布。在未来版本中，其将逐步向所有客户提供。
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 “品牌协调”功能旨在帮助您创建、审查和管理符合品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。

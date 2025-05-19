@@ -15,7 +15,7 @@ keywords: 消息，频率，规则，压力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 14%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 14%
 >
 >业务规则与选择退出管理不同，后者允许用户取消订阅以停止接收来自品牌的通信。 [了解详情](../privacy/opt-out.md#opt-out-management)
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 访问业务规则 {#access-rules}
 
@@ -64,13 +64,13 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="设置业务规则的频率上限"
->abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频率上限将基于所选的日程表期间，并将在相应的时间范围开始时重置它。"
+>title="设置业务规则的频次封顶"
+>abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频次封顶将基于所选的日程表期间，并将在相应的时间范围开始时重置它。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="定义业务规则应用到的渠道"
->abstract="请至少选择一个渠道。对所有渠道的总计数应用频率上限。"
+>abstract="请至少选择一个渠道。对所有渠道的总计数应用频次封顶。"
 
 要创建新的业务规则，请执行以下步骤。
 
@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
+>为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
 
 ## 激活业务规则 {#activate-rule}
 
@@ -235,8 +235,8 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 >
 >测试业务规则时，建议使用新创建的[测试配置文件](../audience/creating-test-profiles.md)，因为一旦达到配置文件的频率上限，就无法在下个月之前重置计数器。 停用规则将允许有上限的用户档案接收消息，但不会移除或删除任何计数器增量。
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何创建、激活、测试和报告业务规则。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411120?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

@@ -11,11 +11,11 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
-# 配置自定义短信提供商 {#sms-configuration-custom}
+# 配置自定义 SMS 提供商 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -103,12 +103,12 @@ ht-degree: 9%
 
 配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
 
-### 自定义短信提供商的身份验证选项 {#auth-options}
+### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_auth_type"
 >title="身份验证类型"
->abstract="指定访问API所需的身份验证方法，这将确保与外部服务进行安全和授权的通信。"
+>abstract="指定访问 API 所需的身份验证方法，这可确保与外部服务进行安全和授权的通信。"
 
 >[!BEGINTABS]
 
@@ -160,6 +160,6 @@ ht-degree: 9%
 
 >[!ENDTABS]
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443616?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)

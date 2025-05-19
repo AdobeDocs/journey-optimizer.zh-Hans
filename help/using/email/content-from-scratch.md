@@ -16,7 +16,7 @@ ht-degree: 55%
 
 ---
 
-# 使用电子邮件设计器从头开始设计内容 {#content-from-scratch}
+# 使用电子邮件 Designer 从头开始设计内容 {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -42,22 +42,22 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="定义电子邮件列"
->abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义电子邮件的版面。"
+>abstract="使用电子邮件 Designer，您可以通过选择列结构来轻松定义电子邮件的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="定义登陆页面列"
->abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义登陆页面的版面。"
+>abstract="使用电子邮件 Designer，您可以通过选择列结构来轻松定义登陆页面的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="定义片段列"
->abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义片段的版面。"
+>abstract="使用电子邮件 Designer，您可以通过选择列结构来轻松定义片段的版面。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="定义模板列"
->abstract="使用电子邮件设计器，您可以通过选择列结构来轻松定义模板的版面。"
+>abstract="使用电子邮件 Designer，您可以通过选择列结构来轻松定义模板的版面。"
 
 
 使用Adobe Journey Optimizer Designer轻松定义内容的结构。 通过简单的拖放操作添加和移动结构元素，您可以在几秒钟内设计内容的形状。

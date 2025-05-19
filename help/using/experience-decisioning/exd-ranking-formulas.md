@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="创建排名公式"
->abstract="利用公式，可定义规则以确定应首先显示哪个决策项，而不是考虑这些项目的优先级分数。 创建排名公式后，您可以将其分配给选择策略。"
+>abstract="使用公式，您可以定义规则来确定应首先显示哪个决策项，而不是考虑决策项的优先级分数。创建了排名公式后，您就可以将其分配给选择策略。"
 
 要创建排名公式，请执行以下步骤。
 

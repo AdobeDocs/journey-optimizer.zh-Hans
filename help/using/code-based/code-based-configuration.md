@@ -78,7 +78,7 @@ ht-degree: 23%
 >
 >您的应用程序实施团队负责发出显式API或SDK调用，以获取选定基于代码的体验配置中定义曲面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 
-### Web 平台 {#web}
+### Web Platform {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
@@ -104,7 +104,7 @@ ht-degree: 23%
 1. 以下内容适用于预览URL：
 
    * 如果输入了单页URL，则该URL将用于预览 — 无需输入其他URL。
-   * 如果选择了与规则[&#128279;](../web/web-configuration.md#web-page-matching-rule)匹配的页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](test-code-based.md#preview-on-device)
+   * 如果选择了与规则](../web/web-configuration.md#web-page-matching-rule)匹配的[页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -116,7 +116,7 @@ ht-degree: 23%
 
    ![](assets/code_config_location_on_page.png)
 
-### 移动设备平台（iOS 和 Android） {#mobile}
+### 移动设备 Platform（iOS 和 Android） {#mobile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
@@ -132,7 +132,7 @@ ht-degree: 23%
 
 1. 输入您的&#x200B;**[!UICONTROL 应用程序ID]**。 这允许在应用程序的操作环境中进行准确的识别和配置，并确保无缝集成和功能。
 
-1. 提供应用程序&#x200B;**中的**&#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
+1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
 
    ![](assets/code_config_3.png)
 
@@ -156,7 +156,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 
