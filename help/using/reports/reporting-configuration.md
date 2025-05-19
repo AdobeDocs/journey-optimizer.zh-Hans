@@ -40,7 +40,7 @@ ht-degree: 30%
 
 ## 先决条件
 
-必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}以了解详情。
+必须先创建该数据集，然后才能将数据集添加到报表配置。 请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#create){target="_blank"}以了解详情。
 
 * 您只能添加事件类型数据集。
 
@@ -62,7 +62,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中了解有关XDM架构和字段组的更多信息。
+>在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中了解有关XDM架构和字段组的更多信息。
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
