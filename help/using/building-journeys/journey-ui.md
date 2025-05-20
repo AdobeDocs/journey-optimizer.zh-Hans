@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 27%
+source-wordcount: '922'
+ht-degree: 12%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 27%
 * **[!UICONTROL 浏览]**&#x200B;选项卡显示现有历程的列表。 您可以搜索历程、使用过滤器并对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。
 
   ![历程仪表板突出显示“浏览”选项卡](assets/journeys-browse.png)
+
+在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。 了解有关[历程版本管理](publishing-the-journey.md#journey-versions-journey-versions)的更多信息。
+
+
 
 ## 筛选您的历程 {#journey-filter}
 
@@ -94,41 +98,6 @@ ht-degree: 27%
 >
 >* 如果需要修改为&#x200B;**实时**&#x200B;历程，请[创建历程的新版本](#journey-versions)。
 
-
-## 历程版本 {#journey-versions}
-
-在历程列表中，所有历程版本在显示时都带有版本号。搜索历程时，当应用程序首次打开时，最新版本会显示在列表顶部。然后，您可以定义所需的排序方式，应用程序会将其保留为用户首选项。历程的版本也显示在历程版本界面的顶部，位于画布上方。
-
-![](assets/journeyversions1.png)
-
->[!NOTE]
->
->通常，同一历程中无法同时存在多个轮廓。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解更多信息](end-journey.md)。
-
-### 创建历程的新版本 {#journey-create-new-version}
-
-如果您需要修改到实时历程，请创建历程的新版本。 要创建现有历程的新版本，请执行以下步骤：
-
-1. 打开实时历程的最新版本，单击&#x200B;**[!UICONTROL 创建新版本]**&#x200B;并确认。
-
-   ![](assets/journeyversions2.png)
-
-   >[!NOTE]
-   >
-   >您只能从历程的最新版本创建新版本。
-
-1. 进行修改，单击&#x200B;**[!UICONTROL 发布]**&#x200B;并确认。
-
-从历程发布的那一刻起，个人将开始转入历程的最新版本。已进入先前版本的用户将停留在该版本中，直到完成该历程。如果稍后重新进入同一历程，则将进入最新版本。
-
-可以逐个单独停止历程版本。历程的所有版本具有相同的名称。
-
-当您发布新版本的历程时，先前版本会自动结束并切换到&#x200B;**已关闭**&#x200B;状态。无法再进入该历程。即使您停止了最新版本，先前版本仍会保持关闭状态。
-
-
->[!NOTE]
->
->特定护栏和限制适用于历程的版本控制。 在[此页面](../start/guardrails.md#journey-versions-journey-versions-g)上了解详情。
 
 ## 复制历程 {#duplicate-a-journey}
 
