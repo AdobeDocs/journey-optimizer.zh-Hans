@@ -32,7 +32,7 @@ ht-degree: 6%
 
 * **受众资格**&#x200B;历程：这些历程以受众资格事件开始。 这些历程侦听受众中用户档案的进出口。 发生此情况时，关联的配置文件将进入旅程。 [了解详情](#entry-unitary)
 
-在所有历程类型中，同一历程](publishing-the-journey.md#journey-versions-journey-versions)的所有活动[版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
+在所有历程类型中，同一历程[&#128279;](publishing-the-journey.md#journey-versions-journey-versions)的所有活动版本不能同时存在多个配置文件。 要检查人员是否在历程中，会将用户档案身份用作密钥。 系统不允许将相同的键（例如键`CRMID=3224`）放置在同一历程的不同位置。
 
 ## 单一事件和受众资格历程{#entry-unitary}
 
