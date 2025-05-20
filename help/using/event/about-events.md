@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: 1c2537d576b9ccb4fc3731d558a5447e89eb824a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 50%
+source-wordcount: '1088'
+ht-degree: 49%
 
 ---
 
@@ -27,10 +27,12 @@ ht-degree: 50%
 
 在事件配置中，您可以配置历程中的预期事件。传入事件的数据按照Adobe体验数据模型(XDM)进行标准化。 事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用同一个事件。
 
+事件配置是&#x200B;**必需的**，必须由数据工程师执行。
+
 您可以配置两种类型的事件： **单一事件**&#x200B;和&#x200B;**商业事件**。
 
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 单一事件 {#unitary-events}
 
@@ -40,13 +42,8 @@ ht-degree: 50%
 
 ## 业务事件 {#business-events}
 
-**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。在此页面[&#128279;](../event/about-creating-business.md)上了解如何创建业务活动。
+**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。在此页面](../event/about-creating-business.md)上了解如何创建业务活动[。
 
-## 推荐做法
-
-事件配置是&#x200B;**必需的**，必须由数据工程师执行。
-
-为避免破坏现有历程，在编辑草稿或实时历程中使用的事件时，只能更改名称、描述或添加有效负载字段。
 
 ## 事件ID类型 {#event-id-type}
 
@@ -70,18 +67,24 @@ ht-degree: 50%
 
 事件是 POST API 调用。事件通过流式引入API发送到Adobe Experience Platform。 通过事务性消息传递API发送的事件的URL目标称为“入口”。 事件的有效负载遵循 XDM 格式。
 
-有效负载包含流式引入API工作所需的信息（在标题中）和[!DNL Journey Optimizer]工作所需的信息以及要在旅程中使用的信息（在正文中，例如放弃购物车的数量）。 流式引入有两种模式，即验证和未验证。有关流式引入API的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans){target="_blank"}。
+有效负载包含流式引入API工作所需的信息（在标题中）和[!DNL Journey Optimizer]工作所需的信息以及要在旅程中使用的信息（在正文中，例如放弃购物车的数量）。 流式引入有两种模式，即验证和未验证。有关流式引入 API 的详细信息，请参阅[此链接](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans){target="_blank"}。
 
 事件通过流式引入API到达后，会流入名为Pipeline的内部服务，然后流入Adobe Experience Platform。 如果事件架构启用了实时客户轮廓服务标志，并且数据集 ID 也具有实时客户轮廓标志，则会流入实时客户轮廓服务。
 
 对于系统生成的事件，Pipeline会筛选有效负载由[!DNL Journey Optimizer]提供并包含在事件有效负载中的事件，这些有效负载包含[!DNL Journey Optimizer]个事件ID（请参阅下面的事件创建流程）。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Optimizer] 侦听，并触发相应的旅程。
 
+## 更新和删除事件
+
+为避免破坏现有历程，在编辑草稿、实时或已关闭历程中使用的事件时，只能更改名称、描述或添加有效负载字段。
+
+无法删除实时、草稿或已关闭历程中使用的任何事件。 要删除已使用的事件，您必须停止使用该事件的历程，和/或将其从使用它的草稿历程中删除。 您可以检查&#x200B;**[!UICONTROL 在]**&#x200B;中使用的字段。 它会显示使用该特定事件的历程数。 您可以单击&#x200B;**[!UICONTROL 查看历程]**&#x200B;按钮以显示相应历程的列表。
+
 ## 操作说明视频 {#video}
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
