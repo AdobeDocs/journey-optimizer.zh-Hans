@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 75005ffc9fbef9d1dfd1219c2eee7d11f8bc63b5
+source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 25%
@@ -246,7 +246,7 @@ ht-degree: 25%
 下面列出了此版本中的改进。
 
 
-* **新对象支持沙盒副本**
+* **新对象支持沙盒复制**
 
    * **营销活动** — 发布日期：2025年5月15日
 
