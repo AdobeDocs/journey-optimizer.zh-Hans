@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 历程，第一，开始，快速入门，受众，事件，操作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
@@ -52,9 +52,9 @@ ht-degree: 12%
 
 在历程列表中，使用各种过滤器可让您优化历程列表。
 
-![](assets/filter-journeys.png)
+![屏幕显示选择两种历程类型的历程筛选示例](assets/filter-journeys.png)
 
-您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](#journey-versions)以及从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;分配的[标记](../start/search-filter-categorize.md#tags)来筛选历程。
+您可以根据历程的[状态](#journey-statuses)、[类型](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)以及从&#x200B;**[!UICONTROL 状态和版本筛选器]**&#x200B;分配的[标记](../start/search-filter-categorize.md#tags)来筛选历程。
 
 使用&#x200B;**[!UICONTROL 创建过滤器]**&#x200B;根据历程的创建日期或创建历程的用户来筛选历程。
 

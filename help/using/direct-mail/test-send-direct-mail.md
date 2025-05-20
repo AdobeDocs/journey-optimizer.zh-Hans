@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 5%
 
 ---
@@ -42,18 +42,23 @@ ht-degree: 5%
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-当直邮营销活动就绪时，单击&#x200B;**[!UICONTROL 激活]**&#x200B;按钮。 活动启动时，将自动生成提取文件并将其导出到[文件路由配置](../direct-mail/direct-mail-configuration.md)中指定的服务器。
+当直邮营销活动就绪时，单击&#x200B;**[!UICONTROL 激活]**&#x200B;按钮。 活动启动时，提取文件将自动生成，并导出到[文件路由配置](../direct-mail/direct-mail-configuration.md)中指定的服务器。
+
+>[!NOTE]
+>
+>默认情况下，导出的文件以换行结束。 这可确保与标准数据处理工具的兼容性。
+
 
 发送后，您可以在营销活动报表中衡量直邮营销活动的影响。 有关直邮报告的详细信息，请参阅[此章节](../reports/campaign-global-report-cja-direct.md)。
 
 ## 管理直邮的同意 {#dm-consent-management}
 
-在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，“同意”字段的值为空，并视为同意接收您的通信。
+在[!DNL Journey Optimizer]中，同意由Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。 默认情况下，“同意”字段的值为空，并视为同意接收您的通信。
 
 如果某个用户档案已选择不接收直邮，则在相应的Experience Platform用户档案属性中，`consents.marketing.postalMail.val`的值将为`n`，并且相应的用户档案将从后续投放中排除。
 
 若要再次启用它，必须将配置文件属性更改回`consents.marketing.postalMail.val` ： `y`。
 
-要管理配置文件的属性，请转到Experience Platform，并通过选择身份命名空间和相应的身份值访问配置文件。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
+要管理配置文件的属性，请转到Experience Platform，并通过选择身份命名空间和相应的身份值访问配置文件。 在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中了解更多信息。
 
 在[本节](../privacy/opt-out.md)中了解有关在Journey Optimizer中管理选择退出的更多信息。
