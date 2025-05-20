@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
+source-git-commit: 75005ffc9fbef9d1dfd1219c2eee7d11f8bc63b5
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 24%
+source-wordcount: '1268'
+ht-degree: 25%
 
 ---
 
@@ -189,20 +189,20 @@ ht-degree: 24%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>扩展您的试验入选者</strong><br/></th>
+<th><strong>Scale your Experimentation winner</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通过缩放入选者，您可以自动或手动将试验的入选变体转出给全体受众。 此功能确保一旦确定最佳业绩者，您就可以最大程度地扩大其影响范围和提高效率，而无需持续的人工监督。</p>
+<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
