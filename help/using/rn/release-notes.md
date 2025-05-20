@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef06334d0977af4b325b994bb480162b45ceaecf
+source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 26%
@@ -83,11 +83,12 @@ ht-degree: 26%
 <td>
 <p>现在，您可以在批量分段完成后触发每日历程运行。 现在，所有客户都可以在每日计划的历程中使用此选项。 它允许您定义一个长达6小时的时间范围，以等待来自批处理分段作业的受众数据，确保历程使用最新数据运行，或者如果未准备就绪则跳过。</p>
 <p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -120,6 +121,8 @@ ht-degree: 26%
 <td>
 <p>现在，历程和营销活动列表中提供了日历视图。 它允许您在各个列表中可视化所有历程和营销活动激活。</p>
 <p>此更改仅面向一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
+<img src="assets/do-not-localize/calendar.gif">
+<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -146,8 +149,6 @@ ht-degree: 26%
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
@@ -162,8 +163,9 @@ ht-degree: 26%
 <ul>
 <li>扩展的支持：除了读取受众历程之外，冲突管理工具现在还支持单一历程和受众资格历程。</li>
 <li>改进了故障排除：查询服务中现在提供了两个新的步骤事件字段，允许您分析为何从历程或营销活动中拒绝用户档案。</li>
-<li>增强报告：报告现在可指示哪个特定规则从历程或营销活动中排除用户档案，从而提高透明度和提供切实可行的见解。</li>
-</ul>
+<li>增强报告：报告现在可指示哪个特定规则从历程或营销活动中排除用户档案，从而提高透明度和提供切实可行的见解。</li></ul>
+<img src="assets/do-not-localize/gif-conflict.gif">
+<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -181,6 +183,7 @@ ht-degree: 26%
 <p>此前在 Beta 中提供内容变体模拟功能，现在该功能已正式发布 (GA)。它可以让您使用从 CSV 或 JSON 文件上传的示例输入数据或通过手动添加数据预览内容的不同变体。系统会自动检测内容中用于个性化的所有属性，可使用这些属性进行测试以创建多个变体。</p>
 <p>此功能以前以“有限可用性”发布，现在可用于所有环境。 在此General Availability版本中，该功能现在包括支持多语言内容和内容实验，使您能够测试不同语言和处理之间的变体。 此外，它现在支持上下文属性（以及用户档案属性），从而允许进行更加动态和情境化的内容测试。</p>
 <img src="assets/do-not-localize/variants.gif">
+<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
