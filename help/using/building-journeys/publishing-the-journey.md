@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '613'
 ht-degree: 41%
 
 ---
 
 # 发布您的历程 {#publishing-the-journey}
 
-您必须发布历程以激活它，并使其可供新配置文件进入该历程。 在发布历程之前，请验证其是否有效以及是否没有错误。 您无法发布包含错误的历程。
+要激活历程并允许新配置文件进入该历程，您必须发布它。 发布让历程变得实时且运行正常。 在发布之前，您必须确保历程完整有效，并修复任何错误，因为如果历程包含错误，则无法发布历程。
 
 ➡️ [通过观看视频了解此功能](#video)
 
+## 发布过程 {#journey-publication}
+
 发布历程的步骤详述如下：
 
-1. 在发布历程之前，请验证其是否有效以及是否没有错误。 您将无法发布包含错误的历程。
+1. 在发布历程之前，请确保历程有效且没有错误。 如果历程包含任何错误，则无法发布这些页面。
 
    * 了解如何在[此页面](testing-the-journey.md)上测试您的历程。
    * 在[本节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中了解如何解决您的旅程错误。
@@ -33,7 +35,7 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   > 如果您的历程受审批策略的约束，则必须请求审批才能发布历程。 [了解详情](../test-approve/gs-approval.md)
+   > 如果您的历程受审批策略的约束，则必须先请求审批，然后才能发布它。 [了解详情](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ ht-degree: 41%
 
 在此视频中了解如何发布历程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427941?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
