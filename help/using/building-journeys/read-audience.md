@@ -282,4 +282,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430362?quality=12&captions=chi_hans)
