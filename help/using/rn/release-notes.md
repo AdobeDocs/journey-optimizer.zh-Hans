@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 28%
 
 ---
@@ -257,7 +257,7 @@ ht-degree: 28%
 
 * **直邮：SFTP连接的SSH密钥支持** — 可用日期： 2025年5月5日
 
-  在直邮文件路由配置中，除了具有密码身份验证类型的现有SFTP之外，您现在还可以将直邮文件导出到具有SSH密钥身份验证的SFTP服务器。
+  在直邮文件路由配置中，除了具有密码身份验证类型的现有SFTP之外，您现在还可以将直邮文件导出到具有SSH密钥身份验证的SFTP服务器。 [了解详情](../direct-mail/direct-mail-configuration.md)
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
