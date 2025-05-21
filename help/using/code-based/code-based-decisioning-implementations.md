@@ -28,15 +28,15 @@ ht-degree: 0%
 发布营销活动后，将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
 
     “
-    {
-    ”数据“： {
-    ”__adobe”： {
-    &quot;ajo”： {
+    &lbrace;
+    ”数据“： &lbrace;
+    ”__adobe”： &lbrace;
+    &quot;ajo”： &lbrace;
     &quot;dryRun”： true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     “
 ”
 <!--
