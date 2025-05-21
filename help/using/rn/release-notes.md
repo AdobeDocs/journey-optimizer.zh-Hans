@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
+source-git-commit: 8a4ae82271a2bcac14e7c6ac8c3b0265b4fe760b
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 28%
+source-wordcount: '667'
+ht-degree: 30%
 
 ---
 
@@ -146,27 +146,27 @@ ht-degree: 28%
 </tbody>
 </table-->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>冲突和优先顺序</strong><br/></th>
+<th><strong>Conflict & prioritization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在 Journey Optimizer 中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不堪重负。Journey Optimizer现在提供了多种用于冲突管理和优先顺序的工具(以前仅向有限访问(LA)组织提供)，现在这些工具正式提供(GA)。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境。 在此正式发布版本中，引入了以下增强功能：</p>
+<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization - previously available only to limited-access (LA) organizations - that are now generally available (GA).</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the following enhancements have been introduced:</p>
 <ul>
-<li>扩展的支持：除了读取受众历程之外，冲突管理工具现在还支持单一历程和受众资格历程。</li>
-<li>改进了故障排除：查询服务中现在提供了两个新的步骤事件字段，允许您分析为何从历程或营销活动中拒绝用户档案。</li>
-<li>增强报告：报告现在可指示哪个特定规则从历程或营销活动中排除用户档案，从而提高透明度和提供切实可行的见解。</li></ul>
+<li>Expanded Support: Conflict management tools now support both Unitary Journeys and Audience Qualification Journeys, in addition to Read audience journeys.</li>
+<li>Improved Troubleshooting: Two new step event fields are now available in the Query Service, enabling you to analyze why a profile was rejected from a journey or campaign.</li>
+<li>Enhanced Reporting: Reports now indicate which specific rule excluded a profile from a journey or campaign, providing greater transparency and actionable insights.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<p>有关更多信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--<table>
 <thead>
