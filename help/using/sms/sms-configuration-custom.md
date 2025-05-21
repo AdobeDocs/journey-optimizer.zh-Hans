@@ -4,14 +4,13 @@ product: journey optimizer
 title: 配置您的自定义提供商
 description: 了解如何配置您的环境，以通过自定义提供商使用Journey Optimizer发送短信
 feature: SMS, Channel Configuration
-badge: label="Beta 版" type="Informative"
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: fc78fcfb0f2ce3616cb8b1df44dda2cfd66262fe
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 13%
+source-wordcount: '1012'
+ht-degree: 9%
 
 ---
 
@@ -32,25 +31,22 @@ ht-degree: 13%
 >title="提供程序负载"
 >abstract="提供请求负载以确保发送正确的数据以供处理和生成响应。"
 
->[!AVAILABILITY]
->
->自定义提供商目前仅作为测试版提供给选定用户。 请联系您的Adobe代表以将其纳入Beta。
->请注意，此Beta不支持用于选择启用/选择禁用同意管理和投放报告的入站消息。
-
-
 此功能使您能够集成和配置自己的短信提供商，从而除了默认提供商（Sinch、Twilio和Infobip）之外，还提供了灵活性。 这实现了短信的无缝创作、交付、报告和同意管理。
 
-使用短信的自定义提供商配置，您可以：
+利用短信的自定义提供商配置，您可以直接在Journey Optimizer中配置自定义短信提供商，对动态消息传递使用高级有效负荷自定义，并管理同意首选项（选择加入/选择退出）以确保合规性。
 
-* 直接在Journey Optimizer中配置自定义短信提供程序。
-* 对动态消息传递使用高级有效负载自定义。
-* 管理同意首选项（选择启用/选择禁用）以确保遵循相关说明。
+要配置自定义短信提供商，请执行以下步骤：
+
+1. [创建API凭据](#api-credential)
+1. [创建Webhook](#webhook)
+1. [创建渠道配置](sms-configuration-surface.md)
+1. [通过短信渠道操作创建历程或营销活动](create-sms.md)
 
 ## 创建API凭据 {#api-credential}
 
 要在Journey Optimizer中使用Adobe无法立即提供的自定义提供商（例如Sinch、Infobip、Twilio）发送消息，请执行以下步骤：
 
-1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
+1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL SMS设置]**&#x200B;下的&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
 
    ![](assets/sms_byo_1.png)
 
@@ -78,20 +74,9 @@ ht-degree: 13%
 
 1. 添加您的&#x200B;**[!UICONTROL 提供程序负载]**&#x200B;以验证和自定义您的请求负载。
 
-   您可以使用配置文件属性动态个性化有效负载，并通过内置帮助程序功能确保发送准确的数据用于处理和生成响应。
-<!--
-1. Add your **Inbound settings** to determine how your system handles incoming messages and subscriber preferences: 
-
-    * **[!UICONTROL Inbound Webhook URL]**: Specify the endpoint URL where inbound messages (e.g. replies or new messages from users) are sent.
-    * **[!UICONTROL Opt-in Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-In Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-in Message]**: Enter the custom response that is automatically sent as your Opt-In Message.
-    * **[!UICONTROL Opt-out Keywords]**: Enter the default or custom keywords that will automatically trigger your Opt-Out Message. For multiple keywords, use comma-separated values.
-    * **[!UICONTROL Opt-out Message]**: Enter the custom response that is automatically sent as your Opt-Out Message.
--->
-
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
-1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击bin图标以删除您的API凭据。
+1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的API凭据。
 
    ![](assets/sms_byo_3.png)
 
@@ -99,9 +84,7 @@ ht-degree: 13%
 
    ![](assets/sms_byo_4.png)
 
-创建和配置API凭据后，现在需要为SMS消息创建渠道平面。 [了解详情](sms-configuration-surface.md)
-
-配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 
@@ -160,6 +143,59 @@ ht-degree: 13%
 
 >[!ENDTABS]
 
-## 操作说明视频 {#video}
+## 创建Webhook {#webhook}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443616?captions=chi_hans)
+>[!BEGINSHADEBOX]
+
+如果未提供选择加入或选择退出关键词，则使用标准同意消息尊重用户隐私。 添加自定义关键字会自动覆盖默认值。
+
+**默认关键字：**
+
+* **选择加入**：订阅，是，不停止，开始，继续，继续，开始
+* **选择退出**：停止、退出、取消、结束、取消订阅、否
+* **帮助**：帮助
+
+>[!ENDSHADEBOX]
+
+成功创建API凭据后，下一步是创建webhook并配置入站设置。 此配置可确保您的系统能够正确接收和处理传入的数据或消息。
+
+1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL 短信设置]**&#x200B;下的&#x200B;**[!UICONTROL 短信Webhook]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建Webhook]**&#x200B;按钮。
+
+   ![](assets/sms_byo_5.png)
+
+1. 配置Webhook设置，如下所述：
+
+   * **[!UICONTROL 名称]**：输入Webhook的名称。
+
+   * **[!UICONTROL 选择SMS供应商]**：自定义。
+
+   * **[!UICONTROL 选择API凭据]**：从下拉列表中选择[以前配置的API凭据](#api-credential)。
+
+   * **[!UICONTROL 选择加入关键字]**：输入将自动触发选择加入消息的默认或自定义关键字。 对于多个关键字，请使用逗号分隔的值。
+
+   * **[!UICONTROL 选择加入消息]**：输入作为选择加入消息自动发送的自定义响应。
+
+   * **[!UICONTROL 选择退出关键词]**：输入将自动触发选择退出消息的默认或自定义关键词。 对于多个关键字，请使用逗号分隔的值。
+
+   * **[!UICONTROL 选择退出消息]**：输入作为选择退出消息自动发送的自定义响应。
+
+   ![](assets/sms_byo_6.png)
+
+1. 单击&#x200B;**[!UICONTROL 查看有效负载编辑器]**&#x200B;以验证和自定义您的请求有效负载。
+
+   您可以使用配置文件属性动态个性化有效负载，并通过内置帮助程序功能确保发送准确的数据用于处理和生成响应。
+
+1. 完成Webhook配置后，单击&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL Webhooks]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的Webhook。
+
+1. 要修改现有配置，请找到所需的Webhook，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要的更改。
+
+1. 从您以前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;访问和复制新的&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/sms_byo_7.png)
+
+在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
+
+配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+

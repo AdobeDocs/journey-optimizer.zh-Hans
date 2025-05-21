@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 25%
+source-wordcount: '815'
+ht-degree: 28%
 
 ---
 
@@ -22,14 +22,9 @@ ht-degree: 25%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-
-## 2025年5月早期发行说明 {#25-5-rn}
-
-
-**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;链接、屏幕和更新文档在发布日期发布。
+## 2025年5月发行说明 {#25-5-rn}
 
 **发行日期**： 2025年5月20日至21日
-
 
 ### 新功能 {#25-05-features}
 
@@ -72,43 +67,44 @@ ht-degree: 25%
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>将读取受众计划与批次分段作业同步</strong><br/></th>
+<th><strong>Synchronize read audience schedule with batch segmentation job</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>现在，您可以在批量分段完成后触发每日历程运行。 现在，所有客户都可以在每日计划的历程中使用此选项。 它允许您定义一个长达6小时的时间范围，以等待来自批处理分段作业的受众数据，确保历程使用最新数据运行，或者如果未准备就绪则跳过。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
+<p>You can now trigger daily journey runs after batch segmentation completion. This option is now available in daily-scheduled journeys to all customers. It allows you to define for a time window of up to 6 hours to wait for audience data from batch segmentation jobs, ensuring journeys run with the most up-to-date data or are skipped if not ready.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager内容片段集成</strong><br/></th>
+<th><strong>Adobe Experience Manager Content fragment integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通过将Adobe Experience Manager与Adobe Journey Optimizer集成，您现在可以轻松地在Journey Optimizer内容中使用Adobe Experience Manager内容片段。 这种无缝连接使得直接在Journey Optimizer中访问和使用您的AEM内容更加容易。</p>
-<p>此功能以前仅供有限组织(LA)使用，现在已正式推出，并提供了以下增强功能：</p>
+<p>With the integration of Adobe Experience Manager and Adobe Journey Optimizer, you can now effortlessly use Adobe Experience Manager Content Fragments within your Journey Optimizer content. This seamless connection makes it easier to access and use your AEM content directly in Journey Optimizer.</p>
+<p>Previously available for a limited set of organizations (LA), this capability is now GA with the following enhancements:</p>
 <ul>
-<li>通过直接选择AEM内容片段创建选件。</li>
-<li>使用编辑器模式在片段签名中定义占位符和映射个性化值。</li>
+<li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li>
 </ul>
+<img src="assets/do-not-localize/content-fragment.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--<table>
 <thead>
@@ -128,26 +124,27 @@ ht-degree: 25%
 </tbody>
 </table>-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager Dynamic media集成</strong><br/></th>
+<th><strong>Adobe Experience Manager Dynamic media integration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media 资源现可直接在 Journey Optimizer 中使用和访问。通过此集成，您可以：</p>
+<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:</p>
 <ul>
-<li>通过实时更新集中管理资源。</li>
-<li>立即修改您的资源设置，如宽度和高度。</li>
-<li>通过更新内容和添加个性化字段来自定义Dynamic Media模板。</li>
+<li>Centrally manage assets with real-time updates.</li>
+<li>Modify your assets settings such as width and height instantly.</li>
+<li>Customize Dynamic Media templates by updating your content and adding personalization fields.</li>
 </ul>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -165,29 +162,29 @@ ht-degree: 25%
 <li>改进了故障排除：查询服务中现在提供了两个新的步骤事件字段，允许您分析为何从历程或营销活动中拒绝用户档案。</li>
 <li>增强报告：报告现在可指示哪个特定规则从历程或营销活动中排除用户档案，从而提高透明度和提供切实可行的见解。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
+<p>有关更多信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>模拟内容变体</strong><br/></th>
+<th><strong>Simulate content variations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此前在 Beta 中提供内容变体模拟功能，现在该功能已正式发布 (GA)。它可以让您使用从 CSV 或 JSON 文件上传的示例输入数据或通过手动添加数据预览内容的不同变体。系统会自动检测内容中用于个性化的所有属性，可使用这些属性进行测试以创建多个变体。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境。 在此General Availability版本中，该功能现在包括支持多语言内容和内容实验，使您能够测试不同语言和处理之间的变体。 此外，它现在支持上下文属性（以及用户档案属性），从而允许进行更加动态和情境化的内容测试。</p>
+<p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the feature now includes support for multilingual content and content experiments, enabling you to test variations across different languages and treatments. Additionally, it now supports contextual attributes (in addition to profile attributes), allowing for even more dynamic and situational content testing.</p>
 <img src="assets/do-not-localize/variants.gif">
-<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
+<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--table>
 <thead>
@@ -239,8 +236,6 @@ ht-degree: 25%
 </table>
 -->
 
-
-
 ### 改进 {#25-05-improv}
 
 下面列出了此版本中的改进。
@@ -272,35 +267,36 @@ ht-degree: 25%
   >
   >该功能将在接下来的30天内逐步推广到所有环境。
 
-* **电子邮件模板中的点击跟踪**
+* Web渠道中支持&#x200B;**“重定向到URL”**
 
-  现在，Journey Optimizer本机支持对电子邮件模板中图像映射的`<area>`元素进行点击跟踪。 这是为了确保图像映射区域接收与标准超链接相同的跟踪环绕、跟踪数据和附加参数。
-
-* **决策 — 利用Adobe Experience Platform数据集**
-
-  Journey Optimizer现在允许您在以下Decisioning对象中利用Adobe Experience Platform数据集：资格规则、排名公式和上限规则。
+  现在，通过Journey Optimizer Web渠道可将访客重定向到另一个现有URL，而不是在可视编辑器中创作新的变体。 此功能可用于运行比较两个完全不同的页面的实验，而不是只更改页面中的几个元素。 [了解详情](../web/create-web.md#web-redirect-to-url)
 
 * **模板和片段的文件夹**
 
-  通过文件夹，您可以更轻松、更有效地将内容模板和片段组织到结构化层次结构中。 以前，文件夹可用于一组组织(LA)，现在所有用户(GA)都可以管理其内容模板和片段。
+  通过文件夹，您可以更轻松有效地将对象组织到结构化层次结构中。 文件夹以前面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)，以便管理其内容模板和片段。请参阅[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分以了解详情。
 
-* Web渠道中支持&#x200B;**“重定向到URL”**
+* **电子邮件模板中的点击跟踪**
 
-  现在，通过Journey Optimizer Web渠道可将访客重定向到另一个现有URL，而不是在可视编辑器中创作新的变体。 此功能可用于运行比较两个完全不同的页面的实验，而不是只更改页面中的几个元素。
-
-<!--* **Right rail in campaigns list**
-
-  In the campaign list, selecting a campaign now opens a pane displaying its details.-->
-
-* 基于代码的体验内容中的&#x200B;**表单字段**
-
-  在内容模板中，您现在可以定义特定的JSON或HTML字段，这些字段使非技术用户能够轻松编辑基于代码的体验中的内容，而无需处理代码。
-
-* **决策规则的决策项属性支持**
-
-  您现在可以利用决策项目属性来创建决策规则。
+  现在，[!DNL Journey Optimizer]本机支持对电子邮件内容中图像映射的`<area>`元素进行点击跟踪。 这是为了确保图像映射区域接收与标准超链接相同的跟踪环绕、跟踪数据和附加参数。 [了解有关邮件跟踪的更多信息](../email/message-tracking.md#manage-tracking)
 
 <!--
+* **Decisioning - Leverage Adobe Experience Platform datasets** 
+  
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+
+* **Right rail in campaigns list**
+
+  In the campaign list, selecting a campaign now opens a pane displaying its details.
+
+* **Form fields in code-based experience content**
+
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+
+* **Decision item attribute support for decisioning rules**
+  
+  You can now leverage decision item attributes to create decisioning rules.
+
 * **Subdomains - 'Custom delegation' method**  
-  In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.-->
+  In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
+  -->
 

@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -1240,13 +1240,13 @@ ht-degree: 100%
 
 以前作为 Beta 版提供，现在所有用户都可以使用以下改进功能：
 
-* 您现在可以锁定&#x200B;**通过受众组合创建的受众**，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
+* 您现在可以锁定&#x200B;**通过受众构成创建的受众**，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
 * 您现在可以将&#x200B;**从 CSV 文件上传的受众**&#x200B;锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
-  >* 当前，无法将受众组合和自定义上传（CSV 文件）中的受众和属性用于 Healthcare Shield 或 Privacy and Security Shield。
+  >* 当前，无法将受众构成和自定义上传（CSV 文件）中的受众和属性用于 Healthcare Shield 或 Privacy and Security Shield。
   >* 改进的&#x200B;**从 CSV 文件上传受众**&#x200B;的功能将在最初发布后的几天内逐步推出。虽然某些用户将可以立即获得相应的访问权限，但其他用户可能要等待一些时间才能在自己的环境中访问该功能。
 
 **历程**
@@ -1266,7 +1266,7 @@ ht-degree: 100%
 
 **频率规则**
 
-* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的轮廓。[了解详情](../configuration/rule-sets.md)
+* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的轮廓。[了解详情](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ ht-degree: 100%
 
 **频率规则**
 
-* **每周频率上限** - 现在，除了可以指定一个月内向某个客户的轮廓发送的最大消息数外，您还可以指定在一周内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/rule-sets.md)
+* **每周频率上限** - 现在，除了可以指定一个月内向某个客户的轮廓发送的最大消息数外，您还可以指定在一周内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >

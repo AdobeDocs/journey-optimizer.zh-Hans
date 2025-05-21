@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 19%
 
 ---
@@ -21,13 +21,9 @@ ht-degree: 19%
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
-显示在当前沙盒上创建的所有片段 — 使用[另存为片段](#save-as-fragment)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单[&#128279;](#create-fragments)中创建的。
+显示在当前沙盒上创建的所有片段 — 使用[另存为片段](#save-as-fragment)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单](#create-fragments)中创建的[。
 
 利用左侧的窗格，可将片段整理到文件夹中。 默认情况下，将显示所有片段。 选择文件夹时，仅显示选定文件夹中包含的片段和文件夹。 [了解详情](#folders)
-
->[!NOTE]
->
->片段文件夹仅适用于一组组织（限量发布），并将逐步向更多用户推出。
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ ht-degree: 19%
 >id="ajo_fragments_folders"
 >title="将片段整理到文件夹中"
 >abstract="根据您的组织需求，使用文件夹对片段进行分类和管理。"
-
->[!AVAILABILITY]
->
->片段文件夹仅适用于一组组织（限量发布），并将逐步向更多用户推出。
 
 要轻松导航片段，您可以使用文件夹更高效地将其整理到结构化层次结构中。 这使您能够根据组织需求对项目进行分类和管理。
 

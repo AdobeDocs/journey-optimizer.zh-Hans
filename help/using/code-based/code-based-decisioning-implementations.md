@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ ht-degree: 0%
 
 ## 使用决策测试基于代码的体验 {#code-based-test-decisions}
 
-目前，在使用决策的基于[代码的体验](create-code-based.md)营销活动或历程中，您无法从用户界面模拟内容。
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-作为解决方法，您可以在发布营销活动后测试决策，方法是将`dryRun`标志添加到客户端实施中的XDM事件`data`块中：
+使用决策功能测试[基于代码的体验](create-code-based.md)时，`dryRun`标志可用于抑制报告和上限计数器的反馈事件。
+
+发布营销活动后，将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
 
     “
-    &lbrace;
-    ”数据“： &lbrace;
-    ”__adobe”： &lbrace;
-    &quot;ajo”： &lbrace;
+    {
+    ”数据“： {
+    ”__adobe”： {
+    &quot;ajo”： {
     &quot;dryRun”： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     “
 ”
+<!--
 >[!CAUTION]
 >
->将`dryRun`标志添加到请求中将会阻止捕获反馈以用于报表和频率计数器添加到中。
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## 基于代码的实施中的决策项目重复数据删除 {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ ht-degree: 0%
 
 ### 在请求中应用去重 {#deduplication-in-request}
 
-默认情况下，重复数据删除标志设置为`true`（未传递）。
+默认情况下，重复数据删除标志设置为`true`。
 
 在Konductor请求中，如果您希望在响应中包含唯一元素，则可以传递重复数据删除标记。 在这种情况下，将其设置为`false`。
 

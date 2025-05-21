@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 4%
+source-wordcount: '528'
+ht-degree: 3%
 
 ---
 
 # 配置 Infobip 提供程序 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+如果未提供选择加入或选择退出关键词，则使用标准同意消息尊重用户隐私。 添加自定义关键字会自动覆盖默认值。
+
+**默认关键字：**
+
+* **选择加入**：订阅，是，不停止，开始，继续，继续，开始
+* **选择退出**：停止、退出、取消、结束、取消订阅、否
+* **帮助**：帮助
+
+>[!ENDSHADEBOX]
 
 要使用Journey Optimizer配置Infobip，请执行以下步骤：
 
@@ -40,7 +52,7 @@ ht-degree: 4%
 
    * **[!UICONTROL 帮助消息]**：输入作为&#x200B;**帮助消息**&#x200B;自动发送的自定义响应。
 
-   * **[!UICONTROL 双重选择加入关键字]**：输入触发双重选择加入流程的关键字。 如果用户配置文件不存在，则会在确认成功时创建该配置文件。对于多个关键字，请使用逗号分隔的值。
+   * **[!UICONTROL 双重选择加入关键字]**：输入触发双重选择加入流程的关键字。 如果用户轮廓不存在，则会在确认成功时创建该轮廓。对于多个关键字，请使用逗号分隔的值。
 
    * **[!UICONTROL 双重选择加入消息]**：输入为响应双重选择加入确认而自动发送的自定义响应。
 

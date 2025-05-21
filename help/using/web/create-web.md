@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 18%
+source-wordcount: '1543'
+ht-degree: 16%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 18%
 >abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-将Web操作[&#128279;](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：
+将Web操作](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：[
 
 * [Web设计器](web-visual-editor.md)，用于使用可视编辑器创作您的体验；
 * 或[非可视编辑器](web-non-visual-editor.md)。
@@ -152,6 +152,31 @@ ht-degree: 18%
 >在复制测试URL时，显示的内容是在[!DNL Journey Optimizer]中生成内容模拟时所使用的测试配置文件的个性化内容。
 
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
+
+## 重定向到URL {#web-redirect-to-url}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_redirect"
+>title="重定向到其他URL"
+>abstract="输入要重定向页面访客的现有URL。"
+
+在创建Web体验时，您可以将访客重定向到另一个现有URL，而不是在Web设计器中创作新的变体。
+
+使用此能力，您可以运行[内容试验](../content-management/content-experiment.md)，比较两个不同的体验，而不是只更改页面中的几个元素。
+
+例如，创建具有两种处理方式的Web营销活动：
+
+* 在&#x200B;**处理A**&#x200B;中，使用Web设计器为半数目标群体创作Web体验。
+
+* 在&#x200B;**处理B**&#x200B;中，为另一半目标群体选择&#x200B;**[!UICONTROL 重定向到URL]**&#x200B;选项。 输入带有您在[!DNL Journey Optimizer]之外编写的备用设计的页面的URL。
+
+  ![](assets/web-campaign-redirect-to-url.png)
+
+  >[!NOTE]
+  >
+  >网站预览不再显示，并且&#x200B;**[!UICONTROL 可视编辑器]**&#x200B;切换按钮已禁用。
+
+在Web营销活动上线后，您可以跟踪您在[!DNL Journey Optimizer]中创作的Web体验对于页面的访客和被重定向到外部登陆页面的访客的执行情况。 了解[试验性营销活动报告](../reports/campaign-global-report-cja-experimentation.md)的使用方法
 
 ## 让您的Web体验上线 {#web-experience-live}
 
@@ -241,4 +266,4 @@ ht-degree: 18%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

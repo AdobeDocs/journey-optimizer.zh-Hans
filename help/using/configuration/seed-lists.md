@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 种子列表，种子列表，种子，配置
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 17%
@@ -83,7 +83,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="定义种子列表"
 >abstract="使用种子列表将特定的内部地址自动添加到您的投放受众中，以达到保证的目的。种子列表可让您监控发出的消息副本，以确保所有显示要素正确，并保护您的邮件列表。目前，此功能仅适用于电子邮件渠道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hans#use-seed-list" text="什么是种子列表？"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什么是种子列表？"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -96,7 +96,7 @@ ht-degree: 17%
 
 1. 选择&#x200B;**[!UICONTROL 创建种子列表]**&#x200B;按钮。
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. 填写详细信息。 首先添加一个名称。
 
@@ -120,7 +120,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >您可以合并两个选项，但种子列表中的地址总数不能超过50个。
+   >您可以合并两个选项，但种子列表中的地址总数不能超过300。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以确认。 新创建的种子列表显示在[种子列表屏幕](#access-seed-lists)中。
 

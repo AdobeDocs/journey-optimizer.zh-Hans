@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1960'
 ht-degree: 14%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 首次从&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 业务规则]**&#x200B;菜单访问规则集时，默认规则集已预先创建并处于活动状态： **全局默认规则集**。
 
-此规则集包含全局规则，您可以应用这些规则来控制用户跨一个或多个渠道接收消息的频率，类似于当前业务规则的操作方式。 此规则集中定义的所有规则都适用于所有选定的渠道，无论通信是从历程还是营销活动发送。 [了解如何使用业务规则](../configuration/rule-sets.md)
+此规则集包含全局规则，您可以应用这些规则来控制用户跨一个或多个渠道接收消息的频率，类似于当前业务规则的操作方式。 此规则集中定义的所有规则都适用于所有选定的渠道，无论通信是从历程还是营销活动发送。 [了解如何使用业务规则](../conflict-prioritization/rule-sets.md)
 
 除了此“全局默认规则集”规则集之外，您还可以创建&#x200B;**自定义规则集**，可将其应用于任何营销活动以限制在该营销活动中发送的消息数。 [了解如何创建自定义规则集](#create)
 
@@ -63,10 +63,6 @@ ht-degree: 14%
 
 * **渠道**&#x200B;域：对通信渠道应用上限规则。 例如，每天发送的电子邮件或短信通信不得超过1个。
 * **历程**&#x200B;域：将条目和并发上限规则应用于旅程。 例如，请勿将用户档案同时输入多个历程。
-
->[!AVAILABILITY]
->
->虽然&#x200B;**渠道**&#x200B;域规则集对所有用户都可用，但&#x200B;**历程**&#x200B;域规则集仅对有限的用户集可用（有限可用性）。 要获得访问权限，请与 Adobe 代表联系。
 
 ## 创建您的第一个自定义规则集 {#create-rule-set}
 
@@ -87,10 +83,6 @@ ht-degree: 14%
 1. 选择规则集的域。 域允许您指定规则集是否包含特定于通信渠道或历程的上限规则。 [了解有关渠道和历程上限规则的更多信息](#domain)
 
    ![](assets/rule-sets-create.png)
-
-   >[!AVAILABILITY]
-   >
-   >虽然&#x200B;**渠道**&#x200B;域规则集对所有用户都可用，但&#x200B;**历程**&#x200B;域规则集仅对有限的用户集可用（有限可用性）。 要获得访问权限，请与 Adobe 代表联系。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -139,10 +131,6 @@ ht-degree: 14%
 1. 从&#x200B;**[!UICONTROL 持续时间]**&#x200B;下拉列表中，选择是每月、每周还是每日应用上限。 频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
 
    ![](assets/rule-set-capping-duration.png)
-
-   >[!AVAILABILITY]
-   >
-   >“每日”持续时间仅适用于一组组织（限量发布）。 要获得访问权限，请与 Adobe 代表联系。
 
    各期间计数器到期如下：
 
@@ -324,4 +312,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

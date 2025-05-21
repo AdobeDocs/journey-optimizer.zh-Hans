@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 3%
 显示在当前沙盒上创建的所有模板 — 无论是来自历程还是使用&#x200B;**[!UICONTROL 另存为模板]**&#x200B;选项（从&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单）的营销活动。 [了解如何创建模板](#create-content-templates)
 
 利用左侧的窗格，可将内容模板整理到文件夹中。 默认情况下，将显示所有模板。 选择文件夹时，仅显示选定文件夹中包含的模板和文件夹。 [了解详情](#folders)
-
->[!NOTE]
->
->内容模板文件夹仅对一组组织可用（限量发布），并将逐步向更多用户推出。
 
 ![](assets/content-template-list-folders.png)
 
@@ -49,10 +45,6 @@ ht-degree: 3%
 >从2025年3月开始，弃用HTML类型内容模板。 您仍然可以访问之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。
 
 ## 使用文件夹管理内容模板 {#folders}
-
->[!AVAILABILITY]
->
->内容模板文件夹仅对一组组织可用（限量发布），并将逐步向更多用户推出。
 
 要轻松导航您的内容模板，您可以使用文件夹来更有效地将其组织到结构化层次结构中。 这使您能够根据组织需求对项目进行分类和管理。
 

@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -261,7 +261,7 @@ ht-degree: 100%
 <td>
 <p>使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/3412401?captions=chi_hans">功能介绍视频</a>中了解如何创建营销活动。
+<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您现在可以设置跨渠道业务规则，以自动从消息和操作中排除遭到过量请求的轮廓。</p>
-<p>有关更多信息，请参阅<a href="../configuration/rule-sets.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../conflict-prioritization/rule-sets.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
