@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -1266,7 +1266,7 @@ ht-degree: 100%
 
 **频率规则**
 
-* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的轮廓。[了解详情](../conflict-prioritization/rule-sets.md)
+* 除了电子邮件和推送之外，您现在还可以为短信和直邮渠道创建频率规则。当达到频率上限时，频率规则会自动从消息和操作中排除过度联系的轮廓。[了解详情](../configuration/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ ht-degree: 100%
 
 **频率规则**
 
-* **每周频率上限** - 现在，除了可以指定一个月内向某个客户的轮廓发送的最大消息数外，您还可以指定在一周内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../conflict-prioritization/rule-sets.md)
+* **每周频率上限** - 现在，除了可以指定一个月内向某个客户的轮廓发送的最大消息数外，您还可以指定在一周内发送的最大消息数。频率上限基于所选日历周期并在相应时间范围的起始点重置。[了解详情](../configuration/rule-sets.md)
 
   >[!NOTE]
   >
