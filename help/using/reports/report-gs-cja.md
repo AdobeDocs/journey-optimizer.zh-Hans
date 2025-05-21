@@ -11,7 +11,7 @@ exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: c59dc9e8ef33f861106276e91513a078404713fa
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_enable_cja"
->title="启用Customer Journey Analytics"
->abstract="要在Customer Journey Analytics中分析此报表，请联系您的管理员以确保贵组织已购买Customer Journey Analytics并且已正确配置集成。"
+>title="启用 Customer Journey Analytics"
+>abstract="要在 Customer Journey Analytics 中分析此报告，请联系您的管理员，以确保您的组织已购买 Customer Journey Analytics，并且已正确配置集成。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
 
 >[!IMPORTANT]
@@ -53,14 +53,14 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
 * 如果您&#x200B;**拥有** Customer Journey Analytics并有权访问Customer Journey Analytics产品配置文件，您将需要：
 
-   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control)
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
 
    * **[!UICONTROL 管理Adobe Journey Optimizer的用户档案]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
-* 您的Customer Journey Analytics数据视图需要使用以下设置进行配置： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的详细信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview)
+* 您的Customer Journey Analytics数据视图需要使用以下设置进行配置： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的详细信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## 操作说明视频{#video}
 
 以下视频介绍了如何在Customer Journey Analytics中使用增强的Journey Optimizer报表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443161?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)

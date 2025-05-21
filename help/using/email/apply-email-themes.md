@@ -12,7 +12,7 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"
->title="将主题应用于电子邮件"
->abstract="选择电子邮件的主题，以快速应用符合您的品牌和设计的特定样式。"
+>title="将主题应用到您的电子邮件"
+>abstract="为您的电子邮件选择一个主题，以快速应用适合您的品牌和设计的特定样式。"
 
 <!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
 

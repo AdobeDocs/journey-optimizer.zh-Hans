@@ -111,7 +111,7 @@ ht-degree: 16%
 >abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-将Web操作[&#128279;](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：
+将Web操作](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：[
 
 * [Web设计器](web-visual-editor.md)，用于使用可视编辑器创作您的体验；
 * 或[非可视编辑器](web-non-visual-editor.md)。
@@ -266,4 +266,4 @@ ht-degree: 16%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
