@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
+source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 此类事件可定位为历程的第一步或后续步骤。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ### 重要说明 {#important-notes-segment-qualification}
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -127,7 +127,7 @@ ht-degree: 17%
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hans#api)。
+有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 ### 如何避免过载 {#overloads-speed-segment-qualification}
 
@@ -137,14 +137,14 @@ ht-degree: 17%
 
 ![](assets/segment-error.png)
 
-为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hans){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，则必须通过选中框&#x200B;**[!UICONTROL 在超时或条件或操作中出错]**&#x200B;的情况下添加替代路径来在历程中使用替代路径。
+为历程中使用的数据源和操作设置上限规则，以避免其过载。 了解有关[Journey Optimizer上限API](../configuration/capping.md)的更多信息。 请注意，上限规则不带重试。如果需要重试，则必须通过选中框&#x200B;**[!UICONTROL 在超时或条件或操作中出错]**&#x200B;的情况下添加替代路径来在历程中使用替代路径。
 
-在生产历程中使用受众之前，请始终首先评估每天符合此受众条件的个人数量。 为此，您可以检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
+在历程中使用受众之前，始终首先评估每天符合此受众条件的个人数量。 为此，您可以检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
 ![](assets/segment-overload.png)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
