@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 49%
+source-wordcount: '1025'
+ht-degree: 48%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 49%
   "maxThroughput": 4000
 }
 ```
+
+>[!IMPORTANT]
+>
+>只有在调用&#x200B;**部署**&#x200B;终结点后，配置才会处于活动状态。
 
 ## 错误
 
