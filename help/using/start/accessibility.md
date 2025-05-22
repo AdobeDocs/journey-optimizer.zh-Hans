@@ -7,18 +7,18 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Journey Optimizer 中的辅助功能{#accessibility}
 
-辅助功能是指让存在视觉、听觉、认知、运动或其他类型障碍的用户尽可能轻松使用软件产品的一系列功能。Adobe 是无障碍领域的行业领先者，鼓励开发人员制作可供所有用户访问的丰富且引人入胜的内容，从而为创造出色的 Web 体验提供支持。在 [Adobe 辅助功能页面](https://www.adobe.com/accessibility.html){target="_blank"}中进一步了解 Adobe 在无障碍领域做出的努力。
+辅助功能是指让存在视觉、听觉、认知、运动或其他类型障碍的用户尽可能轻松使用软件产品的一系列功能。Adobe 是无障碍领域的行业领先者，鼓励开发人员制作可供所有用户访问的丰富且引人入胜的内容，从而为创造出色的 Web 体验提供支持。在[Adobe辅助功能页面](https://www.adobe.com/accessibility.html){target="_blank"}中进一步了解Adobe对辅助功能的承诺。
 
-为了能够与无障碍方面的标准保持一致，[!DNL Journey Optimizer]我们遵循《Web 内容无障碍指南》(WCAG) 2.1 A 级和 AA 级中国际公认的最佳实践。在最新版本的 [Adobe Journey Optimizer 无障碍标准一致性报告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}中了解更多信息。
+为了能够与无障碍方面的标准保持一致，[!DNL Journey Optimizer]我们遵循《Web 内容无障碍指南》(WCAG) 2.1 A 级和 AA 级中国际公认的最佳实践。在最新的[Adobe Journey Optimizer无障碍合规性报告](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}中了解详情。
 
 
 [!DNL Adobe Journey Optimizer] 中的辅助功能源自于 Adobe Experience Platform：
@@ -27,7 +27,7 @@ ht-degree: 100%
 * 颜色对比度
 * 验证必填字段
 
-[本文档中](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}详细介绍了 Adobe Experience Platform 中的辅助功能。
+此文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}详细介绍了Adobe Experience Platform中的辅助功能[。
 
 在 [!DNL Journey Optimizer] 中可使用以下常用键盘快捷：
 
