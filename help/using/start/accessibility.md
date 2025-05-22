@@ -27,7 +27,7 @@ ht-degree: 0%
 * 颜色对比度
 * 验证必填字段
 
-此文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}详细介绍了Adobe Experience Platform中的辅助功能[。
+此文档[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}详细介绍了Adobe Experience Platform中的辅助功能。
 
 在 [!DNL Journey Optimizer] 中可使用以下常用键盘快捷：
 
