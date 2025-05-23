@@ -7,8 +7,8 @@ product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

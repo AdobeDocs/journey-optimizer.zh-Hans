@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 2025 年发行说明
+title: 2025 年版发行说明
 description: Journey Optimizer 2025 年发行说明
 feature: Release Notes
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 2025 年发行说明 {#release-notes-2025}
+# 2025 年版发行说明 {#release-notes-2025}
 
 本页列出了于 2025 年发布的 [!DNL Journey Optimizer] 功能和改进。
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 
 ### 新功能 {#25-04-features}
 
-下面列出了此版本随附的新功能。
+此版本包含的新功能如下所列。
 
 <table>
 <thead>
@@ -37,7 +37,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>个性化操练场现已发布，您可以在其中试验个性化表达式。通过该功能，您可以浏览示例模板和负载，有助于您创建并尝试自己的个性化表达式。</p>
+<p>个性化游乐场现已可用，您可以在其中试验个性化表达式。它提供了可供选择的示例模板和负载，有助于上手和尝试自己的个性化表达式。</p>
 <p>有关更多信息，请参阅<a href="../personalization/personalize.md#playground">详细文档</a>。</p>
 <p>发布日期：2025 年 4 月 24 日</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -82,14 +82,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>LINE渠道</strong><br/></th>
+<th><strong>LINE 渠道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Adobe Journey Optimizer 已扩展其跨渠道功能，包括对 LINE 渠道的支持。通过此增强功能，您可以创建、编辑和预览 LINE 体验，从而实现更加个性化且富有吸引力的交互。借助 LINE，您可以与更多客户建立联系，发送相关内容并提高参与度。</p>
-<p>已应请求为Adobe Journey Optimizer客户启用LINE渠道。 请联系Adobe客户关怀部门或您的Adobe代表，为您的组织激活该功能。</p>
+<p>应请求，已为 Adobe Journey Optimizer 客户启用 LINE 渠道。请联系 Adobe 客户关怀部门或 Adobe 代表，为您的组织激活该功能。</p>
 <p>有关更多信息，请参阅<a href="../line/get-started-line.md">详细文档</a>。</p></td>
 </tr>
 </tbody>
@@ -152,13 +152,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Express 集成（有限发布）</strong><br/></th>
+<th><strong>Adobe Express 集成（限量发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 现在与 Adobe Express 集成，使您能够将创意资产与 Journey Orchestration 无缝连接。此集成简化了跨营销活动设计和部署个性化内容的流程。 </p>
+<p>Adobe Journey Optimizer 现在与 Adobe Express 集成在一起，使您能够将创意资产与 Journey Orchestration 无缝连接。此集成简化了跨营销活动设计和部署个性化内容的过程。 </p>
 <p>此集成目前不适用于Healthcare Shield或Privacy and Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
@@ -170,13 +170,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>在批量分段完成后触发每日历程运行（有限发布）</strong><br/></th>
+<th><strong>在批量分段完成后触发每日历程运行（限量发布版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>对于每日计划的历程，新增选项可让您定义最长 6 小时的时间范围，以等待批量分段作业中的受众数据，确保使用最新数据运行历程或者如果未准备就绪则跳过历程。批量受众评估后触发选项仅面向一部分组织提供（有限发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>对于每日计划的历程，新增选项可让您定义长达 6 小时的时间范围，以便等待获取批量分段作业中的受众数据，从而确保使用最新数据运行历程或者在未准备就绪时跳过历程。“在批量受众评估后触发”选项仅面向一部分组织提供（限量发布版）。要获得访问权限，请与 Adobe 代表联系。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -206,13 +206,13 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>品牌一致性得分 (Beta)</strong><br/></th>
+<th><strong>品牌一致性分数（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>品牌一致性得分功能可直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否符合品牌的基调、风格和指南。Beta 测试版提供此功能。</p>
+<p>品牌一致性分数功能可以直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否与品牌的基调、风格和准则保持一致。此功能目前作为 Beta 版提供。</p>
 <p>有关更多信息，请参阅<a href="../content-management/brands-score.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -242,17 +242,17 @@ ht-degree: 92%
 
 ### 改进 {#25-04-improv}
 
-**促销活动预览API**
+**营销活动预览 API**
 
-除了现有的验证发送功能外，还可通过新API预览营销活动。 [了解更多信息](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
+除了现有的验证发送功能外，还可通过新的 API 预览营销活动。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
 
 **沙盒工具**
 
-* **自定义操作的沙盒工具**
+* **用于自定义操作的沙盒工具**
 
-  自定义操作现在包含在 Adobe Journey Optimizer 对象列表中，可以使用沙盒工具功能复制这些对象，从而简化测试和部署。[了解详情](../configuration/copy-objects-to-sandbox.md)
+  现在，可以使用沙盒工具功能复制的 Adobe Journey Optimizer 对象列表中包含自定义操作，这样有助于简化测试和部署。[了解详情](../configuration/copy-objects-to-sandbox.md)
 
-* **营销活动的沙盒工具** - 发布日期：2025 年 4 月 3 日
+* **用于营销活动的沙盒工具** - 发布日期：2025 年 4 月 3 日
 
   您现在可以使用资源包导出和导入功能跨多个沙盒复制营销活动。在复制营销活动时，与轮廓、受众、架构、内联消息和依赖对象相关的所有项目会一并复制。某些项目不会被复制，例如决策项目、数据使用标签和语言设置。[了解详情](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -260,7 +260,7 @@ ht-degree: 92%
 
 * **新的上下文属性**
 
-  现在可以从个性化编辑器中选择新的上下文属性&#x200B;**消息轮廓 ID**。这是一个消息导向的属性，用于唯一标识发送给投放中每个目标用户档案的每个消息。例如，此唯一标识符可用作 URL 跟踪参数，以区分收件人打开或单击的每个链接。
+  现在可以从个性化编辑器中选择新的上下文属性（**消息轮廓 ID）**。这是一种消息导向属性，用于唯一标识发送给投放中每个目标轮廓的每条消息。例如，此唯一标识符可用作 URL 跟踪参数，以区分收件人打开或单击的每个链接。
 
 * **属性窗格中的已填充属性** - 发布日期：2025 年 4 月 2 日
 
@@ -268,15 +268,15 @@ ht-degree: 92%
 
 **电子邮件渠道**
 
-* **个性化URL跟踪** — 发布日期：2025年4月30日
+* **个性化 URL 跟踪** - 发布日期：2025 年 4 月 30 日
 
-  为了提高灵活性和对电子邮件设置的控制，您现在可以在电子邮件渠道配置级别一次性个性化所有URL跟踪参数，而不是在电子邮件设计器中为内容中的每个链接进行个性化设置。 [了解详情](../email/surface-personalization.md#personalize-url-tracking)
+  为了提高灵活性和对电子邮件设置的控制，您现在可以在电子邮件渠道配置级别一次性对所有 URL 跟踪参数进行个性化设置，而不是在电子邮件设计器中为内容中的每个链接进行个性化设置。[了解详情](../email/surface-personalization.md#personalize-url-tracking)
 
 * **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
 
   为了增强 Journey Optimizer 中的辅助功能，电子邮件设计器中现在提供两个新的字段：它们对应电子邮件内容的 `<html>` 元素中的 `<title>` 元素和 `lang` 属性。除了在&#x200B;**[!UICONTROL 邮件引文]**&#x200B;字段中，您还可以在电子邮件&#x200B;**[!UICONTROL 正文]**&#x200B;部分中定义这些设置。[了解详情](../email/email-metadata.md)
 
-**用例行动手册**
+**用例战术手册**
 
 * **行动手册创作和共享（私人测试版）** — 您现在可以创建、管理和共享您自己的用例行动手册。 此功能当前仅作为专用测试版提供给一组组织。 要获取访问权限，请联系您的Adobe代表。 [了解详情](../start/playbooks.md)
 
@@ -477,15 +477,15 @@ Journey Optimizer 个性化编辑器已更新，新增了以下功能：
 
 **业务规则**
 
-现在，您可以在使用批量分段的历程和营销活动中设置每日频次上限。要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
+现在，您可以在使用批量分段的历程和营销活动中设置每日频率上限。要保证每日频率上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
-请注意，规则集中的每日频次上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
+请注意，规则集中的每日频率上限仅适用于一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
 
 有关业务规则的更多信息，请参阅[详细文档](../configuration/rule-sets.md)。
 
 **内容模板**
 
-HTML 类型内容模板现已弃用。请注意，您仍然可以使用之前在 [!DNL Journey Optimizer] 中创建的现有 HTML 内容模板。[了解有关内容模板的更多信息](../content-management/content-templates.md)
+现已弃用 HTML 类型内容模板。请注意，您仍然可以使用之前在 [!DNL Journey Optimizer] 中创建的现有 HTML 内容模板。[了解有关内容模板的更多信息](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -544,7 +544,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>使用 AI 助手的品牌 (Beta)</strong><br/></th>
+<th><strong>使用 AI 助手设置品牌（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>

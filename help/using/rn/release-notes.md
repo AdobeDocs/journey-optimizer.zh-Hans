@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -261,11 +261,11 @@ ht-degree: 27%
 
 * **个性化的Papers激活** — 发布日期：2025年5月5日
 
-  个性化编辑器中已添加新的“Pipels”按钮。 启用后，配置文件和上下文属性将显示为Pills，从而提高代码的可读性。 [了解详情](../personalization/personalization-build-expressions.md#options)
+  个性化编辑器中新增了一个“药丸”按钮。启用后，配置文件和上下文属性将显示为“药丸”，从而提高代码的可读性。[了解详情](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
-  >该功能将在接下来的30天内逐步推广到所有环境。
+  >该功能将在接下来的 30 天内逐步推广到所有环境。
 
 * Web渠道中支持&#x200B;**“重定向到URL”**
 

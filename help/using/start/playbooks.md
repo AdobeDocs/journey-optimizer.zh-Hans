@@ -10,14 +10,14 @@ level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 用例战术手册 {#playbooks}
 
-## 什么是用例行动手册 {#gs}
+## 什么是用例战术手册 {#gs}
 
 用例战术手册是预定义的工作流程，用于处理您可以使用 Adobe Experience Platform 和 Journey Optimizer 执行的常见用例。
 
@@ -29,15 +29,15 @@ ht-degree: 69%
 
 ## 先决条件 {#prerequisites}
 
-在使用用例战术手册之前，需要执行以下配置步骤。有关每个步骤的详细信息，请参阅用例行动手册文档[入门](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=zh-Hans){target="_blank"}页。
+在使用用例战术手册之前，需要执行以下配置步骤。有关每个步骤的详细信息，请参阅用例战术手册文档的[快速入门](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=zh-Hans){target="_blank"}页面。
 
 * 创建沙盒
 * 配置用户权限
 * 为电子邮件、推送和短信通知配置 Journey Optimizer 渠道配置
 
-## 访问和启用行动手册 {#access}
+## 访问和启用战术手册 {#access}
 
-要访问手册，请导航到位于左侧导航边栏的&#x200B;**[!UICONTROL 战术手册]**&#x200B;菜单。该库包含多个使用 Adobe Journey Optimizer 实施的战术手册。为了轻松访问战术手册，请使用搜索栏旁边的筛选器。[用例行动手册文档](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"}中提供了Journey Optimizer行动手册的完整列表。
+要访问手册，请导航到位于左侧导航边栏的&#x200B;**[!UICONTROL 战术手册]**&#x200B;菜单。该库包含多个使用 Adobe Journey Optimizer 实施的战术手册。为了轻松访问战术手册，请使用搜索栏旁边的筛选器。有关 Journey Optimizer 战术手册的完整列表，请参阅[用例战术手册文档](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hans){target="_blank"}。
 
 ![打开了带有筛选器窗格的战术手册列表](assets/playbooks-filter.png){width="85%"}
 
@@ -49,7 +49,7 @@ ht-degree: 69%
 
 要实施用例，您可以导航到每个对象并根据需求进行调整。您还可以在团队之间共享战术手册实例页面 URL，以便协作实施用例。
 
-此外，您可以将战术手册资产导入其他沙盒中。假如您已设置自己的架构、字段和字段组，这样做可以使生成的资产与现有资产保持一致，并确保其与数据兼容。用例行动手册文档中详细介绍了这些步骤：[将行动手册生成的资源发布到其他沙盒](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=zh-Hans){target="_blank"}。
+此外，您可以将战术手册资产导入其他沙盒中。假如您已设置自己的架构、字段和字段组，这样做可以使生成的资产与现有资产保持一致，并确保其与数据兼容。用例战术手册文档中详细介绍了这些步骤：[将战术手册生成的资产发布到其他沙盒](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=zh-Hans){target="_blank"}。
 
 ## 创建您自己的行动手册（私人测试版） {#create}
 
@@ -57,8 +57,8 @@ ht-degree: 69%
 >
 >用例行动手册创建当前仅作为专用测试版提供给一组组织。 要获得访问权限，请与 Adobe 代表联系。
 
-除了利用预定义的行动手册之外，您还可以在Adobe Experience Platform中创建并共享您自己的行动手册。
+除了利用预定义的战术手册之外，您还可以在 Adobe Experience Platform 中创建并共享自己的战术手册。
 
-您可以使用AI帮助或手动输入定义元数据，关联技术资产（如架构、区段），并在不同IMS组织之间共享行动手册。
+您可以借助 AI 辅助功能来定义元数据或手动输入元数据，关联技术资产（如架构、区段），并在不同 IMS 组织之间共享战术手册。
 
-有关如何创建和共享行动手册的更多信息，请参阅用例行动手册文档： [使用AI助手创作和共享您自己的行动手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hans#sharing-playbooks-sandboxes){target="_blank"}。
+有关如何创建和共享战术手册的更多信息，请参阅用例战术手册文档：[使用 AI 助手编写和共享自己的战术手册](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hans#sharing-playbooks-sandboxes){target="_blank"}。
