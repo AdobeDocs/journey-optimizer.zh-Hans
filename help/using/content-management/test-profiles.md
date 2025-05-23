@@ -1,33 +1,29 @@
 ---
-title: 选择测试用户档案
+title: 选择测试轮廓
 description: 了解如何选择测试用户档案以预览和测试内容。
 feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: bc433a215021b9c5c6a8948468468808e7121712
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 13%
+source-wordcount: '276'
+ht-degree: 10%
 
 ---
 
-# 选择测试用户档案 {#select-test-profiles}
+# 选择测试轮廓 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="使用测试轮廓检查您的内容"
->abstract="使用测试轮廓预览和测试您的内容。如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。"
+>abstract="使用测试轮廓预览和测试您的内容。如果您添加了个性化字段，则可以使用测试用户档案数据检查这些字段的显示方式。"
 
-在预览或测试内容之前，您首先需要选择测试用户档案，这些是与定义的定位标准不匹配的附加收件人。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)
+测试用户档案是与定义的定向标准不匹配的其他收件人。 [了解如何创建测试用户档案](../audience/creating-test-profiles.md)
 
->[!NOTE]
->
->除了测试用户档案之外，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+在使用测试用户档案测试内容之前，您首先需要选择它们。 为此，请执行以下步骤：
 
-要选择测试用户档案，请执行以下步骤：
-
-1. 从消息的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮。
+1. 从邮件的编辑内容屏幕或电子邮件Designer中，单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 模拟内容]**。
 
 1. 单击&#x200B;**[!UICONTROL 管理测试配置文件]**&#x200B;按钮，然后单击&#x200B;**[!UICONTROL 标识命名空间]**&#x200B;选择图标以选择要用于标识测试配置文件的命名空间。 [了解有关Adobe Experience Platform标识命名空间的更多信息](../audience/get-started-identity.md)。
 
@@ -48,3 +44,7 @@ ht-degree: 13%
    ![](../email/assets/preview-profile-list.png)
 
    此列表根据消息个性化元素，在相关列中显示每个测试用户档案的数据。
+
+>[!NOTE]
+>
+>除了测试用户档案之外，[!DNL Journey optimizer]还允许您测试内容的不同变体，方法是预览内容并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)

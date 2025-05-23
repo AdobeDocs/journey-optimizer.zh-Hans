@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 5%
+source-wordcount: '252'
+ht-degree: 4%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 5%
 1. 单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;并选择测试配置文件以检查您的渲染。 [了解详情](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
+
+   >[!NOTE]
+   >
+   >[!DNL Journey optimizer]还允许您测试内容模板的不同变体，方法是预览这些变体并使用从CSV/JSON文件上传或手动添加的示例输入数据发送校样。 [了解如何模拟内容变体](../test-approve/simulate-sample-input.md)
 
 1. 您可以发送校样以测试您的内容，并在将其用于历程或营销策划之前，先获得一些内部用户的批准。
 

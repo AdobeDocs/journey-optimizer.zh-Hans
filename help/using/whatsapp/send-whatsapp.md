@@ -10,29 +10,30 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="Beta 版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 9%
 
 ---
 
-# 检查并发送您的WhatsApp消息 {#send-whatsapp}
+# 检查并发送 WhatsApp 消息 {#send-whatsapp}
 
 >[!BEGINSHADEBOX]
 
 **目录**
 
-* [开始使用WhatsApp消息](get-started-whatsapp.md)
-* [WhatsApp配置入门](whatsapp-configuration.md)
-* [创建WhatsApp消息](create-whatsapp.md)
+* [WhatsApp 消息入门](get-started-whatsapp.md)
+* [WhatsApp 配置入门](whatsapp-configuration.md)
+* [创建 WhatsApp 消息](create-whatsapp.md)
 * **[检查并发送你的WhatsApp消息](send-whatsapp.md)**
 
 >[!ENDSHADEBOX]
 
 ## 预览WhatsApp消息 {#preview-whatsapp}
 
-定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 如果插入个性化内容，则可以检查此内容在消息中的显示方式。 [了解如何使用示例输入数据测试内容](../test-approve/simulate-sample-input.md)
+定义消息内容后，您可以使用测试用户档案或从CSV/JSON文件上传的示例输入数据，或手动添加来预览其内容。 如果插入个性化内容，则可以检查此内容在消息中的显示方式。
 
 为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后使用测试用户档案数据检查您的消息。
 
