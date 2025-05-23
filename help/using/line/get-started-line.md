@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: LINE 入门
-description: 了解如何在 Journey Optimizer 中创建和发送 LINE 消息
+title: LINE 快速入门
+description: 了解如何在 Journey Optimizer 中创建和发布 LINE 消息
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
 source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# LINE 入门 {#get-started-line}
+# LINE 快速入门 {#get-started-line}
 
-使用 [!DNL Journey Optimizer] 向客户的 LINE 应用发送 LINE 消息。您可以在 LINE 编辑器中创建、个性化和预览消息。
+通过 [!DNL Journey Optimizer] 向使用 LINE 应用的客户发送 LINE 消息。您可以在 LINE 编辑器中创建、个性化和预览消息。
 
 >[!AVAILABILITY]
 >
->已应请求为Adobe Journey Optimizer客户启用LINE渠道。 请联系您的Adobe代表为您的组织激活该功能。
+>应请求，已为 Adobe Journey Optimizer 客户启用 LINE 渠道。请联系 Adobe 代表，为贵组织激活该功能。
 
 可以在历程或营销活动中创建和发送 LINE 消息：
 
-* 在&#x200B;**历程**&#x200B;中。创建历程、添加 LINE 活动并定义基本设置，然后定位到&#x200B;**[!UICONTROL 操作：LINE]** 右侧窗格，创建 LINE 消息的内容。在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
+* 在&#x200B;**历程**&#x200B;中。创建历程、添加 LINE 活动并定义基本设置，然后浏览到&#x200B;**[!UICONTROL 操作：LINE]** 右窗格，创建 LINE 消息的内容。在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
 
 * 在&#x200B;**营销活动**&#x200B;中。创建营销活动，选择 LINE 作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的 LINE 消息。在[此页面](../campaigns/create-campaign.md#configure)中了解如何创建营销活动。
 
