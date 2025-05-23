@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
+source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1061'
 ht-degree: 35%
 
 ---
@@ -45,11 +45,10 @@ ht-degree: 35%
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
 <li>使用编辑器模式在片段签名中定义占位符和映射个性化值。</li>
 </ul>
-
-<p>有关更多信息，请参阅<a href="../integrations/aem-fragments.md">详细文档</a>。</p>
-<p>发布日期： 2025年5月23日</p>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
+<p>有关更多信息，请参阅<a href="../integrations/aem-fragments.md">详细文档</a>。</p>
+<p>发布日期： 2025年5月23日</p>
 </td>
 </tr>
 </tbody>
@@ -70,11 +69,11 @@ ht-degree: 35%
 <li>立即修改您的资源设置，如宽度和高度。</li>
 <li>通过更新内容和添加个性化字段来自定义Dynamic Media模板。</li>
 </ul>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 <p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
 <p>有关更多信息，请参阅<a href="../integrations/aem-dynamic.md">详细文档</a>。</p>
 <p>发布日期： 2025年5月23日</p>
-</br>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
@@ -90,8 +89,8 @@ ht-degree: 35%
 <tr>
 <td>
 <p>您现在可以快速应用预批准的主题以确保所有电子邮件中的品牌一致性、加快活动创建过程并独立生成高质量电子邮件，同时减少对设计团队的依赖。</p>
-<img src="assets/do-not-localize/themes.gif">
 <p>此功能目前为 Beta 版，仅供 Beta 版客户使用。要加入 Beta 版计划，请联系 Adobe 代表。</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>有关更多信息，请参阅<a href="../email/apply-email-themes.md">详细文档</a>。</p>
 <p>发布日期： 2025年5月14日</p>
 </td>
@@ -188,6 +187,7 @@ ht-degree: 35%
 <p>此功能以前以“有限可用性”发布，现在可用于所有环境。 在此General Availability版本中，该功能现在包括支持多语言内容和内容实验，使您能够测试不同语言和处理之间的变体。 此外，它现在支持上下文属性（以及用户档案属性），从而允许进行更加动态和情境化的内容测试。</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
+<p>发布日期： 2025年5月23日</p>
 </td>
 </tr>
 </tbody>
