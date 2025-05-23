@@ -68,4 +68,4 @@ Journey Optimizer提供两种体验来测试您的内容：
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430336?quality=12&captions=chi_hans)
