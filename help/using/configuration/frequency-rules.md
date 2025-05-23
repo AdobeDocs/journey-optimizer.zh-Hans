@@ -65,7 +65,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="设置业务规则的频次封顶"
->abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频次封顶将基于所选的日程表期间，并将在相应的时间范围开始时重置它。"
+>abstract="指定在所选时间范围内发给某个客户轮廓的最大消息数。频率上限将基于所选的日程表期间，并将在相应的时间范围开始时重置它。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
+>为确保每日频率上限规则的准确性，建议使用[流式分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本节](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中了解有关受众评估方法的更多信息。
 
 ## 激活业务规则 {#activate-rule}
 
@@ -239,4 +239,4 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 了解如何创建、激活、测试和报告业务规则。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411120?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

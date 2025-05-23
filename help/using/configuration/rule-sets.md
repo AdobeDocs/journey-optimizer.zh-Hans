@@ -21,7 +21,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="规则集"
->abstract="使用规则集对不同类型的营销通信应用频次封顶。您还可以根据频次封顶规则创建规则集，以将历程排除在部分受众之外。"
+>abstract="使用规则集对不同类型的营销通信应用频率上限。您还可以根据频率上限规则创建规则集，以将历程排除在部分受众之外。"
 
 ## 规则集入门 {#gs}
 
@@ -154,7 +154,7 @@ ht-degree: 14%
 
      >[!CAUTION]
      > 
-     >要保证每日频次上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
+     >要保证每日频率上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
    请注意，一旦传递通信，配置文件计数器值将更新。 当您发送大量通信时，请注意这一点，因为吞吐量可能导致收件人收到电子邮件时间达到通信启动后的几分钟甚至几小时（如果您同时发送数百万条通信）。
 
@@ -324,4 +324,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

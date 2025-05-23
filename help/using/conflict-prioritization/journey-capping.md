@@ -89,7 +89,7 @@ ht-degree: 25%
      >
      >在本例中，如果营销人员已输入4个历程，并且本月有另一个具有较高优先级的计划历程，则将禁止客户进入较低优先级的历程。
 
-     +++
++++
 
      +++配置历程并发上限规则
 
@@ -101,7 +101,7 @@ ht-degree: 25%
 
      ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-     +++
++++
 
 1. 当上限规则准备好应用于历程时，单击其名称旁边的省略号按钮以激活它。
 
@@ -132,4 +132,4 @@ ht-degree: 25%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447625?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

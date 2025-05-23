@@ -74,7 +74,7 @@ ht-degree: 15%
 >id="od_offer_eligibility"
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
->additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="观看演示视频"
+>additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -103,7 +103,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -142,7 +142,7 @@ ht-degree: 15%
 >id="ajo_decisioning_capping"
 >title="使用频次封顶"
 >abstract="为避免过度招揽客户，请使用频次封顶定义可呈现产品建议的最大次数。您最多可以为给定产品建议创建 10 条频次封顶规则。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=zh-Hans#capping-change-date" text="更改日期可能会影响频次封顶"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="更改日期可能会影响频次封顶"
 
 上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
@@ -191,7 +191,7 @@ ht-degree: 15%
   >
   >将展示次数用作上限事件仅适用于&#x200B;**入站渠道**。
 
-* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
@@ -241,11 +241,11 @@ ht-degree: 15%
 
 例如，您定义了一个自定义上限事件，例如将结账数量考虑在内。 如果您在&#x200B;**[!UICONTROL 上限计数限制]**&#x200B;字段中输入10，则结账10次后将不再发送任何选件。
 
-### 频次上限 {#frequency-capping}
+### 频率上限 {#frequency-capping}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="设置频次封顶"
+>title="设置频率上限"
 >abstract="您可以选择每天、每周或每月重置产品建议频次封顶计数器。请注意，在启用频次封顶的情况下发布产品建议后，您将无法更改已定义的频率。"
 
 **[!UICONTROL 重置上限频率]**&#x200B;字段允许您定义重置上限计数的频率。 为此，请为盘点定义时间期（每天、每周或每月），并输入您选择的天数/周数/月数。 例如，如果希望每2周重置一次上限计数，请从相应的下拉列表中选择&#x200B;**[!UICONTROL 每周]**，并在其他字段中键入&#x200B;**2**。
