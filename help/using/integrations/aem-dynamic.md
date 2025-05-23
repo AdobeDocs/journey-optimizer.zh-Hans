@@ -6,12 +6,11 @@ description: 将Dynamic Media与Journey Optimizer结合使用
 topic: Content Management
 role: User
 level: Beginner
-badge: label="限量发布版" type="Informative"
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 4%
+source-wordcount: '877'
+ht-degree: 1%
 
 ---
 
@@ -19,17 +18,19 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->此集成仅面向一部分组织（有限发布版）。要获得访问权限，请与 Adobe 代表联系。
+> 对于医疗保健客户，只有在许可Journey Optimizer Healthcare Shield和Adobe Experience Manager增强安全附加产品后，才会启用集成。
 
 资产选择器现在支持Dynamic Media，允许您在Journey Optimizer中无缝选择和使用批准的Dynamic Media演绎版。 对Adobe Experience Manager中的资源所做的更改会立即反映在Journey Optimizer内容中，从而确保始终使用最新版本，而无需手动更新。
 
 请注意，此集成仅适用于使用Dynamic Media Manager as a Cloud Service的客户。
 
-要进一步了解Adobe Experience Manager as a Cloud Service中的Dynamic Media，请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
+要进一步了解Adobe Experience Manager as a Cloud Service中的Dynamic Media，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 
 ## 添加和管理Dynamic Media {#dynamic-media}
 
 通过将Adobe Experience Manager as a Cloud Service中的Dynamic Media直接插入您的Journey Optimizer内容，可针对任何屏幕或浏览器增强和优化您的内容。  然后，您可以调整大小、裁切、增强并根据需要进行其他调整。
+
+请注意，Dynamic Media适用于OpenAPI为](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)的Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)和[。
 
 1. 将&#x200B;**[!UICONTROL HTML组件]**&#x200B;拖放到您的内容中。
 
@@ -47,7 +48,7 @@ ht-degree: 4%
 
 1. 根据需要调整图像参数（例如，高度、宽度、旋转、翻转、亮度、色相等），以符合您的资产要求。
 
-   有关可添加到URL的图像参数的完整列表，请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)。
+   有关可添加到URL的图像参数的完整列表，请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference)。
 
    ![](assets/dynamic-media-3.png)
 
@@ -62,6 +63,8 @@ ht-degree: 4%
 例如，使用试验功能，您可以通过为每种处理使用不同的文本替换现有文本覆盖来更新，确保在用户档案打开其消息时为每个用户档案自定义文本。
 
 ![](assets/dynamic-media-layout-1.png)
+
+请注意，**文本覆盖个性化**&#x200B;在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)下仅可用。 由于Healthcare客户无法访问Scene7模式，因此内容会使用图像的Journey Optimizer二进制副本进行渲染。 如有任何例外，请联系Experience Manager支持。
 
 1. 将&#x200B;**[!UICONTROL HTML组件]**&#x200B;拖放到您的内容中。
 
@@ -100,7 +103,9 @@ ht-degree: 4%
 
 在Journey Optimizer中轻松添加Dynamic Media模板，并随时更新媒体内容。 您现在可以将个性化字段合并到媒体中，从而允许您在Journey Optimizer中创建更多自定义且引人入胜的内容。
 
-了解有关[Dynamic media模板](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)的更多信息。
+请注意，**Dynamic Media模板**&#x200B;在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)下仅可用。 由于医疗保健客户无法访问Scene7模式，因此将不呈现内容。 如有任何例外，请联系Experience Manager支持。
+
+了解有关[Dynamic media模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics)的更多信息。
 
 ### 带有图像组件 {#image-component}
 
@@ -120,7 +125,7 @@ ht-degree: 4%
 
 1. 在&#x200B;**图像设置**&#x200B;中，导航以访问Dynamic Media模板的参数。
 
-   可用字段取决于在Adobe Experience Manager中创建[模板](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters)期间添加的参数。
+   可用字段取决于在Adobe Experience Manager中创建[模板](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters)期间添加的参数。
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -216,3 +221,9 @@ Enable conditional content in your dynamic media to better target your audience 
 1. In the **[!UICONTROL Custom Attributes]** menu, populate the Dynamic Media text and personalization fields to customize the content for your audience.
 
 -->
+
+## 操作说明视频 {#video}
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+
