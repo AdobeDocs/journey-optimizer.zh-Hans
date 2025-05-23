@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 9%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 9%
 
    ![](assets/sms_byo_4.png)
 
-创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 
@@ -198,4 +198,8 @@ ht-degree: 9%
 在为Webhook创建和配置入站设置后，您现在需要为短信创建[渠道配置](sms-configuration-surface.md)。
 
 配置后，您可以利用所有现成的渠道功能，如消息创作、个性化、链接跟踪和报告。
+
+## 操作说明视频 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
 
