@@ -32,7 +32,7 @@ ht-degree: 3%
 
   除了这两种方法之外，Adobe Journey Optimizer还附带一个特定的[产品内用例](#use-case-1)，以便于创建测试配置文件。
 
-您还可以在现有数据集中上传json文件。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
+您还可以在现有数据集中上传json文件。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans#add-data-to-dataset){target="_blank"}。
 
 请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关详细信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
+>有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#prerequisites){target="_blank"}。
 
 然后，您需要&#x200B;**创建要在其中导入用户档案的数据集**。 执行以下步骤：
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
+> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}。
 
 ## 产品内用例{#use-case-1}
 
@@ -183,7 +183,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
+>有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans#tutorials){target="_blank"}。
 >
 
 
