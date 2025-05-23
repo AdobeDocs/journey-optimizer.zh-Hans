@@ -74,7 +74,7 @@ ht-degree: 15%
 >id="od_offer_eligibility"
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
->additional-url="https://video.tv.adobe.com/v/329373" text="观看演示视频"
+>additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="观看演示视频"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
