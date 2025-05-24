@@ -2,9 +2,9 @@
 title: 事件触发的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 +++ 查看示例
 
-   在补充ID为“bookingNum”的对象数组和同一级别名为“bookingCountry”的属性中，历程将根据bookingNum遍历数组对象，并为每个对象创建历程实例。
+   在补充ID为`bookingNum`且属性位于同一级别`bookingCountry`的对象数组中，历程将根据bookingNum遍历数组对象，并为每个对象创建历程实例。
 
    * 条件活动中的以下表达式将遍历对象数组，并检查`bookingCountry`的值是否等于“FR”：
 
@@ -112,7 +112,7 @@ ht-degree: 3%
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * 电子邮件个性化编辑器中的以下表达式将遍历对象数组，拉出适用于当前历程实例的“bookingCountry”，并将其显示在内容中：
+   * 电子邮件个性化编辑器中的以下表达式将遍历对象数组，提取适用于当前历程实例的`bookingCountry`，并将其显示在内容中：
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
