@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81de8502ce061ee2d0bb97e4a35c3f76c4425a08
+source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2382'
 ht-degree: 97%
 
 ---
@@ -55,6 +55,7 @@ ht-degree: 97%
    + 管理您的历程{#manage-journey}
       + [浏览和筛选历程](using/building-journeys/journey-ui.md)
       + [历程中的用户档案入口](using/building-journeys/entry-management.md)
+      + [事件触发的历程中的补充标识符](using/building-journeys/supplemental-identifier.md)
       + [时区管理](using/building-journeys/timezone-management.md)
       + [发送时间优化](using/building-journeys/send-time-optimization.md)
       + [结束您的历程](using/building-journeys/end-journey.md)
