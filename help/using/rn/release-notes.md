@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 35%
+source-wordcount: '1154'
+ht-degree: 34%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 35%
 <p>您现在可以使用用户档案ID以及其他标识符（如订单ID、订阅ID或处方ID）触发历程，从而允许同一用户档案同时多次处于同一历程中。 这支持类似同时管理多个订单或订阅这样的场景，其中每个实例都遵循其自身的历程路径。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/supplemental-identifier.md">详细文档</a>。</p>
 <p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>发布日期： 2025年5月23日</p>
 </td>
 </tr>
 </tbody>
