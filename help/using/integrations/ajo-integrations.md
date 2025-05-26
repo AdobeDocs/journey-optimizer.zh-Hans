@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 87%
+source-wordcount: '1021'
+ht-degree: 59%
 
 ---
 
@@ -39,23 +39,59 @@ Journey Optimizer将数据存储在Adobe Experience Platform中，借助Customer
 
 详细了解 [Journey Optimizer + Analytics](../event/about-analytics.md)。
 
+## Adobe Experience Manager {#integration-aem}
 
-## Adobe Experience Manager Assets {#integration-assets}
+作为Adobe Experience Manager用户，您可以将工作流与Adobe Journey Optimizer结合使用。 以下列出了可用的用例：
 
-利用 [!DNL Adobe Experience Manager Assets] 整合营销和创意工作流。与 [!DNL Adobe Journey Optimizer] 原生集成，可访问 [!DNL Adobe Experience Manager Assets] 来存储、管理、发现和分配数字资源。提供了单一集中式资源存储库，您可以使用它来填充消息。
 
-通过左侧菜单&#x200B;**[!UICONTROL 资源]**&#x200B;部分的 [!DNL Adobe Journey Optimizer]，可直接访问 [!DNL Adobe Experience Manager Assets]。
+>[!BEGINTABS]
 
-了解有关 [Journey Optimizer 和 Adobe Experience Manager Assets](../integrations/assets.md) 的更多信息。
+>[!TAB AEM Assets]
+
+利用 **[!DNL Adobe Experience Manager Assets]** 整合营销和创意工作流。与&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;本机集成，访问&#x200B;**[!DNL Assets Essentials]**&#x200B;或&#x200B;**[!DNL Assets as a Cloud Service]**&#x200B;以存储、管理、发现和分发数字资源。 提供了单一集中式资源存储库，您可以使用它来填充消息。
+
+[![了解详情](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
+
+>[!TAB AEM模板]
+
+借助Adobe Journey Optimizer，您可以通过Adobe Experience Manager站点创建自定义定制消息。 首先，使用Adobe Experience Manager的内容源设计模板，然后将其发送到Adobe Journey Optimizer。 共享后，即可在Adobe Journey Optimizer的电子邮件设计器中访问这些模板，从而简化设计消息并将消息发送到所需受众的过程。
+
+[![了解详情](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+>[!TAB AEM片段]
+
+通过将Adobe Experience Manager与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer电子邮件内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
+
+[![了解详情](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+
+>[!TAB Dynamic Media]
+
+使用Journey Optimizer Asset选择器可在Journey Optimizer中选择并使用已批准的Dynamic Media演绎版。 对Adobe Experience Manager中的资源所做的更改会立即反映在Journey Optimizer内容中，从而确保始终使用最新版本，而无需手动更新。
+
+[![了解详情](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
+
+
+>[!ENDTABS]
+
 
 
 ## Adobe Stock {#integration-stock}
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 电子邮件设计器集成增效工具可帮助客户在创作消息时轻松进行导航、许可并保存图像。
 
-通过 [!DNL Adobe Journey Optimizer]，您可以将图像直接从 [!DNL Adobe Stock] 上传到电子邮件，并使用&#x200B;**[!UICONTROL 查找 Adobe Stock 照片]**&#x200B;选项将其添加到&#x200B;**[!UICONTROL 资源]**&#x200B;文件夹中。此外，**[!UICONTROL 查找类似 Stock 照片]**&#x200B;选项可帮助您查找与投放中所用资源的内容、颜色和合成相匹配的图像。
-
 了解 [Journey Optimizer + Stock](../integrations/stock.md) 的更多信息。
+
+## Adobe Express {#express}
+
+Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻松访问Adobe Express强大的编辑工具。 通过这种集成，您可以调整图像大小、删除背景、裁剪可视化图表并将资源转换为JPEG或PNG，而无需在解决方案之间切换。
+
+了解有关[Journey Optimizer + Adobe Express](../integrations/express.md)的更多信息。
+
+## GenStudio for Performance Marketing
+
+Adobe GenStudio for Performance Marketing是一个创作、人工智能优先的应用程序，它允许营销团队创建自己的广告和电子邮件，以推动有效且个性化的营销活动，从而遵守您的品牌标准并遵守您的企业策略。 通过利用Adobe AI技术，它提供了一套全面的工具，可简化内容创建和管理过程，以便创意人员可以专注于创新。
+
+了解有关[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)的更多信息。
 
 
 ## Adobe 智能服务 {#integration-intelligent-service}
@@ -64,7 +100,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 借助客户人工智能，品牌商可利用流失率或转化率机器学习功能来建立分数，这些分数将作为 Adobe Experience Platform 中的轮廓属性，并可用于个性化历程。
 
-[了解详情](../building-journeys/ai-services-overview.md)。
+了解有关[Journey Optimizer + Adobe Intelligent Services](../building-journeys/ai-services-overview.md)的更多信息。
 
 
 ## Adobe Campaign {#integration-ac}
@@ -84,7 +120,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront 的更多信息。
+在Journey Optimizer文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront [的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 

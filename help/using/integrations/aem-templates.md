@@ -11,23 +11,26 @@ role: User
 level: Beginner
 badge: label="Beta 版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 2%
 
 ---
 
 # 使用Adobe Experience Manager模板 {#aem-templates}
 
->[!AVAILABILITY]
->
->目前，与Adobe Experience Manager的集成仅作为测试版提供给部分用户。
-> 作为测试版用户，请使用[此表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享反馈。
+## Adobe Experience Manager模板入门 {#gs-aem-templates}
 
 借助Adobe Journey Optimizer，您可以通过Adobe Experience Manager站点创建自定义定制消息。 首先，使用Adobe Experience Manager的内容源设计模板，然后将其发送到Adobe Journey Optimizer。 共享后，即可在Adobe Journey Optimizer的电子邮件设计器中访问这些模板，从而简化设计消息并将消息发送到所需受众的过程。
 
-## 先决条件 {#prerequisites}
+>[!AVAILABILITY]
+>
+>目前，与Adobe Experience Manager的集成仅作为测试版提供给部分用户。
+>作为测试版用户，请使用[此表单](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享反馈。
+
+
+### 先决条件 {#prerequisites}
 
 在开始使用此功能之前，请确保符合以下要求：
 
@@ -41,7 +44,7 @@ ht-degree: 2%
 
   要在Adobe Journey Optimizer中创建、编辑和删除内容模板，您必须在&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Manage Library Items]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)
 
-## 护栏和限制{#aem-templates-limitations}
+### 护栏和限制{#aem-templates-limitations}
 
 为了进一步优化将Adobe Experience Manager与Adobe Journey Optimizer结合使用，请务必了解以下其他护栏和限制：
 
@@ -59,7 +62,7 @@ ht-degree: 2%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hans#creating-a-new-page)
+1. 在内容库中，您可以使用之前配置的模板或从头开始创建模板。 [了解详情](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 通过将Journey Optimizer个性化语法合并到模板中，您可以增强其自定义功能。 [了解详情](../personalization/personalization-syntax.md)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 7%
+source-wordcount: '538'
+ht-degree: 10%
 
 ---
 
@@ -35,6 +35,8 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 ![](assets/express_1.png)
 
+➡️ [通过观看视频了解此功能](#video)
+
 ## Adobe Express企业许可证 {#licence}
 
 没有Adobe Express Enterprise许可证的用户可以访问以下部分中详述的功能。
@@ -45,10 +47,10 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 +++用户可用的使用案例以及Adobe Express的企业许可证
 
-* [删除背景](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/remove-background.html)
-* [删除对象](https://helpx.adobe.com/cn/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [擦除](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/eraser.html)
-* [插入对象](https://helpx.adobe.com/cn/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [删除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [删除对象](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [擦除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [插入对象](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
@@ -137,3 +139,13 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
    然后，单击&#x200B;**[!UICONTROL 导入]**。
 
 您的图像现已准备就绪，可用于内容中。
+
+
+## 操作说明视频 {#video}
+
+了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+
+
+

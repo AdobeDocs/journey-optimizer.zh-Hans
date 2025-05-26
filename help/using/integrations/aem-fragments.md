@@ -7,22 +7,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
+source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
 
 # Adobe Experience Manager 内容片段 {#aem-fragments}
 
->[!AVAILABILITY]
->
-> 对于医疗保健客户，只有在许可Journey Optimizer Healthcare Shield和Adobe Experience Manager增强安全附加产品后，才会启用集成。
-
 通过将Adobe Experience Manager as a Cloud Service与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
 
-要了解有关AEM内容片段的更多信息，请参阅Experience Manager文档中的[使用内容片段](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview)。
+要了解有关AEM内容片段的更多信息，请参阅Experience Manager文档中的[使用内容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview){target="_blank"}。
+
+>[!AVAILABILITY]
+>
+>对于医疗保健客户，只有在许可Journey Optimizer Healthcare Shield和Adobe Experience Manager增强安全性附加产品后，才会启用集成。
 
 ## 限制 {#limitations}
 
@@ -48,9 +48,9 @@ ht-degree: 1%
 
 1. 单击&#x200B;**创建**。
 
-1. 按照[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models)中的详细说明定义您的内容片段模型，并分配新创建的Journey Optimizer标记。
+1. 按照[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中的详细说明定义您的内容片段模型，并分配新创建的Journey Optimizer标记。
 
-您现在可以开始创建和配置内容片段，以供将来在Journey Optimizer中使用。 请参阅[Experience Manager文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing)以了解详情。
+您现在可以开始创建和配置内容片段，以供将来在Journey Optimizer中使用。 请参阅[Experience Manager文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}以了解详情。
 
 ## 添加Experience Manager内容片段 {#aem-add}
 
@@ -105,7 +105,7 @@ ht-degree: 1%
    1. **静态字符串映射**：通过将其置于双引号中来分配固定字符串值，例如name = &quot;John&quot;。
 
    1. **变量映射**：引用之前在同一HTML中声明的变量，例如name = &#39;variableName&#39;。
-在这种情况下，请确保在添加片段ID之前使用以下语法声明&#x200B;**_variableName_**：
+在这种情况下，请确保在添加片段ID之前使用以下语法声明**_variableName_**：
 
       ```html
       {% let variableName = attribute name %} 
@@ -118,6 +118,6 @@ ht-degree: 1%
 
 1. 单击 **[!UICONTROL Save]**。您现在可以测试和检查您的邮件内容，如[此部分](../content-management/preview.md)中所详述。
 
-执行测试并验证内容后，即可将[促销活动](../campaigns/review-activate-campaign.md)或[历程](../building-journeys/publishing-the-journey.md)发送给受众。
+执行测试并验证内容后，您可以[发送营销活动](../campaigns/review-activate-campaign.md)或[将您的历程](../building-journeys/publishing-the-journey.md)发布给受众。
 
 Adobe Experience Manager允许您识别正在使用内容片段的Journey Optimizer营销活动或历程。
