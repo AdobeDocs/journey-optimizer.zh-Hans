@@ -104,7 +104,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -143,7 +143,7 @@ ht-degree: 15%
 >id="ajo_decisioning_capping"
 >title="使用频次封顶"
 >abstract="为避免过度招揽客户，请使用频次封顶定义可呈现产品建议的最大次数。您最多可以为给定产品建议创建 10 条频次封顶规则。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="更改日期可能会影响频次封顶"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="更改日期可能会影响频次封顶"
 
 上限用作约束，以定义可显示优惠的最大次数。 通过限制用户获得特定优惠的次数，您可以避免过度向客户提供报价，从而使用最佳优惠优化每个接触点。
 
@@ -192,7 +192,7 @@ ht-degree: 15%
   >
   >将展示次数用作上限事件仅适用于&#x200B;**入站渠道**。
 
-* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
+* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们相等10000或直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
