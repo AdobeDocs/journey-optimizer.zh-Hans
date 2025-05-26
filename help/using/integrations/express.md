@@ -5,14 +5,15 @@ title: 在Journey Optimizer中使用Adobe Express编辑资源
 description: Adobe Express入门
 feature: Assets, Integrations
 topic: Content Management, Integrations
+badge: label="限量发布版" type="Informative"
 role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 10%
+source-wordcount: '540'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +24,14 @@ ht-degree: 10%
 >title="Adobe Express 集成"
 >abstract="通过 Adobe Express 集成开始个性化您的资产。此功能允许您调整图像大小、移除背景、裁切视觉效果以及将资产转换为 JPEG 或 PNG。"
 
+Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻松访问Adobe Express强大的编辑工具。 通过这种集成，您可以调整图像大小、删除背景、裁剪可视化图表并将资源转换为JPEG或PNG，而无需在解决方案之间切换。
+
+<img src="../rn/assets/do-not-localize/express_resize.gif">
+
+
 >[!AVAILABILITY]
 >
 >Adobe Journey Optimizer中的Adobe Express集成当前不适用于Healthcare Shield或Privacy and Security Shield。
-
-Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻松访问Adobe Express强大的编辑工具。 通过这种集成，您可以调整图像大小、删除背景、裁剪可视化图表并将资源转换为JPEG或PNG，而无需在解决方案之间切换。
 
 要了解有关Adobe Express的更多信息，请参阅[此文档](https://helpx.adobe.com/cn/express/user-guide.html)。
 
@@ -47,10 +51,10 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 +++用户可用的使用案例以及Adobe Express的企业许可证
 
-* [删除背景](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/remove-background.html)
-* [删除对象](https://helpx.adobe.com/cn/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [擦除](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/eraser.html)
-* [插入对象](https://helpx.adobe.com/cn/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [删除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [删除对象](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [擦除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [插入对象](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
@@ -145,7 +149,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455533/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

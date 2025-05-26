@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
+source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 62%
@@ -21,7 +21,7 @@ ht-degree: 62%
 >[!NOTE]
 >
 > Adobe Journey Optimizer构建于Adobe Experience Platform之上，原生连接到[Adobe实时客户个人资料](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。 此内置数据源已预配置，旨在检索和使用 Real-time Customer Profile 中的数据（例如，检查进入历程的人员是否为客户）。该数据源允许您使用轮廓数据和体验事件数据。[了解详情](../datasource/adobe-experience-platform-data-source.md)。
->
+
 
 ## 了解 Adobe Customer Journey Analytics {#integration-cja}
 
@@ -123,7 +123,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront 的更多信息。
+在Journey Optimizer文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront [的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 
