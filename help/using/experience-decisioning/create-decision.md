@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7ce241ca8ae6d2be6152a1c393a8301ce2f397a3
+source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1715'
 ht-degree: 11%
 
 ---
@@ -19,8 +19,7 @@ ht-degree: 11%
 >id="ajo_code_based_decision"
 >title="决策是什么？"
 >abstract="决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个轮廓选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。"
-
-<!--additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="About Decisioning"-->
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于决策"
 
 决策策略是优惠的容器，它们利用决策引擎根据受众选择要投放的最佳内容。
 
@@ -52,9 +51,7 @@ ht-degree: 11%
 >id="ajo_code_based_strategy"
 >title="策略是什么？"
 >abstract="选择策略的序列决定首先评估哪个策略。至少需要一个策略。将一同评估组合策略中的决策项。"
-
-<!--additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Create strategies"
-additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Evaluation order"-->
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="创建策略"
 
 要在您的网站或移动应用程序上向访客展示最佳的动态选件和体验，请将决策策略添加到基于代码的活动或历程。 要实现此目的，请执行以下步骤。
 
