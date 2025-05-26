@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 59%
+source-wordcount: '960'
+ht-degree: 62%
 
 ---
 
@@ -52,11 +52,14 @@ Journey Optimizer将数据存储在Adobe Experience Platform中，借助Customer
 
 [![了解详情](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
->[!TAB AEM模板]
+<!--
+>[!TAB AEM Templates]
 
-借助Adobe Journey Optimizer，您可以通过Adobe Experience Manager站点创建自定义定制消息。 首先，使用Adobe Experience Manager的内容源设计模板，然后将其发送到Adobe Journey Optimizer。 共享后，即可在Adobe Journey Optimizer的电子邮件设计器中访问这些模板，从而简化设计消息并将消息发送到所需受众的过程。
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-[![了解详情](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+[![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+-->
 
 >[!TAB AEM片段]
 
@@ -120,7 +123,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront 的更多信息。
+在Journey Optimizer文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront [的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 

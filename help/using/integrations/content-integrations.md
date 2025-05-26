@@ -8,10 +8,10 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: 资产，集成
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 16%
+source-wordcount: '693'
+ht-degree: 18%
 
 ---
 
@@ -36,11 +36,12 @@ Assets Essentials可连接到Adobe Creative Cloud中的Adobe Express和Adobe Pho
 
 了解有关 [Journey Optimizer 和 Adobe Experience Manager Assets](../integrations/assets.md) 的更多信息。
 
-### 模板
+<!--
+### Templates
 
-借助Adobe Journey Optimizer，您可以通过Adobe Experience Manager站点创建自定义定制消息。 首先，使用Adobe Experience Manager的内容源设计模板，然后将其发送到Adobe Journey Optimizer。 共享后，即可在Adobe Journey Optimizer的电子邮件设计器中访问这些模板，从而简化设计消息并将消息发送到所需受众的过程。
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-详细了解[Journey Optimizer + Adobe Experience Manager模板](../integrations/aem-templates.md)。
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
 ### 片段
 
