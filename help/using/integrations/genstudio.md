@@ -82,13 +82,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[HTML用户指南](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到[!DNL GenStudio]。
+   >在[HTML用户指南](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}专用部分中了解如何将Adobe GenStudio for Performance Marketing模板上载到[!DNL GenStudio]。
 
 1. 在GenStudio中，使用此模板创建多个具有AI提示的电子邮件变体并保存它们。
 
    >[!NOTE]
    >
-   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
+   >了解如何在GenStudio专用的[部分](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中创建电子邮件体验。
 
 ### 在Journey Optimizer中利用GenStudio体验 {#leverage-genstudio-experiences}
 
@@ -120,7 +120,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >从 [!DNL Journey Optimizer] 模板[&#128279;](#export-from-ajo-to-genstudio)创建的GenStudio体验将直接导入电子邮件Designer。 未使用[!DNL Journey Optimizer]模板创建的GenStudio体验已导入到[兼容模式](../email/existing-content.md)中。
+   >从 [!DNL Journey Optimizer] 模板](#export-from-ajo-to-genstudio)创建的GenStudio体验[将直接导入电子邮件Designer。 未使用[!DNL Journey Optimizer]模板创建的GenStudio体验已导入到[兼容模式](../email/existing-content.md)中。
 
    使用[电子邮件内容编辑工具](../email/content-from-scratch.md)和[个性化字段](../personalization/personalize.md)根据需要编辑电子邮件。 保存您的内容。
 
@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 了解如何将电子邮件模板从 Journey Optimizer 导出到 GenStudio for Performance Marketing，如何在 GenStudio 中使用模板创建符合品牌标准的电子邮件并将这些电子邮件无缝导入回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456059/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
