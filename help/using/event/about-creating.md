@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，单一，创建，历程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 15%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -27,11 +27,6 @@ ht-degree: 15%
 >id="ajo_journey_event_parameters"
 >title="参数"
 >abstract="定义事件的参数，例如架构和负载字段。对于基于规则的事件，使用&#x200B;**[!UICONTROL 事件 ID 条件]**&#x200B;字段来定义系统将用来识别触发您的历程的事件的条件。添加用于事件的身份标识类型和轮廓标识符。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="使用补充标识符"
->abstract="补充标识符是辅助标识符，可为历程的执行提供额外的背景信息。若要定义它，请选择要用作补充标识符的字段，并选择与其关联的命名空间。"
 
 单一事件链接到特定轮廓。它们可以是基于规则的，也可以是系统生成的。  阅读有关单一事件[本节](../event/about-events.md)的更多信息。
 
@@ -95,7 +90,7 @@ ht-degree: 15%
 
 ## 定义有效负载字段 {#define-the-payload-fields}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL 字段]**&#x200B;字段或&#x200B;**[!UICONTROL 编辑]**&#x200B;图标。
 
