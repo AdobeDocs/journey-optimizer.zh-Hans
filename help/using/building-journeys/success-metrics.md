@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 6%
 
 ---
 
-# 配置和跟踪您的历程量度 {#success-metrics}
+# 配置和跟踪历程指标 {#success-metrics}
 
 通过历程量度清楚地了解客户历程的有效性。 利用此功能，您可以根据定义的KPI跟踪性能、揭示对有效内容的洞察以及确定优化区域。 通过实时衡量影响，您可以推动持续改进并做出有数据根据的决策，从而提高客户参与度。
 
 ## 先决条件 {#prerequisites}
 
-在使用历程量度之前，必须添加包含`Commerce Details`、`Web`和`Mobile` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}的数据集。
+在使用历程量度之前，您必须在Adobe Experience Platform中的配置>报表下添加包含`Commerce Details`、`Web`和`Mobile` [字段组](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh_Hans#field-group){target="_blank"}的数据集。
+
+这些字段组必须从内置选项中选择，而不是从自定义组中选择。 请参阅[添加数据集](../reports/reporting-configuration.md#add-datasets)部分。
 
 ## 可用量度 {#metrics}
 
@@ -30,7 +32,7 @@ ht-degree: 5%
 
 如果未配置数据集，则只有以下量度可用： **[!UICONTROL 点击]**、**[!UICONTROL 唯一点击]**、**[!UICONTROL 点进率]**&#x200B;和&#x200B;**[!UICONTROL 打开率]**。
 
-请注意，使用Customer Journey Analytics许可证，您可以创建自定义成功量度。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+请注意，使用Customer Journey Analytics许可证，您可以创建自定义成功量度。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相关字段组 |
@@ -67,7 +69,7 @@ ht-degree: 5%
 
   借助Journey Optimizer和Customer Journey Analytics许可证，您可以创建具有特定归因设置的自定义量度，或更改内置量度的归因。
 
-  了解有关[归因模型](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
+  了解有关[归因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)的更多信息
 
 ## 分配您的历程量度 {#assign}
 
