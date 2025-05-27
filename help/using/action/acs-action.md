@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # 与 Adobe Campaign Standard 集成 {#using_adobe_campaign_standard}
 
-您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
-
 如果您有Adobe Campaign Standard，则可使用内置操作来允许与Adobe Campaign Standard的连接。
+
+您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 
 必须发布Campaign Standard事务型消息及其关联的事件，才能在Journey Optimizer中使用。 如果事件已发布但消息未发布，则不会在Journey Optimizer界面中看到该消息。 如果消息已发布，但其关联事件未发布，则它将在Journey Optimizer界面中可见，但不可用。
 

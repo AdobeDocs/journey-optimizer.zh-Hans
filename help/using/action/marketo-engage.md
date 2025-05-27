@@ -9,14 +9,16 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 844c0f8dc9b14d69cbd87893042f048443d7a5e6
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 # 与 Marketo Engage 集成 {#integrating-with-marketo-engage}
+
+您的历程中提供了特定的自定义操作，用于集成Adobe Journey Optimizer和Marketo Engage。
 
 开始与Marketo Engage无缝数据集成的历程。 Journey Optimizer中的此特定自定义操作支持摄取两种关键数据类型：
 
@@ -26,7 +28,7 @@ ht-degree: 4%
 ## 先决条件 {#prerequisites}
 
 * Marketo Engage的客户实例必须已启用IMS。
-* Marketo Engage实例和Adobe Experience Platform/Journey Optimizer实例必须位于同一个组织中。
+* Marketo Engage实例和Adobe Experience Platform/Journey Optimizer实例必须位于同一组织中。
 * 必须为客户设置&#x200B;**MktoSync：摄取服务访问**
 
 ## 配置操作 {#configure-marketo-action}
@@ -42,8 +44,8 @@ ht-degree: 4%
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* Inspect并配置有效负载值
-注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
+* 检查和配置有效负载值
+注意：若要动态传递值，请为每个字段将**常量**&#x200B;更改为&#x200B;**变量**。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
