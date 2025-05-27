@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1260'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans)。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 ### 历程 {#journeys}
 
-* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects)。
+* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
@@ -72,7 +72,7 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 * **渠道配置**：渠道配置与营销活动一起复制。 在复制营销活动后，必须在目标沙盒中手动选择渠道配置。
 * **试验变体和设置**：试验变体和设置包含在活动复制过程中。 导入后，在目标沙盒中验证这些设置。
-* **统一决策**：支持导出和导入决策策略和决策项。 确保在目标沙盒中正确映射与决策相关的依赖项。
+  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
 
 ### 内容模板 {#content-templates}
 
@@ -82,17 +82,17 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 * 为进一步避免重复，建议导出单个包中的内容模板。 这可确保系统高效地管理重复数据删除。
 
-### 决策 {#decisioning}
+<!--### Decisioning {#decisioning}
 
-* 在复制决策对象之前，以下对象必须存在于目标沙盒中：
+* The objects below must be present in the destination sandbox before copying Decisioning objects:
 
-   * 在决策对象间使用的配置文件属性，
-   * 自定义选件属性的字段组，
-   * 用于跨规则、排名或上限的上下文属性的数据流架构。
+   * Profile Attributes used across Decisioning objects,
+   * The field group of custom Offer Attributes,
+   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
 
-* 当前不支持使用AI模型排名公式的沙盒复制。
+* Sandbox copy for ranking formulas with AI Models is currently not supported.
 
-* 在复制决策实体时，请确保在&#x200B;**之前复制决策项**&#x200B;任何其他对象。 例如，如果您先复制一个收藏集，而新沙盒中没有选件，则该新收藏集将保留为空。
+* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
 
 ### 片段 {#fragments}
 
