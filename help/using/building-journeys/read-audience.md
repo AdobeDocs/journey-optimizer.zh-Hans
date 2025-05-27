@@ -130,7 +130,6 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="重新进行新的受众评估的等待时间"
->"
 >abstract="指定历程等待对批次受众进行新评估的持续时间。等待期限于整数值，可指定以分钟或小时为单位，并且必须介于 1 到 6 小时之间。"
 
 默认情况下，历程配置为运行一次。 要定义历程应运行的特定日期/时间和频率，请执行以下步骤。
