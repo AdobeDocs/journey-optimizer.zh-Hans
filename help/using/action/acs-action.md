@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， standard，集成，上限，操作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 3%
 
 ---
@@ -22,19 +22,21 @@ ht-degree: 3%
 
 必须发布Campaign Standard事务型消息及其关联的事件，才能在Journey Optimizer中使用。 如果事件已发布但消息未发布，则不会在Journey Optimizer界面中看到该消息。 如果消息已发布，但其关联事件未发布，则它将在Journey Optimizer界面中可见，但不可用。
 
-## 重要说明 {#important-notes}
+## 护栏和限制 {#important-notes}
 
-* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。 在[Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html){target="_blank"}中阅读有关事务性消息传递SLA的更多信息。
+* 为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 在[Adobe Campaign Standard产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html){target="_blank"}中阅读有关事务性消息传递SLA的更多信息。
 
 * Adobe Campaign Standard集成通过操作列表中的专用内置操作进行设置。 必须为每个沙盒配置此设置。
 
 * Campaign Standard操作不能用于“受众”资格或“读取受众”活动。
 
-* 历程不能同时使用消息和Campaign Standard操作。
+* 历程不能同时使用[内置渠道操作](../building-journeys/journeys-message.md)和[Campaign Standard操作](../building-journeys/using-adobe-campaign-standard.md)。
 
 ## 配置操作 {#configure-action}
 
-在Journey Optimizer中，必须为每个事务型消息配置一个操作。 执行以下步骤：
+在Journey Optimizer中，必须为每个事务型消息配置一个操作。
+
+要配置Campaign Standard操作，请执行以下步骤：
 
 1. 在“管理”菜单部分中选择&#x200B;**[!UICONTROL 配置]**。
 

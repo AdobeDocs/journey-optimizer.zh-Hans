@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 13%
+source-wordcount: '543'
+ht-degree: 14%
 
 ---
 
@@ -32,13 +32,14 @@ ht-degree: 13%
 在请求时，Journey Optimizer和Adobe Campaign环境之间的连接是在配置时通过Adobe设置的。 如果您在配置时未请求连接，请联系Adobe Journey Optimizer支持以请求激活。 您必须提供以下详细信息：
 
 >[!BEGINTABS]
->[!TAB 用于Adobe Journey Optimizer的] 
+
+>用于Adobe Journey Optimizer的[!TAB ]
 
 * Organization ID (Adobe OrgID)
 
 * 沙盒名称
 
->[!TAB 用于Adobe Campaign的] 
+>用于Adobe Campaign的[!TAB ]
 
 * 营销活动服务器URL
 
@@ -49,13 +50,13 @@ ht-degree: 13%
 >[!ENDTABS]
 
 
-## 重要说明 {#important-notes}
+## 护栏和限制 {#important-notes}
 
-* 消息不受限制。 根据当前的Campaign SLA，系统会将每5分钟可发送超过4000条消息的数量限制在4000条以上。 因此，Journey Optimizer只应在单一用例（单个事件，而不是受众）中使用。
+* 消息不受限制。 根据当前的Campaign SLA，系统会将每5分钟可发送的消息数限制为4,000条。 因此，Journey Optimizer只应在单一用例（单个事件，而不是受众）中使用。
 
-* 您需要在要使用的每个模板的画布上配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
+* 您必须在每个模板上为每个要使用的画布配置一个操作。 您需要在Journey Optimizer中为要从Adobe Campaign使用的每个模板配置一个操作。
 
-* 我们建议您使用为此集成托管的专用消息中心实例，以避免影响您可能正在执行的任何其他Campaign操作。 营销服务器可以托管，也可以内部部署。 所需的版本是21.1版本候选版本或更高版本。
+* 我们建议您对此集成使用托管的专用消息中心或Managed Services实例，以避免影响您可能正在执行的任何其他Campaign操作。 营销服务器可以是托管服务器，也可以是内部部署服务器。<!--The build required is 21.1 Release Candidate or greater. -->
 
 * 无法验证有效负载或Campaign消息是否正确。
 
@@ -63,13 +64,13 @@ ht-degree: 13%
 
 ## 先决条件 {#prerequisites}
 
-在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 
 示例如下：
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",

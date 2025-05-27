@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo、marketo engage集成
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -27,8 +27,8 @@ ht-degree: 4%
 
 以下先决条件适用于此集成：
 
-* Marketo Engage的客户实例必须已启用IMS。
-* Marketo Engage实例和Adobe Experience Platform/Journey Optimizer实例必须位于同一组织中。
+* Marketo Engage的客户实例必须已启用IMS
+* Marketo Engage实例和Adobe Experience Platform/Journey Optimizer实例必须位于同一组织中
 * 必须为客户设置&#x200B;**MktoSync：摄取服务访问**
 
 ## 配置操作 {#configure-marketo-action}
@@ -48,7 +48,7 @@ ht-degree: 4%
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 1. 检查和配置有效负载值
-注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
+注意：若要动态传递值，请为每个字段将**常量**&#x200B;更改为&#x200B;**变量**。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
