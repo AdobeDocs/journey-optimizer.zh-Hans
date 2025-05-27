@@ -45,7 +45,7 @@ ht-degree: 3%
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * 检查和配置有效负载值
-注意：若要动态传递值，请为每个字段将**常量**&#x200B;更改为&#x200B;**变量**。
+注意：若要动态传递值，请为每个字段将&#x200B;**常量**&#x200B;更改为&#x200B;**变量**。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
