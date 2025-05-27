@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 13%
@@ -32,15 +32,19 @@ ht-degree: 13%
 在请求时，Journey Optimizer和Adobe Campaign环境之间的连接是在配置时通过Adobe设置的。 如果您在配置时未请求连接，请联系Adobe Journey Optimizer支持以请求激活。 您必须提供以下详细信息：
 
 >[!BEGINTABS]
->[!TAB 用于Adobe Journey Optimizer的] 
+
+>用于Adobe Journey Optimizer的[!TAB ]
 
 * Organization ID (Adobe OrgID)
+
 * 沙盒名称
 
->[!TAB 用于Adobe Campaign的] 
+>用于Adobe Campaign的[!TAB ]
 
 * 营销活动服务器URL
+
 * 实时服务器URL
+
 * Campaign 版本
 
 >[!ENDTABS]
@@ -60,7 +64,7 @@ ht-degree: 13%
 
 ## 先决条件 {#prerequisites}
 
-在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 
