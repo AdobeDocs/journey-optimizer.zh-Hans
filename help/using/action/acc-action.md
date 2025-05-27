@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 17%
+source-wordcount: '553'
+ht-degree: 13%
 
 ---
 
@@ -23,28 +23,29 @@ ht-degree: 17%
 >title="Adobe Campaign v7/v8 操作"
 >abstract="此集成可用于 Adobe Campaign v7 和 v8。通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。Journey Optimizer 实例和 Campaign 实例之间的连接在配置时由 Adobe 设置。"
 
-您的历程中提供了特定的自定义操作，用于集成Adobe Journey Optimizer和Adobe Campaign v7/v8。
+如果您拥有Adobe Campaign Classic v7或Campaign v8，则可在您的历程中使用特定的自定义操作来集成Adobe Journey Optimizer和Adobe Campaign。 利用此集成，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。 在此[端到端用例](../building-journeys/ajo-ac.md)中了解详情。
 
-此集成适用于Adobe Campaign v7/v8（从7.1版本开始）和Adobe Campaign v8。 通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。
+对于所配置的每个操作，历程设计器面板中均提供[促销活动操作活动](../building-journeys/using-adobe-campaign-v7-v8.md)。
 
-此[部分](../building-journeys/ajo-ac.md)中介绍了端到端用例。
+## 激活 {#access}
 
-对于所配置的每个操作，历程设计器面板中都提供了操作活动。 请参阅此[章节](../building-journeys/using-adobe-campaign-v7-v8.md)。
+在请求时，Journey Optimizer和Adobe Campaign环境之间的连接是在配置时通过Adobe设置的。 如果您在配置时未请求连接，请联系Adobe Journey Optimizer支持以请求激活。 您必须提供以下详细信息：
 
-## 访问 {#access}
+>[!BEGINTABS]
 
-Journey Optimizer实例和Campaign实例之间的连接是在必要时由Adobe在配置时设置的。 如果您在配置时未请求连接，请联系Adobe Journey Optimizer支持，并提供以下详细信息以请求启用：
-
-从Adobe Journey Optimizer：
+>用于Adobe Journey Optimizer的[!TAB ]
 
 * Organization ID (Adobe OrgID)
-* 沙盒
+* 沙盒名称
 
-从Adobe Campaign：
+>用于Adobe Campaign的[!TAB ]
 
-* 营销活动URL
-* RT URL
+* 营销活动服务器URL
+* 实时服务器URL
 * Campaign 版本
+
+>[!ENDTABS]
+
 
 ## 重要说明 {#important-notes}
 
@@ -60,13 +61,13 @@ Journey Optimizer实例和Campaign实例之间的连接是在必要时由Adobe�
 
 ## 先决条件 {#prerequisites}
 
-在Campaign中，您需要创建和发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hans#transactional-messaging){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
-您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）
+您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 
 示例如下：
 
-```
+```JSON
 {
     "channel": "email",
     "eventType": "welcome",
@@ -79,13 +80,13 @@ Journey Optimizer实例和Campaign实例之间的连接是在必要时由Adobe�
 
 * **渠道**：为营销活动事务模板定义的渠道
 * **eventType**： Campaign事件的内部名称
-* **ctx**：变量基于您在消息中的个性化设置。
+* **ctx**：基于您在消息中拥有的个性化设置的可变数
 
 ## 配置操作 {#configure-action}
 
-在Journey Optimizer中，您需要为每个事务性消息配置一个操作。 执行以下步骤：
+在Journey Optimizer中，必须为每个事务型消息配置一个操作。 执行以下步骤：
 
-1. 创建新操作。 请参阅此[章节](../action/action.md)。
+1. 创建新操作。 [了解有关自定义操作的更多信息](../action/action.md)。
 1. 输入名称和说明。
 1. 在&#x200B;**操作类型**&#x200B;字段中，选择&#x200B;**Adobe Campaign Classic**。
 1. 单击&#x200B;**有效负载**&#x200B;字段，并粘贴与营销活动消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
