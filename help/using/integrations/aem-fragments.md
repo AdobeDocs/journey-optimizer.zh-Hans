@@ -107,7 +107,7 @@ ht-degree: 1%
    1. **静态字符串映射**：通过将其置于双引号中来分配固定字符串值，例如name = &quot;John&quot;。
 
    1. **变量映射**：引用之前在同一HTML中声明的变量，例如name = &#39;variableName&#39;。
-在这种情况下，请确保在添加片段ID之前使用以下语法声明**_variableName_**：
+在这种情况下，请确保在添加片段ID之前使用以下语法声明&#x200B;**_variableName_**：
 
       ```html
       {% let variableName = attribute name %} 
