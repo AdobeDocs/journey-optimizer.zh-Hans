@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 管理营销活动、状态、计划、访问、优化器
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0a7c1ebf01a0aec9f84e86b14df14bbfcd24a7b4
+source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 3%
+source-wordcount: '868'
+ht-degree: 1%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="营销活动表和时间线视图"
->abstract="营销活动表和时间线视图"
+>title="营销活动列表和日历视图"
+>abstract="除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。 您可以使用这些按钮随时在列表视图和日历视图之间切换。"
 
 可从&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单访问营销活动。
 
@@ -35,7 +35,35 @@ ht-degree: 3%
 
 ![](assets/create-campaign-list.png)
 
-此外，您可以根据营销活动类型和渠道，或根据创建营销活动时分配给营销活动的标记来过滤列表。 [了解如何为营销活动分配标记](create-campaign.md#create)
+您还可以根据营销活动类型和渠道或创建时分配给营销活动的标记来过滤列表。 [了解如何为营销活动分配标记](create-campaign.md#create)
+
+## 营销活动日历 {#calendar}
+
+除了营销活动列表之外，[!DNL Journey Optimizer]还提供营销活动的日历视图，以直观的方式清晰地展示其计划。
+
+>[!AVAILABILITY]
+>
+>日历视图当前仅适用于一组组织（限量发布）。 若要请求访问权限，请使用[此表单](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
+>
+>此功能正在开发中。 我们欢迎您使用顶部菜单中的&#x200B;**[!UICONTROL Beta反馈]**&#x200B;按钮输入和请求。
+
+日历显示本周安排的所有营销活动。 使用日历上方的箭头按钮在周之间导航。
+
+![日历视图显示实时营销活动](assets/campaigns-timeline.png)
+
+营销活动的表示方式：
+
+* 默认情况下，日历网格会显示选定周的所有实时营销活动和计划营销活动。 其他筛选器选项可以显示已完成、已停止和已完成的激活或特定类型或渠道的激活。
+* 不显示草稿营销活动。
+* 跨越多天的营销活动显示在日历网格的顶部。
+* 如果未指定开始时间，则使用最接近的手动激活时间将其放置在日历中。
+* 营销活动显示为1小时时间跨度，但这并不反映实际的发送或完成时间。
+
+有关营销活动的更多详细信息，请单击其可视块以打开相关详细信息。
+
+要查看特定营销活动的详细信息，请从列表中选择该营销活动。 此时将打开一个信息窗格，其中包含有关营销活动的各种信息，例如其类型、对报告的访问权限或已分配的标记。
+
+![打开了信息窗格的campaign列表](assets/campaign-rail.png)
 
 ## 营销活动状态和警报 {#statuses}
 
