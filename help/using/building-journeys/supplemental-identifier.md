@@ -3,9 +3,9 @@ title: 事件触发的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ ht-degree: 7%
 
 ### **订阅管理**
 
-* **方案**：订阅服务为绑定到客户配置文件的每个订阅发送定制的消息。
+* **方案**：当触发订阅的事件时，订阅服务会为每个订阅发送定制的消息。
 * **执行**：
    * 个人资料： “Jane”。
-   * 补充ID： `"Luma Yoga Program ", "Luma Fitness PlPrograman"`。
-   * 历程针对每个订阅单独执行，并提供个性化的续订优惠。
+   * 补充ID： `"Luma Yoga Program ", "Luma Fitness Program"`。
+   * 每个事件都包含订阅ID以及有关该订阅的详细信息。 历程针对每个事件/订阅单独执行，从而允许每个订阅提供个性化的续订优惠。
 
 ### **产品推荐**
 
