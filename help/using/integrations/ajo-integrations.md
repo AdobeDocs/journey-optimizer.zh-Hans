@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 25eba9f5e738f669edbef8725328dba958b555b6
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 62%
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 通过将Adobe Experience Manager与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer电子邮件内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
 
-[![了解详情](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+[![了解详情](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
 
 >[!TAB Dynamic Media]
 
@@ -123,7 +123,7 @@ Adobe 智能服务是 Real Time Customer Data Platform 的原生服务，让您�
 
 此博客文章[中提供了此集成的关键步骤的概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer文档[&#128279;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront 的更多信息。
+在Journey Optimizer文档](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hans){target="_blank"}中了解有关Adobe Workfront + Adobe Workfront [的更多信息。
 
 ## 自定义渠道 {#integration-custom}
 
