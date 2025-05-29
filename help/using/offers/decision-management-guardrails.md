@@ -5,7 +5,7 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 17%
@@ -25,8 +25,8 @@ ht-degree: 17%
 | 护栏 | 限制 |
 | ------- | ------- |
 | 每秒决策API请求数 | 500 |
-| 使用Edge分段技术的每秒Edge Decisioning API请求数 | 1500 |
-| Edge Decisioning API请求数/秒，不使用Edge分段 | 5000 |
+| 使用Edge分段技术的每秒Edge Decisioning API请求数 | 1,500 |
+| Edge Decisioning API请求数/秒，不使用Edge分段 | 5,000 |
 | 每个响应返回的优惠 | 每个决策范围最多30个，或总共100个 |
 | 每个请求涉及的选件规则的最大数量 | 100 |
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 | 护栏 | 限制 |
 | ------- | ------- |
 | 每个选件或收藏集的收藏集限定符 | 20 |
-| 集合限定符总数 | 1000 |
+| 集合限定符总数 | 1,000 |
 
 ## 产品建议
 
@@ -85,6 +85,6 @@ ht-degree: 17%
 
 | 护栏 | 限制 |
 | ------- | ------- |
-| 放置环境 | 1000 |
+| 投放位置 | 1000 |
 | AI排名模型 | 5 |
 | 频率上限 — 每个选件的上限规则的最大数量 | 10 |

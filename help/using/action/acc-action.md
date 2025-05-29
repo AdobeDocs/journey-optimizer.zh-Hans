@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign， acc，集成
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 13%
+source-wordcount: '546'
+ht-degree: 12%
 
 ---
 
@@ -32,12 +32,13 @@ ht-degree: 13%
 在请求时，Journey Optimizer和Adobe Campaign环境之间的连接是在配置时通过Adobe设置的。 如果您在配置时未请求连接，请联系Adobe Journey Optimizer支持以请求激活。 您必须提供以下详细信息：
 
 >[!BEGINTABS]
->[!TAB 用于Adobe Journey Optimizer的] 
+
+>用于Adobe Journey Optimizer的[!TAB ]
 
 * Organization ID (Adobe OrgID)
 * 沙盒名称
 
->[!TAB 用于Adobe Campaign的] 
+>用于Adobe Campaign的[!TAB ]
 
 * 营销活动服务器URL
 * 实时服务器URL
@@ -60,11 +61,11 @@ ht-degree: 13%
 
 ## 先决条件 {#prerequisites}
 
-在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 
-示例如下：
++++ 示例
 
 ```json
 {
@@ -81,15 +82,19 @@ ht-degree: 13%
 * **eventType**： Campaign事件的内部名称
 * **ctx**：基于您在消息中拥有的个性化设置的可变数
 
++++
+
 ## 配置操作 {#configure-action}
 
-在Journey Optimizer中，必须为每个事务型消息配置一个操作。 执行以下步骤：
+在Journey Optimizer中，必须为每个事务型消息配置一个操作。
 
-1. 创建新操作。 [了解有关自定义操作的更多信息](../action/action.md)。
+要创建Campaign操作，请执行以下步骤：
+
+1. 创建新操作。 [了解如何创建自定义操作](../action/action.md)。
 1. 输入名称和说明。
 1. 在&#x200B;**操作类型**&#x200B;字段中，选择&#x200B;**Adobe Campaign Classic**。
+   ![](assets/accintegration1.png)
 1. 单击&#x200B;**有效负载**&#x200B;字段，并粘贴与营销活动消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
-1. 根据您想要在历程画布上映射这些字段，可以将这些字段调整为静态或变量。 某些字段，例如电子邮件地址和个性化字段(ctx)的渠道参数，您可能希望定义为要在历程上下文中映射的变量。
+1. 根据您希望字段在历程画布上映射，将每个字段设置为静态字段还是变量。 例如，电子邮件渠道参数和个性化字段(`ctx`)等字段通常应设置为变量，以便能够在历程中动态调整。
 1. 单击&#x200B;**保存**。
 
-![](assets/accintegration1.png)

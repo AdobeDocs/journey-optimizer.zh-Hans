@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部， API，优化器，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 48%
@@ -101,7 +101,7 @@ ht-degree: 48%
 创建、删除或部署限制配置时，可能会出现以下错误：
 
 * **ERR_THROTTLING_CONFIG_100**：限制配置：`<mandatory attribute>`必需
-* **ERR_THROTTLING_CONFIG_101**：限制配置：maxThroughput 是必填项，且必须大于或等于 200 且小于或等于 5000
+* **ERR_THROTTLING_CONFIG_101**：限制配置：maxThroughput 是必填项，且必须大于或等于 200 且小于或等于 5,000
 * **ERR_THROTTLING_CONFIG_104**：限制配置：格式错误的 URL 模式
 * **ERR_THROTTLING_CONFIG_105**：限制配置：URL 模式的主机部分不允许使用通配符
 * **ERR_THROTTLING_CONFIG_106**：限制配置：无效负载

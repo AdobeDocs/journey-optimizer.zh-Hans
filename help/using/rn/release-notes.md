@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 120a496baf8acc8af6831a5b63b855f609497d03
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 34%
+source-wordcount: '1235'
+ht-degree: 33%
 
 ---
 
@@ -24,11 +24,30 @@ ht-degree: 34%
 
 ## 2025年5月发行说明 {#25-5-rn}
 
-**发行日期**： 2025年5月20日至21日
+<!--**Release date**: May 20-21, 2025-->
 
 ### 新功能 {#25-05-features}
 
 此版本包含的新功能详述如下。
+
+<table>
+<thead>
+<tr>
+<th><strong>营销活动和历程库存的日历视图</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，历程和营销活动列表中提供了日历视图。 它允许您在各个列表中可视化所有历程和营销活动激活。</p>
+<p>此更改当前仅适用于一组组织（限量发布）。 若要请求访问权限，请使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表单</a>。</p>
+<img src="assets/do-not-localize/calendar.gif">
+<p>有关更多信息，请参阅以下部分：<a href="../building-journeys/journey-ui.md">浏览和筛选您的历程</a>、<a href="../campaigns/modify-stop-campaign.md">访问营销活动</a>。</p>
+<p>发布日期： 2025年5月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -82,6 +101,80 @@ ht-degree: 34%
 <table>
 <thead>
 <tr>
+<th><strong>事件触发的历程的补充ID</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以使用用户档案ID以及其他标识符（如订单ID、订阅ID或处方ID）触发历程，从而允许同一用户档案同时多次处于同一历程中。 这支持类似同时管理多个订单或订阅这样的场景，其中每个实例都遵循其自身的历程路径。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/supplemental-identifier.md">详细文档</a>。</p>
+<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
+<p>发布日期： 2025年5月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>模拟内容变体</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此前在 Beta 中提供内容变体模拟功能，现在该功能已正式发布 (GA)。它可以让您使用从 CSV 或 JSON 文件上传的示例输入数据或通过手动添加数据预览内容的不同变体。系统会自动检测内容中用于个性化的所有属性，可使用这些属性进行测试以创建多个变体。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境。 在此General Availability版本中，该功能现在包括支持多语言内容和内容实验，使您能够测试不同语言和处理之间的变体。 此外，它现在支持上下文属性（以及用户档案属性），从而允许进行更加动态和情境化的内容测试。</p>
+<img src="assets/do-not-localize/variants.gif">
+<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
+<p>发布日期： 2025年5月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>将读取受众计划与批次分段作业同步</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>现在，您可以在批量分段完成后触发每日历程运行。 现在，所有客户都可以在每日计划的历程中使用此选项。 它允许您定义一个长达6小时的时间范围，以等待来自批处理分段作业的受众数据，确保历程使用最新数据运行，或者如果未准备就绪则跳过。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
+<p>发布日期： 2025年5月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自定义短信提供商</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在允许您在默认选项之外配置其他短信提供商：Sinch、Infobip和Twilio。 通过自定义短信提供商配置，您可以直接集成第三方提供商，利用动态消息传递的高级有效负荷自定义，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
+<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
+<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p></td>
+<p>发布日期： 2025年5月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>电子邮件Designer中的主题</strong><br/></th>
 </tr>
 </thead>
@@ -116,44 +209,6 @@ ht-degree: 34%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>将读取受众计划与批次分段作业同步</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，您可以在批量分段完成后触发每日历程运行。 现在，所有客户都可以在每日计划的历程中使用此选项。 它允许您定义一个长达6小时的时间范围，以等待来自批处理分段作业的受众数据，确保历程使用最新数据运行，或者如果未准备就绪则跳过。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
-<p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>营销活动和历程库存的日历视图</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>现在，历程和营销活动列表中提供了日历视图。 它允许您在各个列表中可视化所有历程和营销活动激活。</p>
-<p>此更改当前仅适用于一组组织（限量发布）。 若要请求访问权限，请使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表单</a>。</p>
-
-
-<img src="assets/do-not-localize/calendar.gif">
-<p>有关更多信息，请参阅以下部分：<a href="../building-journeys/journey-ui.md">浏览和筛选您的历程</a>、<a href="../campaigns/modify-stop-campaign.md">访问营销活动</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <!--<table>
 <thead>
 <tr>
@@ -176,24 +231,6 @@ ht-degree: 34%
 </tbody>
 </table>-->
 
-<table>
-<thead>
-<tr>
-<th><strong>模拟内容变体</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>此前在 Beta 中提供内容变体模拟功能，现在该功能已正式发布 (GA)。它可以让您使用从 CSV 或 JSON 文件上传的示例输入数据或通过手动添加数据预览内容的不同变体。系统会自动检测内容中用于个性化的所有属性，可使用这些属性进行测试以创建多个变体。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境。 在此General Availability版本中，该功能现在包括支持多语言内容和内容实验，使您能够测试不同语言和处理之间的变体。 此外，它现在支持上下文属性（以及用户档案属性），从而允许进行更加动态和情境化的内容测试。</p>
-<img src="assets/do-not-localize/variants.gif">
-<p>有关更多信息，请参阅<a href="../test-approve/simulate-sample-input.md">详细文档</a>。</p>
-<p>发布日期： 2025年5月23日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--table>
 <thead>
@@ -209,41 +246,6 @@ ht-degree: 34%
 </tr>
 </tbody>
 </table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>自定义短信提供商</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer现在允许您在默认选项之外配置其他短信提供商：Sinch、Infobip和Twilio。 通过自定义短信提供商配置，您可以直接集成第三方提供商，利用动态消息传递的高级有效负荷自定义，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
-<p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
-<p>此功能以前以“有限可用性”发布，现在可用于所有环境（一般可用性）。</p></td>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>事件触发的历程的补充ID</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您现在可以使用用户档案ID以及其他标识符（如订单ID、订阅ID或处方ID）触发历程，从而允许同一用户档案同时多次处于同一历程中。 这支持类似同时管理多个订单或订阅这样的场景，其中每个实例都遵循其自身的历程路径。</p>
-<p>有关更多信息，请参阅<a href="../building-journeys/supplemental-identifier.md">详细文档</a>。</p>
-<p>此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。</p>
-<p>发布日期： 2025年5月23日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 ### 改进 {#25-05-improv}
@@ -275,15 +277,15 @@ ht-degree: 34%
   >
   >该功能将在接下来的 30 天内逐步推广到所有环境。
 
-* Web渠道中支持&#x200B;**“重定向到URL”**
+* Web渠道&#x200B;**中的**“重定向到URL”支持 — 可用日期： 2025年5月20日
 
   现在，通过Journey Optimizer Web渠道可将访客重定向到另一个现有URL，而不是在可视编辑器中创作新的变体。 此功能可用于运行比较两个完全不同的页面的实验，而不是只更改页面中的几个元素。 [了解详情](../web/create-web.md#web-redirect-to-url)
 
-* **模板和片段的文件夹**
+* **模板和片段的文件夹** — 可用日期： 2025年5月20日
 
   通过文件夹，您可以更轻松有效地将对象组织到结构化层次结构中。 文件夹以前面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)，以便管理其内容模板和片段。请参阅[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分以了解详情。
 
-* **电子邮件模板中的点击跟踪**
+* **电子邮件模板中的点击跟踪** — 可用日期： 2025年5月20日
 
   现在，[!DNL Journey Optimizer]本机支持对电子邮件内容中图像映射的`<area>`元素进行点击跟踪。 这是为了确保图像映射区域接收与标准超链接相同的跟踪环绕、跟踪数据和附加参数。 [了解有关邮件跟踪的更多信息](../email/message-tracking.md#manage-tracking)
 
@@ -292,7 +294,7 @@ ht-degree: 34%
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **营销活动列表中的右边栏**
+* **营销活动列表中的右边栏** — 发布日期：2025年5月20日
 
   现在，在营销活动列表中，选择营销活动会打开显示其详细信息的窗格。
 
