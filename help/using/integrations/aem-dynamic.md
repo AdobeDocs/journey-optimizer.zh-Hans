@@ -39,7 +39,7 @@ ht-degree: 6%
 >
 >确保在Adobe Experience Manager as a Cloud Service中启用了带OpenAPI的Dynamic Media。 [了解详情](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
-Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和具有OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}的[。
+Dynamic Media与Adobe Journey Optimizer的集成适用于Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和具有OpenAPI[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}的。
 
 >[!AVAILABILITY]
 >
