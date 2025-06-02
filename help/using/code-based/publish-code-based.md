@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >如果您激活基于代码的历程/营销活动，影响的页面与另一个已上线的历程或营销活动相同，则所有更改将应用于您的内容。
 >
->如果多个基于代码的历程或营销活动更新了内容的相同元素，则优先级最高的历程/营销活动优先。
+>如果多个基于代码的历程或营销活动更新了内容的相同元素，则优先级最高的历程/营销活动优先。 [了解有关优先级分数的更多信息](../conflict-prioritization/priority-scores.md)
 
 一旦您的基于代码的历程或营销活动上线，您的应用程序实施团队将负责发出显式API或SDK调用，以获取选定[基于代码的体验配置](code-based-configuration.md)中定义的界面的内容。 在[本节](code-based-implementation-samples.md)中了解关于不同客户实施的更多信息。
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1735'
 ht-degree: 11%
 
 ---
@@ -215,6 +215,10 @@ ht-degree: 11%
 1. 单击每个文件夹以将其展开。 将鼠标光标置于所需位置，然后单击要添加属性旁边的+图标。 您可以向代码添加任意数量的属性。
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. 确保将`#each`循环包裹在一对方括号`[ ]`内，并在结束`/each`前添加一个逗号。
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. 您还可以添加个性化编辑器中可用的任何其他属性，例如配置文件属性。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 10%
+source-wordcount: '698'
+ht-degree: 9%
 
 ---
 
@@ -41,9 +41,13 @@ ht-degree: 10%
 
 1. 为您的消息输入&#x200B;**[!UICONTROL 标签]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 选择或创建要使用的[基于代码的体验配置](code-based-configuration.md)。
+1. 选择或创建要使用的基于代码的体验配置。 [了解详情](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >当您使用同一渠道配置执行多个基于代码的体验操作时，如果最终用户符合多个操作的条件，则历程的&#x200B;**[!UICONTROL 优先级分数]**&#x200B;将决定向最终用户交付的内容。 [了解有关优先级分数的更多信息](../conflict-prioritization/priority-scores.md)
 
 1. 选择&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮，然后根据需要使用个性化编辑器编辑您的内容。 [了解详情](#edit-code)
 
@@ -67,9 +71,13 @@ ht-degree: 10%
 
 1. 选择&#x200B;**[!UICONTROL 基于代码的体验]**&#x200B;操作。
 
-1. 选择或创建基于代码的体验配置。 [了解详情](code-based-configuration.md)
+1. 选择或创建要使用的基于代码的体验配置。 [了解详情](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >当您使用同一渠道配置执行多个基于代码的体验操作时，如果最终用户符合多个操作的条件，则促销活动的&#x200B;**[!UICONTROL 优先级得分]**&#x200B;将决定向最终用户交付的内容。 [了解有关优先级分数的更多信息](../conflict-prioritization/priority-scores.md)
 
 1. 使用个性化编辑器，根据需要编辑您的内容。 [了解详情](#edit-code)
 
@@ -123,4 +131,4 @@ ht-degree: 10%
 
 以下视频介绍了如何创建基于代码的体验营销活动、配置其属性、测试并发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449463/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

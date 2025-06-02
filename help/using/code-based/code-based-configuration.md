@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 23%
+source-wordcount: '1118'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 23%
 在[构建体验](create-code-based.md)之前，您需要创建基于代码的体验配置，在其中定义内容在应用程序中的交付和使用位置。
 
 基于代码的体验配置必须引用表面，它基本上是您要呈现更改的位置。 根据所选平台，您需要输入位置/路径或完整表面URI。 [了解详情](code-based-surface.md)
+
+>[!NOTE]
+>
+>当您使用同一渠道配置执行多个基于代码的体验操作（因此在同一表面上运行）时，如果最终用户符合多个操作的条件，则营销活动或历程的&#x200B;**[!UICONTROL 优先级分数]**&#x200B;将决定向最终用户交付的内容。 [了解有关优先级分数的更多信息](../conflict-prioritization/priority-scores.md)
 
 ## 创建一个基于代码的体验配置 {#create-code-based-configuration}
 
@@ -104,7 +108,7 @@ ht-degree: 23%
 1. 以下内容适用于预览URL：
 
    * 如果输入了单页URL，则该URL将用于预览 — 无需输入其他URL。
-   * 如果选择了与规则[&#128279;](../web/web-configuration.md#web-page-matching-rule)匹配的页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](test-code-based.md#preview-on-device)
+   * 如果选择了与规则](../web/web-configuration.md#web-page-matching-rule)匹配的[页面，则必须输入用于预览浏览器体验的&#x200B;**[!UICONTROL 默认创作和预览URL]**。 [了解详情](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,7 +136,7 @@ ht-degree: 23%
 
 1. 输入您的&#x200B;**[!UICONTROL 应用程序ID]**。 这允许在应用程序的操作环境中进行准确的识别和配置，并确保无缝集成和功能。
 
-1. 提供应用程序&#x200B;**中的**&#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
+1. 提供应用程序&#x200B;]**中的**[!UICONTROL &#x200B;位置或路径。 此字段指定您希望用户访问的应用程序内的确切目标。 它可以是应用程序导航结构深处的特定部分或页面，例如“hero-banner”或“product-rail”。
 
    ![](assets/code_config_3.png)
 
@@ -156,7 +160,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在预览体验时遇到问题，请参阅[本文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

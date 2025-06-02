@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 53%
+source-wordcount: '766'
+ht-degree: 50%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 53%
 * 还可以扩展到用于非显示或抽象显示目的的特定内容容器（例如，传递给服务的 JSON Blob）。
 
 * 它还可以是匹配各种客户端表面定义的通配符表面（例如，网站每个页面上的主图像位置可以在表面 URI 中进行转译，例如：web://mydomain.com/*#hero_image）。
+
+>[!NOTE]
+>
+>如果在同一表面上运行了多个基于代码的体验操作，则营销活动或历程的&#x200B;**[!UICONTROL 优先级分数]**&#x200B;将决定向最终用户交付的内容（如果最终用户符合多个操作的条件）。 [了解有关优先级分数的更多信息](../conflict-prioritization/priority-scores.md)
 
 ## 表面标识符 {#surface-uri}
 
