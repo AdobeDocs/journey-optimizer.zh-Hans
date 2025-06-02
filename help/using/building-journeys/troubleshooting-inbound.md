@@ -4,11 +4,11 @@ product: journey optimizer
 title: 历程中入站操作的疑难解答指南
 description: 了解如何调试和解决与Adobe Journey Optimizer历程中的入站操作相关的问题
 feature: Journeys
-topic: Troubleshooting
+topic: Content Management
 role: User
 level: Intermediate
 keywords: 入站操作，故障排除，历程，调试，自助，检查，错误
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: e3780d52960b7fbe5ada33cf4de65d22b15e7d1d
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 在开始故障诊断之前，请确保满足以下条件：
 
-1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[Adobe Experience Platform Assurance文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
+1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[Adobe Experience Platform Assurance文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
 
 1. 导航到包含入站操作的历程，以检索历程名称和版本ID。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
+1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
 
 ## 场景1：用户尚未收到入站内容 {#scenario-1}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 2. 在平台标识中定义了&#x200B;**&#39;joai&#39;标识**
 
-   入站操作使用配置文件`segmentMembership`中的&#x200B;**&#39;joai&#39;**&#x200B;命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的更多信息
+   入站操作使用配置文件`segmentMembership`中的&#x200B;**&#39;joai&#39;**&#x200B;命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}的更多信息
 
 ### 调试步骤 {#debugging-steps}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 >[!TAB 应用程序内渠道]
 
-1. 转到[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
+1. 转到[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
 
 1. 在&#x200B;**[!UICONTROL Messages on Device]**&#x200B;选项卡中，单击&#x200B;**[!UICONTROL Messages]**&#x200B;下拉列表，并检查是否有历程名称后跟“ — 应用程序内消息”的消息。 如果存在，则意味着设备/客户端上存在应用程序内消息，并且该问题可能与应用程序内触发器有关。
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
 >[!TAB Web 渠道]
 
-访问页面并检查“网络”选项卡，或在[Edge](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
+访问页面并检查“网络”选项卡，或在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
 
 >[!TAB 基于代码的体验渠道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在[Edge](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
 
 >[!ENDTABS]
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    您可以通过打开配置文件部分的&#x200B;**segmentsMap**&#x200B;元素并查找&#x200B;**joai**&#x200B;区段ID是否存在，来双重检查&#x200B;**joai**&#x200B;区段是否在Edge Network投放服务器的配置文件视图中存在。
 
-1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### 步骤3：检查joai受众成员资格是否已传播到Edge Network {#step-3}
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. 导航到[!DNL Journey Optimizer]左侧导航窗格中的&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]**&#x200B;菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
 
-1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL Edge]**&#x200B;视图。
+1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL Edge]**视图。
    <!--cannot see Hub/Edge wiews for the profile-->
 
 1. 单击&#x200B;**[!UICONTROL 查看JSON]**&#x200B;以打开配置文件的JSON视图。
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. 导航到[!DNL Journey Optimizer]左侧导航窗格中的&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]**&#x200B;菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
 
-1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 中心]**&#x200B;视图。
+1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 中心]**视图。
    <!--cannot see Hub/Edge wiews for the profile-->
 
 1. 单击&#x200B;**[!UICONTROL 查看JSON]**&#x200B;以打开配置文件的JSON视图。
@@ -223,9 +223,9 @@ ht-degree: 0%
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## Warnings and Notes {#warnings-and-notes}
 
