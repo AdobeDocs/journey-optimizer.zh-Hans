@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并将统一的实时客户轮廓、API 优先的开放框架、集中式 Offer Decisioning、人工智能 (AI) 和机器学习 (ML) 整合在一起，以便进行个性化和优化。Journey Optimizer 使品牌厂商能够在整个客户历程中以智能化的方式决定下一项最合适的互动，而且可以在规模化程度上快速灵活地完成这一工作。借助 [!DNL Adobe Journey Optimizer]，公司可以在同一应用程序中创建并投放计划的营销活动（如零售商店的每周促销活动）和量身定制的个人通信（如忠诚度应用程序向客户推送其可能查看过的、之前无现货的商品）。
 
-➡️ [发现Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hans){target="_blank"}（视频）
+➡️ [了解 Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=zh-Hans){target="_blank"}（视频）
 
 
 <!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
@@ -67,13 +67,13 @@ You can also create audience-based campaigns to send messages.-->
 
 在下图中，了解 [!DNL Adobe Journey Optimizer] 的基本架构、集成点以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之间的关系。
 
-Adobe Experience Platform是一个强大、灵活、开放和集中的数据基础，它收集、标准化、管理、将AI见解应用于数据并统一数据，以提供贴心且相关的数字客户体验。
+Adobe Experience Platform 是一个强大、灵活、开放的集中式数据基础平台，可以收集、标准化、管理数据，对数据应用 AI 见解并整合数据，从而提供贴心且相关的数字化客户体验。
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
-在Experience Platform上原生构建了四个应用程序：Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics和Adobe Mix Modeler。
+在 Experience Platform 的基础上，以原生方式构建了四个应用程序：Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics 和 Adobe Mix Modeler。
 
-Journey Optimizer的核心功能和服务在Adobe Experience Platform的基本组件之外运行，其中包括实时客户档案。 虽然Journey Optimizer可无缝工作并与Real-Time CDP和Customer Journey Analytics互操作，但它也可以作为独立应用程序独立运行。
+Journey Optimizer 的核心功能和服务独立于 Adobe Experience Platform 的基本组件，其中包括实时客户轮廓。虽然 Journey Optimizer 可与 Real-Time CDP 和 Customer Journey Analytics 无缝衔接并进行互操作，但它也可以作为独立的应用程序单独运行。
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 

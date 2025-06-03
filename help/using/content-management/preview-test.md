@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -32,40 +32,40 @@ ht-degree: 57%
 
 ![](../email/assets/email-preview-button.png)
 
-## 使用测试用户档案数据或样本输入数据进行测试 {#methods}
+## 使用测试轮廓数据或样本输入数据进行测试 {#methods}
 
-Journey Optimizer提供两种体验来测试您的内容：
+Journey Optimizer 提供两种测试内容的方法：
 
-* **使用测试配置文件数据测试内容**
+* **使用测试轮廓数据测试内容**
 
-  您可以使用测试用户档案预览内容、发送电子邮件校样并检查电子邮件渲染。 如果您添加了个性化字段，则可以使用测试用户档案数据检查这些字段的显示方式。 有关详细信息，请参阅以下部分：
+  您可以使用测试轮廓来预览内容，发送电子邮件校样并检查电子邮件呈现情况。如果您添加了个性化字段，则可以使用测试轮廓数据检查它们的显示方式。有关详细信息，请参阅以下部分：
 
-  ➡️ [选择测试配置文件](test-profiles.md)
-➡️ [使用测试配置文件预览](preview.md)
+  ➡️ [选择测试轮廓](test-profiles.md)
+➡️ [使用测试轮廓预览](preview.md)
 ➡️ [发送电子邮件校样](proofs.md)
-➡️ [检查电子邮件渲染](rendering.md)
-➡️ [预览和验证您的电子邮件（视频）](#video-preview)
+➡️ [检查电子邮件呈现情况](rendering.md)
+➡️ [预览和验证电子邮件（视频）](#video-preview)
 
 * **使用样本输入数据测试内容变体**
 
-  [!DNL Journey optimizer]允许您使用从CSV/JSON文件上传或手动添加的示例输入数据，预览和发送不同内容变体的校样。
+  [!DNL Journey optimizer] 可以让您使用从 CSV 或 JSON 文件上传或手动添加的示例输入数据针对内容的不同变体预览和发送校样。
 
-  系统会自动检测内容中用于个性化的所有用户档案属性，可使用这些属性进行测试以创建多个变体。
+  系统会自动检测内容中用于个性化的所有轮廓属性，可使用这些属性进行测试以创建多个变体。
 
-  ➡️ [模拟内容变体](../test-approve/simulate-sample-input.md)
+  ➡️ [模拟内容变体](../test-approve/simulate-sample-input.md)
 
 ## 必读
 
-* **所需权限** — 您需要在&#x200B;**[!DNL Content Library Manager]**&#x200B;产品配置文件中包含&#x200B;**[!DNL Manage Simulate Content]**&#x200B;权限。 [了解详情](../administration/ootb-product-profiles.md#content-library-manager)。
+* **需要的权限** - 您需要在 **[!DNL Content Library Manager]** 产品配置文件中授予 **[!DNL Manage Simulate Content]** 权限。[了解详情](../administration/ootb-product-profiles.md#content-library-manager)。
 
-  要发送校样，您必须对与电子邮件关联的特定资源（营销活动或历程）具有&#x200B;**批准和发布**&#x200B;权限。 此外，要在历程中发送验证，还需要&#x200B;**发布历程**&#x200B;权限。 [了解有关权限的详细信息](../administration/ootb-permissions.md)。
+  要发送校样，您必须对与电子邮件关联的特定资源（营销活动或历程）具有&#x200B;**批准和发布**&#x200B;权限。此外，要在历程中发送校样，还需要有&#x200B;**发布历程**&#x200B;的权限。[了解有关权限的更多信息](../administration/ootb-permissions.md)。
 
-* **包含上下文数据的Personalization** — 在预览消息或发送校样时，仅显示用户档案个性化数据。 只能在历程上下文中测试基于上下文数据（如事件信息）的个性化。在[此用例](../personalization/personalization-use-case.md)中了解如何操作。
+* **使用上下文数据的个性化** - 预览消息或发送校样时，仅显示轮廓个性化数据。只能在历程上下文中测试基于上下文数据（如事件信息）的个性化。在[此用例](../personalization/personalization-use-case.md)中了解更多信息。
 
-* **预览具有多个条件变体的内容** — 在模拟或呈现包含多个条件变体的电子邮件的验证时，Journey Optimizer可能需要更多的处理时间。 如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。在[此页面](../personalization/dynamic-content.md)中详细了解条件内容。
+* **预览具有多个条件变量的内容** - 模拟或呈现包含多个条件变量的电子邮件校样时，Journey Optimizer 可能需要更长的处理时间。如果出现超时或错误消息，请考虑减少变体的总数或简化条件规则。在[此页面](../personalization/dynamic-content.md)中详细了解条件内容。
 
 ## 操作方法视频 {#video-preview}
 
 了解如何使用测试用户档案测试不同收件箱中的电子邮件渲染情况，根据测试用户档案预览个性化电子邮件并发送验证。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430336?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

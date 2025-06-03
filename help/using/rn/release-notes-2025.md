@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 现在与 Adobe Express 集成在一起，使您能够将创意资产与 Journey Orchestration 无缝连接。此集成简化了跨营销活动设计和部署个性化内容的过程。 </p>
-<p>此集成目前不适用于Healthcare Shield或Privacy and Security Shield。</p>
+<p>此集成当前不适用于 Healthcare Shield 或 Privacy and Security Shield。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>有关更多信息，请参阅<a href="../integrations/express.md">详细文档</a>。</p>
 </td>
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 **用例战术手册**
 
-* **行动手册创作和共享（私人测试版）** — 您现在可以创建、管理和共享您自己的用例行动手册。 此功能当前仅作为专用测试版提供给一组组织。 要获取访问权限，请联系您的Adobe代表。 [了解详情](../start/playbooks.md)
+* **战术手册的编写和共享 (Private Beta)** - 您现在可以创建、管理和共享自己的用例战术手册。目前，此功能仅作为 Private Beta 版面向一部分组织提供。要获得访问权限，请与 Adobe 代表联系。[了解详情](../start/playbooks.md)
 
 **导航**
 

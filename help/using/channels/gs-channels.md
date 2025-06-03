@@ -7,21 +7,21 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# 开始使用[!DNL Adobe Journey Optimizer]渠道 {#get-started-email}
+# [!DNL Adobe Journey Optimizer] 渠道快速入门 {#get-started-email}
 
 在当今充满活力的营销格局下，通过各种平台有效吸引受众对于建立长久关系和增强参与度至关重要。本部分全面概述了 [!DNL Adobe Journey Optimizer] 中可用的通信渠道，帮助您了解如何在营销策略中有效利用每个渠道。
 
-Adobe Journey Optimizer提供了多种原生渠道，以便有效地吸引受众。 您可以将出站消息投放和入站体验相结合。
+Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您可以将出站消息投放和入站体验相结合。
 
 ## 消息投放的出站渠道 {#outbound-channels}
 
-出站消息投放渠道涉及在不进行事先交互的情况下向客户发送消息。 示例包括电子邮件营销活动和推送通知，您可以在此类活动中主动联系受众。在 [!DNL Adobe Journey Optimizer] 中，支持的出站渠道包括：
+消息投放的出站渠道是指在不进行事先交互的情况下向客户发送消息。示例包括电子邮件营销活动和推送通知，您可以在此类活动中主动联系受众。在 [!DNL Adobe Journey Optimizer] 中，支持的出站渠道包括：
 
 * **电子邮件**：将个性化邮件直接发送到客户的收件箱。
 * **短信/彩信**：发送短信以通过移动设备联系用户。
@@ -43,7 +43,7 @@ Adobe Journey Optimizer提供了多种原生渠道，以便有效地吸引受众
 
 ## 入站体验 {#inbound-channels}
 
-利用入站体验，客户可以启动交互。 示例包括应用程序内消息传送和基于Web的体验，在这些体验中，用户可以根据自己的条件参与内容。 在 [!DNL Adobe Journey Optimizer] 中，支持的入站渠道包括：
+利用入站体验，客户可以进行交互。示例包括应用程序内消息传送和基于 Web 的体验。在这些交互中，用户可以根据自己的条件与内容互动。在 [!DNL Adobe Journey Optimizer] 中，支持的入站渠道包括：
 
 * **应用程序内**：与移动或 Web 应用程序中的用户通信，以增强其体验。
 * **Web**：使用基于 Web 的消息传送，与浏览网站的用户进行交互。

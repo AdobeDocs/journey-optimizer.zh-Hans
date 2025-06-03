@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 下文中介绍了使用 [!DNL Adobe Journey Optimizer] 时的额外护栏和限制。
 
-[Adobe Journey Optimizer产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
+[Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
-在开始之前，您还需要了解针对Real-time Customer Profile数据[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}的防护。
+在开始之前，您还需要了解[针对实时客户轮廓数据的护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}。
 
 ## 支持的浏览器 {#browsers}
 
@@ -60,9 +60,9 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 ### Web 渠道护栏 {#web-guardrails}
 
-[!DNL Journey Optimizer] [Web 营销活动](../web/get-started-web.md)针对的是以前在其他渠道上没有联系过的新用户档案。这将增加符合资格的用户档案总数，如果超出您购买的符合资格的用户档案的合同数量，则可能会产生成本影响。
+[!DNL Journey Optimizer] [Web 营销活动](../web/get-started-web.md)针对的是以前在其他渠道上没有联系过的新用户档案。这将增加符合资格的轮廓总数，如果超出您购买的符合资格的轮廓的合同数量，则可能会对成本产生影响。
 
-[Journey Optimizer产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
+[Journey Optimizer 产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}页面上列出了每个包的许可证指标。
 
 ### 基于代码的渠道护栏 {#code-based-guardrails}
 
@@ -124,7 +124,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 * 如果出现错误，系统将执行三次重试。无法根据收到的错误消息调整重试次数。对 HTTP 401、403 和 404 以外的所有 HTTP 错误执行重试。
 * 使用内置的&#x200B;**反应**&#x200B;事件，可对开箱即用的操作做出反应。请参阅[此页面](../building-journeys/reaction-events.md)以了解详情。如果要对通过自定义操作发送的消息做出反应，则必须配置专用事件。
 * 无法同时设置两个操作，必须先添加一个，然后再添加另一个操作。
-* 对于历程[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)的所有活动版本，同一历程中不能同时存在多个配置文件。 如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
+* 对于所有有效的[历程版本](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)，一个轮廓不能在同一历程中同时多次出现。如果启用了重新进入，则用户档案可以重新进入历程，但只有在完全退出该历程的上一个实例后才能重新进入历程。[了解详情](../building-journeys/end-journey.md)
 
 ### 历程版本 {#journey-versions-g}
 
@@ -215,7 +215,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 以下护栏适用于[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)：
 
 * 以读取受众、受众资格筛选或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众并在历程中使用受众内条件。
-* 不能在表达式编辑器中使用`timeSeriesEvents`特性。 要在配置文件级别访问体验事件，请基于`XDM ExperienceEvent`架构创建新的字段组。
+* 不能在表达式编辑器中使用 `timeSeriesEvents` 属性。要在轮廓级别访问体验事件，请基于 `XDM ExperienceEvent` 架构创建新的字段组。
 
 
 ### 应用程序内活动 {#in-app-activity-limitations}

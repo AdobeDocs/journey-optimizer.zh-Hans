@@ -6,9 +6,9 @@ level: Beginner
 badge: label="有限发布版"
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: f55f985375cf360ce55074cb227b6c424db05b5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 94%
 
 在 Journey Optimizer 中，管理营销活动和历程的数量和时间至关重要，这样才能避免因过多的交互而让客户不堪重负。Journey Optimizer 提供多种冲突管理和优先级工具。
 
-这些工具可用于营销活动和单一、受众资格和读取受众历程。
+这些工具可用于营销活动和单一历程、受众资格筛选以及读取受众历程。
 
-利用这些工具，您可以确保更顺畅、更有针对性的营销工作，在正确的时间提供正确的信息，同时避免冲突和过载。
+利用这些工具，您可以确保更顺畅、更有针对性地开展营销工作，在正确的时间投放正确的消息，同时避免冲突和过度发送。
 
 ## 冲突管理和优先级工具 {#tools}
 

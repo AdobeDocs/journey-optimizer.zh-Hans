@@ -10,9 +10,9 @@ level: Experienced
 keywords: 设置、电子邮件、配置
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 >
 >通过下方的[此部分](#enable-list-unsubscribe)，了解如何管理退订设置。
 
-在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的配置文件将立即退出，并且此选择将在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中更新。
+在这两种情况下，当收件人单击选择退出链接时，将会相应地处理其取消订阅请求。相应的轮廓会立即退出订阅，并且此选择将在 [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"} 中更新。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ ht-degree: 94%
   >
   >要了解有关管理消息中的取消订阅功能的更多信息，请参阅[此部分](../email/email-opt-out.md#unsubscribe-header)。
 
-在[!DNL Journey Optimizer]中，同意由Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。 默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在上线时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
+在 [!DNL Journey Optimizer] 中，同意由 Experience Platform [同意架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hans){target="_blank"}处理。默认情况下，同意字段的值为空，并视为同意接收您的通信。您可以在加入时修改此默认值，使其成为[此处](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hans#choice-values){target="_blank"}列出的可能值之一，或使用[同意策略](../action/consent.md)覆盖默认逻辑。
 
 目前，[!DNL Journey Optimizer] 不会将特定标记附加到由列表取消订阅功能触发的取消订阅事件。如果您需要区分列表取消订阅点击与其他取消订阅操作，则必须在外部实施自定义标记，或利用外部登陆页面进行跟踪。
 
@@ -123,7 +123,7 @@ ht-degree: 94%
 
 选择&#x200B;**[!UICONTROL 客户托管]**&#x200B;选项后，如果您输入自定义端点并将其用于营销活动或历程，当您的收件人单击“取消订阅”链接时，[!DNL Journey Optimizer] 会将一些特定于用户档案的默认参数附加到同意更新事件 <!--sent to the custom endpoint -->。
 
-将以加密方式把这些参数发送到端点。因此，外部同意系统需要通过[Adobe Developer](https://developer.adobe.com){target="_blank"}实施特定API以解密Adobe发送的参数。
+将以加密方式把这些参数发送到端点。因此，外部同意系统需要通过 [Adobe Developer](https://developer.adobe.com){target="_blank"} 实施特定 API 以解密 Adobe 发送的参数。
 
 用于检索这些参数的 GET 调用取决于您正在使用的列表取消订阅选项，即&#x200B;**[!UICONTROL 一键式取消订阅 URL]** 或 **[!UICONTROL Mailto（取消订阅）]**。
 

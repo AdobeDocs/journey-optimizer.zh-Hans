@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '499'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 此外，您可以将战术手册资产导入其他沙盒中。假如您已设置自己的架构、字段和字段组，这样做可以使生成的资产与现有资产保持一致，并确保其与数据兼容。用例战术手册文档中详细介绍了这些步骤：[将战术手册生成的资产发布到其他沙盒](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=zh-Hans){target="_blank"}。
 
-## 创建您自己的行动手册（私人测试版） {#create}
+## 创建自己的战术手册 (Private Beta) {#create}
 
 >[!AVAILABILITY]
 >
->用例行动手册创建当前仅作为专用测试版提供给一组组织。 要获得访问权限，请与 Adobe 代表联系。
+>目前，用例战术手册创建仅作为 Private Beta 版面向一部分组织提供。要获得访问权限，请与 Adobe 代表联系。
 
 除了利用预定义的战术手册之外，您还可以在 Adobe Experience Platform 中创建并共享自己的战术手册。
 
