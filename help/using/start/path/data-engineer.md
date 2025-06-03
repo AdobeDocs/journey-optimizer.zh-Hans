@@ -7,10 +7,10 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->要了解有关&#x200B;**数据摄取**&#x200B;的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}。
+>在[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hans){target="_blank"}中了解有关&#x200B;**数据摄取**&#x200B;的更多信息。
 
 以下各部分中详细介绍了为轮廓和测试轮廓创建身份标识命名空间和启用数据集的步骤：
 
 1. **创建身份标识命名空间**。在 Adobe [!DNL Journey Optimizer] 中，跨设备和渠道的&#x200B;**身份标识**&#x200B;与用户相关联，从而会生成一个身份标识图。关联的身份标识图用于根据您所有业务接触点之间的交互对体验进行个性化。要了解有关身份标识和身份标识命名空间的更多信息，请参阅[此页面](../../audience/get-started-identity.md)。
 
-1. **创建架构**&#x200B;并为轮廓启用。架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。要了解有关架构的更多信息，请参阅[此页面](../../data/get-started-schemas.md)。
+1. **创建架构**&#x200B;并为轮廓启用。架构是一组规则，用于表示和验证数据的结构和格式。在高层面上，架构提供了真实世界对象（如人）的抽象定义，并概括了该对象的每个实例中应包含哪些数据（如名字、姓氏、生日等）。  要了解有关架构的更多信息，请参阅[此页面](../../data/get-started-schemas.md)。
 
 1. **创建数据集**&#x200B;并为轮廓启用。数据集是用于数据集合的存储和管理结构，通常是表格，其中包含架构（列）和字段（行）。数据集还包含描述其存储的数据的各方面特性的元数据。创建数据集后，您可以将其映射到现有架构并向其中添加数据。要了解有关数据集的更多信息，请参阅[此页面](../../data/get-started-datasets.md)。
 

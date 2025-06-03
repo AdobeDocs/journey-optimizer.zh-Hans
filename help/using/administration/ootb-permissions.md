@@ -9,16 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
 
 # 内置权限 {#ootb-permissions}
 
-内置权限表示可以分配给&#x200B;**[!UICONTROL Role]**&#x200B;的各种权限，以优化用户对Journey Optimizer的访问权限。 高级权限包括低级权限，详细位于[此页面](high-low-permissions.md)上。
+内置权限表示可以分配给&#x200B;**[!UICONTROL Role]**&#x200B;的各种权限，以优化用户对Journey Optimizer的访问权限。 高级权限包括在[此页面](high-low-permissions.md)上详细介绍的低级权限。
 
 | 功能 | 权限 |
 |-|-|
