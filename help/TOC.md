@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2406'
 ht-degree: 98%
 
 ---
@@ -214,8 +214,11 @@ ht-degree: 98%
 + 冲突管理和优先级 {#conflict-prioritization}
    + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
-   + [分配优先级分数](using/conflict-prioritization/priority-scores.md)
-   + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
+   + [分配优先级得分](using/conflict-prioritization/priority-scores.md)
+设置消息和历程上限规则 {#capping-rules}
+      + [使用规则集](using/conflict-prioritization/rule-sets.md)
+      + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
+      + [通过信道和通信类型实现频率封顶](using/conflict-prioritization/channel-capping.md)
 + 测试和审批 {#test}
    + 预览和测试内容 {#preview-test}
       + [预览和测试入门](using/content-management/preview-test.md)
@@ -732,7 +735,6 @@ ht-degree: 98%
    + [存档支持](using/configuration/archiving-support.md)
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置业务规则](using/configuration/frequency-rules.md)
-   + [使用规则集](using/configuration/rule-sets.md)
 + 历程配置 {#configure-journeys}
    + [配置数据源、事件和操作](using/configuration/about-data-sources-events-actions.md)
    + 事件配置 {#events-journeys}
