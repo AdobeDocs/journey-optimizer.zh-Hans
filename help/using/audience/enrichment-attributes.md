@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
 
 # 使用受众扩充属性 {#enrichment}
 
-当定位使用构成工作流、自定义（CSV文件）受众或联合受众构成生成的受众时，您可以利用这些受众的扩充属性来构建历程并个性化消息。
+当定位通过组合工作流、自定义（CSV文件）受众或联合受众组合生成的受众时，您可以使用这些受众中的扩充属性来构建历程并个性化消息。
 
 >[!NOTE]
 >
@@ -39,21 +39,21 @@ ht-degree: 3%
 >
 >要使用通过组合工作流创建的受众中的扩充属性，请确保将这些属性添加到“ExperiencePlatform”数据Source中的字段组。
 >
->+++ 了解如何将扩充属性添加到字段组>
++++ 了解如何将扩充属性添加到字段组>
 >
->1. 导航到“管理”>“配置”>“数据源”。
->1. 选择“Experience Platform”并创建或编辑字段组。
->1. 在架构选择器中，选择相应的架构。 架构的名称将采用以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
->1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
->1. 保存更改。
->1. 将扩充属性添加到字段组后，您可以在Journey Optimizer中在上面列出的位置利用它们。
+1. 导航到“管理”>“配置”>“数据源”。
+1. 选择“Experience Platform”并创建或编辑字段组。
+1. 在架构选择器中，选择相应的架构。 架构的名称将遵循以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
+1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
+1. 保存更改。
+1. 将扩充属性添加到字段组后，您可以在Journey Optimizer中以上列出的位置使用它们。
 >
->有关数据源的详细信息，请参阅以下部分：
+有关数据源的详细信息，请参阅以下部分：
 >
->* [使用Adobe Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)
->* [配置数据源](../datasource/configure-data-sources.md)
+* [使用Adobe Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)
+* [配置数据源](../datasource/configure-data-sources.md)
 >
->+++
++++
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 扩充属性是额外的上下文属性，特定于受众。 它们与用户档案无关，通常用于个性化目的。
 
-扩充属性通过受众构成中的扩充活动或自定义上传过程与受众关联。
+扩充属性通过受众构成中的扩充活动或自定义上传过程链接到受众。
 
 +++
 
