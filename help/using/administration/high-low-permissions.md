@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
+source-git-commit: 3e106b971f5ce301584869e85efeaeb941237ac8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 * **[!DNL Export suppression list]**&#x200B;高级权限允许用户将禁止列表下载为CSV文件。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * suppression_list.export
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 * **[!DNL Publish campaigns]**&#x200B;高级权限允许用户发布营销活动。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
 
@@ -334,7 +334,7 @@ ht-degree: 0%
 
 * **[!DNL Manage landing page settings]**&#x200B;高级权限允许用户读取、创建和编辑登陆页面子域和预设设置。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 * **[!DNL Manage messages presets]**&#x200B;高级权限允许用户在沙盒级别跨渠道读取、创建、编辑和删除渠道配置。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * messages_presets.read
@@ -379,7 +379,7 @@ ht-degree: 0%
 
 * **[!DNL Manage PTR records]**&#x200B;高级权限允许用户读取和编辑已根据子域配置的PTR记录。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * PTR_records.read
@@ -390,7 +390,7 @@ ht-degree: 0%
 
 * **[!DNL Manage Seedlist]**&#x200B;高级权限允许用户读取、创建、编辑和删除种子列表。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * seedlist.read
@@ -401,7 +401,7 @@ ht-degree: 0%
 
 * **[!DNL Manage SMS subdomains]**&#x200B;高级权限允许用户读取、创建、编辑和删除SMS子域。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * sms_subdomains.read
@@ -444,7 +444,7 @@ ht-degree: 0%
 
 * **[!DNL View messages general settings]**&#x200B;高级权限允许用户查看邮件的一般设置，如执行地址。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * messages_general_settings.read
@@ -456,7 +456,7 @@ ht-degree: 0%
 
 * **[!DNL View messages presets]**&#x200B;高级权限允许用户查看消息预设。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * messages_presets.read
@@ -470,7 +470,7 @@ ht-degree: 0%
 
 * **[!DNL View PTR records]**&#x200B;高级权限允许用户查看已根据子域配置的PTR记录。
 
-+++ 它包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
 
       * PTR_records.read
@@ -509,7 +509,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
 
-  +++ It includes the following low-level permissions: 
+  +++ This permission includes the following low-level permissions: 
 -->
 
 ## AI协助资源 {#ai-permissions}
