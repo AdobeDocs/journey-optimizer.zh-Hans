@@ -5,13 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
@@ -28,15 +26,15 @@ ht-degree: 0%
 发布营销活动后，将`dryRun`标志添加到客户端实施的XDM事件`data`块中：
 
     “
-    &lbrace;
-    ”数据“： &lbrace;
-    ”__adobe”： &lbrace;
-    &quot;ajo”： &lbrace;
+    {
+    ”数据“： {
+    ”__adobe”： {
+    &quot;ajo”： {
     &quot;dryRun”： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     “
 ”
 <!--
@@ -46,7 +44,7 @@ ht-degree: 0%
 
 ## 基于代码的实施中的决策项目重复数据删除 {#code-based-decisioning-deduplication}
 
-在基于代码的体验中使用[决策策略](../experience-decisioning/create-decision.md)时，了解如何在客户端实施中将重复数据删除应用于决策请求。
+在基于代码的体验中使用[决策策略](../experience-decisioning/create-decision.md)时，您可以在客户端实施中将重复数据删除应用于决策请求。
 
 决策请求（通过Konductor）接受重复数据删除标记，该标记在由多个决策策略或投放位置组成的单个请求中处理决策项目的唯一性。
 
