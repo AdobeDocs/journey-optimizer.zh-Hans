@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1416'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 88%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 ## 2025年6月更新 {#25-6-rn}
-
 
 <table>
 <thead>
@@ -41,7 +40,7 @@ ht-degree: 88%
 </tbody>
 </table>
 
-&lt;<table>
+<table>
 <thead>
 <tr>
 <th><strong>冲突和优先级</strong><br/></th>
@@ -63,6 +62,13 @@ ht-degree: 88%
 </tr>
 </tbody>
 </table>
+
+### 改进
+
+* **决策** — 发布日期：2025年6月3日
+
+  现在可以在不同沙盒中复制决策对象，从而简化测试和部署工作流程。[了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
+
 
 ## 2025 年 5 月发行说明 {#25-5-rn}
 
@@ -260,10 +266,6 @@ ht-degree: 88%
 * **沙盒副本支持新Campaign对象** — 发布日期： 2025年5月15日
 
   使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。[了解详情](../configuration/copy-objects-to-sandbox.md)
-
-  <!--* **Decisioning** - Availability date: May 16, 2025
-
-    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **登陆页的文件夹** - 发布日期：2025 年 5 月 9 日
 
