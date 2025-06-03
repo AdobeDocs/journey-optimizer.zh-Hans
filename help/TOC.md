@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '2398'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 95%
       + [历程中的实时报告](using/building-journeys/report-journey.md)
    + 管理您的历程{#manage-journey}
       + [浏览和筛选历程](using/building-journeys/journey-ui.md)
-      + [历程中的用户档案入口](using/building-journeys/entry-management.md)
-      + [事件触发的历程中的补充标识符](using/building-journeys/supplemental-identifier.md)
+      + [历程中的轮廓入口](using/building-journeys/entry-management.md)
+      + [触发事件的历程中的补充标识符](using/building-journeys/supplemental-identifier.md)
       + [时区管理](using/building-journeys/timezone-management.md)
       + [发送时间优化](using/building-journeys/send-time-optimization.md)
       + [结束您的历程](using/building-journeys/end-journey.md)
@@ -177,17 +177,17 @@ ht-degree: 95%
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/ms/gs-ms-campaigns.md)
    + [关键原则](using/ms/gs-campaign-creation.md)
-   + [创建协调营销活动的步骤](using/ms/gs-campaign-steps.md)
+   + [创建精心策划的营销活动的步骤](using/ms/gs-campaign-steps.md)
    + 配置步骤 {#ms-config}
-      + [创建相关架构](using/ms/ms-schemas.md)
+      + [创建关系架构](using/ms/ms-schemas.md)
    + 创建步骤{#create-ms-campaign}
-      + [创建编排的营销活动](using/ms/create-ms-campaign.md)
+      + [创建精心策划的营销活动](using/ms/create-ms-campaign.md)
       + [配置营销活动设置](using/ms/ms-campaign-settings.md)
-      + [计划和开始您的营销活动](using/ms/start-monitor-campaigns.md)
+      + [计划并开始营销活动](using/ms/start-monitor-campaigns.md)
       + [生成查询](using/ms/ms-query-modeler.md)
    + 活动 {#design-campaigns}
-      + [活动入门](using/ms/activities/about-activities.md)
-      + [编排活动](using/ms/orchestrate-activities.md)
+      + [活动快速入门](using/ms/activities/about-activities.md)
+      + [策划活动](using/ms/orchestrate-activities.md)
       + [And-join](using/ms/activities/and-join.md)
       + [构建受众](using/ms/activities/build-audience.md)
       + [更改维度](using/ms/activities/change-dimension.md)
@@ -220,8 +220,8 @@ ht-degree: 95%
    + 预览和测试内容 {#preview-test}
       + [预览和测试入门](using/content-management/preview-test.md)
       + [选择测试轮廓](using/content-management/test-profiles.md)
-      + [使用测试用户档案预览](using/content-management/preview.md)
-      + [使用测试用户档案数据发送验证](using/content-management/proofs.md)
+      + [使用测试轮廓预览](using/content-management/preview.md)
+      + [使用测试轮廓数据发送校样](using/content-management/proofs.md)
       + [测试电子邮件呈现](using/content-management/rendering.md)
       + [模拟内容变体](using/test-approve/simulate-sample-input.md)
       + [垃圾电子邮件报告](using/content-management/spam-report.md)
@@ -290,7 +290,7 @@ ht-degree: 95%
          + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
          + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
          + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
-         + [配置自定义提供程序](using/sms/sms-configuration-custom.md)
+         + [配置自定义提供商](using/sms/sms-configuration-custom.md)
          + [创建短信配置](using/sms/sms-configuration-surface.md)
    + 直邮 {#direct-mail}
       + [直邮入门](using/direct-mail/get-started-direct-mail.md)
@@ -401,9 +401,9 @@ ht-degree: 95%
       + [使用 Adobe Stock](using/integrations/stock.md)
       + [使用 Adobe Express](using/integrations/express.md)
       + [使用 Experience Manager 模板](using/integrations/aem-templates.md)
-      + [使用Experience Manager内容片段](using/integrations/aem-fragments.md)
+      + [使用 Experience Manager 内容片段](using/integrations/aem-fragments.md)
       + [使用 Dynamic Media](using/integrations/aem-dynamic.md)
-      + [使用GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
    + 用于内容生成的 AI 助手{#ai-assistant}
       + [AI 助手快速入门](using/content-management/gs-generative.md)
       + [使用 AI 生成电子邮件](using/content-management/generative-email.md)
@@ -544,7 +544,7 @@ ht-degree: 95%
       + 配置项目选择 {#selection}
          + [创建决策规则](using/experience-decisioning/rules.md)
          + [创建排名方法](using/experience-decisioning/ranking.md)
-         + [使用AI公式生成器](using/experience-decisioning/exd-ranking-formulas.md)
+         + [使用 AI 公式生成器](using/experience-decisioning/exd-ranking-formulas.md)
          + [利用上下文数据](using/experience-decisioning/context-data.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
