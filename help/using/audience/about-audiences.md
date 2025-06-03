@@ -8,15 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '541'
 ht-degree: 19%
 
 ---
 
 
-# 受众入门 {#about-segments}
+# 受众快速入门 {#about-segments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
@@ -32,13 +32,13 @@ ht-degree: 19%
 
 Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众，从而加强营销工作。 在与Adobe Real-Time Customer Data Platform结合使用时，Journey Optimizer可让您栈叠受众以实现更复杂的分段，并与其他Adobe Experience Cloud解决方案双向共享受众。
 
-实时数据流或批量上传时，数据集更新和Journey Optimizer会实时动态地将个人移入和移出受众和历程。
+实时数据流或批量上传发生时，数据集会更新，Journey Optimizer会实时动态地将个人移入和移出受众和历程。
 
 >[!BEGINSHADEBOX]
 
 本文档提供了有关如何使用[!DNL Adobe Journey Optimizer]中的受众的信息。 有关Audience Portal和受众的详细信息，请参阅Adobe Experience Platform分段服务文档。 有关更多详细信息，请参阅以下部分：
 
-* [分段服务UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服务 — 常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 可通过&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 受众]**&#x200B;菜单访问受众。
 
-仪表板以可视化形式显示重要受众之间的重叠，并支持探索有价值的受众趋势，例如给定时间段内的受众规模变化或受众突然激增，可突出显示导致受众萎缩的事件或操作，以及导致受众增长的事件或操作，例如成功选件。
+仪表板以可视化形式显示重要受众之间的重叠，并支持探索有价值的受众趋势。 例如，在给定的时间段内受众规模发生变化或受众突然激增，可能会突出显示导致受众缩小或增大的事件或操作，例如成功的选件。
 
 ![](assets/audiences-overview.png)
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer提供了强大的工具来创建、管理和丰富受众
 
 * **联合受众构成**：直接从现有数据仓库联合数据集，以在一个系统中构建和扩充Adobe Experience Platform受众和属性。 [了解如何使用联合受众合成](federated-audience-composition.md)。
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解 Journey Optimizer 中统一的客户轮廓和受众。
 

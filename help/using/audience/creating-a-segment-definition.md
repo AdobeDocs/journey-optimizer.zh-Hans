@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 17%
+source-wordcount: '1001'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 
 ## 创建区段定义 {#create}
 
-在本例中，我们将构建受众，以定位生活在亚特兰大、旧金山或西雅图且出生于1980年之后的所有客户。 所有这些客户应在过去7天内购买了。
+在本例中，您构建了一个受众来定位居住在亚特兰大、旧金山或西雅图且出生于1980年之后的所有客户。 所有这些客户必须在过去7天内购买过商品。
 
 ➡️ [在此视频中了解如何创建受众](#video-segment)
 
@@ -32,7 +32,7 @@ ht-degree: 17%
 
    ![](assets/create-segment.png)
 
-   利用区段定义屏幕，可配置定义受众所需的所有字段。 了解如何在[Segmentation Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/overview){target="_blank"}中配置受众。
+   利用区段定义屏幕，可配置定义受众所需的所有字段。 了解如何在[Segmentation Service文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}中配置受众。
 
    ![](assets/segment-builder.png)
 
@@ -42,11 +42,11 @@ ht-degree: 17%
 
 1. 将所需字段从左窗格拖放到中心工作区，然后根据需要进行配置。
 
-   区段定义的基本构建块为&#x200B;**属性**&#x200B;和&#x200B;**事件**。 此外，现有受众中包含的属性和事件还可以用作新定义的组件。 [在分段服务文档中了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   区段定义的基本构建块为&#x200B;**属性**&#x200B;和&#x200B;**事件**。 此外，现有受众中包含的属性和事件还可以用作新定义的组件。 [在分段服务文档中了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
-   >请注意，左窗格中可用的字段因为您的组织配置&#x200B;**XDM Individual Profile**&#x200B;和&#x200B;**XDM ExperienceEvent**&#x200B;架构的方式而异。  在[Experience Data Model (XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中了解详情。
+   >请注意，左窗格中可用的字段因为您的组织配置&#x200B;**XDM Individual Profile**&#x200B;和&#x200B;**XDM ExperienceEvent**&#x200B;架构的方式而异。  在[Experience Data Model (XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中了解详情。
 
    ![](assets/drag-fields.png)
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 
 1. 受众准备就绪后，单击&#x200B;**[!UICONTROL 保存]**。 它显示在Adobe Experience Platform受众的列表中。 请注意，搜索栏可帮助您搜索列表中的特定受众。
 
-受众现在可以在您的历程中使用。 有关详细信息，请参阅[此部分](../audience/about-audiences.md)。
+受众现已准备就绪，可用于您的历程。 有关更多信息，请参见[此章节](../audience/about-audiences.md)。
 
 ## 受众评估方法 {#evaluation-method-in-journey-optimizer}
 
@@ -76,7 +76,7 @@ ht-degree: 17%
 
 当新数据流入系统时，受众的用户档案列表会实时保持最新。
 
-流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人资料数据发生变化时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。 [在Adobe Expe中了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hans){target="_blank"}。
+流式分段是一个持续的数据选择过程，会更新区段以响应用户活动。构建区段定义并保存生成的受众后，该区段定义将应用于传入 Journey Optimizer 的数据。这意味着当个人资料数据发生变化时，将会在受众中添加或删除个人，从而确保您的目标受众始终相关。 [在Adobe Expe中了解详情](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ ht-degree: 17%
 >
 >* 此更改适用于所有客户沙盒和组织。
 >* 仅发送和打开事件受到影响：点击次数和其他跟踪事件仍可用于流式分段。
->* 此更改仅适用于流式客户细分。 发送和打开事件仍可以在批处理区段中使用，但如果包含在流区段中，则将批处理评估它们。 此外，发送事件导致的排除事件和退回/延迟事件也会受此更改的影响。
+>* 此更改仅适用于流式客户细分。 发送和打开事件仍可以在批处理区段中使用，但如果包含在流区段中，则会以批处理方式评估它们。 此外，发送事件导致的排除事件和退回/延迟事件也会受此更改的影响。
 >* 不影响跟踪数据收集。 将继续像往常一样收集“发送”和“打开”事件。
 >* 历程中的反应事件不受此更改的影响。
 
@@ -94,19 +94,19 @@ ht-degree: 17%
 
 每24小时评估一次受众的用户档案列表。
 
-批量分段是流式分段的替代方法，是通过区段定义一次性处理所有轮廓数据的过程。这会创建受众的快照，可保存和导出以供使用。但是，与流式分段不同，批量分段不会持续实时更新受众列表，并且在下一次批量处理之前，批量处理流程之后输入的新数据不会反映在受众中。 尝试强制立即更新不会覆盖每日周期。 要立即进行增量更新，请考虑使用流式或按需分段选项。
+批量分段通过区段定义一次处理所有用户档案数据，创建可保存和导出以供使用的受众快照。 与流式分段不同，批量分段不会连续实时更新受众列表。 在批处理之后输入的新数据直到下一次批处理才会反映在受众中。 尝试强制立即更新不会覆盖每日周期。 要立即进行增量更新，请考虑使用流式或按需分段选项。
 
-有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans#batch){target="_blank"}
+有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
 +++ 边缘分段
 
-Edge分段功能可在Adobe Experience Platform的边缘[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}上即时评估中的区段，启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hans#query-types){target="_blank"}
+Edge分段功能可在Adobe Experience Platform的边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}上即时评估[中的区段，启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-如果您知道要使用哪种评估方法，请使用下拉列表选择它。 您还可以单击带有放大镜的浏览图标文件夹图标，查看可用区段定义评估方法的列表。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#segment-properties){target="_blank"}
+如果您知道要使用的评估方法，请使用下拉列表选择它。 您还可以单击带有放大镜的浏览图标文件夹图标，查看可用区段定义评估方法的列表。 有关更多详细信息，请参阅[Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}。
 
 ![](assets/evaluation-methods.png)
 
@@ -122,7 +122,7 @@ Edge分段功能可在Adobe Experience Platform的边缘[&#128279;](https://expe
 
 ## 灵活的受众评估 {#flexible}
 
-Adobe Experience Platform Audience Portal允许您根据需要对所选受众运行分段作业，确保在将受众定位到Journey Optimizer历程和营销活动之前始终具有最新的受众数据。
+Adobe Experience Platform Audience Portal允许您根据需要对选定的受众运行分段作业，从而确保在Journey Optimizer历程和营销活动中定位受众之前，您始终拥有最新的受众数据。
 
 通过灵活的受众评估，您可以：
 
@@ -130,10 +130,10 @@ Adobe Experience Platform Audience Portal允许您根据需要对所选受众运
 1. 实时评估受众以确保准确性。 要实现此目的，请选择要评估的受众，然后选择“评估受众”，前提是受众符合特定标准（例如，基于人员的分段服务来源）。
 1. 在Adobe Journey Optimizer营销活动或历程中使用评估后的受众进行精确定位。
 
-您一次最多可以评估20个受众，不符合条件的受众将被自动排除。 有关更多详细信息，请参阅[Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
+您一次最多可以评估20个受众，不符合条件的受众将被自动排除。 有关更多详细信息，请参阅[Adobe Experience Platform Segmentation Service文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
 
 ## 操作说明视频{#video-segment}
 
-了解 Journey Optimizer 如何使用规则生成受众，并了解如何使用属性、事件和现有受众创建受众。
+了解Journey Optimizer如何使用规则生成受众，并了解如何使用属性、事件和现有受众来创建受众。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430330?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
