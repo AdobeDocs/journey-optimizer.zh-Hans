@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: cb19145ad7b6e1ab99e05a5f3c6ab06f75713290
+source-git-commit: 8f962e8d0f553b0763f111de50b20a0883703b52
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1427'
 ht-degree: 19%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 要管理您的片段，请从左侧菜单&#x200B;**[!UICONTROL 内容管理]** > **[!UICONTROL 片段]**&#x200B;访问片段列表。
 
-显示在当前沙盒上创建的所有片段 — 使用[另存为片段](#save-as-fragment)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单[&#128279;](#create-fragments)中创建的。
+显示在当前沙盒上创建的所有片段 — 使用[另存为片段](#save-as-fragment)选项从&#x200B;**[!UICONTROL 片段]**&#x200B;菜单](#create-fragments)中创建的[。
 
 利用左侧的窗格，可将片段整理到文件夹中。 默认情况下，将显示所有片段。 选择文件夹时，仅显示选定文件夹中包含的片段和文件夹。 [了解详情](#folders)
 
@@ -97,11 +97,8 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段状态"
->abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并进行发布。"
-
-<!--
->abstract="Since **Draft** and **Live** statuses have been introduced with Journey Optimizer June release, all fragments created before this release have the **Draft** status, even if they are used in a journey or campaign. If you make any change to these fragments, you need to publish them to make them **Live** and propagate the changes to the associated campaigns and journeys. You also need to create a new journey/campaign version and publish it. <br/>Publishing requires the <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish Fragment</a> user permission."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Learn more about content fragments permissions"-->
+>abstract="由于在 Journey Optimizer 6 月版中引入了&#x200B;**草稿**&#x200B;和&#x200B;**实时**&#x200B;状态，因此在此版本之前创建的所有片段都具有&#x200B;**草稿**&#x200B;状态，即使它们用于历程或活动中。如果您对这些片段进行任何更改，则需要发布片段以使其成为&#x200B;**实时**&#x200B;片段，并将更改传播到相关的活动和历程。您还需要创建一个新的历程/活动版本并发布它。<br/>发布需要<a href="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">发布片段</a>用户权限。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="详细了解内容片段权限"
 
 片段可以具有多种状态：
 
