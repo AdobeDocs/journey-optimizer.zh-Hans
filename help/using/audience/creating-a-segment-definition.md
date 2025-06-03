@@ -102,7 +102,7 @@ ht-degree: 11%
 
 +++ 边缘分段
 
-Edge分段功能可在Adobe Experience Platform的边缘](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}上即时评估[中的区段，启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+Edge分段功能可在Adobe Experience Platform的边缘[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}上即时评估中的区段，启用同页和下一页个性化用例。 当前只有选定的查询类型可使用边缘分段进行评估。 有关更多详细信息，请参阅[Adobe Experience Platform分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
