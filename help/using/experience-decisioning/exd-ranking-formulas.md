@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1179'
 ht-degree: 4%
 
 ---
 
-# 使用AI公式生成器 {#create-ranking-formulas}
+# 使用 AI 公式生成器 {#create-ranking-formulas}
 
 **排名公式**&#x200B;允许您定义规则，这些规则将确定应首先显示哪个选件，而不是考虑优先级分数。
 
@@ -48,11 +48,11 @@ ht-degree: 4%
    >
    >[AI公式生成器不支持使用连续量度的个性化优化模型](../offers/ranking/personalized-optimization-model.md)。
 
-每次在定义下面的公式时引用模型分数时，都将使用您选择的AI模型。
+   每次在定义下面的公式时引用模型分数时，都将使用您选择的AI模型。
 
-    >[！CAUTION]
-    >
-    >使用合并到排名公式中的AI模型时，数据未反映在[维持和模型驱动流量的转化率](../reports/campaign-global-report-cja-code.md#conversion-rate)报表中。
+   >[!CAUTION]
+   >
+   >使用合并到排名公式中的AI模型时，数据未反映在保持和模型驱动流量的[转化率](../reports/campaign-global-report-cja-code.md#conversion-rate)报表中。
 
 1. 定义条件以确定匹配决策项的排名分数。 您可以
 
