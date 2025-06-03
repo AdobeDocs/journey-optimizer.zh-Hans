@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 资格，事件，受众，历程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 17%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -38,20 +38,21 @@ ht-degree: 17%
 遵循以下护栏和建议以构建Audience Qualification历程。 另请参阅[受众资格最佳实践](#best-practices-segments)。
 
 
-* 受众资格历程主要设计用于流受众：此组合将保证更好的实时体验。 我们强烈建议您在受众资格活动中仅使用&#x200B;**流式受众**。
+* 受众资格历程主要设计用于流受众。 这种结合保证了更好的实时体验。 强烈建议在受众资格活动中使用&#x200B;**流式受众**。
 
-  但是，如果要在流式受众或受众资格历程的批量受众中使用基于批量摄取的属性，请考虑受众评估/激活的时间范围 — 在完成分段作业后&#x200B;**2小时**&#x200B;左右的&#x200B;**受众资格**&#x200B;活动中应准备好使用使用使用使用使用使用批量摄取的属性的批量受众或流式受众(此作业每天在Adobe组织管理员定义的时间运行一次)。
+  但是，如果要在流式受众或批量受众中使用基于批量摄取的属性进行受众资格历程，请考虑用于受众评估/激活的时间范围。 使用批量摄取属性的批量受众或流式受众在分段作业完成后约&#x200B;**2小时**&#x200B;即可在&#x200B;**受众资格**&#x200B;活动中使用。 此作业每天在Adobe组织管理员定义的时间运行一次。
 
-* 请记住，Adobe Experience Platform受众每天计算一次（**批次**&#x200B;受众），或使用Adobe Experience Platform的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
+* Adobe Experience Platform受众每天计算一次（**批次**&#x200B;受众），或使用Adobe Experience Platform的“高频受众”选项实时计算（针对&#x200B;**流式传输**&#x200B;受众）。
 
    * 如果对所选受众进行流式处理，则属于此受众的个人可能会实时进入历程。
    * 如果受众是批量受众，则新近符合此受众条件的人员可能会在Adobe Experience Platform上执行受众计算时进入历程。
 
-  因此，作为最佳实践，我们建议仅在&#x200B;**受众资格**&#x200B;活动中使用流式受众。 对于批量用例，请使用&#x200B;**[读取受众](read-audience.md)**&#x200B;活动。
+  作为最佳实践，请在&#x200B;**受众资格**&#x200B;活动中使用流式受众。 对于批量用例，请使用&#x200B;**[读取受众](read-audience.md)**&#x200B;活动。
 
   >[!NOTE]
   >
   >由于使用组合工作流和自定义上传创建的受众具有批次性质，因此无法在“受众资格”活动中定位这些受众。 此活动中只能利用使用区段定义创建的受众。
+
 
 * 以&#x200B;**读取受众**、**受众资格**&#x200B;或&#x200B;**业务事件**&#x200B;活动开始的历程中，无法使用体验事件字段组。
 
@@ -78,7 +79,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >请注意，您可以自定义列表中显示的列，并对其进行排序。
+   >您可以自定义列表中显示的列并对其进行排序。
 
    ![](assets/segment6.png)
 
@@ -92,7 +93,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;受众参与状态。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。 默认情况下，该字段会使用最后使用的命名空间预填充。
 
@@ -114,44 +115,44 @@ ht-degree: 17%
 
 ![](assets/segment8.png)
 
-包含&#x200B;**受众资格**&#x200B;事件的新历程将在您发布十分钟后开始运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待10分钟才能使用此历程。
+包含&#x200B;**受众资格**&#x200B;事件的新历程在发布十分钟后即可开始运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待10分钟才能使用此历程。
 
 ## 最佳实践 {#best-practices-segments}
 
-**[!UICONTROL 受众资格]**&#x200B;活动允许在Adobe Experience Platform受众中获得资格或被取消资格的个人在历程中立即进入。
+**[!UICONTROL 受众资格]**&#x200B;活动允许在Adobe Experience Platform受众中获得资格或被取消资格的个人立即进入历程。
 
-该信息的接收速度很快。所做的测量显示速度为每秒接收 10,000 个事件。因此，您应该确保了解入口峰值可能如何出现、如何避开，以及如何使历程针对此类情况做好准备。
+该信息的接收速度很快。测量显示每秒接收10,000个事件的速度。 因此，请确保您了解入口峰值可能如何出现、如何避开，以及如何使历程针对这些情况做好准备。
 
 ### 批量受众 {#batch-speed-segment-qualification}
 
-在对批量受众使用“受众资格”时，请注意，在每日计算时将出现入口峰值。 峰值的大小将取决于每天进入（或退出）受众的个人数量。
+在对批量受众使用“受众资格”时，请注意，在每日计算时会出现入口峰值。 峰值的大小取决于每天进入（或退出）受众的个人数量。
 
-此外，如果在历程中新建并立即使用批量受众，则第一批计算可能会使大量个人进入历程。
+此外，如果在历程中新创建并立即使用批量受众，则第一批计算可能会导致大量个人进入历程。
 
 ### 流式处理受众 {#streamed-speed-segment-qualification}
 
-在对流式传输的受众使用受众资格时，由于持续评估受众，入口/出口出现大量峰值的风险较小。 但是，如果受众定义导致大量客户同时获得资格，则也可能会出现峰值。
+在对流式传输的受众使用受众资格时，由于持续评估受众，入口/出口出现大量峰值的风险较小。 但是，如果受众定义导致大量客户同时符合条件，则仍可能会出现峰值。
 
 避免使用具有流式分段的“打开”和“发送”事件。 相反，应使用真正的用户活动信号，如点击次数、购买次数或信标数据。 对于频率或抑制逻辑，请使用业务规则而不是发送事件。 [了解详情](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+有关流式客户细分的更多信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 ### 如何避免过载 {#overloads-speed-segment-qualification}
 
-以下是将有助于避免使历程中利用的系统（数据源、自定义操作、渠道操作活动）过载的一些最佳实践。
+以下是避免使历程中利用的系统（数据源、自定义操作、渠道操作活动）过载的一些最佳实践：
 
-在&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动中，请勿在创建批处理受众后立即使用该受众。 它将避免第一个计算峰值。请注意，如果您要使用从未计算的受众，则历程画布中将出现黄色警告。
+* 在&#x200B;**[!UICONTROL 受众资格]**&#x200B;活动中创建批次受众后，请勿立即使用批次受众。 这样可以避免第一个计算峰值。 如果您要使用从未计算的受众，则历程画布中会显示黄色警告。
 
-![](assets/segment-error.png)
+  ![](assets/segment-error.png)
 
-为历程中使用的数据源和操作设置上限规则，以避免其过载。 了解有关[Journey Optimizer上限API](../configuration/capping.md)的更多信息。 请注意，上限规则不带重试。如果需要重试，则必须通过选中框&#x200B;**[!UICONTROL 在超时或条件或操作中出错]**&#x200B;的情况下添加替代路径来在历程中使用替代路径。
+* 为历程中使用的数据源和操作设置上限规则，以避免其过载。 请参阅[Journey Orchestration文档](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}以了解详情。 请注意，上限规则不带重试。如果需要重试，请通过选中框&#x200B;**[!UICONTROL 在条件或操作中出现超时或错误]**&#x200B;时添加替代路径来在历程中使用替代路径。
 
-在历程中使用受众之前，始终首先评估每天符合此受众条件的个人数量。 为此，您可以检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
+* 在生产历程中使用受众之前，请每天评估符合此受众条件的个人数量。 为此，请检查&#x200B;**[!UICONTROL 受众]**&#x200B;菜单，打开受众，然后查看&#x200B;**[!UICONTROL 随时间变化的配置文件]**&#x200B;图形。
 
-![](assets/segment-overload.png)
+  ![](assets/segment-overload.png)
 
 ## 操作说明视频 {#video}
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446214?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
