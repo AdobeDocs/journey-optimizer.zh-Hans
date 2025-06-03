@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 权限，高级，低级，配置文件， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * **[!DNL Manage journeys]**&#x200B;高级权限允许用户创建新的和编辑/删除现有历程，以及访问历程画布中用于构建历程流的对象。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * **[!DNL Publish journeys]**&#x200B;高级权限允许用户发布历程。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
       * journeys.publish
       * journeys.read
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys]**&#x200B;高级权限允许用户浏览和查看历程。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * journeys.read
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * **[!DNL Manage journeys events, data sources and actions]**&#x200B;高级权限允许用户配置事件和数据配置。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * journeys_events.read
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys events, data sources and actions]**&#x200B;高级权限允许用户在历程流中使用事件和数据。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * journeys_events.read
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 * **[!DNL View journeys report]**&#x200B;高级权限允许用户只读历程报告。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * journeys_report.read
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * **[!DNL Manage frequency rules]**&#x200B;高级权限允许用户读取、创建、编辑、删除和激活/停用频率规则。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * frequency_rules.read
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 * **[!DNL View frequency rules]**&#x200B;高级权限允许用户查看频率规则。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * frequency_rules.read
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 * **[!DNL Manage campaigns]**&#x200B;高级权限允许用户创建新的和编辑/删除营销活动
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 * **[!DNL View campaigns report]**&#x200B;高级权限允许用户读取和编辑营销活动报告。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * campaign.read
@@ -210,7 +210,7 @@ ht-degree: 0%
 
 * **[!DNL Manage decisions]**&#x200B;高级权限允许用户创建新的和编辑/删除现有的&#x200B;**[!DNL Activity entities]**，以及管理这些活动中用于制定决策的对象。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 决策管理特定：
       * activities.read
@@ -236,7 +236,7 @@ ht-degree: 0%
 
 * **[!DNL View decisions]**&#x200B;高级权限允许用户使用现有活动和相关业务对象做出决策。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 决策管理特定：
       * activities.read
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 * **[!DNL Manage offers]**&#x200B;高级权限允许用户创建、编辑和删除所有优惠、组件，读取决策和集合。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 决策管理特定：
       * offers_activity.read
@@ -275,7 +275,7 @@ ht-degree: 0%
 
 * **[!DNL Manage ranking strategies]**&#x200B;高级权限允许用户读取、创建、编辑和删除排名策略。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 决策管理特定：
       * ranking_strategy.read
@@ -292,7 +292,7 @@ ht-degree: 0%
 <!--
 * **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
-  +++ This role includes the following low-level permissions:  
+  +++ This permission includes the following low-level permissions:  
 
   * Experience decisions specific:
     * ranking_strategy.read
@@ -313,7 +313,7 @@ ht-degree: 0%
 
 * **[!DNL Manage file routing]**&#x200B;高级权限允许用户创建、编辑和删除文件路由配置。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
 
       * file_routing.read
@@ -324,7 +324,7 @@ ht-degree: 0%
 
 * **[!DNL Manage IP pools]**&#x200B;高级权限允许用户创建、编辑和删除关联定义。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
       * IP_pools.read
       * IP_pools.write
@@ -349,7 +349,7 @@ ht-degree: 0%
 
 * **[!DNL Manage messages general settings]**&#x200B;高级权限允许用户在沙盒级别创建、编辑和删除全局设置。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * messages_general_settings.read
@@ -412,7 +412,7 @@ ht-degree: 0%
 
 * **[!DNL Manage subdomains delegations]**&#x200B;高级权限允许用户创建、编辑和删除子域委派（包括IP池）。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
 
       * subdomains_delegation.read
@@ -423,7 +423,7 @@ ht-degree: 0%
 
 * **[!DNL Manage suppression]**&#x200B;高级权限允许用户定义电子邮件地址添加到禁止列表之前的退回次数，以及向/从禁止列表添加和删除条目。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
       * suppression_rules.read
       * suppression_rules.write
@@ -435,7 +435,7 @@ ht-degree: 0%
 
 * **[!DNL View file routing]**&#x200B;高级权限允许用户查看文件路由配置。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
    * 特定于Journey Optimizer：
 
       * file_routing.read
@@ -482,7 +482,7 @@ ht-degree: 0%
 ### [!DNL View channel configuration] permission {#view-channel-surface}
 
 The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
-  +++ This role includes the following low-level permissions:  
+  +++ This permission includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
@@ -493,7 +493,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * **[!DNL View suppression list]**&#x200B;高级权限允许用户查看禁止显示列表内容和设置。
 
-+++ 此角色包括以下低级权限：
++++ 此权限包括以下低级权限：
 
    * 特定于Journey Optimizer：
       * suppression_list.view

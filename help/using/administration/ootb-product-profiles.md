@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: 权限、创作、消息
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: ac8ccb52bd16a26c14dea148f989256e28170765
+source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 **[!DNL Campaign Administrator]**&#x200B;角色允许管理菜单管理和发布营销活动和决策管理。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -48,7 +48,7 @@ ht-degree: 6%
 
 **[!DNL Campaign Manager]**&#x200B;角色允许用户创建和编辑&#x200B;**[!UICONTROL 营销活动]**&#x200B;以及链接到&#x200B;**[!UICONTROL 营销活动]**&#x200B;的每个功能，但无法发布它们。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -63,7 +63,7 @@ ht-degree: 6%
 
 分配到此角色的用户将无法编辑或发布。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -74,7 +74,7 @@ ht-degree: 6%
 
 **[!DNL Journey Administrator]**&#x200B;角色允许管理菜单管理和发布历程和决策管理。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -89,7 +89,7 @@ ht-degree: 6%
 
 **[!DNL Journey Approver]**&#x200B;角色允许用户批准投放并发布它们。 他们以后可以使用&#x200B;**[!DNL Journey]**&#x200B;报告检查其投放是否成功。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -102,7 +102,7 @@ ht-degree: 6%
 
 **[!DNL Journey Manager]**&#x200B;角色允许用户创建和编辑&#x200B;**[!UICONTROL 历程]**&#x200B;以及链接到&#x200B;**[!UICONTROL 历程]**&#x200B;的每个功能，但无法发布它们。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -117,7 +117,7 @@ ht-degree: 6%
 
 分配到此角色的用户将无法编辑或发布。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 资源 | 权限 |
 |-|-|
@@ -128,7 +128,7 @@ ht-degree: 6%
 
 **[!DNL Decisioning manager]**&#x200B;角色仅允许访问&#x200B;**[!UICONTROL 决策管理]**&#x200B;菜单。 分配至此角色的用户将只能管理、查看和发布决策。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 功能 | 权限 |
 |-|-|
@@ -138,7 +138,7 @@ ht-degree: 6%
 
 **[!DNL Content Library Manager]**&#x200B;角色仅允许访问&#x200B;**[!UICONTROL 内容模板]**&#x200B;菜单。 分配给此角色的用户只能访问模板库以创建内容，而无法访问历程或营销活动。
 
-此角色包括以下权限：
+此权限包括以下权限：
 
 | 功能 | 权限 |
 |-|-|
