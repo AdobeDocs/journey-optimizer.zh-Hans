@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: f6c77a93c4adea33df8434ff8f950b8d39c92845
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 33%
+source-wordcount: '428'
+ht-degree: 25%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 33%
 
 利用 [!DNL Adobe Journey Optimizer] 中的 Real-time Customer Profile，您可以通过组合来自多个渠道的数据（包括在线、离线、CRM 和第三方）来查看每个客户的整体视图。借助&#x200B;**轮廓**，您可以将客户数据整合到一个统一视图中，该视图提供有关每项客户互动的带时间戳的、可操作的细节数据。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
-**实时客户个人资料{1&#x200B;} — 将来自在线、离线和假名的客户属性和事件集成到单个统一个人资料中。&#x200B;AEM**&#x200B;使用用户档案在多个接触点间提供个性化、实时的体验以吸引客户。&#x200B;AEM
+**实时客户个人资料{&#x200B;1} — 将来自在线、离线和假名的客户属性和事件集成到单个统一个人资料中。&#x200B;AEM**&#x200B;使用用户档案在多个接触点间提供个性化、实时的体验以吸引客户。&#x200B;AEM
 
 **数据摄取** — 连接到各种数据源以摄取行为、交易、财务和运营数据。 实时摄取数据或通过批量上传摄取数据，以持续更新用户档案。
 
@@ -34,9 +34,9 @@ ht-degree: 33%
 
 >[!MORELIKETHIS]
 >
->* [Real-time Customer Profile 文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
+>* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hans){target="_blank"}
 >* [实时客户个人资料数据和细分的默认护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}
->* [&#x200B;数据引入文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home){target="_blank"}
+>* [&#x200B;数据引入文档](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 配置文件仪表板
 
@@ -46,12 +46,12 @@ ht-degree: 33%
 >
 >如果贵组织是 [!DNL Adobe Journey Optimizer] 的新用户且尚未创建活动的轮廓数据集或合并策略，则&#x200B;**轮廓**&#x200B;仪表板不可见。相反，**概述**&#x200B;选项卡显示指向Adobe Experience Platform文档的链接，以帮助您开始使用实时客户个人资料。 要了解如何使用&#x200B;**个人资料仪表板**&#x200B;以及有关仪表板中显示的量度的详细信息，请参阅[此部分](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
-您可以将多个源的数据片段合并在一起，以便查看各个客户的完整视图。在汇总此数据时，合并策略是用于确定数据优先顺序的方式以及合并哪些数据以创建统一视图的规则。 如需详细了解&#x200B;**合并策略**，请参阅此[文档](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}。
+您可以将多个来源的数据片段放在一起，然后将它们组合在一起，以便查看每个客户的完整视图。 在汇总此数据时，合并策略是用于确定数据优先顺序的方式以及合并哪些数据以创建统一视图的规则。 在此[文档](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans){target="_blank"}中了解有关&#x200B;**合并策略**&#x200B;的更多信息。
 
 ![](assets/profiles-home.png)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解Adobe Experience Platform如何组合和更新实时客户配置文件，以及如何访问和使用这些配置文件。
 
->[!VIDEO](https://video.tv.adobe.com/v/31672?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
