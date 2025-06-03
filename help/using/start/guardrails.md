@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: ht
-source-wordcount: '2504'
-ht-degree: 100%
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+workflow-type: tm+mt
+source-wordcount: '2503'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 100%
 
 [Adobe Journey Optimizer 产品说明页面](https://helpx.adobe.com/cn/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}列出了授权、产品限制和性能护栏。
 
-在开始之前，您还需要了解[针对实时客户轮廓数据的护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}。
+
+>[!CAUTION]
+>
+>实时客户配置文件数据和分段的[护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}也适用于Adobe Journey Optimizer。
+
 
 ## 支持的浏览器 {#browsers}
 
