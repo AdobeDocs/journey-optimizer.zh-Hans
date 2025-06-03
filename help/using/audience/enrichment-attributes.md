@@ -39,21 +39,21 @@ ht-degree: 3%
 >
 >要使用通过组合工作流创建的受众中的扩充属性，请确保将这些属性添加到“ExperiencePlatform”数据Source中的字段组。
 >
-+++ 了解如何将扩充属性添加到字段组>
+>+++ 了解如何将扩充属性添加到字段组>
 >
-1. 导航到“管理”>“配置”>“数据源”。
-1. 选择“Experience Platform”并创建或编辑字段组。
-1. 在架构选择器中，选择相应的架构。 架构的名称将遵循以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
-1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
-1. 保存更改。
-1. 将扩充属性添加到字段组后，您可以在Journey Optimizer中以上列出的位置使用它们。
+>1. 导航到“管理”>“配置”>“数据源”。
+>1. 选择“Experience Platform”并创建或编辑字段组。
+>1. 在架构选择器中，选择相应的架构。 架构的名称将遵循以下格式：“audienceId的架构：”+受众的ID。 您可以在受众库中的受众详细信息屏幕上找到受众ID。
+>1. 打开字段选择器，查找要添加的扩充属性，然后选中这些属性旁边的复选框。
+>1. 保存更改。
+>1. 将扩充属性添加到字段组后，您可以在Journey Optimizer中以上列出的位置使用它们。
 >
-有关数据源的详细信息，请参阅以下部分：
+>有关数据源的详细信息，请参阅以下部分：
 >
-* [使用Adobe Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)
-* [配置数据源](../datasource/configure-data-sources.md)
+>* [使用Adobe Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)
+>* [配置数据源](../datasource/configure-data-sources.md)
 >
-+++
+>+++
 
 
 
