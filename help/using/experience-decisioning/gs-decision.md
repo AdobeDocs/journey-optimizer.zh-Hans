@@ -6,22 +6,22 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 20%
 
 ---
 
-# 开始使用[!DNL Journey Optimizer]决策功能 {#gs-decision}
+# 开始使用[!DNL Journey Optimizer]中的决策功能 {#gs-decision}
 
 [!DNL Journey Optimizer]中的决策功能使您能够在正确的时间为所有接触点的客户提供最佳优惠和个性化体验。 这些功能通过集中的营销优惠目录和高级决策引擎简化个性化，该引擎使用规则和排名标准为每个人提供最相关的内容。
 
 主要优点：
 
-* 通过跨多个渠道提供个性化优惠而提升的营销活动效果，
-* 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的优惠来改进工作流程，而无需创建多个投放或活动，
-* 控制优惠在营销活动和客户中显示的次数。
+* 通过跨多个渠道提供个性化产品建议而提升的营销活动效果，
+* 改进的工作流程：营销团队可以通过创建单个投放并更改模板中不同部分的产品建议来改进工作流程，而无需创建多个投放或活动，
+* 控制产品建议在营销活动和客户中显示的次数。
 
 目前，[!DNL Journey Optimizer]提供以下详细介绍的两个核心解决方案。
 
@@ -38,7 +38,7 @@ ht-degree: 20%
 
 目前，基于代码的体验渠道支持Experience Decisioning。
 
-➡️[开始使用Decisioning](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [开始使用Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 决策管理 {#decision-management}
 
@@ -48,4 +48,4 @@ ht-degree: 20%
 
 决策管理当前支持四个渠道：电子邮件、应用程序内消息传送、推送通知和短信。
 
-➡️[决策管理入门](../offers/get-started/starting-offer-decisioning.md)
+➡️ [决策管理入门](../offers/get-started/starting-offer-decisioning.md)
