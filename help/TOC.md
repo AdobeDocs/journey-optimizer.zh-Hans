@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -768,12 +768,11 @@ ht-degree: 99%
       + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
    + [配置源连接器](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
-   + 访问控制概述 {#privacy}
-      + [用户管理入门](using/administration/permissions-overview.md)
-      + [内置角色](using/administration/ootb-product-profiles.md)
-      + [内置权限](using/administration/ootb-permissions.md)
-      + [权限级别](using/administration/high-low-permissions.md)
+   + [访问控制入门](using/administration/permissions-overview.md)
    + [管理用户和角色](using/administration/permissions.md)
+   + [内置角色](using/administration/ootb-product-profiles.md)
+   + [内置权限](using/administration/ootb-permissions.md)
+   + [权限级别](using/administration/high-low-permissions.md)
    + [基于属性的访问控制](using/administration/attribute-based-access.md)
    + [对象级访问控制](using/administration/object-based-access.md)
 + 隐私 {#privacy}

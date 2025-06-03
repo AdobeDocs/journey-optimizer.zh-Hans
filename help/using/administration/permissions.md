@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 6%
+source-wordcount: '726'
+ht-degree: 5%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 6%
 
 使用[!DNL Journey Optimizer]产品，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 有关可用的&#x200B;**[!UICONTROL 角色]**&#x200B;的详细信息，请参阅此[页面](ootb-product-profiles.md)。
 
-当用户属于&#x200B;**[!UICONTROL Role]**&#x200B;时，将授予他们访问产品中包含的Adobe应用程序和服务的权限。
+当用户属于&#x200B;**[!UICONTROL Role]**&#x200B;时，他们将获得对产品中包含的Adobe应用程序和服务的访问权限。
 
-如果预先存在的角色不符合您组织的特定需求，您还可以创建自定义&#x200B;**[!UICONTROL 角色]**，以微调对界面中特定功能或对象的访问权限。 这样，您就可以确保每个用户只能访问高效执行任务所需的资源和工具。
+如果预先存在的角色不符合您组织的特定需求，您还可以创建自定义&#x200B;**[!UICONTROL 角色]**，以微调对界面中特定功能或对象的访问权限。 这样，您就可以确保每个用户只能访问他们有效执行任务所需的资源和工具。
 
 ## 分配角色 {#assigning-role}
 
-您可以选择为用户分配现成或自定义&#x200B;**[!UICONTROL 角色]**。
+您可以为用户分配现成或自定义&#x200B;**[!UICONTROL 角色]**。
 
-可以在[内置角色](ootb-product-profiles.md)部分中找到每个具有已分配权限的现成角色的列表。
+[内置角色](ootb-product-profiles.md)部分中提供了具有已分配权限的所有现成角色的列表。
 
 要分配&#x200B;**[!UICONTROL 角色]**：
 
@@ -46,17 +46,17 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. 输入您的用户名或电子邮件地址，或从列表中选择用户并单击&#x200B;**[!UICONTROL 保存]**。
+1. 键入您的用户名或电子邮件地址，或从列表中选择用户，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hans)。
+   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
-随后，您的用户将收到一封重定向到您的实例的电子邮件。
+您的用户会收到一封电子邮件，会将他们重定向到您的实例。
 
-有关用户管理的详细信息，请参阅[访问控制文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans)。
+有关用户管理的详细信息，请参阅[访问控制文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans){target="_blank"}。
 
-访问实例时，您的用户将看到一个特定视图，具体取决于&#x200B;**[!UICONTROL Role]**&#x200B;中分配的权限。 如果用户无权访问某个功能，则会显示以下消息：
+访问实例时，您的用户会看到一个特定视图，具体取决于&#x200B;**[!UICONTROL Role]**&#x200B;中分配的权限。 如果用户无权访问某个功能，则会显示以下消息：
 
 `You don't have permission to access this feature. Permission needed: XX.`
 
@@ -81,7 +81,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_14.png)
 
-1. 如果需要，在&#x200B;**[!UICONTROL 包含的权限项]**&#x200B;下，单击角色权限或资源旁边的X图标。
+1. 如果需要，在&#x200B;**[!UICONTROL 包含的权限项]**&#x200B;下，单击X图标以从您的角色中删除权限或资源。
 
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -91,9 +91,9 @@ ht-degree: 6%
 
 [!DNL Journey Optimizer]允许您创建自己的&#x200B;**[!UICONTROL 角色]**，并为用户分配一组权限和沙箱。 使用&#x200B;**[!UICONTROL 角色]**，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
+有关如何创建和管理沙盒的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans){target="_blank"}。
 
-在此示例中，我们将创建一个名为&#x200B;**历程只读**&#x200B;的角色，其中我们将授予该历程功能的只读权限。 用户将只能访问和查看历程，而无法访问[!DNL Journey Optimizer]中的其他功能，如&#x200B;**[!DNL &#x200B; Decision management]**。
+在此示例中，我们创建了一个名为&#x200B;**历程只读**&#x200B;的角色，我们在该角色中授予历程功能的只读权限。 用户将只能访问和查看历程，而无法访问[!DNL Journey Optimizer]中的其他功能，如&#x200B;**[!DNL Decision management]**。
 
 要创建我们的&#x200B;**历程只读** **[!UICONTROL 角色]**：
 
@@ -109,7 +109,7 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 在左侧菜单中列出的[!DNL Journey Optimizer]中可用的不同资源（如&#x200B;**[!DNL Journeys]**、**[!DNL Segments]**&#x200B;或&#x200B;**[!DNL Decision management]**）之间进行选择。
+1. 从左侧菜单中列出的[!DNL Journey Optimizer]中可用的其他资源（如&#x200B;**[!DNL Journeys]**、**[!DNL Segments]**&#x200B;或&#x200B;**[!DNL Decision management]**）中进行选择。
 
    在此处，我们选择&#x200B;**[!UICONTROL 历程]**&#x200B;资源。
 
@@ -125,4 +125,4 @@ ht-degree: 6%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;现已创建并配置。 您现在需要将其分配给用户。
 
-有关创建和管理角色的更多信息，请参阅[Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans)。
+有关创建和管理角色的更多信息，请参阅[Adobe Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。
