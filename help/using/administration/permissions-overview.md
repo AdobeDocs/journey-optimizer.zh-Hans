@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: 权限，权限，限制，访问，沙盒
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer]的访问控制是通过Adobe Experience Cloud中的&#x200B;**权限**&#x200B;提供的。 此功能利用角色和策略，将用户与权限和沙盒关联起来。
 
-要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html){target="_blank"}。
+要配置Journey Optimizer的访问控制，您必须拥有组织的系统或产品管理员权限。 可以授予或撤销权限的最低角色是产品管理员。 可以管理权限的其他管理员角色是系统管理员（无限制）。 有关详细信息，请参阅有关管理角色的[Adobe帮助中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
 <!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer]中的用户管理基于以下关键概念：
 
-* **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。 角色附带一组统一权限，允许用户访问界面中的特定功能或对象。
+* **[!UICONTROL 角色]**：角色是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。 角色附带一组统一权限（权限），允许用户访问界面中的特定功能或对象。
 通过[!DNL Journey Optimizer]，您可以从预先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;范围中进行选择，每个角色都具有各种级别的权限，以便分配给您的用户。 详细了解[此页面](ootb-product-profiles.md)上可用的&#x200B;**内置角色**。
 
 * **[!UICONTROL 权限]**：权限是单一权限，允许您定义分配给&#x200B;**[!UICONTROL 角色]**&#x200B;的授权。 每个权限都集中在资源(例如历程或优惠)下，代表[!DNL Journey Optimizer]中的不同功能或对象。 在[权限级别](high-low-permissions.md)部分了解详情。

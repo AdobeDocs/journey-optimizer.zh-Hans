@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 产品、配置文件、沙盒
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '710'
 ht-degree: 5%
 
 ---
 
 # 管理用户和角色 {#manage-permissions}
-
->[!IMPORTANT]
->
-> 下面详述的每个过程只能由&#x200B;**[!UICONTROL Product]**&#x200B;或&#x200B;**[!UICONTROL System]**&#x200B;管理员执行。
 
 **[!UICONTROL 角色]**&#x200B;是指共享相同权限和沙盒的用户集合。 利用这些角色，可轻松管理组织中不同用户组的访问和权限。
 
@@ -29,6 +25,12 @@ ht-degree: 5%
 当用户属于&#x200B;**[!UICONTROL Role]**&#x200B;时，他们将获得对产品中包含的Adobe应用程序和服务的访问权限。
 
 如果预先存在的角色不符合您组织的特定需求，您还可以创建自定义&#x200B;**[!UICONTROL 角色]**，以微调对界面中特定功能或对象的访问权限。 这样，您就可以确保每个用户只能访问他们有效执行任务所需的资源和工具。
+
+
+>[!IMPORTANT]
+>
+>以下详述的步骤和过程只能由&#x200B;**[!UICONTROL Product]**&#x200B;或&#x200B;**[!UICONTROL System]**&#x200B;管理员执行。
+
 
 ## 分配角色 {#assigning-role}
 
@@ -48,7 +50,7 @@ ht-degree: 5%
 
 1. 键入您的用户名或电子邮件地址，或从列表中选择用户，然后单击&#x200B;**[!UICONTROL 保存]**。
 
-   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hans){target="_blank"}。
+   如果之前未在[!DNL Admin Console]中创建该用户，请参阅[添加用户文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -62,13 +64,15 @@ ht-degree: 5%
 
 ## 编辑现有角色 {#edit-product-profile}
 
-对于现成或自定义&#x200B;**[!UICONTROL 角色]**，您可以随时决定添加或删除权限。
+对于内置或自定义&#x200B;**[!UICONTROL 角色]**，您可以随时决定添加或删除权限。
 
-在此示例中，我们要为分配给历程查看器&#x200B;**[!UICONTROL 历程]**&#x200B;的用户添加与&#x200B;**[!UICONTROL 角色]**&#x200B;资源相关的&#x200B;**[!UICONTROL 权限]**。 随后，用户将能够发布历程。
+在以下示例中，我们要为分配给历程查看器&#x200B;**[!UICONTROL 历程]**&#x200B;的用户添加与&#x200B;**[!UICONTROL 角色]**&#x200B;资源相关的&#x200B;**[!UICONTROL 权限]**。 随后，用户将能够发布历程。
 
-请注意，如果修改现成或自定义&#x200B;**[!UICONTROL 角色]**，它将影响分配给此&#x200B;**[!UICONTROL 角色]**&#x200B;的每个用户。
+>[!IMPORTANT]
+>
+>对内置或自定义角色所做的更改将影响分配给该角色的所有用户。
 
-1. 要向[!DNL Permissions]产品中的用户分配角色，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡并选择所需的角色，此处为历程查看器&#x200B;**[!UICONTROL 角色]**。
+1. 要编辑[!DNL Permissions]产品中的角色，请导航到&#x200B;**[!UICONTROL 角色]**&#x200B;选项卡并选择所需的角色，此处为历程查看器&#x200B;**[!UICONTROL 角色]**。
    ![](assets/do-not-localize/access_control_5.png)
 
 1. 在您的&#x200B;**[!UICONTROL 角色]**&#x200B;仪表板中，单击&#x200B;**[!UICONTROL 编辑]**。
@@ -85,7 +89,7 @@ ht-degree: 5%
 
 1. 完成后，单击&#x200B;**[!UICONTROL 保存]**。
 
-如果需要，您还可以创建具有特定权限的新角色。 有关详细信息，请参阅[创建新角色](#create-product-profile)。
+如果需要，您还可以创建具有特定权限的新角色。
 
 ## 创建新角色 {#create-product-profile}
 
@@ -125,4 +129,4 @@ ht-degree: 5%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;现已创建并配置。 您现在需要将其分配给用户。
 
-有关创建和管理角色的更多信息，请参阅[Adobe Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hans){target="_blank"}。
+有关创建和管理角色的更多信息，请参阅[Adobe Admin Console文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。
