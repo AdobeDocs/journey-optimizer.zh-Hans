@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 入站操作，故障排除，历程，调试，自助，检查，错误
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
-source-git-commit: 339b9381d4949b4bb7446308490ed6e972130fb6
+source-git-commit: 3376b4336fa8bd2691b788995be94f153e9a44bb
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,19 @@ ht-degree: 0%
 
 * A profile enters the inbound step, but the user does not receive the expected inbound content.
 * A user continues to receive inbound content even after the profile exits the journey.
-
-## Benefits {#benefits}
-
-- Faster issue resolution through self-help.
-- Reduced dependency on support teams.
-- Improved understanding of inbound action functionality.
-- Enhanced customer experience and confidence in using AJO.-->
+-->
 
 ## 先决条件 {#prerequisites}
 
 在开始故障诊断之前，请确保满足以下条件：
 
-1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[Adobe Experience Platform Assurance文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
+1. 设置&#x200B;**Assurance**&#x200B;会话。 请参阅[Adobe Experience Platform Assurance文档](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}以了解详情。
 
 1. 导航到包含入站操作的历程，以检索历程名称和版本ID。
 
    >[!NOTE]
    >
-   >可在&#x200B;*journey/*&#x200B;之后的URL中找到历程版本ID(例如： *86232fb1-2932-4036-8198-55dfec606fd7*)。
+   >可以在“journey/”之后的URL中找到历程版本ID(例如： *86232fb1-2932-4036-8198-55dfec606fd7*)。
 
    ![](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
@@ -52,7 +46,7 @@ ht-degree: 0%
 
    ![](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
+1. 获取配置文件命名空间和ID以识别配置文件遇到问题。 根据您的配置，命名空间可以是ECID、电子邮件或客户ID，例如。 请参阅[Experience Platform文档](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}以了解如何查找配置文件。
 
 ## 场景1：用户尚未收到入站内容 {#scenario-1}
 
@@ -67,7 +61,7 @@ ht-degree: 0%
 
 2. 在平台标识中定义了&#x200B;**&#39;joai&#39;标识**
 
-   入站操作使用配置文件`segmentMembership`中的&#x200B;**&#39;joai&#39;**&#x200B;命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/home){target="_blank"}的更多信息
+   入站操作使用配置文件`segmentMembership`中的&#x200B;**joai**&#x200B;命名空间激活入站步骤的配置文件。 请确保已在沙盒的Platform身份中定义它。 了解有关[Experience Platform Identity服务](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}的更多信息
 
 ### 调试步骤 {#debugging-steps}
 
@@ -83,7 +77,7 @@ ht-degree: 0%
 
 >[!TAB 应用程序内渠道]
 
-1. 转到[Assurance](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
+1. 转到[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话，然后从左侧面板中选择&#x200B;**[!UICONTROL 应用程序内消息传送]**&#x200B;部分。
 
 1. 在&#x200B;**[!UICONTROL 设备]**&#x200B;上的消息选项卡中，单击&#x200B;**[!UICONTROL 消息]**&#x200B;下拉列表。
 
@@ -91,25 +85,25 @@ ht-degree: 0%
 
 1. 查找历程名称后跟“ — 应用程序内消息”的消息。 如果存在，则意味着设备/客户端上存在应用程序内消息，并且该问题可能与应用程序内触发器有关。
 
-1. 如果未找到该消息，则设备/客户端不会收到应用程序内消息。 转到[下一步](#step-2)进行进一步的调试。
+1. 如果未找到该消息，则设备/客户端不会收到应用程序内消息。<!--Go to the [next step](#step-2) for further debugging.-->
 
 >[!TAB Web 渠道]
 
-访问页面并检查“网络”选项卡，或在[Edge](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
+访问页面并检查“网络”选项卡，或在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
 
 >[!TAB 基于代码的体验渠道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在[Edge](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)执行curl请求，并在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}会话的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;部分中检查Assurance响应有效负载。
 
 >[!ENDTABS]
 
-#### 步骤2：检查Edge Network是否返回了内容 {#step-2}
+### 步骤2：检查Edge Network是否返回了内容 {#step-2}
 
 此步骤旨在确保Edge Network返回要在设备/客户端上渲染的预期入站内容。
 
 当配置文件在历程中进入入站操作时，它会自动被限定到与入站历程操作对应的特殊受众区段（在&#x200B;**joai**&#x200B;命名空间中）。
 
-当客户向Edge Network请求给定的用户档案和表面时，仅当用户档案当前是相应&#x200B;**joai**&#x200B;区段的成员时，该用户档案才符合接收针对该表面的入站旅程操作内容的资格。
+当客户向Edge Network请求给定用户档案和表面时，该用户档案符合接收针对该表面的入站旅程操作内容的条件 — 仅当用户档案当前是相应&#x200B;**joai**&#x200B;区段成员时。
 
 要调试Edge Network行为，请执行以下步骤。
 
@@ -125,7 +119,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >要在&#x200B;**Assurance**&#x200B;会话中查找Edge活动，请查找&#x200B;**[!UICONTROL audienceNamespace]**&#x200B;为&#x200B;**joai**，**[!UICONTROL audienceSegmentId]**&#x200B;为`<JourneyVersionID>_<JourneyAction ID>`的活动(例如： *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*)。
+   >要在&#x200B;**Assurance**&#x200B;会话中查找Edge活动，请查找&#x200B;**[!UICONTROL audienceNamespace]**&#x200B;为&#x200B;**joai**，**[!UICONTROL audienceSegmentId]**&#x200B;为&lt;*JourneyVersionID*>_&lt;*JourneyActionID*>的活动(例如： *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*)。
 
    ![](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
@@ -133,9 +127,9 @@ ht-degree: 0%
 
    您可以通过打开配置文件部分的&#x200B;**segmentsMap**&#x200B;元素并查找&#x200B;**joai**&#x200B;区段ID是否存在，来双重检查&#x200B;**joai**&#x200B;区段是否在Edge Network投放服务器的配置文件视图中存在。
 
-1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network投放服务器未将该配置文件视为在相关&#x200B;**joai**&#x200B;区段中，请转到下一步。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-#### 步骤3：检查joai受众成员资格是否已传播到Edge Network {#step-3}
+### 步骤3：检查“joai”受众会员资格是否已传播到Edge Network {#step-3}
 
 此步骤是验证当配置文件进入入站旅程操作并且该配置文件被限定到相应的&#x200B;**joai**&#x200B;区段时，Edge配置文件是否已正确更新。
 
@@ -150,27 +144,26 @@ ht-degree: 0%
 1. 导航到[!DNL Journey Optimizer]左侧导航窗格中的&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]**&#x200B;菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
 
 1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL Edge]**&#x200B;视图。
-   <!--cannot see Hub/Edge wiews for the profile-->
 
 1. 单击&#x200B;**[!UICONTROL 查看JSON]**&#x200B;以打开配置文件的JSON视图。
 
    ![](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. 转到&#x200B;**[!UICONTROL segmentMembership]**&#x200B;属性，并检查&#x200B;**joai**&#x200B;命名空间中是否存在区段ID `<JourneyVersionID>_<ActionID>`，以及在&#x200B;**[!UICONTROL realized]** <!--or existing?-->状态中是否存在。
+1. 转到`segmentMembership`属性并检查区段ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否在&#x200B;**joai**&#x200B;命名空间中存在，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->状态中。
 
    ![](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
-   * 如果存在，则表示与入站旅程操作对应的&#x200B;**joai**&#x200B;区段已正确传播到Edge配置文件。
+   * 如果存在，则与入站旅程操作相对应的&#x200B;**joai**&#x200B;区段已正确传播到Edge配置文件。
 
-   * 如果Edge Network投放服务器的配置文件视图中未显示该配置文件，则投放服务器加载Edge配置文件的方式可能存在问题。
+   * 如果未在Edge Network投放服务器的配置文件视图中显示，则投放服务器加载Edge配置文件的方式可能存在问题。
 
-1. 如果&#x200B;**joai**&#x200B;区段ID不存在或它处于&#x200B;**[!UICONTROL 退出]**&#x200B;状态，则意味着它（尚）未传播到Edge。
+1. 如果&#x200B;**joai**&#x200B;区段ID不存在或处于&#x200B;**[!UICONTROL 退出]**&#x200B;状态，则意味着该区段ID尚未（尚）传播到Edge。
 
    等待15到30分钟，以将`segmentMembership`值从中心传播到Edge。 如果仍然不存在，则转至下一步。
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-#### 步骤4：检查中心上的配置文件中是否存在joai受众会员资格 {#step-4}
+### 步骤4：检查中心上的配置文件中是否存在“joai”受众会员资格 {#step-4}
 
 此步骤用于验证当中心配置文件进入入站历程操作并且该配置文件符合相应的&#x200B;**joai**&#x200B;区段的资格条件时，中心配置文件是否已正确更新。
 
@@ -182,21 +175,21 @@ ht-degree: 0%
 
 1. 导航到[!DNL Journey Optimizer]左侧导航窗格中的&#x200B;**[!UICONTROL 客户]** > **[!UICONTROL 配置文件]**&#x200B;菜单，然后使用命名空间和ID浏览配置文件。 了解有关[实时客户个人资料](../audience/get-started-profiles.md)的更多信息
 
-1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 中心]**&#x200B;视图。<!--cannot see Hub/Edge wiews for the profile-->
+1. 选择&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡并选择&#x200B;**[!UICONTROL 中心]**&#x200B;视图。
 
 1. 单击&#x200B;**[!UICONTROL 查看JSON]**&#x200B;以打开配置文件的JSON视图。
 
-1. 转到&#x200B;**[!UICONTROL segmentMembership]**&#x200B;属性，并检查&#x200B;**joai**&#x200B;命名空间中是否存在区段ID `<JourneyVersionID>_<ActionID>`，以及在&#x200B;**[!UICONTROL realized]** <!--or existing?-->状态中是否存在。
+1. 转到&#x200B;**[!UICONTROL segmentMembership]**&#x200B;属性并检查区段ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否在&#x200B;**joai**&#x200B;命名空间中存在，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->状态中。
 
-   * 如果存在，则表示已在中心配置文件中正确摄取与入站历程操作相对应的&#x200B;**joai**&#x200B;区段。
+   * 如果存在，则已在中心配置文件中正确摄取对应于入站历程操作的&#x200B;**joai**&#x200B;区段。
 
-   * 如果至少30分钟后在Edge配置文件中未找到它，则Edge投影系统可能存在问题。
+   * 如果至少30分钟后在Edge配置文件中找不到，则Edge投影系统可能存在问题。
 
 1. 如果&#x200B;**joai**&#x200B;区段ID不存在或处于&#x200B;**[!UICONTROL 退出]**&#x200B;状态，则意味着该配置文件在进入相应的入站历程操作时（尚）未正确符合特殊&#x200B;**joai**&#x200B;受众区段的资格。
 
    等待15到30分钟，以将`segmentMembership`值摄取到中心上的配置文件中。 如果仍然不存在，则转至下一步。
 
-#### 步骤5：如果客户端/设备仍未获得预期的内容 {#step-5}
+### 步骤5：如果客户端/设备仍未获得预期的内容 {#step-5}
 
 如果您已完成上述所有步骤，但在等待30到60分钟让客户细分成员资格传播到Edge Network之后未看到预期行为，请联系Adobe客户关怀团队或您的Adobe代表。
 
@@ -210,37 +203,20 @@ ht-degree: 0%
 * 中心配置文件的JSON视图；
 * 以此类推。
 
-## 场景2：用户仍在接收集客内容，即使在用户档案退出历程后也是如此 {#scenario-2}
+## 场景2：用户仍在接收集客内容 {#scenario-2}
 
-此方案与[方案1](#scenario-1)相反。 当配置文件退出历程时，它不再符合与历程中的入站操作相对应的&#x200B;**joai**&#x200B;受众区段的条件。
+此方案与[方案1](#scenario-1)相反：用户档案已退出历程，但用户仍在接收入站内容。
+
+但是，当配置文件退出历程时，它不再符合与历程中的入站操作相对应的&#x200B;**joai**&#x200B;受众区段的条件。
 
 执行与[方案1](#debugging-steps)相同的调试步骤，以检查中心配置文件、Edge配置文件和Edge Network交付服务器是否正确反映了相关&#x200B;**joai**&#x200B;区段的区段成员资格状态，以及客户端是否不再接收入站内容。
 
 <!--
-## Additional Notes {#additional-notes}
-
-- **Propagation Time:** Segment membership updates can take up to 15-30 minutes to propagate from the Hub to the Edge Network.
-- **Support:** If issues persist after following the steps, open a support ticket with details such as:
-  - Journey Version ID and Journey Action ID.
-  - Assurance trace.
-  - JSON views of Edge and Hub profiles.
-  - Debugging observations.
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
-## Warnings and Notes {#warnings-and-notes}
-
-> **Warning:** Ensure the `joai` namespace is correctly configured in Platform Identities. Misconfiguration can lead to qualification issues for inbound actions.
-
-> **Note:** Segment membership updates may take up to 30 minutes to propagate. Plan debugging sessions accordingly.
-
-## Cross-References {#cross-references}
-
-- [Testing the Journey](../building-journeys/testing-the-journey.md)
-- [Using the Journey Designer](../building-journeys/using-the-journey-designer.md#paths)
-- [Troubleshooting Custom Actions](../action/troubleshoot-custom-action.md)
 -->
