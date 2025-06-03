@@ -1,16 +1,16 @@
 ---
-title: 事件触发的历程中的补充标识符
+title: 触发事件的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 事件触发的历程中的补充标识符 {#supplemental-id}
+# 触发事件的历程中的补充标识符 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
