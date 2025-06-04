@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 01fbf78d15e620fa7b540e3a1a6972949a0c4795
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 39%
+source-wordcount: '621'
+ht-degree: 34%
 
 ---
 
@@ -50,12 +50,9 @@ ht-degree: 39%
 
 **协调**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，它允许您定义Adobe Journey Optimizer中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
 
-## 最佳实践 {#reconciliation-best-practices}
+扩充活动允许您向编排的活动添加其他数据 — 例如，通过组合来自多个源的数据或链接到临时资源。 相反，协调活动用于将未识别的或外部数据与数据库中的现有资源进行匹配。
 
-虽然&#x200B;**扩充**&#x200B;活动允许您定义要在编排的营销活动中处理的附加数据（您可以使用&#x200B;**扩充**&#x200B;活动来组合来自多个集的数据，或创建指向临时资源的链接），但&#x200B;**协调**&#x200B;活动允许您将未识别的数据链接到现有资源。
-
->[!NOTE]
->协调操作意味着链接维度的数据已在数据库中。  例如，如果导入一个购买文件，其中显示了购买哪个产品、购买时间、购买客户等，则数据库中必然已经存在该产品和客户。
+协调要求系统中已存在相关记录。 例如，如果您导入的购买文件列出了产品、时间戳和客户信息，则产品和客户都必须已存在于数据库中才能建立链接。
 
 ## 配置协调活动 {#reconciliation-configuration}
 
@@ -74,7 +71,7 @@ ht-degree: 39%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
 >abstract="选择要协调的入站数据的定位维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="定位维度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
