@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 54d8b2fb-745d-459c-85d6-c224aa5e352e
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 4ba945e8213c9cc2e07ede8fe7f1b435cf942ff7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 6%
@@ -33,4 +33,5 @@ ht-degree: 6%
 正在进行文档
 
 >[!ENDSHADEBOX]
->作为营销活动经理，您可以将我们的个性化消息的&#x200B;**验证版本**&#x200B;发送到预定义的内部审阅人列表，确保在全面启动之前所有内容、个性化和链接均按预期工作。
+
+作为营销活动经理，您可以将我们的个性化消息的&#x200B;**验证版本**&#x200B;发送到预定义的内部审阅人列表，确保在全面启动之前所有内容、个性化和链接均按预期工作。
