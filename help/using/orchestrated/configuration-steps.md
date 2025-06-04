@@ -7,19 +7,20 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 93ccb3a2a35edc0e7d6e36d3622663e87b453793
+source-git-commit: b1a584528fc6ecf035bfd308dca0da1b37cee6d8
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 # 配置步骤 {#configuration-steps}
 
 +++ 目录
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库 | 编排的营销活动活动|
-|—|—|—|—|
-|[开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[协调的营销活动创建的关键步骤](gs-campaign-creation.md)|[创建协调的营销活动](create-orchestrated-campaign.md)<br/><br/>[协调的活动](orchestrate-activities.md)<br/><br/>[发送包含协调的营销活动的消息](send-messages.md)<br/><br/>[开始并监视营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md)|[使用查询Modeler](orchestrated-query-modeler.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)|[开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md)|
+
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库  | 编排的营销活动活动 |
+|---|---|---|---|
+| [开始使用编排的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | [创建协调的营销活动](create-orchestrated-campaign.md)<br/><br/>[协调活动](orchestrate-activities.md)<br/><br/>[发送包含协调的营销活动的消息](send-messages.md)<br/><br/>[开始并监视营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用查询Modeler](orchestrated-query-modeler.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -137,7 +138,7 @@ To create links between tables of your datamodel from the Canvas view tab, follo
 
 1. Click **Save** once done.
 
-Doc AEP: https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/create-schema-ui
+Doc AEP: https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui
 
 ## Add data
 
@@ -160,7 +161,7 @@ Adobe Experience Platform allows data to be ingested from external sources while
 
 ![](assets/admin_sources_1.png)
 
-https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
 
 
 ## Create datasets
