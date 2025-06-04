@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
 workflow-type: tm+mt
-source-wordcount: '2406'
-ht-degree: 98%
+source-wordcount: '2411'
+ht-degree: 96%
 
 ---
 
@@ -175,36 +175,33 @@ ht-degree: 98%
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
-   + [精心策划的营销活动快速入门](using/ms/gs-ms-campaigns.md)
-   + [关键原则](using/ms/gs-campaign-creation.md)
-   + [创建精心策划的营销活动的步骤](using/ms/gs-campaign-steps.md)
-   + 配置步骤 {#ms-config}
-      + [创建关系架构](using/ms/ms-schemas.md)
-   + 创建步骤{#create-ms-campaign}
-      + [创建精心策划的营销活动](using/ms/create-ms-campaign.md)
-      + [配置营销活动设置](using/ms/ms-campaign-settings.md)
-      + [计划并开始营销活动](using/ms/start-monitor-campaigns.md)
-      + [生成查询](using/ms/ms-query-modeler.md)
-   + 活动 {#design-campaigns}
-      + [活动快速入门](using/ms/activities/about-activities.md)
-      + [策划活动](using/ms/orchestrate-activities.md)
-      + [And-join](using/ms/activities/and-join.md)
-      + [构建受众](using/ms/activities/build-audience.md)
-      + [更改维度](using/ms/activities/change-dimension.md)
-      + [合并](using/ms/activities/combine.md)
-      + [重复数据删除](using/ms/activities/deduplication.md)
-      + [扩充](using/ms/activities/enrichment.md)
-      + [分叉](using/ms/activities/fork.md)
-      + [协调](using/ms/activities/reconciliation.md)
-      + [拆分](using/ms/activities/split.md)
-      + [测试](using/ms/activities/test.md)
-      + [等待](using/ms/activities/wait.md)
-   + 消息 {#messages}
-      + [渠道操作](using/ms/activities/channels.md)
-      + [个性化您的内容](using/ms/ms-personalization.md)
-      + [测试和验证消息](using/ms/ms-proofs.md)
-   + 报告和监控 {#report}
-      + [报告](using/ms/reporting-campaigns.md)
+   + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
+   + [配置步骤](using/orchestrated/configuration-steps.md)
+   + [编排的营销活动创建的关键步骤](using/orchestrated/gs-campaign-creation.md)
+   + 启动您的第一个编排的营销活动{#launch}
+      + [创建编排的营销活动](using/orchestrated/create-orchestrated-campaign.md)
+      + [编排活动](using/orchestrated/orchestrate-activities.md)
+      + [通过编排的活动发送消息](using/orchestrated/send-messages.md)
+      + [启动和监控活动](using/orchestrated/start-monitor-campaigns.md)
+      + [报告](using/orchestrated/reporting-campaigns.md)
+   + 查询数据库  {#query-database}
+      + [使用查询Modeler](using/orchestrated/orchestrated-query-modeler.md)
+      + [生成您的第一个查询](using/orchestrated/build-query.md)
+      + [编辑表达式](using/orchestrated/edit-expressions.md)
+   + 编排的营销活动活动 {#design-campaigns}
+      + [活动快速入门](using/orchestrated/activities/about-activities.md)
+      + [And-join](using/orchestrated/activities/and-join.md)
+      + [构建受众](using/orchestrated/activities/build-audience.md)
+      + [更改维度](using/orchestrated/activities/change-dimension.md)
+      + [合并](using/orchestrated/activities/combine.md)
+      + [重复数据删除](using/orchestrated/activities/deduplication.md)
+      + [扩充](using/orchestrated/activities/enrichment.md)
+      + [分叉](using/orchestrated/activities/fork.md)
+      + [协调](using/orchestrated/activities/reconciliation.md)
+      + [拆分](using/orchestrated/activities/split.md)
+      + [测试](using/orchestrated/activities/test.md)
+      + [等待](using/orchestrated/activities/wait.md)
+      + [渠道活动](using/orchestrated/activities/channels.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
