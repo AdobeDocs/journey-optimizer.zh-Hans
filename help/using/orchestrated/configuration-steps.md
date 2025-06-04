@@ -6,13 +6,13 @@ description: 了解如何使用Adobe Journey Optimizer配置编排的营销活�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 8%
 
 ---
-
 
 # 配置步骤 {#configuration-steps}
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 +++
 
-<br/><br/>
+<br/>
 
 >[!BEGINSHADEBOX]
 

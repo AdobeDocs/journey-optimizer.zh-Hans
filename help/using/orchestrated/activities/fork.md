@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 59%
@@ -37,7 +37,7 @@ ht-degree: 59%
 
 +++
 
-<br/><br/>
+<br/>
 
 **分叉**&#x200B;活动是一种&#x200B;**流量控制**&#x200B;活动。可使用它创建叫客过渡以同时开始多个活动。
 

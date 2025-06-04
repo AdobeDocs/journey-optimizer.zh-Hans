@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 +++
 
-<br/><br/>
+<br/>
 
 在您[创建了编排的营销活动](gs-campaign-creation.md)后，无论是从编排的营销活动菜单还是在营销活动中，您都可以开始编排它将执行的不同任务。 为此，提供了一个可视画布，允许您构建编排的活动图表。 在此图表中，您可以添加各种活动并按顺序连接它们。
 

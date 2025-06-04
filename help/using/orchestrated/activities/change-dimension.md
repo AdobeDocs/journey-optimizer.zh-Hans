@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 19%
@@ -36,7 +36,7 @@ ht-degree: 19%
 
 +++
 
-<br/><br/>
+<br/>
 
 作为营销人员，您可以在编排的营销活动中将定向维度从一个实体切换到另一个关联的实体，并根据不同的数据集优化受众定位，例如，从分析用户更改为定向其特定操作或预订。
 

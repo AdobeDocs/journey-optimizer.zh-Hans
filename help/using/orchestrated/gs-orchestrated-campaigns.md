@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 16%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 +++
 
-<br/><br/>
+<br/>
 
 ## 什么是精心策划的营销活动？
 
@@ -51,7 +51,11 @@ Campaign Orchestration通过强化数据驱动型决策，利用多个源实现�
 
 ## 先决条件
 
-*进行中*
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 <!--prerequisites & permissions-->
 

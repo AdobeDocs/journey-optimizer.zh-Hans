@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 36%
@@ -31,7 +31,7 @@ ht-degree: 36%
 
 +++
 
-<br/><br/>
+<br/>
 
 **扩充**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动。它可让您使用数据库中的其他信息来增强目标数据。通常在分段活动之后的工作流中使用它。
 
@@ -185,7 +185,7 @@ ht-degree: 36%
 在编排的活动中，如果您要在投放中使用从扩充活动中获得的选件，请执行以下步骤：
 
 1. 打开投放活动，然后进入内容版本。 单击&#x200B;**[!UICONTROL 优惠设置]**&#x200B;按钮，然后在下拉列表中选择与您的优惠对应的&#x200B;**[!UICONTROL 优惠空间]**。
-如果您只想查看扩充活动中的优惠，请将&#x200B;**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
+如果您只想查看扩充活动中的优惠，请将**[!UICONTROL 建议]**&#x200B;的数量设置为0，并保存修改。
 
    ![](../assets/offers-settings.png)
 

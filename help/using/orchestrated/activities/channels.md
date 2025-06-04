@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 44%
@@ -26,7 +26,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 通过Adobe Journey Optimizer，您可以跨入站和出站渠道自动执行营销活动。 您可以将渠道活动合并到编排的活动画布中，以创建跨渠道编排的活动，从而根据客户行为和数据触发操作。 [此页面](../../channels/gs-channels.md)上列出了支持的渠道。
 

@@ -6,7 +6,7 @@ description: 了解如何使用Adobe Journey Optimizer计划和开始编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 14%
@@ -30,7 +30,7 @@ ht-degree: 14%
 
 +++
 
-<br/><br/>
+<br/>
 
 创建经过编排的任务并设计好要在画布中执行的任务后，您就可以发布它并监控其执行方式。
 

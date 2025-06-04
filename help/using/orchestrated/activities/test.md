@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 27%
@@ -36,7 +36,7 @@ ht-degree: 27%
 
 +++
 
-<br/><br/>
+<br/>
 
 **测试**&#x200B;活动是&#x200B;**流量控制**&#x200B;活动。它允许您根据指定条件启用过渡。
 
@@ -54,7 +54,7 @@ ht-degree: 27%
 
    ![](../assets/workflow-test-default.png)
 
-1. 您可以向&#x200B;**[!UICONTROL 测试]**&#x200B;活动添加多个输出过渡。 为此，请单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;按钮，并为每个过渡配置标签和相关条件。
+1. 您可以向&#x200B;**[!UICONTROL 测试]**&#x200B;活动添加多个输出过渡。 为此，请单击&#x200B;**[!UICONTROL 添加条件]**按钮，并为每个过渡配置标签和相关条件。
 v
 1. 在执行协同营销活动期间，将会按顺序测试每个条件，直到满足其中一个条件。如果不满足任何条件，则编排的营销活动将沿&#x200B;**[!UICONTROL 默认条件]**&#x200B;的路径继续。 如果没有激活默认条件，工作流会在此时停止。
 

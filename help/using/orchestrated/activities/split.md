@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 75%
@@ -31,7 +31,7 @@ ht-degree: 75%
 
 +++
 
-<br/><br/>
+<br/>
 
 **拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，通过它可根据不同的选择标准（如筛选规则或群体大小）将集客群体分为多个子集。
 

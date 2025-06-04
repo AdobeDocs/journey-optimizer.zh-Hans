@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: a9bb3782-a4d1-43fe-ae2a-aef3f17ba588
-source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 26%
@@ -31,7 +31,7 @@ ht-degree: 26%
 
 +++
 
-<br/><br/>
+<br/>
 
 在画布中创建编排的活动或编排编排的活动活动时，您可以访问与编排的活动相关的高级设置。 例如，您可以为编排的活动设置特定时区，管理编排的活动在出错时的行为方式，或管理应清除编排的活动历史记录的延迟。
 

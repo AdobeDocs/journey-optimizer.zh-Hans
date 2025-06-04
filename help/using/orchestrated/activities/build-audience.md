@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 32b13d4fd62abc8052c1bf64d8a2d5e97bd0f464
+source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 44%
@@ -31,7 +31,7 @@ ht-degree: 44%
 
 +++
 
-<br/><br/>
+<br/>
 
 作为营销人员，您可以使用用户友好的界面轻松创建复杂查询，从而让我能够根据各种标准和行为来细分受众，从而更有效地定制营销活动。
 
