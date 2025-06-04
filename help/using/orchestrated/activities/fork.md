@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 52226a4374fa6321b31ac2d57f76a48594df1c51
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 59%
 >id="ajo_orchestration_fork"
 >title="分叉活动"
 >abstract="利用&#x200B;**分叉**&#x200B;活动，可创建叫客过渡以同时开始若干活动。"
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
@@ -39,7 +38,7 @@ ht-degree: 59%
 
 <br/>
 
-**分叉**&#x200B;活动是一种&#x200B;**流量控制**&#x200B;活动。可使用它创建叫客过渡以同时开始多个活动。
+**Fork**&#x200B;活动是一个&#x200B;**流控制**&#x200B;组件，可让您创建多个叫客过渡，使多个活动能够并行运行。
 
 ## 配置分支活动{#fork-configuration}
 
@@ -48,14 +47,11 @@ ht-degree: 59%
 ![](../assets/workflow-fork.png)
 
 1. 将&#x200B;**分支**&#x200B;活动添加到您的编排营销活动中。
-1. 单击&#x200B;**添加过渡**&#x200B;以添加新的叫客过渡。默认情况下会定义两个过渡。
-1. 请为每个过渡添加标签。
 
-## 示例{#fork-example}
+1. 定义&#x200B;**标签**。
 
-在下面的示例中，我们使用两个&#x200B;**分叉**&#x200B;活动：
+1. 为每个叫客过渡分配标签。 默认情况下，提供两个过渡。
 
-* 在两个查询之前使用一个分叉活动，同时执行这两个查询。
-* 在交集之后使用一个分叉活动，同时向目标群体发送一封电子邮件和一条短信。
+1. 要删除过渡，请单击![](../assets/do-not-localize/Smock_Delete_18_N.svg)图标。
 
-![](../assets/workflow-fork-example.png)
+1. 如果需要，请单击&#x200B;**添加过渡**&#x200B;以添加其他出站过渡。
