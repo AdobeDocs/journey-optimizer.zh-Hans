@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 16%
 >abstract="输入特定网页的 URL，用于编辑将应用到与规则匹配的所有页面上的内容。网页必须使用 Adobe Experience Platform Web SDK 实施。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="了解详情"
 
-将Web操作[&#128279;](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：
+将Web操作](#create-web-experience)添加到历程或营销活动后，您可以使用以下任一方式编辑网站内容：[
 
 * [Web设计器](web-visual-editor.md)，用于使用可视编辑器创作您的体验；
 * 或[非可视编辑器](web-non-visual-editor.md)。
@@ -153,12 +153,12 @@ ht-degree: 16%
 
 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
-## 重定向到URL {#web-redirect-to-url}
+## 重新定向到 URL {#web-redirect-to-url}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="重定向到其他URL"
->abstract="输入要重定向页面访客的现有URL。"
+>title="重定向到另一个 URL"
+>abstract="请输入您希望将页面访问者重定向至的现有 URL。"
 
 在创建Web体验时，您可以将访客重定向到另一个现有URL，而不是在Web设计器中创作新的变体。
 
@@ -266,4 +266,4 @@ ht-degree: 16%
 
 以下视频介绍了如何创建Web营销活动、配置其属性、审查和发布它。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449991/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
