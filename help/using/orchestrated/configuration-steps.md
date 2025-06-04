@@ -6,9 +6,9 @@ description: 了解如何使用Adobe Journey Optimizer配置编排的营销活�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '94'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,13 @@ ht-degree: 8%
 
 +++
 
-*进行中*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 <!--Une page unique sur la partie configuration high-level qui  présente les différentes étapes - Reprendre schema de la démo (bulk schema + dataset creation)
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 17%
@@ -16,6 +16,11 @@ ht-degree: 17%
 
 
 # 创建精心策划的营销活动 {#create-first-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="协同营销活动列表"
+>abstract="**多步骤**&#x200B;选项卡列出了所有的协同营销活动。单击协同营销活动的名称即可对其进行编辑。使用&#x200B;**创建协同营销活动**&#x200B;按钮，添加新的协同营销活动。"
 
 +++ 目录
 
@@ -27,10 +32,7 @@ ht-degree: 17%
 
 +++
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="协同营销活动列表"
->abstract="**多步骤**&#x200B;选项卡列出了所有的协同营销活动。单击协同营销活动的名称即可对其进行编辑。使用&#x200B;**创建协同营销活动**&#x200B;按钮，添加新的协同营销活动。"
+<br/><br/>
 
 ## 创建营销活动
 

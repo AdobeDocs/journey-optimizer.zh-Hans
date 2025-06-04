@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,13 @@ ht-degree: 2%
 
 +++
 
-*进行中*
+<br/><br/>
+
+>[!BEGINSHADEBOX]
+
+正在进行文档
+
+>[!ENDSHADEBOX]
 
 编排的营销活动附带查询建模器，可简化根据各种标准筛选数据库的过程。 查询建模器高效地管理非常复杂和长的查询，从而提供了增强的灵活性和精确度。 它还支持条件中的预定义过滤器，使用户能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 

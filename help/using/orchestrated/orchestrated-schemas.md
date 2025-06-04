@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 2935e611bb9682256a324485b28e7dd2552e1dd2
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 34%
@@ -25,6 +25,8 @@ ht-degree: 34%
 {style="table-layout:fixed"}
 
 +++
+
+<br/><br/>
 
 架构表示并验证数据的结构和格式。它提供了现实世界对象（例如人）的抽象定义，并概述了该对象的每个实例中应包含的数据（例如姓名、生日等）。
 
