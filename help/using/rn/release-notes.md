@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 88%
+source-wordcount: '1441'
+ht-degree: 87%
 
 ---
 
@@ -69,6 +69,9 @@ ht-degree: 88%
 
   现在可以在不同沙盒中复制决策对象，从而简化测试和部署工作流程。[了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
 
+* **决策规则的决策项属性支持** — 发布日期： 2025年6月4日
+
+  您现在可以利用决策项目属性来创建决策规则。 [了解详情](../experience-decisioning/rules.md#create)
 
 ## 2025 年 5 月发行说明 {#25-5-rn}
 
@@ -306,13 +309,9 @@ ht-degree: 88%
 
 <!--* **Form fields in code-based experience content**
 
-  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.-->
 
-* **Decision item attribute support for decisioning rules**
-  
-  You can now leverage decision item attributes to create decisioning rules.
-
-* **Subdomains - 'Custom delegation' method**  
+<!--* **Subdomains - 'Custom delegation' method**  
   In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
   -->
 

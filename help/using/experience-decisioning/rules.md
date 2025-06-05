@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 8418b0c9251e090575671acb65f83bee911cd039
+source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 20%
 
 ---
@@ -42,13 +42,16 @@ ht-degree: 20%
 
 1. 此时将打开决策规则创建屏幕。 命名规则并提供描述。
 
-1. 使用Adobe Experience Platform区段生成器构建决策规则以满足您的需求。 为此，Tou可以利用各种数据源，例如来自Adobe Experience Platform的用户档案属性、受众或上下文数据。 [了解如何利用上下文数据](#context-data)
+1. 使用Adobe Experience Platform区段生成器构建决策规则以满足您的需求。 为此，您可以利用各种数据源，例如：
+   * 配置文件和决策项目属性，
+   * 受众，
+   * 上下文数据来自Adobe Experience Platform。 [了解如何利用上下文数据](#context-data)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >与Adobe Experience Platform Segmentation服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器具有一些特性。  但是，文档中描述的全球流程对于构建决策规则仍然有效。 [了解如何生成区段定义](../audience/creating-a-segment-definition.md)
+   >与Adobe Experience Platform Segmentation服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器具有一些特性。 但是，文档中描述的全球流程对于构建决策规则仍然有效。 [了解如何生成区段定义](../audience/creating-a-segment-definition.md)
 
 1. 在工作区中添加和配置新字段时，**[!UICONTROL 受众属性]**&#x200B;窗格显示有关属于受众的估计配置文件的信息。 单击&#x200B;**[!UICONTROL 刷新估算]**&#x200B;以更新数据。
 
