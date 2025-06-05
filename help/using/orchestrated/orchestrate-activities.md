@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
+source-git-commit: 42c57cc8e6bd6a84495738fb987b271743c0dea7
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 
 此时会显示可添加到图中的活动列表。 可用的活动取决于您在编排的活动图中的位置。 例如，添加第一个活动时，您可以通过以下方式启动编排的营销活动：定位受众、拆分编排的营销活动路径或设置&#x200B;**等待**&#x200B;活动以延迟编排的营销活动执行。 另一方面，在&#x200B;**构建受众**&#x200B;活动后，您可以通过定位活动优化目标，通过渠道活动向受众发送投放，或通过流量控制活动组织编排的营销活动流程。
 
-![](assets/workflow-start.png){zoomable="yes"}
+![](assets/orchestrated-start.png){zoomable="yes"}
 
 将活动添加到图后，将显示右侧窗格，允许您使用特定设置配置新添加的活动。 有关如何配置每个活动的详细信息，请参阅[此部分](activities/about-activities.md)。
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 重复此过程，根据您希望编排的活动执行的任务，添加所需数量的活动。 请注意，您还可以在两个活动之间插入新活动。 为此，请在活动之间的过渡上单击&#x200B;**+**&#x200B;按钮，选择所需的活动并在右侧窗格中对其进行配置。
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 * **缩小** / **放大**：缩小或缩小画布。
 * **显示映射**：打开显示您所在位置的画布快照。
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## 管理活动 {#manage}
 
@@ -74,8 +74,6 @@ ht-degree: 1%
 * **禁用/启用**&#x200B;该活动。 执行编排的活动时，同一路径上禁用的活动和以下活动不会执行，并且编排的活动会停止。
 * **暂停/继续**&#x200B;活动。 执行编排的活动时，活动会在暂停的活动中暂停。 相应的任务以及在同一路径中跟随该任务的所有任务都不会执行。
 * **复制**&#x200B;活动。 请参阅[此小节](#copy)。
-* **将**&#x200B;活动及其所有子节点移动到另一个过渡。 请参阅[此部分](#move)
-* 访问活动的&#x200B;**执行选项**。
 * 访问活动的&#x200B;**日志和任务**。
 
 若干&#x200B;**定位**&#x200B;活动（如&#x200B;**合并**&#x200B;或&#x200B;**重复数据删除**）允许您处理剩余群体，并将其包含到其他叫客过渡中。 例如，如果您使用&#x200B;**拆分**&#x200B;活动，则补充包含与先前定义的任何子集都不匹配的群体。 若要使用此功能，请激活&#x200B;**生成补码**&#x200B;选项。
@@ -90,75 +88,79 @@ ht-degree: 1%
 
 * 使用操作按钮复制一个活动。
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
 
 * 使用工具栏按钮复制多个活动。
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
 
 要粘贴复制的活动，请单击过渡上的&#x200B;**+**&#x200B;按钮，然后选择“粘贴X活动”。
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-### 移动活动及其子节点 {#move}
+<!--
+### Move activities and their child nodes {#move}
 
-Journey Optimizer允许您将活动及其子节点的全部内容（包括其中的所有过渡和活动）移动到同一编排的营销活动中的另一个过渡的末尾。
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
 
-此流程会断开活动及其叫客过渡中所有内容与初始位置的连接，并将其移动到新目标过渡。
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
 
-要移动活动，请执行以下操作：
+To move an activity:
 
-1. 选择要移动的活动。
-1. 在活动的属性窗格中，单击&#x200B;**移动**&#x200B;按钮。
-1. 选择要放置活动及其叫客过渡的过渡，然后确认。
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![](assets/activity-move.png)
 
-## 执行选项 {#execution}
 
-所有活动均允许您管理其执行选项。 选择一个活动，然后单击&#x200B;**执行选项**&#x200B;按钮。 这让您能够定义活动的执行模式和出现错误时的行为。
+## Execution options {#execution}
+
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### 属性
 
-**执行**&#x200B;字段允许您定义启动任务时要执行的操作。
+### Properties
 
-**最长执行持续时间**&#x200B;字段允许您指定持续时间，如“30s”或“1h”。 如果活动在指定的持续时间过后未完成，则会触发警报。 这不会对编排的营销活动的运行方式产生影响。
+The **Execution** field allows you to define the action to be carried out when the task is started.
 
-**时区**&#x200B;字段允许您选择活动的时区。 Adobe Journey Optimizer允许您在同一实例上管理多个国家/地区之间的时差。 应用的设置将在创建实例时配置。
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
 
-**利用Affinity**&#x200B;字段，可强制在特定计算机上执行协调的活动或协调的活动活动。 为此，您必须为相关编排的营销活动或活动指定一个或多个任务相关性。
+The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
-**行为**&#x200B;字段允许您定义在使用异步任务时要遵循的过程。
+**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
 
-### 错误管理
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-**如果出现错误**&#x200B;字段，允许您指定活动遇到错误时要执行的操作。
+### Error management
 
-### 初始化脚本
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
 
-**初始化脚本**&#x200B;允许您初始化变量或修改活动属性。 单击&#x200B;**编辑代码**&#x200B;按钮并键入要执行的代码片段。 活动执行时将调用脚本。
+### Initialization script
 
-## 示例 {#example}
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
 
-这是一个精心设计的营销活动示例，旨在通过电子邮件向所有对咖啡机感兴趣的客户(VIP客户除外)发送电子邮件。
+## Example {#example}
+
+Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
-为了实现这一目标，新增了以下活动：
+To achieve this, activities below have been added:
 
-* **[!UICONTROL 分支]**&#x200B;活动，将编排的活动分为三个路径（每组客户一个路径），
-* **[!UICONTROL 构建受众]**&#x200B;活动以定位这三组客户：
+* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
 
-   * 客户收到电子邮件，
-   * 属于预先存在的“Interrested in Coffee Machine(s)”受众的客户，
-   * 属于预先存在的“VIP或奖励”受众的客户。
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
 
-* **[!UICONTROL 合并]**&#x200B;活动，将电子邮件中的客户和对咖啡机感兴趣的客户分组，
-* 排除VIP客户的&#x200B;**[!UICONTROL 合并]**&#x200B;活动，
-* **[!UICONTROL 电子邮件投放]**&#x200B;活动，向生成的客户发送电子邮件。
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
 
-完成编排的活动后，在图末尾添加&#x200B;**[!UICONTROL 结束]**&#x200B;活动。 此活动允许您以可视方式标记工作流的结尾，对功能没有影响。
+Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-成功设计编排的活动图表后，您可以执行编排的活动并跟踪其各种任务的进度。 [了解如何启动编排的活动并监视其执行情况](start-monitor-campaigns.md)
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
+-->
