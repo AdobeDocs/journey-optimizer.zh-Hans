@@ -43,7 +43,7 @@ ht-degree: 15%
 
 * 作为最佳实践，我们建议您仅在&#x200B;**读取受众**&#x200B;活动中使用批次受众。 这将为历程中使用的受众提供可靠且一致的计数。 读取受众专为批量用例而设计。 如果您的用例需要实时数据，请使用&#x200B;**[受众资格](audience-qualification-events.md)**&#x200B;活动。
 
-* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
+* 可以在&#x200B;**读取受众**&#x200B;活动中选择从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)导入或从[组合工作流](../audience/get-started-audience-orchestration.md)生成的受众[。 这些受众在&#x200B;**受众资格**&#x200B;活动中不可用。
 
 [此页面](../start/guardrails.md#read-segment-g)中列出了与&#x200B;**读取受众**&#x200B;活动相关的护栏。
 
@@ -68,7 +68,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >此外，您还可以定位使用从CSV文件[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或创建的Adobe Experience Platform受众。
+   >此外，您还可以定位使用从CSV文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上传的[受众合成](../audience/get-started-audience-orchestration.md)或[创建的Adobe Experience Platform受众。
 
    请注意，您可以自定义列表中显示的列，并对其进行排序。
 
@@ -82,7 +82,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hans#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已实现**&#x200B;受众参与状态的个人才能进入历程。 有关如何评估受众的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 命名空间]**&#x200B;字段中，选择要使用的命名空间以标识个人。 默认情况下，该字段会使用最后使用的命名空间预填充。 [了解有关命名空间的更多信息](../event/about-creating.md#select-the-namespace)。
 
@@ -134,7 +134,8 @@ ht-degree: 15%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
->title="重新进行新的受众评估的等待时间"
+>title="重新进行新的受众评估的等待时间
+"
 >abstract="指定历程等待对批次受众进行新评估的持续时间。等待期限于整数值，可指定以分钟或小时为单位，并且必须介于 1 到 6 小时之间。"
 
 默认情况下，历程配置为运行一次。 要定义历程应运行的特定日期/时间和频率，请执行以下步骤。
@@ -177,7 +178,7 @@ ht-degree: 15%
 
 +++
 
-+++在批量受众评估后触发&#x200B;**&#x200B;**
++++在批量受众评估后触发&#x200B;****
 
 对于安排在每日和定向批处理受众的历程，您可以定义一个长达6小时的时间范围，以便该历程从批处理分段作业中等待新的受众数据。 如果分段作业在时间范围内完成，则历程将触发。 否则，它会跳过旅程，直到下一次出现。 此选项确保历程使用准确且最新的受众数据运行。
 
@@ -185,7 +186,7 @@ ht-degree: 15%
 
 增量读取历程的&#x200B;**回顾期**
 
-当选择批量受众评估&#x200B;**后的**&#x200B;触发器时，[!DNL Journey Optimizer]将查找新的受众评估。 对于回顾期间的起点，系统使用上一次成功执行历程的时间，即使该时间发生在24小时之前。 这对于增量读取旅程（通常具有24小时的回溯时段）非常重要。
+当选择批量受众评估&#x200B;]**后的**[!UICONTROL &#x200B;触发器时，[!DNL Journey Optimizer]将查找新的受众评估。 对于回顾期间的起点，系统使用上一次成功执行历程的时间，即使该时间发生在24小时之前。 这对于增量读取旅程（通常具有24小时的回溯时段）非常重要。
 
 每日增量读取历程示例：
 
@@ -287,4 +288,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解由读取受众活动触发的历程的适用用例。了解如何构建基于批次的历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430362?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
