@@ -28,7 +28,7 @@ ht-degree: 29%
 
 <br/>
 
-# 编辑表达式 {#expression}
+&#x200B;# 编辑表达式 {#expression}
 
 编辑表达式需要手动输入条件以形成规则。 此模式允许您使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
 
@@ -42,7 +42,7 @@ ht-degree: 29%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
+| 属性字段![&#128279;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 |
 
 表达式编辑器提供：
 
