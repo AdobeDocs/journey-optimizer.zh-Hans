@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 87%
+source-wordcount: '1470'
+ht-degree: 85%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 87%
 * **决策规则的决策项属性支持** — 发布日期： 2025年6月4日
 
   您现在可以利用决策项目属性来创建决策规则。 [了解详情](../experience-decisioning/rules.md#create)
+
+* **交互式消息执行API更新** — 可用日期： 2025年6月6日
+
+  交互式消息执行API现在允许您删除即将执行的营销活动计划。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 2025 年 5 月发行说明 {#25-5-rn}
 
