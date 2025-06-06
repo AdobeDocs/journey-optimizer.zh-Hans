@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f68ad1357ec7bb658e664ea3b06b3db476fdbf4
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
 source-wordcount: '2414'
 ht-degree: 96%
@@ -187,7 +187,7 @@ ht-degree: 96%
       + [报告](using/orchestrated/reporting-campaigns.md)
    + 查询数据库  {#query-database}
       + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
-      + [生成您的第一个查询](using/orchestrated/build-query.md)
+      + [生成您的第一条规则](using/orchestrated/build-query.md)
       + [编辑表达式](using/orchestrated/edit-expressions.md)
    + 编排的营销活动活动 {#design-campaigns}
       + [活动快速入门](using/orchestrated/activities/about-activities.md)

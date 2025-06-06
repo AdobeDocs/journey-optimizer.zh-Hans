@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '303'
 ht-degree: 4%
 
 ---
@@ -45,17 +45,7 @@ ht-degree: 4%
 
 ![显示规则生成器界面的图像](assets/rule-builder-interface.png)
 
-* **中央画布**&#x200B;是您添加和组合不同组件以构建规则的地方。 工具栏提供了一些选项，用于轻松处理规则组件：
-
-  | 工具栏图标 | 描述 |
-  |--- |--- |
-  | ![上移选择图标](assets/do-not-localize/rule-builder-icon-up.svg) | 将组件上移一行。 |
-  | ![下移选择图标](assets/do-not-localize/rule-builder-icon-down.svg) | 将组件下移一行。 |
-  | ![组选择图标](assets/do-not-localize/rule-builder-icon-group.svg) | 将两个组件放在一个组中。 |
-  | ![取消分组选择图标](assets/do-not-localize/rule-builder-icon-ungroup.svg) | 将单个组的组件分开。 |
-  | ![展开所有图标](assets/do-not-localize/rule-builder-icon-expand.svg) | 展开所有组。 |
-  | ![折叠所有图标](assets/do-not-localize/rule-builder-icon-collapse.svg) | 折叠所有组。 |
-  | ![删除所有图标](assets/do-not-localize/rule-builder-icon-delete.svg) | 删除所有组和组件。 |
+* **中央画布**&#x200B;是您添加和组合不同组件以构建规则的地方。 [了解如何构建规则](../orchestrated/build-query.md)
 
 * **[!UICONTROL 规则属性]**&#x200B;窗格提供有关规则的信息。 它允许您执行各种操作来检查规则并确保它符合您的需求。
 

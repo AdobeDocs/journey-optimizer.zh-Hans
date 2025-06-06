@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 生成您的第一个查询
-description: 了解如何为您的编排的活动创建查询
+title: 构建您的第一条规则
+description: 了解如何为您的编排的活动创建规则
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: f6f83405f59f444c5d9d2ec2e603ff5425c3d745
+source-git-commit: 72bceb03a3e94b0f3c13dddb22c8d3b4de0fcb44
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '1792'
+ht-degree: 7%
 
 ---
 
-# 生成您的第一个查询 {#build-query}
+# 构建您的第一条规则 {#build-query}
 
 +++ 目录
 
@@ -34,297 +34,200 @@ ht-degree: 12%
 
 >[!ENDSHADEBOX]
 
-<!--
-The main steps to build rules for your orchestrated campaigns are as follows:
+为编排的活动构建规则的主要步骤如下：
 
-1. **Add conditions** - Create custom conditions to filter your query by building your own condition with attributes from the database and advanced expressions.
-1. **Combine conditions** - Arrange the conditions in the canvas using groups and logical operators.
-1. **Check and validate the rule** - Check the resulting data of your rule before saving it.
+1. **添加条件** — 创建自定义条件，以使用数据库和高级表达式中的属性构建您自己的条件来筛选查询。
+1. **组合条件** — 使用组和逻辑运算符排列画布中的条件。
+1. **检查并验证规则** — 在保存之前检查规则的生成数据。
 
-## Add a condition {#conditions}
+## 添加条件 {#conditions}
 
-To add conditions in your query, follow these steps:
+要在查询中添加条件，请执行以下步骤：
 
-1. Access the rule builder from a **[!UICONTROL Build audience]** activity.
+1. 从&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动访问规则生成器。
 
-1. Click the **Add condition** button to create a first condition for your query.
+1. 单击&#x200B;**添加条件**&#x200B;按钮以创建查询的第一个条件。
 
-    You can also start your query using a predefined filter. To do so, click the **[!UICONTROL Select or save filter]** button and choose **[!UICONTROL Select predefined filter]**. 
+   您也可以使用预定义过滤器来启动查询。 为此，请单击&#x200B;**[!UICONTROL 选择或保存筛选器]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 选择预定义筛选器]**。
 
-1. Identify the attribute from the dabatase to use as criteria for your condition. The "i" icon next to an attribute provides information on the table where it is store and its data type.
+1. 识别数据库中的属性以用作条件的标准。 属性旁边的“i”图标提供了有关存储该属性及其数据类型的表格的信息。
 
-    ![image showing the selection of an attribute](assets/rule-builder-select-attribute.png)
+   ![显示属性选择的图像](assets/rule-builder-select-attribute.png)
 
-    >[!NOTE]
-    >
-    >The **Edit expression** button allows you to use the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+   >[!NOTE]
+   >
+   >使用&#x200B;**编辑表达式**&#x200B;按钮，您可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](expression-editor.md)
 
-1. Click the ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) button next to an attribute to access these addititional options:
+1. 单击属性旁边显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像以访问这些附加选项：
 
-    +++ Distribution of values
++++ 值分布
 
-    Analyze the distribution of values for a given attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
+   分析表中给定属性的值分布。 此功能对于理解可用的值、其数量和百分比十分有用。它还有助于避免在构建查询或创建表达式时出现大小写或拼写不一致等问题。
 
-    For attributes with a large number of values, the tool displays only the first twenty. In such cases, a **[!UICONTROL Partial load]** notification appears to indicate this limitation. You can apply advanced filters to refine the displayed results and focus on specific values or subsets of data.
+   如果某些属性有大量值，该工具仅显示前二十个值。在这种情况下，会出现一个&#x200B;**[!UICONTROL 部分加载]**&#x200B;通知来表示有此限制。您可以应用高级过滤器来优化显示的结果，并重点关注特定值或数据子集。
 
-    ![image showing the Distribution of values interface](assets/rule-builder-distribution-values.png)
+   显示值分布的![图像，接口](assets/rule-builder-distribution-values.png)
 
-    +++
++++
 
-    +++ Add to favorites
-    
-    Adding attributes to your favorites menu provides quick access to your most frequency used attributes. You can add up to 20 attributes to favorites. Favorite and recent attributes are associated with each user within an organization, ensuring accessibility across different machines and providing a seamless experience across devices.
-    
-    To access attributes you have favorited, use the **[!UICONTROL Favorites and recents]** menu. Favorite attributes appear first, followed by recently used ones, making it easy to locate the required attributes. To remove an attribute from favorites, select the star icon again.
++++ 添加到收藏夹
 
-    ![image showing the favorites interface](assets/rule-builder-favorites.png)
+   将属性添加到收藏夹菜单可快速访问最常使用的属性。 您最多可以将20个属性添加到收藏夹。 收藏和最近使用的属性与组织内的每位用户关联，确保在不同设备间也能访问，从而提供跨设备的一致体验。
 
-    +++
+   要访问您收藏的属性，请使用&#x200B;**[!UICONTROL 收藏夹和最新内容]**&#x200B;菜单。 收藏夹属性首先显示，然后是最近使用的属性，这样可以轻松找到所需的属性。 要从收藏夹中移除属性，请再次选择星形图标。
 
-1. Click **[!UICONTROL Confirm]** to add the selected attribute to your condition.
+   ![显示收藏夹界面的图像](assets/rule-builder-favorites.png)
 
-1. A properties pane displays, where you can configure the desired values for the attribute.
++++
 
-    ![image showing the rule builder with a condition added](assets/rule-builder-condition.png)
+1. 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以将所选属性添加到您的条件。
 
-1. Select the **[!UICONTROL Operator]** to apply from the drop-down list. 
-    
-    Various operators are available for use. Operators available in the drop-down list depend on the attribute's data type.
+1. 此时将显示一个属性窗格，您可以在其中配置所需的属性值。
 
-   +++List of available operators
+   ![图像显示了已添加条件的规则生成器](assets/rule-builder-condition.png)
 
-    |Operator|Purpose|Example|
-    |---|---|---|
-    |Equal to|Returns a result identical to the data entered in the second Value column.|Last name (@lastName) equal to 'Jones' will return only recipients whose last name is Jones.|
-    |Not equal to|Returns all values not identical to the value entered.|Language (@language) not equal to 'English'.|
-    |Greater than|Returns a value greater than the value entered.|Age (@age) greater than 50 will return all values greater than '50', such as '51', '52'.|
-    |Less than|Returns a value smaller than the value entered.|Creation date (@created) before 'DaysAgo(100)' will return all recipients created less than 100 days ago.|
-    |Greater than or equal to|Returns all values equal to or greater than the value entered.|Age (@age) greater than or equal to '30' will return all recipients aged 30 or more.|
-    |Less than or equal to|Returns all values equal to or lower than the value entered.|Age (@age) less than or equal to '60' will return all recipients aged 60 or less.|
-    |Included in|Returns results included in the values indicated. These values must be separated by a comma.|Birth date (@birthDate) is included in '12/10/1979,12/10/1984' will return the recipients born between these dates.|
-    |Not in|Works like the Is included in operator. Here, recipients are excluded based on the values entered.|Birth date (@birthDate) is not included in '12/10/1979,12/10/1984'. Recipients born within these dates will not be returned.|
-    |Is empty|Returns results matching an empty value in the second Value column.|Mobile (@mobilePhone) is empty returns all recipients who do not have a mobile number.|
-    |Is not empty|Works in reverse to the Is empty operator. It is not necessary to enter data in the second Value column.|Email (@email) is not empty.|
-    |Starts with|Returns results starting with the value entered.|Account # (@account) starts with '32010'.|
-    |Does not start with|Returns results not starting with the value entered.|Account # (@account) does not start with '20'.|
-    |Contains|Returns results containing at least the value entered.|Email domain (@domain) contains 'mail' will return all domain names that contain 'mail', such as 'gmail.com'.|
-    |Does not contain|Returns results not containing the value entered.|Email domain (@domain) does not contain 'vo'. Domain names containing 'vo', such as 'voila.fr', will not appear in the results.|
-    |Like|Similar to the Contains operator, it lets you insert a % wildcard character in the value.|Last name (@lastName) like 'Jon%s'. The wildcard character acts as a "joker" to find names like "Jones".|
-    |Not like|Similar to the Contains operator, it lets you insert a % wildcard character in the value.|Last name (@lastName) not like 'Smi%h'. Recipients whose last name is 'Smith' will not be returned.|
+1. 从下拉列表中选择要应用的&#x200B;**[!UICONTROL 运算符]**。
 
-    +++
+   可以使用各种运算符。 下拉列表中可用的运算符取决于属性的数据类型。
 
-1. In the **Value** field, define the expected value. You can also use the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the ![image showing the expression editor icon](assets/do-not-localize/rule-builder-icon-editor.svg) icon. [Learn how to edit expressions](expression-editor.md)
+   +++可用运算符列表
 
-    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
+   | 操作员 | 目的 | 示例 |
+   |---|---|---|
+   | 等于 | 返回与在第二个“值”列中输入的数据相同的结果。 | 等于“Jones”的姓氏(@lastName)将仅返回姓氏为Jones的收件人。 |
+   | 不等于 | 返回与输入值不相同的所有值。 | 语言(@language)不等于“英语”。 |
+   | 大于 | 返回大于输入值的值。 | 年龄(@age)大于50将返回所有大于“50”的值，如“51”、“52”。 |
+   | 小于 | 返回小于输入值的值。 | “DaysAgo(100)”之前的创建日期(@created)将返回所有在100天内创建的收件人。 |
+   | 大于或等于 | 返回所有等于或大于输入值的值。 | 年龄(@age)大于或等于“30”将返回所有30岁或以上的收件人。 |
+   | 小于或等于 | 返回等于或小于输入值的所有值。 | 年龄(@age)小于或等于“60”将返回所有60岁或以下的收件人。 |
+   | 包含在 | 返回指定值中包含的结果。 这些值必须以逗号分隔。 | 出生日期(@birthDate)包含在“12/10/1979,12/10/1984”中，将返回这些日期之间出生的收件人。 |
+   | Not in | 其工作方式与包含在运算符中类似。 在本例中，将根据输入的值排除收件人。 | 出生日期(@birthDate)未列入`12/10/1979,12/10/1984`。 将不会返回在这些日期中出生的收件人。 |
+   | 为空 | 返回与第二个“值”列中的空值匹配的结果。 | Mobile (@mobilePhone)为空，则会返回所有没有手机号码的收件人。 |
+   | 不为空 | 与Is empty运算符相反。 无需在第二个“值”列中输入数据。 | 电子邮件(@email)不为空。 |
+   | 开始于 | 返回以输入值开头的结果。 | 帐户# (@account)以“32010”开头。 |
+   | Does not start with | 返回不以输入值开头的结果。 | 帐户# (@account)不以“20”开头。 |
+   | Contains | 返回至少包含输入值的结果。 | 包含“mail”的电子邮件域(@domain)将返回包含“mail”的所有域名，如“gmail.com”。 |
+   | 不包含 | 返回不包含输入值的结果。 | 电子邮件域(@domain)不包含“vo”。 包含“vo”的域名（如“voila.fr”）将不会显示在结果中。 |
+   | 类似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)，如“Jon%s”。 通配符用作“小丑”，可查找诸如“Jones”之类的姓名。 |
+   | 不相似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)不像“Smi%h”。 不会返回姓氏为“Smith”的收件人。 |
 
-    +++See example
-    
-    ![image showing the preset option](assets/rule-builder-attribute-preset.png) 
++++
 
-    +++
+1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击显示表达式编辑器图标](assets/do-not-localize/rule-builder-icon-editor.svg)图标的![图像。 [了解如何编辑表达式](expression-editor.md)
 
-### Custom conditions on linked tables (1-1 and 1-N links){#links}
+   对于日期类型属性，使用&#x200B;**[!UICONTROL 预设]**&#x200B;选项可以获得预定义的值。
 
-Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
+   +++请参阅示例
 
-For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
+   显示预设选项的![图像](assets/rule-builder-attribute-preset.png)
 
-You can also directly select a table link in the **Value** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
++++
 
-+++Query example
+### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
-Here, the query is targeting brands whose label is "running". 
+自定义条件允许您查询链接到规则当前使用的表的表。 这包括具有1-1基数链接的表，或集合表（1-N链接）。
 
-1. Navigate inside the **Brand** table and select the **Label** attribute.
+对于&#x200B;**1-1链接**，导航到链接表，选择所需属性并定义预期值。
 
-    ![Screenshot of the Brand table](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+您还可以直接选择&#x200B;**值**&#x200B;选取器中的表链接并进行确认。 在这种情况下，需要使用专用选取器来选择对所选表可用的值，如下面的示例所示。
 
-1. Define the expected value for the attribute.
++++查询示例
 
-    ![Example of a defined expected value](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+在本例中，查询的目标品牌标签为“正在运行”。
 
-Here is a query sample where a table link has been selected directly. Available values for this table must be selected from a dedicated picker.
+1. 在&#x200B;**Brand**&#x200B;表中导航并选择&#x200B;**标签**&#x200B;属性。
 
-![Example of a query sample](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+   ![品牌表的屏幕快照](assets/rule-builder-1-1-attribute.png)
 
-+++ 
+1. 定义属性的预期值。
 
-For a **1-N link**, you can define sub-conditions to refine your query, as shown in the example below.
+   ![品牌表的屏幕快照](assets/rule-builder-1-1-attribute-value.png)
 
-+++Query example
+以下是一个直接选择表链接的查询示例。 必须从专用选取器中选择此表的可用值。
 
-Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
+![品牌表的屏幕快照](assets/rule-builder-1-1-attribute-table.png)
 
-1. Select the **Purchases** table and confirm.
++++
 
-    ![Screenshot of the Purchase table](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+对于&#x200B;**1-N链接**，您可以定义子条件来优化查询，如下面的示例所示。
 
-1. An outbound transition is added, allowing you to create sub-conditions.
++++查询示例
 
-    ![Example of an outbound transition](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+在本例中，查询的目标是购买与Brewmsaster产品相关且价格超过1000美元的收件人。
 
-1. Select the **Price** attribute and target purchases of 1000$ or more
+1. 选择&#x200B;**购买**&#x200B;表并进行确认。
 
-    ![Screenshot of the Price attribute](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+1. 单击&#x200B;**[!UICONTROL 添加条件]**&#x200B;以定义要应用于选定表的子条件。
 
-1. Add sub-conditions to suit your needs. Here we have added a condition to target profiles who purchased a BrewMaster product.
+   ![采购表的屏幕快照](assets/rule-builder-1-n-purchase.png)
 
-    ![Example of sub-conditions](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+1. 根据您的需要添加子条件。
 
-+++ 
+   ![采购表的屏幕快照](assets/rule-builder-1-n-collection.png)
 
-### Custom conditions with aggregate data {#aggregate}
++++
 
-Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
+### 包含聚合数据的自定义条件 {#aggregate}
 
-1. Navigate inside the desired collection table and select the attribute on which you want to perform an aggregate operation.
+自定义条件允许您执行聚合操作。 要实现此目的，需要直接从集合表中选择属性：
 
-    ![Screenshot of the attribute list](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+1. 在所需的集合表中导航，并选择要对其执行聚合操作的属性。
 
-1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
+1. 在属性窗格中，打开&#x200B;**聚合数据**&#x200B;选项并选择所需的聚合函数。
 
+   ![聚合数据选项的屏幕快照](assets/rule-builder-aggregate.png)
 
+## 使用运算符组合条件 {#operators}
 
+每次在规则中添加新条件时，都会通过&#x200B;**AND**&#x200B;运算符自动将其链接到现有条件。 这意味着将两个条件得出的结果结合在一起。
 
+要更改条件之间的运算符，请单击该运算符，然后选择所需的运算符。
 
+![查询示例](assets/rule-builder-change-operator.png)
 
+可用的运算符包括：
 
-## Combine conditions with groups and operators
+* **AND （交集）**：将匹配出站过渡中所有筛选组件的结果组合在一起。
+* **OR （并集）**：包含与叫客过渡中至少一个筛选组件匹配的结果。
+* **EXCEPT （排除）**：排除与叫客过渡中所有筛选组件匹配的结果。
 
-Use **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
+## 操作条件 {#manipulate}
 
-    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
+规则生成器画布工具栏提供了一些选项，用于轻松处理规则中的条件：
 
+| 工具栏图标 | 描述 |
+|--- |--- |
+| ![上移选择图标](assets/do-not-localize/rule-builder-icon-up.svg) | 将组件上移一行。 |
+| ![下移选择图标](assets/do-not-localize/rule-builder-icon-down.svg) | 将组件下移一行。 |
+| ![组选择图标](assets/do-not-localize/rule-builder-icon-group.svg) | 将两个组件放在一个组中。 |
+| ![取消分组选择图标](assets/do-not-localize/rule-builder-icon-ungroup.svg) | 将单个组的组件分开。 |
+| ![展开所有图标](assets/do-not-localize/rule-builder-icon-expand.svg) | 展开所有组。 |
+| ![折叠所有图标](assets/do-not-localize/rule-builder-icon-collapse.svg) | 折叠所有组。 |
+| ![删除所有图标](assets/do-not-localize/rule-builder-icon-delete.svg) | 删除所有组和组件。 |
 
+根据需要，您可能需要通过将组件分组到同一组并将它们链接在一起来创建中间组件组。
 
+* 若要将两个现有条件分组，请选择其中一个条件，然后单击![上移选择图标](assets/do-not-localize/rule-builder-icon-up.svg)或![下移选择图标](assets/do-not-localize/rule-builder-icon-down.svg)按钮，以将其与上方或下方条件分组。
 
+* 要将现有条件与新条件进行分组，请选择该条件，单击显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 添加组]**。 选择要添加到组的新属性，然后确认。
 
+  ![](assets/rule-builder-edit-groups.png)
 
+在下面的示例中，我们创建了一个中间组，以定向购买BrewMaster或VanillaVelvet产品的客户。
 
+![](assets/rule-builder-groups.png)
 
+## 检查并验证您的查询
 
+在画布中构建查询后，可以使用&#x200B;**规则属性**&#x200B;窗格检查查询。 可用的操作包括：
 
-### Copy-paste components {#copy}
+* **查看结果：**&#x200B;显示查询产生的数据。
+* **代码视图**：显示SQL中查询的基于代码的版本。
+* **计算**：更新并显示规则定向的记录数。
+* **选择或保存筛选器**：选择要在画布中使用的现有预定义筛选器，或将查询另存为预定义筛选器以供将来重用。
 
-The rule builder allows you to copy one or multiple filtering components and paste them at the end of a transition. This operation can be executed within the current query canvas, or in any canvas within your instance.
+  >[!IMPORTANT]
+  >
+  >从“规则属性”窗格中选择一个预定义过滤器，将画布中已构建的规则替换为所选过滤器。
 
->[!NOTE]
->
->The copied selection is kept as long as you are working in your instance. If you log off and log back in, your selection will no longer be available for pasting.
-
->[!IMPORTANT]
->
->It is currently impossible to copy and paste components in the New Rule builder experience. To follow these next steps, please click the **[!UICONTROL Get back to the classic experience]** toggle at the top to use the Classic Rule builder.
-
-
-To copy-paste filtering components, follow these steps:
-
-1. Select the filtering component that you want to copy by clicking on it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
-
-1. Click the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
-
-    |Copy a single component|Copy multiple components|
-    |  ---  |  ---  |
-    |![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-
-1. To paste the component(s), click the + button at the end of the desired transition and select **Paste n items**.
-
-    ![Example of pasting the components](assets/copy-paste.png){zoomable="yes"}
-
-## Combine filtering components with operators {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Group"
->abstract="In this pane, you can change the operator used to link filtering conditions together."
-
-Each time you add a new filtering component to your query, it is automatically linked to the other component by an **AND** operator. This means that results from the two filtering components are combined.
-
-In this example, we have added a new audience-type filtering components on the second transition. The component is linked to the predefined filter condition with an **AND** operator, meaning that the query results include recipients targeted by the "Newsletter Subscribers - MADRID" predefined filter AND belonging to the "Purchasers (All time)" audience.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of a query](assets/query-operator.png){zoomable="yes"}
-
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the **Group** pane that opens on the right hand side.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition. 
-
-![Example of a query](assets/query-operator-change.png){zoomable="yes"}
-
-In addition, you can create intermediate groups of components by grouping components into a same group and linking them together. That way, the AND operator will be put by default, you can then change it to the desired operator.
-
->[!TAB New rule builder]
-
-![Example of a query](assets/ruleb-9.png){zoomable="yes"}
-
-To change the operator used to link filtering conditions together, click on it, it will change to OR, EXCEPT and then back to AND, and select the desired operator.
-
-Available operators are:
-
-* **AND (Intersection)**: Combines results matching all the filtering components in the outbound transitions. 
-* **OR (Union)**: Includes results matching at least one of the filtering components in the outbound transitions.
-* **EXCEPT (Exclusion)**: Excludes results matching all the filtering componentns in the outbound transition.
-
-![Example of a query](assets/ruleb-10.gif){zoomable="yes"}
-
->[!ENDTABS]
-
-In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of a query](assets/query-intermediate-group.png){zoomable="yes"}
-
->[!TAB New rule builder]
-
-![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
-
->[!ENDTABS]
-
-## Check and validate your query
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_ruleproperties"
->title="Rule properties"
->abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
-
-Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side  This pane displays when building a query to create an audience. Available operations are:
-
-* **View results:** Displays the data resulting from your query.
-* **Code view**: Displays a code-based version of the query in SQL.
-* **Calculate**: Updates and displays the number of records targeted by your query.
-* **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse. [Learn how to work with predefined filters](../get-started/predefined-filters.md)
-
-    >[!IMPORTANT]
-    >
-    >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
-
-When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
-
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
-
-![Example of a query](assets/edit-audience.png){zoomable="yes"}
-
->[!TAB New Rule builder]
-
-You can modify your query at any time by opening it, to do that, click on the **[!UICONTROL Add condition]** button on the top-left corner.
-
-![Example of a query in the new rule builder](assets/ruleb-11.png){zoomable="yes"}
-
->[!ENDTABS]
--->
+规则就绪后，单击中的&#x200B;**[!UICONTROL 确认]**&#x200B;按钮进行保存。
