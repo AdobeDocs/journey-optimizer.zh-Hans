@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f535b87e415ae9191199b34476adb5c977b66e9
+source-git-commit: 1f68ad1357ec7bb658e664ea3b06b3db476fdbf4
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2414'
 ht-degree: 96%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 96%
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
       + [模拟您的历程](using/building-journeys/journey-simulation.md)
+      + [历程练习](using/building-journeys/journey-dry-run.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [历程中的实时报告](using/building-journeys/report-journey.md)
    + 管理您的历程{#manage-journey}
@@ -185,7 +186,7 @@ ht-degree: 96%
       + [启动和监控活动](using/orchestrated/start-monitor-campaigns.md)
       + [报告](using/orchestrated/reporting-campaigns.md)
    + 查询数据库  {#query-database}
-      + [使用查询Modeler](using/orchestrated/orchestrated-query-modeler.md)
+      + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
       + [生成您的第一个查询](using/orchestrated/build-query.md)
       + [编辑表达式](using/orchestrated/edit-expressions.md)
    + 编排的营销活动活动 {#design-campaigns}
