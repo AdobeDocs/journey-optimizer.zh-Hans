@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 7%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 7%
 
    您也可以使用预定义过滤器来启动查询。 为此，请单击&#x200B;**[!UICONTROL 选择或保存筛选器]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 选择预定义筛选器]**。
 
+   ![显示规则生成器的图像](assets/rule-builder-add.png)
+
 1. 识别数据库中的属性以用作条件的标准。 属性旁边的“i”图标提供了有关存储该属性及其数据类型的表格的信息。
 
    ![显示属性选择的图像](assets/rule-builder-select-attribute.png)
@@ -52,7 +54,7 @@ ht-degree: 7%
    >
    >使用&#x200B;**编辑表达式**&#x200B;按钮，您可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](../orchestrated/edit-expressions.md)
 
-1. 单击属性旁边显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像以访问这些附加选项：
+1. 单击属性旁边显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像以访问这些附加选项：
 
 +++ 值分布
 
@@ -80,9 +82,7 @@ ht-degree: 7%
 
    ![图像显示了已添加条件的规则生成器](assets/rule-builder-condition.png)
 
-1. 从下拉列表中选择要应用的&#x200B;**[!UICONTROL 运算符]**。
-
-   可以使用各种运算符。 下拉列表中可用的运算符取决于属性的数据类型。
+1. 从下拉列表中选择要应用的&#x200B;**[!UICONTROL 运算符]**。 可以使用各种运算符。 下拉列表中可用的运算符取决于属性的数据类型。
 
    +++可用运算符列表
 
@@ -105,9 +105,9 @@ ht-degree: 7%
    | 类似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)，如“Jon%s”。 通配符用作“小丑”，可查找诸如“Jones”之类的姓名。 |
    | 不相似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)不像“Smi%h”。 不会返回姓氏为“Smith”的收件人。 |
 
-   +++
++++
 
-1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击显示表达式编辑器图标![&#128279;](assets/do-not-localize/rule-builder-icon-editor.svg)图标的图像。 [了解如何编辑表达式](../orchestrated/edit-expressions.md)
+1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击显示表达式编辑器图标](assets/do-not-localize/rule-builder-icon-editor.svg)图标的![图像。 [了解如何编辑表达式](../orchestrated/edit-expressions.md)
 
    对于日期类型属性，使用&#x200B;**[!UICONTROL 预设]**&#x200B;选项可以获得预定义的值。
 
@@ -115,7 +115,7 @@ ht-degree: 7%
 
    显示预设选项的![图像](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
@@ -203,7 +203,7 @@ ht-degree: 7%
 
 * 若要将两个现有条件分组，请选择其中一个条件，然后单击![上移选择图标](assets/do-not-localize/rule-builder-icon-up.svg)或![下移选择图标](assets/do-not-localize/rule-builder-icon-down.svg)按钮，以将其与上方或下方条件分组。
 
-* 要将现有条件与新条件进行分组，请选择该条件，单击显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 添加组]**。 选择要添加到组的新属性，然后确认。
+* 要将现有条件与新条件进行分组，请选择该条件，单击显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 添加组]**。 选择要添加到组的新属性，然后确认。
 
   ![](assets/rule-builder-edit-groups.png)
 
@@ -220,8 +220,10 @@ ht-degree: 7%
 * **计算**：更新并显示规则定向的记录数。
 * **选择或保存筛选器**：选择要在画布中使用的现有预定义筛选器，或将查询另存为预定义筛选器以供将来重用。
 
-  >[!IMPORTANT]
-  >
-  >从“规则属性”窗格中选择一个预定义过滤器，将画布中已构建的规则替换为所选过滤器。
+<br/>
+
+    >[！IMPORTANT]
+    >
+    >从“规则属性”窗格中选择预定义筛选器会将画布中已生成的规则替换为所选筛选器。
 
 规则就绪后，单击中的&#x200B;**[!UICONTROL 确认]**&#x200B;按钮进行保存。

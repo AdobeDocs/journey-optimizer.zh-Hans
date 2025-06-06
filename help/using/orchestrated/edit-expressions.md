@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2114'
 ht-degree: 29%
 
 ---
@@ -29,19 +29,19 @@ ht-degree: 29%
 
 <br/>
 
-编辑表达式需要手动输入条件以形成规则。 此模式允许您使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
-
 >[!NOTE]
 >
 >以下部分提供了有关如何使用表达式编辑器构建规则的信息。 请记住，用于构建规则的语法不同于用于添加个性化的语法。
 
 ## 使用表达式编辑器 {#edit}
 
+编辑表达式需要手动输入条件以形成规则。 此模式允许您使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
+
 在配置自定义条件时，表达式编辑器可从规则生成器&#x200B;**[!UICONTROL 编辑表达式]**&#x200B;按钮中使用，该按钮可用于&#x200B;**[!UICONTROL 属性]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;字段。
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段![&#128279;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 |
+| 属性字段](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
 
 表达式编辑器提供：
 
@@ -52,8 +52,6 @@ ht-degree: 29%
 通过直接在输入字段中输入表达式来编辑表达式。 要添加字段或辅助函数，请将光标置于要添加该字段或辅助函数的表达式中，然后单击+按钮。
 
 ![表达式编辑器界面](assets/rule-builder-expression-editor.png){zoomable="yes"}
-
-表达式就绪后，单击&#x200B;**[!UICONTROL 确认]**&#x200B;按钮。 表达式将显示在所选字段中。 要对其进行编辑，请打开表达式编辑器并进行所需的更改。
 
 ## 辅助功能
 
