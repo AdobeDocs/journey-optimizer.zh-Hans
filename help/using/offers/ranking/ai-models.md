@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 9d84c3d85440fba42918ab98d836f9124b397dad
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
 >id="ajo_decisioning_ai_model_type"
 >title="选择模型类型"
 >abstract="选择您要创建的 AI 模型类型：**自动优化**&#x200B;可以根据过去的性能表现优化产品建议，而&#x200B;**个性化优化**&#x200B;则可以根据受众和产品建议性能来对产品建议进行优化和个性化。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="创建AI模型” — >"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="创建 AI 模型"
 
 [!DNL Journey Optimizer]中提供了两种类型的AI模型：
 
