@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 8%
 * 不执行带有电子邮件、短信或推送通知的&#x200B;**渠道操作**&#x200B;节点。
 * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null。
 * 在试运行期间绕过&#x200B;**等待节点**。
-您可以覆盖等待块超时，然后如果等待块的持续时间超过允许的练习历程持续时间，则该分支将不会完全执行。
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 默认执行&#x200B;**外部数据源**。
 
 >[!NOTE]
@@ -90,7 +90,7 @@ ht-degree: 8%
 
 * **[!UICONTROL 已输入]**：进入此活动的个人总数。
 * **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
-* **[!UICONTROL 已退出（强制退出）]**：已退出的个人总数。
+* **[!UICONTROL 已退出（强制退出）]**：暂停历程后已退出的个人总数。
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
 
 
