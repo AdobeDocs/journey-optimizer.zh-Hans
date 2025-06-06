@@ -7,12 +7,13 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2142'
 ht-degree: 29%
 
 ---
+
 
 # 编辑表达式 {#edit-expressions}
 
@@ -28,8 +29,6 @@ ht-degree: 29%
 
 <br/>
 
-&#x200B;# 编辑表达式 {#expression}
-
 编辑表达式需要手动输入条件以形成规则。 此模式允许您使用高级函数，这些函数允许您处理用于执行特定查询（如处理日期、字符串、数字字段和排序）的值。
 
 >[!NOTE]
@@ -42,7 +41,7 @@ ht-degree: 29%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段![&#128279;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 |
+| 属性字段](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
 
 表达式编辑器提供：
 
