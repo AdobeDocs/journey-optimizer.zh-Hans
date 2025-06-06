@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 8%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 8%
 
 * **[!UICONTROL 已输入]**：进入此活动的个人总数。
 * **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
-* **[!UICONTROL 已退出（强制退出）]**：暂停历程后已退出的个人总数。
+* **[!UICONTROL 已退出（强制退出）]**：暂停历程后已退出的个人总数。 对于处于练习模式的历程，此量度始终等于零。
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
 
 
