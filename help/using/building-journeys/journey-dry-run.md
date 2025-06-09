@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
+source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 8%
+source-wordcount: '830'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,39 @@ ht-degree: 8%
 
 借助历程练习，您可以提前发现问题、优化定位策略以及根据实际数据（而非假设）改进旅程设计。 练习直接集成到历程画布中，可提供直观的报告和对关键绩效指标的可见性，使团队能够自信地迭代并简化审批工作流。 这提高了运营效率，降低了发布风险，并实现了更好的客户参与结果。
 
-最终，此功能可缩短实现价值的时间，减少历程失败，并强化Adobe作为可信任平台的地位，进而编排个性化、高影响力的历程。
+最终，此功能可缩短实现价值的时间并减少历程失败。
 
 历程练习带来了：
 
 1. **安全测试环境**：未联系处于练习模式的用户档案，确保没有发送通信或影响实时数据的风险。
-1. **受众见解**：营销人员可以预测受众在各种历程节点（包括选择退出、排除和其他条件）的可达性。
+1. **受众见解**：历程从业者可以预测受众在各种旅程节点上的可达性，包括选择退出、排除和其他条件。
 1. **实时反馈**：量度直接显示在历程画布中，与实时报告类似，可让营销人员优化其历程设计。
+
+
+>[!CAUTION]
+>
+> 启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 启动停止试运行的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
+
+
+## 护栏和限制 {#journey-dry-run-limitations}
+
+* 练习模式不适用于包含反应事件的历程。
+* 创建新历程版本时，如果以前的历程版本为&#x200B;**Live**，则不允许对新版本进行模拟激活。
+* 历程练习生成stepEvents。 这些stepEvents具有特定标志和练习ID：
+   * 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID
+* 在练习期间，将按以下特定条件执行历程：
+
+   * 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知。
+   * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null。
+   * 在试运行期间绕过&#x200B;**等待节点**。
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * 默认情况下会执行&#x200B;**数据源**，包括外部数据源。
+
+>[!NOTE]
+>
+> * 处于试运行模式的配置文件将计入可参与配置文件。
+> * 练习历程不会影响业务规则。
 
 ## 开始试运行 {#journey-dry-run-start}
 
@@ -62,20 +88,7 @@ ht-degree: 8%
 
    转换过程中出现状态消息&#x200B;**正在激活练习**。
 
-1. 一旦激活，旅程将进入练习模式。
-
-在练习期间，将按以下特定条件执行历程：
-
-* 不执行带有电子邮件、短信或推送通知的&#x200B;**渠道操作**&#x200B;节点。
-* **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null。
-* 在试运行期间绕过&#x200B;**等待节点**。
-  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-* 默认执行&#x200B;**外部数据源**。
-
->[!NOTE]
->
-> * 处于试运行模式的配置文件将计入可参与配置文件。
-> * 练习历程不会影响业务规则。 例如，由于诸如`1 journey per day`之类的规则，练习历程中的用户档案将不会从其他历程中排除。
+1. 一旦激活，历程将进入&#x200B;**练习**&#x200B;模式。
 
 ## 监控练习 {#journey-dry-monitor}
 
@@ -89,7 +102,7 @@ ht-degree: 8%
 
 * **[!UICONTROL 已输入]**：进入此活动的个人总数。
 * **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
-* **[!UICONTROL 已退出（强制退出）]**：暂停历程后已退出的个人总数。 对于处于练习模式的历程，此量度始终等于零。
+* **[!UICONTROL 已退出（强制退出）]**：由于历程从业者配置而暂停历程时退出历程的个人总数。 对于处于练习模式的历程，此量度始终等于零。
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
 
 
@@ -111,6 +124,6 @@ ht-degree: 8%
 
 ## 停止练习 {#journey-dry-run-stop}
 
-必须手动停止练习历程。 单击&#x200B;**关闭**&#x200B;按钮结束测试，然后进行确认。
+练习历程&#x200B;**必须**&#x200B;手动停止。 单击&#x200B;**关闭**&#x200B;按钮结束测试，然后进行确认。
 
 14天后，练习历程自动过渡到&#x200B;**草稿**&#x200B;状态。
