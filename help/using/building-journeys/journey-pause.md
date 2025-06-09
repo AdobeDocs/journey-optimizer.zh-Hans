@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
 
 # 暂停历程 {#journey-pause}
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。 历程最长可暂停14天。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ ht-degree: 3%
 
 1. 单击&#x200B;**暂停**&#x200B;按钮确认。
 
-历程最长可暂停14天。
-
 ## 如何恢复暂停的历程 {#journey-resume-steps}
 
-暂停的历程可以随时手动恢复。
+暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。
 
-要结束历程暂停并开始再次收听历程事件，请执行以下步骤：
+要恢复暂停的历程并开始再次侦听历程事件，请执行以下步骤：
 
 1. 打开要恢复的历程。
 1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮，然后选择&#x200B;**继续**。
