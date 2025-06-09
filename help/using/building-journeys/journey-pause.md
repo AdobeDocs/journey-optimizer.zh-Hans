@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ## 主要优点 {#journey-dry-run-benefits}
 
-暂停和恢复历程允许暂停实时历程，并且不影响客户体验，从而为营销人员提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且用户档案将保持暂停状态，直到历程恢复。
+暂停和恢复历程通过允许暂停实时历程而不中断客户体验，为历程参与者提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且用户档案将保持暂停状态，直到历程恢复。
 
 此功能降低在错误或更新（例如：更改消息内容）期间发送意外消息的风险，支持更安全的历程管理，并提高从业者的信心。 直接在UI中查看暂停的历程及其状态可进一步提高透明度和操作敏捷性。
 

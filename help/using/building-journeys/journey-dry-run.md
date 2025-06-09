@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 841c918da9c330a652dc8c6e1e4396677783a1e2
+source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '821'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 >title="空运行历程"
 >abstract="设计历程后，执行空运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
-历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许营销人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。  此功能可帮助营销人员在将其发布到实时状态之前获得对其历程设计和受众定位的信心。
+历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。
 
 
 >[!AVAILABILITY]
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 ## 主要优点 {#journey-dry-run-benefits}
 
-历程练习通过使用真实的生产数据对客户旅程进行安全、数据驱动的测试，而无需联系客户或更改用户档案信息，从而增强了从业者的信心并促进了旅程的成功。 此功能使营销人员能够在受众覆盖范围和分支逻辑上线之前进行验证，确保历程与其预期业务目标保持一致。
+历程练习通过使用真实的生产数据对客户旅程进行安全、数据驱动的测试，而无需联系客户或更改用户档案信息，从而增强了从业者的信心并促进了旅程的成功。 此功能使历程从业者能够在上线之前验证受众覆盖范围和分支逻辑，确保历程与其预期业务目标一致。
 
 借助历程练习，您可以提前发现问题、优化定位策略以及根据实际数据（而非假设）改进旅程设计。 练习直接集成到历程画布中，可提供直观的报告和对关键绩效指标的可见性，使团队能够自信地迭代并简化审批工作流。 这提高了运营效率，降低了发布风险，并实现了更好的客户参与结果。
 
@@ -45,17 +45,19 @@ ht-degree: 7%
 
 1. **安全测试环境**：未联系处于练习模式的用户档案，确保没有发送通信或影响实时数据的风险。
 1. **受众见解**：历程从业者可以预测受众在各种旅程节点上的可达性，包括选择退出、排除和其他条件。
-1. **实时反馈**：量度直接显示在历程画布中，与实时报告类似，可让营销人员优化其历程设计。
+1. **实时反馈**：量度直接显示在历程画布中，类似于实时报告，使历程参与者能够优化其历程设计。
 
 
 >[!CAUTION]
 >
-> 启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 启动停止试运行的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
+>启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止练习的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 
 
 ## 护栏和限制 {#journey-dry-run-limitations}
 
 * 练习模式不适用于包含反应事件的历程。
+* 处于试运行模式的配置文件将计入可参与配置文件。
+* 练习历程不会影响业务规则。
 * 创建新历程版本时，如果以前的历程版本为&#x200B;**Live**，则不允许对新版本进行模拟激活。
 * 历程练习生成stepEvents。 这些stepEvents具有特定标志和练习ID：
    * 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
@@ -67,11 +69,6 @@ ht-degree: 7%
    * 在试运行期间绕过&#x200B;**等待节点**。
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
    * 默认情况下会执行&#x200B;**数据源**，包括外部数据源。
-
->[!NOTE]
->
-> * 处于试运行模式的配置文件将计入可参与配置文件。
-> * 练习历程不会影响业务规则。
 
 ## 开始试运行 {#journey-dry-run-start}
 
@@ -124,6 +121,8 @@ ht-degree: 7%
 
 ## 停止练习 {#journey-dry-run-stop}
 
-练习历程&#x200B;**必须**&#x200B;手动停止。 单击&#x200B;**关闭**&#x200B;按钮结束测试，然后进行确认。
+练习历程&#x200B;**必须**&#x200B;手动停止。
 
-14天后，练习历程自动过渡到&#x200B;**草稿**&#x200B;状态。
+单击&#x200B;**关闭**&#x200B;按钮结束测试，然后进行确认。
+
+<!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
