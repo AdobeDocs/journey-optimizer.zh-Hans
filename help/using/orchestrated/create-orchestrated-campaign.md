@@ -44,7 +44,7 @@ ht-degree: 13%
 
 要创建编排的营销活动，请执行以下步骤：
 
-1. 浏览到&#x200B;**[!UICONTRO 营销活动]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建营销活动]**。
+1. 浏览到&#x200B;**[ !UICONTRO 营销活动]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建营销活动]**。
 
    ![](assets/inventory-create.png)
 
