@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -81,7 +81,7 @@ ht-degree: 7%
 
    ![开始历程试运行](assets/dry-run-button.png)
 
-1. 确认发布
+1. 确认发布。
 
    转换过程中出现状态消息&#x200B;**正在激活练习**。
 
