@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 96%
+source-wordcount: '2425'
+ht-degree: 95%
 
 ---
 
@@ -709,7 +709,7 @@ ht-degree: 96%
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
-   + [配置渠道](using/configuration/get-started-configuration.md)
+   + [渠道配置入门](using/configuration/get-started-configuration.md)
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置 {#guided-setup}
       + [引导式渠道设置快速入门](using/configuration/set-mobile-config.md)
