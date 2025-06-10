@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1078'
 ht-degree: 2%
 
 ---
@@ -68,8 +68,8 @@ ht-degree: 2%
 
    您可以：
 
-   * 保留配置文件 — 配置文件将等待历程恢复
-   * 放弃配置文件 — 将在下一个操作节点从历程中排除配置文件
+   * **保持**&#x200B;配置文件 — 配置文件将等待历程恢复
+   * **放弃**&#x200B;配置文件 — 配置文件将在下一个操作节点从历程中排除
 
 1. 单击&#x200B;**暂停**&#x200B;按钮确认。
 
@@ -101,16 +101,21 @@ ht-degree: 2%
 
 例如，要从对法国的营销通信中排除所有法国客户，请执行以下步骤：
 
-
 1. 浏览到要修改的暂停历程。
 
 1. 单击&#x200B;**退出标准和全局过滤器**&#x200B;图标。
 
-1. 在全局过滤器设置中，根据配置文件属性定义过滤器。
+   ![将全局筛选器添加到暂停的历程](assets/add-global-filter.png){width="50%" align="left"}
+
+1. 在&#x200B;**退出标准和全局过滤器**&#x200B;设置中，根据配置文件属性定义过滤器。
 
 1. 设置表达式以排除国家/地区属性等于“法国”的用户档案。
 
-1. 恢复历程。
+   ![将全局筛选器添加到暂停的历程](assets/add-country-filter.png){width="50%" align="left"}
+
+1. 保存筛选器并单击&#x200B;**更新历程**&#x200B;按钮以应用更改。
+
+1. [继续历程](#journey-resume-steps)。
 
    在恢复时，所有将“国家/地区”属性设置为“法国”的用户档案将自动从历程中排除。 任何将“国家/地区”属性设置为法国的新用户档案都将被阻止尝试进入旅程。
 

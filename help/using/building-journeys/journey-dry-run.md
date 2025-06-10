@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '826'
 ht-degree: 7%
 
 ---
@@ -123,6 +123,6 @@ ht-degree: 7%
 
 练习历程&#x200B;**必须**&#x200B;手动停止。
 
-单击&#x200B;**关闭**&#x200B;按钮结束测试，然后进行确认。
+单击&#x200B;**关闭**&#x200B;按钮结束测试，然后单击&#x200B;**返回草稿**&#x200B;确认。
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
