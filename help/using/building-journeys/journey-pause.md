@@ -10,17 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: bb881f0257408ad70f3737c24d1caa28deea96e0
+source-git-commit: 0de7e1befa73cec2758be30caa28c93a2bf45b90
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '1047'
+ht-degree: 2%
 
 ---
 
 # 暂停历程 {#journey-pause}
 
-您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
-
+您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用全局筛选器](#journey-global-filters)以根据配置文件的特性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
 >[!AVAILABILITY]
 >
@@ -54,14 +53,14 @@ ht-degree: 3%
 
 ## 如何暂停历程 {#journey-pause-steps}
 
-您可以暂停任何实时历程。
+您可以暂停任何&#x200B;**实时**&#x200B;历程。
 
 要暂停历程，请执行以下步骤：
 
 1. 打开要暂停的历程。
 1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮，然后选择&#x200B;**暂停**。
 
-   ![暂停历程按钮](assets/pause-journey-button.png)
+   ![暂停历程按钮](assets/pause-journey-button.png){width="80%" align="left"}
 
 1. 选择如何管理当前位于历程中的配置文件。
 
@@ -74,6 +73,11 @@ ht-degree: 3%
 
 1. 单击&#x200B;**暂停**&#x200B;按钮确认。
 
+从历程列表中，您可以暂停一个或多个&#x200B;**实时**&#x200B;历程。 要暂停一组历程（_批量暂停_），请在列表中选择它们，然后单击屏幕底部蓝色栏中的&#x200B;**暂停**&#x200B;按钮。 **暂停**&#x200B;按钮仅在选择&#x200B;**实时**&#x200B;历程时可用。
+
+![从底部栏批量暂停两个实时历程](assets/bulk-pause-journeys.png){width="80%" align="left"}
+
+
 ## 如何恢复暂停的历程 {#journey-resume-steps}
 
 暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。
@@ -85,6 +89,35 @@ ht-degree: 3%
 
    历程切换到&#x200B;**恢复**&#x200B;状态。 从&#x200B;**恢复**&#x200B;到&#x200B;**实时**&#x200B;状态的过渡可能需要一些时间：必须恢复所有配置文件，历程才能重新&#x200B;**实时**。
 
+1. 单击“**继续**”按钮确认。
 
 
+从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
 
+
+## 将全局过滤器应用于暂停历程中的配置文件  {#journey-global-filters}
+
+暂停历程时，您可以根据用户档案属性应用全局过滤器。 此过滤器允许排除与恢复时定义的表达式匹配的用户档案。 符合历程中当前条件的配置文件将退出历程，尝试进入的新配置文件将被阻止。
+
+例如，要从对法国的营销通信中排除所有法国客户，请执行以下步骤：
+
+
+1. 浏览到要修改的暂停历程。
+
+1. 单击&#x200B;**退出标准和全局过滤器**&#x200B;图标。
+
+1. 在全局过滤器设置中，根据配置文件属性定义过滤器。
+
+1. 设置表达式以排除国家/地区属性等于“法国”的用户档案。
+
+1. 恢复历程。
+
+   在恢复时，所有将“国家/地区”属性设置为“法国”的用户档案将自动从历程中排除。 任何将“国家/地区”属性设置为法国的新用户档案都将被阻止尝试进入旅程。
+
+请注意，当前在历程中的用户档案和新用户档案的用户档案排除，仅在它们到达操作节点时发生。
+
+>[!CAUTION]
+>
+>* 每个历程只能设置&#x200B;**一个**&#x200B;全局筛选器。
+>
+>* 您只能在&#x200B;**已暂停**&#x200B;历程中创建、更新或删除全局筛选器。
