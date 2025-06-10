@@ -9,21 +9,22 @@ role: Admin
 level: Intermediate
 keywords: 配置，历程，功能板，数据源，事件，操作
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '523'
+ht-degree: 33%
 
 ---
 
-# 配置数据源、事件和操作 {#configure-journeys}
+# 历程配置入门 {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="关于历程配置"
->abstract="要随历程一起发送消息，您需要配置数据源、事件和操作。使用数据源，您可以定义与系统的连接，以检索将在您历程中使用的其他信息，例如在条件中。事件让您可以在收到事件时触发历程。利用自定义操作，您可以连接到第三方系统以发送消息。如果您使用 Journey Optimizer 内置消息功能，则无需配置操作。"
+>abstract="要通过历程发送消息，必须配置数据源、事件和操作。 通过数据源，可建立与系统的连接，以检索将在您的历程中使用的其他信息，例如在条件中。 事件允许在收到事件时触发您的历程。 自定义操作有助于连接到第三方系统以发送消息。 如果您使用Journey Optimizer的内置消息传送功能，则无需配置操作。"
 
-发送包含历程的消息需要配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。
+若要发送包含历程的消息，必须配置&#x200B;**[!UICONTROL 数据源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 操作]**。 通过数据源，可建立与系统的连接，以检索将在您的历程中使用的其他信息，例如在条件中。 事件允许在收到事件时触发您的历程。 自定义操作有助于连接到第三方系统以发送消息。 如果您使用Journey Optimizer的内置消息传送功能，则无需配置操作。
+
 
 ![](assets/admin-menu.png)
 
