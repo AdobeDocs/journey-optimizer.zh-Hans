@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 100%
+source-wordcount: '1451'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,8 @@ ht-degree: 100%
 * **[!UICONTROL 营销活动]** - 创建、配置和编排营销活动，使用各种渠道向特定受众投放一次性内容。[了解详情](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL 历程]** - 创建、配置和编排客户历程：将事件、编排和操作活动相结合，构建多步骤跨渠道方案。[了解详情](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL 报告]** - Journey Optimizer报告功能与Customer Journey Analytics功能完全集成，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。 [了解详情](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 决策管理] {#left-nav-decision}
