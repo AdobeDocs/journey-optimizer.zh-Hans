@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 1%
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 # 实时报告入门 {#live-report}
 
-使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。
-在发送投放或从&#x200B;**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。
+使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化您的历程和消息的影响和性能。 在发送投放或从&#x200B;**[!UICONTROL 最近24小时]**&#x200B;选项卡执行历程后，**[!UICONTROL 实时报告]**&#x200B;中的数据可用。
 
 * 如果要在历程上下文中定位历程，请从&#x200B;**[!UICONTROL 历程]**&#x200B;菜单访问历程的&#x200B;**[!UICONTROL 更多操作]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 查看过去24小时报告]**&#x200B;按钮。
 
@@ -68,7 +67,7 @@ ht-degree: 1%
 
 >[!BEGINTABS]
 
->[!TAB 将报告导出为PDF文件]
+>[!TAB 将报表导出为PDF文件]
 
 1. 在报表中，单击&#x200B;**[!UICONTROL 导出]**&#x200B;并选择&#x200B;**[!UICONTROL PDF文件]**。
 
@@ -76,7 +75,7 @@ ht-degree: 1%
 
 1. 在“打印”窗口中，根据需要配置文档。 请注意，选项可能因您的浏览器而异。
 
-1. 选择打印报表或将报表另存为PDF。
+1. 选择将报表打印或另存为PDF。
 
 1. 找到要保存文件的文件夹，根据需要重命名它，然后单击“保存”。
 
