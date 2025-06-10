@@ -5,10 +5,10 @@ description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 76%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB 冲突和优先顺序]
+
+Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。 这些工具可用于营销活动和单一历程、受众资格筛选以及读取受众历程。
+
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+
 >[!TAB Adobe Express 集成]
 
 Adobe Journey Optimizer 现在与 Adobe Express 集成在一起，使您能够将创意资产与 Journey Orchestration 无缝连接。
@@ -34,15 +40,15 @@ Adobe Journey Optimizer 现在与 Adobe Express 集成在一起，使您能够�
 
 >[!TAB AI 助手]
 
-✨通过我们的 [AI 助手](../help/using/content-management/gs-generative.md)实时功能预览，享受沉浸式的实践体验，让您亲自探索其功能并充分了解其能力。
+使用我们的[AI Assistant](../help/using/content-management/gs-generative.md)实时功能预览，尽情体验实际操作，旨在让您亲身体验其功能并充分了解其功能。
 
 [![了解详情](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 使用 CJA 进行报告]
+>[!TAB AEM内容片段集成]
 
-Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics 的互操作性，在两个平台之间实现了报告标准化，并提高了数据一致性和可靠性。
+通过将Adobe Experience Manager as a Cloud Service与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
 
-[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
+[![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]
