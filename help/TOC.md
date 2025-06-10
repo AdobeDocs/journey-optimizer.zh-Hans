@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6574735581de0872e78e8e05efea5c6a50dc59b1
+source-git-commit: 2397612142da8b7bebebcc3a99b4fedfa453b9c0
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 96%
@@ -179,7 +179,7 @@ ht-degree: 96%
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
    + [配置步骤](using/orchestrated/configuration-steps.md)
-   + [访问和管理反向营销活动](using/orchestrated/gs-campaign-creation.md)
+   + [访问和管理编排的活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + 启动您的第一个编排的营销活动{#launch}
       + [编排的营销活动创建的关键步骤](using/orchestrated/gs-campaign-creation.md)
       + [创建和配置营销活动](using/orchestrated/create-orchestrated-campaign.md)
