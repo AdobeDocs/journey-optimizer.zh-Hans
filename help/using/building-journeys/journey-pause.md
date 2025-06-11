@@ -10,14 +10,19 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1196'
 ht-degree: 2%
 
 ---
 
 # 暂停历程 {#journey-pause}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="暂停您的历程"
+>abstract="暂停实时历程以阻止新用户档案进入。 选择是丢弃历程中当前的用户档案还是将其保留在适当位置。 如果保留，它们将在历程重新启动后在下一个操作活动时继续执行。 非常适合更新或紧急停止，而不会失去进度。"
 
 您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用全局筛选器](#journey-global-filters)以根据配置文件的特性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
@@ -80,7 +85,12 @@ ht-degree: 2%
 
 ## 如何恢复暂停的历程 {#journey-resume-steps}
 
-暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="继续您的历程"
+>abstract="恢复暂停的历程，以允许新用户档案再次进入。 如果用户档案在暂停期间等待，则将继续其历程。 适用于在更新或暂停后安全重新启动历程。"
+
+暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果用户档案在暂停期间等待，则将继续其历程。 适用于在更新或暂停后安全重新启动历程。
 
 要恢复暂停的历程并开始再次侦听历程事件，请执行以下步骤：
 

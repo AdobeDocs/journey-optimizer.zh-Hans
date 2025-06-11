@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 8%
+source-wordcount: '914'
+ht-degree: 7%
 
 ---
 
@@ -22,8 +22,14 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
->title="空运行历程"
->abstract="设计历程后，执行空运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
+>title="练习模式"
+>abstract="这趟旅程是模拟跑。 历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dry_run_start"
+>title="在试运行模式下发布历程"
+>abstract="历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用实际生产数据测试旅程。 设计历程后，执行空运行以确认它可以正常工作并确保步骤正确无误。通过此发布模式，您可以对历程进行冒烟测试，而无需向任何轮廓发送通信。"
 
 历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。  此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。
 
