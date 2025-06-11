@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* 实时客户配置文件数据和分段的[护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}也适用于Adobe Journey Optimizer。
 >
->* 另请参阅[实时客户资料中的数据摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* 另请参阅[实时客户资料中的数据摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支持的浏览器 {#browsers}
