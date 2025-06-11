@@ -74,8 +74,8 @@ ht-degree: 95%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416230?quality=12&captions=chi_hans)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
