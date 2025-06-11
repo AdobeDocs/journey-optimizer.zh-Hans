@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -184,7 +184,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 
-在此页面[&#128279;](ai-assistant.md)上了解如何访问和使用AI助手。
+在此页面](ai-assistant.md)上了解如何访问和使用AI助手[。
 
 ## 语言首选项 {#language-pref}
 
@@ -226,7 +226,8 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >title="可用渠道"
 >abstract="电子邮件、短信、推送通知、直邮"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="可用渠道"
 >abstract="电子邮件、短信、推送通知、应用程序内、Web、基于代码的体验"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="事务性API触发的营销活动"
+>abstract="通过API调用触发实时消息"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="营销消息"
+>abstract="促销内容（需要选择加入，具体取决于业务规则）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="事务性消息"
+>abstract="与服务相关的内容（确认、警报，无需征得营销同意）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="可用渠道"
+>abstract="电子邮件、短信、推送通知"
 
 <!--APPROVAL POLICIES-->
 
