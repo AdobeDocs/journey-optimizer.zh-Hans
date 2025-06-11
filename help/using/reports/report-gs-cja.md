@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 32%
+source-wordcount: '408'
+ht-degree: 25%
 
 ---
 
@@ -53,49 +53,15 @@ Journey Optimizer 的报告功能具有改进的与 Customer Journey Analytics �
 
 * 如果您&#x200B;**拥有** Customer Journey Analytics并有权访问Customer Journey Analytics产品配置文件，则需要：
 
-   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control){target="_blank"}
+   * Customer Journey Analytics的&#x200B;**[!UICONTROL 受众创建]**&#x200B;和&#x200B;**[!UICONTROL 受众视图]**&#x200B;权限。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control){target="_blank"}
 
    * **[!UICONTROL 管理Adobe Journey Optimizer的用户档案]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
-* 您的Customer Journey Analytics数据视图需要使用以下设置进行配置： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的详细信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+* 您的Customer Journey Analytics数据视图需要使用以下设置进行配置： **在Adobe Journey Optimizer中设置为默认数据视图**。 [了解有关数据视图的详细信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-
-## 每个渠道的所有时间报表
-
-所有时间全局报表均可用于您的所有渠道。 选择获取更多详细信息所需的渠道报告。
-
-### 出站渠道
-
-选择一个出站渠道以发现相关的&#x200B;**全局所有时间报表**。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>电子邮件渠道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>历程报告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><strong>短信渠道</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>历程报告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><strong>推送渠道</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>历程报告</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-direct.md"><img alt="直邮" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
-<div align="center"><p><strong>直邮渠道</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>历程报告</strong></a></p></div></td>
-</tr></table>
-
-### 入站体验
-
-选择入站体验，以发现相关的&#x200B;**全局所有时间报表**。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="应用程序内" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>应用程序内渠道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>历程报告</strong></a></p></div></td>
-<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
-<div align="center"><p><strong>Web 渠道</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>历程报告</strong></a></p></div></td>
-<td><img alt="基于代码的体验" src="../channels/assets/do-not-localize/code.png">
-<div align="center"><p><strong>基于代码的体验</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>营销活动报告</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>历程报告</strong></a></p></div></td>
-<td><img alt="内容卡片" src="../channels/assets/do-not-localize/cards.png">
-<div align="center"><p><strong>内容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>营销活动报告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>历程报告</strong></a></p></div></td>
-</tr></table>
 
 ## 操作说明视频{#video}
 
 以下视频介绍了如何在Customer Journey Analytics中使用增强的Journey Optimizer报表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443161?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
