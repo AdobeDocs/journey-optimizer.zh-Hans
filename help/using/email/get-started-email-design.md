@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 根据客户的轮廓属性创建个性化的动态消息以增强客户体验。详细了解[个性化](../personalization/personalize.md)和[动态内容](../personalization/get-started-dynamic-content.md)。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 电子邮件设计最佳实践 {#best-practices}
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 1. 在“电子邮件设计器”主页上，从以下选项中选择设计电子邮件的方式：
 
-   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../integrations/assets.md) 中的图像，**从头开始设计电子邮件**。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
+   * **通过Email Designer的界面从头开始设计电子邮件**，并利用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
 
-   * 在电子邮件设计器中直接&#x200B;**编码或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
+   * **直接在Email Designer中编码或粘贴原始HTML**。 要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ ht-degree: 100%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

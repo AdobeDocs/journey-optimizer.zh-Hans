@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 8%
@@ -20,13 +20,13 @@ ht-degree: 8%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hans" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 在[!DNL Journey Optimizer]中，可视化Web创作由&#x200B;**Adobe Experience Cloud Visual Helper** Chrome浏览器扩展提供支持。 [了解详情](web-prerequisites.md#visual-authoring-prerequisites)
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Web内容设计器主要类似于电子邮件设计器。 了解有关[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)设计内容的更多信息。
+>Web内容设计器主要与Email Designer相似。 了解有关[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)设计内容的更多信息。
 
 编辑Web内容后，即可管理您的修改。 [了解详情](manage-web-modifications.md)
 
@@ -89,8 +89,8 @@ ht-degree: 8%
    * [分隔条](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [图像](../email/content-components.md#image)
-   * 标题 — 使用此组件类似于在电子邮件设计器中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件。 [了解详情](../email/content-components.md#text)
-   * 段落 — 使用此组件类似于在电子邮件设计器中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件。 [了解详情](../email/content-components.md#text)
+   * 标题 — 使用此组件与在Email Designer中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件类似。 [了解详情](../email/content-components.md#text)
+   * 段落 — 使用此组件与在Email Designer中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件类似。 [了解详情](../email/content-components.md#text)
    * 链接
 
    ![](assets/web-designer-components.png)
@@ -170,4 +170,4 @@ ht-degree: 8%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

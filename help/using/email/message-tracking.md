@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 链接，跟踪，监视，电子邮件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 30%
@@ -173,7 +173,7 @@ Adobe Journey Optimizer生成的镜像页面包含所有个性化数据。
 
 [URL跟踪](email-settings.md#url-tracking)在配置级别进行管理，并应用于消息内容中包含的所有URL。
 
-您还可以在电子邮件设计器中[个性化各个URL](../personalization/personalization-syntax.md#perso-urls)。 要将个性化的URL跟踪参数添加到内容中的单个链接，请执行以下步骤。
+您还可以在电子邮件Designer中[个性化个人URL](../personalization/personalization-syntax.md#perso-urls)。 要将个性化的URL跟踪参数添加到内容中的单个链接，请执行以下步骤。
 
 1. 选择一个链接，然后单击上下文工具栏中的&#x200B;**[!UICONTROL 插入链接]**。
 

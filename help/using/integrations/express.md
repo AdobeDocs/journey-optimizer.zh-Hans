@@ -10,7 +10,7 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 11%
@@ -35,7 +35,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 要了解有关Adobe Express的更多信息，请参阅[此文档](https://helpx.adobe.com/cn/express/user-guide.html)。
 
-要访问&#x200B;**[!DNL Adobe Express]**&#x200B;菜单，请从Email designer访问您的&#x200B;**图像设置**，然后单击&#x200B;**[!UICONTROL 在Adobe Express中编辑]**。
+要访问&#x200B;**[!DNL Adobe Express]**&#x200B;菜单，请从Email Designer访问您的&#x200B;**图像设置**，然后单击&#x200B;**[!UICONTROL 在Adobe Express中编辑]**。
 
 ![](assets/express_1.png)
 
@@ -51,10 +51,10 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 +++用户可用的使用案例以及Adobe Express的企业许可证
 
-* [删除背景](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/remove-background.html)
-* [删除对象](https://helpx.adobe.com/cn/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [擦除](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/eraser.html)
-* [插入对象](https://helpx.adobe.com/cn/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [删除背景](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
+* [删除对象](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [擦除](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
+* [插入对象](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
 * [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
 * [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
@@ -149,7 +149,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455533/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

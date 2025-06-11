@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 16%
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # 编辑 Web 内容 {#edit-web-content}
 
-将Web体验[&#128279;](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。
+将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
 
 [在此视频中了解如何创作Web营销活动](#video)
 
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->Web内容设计器主要类似于电子邮件设计器。 了解有关[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)设计内容的更多信息。
+>Web内容设计器主要与Email Designer相似。 了解有关[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)设计内容的更多信息。
 
 ## 使用组件 {#content-components}
 
@@ -103,8 +103,8 @@ ht-degree: 16%
    * [分隔条](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [图像](../email/content-components.md#image)
-   * 标题 — 使用此组件类似于在电子邮件设计器中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件。 [了解详情](../email/content-components.md#text)
-   * 段落 — 使用此组件类似于在电子邮件设计器中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件。 [了解详情](../email/content-components.md#text)
+   * 标题 — 使用此组件与在Email Designer中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件类似。 [了解详情](../email/content-components.md#text)
+   * 段落 — 使用此组件与在Email Designer中使用&#x200B;**[!UICONTROL Text]**&#x200B;组件类似。 [了解详情](../email/content-components.md#text)
    * 链接
 
    ![](assets/web-designer-components.png)
@@ -184,4 +184,4 @@ ht-degree: 16%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

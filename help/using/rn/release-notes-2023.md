@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '4377'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 **受众**
 
 * 您现在可以将从 CSV 文件上传的受众锁定到历程和营销活动中。[了解详情](../audience/about-audiences.md#segments-in-journey-optimizer)
-* 您现在可以锁定通过受众组合创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
+* 您现在可以锁定通过受众构成创建的受众，并利用历程中的扩充属性。[了解详情](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -328,16 +328,16 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>受众组合</strong><br/></th>
+<th><strong>受众构成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众组合到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来锁定客户。</p>
+<p>您现在可以创建组合工作流，将现有 Adobe Experience Platform 受众构成到可视画布中，并利用各种活动（拆分、扩充等）来创建新受众。新创建的受众与现有受众会被一起保存回 Adobe Experience Platform 中，并可在 Journey Optimizer 营销活动中利用它们来锁定客户。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>有关更多信息，请参阅<a href="../audience/get-started-audience-orchestration.md">详细文档</a>。</p>
-<p>受众组合与新的 Adobe Experience Platform“受众”菜单完全集成，该菜单可作为受众的集中式门户。您现在可以使用包含新仪表板（带有区段趋势和区段重叠功能）的浏览页面来寻获新见解并探索用于折叠和标记的组织工具。此体验中嵌入了用于标准化受众标签的管理控制以及受众生命周期管理功能，可管理激活工作流程。凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>。</p></p>
+<p>受众构成与新的 Adobe Experience Platform“受众”菜单完全集成，该菜单可作为受众的集中式门户。您现在可以使用包含新仪表板（带有区段趋势和区段重叠功能）的浏览页面来寻获新见解并探索用于折叠和标记的组织工具。此体验中嵌入了用于标准化受众标签的管理控制以及受众生命周期管理功能，可管理激活工作流程。凭借这种新的管理体验，您现在可以从一个位置轻松安全地管理受众。有关更多信息，请参阅 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans" target="_blank">Adobe Experience Platform 文档</a>。</p></p>
 </td>
 </tr>
 </tbody>
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>转换 HTML 内容以在电子邮件设计器中使用</strong><br/></th>
+<th><strong>为电子邮件Designer转换HTML内容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您现在可以在 Journey Optimizer 的电子邮件编辑器中导入和转换任何 HTML 内容。内容块会被自动标识，并且可在电子邮件设计器中使用：利用其强大的设计功能对其进行更新和个性化！</p>
+<p>您现在可以在 Journey Optimizer 的电子邮件编辑器中导入和转换任何 HTML 内容。内容块是自动标识的，并且可在Email Designer中使用：利用其强大的设计功能对其进行更新和个性化！</p>
 <img src="assets/html-convert.png">
 <p>有关更多信息，请参阅<a href="../email/existing-content.md">详细文档</a>。</p>
 </td>
@@ -425,7 +425,7 @@ A new option is available in the email surface settings to include email address
 
 **受众**
 
-已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。随着受众组合门户的发布，更新了 Adobe Experience Platform 和 Adobe Journey Optimizer 的系统和文档中“受众”和“区段”的使用说明。
+已对历程或营销活动中的受众选择器进行增强，新增了显示受众来源和更新频率的新列。随着受众构成门户的发布，更新了 Adobe Experience Platform 和 Adobe Journey Optimizer 的系统和文档中“受众”和“区段”的使用说明。
 
 * 受众：一组具有共同特征和行为的人员、帐户、家庭或其他实体。
 * 区段定义：在 Adobe Experience Platform 中，用于描述目标受众关键特征或行为的规则。此术语以前称为“区段”。

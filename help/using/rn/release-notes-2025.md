@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>品牌一致性分数功能可以直接在电子邮件设计器中提供清晰的反馈，帮助您了解内容是否与品牌的基调、风格和准则保持一致。此功能目前作为 Beta 版提供。</p>
+<p>品牌一致性得分功能可直接在Email Designer中提供清晰的反馈，帮助您查看内容是否与品牌的基调、风格和指南一致。 此功能目前作为 Beta 版提供。</p>
 <p>有关更多信息，请参阅<a href="../content-management/brands-score.md">详细文档</a>。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ ht-degree: 100%
 
 * **个性化 URL 跟踪** - 发布日期：2025 年 4 月 30 日
 
-  为了提高灵活性和对电子邮件设置的控制，您现在可以在电子邮件渠道配置级别一次性对所有 URL 跟踪参数进行个性化设置，而不是在电子邮件设计器中为内容中的每个链接进行个性化设置。[了解详情](../email/surface-personalization.md#personalize-url-tracking)
+  为了增强对电子邮件设置的灵活性和控制，您现在可以在电子邮件渠道配置级别一次性个性化所有URL跟踪参数，而不是在电子邮件Designer中为内容中的每个链接进行个性化设置。 [了解详情](../email/surface-personalization.md#personalize-url-tracking)
 
 * **电子邮件设计器** - 发布日期：2025 年 4 月 1 日
 
