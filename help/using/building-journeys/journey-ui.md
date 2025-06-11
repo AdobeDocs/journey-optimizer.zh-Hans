@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="历程列表和日历视图"
->abstract="除了历程列表之外，[!DNL Journey Optimizer]还提供您历程的日历视图，以清晰直观的方式呈现其时间表。 您可以使用这些按钮随时在列表视图和日历视图之间切换。"
+>title="历程列表和日程表视图"
+>abstract="除了历程列表之外，[!DNL Journey Optimizer] 还提供历程的日程表视图，清晰展示历程的日程安排。您可以随时使用这些按钮在列表和日程表视图之间切换。"
 
 ## 历程仪表板 {#dashboard-jo}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 历程练习
+title: 历程试运行
 description: 了解如何在练习模式下发布历程
 feature: Journeys
 role: User
@@ -14,11 +14,11 @@ exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# 历程练习 {#journey-dry-run}
+# 历程试运行 {#journey-dry-run}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

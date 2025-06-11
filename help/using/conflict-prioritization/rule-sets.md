@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 17%
+ht-degree: 22%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 17%
 
 ![](assets/rule-sets-default.png)
 
-## 创建和激活规则集 {#Create}
+## 创建并激活规则集 {#Create}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -81,7 +81,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="规则上限"
->abstract="设置规则的频次封顶。根据规则集域和规则类型字段中的选择，此字段可以定义发送到用户档案的最大消息数，或者用户档案可以输入或同时注册的最大历程数。"
+>abstract="设置规则的频次封顶。根据规则集域和“规则类型”字段中的选择，该字段可以定义可以发送给某个轮廓的最大消息数，或者该轮廓可以同时进入或注册的最大历程数。"
 
 要创建规则集，请执行以下步骤。
 
@@ -164,4 +164,4 @@ ht-degree: 17%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

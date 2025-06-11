@@ -9,7 +9,7 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 创建经过编排的任务并设计好要在画布中执行的任务后，您就可以发布它并监控其执行方式。
 
-## 计划编排的营销活动 {#schedule}
+## 计划精心策划的营销活动 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
