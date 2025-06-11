@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 重试，退回，软退回，优化器，错误
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: e422a62f49864c89bdaaab2d4b7622dc90163a71
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 9%
 
 例如：
 
-* 您在星期一发送一封电子邮件，其重试时间段设置为24小时。 emma.jones@mail.com地址无法送达。 电子邮件最多重试三次，并在达到24小时的重试时段时停止重试。
+* 您在星期一发送一封电子邮件，其重试时间段设置为24小时。 无法传递`emma.jones@mail.com`地址。 电子邮件最多重试三次，并在达到24小时的重试时段时停止重试。
 
-* 您周三又发送了一封电子邮件。 已经存在三个错误数的emma.jones@mail.com也已被定向，并且再次无法投放 — 两次。 此外还有两个错误。
+* 您周三又发送了一封电子邮件。 已经具有三个错误数的`emma.jones@mail.com`也已被定向，并且再次无法投放 — 两次。 此外还有两个错误。
 
-如果未尝试其他投放，并且在这两封电子邮件之间成功投放，则会将emma.jones@mail.com地址添加到禁止列表，因为3 + 2个错误的累积影响。
+如果未尝试其他投放，且在这两封电子邮件之间传递成功，则将`emma.jones@mail.com`地址添加到禁止显示列表中，因为3 + 2个错误的累积影响。
 
 ## 重试编辑阈值 {#edit-retry-threshold}
 
@@ -46,7 +46,7 @@ ht-degree: 9%
 >id="ajo_admin_suppression_list_bounces"
 >title="更新重试阈值"
 >abstract="如果默认值不适合需求，您可以修改允许的连续软退回次数。对于特定电子邮件地址，当重试计数器达到错误阈值时，此地址将添加到禁止列表中。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hans" text="了解禁止列表"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="了解禁止列表"
 
 如果默认值5不符合您的需要，您可以按照以下步骤修改错误阈值。
 
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 默认情况下，从将邮件添加到电子邮件队列起，将执行重试&#x200B;**3.5天**（或&#x200B;**84小时**）。
 
-但是，为了确保不再需要时重试尝试，您可以在创建或编辑应用于电子邮件渠道的[渠道配置](channel-surfaces.md)（即消息预设）时根据需要更改此设置。
+但是，为了确保不再需要时重试尝试，您可以在创建或编辑应用于电子邮件渠道的[渠道配置](channel-surfaces.md)时根据需要更改此设置。
 
 例如，对于与密码重置相关的事务性电子邮件，如果其中包含仅在一天内有效的链接，您可以将重试期限设置为24小时。 同样，对于午夜促销，您可能希望定义6小时的重试时段。
 
