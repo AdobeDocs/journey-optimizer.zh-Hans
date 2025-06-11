@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
+source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1646'
 ht-degree: 90%
 
 ---
@@ -180,7 +180,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 
-在此页面[&#128279;](ai-assistant.md)上了解如何访问和使用AI助手。
+在此页面](ai-assistant.md)上了解如何访问和使用AI助手[。
 
 ## 语言首选项 {#language-pref}
 
@@ -231,7 +231,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title=Leverage multi-entity data"
+>title="利用多实体数据"
 >abstract="了解协调的活动如何利用关系数据集来扩充数据，以进行分段和个性化"
 
 
