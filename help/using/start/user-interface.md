@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 96%
+source-wordcount: '1643'
+ht-degree: 90%
 
 ---
 
@@ -174,6 +174,14 @@ ht-degree: 96%
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## AI 助手 {#ai-assistant}
+
+AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，并获取针对特定环境的操作见解。在 Adobe Experience Cloud 的多个产品中均可使用该功能，包括 Adobe Journey Optimizer。
+
+要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
+
+在此页面](ai-assistant.md)上了解如何访问和使用AI助手[。
+
 ## 语言首选项 {#language-pref}
 
 用户界面提供以下语言版本：
@@ -199,13 +207,60 @@ ht-degree: 96%
 * 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
   ![](assets/select-language.png)
 
+
+## 了解详情 {#more}
+
+刚开始使用 [!DNL Journey Optimizer]? 有具体问题的经验丰富的用户？公司实例的管理员？[采取自己的路径，更快地实现目标](quick-start.md)！
+
+
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="活动编排"
+>abstract="拆分、组合、扩充和处理关系数据集以定义受众"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="了解协调的活动如何利用关系数据集来扩充数据，以进行分段和个性化"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="临时分段和精确计数"
+>abstract="使用精确计数分步构建区段"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="可用渠道"
+>abstract="电子邮件、短信、推送通知、直邮"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="创建和发送营销活动的引导式UI"
+>abstract="通过渠道设置一个或多个操作、选择受众、设置内容、定义计划并准备发送"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="可用渠道"
+>abstract="电子邮件、短信、推送通知、应用程序内、Web、基于代码的体验"
 
 <!--APPROVAL POLICIES-->
 
