@@ -5,16 +5,29 @@ title: 编辑表达式
 description: 了解如何编辑表达式。
 badge: label="Alpha"
 hide: true
+hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: d59643f18a335fe1e094156a1cfee65b717b9fce
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 30%
+source-wordcount: '2117'
+ht-degree: 29%
 
 ---
 
 
 # 编辑表达式 {#edit-expressions}
+
++++ 目录
+
+| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库  | 编排的营销活动活动 |
+|---|---|---|---|
+| [开始使用编排的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[发送包含编排营销活动的消息](send-messages.md)<br/><br/>[开始和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/><b>[编辑表达式](edit-expressions.md)</b> | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+
+{style="table-layout:fixed"}
+
++++
+
+<br/>
 
 >[!NOTE]
 >
@@ -28,7 +41,7 @@ ht-degree: 30%
 
 | 从&#x200B;**属性**&#x200B;字段访问 | 从&#x200B;**值**&#x200B;字段访问 |
 | --- | --- |
-| 属性字段![&#128279;](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的表达式编辑器 |
+| 属性字段](assets/rule-builder-expression-access-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 | 值字段](assets/rule-builder-expression-access-value.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}的![表达式编辑器 |
 
 表达式编辑器提供：
 

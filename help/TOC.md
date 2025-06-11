@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
+source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 97%
+source-wordcount: '2430'
+ht-degree: 95%
 
 ---
 
@@ -176,6 +176,35 @@ ht-degree: 97%
          + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
          + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
          + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
++ 精心策划的营销活动 {#orchestrated-campaigns}
+   + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
+   + [配置步骤](using/orchestrated/configuration-steps.md)
+   + [访问和管理编排的活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
+   + 启动您的第一个编排的营销活动{#launch}
+      + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
+      + [创建和计划活动](using/orchestrated/create-orchestrated-campaign.md)
+      + [策划活动](using/orchestrated/orchestrate-activities.md)
+      + [通过编排的活动发送消息](using/orchestrated/send-messages.md)
+      + [启动和监控活动](using/orchestrated/start-monitor-campaigns.md)
+      + [报告](using/orchestrated/reporting-campaigns.md)
+   + 查询数据库  {#query-database}
+      + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
+      + [生成您的第一条规则](using/orchestrated/build-query.md)
+      + [编辑表达式](using/orchestrated/edit-expressions.md)
+   + 编排的营销活动活动 {#design-campaigns}
+      + [活动快速入门](using/orchestrated/activities/about-activities.md)
+      + [And-join](using/orchestrated/activities/and-join.md)
+      + [构建受众](using/orchestrated/activities/build-audience.md)
+      + [更改维度](using/orchestrated/activities/change-dimension.md)
+      + [合并](using/orchestrated/activities/combine.md)
+      + [重复数据删除](using/orchestrated/activities/deduplication.md)
+      + [扩充](using/orchestrated/activities/enrichment.md)
+      + [分叉](using/orchestrated/activities/fork.md)
+      + [协调](using/orchestrated/activities/reconciliation.md)
+      + [拆分](using/orchestrated/activities/split.md)
+      + [测试](using/orchestrated/activities/test.md)
+      + [等待](using/orchestrated/activities/wait.md)
+      + [渠道活动](using/orchestrated/activities/channels.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
