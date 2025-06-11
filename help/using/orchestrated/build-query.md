@@ -41,7 +41,7 @@ ht-degree: 7%
    >
    >使用&#x200B;**编辑表达式**&#x200B;按钮，您可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 [了解如何编辑表达式](../orchestrated/edit-expressions.md)
 
-1. 单击属性旁边显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像以访问这些附加选项：
+1. 单击属性旁边显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像以访问这些附加选项：
 
 +++ 值分布
 
@@ -92,9 +92,9 @@ ht-degree: 7%
    | 类似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)，如“Jon%s”。 通配符用作“小丑”，可查找诸如“Jones”之类的姓名。 |
    | 不相似 | 与Contains运算符类似，它允许您在值中插入%通配符。 | 姓氏(@lastName)不像“Smi%h”。 不会返回姓氏为“Smith”的收件人。 |
 
-+++
+   +++
 
-1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击显示表达式编辑器图标](assets/do-not-localize/rule-builder-icon-editor.svg)图标的![图像。 [了解如何编辑表达式](../orchestrated/edit-expressions.md)
+1. 在&#x200B;**值**&#x200B;字段中，定义预期值。 您还可以使用表达式编辑器使用数据库和帮助程序函数中的字段手动定义表达式。 为此，请单击显示表达式编辑器图标![&#128279;](assets/do-not-localize/rule-builder-icon-editor.svg)图标的图像。 [了解如何编辑表达式](../orchestrated/edit-expressions.md)
 
    对于日期类型属性，使用&#x200B;**[!UICONTROL 预设]**&#x200B;选项可以获得预定义的值。
 
@@ -102,7 +102,7 @@ ht-degree: 7%
 
    显示预设选项的![图像](assets/rule-builder-attribute-preset.png)
 
-+++
+   +++
 
 ### 链接表（1-1和1-N链接）上的自定义条件{#links}
 
@@ -190,7 +190,7 @@ ht-degree: 7%
 
 * 若要将两个现有条件分组，请选择其中一个条件，然后单击![上移选择图标](assets/do-not-localize/rule-builder-icon-up.svg)或![下移选择图标](assets/do-not-localize/rule-builder-icon-down.svg)按钮，以将其与上方或下方条件分组。
 
-* 要将现有条件与新条件进行分组，请选择该条件，单击显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 添加组]**。 选择要添加到组的新属性，然后确认。
+* 要将现有条件与新条件进行分组，请选择该条件，单击显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 添加组]**。 选择要添加到组的新属性，然后确认。
 
   ![](assets/rule-builder-edit-groups.png)
 
