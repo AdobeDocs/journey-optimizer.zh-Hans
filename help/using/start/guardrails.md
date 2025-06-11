@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2514'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->实时客户配置文件数据和分段的[护栏](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=zh-Hans){target="_blank"}也适用于Adobe Journey Optimizer。
+>* 实时客户配置文件数据和分段的[护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}也适用于Adobe Journey Optimizer。
+>
+>* 另请参阅[实时客户资料中的数据摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支持的浏览器 {#browsers}
