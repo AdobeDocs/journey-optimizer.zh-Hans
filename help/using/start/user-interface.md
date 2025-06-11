@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 35ab5ee85ee573da64bf34d9ec007796ee589f59
+source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 90%
+source-wordcount: '1657'
+ht-degree: 89%
 
 ---
 
@@ -149,12 +149,16 @@ ht-degree: 90%
 
 ![](assets/use-cases-home.png)
 
++++ **可用用例**
+
 可用用例包括：
 
 * **创建测试轮廓**，以使用我们的 CSV 模板创建测试轮廓，测试个性化消息和历程。[在此页面中](../audience/creating-test-profiles.md#use-case-1)了解如何实施此用例。
 * **向客户发送生日消息**，可以在临近客户生日时自动向其发送祝福电子邮件。（即将推出）
 * **向新客户发送电子邮件**，可以轻松发送最多两封电子邮件来欢迎新注册的客户。（即将推出）
 * **将推送消息发送到导入的客户列表**，可以快速将推动通知发送到从 CSV 文件导入的客户列表。（即将推出）
+
++++
 
 要了解有关每个用例的更多信息，请单击&#x200B;**[!UICONTROL 查看详细信息]**&#x200B;链接。
 
@@ -180,7 +184,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 
-在此页面[&#128279;](ai-assistant.md)上了解如何访问和使用AI助手。
+在此页面](ai-assistant.md)上了解如何访问和使用AI助手[。
 
 ## 语言首选项 {#language-pref}
 
@@ -199,14 +203,17 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 您的默认界面语言由您的用户档案中指定的首选语言决定。
 
-如要更改您的语言：
++++ **如何更改您的语言**
 
-* 单击右上角头像中的 **Preferences**。
-  ![](assets/preferences.png)
-* 然后，单击电子邮件地址下显示的语言
-* 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
-  ![](assets/select-language.png)
+要更改您的语言，请执行以下步骤：
 
+1. 单击右上角头像中的 **Preferences**。
+   ![](assets/preferences.png)
+1. 然后，单击电子邮件地址下显示的语言
+1. 选择首选语言，然后单击 **Save**。如果您正在使用的组件没有您第一语言的本地化版本，那么您可以选择第二语言。
+   ![](assets/select-language.png)
+
++++
 
 ## 了解详情 {#more}
 
