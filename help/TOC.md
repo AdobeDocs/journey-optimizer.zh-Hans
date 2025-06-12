@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ ht-degree: 95%
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
       + 电子邮件可投放性 {#deliverability}
-      + [可投放性快速入门](using/reports/deliverability.md)
-      + [了解禁止列表](using/reports/suppression-list.md)
-      + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
+         + [可投放性快速入门](using/reports/deliverability.md)
+         + [了解禁止列表](using/reports/suppression-list.md)
+         + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + 应用程序内渠道{#in-app}
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ ht-degree: 95%
       + [手动配置 Customer Journey Analytics](using/reports/cja-ajo.md)
       + [管理您的报告](using/reports/report-cja-manage.md)
       + [报告和试验先决条件](using/reports/reporting-configuration.md)
+      + [排除原因](using/reports/exclusion-list.md)
       + 营销活动报告{#reporting}
          + [营销活动报告](using/reports/campaign-global-report-cja.md)
          + [基于代码的营销活动报告](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ ht-degree: 95%
       + [“概述”报告](using/reports/channel-report-cja.md)
       + [登陆页面报告](using/reports/lp-report-global-cja.md)
       + [订阅列表报告](using/reports/subscription-report-global-cja.md)
-      + [排除原因](using/reports/exclusion-list.md)
    + 自定义历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
