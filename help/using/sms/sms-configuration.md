@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 36%
+source-wordcount: '356'
+ht-degree: 35%
 
 ---
 
@@ -39,10 +39,12 @@ ht-degree: 36%
 
 在发送短信或彩信之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 
-1. 将提供程序设置与Journey Optimizer集成：
-   * [带有Sinch](sms-configuration-sinch.md)
-   * [使用Infobip](sms-configuration-infobip.md)
-   * [使用自定义提供商](sms-configuration-custom.md)
+1. 将提供程序设置与Journey Optimizer集成。
+具体步骤取决于您的短信提供商。 浏览以下链接以访问详细文档：
+   * [Infobip](sms-configuration-infobip.md)
+   * [Sinch](sms-configuration-sinch.md)
+   * [Twilio](sms-configuration-twilio.md)
+   * [自定义提供商](sms-configuration-custom.md)
 1. [创建短信配置](sms-configuration-surface.md)
 
 这些步骤必须由Adobe Journey Optimizer [系统管理员](../start/path/administrator.md)执行。

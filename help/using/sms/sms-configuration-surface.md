@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 14%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 14%
 >id="ajo_admin_surface_sms_type"
 >title="定义消息类别"
 >abstract="选择使用此配置的短信的类型：营销型的推广短信（需要用户同意）或交易型的非商业短信，如密码重置。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hans#sms-opt-out-management" text="选择禁用营销短信消息"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="选择禁用营销短信消息"
 
-配置短信/彩信渠道后，您必须创建渠道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送短信和彩信消息。
+配置短信/彩信渠道后，您必须创建渠道配置才能从&#x200B;**[!DNL Journey Optimizer]**&#x200B;发送短信和/或彩信消息。
 
 要创建渠道配置，请执行以下步骤：
 

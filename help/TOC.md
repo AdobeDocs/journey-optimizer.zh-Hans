@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2434'
 ht-degree: 95%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 95%
       + [创建和管理审批策略](using/test-approve/approval-policies.md)
       + [请求审批](using/test-approve/request-approval.md)
       + [审批请求](using/test-approve/review-approve-request.md)
+   + [系统警报](using/reports/alerts.md)
 + 通信渠道 {#channels}
    + [通信渠道快速入门](using/channels/gs-channels.md)
    + 电子邮件渠道 {#email}
@@ -267,6 +268,10 @@ ht-degree: 95%
          + [标头参数](using/email/header-parameters.md)
          + [URL 跟踪](using/email/url-tracking.md)
          + [个性化电子邮件配置](using/email/surface-personalization.md)
+      + 电子邮件可投放性 {#deliverability}
+      + [可投放性快速入门](using/reports/deliverability.md)
+      + [了解禁止列表](using/reports/suppression-list.md)
+      + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
    + 应用程序内渠道{#in-app}
       + [应用程序内渠道快速入门](using/in-app/get-started-in-app.md)
       + [应用程序内渠道先决条件](using/in-app/inapp-configuration.md)
@@ -448,7 +453,7 @@ ht-degree: 95%
       + [使用计算属性](using/audience/computed-attributes.md)
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
-+ 报告和监控 {#reporting}
++ 报告 {#reporting}
    + [使用入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
       + [实时报告快速入门](using/reports/live-report.md)
@@ -487,6 +492,7 @@ ht-degree: 95%
       + [“概述”报告](using/reports/channel-report-cja.md)
       + [登陆页面报告](using/reports/lp-report-global-cja.md)
       + [订阅列表报告](using/reports/subscription-report-global-cja.md)
+      + [排除原因](using/reports/exclusion-list.md)
    + 自定义历程报告 {#reports}
       + [创建历程报告](using/reports/sharing-overview.md)
       + [步骤事件字段列表](using/reports/sharing-field-list.md)
@@ -498,12 +504,6 @@ ht-degree: 95%
          + [数据提取字段](using/reports/sharing-fetch-fields.md)
          + [身份标识字段](using/reports/sharing-identity-fields.md)
       + [查询示例](using/reports/query-examples.md)
-   + 可投放性 {#deliverability}
-      + [可投放性快速入门](using/reports/deliverability.md)
-      + [了解禁止列表](using/reports/suppression-list.md)
-      + [新 DMARC 要求](using/configuration/dmarc-record-update.md)
-   + [警报](using/reports/alerts.md)
-   + [排除原因](using/reports/exclusion-list.md)
 + 决策功能 {#decisioning}
    + [决策功能快速入门](using/experience-decisioning/gs-decision.md)
    + 决策 {#experience-decisioning}

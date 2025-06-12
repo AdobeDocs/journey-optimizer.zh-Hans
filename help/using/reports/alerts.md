@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 警报
-description: 了解如何管理警报
+title: 访问和订阅系统警报
+description: 了解如何访问和订阅系统警报
 feature: Journeys, Alerts
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 警报入门 {#alerts}
+# 访问和订阅系统警报 {#alerts}
 
 在构建历程和营销活动时，使用&#x200B;**警报**&#x200B;按钮在执行或发布之前检查和解决错误。 在[此页面](../building-journeys/troubleshooting.md)上了解如何对您的历程进行故障排除。 在[此页面](../campaigns/review-activate-campaign.md)上了解如何查看营销活动。
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 
 ![](assets/alert-subscribe.png)
 
-您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hans){target="_blank"}订阅警报。 警报规则将整理到不同的订阅包中。 下文详细介绍了与特定Journey Optimizer警报对应的事件订阅。
+您还可以通过[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}订阅警报。 警报规则将整理到不同的订阅包中。 下文详细介绍了与特定Journey Optimizer警报对应的事件订阅。
 
-如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送和/或直接在用户界面的右上角的Journey Optimizer通知中心内发送。 默认情况下，仅启用应用程序内警报。 要启用电子邮件警报，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hans#enable-email-alerts){target="_blank"}。
+如果发生意外行为，则向订阅者发送警报通知。 根据用户首选项，警报会通过电子邮件发送和/或直接在用户界面的右上角的Journey Optimizer通知中心内发送。 默认情况下，仅启用应用程序内警报。 要启用电子邮件警报，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}。
 
 警报解决后，订阅者会收到“已解决”通知。
 
