@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1199'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->此功能仅面向一部分组织（限量发布）。要获得访问权限，请与 Adobe 代表联系。
+>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。
 
 
 ## 主要优点 {#journey-dry-run-benefits}
