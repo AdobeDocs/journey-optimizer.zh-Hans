@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: 0c872f6bcc370c9f1557eca1b185fcb8fb0509f9
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >* 暂停和恢复历程的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 >
->* 在开始使用暂停/恢复功能之前，[阅读护栏和限制] (journey-pause-guardrails)。
+>* 在开始使用暂停/恢复功能之前，[阅读护栏和限制](#journey-pause-guardrails)。
 
 
 ## 如何暂停历程 {#journey-pause-steps}
