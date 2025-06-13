@@ -10,9 +10,9 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '549'
 ht-degree: 11%
 
 ---
@@ -41,26 +41,19 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 ➡️ [通过观看视频了解此功能](#video)
 
-## Adobe Express企业许可证 {#licence}
+## 将Adobe Express与企业许可证结合使用 {#licence}
 
 没有Adobe Express Enterprise许可证的用户可以访问以下部分中详述的功能。
 
-借助企业许可证，用户可获得对Adobe Express编辑器的完全访问权限，从而可通过调整颜色、亮度、锐度、对比度、尺寸和其他设置来修改图像。
+借助企业许可证，用户具有Adobe Express Web编辑器的完全访问权限，以便能够调整资源设置、使用Firefly生成内容、添加文本和应用其他自定义项。
 
 ![](assets/express-licence.png)
 
-+++用户可用的使用案例以及Adobe Express的企业许可证
+有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/express/web.html)。
 
-* [删除背景](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/remove-background.html)
-* [删除对象](https://helpx.adobe.com/cn/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [擦除](https://helpx.adobe.com/cn/express/create-and-edit-images/edit-images/eraser.html)
-* [插入对象](https://helpx.adobe.com/cn/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [裁切](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [效果](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+## 在没有企业许可证的情况下使用Adobe Express  {#edit}
 
-+++
-
-## 调整图像大小 {#resize}
+### 调整图像大小 {#resize}
 
 1. 从Adobe Express菜单中，选择&#x200B;**[!UICONTROL 调整图像大小]**。
 
@@ -84,7 +77,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 您的图像现已准备就绪，可用于内容中。
 
-## 删除背景 {#background}
+### 删除背景 {#background}
 
 1. 从Adobe Express菜单中，选择&#x200B;**[!UICONTROL 删除背景]**。
 
@@ -104,7 +97,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 您的图像现已准备就绪，可用于内容中。
 
-## 裁切图像 {#crop-image}
+### 裁切图像 {#crop-image}
 
 1. 从Adobe Express菜单中，选择&#x200B;**[!UICONTROL 裁切图像]**。
 
@@ -122,7 +115,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 您的图像现已准备就绪，可用于内容中。
 
-## 转换为JPEG或PNG {#convert}
+### 转换为JPEG或PNG {#convert}
 
 1. 从Adobe Express菜单中，选择&#x200B;**[!UICONTROL 转换为JPEG]**&#x200B;或&#x200B;**[!UICONTROL 转换为PNG]**（取决于图像原始格式）。
 
@@ -144,12 +137,11 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 您的图像现已准备就绪，可用于内容中。
 
-
 ## 操作说明视频 {#video}
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455533/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
