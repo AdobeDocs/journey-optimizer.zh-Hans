@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
+source-git-commit: 9845e8ca89943b7c2bb7d236cac5e30aa2b01e23
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 85%
+source-wordcount: '2129'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,125 @@ ht-degree: 85%
 
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
-## 2025年6月更新 {#25-6-rn}
+
+
+## 2025年6月早期发行说明 {#25-6-rn}
+
+
+**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;链接、屏幕和更新文档在发布日期发布。
+
+**发行日期**：2025 年 6 月 17-18 日
+
+
+### 新功能 {#25-06-features}
+
+此版本包含的新功能详述如下。
+
+
+<table>
+<thead>
+<tr>
+<th><strong>RCS消息传送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer现在支持富通信服务(RCS)消息传送，可根据提供商和运营商支持实现以下增强消息传送功能：</p>
+<ul>
+<li>品牌和经验证的发件人支持：使用带有品牌元素（徽标、发件人姓名等）的经验证的业务配置文件发送消息。</li>
+<li>消息投放分析：接收详细的投放报告，包括消息状态更新（例如，已发送、已投放、已读取）。</li>
+<li>链接跟踪：在RCS消息中嵌入和跟踪URL，以进行参与分析。</li>
+<li>回退到短信：当配置文件设备不支持RCS或暂时无法通过RCS访问时，自动回退到短信。</li>
+<li>基本消息合成：发送基于文本的RCS消息，其中带有可选的媒体和富元素，具体取决于提供商的支持。</li>
+</ul>
+<!--p>For more information, refer to the <a href="../sms/sms-configuration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>基于代码的体验内容中的表单字段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。 不仅如此，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>子域的自定义委派方法</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：自定义委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。</p>
+<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>历程中的内容决策活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>历程试运行</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。</p>
+<p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>暂停和恢复历程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以暂停并继续您的历程。 此功能允许在不中断客户体验的情况下临时暂停实时历程，从而为历程参与者提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且用户档案将保持暂停状态，直到历程恢复。</p>
+<p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
+<p>此外，您可以将全局过滤器应用于暂停的历程，以根据用户档案的属性排除用户档案。</p>
+<p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -63,7 +181,26 @@ ht-degree: 85%
 </tbody>
 </table>
 
-### 改进
+
+### 改进 {#25-06-improv}
+
+此版本包含的改进如下所述。
+
+* **渠道规则集**
+
+   * **自定义持续时间窗口**&#x200B;上限 — 渠道规则集配置屏幕中现在提供了新的&#x200B;**重复计数**&#x200B;字段，允许您根据指定的持续时间跨几天、几周或几个月应用频率上限规则。
+
+   * **每小时持续时间** — 您现在可以每小时为渠道规则集应用上限。
+
+* **基于代码的体验**
+
+  现在，基于代码的体验内容模板和代码编辑器右边栏中提供了决策策略。
+
+* **电子邮件设计工具**
+
+   * **自定义CSS支持** — 现在，通过Journey Optimizer，您可以在电子邮件设计器中直接将自定义CSS添加到电子邮件内容。
+   * **深色模式支持** - Journey Optimizer Email designer现在提供切换到深色模式的功能，您可以在其中定义特定设置。
+
 
 * **决策** — 发布日期：2025年6月3日
 
