@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >* 暂停和恢复历程的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
 >
->* 在开始使用暂停/恢复功能之前，[阅读护栏和限制](journey-pause-guardrails)。
+>* 在开始使用暂停/恢复功能之前，[阅读护栏和限制] (journey-pause-guardrails)。
 
 
 ## 如何暂停历程 {#journey-pause-steps}
