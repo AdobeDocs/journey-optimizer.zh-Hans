@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -123,13 +123,13 @@ ht-degree: 0%
 
 1. 单击&#x200B;**退出标准和全局过滤器**&#x200B;图标。
 
-   ![将全局筛选器添加到暂停的历程](assets/add-global-filter.png){width="50%" align="left"}
+   ![将全局筛选器添加到暂停的历程](assets/add-global-filter.png)
 
 1. 在&#x200B;**退出标准和全局筛选器**&#x200B;设置中，单击&#x200B;**添加全局筛选器**&#x200B;根据配置文件属性定义筛选器。
 
 1. 设置表达式以排除国家/地区属性等于“法国”的用户档案。
 
-   ![将全局筛选器添加到暂停的历程](assets/add-country-filter.png){width="50%" align="left"}
+   ![将全局筛选器添加到暂停的历程](assets/add-country-filter.png)
 
 1. 保存筛选器并单击&#x200B;**更新历程**&#x200B;按钮以应用更改。
 
