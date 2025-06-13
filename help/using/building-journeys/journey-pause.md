@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 让我们以以下历程为例：
 
-![历程示例](assets/pause-journey-sample.png){width="50%" align="left"}
+![历程示例](assets/pause-journey-sample.png)
 
 暂停此历程时，您可以选择配置文件是&#x200B;**Discarded**&#x200B;还是&#x200B;**Hold**，然后配置文件管理如下：
 
