@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
+source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 35%
+source-wordcount: '1017'
+ht-degree: 33%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在支持RCS（富通信服务）消息传送，可根据提供商和运营商支持实现以下增强消息传送功能：</p>
+<p>Journey Optimizer现在支持富通信服务(RCS)消息传送，可根据提供商和运营商支持实现以下增强消息传送功能：</p>
 <ul>
 <li>品牌和经验证的发件人支持：使用带有品牌元素（徽标、发件人姓名等）的经验证的业务配置文件发送消息。</li>
 <li>消息投放分析：接收详细的投放报告，包括消息状态更新（例如，已发送、已投放、已读取）。</li>
@@ -83,8 +83,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够轻松编辑基于代码的体验中的内容，而无需处理代码。</p>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
+<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。 不仅如此，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
 </td>
 </tr>
 </tbody>
