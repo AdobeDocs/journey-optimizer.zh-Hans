@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 5%
 
 ---
@@ -56,25 +56,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止练习的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
+>* 启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止练习的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
+>
+>* 在开始使用练习功能之前，[请阅读护栏和限制](#journey-dry-run-limitations)。
 
-
-## 护栏和限制 {#journey-dry-run-limitations}
-
-* 练习模式不适用于包含反应事件的历程。
-* 处于试运行模式的配置文件将计入可参与配置文件。
-* 练习历程不会影响业务规则。
-* 创建新历程版本时，如果以前的历程版本为&#x200B;**Live**，则不允许对新版本进行模拟激活。
-* 历程练习生成stepEvents。 这些stepEvents具有特定标志和练习ID：
-   * 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
-   * `_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID
-* 在练习期间，将按以下特定条件执行历程：
-
-   * 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知。
-   * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null。
-   * 在试运行期间绕过&#x200B;**等待节点**。
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 默认情况下会执行&#x200B;**数据源**，包括外部数据源。
 
 ## 开始试运行 {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ ht-degree: 5%
 单击&#x200B;**关闭**&#x200B;按钮结束测试，然后单击&#x200B;**返回草稿**&#x200B;确认。
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## 护栏和限制 {#journey-dry-run-limitations}
+
+* 练习模式不适用于包含反应事件的历程。
+* 处于试运行模式的配置文件将计入可参与配置文件。
+* 练习历程不会影响业务规则。
+* 创建新历程版本时，如果以前的历程版本为&#x200B;**Live**，则不允许对新版本进行模拟激活。
+* 历程练习生成stepEvents。 这些stepEvents具有特定标志和练习ID：
+   * 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
+   * `_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID
+* 在练习期间，将按以下特定条件执行历程：
+
+   * 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知。
+   * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null。
+   * 在试运行期间绕过&#x200B;**等待节点**。
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * 默认情况下会执行&#x200B;**数据源**，包括外部数据源。

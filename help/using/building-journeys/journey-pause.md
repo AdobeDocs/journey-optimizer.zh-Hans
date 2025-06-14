@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 从历程列表中，您可以恢复一个或多个&#x200B;**已暂停**&#x200B;历程。 要恢复一组历程（_批量恢复_），请选择这些历程并单击屏幕底部蓝色栏中的&#x200B;**恢复**&#x200B;按钮。 请注意，**继续**&#x200B;按钮仅在选择&#x200B;**已暂停**&#x200B;历程时可用。
 
 
-## 将全局过滤器应用于暂停历程中的配置文件  {#journey-global-filters}
+## 将全局过滤器应用于暂停历程中的配置文件 {#journey-global-filters}
 
 暂停历程时，您可以根据用户档案属性应用全局过滤器。 此过滤器允许排除与恢复时定义的表达式匹配的用户档案。 设置全局过滤器后，该过滤器将应用于操作节点，甚至适用于新用户档案的入口。 符合条件的用户档案和尝试输入的新用户档案将在他们遇到的下一个操作节点&#x200B;**上从历程**&#x200B;中排除。
 
