@@ -161,4 +161,4 @@ ht-degree: 12%
 
 通过此视频了解受众资格历程的适用用例。 了解如何使用Audience Qualification构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446214?quality=12&captions=chi_hans)
