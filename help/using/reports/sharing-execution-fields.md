@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -51,13 +51,11 @@ ht-degree: 4%
 
 类型： long
 
->[!NOTE]
->
-> `actionExecutionTime`字段表示执行操作所花费的总时间（以毫秒为单位），包括请求在队列中等待所花费的时间（如果配置了限制并达到了速率限制）以及实际执行时间（包括到外部端点的网络延迟）。
->
-> `Timestamp`字段指示操作执行的结束时间。 要确定用户档案何时进入自定义操作节点，请从`Timestamp`中减去`actionExecutionTime`。
->
->例如，如果`Timestamp`为“2025-02-04 09:39:03 UTC”，`actionExecutionTime`为1,813,227毫秒（~31分钟），则配置文件大约在“2025-02-04 09:08:32 UTC”进入节点。
+`actionExecutionTime`字段表示执行操作所花费的总时间（以毫秒为单位），包括请求在队列中等待所花费的时间（如果配置了限制并达到了速率限制）以及实际执行时间（包括到外部端点的网络延迟）。
+
+`Timestamp`字段指示操作执行的结束时间。 要确定用户档案何时进入自定义操作节点，请从`Timestamp`中减去`actionExecutionTime`。
+
+例如，如果`Timestamp`为“2025-02-04 09:39:03 UTC”，`actionExecutionTime`为1,813,227毫秒（~31分钟），则配置文件大约在“2025-02-04 09:08:32 UTC”进入节点。
 
 
 
