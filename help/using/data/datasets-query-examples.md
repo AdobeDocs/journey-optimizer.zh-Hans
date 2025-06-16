@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 其中日期的格式为： `YYYY-MM-DD HH:MM:SS`。
 
 标识后，从Journey Optimizer禁止显示列表中删除这些地址。 [了解详情](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+
+
+>[!NOTE]
+>
+>在某些历程中，每个投放的`messageID`可能不是唯一的。 如果历程将同一操作重新发送到同一配置文件，则可以重用相同的`messageID`。 因此，要在单个发送级别准确跟踪或归因事件，请合并`journeyVersionID`、`journeyActionID`和`batchInstanceID`（对于批处理历程）或`identityMap`字段以获得更准确的唯一性。
+
 
 ## 推送跟踪体验事件数据集 {#push-tracking-experience-event-dataset}
 
