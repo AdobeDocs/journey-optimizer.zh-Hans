@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，动态，内容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 15%
+source-wordcount: '653'
+ht-degree: 14%
 
 ---
 
@@ -45,6 +45,11 @@ Adobe Journey Optimizer允许您利用在库中创建的条件规则，将动态
 1. 内容准备就绪后，您可以使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮预览不同的变体。 [了解如何测试和预览邮件](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
+
+>[!CAUTION]
+>
+>如果在添加条件块后，Email Designer无法正确呈现，请验证每个新条件的语法是否正确，以及是否存在重复或冲突的语句。 如果问题仍然存在，请考虑在新的模板中重建有问题的部分，并增量测试每个条件块。
+
 
 ## 将动态内容添加到电子邮件中 {#emails}
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器，条件，规则
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 9%
+source-wordcount: '605'
+ht-degree: 8%
 
 ---
 
@@ -56,17 +56,17 @@ ht-degree: 9%
 
 1. 根据需要构建条件规则。 为此，请将左侧菜单中的所需属性拖放并排列到画布中。
 
-   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅[此文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#rule-builder-canvas)。
+   将属性组合到画布中的步骤与区段构建体验类似。 有关如何使用规则生成器画布的更多信息，请参阅[此文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)。
 
    ![](assets/conditions-create.png)
 
    属性分为三个选项卡：
 
    * **[!UICONTROL 配置文件]**：
-      * **[!UICONTROL 受众]**&#x200B;列出了[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)的所有受众属性（即状态、版本等），
-      * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)关联的所有配置文件属性。
+      * **[!UICONTROL 受众]**&#x200B;列出了[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}的所有受众属性（即状态、版本等），
+      * **[!UICONTROL XDM个人配置文件]**&#x200B;列出了与Adobe Experience Platform中定义的[Experience Data Model (XDM)架构](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}关联的所有配置文件属性。
    * **[!UICONTROL 上下文]**：在历程中使用消息时，可通过此选项卡使用上下文历程字段。
-   * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)中创建的区段定义生成的所有受众。
+   * **[!UICONTROL 受众]**：列出从[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans){target="_blank"}中创建的区段定义生成的所有受众。
 
 1. 条件规则准备就绪后，可将其添加到消息以创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
 
@@ -87,6 +87,11 @@ ht-degree: 9%
    ![](assets/conditions-name-description.png)
 
 1. 条件规则将保存到库。 您现在可以使用它在消息中创建动态内容。 [了解如何添加动态内容](dynamic-content.md)
+
+
+>[!CAUTION]
+>
+>在命名条件内容变量时，请仅使用字母数字字符(A-Z、a-z、0-9)。 在变体名称中使用特殊字符（如`<`、`>`、`=`、`{`、`}`等）可能会导致模板编辑器中断或隐藏组件。
 
 ## 编辑和删除已保存的条件规则 {#edit-delete}
 
