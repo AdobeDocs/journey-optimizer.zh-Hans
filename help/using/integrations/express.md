@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: 资产，集成
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 11%
+source-wordcount: '576'
+ht-degree: 10%
 
 ---
 
@@ -52,6 +52,13 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 有关拥有Adobe Express企业许可证的用户可用用例的更多信息，请参阅[Adobe Express Web文档](https://helpx.adobe.com/express/web.html)。
 
 ## 在没有企业许可证的情况下使用Adobe Express  {#edit}
+
+如果没有企业许可证，用户将有权访问Adobe Express提供的以下用例：
+
+* [调整图像大小](#resize)
+* [删除背景](#background)
+* [裁切图像](#crop-image)
+* [转换为JPEG或PNG](#convert)
 
 ### 调整图像大小 {#resize}
 
@@ -141,7 +148,7 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 中编辑资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455533/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
