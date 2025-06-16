@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 33b60693d060e37873f9d505d0893839698036a8
+source-git-commit: d1b1670992ba5da14f1a4d0bfab0a7b15b29dec3
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 0%
+source-wordcount: '2014'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暂停您的历程"
->abstract="暂停实时历程以阻止新用户档案进入。 选择是丢弃历程中当前的用户档案还是将其保留在适当位置。 如果保留，它们将在历程重新启动后在下一个操作活动时继续执行。 非常适合更新或紧急停止，而不会失去进度。"
+>abstract="暂停历程可以阻止新的轮廓进入当前正在运行的历程。在暂停时，您可以选择是否清除当前已在处理中的轮廓，或将其保留。如果选择保留，这些用户将在历程重新启动后，从下一个操作活动节点继续执行。此功能非常适合用于进行更新或紧急中止操作，同时保留历程进度。"
 
 您可以暂停实时历程，执行所有需要的更改，然后随时重新恢复它们。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暂停期间，您可以[应用全局筛选器](#journey-global-filters)以根据配置文件的特性排除配置文件。 历程在暂停期结束时自动恢复。 您也可以[手动](#journey-resume-steps)恢复它。
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 暂停历程后，用户档案管理和活动执行取决于活动。 行为详见下文。 如需全面了解，另请参阅此[端到端示例](#journey-pause-sample)。
 
 
-| 历程活动 | 影响 |
+| 历程活动 | 暂停历程时 |
 |-------------------------|--------------------------------------------------|
 | [受众资格](audience-qualification-events.md) | <ul> <li>在第一个节点中：丢弃受众 </li><li>在其他节点中：与实时历程中的行为相同，但是，如果受众资格在<strong>操作</strong>活动之后并且用户在该操作上暂停，则受众资格将被丢弃。 </li></ul> |
 | [单一事件](general-events.md) | <ul> <li>在第一个节点中：丢弃事件</li><li>在其他节点中：与实时历程中的行为相同，但是，如果事件在<strong>操作</strong>活动之后并且用户在该操作上暂停，则放弃该事件。 </li></ul> |
-| [读取受众](read-audience.md) | 与实时历程中的行为相同，但有一些特殊性 <ol> <li> 如果在<strong>读取受众</strong>活动开始后按下<strong>暂停</strong>，则进入历程的用户档案将继续（直到下一个<strong>操作</strong>活动）。 当历程以特定速度读取受众时，如果整个受众尚未进入，则将丢弃队列中的剩余配置文件。</li><li> 对于单次执行：如果计划日期早于恢复日期，则在恢复时不会显示任何错误。 该时间表将被忽略。</li><li>对于增量历程： <ul><li>如果在首次发生之前发生暂停，则在恢复时，将播放整个受众。 </li><li>例如，如果发生暂停，则在每日重复周期的第4天，历程保持暂停状态直到第9天，则在恢复时，将包含从第4天到第9天输入的所有用户档案  </li></ul></ol> |
+| [读取受众](read-audience.md) | 与实时历程中的行为相同，但具有以下特性： <ol> <li> 如果在<strong>读取受众</strong>活动开始后按下<strong>暂停</strong>，则进入历程的用户档案将继续（直到下一个<strong>操作</strong>活动）。 当历程以特定速度读取受众时，如果整个受众尚未进入，则将丢弃队列中的剩余配置文件。</li><li> 对于单次执行：如果计划日期早于恢复日期，则在恢复时不会显示任何错误。 该时间表将被忽略。</li><li>对于增量历程： <ul><li>如果在首次发生之前发生暂停，则在恢复时，将播放整个受众。 </li><li>例如，如果发生暂停，则在每日重复周期的第4天，历程保持暂停状态直到第9天，则在恢复时，将包含从第4天到第9天输入的所有用户档案  </li></ul></ol> |
 | [反应](reaction-events.md) | 与实时历程中的行为相同，但是，如果反应在<strong>操作</strong>活动之后并且用户在该操作上暂停，则事件将被丢弃。 |
 | [等待](wait-activity.md) | 与实时历程中的行为相同 |
 | [条件](condition-activity.md) | 与实时历程中的行为相同 |
@@ -92,14 +92,14 @@ ht-degree: 0%
 | [外部数据Source](../datasource/external-data-sources.md) | 与实时历程中的行为相同 |
 | [退出条件](journey-properties.md#exit-criteria) | 与实时历程中的行为相同 |
 
-## 如何恢复暂停的历程 {#journey-resume-steps}
+## 如何恢复已暂停的历程 {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
->title="继续您的历程"
->abstract="恢复暂停的历程，以允许新用户档案再次进入。 如果用户档案在暂停期间等待，则将继续其历程。 适用于在更新或暂停后安全重新启动历程。"
+>title="恢复您的历程"
+>abstract="恢复历程后，新的轮廓将再次被允许进入。如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。这一功能非常适合在更新或暂停后安全地重新启动历程。"
 
-暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果用户档案在暂停期间等待，则将继续其历程。 适用于在更新或暂停后安全重新启动历程。
+暂停的历程在最大暂停时段14天结束时自动恢复。 它们可以随时手动恢复。 恢复暂停的历程允许新用户档案再次进入。 如果在暂停期间已有轮廓处于等待状态，则他们会继续其历程。这一功能非常适合在更新或暂停后安全地重新启动历程。
 
 要恢复暂停的历程并开始再次侦听历程事件，请执行以下步骤：
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+   * **Event**活动在配置文件正在等待的操作之后时丢弃了事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端到端示例 {#journey-pause-sample}
