@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: df9787d3a22d6fc615049fd738317c943e46ce8f
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 打开要暂停的历程。
 1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮，然后选择&#x200B;**暂停**。
 
-   ![暂停历程按钮](assets/pause-journey-button.png){width="80%" align="left"}
+   ![暂停历程按钮](assets/pause-journey-button.png)
 
 1. 选择如何管理当前位于历程中的配置文件。
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 
 | 历程活动 | 轮廓管理 |
 |-------------------------|--------------------------------------------------|
-| [受众资格](audience-qualification-events.md) | 在第一个节点中：已丢弃<br>在其他节点中：与实时历程中的行为相同，但是，如果受众资格在<strong>操作</strong>活动之后并且用户在该操作上暂停，则受众资格将被丢弃。 |
-| [单一事件](general-events.md) | 在第一个节点中：已丢弃<br>在其他节点中：行为与实时历程中的行为相同，但是，如果事件在<strong>操作</strong>活动之后并且用户在该操作上暂停，则该事件将被丢弃。 |
+| [受众资格](audience-qualification-events.md) | <ul> <li>在第一个节点中：丢弃用户档案 </li><br><li>在其他节点中：与实时历程中的行为相同，但是，如果受众资格在<strong>操作</strong>活动之后并且用户在该操作上暂停，则受众资格将被丢弃。 </li></ul> |
+| [单一事件](general-events.md) |  — 在第一个节点中：丢弃用户档案<br>在其他节点中：行为与实时历程相同，但是，如果事件在<strong>操作</strong>活动之后并且用户在该操作上暂停，则丢弃该事件。 |
 | [读取受众](read-audience.md) | 与实时历程中的行为相同，具有一些特性：<br>1。  如果在<strong>读取受众</strong>活动开始后按下<strong>暂停</strong>，则进入历程的用户档案将继续（直到下一个<strong>操作</strong>活动）。 当历程以特定速度读取受众时，如果整个受众尚未进入，则将丢弃队列中的剩余配置文件。   <br>2. 对于单次执行：如果计划日期早于恢复日期，则在恢复时不会显示任何错误。 该时间表将被忽略。 <br>3. 对于增量历程： <br> — 如果在首次发生之前发生暂停，则在恢复时，将播放完整受众。 <br> — 例如，如果发生暂停，则在每日重复周期的第4天，历程保持暂停状态直到第9天，则在恢复时，将包含从第4天到第9天输入的所有用户档案 |
 | [反应](reaction-events.md) | 与实时历程中的行为相同，但是，如果反应在<strong>操作</strong>活动之后并且用户在该操作上暂停，则将放弃该事件。 |
 | [等待](wait-activity.md) | 与实时历程中的行为相同 |
