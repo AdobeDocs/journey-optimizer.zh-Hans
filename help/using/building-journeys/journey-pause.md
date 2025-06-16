@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 60d3cbb1a95e347d6e727b79ccee8534453a55ab
+source-git-commit: 187ddc49d72a0ed5ce0ad6f7b910815ae2e59d34
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -76,23 +76,21 @@ ht-degree: 0%
 
 暂停历程后，用户档案管理和活动执行取决于活动。 行为详见下文。 如需全面了解，另请参阅此[端到端示例](#journey-pause-sample)。
 
+
 | 历程活动 | 影响 |
 |-------------------------|--------------------------------------------------|
 | [受众资格](audience-qualification-events.md) | <ul> <li>在第一个节点中：丢弃受众 </li><li>在其他节点中：与实时历程中的行为相同，但是，如果受众资格在<strong>操作</strong>活动之后并且用户在该操作上暂停，则受众资格将被丢弃。 </li></ul> |
 | [单一事件](general-events.md) | <ul> <li>在第一个节点中：丢弃事件</li><li>在其他节点中：与实时历程中的行为相同，但是，如果事件在<strong>操作</strong>活动之后并且用户在该操作上暂停，则放弃该事件。 </li></ul> |
-| [读取受众](read-audience.md) | 与实时历程中的行为相同，但具有以下特性：<ol> |
-<li> 如果在<strong>读取受众</strong>活动开始后按下<strong>暂停</strong>，则进入历程的用户档案将继续（直到下一个<strong>操作</strong>活动）。 当历程以特定速度读取受众时，如果整个受众尚未进入，则将丢弃队列中的剩余配置文件。</li>
-<li> 对于单次执行：如果计划日期早于恢复日期，则在恢复时不会显示任何错误。 该时间表将被忽略。</li>&lt;
-<li>对于增量历程： <ul><li>如果在首次发生之前发生暂停，则在恢复时，将播放整个受众。 </li><li>例如，如果发生暂停，则在每日重复周期的第4天，历程保持暂停状态直到第9天，则在恢复时，将包含从第4天到第9天输入的所有用户档案  </li></ul></ol>   |
-| [反应](reaction-events.md)      | 与实时历程中的行为相同，但是，如果反应在<strong>操作</strong>活动之后并且用户在该操作上暂停，则事件将被丢弃。    |
-| [等待](wait-activity.md)             | 与实时历程中的行为相同 | 
-| [条件](condition-activity.md)  | 与实时历程中的行为相同 |
-| 内容决策  | 根据暂停历程后用户选择的内容，暂停或丢弃用户档案 |
-| [渠道操作](journeys-message.md)  | 根据暂停历程后用户选择的内容，暂停或丢弃用户档案 |
-| [自定义操作](../action/action.md)   | 根据暂停历程后用户选择的内容，暂停或丢弃用户档案 |
-| [更新配置文件](update-profiles.md)和[Jump](jump.md) | 与实时历程中的行为相同  |
-| [外部数据Source](../datasource/external-data-sources.md)  | 与实时历程中的行为相同 |
-| [退出标准](journey-properties.md#exit-criteria)  | 与实时历程中的行为相同 |
+| [读取受众](read-audience.md) | 与实时历程中的行为相同，但有一些特殊性 <ol> <li> 如果在<strong>读取受众</strong>活动开始后按下<strong>暂停</strong>，则进入历程的用户档案将继续（直到下一个<strong>操作</strong>活动）。 当历程以特定速度读取受众时，如果整个受众尚未进入，则将丢弃队列中的剩余配置文件。</li><li> 对于单次执行：如果计划日期早于恢复日期，则在恢复时不会显示任何错误。 该时间表将被忽略。</li><li>对于增量历程： <ul><li>如果在首次发生之前发生暂停，则在恢复时，将播放整个受众。 </li><li>例如，如果发生暂停，则在每日重复周期的第4天，历程保持暂停状态直到第9天，则在恢复时，将包含从第4天到第9天输入的所有用户档案  </li></ul></ol> |
+| [反应](reaction-events.md) | 与实时历程中的行为相同，但是，如果反应在<strong>操作</strong>活动之后并且用户在该操作上暂停，则事件将被丢弃。 |
+| [等待](wait-activity.md) | 与实时历程中的行为相同 |
+| [条件](condition-activity.md) | 与实时历程中的行为相同 |
+| 内容决策 | 根据暂停历程后用户选择的内容，暂停或丢弃用户档案 |
+| [渠道操作](journeys-message.md) | 根据暂停历程后用户选择的内容，暂停或丢弃用户档案 |
+| [自定义操作](../action/action.md) | 根据暂停历程后用户选择的内容，暂停或丢弃用户档案 |
+| [更新配置文件](update-profiles.md)和[跳转](jump.md) | 与实时历程中的行为相同 |
+| [外部数据Source](../datasource/external-data-sources.md) | 与实时历程中的行为相同 |
+| [退出条件](journey-properties.md#exit-criteria) | 与实时历程中的行为相同 |
 
 ## 如何恢复暂停的历程 {#journey-resume-steps}
 
