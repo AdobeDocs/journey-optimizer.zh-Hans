@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: 沙盒，历程，复制，环境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
+source-git-commit: 4aaef970b76002c72e3c28f55078d96fdc3cd882
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 5%
+source-wordcount: '1450'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 您可以使用资源包导出和导入功能，跨多个沙盒复制对象，例如历程、自定义操作、内容模板或片段。 包可以包含单个对象或多个对象。包中包含的任何对象必须来自同一沙盒。
 
-本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans)。
+本页介绍Journey Optimizer上下文中的沙盒工具用例。 有关功能本身的更多信息，请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html)。
 
 >[!NOTE]
 >
@@ -41,9 +41,12 @@ Journey Optimizer允许将历程、自定义操作、内容模板和片段导出
 
 * 如果导出的对象包含用户档案个性化，请确保目标沙盒中存在相应的架构，以避免任何个性化问题。
 
+* 当前不支持登陆页面在沙盒之间迁移。 当您将历程复制到另一个沙盒时，在您的历程或电子邮件内容中对登陆页面的任何引用仍将指向原始（源）沙盒登陆页面ID。 迁移后，您必须手动更新历程和电子邮件内容中的所有登陆页面引用，以使用目标（目标）沙盒中的正确登陆页面ID。 请参阅[创建和发布登陆页面](../landing-pages/create-lp.md)。
+
+
 ### 历程 {#journeys}
 
-* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hans#abobe-journey-optimizer-objects)。
+* 在导出旅程时，除了旅程本身外，Journey Optimizer还会复制旅程依赖的大部分对象：受众、自定义操作、架构、事件和操作。 有关复制对象的更多详细信息，请参阅此[部分](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects)。
 
 * 我们不保证将所有链接的元素复制到目标沙盒。 我们强烈建议您执行彻底检查，例如在发布历程之前。 这允许您识别任何潜在的缺失对象。
 
