@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 33%
+source-wordcount: '1022'
+ht-degree: 41%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。 不仅如此，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
+<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。<br />此外，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,6 @@ ht-degree: 33%
 <tr>
 <td>
 <p>除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：自定义委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。</p>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 </td>
 </tr>
 </tbody>
@@ -149,7 +148,7 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。</p>
+<p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
 <p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
 </td>
 </tr>
@@ -184,9 +183,9 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>通过缩放试验入选者，可自动或手动将试验的入选变体转出给全体受众。 通过此功能，确定最佳合适人选后，您就可以最大程度地扩大范围并提高效率，而无需持续进行人工监督。</p>
+<p>通过扩展试验入选者的范围，您可以自动或手动将试验的入选范围扩展到全体受众。通过此功能，确定最佳合适人选后，您就可以最大程度地扩大范围并提高效率，而无需持续进行人工监督。</p>
 <p>有关更多信息，请参阅<a href="../content-management/content-experiment.md">详细文档</a>。</p>
-<p>发布日期：2025年6月2日</p></td>
+<p>发布日期：2025 年 6 月 2 日</p></td>
 </tr>
 </tbody>
 </table>
@@ -208,7 +207,7 @@ ht-degree: 33%
 <li>增强了报告功能：报告现在可以显示哪个特定规则从历程或营销活动中排除了轮廓，从而提高透明度并提供切实可行的见解。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p>
-<p>发布日期：2025年6月3日</p>
+<p>发布日期：2025 年 6 月 3 日</p>
 </td>
 </tr>
 </tbody>
@@ -227,22 +226,26 @@ ht-degree: 33%
 
 * **基于代码的体验**
 
-  现在，基于代码的体验内容模板和代码编辑器右边栏中提供了决策策略。
+   * 现在，可在基于代码的体验内容模板中添加决策策略。
 
-* **电子邮件设计工具**
+   * 从基于代码的体验历程或营销活动版本屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。
 
-   * **自定义CSS支持** — 现在，通过Journey Optimizer，您可以在电子邮件设计器中直接将自定义CSS添加到电子邮件内容。
-   * **深色模式支持** - Journey Optimizer Email designer现在提供切换到深色模式的功能，您可以在其中定义特定设置。
+* 电子邮件Designer中的&#x200B;**自定义CSS支持**
 
+  Journey Optimizer现在允许您直接在Email Designer中将自定义CSS添加到电子邮件内容。
 
-* **决策** — 发布日期：2025年6月3日
+* **新的营销活动选项卡式导航**
+
+  新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。
+
+* **决策** - 发布日期：2025 年 6 月 3 日
 
   现在可以在不同沙盒中复制决策对象，从而简化测试和部署工作流程。[了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **决策规则的决策项属性支持** — 发布日期： 2025年6月4日
+* **支持使用决策项属性来创建决策规则** - 发布日期：2025 年 6 月 4 日
 
-  您现在可以利用决策项目属性来创建决策规则。 [了解详情](../experience-decisioning/rules.md#create)
+  您现在可以利用决策项属性来创建决策规则。[了解详情](../experience-decisioning/rules.md#create)
 
-* **交互式消息执行API更新** — 可用日期： 2025年6月6日
+* **交互式消息执行 API 更新** - 发布日期：2025 年 6 月 6 日
 
-  交互式消息执行API现在允许您删除即将执行的营销活动计划。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  通过交互式消息执行 API，您现在可以删除即将执行的营销活动计划。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}

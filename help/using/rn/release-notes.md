@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
+source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
 workflow-type: tm+mt
-source-wordcount: '2164'
-ht-degree: 72%
+source-wordcount: '2143'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **发行日期**：2025 年 6 月 17-18 日
 
-另请参阅[Adobe Experience Platform预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另请参阅[Adobe Experience Platform预发行说明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 新功能 {#25-06-features}
 
@@ -69,7 +69,7 @@ ht-degree: 72%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。 不仅如此，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
+<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。<br />此外，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,6 @@ ht-degree: 72%
 <tr>
 <td>
 <p>除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：自定义委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。</p>
-<p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 </td>
 </tr>
 </tbody>
@@ -194,14 +193,17 @@ ht-degree: 72%
 
 * **基于代码的体验**
 
-  现在，基于代码的体验内容模板和代码编辑器右边栏中提供了决策策略。
+   * 现在，可在基于代码的体验内容模板中添加决策策略。
 
-* **电子邮件设计工具**
+   * 从基于代码的体验历程或营销活动版本屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。
 
-   * **自定义CSS支持** — 现在，通过Journey Optimizer，您可以在电子邮件设计器中直接将自定义CSS添加到电子邮件内容。
-   * **深色模式支持** - Journey Optimizer Email designer现在提供切换到深色模式的功能，您可以在其中定义特定设置。
+* 电子邮件Designer中的&#x200B;**自定义CSS支持**
 
-* **营销活动** — 适用于操作营销活动的新选项卡式导航。 这种新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。
+  Journey Optimizer现在允许您直接在Email Designer中将自定义CSS添加到电子邮件内容。
+
+* **新的营销活动选项卡式导航**
+
+  新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。
 
 * **决策** - 发布日期：2025 年 6 月 3 日
 
