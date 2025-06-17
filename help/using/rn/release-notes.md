@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 61%
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 61%
 
 **发行日期**：2025 年 6 月 17-18 日
 
-另请参阅[Adobe Experience Platform预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另请参阅[Adobe Experience Platform预发行说明](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 ### 新功能 {#25-06-features}
 
@@ -117,7 +117,7 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程从业者在将其发布到实时状态之前获得对其历程设计和受众定位的信心。</p>
+<p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
 <p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
 </td>
 </tr>
@@ -151,9 +151,9 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>通过缩放试验入选者，可自动或手动将试验的入选变体转出给全体受众。 通过此功能，确定最佳合适人选后，您就可以最大程度地扩大范围并提高效率，而无需持续进行人工监督。</p>
+<p>通过扩展试验入选者的范围，您可以自动或手动将试验的入选范围扩展到全体受众。通过此功能，确定最佳合适人选后，您就可以最大程度地扩大范围并提高效率，而无需持续进行人工监督。</p>
 <p>有关更多信息，请参阅<a href="../content-management/content-experiment.md">详细文档</a>。</p>
-<p>发布日期：2025年6月2日</p></td>
+<p>发布日期：2025 年 6 月 2 日</p></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ ht-degree: 61%
 <li>增强了报告功能：报告现在可以显示哪个特定规则从历程或营销活动中排除了轮廓，从而提高透明度并提供切实可行的见解。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>有关更多信息，请参阅<a href="../conflict-prioritization/gs-conflict-prioritization.md">详细文档</a>。</p>
-<p>发布日期：2025年6月3日</p>
+<p>发布日期：2025 年 6 月 3 日</p>
 </td>
 </tr>
 </tbody>
@@ -203,17 +203,17 @@ ht-degree: 61%
 
 * **营销活动** — 适用于操作营销活动的新选项卡式导航。 这种新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。
 
-* **决策** — 发布日期：2025年6月3日
+* **决策** - 发布日期：2025 年 6 月 3 日
 
   现在可以在不同沙盒中复制决策对象，从而简化测试和部署工作流程。[了解详情](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **决策规则的决策项属性支持** — 发布日期： 2025年6月4日
+* **支持使用决策项属性来创建决策规则** - 发布日期：2025 年 6 月 4 日
 
-  您现在可以利用决策项目属性来创建决策规则。 [了解详情](../experience-decisioning/rules.md#create)
+  您现在可以利用决策项属性来创建决策规则。[了解详情](../experience-decisioning/rules.md#create)
 
-* **交互式消息执行API更新** — 可用日期： 2025年6月6日
+* **交互式消息执行 API 更新** - 发布日期：2025 年 6 月 6 日
 
-  交互式消息执行API现在允许您删除即将执行的营销活动计划。 [了解详情](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  通过交互式消息执行 API，您现在可以删除即将执行的营销活动计划。[了解详情](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 2025 年 5 月发行说明 {#25-5-rn}
 
@@ -233,10 +233,10 @@ ht-degree: 61%
 <tr>
 <td>
 <p>现在，历程和营销活动列表中提供日程表视图。该视图可让您在相应列表中查看所有历程和营销活动激活情况。</p>
-<p>此更改当前仅适用于一组组织（限量发布）。 若要请求访问权限，请使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表单</a>。</p>
+<p>目前，此更改仅面向一部分组织提供（限量发布版）。要申请访问权限，请使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">此表单</a>。</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>有关更多信息，请参阅以下部分：<a href="../building-journeys/journey-ui.md">浏览和筛选您的历程</a>、<a href="../campaigns/modify-stop-campaign.md">访问营销活动</a>。</p>
-<p>发布日期： 2025年5月28日</p>
+<p>有关更多信息，请参阅以下部分：<a href="../building-journeys/journey-ui.md">浏览和筛选历程</a>、<a href="../campaigns/modify-stop-campaign.md">访问营销活动</a>。</p>
+<p>发布日期：2025 年 5 月 28 日</p>
 </td>
 </tr>
 </tbody>
@@ -252,7 +252,7 @@ ht-degree: 61%
 <tr>
 <td>
 <p>通过将 Adobe Experience Manager 与 Adobe Journey Optimizer 集成，您现在可以轻松地在 Journey Optimizer 内容中使用 Adobe Experience Manager 内容片段。通过这种无缝连接，可以更加轻松地直接在 Journey Optimizer 中访问和使用 AEM 内容。</p>
-<p>以前此功能可用于一组有限的组织(LA)，现在为GA，提供以下增强功能：您现在可以使用编辑器模式定义占位符并在片段签名中映射个性化值。</p>
+<p>此功能之前仅供部分组织使用 (LA)，现在已正式发布并提供以下增强功能：您现在可以使用编辑器模式定义占位符并在片段签名中映射个性化值。</p>
 <ul>
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li>
 <li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
@@ -341,7 +341,7 @@ ht-degree: 61%
 <p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>有关更多信息，请参阅<a href="../building-journeys/read-audience.md#schedule">详细文档</a>。</p>
-<p>发布日期： 2025年5月20日</p>
+<p>发布日期：2025 年 5 月 20 日</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +359,7 @@ ht-degree: 61%
 <p>Journey Optimizer 现在允许您配置其他短信服务提供商，而不限于 Sinch、Infobip 和 Twilio 等默认选项。通过自定义短信服务提供商配置，您可以直接集成第三方提供商，利用高级负载自定义进行动态消息传递，并管理同意首选项（选择加入/选择退出）以确保合规性。</p>
 <p>有关更多信息，请参阅<a href="../sms/sms-configuration-custom.md">详细文档</a>。</p>
 <p>此功能之前为限量发布，现在可用于所有环境（正式发布）。</p>
-<p>发布日期： 2025年5月20日</p>
+<p>发布日期：2025 年 5 月 20 日</p>
 </td>
 </td>
 </tr>
@@ -408,7 +408,7 @@ ht-degree: 61%
 此版本包含的改进如下所述。
 
 
-* **沙盒副本支持新Campaign对象** — 发布日期： 2025年5月15日
+* **沙盒副本支持新 Campaign 对象** - 发布日期：2025 年 5 月 15 日
 
   使用资源包导出和导入功能跨多个沙盒复制营销活动时，现在还会复制以下依赖项：渠道配置、试验变体和设置、决策策略和项目。[了解详情](../configuration/copy-objects-to-sandbox.md)
 
@@ -428,15 +428,15 @@ ht-degree: 61%
   >
   >该功能将在接下来的 30 天内逐步推广到所有环境。
 
-* Web渠道&#x200B;**中的**“重定向到URL”支持 — 可用日期： 2025年5月20日
+* **Web 渠道中支持“重定向到 URL”**- 发布日期：2025 年 5 月 20 日
 
   现在，您可通过 Journey Optimizer 的 Web 渠道将访客重定向到其他现有 URL，而无需在可视编辑器中创作新的变体。此功能适用于运行试验来比较两个完全不同的页面，而不是只更改页面中的几个元素。[了解详情](../web/create-web.md#web-redirect-to-url)
 
-* **模板和片段的文件夹** — 可用日期： 2025年5月20日
+* **模板和片段的文件夹** - 发布日期：2025 年 5 月 20 日
 
   通过文件夹，您可以更轻松、更高效地将对象组织为结构化层级。文件夹以前面向一部分组织提供 (LA)，现在面向所有用户提供 (GA)，以便管理其内容模板和片段。要了解更多信息，请参阅[内容模板](../content-management/access-content-templates.md#folders)和[片段](../content-management/manage-fragments.md#folders)部分。
 
-* **电子邮件模板中的点击跟踪** — 可用日期： 2025年5月20日
+* **电子邮件模板中的点击跟踪** - 发布日期：2025 年 5 月 20 日
 
   现在，[!DNL Journey Optimizer] 原生支持电子邮件内容中图像映射的 `<area>` 元素点击跟踪。这是为了确保图像映射区域接收与标准超链接相同的跟踪包、跟踪数据和附加参数。[了解有关消息跟踪的更多信息](../email/message-tracking.md#manage-tracking)
 
@@ -445,7 +445,7 @@ ht-degree: 61%
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **营销活动列表中的右边栏** — 发布日期：2025年5月20日
+* **营销活动列表中的右边栏** - 发布日期：2025 年 5 月 20 日
 
   现在，在营销活动列表中，选择营销活动会打开显示其详细信息的窗格。
 

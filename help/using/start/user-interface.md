@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 * **[!UICONTROL 历程]** - 创建、配置和编排客户历程：将事件、编排和操作活动相结合，构建多步骤跨渠道方案。[了解详情](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL 报告]** - Journey Optimizer报告功能与Customer Journey Analytics功能完全集成，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 Journey Optimizer与Customer Journey Analytics之间的这种无缝集成提供了对绩效指标的更清晰查看，使用户能够做出更明智的决策。 [了解详情](../reports/report-gs-cja.md)
+* **[!UICONTROL 报告]** - Journey Optimizer 的报告功能已与 Customer Journey Analytics 功能完全集成，在两个平台之间实现了报告标准化，并提高了数据一致性和可靠性。Journey Optimizer 与 Customer Journey Analytics 之间的这种无缝集成能够帮助更清晰地了解绩效指标，使用户能够做出更加明智的决策。[了解详情](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 决策管理] {#left-nav-decision}
@@ -149,7 +149,7 @@ ht-degree: 87%
 
 ![](assets/use-cases-home.png)
 
-+++ **可用用例**
++++ **可用的用例**
 
 可用用例包括：
 
@@ -184,7 +184,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 要访问 AI 助手，请单击顶部栏上的图标。AI 助手显示在屏幕右侧。
 
-在此页面[&#128279;](ai-assistant.md)上了解如何访问和使用AI助手。
+[在此页面上](ai-assistant.md)了解如何访问和使用 AI 助手。
 
 ## 语言首选项 {#language-pref}
 
@@ -201,9 +201,9 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 * 繁体中文
 * 简体中文
 
-您的默认界面语言由您的用户档案中指定的首选语言决定。
+您的默认界面语言由您的用户轮廓中指定的首选语言决定。
 
-+++ **如何更改您的语言**
++++ **如何更改语言**
 
 要更改您的语言，请执行以下步骤：
 
@@ -217,7 +217,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 ## 了解详情 {#more}
 
-刚开始使用 [!DNL Journey Optimizer]? 有具体问题的经验丰富的用户？公司实例的管理员？[采取自己的路径，更快地实现目标](quick-start.md)！
+刚开始使用 [!DNL Journey Optimizer]? 有具体问题的经验丰富的用户？公司实例的管理员？[选择适合自己的方法，更快地实现目标](quick-start.md)！
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -232,7 +232,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
->title="活动编排"
+>title="营销活动编排"
 >abstract="拆分、组合、扩充和处理关系数据集以定义受众"
 
 
@@ -240,7 +240,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="利用多实体数据"
->abstract="了解协调的活动如何利用关系数据集来扩充数据，以进行分段和个性化"
+>abstract="了解精心策划的活动如何利用关系数据集来扩充数据，以进行分段和个性化"
 
 
 
@@ -253,7 +253,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
->title="可用渠道"
+>title="可用的渠道"
 >abstract="电子邮件、短信、推送通知、直邮"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
@@ -261,13 +261,13 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
->title="创建和发送营销活动的引导式UI"
->abstract="通过渠道设置一个或多个操作、选择受众、设置内容、定义计划并准备发送"
+>title="用于创建和发送营销活动的引导式 UI"
+>abstract="通过渠道设置一个或多个操作，然后选择受众、设置内容并定义计划，然后便可以发送"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_2"
->title="可用渠道"
+>title="可用的渠道"
 >abstract="电子邮件、短信、推送通知、应用程序内、Web、基于代码的体验"
 
 
@@ -291,7 +291,7 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
->title="可用渠道"
+>title="可用的渠道"
 >abstract="电子邮件、短信、推送通知"
 
 <!--APPROVAL POLICIES-->

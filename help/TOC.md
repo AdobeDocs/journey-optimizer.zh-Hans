@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 95%
       + [结束您的历程](using/building-journeys/end-journey.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [对历程进行故障排除](using/building-journeys/troubleshooting.md)
-      + [历程中的入站操作疑难解答](using/building-journeys/troubleshooting-inbound.md)
+      + [历程中的入站操作故障排除](using/building-journeys/troubleshooting-inbound.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
    + 活动 {#about-journey-building}
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
@@ -179,19 +179,19 @@ ht-degree: 95%
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
    + [配置步骤](using/orchestrated/configuration-steps.md)
-   + [访问和管理编排的活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + 启动您的第一个编排的营销活动{#launch}
+   + [访问和管理精心策划的营销活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
+   + 启动第一个精心策划的营销活动{#launch}
       + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
-      + [创建和计划活动](using/orchestrated/create-orchestrated-campaign.md)
+      + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
       + [策划活动](using/orchestrated/orchestrate-activities.md)
-      + [通过编排的活动发送消息](using/orchestrated/send-messages.md)
-      + [启动和监控活动](using/orchestrated/start-monitor-campaigns.md)
+      + [通过精心策划的营销活动发送消息](using/orchestrated/send-messages.md)
+      + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
       + [报告](using/orchestrated/reporting-campaigns.md)
-   + 查询数据库  {#query-database}
+   + 查询数据库 {#query-database}
       + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
-      + [生成您的第一条规则](using/orchestrated/build-query.md)
+      + [生成您的第一个规则](using/orchestrated/build-query.md)
       + [编辑表达式](using/orchestrated/edit-expressions.md)
-   + 编排的营销活动活动 {#design-campaigns}
+   + 精心策划的营销活动 {#design-campaigns}
       + [活动快速入门](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
       + [构建受众](using/orchestrated/activities/build-audience.md)
@@ -211,14 +211,14 @@ ht-degree: 95%
    + [查看和激活营销活动](using/campaigns/review-activate-campaign.md)
    + [管理活动](using/campaigns/modify-stop-campaign.md)
    + [使用 API 触发营销活动](using/campaigns/api-triggered-campaigns.md)
-+ 冲突管理和优先级 {#conflict-prioritization}
++ 冲突管理和优先级排序 {#conflict-prioritization}
    + [冲突管理和优先级入门](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [识别潜在冲突](using/conflict-prioritization/conflicts.md)
-   + [分配优先级得分](using/conflict-prioritization/priority-scores.md)
+   + [分配优先级分数](using/conflict-prioritization/priority-scores.md)
 设置消息和历程上限规则 {#capping-rules}
       + [使用规则集](using/conflict-prioritization/rule-sets.md)
       + [历程上限和仲裁](using/conflict-prioritization/journey-capping.md)
-      + [通过信道和通信类型实现频率封顶](using/conflict-prioritization/channel-capping.md)
+      + [根据渠道和通信类型设置频率上限](using/conflict-prioritization/channel-capping.md)
 + 测试和审批 {#test}
    + 预览和测试内容 {#preview-test}
       + [预览和测试入门](using/content-management/preview-test.md)
@@ -454,7 +454,7 @@ ht-degree: 95%
    + [身份标识](using/audience/get-started-identity.md)
    + [许可证使用](using/audience/license-usage.md)
 + 报告 {#reporting}
-   + [使用入门](using/reports/gs-reports.md)
+   + [报告快速入门](using/reports/gs-reports.md)
    + 实时报告 {#live-report}
       + [实时报告快速入门](using/reports/live-report.md)
       + [指标列表](using/reports/live-report-components.md)
@@ -711,7 +711,7 @@ ht-degree: 95%
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
-   + [渠道配置入门](using/configuration/get-started-configuration.md)
+   + [渠道配置快速入门](using/configuration/get-started-configuration.md)
    + [设置渠道配置](using/configuration/channel-surfaces.md)
    + 引导式渠道设置 {#guided-setup}
       + [引导式渠道设置快速入门](using/configuration/set-mobile-config.md)
@@ -738,7 +738,7 @@ ht-degree: 95%
    + [更改执行地址](using/configuration/primary-email-addresses.md)
    + [配置业务规则](using/configuration/frequency-rules.md)
 + 历程配置 {#configure-journeys}
-   + [历程配置入门](using/configuration/about-data-sources-events-actions.md)
+   + [历程配置快速入门](using/configuration/about-data-sources-events-actions.md)
    + 事件配置 {#events-journeys}
       + [使用历程事件](using/event/about-events.md)
       + [配置单一事件](using/event/about-creating.md)
@@ -764,21 +764,21 @@ ht-degree: 95%
       + [API 上限](using/configuration/capping.md)
       + [API 限制](using/configuration/throttling.md)
    + 使用 Adobe 解决方案发送 {#adobe-solutions}
-      + [历程中的Campaign Standard操作](using/action/acs-action.md)
-      + [历程中的Campaign v7/v8操作](using/action/acc-action.md)
-      + [历程中的Marketo Engage操作](using/action/marketo-engage.md)
+      + [历程中的 Campaign Standard 操作](using/action/acs-action.md)
+      + [历程中的 Campaign v7/v8 操作](using/action/acc-action.md)
+      + [历程中的 Marketo Engage 操作](using/action/marketo-engage.md)
    + 沙盒管理 {#sandbox}
       + [使用和分配沙盒](using/administration/sandboxes.md)
       + [将对象导出到另一个沙盒](using/configuration/copy-objects-to-sandbox.md)
    + [配置源连接器](using/start/get-started-sources.md)
 + 访问控制 {#access-control}
-   + [访问控制入门](using/administration/permissions-overview.md)
+   + [访问控制快速入门](using/administration/permissions-overview.md)
    + [管理用户和角色](using/administration/permissions.md)
    + [内置角色](using/administration/ootb-product-profiles.md)
    + [内置权限](using/administration/ootb-permissions.md)
    + [权限级别](using/administration/high-low-permissions.md)
    + [基于属性的访问控制](using/administration/attribute-based-access.md)
-   + [对象级访问控制](using/administration/object-based-access.md)
+   + [对象级别的访问控制](using/administration/object-based-access.md)
 + 隐私 {#privacy}
    + [隐私入门](using/privacy/get-started-privacy.md)
    + [隐私请求](using/privacy/requests.md)
