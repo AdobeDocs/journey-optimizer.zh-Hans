@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 8%
 
 ---
@@ -199,6 +199,12 @@ body {
 
 电子邮件Designer的&#x200B;**[!UICONTROL 设置]**&#x200B;窗格未解释或验证自定义CSS。 它是完全独立的，只能通过&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;选项进行修改。
 
+如果`global-custom`样式标记的属性`data-disabled`设置为`true`，则不会应用自定义CSS。 例如：
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### 导入的内容
 
 如果要对导入到Email Designer中的内容使用自定义CSS，请考虑以下事项：
@@ -216,7 +222,7 @@ body {
 
 * 确保CSS有效并且没有语法错误（例如缺少大括号、属性名称不正确）。 [了解如何操作](#use-valid-css)
 
-* 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中。 [了解详情](#implementation)
+* 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中，并且`data-disabled`未应用于`global-custom`。 [了解详情](#implementation)
 
 * 确保您的CSS不会被其他CSS规则覆盖，包括应用于内容的任何[主题](apply-email-themes.md)。
 
@@ -229,16 +235,3 @@ body {
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
