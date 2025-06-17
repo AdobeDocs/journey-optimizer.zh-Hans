@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 825e0b3112bc7e5dd7551873151c65bd1cc99f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 66%
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 冲突和优先顺序]
+>[!TAB 冲突和优先级排序]
 
-Journey Optimizer现在提供了多种用于冲突管理和优先排序的工具。 这些工具可用于营销活动和受众资格、读取受众和单一历程。
+Journey Optimizer 现在提供多种冲突管理和优先级排序工具。这些工具可用于营销活动和受众资格筛选、读取受众和单一历程。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Adobe Express]
 
-Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻松访问Adobe Express强大的编辑工具。 通过这种集成，您可以调整图像大小、删除背景、裁剪可视化图表并将资源转换为JPEG或PNG，而无需在解决方案之间切换。
+借助 Adobe Journey Optimizer 中的 Adobe Express 集成，您可以在创建内容时轻松访问 Adobe Express 的功能强大的编辑工具。通过这种集成，您可以调整图像大小、移除背景、裁剪视觉元素并将资源转换为 JPEG 或 PNG，而无需在解决方案之间切换。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
@@ -43,11 +43,11 @@ Adobe Journey Optimizer中的Adobe Express集成允许您在创建内容时轻�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hans/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
->[!TAB AEM内容片段]
+>[!TAB AEM 内容片段]
 
-通过将Adobe Experience Manager as a Cloud Service与Adobe Journey Optimizer集成，您现在可以将AEM内容片段无缝地合并到Journey Optimizer内容中。 这种简化的连接简化了访问和利用AEM内容的流程，从而能够创建个性化的动态营销活动和历程。
+通过将 Adobe Experience Manager as a Cloud Service 与 Adobe Journey Optimizer 集成，您现在可以将 AEM 内容片段无缝纳入到 Journey Optimizer 内容中。这种简单的连接方式可简化访问和利用 AEM 内容的流程，从而能够创建个性化的动态营销活动和历程。
 
 [![了解详情](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
