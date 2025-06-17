@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 17%
+source-wordcount: '295'
+ht-degree: 16%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 17%
 
 | 护栏 | 限制 |
 | ------- | ------- |
-| 每秒决策API请求数 | 500 |
-| 使用Edge分段技术的每秒Edge Decisioning API请求数 | 1,500 |
-| Edge Decisioning API请求数/秒，不使用Edge分段 | 5,000 |
+| 每秒决策API请求数 | 每个组织500个 |
+| 使用Edge分段技术的每秒Edge Decisioning API请求数 | 每个组织1,500个 |
+| Edge Decisioning API请求数/秒，不使用Edge分段 | 每个组织5,000 |
 | 每个响应返回的优惠 | 每个决策范围最多30个，或总共100个 |
 | 每个请求涉及的选件规则的最大数量 | 100 |
 
