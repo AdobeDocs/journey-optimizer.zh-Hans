@@ -48,7 +48,7 @@ ht-degree: 7%
    >
    >**[!UICONTROL 添加自定义CSS]**&#x200B;按钮仅在选择&#x200B;**[!UICONTROL 正文]**&#x200B;时可用。 但是，您可以将自定义CSS样式应用于内容中的所有组件。
    >
-   >使用包含锁定内容](../content-management/content-locking.md#use)的[模板时，无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+   >使用包含锁定内容[&#128279;](../content-management/content-locking.md#use)的模板时，无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 1. 保存自定义CSS并检查自定义CSS是否正确应用于您的内容。 如果不是这种情况，请查看[疑难解答](#troubleshooting)部分。
 
