@@ -32,13 +32,13 @@ ht-degree: 2%
 
 1. 在Adobe Journey Optimizer中使用&#x200B;**[!UICONTROL 架构字段]**。
 
-请注意，还可以使用基于属性的访问控制API访问&#x200B;**[!UICONTROL 角色]**、**[!UICONTROL 策略]**&#x200B;和&#x200B;**[!UICONTROL 产品]**。 有关详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}。
+请注意，还可以使用基于属性的访问控制API访问&#x200B;**[!UICONTROL 角色]**、**[!UICONTROL 策略]**&#x200B;和&#x200B;**[!UICONTROL 产品]**。 有关详细信息，请参阅此[文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=zh-Hans){target="_blank"}。
 
 ## 创建角色并分配标签 {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>在管理角色的权限之前，请先创建策略。 有关更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}。
+>&#x200B;>在管理角色的权限之前，请先创建策略。 有关更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hans){target="_blank"}。
 
 **[!UICONTROL 角色]**&#x200B;是组织内共享相同权限、标签和沙盒的一组用户。 属于&#x200B;**[!UICONTROL Role]**&#x200B;的每个用户都有资格使用产品中包含的Adobe应用程序和服务。 您还可以创建自己的&#x200B;**[!UICONTROL 角色]**，以微调用户对界面中特定功能或对象的访问权限。
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 请注意，您还可以将&#x200B;**[!UICONTROL 标签]**&#x200B;添加到&#x200B;**[!UICONTROL 架构]**、**[!UICONTROL 数据集]**&#x200B;和&#x200B;**[!UICONTROL 受众]**。
 
-1. 创建您的&#x200B;**[!UICONTROL 架构]**。 有关详细信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}。
+1. 创建您的&#x200B;**[!UICONTROL 架构]**。 有关详细信息，请参阅[本文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans){target="_blank"}。
 
    ![](assets/label_1.png)
 
@@ -102,11 +102,11 @@ ht-degree: 2%
 
    ![编辑字段的治理标签](assets/label_3.png)
 
-1. 选择相应的&#x200B;**[!UICONTROL 标签]**，在这种情况下，C2 — 数据无法导出到第三方。 有关可用标签的详细列表，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}。
+1. 选择相应的&#x200B;**[!UICONTROL 标签]**，在这种情况下，C2 — 数据无法导出到第三方。 有关可用标签的详细列表，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans#contract-labels){target="_blank"}。
 
    ![](assets/label_4.png)
 
-1. 如果需要，可进一步个性化您的架构，然后启用它。 有关如何启用架构的详细步骤，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}。
+1. 如果需要，可进一步个性化您的架构，然后启用它。 有关如何启用架构的详细步骤，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#profile){target="_blank"}。
 
 现在，您架构的字段将仅对具有C2标签的角色集所包含的用户可见和使用。 通过将&#x200B;**[!UICONTROL 标签]**&#x200B;应用于您的&#x200B;**[!UICONTROL 字段名称]**，**[!UICONTROL 标签]**&#x200B;将自动应用于每个创建的架构中的&#x200B;**国籍**&#x200B;字段。
 
