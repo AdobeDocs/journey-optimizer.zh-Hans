@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[&#128279;](create-lp.md#configure-primary-page)中了解如何更新到期日期。
 
    收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“感谢”页面，并将他们添加到订阅列表。
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[&#128279;](create-lp.md#configure-primary-page)中了解如何更新到期日期。
 
 1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
 

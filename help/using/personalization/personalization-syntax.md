@@ -69,7 +69,7 @@ ht-degree: 3%
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **受众**
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## 辅助程序{#helpers-all}
 

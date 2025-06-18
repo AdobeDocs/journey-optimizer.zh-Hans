@@ -86,7 +86,7 @@ ht-degree: 9%
 
    ![](assets/sms_byo_4.png)
 
-创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 

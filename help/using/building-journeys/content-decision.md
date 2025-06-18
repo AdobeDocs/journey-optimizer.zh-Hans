@@ -155,7 +155,7 @@ ht-degree: 1%
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-历程激活后[](publishing-the-journey.md)：
+历程激活后[&#128279;](publishing-the-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

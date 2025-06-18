@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # 编辑 Web 内容 {#edit-web-content}
 
-将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
+将Web体验[&#128279;](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。
 
 [在此视频中了解如何创作Web营销活动](#video)
 
