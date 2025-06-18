@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 | [反应](reaction-events.md) | 与实时历程中的行为相同，但是，如果反应在<strong>操作</strong>活动之后并且用户在该操作上暂停，则反应事件将被丢弃。 |
 | [等待](wait-activity.md) | 与实时历程中的行为相同 |
 | [条件](condition-activity.md) | 与实时历程中的行为相同 |
-| 内容决策 | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
+| [内容决策](content-decision.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [渠道操作](journeys-message.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [自定义操作](../action/action.md) | 在暂停历程后，系统会根据用户选择的内容暂停或丢弃用户档案 |
 | [更新配置文件](update-profiles.md)和[跳转](jump.md) | 与实时历程中的行为相同 |
@@ -162,7 +162,7 @@ ht-degree: 6%
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+   * **Event**活动在配置文件正在等待的操作之后时丢弃了事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端到端示例 {#journey-pause-sample}
