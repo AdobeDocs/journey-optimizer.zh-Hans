@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 3%
+source-wordcount: '983'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Journey Optimizer利用Identity Service来合并用户档案并个性化�
    * 完成此过程可能需要30分钟 — 4小时。
    * 通常，此登录事件将生成一个标识图，用于将CRMID与ECID链接在一起。
 
-1. 初次拼合后，使用两个身份之一发送的任何数据都将关联到合并的个人资料，并可用于在Journey Optimizer中实时个性化。 使用最新行为数据更新用户档案最多可能需要1分钟才能完成。 请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)。
+1. 初次拼合后，使用两个身份之一发送的任何数据都将关联到合并的个人资料，并可用于在Journey Optimizer中实时个性化。 使用最新行为数据更新用户档案最多可能需要1分钟才能完成。 请参见[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)。
 
 构建用例时，请考虑以下事项：
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer利用Identity Service来合并用户档案并个性化�
 
 您可以采用许多最佳实践，帮助您保持在护栏内并高效使用系统。
 
-* 如果您即将达到实时历程的限制，您可以采取的第一步是转到&#x200B;**历程**&#x200B;下的&#x200B;**概述**&#x200B;选项卡，以查看过去24小时内有多少具有活动用户档案的历程处于活动状态。 您可以在此部分中检查进入和退出历程的用户档案数，以确定这一点。
+* 如果您即将达到实时历程的限制，您可以采取的第一个步骤是转到&#x200B;**历程**&#x200B;下的&#x200B;**概述**&#x200B;选项卡，以查看过去24小时内有多少具有活动用户档案的历程处于活动状态。 您可以在此部分中检查进入和退出历程的用户档案数，以确定这一点。
 
   ![](assets/journey-guardrails2.png)
 

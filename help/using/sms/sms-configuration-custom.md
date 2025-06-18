@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1032'
 ht-degree: 9%
 
 ---
 
-# 配置自定义 SMS 提供商 {#sms-configuration-custom}
+# 配置自定义提供商 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 9%
 >title="提供程序负载"
 >abstract="提供请求负载以确保发送正确的数据以供处理和生成响应。"
 
-此功能使您能够集成和配置自己的短信提供商，从而除了默认提供商（Sinch、Twilio和Infobip）之外，还提供了灵活性。 这实现了短信的无缝创作、交付、报告和同意管理。
+此功能使您能够集成和配置自己的报文传送提供商，在默认选项（Sinch、Twilio和Infobip）之外提供灵活性。 这支持对SMS和RCS消息进行无缝创作、交付、报告和同意管理。
 
-利用短信的自定义提供商配置，您可以直接在Journey Optimizer中配置自定义短信提供商，对动态消息传递使用高级有效负荷自定义，并管理同意首选项（选择加入/选择退出）以确保合规性。
+通过自定义提供商配置，您可以直接在Journey Optimizer中连接第三方消息服务，自定义动态内容的消息负载，以及管理选择加入/选择退出偏好设置以确保短信和RCS渠道之间的合规性。
 
-要配置自定义短信提供商，请执行以下步骤：
+要配置自定义提供商，请执行以下步骤：
 
 1. [创建API凭据](#api-credential)
 1. [创建Webhook](#webhook)
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 ## 创建API凭据 {#api-credential}
 
-要在Journey Optimizer中使用Adobe无法立即提供的自定义提供商（例如Sinch、Infobip、Twilio）发送消息，请执行以下步骤：
+要在Journey Optimizer中使用Adobe提供的现成可用的自定义提供商（例如Sinch、Infobip、Twilio）发送SMS和RCS消息，请执行以下步骤：
 
 1. 在左边栏中，导航到&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 渠道]**，选择&#x200B;**[!UICONTROL SMS设置]**&#x200B;下的&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建新API凭据]**&#x200B;按钮。
 
@@ -74,6 +74,8 @@ ht-degree: 9%
 
 1. 添加您的&#x200B;**[!UICONTROL 提供程序负载]**&#x200B;以验证和自定义您的请求负载。
 
+   对于RCS消息，此有效负载稍后将在[内容设计](create-sms.md#sms-content)期间使用。
+
 1. 完成API凭据配置后，单击&#x200B;**[!UICONTROL 提交]**。
 
 1. 在&#x200B;**[!UICONTROL API凭据]**&#x200B;菜单中，单击![bin图标](assets/do-not-localize/Smock_Delete_18_N.svg)以删除您的API凭据。
@@ -84,7 +86,7 @@ ht-degree: 9%
 
    ![](assets/sms_byo_4.png)
 
-创建和配置API凭据后，现在需要为Webhook[&#128279;](#webhook)设置入站设置，以发送短信消息。
+创建和配置API凭据后，现在需要为Webhook](#webhook)设置[入站设置，以发送短信消息。
 
 ### 自定义 SMS 提供商的身份验证选项 {#auth-options}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -340,12 +340,3 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 >abstract="投放决定了决策引擎返回的项目在消息中出现的位置。您可以在报告中跟踪其在不同展示投放的性能。"
 
 
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="ajo_journey_decision_policy"
->title="定义决策策略"
->abstract="决策策略允许您从决策引擎中挑选最佳项目，并将其推送给合适的受众。"

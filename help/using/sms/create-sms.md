@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 9%
+source-wordcount: '1069'
+ht-degree: 3%
 
 ---
 
-# 创建短信 (SMS/MMS) {#create-sms}
+# 创建SMS/MMS/RCS消息 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="创建文本消息"
->abstract="要创建文本消息 (SMS/MMS)，请在历程或营销活动中添加短信操作，然后开始用个性化编辑器使其个性化。"
+>abstract="要创建短信(SMS/MMS/RCS)，请在历程或营销策划中添加短信操作，然后开始使用个性化编辑器对其进行个性化。"
 
-您可以使用Adobe Journey Optimizer设计和发送文本(SMS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
+您可以使用Adobe Journey Optimizer设计和发送文本(SMS)、富通信(RCS)和多媒体(MMS)消息。 您首先需要在历程或营销策划中添加短信操作，然后定义文本消息的内容，如下所述。 Adobe Journey Optimizer还提供了在发送之前测试文本消息的功能，以便您检查渲染、个性化属性和所有其他设置。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 ## 添加短信 {#create-sms-journey-campaign}
 
-浏览以下选项卡，了解如何在营销活动或历程中添加短信(SMS/MMS)。
+浏览以下选项卡，了解如何在营销活动或历程中添加短信(SMS/MMS/RCS)。
 
 >[!BEGINTABS]
 
@@ -90,18 +90,20 @@ ht-degree: 9%
 
 >[!ENDTABS]
 
-## 定义短信内容{#sms-content}
+## 定义短信/RCS内容{#sms-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="定义短信内容"
->abstract="通过使用个性化编辑器定义内容并纳入动态元素而自定义短信 (SMS/MMS) 并使其个性化。"
+>abstract="使用个性化编辑器定义内容并合并动态元素，自定义文本消息(SMS/MMS/RCS)并使其个性化。"
 
-要配置短信内容，请执行以下步骤。 有关MMS的设置详情，请参阅[此部分](#mms-content)。
+要配置消息内容，请执行以下步骤。 有关MMS的设置详情，请参阅[此部分](#mms-content)。
 
 1. 在历程或营销策划配置屏幕中，单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮以配置文本消息内容。
 
 1. 单击&#x200B;**[!UICONTROL 消息]**&#x200B;字段以打开个性化编辑器。
+
+   对于与Infobip、Twilio或其他第三方提供商的RCS消息传递，请将所需的JSON有效负载粘贴到[自定义SMS配置](sms-configuration-custom.md#api-credential)中。
 
    ![](assets/sms-content.png)
 

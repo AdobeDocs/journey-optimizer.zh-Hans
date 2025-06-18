@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1796'
 ht-degree: 11%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 11%
 >id="ajo_code_based_decision"
 >title="决策是什么？"
 >abstract="决策策略包含决策引擎挑选最佳内容的所有选择逻辑。决策政策是针对特定活动的。他们的目标是为每个轮廓选择最佳的报价，而活动创作允许您指示如何呈现所选的决策项目，包括应在消息中包含哪些项目属性。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于决策"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="定义决策策略"
+>abstract="决策策略允许您从决策引擎中选择最佳项目并将其交付给合适的受众。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于决策"
 
 决策策略是优惠的容器，它们利用决策引擎根据受众选择要投放的最佳内容。
@@ -62,6 +68,10 @@ ht-degree: 11%
 1. 从[代码编辑器](../code-based/create-code-based.md#edit-code)中，选择&#x200B;**[!UICONTROL 决策策略]**，然后单击&#x200B;**[!UICONTROL 添加决策策略]**。
 
    ![](assets/decision-code-based-create.png)
+
+   在历程或营销活动版本屏幕中，您还可以直接添加决策策略，而无需打开个性化编辑器。 使用右边栏上的专用图标显示&#x200B;**[!UICONTROL 决策]**&#x200B;部分。
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. 默认情况下，创建新策略。
 

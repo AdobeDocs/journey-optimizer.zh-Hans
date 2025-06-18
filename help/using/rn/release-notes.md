@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 71%
+source-wordcount: '2050'
+ht-degree: 75%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 71%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 
-## 2025年6月早期发行说明 {#25-6-rn}
+## 2025年6月发行说明 {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**以下早期发行说明可能会在正式发行日期之前有所更改，恕不另行通知。**&#x200B;链接、屏幕和更新文档在发布日期发布。
+**发行日期**： 2025年6月18日
 
-**发行日期**：2025 年 6 月 17-18 日
-
-另请参阅[Adobe Experience Platform预发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
@@ -70,26 +70,29 @@ ht-degree: 71%
 <tr>
 <td>
 <p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。<br />此外，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>有关更多信息，请参阅<a href="../code-based/code-based-form-fields.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>子域的自定义委派方法</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>除了完全委派和CNAME方法之外，现在还提供新的子域配置方法：自定义委派方法，它使您能够完全拥有控制和维护投放、渲染和跟踪消息所需的DNS的所有方面。</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ ht-degree: 71%
 <tr>
 <td>
 <p>您现在可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ ht-degree: 71%
 <tr>
 <td>
 <p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-dry-run.md">详细文档</a>。</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ ht-degree: 71%
 <p>您现在可以暂停并继续您的历程。 此功能允许在不中断客户体验的情况下临时暂停实时历程，从而为历程参与者提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且用户档案将保持暂停状态，直到历程恢复。</p>
 <p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
 <p>此外，您可以将全局过滤器应用于暂停的历程，以根据用户档案的属性排除用户档案。</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/journey-pause.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ ht-degree: 71%
 
 此版本包含的改进如下所述。
 
-* **渠道规则集**
+<!--* **Channel rule sets**
 
-   * **自定义持续时间窗口**&#x200B;上限 — 渠道规则集配置屏幕中现在提供了新的&#x200B;**重复计数**&#x200B;字段，允许您根据指定的持续时间跨几天、几周或几个月应用频率上限规则。
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **每小时持续时间** — 您现在可以每小时为渠道规则集应用上限。
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **基于代码的体验**
 
-   * 现在，可在基于代码的体验内容模板中添加决策策略。
+   * 现在，可在基于代码的体验内容模板中添加决策策略，在该模板中，可将其用于在可编辑表单字段中利用优惠。 [了解详情](../code-based/code-based-form-fields.md)
 
-   * 从基于代码的体验历程或营销活动版本屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。
+   * 从基于代码的体验历程或营销活动版本屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。 [了解详情](../code-based/create-code-based.md#edit-code)
 
 * 电子邮件Designer中的&#x200B;**自定义CSS支持**
 
-  Journey Optimizer现在允许您直接在Email Designer中将自定义CSS添加到电子邮件内容。
+  Journey Optimizer现在允许您直接在Email Designer中将自定义CSS添加到电子邮件内容。 [了解详情](../email/custom-css.md)
 
 * **新的营销活动选项卡式导航**
 
-  新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。
+  新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。 [了解详情](../campaigns/create-campaign.md)
 
 * **决策** - 发布日期：2025 年 6 月 3 日
 

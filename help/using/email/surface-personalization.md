@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 设置，电子邮件，配置，子域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 6%
@@ -60,7 +60,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >由于挂起[反馈循环](../reports/deliverability.md#feedback-loops)注册，某些子域当前不可选择。 此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。<!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >由于挂起[反馈循环](../reports/deliverability.md#feedback-loops)注册，某些子域当前不可选择。 此过程可能需要长达 10 个工作日。完成后，您可以从所有可用的子域中进行选择。<!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 

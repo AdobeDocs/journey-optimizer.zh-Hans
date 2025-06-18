@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 电子邮件、设计、库存、资源
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 您可以在 [!DNL Journey Optimizer] 中导入现有内容或利用内容设计功能：
 
-* 使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
+* 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
 * 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
 ## 电子邮件设计最佳实践 {#best-practices}
 
-在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。当用于转发的电子邮件提供商无法支持所使用的 CSS 类时尤为如此，例如，如果您使用“is-desktop-hidden”CSS 类来隐藏移动设备上的图像。
+在发送电子邮件时，请务必考虑到收件人可能会转发它们，而这有时会导致电子邮件的呈现出现问题。当使用电子邮件提供商可能不支持用于转发的CSS类时，尤其是当使用“is-desktop-hidden”CSS类隐藏移动设备上的图像时，更是如此。
 
 为了最大限度地减少这些呈现问题，我们建议尽可能简化电子邮件设计结构。请尝试使用适用于桌面和移动设备的单个设计，并避免使用复杂的 CSS 类或其他设计元素，可能并非所有电子邮件客户端都完全支持这些元素。遵循这些最佳实践有助于您确保电子邮件均能始终如一地正确呈现，无论收件人如何查看或转发电子邮件。
 
@@ -74,8 +74,8 @@ ht-degree: 95%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

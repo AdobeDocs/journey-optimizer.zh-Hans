@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 短信、子域、配置
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '881'
 ht-degree: 20%
 
 ---
@@ -61,6 +61,10 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 1. 输入将在短信URL中显示的前缀。
 
    只允许使用字母数字字符和连字符。
+
+   >[!CAUTION]
+   >
+   >请勿使用`cdn`或`data`前缀，因为这些前缀保留供内部使用。 其他受限或保留的前缀（如`dmarc`或`spf`）也应避免。
 
 1. 从列表中选择已委派的子域。
 
@@ -131,34 +135,17 @@ SMS子域配置在所有环境&#x200B;**之间共享**。 因此，对短信子�
 
 ## 取消委派子域 {#undelegate-subdomain}
 
-如果要取消委派短信子域，请联系您的Adobe代表。
+如果要取消委派短信子域，请联系Adobe代表，告知您要取消委派的子域。
 
-但是，在与Adobe联系之前，您需要在用户界面中执行多个步骤。
+<!--
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+
+如果SMS子域指向CNAME记录，则可以从托管解决方案中删除您为SMS子域创建的CNAME DNS记录（但不会删除原始电子邮件子域，如有）。
 
 >[!NOTE]
 >
->您只能取消委派状态为&#x200B;**[!UICONTROL 成功]**&#x200B;的子域。 可以从用户界面中删除具有&#x200B;**[!UICONTROL 草稿]**&#x200B;和&#x200B;**[!UICONTROL 失败]**&#x200B;状态的子域。
-
-首先，在[!DNL Journey Optimizer]中执行以下步骤：
-
-1. 取消激活与子域关联的所有渠道配置。 [了解如何操作](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-
-1. 停止与子域关联的活动营销活动。 [了解如何操作](../campaigns/modify-stop-campaign.md#stop)
-
-1. 停止与子域关联的活动历程。 [了解如何操作](../building-journeys/end-journey.md#stop-journey)
-
-1. 如果SMS子域是[新委派的子域](#sms-configure-new-subdomain)，请删除与该子域关联的DNS条目。
-
-完成后，联系Adobe代表，告知您要取消委派的子域。
+>SMS子域可以指向CNAME记录，因为它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-delegation)委派给Adobe的[现有子域](#sms-use-existing-subdomain)，或者是您配置的[新SMS子域](#sms-configure-new-subdomain)。
 
 Adobe处理您的请求后，未委派域不再显示在子域清单页面上。
-
->[!CAUTION]
->
->取消委派子域后：
->
->   * 您无法重新激活使用该子域的渠道配置。
->   * 您不能通过用户界面再次委派确切的子域。 如果您希望这样做，请联系您的Adobe代表。

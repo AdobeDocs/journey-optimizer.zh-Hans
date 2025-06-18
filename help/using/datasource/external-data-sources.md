@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 38%
+source-wordcount: '1677'
+ht-degree: 33%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部数据源"
->abstract="外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。"
+>abstract="外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。 与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。"
 
 ## 使用外部数据源 {#gs-ext-data-sources}
 
-外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
+外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。 与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 38%
 
    >[!CAUTION]
    >
-   >出于安全原因，我们强烈建议使用 HTTPS。另请注意，我们不允许使用非公开的 Adobe 地址和 IP 地址。
+   >出于安全原因，我们强烈建议使用 HTTPS。另请注意，我们不允许使用非公开的Adobe地址和IP地址。
 
    ![](assets/journey27.png)
 

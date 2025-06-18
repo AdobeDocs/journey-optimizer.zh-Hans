@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登录、登陆页面、用例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 12%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[&#128279;](create-lp.md#configure-primary-page)中了解如何更新到期日期。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
    收到电子邮件后，如果您的收件人单击登陆页面的链接，他们将被定向到“感谢”页面，并将他们添加到订阅列表。
 
@@ -125,7 +125,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >确保在&#x200B;**[!UICONTROL 表单]**&#x200B;组件的主页面的&#x200B;**[!UICONTROL 行动号召]**&#x200B;部分中引用子页面。 [了解详情](design-lp.md)
+   >确保在&#x200B;**[!UICONTROL 表单]**&#x200B;组件的主页面的&#x200B;**[!UICONTROL Call to action]**&#x200B;部分中引用子页面。 [了解详情](design-lp.md)
 
 1. 配置和定义页面的内容后，[发布](create-lp.md#publish)登陆页面。
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节[&#128279;](create-lp.md#configure-primary-page)中了解如何更新到期日期。
+   >要能够发送消息，请确保您选择的登陆页面尚未过期。 在本节](create-lp.md#configure-primary-page)中了解如何更新到期日期[。
 
 1. 发布并运行历程。 [了解详情](../building-journeys/journey.md)。
 
@@ -153,7 +153,7 @@ ht-degree: 12%
 
    * 配置文件数据已更新，除非再次订阅，否则将不会收到您品牌的通信。
 
-要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。请参阅[Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}以了解详情。
+要检查相应轮廓的选择是否已更新，请转到 Experience Platform，并通过选择身份标识命名空间和相应的身份标识值访问该轮廓。在 [Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}中了解更多信息。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中对其进行优先排序。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hans#dataset-precedence-profile){target="_blank"}
+>如果您的默认[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"} **[!UICONTROL 配置文件]**&#x200B;合并策略的合并方法是&#x200B;**[!UICONTROL 数据集优先顺序]**，请确保启用&#x200B;**[!UICONTROL AJO同意服务数据集]**&#x200B;并在合并策略中排列其优先级。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未将任何批次添加到此数据集，它仍将包含选择启用/选择禁用信息。
 

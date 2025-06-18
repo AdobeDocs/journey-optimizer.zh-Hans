@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通信渠道。
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 提供多种原生渠道来有效地吸引受众。您�
 消息投放的出站渠道是指在不进行事先交互的情况下向客户发送消息。示例包括电子邮件营销活动和推送通知，您可以在此类活动中主动联系受众。在 [!DNL Adobe Journey Optimizer] 中，支持的出站渠道包括：
 
 * **电子邮件**：将个性化邮件直接发送到客户的收件箱。
-* **短信/彩信**：发送短信以通过移动设备联系用户。
+* **SMS/MMS/RCS**：发送短信以联系其移动设备上的用户。
 * **推送通知**：用户将在设备上收到即时通知，有利于触发即时行动。
 * **直邮**：利用实质邮件，以创建与受众的实质连接。
 

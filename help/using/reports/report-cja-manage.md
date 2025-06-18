@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 此功能强大的选项可将您无缝重定向到您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;环境，使您能够对报告进行广泛个性化。 您可以使用专门的Customer Journey Analytics量度扩充构件，将您的洞察提升到新的水平。
 
-[了解有关Customer Journey Analytics界面的详细信息。](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[了解有关Customer Journey Analytics界面的详细信息。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## 定义报告周期 {#report-period}
 
@@ -137,7 +137,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您拥有Customer Journey Analytics，则可以使用其他选项进一步个性化您的量度。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >如果您拥有Customer Journey Analytics，则可以使用其他选项进一步个性化您的量度。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. 选择适当的&#x200B;**[!UICONTROL 小数位]**，并根据您希望量度的显示方式选择&#x200B;**[!UICONTROL 格式]**（小数、时间、百分比或货币）。
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
 1. 如果需要，可以重新排列组件。
 
-1. 对设置感到满意后，单击&#x200B;**[!UICONTROL 应用]**&#x200B;以完成新量度。
+1. 如果对设置感到满意，请单击&#x200B;**[!UICONTROL 应用]**&#x200B;以完成新量度。
 
 1. 您的新指标将显示在报表中的原始指标旁边。
 
@@ -157,7 +157,7 @@ ht-degree: 2%
 
 ## 使用探索性分析探索数据 {#exploratory}
 
-使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL 维度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;轻松创建表格和可视化图表。 此工具简化了数据探索，允许您轻松自动自定义和分析信息。 请参阅[此文档](https://experienceleague.adobe.com/zh-hans/docs/analytics/analyze/analysis-workspace/panels/quickinsight)以了解详情。
+使用探索性分析工具，根据您选择的&#x200B;**[!UICONTROL 维度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;轻松创建表格和可视化图表。 此工具简化了数据探索，允许您轻松自动自定义和分析信息。 请参阅[此文档](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)以了解详情。
 
 1. 首先，访问您要使用探索性分析的报表。
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >每个组织仅限发布25个受众。 此外，用户每小时最多可发布5个受众，每天最多可发布20个受众。
-> 一次性受众的生命周期为48小时。 因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
+>> 一次性受众的生命周期为48小时。 因此，如果在该时间范围内发布了25个受众，则仅在48小时后才能发布其他受众。
 
 现在，您可以选择表中的特定数据并直接从这些选择创建受众，从而简化和简化受众创建过程。
 
@@ -207,7 +207,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    >[!NOTE]
    >
-   >如果您拥有Customer Journey Analytics，则可以使用其他选项进一步个性化您的量度。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/audiences/publish)
+   >如果您拥有Customer Journey Analytics，则可以使用其他选项进一步个性化您的量度。 [了解详情](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -221,7 +221,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >
 > **模板**&#x200B;功能分阶段逐步推出，全面正式发布计划于1月底之前推出，仅对拥有[!DNL Customer Journey Analytics]许可证的用户可用。
 
-您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。[了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+您现在可以选择利用“客户历程分析”模板来增强 Journey Optimizer 报告。[了解有关Customer Journey Analytics模板的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 访问报告时，您可以从&#x200B;**[!UICONTROL 选择模板]**&#x200B;下拉菜单中选择两种模板类型：
 
@@ -234,19 +234,19 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 要创建模板，请执行以下步骤：
 
-1. 在[!DNL Customer Journey Analytics]中，导航到&#x200B;**[!UICONTROL Workspace]**&#x200B;菜单并选择&#x200B;**[!UICONTROL Adobe模板]**。 [了解有关可用模板的更多信息](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. 在[!DNL Customer Journey Analytics]中，导航到&#x200B;**[!UICONTROL Workspace]**&#x200B;菜单并选择&#x200B;**[!UICONTROL Adobe模板]**。 [了解有关可用模板的更多信息](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. 浏览可用的预建模板并单击&#x200B;**[!UICONTROL 使用模板]**&#x200B;以选择一个。
 
    ![](assets/cja_template_1.png)
 
-1. 调整您的报告以满足您的需求。 请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+1. 调整您的报告以满足您的需求。 请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 1. 自定义模板完成后，访问&#x200B;**[!UICONTROL 项目]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 另存为模板]**。
 
    ![](assets/cja_template_2.png)
 
-1. 为您的模板提供必需的详细信息。 有关详细信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)。
+1. 为您的模板提供必需的详细信息。 有关详细信息，请参阅[Customer Journey Analytics文档](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)。
 
    >[!IMPORTANT]
    >

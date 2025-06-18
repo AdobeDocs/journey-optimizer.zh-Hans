@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '680'
 ht-degree: 16%
 
 ---
@@ -70,6 +70,12 @@ ht-degree: 16%
    * [定义短信内容](../sms/create-sms.md#sms-content)
    * [定义直邮内容](../direct-mail/create-direct-mail.md)
    * [定义应用程序内内容](../in-app/design-in-app.md)
+   * [定义Web内容](../web/create-web.md#edit-web-content)
+   * [定义基于代码的体验内容](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >您可以将决策策略添加到基于代码的体验内容模板。 [了解详情](../experience-decisioning/create-decision.md#add-decision)
 
 1. 您可以测试您的内容。 [了解如何操作](#test-template)
 

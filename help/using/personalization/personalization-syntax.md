@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式、编辑器、语法、个性化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 其中：
 
 * `profile`是一个命名空间。
-* `person.name`是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}。
+* `person.name`是由属性组成的令牌。 属性结构在Adobe Experience Platform XDM架构中定义。 [了解详情](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
 
 ## 语法一般规则 {#general-rules}
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 * **轮廓**
 
-  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中描述的配置文件架构中定义的所有属性。
+  此命名空间允许您引用[Adobe Experience Platform数据模型(XDM)文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中描述的配置文件架构中定义的所有属性。
 
   属性需要先在架构中定义，然后才能在[!DNL Journey Optimizer]个性化块中引用。
 
@@ -69,7 +69,7 @@ ht-degree: 3%
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-  +++
++++
 
 * **受众**
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  +++
++++
 
 ## 辅助程序{#helpers-all}
 

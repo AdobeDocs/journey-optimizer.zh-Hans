@@ -7,14 +7,16 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '408'
+ht-degree: 2%
 
 ---
 
 # 配置 Twilio 提供程序 {#sms-configuration-twilio}
+
+## 为SMS/MMS配置API凭据
 
 要使用Journey Optimizer配置Twilio，您需要创建用于Twilio的新API凭据：
 
@@ -39,3 +41,30 @@ ht-degree: 3%
 1. 要修改现有凭据，请找到所需的API凭据，然后单击&#x200B;**[!UICONTROL 编辑]**&#x200B;选项以进行必要更改。
 
 创建和配置API凭据后，现在需要为SMS和MMS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
+
+## 为RCS配置API凭据
+
+Adobe Journey Optimizer使用[自定义SMS提供程序](sms-configuration-custom.md)功能，通过Twilio支持RCS消息传递。 这允许通过经验证的业务配置文件来交付丰富的交互式消息，并整合了诸如轮播、按钮和多媒体内容之类的元素。
+
+要通过Twilio启用RCS消息传递，必须通过自定义SMS提供商配置新的API凭据。 现有Twilio SMS凭据不兼容，因为RCS需要不同的有效负载格式。
+
+1. **在Twilio中注册RCS消息**
+
+   首先在Twilio平台中完成RCS注册流程。 这包括设置您的企业配置文件并为您的帐户启用RCS功能。
+
+1. **创建SMS Webhook**
+
+   [配置可以接收传入RCS消息响应或传递更新的SMS Webhook](sms-configuration-custom.md#webhook)。 此webhook必须正确链接到您的Twilio设置以进行双向通信。
+
+1. **使用自定义作为SMS供应商创建API凭据**
+
+   在Journey Optimizer中，[使用“自定义”作为SMS供应商，专门为RCS定义新的API凭据](sms-configuration-custom.md#api-credential)。 使用适当的RCS端点身份验证方法、基本URL和标头。
+
+创建和配置API凭据后，现在需要为RCS消息创建渠道配置。 [了解详情](sms-configuration-surface.md)
+
+
+
+
+
+
+

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 要声明变量并在片段中使用它，请执行以下步骤：
 
-1. 打开表达式片段，然后在个性化编辑器中编辑其内容。 对于HTML的组件，请在片段中选择该组件，然后单击&#x200B;**显示源代码**&#x200B;按钮。
+1. 打开表达式片段，然后在个性化编辑器中编辑其内容。 对于HTML组件，选择片段中的组件并单击&#x200B;**显示源代码**&#x200B;按钮。
 
    ![](assets/fragment-html-edit.png)
 

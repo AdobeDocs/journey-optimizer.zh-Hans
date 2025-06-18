@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 35%
+source-wordcount: '371'
+ht-degree: 32%
 
 ---
 
-# 短信配置入门 {#sms-configuration}
+# 开始使用短信/彩信/RCS配置 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -37,7 +37,7 @@ ht-degree: 35%
 >title="选择短信供应商配置"
 >abstract="选择为您的短信供应商配置的 API 凭据。"
 
-在发送短信或彩信之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
+在发送短信、彩信或RCS之前，必须配置Adobe Journey Optimizer环境。 要执行此操作，请执行以下操作：
 
 1. 将提供程序设置与Journey Optimizer集成。
 具体步骤取决于您的短信提供商。 浏览以下链接以访问详细文档：
@@ -51,7 +51,7 @@ ht-degree: 35%
 
 ## 先决条件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立于Adobe Journey Optimizer提供短信服务。 支持短信和MMS的提供程序为： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。
+Adobe Journey Optimizer目前与第三方提供商集成，这些提供商独立于Adobe Journey Optimizer提供短信服务。 支持短信和MMS的提供程序为： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。 请注意，您可以使用[自定义提供程序配置](sms-configuration-custom.md)配置其他消息提供程序。
 
 在配置SMS渠道之前，您必须与这些提供商之一创建帐户以获取您的&#x200B;**API令牌**&#x200B;和&#x200B;**服务ID**，您需要配置这些Adobe Journey Optimizer与适用提供商之间的连接。
 

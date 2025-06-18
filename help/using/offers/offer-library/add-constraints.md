@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2717'
 ht-degree: 15%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 15%
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +104,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -192,7 +192,7 @@ ht-degree: 15%
   >
   >将展示次数用作上限事件仅适用于&#x200B;**入站渠道**。
 
-* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 
@@ -268,7 +268,7 @@ ht-degree: 15%
 * 如果存在匹配规则，则用户档案的频率上限计数器将递增。
 * 否则，将不会为配置文件创建计数器，并且频率上限规则不适用。 因此，即使超出上限阈值，配置文件仍将继续接收个性化优惠。
 
-例如，我们将贵组织的中心区域视为&#x200B;*NLD2*，而您正在发送来自欧洲（*IRL1*&#x200B;边缘区域）的决策请求。 在这种情况下，决策请求将递增用户档案的计数器，因为规则在（爱尔兰） *IRL1*&#x200B;区域可用。 但是，如果决策请求来自像日本这样的区域(*JPN3*)，该区域不是与（荷兰） *NLD2*&#x200B;中心区域绑定的边缘区域，则不会创建任何计数器，也不会实施频率上限规则。
+例如，我们将您组织的中心区域视为&#x200B;*NLD2*，并且您正在发送来自欧洲（*IRL1*&#x200B;边缘区域）的决策请求。 在这种情况下，决策请求将递增用户档案的计数器，因为规则在（爱尔兰） *IRL1*&#x200B;区域可用。 但是，如果决策请求来自像日本这样的区域(*JPN3*)，该区域不是与（荷兰） *NLD2*&#x200B;中心区域绑定的边缘区域，则不会创建任何计数器，也不会实施频率上限规则。
 
 >[!NOTE]
 >

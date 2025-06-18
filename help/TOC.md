@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 99%
+source-wordcount: '2448'
+ht-degree: 98%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 99%
       + [读取受众](using/building-journeys/read-audience.md)
       + [内置渠道操作](using/building-journeys/journeys-message.md)
       + [自定义操作](using/building-journeys/using-custom-actions.md)
+      + [内容决策](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard 操作](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7/v8 操作](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [跳转](using/building-journeys/jump.md)
@@ -288,19 +289,19 @@ ht-degree: 99%
          + [推送通知数据流](using/push/push-gs.md)
          + [配置推送通知渠道](using/push/push-configuration.md)
          + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
-   + 短信/彩信渠道{#sms}
+   + 短信/彩信/RCS渠道{#sms}
       + [文本消息快速入门](using/sms/get-started-sms.md)
-      + [创建短信 (SMS/MMS)](using/sms/create-sms.md)
+      + [创建短信/彩信/RCS消息](using/sms/create-sms.md)
       + [检查和发送文本消息](using/sms/send-sms.md)
       + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
-      + 配置短信/彩信渠道{#configure-sms}
-         + [短信配置入门](using/sms/sms-configuration.md)
+      + 配置短信/彩信/RCS渠道{#configure-sms}
+         + [开始使用短信/彩信/RCS配置](using/sms/sms-configuration.md)
          + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
          + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
          + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
          + [配置自定义提供商](using/sms/sms-configuration-custom.md)
-         + [创建短信配置](using/sms/sms-configuration-surface.md)
+         + [创建短信/彩信/RCS配置](using/sms/sms-configuration-surface.md)
    + 直邮 {#direct-mail}
       + [直邮入门](using/direct-mail/get-started-direct-mail.md)
       + [创建直邮](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ ht-degree: 99%
          + [创建基于代码的体验配置](using/code-based/code-based-configuration.md)
       + 创建基于代码的体验 {#create-code-based-experiences}
          + [构建和编写基于代码的体验](using/code-based/create-code-based.md)
+         + [在基于代码的体验中使用可编辑字段](using/code-based/code-based-form-fields.md)
          + [测试基于代码的体验](using/code-based/test-code-based.md)
          + [管理基于代码的体验](using/code-based/publish-code-based.md)
    + 内容卡{#content-card}

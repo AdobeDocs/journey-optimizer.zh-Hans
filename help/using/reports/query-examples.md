@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1500'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性的更多信息。
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性[的更多信息。
 
 ## 基本用例/常见查询 {#common-queries}
 

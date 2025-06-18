@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 50687bad19e4866ace1e3e94f3efcdad84e98c96
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ![](assets/catalogs-list.png)
 
-## 护栏和限制
+## 保护和限制
 
 为了确保最佳性能和一致性，Decisioning强制实施以下护栏和限制：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
   最多支持四个级别的嵌套。 最后一个级别不支持图像。
 
-## 访问和编辑目录的架构
+## 访问和编辑目录的架构 {#access-catalog-schema}
 
 要访问存储决策项目属性的目录架构，请执行以下步骤：
 

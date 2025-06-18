@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1069'
 ht-degree: 16%
 
 ---
 
 # 编辑 Web 内容 {#edit-web-content}
 
-将Web体验[&#128279;](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。
+将Web体验](create-web.md#create-web-experience)添加到历程或营销活动后，即可使用Web设计器编辑网站的内容。[
 
 [在此视频中了解如何创作Web营销活动](#video)
 
@@ -184,4 +184,4 @@ ht-degree: 16%
 
 以下视频说明如何在[!DNL Journey Optimizer]营销活动中使用Web设计器创作Web体验。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452645/?quality=12&learn=on&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
