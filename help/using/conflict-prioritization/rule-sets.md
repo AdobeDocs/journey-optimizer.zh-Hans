@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 22%
+source-wordcount: '944'
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 22%
 
 ### 什么是规则集？ {#what}
 
-规则集允许您&#x200B;**将多个规则分组到规则集**&#x200B;中，并将它们应用于您选择的历程和营销活动。 这提供了改进的粒度，以限制客户在特定时间范围内可以进入的历程次数和频率，或根据通信类型控制用户接收消息的频率。
+规则集允许您&#x200B;**将多个规则分组到规则集中**，并将它们应用于您选择的历程和营销活动。这使粒度得到了改进，以限制客户在特定时间范围内可以进入的历程数量和频率，或根据通信类型控制用户接收消息的频率。
 
 您可以创建两种类型的规则集：
 
@@ -87,7 +87,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->您最多可以创建3个渠道域的本地规则集和5个历程域的本地规则集。
+>您最多可以为渠道域和历程域创建10个活动的本地规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -109,7 +109,7 @@ ht-degree: 22%
    有关如何配置历程和渠道上限规则的详细信息，请参阅以下部分：
 
    * [历程上限](../conflict-prioritization/journey-capping.md)
-   * [通过信道和通信类型实现频率封顶](../conflict-prioritization/channel-capping.md)
+   * [根据渠道和通信类型设置频率上限](../conflict-prioritization/channel-capping.md)
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认创建规则。 您的消息已添加到规则集，状态为&#x200B;**[!UICONTROL 草稿]**。
 
@@ -164,4 +164,4 @@ ht-degree: 22%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

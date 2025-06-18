@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
+source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1043'
 ht-degree: 6%
 
 ---
 
-# 通过信道和通信类型实现频率封顶 {#rule-sets}
+# 根据渠道和通信类型设置频率上限 {#rule-sets}
 
 **渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->您最多可以创建3个渠道域的本地规则集和5个历程域的本地规则集。
+>您最多可以为渠道域和历程域创建10个活动的本地规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -152,4 +152,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
