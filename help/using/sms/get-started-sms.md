@@ -72,7 +72,7 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * 下面的视频可帮助您更好地了解 Adobe Journey Optimizer 为营销人员提供的移动功能。
 
@@ -81,4 +81,4 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
