@@ -3,9 +3,9 @@ title: 触发事件的历程中的补充标识符
 description: 了解如何在事件触发的历程中使用补充标识符。
 badge: label="限量发布版" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '928'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 此外，Journey Optimizer允许您利用补充标识符的属性（例如，预订编号、处方续订日期、产品类型）进行消息自定义，从而确保高度相关的通信。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-## 保护和限制
+## 保护和限制 {#guardrails}
 
 * **并发实例限制**：配置文件不能包含超过10个并发历程实例。
 
@@ -61,7 +61,14 @@ ht-degree: 8%
 
 * **数据类型和架构结构**：补充标识符的类型必须为`string`。 它可以是独立的字符串属性，也可以是对象数组中的字符串属性。 独立的字符串属性将生成单个历程实例，而对象数组中的字符串属性将生成每个对象数组的迭代的唯一历程实例。 不支持字符串数组和映射。
 
-## 添加补充标识符并在历程中利用它
+* **历程重新进入**
+
+  补充标识符的历程重入行为遵循现有的重入策略：
+
+   * 如果历程是非可重新进入的，则相同的配置文件ID +补充ID组合无法重新进入历程。
+   * 如果历程通过时间窗口重新进入，则可以在定义的时间窗口后重新输入相同的配置文件ID +补充ID组合。
+
+## 添加补充标识符并在历程中利用它 {#add}
 
 要在历程中使用补充标识符，请执行以下步骤：
 
@@ -88,6 +95,10 @@ ht-degree: 8%
       ![](assets/supplemental-ID-event.png)
 
    1. 使用表达式编辑器选择标记为补充ID的属性。
+
+      >[!NOTE]
+      >
+      >确保在&#x200B;**[!UICONTROL 高级模式]**&#x200B;中使用表达式编辑器来选择属性。
 
    1. 选择补充ID后，关联的命名空间在事件配置屏幕中显示为只读。
 

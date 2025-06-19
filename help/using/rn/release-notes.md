@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 45%
 
 **发行日期**： 2025年6月18日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
@@ -202,6 +202,8 @@ ht-degree: 45%
    * **每小时重置上限频率** — 您现在可以每小时为渠道规则集应用上限。 此功能仅面向一部分组织（限量发布）。请联系您的客户关怀以启用它。
 
    * **每日持续时间** — 以前在有限可用性中提供，现在所有客户都可以使用渠道规则集中的“每日”频率上限。
+
+  有关更多信息，请参阅[详细文档](../conflict-prioritization/channel-capping.md)。
 
 * **基于代码的体验**
 
