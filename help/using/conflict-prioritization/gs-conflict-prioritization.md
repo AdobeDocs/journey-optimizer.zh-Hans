@@ -4,7 +4,7 @@ description: 了解如何利用 Journey Optimizer 冲突和优先级工具。
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ ht-degree: 97%
 
 * **轮廓计数器更新延迟**
 
-  客户进入历程后，最长可能需要 20 分钟才能更新轮廓计数器的值。
+  客户进入历程后，最长可能需要 10 分钟才能更新轮廓计数器的值。
 
   如果一个轮廓在短时段内进入两个历程，则第二个历程可能无法正确识别出已达到频率上限，从而可能允许该轮廓进入两个历程。
 

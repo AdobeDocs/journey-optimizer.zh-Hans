@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 6%
+source-wordcount: '1251'
+ht-degree: 5%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 6%
 **渠道**&#x200B;规则集将上限规则应用于通信渠道。 例如，每天发送的电子邮件或短信通信不得超过1个。
 
 利用渠道规则集，可设置按通信类型划分的频率封顶，以防止对具有类似消息的客户造成过载。 例如，您可以创建一个规则集以限制发送给客户的&#x200B;**促销通信**&#x200B;的数量，并创建另一个规则集以限制发送给客户的&#x200B;**新闻稿**&#x200B;的数量。 根据要创建的促销活动类型，您可以选择应用促销通信或新闻稿规则集。
+
+>[!IMPORTANT]
+>
+>要确保渠道级别上限正常工作，请确保在创作活动或历程时选择最高优先级的命名空间。 在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
 
 ## 创建渠道频率上限规则
 
@@ -33,7 +37,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->您最多可以为渠道域和历程域创建10个活动的本地规则集。
+>您最多可以为每个渠道域和历程域创建10个活动的本地规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -55,25 +59,33 @@ ht-degree: 6%
 
    ![](assets/rule-set-channels.png)
 
-1. 从&#x200B;**[!UICONTROL 持续时间]**&#x200B;下拉列表中，选择是每月、每周还是每日应用上限。 频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
+1. 在&#x200B;**[!UICONTROL 上限计数]**&#x200B;字段中，设置规则的上限，即根据您在以下字段中所做的选择，每月、每周、每天或每小时可发送给单个用户配置文件的最大消息数。
+
+1. 从&#x200B;**[!UICONTROL 重置上限频率]**&#x200B;下拉列表中，选择是否要每小时、每天、每周或每月应用上限。 频率上限基于所选的日历期间。 它会在相应时间范围的开头重置。
 
    各期间计数器到期如下：
 
-   * **[!UICONTROL 每月]**：频率上限在每月最后一天23:59:59 UTC之前有效。 例如，1月的每月到期时间为01-31 23:59:59 UTC。
+   * **[!UICONTROL 小时]** — 频率上限对所选小时数（至少3小时）有效。 计数器会在每个时间窗口的开头自动重置。 对于3小时的频率限制，每3小时重置一次，与UTC一小时的结束时间重合。
 
-   * **[!UICONTROL 每周]**：频率上限有效期到星期六23:59:59 UTC，因为日历周从星期日开始。 无论规则是在何时创建的，有效期都适用。 例如，如果规则是在星期四创建的，则此规则的有效期到星期六23:59:59。
+     >[!AVAILABILITY]
+     >
+     >此功能仅面向一部分组织（限量发布）。请联系您的客户关怀以启用它。
 
-   * **[!UICONTROL 每日]**：每日频率上限在23:59:59 UTC之前的该天有效，并在第二天开始时重置为0。
+   * **[!UICONTROL 每日]** — 每日频率上限在23:59:59 UTC之前的该天有效，并在第二天开始时重置为0。
+   * **[!UICONTROL 每周]** — 频率上限有效期到星期六23:59:59 UTC，因为日历周从星期日开始。 无论规则是在何时创建的，有效期都适用。 例如，如果规则是在星期四创建的，则此规则的有效期到星期六23:59:59。
+   * **[!UICONTROL 每月]** — 频率上限在每月最后一天23:59:59 UTC之前有效。 例如，1月的每月到期时间为01-31 23:59:59 UTC。
 
-     >[!CAUTION]
-     > 
-     >要保证每日频率上限规则的准确性，请确保在创作营销活动或历程时选择优先级最高的命名空间。在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中详细了解命名空间优先级
+   >[!IMPORTANT]
+   >
+   >* 为确保准确性，请确保在创作活动或历程时选择最高优先级的命名空间。 在 [Platform 身份标识服务指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>中详细了解命名空间优先级
+   >
+   >* 一旦传送通信，配置文件计数器值将更新。 当您发送大量通信时，请注意这一点，因为吞吐量可能导致收件人收到电子邮件时间达到通信启动后的几分钟甚至几小时（如果您同时发送数百万条通信）。 如果收件人收到两个彼此靠近的通信，则这一点很重要。 我们建议将通信间隔至少两小时，在可能的情况下，为收件人提供充足的时间来接收通信，并相应地更新计数器值。
 
-   请注意，一旦传递通信，配置文件计数器值将更新。 当您发送大量通信时，请注意这一点，因为吞吐量可能导致收件人收到电子邮件时间达到通信启动后的几分钟甚至几小时（如果您同时发送数百万条通信）。
+1. **[!UICONTROL Every]**&#x200B;字段允许您根据指定的持续时间，跨多个小时、天、周或月重复频率上限规则。 示例：应用频率上限规则2周。
 
-   如果收件人收到两个彼此靠近的通信，则这一点很重要。 我们建议将通信间隔至少两小时，在可能的情况下，为收件人提供充足的时间来接收通信，并相应地更新计数器值。
+   确保输入的值与选定的持续时间类型匹配：3-23（小时）、1-30（每天）、1-4（每周）和1-3（每月）。
 
-1. 设置规则的上限，即根据您在上面的选择，每月、每周或每天可以向单个用户配置文件发送的最大消息数。
+   当新的时间窗口开始时，计数器自动重置为0。 对于2天的频率上限，此重置在UTC午夜每两天发生一次。
 
 1. 选择要用于此规则的渠道： **[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
 
@@ -107,9 +119,9 @@ ht-degree: 6%
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. 在激活历程或营销活动之前，请确保将其计划在将来的至少20分钟后执行。
+1. 在激活历程或营销活动之前，请确保将其计划在将来的至少10分钟后执行。
 
-   这样就有足够的时间在配置文件上为您选择的业务规则填充计数器值。 如果立即激活营销活动，规则集计数器值将不会填充在收件人的用户档案中，并且消息将不会计入其自定义规则集的频率上限规则中。
+   这样就有足够的时间在配置文件上为您选择的业务规则填充计数器值。 如果立即激活营销活动，规则集计数器值将不会填充在收件人的用户档案中，并且消息将不会计入其自定义规则集的频率上限规则中。 此外，上限可能无法正确用于立即激活的历程和营销活动以及API触发的营销活动。
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -120,6 +132,8 @@ ht-degree: 6%
 >同一渠道可以应用多个规则，但一旦到达下限，用户档案将从下次投放中排除。
 
 在测试频率规则时，建议使用新创建的[测试配置文件](../audience/creating-test-profiles.md)，因为一旦达到配置文件的频率上限，就无法在下一时间段之前重置计数器。 停用规则将允许有上限的用户档案接收消息，但不会移除或删除任何计数器增量。
+
+<!--add a new section for default priority namespace.-->
 
 <!--
 ## Example: combine several rules {#frequency-rule-example}
@@ -152,4 +166,4 @@ In this scenario, an individual profile:
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

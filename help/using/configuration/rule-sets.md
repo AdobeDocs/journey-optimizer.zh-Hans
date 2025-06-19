@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 14%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您最多可以为渠道域和历程域创建10个活动的本地规则集。
+>您最多可以为每个渠道域和历程域创建10个活动的本地规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -197,7 +197,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->完全激活规则或规则集最多可能需要20分钟。 您无需修改消息或重新发布历程，规则即可生效。
+>完全激活规则或规则集最多可能需要10分钟。 您无需修改消息或重新发布历程，规则即可生效。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ ht-degree: 14%
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. 在激活营销活动之前，请确保将其计划在将来的至少20分钟后执行。
+1. 在激活营销活动之前，请确保将其计划在将来的至少10分钟后执行。
 
    这样就有足够的时间在配置文件上为您选择的业务规则填充计数器值。 如果立即激活营销活动，规则集计数器值将不会填充在收件人的用户档案中，并且消息将不会计入其自定义规则集的频率上限规则中。
 
@@ -306,10 +306,10 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->如果立即激活历程，则系统可能需要长达20分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少20分钟之后开始。
+>如果立即激活历程，则系统可能需要长达10分钟才能开始抑制客户。 为了防止这种可能性，您可以将历程安排在至少10分钟之后开始。
 
 +++
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

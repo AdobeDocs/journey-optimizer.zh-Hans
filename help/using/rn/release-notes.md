@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 48%
+source-wordcount: '1070'
+ht-degree: 45%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 48%
 
 **发行日期**： 2025年6月18日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
@@ -195,11 +195,13 @@ ht-degree: 48%
 
 此版本包含的改进如下所述。
 
-<!--* **Channel rule sets**
+* **渠道规则集**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * **自定义持续时间窗口**&#x200B;上限 — 渠道规则集配置屏幕中现在提供新的&#x200B;**Every**&#x200B;字段，允许您根据指定的持续时间跨多天、几周或几个月应用频率上限规则。
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **每小时重置上限频率** — 您现在可以每小时为渠道规则集应用上限。 此功能仅面向一部分组织（限量发布）。请联系您的客户关怀以启用它。
+
+   * **每日持续时间** — 以前在有限可用性中提供，现在所有客户都可以使用渠道规则集中的“每日”频率上限。
 
 * **基于代码的体验**
 

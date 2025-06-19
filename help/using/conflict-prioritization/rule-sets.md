@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 消息，频率，规则，压力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '945'
 ht-degree: 29%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->您最多可以为渠道域和历程域创建10个活动的本地规则集。
+>您最多可以为每个渠道域和历程域创建10个活动的本地规则集。
 
 1. 访问&#x200B;**[!UICONTROL 规则集]**&#x200B;列表，然后单击&#x200B;**[!UICONTROL 创建规则集]**。
 
@@ -127,7 +127,7 @@ ht-degree: 29%
 
    >[!NOTE]
    >
-   >完全激活规则或规则集最多可能需要20分钟。 您无需修改消息或重新发布历程，规则即可生效。
+   >完全激活规则或规则集最多可能需要10分钟。 您无需修改消息或重新发布历程，规则即可生效。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -164,4 +164,4 @@ ht-degree: 29%
 
 ## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444736?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
