@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 文本消息（短信/MMS）入门
+title: 开始使用短信(SMS/MMS/RCS)
 description: 了解如何在 Journey Optimizer 中创建和发布文本消息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: cc0ffd008052fcb0ce06f6cdff0f2adb5c040568
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 76%
+source-wordcount: '243'
+ht-degree: 47%
 
 ---
 
 # 文本消息入门 {#get-started-sms}
 
-使用 [!DNL Journey Optimizer] 向客户的移动设备发送文本消息（短信/MMS）。您可以从短信/MMS 编辑器中创建、个性化和预览文本格式的消息。
+使用[!DNL Journey Optimizer]在客户的移动设备上向其发送短信(SMS/MMS/RCS)。 您可以从SMS/MMS/RCS编辑器以文本格式创建、个性化和预览消息。
 
-可以在历程或营销活动中创建和发送短信。对于 MMS 和短信，使用短信操作。
+可以在历程或营销活动中创建和发送短信。对于SMS、MMS和RCS，使用SMS操作。
 
-* 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置，然后浏览到&#x200B;**[!UICONTROL 操作：短信]**&#x200B;右侧窗格以创建SMS/MMS/RCS消息的内容。 在[此页面](../building-journeys/journey-gs.md)中了解如何创建历程。
+* 在&#x200B;**历程**&#x200B;中。创建历程、添加短信活动并定义基本设置。 然后，浏览到“操作：短信”右侧窗格以创建SMS、MMS或RCS消息的内容。 [了解如何创建历程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**营销活动**&#x200B;中。创建活动，选择短信作为您的操作并定义基本设置，然后编辑消息内容以定义要发送的短信/彩信/RCS消息。 在[此页面](../campaigns/create-campaign.md#configure)中了解如何创建营销活动。
+* 在&#x200B;**营销活动**&#x200B;中。创建营销策划，选择短信作为您的操作，并定义基本设置。 然后，编辑消息内容以定义要发送的SMS、MMS或RCS消息。 [了解如何创建营销活动](../campaigns/create-campaign.md#configure)
 
-Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商）发送文本消息。在创建短信/MMS 消息之前，请使用 Journey Optimizer 配置文本消息的服务提供商。[了解详情](sms-configuration.md)。
+Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商）发送文本消息。在创建SMS/MMS/RCS消息之前，请使用Journey Optimizer配置您的服务提供商进行文本和RCS消息传递。 [了解详情](sms-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -58,27 +58,27 @@ Adobe Journey Optimizer 通过短信服务提供商（或短信网关提供商�
 <img alt="验证" src="../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
-<a href="sms-configuration.md"><strong>配置短信渠道</strong></a>
+<a href="sms-configuration.md"><strong>配置SMS/MMS/RCS</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
 
-## 操作方法视频
+## 操作说明视频
 
 * 下面的视频展示了如何配置、创作短信消息，并将其包含在客户历程中。
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422699?learn=on&captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * 下面的视频可帮助您更好地了解 Adobe Journey Optimizer 为营销人员提供的移动功能。
 
 
   +++观看视频
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430378?quality=12&learn=on&captions=chi_hans)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
