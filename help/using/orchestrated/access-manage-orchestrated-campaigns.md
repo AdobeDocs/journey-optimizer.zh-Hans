@@ -6,13 +6,13 @@ description: 了解使用Adobe Journey Optimizer编排活动创建的主要原�
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
+exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
+source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 31%
+source-wordcount: '567'
+ht-degree: 24%
 
 ---
-
 
 # 访问并管理编排式营销活动 {#orchestrated-campaign-creation}
 
@@ -33,29 +33,21 @@ ht-degree: 31%
 
 <br/>
 
-您可以将编排好的营销活动构建到可视画布中，以设计跨渠道流程，如分段、营销活动执行、文件处理。
-
 ## 访问编排的营销活动
 
-在&#x200B;**[!UICONTROL 促销活动]**&#x200B;菜单中，浏览到“多步”选项卡以访问编排的促销活动的完整列表。
+导航到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 编排]**&#x200B;选项卡以访问编排的营销活动的完整列表。
 
-列表中的每个编排营销活动都显示有关其当前[状态](#status)、上次执行或修改该营销活动的时间，以及下一个计划执行日期和时间的信息。
+![显示编排的营销活动清单的图像](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
 
-可以通过单击列表右上角的&#x200B;**[!UICONTROL 为自定义版面配置列]**&#x200B;图标来自定义显示的列。这样，您就可以向列表中添加其他信息，例如每个编排活动出错的最后一个活动，或应用的定向维度。
+列表中的每个编排营销活动都会显示相关信息，例如营销活动的当前[状态](#status)、关联的渠道和标记，或上次修改营销活动的时间。 您可以通过单击![配置布局按钮](assets/do-not-localize/inventory-configure-layout.svg)按钮自定义显示的列。
 
-此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选编排的促销活动，以仅显示属于某个促销活动的促销活动或在特定日期范围内处理的促销活动。
-
-要复制或删除编排的营销活动，请单击省略号按钮，然后选择&#x200B;**[!UICONTROL 复制]**&#x200B;或&#x200B;**[!UICONTROL 删除]**。
-
->[!NOTE]
->
->当正在进行某个编排的活动时，您可以复制该活动，但无法删除它。
+此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选编排的营销活动以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
 ## 精心策划的活动包含哪些内容？ {#gs-ms-campaign-inside}
 
 精心设计的竞选画布是预期结果的呈现。 它描述要执行的各种任务及其如何链接在一起。
 
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+![图像显示编排的活动画布](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
 
 每个编排的活动都包含：
 
@@ -67,12 +59,25 @@ ht-degree: 31%
 
 * **工作表**：工作表包含了过渡所携带的所有信息。每个编排的活动都使用几个工作表。 这些表中传送的数据可在整个编排的促销活动生命周期中使用。
 
-## 状态和生命周期 {#status}
+## 营销活动状态 {#status}
 
-营销活动可以具有多种状态：
+编排的活动可以具有多种状态：
 
-* **[!UICONTROL 草稿]**：已创建并保存编排的营销活动。
-* **[!UICONTROL 进行中]**：编排的活动当前正在运行。
+* **[!UICONTROL 草稿]**：已创建编排的营销活动。 它尚未发布。
+* **[!UICONTROL 正在发布]**：正在发布编排的营销活动。
+* **[!UICONTROL 实时]**：编排的活动已发布并正在执行。
+* **[!UICONTROL 已计划]**：已计划协调的活动执行。
 * **[!UICONTROL 已完成]**：编排的活动执行已完成。
-* **[!UICONTROL 已暂停]**：编排的活动已暂停。
-* **[!UICONTROL 错误]**：编排的活动遇到错误。 打开编排的活动并访问日志和任务，以识别错误并加以解决。
+  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL 已存档]**：已存档编排的营销活动。 所有已存档的营销活动都将在上次修改日期后30天滚动重新计划删除。 您可以根据需要复制已存档的活动以继续处理。
+* **[!UICONTROL 已停止]**：编排的活动执行已停止。 要启动营销策划，您需要复制它。
+
+## 复制和删除编排的营销活动 {#duplicate-delete}
+
+在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 复制]**
+
+要删除营销活动，请单击显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+
+>[!NOTE]
+>
+>只能删除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
