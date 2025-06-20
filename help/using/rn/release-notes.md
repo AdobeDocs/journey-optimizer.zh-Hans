@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 45%
@@ -30,7 +30,7 @@ ht-degree: 45%
 
 **发行日期**： 2025年6月18日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
@@ -103,7 +103,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>您现在可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
+<p>现在，您可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>

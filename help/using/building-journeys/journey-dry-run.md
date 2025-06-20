@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '941'
 ht-degree: 20%
 
 ---
@@ -118,17 +118,19 @@ ht-degree: 20%
 
 ## 护栏和限制 {#journey-dry-run-limitations}
 
-* 练习模式不适用于包含反应事件的历程。
-* 处于试运行模式的配置文件将计入可参与配置文件。
-* 练习历程不会影响业务规则。
+* 练习模式不适用于包含反应事件的历程
+* 处于试运行模式的配置文件将计入可参与配置文件
+* 处于试运行模式的历程将计入实时旅程配额
+* 模拟历程不会影响业务规则
 * 创建新历程版本时，如果以前的历程版本为&#x200B;**Live**，则不允许对新版本进行模拟激活。
 * 历程练习生成stepEvents。 这些stepEvents具有特定标志和练习ID：
    * 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID
+
 * 在练习期间，将按以下特定条件执行历程：
 
-   * 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知。
-   * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null。
+   * 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知
+   * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null
    * 在试运行期间绕过&#x200B;**等待节点**。
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 默认情况下会执行&#x200B;**数据源**，包括外部数据源。
+   * 默认情况下会执行&#x200B;**数据源**，包括外部数据源

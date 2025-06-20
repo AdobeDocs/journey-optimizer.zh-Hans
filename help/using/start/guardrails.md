@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 99%
+source-wordcount: '2539'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [实时客户轮廓数据和分段的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}也适用于 Adobe Journey Optimizer。
 >
->* 另请参阅[实时客户资料中的数据摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* 另请参阅[实时客户资料中的数据摄取护栏](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支持的浏览器 {#browsers}
@@ -117,8 +117,8 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 ### 一般历程护栏 {#journeys-guardrails-journeys}
 
 * 历程中的活动数量限制为 50 个。活动数显示在历程画布的左上角部分。这有益于可读性、进行 QA 检查和故障排除。
+* 实时/暂停/练习历程的数量限制为100。  当前历程数显示在历程画布上方。
 * 当您发布历程时，我们会自动进行缩放和调整，确保最大吞吐量和稳定性。当您接近达成 100 个实时历程的里程碑时，将在 UI 中收到有关此成就的通知。如果您看到此通知，并且需要将每次的历程扩展到多于 100 个实时历程，请创建客户关怀支持工单，我们将帮助您实现目标。
-  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * 在历程中使用受众资格筛选时，该受众资格活动可能最多需要 10 分钟才能生效，并侦听进入或退出受众的轮廓。
 * 轮廓的历程实例的最大大小为 1MB。在历程执行过程中收集的所有数据都存储在该历程实例中。因此，来自传入事件的数据、从 Adobe Experience Platform 检索的轮廓信息、自定义操作响应等都会存储在历程实例中并影响历程大小。当历程以事件开始时，建议限制该事件负载的最大大小（例如：小于 800 KB），以避免在历程执行过程中完成少数几个活动后就达到该限制。当达到该限制时，轮廓会处于错误状态并被从历程中排除。
 * 除了历程活动中使用的超时之外，还有未显示在界面中且无法更改的全局历程超时。此全局超时会在个人进入历程 91 天后停止个人进度。[了解详情](../building-journeys/journey-properties.md#global_timeout)
