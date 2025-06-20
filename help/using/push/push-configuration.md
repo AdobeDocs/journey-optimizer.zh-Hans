@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 5%
@@ -27,11 +27,11 @@ ht-degree: 5%
 
 ### 设置权限 {#setup-permissions}
 
-在创建移动应用程序之前，您首先需要确保拥有或分配适用于Adobe Experience Platform中的标记的正确用户权限。 请参阅[标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans){target="_blank"}以了解详情。
+在创建移动应用程序之前，您首先需要确保拥有或分配适用于Adobe Experience Platform中的标记的正确用户权限。 请参阅[标记文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}以了解详情。
 
 >[!CAUTION]
 >
->推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件，或在应用程序开发人员和&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hans){target="_blank"}中了解有关&#x200B;**标记**&#x200B;权限的详细信息。
+>推送配置必须由专家用户执行。 根据您的实施模型和此实施中涉及的角色，您可能需要将整套权限分配给单个产品配置文件，或在应用程序开发人员和&#x200B;**Adobe Journey Optimizer**&#x200B;管理员之间共享权限。 在[本文档](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}中了解有关&#x200B;**标记**&#x200B;权限的详细信息。
 
 <!--ou need to your have access to perform following roles :
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
    ![](assets/push_product_1.png)
 
-1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hans#ui){target="_blank"}中了解如何创建新的&#x200B;**[!UICONTROL 新配置文件]**。
+1. 选择现有的&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;或使用&#x200B;**[!UICONTROL 新建配置文件]**&#x200B;按钮创建一个新配置文件。 在[管理控制台文档](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中了解如何创建新的&#x200B;**[!UICONTROL 新配置文件]**。
 
 1. 从&#x200B;**[!UICONTROL 权限]**&#x200B;选项卡中，选择&#x200B;**[!UICONTROL 属性权限]**。
 
@@ -94,7 +94,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果以前未在Admin Console中创建过该用户，请参阅[添加用户文档](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
+   >如果以前未在Admin Console中创建过该用户，请参阅[添加用户文档](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
 
@@ -128,9 +128,9 @@ ht-degree: 5%
 
 ### 将您的移动应用程序与Adobe Experience Platform SDK集成 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您的移动设备提供客户端集成API。 按照[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的说明在您的应用程序中设置Adobe Experience Platform Mobile SDK。
+Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您的移动设备提供客户端集成API。 请按照[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}中的说明，在您的应用程序中设置Adobe Experience Platform Mobile SDK。
 
-到这为止，您还应该在[!DNL Adobe Experience Platform Data Collection]中创建并配置移动属性。 通常，您将为要管理的每个移动应用程序创建一个移动资产。 请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}以了解如何创建和配置移动属性。
+到这为止，您还应该在[!DNL Adobe Experience Platform Data Collection]中创建并配置移动属性。 通常，您将为要管理的每个移动应用程序创建一个移动资产。 请参阅[Adobe Experience Platform Mobile SDK文档](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}以了解如何创建和配置移动资产。
 
 
 ## 步骤1：在Journey Optimizer中添加应用程序推送凭据 {#push-credentials-launch}
@@ -145,7 +145,7 @@ Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您�
 
 1. 从&#x200B;**[!UICONTROL 平台]**&#x200B;下拉列表中，选择操作系统：
 
-   * 用于iOS的&#x200B;**&#x200B;**
+   * 用于iOS的&#x200B;****
 
      ![](assets/add-app-config-ios.png)
 
@@ -161,7 +161,7 @@ Adobe Experience Platform Mobile SDK通过与Android和iOS兼容的SDK，为您�
 
       1. 提供&#x200B;**团队ID**。 这是一个字符串值，可以在“成员资格”选项卡下找到。
 
-   * 用于Android的&#x200B;**&#x200B;**
+   * 用于Android的&#x200B;****
 
      ![](assets/add-app-config-android.png)
 
@@ -191,7 +191,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=zh-Hans).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 步骤2：为推送创建渠道配置{#message-preset}
@@ -304,7 +304,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-为了让此历程正常工作，您需要创建XDM架构。 有关详细信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#schemas-and-data-ingestion){target="_blank"}。
+为了让此历程正常工作，您需要创建XDM架构。 有关详细信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}。
 
 1. 在“数据管理”菜单部分中，单击&#x200B;**[!UICONTROL 架构]**。
    ![](assets/test_push_1.png)
