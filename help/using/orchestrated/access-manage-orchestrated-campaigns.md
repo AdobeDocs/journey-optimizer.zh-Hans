@@ -85,12 +85,12 @@ ht-degree: 22%
 
 ## 复制和删除编排的营销活动 {#duplicate-delete}
 
-在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 复制]**
+在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 复制]**
 
 <!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
 [CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
 
-要删除营销活动，请单击显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+要删除营销活动，请单击显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 >[!NOTE]
 >
