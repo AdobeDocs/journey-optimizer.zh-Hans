@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 34%
+source-wordcount: '622'
+ht-degree: 36%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 34%
 
 +++ 目录
 
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库  | 编排的营销活动活动 |
+| 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
 | [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建协调的营销活动](../create-orchestrated-campaign.md)<br/><br/>[协调活动](../orchestrate-activities.md)<br/><br/>[发送包含协调的营销活动的消息](../send-messages.md)<br/><br/>[开始并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[And-join](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
 
@@ -50,9 +50,9 @@ ht-degree: 34%
 
 **协调**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，它允许您定义Adobe Journey Optimizer中的数据与工作表中的数据（例如从外部文件加载的数据）之间的链接。
 
-扩充活动允许您向编排的活动添加其他数据 — 例如，通过组合来自多个源的数据或链接到临时资源。 相反，协调活动用于将未识别的或外部数据与数据库中的现有资源进行匹配。
+**扩充**&#x200B;活动允许您向编排的活动添加其他数据，例如，通过组合来自多个源的数据或链接到临时资源。 相反，**协调**&#x200B;活动用于将未识别的或外部数据与数据库中的现有资源进行匹配。
 
-协调要求系统中已存在相关记录。 例如，如果您导入的购买文件列出了产品、时间戳和客户信息，则产品和客户都必须已存在于数据库中才能建立链接。
+**协调**&#x200B;要求系统中已存在相关记录。 例如，如果您导入的购买文件列出了产品、时间戳和客户信息，则产品和客户都必须已存在于数据库中才能建立链接。
 
 ## 配置协调活动 {#reconciliation-configuration}
 
@@ -71,7 +71,7 @@ ht-degree: 34%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="选择定位维度"
 >abstract="选择要协调的入站数据的定位维度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hans&#targeting-dimensions" text="定位维度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="定位维度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
