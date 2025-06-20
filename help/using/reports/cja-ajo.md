@@ -25,7 +25,7 @@ ht-degree: 2%
 
 在[!DNL Journey Optimizer]中创建您的历程后，您可以将客户数据导入到[!DNL Customer Journey Analytics]以启动报告并了解客户与您的历程每次交互的影响。
 
-➡️ [发现Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [发现Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
@@ -34,16 +34,16 @@ ht-degree: 2%
 
 在为您的历程使用[!DNL Customer Journey Analytics]之前，必须首先配置此集成：
 
-1. [在[!DNL Customer Journey Analytics]中创建与要发送到Adobe Experience Platform的&#x200B;**[!UICONTROL 数据集]**&#x200B;的连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)。
+1. [在[!DNL Customer Journey Analytics]中创建与要发送到Adobe Experience Platform的&#x200B;**[!UICONTROL 数据集]**&#x200B;的连接](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hans)。
 
    可以配置以下[!DNL Journey Optimizer]：
    * [历程步骤事件](../data/datasets-query-examples.md#journey-step-event)：允许您查看谁进入您的旅程以及他们到达的距离。
    * [消息反馈/跟踪数据集](../data/datasets-query-examples.md#message-feedback-event-dataset)：允许您查看有关通过[!DNL Journey Optimizer]发送的消息的投放信息。
    * [实体和历程数据集](../data/datasets-query-examples.md#entity-dataset)：允许您搜索友好名称并在报表中使用它们。
 
-1. [创建数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)以配置要用于报告的维度和量度。
+1. [创建数据视图](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hans)以配置要用于报告的维度和量度。
 
-   您可以创建特定于Journey Optimizer的指标，以更好地反映历程的数据。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   您可以创建特定于Journey Optimizer的指标，以更好地反映历程的数据。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=zh-Hans#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 将[!DNL Journey Optimizer]与[!DNL Customer Journey Analytics]结合使用可能会导致报表数据存在某些差异，原因如下：
 
