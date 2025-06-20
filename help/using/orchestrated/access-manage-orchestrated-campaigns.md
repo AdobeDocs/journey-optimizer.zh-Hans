@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
+source-git-commit: cd42bca1a36344f688b2d90e1c0b96a9ef2a53ce
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 24%
+source-wordcount: '610'
+ht-degree: 22%
 
 ---
 
@@ -72,16 +72,25 @@ ht-degree: 24%
 * **[!UICONTROL 正在发布]**：正在发布编排的营销活动。
 * **[!UICONTROL 实时]**：编排的活动已发布并正在执行。
 * **[!UICONTROL 已计划]**：已计划协调的活动执行。
-* **[!UICONTROL 已完成]**：编排的活动执行已完成。
-  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL 已完成]**：编排的活动执行已完成。 在营销活动完成消息发送且无错误后，最多可在3天内自动分配“已完成”状态。
+* **[!UICONTROL 已关闭]**：当定期营销活动已停止时，将显示此状态。
+<!--Comment une campaign devient Closed?
+[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
+= pas trouvé-->
 * **[!UICONTROL 已存档]**：已存档编排的营销活动。 所有已存档的营销活动都将在上次修改日期后30天滚动重新计划删除。 您可以根据需要复制已存档的活动以继续处理。
-* **[!UICONTROL 已停止]**：编排的活动执行已停止。 要启动营销策划，您需要复制它。
+<!--Comment une campaign devient Archived?
+[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...)
+= pas trouvé -->
+* **[!UICONTROL 已停止]**：编排的活动执行已停止。 要再次启动营销活动，您需要复制它。
 
 ## 复制和删除编排的营销活动 {#duplicate-delete}
 
-在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 复制]**
+在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 复制]**
 
-要删除营销活动，请单击显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
+[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
+
+要删除营销活动，请单击显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 >[!NOTE]
 >
