@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
+source-git-commit: 919b462e869b8dd836fe45ee31441d3cc7ecf6b2
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '579'
 ht-degree: 24%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 24%
 >id="ajo_targeting_workflow_list"
 >title="协同营销活动"
 >abstract="在此屏幕中可访问协同营销活动的完整列表，查看其当前状态、上次/下次执行日期，并创建新的协同营销活动。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_campaign_action"
+>title="操作"
+>abstract="本节列出了在编排的活动中使用的所有操作。"
 
 +++ 目录
 
@@ -74,9 +79,9 @@ ht-degree: 24%
 
 ## 复制和删除编排的营销活动 {#duplicate-delete}
 
-在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 复制]**
+在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 复制]**
 
-要删除营销活动，请单击显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 删除]**。
+要删除营销活动，请单击显示更多操作按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像，然后选择&#x200B;**[!UICONTROL 删除]**。
 
 >[!NOTE]
 >
