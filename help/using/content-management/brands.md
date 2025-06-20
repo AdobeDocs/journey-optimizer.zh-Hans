@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 23%
+source-wordcount: '1471'
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 23%
 
 >[!AVAILABILITY]
 >
->此功能已作为 Private Beta 发布。在未来版本中，其将逐步向所有客户提供。
+>此功能作为私有测试版提供。 在未来版本中，其将逐步向所有客户提供。
+>
 >您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
 品牌指南是一组详细的规则和标准，用于建立品牌的视觉和语言标识。 它们用作参考，以在所有营销和通信平台上保持一致的品牌代表性。
@@ -46,6 +47,8 @@ ht-degree: 23%
 要访问[!DNL Adobe Journey Optimizer]中的&#x200B;**[!UICONTROL 品牌]**&#x200B;菜单，需要向用户授予&#x200B;**[!UICONTROL 管理品牌套件]**&#x200B;或&#x200B;**[!UICONTROL 启用AI助手]**&#x200B;权限。 [了解详情](../administration/permissions.md)
 
 +++  了解如何分配品牌相关权限
+
+要为品牌分配权限，请执行以下步骤：
 
 1. 在&#x200B;**权限**&#x200B;产品中，转到&#x200B;**角色**&#x200B;选项卡并选择所需的&#x200B;**角色**。
 
