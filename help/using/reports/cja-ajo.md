@@ -53,7 +53,7 @@ ht-degree: 2%
 
 * **在[!DNL Journey Optimizer]个报表中，发送的度量还包含重试度量。**
 
-  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**度量中。
+  **[!UICONTROL 重试]**&#x200B;将不包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已发送]**&#x200B;度量中。 这将导致[!DNL Customer Journey Analytics] **[!UICONTROL 已发送]**&#x200B;指标显示的值低于[!DNL Journey Optimizer]。 但是，重试数据已合并到&#x200B;**[!UICONTROL 成功发送的邮件]**&#x200B;或&#x200B;**[!UICONTROL 跳出次数]**&#x200B;度量中。
 为了减少差异，请使用一周前甚至更晚的日期范围。
 
 * **报告是从其他数据源提供的。**
