@@ -60,7 +60,7 @@ ht-degree: 12%
 
 ## 先决条件 {#prerequisites}
 
-在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，必须创建并发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Optimizer中配置操作时，您会粘贴此有效负载（请参阅下文）。
 
