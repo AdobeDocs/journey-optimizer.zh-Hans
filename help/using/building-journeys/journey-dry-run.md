@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 21%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 21%
 
 ![监视历程试运行执行](assets/dry-run-metrics.png)
 
-对于每个活动，您可以检查：
+对于每个活动，在其活动框中，您可以选中：
 
 * **[!UICONTROL 已输入]**：进入此活动的个人总数。 对于&#x200B;**操作**&#x200B;活动，由于它们不是在练习模式下执行，因此此量度表示用户档案通过。
 * **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
@@ -99,7 +99,7 @@ ht-degree: 21%
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
 
 
-在历程级别，您可以检查：
+在历程级别，在画布的左上部，您可以检查：
 
 * **输入的配置文件总数**
 * **已退出的配置文件总数**
