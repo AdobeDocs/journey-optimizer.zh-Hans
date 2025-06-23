@@ -146,7 +146,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. 调整语法以符合您的需求。 在本例中，我们要检索与乘客航班相关的数据。 语法如下：
 
@@ -177,7 +177,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    在本例中，我们希望使用与乘客登机时间和登机口相关的信息。 因此，我们添加了这两行：
 
