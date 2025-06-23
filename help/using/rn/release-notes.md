@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 45%
+ht-degree: 80%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 45%
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**发行日期**： 2025年6月18日
+**发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 
@@ -40,19 +40,19 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>RCS消息传送</strong><br/></th>
+<th><strong>RCS 消息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer现在支持富通信服务(RCS)消息传送，可根据提供商和运营商支持实现以下增强消息传送功能：</p>
+<p>Journey Optimizer 现在支持富通信服务 (RCS) 消息，可根据提供商和运营商的支持实现以下增强消息功能：</p>
 <ul>
-<li>品牌和经验证的发件人支持：使用带有品牌元素（徽标、发件人姓名等）的经验证的业务配置文件发送消息。</li>
+<li>支持使用品牌和经验证的发件人：使用带有品牌化元素（徽标、发件人名称等）的经验证的业务轮廓发送消息。</li>
 <li>消息投放分析：接收详细的投放报告，包括消息状态更新（例如，已发送、已投放、已读取）。</li>
-<li>链接跟踪：在RCS消息中嵌入和跟踪URL，以进行参与分析。</li>
-<li>回退到短信：当配置文件设备不支持RCS或暂时无法通过RCS访问时，自动回退到短信。</li>
-<li>基本消息合成：发送基于文本的RCS消息，其中带有可选的媒体和富元素，具体取决于提供商的支持。</li>
+<li>链接跟踪：在 RCS 消息中嵌入和跟踪 URL，以进行参与度分析。</li>
+<li>回退到短信：当用户的设备不支持 RCS 或暂时无法通过 RCS 投放时，自动回退到短信。</li>
+<li>基本消息合成：发送基于文本的 RCS 消息，其中包含可选的媒体和富元素，具体取决于提供商的支持情况。</li>
 </ul>
 <p>有关更多信息，请参阅<a href="../sms/sms-configuration.md">详细文档</a>。</p>
 </td>
@@ -69,7 +69,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在JSON或HTML内容模板中定义特定的可编辑字段，这些字段使非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图中的内容，而无需处理任何代码。<br />此外，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重用性和易用性。</p>
+<p>您现在可以在 JSON 或 HTML 内容模板中定义特定的可编辑字段。通过这些字段，非技术用户能够在基于代码的体验渠道创作中轻松编辑表单视图内容，而无需处理任何代码。<br />此外，在定义基于代码的体验内容模板时，您现在可以在模板中插入决策策略，从而提高可重复使用性和易用性。</p>
 <img src="assets/do-not-localize/form-fields.gif">
 <p>有关更多信息，请参阅<a href="../code-based/code-based-form-fields.md">详细文档</a>。</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 45%
 <td>
 <p>现在，您可以通过历程画布中的专用内容决策活动在历程中包含个性化优惠，并在历程活动（包括条件和自定义操作）中使用它们。</p>
 <img src="assets/do-not-localize/content-decision.gif">
-<p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+<p>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/content-decision.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -121,9 +121,9 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>历程练习是Adobe Journey Optimizer中的一种特殊旅程发布模式，允许旅程从业人员使用真实生产数据测试旅程，而无需联系真实客户或更新用户档案信息。 此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
+<p>历程试运行是 Adobe Journey Optimizer 中的一种特殊历程发布模式，使历程设计人员能够在不接触真实客户或更新轮廓信息的前提下，使用真实生产数据对历程进行测试。此功能有助于历程设计人员在正式发布前验证历程设计和受众定位，从而增强信心。</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+<p>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-dry-run.md">详细文档</a>。</p>
 
 </td>
@@ -140,11 +140,11 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>您现在可以暂停并继续您的历程。 此功能允许在不中断客户体验的情况下临时暂停实时历程，从而为历程参与者提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且用户档案将保持暂停状态，直到历程恢复。</p>
+<p>您现在可以暂停和恢复历程。通过此功能，可以在不中断客户体验的情况下临时暂停实时历程，从而为历程设计人员提供了更好的控制力和灵活性。暂停后，不会发送任何通信，并且轮廓将停留在暂停状态，直到历程恢复。</p>
 <p>您只能暂停和恢复一个历程，或者对一组历程执行批量暂停和恢复操作。</p>
-<p>此外，您可以将全局过滤器应用于暂停的历程，以根据用户档案的属性排除用户档案。</p>
+<p>此外，您可以向暂停的历程应用全局筛选条件，以根据轮廓的属性排除轮廓。</p>
 <img src="assets/do-not-localize/PauseResume.gif">
-<p>此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。</p>
+<p>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/journey-pause.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -211,11 +211,11 @@ ht-degree: 45%
 
    * 从基于代码的体验历程或营销活动版本屏幕中，您现在可以直接添加决策策略，而无需打开个性化编辑器。 [了解详情](../code-based/create-code-based.md#edit-code)
 
-* 电子邮件Designer中的&#x200B;**自定义CSS支持**
+* **电子邮件设计器中支持使用自定义 CSS**
 
   Journey Optimizer现在允许您直接在Email Designer中将自定义CSS添加到电子邮件内容。 [了解详情](../email/custom-css.md)
 
-* **新的营销活动选项卡式导航**
+* **适用于营销活动的新的选项卡式导航**
 
   新的导航模式允许更快地访问内容创作，并支持在营销策划间进一步扩展设置。 [了解详情](../campaigns/create-campaign.md)
 

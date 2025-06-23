@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 >
 >* [实时客户轮廓数据和分段的护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/guardrails){target="_blank"}也适用于 Adobe Journey Optimizer。
 >
->* 另请参阅[实时客户资料中的数据摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails){target="_blank"}
+>* 另请参阅[实时客户轮廓中的数据摄取护栏](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
 
 ## 支持的浏览器 {#browsers}
@@ -220,7 +220,7 @@ Adobe [!DNL Journey Optimizer] 界面设计为可在最新版 Google Chrome 中�
 
 以下护栏适用于[历程表达式编辑器](../building-journeys/expression/expressionadvanced.md)：
 
-* 以读取受众、受众资格筛选或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建一个新受众，并在历程中使用`inaudience`条件。
+* 以读取受众、受众资格筛选或业务事件活动开始的历程中，无法使用体验事件字段组。您必须创建新受众并在历程中使用 `inaudience` 条件。
 * 不能在表达式编辑器中使用 `timeSeriesEvents` 属性。要在轮廓级别访问体验事件，请基于 `XDM ExperienceEvent` 架构创建新的字段组。
 
 

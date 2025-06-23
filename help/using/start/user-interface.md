@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1670'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,8 +276,8 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
->title="事务性API触发的营销活动"
->abstract="通过API调用触发实时消息"
+>title="交易型 API 触发的营销活动"
+>abstract="通过 API 调用触发实时消息"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
@@ -286,8 +286,8 @@ AI 助手是一项用户界面功能，可用于浏览和了解 Adobe 概念，�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
->title="事务性消息"
->abstract="与服务相关的内容（确认、警报，无需征得营销同意）"
+>title="交易型消息"
+>abstract="与服务相关的内容（确认、警报，无需获得营销同意）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"

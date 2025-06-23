@@ -255,7 +255,7 @@ ht-degree: 98%
             + [插入个性化产品建议](using/email/add-offers-email.md)
             + [生成文本版本](using/email/text-version-email.md)
             + [添加元数据](using/email/email-metadata.md)
-            + [添加自定义CSS](using/email/custom-css.md)
+            + [添加自定义 CSS](using/email/custom-css.md)
          + 编辑样式 {#edit-style}
             + [电子邮件样式入门](using/email/get-started-email-style.md)
             + [编辑背景设置](using/email/backgrounds.md)

@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 您可以在 [!DNL Journey Optimizer] 中导入现有内容或利用内容设计功能：
 
-* 使用[!DNL Journey Optimizer]&#x200B;**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
+* 使用[!DNL Journey Optimizer]**电子邮件设计功能**，设计或导入响应式电子邮件。[了解详情](content-from-scratch.md)
 
 * 利用 **Adobe Experience Manager Assets Essentials** 来丰富您的电子邮件，构建和管理自己的资源数据库。[了解详情](../integrations/assets.md)
 
@@ -52,9 +52,9 @@ ht-degree: 89%
 
 1. 在“电子邮件设计器”主页上，从以下选项中选择设计电子邮件的方式：
 
-   * **通过Email Designer的界面从头开始设计电子邮件**，并利用[Adobe Experience Manager Assets](../integrations/assets.md)中的图像。 要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
+   * 通过电子邮件设计器的界面，并利用 [Adobe Experience Manager Assets Essentials](../integrations/assets.md) 中的图像，**从头开始设计电子邮件**。要了解如何设计电子邮件内容，请参阅[此部分](content-from-scratch.md)。
 
-   * **直接在Email Designer中编码或粘贴原始HTML**。 要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
+   * 直接在电子邮件设计器中&#x200B;**编写或粘贴原始 HTML**。要了解如何编码自己的内容，请参阅[此部分](code-content.md)。
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ ht-degree: 89%
 
 了解如何使用消息编辑器创建电子邮件内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416230?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 了解如何配置内容试验以进行 A/B 测试，并探索电子邮件内容以最有效地推动业务目标的实现。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447341?captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
