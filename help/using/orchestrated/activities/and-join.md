@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
+source-git-commit: 54b5591186dd51c0ea1fda6055d6c52fd079a748
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 63%
+source-wordcount: '334'
+ht-degree: 38%
 
 ---
 
@@ -48,13 +48,16 @@ ht-degree: 63%
 
 ![](../assets/workflow-andjoin.png)
 
-1. 添加多项活动（例如渠道活动），来构成至少两个不同的执行分支。
-1. 向任何分支添加一个 **AND-连接**&#x200B;活动。
-1. 在&#x200B;**合并选项**&#x200B;部分中，选中您之前希望加入的所有活动。
-1. 在&#x200B;**主集**&#x200B;下拉列表中，选择您要保留的集客过渡群体。叫客过渡只能包含集客过渡群体之一。
+1. 添加多个活动（如渠道活动）以创建至少两个不同的执行分支。
+
+1. 将&#x200B;**AND-join**&#x200B;活动插入其中一个分支。
+
+1. 在&#x200B;**合并选项**&#x200B;部分下，选择要加入的所有先前活动。
+
+1. 从&#x200B;**主集**&#x200B;下拉列表中，选择要保留的集客过渡群体。
 
 ## 示例{#and-join-example}
 
-下方的示例展示了两个经过编排的活动分支，其中包含电子邮件和短信投放。 当两个集客过渡均启用时，将触发 AND-连接。只有在两次投放完成后才会发送推送通知。
+此示例展示了两个协调的活动分支，每个分支均具有电子邮件投放功能，一个以金会员为目标，另一个以银会员为目标。 一旦触发了两个传入的过渡，**AND-join**&#x200B;就会激活，并且仅在两个电子邮件投放均完成后（延迟7天）才发送短信。
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}
