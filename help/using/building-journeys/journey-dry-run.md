@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 20%
+source-wordcount: '984'
+ht-degree: 21%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 20%
 
 >[!AVAILABILITY]
 >
->此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。
+>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。
 
 
 ## 主要优点 {#journey-dry-run-benefits}
@@ -51,6 +51,13 @@ ht-degree: 20%
 1. **受众见解**：历程从业者可以预测受众在各种旅程节点上的可达性，包括选择退出、排除和其他条件。
 1. **实时反馈**：量度直接显示在历程画布中，类似于实时报告，使历程参与者能够优化其历程设计。
 
+在练习期间，将按以下特定条件执行历程：
+
+* 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知
+* **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null
+* 在试运行期间绕过&#x200B;**等待节点**。
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* 默认情况下会执行&#x200B;**数据源**，包括外部数据源
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ ht-degree: 20%
 
 对于每个活动，您可以检查：
 
-* **[!UICONTROL 已输入]**：进入此活动的个人总数。
+* **[!UICONTROL 已输入]**：进入此活动的个人总数。 对于&#x200B;**操作**&#x200B;活动，由于它们不是在练习模式下执行，因此此量度表示用户档案通过。
 * **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
 * **[!UICONTROL 已退出（强制退出）]**：由于历程从业者配置而暂停历程时退出历程的个人总数。 对于处于练习模式的历程，此量度始终等于零。
 * **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
@@ -127,10 +134,4 @@ ht-degree: 20%
    * 如果已激活模拟运行，`_experience.journeyOrchestration.stepEvents.inDryRun`将返回`true`，否则返回`false`
    * `_experience.journeyOrchestration.stepEvents.dryRunID`返回练习实例的ID
 
-* 在练习期间，将按以下特定条件执行历程：
-
-   * 不执行&#x200B;**渠道操作**&#x200B;节点，包括电子邮件、短信或推送通知
-   * **自定义操作**&#x200B;在试运行期间被禁用，并且其响应设置为null
-   * 在试运行期间绕过&#x200B;**等待节点**。
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 默认情况下会执行&#x200B;**数据源**，包括外部数据源
+* 使用Adobe Experience Platform查询服务分析旅程报告量度时，必须排除练习生成的步骤事件。 要执行此操作，请将`inDryRun`标志设置为`false`。
