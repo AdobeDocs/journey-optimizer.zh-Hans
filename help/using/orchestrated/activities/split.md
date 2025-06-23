@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 53%
 
 +++ 目录
 
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库  | 编排的营销活动活动 |
+| 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
 | [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建协调的营销活动](../create-orchestrated-campaign.md)<br/><br/>[协调活动](../orchestrate-activities.md)<br/><br/>[发送包含协调的营销活动的消息](../send-messages.md)<br/><br/>[开始并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[And-join](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
 
@@ -33,7 +33,7 @@ ht-degree: 53%
 
 <br/>
 
-**拆分**&#x200B;活动是一个&#x200B;**定位**&#x200B;活动，该活动根据定义的选择条件（如筛选规则或群体大小）将传入群体划分为多个子集。
+**[!UICONTROL 拆分]**&#x200B;活动是一个&#x200B;**[!UICONTROL 定位]**&#x200B;活动，该活动根据定义的选择条件（如筛选规则或群体大小）将传入群体划分为多个子集。
 
 ## 配置拆分活动 {#split-configuration}
 
@@ -77,11 +77,11 @@ ht-degree: 53%
 >title="启用输出群体的重叠"
 >abstract=" **[!UICONTROL 启用输出群体重叠]**&#x200B;选项可让您管理属于多个子集的群体。当未选中该框时，拆分活动将确保收件人不会出现在多个输出转换中，即使它满足多个子集的标准。它们将位于符合条件的第一个选项卡的目标中。选中此框后，如果收件人符合筛选条件，则可以在多个子集中找到他们。"
 
-请执行以下步骤来配置&#x200B;**拆分**&#x200B;活动：
+请执行以下步骤来配置&#x200B;**[!UICONTROL 拆分]**&#x200B;活动：
 
-1. 将&#x200B;**拆分**&#x200B;活动添加到您的编排营销活动中。
+1. 将&#x200B;**[!UICONTROL 拆分]**&#x200B;活动添加到您的编排营销活动中。
 
-1. 活动配置窗格随即打开，其中包含默认子集。单击&#x200B;**添加区段**&#x200B;按钮以添加所需数量的子集，对传入群体进行分段。
+1. 活动配置窗格随即打开，其中包含默认子集。单击&#x200B;**[!UICONTROL 添加区段]**&#x200B;按钮以添加所需数量的子集，对传入群体进行分段。
 
    ![](../assets/orchestrated-split-1.png)
 

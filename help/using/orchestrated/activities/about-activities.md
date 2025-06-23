@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 +++ 目录
 
-| 欢迎使用编排的营销活动 | 启动您的第一个编排的营销活动 | 查询数据库  | 编排的营销活动活动 |
+| 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
 | [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建协调的营销活动](../create-orchestrated-campaign.md)<br/><br/>[协调活动](../orchestrate-activities.md)<br/><br/>[发送包含协调的营销活动的消息](../send-messages.md)<br/><br/>[开始并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[And-join](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
 
@@ -44,7 +44,7 @@ ht-degree: 27%
 
 ![定位活动列表](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [构建受众](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
+* [![构建受众](../assets/..build-audience-icon.png)](build-audience.md)：定义目标群体。 您可以选择现有受众，也可以使用查询建模器定义您自己的查询。
 * [更改维度](change-dimension.md)：在构建编排的营销活动时更改定向维度。
 * [合并](combine.md)：对入站群体执行分段。 您可以使用并集、交集或差集。
 * [重复数据删除](deduplication.md)：删除集客活动结果中的重复项。
