@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="自定义操作"
->abstract="如果使用的是 Adobe Campaign Standard，则有集成可用。通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。"
+>abstract="如果使用的是 Adobe Campaign Standard，则有集成可用。通过它，可使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。"
 
 如果您有Adobe Campaign Standard，则以下内置操作活动可用： **[!UICONTROL 电子邮件]**、**[!UICONTROL 推送]**&#x200B;和&#x200B;**[!UICONTROL 短信]**。
 
