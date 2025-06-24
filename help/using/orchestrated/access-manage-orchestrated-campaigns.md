@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '717'
 ht-degree: 19%
 
 ---
@@ -48,13 +48,11 @@ ht-degree: 19%
 
 此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选编排的营销活动以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
-
-营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像允许您执行下文详述的各种操作。
+营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行下文详述的各种操作。
 
 ![映像营销活动清单](assets/inventory-actions.png)
 
-* **[!UICONTROL 查看所有时间报表]** -
-* **[!UICONTROL 查看最近24小时的报告]** -
+* **[!UICONTROL 查看所有时间报表]** / **[!UICONTROL 查看最近24小时报表]** — 访问报表以测量和可视化编排的活动的影响和性能。 [了解关于编排的营销活动报告的更多信息](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。
 * **[!UICONTROL 复制]** — 在某些情况下，您可能需要复制编排的营销活动，例如，执行已停止的营销活动，或更改计划营销活动的执行频率。
 * **[!UICONTROL 删除]** — 删除营销活动。 此操作仅适用于&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
