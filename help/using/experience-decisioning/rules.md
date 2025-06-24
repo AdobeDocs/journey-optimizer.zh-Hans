@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '515'
 ht-degree: 20%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 20%
 要创建决策规则，请执行以下步骤：
 
 1. 导航到&#x200B;**[!UICONTROL 策略设置]** / **[!UICONTROL 决策规则]**，然后单击&#x200B;**[!UICONTROL 创建规则]**&#x200B;按钮。
+
+   >[!NOTE]
+   >
+   >您还可以使用来自Adobe Experience Platform的数据通过外部数据扩充您的决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。 [了解如何将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
 
 1. 此时将打开决策规则创建屏幕。 命名规则并提供描述。
 

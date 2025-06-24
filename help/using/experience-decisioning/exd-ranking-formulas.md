@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 4%
+source-wordcount: '1246'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,10 @@ ht-degree: 4%
 
    * 从[用户界面](#ranking-select-criteria)中填写&#x200B;**[!UICONTROL 标准]**&#x200B;部分，
    * 或切换到[代码编辑器](#ranking-code-editor)。
+
+   >[!NOTE]
+   >
+   >您还可以使用Adobe Experience Platform中的数据动态调整排名逻辑以反映真实情况。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。 此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。 [了解如何将Adobe Experience Platform数据用于决策](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
