@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 113940fe7c96eeeeedc743a51511bd09b9d2777e
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 97%
@@ -706,13 +706,13 @@ ht-degree: 97%
 + 数据管理 {#data-management}
    + [数据管理入门](using/data/gs-data.md)
    + [使用架构](using/data/get-started-schemas.md)
-   + [在Journey Optimizer中使用Adobe Experience Platform数据](using/data/lookup-aep-data.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集快速入门](using/data/get-started-datasets.md)
       + [数据集生存时间 (TTL) 护栏](using/data/datasets-ttl.md)
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
+   + [在Journey Optimizer中使用Adobe Experience Platform数据](using/data/lookup-aep-data.md)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
    + [渠道配置快速入门](using/configuration/get-started-configuration.md)
