@@ -88,7 +88,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. 调整语法以符合您的需求。 在本例中，我们要检索与乘客航班相关的数据。 语法如下：
 
@@ -119,7 +119,7 @@ Journey Optimizer允许您在个性化编辑器中利用Adobe Experience Platfor
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    在本例中，我们希望使用与乘客登机时间和登机口相关的信息。 因此，我们添加了这两行：
 
