@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在 [!DNL Journey Optimizer] (Beta)中使用Adobe Experience Platform数据
+title: 使用Adobe Experience Platform数据(Beta)
 description: 了解如何在 [!DNL Journey Optimizer] 决策和个性化功能中使用Adobe Experience Platform数据集。
 badge: label="Beta 版" type="Informative"
 feature: Personalization, Rules
@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
+source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
 
-# 在[!DNL Journey Optimizer]中使用Adobe Experience Platform数据 {#aep-data}
+# 使用Adobe Experience Platform数据 {#aep-data}
 
 >[!AVAILABILITY]
 >
