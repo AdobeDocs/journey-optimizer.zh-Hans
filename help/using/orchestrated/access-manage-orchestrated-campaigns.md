@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 21%
+source-wordcount: '697'
+ht-degree: 19%
 
 ---
 
@@ -48,11 +48,23 @@ ht-degree: 21%
 
 此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选编排的营销活动以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
+
+营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行下文详述的各种操作。
+
+![映像营销活动清单](assets/inventory-actions.png)
+
+* **[!UICONTROL 查看所有时间报表]** -
+* **[!UICONTROL 查看最近24小时的报告]** -
+* **[!UICONTROL 编辑标记]** — 编辑与营销活动关联的标记。
+* **[!UICONTROL 复制]** — 在某些情况下，您可能需要复制编排的营销活动，例如，执行已停止的营销活动，或更改计划营销活动的执行频率。
+* **[!UICONTROL 删除]** — 删除营销活动。 此操作仅适用于&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
+* **[!UICONTROL 存档]** — 存档营销活动。 所有存档的营销活动都将在上次修改日期后30天滚动重新计划删除。 此操作适用于除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动之外的所有营销活动。
+
 ## 精心策划的活动包含哪些内容？ {#gs-ms-campaign-inside}
 
 精心设计的竞选画布是预期结果的呈现。 它描述要执行的各种任务及其如何链接在一起。
 
-![图像显示编排的活动画布](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![图像显示编排的活动画布](assets/canvas-example.png)
 
 每个编排的活动都包含：
 
@@ -76,26 +88,6 @@ ht-degree: 21%
 * **[!UICONTROL 实时]**：编排的活动已发布并正在执行。
 * **[!UICONTROL 已计划]**：已计划协调的活动执行。
 * **[!UICONTROL 已完成]**：编排的活动执行已完成。 在营销活动完成消息发送且无错误后，最多可在3天内自动分配“已完成”状态。
-* **[!UICONTROL 已关闭]**：当定期营销活动已停止时，将显示此状态。
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL 已关闭]**：当定期营销活动已关闭时，将显示此状态。 营销活动会继续执行直至其所有活动均已完成，但无法再有用户档案进入营销活动。
 * **[!UICONTROL 已存档]**：已存档编排的营销活动。 所有已存档的营销活动都将在上次修改日期后30天滚动重新计划删除。 您可以根据需要复制已存档的活动以继续处理。
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL 已停止]**：编排的活动执行已停止。 要再次启动营销活动，您需要复制它。 错误，restera avec三角
-
-## 复制和删除编排的营销活动 {#duplicate-delete}
-
-在某些情况下，您可能需要复制编排好的营销活动，例如执行已停止的营销活动，或更改计划营销活动的执行频率。 为此，请单击营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 复制]**
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-要删除营销活动，请单击显示更多操作按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像，然后选择&#x200B;**[!UICONTROL 删除]**。
-
->[!NOTE]
->
->只能删除&#x200B;**[!UICONTROL 草稿]**&#x200B;营销活动。
