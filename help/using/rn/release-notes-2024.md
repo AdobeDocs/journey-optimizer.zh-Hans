@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -265,7 +265,7 @@ ht-degree: 100%
 <td>
 <p>在个性化编辑器中利用 Adobe Experience Platform 中的数据来对内容进行个性化。为此，必须首先通过 API 调用启用查找个性化所需的数据集。完成后，可以使用其数据对您的内容进行个性化并将它们引入到 [!DNL Journey Optimizer] 中。</p>
 <p>此功能目前为公开 Beta 版，可供所有客户使用。</p>
-<p>有关更多信息，请参阅<a href="../personalization/lookup-aep-data.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../personalization/aep-data-perso.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

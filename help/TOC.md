@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 98%
+source-wordcount: '2462'
+ht-degree: 97%
 
 ---
 
@@ -372,7 +372,7 @@ ht-degree: 98%
       + [添加个性化内容](using/personalization/personalization-build-expressions.md)
       + [个性化语法](using/personalization/personalization-syntax.md)
       + [重复使用表达式片段](using/personalization/use-expression-fragments.md)
-      + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/lookup-aep-data.md)
+      + [使用 Adobe Experience Platform 数据进行个性化设置（Beta 版）](using/personalization/aep-data-perso.md)
       + 辅助函数列表 {#functions}
          + [辅助函数入门](using/personalization/functions/functions.md)
          + [聚合函数](using/personalization/functions/aggregation.md)
@@ -553,6 +553,7 @@ ht-degree: 98%
          + [创建排名方法](using/experience-decisioning/ranking.md)
          + [使用 AI 公式生成器](using/experience-decisioning/exd-ranking-formulas.md)
          + [利用上下文数据](using/experience-decisioning/context-data.md)
+         + [使用Adobe Experience Platform进行决策](using/experience-decisioning/aep-data-exd.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
@@ -705,6 +706,7 @@ ht-degree: 98%
 + 数据管理 {#data-management}
    + [数据管理入门](using/data/gs-data.md)
    + [使用架构](using/data/get-started-schemas.md)
+   + [在Journey Optimizer中使用Adobe Experience Platform数据](using/data/lookup-aep-data.md)
    + Journey Optimizer 数据集 {#datasets}
       + [数据集快速入门](using/data/get-started-datasets.md)
       + [数据集生存时间 (TTL) 护栏](using/data/datasets-ttl.md)
