@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 7%
 
 编排的营销活动附带规则生成器，可简化根据各种标准筛选数据库的过程。 规则生成器可以高效地管理非常复杂和长的查询，从而提供增强的灵活性和精确度。
 
-它还支持条件中的预定义过滤器，使用户能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
+它还支持条件中的预定义过滤器，使您能够轻松优化查询，同时利用高级表达式和运算符实现全面的受众定位和分段策略。
 
 ## 访问规则生成器
 
-在&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动中构建查询以定位受众时，可以使用规则生成器。 它允许您指定要定位的群体，并根据您的需求轻松地创建新受众。
+在每个需要定义规则以过滤数据的环境下都有查询建模器可用。
 
-![图像显示生成受众活动](assets/rule-builder-query.png)
+| 使用情况 | 示例 |
+|  ---  |  ---  |
+| **构建受众**：使用&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动指定要在编排的营销活动中定位的群体，并轻松创建根据您的需求定制的新受众。 [了解如何构建受众](../orchestrated/activities/build-audience.md) | ![显示如何访问受众创建界面的图像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **在营销活动画布中创建条件**：使用&#x200B;**[!UICONTROL 拆分]**&#x200B;活动在营销活动画布中应用规则，以满足您的特定要求。 [了解如何使用拆分活动](../orchestrated/activities/split.md) | ![显示如何访问工作流自定义选项的图像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **创建高级过滤器**：生成规则以过滤列表中显示的数据，如工作流日志或定向维度。 | ![显示如何自定义列表过滤器的图像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## 规则生成器界面 {#interface}
 
