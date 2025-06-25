@@ -8,10 +8,11 @@ role: User
 level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+exl-id: a2892f0a-5407-497c-97af-927de81055ac
+source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 6%
+source-wordcount: '2109'
+ht-degree: 8%
 
 ---
 
@@ -26,12 +27,12 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。
+>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。
 
 
 ## 主要优点 {#journey-pause-benefits}
 
-暂停和恢复历程通过允许暂停实时历程而不中断客户体验，为历程参与者提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且用户档案将保持暂停状态，直到历程恢复。
+暂停和恢复历程通过允许暂停实时历程而不中断客户体验，为历程参与者提供了更好的控制和灵活性。 暂停后，不会发送任何通信，并且轮廓将停留在暂停状态，直到历程恢复。
 
 此功能降低在错误或更新（例如：更改消息内容）期间发送意外消息的风险，支持更安全的历程管理，并提高从业者的信心。 直接在UI中查看暂停的历程及其状态可进一步提高透明度和操作敏捷性。
 
@@ -146,7 +147,11 @@ ht-degree: 6%
 
 ## 护栏和限制 {#journey-pause-guardrails}
 
-* 历程版本最长可暂停14天
+* 历程版本最多可暂停&#x200B;**14天**，整个组织的暂停历程中最多允许&#x200B;**10万个配置文件**。
+此限制每30分钟检查一次。 这意味着您可能会暂时超过1000万的阈值，但是一旦系统检测到该阈值，任何额外的用户档案都将被自动放弃。
+
+  如果您恢复历程以使保留的用户档案数恢复到限制以下，则历程将立即恢复 — 但更新用户档案计数最多可能需要30分钟。 在此期间，系统仍会将这些配置文件视为已暂停。
+
 * 暂停的历程计入实时历程配额
 * 已进入历程但在暂停期间被放弃的用户档案仍将被计为可参与的用户档案
 * 暂停的历程会以与实时历程相同的方式纳入所有业务规则中
@@ -162,7 +167,7 @@ ht-degree: 6%
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+   * **Event**活动在配置文件正在等待的操作之后时丢弃了事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端到端示例 {#journey-pause-sample}
