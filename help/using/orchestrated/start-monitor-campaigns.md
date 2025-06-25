@@ -6,10 +6,10 @@ description: 了解如何使用Adobe Journey Optimizer计划和开始编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 50386efbb639031bfc41a0aa67f4f3b49603f03a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 14%
+source-wordcount: '1197'
+ht-degree: 12%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
->title="调度程序活动"
->abstract="您可以使用营销活动&#x200B;**调度程序**&#x200B;来计划精心策划的营销活动何时开始。应将此活动视为已计划的一次开始。只能将它用作协同营销活动的第一个活动。"
+>title="调度程序"
+>abstract="作为营销活动经理，您可以将营销活动计划为在特定时间自动启动，从而为营销通信提供精确的时间和准确的定位数据。"
 
 作为营销活动经理，您可以将营销活动计划为在特定时间自动启动，从而为营销通信提供精确的时间和准确的定位数据。
 
