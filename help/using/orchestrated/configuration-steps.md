@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
+source-git-commit: fad312d2951dc6d602fb27d24adad6de0192f650
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%
@@ -155,7 +155,7 @@ ht-degree: 3%
 
    ![](assets/schema_2.png)
 
-1. 输入来自当前架构&#x200B;**的**&#x200B;[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]&#x200B;**的**&#x200B;关系名称。
+1. 输入来自当前架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称。
 
 1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改。
 
@@ -179,7 +179,7 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    * 使用新帐户
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -189,9 +189,11 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    选择文件夹可确保自动处理具有相同结构的所有当前和未来文件，而选择文件则需要手动更新每个新数据增量。
 
-   ![](assets/s3_config_1.png)
+   ![](assets/S3_config_1.png)
 
 1. 选择您的数据格式，然后单击下一步。
+
+
 
 <!--manual
 ## Create a relational schema manual
