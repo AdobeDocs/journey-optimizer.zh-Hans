@@ -6,7 +6,8 @@ description: 了解如何配置优惠方案以捕获事件
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
+exl-id: f70ba749-f517-4e09-a381-243b21713b48
+source-git-commit: 3b0931a532cc85b316718d590c2e5e78471be890
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -106,4 +107,4 @@ ht-degree: 1%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->如果您使用的是[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=zh-Hans){target="_blank"}，则会自动建立连接。
+>如果您使用的是[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，则会自动建立连接。
