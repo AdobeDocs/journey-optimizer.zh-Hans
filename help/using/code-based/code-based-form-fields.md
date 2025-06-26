@@ -5,10 +5,11 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -30,12 +31,12 @@ ht-degree: 1%
 
 将内容模板应用于其内容时，用户将能够自定义在任何引用变量的位置使用的颜色。
 
-## 将可编辑字段添加到HTML或JSON内容模板 {#add-editable-fields}
+## 向 HTML 或 JSON 内容模板中添加可编辑字段 {#add-editable-fields}
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
->title="检查表单字段的呈现"
->abstract="在JSON或HTML内容模板中，您可以定义特定的可编辑字段，这些字段将使非技术用户能够在基于代码的体验中轻松编辑内容，而无需处理代码。 使用专用语法创建这些字段，然后使用此按钮预览它们。"
+>title="检查表单字段的渲染"
+>abstract="在 JSON 或 HTML 内容模板中，您可以定义特定的可编辑字段，使非技术用户也能轻松编辑基于代码的内容体验，而无需修改代码。使用专用语法创建这些字段，并通过此按钮预览效果。"
 
 若要使您的某些JSON或HTML代码可编辑，请先创建基于代码的体验[内容模板](../content-management/content-templates.md)，您可以在其中定义特定表单字段。
 
@@ -196,12 +197,12 @@ ht-degree: 1%
 {{/each}}
 ```
 
-## 编辑基于代码的体验中的表单字段 {#edit-form-fields}
+## 在基于代码的体验中编辑表单字段 {#edit-form-fields}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
 >title="什么是表单字段？"
->abstract="此基于代码的体验包含一些表单字段，您可以轻松地编辑这些表单字段，而无需在个性化编辑器中处理代码。"
+>abstract="此基于代码的体验包含表单字段，您可以在个性化编辑器中轻松编辑这些字段，而无需修改代码。"
 
 现在创建了包含预定义的可编辑表单字段的内容模板，您可以使用此内容模板构建基于代码的体验。
 
@@ -245,5 +246,4 @@ ht-degree: 1%
 
 了解如何将可编辑字段添加到基于代码的体验渠道内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464001/?learn=on&#x26;enablevpops&captions=chi_hans)
-
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

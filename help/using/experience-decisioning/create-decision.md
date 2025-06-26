@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1796'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="定义决策策略"
->abstract="决策策略允许您从决策引擎中选择最佳项目并将其交付给合适的受众。"
+>abstract="决策策略允许您从决策引擎中挑选最佳项目，并将其推送给合适的受众。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="关于决策"
 
 决策策略是优惠的容器，它们利用决策引擎根据受众选择要投放的最佳内容。
