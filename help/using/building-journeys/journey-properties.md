@@ -48,7 +48,7 @@ ht-degree: 15%
 
 使用&#x200B;**复制技术详细信息**&#x200B;选项，您可以复制有关历程的技术信息，供支持团队用于进行故障排除。 已复制以下信息：`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
 
-在此页面](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们[。
+在此页面[&#128279;](expression/journey-properties.md)上进一步了解与给定用户档案的历程相关的技术字段以及如何使用它们。
 
 ## 入口和重入 {#entrance}
 
@@ -137,7 +137,7 @@ ht-degree: 15%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;****
+单一历程的&#x200B;**&#x200B;**
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
