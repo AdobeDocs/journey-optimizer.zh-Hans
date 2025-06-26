@@ -38,7 +38,7 @@ ht-degree: 28%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以选择[固定时区](#fixed-timezone)或选择使用用户配置文件](#timezone-from-profiles)中定义的时区[。
+您可以选择[固定时区](#fixed-timezone)或选择使用用户配置文件[&#128279;](#timezone-from-profiles)中定义的时区。
 
 ## 定义固定时区 {#fixed-timezone}
 
