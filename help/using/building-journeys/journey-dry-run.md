@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '995'
 ht-degree: 21%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 21%
 要激活试运行，请执行以下步骤：
 
 1. 打开要测试的历程。
-1. 单击&#x200B;**练习**&#x200B;按钮。
+1. 选择&#x200B;**练习**&#x200B;按钮。
 
    ![开始历程试运行](assets/dry-run-button.png)
 

@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 历程，用例，消息，订阅者，列表，读取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 17%

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1767'
 ht-degree: 8%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 ![](assets/journeytest4.png)
 
-利用接口，可传递简单的事件参数。 如果要在事件中传递集合或其他高级对象，则可以单击&#x200B;**[!UICONTROL 代码视图]**&#x200B;以查看有效负载的整个代码并对其进行修改。 例如，您可以复制并粘贴技术用户准备的事件信息。
+利用接口，可传递简单的事件参数。 如果要在事件中传递集合或其他高级对象，则可以选择&#x200B;**[!UICONTROL 代码视图]**&#x200B;以查看有效负载的整个代码并对其进行修改。 例如，您可以复制并粘贴技术用户准备的事件信息。
 
 ![](assets/journeytest5.png)
 

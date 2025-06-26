@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，历程，定义，开始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 49%
+source-wordcount: '1085'
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="历程事件"
->abstract="事件与个人相关联。它与一个人的行为（例如，一个人购买了产品、访问了商店、退出了网站等）或与一个人相关的某件事（例如，一个人达到了 10,000 个忠诚度积分）有关。Journey Optimizer 可监听历程中的单一事件，以编排最佳的后续操作。"
+>abstract="事件与个人相关联。它与个人的行为相关（例如，某人购买产品、访问商店、退出网站等）或与个人发生的事情（例如，某人达到10,000个忠诚点）。 Journey Optimizer 可监听历程中的单一事件，以编排最佳的后续操作。"
 
 使用事件单独触发历程，在每个用户进入历程时向其交付实时消息。
 
@@ -36,13 +36,13 @@ ht-degree: 49%
 
 ## 单一事件 {#unitary-events}
 
-**单一**&#x200B;事件事件已链接到人员。 它与人员的行为相关（例如，某人购买产品、访问商店、退出网站等）或与人员发生的事情相关（例如，某人达到10,000个忠诚点数）。 这是[!DNL Journey Optimizer]在历程中将侦听的内容，以编排最佳的后续行动。 单一事件可以是基于规则的，也可以是系统生成的。 要了解如何创建单一事件，请参阅此[页面](../event/about-creating.md)。
+**单一**&#x200B;事件事件已链接到人员。 它与人员的行为相关（例如，某人购买产品、访问商店、退出网站等）或与人员发生的事情相关（例如，某人达到10,000个忠诚点）。 这是[!DNL Journey Optimizer]在历程中将侦听的内容，以编排最佳的后续行动。 单一事件可以是基于规则的，也可以是系统生成的。 要了解如何创建单一事件，请参阅此[页面](../event/about-creating.md)。
 
 单一历程（以事件或受众资格筛选开始）包含护栏，可防止同一事件多次错误触发历程。默认情况下，会在 5 分钟内暂时阻止用户档案重新进入。例如，如果某个事件在 12:01 触发某个特定用户档案的历程，而另一个事件在 12:03 到达（无论是同一事件还是其他事件触发同一历程），则对于此用户档案，该历程将不会重新开始。
 
 ## 业务事件 {#business-events}
 
-**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。在此页面[&#128279;](../event/about-creating-business.md)上了解如何创建业务活动。
+**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。在此页面](../event/about-creating-business.md)上了解如何创建业务活动[。
 
 
 ## 事件ID类型 {#event-id-type}
@@ -83,8 +83,8 @@ ht-degree: 49%
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

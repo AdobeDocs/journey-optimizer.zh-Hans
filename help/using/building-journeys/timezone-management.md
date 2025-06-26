@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 时区，属性，历程，条件，时间，日期，自定义
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 28%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 您可以在历程的[属性](../building-journeys/journey-properties.md#timezone)中定义时区。
 
-要访问历程属性，请单击屏幕右上角的铅笔图标。
+要访问历程属性，请选择屏幕右上角的铅笔图标。
 
 此时区将用于包含时间元素的历程的每个活动，例如：
 
@@ -38,7 +38,7 @@ ht-degree: 28%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以选择[固定时区](#fixed-timezone)或选择使用用户配置文件[&#128279;](#timezone-from-profiles)中定义的时区。
+您可以选择[固定时区](#fixed-timezone)或选择使用用户配置文件](#timezone-from-profiles)中定义的时区[。
 
 ## 定义固定时区 {#fixed-timezone}
 

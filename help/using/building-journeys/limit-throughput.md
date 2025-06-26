@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: 历程，数据源，限制，吞吐量，自定义，操作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Adobe Journey Optimizer允许从业人员通过使用自定义操作和数据源
 
 ![](assets/limit-throughput-2.png)
 
-我们以&#x200B;**受众触发的历程**&#x200B;为例，该历程使用&#x200B;**10 000个用户档案**&#x200B;的群体，并向支持&#x200B;**100个请求/秒**&#x200B;的外部系统发送数据。
+我们以&#x200B;**受众触发的历程**&#x200B;为例，该历程使用&#x200B;**10,000个用户档案**&#x200B;的群体，并向支持&#x200B;**100个请求/秒**&#x200B;的外部系统发送数据。
 
 1. 您可以定义读取受众以读取吞吐量为500个配置文件/秒的配置文件，这意味着读取所有配置文件将需要20秒。 在第二个1，您将阅读其中500篇内容，在第二个2,500多篇内容中，依此类推。
 

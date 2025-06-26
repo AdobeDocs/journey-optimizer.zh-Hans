@@ -9,9 +9,9 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 624bcbdbbd33d9827b98c953043e692757deb847
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2106'
 ht-degree: 8%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 8%
 要恢复暂停的历程并开始再次侦听历程事件，请执行以下步骤：
 
 1. 打开要恢复的历程。
-1. 单击历程画布右上角的&#x200B;**...更多**&#x200B;按钮，然后选择&#x200B;**继续**。
+1. 选择历程画布右上角的&#x200B;**...更多**&#x200B;按钮，然后选择&#x200B;**继续**。
 
    历程切换到&#x200B;**恢复**&#x200B;状态。 当历程继续时，新入口在一分钟内开始。 恢复保留的用户档案可能需要一些时间 — 用户档案恢复速度为5k tps。  由于必须恢复所有配置文件才能使历程再次处于&#x200B;**实时**&#x200B;状态，因此从&#x200B;**恢复**&#x200B;状态过渡到&#x200B;**实时**&#x200B;状态可能需要一些时间。
 
@@ -121,7 +121,7 @@ ht-degree: 8%
 
 1. 浏览到要修改的暂停历程。
 
-1. 单击&#x200B;**退出标准和全局过滤器**&#x200B;图标。
+1. 选择&#x200B;**退出标准和全局过滤器**&#x200B;图标。
 
    ![将全局筛选器添加到暂停的历程](assets/add-global-filter.png)
 
@@ -167,7 +167,7 @@ ht-degree: 8%
 * 某些已弃用的配置文件会在历程步骤事件中可见，但在报表中不可见。 例如：
    * 放弃&#x200B;**读取受众**&#x200B;的业务事件
    * 由于历程暂停，**读取受众**&#x200B;作业被丢弃
-   * **Event**&#x200B;活动在配置文件正在等待的操作之后时丢弃了事件
+   * **Event**活动在配置文件正在等待的操作之后时丢弃了事件
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## 端到端示例 {#journey-pause-sample}

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 自定义操作疑难解答
+title: 自定义操作故障排除
 description: 了解如何对自定义操作进行故障诊断
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -9,14 +9,14 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，第三方，自定义，历程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 4367e39013e87b12848fc172df9b68cd637fc802
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 2%
 
 ---
 
-# 自定义操作疑难解答 {#troubleshoot-a-custom-action}
+# 自定义操作故障排除 {#troubleshoot-a-custom-action}
 
 您可以通过从Journey Optimizer用户界面的“管理”部分发送API调用来测试自定义操作。 此功能可帮助您在历程中使用自定义操作之前或之后对其进行故障诊断。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 要测试自定义操作，请执行以下步骤：
 
 1. 导航到&#x200B;**操作**&#x200B;配置屏幕，然后选择自定义操作。
-1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**&#x200B;按钮。
+1. 单击操作配置屏幕底部的&#x200B;**[!UICONTROL 发送测试请求]**按钮。
    在操作配置面板中![发送测试请求按钮](assets/test-request.png){width="70%" align="left"}
 1. 在弹出窗口中，允许您指定请求参数：
 

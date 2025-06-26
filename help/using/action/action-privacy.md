@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据、治理、 DULE、标签、添加标签、平台、策略
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 96%
 
 如果系统在历程/营销活动或自定义操作中识别出受限字段，则会显示错误并阻止您发布。
 
-**[!UICONTROL 警报]**&#x200B;按钮将显示错误。单击该错误可显示出现的数据治理策略违规的详细信息。
+**[!UICONTROL 警报]**&#x200B;按钮将显示错误。选择此错误可显示有关发生的数据治理策略违规的详细信息。
 
 ![](assets/action-privacy8.png)
 

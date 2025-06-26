@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1351'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
   Adobe Journey Optimizer还提供了一个特定的[产品内用例](#use-case-1)，以便于创建测试配置文件。
 
-您可以将JSON文件上传到现有数据集。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans#add-data-to-dataset){target="_blank"}。
+您可以将JSON文件上传到现有数据集。 有关详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
 
 请注意，创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关详细信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
@@ -52,9 +52,9 @@ ht-degree: 3%
    ![](assets/test-profiles-1.png)
 1. 输入架构的名称，然后单击&#x200B;**完成**。
    ![](assets/test-profiles-1-bis.png)
-1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择适当的字段组。 确保添加&#x200B;**配置文件测试详细信息**&#x200B;字段组。
+1. 在&#x200B;**字段组**&#x200B;部分的左侧，单击&#x200B;**添加**&#x200B;并选择适当的字段组。 确保添加&#x200B;**配置文件测试详细信息**字段组。
    ![](assets/test-profiles-1-ter.png)
-完成后，单击&#x200B;**[!UICONTROL 添加字段组]**：字段组的列表将显示在架构概述屏幕上。
+完成后，单击**[!UICONTROL 添加字段组]**：字段组的列表将显示在架构概述屏幕上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -65,13 +65,13 @@ ht-degree: 3%
    ![](assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL 字段属性]**&#x200B;右侧窗格中，检查&#x200B;**[!UICONTROL 标识]**&#x200B;和&#x200B;**[!UICONTROL 主标识]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL 电子邮件]**&#x200B;命名空间。 单击&#x200B;**[!UICONTROL 应用]**。
    ![](assets/test-profiles-4bis.png)
-1. 选择架构并在&#x200B;**[!UICONTROL 架构属性]**&#x200B;窗格中启用&#x200B;**[!UICONTROL 配置文件]**&#x200B;选项。
+1. 选择架构并在&#x200B;**[!UICONTROL 架构属性]**&#x200B;窗格中启用&#x200B;**[!UICONTROL 配置文件]**选项。
    ![](assets/test-profiles-5.png)
 1. 单击&#x200B;**保存**。
 
 >[!NOTE]
 >
->有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#prerequisites){target="_blank"}。
+>有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
 
 ### 创建数据集
 
@@ -79,18 +79,18 @@ ht-degree: 3%
 
 1. 浏览到&#x200B;**[!UICONTROL 数据集]**，然后单击&#x200B;**[!UICONTROL 创建数据集]**。
    ![](assets/test-profiles-6.png)
-1. 选择&#x200B;**[!UICONTROL 从架构]**&#x200B;创建数据集。
+1. 选择&#x200B;**[!UICONTROL 从架构]**创建数据集。
    ![](assets/test-profiles-7.png)
 1. 选择之前创建的架构，然后单击&#x200B;**[!UICONTROL 下一步]**。
    ![](assets/test-profiles-8.png)
 1. 选择一个名称，然后单击&#x200B;**[!UICONTROL 完成]**。
    ![](assets/test-profiles-9.png)
-1. 启用&#x200B;**[!UICONTROL 配置文件]**&#x200B;选项。
+1. 启用&#x200B;**[!UICONTROL 配置文件]**选项。
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#getting-started){target="_blank"}。
+> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
 
 ## 产品内用例{#use-case-1}
 
@@ -114,7 +114,7 @@ ht-degree: 3%
    1. **国家/地区**：测试用户档案居住国家/地区
    1. **性别**：测试个人资料性别。 可用值为&#x200B;**男**、**女**&#x200B;和&#x200B;**非指定**
 
-选择身份命名空间并根据上述格式提供CSV文件后，单击右上角的&#x200B;**[!UICONTROL 运行]**&#x200B;按钮。 用例可能需要几分钟才能完成。 一旦用例完成处理和创建测试用户档案，将发送通知以通知用户。
+选择身份命名空间并根据上述格式提供CSV文件后，选择右上角的&#x200B;**[!UICONTROL 运行]**&#x200B;按钮。 用例可能需要几分钟才能完成。 一旦用例完成处理和创建测试用户档案，将发送通知以通知用户。
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ ht-degree: 3%
    ![](assets/test-profiles-22.png)
 1. 定义受众的名称并构建受众：选择字段和值以定向您需要的用户档案。
    ![](assets/test-profiles-23.png)
-1. 单击&#x200B;**保存**&#x200B;并检查受众是否正确定向了用户档案。
+1. 单击&#x200B;**保存**并检查受众是否正确定向了用户档案。
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
@@ -150,7 +150,7 @@ ht-degree: 3%
 1. 选择架构、**testProfiles**&#x200B;字段和数据集，并将值设置为&#x200B;**True**。 若要执行此操作，请在&#x200B;**[!UICONTROL VALUE]**&#x200B;字段中，单击右侧的&#x200B;**笔**&#x200B;图标，选择&#x200B;**[!UICONTROL 高级模式]**&#x200B;并输入&#x200B;**true**。
    ![](assets/test-profiles-26.png)
 1. 单击&#x200B;**[!UICONTROL 发布]**。
-1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;部分中，检查配置文件是否已正确更新。
+1. 在&#x200B;**[!UICONTROL 受众]**部分中，检查配置文件是否已正确更新。
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
@@ -187,7 +187,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans#tutorials){target="_blank"}。
+>有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
 >
 
 
@@ -248,4 +248,4 @@ curl -X POST \
 
 了解如何创建测试用户档案。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416329?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

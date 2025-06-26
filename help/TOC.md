@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2456'
 ht-degree: 98%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 98%
       + [配置和跟踪历程指标](using/building-journeys/success-metrics.md)
       + [设计您的历程](using/building-journeys/using-the-journey-designer.md)
       + [测试您的历程](using/building-journeys/testing-the-journey.md)
-      + [模拟您的历程](using/building-journeys/journey-simulation.md)
       + [历程试运行](using/building-journeys/journey-dry-run.md)
       + [发布您的历程](using/building-journeys/publishing-the-journey.md)
       + [历程中的实时报告](using/building-journeys/report-journey.md)
@@ -296,7 +295,7 @@ ht-degree: 98%
       + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
       + 配置短信/彩信/RCS渠道{#configure-sms}
-         + [开始使用短信/彩信/RCS配置](using/sms/sms-configuration.md)
+         + [SMS / MMS / RCS 配置入门](using/sms/sms-configuration.md)
          + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
          + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
          + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)

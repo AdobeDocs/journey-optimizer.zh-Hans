@@ -8,17 +8,17 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
 
 # 历程入门{#jo-general-principle}
 
-借助 [!DNL Journey Optimizer]，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。您可以设计具有以下功能的分步式高级方案：
+借助 [!DNL Journey Optimizer]，可以利用存储在事件或数据源中的上下文数据构建实时编排用例。您可以使用以下功能设计多步骤高级方案：
 
 * 使用 Adobe Experience Platform 受众在接收到事件时触发发送实时&#x200B;**单一投放**，或进行&#x200B;**批量**&#x200B;处理。
 
@@ -56,4 +56,4 @@ Journey Optimizer 历程设计器提供了营销人员和历程从业者跨渠�
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
