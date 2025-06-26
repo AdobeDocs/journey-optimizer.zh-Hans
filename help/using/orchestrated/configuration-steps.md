@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 16%
+source-wordcount: '1008'
+ht-degree: 3%
 
 ---
 
@@ -34,123 +34,164 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-<!--
+本指南将指导您完成以下过程：创建关系架构、为编排的营销活动配置数据集、通过S3源摄取数据，以及在AP平台中查询摄取的数据。
 
-This guide walks you through the process of creating a relational schema, configuring a dataset for orchestrated campaigns, ingesting data via an S3 source, and querying the ingested data in the AP platform. Each step is explained in detail with emphasis on why it is important.
+在此示例中，设置包括集成两个关键实体&#x200B;**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**，并将它们链接到现有核心实体&#x200B;**收件人**&#x200B;和&#x200B;**品牌**。
 
+1. [上传DDL文件](#upload-ddl)
 
-You have now:
+   为编排的营销活动定义关系数据模型，包括&#x200B;**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**&#x200B;实体，以及所需的键和版本控制属性。
 
-- Created a relational schema
-- Configured a CDC-enabled dataset
-- Ingested data via S3
-- Scheduled and monitored a data flow
-- Queried the ingested data
+1. [选择实体](#entities)
 
-This setup is essential for running orchestrated AGO campaigns effectively and ensuring timely, accurate data synchronization.
+   在架构中的表之间建立有意义的关系，以创建一致且互连的数据模型。
 
-## Create a relational schema / (-) Upload DDL file 
+1. [链接架构](#link-schema)
 
-1. Log in to the AP Platform.
+   将&#x200B;**忠诚度交易**&#x200B;实体链接到&#x200B;**收件人**，将&#x200B;**忠诚度奖励**&#x200B;链接到&#x200B;**品牌**，以构建支持个性化客户历程的连接数据模型。
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [引入数据](#ingest)
 
-1. Click on **Create Schema**.
+   将来自受支持源（如SFTP、云存储或数据库）的数据引入Adobe Experience Platform。
 
-1. You will be prompted to select between two schema types:
+## 上传 DDL 文件 {#upload-ddl}
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+本节提供了有关如何通过上传DDL（数据定义语言）文件在Adobe Experience Platform中创建关系模式的分步指南。 使用DDL文件，您可以预先定义数据模型的结构，包括表、属性、键和关系。
 
-    ![](assets/admin_schema_1.png)
+1. 登录到AP平台。
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. 导航到&#x200B;**数据管理** > **架构**。
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. 单击&#x200B;**创建架构**。
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+1. 系统将提示您选择以下两种架构类型：
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   * **标准**
+   * **关系**，专门用于编排的营销活动
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]** and click **[!UICONTROL Done]**.
+1. 选择&#x200B;**上传DDL文件**&#x200B;以定义实体关系图并创建架构。
 
-    ![](assets/admin_schema_2.png)
+   表结构必须包含：
+   * 至少一个主键
+   * 版本标识符，如`datetime`或`number`类型的`lastmodified`字段。
 
-Verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+1. 拖放您的DDL文件并单击&#x200B;**[!UICONTROL 下一步]**。
 
-## Select entities {#entities}
+1. 键入您的&#x200B;**[!UICONTROL 架构名称]**。
 
-To create links between tables of your schema, follow these steps:
+1. 设置每个架构及其列，确保指定了主键。
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+   必须指定一个属性（如`lastmodified`）作为版本描述符。 此属性（通常为`datetime`、`long`或`int`类型）对于摄取过程至关重要，可确保使用最新数据版本更新数据集。
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+   ![](assets/admin_schema_2.png)
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. 完成后，单击&#x200B;**[!UICONTROL 完成]**。
 
-    ![](assets/admin_schema_3.png)
+您现在可以在画布中验证表和字段定义。 [在下面的部分了解详情](#entities)
 
-    **Cardinality**:
+## 选择实体 {#entities}
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+要定义架构内各表之间的逻辑连接，请执行以下步骤。
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. 访问数据模型的画布视图，然后选择要链接的两个表
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. 单击Source联接旁边的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)按钮，然后拖动箭头并引导至Target联接以建立连接。
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   ![](assets/admin_schema_5.png)
 
-1. Use the toolbar to customize and adjust your canvas.
+1. 填写给定表单以定义链接，配置完毕后单击&#x200B;**应用**。
 
-    ![](assets/toolbar.png)
+   ![](assets/toolbar.png)
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   **基数**：
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+   * **1-N**：源表格的一个存在可以拥有目标表格的多个对应存在，但目标表格的一个存在最多可以拥有源表格的一个对应存在。
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   * **N-1**：目标表的一个存在可以具有源表的多个对应存在，但源表的一个存在最多可以具有目标表的一个对应存在。
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **1-1**：源表格的一个存在最多可以具有目标表格的一个对应存在。
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+1. 数据模型中定义的所有链接在画布视图中均表示为箭头。 单击两个表之间的箭头可查看详细信息、进行编辑或根据需要删除链接。
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   ![](assets/admin_schema_6.png)
 
-1. Click **Save** once done. This action creates the schemas and associated data sets, and enables the data set for use in Orchestrated Campaigns.
+1. 使用工具栏自定义和调整画布。
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   ![](assets/toolbar.png)
 
-    ![](assets/admin_schema_4.png)
+   * **放大**：放大画布以更清楚地查看数据模型的详细信息。
 
-Doc AEP: https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/create-schema-ui
+   * **缩小**：缩小画布大小，以便更全面地查看数据模型。
 
-## Add data
+   * **适合视图**：调整缩放以适合可见区域中的所有架构。
 
-1. Set up
+   * **筛选器**：选择要在画布中显示的架构。
 
-1. Connect existing or new account
+   * **强制自动布局**：自动排列架构以便更好地进行组织。
 
-1. Select dataset fields
+   * **显示地图**：切换小型地图覆盖以帮助更轻松地导航大型或复杂的架构布局。
 
-1. Map desired source fields to target dataset fields
+1. 完成后，单击&#x200B;**保存**。 此操作创建架构和关联的数据集，并启用数据集以用于编排的营销活动。
 
-1. 
+1. 单击&#x200B;**[!UICONTROL 打开作业]**&#x200B;以监视创建作业的进度。 此过程可能需要几分钟时间，具体取决于DDL文件中定义的表数。
 
-## Set up sources
+   ![](assets/admin_schema_4.png)
 
-Adobe Experience Platform allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Experience Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others.
+## 链接架构 {#link-schema}
 
-6 sources compatible avec data relationel, tout ce qui est fichier (data storage), SFTP, azure blob, amazon S3, database cloud snowflake, 
+在&#x200B;**忠诚度交易**&#x200B;架构和&#x200B;**收件人**&#x200B;架构之间建立关系，以将每个交易与正确的客户记录相关联。
 
+1. 导航到&#x200B;**[!UICONTROL 架构]**&#x200B;并打开您之前创建的&#x200B;**忠诚度交易记录**。
 
-![](assets/admin_sources_1.png)
+1. 单击客户&#x200B;**[!UICONTROL 字段属性]**&#x200B;中的&#x200B;**[!UICONTROL 添加关系]**。
 
-https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+   ![](assets/schema_1.png)
 
+1. 选择&#x200B;**[!UICONTROL 多对一]**&#x200B;作为关系&#x200B;**[!UICONTROL 类型]**。
+
+1. 链接到现有&#x200B;**收件人**&#x200B;架构。
+
+   ![](assets/schema_2.png)
+
+1. 输入来自当前架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称。
+
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改。
+
+继续在&#x200B;**忠诚度奖励**&#x200B;架构和&#x200B;**品牌**&#x200B;架构之间创建关系，将每个奖励条目与相应的品牌关联。
+
+![](assets/schema_3.png)
+
+## 引入数据 {#ingest}
+
+Adobe Experience Platform允许从外部源摄取数据，同时让您能够使用Experience Platform服务来构建、标记和增强传入数据。 您可以从各种源中摄取数据，如 Adobe 应用程序、基于云的存储、数据库和许多其他源。
+
+1. 从&#x200B;**[!UICONTROL 连接]**&#x200B;菜单中，访问&#x200B;**[!UICONTROL 源]**&#x200B;菜单。
+
+1. 选择&#x200B;**[!UICONTROL 云存储]**&#x200B;类别，然后选择Amazon S3，然后单击&#x200B;**[!UICONTROL 添加数据]**。
+
+   ![](assets/admin_sources_1.png)
+
+1. 连接您的S3帐户：
+
+   * 使用现有帐户
+
+   * 使用新帐户
+
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+   ![](assets/admin_sources_2.png)
+
+1. 浏览连接的S3源，直到找到之前创建的两个文件夹，即&#x200B;**忠诚度奖励**&#x200B;和&#x200B;**忠诚度交易**。
+
+1. 单击您的文件夹。
+
+   选择文件夹可确保自动处理具有相同结构的所有当前和未来文件，而选择文件则需要手动更新每个新数据增量。
+
+   ![](assets/s3_config_1.png)
+
+1. 选择您的数据格式，然后单击下一步。
 
 <!--manual
 ## Create a relational schema manual
