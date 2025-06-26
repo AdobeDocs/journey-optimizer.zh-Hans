@@ -6,8 +6,7 @@ description: 了解如何配置优惠方案以捕获事件
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
-exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -104,7 +103,7 @@ ht-degree: 1%
 >
 >要使您的自定义事件计入[频率封顶](../offer-library/add-constraints.md#capping)，您需要将体验事件发送到以下两个Adobe Experience Platform数据收集端点之一，以将其连接到Edge端点：
 >
->* POST/ee/v2/interact
->* POST/ee/v2/collect
+>* POST /ee/v2/interact
+>* POST /ee/v2/collect
 >
->如果您使用的是[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=zh-Hans){target="_blank"}，则会自动建立连接。
+>如果您使用的是[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，则会自动建立连接。
