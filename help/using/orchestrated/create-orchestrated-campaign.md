@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用Journey Optimizer创建和计划编排的营销活动
-description: 了解如何使用Adobe Journey Optimizer创建编排的活动
+description: 了解如何使用Adobe Journey Optimizer创建和计划编排的营销活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 19%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 19%
 
 | 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](gs-campaign-creation.md)<br/><br/><b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[发送包含编排营销活动的消息](send-messages.md)<br/><br/>[开始和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[访问和管理协调的营销活动](access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](gs-campaign-creation.md)<br/><br/><b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[发送包含编排营销活动的消息](send-messages.md)<br/><br/>[开始和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -34,115 +34,105 @@ ht-degree: 19%
 
 <br/>
 
->[!BEGINSHADEBOX]
+在[!DNLAadobe Journey Optimizer]中创建编排的营销活动，并配置其执行计划以控制其启动时间和运行频率。 选择在特定的日期和时间立即启动促销活动，或者使用灵活的计划选项（如每天、每周或每月频率）定期启动促销活动。
 
-正在进行文档
-
->[!ENDSHADEBOX]
-
-## 创建营销活动 {#create}
+## 创建和规划营销活动 {#create}
 
 要创建编排的营销活动，请执行以下步骤：
 
-1. 浏览到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 创建营销活动]**。
+1. 转到&#x200B;**[!UICONTROL 营销活动]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 业务流程]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 创建营销活动]**。
 
    ![](assets/inventory-create.png)
 
-1. 输入编排的营销活动的名称。 此外，我们强烈建议您在专用字段中添加描述。
+1. 输入营销活动的名称和描述。
 
-1. （可选）使用&#x200B;**标记**&#x200B;字段将Adobe Experience Platform统一标记分配给您编排的营销活动。 这样，您就可以轻松地对营销活动进行分类，并改进营销活动列表中的搜索。[了解如何使用标记](../start/search-filter-categorize.md#tags)。
+1. *（可选）*&#x200B;使用&#x200B;**[!UICONTROL 标记]**&#x200B;字段将Adobe Experience Platform统一标记分配给您的营销活动。 这使您能够轻松地对它们进行分类，并从编排的营销活动列表中改进搜索。 [了解如何使用标记](../start/search-filter-categorize.md#tags)。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮进行确认。
+1. 单击&#x200B;**[!UICONTROL 创建]**。
 
-
-现在，您的编排活动已创建并在活动列表中可用。 您可以随时通过单击促销活动画布中的![促销活动设置图标](assets/do-not-localize/campaign-settings.svg)图标来更改这些属性。
-
+现在，您的编排活动已创建并显示在编排的活动列表中。 您可以随时通过单击促销活动画布中的![促销活动设置图标](assets/do-not-localize/campaign-settings.svg)图标来更改这些属性。
 
 ## 计划营销活动 {#schedule}
 
-默认情况下，编排的营销活动在手动激活后开始，并在执行活动后立即结束。
+默认情况下，编排的营销活动在手动激活时开始，并在执行其关联活动后结束。
 
-如果不想在活动激活后立即执行编排的活动，则可以指定活动应执行的日期和时间。 您还可以根据各种条件以固定频率执行营销活动。
+如果您希望延迟执行或定期运行该活动，则可以为该活动定义计划。
 
-要配置营销活动计划，请打开编排的营销活动，然后单击&#x200B;**[!UICONTROL 尽快]**&#x200B;按钮。
+要配置活动计划，请执行以下步骤：
 
-![](assets/create-schedule.png)
+1. 打开营销活动，然后单击&#x200B;**[!UICONTROL 尽快]**&#x200B;按钮。
 
-<!--In the Execution frequency field, select 
+   ![](assets/create-schedule.png)
 
-time zone
+1. 选择活动的执行频率，然后配置可用选项。 设置因所选频率而异：
 
-daily, weekly, monthly
-several times a day based on specific hours or periodically
+   +++一次
 
-recurring frequencies (all except as soon and once)
-preview launch times
-validity period
+   在指定的日期和时间运行一次营销活动。
+
+   * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
+   * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
+
++++
+
+   +++每日
+
+   在每天或选定的日期运行活动。
+
+   * **[!UICONTROL 每日重复周期]**：选择营销活动运行的频率：
+      * **[!UICONTROL 每天]**：在一周的每一天（包括周末）执行营销活动。
+      * **[!UICONTROL 工作日]**：仅在星期一到星期五执行营销活动。
+      * **[!UICONTROL 在特定时间段内]**：在定义的日期范围内（例如，从7月1日至7月15日）每天执行营销活动。 营销活动不会在此范围之外运行。
+      * **[!UICONTROL 在每周的选定日期]**：仅在每周的指定日期（例如，周一、周三、周五）执行营销活动。
+
+   * **[!UICONTROL 开始时间]**：定义每天应执行营销活动的时间。
+
++++
+
+   +++一天几次
+
+   在同一天内多次运行活动。 您可以选择特定时间或设置周期频率。
+
+   * **[!UICONTROL 选定的小时数]**：选择营销活动应运行的特定时间，并配置其每日重复周期（在一周的每一天或某些天执行）。
+   * **[!UICONTROL 定期]**：选择每n分钟或每小时运行一次营销活动。 您还可以在允许执行的一天内定义时间范围。
+
++++
+
+   +++每周
+
+   每周运行一次该营销活动，并提供指定日期的选项。
+
+   * **[!UICONTROL 频率]**：选择营销活动的运行频率（例如，每周、每两周）。
+   * **[!UICONTROL 从日期]**&#x200B;开始：选择循环开始的日期。
+   * **[!UICONTROL 每日重复]**：选择一周中的特定日期执行（例如，每个星期一和星期四）。
+   * **[!UICONTROL 开始时间]**：设置活动在选定日期应执行的时间。
+
++++
+
+   +++每月
+
+   每月运行一次营销活动，并包含指定日期的选项。
+
+   * **[!UICONTROL 每月重复]**：选择营销活动是每月运行还是仅在特定月份运行。
+   * **[!UICONTROL 每日重复周期]**：
+      * **[!UICONTROL 每天]**：在每月每个日历日（包括周末）执行营销活动。
+      * **[!UICONTROL 每月的最后一天]**：仅在每月的最后一个日历日（如1月31日、2月28/29日）执行营销活动。
+      * **[!UICONTROL 当月的特定日期（例如，15日）]**：在指定的日期（例如，每个月的15日）执行营销活动。
+      * **[!UICONTROL 一周的第一天/最后一天]**（例如，第一个星期一）：      在指定的工作日（例如，每周的15日）执行营销活动。
+      * **[!UICONTROL 每周的选定日期]**：在指定日期执行营销活动。
+
+   * **[!UICONTROL 开始时间]**：设置活动应执行的时间。
+
++++
+
+1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
+
+1. 对于定期计划，请单击&#x200B;**[!UICONTROL 预览启动时间]**&#x200B;按钮以根据当前配置预览即将执行的确切日期和时间。 这有助于在激活之前验证计划，并确保活动按预期运行。
 
 >[!NOTE]
 >
->When scheduling campaigns in [!DNL Adobe Journey Optimizer], ensure your start date/time aligns with the desired first delivery. For recurring campaigns, if the initial scheduled time has already passed, the campaigns will roll over to the next available time slot according to their recurrence rules.
+>在[!DNL Adobe Journey Optimizer]中计划营销活动时，请确保您的开始日期/时间与所需的首次投放一致。 对于定期活动，如果已超过初始计划时间，则活动将根据定期规则滚动到下一个可用时间段。
 
-## Work with orchestrated campaign templates {#campaign-templates}
+## 后续步骤 {#next}
 
->[!CONTEXTUALHELP]
->id="ajo_workflow_template_for_campaign"
->title="Orchestrated campaign templates"
->abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaign."
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_template_creation_properties"
->title="Orchestrated campaign properties"
->abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. In this screen, enter the label of the orchestrated campaign template and configure its settings such as its internal name, folder and execution folders, timezone, and supervisor group."
-
-Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. You can select the template of your orchestrated campaign from the orchestrated campaign properties, when creating an orchestrated campaign. An empty template is provided by default.
-
-You can create a template from an existing orchestrated campaign, or create a new template from scratch. Both methods are detailed below.
-
->[!BEGINTABS]
-
->[!TAB Create a template from an existing orchestrated campaign]
-
-To create an orchestrated campaign template from an existing orchestrated campaign, follow these steps:
-
-1. Open to the **Campaign** menu and browse to the orchestrated campaign to save as a template.
-1. Click the three dots on the right of the name of the orchestrated campaign, and choose **Copy as template**.
-1. In the popup window, confirm the template creation.
-1. In the orchestrated campaign template canvas, check, add, and configure the activities as needed.
-1. Browse to the settings, from the **Settings** button, to change the name of the orchestrated campaign template, and enter a description.
-1. Select the **folder** and **execution folder** of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
-1. Save your changes. 
-
-The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
-
-
->[!TAB Create a template from scratch]
-
-
-To create an orchestrated campaign template from scratch, follow these steps:
-
-1. Open to the **Campaign** menu and browse to the **Templates** tab. You can see the list of available orchestrated campaign templates.
-1. Click the **[!UICONTROL Create template]** button in the upper-right corner of the screen.
-1. Enter the label and open the additional options to enter a description of your orchestrated campaign template.
-1. Select the folder and execution folder of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
-1. Click the **Create** button to confirm your settings.
-1. In the orchestrated campaign template canvas, add and configure the activities as needed.
-
-     ![](assets/wf-template-activities.png){zoomable="yes"}
-
-1. Save your changes. 
-
-The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
-
->[!ENDTABS]
-
-
-
-
-
-
-## Next steps {#next}
-
-Once your campaign configuration and content are ready, you can review and activate it. [Learn more](review-activate-campaign.md)
-
--->
+配置营销活动设置和计划后，您就可以开始编排将执行的不同任务。 [了解如何编排营销活动](../orchestrated/orchestrate-activities.md)
