@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 24%
+source-wordcount: '286'
+ht-degree: 25%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 24%
 >[!AVAILABILITY]
 >
 >此功能已作为 Private Beta 发布。在未来版本中，其将逐步向所有客户提供。
->&#x200B;>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
+>>您必须同意[用户协议](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，然后才能在Adobe Journey Optimizer中使用AI助手。 有关更多信息，请与您的 Adobe 代表联系。
 
-“品牌协调”功能旨在帮助您创建、审查和管理符合品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
+“品牌协调”功能可帮助您创建、查看和管理遵守品牌准则的内容。 它可确保电子邮件促销活动在语气、消息传递和视觉身份方面保持一致，同时在内容上线之前用作质量检查。
 
 ## 通过品牌一致性验证内容 {#validate-content}
 
@@ -50,7 +50,7 @@ ht-degree: 24%
 
 1. 在Email Designer中打开&#x200B;**[!UICONTROL Brand Alignment]**&#x200B;菜单。
 
-   系统会自动根据默认品牌评估您的内容。 [了解如何分配默认品牌](brands.md)。
+   您的内容会自动根据默认品牌进行评估。 [了解如何分配默认品牌](brands.md)。
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ ht-degree: 24%
 
 1. 浏览&#x200B;**品牌一致性分数**(高、Medium、低)并查看详细反馈。
 
-1. 单击![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "全屏")图标查看更多有关您得分的分析。
+1. 单击![全屏图标获取详细的见解](assets/do-not-localize/Smock_FullScreen_18_N.svg "全屏")图标，查看更多有关您得分的见解。
 
    ![](assets/brand-score-3.png)
 

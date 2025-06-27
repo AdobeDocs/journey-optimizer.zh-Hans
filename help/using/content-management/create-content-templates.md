@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 16%
+source-wordcount: '626'
+ht-degree: 11%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 16%
 
 * 在营销活动或历程中设计内容时，请将其另存为模板。 [了解如何操作](#save-as-template)
 
-保存后，您的内容模板即可用于营销活动或历程。 无论是从头开始还是从上一个内容创建，您现在都可以在[!DNL Journey Optimizer]中构建任何内容时使用此模板。 [了解如何操作](#use-content-templates)
+保存后，您的内容模板即可用于营销活动或历程。 无论是从头开始创建，还是从以前的内容创建，您都可以在[!DNL Journey Optimizer]中构建任何内容时使用此模板。 [了解如何操作](#use-content-templates)
 
 >[!NOTE]
 >
 >* 无论对内容模板所做的更改是实时的还是草稿的，都不会传播到营销活动或历程。
 >
->* 同样，在营销策划或历程中使用模板时，您对营销策划和历程内容进行的任何编辑都不会影响以前使用的内容模板。
+>* 同样，在营销策划或历程中使用模板时，对营销策划和历程内容所做的任何编辑都不会影响以前使用的内容模板。
 
 ## 从头开始制定模板 {#create-template-from-scratch}
 
 >[!NOTE]
 >
->从2025年3月开始，弃用HTML类型内容模板。 您仍然可以使用之前在[!DNL Journey Optimizer]中创建的现有HTML内容模板。
+>从2025年3月开始，弃用HTML类型的内容模板。 以前在[!DNL Journey Optimizer]中创建的现有HTML内容模板仍可使用。
 
 要从头开始创建内容模板，请执行以下步骤。
 
@@ -58,9 +58,9 @@ ht-degree: 16%
 
 1. 从&#x200B;**[!UICONTROL 标记]**&#x200B;字段中选择或创建Adobe Experience Platform标记以对您的模板进行分类，从而改进搜索。 [了解详情](../start/search-filter-categorize.md#tags)
 
-1. 若要将自定义或核心数据使用标签分配给模板，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
+1. 要向模板分配自定义或核心数据使用标签，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解有关对象级访问控制(OLAC)的更多信息](../administration/object-based-access.md)。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;并根据需要设计内容，就像根据所选渠道对历程或营销活动中的任何内容所做的那样。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;并根据需要设计内容，其方式与根据所选渠道设计历程或营销活动中的任何内容相同。
 
    ![](assets/content-template-edition.png)
 
@@ -89,14 +89,9 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->创建电子邮件内容模板时，要快速应用符合您的品牌和设计的特定样式，可以将主题应用于内容。 [了解详情](../email/apply-email-themes.md)
+>创建电子邮件内容模板时，您可以通过对内容应用主题来快速应用符合您的品牌和设计的特定样式。 [了解详情](../email/apply-email-themes.md)
 
 ## 将内容另存为内容模板 {#save-as-template}
-
->[!CONTEXTUALHELP]
->id="ajo_messages_depecrated_inventory"
->title="了解如何迁移您的消息"
->abstract="从 2022 年 7 月 25 日开始，消息菜单取消，现在直接在历程中创作消息。如果您重用历程中的旧消息，则需要将它们另存为模板。"
 
 在营销活动或历程中设计任何内容时，您可以保存它以供将来重复使用。 为此，请执行以下步骤。
 
@@ -120,7 +115,7 @@ ht-degree: 16%
 
 1. 从&#x200B;**标记**&#x200B;字段中选择或创建Adobe Experience Platform标记以对您的模板进行分类。 [了解详情](../start/search-filter-categorize.md#tags)
 
-1. 若要将自定义或核心数据使用标签分配给模板，您可以选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解详情](../administration/object-based-access.md)。
+1. 要向模板分配自定义或核心数据使用标签，请选择&#x200B;**[!UICONTROL 管理访问权限]**。 [了解详情](../administration/object-based-access.md)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -130,4 +125,5 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->对该新模板所做的任何更改都不会传播到该模板所来自的内容。 同样，在该内容中编辑原始内容时，不会修改新模板。
+>对新模板所做的任何更改都不会传播到它源自的内容。 同样，在编辑原始内容时，不会修改新模板。
+

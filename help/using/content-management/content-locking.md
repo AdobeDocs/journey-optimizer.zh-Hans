@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: 67ebea8b1b46ee20735eee0680656e82f2839c41
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 32%
+source-wordcount: '1276'
+ht-degree: 29%
 
 ---
 
@@ -34,20 +34,20 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="已启用治理"
->abstract="内容锁定已激活，可能会阻止您进行修改。"
+>abstract="内容锁定已激活并阻止修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="只读"
->abstract="此内容为只读内容，无法修改。"
+>abstract="此内容处于只读模式，无法修改。"
 
-Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止无意中编辑或删除内容，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。
+Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止意外编辑或删除，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。
 
 >[!IMPORTANT]
 >
->内容锁定是作者适用的编辑器级别功能，并不保证在通过API导入或创建内容时不会编辑内容。
+>内容锁定是作者的一项编辑器级别功能，不保证内容在通过API导入或创建时保持未编辑状态。
 
-可在&#x200B;**结构**&#x200B;级别或&#x200B;**组件**&#x200B;级别应用内容锁定。 以下是锁定模板中的内容时在结构和组件级别应用的主要原则。
+可在&#x200B;**结构**&#x200B;级别或&#x200B;**组件**&#x200B;级别应用内容锁定。 以下是锁定模板中的内容时在结构和组件级别应用的主要原则：
 
 * 锁定结构时：
 
@@ -65,7 +65,7 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 >
 >具有创建内容模板权限的用户可以启用内容锁定。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 ## 锁定电子邮件模板 {#define}
 
@@ -95,7 +95,7 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
    * [了解如何锁定结构](#lock-structures)
    * [了解如何锁定组件](#lock-components)
 
-   如果您选择&#x200B;**[!UICONTROL 只读]**&#x200B;模式，您可以照常完成并保存模板。
+   如果您选择&#x200B;**[!UICONTROL 只读]**&#x200B;模式，请照常完成并保存模板。
 
 通过选择模板正文，您可以在设计模板时随时调整&#x200B;**[!UICONTROL 管理]**&#x200B;设置。 为此，请单击位于右侧窗格顶部的导航边栏中的&#x200B;**[!UICONTROL 正文]**&#x200B;链接。
 
@@ -173,17 +173,16 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 根据应用于模板的锁定类型，您可以对模板的结构和组件执行不同的操作。要快速识别模板内的所有可编辑区域，请切换&#x200B;**[!UICONTROL 突出可编辑区域]**&#x200B;选项。
 
-例如，在下面的模板中，除了已锁定的顶部图像之外，所有区域都是可编辑的，这意味着您无法编辑或删除它。
+例如，在下面的模板中，除了已锁定的顶部图像之外，所有区域都可以编辑，这意味着您无法编辑或删除它。
 
 ![](assets/template-lock-highlight.png)
 
-有关可应用的不同锁定类型的详细信息，请参阅以下章节：
+有关可应用的不同锁定类型的详细信息，请参阅以下部分：
 
 * [锁定结构](#lock-structures)
 * [锁定组件](#lock-components)
 
-以下是已设置的电子邮件编辑和相关内容锁定配置的一些示例：
-
+以下是已设置的电子邮件版本和相关内容锁定配置的一些示例：
 
 | 内容锁定类型 | 模板配置 | 电子邮件编辑 |
 | ------- | ------- | ------- |
@@ -193,8 +192,8 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 | 具有锁定样式且无法删除的组件。 用户只能修改内容。 | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | 锁定结构中的可编辑组件。 | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
