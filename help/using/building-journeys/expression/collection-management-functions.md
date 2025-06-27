@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 查询，集合，函数，有效负荷，历程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
@@ -149,18 +149,9 @@ _`<listExpression>.last(<condition>)`_
 
 结果为`token_2`。
 
->[!NOTE]
->
->体验事件将作为集合，以反向时间顺序从Adobe Experience Platform中进行检索，因此：
->
->* **[!UICONTROL first]**&#x200B;函数将返回最近的事件
->* **[!UICONTROL last]**&#x200B;函数将返回最旧的函数。
-
-
-
 ## at(`<index>`)函数
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
