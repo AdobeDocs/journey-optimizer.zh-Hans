@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="查询样例" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="查询样例" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br>要构建用例，您需要查询Adobe Journey Optimizer数据集，例如用于摄取跟踪体验事件的系统数据集、用于摄取历程中的步骤事件的数据集、用于向用户摄取优惠建议的数据集等。
     </div>
       <div>
