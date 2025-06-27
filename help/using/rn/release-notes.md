@@ -31,7 +31,7 @@ ht-degree: 66%
 
 在单一历程中访问历程上下文事件数据的方式没有变化。 在表达式和个性化编辑器中，用户可继续访问通过初始历程事件传入的数据。
 
-在本常见问题解答](../building-journeys/exp-event-lookup.md#faq-ee)中了解更多[。
+在本常见问题解答[&#128279;](../building-journeys/exp-event-lookup.md#faq-ee)中了解更多。
 
 
 ## 2025年6月发行说明 {#25-6-rn}
