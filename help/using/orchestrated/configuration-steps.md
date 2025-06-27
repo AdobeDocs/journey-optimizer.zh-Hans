@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1142'
 ht-degree: 3%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 3%
 
 1. 填写给定表单以定义链接，配置完毕后单击&#x200B;**应用**。
 
-   ![](assets/toolbar.png)
+   ![](assets/admin_schema_3.png)
 
    **基数**：
 
@@ -155,7 +155,7 @@ ht-degree: 3%
 
    ![](assets/schema_2.png)
 
-1. 输入来自当前架构&#x200B;**的**&#x200B;[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]&#x200B;**的**&#x200B;关系名称。
+1. 输入来自当前架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称。
 
 1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改。
 
@@ -179,21 +179,43 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    * 使用新帐户
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
+1. 选择您的文件夹&#x200B;**[!UICONTROL 数据格式]**、**[!UICONTROL 分隔符]**&#x200B;和&#x200B;**[!UICONTROL 压缩类型]**。
+
 1. 浏览连接的S3源，直到找到之前创建的两个文件夹，即&#x200B;**忠诚度奖励**&#x200B;和&#x200B;**忠诚度交易**。
 
-1. 单击您的文件夹。
+1. 选择包含您的数据的文件夹。
 
-   选择文件夹可确保自动处理具有相同结构的所有当前和未来文件，而选择文件则需要手动更新每个新数据增量。
+   选择文件夹可确保自动处理具有相同结构的所有当前和未来文件。 但是，选择单个文件需要手动上传每个新的数据增量。
+
+   ![](assets/S3_config_2.png)
+
+1. 选择您的文件夹&#x200B;**[!UICONTROL 数据格式]**、**[!UICONTROL 分隔符]**&#x200B;和&#x200B;**[!UICONTROL 压缩类型]**。 检查样本数据的准确性，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/S3_config_1.png)
 
-1. 选择您的数据格式，然后单击下一步。
+1. 选中&#x200B;**[!UICONTROL 启用变更数据捕获]**&#x200B;以从映射到关系架构且同时定义了主键和版本描述符的数据集中进行选择。
 
+1. 选择您的[之前创建的数据集](#entities)，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
+   ![](assets/S3_config_3.png)
+
+1. 在&#x200B;**[!UICONTROL 映射]**&#x200B;窗口中，验证每个源文件属性是否正确映射到目标架构中的相应字段。
+
+   完成后，单击&#x200B;**[!UICONTROL 下一步]**。
+
+   ![](assets/S3_config_4.png)
+
+1. 根据所需频率配置数据流&#x200B;**[!UICONTROL 计划]**。
+
+1. 单击&#x200B;**[!UICONTROL 完成]**&#x200B;以创建数据流。 那个按照规定的日程表自动执行。
+
+1. 从&#x200B;**[!UICONTROL 连接]**&#x200B;菜单中，选择&#x200B;**[!UICONTROL 源]**&#x200B;并访问&#x200B;**[!UICONTROL 数据流]**&#x200B;选项卡，以跟踪流执行、查看摄取的记录并解决任何错误。
+
+   ![](assets/S3_config_5.png)
 
 <!--manual
 ## Create a relational schema manual
