@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
+source-git-commit: 4d41920b9a0a1acadd97858718a2f80ee9ece8aa
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ![](assets/canvas-transition.png)
 
-## 画布工具栏 {#toolbar}
+### 画布工具栏 {#toolbar}
 
 画布工具栏提供了一些选项，用于轻松处理活动并在画布中导航：
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ![Campaign设置图标](assets/do-not-localize/canvas-map.svg)打开显示您所在位置的画布快照。
 
-## 管理活动 {#manage}
+### 管理活动 {#manage}
 
 添加活动时，属性窗格中提供了操作按钮，允许您执行多个操作。
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 若干&#x200B;**定位**&#x200B;活动（如&#x200B;**合并**&#x200B;或&#x200B;**重复数据删除**）允许您处理剩余群体，并将其包含到其他叫客过渡中。 例如，如果您使用&#x200B;**拆分**&#x200B;活动，则补数由与先前定义的任何子集都不匹配的群体组成。 若要使用此功能，请激活&#x200B;**[!UICONTROL 生成补码]**&#x200B;选项。
 
-## 复制粘贴活动 {#copy}
+### 复制粘贴活动 {#copy}
 
 您可以复制活动并将其粘贴到任何编排的活动画布中。 目标营销活动可以位于不同的浏览器选项卡中。
 
@@ -97,25 +97,25 @@ ht-degree: 1%
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--## Example {#example}
+## 图示例 {#example}
 
-Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
+这是一个精心设计的营销活动示例，旨在向所有购买量至少为100$的客户发送电子邮件，但不包括忠诚度积分低于50的所有客户。
 
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-To achieve this, activities below have been added:
+为了实现这一目标，新增了以下活动：
 
-* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
-* **[!UICONTROL Build audience]** activities to target the three sets of customers:
+* **[!UICONTROL 分支]**&#x200B;活动将编排的活动分为三个路径。
+* **[!UICONTROL 构建受众]**&#x200B;活动针对以下三类客户：
 
-    * Customers with an email,
-    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
-    * Customers belonging to the pre-existing "VIP ro reward" audience.
+   * 客户收到电子邮件，
+   * 已购买至少100$的客户，
+   * 忠诚度低于50分的客户。
 
-* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
-* A **[!UICONTROL Combine]** activity that excludes VIP customers,
-* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
+* 将&#x200B;**[!UICONTROL 将]**&#x200B;个活动组与具有电子邮件的客户以及购买至少100$的客户组合在一起，
+* **[!UICONTROL 合并]**&#x200B;活动不包括忠诚度积分低于50的客户，
+* **[!UICONTROL 电子邮件投放]**&#x200B;活动会向生成的客户发送电子邮件。
 
-Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
+## 后续步骤 {#next}
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
+成功设计编排的活动图表后，您可以执行编排的活动并跟踪其各种任务的进度。 [了解如何启动编排的活动并监视其执行情况](start-monitor-campaigns.md)
