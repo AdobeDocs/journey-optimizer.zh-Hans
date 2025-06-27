@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,6 @@ Journey Optimizer允许您在[!DNL Journey Optimizer]中利用Adobe Experience P
 * **记录数**&#x200B;在生产数据集中限制为5M，在开发沙盒数据集中限制为1M。
 * **数据使用标签和强制执行**&#x200B;目前未对启用查找的数据集强制执行。
 * **启用查找并用于个性化设置的数据集不受删除保护**。 至于将哪些数据集用于个性化，将由您自行跟踪，以确保不会删除或删除这些数据集。
-* **数据使用标签和强制执行**&#x200B;目前未对启用查找的数据集强制执行。
 
 ## 启用数据集进行数据查找 {#enable}
 
