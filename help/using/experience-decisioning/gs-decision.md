@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 20%
 
 ---
@@ -31,12 +31,12 @@ ht-degree: 20%
 
 我们的新一代决策框架旨在统一现有的Journey Optimizer工作流程，并为管理其他内容目录奠定基础。 Decisioning优惠：
 
-* 基于架构的项目目录管理：通过将自定义的元数据与每个选件关联来提高灵活性。
-* 灵活的收集规则：轻松地将优惠分组，以供根据各种标准进行未来评估。
-* 更新了决策策略和选择策略配置：允许决策组件可重复使用。
-* 试验功能：针对其他内容组件测试决策逻辑以衡量性能。
+* 基于架构的项目目录管理：通过将自定义的元数据与每个选件关联来提高灵活性
+* 灵活的收集规则：轻松地将优惠分组，以供根据各种标准进行未来评估
+* 更新了决策策略和选择策略配置：允许决策组件可重复使用
+* 试验功能：针对其他内容组件测试决策逻辑以衡量性能
 
-目前，基于代码的体验渠道支持Experience Decisioning。
+基于代码的体验渠道中支持Experience Decisioning 。
 
 ➡️ [开始使用Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 

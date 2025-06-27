@@ -6,25 +6,36 @@ description: 了解如何构建高级表达式
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: 表达式、条件、用例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
 
+
 # 高级表达式示例{#advanced-expression-examples}
 
-高级表达式编辑器可用于创建条件，以允许您在历程中筛选用户。 通过这些条件，可按时间、日期、位置、持续时间或操作（例如购买或放弃购物车）定位用户，以便在历程中重新定位他们。
+高级表达式编辑器可用于创建条件，以允许您在历程中筛选用户。 利用这些条件，可按时间、日期、位置、持续时间定位用户，以便在历程中重新定位用户。
 
 >[!CAUTION]
 >
->支持在历程表达式/条件中使用体验事件，但不建议这样做。 如果您的用例需要使用体验事件，请考虑替代方法，如[计算属性](../../audience/computed-attributes.md)，或者使用事件创建区段并将该区段合并到[`inAudience`表达式中](../../building-journeys/functions/functioninaudience.md)。
+>不支持在历程表达式/条件中使用体验事件。 如果您的用例需要使用体验事件，请考虑替代方法。 [了解详情](../exp-event-lookup.md)
 
 
 ## 基于体验事件构建条件
+
+
+>[!CAUTION]
+>
+>不支持在历程表达式/条件中使用体验事件。 如果您的用例需要使用体验事件，请考虑替代方法。 [了解详情](../exp-event-lookup.md)
+>
+
+
 
 高级表达式编辑器必须对时间序列执行查询，例如消息的购买或过去点击列表。 无法使用简单编辑器执行此类查询。
 
@@ -43,9 +54,9 @@ ht-degree: 1%
 
 首先，定位浏览在线商店但在过去7天内未完成订单的客户。
 
-<!--**This expression looks for a specified value in a string value:**
+**此表达式在字符串值中查找指定的值：**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **此表达式将查找过去7天内为该用户指定的所有事件：**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 解释：此示例使用`substr`和`lastIndexOf`函数删除包含通过移动设备应用程序启动事件传递的CRM ID的大括号。
+
 
 有关如何使用高级表达式编辑器的详细信息，请观看[此视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hans)。

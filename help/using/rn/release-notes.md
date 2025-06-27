@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 发行说明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3282f2f5b6fa4eacafc4b017ea0ca713b90cab82
+source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 72%
+source-wordcount: '1278'
+ht-degree: 66%
 
 ---
 
@@ -23,6 +23,17 @@ ht-degree: 72%
 [!DNL Adobe Journey Optimizer] 不断地提供新功能、对现有功能进行增强和修复错误。会在每月的最后一周将所有更改整合到发行说明中。[!DNL Adobe Journey Optimizer] 原生构建于 [!DNL Adobe Experience Platform] 之上并继承了其所具备的最新创新技术和改进。在 [Adobe Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans){target="_blank"}中进一步了解这些更改。
 
 
+## 最近更新 {#latest-updates}
+
+### 历程条件的更改 {#ee-change@}
+
+从7月8日开始，在新的客户组织中，历程条件中使用的表达式编辑器将不再支持使用体验事件创建表达式。 因此，[Experience Platform数据源](../datasource/adobe-experience-platform-data-source.md)中的体验事件不能用于创建表达式。 [此处](../building-journeys/exp-event-lookup.md)引用了使用体验事件创建表达式/逻辑的替代方法和最佳实践。
+
+在单一历程中访问历程上下文事件数据的方式没有变化。 在表达式和个性化编辑器中，用户可继续访问通过初始历程事件传入的数据。
+
+在本常见问题解答](../building-journeys/exp-event-lookup.md#faq-ee)中了解更多[。
+
+
 ## 2025年6月发行说明 {#25-6-rn}
 
 <!--
@@ -30,7 +41,7 @@ ht-degree: 72%
 
 **发布日期**：2025 年 6 月 18 日
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#25-06-features}
 

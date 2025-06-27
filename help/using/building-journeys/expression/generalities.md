@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 语法，编辑器，历程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '249'
 ht-degree: 5%
 
 ---
 
 # 高级表达式编辑器语法 {#syntax}
 
-下面列出了使用[高级表达式编辑器](expressionadvanced.md)时的语法基础知识。 在[此页](advanced-editor-use-cases.md)上提供了高级表达式编辑器的使用示例。
+下面列出了使用[高级表达式编辑器](expressionadvanced.md)时的语法基础知识。<!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## 括号和表达式优先级 {#parentheses-and-expression-priority}
 

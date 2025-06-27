@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 表达式编辑器，数据，历程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 57%
+source-wordcount: '711'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 57%
 ![](../assets/journey65.png)
 
 
-高级表达式编辑器提供一组内置函数和运算符，让您处理值并定义一个专门满足您需求的表达式。高级表达式编辑器还允许您定义外部数据源参数的值、处理映射字段和集合，如体验事件。
+高级表达式编辑器提供一组内置函数和运算符，让您处理值并定义一个专门满足您需求的表达式。高级表达式编辑器还允许您定义外部数据源参数的值、处理映射字段和集合。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 57%
 
   >[!CAUTION]
   >
-  >支持在历程表达式/条件中使用体验事件，但不建议这样做。 如果您的用例需要使用体验事件，请考虑替代方法，如[计算属性](../../audience/computed-attributes.md)，或者使用事件创建区段并将该区段合并到[`inAudience`表达式中](../../building-journeys/functions/functioninaudience.md)。
+  >不支持使用体验事件创建表达式。 [此处](../../building-journeys/exp-event-lookup.md)引用了使用体验事件创建表达式/逻辑的替代方法和最佳实践
 
 * **[!UICONTROL 受众]**：如果您已删除&#x200B;**[!UICONTROL 受众资格]**&#x200B;事件，请选择要在表达式中使用的受众。 [了解详情](../condition-activity.md#using-a-segment)
 * **[!UICONTROL 数据源]**：从数据源的字段组提供的字段列表中进行选择。 [了解详情](../../datasource/about-data-sources.md)

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
+source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2474'
 ht-degree: 98%
 
 ---
@@ -167,15 +167,15 @@ ht-degree: 98%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + 用例 {#journey-use-cases}
-      + 商业用例 {#business-use-cases}
-         + [发送多渠道消息](using/building-journeys/journeys-uc.md)
-         + [使用 Campaign v7/v8 发送消息](using/building-journeys/ajo-ac.md)
-         + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
-      + 技术用例 {#technical-use-cases}
-         + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
-         + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
-         + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
+      + [通过用例学习](using/building-journeys/jo-use-cases.md)
+      + [体验事件查找](using/building-journeys/exp-event-lookup.md)
+      + [发送多渠道消息](using/building-journeys/journeys-uc.md)
+      + [使用 Campaign v7/v8 发送消息](using/building-journeys/ajo-ac.md)
+      + [向订阅者发送消息](using/building-journeys/message-to-subscribers-uc.md)
+      + [使用自定义操作动态传递集合](using/building-journeys/collections.md)
+      + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
+      + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
    + [配置步骤](using/orchestrated/configuration-steps.md)

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 架构， XDM，平台，流，摄取，历程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 0%
 [!DNL Journey Optimizer]事件是通过流式摄取发送到Adobe Experience Platform的XDM Experience事件。
 
 因此，为[!DNL Journey Optimizer]设置事件的一项重要先决条件是，您熟悉Adobe Experience Platform的体验数据模型（或XDM）、如何构建XDM体验事件架构以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
+
+
+>[!CAUTION]
+>
+>历程条件中的体验事件查找不再受支持。 请在此处查找其他最佳实践。 如果您有一个事件触发的历程用例，但仍需要Experience事件查找，并且无法通过列出的任何替代方案获得支持，请联系您的Adobe代表，我们将帮助您实现目标。
+>
+>从历程的开始事件访问上下文不受影响。
 
 ## [!DNL Journey Optimizer]事件的架构要求  {#schema-requirements}
 
@@ -42,7 +49,7 @@ ht-degree: 0%
 
   ![](assets/schema4.png)
 
-* 如果您希望此数据稍后可在历程中查找，请标记架构和数据集的配置文件。
+* 如果您希望此数据可用于配置文件，请将架构和数据集标记为配置文件。 [了解详情](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -54,81 +61,83 @@ ht-degree: 0%
 
   ![](assets/schema8.png)
 
-## 利用架构关系{#leverage_schema_relationships}
+<!--
+## Leverage schema relationships{#leverage_schema_relationships}
 
-Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
 
-假设您的品牌数据模型具有一个用于捕获购买的架构。 此外，您还有一个产品目录架构。 您可以捕获购买架构中的产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个受众，而无需明确列出所有笔记本电脑ID或在事务性系统中捕获每个产品详细信息。
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create an audience for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
 
-要定义关系，源架构中需要有一个专用字段，在此例中是购买架构中的产品ID字段。 此字段需要引用目标架构中的产品ID字段。 必须为配置文件启用源表和目标表，并且目标架构必须将公共字段定义为其主要标识。
+To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-以下是为将产品ID定义为主标识的配置文件启用的产品目录架构。
+Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
 ![](assets/schema9.png)
 
-以下是“产品ID”字段中定义关系的购买架构。
+Here is the purchase schema with the relationship defined on the product ID field.
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-CN)中了解有关架构关系的更多信息。
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
-在Journey Optimizer中，您可以利用链接表中的所有字段：
+In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* 配置商业或单一事件时，[了解更多](../event/experience-event-schema.md#unitary_event_configuration)
-* 在历程中使用条件时，[了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在邮件个性化中，[阅读更多](../event/experience-event-schema.md#message_personalization)
-* 在自定义操作个性化中，[了解更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* when configuring a business or unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
+* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
+* in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
-### 数组{#relationships_limitations}
+### Arrays{#relationships_limitations}
 
-您可以对字符串数组定义架构关系，例如，产品ID列表。
+You can define a schema relationship on an array of strings, for example, a list of product IDs.
 
 ![](assets/schema15.png)
 
-您还可以定义与对象数组内部属性的架构关系，例如购买信息列表（产品ID、产品名称、价格、折扣）。 查找值将在历程（条件、自定义操作等）和消息个性化中可用。
+You can also define a schema relationship with an attribute inside of an array of objects, for example a list of purchase information (product ID, product name, price, discount). The lookup values will be available in journeys (conditions, custom actions, etc.) and message personalization. 
 
 ![](assets/schema16.png)
 
-### 事件配置{#unitary_event_configuration}
+### Event configuration{#unitary_event_configuration}
 
-链接的架构字段在单一和业务事件配置中可用：
+The linked schema fields are available in unitary and business event configuration:
 
-* 浏览事件配置屏幕中的事件架构字段时。
-* 在为系统生成的事件定义条件时。
+* when browsing through the event schema fields in the event configuration screen.
+* when defining a condition for system-generated events.
 
 ![](assets/schema11.png)
 
-链接的字段不可用：
+The linked fields are not available:
 
-* 在事件键公式中
-* 在事件id条件中（基于规则的事件）
+* in the event key formula
+* in event id condition (rule-based events)
 
-要了解如何配置单一事件，请参阅此[页面](../event/about-creating.md)。
+To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
-### 使用事件上下文的历程条件{#journey_conditions_using_event_context}
+### Journey conditions using event context{#journey_conditions_using_event_context}
 
-您可以使用查询表中的数据，该表链接到条件构建（表达式编辑器）的历程中使用的事件。
+You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
 
-在历程中添加条件、编辑表达式并在表达式编辑器中展开事件节点。
+Add a condition in a journey, edit the expression and unfold the event node in the expression editor. 
 
 ![](assets/schema12.png)
 
-要了解如何定义历程条件，请参阅此[页面](../building-journeys/condition-activity.md)。
+To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
-### 消息个性化{#message_personalization}
+### Message personalization{#message_personalization}
 
-对消息进行个性化设置时，可以使用链接的字段。 相关字段显示在从历程传递到消息的上下文中。
+The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
 ![](assets/schema14.png)
 
-要了解如何使用上下文历程信息个性化消息，请参阅此[页面](../personalization/personalization-use-case.md)。
+To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
-### 具有历程事件上下文的自定义操作个性化{#custom_action_personalization_with_journey_event_context}
+### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
 
-配置历程自定义操作活动的操作参数时，可以使用链接的字段。
+The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
 ![](assets/schema13.png)
 
-要了解如何使用自定义操作，请参阅此[页面](../building-journeys/using-custom-actions.md)。
+To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
+-->

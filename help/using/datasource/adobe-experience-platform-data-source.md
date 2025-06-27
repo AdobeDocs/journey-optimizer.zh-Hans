@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 内置，源，数据，平台，集成
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: f5ea4455fc0a8ed9e2819a260a8691fc1237844c
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 31%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -21,17 +21,19 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
 >title="Adobe Experience Platform 数据源"
->abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户轮廓服务中检索并使用数据（例如，检查进入历程的人是否为女性）。该数据源允许您使用轮廓数据和体验事件数据。"
+>abstract="Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源是内置数据源，经过预先配置，无法删除。它设计用于从实时客户轮廓服务中检索并使用数据（例如，检查进入历程的人是否为女性）。它允许您使用配置文件数据。"
 
-Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用轮廓数据和体验事件数据。有关Adobe Real-time Customer Profile的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
+Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接。此数据源是内置数据源，经过预先配置，无法删除。此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 它允许您使用配置文件数据。 有关Adobe Real-time Customer Profile的详细信息，请参阅[Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans){target="_blank"}。
 
 要允许与Real-time Customer Profile Service的连接，我们必须使用键来识别人员，并使用命名空间来将键进行上下文化。 因此，仅当历程以包含键和命名空间的事件开始时，才能使用此数据源。 [了解详情](../building-journeys/journey.md)。
 
 您可以编辑名为“ProfileFieldGroup”的预配置字段组、添加新字段组并删除任何草稿或实时历程中未使用的字段组。 [了解详情](../datasource/configure-data-sources.md#define-field-groups)。
 
->[!NOTE]
+
+>[!CAUTION]
 >
->您可以检索在不到一年前创建的1000个最新体验事件。
+>不支持在历程表达式/条件中使用体验事件。 如果您的用例需要使用体验事件，请考虑替代方法。 [了解详情](../building-journeys/exp-event-lookup.md)
+
 
 将字段组添加到内置数据源的主要步骤详述如下：
 
@@ -45,7 +47,7 @@ Adobe Experience Platform 数据源定义与 Adobe 实时客户轮廓的连接�
 
    ![](assets/journey24.png)
 
-1. 从&#x200B;**[!UICONTROL 架构]**&#x200B;下拉列表中选择架构。 此字段列出了Adobe Experience Platform中可用的&#x200B;**配置文件**&#x200B;和&#x200B;**体验事件**&#x200B;架构。 架构创建在Adobe Experience Platform中执行，而不是在Adobe Journey Optimizer中执行。
+1. 从&#x200B;**[!UICONTROL 架构]**&#x200B;下拉列表中选择架构。 架构创建在Adobe Experience Platform中执行，而不是在Adobe Journey Optimizer中执行。
 1. 选择要使用的字段，并保存更改。
 
 
