@@ -48,4 +48,4 @@ ht-degree: 6%
 
 了解如何在[!DNL Journey Optimizer]中创建、编辑和使用内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3418582/?quality=12&captions=chi_hans)
