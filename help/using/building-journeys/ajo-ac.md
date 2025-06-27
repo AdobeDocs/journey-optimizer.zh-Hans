@@ -9,14 +9,14 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: 历程，消息，营销活动，集成
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
 
-# 用例：使用Campaign v7/v8发送消息 {#campaign-v7-v8-use-case}
+# 使用Campaign v7/v8发送消息 {#campaign-v7-v8-use-case}
 
 此用例说明了使用与Adobe Campaign v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 

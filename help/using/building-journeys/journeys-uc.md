@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，消息，历程，渠道，事件，推送
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 1%
 
 ---
 
-# 用例：发送多渠道消息{#send-multi-channel-messages}
+# 发送多渠道消息 {#send-multi-channel-messages}
 
 本节介绍结合读取受众、事件、反应事件和电子邮件/推送消息的用例。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 配置在客户购买时发送到历程的事件。 当历程收到事件时，会触发“感谢”消息。
 
-为此，请使用基于规则的事件[&#128279;](../event/about-events.md)。
+为此，请使用基于规则的事件[](../event/about-events.md)。
 
 1. 在“管理”菜单部分中，选择&#x200B;**[!UICONTROL 配置]**，然后单击&#x200B;**[!UICONTROL 事件]**。 单击&#x200B;**[!UICONTROL 创建事件]**&#x200B;以创建新事件。
 

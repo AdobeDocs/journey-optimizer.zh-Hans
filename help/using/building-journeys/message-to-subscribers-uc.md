@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 历程，用例，消息，订阅者，列表，读取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 17%
 
 ---
 
-# 用例：向列表的订阅者发送消息{#send-a-message-to-the-subscribers-of-a-list}
+# 向列表的订阅者发送消息 {#send-a-message-to-the-subscribers-of-a-list}
 
 此用例的目的在于创建历程，以向列表的订阅者发送消息。
 

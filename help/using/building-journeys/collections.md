@@ -8,15 +8,15 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 6%
+source-wordcount: '428'
+ht-degree: 7%
 
 ---
 
 
-# 用例：使用自定义操作动态传递收藏集{#passing-collection}
+# 使用自定义操作动态传递集合{#passing-collection}
 
 您可以在自定义操作参数中传递集合，这些参数将在运行时动态填充。 支持两种集合：
 
