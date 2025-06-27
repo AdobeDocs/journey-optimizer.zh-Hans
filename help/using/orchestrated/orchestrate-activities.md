@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 2604fa59a8fa6393580180afa6da264319636e68
+source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -82,9 +82,7 @@ ht-degree: 1%
 
 若干&#x200B;**定位**&#x200B;活动（如&#x200B;**合并**&#x200B;或&#x200B;**重复数据删除**）允许您处理剩余群体，并将其包含到其他叫客过渡中。 例如，如果您使用&#x200B;**拆分**&#x200B;活动，则补数由与先前定义的任何子集都不匹配的群体组成。 若要使用此功能，请激活&#x200B;**[!UICONTROL 生成补码]**&#x200B;选项。
 
-## 移动或复制活动 {#move-copy}
-
-### 复制粘贴活动 {#copy}
+## 复制粘贴活动 {#copy}
 
 您可以复制活动并将其粘贴到任何编排的活动画布中。 目标营销活动可以位于不同的浏览器选项卡中。
 
