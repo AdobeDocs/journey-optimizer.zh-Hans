@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
+source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="体验事件查找最佳实践" src="../assets/do-not-localize/icon-content.svg" /></a> 
+    <img alt="体验事件查找最佳实践" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
     <br>了解常见的模式和可扩展的方法，以帮助您充分利用Adobe Journey Optimizer中的体验事件。 这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
     </div>
       <div>
