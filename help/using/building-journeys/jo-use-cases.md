@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
+source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="体验事件查找最佳实践" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="体验事件查找最佳实践" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br>了解常见的模式和可扩展的方法，以帮助您充分利用Adobe Journey Optimizer中的体验事件。 这些用例旨在帮助您解决频繁出现的挑战，例如管理选择退出、控制消息频率、根据用户行为个性化内容以及对实时信号做出反应。
     </div>
       <div>
@@ -92,7 +92,7 @@ ht-degree: 15%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="collections.md">
-<img alt="使用自定义操作动态传递集合" src="../assets/do-not-localize/icon-quick-start.svg">
+<img alt="使用自定义操作动态传递集合" src="../assets/do-not-localize/icon-configure.svg">
 </a>
 <div>
 <a href="collections.md"><strong>使用自定义操作动态传递集合</strong></a>
