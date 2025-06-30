@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 62f16b6f582e6bf5620b75df4a75d4c15441ca4a
+source-git-commit: 3f4652445bb52850d7480e844c77a4b67dc4db10
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 24%
+source-wordcount: '370'
+ht-degree: 27%
 
 ---
 
@@ -20,13 +20,6 @@ ht-degree: 24%
 >id="ajo_orchestration_build_audience"
 >title="生成受众活动"
 >abstract="您可以使用&#x200B;**生成受众**&#x200B;活动，定义将进入协同营销活动的受众。在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**构建受众**&#x200B;活动中定义。"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_read_audience"
->title="生成受众活动"
->abstract="**读取受众**&#x200B;活动允许您选择将进入编排的营销活动的现有受众。 在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义。"
-
 
 +++ 目录
 
