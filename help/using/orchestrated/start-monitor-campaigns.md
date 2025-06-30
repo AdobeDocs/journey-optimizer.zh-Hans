@@ -77,8 +77,8 @@ Journey Optimizer允许您在启动之前测试编排的营销活动。 在测�
 
 1. 选择过渡。
 1. 在右侧面板中：
-- 单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以查看工作表架构。
-- 单击&#x200B;**[!UICONTROL 预览结果]**&#x200B;查看传输的数据。
+&#x200B;- 单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以查看工作表架构。
+&#x200B;- 单击&#x200B;**[!UICONTROL 预览结果]**&#x200B;查看传输的数据。
 
 ![](assets/transition.png){zoomable="yes"}
 
