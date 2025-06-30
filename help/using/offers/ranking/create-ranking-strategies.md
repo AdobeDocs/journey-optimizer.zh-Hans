@@ -57,7 +57,7 @@ ht-degree: 23%
    >* **展示事件** （显示的优惠）
    >* **转化事件** （通过电子邮件或Web导致点击的选件）。
    >
-   >这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中进一步了解此信息。
+   >这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)中进一步了解此信息。
 
 1. 选择收集转化和印象事件的数据集。 了解如何在[此部分](../data-collection/create-dataset.md)中创建此类数据集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -87,7 +87,7 @@ ht-degree: 23%
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-现在，每次显示和/或单击优惠时，您都希望&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自动捕获相应的事件。
+现在，每次显示和/或单击优惠时，您都希望&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=zh-Hans#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自动捕获相应的事件。
 
 为了能够在事件类型（显示优惠或单击优惠）中发送，您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
 

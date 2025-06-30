@@ -52,7 +52,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)以了解详情。
+   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans)以了解详情。
 
 1. 在工作区中添加和配置新字段时，**[!UICONTROL 受众属性]**&#x200B;窗格显示有关属于受众的估计配置文件的信息。 单击&#x200B;**[!UICONTROL 刷新估算]**&#x200B;以更新数据。
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+>[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 ## 教程视频 {#video}
 

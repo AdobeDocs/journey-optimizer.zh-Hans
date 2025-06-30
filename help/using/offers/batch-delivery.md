@@ -29,7 +29,7 @@ ht-degree: 5%
 
 * Adobe Experience Platform中的&#x200B;**数据集**。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 请参阅[数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans)以了解详情。
 
-* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en)以了解如何更新受众成员资格评估
+* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en_cn)以了解如何更新受众成员资格评估
 
   >[!NOTE]
   >
