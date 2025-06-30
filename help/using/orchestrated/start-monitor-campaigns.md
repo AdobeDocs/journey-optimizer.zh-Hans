@@ -6,9 +6,9 @@ description: 了解如何使用Adobe Journey Optimizer启动和监控编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 02270bddf988e8a722e78d0b63fe157c74b586e4
+source-git-commit: 1c11521ab9f8df9a7147565ddd274f341c56cbdf
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '670'
 ht-degree: 6%
 
 ---
@@ -74,13 +74,6 @@ Journey Optimizer允许您在启动之前测试编排的营销活动。 在测�
 在运行时（在测试或实时模式下），可视流量会显示用户档案如何实时在历程中移动。 此时会显示任务之间转换的配置文件数。
 
 ![](assets/workflow-execution.png){zoomable="yes"}
-
-1. 选择过渡。
-1. 在右侧面板中：
-&#x200B;- 单击&#x200B;**[!UICONTROL 预览架构]**&#x200B;以查看工作表架构。
-&#x200B;- 单击&#x200B;**[!UICONTROL 预览结果]**&#x200B;查看传输的数据。
-
-![](assets/transition.png){zoomable="yes"}
 
 通过过渡从一个活动传输到另一个活动的数据存储在临时工作表中。 可以为每个过渡显示此数据。 要检查在活动之间传递的数据，请执行以下操作：
 
