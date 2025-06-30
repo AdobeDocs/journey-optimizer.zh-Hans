@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b44eba66fd88f56b999937e7638bd6c5526fec43
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 20%
@@ -26,7 +26,7 @@ ht-degree: 20%
 >title="限制符合条件的轮廓"
 >abstract="可限制为此选择策略选择产品建议。默认情况下，所有轮廓都符合条件，但您可以使用受众或规则将产品建议选择限制为仅特定轮廓。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="使用受众"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules" text="使用决策规则"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="使用决策规则"
 
 选择策略可重复使用，并且包括与资格约束关联的集合以及确定在[决策策略](create-decision.md)中选择时显示的优惠的排名方法。
 
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="定义如何为产品建议排名"
 >abstract="如果多个产品建议符合给定选择策略的条件，请在创建选择策略时，选择将为每个轮廓选择最佳产品建议的方法：优先级或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hans" text="创建决策策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
 
