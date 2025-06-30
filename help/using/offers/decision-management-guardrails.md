@@ -1,13 +1,14 @@
 ---
 title: 决策管理护栏和限制
 description: 详细了解决策管理护栏和限制。
+badge: label="旧版" type="Informative"
 feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 70543fc2b70b388934c1b3f45e5405f02895a3af
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 16%
 
 ---

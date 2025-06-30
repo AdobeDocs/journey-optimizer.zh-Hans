@@ -1,12 +1,13 @@
 ---
 title: 创建后备产品建议
 description: 了解如何创建后备优惠以向不符合任何优惠条件的客户显示
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 如果客户不符合其他优惠的条件，则会将后备优惠发送给客户。 创建后备优惠的步骤包括创建一个或多个呈现，如创建优惠时。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 后备优惠列表可在&#x200B;**[!UICONTROL 优惠]**&#x200B;菜单中访问。
 
@@ -43,7 +44,7 @@ ht-degree: 4%
 
    ![](../assets/fallback_content.png)
 
-1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”**&#x200B;**，然后选择“保存并批准”**&#x200B;**。
+1. 添加后备优惠的表示法后，将显示摘要。 如果一切配置正确，并且已准备好向客户显示备用选件，请单击“完成”****，然后选择“保存并批准”****。
 
    您还可以将后备优惠另存为草稿，以便稍后进行编辑和批准。
 
@@ -55,7 +56,7 @@ ht-degree: 4%
 
    ![](../assets/fallback_created.png)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341342?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

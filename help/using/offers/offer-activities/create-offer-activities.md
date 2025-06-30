@@ -1,14 +1,15 @@
 ---
 title: 创建决策
 description: 了解如何创建决策
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2511'
 ht-degree: 8%
 
 ---
@@ -25,8 +26,8 @@ ht-degree: 8%
 
 在创建决策之前，请确保已在优惠库中创建了以下组件：
 
-* [放置环境](../offer-library/creating-placements.md)
-* [收藏集](../offer-library/creating-collections.md)
+* [投放位置](../offer-library/creating-placements.md)
+* [集合](../offer-library/creating-collections.md)
 * [个性化产品建议](../offer-library/creating-personalized-offers.md)
 * [后备产品建议](../offer-library/creating-fallback-offers.md)
 
@@ -400,6 +401,6 @@ ht-degree: 8%
 
 了解如何在决策管理中创建优惠活动。
 
->[!VIDEO](https://video.tv.adobe.com/v/346691?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

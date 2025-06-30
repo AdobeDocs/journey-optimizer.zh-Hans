@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: 上下文数据和 Edge Decisioning 请求
 description: 了解如何在Edge Decisioning请求中传递上下文数据。
+badge: label="旧版" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 12a36b38958e2a3cdb702b4789a1a6dadf45e911
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -50,11 +51,11 @@ ht-degree: 1%
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   了解如何在Adobe Experience Platform [体验数据模型(XDM)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home){target="_blank"}中使用架构
+   了解如何在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中使用架构
 
 1. 创建数据集（此处为“选件上下文”），并确保已为配置文件启用它。
 
-1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在Adobe Experience Platform [数据流指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
+1. 从&#x200B;**[!UICONTROL 数据收集]** > **[!UICONTROL 数据流]**&#x200B;菜单创建新的数据流。 了解如何在Adobe Experience Platform [数据流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中创建和配置数据流
 
    在本例中，我们创建了一个“选件上下文”数据流，并选中了“选件内容”事件架构。
 
@@ -145,7 +146,7 @@ ht-degree: 1%
 
   ![](assets/context-edge-copy-scope.png)
 
-  +++
++++
 
 ```
 {

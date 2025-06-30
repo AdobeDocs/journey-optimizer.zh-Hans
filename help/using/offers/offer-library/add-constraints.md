@@ -1,14 +1,15 @@
 ---
 title: 将约束添加到产品建议
 description: 了解如何定义优惠的显示条件
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 15%
 
 ---
@@ -75,7 +76,7 @@ ht-degree: 15%
 >title="关于产品建议资格"
 >abstract="在此部分中，您可以使用决策规则来确定哪些用户有资格享受产品建议。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341363?captions=chi_hans" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -104,7 +105,7 @@ ht-degree: 15%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+  >[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 在选择受众或决策规则时，您可以看到有关预计的合格用户档案的信息。 单击&#x200B;**[!UICONTROL 刷新]**&#x200B;以更新数据。
 
@@ -192,7 +193,7 @@ ht-degree: 15%
   >
   >将展示次数用作上限事件仅适用于&#x200B;**入站渠道**。
 
-* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}架构构建自定义事件规则。
+* **[!UICONTROL 自定义事件]**：您可以定义用于限制已发送优惠数量的自定义事件。 例如，您可以限制赎回次数，直到它们等于10,000，或者直到给定用户档案赎回了1次。 为此，请使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}架构构建自定义事件规则。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 

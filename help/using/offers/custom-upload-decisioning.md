@@ -1,16 +1,17 @@
 ---
 title: 利用自定义上传受众进行决策
 description: 了解如何利用自定义上传受众进行决策。
+badge: label="旧版" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 2%
 
 ---
-
 
 # 利用自定义上传受众进行决策 {#custom-upload-decisioning}
 
@@ -23,14 +24,13 @@ ht-degree: 0%
 
 有关自定义上传受众的更多信息，请参阅以下章节：
 * [受众和Journey Optimizer入门](../audience/about-audiences.md)
-* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中导入受众](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必读 {#must-read}
 
 * 此功能仅在&#x200B;**决策管理**&#x200B;中受支持，在Decisioning（以前称为“Experience Decisioning”）中不受支持。
-* 它只能通过&#x200B;**Decisioning API (Hub)**&#x200B;请求提供，**Edge Decisioning API**&#x200B;或&#x200B;**批量决策**&#x200B;不支持它。
+* 它只能通过&#x200B;**Decisioning API (Hub)**&#x200B;请求提供，**Edge Decisioning API**&#x200B;或&#x200B;**批量决策**不支持它。
  
-
 ## 使用自定义上传受众作为资格标准 {#eligibilty}
 
 您可以将自定义上传受众用作优惠或决策级别的资格标准。 添加后，这些标准可以从资格中排除优惠或优惠集合。 以下是您可以利用自定义上传受众来优化优惠和决策资格的各种位置：

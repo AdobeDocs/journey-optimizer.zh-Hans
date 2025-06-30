@@ -3,11 +3,12 @@ product: experience platform
 solution: Experience Platform
 title: 创建 AI 模型
 description: 了解如何创建AI模型来对优惠进行排名
+badge: label="旧版" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 23%
@@ -56,7 +57,7 @@ ht-degree: 23%
    >* **展示事件** （显示的优惠）
    >* **转化事件** （通过电子邮件或Web导致点击的选件）。
    >
-   >这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans)中进一步了解此信息。
+   >这些事件是使用Web SDK或提供的Mobile SDK自动捕获的。 请在[Adobe Experience Platform Web SDK概述](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中进一步了解此信息。
 
 1. 选择收集转化和印象事件的数据集。 了解如何在[此部分](../data-collection/create-dataset.md)中创建此类数据集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -68,7 +69,7 @@ ht-degree: 23%
 
 1. 如果您正在创建&#x200B;**[!UICONTROL 个性化优化]** AI模型，请选择要用于训练AI模型的区段。
 
-   ➡️ [在视频中了解此功能](#video)
+   ➡️ [通过观看视频了解此功能](#video)
 
    ![](../assets/ai-ranking-segments.png)
 
@@ -86,12 +87,12 @@ ht-degree: 23%
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-现在，每次显示和/或单击优惠时，您都希望&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=zh-Hans#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自动捕获相应的事件。
+现在，每次显示和/或单击优惠时，您都希望&#x200B;**[!UICONTROL 体验事件 — 建议交互]**&#x200B;字段组使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自动捕获相应的事件。
 
 为了能够在事件类型（显示优惠或单击优惠）中发送，您必须为发送到Adobe Experience Platform的体验事件中的每个事件类型设置正确的值。 [了解如何操作](../data-collection/schema-requirement.md)
 
-## 操作方法视频 {#video}
+## 操作说明视频 {#video}
 
 了解如何创建个性化优化模型以及如何将其应用于决策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445961?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

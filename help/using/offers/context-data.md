@@ -3,16 +3,17 @@ product: experience platform
 solution: Experience Platform
 title: 上下文数据入门
 description: 了解如何在决策管理中利用上下文数据。
+badge: label="旧版" type="Informative"
 feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
+exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 4%
 
 ---
-
 
 # 上下文数据入门 {#context-data}
 
@@ -29,4 +30,3 @@ ht-degree: 0%
 
 * [在Edge Decisioning请求中使用上下文数据](context-data-edge.md)
 * [在Decisioning请求中使用上下文数据](context-data-decisioning.md)
-

@@ -1,14 +1,15 @@
 ---
 title: 在电子邮件中使用个性化优惠
 description: 探索一个端到端示例，其中显示配置产品建议和在电子邮件中使用它们所需的所有步骤。
+badge: label="旧版" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1101'
 ht-degree: 4%
 
 ---
@@ -110,7 +111,7 @@ ht-degree: 4%
    >
    >在本例中，我们将仅使用优先级分数。 了解有关[资格规则和约束](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)的更多信息。
 
-## 配置优惠 {#configure-offers}
+## 配置产品建议 {#configure-offers}
 
 您现在可以创建并配置选件。 在此示例中，您将创建四个要根据每个特定配置文件显示的选件。
 

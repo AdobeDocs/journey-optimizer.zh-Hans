@@ -1,14 +1,15 @@
 ---
 title: 批量决策
 description: 了解如何向给定Adobe Experience Platform受众中的所有用户档案投放优惠决策。
+badge: label="旧版" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 3%
+source-wordcount: '842'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +29,7 @@ ht-degree: 3%
 
 * Adobe Experience Platform中的&#x200B;**数据集**。 此数据集将用于使用“ODE DecisionEvents”架构存储决策结果。 请参阅[数据集文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hans)以了解详情。
 
-* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en_cn)以了解如何更新受众成员资格评估
+* Adobe Experience Platform中的&#x200B;**受众**。 应评估并更新受众。 请参阅[分段服务文档](https://www.adobe.com/go/segmentation-overview-en)以了解如何更新受众成员资格评估
 
   >[!NOTE]
   >
@@ -57,7 +58,7 @@ ht-degree: 3%
 
    ![](assets/batch-decision.png)
 
-1. 默认情况下，将为每个用户档案返回一个决策范围选件。 您可以使用&#x200B;**[!UICONTROL 每个配置文件的请求选件]**&#x200B;选项调整返回的选件数。 例如，如果您选择2，则会为选定的决策范围显示最佳的2个优惠。
+1. 默认情况下，将为每个用户档案返回一个决策范围选件。 您可以使用&#x200B;**[!UICONTROL 每个配置文件的请求选件]**&#x200B;选项调整返回的选件数。 例如，如果您选择 2，则在所选决策范围内将显示最佳的 2 个产品建议。
 
    >[!NOTE]
    >

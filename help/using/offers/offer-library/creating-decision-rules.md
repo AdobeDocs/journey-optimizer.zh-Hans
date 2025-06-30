@@ -1,15 +1,16 @@
 ---
 title: 创建决策规则
 description: 了解如何创建决策规则以定义可向谁显示优惠
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 8%
 
 例如，您可以指定当（性别=“女性”）和（地区=“东北”）时仅显示“女士冬装选件”。
 
-➡️ [在视频中了解此功能](#video)
+➡️ [通过观看视频了解此功能](#video)
 
 以下是使用决策规则时要注意的限制列表：
 
@@ -51,7 +52,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans)以了解详情。
+   >与&#x200B;**[!UICONTROL 分段]**&#x200B;服务中使用的区段生成器相比，为创建决策规则而提供的区段生成器存在一些特殊性。 但是，[区段生成器](../../audience/creating-a-segment-definition.md)文档中描述的全局进程对于生成优惠决策规则仍然有效。 请参阅 [Adobe Experience Platform 分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)以了解详情。
 
 1. 在工作区中添加和配置新字段时，**[!UICONTROL 受众属性]**&#x200B;窗格显示有关属于受众的估计配置文件的信息。 单击&#x200B;**[!UICONTROL 刷新估算]**&#x200B;以更新数据。
 
@@ -69,8 +70,8 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hans#events){target="_blank"}的决策规则，则无法在优惠中利用它。
+>[!DNL Journey Optimizer]当前不支持基于事件的优惠。 如果您创建基于[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}的决策规则，则无法在优惠中利用它。
 
 ## 教程视频 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341363?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

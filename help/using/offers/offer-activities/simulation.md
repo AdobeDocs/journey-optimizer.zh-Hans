@@ -1,14 +1,15 @@
 ---
 title: 创建模拟
 description: 了解如何模拟将在给定投放位置提供哪些优惠，以验证您的决策逻辑
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '884'
 ht-degree: 12%
 
 ---
@@ -65,7 +66,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节[&#128279;](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间的更多信息。
+   >身份命名空间定义标识符的上下文，例如电子邮件地址或CRM ID。 在本节](../../audience/get-started-identity.md){target="_blank"}中了解有关Adobe Experience Platform身份命名空间[的更多信息。
 
 1. 输入身份值并单击&#x200B;**[!UICONTROL 查看]**&#x200B;列出可用的配置文件。
 

@@ -1,14 +1,15 @@
 ---
 title: 选件库用户界面
 description: 了解有关优惠库用户界面的更多信息
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 33%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 33%
 
 使用&#x200B;**搜索栏**&#x200B;查找特定项目。
 
-单击列表左上角的过滤器图标即可访问&#x200B;**过滤器**。 它们允许您根据不同的条件筛选显示的元素。例如，您可以筛选为电子邮件通信渠道和图像类型内容创建的投放位置。
+单击列表左上角的过滤器图标即可访问&#x200B;**过滤器**。 它们允许您根据不同的条件筛选显示的元素。例如，您可以筛选为电子邮件通信渠道和图像类型内容创建的放置环境。
 
 ![](../assets/filters.png)
 
@@ -82,10 +83,10 @@ ht-degree: 33%
 
 ![](../assets/information-pane.png)
 
-通过优惠和优惠活动列表也可对多个元素执行批量操作。为此，请选择所需的优惠或决策，然后从信息窗格中选择要执行的操作。
+通过产品建议和产品建议活动列表也可对多个元素执行批量操作。为此，请选择所需的产品建议或决策，然后从信息窗格中选择要执行的操作。
 
-请注意，您还可以复制现有优惠或决策，以便创建具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态的副本。 可以在信息窗格或在优惠或决策的详细视图中执行此操作。
+请注意，您还可以复制现有优惠或决策，以便创建具有&#x200B;**[!UICONTROL 草稿]**&#x200B;状态的副本。 可以在信息窗格或在产品建议或决策的详细视图中执行此操作。
 
-## 优惠和决策更改日志 {#changes-logs}
+## 产品建议和决策更改日志 {#changes-logs}
 
 [!DNL Journey Optimizer]允许您可视化对优惠或决策所做的所有更改。 为此，请从左侧菜单访问&#x200B;**[!UICONTROL 审核]**&#x200B;菜单。 [了解如何审核对资源的操作](../../privacy/audit-logs.md)

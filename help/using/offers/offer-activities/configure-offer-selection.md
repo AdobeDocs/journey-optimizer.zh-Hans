@@ -1,19 +1,20 @@
 ---
-title: 在决策中配置优惠选择
+title: 在决策中配置产品建议选择
 description: 了解如何在决策中管理优惠选择
+badge: label="旧版" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
 
-# 在决策中配置优惠选择 {#offers-selection-in-decisions}
+# 在决策中配置产品建议选择 {#offers-selection-in-decisions}
 
 如果多个优惠都符合给定投放位置的条件，则可以在配置决策时，选择为每个用户档案选择最佳优惠的方法。 您可以通过以下方式排列选件：
 * 优惠优先级
@@ -60,7 +61,7 @@ ht-degree: 6%
 
 ## 人工智能排名 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](../ranking/create-ranking-strategies.md)中了解如何创建AI模型。
 

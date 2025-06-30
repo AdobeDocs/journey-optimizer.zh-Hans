@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: 个性化优化模型
 description: 了解有关个性化优化模型的更多信息
+badge: label="旧版" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 9188b144d1f98f57c585c3828420b9cd48d1d90a
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## 概述 {#overview}
 
-通过利用机器学习和深度学习中的先进技术，个性化优化可让业务用户（营销人员）定义业务目标，并利用其客户数据培训面向业务的模型，以提供个性化优惠并最大化KPI。
+通过利用受到监督的机器学习和深度学习领域的先进技术，业务用户（营销人员）可以使用个性化优化功能定义业务目标，并利用他们的客户数据来训练面向业务的模型，以提供个性化优惠并使关键绩效指标最大化。
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
