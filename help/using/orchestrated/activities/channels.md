@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
+source-git-commit: d8128190a51cac665c9f25b5077185a496ad7849
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 21%
 
 ---
@@ -83,7 +83,7 @@ UNUSED IDs in BJ
 
 要在编排的活动上下文中设置投放，请执行以下步骤：
 
-1. 添加渠道活动：**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**、**[!UICONTROL 推送通知(Android)]**、**[!UICONTROL 推送通知(iOS)]**&#x200B;或&#x200B;**[!UICONTROL 直邮]**。
+1. 添加渠道活动。 支持的渠道为&#x200B;**[!UICONTROL 电子邮件]**、**[!UICONTROL 短信]**&#x200B;或&#x200B;**[!UICONTROL 推送通知]**
 
 1. 选择&#x200B;**投放类型**：单次或循环。
 
