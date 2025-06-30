@@ -13,21 +13,21 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# 使用Adobe Experience Platform数据做出决策 {#aep-data}
+# 使用 Adobe Experience Platform 数据进行决策制定 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="数据集查找"
->abstract="在决策规则中使用Adobe Experience Platform数据允许您根据动态的外部属性定义资格标准，确保仅在相关时显示决策项目。 创建映射以定义Adobe Experience Platform数据集如何与[!DNL Journey Optimizer]中的数据联接。 选择具有所需属性的数据集，然后选择同时存在于决策项属性和数据集中的联接键。"
+>abstract="在决策规则中使用 Adobe Experience Platform 数据，可基于动态的外部属性定义资格条件，确保仅在相关时显示相应的决策项。创建映射以定义 Adobe Experience Platform 数据集与 [!DNL Journey Optimizer] 中数据的关联方式。选择包含所需属性的数据集，并选择一个在决策项属性和数据集中均存在的关联键。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="数据集查找"
->abstract="排名公式定义决策项的优先级。 通过使用[!DNL Adobe Experience Platform]数据集属性，您可以动态调整排名逻辑以反映真实情况。 创建映射以定义Adobe Experience Platform数据集如何与[!DNL Journey Optimizer]中的数据联接。 选择具有所需属性的数据集，然后选择同时存在于决策项属性和数据集中的联接键"
+>abstract="排序公式用于定义决策项的优先级。通过使用 [!DNL Adobe Experience Platform] 数据集属性，您可以动态调整排序逻辑，以反映真实世界的情况。创建映射以定义 Adobe Experience Platform 数据集与 [!DNL Journey Optimizer] 中数据的关联方式。选择包含所需属性的数据集，并选择一个在决策项属性和数据集中均存在的关联键"
 
 >[!AVAILABILITY]
 >
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 要将来自[!DNL Adobe Experience Platform]数据集的数据用于决策，必须首先通过API调用启用它以进行查找。 有关详细说明，请参阅以下部分：[在Journey Optimizer中利用Adobe Experience Platform数据集](../data/lookup-aep-data.md)。
 
-## 使用Adobe Experience Platform数据做出决策
+## 使用 Adobe Experience Platform 数据进行决策制定
 
 为数据集启用查找后，您可以使用其属性通过外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
 
@@ -88,7 +88,7 @@ Adobe Experience Platform数据集中的属性可用于决策逻辑的两个部�
 
 ### 排名公式
 
-排名公式定义决策项的优先级。 通过使用[!DNL Adobe Experience Platform]数据集属性，您可以动态调整排名逻辑以反映真实情况。
+排序公式用于定义决策项的优先级。通过使用[!DNL Adobe Experience Platform]数据集属性，您可以动态调整排名逻辑以反映真实情况。
 
 例如，假设一家航空公司使用排名公式来排列升级优惠的优先级。 如果客户具有较高的忠诚度等级并且当前名额可用性较低（基于每小时更新一次的数据集），则会为他们分配较高的优先级。 数据集包含`flight_number`、`available_seats`和`loyalty_score`等字段。
 
