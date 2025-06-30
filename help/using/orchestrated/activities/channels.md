@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 45%
+source-wordcount: '899'
+ht-degree: 21%
 
 ---
 
@@ -47,27 +47,39 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="电子邮件活动"
->abstract="电子邮件活动让您可以在多步骤营销活动中发送电子邮件，并允许一次性和重复发送消息。它可用于自动将电子邮件发送到在同一多步骤营销活动中计算的目标。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>abstract="通过电子邮件活动，您可以在编排的活动中发送一次性消息和定期消息的电子邮件。 它有助于自动执行向在同一编排的营销活动中算出的目标发送电子邮件的过程。 您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="短信活动"
->abstract="短信活动可让您在多步骤营销活动中发送短信，并允许一次性和重复发送消息。它可用于自动将短信发送到在同一多步骤营销活动中计算的目标。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>abstract="利用短信活动，您可以在编排的活动中发送一次性消息和定期消息的短信。 它有助于自动执行向在同一编排的营销活动中算出的目标发送短信的过程。 您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="推送活动"
+>abstract="推送活动可让您在编排的活动中发送推送通知。 它允许同时交付一次性活动和定期编排的活动，在同一编排的活动中，自动向预定义目标发送推送通知。 您可以将渠道活动合并到活动画布中，以创建跨渠道活动，从而根据客户行为和数据触发操作。"
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="推送 iOS 活动"
->abstract="推送 iOS 活动让您可以作为多步骤营销活动的一部分发送 iOS 推送通知。可一次性和重复投放多步骤营销活动，自动将 iOS 推送通知发送到同一工作流程中的预定义目标。可将渠道活动合并到工作流画布中，以创建可根据客户行为和数据触发操作的跨渠道工作流。"
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="推送 Android 活动"
->abstract="推送 Android 活动让您可以作为多步骤营销活动的一部分发送 Android 推送通知。可一次性和重复投放，自动将 Android 推送通知发送到同一多步骤营销活动中的预定义目标。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="直邮活动"
->abstract="直邮活动有助于在多步骤营销活动中直接发送邮件，并允许一次性和重复发送消息。它可用于自动生成直邮提供商所需的提取文件。您可以将渠道活动合并到多步骤营销活动画布中，创建可根据客户行为和数据触发操作的跨渠道营销活动。"
+>abstract="直邮活动有助于在编排的活动中发送一次性消息和定期消息的直邮。 它可用于自动生成直邮提供商所需的提取文件。您可以将渠道活动合并到编排的活动画布中，以创建跨渠道活动，从而根据客户行为和数据触发操作。"
 
 要在编排的活动上下文中设置投放，请执行以下步骤：
 
@@ -86,7 +98,7 @@ ht-degree: 45%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**。然后，您可以使用与创建独立投放相同的方式定义消息设置和内容。 您还可以测试和模拟内容。
 
-1. 导航回工作流。 如果要继续工作流，请切换&#x200B;**[!UICONTROL 生成叫客过渡]**&#x200B;选项以在渠道活动后添加过渡。
+1. 导航回您编排的营销活动。 如果要继续编排的营销活动，请切换&#x200B;**[!UICONTROL 生成叫客过渡]**&#x200B;选项以在渠道活动后添加过渡。
 
 1. 单击&#x200B;**[!UICONTROL 开始]**&#x200B;以启动编排的营销活动。
 
