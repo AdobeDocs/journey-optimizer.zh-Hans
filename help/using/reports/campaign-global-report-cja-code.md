@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-按CTR ]**列出的**[!UICONTROL &#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
+按CTR **列出的**&#x200B;个热门决策项，该表根据各个项目的点进率突出显示它们的性能。 此量度有助于评估哪些项目在吸引用户和推动交互方面最有效。
 
 * **[!UICONTROL 点进率(CTR)]**：点击链接、广告或推荐的用户相对于其显示次数的百分比。
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，保持和模型驱动流量&#x200B;]**的**[!UICONTROL &#x200B;转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>仅当将[AI模型](../experience-decisioning/ranking/ai-models.md)合并到营销活动中时，保持和模型驱动流量&#x200B;**的**&#x200B;转化率才可用。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
