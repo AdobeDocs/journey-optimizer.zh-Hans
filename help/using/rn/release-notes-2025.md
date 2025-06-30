@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '3117'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
 <td>
 <p>您现在可以在新改进的界面中定义和组合标准，从而创建特定的决策排名公式。您可以通过引导式界面自定义排名公式，将 AI 模型分数、产品建议优先级、轮廓属性、产品建议属性和上下文信号组合起来，而不是仅依赖静态产品建议优先级。</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>有关更多信息，请参阅<a href="../experience-decisioning/exd-ranking-formulas.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../experience-decisioning/ranking/ranking-formulas.md">详细文档</a>。</p>
 <p>发布日期：2025 年 5 月 14 日</p>
 </td>
 </tr>

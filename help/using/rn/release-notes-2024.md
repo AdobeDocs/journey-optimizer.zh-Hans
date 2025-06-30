@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ ht-degree: 100%
 
 **决策**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 用户现在可以在决策（以前称为体验决策）中设置 AI 模型时选择用于进行优化的自定义模型。例如，这允许您在自定义“购买”表格上进行优化，而不是使用定义的约束（如点击率）。[了解详情](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 用户现在可以在决策（以前称为体验决策）中设置 AI 模型时选择用于进行优化的自定义模型。例如，这允许您在自定义“购买”表格上进行优化，而不是使用定义的约束（如点击率）。[了解详情](../experience-decisioning/ranking/ranking.md)
 
 * 当使用决策功能将决策策略添加到基于代码的营销活动时，除了选择策略之外，您现在还可以手动选择单个决策项。此外，您现在可以选择多个后备产品建议。这可保证返回一定数量的决策项。[了解详情](../experience-decisioning/create-decision.md)
 

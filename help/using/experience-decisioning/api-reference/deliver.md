@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # 使用基于代码的体验渠道提供优惠 {#deliver}
 
-目前，可通过基于代码的体验渠道使用Experience Decisioning。
+Experience Decisioning当前可通过基于代码的体验渠道使用。
 
 基于代码的体验支持任何类型的客户实施：
 
@@ -25,5 +25,5 @@ ht-degree: 10%
 
 有关不同实施方法的详细信息，请参阅基于代码的渠道指南。 在本指南中，您将了解有关每个实施方法的详细信息，以及不同个性化和实验用例的示例实施。
 
-➡️[了解有关基于代码的实施方法的详细信息](../../code-based/code-based-implementation-samples.md)
+➡️ [了解有关基于代码的实施方法的更多信息](../../code-based/code-based-implementation-samples.md)
 

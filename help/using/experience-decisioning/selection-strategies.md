@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '729'
 ht-degree: 20%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="定义如何为产品建议排名"
 >abstract="如果多个产品建议符合给定选择策略的条件，请在创建选择策略时，选择将为每个轮廓选择最佳产品建议的方法：优先级或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html?lang=zh-Hans" text="创建决策策略"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="创建决策策略"
 
 如果多个选件符合给定的选择策略的条件，则可以在创建选择策略时，选择为每个用户档案选择最佳选件的方法。 您可以通过以下方式排列选件：
 
@@ -98,9 +98,9 @@ ht-degree: 20%
 
 ### 优惠优先级 {#offer-priority}
 
-默认情况下，当多个优惠符合决策策略中的给定投放位置条件时，具有最高&#x200B;**优先级**&#x200B;的项目将首先交付给客户。
+默认情况下，当决策策略中有多个优惠符合条件时，具有最高&#x200B;**优先级**&#x200B;的项目将首先交付给客户。
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 创建[决策项](items.md)时分配优惠的优先级分数。
 
@@ -108,17 +108,17 @@ ht-degree: 20%
 
 除了优惠优先级之外，Journey Optimizer还允许您创建&#x200B;**排名公式**。 这些公式决定应首先为给定投放位置显示哪项优惠，而不是考虑优惠的优先级评分。
 
-例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 在[本节](exd-ranking-formulas.md)中了解如何创建排名公式。
+例如，您可以提升结束日期距现在不到24小时的所有选件的优先级，或者，如果用户档案的兴趣点为“正在运行”，则提升“正在运行”类别中的选件。 在[本节](ranking/ranking-formulas.md)中了解如何创建排名公式。
 
 创建后，您可以在选择策略中使用此公式。 使用此选择策略时，如果多个优惠都符合呈现的条件，决策将使用选定的公式计算首先要投放哪个优惠。
 
 ### 人工智能排名 {#ai-ranking}
 
-您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](../offers/ranking/ai-models.md)中了解如何创建AI模型。
+您还可以使用经过训练的模型系统，该系统通过选择人工智能模型自动对要针对给定用户档案显示的选件进行排名。 在[本节](ranking/create-ai-models.md)中了解如何创建AI模型。
 
 创建AI模型后，您可以在选择策略中使用该模型。 如果多个选件符合条件，则经过训练的模型系统将确定应首先为此选择策略提供哪个选件。
 
 >[!NOTE]
 >
->当前，[提升测量](../offers/ranking/auto-optimization-model.md#lift)报告仅可用于[个性化优化](../offers/ranking/personalized-optimization-model.md) AI模型。
+>当前，[提升测量](ranking/auto-optimization-model.md#lift)报告仅可用于[个性化优化](ranking/personalized-optimization-model.md) AI模型。
 

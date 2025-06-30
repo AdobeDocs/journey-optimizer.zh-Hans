@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 20%
@@ -36,7 +36,7 @@ ht-degree: 20%
 * 更新了决策策略和选择策略配置：允许决策组件可重复使用
 * 试验功能：针对其他内容组件测试决策逻辑以衡量性能
 
-基于代码的体验渠道中支持Experience Decisioning 。
+基于代码的体验渠道当前支持Decisioning。
 
 ➡️ [开始使用Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 

@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -29,7 +30,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans){target="_blank"}中了解有关XDM架构和字段组的更多信息。
+   >在[XDM系统概述文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中了解有关XDM架构和字段组的更多信息。
 
 1. 输入架构的名称和描述，然后单击&#x200B;**完成**。
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
@@ -52,7 +53,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->了解有关在[架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#understanding-schemas){target="_blank"}中构建架构的更多信息。
+>了解有关在[架构组合基础知识](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}中构建架构的更多信息。
 
 现在，您可以使用此架构创建数据集了。 为此，请执行以下步骤：
 
@@ -70,4 +71,4 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->现在可以选择此数据集在创建AI模型<!--add link to Creat AI models section-->时收集事件数据。
+>现在可以选择此数据集在创建[AI模型](../ranking/create-ai-models.md)时收集事件数据。

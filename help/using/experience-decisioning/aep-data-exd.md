@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 表达式，编辑器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 20%
+source-wordcount: '838'
+ht-degree: 18%
 
 ---
 
-# 使用 Adobe Experience Platform 数据进行决策制定 {#aep-data}
+# 将Adobe Experience Platform数据用于Decisioning {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -33,7 +33,7 @@ ht-degree: 20%
 >
 >此功能目前为公开 Beta 版，可供所有客户使用。如果您希望获得访问权限，请联系您的客户代表。
 
-[!DNL Journey Optimizer]允许您利用来自[!DNL Adobe Experience Platform]的数据进行决策。 这样，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。 例如，可用性、等待时间等。
+[!DNL Journey Optimizer]允许您将[!DNL Adobe Experience Platform]中的数据用于决策。 这样，您可以将决策属性的定义扩展到数据集中的其他数据，以便进行定期更改的批量更新，而无需一次手动更新一个属性。 例如，可用性、等待时间等。
 
 ## Beta限制和准则 {#guidelines}
 
@@ -48,7 +48,7 @@ ht-degree: 20%
 
 要将来自[!DNL Adobe Experience Platform]数据集的数据用于决策，必须首先通过API调用启用它以进行查找。 有关详细说明，请参阅以下部分：[在Journey Optimizer中利用Adobe Experience Platform数据集](../data/lookup-aep-data.md)。
 
-## 使用 Adobe Experience Platform 数据进行决策制定
+## 利用Adobe Experience Platform数据 {#leverage-aep-data}
 
 为数据集启用查找后，您可以使用其属性通过外部数据扩充决策逻辑。 这对于经常更改的属性（如产品可用性或实时定价）特别有用。
 
@@ -86,7 +86,7 @@ Adobe Experience Platform数据集中的属性可用于决策逻辑的两个部�
 
    ![](assets/exd-lookup-menu.png)
 
-### 排名公式
+### 排名公式 {#ranking-formulas}
 
 排序公式用于定义决策项的优先级。通过使用[!DNL Adobe Experience Platform]数据集属性，您可以动态调整排名逻辑以反映真实情况。
 
@@ -107,6 +107,6 @@ Adobe Experience Platform数据集中的属性可用于决策逻辑的两个部�
    >
    >每个排名公式最多可创建3个映射。
 
-1. 照常使用数据集字段构建排名公式。 [了解如何创建排名公式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. 照常使用数据集字段构建排名公式。 [了解如何创建排名公式](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

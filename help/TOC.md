@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 98%
 
 ---
@@ -548,12 +548,18 @@ ht-degree: 98%
          + [配置项目目录](using/experience-decisioning/catalogs.md)
          + [创建决策项](using/experience-decisioning/items.md)
          + [管理项目集合](using/experience-decisioning/collections.md)
-      + 配置项目选择 {#selection}
-         + [创建决策规则](using/experience-decisioning/rules.md)
-         + [创建排名方法](using/experience-decisioning/ranking.md)
-         + [使用 AI 公式生成器](using/experience-decisioning/exd-ranking-formulas.md)
+      + [创建决策规则](using/experience-decisioning/rules.md)
+      + 创建排名 {#rankings}
+         + [创建排名方法](using/experience-decisioning/ranking/ranking.md)
+         + [使用 AI 公式生成器](using/experience-decisioning/ranking/ranking-formulas.md)
+         + AI 模型 {#ai-models}
+            + [关于 AI 模型](using/experience-decisioning/ranking/ai-models.md)
+            + [自动优化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [个性化优化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [创建 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
+      + 使用Adobe Experience Platform数据 {#aep-data}
          + [利用上下文数据](using/experience-decisioning/context-data.md)
-         + [使用Adobe Experience Platform进行决策](using/experience-decisioning/aep-data-exd.md)
+         + [使用Adobe Experience Platform for Decisioning](using/experience-decisioning/aep-data-exd.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
@@ -579,7 +585,6 @@ ht-degree: 98%
          + [排名公式](using/offers/ranking/create-ranking-formulas.md)
          + AI 模型 {#ai-models}
             + [关于 AI 模型](using/offers/ranking/ai-models.md)
-            + AI 模型类型 {#ai-model-types}
             + [自动优化模型](using/offers/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/offers/ranking/personalized-optimization-model.md)
             + [创建 AI 模型](using/offers/ranking/create-ranking-strategies.md)

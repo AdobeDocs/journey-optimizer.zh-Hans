@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -18,28 +18,28 @@ ht-degree: 17%
 
 [此部分](../start/guardrails.md)中提供了[!DNL Journey Optimizer]护栏和限制的完整列表。
 
-## 决策请求
+## 决策请求 {#decision-requests}
 
 | 护栏 | 限制 |
 | ------- | ------- |
 | 使用Edge分段功能的基于代码的体验API请求，其中包含决策策略 | 1500 |
 | 具有不使用Edge分段的决策策略的基于代码的体验API请求 | 5000 |
 
-## 物料集合
+## 物料集合 {#item-collections}
 
 | 护栏 | 限制 |
 | ------- | ------- |
-| 项目收藏集 | 10K |
+| 项目集合 | 10K |
 | 每个项目收藏集的优惠项目总数 | 500 |
 
-## 决策策略
+## 决策策略 {#decision-policy}
 
 | 护栏 | 限制 |
 | ------- | ------- |
 | 每个决策策略的选择策略和手动项目数 | 10 |
 | 每个决策策略返回的最大优惠项目 | 30 |
 
-## 资格规则
+## 资格规则 {#eligibility-rules}
 
 | 护栏 | 限制 |
 | ------- | ------- |
@@ -49,7 +49,7 @@ ht-degree: 17%
 | pql规则的最大大小 | 15K (UTF-8) |
 | 最大嵌套级别数 | 30 |
 
-## 排名公式
+## 排名公式 {#ranking-formulas}
 
 | 护栏 | 限制 |
 | ------- | ------- |
@@ -58,7 +58,7 @@ ht-degree: 17%
 | 上下文数据属性的最大数量 | 30 |
 | 最大嵌套级别数 | 30 |
 
-## 其他 
+## 其他  {#others}
 
 | 护栏 | 限制 |
 | ------- | ------- |
