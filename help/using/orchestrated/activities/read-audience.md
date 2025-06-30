@@ -6,10 +6,10 @@ description: 了解如何在编排的活动中使用读取受众活动
 badge: label="Alpha"
 hide: true
 hidefromtoc: true
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 64f886e733c0bf6ff8fd258fc24310a04397ba55
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 11%
+source-wordcount: '164'
+ht-degree: 10%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_read_audience"
 >title="生成受众活动"
->abstract="**读取受众**&#x200B;活动允许您选择将进入编排的营销活动的现有受众。 在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义。"
+>abstract="**读取受众**&#x200B;活动允许您选择将进入编排的营销活动的受众。 此受众可以是现有Adobe Experience Platform受众，也可以是从CSV文件中拉取的受众。 在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义。"
 
 
 +++ 目录
