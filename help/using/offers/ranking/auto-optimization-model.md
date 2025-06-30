@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * **Thomson采样**：Thompson采样是一种用于在线决策问题的算法，其中采取的操作是按顺序执行的，必须在利用已知的立即性能最大化与投资积累可能改善未来性能的新信息之间取得平衡。 [了解详情](#thompson-sampling)
 
-* [**Beta分布**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在间隔[0、1] [用两个正[形状参数](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}参数化的](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}上定义的连续[概率分布](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}集。
+* [**Beta分布**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在间隔[0、1] [&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter)用两个正[形状参数](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}参数化的{target="_blank"}上定义的连续[概率分布](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}集。
 
 ## 汤普森采样 {#thompson-sampling}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 +++**技术详细信息**
 
-为了计算/更新分布，我们使用&#x200B;**贝叶斯定理**。 我们希望为每个选件&#x200B;***i***&#x200B;计算其***P(𝛍i) | 数据)***，即对于每个选件&#x200B;***i***，根据我们迄今为止针对该选件收集的数据，奖励值&#x200B;**𝛍i**&#x200B;的可能性有多大。
+为了计算/更新分布，我们使用&#x200B;**贝叶斯定理**。 我们希望为每个选件&#x200B;***i***&#x200B;计算其&#x200B;***P(𝛍i) | 数据)***，即对于每个选件&#x200B;***i***，根据我们迄今为止针对该选件收集的数据，奖励值&#x200B;**𝛍i**&#x200B;的可能性有多大。
 
 根据贝叶斯定理：
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **previous概率**&#x200B;是对产生输出的概率的初始猜测。 在收集了一些证据之后，该概率称为&#x200B;**后验概率**。 
 
-自动优化旨在考虑二进制奖励（单击/不单击）。 在这种情况下，可能性表示来自N个试验的成功数，并由&#x200B;**二项式分布**&#x200B;建模。 对于某些似然函数，如果您选择某个先验分布，则后验分布与先验分布相同。 这样的前置任务称为共轭前置&#x200B;****。 这种先验使后验分布的计算变得非常简单。 **Beta分布**&#x200B;是二项式似然之前的共轭分布，因此对于前后概率分布来说是一种方便而合理的选择。Beta分布有两个参数： ***α***&#x200B;和&#x200B;***β***。 这些参数可以看作是成功和失败的计数，其平均值由以下公式给出：
+自动优化旨在考虑二进制奖励（单击/不单击）。 在这种情况下，可能性表示来自N个试验的成功数，并由&#x200B;**二项式分布**&#x200B;建模。 对于某些似然函数，如果您选择某个先验分布，则后验分布与先验分布相同。 这样的前置任务称为共轭前置&#x200B;**&#x200B;**。 这种先验使后验分布的计算变得非常简单。 **Beta分布**&#x200B;是二项式似然之前的共轭分布，因此对于前后概率分布来说是一种方便而合理的选择。Beta分布有两个参数： ***α***&#x200B;和&#x200B;***β***。 这些参数可以看作是成功和失败的计数，其平均值由以下公式给出：
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
