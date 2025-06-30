@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
+source-git-commit: 4b4363bf89f80ee9203989f1ba66a8062dfd2719
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 3%
@@ -37,6 +37,8 @@ ht-degree: 3%
 本指南将指导您完成以下过程：创建关系架构、为编排的营销活动配置数据集、通过S3源摄取数据，以及在AP平台中查询摄取的数据。
 
 在此示例中，设置包括集成两个关键实体&#x200B;**忠诚度交易**&#x200B;和&#x200B;**忠诚度奖励**，并将它们链接到现有核心实体&#x200B;**收件人**&#x200B;和&#x200B;**品牌**。
+
+![](assets/do-not-localize/schema_admin.png)
 
 1. [上传DDL文件](#upload-ddl)
 
@@ -155,7 +157,7 @@ ht-degree: 3%
 
    ![](assets/schema_2.png)
 
-1. 输入来自当前架构&#x200B;**的**&#x200B;[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]&#x200B;**的**&#x200B;关系名称。
+1. 输入来自当前架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称以及来自引用架构&#x200B;]**的**[!UICONTROL &#x200B;关系名称。
 
 1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;以保存更改。
 
@@ -179,7 +181,7 @@ Adobe Experience Platform允许从外部源摄取数据，同时让您能够使�
 
    * 使用新帐户
 
-   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [请参阅Adobe Experience Platform文档以了解详情](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
