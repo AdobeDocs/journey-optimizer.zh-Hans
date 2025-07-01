@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: cb335fd5610d70d801ae1c32dfe4d3ca9d1160ab
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 78%
+source-wordcount: '1103'
+ht-degree: 69%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 78%
 
 <br/>
 
-**[!UICONTROL 合并]**&#x200B;活动是&#x200B;**[!UICONTROL 定位]**&#x200B;活动。 此活动允许对集客群体进行分段。因此，您可以合并多个群体、排除其中的一部分或者仅保留多个目标共有的数据。下面显示了可用的分段类型：
+**[!UICONTROL 合并]**&#x200B;活动是&#x200B;**[!UICONTROL 定位]**&#x200B;活动的类型，它允许您有效地对入站群体进行分段。 利用该功能，可合并多个群体、排除特定区段或仅保留在多个目标之间共享的数据。
 
-<!--
-The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
--->
+可以使用以下分段选项：
 
-* **[!UICONTROL 并集]**&#x200B;可将多个活动的结果重组为单个目标。
-* **[!UICONTROL 交集]**&#x200B;可仅在活动中保留不同集客群体的共有元素。
-* **[!UICONTROL 差集]**&#x200B;可根据特定条件从一个群体中排除某些元素。
+* **[!UICONTROL 联合]**：将多个活动的结果合并到单个统一目标中。
+
+* **[!UICONTROL 交集]**：仅保留所有集客群体中通用的元素。
+
+* **[!UICONTROL 排除项]**：根据指定的条件从一个群体中删除元素。
 
 ## 配置合并活动 {#combine-configuration}
 
@@ -62,7 +62,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 请按照以下常见步骤操作，开始配置&#x200B;**[!UICONTROL 合并]**&#x200B;活动：
 
-![](../assets/workflow-combine.png)
+![](../assets/orchestrated-combine.png)
 
 1. 添加多项活动（例如&#x200B;**[!UICONTROL 生成受众]**&#x200B;活动），来构成至少两个不同的执行分支。
 1. 向先前的任何分支添加一个&#x200B;**[!UICONTROL 合并]**&#x200B;活动。
@@ -82,6 +82,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **[!UICONTROL 仅键值]**：这是默认模式。当来自不同集客过渡的元素具有相同的键值时，该活动只保留一个元素。仅当集客群体具有同样的性质时，才能使用此选项。
 * **[!UICONTROL 选择的列]**：选择此选项可定义应用数据协调的列的列表。 必须先选择主集（包含源数据的集），然后选择用于连接的列。
 
+在以下示例中，我们使用&#x200B;**[!UICONTROL 合并]**&#x200B;活动，并添加&#x200B;**[!UICONTROL 合并]**&#x200B;以检索两个查询的所有用户档案：忠诚会员和购买者，从而形成更大的受众。
+
+![](../assets/orchestrated-union-example.png)
+
 ## 交集 {#combine-intersection}
 
 >[!CONTEXTUALHELP]
@@ -93,6 +97,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 1. 选择&#x200B;**[!UICONTROL 协调类型]**&#x200B;以定义如何处理重复项。请参阅[并集](#union)部分。
 1. 如果您想处理剩余的人群，可以选中&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。补集将包含所有集客活动减去交集的结果的并集。然后，一个额外的叫客过渡将添加到活动中。
+
+以下示例显示两个查询活动之间的&#x200B;**[!UICONTROL 交集]**。 此处使用该数据来检索具有忠诚会员资格的用户档案，该会员的上次购买时间距今不到一个月。
+
+![](../assets/orchestrated-intersection-example.png)
+
 
 ## 差集 {#combine-exclusion}
 
@@ -122,16 +131,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 必要时，您可以操作集客表。事实上，要从另一个维度排除一个目标，必须将该目标返回到与主目标相同的定位维度。为此，请单击&#x200B;**[!UICONTROL 差集规则]**&#x200B;部分中的&#x200B;**[!UICONTROL 添加规则]**，并指定维度更改条件。数据协调是通过属性或联接来执行的。
 1. 如果您想处理剩余的人群，可以选中&#x200B;**[!UICONTROL 生成补集]**&#x200B;选项。请参阅[交集](#intersection)部分。
 
-## 示例{#combine-examples}
+以下&#x200B;**[!UICONTROL 排除项]**&#x200B;示例显示了两个查询，它们配置为筛选购买产品的用户档案。 然后，从第一组中排除没有忠诚度会员资格的用户档案。
 
-在以下示例中，我们使用&#x200B;**[!UICONTROL Combine]**&#x200B;活动并添加&#x200B;**[!UICONTROL Union]**&#x200B;以检索两个查询的所有用户档案：18至27岁的人和34至40岁的人。
+原因：您正在开展忠诚度营销活动，因此非成员无关紧要。
 
-![](../assets/workflow-union-example.png)
+![](../assets/orchestrated-exclusion-example.png)
 
-以下示例显示两个查询活动之间的&#x200B;**[!UICONTROL 交集]**。 此处使用它来检索年龄在 18 至 27 岁之间且已提供电子邮件地址的人员的轮廓。
-
-![](../assets/workflow-intersection-example.png)
-
-以下&#x200B;**[!UICONTROL 排除项]**&#x200B;示例显示了两个查询，配置为筛选18到27岁之间且具有Adobe电子邮件域的用户档案。 随后，具有 Adobe 电子邮件域的轮廓将从第一个集合中排除。
-
-![](../assets/workflow-exclusion-example.png)
