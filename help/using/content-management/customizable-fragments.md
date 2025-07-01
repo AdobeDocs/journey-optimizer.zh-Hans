@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 1%
@@ -159,35 +159,6 @@ ht-degree: 1%
 1. 将`render_content`替换为您所需的默认丰富内容对应的HTML代码。 您可以添加粗体、斜体、换行符、项目符号列表等。
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. 在同一HTML组件中，为您的样式元素添加另一个&#x200B;**内联**&#x200B;帮助程序函数。
 
@@ -223,4 +194,4 @@ ht-degree: 1%
 
 本视频说明如何使片段中的HTML组件可编辑，从而允许对内容和样式进行动态更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
