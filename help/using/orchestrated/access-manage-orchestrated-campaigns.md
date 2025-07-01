@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: a1da25455621c02656706b95dcefe241370a6ac6
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 20%
+source-wordcount: '695'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 20%
 
 此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选编排的营销活动以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
-营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像允许您执行下文详述的各种操作。
+营销活动清单中显示“更多操作”按钮](assets/do-not-localize/rule-builder-icon-more.svg)按钮的![图像允许您执行下文详述的各种操作。
 
 ![映像营销活动清单](assets/inventory-actions.png)
 
@@ -77,9 +77,6 @@ ht-degree: 20%
 ## 营销活动状态 {#status}
 
 编排的活动可以具有多种状态：
-
-循环开始于执行者，fait une查询。单击close： va continuer et se termienr quand elle sera allée jusqu&#39;au bout du diagram
-
 
 * **[!UICONTROL 草稿]**：已创建编排的营销活动。 它尚未发布。
 * **[!UICONTROL 正在发布]**：正在发布编排的营销活动。
