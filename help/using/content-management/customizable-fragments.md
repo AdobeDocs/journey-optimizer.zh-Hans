@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 0%
+source-wordcount: '1478'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ![](../content-management/assets/do-not-localize/gif-fragments.gif)
 
-## 在可视片段中添加可编辑字段 {#visual}
+## 向可视片段添加可编辑字段 {#visual}
 
 要使可视片段的某些部分可编辑，请执行以下步骤：
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 将片段添加到电子邮件后，用户将能够自定义片段中配置的所有可编辑字段。 [了解如何自定义可视化片段中的可编辑字段](../email/use-visual-fragments.md#customize-fields)
 
-## 在HTML组件和表达式片段中添加可编辑字段 {#expression}
+## 将可编辑字段添加到HTML组件和表达式片段 {#expression}
 
 要使HTML组件或表达式片段的某些部分可编辑，必须在表达式编辑器中使用特定语法。 这涉及声明一个具有默认值的&#x200B;**变量**，用户在将片段添加到其内容后可以覆盖该变量。
 
@@ -81,9 +81,11 @@ ht-degree: 0%
 
 要声明变量并在片段中使用它，请执行以下步骤：
 
-1. 打开表达式片段，然后在个性化编辑器中编辑其内容。 对于HTML组件，选择片段中的组件并单击&#x200B;**显示源代码**&#x200B;按钮。
+1. 打开表达式片段，然后在个性化编辑器中编辑其内容。
 
    ![](assets/fragment-html-edit.png)
+
+   对于HTML组件，选择片段中的组件并单击&#x200B;**显示源代码**&#x200B;按钮。
 
 1. 声明用户要编辑的变量。 导航到左侧导航窗格中的&#x200B;**辅助函数**&#x200B;菜单，然后添加&#x200B;**内联**&#x200B;辅助函数。 用于声明和调用变量的语法会自动添加到内容中。
 
@@ -135,3 +137,84 @@ ht-degree: 0%
 1. 将表达式片段添加到其内容时，用户可以直接从表达式编辑器中使用所做的选择更改变量的值。 [了解如何自定义表达式片段中的可编辑字段](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)
+
+## 将富文本添加到可自定义的片段 {#rich-text}
+
+可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可编辑片段中。 要实现此目的，请执行以下步骤。
+
+➡️ [了解如何在本视频的可编辑片段中向HTML组件添加和使用富文本](#video)
+
+### 创建包含富文本的片段 {#add-rich-text}
+
+1. 创建可视片段并开始添加组件。
+
+1. 添加[HTML组件](../email/content-components.md#HTML)并打开HTML编辑器。
+
+1. 导航到左侧导航窗格中的&#x200B;**[!UICONTROL 辅助函数]**&#x200B;菜单，然后添加&#x200B;**内联**&#x200B;辅助函数。
+
+1. 将`"name"`替换为您要用于可编辑内容的ID，例如“EditableContent”。
+
+1. 将`render_content`替换为与所需默认内容相对应的HTML代码。
+
+   ![](assets/fragment-rich-editable-content.png)
+<!--
+    +++For example:
+
+    ```html
+
+    <h1>Main title</h1>
+
+    <h2>Subtitle One</h2>
+    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
+
+    <p class="bold">This text is bold.</p>
+    <p class="italic">This text is italic.</p>
+    <p class="bold-italic">This text is bold and italic.</p>
+
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point with more text</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <hr>
+
+    <h2>Subtitle Two</h2>
+    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
+
+    ```
+
+    +++
+-->
+
+1. 在同一HTML组件中，为您的样式元素添加另一个&#x200B;**内联**&#x200B;帮助程序函数。
+
+1. 将`"name"`和`render_content`替换为与所需默认样式相对应的ID和HTML代码。
+
+   ![](assets/fragment-rich-editable-styling.png)
+
+1. 保存您的内容。 所选的可编辑字段显示在右侧。
+
+   ![](assets/fragment-rich-editable-fields.png)
+
+1. 发布片段。
+
+### 使用富文本可编辑片段 {#use-rich-text}
+
+在将片段添加到其电子邮件内容时，用户现在可以编辑您创建的富文本内容和样式。 要在营销人员中使用富文本可编辑片段，请执行以下步骤。
+
+1. 在营销活动或历程中创建电子邮件，然后添加创建的片段。
+
+   您可以在右侧窗格中看到已创建的两个可编辑字段。
+
+   ![](assets/fragment-use-rich-editable-fields.png)
+
+1. 您可以单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以查看可编辑内容和样式呈现方式。
+
+1. 选择其中一个可编辑字段旁边的&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标，并根据需要编辑CSS样式和/或内容。
+
+## 操作说明视频 {#video}
+
+本视频说明如何使片段中的HTML组件可编辑，从而允许对内容和样式进行动态更新。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

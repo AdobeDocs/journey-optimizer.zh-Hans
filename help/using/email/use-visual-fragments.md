@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '715'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 片段是可重复使用的组件，可以在跨Journey Optimizer营销活动、历程或内容模板的一个或多个电子邮件中引用。 此功能允许预先构建多个自定义内容块，营销用户可以使用这些内容块在改进的设计过程中快速组合电子邮件内容。 [了解如何创建和管理片段](../content-management/fragments.md)。
 
-➡️[在此视频中了解如何管理、创作和使用片段](../content-management/fragments.md#video-fragments)
+➡️ [在此视频中了解如何管理、创作和使用片段](../content-management/fragments.md#video-fragments)
 
 ## 使用片段 {#use-fragment}
 
@@ -85,11 +85,13 @@ ht-degree: 2%
 
 要自定义片段中的可编辑字段，请执行以下步骤：
 
-1. 将片段添加到内容并选择它以打开右侧的属性窗格。
+1. 将片段添加到您的内容。
 
-1. 片段中的所有可编辑字段显示在&#x200B;**片段**&#x200B;部分下的&#x200B;**设置**&#x200B;选项卡中。
+1. 选择它可打开右侧的属性窗格。
 
-   在右侧窗格中选择可编辑字段时，这些字段会在预览窗格中以绿色突出显示，以便轻松识别它们在内容中的位置。
+   片段中的所有可编辑字段显示在&#x200B;**片段**&#x200B;部分下的&#x200B;**设置**&#x200B;选项卡中。
+
+1. 在右侧窗格中选择可编辑字段时，会在中央预览窗格中以绿色突出显示该字段，以便轻松识别其在内容中的位置。
 
    在以下示例中，可以编辑图像&#x200B;**源**&#x200B;和&#x200B;**替换文本**&#x200B;以及“单击此处”按钮&#x200B;**URL**。
 
