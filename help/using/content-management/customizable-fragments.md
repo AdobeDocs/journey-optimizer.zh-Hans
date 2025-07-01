@@ -223,4 +223,4 @@ ht-degree: 1%
 
 本视频说明如何使片段中的HTML组件可编辑，从而允许对内容和样式进行动态更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464378/?learn=on&#x26;enablevpops&captions=chi_hans)
