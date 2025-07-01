@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
 
 # 可自定义的片段 {#customizable-fragments}
 
-在营销活动或历程操作中使用片段时，它们会因继承而默认被锁定。 这意味着对片段所做的任何更改都会自动传播到使用该片段的所有营销活动和历程。 利用可自定义的片段，在将片段添加到营销活动或历程操作时，片段中的特定字段可以定义为可编辑。 例如，假设您有一个带有横幅、一些文本和按钮的片段。 您可以将某些字段（如图像或按钮目标URL）指定为可编辑的。 这允许用户在将片段整合到其活动或历程中时修改这些元素，提供定制的体验而不影响原始片段。
+在营销活动或历程操作中使用片段时，它们会因继承而默认被锁定。 这意味着对片段所做的任何更改都会自动传播到使用该片段的所有营销活动和历程。
+
+使用&#x200B;**可自定义的片段**，在将片段添加到营销活动或历程操作时，可以将片段中的特定字段定义为可编辑。 例如，假设您有一个带有横幅、一些文本和按钮的片段。 您可以将某些字段（如图像或按钮目标URL）指定为可编辑的。 这允许用户在将片段整合到其活动或历程中时修改这些元素，提供定制的体验而不影响原始片段。
 
 可自定义的片段无需中断片段继承，这以前阻止将片段级别的集中更改传播到活动和历程。 这种方法允许在使用时调整内容部分，从而灵活地用特定于上下文的详细信息覆盖默认值。
 
@@ -110,7 +112,7 @@ ht-degree: 1%
 
    ![](assets/fragment-call-variable.png)
 
-1. 保存您的片段。
+1. 保存并发布您的片段。
 
 在将片段添加到其电子邮件内容时，用户现在可以使用所选值覆盖变量的默认值：
 
@@ -118,7 +120,7 @@ ht-degree: 1%
 
 * 对于HTML组件，变量显示在电子邮件Designer的可编辑字段列表中。 [了解如何自定义可视化片段中的可编辑字段](../email/use-visual-fragments.md#customize-fields)
 
-## 可编辑的表达式片段示例 {#example}
+### 可编辑的表达式片段示例 {#example}
 
 在以下示例中，我们正在创建一个展示新体育收藏集的表达式片段。 默认情况下，片段显示此内容： *查找更多？ 不要错过我们最新的体育收藏集！*
 
@@ -142,11 +144,11 @@ ht-degree: 1%
 
 可以使用HTML组件将富文本（如换行符、粗体、斜体等）添加到可编辑片段中。 要实现此目的，请执行以下步骤。
 
-➡️ [了解如何在本视频的可编辑片段中向HTML组件添加和使用富文本](#video)
+➡️ [了解如何在此视频中添加和使用富文本到可编辑片段](#video)
 
 ### 创建包含富文本的片段 {#add-rich-text}
 
-1. 创建可视片段并开始添加组件。
+1. 创建可视化[片段](create-fragments.md)并开始添加组件。
 
 1. 添加[HTML组件](../email/content-components.md#HTML)并打开HTML编辑器。
 
@@ -154,7 +156,7 @@ ht-degree: 1%
 
 1. 将`"name"`替换为您要用于可编辑内容的ID，例如“EditableContent”。
 
-1. 将`render_content`替换为与所需默认内容相对应的HTML代码。
+1. 将`render_content`替换为您所需的默认丰富内容对应的HTML代码。 您可以添加粗体、斜体、换行符、项目符号列表等。
 
    ![](assets/fragment-rich-editable-content.png)
 <!--
@@ -197,24 +199,28 @@ ht-degree: 1%
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. 发布片段。
+1. 保存并[发布](create-fragments.md#publish)片段。
 
 ### 使用富文本可编辑片段 {#use-rich-text}
 
-在将片段添加到其电子邮件内容时，用户现在可以编辑您创建的富文本内容和样式。 要在营销人员中使用富文本可编辑片段，请执行以下步骤。
+在将片段添加到其电子邮件内容时，用户现在可以编辑您创建的富文本内容和样式。 要将富文本可编辑片段用作营销人员，请执行以下步骤。
 
-1. 在营销活动或历程中创建电子邮件，然后添加创建的片段。
+1. [在营销活动或历程中创建电子邮件](../email/create-email.md)，然后添加包含[已创建](#add-rich-text)的RTF内容的片段。
 
-   您可以在右侧窗格中看到已创建的两个可编辑字段。
+   您可以在右侧看到创建的两个可编辑字段。
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 您可以单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以查看可编辑内容和样式呈现方式。
+1. 您可以单击&#x200B;**[!UICONTROL 模拟内容]**&#x200B;以查看可编辑内容和样式呈现方式。 [了解有关预览内容的更多信息](preview-test.md)
 
-1. 选择其中一个可编辑字段旁边的&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标，并根据需要编辑CSS样式和/或内容。
+1. 选择其中一个可编辑字段旁边的&#x200B;**[!UICONTROL 添加个性化]**&#x200B;图标。
+
+1. 在打开的个性化编辑器中，根据需要通过添加或删除可编辑字段的元素来更新<!--CSS-->样式和/或内容。
+
+   ![](assets/fragment-rich-editable-fields-update-styling.png)
 
 ## 操作说明视频 {#video}
 
 本视频说明如何使片段中的HTML组件可编辑，从而允许对内容和样式进行动态更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464378/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
