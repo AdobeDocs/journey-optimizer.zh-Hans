@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: d4cee2680dbe631d93f43d7d165d6874b9e41a47
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -45,8 +45,8 @@ ht-degree: 10%
 
 | 报告类型 | 描述 |
 |-----|------------|
-| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | 使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化编排营销活动的影响和表现。 从&#x200B;**[!UICONTROL 查看过去24小时报告]**&#x200B;菜单执行编排的活动后，**[!UICONTROL 实时报告]**&#x200B;中即有数据可用。 在本节[中了解有关实时报告](live-report.md)的更多信息。 |
-| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | 编排的活动报告功能与Customer Journey Analytics功能完全集成，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。  在本节[中了解有关所有时间报表](report-gs-cja.md)的更多信息。 |
+| ![](assets/last-24hours.png){zoomable="yes"}{width="70%"} | 使用&#x200B;**[!UICONTROL 实时报告]**&#x200B;在内置仪表板中实时衡量和可视化编排营销活动的影响和表现。 从&#x200B;**[!UICONTROL 查看过去24小时报告]**&#x200B;菜单执行编排的活动后，**[!UICONTROL 实时报告]**&#x200B;中即有数据可用。 在本节[中了解有关实时报告](../reports/live-report.md)的更多信息。 |
+| ![](assets/all-time-report.png){zoomable="yes"}{width="70%"} | 编排的活动报告功能与Customer Journey Analytics功能完全集成，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。  在本节[中了解有关所有时间报表](../reports/report-gs-cja.md)的更多信息。 |
 
 
 
