@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 1a4cd7df44cb54aaf4d18409574f5ceb9537935c
+source-git-commit: 85d322e5855c6e658a3a93dc0f3d644ef79437b5
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 16%
+source-wordcount: '985'
+ht-degree: 17%
 
 ---
 
@@ -99,29 +99,13 @@ UNUSED IDs in BJ
 
    配置由[系统管理员](../../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)。
 
-1. 根据渠道的不同，可使用多个选项。 浏览以下选项卡以了解更多信息：
-
-   >[!BEGINTABS]
-
-   >[!TAB 电子邮件]
-
-   使用&#x200B;**[!UICONTROL 跟踪电子邮件打开次数]**&#x200B;和&#x200B;**[!UICONTROL 跟踪电子邮件中的链接和按钮的点击次数]**&#x200B;选项来跟踪收件人对您的投放的反应。
+1. 对于电子邮件和短信，使用跟踪选项来监控收件人对电子邮件或短信投放的反应。
 
    执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../reports/campaign-global-report-cja.md)
 
-   >[!TAB 短信]
+1. 对于推送通知，请使用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;选项在推送渠道上向3000万以下的受众规模进行高速消息发送。
 
-   使用&#x200B;**[!UICONTROL 跟踪短信中的链接点击次数]**&#x200B;选项来跟踪短信中的链接点击次数。
-
-   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../reports/campaign-global-report-cja.md)
-
-   >[!TAB 推送]
-
-   快速传递模式是一个&#x200B;**[!DNL Journey Optimizer]**&#x200B;加载项，它允许大容量快速发送推送消息。
-
-   启用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;选项，以便在推送渠道上向受众规模小于3000万的用户高速发送消息。 [了解详情](../push/create-push.md#rapid-delivery)
-
-   >[!ENDTABS]
+   快速传递模式是一个&#x200B;**[!DNL Journey Optimizer]**&#x200B;加载项，它允许大容量快速发送推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
 
 1. **[!UICONTROL 内容试验]**&#x200B;部分允许您定义多个投放处理，以测量哪个处理对您的目标受众表现最佳。
 
