@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 5e4d64c4236898683a1ebb5ab2a19be4fcd15d79
+source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 11%
 
 ---
@@ -34,20 +34,15 @@ ht-degree: 11%
 ## 报告类型 {#reporting-types}
 
 <table style="table-layout:auto; width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="text-align: left">
-      <th>报告类型</th>
-      <th>描述</th>
-    </tr>
-  </thead>
   <tbody>
-    <tr style="border: 0;">
+    <tr>
       <td><a href="../reports/live-report.md"><img alt="实时报告" src="assets/last-24hours.png"></a></td>
       <td>
         使用<b>实时报告</b>在内置仪表板中实时衡量和可视化编排营销活动的影响和表现。 从<b>查看过去24小时报告</b>菜单执行编排的活动后，<b>实时报告</b>中即有数据可用。 在本节<a href="../reports/live-report.md">中了解有关实时报告</a>的更多信息。
       </td>
+        </br>
     </tr>
-    <tr style="border: 0; background-color: #FFFFFF;">
+    <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="全时段报告" src="assets/all-time-report.png"></a></td>
       <td>
         编排的活动报告功能与Customer Journey Analytics功能完全集成，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 了解有关<a href="../reports/report-gs-cja.md">所有时间报表</a>的更多信息。
