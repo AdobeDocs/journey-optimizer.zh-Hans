@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: cfd94e714c0e99200ac9816315bdbb6c410f2a12
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 23%
 
 <br/>
 
-作为营销人员，您可以通过在编排的营销活动中从一个数据实体切换到另一个链接实体来优化受众定位。 这样，您就可以从定向用户配置文件转到重点关注特定操作，例如购买、预订或其他交互。
+作为营销人员，您可以通过在编排的营销活动中从一个数据实体转移到相关数据实体来增强受众定位。 这使您能够超越用户配置文件并专注于特定行为，例如购买、预订或其他交互。
 
-为此，请使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动。 它允许您根据数据模型的结构和输入维度，在编排的营销活动中更改定向维度。
+要实现此目的，请使用&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动。 它允许您在编排的营销活动期间调整定向维度。
 
 <!--
 >[!IMPORTANT]
@@ -53,18 +53,17 @@ ht-degree: 23%
 
 1. 将&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动添加到您的编排的营销活动中。
 
-   ![](../assets/change-dimension.png)
+   ![](../assets/orchestrated-change-dimension.png)
 
 1. 定义&#x200B;**[!UICONTROL 新目标维度]**。 在维度更改期间，将保留所有记录。
 
-1. 执行编排的活动以查看结果。 比较更改维度活动之前和之后表中的数据，并比较编排的活动表的结构。
 
 ## 示例 {#example}
 
-此用例包括向在上个月创建愿望清单的用户档案发送短信。
+此用例侧重于向在过去一个月内创建了愿望清单的用户档案发送短信。
 
-使用&#x200B;**[!UICONTROL 愿望清单]**&#x200B;定向维度选择所有相关愿望清单，从&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动开始。
+从&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动开始，使用&#x200B;**[!UICONTROL 愿望清单]**&#x200B;定向维度识别所有相关愿望清单。
 
-接下来，插入&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动以将定向维度从&#x200B;**[!UICONTROL 愿望清单]**&#x200B;切换到&#x200B;**[!UICONTROL 收件人]**。 这样，编排的营销活动就可以向与这些愿望清单相关联的用户档案发送短信。
+然后，添加&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动以将定向维度从&#x200B;**[!UICONTROL 愿望清单]**&#x200B;切换为&#x200B;**[!UICONTROL 收件人]。**&#x200B;此步骤可确保编排的活动定向与这些愿望清单关联的正确用户档案，从而允许将短信发送到预期的用户档案。
 
 ![](../assets/orchestrated-change-dimension-example.png)
