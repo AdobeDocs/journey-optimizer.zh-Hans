@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: a1da25455621c02656706b95dcefe241370a6ac6
+source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 21%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 21%
 
 | 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/><b>[访问和管理协调的营销活动](access-manage-orchestrated-campaigns.md)</b> | [创建编排营销活动的关键步骤](gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[发送包含编排营销活动的消息](send-messages.md)<br/><br/>[开始和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[And-join](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/><b>[访问和管理协调的营销活动](access-manage-orchestrated-campaigns.md)</b> | [创建编排营销活动的关键步骤](gs-campaign-creation.md)<br/><br/>[创建和计划营销活动](create-orchestrated-campaign.md)<br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - **[渠道活动](activities/channels.md)** - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -48,7 +48,7 @@ ht-degree: 21%
 
 此外，还可使用搜索栏和过滤器以便在列表中轻松搜索。例如，您可以筛选编排的营销活动以仅显示与给定渠道或标记关联的营销活动，或显示在特定日期范围内创建的营销活动。
 
-营销活动清单中显示“更多操作”按钮![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按钮的图像允许您执行下文详述的各种操作。
+营销活动清单中显示“更多操作”按钮![按钮的](assets/do-not-localize/rule-builder-icon-more.svg)图像允许您执行下文详述的各种操作。
 
 ![映像营销活动清单](assets/inventory-actions.png)
 
