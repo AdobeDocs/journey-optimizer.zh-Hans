@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
+source-git-commit: 6a2b49d952408d6c9b0e147505f5112ada3f4967
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1016'
 ht-degree: 17%
 
 ---
@@ -95,39 +95,32 @@ UNUSED IDs in BJ
 
 ### 设置渠道配置和设置 {#configuration}
 
-1. 选择&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡，然后选择要用于消息的通道配置。
+使用&#x200B;**[!UICONTROL 操作]**&#x200B;选项卡可为消息选择渠道配置并配置其他设置，如跟踪、内容实验或多语言内容。
+
+1. 选择用于消息的渠道配置。
 
    配置由[系统管理员](../../start/path/administrator.md)定义。 它包含用于发送消息的所有技术参数，如标头参数、子域、移动应用程序等。[了解如何设置渠道配置](../../configuration/channel-surfaces.md)。
 
-1. 对于电子邮件和短信，使用跟踪选项来监控收件人对电子邮件或短信投放的反应。
+   显示“操作”部分的![图像](../assets/channel-actions.png)
 
-   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
+1. 对于电子邮件和短信，请使用&#x200B;**[!UICONTROL 操作跟踪]**&#x200B;部分中的选项来跟踪收件人对电子邮件或短信投放的反应。 执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
 
-1. 对于推送通知，请使用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;选项在推送渠道上向3000万以下的受众规模进行高速消息发送。
+1. 对于推送通知，请使用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;选项在推送渠道上向3000万以下的受众规模进行高速消息发送。 快速传递模式是一个&#x200B;**[!DNL Journey Optimizer]**&#x200B;加载项，它允许大容量快速发送推送消息。 [了解详情](../../push/create-push.md#rapid-delivery)
 
-   快速传递模式是一个&#x200B;**[!DNL Journey Optimizer]**&#x200B;加载项，它允许大容量快速发送推送消息。 [了解详情](../../push/create-push.md#rapid-delivery)
+1. 使用&#x200B;**[!UICONTROL 内容试验]**&#x200B;部分定义多种传递处理，以衡量哪种传递处理对目标受众的效果最佳。 单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮，然后执行本节中详述的步骤： [创建内容试验试验功能](../../content-management/content-experiment.md)。
 
-1. **[!UICONTROL 内容试验]**&#x200B;部分允许您定义多个投放处理，以测量哪个处理对您的目标受众表现最佳。
+   ![显示内容试验部分的图像](../assets/channel-experiment.png)
 
-   为此，请单击&#x200B;**[!UICONTROL 创建试验]**&#x200B;按钮，然后执行本节中详述的步骤： [创建内容试验试验功能](../../content-management/content-experiment.md)。
-
-1. **[!UICONTROL 语言]**&#x200B;部分允许您在营销策划中创建多种语言的内容。
-
-   为此，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。 有关如何设置和使用多语言功能的详细信息，请参阅此部分： [开始使用多语言内容](../../content-management/multilingual-gs.md)
+1. 使用&#x200B;**[!UICONTROL 语言]**&#x200B;部分在营销策划中创建多种语言的内容。 为此，请单击&#x200B;**[!UICONTROL 添加语言]**&#x200B;按钮，然后选择所需的&#x200B;**[!UICONTROL 语言设置]**。 有关如何设置和使用多语言功能的详细信息，请参阅此部分： [开始使用多语言内容](../../content-management/multilingual-gs.md)
 
 ### 定义内容 {#content}
 
-选择&#x200B;**[!UICONTROL Content]**&#x200B;选项卡以定义消息的内容。 内容创建过程取决于所选的渠道。
+使用&#x200B;**[!UICONTROL Content]**&#x200B;选项卡定义消息的内容。 内容创建过程取决于所选的渠道。 在以下页面中了解创建消息内容的详细步骤：
 
-在以下页面中了解创建消息内容的详细步骤：
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../../email/create-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../../email/create-email.md"><strong>电子邮件</strong></a></div></td>
-<td><a href="../../sms/create-sms.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../../sms/create-sms.md"><strong>短信</strong></a></div></td>
-<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../../push/create-push.md"><strong>推送通知</strong></a></div></td>
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
+<td><a href="../../email/create-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>电子邮件</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>短信</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>推送通知</strong></a></td>
 </tr></table>
 
 定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，使用从CSV/JSON文件上传或手动添加的测试配置文件或示例输入数据预览和测试内容。 [了解详情](../../content-management/preview-test.md)
@@ -136,9 +129,9 @@ UNUSED IDs in BJ
 
 使用&#x200B;**[!UICONTROL 返回]**&#x200B;箭头返回您的编排的营销活动。
 
-显示“返回”按钮的![图像](../assets/channel-back.png)
-
 您现在可以在画布中完成活动编排，并发布活动以开始发送消息。 [了解如何启动和监控编排的营销活动](../start-monitor-campaigns.md)
+
+显示“返回”按钮的![图像](../assets/channel-back.png)
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
