@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="限量发布版" type="Informative"
 keywords: 活动，决策，内容决策，决策策略，画布，历程
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能仅适用于一组组织（限量发布），并将在未来版本中在全球范围内推出。
+>此功能仅面向一部分组织提供（限量发布），将会通过未来的版本在全球范围内推出。
 
 [!DNL Journey Optimizer]允许您通过历程画布中的专用&#x200B;**内容决策**&#x200B;活动在历程中包含优惠。 然后，您可以向历程中添加其他活动（如[自定义操作](../action/about-custom-action-configuration.md)），以使用这些个性化优惠定位受众。
 
@@ -139,7 +141,7 @@ ht-degree: 1%
    >
    >内容决策节点的输出仅在&#x200B;**[!UICONTROL 高级模式]**&#x200B;下可用。
 
-1. 使用`items`数组浏览[优惠目录架构](../experience-decisioning/catalogs.md#access-catalog-schema)。 例如，使用检索到的第一个选件的`itemName`和检索到的第二个选件的`itemName`。
+1. 使用[数组浏览](../experience-decisioning/catalogs.md#access-catalog-schema)优惠目录架构`items`。 例如，使用检索到的第一个选件的`itemName`和检索到的第二个选件的`itemName`。
 
    ![自定义操作的请求参数，包括决策策略](assets/journey-content-decision-custom-action-param-ex.png)
 
@@ -155,7 +157,7 @@ ht-degree: 1%
 
 <!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
 
-历程激活后[&#128279;](publishing-the-journey.md)：
+历程激活后[](publishing-the-journey.md)：
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
