@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 98%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 98%
       + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
       + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
       + [策划活动](using/orchestrated/orchestrate-activities.md)
-      + [通过精心策划的营销活动发送消息](using/orchestrated/send-messages.md)
       + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)
       + [报告](using/orchestrated/reporting-campaigns.md)
    + 查询数据库 {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 98%
       + [And-join](using/orchestrated/activities/and-join.md)
       + [构建受众](using/orchestrated/activities/build-audience.md)
       + [更改维度](using/orchestrated/activities/change-dimension.md)
+      + [渠道活动](using/orchestrated/activities/channels.md)
       + [合并](using/orchestrated/activities/combine.md)
       + [重复数据删除](using/orchestrated/activities/deduplication.md)
       + [扩充](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 98%
       + [拆分](using/orchestrated/activities/split.md)
       + [测试](using/orchestrated/activities/test.md)
       + [等待](using/orchestrated/activities/wait.md)
-      + [渠道活动](using/orchestrated/activities/channels.md)
 + 营销活动 {#campaigns}
    + [营销活动入门](using/campaigns/get-started-with-campaigns.md)
    + [创建营销活动](using/campaigns/create-campaign.md)
