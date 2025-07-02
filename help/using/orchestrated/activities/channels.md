@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
+source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -101,7 +101,7 @@ UNUSED IDs in BJ
 
 1. 对于电子邮件和短信，使用跟踪选项来监控收件人对电子邮件或短信投放的反应。
 
-   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../reports/campaign-global-report-cja.md)
+   执行营销活动后，即可从营销活动报表访问跟踪结果。 [了解有关营销活动报告的更多信息](../../reports/campaign-global-report-cja.md)
 
 1. 对于推送通知，请使用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;选项在推送渠道上向3000万以下的受众规模进行高速消息发送。
 
