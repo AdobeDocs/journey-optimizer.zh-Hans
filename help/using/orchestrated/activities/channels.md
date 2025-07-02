@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: d8b83bc46526f721d4dfaf62cf8ba4cbf5a56ce7
+source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 17%
@@ -20,7 +20,7 @@ ht-degree: 17%
 
 | 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建编排的营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/><br/>[启动并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[并加入](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - **[渠道活动](activities/channels.md)** - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
+| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建编排的营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/><br/>[启动并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[并加入](and-join.md) - [生成受众](build-audience.md) - [更改维度](change-dimension.md) - **[渠道活动](channels.md)** - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -105,7 +105,7 @@ UNUSED IDs in BJ
 
 1. 对于推送通知，请使用&#x200B;**[!UICONTROL 快速传递模式]**&#x200B;选项在推送渠道上向3000万以下的受众规模进行高速消息发送。
 
-   快速传递模式是一个&#x200B;**[!DNL Journey Optimizer]**&#x200B;加载项，它允许大容量快速发送推送消息。 [了解详情](../push/create-push.md#rapid-delivery)
+   快速传递模式是一个&#x200B;**[!DNL Journey Optimizer]**&#x200B;加载项，它允许大容量快速发送推送消息。 [了解详情](../../push/create-push.md#rapid-delivery)
 
 1. **[!UICONTROL 内容试验]**&#x200B;部分允许您定义多个投放处理，以测量哪个处理对您的目标受众表现最佳。
 
@@ -124,13 +124,13 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../../email/create-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../../email/create-email.md"><strong>电子邮件</strong></a></div></td>
-<td><a href="../sms/../create-sms.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="../../sms/create-sms.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><a href="../../sms/create-sms.md"><strong>短信</strong></a></div></td>
-<td><a href="../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a>
+<td><a href="../../push/create-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../../push/create-push.md"><strong>推送通知</strong></a></div></td>
 </tr></table>
 
-定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，使用从CSV/JSON文件上传或手动添加的测试配置文件或示例输入数据预览和测试内容。 [了解详情](../content-management/preview-test.md)。
+定义内容后，使用&#x200B;**[!UICONTROL 模拟内容]**&#x200B;按钮，使用从CSV/JSON文件上传或手动添加的测试配置文件或示例输入数据预览和测试内容。 [了解详情](../../content-management/preview-test.md)
 
 ## 后续步骤 {#next}
 

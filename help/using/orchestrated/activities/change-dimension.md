@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: e01715416659270ddf75eb9fdb8f0eb03063bd7b
+source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 24%
+source-wordcount: '367'
+ht-degree: 23%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 24%
 
 | 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建编排的营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/><br/>[启动并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[And-join](and-join.md) - [生成受众](build-audience.md) - **[更改维度](change-dimension.md)** - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
+| [开始使用编排的营销活动](../gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](../configuration-steps.md)<br/><br/>[创建编排的营销活动的关键步骤](../gs-campaign-creation.md) | [创建编排的营销活动](../create-orchestrated-campaign.md)<br/><br/>[编排活动](../orchestrate-activities.md)<br/><br/><br/>[启动并监视营销活动](../start-monitor-campaigns.md)<br/><br/>[报告](../reporting-campaigns.md) | [使用查询Modeler](../orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](../build-query.md)<br/><br/>[编辑表达式](../edit-expressions.md) | [开始使用活动](about-activities.md)<br/><br/>活动：<br/>[并加入](and-join.md) - [生成受众](build-audience.md) - **[更改维度](change-dimension.md)** - [渠道活动](channels.md) - [组合](combine.md) - [重复数据删除](deduplication.md) - [扩充](enrichment.md) - [分支](fork.md) - [协调](reconciliation.md) - [拆分](split.md) - [等待](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -65,6 +65,6 @@ ht-degree: 24%
 
 使用&#x200B;**[!UICONTROL 愿望清单]**&#x200B;定向维度选择所有相关愿望清单，从&#x200B;**[!UICONTROL 构建受众]**&#x200B;活动开始。
 
-接下来，插入&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动以将定向维度从&#x200B;**[!UICONTROL 愿望清单]**&#x200B;切换到&#x200B;**&#x200B;**&#x200B;[!UICONTROL 收件人]**。 这样，编排的营销活动就可以向与这些愿望清单相关联的用户档案发送短信。
+接下来，插入&#x200B;**[!UICONTROL 更改维度]**&#x200B;活动以将定向维度从&#x200B;**[!UICONTROL 愿望清单]**&#x200B;切换到****[!UICONTROL 收件人]**。 这样，编排的营销活动就可以向与这些愿望清单相关联的用户档案发送短信。
 
 ![](../assets/change-dimension-example.png)
