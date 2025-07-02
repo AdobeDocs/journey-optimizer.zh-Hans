@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 编排的营销活动通过其强大的报告功能为您提供可操作的见解。 这些见解可帮助您更好地了解受众行为，衡量客户历程中每个步骤的表现，并做出数据驱动型决策以优化未来的促销活动。 通过详细的量度和可视化图表，您可以跟踪参与情况并调整定位策略以发挥最大影响。
 
+![](assets/report-orchestrated.png)
 
 ## 报告类型 {#reporting-types}
 
@@ -45,7 +46,7 @@ ht-degree: 11%
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="全时段报告" src="assets/all-time-report.png"></a></td>
       <td>
-        编排的活动报告功能与Customer Journey Analytics功能完全集成，实现了两个平台的报告标准化，并提高了数据一致性和可靠性。 了解有关<a href="../reports/report-gs-cja.md">所有时间报表</a>的更多信息。
+        <b>所有时间报表</b>与Customer Journey Analytics功能完全集成，实现了两个平台报表的标准化，并提高了数据一致性和可靠性。 在本节<a href="../reports/report-gs-cja.md">中了解有关所有时间报表</a>的更多信息。
       </td>
     </tr>
   </tbody>
