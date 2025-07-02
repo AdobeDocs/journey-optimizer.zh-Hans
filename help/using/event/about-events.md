@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="历程事件"
->abstract="事件与个人相关联。它与个人的行为相关（例如，某人购买产品、访问商店、退出网站等）或与个人发生的事情（例如，某人达到10,000个忠诚点）。 Journey Optimizer 可监听历程中的单一事件，以编排最佳的后续操作。"
+>abstract="事件与个人相关联。它与一个人的行为（例如，一个人购买了产品、访问了商店、退出了网站等）或与一个人相关的某件事（例如，一个人达到了 10,000 个忠诚度积分）有关。Journey Optimizer 可监听历程中的单一事件，以编排最佳的后续操作。"
 
 使用事件单独触发历程，在每个用户进入历程时向其交付实时消息。
 
@@ -42,7 +42,7 @@ ht-degree: 43%
 
 ## 业务事件 {#business-events}
 
-**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。在此页面[&#128279;](../event/about-creating-business.md)上了解如何创建业务活动。
+**业务**&#x200B;事件未链接到特定配置文件。 例如，它可以是新闻警报、体育更新、航班更改或取消、库存更新、天气事件等。 虽然这些活动不是特定于某个用户档案，但它们可能与任意数量的用户档案有关：订阅特定新闻主题的个人、航班上的乘客、对缺货产品感兴趣的购物者等。 业务事件始终基于规则。 在历程中放置业务活动时，它会在之后自动添加&#x200B;**读取受众**&#x200B;活动。在此页面[上了解如何创建业务活动](../event/about-creating-business.md)。
 
 
 ## 事件ID类型 {#event-id-type}
@@ -83,8 +83,8 @@ ht-degree: 43%
 
 了解如何配置事件、指定流媒体端点和事件的有效负载。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431516?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 了解商业事件的适用用例。 了解如何使用商业事件构建历程以及可以应用的最佳实践。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416324?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

@@ -13,11 +13,11 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
-# 将Adobe Experience Platform数据用于Decisioning {#aep-data}
+# 使用 Adobe Experience Platform 数据进行决策制定 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"

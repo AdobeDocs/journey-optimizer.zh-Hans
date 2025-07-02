@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="已启用治理"
->abstract="内容锁定已激活并阻止修改。"
+>abstract="内容锁定已启用，禁止进行修改。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="只读"
->abstract="此内容处于只读模式，无法修改。"
+>abstract="此内容处于只读模式，不能被修改。"
 
 Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁定电子邮件模板中的内容。 这样可防止意外编辑或删除，让您更好地控制模板自定义，并提高电子邮件营销活动的效率和可靠性。
 
@@ -196,4 +196,4 @@ Journey Optimizer允许您通过锁定整个模板或特定结构和组件来锁
 
 了解如何在电子邮件模板中锁定内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451617?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

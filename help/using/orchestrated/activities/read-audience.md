@@ -10,7 +10,7 @@ exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 source-git-commit: 7de878c316e966129e7dede37f132938d2abbdf8
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 10%
+ht-degree: 50%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="生成受众活动"
->abstract="**读取受众**&#x200B;活动允许您选择将进入编排的营销活动的受众。 此受众可以是现有Adobe Experience Platform受众，也可以是从CSV文件中拉取的受众。 在编排营销活动的上下文中发送消息时，未在渠道活动中定义消息受众，但在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义。"
+>abstract="您可以使用&#x200B;**阅读受众**&#x200B;活动，选择将进入编排式营销活动的受众。该受众可以是现有的 Adobe Experience Platform 受众，也可以是从 CSV 文件导入的受众。在编排式营销活动中发送消息时，消息受众不是在渠道活动中定义的，而是在&#x200B;**读取受众**&#x200B;或&#x200B;**构建受众**&#x200B;活动中定义的。"
 
 
 +++ 目录
