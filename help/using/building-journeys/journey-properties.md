@@ -137,7 +137,7 @@ ht-degree: 17%
 
 从Adobe Journey Optimizer 2024年6月版本开始，历程全局超时已从30天移动到91天。 影响列于以下常见问题解答中：
 
-单一历程的&#x200B;****
+单一历程的&#x200B;**&#x200B;**
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
