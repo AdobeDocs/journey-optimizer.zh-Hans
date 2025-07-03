@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -40,15 +41,17 @@ ht-degree: 7%
 
 1. 单击&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;按钮。
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 添加自定义CSS]**&#x200B;按钮仅在选择&#x200B;**[!UICONTROL 正文]**&#x200B;时可用。 但是，您可以将自定义CSS样式应用于内容中的所有组件。
+
 1. 在弹出的专用文本区域中输入CSS代码。 确保自定义CSS有效并遵循正确的语法。 [了解详情](#use-valid-css)
 
    ![在专用文本区域中输入自定义CSS](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
    >
-   >**[!UICONTROL 添加自定义CSS]**&#x200B;按钮仅在选择&#x200B;**[!UICONTROL 正文]**&#x200B;时可用。 但是，您可以将自定义CSS样式应用于内容中的所有组件。
-   >
-   >使用包含锁定内容[&#128279;](../content-management/content-locking.md#use)的模板时，无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
+   >使用包含锁定内容[的](../content-management/content-locking.md#use)模板时，无法向内容添加自定义CSS。 按钮标签更改为&#x200B;**[!UICONTROL 查看自定义CSS]**，内容中已存在的任何自定义CSS均为只读。
 
 1. 保存自定义CSS并检查自定义CSS是否正确应用于您的内容。 如果不是这种情况，请查看[疑难解答](#troubleshooting)部分。
 
@@ -164,7 +167,7 @@ body {
 
 ## 技术实施 {#implementation}
 
-您的自定义CSS已添加至`<head>`部分的末尾，作为具有`data-name="global-custom"`属性的`<style>`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
+您的自定义CSS已添加至`<head>`部分的末尾，作为具有`<style>`属性的`data-name="global-custom"`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
 
 ```html
 <!DOCTYPE html>
@@ -201,12 +204,6 @@ body {
 
 电子邮件Designer的&#x200B;**[!UICONTROL 设置]**&#x200B;窗格未解释或验证自定义CSS。 它是完全独立的，只能通过&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;选项进行修改。
 
-如果`global-custom`样式标记的属性`data-disabled`设置为`true`，则不会应用自定义CSS。 例如：
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### 导入的内容
 
 如果要对导入到Email Designer中的内容使用自定义CSS，请考虑以下事项：
@@ -224,7 +221,13 @@ body {
 
 * 确保CSS有效并且没有语法错误（例如缺少大括号、属性名称不正确）。 [了解如何操作](#use-valid-css)
 
-* 确保将您的CSS添加到具有`data-name="global-custom"`属性的`<style>`标记中，并且`data-disabled`未应用于`global-custom`。 [了解详情](#implementation)
+* 确保将您的CSS添加到具有`<style>`属性的`data-name="global-custom"`标记中。
+
+* 检查`global-custom`样式标记是否将属性`data-disabled`设置为`true`。 如果是这种情况，则不会应用自定义CSS。 例如：
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * 确保您的CSS不会被其他CSS规则覆盖，包括应用于内容的任何[主题](apply-email-themes.md)。
 
