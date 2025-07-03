@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: ef0d0e54e566d168a4845cd1af57900d54aec0b7
+source-git-commit: 08746d3689c7ad2db49b991db792cdc41c889f75
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -54,11 +54,9 @@ ht-degree: 11%
 
 ## 深入了解渠道报表
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="电子邮件" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><a href="../reports/campaign-global-report-cja-email.md"><strong>电子邮件渠道</strong></a></p></div></td>
-<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="短信" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><p><a href="../reports/campaign-global-report-cja-sms.md"><strong>短信渠道</strong></a></p></div></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="推送" src="../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><p><a href="../reports/campaign-global-report-cja-push.md"><strong>推送渠道</strong></p></a></div></td>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
+<td><a href="../reports/campaign-global-report-cja-email.md"><img alt="电子邮件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>通过电子邮件发送报告</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="短信" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>短信报告</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="推送" src="../../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>推送报告</strong></a></td>
+</tr></table>
+
