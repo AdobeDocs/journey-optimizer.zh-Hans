@@ -7,7 +7,7 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
-source-git-commit: 28284b3d42a0e78add3470ef128dd740f9cc9dfd
+source-git-commit: de769ae29f933e3bfa520e67b9193666f3f2cef5
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 33%
@@ -59,7 +59,7 @@ ht-degree: 33%
 
 1. 在&#x200B;**[!UICONTROL 用于识别重复项的字段]**&#x200B;部分中，单击&#x200B;**[!UICONTROL &#x200B;添加属性&#x200B;]**&#x200B;按钮以指定允许将相同值视为重复的字段，如电子邮件地址、名字、姓氏等。栏位的顺序可让您指定首要处理的条件。
 
-![](../assets/deduplication-1.png)
+   ![](../assets/deduplication-1.png)
 
 1. 在&#x200B;**[!UICONTROL 重复数据删除设置]**&#x200B;部分中，使用“要保留的重复项”字段选择要保留的唯一记录数。 默认值为1，该值会为每个重复组保留一个记录。 将其设置为0可保留所有重复项。
 
