@@ -1,21 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 创建精心策划的营销活动的关键步骤
-description: 了解使用Adobe Journey Optimizer编排活动创建的主要原则
-badge: label="Alpha"
+title: 使用Adobe Journey Optimizer启动和监控编排的营销活动
+description: 了解如何使用Adobe Journey Optimizer启动和监控编排的营销活动。
 hide: true
 hidefromtoc: true
-exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 22%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 
-
-# 创建精心策划的营销活动的关键步骤 {#orchestrated-campaign-creation}
+# 重新定位 {#retarget}
 
 +++ 目录
 
@@ -26,8 +23,6 @@ ht-degree: 22%
 {style="table-layout:fixed"}
 
 +++
-
-<br/>
 
 >[!BEGINSHADEBOX]
 
