@@ -190,7 +190,7 @@ ht-degree: 98%
       + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
       + [生成您的第一个规则](using/orchestrated/build-query.md)
       + [编辑表达式](using/orchestrated/edit-expressions.md)
-      + [重新定位](using/orchestrated/retarget)
+      + [重新定位] (using/orchestrated/retarget)
    + 精心策划的营销活动 {#design-campaigns}
       + [活动快速入门](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
