@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 85b02f7c0c6cfbaffb458aea79afa6e7d080d10e
+source-git-commit: 27d1ada9f501cd30fdb57104377845de75eff1b0
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 10%
@@ -131,7 +131,7 @@ ht-degree: 10%
 <p>
 </td>
 <td>
-<img alt="历程中的步骤事件" src="../assets/do-not-localize/step-event.jpeg">
+<img alt="历程中的步骤事件" src="../assets/do-not-localize/list.jpeg">
 <div>
 <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">掌握Adobe Journey Optimizer中的步骤事件：数据驱动营销活动的基础知识、架构和基本查询
 </a>
@@ -139,7 +139,7 @@ ht-degree: 10%
 </div>
 <p></td>
 <td>
-<img alt="自定义操作" src="../assets/do-not-localize/list.jpeg">
+<img alt="自定义操作" src="../assets/do-not-localize/step-event.jpeg">
 <div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">如何使用自定义操作扩展Adobe Journey Optimizer：集成用例
 </a>
 </div>
