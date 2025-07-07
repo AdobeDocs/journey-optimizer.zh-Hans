@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -110,7 +110,7 @@ ht-degree: 8%
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. 在`{{#each}}`标记之后，使用上面[描述的&#x200B;**inline**&#x200B;语法，插入与要添加的可编辑表单字段对应的代码](#add-editable-fields)。 将`"name"`替换为唯一ID以标识可编辑的字段。 在此示例中，使用“title”。
+1. 在`{{#each}}`标记之后，使用上面&#x200B;**描述的** inline[语法，插入与要添加的可编辑表单字段对应的代码](#add-editable-fields)。 将`"name"`替换为唯一ID以标识可编辑的字段。 在此示例中，使用“title”。
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
@@ -149,8 +149,8 @@ ht-degree: 8%
 >
 >引用JSON有效负载中的内联字段时：
 >
->   * 字符串类型的字段必须用双引号引住。
->   * 整数或布尔值不能用双引号括起来。 （请参阅上述示例中的`number_of_items`字段。）
+>* 字符串类型的字段必须用双引号引住。
+>* 整数或布尔值不能用双引号括起来。 （请参阅上述示例中的`number_of_items`字段。）
 
 具有决策的&#x200B;**JSON模板：**
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 了解如何将可编辑字段添加到基于代码的体验渠道内容模板。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464001/?learn=on&#x26;enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

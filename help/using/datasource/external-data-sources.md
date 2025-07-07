@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，源，数据，配置，连接，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 36%
@@ -108,11 +108,11 @@ ht-degree: 36%
 * 在&#x200B;**[!UICONTROL 动态值]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“标识符”）。
 * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
-  ```json
-  {"id":{"param":"identifier"}}
-  ```
+```json
+{"id":{"param":"identifier"}}
+```
 
-  ![](assets/journey29.png)
+![](assets/journey29.png)
 
 
 保存更改后，数据源即配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。 如果温度高于 30°C，您可以决定发送特定通信。
@@ -272,4 +272,4 @@ ht-degree: 36%
 
 >[!CAUTION]
 >
->为自定义操作配置自定义身份验证时，请注意，当前不支持&#x200B;**嵌套的JSON对象（如`bodyParams`中的子对象）**。 最终请求有效负载中将只包含平面键值对。 如果身份验证端点需要嵌套对象，这可能会导致缺少字段和身份验证失败。
+>为自定义操作配置自定义身份验证时，请注意，当前不支持`bodyParams`嵌套的JSON对象（如&#x200B;**中的子对象）**。 最终请求有效负载中将只包含平面键值对。 如果身份验证端点需要嵌套对象，这可能会导致缺少字段和身份验证失败。
