@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 7%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 7%
 >
 >避免使用可能无意中破坏内容布局或功能的CSS。
 
-### 有效的CSS
++++ CSS示例
 
 以下是有效CSS的示例。
 
@@ -139,8 +139,9 @@ ht-degree: 7%
   }
 }
 ```
++++
 
-### CSS无效
++++ 无效CSS的示例
 
 如果输入的CSS无效，则会显示一条错误消息，指示CSS无法保存。 以下是无效CSS的示例。
 
@@ -164,10 +165,13 @@ ht-degree: 7%
 body {
   background: red;
 ```
++++
 
 ## 技术实施 {#implementation}
 
 您的自定义CSS已添加至`<head>`部分的末尾，作为具有`<style>`属性的`data-name="global-custom"`标记的一部分，如下面的示例所示。 这可确保将自定义样式全局应用于内容。
+
++++ 请参阅示例
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ body {
   </body>
 </html>
 ```
++++
 
 电子邮件Designer的&#x200B;**[!UICONTROL 设置]**&#x200B;窗格未解释或验证自定义CSS。 它是完全独立的，只能通过&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;选项进行修改。
 
-### 导入的内容
+### 护栏 — 导入的内容
 
 如果要对导入到Email Designer中的内容使用自定义CSS，请考虑以下事项：
 
@@ -223,20 +228,28 @@ body {
 
 * 确保将您的CSS添加到具有`<style>`属性的`data-name="global-custom"`标记中。
 
-* 检查`global-custom`样式标记是否将属性`data-disabled`设置为`true`。 如果是这种情况，则不会应用自定义CSS。 例如：
+* 检查`global-custom`样式标记是否将属性`data-disabled`设置为`true`。 如果是这种情况，则不会应用自定义CSS。
+
++++ 例如：
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * 确保您的CSS不会被其他CSS规则覆盖，包括应用于内容的任何[主题](apply-email-themes.md)。
 
    * 使用浏览器开发人员工具检查内容，并验证CSS是否针对正确的选择器。
 
-   * 考虑将`!important`添加到声明以确保它们优先。 例如：
+   * 考虑将`!important`添加到声明以确保它们优先。
+
++++ 例如：
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
