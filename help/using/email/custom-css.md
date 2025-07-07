@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -142,6 +142,7 @@ ht-degree: 7%
 
 +++
 
+
 +++ 无效CSS的示例
 
 如果输入的CSS无效，则会显示一条错误消息，指示CSS无法保存。 以下是无效CSS的示例。
@@ -209,6 +210,7 @@ body {
 ```
 
 +++
+
 
 电子邮件Designer的&#x200B;**[!UICONTROL 设置]**&#x200B;窗格未解释或验证自定义CSS。 它是完全独立的，只能通过&#x200B;**[!UICONTROL 添加自定义CSS]**&#x200B;选项进行修改。
 
