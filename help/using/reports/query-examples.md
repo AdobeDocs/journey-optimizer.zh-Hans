@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 2%
@@ -25,11 +25,11 @@ ht-degree: 2%
 
 * id：对于所有步骤事件条目均唯一。 两个不同的步骤事件不能具有相同的ID。
 * instanceId：对于历程执行中与配置文件关联的所有步骤事件，instanceID是相同的。 如果用户档案重新进入历程，将使用其他instanceId。 对于重新输入的实例的所有步骤事件（从开始到结束），此新instanceId将相同。
-* profileID：与历程命名空间对应的用户档案身份。
+* profileID：与历程命名空间对应的用户档案标识。
 
 >[!NOTE]
 >
->出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中了解有关历程属性的更多信息。
+>出于故障诊断目的，我们建议在查询历程时使用journeyVersionID，而不是journeyVersionName。 在本节[中了解有关历程属性](../building-journeys/expression/journey-properties.md#journey-properties-fields)的更多信息。
 
 ## 基本用例/常见查询 {#common-queries}
 

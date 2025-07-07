@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 数据集，优化器，用例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '916'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,9 @@ ht-degree: 2%
 * [实体数据集](#entity-dataset)
 
 要查看每个架构字段和属性的完整列表，请参阅 [Journey Optimizer 架构字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans){target="_blank"}。
+
+另请参阅几个用于查询历程步骤事件[的常用](../reports/query-examples.md)示例。
+
 
 ## 电子邮件跟踪体验事件数据集{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+另请参阅几个用于查询历程步骤事件[的常用](../reports/query-examples.md)示例。
+
+
 
 ## 决策事件数据集{#ode-decisionevents}
 
