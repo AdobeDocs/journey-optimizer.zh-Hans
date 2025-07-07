@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 测试，历程，检查，错误，故障排除
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 8%
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->在测试历程之前，必须解决所有错误（如果有）。 在[本节](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中测试之前，了解如何检查错误。
+>在测试历程之前，必须解决所有错误（如果有）。 在[本节](../building-journeys/troubleshooting.md)中测试之前，了解如何检查错误。
 
 要使用测试模式，请执行以下步骤：
 
