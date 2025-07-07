@@ -8,10 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 用例，多渠道，历程，事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 06d25d9344588d668304bbf5d6d3c2e7cd6659ef
+source-git-commit: ce4946047cefec759cf80e26f39f3f82c486c27e
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 15%
+source-wordcount: '277'
+ht-degree: 14%
 
 ---
 
@@ -56,6 +56,9 @@ ht-degree: 15%
   </td>
 </tr>
 </table>
+
+另请参阅几个用于查询历程步骤事件[的常用](../reports/query-examples.md)示例。
+
 
 ## 商业用例
 
