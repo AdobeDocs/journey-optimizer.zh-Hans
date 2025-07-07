@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，探索，入门
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '387'
+ht-degree: 87%
 
 ---
 
@@ -40,13 +40,7 @@ Journey Optimizer 历程设计器提供了营销人员和历程从业者跨渠�
 
 [历程设计器](using-the-journey-designer.md)提供[内置渠道操作](journeys-message.md)，支持出站消息（如电子邮件、推送通知和短信/彩信）以及入站渠道（包括直接在 Journey Optimizer 中构建的移动应用程序、网站和基于代码的体验）。您还可以使用第三方系统发送消息（无论是通过电子邮件、文本还是其他渠道），Journey Optimizer 包含[自定义操作](using-custom-actions.md)，允许直接从历程设计器将这些系统集成到历程中。
 
-了解如何在以下端到端用例中构建历程：
-
-* [发送多渠道消息](journeys-uc.md)
-* [使用 Campaign v7/v8 发送消息](ajo-ac.md)
-* [向订阅者发送消息](message-to-subscribers-uc.md)
-* [使用自定义操作动态传递集合](collections.md)
-* [使用外部数据源和自定义操作限制吞吐量](limit-throughput.md)
+了解如何在这些端到端用例[中构建历程](jo-use-cases.md)。
 
 >[!NOTE]
 >
@@ -56,4 +50,4 @@ Journey Optimizer 历程设计器提供了营销人员和历程从业者跨渠�
 
 了解历程的组件，并了解在画布中构建历程的基础知识。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430352?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
