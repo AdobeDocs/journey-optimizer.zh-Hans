@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 历程，活动，入门，事件，操作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 13%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -62,8 +62,6 @@ ht-degree: 13%
 
 这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
 
-<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
-
 您还可以设置用于发送消息的特定操作：
 
 * 如果您使用第三方系统来发送消息，则可以创建特定的自定义操作。 [了解详情](../action/action.md)
@@ -80,7 +78,7 @@ ht-degree: 13%
 
 大多数活动允许您定义&#x200B;**[!UICONTROL 标签]**。 这会将后缀添加到画布中活动下显示的名称中。 如果您在历程中多次使用同一活动，并且希望更轻松地识别它们，则此功能非常有用。 它还使得在发生错误时能够更轻松地进行调试，并使报告更易于阅读。 您还可以添加可选的&#x200B;**[!UICONTROL 描述]**。
 
-![](assets/journey-action-label.png)
+历程活动属性中的![标签和描述字段](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -90,18 +88,24 @@ ht-degree: 13%
 
 大多数活动会显示许多您无法修改的高级和/或技术参数。
 
-![](assets/journey-advanced-parameters.png)
+历程活动属性中的![高级参数字段](assets/journey-advanced-parameters.png)
 
 为了提高可读性，请使用&#x200B;**[!UICONTROL 隐藏只读字段]**&#x200B;按钮隐藏这些参数。
 
-![](assets/journey-hide-read-only-fields.png)
+![隐藏历程活动属性中的只读字段图标](assets/journey-hide-read-only-fields.png)
 
 在某些特定上下文中，您可以覆盖这些参数的值以供特定使用。 要强制使用某个值，请单击字段右侧的&#x200B;**[!UICONTROL 启用参数覆盖]**&#x200B;图标。[了解详情](../configuration/primary-email-addresses.md#journey-parameters)
 
-![](assets/journey-enable-parameter-override.png)
+![在电子邮件活动属性中启用参数覆盖选项](assets/journey-enable-parameter-override.png)
 
 ### 添加替代路径
 
 当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中框&#x200B;**[!UICONTROL 在超时或错误的情况下添加替代路径]**。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
-![](assets/journey42.png)
+![在条件活动属性中添加替代路径选项](assets/journey42.png)
+
+## 故障排除 {#troubleshooting}
+
+测试和发布历程之前，请验证所有活动均已正确配置。如果系统仍检测到错误，则无法执行测试或发布。
+
+在此页面[上了解如何对活动和历程](troubleshooting.md)中的错误进行故障排除。
