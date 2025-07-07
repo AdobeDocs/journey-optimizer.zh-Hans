@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 97%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 97%
       + [结束您的历程](using/building-journeys/end-journey.md)
       + [将历程复制到另一个沙盒](using/building-journeys/copy-to-sandbox.md)
       + [与智能服务集成](using/building-journeys/ai-services-overview.md)
-   + 故障排除 {#troubleshoot-journey}
-      + [历程错误疑难解答](using/building-journeys/troubleshooting.md)
-      + [历程执行故障诊断](using/building-journeys/troubleshooting-execution.md)
-      + [入站操作疑难解答](using/building-journeys/troubleshooting-inbound.md)
    + 活动 {#about-journey-building}
       + [历程活动入门](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
@@ -178,12 +174,16 @@ ht-degree: 97%
       + [增加投放数量](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
+   + 故障排除 {#troubleshoot-journey}
+      + [历程错误疑难解答](using/building-journeys/troubleshooting.md)
+      + [历程执行故障诊断](using/building-journeys/troubleshooting-execution.md)
+      + [入站操作疑难解答](using/building-journeys/troubleshooting-inbound.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
    + [配置步骤](using/orchestrated/configuration-steps.md)
    + [访问和管理精心策划的营销活动](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + 启动第一个精心策划的营销活动{#launch}
-      + [创建精心策划的营销活动的关键步骤](using/orchestrated/gs-campaign-creation.md)
+      + [创建编排营销活动的重要步骤](using/orchestrated/gs-campaign-creation.md)
       + [创建和规划营销活动](using/orchestrated/create-orchestrated-campaign.md)
       + [策划活动](using/orchestrated/orchestrate-activities.md)
       + [启动和监测营销活动](using/orchestrated/start-monitor-campaigns.md)

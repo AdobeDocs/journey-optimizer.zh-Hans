@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 5ebc82f566d416a177a3278816c60d896a10eff6
+source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 12%
+source-wordcount: '1126'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 | 欢迎使用编排的营销活动 | 启动第一个精心策划的营销活动 | 查询数据库 | 精心策划的营销活动 |
 |---|---|---|---|
-| [开始使用协调的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[访问和管理协调的营销活动](access-manage-orchestrated-campaigns.md) | [创建编排营销活动的关键步骤](gs-campaign-creation.md)<br/><br/><b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[启动和监控营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重新定位](retarget.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
+| [开始使用编排的营销活动](gs-orchestrated-campaigns.md)<br/><br/>[配置步骤](configuration-steps.md)<br/><br/>[访问和管理编排的营销活动](access-manage-orchestrated-campaigns.md)<br/><br/>[创建编排的营销活动的关键步骤](gs-campaign-creation.md) | <b>[创建和计划营销活动](create-orchestrated-campaign.md)</b><br/><br/>[编排活动](orchestrate-activities.md)<br/><br/>[启动并监视营销活动](start-monitor-campaigns.md)<br/><br/>[报告](reporting-campaigns.md) | [使用规则生成器](orchestrated-rule-builder.md)<br/><br/>[生成您的第一个查询](build-query.md)<br/><br/>[编辑表达式](edit-expressions.md)<br/><br/>[重新定位](retarget.md) | [开始使用活动](activities/about-activities.md)<br/><br/>活动：<br/>[并加入](activities/and-join.md) - [生成受众](activities/build-audience.md) - [更改维度](activities/change-dimension.md) - [渠道活动](activities/channels.md) - [组合](activities/combine.md) - [重复数据删除](activities/deduplication.md) - [扩充](activities/enrichment.md) - [分支](activities/fork.md) - [协调](activities/reconciliation.md) - [保存受众](activities/save-audience.md) - [拆分](activities/split.md) - [等待](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -92,7 +92,7 @@ ht-degree: 12%
    * **[!UICONTROL 日期]**：选择应执行营销活动的日期。
    * **[!UICONTROL 时间]**：选择应执行营销活动的特定时间。
 
-   +++
++++
 
    +++每日
 
@@ -106,7 +106,7 @@ ht-degree: 12%
 
    * **[!UICONTROL 开始时间]**：定义每天应执行营销活动的时间。
 
-   +++
++++
 
    +++一天几次
 
@@ -115,7 +115,7 @@ ht-degree: 12%
    * **[!UICONTROL 选定的小时数]**：选择营销活动应运行的特定时间，并配置其每日重复周期（在一周的每一天或某些天执行）。
    * **[!UICONTROL 定期]**：选择每n分钟或每小时运行一次营销活动。 您还可以在允许执行的一天内定义时间范围。
 
-   +++
++++
 
    +++每周
 
@@ -126,7 +126,7 @@ ht-degree: 12%
    * **[!UICONTROL 每日重复]**：选择一周中的特定日期执行（例如，每个星期一和星期四）。
    * **[!UICONTROL 开始时间]**：设置活动在选定日期应执行的时间。
 
-   +++
++++
 
    +++每月
 
@@ -142,7 +142,7 @@ ht-degree: 12%
 
    * **[!UICONTROL 开始时间]**：设置活动应执行的时间。
 
-   +++
++++
 
 1. 使用&#x200B;**[!UICONTROL 有效期]**&#x200B;设置定义特定的开始和结束日期，将营销活动的执行限制在有限的时间范围内。
 
