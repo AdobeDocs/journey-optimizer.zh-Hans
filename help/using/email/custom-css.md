@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css，编辑器，摘要，电子邮件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
+source-git-commit: 50a2f0cab82dfe9fa39ede9a6cfdb1d6c1a8fe18
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 7%
@@ -139,7 +139,6 @@ ht-degree: 7%
   }
 }
 ```
-
 +++
 
 +++ 无效CSS的示例
