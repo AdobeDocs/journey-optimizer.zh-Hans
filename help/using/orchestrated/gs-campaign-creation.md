@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 4840dd87f82d3c9b8cfa5a565ee661bb492cff50
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '367'
 ht-degree: 3%
 
 ---
@@ -43,24 +43,30 @@ ht-degree: 3%
 
 ## 步骤1：创建和计划您的活动 {#create}
 
-首先，您需要创建编排好的营销活动并定义&#x200B;*何时*&#x200B;该活动应运行。 无论是一次性推送还是定期历程，您都可以完全控制推送的时机和频率。
+首先，您需要创建编排好的营销活动并定义&#x200B;*何时*&#x200B;该活动应运行。 无论是一次性推送还是循环的多渠道营销活动，您都可以完全控制时间和频率。
 
-👉 [了解如何创建和计划营销活动](../orchestrated/create-orchestrated-campaign.md)
+➡️ [了解如何创建和计划营销活动](../orchestrated/create-orchestrated-campaign.md)
 
 ## 步骤2：编排营销活动 {#orchestrate}
 
 一旦活动创建完成，就应该设计其背后的逻辑。 使用可视画布，您可以结合定位、交付和流量控制活动来塑造客户体验。
 
-👉 [了解如何编排活动](../orchestrated/orchestrate-activities.md)
+➡️ [了解如何编排活动](../orchestrated/orchestrate-activities.md)
 
 ## 步骤3：启动并监控活动 {#start}
 
 你快到了！ 首先在测试模式下运行营销活动以发现任何问题。 然后，发布它并实时监控实时执行 — 跟踪进度，检查错误，并查看用户档案如何在每个步骤中流动。
 
-👉 [了解如何启动和监控营销活动](../orchestrated/start-monitor-campaigns.md)
+➡️ [了解如何启动和监控营销活动](../orchestrated/start-monitor-campaigns.md)
 
 ## 步骤4：分析和报告结果 {#report}
 
 启动后，请使用内置报告了解哪些组件有效，哪些组件可以改进。 实时功能板和深入分析可帮助您优化未来活动并优化策略。
 
-👉 [了解报告](../orchestrated/reporting-campaigns.md)
+➡️ [了解报告](../orchestrated/reporting-campaigns.md)
+
+## 更进一步：根据参与度重新定位 {#retarget}
+
+活动运行后，您可以更进一步，根据用户档案与您的消息的交互方式（无论用户档案是打开消息还是单击链接）来重定向用户档案。 这样，您就能够跟进量身定制的报文、重新吸引不活跃的用户或者追加关注度。
+
+➡️ [了解如何根据反馈事件重新定位](../orchestrated/retarget.md)
