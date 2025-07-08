@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 97%
@@ -356,20 +356,6 @@ ht-degree: 97%
       + [创建 LINE 消息](using/line/create-line.md)
       + [检查并发送 LINE 消息](using/line/send-line.md)
 + 内容管理 {#content-management}
-   + 登陆页面 {#landing-pages}
-      + [登陆页面入门](using/landing-pages/get-started-lp.md)
-      + [创建登陆页面](using/landing-pages/create-lp.md)
-      + [管理您的登陆页面](using/landing-pages/manage-lp.md)
-      + 设计内容 {#landing-pages-design}
-         + [关于登陆页面设计](using/landing-pages/design-lp.md)
-         + [创建登陆页面内容](using/landing-pages/lp-content.md)
-         + [创建模板](using/landing-pages/lp-templates.md)
-         + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
-      + [创建订阅列表](using/landing-pages/subscription-list.md)
-      + [通过用例学习](using/landing-pages/lp-use-cases.md)
-      + 配置登陆页面 {#lp-configuration}
-         + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
-         + [定义登陆页面预设](using/landing-pages/lp-presets.md)
    + 个性化 {#personalization}
       + [个性化功能快速入门](using/personalization/personalize.md)
       + [添加个性化内容](using/personalization/personalization-build-expressions.md)
@@ -392,6 +378,20 @@ ht-degree: 97%
          + [订单状态通知](using/personalization/personalization-use-case.md)
          + [购物车放弃电子邮件](using/personalization/personalization-use-case-helper-functions.md)
          + [健康计划处方电子邮件](using/personalization/perso-uc-plan-prescriptions.md)
+   + 登陆页面 {#landing-pages}
+      + [登陆页面入门](using/landing-pages/get-started-lp.md)
+      + [创建登陆页面](using/landing-pages/create-lp.md)
+      + [管理您的登陆页面](using/landing-pages/manage-lp.md)
+      + 设计内容 {#landing-pages-design}
+         + [关于登陆页面设计](using/landing-pages/design-lp.md)
+         + [创建登陆页面内容](using/landing-pages/lp-content.md)
+         + [创建模板](using/landing-pages/lp-templates.md)
+         + [添加自定义 JavaScript](using/landing-pages/lp-custom-js.md)
+      + [创建订阅列表](using/landing-pages/subscription-list.md)
+      + [通过用例学习](using/landing-pages/lp-use-cases.md)
+      + 配置登陆页面 {#lp-configuration}
+         + [配置登陆页面子域](using/landing-pages/lp-subdomains.md)
+         + [定义登陆页面预设](using/landing-pages/lp-presets.md)
    + 内容模板 {#content-templates}
       + [内容模板入门](using/content-management/content-templates.md)
       + [访问和管理模板](using/content-management/access-content-templates.md)
