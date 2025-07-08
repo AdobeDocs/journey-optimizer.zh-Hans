@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限量发布版" type="Informative"
 keywords: 发布，历程，实时，有效性，检查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 21%
+source-wordcount: '864'
+ht-degree: 24%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->* 启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止练习的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[本节](../administration/permissions-overview.md)中了解有关管理[!DNL Journey Optimizer]用户访问权限的更多信息。
+>* 启动练习的权限仅限于具有&#x200B;**[!DNL Publish journeys]**&#x200B;高级权限的用户。 停止练习的权限仅限于具有&#x200B;**[!DNL Manage journeys]**&#x200B;高级权限的用户。 在[!DNL Journey Optimizer]本节[中了解有关管理](../administration/permissions-overview.md)用户访问权限的更多信息。
 >
 >* 在开始使用练习功能之前，[请阅读护栏和限制](#journey-dry-run-limitations)。
 
@@ -87,24 +87,10 @@ ht-degree: 21%
 
 启动干模式发布后，您可以可视化历程执行以及用户档案如何通过历程分支和节点进行进度。
 
-量度直接显示在历程画布中。
+量度直接显示在历程画布中。 在历程画布的[实时报告中，了解有关历程实时报告和量度的更多信息](report-journey.md)。
 
 ![监视历程试运行执行](assets/dry-run-metrics.png)
 
-对于每个活动，在其活动框中，您可以选中：
-
-* **[!UICONTROL 已输入]**：进入此活动的个人总数。 对于&#x200B;**操作**&#x200B;活动，由于它们不是在练习模式下执行，因此此量度表示用户档案通过。
-* **[!UICONTROL 已退出（符合退出条件）]**：由于退出条件而退出该活动的个人总数。
-* **[!UICONTROL 已退出（强制退出）]**：由于历程从业者配置而暂停历程时退出历程的个人总数。 对于处于练习模式的历程，此量度始终等于零。
-* **[!UICONTROL 错误]**：在该活动上发生错误的个人总数。
-
-
-在历程级别，在画布的左上部，您可以检查：
-
-* **输入的配置文件总数**
-* **已退出的配置文件总数**
-* 错误&#x200B;**的**&#x200B;配置文件总数
-* 历程中&#x200B;**丢弃的配置文件**&#x200B;的总数
 
 您还可以访问练习的&#x200B;**最近24小时报告**&#x200B;和&#x200B;**所有时间报告**。 要访问这些报告，请单击历程画布右上角的&#x200B;**查看报告**&#x200B;按钮。
 
