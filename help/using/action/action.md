@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 操作，历程，消息，发送，连接
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 51%
+source-wordcount: '285'
+ht-degree: 49%
 
 ---
 
@@ -44,8 +44,10 @@ ht-degree: 51%
 
 ![](assets/custom1.png)
 
+了解如何对此专用页面[上的自定义操作](../action/troubleshoot-custom-action.md)进行故障排除。
+
 ## 操作说明视频 {#video}
 
 了解如何配置自定义操作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430276?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

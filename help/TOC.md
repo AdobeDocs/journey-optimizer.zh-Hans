@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 为您的客户构建并提供互联、情境式和个性化的体验
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [使用外部数据源和自定义操作限制吞吐量](using/building-journeys/limit-throughput.md)
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
    + 故障排除 {#troubleshoot-journey}
+      + [历程疑难解答](using/building-journeys/gs-troubleshooting.md)
       + [历程错误疑难解答](using/building-journeys/troubleshooting.md)
       + [历程执行疑难解答](using/building-journeys/troubleshooting-execution.md)
       + [入站操作疑难解答](using/building-journeys/troubleshooting-inbound.md)
+      + [自定义操作故障排除](using/action/troubleshoot-custom-action.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
    + [配置步骤](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ ht-degree: 97%
    + 操作配置 {#action-journeys}
       + [自定义操作入门](using/action/action.md)
       + [配置自定义操作](using/action/about-custom-action-configuration.md)
-      + [自定义操作故障排除](using/action/troubleshoot-custom-action.md)
       + [在自定义操作中使用 API 调用响应](using/action/action-response.md)
 + 连接系统和环境 {#connect-systems}
    + [与其他解决方案集成](using/integrations/ajo-integrations.md)
