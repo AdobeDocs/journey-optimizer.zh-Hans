@@ -5,19 +5,14 @@ title: 编排的营销活动护栏和限制
 description: 了解编排的活动护栏和限制
 hide: true
 hidefromtoc: true
-source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
+source-git-commit: d9fb9462c52eb8a79fd2c9bd6bdb5381d318453f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 5%
 
 ---
 
 # 护栏和限制 {#guardrails}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_publication"
->title="发布精心策划的营销活动"
->abstract="要开始您的营销活动，您必须发布它。确保在发布之前清除所有警告。"
 
 +++ 目录
 
