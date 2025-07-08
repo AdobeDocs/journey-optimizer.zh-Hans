@@ -10,10 +10,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: 直邮、消息、营销活动
-source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
+source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 25%
+source-wordcount: '760'
+ht-degree: 19%
 
 ---
 
@@ -29,9 +29,7 @@ ht-degree: 25%
 
 创建直邮消息时，[!DNL Journey Optimizer]会自动生成一个文件，其中包含所有定向的用户档案和选定的数据，如邮政地址和用户档案属性。 此文件将会被发送到您选择的服务器，以便您选择的第三方直邮服务提供商可以访问该文件，该提供商将为您处理实际的邮寄过程。
 
-您需要与所选的第三方直邮提供商合作，从您的客户处获得任何必要的同意（如有），以便您的客户可以从您那里接收邮件。
-
-您对邮寄服务的使用受适用的第三方直邮提供商提供的附加条款与条件的约束。 Adobe 无法控制您使用第三方产品，因此无需承担责任。有关直邮消息邮寄的任何问题或协助请求，请与您选择的第三方直邮提供商联系。
+您需要与所选的第三方直邮提供商合作，从客户处获得任何必要的同意（如果适用），以便客户可以从您那里接收邮件。 您对邮寄服务的使用受适用的第三方直邮提供商提供的附加条款与条件的约束。 Adobe 无法控制您使用第三方产品，因此无需承担责任。有关直邮消息邮寄的任何问题或协助请求，请与您选择的第三方直邮提供商联系。
 
 >[!NOTE]
 >
@@ -58,11 +56,9 @@ ht-degree: 25%
 
 ## 创建直邮配置 {#direct-mail-surface}
 
-直邮配置包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。您还必须选择文件路由配置来定义文件的导出位置。
+直邮配置包含文件的格式设置，文件中包含目标受众数据，将由邮件提供商使用。还必须通过选择文件路由配置来定义文件的导出位置。 有关如何创建直邮配置的详细信息，请参阅[直邮配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration)部分。
 
-有关如何创建直邮配置的详细信息，请参阅[直邮配置](../direct-mail/direct-mail-configuration.md#file-routing-configuration)部分。
-
-直邮配置就绪后，您可以创建直邮操作，以将其添加到历程中。
+直邮配置就绪后，您可以在历程中添加直邮操作。
 
 ## 向历程添加直邮操作
 
@@ -70,24 +66,20 @@ ht-degree: 25%
 
 1. 打开您的历程，然后从调色板的&#x200B;**[!UICONTROL 操作]**&#x200B;部分拖放&#x200B;**直邮**&#x200B;活动。
 
-1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。 默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。
+1. 提供有关消息的基本信息（标签、说明、类别），然后选择要使用的消息配置。 默认情况下，**[!UICONTROL 配置]**&#x200B;字段已预填充用户用于该渠道的最后一个配置。 有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)。
 
-   有关如何配置历程的详细信息，请参阅[此页面](../building-journeys/journey-gs.md)
-
-1. 您现在可以配置提取文件以发送给直邮提供商。 为此，请单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
+1. 配置要发送给直邮提供商的提取文件。 为此，请单击&#x200B;**[!UICONTROL 编辑内容]**&#x200B;按钮。
 
    ![](assets/direct-mail-add-journey.png)
 
-1. 调整提取文件属性，如文件名或要显示的列。 有关如何配置提取文件属性的更多信息，请参阅此章节。 [创建直邮消息](../direct-mail/create-direct-mail.md#extraction-file)
+1. 调整提取文件属性，如文件名或要显示的列。 有关如何配置提取文件属性的详细信息，请参阅以下章节：[创建直邮邮件](../direct-mail/create-direct-mail.md#extraction-file)。
 
    ![](assets/direct-mail-journey-content.png)
 
 1. 定义提取文件的内容后，您可以使用测试用户档案进行预览。 如果插入个性化内容，则可以使用测试用户档案数据检查此内容在消息中的显示方式。
 
-   为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。
+   为此，请单击&#x200B;**[!UICONTROL 模拟内容]**，然后添加测试配置文件以检查如何使用测试配置文件数据呈现提取文件。 有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
-
-   有关如何选择测试用户档案和预览内容的详细信息，请参阅[内容管理](../content-management/preview-test.md)部分。
 
 提取文件准备就绪后，完成[历程](../building-journeys/journey-gs.md)的配置以发送该文件。
