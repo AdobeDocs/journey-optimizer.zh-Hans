@@ -10,13 +10,13 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: 直邮、消息、营销活动
-source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
+exl-id: 44886355-ee3a-4323-899a-35d967487924
+source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 19%
 
 ---
-
 
 # 发送历程直邮消息 {#direct-mail-journeys}
 
@@ -72,7 +72,7 @@ ht-degree: 19%
 
    ![](assets/direct-mail-add-journey.png)
 
-1. 调整提取文件属性，如文件名或要显示的列。 有关如何配置提取文件属性的详细信息，请参阅以下章节：[创建直邮邮件](../direct-mail/create-direct-mail.md#extraction-file)。
+1. 调整提取文件属性，如文件名或要显示的列。 有关如何配置提取文件属性的详细信息，请参阅以下部分：[创建直邮邮件](../direct-mail/create-direct-mail.md#extraction-file)。
 
    ![](assets/direct-mail-journey-content.png)
 
