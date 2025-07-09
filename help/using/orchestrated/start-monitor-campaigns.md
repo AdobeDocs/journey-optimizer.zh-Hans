@@ -6,10 +6,10 @@ description: 了解如何使用Adobe Journey Optimizer启动和监控编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: e316c3dbbec028f7501990486506779656990c20
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 9%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 9%
 
 ## 发布前测试活动 {#test}
 
-Journey Optimizer允许您在启动之前测试编排的营销活动。 在测试模式下，将执行画布中的所有活动，但&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动和渠道活动除外。 不会对您的数据或受众产生功能影响。
+[!DNL Journey Optimizer]允许您在启动之前测试编排的营销活动。 创建营销策划后，其默认处于&#x200B;**草稿**&#x200B;状态。 在此状态下，您可以手动执行营销活动以测试流量。
+
+除&#x200B;**[!UICONTROL 保存受众]**&#x200B;活动和渠道活动外，画布中的所有活动都会执行。 不会对您的数据或受众产生功能影响。
 
 要测试活动，请执行以下操作：
 
@@ -47,7 +49,9 @@ Journey Optimizer允许您在启动之前测试编排的营销活动。 在测�
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-营销活动中的每个活动都按顺序执行，直到到达图表末尾。 在测试执行期间，您可以使用画布中的操作栏管理营销活动。 从那里，您可以：
+营销活动中的每个活动都按顺序执行，直到到达图表末尾。
+
+在测试期间，您可以使用画布中的操作栏控制活动执行。 从那里，您可以：
 
 * 随时停止&#x200B;**执行**。
 * **再次开始**&#x200B;执行。
@@ -59,6 +63,8 @@ Journey Optimizer允许您在启动之前测试编排的营销活动。 在测�
 
 您还可以使用直接显示在每个活动上的[可视状态指示器](#activities)快速识别失败的活动。 有关详细的疑难解答，请打开[营销活动的日志](#logs-tasks)，其中提供了有关错误及其上下文的深入信息。
 
+验证后，即可发布营销活动。
+
 ## 发布营销活动 {#publish}
 
 测试营销活动并准备就绪后，单击&#x200B;**[!UICONTROL 发布]**&#x200B;以使其上线。
@@ -66,6 +72,8 @@ Journey Optimizer允许您在启动之前测试编排的营销活动。 在测�
 ![](assets/campaign-publish.png){zoomable="yes"}
 
 视觉流量重新启动，并且真实配置文件开始实时流过历程。
+
+如果发布操作失败（例如，由于缺少消息内容），您将收到警报，必须在重试之前修复问题。 成功发布后，营销活动将从&#x200B;**草稿**&#x200B;状态变为&#x200B;**实时**&#x200B;状态并开始执行（立即或按计划）。
 
 ## 监测活动执行 {#monitor}
 
