@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hidefromtoc: true
+hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 99%
@@ -261,7 +262,7 @@ ht-degree: 99%
 <td>
 <p>使用 Journey Optimizer 营销活动通过各种渠道向特定受众投放一次性内容。使用历程时，操作被设计为按顺序执行。 借助营销活动，可同时执行诸多操作：立即执行或根据指定计划执行。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/3412401?captions=chi_hans">功能介绍视频</a>中了解如何创建营销活动。
+<p>在<a href="../campaigns/get-started-with-campaigns.md">详细文档</a>和<a href="https://video.tv.adobe.com/v/346680">功能介绍视频</a>中了解如何创建营销活动。
 </td>
 </tr>
 </tbody>
@@ -395,7 +396,7 @@ ht-degree: 99%
 * **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅[文档](../building-journeys/end-journey.md)和[功能视频](https://video.tv.adobe.com/v/345376){target="_blank"}。
 
 
-* 默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+*  默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 
 **消息**
 
