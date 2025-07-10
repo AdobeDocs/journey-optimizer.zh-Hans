@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -75,6 +75,8 @@ ht-degree: 1%
 ![禁用图标](assets/do-not-localize/activity-disable.svg) ![启用图标](assets/do-not-localize/activity-enable.svg)禁用/启用活动。 执行编排的活动时，同一路径上禁用的活动和以下活动不会执行，并且编排的活动会停止。
 
 ![暂停图标](assets/do-not-localize/activity-pause.svg) ![恢复图标](assets/do-not-localize/activity-resume.svg)暂停/恢复活动。 执行编排的活动时，活动会在暂停的活动中暂停。 相应的任务以及在同一路径中跟随该任务的所有任务都不会执行。
+
+    您可以将画布中的任何活动用作暂停活动执行的断点。 这意味着该营销活动将仅在此活动之前运行，然后暂停执行。 在暂停执行时，分段引擎会保留临时数据以供您预览。 您可以在暂停的活动之前选择集客过渡以查看传输的数据。 了解有关此部分的更多信息： [可视化流量监视](../orchestrated/start-monitor-campaigns.md#flow)。
 
 ![复制图标](assets/do-not-localize/activity-copy.svg)复制活动。 [了解如何复制粘贴活动](#copy)
 

@@ -6,10 +6,10 @@ description: 了解如何使用Adobe Journey Optimizer启动和监控编排的�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: e316c3dbbec028f7501990486506779656990c20
+source-git-commit: baeb26d3006ee26f4c6651c698c225714c85d9fa
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 8%
+source-wordcount: '774'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="发布精心策划的营销活动"
->abstract="要开始您的营销活动，您必须发布它。确保在发布之前清除所有警告。"
+>abstract="要开始您的营销活动，您必须发布它。确保在发布之前清除所有错误。"
 
 +++ 目录
 
@@ -71,9 +71,13 @@ ht-degree: 8%
 
 ![](assets/campaign-publish.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>如果&#x200B;**[!UICONTROL Publish]**&#x200B;按钮已禁用（灰显），请从操作栏访问日志并检查错误消息。 必须修复所有错误，然后才能发布营销活动。
+
 视觉流量重新启动，并且真实配置文件开始实时流过历程。
 
-如果发布操作失败（例如，由于缺少消息内容），您将收到警报，必须在重试之前修复问题。 成功发布后，营销活动将从&#x200B;**草稿**&#x200B;状态变为&#x200B;**实时**&#x200B;状态并开始执行（立即或按计划）。
+如果发布操作失败（例如，由于缺少消息内容），您将收到警报，必须在重试之前修复问题。 成功发布后，营销活动将开始执行（立即或按计划），从&#x200B;**草稿**&#x200B;状态移动到&#x200B;**实时**&#x200B;状态，并变为“只读”。
 
 ## 监测活动执行 {#monitor}
 
