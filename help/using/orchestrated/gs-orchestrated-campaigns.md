@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -32,26 +32,19 @@ ht-degree: 6%
 
 虽然跨渠道营销至关重要，但精心策划的活动可使其无缝化。 借助可视化拖放界面，您可以跨多个渠道设计和自动化从分段到消息投放在内的复杂营销工作流。 一切都在为速度、控制和效率而构建的直观环境中进行。
 
-此模块将&#x200B;**批次营销活动编排**&#x200B;引入[!DNL Journey Optimizer]，使您能够：
-
-* 构建并执行&#x200B;**多步骤营销活动**（例如，季节性促销活动、新产品发布），
-* 跨任何渠道提供&#x200B;**个性化、一致的消息**，
-* 在一个位置协调&#x200B;**分段、文件处理和任务管理**，
-* 通过批准和任务分配增强协作能力
-
 ## 核心功能
 
 Campaign Orchestration围绕四个关键支柱构建：
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
+<td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。</td></tr>
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。</td></tr>
 <tr style="border: 0;">
-<td><img alt="预发送可见性和精确性" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>发送前可见性和精确度</b><br/>在启动前获取准确的分段计数和完整的促销活动范围，确保准确性和可信度。</td></tr>
+<td><img alt="预发送可见性和精确性" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b>发送前可见性和精确度</b><br/>在启动前获取准确的分段计数和完整的促销活动范围，确保准确性和可信度。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多步骤活动工作流" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
+<td><img alt="多步骤活动工作流" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
 </table>
 
 ## 编排的营销活动和历程
