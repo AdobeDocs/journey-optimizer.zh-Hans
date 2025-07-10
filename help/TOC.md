@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -176,9 +176,9 @@ ht-degree: 96%
       + [使用自定义操作在 Experience Platform 中写入历程事件](using/building-journeys/custom-action-aep.md)
    + 故障排除 {#troubleshoot-journey}
       + [历程疑难解答](using/building-journeys/gs-troubleshooting.md)
-      + [历程错误疑难解答](using/building-journeys/troubleshooting.md)
+      + [故障排除历程错误](using/building-journeys/troubleshooting.md)
       + [历程执行疑难解答](using/building-journeys/troubleshooting-execution.md)
-      + [入站操作疑难解答](using/building-journeys/troubleshooting-inbound.md)
+      + [故障排除入站操作](using/building-journeys/troubleshooting-inbound.md)
       + [自定义操作疑难解答](using/action/troubleshoot-custom-action.md)
 + 精心策划的营销活动 {#orchestrated-campaigns}
    + [精心策划的营销活动快速入门](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -195,7 +195,7 @@ ht-degree: 96%
       + [使用规则生成器](using/orchestrated/orchestrated-rule-builder.md)
       + [生成您的第一个规则](using/orchestrated/build-query.md)
       + [编辑表达式](using/orchestrated/edit-expressions.md)
-      + [重新定位](using/orchestrated/retarget.md)
+      + [重定向](using/orchestrated/retarget.md)
    + 精心策划的营销活动 {#design-campaigns}
       + [活动快速入门](using/orchestrated/activities/about-activities.md)
       + [And-join](using/orchestrated/activities/and-join.md)
@@ -295,19 +295,19 @@ ht-degree: 96%
          + [推送通知数据流](using/push/push-gs.md)
          + [配置推送通知渠道](using/push/push-configuration.md)
          + [移动端加入快速入门工作流程](using/push/mobile-onboarding-wf.md)
-   + 短信/彩信/RCS渠道{#sms}
+   + 短信/彩信/RCS 渠道{#sms}
       + [文本消息快速入门](using/sms/get-started-sms.md)
-      + [创建短信/彩信/RCS消息](using/sms/create-sms.md)
+      + [创建短信/彩信/RCS 消息](using/sms/create-sms.md)
       + [检查和发送文本消息](using/sms/send-sms.md)
       + [管理文本消息选择退出](using/sms/sms-opt-out.md)
       + [设置短信子域](using/sms/sms-subdomains.md)
-      + 配置短信/彩信/RCS渠道{#configure-sms}
-         + [SMS / MMS / RCS 配置入门](using/sms/sms-configuration.md)
+      + 配置短信/彩信/RCS 渠道{#configure-sms}
+         + [短信/彩信/RCS 配置快速入门](using/sms/sms-configuration.md)
          + [配置 Sinch 提供程序](using/sms/sms-configuration-sinch.md)
          + [配置 Infobip 提供程序](using/sms/sms-configuration-infobip.md)
          + [配置 Twilio 提供程序](using/sms/sms-configuration-twilio.md)
          + [配置自定义提供商](using/sms/sms-configuration-custom.md)
-         + [创建短信/彩信/RCS配置](using/sms/sms-configuration-surface.md)
+         + [创建短信/彩信/RCS 配置](using/sms/sms-configuration-surface.md)
    + 直邮 {#direct-mail}
       + [直邮入门](using/direct-mail/get-started-direct-mail.md)
       + [创建直邮](using/direct-mail/create-direct-mail.md)
@@ -564,9 +564,9 @@ ht-degree: 96%
             + [自动优化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [个性化优化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [创建 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
-      + 使用Adobe Experience Platform数据 {#aep-data}
+      + 使用 Adobe Experience Platform 数据 {#aep-data}
          + [利用上下文数据](using/experience-decisioning/context-data.md)
-         + [使用Adobe Experience Platform for Decisioning](using/experience-decisioning/aep-data-exd.md)
+         + [使用 Adobe Experience Platform 进行决策制定](using/experience-decisioning/aep-data-exd.md)
       + [创建选择策略](using/experience-decisioning/selection-strategies.md)
       + [创建决策策略](using/experience-decisioning/create-decision.md)
       + [决策报告](using/experience-decisioning/cja-reporting.md)
@@ -728,7 +728,7 @@ ht-degree: 96%
       + [导出 Journey Optimizer 数据集](using/data/export-datasets.md)
       + [查询示例](using/data/datasets-query-examples.md)
       + [内置架构 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hans)
-   + [使用Adobe Experience Platform数据](using/data/lookup-aep-data.md)
+   + [使用 Adobe Experience Platform 数据](using/data/lookup-aep-data.md)
    + [查询](using/data/get-started-queries.md)
 + 渠道配置 {#configuration}
    + [渠道配置快速入门](using/configuration/get-started-configuration.md)
