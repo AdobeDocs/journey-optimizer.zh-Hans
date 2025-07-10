@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台, 数据湖, 创建, 湖, 数据集, 用户档案
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '847'
-ht-degree: 100%
+source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->自 2024 年 11 月 1 日起，流式分段已不再支持在 Journey Optimizer 跟踪和反馈数据集中使用发送和打开事件。此外，从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。[了解详情](datasets-ttl.md)
+>自2024年11月1日起，流式分段不再支持来自[!DNL Journey Optimizer]跟踪和反馈数据集的发送和打开事件。 要实施频率上限或疲劳管理，请改用业务规则。 您可以在[此部分](../conflict-prioritization/rule-sets.md)中找到更多详细信息，包括[此处](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}的每日上限的使用案例说明。
+>
+>此外，从 2025 年 2 月开始，已推出用于 Journey Optimizer 系统生成数据集的生存时间 (TTL) 护栏。[了解详情](datasets-ttl.md)
 
 选择数据集的名称以访问其数据集活动屏幕，并查看所选数据集的详细信息。活动选项卡包含一个图表，其中可查看消息使用率，以及成功批次和失败批次的列表。
 
@@ -83,7 +85,7 @@ ht-degree: 100%
 
 观看此视频，了解如何创建数据集、将其映射到架构、向其添加数据、确认已摄取数据。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416647?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## 数据治理
 
