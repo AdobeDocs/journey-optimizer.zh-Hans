@@ -7,10 +7,10 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: a1af07fd8e95864ec758717b35e93555eada03f0
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 17%
+source-wordcount: '620'
+ht-degree: 15%
 
 ---
 
@@ -50,13 +50,11 @@ Campaign Orchestration通过强化数据驱动型决策，利用多个源实现�
 
 ## 先决条件
 
->[!BEGINSHADEBOX]
+在使用编排的营销活动之前，请务必确保您拥有适当的权限。 仅限分配给相关&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;的用户访问编排的营销活动，例如编排的营销活动管理员、编排的营销活动审批者、编排的营销活动经理或编排的营销活动查看器。
 
-正在进行文档
+如果您无法访问编排的活动功能，请联系管理员以请求必要的权限。
 
->[!ENDSHADEBOX]
-
-<!--prerequisites & permissions-->
+➡️[了解有关协调营销活动的产品配置文件的更多信息](../administration/ootb-product-profiles.md)
 
 ## 让我们深入探究
 
