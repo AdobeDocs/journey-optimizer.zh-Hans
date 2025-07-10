@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -43,21 +43,16 @@ ht-degree: 6%
 
 Campaign Orchestration围绕四个关键支柱构建：
 
-1. **按需受众**
-
-   即时跨数据集查询，以使用数据类型和维度的任意组合创建受众区段。
-
-1. **多实体分段和发送**
-
-   超越基于人员的营销活动 — 使用产品目录、存储位置或服务数据等实体来准确定位。
-
-1. **预发送可见性和精确性**
-
-   在启动之前获取准确的分段计数和完整的营销活动范围，确保准确性和可信度。
-
-1. **多步骤营销活动工作流**
-
-   设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。
+<table>
+<tr style="border: 0;">
+<td><img alt="按需受众" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>按需受众</b><br/>即时跨数据集查询以使用数据类型和维度的任意组合创建受众区段。</td></tr>
+<tr style="border: 0;">
+<td><img alt="多实体分段和发送" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多实体分段和发送</b><br/>超越基于人员的营销活动 — 使用产品目录、商店位置或服务数据等实体来精确定位。</td></tr>
+<tr style="border: 0;">
+<td><img alt="预发送可见性和精确性" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>发送前可见性和精确度</b><br/>在启动前获取准确的分段计数和完整的促销活动范围，确保准确性和可信度。</td></tr>
+<tr style="border: 0;">
+<td><img alt="多步骤活动工作流" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b>多步骤营销活动工作流</b><br/>设计多步骤营销活动，从每日消息到复杂的营销活动，如季节性促销活动或主要产品发布。</td></tr>
+</table>
 
 ## 编排的营销活动和历程
 
