@@ -7,9 +7,9 @@ badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: ea4b65ae05f219203754ed6e5ddd7effc795ff56
+source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '487'
 ht-degree: 6%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 6%
 +++
 
 <br/>
-
-&#x200B;# Campaign Orchestration入门 {#gs}
 
 [!DNL Adobe Journey Optimizer]中的营销活动编排可跨渠道支持由品牌发起的复杂营销活动，从而帮助您大规模提高参与度、收入和客户忠诚度。
 
